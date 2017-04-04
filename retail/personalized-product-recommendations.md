@@ -41,14 +41,14 @@ Las recomendaciones del producto se habilitan para los siguientes escenarios de 
 
 [proddetails de![] (. /media/proddetails.png])(. /media/proddetails.png)
 
-1.  En ** transacción ** la página:
+2.  En ** transacción ** la página:
 
 -   El motor de recomendación sugiere los artículos basados en la lista completa de artículos en la cesta.
 -   Si el socio de la tienda agrega un cliente a la transacción, el motor de recomendación proporciona recomendaciones personales mediante el historial de la transacción del cliente y la lista de artículos en la cesta.
 
 ** Nota ** mostrar recomendaciones sobre ** transacción ** la página, minoristas el pedido o el diseño de pantalla en Dynamics 365 para las operaciones. ** Recomendaciones ** el control deben quitarse en ** transacción ** a la página. ![transactionscreenmultipleproductslargemessengersbag-5 [] (. /media/transactionscreenmultipleproductslargemessengersbag-5.jpg])(. /media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-1.  En ** Detalles del cliente ** la página:
+3.  En ** Detalles del cliente ** la página:
     -   El motor de recomendación sugiere artículos en función del Id. de usuario y los artículos de la lista de solicitudes del cliente.
 
 [customerdetailsrecommendations de![] (. /media/customerdetailsrecommendations.png])(. /media/customerdetailsrecommendations.png)
