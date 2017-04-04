@@ -1,0 +1,51 @@
+---
+title: Saldos de cuentas de contabilidad
+description: "Este artículo para dos formas de ver los saldos de la cuenta de contabilidad general - la página de lista de saldo de comprobación y los informes financieros. También se describe cómo actualizar los saldos del conjunto de dimensiones."
+author: RobinARH
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: LedgerTrialBalanceListPage
+audience: Application User
+ms.reviewer: RobinARH
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 13191
+ms.assetid: ea3650ac-34a0-4516-b75b-801c2164107d
+ms.search.region: Global
+ms.author: aolson
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 9f4d7fdd8cfa7a540fce219f6ae4792e57dfbe44
+ms.openlocfilehash: 5cda4509d3d793e29982698a3d8e4aa298f5c643
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="general-ledger-account-balances"></a>Saldos de cuentas de contabilidad
+
+Este artículo para dos formas de ver los saldos de la cuenta de contabilidad general - la página de lista de saldo de comprobación y los informes financieros. También se describe cómo actualizar los saldos del conjunto de dimensiones.
+
+Hay varias maneras en que los usuarios pueden ver saldos en la contabilidad general. Algunas de las opciones más comunes son:
+
+-   Saldo de comprobación
+-   Informes financieros
+-   Transacciones de asiento
+-   Informes de contabilidad
+
+Las maneras más comunes son la página de lista de saldo de comprobación y los informes financieros.
+
+## <a name="trial-balance"></a>Saldo de comprobación
+El saldo de comprobación es una página de lista que muestra todos los saldos de una cuenta y/o las dimensiones para un período de tiempo determinado. Cuando el saldo de comprobación se abre primero, se actualiza con los saldo para las fechas y las propiedades que se establecen en los parámetros. Las propiedades que se pueden cambiar en los parámetros son las fechas, la capa de registro, cómo desean que aparezcan los saldos de apertura y qué tipos de transacciones de cierre se van a mostrar. 
+
+Cuando un usuario cambia los parámetros, se actualizan los saldos. El usuario también puede seleccionar para qué conjunto de dimensiones desea ver los saldos y si cada una de las dimensiones se muestran en columnas independientes. 
+
+Los usuarios pueden explorar en profundidad los saldos para ver las transacciones que componen el saldo.    
+
+Para obtener más información, consulte [los informes financieros] de la vista view-financial-reports.md ().
+
+

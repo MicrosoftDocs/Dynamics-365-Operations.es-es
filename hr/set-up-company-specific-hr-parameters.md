@@ -1,0 +1,58 @@
+---
+title: "Configuración de los parámetros de recursos humanos específicos de la empresa"
+description: "La configuración de algunos parámetros de Recursos Humanos (RR. HH.) se comparten entre empresas, mientras que la configuración de otros parámetros son específicos de la empresa. Este artículo explica cómo configurar parámetros de RR. HH. específicos de la empresa."
+author: rschloma
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: HRMParameters
+audience: Application User
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 51941
+ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
+ms.search.region: Global
+ms.author: shielas
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: aaf5c93a1ac71de27338c13218407616808ee001
+ms.openlocfilehash: 39f2904a6b722ad0048ba1d94651098ee642079b
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="set-up-company-specific-hr-parameters"></a>Configuración de los parámetros de recursos humanos específicos de la empresa
+
+La configuración de algunos parámetros de Recursos Humanos (RR. HH.) se comparten entre empresas, mientras que la configuración de otros parámetros son específicos de la empresa. Este artículo explica cómo configurar parámetros de RR. HH. específicos de la empresa.
+
+Se usan dos páginas para definir los parámetros de recursos humanos. Para los parámetros que se comparten entre las empresas, se usa la página **Parámetros compartidos de recursos humanos**. Para los parámetros que son específicos de la empresa (es decir, los ajustes se aplican a una sola empresa), se usa la página **Parámetros de recursos humanos**. En la página **Parámetros de recursos humanos**, los ajustes se dividen en seis pestañas:
+
+-   General
+-   Contratación
+-   Compensación
+-   Secuencias numéricas
+-   Ley de Ausencia Familiar y Médica
+-   Autoservicio para empleados
+
+Cada pestaña contiene información que pertenece a una sola empresa. Los ajustes en la pestaña **General** definen el aspecto de la información acerca de ausencia, lesión y enfermedad, y los nuevos trabajadores. Los ajustes de esta pestaña también definen algunas entradas predeterminadas que aparecen mientras trabaja. Concretamente, esta pestaña permite seleccionar un color que aplicará a las transacciones de ausencia abiertas, especificar la hoja de estilo que se debe usar para los informes y habilitar la integración entre los cursos de aprendizaje y el registro de ausencias, y seleccionar el código de ausencia que se usa para controlar esta integración. También puede indicar cuánto tiempo se deben guardar los incidentes de lesión y enfermedad, y especificar el número de identificación predeterminado que se muestra al contratar a un nuevo trabajador. 
+
+Los ajustes en la pestaña **Contratación** definen los tipos de documento que se usan para la correspondencia que se envía automáticamente a los candidatos, y el proyecto de contratación que se usa para las solicitudes no solicitadas (solicitudes que no son para un proyecto de contratación específico). El período definido para el vencimiento del proyecto de contratación determina los proyectos de contratación que se incluyen en el título **Proyectos en vencimiento** en el espacio de trabajo **Gestión de contratación**. El período definido para la advertencia del plazo de solicitud se usa para mostrar los proyectos de contratación que se están acercando al plazo de la solicitud en el mosaico **Se acerca el plazo de la solicitud** en el espacio de trabajo **Contratación**. 
+
+Los valores de compensación ** ** la ficha definen si los usuarios deben confirmar que desean guardar la información de un plan de compensación fijo o variable. Si selecciona ** validación Guardar de permiso ** la casilla, cualquier momento dicho cierre de los usuarios una página compensación- ellos relacionada, recibirá un mensaje que le preguntará si desea guardar el registro. Algunas páginas de gestión de compensación no permiten a los usuarios eliminar la información. Por tanto, al preguntar al usuario que verifique que desea guardar información, podría ser capaz de limitar el importe de información que se guarda pero, por otro lado, no se podrá eliminar posteriormente. Si la casilla **Habilitar guardar validación** se desactiva, los registros se guardan siempre inmediatamente, probablemente antes de que el usuario esté listo. Si se usa la gestión de rendimiento, la pestaña **Compensación** también le permite seleccionar un modelo de tasación para usarlo en lugar del modelo que está asignado a los planes de compensación al evaluar el rendimiento. 
+
+Los ajustes en la pestaña **Secuencia numérica** determina las secuencias que se usarán para asignar automáticamente identificadores a elementos de recursos humanos, como solicitudes, registros de ausencias, resultados de procesos de compensación, números de casos, cursos y programaciones de cursos. Para mantener las referencias y los códigos de la secuencia numérica, use ** las secuencias numéricas ** la página de lista (haga clic ** Administración de organización ** &gt; ** las secuencias numéricas ** &gt; ** las secuencias numéricas **). 
+
+Los ajustes en la pestaña **FMLA** definen el número de horas que debe trabajar un empleado para que se puedan aplicar las prestaciones de FMLA, la duración del empleo que se requiere para la idoneidad y la fecha de inicio del empleo que se usa para determinar la duración del empleo. Los parámetros también definen el número de horas de FMLA al que tienen derecho los empleados y el calendario de ausencias de FMLA que se usa para calcular cuántas horas de FMLA han usado los empleados. La pestaña **FMLA** solo está disponible para las empresas en los Estados Unidos. 
+
+**Nota:** el número de horas que se trabaja no puede superar 1.250, y la duración del empleo no puede superar 12 meses. Estos valores máximos están de acuerdo con la legislación federal en los Estados Unidos. Finalmente, los ajustes en la pestaña **Autoservicio del empleado** determinan la información que un director puede especificar en nombre de sus empleados.
+
+<a name="see-also"></a>Consulte también
+--------
+
+[Configurar parámetros de recursos humanos en entidades jurídicas](set-up-hr-parameters-across-legal-entities.md)
+
+

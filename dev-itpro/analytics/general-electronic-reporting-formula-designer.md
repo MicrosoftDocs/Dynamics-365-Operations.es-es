@@ -1,0 +1,572 @@
+---
+title: "Diseñador de fórmulas en los informes electrónicos"
+description: "Este tema explica cómo usar el diseñador de fórmula en Informes electrónicos (ER). Cuando diseña un formato para un documento electrónico específico en ER, puede usar fórmulas del tipo de Microsoft Excel para que la transformación de datos cumpla los requisitos para el cumplimiento y el formato de ese documento. Se admiten los distintos tipos de funciones - texto, fecha y hora, lógico matemático, información, conversión de tipo de datos, y otra (dominio- las funciones específicas de la empresa)."
+author: kfend
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+audience: Application User, IT Pro
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
+ms.openlocfilehash: ac8d6c064ca826cc1c2fed07578ca9ce0c66ef66
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="formula-designer-in-electronic-reporting"></a>Diseñador de fórmulas en los informes electrónicos
+
+Este tema explica cómo usar el diseñador de fórmula en Informes electrónicos (ER). Cuando diseña un formato para un documento electrónico específico en ER, puede usar fórmulas del tipo de Microsoft Excel para que la transformación de datos cumpla los requisitos para el cumplimiento y el formato de ese documento. Se admiten los distintos tipos de funciones - texto, fecha y hora, lógico matemático, información, conversión de tipo de datos, y otra (dominio- las funciones específicas de la empresa).
+
+<a name="formula-designer-overview"></a>Visión general del diseñador de fórmulas
+-------------------------
+
+Los informes electrónicos admiten el diseñador de fórmulas. Por tanto, en el momento del diseño, puede configurar las expresiones que se pueden usar para las siguientes tareas en tiempo de ejecución:
+
+-   Transformar datos recibidos de una base de datos de Microsoft Dynamics 365 for Operations y que se deben rellenar en un modelo de datos de ER que se ha diseñado para ser un origen de datos para formatos de ER (filtrado, agrupación, conversión de tipos de datos, etc.).
+-   Formatear datos que se deben enviar a un documento electrónico de generación de acuerdo con el diseño y las condiciones del formato específico de ER (de acuerdo con el idioma o la cultura solicitados, codificación, etc.).
+-   Controlar el proceso de generación de documentos electrónicos (activando o desactivando la salida de elementos específicos del formato en función del procesamiento de datos, la interrupción de la creación del documento, el lanzamiento de mensajes para usuarios finales, etc.).
+
+La página del diseñador de fórmulas se puede abrir si realiza alguna de las siguientes acciones:
+
+-   Enlazar artículos del origen de datos a los componentes del modelo de datos.
+-   Enlazar artículos del origen de datos a componentes de formato.
+-   Completar el mantenimiento de campos calculados como parte de orígenes de datos.
+-   Definir las condiciones de visibilidad para los parámetros de entrada del usuario.
+-   Diseñar las transformaciones de un formato.
+-   Definir las condiciones de habilitación para los componentes del formato.
+-   Definir los nombres de archivo para los componentes de ARCHIVO de formato.
+-   Definir las condiciones para las validaciones de control de proceso.
+-   Definir el texto de mensaje para las validaciones de control de proceso.
+
+## <a name="designing-er-formulas"></a>Diseño de las fórmulas de ER
+### <a name="data-binding"></a>Vinculación de datos
+
+El diseñador de fórmula de ER se puede usar para definir una expresión que transforma datos que se reciben de orígenes de datos, para que se puedan rellenar los datos en el consumidor de datos en tiempo de ejecución:
+
+-   Desde los orígenes de datos de Dynamics 365 for Operations y los parámetros de tiempo de ejecución a un modelo de datos de ER.
+-   Desde un modelo de datos de ER a un formato de ER.
+-   Desde los orígenes de datos de Dynamics 365 for Operations y los parámetros de tiempo de ejecución a un formato de ER.
+
+En la ilustración siguiente se muestra el diseño de una expresión de este tipo. En este ejemplo, la expresión devuelve el valor del campo **Intrastat.AmountMST** de la tabla **Intrastat** de Dynamics 365 for Operations, después de que el valor se haya redondeado a dos posiciones decimales. [imagen-expresión-atascamiento de![] (. /media/picture-expression-binding.jpg])(. /media/picture-expression-binding.jpg) La siguiente ilustración muestra cómo una expresión de este tipo se puede usar. En este ejemplo, el resultado de la expresión diseñada se rellena en Transaction.InvoicedAmount ** ** el componente ** modelo de informe de impuestos ** del modelo de datos. ![picture-expression-binding2 [] (. /media/picture-expression-binding2.jpg])(. /media/picture-expression-binding2.jpg) En el tiempo de ejecución, la fórmula, diseñada ** REDONDA, Intrastat.AmountMST (2) ** redondeará, el valor de ** AmountMST ** campos para cada registro ** Intrastat ** de la tabla y hasta dos posiciones decimales, y rellena el valor redondeado ** Transaction.InvoicedAmount ** el componente ** informe de impuestos ** del modelo de datos.
+
+### <a name="data-formatting"></a>Formato de datos
+
+El diseñador de fórmula de ER se puede usar para definir una expresión que formatea datos que se reciben de orígenes de datos, para que se puedan enviar como parte de la generación de un documento electrónico. Si tiene formato que se debe aplicar como una regla típica que se debe volver a usar para un formato, puede presentar ese formato una vez en la configuración del formato como una transformación con nombre que tenga una expresión de formato. Esta transformación con nombre se puede vincular a continuación a varios componentes de formato para los que se debe formatear el resultado de acuerdo con la expresión creada. En la ilustración siguiente se muestra el diseño de una transformación de este tipo. En este ejemplo, la transformación **TrimmedString** obtiene datos entrantes del tipo de datos **Secuencia** y trunca los espacios de principio y final cuando devuelve el valor de la cadena. [imagen-transformación-diseño de![] (. /media/picture-transformation-design.jpg])(. /media/picture-transformation-design.jpg) La siguiente ilustración muestra cómo una transformación de este tipo se puede usar. En este ejemplo, varios componentes de formato que envían texto como salida al documento electrónico de generación en tiempo de ejecución hacen referencia a la transformación **TrimmedString** por nombre. [imagen-transformación-uso de![] (. /media/picture-transformation-usage.jpg])(. /media/picture-transformation-usage.jpg) Cuando los componentes de formato hacen referencia TrimmedString ** ** a la transformación (por ejemplo, ** partyName ** el componente en la ilustración anterior) que se registra el texto como generado al documento que genera. El texto no incluye espacios principales y finales. Si tiene un formato que se debe aplicar de forma individual, puede introducir ese formato como una expresión individual de una vinculación de un componente de formato concreto. En la ilustración siguiente se muestra una expresión de este tipo. En este ejemplo, el componente del formato **partyType** se vincula al origen de datos mediante una expresión que convierte los datos entrantes del campo **Model.Company.RegistrationType** del origen de datos en texto en mayúsculas y envía ese texto como salida al documento electrónico. [imagen-atascamiento-con-fórmula de![] (. /media/picture-binding-with-formula.jpg])(. /media/picture-binding-with-formula.jpg)
+
+### <a name="process-flow-control"></a>Control de flujo de proceso
+
+El diseñador de fórmulas de ER se puede usar para definir las expresiones que controlan el flujo de proceso de la generación de documentos. El usuario puede:
+
+-   Definir las condiciones que determinan cuándo un proceso de creación de documento se debe detener.
+-   Especifique expresiones que creen mensajes para el usuario final acerca de los procesos detenidos o lancen mensajes de registro de ejecución acerca de continuar con el proceso de la generación del informe.
+-   Especifique los nombres de archivo de los documentos de generación y las condiciones de control de su creación.
+
+Cada regla de control de flujo de proceso está diseñada como validación individual. En la ilustración siguiente se muestra una validación de este tipo. Esta es una explicación de la configuración de este ejemplo:
+
+-   La validación se evalúa cuando se crea el nodo **INSTAT** en el archivo XML de generación.
+-   Si la lista de transacciones está vacía, la validación detiene el proceso de ejecución y devuelve **FALSE**.
+-   La validación devuelve un mensaje de error que incluye el texto de la etiqueta SYS70894 en el idioma preferido del usuario.
+
+[imagen-validación de![] (. /media/picture-validation.jpg])(. /media/picture-validation.jpg) El diseñador de fórmula de ER se puede usar para especificar un nombre de archivo de un documento electrónico que genera y para controlar el proceso de la creación del archivo. En la ilustración siguiente se muestra el diseño de un control de flujo de proceso de este tipo. Esta es una explicación de la configuración de este ejemplo:
+
+-   La lista de registros del origen de datos **modelo. Intrastat** se dividida en lotes, cada uno de los cuales contiene hasta 1000 registros.
+-   La salida crea un archivo zip que contiene un archivo en formato XML para cada lote que se ha creado.
+-   Una expresión devuelve un nombre de archivo para generar documentos electrónicos concatenando el nombre de archivo y la extensión de archivo. Para el segundo lote y todos los lotes posteriores, el nombre de archivo contiene el id. de lote como sufijo.
+-   Una expresión habilita (devolviendo **TRUE**) el proceso de creación de archivos para lotes que contengan al menos un registro.
+
+[imagen-archivo-CONTROL de![] (. /media/picture-file-control.jpg])(. /media/picture-file-control.jpg)
+
+### <a name="basic-syntax"></a>Sintaxis básica
+
+Las expresiones de ER pueden contener todo los elementos siguientes o cualquiera de ellos:
+
+-   Constantes
+-   Operadores
+-   Referencias
+-   Rutas
+-   Funciones
+
+#### <a name="constants"></a>Constantes
+
+Puede usar constantes de texto y numéricas (valores que no se calculan) al diseñar expresiones. Por ejemplo, la expresión ** VALOR (“100”) + 20 ** aplicaciones la constante numérica 20 y la constante de cadena” 100” y devoluciones, el valor numérico ** ** 120. El diseñador de fórmulas de ER admite secuencias de escape, lo que significa que puede especificar esa parte de la cadena de expresión que se debe gestionar de forma diferente. Por ejemplo, la expresión **"Leo Tolstoy ""Guerra y paz"" Volumen 1"** devuelve la cadena de texto **Leo Tolstoy "Guerra y paz" Volumen 1**.
+
+#### <a name="operators"></a>Operadores
+
+La tabla siguiente muestra los operadores aritméticos que puede usar para realizar operaciones matemáticas básicas, como suma, resta, división y multiplicación.
+
+| Operador | Significado              | Ejemplo |
+|----------|----------------------|---------|
+| +        | Adición             | 1+2     |
+| -        | Resta Negación | 5-2 -1  |
+| \*       | Multiplicación       | 7\*8    |
+| /        | División             | 9/3     |
+
+La tabla siguiente muestra los operadores de comparación que se admiten y que puede usar para comparar dos valores.
+
+| Operador | Significado                  | Ejemplo    |
+|----------|--------------------------|------------|
+| =        | Igual                    | X=Y        |
+| &gt;     | Mayor que             | XY&gt;     |
+| &lt;     | Menor que                | XY&lt;     |
+| &gt;=    | Superior a o igual a | X=Y&gt;    |
+| &lt;=    | Inferior a o igual a    | X=Y&lt;    |
+| &lt;&gt; | No igual que             | X&lt;&gt;Y |
+
+Además, puede usar una Y comercial (&) como operador de concatenación de texto para unir, o concatenar, una o más cadenas de texto en una pieza única de texto.
+
+| Operador | Significado     | Ejemplo                                        |
+|----------|-------------|------------------------------------------------|
+| &        | Concatenar | "No hay nada que imprimir" & ": " & "No se encuentran registros" |
+
+#### <a name="operator-precedence"></a>Prevalencia del operador
+
+El orden en el que se evalúan las partes de una expresión compuesta es importante. Por ejemplo, el resultado de la expresión ** 1 + 4/de dos estrellas varía, en función de si la operación de la adición o la operación de la división se realizará primero. Puede usar paréntesis para definir explícitamente la manera en que se evalúa una expresión. Por ejemplo, para indicar que la operación de adición debe llevarse a cabo primero, puede modificar la expresión precedente a **(1 + 4)/2**. Si el orden de las operaciones que se deben realizar en una expresión no se define explícitamente, el pedido se basa en la prioridad predeterminada que se asigna a los operadores admitidos. En las siguientes tablas se muestran los operadores y prioridad que se asigna a cada uno. Los operadores que tienen mayor prioridad (por ejemplo, 7) se evalúan antes que los operadores que tienen prioridad más baja (por ejemplo, 1).
+
+| Precedencia | Operadores      | Sintaxis                                                   |
+|------------|----------------|----------------------------------------------------------|
+| 7          | Agrupación       | ( … )                                                    |
+| 6          | Acceso a miembros  | … . …                                                    |
+| 5          | Llamada de función  | … ( … )                                                  |
+| 4          | Multiplicativa | … \* … … / …                                             |
+| 3          | Aditivo       | … + … … - …                                              |
+| 2          | Comparación     | … &lt; … … &lt;= … … =&gt; … … &gt; … … = … … &lt;&gt; … |
+| 1          | Separación     | … , …                                                    |
+
+Los operadores de la misma línea tienen igual prioridad. Si una expresión incluye más de uno de estos operadores, la expresión se evalúa de izquierda a derecha. Por ejemplo, la expresión ** \* 1 + 6/2 3 &gt; 5 ** devoluciones ** ** verdadera. Se recomienda usar paréntesis para indicar explícitamente el pedido deseado de evaluación para expresiones, para facilitar la lectura y el mantenimiento de las expresiones.
+
+#### <a name="references"></a>Referencias
+
+Todos los orígenes de datos del componente del ER actual (un modelo o un formato) que están disponibles durante el diseño de una expresión se pueden usar como referencias con nombre. Por ejemplo, el modelo de datos actual de ER contiene el origen de datos **ReportingDate**, que devuelve el valor del tipo de datos **DATETIME**. Para dar formato correctamente ese valor en el documento que genera, puede hacer referencia el origen de datos en la expresión como sigue: ** DATETIMEFORMAT (ReportingDate, DD- MM -yyyy “-”) yyyy ** todos los caracteres en nombre de un origen de datos que hace referencia que no representan una letra del alfabeto se debe realizar por una comilla sencilla ('). Si el nombre de un origen de datos que hace referencia contiene al menos un símbolo que no representa una letra del alfabeto (por ejemplo, los signos de puntuación u otros símbolos escritos), el nombre se debe escribir entre comillas simples. A continuación se incluyen algunos ejemplos:
+
+-   Se debe hacer referencia al origen de datos **Hora y día hoy** en una expresión de ER de la siguiente manera: **'Hora y día hoy'**
+-   Debe hacerse referencia al método **name()** del origen de datos **Clientes** en una expresión de ER como se indica a continuación: **Customers.'name()'**
+
+#### <a name="path"></a>Ruta
+
+Cuando una expresión hace referencia a un origen de datos estructurado, puede usar la definición de ruta para seleccionar un elemento primitivo específico de ese origen de datos. Un carácter de punto (.) se usa para separar elementos individuales de un origen de datos estructurado. Por ejemplo, el modelo de datos actual de ER contiene el origen de datos **InvoiceTransactions** que devuelve una lista de registros. La estructura de registros** InvoiceTransactions** contiene los campos **AmountDebit** y **AmountCredit** que devuelven valores numéricos. Por tanto, puede diseñar la siguiente expresión para calcular el importe facturado: **InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**
+
+#### <a name="functions"></a>Funciones
+
+La sección siguiente describe las funciones que se pueden usar en expresiones de ER. Todos los orígenes de datos del contexto de la expresión (el modelo de datos de ER o formato actual de ER) así como las constantes pueden usarse como parámetros de funciones de llamada de acuerdo con la lista de argumentos de la función de llamada. Por ejemplo, el modelo de datos actual de ER contiene el origen de datos **InvoiceTransactions** que devuelve una lista de registros. La estructura de registros** InvoiceTransactions** contiene los campos **AmountDebit** y **AmountCredit** que devuelven valores numéricos. Por tanto, para calcular el importe facturado, puede diseñar la siguiente expresión que usa la función de redondeo incorporada de ER: **ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)**
+
+## <a name="supported-functions"></a>Funciones no permitidas.
+Las siguientes tablas describen las funciones de manipulación de datos que puede usar para diseñar modelos de datos de ER e informes de ER. La lista de funciones no es fija y se puede ampliar por los desarrolladores. Para ver la lista de funciones que puede usar, acceda al panel de funciones del diseñador de fórmulas de ER.
+
+### <a name="date-and-time-functions"></a>Funciones de fecha y de tiempo
+
+| Función                                   | Descripción                                                                                                                                                                                                                                                                                                                                                      | Ejemplo                                                                                                                                                                                                                                                                                               |
+|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ADDDAYS (fecha y hora, días)                   | Agregar el número específico de días al valor especificado de fecha y hora.                                                                                                                                                                                                                                                                                                | **ADDDAYS (NOW(), 7)** devuelve la fecha y la hora siete días en el futuro.                                                                                                                                                                                                                            |
+| DATETODATETIME (fecha)                      | Convertir el valor de la fecha especificada en un valor de fecha y hora.                                                                                                                                                                                                                                                                                                            | ** DATETODATETIME (CompInfo. getCurrentDate “) (") ** devoluciones Dynamics 365 actual para la fecha de la sesión de operaciones, 12/24/2015, como ** 12/24/2015 12:00: ** 00. En este ejemplo, **CompInfo** es un origen de datos de ER del tipo **Dynamics 365 for Operations/Tabla** que hace referencia a la tabla CompanyInfo. |
+| NOW ()                                     | Devolver la fecha y hora actuales del servidor de aplicaciones de Dynamics 365 for Operations como valor de fecha y hora.                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                       |
+| TODAY ()                                   | Devolver la fecha actual del servidor de aplicaciones de Dynamics 365 for Operations como valor de fecha.                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                       |
+| NULLDATE ()                                | Devolver un valor de fecha** nulo**.                                                                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                       |
+| NULLDATETIME ()                            | Devolver un valor de fecha y hora **nulo**.                                                                                                                                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                       |
+| DATETIMEFORMAT (fecha y hora, formato)          | Convertir el valor de fecha y hora especificado a una cadena en el formato especificado. (Para obtener información acerca de los formatos admitidos, vea [estándar](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) y [personalizado](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)                                                                        | **DATETIMEFORMAT (AHORA(), "dd-MM-yyyy")** devuelve la fecha actual del servidor de aplicaciones de Dynamics 365 for Operations, 12/24/2015, como **“24-12-2015”**, según el formato especificado personalizado.                                                                                                          |
+| DATETIMEFORMAT (fecha y hora, formato, cultura) | Convertir el valor de fecha y hora especificado a una cadena en el formato y [cultura](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) especificados. (Para obtener información acerca de los formatos admitidos, vea [estándar](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) y [personalizado](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (AHORA(), "d", "de")** devuelve la fecha actual del servidor de aplicaciones de Dynamics 365 for Operations, 12/24/2015, como **“24.12.2015"**, según la cultura alemana seleccionada.                                                                                                             |
+| SESSIONTODAY ()                            | Devuelve la fecha actual de la sesión de Dynamics 365 for Operations como un valor de fecha.                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                       |
+| SESSIONNOW ()                              | Devuelve la fecha y hora actual de la sesión de Dynamics 365 for Operations como valor de fecha y hora.                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
+| DATEFORMAT (fecha, formato)                  | Devuelve la representación de cadena de la fecha con el formato especificado.                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** devuelve la fecha actual de la sesión de Dynamics 365 for Operations 12/24/2015 como “**24-12-2015**” según el formato personalizado especificado.                                                                                                                      |
+| DATEFORMAT (fecha, formato, cultura)         | Convertir el valor de fecha especificado en una cadena en el formato y cultura [especificados](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Para obtener información acerca de los formatos admitidos, vea [estándar](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) y [personalizado](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)).     | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** devuelve la fecha actual de la sesión de Dynamics 365 for Operations, 12/24/2015, como **“24.12.2015"** según la cultura alemana seleccionada.                                                                                                                       |
+
+### <a name="list-functions"></a>Funciones de lista
+
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Función</th>
+<th>Descripción</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SPLIT (entrada, longitud)</td>
+<td>Dividir la cadena de entrada especificada en subcadenas y cada una de las cuales tiene la duración especificada. Devolver el resultado como nueva lista.</td>
+<td><strong>(DIVISIÓN&quot;abcd&quot;, 3)</strong> devuelve una nueva lista que conste de dos registros que tienen <strong>CADENA</strong> un campo. El campo del primer registro contiene texto <strong>&quot;ABC&quot;</strong>, y el campo en el segundo registro contiene el texto <strong>&quot;d&quot;</strong>.</td>
+</tr>
+<tr class="even">
+<td>SPLITLIST (lista, número)</td>
+<td>Dividir la lista especificada en lotes que contenga cada uno el número de registros especificado. Devolver el resultado como nueva lista de lotes que contenga los elementos siguientes:
+<ul>
+<li>Lotes como listas regulares (componente <strong>Valor</strong>)</li>
+<li>El número de lote actual (componente <strong>BatchNumber</strong>)</li>
+</ul></td>
+<td>En el siguiente ejemplo, se crea el origen de datos <strong>Líneas</strong> como una lista de tres registros, que se divide en lotes, y que cada uno de los cuales contiene hasta dos registros. <a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> este muestra el diseño diseñado de formato, donde los atascamientos <strong>Líneas</strong> el origen de datos se crean para producir un resultado en el formato XML que muestra los nodos individuales para cada lote y registros en él. <a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> el siguiente es el resultado de la ejecución del formato diseñado. <a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+</tr>
+<tr class="odd">
+<td>LIST (registro 1 [, registro 2, ...])</td>
+<td>Devolver una nueva lista creada a partir de argumentos especificados.</td>
+<td><strong>LIST (model.MainData, model.OtherData)</strong> devuelve un registro vacío, en el que la lista de campos contiene todos los campos de las listas de registros <strong>MainData</strong> y <strong>OtherData</strong>.</td>
+</tr>
+<tr class="even">
+<td>LISTJOIN (lista 1, lista 2, ...)</td>
+<td>Devolver una nueva lista combinada que se crea a partir de argumentos especificados.</td>
+<td><strong>LISTJOIN ((DIVIDIDO&quot;ABC&quot;, 1), (DIVISIÓN&quot;def&quot;, 1))</strong> devuelve la lista de seis registros, donde un campo <strong>CADENA</strong> Tipo de datos contiene solas letras.</td>
+</tr>
+<tr class="odd">
+<td>ISEMPTY (lista)</td>
+<td>Devolver <strong>TRUE</strong> si la lista especificada no contiene elementos. En caso contrario, devuelva <strong>FALSE</strong>.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>EMPTYLIST (lista)</td>
+<td>Devolver una lista vacía mediante la lista especificada como origen para la estructura de la lista.</td>
+<td><strong>EMPTYLIST ((DIVIDIDO&quot;ABC&quot;, 1))</strong> devuelve un nuevo vacian la lista que tiene la misma estructura que la lista que ha <strong>DIVISIÓN</strong> devuelto la función.</td>
+</tr>
+<tr class="odd">
+<td>FIRST (lista)</td>
+<td>Devolver el primer registro de la lista especificada, si dicho registro no está vacío. En caso contrario, genera una excepción.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>FIRSTORNULL (lista)</td>
+<td>Devolver el primer registro de la lista especificada, si dicho registro no está vacío. En caso contrario, devuelve un registro <strong>nulo</strong>.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>LISTOFFIRSTITEM (lista)</td>
+<td>Devuelve una lista que contiene solo el primer elemento de la lista especificada.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ALLITEMS (ruta)</td>
+<td>Devuelve una lista nueva aplanada que representa todos los elementos correspondientes a la ruta de acceso especificada. La ruta se debe definir como ruta válida del origen de datos a un elemento de origen de datos del tipo de datos de la lista de registro. La ruta de los elementos de datos de cadena, fecha, etc. debería activar un error en el tiempo de diseño del generador de expresiones de ER.</td>
+<td>Si especifica <strong>(DIVISIÓN&quot;abcdef&quot; , 2)</strong> como origen de datos (DS), <strong>RECUENTO (ALLITEMS (DS.Value))</strong> las devoluciones <strong>3</strong>.</td>
+</tr>
+<tr class="odd">
+<td>ORDERBY (lista [, expresión 1, expresión 2, …])</td>
+<td>Devolver la lista especificada, que se clasifica según los argumentos especificados que se pueden definir como expresiones.</td>
+<td>Cuando <strong>Proveedor </strong>se configura como origen de datos de ER que hace referencia a la tabla VendTable,<strong> ORDERBY (Vendors, Vendors.'name()')</strong> devuelva la lista de proveedores que se clasifica por nombre en orden ascendente.</td>
+</tr>
+<tr class="even">
+<td>REVERSE (lista)</td>
+<td>Devolver la lista especificada en orden de clasificación invertido.</td>
+<td>Cuando <strong>Proveedor </strong>se configura como origen de datos de ER que hace referencia a la tabla VendTable, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> devuelva la lista de proveedores que se clasifica por nombre en orden descendente.</td>
+</tr>
+<tr class="odd">
+<td>WHERE (lista, condición)</td>
+<td>Devolver la lista especificada, que se filtra según la condición determinada. A diferencia de la función de <strong>FILTRO</strong>, la condición especificada se aplica a la lista de la memoria.</td>
+<td>Cuando <strong>Proveedor</strong> se configura como origen de datos de ER que hace referencia a la tabla de VendTable, <strong>DONDE (proveedores, Vendors.VendGroup = &quot;40&quot;)</strong> devuelve la lista de proveedores que pertenece al grupo de proveedores 40.</td>
+</tr>
+<tr class="even">
+<td>ENUMERATE (lista)</td>
+<td>Devolver una nueva lista que consta de los registros enumerados de la lista especificada y que expone los siguientes elementos:
+<ul>
+<li>Registros especificados como listas regulares (componente <strong>Valor</strong>)</li>
+<li>El índice de registros actual (componente <strong>Número</strong>)</li>
+</ul></td>
+<td>En el ejemplo siguiente, el origen de datos <strong>Enumerado</strong> se crea como una lista enumerada de registros de proveedor desde el origen de los datos <strong>Proveedores</strong> que hace referencia a la tabla <strong>VendTable</strong>. <a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a> aquí es el formato, donde se crearán los vínculos de datos para producir un resultado en el formato XML que envía a los proveedores individuales que aparecen como nodos. <a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> es el resultado de la ejecución del formato diseñado. <a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+</tr>
+<tr class="odd">
+<td>COUNT (lista)</td>
+<td>Devolver el número de registros de la lista especificada, si la lista no está vacía. En caso contrario, devuelva <strong>0</strong> (cero).</td>
+<td><strong>RECUENTO ((DIVIDIDO&quot;abcd&quot; , 3))</strong> vuelve <strong>2</strong>, porque <strong>DIVISIÓN</strong> la función crea una lista que conste de dos registros.</td>
+</tr>
+<tr class="even">
+<td>LISTOFFIELDS (ruta)</td>
+<td>Devuelve una lista de los registros creada debido a uno de los siguientes tipos:
+<ul>
+<li>Enumeración de modelo</li>
+<li>Enumeración de formato</li>
+<li>Contenedor</li>
+</ul>
+La lista creada consistirá en registros con los siguientes campos:
+<ul>
+<li>Nombre</li>
+<li>Etiqueta</li>
+<li>Descripción</li>
+</ul>
+Los campos de Etiqueta y Descripción se devolverán a los valores de tiempo de ejecución según la configuración de idioma del formato.</td>
+<td>El siguiente ejemplo muestra la enumeración introducida en un modelo de datos. <a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>las presentaciones el siguiente ejemplo:
+<ul>
+<li>Enumeración de modelo insertada en un informe como origen de datos.</li>
+<li>La expresión del ER diseñado para usar la enumeración de modelo como parámetro de esta función.</li>
+<li>Origen de datos de tipo lista de registro insertado en un informe mediante la expresión de ER creada.</li>
+</ul>
+
+<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> el siguiente ejemplo muestra los artículos del formato de ER que están enlazados el origen de datos de tipo lista de contabilización creado mediante la función de LISTOFFIELDS.<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>es el resultado de la ejecución diseñada del formato.<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>Nota:</strong> tradujo el texto de las etiquetas y las descripciones se entran en la producción de formato de ER de acuerdo con la configuración de idioma configuradas para los artículos del formato del ARCHIVO principal y de la CARPETA.</td>
+</tr>
+<tr class="odd">
+<td>STRINGJOIN (lista, nombre de campo, delimitador)</td>
+<td>Devuelve la cadena de valores concatenados de un campo desde una lista independiente con un delimitador seleccionado.</td>
+<td>Si ha especificado la DIVISIÓN (“abc”, 1) como fuente de datos DS, la expresión STRINGJOIN (DS, DS.Value, “:”) devuelve “a:b:c”</td>
+</tr>
+<tr class="even">
+<td>SPLITLISTBYLIMIT (lista, valor límite, origen del límite)</td>
+<td>Divide la lista proporcionada en una nueva lista de sublistas y devuelve el resultado en contenido de la lista del registro. El parámetro de valor límite especifica el valor del límite para dividir la lista de origen. El parámetro de origen del límite especifica el paso en que la suma total aumenta. El límite no se aplica a un único artículo de la lista proporcionada cuando el origen del límite supera el límite definido.</td>
+<td>El ejemplo siguiente muestra el formato de ejemplo mediante orígenes de datos. <a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>se trata de la ejecución del formato del resultado que muestra la lista plana de artículos de materia.<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a><a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>el siguiente ejemplo muestra que el mismo formato que se ajustó para mostrar la lista de artículos de materia en lotes cuando un único lote debe incluir materias con el peso total que no debe superar el límite de 9.<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>es el resultado de la ejecución ajustada del formato. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a><strong>Nota:</strong> el límite no se aplica al último elemento de origen que aparece como el valor (11) del origen de su límite (peso) supera el límite definido (9). Use la función <strong>DONDE</strong> o la expresión <strong>Habilitado</strong> del elemento de formato correspondiente para omitir (saltar) las sublistas durante la generación de informes (si es necesario).</td>
+</tr>
+<tr class="odd">
+<td>FILTRAR (lista, condición)</td>
+<td>Devuelve la lista filtrada proporcionada para la condición especificada modificando la consulta. A diferencia de la función <strong>DONDE</strong>, la condición especificada se aplica a nivel de base de datos a cualquier origen de datos de ER del tipo de registros de la tabla.</td>
+<td>El FILTRO (proveedores, Vendors.VendGroup = &quot;40&quot;) devuelve la lista solo de proveedores que pertenecen al grupo "40 "de los proveedores cuando <strong>Proveedor</strong> se configura como origen de datos de ER que <strong>VendTable</strong> hace referencia a la tabla</td>
+</tr>
+</tbody>
+</table>
+
+### <a name="logical-functions"></a>Funciones lógicas
+
+| Función                                                                                | Descripción                                                                                                                                                                                                                                                                     | Ejemplo                                                                                                                                                                                                                                                      |
+|-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CASO (expresión opción, 1, 1 resultado opción, \[2, 2 resultado…\] \[,\]resultado predeterminado) | Evaluar el valor de la expresión especificado con las opciones alternativas especificadas. Devolver el resultado de la opción que es igual al valor de la expresión. En caso contrario, devolver el resultado predeterminado introducido opcionalmente (el último parámetro al que no le antecede una opción). | **CASE( DATETIMEFORMAT( AHORA(), "MM"), "10", "INVIERNO", "11", "INVIERNO", "12", "INVIERNO", "")** devuelve la cadena **"INVIERNO"** cuando la fecha actual de la sesión de Dynamics 365 for Operations se encuentra entre octubre y diciembre. En caso contrario, devuelve una cadena en blanco. |
+| SI (condición, valor 1, valor 2)                                                        | Devuelve el valor especificado 1 cuando se cumple la condición determinada. Si no, valor devuelto. 2. Si el valor 1 y el valor 2 son registros o listas de registro, el resultado tendrá solamente los campos que existen en ambas listas.                                                                     | **IF (1=2, "se cumple la condición", "no se cumple la condición")** devuelve la cadena **"no se cumple la condición"**.                                                                                                                                                      |
+| NOT (condición)                                                                         | Devuelve el valor lógico invertido de la condición determinada.                                                                                                                                                                                                                   | **NOT (TRUE)** devuelve **FALSE**.                                                                                                                                                                                                                            |
+| Y puesto (uno\[, condición 2,\])…                                                 | Devolver **TRUE** si *todas *las condiciones especificadas son verdaderas. En caso contrario, devuelva **FALSE**.                                                                                                                                                                                            | **AND (1=1, "a"="a")** devuelve **TRUE**. **AND (1=2, "a"="a")** devuelve **FALSE**.                                                                                                                                                                           |
+| (O bien puesto uno\[, condición 2,\])…                                                  | Devolver **FALSE** si *todas *las condiciones especificadas son falsa. Devolver **TRUE** si *cualquier *condición especificada es verdadera.                                                                                                                                                                 | **OR (1=2, "a"="a")** devuelve **TRUE**.                                                                                                                                                                                                                      |
+
+### <a name="mathematical-functions"></a>Funciones matemáticas
+
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Función</th>
+<th>Descripción</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ABS (número)</td>
+<td>Devuelve el valor absoluto del número especificado (el número sin signo).</td>
+<td><strong>ABS (-1)</strong> devuelve <strong>1</strong>.</td>
+</tr>
+<tr class="even">
+<td>POWER (número, potencia)</td>
+<td>Devolver el resultado de elevar el número positivo especificado a la potencia especificada.</td>
+<td><strong>POWER (10, 2)</strong> devuelve <strong>100</strong>.</td>
+</tr>
+<tr class="odd">
+<td>NUMBERVALUE (cadena, separador decimal, separador de agrupación de dígitos)</td>
+<td>Convertir la cadena especificada en un número. El símbolo especificado se usa para separar el número entero y las partes fraccionarias de un número decimal, y también se usa el separador de millares especificado.</td>
+<td><strong>(NUMBERVALUE&quot;1 234,56&quot;, &quot;,&quot;, &quot; &quot;)</strong> devuelve el valor <strong>1234.56</strong>.</td>
+</tr>
+<tr class="even">
+<td>VALUE (cadena)</td>
+<td>Convertir la cadena especificada en un número. Las comas y los caracteres de punto (.) se consideran separadores decimales y los guiones iniciales (-) se usan como signo negativo. Genere una excepción si se encuentran otros caracteres no numéricos en la cadena especificada.</td>
+<td><strong>(VALOR&quot;1 234,56&quot;)</strong> Se libera una excepción.</td>
+</tr>
+<tr class="odd">
+<td>ROUND (número, decimales)</td>
+<td>Devolver el número especificado, que se redondea al número especificado de posiciones decimales:
+<ul>
+<li>Si el valor de decimales especificado es superior a 0 (cero), el número especificado se redondea al número especificado de decimales.</li>
+<li>Si el valor de decimales especificado es 0 (cero), el número especificado se redondea al número entero más cercano.</li>
+<li>Si el valor de decimales especificado es inferior a 0 (cero), el número especificado se redondea a la izquierda de la coma decimal.</li>
+</ul></td>
+<td><strong>ROUND (1200,767, 2)</strong> redondea a dos lugares decimales y devuelve <strong>1200,77</strong>. <strong>ROUND (1200.767, -3)</strong> redondea al múltiplo más cercano de 1.000 y devuelve <strong>1000</strong>.</td>
+</tr>
+<tr class="even">
+<td>ROUNDDOWN (número, decimales)</td>
+<td>Devolver el número especificado, que se redondea hacia abajo (hacia cero) al número especificado de posiciones decimales. <strong>Nota:</strong> Esta función se comporta como <strong>ROUND</strong>, pero siempre redondea hacia abajo del número especificado.</td>
+<td><strong>ROUNDDOWN (1200,767, 2)</strong> redondea hacia abajo a dos lugares decimales y devuelve <strong>1200,76</strong>. <strong>ROUNDDOWN (1700.767, -3)</strong> redondea hacia abajo al múltiplo más cercano de 1.000 y devuelve <strong>1000</strong>.</td>
+</tr>
+<tr class="odd">
+<td>ROUNDUP (número, decimales)</td>
+<td>Devolver el número especificado, que se redondea hacia arriba (lejos de cero) al número especificado de posiciones decimales. <strong>Nota:</strong> Esta función se comporta como <strong>ROUND</strong>, pero siempre redondea hacia arriba del número especificado.</td>
+<td><strong>ROUNDUP (1200,763, 2)</strong> redondea hacia arriba a dos lugares decimales y devuelve <strong>1200,77</strong>. <strong>ROUNDUP (1200.767, -3)</strong> redondea hacia arriba al múltiplo más cercano de 1.000 y devuelve <strong>2000</strong>.</td>
+</tr>
+</tbody>
+</table>
+
+### <a name="record-functions"></a>Funciones de registro
+
+| Función             | Descripción                                                                                                                                                                                                                                     | Ejemplo                                                                                                                                             |
+|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| NULLCONTAINER (lista) | Devolver un registro **nulo** con la misma estructura que el registro o la lista de registros especificada. **Nota: **Esta función es obsoleta. Use **EMPTYRECORD** en su lugar.                                                                                  | **NULLCONTAINER (SPLIT ("abc", 1))** devuelve un nuevo registro vacía que tiene la misma estructura que la lista que se devuelve por la función **SPLIT**. |
+| EMPTYRECORD (registro) | Devolver un registro **nulo** con la misma estructura que el registro o la lista de registros especificada. ** Nota: ** A ** falta de información ** registro es un registro en todos los campos que no tienen un valor vacío ** 0 (** \[\] cero para números, una cadena vacía para las cadenas, etc.). | **EMPTYRECORD (SPLIT ("abc", 1))** devuelve un nuevo registro vacía que tiene la misma estructura que la lista que se devuelve por la función **SPLIT**.   |
+
+### <a name="text-functions"></a>Funciones de texto
+
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Función</th>
+<th>Descripción</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>UPPER (cadena)</td>
+<td>Devuelve la cadena especificada, que se convierte en letras mayúsculas.</td>
+<td><strong>PARTE (SUPERIOR&quot;Ejemplo&quot;)</strong> devoluciones <strong>&quot;EJEMPLO&quot;</strong>.</td>
+</tr>
+<tr class="even">
+<td>LOWER (cadena)</td>
+<td>Devuelve la cadena especificada, que se convierte en letras minúsculas.</td>
+<td><strong>Más (debajo&quot;Ejemplo&quot;)</strong> devoluciones <strong>&quot;ejemplo&quot;</strong>.</td>
+</tr>
+<tr class="odd">
+<td>LEFT (cadena, número de caracteres)</td>
+<td>Devuelve el número especificado de caracteres desde el inicio de la cadena especificada.</td>
+<td><strong>(IZQUIERDA&quot;Ejemplo&quot;, 3)</strong> devoluciones <strong>&quot;Diego&quot;</strong>.</td>
+</tr>
+<tr class="even">
+<td>RIGHT (cadena, número de caracteres)</td>
+<td>Devuelve el número especificado de caracteres desde el final de la cadena especificada.</td>
+<td><strong>(LA DERECHA&quot;Ejemplo&quot;, 3)</strong> devoluciones <strong>&quot;ple&quot;</strong>.</td>
+</tr>
+<tr class="odd">
+<td>MID (cadena, posición inicial, número de caracteres)</td>
+<td>Devuelve el número especificado de caracteres desde la cadena especificada, empezando por la posición especificada.</td>
+<td><strong>MEDIADOS DE (&quot;Ejemplo&quot;, 2, 3)</strong> devoluciones <strong>&quot;amp&quot;</strong>.</td>
+</tr>
+<tr class="even">
+<td>LEN (cadena)</td>
+<td>Devuelve el número de caracteres de la cadena especificada.</td>
+<td><strong>(LEN&quot;Ejemplo&quot;)</strong> vuelve <strong>6</strong>.</td>
+</tr>
+<tr class="odd">
+<td>CHAR (número)</td>
+<td>Devuelve la cadena de caracteres a la que hace referencia el número Unicode especificado.</td>
+<td><strong>CHAR (255)</strong> devoluciones <strong>&quot;ÿ&quot;</strong>. <strong>Nota:</strong> la cadena devuelta depende de la codificación seleccionada en el elemento de formato del ARCHIVO principal. La lista de codificaciones admitidas se puede encontrar en el tema <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Clase de codificación</a>.</td>
+</tr>
+<tr class="even">
+<td>CONCATENATE (cadena 1 [, cadena 2, …])</td>
+<td>Devolver todas las cadenas de texto especificadas, que se unen en una cadena.</td>
+<td><strong>(CONCATENE&quot;ABC&quot;, &quot;def&quot;)</strong> devoluciones <strong>&quot;abcdef&quot;</strong>. <strong>Nota:</strong> En la expresión <strong>&quot;ABC&quot; &amp; &quot;def&quot;</strong> las devoluciones también <strong>&quot;abcdef&quot;</strong>.</td>
+</tr>
+<tr class="odd">
+<td>TRANSLATE (cadena, patrón, sustitución)</td>
+<td>Devuelve la cadena especificada, en la que todas las apariciones de los caracteres de la cadena de patrones especificados se sustituyen por los caracteres del puesto correspondiente de la cadena de sustitución especificada.</td>
+<td><strong>(TRADUZCA&quot;abcdef&quot;, &quot;CD&quot;, &quot;GH&quot;)</strong> reemplaza al empresario <strong>&quot;CD&quot;</strong> con la cadena <strong>&quot;GH&quot;</strong> y vuelve <strong>&quot;abGHef&quot;</strong>.</td>
+</tr>
+<tr class="even">
+<td>REPLACE (cadena, patrón, sustitución, indicador de expresión regular)</td>
+<td>Cuando es el indicador de expresión regular especificada es <strong>verdadero</strong>, devuelve la cadena especificada, que se modifica aplicando la expresión normal que se especifica como argumento de patrón para esta función. Esta expresión se usa para buscar los caracteres que se deben sustituir. Los caracteres del argumento de sustitución especificado se usan para reemplazar los caracteres que se encuentran. Cuando el indicador de la expresión regular especificada es <strong>falso</strong>, esta función se comporta como <strong>TRANSLATE</strong>.</td>
+<td> <strong>(REEMPLACE&quot;+1 923 456 4971&quot;, &quot;^0-9 []&quot;, &quot;&quot;, verdadera)</strong> aplica una expresión regular quita que todos los símbolos no numéricos, y las devoluciones <strong>&quot;19234564971&quot;</strong>. <strong>(REEMPLACE&quot;abcdef&quot;, &quot;CD&quot;, &quot;GH&quot;, falso)</strong> reemplaza al empresario <strong>&quot;CD&quot;</strong> con la cadena <strong>&quot;GH&quot;</strong> y vuelve <strong>&quot;abGHef&quot;</strong>.</td>
+</tr>
+<tr class="odd">
+<td>TEXT (entrada)</td>
+<td>Devuelve la entrada especificada, que se convierte en una cadena de texto que se formatea según la configuración regional del servidor de la instancia actual de Dynamics 365 for Operations. Para los valores del tipo <strong>real</strong>, la conversión de la cadena se limita a dos decimales.</td>
+<td>Si Dynamics 365 de la configuración regional del servidor de la instancia de las operaciones se define como <strong>EN-US</strong>, <strong>TEXTO (AHORA ())</strong> devuelve Dynamics 365 actual para la fecha de la sesión de operaciones, 12/17/2015, como la cadena <strong>&quot;12/17/2015 07:59: 23&quot;</strong>de texto. <strong>TEXTO (1/3)</strong> vuelve <strong>&quot;0.33&quot;</strong>.</td>
+</tr>
+<tr class="even">
+<td>FORMAT (cadena 1, cadena 2 [, cadena 3,…])</td>
+<td>Devuelve la cadena especificada, que se formatea sustituyendo cualquier aparición de <strong>%N</strong> con el argumento <em>n</em>th. Los argumentos son cadenas. Si un argumento no se proporciona para un parámetro, el parámetro se devuelve como <strong>&quot;%N&quot;</strong> en la cadena. Para los valores del tipo <strong>real</strong>, la conversión de la cadena se limita a dos decimales.</td>
+<td>En este ejemplo, el origen de datos <strong>PaymentModel</strong> devuelve la lista de registros de clientes mediante el componente <strong>Cliente</strong> y el valor de la fecha de procesamiento mediante el campo <strong>ProcessingDate</strong>. <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> en formato de ER diseñada para generar un archivo electrónico para clientes seleccionado, <strong>PaymentModel</strong> se selecciona como origen de datos y controlar el flujo de proceso. Se genera una excepción para los usuarios finales cuando se detiene un cliente seleccionado para la fecha en la que se procesa el informe. La fórmula que está diseñada para este tipo de control de proceso puede usar los recursos siguientes:
+<ul>
+<li>La etiqueta SYS70894 de Dynamics 365 for Operations, tiene el siguiente texto:
+<ul>
+<li><strong>Para el idioma de EN-US:</strong> &quot;Nada imprimir&quot;</li>
+<li><strong>Para el DE Language:</strong> &quot;El zu de Nichts drucken&quot;</li>
+</ul></li>
+<li>La etiqueta SYS18389 de Dynamics 365 for Operations, tiene el siguiente texto:
+<ul>
+<li><strong>Para el idioma de EN-US:</strong> &quot;Detienen al cliente para %1 %2.&quot;</li>
+<li><strong>Para el DE Language:</strong> &quot;Deudor " %1 " gesperrt de für %2 de wird.&quot;</li>
+</ul></li>
+</ul>
+A continuación se indica la fórmula que puede ser diseñada: FORMATO (CONCATENE (, &quot;@SYS70894&quot;&quot;. &quot;, @SYS18389&quot;&quot;), Model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, D)) si un informe &quot;se&quot;procesa para el 17 de diciembre de 2015 <strong>Cliente de ventas al por menor Litware</strong> , en la cultura y el idioma, las devoluciones de esta <strong>EN-US</strong> fórmula el siguiente texto, que se puede mostrar como mensaje de excepción para el usuario final: Nada imprimir. &quot; La ventas al por menor de Litware del cliente se detiene para 12/17/2015.&quot; Si el mismo informe se procesa para<strong> Cliente de ventas al por menor Litware</strong> el 17 de diciembre de 2015, en <strong>DE</strong> la cultura y <strong>DE</strong> el idioma, las devoluciones de esta fórmula el siguiente texto, que usa un formato de otra fecha: &quot;El zu de Nichts drucken. Gesperrt al por menor de für 17.12.2015 de wird de “Litware del deudor”.&quot; <strong>Nota: </strong>La sintaxis siguiente se aplica en las fórmulas de ER para las etiquetas:
+<ul>
+<li><strong>Para las etiquetas de las Dynamics 365 para los recursos de operaciones:</strong><strong>@&quot;X&quot;</strong>, donde el identificador X de etiquetas en árbol de objetos de aplicación (AOT)</li>
+<li><strong>Para las etiquetas que residen en configuraciones de ER:</strong><strong>@&quot;ER_LABEL: X&quot;</strong>, donde el identificador X de etiquetas en la configuración del ER</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>NUMBERFORMAT (número, formato)</td>
+<td>Devuelve la representación de la cadena del número especificado en el formato especificado. (Para obtener información sobre los formatos admitidos, consulte <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">norma</a> y <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">personalizados</a>. El contexto que esta función está deshacer determina la cultura que se usa para los números de formato.</td>
+<td>Para la cultura de EN-US, <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> devoluciones. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> vuelve <strong>&quot;10&quot;</strong>.</td>
+</tr>
+<tr class="even">
+<td>NUMERALSTOTEXT (número, idioma, divisa, indicador del nombre de la divisa de impresión, separadores decimales)</td>
+<td>Devuelve el número explicado (convertido) a las cadenas de texto en el idioma definido. El código de idioma es opcional: cuando se define como cadena vacía, el código de idioma actual de contexto (definido para una carpeta o un archivo que genera) se usará en su lugar. El código de divisa es opcional. Cuando se define como cadena vacía, se usa la divisa de la empresa. Tenga en cuenta que, el parámetro <strong>Nombre de la divisa de impresión</strong> y el parámetro <strong>Separadores decimales</strong> se analizan solo para los códigos de idioma siguientes: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong>, <strong>RU</strong>. Tenga en cuenta que, el parámetro <strong>Nombre de la divisa de impresión</strong> se analiza solo para las empresas de Dynamics 365 for Operations con el contexto del país que admite la declinación de la divisa.</td>
+<td>NUMERALSTOTEXT (1234.56, &quot;EN&quot;falso,) devuelve 2 “mil doscientos treinta y cuatro y 56 "NUMERALSTOTEXT (120 PL&quot;&quot;, falsos 0) devuelve el dwadzieścia “” NUMERALSTOTEXT de Sto (120.21, &quot;departamento&quot;, &quot;euros&quot;, verdadera, 2) devuelve el “евроцент de Сто двадцать евро 21”</td>
+</tr>
+<tr class="odd">
+<td>PADLEFT (cadena, longitud, caracteres de relleno)</td>
+<td>Devuelve una cadena con la longitud especificada en la que el comienzo de la cadena actual se rellena con los caracteres especificados.</td>
+<td>PADLEFT (“1234”, 10, “ “) devuelve la cadena de texto ” 1234”</td>
+</tr>
+</tbody>
+</table>
+
+### <a name="data-collection-functions"></a>Funciones de recopilación de datos
+
+Función
+
+Descripción
+
+Ejemplo
+
+FORMATELEMENTNAME ()
+
+Devuelve el nombre del elemento de formato actual. Devuelve la cadena vacía cuando el indicador **Recopilar de los detalles de salida** de los archivos actuales está desactivado.
+
+Consulte los **los datos de uso de ER del formato generados para contar y calcular** (parte del proceso empresarial de **Adquirir/desarrollar los componentes de servicio/solución de IT**) la guía de tareas para obtener más información acerca del uso de estas funciones.
+
+SUMIFS (cadena clave para sumar, criterios de la cadena de range1, criterios de la cadena de \[, value1 criterios de la cadena de range2, criterios de cadena del value2,\])…
+
+Devuelve una suma de los valores de nodos (con el nombre especificado como una clave) de XML, que se ha obtenido durante esta ejecución de formato y que cumple con las condiciones especificadas (pares de rango y de valor). Devuelve un valor cero cuando el indicador **Recopilar detalles de salida **de los archivos actuales está desactivado.
+
+SUMIF (cadena clave para sumar, cadena de criterio de rango, cadena de criterio de valor)
+
+Devuelve una suma de los valores de nodos (con el nombre especificado como una clave) de XML, que se ha obtenido durante esta ejecución de formato y que cumple con la condición especificada (rango y valor). Devuelve un valor cero cuando el indicador **Recopilar detalles de salida** de los archivos actuales está desactivado.
+
+COUNTIFS (criterios de la cadena de range1, criterios de la cadena de \[, value1 criterios de la cadena de range2, criterios de cadena del value2,\])…
+
+Devuelve un número de XML, que se ha obtenido durante esta ejecución de formato y que cumple con las condiciones especificadas (pares de rango y de valor). Devuelve un valor cero cuando el indicador **Recopilar detalles de salida** de los archivos actuales está desactivado.
+
+COUNTIF (cadena de criterios de rango, cadena de criterios de valor)
+
+Devuelve un número de nodos de XML, que se ha obtenido durante esta ejecución de formato y que cumple con la condición especificada (rango y valor). Devuelve un valor cero cuando el indicador **Recopilar detalles de salida** de los archivos actuales está desactivado.
+
+COLLECTEDLIST (criterios de la cadena de range1, criterios de la cadena de \[, value1 criterios de la cadena de range2, criterios de cadena del value2,\])…
+
+Devuelve una lista de valores de XML, que se ha obtenido durante esta ejecución de formato y que cumple con las condiciones especificadas (rango y valor). Devuelve una lista vacía cuando el indicador **Recopilar detalles de salida **de los archivos actuales está desactivado.
+
+### <a name="other-business-domainspecific-functions"></a>Otras funciones (específicas de dominio empresarial)
+
+| Función                                                                         | Descripción                                                                                                                                                                                                                                                        | Ejemplo                                                                                                                                                                                                                                                                                                       |
+|----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CONVERTCURRENCY (importe, divisa de origen, divisa de destino, fecha, empresa)        | Convertir el importe monetario especificado de la divisa de origen a la divisa de destino con la configuración de la empresa especificada de Dynamics 365 for Operations en la fecha especificada.                                                                            | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** devuelve el equivalente de un euro en dólares estadounidenses en la fecha de la sesión actual, en función de la configuración para la empresa de DEMF.                                                                                                                                  |
+| ROUNDAMOUNT (número, decimales, regla de redondeo)                                       | Redondee el importe especificado de acuerdo con la regla de redondeo especificada y el número especificado de decimales. **Nota:** La regla de redondeo se debe especificar como un valor de la enumeración **RoundOffType** de Dynamics 365 for Operations.                          | Si ** model.RoundOff ** el parámetro se establece al **** hacia abajo de ****, ** ROUNDAMOUNT (1000.787, 2, model.RoundOff) ** devuelve el valor 1000.78 ** **. Si el parámetro **model.RoundOff** se establece en **Normal** o **Redondeo por arriba**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** devuelve el valor **1000,79**. |
+| CURCredRef (dígitos)                                                              | Devuelve una referencia de acreedor basada en los dígitos del número de factura especificado.                                                                                                                                                                                  | **CURCredRef (“VEND-200002”)** devuelve **“2200002"**.                                                                                                                                                                                                                                                         |
+| MOD\_(97 dígitos)                                                                 | Devuelve una referencia de acreedor como expresión MOD97, basada en los dígitos del número de factura especificado.                                                                                                                                                            | ** MOD\_(“97”) VEND-200002 ** devoluciones ** "20000285 "**.                                                                                                                                                                                                                                                           |
+| ISOCredRef (dígitos)                                                              | Devuelve una referencia de acreedor ISO, basada en los dígitos y los símbolos alfabéticos del número de factura especificado. **Nota: **Para anular símbolos de los alfabetos que no son compatibles con ISO, el parámetro de entrada se debe traducir antes de que se pase a esta función. | **ISOCredRef (“VEND-200002”)** devuelve **“RF23VEND-200002"**.                                                                                                                                                                                                                                                 |
+| NC\_GBT\_AdditionalDimensionID (cadena, número)                                  | Obtener el identificador de dimensión financiera adicional. Las dimensiones se representan en esta cadena como identificadores separados por comas. Los números definen el código de la secuencia de la dimensión solicitada en esta cadena.                                                                            | NC\_GBT\_(“AdditionalDimensionID AA, BB, CC, DD, EE, avance de página, GG HH,” 3, “) devolución CC”                                                                                                                                                                                                                                      |
+| GetCurrentCompany ()                                                             | Devuelve el código de la empresa registrada actual.                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                               |
+| MOD BANK\_(\_10 dígitos) de\_CH                                                       | Devuelve una referencia de acreedor como expresión MOD10 en función del número de factura proporcionado.                                                                                                                                                                      | BANK\_\_MOD de CH\_(“10” VEND-200002 devoluciones 3)                                                                                                                                                                                                                                                                   |
+| \_SUM activos fijos (código de activos fijos, código del modelo de valor, Fecha inicial, Fecha final)               | Devuelve el contenedor de datos preparado de los importes de un activo fijo para un período.                                                                                                                                                                                         | El activos fijos SUM\_(“COMP-000001 “, “” actual, Date1, Date2) devuelve el contenedor preparado de datos del activo fijo “COMP-000001” con el modelo de valor “actual” para un período de Date1 a Date2.                                                                                                                        |
+| \_EQUILIBRAR activos fijos (código de activos fijos, código del modelo de valor, por año, los la fecha) | Devuelve el contenedor de datos preparado de los saldos de activos fijos. El año de notificación debe especificarse como valor de la enumeración de Dynamics 365 for Operations **AssetYear**.                                                                                           | A/F SUM\_(“COMP-000001 “, “” actual, año de AxEnumAssetYear.This, SESSIONTODAY ()) devuelve el contenedor preparado de los datos de los saldos del activo fijo “COMP-000001” con el modelo de valor “actual” en la actual 365 para la fecha de la sesión de las operaciones.                                                                |
+
+### <a name="functions-list-extension"></a>Extensión de la lista de funciones
+
+ER le permite ampliar la lista de funciones que se usan en las expresiones de ER. Son necesarios algunos esfuerzos de ingeniería. Para obtener información detallada, vea [Ampliar la lista de funciones de informes electrónicos](general-electronic-reporting-formulas-list-extension.md).
+
+<a name="see-also"></a>Consulte también
+--------
+
+[Visión general de los informes electrónicos](general-electronic-reporting.md)
+
+[Ampliar la lista de funciones de Informes electrónicos (ER)](general-electronic-reporting-formulas-list-extension.md)
+
+

@@ -1,0 +1,52 @@
+---
+title: "Métodos de pago"
+description: "Cada tipo de pago que acepta un minoristas se debe configurar en ventas al por menor y comercio de Microsoft Dynamics 365 para las operaciones cuando se configura el sistema. Este artículo describe los tipos de pago que puede configurar y describe el proceso para configurarlos."
+author: MargoC
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+audience: Application User
+ms.reviewer: MargoC
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 15831
+ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: yabinl
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: b887fc5d03ea8982515e92725ce98cc416e56f9e
+ms.openlocfilehash: 011beec07bf1ab858892ab1c374f1acf3839e877
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="payment-methods"></a>Métodos de pago
+
+Cada tipo de pago que acepta un minoristas se debe configurar en ventas al por menor y comercio de Microsoft Dynamics 365 para las operaciones cuando se configura el sistema. Este artículo describe los tipos de pago que puede configurar y describe el proceso para configurarlos.
+
+Los minoristas pueden aceptar distintos tipos de pago a cambio de los productos y los servicios que venden. Aunque el efectivo es la forma más habitual de pago, los minoristas pueden recibir el pago también mediante cheques, tarjetas, cupones, etc. Cada tipo de pago que acepta el minoristas se debe configurar en Dynamics 365 para las operaciones (al por menor cuando se configura el sistema. La lista siguiente describe cada tipo de pago que se puede configurar en Dynamics 365 para las operaciones (al por menor:
+
+-   **Efectivo**: dinero con la forma física de la divisa, tales como billetes y monedas. Esta divisa puede ser la de la empresa o la divisa local de la tienda.
+-   **Cheque**: instrumento negociable que dicta el pago de un importe específico en una divisa concreta, librado en un banco determinado. Normalmente, un cheque tiene una validez indefinida o de seis meses a partir de la fecha de emisión, a menos que se indique otro período de validez. Este período varía en función del banco en el que se libra el cheque. Existen varios tipos de cheques, tales como los cheques nominativos, cheques de mostrador, cheques al portador y cheques para abono en cuenta. Puede configurar los cheques como método de pago de cada tienda. Los cheques se pueden aceptar en la divisa definida en la empresa o en la tienda. Debe configurar los cheques como método de pago para poder aceptar un cheque como pago en una tienda.
+-   **Divisa**: forma principal de pago, aparte de la divisa predeterminada de la empresa. Tanto las monedas como los billetes son formas de divisa. El método de pago en divisa representa todas las divisas que se usan en Venta minorista y comercio. Para poder usar este método de pago, debe configurar divisas y especificar su información de cambio para las divisas.
+-   **Tarjeta**: todos los tipos de tarjetas que se usan en Venta minorista y comercio, como tarjetas de débito y crédito. Le recomendamos que, en la organización, configure un método de pago con tarjeta que represente todos los tipos de tarjeta. A continuación, configure en cada tienda un método de pago para cada tarjeta o grupo de tarjetas que se procesen con la misma configuración. Debe configurar las tarjetas de fabricantes disponibles en el mercado, como tarjetas de débito y crédito, para poder aceptar las tarjetas como pago en una tienda.
+-   **Nota de crédito**: notas de crédito emitidas o canjeadas en el punto de venta. La nota de crédito puede ser un crédito o una nota de crédito de devolución que se utiliza con una devolución. Si las notas de crédito se canjean parcialmente, el programa emite una nueva nota de crédito para el nuevo saldo. La nueva nota de crédito tiene un nuevo número. Una nota de crédito solo se puede usar una vez y el sistema guarda un registro de todos los números que se usan. El registro se puede ver en la página **Tabla de notas de crédito**. Los clientes no pueden canjear por un valor superior al de la nota de crédito.
+-   **Tarjeta regalo**: tarjetas regalo emitidas y canjeadas en el punto de venta. No se permite el sobrepago con tarjetas regalo.
+-   **Cuenta de cliente**: permite cargar los pagos desde la caja registradora a una cuenta de cliente en el momento de la venta. También puede usar este método de pago para recopilar información de ventas o descuentos específicos del cliente si este realiza el pago mediante otro método. En tal caso, debe configurar información específica del cliente.
+-   ** La columna Puntos ** – los puntos que los clientes se acumulan con los programas de fidelidad. Si crea los programas de fidelidad, los clientes pueden obtener puntos y después pueden en varias maneras. Por ejemplo, en algunos programas de fidelización, los clientes pueden canjear los puntos de fidelidad en un formulario de descuento o incluso usarlos como forma de pago.
+
+Para configurar los métodos de pago en Venta minorista y comercio debe completar las tareas que siguen.
+
+1.  Configure los métodos de pago para una organización. Cree métodos de pago aceptados en toda la organización.
+2.  Creación de tipos y números de tarjeta de la organización de tarjeta. Si se aceptan tarjetas de crédito o de débito, debe crear un método de pago para las tarjetas, y crear los tipos y números de tarjeta de la organización de tarjeta.
+3.  Método de pago de la tienda de la configuración. Asociar métodos de pago con cada tienda, y especifique los valores específicos para cada método de pago.
+4.  Configurar métodos de pago de tarjeta para las tiendas. Para cualquier método de pago de tarjeta con el almacén Aceptar, complete la configuración de tarjeta.
+
+
+

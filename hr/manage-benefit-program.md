@@ -1,0 +1,72 @@
+---
+title: Permite definir y gestionar un programa de prestaciones
+description: "Los Recursos humanos ofrecen una serie de herramientas que se pueden usar para configurar y mantener prestaciones, deducciones y los planes de compensación de los trabajadores que una organización ofrece o procesa para sus trabajadores. En este artículo se ofrece información acerca de cómo configurar y gestionar prestaciones."
+author: rschloma
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: HcmBenefitEligibilityDetail, HcmBenefitSelection, SysPolicyListPage, SysPolicySourceDocumentRuleType
+audience: Application User
+ms.reviewer: rschloma
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 15681
+ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
+ms.search.region: Global
+ms.author: kherr
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 81b5c9056001b26c33b2b42a95711ff5b50243e6
+ms.openlocfilehash: 9d00d8f6dfa075f53473af31c257deb57c9efa86
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="define-and-manage-a-benefits-program"></a>Permite definir y gestionar un programa de prestaciones
+
+Los Recursos humanos ofrecen una serie de herramientas que se pueden usar para configurar y mantener prestaciones, deducciones y los planes de compensación de los trabajadores que una organización ofrece o procesa para sus trabajadores. Este tema proporciona información acerca de cómo configurar las prestaciones de un la gestión.
+
+<a name="benefit-setup"></a>Configuración de prestación
+-------------
+
+Para que los trabajadores puedan inscribirse en prestaciones, debe crear los elementos de cada prestación. Estos elementos combinan planes de prestaciones similares y definen la configuración predeterminada, como las tasas de deducción y los detalles de contabilidad. Muchos de estos parámetros se pueden ajustar cuando los trabajadores se inscriben posteriormente en la prestación. Para cada plan de prestaciones, una organización puede ofrecer varias opciones de inscripción o un trabajador puede condonar inscripción en el plan. 
+
+[flujo de proceso de prestación![] (. /media/benefit-process-flow1.png])(. /media/benefit-process-flow1.png)
+
+## <a name="benefit-elements"></a>Elementos de prestación
+Para poder comenzar a crear prestaciones e inscribir trabajadores en ellas, debe definir los elementos que componen una prestación: el tipo, el plan y las opciones.
+
+-   **Tipo**: un conjunto de planes de una prestación determinada, como cobertura médica o estacionamiento pagado.
+-   **Plan**: una prestación concreta contratada a un proveedor.
+-   **Opción**: el nivel de cobertura, como empleado sólo o como empleado y cónyuge/pareja.
+
+Para cada tipo de prestación, como de visión o dental, una organización puede ofrecer uno o varios planes a sus trabajadores. Para cada plan, la organización puede ofrecer diferentes opciones. Por ejemplo, los trabajadores pueden comprar cobertura adicional de seguro de vida a término una, dos o tres veces su sueldo anual. Cada combinación de un plan y de opciones se convierte en una prestación en la que los trabajadores pueden inscribirse. 
+
+[imagen de prestación![] (. /media/benefit-pic.png])(. /media/benefit-pic.png)
+
+## <a name="eligibility"></a>Idoneidad
+Muchos factores determinan la idoneidad del trabajador para los distintos tipos de prestaciones que el empleador ofrece. Cuando se crea un prestación en Microsoft Dynamics 365 para las operaciones, puede establecer el tipo de idoneidad para que se aplique a dicho prestación. 
+
+Puede poner a una prestación a disposición todos los trabajadores. Por ejemplo, pasos de aparcamiento de la propuesta de algunas empresas a todos los empleados como prestación complementaria. Cuando crea esta prestación, establece la idoneidad en **Todos los trabajadores son aptos**. 
+
+Para otros ganancias, como embargos y conjuntos de impuestos, la idoneidad no es aplicable. Suero el crear estos tipos de prestaciones, se establece la idoneidad ** omita el proceso de idoneidad **. 
+
+Finalmente, la idoneidad de prestaciones se puede basar en las reglas. Por ejemplo, una empresa proporciona dos tipos de prestación de seguro de vida a los empleados. Los empleados ejecutivos son aptas para un plan de seguro de vida, mientras que el resto de empleados a tiempo completo son aptas para otro plan de seguro de vida. En Dynamics 365 para las operaciones, puede crear una regla de idoneidad de prestaciones para encontrar todos los empleados ejecutivos y otra regla de encontrar el resto de empleados a tiempo completo y, a continuación se aplica dichas reglas la prestación adecuado.
+
+## <a name="enrollment"></a>Inscripción
+Una vez que haya creado las prestaciones que su organización ofrece y la idoneidad determinada, puede inscribir a sus trabajadores en prestaciones. Puede inscribir a un único trabajador en prestaciones o bien, puede inscribir varios trabajadores en una o más prestaciones durante un proceso único. 
+
+A veces, una organización deja de ofrecer determinadas prestaciones. En este caso, debe actualizar la prestación y los trabajadores que están inscritos. Vencimiento total de la prestación permite cambiar la fecha de vencimiento de una prestación y las inscripciones del trabajador para dicho prestación al mismo tiempo. También puede seleccionar varios trabajadores inscritos en una prestación y cambiar la fecha final de cobertura. 
+
+Del mismo modo, la extensión total de la prestación le permite ampliar la fecha de vencimiento tanto de una prestación como las inscripciones de trabajador para dicha prestación si decide ofrecer una prestación más tiempo de lo que planeó originalmente.
+
+<a name="see-also"></a>Consulte también
+--------
+
+[Benefit eligibility policies](benefit-eligibility-policies.md)
+
+
