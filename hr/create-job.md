@@ -48,10 +48,10 @@ Los tipos de trabajo para agrupar trabajos similares en categorías. Los tipos d
 ## <a name="job-functions"></a>Funciones de trabajo
 Las uniones de trabajo categorías describen funcionales de alto nivel y deberes relacionadas de alto nivel. Las funciones de trabajo no son necesarias. Puede usar funciones de trabajo, junto con tipos de trabajo, para filtrar planes de compensación para trabajos específicos. Para asociar funciones y tipos de trabajo a planes de compensación configurando reglas de idoneidad en ** las reglas de idoneidad ** la página. A continuación puede vincular un conjunto de niveles al plan de compensación que se apliquen a la combinación específica de una función del tipo de trabajo y de trabajo que ha definido mediante una regla de idoneidad. (Estas características se aplican a planes de compensación fija y los planes de compensación variable.) Sin embargo, si planifica usar funciones de trabajo al configurar reglas de elegibilidad para la gestión de compensación, debe configurar funciones de trabajos antes de configurar trabajos de la configuración. En la tabla siguiente se muestran algunos ejemplos de las funciones de trabajo.
 
-| Trabajo           | Función de trabajo      |
-|---------------|-------------------|
-| Director de ventas | Administrador de nivel medio |
-| Contable    | Profesionales     |
+| Trabajo           | Función de trabajo         |
+|---------------|----------------------|
+| Director de ventas | Administrador de nivel medio    |
+| Contable    | Profesionales        |
 
 Se mantiene funciones de trabajo mediante ** las funciones de trabajo ** la página. ** En las funciones de trabajo ** la página, especifique un código de identificación y una descripción breve para la función de trabajo.
 

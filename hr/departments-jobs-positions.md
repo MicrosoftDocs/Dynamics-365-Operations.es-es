@@ -56,10 +56,6 @@ Un trabajo es un conjunto de tareas y responsabilidades que deberá cumplir la p
 Puede crear tareas de trabajo que describen las tareas básicas que un trabajador de un puesto debe completar para dicho trabajo. La misma tarea de trabajo se puede agregar a varios trabajos, y los puestos para dichos trabajos heredarán dichas tareas de trabajo. En la tabla siguiente se muestran algunos ejemplos de tareas de trabajo.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Trabajo</th>
