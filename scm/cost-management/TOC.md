@@ -1,0 +1,43 @@
+# Paquete de contenido de BI de energía
+## [Paquete de contenido de administración de costos](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+# Costo predeterminado
+## [Costing sheet](costing-sheets.md)
+## [Costing version](costing-versions.md)
+## [Simule el cambio de costo mediante una versión de gestión de costes para costes planificados](simulate-cost-changes-costing-version-planned-costs.md)
+# Costes de inventario
+## [Ajustar el valor de coste de inventario](adjust-hand-inventory-cost-values.md)
+## [Cost object](cost-object.md)
+## [Cost entry](cost-entries.md)
+## [Cost group](cost-groups.md)
+## [FIFO con valor físico y marcado](fifo-physical-value-marking.md)
+## [Include physical value](include-physical-value.md)
+## [Valor de objeto de inventario](physical-quantity.md)
+## [Inventory close](inventory-close.md)
+## [Fecha LIFO con valor físico y marcado](lifo-date-physical-value-marking.md)
+## [LIFO with physical value and marking](lifo-physical-value-marking.md)
+## [Moving average](moving-average.md)
+## [Actualización física y financiera](physical-financial-updates.md)
+## [Running average cost price](running-average-cost-price.md)
+## [Tracking running average cost per inventory dimension](track-running-average-cost-per-inventory-dimension.md)
+## [Weighted average date](weighted-average-date.md)
+## [Media ponderada con valor físico y marcado](weighted-average-physical-value-marking.md)
+# Gestión de costes de fabricación
+## [Grupo de cálculo de l. MAT](bom-calculation-groups.md)
+## [Orígenes comunes de desviación de producción](common-sources-of-production-variances.md)
+## [Categoría de costo utilizada en la ruta de producción](cost-categories-used-production-routings.md)
+## [Categoría de costo utilizada en control de producción y contabilidad de gestión de proyecto](cost-categories-used-production-control-project-management-accounting.md)
+## [Production order cost analysis](production-order-cost-analysis.md)
+## [Production order cost estimation](production-order-cost-estimation.md)
+## [Production posting](production-posting.md)
+## [Configurar un producto que puede ser producido o adquirido](manufactured-items-treated-as-purchased-items.md)
+## [Total cost allocation method](methodology-total-cost-allocation.md)
+# Coste estándar
+## [Cálculos de l. MAT con costos estándar](information-used-bom-calculations-standard-costs.md)
+## [Administrar las actualizaciones de coste estándar](manage-standard-cost-updates.md)
+## [Requisitos previos para una conversión de coste estándar](prerequisites-standard-cost-conversion.md)
+## [Standard cost conversion overview](standard-cost-conversion-overview.md)
+## [Actualizar el coste estándar en un entorno de fabricación](update-standard-costs-manufacturing-environment.md)
+## [Actualizar el coste estándar para un nuevo artículo fabricado](update-standard-costs-new-manufactured-item.md)
+## [Actualizar el coste estándar en un entorno de no fabricación](update-standard-costs-non-manufacturing-environment.md)
+
+
