@@ -27,6 +27,9 @@ ms.lasthandoff: 04/12/2017
 
 # <a name="cash-and-bank-management-home-page"></a>Página principal de gestión de efectivo y bancos
 
+[!include[banner](../includes/banner.md)]
+
+
 Puede usar la Gestión de efectivo y bancos para mantener las cuentas bancarias de la entidad jurídica y los instrumentos financieros asociados a dichas cuentas bancarias. 
 
 Entre estos instrumentos se encuentran resguardos de depósito, cheques, letras de cambio y pagarés. También puede conciliar extractos bancarios e imprimir los datos bancarios en informes estándar.
@@ -69,4 +72,6 @@ Entre estos instrumentos se encuentran resguardos de depósito, cheques, letras 
 -   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 -   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
 -   [Escenario: Usar el pago de un cliente para liquidar varias facturas que abarcan varios períodos de descuento](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
 
