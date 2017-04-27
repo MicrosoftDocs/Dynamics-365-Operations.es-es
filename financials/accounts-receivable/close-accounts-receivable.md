@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="close-accounts-receivable"></a>Cerrar Clientes
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 La tabla siguiente muestra las páginas que admiten el proceso empresarial de cierre de Clientes.
 
 > [!NOTE] 
-> Para abrir algunas de las páginas en la tabla, debe especificar la información o especificar valores de parámetros.
+> Para abrir algunas de las páginas de la tabla, debe especificar información o la configuración de parámetros.
 
-** Tarea del componente del proceso empresarial **                   
+**Tarea del componente del proceso empresarial**                   
 
 Cerrar los períodos en la contabilidad general
 
@@ -43,21 +46,23 @@ Cerrar los períodos en la contabilidad general
 |Confirmar pedido de ventas                   | Permite actualizar los pedidos de ventas.                                                                       |
 |Revalorización de divisa extranjera          | Permite generar transacciones que actualizan el valor de transacciones del cliente abiertas en divisas.                                                                                                                         |
 | Diario                              | Permite registrar facturas, pagos y pagarés.                                             |
-| Asiento del diario                      | -   **Payment journal** – Generate, process, and post payments.
+| Asiento del diario                      | -   **Diario de pagos**: permite generar, procesar y registrar pagos.
                                          -   **Draw bill of exchange journal** – Post bills of exchange.
                                          -   **Protest bill of exchange journal** – Post protested bills of exchange.
                                          -   **Redraw bill of exchange journal** – Post redrawn bills of exchange.
                                          -   **Remittance journal** – Post remittances.
                                          -   **Settle bill of exchange journal** – Post settled bills of exchange                   |
-_=_ Registro de albarán                 _=_ Permite actualizar los albaranes de pedidos de ventas.                                                     _=_ _=_ Registrar la factura de servicio               _=_ Permite registrar facturas de servicios.                                                                   _=_ _=_ Registro de factura                      _=_ Permite registrar facturas para los pedidos de ventas.                                                            _=_ _=_ Registrar lista de selección                 _=_Listas de selección de los pedidos de ventas.                                                      |
+| Albaranes de pedidos de ventas                 | Permite actualizar los albaranes de los pedidos de ventas.                                                     | | Registrar la factura de servicio               | Permite registrar facturas de servicios.                                                                   | | Registro de factura                      | Permite registrar facturas para los pedidos de ventas.                                                            | | Registro de lista de selección                 | Permite actualizar las listas de selección de los pedidos de ventas.                                                      |
 
-** Tarea del componente del proceso empresarial **   
+**Tarea del componente del proceso empresarial**   
 
 Crear y enviar la lista de ventas a la UE
 
 | Nombre de página                            | Uso                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------|
 |Lista de ventas de la UE                         | Informe de ventas de la UE a la autoridad fiscal para la declaración del impuesto sobre el valor añadido (IVA).                                                                                                                           |
+
+
 
 
 

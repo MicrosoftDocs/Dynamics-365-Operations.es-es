@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="time-and-attendance-registration"></a>Registro de Tiempo y asistencia
 
+[!include[banner](../includes/banner.md)]
+
+
 Los trabajadores del registro de horas pueden especificar distintos tipos de registros de horas, por ejemplo entrada, salida, registro de actividades indirectas y registro de ausencia. Este artículo describe registros, su cálculo, aprobación y uso del flujo de trabajo para agregar la estructura y la aprobación automatizada al proceso de aprobación de hojas de horas. 
 
 <a name="registrations"></a>Registros
@@ -62,7 +65,7 @@ Tras la configuración, los trabajadores pueden especificar distintos tipos de r
 -   Actividades indirectas, que son actividades no productivas en las que un trabajador puede participar durante un día laborable. Algunos ejemplos de estas actividades son reuniones o la limpieza del espacio de trabajo.
 -   Horas extra, que se pueden registrar como horas extra u horario flexible.
 
-## <a name="adding-clockout-registrations"></a>Registros de clockout de la adición
+## <a name="adding-clockout-registrations"></a>Agregar registros de hora de salida
 Si un trabajador olvida registrar su hora de salida al final de la jornada, el registro que falta se puede agregar ejecutando un trabajo por lotes. El sistema comparará la hora de entrada y salida según el perfil asociado el trabajador, e insertará automáticamente el registro de hora de salida que falta para que coincida con la hora final del perfil. Ambos registros, el de hora de entrada y el de hora de salida, son fundamentales para el cálculo y la aprobación subsiguientes de registros de hora para poder transferirse a la nómina.
 
 ## <a name="calculating-registrations"></a>Cálculo de registros
@@ -113,6 +116,8 @@ Los trabajadores con tareas de trabajo que no requieren retroalimentación inmed
 -   Consumo de tiempo
 -   Cuotas de proyectos
 -   Artículos de proyectos
+
+
 
 
 

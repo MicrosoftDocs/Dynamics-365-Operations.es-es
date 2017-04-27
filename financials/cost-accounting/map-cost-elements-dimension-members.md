@@ -1,5 +1,5 @@
 ---
-title: "Asigne a los miembros de la dimensión del artículo coste diferente de un conjunto de existencias de miembros de dimensión"
+title: "Asignar diferentes miembros de dimensión de elemento de coste a un conjunto común de miembros de dimensión"
 description: "Asignando diferentes miembros de la dimensión del elemento de coste a un conjunto común de miembros de la dimensión del elemento de coste, los datos se combinan en un formato común para los análisis."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Asigne a los miembros de la dimensión del artículo coste diferente de un conjunto de existencias de miembros de dimensión
+# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Asignar diferentes miembros de dimensión de elemento de coste a un conjunto común de miembros de dimensión
 
 Asignando diferentes miembros de la dimensión del elemento de coste a un conjunto común de miembros de la dimensión del elemento de coste, los datos se combinan en un formato común para los análisis.
 
@@ -38,10 +38,10 @@ El siguiente ejemplo le muestra cómo siendo controlador de coste, puede crear u
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | Miembros de dimensión del elemento de coste importados del plan contable de Estados Unidos. | Miembros de dimensión del elemento de coste importados del plan contable francés. | Asignación de miembros de dimensión de elemento de coste de Estados Unidos y francés a un conjunto común |
 | 5001: Ventas                                                           | 5001: Ventas y publicidad                                               | 5000: Ventas y publicidad                                             |
-| 5030: Publicidad                                                     | 6390: Formularios de configuración\*                                                    | 7000: Gastos de limpieza                                                 |
+| 5030: Publicidad                                                     | 6390: Compra de existencias\*                                                    | 7000: Gastos de limpieza                                                 |
 | 7001: Gastos de limpieza                                               | 7001: Gastos de viaje                                                      | 7001: Gastos de viaje                                                   |
 
-\*el miembro de dimensión francés del artículo de coste de la compra de valores no se asigna.
+\*No se ha asignado el miembro de la dimensión del elemento de coste francés de la Compra de existencias.
 
 ## <a name="currency-conversion"></a>Conversión de divisas
 Los distintos planes contables que use se pueden configurar para utilizar distintas divisas. En este caso, asegúrese de especificar una conversión de divisa, para procesar los datos de coste en la divisa correcta, como se define en el libro mayor de la contabilidad de costes donde se usan los miembros de la dimensión del elemento de coste. En el ejemplo anterior, si se utilizan dólares estadounidenses (USD) en la contabilidad de la contabilidad de costes, debe crear una conversión de divisa de USD a euros (EUR) para procesar transacciones para los miembros de dimensión del elemento de coste asignados.

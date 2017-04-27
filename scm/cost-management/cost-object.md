@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-objects"></a>Objetos de coste
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información sobre objetos de costes y explica cómo se acumulan los costes y las cantidades. Un objeto de coste es una entidad para la que se acumulan los costes y las cantidades. Una entidad de objeto de coste puede ser producto o variantes de producto, como variantes para estilo y color.  
 
 <a name="cost-objects"></a>Objetos de coste
@@ -65,19 +68,21 @@ La tabla siguiente muestra qué es un objeto de coste y qué es un objeto de inv
     -   Cantidad registrada
 -   El campo **Coste unitario promedio** es un campo calculado. El valor se calcula dividiendo el valor **Valor** por el valor **Cantidad**.
 
-** Nota: ** ** Incluir valor físico ** el parámetro no tiene ningún efecto en los cálculos precedentes.
+**Nota**: El parámetro **Incluir valor físico en coste** no tiene ningún efecto en los cálculos precedentes.
 
 <a name="see-also"></a>Consulte también
 --------
 
-[Product dimension group](https://technet.microsoft.com/en-us/library/aa499382.aspx)
+[Grupo de dimensiones de producto](https://technet.microsoft.com/en-us/library/aa499382.aspx)
 
-[Storage dimension group](https://technet.microsoft.com/en-us/library/hh209317.aspx)
+[Grupo de dimensiones de almacenamiento](https://technet.microsoft.com/en-us/library/hh209317.aspx)
 
-[Tracking dimension group](https://technet.microsoft.com/en-us/library/hh209465.aspx)
+[Grupo de dimensiones de seguimiento](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[Novedades o cambiado en Microsoft Dynamics AX (/dynamics365/operations/dev-itpro/get-started/what] - es nueva cambiar)
+[Novedades o cambios en Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
-[Cost entries](cost-entries.md)
+[Entradas de costes](cost-entries.md)
+
+
 
 

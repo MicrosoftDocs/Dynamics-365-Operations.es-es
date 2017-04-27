@@ -1,6 +1,6 @@
 ---
 title: "Gestión de turnos y caja registradora"
-description: "Este artículo se explica cómo configurar y usar los dos tipos de cambios de ventas al por menor (POS) del punto de venta - compartidos y independientes. Se pueden utilizar turnos compartidos por varios usuarios en varios lugares, mientras que los turnos independientes se pueden utilizar solo por un trabajador cada vez."
+description: "En este artículo se explica cómo configurar y utilizar los dos tipos de turnos de punto de venta (PDV) comerciales: independiente y compartido. Se pueden utilizar turnos compartidos por varios usuarios en varios lugares, mientras que los turnos independientes se pueden utilizar solo por un trabajador cada vez."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
@@ -27,26 +27,29 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="shift-and-cash-drawer-management"></a>Gestión de turnos y caja registradora
 
-Este artículo se explica cómo configurar y usar los dos tipos de cambios de ventas al por menor (POS) del punto de venta - compartidos y independientes. Se pueden utilizar turnos compartidos por varios usuarios en varios lugares, mientras que los turnos independientes se pueden utilizar solo por un trabajador cada vez.
+[!include[banner](includes/banner.md)]
+
+
+En este artículo se explica cómo configurar y utilizar los dos tipos de turnos de punto de venta (PDV) comerciales: independiente y compartido. Se pueden utilizar turnos compartidos por varios usuarios en varios lugares, mientras que los turnos independientes se pueden utilizar solo por un trabajador cada vez.
 
 Hay dos tipos de turnos de puntos de venta (PDV) comerciales: independientes y compartidos. Los turnos independientes solo pueden utilizarse por un trabajador cada vez. Los turnos compartidos se pueden utilizar por varios usuarios en varios lugares. Por tanto, crean de manera efectivamente un turno único para varios trabajadores de un almacén.
 
-## <a name="standalone-shifts"></a>Cambios independientes
+## <a name="standalone-shifts"></a>Turnos independientes
 Los turnos independientes se utilizan en un escenario de PDV fijo tradicional, donde el efectivo se concilia de manera independiente para cada registro de PDV. Por ejemplo, en un entorno de supermercado, normalmente hay varios registrados de PDV fijos y se asigna un cajero a cada uno de ellos. En este caso, cada registro probablemente utiliza un turno independiente y el cajero es responsable de la caja registradora o del efectivo físico de ese registro. Un turno independiente abarca toda la actividad de ese registro durante el turno de trabajo del cajero. En las actividades se puede incluir el importe inicial que se deposita en la caja registradora, todas las eliminaciones y adiciones de operaciones de efectivo como ingresos bancarios y entrada flotante, y la declaración por forma de pago al final del turno.
 
 ### <a name="set-up-a-stand-alone-shift"></a>Configurar un turno independiente
 
 Se designa un turno independiente en el nivel de caja registradora. Este procedimiento explica cómo configurar un turno independiente en un registro de PDV.
 
-1.  Haga clic en ** al por menor y comercio ** &gt; ** canal configurar ** &gt; ** Configuración de PDV ** &gt; ** PDV perfiles ** &gt; ** los perfiles de hardware **.
+1.  Haga clic en **Retail y Commerce** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Perfiles de PDV** &gt; **Perfiles de hardware**.
 2.  Seleccione el perfil de hardware que se utilizará para el turno independiente.
 3.  En la ficha desplegable **Cajón**, confirme que la opción **Caja registradora de turno compartido** está establecida en **No**.
-4.  Click **Save**.
-5.  Haga clic en ** al por menor y comercio ** &gt; ** canal configurar ** &gt; ** Configuración de PDV ** &gt; ** ** registros.
+4.  Haga clic en **Guardar**.
+5.  Haga clic en **Retail y Commerce** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Registros**.
 6.  Seleccione el registro que requiere un turno independiente y, a continuación, haga clic en **Editar**.
 7.  En el campo **Perfil de hardware**, seleccione el perfil de hardware que seleccionó en el paso 2.
-8.  Click **Save**.
-9.  Haga clic en ** al por menor y comercio ** &gt; ** TI al por menor ** &gt; ** programación de distribución **.
+8.  Haga clic en **Guardar**.
+9.  Haga clic **Retail y Commerce** &gt; **TI de Retail** &gt; **Programación de distribución**.
 10. Seleccione la programación de distribución **1090** y, a continuación, haga clic en **Ejecutar ahora** para sincronizar los cambios en el PDV.
 
 ### <a name="use-a-stand-alone-shift"></a>Usar un turno independiente
@@ -62,19 +65,19 @@ Se designa un turno independiente en el nivel de caja registradora. Este procedi
 **Nota:** Hay otras operaciones disponibles durante el desplazamiento, en función de los procesos empresariales que están implementados. Las operaciones **Ingreso seguro**, **Ingreso bancario** y **Supresión de forma de pago** se pueden utilizar para quitar el dinero de la caja registradora durante el día o antes de cerrar el turno. Si hay poco dinero en la caja registradora, se puede utilizar la operación **Entrada flotante** para agregar efectivo a la caja registradora.
 
 ## <a name="shared-shifts"></a>Turnos compartidos
-Se utiliza un turno compartido en un entorno donde varios cajeros comparten una caja registradora o varias cajas registradoras durante todo el día laborable. Normalmente, se utiliza un turno compartido en entornos de PDV móviles. En un entorno móvil, cada cajero no está asignado a una solo caja registradora ni es responsable de la misma. En su lugar, todos los cajeros deben poder presentar una venta y agregar efectivo a la caja registradora que se encuentre más cerca. En este escenario, las cajas registradoras que se comparten entre cajeros se incluyen en un turno compartido. Todas las cajas registradoras de un turno compartido se incluyen en el mismo turno para las actividades relacionadas con la administración de efectivo para ese turno. Por tanto, el importe inicial para el turno debe incluir la suma de todo el efectivo de todas las cajas registradoras que se incluyen en el turno compartido. Del mismo modo, la declaración por forma de pago será la suma de todo el efectivo de todas las cajas registradoras que se incluyen en el turno compartido. ** Nota: ** Sólo un cambio puede ser compartido abiertos a la vez en cada tienda. Los tunos compartidos e independientes se puede utilizar en el mismo almacén.
+Se utiliza un turno compartido en un entorno donde varios cajeros comparten una caja registradora o varias cajas registradoras durante todo el día laborable. Normalmente, se utiliza un turno compartido en entornos de PDV móviles. En un entorno móvil, cada cajero no está asignado a una solo caja registradora ni es responsable de la misma. En su lugar, todos los cajeros deben poder presentar una venta y agregar efectivo a la caja registradora que se encuentre más cerca. En este escenario, las cajas registradoras que se comparten entre cajeros se incluyen en un turno compartido. Todas las cajas registradoras de un turno compartido se incluyen en el mismo turno para las actividades relacionadas con la administración de efectivo para ese turno. Por tanto, el importe inicial para el turno debe incluir la suma de todo el efectivo de todas las cajas registradoras que se incluyen en el turno compartido. Del mismo modo, la declaración por forma de pago será la suma de todo el efectivo de todas las cajas registradoras que se incluyen en el turno compartido. **Nota:** solo puede estar abierto un turno compartido cada vez en cada almacén. Los tunos compartidos e independientes se puede utilizar en el mismo almacén.
 
 ### <a name="set-up-a-shared-shift"></a>Configuración de un turno compartido
 
-1.  Haga clic en ** al por menor y comercio ** &gt; ** canal configurar ** &gt; ** Configuración de PDV ** &gt; ** PDV perfiles ** &gt; ** los perfiles de hardware **.
+1.  Haga clic en **Retail y Commerce** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Perfiles de PDV** &gt; **Perfiles de hardware**.
 2.  Seleccione el perfil de hardware que se utilizará para el turno compartido.
 3.  En la ficha desplegable **Cajón**, establezca la opción **Caja registradora de turno compartido** en **Sí**.
-4.  Click **Save**.
-5.  Haga clic en ** al por menor y comercio ** &gt; ** canal configurar ** &gt; ** Configuración de PDV ** &gt; ** ** registros.
+4.  Haga clic en **Guardar**.
+5.  Haga clic en **Retail y Commerce** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Registros**.
 6.  Seleccione el registro que requiere un turno compartido y, a continuación, haga clic en **Editar**.
 7.  En el campo **Perfil de hardware**, seleccione el perfil de hardware que seleccionó en el paso 2.
-8.  Click **Save**.
-9.  Haga clic en ** al por menor y comercio ** &gt; ** TI al por menor ** &gt; ** programación de distribución **.
+8.  Haga clic en **Guardar**.
+9.  Haga clic **Retail y Commerce** &gt; **TI de Retail** &gt; **Programación de distribución**.
 10. Seleccione la programación de distribución **1090** y, a continuación, haga clic en **Ejecutar ahora** para sincronizar los cambios en el PDV.
 
 ### <a name="use-a-shared-shift"></a>Usar un turno compartido
@@ -93,6 +96,8 @@ Se utiliza un turno compartido en un entorno donde varios cajeros comparten una 
 8.  Una vez haya extraído el efectivo de la última caja registradora, cuente todo el efectivo de todas las cajas registradoras.
 9.  Utilice la operación **Declarar forma de pago** para declarar el importe total de efectivo de todas las cajas registradoras que se incluyen en el turno compartido.
 10. Utilice la operación **Cerrar turno** para cerrar el turno compartido.
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Visión general de las facturas de proveedor"
+title: "Visión general de facturas de proveedores"
 description: "Este artículo ofrece información general relativa a facturas de proveedor. Las facturas de proveedor son solicitudes de pago para productos y servicios que se han recibido. Las facturas de proveedor pueden representar una cuenta para servicios en curso ose pueden basar en pedidos de compra para artículos y servicios específicos."
 author: twheeloc
 manager: AnnBe
@@ -25,20 +25,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-invoices-overview"></a>Visión general de las facturas de proveedor
+# <a name="vendor-invoices-overview"></a>Visión general de facturas de proveedores
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo ofrece información general relativa a facturas de proveedor. Las facturas de proveedor son solicitudes de pago para productos y servicios que se han recibido. Las facturas de proveedor pueden representar una cuenta para servicios en curso ose pueden basar en pedidos de compra para artículos y servicios específicos. 
 
 <a name="vendor-invoices"></a>Facturas de proveedores
 ---------------
 
-Una factura de proveedor de un pedido de compra es una factura que se produce cuando se reciben productos o servicios de acuerdo con un pedido de compra que se ha configurado con un proveedor. La factura de proveedor contiene un encabezado, y una o varias líneas para artículos o servicios. Una factura de proveedor completa el ciclo de pedido de compra a la recepción de producto a la factura de proveedor. 
+Una factura de proveedor de un pedido de compra es una factura que se produce cuando se reciben productos o servicios de acuerdo con un pedido de compra que se ha configurado con un proveedor. La factura de proveedor contiene un encabezado y una o varias líneas para artículos o servicios. Una factura de proveedor finaliza el ciclo de pedido de compra con la recepción de producto en la factura de proveedor. 
 
 Aunque algunas facturas de proveedor están relacionadas con un pedido de compra, las facturas de proveedor también pueden contener las líneas que no se corresponden con las líneas de pedido de compra. También puede crear facturas de proveedor que no estén asociadas a ningún pedido de compra. Estas facturas de proveedor pueden representar servicios en curso, como una cuenta de servicios, y no es necesario hacer referencia a un pedido de compra cuando se agreguen. 
 
 Hay varias formas de especificar una factura de proveedor:
 
--   El registro de la factura de proveedor le permite rápidamente especificar las facturas que no hacen referencia a un pedido de compra, de modo que pueda acumular el gasto. Uso del diario de aprobación de facturas de proveedor, puede seleccionar dichas facturas y enviarlas al saldo de proveedor para invertir la acumulación.
+-   El registro de facturas de proveedor le permite especificar rápidamente las facturas que no hacen referencia a un pedido de compra, de modo que puede acumular el gasto. Mediante el diario de aprobación de facturas de proveedor, puede seleccionar dichas facturas y registrarlas al saldo del proveedor para invertir la acumulación.
 -   El diario de facturas de proveedor le permite especificar rápidamente las facturas que no hacen referencia a un pedido de compra, en un único paso.
 -   Junto con el grupo de facturas de proveedor, el registro de facturas de proveedor le permite especificar rápidamente facturas para acumular el gasto. Puede abrir los pedidos de compra asociados más tarde para registrar la factura en la cuenta de gastos.
 -   Las páginas **Facturas de proveedor abiertas** y **Facturas de proveedor pendientes** le permiten crear facturas de proveedor a partir de pedidos de compra confirmados.
@@ -57,7 +60,7 @@ Cuando abre una factura de proveedor desde un pedido de compra relacionado, las 
 Si su entidad jurídica usa la conciliación de facturas, puede ver los resultados de la conciliación de cantidad en la columna **Cantidad de recepciones de producto para asignar**. También puede usar el comando de menú **Detalles coincidentes** en la ficha **Revisar** para ver los resultados de conciliación de cantidad.
 
 ## <a name="adding-a-line-that-wasnt-on-the-purchase-order"></a>Agregar una línea que no estaba en el pedido de compra
-Puede agregar una nueva línea que eso no ha sido en el pedido de compra a la factura de proveedor. Debe seleccionar un número de artículo o una categoría de compras de artículo. Puede agregar cantidades, precios y los importes a la línea. La línea solo se incluirá en las directivas de conciliación para los totales de factura.
+Puede agregar una nueva línea que no estaba en el pedido de compra a la factura de proveedor. Debe seleccionar un número de artículo o una categoría de compras. Puede agregar cantidades, precios y los importes a la línea. La línea solo se incluirá en las directivas de conciliación para los totales de factura.
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Envío de facturas de proveedor para su revisión
 La organización puede usar flujos de trabajo para gestionar el proceso de revisión de facturas de proveedor. La revisión de flujo de trabajo puede ser necesaria para el encabezado de factura, la línea de factura, o ambos. Los controles de flujo de trabajo se aplican al encabezado o la línea, en función de dónde está el enfoque al hacer clic en el control. En lugar del botón **Registrar**, verá un botón **Enviar** que puede usar para enviar la factura de proveedor mediante el proceso de revisión.
@@ -74,6 +77,8 @@ En esta opción se supone que se ha registrado al menos una recepción de produc
 ## <a name="working-with-multiple-invoices"></a>Trabajar con múltiples facturas
 
 Puede trabajar con varias facturas a la vez y registrarlas al mismo tiempo. Si debe crear varias facturas, use la página **Facturas de proveedor pendientes**. Si debe registrar e imprimir varias facturas de proveedor, utilice la página del diario de aprobación de facturas Si usa el diario de aprobación de facturas, debe registrarse al menos una recepción de producto para el pedido de compra y debe registrarse una factura del pedido de compra en un registro de facturas. La información financiera de la factura proviene de la factura que se contabilizó en el registro.
+
+
 
 
 

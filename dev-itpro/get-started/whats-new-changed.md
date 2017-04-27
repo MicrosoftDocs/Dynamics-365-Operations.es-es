@@ -41,23 +41,23 @@ Para actualizar a la versión más reciente, vea [Proceso para ir a la actualiza
 <thead>
 <tr class="header">
 <th><strong>Liberar</strong></th>
-<th><strong><strong>Version</strong></strong></th>
-<th><strong><strong>Build number</strong></strong></th>
-<th><strong><strong>Availability</strong></strong></th>
-<th><strong><strong>Para obtener más</strong></strong></th>
+<th><strong><strong>Versión</strong></strong></th>
+<th><strong><strong>Crear número</strong></strong></th>
+<th><strong><strong>Disponibilidad</strong></strong></th>
+<th><strong><strong>Para obtener más información</strong></strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Plataforma de Microsoft Dynamics 365 for Operations</td>
-<td>La plataforma actualiza 4</td>
+<td>Actualización 4 de la plataforma</td>
 <td>7.0.4425.16160</td>
-<td>En febrero de 2017</td>
+<td>2017 de febrero</td>
 <td><ol>
-<li>Vaya a <a href="https://roadmap.dynamics.com/">Guía de orientación de Dynamics 365</a>.</li>
-<li>Seleccione <strong>Novedades</strong> la ficha.</li>
-<li>En <strong>Aplicaciones</strong> la sección, seleccione.</li>
-<li>En <strong>Áreas</strong> la sección, seleccione.</li>
+<li>Vaya a la <a href="https://roadmap.dynamics.com/">Guía básica de Dynamics 365</a>.</li>
+<li>Seleccione la pestaña <strong>Novedades</strong>.</li>
+<li>En la selección <strong>Aplicaciones</strong>, seleccione <strong>Dynamics 365 for Operations</strong>.</li>
+<li>En la seccion <strong>Áreas</strong>, seleccione <strong>Plataforma de nube</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">

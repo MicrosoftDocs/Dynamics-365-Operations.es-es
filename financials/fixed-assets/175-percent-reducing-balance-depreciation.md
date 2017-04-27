@@ -54,9 +54,9 @@ Si selecciona **Calendario** como año de depreciación, aparecen las siguientes
 
 ### <a name="fiscal"></a>Fiscal
 
-Si selecciona **Fiscal** en el campo **Año de depreciación**, la depreciación decreciente del 175% se calcula en base al ejercicio fiscal del calendario fiscal especificado para el libro o para el calendario fiscal seleccionado en la página **Libro mayor**. Los calendarios fiscales se configuran en la página **Calendarios fiscales**. Para obtener más información, consulte [los calendarios, los años fiscales, y los períodos fiscales.] (\ Common operaciones financieras \ \ fiscal-calendars-fiscal-years-periods.md presupuesto).
+Si selecciona **Fiscal** en el campo **Año de depreciación**, la depreciación decreciente del 175% se calcula en base al ejercicio fiscal del calendario fiscal especificado para el libro o para el calendario fiscal seleccionado en la página **Libro mayor**. Los calendarios fiscales se configuran en la página **Calendarios fiscales**. Para obtener más información, consulte [Calendarios fiscales, ejercicios y períodos.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md).
 
-Por ejemplo, para el ejercicio del 1 de julio al 30 de junio, el cálculo de depreciación empieza el 1 de julio. El ejercicio no puede ser superior ni inferior a los 12 meses. La depreciación se ajusta automáticamente para cada período y la extensión del siguiente ejercicio se determina mediante la configuración de los períodos de la página **Calendarios fiscales**. 
+Por ejemplo, para el ejercicio del 1 de julio al 30 de junio, el cálculo de la depreciación comienza el 1 de julio. El ejercicio no puede ser superior ni inferior a los 12 meses. La depreciación se ajusta automáticamente para cada período y la extensión del siguiente ejercicio se determina mediante la configuración de los períodos de la página **Calendarios fiscales**. 
 
 Si selecciona **Fiscal** como año de depreciación, aparecen las siguientes opciones disponibles en el campo **Frecuencia de períodos**:
 
@@ -81,6 +81,6 @@ El método de depreciación degresiva del 175% divide el 175 por ciento entre lo
 | Año 3 | 4.225 × 35% = 1.478,75                        | 5.225 - 1.478,75 = 3.746,25 | 4.225 - 1.478,75 = 2.746,25           |
 
 > [!NOTE] 
-> Normalmente, cuando el importe que se calcula mediante el método de depreciación degresiva 175% se reduce por debajo del importe que sería calculado mediante el método lineal, hay una conversión al método de depreciación lineal para el tiempo de vida restante.
+> Normalmente, cuando el importe que se calcula mediante el método de depreciación degresiva del 175% resulta inferior al importe que se calcularía con el método de amortización lineal, se realiza una conversión al método de amortización lineal para la vida restante.
 
 

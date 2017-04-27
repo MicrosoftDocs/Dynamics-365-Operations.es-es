@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-life-remaining-depreciation"></a>Tiempo de vida restante de depreciación lineal
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo le ofrece una visión general del método de depreciación Tiempo de vida restante de depreciación lineal.
 
 Al configurar un perfil de amortización de activo fijo y seleccionar **Tiempo de vida restante de depreciación lineal** en el campo **Método** de la página **Perfiles de depreciación**, la depreciación de los activos fijos que se asigna al perfil de depreciación se basará en el tiempo de vida restante del activo. El importe de depreciación generalmente es el mismo en cada período de depreciación. Para configurar una depreciación lineal restante, también debe seleccionar opciones en los campos **Año de depreciación** y **Frecuencia de períodos** en la página **Métodos de depreciación**. Las opciones disponibles en el campo **Frecuencia de períodos** varían en función del valor seleccionado en el campo **Año de depreciación**.
@@ -36,7 +39,7 @@ Puede seleccionar **Calendario** o **Fiscal** en el campo **Año de depreciació
 
 ### <a name="calendar"></a>Calendario
 
-Si selecciona ** calendario ** en el campo de *** del año de depreciación de ***, se asume un año comprendido del 1 de enero al 31 de diciembre, aunque haya definido el calendario fiscal de forma diferente. La opción **Calendario** actualiza la base de depreciación el 1 de enero de cada año. Normalmente, la base de depreciación es el valor neto en los libros menos el valor residual. En el ejemplo, más adelante en este tema, la base de depreciación es el numerador en la primera expresión en los cálculos de la columna de cálculos. Si selecciona **Calendario** como año de depreciación, aparecen las siguientes opciones disponibles en el campo **Frecuencia de períodos**:
+Si selecciona **Calendario** en el campo ***Año de depreciación***, se asume un año comprendido entre el 1 de enero y el 31 de diciembre, aun cuando haya definido el calendario fiscal diferente. La opción **Calendario** actualiza la base de depreciación el 1 de enero de cada año. Normalmente, la base de depreciación es el valor neto en los libros menos el valor residual. En el ejemplo, más adelante en este tema, la base de depreciación es el numerador en la primera expresión en los cálculos de la columna de cálculos. Si selecciona **Calendario** como año de depreciación, aparecen las siguientes opciones disponibles en el campo **Frecuencia de períodos**:
 
 -   **Anual** registra un importe el 31 de diciembre.
 -   **Mensual** registra un importe mensual al final de cada mes del calendario.
@@ -48,7 +51,7 @@ Por ejemplo, si selecciona **Anual**, la depreciación anual se registra una sol
 
 ### <a name="fiscal"></a>Fiscal
 
-Si selecciona **Fiscal** en el campo **Año de depreciación**, se utiliza el tiempo de vida restante de depreciación lineal. La depreciación se calcula en función de los años fiscales restantes. Por ejemplo, para el año fiscal el 1 de julio de 2015, hasta el 30 de junio de 2016, el cálculo de depreciación empieza el 1 de julio. El ejercicio no puede ser superior ni inferior a los 12 meses. La depreciación se ajusta para cada período fiscal. La extensión del siguiente ejercicio se determina por los períodos fiscales configurados en la página **Calendarios fiscales**. Si selecciona **Fiscal** como año de depreciación, aparecen las siguientes opciones disponibles en el campo **Frecuencia de períodos**:
+Si selecciona **Fiscal** en el campo **Año de depreciación**, se utiliza el tiempo de vida restante de depreciación lineal. La depreciación se calcula en función de los años fiscales restantes. Por ejemplo, para el ejercicio del 1 de julio del 2015 al 30 de junio de 2016, el cálculo de la depreciación comienza el 1 de julio. El ejercicio no puede ser superior ni inferior a los 12 meses. La depreciación se ajusta para cada período fiscal. La extensión del siguiente ejercicio se determina por los períodos fiscales configurados en la página **Calendarios fiscales**. Si selecciona **Fiscal** como año de depreciación, aparecen las siguientes opciones disponibles en el campo **Frecuencia de períodos**:
 
 -   **Anual** registra el importe total de la depreciación calculada para el ejercicio como un importe de la última fecha del ejercicio.
 -   **El período fiscal **calcula el importe total de depreciación para el ejercicio. Este importe se acumula entonces en los períodos fiscales definidos en la página **Calendarios fiscales** del calendario fiscal especificado en el libro.
@@ -73,6 +76,8 @@ El importe de depreciación es el mismo cada año: (Coste de adquisición - Valo
 | Año 3 | (7.000 - 1.000) ÷ 3 = 2.000                   | 5.000                                 |
 | Año 4 | (5.000 - 1.000) ÷ 2 = 2.000                   | 3.000                                 |
 | Año 5 | (3.000 - 1.000) ÷ 1 = 2.000                   | 1.000                                 |
+
+
 
 
 

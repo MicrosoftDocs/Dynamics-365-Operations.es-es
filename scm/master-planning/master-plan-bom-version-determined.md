@@ -1,6 +1,6 @@
 ---
-title: "Determine la versión de L"
-description: "Durante una expansión de demanda, si un artículo tiene un tipo de pedido predeterminado de producción, el motor de planificación busca una versión de L según el sitio."
+title: "Determinar la versión de L. MAT."
+description: "En una expansión de demanda, si un artículo tiene un tipo de pedido predeterminado de producción, el motor de planificación busca una versión de L. MAT válida en función del sitio."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="determine-the-bom-version"></a>Determine la versión de L
+# <a name="determine-the-bom-version"></a>Determinar la versión de L. MAT.
 
-Durante una expansión de demanda, si un artículo tiene un tipo de pedido predeterminado de producción, el motor de planificación busca una versión de L según el sitio. 
+[!include[banner](../includes/banner.md)]
+
+
+En una expansión de demanda, si un artículo tiene un tipo de pedido predeterminado de producción, el motor de planificación busca una versión de L. MAT válida en función del sitio. 
 
 La dimensión del sitio se conoce siempre y se indica en la transacción de demanda. El siguiente proceso se usa para determinar la versión de L. MAT que utilizar:
 
@@ -38,6 +41,8 @@ La dimensión del sitio se conoce siempre y se indica en la transacción de dema
 -   Si no hay ninguna L. MAT. general que se pueda usar, la expansión de la demanda se detiene en este punto.
 
 Una versión de L. MAT válida, tanto si es específica del sitio como si es general, debe cumplir los criterios necesarios para la fecha y la cantidad.
+
+
 
 
 

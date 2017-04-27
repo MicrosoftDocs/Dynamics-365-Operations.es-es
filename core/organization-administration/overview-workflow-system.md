@@ -1,6 +1,6 @@
 ---
 title: "Visión general del sistema de flujo de trabajo"
-description: "Este artículo describe el sistema de flujo de trabajo en Microsoft Dynamics 365 para las operaciones."
+description: "En este artículo se describe el sistema de flujo de trabajo en Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-system-overview"></a>Visión general del sistema de flujo de trabajo
 
-Este artículo describe el sistema de flujo de trabajo en Microsoft Dynamics 365 para las operaciones.
+[!include[banner](../includes/banner.md)]
+
+
+En este artículo se describe el sistema de flujo de trabajo en Microsoft Dynamics 365 for Operations.
 
 <a name="what-is-workflow"></a>¿Qué significa flujo de trabajo?
 -----------------
@@ -34,7 +37,7 @@ Este artículo describe el sistema de flujo de trabajo en Microsoft Dynamics 365
 El término *flujo de trabajo* se puede definir de dos maneras: como sistema y como proceso empresarial.
 ### <a name="workflow-is-a-system"></a>Flujo de trabajo es un sistema
 
-El flujo de trabajo es un sistema que está instalado con Dynamics 365 para las operaciones y se ejecuta en Application Object Server (AOS). El sistema de flujo de trabajo proporciona funciones que se pueden usar para crear flujos de trabajo individuales, o procesos empresariales.
+El flujo de trabajo es un sistema que se instala junto con Dynamics 365 for Operations y se ejecuta en Application Object Server (AOS). El sistema de flujo de trabajo proporciona funciones que se pueden usar para crear flujos de trabajo individuales, o procesos empresariales.
 
 ### <a name="workflow-is-a-business-process"></a>Flujo de trabajo es un proceso empresarial
 
@@ -46,6 +49,7 @@ El uso del sistema de flujo de trabajo en una organización ofrece varias ventaj
 -   **Procesos coherentes**: puede definir cómo determinados documentos —por ejemplo, solicitudes de compra e informes de gastos— se procesan. Al usar el sistema de flujo de trabajo, puede asegurarse de que los documentos se procesarán y aprobarán de manera coherente y eficiente.
 -   **Visibilidad de procesos**: puede realizar el seguimiento del estado, el historial y las medidas de rendimiento de las instancias de flujo de trabajo. De este modo, puede determinar si se deben realizar cambios en el flujo de trabajo para mejorar la eficiencia.
 -   **Lista de trabajo centralizada**: los usuarios pueden ver una lista de trabajo centralizada con las tareas y aprobaciones de flujo de trabajo que tienen asignadas.
+
 
 
 

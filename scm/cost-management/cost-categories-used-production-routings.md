@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Categorías de costes utilizadas en las rutas de producción
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información acerca de las categorías de coste que se aplican a los entornos de fabricación que usan ruta.
 
 Las categorías de costes se aplican en los entornos de fabricación en los que se utiliza información de rutas. Se asignan a los recursos de operaciones y a las operaciones de rutas para definir los costes por hora y para la contribución de los costes de segmentos a los costes calculados de los artículos fabricados. Los grupos de costes asignados a categorías de costes permiten clasificar las contribuciones de los costes de fabricación en función de los recursos de operaciones y del tipo de actividad, como el tiempo de configuración y de ejecución. El nivel de detalle de las asignaciones de grupos de coste permite que se calculen los gastos generales de fabricación en base a la información de rutas. 
@@ -51,5 +54,7 @@ El registro de costes para una categoría de costes puede ser específico o empr
 Normalmente, la operación de rutas hereda las categorías de costes asignadas a los recursos de operaciones o a la operación maestra. Cuando se crea un pedido de producción, las operaciones de rutas de la ruta de producción reflejan la versión de ruta seleccionada. Puede anular las categorías de costes asignadas a las operaciones de rutas de producción. 
 
 Algunos tipos de trabajo de producción se pueden aplicar a estimaciones del tiempo del proyecto y a los informes. En este caso, se requiere una categoría de coste para fines de proyecto y producción. Debe definirse la información adicional relacionada con el proyecto cuando se marque una categoría de costes para su uso en los proyectos.
+
+
 
 

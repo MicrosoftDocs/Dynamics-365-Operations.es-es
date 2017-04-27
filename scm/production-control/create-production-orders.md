@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-production-orders"></a>Crear pedidos de producción
 
+[!include[banner](../includes/banner.md)]
+
+
 Al crear un pedido de producción, se inicia una solicitud para iniciar la producción de un artículo. El pedido de producción contiene información acerca de qué se producirá, qué cantidad y la fecha de finalización planificada. También contiene información relativa a qué materiales se van a consumir y qué proceso seguir para producir el artículo.
 
 Un pedido de producción pasa por las etapas del ciclo de vida de producción. Cuando se crea un pedido, se le asigna el estado **Creado**. Cuando se termina un pedido, se le asigna el estado **Finalizado**. Un parámetro en cada etapa permite al usuario configurar cada paso. El parámetro se puede configurar para un único usuario o para todos los usuarios.
@@ -40,6 +43,8 @@ El pedido de producción se puede crear en las siguientes situaciones:
 -   Se crean al ejecutarse la planificación maestra según la demanda de material.
 -   Se crean directamente a partir de una línea de pedido de ventas o cuando se crea y se estima un pedido de producción de alto nivel (suministro asegurado).
 -   Se crea manualmente.
+
+
 
 
 

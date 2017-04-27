@@ -59,5 +59,5 @@ Al crear vínculos en definiciones de contabilización, se aplicarán las siguie
 -   Puede asignar una definición de contabilización a cualquier tipo de transacción, pero el tipo de transacción debe estar en el mismo módulo que la definición de contabilización. Use la página **Definiciones de contabilización de transacciones** para ver en qué módulo se encuentra un tipo de transacción.
 
 
-Para obtener más información, consulte [] los ejemplos de las definiciones de contabilización (/general-ledger/example-posting-definitions.md). 
+Para obtener más información, consulte [Ejemplos de definiciones de contabilización](/general-ledger/example-posting-definitions.md). 
 

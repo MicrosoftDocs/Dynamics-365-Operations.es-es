@@ -86,5 +86,5 @@ La opción **Informes financieros** es la solución. Las jerarquías organizativ
 Puede consolidar los datos con la opción **Exportación de saldos de compañía** para exportar desde una instancia y, a continuación, usar la opción **Consolidar con importación** en la otra instancia.
 
 
-Para obtener más información, consulte [revalution de la divisa en una empresa de consolidación] (\ \ los finanicials contabilidad general \ moneda-nuevo-consolidación- compañía).
+Para obtener más información, consulte [Revalorización de divisa en una empresa de consolidación](\finanicials\general-ledger\currency-revaluation-consolidation-company).
 

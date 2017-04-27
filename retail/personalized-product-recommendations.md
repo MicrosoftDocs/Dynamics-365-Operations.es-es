@@ -1,6 +1,6 @@
 ---
-title: "Visión general de personalizada recomendaciones del producto"
-description: "En Dynamics 365 para las operaciones, las recomendaciones de producto se pueden enviar a punto de dispositivo (POS) de la venta. Las recomendaciones son artículos que el cliente puede estar interesado en función de su historial de compra, los artículos de la lista de solicitudes, y los artículos que compraron otros clientes en línea y en Tiendas de físicas. Para los minoristas con los catálogos tamaño, las recomendaciones ayudan al cliente con descubrimiento del producto. Presentar los productos mediante los intereses de un cliente y los hábitos de compra, las recomendaciones de producto pueden ayudar a minoristas con que desea venta y venta cruzada, y pueden ampliar la retención de cliente. En Dynamics 365 para las operaciones, las recomendaciones del producto son accionadas por el lugar cognoscitivo de servicios y de equipo de Microsoft Azure."
+title: "Visión general de recomendaciones de productos personalizados"
+description: "En Dynamics 365 for Operations, las recomendaciones de productos se pueden visualizar en el dispositivo de punto de venta (PDV). Las recomendaciones son artículos que pueden interesar al cliente en función de su historial de compra, los artículos de su lista de deseos y los artículos que compraron otros clientes en línea y en tiendas de físicas. Para minoristas con grandes catálogos, las recomendaciones ayudan al cliente con el descubrimiento de productos. Al mostrar productos orientados a los intereses y hábitos de compra de un cliente, las recomendaciones de productos pueden ayudar a los minoristas con las ventas verticales y cruzadas, y a mejorar la retención de clientes. En Dynamics 365 for Operations, las recomendaciones de productos son impulsadas por servicios cognitivos y el aprendizaje automático de Microsoft Azure."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,59 +25,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="personalized-product-recommendations-overview"></a>Visión general de personalizada recomendaciones del producto
+# <a name="personalized-product-recommendations-overview"></a>Visión general de recomendaciones de productos personalizados
 
-En Dynamics 365 para las operaciones, las recomendaciones de producto se pueden enviar a punto de dispositivo (POS) de la venta. Las recomendaciones son artículos que el cliente puede estar interesado en función de su historial de compra, los artículos de la lista de solicitudes, y los artículos que compraron otros clientes en línea y en Tiendas de físicas. Para los minoristas con los catálogos tamaño, las recomendaciones ayudan al cliente con descubrimiento del producto. Presentar los productos mediante los intereses de un cliente y los hábitos de compra, las recomendaciones de producto pueden ayudar a minoristas con que desea venta y venta cruzada, y pueden ampliar la retención de cliente. En Dynamics 365 para las operaciones, las recomendaciones del producto son accionadas por el lugar cognoscitivo de servicios y de equipo de Microsoft Azure.
+[!include[banner](includes/banner.md)]
+
+
+En Dynamics 365 for Operations, las recomendaciones de productos se pueden visualizar en el dispositivo de punto de venta (PDV). Las recomendaciones son artículos que pueden interesar al cliente en función de su historial de compra, los artículos de su lista de deseos y los artículos que compraron otros clientes en línea y en tiendas de físicas. Para minoristas con grandes catálogos, las recomendaciones ayudan al cliente con el descubrimiento de productos. Al mostrar productos orientados a los intereses y hábitos de compra de un cliente, las recomendaciones de productos pueden ayudar a los minoristas con las ventas verticales y cruzadas, y a mejorar la retención de clientes. En Dynamics 365 for Operations, las recomendaciones de productos son impulsadas por servicios cognitivos y el aprendizaje automático de Microsoft Azure.
 
 <a name="scenarios"></a>Situaciones
 ---------
 
-Las recomendaciones del producto se habilitan para los siguientes escenarios de Retail POS. Son disponibles en la nube Retail POS o PDV moderno (MPOS).
+Las recomendaciones de productos se habilitan para los siguientes escenarios de PDV. Están disponibles en PDV en la nube o en PDV moderno (MPOS).
 
-1.  En ** detalles del producto ** la página:
+1.  En la página **Detalles del producto**:
 
--   Si un socio de la tienda a visita ** detalles del producto ** página a la hora de revisar transacciones anteriores a través de distintos canales, el motor de recomendación sugiere artículos adicionales que es probable que se adquieran conjuntamente.
--   Si el socio de la tienda agrega un cliente a la transacción y después visita a ** detalles del producto ** página, el motor de recomendación proporciona recomendaciones personalizadas mediante el historial de la transacción del cliente.
+-   Si un empleado de tienda visita una página de **Detalles del producto** a la hora de buscar transacciones anteriores a través de distintos canales, el motor de recomendación sugiere artículos adicionales que es probable que se adquieran de forma conjunta.
+-   Si el empleado de tienda agrega un cliente a la transacción y luego visita a página de **Detalles del producto**, el motor de recomendación proporciona recomendaciones personalizadas mediante el historial de transacción del cliente.
 
-[proddetails de![] (. /media/proddetails.png])(. /media/proddetails.png)
+[![proddetails](./media/proddetails.png)](./media/proddetails.png)
 
-2.  En ** transacción ** la página:
+2.  En la página **Transacción**:
 
--   El motor de recomendación sugiere los artículos basados en la lista completa de artículos en la cesta.
--   Si el socio de la tienda agrega un cliente a la transacción, el motor de recomendación proporciona recomendaciones personales mediante el historial de la transacción del cliente y la lista de artículos en la cesta.
+-   El motor de recomendación sugiere los artículos en base a la lista completa de artículos en la cesta.
+-   Si el empleado de tienda agrega un cliente a la transacción, el motor de recomendación proporciona recomendaciones personales mediante el historial de transacción del cliente y la lista de artículos en la cesta.
 
-** Nota ** mostrar recomendaciones sobre ** transacción ** la página, minoristas el pedido o el diseño de pantalla en Dynamics 365 para las operaciones. ** Recomendaciones ** el control deben quitarse en ** transacción ** a la página. ![transactionscreenmultipleproductslargemessengersbag-5 [] (. /media/transactionscreenmultipleproductslargemessengersbag-5.jpg])(. /media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+**Nota** Para mostrar recomendaciones en la página **Transacción**, el minorista tiene que actualizar el diseño de la pantalla en Dynamics 365 for Operations. El control **Recomendaciones** debe quitarse de la página **Transacción**. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-3.  En ** Detalles del cliente ** la página:
-    -   El motor de recomendación sugiere artículos en función del Id. de usuario y los artículos de la lista de solicitudes del cliente.
+3.  En la página **Detalles del cliente**:
+    -   El motor de recomendación sugiere los artículos en base al id. de usuario y los artículos en la lista de deseos del cliente.
 
-[customerdetailsrecommendations de![] (. /media/customerdetailsrecommendations.png])(. /media/customerdetailsrecommendations.png)
+[![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
-## <a name="configure-dynamics-365-for-operations-to-enable-pos-recommendations"></a>Los Dynamics 365 para que las operaciones habiliten las recomendaciones de PDV
-Para configurar recomendaciones del producto, debe hacer lo siguiente.
+## <a name="configure-dynamics-365-for-operations-to-enable-pos-recommendations"></a>Configure Dynamics 365 for Operations para habilitar las recomendaciones de PDV
+Para configurar las recomendaciones de productos, tiene que hacer lo siguiente.
 
-1.  Asegúrese de que ha seleccionado el correcto ** entidad jurídica **.
-2.  Desplácese ** entidad almacenada **, seleccione ** venta minorista **, y haga clic en ** ** actualización. ** ** Esto utilizará los datos de prueba (o sus datos) de la base de datos operativa y los moverá al almacén de la entidad.
-3.  Opcional: Para mostrar recomendaciones sobre la visualización de la transacción, vaya ** diseño de pantalla, ** eligen su diseño de pantalla, se inicie ** diseñador de Pantalla **, ** ** y después quitan ** control de las recomendaciones ** donde necesario.
-4.  Ir ** los parámetros de ventas **, seleccione Equipo- ** aprendiendo **, seleccione ** en Sí ** ** habilite las recomendaciones de PDV **.
-5.  Para ver recomendaciones sobre el PDV, trabajo global de la configuración de la ejecución ** ** 1110. Para reflejar cambios creado al diseñador de pantalla de Retail POS, trabajo de la configuración del canal de la ejecución ** ** 1070.
+1.  Asegúrese de que ha seleccionado la **Entidad jurídica** correcta.
+2.  Vaya a **Almacén de entidades**, seleccione **Ventas minoristas** y luego haga clic en **Actualizar**.** **Esto utilizará los datos de demostración (o sus datos) de su base de datos operativa y los moverá al almacén de entidades.
+3.  Opcional: Para mostrar recomendaciones en la pantalla de transacción, vaya **Diseño de pantalla, **elija su diseño de pantalla, inicie el **Diseñador de pantalla**,** **y luego quite el **control de recomendaciones** cuando sea necesario.
+4.  Vaya a **Parámetros de ventas al por menor aprendiendo**, seleccione **Aprendizaje automático**, seleccione **Sí** en **Habilitar recomendaciones de PDV**.
+5.  Para ver recomendaciones sobre el PDV, ejecute el trabajo de configuración global **1110**. Para reflejar los cambios realizados en el diseñador de pantalla del PVD, ejecute el trabajo de configuración de canal **1070**.
 
-## <a name="how-does-it-work"></a>¿[] () cómo funciona?
-Al actualizar ** entidad almacenada ** la entidad, las siguientes acciones tienen lugar.
+## <a name="how-does-it-work"></a>[]()¿Cómo funciona?
+Al actualizar la entidad **Almacén de entidades**, tienen lugar las siguientes acciones.
 
--   Los datos en el formato requerido por los servicios cognoscitivos la información de Dynamics 365 para la base de datos operativa de las operaciones y enviado al almacén de la entidad.
--   Los datos usa Azure Data Factory (ADF) para limpiar los datos mediante los scripts de una instancia como parte de las actividades de ADF. Los datos limpiado se almacena en almacenamiento del objeto binario.
--   Los datos de almacenamiento del objeto binario que usan los servicios cognoscitivos API para preparar a un modelo de recomendación.
+-   Los datos en el formato requerido por los servicios cognitivos se extraen de la base de datos operativa Dynamics 365 for Operations y se envían al almacén de entidades.
+-   Azure Data Factory (ADF) utiliza los datos para filtrarlos mediante secuencias de comandos de Hive como parte de las actividades de ADF. Los datos filtrados se guardan en un almacenamiento de blobs.
+-   La API de servicio cognitivos utilizan los datos de almacenamiento de blobs para preparar a un modelo de recomendación.
 
-Al activar ** recomendaciones del permiso ** y ejecuta los trabajos de configuración, las siguientes acciones tienen lugar.
+Al activar **Habilitar recomendaciones del permiso** y ejecutar los trabajos de configuración, tienen lugar las siguientes acciones.
 
--   Las credenciales de modelo y el identificador se API de recogida y se almacenan en Dynamics 365 para la base de datos operativa de operaciones, en el web.config para el AOS, y también en el servidor al por menor.
--   Las credenciales de modelo y el identificador se colocan a disposición CRT para poder honrar las llamadas para las recomendaciones de productos de la nube PDV y MPOS en modo conectado.
+-   Las credenciales del modelo y la id. se seleccionan desde la API y se guardan en la base de datos operativa de Dynamics 365 for Operations, en el web.config para AOS y también en el Retail Server.
+-   Las credenciales del modelo y el id. se ponen a disposición de CRT para que se puedan aplicar llamadas para recomendaciones de productos desde el PDV en la nube y el MPOS en modo en línea.
 
 
 <a name="see-also"></a>Consulte también
 --------
 
-[Agregar un control de las recomendaciones a la página de la transacción en un dispositivo de PDV] (add-recommendations-control-pos-screen.md)
+[Agregue un control de recomendaciones a la página de transacción en un dispositivo de PDV](add-recommendations-control-pos-screen.md)
+
+
 
 

@@ -118,7 +118,7 @@ eGiro se basa en la norma internacional UN EDIFACT CREMUL (Mensaje de aviso de c
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Motivo de la eliminación       | El formato de pago ya no se usa.                                                     |
-| ¿Reemplazado por otra característica? | N. º El formato se sustituye por ISO 20022 formatos de importación de criterio en versiones futuras. |
+| ¿Reemplazado por otra característica? | N. º El formato se sustituirá por formatos ISO 20022 de importación de criterio en próximas versiones. |
 | Módulos afectados             | Clientes                                                                       |
 
 ### <a name="external-inventory-for-poland"></a>Inventario externo para Polonia
@@ -138,7 +138,7 @@ Se utiliza una herramienta para configurar la recopilación de datos para los in
 |                              |                                                                                          |
 |------------------------------|------------------------------------------------------------------------------------------|
 | Motivo de la eliminación       | Uso limitado                                                                            |
-| ¿Reemplazado por otra característica? | N. º La herramienta se reemplaza por electrónicas configuraciones de informes en versiones futuras. |
+| ¿Reemplazado por otra característica? | N. º La herramienta se reemplazará por las configuraciones de informes electrónicas en próximas versiones. |
 | Módulos afectados             | Contabilidad general                                                                           |
 
 ### <a name="import-of-customer-payment-transactions-for-finland"></a>Importación de las transacciones de pago del cliente para Finlandia
@@ -148,7 +148,7 @@ Puede seleccionar un formato de importación para los pagos finlandeses para imp
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Motivo de la eliminación       | El formato de pago ya no se usa.                                                     |
-| ¿Reemplazado por otra característica? | N. º El formato se sustituye por ISO 20022 formatos de importación de criterio en versiones futuras. |
+| ¿Reemplazado por otra característica? | N. º El formato se sustituirá por formatos ISO 20022 de importación de criterio en próximas versiones. |
 | Módulos afectados             | Clientes                                                                       |
 
 ### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a>Importación de transacciones de pago en un diario de contabilidad general para Finlandia
@@ -158,7 +158,7 @@ Se usa un formato específico para Finlandia para importar las transacciones de 
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Motivo de la eliminación       | El formato de pago ya no se usa.                                                     |
-| ¿Reemplazado por otra característica? | N. º El formato se sustituye por ISO 20022 formatos de importación de criterio en versiones futuras. |
+| ¿Reemplazado por otra característica? | N. º El formato se sustituirá por formatos ISO 20022 de importación de criterio en próximas versiones. |
 | Módulos afectados             | Clientes                                                                       |
 
 ### <a name="integration-with-isabel-synchronized-cis-for-belgium"></a>Integración con el software Isabel sincronizado (CIS) para Bélgica
@@ -168,7 +168,7 @@ Isabel es el marco de trabajo de la banca electrónica en Europa y es una norma 
 |                              |                                                                                                                      |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Motivo de la eliminación       | La integración con el cliente Isabel se ha interrumpido.                                                                |
-| ¿Reemplazado por otra característica? | N. º Los formatos de pago que ya no se usen son reemplazados por el formato de pago de transferencia de crédito ISO20022 para Bélgica. |
+| ¿Reemplazado por otra característica? | N. º Los formatos de pago que ya no se usan son reemplazados por el formato de pago de transferencia de crédito ISO20022 para Bélgica. |
 | Módulos afectados             | Proveedores                                                                                                     |
 
 ### <a name="modifications-in-the-chart-of-accounts-and-accounting-rules-for-spain"></a>Modificaciones del plan de cuentas y reglas de contabilidad para España
@@ -218,7 +218,7 @@ Los formatos de Telehansa y TeleTeenus se usan para la importación de pago banc
 |                              |                                                                                            |
 |------------------------------|--------------------------------------------------------------------------------------------|
 | Motivo de la eliminación       | Los formatos de pago ya no se usan.                                                    |
-| ¿Reemplazado por otra característica? | N. º Los formatos se sustituirán por ISO 20022 formatos de importación de criterio en versiones futuras. |
+| ¿Reemplazado por otra característica? | N. º Los formatos se sustituirán por formatos ISO 20022 de importación de criterio en próximas versiones. |
 | Módulos afectados             | Clientes                                                                        |
 
 ### <a name="performance-management-goal-workflow"></a>Flujo de trabajo de objetivo de gestión del rendimiento
@@ -228,7 +228,7 @@ La gestión del rendimiento incluye la administración y la integración del obj
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Motivo de la eliminación       | La gestión del rendimiento se diseñó de nuevo y el número de páginas de objetivos se redujo para simplificar el proceso.                 |
-| ¿Reemplazado por otra característica? | N. º Los objetivos son visibles para los administradores a través del portal Self Service Self Service de director, y se pueden cambiar y ver por el administrador. |
+| ¿Reemplazado por otra característica? | N. º Los objetivos son visibles para los administradores a través del portal Manager Self Service, y se pueden ver y cambiar por el administrador. |
 | Módulos afectados             | Gestión del capital humano                                                                                                 |
 
 ### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>Formatos de pago de Postgirot y Postgirot Utland para Suecia
@@ -241,19 +241,19 @@ Formatos de pago de Postgirot y Postgirot Utland para Suecia.
 | ¿Reemplazado por otra característica? | Sí, formato de pago de transferencia de crédito ISO20022 para Suecia |
 | Módulos afectados             | Proveedores                                        |
 
-### <a name="radio-frequency-identifier"></a>Identificador de radiofrecuencia
+### <a name="radio-frequency-identifier"></a>Identificador por radiofrecuencia
 
 La identificación por radiofrecuencia (RFID) es una tecnología de recopilación de datos que utiliza etiquetas electrónicas para almacenar datos de identificación y no precisa ningún lector de requisitos visuales para capturarlos.
 
 |                              |                                               |
 |------------------------------|-----------------------------------------------|
-| Motivo de la eliminación       | Uso bajo de cliente y un número limitado de la función. |
+| Motivo de la eliminación       | Poco uso de cliente y conjunto limitado de funciones. |
 | ¿Reemplazado por otra característica? | No                                            |
 | Módulos afectados             | Gestión del inventario                          |
 
 ### <a name="report-about-state-invoices-numbering-for-latvia"></a>Informe sobre la numeración del estado de las facturas para Letonia
 
-La legislación letona proporciona reglas específicas acerca de la numeración de las facturas de ventas. La funcionalidad permite asignar números específicos a las facturas de ventas, en función de usuario o el grupo de usuarios. A continuación puede generar un informe o un archivo XML. También puede imprimir un informe sobre los números de factura que se usan.
+La legislación letona proporciona reglas específicas acerca de la numeración de las facturas de ventas. Dicha funcionalidad le permite asignar números específicos a las facturas de ventas, en función del usuario o del grupo de usuarios. A continuación puede generar un informe o un archivo XML. También puede imprimir un informe sobre los números de factura que se usan.
 
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -312,7 +312,7 @@ Un flujo de trabajo para gestionar la creación de los objetivos del empleado es
 
 ### <a name="aif-axd-and-axbc-integrations"></a>Integración de AIF, Axd y AxBC
 
-En Application Integration Framework (AIF), los datos se pueden intercambiar con sistemas externos por medio de lógica de negocios expuesta como servicios. Dynamics AX incluye servicios que se basan en documentos y en .NET Business Connector (AxBC). Los documentos se crean mediante XML. El XML incluye información de encabezado que se agrega para crear un *mensaje* que se puede transferir a o de Dynamics AX. Algunos ejemplos de documentos son los pedidos de compra y venta. No obstante, casi cualquier entidad, como un cliente, puede ser representado por un documento. Servicios basados en documentos utilizan ** clases &lt;de *** de *Document&gt;Axd.
+En Application Integration Framework (AIF), los datos se pueden intercambiar con sistemas externos por medio de lógica de negocios expuesta como servicios. Dynamics AX incluye servicios que se basan en documentos y en .NET Business Connector (AxBC). Los documentos se crean mediante XML. El XML incluye información de encabezado que se agrega para crear un *mensaje* que se puede transferir a o de Dynamics AX. Algunos ejemplos de documentos son los pedidos de compra y venta. No obstante, casi cualquier entidad, como un cliente, puede ser representado por un documento. Los servicios que se basan en documentos usan las clases **Axd &lt;*Documento*&gt;.
 
 |                              |                                                                                                                                                                                                          |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -347,7 +347,7 @@ Extracto del impuesto federal para el impuesto de ICMS
 |                              |                                                                                                                       |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Motivo de la eliminación       | Este extracto ya no se aplica en algunos estados brasileños.                                                     |
-| ¿Reemplazado por otra característica? | N. º Los usuarios pueden usar la herramienta de informes electrónica genérica para configurar la instrucción si procede en situaciones específicas. |
+| ¿Reemplazado por otra característica? | N. º Los usuarios pueden utilizar la herramienta de informes electrónica genérica para configurar el extracto si es necesario de acuerdo a situaciones específicas. |
 | Módulos afectados             | Libros fiscales                                                                                                          |
 
 ### <a name="brazilian-scan-contingency-mode-for-nf-e"></a>Modo brasileño de contingencia SCAN brasileña para NF-e
@@ -631,7 +631,7 @@ Información de nómina en Recursos humanos
 |                              |                                                                                                                                                                                                                                                                                                                              |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Motivo de la eliminación       | Esta funcionalidad se ha sustituido por páginas principales de nóminas y Recursos Humanos.                                                                                                                                                                                                                                              |
-| ¿Reemplazado por otra característica? | Se han reconfigurado las páginas **Prestaciones**, **Ganancias** y otras páginas relacionadas que estaban anteriormente en nóminas de Estados Unidos y ahora forman parte de la configuración de Recursos humanos base para ayudar con el procesamiento externo de nóminas. Esta función se accede mediante ** recursos humanos 1 ** &gt; ** Nómina ** clave de configuración. |
+| ¿Reemplazado por otra característica? | Se han reconfigurado las páginas **Prestaciones**, **Ganancias** y otras páginas relacionadas que estaban anteriormente en nóminas de Estados Unidos y ahora forman parte de la configuración de Recursos humanos base para ayudar con el procesamiento externo de nóminas. A esta función se accede mediante la clave de configuración **Recursos humanos 1** &gt; **Nómina**. |
 | Módulos afectados             | Recursos humanos, Nómina                                                                                                                                                                                                                                                                                                     |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Bloqueo privado de los diarios de gestión de almacenes e inventarios
@@ -698,12 +698,12 @@ Servicios de sitios le permite crear sitios web que amplía sus procesos empresa
 | ¿Reemplazado por otra característica? | No                                                                                                                                       |
 | Módulos afectados             | Contratación de RR. HH., gestión de casos, solicitud de presupuestos, registro de proveedor                                                                  |
 
-### <a name="ssas-demand-forecasting-strategy"></a>Estrategia de previsión de demanda de SSAS
+### <a name="ssas-demand-forecasting-strategy"></a>Estrategia de previsión de la demanda de SSAS
 
 |                              |                                                                              |
 |------------------------------|------------------------------------------------------------------------------|
-| Motivo de la eliminación       | El diseño de la característica no se puede admitir en la nueva arquitectura de la nube. |
-| ¿Reemplazado por otra característica? | Estrategia de previsión Azure Machine Learning demanda Azure Machine Learning Azure Machine Learning                           |
+| Motivo de la eliminación       | El diseño de la característica no se admite en la nueva arquitectura de la nube. |
+| ¿Reemplazado por otra característica? | Estrategia de previsión de demanda de Aprendizaje automático de Azure                           |
 | Módulos afectados             | Planificada                                                                     |
 
 ### <a name="travel-requisitions"></a>Pedidos de viaje

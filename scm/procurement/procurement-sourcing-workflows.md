@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-and-sourcing-workflows"></a>Flujos de trabajo de adquisición y abastecimiento
 
+[!include[banner](../includes/banner.md)]
+
+
 Algunas organizaciones requieren que las solicitudes de compra y los pedidos de compra los apruebe un usuario distinto a la persona que especificó la transacción. Para configurar un proceso de aprobación, puede crear un flujo de trabajo.
 
 Un flujo de trabajo representa un proceso empresarial. El flujo de trabajo define cómo se gestiona un documento en el sistema e indica quién debe completar una tarea o aprobar un documento. El uso del sistema de flujo de trabajo en su organización le ofrece varias ventajas:
 -   **Procesos coherentes**: puede definir el proceso de aprobación para documentos específicos como, por ejemplo, solicitudes de compra e informes de gastos. El sistema de flujo de trabajo le ayuda a garantizar que los documentos se procesan y se aprueban de manera coherente y eficaz.
 -   **Visibilidad de procesos**: puede realizar el seguimiento del estado, el historial y las medidas de rendimiento de una instancia de flujo de trabajo determinada. De este modo puede determinar si los cambios deben realizarse en el flujo de trabajo para mejorar la eficacia.
--   ** La lista de trabajo centralizada ** — los usuarios pueden ver una lista de trabajo centralizada para ver las tareas de flujo de trabajo y aprobaciones asignadas a través de todos los flujos de trabajo que participan en. Está disponible en la página de los elementos de trabajo.
+-   **Lista de trabajo centralizada**: los usuarios pueden ver una lista de trabajo centralizada para ver las tareas y las aprobaciones de flujo de trabajo que tienen asignadas en todos los flujos de trabajo en los que participan. Esta lista de trabajo está disponible en la página Elementos de trabajo.
 
 ## <a name="the-types-of-workflows-that-you-can-create"></a> Tipos de flujo de trabajo que puede crear
 Los siguientes tipos de flujo de trabajo están disponibles para Adquisición y abastecimiento.
@@ -46,7 +49,7 @@ Los siguientes tipos de flujo de trabajo están disponibles para Adquisición y 
 | Flujo de trabajo de línea del pedido de compra     | Crear flujos de trabajo de aprobación y revisión para líneas de pedidos de compra. |
 
 ## <a name="creating-a-workflow"></a>Creación de un flujo de trabajo
-Para crear un flujo de trabajo, ir al aprovisionamiento de configuración de la adquisición &gt;&gt; y abastecimiento y a los flujos de trabajo de la compra de componentes y crear un nuevo flujo de trabajo seleccionando el tipo de flujo de trabajo que desee crear.  
+Para crear un flujo de trabajo, vaya a Adquisición y abastecimiento &gt; Configuración &gt; Flujos de trabajo de adquisición y abastecimiento, y cree un nuevo flujo de trabajo seleccionando el tipo de flujo de trabajo que desee crear.  
 
 En el lienzo del flujo de trabajo puede arrastrar elementos de flujo de trabajo al diseñador y vincular los elementos en un flujo. Se deben configurar los elementos del flujo de trabajo. Para los elementos de flujo de trabajo de aprobación y de tarea puede configurar qué participante debe actuar.
 Tipos de participantes
@@ -69,6 +72,8 @@ Puede asignar un paso de aprobación a los siguientes grupos de participantes.
 
 [Definición de flujos de trabajo de procesos empresariales para solicitudes de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Purchase requisition workflow](purchase-requisitions-workflow.md)
+[Flujo de trabajo de solicitudes de compra](purchase-requisitions-workflow.md)
+
+
 
 

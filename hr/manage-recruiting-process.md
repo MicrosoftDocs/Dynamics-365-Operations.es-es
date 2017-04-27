@@ -28,28 +28,31 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-a-recruiting-process"></a>Gestión de un proceso de contratación
 
-Este tema describe un concepto que los reclutadores pueden usar para realizar los pasos de un proceso de contratación, incluidos esfuerzos para anunciar de puestos abierto y para contratar candidatos, siguiendo el candidato y candidatos de la información de la solicitud, el entrevistarse con, seleccionando uno o varios candidatos los puestos abierto de la organización.
+[!include[banner](includes/banner.md)]
+
+
+Este tema describe un concepto que permite a los empleadores hacer un seguimiento de los pasos de un proceso de contratación, incluidas las tareas para publicitar vacantes y contratar candidatos, hacer un seguimiento de la información del candidato y de la solicitud, entrevistar a candidatos y seleccionar uno o varios candidatos para cubrir vacantes en su organización.
 
 <a name="overview"></a>Visión general
 --------
 
-Los proyectos de contratación pueden ayudarle a organizar los pasos que seguir para cubrir vacantes en una entidad jurídica. Un candidato es una persona que solicita un empleo a su empresa.  Una aplicación es la expresión de interés de un candidato en ser un empleado por una empresa y se puede los gastos un proyecto de contratación para expresar interés en una apertura específica.  Un único candidato puede tener varios usos dentro de la misma entidad jurídica o entre varias empresas de su organización.
+Los proyectos de contratación pueden ayudarle a organizar los pasos que seguir para cubrir vacantes en una entidad jurídica. Un candidato es una persona que solicita empleo a su empresa.  Una solicitud es una expresión de interés por parte de un candidato por un empleo en una empresa, solicitud que puede ir vinculada a un proyecto de contratación a través de una vacante específica.  Un único candidato puede optar a varias solicitudes dentro de la misma entidad jurídica o a través de varias empresas en su organización.
 
 <a name="recruitment-projects"></a>Proyectos de contratación
 --------------------
 
-Los proyectos de contratación permiten a los reclutadores sigan progreso rellenar con una o más puestos abierto.  El proyecto de contratación identifica el departamento y el trabajo para la que una o más puestos sea abierto. Los proyectos de contratación también hacen un seguimiento de esta información con respecto a las vacantes:
+Los proyectos de contratación permiten a los empleadores seguir el progreso de una o varias vacantes.  El proyecto de contratación identifica el departamento y el trabajo para los cuales hay una o varias vacantes. Los proyectos de contratación también hacen un seguimiento de esta información con respecto a las vacantes:
 -   El número específico de vacantes
 -   El jefe de contratación y un contacto alternativo para el puesto
 -   La fecha de aprobación de la petición
 -   La fecha límite de la solicitud
 -   La fecha de inicio estimada
 
-El proyecto de contratación contiene el **Anuncio de trabajo** utilizado en **Autoservicio para empleados** para publicitar la vacante. Para mostrar la vacante a los empleados, el proyecto de contratación debe tener un **Anuncio de trabajo**, el campo** Mostrar en autoservicio para empleados** debe estar establecido en Sí, **Fecha límite de la solicitud** debe estar establecido en una fecha futura y el proyecto de contratación debe tener Iniciado como **Estado del proyecto**. En la tabla siguiente se muestran los estados de proyecto de contratación posibles y su descripción.
+El proyecto de contratación contiene el **Anuncio de trabajo** utilizado en **Autoservicio para empleados** para publicitar la vacante. Para mostrar la vacante a los empleados, el proyecto de contratación debe tener un **Anuncio de trabajo**, el campo** Mostrar en autoservicio para empleados** debe estar establecido en Sí, **Fecha límite de la solicitud** debe estar establecido en una fecha futura y el proyecto de contratación debe tener Iniciado como **Estado del proyecto**. En la siguiente tabla se muestran los posibles estados de un proyecto de contratación y su descripción.
 
-| **Status**    | **Indicates that…**                                                                  |
+| **Estado**    | **Indica que...**                                                                  |
 |-----------|------------------------------------------------------------------------------------------|
-| Programado | Se preparan esfuerzos de contratación.  El contratación aún no ha iniciado para este proyecto. |
+| Programado | Se están preparando las tareas de contratación.  La contratación aún no ha empezado para este proyecto. |
 | Iniciado   | Ahora se están aceptando solicitudes para las vacantes de este proyecto.                    |
 | Terminado  | Se han cubierto todas las vacantes para este proyecto.                                          |
 | Cancelado  | La contratación se ha cancelado para este proyecto.                                           |
@@ -59,7 +62,7 @@ Los empleadores también pueden registrar los **Medios** utilizados para publici
 <a name="applicants"></a>Candidatos
 ----------
 
-Un candidato es una persona que solicita un trabajo en su empresa.  Comparten candidatos entre todas las entidades jurídicas de la organización que le proporciona un conjunto de talento mayor para buscar desde. Puede mantener capacidades, referencias, solicitudes de alojamiento e información personal sobre los candidatos. Al crear un registro de candidato, se creará un registro de la persona para dicho candidato en la libreta de direcciones global. Puede usar la página **Candidato** para actualizar la siguiente información de la libreta de direcciones global de candidatos:
+Un candidato es una persona que solicita un trabajo en su empresa.  Los candidatos se comparten entre todas las entidades jurídicas de la organización, lo cual proporciona una amplia selección de talentos donde buscar personal. Puede mantener capacidades, referencias, solicitudes de alojamiento e información personal sobre los candidatos. Al crear un registro de candidato, se creará un registro de la persona para dicho candidato en la libreta de direcciones global. Puede usar la página **Candidato** para actualizar la siguiente información de la libreta de direcciones global de candidatos:
 -   Información de dirección
 -   Información de contacto
 -   Información de identificación
@@ -67,7 +70,7 @@ Un candidato es una persona que solicita un trabajo en su empresa.  Comparten ca
 -   Información personal
 
 ## <a name="applications"></a>Aplicaciones
-Puede registrar la información de las solicitudes de empleo que reciba en la página **Solicitud**. La aplicación es la expresión de interés del candidato en la apertura de trabajo en su organización.  Para crear una solicitud, el candidato debe existir ya como un candidato o persona en el sistema.
+Puede registrar la información de las solicitudes de empleo que reciba en la página **Solicitud**. La solicitud es la expresión de interés por parte de un candidato en una vacante en su organización.  Para crear una solicitud, el candidato debe existir como candidato o persona en el sistema.
 Las solicitudes de empleo enviadas a la web por los candidatos pueden ser solicitadas, en respuesta a una oferta de trabajo, o no solicitadas. Las solicitudes se asocian automáticamente con el proyecto de contratación desde el que se creó la oferta de trabajo. Si no se ha solicitado, la petición de empleo se asocia con el proyecto de contratación que se especifique en el área **Contratación** de la página **Parámetros de recursos humanos**.
 ### <a name="application-status"></a>Estado de la solicitud
 
@@ -84,7 +87,7 @@ El estado de la solicitud indica el punto del proceso de contratación en el que
 
 ### <a name="correspondence-actions"></a>Acciones de correspondencia
 
-La acción de correspondencia de una **solicitud** determina el documento o la plantilla de correo electrónico utilizada para comunicarse con el candidato que envió la solicitud. Puede asociar ** los marcadores de solicitud ** con acciones de correspondencia para permitir que se use valores de las páginas de la aplicación, del candidato, de la entrevista, y del proyecto de contratación en sus comunicaciones con los candidatos.  ** Las plantillas de correo electrónico de solicitud ** se pueden crear para que las acciones de correspondencia registren rápidamente mensajes de correo electrónico a candidatos con una aplicación a una combinación de estado y la acción de correspondencia. Por ejemplo, puede enviar un correo electrónico de confirmación a todas las aplicaciones con un estado ** ** Received y a ** acción de correspondencia ** Received.  Tras publicar el correo electrónico, tiene la opción de actualizar automáticamente el estado de solicitudes.
+La acción de correspondencia de una **solicitud** determina el documento o la plantilla de correo electrónico utilizada para comunicarse con el candidato que envió la solicitud. Puede asociar **Marcadores de solicitud** con acciones de correspondencia para permitir usar valores de las páginas Solicitud, Candidato, Entrevista y Proyecto de contratación en sus comunicaciones con los candidatos.  Se pueden crear **Plantillas de correo electrónico para solicitudes** para enviar rápidamente mensajes de correo electrónico a los candidatos con una solicitud con determinada combinación de acción de correspondencia y estado. Por ejemplo, puede enviar un mensaje de correo electrónico de confirmación a todas las solicitudes con **Estado** Recibido y **Acción de correspondencia** Recibido.  Tras enviar el mensaje de correo electrónico, tiene la opción de actualizar automáticamente el estado de las solicitudes.
 
 ## <a name="application-routing"></a>Enrutamiento de solicitudes
 
@@ -92,7 +95,7 @@ Si varios trabajadores deben revisar una solicitud, puede usar la página **Enru
 
 ## <a name="interviews"></a>Entrevistas
 
-** El candidato se entrevista con ** puede programar ** de las aplicaciones ** página.  Use ** registrar información de la reunión ** botón para enviar un archivo de calendario con la información de programación de la entrevista en el candidato y el entrevistador.
+**Entrevistas a candidatos** se puede programar desde la página **Solicitudes**.  Use el botón **Enviar información de reunión** para enviar un archivo de calendario con la información de programación de entrevistas al candidato y al entrevistador.
 
 ## <a name="skill-mapping"></a>Distribución de habilidades
 
@@ -100,7 +103,9 @@ Si varios trabajadores deben revisar una solicitud, puede usar la página **Enru
 
 ## <a name="hiring-applicants"></a>Contratación de candidatos
 
-Use la página **Solicitudes** para contratar a un candidato. Si contrata a un candidato, el registro de solicitud tendrá un estado **Empleado**, y el registro en la libreta de direcciones global del candidato se asociará al registro de nuevo trabajador. Las modificaciones de la información en la libreta de direcciones global del registro del trabajador nuevo también se mostrarán en el registro del candidato. Esto puede ayudar a reducir la entrada de datos si el nuevo trabajador solicite nunca un trabajo diferente de la empresa.  Para contratar a un trabajador existente en un puesto nuevo, haga clic en ** cambio ** colocar en ** estado de la aplicación ** interrumpen abajo para iniciar el proceso de transferencia.
+Use la página **Solicitudes** para contratar a un candidato. Si contrata a un candidato, el registro de solicitud tendrá un estado **Empleado**, y el registro en la libreta de direcciones global del candidato se asociará al registro de nuevo trabajador. Las modificaciones de la información en la libreta de direcciones global del registro del trabajador nuevo también se mostrarán en el registro del candidato. Esto puede ayudar a reducir la entrada de datos si el nuevo trabajador solicitase un trabajo diferente en su empresa.  Para contratar a un trabajador existente en un nuevo puesto, haga clic en **Cambiar puesto** en la ficha desplegable **Estado de la solicitud** para iniciar el proceso de transferencia.
+
+
 
 
 

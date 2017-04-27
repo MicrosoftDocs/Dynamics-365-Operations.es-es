@@ -1,6 +1,6 @@
 ---
 title: "Asignación de datos de la planificación presupuestaria"
-description: "Este artículo describe varios métodos de asignación que están disponibles en Microsoft Dynamics 365 para las operaciones y cómo pueden usarse."
+description: "Este artículo describe los distintos métodos de asignación que están disponibles en Microsoft Dynamics 365 for Operations y cómo se pueden usar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,15 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-data-allocation"></a>Asignación de datos de la planificación presupuestaria
 
-Este artículo describe varios métodos de asignación que están disponibles en Microsoft Dynamics 365 para las operaciones y cómo pueden usarse.  
+[!include[banner](../includes/banner.md)]
+
+
+Este artículo describe los distintos métodos de asignación que están disponibles en Microsoft Dynamics 365 for Operations y cómo se pueden usar.  
 
 Puede distribuir los datos en un plan de presupuesto de varias formas de retratar exactamente los importes proyectados.
 
 ## <a name="allocation-methods"></a>Métodos de asignación
 Tres métodos de asignación (Asignar en períodos, Asignar a dimensiones y Usar reglas de asignación contable) pueden crear las líneas del plan presupuestario que se basan en las líneas del mismo plan presupuestario. Otros tres métodos (Agregado, Distribuir y Copiar del plan presupuestario) pueden crear líneas de plan presupuestario en otros planes de presupuesto. Para los seis métodos de asignación, especifica la situación de destino. El escenario de destino puede ser el mismo que el escenario de origen o puede ser diferente. Además, puede especificar si las nuevas líneas se agregan al plan presupuestario o reemplazan las líneas actuales en el plan presupuestario.
 
-![AllocateAcrossPeriods [] (. /media/allocateacrossperiods-300x259.png])(. /media/allocateacrossperiods.png
-) ** asigna a través de períodos – ** una categoría de asignación de períodos se usa para asignar las líneas del plan del presupuesto del escenario del plan del presupuesto de origen a través de períodos en el escenario de destino. El importe de origen se asigna a varias líneas en la situación de destino, en función del porcentaje y la fecha que se definen en la categoría de asignación de períodos.         
+[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+**Asignar en períodos**: use una clave de asignación de período para asignar las líneas del plan presupuestario desde el escenario del plan presupuestario de origen en los períodos del escenario de destino. El importe de origen se asigna a varias líneas en la situación de destino, en función del porcentaje y la fecha que se definen en la categoría de asignación de períodos.         
 
 [![AllocateToDimensions](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
 **Asignar a dimensiones**: las líneas del plan presupuestario se asignan de la situación de planificación presupuestaria de origen a una o varias líneas en la situación de destino, en función de los porcentajes y las dimensiones financieras que se definen en una condición de asignación del presupuesto seleccionada.           
@@ -56,9 +59,9 @@ Tres métodos de asignación (Asignar en períodos, Asignar a dimensiones y Usar
 ## <a name="using-allocation-methods-in-a-budget-plan"></a>Mediante métodos de asignación en un plan presupuestario
 Para realizar asignaciones en la página del plan presupuestario, seleccione las líneas para asignar y haga clic en **Asignar presupuesto**.
 
-![AllocateBudgetButton [] (. /media/allocatebudgetbutton-300x84.png])(. /media/allocatebudgetbutton.png) 
+[![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
 
-Después, seleccione un método de asignación. Los campos restantes se establecen a continuación, según el método seleccionado. Estos campos incluyen el origen y destino de los datos del plan presupuestario y una opción que le permite multiplicar el origen por un factor especificado cuando se crean los importes de destino para simplificar el ajuste masivo. También puede establecer la opción **Anexar al plan**. Seleccione **No** para reemplazar las líneas existentes del plan presupuestario o seleccione **Sí** para conservar las líneas existentes del plan presupuestario y agregar nuevas líneas para los importes asignados.
+A continuación, seleccione un método de asignación. Los campos restantes se establecen a continuación, según el método seleccionado. Estos campos incluyen el origen y destino de los datos del plan presupuestario y una opción que le permite multiplicar el origen por un factor especificado cuando se crean los importes de destino para simplificar el ajuste masivo. También puede establecer la opción **Anexar al plan**. Seleccione **No** para reemplazar las líneas existentes del plan presupuestario o seleccione **Sí** para conservar las líneas existentes del plan presupuestario y agregar nuevas líneas para los importes asignados.
 
 ## <a name="automating-allocations-during-a-workflow"></a>Automatización de asignaciones durante un flujo de trabajo
 Una característica potente permite llevar a cabo asignaciones automáticamente como parte de un flujo de trabajo de planificación presupuestaria. Mientras que un plan presupuestario pasa por su flujo de trabajo, las tareas automatizadas pueden invocar una asignación en una etapa de planificación presupuestaria especificada. 
@@ -69,6 +72,8 @@ A continuación, cree una asignación de etapa en la página **Configuración de
 
 Finalmente, agregue una tarea automatizada para la asignación de la etapa de planificación presupuestaria en la etapa deseada del flujo de trabajo. En el siguiente ejemplo, dos asignaciones de etapa de planificación presupuestaria (destacadas en rojo) se han insertado en el flujo de trabajo.
 
-![BudgetPlanningStageAllocations [] (. /media/budgetplanningstageallocations-300x300.png])(. /media/budgetplanningstageallocations.png)
+[![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
+
+
 
 

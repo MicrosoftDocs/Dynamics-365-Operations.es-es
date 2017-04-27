@@ -1,6 +1,6 @@
 ---
 title: "Funciones de edición recién agregadas en Grabador de tareas"
-description: "Si utiliza el Grabador de tareas para crear las guías de la tarea, puede editar los archivos de forma más eficaz mediante la funcionalidad descrita en este wiki."
+description: "Si utiliza el Grabador de tareas para crear guías de tareas, puede editar los archivos de forma más eficaz mediante la funcionalidad descrita en esta wiki."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,64 +27,64 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="recently-added-editing-features-in-task-recorder"></a>Funciones de edición recién agregadas en Grabador de tareas
 
-Si utiliza el Grabador de tareas para crear las guías de la tarea, puede editar los archivos de forma más eficaz mediante la funcionalidad descrita en este wiki.
+Si utiliza el Grabador de tareas para crear guías de tareas, puede editar los archivos de forma más eficaz mediante la funcionalidad descrita en esta wiki.
 
-Estas funciones están disponibles en ** registro &gt; de edición &gt; del Grabador de tareas desde los valores ** el menú.
+Estas funciones están disponibles en el menú **Configuración &gt; Grabación de tareas &gt; Editar grabación**.
 
--   Pasos de Insertar sin volver a registrar el archivo completo.
--   Mover los pasos bajo subtarea sin volver a registrar el archivo completo.
--   Contraer el nombre y los campos descripción del registro.
+-   Insertar pasos sin volver a grabar el archivo completo.
+-   Mover los pasos bajo una subtarea sin volver a grabar el archivo completo.
+-   Contraer los campos Nombre y descripción de la grabación.
 
-## <a name="insert-steps-without-rerecording-the-entire-file"></a>Inserte los pasos sin volver a registrar el archivo completo
-Ahora puede agregar un paso en cualquier lugar de una guía de la tarea sin jugar posterior o volver a registrar el archivo completo.
+## <a name="insert-steps-without-rerecording-the-entire-file"></a>Insertar pasos sin volver a grabar el archivo completo.
+Ahora puede agregar un paso en cualquier lugar de una guía de tareas sin reproducir o volver a grabar el archivo completo.
 
-1.  Permite seleccionar la etapa tras la cual desea que el paso nuevo que se insertará. Asegúrese de que el paso se resaltado.
+1.  Seleccione el paso después del cual desea que se inserte el nuevo paso. Asegúrese de que el paso está resaltado.
 
-Para que el Grabador de tareas inserte un paso, debe tener la página correcta abierto. La página es correcta la página en la que el nuevo aparece paso. El Grabador de tareas tiene un mecanismo que determine cuál es la página activa, y deshabilitar la funcionalidad si la página correcta no está abierto. 
+Para que el Grabador de tareas inserte un paso, debe tener abierta la página correcta. La página correcta es la página en la que se produce el nuevo paso. El Grabador de tareas tiene un mecanismo que determina cuál es la página activa y deshabilitará la funcionalidad si no está abierta la página correcta. 
 
-![tg1 [] (. /media/tg1.png])(. /media/tg1.png) 
+[![tg1](./media/tg1.png)](./media/tg1.png) 
 
 
-Cuando está en la página correcta, ** paso de Insertar ** disponible.
+Cuando se encuentre en la página correcta, **Insertar paso** estará disponible.
 
-![tg2 [] (. /media/tg2-231x300.png])(. /media/tg2.png)
+[![tg2](./media/tg2-231x300.png)](./media/tg2.png)
 
-2. Haga clic en ** paso de Insertar **.
+2. Haga clic en **Insertar paso**.
 
-Al hacer clic en ** paso de Insertar **, cambiará Grabador de tareas el modo de registro. Cualquier acción permitida la interfaz de usuario ahora se registrará y agregó en contexto como pasos.
+Al hacer clic en **Insertar paso**, el Grabador de tareas cambia al modo de grabación. Cualquier acción realizada en la IU se grabará ahora y agregará de forma local como pasos.
 
-3. Haga clic en ** ** detención.
+3. Haga clic en **Detener**.
 
-Es posible repetir el proceso, agregando tantos pasos o moviendo tantas subtareas según convenga (consulte abajo para las subtareas).
+Puede repetir el proceso, agregando tantos pasos o moviendo tantas subtareas según sea necesario (vea más abajo para las subtareas).
 
-4. Al editar terminado la guía de la tarea, haga clic en ** edición de ** a continuación, elija una de las opciones de guardar o para publicar la guía de la tarea.
+4. Cuando haya acabado de editar la guía de tareas, haga clic en **Edición realizada** y, a continuación, elija una de las opciones para guardar o publicar la guía de tareas.
 
-## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Mover los pasos bajo subtarea sin volver a registrar el archivo completo
-Puede mover pasos en subtarea sin jugar posterior o volver a registrar el archivo completo. También puede mover el paso de la subtarea o el paso de la subtarea del final si desea agrupar un bloque existente de pasos.
+## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Mover los pasos bajo una subtarea sin volver a grabar el archivo completo.
+Puede mover los pasos bajo una subtarea sin reproducir o volver a grabar el archivo completo. También puede mover el paso de la subtarea o el paso de la subtarea final si desea agrupar un bloque existente de pasos.
 
-1.  Permite seleccionar la etapa o el paso de la subtarea que desea mover. Asegúrese de que el paso se resaltado.
-2.  Haga clic en el punto suspensivo, haga clic en ** mueva el paso después de **.
+1.  Seleccione el paso o el paso de la subtarea que desea mover. Asegúrese de que el paso está resaltado.
+2.  Haga clic en el botón de elipsis y luego haga clic en **Mover paso después de**.
 
-![tg3 [] (. /media/tg3.png])(. /media/tg3.png)
+[![tg3](./media/tg3.png)](./media/tg3.png)
 
-3. Permite seleccionar la etapa o el paso de la subtarea que desea mover el paso o el paso de la subtarea siguiente. El Grabador de tareas moverá el paso.
+3. Seleccione el paso o el paso de la subtarea que desea para mover después el paso o el paso de la subtarea. El Grabador de tareas moverá el paso.
 
-4. Para mover el paso de la subtarea del final, selecciónela, haga clic en el punto suspensivo clic **, mueva el paso después de **, y seleccione el paso tras la cual desea que el paso de la subtarea la finalización de ser.
+4. Para mover el paso de la subtarea final, selecciónela, haga clic en **Mover paso después de** y luego seleccione el paso tras el cual desea que esté el paso de la subtarea.
 
-Si desea que el primer paso en la guía de la tarea que se encuentra dentro de una subtarea, cree un paso de la como subtarea el segundo paso, y desplácelo el primer paso al. Puede agregar tantos o mover o subtareas pasos según sea necesario.
+Si desea introducir el primer paso de la guía de tareas en una subtarea, cree un paso de subtarea como segunda subtarea y luego mueva el primer paso dentro de esta. Puede agregar o mover tantos pasos o subtareas como crea necesario.
 
-5. Al editar terminado la guía de la tarea, haga clic en ** edición de ** a continuación, elija una de las opciones de guardar o para publicar la guía de la tarea.
+5. Cuando haya acabado de editar la guía de tareas, haga clic en **Edición realizada** y, a continuación, elija una de las opciones para guardar o publicar la guía de tareas.
 
-## <a name="collapse-recording-name-and-description"></a>Nombre y descripción del registro de hundimiento
-Puede expandir y contraer ** nombre de registro y ** ** descripción del registro ** campos. Cuando estos campos están incurridos, más pasos serán visibles en el panel de edición del Grabador de tareas. 
+## <a name="collapse-recording-name-and-description"></a>Contraer Nombre y descripción de la grabación.
+Puede expandir y contraer los campos **Nombre de la grabación** y **Descripción de la grabación**. Al contraer estos campos, aparecerán más pasos en el panel de edición del Grabador de tareas. 
 
-![tg4 [] (. /media/tg4-300x252.png])(. /media/tg4.png)  
+[![tg4](./media/tg4-300x252.png)](./media/tg4.png)  
 
 <a name="see-also"></a>Consulte también
 --------
 
 [Crear documentación o formación con las grabaciones de tareas](/dynamics365/operations/dev-itpro/user-interface/task-recorder)
 
-[] Referencia rápida del Grabador de tareas (/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
+[Referencia rápida del Grabador de tareas](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
 
 

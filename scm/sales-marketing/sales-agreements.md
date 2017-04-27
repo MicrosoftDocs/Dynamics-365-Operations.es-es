@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-agreements"></a>Acuerdos de venta
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información acerca de los acuerdos de venta. Un acuerdo de venta es un contrato que compromete al cliente a comprar productos en una cantidad específica o por un importe determinado durante un período de tiempo, a cambio de precios especiales y descuentos.
 
 Un acuerdo de venta es un contrato que compromete el cliente para comprar productos en una cantidad específica o por un importe específico a lo largo del tiempo, a cambio de precios especiales, descuentos especiales y otras condiciones especiales, como condiciones de pago y de entrega. Los precios y descuentos de acuerdo de venta anulan todos los precios y descuentos indicados en cualquier contrato comercial que pudiera existir.  
@@ -36,7 +39,7 @@ El período de validez de un acuerdo de venta se define en los campos **Fecha de
 
 Puede crear un pedido de ventas directamente desde un acuerdo de venta mediante la acción **Pedido parcial**. Como alternativa, puede seleccionar un acuerdo de venta en vigor cuando está tomando pedidos (consulte la sección “Aplicación de acuerdos de venta en el proceso de pedidos” de este artículo).  
 
-** Nota: ** En versiones anteriores, acuerdos de venta se hace como pedidos de ventas combinados.
+**Nota:** En versiones anteriores se hace referencia a los acuerdos de ventas, como pedidos marco de ventas.
 
 ## <a name="commitment-types"></a>Tipos de compromiso
 Cada línea de un acuerdo de venta expresa un compromiso para vender algo. Normalmente hay dos categorías de compromiso:
@@ -98,16 +101,18 @@ Si ha creado (liberado) un pedido de ventas contra un acuerdo de venta, algunos 
 | Cantidad                                                          | Si especifica una cantidad que excede la cantidad especificada en una línea del acuerdo de venta en la que la casilla de verificación **Máximo aplicado** está activada, un cuadro de mensaje le solicita que guarde la cantidad modificada. Haga clic en **Sí** para quitar el vínculo con la línea del acuerdo de venta y volver a calcular el precio. Haga clic en **No** para quitar el vínculo con la línea del acuerdo de venta sin volver a calcular el precio.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Devolución de un artículo pedido desde un acuerdo de venta
-Cuando un cliente devuelva un producto pedida desde un acuerdo de venta, Microsoft Dynamics 365 para las operaciones pueden encontrar y actualizar automáticamente compromiso relacionada del acuerdo de venta para reflejar el cambio en la cantidad o importe. Con la creación de un pedido de devolución que está basado en el pedido de ventas original que está vinculado a un acuerdo de venta, se establece una relación entre el compromiso del acuerdo de venta, la línea del pedido de ventas y la factura del pedido de devolución.  
+Cuando un cliente devuelve un producto que se ha pedido desde un acuerdo de venta, Microsoft Dynamics 365 for Operations puede buscar y actualizar automáticamente el compromiso del acuerdo de venta relacionado para reflejar el cambio de cantidad o de importe. Con la creación de un pedido de devolución que está basado en el pedido de ventas original que está vinculado a un acuerdo de venta, se establece una relación entre el compromiso del acuerdo de venta, la línea del pedido de ventas y la factura del pedido de devolución.  
 
 Si no desea deducir la cantidad del artículo devuelto del compromiso del acuerdo de venta, puede usar el control **Quitar vínculo** de la página **Pedido de devolución** para quitar el vínculo entre el pedido de devolución y el compromiso del acuerdo de venta. Si debe restablecer el vínculo más adelante, haga clic en **Crear vínculo**.  
 
 **Nota**: un pedido de devolución solo se puede vincular a un acuerdo de venta. Si un cliente devuelve varios productos que se han pedido desde más varios acuerdos de venta, debe crear un nuevo pedido de devolución para cada producto y crear un vínculo al acuerdo de venta correspondiente.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Búsqueda automática para acuerdos de venta
-En algunos casos donde se crean indirectamente los pedidos de ventas, por ejemplo cuando se crea una nota de abono o pedidos de venta de empresas vinculadas, puede controlar si Microsoft Dynamics 365 para las búsquedas de las operaciones automática de acuerdos de venta aplicables.
+En algunos casos donde se crean indirectamente los pedidos de ventas, por ejemplo, cuando se crea una nota de abono o pedidos de venta de empresas vinculadas, puede controlar si Microsoft Dynamics 365 for Operations busca automáticamente los acuerdos de venta aplicables.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Dimensiones financieras sobre acuerdos de venta
 Puede copiar dimensiones financieras en encabezados de documentos o en líneas individuales de un acuerdo de venta. Puede modificar las dimensiones en un encabezado o en una línea de acuerdo en cualquier momento. En este caso, las dimensiones se copian automáticamente al encabezado o la línea de liberación de pedidos parciales.
+
+
 
 

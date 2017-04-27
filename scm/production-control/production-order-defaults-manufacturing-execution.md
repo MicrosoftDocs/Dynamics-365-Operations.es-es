@@ -1,5 +1,5 @@
 ---
-title: "Valores predeterminados del pedido de producción en la ejecución de fabricación"
+title: "Configuración predeterminada de pedidos de producción en ejecución de fabricación"
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="production-order-defaults-in-manufacturing-execution"></a>Valores predeterminados del pedido de producción en la ejecución de fabricación
+# <a name="production-order-defaults-in-manufacturing-execution"></a>Configuración predeterminada de pedidos de producción en ejecución de fabricación
+
+[!include[banner](../includes/banner.md)]
 
 
 
-Debe atentamente las opciones de ** el valor predeterminado para el pedido de producción ** la página antes de que los trabajadores puedan realizar registros en los trabajos de producción. Si su empresa usa la funcionalidad multisitio, puede que desee configurar diferentes valores predeterminados para los pedidos de producción para cada sitio. Los valores predeterminados de los pedidos para su integración con el control de producción se configuran en las siguientes fichas de la página **Valores predeterminados de pedido de producción**:
+
+Xonsidere atentamente las opciones de la página **Valores predeterminados de pedido de producción** antes de que los trabajadores comiencen a realizar registros de los trabajos de producción. Si su empresa utiliza la funcionalidad multisitio, quizá le convendría configurar diferentes valores predeterminados para pedidos de producción en función del sitio. Los valores predeterminados de los pedidos para su integración con el control de producción se configuran en las siguientes fichas de la página **Valores predeterminados de pedido de producción**:
 
 -   **General**: valores predeterminados del pedido generales para los trabajos de producción en la ejecución de fabricación.
 -   **Inicio**: valores predeterminados de pedido que se usan cuando se inician las operaciones o los trabajos de producción.
@@ -68,6 +71,8 @@ El consumo de materiales durante el proceso de notificación como terminado de u
 -   **Principio de vaciado**: cuando se notifica como terminado un pedido de producción, las cantidades de materiales se consumirán según el principio de vaciado que se establece en las líneas de la lista de materiales de producción. Solo se consumirán las líneas de materiales donde se ha establecido el principio de vaciado en **Finalizar**.
 -   **Siempre**: se consumirán siempre las cantidades de materiales proporcionales a la cantidad notificada como terminada.
 -   **Nunca**: las cantidades de materiales nunca se consumirán.
+
+
 
 
 

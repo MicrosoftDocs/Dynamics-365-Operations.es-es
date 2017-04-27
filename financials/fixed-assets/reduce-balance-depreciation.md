@@ -1,9 +1,9 @@
 ---
-title: "Reducir la depreciación degresiva"
+title: "Reducción de depreciación de saldo"
 description: "Este artículo le ofrece una visión general del método de depreciación Depreciación degresiva."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reduce-balance-depreciation"></a>Reducir la depreciación degresiva
+# <a name="reduce-balance-depreciation"></a>Reducción de depreciación de saldo
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo le ofrece una visión general del método de depreciación Depreciación degresiva.
 
@@ -73,12 +76,14 @@ A través del método de Saldo decreciente, el 30 por ciento de la base de depre
 
 | Período | Cálculo del importe de depreciación anual | Valor neto en los libros al final del año |
 |--------|-------------------------------------------|---------------------------------------|
-| Año 1 | (11,000 - 1,000) \* 30% = 3,000           | (11.000 - 1.000) - 3.000 = 7.000      |
-| Año 2 | (7,000 - 1,000) \* 30% = 1,800            | (7.000 -1.800) = 5.200                |
-| Año 3 | (5,200 - 1,000) \* 30% = 1,260            | (5.200 - 1.260) = 3.940               |
+| Año 1 | (11.000 - 1.000) \* 30% = 3.000           | (11.000 - 1.000) - 3.000 = 7.000      |
+| Año 2 | (7.000 - 1.000) \* 30% = 1.800            | (7.000 -1.800) = 5.200                |
+| Año 3 | (5.200 - 1.000) \* 30% = 1.260            | (5.200 - 1.260) = 3.940               |
 
  
 -
+
+
 
 
 

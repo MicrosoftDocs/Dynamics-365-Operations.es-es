@@ -1,6 +1,6 @@
 ---
 title: "Administrar el ciclo de vida de las configuraciones de la notificación electrónica"
-description: "Este tema describe cómo se administra el ciclo de vida de la configuración de electrónicas (ER) que informan para Microsoft Dynamics 365 para la solución de las operaciones."
+description: "En este tema se describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución de Microsoft Dynamics 365 for Operations."
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,18 +27,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>Administrar el ciclo de vida de las configuraciones de la notificación electrónica
 
-Este tema describe cómo se administra el ciclo de vida de la configuración de electrónicas (ER) que informan para Microsoft Dynamics 365 para la solución de las operaciones.
+[!include[banner](../includes/banner.md)]
+
+
+En este tema se describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución de Microsoft Dynamics 365 for Operations.
 
 <a name="overview"></a>Visión general
 --------
 
-El Informe electrónico (ER) es un motor que ofrece asistencia con documentos electrónicos reglamentarios y específicos del país en Microsoft Dynamics 365 for Operations. En general, ER asume la capacidad de realizar las actividades siguientes para un único documento electrónico. Para obtener más información, consulte [la visión general electrónica] de informes (general-electronic-reporting.md).
+El Informe electrónico (ER) es un motor que ofrece asistencia con documentos electrónicos reglamentarios y específicos del país en Microsoft Dynamics 365 for Operations. En general, ER asume la capacidad de realizar las actividades siguientes para un único documento electrónico. Para obtener más información, consulte [Visión general de los informes electrónicos](general-electronic-reporting.md).
 
 -   Diseñar una plantilla para un documento electrónico:
     -   Identificar los orígenes necesarios de datos que se pueden presentar en el documento:
-        -   Dinámica subyacente 365 para los datos de las operaciones, como tablas de datos, entidades de datos, y clases.
-        -   propiedades Proceso- específicas, como fecha y hora de la ejecución, y zona horaria.
-        -   Parámetros de la entrada del usuario, especificados por el usuario final en el tiempo de ejecución.
+        -   Datos subyacentes de Dynamics 365 for Operations, como tablas de datos, entidades de datos y clases.
+        -   Propiedades específicas de proceso, como fecha y tiempo de ejecución, y zona horaria.
+        -   Parámetros de entrada del usuario, especificados por el usuario final en el tiempo de ejecución.
     -   Defina los elementos de documento necesarios y su topología para especificar un formato de documento final.
     -   Configure el flujo deseado de datos de orígenes de datos seleccionados a los elementos de documentos definidos (mediante la vinculación de orígenes de datos a los componentes de formato de documento) y especifique la lógica del control del proceso.
 -   Haga que una plantilla esté disponible para que se pueda usar en otras instancias de Dynamics 365 for Operations:
@@ -49,19 +52,19 @@ El Informe electrónico (ER) es un motor que ofrece asistencia con documentos el
     -   Lleve una plantilla de LCS a la instancia de Dynamics 365 for Operations actual como configuración de ER.
     -   Diseñe una versión personalizada de una configuración de ER y guarde una referencia a la versión de base.
 -   Integre una plantilla con un proceso empresarial determinado, de manera que esté disponible en Dynamics 365 for Operations:
-    -   Configure los parámetros de modo que Dynamics 365 for Operations empiece a usar una configuración de ER, refiriéndose a esa configuración en un parámetro relacionado con procesos. Por ejemplo, consulte la configuración de ER en un método de pago específico de Proveedores para generar un mensaje de pago electrónico para procesar facturas.
+    -   Configure los parámetros de modo que Dynamics 365 for Operations empiece a usar una configuración de ER, refiriéndose a esa configuración en un parámetro relacionado con procesos. Por ejemplo, consulte la configuración de ER en un método de pago Proveedores específico para generar un mensaje de pago electrónico para procesar facturas.
 -   Usar una plantilla en un proceso empresarial específico:
-    -   Ejecutar una configuración de ER de un proceso empresarial específico. Por ejemplo, para generar un mensaje de pago electrónico para procesar factura cuando se selecciona un método de pago que hace referencia la configuración del ER.
+    -   Permite ejecutar una configuración de ER en un proceso empresarial específico. Por ejemplo, para generar un mensaje de pago electrónico para procesar facturas cuando se selecciona un método de pago que hace referencia a la configuración de ER de pagos.
 
 ## <a name="concepts"></a>Conceptos
-Las siguientes funciones y las actividades relacionadas se está asociado el ciclo de vida de la configuración del ER.
+Los roles siguientes y las actividades relacionadas se asocian con el ciclo de vida de la configuración de ER.
 
 | Función                                       | Actividades                                                      | Descripción                                                                                                                                                                                                                  |
 |--------------------------------------------|-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Consultor funcional de informes electrónicos | Permite crear y gestionar componentes de ER (modelos y formatos).           | Persona del negocio que ha diseñado los modelos de datos dominio- específicos de ER, diseñada las plantillas necesario para los documentos electrónicos, y los vincula en consecuencia.                                                                           |
-| Desarrollador de informes electrónicos             | Permite crear y administrar asignaciones de modelo de datos.                          | Una Dynamics 365 para el especialista de las operaciones que selecciona Dynamics requerida 365 para los orígenes de datos de las operaciones y los vincula a los modelos de datos dominio- específicos de ER.                                                                 |
-| Supervisor contable                      | Permite configurar los valores relacionados con proceso que hacen referencia a artefactos de ER. | Por ejemplo, ** supervisor de estadísticas ** un rol que permite que los valores de una configuración de ER se utilizarán en un método de pago repercutido de las cuentas concretas para generar un mensaje de pago electrónico para procesar factura. |
-| Funcionario de pagos de proveedores            | Use artefactos de ER en un proceso empresarial específico.                | Por ejemplo, ** pagos de proveedores clerk ** un rol que permite que los mensajes de pago electrónico se generan para procesar facturas, en función del formato de ER que se configura para un método de pago específico.           |
+| Consultor funcional de informes electrónicos | Permite crear y gestionar componentes de ER (modelos y formatos).           | Una persona de negocios que diseña modelos de datos específicos de dominio de ER, diseña las plantillas necesarias para documentos electrónicos y los vincula según corresponda.                                                                           |
+| Desarrollador de informes electrónicos             | Permite crear y administrar asignaciones de modelo de datos.                          | Un especialista de Dynamics 365 for Operations que selecciona los orígenes de datos de Dynamics 365 for Operations necesarios y los vincula a los modelos de datos específicos de dominio de ER.                                                                 |
+| Supervisor contable                      | Permite configurar los valores relacionados con proceso que hacen referencia a artefactos de ER. | Por ejemplo, un rol **Supervisor contable** que permite los ajustes de una configuración de ER para usarla en un método de pago Proveedores concreto para generar un mensaje de pago electrónico para procesar facturas. |
+| Funcionario de pagos de proveedores            | Use artefactos de ER en un proceso empresarial específico.                | Por ejemplo, un rol **Funcionario de pagos de proveedores** que permite que los mensajes de pago electrónico se generan para procesar facturas, en función del formato de ER que se configura para un método de pago específico.           |
 
 ## <a name="er-configuration-development-lifecycle"></a>Ciclo de vida de desarrollo de la configuración de ER
 Para los siguientes motivos relacionados con ER, se recomienda diseñar las configuraciones de ER en el entorno de desarrollo, como una instancia independiente de Dynamics 365 for Operations:
@@ -69,11 +72,13 @@ Para los siguientes motivos relacionados con ER, se recomienda diseñar las conf
 -   Los usuarios con los roles de **Desarrollador de notificación electrónica** o **Consultor de funciones de notificación electrónica** pueden editar las configuraciones y ejecutarlas con fines de prueba. Este escenario puede provocar llamadas de métodos de clases y de tablas que pueden dañar los datos empresariales y el rendimiento de la instancia de Dynamics 365 for Operations.
 -   Las llamadas de métodos de clases y de tablas como orígenes de datos de ER de las configuraciones de ER no están restringidas por puntos de entrada de Dynamics 365 for Operations ni por el contenido registrado de la empresa. Por lo tanto, los usuarios con los roles de **Desarrollador de notificación electrónica** o **Consultor de funciones de notificación electrónica** pueden obtener acceso a los datos confidenciales de la empresa.
 
-Las configuraciones de ER que están diseñados en el entorno de desarrollo se pueden cargar el entorno de prueba para la evaluación de la configuración (Integración de proceso adecuada, corrección de resultados, y el rendimiento) y el control de calidad, como corrección de los derechos de acceso y de segregación de controles de roles controlados. Las características que habilitan intercambio de la configuración del ER se pueden usar con este propósito. Finalmente, las configuraciones probadas de ER pueden ser cualquier cargados al CD, donde se pueden compartidas con los suscriptores de servicio, o al entorno de producción para uso interno, como se muestra en la siguiente ilustración. ![Ciclo de vida de la configuración del ER](./media/ger-configuration-lifecycle.png)
+Las configuraciones de ER que se diseñan en el entorno de desarrollo se pueden cargar en el entorno de prueba para la evaluación de la configuración (integración adecuada de proceso, corrección de resultados y rendimiento) y el control de calidad, como la corrección de los derechos de acceso del rol y la segregación de controles. Las características que permiten el intercambio de configuración de ER pueden usarse para este propósito. Finalmente, las configuraciones de ER probadas se pueden cargar al LCS, donde se pueden compartir con los suscriptores del servicio o al entorno de producción para el uso interno, tal como se muestran en la siguiente ilustración. ![Ciclo de vida de la configuración de ER](./media/ger-configuration-lifecycle.png)
 
 <a name="see-also"></a>Consulte también
 --------
 
 [Visión general de los informes electrónicos](general-electronic-reporting.md)
+
+
 
 

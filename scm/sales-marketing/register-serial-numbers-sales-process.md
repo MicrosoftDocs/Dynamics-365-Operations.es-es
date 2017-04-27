@@ -1,5 +1,5 @@
 ---
-title: "Números de serie del proceso de ventas"
+title: "Registro de números de serie en el proceso de ventas"
 description: "Este artículo explica cómo puede registrar los números de serie en albaranes o facturas durante el proceso de ventas. Esta funcionalidad es útil si una empresa desea capturar los números de serie para propósitos de servicio y de garantía, pero no tiene que mantener los números de serie en el inventario desde recepción a emisión."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="register-serial-numbers-in-the-sales-process"></a>Números de serie del proceso de ventas
+# <a name="register-serial-numbers-in-the-sales-process"></a>Registro de números de serie en el proceso de ventas
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo explica cómo puede registrar los números de serie en albaranes o facturas durante el proceso de ventas. Esta funcionalidad es útil si una empresa desea capturar los números de serie para propósitos de servicio y de garantía, pero no tiene que mantener los números de serie en el inventario desde recepción a emisión.
 
@@ -65,7 +68,7 @@ Sí, puede ejecutar una consulta en la línea del diario de albaranes o la líne
 ## <a name="can-i-view-the-serialized-items-that-i-have-on-hand"></a>¿Puedo visualizar los artículos serializados que tengo disponibles?
 No, no puede ver los artículos serializados que tiene disponibles porque los números de serie no se registran para los artículos hasta que los artículos no se han vendido.
 
-## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>¿Puedo registrar los números de serie para los artículos de catchweight?
+## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>¿Puedo registrar números de serie de los artículos con peso capturado?
 No, no puede registrar números de serie de los artículos con peso capturado durante el proceso de ventas. Además, si un producto se configura como artículo con peso capturado, no puede asignar el producto a un grupo de dimensiones de seguimiento configurado para usar números de serie solo durante el proceso de ventas.
 ¿Puedo registrar números de serie en el PDV minorista?
 ------------------------------------------------
@@ -76,6 +79,8 @@ Sí, el punto de venta minorista (PDV) solicitará al usuario que especifique un
 Esta funcionalidad está disponible para todos los roles que pueden mantener albaranes y facturas de ventas. Los siguientes controles permiten a los trabajadores corregir números de serie y registrar entradas en blanco para números de serie que no se pueden leer o escanear:
 -   Mantener correcciones de números de serie
 -   Mantener registro de números de serie ilegibles
+
+
 
 
 

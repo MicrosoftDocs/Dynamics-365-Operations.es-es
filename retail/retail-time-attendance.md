@@ -1,6 +1,6 @@
 ---
 title: Tiempo y asistencia en la venta minorista
-description: "Este tema describe las situaciones que se admiten para la administración de tiempo y asistencia en Microsoft Dynamics 365 para las operaciones (al por menor."
+description: "Este tema describe los escenarios que se admiten para la gestión del tiempo y la asistencia en Microsoft Dynamics 365 for Operations - Retail."
 author: MargoC
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 62813
 ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
 ms.search.region: global
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="retail-time-and-attendance"></a>Tiempo y asistencia en la venta minorista
 
-Este tema describe las situaciones que se admiten para la administración de tiempo y asistencia en Microsoft Dynamics 365 para las operaciones (al por menor. 
+[!include[banner](includes/banner.md)]
 
-<a name="manage-worker-setup-and-scheduling"></a>Gestionar la configuración y la programación del trabajador
+
+Este tema describe los escenarios que se admiten para la gestión del tiempo y la asistencia en Microsoft Dynamics 365 for Operations - Retail. 
+
+<a name="manage-worker-setup-and-scheduling"></a>Gestionar la configuración y la programación de trabajadores
 ----------------------------------
 
 ### <a name="initial-configuration"></a>Configuración inicial
@@ -45,8 +48,8 @@ Para obtener información sobre los pasos de configuración, vea <https://techne
 
 ### <a name="retail-specific-configuration"></a>Configuración específica a la venta minorista
 
--   Habilitar un perfil de funcionalidad para reloj de tiempo, para los trabajadores a los que desee habilitar registros de horas. Haga clic en ** perfiles de funcionalidad de PDV ** &gt; ** funciones ** &gt; ** registros de horas de PDV ** &gt; ** registros de horas de permiso **.
--   Configure grupos de permisos del punto de venta (PDV) para habilitar el permiso de las entradas de Visualizar reloj de tiempo. Este permiso permite que un usuario vea los registros del reloj de tiempo de otros trabajadores en la tienda (y de cualquier otra tienda a la que esté asociado el usuario, a través de la libreta de direcciones). Es posible que desee habilitar este permiso para un rol de administrador pero no para un rol de cajero. Haga clic en ** grupos de permisos de PDV ** &gt; ** entradas de hora de tiempo de la vista **.
+-   Habilitar un perfil de funcionalidad para reloj de tiempo, para los trabajadores a los que desee habilitar registros de horas. Haga clic en **Perfiles de la funcionalidad del PDV** &gt; **Funciones** &gt; **Registros de hora del PDV** &gt; **Habilitar registros de horas**.
+-   Configure grupos de permisos del punto de venta (PDV) para habilitar el permiso de las entradas de Visualizar reloj de tiempo. Este permiso permite que un usuario vea los registros del reloj de tiempo de otros trabajadores en la tienda (y de cualquier otra tienda a la que esté asociado el usuario, a través de la libreta de direcciones). Es posible que desee habilitar este permiso para un rol de administrador pero no para un rol de cajero. Haga clc en **Grupos de permiso del PDV** &gt; **Ver entradas del reloj de tiempo**.
 
 ## <a name="register-time"></a>Hora de registro
 ### <a name="cashier-and-non-cashier-time-registrations"></a>Registros de tiempo del cajero y fuera del cajero
@@ -96,7 +99,7 @@ Para obtener información sobre los pasos de configuración, vea <https://techne
     </tbody>
     </table>
 
-    ![TimeClockStates [] (. /media/timeclockstates.png])(. /media/timeclockstates.png)
+    [![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)
 -   Vea el mensaje de confirmación y compruebe que el tiempo de la actividad actual es correcto.
 -   Libro de registros:
     -   Haga clic en **Libro de registros** para ver la actividad del reloj de tiempo.
@@ -106,9 +109,9 @@ Para obtener información sobre los pasos de configuración, vea <https://techne
 <!-- -->
 
 -   Diferentes zonas horarias:
-    -   Si ve el tiempo desde otra ubicación (para el registro de cajero, o mediante **View timeclock entries** para una situación de gerente), y esa ubicación se encuentra en una zona horaria diferente, los registros de tiempo que ve se convierten a su zona horaria local. Por ejemplo, es un administrador para dos almacenes, uno en Arizona y otro en Nevada. Un cajero registra una entrada 9:00 a.m. Arizona en. En ese momento, en Londres son las 8:00 de la mañana. Por lo tanto, si está en la tienda de Londres y mira los registros de horas, el registro de hora se marca como 8 de la mañana.
+    -   Si ve el tiempo desde otra ubicación (para el registro de cajero, o mediante **View timeclock entries** para una situación de gerente), y esa ubicación se encuentra en una zona horaria diferente, los registros de tiempo que ve se convierten a su zona horaria local. Por ejemplo, usted es el gerente de dos tiendas, una en Barcelona y otra en Londres. Un cajero registra la hora de entrada a las 9:00 de la mañana en Barcelona. En ese momento, en Londres son las 8:00 de la mañana. Por lo tanto, si está en la tienda de Londres y mira los registros de horas, el registro de hora se marca como 8 de la mañana.
 
-## <a name="view-worker-time-registrations"></a>Registros de horas de trabajador de la vista
+## <a name="view-worker-time-registrations"></a>Ver registros de horas del trabajador
 ### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a>Ver los registros de horas del trabajador y filtrar por tipo de tienda o de actividad
 
 En PDV:
@@ -117,8 +120,8 @@ En PDV:
 -   Verá actividades de registro del reloj de tiempo de todos los trabajadores asignados a las mismas tiendas a las que usted está asignado.
 -   Puede usar los filtros de tipo de actividad y de tienda para filtrar los registros de hora.
 
-## <a name="process-and-manage-time-registrations"></a>De proceso y gestionar los registros de horas
-Una Dynamics 365 para las operaciones (el usuario al por menor sigue el flujo de trabajo para calcular, aprueba, y transferir registros de tiempo a las nóminas.
+## <a name="process-and-manage-time-registrations"></a>Procesar y gestionar registros de tiempo
+Un usuario de Dynamics 365 for Operations - Retail sigue al flujo de trabajo para calcular, aprobar y transferir registros de tiempo a las nóminas.
 
 ### <a name="primary-operations"></a>Operaciones primarias
 
@@ -132,5 +135,7 @@ Una Dynamics 365 para las operaciones (el usuario al por menor sigue el flujo de
 -   Registrar ausencias
 
 Para obtener más información sobre cómo procesar los registros de tiempo y asistencia, consulte <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+
+
 
 

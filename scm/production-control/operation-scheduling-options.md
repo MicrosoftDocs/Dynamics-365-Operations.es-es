@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling-options"></a>Opciones de programación de las operaciones
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tema describe las opciones de programación de las operaciones. Puede usar la programación de operaciones para proporcionar una estimación general del tiempo extra del proceso de producción.
 
 La programación de operaciones calcula la siguiente información de un pedido de producción:
@@ -43,7 +46,7 @@ Varias configuraciones determinan cómo se calculan los programas de producción
 La dirección de programación es indispensable en el proceso de programación. La producción se puede programar hacia adelante o hacia atrás a partir de cualquier fecha, en función de los requisitos de tiempo y programación.
 
 -   **A partir de la fecha de programación: **puede programar la producción para que se inicie lo antes posible. La producción puede iniciarse hoy, mañana o en cualquier fecha concreta en el futuro. La producción está programada para comenzar lo antes posible y se planifica hacia adelante en el tiempo hasta la fecha final más próxima posible.
--   **Programación retardada**: puede programar la producción para que se inicie lo más tarde posible. El programa se basa en la fecha en que debe completarse la producción y cuenta hacia atrás hasta la última fecha posible en que puede iniciarse la producción sin que supere la fecha límite objetivo.
+-   **Programación regresiva**: puede programar la producción para que se inicie lo más tarde posible. El programa se basa en la fecha en que debe completarse la producción y cuenta hacia atrás hasta la última fecha posible en que puede iniciarse la producción sin que supere la fecha límite objetivo.
 
 Están disponibles las siguientes opciones:
 
@@ -128,6 +131,8 @@ Puede guardar los valores actuales como valores predeterminados. Existen dos opc
 <a name="see-also"></a>Consulte también
 --------
 
-[Operations scheduling](operations-scheduling.md)
+[Programación de operaciones](operations-scheduling.md)
+
+
 
 

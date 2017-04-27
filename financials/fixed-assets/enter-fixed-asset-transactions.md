@@ -1,5 +1,5 @@
 ---
-title: "Opciones de la transacción de activos fijos"
+title: Opciones de transacciones de activos fijos
 description: "Este artículo describe los diferentes métodos disponibles para crear transacciones de activos fijos."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="fixed-asset-transaction-options"></a>Opciones de la transacción de activos fijos
+# <a name="fixed-asset-transaction-options"></a>Opciones de transacciones de activos fijos
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo describe los diferentes métodos disponibles para crear transacciones de activos fijos.
 
@@ -36,7 +39,7 @@ Puede configurar los activos fijos de la integración con los proveedores, clien
 Puede especificar transacciones de activos fijos en la página Asiento del diario. Esta página se puede abrir desde la página Diario de facturas. También puede abrir la página Asiento del diario en la página Diario de aprobación de facturas. En el campo Cuenta de contrapartida, seleccione Activos fijos. A continuación, en el campo Cuenta de contrapartida, seleccione un número de activo fijo. En la ficha de Activos fijos, especifique valores en los campos Tipo de transacción y Libro.
 
 ## <a name="accounts-receivable"></a>Clientes
-Puede especificar transacciones de activos fijos en la página de la factura de servicios.  En la página de la factura de servicios, en la cuadrícula de las líneas de factura, seleccione un artículo de línea. Haga clic en la ficha desplegable Detalles de línea. Especifique el número de activo fijo y el libro para la transacción de cancelación. Para facturas de servicio, el tipo de transacción de activos fijos es siempre Venta.
+Puede especificar transacciones de activos fijos en la página Factura de servicios.  En la página Factura de servicios, en la cuadrícula Líneas de factura, seleccione un artículo de línea. Haga clic en la ficha desplegable Detalles de línea. Especifique el número de activo fijo y el libro para la transacción de cancelación. Para facturas de servicio, el tipo de transacción de activos fijos es siempre Venta.
 
 ## <a name="procurement-and-sourcing"></a>Adquisición y abastecimiento
 Puede especificar transacciones de activos fijos en la página Pedido de compra. Especifique información adicional necesaria para crear un pedido de compra y, a continuación, haga clic en Aceptar. En la página Pedido de compra, haga clic en la ficha desplegable Detalles de línea. A continuación, en la pestaña Activos fijos, especifique información sobre el activo fijo. 
@@ -65,6 +68,8 @@ Cualquier tipo de transacción de activos fijos se puede registrar en la página
 
 
 
-Para obtener más información, consulte [] la integración de los activos fijos (fixed-asset-integration.md).
+Para obtener más información, consulte [Integración de activos fijos](fixed-asset-integration.md).
+
+
 
 

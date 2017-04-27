@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advanced-bank-reconciliation-overview"></a>Visión general de conciliación bancaria avanzada
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe el flujo del proceso avanzado de conciliación bancaria. La característica de conciliación bancaria avanzada le permite importar los extractos bancarios que se pueden conciliar automáticamente desde dentro de las transacciones bancarias.
 
 La característica avanzada de conciliación bancaria le permite importar extractos bancarios. El extracto bancario importado se podrá conciliar automáticamente desde dentro de las transacciones bancarias. Estos son los pasos del flujo de conciliación bancaria avanzada.
@@ -38,13 +41,15 @@ La característica avanzada de conciliación bancaria le permite importar extrac
     -   Las funciones se pueden ampliar a cualquier formato.
 
 2.  Configure una secuencia numérica para usarla para conciliación bancaria avanzada y defina las reglas de coincidencia de conciliación bancaria.
-    -   Regla coincidente de conciliación es un conjunto de criterios que se usa para filtrar las líneas de extracto bancario y Microsoft Dynamics 365 para las líneas de las transacciones bancarias de las operaciones durante el proceso de conciliación. En función de la práctica empresarial, puede configurar más de una regla coincidente para automatizar y optimizar el proceso de conciliación.
+    -   Una regla de coincidencia de conciliación es un conjunto de criterios que se usan para filtrar líneas de extracto bancario y líneas de transacción bancaria de Microsoft Dynamics 365 for Operations durante el proceso de conciliación. En función de la práctica empresarial, puede configurar más de una regla coincidente para automatizar y optimizar el proceso de conciliación.
 
-3.  Concilie los extractos bancarios con las Dynamics 365 para las transacciones bancarias de las operaciones.
+3.  Concilie extractos bancarios con las transacciones bancarias de Microsoft Dynamics 365 for Operations.
     -   Realice la creación y la conciliación automáticas de diarios de conciliación.
-    -   Ver los extractos bancarios e Dynamics 365 para las transacciones bancarias de las operaciones de forma simultánea.
-    -   Registrar Dynamics 365 para las transacciones bancarias de las operaciones si lo aparece en un extracto bancario pero no aparece en Dynamics 365 para las operaciones.
+    -   Vea extractos bancarios y las transacciones bancarias de Microsoft Dynamics 365 for Operations en paralelo.
+    -   Registre automáticamente transacciones bancarias de Microsoft Dynamics 365 for Operations si aparecen en un extracto bancario pero no aparecen en Microsoft Dynamics 365 for Operations.
     -   Genere un extracto de conciliación.
+
+
 
 
 

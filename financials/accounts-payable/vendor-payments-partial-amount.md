@@ -28,27 +28,32 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-payments-for-a-partial-amount"></a>Pagos de proveedor para un importe parcial
 
+[!include[banner](../includes/banner.md)]
+
+
 En ocasiones, puede crear un pago a un proveedor inferior al importe de una factura. Este artículo describe las diferentes opciones para gestionar esta situación. Las opciones disponibles dependen de la configuración y de los requisitos empresariales. 
 
 <a name="cash-discount-amounts"></a>Importes de descuento por pronto pago
 ---------------------
 
-Un proveedor puede ofrecerle un descuento por pronto pago por pagar una factura antes de la fecha de vencimiento. Por ejemplo, introduce una factura de 100,00 que especifica un descuento por pronto pago del 2% si se paga en 10 días. La fecha de vencimiento es 30 días. Si una propuesta de pago utiliza el descuento por pronto pago como criterio para seleccionar una factura, y si la propuesta se ejecuta en o antes de la fecha de descuento por pronto pago, la factura se ha activado para el pago, y el pago se realiza para 98.00. Un descuento por pronto pago también se puede realizar para un único pago que se creó manualmente.
+Un proveedor puede ofrecerle un descuento por pronto pago por pagar una factura antes de la fecha de vencimiento. Por ejemplo, introduce una factura de 100,00 que especifica un descuento por pronto pago del 2% si se paga en 10 días. La fecha de vencimiento es 30 días. Si una propuesta de pago usa el descuento por pronto pago como criterio para seleccionar una factura, y si la propuesta se ejecuta en la fecha de descuento por pronto pago o antes, la factura se selecciona para su pago y se crea el pago de 98,00. También se puede obtener un descuento por pronto pago por un único pago que creado manualmente.
 
 ## <a name="partial-payments-with-cash-discounts"></a>Pagos parciales con descuentos por pronto pago
-Cuando se realiza un pago parcial, se puede planificar realizar otro pago parcial adicional para liquidar por completo la factura. Para tomar un descuento por pronto pago para un pago parcial, debe establecer Sí ** calcule los descuentos por pronto pago para pagos parciales ** de la opción ** ** ** en los parámetros de la cuenta a pagar ** la página. 
+Cuando se realiza un pago parcial, se puede planificar realizar otro pago parcial adicional para liquidar por completo la factura. Para obtener un descuento por pronto pago para un pago parcial, debe establecer la opción **Calcular descuento por pronto pago para pagos parciales** en **Sí** en la página **Parámetros de proveedores**. 
 
-Por ejemplo, recibe un descuento por pronto pago del 2% si la factura se paga en menos de 10 días tras su emisión. Se registra una factura de 100,00. Si hace un pago de 49.00 en 10 días, debe especificar un débito de 49.00 en el diario de pagos. Al liquidar un pago parcial en ** las transacciones abiertas del Liquidar ** la página 1.00, ** ** aparece en ** importe de descuento por pronto pago a tomar ** el campo. 
+Por ejemplo, recibe un descuento por pronto pago del 2% si la factura se paga en menos de 10 días tras su emisión. Se registra una factura de 100,00. Si hace un pago de 49,00 en 10 días, debe especificar un débito de 49,00 en el diario de pagos. Al liquidar el pago parcial en la página **Liquidar transacciones abiertas**, aparece **1,00** en el campo **Importe de descuento por pronto pago para aplicar**. 
 
 > [!NOTE] 
-> Si especifica un pago parcial y deja el importe de la factura completo en ** ascienda a liquidar ** campos, ** importe de descuento por pronto pago a tomar ** el campo se actualiza automáticamente cuando registre las transacciones.
+> Si especifica un pago parcial y deja el importe de la factura completo en el campo **Importe para liquidar**, el campo **Importe de descuento por pronto pago para aplicar** se vuelve a calcular automáticamente al registrar las transacciones.
 
 ## <a name="credit-notes-with-cash-discounts"></a>Notas de crédito con descuentos por pronto pago
-Puede devolver algunos de los artículos de una factura y recibir una nota de abono. Si el descuento por pronto pago se ha tomado de la factura original, puede restar el valor del descuento y recibir una devolución por el importe correcto. Si ** calcule los descuentos por pronto pago para las notas de crédito ** la opción está establecida ** en Sí ** ** los parámetros de proveedores ** la página, el descuento se calcula automáticamente para la nota de abono. 
+Puede devolver algunos de los artículos de una factura y recibir una nota de abono. Si el descuento por pronto pago se ha tomado de la factura original, puede restar el valor del descuento y recibir una devolución por el importe correcto. Si la opción **Calcular descuentos por pronto pago para notas de abono** está establecida en **Sí** en la página **Parámetros de proveedores**, se calcula automáticamente el descuento para la nota de abono. 
 
-Por ejemplo, recibe un descuento por pronto pago del 2% si la factura se paga en menos de 10 días tras su emisión. Se registra una factura de 100,00. Si devuelve las mercancías y recibe una nota de abono, puede especificar una nota de crédito para el importe completo de la factura original, 100.00, así como el descuento por pronto pago del 2 por ciento que también se define en la nota de crédito.  Cuando aparezca la nota de abono en ** liquidar las transacciones ** la página 98.00, ** ** aparece en ** ascienda a liquidar ** los campos, y ** - 2.00 ** aparece en ** importes de descuento por pronto pago ** campo. El importe del descuento se registra en una cuenta de descuento por pronto pago.
+Por ejemplo, recibe un descuento por pronto pago del 2% si la factura se paga en menos de 10 días tras su emisión. Se registra una factura de 100,00. Si devuelve los artículos y recibe una nota de abono, puede especificar una nota de abono para el importe total de la factura original, 100,00, junto con el descuento por pronto pago del 2 por ciento que también está definido en la nota de abono.  Al ver la nota de abono en la página **Liquidar transacciones**, aparece** 98,00** en el campo **Importe para liquidar** y **-2,00** en **Importe de descuento por pronto pago**. El importe del descuento se registra en una cuenta de descuento por pronto pago.
 
 ## <a name="overpaymentunderpayment-amounts"></a>Importes de sobrepago/pago insuficiente
 Puede realizar un pago parcial donde el importe por liquidar sea muy pequeño. Por ejemplo, la factura de proveedor es por 1.000,00 y paga 999,90. Si el importe restante es inferior al especificado para sobrepagos o pagos insuficientes en la página **Parámetros de proveedores**, la diferencia se registra automáticamente en una cuenta contable de sobrepago o pago insuficiente.
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-blocking"></a>Bloqueo del inventario
 
+[!include[banner](../includes/banner.md)]
+
+
 En este artículo se proporciona una visión general del bloqueo del inventario, que forma parte del proceso de inspección de calidad en Microsoft Dynamics AX. Puede usar el bloqueo del inventario para evitar que los artículos se procesen o se consuman.
 
 Puede bloquear artículos de inventario de las siguientes formas:
@@ -53,17 +56,19 @@ En el siguiente ejemplo, se generará un pedido de calidad al registrar un albar
 | Una asociación de calidad especifica que debe generarse un pedido de calidad cuando se registre un albarán de pedido de compra. La configuración de muestreo del artículo del pedido de calidad especifica que se debe realizar una inspección del 10 por ciento de la cantidad en la línea del pedido de compra. Además, dado que la opción **Bloqueo completo** está seleccionada en la configuración de muestreo del artículo, la cantidad completa de la línea de pedido de compra debe bloquearse durante la inspección independientemente de la cantidad enviada para inspección. | Se imprimirá y registrará el albarán. | Se generará un pedido de calidad. Un diez por ciento de la cantidad del pedido de compra para el artículo se enviará para inspección. La cantidad completa de la línea del pedido de compra se bloqueará. |
 
 ## <a name="blocking-items-by-using-inventory-status-blocking"></a>Bloqueo de artículos mediante bloqueo del estado de inventario
-Puede especificar los estados de inventario están bloqueando los estados mediante ** bloqueo de inventario ** el parámetro en ** los estados de inventario ** la página.  No puede usar los estados de inventario como estados de bloqueo para los pedidos de producción, los pedidos de ventas, los pedidos de transferencia, las transacciones de salida ni las integraciones de proyectos. Para el trabajo de salida, use artículos que tengan un estado de inventario de disponible. Si tiene artículos con estado **Roto** y la planificación maestra se ejecuta en estos artículos, se considera que faltan los artículos y el inventario se reabastece automáticamente.
+Puede especificar qué estados de inventario son estados de bloqueo mediante el parámetro **Bloqueo de inventario** en la página **Estados de inventario**.  No puede usar los estados de inventario como estados de bloqueo para los pedidos de producción, los pedidos de ventas, los pedidos de transferencia, las transacciones de salida ni las integraciones de proyectos. Para el trabajo de salida, use artículos que tengan un estado de inventario de disponible. Si tiene artículos con estado **Roto** y la planificación maestra se ejecuta en estos artículos, se considera que faltan los artículos y el inventario se reabastece automáticamente.
 
 
 
 <a name="see-also"></a>Consulte también
 --------
 
-[Crea y mantiene un bloqueo de inventario (Guía de la tarea)](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
+[Creación y mantenimiento de un bloqueo del inventario (guía de tareas)](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
 
-[Quality management processes](quality-management-processes.md)
+[Procesos de gestión de calidad](quality-management-processes.md)
 
-[Inspeccione la calidad de las mercancías (Guía de la tarea)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+[Inspección de la calidad de las mercancías (guía de tareas)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+
+
 
 

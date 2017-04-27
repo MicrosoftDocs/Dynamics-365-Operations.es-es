@@ -1,6 +1,6 @@
 ---
-title: "Dinámica 365 para las preguntas más frecuentes de cliente entre las operaciones"
-description: "Este artículo proporciona respuestas a las preguntas más frecuentes acerca de Microsoft Dynamics 365 del cliente de las operaciones."
+title: Preguntas frecuentes sobre el cliente de Dynamics 365 for Operations
+description: "Este artículo proporciona respuestas a preguntas frecuentes acerca del cliente de Microsoft Dynamics 365 for Operations."
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,33 +24,38 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-client-faq"></a>Dinámica 365 para las preguntas más frecuentes de cliente entre las operaciones
+# <a name="dynamics-365-for-operations-client-faq"></a>Preguntas frecuentes sobre el cliente de Dynamics 365 for Operations
 
-Este artículo proporciona respuestas a las preguntas más frecuentes acerca de Microsoft Dynamics 365 del cliente de las operaciones.
+[!include[banner](../includes/banner.md)]
 
-<a name="why-arent-symbols-loaded-when-i-use-dynamics-365-for-operations"></a>¿Por qué los símbolos no se cargan a utilizo Dynamics 365 para las operaciones?
+
+Este artículo proporciona respuestas a preguntas frecuentes acerca del cliente de Microsoft Dynamics 365 for Operations.
+
+<a name="why-arent-symbols-loaded-when-i-use-dynamics-365-for-operations"></a>¿Por qué no se cargan los símbolos cuando uso Dynamics 365 for Operations?
 -----------------------------------------------------------------
 
 Las opciones de seguridad del explorador pueden impedir que los símbolos se carguen correctamente. Para resolver este problema, pruebe los siguientes pasos:
 
--   Si está experimentando este problema en Internet Explorer, haga clic en ** las herramientas **, y haga clic en ** las opciones de Internet **.  En el cuadro de diálogo de las opciones de Internet, en ** privacidad ** la ficha, haga clic ** personalizados ** nivel, y garantiza que ** descarga de fuentes ** la opción está seleccionada.
--   Si no, puede que tenga que agregar Dynamics 365 para el sitio de las operaciones a la lista de sitios de confianza.
+-   Si tiene este problema en Internet Explorer, haga clic en **Herramientas** y después haga clic en **Opciones de Internet**.  En el cuadro de diálogo Opciones de Internet, en la pestaña **Privacidad**, haga clic en **Nivel personalizado** y asegúrese de que la opción **Descarga de fuentes** está activada.
+-   De lo contrario, puede que tenga que agregar el sitio de Microsoft Dynamics 365 for Operations a la lista de sitios de confianza.
 
-## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Falto la cinta de opciones de Dynamics AX 2012. ¿Puedo mantener las fichas del panel de acciones abierto todo el tiempo?
-Nos planifican para implementar esta característica pronto. Los usuarios podrán elegir continuación mantener las fichas de los paneles de acciones abierto todo el tiempo. De lo contrario, las pestañas se contraerán cuando no se usen, para lograr más espacio en la pantalla para la página.
+## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>No veo la cinta de opciones de Dynamics AX 2012. ¿Puedo mantener las pestañas del Panel de acciones abiertas todo el tiempo?
+Estamos planeando implementar esta característica pronto. Los usuarios podrán elegir entonces mantener las pestañas de los paneles de acciones abiertas todo el tiempo. De lo contrario, las pestañas se contraerán cuando no se usen, para lograr más espacio en la pantalla para la página.
 
-## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-rightclick"></a>¿Por qué consulto a veces varios menús contextuales cuando rightclick?
-Si hace clic con el botón secundario en un campo editable (o si se selecciona texto), se mostrará el menú contextual del explorador. Este menú le concede acceso a los comandos **Cortar**, **Copiar** y **Pegar**. No podemos especificar estos comandos en Dynamics 365 para menús contextuales de las operaciones porque, por motivos de seguridad, los exploradores no permite que programáticamente tengamos acceso al portapapeles del sistema.
+## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-rightclick"></a>¿Por qué a veces veo diferentes menús contextuales cuando hago clic con el botón secundario?
+Si hace clic con el botón secundario en un campo editable (o si se selecciona texto), se mostrará el menú contextual del explorador. Este menú le concede acceso a los comandos **Cortar**, **Copiar** y **Pegar**. No podemos integrar estos comandos en los menús contextuales de Dynamics 365 for Operations porque, por motivos de seguridad, los exploradores no nos permiten obtener acceso mediante programación al portapapeles del sistema.
 
-Si hace clic con una etiqueta de campo o el valor de un control de sólo lectura, verá Dynamics 365 para el menú contextual de las operaciones.
+Si hace clic con el botón secundario en una etiqueta de campo o el valor de un control de solo lectura, verá el menú contextual de Dynamics 365 for Operations.
 
-Para crear el acceso de teclado más sencilla, planificar para implementar un método abreviado de teclado en el futuro que abra Dynamics 365 para el menú contextual de las operaciones.
+Para facilitar el acceso al teclado, planeamos implementar un método abreviado de teclado en el futuro que abra el menú contextual de Dynamics 365 for Operations.
 
-## <a name="where-is-the-view-details-functionality-in-dynamics-365-for-operations"></a>Lugar es la funcionalidad de los detalles de la vista de Dynamics 365 para las operaciones?
+## <a name="where-is-the-view-details-functionality-in-dynamics-365-for-operations"></a>¿Dónde se encuentra la funcionalidad Ver detalles en Dynamics 365 for Operations?
 La opción **Ver detalles** solo está disponible de dos formas diferentes:
 
 -   Si un control tiene capacidades **Ver detalles **, y si el control tiene un valor, ese valor se muestra como hipervínculo. Puede hacer clic en el hipervínculo para abrir una página que contiene detalles adicionales.
--   ** Los detalles de la vista ** también es una opción en Dynamics 365 para menús contextuales de las operaciones. Para obtener más información acerca de cuándo las Dynamics 365 para menús contextuales de las operaciones se muestran al hacer clic con el botón secundario, consulte la sección anterior.
+-   **Ver detalles** también es una opción en los menús contextuales de Dynamics 365 for Operations. Para obtener más información acerca de cuándo se muestran los menús contextuales de Dynamics 365 for Operations al hacer clic con el botón secundario, consulte la sección anterior.
+
+
 
 
 

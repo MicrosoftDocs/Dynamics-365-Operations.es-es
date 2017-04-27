@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="performance-management-overview"></a>Visión general de la gestión del rendimiento
 
+[!include[banner](includes/banner.md)]
+
+
 El proceso de gestión del rendimiento permite a los empleados documentar y comentar su rendimiento con el administrador. A su vez, los administradores pueden proporcionar comentarios de retroalimentación y orientación a los empleados.  
 
 Como se muestra en el siguiente diagrama, hay tres páginas que le ayudan a gestionar el proceso:
@@ -34,7 +37,7 @@ Como se muestra en el siguiente diagrama, hay tres páginas que le ayudan a gest
 -   Objetivos
 -   Revisión de rendimiento
 
-El diagrama siguiente muestra cómo se relacionan entre sí los componentes principales de la gestión del rendimiento. [información general del proceso de rendimiento![] (. /media/hcm_performanceoverviewdiagram-300x189.png])(. /media/hcm_performanceoverviewdiagram.png)    
+El diagrama siguiente muestra cómo se relacionan entre sí los componentes principales de la gestión del rendimiento. [![Visión general del proceso de rendimiento](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Diario de rendimiento
 Como empleado, antes de completar la revisión, normalmente recopila información sobre las actividades o los eventos que contribuyeron al éxito durante un período de revisión. El diario de rendimiento es el lugar donde puede documentar dichas actividades y eventos. Además, puede crear actividades futuras que se deben completar para ayudarle a alcanzar un objetivo, a cumplir los requisitos de un plan de desarrollo o a cumplir con un compromiso de rendimiento. Los diarios de rendimiento no son necesarios para crear objetivos o evaluaciones de rendimiento. 
@@ -132,7 +135,7 @@ Puede usar el flujo de trabajo de la Evaluación del empleado para controlar la 
 El flujo de trabajo de la Evaluación del empleado tiene dos elementos:
 
 1.  Aprobar evaluación. Añadir este elemento para controlar el cambio de estado de **En curso** a **Preparado para evaluación**. Cambiar la asignación para usar la jerarquía directiva donde el nivel de Administrador de Employee.line = 1.
-2.  Evaluación final. Agrega este artículo para controlar el cambio de estado de alistan ** para revisión ** ** revisión ** final. Cambiar la asignación para usar la jerarquía directiva donde el nivel de Administrador de Employee.line = 1 si desea que el administrador para aprobar revisión final. Cambiar la asignación al usuario del flujo de trabajo si desea que el empleado la apruebe. Si desea que el administrador y el empleado la aprueben, añada dos pasos al flujo de trabajo y cree la asignación adecuada para cada paso en el orden en el que quiere que sigan las aprobaciones.
+2.  Evaluación final. Añadir este elemento para controlar el cambio de estado de **Listo para revisión** a **Revisión final**. Cambiar la asignación para usar la jerarquía directiva donde el nivel de Administrador de Employee.line = 1 si desea que el administrador apruebe la evaluación final. Cambiar la asignación al usuario del flujo de trabajo si desea que el empleado la apruebe. Si desea que el administrador y el empleado la aprueben, añada dos pasos al flujo de trabajo y cree la asignación adecuada para cada paso en el orden en el que quiere que sigan las aprobaciones.
 
 ## <a name="setup"></a>Configuración
 Existen tres páginas que ayudan a configurar la información necesaria para completar el proceso de rendimiento: la página de **medidas**, la página de **tipos de origen del diario de rendimiento** y la página de **tipos de evaluación**.
@@ -148,5 +151,7 @@ Los tipos de origen del diario de rendimiento describen de dónde proceden los d
 ### <a name="review-types"></a>Tipos de evaluación
 
 Los tipos de evaluación de rendimiento ayudan a controlar el comportamiento de una evaluación. Puede habilitar o deshabilitar el flujo de trabajo para una evaluación. Si la evaluación no utiliza flujo de trabajo, puede definir el estado predeterminado que se usará cuando se crea la evaluación. También puede decidir si se requiere que el empleado, el administrador o ambos aprueben la evaluación.
+
+
 
 

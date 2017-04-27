@@ -102,7 +102,7 @@ Existen dos formas de programar la creación recurrente del trabajo de recuento 
 
 ### <a name="create-cycle-counting-work-based-on-threshold-parameters-for-items"></a>Crear un trabajo de recuento cíclico basado en parámetros de umbral para artículos
 
-El trabajo de recuento cíclico se puede crear cuando el número de artículos está por debajo de un valor de umbral específico en una ubicación. Por ejemplo, hay 60 artículos en una ubicación que tenga un ciclo cuenta que el umbral de 40. Durante una transacción de pedido de ventas, 25 artículos se recogen de la ubicación y se colocan en una ubicación provisional. Dado que el nuevo recuento de artículos, 35, es inferior a la cantidad umbral, el trabajo de recuento cíclico se crea automáticamente para la ubicación.
+El trabajo de recuento cíclico se puede crear cuando el número de artículos está por debajo de un valor de umbral específico en una ubicación. Por ejemplo, hay 60 artículos en una ubicación que tiene un umbral del recuento cíclico de 40. Durante una transacción de pedido de ventas, 25 artículos se seleccionan de la ubicación y se colocan en una ubicación provisional. Dado que el nuevo recuento de artículos, 35, es inferior a la cantidad umbral, el trabajo de recuento cíclico se crea automáticamente para la ubicación.
 
 ### <a name="schedule-cycle-counting-work"></a>Trabajo de recuento cíclico de programación
 
@@ -129,7 +129,7 @@ En el siguiente ejemplo se muestra cómo puede realizar un recuento cíclico pun
 ## <a name="resolve-cycle-counting-differences"></a>Resolver diferencia de recuento cíclico
 Se produce una diferencia de recuento cíclico en los siguientes escenarios si la opción **Es un supervisor de recuentos cíclicos** se establece en **No** para un identificador de usuario de trabajo:
 
--   El valor de recuento no se encuentra dentro de los límites de desviación que se especifican en los campos **Límite de porcentaje máximo** o **Límite de la cantidad máxima** en la página **Usuarios de trabajo**. Por ejemplo, la cantidad disponible de inventario en una ubicación es 50, y el límite de desviación del usuario del trabajo será 10. Si el usuario del trabajo especifica un valor que no se encuentra entre 40 y 60, aparece una diferencia.
+-   El valor de recuento no se encuentra dentro de los límites de desviación que se especifican en los campos **Límite de porcentaje máximo** o **Límite de la cantidad máxima** en la página **Usuarios de trabajo**. Por ejemplo, la cantidad de inventario disponible en una ubicación es de 50 y el límite de desviación del usuario de trabajo es de 10. Si el usuario de trabajo especifica un valor que no está entre 40 y 60, se produce una diferencia.
 -   El valor de recuento cíclico difiere de la cantidad de inventario disponible y no se establecen límites de desviación.
 
 Puede ajustar diferencias en el valor de recuento y aceptar a continuación el valor de recuento en la página **Revisión pendiente del trabajo de recuento cíclico**. Puede comprobar el recuento modificado de la cantidad del artículo en la página **Inventario disponible por ubicación**. El valor de recuento se rechaza si no se puede aprobar la diferencia.

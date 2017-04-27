@@ -1,6 +1,6 @@
 ---
 title: Dimensiones de producto
-description: "Existen cuatro dimensiones de producto - Color, configuración, tamaño y Estilo. Combina dimensiones de producto en grupos de dimensiones y asigna grupos de dimensiones a productos maestros. Las combinaciones de dimensiones de producto determinan la manera en que se definen las variantes de producto."
+description: "Hay cuatro dimensiones de producto: Color, Configuración, Tamaño y Estilo. Combina dimensiones de producto en grupos de dimensiones y asigna grupos de dimensiones a productos maestros. Las combinaciones de dimensiones de producto determinan la manera en que se definen las variantes de producto."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,21 +29,24 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="product-dimensions"></a>Dimensiones de producto
 
-Existen cuatro dimensiones de producto - Color, configuración, tamaño y Estilo. Combina dimensiones de producto en grupos de dimensiones y asigna grupos de dimensiones a productos maestros. Las combinaciones de dimensiones de producto determinan la manera en que se definen las variantes de producto.
+[!include[banner](../includes/banner.md)]
+
+
+Hay cuatro dimensiones de producto: Color, Configuración, Tamaño y Estilo. Combina dimensiones de producto en grupos de dimensiones y asigna grupos de dimensiones a productos maestros. Las combinaciones de dimensiones de producto determinan la manera en que se definen las variantes de producto.
 
 Las dimensiones de un producto son las características que permiten identificar una variante del producto. Puede utilizar combinaciones de dimensiones de producto para definir variantes de producto. Se debe definir al menos una dimensión del producto para un producto maestro si desea crear una variante del producto.
 Variantes de producto
 ----------------
 
-Las variantes del producto también se conocen como artículos. Un artículo es un producto tangible, que no es igual que el servicio. También es posible definir un producto maestro con el tipo de servicio. Mediante el tipo Servicio, puede especificar las variantes del producto que incluyen servicios. Por ejemplo, puede especificar un producto maestro para el asesoramiento del trabajo y variantes del producto para el trabajo realizado por los asesores sénior y júnior.
+Las variantes del producto también se conocen como artículos. Un artículo es un producto tangible, que no es igual que el servicio. También es posible definir un producto maestro con el tipo Servicio. Mediante el tipo Servicio, puede especificar las variantes del producto que incluyen servicios. Por ejemplo, puede especificar un producto maestro para el asesoramiento del trabajo y variantes del producto para el trabajo realizado por los asesores sénior y júnior.
 
 ## <a name="product-dimensions"></a>Dimensiones de producto
-Las dimensiones de producto siguientes están disponibles: Configuración, Color, tamaño, y Estilo. Una variante del producto se puede generar en función de los valores de dimensión de producto.
+Están disponibles las siguientes dimensiones de producto: Configuración, Color, Tamaño y Estilo. Se puede generar una variante del producto a partir de los valores de dimensión del producto.
 
-Los valores de las dimensiones del producto como tamaño, Color y Estilo se pueden crear en ** ** tamaño, ** ** Color y Estilo ** ** páginas, que son accesibles desde las ubicaciones siguientes: ** Gestión de información de productos ** &gt; ** configuración ** &gt; ** dimensión y grupos de variantes ** &gt; ** tamaños/colores o estilos **. Los valores de dimensión del producto para la dimensión de configuración se crean normalmente mediante el configurador de productos o el configurador basado en dimensiones. Las dimensiones del producto también se pueden crear y mantener en la página **Dimensiones de producto**, a la que se puede tener acceso desde las ubicaciones siguientes:
--   ** Haga clic en Gestión de información de productos ** &gt; ** productos ** &gt; ** productos maestros **. En ** panel de acciones, haga clic ** ** dimensiones de producto **.
--   ** Haga clic en Gestión de información de productos ** &gt; ** productos ** &gt; ** todos los productos y productos maestros **. Seleccione un producto maestro. En ** panel de acciones, haga clic ** ** dimensiones de producto **.
--   ** Haga clic en Gestión de información de productos ** &gt; ** productos emitidos **. Seleccione un producto maestro. En ** panel de acciones, haga clic ** ** ** producto. En el grupo **Producto maestro**, haga clic en **Dimensiones de producto**.
+Los valores de las dimensiones del producto como tamaño, color y estilo se pueden crear en las páginas **Tamaño**, **Color** y **Estilo**, a las que se puede obtener acceso desde las ubicaciones siguientes: **Gestión de información de productos** &gt; **Configurar** &gt; **Grupos de variantes y dimensiones** &gt; **Tamaños/Colores/Estilos**. Los valores de dimensión del producto para la dimensión de configuración se crean normalmente mediante el configurador de productos o el configurador basado en dimensiones. Las dimensiones del producto también se pueden crear y mantener en la página **Dimensiones de producto**, a la que se puede tener acceso desde las ubicaciones siguientes:
+-   Haga clic en **Gestión de información de productos** &gt; **Productos** &gt; **Productos maestros**. En el **Panel de acciones**, haga clic en **Dimensiones de producto**.
+-   Haga clic en **Gestión de información de productos** &gt; **Productos** &gt; **Todos los productos y productos maestros**. Seleccione un producto maestro. En el **Panel de acciones**, haga clic en **Dimensiones de producto**.
+-   Haga clic en **Gestión de información de productos** &gt; **Productos emitidos**. Seleccione un producto maestro. En el **Panel de acciones**, haga clic en **Producto**. En el grupo **Producto maestro**, haga clic en **Dimensiones de producto**.
 
 El número de variantes que se pueden crear para un artículo está limitado por el número de posibles combinaciones de las dimensiones del producto.
 | **Sugerencia **                                                                                                                                              |
@@ -64,6 +67,8 @@ Una empresa vende pantalones vaqueros. El artículo, vaqueros, utiliza las dimen
 | Marrón | L    |
 | Marrón | XL   |
 | Marrón | XXL  |
+
+
 
 
 

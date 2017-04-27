@@ -1,6 +1,6 @@
 ---
 title: "Página principal de activos fijos"
-description: "Los activos fijos son artículos de valor, como edificios, vehículos, tierras, y equipos, que posee una persona o una organización."
+description: "Los activos fijos son artículos de valor, como edificios, vehículos, tierras y equipos, que posee una persona o una organización."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-home-page"></a>Página principal de activos fijos
 
-Los activos fijos son artículos de valor, como edificios, vehículos, tierras, y equipos, que posee una persona o una organización.
+[!include[banner](../includes/banner.md)]
+
+
+Los activos fijos son artículos de valor, como edificios, vehículos, tierras y equipos, que posee una persona o una organización. 
 
 Puede configurar y especificar información de adquisición para activos fijos y, a continuación, gestionarlos depreciándolos y configurando un umbral de capitalización para determinar la depreciación. Puede calcular ajustes para los activos fijos y también desecharlos. Al utilizar Contabilidad general junto con Activos fijos, puede ver el valor actual de todos los activos fijos. La forma de gestionar los activos fijos se debe corresponder a los estándares de contabilidad internacional y a la legislación de contabilidad en cada país/región. Los requisitos deben incluir las reglas para registrar transacciones de uso y cancelación, depreciación, tiempo de vida útil, revalorizaciones y devaluaciones de los activos fijos. La función de activos fijos incorpora muchos de estos estándares y reglas.
+
+
 
 
 

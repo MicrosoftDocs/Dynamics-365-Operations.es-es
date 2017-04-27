@@ -28,23 +28,26 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-promising"></a>Compromisos de pedidos
 
+[!include[banner](../includes/banner.md)]
+
+
 En este artículo se proporciona información acerca de los compromisos de entrega. Los compromisos de entrega le ayuda a comprometer fechas de entrega de manera confiable a sus clientes y le ofrecen flexibilidad para que pueda cumplir esas fechas.
 
 Los compromisos de pedidos calculan las fechas de envío y recepción más tempranas, y se basan en el método de control de fecha de entrega y los días de transporte. Puede seleccionar entre cuatro métodos de control de fecha de entrega:
 
--   ** Plazo de ventas ** – plazo de ventas es el tiempo entre la creación de pedido de ventas y el envío de los artículos. El cálculo de fecha de entrega se basa en un número predeterminado de días, y no considerará la disponibilidad de existencias, la demanda conozca, la fuente o planificada.
--   ** NNC (neto no comprometido) – ** el NNC es la cantidad de un artículo que esté disponible y se puede comprometer un cliente en una fecha específica. El cálculo del NNC incluye inventario no comprometido, fechas disponibles, recepciones planificadas y emisiones.
+-   **Plazo de ventas**: el plazo de ventas es el tiempo entre la creación del pedido de ventas y el envío de los artículos. El cálculo de la fecha de entrega se basa en un número predeterminado de días y no considera la disponibilidad de existencias, la demanda conocida o el suministro planificado.
+-   **NNC (neto no comprometido)**: el NNC es la cantidad de un artículo que esté disponible y se pueda prometer a un cliente en una fecha específica. El cálculo del NNC incluye inventario no comprometido, fechas disponibles, recepciones planificadas y emisiones.
 -   **NNC + Días de emisión**: la fecha de envío será igual que la fecha de neto no comprometido (NNC) más el margen de emisión del artículo. El margen de emisión es el tiempo que necesario para preparar los artículos para el envío.
 -   **CTP (capaz de comprometer)**: la disponibilidad se calcula a través de la expansión.
 
 ## <a name="atp-calculations"></a>Cálculos de NNC
-La cantidad ATP se calcula mediante “NNC acumulativo con el método de look ahead”. La ventaja principal de este método de cálculo ATP es que puede gestionar casos en los que está más la suma de las emisiones entre recibos que la última recepción (por ejemplo, cuando una cantidad de una recepción anterior se debe usar para satisfacer un requisito). El NNC “acumulativo con el método de cálculo de look ahead” incluye todas las emisiones hasta que la cantidad acumulativa que recibir excede la cantidad acumulativa para su envío. Por lo tanto, este método de cálculo de NNC evalúa si parte de la cantidad de un período anterior se puede utilizar en un período posterior.  
+La cantidad de NNC se calcula mediante el método “NNC acumulativo con previsión futura”. La principal ventaja de este cálculo de NNC es que permite controlar las ocasiones en las que la suma de las emisiones entre recepciones supera la última recepción; por ejemplo, cuando es necesario usar una cantidad de una recepción anterior para satisfacer un requisito. El método de cálculo “NNC acumulativo con previsión futura” incluye todas las emisiones hasta que la cantidad acumulativa que se recibe excede la cantidad acumulada que se emite. Por lo tanto, este método de cálculo de NNC evalúa si parte de la cantidad de un período anterior se puede utilizar en un período posterior.  
 
 La cantidad de NNC es el saldo no comprometido de inventario en el primer período. Normalmente, se calcula para cada período en el que se programa una recepción. El programa calcula el período de NNC en días y la fecha actual como la primera fecha para la cantidad de NNC. En el primer período, NNC incluye el inventario disponible menos los pedidos de cliente vencidos.  
 
 La ATP se calcula mediante la fórmula siguiente:  
 
-El ATP = ATP para el período anterior + las recepciones del período actual – emisiones del período actual – la cantidad neta de emisión para los períodos futuros hasta el período en que la suma de recepciones de todos los períodos futuros, hasta e incluido el período futuro, supera la suma de emisiones hasta y de incluir el período futuro.  
+ATP = ATP para el período anterior + Recepciones del período actual - Emisiones del período actual - Cantidad neta de emisión para los períodos futuros hasta el período en el que la suma de las recepciones de todos los períodos futuros (hasta el período futuro, incluido éste) sea superior a la suma de las emisiones (hasta el período futuro, incluido este).  
 
 Cuando ya no queden emisiones o recepciones para tener en cuenta, la cantidad ATP de las fechas siguientes será la misma que la última cantidad ATP calculada.  
 
@@ -66,8 +69,10 @@ Un cliente llama y desea pedir 150 piezas del mismo producto. Cuando se comprueb
 
 Se crea una línea de pedido de ventas para el producto y se especifica **150** como cantidad.  
 
-Dado que el control de fecha de entrega es el método NNC, se calculan los datos de NNC para buscar la fecha de envío más temprana posible. Según los valores, se consideran el pedido de compra y el pedido de ventas retrasados, y la cantidad ATP resultante para la fecha actual es 0. Mañana, si se espera el pedido de compra Retrasado de ser recibido, la cantidad ATP se calcula como más de 0 (en este caso, ha calculado como 125). Sin embargo, 10 días a partir de ahora, si se espera que el pedido de compra adicional de 100 piezas sea recibido, la cantidad ATP se convierte más de 150.  
+Dado que el control de fecha de entrega es el método NNC, se calculan los datos de NNC para buscar la fecha de envío más temprana posible. De acuerdo con los parámetros, se consideran el pedido de compra y el pedido de ventas retrasados, y la cantidad resultante de NNC para la fecha actual es 0. Mañana, cuando se espera recibir el pedido de compra retrasado, la cantidad de NNC se calcula como más de 0 (en este caso, se calcula como 125). Sin embargo, 10 días de ahora en adelante, cuando se espera que se reciba el pedido de compra adicional de 100 piezas, la cantidad de NNC se convierte en más de 150.  
 
-Por lo tanto, la fecha de envío se establece 10 días a partir de ahora, en función del cálculo de NNC. Por consiguiente, comenta al cliente que la cantidad pedida se puede entregar en 10 días.
+Por lo tanto, la fecha de envío se establece en 10 días a partir de ahora, según el cálculo de NNC. Por consiguiente, comenta al cliente que la cantidad pedida se puede entregar en 10 días.
+
+
 
 

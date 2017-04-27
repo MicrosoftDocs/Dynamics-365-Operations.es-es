@@ -27,8 +27,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-home-page"></a>Página principal de proveedores
 
-Este tema proporciona una visión general de los proveedores.
+[!include[banner](../includes/banner.md)]
 
-Puede especificar facturas de proveedor manualmente o recibirlas electrónicamente a través de una entidad de datos. Una vez que las facturas se especifican o se reciben, puede revisar y aprobar las facturas mediante un diario de aprobación de facturas o ** factura de proveedor ** la página. Puede usar la conciliación de facturas, las directivas de facturas de proveedor y el flujo de trabajo para automatizar el proceso de revisión de manera que las facturas que cumplan determinados criterios se aprueben automáticamente y las facturas restantes se marquen para revisión por parte de un usuario autorizado.
+
+Este tema proporciona una visión general de los proveedores. 
+
+Puede especificar facturas de proveedor manualmente o recibirlas electrónicamente a través de una entidad de datos. Después de que las facturas se especifican o se reciben, puede revisar y aprobar las facturas mediante un diario de aprobación de facturas o la página **Factura de proveedor**. Puede usar la conciliación de facturas, las directivas de facturas de proveedor y el flujo de trabajo para automatizar el proceso de revisión de manera que las facturas que cumplan determinados criterios se aprueben automáticamente y las facturas restantes se marquen para revisión por parte de un usuario autorizado.
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="main-account-types"></a>Tipos de cuentas principales
 
+[!include[banner](../includes/banner.md)]
+
+
 Los tipos de cuenta principal determinan cómo se usa una cuenta principal en el plan contable.
 
 Debe seleccionar un tipo de cuenta principal al crear una cuenta principal en la página Cuentas principales - plan contable.
@@ -35,6 +38,8 @@ Debe seleccionar un tipo de cuenta principal al crear una cuenta principal en la
 -   Balance de situación, Activo, Pasivo y Recursos propios: estas cuentas principales se usan como cuentas para transacciones, para registrar los importes que posee o debe una entidad jurídica.
 -   Total: estas cuentas principales se usan para agregar intervalos de cuentas. Configure el tipo de cuenta principal Total mediante la página Intervalo de cuentas, que muestra el total de saldo del grupo para todos los intervalos de cuentas. Acceda a la página Intervalo de cuentas haciendo clic en Totales en la ficha General una vez que haya seleccionado un tipo de cuenta Total.
 -   Notificación: estas cuentas principales se usan para notificar resultados financieros solo en Brasil.
+
+
 
 
 

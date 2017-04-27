@@ -1,5 +1,5 @@
 ---
-title: "Invertir el estado del pedido de producción"
+title: "Invertir el estado de una orden de producción"
 description: "En este tema se describe cómo invertir el estado del pedido de producción."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reverse-the-production-order-status"></a>Invertir el estado del pedido de producción
+# <a name="reverse-the-production-order-status"></a>Invertir el estado de una orden de producción
+
+[!include[banner](../includes/banner.md)]
+
 
 En este tema se describe cómo invertir el estado del pedido de producción. 
 
@@ -49,5 +52,7 @@ Al invertir el estado de un pedido de producción de **Liberado** a **Programado
 
 ## <a name="from-started-to-released"></a>De Iniciado a Liberado
 Al invertir el estado de un pedido de producción de **Iniciado** a **Liberado**, todos los artículos notificados como terminados se invierten. Si el material se ha seleccionado o las entregas de entrada y salida se han realizado en producción, esta configuración también se invierte. El campo **Estado de permanencia** de las líneas de L. MAT del pedido de producción se cambia de **Finalizado** a **Consumo de materiales**. Si se ha registrado el tiempo o si han notificado las cantidades como terminadas para las operaciones de la ruta de producción, esta configuración se invertirá. El campo **Estado de permanencia** se cambia de **Finalizado** a **Consumo de ruta** en la ruta de producción. Se invierte la configuración de todos los artículos que se registran como en proceso o trabajo en curso. En la página **Detalles del pedido de producción**, se restablecen los campos que muestran una cantidad que se inició o se notificó como terminada. Las fechas para estas transacciones también se restablecen.
+
+
 
 

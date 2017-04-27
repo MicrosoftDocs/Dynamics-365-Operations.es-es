@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-journals"></a>Diarios de inventario
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe cómo puede usar diarios de inventario para registrar diversos tipos de transacciones de inventario físico. 
 
 Los diarios de inventario en Microsoft Dynamics 365 for Operations se usan para registrar transacciones de inventario físico de distintos tipos, como el registro de emisiones y recepciones, los movimientos de inventario, la creación de listas de materiales (BOM) y la conciliación del inventario físico. Todos estos diarios de inventario se usan en forma similar, pero se dividen en diferentes tipos.
@@ -72,7 +75,7 @@ Los diarios de entrada de producción funcionan como los diarios de recepción d
 
 ### <a name="counting"></a>Recuento
 
-Los diarios de recuento le permiten corregir el inventario disponible actual que se registra para los artículos o grupos de artículos, y después registrar la cuenta física real, de manera que pueda realizar los ajustes necesarios para conciliar las diferencias. Puede asociar las directivas de recuento con los grupos de recuento para ayudar a agrupar los artículos que tienen diferentes características para poder incluir los artículos en un diario de recuento. Por ejemplo, puede configurar los grupos de recuento para contar artículos que tienen una frecuencia concreta o para contar artículos cuando las existencias se encuentren en un nivel determinado. Para obtener información sobre cómo definir grupos de recuento, consulte [defina los procesos de recuento de inventario (Guía de la tarea)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
+Los diarios de recuento le permiten corregir el inventario disponible actual que se registra para los artículos o grupos de artículos, y después registrar la cuenta física real, de manera que pueda realizar los ajustes necesarios para conciliar las diferencias. Puede asociar las directivas de recuento con los grupos de recuento para ayudar a agrupar los artículos que tienen diferentes características para poder incluir los artículos en un diario de recuento. Por ejemplo, puede configurar los grupos de recuento para contar artículos que tienen una frecuencia concreta o para contar artículos cuando las existencias se encuentren en un nivel determinado. Para obtener información sobre cómo definir los grupos de recuento, vea [Definición de procesos de recuento de inventario (guía de tareas)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
 
 ### <a name="tag-counting"></a>Recuento de etiquetas
 
@@ -89,5 +92,7 @@ Sólo se puede tener acceso a una línea de diario un usuario por vez. Si varios
 
 ## <a name="posting-journal-lines"></a>Registro de líneas de diario
 Puede registrar las líneas de diario que crea en cualquier momento hasta que haya bloqueado un artículo de transacciones adicionales. Los datos que introduzca en un diario permanecen en ese diario incluso si cierra el diario sin registrar las líneas.
+
+
 
 

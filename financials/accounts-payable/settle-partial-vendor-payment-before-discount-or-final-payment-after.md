@@ -1,5 +1,5 @@
 ---
-title: "Establecer un pago parcial de proveedor antes de la fecha de descuento con un pago de finalización después de la fecha de descuento"
+title: "Liquidar un pago de proveedor parcial antes de la fecha de descuento con un pago final después de la fecha de descuento"
 description: "Este artículo le guía por un escenario donde se realizan múltiples pagos parciales, algunos dentro del período del descuento por pronto pago y otros fuera del período de descuento por pronto pago."
 author: twheeloc
 manager: AnnBe
@@ -26,21 +26,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Establecer un pago parcial de proveedor antes de la fecha de descuento con un pago de finalización después de la fecha de descuento
+# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidar un pago de proveedor parcial antes de la fecha de descuento con un pago final después de la fecha de descuento
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo le guía por un escenario donde se realizan múltiples pagos parciales, algunos dentro del período del descuento por pronto pago y otros fuera del período de descuento por pronto pago.
 
-Fabrikam compra bienes del proveedor 3057. Fabrikam recibe un descuento por pronto pago del 1 por ciento si la factura se paga en 14 días. Las facturas se deben pagar en 30 días. El proveedor también permite que Fabrikam aproveche descuentos por pronto pago sobre pagos parciales. Los parámetros del acuerdo se encuentran en ** los parámetros de proveedores ** la página.
+Fabrikam compra bienes del proveedor 3057. Fabrikam recibe un descuento por pronto pago del 1 por ciento si la factura se paga en 14 días. Las facturas se deben pagar en 30 días. El proveedor también permite que Fabrikam aproveche descuentos por pronto pago sobre pagos parciales. Los parámetros de liquidación se encuentran en la página **Parámetros de proveedores**.
 
 ## <a name="invoice-on-june-25"></a>Factura el 25 de junio
-El 25 de junio, abril entra y registra una factura de 1,000.00 para el proveedor 3057. April puede ver esta transacción en la página **Transacciones de proveedor**.
+El 25 de junio, Arnie introduce y registra una factura para 1.000,00 del proveedor 3057. April puede ver esta transacción en la página **Transacciones de proveedor**.
 
 | Comprobante   | Tipo de transacción | Fecha      | Factura | Importe en débito en divisa de transacción | Importe en crédito en divisa de transacción | Saldo   | Divisa |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
 | Inv-10020 | Factura          | 25/6/2015 | 10020   |                                      | 1.000,00                              | -1.000,00 | USD      |
 
 ## <a name="partial-payment-on-july-2"></a>Pago parcial el 2 de julio
-El 2 de julio, April quiere liquidar 300,00 de esta factura. El pago puede optar a un descuento, ya que Fabrikam acepta descuentos en los pagos parciales. Por lo tanto, April paga 297,00 y aprovecha un descuento de 3,00. Ella crea un diario de pagos y especifica una línea para el proveedor 3057. A continuación abre ** liquidar las transacciones ** la página, de modo que ella pueda marcar la factura para la liquidación.
+El 2 de julio, April quiere liquidar 300,00 de esta factura. El pago puede optar a un descuento, ya que Fabrikam acepta descuentos en los pagos parciales. Por lo tanto, April paga 297,00 y aprovecha un descuento de 3,00. Crea un diario de pagos y especifica una línea para el proveedor 3057. A continuación, abre la página **Liquidar transacciones** para marcar la factura para su liquidación.
 
 | Marcar     | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha      | Fecha de vencimiento  | Factura | Importe en divisa de la transacción | Divisa | Importe para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -91,7 +94,7 @@ A continuación, April registra el pago. Cuando abre la página **Transacciones 
 | APP-10021  | Pago          | 15/7/2015 |         | 700,00                               |                                       | 0,00    | USD      |
 
 ## <a name="remaining-payment-on-july-15-use-cash-discount--always"></a>Pago restante el 15 de julio, uso de descuento por pronto pago = Siempre
-Si el proveedor permite tomar abril un descuento aunque ella paga después de la fecha de descuento, puede cambiar el valor en ** descuento por pronto pago de uso ** el campo siempre ** **. ** Calcular los descuentos por pronto pago para pagos parciales ** el valor está invalidado, y el descuento se obtiene. El importe del pago es de 693,00 y el descuento corresponde al importe restante de 7,00.
+Si el proveedor permite a April disfrutar de un descuento aunque pague después de la fecha de descuento, puede cambiar el valor del campo **Utilizar descuento por pronto pago** a **Siempre**. El ajuste **Calcular descuento por pronto pago para pagos parciales** se anula y se obtiene el descuento. El importe del pago es de 693,00 y el descuento corresponde al importe restante de 7,00.
 
 | Marcar     | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha      | Fecha de vencimiento  | Factura | Importe en débito en divisa de transacción | Importe en crédito en divisa de transacción | Divisa | Importe para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -116,6 +119,8 @@ A continuación, April registra el pago. Cuando abre la página **Transacciones 
 | DISC-10020 | Descuento por pronto pago    | 7/1/2015  |         | 3,00                                 |                                       | 0,00    | USD      |
 | APP-10021  | Pago          | 15/7/2015 |         | 693,00                               |                                       | 0,00    | USD      |
 | DISC-10021 | Descuento por pronto pago    | 15/7/2015 |         | 7,00                                 |                                       | 0,00    | USD      |
+
+
 
 
 

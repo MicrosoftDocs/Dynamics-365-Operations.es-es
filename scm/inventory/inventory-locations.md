@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-locations"></a>Ubicaciones del inventario
 
+[!include[banner](../includes/banner.md)]
+
+
 Las ubicaciones de inventario se usan con el almacenamiento básico (WMS I) para determinar dónde se almacenan los artículos y dónde se seleccionan los artículos desde un almacén de WMS I.
 
 Este tema se aplica a las características en el módulo de Gestión del inventario. No se aplica a las características en el módulo de Administración de almacenes.
@@ -64,6 +67,8 @@ Es posible copiar las ubicaciones de un almacén a otro y crear ubicaciones a tr
 <a name="see-also"></a>Consulte también
 --------
 
-[Cree un nuevo diseño de almacén (guía de la tarea)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+[Creación de un nuevo diseño de almacén (guía de tareas)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Organizar a su contratación de trabajadores, mediante departamento, trabajos y puestos"
+title: "Organización de los recursos mediante departamentos, trabajos y puestos"
 description: "Los departamentos, los trabajos y los puestos son elementos de organización que se mantienen dentro de Recursos Humanos. En este tema se describe información conceptual acerca de estos elementos."
 author: rschloma
 manager: AnnBe
@@ -26,22 +26,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Organizar a su contratación de trabajadores, mediante departamento, trabajos y puestos
+# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Organización de los recursos mediante departamentos, trabajos y puestos
+
+[!include[banner](includes/banner.md)]
+
 
 Los departamentos, los trabajos y los puestos son elementos de organización que se mantienen dentro de Recursos Humanos. En este tema se describe información conceptual acerca de estos elementos. 
 
 El siguiente ejemplo se usa para ilustrar los conceptos descritos en este tema.
 
-|**Departamento**|**Position**|**Job**|
+|**Departamento**|**Posición**|**Trabajo**|
 |---|---|---|
 |**Ventas**|Director de ventas (Este)|Director de ventas|
 |**Ventas**|Director de ventas (Oeste)|Director de ventas|
 |**Ventas**|Director de ventas (Central)|Director de ventas|
-|**Accounting**|Supervisor contable|Administrador contable|
-|**Accounting**|Contabilidad-A|Contable|
-|**Human resources**|Director de RR. HH. (Este)|Director de RR. HH.|
-|**Human resources**|Director de RR. HH. (Oeste)|Director de RR. HH.|
-|**Human resources**|Director de RR. HH. (Central)|Director de RR. HH.|
+|**Contabilidad**|Supervisor contable|Administrador contable|
+|**Contabilidad**|Contabilidad-A|Contable|
+|**Recursos humanos**|Director de RR. HH. (Este)|Director de RR. HH.|
+|**Recursos humanos**|Director de RR. HH. (Oeste)|Director de RR. HH.|
+|**Recursos humanos**|Director de RR. HH. (Central)|Director de RR. HH.|
 
  
  <a name="departments"></a>Departamentos
@@ -79,7 +82,7 @@ Puede crear tareas de trabajo que describen las tareas básicas que un trabajado
 
 ### <a name="job-functions"></a>Funciones de trabajo
 
-Las funciones de trabajo son similares a las tareas de trabajo. Una función de trabajo describe una o más tareas, deberes o responsabilidades asignados a un trabajo. Las funciones de trabajo se pueden asignar a trabajos y usarse para configurar e implementar reglas de idoneidad para los planes de compensación. Los ejemplos de las funciones de trabajo se muestran en la tabla siguiente.
+Las funciones de trabajo son similares a las tareas de trabajo. Una función de trabajo describe una o más tareas, deberes o responsabilidades asignados a un trabajo. Las funciones de trabajo se pueden asignar a trabajos y usarse para configurar e implementar reglas de idoneidad para los planes de compensación. En la tabla siguiente se muestran algunos ejemplos de funciones de trabajo.
 
 | Trabajo           | Función de trabajo                                                |
 |---------------|-------------------------------------------------------------|
@@ -101,7 +104,7 @@ Use las áreas de responsabilidad para indicar los roles de trabajo, los proceso
 <a name="positions"></a>Puestos
 ----------
 
-Los puestos son un aspecto importante del nivel inferior de una jerarquía organizativa. Un puesto es un caso individual de un trabajo. Por ejemplo, el puesto, “director de ventas (), este es” sólo una de las posiciones que está asociada al trabajo, el “director de ventas.” Los puestos existen en un departamento y se asignan a los trabajadores.
+Los puestos son un aspecto importante del nivel inferior de una jerarquía organizativa. Un puesto es un caso individual de un trabajo. Por ejemplo, el puesto "Director de ventas (Este)" es solo uno de los puestos asociados al trabajo "Director de ventas". Los puestos existen en un departamento y se asignan a los trabajadores.
 ### <a name="position-creation-and-maintenance"></a>Creación y mantenimiento de puestos
 
 -   Puede ver un historial de cambios de sistema relacionados con el puesto en una página de lista de fácil acceso.
@@ -161,6 +164,8 @@ Para algunos registros, puede especificar cambios futuros al registro. La siguie
 </table>
 
 Puede modificar la información que se indica en la tabla anterior para un puesto o trabajo y especificar una fecha en la que deben aplicarse las modificaciones al puesto o trabajo. Por ejemplo, un puesto solo se puede asignar a un único trabajador, pero Sanjay Patel, asignado al puesto Contable-A, se irá en dos semanas. Joe Healy reemplazará a Sanjay Patel cuando éste se vaya. Aunque Sanjay aún está asignado al puesto, puede asignar a Joe Healy al mismo puesto de modo que la asignación solo será vigente después del último día de Sanjay.
+
+
 
 
 

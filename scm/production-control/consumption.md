@@ -1,5 +1,5 @@
 ---
-title: Calcule el consumo de materiales
+title: Calcular el consumo de materiales
 description: "En este artículo se proporciona información acerca de las diversas opciones relacionadas con el cálculo del consumo de materiales."
 author: YuyuScheller
 manager: AnnBe
@@ -27,22 +27,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="calculate-material-consumption"></a>Calcule el consumo de materiales
+# <a name="calculate-material-consumption"></a>Calcular el consumo de materiales
+
+[!include[banner](../includes/banner.md)]
+
 
 En este artículo se proporciona información acerca de las diversas opciones relacionadas con el cálculo del consumo de materiales. 
 
 Las siguientes opciones relacionadas con el cálculo del consumo de materiales están disponibles en las fichas **Configuración** y **Consumo de pasos** en la ficha desplegable **Detalles de línea** de la página **Lista de materiales**.
 
 ## <a name="variable-and-constant-consumption"></a>Consumo constante y variable
-En ** el consumo es ** campo, puede seleccionar si el consumo se debe calcular como una cantidad constante o cantidad variable. Seleccione ** constante ** si una cantidad o un volumen se fija necesaria para la producción, independientemente de la cantidad que se genera. Seleccione **Variable**, el ajuste predeterminado, si la cantidad necesaria de material en los productos terminados es proporcional al número de productos terminados que se produzcan.
+En el campo **El consumo es** puede seleccionar si el consumo se debe calcular como una cantidad constante o una cantidad variable. Seleccione **Constante** si se precisa una cantidad o un volumen fijo para la producción, independientemente de la cantidad producida. Seleccione **Variable**, el ajuste predeterminado, si la cantidad necesaria de material en los productos terminados es proporcional al número de productos terminados que se produzcan.
 
 ## <a name="calculating-consumption-from-a-formula"></a>Cálculo del consumo a partir de una fórmula
 En el campo **Fórmula** puede configurar varias fórmulas para calcular el consumo de materiales. Si usa el valor predeterminado **Estándar**, no se calcula el consumo a partir de una fórmula. Las fórmulas siguientes funcionan conjuntamente con los campos **Alto**, **Ancho**, **Profundidad**, **Densidad** y **Constante**:
 
--   Constante \* del alto
--   Constante \* del ancho \* del alto
--   Constante \* de la profundidad \* del ancho \* del alto
--   (Profundidad/Densidad \* del ancho \* del alto) \* constante
+-   Alto \* Constante
+-   Alto \* Ancho \* Constante
+-   Alto \* Ancho \* Profundidad \* Constante
+-   (Alto \* Ancho \* Profundidad/Densidad) \* Constante
 
 ## <a name="rounding-up-and-multiples"></a>Redondeo y múltiplos
 Juntos, los campos **Redondeo para arriba** y **Múltiplos** permiten redondear hacia arriba del valor del consumo de materiales. Por ejemplo, puede redondear el valor en función de la unidad de gestión de material en la que se selecciona la materia prima para producción. Las siguientes opciones están disponibles en el campo **Redondeo para arriba**: **Cantidad**, **Medida** y **Consumo**.
@@ -53,7 +56,7 @@ Si selecciona **Cantidad** como mecanismo de redondeo, la cantidad debe ser un m
 
 ### <a name="measurement"></a>Medida
 
-Normalmente, se selecciona **Medida** como mecanismo de redondeo cuando la materia prima proviene de dimensiones específicas. Por ejemplo, hace falta una pieza de tubo de metal de dos metros para un producto terminado, y el tubo de metal se almacena en longitudes de 4,5 metros. En este caso, el mecanismo de redondeo **Medida** se puede usar para calcular cuántos tubos de metal se requieren para producir un número específico de piezas del producto terminado. Para este ejemplo, ** fórmula ** se establece el campo ** constante \* del alto **. ** Alto ** el campo es de dos ** establecido estrellas para indicar la longitud del tubo necesario para el producto terminado. El campo **Múltiplo** se ha establecido en **4,5** para indicar que el tubo se selecciona en longitudes de 4,5 metros. Este es el cálculo:
+Normalmente, se selecciona **Medida** como mecanismo de redondeo cuando la materia prima proviene de dimensiones específicas. Por ejemplo, hace falta una pieza de tubo de metal de dos metros para un producto terminado, y el tubo de metal se almacena en longitudes de 4,5 metros. En este caso, el mecanismo de redondeo **Medida** se puede usar para calcular cuántos tubos de metal se requieren para producir un número específico de piezas del producto terminado. En este ejemplo, el campo **Fórmula** se ha establecido en **Alto \* Constante**. El campo **Alto** se ha establecido en **2** para indicar la longitud del tubo necesaria para el producto terminado. El campo **Múltiplo** se ha establecido en **4,5** para indicar que el tubo se selecciona en longitudes de 4,5 metros. Este es el cálculo:
 
 1.  Número de múltiplos necesarios para 10 piezas del producto terminado: 10 ÷ 2 = 5 piezas
 2.  Consumo total: 4,5 × 5 = 22,5 metros de tubo de metal
@@ -78,5 +81,7 @@ El consumo de pasos se usa para calcular el consumo constante en intervalos de c
 | 200,00      | 40,0000  |
 
 La cantidad de la lista de materiales es 1 y la cantidad de producción es 110. La fórmula para el consumo es de (cantidad) de serie = Consumo. Dado que la cantidad de producción es 110, entra en la serie inicial 100. Así pues, la cantidad es 20.
+
+
 
 

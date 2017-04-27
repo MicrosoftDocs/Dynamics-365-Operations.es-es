@@ -26,15 +26,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-workflow"></a>Creación de un flujo de trabajo
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tema explica cómo crear un flujo de trabajo.
 
 <a name="open-the-workflow-editor"></a>Apertura del editor de flujo de trabajo
 ------------------------
 
-El Microsoft Dynamics 365 para el módulo de operaciones que esté trabajando determina los tipos de flujo de trabajo que puede crear. Siga estos pasos para seleccionar el tipo de flujo de trabajo que va a crear y abrir el editor de flujo de trabajo.
+El módulo de Microsoft Dynamics 365 for Operations en el que está trabajando determina los tipos de flujo de trabajo que puede crear. Siga estos pasos para seleccionar el tipo de flujo de trabajo que va a crear y abrir el editor de flujo de trabajo.
 
 1.  Abra el módulo para el que desea crear un nuevo flujo de trabajo. Por ejemplo, para crear un flujo de trabajo para las solicitudes de compra, haga clic en **Adquisición y suministro de componentes**.
-2.  Haga clic en ** configuración ** &gt; ** flujos de trabajo\] del nombre del módulo\[**.
+2.  Haga clic en **Configuración** &gt; **Flujos de trabajo de \[nombre del módulo\]**.
 3.  En la página de lista que aparece, en el Panel de acciones, haga clic en **Nuevo**.
 4.  En la página **Crear flujo de trabajo**, seleccione el tipo de flujo de trabajo para crear y haga clic en **Crear flujo de trabajo**. Aparecerá el editor de flujo de trabajo. Ahora puede usar los siguientes procedimientos para diseñar el flujo de trabajo.
 
@@ -75,6 +78,8 @@ Cuando esté listo para guardar y activar el flujo de trabajo, siga estos pasos.
 3.  Si se han resuelto todos los errores y advertencias, se mostrará la página **Activar flujo de trabajo**. Seleccione una de las siguientes opciones:
     -   Para activar esta versión del flujo de trabajo, haga clic en **Activar la nueva versión**. Cuando un flujo de trabajo está activo, los usuarios pueden enviar documentos a él para que se los procese.
     -   Si no desea activar esta versión, haga clic en **No activar la versión nueva**. Podrá activar el flujo de trabajo en otro momento.
+
+
 
 
 

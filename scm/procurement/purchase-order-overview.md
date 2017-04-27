@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-order-overview"></a>Visión general de pedidos de compra
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información general acerca de los pedidos de compra (PC) y vínculos a artículos adicionales relacionados con las distintas etapas por las que pasa un pedido de compra.
 
 Un pedido de compra (PC) es un documento que representa un acuerdo con un proveedor para comprar bienes o servicios. El documento también ayuda a realizar un seguimiento de las recepciones de producto que se realizan para el pedido y, posteriormente, la contabilidad de las facturas de proveedor que el proveedor factura para el pedido.  
 
-La página **Pedidos de compra** contiene una descripción general de los pedidos disponibles y permite modificarlos. Al abrir un pedido de compra, puede seleccionar la vista **Encabezado**, que contiene información especificada solo una vez para cada pedido de compra, como los detalles del proveedor. De forma alternativa, puede seleccionar la vista **Líneas**, donde puede modificar las líneas de pedido. Normalmente, se va a intercambiar entre estas dos vistas conforme modifica el puesto. No enumeran ** directamente en los pedidos de compra ** la página, pero se realiza los gastos a través de menús del encabezado del pedido.  
+La página **Pedidos de compra** contiene una descripción general de los pedidos disponibles y permite modificarlos. Al abrir un pedido de compra, puede seleccionar la vista **Encabezado**, que contiene información especificada solo una vez para cada pedido de compra, como los detalles del proveedor. De forma alternativa, puede seleccionar la vista **Líneas**, donde puede modificar las líneas de pedido. Normalmente, pasará de una vista a otra conforme modifique los pedidos de compra. Los gastos no se muestran directamente en la página **Pedidos de compra**, sino que se tiene acceso a ellos mediante menú en las líneas y encabezado de pedido.  
 
 Hay muchos informes donde puede ver información acerca de los pedidos de compra, las recepciones de producto y las facturas de proveedor. Estos informes se encuentran en los módulos **Adquisición y abastecimiento** y **Proveedores**.  
 
-Los espacios de trabajo **Preparación de pedidos de compra** y **Recepción y seguimiento de pedidos de compra** permiten ver listas de pedidos de compra en los diferentes estados a los que han progresado. También proporcionan un resumen de las acciones que se deben realizar. El espacio de trabajo **Preparación de pedidos de compra** se centra en la creación y revisión de pedidos de compra, el procesamiento del pedido hasta la aprobación y la confirmación con el proveedor. ** Recibo y seguimiento de pedido de compra ** el Área de trabajo se enfoca en procesar la recepción de mercancías o servicios con el puesto. Incluye las listas que dan la penetración en los recibos que están vencidas, o que se pronto vencer para la entrega por el proveedor. Estos espacios de trabajo no se utilizan para realizar las actividades de recepción relacionadas que se realizan en el almacén. Dichas actividades se realizan mediante las páginas de los módulos **Gestión de inventarios** y **Administración de almacenes**. El procesamiento de facturas de proveedor se debe realizar mediante el espacio de trabajo **Entrada de factura de proveedor** y los pagos se deben realizar mediante el espacio de trabajo **Pagos a proveedores**.  
+Los espacios de trabajo **Preparación de pedidos de compra** y **Recepción y seguimiento de pedidos de compra** permiten ver listas de pedidos de compra en los diferentes estados a los que han progresado. También proporcionan un resumen de las acciones que se deben realizar. El espacio de trabajo **Preparación de pedidos de compra** se centra en la creación y revisión de pedidos de compra, el procesamiento del pedido hasta la aprobación y la confirmación con el proveedor. El espacio de trabajo **Recepción y seguimiento de pedidos de compra** se centra en el procesamiento de la recepción de bienes o servicios de pedidos de compra. Incluye listas que proporcionan información sobre las recepciones vencidas o que vencerán pronto para entregar por parte del proveedor. Estos espacios de trabajo no se utilizan para realizar las actividades de recepción relacionadas que se realizan en el almacén. Dichas actividades se realizan mediante las páginas de los módulos **Gestión de inventarios** y **Administración de almacenes**. El procesamiento de facturas de proveedor se debe realizar mediante el espacio de trabajo **Entrada de factura de proveedor** y los pagos se deben realizar mediante el espacio de trabajo **Pagos a proveedores**.  
 
 Los siguientes artículos proporcionan una visión general de las distintas fases por las que pasa un pedido de compra:
 
@@ -45,7 +48,7 @@ Los siguientes artículos proporcionan una visión general de las distintas fase
 -   [Visión general de facturas de proveedores](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
 
 ## <a name="types-of-purchase-orders"></a>Tipos de pedidos de compra
-Hay tres tipos de puesto. Al crear un pedido, debe especificar el tipo. Puede configurar un tipo de pedido predeterminado para nuevos pedidos en la página **Parámetros de adquisición y abastecimiento**.
+Hay tres tipos de pedidos de compra. Al crear un pedido de compra, debe especificar el tipo. Puede configurar un tipo de pedido predeterminado para nuevos pedidos en la página **Parámetros de adquisición y abastecimiento**.
 
 | Tipo de pedido de compra        | Descripción                                                                                                                                                                                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,12 +83,14 @@ El campo **Estado de aprobación** se utiliza cuando un pedido de compra pasa po
 <a name="see-also"></a>Consulte también
 --------
 
-[Purchase order creation](purchase-order-creation.md)
+[Creación de pedido de compra](purchase-order-creation.md)
 
 [Confirmación y aprobación del pedido de compra](purchase-order-approval-confirmation.md)
 
 [Recepción de producto frente a pedidos de compra](product-receipt-against-purchase-orders.md)
 
 [Visión general de facturas de proveedores](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

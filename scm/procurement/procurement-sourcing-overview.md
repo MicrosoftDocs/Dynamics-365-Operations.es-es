@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-and-sourcing-overview"></a>Vista general de adquisición y abastecimiento
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo ofrece una visión general de la funcionalidad que está disponible en el módulo Adquisición y abastecimiento.
 
 Adquisición y abastecimiento cubre todos los pasos desde identificar una necesidad de productos y servicios hasta la obtención de productos, recibos, facturación y el proceso de pago con los proveedores. Los procesos de adquisición se pueden configurar con requisitos específicos de la empresa definiendo directivas de compra y flujos de trabajo.
@@ -37,14 +40,14 @@ Los *Límites de gasto *pueden usarse para limitar el gasto de la petición, y *
   
 El departamento de adquisición identifica a los proveedores para los productos y servicios necesarios, y esto puede implicar que se envíe una *solicitud de presupuesto * a varios proveedores potenciales. Es posible compartir las especificaciones del producto se solicita y los posibles proveedores pueden verlas para ver si pueden entregar un producto que cumpla con ellas. Los proveedores devuelven sus ofertas, que después serán revisadas por el departamento de compras antes de seleccionar el proveedor que desean.  
 
-Los pedidos de compra incluyen una opción para enviar una *consulta de compra * al proveedor como alternativa a un proceso más completo de la solicitud de presupuesto. La consulta de compra se puede usar para ayudar a establecer condiciones como precios, descuentos y fecha de entrega del pedido. Si configurado proveedores para utilizar ** proveedor ** el portal, * * se deshabilita la funcionalidad de la pregunta de la compra. En su lugar, el pedido se comparte en el portal** Proveedor**, y cuando se envía una*solicitud de confirmación*, el proveedor puede confirmar directamente el pedido.  
+Los pedidos de compra incluyen una opción para enviar una *consulta de compra * al proveedor como alternativa a un proceso más completo de la solicitud de presupuesto. La consulta de compra se puede usar para ayudar a establecer condiciones como precios, descuentos y fecha de entrega del pedido. Si se configura los proveedores para que usen el portal **Proveedor**, la funcionalidad de consulta de compra estará deshabilitada. En su lugar, el pedido se comparte en el portal** Proveedor**, y cuando se envía una*solicitud de confirmación*, el proveedor puede confirmar directamente el pedido.  
 
 Los *Catálogos de proveedores *puede usarse para recopilar información sobre el surtido de productos que los proveedores pueden suministrar. Los proveedores pueden publicar su propio catálogo, por lo que resulta más fácil mantener el catálogo actualizado. Es posible vincular una *lista de proveedores aprobados* a un producto, y ésto puede ayudar para la selección del proveedor cuando se abren los nuevos pedidos de compra y evitar el uso de proveedores no intencionados.
 
 ## <a name="procurement"></a>Adquisición
 Los *Pedidos de compra *se pueden crear de varias formas diferentes, como por ejemplo:
 
--   Como resultado de la planificación maestra que ha identificado una demanda que requiere una compra. Este proceso genera pedidos de compra planificados, y si se liberan ellos, se generan los pedidos de compra.
+-   Como resultado de la planificación maestra que ha identificado una demanda que requiere una compra. Este proceso genera pedidos de compra planificados y cuando estos se liberan, se generan los pedidos de compra.
 -   Con el proceso de solicitudes de compra que resultan de la adquisición.
 -   Con el proceso de los acuerdos de compra, donde los pedidos de compra se crean como pedidos liberados de los acuerdos. Esto es de uso general cuando se usan los acuerdos de compra para representar pedidos abiertos.
 -   Manualmente, cuando el pedido de compra que se crea no se basa en otro documento.
@@ -53,7 +56,7 @@ Los pedidos de compra que se configuran con *flujos de trabajo de aprobación de
 
 Los pedidos de compra son *confirmado* para indicar que un acuerdo se ha establecido con el proveedor. El pedido de compra progresará gradualmente a través de los diferentes estados hasta que finalmente sean facturados o cancelados.  
 
-Al crear un pedido de compra, muchos de los campos se rellena automáticamente con los valores que establecen como valor predeterminado de almacenar información sobre el proveedor en ** los proveedores ** la página. Esto significa que hay un número limitado de campos que se debe completar en el pedido de compra, aunque puede elegir reemplazar los valores predeterminados.
+Cuando se crea un pedido de compra, muchos de los campos se rellenan automáticamente con los valores predeterminados de la información almacenada sobre el proveedor en la página **Proveedores**. Esto significa que hay un número limitado de campos que se debe completar en el pedido de compra, aunque puede elegir reemplazar los valores predeterminados.
 
 ### <a name="prices-and-discounts"></a>Precios y descuentos
 
@@ -86,5 +89,7 @@ Los pedidos de compra facturados registrarán el pasivo en la cuenta de proveedo
 
 ## <a name="vendor-performance"></a>Rendimiento de proveedores
 El rendimiento y revisión de la compra es compatible con los *informes repercutidos de adquisición y abastecimiento la cuenta,* que incluye el análisis de gastos y el análisis de rendimiento del proveedor.
+
+
 
 

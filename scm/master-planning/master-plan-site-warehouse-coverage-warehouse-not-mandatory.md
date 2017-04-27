@@ -1,5 +1,5 @@
 ---
-title: "La planificación maestra cobertura de sitios y cobertura de almacén, almacén no obligatorio"
+title: "Planificación maestra para cobertura de sitios y almacenes, almacén no obligatorio"
 description: "Este tema describe cómo se planifica un artículo que tiene el sitio y el almacén como dimensiones de cobertura. La dimensión Almacén no es obligatoria."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>La planificación maestra cobertura de sitios y cobertura de almacén, almacén no obligatorio
+# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Planificación maestra para cobertura de sitios y almacenes, almacén no obligatorio
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tema describe cómo se planifica un artículo que tiene el sitio y el almacén como dimensiones de cobertura. La dimensión Almacén no es obligatoria.
 
@@ -38,10 +41,10 @@ El escenario de planificación maestra implica las condiciones siguientes:
 -   La dimensión Sitio y Almacén están configuradas para la planificación de cobertura. Se pueden configurar otras dimensiones también para la planificación de cobertura. Sin embargo, no se ven afectadas por la funcionalidad de multisitio.
 
 El gráfico siguiente ilustra cómo tiene lugar la planificación maestra. Los parámetros a los que se hace referencia en el gráfico, así como sus ubicaciones, son los siguientes:
--   El almacén se establece en Manual. Haga clic en ** almacenes de &gt; instalación de descomposición &gt; de inventario de gestión &gt; de inventario **. En la ficha desplegable **Planificación maestra**, consulte el campo **Manual**.
--   La cobertura de artículos está definida para el artículo. Haga clic en ** productos &gt; emitidos de los productos&gt; de la Gestión de información de productos **. Seleccione el artículo y, a continuación, en el panel de acciones, en ** plan ** la ficha, haga clic en ** cobertura de artículos **.
--   Están definidas relaciones de relleno para el almacén. Haga clic en ** almacenes de &gt; instalación de descomposición &gt; de inventario de gestión &gt; de inventario **. En la ficha desplegable **Planificación maestra**, consulte el grupo de campos **Almacén principal**.
--   El tipo de pedido predeterminado está definido en Producción, Pedido de compra o Kanban. Haga clic en ** productos &gt; emitidos de los productos&gt; de la Gestión de información de productos **. Seleccione el artículo y, a continuación, en el panel de acciones, en ** plan ** la ficha, haga clic en ** configuración de pedido predeterminada **. En el formulario **Configuración predeterminada de pedido** consulte **Tipo de pedido predeterminado**.
+-   El almacén se establece en Manual. Haga clic en **Gestión del inventario &gt; Configurar &gt; Desglose del inventario &gt; Almacenes**. En la ficha desplegable **Planificación maestra**, consulte el campo **Manual**.
+-   La cobertura de artículos está definida para el artículo. Haga clic en **Gestión de información de productos &gt; Productos &gt; Productos emitidos**. Seleccione el artículo y, a continuación, en Panel de acciones, en la pestaña **Plan**, haga clic en **Cobertura de artículos**.
+-   Están definidas relaciones de relleno para el almacén. Haga clic en **Gestión del inventario &gt; Configurar &gt; Desglose del inventario &gt; Almacenes**. En la ficha desplegable **Planificación maestra**, consulte el grupo de campos **Almacén principal**.
+-   El tipo de pedido predeterminado está definido en Producción, Pedido de compra o Kanban. Haga clic en **Gestión de información de productos &gt; Productos &gt; Productos emitidos**. Seleccione el artículo y, a continuación, en Panel de acciones, en la pestaña **Plan**, haga clic en **Configuración predeterminada de pedido**. En el formulario **Configuración predeterminada de pedido** consulte **Tipo de pedido predeterminado**.
 
 ![Demanda para el sitio y el almacén, almacén no](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousenotmandatory.jpg)
 
@@ -53,7 +56,7 @@ El gráfico siguiente ilustra cómo tiene lugar la planificación maestra. Los p
 <a name="see-also"></a>Consulte también
 --------
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Planificación maestra y funcionalidad multisitio](master-plan-multisite-functionality.md)
 
 [Planificación maestra: cobertura de sitios y almacenes, almacén obligatorio](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
@@ -62,5 +65,7 @@ El gráfico siguiente ilustra cómo tiene lugar la planificación maestra. Los p
 [Planificación maestra: cobertura de sitios y almacenes, almacén no obligatorio](master-plan-site-coverage-warehouse-not-mandatory.md)
 
 [Planificación maestra: cómo se establece la versión de la lista de materiales](master-plan-bom-version-determined.md)
+
+
 
 

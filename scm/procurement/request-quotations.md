@@ -1,5 +1,5 @@
 ---
-title: Solicitud las citas (RFQs)
+title: Solicitud de presupuestos
 description: "Este artículo proporciona información general de solicitudes de presupuesto, que las organizaciones emiten cuando deben comprar artículos o servicios y desean recibir ofertas competitivas de varios proveedores. En una solicitud de presupuesto, se les pide a los proveedores que proporcionen precios y plazos de entrega para las cantidades de artículos especificadas. También puede solicitar que especifiquen si hay algunos gastos adicionales, como gastos de envío, o si el proveedor ofrece descuentos para pedidos cuantiosos o por pronto pago de la factura de proveedor."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="request-for-quotations-rfqs"></a>Solicitud las citas (RFQs)
+# <a name="request-for-quotations-rfqs"></a>Solicitud de presupuestos
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo proporciona información general de solicitudes de presupuesto, que las organizaciones emiten cuando deben comprar artículos o servicios y desean recibir ofertas competitivas de varios proveedores. En una solicitud de presupuesto, se les pide a los proveedores que proporcionen precios y plazos de entrega para las cantidades de artículos especificadas. También puede solicitar que especifiquen si hay algunos gastos adicionales, como gastos de envío, o si el proveedor ofrece descuentos para pedidos cuantiosos o por pronto pago de la factura de proveedor.
 
@@ -37,9 +40,9 @@ El proceso de solicitud de presupuesto cubre las tareas siguientes:
 
 La ilustración siguiente muestra una visión general del proceso de solicitud de presupuesto.  
 
-[proceso de solicitud de presupuesto![] (. /media/rfq-process-458x1024.jpg])(. /media/rfq-process.jpg)  
+[![Proceso de solicitud de presupuesto](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)  
 
-Puede crear una solicitud de presupuesto desde pedidos planificados, desde una solicitud de compra o desde una entrada manual. La solicitud de presupuesto que crea se denomina un caso de solicitud de presupuesto, y se trata del documento base que se usa para emitir una solicitud de presupuesto a cada proveedor. Tras preparar el caso de solicitud y agregue los proveedores, haga clic ** ** registrar en el caso de solicitud, y un diario de solicitud de presupuesto se genera para cada proveedor que envió la solicitud de presupuesto. Puede configurar valores de la gestión de impresión para el recurso compartido de envío para imprimir un informe para cada proveedor a un archivo o registrar un informe a la dirección de correo electrónico de cada proveedor. Además, el diario de solicitud de presupuesto por cada proveedor se puede usar para generar un informe que se puede enviar o volver a enviar a un proveedor más adelante. También puede configurar la acción de envío para generar una hoja de respuesta que el proveedor pueda completar.  
+Puede crear una solicitud de presupuesto desde pedidos planificados, desde una solicitud de compra o desde una entrada manual. La solicitud de presupuesto que crea se denomina un caso de solicitud de presupuesto, y se trata del documento base que se usa para emitir una solicitud de presupuesto a cada proveedor. Tras preparar el caso de solicitud de presupuesto y agregar proveedores, haga clic en **Enviar** en el caso de solicitud de presupuesto; se genera un diario de solicitud de presupuesto para cada proveedor al que envíe la solicitud de presupuesto. Puede configurar los parámetros de gestión de impresión para la acción de envío para imprimir un informe para cada proveedor en un archivo o enviar un informe a la dirección de correo electrónico de cada proveedor. Además, el diario de solicitud de presupuesto por cada proveedor se puede usar para generar un informe que se puede enviar o volver a enviar a un proveedor más adelante. También puede configurar la acción de envío para generar una hoja de respuesta que el proveedor pueda completar.  
 
 Si debe modificar una solicitud de presupuesto después de haberla enviado, puede volver a enviar la solicitud de presupuesto a los proveedores cuando haya terminado.  
 
@@ -49,18 +52,18 @@ Si se requiere una segunda iteración de una respuesta para un proveedor concret
 
 Si ha agregado criterios de puntuación a su caso de solicitud de presupuesto, la respuesta a la solicitud de presupuesto tendrá un panel de puntuación donde podrá especificar las puntuaciones. Las puntuaciones totales aparecerán al comparar las respuestas en la página **Comparar respuestas, **donde también puede comparar otros datos de respuesta, como el precio de línea, la fecha de entrega y el precio total.  
 
-Después de tomar una decisión sobre una propuesta o propuestas parciales, puede aceptarlas y rechazar el resto. Se generan los diarios de aceptación, los diarios de rechazo y los informes correspondientes. Estos se imprimirán, almacenados, y registrados según la configuración de la gestión de impresión. Cuando se acepta una propuesta de factura o líneas específicas en una propuesta, se genera un acuerdo o pedido de compra de compra, o se actualiza una solicitud de compra, según el tipo de compra de la solicitud de presupuesto. Puede crear un acuerdo comercial que podrá usar más adelante para cualquier respuesta, independientemente de si las acepta o las rechaza.  
+Después de tomar una decisión sobre una propuesta o propuestas parciales, puede aceptarlas y rechazar el resto. Se generan los diarios de aceptación, los diarios de rechazo y los informes correspondientes. Estos se imprimirán, archivarán y enviarán según la configuración de gestión de impresión. Al aceptar una propuesta o líneas específicas de una propuesta, se genera un acuerdo de compra o el pedido de compra, o se actualiza una solicitud de compra, en función del tipo de compra de la solicitud de presupuesto. Puede crear un acuerdo comercial que podrá usar más adelante para cualquier respuesta, independientemente de si las acepta o las rechaza.  
 
 El estado de una solicitud de presupuesto en el encabezado de la solicitud depende de los estados de las líneas de la solicitud de presupuesto. El estado indica hasta qué punto se ha procesado dicha solicitud. Cada solicitud de presupuesto tiene dos valores para el estado: el más bajo y el más alto. El estado más bajo es la fase menos avanzada de cualquier línea de solicitud de presupuesto, y el estado más alto, la fase más avanzada. Por ejemplo, si la fase menos avanzada de una solicitud de presupuesto es para una línea que se ha creado, el estado más bajo de la solicitud de presupuesto es **Creado**. Si la fase más avanzada de la solicitud de presupuesto es para una línea que se ha enviado a proveedores, el estado más alto de la solicitud de presupuesto es **Enviado**. Los estados se actualizan automáticamente mientras se procesa la solicitud de presupuesto.  
 
 Puede ver los estados más altos y más bajos de un encabezado de solicitud de presupuesto en la página **Todas las solicitudes de presupuesto**. Puede ver los estados más altos y más bajos de una línea de solicitud de presupuesto en la ficha **Líneas** de la página **Solicitud de presupuestos**.  
 
-A continuación se indica la secuencia de estados para procesar solicitudes de presupuesto:
+Esta es la secuencia de estados para el procesamiento de una solicitud de presupuesto:
 
 1.  **Creado**
-2.  **Sent**
-3.  **Received**
-4.  ** Aceptado **/** cancelado **/** rechazado **
+2.  **Enviado**
+3.  **Recibido**
+4.  **Aceptada**/**Cancelada**/**Rechazada**
 
 Los estados se describirán más detalladamente en secciones posteriores de este artículo.
 
@@ -72,7 +75,7 @@ Antes de poder crear un caso de solicitud de presupuesto, debe configurar la inf
 -   La información de entrega y las condiciones de pago.
 -   Los campos que se deben incluir en la respuesta a la solicitud de presupuesto.
 
-Puede anular estos valores para un caso de solicitud de presupuesto específico. También debe configurar el proceso de modificación. Como parte de esta configuración, puede habilitar el bloqueo de campos. Cuando está habilitado el bloqueo de campos, el profesional de compras que desee modificar una solicitud de presupuesto debe primer lugar hacer clic en **Crear** en la sección **Enmienda** de la ficha **Presupuesto**. Cuando la solicitud de presupuesto se haya actualizado con la modificación, el profesional de compras debe completar el proceso haciendo clic en ** concluya **. ** ** El recurso compartido del finalizar generar un mensaje de correo electrónico que notifique a los proveedores sobre la solicitud de presupuesto enmendada. La plantilla de la notificación por correo electrónico que se envía a los proveedores se selecciona en la página **Parámetros de adquisición y abastecimiento**. Cuando se crea una plantilla, puede contener los tokens de sustitución siguientes:
+Puede anular estos valores para un caso de solicitud de presupuesto específico. También debe configurar el proceso de modificación. Como parte de esta configuración, puede habilitar el bloqueo de campos. Cuando está habilitado el bloqueo de campos, el profesional de compras que desee modificar una solicitud de presupuesto debe primer lugar hacer clic en **Crear** en la sección **Enmienda** de la ficha **Presupuesto**. Después de que la solicitud de presupuesto se haya actualizado con la modificación, el profesional de compras debe terminar el proceso haciendo clic en **Finalizar**. La acción de finalización genera un mensaje de correo electrónico que notifica a los proveedores la modificación de la solicitud de presupuesto. La plantilla de la notificación por correo electrónico que se envía a los proveedores se selecciona en la página **Parámetros de adquisición y abastecimiento**. Cuando se crea una plantilla, puede contener los tokens de sustitución siguientes:
 
 -   %Motivo para devolver la propuesta%
 -   %Motivo de la enmienda%
@@ -124,7 +127,7 @@ La tabla siguiente muestra cómo cambia el estado de la solicitud de presupuesto
 
 |                                    |                              |                                                 |                            |                             |
 |------------------------------------|------------------------------|-------------------------------------------------|----------------------------|-----------------------------|
-| **Action**                         | **Lowest RFQ header status** | **Highest RFQ header status**                   | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Acción**                         | **Estado más bajo del encabezado de la solicitud de presupuesto** | **Estado más alto del encabezado de la solicitud de presupuesto**                   | **Estado más bajo de la línea de la solicitud de presupuesto** | **Estado más alto de la línea de solicitud de presupuesto** |
 | Crear la línea y el encabezado de RFQ.    | Creado                      | Creado                                         | Creado                    | Creado                     |
 | Envíe la solicitud de presupuesto a un proveedor específico. | Enviado                         | Enviado                                            | Enviado                       | Enviado                        |
 | Agregue a otro proveedor.                | Creado                      | Enviado (la solicitud de presupuesto se ha enviado solo a un proveedor.) | Creado                    | Enviado                        |
@@ -146,7 +149,7 @@ Si el cuestionario se vincula al caso de solicitud de presupuesto, debe especifi
 
 Si debe introducir líneas alternas, y el caso de solicitud de presupuesto lo permite, en la ficha desplegable **Líneas de presupuesto de compra**, haga clic en **Agregar línea**. A continuación, especifique la información del producto, como el número de artículo o la categoría de compra, cantidad, precio y descuento.  
 
-Si ha especificado una respuesta pero requiere una nueva propuesta de proveedor, puede volver a enviar la solicitud de presupuesto. Esto generará un diario nuevo y informará que puede usar para solicitar cambios del proveedor.  
+Si ha especificado una respuesta pero requiere una nueva propuesta del proveedor, puede volver a enviar la solicitud de presupuesto. Esto generará un diario nuevo y el informe para solicitar cambios del proveedor.  
 
 Puede ver una descripción de todas las solicitudes de presupuesto y sus estados de respuesta en la página **Seguimiento de solicitud de presupuesto**.  
 
@@ -154,7 +157,7 @@ La tabla siguiente muestra cómo cambia el estado de la solicitud de presupuesto
 
 |                                                |                       |                        |                              |                               |                            |                             |
 |------------------------------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**                                     | **Lowest bid status** | **Highest bid status** | **Lowest RFQ header status** | **Highest RFQ header status** | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Acción**                                     | **Estado más bajo de la propuesta** | **Estado más alto de la propuesta** | **Estado más bajo del encabezado de la solicitud de presupuesto** | **Estado más alto del encabezado de la solicitud de presupuesto** | **Estado más bajo de la línea de la solicitud de presupuesto** | **Estado más alto de la línea de solicitud de presupuesto** |
 | Registre una oferta de proveedor y guárdela.        | Enviado                  | Recibido               | Enviado                         | Recibido                      | Enviado                       | Recibido                    |
 | Registre una segunda oferta de proveedor y guárdela. | Recibido              | Recibido               | Recibido                     | Recibido                      | Recibido                   | Recibido                    |
 
@@ -183,9 +186,11 @@ La tabla siguiente muestra cómo cambia el estado de la solicitud de presupuesto
 
 |                         |                       |                        |                              |                               |                            |                             |
 |-------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**              | **Lowest bid status** | **Highest bid status** | **Lowest RFQ header status** | **Highest RFQ header status** | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Acción**              | **Estado más bajo de la propuesta** | **Estado más alto de la propuesta** | **Estado más bajo del encabezado de la solicitud de presupuesto** | **Estado más alto del encabezado de la solicitud de presupuesto** | **Estado más bajo de la línea de la solicitud de presupuesto** | **Estado más alto de la línea de solicitud de presupuesto** |
 | Acepte una de las ofertas. | Recibido              | Aceptado               | Recibido                     | Aceptado                      | Recibido                   | Aceptado                    |
 | Rechazar las otras propuestas.  | Rechazadas              | Aceptado               | Rechazadas                     | Aceptado                      | Rechazadas                   | Aceptado                    |
+
+
 
 
 

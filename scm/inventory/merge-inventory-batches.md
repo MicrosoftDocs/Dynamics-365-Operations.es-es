@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="merge-inventory-batches"></a>Combinar lotes de inventario
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información sobre la consolidación de dos o más lotes de inventario en un lote combinado. 
 
 Cuando se combinan los lotes, los cálculos pueden ayudar a optimizar las características y los atributos de lote del lote combinado. Después de seleccionar los lotes de origen, puede revisar y cambiar el lote combinado antes de registrarlo. También puede transferir la combinación de lotes a un diario de inventario para su aprobación. El inventario luego se puede reservar o registrar directamente desde ese diario de inventario. Cuando se registra un lote combinado, el inventario se ajusta para los lotes de origen y el lote combinado.
@@ -48,7 +51,7 @@ Sí, existen algunas cosas que debe configurar antes de que pueda usar las herra
 <tbody>
 <tr class="odd">
 <td>Nombres de diario, Inventario</td>
-<td>Debe crear el nombre de diario que se usa de forma predeterminada al registrar combinaciones de lotes en diarios de inventario. Opcional pero muy recomendable: puede especificar que las reservas se deben realizar automáticamente cuando la combinación de lotes se transfiera al diario de inventario. De lo contrario, existe el riesgo de que se pueda cambiar un inventario disponible después de que se configuren los detalles de la combinación de lotes y se registre el diario. Para habilitar las reservas automáticas para el nombre de diario, seleccione <strong>Automático</strong> en <strong><strong>Reserva</strong></strong> el campo.</td>
+<td>Debe crear el nombre de diario que se usa de forma predeterminada al registrar combinaciones de lotes en diarios de inventario. Opcional pero muy recomendable: puede especificar que las reservas se deben realizar automáticamente cuando la combinación de lotes se transfiera al diario de inventario. De lo contrario, existe el riesgo de que se pueda cambiar un inventario disponible después de que se configuren los detalles de la combinación de lotes y se registre el diario. Para habilitar las reservas automáticas para el nombre del diario, seleccione <strong>Automático</strong> en el campo <strong><strong>Reserva</strong> </strong>.</td>
 </tr>
 <tr class="even">
 <td>Parámetros de gestión de inventario y almacenes</td>
@@ -134,9 +137,11 @@ El registro funciona de dos maneras, en función de si usa un proceso de aprobac
 -   **Transferir al diario**: transfiere los detalles de la combinación de lotes a un nuevo diario de inventario. Si ha configurado reservas automáticas, se reservan las cantidades de los lotes de origen. Los detalles de la combinación de lotes no se pueden cambiar. Para modificar la combinación de lotes, debe eliminar el diario. El diario se puede usar como tarea que otro empleado debe realizar más adelante. Se garantiza la reserva de la cantidad del lote a la línea de diario. Esta asignación permite a un planificador de calidad o a un responsable de almacén crear tareas para sus empleados.
 -   **Registrar la combinación de lotes**: registra la combinación de lotes directamente. Esta acción puede llevarse a cabo una vez que se ha producido la combinación física.
 
-Puede aprobar el diario de inventario para la combinación de lotes de la página de lista **Todas las combinaciones de lotes**. Haga clic en ** Journal ** &gt; ** Registrar **. Después de registrar un diario, no es posible modificar los detalles del lote combinado. Una vez transferida una combinación de lotes a un diario de inventario, puede cambiar los detalles si se elimina el diario.
+Puede aprobar el diario de inventario para la combinación de lotes de la página de lista **Todas las combinaciones de lotes**. Haga clic en **Diario** &gt; **Registrar**. Después de registrar un diario, no es posible modificar los detalles del lote combinado. Una vez transferida una combinación de lotes a un diario de inventario, puede cambiar los detalles si se elimina el diario.
 
-## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>¿Una vez que combinara un artículo de catchweight, por qué no puedo ver la información de catchweight en el diario de inventario?
+## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>¿Por qué no puedo ver la información de peso capturado en el diario de inventario después de combinar un artículo de peso capturado?
 Puede combinar lotes de artículos con peso capturado de la misma forma que con el resto de artículos. Sin embargo, la información de peso capturado no aparece en el diario de inventario. Se recomienda comprobar la información de peso capturado antes de transferir la combinación de lotes al diario de inventario.
+
+
 
 

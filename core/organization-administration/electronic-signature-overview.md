@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="electronic-signature-overview"></a>Visión general de la firma electrónica
 
+[!include[banner](../includes/banner.md)]
+
+
 En este artículo se proporciona una visión general de las firmas electrónicas y se describe cómo pueden usarse en Microsoft Dynamics 365 for Operations.
 
 <a name="what-is-an-electronic-signature"></a>¿Qué es una firma electrónica?
@@ -35,7 +38,7 @@ En este artículo se proporciona una visión general de las firmas electrónicas
 Una firma electrónica confirma la identidad de una persona que va a comenzar o aprobar un proceso informático. En algunos sectores, una firma electrónica es tan vinculante legalmente como una firma escrita. Las firmas electrónicas son un requisito de cumplimiento de directivas para determinados sectores regulados, como el farmacéutico, alimentación, aeroespacial y defensa. También son necesarias para el cumplimiento de las directivas de 21 CFR Parte 11 que se publicaron por la Food and Drug Administration (FDA) en los Estados Unidos. **Nota:** Una firma electrónica por sí misma no es lo mismo que una firma digital. Una firma electrónica es simplemente un sustituto de la firma manuscrita, mientras que una firma digital proporciona medidas de seguridad adicionales. Una firma digital puede ayudar a identificar si otro usuario o proceso han manipulado los datos. Una firma digital también puede verificarse y esta verificación no la puede rechazar el propietario del certificado que se usó para firmar los datos. Como se describe a continuación, las firmas electrónicas en Microsoft Dynamics 365 for Operations han integrado la funcionalidad de la firma digital.
 
 ## <a name="electronic-signatures-in-dynamics-365-for-operations"></a>Firmas electrónicas en Microsoft Dynamics 365 for Operations
-En Microsoft Dynamics 365 for Operations, puede usar firmas electrónicas para procesos empresariales críticos. Algunos procesos llevan integrada la capacidad de firma electrónica. También puede crear requisitos de firma personalizados para cualquier tabla o campo de la base de datos. Las firmas electrónicas han integrado la funcionalidad de la firma digital. Cada usuario que firma documentos debe obtener un certificado criptográfico válido. Cuando se firma un documento, se valida la clave privada que está asociada al certificado. Dynamics 365 for Operations almacena la información de firma electrónica en un registro para proporcionar una traza de auditoría. Para configurar firmas electrónicas, consulte [las firmas electrónicas de la configuración (Guía de la tarea)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
+En Microsoft Dynamics 365 for Operations, puede usar firmas electrónicas para procesos empresariales críticos. Algunos procesos llevan integrada la capacidad de firma electrónica. También puede crear requisitos de firma personalizados para cualquier tabla o campo de la base de datos. Las firmas electrónicas han integrado la funcionalidad de la firma digital. Cada usuario que firma documentos debe obtener un certificado criptográfico válido. Cuando se firma un documento, se valida la clave privada que está asociada al certificado. Dynamics 365 for Operations almacena la información de firma electrónica en un registro para proporcionar una traza de auditoría. Para configurar las firmas electrónicas, consulte [Configuración de firmas electrónicas (Guía de tareas)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Usuarios que requieren el acceso a las firmas electrónicas
 Existen tres tipos de usuarios que necesitan normalmente acceso de seguridad a las firmas electrónicas: administradores de firma electrónica, firmantes y auditores de firma electrónica.
@@ -78,6 +81,8 @@ En ocasiones, puede querer que un usuario firme los cambios realizados por otro 
 1.  En la página **Opciones**, en la pestaña **Cuentas** , haga clic en **Designar aprobador**.
 2.  En el campo **Id. del aprobador**, seleccione el Id. del usuario que debe firmar por los cambios de otro usuario.
 3.  En el campo **Firmar para id. de usuario**, seleccione el Id. del usuario cuyos cambios deberán firmarse.
+
+
 
 
 

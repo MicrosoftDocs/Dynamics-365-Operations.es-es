@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="common-sources-of-production-variances"></a>Orígenes comunes de desviaciones de producción
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo explica diversos orígenes de cada tipo de desviación de producción. 
 
 Estos son algunos orígenes típicos de desviación de **tamaño de lote**:
@@ -57,6 +60,8 @@ Estos son algunos orígenes típicos de una desviación de **sustitución de pro
 -   Agrega manualmente una operación a la ruta de producción y notifica esa operación como consumida.
 -   Al crear el pedido de producción, selecciona una versión de L. MAT difiere de la usada en el cálculo de coste estándar.
 -   Al crear el pedido de producción, selecciona una versión de ruta que difiere de la usada en el cálculo de coste estándar.
+
+
 
 
 

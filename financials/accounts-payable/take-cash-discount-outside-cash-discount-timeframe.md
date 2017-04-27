@@ -1,5 +1,5 @@
 ---
-title: "Tome un descuento por pronto pago fuera del período de descuento por pronto pago"
+title: "Obtener un descuento por pronto pago fuera del período de descuento por pronto pago"
 description: "Este artículo proporciona dos escenarios que muestran cómo se puede aplicar un descuento por pronto pago incluso si el pago se realiza fuera del período de descuento por pronto pago."
 author: twheeloc
 manager: AnnBe
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Tome un descuento por pronto pago fuera del período de descuento por pronto pago
+# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Obtener un descuento por pronto pago fuera del período de descuento por pronto pago
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo proporciona dos escenarios que muestran cómo se puede aplicar un descuento por pronto pago incluso si el pago se realiza fuera del período de descuento por pronto pago.
 
-El 28 de junio, abril crear una factura para 2,000.00 para el proveedor 3052. La factura tiene un descuento por pronto pago del 1 por ciento si la factura se paga en 14 días.
+El 28 de junio, April crea una factura de 2.000,00 del proveedor 3052. La factura tiene un descuento por pronto pago del 1 por ciento si la factura se paga en 14 días.
 
 ## <a name="use-cash-discount-option--always"></a>Opción Utilizar descuento por pronto pago = Siempre
 April crea un pago el 1 de julio, posterior a la fecha de descuento. April abre la página **Liquidar transacciones** para ver las transacciones que se pueden liquidar. 
 
-April marca la factura para su pago. No se aplica ningún descuento por pronto pago, porque el pago es posterior a la fecha de descuento. Sin embargo, el proveedor ha dado la aprobación de abril para tomar el descuento por pronto pago de todos modos. Por lo tanto, abril cambiar el valor en ** descuento por pronto pago de uso ** el campo siempre ** **.
+April marca la factura para su pago. No se aplica ningún descuento por pronto pago, porque el pago es posterior a la fecha de descuento. Sin embargo, el proveedor ha proporcionado aprobación a April para obtener el descuento por pronto pago. Por lo tanto, April cambia el valor en el campo **Utilizar descuento por pronto pago** a **Siempre**.
 
 | Marcar     | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha del descuento por pronto pago | Fecha de vencimiento  | Factura | Importe en divisa de la transacción | Divisa | Importe para liquidar |
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
@@ -85,6 +88,8 @@ La información de descuento aparece en la parte inferior de la página **Liquid
 | Utilizar el descuento por pronto pago            | Normal    |
 | Descuento por pronto pago aplicado          | 0,00      |
 | Importe de descuento por pronto pago para aplicar | -5,05     |
+
+
 
 
 

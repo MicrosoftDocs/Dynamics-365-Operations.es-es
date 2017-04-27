@@ -1,5 +1,5 @@
 ---
-title: Aprobar y confirme los pedidos de compra
+title: confirmarAprobar y confirmar pedidos de compra.
 description: "Este artículo describe los estados por los que pasa un pedido de compra una vez se ha creado y el efecto de habilitar la administración de cambios en los pedidos de compra."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="approve-and-confirm-purchase-orders"></a>Aprobar y confirme los pedidos de compra
+# <a name="approve-and-confirm-purchase-orders"></a>confirmarAprobar y confirmar pedidos de compra.
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo describe los estados por los que pasa un pedido de compra una vez se ha creado y el efecto de habilitar la administración de cambios en los pedidos de compra.
 
@@ -73,12 +76,14 @@ Tras la confirmación de un pedido, ya no podrá eliminarlo. Sin embargo, puede 
 <a name="see-also"></a>Consulte también
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Visión general de pedidos de compra](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Creación de pedido de compra](purchase-order-creation.md)
 
 [Recepción de producto frente a pedidos de compra](product-receipt-against-purchase-orders.md)
 
 [Visión general de facturas de proveedores](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Conciliar extractos bancarios mediante la conciliación bancaria avanzada
 
+[!include[banner](../includes/banner.md)]
+
+
 La característica Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Operations. En este tema se explica el proceso de conciliación.  
 
 <a name="import-an-electronic-bank-statement"></a>Importar un extracto bancario electrónico
@@ -74,7 +77,7 @@ Hay tres formas para hacer coincidir o conciliar las transacciones de extracto b
 -   Conciliar las transacciones con una transacción de extracto bancario de inversión.
 -   Marcar las transacciones como **Nueva**, de manera que puedan registrarse posteriormente como transacción bancaria en Dynamics 365 for Operations.
 
-Para conciliar manualmente las transacciones, seleccione las transacciones en ** las transacciones del extracto bancario ** la cuadrícula, seleccione las transacciones correspondientes en ** las transacciones bancarias de las operaciones ** la cuadrícula, y haga clic en ** ** coincidencia. Las transacciones seleccionadas se mueven desde las cuadrículas superiores para transacciones no conciliadas hasta las cuadrículas inferiores de transacciones conciliadas. Además, se actualizan los importes totales conciliados y no conciliados. Puede tener coincidencias de transacciones unívocas, de varios a uno y de varios a varios. Las coincidencias deben seguir las reglas para las diferencias de fecha permitidas y la asignación de tipos de transacción. Estas reglas se establecen en la página **Parámetros de gestión de efectivo y bancos**.
+Para conciliar transacciones manuales, seleccione las transacciones de la cuadrícula **Transacciones de extracto bancario**, seleccione las transacciones correspondientes en la cuadrícula **Transacciones bancarias de Operaciones** y, a continuación, haga clic en **Conciliar**. Las transacciones seleccionadas se mueven desde las cuadrículas superiores para transacciones no conciliadas hasta las cuadrículas inferiores de transacciones conciliadas. Además, se actualizan los importes totales conciliados y no conciliados. Puede tener coincidencias de transacciones unívocas, de varios a uno y de varios a varios. Las coincidencias deben seguir las reglas para las diferencias de fecha permitidas y la asignación de tipos de transacción. Estas reglas se establecen en la página **Parámetros de gestión de efectivo y bancos**.
 
 Las diferencias de decimales se pueden producir en la conciliación. Puede conciliar una transacción de extracto bancario única y una única transacción bancaria de Operaciones que tienen diferencias de decimales, si las diferencias de decimales se encuentran dentro del importe de tolerancia definido por el campo **Diferencia de decimales permitida** en la cuenta bancaria. El importe se muestra en el campo de **Importe de corrección** en la transacción bancaria vinculada de Operaciones. Cuando la conciliación bancaria se marca como conciliada, las correcciones se registran automáticamente mediante la cuenta principal definida en el tipo de transacción bancaria asociada. Las correcciones no se admiten para los tipos de documento **Cheque** y **Depósito**. 
 
@@ -90,5 +93,7 @@ Una vez que se han procesado todas las líneas de extracto, debe marcar la hoja 
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Registrar nuevas transacciones asociadas con la conciliación
 Las transacciones de extracto bancario que marcó como **Nueva** en la hoja de cálculo de conciliación se registran en la página **Extracto bancario**. En el **Extracto bancario** , seleccione el id. de extracto para ver los detalles del extracto. En el menú **Contabilidad**, puede utilizar las opciones **Ver distribuciones** y **Ver contabilidad** para ver detalles de las nuevas transacciones y los movimientos contables asociados. Seleccione la opción **Registrar** para registrar las líneas de extracto bancario marcadas como **Nueva** en la contabilidad general. Tenga en cuenta que el registro solo se puede completar una vez por extracto bancario.
+
+
 
 

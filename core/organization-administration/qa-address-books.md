@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="address-books"></a>Libretas de direcciones
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="how-do-i-check-for-duplicate-records"></a>¿Cómo compruebo los registros duplicados?
@@ -53,7 +56,7 @@ Puede actualizar el nombre de un registro de parte, y las direcciones que están
 ## <a name="can-i-merge-two-or-more-party-records-into-one-record"></a>¿Puedo combinar dos o más registros de parte en un registro?
 Es posible que, en ocasiones, desee combinar dos o varios registros de parte en un único registro. Esto puede suceder si crea uno o varios registros de parte duplicados, ya sea a propósito o por error. Al combinar registros de parte, se selecciona el registro que se desea conservar. La información de los demás registros se combina a continuación con la de este. Por ejemplo, supongamos que descubre que la información acerca de Fabrikam está almacenada en tres registros de parte: A, B y C. Decide conservar el registro de parte A. Por tanto, la información almacenada en los registros de parte B y C se combinará con la del registro de parte A. Hay algunas situaciones en las que no puede combinar registros de partes.
 
--   No es posible combinar los registros de parte que están asociados con el mismo rol de parte (por ejemplo, un cliente o proveedor) en la misma entidad jurídica. Por ejemplo, la parte A un cliente en la entidad jurídica 123, y la parte B a un cliente distinto en la entidad jurídica 123. Estos registros de parte no se pueden combinar porque, si fueran combinados, el registro de parte combinado quedaría asociado a varios clientes en la misma entidad jurídica, y éste no se permite. Sin embargo, los registros se pueden combinar si la parte B está asociada con un proveedor en la entidad jurídica 123 o con un cliente en una entidad jurídica diferente.
+-   No es posible combinar los registros de parte que están asociados con el mismo rol de parte (por ejemplo, un cliente o proveedor) en la misma entidad jurídica. Por ejemplo, la parte A está asociada con un cliente en la entidad jurídica 123 y la parte B está asociada con un cliente distinto en la entidad jurídica 123. Estos registros de parte no se pueden combinar porque el registro de parte combinado quedaría asociado con varios clientes de la misma entidad jurídica, una situación que no está permitida. Sin embargo, los registros se pueden combinar si la parte B está asociada con un proveedor en la entidad jurídica 123 o con un cliente en una entidad jurídica diferente.
 -   No es posible combinar registros de parte de tipo organización internos en la misma entidad jurídica, equipo o unidad operativa.
 
 ## <a name="should-i-create-a-party-record-in-the-global-address-book-or-in-another-place-such-as-the-customer-or-vendor-page"></a>¿Debo crear un registro de parte en la libreta de direcciones global o en otro lugar, como la página Cliente o Proveedor?
@@ -64,5 +67,7 @@ Puede especificar registros de partes en la libreta de direcciones global o en l
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>¿Puedo traducir información de dirección para los registros de partes?
 Puede configurar traducciones de la información de dirección de modo que la información aparezca en el idioma del usuario (idioma del sistema) en Microsoft Dynamics 365 for Operations pero en otro idioma en documentos como los pedidos de ventas. Puede especificar las traducciones para los nombres de país o región, los propósitos de direcciones y las secuencias de nombres. Por ejemplo, su idioma del sistema es el danés y crea un pedido de ventas para un cliente en Francia. En este caso, puede ver el registro del cliente en danés en el programa pero visualizar la información de dirección en francés en el pedido de ventas impreso. Al configurar traducciones, debe especificar una traducción para cada elemento de la lista. Los artículos para los que no especifique una traducción aparecerán en el idioma del sistema. Por ejemplo, su idioma del sistema es el danés y envía un documento a un cliente en España. Si no ha especificado las traducciones de español (ESP) para la información de dirección, esa información aparecerá en danés tanto en el programa como en el documento impreso.
+
+
 
 

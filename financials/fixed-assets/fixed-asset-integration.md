@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-integration"></a>Integración de activos fijos
 
+[!include[banner](../includes/banner.md)]
+
+
 Los activos fijos se pueden integrar con el Libro mayor, la Gestión de inventario, los Clientes y los Proveedores. También es posible configurar los activos fijos para que se integren con los pedidos de compra.
 
 <a name="general-ledger"></a>Contabilidad general
@@ -82,7 +85,7 @@ La integración se activa en la ficha **Activos fijos** en la ficha desplegable 
 ## <a name="project-management-and-accounting"></a>Gestión de proyectos y contabilidad
 Puede asociar un proyecto con un activo afectado por el proyecto. También puede asociar cada fase, tarea o subproyecto a un activo diferente. Un activo se puede asociar a cada registro del proyecto. Puede crear la asociación al introducir un número de activo fijo en el campo de número de **Activo fijo** de la página **Proyectos**. El tipo de proyecto debe ser **Interno** o **Proyecto de coste**. 
 
-También puede utilizar la página **Proyectos** para ver los detalles de los activos asociados a los proyectos. Para ver el registro de activos fijos, haga clic en el vínculo de activos en la ficha desplegable de **Configuración** para abrir la página **Activos fijos**. A continuación haga clic en ** los proyectos ** &gt; ** todos los proyectos ** ver los proyectos asociados al activo fijo. 
+También puede utilizar la página **Proyectos** para ver los detalles de los activos asociados a los proyectos. Para ver el registro de activos fijos, haga clic en el vínculo de activos en la ficha desplegable de **Configuración** para abrir la página **Activos fijos**. A continuación haga clic en **Proyectos** &gt; **Todos los proyectos** para ver los proyectos asociados al activo fijo. 
 
 Normalmente, los activos fijos se asocian a proyectos cuando dichos proyectos están relacionados con trabajos, operaciones de mantenimiento o mejoras realizadas en el activo. Una vez completado el proyecto, un ajuste de revalorización para el activo no se creará automáticamente. Por tanto, si se requiere un ajuste de revalorización, deberá crearlo manualmente. 
 
@@ -90,6 +93,8 @@ Para eliminar una asociación entre un proyecto y un activo, anule el campo **N�
 
 También puede designar un activo fijo que va a crear o fabricar como parte de un proyecto estimado. Al final de un proyecto estimado, puede registrar automáticamente una transacción de adquisición de activos fijos.
 
-Para obtener más información, consulte [adquirir los activos con compras] (acquire-assets-procurement.md)
+Para obtener más información, consulte [Adquisición de activos mediante compra](acquire-assets-procurement.md)
+
+
 
 

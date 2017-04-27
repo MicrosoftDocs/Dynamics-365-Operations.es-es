@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-invoice-matching"></a>Conciliación de facturas de proveedores
 
+[!include[banner](../includes/banner.md)]
+
+
 La conciliación de facturas de proveedores es el proceso de conciliación de la factura de proveedor, el pedido de compra y la información de recepción de producto.
 
 A la hora de conciliar documentos, las diferencias entre estos documentos se denominan "discrepancias coincidentes". Las discrepancias de conciliación se comparan con las tolerancias especificadas. Si una discrepancia de conciliación supera el porcentaje o el importe de tolerancia, se mostrarán iconos de desviación de conciliación en la página Factura de proveedor y en la página Historial de facturas y detalles de conciliación. 
@@ -48,9 +51,9 @@ Puede usar los siguientes tipos de conciliación de facturas de proveedores:
 
 La doble conciliación y la triple conciliación siempre concilian la información del precio por precio unitario. También puede configurar estas directivas de conciliación para que coincida con la información del precio por el total de precio.
 -   Conciliación de precio unitario neto: concilie la información de precio para doble conciliación o triple conciliación comparando el precio unitario neto de cada línea de la factura con el precio unitario neto correspondiente del pedido de compra. El precio unitario neto se determina por la fórmula siguiente: importe neto de la línea/cantidad de la línea
--   Conciliación de totales de precio: concilie la información de precio para doble o triple conciliación comparando el importe neto (total de precio) de cada línea de la factura con el importe neto correspondiente del pedido de compra. El importe neto se determina por la fórmula siguiente: (Cantidad \* la línea \* de precio unitario) + gastos de línea - descuentos de línea
+-   Conciliación de totales de precio: concilie la información de precio para doble o triple conciliación comparando el importe neto (total de precio) de cada línea de la factura con el importe neto correspondiente del pedido de compra. El importe neto se determina por la fórmula siguiente: (precio unitario \* cantidad de línea) + gastos de línea - descuentos de línea
 
-Normalmente, los cálculos de conciliación de facturas se realizan automáticamente al editar facturas de proveedor en la página Factura de proveedor. Como alternativa, la conciliación de facturas se puede realizar a pedido, según sea necesario. La conciliación de facturas a pedido se controla para la entidad jurídica mediante automáticamente del encabezado de factura de actualización en la página de los parámetros de proveedores en la ficha de validación de factura. La conciliación de facturas también se puede realizar como parte de un proceso de revisión de la factura: Puede ver los resultados de la conciliación de facturas en la página Factura de proveedor y las páginas de conciliación de facturas relacionadas.
+Normalmente, los cálculos de conciliación de facturas se realizan automáticamente al editar facturas de proveedor en la página Factura de proveedor. Como alternativa, la conciliación de facturas se puede realizar a pedido, según sea necesario. La conciliación de facturas a pedido se controla para la entidad jurídica mediante Actualizar estado de encabezado de factura automáticamente en la página Parámetros de proveedores en la ficha Validación de factura. La conciliación de facturas también se puede realizar como parte de un proceso de revisión de la factura: Puede ver los resultados de la conciliación de facturas en la página Factura de proveedor y las páginas de conciliación de facturas relacionadas.
 
 ## <a name="invoice-totals-matching"></a>Conciliación de totales de factura
 Puede usar la conciliación de totales de factura para asegurarse de que los importes totales de factura no se desvían de los importes planificados más de la desviación aceptable. Se comparan seis totales en la página Detalles de coincidencia de totales de factura, tal y como se muestra en la siguiente tabla. Si la tolerancia permisible para la conciliación de los totales de la factura es del 20%, el porcentaje de desviación del 100% para el importe de descuento total se considera una discrepancia de conciliación.
@@ -165,7 +168,7 @@ Los mismos importes de línea se comparan en la página Detalles de coincidencia
 La triple conciliación se controla para la entidad jurídica mediante el campo Directiva de conciliación de líneas de la página Parámetros de proveedores. En función de la selección en el campo Permitir anulación de directiva de conciliación, puede seleccionar la triple conciliación para un proveedor específico, un artículo o una combinación de artículo y proveedor en la página Directiva de conciliación, y para un pedido de compra específico en la página Pedido de compra.
 
 ## <a name="charges-matching"></a>Conciliación de gastos varios
-Puede usar la conciliación de gastos para asegurarse de que los importes de gastos no se desvían de los importes previstos en más de un porcentaje de desviación aceptable. Los importes totales para cada código de gastos que se aplique a la factura y el pedido de compra se comparan en el comparar cargan los valores - factura: página, como se muestra en la tabla siguiente. Si la tolerancia permisible para el código de gastos es del 25%, el porcentaje de desviación del 99.999.999.999,99% para el código de gastos de licencia se considera una discrepancia de conciliación.
+Puede usar la conciliación de gastos para asegurarse de que los importes de gastos no se desvían de los importes previstos en más de un porcentaje de desviación aceptable. Los importes totales de cada código de gastos que se aplican a la factura y al pedido de compra se comparan en la página Comparar valores de gastos varios - Factura: página, como se muestra en la siguiente tabla. Si la tolerancia permisible para el código de gastos es del 25%, el porcentaje de desviación del 99.999.999.999,99% para el código de gastos de licencia se considera una discrepancia de conciliación.
 
 > [!NOTE] 
 > Un porcentaje de desviación de 99.999.999.999,99% significa que el importe previsto basado en el pedido de compra es cero y el importe real de la factura es un valor positivo. 
@@ -188,7 +191,9 @@ Las facturas de proveedor a menudo se basan en los recepciones de producto que r
 -   Especifique importes de factura que no se han incluido en el pedido de compra original, de modo que la información de la factura coincida con la factura recibida del proveedor. Se pueden comparar los gastos varios de pedidos de compra con gastos varios para las facturas. En caso necesario, se pueden agregar gastos a las facturas y asignarlos a líneas de factura.
 -   Vea y apruebe discrepancias de conciliación de precios entre el precio unitario neto de la factura y el precio unitario neto del pedido de compra. Se pueden configurar porcentajes de tolerancia de precios para la entidad jurídica, los proveedores y los artículos. Si el precio de la línea de factura del proveedor no se encuentra dentro de la tolerancia de precios aceptable, se puede guardar la factura hasta que se apruebe para el registro o bien hasta que se reciba una corrección por parte del proveedor.
 
-Para obtener más información, consulte [directivas de triple conciliación three-way-matching-policies.md] ().
+Para obtener más información, consulte [Directiva de triple conciliación](three-way-matching-policies.md).
+
+
 
 
 

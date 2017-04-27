@@ -1,6 +1,6 @@
 ---
 title: Recursos del proyecto
-description: "Este tema proporciona información acerca resourcing del proyecto."
+description: "En este tema se proporciona información acerca de los recursos de proyectos."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,59 +27,62 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-resourcing"></a>Recursos del proyecto
 
-Este tema proporciona información acerca resourcing del proyecto.
+[!include[banner](../includes/banner.md)]
 
-Un desafío para los directores de proyecto y los administradores de recursos durante la fase de planificación de proyectos es la asignación de recursos, donde deben determinar y reservar el recurso correcto para trabajar en un proyecto. En Microsoft Dynamics 365 para las operaciones, las capacidades de resourcing para proyectos le permite definir los roles que se tratan como los recursos temporales que se pueden reservar para un compromiso específicos, o parte de un compromiso. Este tipo de recursos permite a los directores de proyecto y a los directores de recursos completar las siguientes tareas:
+
+En este tema se proporciona información acerca de los recursos de proyectos.
+
+Un desafío para los directores de proyecto y los directores de recursos durante la fase de planificación de proyecto es la asignación de recursos, donde deben determinar y reservar el recurso correcto para trabajar en un proyecto. En Microsoft Dynamics 365 for Operations, las capacidades de recursos para proyectos le permiten definir roles que se tratan como recursos temporales que se pueden reservar para un compromiso específico o parte del compromiso. Este tipo de recursos permite a los directores de proyecto y a los directores de recursos completar las siguientes tareas:
 
 -   Definir un rol que contenga las competencias necesarias para que sea sencillo asignar recursos.
--   Roles de uso para definir una programación inicial de compromiso que se basa en recursos reservas.
+-   Usar roles para definir una programación de compromisos que se base en recursos reservados.
 -   Estimar costes y determinar un presupuesto inicial, en función de los roles y los recursos asignados para un proyecto.
--   Use los roles para estimar el número de reservas de recursos necesarios para cada compromiso.
+-   Usar roles para estimar el número de reservas de recursos necesarias para cada compromiso.
 -   Estimar el número de recursos necesarios para el ciclo de vida completo de un proyecto.
 -   Realizar un borrador de una estructura de descomposición del trabajo (WBS) mediante las asignaciones de recursos iniciales.
 
-[ciclo de vida del proyecto![] (. /media/projectresourcing02-1024x812.jpg])(. /media/projectresourcing02.jpg) 
+[![Project life cycle](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg) 
 
-A medida que la planificación de proyectos avanzando, los recursos planificados se pueden sustituirán con los recursos proveídos de personal. El director de proyecto puede también volver y actualizar las reservas de resourcing durante etapas de proyecto cualquiera de los.
+Conforme continúa la planificación del proyecto, los recursos planificados se pueden reemplazar por recursos de personal. El director de proyecto también puede volver y actualizar las reservas de recursos durante cualquiera de las etapas del proyecto.
 
 ## <a name="set-up-project-resources"></a>Configurar recursos del proyecto
-Debe configurar un calendario y asociarlo a un empleado o un trabajador. El calendario se usa para programar el proyecto y el horario de recursos que están reservadas para el proyecto. Durante la configuración del calendario, los directores de proyecto pueden realizar la nivelación de recursos como parte de la optimización de recursos. En función de la programación del calendario, se pueden aplicar restricciones en los recursos. Puede configurar un calendario ** en los calendarios ** la página. 
+Debe configurar un calendario y asociarlo a un empleado o un trabajador. El calendario se usa para programar el proyecto y el horario de trabajo de los recursos reservados para el proyecto. Durante la configuración del calendario, los directores de proyecto pueden realizar la nivelación de recursos como parte de la optimización de recursos. En función de la programación del calendario, se pueden aplicar restricciones en los recursos. Puede configurar un calendario en la página **Calendarios**. 
 
-Al configurar un trabajador como recurso de proyecto, puede seleccionar de trabajadores que trabajan en la empresa para el que está configurando a recursos o, puede seleccionar trabajadores de otras empresas de la organización. Estos son recursos empresas vinculadas. Los procedimientos siguientes se explica cómo configurar un trabajador como recurso del proyecto dentro de la empresa y cómo configurar un recurso empresas vinculadas del proyecto.
+Si configura un trabajador como recurso de proyecto, puede seleccionar entre los trabajadores que trabajan en la empresa para la que está configurando recursos o puede seleccionar trabajadores de otras empresas de la organización. Estos son recursos de empresas vinculadas. Los procedimientos siguientes explican cómo configurar un trabajador como recurso del proyecto dentro de la empresa y cómo configurar un recurso de proyecto de empresas vinculadas.
 
 ### <a name="set-up-a-worker-as-a-project-resource"></a>Configurar un trabajador como recurso de proyecto
 
-1.  En ** los trabajadores ** pagine, en ** los trabajadores ** la lista, seleccione el trabajador que desea agregar como recurso del proyecto, y abre el registro de trabajador.
-2.  En el panel de acciones, haga clic en ** proyecto ** &gt; ** la configuración ** &gt; ** configurar ** proyecto.
-3.  Seleccione un calendario, y cierre la página.
+1.  En la página **Trabajadores**, en la lista **Trabajadores**, seleccione el trabajador que va a agregar como recurso del proyecto y abra el registro de trabajador.
+2.  En el Panel de acciones, haga clic en **Proyecto** &gt; **Configuración** &gt; **Configuración del proyecto**.
+3.  Seleccione un calendario y luego cierre la página.
 
 También puede especificar los proyectos predeterminados para un recurso como un tipo de asignación previa. Las asignaciones previas se pueden utilizar cuando el director de recursos o el director de proyecto sabe en qué proyectos trabajará el recurso por adelantado. Las asignaciones previas también se pueden basar en la solicitud de un cliente o patrocinador de proyecto. Para asignar previamente un proyecto, en la página **Asignar proyectos**, en la ficha **Proyectos**, en la lista **Proyectos restantes**, seleccione el proyecto adecuado.
 
-### <a name="set-up-an-intercompany-resource"></a>Configurar un recurso empresas vinculadas
+### <a name="set-up-an-intercompany-resource"></a>Configurar un recurso de empresas vinculadas
 
-Al configurar un trabajador como recurso empresas vinculadas, debe completar la configuración de la empresa de préstamos y la empresa de préstamo. 
+Al configurar un trabajador como recurso de empresas vinculadas, debe completar la configuración de la empresa de préstamo y la empresa que recibe el préstamo. 
 
-** En la empresa de préstamo: **
+**En la empresa de préstamo:**
 
-1.  En Dynamics 365 para las operaciones, compruebe que la empresa se selecciona del préstamo, y después realice el procedimiento anterior, “configuración un trabajador como recurso del proyecto.”
-2.  Retroceda ** contabilidad general **&gt; ** la configuración de registro **&gt; ** contabilidad de empresas vinculadas **. Click **New**.
-3.  En ** identificador de la entidad jurídica ** campo, seleccione la empresa de préstamo. Rellene los campos restantes según necesarios y, a continuación haga clic en Guardar ** **.
-4.  Retroceda ** Gestión de proyectos y contabilidad **&gt; ** la configuración **&gt; ** los precios ** &gt; ** precio de transferencia **. ** **
-5.  En ** precio de transferencia ** cajas, haga clic en ** nuevo **, y en ** pidiendo copiado la entidad jurídica ** campo, seleccione la empresa adecuada.
-6.  Si sólo desea prestar a la empresa de préstamo el recurso que ha creado al principio de esta sección, en ** recurso ** campo, seleccione el nombre de recurso que ha creado. Si desea colocar todos los recursos en la empresa a disposición la empresa de préstamo, deje ** recurso ** el campo en blanco.
-7.  Retroceda ** Gestión de proyectos y contabilidad **&gt; ** la configuración **&gt; ** parámetros de contabilidad y gestión de proyectos, ** ** y en las empresas vinculadas ** la ficha, establezca ** habilite la programación de recursos empresas vinculadas y las hojas de horas ** el campo ** Sí **.
+1.  En Dynamics 365 for Operations, compruebe que la empresa de préstamo esté seleccionada y después realice el procedimiento anterior, “Configurar un trabajador como recurso de proyecto”.
+2.  Vaya a **Contabilidad general **&gt; ** Configuración del registro **&gt; **Contabilidad de empresas vinculadas**. Haga clic en **Nuevo**.
+3.  En el campo **Id. de entidad jurídica**, seleccione la empresa de préstamo. Rellene los campos restantes según sea necesario y, a continuación haga clic en **Guardar**.
+4.  Vaya a **Administración de proyectos y contabilidad **&gt; **Configurar**&gt; **Precios ** &gt; **Precio de transferencia**.** **
+5.  En el formulario **Precio de transferencia**, haga clic en **Nuevo** y en el campo **Entidad jurídica a la que se presta el trabajador**, seleccione la empresa adecuada.
+6.  Si solo desea prestar a la empresa de solicitud del préstamo el recurso que ha creado al principio de esta sección, en el campo **Recurso**, seleccione el nombre de recurso que ha creado. Si desea que todos los recursos de la empresa estén a disposición de la empresa que solicita el préstamo, deje el campo **Recurso** en blanco.
+7.  Vaya a ** Administración de proyectos y contabilidad**&gt; **Configuración **&gt; **Parámetros de gestión de proyectos y contabilidad** y en la ficha **Empresas vinculadas**, establezca el campo **Activar la programación de recursos y las hojas de horas de empresas vinculadas" en **Sí**.
 
-** En la empresa de préstamo: **
+**En la empresa que solicita el préstamo:**
 
-1.  ** Van Gestión de proyectos y contabilidad ** &gt; ** los recursos de proyecto ** &gt; ** los recursos enumerados **.
-2.  En el filtro de la búsqueda, escriba el nombre de recurso que creó en el procedimiento anterior para que la empresa de préstamo compruebe que el nombre está incluido en la lista de recursos para la empresa de préstamo.
+1.  Vaya a **Administración de proyectos y contabilidad** &gt; **Recursos del proyecto** &gt; **Lista de recursos**.
+2.  En el filtro de la búsqueda, escriba el nombre de recurso que creó en el procedimiento anterior para que la empresa de préstamo compruebe que el nombre está incluido en la lista de recursos para la empresa que solicita el préstamo.
 
 ## <a name="manage-resource-competencies"></a>Gestionar competencias de recurso
-Las capacidades del recurso son una parte esencial de administración de recursos. Las competencias se pueden usar como línea base para determinar los recursos con el equilibrio correcto de aptitudes, formación, certificación y experiencia en proyectos. Debe configurar esta información para cada recurso y actualizarla periódicamente. De esta manera, puede maximizar las capacidades cuando las competencias de recursos específicas se concilian durante la asignación de recursos de proyectos. [ejemplos![de conocimientos, de certificaciones, de la formación, y la experiencia en proyectos (]. /media/projectresourcing06-1024x383.jpg])(. /media/projectresourcing06.jpg) 
+Las competencias de recurso son una parte esencial de la gestión de recursos. Las competencias se pueden usar como línea base para determinar los recursos con el equilibrio correcto de aptitudes, formación, certificación y experiencia en proyectos. Debe configurar esta información para cada recurso y actualizarla periódicamente. De esta manera, puede maximizar las capacidades cuando las competencias de recursos específicas se concilian durante la asignación de recursos de proyectos. [![Ejemplos de aptitudes, certificaciones, formación y experiencia en proyectos](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg) 
 
 Los procedimientos siguientes explican cómo configurar algunas de las capacidades para un recurso. 
 
-Para configurar competencias para un trabajador, puede usar la página de lista **Trabajadores** en Recursos humanos o la página de lista **Recursos** en Administración de proyectos y contabilidad. Para los siguientes procedimientos, ** los trabajadores ** la página de lista en recursos humanos se usa.
+Para configurar competencias para un trabajador, puede usar la página de lista **Trabajadores** en Recursos humanos o la página de lista **Recursos** en Administración de proyectos y contabilidad. Para los siguientes procedimientos, utilizaremos la página de lista **Trabajadores** en Recursos humanos.
 
 ### <a name="set-up-competencies-certificates"></a>Configuración de competencias: certificados
 
@@ -101,40 +104,40 @@ Para configurar competencias para un trabajador, puede usar la página de lista 
 7.  Haga clic en **Guardar** y, a continuación, cierre la página.
 
 ## <a name="create-a-new-project"></a>Crear un proyecto nuevo
-1.  ** Haga clic en Gestión de proyectos y contabilidad ** &gt; ** áreas de trabajo ** &gt; ** gestión de proyectos **.
+1.  Haga clic en **Administración de proyectos y contabilidad** &gt; **Espacios de trabajo** &gt; **Gestión de proyectos**.
 2.  Haga clic en **Nuevo proyecto** y escriba los siguientes valores:
-    -   ** Tipo de proyecto ** - Tiempo y material
-    -   ** Nombre del proyecto ** 2 - fase de la actualización de XYZ
-    -   ** Grupo de proyectos - ** TM\_trabajo en curso
-    -   ** Identificador de contrato de proyecto ** - 00000002
+    -   **Tipo de proyecto:** - Tiempo y material
+    -   **Nombre del proyecto:** - Fase 2 de la actualización XYZ
+    -   **Grupo de proyectos** - TM\_WIP
+    -   **Id. de contrato de proyecto:** - 00000002
 3.  Haga clic en **Crear proyecto**.
 
 ### <a name="assign-a-resource-to-a-project"></a>Asignar un recurso a un proyecto
 
-1.  ** Haga clic en recursos humanos ** &gt; ** trabajadores ** &gt; ** ** trabajadores.
+1.  Haga clic en **Recursos humanos** &gt; **Trabajadores** &gt; **Trabajadores**.
 2.  En la lista **Trabajadores**, seleccione el registro del trabajador para el que ha configurado anteriormente competencias y abra el registro de trabajador.
 3.  En el panel de acciones, en la pestaña **Proyecto**, en el grupo **Configuración**, haga clic en **Asignar proyectos**.
 4.  En la página **Asignaciones de proyectos de validación de recursos**, haga clic en la pestaña **Proyectos**.
-5.  En ** agregue el proyecto a los proyectos seleccionados, ** filtro en el proyecto 2, fase de la actualización de XYZ
+5.  En **Agregar el proyecto a los proyectos seleccionados**, filtre el proyecto, Fase 2 de la actualización XYZ
 6.  En el panel **Proyectos restantes**, seleccione un proyecto y, a continuación, haga clic en la flecha para agregarlo al panel **Proyectos seleccionados**.
 7.  Cierre la página.
 
-Si es necesario, también puede asignar categorías para un recurso. El tipo de categoría es Coste o Ingresos. Esto lo determina la organización. Si no hay categorías asignadas para el recurso, Dynamics 365 para las operaciones por arriba consultará la categoría predeterminada en los precios de hora para cubrir el coste y los ingresos.
+Si es necesario, también puede asignar categorías para un recurso. El tipo de categoría es Coste o Ingresos. Esto lo determina la organización. Si no hay categorías asignadas para el recurso, Dynamics 365 for Operations buscará la categoría predeterminada en los precios de hora para costes e ingresos.
 
 ### <a name="set-up-project-resource-and-role-characteristics"></a>Configurar características de rol y recursos de proyectos
 
-Un director de proyecto puede usar la funcionalidad de recursos de proyecto para crear los roles que se requieren para el proyecto. Los roles se pueden usar si los recursos confirmados son aún desconocidos cuando reservan a recursos. Los roles se pueden según lo planificado recursos temporalmente reservas, de modo que pueda continuar las etapas de planificación de proyectos. 
+Un director de proyecto puede usar la funcionalidad de recursos de proyecto para crear los roles que se requieren para el proyecto. Los roles se pueden usar cuando los recursos confirmados son aún desconocidos cuando se reservan los recursos. Los roles se pueden reservar temporalmente como recursos planeados, de manera que pueda continuar las etapas de planificación de proyectos. 
 
-[ejemplo de![del rol] (. /media/projectresourcing05.jpg])(. /media/projectresourcing05.jpg) 
+[![Ejemplo de rol](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Escenario:** Se contrató a Contoso para completar un proyecto de tiempo y material que tiene una acta de constitución de proyecto aprobada. El director de proyecto junior aún está completando el ámbito del proyecto. El administrador de recursos está actualmente identificando los recursos específicos que se reservarán para trabajar en el nuevo proyecto. Uno de los roles que el patrocinador de proyecto solicitó, debido a la naturaleza fundamental del proyecto, es el director de proyecto sénior. El administrador de recursos debe adquirir al nuevo recurso y definir el rol en el sistema en caso de que el director de proyecto menor requiera la información del recurso durante la planificación de proyectos. 
+**Escenario:** Se contrató a Contoso para completar un proyecto de tiempo y material que tiene una acta de constitución de proyecto aprobada. El director de proyecto junior aún está completando el ámbito del proyecto. El responsable de recursos está identificando actualmente recursos específicos que se reservarán para trabajar en el nuevo proyecto. Uno de los roles que el patrocinador de proyecto solicitó, debido a la naturaleza fundamental de proyecto, es director de proyecto principal. La directora de recursos debe adquirir el nuevo recurso y define el rol en el sistema, en el caso de que el director de proyecto junior requiera la información del recurso durante la planificación del proyecto. 
 
-Los pasos siguientes muestran cómo el administrador de recursos puede configurar las características sénior del recurso del rol y de socio Director del proyecto a ella. Más adelante, el rol se puede usar para buscar los recursos disponibles que coinciden con las competencias de recursos necesarias.
+Los siguientes pasos muestran cómo el director de recursos puede configurar el rol de director de proyecto principal y asociarle características de recursos. Más adelante, el rol se puede usar para buscar los recursos disponibles que coinciden con las competencias de recursos necesarias.
 
-1.  ** Haga clic en Gestión de proyectos y contabilidad ** &gt; ** configuración ** &gt; ** recursos ** &gt; ** roles de instalación **.
+1.  Haga clic en **Administración de proyectos y contabilidad** &gt; **Configurar** &gt; **Recursos** &gt; **Configurar roles**.
 2.  Haga clic en **Nuevo** y escriba los siguientes valores:
-    -   ** Actualizar el identificador ** - director de proyecto sénior
-    -   ** Descripción ** - director de proyecto sénior
+    -   **Id. de rol:** Director de proyecto principal
+    -   **Descripción:** Director de proyecto principal
 3.  Haga clic en **Crear**.
 4.  Seleccione el rol **Director de proyecto principal** y, a continuación, haga clic en **Configurar características**.
 5.  En el campo **Tipo de características**, seleccione **Aptitud**.
@@ -145,67 +148,67 @@ Los pasos siguientes muestran cómo el administrador de recursos puede configura
 
 ### <a name="assign-a-project-resource-to-a-project"></a>Asignar un recurso de proyecto a un proyecto
 
-1.  ** Haga clic en Gestión de proyectos y contabilidad ** &gt; ** común ** &gt; ** proyectos ** &gt; ** todos los proyectos **, y abre ** el proyecto de dos estrellas de la fase de la actualización de XYZ.
+1.  Haga clic en **Administración de proyectos y contabilidad** &gt; **Común** &gt; **Proyectos** &gt; **Todos los proyectos** y abra el proyecto **Fase 2 de la actualización de XYZ**.
 2.  En la pestaña **Equipo del proyecto y programación**, haga clic en **Agregar**.
 3.  En el campo **Rol** seleccione **Miembro del equipo**.
 4.  Haga clic en **Reservar desde calendario**.
 5.  En la página **Disponibilidad de recursos**, haga clic en **Parámetros de visualización**.
 6.  En la página **Ajustar parámetros de visualización**, especifique los valores siguientes:
-    -   ** Formato para la vista de intervalo de fechas ** - día
-    -   ** En las descripciones de visualización disponibilidad - Sí **
-    -   ** Capacidad restante de la pantalla - Sí **
+    -   **Formato de la vista de intervalo de fechas:** Día
+    -   **Mostrar descripciones de disponibilidad:** Sí
+    -   **Mostrar capacidad restante:** Sí
 7.  En la lista de recursos, seleccione un recurso.
-8.  Haga clic en ** libro duro ** &gt; ** capacidad plena **.
+8.  Haga clic en **Reserva en firme** &gt; **Capacidad total**.
 9.  Cierre la página.
 
 ### <a name="assign-a-resource-to-a-default-role"></a>Asignar un recurso a un rol predeterminado
 
-Para ayudar a proyecto o los administradores de recursos, puede explorar en profundidad para fomentar en los recursos que pueden ser reservados para un proyecto. Puede asociar un rol predeterminado a un recurso existente o un recurso recién adquirido. Por ejemplo, el contratar a Daniel, tenía la experiencia y aptitudes para rellenar la función de la analista de negocios. El administrador de recursos asignado este rol como rol predeterminado de Daniel. Por lo tanto, la directora de recursos Daniel agregado a un conjunto de analistas de negocios disponibles para trabajar en proyectos. 
+Para ayudar a los directores de proyecto o de recursos, puede explorar en profundidad en los recursos que se pueden reservar para un proyecto. Puede asociar un rol predeterminado a un recurso existente o un recurso recién adquirido. Por ejemplo, cuando se contrató a Daniel, este tenía la experiencia y aptitudes para ejercer la función de la analista de negocios. El administrador de recursos asignó este rol como rol predeterminado de Daniel. Por lo tanto, la directora de recursos agregó a Daniel a un conjunto de analistas de negocios disponibles para trabajar en proyectos. 
 
-Durante la reserva del recurso, los directores de proyecto pueden filtrar el rol de los recursos disponibles para trabajar en proyectos. Pueden usar esta información como criterio cuando realicen análisis de decisiones de varios criterios durante el cumplimiento de recursos. También pueden agregar otras características de recursos al filtro para buscar recursos que tienen aptitudes, formación y experiencia específicas para un proyecto determinado. 
+Durante la reserva de recursos, los directores de proyecto pueden filtrar los recursos de rol que están disponibles para trabajar en proyectos. Pueden usar esta información como criterio cuando realicen análisis de decisiones de varios criterios durante el cumplimiento de recursos. También pueden agregar otras características de recursos al filtro para buscar recursos que tienen aptitudes, formación y experiencia específicas para un proyecto determinado. 
 
-** Escenario: ** Un proyecto aprobado se ha iniciado, y el rol sénior Director del proyecto se ha reservado planificado como recurso durante la fase de planificación de proyectos. El responsable de recursos ha adquirido ahora a un recurso para cumplir el rol de director de proyecto principal.
+**Escenario:** Se ha iniciado un proyecto aprobado y el rol de director de proyecto principal se reservó como recurso planeado durante la fase de planificación de proyectos. El responsable de recursos ha adquirido ahora a un recurso para cumplir el rol de director de proyecto principal.
 
-1.  ** Haga clic en Gestión de proyectos y contabilidad ** &gt; ** recursos del proyecto ** &gt; ** enumeran los recursos **.
+1.  Haga clic en **Administración de proyectos y contabilidad** &gt; **Recursos del proyecto** &gt; **Lista de recursos**.
 2.  En la lista **Recurso**, seleccione **Daniel Goldschmidt**.
-3.  Haga clic en ** recurso del proyecto ** &gt; ** mantener ** &gt; ** rol del recurso **.
+3.  Haga clic en **Recurso del proyecto** &gt; **Mantener** &gt; **Rol del recurso**.
 4.  Haga clic en **Nuevo** y escriba los siguientes valores:
-    -   ** Efectivo ** - (la fecha actual)
-    -   ** Caducidad ** - nunca
-    -   ** Rol ** - director de proyecto sénior
+    -   **Vigente:** (La fecha actual)
+    -   **Caducidad:** Nunca
+    -   **Rol:** Director de proyecto principal
 5.  Haga clic en **Guardar** y, a continuación, cierre la página.
 6.  En la pestaña **Competencias**, agregue la aptitud **ProjectMgmt** y el certificado **PMP**.
 
 ## <a name="set-up-role-based-pricing"></a>Configurar precios basados en roles
 Todos los precios de coste, ventas y transferencia se pueden configurar para roles.
 
-1.  ** Haga clic en Gestión de proyectos y contabilidad ** &gt; ** configuración ** &gt; ** precios ** &gt; ** precio de ventas (** hora).
-2.  Click **New**.
+1.  Haga clic en **Administración de proyectos y contabilidad** &gt; **Configurar** &gt; **Precios** &gt; **Precio de venta (hora)**.
+2.  Haga clic en **Nuevo**.
 3.  Especifique una fecha vigente.
 4.  En la columna **Rol** seleccione un rol.
 5.  En la columna **Precio**, especifique un precio para el rol del recurso seleccionado.
 
-## <a name="form-a-project-team"></a>Formulario un equipo de proyecto
-Para usar los roles que se han configurado previamente en un proyecto, un director de proyecto debe asociar los roles con el proyecto. Las varias funciones se pueden asignar para un proyecto, y Dynamics 365 para las operaciones automáticamente etiqueta estos roles durante la reserva para evitar confusiones. Por ejemplo, si el director de proyecto necesita a tres Software Engineers, tres funciones de la Engineer Software con la Engineer Software 1, la Engineer Software 2, y la Engineer Software 3 como sus etiquetas se generan automáticamente. Si se establecieron anteriormente características de rol para el rol, se aplican como filtro durante búsquedas para un recurso. Se pueden agregar características adicionales según sea necesario para restringir más la búsqueda. 
+## <a name="form-a-project-team"></a>Formación de un equipo de proyecto
+Para usar los roles que se configuraron anteriormente en un proyecto, un director de proyecto debe asociar los roles al proyecto. Se pueden asignar varios roles para un proyecto y Dynamics 365 for Operations etiqueta automáticamente estos roles durante la reserva para evitar confusiones. Por ejemplo, si el director de proyecto necesita tres ingenieros de software, se generan automáticamente tres roles de ingenieros de software que tienen las etiquetas ingeniero de software 1, ingeniero de software 2 e ingeniero de software 3. Si se establecieron anteriormente características de rol para el rol, se aplican como filtro durante búsquedas para un recurso. Se pueden agregar características adicionales según sea necesario para restringir más la búsqueda. 
 
 La configuración de la vista también se pueden personalizar para ofrecer una mejor vista de la disponibilidad de recursos. Hay opciones para mostrar la disponibilidad por hora, diaria, semanal, mensual, trimestral y anual. También hay una opción para mostrar la capacidad disponible y restante en los recursos. Esta opción es útil para la gestión del tiempo cuando se calcula el tiempo disponible para las actividades o la disponibilidad de recursos. 
 
-El director de proyecto puede seleccionar un rol en la página y continuación, si hay un recurso no disponibles que el requisito, seleccione para reservar un recurso para rellenar el rol. Tenga en cuenta que los recursos no es necesario reservas en este momento durante la fase de planificación. Al crear un EDT, puede reemplazar roles con Recursos proveídos de personal para el proyecto. Si los roles se reemplazan con los recursos proveídos de personal en el EDT, el recurso configurar actualiza automáticamente la lista y la programación del equipo de proyecto. 
+El director de proyecto puede seleccionar un rol en la página y, a continuación, si hay un recurso disponible que se adapta al requisito, seleccionarlo para reservar un recurso para ese rol. Tenga en cuenta que no es necesario que los recursos estén reservados a este momento durante la fase de planificación. Al crear un WBS, puede reemplazar roles por los recursos de personal para el proyecto. Si los roles se reemplazan con los recursos de personal en la WBS, la configuración de recursos actualiza automáticamente la programación y la lista del equipo del proyecto. 
 
-[lista de equipos de proyecto![que incluye funciones y los recursos reales (]. /media/projectresourcing03-1024x368.jpg])(. /media/projectresourcing03.jpg) 
+[![Lista del equipo del proyecto que incluye tanto roles como recursos reales](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 El director de proyecto tiene varias opciones para reservar un recurso para un proyecto como **Capacidad restante**, **Capacidad total**, **Porcentaje de capacidad**, y **Especificar horas**. Estas opciones de reserva se pueden cancelar en cualquier momento si cambian las asignaciones de recursos. Se admiten dos tipos de reserva:
 
--   ** Se aprobó y se confirmó a la Libreta última ** – Reserva de recurso que funcionara en el compromiso para la duración especificada.
--   ** El libro Débil ** – las reservas de recurso se liquidó provisional para trabajar en el compromiso para la duración especificada.
+-   **Reserva en firme**: Se ha aprobado y confirmado la reserva de recursos para trabajar en el compromiso para la duración especificada.
+-   **Reserva provisional**: Las reservas de recursos se establecieron provisionalmente para trabajar en el compromiso para la duración especificada.
 
 El siguiente procedimiento explica cómo crear un equipo de proyecto.
 
 ### <a name="create-a-project-team"></a>Crear un equipo de proyecto
 
 1.  En la página de lista **Todos los proyectos**, seleccione un proyecto y, a continuación, haga clic en **Editar**.
-2.  En ** equipo y Programación de proyecto **, en la ficha ** fecha de finalización de la programación ** el campo, especifique la fecha inicial de la programación más un mes. Por ejemplo, si la fecha inicial de la programación es el 24 de junio de 2017 (24/06/2017), entre 24/07/2017 ** **.
-3.  Click **Add**.
+2.  En la pestaña **Equipo del proyecto y programación**, en el campo **Programar fecha final**, especifique la fecha inicial de la programación más un mes. Por ejemplo, si la fecha inicial de la programación es el 24 de junio de 2017 (24/06/2017), escriba **24/07/2017**.
+3.  Haga clic en **Agregar**.
 4.  En el panel **Agregar roles al proyecto**, en el campo **Rol **, seleccione **Director de proyecto principal**.
 5.  Haga clic en **Competencias requeridas**.
 6.  En la página **Elegir características**, las características que estableció anteriormente para el rol de director de proyecto principal se seleccionan de forma predeterminada. Haga clic en **Aceptar**.
@@ -219,27 +222,27 @@ El siguiente procedimiento explica cómo crear un equipo de proyecto.
 ## <a name="resource-capacity-synchronization"></a>Sincronización de capacidad de recursos
 Los procesos para la sincronización de recursos ayudan a garantizar que la información del calendario y del calendario de base entran lentamente en la programación de recursos del proyecto. Si se modifica el calendario, los procesos realizan las actualizaciones necesarias a la programación de recursos del proyecto. Los procesos también ayudan a mejorar el rendimiento, porque la información del recurso del calendario se sincroniza por adelantado, de modo que las actualizaciones a la información de la programación de recursos se produce con mayor rapidez. Se recomienda la programación de los procesos como lote en lugar de uno cada vez. De no ser así, existe el riesgo de que alguien olvidará las fechas inclusivas en las que la información se sincronizó por última vez. Si no se usan fechas inclusivas, pueden producir huecos durante la sincronización de fecha.
 
-### <a name="calendar-synchronizationmediaprojectresourcing04-1024x471jpg"></a>![Calendario la sincronización](./media/projectresourcing04-1024x471.jpg)
+### <a name="calendar-synchronizationmediaprojectresourcing04-1024x471jpg"></a>![Sincronización de calendario](./media/projectresourcing04-1024x471.jpg)
 
-**Synchronize resource capacity roll-ups**
+**Sincronizar acumulaciones de capacidad de recursos**
 
-El proceso de sincronización está diseñado para sincronizar toda la información del calendario de recursos. Esta información incluye la información del calendario base sobre los cambios a la tabla de la capacidad del calendario de recursos del proyecto. Si agrega a los nuevos recursos del proyecto, ayuda de sincronización garantizan que la información del calendario esté disponible actualizada. Esta sincronización se puede realizar en cualquier momento. 
+El proceso de sincronización está diseñado para sincronizar toda la información del calendario de recursos. Esta información incluye la información del calendario base sobre los cambios a la tabla de la capacidad del calendario de recursos del proyecto. Si se agregan nuevos recursos en el proyecto, la sincronización ayuda a garantizar que la información actualizada del calendario está disponible. Esta sincronización se puede realizar en cualquier momento. 
 
 Recomendamos que use un lote. Las opciones están disponibles en la sincronización de reservas de capacidades.
 
--   ** Haga clic en Gestión de proyectos y contabilidad ** &gt; ** periódico ** &gt; ** sincronización de la capacidad ** &gt; ** sincronizar la capacidad enrollamiento- UPS de los recursos **.
+-   Haga clic en **Administración de proyectos y contabilidad** &gt; **Periódico** &gt; **Sincronización de capacidad** &gt; **Sincronizar acumulaciones de capacidad de recursos**.
 
 | Opción | Descripción                                                                                                                                                                                          |
 |--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sí    | Sincronizar todos los datos de recursos con la información del calendario y del calendario base, y reemplazar toda la información del calendario de la capacidad de recursos del proyecto.                                                  |
 | No     | Sincronizar los datos de recursos, en función del código del intervalo de fechas, y las fechas inicial y final especificadas. Esta opción no quita los datos existentes y actualiza la información únicamente para los recursos recién agregados. |
 
-[proceso de sincronización de![] (. /media/projectresourcing09.jpg])(. /media/projectresourcing09.jpg)
+[![Proceso de sincronización](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 ## <a name="set-up-roles-on-wbs-templates"></a>Configurar roles en plantillas de WBS
-Los directores de proyecto pueden configurar plantillas de WBS que pueden aplicar al crear una WBS para proyectos nuevos. Los directores de proyecto pueden agregar roles cuando crean una plantilla. Use el procedimiento siguiente para asignar un rol a una plantilla de EDT. ** **
+Los directores de proyecto pueden configurar plantillas de WBS que pueden aplicar al crear una WBS para proyectos nuevos. Los directores de proyecto pueden agregar roles al crear una plantilla. Use el siguiente procedimiento para asignar un rol a una plantilla de WBS.** **
 
-1.  ** Haga clic en Gestión de proyectos y contabilidad ** &gt; ** configuración ** &gt; ** proyectos ** &gt; ** plantillas de la estructura de descomposición del trabajo **.
+1.  Haga clic en **Administración de proyectos y contabilidad** &gt; **Configurar** &gt; **Proyectos** &gt; **Plantillas de estructura de descomposición del trabajo**.
 2.  Haga clic en **Detalles** para una plantilla de WBS seleccionada.
 3.  Seleccione una tarea en la lista y, a continuación, en el campo **Rol**, seleccione un rol para asignarlo a la tarea.
 
@@ -273,7 +276,7 @@ Se han agregado opciones adicionales en la WBS para usar mejor mejor la funciona
 </tr>
 <tr class="even">
 <td>Generar equipo automáticamente</td>
-<td>Agregue automáticamente recursos planificados mediante los roles asociados a una tarea. La Dynamics 365 para las operaciones sugiere automáticamente a recursos planificados mediante el análisis de decisiones de los criterios varios que se basa en roles. Después del establecimiento de los roles y del esfuerzo (horas) para las tareas de una WBS y de que se haya liberado la estructura, haga clic en <strong>Generar equipo automáticamente</strong>. El número necesario de recursos planificados se agrega a la WBS y la pestaña <strong>Equipo del proyecto y programación</strong>.</td>
+<td>Agregue automáticamente recursos planificados mediante los roles asociados a una tarea. Dynamics 365 for Operations sugiere automáticamente recursos planificados mediante el análisis de decisión de varios criterios que se basa en roles. Después del establecimiento de los roles y del esfuerzo (horas) para las tareas de una WBS y de que se haya liberado la estructura, haga clic en <strong>Generar equipo automáticamente</strong>. El número necesario de recursos planificados se agrega a la WBS y la pestaña <strong>Equipo del proyecto y programación</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Recurso (lista desplegable)</td>
@@ -281,15 +284,15 @@ Se han agregado opciones adicionales en la WBS para usar mejor mejor la funciona
 <ul>
 <li><strong>Aceptar</strong>: Confirme los cambios al recurso asignado a una tarea.</li>
 <li><strong>Cancelar</strong>: Cancele los cambios al recurso asignado a una tarea.</li>
-<li><strong>Asignación automáticamente</strong> – Esta opción selecciona un recurso proporcionado de personal disponibles con un rol de coincidencia a la tarea seleccionada.</li>
+<li><strong>Asignar automáticamente</strong> – Esta opción selecciona un recurso de personal disponible con un rol que coincida para la tarea seleccionada.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-1.  ** Haga clic en Gestión de proyectos y contabilidad ** &gt; ** proyectos ** &gt; ** todos los proyectos **.
+1.  Haga clic en **Gestión de proyectos y contabilidad** &gt; **Proyectos** &gt; **Todos los proyectos**.
 2.  En la lista, seleccione el proyecto **Fase 2 de la actualización XYZ**.
-3.  Haga clic en ** plan ** &gt; ** actividades ** &gt; ** estructura de descomposición del trabajo **.
+3.  Haga clic en **Plan** &gt; **Actividades** &gt; **Estructura de descomposición del trabajo**.
 4.  Haga clic en **Nuevo** para agregar las siguientes actividades de nivel uno a la WBS:
     -   Iniciación
     -   Planificación
@@ -297,7 +300,7 @@ Se han agregado opciones adicionales en la WBS para usar mejor mejor la funciona
     -   Supervisión y control
     -   Cerrar
 
-5.  Establecer fechas y el esfuerzo (horas), como se muestra en el captura de pantalla siguiente. [![que establece las fechas y el esfuerzo] (. /media/projectresourcing10.jpg])(. /media/projectresourcing10.jpg)
+5.  Defina las fechas y el esfuerzo (horas), tal y como se muestra en la captura de pantalla siguiente.[![Establecimiento de las fechas y el esfuerzo](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 6.  Seleccione la línea de tareas **Iniciación** y, a continuación, en el campo **Rol**, seleccione **Director de proyecto principal**.
 7.  Haga clic en **Publicar**.
 8.  En la misma línea, en el campo **Recurso**, seleccione **Daniel Goldschmidt**.
@@ -308,49 +311,51 @@ Se han agregado opciones adicionales en la WBS para usar mejor mejor la funciona
 13. En el campo **Recurso**, compruebe que el valor es **Analista de negocios 1**.
 14. Para el recurso **Analista de negocios 1**, abra la búsqueda y haga clic en **Iniciar formulario de asignación de recursos**.
 15. Seleccione un trabajador para la tarea.
-16. Haga clic en ** asignación débil ** &gt; ** capacidad plena **.
+16. Haga clic en **Asignación provisional** &gt; **Capacidad completa**.
 17. Haga clic en **Guardar** y cierre la página. 
 
 > [!NOTE] 
-> No recibe una advertencia que el recurso especificado es ahora de 2, dado que queda el número de recursos en 1.
+> No recibe una advertencia que el recurso especificado es ahora 2, porque el número de recursos sigue siendo 1.
 18. En la página **Estructura de descomposición del trabajo **, valide la asignación de recursos en la WBS y, a continuación, haga clic en **Guardar**.
 
 ## <a name="resource-fulfillment-for-planned-resources"></a>Cumplimiento de recursos para recursos planificados
 Un director de proyecto puede planificar los roles de recursos necesarios para un proyecto. El administrador de recursos verá estos recursos planificados como solicitudes en la página **Cumplimiento de recursos** y puede asignar recursos reales.
 
-1.  ** Haga clic en Gestión de proyectos y contabilidad ** &gt; ** proyectos ** &gt; ** todos los proyectos **.
+1.  Haga clic en **Gestión de proyectos y contabilidad** &gt; **Proyectos** &gt; **Todos los proyectos**.
 2.  En la lista, seleccione el proyecto **Fase 2 de la actualización XYZ**.
 3.  Haga clic en **Proyecto**.
 4.  Haga clic en **Editar**.
-5.  En ** equipo y Programación de proyecto ** la ficha, ** ** clic ** agregue **.
+5.  En la pestaña **Equipo del proyecto y programación**,** **haga clic en **Agregar**.
 6.  En el cuadro de diálogo **Agregar roles**, seleccione el rol **Desarrollador de software**.
 7.  Haga clic en **Crear**.
 8.  Cierre la página del proyecto.
-9.  ** Haga clic en Gestión de proyectos y contabilidad ** &gt; ** recursos del proyecto ** &gt; ** cumplimiento del recurso **.
+9.  Haga clic en **Administración de proyectos y contabilidad** &gt; **Recursos del proyecto** &gt; **Cumplimiento de recursos**.
 10. Seleccione **Desarrollador de software 1** para el proyecto ** Fase 2 de la actualización XYZ**.
 11. Seleccione un trabajador y haga clic en **Asignar**.
 12. Compruebe que se ha eliminado la línea para **Desarrollador de software 1** para el proyecto **Fase 2 del proyecto de actualización de XYZ**.
 13. En la pestaña **Equipo del proyecto y programación**, para el proyecto **Fase 2 de la actualización de XYZ**, compruebe que se ha agregado el trabajador que seleccionó en el paso 11 como **Desarrollador de software**.
 
-## <a name="requests-for-project-resources"></a>Pedidos recursos del proyecto
-La funcionalidad de programación de recursos del proyecto sólo admite a administradores de recursos para distribuir a recursos proveídos de personal en compromisos o proyectos. Para habilitar esta funcionalidad, realice las tareas siguientes, o comprobar que se han realizado.
+## <a name="requests-for-project-resources"></a>Solicitudes de recursos de proyecto
+La funcionalidad de programación de recursos del proyecto solo admite a administradores de recursos para distribuir recursos de personal en compromisos o proyectos. Para habilitar esta funcionalidad, realice las tareas siguientes, o compruebe que se han realizado.
 
 -   Configurar secuencias numéricas.
--   Flujos de trabajo de contabilidad y gestión del proyecto.
--   Flujo de trabajo de la solicitud del recurso de permiso.
+-   Configuración de flujos de trabajo de Gestión de proyectos y contabilidad.
+-   Habilitar flujo de trabajo de solicitud de recurso.
 
-Una vez que haya comprobado o haya completado las tareas anterior, puede completar las tareas siguientes según sea necesario.
+Una vez que haya comprobado o haya completado las tareas anteriores, puede completar las tareas siguientes según sea necesario.
 
--   Crear una solicitud de recurso de un recurso proporcionado de personal tabla reservado.
--   Supervisar solicitudes del recurso.
--   Cumplir con solicitudes del recurso.
--   Solicitar un recurso proporcionado de personal del EDT.
--   Reservar a los recursos a un proyecto sin un pedido un recurso proporcionado de personal.
+-   Cree una solicitud de recurso de un recurso con personal de reserva provisional.
+-   Supervise las solicitudes de recursos.
+-   Rellene las solicitudes de recursos.
+-   Solicite un recurso de personal de EDT.
+-   Reserve recursos para un proyecto sin un pedido de recurso de personal.
 
-## <a name="monitor-project-teams"></a>Supervisar equipos de proyecto
-1.  ** Haga clic en Gestión de proyectos y contabilidad ** &gt; ** proyectos ** &gt; ** todos los proyectos **.
+## <a name="monitor-project-teams"></a>Supervisar los equipos de proyecto
+1.  Haga clic en **Gestión de proyectos y contabilidad** &gt; **Proyectos** &gt; **Todos los proyectos**.
 2.  En la lista de proyectos, haga clic en el vínculo **Id. de proyecto** para el proyecto **Fase 2 de la actualización de XYZ**.
 3.  En la ficha desplegable **Equipo del proyecto y programación**, compruebe que los recursos de proyectos mostrados son correctos.
+
+
 
 
 

@@ -68,14 +68,14 @@ Con la media móvil, el coste del producto viene determinado por el recibo de co
 3.  Cree un pedido de ventas para una cantidad de 1 y un precio unitario de 10,00.
 4.  Cree una factura de compra para una cantidad de 2 y un precio unitario de 12,00.
 
-La diferencia en el precio unitario, 2,00, se registra en la cuenta Diferencia de precios para la media móvil cuando se registra la factura de compra. La razón es que los dos productos se adquirieron a un coste de 20,00. Uno de los productos se vendió por un precio unitario de 10,00. La factura de compra se ha enviado a un precio unitario de 12.00 con una cantidad de 2. El precio unitario del producto no se podrá registrar en 14.00.
+La diferencia en el precio unitario, 2,00, se registra en la cuenta Diferencia de precios para la media móvil cuando se registra la factura de compra. La razón es que los dos productos se adquirieron a un coste de 20,00. Uno de los productos se vendió por un precio unitario de 10,00. Se registró la factura de compra a un precio unitario de 12,00 con una cantidad de 2. El precio unitario del producto no se puede registrar en 14,00.
 
 ## <a name="moving-average-product-and-inventory-adjustment"></a>Producto de media móvil y ajuste de inventario
 Si necesita ajustar el coste de media móvil de un producto, se permiten ajustes de inventario con la fecha actual. No se puede antedatar un ajuste de inventario para corregir el coste de media móvil de un producto. No se puede usar el coste en transacciones posteriores. En este ejemplo, se ajusta el coste de media móvil para un producto.
 1.  Seleccione el producto para el que desee ajustar el coste de media móvil.
-    | **Note**                                                                                    |
+    | **Nota**                                                                                    |
     |---------------------------------------------------------------------------------------------|
-    | ** Revalorización para la media móvil ** la página examina el inventario disponible para un producto. |
+    | La página **Revalorización para el valor promedio móvil** examina el inventario disponible para un producto. |
 
     El producto seleccionado tiene una cantidad registrada de 1, un valor registrado de 12,00, un coste unitario registrado de 12,00 y un coste unitario de 12,00.
 2.  Actualice el campo **Coste unitario** a 16,00. El sistema calcula los campos restantes.
@@ -88,7 +88,7 @@ Si necesita ajustar el coste de media móvil de un producto, se permiten ajustes
 En la página **Liquidaciones para el asiento** puede ver un ajuste de 4,00 registrado en la cuenta Revalorización de costes para la media móvil.
 
 ## <a name="moving-average-with-production"></a>Media móvil con producción
-La media móvil admite los productos producidos. Si pretende usar promedio móvil en un entorno de producción, ** precio de coste estimado de uso ** el control deslizante en ** parámetros de control de producción ** la página debe selcted. Esto significa que se usa el precio de coste que se calcula durante la estimación en lugar del precio de coste de cálculo de L. MAT real.
+La media móvil admite los productos producidos. Si pretende usar la media móvil en un entorno de producción, debe estar seleccionado el control deslizante **Utilizar precio de coste estimado** en la página **Parámetros de control de producción**. Esto significa que se usa el precio de coste que se calcula durante la estimación en lugar del precio de coste de cálculo de L. MAT real.
 
 ## <a name="moving-average-with-a-backdated-transaction"></a>Media móvil con transacción antedatada
 El coste de media móvil actual se asigna a las transacciones antedatadas y la cantidad física del producto se actualiza, pero el coste de media móvil del producto no se ve afectado. En este ejemplo de media móvil, se registra una transacción antedatada para un producto de media móvil.

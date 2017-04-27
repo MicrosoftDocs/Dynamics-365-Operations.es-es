@@ -1,5 +1,5 @@
 ---
-title: "Asignar el tiempo a los trabajos de la agrupación de trabajos"
+title: "Asignar tiempo a trabajos en una agrupación de trabajos"
 description: "En la ejecución de fabricación se pueden agrupar trabajos. A continuación puede iniciar varios trabajos a la vez en la página Lista de trabajos."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Asignar el tiempo a los trabajos de la agrupación de trabajos
+# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Asignar tiempo a trabajos en una agrupación de trabajos
+
+[!include[banner](../includes/banner.md)]
+
 
 En la ejecución de fabricación se pueden agrupar trabajos. A continuación puede iniciar varios trabajos a la vez en la página Lista de trabajos.
 
@@ -107,5 +110,7 @@ Imaginemos los tres trabajos realizados por un trabajador con un salario por hor
 | Trabajo 3 | (3,33 ÷ 5) × 12,00 USD                 | 8,00 USD                | 5 horas        | 40,00 USD         |
 
 El coste corregido por hora y el tiempo de trabajo se registran en un diario de producción. **Nota:** si selecciona la opción **Categoría de coste** en la ficha **General** de la página **Valores predeterminados de pedido de producción**, la hora real para cada trabajo se transfiere a un diario de producción, donde el coste se aplica a la categoría de coste del trabajo específico.
+
+
 
 

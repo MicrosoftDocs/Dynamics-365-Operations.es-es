@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="direct-deliveries"></a>Entregas directas
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información sobre las entregas directas. Las entregas directas son entregas que se envían directamente del proveedor al cliente.
 
 Las entrega directas reducen el tiempo de entrega y los costes asociados con la realización de inventario, puesto que se no retienen los productos en el almacén antes de enviarlos al cliente.  
@@ -49,5 +52,7 @@ Si prueba a eliminar una línea de pedido de ventas que tenga un tipo de entrega
 
 ## <a name="warehouse"></a>Almacén
 Cuando crea una entrega directa, los artículos que vende nunca llegan físicamente a su almacén. Sin embargo, debe seguir especificando un almacén en la línea de pedido de ventas. Del mismo modo, los requisitos de picking se pueden especificar en el grupo de modelos de artículos para el artículo. Sin embargo, dado que los artículos nunca llegan físicamente a su almacén, se omiten estos requisitos cuando el pedido de ventas es una entrega directa.
+
+
 
 

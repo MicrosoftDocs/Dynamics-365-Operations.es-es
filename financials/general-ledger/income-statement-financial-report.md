@@ -1,6 +1,6 @@
 ---
 title: Informe financiero de informe de ingresos
-description: "Este artículo describe el informe predeterminado para las cuentas de resultados. También se explica los bloques de creación que están asociados a este informe."
+description: "En este artículo se describen los informes predeterminados para las declaraciones de ingresos. También se describen los componentes asociados con este informe."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="income-statement-financial-report"></a>Informe financiero de informe de ingresos
 
-Este artículo describe el informe predeterminado para las cuentas de resultados. También se explica los bloques de creación que están asociados a este informe. 
+[!include[banner](../includes/banner.md)]
+
+
+En este artículo se describen los informes predeterminados para las declaraciones de ingresos. También se describen los componentes asociados con este informe. 
 
 <a name="default-income-statement-report"></a>Informe de ingresos predeterminado
 -------------------------------
@@ -61,10 +64,12 @@ Las definiciones de columnas contienen diversos tipos de columnas para proporcio
 <a name="see-also"></a>Consulte también
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Informes financieros](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Ver informes financieros](view-financial-reports.md)
 
-[] Blog financiero de Reportign de Dynamics (http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Blog de informes financieros de Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

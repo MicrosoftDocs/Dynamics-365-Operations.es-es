@@ -1,6 +1,6 @@
 ---
 title: "Informe de la declaración de inflación de ajuste"
-description: "Microsoft Dynamics 365 para los usuarios de las operaciones puede procesar ajustes de inflación mediante tasas de INPC, distintos métodos (como saldos de apertura, saldo, saldo mensual, y fecha de transacción), y varias dimensiones."
+description: "Los usuarios de Microsoft Dynamics 365 for Operations pueden procesar ajustes de inflación mediante coeficientes de INPC, distintos métodos (como saldos de apertura, saldo, saldo mensual y fecha de transacción) y diversas dimensiones."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="adjustment-inflation-declaration-report"></a>Informe de la declaración de inflación de ajuste
 
-Microsoft Dynamics 365 para los usuarios de las operaciones puede procesar ajustes de inflación mediante tasas de INPC, distintos métodos (como saldos de apertura, saldo, saldo mensual, y fecha de transacción), y varias dimensiones.
+[!include[banner](../includes/banner.md)]
+
+
+Los usuarios de Microsoft Dynamics 365 for Operations pueden procesar ajustes de inflación mediante coeficientes de INPC, distintos métodos (como saldos de apertura, saldo, saldo mensual y fecha de transacción) y diversas dimensiones.
 
 Todas las empresas de México deben aplicar el proceso de NIF B-10 para reconocimiento de inflación en informes financieros si la tasa de inflación acumulativa durante los tres últimos años es igual o supera el 26 por ciento. Al usar las tasas de índice del Índice Nacional de Precios al Consumidor (INPC) cada mes, puede expresar los valores de transacción en la fecha de cierre de la hoja del saldo general. Cuando se ejecuta el proceso de ajuste de inflación, se ajustan los saldos contables y las entradas de asiento se registran de acuerdo con los coeficientes de INPC. Se definen los métodos de ajuste y puede ver el efecto del ajuste de inflación generando informes de simulación antes de ejecutar el proceso real.
 
@@ -80,7 +83,7 @@ La tabla siguiente muestra la configuración que debe existir antes de comenzar 
 </table>
 
 ## <a name="start-the-adjustment-inflation-process"></a>Iniciar el proceso de inflación de ajuste
-Para iniciar el proceso, haga clic en ** contabilidad general ** &gt; ** las tareas del período ** &gt; ** el ajuste de inflación B-10 **. Puede ** ** que la entrada de un período específico, e incluye las fechas desde y hasta. El estado predeterminado para la entrada es ** Abrir **. También puede incluir notas adicionales sobre el proceso de ajuste de inflación. Hay diversas maneras de ejecutar el proceso:
+Para iniciar el proceso, haga clic en **Contabilidad general** &gt; **Tareas de período** &gt; **Ajuste de inflación B-10**. Puede** **crear la entrada para un período específico e incluir las fechas inicial y final. El estado predeterminado para la entrada es **Abierto**. También puede incluir notas adicionales acerca del proceso de ajuste de inflación. Hay diversas maneras de ejecutar el proceso:
 
 -   **Simular**: antes de ejecutar el proceso de ajuste de inflación, puede ejecutar una simulación de los efectos generales de ejecutar el ajuste de inflación. Si se encuentran diferencias en el informe **Simulación**, puede cambiar solo los campos **Capa de registro** y **Notas** en la página **Ajuste por inflación B-10**. El proceso de simulación no registra las transacciones contables de ajuste de inflación. El proceso genera un informe que muestra las transacciones contables de ajuste de inflación generadas por el sistema.
 -   **Registrar**: puede registrar definitivamente el ajuste de inflación para generar los asientos de inflación de ajuste relacionados. También puede especificar la capa de registro donde se generan las transacciones. La entrada de inflación de ajuste tiene un estado de **Registrado**.
@@ -120,6 +123,8 @@ Este informe muestra el cálculo del ajuste de inflación del código de cuenta 
 -   El control deslizante **Ajuste de B-10** se encuentra para la cuenta principal.
 -   El tipo de cuenta para la cuenta principal es **Balance** **de situación**, **Activo**, **Pasivo** o **Recursos propios**.
 -   El tipo de ajuste de la cuenta principal es **Fecha ** **de la transacción**.
+
+
 
 
 

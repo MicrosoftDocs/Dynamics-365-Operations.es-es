@@ -1,5 +1,5 @@
 ---
-title: Reservar el mismo lote para un pedido de ventas
+title: Reserva del mismo lote para un pedido de ventas
 description: "Este artículo explica cómo configurar un producto para permitir la reserva de inventario con un único lote de inventario."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reserve-the-same-batch-for-a-sales-order"></a>Reservar el mismo lote para un pedido de ventas
+# <a name="reserve-the-same-batch-for-a-sales-order"></a>Reserva del mismo lote para un pedido de ventas
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo explica cómo configurar un producto para permitir la reserva de inventario con un único lote de inventario.
 
@@ -42,6 +45,8 @@ Al reservar inventario para un producto en una línea de pedido de ventas config
 -   El código de disposición del lote tiene **Bloquear reserva** para las ventas marcado como **Bloqueado**.
 -   El lote ha caducado según la fecha de vencimiento y los días para ventas al cliente aplicables. El artículo aún se podrá reservar si el grupo de modelos de artículo está controlado por fecha FEFO y se selecciona la fecha de consumo preferente como criterio de selección.
 -   El lote no tiene suficientes días de vida útil restantes según la fecha de caducidad/consumo preferente y los días para ventas al cliente.
+
+
 
 
 

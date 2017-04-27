@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Especificar combinaciones de cuentas y dimensiones (control de entrada segmentada)
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe cómo especificar combinaciones de cuenta y dimensión o cuentas contables. La experiencia de entrada suele denominarse control de entrada segmentado.
 
-Los usuarios especifican combinaciones de cuenta y dimensión en Misc paginan, como las páginas para los diarios generales, la gestión presupuestaria, y las definiciones de contabilización. Las combinaciones de cuentas y dimensiones válidas dependen de las estructuras contables que se asignan al libro mayor y las reglas avanzadas que se asignan a las estructuras contables. Cuando un usuario especifique una combinación, pueden escribir manualmente los valores o aprovechar los ricos, experiencia de la búsqueda. Cuando se especifica en el campo, puede iniciar escriban y buscará el valor y la descripción. Por ejemplo, si escribe 180 se busca algún valor que comience con esa combinación de número. O bien puede escribir efectivo y buscará cualquier valor que tiene una descripción que empiece por efectivo. También puede usar un comodín, como efectivo o \*180 \*para \*búsquedas si el valor o la descripción contiene los criterios de búsqueda. 
+Los usuarios especifican combinaciones de cuenta y dimensiones en diversas páginas, como páginas para diarios generales, gestión presupuestaria, y definiciones de contabilización. Las combinaciones de cuentas y dimensiones válidas dependen de las estructuras contables que se asignan al libro mayor y las reglas avanzadas que se asignan a las estructuras contables. Cuando los usuarios especifican una combinación, pueden escribir manualmente los valores o aprovecharse de una experiencia de búsqueda enriquecida. En el campo, puede empezar a escribir y se buscarán el valor y la descripción. Por ejemplo, si escribe 180 se busca algún valor que comience con esa combinación de números. O bien puede escribir Efectivo y se buscará cualquier valor que tenga una descripción que empiece por Efectivo. También puede usar un comodín para buscar, como \*Efectivo o \*180, si el valor o la descripción contienen los criterios de búsqueda. 
 
 En la tabla siguiente se describen los métodos abreviados de teclado que se pueden usar cuando se cierre la búsqueda.
 
@@ -108,5 +111,7 @@ En la tabla siguiente se describen los métodos abreviados de teclado que se pue
 </table>
 
  
+
+
 
 

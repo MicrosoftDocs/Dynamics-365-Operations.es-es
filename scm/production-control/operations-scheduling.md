@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling"></a>Programación de operaciones
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tema proporciona información acerca de la programación de las operaciones. Puede usar la programación de operaciones para proporcionar una estimación general del tiempo extra del proceso de producción.
 
 Puede programar la producción en el nivel de operación y en el nivel de trabajo. A diferencia de la programación de trabajos, la programación de operaciones no expande las operaciones de la ruta de producción en trabajos. Si desea incluir más información en relación con la programación, como información acerca de la capacidad actual, puede ejecutar la programación de trabajos tras ejecutar la programación de operaciones. También puede ejecutar solo una programación de trabajos. La programación de trabajos se usa normalmente para programar trabajos individuales en la planta para un período de tiempo inmediato o a corto plazo.
@@ -76,5 +79,7 @@ Si trabaja con materiales finitos, la programación también depende de la dispo
 --------
 
 [Opciones de programación de la operación](operation-scheduling-options.md)
+
+
 
 

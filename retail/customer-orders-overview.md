@@ -1,6 +1,6 @@
 ---
-title: "Visión general de los pedidos de cliente"
-description: "Este tema proporciona información acerca de los pedidos de cliente en el sistema POS moderno al por menor MPOS (). Los pedidos de cliente también se conocen como pedidos especiales. El tema incluye una discusión de parámetros relacionados con la transacción y flujos."
+title: "Visión general de pedidos de cliente"
+description: "Este tema proporciona información acerca de los pedidos de cliente en Retail Modern POS (MPOS). Los pedidos de cliente también se conocen como pedidos especiales. El tema incluye una discusión de parámetros y flujos de transacción relacionados."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
@@ -25,75 +25,80 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="customer-orders-overview"></a>Visión general de los pedidos de cliente
+# <a name="customer-orders-overview"></a>Visión general de pedidos de cliente
 
-Este tema proporciona información acerca de los pedidos de cliente en el sistema POS moderno al por menor MPOS (). Los pedidos de cliente también se conocen como pedidos especiales. El tema incluye una discusión de parámetros relacionados con la transacción y flujos.
+[!include[banner](includes/banner.md)]
 
-En un mundo de ventas al por menor de omni- canal, muchos minoristas ofrece la opción de pedidos de cliente, o de pedidos especiales, cumplir diferentes requisitos del producto y de cumplimiento. Aquí hay algunas situaciones habituales:
 
--   Un cliente desea los productos que se entregarán una dirección específica en una fecha específica.
--   Un cliente desea ser elegidas productos de una tienda o desde una ubicación diferente de la tienda o de la ubicación donde se compró el cliente estos productos.
--   Un cliente desea cualquier otro para recoger los productos que compró el cliente.
+Este tema proporciona información acerca de los pedidos de cliente en Retail Modern POS (MPOS). Los pedidos de cliente también se conocen como pedidos especiales. El tema incluye una discusión de parámetros y flujos de transacción relacionados.
 
-Los minoristas también utilizan pedidos de cliente minimizar de ventas perdido que las no está dentro del sistema comunes podrían provocar de otro modo, ya que la mercancía se puede entregar o recoger en una hora distinta o un lugar.
+En un mundo de comercio de varios canales simultáneos, muchos minoristas ofrecen la opción de pedidos de cliente, o pedidos especiales, para cumplir diferentes requisitos de producto y de cumplimiento. Aquí hay algunas situaciones habituales:
 
-## <a name="set-up-customer-orders"></a>Pedidos de cliente de instalación
-A continuación se muestran algunos de los parámetros que se pueden liquidar en ** los parámetros de ventas ** la página para definir cómo se realizan los pedidos de cliente:
+-   Un cliente desea que los productos se entreguen en una dirección específica en una fecha específica.
+-   Un cliente desea elegir productos de una tienda o de una ubicación diferente de la tienda o de la ubicación donde el cliente compró los productos.
+-   Un cliente desea que otra persona recoja los productos que el cliente compró.
 
--   ** Porcentaje predeterminado del depósito ** permite especificar el importe que el cliente pagará como un depósito antes de que el pedido se pueda confirmada. Se calcula el importe predeterminado del depósito como porcentaje del valor del pedido. En función de privilegios, un socio de la tienda puede anular poder el importe mediante ** Anulación de depósito **.
--   ** El porcentaje del gasto de cancelación ** – si se aplica un gasto cuando un pedido de cliente se cancela, especifique el importe de dicho cargo.
--   ** El cargo de cancelación código ** – si se aplica un gasto cuando un pedido de cliente se cancela, reflejarán a dicho cargo bajo cargo codificado en el pedido de ventas en Microsoft Dynamics AX. Use este parámetro para definir el código del gasto de cancelación.
--   ** ** – Los minoristas codificados gastos de envío se pueden cargar un índice extra para la mercancía de envío a un cliente. El importe del gasto de envío se reflejará en cargo codificado en el pedido de ventas en Dynamics AX. Use este parámetro para asignar el gasto de envío código a los gastos de envío en el pedido de cliente.
--   ** Los gastos de envío de la devolución ** – especifican si los gastos de envío que están asociados a un pedido de clientes son reembolsables.
--   ** El importe máximo sin aprobar ** – si los gastos de envío son reembolsables, especifique el importe máximo de devoluciones de gastos de envío a través de pedidos de devolución. Si se supera este importe, la anulación de administrador se requiere para continuar con la devolución. Para adaptar los siguientes escenarios, una devolución de gastos de envío puede superar el importe que estaba originalmente pagado:
-    -   Aplicar los gastos en el nivel del encabezado del pedido de ventas, y cuando una cierta cantidad de una línea de productos se devuelve, la devolución máxima de gastos de envío permitido para los productos y la cantidad no se puede determinar por la forma en que trabaja para todos los clientes al por menor.
-    -   Los gastos de envío se contraen para cada instancia de envío. Si varias veces de productos de las devoluciones de clientes, y la directiva del distribuidor especifica que los minoristas llevará el coste de gastos de envío de devolución, los gastos de envío de devolución que se más los gastos de envío reales.
+Los minoristas también utilizan pedidos de cliente para minimizar las ventas perdidas que, de no ser así, la falta de existencias podría provocar; la mercancía se puede entregar o recoger en una hora o un lugar distintos.
 
-## <a name="transaction-flow-for-customer-orders"></a>Flujo de la transacción para los pedidos de cliente
-### <a name="create-a-customer-order-in-retail-modern-pos"></a>Crear un pedido de cliente en el sistema POS moderno al por menor
+## <a name="set-up-customer-orders"></a>Configurar pedidos de cliente
+A continuación se muestran algunos de los parámetros que se pueden configurar en la página **Parámetros comerciales** para definir cómo se realizan los pedidos de cliente:
+
+-   **Porcentaje de depósito predeterminado**: permite especificar el importe que el cliente debe pagar como depósito para que el pedido se pueda confirmar. Se calcula el importe de depósito predeterminado como porcentaje del valor del pedido. En función de los privilegios, un socio de la tienda puede anular el importe mediante **Anular depósito**.
+-   **Porcentaje de cargo de cancelación**: si se aplica un cargo cuando un pedido de cliente se cancela, especifique el importe de dicho cargo.
+-   **Código de cargo de cancelación**: si se aplica un cargo cuando un pedido de cliente se cancela, dicho cargo se reflejará mediante un código de cargo en el pedido de ventas en Microsoft Dynamics AX. Use este parámetro para definir el código del cargo de cancelación.
+-   **Código de cargo de envío**: los minoristas pueden cargar una cuota adicional por enviar mercancía a un cliente. El importe del cargo de envío se reflejará mediante un código codificado en el pedido de ventas en Dynamics AX. Use este parámetro para asignar el código de cargo de envío a los cargos de envío en el pedido del cliente.
+-   **Devolver los gastos de envío**: especifique si los gastos de envío que están asociados a un pedido de cliente son reembolsables.
+-   **Importe máximo sin aprobación**: si los cargos de envío son reembolsables, especifique el importe máximo de las devoluciones de cargos de envío en los pedidos de devolución. Si se supera este importe, la anulación de administrador se requiere para continuar con la devolución. Para incluir los siguientes escenarios, una devolución de cargos de envío puede superar el importe que se pagó originalmente:
+    -   Los cargos se aplican en el nivel del encabezado del pedido de ventas, y cuando una cierta cantidad de una línea de productos se devuelve, la devolución máxima de cargos de envío permitida para los productos y la cantidad no se puede determinar por la forma en que funciona para todos los clientes al por menor.
+    -   Los cargos de envío se tienen por cada instancia de envío. Si un cliente devuelve varias veces productos y la directiva del distribuidor especifica que el distribuidor se hará cargo de los cargos de devolución de envío, los cargos de devolución de envío serán más elevados que los cargos de envío reales.
+
+## <a name="transaction-flow-for-customer-orders"></a>Flujo de transacciones para pedidos de cliente
+### <a name="create-a-customer-order-in-retail-modern-pos"></a>Cree un pedido de cliente en Retail Modern POS
 
 1.  Agregue un cliente a la transacción.
-2.  Agregar productos al carro.
-3.  Haga clic ** cree el pedido de cliente **, y después seleccione el tipo de pedido. El tipo de pedido puede ser o ** pedido de cliente o ** ** ** presupuesto.
-4.  Haga clic ** envío seleccionada o ** ** registrar todos ** registrar los productos una dirección en la cuenta de cliente, especifique la fecha de envío solicitada, y especificar gastos de envío.
-5.  Haga clic en para escoja ** seleccionado arriba o ** ** tome ** a todos los productos para que se cogidos de la tienda actual o a otro almacén en una fecha específica.
-6.  Obtenga el importe del depósito, si se requiere un depósito.
+2.  Agregue productos al carro.
+3.  Haga clic en **Crear pedido de cliente** y después seleccione el tipo de pedido. El tipo de pedido puede ser **Pedido de cliente** o **Presupuesto**.
+4.  Haga clic en **Envío seleccionado** o en **Enviar todo** para enviar los productos a una dirección de la cuenta de cliente, especifique la fecha de envío solicitada, y especifique los cargos de envío.
+5.  Haga clic en **Recoger la selección** o en **Recoger todo** para seleccionar los productos que se cogerán en la tienda actual o en otro almacén en una fecha específica.
+6.  Cobre el importe del depósito, si se requiere un depósito.
 
-### <a name="edit-an-existing-customer-order"></a>Editar un pedido de cliente existente
+### <a name="edit-an-existing-customer-order"></a>Edición de un pedido de cliente ya existente
 
-1.  En la página principal, haga clic en ** encuentre un pedido **.
-2.  Busque y seleccione el pedido que desee editar. En la parte inferior de la página, haga clic en ** ** edición.
+1.  En la página principal, haga clic en **Encontrar un pedido**.
+2.  Busque y seleccione el pedido que desea editar. En la parte inferior de la página, haga clic en **Editar**.
 
-### <a name="pick-up-an-order"></a>Coja un pedido
+### <a name="pick-up-an-order"></a>Elegir pedido
 
-1.  En la página principal, haga clic en ** encuentre un pedido **.
-2.  Seleccione el pedido de recoger. En la parte inferior de la página, haga clic en ** recogida y ** embalaje.
-3.  Haga clic en coja ** **.
+1.  En la página principal, haga clic en **Encontrar un pedido**.
+2.  Seleccione el pedido que desea recoger. En la parte inferior de la página, haga clic en **Picking y embalaje**.
+3.  Haga clic en **Recoger**.
 
 ### <a name="cancel-an-order"></a>Cancelar un pedido
 
-1.  En la página principal, haga clic en ** encuentre un pedido **.
-2.  Seleccione el pedido para cancelar. En la parte inferior de la página, haga clic en ** ** cancelación.
+1.  En la página principal, haga clic en **Encontrar un pedido**.
+2.  Seleccione el pedido que se va a cancelar. En la parte inferior de la página, haga clic en **Cancelar**.
 
 #### <a name="create-a-return-order"></a>Crear un pedido de devolución
 
-1.  En la página principal, haga clic en ** encuentre un pedido **.
-2.  Seleccione el pedido de volver, seleccione la factura para el pedido, y seleccione la línea de productos para que la mercancía vuelva.
-3.  En la parte inferior de la página, haga clic en ** pedido de devolución **.
+1.  En la página principal, haga clic en **Encontrar un pedido**.
+2.  Seleccione el pedido que se ha de devolver, seleccione la factura del pedido y seleccione la línea de productos para que la mercancía vuelva.
+3.  En la parte inferior de la página, haga clic en **Pedido de devolución**.
 
-## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Flujo asincrónico de la transacción para los pedidos de cliente
-Los pedidos de cliente se pueden realizar en el cliente de (POS) de punto de venta en modo sincrónico o moda asincrónico.
+## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Flujo de transacciones asíncrono para pedidos de cliente
+Los pedidos de cliente se pueden crear en el cliente de punto de venta (PDV) en modo sincrónico o modo asincrónico.
 
-### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Habilite los pedidos de cliente que se creará en modo asincrónico
+### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Habilite los pedidos de cliente que se crearán en modo asincrónico
 
-1.  En Dynamics AX, haga clic en ** al por menor y comercio ** &gt; ** el canal configurar ** &gt; ** Configuración de PDV ** &gt; ** perfil de Retail POS ** &gt; ** los perfiles de funcionalidad **.
-2.  En ** general ** la ficha desplegable, establezca ** cree el pedido de cliente en modo de async ** la opción ** Sí **.
+1.  En Dynamics AX, haga clic en **Retail y Commerce** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Perfiles de PDV** &gt; **Perfiles de funcionalidad**.
+2.  En la ficha desplegable **General**, establezca la opción **Crear pedido de cliente en modo asincrónico** en **Sí**.
 
-** Cuando cree el pedido de cliente en modo de async ** la opción está establecida ** Sí **, los pedidos de cliente se realizan siempre en modo asincrónico, incluso si Retail Transaction Service al por menor (RTS) disponible. Si establece esta opción ** ninguna **, los pedidos de cliente realizan siempre a modo sincrónico mediante RTS. Cuando los pedidos de cliente se crean en modo, son asincrónicos y extraen insertan en Dynamics AX por trabajos de extracción (P). Los pedidos de ventas correspondientes se crean en Dynamics AX ** cuando sincronice los pedidos ** se ejecuta manualmente o mediante un proceso por lotes.
+Cuando la opción **Crear pedido de cliente en modo asincrónico** está establecida en **Sí**, los pedidos de cliente se crean siempre en modo asincrónico, incluso si Retail Transaction Service (RTS) está disponible. Si establece esta opción en **No**, los pedidos de cliente siempre se crean en modo sincrónico mediante RTS. Cuando los pedidos de cliente se crean en modo asincrónico, se extraen y se insertan en Dynamics AX mediante trabajos de extracción (P). Los pedidos de ventas correspondientes se crean en Dynamics AX cuando **Sincronizar pedidos** se ejecuta manualmente o mediante un proceso por lotes.
 
 <a name="see-also"></a>Consulte también
 --------
 
-[Pedidos de cliente híbridos] (hybrid-customer-orders.md)
+[Pedidos de cliente híbridos](hybrid-customer-orders.md)
+
+
 
 

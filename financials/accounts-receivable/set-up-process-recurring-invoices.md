@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>Configurar y procesar facturas periódicas
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo explica cómo configurar y procesar las facturas periódicas. Puede usar facturas periódicas si debe factura a los clientes por el mismo importe periódicamente.
 
 <a name="create-a-recurring-free-text-invoice-template"></a>Crear una plantilla de factura de servicios recurrente
@@ -61,5 +64,7 @@ Imprimir facturas de servicios periódicas
 ----------------------------------
 
 Después de registrar las facturas periódicas, puede imprimir las facturas desde la página de lista de facturas de servicios. Puede imprimir las facturas seleccionadas o puede seleccionar un intervalo de facturas para imprimirlas.
+
+
 
 

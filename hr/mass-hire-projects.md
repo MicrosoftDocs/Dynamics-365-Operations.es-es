@@ -46,7 +46,7 @@ En la página **Proyectos de contratación masiva**, seleccione el proyecto “S
 
 Después de seleccionar los estudiantes que ocuparán los puestos en prácticas, especificará la información relativa al puesto en **Detalles del puesto**. Una vez especificados todos los detalles del puesto, seleccione el puesto en la página Proyectos de contratación masiva y haga clic en **Contratación**. Se creará un registro de puesto para cada puesto, y se creará y se asignará un registro de trabajador a la posición correcta para cada persona que contrate.
 
-## <a name="masshire-project-statuses"></a>Estados de proyecto de Masshire
+## <a name="masshire-project-statuses"></a>Estado del proyecto de contratación masiva
 Un proyecto de contratación masiva puede tener los siguientes estados.
 -   Creado
 -   Abierta

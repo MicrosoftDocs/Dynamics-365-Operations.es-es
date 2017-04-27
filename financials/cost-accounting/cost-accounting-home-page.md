@@ -1,6 +1,6 @@
 ---
-title: "Página principal de la contabilidad de costes"
-description: Este tema proporciona una lista de los temas de ayuda y otros recursos disponibles para la contabilidad de costes.
+title: "Página principal de Contabilidad de costes"
+description: Este tema proporciona una lista de temas de ayuda y otros recursos disponibles para la Contabilidad de costes.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-accounting-home-page"></a>Página principal de la contabilidad de costes
+# <a name="cost-accounting-home-page"></a>Página principal de Contabilidad de costes
 
-Este tema proporciona una lista de los temas de ayuda y otros recursos disponibles para la contabilidad de costes.
+[!include[banner](../includes/banner.md)]
 
-El módulo de contabilidad de costes permite hacer lo siguiente:
 
--   Definir las dimensiones del artículo de coste, importe a los miembros de la dimensión del artículo de coste, y asigne las dimensiones del artículo de coste.
--   Permite definir las dimensiones de objeto de coste y importe a los miembros de dimensión de objeto de coste.
+Este tema proporciona una lista de temas de ayuda y otros recursos disponibles para la Contabilidad de costes.
+
+El módulo Contabilidad de costes permite hacer lo siguiente:
+
+-   Definir las dimensiones de elementos de coste, importar miembros de dimensión de elementos de coste y asignar dimensiones de elementos de coste.
+-   Definir dimensiones de objeto de coste e importar miembros de dimensión de objeto de coste.
 -   Definir o importar dimensiones estadísticas.
 -   Crear plantillas de proveedor de medidas estadísticas.
 -   Crear libros mayores de contabilidad de costes.
@@ -46,29 +49,31 @@ El módulo de contabilidad de costes permite hacer lo siguiente:
 
 ## <a name="get-started"></a>Introducción
 
-Los laboratorios de prácticas para la contabilidad de costes proporcionan los pasos básicos para configurar Microsoft Dynamics 365 para las operaciones – Contabilidad de costes para crear el análisis del coste real. También proporciona una serie de procedimientos poder completar en el orden que aparece ella.
+Los laboratorios de prácticas para Contabilidad de costes proporcionan los pasos básicos para configurar Microsoft Dynamics 365 for Operations – Contabilidad de costes para realizar el análisis de costes reales. También proporciona una serie de procedimientos que puede completar en el orden en que aparecen.
 
--   [Get iniciado con la contabilidad de costes (https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc)] (la documentación y requieren una cuenta de CustomerSource)
+-   [Introducción a la contabilidad de costes](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (documentación; requiere una cuenta CustomerSource)
 
-Para comprender cómo puede usar el coste que explica su trabajo diario, debe comprender estos conceptos.
+Para comprender cómo puede usar la Contabilidad de costes para su trabajo diario, es necesario que comprenda los siguientes conceptos.
 
--   [Key terms in Cost accounting](terms-cost-accounting.md)
--   [] Dimensiones de los elementos de coste y del artículo de coste (cost-elements.md)
--   [Map different cost element dimension members to a common set of cost element dimension members](map-cost-elements-dimension-members.md)
--   [Crear artículos de coste (http://ax.help.dynamics.com/en/wiki/create-cost-elements/)] (Guía de la tarea)
--   [Cost object dimensions](cost-objects.md)
--   [Crear objetos] de costes (http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (guía de la tarea)
+-   [Términos clave de la Contabilidad de costes](terms-cost-accounting.md)
+-   [Elementos de coste y dimensiones de elementos de coste](cost-elements.md)
+-   [Asignar miembros de dimensión de elemento de coste diferentes a un conjunto común de miembros de dimensión de elemento de coste](map-cost-elements-dimension-members.md)
+-   [Crear elementos de coste](http://ax.help.dynamics.com/en/wiki/create-cost-elements/) (Guía de tareas)
+-   [Dimensiones de objeto de coste](cost-objects.md)
+-   [Crear objetos de coste](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (Guía de tareas)
 
-## <a name="cost-control-mobile-workspace"></a>Área de trabajo de móvil de control de costes
-Con el área de trabajo móvil de control de costes, administradores de centro de coste pueden ver el rendimiento de centro de coste en cualquier momento y cualquier lugar.
+## <a name="cost-control-mobile-workspace"></a>Espacio de trabajo móvil de control de costes
+Con el espacio de trabajo móvil de control de costes, los administradores de centro de coste pueden ver el rendimiento de centro de coste en cualquier momento y en cualquier lugar.
 
--   [Cost control mobile workspace](cost-controlling-mobile-workspace.md)
+-   [Espacio de trabajo móvil de control de costes](cost-controlling-mobile-workspace.md)
 
-## <a name="cost-accounting-analysis-power-bi-content"></a>Contenido de Power BI de análisis de la contabilidad de costes
-El contenido de Power BI de Microsoft de análisis de la contabilidad de costes está destinado a los conductores o cualquier entidad de costes que es responsable de realizar el control de costes de una organización. Incluye medidas clave, como el coste, magnitud, y del índice de coste por coste real, coste de presupuesto, y coste de presupuesto flexible. Usa datos de transacción de la contabilidad de costes en Microsoft Dynamics 365 para las operaciones y proporciona una visión global de costes para la organización completa en una divisa de notificación. Los directores pueden filtrar los datos por objetos de coste para realizar el control de costes de sus unidades organizativas, incluso si la organización puede tener varias entidades jurídicas.
+## <a name="cost-accounting-analysis-power-bi-content"></a>Contenido en Power BI sobre el análisis de la contabilidad de costes
+El contenido de Análisis de la contabilidad de costes en Microsoft Power BI está destinado a los controladores de costes responsables de realizar el control de costes de una organización. Incluye medidas clave, como el coste, magnitud, el índice de coste por coste real, coste presupuestario, y coste presupuestario flexible. Usa datos de transacción de la contabilidad de costes de Microsoft Dynamics 365 for Operations y proporciona una visión global de costes para la organización completa en una divisa de notificación. Los directores pueden filtrar los datos por objetos de coste para realizar el control de costes de sus unidades organizativas, incluso aunque la organización tenga varias entidades jurídicas.
 
--   [Cost accounting analysis Power BI content](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
--   [Seguridad Configuración para el contenido] de Power BI de análisis de la contabilidad de costes (/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+-   [Contenido de Power BI sobre el análisis de la contabilidad de costes](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
+-   [Contenido de Power BI sobre configuración de la seguridad para el análisis de la contabilidad de costes](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+
+
 
 
 

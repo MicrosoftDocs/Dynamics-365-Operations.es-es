@@ -1,6 +1,6 @@
 ---
 title: "Cerrar la contabilidad general al final del período"
-description: "Este tema describe las tareas que se completan normalmente al realizar un período al cierre para la contabilidad general."
+description: "En este tema se describen las tareas que se completan normalmente al realizar un cierre de período para la contabilidad general."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="close-the-general-ledger-at-period-end"></a>Cerrar la contabilidad general al final del período
 
-Este tema describe las tareas que se completan normalmente al realizar un período al cierre para la contabilidad general. 
+[!include[banner](../includes/banner.md)]
 
-En Contabilidad general, puede completar los procedimientos de cierre de un período o un año. El cierre de procesos prepara al sistema para un período nuevo. Para preparar el sistema por un nuevo año, debe ejecutar el proceso de fin de año de cierre. Cada organización tiene procesos diferentes y pasos que realicen para el final de un período. A continuación se muestran algunos pasos opcionales para los extremos del período:
+
+En este tema se describen las tareas que se completan normalmente al realizar un cierre de período para la contabilidad general. 
+
+En Contabilidad general, puede completar los procedimientos de cierre de un período o un año. El cierre de procesos prepara al sistema para un período nuevo. Para preparar el sistema para un año nuevo, debe ejecutar el proceso de cierre de ejercicio. Cada organización tiene diferentes procesos y pasos que realiza para el final de un período. A continuación se indican algunos pasos opcionales para finales de períodos:
 
 -   Completar todas las tareas para todos los demás módulos, como Clientes, Proveedores e Inventario.
 -   Comprobar que se registran todos los diarios.
@@ -39,9 +42,11 @@ En Contabilidad general, puede completar los procedimientos de cierre de un per�
 -   Registrar transacciones en el diario y revisar el informe del **Diario contable**.
 -   Realizar una consolidación mediante una empresa de consolidación o informes financieros.
 -   Generar resultados financieros de final de período con Informes financieros.
--   Definir períodos contables en **En espera**, de modo que no se produzca ningún otro registro. También puede restringir un período a un grupo de usuarios específico mientras se estén produciendo actividades de final de período, para un mayor control. No es recomendable establecer los períodos cerrados ** permanentemente **, ya que no se pueden volver a abrir un período que ya se ha cerrado.
+-   Definir períodos contables en **En espera**, de modo que no se produzca ningún otro registro. También puede restringir un período a un grupo de usuarios específico mientras se estén produciendo actividades de final de período, para un mayor control. No es buena idea establecer períodos en **Cerrado de forma permanente**porque no se puede volver a abrir un período que se ha cerrado.
 
-El área de trabajo financiera de cierre del período se puede usar para organizar y para realizar un seguimiento de las tareas requeridas para varios procesos de final del período. Consulte [el área de trabajo] financiera de cierre del período (financial-period-close-workspace.md) y [final de año próximo] a temas Year-end-close.md () para obtener más información. 
+El espacio de trabajo de cierre del período financiero se puede usar para organizar y seguir las tareas necesarias para varios procesos de cierre del ejercicio. Consulte los temas [Espacio de trabajo de cierre del período financiero](financial-period-close-workspace.md) y [Cierre de fin de año](Year-end-close.md) para obtener más información. 
+
+
 
 
 

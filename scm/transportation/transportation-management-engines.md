@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-engines"></a>Motores de administración del transporte
 
+[!include[banner](../includes/banner.md)]
+
+
 Los motores de administración del transporte definen la lógica que se usa para generar y procesar tasas de transporte en Administración de transporte. 
 
 Un motor de administración del transporte calcula tareas como, por ejemplo, la tasa de transporte del transportista. El sistema del motor le permite cambiar las estrategias de cálculo en tiempo de ejecución, basándose en los datos de Microsoft Dynamics 365 for Operations. Un motor de administración del transporte se asemeja a un complemento relacionado con un contrato concreto del transportista.
@@ -58,7 +61,7 @@ Un motor de administración del transporte necesita que configure los datos de i
 En la mayoría de los casos, puede hacer clic en el botón **Parámetros** de los formularios de configuración del motor de administración del transporte para configurar los datos de inicialización. **Ejemplo de la configuración de un motor de tarifas que hace referencia a un motor de cálculo de kilometraje** En el siguiente ejemplo se muestra la configuración necesaria para un motor de tarifas basado en tipo de motor .NET Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine y hace referencia a un motor de cálculo de kilometraje.
 | Parámetro             | Descripción                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | El tipo de .NET que interpreta los datos de asignación base de la tasa para un esquema concreto. La sintaxis del valor de parámetro consta de dos segmentos delimitados por una barra vertical (|). El primer segmento contiene el nombre del ensamblado que define el tipo de asignador. El segundo segmento define el nombre completo del tipo de asignador. Esto incluye el espacio de nombres del tipo. |
+| *RateBaseAssigner*    | El tipo de .NET que interpreta los datos de asignación base de la tasa para un esquema concreto. La sintaxis del valor del parámetro consta de dos segmentos delimitados por una barra vertical (|). El primer segmento contiene el nombre del ensamblado que define el tipo de asignador. El segundo segmento define el nombre completo del tipo de asignador. Esto incluye el espacio de nombres del tipo. |
 | *MileageEngineCode*   | Código del motor de cálculo de kilometraje que identifica el registro del motor de cálculo de kilometraje en la base de datos de Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                                             |
 | *ApportionmentEngine* | Código de motor genérico que identifica el motor de reparto en la base de datos de Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                                              |
 
@@ -87,7 +90,7 @@ Los metadatos para motores de administración del transporte se configuran de fo
 | **Motor de cálculo de tiempo de tránsito** y **Motor de cálculo de kilometraje** | Recupera los metadatos directamente del formulario de configuración del motor de cálculo de kilometraje.                                                                                                                                                                                                                                                                                                                                                                                  |
 
   **Ejemplo de metadatos para un motor de tarifas** El motor de administración del transporte requiere la identificación de la dirección de origen, el estado y el país o la región de destino, así como el punto de envío inicial y final. Una vez cumplidos estos requisitos, los metadatos aparecerán como los datos de la tabla siguiente. La tabla también incluye información acerca del tipo de datos de entrada necesario.
--   Definir esta configuración de la información de administración ** de transporte &gt; ** ** ** en ** tipo base del índice ** la página.
+-   Defina esta información en **Administración de transporte** &gt; **Configurar** en la página **Tipo de base de tasa**.
 
 | Secuencia | Nombre                          | Tipo de campo | Tipo de datos | Tipo de búsqueda    | Obligatorio |
 |----------|-------------------------------|------------|-----------|----------------|-----------|
@@ -96,6 +99,8 @@ Los metadatos para motores de administración del transporte se configuran de fo
 | 3        | Código postal inicial de destino | Asignación | Cadena    | Código postal    | Seleccionado  |
 | 4        | Código postal final de destino   | Asignación | Cadena    | Código postal    | Seleccionado  |
 | 5        | País de destino           | Asignación | Cadena    | País o región |           |
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Registrar con los libros derivados
+title: Registro con los libros derivados
 description: "Este artículo describe cómo usar los libros derivados."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="post-with-derived-books"></a>Registrar con los libros derivados
+# <a name="post-with-derived-books"></a>Registro con los libros derivados
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo describe cómo usar los libros derivados.
 
@@ -49,11 +52,13 @@ La siguiente información describe cómo configurar las transacciones de adquisi
 
 A continuación, los libros se podrán vincular a activos fijos concretos. 
 
-Cuando una adquisición se registra para un activo fijo con el libro MV 1, la adquisición se registra no sólo con el MV 1, sino también con el libro derivado MV 2. Actualiza el estado de ambos libros de activos fijos para abrir.
+Cuando una adquisición se registra para un activo fijo con libro MV 1, la adquisición se registra no sólo con el MV 1, sino también con el libro derivado MV 2. El estado de ambos libros de activo fijo se actualizará a Abierto.
 
 > [!NOTE]                                                                                                         
 > Si no utiliza los libros derivados, debe registrar la adquisición del activo fijo para el libro MV 1 y el libro VM 2.
 
-Para obtener más información, consulte los libros [] (derivados derived-books.md)
+Para obtener más información, consulte [Libros derivados](derived-books.md).
+
+
 
 

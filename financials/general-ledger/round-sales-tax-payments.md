@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-payments-and-rounding-rules"></a>Pagos de impuestos y reglas de redondeo
 
+[!include[banner](../includes/banner.md)]
+
+
 En este artículo se explica cómo funciona la configuración de la regla de redondeo en las autoridades fiscales y el redondeo del saldo de impuestos durante el trabajo Liquidar y registrar impuestos.
 
-Periódicamente, los impuestos se deben notificar y pagar a las autoridades fiscales. Esto se puede hacer ejecutando el proceso de impuestos de liquidación y registrar en la página de los impuestos. Los impuestos para un período se liquidarán con las cuentas de impuestos y los saldos de impuestos se registrarán en la cuenta de liquidación de impuestos. El saldo de impuestos, que se registra en la cuenta de liquidación Impuestos, se podrá redondear según exijan las autoridades fiscales configurando una regla de redondeo en la página Impuestos. 
+Periódicamente, los impuestos se deben notificar y pagar a las autoridades fiscales. Esto puede hacerse ejecutando el proceso de liquidación y registro de impuestos en la página Impuestos. Los impuestos para un período se liquidarán contra las cuentas de impuestos y el saldo de impuestos se registrará en la cuenta de liquidación Impuestos. El saldo de impuestos, que se registra en la cuenta de liquidación Impuestos, se podrá redondear según exijan las autoridades fiscales configurando una regla de redondeo en la página Impuestos. 
 
 La diferencia de redondeo se registra en la cuenta de redondeo de impuestos seleccionada en el campo Cuentas para transacciones automáticas de la contabilidad general.
 
@@ -42,10 +45,10 @@ El total de impuestos para un período muestra un saldo de crédito de -98.765,4
 
 La entidad jurídica desea utilizar un método de redondeo que redondee el saldo al 1,00 más cercano. El usuario a cargo de contabilizar las cuentas de los impuestos sobre las ventas debe seguir los siguientes pasos.
 
-1.  Autoridades fiscales de impuestos &gt; de los impuestos indirectos &gt; de IRPF &gt; de clic
+1.  Haga clic en Impuestos &gt; Impuestos indirectos &gt; Impuestos &gt; Autoridades fiscales.
 2.  En la ficha desplegable General, seleccione Normal en el campo Forma de redondear.
 3.  En el campo Redondear, escriba 1,00.
-4.  A la hora de pagar impuestos a la autoridad fiscal, abra la página Liquidar y registrar impuestos. (Impuestos de Liquidar &gt; y &gt; registrar &gt; de los impuestos de las declaraciones de impuestos haga clic en Obtener.)
+4.  A la hora de pagar impuestos a la autoridad fiscal, abra la página Liquidar y registrar impuestos. (Haga clic en Impuestos &gt; Declaraciones &gt; Impuestos &gt; Liquidar y registrar impuestos).
 5.  En la cuenta de liquidación de impuestos, el monto de deuda tributaria 98.765,43 se redondea a 98.765.
 
 La siguiente tabla muestra cómo el monto 98.765,43 se redondea mediante cada uno de los métodos de redondeo disponibles en el campo Forma de redondeo en la página Autoridades fiscales.
@@ -61,6 +64,8 @@ La siguiente tabla muestra cómo el monto 98.765,43 se redondea mediante cada un
 > [!NOTE]                                                                                  
 > Si selecciona Ventaja propia, el redondeo siempre se realizará a favor de la entidad jurídica. 
 
-Para obtener más información, consulte la información [] general de los impuestos (indirect-taxes-overview.md). 
+Para obtener más información, consulte [Visión general de impuestos](indirect-taxes-overview.md). 
+
+
 
 

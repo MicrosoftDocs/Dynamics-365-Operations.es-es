@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-card-setup-authorization-and-capture"></a>Configuración, autorización y captura de tarjetas de crédito
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información general de la autorización de la tarjeta de crédito en Microsoft Dynamics AX. Incluye información acerca de cómo configurar un servicio de pago, agregar una tarjeta de crédito a un pedido de ventas y anular una autorización.
 
 <a name="setting-up-the-credit-card-payment-service"></a>Configuración del servicio de pago con tarjeta de crédito
@@ -55,7 +58,7 @@ Puede requerir el valor de la verificación de la tarjeta, en ocasiones llamado 
 
 ### <a name="address-verification"></a>Comprobación de dirección
 
-La información de verificación de la dirección se envía siempre al proveedor de pagos. Puede decidir cuánta información se necesita para que la transacción se aceptará la creación. Asegúrese de comprobar al proveedor para determinar si acepte esta información. Estas son las opciones para verificación de direcciones:
+La información de verificación de la dirección se envía siempre al proveedor de pagos. Puede decidir la cantidad de información requerida para aceptar una transacción. Asegúrese de confirmar con su proveedor si acepta esta información. Estas son las opciones para verificación de direcciones:
 -   **Aceptar siempre la transacción**: se acepta la transacción, independientemente de los resultados de la comprobación de la dirección.
 -   **Titular de la cuenta**: se compara el nombre del titular de la tarjeta de crédito en la transacción con la información de la empresa de la tarjeta de crédito.
 -   **Dirección de facturación**: se compara el nombre y la dirección de facturación del titular para la transacción con la información de empresa de la tarjeta de crédito.
@@ -68,10 +71,12 @@ Para cada tipo de tarjeta de crédito se que admita, puede especificar el nivel 
 -   **Nivel 3**: se transfiere toda la información del nivel 2, más información de la línea de pedido.
 
 ## <a name="partial-payments"></a>Pagos parciales
-Si se envía parte de un pedido, el importe del pedido parcial se captura, y se cierra la autorización, obtenida para el importe del pedido en su totalidad. Una nueva autorización se registra en el importe restante del pedido que no se ha registrado.
+Si se envía parte de un pedido, el importe del pedido parcial se captura, y se cierra la autorización, obtenida para el importe del pedido en su totalidad. A continuación, se envía una nueva autorización para el importe restante del pedido que no se ha enviado.
 
 ## <a name="voiding-an-authorization"></a>Anulación de una autorización 
 Para anular una autorización de tarjeta de crédito puede cambiar el método de pago a otro método que no sea del tipo Tarjeta de crédito.
+
+
 
 
 

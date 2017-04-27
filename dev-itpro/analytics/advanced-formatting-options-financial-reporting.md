@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opciones de formato avanzadas en informes financieros
 
+[!include[banner](../includes/banner.md)]
+
+
 Al crear un informe en informes financieros, las funciones adicionales de formato están disponibles, incluidos los filtros para dimensiones, las restricciones de columnas y las unidades de informes, las filas sin impresión y las instrucciones IF/THEN/ELSE en los cálculos. 
 
 La siguiente tabla explica las funciones avanzadas del formato que están disponibles cuando se diseñan informes.
@@ -54,7 +57,7 @@ La posición de celda avanzada, o *forzar*, implica la posición de valores espe
 2.  En la pestaña **Configuración**, en **Prioridad de cálculo**, seleccione **Realizar el cálculo de la columna primero y a continuación la fila**.
 
 ## <a name="designing-the-report"></a>Diseño del informe
-Cuando se diseña un informe, debe crear todas las filas de detalle primero para asegurarse de que los valores están tirados según lo previsto. A continuación agregue anulaciones del formato **NP** (sin impresión) para eliminar el detalle que incluye los valores finales. **Importante:** Cuando se usa el código de formato **CAL**  en la definición de filas, no puede explorar en profundidad el detalle de transacción. Para obligar, las fórmulas usan el formato siguiente: &lt;=&gt;la columna de destino&lt;que se origina código&gt;&lt;de column.row separa&gt; cualquier puesto adicional para una fila por comas y un espacio. Aquí se encuentra un ejemplo: D=C.190, E=C.100
+Cuando se diseña un informe, debe crear todas las filas de detalle primero para asegurarse de que los valores están tirados según lo previsto. A continuación agregue anulaciones del formato **NP** (sin impresión) para eliminar el detalle que incluye los valores finales. **Importante:** Cuando se usa el código de formato **CAL** en la definición de filas, no puede explorar en profundidad el detalle de transacción. Para forzar, las fórmulas usan el formato siguiente: &lt;columna de destino&gt;=&lt;columna originaria&gt;.&lt;código de la fila&gt; Separe cualquier colocación adicional para una fila mediante una coma y un espacio. Aquí se encuentra un ejemplo: D=C.190, E=C.100
 
 ## <a name="examples-of-advanced-formatting-options"></a>Ejemplos de opciones de formato avanzadas
 Los siguientes ejemplos muestran cómo dar formato a la definición de filas y la definición de columnas para forzar un informe básico de flujo de efectivo (ejemplo 1) y un informe estadístico (ejemplo 2).
@@ -65,7 +68,7 @@ En la tabla siguiente se muestra un ejemplo de una definición de fila que usa f
 
 | Código de fila | Descripción                      | Código de formato | Fórmulas, filas o unidades relacionadas | Anulación de formato | Saldo de comprobación | Control de impresión | Restricción de columna | Modificante de la fila               | Vínculo a dimensiones financieras |
 |----------|----------------------------------|-------------|-----------------------------|-----------------|----------------|---------------|--------------------|----------------------------|------------------------------|
-| 100      | Efectivo al inicio del período (NP) |             |                             |                 |                |               |                    | Modificador de la cuenta = \[/BB\] | +Segment2 \[\]= 1100         |
+| 100      | Efectivo al inicio del período (NP) |             |                             |                 |                |               |                    | Modificador de cuenta = \[/BB\] | +Segment2 = \[1100\]         |
 | 130      | Efectivo al inicio del período      | CAL         | C=C.100, F=D.100             |                 |                |               |                    |                            |                              |
 | 160      |                                  |             |                             |                 |                |               |                    |                            |                              |
 | 190      |                                  |             |                             |                 |                |               |                    |                            |                              |
@@ -95,8 +98,8 @@ En la tabla siguiente se muestra un ejemplo de una definición de fila que usa f
 | 100      | Recuento de personas: Estados Unidos            | CAL         | 4                               | \#\#\#0.;($\#\#\#0.) |                |               |                    |              |                                            |
 | 115      | Recuento de personas: international | CAL         | 11                              | \#\#\#0.;($\#\#\#0.) |                |               |                    |              |                                            |
 | 130      |                           |             |                                 |                      |                |               |                    |              |                                            |
-| 190      | Ventas de Estados Unidos                  |             |                                 |                      | C              |               |                    |              | +Segment2 \[= 41\*\], Segment3 \[= 00\]    |
-| 220      | Ventas internacionales       |             |                                 |                      | C              |               |                    |              | +Segment2 \[= 41\*\], 01:99\]de Segment3 \[= |
+| 190      | Ventas de Estados Unidos                  |             |                                 |                      | C              |               |                    |              | +Segment2 = \[41\*\], Segment3 = \[00\]    |
+| 220      | Ventas internacionales       |             |                                 |                      | C              |               |                    |              | +Segment2 = \[41\*\], Segment3 = \[01:99\] |
 | 250      |                           |             |                                 |                      |                |               |                    |              |                                            |
 | 280      |                           |             |                                 |                      |                |               |                    |              |                                            |
 | 310      | Ventas de Estados Unidos                  | CAL         | D=C.190,E=C.100,F=(C.100/C.190) |                      |                |               |                    |              |                                            |
@@ -171,11 +174,11 @@ La celda **Restricción de la columna** en una definición de fila tiene varios 
 -   La celda puede especificar la columna de importes que hay que ordenar.
 
 ## <a name="using-a-calculation-formula-in-a-row-definition"></a>Usar una fórmula de cálculo en una definición de filas
-Una definición de la fórmula de cálculo en una fila puede incluir ** **+,-** **, ** **\*,/y ** ** los operadores, y también ** IF/THEN/ELSE ** las instrucciones. Además, un cálculo puede implicar las celdas individuales y los importes absolutos (números reales que se incluyen en la fórmula). La fórmula puede contener hasta 1.024 caracteres. Los cálculos no se pueden aplicar a las filas que contengan las celdas de tipo **Vínculo a las dimensiones financieras** (FD). Sin embargo, puede incluir cálculos de filas consecutivas, eliminar la impresión de dichas filas y calcular el total de las filas de cálculo.
+Una fórmula de cálculo en una definición de fila puede incluir los operadores **+**, **-**, **\***, y **/**, y también las expresiones **IF/THEN/ELSE**. Además, un cálculo puede implicar las celdas individuales y los importes absolutos (números reales que se incluyen en la fórmula). La fórmula puede contener hasta 1.024 caracteres. Los cálculos no se pueden aplicar a las filas que contengan las celdas de tipo **Vínculo a las dimensiones financieras** (FD). Sin embargo, puede incluir cálculos de filas consecutivas, eliminar la impresión de dichas filas y calcular el total de las filas de cálculo.
 
 ### <a name="operators-in-a-calculation-formula"></a>Operadores de una fórmula de cálculo
 
-Una fórmula de cálculo usa operadores más complejos que una fórmula total de la fila. Sin embargo, se pueden utilizar ** **\*y/** ** los operadores así como los operadores adicionales para multiplicar (\*) y para dividir (/) importes. Para usar un intervalo especificado o una suma en una fórmula de cálculo, debe usar en el signo (@) antes de cualquier código de la fila, a menos que esté usando una columna en la definición de filas. Por ejemplo, para agregar el importe en la fila 100 el importe de la fila 330, puede usar la fórmula del total de fila ** 100+330 ** o la fórmula de cálculo **@100+@330**. **Nota:** Debe usar en el signo (@) antes de cada código de la fila que usa en una fórmula de cálculo. De lo contrario, el número se lee como un importe absoluto. Por ejemplo, la fórmula **@100+330 ** 330 USD agrega al importe de la fila 100. Al hacer referencia a una columna en una fórmula de cálculo no se requiere, no se requiere el signo (@).
+Una fórmula de cálculo usa operadores más complejos que una fórmula total de la fila. Sin embargo, se pueden usar los operadores **\*** y **/** junto con los operadores adicionales para multiplicar (\*) y para dividir (/) importes. Para usar un intervalo especificado o una suma en una fórmula de cálculo, debe usar en el signo (@) antes de cualquier código de la fila, a menos que esté usando una columna en la definición de filas. Por ejemplo, para agregar el importe de la fila 100 al importe de la fila 330, puede usar la fórmula total de la fila **100+330** o la fórmula de cálculo **@100+@330**. **Nota:** Debe usar en el signo (@) antes de cada código de la fila que usa en una fórmula de cálculo. De lo contrario, el número se lee como un importe absoluto. Por ejemplo, la fórmula **@100+330** agrega 330 USD agrega al importe de la fila 100. Al hacer referencia a una columna en una fórmula de cálculo no se requiere, no se requiere el signo (@).
 
 ### <a name="create-a-calculation-formula"></a>Crear una fórmula de cálculo
 
@@ -185,15 +188,15 @@ Una fórmula de cálculo usa operadores más complejos que una fórmula total de
 
 ### <a name="example-of-a-calculation-formula-for-specific-rows"></a>Ejemplo de una fórmula de cálculo para las filas específicas
 
-En este ejemplo, la fórmula de cálculo **@100+@330** significa que el importe de la fila 100 se agregan al importe de la fila 330. La fórmula del total de fila ** 340+370 ** agregar el importe en la fila 340 al importe de la fila 370. (El importe en la fila 370 es el importe de la fórmula de cálculo.)
+En este ejemplo, la fórmula de cálculo **@100+@330** significa que el importe de la fila 100 se agregará al importe de la fila 330. La fórmula total de la fila **340+370** agrega el importe de la fila 340 al importe de la fila 370. (El importe de la fila 370 es el importe de la fórmula de cálculo.)
 
 | Código de fila | Descripción                 | Código de formato | Fórmulas, filas o unidad relacionadas | Control de impresión | Modificante de la fila | Vínculo a dimensiones financieras |
 |----------|-----------------------------|-------------|----------------------------|---------------|--------------|------------------------------|
-| 340      | Efectivo al inicio del período |             |                            | NP            | BB           | 1100:1110 de +Account=\]\[       |
+| 340      | Efectivo al inicio del período |             |                            | NP            | BB           | +Cuenta=\[1100:1110\]       |
 | 370      | Efectivo al inicio del año   | CAL         | @100+@330                  | NP            |              |                              |
 | 400      | Efectivo al inicio del período | TOT         | 340+370                    |               |              |                              |
 
-Cuando la fila en una definición de fila tiene un código de formato **CAL**, y se especifica un cálculo matemático en la celda **Fórmulas o filas o unidades relacionadas**, también debe especificar la letra de la columna y de la fila asociadas en el informe. Por ejemplo, escriba A.120 ** ** para representar la columna A, fila 120. Como alternativa, puede usar una arroba (@) para indicar todas las columnas. Por ejemplo, escriba@120** ** para representar todas las columnas de la fila 120. Cualquier cálculo matemático que no tenga una letra de la columna o una arroba (@) se asume para ser un número real. ** Nota: ** Si usa un código de la fila de la etiqueta para hacer referencia a una fila, debe usar un período (.) como separador entre la letra de la columna y la etiqueta (por ejemplo, ** A.GROSS\_MARGIN/A.SALES **). Si usa una arroba (@), un separador no se requiere (por ejemplo, **@GROSS\_MARGIN/@SALES**).
+Cuando la fila en una definición de fila tiene un código de formato **CAL**, y se especifica un cálculo matemático en la celda **Fórmulas o filas o unidades relacionadas**, también debe especificar la letra de la columna y de la fila asociadas en el informe. Por ejemplo, escriba **A.120** para representar columna A, fila 120. Como alternativa, puede usar el signo @ para indicar todas las columnas. Por ejemplo, escriba **@120** para representar todas las columnas de la fila 120. Cualquier cálculo matemático que no tenga una letra de la columna o el signo @ se asume que es un número real. **Nota:** Si usa un código de filas de la etiqueta para hacer referencia a una fila, debe usar un punto (.) como separador entre la letra de la columna y la etiqueta (por ejemplo, **A.GROSS\_MARGIN/A.SALES**). Si usa el signo @, no se necesita el separador (por ejemplo, **@GROSS\_MARGIN/@SALES**).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Ejemplo de una fórmula de cálculo para una columna específica
 
@@ -201,7 +204,7 @@ En este ejemplo, la fórmula **E=C.340** de cálculo significa que el cálculo e
 
 | Código de fila | Descripción                 | Código de formato | Fórmulas, filas o unidad relacionadas | Control de impresión | Modificante de la fila | Vínculo a dimensiones financieras |
 |----------|-----------------------------|-------------|----------------------------|---------------|--------------|------------------------------|
-| 340      | Efectivo al inicio del período |             |                            | NP            | BB           | 1100:1110 de +Account=\]\[       |
+| 340      | Efectivo al inicio del período |             |                            | NP            | BB           | +Cuenta=\[1100:1110\]       |
 | 370      | Efectivo al inicio del año   | CAL         | E=C.340                    | NP            |              |                              |
 | 400      | Efectivo al inicio del período | TOT         | 340+370                    |               |              |                              |
 
@@ -210,7 +213,7 @@ En este ejemplo, la fórmula **E=C.340** de cálculo significa que el cálculo e
 Cuando modifica un número o un cálculo de una columna de una fila en particular pero no desea que afecte a otras columnas en el informe, puede especificar **CAL** (cálculo) en la columna **Código de formato** de la definición de filas.
 
 -   Para realizar un cálculo en todas las columnas del informe (**FD**), no especifique una asignación de la columna.
--   Para limitar una a las columnas específicas, especifique la letra de la columna, un signo igual (**=**) y, a continuación la fórmula.
+-   Para restringir una fórmula a columnas específicas, especifique la letra de la columna, un signo de igual (**=**), y después la fórmula.
 -   Puede especificar varias columnas. Cuando usa el signo @ con la situación específica de la columna, el signo @ está relacionado con la fila.
 -   Puede especificar varias fórmulas de la columna en una fila. Escriba las fórumlas separadas por comas.
 
@@ -220,46 +223,48 @@ Cuando modifica un número o un cálculo de una columna de una fila en particula
 |------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | @130\*.75              | Para cada columna, el valor de la fila 130 se multiplica por 0.75. El resultado se configura en la fila actual de cada columna. |
 | B=@130\*.75            | El mismo cálculo se realiza sólo en la columna B.                                                                      |
-| A, B, C=@100/@130(\*) .75 | A= A.100/A.130 (\*) B= .75 (\*) B.100/B.130 .75 C= (C.100/C.130\*.75)                                                           |
+| A,B,C=(@100/@130)\*.75 | A=(A.100/A.130)\*.75 B=(B.100/B.130)\*.75 C=(C.100/C.130)\*.75                                                           |
 
 ### <a name="ifthenelse-statements-in-a-row-definition"></a>La expresiones IF/THEN/ELSE en una definición de filas
 
-Las expresiones **IF/THEN/ELSE** se pueden agregar a cualquier cálculo válido y usar con el formato **CAL**. Puede especificar las fórmulas de cálculo **IF/THEN/ELSE** en la celda en la columna **Fórmulas o filas o unidades relacionadas** la columna. ** IF/THEN/ELSE ** las fórmulas de cálculo usan el formato siguiente: SI &lt;la fórmula OTRA de la fórmula del extracto&gt; verdadera &lt;o&gt; falsa &lt;ENTONCES&gt; ** fórmula &lt;OTRA&gt;** la parte del extracto es opcional.
+Las expresiones **IF/THEN/ELSE** se pueden agregar a cualquier cálculo válido y usar con el formato **CAL**. Puede especificar las fórmulas de cálculo **IF/THEN/ELSE** en la celda en la columna **Fórmulas o filas o unidades relacionadas** la columna. La fórmulas de cálculo **IF/THEN/ELSE** usan el formato siguiente: IF &lt;expresión verdadero o falso&gt; THEN &lt;fórmula&gt; ELSE &lt;fórmula&gt; La parte **ELSE &lt;fórmula&gt;** es opcional.
 
 #### <a name="if-statements"></a>Expresiones IF
 
 La expresión que sigue a la expresión **IF** puede ser cualquiera expresión que se pueda evaluar como verdadera o falsa. La expresión que sigue a la expresión **IF** puede implicar una evaluación simple, o puede ser una expresión compleja que puede contener varias expresiones. A continuación se incluyen algunos ejemplos:
 
--   ** IF A.2000&gt;** (evaluación simple)
--   ** IF A.2000&gt;Y A.20010&lt;, 000 ** compleja (informe)
--   ** IF A.20010000&gt;O bien ((A.340/B.1200\*2) &lt;1200)** (Instrucción compleja que contiene expresiones varios)
+-   **IF A.200&gt;0** (Evaluación simple)
+-   **IF A.200&gt;0 AND A.200&lt;10,000** (Expresión compleja)
+-   **IF A.200&gt;10000 OR ((A.340/B.1200)\*2 &lt;1200)** (Expresión compleja que contiene varias expresiones)
 
 El término **Períodos** en una expresión **IF** representa el número de períodos para el informe. Este término se usa normalmente para calcular un promedio del proyecto a la fecha. Por ejemplo, al ejecutar un informe para el período 7 YTD, la expresión **B.150/Períodos** significa que el valor de la fila 150 de la columna B se divide por 7.
 
 #### <a name="then-and-else-formulas"></a>Las fórmulas THEN y ELSE
 
-La fórmulas **THEN** y **ELSE** pueden ser cualquier cálculo válido, desde asignaciones muy simples de valor a fórmulas complejas. Por ejemplo, la instrucción ** IF A.2000&gt;ENTONCES A=B.200 ** medios, “si el valor de la celda de la columna A de la fila 200 más de 0 (cero), cursan el valor de la celda en la Empresa B de la columna de la fila 200 en la celda en la columna A de la ficha actual.” La expresión anterior **IF/THEN** configura un valor en una columna de la ficha actual. Sin embargo, puede usar el signo @ en evaluaciones de verdadero falso o la fórmula para representar todas las columnas. A continuación se muestran algunos otros ejemplos que se describen en las siguientes secciones:
+La fórmulas **THEN** y **ELSE** pueden ser cualquier cálculo válido, desde asignaciones muy simples de valor a fórmulas complejas. Por ejemplo, la expresión **IF A.200&gt;0 THEN A=B.200** significa "Si el valor de la celda de la columna A, fila 200 es mayor de 0 (cero), poner el valor de la celda en la columna B de la fila 200 en la celda de la columna A de la fila actual”. La expresión anterior **IF/THEN** configura un valor en una columna de la ficha actual. Sin embargo, puede usar el signo @ en evaluaciones de verdadero falso o la fórmula para representar todas las columnas. A continuación se muestran algunos otros ejemplos que se describen en las siguientes secciones:
 
--   ** IF A.200 &gt;0 ENTONCES B.200 **: Si el valor de la celda A.200 es positivo, el valor de la celda B.200 se coloca en cada columna de la ficha actual.
--   ** IF A.200 &gt;0 ENTONCES @200**: Si el valor de la celda A.200 es positivo, el valor de cada columna de la fila 200 se coloca en la columna correspondiente en la ficha actual.
--   ** IF @200&gt;0 ENTONCES @200**: Si el valor de la fila 200 de la columna actual es positivo, el valor de la fila 200 se coloca en la misma columna en la ficha actual.
+-   **IF A.200 &gt;0 THEN B.200**: Si el valor de la celda A.200 es positivo, el valor de la celda B.200 se pone en todas las columnas de la fila actual.
+-   **IF A.200 &gt;0 THEN @200**: Si el valor de la celda A.200 es positivo, el valor de cada columna en la fila 200 se pone en la correspondiente columna de la fila actual.
+-   **IF @200 &gt;0 THEN @200**: Si el valor de la fila 200 de la columna actual es positivo, el valor de la fila 200 se pone en la misma columna de la fila actual.
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Restricción de un cálculo a una unidad de notificación en una definición de filas
 
-Para restringir un cálculo a una sola unidad de notificación en un árbol de informes, no para ejecutar el importe resultante hasta una unidad de alto nivel, puede usar@Unit** ** el código en ** las fórmulas o las filas o las unidades relacionadas ** la celda en la definición de filas. **@Unit** el código se enumera en la Empresa B de la columna del árbol del informe de errores, ** nombre de la unidad **. Cuando usa@Unit** ** el código, los valores no se agrupan por arriba, pero el cálculo se evalúa en todos los niveles de árbol de informes. **Nota:** Para usar esta función, un organigrama debe estar asociado con la definición de filas. La fila de cálculo puede hacer referencia a una fila de cálculo o a una fila de datos financieros. El cálculo se registra en la celda **Fórmulas o filas o unidades relacionadas** de la definición de filas y de la restricción financiera del tipo de datos. El cálculo debe usar un cálculo condicional que empiece por ** IF @Unit** construcción. A continuación se indica un ejemplo: SI @Unit(VENTAS) ENTONCES @100 0 este cálculo incluye el importe de la fila 100 en cada columna del informe, pero únicamente para la unidad de ventas. Si las unidades varias se denominan VENTAS, el importe aparece en cada una de las unidades. Además, la fila 100 puede ser una fila de datos financieros y se puede definir como sin impresión. En este caso, se evita que el importe aparezca en todas las unidades del organigrama. También puede limitar el importe a una columna única del informe, como la columna H, mediante una restricción de columna para imprimir el valor solo en esa columna del informe. Puede incluir combinaciones de **OR** en una expresión **SI**. A continuación se indica un ejemplo: SI @Unit(VENTAS) O bien SALESWEST @Unit(5) ENTONCES @100 ELSE puede especificar una unidad en una restricción del tipo de cálculo en una de las siguientes maneras:
+Para restringir un cálculo a una sola unidad de notificación en un organigrama, para que no se acumule el importe resultante hasta una unidad de nivel superior, puede usar el código **@Unit** en la celda **Fórmulas o filas o unidades relacionadas** en la definición de filas. El código **@Unit** se muestra en la columna B del organigrama **Nombre de la unidad**. Cuando se usa el código **@Unit**, los valores no se acumulan, pero el cálculo se evalúa a todos los niveles del organigrama. **Nota:** Para usar esta función, un organigrama debe estar asociado con la definición de filas. La fila de cálculo puede hacer referencia a una fila de cálculo o a una fila de datos financieros. El cálculo se registra en la celda **Fórmulas o filas o unidades relacionadas** de la definición de filas y de la restricción financiera del tipo de datos. El cálculo debe usar un cálculo condicional que comienza por una construcción **IF @Unit**. Esto es un ejemplo: IF @Unit(SALES) THEN @100 ELSE 0 Este cálculo incluye el importe de la fila 100 en cada columna de informe, pero únicamente para la unidad de ventas. Si las unidades varias se denominan VENTAS, el importe aparece en cada una de las unidades. Además, la fila 100 puede ser una fila de datos financieros y se puede definir como sin impresión. En este caso, se evita que el importe aparezca en todas las unidades del organigrama. También puede limitar el importe a una columna única del informe, como la columna H, mediante una restricción de columna para imprimir el valor solo en esa columna del informe. Puede incluir combinaciones de **OR** en una expresión **SI**. Esto es un ejemplo: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Puede especificar una unidad en una restricción de tipo cálculo de una de las siguientes formas:
 
--   Escriba un nombre de la unidad para incluir las unidades que coinciden. Por ejemplo, ** IF @Unit(VENTAS) ** permisos el cálculo para cualquier unidad que se denomina SALES, incluso si hay varias unidades de ventas en el árbol de informes.
--   Especifique el nombre de la empresa y la unidad para restringir el cálculo a unidades específicas de una empresa específica. Por ejemplo, escriba ** IF @Unit(CUMBRE: VENTAS **) limitar el cálculo a las unidades de ventas en la empresa de la CUMBRE.
--   Especifique el código completo de la jerarquía del organigrama para restringir el cálculo en una unidad específica. Por ejemplo, escriba ** IF @Unit(SUMMARY^ACME^WEST COAST^SALES **). **Nota:** Para buscar el código completo de la jerarquía, haga clic con el botón secundario en la definición del organigrama y luego seleccione **Copiar identificador de la unidad de notificación (código H)**.
+-   Escriba un nombre de la unidad para incluir las unidades que coinciden. Por ejemplo, **IF @Unit(SALES)** habilita el cálculo para cualquier unidad que se llame VENTAS, incluso si hay varias unidades de ventas en el organigrama.
+-   Especifique el nombre de la empresa y la unidad para restringir el cálculo a unidades específicas de una empresa específica. Por ejemplo, escriba **IF @Unit(ACME:SALES**) para restringir el cálculo en las unidades de ventas de la empresa ACME.
+-   Especifique el código completo de la jerarquía del organigrama para restringir el cálculo en una unidad específica. Por ejemplo, escriba **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**. **Nota:** Para buscar el código completo de la jerarquía, haga clic con el botón secundario en la definición del organigrama y luego seleccione **Copiar identificador de la unidad de notificación (código H)**.
 
 #### <a name="restrict-a-calculation-to-a-reporting-unit"></a>Restringir un cálculo a una unidad de notificación
 
 1.  En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
 2.  Haga doble clic en la celda **Código de formato** y luego seleccione **CAL**.
-3.  Haga clic en ** las fórmulas o las filas o las unidades relacionadas ** a la celda, y especifique un cálculo condicional que empiece por ** IF @Unit** construcción.
+3.  Haga clic en la celda **Fórmulas o filas o unidades relacionadas** y especifique un cálculo condicional que comienza en una construcción **IF @Unit**.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>La expresiones IF/THEN/ELSE en una definición de columna
 
-Una expresión **IF/THEN/ELSE** permite a cualquier cálculo depender de los resultados de cualquier otra columna. Puede hacer referencia a otras columnas, pero no puede hacer referencia a una celda del informe en la expresión **IF**. Cualquier cálculo se debe aplicar a la columna completa. Por ejemplo, la instrucción ** IF ENTONCES&gt;\*OTRA C de la B100 B 1.25 ** medios, “si es el importe B en la columna más de 100, cursan el valor B de la columna en ** CALC ** columna. Si el importe en la columna B no es más de 100, multiplique el valor de la columna C por 1.25, y configure el resultado en la columna **CALC**.” Siga siempre la expresión **IF** con una expresión de lógica que se pueda evaluar como verdadero o falso. Las fórmulas que usa para las expresiones **THEN** y **ELSE** pueden contener referencias a cualquier número de columnas, y estas fórmulas pueden ser tan complejas como quiera. **Nota:** No puede configurar los resultados del cálculo en ninguna otra columna. Los resultados deben encontrarse en la columna que contiene la fórmula.
+Una expresión **IF/THEN/ELSE** permite a cualquier cálculo depender de los resultados de cualquier otra columna. Puede hacer referencia a otras columnas, pero no puede hacer referencia a una celda del informe en la expresión **IF**. Cualquier cálculo se debe aplicar a la columna completa. Por ejemplo, la expresión **IF B&gt;100 THEN B ELSE C\*1.25** significa "Si el importe en la columna B es mayor que 100, poner el valor de la columna B en la columna **CALC**. Si el importe en la columna B no es más de 100, multiplique el valor de la columna C por 1.25, y configure el resultado en la columna **CALC**.” Siga siempre la expresión **IF** con una expresión de lógica que se pueda evaluar como verdadero o falso. Las fórmulas que usa para las expresiones **THEN** y **ELSE** pueden contener referencias a cualquier número de columnas, y estas fórmulas pueden ser tan complejas como quiera. **Nota:** No puede configurar los resultados del cálculo en ninguna otra columna. Los resultados deben encontrarse en la columna que contiene la fórmula.
+
+
 
 

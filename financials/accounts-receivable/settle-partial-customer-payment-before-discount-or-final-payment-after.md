@@ -1,5 +1,5 @@
 ---
-title: "Establecer un pago parcial de cliente antes de la fecha de descuento con un pago de finalización después de la fecha de descuento"
+title: "Liquidar un pago de cliente parcial antes de la fecha de descuento con un pago final después de la fecha de descuento"
 description: "En este artículo se aborda el efecto de liquidar pagos de las facturas para los clientes. El escenario se centra en los efectos del subdiario, no en la Contabilidad general."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Establecer un pago parcial de cliente antes de la fecha de descuento con un pago de finalización después de la fecha de descuento
+# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidar un pago de cliente parcial antes de la fecha de descuento con un pago final después de la fecha de descuento
+
+[!include[banner](../includes/banner.md)]
+
 
 En este artículo se aborda el efecto de liquidar pagos de las facturas para los clientes. El escenario se centra en los efectos del subdiario, no en la Contabilidad general.
 
-Fabrikam vende mercancías al cliente 4027. Fabrikam ofrece un descuento por pronto pago del 1 por ciento si la factura se paga en 14 días. Las facturas se deben pagar en 30 días. Fabrikam también ofrece descuentos por pronto pago en pagos parciales. Los parámetros del acuerdo se encuentran en ** los parámetros de clientes ** la página.
+Fabrikam vende productos al cliente 4027. Fabrikam ofrece un descuento por pronto pago del uno por ciento si la factura se paga en 14 días. Las facturas se deben pagar en 30 días. Fabrikam también ofrece descuentos por pronto pago en pagos parciales. Los parámetros de liquidación se encuentran en la página **Parámetros de clientes**.
 
 ## <a name="invoice"></a>Factura
-El 25 de junio, Arnie entra y registra una factura de 1,000.00 para el cliente 4027. Arnie puede ver esta factura con ** las transacciones ** el botón en ** los clientes ** la página.
+El 25 de junio, Arnie introduce y registra una factura de 1.000,00 del cliente 4.027. Arnie puede ver esta transacción si usa el botón **Transacciones** en la página **Clientes**.
 
 | Comprobante   | Tipo de transacción | Fecha      | Factura | Importe en débito en divisa de transacción | Importe en crédito en divisa de transacción | Saldo  | Divisa |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -46,7 +49,7 @@ El 2 de julio, el cliente 4027 hace un pago parcial de 297,00 para la factura. E
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
 | Seleccionado | Normal            | FTI-10020 | 4027    | 25/6/2015 | 25/7/2015 | 10020   | 1.000,00                             | USD      | 297,00           |
 
-La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**. Si no cambia el valor de **Importe para liquidar** a 297,00, los valores de **Importe de descuento por pronto pago** que aparecen variarán. Sin embargo, 3.00 se tomarán como el descuento por pronto pago cuando se registre el pago, porque la liquidación ajusta automáticamente ** ascienda a liquidar ** valor para usted.
+La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**. Si no cambia el valor de **Importe para liquidar** a 297,00, los valores de **Importe de descuento por pronto pago** que aparecen variarán. No obstante, se extraerá un valor de 3,00 como descuento por pronto pago cuando se registre el pago, ya que la liquidación ajusta automáticamente el valor de **Importe para liquidar**.
 
 |                              |           |
 |------------------------------|-----------|
@@ -105,6 +108,8 @@ Arnie cambia de nuevo el valor del campo **Utilizar descuento por pronto pago** 
 | ARP-10020  |                  | 1/7/2015  |         |                                      | 297,00                                | 0,00    | USD      |
 | DISC-10020 |                  | 1/7/2015  |         |                                      | 3,00                                  | 0,00    | USD      |
 | ARP-10021  |                  | 11/7/2015 |         |                                      | 700,00                                | 0,00    | USD      |
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Publicar las líneas de diario y documentos de Excel"
-description: "Este tema explica cómo especificar y publicar las líneas para los diarios generales de Microsoft Excel. Incluye información acerca de las plantillas diferentes que puede usar, en función del tipo de transacciones que está introduciendo."
+title: "Publicar líneas de diario y documentos de Excel"
+description: "En este tema se explica cómo introducir y publicar las líneas para diarios generales desde Microsoft Excel. Incluye información sobre las distintas plantillas que se pueden utilizar, dependiendo del tipo de transacciones que esté introduciendo."
 author: twheeloc
 manager: AnnBe
 ms.date: 2017-04-04
@@ -25,28 +25,28 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="publish-journal-lines-and-documents-from-excel"></a>Publicar las líneas de diario y documentos de Excel
+# <a name="publish-journal-lines-and-documents-from-excel"></a>Publicar líneas de diario y documentos de Excel
 
-Este tema explica cómo especificar y publicar las líneas para los diarios generales de Microsoft Excel. Incluye información acerca de las plantillas diferentes que puede usar, en función del tipo de transacciones que está introduciendo.
+En este tema se explica cómo introducir y publicar las líneas para diarios generales desde Microsoft Excel. Incluye información sobre las distintas plantillas que se pueden utilizar, dependiendo del tipo de transacciones que esté introduciendo.
 
-Los usuarios pueden especificar y publicar las líneas para los diarios financieros de Microsoft Excel. Una vez que un usuario cree un diario, ** líneas abiertas en Excel ** el botón muestra las plantillas disponibles. Las plantillas están diseñados para admitir escenarios de facturación específicos, aunque no admiten a cada combinación de tipo de cuenta en el diario. En la tabla siguiente se muestran las plantillas que están disponibles y los tipos de cuenta que admiten.
+Los usuarios pueden introducir y publicar líneas de diarios financieros desde Microsoft Excel. Después de que un usuario cree un diario, el botón **Abrir líneas en Excel** muestra las plantillas disponibles. Las plantillas están diseñadas para admitir determinados escenarios; sin embargo, no todas las combinaciones de tipo de cuenta se admiten en el diario. La tabla siguiente muestra las plantillas disponibles y los tipos de cuentas que admiten.
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| **Template**             | ** Tipos de cuenta admitidos **                                                                                             | ** Cómo tener acceso a la plantilla **                                                          |
-| Líneas de diario de contabilidad     | Cuenta: Libro mayor, cliente, proveedor, cuenta de contrapartida del banco: Se admite el libro mayor, cliente, proveedor, empresas vinculadas del banco.       | Diario general                                                                         |
-| Registro de facturas         | Cuenta: Cuenta de contrapartida del proveedor: Las empresas vinculadas de contabilidad no se admiten.                                                    | Registro de facturas de proveedores                                                                     |
-| Diario de facturas          | Cuentas: Cuenta de contrapartida del proveedor: Se admiten las empresas vinculadas de contabilidad.                                                      | Diario de facturas de proveedores                                                                      |
+| **Plantilla**             | **Tipos de cuenta admitidos**                                                                                             | **Cómo acceder a la plantilla**                                                          |
+| Líneas de diario de contabilidad     | Cuenta: Libro mayor, Cliente, Proveedor, Cuenta de contrapartida de Banco: se admite Libro mayor, Cliente, Proveedor, Empresas vinculadas de Banco.       | Diario general                                                                         |
+| Registro de facturas         | Cuenta: Cuenta de contrapartida del proveedor: Libro mayor empresas vinculadas no se admite.                                                    | Registro de facturas de proveedores                                                                     |
+| Diario de facturas          | Cuentas: Cuenta de contrapartida del proveedor: Libro mayor empresas vinculadas se admite.                                                      | Diario de facturas de proveedores                                                                      |
 | Factura del proveedor           |                                                                                                                         | Factura del proveedor                                                                          |
-| Diario de facturas del cliente | Cuenta: Cuenta de contrapartida del cliente: Se admiten las empresas vinculadas de contabilidad.                                                     | Diario general                                                                         |
-| Factura de servicios        |                                                                                                                         | En ** factura de servicios ** la página, abra ** clic en Excel (** el icono de Microsoft Office). |
-| Diario de activos fijos     | Activo en la contabilidad, al banco, al cliente, o al proveedor. Las empresas vinculadas no se admiten.                                               | Diario de activos fijos                                                                     |
-| Diario de pagos a proveedores   | Cuenta: Cuenta de contrapartida del proveedor: Se admite el libro mayor, empresas vinculadas del banco.                                                 | Diario de pagos a proveedores                                                                  |
-| Diario de pagos de clientes | Cuenta: Cuenta de contrapartida del cliente: Se admite el libro mayor, empresas vinculadas del banco.                                               | Diario de pagos de clientes                                                                |
-| Diario de gastos de proyecto  | Cuenta: Proyecto, contabilidad, cliente, cuenta de contrapartida del proveedor: Se admite el proyecto, contabilidad, cliente, empresas vinculadas del proveedor. | Gasto general del diario (en Gestión de proyectos y contabilidad)                       |
+| Diario de facturas del cliente | Cuenta: Cuenta de contrapartida del cliente: Libro mayor empresas vinculadas se admite.                                                     | Diario general                                                                         |
+| Factura de servicios        |                                                                                                                         | En la página **Factura de servicios**, haga clic en **Abrir en Excel** (el icono Microsoft Office). |
+| Diario de activos fijos     | Activo a libro mayor, banco, cliente o proveedor. No se admiten empresas vinculadas.                                               | Diario de activos fijos                                                                     |
+| Diario de pagos a proveedores   | Cuenta: Cuenta de contrapartida del proveedor: se admite Libro mayor, Banco empresas vinculadas.                                                 | Diario de pagos a proveedores                                                                  |
+| Diario de pagos de clientes | Cuenta: Cuenta de contrapartida del cliente: se admite Libro mayor, Banco empresas vinculadas.                                               | Diario de pagos de clientes                                                                |
+| Diario de gastos de proyecto  | Cuenta: Proyecto, Libro mayor, Cliente, Cuenta de contrapartida de proveedor: se admite Proyecto, Libro mayor, Cliente, Empresas vinculadas de proveedor. | Gasto de diario general (bajo Administración de proyectos y contabilidad)                       |
 
-Cuando se publiquen las líneas, se validan para asegurarse de que cumplen con las reglas configuradas en los diarios financieros. Después de que se publiquen las líneas, los usuarios pueden editar o registrar asientos de Microsoft Dynamics 365 para las operaciones. 
+Cuando se publican las líneas, se validan para asegurarse de que cumplen con las reglas definidas en las revistas financieras. Después de publicarse las líneas, los usuarios pueden editar o registrar asientos de Microsoft Dynamics 365 for Operations. 
 
-Para agregar dimensiones financieras a una plantilla, los cambios adicionales se requieren. Para obtener más información, consulte [agregar dimensiones a la plantilla de Microsoft Excel] (\ revelador - itpro dimensiones financieras \ \ agregar-dimensión-Excel- plantillas). Una vez que las dimensiones se agregan a la entidad, están disponibles en el diseñador de Excel y pueden agregarse a la plantilla.
+Para agregar dimensiones financieras a una plantilla, se necesitan otros cambios adicionales. Para obtener más información, consulte [Agregar dimensiones a la plantilla de Microsoft Excel](\dev-itpro\financial-dimensions\add-dimensions-excel-templates). Después de agregar dimensiones a la entidad, quedarán disponibles en el diseñador de Excel y pueden agregarse a la plantilla.
 
 
 

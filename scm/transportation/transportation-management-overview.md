@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-overview"></a>Visión general de la administración de transporte
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tema ofrece una visión general de la funcionalidad de Administración de transporte en Microsoft Dynamics 365 for Operations.
 
 La Administración de transporte le permite gestionar el transporte de su empresa e identificar soluciones de proveedor y de ruta para los pedidos de entrada y salida. Por ejemplo, puede identificar la ruta más rápida o la tarifa menos cara para un envío. En la tabla siguiente se describen los escenarios principales para usar la Administración de transporte en Microsoft Dynamics 365 for Operations.
@@ -67,19 +70,21 @@ La Administración de transporte le permite gestionar el transporte de su empres
 ## <a name="planning-transportation-in-dynamics-365-for-operations"></a>Planificación del transporte en Dynamics 365 for Operations
 En la Administración de transporte, la planificación del transporte se puede basar en órdenes o en los envíos que se crean a partir de esos pedidos. Los envíos siempre existen en algún punto específico pero no son necesarios para la planificación de transporte. Los pedidos de transferencia forman parte del escenario de salida y se pueden planificar junto con los pedidos de ventas. 
 
-![Gráfico de flete](./media/Load-drawing1-1024x477.jpg)
+![Cargar dibujo](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Transporte de entrada
-Cuando pide artículos de un proveedor, y artículos se deben entregar al propio almacén, puede que desee que el transporte de los artículos usted mismo. Puede usar Dynamics 365 para que las operaciones es el transporte y la recepción de la carga de entrada. En la siguiente ilustración se muestra el flujo del proceso empresarial para planificar el transporte de una carga de entrada. 
+Cuando pide artículos a un proveedor, y los artículos se deben entregarse a su almacén, puede que desee organizar el transporte de los artículos usted mismo. Puede usar Dynamics 365 for Operations para planificar el transporte y la recepción de la carga de entrada. En la siguiente ilustración se muestra el flujo del proceso empresarial para planificar el transporte de una carga de entrada. 
 
 ![Flujo del proceso empresarial para el transporte de la carga de entrada](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Transporte de salida
 Puede planificar y procesar una carga de salida para enviar artículos específicos del almacén de una empresa a un cliente. Puede usar Dynamics 365 for Operations para planificar el transporte y el envío de una carga de salida. En la siguiente ilustración se muestra el flujo del proceso empresarial para planificar y procesar las cargas de salida para su envío. 
 
-![Planificación y procesando cargas de salida](./media/Planningandprocessingoutboundloads.jpg)
+![Planificación y procesamiento de cargas de salida](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Planificación de carga
 Dynamics 365 for Operations proporciona una estrategia de planificación de carga que se denomina Estrategia de planificación de la carga basada en volumen. Esta estrategia le permite usar los valores máximos que se especifican para la altura y el peso de la plantilla de carga o bien, puede reemplazar los ajustes especificando valores nuevos. Para usar esta estrategia, selecciónela en el campo **Estrategia de creación de carga** en la ficha desplegable **Programa de instalación** de la página **Banco de trabajo de creación de carga**. Además, puede agregar sus propias estrategias de creación de carga creando una nueva clase en el árbol de objetos de aplicación (AOT).
+
+
 
 

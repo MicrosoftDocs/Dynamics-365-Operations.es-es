@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Conversión de divisas contables o de notificación
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Una empresa que debe cambiar la divisa de contabilidad o la divisa de notificación tiene dos opciones. La primera opción es crear una nueva empresa y comenzar de cero. La segunda opción es ejecutar el proceso de conversión de la divisa de contabilidad y de notificación. Este es un proceso muy prolongado que cambia todas las transacciones en el sistema. También se requiere configuración adicional para poder ejecutar el proceso.
@@ -72,6 +75,8 @@ Después de la conversión de divisas, debe generar todos los informes de concil
 -   Si la conversión de la divisa de contabilidad produce diferencias de redondeo, estas diferencias no se registran mediante el asiento en el que se ha producido la diferencia de redondeo. En su lugar, las diferencias se registran mediante el asiento especificado para los registros de conversión. Tras la conversión, todos los informes que se comprueban por asiento y fecha incluirán estas diferencias de redondeo. Este comportamiento es correcto y se puede ignorar.
 -   Si los informes de conciliación de cliente y proveedor muestran un importe de diferencia en la línea de total y no existía un importe de diferencia antes de la conversión, este importe de diferencia se debe registrar. La cuenta es el extracto de cuenta para los clientes y los proveedores. La cuenta de contrapartida es la cuenta contable para las pérdidas por conversión o ganancias por conversión.
 
-Una vez eliminados todos los diarios de transacción contable, puede registrar en el diario las transacciones contables. Haga clic en ** contabilidad general ** &gt; ** periódico ** &gt; ** diarios ** &gt; ** registrando en el diario **. Puede revalorizar los importes en divisa extranjera tras la conversión de divisa si se requiere revalorización. Los importes en divisa extranjera se revalorizan si selecciona **Estándar** en el campo **Método** para la revalorización.
+Una vez eliminados todos los diarios de transacción contable, puede registrar en el diario las transacciones contables. Haga clic en **Contabilidad general** &gt; **Periódico** &gt; **Diarios** &gt; **Creación de diarios**. Puede revalorizar los importes en divisa extranjera tras la conversión de divisa si se requiere revalorización. Los importes en divisa extranjera se revalorizan si selecciona **Estándar** en el campo **Método** para la revalorización.
+
+
 
 

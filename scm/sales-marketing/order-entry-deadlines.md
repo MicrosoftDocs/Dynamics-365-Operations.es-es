@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-entry-deadlines"></a>Fechas límite del pedido
 
+[!include[banner](../includes/banner.md)]
+
+
 En este artículo se proporciona información acerca de los plazos de la entrada de pedidos. Una fecha límite de entrada de pedido es una hora límite que determina si se trata un pedido de cliente (y se completa) como si se hubiera recibido en el día actual o al día siguiente.
 
 En muchas empresas, solo los pedidos de ventas que se reciben antes de una hora determinada del día se tratan como si se recibieran ese día. Los pedidos recibidos después de esa hora se tratan como si se hubieran recibido el siguiente día laboral. Esta hora límite para los pedidos se conoce como fecha límite de entrada de pedidos.  
 
-Las fechas límite de entrada de pedidos se usan como entrada para los compromisos de entrega. Por lo tanto, le ayudan a gestionar las expectativas del cliente sobre las entregas del pedido. Por ejemplo, los clientes pueden ver que, si realizan un pedido antes de una hora específica, usted se compromete a enviar las mercancías en el mismo día. Sin embargo, si faltan esa fecha límite, pueden contar con el envío sólo en el siguiente día laboral. Se fechas límite de entrada de pedidos establecidas en función de sus capacidades de almacén y programaciones transportista de envío.  
+Las fechas límite de entrada de pedidos se usan como entrada para los compromisos de entrega. Por lo tanto, le ayudan a gestionar las expectativas del cliente sobre las entregas del pedido. Por ejemplo, los clientes pueden ver que, si realizan un pedido antes de una hora específica, usted se compromete a enviar las mercancías en el mismo día. Sin embargo, si no cumplen ese plazo, puede contar con el envío solo en el siguiente día laboral. Las fechas límite de entrada de pedidos se establecen en función de las capacidades de almacén y las programaciones del transportista del envío.  
 
 En la página **Fechas límite del pedido**, puede configurar las horas de la fecha límite de entrada de pedidos para todos los días de la semana. Si se reciben pedidos después de la hora especificada, se tratan como si se hubieran recibido el día siguiente. De forma predeterminada, estas horas se establecen a las 23:59 (es decir, un minuto antes de la media noche del final del día pertinente). Puede cambiar las horas predeterminadas para que coincidan con las horas de la fecha límite de envío o recepción reales.  
 
@@ -43,7 +46,7 @@ Si su empresa consta de varios sitios, puede configurar fechas de entrada de ped
 En la página **Activar combinaciones de fechas límite de pedido**, puede definir las combinaciones de sitios y grupos de fechas límite de entrada de pedidos que se permiten.
 
 ## <a name="example-order-entry-deadline"></a>Ejemplo: fecha límite de entrada de pedido
-La fecha límite de pedido de los martes se ha establecido a las 16:00. Un martes concreto, a las 17:00, intenta establecer la fecha actual como fecha de envío. Nota (que no hay plazo para este ejemplo). Si ** control de fecha de entrega ** se selecciona la casilla, recibirá la advertencia de que las comunidades autónomas que la fecha no es válida. Esta advertencia aparece en la página **Fechas de envío y recepción disponibles**, donde puede seleccionar fechas alternativas.
+La fecha límite de pedido de los martes se ha establecido a las 16:00. Un martes concreto, a las 17:00, intenta establecer la fecha actual como fecha de envío. (Observe que no hay plazo para este ejemplo). Si está activada la casilla **Control de fecha de entrega**, recibirá una advertencia que indica que la fecha no es válida. Esta advertencia aparece en la página **Fechas de envío y recepción disponibles**, donde puede seleccionar fechas alternativas.
 
 ## <a name="example-different-order-entry-deadlines-per-site"></a>Ejemplo: diferentes fechas límite de entrada de pedidos en cada sitio
 Su empresa consta de dos sitios. Los sitios se encuentran en diferentes zonas horarias, tal y como se muestra en la siguiente tabla.
@@ -67,7 +70,7 @@ Usted es el procesador de pedidos y se encuentra en Utah, cuya zona horaria es M
 
 En la siguiente tabla, se muestra cómo se convierten a hora MST las fechas límite de entrada de pedidos para los sitios A y B.
 
-| Sitio A: PST         | Sitio A: MST        | B del sitio: EST           | B del sitio: MST        |
+| Sitio A: PST         | Sitio A: MST        | Sitio B: EST           | Sitio B: MST        |
 |---------------------|--------------------|-----------------------|--------------------|
 | 13:00               | 14:00              | 14:00                 | 12:00              |
 
@@ -95,7 +98,7 @@ Usted es el procesador de pedidos y se encuentra en Utah, cuya zona horaria es M
 
 En la siguiente tabla, se muestra cómo se convierten a hora MST las fechas límite de entrada de pedidos para los sitios A y B.
 
-| Sitio A: PST         | Sitio A: MST        | B del sitio: EST           | B del sitio: MST        |
+| Sitio A: PST         | Sitio A: MST        | Sitio B: EST           | Sitio B: MST        |
 |---------------------|--------------------|-----------------------|--------------------|
 | 13:00               | 14:00              | 13:00                 | 11:00              |
 
@@ -104,6 +107,8 @@ En la siguiente tabla, se muestra cómo se convierten a hora MST las fechas lím
 <a name="see-also"></a>Consulte también
 --------
 
-[Delivery schedules](delivery-schedules.md)
+[Programaciones de entrega](delivery-schedules.md)
+
+
 
 

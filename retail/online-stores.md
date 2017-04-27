@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16161
 ms.assetid: 646d560c-f856-4701-b4ca-44e357ef09b8
 ms.search.region: Global
@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 ---
 
 # <a name="online-store-overview"></a>Visión general de la tienda en línea
+
+[!include[banner](includes/banner.md)]
+
 
 Este artículo proporciona información sobre tiendas minoristas en línea y sobre cómo configurarlas en Microsoft Dynamics 365 for Operations.
 
@@ -50,5 +53,7 @@ Antes de crear una tienda en línea, debe definir la jerarquía de navegación d
 
 ## <a name="organization-hierarchies"></a>Jerarquías organizativas
 Las jerarquías organizativas se usan para estructurar los canales comerciales. Las jerarquías organizativas representan las relaciones que hay entre las organizaciones que forman el negocio. Al configurar tiendas en línea, puede agregarlas a una jerarquía organizativa. A continuación, las tiendas comparten los datos que se usan para los surtidos, el reaprovisionamiento y los informes. Al crear una jerarquía organizativa, se le asigna un propósito. El propósito indica cómo se usa la jerarquía en la estructura comercial. Puede crear una jerarquía organizativa para sus operaciones de tienda y usarla para las selecciones, reabastecimientos e informes. También puede crear una jerarquía organizativa independiente para cada propósito. También puede crear varias jerarquías con el mismo propósito y asignar un canal independiente a cada una de ellas. Si tiene previsto publicar catálogos de productos comerciales en la tienda en línea, deberá, como mínimo, agregar la tienda en línea a una jerarquía organizativa para los surtidos. Los productos de un catálogo se seleccionan de los surtidos asignados a la tienda en línea. Cuando se publique el catálogo, el proceso de publicación compara las fechas de vigencia para el surtido asignado a la tienda en línea con los productos que se incluyen en el catálogo para determinar los productos que estarán disponibles en la tienda en línea.
+
+
 
 

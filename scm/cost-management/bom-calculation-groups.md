@@ -1,5 +1,5 @@
 ---
-title: "Grupos de los cálculos de L"
+title: "Grupos para cálculos de lista de materiales"
 description: "Este artículo proporciona información acerca de los grupos de cálculo para listas de materiales y de cómo configurarlos. Para ejecutar un cálculo de L. MAT, debe configurar los grupos de cálculo y asignarlos a artículos individuales o establecer un grupo de cálculo predeterminado. La configuración del cálculo del grupo de cálculo se utiliza a continuación como valores predeterminados en la página Cálculo de L. MAT en el momento del cálculo de L. MAT."
 author: YuyuScheller
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bom-calculations-groups"></a>Grupos de los cálculos de L
+# <a name="bom-calculations-groups"></a>Grupos de cálculo de lista de materiales
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo proporciona información acerca de los grupos de cálculo para listas de materiales y de cómo configurarlos. Para ejecutar un cálculo de L. MAT, debe configurar los grupos de cálculo y asignarlos a artículos individuales o establecer un grupo de cálculo predeterminado. La configuración del cálculo del grupo de cálculo se utiliza a continuación como valores predeterminados en la página Cálculo de L. MAT en el momento del cálculo de L. MAT. 
 
-Se requiere un grupo de cálculo predeterminado en la página **Parámetros de gestión de inventario y almacenes** o un grupo de cálculo específico de producto en la página **Detalles de producto emitido**. El sistema busca primero la configuración del grupo de cálculo en ** Detalles de producto emitido ** la página. Si no encuentra un grupo de cálculo ahí, buscará en ** haga un inventario y almacenes los parámetros de gestión ** la página. Si el sistema no puede encontrar un grupo de cálculo, el usuario recibe un mensaje de error durante el cálculo. Un grupo de cálculo contiene directivas para el modelo de precio de coste, el modelo de precio de venta y la lista de comprobación de las advertencias. La configuración del cálculo del grupo de cálculo se utiliza como valores predeterminados en la página **Cálculo de L. MAT** en el momento del cálculo de L. MAT.
+Se requiere un grupo de cálculo predeterminado en la página **Parámetros de gestión de inventario y almacenes** o un grupo de cálculo específico de producto en la página **Detalles de producto emitido**. El sistema busca primero la configuración del grupo de cálculo en la página **Detalles de producto emitido**. Si no encuentra un grupo de cálculo allí, busca en la página **Parámetros de gestión de inventario y almacenes**. Si el sistema no encuentra un grupo de cálculo, el usuario recibe un mensaje de error durante el cálculo. Un grupo de cálculo contiene directivas para el modelo de precio de coste, el modelo de precio de venta y la lista de comprobación de las advertencias. La configuración del cálculo del grupo de cálculo se utiliza como valores predeterminados en la página **Cálculo de L. MAT** en el momento del cálculo de L. MAT.
 
 ## <a name="purposes-of-bom-calculation-groups"></a>Propósitos de los grupos de cálculo de L. MAT
 Asigne un grupo de cálculo de L. MAT a artículos por varios motivos:
@@ -72,7 +75,7 @@ En la ficha desplegable **Advertencias**, se seleccionan las opciones de los men
 Configuración predeterminada en los parámetros de gestión de almacenes
 --------------------------------------------------------------
 
-Dado que se requieren grupos de cálculo para poder ejecutar cálculos, debe configurar un grupo de cálculo predeterminado en los parámetros de Gestión de inventarios. Esta configuración permite a las empresas tener una configuración estándar de grupo de costes y ganancias para todos los artículos. A continuación, si un artículo concreto tiene requisitos de cálculo especiales, el usuario puede asignar a un grupo de cálculo diferente a ese artículo. Normalmente, puede establecer grupos de cálculo en artículos del componente de la L. MAT en lugar de los artículos de la L. MAT. Sin embargo, cuando se muestran mensajes de advertencia, se pueden aplicar grupos de cálculo. Un grupo de cálculo que está asignado a artículos reemplaza el valor predeterminado que se configura en los parámetros de Gestión de inventarios. Puede configurar el parámetro predeterminado en ** administración de costes ** &gt; ** hace un inventario las directivas de contabilidad ** &gt; ** configurar los parámetros ** &gt; ** las estadísticas de inventario ** &gt; ** grupo de cálculo **. Al establecer una configuración de grupo de configuración predeterminado, también puede configurar las condiciones de las advertencias que les aparecen a los usuarios durante el proceso de cálculo de L. MAT, si los componentes seleccionados pueden provocar errores de cálculo.
+Dado que se requieren grupos de cálculo para poder ejecutar cálculos, debe configurar un grupo de cálculo predeterminado en los parámetros de Gestión de inventarios. Esta configuración permite a las empresas tener una configuración estándar de grupo de costes y ganancias para todos los artículos. A continuación, si un artículo concreto tiene requisitos de cálculo especiales, el usuario puede asignar a un grupo de cálculo diferente a ese artículo. Normalmente, puede establecer grupos de cálculo en artículos del componente de la L. MAT en lugar de los artículos de la L. MAT. Sin embargo, cuando se muestran mensajes de advertencia, se pueden aplicar grupos de cálculo. Un grupo de cálculo que está asignado a artículos reemplaza el valor predeterminado que se configura en los parámetros de Gestión de inventarios. Puede configurar el parámetro predeterminado en **Gestión de costes** &gt; **Configuración de directivas de contabilidad de inventario** &gt; **Parámetros** &gt; **Contabilidad de inventario** &gt; **Grupo de cálculo**. Al establecer una configuración de grupo de configuración predeterminado, también puede configurar las condiciones de las advertencias que les aparecen a los usuarios durante el proceso de cálculo de L. MAT, si los componentes seleccionados pueden provocar errores de cálculo.
 Ver mensajes de advertencia en la página Completado
 ------------------------------------------
 
@@ -85,5 +88,7 @@ Un cálculo de L. MAT genera mensajes de advertencia. Puede ver las advertencias
 -   Identifica cuando el artículo de una línea de L. MAT tiene un porcentaje de rentabilidad inferior al deseado.
 
 Puede definir varios grupos de cálculo de L. MAT, en función de los requisitos para las variaciones en los mensajes de advertencia. Por ejemplo, podría ser suficiente un grupo de cálculo de L. MAT que tenga condiciones de advertencia de una L. MAT activa, una cantidad de componente de 0 (cero) y un coste de componente de 0 (cero). Al iniciarse un cálculo de L. MAT, puede anular las condiciones de advertencia asociadas al grupo de cálculo de L. MAT. También puede agregar o eliminar condiciones de advertencia. Por ejemplo, si la situación actual no implica datos de rutas, puede ser necesario eliminar la condición de advertencia sobre una ruta activa. **Nota:** Tiempo y asistencia incluye una página **Grupos de cálculo**, pero la página no tiene relación con los grupos de cálculo de L. MAT. En Tiempo y asistencia, los trabajadores pueden estar asignados a grupos de cálculo que reflejan la agrupación de los trabajadores que están asociados al mismo supervisor o director. El supervisor o director puede efectuar los cálculos de los registros de los trabajadores de forma automática o manual.
+
+
 
 

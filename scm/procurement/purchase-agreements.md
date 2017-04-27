@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-agreements"></a>Acuerdos de compra
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información acerca de los acuerdos de compra. Un acuerdo de compra es un contrato que compromete a una organización a comprar una cantidad o un importe específico mediante varios pedidos de compra en el tiempo. A cambio de este compromiso, el comprador recibe precios y descuentos especiales. 
 
 Los acuerdos de compra se pueden aplicar a una cantidad específica de un producto, a un importe de un producto en una divisa específica o a una cantidad de productos en una divisa específica dentro de una categoría de compra. Los precios y descuentos de acuerdo de compra anulan todos los precios y descuentos indicados en cualquier contrato comercial que pudieran existir.  
@@ -70,7 +73,7 @@ El área **Acuerdo** muestra la cantidad total o el importe total para el que es
 Puede obtener acceso a las líneas de pedidos de compra y las líneas de factura que contribuyen al cálculo de cumplimiento seleccionando la acción **Información relacionada** en las líneas o en el encabezado de un acuerdo de compra.
 
 ## <a name="confirmations-and-version-history-for-purchase-agreements"></a>Historial de versiones y confirmaciones de los acuerdos de compra
-Cuando se confirma un acuerdo de compra, la versión actual del acuerdo se almacena en una tabla del historial. Si cambia el acuerdo de compra, puede volver a confirmarlo para almacenar otra versión del acuerdo de compra en el historial. Si no confirma un acuerdo de compra, aún puede utilizarlo para crear el puesto. Sin embargo, la información del historial del acuerdo de compra no se almacena. Puede ver o imprimir todas las versiones del acuerdo. Puede compartir las revisiones con su proveedor para obtener la aprobación.
+Cuando se confirma un acuerdo de compra, la versión actual del acuerdo se almacena en una tabla del historial. Si cambia el acuerdo de compra, puede volver a confirmarlo para almacenar otra versión del acuerdo de compra en el historial. Si no confirma un acuerdo de compra, puede utilizarlo para crear pedidos de compra. Sin embargo, la información del historial del acuerdo de compra no se almacena. Puede ver o imprimir todas las versiones del acuerdo. Puede compartir las revisiones con su proveedor para obtener la aprobación.
 
 ## <a name="applying-purchase-agreements-in-the-ordering-process"></a>Aplicación de acuerdos de compras en el proceso de pedidos
 Cuando se crea un pedido de compra, puede aplicarle un acuerdo de compra. La información de las condiciones del acuerdo, como las condiciones de pago, las condiciones de entrega y la dirección de entrega, se copian en el encabezado del pedido de compra. Si el pedido de compra contiene una o varias líneas de productos o categorías cubiertos en el acuerdo de compra, los precios y descuentos del acuerdo de compra se utilizan para estas líneas. El importe o la cantidad de la línea de pedido contribuye al cumplimiento de compromiso en el acuerdo de compra. El mismo pedido de compra puede incluir ambas líneas que no están relacionadas con un acuerdo de compra y las líneas que tienen un compromiso para un acuerdo de compra.  
@@ -91,8 +94,10 @@ Puede copiar dimensiones financieras en encabezados de documentos o líneas indi
 <a name="see-also"></a>Consulte también
 --------
 
-[Crear un acuerdo de compra (Guía de la tarea)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
+[Creación de un acuerdo de compra (guía de tareas)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
 
-[Crear un pedido parcial de compra de un acuerdo de compra (guía de la tarea)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+[Crear un pedido parcial de compra de un acuerdo de compra (guía de tareas)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+
+
 
 

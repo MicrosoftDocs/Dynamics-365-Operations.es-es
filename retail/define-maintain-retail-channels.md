@@ -1,6 +1,6 @@
 ---
 title: Definir y mantener canales comerciales
-description: "Este artículo se proporciona información general sobre el proceso para configurar tiendas de físicas mortero, que se conocen como tiendas al por menor en Microsoft Dynamics 365 para las operaciones. Incluye información acerca de las tareas que debe completar tanto antes como después de configurar una tienda minorista."
+description: "Este artículo proporciona una visión general del proceso para configurar tiendas físicas, que se conocen como tiendas minoristas en Microsoft Dynamics 365 for Operations. Incluye información acerca de las tareas que debe completar tanto antes como después de configurar una tienda minorista."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16481
 ms.assetid: 14496d96-1c72-43ce-a2e7-8467bab4ae46
 ms.search.region: Global
@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="define-and-maintain-retail-channels"></a>Definir y mantener canales comerciales
 
-Este artículo se proporciona información general sobre el proceso para configurar tiendas de físicas mortero, que se conocen como tiendas al por menor en Microsoft Dynamics 365 para las operaciones. Incluye información acerca de las tareas que debe completar tanto antes como después de configurar una tienda minorista.
+[!include[banner](includes/banner.md)]
 
-La ventas al por menor y el comercio de Dynamics 365 para las operaciones admite los canales minoristas varios, como tiendas en línea, centros de asistencia, telefónica y almacenes de físicas. En Venta minorista y comercio, las tiendas físicas se denominan tiendas minoristas. Cada tienda minorista puede tener sus propios métodos de pago, grupos de precios, puntos de venta (PDV), cuentas de ingresos y gastos o personal. Debe configurar todos estos elementos para una tienda antes de crearla. Después de crear la tienda, se asignan los productos que desea que tenga. También asigna empleados, cajas registradoras y clientes a la tienda. Por último, la nueva tienda se agrega a una jerarquía organizativa.
+
+Este artículo proporciona una visión general del proceso para configurar tiendas físicas, que se conocen como tiendas minoristas en Microsoft Dynamics 365 for Operations. Incluye información acerca de las tareas que debe completar tanto antes como después de configurar una tienda minorista.
+
+Venta minorista y comercio en Dynamics 365 for Operations admite varios canales de venta, como tiendas en línea, centros de llamadas y almacenes físicos. En Venta minorista y comercio, las tiendas físicas se denominan tiendas minoristas. Cada tienda minorista puede tener sus propios métodos de pago, grupos de precios, puntos de venta (PDV), cuentas de ingresos y gastos o personal. Debe configurar todos estos elementos para una tienda antes de crearla. Después de crear la tienda, se asignan los productos que desea que tenga. También asigna empleados, cajas registradoras y clientes a la tienda. Por último, la nueva tienda se agrega a una jerarquía organizativa.
 
 ## <a name="setting-up-retail-stores"></a>Configurar tiendas
-Para poder configurar una tienda al por menor en Dynamics 365 para las operaciones, debe completar algunas de las tareas necesarias de antemano. A continuación, puede crear la tienda y agregar detalles.
+Antes de poder configurar una tienda minorista en Dynamics 365 for Operations, debe completar algunas de las tareas de requisitos previos. A continuación, puede crear la tienda y agregar detalles.
 
 ### <a name="prerequisites"></a>Requisitos previos
 
@@ -49,7 +52,7 @@ Para poder configurar una tienda, debe completar las siguientes tareas:
 8.  Configure los productos comerciales. Como parte de esta tarea, también configura jerarquías de productos comerciales, variantes del producto y surtidos de producto.
 9.  Configure los grupos de precios de producto.
 10. Configure los precios de producto comercial. Como parte de esta tarea, también configura ajustes de precios, descuentos y períodos de descuento.
-11. Configure los empleados. ** Nota: ** También debe asignar permisos apropiados para los trabajadores, de modo que puedan iniciar sesión y realizar tareas mediante Dynamics 365 para las operaciones para el sistema POS al por menor.
+11. Configure los empleados. **Nota:** También debe asignar los permisos adecuados a los trabajadores, de modo que puedan iniciar sesión y realizar tareas con el sistema de Dynamics 365 for Operations for Retail POS.
 12. Configure los perfiles de Retail POS que se deben asignar a la tienda. Esta tarea incluye muchas otras tareas, por ejemplo, la configuración de los registros, los perfiles sin conexión y los formatos y perfiles de recepción.
 
 Revise todas las tareas que se incluyen en el requisito previo y complete solo las tareas que se aplican a su caso.
@@ -77,5 +80,7 @@ Tras especificar los detalles de la tienda minorista, complete estas tareas para
 
 ## <a name="organization-hierarchies"></a>Jerarquías organizativas
 Venta minorista usa jerarquías organizativas en Microsoft Dynamics AX para estructurar canales comerciales. Las jerarquías organizativas representan las relaciones que hay entre las organizaciones que forman el negocio. Al configurar tiendas, puede agregarlas a una jerarquía organizativa. A continuación, los almacenes comparten los datos que se usan para las selecciones, el reaprovisionamiento y los informes.
+
+
 
 

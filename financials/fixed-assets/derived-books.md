@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="derived-books"></a>Libros derivados
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información general de la función del libro derivado.
 
-El propósito de libros derivados es simplificar el registro de transacciones del libro de activos fijos que se planifican para intervalos regulares.  Usted elige un libro como cuenta principal. Este libro es el que se usa normalmente para la depreciación contable. A continuación, vincúlelo a otros libros que se configuran para registrar transacciones en los mismos intervalos que el libro principal. Los libros de depreciación fiscal se suelen configurar como libros derivados. 
+El propósito de los libros derivados es simplificar el registro de transacciones de libro de activos fijos que se planifican para intervalos regulares.  Debe elegir un libro como libro principal. Este libro es el que se usa normalmente para la depreciación contable. A continuación, vincúlelo a otros libros que se configuran para registrar transacciones en los mismos intervalos que el libro principal. Los libros de depreciación fiscal se suelen configurar como libros derivados. 
 
 Las transacciones que se configuran habitualmente para registrar los libros derivados son las adquisiciones, los ajustes de adquisición y las cancelaciones. 
 
@@ -42,6 +45,8 @@ Una vez registrada la transacción, se genera una transacción de adquisición y
 > [!NOTE]                                                                                                                               
 > Los libros que se configuran para registrar transacciones en intervalos distintos a los intervalos del libro principal, se deben vincular al activo fijo como libros independientes y no como libros derivados.  
 
-Para obtener más información, consulte [registro con los libros derivados post-derived-value-models.md] ().
+Para obtener más información, consulte [Registro con los libros derivados](post-derived-value-models.md).
+
+
 
 

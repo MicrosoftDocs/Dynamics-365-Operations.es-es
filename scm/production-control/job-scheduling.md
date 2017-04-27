@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="job-scheduling"></a>Programación de trabajos
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información acerca de la programación de trabajos, que es un formulario más detallado de programación que la programación de operaciones. Puede utilizar una programación de trabajos para programar trabajos o pedidos de tienda y controlar el entorno de fabricación.
 
 Puede utilizar una programación de trabajos para programar trabajos o pedidos de tienda y controlar el entorno de fabricación. La programación de trabajos divide cada operación en tareas o trabajos individuales. Estos trabajos se asignan a los recursos de operación que los realizarán. La programación de trabajos también le permite sincronizar todos los trabajos a los que se hace referencia en el trabajo seleccionado. Puede especificar una fecha y hora de inicio o de fin para el trabajo y ejecutar la programación. El tiempo que se especifica puede ser la hora de inicio o de final en función de la dirección de programación. Esta función resulta útil, por ejemplo, cuando un trabajo se puede ejecutar solo en una máquina a la vez o bien para optimizar el trabajo que se ejecuta para cada recurso.
@@ -39,7 +42,7 @@ El proceso de programación del trabajo incluye las siguientes tareas:
 -   Dividir cada operación en trabajos.
 -   Programar trabajos que se basan en las fechas y en los tiempos de los recursos que se especifican en la operación relacionada.
 -   Calcular la hora de inicio y la hora de finalización para cada trabajo. Puede usar capacidad limitada para asegurarse de que no hay horas superpuestas.
--   Determine en qué recursos del grupo de recursos ejecutar el trabajo. Esta tarea que requiere que especifiquen un grupo de recursos para una operación. La programación de trabajos selecciona los recursos y grupos de recursos en función del plazo más corto y también tiene en cuenta las reservas previas en los recursos.
+-   Determine en qué recursos del grupo de recursos ejecutar el trabajo. Esta tarea requiere que se especifique un grupo de recursos para una operación. La programación de trabajos selecciona los recursos y grupos de recursos en función del plazo más corto y también tiene en cuenta las reservas previas en los recursos.
 -   Expanda las operaciones en trabajos cuando ejecuta la programación de trabajos. Los trabajos se programan por la fecha y la hora del pedido especificado por la ruta de producción. La configuración de la operación determina qué trabajos expandir durante el proceso de programación. El grupo de rutas asignado a la operación controla si los trabajos están generados. Los trabajos se generan únicamente si tienen una duración específica. Por ejemplo, un trabajo de tiempo de transporte se genera si se ha especificado un tiempo de transporte para la operación seleccionada.
 
 ## <a name="scheduling-direction"></a>Dirección de programación
@@ -73,5 +76,7 @@ Los recursos se asignan a los trabajos con la programación de trabajos. Pueden 
 
 ## <a name="resource-efficiency"></a>Eficiencia de recursos
 La programación de trabajos considera los porcentajes de eficacia especificados para los recursos. Los porcentajes de eficiencia reducen o aumentan el tiempo reservado para el recurso. En consecuencia, el plazo también aumenta o se reduce. Para el cálculo se usa la fórmula siguiente: Tiempo de programación = Tiempo x 100 ÷ Porcentaje de eficiencia En esta fórmula, *Tiempo* incluye el tiempo de ejecución y el tiempo de configuración.
+
+
 
 

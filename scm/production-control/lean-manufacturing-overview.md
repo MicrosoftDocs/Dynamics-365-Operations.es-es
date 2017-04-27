@@ -1,5 +1,5 @@
 ---
-title: "Visión general de producción ajustada"
+title: "Visión general de lean manufacturing"
 description: "Este artículo proporciona una visión general y una descripción de las funciones de producción ajustada de Microsoft Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="lean-manufacturing-overview"></a>Visión general de producción ajustada
+# <a name="lean-manufacturing-overview"></a>Visión general de lean manufacturing
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo proporciona una visión general y una descripción de las funciones de producción ajustada de Microsoft Dynamics AX.
 
@@ -49,7 +52,7 @@ Para crear una fundación de lean manufacturing, modele los procesos de fabricac
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a>Uso de los kanbans para indicar los requisitos de la demanda
 Un sistema de extracción produce mercancías solo cuando son necesarias. Esta práctica reduce los plazos de entrega y el exceso de inventario. Puede usar kanbans para planear, seguir y procesar los requisitos basados en los flujos de producción. Para crear un marco de kanban, cree las reglas kanban que definen cuando se crean kanbans y cómo se cumplen los requisitos. Se pueden crear dos tipos de reglas kanban. Las reglas de fabricación crean trabajos kanban de proceso y las reglas kanban de retirada crean trabajos kanban de transferencia. Se pueden configurar las siguientes estrategias de reabastecimiento:
--   Las reglas kanban de **cantidad fija** están relacionadas con un número fijo de unidades de gestión de material, lo que significa que los números de kanbans activos son constantes. Siempre que todos los productos de un kanban se consuman y las unidades de gestión de material se vacian manualmente, un nuevo kanban del mismo tipo se crea. Al crear las reglas kanban de cantidad fija, puede calcular las cantidades óptimas de kanban y de producto que se usan. El cálculo tiene en cuenta la previsión, la demanda real de pedidos abiertos, el plazo de reabastecer los artículos y las demandas históricas.
+-   Las reglas kanban de **cantidad fija** están relacionadas con un número fijo de unidades de gestión de material, lo que significa que los números de kanbans activos son constantes. Cuando todos los productos de un kanban se consumen y las unidades de gestión de material se vacían manualmente, se crea un nuevo kanban del mismo tipo. Al crear las reglas kanban de cantidad fija, puede calcular las cantidades óptimas de kanban y de producto que se usan. El cálculo tiene en cuenta la previsión, la demanda real de pedidos abiertos, el plazo de reabastecer los artículos y las demandas históricas.
 -   Las reglas kanban **programadas** reabastecen los requisitos calculados por la planificación maestra. La planificación maestra genera kanbans planificados que se pueden poner en firme en kanbans.
 -   Las reglas kanban de **evento** reabastecen los requisitos que se originan de las líneas de pedidos de ventas, las líneas de listas de materiales, las de kanban o la configuración mínima de inventario. Cuando se generan los kanbans de evento, se fijan a los requisitos de origen.
 
@@ -76,6 +79,8 @@ Los trabajos kanban se integran completamente con los procesos actuales de las t
 Además, lean manufacturing apoya los procesos de compra y de facturación de los servicios a los que hacen referencia las actividades subcontratadas.
 -   Puede asignar servicios y líneas de acuerdo de compra a las actividades subcontratadas.
 -   Puede crear pedidos de compra y avisos de recepción periódicos para apoyar la compra y la facturación de los servicios.
+
+
 
 
 

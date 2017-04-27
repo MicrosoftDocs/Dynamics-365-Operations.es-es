@@ -1,6 +1,6 @@
 ---
 title: Saldos de cuentas de contabilidad
-description: "Este artículo para dos formas de ver los saldos de la cuenta de contabilidad general - la página de lista de saldo de comprobación y los informes financieros. También se describe cómo actualizar los saldos del conjunto de dimensiones."
+description: "En este artículo se explican dos formas de ver los saldos de la cuenta de contabilidad general: la página de lista Saldo de comprobación y los informes financieros. También se describe cómo actualizar los saldos del conjunto de dimensiones."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-ledger-account-balances"></a>Saldos de cuentas de contabilidad
 
-Este artículo para dos formas de ver los saldos de la cuenta de contabilidad general - la página de lista de saldo de comprobación y los informes financieros. También se describe cómo actualizar los saldos del conjunto de dimensiones.
+[!include[banner](../includes/banner.md)]
+
+
+En este artículo se explican dos formas de ver los saldos de la cuenta de contabilidad general: la página de lista Saldo de comprobación y los informes financieros. También se describe cómo actualizar los saldos del conjunto de dimensiones.
 
 Hay varias maneras en que los usuarios pueden ver saldos en la contabilidad general. Algunas de las opciones más comunes son:
 
@@ -46,6 +49,8 @@ Cuando un usuario cambia los parámetros, se actualizan los saldos. El usuario t
 
 Los usuarios pueden explorar en profundidad los saldos para ver las transacciones que componen el saldo.    
 
-Para obtener más información, consulte [los informes financieros] de la vista view-financial-reports.md ().
+Para obtener más información, consulte [Ver informes financieros](view-financial-reports.md).
+
+
 
 

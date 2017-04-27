@@ -1,5 +1,5 @@
 ---
-title: Administrar los descuentos por pronto pago para los sobrepagos
+title: "Gestión de descuentos por pronto pago para sobrepagos"
 description: "Este artículo proporcionan escenarios que muestran cómo se gestiona un pago cuando el cliente recibe un descuento por pronto pago pero también paga en exceso."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Administrar los descuentos por pronto pago para los sobrepagos
+# <a name="handling-cash-discounts-for-overpayments"></a>Gestión de descuentos por pronto pago para sobrepagos
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo proporcionan escenarios que muestran cómo se gestiona un pago cuando el cliente recibe un descuento por pronto pago pero también paga en exceso. 
 
@@ -133,6 +136,8 @@ El importe del descuento por pronto pago se reduce de 10,50 a 10,00. El pago y l
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
 | Descuento por pronto pago (el campo **Cuenta principal para descuentos de cliente** en la página **Descuentos por pronto pago**) | 10,50        |               |
 | Clientes                                                                              |              | 10,50         |
+
+
 
 
 

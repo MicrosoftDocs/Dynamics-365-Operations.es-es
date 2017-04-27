@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-versions"></a>Versiones de gestión de costes
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información acerca de las versiones de gestión de costes, cómo mantenerlas y los tipos de datos que se pueden incluir en ellas. El propósito principal de una versión de gestión de costes es contener los registros de costes acerca de los artículos, las categorías de coste y las fórmulas de cálculo de los costes indirectos.
 
 Una versión de gestión de costes puede tener uno o varios propósitos, en función de los datos que contenga. El propósito principal de una versión de gestión de costes es contener los registros de costes acerca de los artículos, las categorías de coste y las fórmulas de cálculo de los costes indirectos. Además, puede contener un conjunto de registros de costes estándar o de costes planificados basados en el tipo de gestión de costes asignado a la versión de gestión de costes.
@@ -63,5 +66,7 @@ La razón principal para activar datos de precios de venta es definir los regist
 Para habilitar el contenido sobre el precio de compra, primero se debe definir un grupo de cálculo de lista de materiales que contenga un modelo de precio de coste para el precio de compra del artículo y, a continuación, se debe asignar el grupo de cálculo de lista de materiales a los artículos comprados. Posteriormente, utilizará un modelo de precio de coste para el grupo de cálculo de lista de materiales al efectuar cálculos de lista de materiales que usen costes planificados para calcular el precio de venta de los artículos fabricados. 
 
 Los registros de precio de compra de los artículos se utilizan también como información de referencia. Al cambiar el estado del registro de precio de compra de un artículo de **Pendiente** a **Activo**, se puede actualizar el precio de compra base del artículo. No obstante, el precio de compra base no es específico del sitio y se puede sobrescribir manualmente. El precio de compra base del artículo se usa como precio de compra predeterminado en los pedidos de compra.
+
+
 
 

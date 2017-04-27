@@ -1,6 +1,6 @@
 ---
 title: "Configuración de los componentes de un trabajo"
-description: "Este tema describe los artículos conceptuales que un trabajo puede incluir y se proporcionan ejemplos de cómo se pueden usar los artículos de la organización."
+description: "Este tema describe los artículos conceptuales que un trabajo puede incluir y se proporcionan ejemplos de cómo se pueden usar los artículos en la organización."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,36 +27,39 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="setting-up-the-components-of-a-job"></a>Configuración de los componentes de un trabajo
 
-Este tema describe los artículos conceptuales que un trabajo puede incluir y se proporcionan ejemplos de cómo se pueden usar los artículos de la organización. 
+[!include[banner](includes/banner.md)]
 
-Para poder crear trabajos, debe configurar información de referencia. Puede crear un trabajo que tiene sólo un nombre. Sin embargo, incluida la información adicional, como un puesto, ofrece los valores predeterminados para los puestos asignados a trabajo. Además, parte de la información que especifique se puede usar para filtrar planes de compensación para trabajos específicos. Si desea configurar la idoneidad que se puede usar para filtrar planes de compensación para un trabajo específico, debe configurar funciones y tipos de trabajo antes de configurar trabajos de la configuración. Con estos valores predeterminados disponibles, se permitirá ahorrar tiempo en el que agrega puestos al trabajo. 
 
-Algunos detalles del trabajo, como el título, tipo y función, son fechas reales. Si crea un trabajo actual pero no agrega estos detalles hasta una fecha posterior, y a continuación buscará el trabajo a partir de la fecha de creación, estos detalles no aparecerán. Por lo tanto, debe crear parte de esta información de referencia antes de que se requiera la. De esta manera, puede agregar información a los nuevos trabajos al configurar crea.
+Este tema describe los artículos conceptuales que un trabajo puede incluir y se proporcionan ejemplos de cómo se pueden usar los artículos en la organización. 
 
-## <a name="job-titles"></a>Puestos
+Antes de poder crear trabajos, debe configurar información de referencia. Puede crear un trabajo que tiene solo un nombre. Sin embargo, incluyendo información adicional, como un puesto, ofrece los valores predeterminados para los puestos asignados al trabajo. Además, parte de la información que especifique se puede usar para filtrar planes de compensación para trabajos específicos. Si quiere configurar elegibilidad que pueda usar para filtrar planes de compensación para un trabajo específico, debe configurar funciones de trabajo y tipos de trabajo antes de configurar los trabajos. Con estos valores predeterminados disponibles, ahorrará tiempo al agregar puestos al trabajo. 
+
+Algunos detalles del trabajo, como el título, tipo y función, tienen fechas de vigencia. Si crea un trabajo hoy pero no agrega estos detalles hasta una fecha posterior, y a continuación busca el trabajo a partir de la fecha de creación, estos detalles no aparecerán. Por lo tanto, debe crear parte de esta información de referencia antes de que la necesite. De esta manera, puede agregar la información a los nuevos trabajos cuando los crea.
+
+## <a name="job-titles"></a>Cargos
 Para crear trabajos, debe configurar cargos para dichos trabajos. Los puestos heredarán cargos de los trabajos con los que están asociados los puestos. 
 
-Mantener los puestos ** mediante los puestos ** la página, que puede abrir mediante la función de búsqueda. En ** los puestos ** la página, especifique los puestos que pretende usar para sus trabajos.
+Mantenga los cargos mediante la página **Cargos**, que puede abrir usando la función de búsqueda. En la página **Cargos**, especifique los puestos que pretende usar para sus trabajos.
 
 ## <a name="job-types"></a>Tipos de trabajo
-Los tipos de trabajo para agrupar trabajos similares en categorías. Los tipos de trabajos no son necesarios. Sin embargo, si planifica usar tipos de trabajos al configurar reglas de elegibilidad para la gestión de compensación, debe configurar tipos de trabajos antes de configurar trabajos. Algunos ejemplos de tipos de trabajo son a jornada completa y a tiempo parcial, o sueldo y paga por horas. Se mantiene tipos de trabajo mediante ** los tipos de trabajo ** la página. En ** los tipos de trabajo ** la página, especifique un nombre y una breve descripción para el tipo de trabajo. En ** estado de exento ** campo, seleccione una de las opciones siguientes para indicar el estado de exento de (FLSA) de FLSA Ley de los estándares de trabajo de trabajos que tienen este tipo de trabajo:
+Use los tipos de trabajo para agrupar trabajos similares en categorías. Los tipos de trabajos no son necesarios. Sin embargo, si planifica usar tipos de trabajos al configurar reglas de elegibilidad para la gestión de compensación, debe configurar tipos de trabajos antes de configurar trabajos. Algunos ejemplos de tipos de trabajo son a jornada completa y a tiempo parcial, o con sueldo y paga por horas. Se mantienen los tipos de trabajo mediante la página **Tipos de trabajo**. En la página **Tipos de trabajo**, especifique un nombre y una descripción breve para el tipo de trabajo. En el campo **Estado de exento**, seleccione una de las opciones siguientes para indicar el estado de exento de la Fair Labor Standards Act (ley sobre estándares de trabajo justo FLSA) de los trabajos que tienen este tipo de trabajo:
 
--   ** ** – Los trabajos exentos están exentos de horas extra con el FLSA.
--   ** ** – los trabajos no exentos no están exentos de horas extra con el FLSA.
--   ** No se aplica – ** el alcance de FLSA no es aplicable.
+-   **Exento**: los trabajos están exentos de horas extra con la FLSA.
+-   **No exento**: los trabajos no están exentos de horas extra con la FLSA.
+-   **No aplicable**: la cobertura de FLSA no es aplicable.
 
 ## <a name="job-functions"></a>Funciones de trabajo
-Las uniones de trabajo categorías describen funcionales de alto nivel y deberes relacionadas de alto nivel. Las funciones de trabajo no son necesarias. Puede usar funciones de trabajo, junto con tipos de trabajo, para filtrar planes de compensación para trabajos específicos. Para asociar funciones y tipos de trabajo a planes de compensación configurando reglas de idoneidad en ** las reglas de idoneidad ** la página. A continuación puede vincular un conjunto de niveles al plan de compensación que se apliquen a la combinación específica de una función del tipo de trabajo y de trabajo que ha definido mediante una regla de idoneidad. (Estas características se aplican a planes de compensación fija y los planes de compensación variable.) Sin embargo, si planifica usar funciones de trabajo al configurar reglas de elegibilidad para la gestión de compensación, debe configurar funciones de trabajos antes de configurar trabajos de la configuración. En la tabla siguiente se muestran algunos ejemplos de las funciones de trabajo.
+Las funciones de trabajo describen categorías funcionales de alto nivel y deberes de alto nivel relacionados. Las funciones de trabajo no son necesarias. Puede usar funciones de trabajo junto con tipos de trabajo para filtrar planes de compensación para trabajos específicos. Para asociar funciones y tipos de trabajo a planes de compensación, configure reglas de idoneidad en la página **Regla de idoneidad**. Después puede vincular un grupo de niveles a un plan de compensación que se aplique a la combinación específica de tipo y función de trabajo que ha definido mediante una regla de idoneidad. (Estas características se aplican a los planes de compensación fijos y los planes de compensación variables). Sin embargo, si planea usar funciones de trabajo al configurar reglas de idoneidad para la gestión de compensación, debe configurar funciones de trabajo antes de configurar trabajos. La tabla siguiente muestra algunos ejemplos de funciones de trabajo.
 
 | Trabajo           | Función de trabajo         |
 |---------------|----------------------|
 | Director de ventas | Administrador de nivel medio    |
 | Contable    | Profesionales        |
 
-Se mantiene funciones de trabajo mediante ** las funciones de trabajo ** la página. ** En las funciones de trabajo ** la página, especifique un código de identificación y una descripción breve para la función de trabajo.
+Se mantienen las funciones de trabajo mediante la página **Funciones de trabajo**. En la página **Funciones de trabajo**, especifique un código de identificación y una descripción breve para la función de trabajo.
 
 ## <a name="job-tasks"></a>Tareas de trabajo
-Las tareas de trabajo se describen tareas básicas que un trabajador que se encuentra en un puesto para un trabajo debe completar. La misma tarea de trabajo se puede agregar a varios trabajos, y a los puestos para los trabajos que usan esas tareas de trabajo. En la tabla siguiente se muestran algunos ejemplos de tareas de trabajo.
+Las tareas de trabajo describen las tareas básicas que un trabajador de un puesto debe completar para un trabajo. La misma tarea de trabajo se puede agregar a varios trabajos y a puestos para trabajos que usan dichas tareas de trabajo. La tabla siguiente muestra algunos ejemplos de tareas de trabajo.
 
 <table>
 <thead>
@@ -69,20 +72,22 @@ Las tareas de trabajo se describen tareas básicas que un trabajador que se encu
 <tr class="odd">
 <td>Director de ventas</td>
 <td><ul>
-<li><strong>Perforación- revisión</strong> – Revisar el rendimiento en el trabajo de cada vendedor.</li>
-<li><strong>ABS- revisión</strong> Permite aprobar o rechazar solicitudes de ausencia o los registros de cada vendedor.</li>
+<li><strong>Revisión de rendimiento</strong>: permite revisar el rendimiento de trabajo de cada vendedor.</li>
+<li><strong>Revisión de ausencia</strong>: permite aprobar o rechazar solicitudes o registros de ausencia de cada vendedor.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Contable</td>
-<td><strong>Aleta-informe</strong> – Actuales informes financieros semanales al director financiero.</td>
+<td><strong>Informe financiero</strong>: permite presentar informes financieros semanales al director financiero.</td>
 </tr>
 </tbody>
 </table>
 
-Se mantiene tareas de trabajo mediante ** las tareas de trabajo ** la página. ** En las tareas de trabajo ** la página, especifique un nombre y una descripción de la tarea de trabajo. En ** nota ** campo, puede especificar opcionalmente la información adicional. Las notas se pueden actualizar para un trabajo específico sin cambiar las notas que ha especificado aquí.
+Se mantienen las tareas de trabajo mediante la página **Tareas de trabajo**. En la página **Tareas de trabajo**, especifique un nombre y una descripción para la tarea de trabajo. En el campo **Nota** puede especificar información adicional opcionalmente. Las notas se pueden actualizar para un trabajo específico sin cambiar las notas que ha especificado aquí.
 
 ## <a name="areas-of-responsibility"></a>Áreas de responsabilidad
-Se usa áreas de responsabilidad para indicar los roles de trabajo, los procesos, los productos y que un trabajador que se encuentra en un puesto para un trabajo es el responsable de. Por ejemplo, para un trabajo que se denomina “,” contable un área de responsabilidad será “informe financiero para el producto A.” Se mantiene áreas de responsabilidad ** mediante las áreas de responsabilidad ** la página, que puede encontrar mediante la función de búsqueda. ** En las áreas de responsabilidad ** la página, especifique un nombre y una descripción para la responsabilidad. En ** nota ** campo, puede especificar opcionalmente la información adicional. Las notas se pueden actualizar para un trabajo específico sin cambiar las notas que ha especificado aquí.
+Use las áreas de responsabilidad para indicar los roles de trabajo, los procesos y los productos de los que sería responsable un trabajador en un puesto para dicho trabajo. Un ejemplo de área de responsabilidad para un trabajo denominado "Contable" podría ser "Informes financieros del producto A". Las áreas de responsabilidad se mantienen mediante la página **Áreas de responsabilidad** que puede encontrar mediante la función de búsqueda. En la página **Áreas de responsabilidad**, especifique un nombre y una descripción para la responsabilidad. En el campo **Nota** puede especificar información adicional opcionalmente. Las notas se pueden actualizar para un trabajo específico sin cambiar las notas que ha especificado aquí.
+
+
 
 

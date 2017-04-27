@@ -32,7 +32,7 @@ Una actividad paralela está formada por dos o más ramas de flujo de trabajo qu
 
 ## <a name="name-a-parallel-activity"></a>Asignación de un nombre a una actividad paralela
 Siga estos pasos para asignar un nombre a una actividad paralela.
-1.  Haga clic con el botón secundario en la actividad paralela y, a continuación haga clic en ** las propiedades ** para abrir ** las propiedades ** el formulario.
+1.  Haga clic con el botón secundario en la actividad paralela y, a continuación, haga clic en **Propiedades** para abrir el formulario **Propiedades**.
 2.  En el panel izquierdo, haga clic en **Configuración básica**.
 3.  En el campo **Nombre**, escriba un nombre único para la actividad paralela.
 4.  Haga clic en **Cerrar**.

@@ -1,6 +1,6 @@
 ---
-title: "Nuevas o actualizadas guías de la tarea (mayo de 2016)"
-description: "Este artículo se muestran las nuevas o actualizadas guías de la tarea lanzadas a partir en la biblioteca unificada APQC de Microsoft (mayo de 2016 - Todos los idiomas) para Microsoft Dynamics AX. No se publicó ninguna biblioteca de introducción nueva."
+title: "Guías de tareas nuevas o actualizadas (mayo de 2016)"
+description: "En este artículo se muestran las Guías de tareas nuevas o actualizadas que se publicaron en la Biblioteca unificada APQC de Microsoft (mayo de 2016: todos los idiomas) para Microsoft Dynamics AX. No se publicó ninguna biblioteca de introducción nueva."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-may-2016"></a>Nuevas o actualizadas guías de la tarea (mayo de 2016)
+# <a name="new-or-updated-task-guides-may-2016"></a>Guías de tareas nuevas o actualizadas (mayo de 2016)
 
-Este artículo se muestran las nuevas o actualizadas guías de la tarea lanzadas a partir en la biblioteca unificada APQC de Microsoft (mayo de 2016 - Todos los idiomas) para Microsoft Dynamics AX. No se publicó ninguna biblioteca de introducción nueva. 
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[] () tarea a las guías en (mayo de 2016 - Todos los idiomas) la biblioteca unificada APQC para Microsoft Dynamics AX
+
+En este artículo se muestran las Guías de tareas nuevas o actualizadas que se publicaron en la Biblioteca unificada APQC de Microsoft (mayo de 2016: todos los idiomas) para Microsoft Dynamics AX. No se publicó ninguna biblioteca de introducción nueva. 
+
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Guías de tareas de la Biblioteca unificada APQC (mayo de 2016: todos los idiomas) para Microsoft Dynamics AX
 ------------------------------------------------------------------------------------------------
 
-(Mayo de 2016) la biblioteca unificada APQC contiene las guías de la tarea pensados para usar para la Ayuda con Microsoft Dynamics AX la actualización de mayo de 2016 y Microsoft Dynamics AX la liberación de febrero de 2016. Las versiones localizadas de las guías de la tarea lanzadas a partir en (febrero de 2016) la biblioteca unificada APQC están disponibles en la biblioteca. Para obtener más información sobre cómo conectar el sistema de ayuda a una biblioteca de la guía de la tarea, consulte [Get iniciado con la Ayuda help-overview.md] (). ** Nota: ** Un asterisco (**\***) situado junto al puesto de una línea del modelador (BPM) del proceso empresarial indica que la guía de la tarea para dicho proceso empresarial se creó para Dynamics AX mayo de 2016 actualizado y no se admite en las versiones anteriores de Microsoft Dynamics AX.
+La biblioteca unificada APQC (mayo de 2016) contiene las Guías de tareas pensadas para usarse para obtener ayuda con la actualización de mayo de 2016 Microsoft Dynamics AX y la versión de febrero de 2016 de Microsoft Dynamics AX. Las versiones localizadas de las Guías de tareas que se publicaron en la biblioteca unificada APQC (febrero de 2016) están disponibles en esta biblioteca. Para obtener más información acerca de cómo conectar el sistema de Ayuda a una biblioteca de Guía de tareas, consulte [Introducción a la ayuda](help-overview.md). **Nota:** Un asterisco (**\***) junto al título de una línea del Modelador de procesos empresariales (BPM) indica que se ha creado la guía de tareas para el proceso empresarial para la actualización de mayo de 2016 de Dynamics AX y que no es compatible con versiones anteriores de Microsoft Dynamics AX.
 
 ### <a name="countryregion-functionality"></a>Funcionalidad por país/región
 
@@ -65,7 +68,7 @@ Este artículo se muestran las nuevas o actualizadas guías de la tarea lanzadas
 | ER Diseñar una configuración para generar informes en formato OPENXML         | Global         |
 | ER Generar documentos electrónicos para pagos con una configuración de formato | Global         |
 | ER Importar una configuración de Lifecycle Services                          | Global         |
-| **\***ER Select service provider                                           | Global         |
+| **\***CE Seleccionar el proveedor del servicio                                           | Global         |
 | ER Actualizar el formato adoptando la nueva versión de base de ese formato      | Global         |
 | ER Cargar una configuración en Lifecycle Services                          | Global         |
 
@@ -126,7 +129,7 @@ Este artículo se muestran las nuevas o actualizadas guías de la tarea lanzadas
 | Línea BPM                                                 | País o región |
 |----------------------------------------------------------|----------------|
 | Crear un nuevo producto                                     | Global         |
-| Crear. \ \ dimensiones financieras configuraciones basadas en dimensiones                    | Global         |
+| Crear ..\financial-dimensions\configuraciones basadas en dimensiones                    | Global         |
 | Crear variantes de productos predefinidas                       | Global         |
 | Crear criterios de selección de precios de venta                    | Global         |
 | Especificar pedidos para productos configurables                   | Global         |
@@ -176,22 +179,24 @@ Este artículo se muestran las nuevas o actualizadas guías de la tarea lanzadas
 | Línea BPM                                                            | País o región |
 |---------------------------------------------------------------------|----------------|
 | Configurar procesamiento de oleadas                                           | Global         |
-| **\*** Notificar como terminado a una ubicación controla del número de matrícula de licencia | Global         |
+| **\***Notificar como terminado a una ubicación no controlada mediante matrículas de entidad de almacén | Global         |
 | Configurar un proceso de reabastecimiento mínimo-máximo                              | Global         |
 | Configurar creación de contenedores                                             | Global         |
 | Configurar embalaje manual                                               | Global         |
 | Configuración de las restricciones de transporte para un artículo                       | Global         |
-| **\***Set up warehouse work policies                                | Global         |
+| **\***Configurar directivas de trabajo de almacén                                | Global         |
 
 
 
 <a name="see-also"></a>Consulte también
 --------
 
-[Nuevas guías de la tarea (febrero de 2016)](new-task-guides-available-february-2016.md)
+[Nuevas guías de tareas (febrero de 2016)](new-task-guides-available-february-2016.md)
 
-[Nuevas o actualizadas guías de la tarea (agosto de 2016)](new-updated-task-guides-available-august-2016.md)
+[Guías de tareas nuevas o actualizadas (agosto de 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Nuevas o actualizadas guías de la tarea (noviembre de 2016)](new-task-guides-november-2016.md)
+[Guías de tareas nuevas o actualizadas (noviembre de 2016)](new-task-guides-november-2016.md)
+
+
 
 

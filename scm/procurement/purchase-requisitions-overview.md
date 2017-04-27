@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-overview"></a>Visión general de solicitud de compra
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe el flujo de trabajo de solicitudes de compra y los diferentes estados que puede tener una solicitud de compra.
 
 En función de la configuración de la organización, podrá crear solicitudes de compra de productos que su organización usa. Una solicitud de compra es un documento interno que autoriza al departamento de compras a comprar artículos o servicios.  
@@ -48,7 +51,7 @@ Puede configurar el proceso del flujo de trabajo de la solicitud de compra para 
 
 En el diagrama siguiente se muestran los estados que se han asignado a una solicitud de compra y una línea de solicitud de compra a medida que avanzan por el proceso del flujo de trabajo.  
 
-[![Purchase requisition header and line statuses](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Estados de encabezado y línea de solicitud de compra](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Relaciones de estados de encabezado y línea de solicitud de compra
 
@@ -77,7 +80,7 @@ El estado general de una solicitud de compra lo determina el estado de las líne
 <td>Si el flujo de trabajo se ha configurado para dirigir las líneas de solicitud de compra a revisores individuales, cada una de las líneas puede tener el estado <strong>En revisión</strong> o <strong>Rechazado</strong>. El estado de solicitud de compra se actualiza cuando se completa el proceso de revisión para todas las líneas de solicitud de compra y no quedan pasos de revisión para la solicitud de compra.
 <ul>
 <li><strong>En revisión</strong>: se han enviado las líneas de la solicitud de compra para revisión. Una vez completado el proceso de flujo de trabajo para una línea de solicitud de compra, se mantiene en un estado <strong>En revisión</strong> hasta que se hayan revisado todas las líneas de solicitud de compra.</li>
-<li><strong>Rechazada</strong> – Se ha rechazado una línea de solicitud de compra. Las líneas de solicitud de compra se rechazarán que se pueden modificar y volver a enviar.</li>
+<li><strong>Rechazado</strong>: se ha rechazado una línea de la solicitud de compra. Las líneas de la solicitud de compra que se han rechazado se pueden modificar y volver a enviar.</li>
 </ul>
 Si reenvía una línea de solicitud de compra que se ha rechazado, el proceso de revisión se vuelve a iniciar para todas las líneas de solicitud de compra que todavía se estén revisando. <strong>Nota</strong>: puede recuperar una solicitud de compra que ya se ha enviado. Al recuperar una solicitud de compra, se recuperan todas las líneas de la solicitud de compra restantes. Las líneas de la solicitud de compra que se han recuperado se pueden eliminar.</td>
 </tr>
@@ -133,7 +136,7 @@ Si reenvía una línea de solicitud de compra que se ha rechazado, el proceso de
 Es posible distribuir el coste de un producto incluido en una solicitud de compra a varias cuentas financieras. Si la organización usa dimensiones, tales como departamentos o centros de coste, puede distribuir los costes de un producto a las dimensiones de las cuentas financieras.
 
 ## <a name="requisition-purposes"></a>Propósitos de pedido
-Los propósitos de pedido realizan el proceso de satisfacer las demandas de solicitud de manera más flexible. Cuando se crea una solicitud, puede asignarle uno de los dos propósitos: consumo o reabastecimiento. En función del propósito de la solicitud y de la configuración de la organización, la demanda de la solicitud se puede abastecer de un pedido de compra, pedido de transferencia, un pedido de producción, o un kanban.  
+Los propósitos de pedido realizan el proceso de satisfacer las demandas de solicitud de manera más flexible. Cuando se crea una solicitud, puede asignarle uno de los dos propósitos: consumo o reabastecimiento. En función del propósito de solicitud y la configuración de la organización, la demanda de solicitud la puede cumplir un pedido de compra, un pedido de transferencia, un pedido de producción o un kanban.  
 
 En las directivas de compra, puede controlar los propósitos de solicitud disponibles al crear una solicitud para la organización.
 
@@ -152,7 +155,7 @@ Para usar las solicitudes de compra con un propósito de reabastecimiento, debe 
 ## <a name="purchase-requisitions-and-requests-for-quotation"></a>Solicitudes de compra y solicitudes de presupuesto
 En algunos casos, debe comenzar un proceso de solicitud de presupuesto para identificar el proveedor y el precio para los productos que se piden en una solicitud de compra. Se puede generar una solicitud de presupuesto cuando la solicitud de compra se encuentra en revisión. Al aceptar una oferta, la información acerca del proveedor, precio, etc., se transfiere a la solicitud.  
 
-Puede poner una solicitud de compra en espera seleccionando ** en espera ** la casilla en ** los detalles de la solicitud de compra ** la página. El procesamiento de la solicitud de compra puede continuar tras quita el bloqueo desactivando la casilla de verificación.  
+Puede poner una solicitud de compra en espera seleccionando la casilla **En espera** en la página **Detalles de la solicitud de compra**. El procesamiento de la solicitud de compra puede continuar solo después de eliminar la espera desactivando la casilla.  
 
 **Nota:** en eProcurement, la solicitud de presupuesto para su solicitud de compra puede permitir a los proveedores agregar líneas alternativas. En este caso, las alternativas se reflejarán en la solicitud de compra.
 
@@ -178,7 +181,7 @@ Para crear un pedido de compra para líneas de solicitud de compra que no sean a
 
 El proceso para la consolidación de la demanda comienza cuando una solicitud de compra se aprueba en un flujo de trabajo y se han registrado las reservas de presupuesto y las pre-reservas de gastos, si se ha configurado control presupuestario para su organización. En el siguiente diagrama se muestra el flujo de proceso para la consolidación de la demanda.  
 
-[flujo de proceso![para la consolidación de demanda (]. /media/demand-consolidation.gif])(. /media/demand-consolidation.gif)  
+[![Flujo de proceso de consolidación de demanda](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Para consolidar las líneas de solicitud de compra aprobadas, siga estos pasos:
 
@@ -192,8 +195,10 @@ Para consolidar las líneas de solicitud de compra aprobadas, siga estos pasos:
 <a name="see-also"></a>Consulte también
 --------
 
-[Crear una solicitud para el consumo (Guía de la tarea)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Creación de un pedido para consumo (Guía de tareas)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
-[Purchase requisition workflow](purchase-requisitions-workflow.md)
+[Flujo de trabajo de solicitudes de compra](purchase-requisitions-workflow.md)
+
+
 
 

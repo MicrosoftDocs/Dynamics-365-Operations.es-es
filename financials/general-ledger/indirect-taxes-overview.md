@@ -28,18 +28,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-overview"></a>Visión general de impuestos
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona una visión general del sistema de impuesto sobre las ventas. Explica los elementos de la configuración de los impuesto y de cómo funcionan juntos.
 
 <a name="overview"></a>Visión general
 --------
 
-El marco de los impuestos admite varios tipos de impuestos indirectos, como impuestos, impuesto sobre el valor añadido (VAT), impuestos de bienes y servicios (GST), cuotas, basadas unidades y retención de impuestos. Estos impuestos se calculan y se documentan durante transacciones de compra y ventas. Periódicamente, se deben notifican y se deban pagar a las autoridades fiscales. 
+El marco de impuestos admite muchos tipos de impuestos indirectos, como impuestos, impuesto sobre el valor añadido (IVA), impuesto de bienes y servicios (GST), cuotas basadas en unidad y retención de impuestos. Estos impuestos se calculan y se documentan durante transacciones de compra y de ventas. Periódicamente, se notifican y se pagan a las autoridades fiscales. 
 
 En el diagrama siguiente se muestran las entidades de la configuración de impuestos y cómo se relacionan.
 
-![TaxOverview [] (. /media/taxoverview1-300x209.jpg])(. /media/taxoverview1.jpg) 
+[![Visión general de impuestos](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
-Para cada impuestos que una empresa debe cuenta, un código de impuestos debe ser definido. Un código de impuestos almacena las tasas de impuestos y las reglas de cálculo para los impuestos. 
+Para todos los impuestos que una empresa debe tener en cuenta, se debe definir un código de impuestos. Un código de impuestos almacena las tasas de impuestos y las reglas de cálculo para los impuestos. 
 
 Cada código de impuestos se debe vincular a un período de liquidación de impuestos. Los períodos de liquidación de impuestos definen los intervalos en los que se deben notificar los impuestos y pagarse a la autoridad fiscal. Cada período de liquidación de impuestos se debe asignar a una autoridad fiscal. Una autoridad fiscal representa la entidad a la que se notifican y se pagan los impuestos. También define el diseño del informe de impuestos. Las autoridades fiscales pueden estar relacionadas con cuentas de proveedor. 
 
@@ -69,17 +72,17 @@ En cada transacción (líneas de documentos de ventas/compras, etc.), debe espec
 En cada transacción, para buscar los impuestos calculados, abra la página **Transacción de impuestos**. Puede buscar los impuestos para una línea de documento o para todo el documento. Para determinados documentos (por ejemplo, factura de proveedor y diarios generales), puede ajustar los impuestos calculados si el documento original muestra importes irregulares.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Liquidación de impuestos y generación de informes
-Los impuestos se deben notificar y pagar a las autoridades fiscales en intervalos regulados (mensuales, trimestrales, etc.). Microsoft Dynamics 365 para las operaciones proporciona una función que le permite establecer impuestos para el intervalo y compensa los saldos en la cuenta de liquidación de impuestos, como se especifica en los grupos de registro. Puede obtener acceso a esta funcionalidad en ** los impuestos de Liquidar y registrar ** la página. Debe especificar el período de liquidación de impuestos que los impuestos se deben configurar para. 
+Los impuestos se deben notificar y pagar a las autoridades fiscales en intervalos regulados (mensuales, trimestrales, etc.). Microsoft Dynamics 365 for Operations proporciona funciones que le permiten liquidar cuentas de impuestos para el intervalo y compensar los saldos con la cuenta de liquidación de impuestos, como se especifica en los grupos de registro. Puede obtener acceso a esta función en la página **Liquidar y registrar impuestos**. Debe especificar el período de liquidación de impuestos para el que se deben liquidar los impuestos. 
 
 Después de que se hayan pagado los impuestos, el saldo de la cuenta de liquidación de impuestos se debe equilibrar con la cuenta bancaria. Si la autoridad fiscal que está especificada en el período de liquidación de impuestos está relacionada con una cuenta de proveedor, el saldo de los impuestos se registra como factura de proveedor abierta y se puede incluir en la propuesta de pago normal.
 
 ## <a name="conditional-sales-tax"></a>Impuesto no realizado
 El impuesto condicional es un impuesto que se paga de forma proporcional al importe real que se paga en una factura. Inversamente, los impuestos estándar se calculan en el momento de la facturación. El impuesto condicional se debe pagar a la autoridad fiscal cuando se registra el pago, no cuando se registra la factura. Cuando se registra la factura, la transacción se debe informar en el informe de libro de impuestos. Sin embargo, la transacción se debe excluir del informe de pago de impuestos. 
 
-Si selecciona la casilla de impuestos condicional en los parámetros de contabilidad general cajas, ningún impuestos se puede deducir hasta que haya pagado la factura. Se trata de un requisito legal en algunos países o regiones.
+Si activa la casilla Impuesto no realizado en el formulario Parámetros de contabilidad general, no se puede deducir ningún impuesto hasta que haya pagado la factura. Se trata de un requisito legal en algunos países o regiones.
 
 > [!NOTE]
-> Al seleccionar la casilla de verificación impuestos condicionales, debe configurar los códigos de impuestos y grupos de impuestos, así como crear grupos de registros, para admitir la funcionalidad. |
+> Si activa la casilla Impuesto no realizado, debe configurar códigos de impuestos y grupos de impuestos, así como crear grupos de registro contable para admitir la funcionalidad. |
 
 ###  <a name="example"></a>Ejemplo
 
@@ -90,5 +93,7 @@ Usted liquida los impuestos cada mes. El 15 de junio, crea una factura de client
 Normalmente tendría que liquidar y pagar 2.500 a la autoridad fiscal cuando se registra la factura en junio, aunque no haya recibido el pago del cliente. 
 
 Sin embargo, si usa un impuesto condicional, se liquida con la autoridad fiscal cuando recibe el pago del cliente el 30 de julio.
+
+
 
 

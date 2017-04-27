@@ -1,6 +1,6 @@
 ---
 title: Clientes plantilla
-description: "Este tema proporciona información sobre clientes plantilla."
+description: "Este tema proporciona información sobre los clientes plantilla."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,20 +27,25 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="one-time-customers"></a>Clientes plantilla
 
-Este tema proporciona información sobre clientes plantilla.  
+[!include[banner](../includes/banner.md)]
 
-Un cliente plantilla es un cliente que no tiene una relación a largo plazo con su empresa. Para los clientes plantilla, no es necesario normalmente guardar información como la dirección, el contacto, o los detalles exentos de impuestos. Para indicar que un cliente es un cliente plantilla, realice los pasos siguientes:
 
-1.  Abre ** todos los clientes ** la página.
+Este tema proporciona información sobre los clientes plantilla.  
+
+Un cliente plantilla es un cliente que no tiene una relación a largo plazo con su empresa. Para los clientes plantilla, normalmente no es necesario guardar información como la dirección, el contacto, o los detalles de identificación fiscal. Para indicar que un cliente es un cliente plantilla, siga estos pasos:
+
+1.  Abra la página **Todos los clientes**.
 2.  Seleccione un nombre de cliente para abrir el registro del cliente.
-3.  En ** los detalles distintos ** la ficha desplegable, establezca ** cliente plantilla ** la opción ** Sí **.
-4.  Click **Save**.
+3.  En la ficha desplegable **Detalles varios**, establezca la opción **Cliente plantilla** en **Sí**.
+4.  Haga clic en **Guardar**.
 
-** Nota: ** Para poder registrar transacciones para un cliente plantilla, debe especificar una cuenta para utilizar para clientes plantilla en ** Cuenta de cliente plantilla ** el campo en ** los parámetros de clientes ** la página. Para España, puede limitar a usuarios de crear contratos de proyecto para clientes plantilla. Para ello, realice los pasos siguientes:
+**Nota:** para poder registrar transacciones para un cliente plantilla, debe especificar una cuenta para dicho cliente en el campo **Cuenta de cliente plantilla** de la página **Parámetros de clientes**. Para España, puede especificar restricciones de usuario para la creacción de contratos de proyecto para clientes plantilla. Para ello, realice los pasos siguientes:
 
-1.  Abre ** parámetros de contabilidad y gestión de proyectos ** la página.
-2.  Establezca ** ningún cliente plantilla para los contratos de proyecto ** el parámetro ** ** verdadera.
-3.  Click **Save**.
+1.  Abra la página **Parámetros de gestión de proyectos y contabilidad**.
+2.  Establezca el parámetro **No se permite usar clientes plantilla para contratos de proyectos** en **Verdadero**.
+3.  Haga clic en **Guardar**.
+
+
 
 
 

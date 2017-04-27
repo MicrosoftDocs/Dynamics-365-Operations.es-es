@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="prepayment-invoices-vs-prepayments"></a>Facturas de anticipo frente a anticipos
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe y contrasta los dos métodos que las organizaciones pueden usar para los pagos anticipados (anticipos). En un método, crea una factura de anticipo asociada a un pedido de compra. En el otro método, crea asientos del diario de anticipos creando entradas de diario y marcándolas como asientos del diario de anticipos.
 
 Las organizaciones pueden emitir anticipos o pagos por adelantado a proveedores por bienes o servicios antes de que estos se satisfagan. Se pueden usar dos métodos para emitir anticipos a los proveedores. Para minimizar el riesgo, puede realizar un seguimiento de los anticipos definiéndolos en pedidos de compra. Para este método, debe crear una factura en anticipo asociada a un pedido de compra. Este método se denomina facturación en anticipo. Las organizaciones que no deseen seguir los pagos por adelantado o anticipos tan de cerca o que no reciben una factura en anticipo del proveedor pueden usar asientos del diario de anticipos en lugar del método de factura en anticipo. Para crear asientos del diario de anticipos, cree entradas de diario y márquelas como asientos del diario de anticipos. Para este método no podrá realizar un seguimiento de los anticipos entregados a un proveedor en relación con los pedidos de compra. Sin embargo, puede marcar un prepago registrado para su liquidación con respecto a un pedido de compra.
@@ -47,9 +50,9 @@ Las prácticas de contabilidad de muchos países o regiones exigen que los antic
 1.  Configure un perfil de contabilización para anticipos.
 2.  En los parámetros de clientes y proveedores, en **Impuestos y contabilidad**, seleccione el nuevo perfil de contabilización mediante el parámetro **Perfil de registro para diario de pagos con pagos por adelantado**.
 3.  Cree un diario de pagos y, a continuación, cree el nuevo pago.
-4.  Puede marcar el pago como un anticipo. Si se marca como anticipo, el pago se registra en las cuentas contables que se definen en el perfil de registro configurados en los pasos 1 y 2. Además, si el pago se marca como anticipo, se calculan los impuestos. Algunos gobiernos exigen pagar los impuestos cuando se registra un anticipo, incluso si no hay una factura.
+4.  Puede marcar el pago como un anticipo. Si el pago se marca como anticipo, el pago se registra en las cuentas contables definidas en el perfil de contabilización que se configura en los pasos 1 y 2. Además, si el pago se marca como anticipo, se calculan los impuestos. Algunos gobiernos exigen pagar los impuestos cuando se registra un anticipo, incluso si no hay una factura.
 5.  Registre el pago por adelantado.
-6.  Opcional: Puede establecer el anticipo al pedido de compra o el pedido de ventas antes de crear la factura. En la página del pedido de ventas o de compra, en el panel de acciones, uso ** liquidar transacciones **.
+6.  Opcional: puede liquidar el pago por adelantado con respecto al pedido de compra o el pedido de ventas antes de crear la factura. En la página del pedido de ventas o de compra, en el panel de acciones, use **Liquidar transacciones**.
 7.  Cuando el proveedor entregue los bienes o servicios, registre la factura. Si se liquidó el anticipo con el pedido de compra o de ventas en el paso 6, el anticipo se liquida automáticamente con la factura que creada. Si no liquidó el anticipo con el pedido de compra o el pedido de ventas, puede hacerlo manualmente con la factura mediante **Liquidar transacciones**, en la página del cliente o del proveedor. El importe del anticipo a continuación se revierte de la cuenta contable de proveedor y cliente temporal. Además, si se han calculado los impuestos, estos se revierten, ya que la factura tiene los impuestos reales.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Información general del proceso de facturación en anticipo
@@ -60,6 +63,8 @@ Las facturas en anticipo son una práctica empresarial habitual. Un proveedor em
 3.  El coordinador de Proveedores registra la factura en anticipo con el pedido de compra y, a continuación, se paga la factura de anticipo.
 4.  Cuando el proveedor entrega los bienes o servicios y se reciben las facturas de proveedor, el coordinador de Proveedores aplica el importe de anticipo pagado en la factura.
 5.  El coordinador de Proveedores paga y liquida el importe restante de la factura.
+
+
 
 
 

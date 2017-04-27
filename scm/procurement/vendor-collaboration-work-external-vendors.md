@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboración de proveedor con proveedores externos
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tema describe cómo los agentes de compras pueden colaborar con los proveedores externos para intercambiar información sobre los pedidos de compra y el inventario de envío.
 
 El módulo de **Colaboración del proveedor** se indica para los proveedores que no tienen integración de Intercambio de datos electrónicos (EDI) con Microsoft Dynamics 365 for Operations. Permite a los proveedores trabajar con información sobre el pedido de compra, la factura y el inventario de envío. Este tema describe cómo puede colaborar con los proveedores externos que usan la interfaz de colaboración de proveedor para trabajar con PO y el inventario de envío. También explica cómo permitir a un proveedor específico utilizar la colaboración de proveedor, y cómo definir la información que verán todos los proveedores cuando respondan a un PO. Para obtener más información sobre lo que pueden hacer los proveedores externos en la interfaz de colaboración de proveedor, consulte [Colaboración de proveedor con los clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
@@ -64,11 +67,11 @@ Si desea compartir información de precios como precio por unidad, descuentos y 
 ## <a name="work-with-pos-when-using-vendor-collaboration"></a>Trabajar con PO cuando se usa la colaboración del proveedor
 ### <a name="sending-a-po-to-the-vendor"></a>Enviar un PO al proveedor
 
-Los pedidos de compra se preparan en Dynamics 365 for Operations. Cuando el PO tiene un estado de aprobado ** **, se lo envía al proveedor mediante ** registrar para confirmación ** la acción en ** pedido de compra ** la página. El estado del PO cambia a **En proceso de revisión externa**. Después de enviar el PO, el proveedor puede consultarlo en la página **Pedidos de compra para revisar** de la interfaz de colaboración del proveedor, donde pueden aceptar, rechazar o sugerir cambios al pedido. El proveedor también puede agregar comentarios para comunicar información como cambios al pedido de compra. Si quiere que el proveedor se fije en una nueva OC, también puede usar el sistema de gestión de impresión para enviar la OC por correo electrónico.
+Los pedidos de compra se preparan en Dynamics 365 for Operations. Cuando el pedido de compra tiene un estado de **Aprobado**, se envía al proveedor mediante la acción **Enviar para su confirmación** en la página **Pedido de compra**. El estado del PO cambia a **En proceso de revisión externa**. Después de enviar el PO, el proveedor puede consultarlo en la página **Pedidos de compra para revisar** de la interfaz de colaboración del proveedor, donde pueden aceptar, rechazar o sugerir cambios al pedido. El proveedor también puede agregar comentarios para comunicar información como cambios al pedido de compra. Si quiere que el proveedor se fije en una nueva OC, también puede usar el sistema de gestión de impresión para enviar la OC por correo electrónico.
 
 ### <a name="confirmation-and-acceptance-of-the-po-by-the-vendor"></a>Confirmación y aceptación del PO por parte del proveedor
 
-Cuando un proveedor ha aceptado un pedido de compra, el PO puede confirmarse automáticamente, o es posible que necesite confirmarse de forma manual. Esto depende de si ** activación del proveedor ** el campo está establecido ** activo (mayo se confirma el PO **) para el proveedor, o ** activo (el PO mayo no está confirmado **).  
+Cuando un proveedor ha aceptado un pedido de compra, el PO puede confirmarse automáticamente, o es posible que necesite confirmarse de forma manual. Esto depende de si el campo de **Activación del proveedor** está configurado como **Activo (el PO se confirma automáticamente)** por parte del proveedor o como **Activo (el PO no se confirma automáticamente)**.  
 
 La siguiente tabla muestra el intercambio de información normal, en función de cómo responde el proveedor cuando se le envía un PO para su confirmación.
 
@@ -102,12 +105,12 @@ La siguiente tabla muestra el intercambio de información normal, en función de
 <li>Sustituir un artículo.</li>
 </ul>
 La información de precios y gastos no se puede cambiar por parte del proveedor. Las sugerencias para los cambios en los precios se pueden realizar mediante notas.</td>
-<td>Se graba la respuesta del proveedor como <strong>Aceptado con los cambios</strong>, <strong></strong> y previsión mantiene el estado de PC <strong>En revisión externo</strong>.</td>
+<td>La respuesta del proveedor se registra como <strong>Aceptado con cambios</strong>, <strong></strong>y el estado del pedido de compra se mantiene como <strong>En revisión externa</strong>.</td>
 </tr>
 </tbody>
 </table>
 
-Puede usar ** pedido de compra ** ** preparación ** el área de trabajo a controlar a la que el puesto el proveedor ha respondido. Esta Área de trabajo contiene dos listas de las que contenga los pedidos de compra con un estado ** revisando externo **:
+Puede usar el espacio de trabajo de espacio de trabajo **Preparación del** **pedido de compra** para supervisar a qué PO ha respondido el proveedor. Este espacio de trabajo contiene dos listas que albergan pedidos de compra con el estado **En revisión externa**:
 
 -   En revisión externa requiere de una acción.
 -   En revisión externa en espera de respuesta del proveedor.
@@ -125,7 +128,7 @@ Al cancelar un PO, el estado se cambia a **Aprobado**. Debe enviar de nuevo la O
 Puede añadir datos adjuntos como archivos, imágenes y notas al PO mediante el sistema de gestión de documentos. Los datos adjuntos añadidos con la restricción de tipo **Externo** serán visibles para el proveedor cuando le envíe el PO.
 
 ## <a name="purchase-order-statuses-and-versions"></a>Estados y versiones de pedidos de compra
-Esta sección describe los distintos estados que un PO puede tener hasta el momento en que se confirma, y cuándo están disponibles para el proveedor las nuevas versiones del PO. Existen diferencias en esto, en función de si utiliza la gestión de cambios para pedidos de compra. 
+Esta sección describe los distintos estados que un PO puede tener hasta el momento en que se confirma, y cuándo están disponibles para el proveedor las nuevas versiones del PO. Existen diferencias en función de si utiliza la gestión de cambios para pedidos de compra. 
 
 ### <a name="versions-and-statuses-if-you-dont-use-change-management"></a>Versiones y estados si no utiliza la gestión de cambios
 
@@ -168,6 +171,8 @@ Si está usando el inventario de envío, los proveedores pueden usar la interfaz
 -   **Pedidos de compra que consumen el inventario de envío**: los pedidos de compra del inventario de envío se generan cuando la propiedad del inventario pasa del proveedor a la empresa. El recibo del producto se publica al mismo tiempo. Estos pedidos de compra de envío solo se muestran en la página de **Pedidos de compra que consumen el inventario de envío**. No se incluyen en la página **Todos los pedidos de compra confirmados** del módulo **Colaboración de proveedor**.
 -   **Productos recibidos del inventario de envío**: esta página muestra todas las transacciones en las que la titularidad de los productos se ha transferido del proveedor a la empresa. Los proveedores pueden usar esta información para facturar al cliente.
 -   **Inventario de envío disponible**: esta página muestra el inventario disponible de envío que es propiedad del proveedor y que se ha recibido en el almacén.
+
+
 
 
 

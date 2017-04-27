@@ -1,5 +1,5 @@
 ---
-title: "Establecer un pago de cliente parcial con períodos de descuento varios"
+title: "Liquidar un pago de cliente parcial con varios períodos de descuento"
 description: "En este artículo se muestra cómo se liquidan los pagos de clientes parciales cuando hay varios períodos de descuento."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Establecer un pago de cliente parcial con períodos de descuento varios
+# <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Liquidar un pago de cliente parcial con varios períodos de descuento
+
+[!include[banner](../includes/banner.md)]
+
 
 En este artículo se muestra cómo se liquidan los pagos de clientes parciales cuando hay varios períodos de descuento.
 
-Fabrikam ofrece al cliente 4.031 dos períodos de descuento por pronto pago. El cliente recibe un descuento por pronto pago del 2 por ciento si la factura se paga en cinco días, y un descuento por pronto pago del 1 por ciento si la factura se paga en 14 días. Fabrikam también ofrece descuentos por pronto pago en pagos parciales. Los parámetros del acuerdo se encuentran en ** los parámetros de clientes ** la página.
+Fabrikam ofrece al cliente 4.031 dos períodos de descuento por pronto pago. El cliente recibe un descuento por pronto pago del 2 por ciento si la factura se paga en cinco días, y un descuento por pronto pago del 1 por ciento si la factura se paga en 14 días. Fabrikam también ofrece descuentos por pronto pago en pagos parciales. Los parámetros de liquidación se encuentran en la página **Parámetros de clientes**.
 
 ## <a name="invoice"></a>Factura
-El 25 de junio, Arnie entra y registra una factura de 1,000.00 para el cliente 4031. Al revisar los descuentos por pronto pago de esta factura, Arnie consulta que el cliente recibe un 4031 descuento 20.00 si la factura se paga el 30 de junio. Si la factura se paga el 9 de julio, el cliente recibe un descuento 10.00.
+El 25 de junio, Arnie introduce y registra una factura para 1.000,00 del cliente 4.031. Cuando revisa los descuentos por pronto pago de esta factura, Arnie ve que el cliente 4.031 recibe un descuento de 20,00 si la factura se paga antes del 30 de junio. Si la factura se paga antes del 9 de julio, el cliente recibe un descuento de 10,00.
 
 | Fecha del descuento por pronto pago | Importe de descuento por pronto pago | Importe en divisa de la transacción |
 |--------------------|----------------------|--------------------------------|
@@ -92,6 +95,8 @@ El saldo de la factura es ahora de 0,00. Arnie ve la información en la página 
 | DISC-10030 |  Descuento por pronto pago   | 28/6/2015 |         |                                      | 6,00                                  | 0,00    | USD      |
 | ARP-10031  |  Pago         | 7/8/2015  |         |                                      | 693,00                                | 0,00    | USD      |
 | DISC-1031  |  Descuento por pronto pago   | 7/8/2015  |         |                                      | 7,00                                  | 0,00    | USD      |
+
+
 
 
 

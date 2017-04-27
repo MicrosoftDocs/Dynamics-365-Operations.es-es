@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-financial-reports"></a>Ver informes financieros
 
+[!include[banner](../includes/banner.md)]
+
+
 En este artículo se describe cómo ver y explorar informes financieros en Microsoft Dynamics AX. Incluye información sobre las distintas opciones que se pueden aplicar a los informes financieros para cambiar su aspecto y los datos que incluyen.
 
 <a name="financial-reporting-overview"></a>Visión general de informes financieros
@@ -48,7 +51,7 @@ Puede cambiar la fecha del informe, aplicar filtros de atributos y dimensiones, 
 
 -   Para cambiar el período base y el año base de un informe, seleccione un período base y un año base y haga clic en **Aceptar**.
 -   Para aplicar filtros de atributos a un informe, seleccione **Agregar atributo de filtro**. Seleccione el atributo, escriba el valor del atributo y, a continuación, haga clic en **Aceptar**. Por ejemplo, si selecciona el atributo **Categoría de cuenta**, especifique **VENTAS** como el valor del atributo. Para quitar un filtro de atributo, haga clic en **Borrar**.
--   Para aplicar filtros de la dimensión a un informe, seleccione ** agregue un filtro de la dimensión **. Seleccione la dimensión, y escriba al identificador de la dimensión o seleccione la dimensión en la lista. Para quitar un filtro de dimensión, haga clic en **Borrar**.
+-   Para aplicar filtros de dimensión a un informe, seleccione **Agregar una dimensión de filtro**. Seleccione la dimensión y, a continuación, escriba el id. de la dimensión o seleccione la dimensión en la lista. Para quitar un filtro de dimensión, haga clic en **Borrar**.
 -   Para cambiar el escenario en un informe **Real frente a presupuesto**, seleccione un nuevo escenario y haga clic en **Aceptar**. Si el escenario seleccionado es para otro año, asegúrese de actualizar el año base. Por ejemplo, si el escenario actual es para el AF2015, y selecciona un nuevo escenario que es para el AF2016, debe cambiar el año base a **2016**.
 
 Al hacer clic en **Aceptar**, se aplican al informe todas las opciones que haya seleccionado. Si decide que no desea aplicar las opciones seleccionadas, haga clic en **Cancelar**.
@@ -66,7 +69,7 @@ Se puede mostrar un informe financiero en cualquier divisa en cualquier momento.
 Un informe financiero puede contener líneas de detalle y líneas de resumen. Las líneas de detalle son las líneas que contienen cuentas principales o dimensiones. Las líneas de resumen son descripción, total y líneas de cálculo. Para mostrar solo las líneas de resumen de un informe, haga clic en **Mostrar ** y luego en **Solo líneas de resumen**. El informe se contrae y solo muestra las líneas de resumen. Para ver las líneas de detalle junto con las líneas de resumen, haga clic en **Mostrar** y luego haga clic en **Solo líneas de resumen** de nuevo.
 
 ## <a name="open-a-financial-report-from-a-previous-month"></a>Abrir un informe financiero a partir de un mes anterior
-Puede ver informes para el mes actual o meses anteriores sin volver a regenerar el informe. Para abrir el informe para un mes anterior, haga clic en ** presentación **, y haga clic en los informes ** ** anteriores. Una lista de los meses anteriores que el informe se ha generado para aparece. Expanda el mes para el que desea ver el informe, seleccione la fecha y haga clic en **Aceptar**. Aparece el informe del mes anterior. Para volver al informe del mes actual, haga clic en **Cancelar**.
+Puede ver informes para el mes actual o meses anteriores sin volver a regenerar el informe. Para abrir el informe para un mes anterior, haga clic en **Mostrar** y después haga clic en a**Informes anteriores**. Aparece una lista de los meses anteriores para los que se ha generado el informe. Expanda el mes para el que desea ver el informe, seleccione la fecha y haga clic en **Aceptar**. Aparece el informe del mes anterior. Para volver al informe del mes actual, haga clic en **Cancelar**.
 
 ## <a name="print-a-financial-report"></a>Imprimir un informe financiero
 Para imprimir un informe financiero, en el Panel de acciones, haga clic en **Imprimir** y, a continuación, siga uno o más de estos pasos para establecer las opciones de impresión:
@@ -85,5 +88,7 @@ Para exportar un informe financiero, en el Panel de acciones, haga clic en **Exp
 --------
 
 [Informes financieros para Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Importación avanzado de conciliación bancaria MT940 – compuesta actualización de la entidad de los datos"
+title: "Importación avanzada de conciliación bancaria MT940 - Actualización de la entidad de datos compuestos"
 description: "Es necesario añadir un número de secuencia a la entidad de importación del extracto bancario para admitir el formato MT940."
 author: twheeloc
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Importación avanzado de conciliación bancaria MT940 – compuesta actualización de la entidad de los datos
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Importación avanzada de conciliación bancaria MT940 - Actualización de la entidad de datos compuestos
+
+[!include[banner](../includes/banner.md)]
+
 
 Es necesario añadir un número de secuencia a la entidad de importación del extracto bancario para admitir el formato MT940. 
 
@@ -36,9 +39,9 @@ Siga estos pasos para agregar la entidad de importación del extracto bancario p
     -   Entidad\\BankStatementDocumentEntity
     -   Entidad\\BankStatementEntity
     -   Entidad\\BankStatementLineEntity
-    -   Muestra BankStatementStaging\\
+    -   Tablas\\BankStatementStaging
 
-2.  Proyectos\\los datos\\de gestión de datos.
+2.  Gestión de datos\\proyectos de datos.
     1.  Cargar proyecto(s) de importación MT940
         1.  Cambiar XSLT.
             -   Haga clic en **Ver mapa**.
@@ -58,6 +61,8 @@ Siga estos pasos para agregar la entidad de importación del extracto bancario p
                 -   Comprobar que **SequenceNumber** se asigna desde Origen a Montaje.
 
 3.  Importar el extracto nuevo.
+
+
 
 
 

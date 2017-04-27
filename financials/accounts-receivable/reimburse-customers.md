@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reimburse-customers"></a>Reembolsar a clientes
 
+[!include[banner](../includes/banner.md)]
+
+
 En este artículo se explica cómo crear transacciones de reembolso de un grupo de clientes. Si un cliente tiene un saldo de crédito, puede reembolsar al cliente por el importe del saldo. 
 
 La tabla siguiente muestra los requisitos previos que deben cumplirse antes de comenzar.
@@ -47,6 +50,8 @@ Cuando crea transacciones de reembolso, se crea una factura de proveedor para el
     Los importes de crédito se transfieren a las cuentas de proveedor de los clientes y se procesan como pagos normales. Si un cliente no dispone de cuenta de proveedor, el programa creará automáticamente una cuenta de proveedor plantilla para dicho cliente.
 3.  Para ver las transacciones de reembolso creadas, use la página **Reembolso**.
 4.  En Proveedores, cree un pago para las facturas de proveedor que se crearon por el proceso de reembolso.
+
+
 
 
 

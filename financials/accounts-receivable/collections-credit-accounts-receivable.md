@@ -1,6 +1,6 @@
 ---
 title: "Créditos y cobros en Clientes"
-description: "La información de cobros de clientes se gestiona en una vista central con Microsoft Dynamics 365 para la página de las recopilaciones de las operaciones. Los administradores de crédito y cobros pueden usar esta vista central para gestionar los cobros. Los agentes de cobros pueden comenzar el proceso de cobro por las listas de clientes que se generan mediante criterios de cobro predefinidos o por la página Clientes."
+description: "La información de los cobros de clientes se gestiona en una vista central con la página Cobros de Microsoft Dynamics 365 for Operations. Los administradores de crédito y cobros pueden usar esta vista central para gestionar los cobros. Los agentes de cobros pueden comenzar el proceso de cobro por las listas de clientes que se generan mediante criterios de cobro predefinidos o por la página Clientes."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Créditos y cobros en Clientes
 
-La información de cobros de clientes se gestiona en una vista central con Microsoft Dynamics 365 para la página de las recopilaciones de las operaciones. Los administradores de crédito y cobros pueden usar esta vista central para gestionar los cobros. Los agentes de cobros pueden comenzar el proceso de cobro por las listas de clientes que se generan mediante criterios de cobro predefinidos o por la página Clientes.
+[!include[banner](../includes/banner.md)]
+
+
+La información de los cobros de clientes se gestiona en una vista central con la página Cobros de Microsoft Dynamics 365 for Operations. Los administradores de crédito y cobros pueden usar esta vista central para gestionar los cobros. Los agentes de cobros pueden comenzar el proceso de cobro por las listas de clientes que se generan mediante criterios de cobro predefinidos o por la página Clientes.
 
 Antes de comenzar a configurar cobros o a trabajar con éstos, debe comprender los siguientes conceptos:
 -   Las instantáneas de vencimiento de los clientes contienen información sobre saldos vencidos en un momento determinado.
@@ -55,9 +58,9 @@ Para cada período de vencimiento de la definición de período de vencimiento, 
 Las secciones de clientes son consultas que definen un grupo de registros de cliente que se pueden mostrar y gestionar para cobros o procesos de vencimiento. Use las secciones de clientes para filtrar información en las páginas Saldos vencidos, Actividades de cobros y Casos de cobros. También se usan las secciones de clientes para filtrar las cuentas de cliente que se incluyen al crear instantáneas de vencimientos.
 
 ## <a name="collections-agents"></a>Agentes de cobros
-De forma predeterminada, Microsoft Dynamics 365 para los usuarios de las operaciones puede ver toda la información de clientes en las páginas de listas de cobros. Puede usar los registros de agente de cobros para determinar las secciones de clientes disponibles para filtrar la información de las páginas de listas de cobros y en la página Cobros. 
+De forma predeterminada, los usuarios de Microsoft Dynamics 365 for Operations pueden ver toda la información de los clientes en las páginas de listas de cobros. Puede usar los registros de agente de cobros para determinar las secciones de clientes disponibles para filtrar la información de las páginas de listas de cobros y en la página Cobros. 
 
-El agente de cobros es una persona que trabaja con clientes para asegurarse de que los pagos se cobran a tiempo. En Microsoft Dynamics 365 para las operaciones, los agentes de cobros son los trabajadores asignados a los usuarios de la página de configuración del usuario.
+El agente de cobros es una persona que trabaja con clientes para asegurarse de que los pagos se cobran a tiempo. En Microsoft Dynamics 365 for Operations, los agentes de cobros son trabajadores asignados a usuarios en la página Configuración de usuario.
 
 ## <a name="collections-list-pages"></a> Páginas de listas Cobros 
 En las siguientes páginas de lista, se le ayuda a organizar la información de cobros.
@@ -67,7 +70,7 @@ En las siguientes páginas de lista, se le ayuda a organizar la información de 
 
 > [!NOTE]
 > Es necesario crear una instantánea de vencimientos antes de que pueda visualizar información en estas páginas de lista. La información se muestra solo para aquellos clientes para los que se ha creado una instantánea de vencimientos. Los registros que se muestran en la página de lista se pueden filtrar más, como sigue:
-<li>De forma predeterminada, un Microsoft Dynamics 365 para el usuario de las operaciones tiene acceso a todos los clientes que tengan una instantánea de vencimientos.</li>
+<li>De forma predeterminada, un usuario de Microsoft Dynamics 365 for Operations tiene acceso a todos los clientes que dispongan de una instantánea de vencimientos.</li>
 <li>Si existen secciones de clientes, es necesario configurar un usuario como agente de cobros para que pueda usar las secciones para filtrar información de páginas de listas de cobros. El acceso a esta información está limitado a los clientes incluidos en la sección de clientes seleccionada.</li>
 <li>Si un usuario está configurado como agente de cobros, sólo estarán disponibles en la página de lista las secciones seleccionadas para dicho agente de cobros. Si se ha seleccionado Permitir que el agente vea todas las secciones de clientes en la página Agente de cobros para el agente de cobros, todas las secciones quedan disponibles para dicho agente.</li>
 
@@ -75,7 +78,7 @@ En las siguientes páginas de lista, se le ayuda a organizar la información de 
 ## <a name="collections-page"></a> Página Cobros
 Use la página Cobros para ver, administrar y actuar en la información de cobros, actividades y casos de un cliente. 
 
-Los casos de muestra del panel superior para el cliente seleccionado. El panel central se muestran las transacciones del cliente. En el panel inferior, se muestran las actividades del cliente. Puede crear casos de cobros para realizar seguimientos de la información de cobros de una o varias transacciones y actividades. La información que aparece en la parte superior y en los paneles inferiores se puede filtrar por caso. 
+En el panel superior, se muestran los casos del cliente seleccionado. En el panel intermedio se muestran las transacciones del cliente. En el panel inferior, se muestran las actividades del cliente. Puede crear casos de cobros para realizar seguimientos de la información de cobros de una o varias transacciones y actividades. La información que aparece en la parte superior y en los paneles inferiores se puede filtrar por caso. 
 
 En los cuadros informativos, se muestran los saldos vencidos y la información de límite de crédito para el cliente seleccionado. Esta información se almacena en la instantánea de vencimientos. En caso necesario, puede actualizar la instantánea de vencimientos con información actual. 
 
@@ -86,7 +89,7 @@ Puede renunciar, restablecer o invertir notas de interés completas, o las cuota
 
 Estos ajustes sólo afectan a las notas de interés, así como a los intereses y cuotas incluidos en éstos. Realice los pasos descritos en la sección “Crear transacciones de cancelación en un paso” para cancelar todos los cargos que debe un cliente.
 
-## <a name="create-writeoff-transactions"></a>Crear transacciones de cancelación
+## <a name="create-writeoff-transactions"></a>Creación de transacciones de cancelación
 Puede cancelar deudas incorrectas haciendo clic en Cancelar en el formulario Cobros y en las páginas de listas Saldos vencidos, Clientes y Facturas de cliente abiertas. 
 
 Al cancelar transacciones para un cliente, todas las transacciones del cliente se marcan automáticamente para liquidación. El importe que se cancela depende del importe neto de las transacciones marcadas. La transacción de cancelación se crea en un diario general, que puede contener hasta tres tipos de líneas de diario.
@@ -100,6 +103,8 @@ Procesamiento de pagos de fondos insuficientes (NSF)
 --------------------------------------------
 
 Puede procesar pagos NSF haciendo clic en Pago NSF en la página Cobros. Al hacer clic en este botón, se cancela el pago. Si se aplica una cuota NSF para el cliente, se creará una transacción de cargos en un diario de pagos. El importe de la cuota se basa en la configuración de los cargos automáticos. Los cargos automáticos que se aplican para los pagos NSF se especifican en función del grupo de cargos seleccionado en la página Cuentas bancarias de la cuenta bancaria afectada.
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Establecer un pago de cliente parcial con descuentos en las notas de abono
+title: Liquidar un pago de cliente parcial con descuentos en notas de abono de proveedor
 description: "Este artículo le guía por un escenario en el que se aplica un descuento por pronto pago en una nota de abono cuando la factura original también tenía un descuento por pronto pago."
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Establecer un pago de cliente parcial con descuentos en las notas de abono
+# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Liquidar un pago de cliente parcial con descuentos en notas de abono de proveedor
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo le guía por un escenario en el que se aplica un descuento por pronto pago en una nota de abono cuando la factura original también tenía un descuento por pronto pago. 
 
-Fabrikam permite hacer descuentos por pronto pago a los clientes en los pagos parciales y también en las notas de abono (notas de crédito). Un descuento por pronto pago se puede aplicar a una nota de abono cuando la nota de abono se emite para una factura en la que se hizo un descuento por pronto pago al cliente. En lugar de proporcionar un crédito por el importe completo, puede abonar en el saldo del cliente un importe que excluya el porcentaje de descuento por pronto pago que se aplica al cliente. Los parámetros del acuerdo se encuentran en ** los parámetros de clientes ** la página.
+Fabrikam permite hacer descuentos por pronto pago a los clientes en los pagos parciales y también en las notas de abono (notas de crédito). Un descuento por pronto pago se puede aplicar a una nota de abono cuando la nota de abono se emite para una factura en la que se hizo un descuento por pronto pago al cliente. En lugar de proporcionar un crédito por el importe completo, puede abonar en el saldo del cliente un importe que excluya el porcentaje de descuento por pronto pago que se aplica al cliente. Los parámetros de liquidación se encuentran en la página **Parámetros de clientes**.
 
 ## <a name="invoice-and-credit-note"></a>Nota de abono y factura
 El cliente 4035 tiene una factura de 1.000,00 y una nota de abono de 100,00. Cada uno de estos documentos tiene un descuento del 1 por ciento si se paga en 14 días. Arnie puede ver esta información en la página **Transacciones de cliente**.
@@ -59,5 +62,7 @@ La información de descuento aparece en la parte inferior de la página **Liquid
 | Importe de descuento por pronto pago para aplicar | -1,00     |
 
 La liquidación será de 100,00, e incluirá un pago de 99,00 y un descuento de 1,00.
+
+
 
 

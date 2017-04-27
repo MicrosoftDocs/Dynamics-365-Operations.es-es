@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="quarantine-orders"></a>Órdenes de cuarentena
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe cómo se usan los pedidos de cuarentena para bloquear el inventario. 
 
-Los pedidos de cuarentena se pueden usar para bloquear el inventario. Por ejemplo, puede que desee poner en cuarentena los artículos por motivos de control de calidad. Recepción del inventario en cuarentena se transfiere a un almacén de cuarentena. **Nota:** Si utiliza procesos avanzados de administración de almacenes (en Administración de almacenes), el procesamiento de pedidos en cuarentena solo se usa para los pedidos de ventas de devolución.
+Los pedidos de cuarentena se pueden usar para bloquear el inventario. Por ejemplo, puede que desee poner en cuarentena los artículos por motivos de control de calidad. El inventario que se ha puesto en cuarentena se transfiere a un almacén de cuarentena. **Nota:** Si utiliza procesos avanzados de administración de almacenes (en Administración de almacenes), el procesamiento de pedidos en cuarentena solo se usa para los pedidos de ventas de devolución.
 
-## <a name="quarantine-onhand-inventory-items"></a>Quarantine los artículos de inventario de disponible
+## <a name="quarantine-onhand-inventory-items"></a>Poner en cuarentena artículos de inventario disponibles
 Cuando ponga los artículos en cuarentena, puede crear órdenes de cuarentena manualmente o configurar el sistema para crear las órdenes de cuarentena automáticamente durante el proceso de entrada. Para crear órdenes de cuarentena automáticamente, seleccione la opción **Gestión de cuarentena** de la ficha **Directivas de inventario** de la página **Grupos de modelos de artículo**. También debe especificar el almacén de cuarentena predeterminado en el campo **Almacén de cuarentena** para los almacenes de recepción. Cuando el inventario disponible físicamente se registra en un pedido de compra o pedido de producción, los artículos en cuarentena se mueven automáticamente a un almacén de cuarentena en Microsoft Dynamics 365 for Operations. Este movimiento se produce porque el estado del pedido de cuarentena se cambia a **Iniciado**. Al crear órdenes de cuarentena manualmente, el artículo no se tiene que configurar para gestión de cuarentena en el grupo de modelos del artículo asociado. Para este proceso, debe especificar el inventario disponible que se debe poner en cuarentena y el almacén de cuarentena que se debe utilizar. Puede usar los estados de orden de cuarentena para ayudar a planear el proceso.
 
 ## <a name="quarantine-order-statuses"></a>Estados de la orden de cuarentena
@@ -64,6 +67,8 @@ Como parte del proceso de la orden de cuarentena, puede eliminar inventario. Al 
 <a name="see-also"></a>Consulte también
 --------
 
-[Inventory blocking](inventory-blocking.md)
+[Bloqueo del inventario](inventory-blocking.md)
+
+
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Asiento único con varios registros de cliente o proveedor
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tema proporciona una visión general de lo que sucede cuando se registra un documento único con varios registros del cliente o del proveedor. Esta función se cancelará en futuras versiones de Microsoft Dynamics 365 for Operations, por eso no se recomienda el uso de este método de registro debido al impacto contable en el procesamiento del acuerdo. 
 
 Algunos ejemplos comunes donde el asiento se usa para varios clientes o proveedores incluyen las transacciones de saldos entre clientes, y la compensación de saldos entre clientes y proveedores de la misma organización. 
@@ -91,10 +94,10 @@ Si el usuario no está satisfecho con el descuento de efectivo que se asigna a t
 
 |             |                  |              |                 |           |            |                 |                    |
 |-------------|------------------|--------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Asiento** | **Tipo de cuenta** | **Cuenta**  | **Descripción** | **Débito** | **Crédito** | **Offset type** | **Offset account** |
+| **Asiento** | **Tipo de cuenta** | **Cuenta**  | **Descripción** | **Débito** | **Crédito** | **Tipo de contrapartida** | **Cuenta de contrapartida** |
 | GNJL001     | Proveedor           | 1001         | INV1            |           | 100,00     | Contabilidad          | &lt;espacio en blanco&gt;      |
 | GNJL001     | Contabilidad           | 606300-001-- | INV1            |   50,00   |            | Contabilidad          | &lt;espacio en blanco&gt;      |
-| GNJL001     | Contabilidad           | 606300-002-- | INV1            |   50,00   |            | Contabilidad          | &lt;espacio en blanco&gt;      |
+| GNJL001     | Contabilidad           | 606300-002-- | INV1            |   50,00   |            | Contabilidad          | &lt;espacio en blanco&gt;:      |
 | GNJL002     | Proveedor           | 1001         | INV2            |           | 200,00     | Contabilidad          | 606300-003--       |
 | GNJL003     | Proveedor           | 1001         | INV3            |           | 300,00     | Contabilidad          | 606300-004--       |
 
@@ -248,5 +251,7 @@ Para evitar problemas no deseados con acuerdos futuros para esta transacción, e
 | 002         | Proveedor           | 1001        |                 |  75,00    |            | Contabilidad          | 999999---          |
 
  
+
+
 
 

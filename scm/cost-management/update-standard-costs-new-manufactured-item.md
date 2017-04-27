@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Actualizar costes estándar para un nuevo artículo fabricado
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona orientación para actualizar los costes estándar para un nuevo artículo fabricado. 
 
 En las directrices siguientes se supone que se usa el enfoque de dos versiones para actualizar costes estándar. En este enfoque, una versión de gestión de costes contiene los costes estándar que se definieron originalmente para el período congelado y la segunda versión de gestión de costes contiene las actualizaciones incrementales relacionadas con los nuevos artículos fabricados. Las actualizaciones incrementales se especifican como registros de coste en la segunda versión de gestión de costes y, finalmente, se activan. El enfoque de dos versiones requiere que defina una segunda versión de gestión de costes. Esta son las instrucciones para definir esta versión de gestión de costes:
@@ -47,6 +50,8 @@ Para agregar nuevos artículos de fabricación a lo largo del período congelado
 5.  Utilice la página **Configuración de la versión de gestión de costes**  para modificar el indicador de bloqueo y permitir la activación de los registros de costes pendientes incluidos en la segunda versión de gestión de costes.
 6.  Use la página **Activar precios** (que se abre desde la página **Mantenimiento de la versión de gestión de costes**) para habilitar todos los registros de costes pendientes en la segunda versión de gestión de costes. También puede habilitar los registros de costes pendientes para los artículos individuales haciendo clic en el botón **Activar** de la página **Precio de artículo**.
 7.  Use la página **Configuración de la versión de gestión de costes** para modificar los indicadores de bloqueo de la segunda versión de gestión de costes para impedir la actualización posterior de los datos. Las directivas de bloqueo impiden la entrada de nuevos costes pendientes y la activación de costes pendientes.
+
+
 
 
 

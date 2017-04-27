@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Eliminación de valores atípicos de los datos de transacción históricos al calcular una previsión de la demanda
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe cómo excluir valores atípicos de los datos históricos que se usan para calcular una previsión de la demanda. Al excluir los valores atípicos se puede mejorar precisión de la previsión.
 
-Puede excluir valores atípicos para mejorar precisión de previsión. Esta tarea es opcional. Esta es una visión general del proceso:
+Puede excluir valores atípicos para mejorar la precisión de la previsión. Esta tarea es opcional. Esta es una visión general del proceso:
 
-1.  Haga clic en ** planificación maestra ** &gt; ** configuración ** &gt; ** previsión de demanda ** &gt; ** jubilación del valor atípico ** abrir ** jubilación del valor atípico ** la página, donde puede utilizar una consulta para seleccionar las transacciones que se deben excluir.
+1.  Haga clic en **Planificación maestra** &gt; **Configuración** &gt; **Previsión de demanda** &gt; **Eliminación de valores atípicos** para abrir la página **Eliminación de valores atípicos**, donde puede usar una consulta para seleccionar las transacciones que desea excluir.
 2.  Seleccione la empresa a la que se aplica la consulta y especifique un nombre y una descripción. El campo **Fecha de consulta** se establece automáticamente en la fecha actual.
 3.  Seleccione la casilla **Activo** para excluir de los datos históricos las transacciones que se encuentran mediante la consulta. Esta configuración se aplicará cuando cree una previsión de línea base.
 4.  En la página **Consulta de eliminación de valores atípicos** puede agregar, quitar y seleccionar los criterios que definen las transacciones que se excluirán al calcular la previsión de línea base. Por ejemplo, seleccione un artículo o una transacción de pedido concreto que desee excluir.
@@ -43,8 +46,10 @@ Puede excluir valores atípicos para mejorar precisión de previsión. Esta tare
 <a name="see-also"></a>Consulte también
 --------
 
-[Introduction to demand forecasting](introduction-demand-forecasting.md)
+[Introducción a la previsión de demanda](introduction-demand-forecasting.md)
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Supervisión de la precisión de previsión](monitor-forecast-accuracy.md)
+
+
 
 

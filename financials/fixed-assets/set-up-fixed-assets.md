@@ -1,9 +1,9 @@
 ---
-title: "Activos fijos de instalación"
+title: Configurar Activos fijos
 description: "Este tema proporciona información general de la Configuración del módulo Activos fijos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-fixed-assets"></a>Activos fijos de instalación
+# <a name="set-up-fixed-assets"></a>Configurar Activos fijos
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tema proporciona información general de la Configuración del módulo Activos fijos.
 
@@ -43,7 +46,7 @@ Los activos fijos se asignan a un grupo cuando se crean. De forma predeterminada
 Debe configurar los perfiles de depreciación primero. En el perfil de depreciación, configure cómo se deprecia el valor de un activo en el tiempo. Debe definir el método de depreciación, el año de depreciación (año natural o año fiscal) y la frecuencia de depreciación.
 
 ## <a name="books"></a>Libros
-Tras configurar los perfiles de depreciación, debe crear los libros necesarios para sus activos. Cada libro sigue el ciclo de vida financiera independiente de un activo. Los libros se pueden configurar para publicar transacciones asociadas a la contabilidad general. Esta configuración es la configuración predeterminada, porque se usa normalmente para el informe financiero corporativo. Libretas que no se registran para registrar de la contabilidad general sólo el subdiario de activo fijo y se utilizan normalmente para fines de informes de impuestos.
+Tras configurar los perfiles de depreciación, debe crear los libros necesarios para sus activos. Cada libro sigue el ciclo de vida financiera independiente de un activo. Los libros se pueden configurar para publicar transacciones asociadas a la contabilidad general. Esta configuración es la configuración predeterminada porque se usa normalmente para el informe financiero corporativo. Los libros que no se registran en la contabilidad general se publican solo en el libro mayor auxiliar de activos fijos y se utilizan normalmente para informes tributarios.
 
 A cada libro se asigna un perfil de depreciación principal. Los libros también tienen un perfil de depreciación alternativo o de conversión, si se puede aplicar este tipo de perfil. Para incluir automáticamente el libro de activos fijos en ejecuciones de depreciación, debe habilitar la opción Calcular la depreciación. Si esta opción no está seleccionada para un activo, la propuesta de depreciación omite el activo.
 
@@ -62,14 +65,16 @@ También puede definir los métodos de amortización por depreciación especial 
 ## <a name="fixed-asset-parameters"></a>Parámetros del activo fijo
 El último paso es actualizar los parámetros de activos fijos.
 
-El campo Umbral de capitalización determina los activos que se deprecian. Si una línea de compra se selecciona como activo fijo, pero no coincide con el umbral de capitalización, un activo fijo todavía se crea o se actualiza, pero la opción de la depreciación del calcular se establece a no. Por lo tanto, el activo se automáticamente no se deprecia como parte de las propuestas de depreciación.
+El campo Umbral de capitalización determina los activos que se deprecian. Si se selecciona una línea de compra como activo fijo pero no coincide con el umbral de capitalización especificado, todavía se crea o se actualiza un activo fijo, pero la opción de Cálculo de la depreciación se establece en No. Por lo tanto, el activo no se depreciará automáticamente como parte de las propuestas de depreciación.
 
 Una opción importante es Crear importes de ajuste de depreciación automáticamente con la cancelación. Cuando establece esta opción en Sí, la depreciación de activos se ajusta automáticamente en función de los ajustes de depreciación en el momento de la cancelación del activo. Otra opción le permite deducir descuentos de efectivo del importe de adquisición al adquirir activos fijos mediante una factura de proveedor.
 
-En la ficha desplegable de Pedidos de compra, puede configurar cómo se crean los activos como parte del proceso de compra. La primera opción es Permitir la adquisición de activos desde Compras. Si establece esta opción en Sí, la adquisición de activos aparece cuando se registra la factura. Si se establece esta opción en No, aún podrá configurar un activo fijo en un pedido de compra (PO) y factura, pero adquisición no se registrará. El registro se debe realizar como paso independiente del diario de activos fijos. El activo de crear durante la opción de registro de la recepción de producto o la factura le permite crear un nuevo activo “” simultáneamente durante el registro, no para tenerlo que configurar como un activo fijo antes de la transacción. La última opción, Comprobar la creación de activos fijos durante la entrada de línea, solo se aplica a las solicitudes de compra.
+En la ficha desplegable de Pedidos de compra, puede configurar cómo se crean los activos como parte del proceso de compra. La primera opción es Permitir la adquisición de activos desde Compras. Si establece esta opción en Sí, la adquisición de activos aparece cuando se registra la factura. Si establece esta opción en No, aún podrá configurar un activo fijo en un pedido de compra y en una factura, pero la adquisición no se registrará. El registro se debe realizar como paso independiente del diario de activos fijos. La opción de Crear el activo durante la recepción de producto o la publicación de la factura le permite crear un nuevo activo simultáneamente durante el registro, no para tener que configurarlo como un activo fijo antes de la transacción. La última opción, Comprobar la creación de activos fijos durante la entrada de línea, solo se aplica a las solicitudes de compra.
 
 Puede configurar los códigos de motivo para que sean necesarios para los cambios a un activo fijo o para transacciones de activos fijos concretos.
 
 Finalmente, en la ficha de Secuencias numéricas, se definen las secuencias numéricas de los activos fijos. La secuencia del número de activo fijo se puede anular mediante la secuencia numérica del grupo de activos fijos si se ha especificado.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Actualización masiva de activos fijos"
-description: "Si utiliza los libros, puede modificar las convenciones de depreciación para los grupos de activos que se incluyen en el mismo libro."
+description: "Si utiliza libros, puede modificar las convenciones de depreciación de grupos de activos que forman parte del mismo libro."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-mass-update"></a>Actualización masiva de activos fijos
 
-Si utiliza los libros, puede modificar las convenciones de depreciación para los grupos de activos que se incluyen en el mismo libro.
+[!include[banner](../includes/banner.md)]
+
+
+Si utiliza libros, puede modificar las convenciones de depreciación de grupos de activos que forman parte del mismo libro.
 
 Por ejemplo, si se encuentra en los Estados Unidos y ha puesto más de un 40 por ciento de sus activos en servicio durante el cuarto trimestre del año, deberá utilizar la convención de depreciación de mitad del trimestre. Puede utilizar el proceso de actualización masiva para modificar todos los activos a los que se deba aplicar la nueva convención de depreciación 
 
@@ -36,6 +39,8 @@ Cuando se actualiza la convención de depreciación de los activos, se eliminan 
 Para actualizar la convención de amortizaciones para los activos que se han sido cancelado, primero debe eliminar las transacciones de cancelación existentes. También deben eliminar todas las transacciones que se han generado debido al proceso de cancelación. 
 
 Tras actualizar la convención de depreciación de los activos, puede procesar la depreciación y depreciación extraordinaria de cada activo. También puede realizar los ajustes manuales de depreciación, si se requieren.
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-posting-profiles"></a>Perfiles de contabilización del proveedor
 
+[!include[banner](../includes/banner.md)]
+
+
 Los perfiles de contabilización controlan el registro de transacciones de proveedores en la contabilidad general.
 
 <a name="vendor-posting-profiles"></a>Perfiles de contabilización del proveedor
@@ -146,6 +149,8 @@ Especifique los valores siguientes para configurar su perfil de contabilización
 | **Liquidación** | Seleccione esta opción para habilitar la liquidación automática de las transacciones que tienen este perfil de registro. Si esta opción está desactivada, debe liquidar manualmente las transacciones mediante la página Liquidar transacciones abiertas. |
 | **Cancelar**     | Seleccione esta opción si desea poder cancelar transacciones que tengan este perfil de registro.                                                                                                               |
 | **Cerrar**      | Seleccionar un perfil de registro al que desee cambiar cuando se cierren las transacciones con este perfil de registro. Una transacción se considera como cerrada cuando se ha liquidado completamente.                                       |
+
+
 
 
 

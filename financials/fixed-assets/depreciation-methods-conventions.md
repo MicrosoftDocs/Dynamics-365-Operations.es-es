@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-methods-and-conventions"></a>Convenciones y métodos de depreciación
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona una visión general de las convenciones de depreciación y los métodos de depreciación que son compatibles con Microsoft Dynamics AX.
 
 Puede seleccionar varios métodos de depreciación y convenciones de amortizaciones. El objetivo de los métodos es ubicar el valor depreciable del activo fijo en períodos fiscales. El valor depreciable del activo fijo es el precio de la adquisición reducido por el valor residual, si lo hubiere. 
@@ -66,26 +69,27 @@ Puede seleccionar entre los siguientes métodos de amortización.
 <a name="see-also"></a>Consulte también
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Depreciación de activo fijo](fixed-asset-depreciation.md)
 
-[Straight line service life depreciation](Straight-line-service-life-depreciation.md)
+[Tiempo de vida de depreciación lineal](Straight-line-service-life-depreciation.md)
 
-[Reducing balance depreciation](reduce-balance-depreciation.md)
+[Reducción de la depreciación del saldo](reduce-balance-depreciation.md)
 
-[Manual depreciation](manual-depreciation.md)
+[Depreciación manual](manual-depreciation.md)
 
-[Factor depreciation](factor-depreciation.md)
+[Depreciación de factor](factor-depreciation.md)
 
-[Consumption depreciation](consumption-depreciation.md)
+[Depreciación de consumo](consumption-depreciation.md)
 
-[Straight line life remaining depreciation](straight-line-life-remaining-depreciation.md)
+[Tiempo de vida restante de depreciación lineal](straight-line-life-remaining-depreciation.md)
 
-[el 125 por ciento que reduce la depreciación] de saldo (125 percent-reducing-balance-depreciation.md)
+[Depreciación con amortización degresiva del 125%](125-percent-reducing-balance-depreciation.md)
 
-[el 150 por ciento que reduce la depreciación] de saldo (150 percent-reducing-balance-depreciation.md)
+[Depreciación con amortización degresiva del 150%](150-percent-reducing-balance-depreciation.md)
 
-[el 175 por ciento que reduce la depreciación] de saldo (175 percent-reducing-balance-depreciation.md)
+[Depreciación con amortización degresiva del 175%](175-percent-reducing-balance-depreciation.md)
 
-[200 percent reducing balance depreciation](200-percent-reducing-balance-depreciation.md)
+[Depreciación con amortización degresiva del 200%](200-percent-reducing-balance-depreciation.md)
+
 
 

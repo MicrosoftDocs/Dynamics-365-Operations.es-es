@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-acquisition-posting-accounts"></a>Cuentas de registro de adquisición de activos fijos
 
+[!include[banner](../includes/banner.md)]
+
+
 En este artículo se explica cómo configurar cuentas de registro de contabilidad general para adquirir activos.
 
 Las cuentas usadas para registrar adquisiciones de activos fijos pueden variar en función del método usado para adquirir el activo. En la página Perfiles de contabilización de activos fijos, en la pestaña Cuentas contables, seleccione Adquisición y Ajuste de adquisición para configurar cuentas de activos fijos para registrarlas en la contabilidad. 
@@ -40,6 +43,8 @@ Cuando se utiliza Diario de facturas o Pedidos de compra en Proveedores para las
 
 En las adquisiciones registradas con el diario Inventario a activos fijos en la contabilidad general, el activo fijo no se compra por fuentes externas, sino que se transfiere del propio inventario de la empresa. Por lo tanto, la cuenta de contrapartida es una cuenta de emisión de inventario del artículo de inventario de Gestión del inventario.
 
-Para obtener más información, consulte [adquirir los activos con compras acquire-assets-procurement.md] ().
+Para obtener más información, consulte [Adquisición de activos mediante compra](acquire-assets-procurement.md).
+
+
 
 

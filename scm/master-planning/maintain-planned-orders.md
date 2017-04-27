@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="maintain-planned-orders"></a>Mantener pedidos planificados
 
+[!include[banner](../includes/banner.md)]
+
+
 En este artículo se proporciona información sobre el modo de administrar pedidos planificados. Describe cómo puede actualizar el estado de los pedidos planificados, ponerlos en firme y filtrar por pedidos planificados que tengan el mismo estado que un pedido planificado seleccionado.
 
 Puede gestionar pedidos planificados desde el espacio de trabajo **Planificación maestra**, la lista **Pedido planificado** o las listas **Pedidos de producción planificados**, **Pedidos de compra planificados** y **Transferencia planificada**. Puede usar el campo **Estado** para ayudar a realizar un seguimiento del progreso. Se usan los siguientes valores:
@@ -48,6 +51,8 @@ Al poner en firme un pedido planificado, este se mueve a la sección de pedidos 
 <a name="see-also"></a>Consulte también
 --------
 
-[Master plans](master-plans.md)
+[Planes maestros](master-plans.md)
+
+
 
 

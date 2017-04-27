@@ -1,6 +1,6 @@
 ---
 title: "Configuración de idioma del usuario y aplicación del PDV"
-description: "En este tema se describe cómo cambiar la configuración de idioma en el sistema POS moderno al por menor MPOS () y nublarse PDV."
+description: "Este tema describe cómo cambiar la configuración del idioma en el PDV moderno de venta minorista (MPOS) y el PDV de la nube."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 78891
 ms.assetid: 0030940c-e0a5-4345-9511-8c3bd1f487ad
 ms.search.region: global
@@ -28,15 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="pos-application-and-user-language-settings"></a>Configuración de idioma del usuario y aplicación del PDV
 
-En este tema se describe cómo cambiar la configuración de idioma en el sistema POS moderno al por menor MPOS () y nublarse PDV.
+[!include[banner](includes/banner.md)]
+
+
+Este tema describe cómo cambiar la configuración del idioma en el PDV moderno de venta minorista (MPOS) y el PDV de la nube.
 
 <a name="overview"></a>Visión general
 ========
 
-PDV moderno al por menor MPOS () y los entornos tanto de soporte de PDV de la nube donde la configuración de idioma y las conversiones pueden variar del almacén y la configuración del usuario. Por ejemplo, el almacén se podría estar ubicada en una región en el que es la más habituales el inglés para sus clientes, pero algunos trabajadores prefieren usar la aplicación con las traducciones francesas.
+Tanto el PDV moderno de venta minorista (MPOS) como el PDV de la nube admiten entornos en los que la configuración del idioma y las traducciones pueden variar entre los ajustes del usuario y los de la tienda. Por ejemplo, la tienda podría estar situada en una región donde el inglés es más común para sus clientes, pero algunos trabajadores prefieren usar la aplicación con traducciones al francés.
 
 ## <a name="data-language"></a>Idioma de los datos
-Independientemente de la configuración del usuario, MPOS y la nube PDV utilizarán siempre la configuración de idioma de la tienda para determinar las traducciones utilizadas para los datos. Con esto que todos los usuarios y clientes tienen una experiencia coherente.  Ejemplos de los datos:
+Independientemente de la configuración del usuario, el PDV moderno de venta minorista y el PDV de la nube usarán siempre la configuración del idioma de las tiendas para determinar las traducciones usadas para los datos. Esto garantiza que todos los usuarios y clientes tengan una experiencia coherente.  Algunos ejemplos de datos incluyen:
 
 -   Productos
 -   Atributos y valores
@@ -45,25 +48,27 @@ Independientemente de la configuración del usuario, MPOS y la nube PDV utilizar
 -   Nombres de métodos de pago
 -   Mensajes de visualización de líneas
 
-El idioma del almacén también se usará para la pantalla de inicio principal de PDV, puesto que no conoce al usuario antes de iniciar sesión. Si una traducción no está disponible para el idioma de la tienda, PDV revertirá el idioma de la empresa.
+El idioma de la tienda también se usará para la pantalla principal de inicio de sesión del PDV, ya que no se conoce al usuario antes de iniciar sesión. Si una traducción no está disponible para el idioma de la tienda, el PDV volverá al idioma de la empresa.
 
 ### <a name="configuring-the-stores-language-setting"></a>Configuración de ajustes del idioma de la tienda
 
-La configuración de idioma del almacén se establece ** de todas comercios ** ** en tienda al por menor ** páginas correspondientes debajo ** idioma &gt; general &gt; de la configuración regional. ** Descenso Use el siguiente para seleccionar el idioma para cada tienda.
+La configuración del idioma de la tienda se define como **Todas las tiendas de venta minorista** en la página **Tiendas minoristas** en **General &gt; Configuración regional &gt; Idioma. **Use el menú desplegable para elegir el idioma para cada tienda.
 
 ## <a name="user-interface-language"></a>Idioma de la interfaz de usuario
-La configuración de idioma de usuario POS determina las traducciones utilizadas en la interfaz de usuario de Aplicación. Esto incluye todas las etiquetas, menús las listas, y que no se consideren los datos. Una excepción es el texto que se muestra en las cuadrículas de botones de Retail POS. Las cuadrículas de botones no admite las traducciones, por lo que muestren siempre el texto como se define en el botón. Para admitir tradujo los botones, tendrá que copiar y mantener las cuadrículas de botones independientes y asignarlas a los usuarios como corresponda.
+La configuración del idioma del usuario del PDV determina las traducciones usadas en la interfaz de usuario de la aplicación. Esto incluye todas las etiquetas, los menús y las listas que no se consideren datos. Una excepción a esto es el texto que aparece en las cuadrículas de botones del PDV. No admiten traducciones, por lo que mostrarán siempre el texto como se define en el botón. Para admitir botones traducidos, tendrá que copiar y mantener cuadrículas de botones independientes y asignarlas a los usuarios si procede.
 
 ### <a name="configuring-the-users-language-setting"></a>Configuración de ajustes del idioma del usuario
 
-La configuración de idioma de usuario POS se establece de ** todos los trabajadores ** en ** trabajador ** la página en ** idioma &gt; al por menor **.  No se establece en la ficha principal del perfil.  Este valor no usa Retail POS. Si el idioma del usuario no se define o se define como un idioma donde no están disponibles las traducciones, el PDV volverá al idioma de la tienda.  
+La configuración del idioma del usuario del PDV se define en **Todos los trabajadores** en la página **Trabajador** en **Venta minorista &gt; Idioma**.  No se establece en la pestaña del perfil principal.  Esta configuración no es usada por PDV. Si el idioma del usuario no se define o se define como un idioma donde no están disponibles las traducciones, el PDV volverá al idioma de la tienda.  
 
 |             |                            |                                                                   |
 |-------------|----------------------------|-------------------------------------------------------------------|
-| ** **       | ** Idioma del IU ** ** **      | **Idioma de los datos (productos, formatos de recibos, visualización de líneas, etc.)** |
+| ** **       | **Idioma de la IU** ** **      | **Idioma de los datos (productos, formatos de recibos, visualización de líneas, etc.)** |
 | **Empresa** | Predeterminada                    | Predeterminada                                                           |
 | **Tienda**   | Reemplaza a la empresa          | Reemplaza a la empresa                                                 |
-| **User**    | Reemplaza a la tienda o a la empresa | Nunca                                                             |
+| **Usuario**    | Reemplaza a la tienda o a la empresa | Nunca                                                             |
+
+
 
 
 

@@ -28,13 +28,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="build-a-product-configuration-model"></a>Crear un modelo de configuración de productos
 
+[!include[banner](../includes/banner.md)]
+
+
 La necesidad de configurar los productos para cumplir los requisitos especiales se está convirtiendo en la regla en lugar de la excepción, en las relaciones interempresariales y de banca B2C.
 
 Un fabricante que admite escenarios de configurar a pedido tiene una oportunidad de atender más atentamente a las necesidades del cliente. Además, almacenando mercancías semielaboradas en el formulario de componentes genéricos en lugar del de los productos terminados, el fabricante puede reducir el capital vinculado al inventario.  
 
 Un movimiento correcto de una configuración de las fabricación a existencias a una configuración de configurar a pedido requiere el análisis cuidadoso de las estructuras del producto, la identificación de familias de productos y el componentization. Para reducir el número de piezas y minimizar el número de artículos que están en proceso, es muy importante que se entiendan las interfaces de producto y que ha diseñado para la reutilización.  
 
-Hay varios principios de modelo de configuración de productos, como modelo según las reglas, la dimensión y la limitación. Los estudios muestran que la metodología basada en limitaciones puede reducir el número de líneas del código de modelos por el ajuste de 50 por ciento en comparación con otros principios de modelos. Por lo tanto, esta metodología puede reducir el coste total de la propiedad (TCO). Desplazando de un modelo basado en las reglas basado en el código X++ a un modelo basado en, no necesita más de una licencia de desarrollador para mantener los modelos de producto.
+Hay varios principios de modelo de configuración de productos, como modelo según las reglas, la dimensión y la limitación. Los estudios muestran que la metodología basada en limitaciones puede reducir el número de líneas del código de modelos por el ajuste de 50 por ciento en comparación con otros principios de modelos. Por lo tanto, esta metodología puede reducir el coste total de la propiedad (TCO). Pasando de un modelo basado en reglas que se basa en el código X++ a un modelo basado en restricciones, deja de ser necesaria una licencia de desarrollador para mantener los modelos de producto.
 
 ## <a name="product-configuration"></a>Configuración del producto
 El período de la industrialización ha llevado a grandes logros en producir productos de alta calidad y con muchas características en los precios asequibles. Las economías de escala han hecho posible que la mayoría de las personas en el mundo industrializado compren vehículos, televisiones, aparatos electrodomésticos y otras mercancías que la mayor parte de nosotros consideramos una parte necesaria de nuestra vida cotidiana.  
@@ -64,11 +67,11 @@ Use un modelo de configuración de productos basado en limitaciones implica que 
 
 ### <a name="table-constraints"></a>Restricciones de tablas
 
-Las restricciones de tabla pueden estar definidas por el usuario o definidos por el sistema.  
+Las restricciones de tabla pueden estar definidas por el usuario o por el sistema.  
 
 Una restricción de tabla definida por el usuario es construida por el usuario. El usuario selecciona una combinación de tipos de atributo para representar las columnas de la tabla y luego especifica valores de los dominios de los tipos de atributo seleccionados para formar las filas de la restricción de tabla.  
 
-Una restricción de tabla definida por el sistema se define seleccionando el que Microsoft Dynamics 365 para que la tabla de operaciones utilice como una referencia y campos en la selección de esta tabla para formar las columnas en la restricción. Las filas de la restricción de tabla son las filas de las Dynamics 365 para la tabla de operaciones que están presentes en el momento de la configuración.  
+Una restricción de tabla definida por el sistema se define seleccionando qué tabla de Microsoft Dynamics 365 for Operations se usará como una referencia y luego seleccionando los campos de esta tabla para formar las columnas de la restricción. Las filas de la restricción de tabla son las filas de la tabla de Dynamics 365 for Operations que están presentes en el momento de la configuración.  
 
 Una restricción de tablas se incluye en un modelo de configuración de productos al hacer referencia a la definición de la restricción de tabla y un seguimiento de los atributos relevantes en el modelo a las columnas de la restricción de tabla.
 
@@ -103,7 +106,7 @@ Finalmente, la validación se puede realizar para que un modelo de configuració
 
 ### <a name="testing"></a>Prueba
 
-La evidencia de un modelo es similar a ejecutar una sesión real de la configuración. El usuario puede recorrer en las distintas páginas de configuración y comprobar que la estructura de modelo admite el proceso de configuración. El usuario puede comprobar que los valores de atributos son correctos, y que las descripciones del atributo dirigirán al usuario para seleccionar los valores correctos. Finalmente, después de que una sesión de prueba se completa, el sistema intenta crear la L. MAT. y la ruta que se corresponde con los valores de atributo seleccionados, y enviar un mensaje de error si algo va mal.
+La prueba de un modelo es similar a ejecutar sesión real de configuración. El usuario puede ir a través de las páginas de la configuración y comprobar que la estructura del modelo admite el proceso de configuración. El usuario puede comprobar que los valores de atributos son correctos, y que las descripciones del atributo dirigirán al usuario para seleccionar los valores correctos. Finalmente, después de que una sesión de prueba se completa, el sistema intenta crear la L. MAT. y la ruta que se corresponde con los valores de atributo seleccionados, y enviar un mensaje de error si algo va mal.
 
 ### <a name="the-configuration-page"></a>La página de configuración
 
@@ -129,17 +132,17 @@ Si el producto es vendido en diferentes países y regiones, las traducciones se 
 La última y más iportante de las etapas en el proceso de finalización es crear una versión del modelo de configuración de productos. La versión representa la relación entre el producto maestro, que puede ser seleccionado para la configuración en una línea de pedido o de presupuesto, y el modelo de configuración de productos. Una versión debe estar aprobada y activada para poder ser usada en una sesión de configuración.
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>Ampliar un modelo de configuración de productos con el API
-Se ha ejecutado una interfaz de programación dedicado de aplicación (API), de modo que los socios y otros que tienen una licencia del desarrollador pueden ampliar las capacidades de un modelo de configuración de productos. El objetivo principal se ha establecer un mecanismo que permite a socios y los clientes que usan el Configurador del producto existente migran el código que se inserta en modelos de configurador de productos a API. De esta manera, pueden migrar sus modelos del configurador de productos a una configuración de producto. Sin embargo, los nuevos asociados y clientes también pueden beneficiarse del uso de API para expandir los nuevos modelos de configuración de productos.
+Se ha ejecutado una interfaz de programación dedicado de aplicación (API), de modo que los socios y otros que tienen una licencia del desarrollador pueden ampliar las capacidades de un modelo de configuración de productos. El objetivo principal ha sido establecer un mecanismo que permita a asociados y clientes que usan el configurador de productos existente migrar el código incrustado en los modelos de configurador de productos a la API. De esta manera, pueden migrar sus modelos del configurador de productos a una configuración de producto. Sin embargo, los nuevos asociados y clientes también pueden beneficiarse del uso de API para expandir los nuevos modelos de configuración de productos.
 
 ### <a name="pcadaptor-class"></a>Clase de PCAdaptor
 
-El API se ejecuta mediante un sistema de clases de **PCAdaptor** que exponen la estructura de datos de los modelos de configuración de productos. Una instancia ** PCAdaptor ** de la clase debe crearse para cada modelo que es. extendida Una vez que una sesión de configuración se complete, las comprobaciones del sistema de una instancia de este tipo y ejecuciones si se ha encontrado.  
+El API se ejecuta mediante un sistema de clases de **PCAdaptor** que exponen la estructura de datos de los modelos de configuración de productos. Una instancia de la clase **PCAdaptor** debe crearse para cada modelo que se extiende. Una vez que una sesión de configuración esté completada, el sistema busca una instancia de este tipo y la ejecuta cuando la encuentra.  
 
 En el diagrama de flujo siguiente se muestra el procesos.  
 
-[organigrama de![] (. /media/product_configuration_2.png])(. /media/product_configuration_2.png)  
+[![Diagrama de flujo](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
-Organigrama de API de la configuración de productos
+Diagrama de flujo de la API de configuración de productos
 
 ## <a name="product-configuration"></a>Configuración del producto
 La configuración de producto se puede realizar desde los siguientes lugares:
@@ -155,5 +158,7 @@ El propósito de la configuración es crear una variante distinta de producto qu
 ### <a name="multiple-sites-and-intercompany"></a>Varios sitios y empresas vinculadas
 
 Si la configuración se realiza en un sitio, o incluso una empresa, que es diferente del sitio o la empresa donde tendrá lugar la producción, la L. MAT. y la ruta se crearán para establecer en el sitio del proveedor en la empresa proveedora. La variante del producto se libera en todas las empresas que participan en la cadena de suministro.
+
+
 
 

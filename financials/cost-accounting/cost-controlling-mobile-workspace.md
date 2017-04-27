@@ -1,6 +1,6 @@
 ---
-title: "Coste controlar el área de trabajo móvil para Microsoft Dynamics 365 para la aplicación de operaciones"
-description: "Con el coste supervisión del área de trabajo móvil, administradores de centro de coste pueden ver el rendimiento de centro de coste en cualquier momento y cualquier lugar."
+title: "Espacio de trabajo móvil de control de costes para la aplicación Microsoft Dynamics 365 for Operations"
+description: "Con el espacio de trabajo móvil de control de costes, los administradores de centro de coste pueden ver el rendimiento de centro de coste en cualquier momento y en cualquier lugar."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-01-12 16 - 53 - 04
@@ -24,89 +24,89 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-controlling-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Coste controlar el área de trabajo móvil para Microsoft Dynamics 365 para la aplicación de operaciones
+# <a name="cost-controlling-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Espacio de trabajo móvil de control de costes para la aplicación Microsoft Dynamics 365 for Operations
 
-Con el coste supervisión del área de trabajo móvil, administradores de centro de coste pueden ver el rendimiento de centro de coste en cualquier momento y cualquier lugar. 
+Con el espacio de trabajo móvil de control de costes, los administradores de centro de coste pueden ver el rendimiento de centro de coste en cualquier momento y en cualquier lugar. 
 
 <a name="prerequisites"></a>Requisitos previos
 -------------
 
 | Requisito previo                                                         | Descripción                                                                                                                                                                   |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lea sobre el Microsoft Dynamics 365 para la plataforma de móvil de las operaciones | [365 Dinámica para la plataforma] móvil de las operaciones (/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
-| Dinámica 365 para las operaciones                                          | Asegúrese de que utiliza un entorno con Microsoft Dynamics 365 para la versión 1611 de las operaciones y Microsoft Dynamics para la plataforma de las operaciones actualiza 3 (noviembre de 2016). |
-| Sustitución 3215650 KB                                                    | Instale el reemplazo para habilitar las áreas de trabajo que se proporcionan en Microsoft Dynamics 365 para las operaciones.                                                                       |
-| Dispositivo móvil que tiene Dynamics 365 para la aplicación de las operaciones instalada | Descargue Dynamics 365 para la aplicación de las operaciones de la tienda móvil de la aplicación.                                                                                                      |
+| Obtenga información sobre la plataforma móvil de Microsoft Dynamics 365 for Operations | [Plataforma móvil de Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
+| Dynamics 365 for Operations                                          | Compruebe que utiliza un entorno que tiene la versión 1611 de Microsoft Dynamics 365 for Operations y la actualización 3 de la plataforma de Microsoft Dynamics for Operations (noviembre de 2016). |
+| Revisión 3215650 KB                                                    | Instale la revisión para habilitar los espacios de trabajo provistos en Microsoft Dynamics 365 for Operations.                                                                       |
+| Dispositivo móvil que tiene instalada la aplicación Dynamics 365 for Operations | Descargue la aplicación Dynamics 365 for Operations desde su tienda de aplicaciones móviles.                                                                                                      |
 
 ## <a name="introduction"></a>Introducción
-El coste que controla el área de trabajo móvil proporciona una vista inmediata del rendimiento actual de centros de coste comparando los costes reales en comparación con los costes presupuestados. Puede explorar en profundidad los estados de elementos de coste individuales.
+El espacio de trabajo móvil de control de costes proporciona una vista inmediata del rendimiento actual de los centros de costes al comparar los costes reales con los costes presupuestados. Puede explorar en profundidad los estados de los elementos de coste individuales.
 
 ### <a name="example"></a>Ejemplo
 
-Un empleado recibe una invitación para una Conferencia internacional. La organización que tendrá cubrir todos los gastos de viajes. El empleado solicita su la si podrá asistir a la conferencia. El administrador abre rápidamente el coste que controla el área de trabajo en su móvil teléfono móvil para consultar si esa tiene presupuesto del empleado assista a la conferencia.
+Un empleado recibe una invitación a una conferencia internacional. La organización tendrá cubrir todos los gastos del viaje. El empleado pregunta a su director si puede asistir a la conferencia. El director abre rápidamente el espacio de trabajo móvil de control de costes en su teléfono móvil para ver si dispone de presupuesto para que el empleado asista a la conferencia.
 
 ### <a name="data-security"></a>Seguridad de los datos
 
-Los datos del coste que controla el área de trabajo se garantiza mediante las credenciales del usuario. Se permite un administrador de centro de coste sólo ver los datos para su propio centro de coste. La seguridad de nivel de acceso se administra en el módulo de contabilidad de costes. Los contables de coste definen el coste que controlan la configuración móvil del área de trabajo en el módulo de contabilidad de costes. Una vez que el área de trabajo se publique en Microsoft Dynamics 365 para la aplicación de operaciones, está disponible en Dynamics 365 para de la aplicación móvil de las operaciones. Esto garantiza que todos los administradores de centro de coste en la organización miren datos en el mismo formato.
+Los datos del espacio de trabajo de control de costes están protegidos mediante credenciales de usuario. Solo se permite a un administrador de centro de coste que vea los datos de su propio centro de coste. La seguridad de nivel de acceso se administra en el módulo Contabilidad de costes. Los contables de coste definen la configuración del espacio de trabajo móvil de control de costes en el módulo Contabilidad de costes. Una vez que se publica el espacio de trabajo en la aplicación Microsoft Dynamics 365 for Operations, este está disponible en la aplicación móvil Dynamics 365 for Operations. Esto garantiza que todos los administradores de centro de coste en la organización consultan los datos en el mismo formato.
 
-### <a name="actions-views-and-links"></a>Acciones, vistas, y vínculos
+### <a name="actions-views-and-links"></a>Acciones, vistas y vínculos
 
-El coste que controla el área de trabajo móvil para Dynamics 365 para la aplicación de las operaciones ofrece las acciones, las visiones, y los vínculos siguientes:
+El espacio de trabajo móvil de control de costes para la aplicación Microsoft Dynamics 365 for Operations proporciona las siguientes acciones, vistas y vínculos:
 
 -   Acciones  
-    -   Seleccione ** ** configuraciones para seleccionar un diseño.
-    -   Seleccione ** objetos de coste ** para seleccionar los centros de coste en los que desea filtrar datos. ** Nota: ** La lista se muestra como el acceso concedido al módulo de contabilidad de costes.
+    -   Seleccione **Configuraciones** para seleccionar un diseño.
+    -   Seleccione **Objetos de coste** para seleccionar los centros de coste en los que desea filtrar datos. **Nota:** La lista se muestra según el acceso concedido en el módulo Contabilidad de costes.
 
 <!-- -->
 
--   Según qué la opción está seleccionada en ** las acciones ** y qué se configura en el módulo de contabilidad de costes, puede ver la siguiente información en las tarjetas. Tenga en cuenta que el importe se mostrará en el mismo formato: Real, presupuesto, desviación, y desviación %. 
-    -   Real frente a presupuesto (el período actual)
-    -   Real frente al presupuesto revisado (período actual)
-    -   Real frente a presupuesto (el período anterior)
-    -   Real frente al presupuesto revisado (período anterior)
-    -   Real frente al presupuesto (Año hasta la fecha)
-    -   Real frente al presupuesto revisado (Año hasta la fecha)
+-   Según la opción que se seleccione en **Acciones** y lo que se configure en el módulo Contabilidad de costes, puede visualizar la siguiente información en las tarjetas. Tenga en cuenta que el importe se muestra en el mismo formato: real, presupuesto, desviación y % de desviación. 
+    -   Valor real frente a presupuesto (período actual)
+    -   Valor real frente a presupuesto revisado (período actual)
+    -   Valor real frente a presupuesto (período anterior)
+    -   Valor real frente a presupuesto revisado (período anterior)
+    -   Valor real frente a presupuesto (año hasta la fecha)
+    -   Valor real frente a presupuesto revisado (año hasta la fecha)
 
 <!-- -->
 
 -   Vínculos
-    -   Detalles del período actual.
-    -   Detalles del período anterior.
-    -   Detalles por Año hasta la fecha.
+    -   Detalles para el período actual.
+    -   Detalles para el período anterior.
+    -   Detalles para año hasta la fecha.
 
-Cuando selecciona uno de los vínculos, una tarjeta por artículo de coste se muestra. El importe en las tarjetas se muestra en el formato siguiente: Real, presupuesto, desviación de presupuesto, desviación de presupuesto, % revisó el presupuesto, la desviación de presupuesto revisada, y la desviación de presupuesto revisada %.  [![coste que controla] (. /media/cost-controlling.png])(. /media/cost-controlling.png)
+Cuando selecciona uno de los vínculos, aparece una tarjeta por elemento de coste. El importe en las tarjetas se muestra en el siguiente formato: real, presupuesto, desviación de presupuesto, % de desviación de presupuesto, presupuesto revisado, desviación de presupuesto revisado y % de desviación de presupuesto revisado.  [![cost-controlling](./media/cost-controlling.png)](./media/cost-controlling.png)
 
 ## <a name="get-started"></a>Introducción
-Siga estos pasos para iniciarse mediante la aplicación móvil de control de costes del dispositivo móvil.
+Siga estos pasos para comenzar a usar la aplicación móvil de control de costes en su dispositivo móvil.
 
-1.  En su tienda móvil de la aplicación, y descarga el instalar Microsoft Dynamics 365 para la aplicación de las operaciones.
-2.  Iniciar la aplicación del dispositivo.
-3.  Especifique la dirección URL de Dynamics 365.
-4.  Especifique la empresa para iniciar sesión en. Por ejemplo, escriba USMF ** **.
-5.  La primera vez que se iniciar sesión, se le solicitará el nombre de usuario y la contraseña para su Microsoft Dynamics 365 para la cuenta de operaciones. Especifique sus. Tras en firme, verá las áreas de trabajo disponibles para su empresa.
+1.  En su tienda de aplicaciones móviles, descargue e instale la aplicación Microsoft Dynamics 365 for Operations.
+2.  Inicie la aplicación en su dispositivo.
+3.  Escriba la URL de Dynamics 365.
+4.  Escriba la empresa en la que va a iniciar sesión. Por ejemplo, escriba **USMF**.
+5.  La primera vez que inicia sesión, se le pediré el nombre de usuario y la contraseña de su cuenta Microsoft Dynamics 365 for Operations. Escriba sus credenciales. Tras iniciar sesión, verá los espacios de trabajo disponibles para su empresa.
 
-Para ver Áreas de trabajo en su aplicación móvil, primero debe publicar las áreas de trabajo deseadas a Dynamics 365 para la aplicación de las operaciones.
+Para ver los espacios de trabajo en su aplicación móvil, primero debe publicar los espacios de trabajo deseados para la aplicación Dynamics 365 for Operations.
 
-1.  Dinámica 365 de inicio de las operaciones.
-2.  Retroceda ** Administración del sistema ** &gt; ** la configuración ** &gt; ** los parámetros del sistema **.
-3.  Seleccione ** gestionar la aplicación móvil **.
-4.  Seleccione el área de trabajo ** el control de coste ** para publicar en esta plataforma móvil.
-5.  Seleccione ** publique el área de trabajo **.
-6.  Actualización del dispositivo para ver las áreas de trabajo publicadas.
+1.  Inicie Dynamics 365 for Operations.
+2.  Vaya a **Administración del sistema** &gt; **Configurar** &gt; **parámetros del sistema**.
+3.  Seleccionar **Administrar aplicación móvil**.
+4.  Seleccione el espacio de trabajo **Control de costes** que desea publicar en la plataforma móvil.
+5.  Seleccione **Publicar área de trabajo**.
+6.  Actualice su dispositivo para ver los espacios de trabajo publicados.
 
-## <a name="view-the-performance-of-your-cost-center"></a>Permite ver el rendimiento del centro de coste
-1.  En el dispositivo móvil, seleccione ** el control de coste ** el área de trabajo.
-2.  ** Seleccione el control de objeto de coste **.
-3.  Haga clic en ** ** acciones.
-4.  Haga clic en ** configuración seleccione ** para seleccionar un coste que controla el diseño.
-5.  Click **Done**.
-6.  Haga clic en ** ** acciones.
-7.  Haga clic en ** objeto seleccione de coste ** para seleccionar los centros de coste a los que le han concedido el acceso.
-8.  Click **Done**.
-9.  Vea el rendimiento general de su centro de coste.
-10. Haga clic en ** detalles del período actual **.
-11. Permite ver el rendimiento de los artículos de costes individuales.
-12. También puede buscar artículos de coste específicos.
+## <a name="view-the-performance-of-your-cost-center"></a>Visualice el rendimiento de su centro de coste.
+1.  En el dispositivo móvil, seleccione el espacio de trabajo **Control de costes**.
+2.  Seleccione **Control de objeto de coste**.
+3.  Haga clic en **Acciones**.
+4.  Haga clic en **Seleccionar configuración** para seleccionar un diseño de control de costes.
+5.  Haga clic en **Listo**.
+6.  Haga clic en **Acciones**.
+7.  Haga clic en **Seleccionar objeto de coste** para seleccionar los centros de costes a los que le han concedido acceso.
+8.  Haga clic en **Listo**.
+9.  Visualice el rendimiento general de su centro de coste.
+10. Haga clic en **Detalles para el período actual**.
+11. Visualice el rendimiento de los elementos de coste individuales.
+12. También puede buscar elementos de coste específicos.
 
 
 

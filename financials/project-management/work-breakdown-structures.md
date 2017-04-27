@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="work-breakdown-structures"></a>Estructuras de descomposición del trabajo
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Estructuras de descomposición del trabajo Una estructura de descomposición del trabajo (WBS) es una descripción del trabajo que se realizará para un proyecto. Es una jerarquía de tareas que representa la comprensión del equipo del proyecto de la composición del trabajo, y del tamaño, coste y duración de cada componente o tarea. Una WBS tiene tres propósitos principales:
@@ -39,17 +42,17 @@ El nivel de detalle de una WBS depende del nivel de precisión que se requiere e
 
 Por el contrario, proyectos en sectores como los medios de comunicación y la publicidad, el software y la infraestructura de TI tienden a ser únicos, y la productividad es relativa a la experiencia y la competencia de la persona que está realizando la tarea. Por tanto, estos sectores usan una WBS para obtener una aproximación del tamaño de un proyecto, no para realizar un seguimiento del progreso de dicho proyecto detalladamente. 
 
-La creación de una WBS es un proceso intensivo que se realiza normalmente durante un período largo, y que requiere la colaboración y la información de una amplia variedad de personas. Este tema describe cómo puede usar beneficios del EDT en Microsoft Dynamics 365 para las operaciones que cumplen los requisitos para las estimaciones y el seguimiento.
+La creación de una WBS es un proceso intensivo que se realiza normalmente durante un período largo, y que requiere la colaboración y la información de una amplia variedad de personas. Este tema describe cómo puede usar las mejoras de WBS en Microsoft Dynamics 365 for Operations para cumplir los requisitos de estimaciones y seguimiento.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Requisitos previos para crear una WBS
 Para crear una WBS, debe poder crear una programación del trabajo y estimar el coste del trabajo.
 
 ### <a name="prerequisites-for-creating-a-work-schedule"></a>Requisitos previos para crear una programación de trabajos
 
-Para usar las capacidades completas de la programación de las características del EDT, complete la configuración siguiente:
+Para usar las capacidades de programación completas de las características de WBS, complete la configuración siguiente:
 
 1.  Configurar un calendario predeterminado y un calendario del proyecto:
-    1.  ** Haga clic en Gestión de proyectos y contabilidad ** &gt; ** configuración ** &gt; ** ** programación. En el campo **Calendario de trabajo predeterminado**, especifique un calendario predeterminado. Este será el calendario laboral predeterminado para cualquier proyecto nuevo que se crea.
+    1.  Haga clic en **Gestión de proyectos y contabilidad** &gt; **Configuración** &gt; **Programación**. En el campo **Calendario de trabajo predeterminado**, especifique un calendario predeterminado. Este será el calendario laboral predeterminado para cualquier proyecto nuevo que se crea.
     2.  Puede modificar el calendario predeterminado para un proyecto concreto. Haga clic en la página de detalles del proyecto y, a continuación, en la ficha desplegable **Equipo del proyecto y programación**, actualice el campo **Calendario de programación** seleccionando otro calendario.
 
 2.  Permite configurar los días laborables y las horas de trabajo estándar. El calendario que se establece como el calendario de trabajo para su proyecto se usará en la WBS para determinar la siguiente información:
@@ -57,13 +60,13 @@ Para usar las capacidades completas de la programación de las características 
 -   Días laborables y vacaciones
 -   El número de horarios de trabajo en un día
 
-Para configurar los días laborables y el horario laboral para un calendario, o crear un calendario nuevo, haga clic en ** Administración de organización ** &gt; ** el común ** &gt; ** los calendarios **.
+Para configurar los días laborables y las horas de trabajo para un calendario, o crear un calendario nuevo, haga clic en **Administración de la organización** &gt; **Común** &gt; **Calendarios**.
 
 ### <a name="prerequisites-for-estimating-the-cost-of-work"></a>Requisitos previos para estimar el coste del trabajo
 
 Para usar las capacidades completas de estimación de costes de la WBS, debe configurar los costes y los precios de ventas para trabajadores, categorías de mano de obra, gastos, cuotas y artículos.
 
--   Para configurar el precio de venta de trabajo, el gasto, y las categorías de cuota, haga clic en ** Gestión de proyectos y contabilidad ** &gt; ** la configuración ** &gt; ** los precios **.
+-   Para configurar el coste y el precio de ventas de la mano de obra, los gastos y las categorías de cuotas, haga clic en **Gestión de proyectos y contabilidad** &gt; **Configuración** &gt; **Precios**.
 -   Para configurar el coste y el precio de ventas de los artículos, use la página **Acuerdos comerciales **para cada artículo de la página de lista **Productos emitidos** de Gestión de información de productos.
 
 ## <a name="creating-a-wbs"></a>Creación de una WBS
@@ -73,11 +76,11 @@ La creación de una WBS conlleva tres actividades:
 2.  **Programación de trabajos**: estime el tiempo necesario para completar una tarea, establecer interdependencias de tareas y seleccionar las fechas de inicio y fin para tareas.
 3.  **Estimación de costes**: estime costes para cada tarea.
 
-Las secciones siguientes describen cómo las capacidades del EDT pueden ayudarle con cada una de estas actividades.
+En las siguientes secciones se describe cómo capacidades de WBS pueden contribuir con cada una de estas actividades.
 
 ### <a name="work-decomposition"></a>Descomposición del trabajo
 
-La creación de un desglose o una descomposición del trabajo suele ser el primer paso en el proceso de creación de una WBS. La funcionalidad del EDT admite las construcciones básicas siguientes para desglosar o la descomposición del trabajo. 
+La creación de un desglose o una descomposición del trabajo suele ser el primer paso en el proceso de creación de una WBS. La funcionalidad de WBS admite las siguientes construcciones básicas para la descomposición o la descomposición del trabajo. 
 
 **Tarea raíz del proyecto** La tarea raíz del proyecto es la tarea de resumen de nivel superior para un proyecto. Todas las demás tareas de proyecto se crean por debajo. El nombre de la tarea raíz se establece siempre al nombre del proyecto. El esfuerzo, las fechas y la duración del nodo raíz resumen los valores para las tareas por debajo de la tarea raíz. No puede modificar las propiedades del nodo raíz o eliminarlas.
 
@@ -94,7 +97,7 @@ Actualmente, no puede personalizar la numeración de WBS.
 **Tarea de sangría** Cuando se aplica sangría a una tarea, se convierte en un elemento secundario de la tarea que lo precede. El número de WBS de la nueva tarea secundaria se recalcula automáticamente en función del número de WBS de su nuevo elemento principal. La tarea principal es ahora una tarea de contenedor o resumen, y por tanto se convierte en una acumulación de sus tareas constitutivas. 
 
 > [!NOTE] 
-> Al sangría tareas en tarea que fue un nodo de hoja antes que la operación de la sangría, la tarea de resumen recién creada pierda sus propias fechas, esfuerzo, y número de recursos. Ahora usa un resumen de los valores de sus tareas nuevas constitutivas. 
+> Cuando se aplica sangría a tareas bajo una tarea que era un nodo hoja antes de la operación de sangría, la tarea de resumen recién creada pierde sus propias fechas, esfuerzo y número de recursos. Ahora usa un resumen de los valores de sus tareas nuevas constitutivas. 
 
 **Anular la sangría de tarea** Cuando se anula la sangría de una tarea, ya no es una tarea constitutiva de su elemento principal. El número de WBS de esta tarea se recalcula automáticamente para reflejar el nuevo nivel de la tarea en la jerarquía. El esfuerzo, el coste y las fechas de la tarea principal anterior de la tarea se recalculan para excluir esa tarea. 
 
@@ -102,10 +105,10 @@ Actualmente, no puede personalizar la numeración de WBS.
 
 ### <a name="schedule-estimation"></a>Estimación de la programación
 
-La estimación de la programación es normalmente el segundo paso en la creación de una WBS. Como práctica recomendada, debe completar la estimación de la programación después de crear las tareas. ** Estructura de descomposición del trabajo pagine ** en Microsoft Dynamics 365 para la operación tiene dos secciones. El panel superior está pensado para la estimación de la programación y el panel inferior incluye una pestaña **Costes e ingresos estimados** que puede usar para la estimación de costes. 
+La estimación de la programación es normalmente el segundo paso en la creación de una WBS. Como práctica recomendada, debe completar la estimación de la programación después de crear las tareas. La página **Estructura de descomposición del trabajo** en Microsoft Dynamics 365 for Operation tiene dos secciones. El panel superior está pensado para la estimación de la programación y el panel inferior incluye una pestaña **Costes e ingresos estimados** que puede usar para la estimación de costes. 
 **Dependencias de tareas** En una WBS, puede crear una relación predecesora entre tareas. Al asignar tareas predecesoras a una tarea, esa tarea solo se puede iniciar después de completarse todas sus tareas predecesoras. La fecha inicial planificada de la tarea se establece automáticamente a la última fecha de todas sus predecesoras. 
 
-** Programación de tarea en Microsoft Dynamics 365 para las operaciones ** los factores siguientes determinan la programación de las tareas nodo de hoja:
+**Programación de tareas en Microsoft Dynamics 365 for Operations** Los siguientes factores determinan la programación de las tareas de nodo hoja:
 
 -   Predecesores
 -   Esfuerzo
@@ -114,27 +117,27 @@ La estimación de la programación es normalmente el segundo paso en la creació
 
 La fecha inicial de una tarea de nodo hoja que no tenga predecesores se establece automáticamente en la fecha inicial de programación del proyecto. La duración de una tarea de nodo hoja se calcula siempre como el número de días laborables entre sus fechas de inicio y finales. 
 
-La programación de **** rige el **** cuando está activado la ayuda automática de la programación, las reglas siguientes se aplica a la programación de tarea tareas nodo de hoja:
+****Reglas de programación**** Cuando la ayuda de previsión automática está activada, se aplican las siguientes reglas a la programación de tareas para tareas de nodo hoja:
 
 -   Las fechas de inicio y final de una tarea deben ser días laborables, de acuerdo con el calendario de programación del proyecto.
 -   La fecha inicial de una tarea que tiene predecesoras se establece automáticamente a la última fecha final de todas sus predecesoras.
 -   El esfuerzo de una tarea se calcula automáticamente de la siguiente manera:
 
-Número de × de duración de × del número de personas de horas en un día de trabajo estándar en el calendario del proyecto. 
+Número de personas × Duración × Número de horas en un día de trabajo estándar en el calendario del proyecto. 
 
-En algunos casos, es posible que desee desviarse de estas reglas. Puede desactivar la programación automática para evitar que Microsoft Dynamics 365 para las operaciones automáticamente o corrija establecer las propiedades de las tareas nodo de hoja. Al especificar la información para una tarea que provoca una infracción de cualquier regla de programación, se muestra un icono de error de programación para la tarea. Si no desea que se muestren los errores de programación, haga clic en **Se muestra los errores de programación** para desactivar la característica. 
+En algunos casos, es posible que desee desviarse de estas reglas. Puede desactivar la programación automática para evitar que Microsoft Dynamics 365 for Operations establezca o corrija automáticamente las propiedades de las tareas de nodo hoja. Al especificar la información para una tarea que provoca una infracción de cualquier regla de programación, se muestra un icono de error de programación para la tarea. Si no desea que se muestren los errores de programación, haga clic en **Se muestra los errores de programación** para desactivar la característica. 
 
 > [!NOTE] 
-> Los valores para una tarea de resumen o de contenedor continúe siendo calculados como la suma de los valores de las tareas constitutivas, independientemente de si la ayuda automática de programación es. con desactivar. activa. 
+> Los valores para una tarea de contenedor o resumen continúan calculándose como la suma de los valores de las tareas constitutivas, independientemente de si la ayuda de programación automática está activada o desactivada. 
 
 **Corrección de errores de programación** Cuando la ayuda de programación automática está activada, no es probable que se produzcan errores de programación. Sin embargo, si desactiva la ayuda de programación automática y la vuelve a activar más tarde, los iconos de errores de programación pueden aparecer en la WBS. 
 
 **Corrección de errores de previsión por tarea** Al hacer doble clic en el icono del error de programación para una tarea específica, un cuadro de diálogo muestra todos los errores de programación para esa tarea. Puede decidir qué errores de programación corregir para la tarea. 
 
-** Corrigiendo todos los errores de programación ** si desea que Microsoft Dynamics 365 para las operaciones para corregir todos los errores de programación en el EDT, en el panel de acciones, haga clic ** corrija todas las discrepancias de programación **. 
+**Corrección de todos los errores de programación** Si desea que Microsoft Dynamics 365 for Operations corrija todos los errores de programación en la WBS, en el Panel de acciones, haga clic en **Corregir todas las discrepancias de programación**. 
 
 > [!NOTE] 
-> Esta función puede producir significativas modificaciones al EDT. Los errores se corrigen en el siguiente orden:
+> Esta característica puede provocar modificaciones significativas a la WBS. Los errores se corrigen en el siguiente orden:
 
 1.  El esfuerzo estimado en todas las tareas se modifica para que sea igual a la capacidad que se define en el calendario del proyecto.
 2.  La fecha inicial de cada tarea se modifica de modo que la tarea empieza una vez que se completan todas sus tareas predecesoras.
@@ -145,7 +148,7 @@ En algunos casos, es posible que desee desviarse de estas reglas. Puede desactiv
 Como se mencionó anteriormente en este documento, especifica la estimación de costes para cada tarea de nodo hoja usando la pestaña **Costes e ingresos estimados** del panel inferior de la página **Estructura de descomposición del trabajo**. 
 
 > [!NOTE] 
-> No puede modificar la estimación de costes para una tarea de resumen o de contenedor. La estimación de costes para una tarea de resumen es igual a la suma de la estimación de costes de sus tareas del nodo hoja. El coste total estimado para cada tarea se calcula como la suma de los importes de coste estimado para los siguientes tipos de transacción:
+> No puede modificar la estimación de costes para una tarea de contenedor o resumen. La estimación de costes para una tarea de resumen es igual a la suma de la estimación de costes de sus tareas del nodo hoja. El coste total estimado para cada tarea se calcula como la suma de los importes de coste estimado para los siguientes tipos de transacción:
 
 -   Mano de obra
 -   Artículo o material
@@ -161,12 +164,12 @@ Cuando estima los costes para mano de obra, material y gastos para cada tarea, d
 
 **Cálculo de costes de gastos y material** La pestaña **Costes e ingresos estimados** también le permite estimar los costes de gastos y material para una tarea, si necesita estimaciones. 
 
-El coste y el precio de venta de cada trabajo o línea de estimación de gastos se basan en la configuración que se define para cada categoría en las tablas de precios en ** Gestión de proyectos y contabilidad ** &gt; ** la configuración ** &gt; ** ** precios. Para artículos, se añaden el coste y el precio de venta de manera predeterminada desde el artículo o los acuerdos comerciales en la página de lista **Productos emitidos** de Gestión de información de productos.
+El coste y el precio de venta para cada línea de estimación de gasto o de mano de obra se basan en la configuración que se define para cada categoría de las tablas de precios en **Gestión de proyectos y contabilidad** &gt; **Configuración** &gt; **Precios**. Para artículos, se añaden el coste y el precio de venta de manera predeterminada desde el artículo o los acuerdos comerciales en la página de lista **Productos emitidos** de Gestión de información de productos.
 
 ## <a name="tracking-progress-on-the-wbs"></a>Seguimiento del progreso en la WBS
 Algunos sectores realizan un seguimiento del progreso de un proyecto con una WBS en un nivel muy granular, mientras que los demás realizan un seguimiento del progreso en un nivel superior de la WBS. En esta sección se describe cómo puede usar el seguimiento de la WBS para sus requisitos de proyecto. 
 
-Microsoft Dynamics 365 para las operaciones tiene tres vistas para el EDT de un proyecto: vista la vista de planificación, seguimiento de esfuerzo, y vista de seguimiento de costes.
+Microsoft Dynamics 365 for Operations tiene tres vistas para la WBS de un proyecto: la vista Planificación, la vista Seguimiento de esfuerzos y la vista Seguimiento de costes.
 
 ### <a name="planning-view"></a>Vista de planificación
 
@@ -177,7 +180,7 @@ La vista Planificación muestra la estimación planeada o de línea base de la i
 La vista Seguimiento de esfuerzos muestra el seguimiento del progreso para las tareas en la WBS. Compara las horas de esfuerzo reales acumuladas para una tarea con las horas de esfuerzo planificadas. Las fórmulas siguientes proporcionan los valores en la vista Seguimiento de esfuerzos:
 
 -   Porcentaje de progreso = Esfuerzo real hasta la fecha ÷ Esfuerzo planificado para la tarea
--   Esfuerzo restante (también conocido como \[Estimación-a- completado etc.) =\]esfuerzo planificado – esfuerzo real hasta la fecha
+-   Esfuerzo restante (también conocido como Estimación hasta completar \[ETC\]) = Esfuerzo planificado – Esfuerzo real hasta la fecha
 -   Estimación al completar (EAC) = Esfuerzo restante + Esfuerzo real hasta la fecha
 -   Desviación de esfuerzo proyectada = Esfuerzo planificado – EAC
 
@@ -188,7 +191,7 @@ La vista Seguimiento de esfuerzos muestra una proyección de la desviación del 
 
 **Reproyección del esfuerzo del director del proyecto** Ocasionalmente, el director del proyecto u otra persona que está realizando el seguimiento del progreso de un proyecto deberá revisar las estimaciones originales en una tarea. La tarea puede moverse con mayor rapidez o con más lentitud de lo que se anticipó originariamente por varios motivos. Por ejemplo, el ámbito se ha reducido, o los trabajadores tienen menos experiencia de lo que se planificó originalmente. Las proyecciones son la percepción de las estimaciones de un director de proyecto, según el estado actual en un proyecto. En general, no debe cambiar los números de línea base, porque una línea base del proyecto representa un documento bien publicado para la estimación del coste y la programación del proyecto que han acordado todas las partes interesadas del proyecto. 
 
-Existen dos maneras que los directores de proyecto pueden modificar el esfuerzo en tareas:
+Hay dos maneras en que los directores de proyectos pueden modificar el esfuerzo en las tareas:
 
 -   Modificar el esfuerzo restante que se establece automáticamente para actualizar el esfuerzo restante real de la tarea.
 -   Modificar el porcentaje del progreso que se establece automáticamente para actualizar el progreso verdadero de la tarea.
@@ -222,7 +225,7 @@ La vista Seguimiento de costes muestra una proyección de la desviación de cost
 **Reproyección del coste del director del proyecto** Los directores de proyecto deben usar CTC para revisar la estimación de coste original en una tarea. El director de proyecto puede modificar el valor de CTC al coste que se requiere para completar la tarea. Si modifica el valor de CTC, se recalculan el CTC de la tarea, EAC, el porcentaje del coste consumido y la desviación de coste proyectada en una tarea. El EAC, ETC y el porcentaje del coste consumido en las tareas de resumen también se recalculan, y se actualiza su desviación de coste proyectada. 
 
 > [!NOTE] 
-> Cuando se revisa esfuerzo para una tarea del EDT en la vista de seguimiento de esfuerzo, el adaptador de canal a canal de la tarea, el CEF, el porcentaje del coste consumido, y la desviación de coste proyectada toda se actualizan en la vista de seguimiento de costes. Sin embargo, las revisiones de coste no afectan a los valores de la vista Seguimiento de esfuerzos, ya que el coste por tipo de transacción (mano de obra, material o gastos) o la categoría de proyecto no se revisa. 
+> Cuando revise el esfuerzo para una tarea de WBS en la vista Seguimiento de esfuerzos, el CTC de la tarea, EAC, el porcentaje del coste consumido y la desviación de coste proyectada se recalculan en la vista Seguimiento de costes. Sin embargo, las revisiones de coste no afectan a los valores de la vista Seguimiento de esfuerzos, ya que el coste por tipo de transacción (mano de obra, material o gastos) o la categoría de proyecto no se revisa. 
 
 **Revisión de proyección para costes en tareas de resumen** Puede revisar costes en tareas de resumen y los cálculos se producen automáticamente en el siguiente orden:
 
@@ -236,24 +239,24 @@ Haga clic en **Expandir a nivel** en la vista Seguimiento de costes para estable
 
 ### <a name="earned-value-management"></a>Administración del valor obtenido
 
-Puede utilizar el método (EVM) del valor acumulado para realizar el seguimiento del progreso de un proyecto. Puede ver la métrica del valor acumulado en el área de trabajo del director del proyecto. El componente del gráfico de valor acumulado muestra los valores con fases temporales de valor planeado y coste real. El valor acumulado a partir de la fecha actual se muestra como un punto. Los datos con fases temporales para el valor acumulado no se encuentran disponibles actualmente. 
+Puede usar el método del valor acumulado (EVM) para realizar un seguimiento del progreso de un proyecto. Puede ver la métrica del valor acumulado en el área de trabajo del director del proyecto. El componente del gráfico de valor acumulado muestra los valores con fases temporales de valor planeado y coste real. El valor acumulado a partir de la fecha actual se muestra como un punto. Los datos con fases temporales para el valor acumulado no se encuentran disponibles actualmente. 
 
 La fase de tiempo en el gráfico de valor acumulado se muestra por semana o por mes. Esta sección describe los tres pilares de EVM: valor planeado, valor acumulado y coste real. 
 
 **Valor planificado** La teoría de EVM indica que el diagrama del valor esperado representa el índice en el que el equipo del proyecto planificó obtener valor en el proyecto. 
 
-Microsoft Dynamics 365 para las operaciones usa el 0:100 que tiene regla cuando traza valor planificado. En esta regla, el valor de la tarea se registra en la tarea como su fecha final. No se registra ningún valor hasta que la tarea se completa al 100 por cien. 
+Microsoft Dynamics 365 for Operations usa la regla de obtención 0:100 cuando representa el valor planificado. En esta regla, el valor de la tarea se registra en la tarea como su fecha final. No se registra ningún valor hasta que la tarea se completa al 100 por cien. 
 
 En Gestión de proyectos y contabilidad, especifique la fecha final de los nodos hoja y el coste planificado para el mismo. Cuando el gráfico del valor planificado se muestra por semana, el valor planificado se describe por semana para todas las tareas de nodo hoja para la duración del proyecto. 
 
 **Valor acumulado** La teoría de EVM indica que el diagrama del valor obtenido representa el índice en el que el equipo del obtiene realmente el valor en el proyecto. 
 
-Microsoft Dynamics 365 para las operaciones usa el 0:100 que tiene regla cuando su valor acumulado de los representarán. En esta regla, el valor de la tarea se registra en la tarea como su fecha final. No se registra ningún valor hasta que la tarea se completa al 100 por cien. 
+Microsoft Dynamics 365 for Operations usa la regla de obtención 0:100 cuando representa el valor acumulado. En esta regla, el valor de la tarea se registra en la tarea como su fecha final. No se registra ningún valor hasta que la tarea se completa al 100 por cien. 
 
 Cuando se calcula el valor acumulado, se considera el porcentaje del progreso de cada tarea. Según la regla de obtención 0:100, solo las tareas que se completen en un período determinado se consideran para el cálculo del valor acumulado a partir del fin de ese período. El valor acumulado en el proyecto se calcula para todas las tareas que se hayan completado cuando se crea el gráfico. 
 
 > [!NOTE] 
-> Actualmente, el sistema para el seguimiento del EDT no tiene estructuras de datos para almacenar porcentajes históricos de progreso en cada tarea. Por lo tanto, el valor acumulado solo se puede notificar a partir del momento en que se procesa el cubo. Procese el cubo con regularidad para actualizar los datos del valor acumulado que se muestran en el área de trabajo. 
+> Actualmente, el sistema para el seguimiento de WBS no tiene estructuras de datos para almacenar porcentajes de progreso históricos en cada tarea. Por lo tanto, el valor acumulado solo se puede notificar a partir del momento en que se procesa el cubo. Procese el cubo con regularidad para actualizar los datos del valor acumulado que se muestran en el área de trabajo. 
 
 **Coste real** La teoría de EVM indica que el diagrama de coste real representa el índice en el que se gasta el dinero en el proyecto. 
 
@@ -274,7 +277,7 @@ Si el coste real que se gasta para un período es superior al valor acumulado, s
 Si el coste real que se gasta para un período es inferior al valor acumulado, se acumuló más dinero que el que se gastó. Por lo tanto, el proyecto está por debajo del presupuesto.
 
 ## <a name="wbs-templates"></a>Plantillas de WBS
-Puede usar la funcionalidad de las plantillas de EDT para crear plantillas estándar para los proyectos. Si los proyectos que su empresa ofrece implican mucho trabajo repetible, debe pensar en crear una plantilla de WBS. 
+Puede usar la característica de plantillas de WBS para crear plantillas estándar para proyectos. Si los proyectos que su empresa ofrece implican mucho trabajo repetible, debe pensar en crear una plantilla de WBS. 
 
 Puede crear una plantilla de WBS desde la WBS de un proyecto existente, para que el conocimiento y las prácticas recomendadas que recopiló durante la planificación de ese proyecto se puedan reutilizar en proyectos similares en el futuro. Sin embargo, en ocasiones, es posible que no tenga sentido guardar la WBS completa como plantilla. Por tanto, también puede crear plantillas de las partes de la WBS para un proyecto.
 
@@ -313,5 +316,7 @@ Esfuerzo = Número de recursos × Duración × Número de horas en un día labor
 Puede corregir todos los errores de programación al mismo tiempo haciendo clic en **Corregir todos los errores de programación**. 
 
 Como alternativa, puede corregir los errores de programación individualmente haciendo clic en el icono de advertencia para cada tarea.
+
+
 
 

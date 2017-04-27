@@ -1,5 +1,5 @@
 ---
-title: "Métodos de pago en un centro de asistencia telefónica"
+title: "Métodos de pago en un centro de llamadas"
 description: "En este tema se tratan los diferentes métodos de pago que puede utilizar en un centro de llamadas en Retail y Commerce."
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="payment-methods-in-a-call-center"></a>Métodos de pago en un centro de asistencia telefónica
+# <a name="payment-methods-in-a-call-center"></a>Métodos de pago en un centro de llamadas
+
+[!include[banner](includes/banner.md)]
+
 
 En este tema se tratan los diferentes métodos de pago que puede utilizar en un centro de llamadas en Retail y Commerce.
 
@@ -43,6 +46,8 @@ Si envía un pago de tarjeta de crédito desde la página **Pedido de ventas** y
 
 -   Las retenciones de cheques permiten al personal contable procesar pedidos que se han puesto en espera debido a que se utilizó un cheque como el método de pago y se superó el importe del umbral de retención de cheques. La retención se puede liberar manualmente o caduca automáticamente al final del período configurado.
 -   Puede establecer umbrales por encima de los cuales las devoluciones emitidas mediante cheques y tarjetas de crédito deben aprobarse manualmente. Cualquier devolución que supere el importe de umbral se agrega a la cola de aprobación. Tras aprobar la devolución, el pedido de ventas de devolución puede ser facturado.
+
+
 
 
 

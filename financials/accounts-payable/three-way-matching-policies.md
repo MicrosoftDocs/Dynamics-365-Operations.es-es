@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="three-way-matching-policies"></a>Directivas de triple conciliación
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona ejemplos de triple conciliación.
 
 <a name="example-three-way-matching-for-items"></a>Ejemplo: Triple conciliación para artículos
@@ -62,7 +65,7 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
 1.  Sammy, trabajador en el departamento de recepción de Fabrikam, recibe la cantidad total de máquinas que se envían de Contoso. Éste especifica una cantidad de 5 en una recepción de producto. Dado que el pedido de compra se ha recibido completamente, el estado del pedido de compra cambia a Recibido.
 2.  April, el coordinador de proveedores en Fabrikam, especifique y comprueba la factura que se produce por Contoso. Comprueba la siguiente información:
     -   Para los artículos que requieren triple conciliación, la cantidad de la línea de factura coincide con la cantidad que se ha recibido. La cantidad recibida se indica en la recepción de producto que se asigna a la factura.
-    -   Para los artículos que requieren la doble conciliación o triple, los precios de la línea de factura se encuentran dentro de las tolerancias que se definen en Microsoft Dynamics 365 para Operations.This incluyen los siguientes tipos de conciliación de precio:
+    -   Para los artículos que requieren doble o triple conciliación, los precios en la línea de factura se encuentran dentro de las tolerancias que se definen en Microsoft Dynamics 365 for Operations. Esto incluye los siguientes tipos de conciliación de precio:
         -   Conciliación de precio neto unitario – el precio unitario neto de la línea de factura coincide con el precio unitario neto de la línea de pedido de compra, dentro del porcentaje de tolerancia. En este ejemplo, la tolerancia de precio unitario neto es el +8%.
         -   Conciliación de totales de precios: la desviación entre el importe neto de las líneas de facturas y el importe neto de las líneas de pedidos de compra deben estar dentro de los porcentajes de tolerancia permitidos. En este ejemplo, los totales de precio coincidentes tolerancia son los +15%.
 
@@ -75,7 +78,7 @@ La factura de papel de Contoso contiene la siguiente información.
 | Impuesto                         |          |            | 0,00       |
 | Total                       |          |            | 44.500,00  |
 
-En Microsoft Dynamics 365 para las operaciones, la línea de factura incluye la información siguiente.
+En Microsoft Dynamics 365 for Operations, la línea de factura incluye la información siguiente.
 
 | código de artículo                 | Cantidad | Precio unitario | Importe neto de línea | Directiva de conciliación    | Cantidad de recepciones de producto para asignar | Conciliación de precios | Conciliación total de precios |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -111,7 +114,7 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
 1.  Llegan los artículos. Se interrumpe a Sammy, trabajador en el departamento de recepción de Fabrikam en la división de Malasia, y no registra la recepción del producto inmediatamente.
 2.  April, el coordinador de proveedores en Fabrikam, especifique y comprueba la factura que se produce por Contoso. Comprueba la siguiente información:
     -   Para los artículos que requieren triple conciliación, la cantidad de la línea de factura coincide con la cantidad que se ha recibido. La cantidad recibida se indica en la recepción de producto que se asigna a la factura.
-    -   Para los artículos que requieren la doble conciliación o triple, los precios de la línea de factura se encuentran dentro de las tolerancias que se definen en Microsoft Dynamics 365 para las operaciones. Esto incluye los siguientes tipos de conciliación de precio:
+    -   Para los artículos que requieren doble o triple conciliación, los precios en la línea de factura se encuentran dentro de las tolerancias que se definen en Microsoft Dynamics 365 for Operations. Esto incluye los siguientes tipos de conciliación de precio:
         -   Conciliación de precio neto unitario – el precio unitario neto de la línea de factura coincide con el precio unitario neto de la línea de pedido de compra, dentro del porcentaje de tolerancia. En este ejemplo, la tolerancia de precio unitario neto es el +2%.
         -   Conciliación de totales de precios: la desviación entre el importe neto de las líneas de facturas y el importe neto de las líneas de pedidos de compra deben estar dentro de los porcentajes de tolerancia permitidos. En este ejemplo, los totales de precio coincidentes tolerancia son los +10%.
 
@@ -124,7 +127,7 @@ La factura de papel de Contoso contiene la siguiente información.
 | Unidad USB             | 200      | 10,05      | 2.010,00   |
 | Factura total         |          |            | 7.092,00   |
 
-En Microsoft Dynamics 365 para las operaciones, la línea de factura incluye la información siguiente.
+En Microsoft Dynamics 365 for Operations, la línea de factura incluye la información siguiente.
 
 | código de artículo           | Cantidad | Precio unitario | Importe neto de línea | Directiva de conciliación    | Cantidad de recepciones de producto para asignar | Conciliación de precios | Conciliación total de precios |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -140,6 +143,8 @@ Tenga en cuenta los siguientes elementos:
 Si es necesaria la aprobación para que las facturas se registren con discrepancias de conciliación de facturas, se debe activar Aprobar registro con discrepancias en la página Detalles de coincidencia de factura antes de poder registrar la factura con errores de conciliación de precio y de cantidad. Si la aprobación no es necesaria, el proceso de la factura puede continuar si no hay otros errores de registro.
 
 
-Para obtener más información, consulte [facturas de proveedores que coincide accounts-payable-invoice-matching.md] ().
+Para obtener más información, consulte [Conciliación de facturas de proveedores](accounts-payable-invoice-matching.md).
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-integration-with-other-modules"></a>Integración de planificación presupuestaria con otros módulos
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="periodic-processes-for-generating-budget-plans"></a>Procesos periódicos para generar planes presupuestarios
@@ -49,13 +52,13 @@ Los elementos básicos del proceso periódico son iguales para todos los proceso
 
 Para cada proceso de generación, hay tres acciones disponibles:
 
--   ** Cree un nuevo plan del presupuesto ** crear un nuevo plan con los atributos que están seleccionadas en ** destino ** sección. Estos atributos no tienen que ser exclusivos. Por lo tanto, dos planes pueden tener el mismo nombre y otros valores.
+-   **Crear un nuevo plan presupuestario** crea un nuevo plan con los atributos que están seleccionados en la sección **Destino**. Estos atributos no tienen que ser exclusivos. Por lo tanto, dos planes pueden tener el mismo nombre y otros valores.
 -   **Sustituir el escenario del plan presupuestario existente** elimina todos los datos en el plan presupuestario de destino en el escenario seleccionado del plan presupuestario y crea nuevas líneas que usan los datos de origen seleccionados.
 -   **Actualizar el escenario del plan presupuestario existente y anexar nuevos datos** actualiza las líneas existentes en el plan de destino que coinciden con las líneas de origen y agrega nuevas líneas para los nuevos datos. La conciliación se basa en la cuenta contable, la fecha, la clase de presupuesto y otros campos. Por ejemplo, al generar planes presupuestarios de puestos de previsión, el número de posición es un campo importante. Todas las líneas con un número de posición que coincida con el número de posición de origen se sustituyen por las nuevas líneas de origen.
 
 ### <a name="source"></a>Origen
 
-Para todos los procesos, ** origen ** la ficha le permite filtrar los datos mediante ** filtro ** el botón. De forma predeterminada, los campos específicos se agregan al filtro para cada proceso. Por ejemplo, para el proceso **Generar el plan presupuestario desde contabilidad general**, las categoría **Cuenta contable** y **Cuenta principal** están disponibles y aparecen en la página de la generación. Cualquier campo que agregue al filtro también se agrega a la página, junto con los criterios que se agreguen.
+Para todos los procesos, la pestaña **Origen** la ficha le permite filtrar los datos mediante el botón **Filtro**. De forma predeterminada, los campos específicos se agregan al filtro para cada proceso. Por ejemplo, para el proceso **Generar el plan presupuestario desde contabilidad general**, las categoría **Cuenta contable** y **Cuenta principal** están disponibles y aparecen en la página de la generación. Cualquier campo que agregue al filtro también se agrega a la página, junto con los criterios que se agreguen.
 
 ### <a name="target"></a>Objetivo
 
@@ -63,7 +66,7 @@ La opción **Histórico** en la pestaña **Destino** le permite usar las fechas 
 
 El campo **Agregar total por** en la parte superior de la página también determina la fecha que se usa. Este campo realiza un total de los importes y establece opcionalmente la fecha de vigencia al primer día del ejercicio o período fiscal. 
 
-Muchos de los campos de la pestaña **Destino** pasan a ser editables o de sólo lectura, en función de la acción que seleccione. Cuando cambia de crear un nuevo plan presupuestario a actualizar un plan existente, el campo **Nombre del plan presupuestario** pasa a estar disponible, y los campos relacionados con la selección de un plan existente están disponibles. En ambos ** destino ** la ficha y ** origen ** la ficha, ** libro mayor ** el campo siempre es no disponible, ya que el valor se determina mediante el proceso de planificación del presupuesto seleccionado. 
+Muchos de los campos de la pestaña **Destino** pasan a ser editables o de sólo lectura, en función de la acción que seleccione. Cuando cambia de crear un nuevo plan presupuestario a actualizar un plan existente, el campo **Nombre del plan presupuestario** pasa a estar disponible, y los campos relacionados con la selección de un plan existente están disponibles. En las pestañas **Destino** y **Origen**, el campo **Libro mayor** nunca está disponible porque el valor está determinado por el proceso seleccionado de planificación presupuestaria. 
 
 El campo **Clase de presupuesto** permite establecer las líneas del plan presupuestario como transacciones de gastos o transacciones de ingresos. Normalmente, las transacciones de ingresos son créditos en una cuenta contable y por tanto se almacenan como importes negativos. Normalmente, estas transacciones también aparecen como importes negativos en el plan presupuestario. Sin embargo, si se agrega la clase de presupuesto como un campo en el diseño del plan, los ingresos aparecerán como importes positivos.
 
@@ -73,7 +76,7 @@ Tres campos proporciona funciones adicionales: **Factor**, **Mínimo** y **Regla
 
 El valor del campo **Factor** se multiplica por el importe de origen para establecer el importe en el plan presupuestario. Luego podrá realizar ajustes al crear líneas de plan presupuestario. Por ejemplo, puede especificar **1,03** para un aumento del 3 por ciento. El factor debe ser un número entero positivo. 
 
-El campo **Mínimo** permite establecer el umbral del importe para crear una línea del plan presupuestario. Si el importe de origen es inferior a este número, la línea del plan presupuestario no se crea. Un valor de 0.00 ** ** permite todos los importes pero no actualiza las líneas de límite a los importes positivos. (Sin líneas de límites por configuración a los importes positivos. Los importes negativos vienen siempre incluidos y representan normalmente entradas de crédito).
+El campo **Mínimo** permite establecer el umbral del importe para crear una línea del plan presupuestario. Si el importe de origen es inferior a este número, la línea del plan presupuestario no se crea. Un valor de **0,00** permite todos los importes pero no limita las líneas a los importes positivos. (Ningún valor limita las línea a importes positivos. Los importes negativos siempre se incluyen y representan normalmente entradas de crédito).
 
 El campo **Regla de redondeo** permite establecer la precisión de las líneas del plan presupuestario que se crean. Puede redondear los importes al 1,00, 10,00, 100,00, etc., de divisa más cercano.
 
@@ -86,13 +89,13 @@ En el destino, el campo **Clase de presupuesto** se establece en **Gastos** o **
 
 ### <a name="generate-budget-plan-from-fixed-assets"></a>Generar un plan presupuestario a partir de activos fijos
 
-El proceso **Generación del plan presupuestario de activos fijos** no tiene ninguna opción para agregar por período o día. No hay tampoco opción para establecer el plan como histórico. Puede usar este proceso periódico proyectados para incluir las transacciones de activos fijos en la planificación de presupuesto.
+El proceso **Generación del plan presupuestario de activos fijos** no tiene ninguna opción para agregar por período o día. Tampoco hay opción para definir el plan como histórico. Puede usar este proceso periódico para incluir las transacciones previstas para los activos fijos en la planificación presupuestaria.
 
 ### <a name="generate-budget-plan-from-forecast-positions"></a>Generar plan presupuestario a partir de posiciones de previsión
 
 El proceso **Generación del plan presupuestario de posiciones de previsión** asigna la posición de previsión de origen a la línea del plan presupuestario. Puede ver la posición al agregar la posición de previsión como una fila en el diseño del plan presupuestario o mediante la consulta **Líneas del plan presupuestario**. Si no desea que la posición de previsión se asigne a líneas del plan presupuestario, establezca la opción **Incluir posición en la línea del plan presupuestario** en **No**.
 
-Las líneas en el plan del presupuesto se agregan por cuenta contable y el puesto. Sin embargo, puede excluir el número de posición, de modo que las líneas sean agregadas por cuenta contable únicamente. En la pestaña **Destino**, establezca la opción **Incluir posición en el plan presupuestario** en **No**.
+Las líneas en el plan presupuestario se agregarán por cuenta contable y posición. Sin embargo, puede excluir el número de posición, de modo que las líneas se agreguen solo por cuenta contable. En la pestaña **Destino**, establezca la opción **Incluir posición en el plan presupuestario** en **No**.
 
 En el campo **Escenario de FTE del plan presupuestario**, puede seleccionar un escenario para incluir el número de equivalentes a jornada completa (FTE) en el plan presupuestario. Este campo está limitado a los escenarios de tipo de cantidad que se incluyen en el diseño del plan presupuestario de destino. Si selecciona un escenario de FTE, también debe seleccionar una cuenta principal de FTE. Esta cuenta se usa para crear las líneas del plan presupuestario de la cantidad. 
 
@@ -140,5 +143,7 @@ Seleccione una línea y haga clic en el botón **Líneas del plan presupuestario
 Use los botones **Previsión de suministro** y **Previsión de demanda** para ejecutar estas consultas. En ambos casos, la consulta busca las líneas de previsión que podrían haber creado las líneas del plan presupuestario. 
 
 Los informes adicionales disponibles incluyen el informe **Posiciones de previsión por plan presupuestario**. Este informe es especialmente útil si se desea determinar si una posición se ha asignado correctamente a los planes presupuestarios.
+
+
 
 

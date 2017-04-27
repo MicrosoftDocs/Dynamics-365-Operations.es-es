@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-actions"></a>Acciones de flujo de trabajo
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo explica las acciones que cada participante de un proceso de aprobación de flujo de trabajo puede realizar.
 
-Un flujo de trabajo puede incluir varios grupos de personas: el originador, los usuarios asignados a la tarea, los responsables de la toma de decisiones y los aprobadores. Por ejemplo, en el siguiente flujo de trabajo de informes de gastos, Sam es el originador, los miembros de la cola son los usuarios asignados a la tarea, John es el responsable de la toma de decisiones y Frank, Sue y Ann son los aprobadores.   [flujo de trabajo![\_WithManualDecision![] (. /media/workflow_withmanualdecision.gif])(. /media/workflow_withmanualdecision.gif) Las secciones siguientes se describen las acciones que cada grupo puede efectuar.
+Un flujo de trabajo puede incluir varios grupos de personas: el originador, los usuarios asignados a la tarea, los responsables de la toma de decisiones y los aprobadores. Por ejemplo, en el siguiente flujo de trabajo de informes de gastos, Sam es el originador, los miembros de la cola son los usuarios asignados a la tarea, John es el responsable de la toma de decisiones y Frank, Sue y Ann son los aprobadores.   [![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif) En las siguientes secciones se explican las acciones de flujo de trabajo que puede realizar cada grupo.
 
 ## <a name="actions-that-an-originator-can-perform"></a>Acciones que puede realizar un originador
 El originador da inicio a una instancia de flujo de trabajo al enviar un documento para que se lo procese. Por ejemplo, para enviar su informe de gastos, Sam debe hacer clic en el botón **Enviar** de la página **Informe de gastos**.
@@ -63,7 +66,7 @@ En ocasiones, un miembro de una cola de elementos de trabajo podrá aceptar una 
 ## <a name="actions-that-a-decision-maker-can-perform"></a>Acciones que puede realizar un responsable de la toma de decisiones
 Normalmente, el motivo por el que un documento se asigna a un responsable de toma de decisiones es que la persona debe dar una respuesta. Por lo general, la respuesta a la pregunta es, o bien **Sí** o **No**, o bien **Verdadero** o **Falso**. Si esta persona no selecciona ninguna de las opciones, puede delegar la decisión.
 
-### <a name="choice-1-or-choice-2"></a>Elección 1 Elección 2\]\]\]\[o \[
+### <a name="choice-1-or-choice-2"></a>\[Elección 1\] o \[Elección 2\]
 
 El responsable de la toma de decisiones debe responder a una pregunta relacionada con el documento. Por lo general, la respuesta a la pregunta es, o bien **Sí** o **No**, o bien **Verdadero** o **Falso**. La respuesta que esta persona proporciona determina la rama del flujo de trabajo que se usa para procesar el documento. Por ejemplo, el informe de gastos de Sam se asigna a John. John debe decidir si, dada la información que contiene el documento, se debe realizar una llamada al director de Sam. Si John decide que este es el caso, el informe de gastos se asigna a Aretha, quien debe llamar después al director de Sam. Si John decide que la llamada no es necesaria, el informe de gastos se asigna a Frank para que lo apruebe.
 
@@ -89,5 +92,7 @@ Cuando un aprobador delega un documento, se lo asigna a otro usuario para que lo
 ### <a name="request-change"></a>Solicitar cambio
 
 Cuando un aprobador solicita que se realice un cambio en un documento, este se devuelve al originador. Por ejemplo, supongamos que Sam ha enviado un informe de gastos por un total de 12.000 USD que, en este momento, está asignado a Sue. Si Sue solicita un cambio, el informe de gastos se devuelve a Sam. Sam podrá volver a enviar el informe de gastos. Puede realizar los cambios solicitados primero o volver a enviar la versión original del informe de gastos. Si Sam lo vuelve a enviar, se envía a Frank para que lo apruebe porque él es el primer aprobador del proceso de aprobación.
+
+
 
 

@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-setup-requirements"></a>Requisitos de configuración de producción
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información acerca de los requisitos de configuración para poder trabajar con el Control de producción. 
 
-El control de producción se integra con las funciones de otros módulos. Esta interconectividad le permite modificar las órdenes de producción y garantizar que se actualizan automáticamente en los demás procesos y cálculos del sistema. Los siguientes procesos de configuración se enumeran en el orden en que se deben realizar.
+Control de producción se integra con funciones de otros módulos. Esta interconectividad le permite modificar las órdenes de producción y garantizar que se actualizan automáticamente en los demás procesos y cálculos del sistema. Los siguientes procesos de configuración se enumeran en el orden en que se deben realizar.
 
 ## <a name="required-baseline-setup-in-other-modules"></a>Configuración de línea base requerida en los demás módulos
 Para poder trabajar con Control de producción, debe configurarse previamente información en los demás módulos. Esta configuración incluye las tareas siguientes:
@@ -52,7 +55,7 @@ Antes de utilizar Control de producción, abra Administración de la organizaci�
 4.  **Recursos**: configure los recursos de operaciones para definir los recursos utilizados para completar el proceso de producción y planificar la capacidad.
 
 ## <a name="required-production-parameters-setup"></a>Configuración de parámetros de producción
-** Parámetros de control de producción ** – Parámetros de producción básicos de instalación para definir cómo el sistema trata procesa y pedidos de producción. Defina cómo se crean, estiman, programan y consumen los pedidos de producción. También puede escoger qué clase de realimentación desea y cómo se realiza la contabilidad de costes.
+**Parámetros de control de producción**: configure los parámetros de producción básicos para definir cómo debe el sistema gestionar y procesar los pedidos de producción. Defina cómo se crean, estiman, programan y consumen los pedidos de producción. También puede escoger qué clase de realimentación desea y cómo se realiza la contabilidad de costes.
 
 ## <a name="required-journal-name-identification"></a>Identificación del nombre del diario
 **Nombres de diario de producción**: especifique los nombres de diario de producción que se usan para registrar y contabilizar transacciones.
@@ -76,6 +79,8 @@ Si trabaja con rutas, deben definirse operaciones para cada ruta de producción 
 1.  **Grupos de producción**: configure grupos de producción para establecer relaciones entre la orden de producción y las cuentas contables. Las cuentas contables se usan para registrar o agrupar pedidos que están listos para informe.
 2.  **Conjuntos de producción**: cree grupos de producción para agrupar órdenes de producción para el procesamiento de órdenes de producción urgentes o para la eliminación y el registro de grupos de pedidos.
 3.  **Propiedades**: defina propiedades para crear atributos especiales que puede asignar a sus recursos para controlar el orden de las producciones. Estos atributos x la plantilla de horario de trabajo.
+
+
 
 
 

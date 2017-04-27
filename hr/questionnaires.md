@@ -1,6 +1,6 @@
 ---
 title: Cuestionarios
-description: "Este tema proporciona información general sobre cuestionarios, y vínculos a información más detallada. Un cuestionario es un conjunto de preguntas que se utiliza para recopilar información con varios objetivos. Puede diseñar, crear, distribuir y completar cuestionarios y, a continuación, analizar los resultados."
+description: "En este tema se proporciona información general acerca de los cuestionarios, además de vínculos a información más detallada. Un cuestionario es un conjunto de preguntas que se utiliza para recopilar información con varios objetivos. Puede diseñar, crear, distribuir y completar cuestionarios y, a continuación, analizar los resultados."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="questionnaires"></a>Cuestionarios
 
-Este tema proporciona información general sobre cuestionarios, y vínculos a información más detallada. Un cuestionario es un conjunto de preguntas que se utiliza para recopilar información con varios objetivos. Puede diseñar, crear, distribuir y completar cuestionarios y, a continuación, analizar los resultados. 
+[!include[banner](includes/banner.md)]
 
-Puede personalizar un cuestionario para que se adapte a sus requisitos específicos mediante varias funciones disponibles en Microsoft Dynamics 365 para las operaciones. A continuación, se muestran algunos ejemplos de cómo se pueden usar los cuestionarios:
+
+En este tema se proporciona información general acerca de los cuestionarios, además de vínculos a información más detallada. Un cuestionario es un conjunto de preguntas que se utiliza para recopilar información con varios objetivos. Puede diseñar, crear, distribuir y completar cuestionarios y, a continuación, analizar los resultados. 
+
+Puede personalizar un cuestionario para que se adapte a sus requisitos específicos mediante las diversas características que están disponibles en Microsoft Dynamics 365 for Operations. A continuación, se muestran algunos ejemplos de cómo se pueden usar los cuestionarios:
 
 -   Probar las habilidades profesionales de empleados y candidatos.
 -   Evaluar si los participantes del curso aprendieron el material del curso.
@@ -42,9 +45,9 @@ En la siguiente tabla se proporcionan vínculos a información sobre cómo usar 
 
 | Tema| Descripción|
 |------|------------|
-| [Design a questionnaire](design-questionnaires.md)  | Este artículo ofrece información sobre el procedimiento el diseño de un cuestionario. El proceso de diseño implica la configuración de requisitos previos, respuestas y preguntas, y después su combinación en un cuestionario. |
-| [Distribute and complete a questionnaire](distribute-questionnaires.md)  | Este artículo proporciona información acerca de cómo distribuir un cuestionario a los encuestados y cómo completar cuestionarios.                                                                       |
-| [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md) | Este artículo ofrece información sobre cómo ver y evaluar los resultados de los cuestionarios completados.                                                                                        |
+| [Diseñar un cuestionario](design-questionnaires.md)  | Este artículo ofrece información sobre el procedimiento el diseño de un cuestionario. El proceso de diseño implica la configuración de requisitos previos, respuestas y preguntas, y después su combinación en un cuestionario. |
+| [Distribuir y completar un cuestionario](distribute-questionnaires.md)  | Este artículo proporciona información acerca de cómo distribuir un cuestionario a los encuestados y cómo completar cuestionarios.                                                                       |
+| [Ver y evaluar los resultados de un cuestionario](evaluate-questionnaire-results.md) | Este artículo ofrece información sobre cómo ver y evaluar los resultados de los cuestionarios completados.                                                                                        |
 
 
 
@@ -55,6 +58,8 @@ En la siguiente tabla se proporcionan vínculos a información sobre cómo usar 
 
 [Distribuir y completar cuestionarios](distribute-questionnaires.md)
 
-[Ver y evaluación de los resultados de cuestionarios (evaluate-questionnaire-results.md])
+[Visualización y evaluación de los resultados de cuestionarios](evaluate-questionnaire-results.md)
+
+
 
 

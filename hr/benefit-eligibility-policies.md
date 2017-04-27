@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="benefit-eligibility-policies"></a>Directivas de idoneidad para beneficio
 
-Este tema proporciona información acerca de las directivas de permiso de prestación, que ayudan a definir quién es apta para los beneficios específicos.
+[!include[banner](includes/banner.md)]
+
+
+Este tema proporciona información acerca de las directivas de idoneidad de prestación, que le ayudan a definir quién es apto para las prestaciones específicas.
 
 Cuando crea prestaciones, decide qué beneficios estarán disponibles para qué empleados. En la tabla siguiente se muestran ejemplos de las prestaciones que puede poner a disposición de empleados específicos.
 
@@ -38,7 +41,7 @@ Cuando crea prestaciones, decide qué beneficios estarán disponibles para qué 
 | Teléfono móvil     | Personal de ventas, ejecutivos         |
 | Pases para aparcamiento   | Ejecutivos                      |
 
-Los componentes siguientes en para crear directivas de idoneidad:
+Se usan los siguientes componentes para crear directivas de idoneidad:
 
 -   Tipos de reglas de directivas
 -   Directivas de idoneidad para prestación
@@ -51,5 +54,7 @@ Define el ámbito de la regla dentro de la directiva. Por ejemplo, si crea un ti
 --------
 
 [Definir y gestionar un programa de prestaciones](manage-benefit-program.md)
+
+
 
 

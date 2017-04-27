@@ -40,7 +40,7 @@ Se registra un evento de diario de transferencia. El evento transfiere una pieza
 
 ### <a name="example-2-cost-entries-are-created"></a>Ejemplo 2: Se crean entradas de costes
 
-Se registra un evento de diario de transferencia. El evento transfiere la una pieza del artículo A del sitio 1 para localizar 2. La dimensión de inventario de sitio se considera parte del objeto de coste. Por lo tanto, el evento crea dos transacciones de inventario y dos entradas de coste.
+Se registra un evento de diario de transferencia. El evento transfiere una pieza del artículo A desde el sitio 1 al sitio 2. La dimensión de inventario de sitio se considera parte del objeto de coste. Por lo tanto, el evento crea dos transacciones de inventario y dos entradas de coste.
 
 ### <a name="example-3-one-cost-entry-is-created"></a>Ejemplo 3: Se crea una entrada de coste
 
@@ -59,11 +59,11 @@ La nueva página **Entradas de costes** le permite ver y controlar registros de 
 | 00002   | 20-01-2015 | Pedido de compra | 100001 | 0000101 |               |               |          | 100,00  |
 | 00003   | 31-01-2015 | Ajuste     | 100001 | 0000101 |               |               |          | 15:00   |
 
-La página **Entradas de costes** permite el filtrado por id. de documento y fecha de documento. ** Nota: ** Las entradas de coste solo están disponibles para los objetos [] de costes (cost-object.md) o los productos emitidos.
+La página **Entradas de costes** permite el filtrado por id. de documento y fecha de documento. **Nota:** Las entradas de costes solo están disponibles para [objetos de costes](cost-object.md) o productos emitidos.
 
 <a name="see-also"></a>Consulte también
 --------
 
-[Cost objects](cost-object.md)
+[Objetos de costes](cost-object.md)
 
 

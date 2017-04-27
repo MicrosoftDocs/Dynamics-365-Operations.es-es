@@ -1,6 +1,6 @@
 ---
 title: Tipos de diarios contables
-description: "En este artículo se describen los tipos de diarios que se pueden configurar para los diarios financieros. Use la página de los nombres de diario para configurar diarios que puede usar en Microsoft Dynamics 365 para las operaciones."
+description: "En este artículo se describen los tipos de diarios que se pueden configurar para los diarios financieros. Use la página Nombres de diarios para configurar diarios que puede usar en todo Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="ledger-journal-types"></a>Tipos de diarios contables
 
-En este artículo se describen los tipos de diarios que se pueden configurar para los diarios financieros. Use la página de los nombres de diario para configurar diarios que puede usar en Microsoft Dynamics 365 para las operaciones.
+[!include[banner](../includes/banner.md)]
+
+
+En este artículo se describen los tipos de diarios que se pueden configurar para los diarios financieros. Use la página Nombres de diarios para configurar diarios que puede usar en todo Microsoft Dynamics 365 for Operations.
 
 | Tipo de diario                      | Propósito                                                                                                                                                                                                                                                                                                                                                     | Especificar las transacciones en esta página                                |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
@@ -55,11 +58,13 @@ En este artículo se describen los tipos de diarios que se pueden configurar par
 | Remesa bancaria del proveedor            | Crear un archivo de envío de pagaré que se puede enviar al banco de su organización.                                                                                                                                                                                                                                                                      | Diario de envíos                                             |
 | Pagos del proveedor               | Crear transacciones de pagos de proveedor.                                                                                                                                                                                                                                                                                                                    | Diario de pagos                                                |
 | Librar pagaré del proveedor       | Librar un pagaré de proveedor como método de pago. Para usar este tipo de diario, desactive la opción **Crear y registrar diario negociado automáticamente al registrar facturas** en la página **Métodos de pago: proveedores**.                                                                                                                                          | Diario de creación de pagarés                                   |
-| Grupo de facturas de proveedor excluidas. registro | Crear transacciones de factura de proveedor que todavía no se han registrado en una cuenta temporal de llegada.                                                                                                                                                                                                                                                             | Ver detalles de grupo de facturas de proveedor excluidas del registro                  |
+| Grupo de factura del proveedor excluidos los registros | Crear transacciones de factura de proveedor que todavía no se han registrado en una cuenta temporal de llegada.                                                                                                                                                                                                                                                             | Ver detalles de grupo de facturas de proveedor excluidas del registro                  |
 | Grupo de factura del proveedor               | Crear transacciones de grupo de facturas de proveedor.                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Diario de facturas          | Registrar facturas de proveedor que se encuentran en un diario.                                                                                                                                                                                                                                                                                                                 | Diario de facturas                                                |
 | Renegociación de pagarés     | Volver a librar un pagaré ya liquidado por el banco de su organización.                                                                                                                                                                                                                                                                      | Diario de renegociación de pagarés                                 |
 | Liquidación de pagarés     | Crear una transacciones de pagaré de liquidación de proveedor.                                                                                                                                                                                                                                                                                                          | Diario de liquidación de pagarés                                 |
+
+
 
 
 

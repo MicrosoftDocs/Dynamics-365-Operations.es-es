@@ -1,5 +1,5 @@
 ---
-title: "Cursos de formación de instalación"
+title: "Configuración de cursos de formación."
 description: "Los administradores y directores de Recursos humanos pueden usar las características de los cursos para mantener información sobre la formación que se ofrece a los trabajadores."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-training-courses"></a>Cursos de formación de instalación
+# <a name="set-up-training-courses"></a>Configuración de cursos de formación.
+
+[!include[banner](includes/banner.md)]
+
 
 Los administradores y directores de Recursos humanos pueden usar las características de los cursos para mantener información sobre la formación que se ofrece a los trabajadores.
 
@@ -85,7 +88,7 @@ Para cada curso, puede realizar las tareas siguientes:
 -   Recomendar hoteles a los participantes en el curso.
 -   Crear una descripción del curso que puede anunciar en Autoservicio para empleados.
 
-  >** Nota ** puede eliminar un curso para nadie si ha registrado para el mismo. 
+  >**Nota** Solo puede eliminar un curso solo si nadie se ha registrado. 
     
 ## <a name="course-statuses"></a>Estados del curso
 En la tabla siguiente se muestran los estados posibles del curso y las acciones que puede realizar cuando el curso tiene un estado concreto.
@@ -132,7 +135,9 @@ Los participantes del curso son trabajadores, solicitantes o personas de contact
 <a name="workflow"></a>Flujo de trabajo
 --------
 
-Los empleados que se registran para un curso a través ** servicio automática del empleado ** de la página pueden hacer que el registro distribuir con el flujo de trabajo para su aprobación.  Un flujo de trabajo se puede asignar a un curso en ** general ** en la ficha desplegable ** los cursos ** la página.
+Los empleados que se registran para un curso por medio de la página **Autoservicio del empleado** pueden dirigir su registro a través del flujo de trabajo para su aprobación.  Se puede asignar un flujo de trabajo a un curso en la ficha desplegable **General** de la página **Cursos**.
+
+
 
 
 

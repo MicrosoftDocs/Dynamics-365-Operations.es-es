@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-conditional-decision-in-a-workflow"></a>Configuración de una decisión condicional en un flujo de trabajo
 
+[!include[banner](../includes/banner.md)]
+
+
 Use el siguiente procedimiento para configurar las propiedades de una decisión condicional.
 
 Una decisión condicional es un punto en el que un flujo de trabajo se divide en dos ramas. Para configurar una decisión condicional, en el editor de flujo de trabajo, haga clic con el botón derecho en la decisión condicional y, a continuación, haga clic en **Propiedades** para abrir el formulario **Propiedades**.
@@ -38,7 +41,7 @@ Siga estos pasos para asignar un nombre a una decisión condicional.
 ## <a name="set-conditions"></a> Establecimiento de condiciones
 Para decidir la rama que se usa, el sistema evalúa el documento enviado para determinar si cumple con determinadas condiciones.
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
-2.  Click **Add condition**.
+2.  Haga clic en **Agregar condición**.
 3.  Escriba una condición.
 4.  Escriba condiciones adicionales, si fuera necesario.
 5.  Para comprobar que las condiciones definidas se hayan configurado correctamente, siga estos pasos:
@@ -46,6 +49,8 @@ Para decidir la rama que se usa, el sistema evalúa el documento enviado para de
     2.  Seleccione un registro del área **Comprobar condición** del formulario.
     3.  Haga clic en **Probar**. El sistema evalúa el registro seleccionado para determinar si reúne las condiciones definidas.
     4.  Haga clic en **Aceptar** o en **Cancelar** para regresar al formulario **Propiedades**.
+
+
 
 
 

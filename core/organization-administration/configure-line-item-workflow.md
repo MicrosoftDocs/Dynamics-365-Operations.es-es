@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-line-item-workflow"></a>Configuración de un flujo de trabajo de elementos
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tema explica cómo configurar un elemento de flujo de trabajo de elementos.
 
 Para configurar un elemento de flujo de trabajo de elementos, en el editor de flujo de trabajo, haga clic con el botón derecho en el elemento y, a continuación, haga clic en **Propiedades** para abrir la página de **Propiedades**. A continuación use los siguientes procedimientos para configurar las propiedades del elemento de flujo de trabajo de elementos.
 
-## <a name="name-the-lineitem-workflow-element"></a>Asignación de un nombre al elemento de flujo de trabajo de lineitem
+## <a name="name-the-lineitem-workflow-element"></a>Asignación de un nombre al elemento de flujo de trabajo de artículo de línea
 Siga estos pasos para asignar un nombre al elemento de flujo de trabajo de elementos.
 
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
@@ -50,6 +53,8 @@ Siga estos pasos para especificar si el mismo flujo de trabajo se usa para proce
     6.  Para comprobar que el conjunto de condiciones definido se ha configurado correctamente, haga clic en **Probar**. En la página **Probar condición de flujo de trabajo**, en el área **Validar condición**, seleccione un registro y haga clic en **Probar**. El sistema evalúa el registro seleccionado para determinar si reúne las condiciones definidas. Haga clic en **Aceptar** o en **Cancelar** para regresar a la página **Propiedades**.
 
     En la pestaña **Flujo de trabajo**, seleccione el flujo de trabajo para procesar los elementos de línea que cumplan con el conjunto de condiciones definido.
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Inicializar los datos de germen en un nuevo entorno al por menor
-description: "Este artículo describe los datos que se crea como parte del proceso de inicialización para Microsoft Dynamics 365 para las operaciones (al por menor."
+title: "Inicializar datos semilla en un nuevo entorno de distribución"
+description: "En este artículo se describen los datos que se crean como parte del proceso de inicialización para Microsoft Dynamics 365 for Operations - Retail."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 49621
 ms.assetid: 4dc762eb-190e-4485-8f55-b0cafc81bc37
 ms.search.region: global
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="initialize-seed-data-in-a-new-retail-environment"></a>Inicializar los datos de germen en un nuevo entorno al por menor
+# <a name="initialize-seed-data-in-a-new-retail-environment"></a>Inicializar datos semilla en un nuevo entorno de distribución
 
-Este artículo describe los datos que se crea como parte del proceso de inicialización para Microsoft Dynamics 365 para las operaciones (al por menor.
+[!include[banner](includes/banner.md)]
+
+
+En este artículo se describen los datos que se crean como parte del proceso de inicialización para Microsoft Dynamics 365 for Operations - Retail.
 
 Después de que la solución de venta minorista se haya desplegado con los servicios de ciclo de vida de Microsoft Dynamics, debe inicializar la configuración de venta minorista para crear los datos de configuración básicos. **Importante:** antes de inicializar la configuración de venta minorista, asegúrese de que haya especificado un idioma y una dirección postal para cada entidad jurídica en la que va a configurar tiendas de venta minorista. Este paso se debe completar para cada entidad jurídica que se use para la venta minorista. Para inicializar la configuración de venta minorista, siga estos pasos.
 
-1.  Iniciar Dynamics 365 del cliente de las operaciones.
-2.  Haga clic ** al por menor y comercio ** &gt; ** Retail Headquarters ** &gt; ** configurar los parámetros ** &gt; ** los parámetros de ventas **.
+1.  Inicie el cliente de Dynamics 365 for Operations.
+2.  Haga clic en **Venta minorista y comercio** &gt; **Configuración de sede central** &gt; **Parámetros** &gt; **Parámetros comerciales**.
 3.  Haga clic en **Inicializar**.
 
 Inicialización crea los datos de configuración siguientes predeterminados:
@@ -50,13 +53,15 @@ Inicialización crea los datos de configuración siguientes predeterminados:
 -   Plantillas de validación de entidad
 -   Trabajo por lotes para purgar historial de la sesión de intercambio de datos comerciales
 
-Además, la conexión relacionada con el sector (PCI) de la tarjeta de pago se habilita para Dynamics 365 de la base de datos de las operaciones. **Nota:** hay una opción para configurar por separado el programador de venta minorista. Esta opción permite restablecer la configuración del programador de venta minorista a sus valores predeterminados. Después de que la inicialización esté completada, debe configurar los datos adicionales de la venta minorista. A continuación se incluyen algunos ejemplos:
+Además, el registro relacionado con la industria de la tarjeta de pago se habilita para la base de datos de Dynamics 365 for Operations. **Nota:** hay una opción para configurar por separado el programador de venta minorista. Esta opción permite restablecer la configuración del programador de venta minorista a sus valores predeterminados. Después de que la inicialización esté completada, debe configurar los datos adicionales de la venta minorista. A continuación se incluyen algunos ejemplos:
 
 -   Parámetros comerciales
 -   Parámetros del Programador de tareas Retail
 -   Canales comerciales
 -   Cajas registradoras y dispositivos
 -   Varios
+
+
 
 
 

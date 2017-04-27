@@ -1,5 +1,5 @@
 ---
-title: "Soporte del número de matrícula de la transferencia de kanban para los lectores de códigos de barras"
+title: "Compatibilidad del tablero de transferencia kanban para escáneres de códigos de barras"
 description: "El tablero de transferencia kanban admite la entrada del escáner desde un lector de códigos de barras de widget para seleccionar, iniciar, completar y vaciar un trabajo kanban."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Soporte del número de matrícula de la transferencia de kanban para los lectores de códigos de barras
+# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Compatibilidad del tablero de transferencia kanban para escáneres de códigos de barras
+
+[!include[banner](../includes/banner.md)]
+
 
 El tablero de transferencia kanban admite la entrada del escáner desde un lector de códigos de barras de widget para seleccionar, iniciar, completar y vaciar un trabajo kanban.
 
@@ -46,13 +49,13 @@ En la ficha desplegable **Registro de escáner**, puede seleccionar el modo de r
 <a name="registration-mode-select"></a>Seleccionar el modo de registro
 ------------------------
 
-Cuando se utiliza un lector de código de barras para seleccionar un trabajo, el modo de pantalla del tablero kanban. De esta manera, se aplicarán las condiciones siguientes:
+Cuando se usa un lector de códigos de barras para seleccionar un trabajo, el modo de visualización del tablero kanban cambia. De esta manera, se aplicarán las condiciones siguientes:
 
 -   Solo se muestra el trabajo kanban escaneado.
 -   Los detalles del trabajo seleccionado se muestran en la ficha desplegable **Detalles**.
 -   La ficha desplegable **Mensajes** muestra mensajes solo para el trabajo seleccionado.
 -   Puede cambiar el estado del trabajo mediante las funciones disponibles en el Panel de acciones. El tablero kanban de transferencia sigue mostrando un solo trabajo durante este tiempo.
--   Puede actualizar la información en la lista de trabajos manualmente haciendo clic en ** ** actualización (Shift+F5) en el panel de acciones. Tras actualizar la información, los resultados completos del filtro de trabajo se muestran de nuevo.
+-   Puede actualizar la información de la lista de trabajos manualmente haciendo clic en **Actualizar** (Mayús+F5) en el Panel de acciones. Tras actualizar la información, los resultados completos del filtro de trabajo se muestran de nuevo.
 
 ## <a name="job-status-and-possible-actions"></a>Estado del trabajo y acciones posibles
 El estado del trabajo seleccionado y el estado de cualquier trabajo fijado para los kanban de evento determinan si puede seguir procesando el trabajo. La tabla siguiente muestra información acerca de estos estados y tareas:
@@ -185,6 +188,8 @@ El estado del trabajo seleccionado y el estado de cualquier trabajo fijado para 
 </tr>
 </tbody>
 </table>
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-warehouse-workers"></a>Gestionar trabajadores de almacén
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe cómo puede usar Microsoft Dynamics AX para ayudar a controlar y a supervisar el trabajo que han realizado los empleados en los almacenes.
 
 Si usa la funcionalidad de gestión de almacenes, todas las operaciones de trabajador de almacén se conocen como *trabajo*. Trabajo como seleccionar, mover y recuento de inventario disponible se registra con los dispositivos móviles. Antes de que un trabajador de almacén pueda realizar el trabajo, debe estar asociado a un trabajador en recursos humanos. Cada cuenta de **Trabajador** puede tener varios usuarios de trabajo de almacén asociados. Dichos usuarios de trabajo pueden trabajar en varios almacenes y pueden tener distintos niveles de acceso a los distintos menús del dispositivo móvil. Puede pensar en los usuarios de trabajo de almacén como varios inicios de sesión para el trabajador seleccionado. Cada usuario de trabajo tiene un almacén predeterminado y los flujos de trabajo específicos son expuestos por los elementos de menú que están disponibles para dicho usuario de trabajo. 
@@ -51,6 +54,8 @@ El análisis del tiempo que se usa para procesar los elementos de trabajo puede 
 
 -   **Mano de obra por usuario** este informe muestra la productividad del trabajador, en función del tiempo real comparado con el tiempo previsto.
 -   **Mano de obra por tipo de transacción de trabajo** puede usar este informe para investigar ineficacias en procesos específicos del almacén. Por ejemplo, puede observar que las selecciones para los pedidos de transferencia tardan más esta semana que en semanas anteriores Puede usar esta información para investigar más.
+
+
 
 
 

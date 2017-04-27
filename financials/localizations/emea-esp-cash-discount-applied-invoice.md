@@ -1,6 +1,6 @@
 ---
-title: "El descuento por pronto pago se aplica en el parámetro de factura"
-description: "Este tema describe el descuento por pronto pago se aplica en el parámetro de factura para España."
+title: "Parámetro El descuento por pronto pago se aplica a la factura"
+description: "En este tema se describe el descuento por pronto pago aplicado en el parámetro de factura para España."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cash-discount-is-applied-in-the-invoice-parameter"></a>El descuento por pronto pago se aplica en el parámetro de factura
+# <a name="cash-discount-is-applied-in-the-invoice-parameter"></a>Parámetro El descuento por pronto pago se aplica a la factura
 
-Este tema describe el descuento por pronto pago se aplica en el parámetro de factura para España.
+[!include[banner](../includes/banner.md)]
 
-Normalmente, los descuentos por pronto pago se calculan durante el proceso de liquidación para transacciones abiertas del cliente o proveedor. Sin embargo, ** el descuento por pronto pago se aplica en la factura ** el parámetro permite cambiar el cálculo de descuentos por pronto pago de modo que aparezca durante el proceso de actualización de facturas. Si la dirección principal de la entidad jurídica se encuentra en España, este parámetro está disponible en ** las opciones tributarias ** en la ficha desplegable ** los impuestos ** la ficha ** los parámetros de contabilidad general ** de la página. Si habilita ** el descuento por pronto pago se aplica en la factura ** el parámetro, los descuentos por pronto pago se calculan durante el proceso de actualización de facturas para los siguientes documentos:
+
+En este tema se describe el descuento por pronto pago aplicado en el parámetro de factura para España.
+
+Normalmente los descuentos por pronto pago se calculan durante el proceso de liquidación para transacciones abiertas del cliente o proveedor. Sin embargo, el parámetro **El descuento por pronto pago se aplica a la factura** permite cambiar el cálculo de descuentos por pronto pago de modo que se produzca durante el proceso de actualización de facturas. Si la dirección principal de la entidad jurídica se encuentra en España, este parámetro está disponible en la ficha desplegable **Opciones de impuestos** de la pestaña **Impuestos** de la página **Parámetros de contabilidad general**. Si habilita el parámetro **El descuento por pronto pago se aplica a la factura**, los descuentos por pronto pago se calculan durante el proceso de actualización de facturas para los siguientes documentos:
 
 -   Pedidos de compra
 -   Pedidos de ventas
@@ -38,6 +41,8 @@ Normalmente, los descuentos por pronto pago se calculan durante el proceso de li
 -   Diarios contables
 -   Diarios de facturas
 -   Facturas de servicios
+
+
 
 
 

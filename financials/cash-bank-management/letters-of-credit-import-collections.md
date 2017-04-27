@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>Cartas de crédito y remesas documentarias
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información general acerca de las cartas de crédito y los cobros. Ambos tipos de documentos bancarios se usan a menudo para la compra y la venta de bienes entre fronteras internacionales.
 
 <a name="letters-of-credit"></a>Carta de crédito
 -----------------
 
-Los créditos documentarios se usan para las transacciones internacionales y la garantía de ayuda que los pagos. Un crédito documentario es un contrato que emite un banco, en el que el banco acepta garantizar el pago en nombre de un comprador, siempre que las condiciones del contrato entre el comprador y el vendedor se cumplen. Un crédito documentario también se denomina crédito documentario (DC).
+Las cartas de crédito se usan en transacciones internacionales y ayudan a garantizar que se efectuarán los pagos. Una carta de crédito es un contrato que emite un banco, por el cual el banco acepta garantizar el pago en nombre de un comprador, siempre que se cumplan las condiciones del contrato entre el comprador y el vendedor. Una carta de crédito también se conoce como un crédito documentario (CD).
 
 Para un crédito documentario de importación, la entidad jurídica es el comprador o el candidato para el crédito documentario. Para un crédito documentario de exportación, la entidad jurídica es el vendedor o el beneficiario del crédito documentario. Las partes siguientes están involucradas en una carta de crédito:
 
@@ -50,5 +53,7 @@ Un crédito documentario puede ser **revocable** o **irrevocable**. La naturalez
 Una remesa documentaria es un acuerdo entre el banco y el exportador (vendedor), en el que el banco acepta entregar la documentación de envío al importador internacional (comprador). El banco deberá entregar la documentación de envío al recibir el pago de las mercancías enviadas en efectivo o al recibir un borrador firmado del pago. 
 
 Una remesa documentaria ayuda a garantizar que al pago se le paga cuando el comprador recibe los documentos de envío para recibir la entrega de las mercancías importadas.
+
+
 
 

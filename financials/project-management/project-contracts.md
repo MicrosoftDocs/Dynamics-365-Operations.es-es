@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-contracts"></a>Contratos de proyecto
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe y proporciona ejemplos de contratos de proyecto que puede crear para diversos tipos de proyectos y fuentes de financiación, y cómo puede administrar contratos y clientes de proyecto de facturación en Microsoft Dynamics 365 for Operations.
 
 El tipo de proyecto que cree para un contrato de proyecto determinará el método de facturación usado para los clientes del proyecto. Puede cambiar un contrato de proyecto y el proyecto relacionado, pero no puede cambiar el tipo de proyecto. 
@@ -80,7 +83,7 @@ En la siguiente tabla encontrará escenarios para la administración de asignaci
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Scenario</strong></td>
+<td><strong>Situación</strong></td>
 <td><strong>Fuente de financiación </strong></td>
 <td><strong>Porcentaje de asignación </strong></td>
 <td><strong>Prioridad de asignación </strong></td>
@@ -192,7 +195,7 @@ En la siguiente tabla se examina este escenario con más detalle.
 <tbody>
 <tr class="odd">
 <td><strong>Foco </strong></td>
-<td><strong>Details</strong></td>
+<td><strong>Detalles</strong></td>
 </tr>
 <tr class="even">
 <td>Reglas de financiación</td>
@@ -220,7 +223,7 @@ En la siguiente tabla se examina este escenario con más detalle.
 </tr>
 <tr class="odd">
 <td>Transacción 2</td>
-<td><strong>Importe de transacción:</strong> 5,000.00<strong>Financiamiento:</strong> La transacción se paga según las tres reglas.<strong>Regla 1</strong>
+<td><strong>Importe de la transacción:</strong> 5000,00<strong>Financiación:</strong> la transacción se paga en función de las tres reglas.<strong>Regla 1</strong>
 <ul>
 <li>Fuente de financiación 2: 450,00</li>
 <li>Fuente de financiación 3: 450,00</li>
@@ -339,5 +342,7 @@ Al configurar el contrato de proyecto, acepta cobrar cada vez del cliente por el
 -   Su empresa crea una factura de cliente al final de cada mes natural durante el proyecto.
 
 Durante el primer mes, los asesores registran un total de 800 horas dedicadas al proyecto. El coste de los suministros de oficina que se cargan al proyecto es 2.000. Por tanto, al final del mes, se crea una factura de 122.000, calculada en base a 800 horas a 150 por hora más 2.000 en suministros de oficina.
+
+
 
 

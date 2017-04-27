@@ -1,5 +1,5 @@
 ---
-title: "La planificación maestra para la cobertura de sitios, almacén no obligatorio"
+title: "Planificación maestra para cobertura de sitios y almacenes, almacén no obligatorio"
 description: "Este tema describe cómo se planifica un artículo que tiene la dimensión del sitio establecida para cobertura."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>La planificación maestra para la cobertura de sitios, almacén no obligatorio
+# <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Planificación maestra para cobertura de sitios y almacenes, almacén no obligatorio
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tema describe cómo se planifica un artículo que tiene la dimensión del sitio establecida para cobertura.
 
@@ -39,9 +42,9 @@ El escenario de planificación maestra implica las condiciones siguientes:
 -   La dimensión de almacén no está definida para la planificación de la cobertura. Por lo tanto, el suministro y la demanda se agregan por sitio y, quizás, también otras dimensiones planificadas por cobertura.
 
 El gráfico siguiente ilustra cómo tiene lugar la planificación maestra. Los parámetros a los que se hace referencia en el gráfico, así como sus ubicaciones, son los siguientes:
--   La cobertura de artículos está definida para el artículo. Haga clic en ** productos &gt; emitidos de los productos&gt; de la Gestión de información de productos **. Seleccione el artículo, y haga clic en ** cobertura &gt; de artículos del plan **.
--   Están definidas relaciones de relleno para el almacén. Haga clic en ** almacenes de &gt; instalación de descomposición &gt; de inventario de gestión &gt; de inventario **. En la ficha **Planificación maestra**, consulte el grupo de campos **Almacén principal**.
--   El tipo de pedido predeterminado está definido en Producción, Pedido de compra o Kanban. Haga clic en ** productos &gt; emitidos de los productos&gt; de la Gestión de información de productos **. Seleccione el artículo, y haga clic en ** planee &gt; la configuración de pedido predeterminada **. En el formulario **Configuración predeterminada de pedido**, consulte el campo **Tipo de pedido predeterminado**.
+-   La cobertura de artículos está definida para el artículo. Haga clic en **Gestión de información de productos &gt; Productos &gt; Productos emitidos**. Seleccione el artículo y haga clic en **Planificar &gt; Cobertura de artículos**.
+-   Están definidas relaciones de relleno para el almacén. Haga clic en **Gestión del inventario &gt; Configurar &gt; Desglose del inventario &gt; Almacenes**. En la ficha **Planificación maestra**, consulte el grupo de campos **Almacén principal**.
+-   El tipo de pedido predeterminado está definido en Producción, Pedido de compra o Kanban. Haga clic en **Gestión de información de productos &gt; Productos &gt; Productos emitidos**. Seleccione el artículo y, a continuación, haga clic en **Planificar &gt; Configuración predeterminada de pedido**. En el formulario **Configuración predeterminada de pedido**, consulte el campo **Tipo de pedido predeterminado**.
 
 ![Demanda de cobertura de sitios, almacén no obligatorio](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
 
@@ -50,7 +53,7 @@ El gráfico siguiente ilustra cómo tiene lugar la planificación maestra. Los p
 <a name="see-also"></a>Consulte también
 --------
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Planificación maestra y funcionalidad multisitio](master-plan-multisite-functionality.md)
 
 [Planificación maestra: cobertura de sitios y almacenes, almacén obligatorio](master-plan-site-coverage-warehouse-mandatory.md)
 
@@ -58,6 +61,8 @@ El gráfico siguiente ilustra cómo tiene lugar la planificación maestra. Los p
 
 [Planificación maestra: cobertura de sitios y almacenes, almacén obligatorio](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[- Planificación maestra cómo se determina la versión de L master-plan-bom-version-determined.md] ()
+[Planificación maestra: cómo se establece la versión de la lista de materiales](master-plan-bom-version-determined.md)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: Donde iniciar
-description: "Iniciar aquí a bordo rápidamente y aprenda Microsoft Dynamics 365 de la interfaz de usuario de las operaciones."
+title: "Dónde empezar"
+description: "Empiece a aquí para ponerse al día y aprender a usar rápidamente la interfaz de usuario de Microsoft Dynamics 365 for Operations."
 eauthor: sericks007
 manager: AnnBe
 ms.date: 2015-12-11 15 - 19 - 40
@@ -26,44 +26,44 @@ ms.lasthandoff: 03/30/2017
 
 ---
 
-# <a name="where-to-start"></a>Donde iniciar
+# <a name="where-to-start"></a>Dónde empezar
 
-Iniciar aquí a bordo rápidamente y aprenda Microsoft Dynamics 365 de la interfaz de usuario de las operaciones.
+Empiece a aquí para ponerse al día y aprender a usar rápidamente la interfaz de usuario de Microsoft Dynamics 365 for Operations.
 
-## <a name="onboarding"></a>Onboarding
-Los recursos siguientes proporcionan una visión general de cómo trabajar con su socio para obtener onboarded a Dynamics 365 para las operaciones y de cómo usar Dynamics 365 para los servicios del ciclo de vida de las operaciones. 
+## <a name="onboarding"></a>Incorporación
+Los recursos siguientes proporcionan una visión general de cómo trabajar con su socio para ponerse al día con Dynamics 365 for Operations y aprender a usar Dynamics 365 for Operations Lifecycle Services. 
 
-- [A través rápida de Microsoft para obtener información general] de Dynamics 365 (/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
-- [Sign up for a subscription](../dev-tools/sign-up-preview-subscription.md) 
-- [El ciclo de vida mantiene (LCS) para Microsoft Dynamics 365 para los clientes de las operaciones.] (. /lifecycle-services/lcs-works-lcs.md) 
-- [Cómo los clientes que compraron Microsoft Dynamics 365 para las operaciones a través de un proveedor del servicio de nube pueden recopilar la versión local de Dynamics 365 para las operaciones (2012.]. /deployment/csp-download-customersource.md)
+- [Introducción a Microsoft FastTrack for Dynamics 365](/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
+- [Registro para suscripción](../dev-tools/sign-up-preview-subscription.md) 
+- [Lifecycle Services (LCS) para clientes de Microsoft Dynamics 365 for Operations](../lifecycle-services/lcs-works-lcs.md) 
+- [Qué tienen que hacer los clientes que compraron Microsoft Dynamics 365 for Operations a través de un proveedor de servicios en la nube para obtener la versión local de Dynamics 365 for Operations 2012](../deployment/csp-download-customersource.md)
 
 ## <a name="user-interface"></a>Interfaz de usuario
-Los recursos siguientes proporcionan información acerca de Dynamics 365 para la experiencia del usuario de las operaciones. 
--   [Novedades en Dynamics 365 para la experiencia del usuario de las operaciones (la combinación de la oficina)](https://mix.office.com/watch/1ohsrrpsd02e1)
+Los recursos siguientes proporcionan información acerca de la experiencia de usuario de Dynamics 365 for Operations. 
+-   [Novedades en la experiencia del usuario de Dynamics 365 for Operations (Office Mix)](https://mix.office.com/watch/1ohsrrpsd02e1)
 -   [Personalización de la experiencia del usuario](/dynamics365/operations/get-started/personalize-user-experience)
 -   [Configuración y filtrado de espacios de trabajo](/dynamics365/operations/get-started/configure-filter-workspaces)
--   [Navigation search](/dynamics365/operations/get-started/navigation-search)
+-   [Búsqueda de navegación](/dynamics365/operations/get-started/navigation-search)
 -   [Búsqueda de acción](/dynamics365/operations/get-started/action-search)
--   [Keyboard shortcuts](/dynamics365/operations/get-started/shortcut-keys)
--   [Display pages side-by-side using the Open in New Window icon](/dynamics365/operations/get-started/display-pages-side-by-side)
--   [Advanced filtering and query options](/dynamics365/operations/get-started/advanced-filtering-query-options)
--   [365 Dinámica para las preguntas más frecuentes] de cliente entre las operaciones (/dynamics365/operations/get-started/client-faq)
--   [Change the banner or logo (Task guide)](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/)
+-   [Métodos abreviados de teclado](/dynamics365/operations/get-started/shortcut-keys)
+-   [Visualizar páginas en paralelo con el icono Abrir en una ventana nueva](/dynamics365/operations/get-started/display-pages-side-by-side)
+-   [Opciones de consulta y filtro avanzado](/dynamics365/operations/get-started/advanced-filtering-query-options)
+-   [Preguntas frecuentes sobre el cliente de Dynamics 365 for Operations](/dynamics365/operations/get-started/client-faq)
+-   [Cambiar el encabezado o el logotipo (Guía de tareas)](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/)
 
 ## <a name="help-system"></a>Sistema de Ayuda
 En los recursos siguientes se proporciona una visión general del sistema de ayuda y se explica cómo ver las descripciones de campos.
 
--   [Getting started with Help](help-overview.md)
--   [Connect the Help system](help-connect.md)
+-   [Introducción a la Ayuda](help-overview.md)
+-   [Conexión del sistema de Ayuda](help-connect.md)
 -   [Cómo ver y exportar descripciones de campos](/dynamics365/operations/get-started/view-export-field-descriptions)
--   [365 Dinámica para el sistema de ayuda de las operaciones (hoja de datos)](https://mbs.microsoft.com/customersource/Global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
+-   [Sistema de Ayuda de Dynamics 365 for Operations (hoja informativa)](https://mbs.microsoft.com/customersource/Global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
 
-### <a name="task-recordings-and-task-guides"></a>Grabaciones de la tarea y guías de la tarea
+### <a name="task-recordings-and-task-guides"></a>Grabación de tareas y guías de tareas
 
-El Grabador de tareas es una Dynamics 365 para la herramienta de las operaciones que puede usar para registrar las acciones que se admite la interfaz de usuario (UI). Al crear una *grabación de tareas*, se registran todos los eventos que se ejecutan en relación con el servidor mientras los lleva a cabo en la IU. Entre estos eventos se incluyen la adición de valores, las opciones de cambio y la eliminación de datos. Una *guía de tareas* es una experiencia guiada, interactiva y controlada que le lleva por los pasos de una grabación de tareas. Puede abrir (o *reproducir*) una guía de tareas desde el sistema de Ayuda.
+El Grabador de tareas es una herramienta de Dynamics 365 for Operations que puede usar para grabar las acciones que realiza en la interfaz de usuario (IU) de producto. Al crear una *grabación de tareas*, se registran todos los eventos que se ejecutan en relación con el servidor mientras los lleva a cabo en la IU. Entre estos eventos se incluyen la adición de valores, las opciones de cambio y la eliminación de datos. Una *guía de tareas* es una experiencia guiada, interactiva y controlada que le lleva por los pasos de una grabación de tareas. Puede abrir (o *reproducir*) una guía de tareas desde el sistema de Ayuda.
 -   [Conexión con el sistema de ayuda](help-connect.md)
--   [Grabador de tareas en Dynamics 365 para las operaciones (.]. /user-interface/task-recorder.md)
+-   [Grabador de tareas de Dynamics 365 for Operations](../user-interface/task-recorder.md)
 -   [Crear documentación o formación con las grabaciones de tareas](../user-interface/task-recorder.md)
 -   [Nuevas guías de tareas disponibles (febrero de 2016)](new-task-guides-available-february-2016.md)
 
@@ -71,12 +71,12 @@ El Grabador de tareas es una Dynamics 365 para la herramienta de las operaciones
 <a name="see-also"></a>Consulte también
 --------
 
-[Creando nuevas bibliotecas de formación para Dynamics 365 para las operaciones de servicios del ciclo de vida utilizando el Grabador de tareas (vínculo externo)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
+[Creación de nuevas bibliotecas de formación para Dynamics 365 for Operations dentro de Lifecycle Services con el Grabador de tareas (vínculo externo)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
 
-[Nuevas guías de la tarea (febrero de 2016)](new-task-guides-available-february-2016.md)
+[Nuevas guías de tareas (febrero de 2016)](new-task-guides-available-february-2016.md)
 
-[Nuevas o actualizadas guías de la tarea (mayo de 2016)](new-updated-task-guides-available-may-2016.md)
+[Guías de tareas nuevas o actualizadas (mayo de 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Nuevas o actualizadas guías de la tarea (noviembre de 2016)](new-task-guides-november-2016.md)
+[Guías de tareas nuevas o actualizadas (noviembre de 2016)](new-task-guides-november-2016.md)
 
 

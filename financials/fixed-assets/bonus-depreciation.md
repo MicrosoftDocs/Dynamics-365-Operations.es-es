@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bonus-depreciation"></a>Depreciación de bonificación
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona una visión general de la funcionalidad de depreciación de bonificación.
 
 Para la depreciación de bonificación puede aceptar importes de depreciación adicionales o de bonificación durante el primer año que el activo entra en servicio y se deprecia. La amortización de la bonificación se debe realizar antes de cualquier otro cálculo de depreciación. Por lo tanto, es preferible usar la depreciación de bonificación con libros donde la función de Registrar en la contabilidad general está deshabilitada. Puede usar la opción de **Suprimir transacciones no registradas en la contabilidad general** para eliminar las transacciones históricas para los libros que no registran en la contabilidad general. A continuación puede alojar la depreciación de bonificación más adelante en el ciclo de vida del activo eliminando las transacciones de depreciación previamente registradas. 
@@ -61,5 +64,7 @@ Cuando la amortización de bonificación se calcula mediante el proceso de propu
 Puede crear un número ilimitado de registros de amortización de bonificación. Cuando haya asignado dichos registros al libro del grupo de activos, se aplican al libro de activos. 
 
 La amortización de bonificación se inserta como un porcentaje o un importe fijo. Al registrar las propuestas de amortización, las transacciones de amortización de bonificación se registran en el libro como transacciones independientes de las transacciones de amortización.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Métodos abreviados de teclado"
-description: "Los siguientes métodos abreviados de teclado se aplican a través de Microsoft Dynamics 365 operaciones."
+description: "Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynamics 365 for Operations."
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
-Los siguientes métodos abreviados de teclado se aplican a través de Microsoft Dynamics 365 operaciones. 
+[!include[banner](../includes/banner.md)]
+
+
+Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynamics 365 for Operations. 
 
 **Nota**: los métodos abreviados de teclado aquí descritos se refieren al diseño del teclado de Estados Unidos. Es posible que las teclas de otros diseños de teclados no se correspondan exactamente con las teclas de un teclado de Estados Unidos.
 
@@ -40,7 +43,7 @@ Los siguientes métodos abreviados de teclado se aplican a través de Microsoft 
 | Pasar a la opción anterior o siguiente en un menú            | Flecha abajo / Flecha arriba            |
 | Cerrar una ficha en el panel de acciones o un menú          | Esc                              |
 | Simular un clic con el botón secundario                            | Mayús+F10                        |
-| Abra las Dynamics 365 para el menú contextual de operaciones | Ctrl+F10                         |
+| Abra el menú contextual de Dynamics 365 for Operations. | Ctrl+F10                         |
 | Ejecutar el botón predeterminado en un formulario/cuadro de diálogo       | Alt+Intro                        |
 | Hacer clic en un botón o un icono                            | Intro o Espacio                   |
 | Ver información actualizada de un icono de recuento         | Alt+Fecha arriba                     |
@@ -64,7 +67,7 @@ Los siguientes métodos abreviados de teclado se aplican a través de Microsoft 
 | Abrir el panel del cuadro informativo (o mover el enfoque al panel de cuadro informativo si ya está abierto) | Ctrl+F2                                   |
 | Cerrar el panel del cuadro informativo (con el enfoque en el panel del cuadro informativo)                         | Esc                                       |
 | Pasar al cuadro informativo siguiente/anterior (con el enfoque en el panel del cuadro informativo)              | Alt+Mayús+Flecha abajo / Alt+Mayús+Flecha arriba |
-| Ir &lt;al nth&gt;cuadro informativo (con el enfoque en el panel del cuadro informativo)                | Alt+n&lt;&gt; (&lt;N&gt; ) = 1-9           |
+| Pasar al cuadro informativo &lt;n&gt; (con el enfoque en el panel del cuadro informativo)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Expandir un cuadro informativo (con el enfoque en el encabezado del cuadro informativo)                             | Espacio o Intro                            |
 | Contraer el cuadro informativo actual                                                    | Alt+0                                     |
 
@@ -111,8 +114,8 @@ Los siguientes métodos abreviados de teclado se aplican a través de Microsoft 
 | Ir al campo siguiente/anterior.                     | Tabulador / Mayús+Tab                              |
 | Ir a la ficha siguiente/anterior                       | Alt+Mayús+Fecha derecha / Alt+Mayús+Flecha izquierda |
 | Ir a la ficha desplegable siguiente/anterior                   | Alt+Mayús+Flecha abajo / Alt+Mayús+Flecha arriba    |
-| Ir &lt;al nth&gt;ficha desplegable                     | Alt+n&lt;&gt; (&lt;N&gt; ) = 1-9              |
-| Ir &lt;a la ficha nth&gt;                         | Alt+Shift+n&lt;&gt; (&lt;N&gt; ) = 1-9        |
+| Ir a la ficha desplegable &lt;n&gt;                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Ir a la ficha &lt;n&gt;                         | Alt+Mayús+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Expandir una lista desplegable (con el enfoque en el encabezado de la ficha desplegable) | Espacio o Intro                               |
 | Contraer la ficha desplegable actual                        | Alt+0                                        |
 | Cambiar a la vista de cuadrícula                                 | Ctrl+Mayús+G                                 |
@@ -152,7 +155,7 @@ Los siguientes métodos abreviados de teclado se aplican a través de Microsoft 
 | Abrir búsquedas, cuadros combinados, selectores de fecha o cuadros de diálogo desplegables           | Alt+Flecha abajo                |
 | Cerrar búsquedas, cuadros combinados, selectores de fecha o cuadros de diálogo desplegables          | Esc                           |
 | Trasladar el enfoque a operaciones de búsqueda (cuando las búsquedas están ya abiertas) | Alt+Flecha abajo                |
-| Abre la vista previa mejorada de control                        | Alt+Fecha arriba                  |
+| Abrir la vista previa mejorada de control                        | Alt+Fecha arriba                  |
 | Seleccionar texto en el campo actual                           | Ctrl+A                        |
 | Entrar o salir de un área de texto en un control de edición de HTML        | Alt+Flecha abajo / Alt+Flecha arriba |
 
@@ -174,18 +177,18 @@ Los siguientes métodos abreviados de teclado se aplican a través de Microsoft 
 | Ir al panel de información                                                       | Alt+Mayús+Inicio  |
 | Ir a la barra de navegación                                                  | Alt+Mayús+F1    |
 | Ir al panel de navegación                                                 | Alt+F1          |
-| Favorite/un-favorite un formulario (con el enfoque en un formulario en el Panel de exploración) | Shift+F         |
+| Agregar o quitar marca de favorito a un formulario (con el enfoque en un formulario en el panel de exploración) | Mayús + F3         |
 | Ir al selector de empresas                                                  | Ctrl+Mayús+O    |
 | Ir a la búsqueda de navegación                                                   | Ctrl+/ o Alt+G |
-| Abra el panel de la ayuda                                                        | ¿Ctrl+?          |
-| Abre el analizador de seguimiento                                                     | Alt+Shift+T     |
+| Abrir el panel de ayuda                                                        | Ctrl+?          |
+| Abrir el analizador de seguimiento                                                     | Alt+Mayús+T     |
 
  
 
 ## <a name="segmented-entry-shortcuts"></a>Métodos abreviados de entrada segmentados
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **To do this**                                                                                                          | **Press**                        |
+| **Para realizar esta tarea**                                                                                                          | **Presione**                        |
 | Abrir la lista desplegable (cuando la lista desplegable está cerrada)                                                             | Alt+Flecha abajo                   |
 | Trasladar el enfoque al campo de entrada para el segmento actual en la lista desplegable (cuando la lista desplegable ya está abierta) | Alt+Flecha abajo                   |
 | Cerrar la lista desplegable                                                                                                | Alt+Fecha arriba                     |
@@ -199,5 +202,7 @@ Los siguientes métodos abreviados de teclado se aplican a través de Microsoft 
 | Ir a la parte superior/inferior de la búsqueda                                                                                    | Inicio / Fin                       |
 
  
+
+
 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 Use el siguiente procedimiento para configurar las propiedades del proceso de aprobación.
 
-Para configurar un proceso de aprobación, en el editor de flujo de trabajo, haga clic con el botón secundario en el elemento de aprobación, y haga clic en ** las propiedades ** para abrir ** las propiedades ** el formulario.
+Para configurar un proceso de aprobación, en el editor de flujo de trabajo, haga clic con el botón secundario en el elemento de aprobación y, a continuación, haga clic en **Propiedades** para abrir el formulario **Propiedades**.
 Asignación de un nombre al proceso de aprobación
 -------------------------
 
@@ -40,7 +40,7 @@ Siga estos pasos para asignar un nombre al proceso de aprobación.
 Puede configurar el sistema para que realice alguna acción en el documento de forma automática si se cumplen ciertas condiciones. Por ejemplo, el sistema puede aprobar los informes de gastos con importes totales inferiores a 100 USD. Siga estos pasos para especificar cuándo el sistema realiza una acción en el documento.
 1.  En el panel izquierdo, haga clic en **Acciones automáticas**.
 2.  Active la casilla **Habilitar acciones automáticas**.
-3.  Click **Add condition**.
+3.  Haga clic en **Agregar condición**.
 4.  Escriba una condición.
 5.  Escriba condiciones adicionales, si fuera necesario.
 6.  Para comprobar que las condiciones definidas se hayan configurado correctamente, siga estos pasos:
@@ -71,7 +71,7 @@ Puede enviar notificaciones cuando un documento se ha aprobado, rechazado, deleg
     4.  Haga clic en **Insertar**.
 
 7.  Para agregar traducciones de la notificación, haga clic en **Traducciones**. En el formulario que aparece, siga estos pasos:
-    1.  Click **Add**.
+    1.  Haga clic en **Agregar**.
     2.  En la lista que aparece, seleccione el idioma que usará para escribir el texto.
     3.  En el cuadro de texto **Texto traducido**, escriba el texto.
     4.  Para personalizar el texto, inserte marcadores de posición.
@@ -112,11 +112,11 @@ Puede enviar notificaciones cuando un documento se ha aprobado, rechazado, deleg
     </ol></td>
     </tr>
     <tr class="odd">
-    <td><strong>User</strong></td>
-    <td>Microsoft Dynamics específico 365 para los usuarios de operaciones</td>
+    <td><strong>Usuario</strong></td>
+    <td>Usuarios específicos de Microsoft Dynamics 365 for Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li><strong>Usuarios disponible</strong>: la lista incluye todos los Microsoft Dynamics 365 para los usuarios de las operaciones. Seleccione aquellos usuarios a los que enviar notificaciones y, a continuación, muévalos a la lista de <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Microsoft Dynamics 365 for Operations. Seleccione aquellos usuarios a los que enviar notificaciones y, a continuación, muévalos a la lista de <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

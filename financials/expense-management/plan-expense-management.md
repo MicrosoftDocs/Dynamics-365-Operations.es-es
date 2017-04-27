@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-expense-management"></a>Configurar la gestión de gastos
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar Gestión de gastos en Microsoft Dynamics AX. En el área Gestión de gastos, puede almacenar información sobre los métodos de pago, los pedidos de viaje, los informes de gastos y las directivas, entre otros elementos. 
 
 Dado que muchas de las decisiones que realiza al planificar su configuración para la gestión de gastos se basan en la jerarquía y la estructura financiera de su organización, debe hacer referencia a los documentos de planificación para esas áreas.
@@ -133,6 +136,8 @@ Puede crear directivas de informe de gastos de modo que la organización pueda a
 -   ¿Cuándo expira la directiva?
 -   ¿Cuál es la regla de directivas?
 -   ¿Cuál es el resultado de la regla de directivas?
+
+
 
 
 

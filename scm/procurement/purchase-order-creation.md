@@ -33,7 +33,7 @@ Cuando crea un pedido de compra, se especifica información general acerca de to
 
 También puede crear pedidos de compra copiando líneas de otro documento de pedido de compra o un pedido de ventas. En este caso, puede invertir el signo en el inventario, como lo invertiría en una factura para indicar crédito.  
 
-Aunque puede crear pedidos de compra manualmente, se suelen generar más desde otros procesos. Los pedidos se pueden crear automáticamente en función de otros documentos, como solicitudes. Como alternativa, se pueden crear como parte del proceso de planificación maestra con el puesto planificada. Si usa acuerdos de compra, la posición se puede crear una ** pedido parcial ** la acción. También hay métodos más avanzados para la creación automática de un pedido de compra. Por ejemplo, se pueden crear pedidos al usar entrega directa o cadenas de pedidos de empresas vinculadas.
+Aunque puede crear pedidos de compra manualmente, se suelen generar más desde otros procesos. Los pedidos se pueden crear automáticamente en función de otros documentos, como solicitudes. De forma alternativa, se pueden crear como parte del proceso de planificación maestra a través de pedidos de compra planificados. Si utiliza acuerdos de compra, los pedidos de compra se pueden crear mediante la acción **Pedido parcial**. También hay métodos más avanzados para la creación automática de un pedido de compra. Por ejemplo, se pueden crear pedidos al usar entrega directa o cadenas de pedidos de empresas vinculadas.
 
 ## <a name="creating-a-purchase-order-header"></a>Creación de un encabezado de pedido de compra
 Al crear un nuevo pedido de compra, aparece un cuadro de diálogo, donde puede especificar la información más común para el encabezado del pedido de compra. Al hacer clic en **Aceptar** para cerrar el cuadro de diálogo, se crea el pedido y, a continuación, puede especificar información adicional en el encabezado.  
@@ -84,7 +84,7 @@ Es posible que deba retrasar la finalización de un pedido de compra. Por ejempl
 <a name="see-also"></a>Consulte también
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Visión general de pedidos de compra](purchase-order-overview.md)
 
 [Confirmación y aprobación del pedido de compra](purchase-order-approval-confirmation.md)
 

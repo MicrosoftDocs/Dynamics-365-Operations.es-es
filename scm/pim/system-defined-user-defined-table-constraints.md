@@ -1,6 +1,6 @@
 ---
 title: Restricciones de tablas definidas por el usuario o definidas por el sistema
-description: "Este artículo para los dos tipos de restricciones de tablas para los componentes de un modelo de configuración de producto - definido por el usuario y definidos por el sistema. Las restricciones de tablas representan matrices de las combinaciones de atributos permitidas, donde cada fila define un conjunto de valores de atributos posibles."
+description: "Este artículo explica los dos tipos de restricciones de tablas para componentes en un modelo de configuración de productos: definidos por el usuario y definidos por el sistema. Las restricciones de tablas representan matrices de las combinaciones de atributos permitidas, donde cada fila define un conjunto de valores de atributos posibles."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>Restricciones de tablas definidas por el usuario o definidas por el sistema
 
-Este artículo para los dos tipos de restricciones de tablas para los componentes de un modelo de configuración de producto - definido por el usuario y definidos por el sistema. Las restricciones de tablas representan matrices de las combinaciones de atributos permitidas, donde cada fila define un conjunto de valores de atributos posibles.
+[!include[banner](../includes/banner.md)]
+
+
+Este artículo explica los dos tipos de restricciones de tablas para componentes en un modelo de configuración de productos: definidos por el usuario y definidos por el sistema. Las restricciones de tablas representan matrices de las combinaciones de atributos permitidas, donde cada fila define un conjunto de valores de atributos posibles.
 
 Las restricciones de tablas representan las matrices de combinaciones de atributos que se permiten para componentes en un modelo de configuración de productos. Cada fila en la tabla define un conjunto de valores de atributo posibles. Puede declarar dos tipos de restricciones en un modelo de configuración de productos:
 
@@ -57,11 +60,13 @@ Una restricción de tabla definida por el sistema crea una asignación dinámica
 
 Cuando se crea una restricción de tabla definida por el sistema, se selecciona una tabla, se define opcionalmente la consulta que se debe usar y luego se asocian tipos de atributo a los campos de la tabla seleccionada. Los tipos de campos deben coincidir con los tipos de atributo.  
 
-Para que una restricción de tabla pueda surtir efecto en un modelo de configuración de productos, la restricción de tabla se debe incluir en una restricción en uno de los componentes del modelo. El procedimiento es crear una nueva restricción, seleccione el tipo de restricción de tabla, y seleccione la definición de restricción de tabla que se debe usar. Por último, todos los campos de la restricción de tabla se deben asignar a atributos en el modelo de configuración de productos.
+Para que una restricción de tablas pueda surtir efecto en un modelo de configuración de productos, la restricción de tabla se debe incluir en una restricción en uno de los componentes del modelo. El procedimiento es crear una nueva restricción, seleccionar el tipo de restricción de tabla y seleccionar la definición de la restricción de tabla que usar. Por último, todos los campos de la restricción de tabla se deben asignar a atributos en el modelo de configuración de productos.
 
 <a name="see-also"></a>Consulte también
 --------
 
 [Conceptos clave en los modelos de configuración de productos](product-configuration-models.md)
+
+
 
 

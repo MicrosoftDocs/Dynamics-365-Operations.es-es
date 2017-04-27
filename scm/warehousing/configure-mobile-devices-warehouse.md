@@ -1,5 +1,5 @@
 ---
-title: "Dispositivos móviles de instalación para el trabajo de almacén"
+title: "Configurar dispositivos móviles para el trabajo de almacén"
 description: "En este artículo se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>Dispositivos móviles de instalación para el trabajo de almacén
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móviles para el trabajo de almacén
 
 En este artículo se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil.
 
@@ -35,7 +35,7 @@ En este artículo se describe cómo configurar los elementos de menú que usan l
 -   Cree el trabajo que se realizará con otro proceso. Por ejemplo, la recepción de un artículo para un pedido de compra puede crear un trabajo de ubicación para otro trabajador.
 -   Realice el trabajo que se creó por otro proceso (trabajo existente), como trabajo de ubicación que se creó cuando un artículo se recibió para un pedido de compra.
 
-Para crear un elemento de menú para una actividad o una pregunta, establezca ** modo ** el campo ** ** indirecto. Una lista ** actividad codificada ** de opciones se disponibles, de manera que puede seleccionar el tipo de pregunta o de actividad que el elemento de menú es para. Para crear un elemento de menú para generar el trabajo de almacenes, establezca ** modo ** el campo ** ** trabajo. Una lista ** proceso de creación del trabajo ** de opciones se disponible. Para crear un elemento de menú para el trabajo existente del almacén de proceso, establezca el campo **Modo** en **Trabajo** y, a continuación, establezca la opción **Usar trabajo existente** en **Sí**. ** Nota: ** Los campos adicionales pueden estar disponibles para los elementos de menú, en función del modo que seleccione para el elemento de menú, y de si el elemento de menú se usa para efectuar el trabajo existente. Para obtener información sobre las selecciones de campos adicionales, consulte la sección “de las opciones adicionales del elemento de menú” más adelante en este artículo.
+Para crear un elemento de menú para una actividad o una consulta, establezca el campo **Modo** como **Indirecto**. A continuación, se ofrece una lista de opciones de **Código de actividad** para seleccionar el tipo de consulta o actividad al que corresponde el elemento de menú. Para crear un elemento de menú para generar trabajo del almacén, establezca el campo **Modo** en **Trabajo**. A continuación, aparece una lista de opciones de **Proceso de creación de trabajo**. Para crear un elemento de menú para el trabajo existente del almacén de proceso, establezca el campo **Modo** en **Trabajo** y, a continuación, establezca la opción **Usar trabajo existente** en **Sí**. **Nota:** En función del modo seleccionado para el elemento de menú, y de si el elemento de menú se usa para realizar el trabajo existente, el elemento de menú puede ofrecer otros campos. Para obtener información sobre otras selecciones de campos, consulte la sección “Opciones del elemento de menú adicionales” más adelante en este artículo.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Configurar elementos de menú para las actividades y consultas
 Si el campo **Modo** para un elemento de menú se establece en **Indirecto**, puede crear un elemento de menú para realizar una actividad o una consulta general que no cree el trabajo. Entre los ejemplos se incluyen la reimpresión de etiquetas de número de matrícula y una consulta sobre los artículos en una ubicación. En la tabla siguiente se muestran las opciones disponibles.
@@ -190,7 +190,7 @@ Puede configurar un elemento de menú que crea trabajo para otro trabajador tras
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Configurar elementos de menú para el trabajo existente del proceso
-Además de los elementos de menú de la configuración para crear el trabajo del almacén, puede configurar los elementos de menú para procesar el trabajo que ya se ha creado. Defina el campo **Modo** en **Trabajo** y seleccione la opción **Usar trabajo existente**. Algunas opciones adicionales se disponibles en ** general ** la ficha. Puede controlar el acceso al elemento de menú asignando una o varias clases de trabajo en ** clase de trabajo ** la ficha desplegable. Las clases de trabajo definen el trabajo que el elemento de menú puede procesar. La clase de trabajo también se puede usar para conceder acceso a los roles de usuario específicos o al proceso independiente para distintos tipos de operaciones. En la tabla siguiente se describen las opciones disponibles.
+Además de los elementos de menú de la configuración para crear el trabajo del almacén, puede configurar los elementos de menú para procesar el trabajo que ya se ha creado. Defina el campo **Modo** en **Trabajo** y seleccione la opción **Usar trabajo existente**. A continuación, se ofrecen algunas opciones adicionales en la ficha **General**. Para controlar el acceso al elemento de menú, asigne una o varias clases de trabajo en la ficha desplegable **Clase de trabajo**. Las clases de trabajo definen el trabajo que el elemento de menú puede procesar. La clase de trabajo también se puede usar para conceder acceso a los roles de usuario específicos o al proceso independiente para distintos tipos de operaciones. En la tabla siguiente se describen las opciones disponibles.
 
 <table>
 
@@ -210,7 +210,7 @@ Además de los elementos de menú de la configuración para crear el trabajo del
 </tr>
 <tr class="even">
 <td>Dirigido por el sistema</td>
-<td>Microsoft Dynamics 365 para las operaciones controla el tipo de trabajo asignada a un trabajador y con el orden en el que el trabajador realiza el trabajo en. Al seleccionar esta opción, puede hacer <strong>trabajo Sistema- guiado</strong> clic en el panel de acciones para <strong>orden de clasificación Sistema- dirigida</strong> abrir la página, donde puede configurar los criterios de ordenación para el trabajo. Los criterios de ordenación controlan el pedido que el trabajador realiza el trabajo en. Puede agregar tantos criterios según sea necesario.</td>
+<td>Microsoft Dynamics 365 for Operations controla el tipo de trabajo asignado a un trabajador y el pedido en el que el trabajador realiza el trabajo. Cuando selecciona esta opción, puede hacer clic en <strong>Trabajo dirigido por el sistema</strong> en el panel de acciones para abrir la página <strong>Orden de clasificación dirigido por el sistema</strong>, donde puede configurar los criterios de clasificación para el trabajo. Los criterios de ordenación controlan el orden en que el trabajador realiza el trabajo. Puede agregar tantos criterios como sea necesario.</td>
 </tr>
 <tr class="odd">
 <td>Dirigido por el usuario</td>
@@ -230,7 +230,7 @@ Además de los elementos de menú de la configuración para crear el trabajo del
 </tr>
 <tr class="even">
 <td>Dirigido por el usuario validado</td>
-<td>El trabajador selecciona el trabajo para realizar cuando el trabajo se asocia a una entidad mayor, como una carga o un envío. El trabajador determina el orden que se toman los artículos en. Si selecciona esta opción, los siguientes campos son necesarios:
+<td>El trabajador selecciona el trabajo para realizar cuando el trabajo se asocia a una entidad mayor, como una carga o un envío. El trabajador determina el orden en que los artículos son seleccionados. Si selecciona esta opción, los siguientes campos son necesarios:
 <ul>
 <li><strong>Campo Dirigido por el usuario validado</strong>: seleccione el campo que el trabajador analizará para agrupar el trabajo.</li>
 <li><strong>Etiqueta de dirigido por el usuario validado</strong>: especifique el texto que indica al trabajador qué escanear cuando el sistema agrupe el trabajo de picking.</li>
@@ -271,7 +271,7 @@ La siguiente tabla describe estas opciones.
 </tr>
 <tr class="even">
 <td>Anclaje</td>
-<td>Active esta opción para permitir a los trabajadores especificar una ubicación que sustituya la ubicación provisional o de carga sugerida. Todo el trabajo de ubicación restante se dirige a la nueva ubicación. Esta opción es útil, por ejemplo, cuando un trabajador debe colocar los artículos para el pedido 1 en una ubicación provisional del muelle 1, pero no puede porque una carga anterior no ha despejado la ubicación. En lugar de espera para la ubicación provisional de 1 vínculo esté disponible, el trabajador puede decidir utilizar la ubicación provisional para el vínculo. 2. En este caso, el trabajador anula la ubicación provisional sugerida. La ubicación de colocación para todos los artículos restantes del pedido de trabajo se actualiza a la ubicación provisional del muelle 2. Si selecciona esta opción, debe definir el campo <strong>Anclar por</strong>.</td>
+<td>Active esta opción para permitir a los trabajadores especificar una ubicación que sustituya la ubicación provisional o de carga sugerida. Todo el trabajo de ubicación restante se dirige a la nueva ubicación. Esta opción es útil, por ejemplo, cuando un trabajador debe colocar los artículos para el pedido 1 en una ubicación provisional del muelle 1, pero no puede porque una carga anterior no ha despejado la ubicación. En lugar de esperar a que la ubicación provisional del muelle 1 esté disponible, el trabajador puede decidir usar la ubicación provisional para el muelle 2. En este caso, el trabajador sobrescribe la ubicación provisional sugerida. La ubicación de colocación para todos los artículos restantes del pedido de trabajo se actualiza a la ubicación provisional del muelle 2. Si selecciona esta opción, debe definir el campo <strong>Anclar por</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Anclar por</td>
@@ -380,7 +380,7 @@ La siguiente tabla describe estas opciones.
 </tr>
 <tr class="odd">
 <td>Código de plantilla de trabajo</td>
-<td>Seleccione la plantilla de trabajo que creará el trabajo de un proceso. Por ejemplo, si recibe un artículo para un pedido de compra, póngase - profundidad el trabajo se generó en función de la plantilla de trabajo. Si no selecciona una plantilla de trabajo, Microsoft Dynamics 365 para las operaciones asigna una plantilla, en función de criterios de búsqueda. Para obtener más información sobre plantillas de trabajo, vea <a href="control-warehouse-location-directives.md">Controlar el trabajo de almacén con plantillas de trabajo y directivas de ubicación</a>.</td>
+<td>Seleccione la plantilla de trabajo que creará el trabajo de un proceso. Por ejemplo, si recibe un artículo para un pedido de compra, el trabajo de ubicación se generará en función de la plantilla de trabajo. Si no selecciona una plantilla de trabajo, Microsoft Dynamics 365 for Operations asigna una plantilla, según criterios de consulta. Para obtener más información sobre plantillas de trabajo, vea <a href="control-warehouse-location-directives.md">Controlar el trabajo de almacén con plantillas de trabajo y directivas de ubicación</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -409,8 +409,8 @@ La siguiente tabla describe los distintos tipos de trabajo con los que puede usa
 
 [Configuración de visualización del dispositivo móvil del almacén](change-warehouse-mobile-device-displays.md)
 
-[Configuración un elemento de menú del dispositivo móvil para completar el trabajo del tipo de pedido de compra (guía de la tarea)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
+[Configurar un elemento de menú del dispositivo móvil para completar trabajo del tipo pedido de compra (guía de tareas)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
-[Configuración un elemento de menú del dispositivo móvil para registrar los artículos recibidos (guía de la tarea)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Configurar un elemento de menú del dispositivo móvil para registrar los artículos recibidos (guía de tareas)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
 
 

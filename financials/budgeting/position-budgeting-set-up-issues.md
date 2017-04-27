@@ -1,5 +1,5 @@
 ---
-title: "Coloque la solución de problemas de presupuesto"
+title: "Solución de problemas de presupuesto"
 description: "Este artículo proporciona respuestas a preguntas que puede que tenga cuando configure el presupuesto de puesto. Responde a preguntas frecuentes acerca de cómo crear elementos de costes presupuestarios, grupos de compensación y cuadrículas de compensación."
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="position-budgeting-troubleshooting"></a>Coloque la solución de problemas de presupuesto
+# <a name="position-budgeting-troubleshooting"></a>Solución de problemas de presupuesto
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo proporciona respuestas a preguntas que puede que tenga cuando configure el presupuesto de puesto. Responde a preguntas frecuentes acerca de cómo crear elementos de costes presupuestarios, grupos de compensación y cuadrículas de compensación. 
 
@@ -58,6 +61,8 @@ Las fechas de la línea del elemento de coste de puesto de previsión deben esta
 -   Las fechas de activación y jubilación del puesto.
 -   Las fechas de activación y vencimiento del elemento de coste presupuestario.
 -   Las fechas de inicio y fin del ciclo presupuestario asociado al proceso de planificación presupuestaria del puesto de previsión.
+
+
 
 
 

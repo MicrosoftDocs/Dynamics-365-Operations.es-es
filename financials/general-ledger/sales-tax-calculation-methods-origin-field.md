@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Métodos de cálculo de impuestos en el campo Origen
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo explica las opciones del campo Origen en la página de códigos de impuestos y cómo se calculan los impuestos en función de la opción seleccionada para un código de impuestos.
 
 Para cada código de impuestos que cree en la página de códigos de impuestos, debe seleccionar el método de cálculo que se aplica al importe base del impuesto en el campo Origen.
@@ -124,5 +127,7 @@ El documento o el diario se establecen en Importe impuestos incluidos = No Impor
 [Determinación de los índices de impuestos de ventas en función de los campos Base marginal y Método de cálculo](marginal-base-field.md)
 
 [Importe completo y opciones de cálculo de intervalo para los códigos de impuestos](whole-amount-interval-options-sales-tax-codes.md)
+
+
 
 

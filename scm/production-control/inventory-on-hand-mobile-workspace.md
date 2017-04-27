@@ -1,6 +1,6 @@
 ---
-title: "Recepción del inventario el área de trabajo disponible para móvil Microsoft Dynamics 365 para la aplicación de operaciones"
-description: "Las ayudas disponible móviles del espacio de trabajo de inventario que tiene penetraciones móviles en el inventario disponible y reservado en cualquier momento y cualquier lugar."
+title: "Espacio de trabajo móvil de inventario disponible para la aplicación Microsoft Dynamics 365 for Operations"
+description: "El espacio de trabajo móvil de inventario disponible le ayuda a obtener información en el inventario reservado y disponible en cualquier momento y en cualquier lugar."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,72 +25,72 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="inventory-on-hand-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Recepción del inventario el área de trabajo disponible para móvil Microsoft Dynamics 365 para la aplicación de operaciones
+# <a name="inventory-on-hand-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Espacio de trabajo móvil de inventario disponible para la aplicación Microsoft Dynamics 365 for Operations
 
-Las ayudas disponible móviles del espacio de trabajo de inventario que tiene penetraciones móviles en el inventario disponible y reservado en cualquier momento y cualquier lugar. 
+El espacio de trabajo móvil de inventario disponible le ayuda a obtener información en el inventario reservado y disponible en cualquier momento y en cualquier lugar. 
 
 <a name="prerequisites"></a>Requisitos previos
 -------------
 
 | Requisito previo                                                         | Descripción                                                                                                                                        |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lea sobre el Microsoft Dynamics 365 para la plataforma de móvil de las operaciones | [365 Dinámica para la plataforma] móvil de las operaciones (/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                   |
-| Dinámica 365 para las operaciones                                          | Un entorno con Microsoft Dynamics 365 para la versión 1611 de las operaciones y Microsoft Dynamics para la plataforma de las operaciones actualiza 3 (noviembre de 2016) |
-| Sustitución 3215650 KB                                                    | Instale el reemplazo para habilitar las áreas de trabajo que se proporcionan en su Microsoft Dynamics 365 para las operaciones.                                       |
-| Dispositivo móvil que tiene Dynamics 365 para la aplicación de las operaciones instalada | Descargue Dynamics 365 para la aplicación de las operaciones de la tienda móvil de la aplicación.                                                                           |
+| Obtenga información sobre la plataforma móvil de Microsoft Dynamics 365 for Operations | [Plataforma móvil de Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                   |
+| Dynamics 365 for Operations                                          | Un entorno que tiene la versión 1611 de Microsoft Dynamics 365 for Operations y la actualización 3 de la plataforma de Microsoft Dynamics for Operations (noviembre de 2016). |
+| Revisión 3215650 KB                                                    | Instale la revisión para habilitar los espacios de trabajo provistos en Microsoft Dynamics 365 for Operations.                                       |
+| Dispositivo móvil que tiene instalada la aplicación Dynamics 365 for Operations | Descargue la aplicación Dynamics 365 for Operations desde su tienda de aplicaciones móviles.                                                                           |
 
 ## <a name="introduction"></a>Introducción
-Normalmente, las empresas tienen varios envíos y recepciones de inventario varios cada día. Estos movimientos cambian constantemente el estado disponible de inventario. El área de trabajo disponible móvil del inventario permite ver el estado de inventario entre empresas disponible, de modo que pueda ganar las últimas penetraciones en los datos de inventario en el dispositivo móvil de su elección. Independientemente de si trabaja en el almacén, la compra, las ventas, la fabricación, o la administración, o tener otras funciones, puede tener acceso a los datos de inventario en cualquier momento y cualquier lugar. El área de trabajo móvil proporciona una vista inmediata el estado disponible a través de instalaciones, y permite ver el inventario disponible a través de instalaciones, las reservas actuales, materiales y del inventario disponible no reservada. También puede especificar números de artículo para ver el inventario disponible, y realice una búsqueda filtrada disponible para los productos o las variantes. Específicamente, el área de trabajo proporciona móvil estas características:
+Por lo general, las empresas tienen múltiples envíos y múltiples recepciones de inventario cada día. Estos movimientos cambian constantemente el estado del inventario disponible. El espacio de trabajo móvil de inventario disponible le permite ver el estado de inventario disponible entre empresas, de modo que puede obtener la información más reciente sobre los datos de inventario en el dispositivo móvil que elija. Independientemente de si trabaja en el almacén, compras, ventas, fabricación o administración, o tiene otras funciones, puede tener acceso a los datos de inventario disponible en cualquier momento y en cualquier lugar. El espacio de trabajo móvil proporciona una vista inmediata del estado disponible entre instalaciones y le permite ver el inventario disponible entre instalaciones, las reservas actuales de material y el inventario disponible no reservado. También puede introducir los números de artículo para consultar el inventario disponible y realizar una búsqueda filtrada para los productos o variantes disponibles. El espacio de trabajo móvil proporciona específicamente estas características:
 
--   Puede buscar el número de producto o el nombre del producto para buscar productos para ver el estado disponible de inventario para.
+-   Puede buscar por número de producto o por nombre de producto para encontrar productos para ver el estado de inventario disponible.
 -   Para los productos seleccionados, puede ver la información siguiente:
     -   Inventario disponible por sitio
     -   Inventario disponible por almacén
     -   Inventario disponible por ubicación
-    -   Inventario disponible por lotes (para los productos controlados por lote)
-    -   Inventario disponible por el estado de inventario
+    -   Inventario disponible por lote (para productos controlados por lote)
+    -   Inventario disponible por estado de inventario
 
 <!-- -->
 
--   El inventario del producto disponible se muestra de las siguientes formas:
-    -   Por el inventario físico (esta vista representa el importe total).
-    -   Por la reservados físicamente (esta vista representa el importe reservado).
-    -   Por la cantidad Física disponible (esta vista representa el importe disponible que no tiene ninguna reserva.)
+-   El inventario disponible del producto se muestra de las siguientes formas:
+    -   Por inventario físico (Esta vista representa la cantidad total).
+    -   Por inventario reservado (Esta vista representa la cantidad reservada).
+    -   Por inventario físico disponible (Esta vista representa la cantidad disponible que no tiene reservas.)
 
 ## <a name="get-started"></a>Introducción
-Para obtener iniciado en su dispositivo móvil:
+Para comenzar en su dispositivo móvil:
 
-1.  De su tienda móvil de la aplicación, y descarga el instalar Microsoft Dynamics 365 para la aplicación de las operaciones.
-2.  Iniciar la aplicación del dispositivo.
-3.  Especifique la dirección URL de Dynamics 365.
-4.  Especifique la empresa para iniciar sesión en. Por ejemplo, escriba USMF ** **.
-5.  La primera vez que se iniciar sesión, se le solicitará el nombre de usuario y la contraseña para su Microsoft Dynamics 365 para la cuenta de operaciones. Especifique sus. Tras en firme, verá las áreas de trabajo disponibles para su empresa.
+1.  Desde su tienda de aplicaciones móviles, descargue e instale la aplicación Microsoft Dynamics 365 for Operations.
+2.  Inicie la aplicación en su dispositivo.
+3.  Escriba la URL de Dynamics 365.
+4.  Escriba la empresa en la que va a iniciar sesión. Por ejemplo, escriba **USMF**.
+5.  La primera vez que inicia sesión, se le pedirá el nombre de usuario y la contraseña de su cuenta Microsoft Dynamics 365 for Operations. Escriba sus credenciales. Tras iniciar sesión, verá los espacios de trabajo disponibles para su empresa.
 
-Para ver Áreas de trabajo en su aplicación móvil, primero debe publicar las áreas de trabajo deseadas a Dynamics 365 para la aplicación de las operaciones.
+Para ver los espacios de trabajo en su aplicación móvil, primero debe publicar los espacios de trabajo deseados para la aplicación Dynamics 365 for Operations.
 
-1.  Dinámica 365 de inicio de las operaciones.
-2.  Retroceda ** Administración del sistema ** &gt; ** la configuración ** &gt; ** los parámetros del sistema **.
-3.  Seleccione ** gestionar la aplicación móvil **.
-4.  Seleccione el área de trabajo para publicar en esta plataforma móvil.
-5.  Seleccione ** publique el área de trabajo **.
-6.  Actualización del dispositivo para ver las áreas de trabajo publicadas.
+1.  Inicie Dynamics 365 for Operations.
+2.  Vaya a **Administración del sistema** &gt; **Configurar** &gt; **parámetros del sistema**.
+3.  Seleccionar **Administrar aplicación móvil**.
+4.  Seleccione el espacio de trabajo que desea publicar en la plataforma móvil.
+5.  Seleccione **Publicar espacio de trabajo**.
+6.  Actualice su dispositivo para ver los espacios de trabajo publicados.
 
-## <a name="view-the-onhand-inventory-for-a-product"></a>Vea el inventario total disponible para un producto
-1.  En el dispositivo móvil, seleccione ** inventario disponible ** el área de trabajo.
-2.  Seleccione ** compruebe disponible para un artículo **. Ve una lista de los productos que se cargan en su aplicación para la usarla sin conexión. De forma predeterminada, 50 artículos están cargados, pero puede cambiar este número. Para obtener más información, consulte el manual previos leído.
-3.  Si el artículo no está en la lista, seleccione ** busque más ** para realizar una búsqueda en línea en Dynamics 365 para las operaciones. Busque el número derivado, o el cambio a un nombre derivado de la búsqueda.
-4.  Seleccione un producto. Si el artículo tiene una imagen, se muestra la imagen.
-5.  Seleccione una de las opciones siguientes para ver el estado disponible de inventario:
-    -   Visión disponible por sitio
-    -   Visión disponible por almacén
-    -   Visión disponible por la ubicación
-    -   Visión disponible por lote (para los productos controlados por lote)
-    -   Visión disponible por el estado de inventario
+## <a name="view-the-onhand-inventory-for-a-product"></a>Visualice el inventario disponible para un producto
+1.  En el dispositivo móvil, seleccione el espacio de trabajo **Inventario disponible**.
+2.  Seleccione **Comprobar el inventario disponible de un artículo**. Verá una lista de los productos que se cargan en su aplicación para su uso sin conexión. Hay 50 artículos cargados de forma predeterminada, pero puede cambiar este número. Para obtener más información, consulte el manual previamente leído.
+3.  Si el artículo no está en la lista, seleccione **Buscar más** para realizar una búsqueda en línea en Dynamics 365 for Operations. Busque por número de producto o cambie a una búsqueda por nombre de producto.
+4.  Seleccione un producto. Si el artículo tiene una imagen, esta se muestra.
+5.  Seleccione una de las siguientes opciones para visualizar el estado de inventario disponible:
+    -   Ver el inventario disponible por sitio
+    -   Ver el inventario disponible por almacén
+    -   Ver inventario disponible por ubicación
+    -   Ver inventario disponible por lote (para productos controlados por lote)
+    -   Ver inventario disponible por estado de inventario
 
-    El inventario del producto disponible se muestra de las siguientes formas:
-    -   Por el inventario físico (esta vista representa el importe total).
-    -   Por la reservados físicamente (esta vista representa el importe reservado).
-    -   Por la cantidad Física disponible (esta vista representa el importe disponible que no tiene ninguna reserva.)
+    El inventario disponible del producto se muestra de las siguientes formas:
+    -   Por inventario físico (Esta vista representa la cantidad total).
+    -   Por inventario reservado (Esta vista representa la cantidad reservada).
+    -   Por inventario físico disponible (Esta vista representa la cantidad disponible que no tiene reservas.)
 
 
 

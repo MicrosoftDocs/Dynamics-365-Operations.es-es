@@ -34,14 +34,14 @@ Los minoristas establecen a menudo distintos descuentos en diferentes canales. E
 <a name="channel-specific-discounts"></a>Descuentos específicos de un canal
 --------------------------
 
-Los minoristas con frecuencia proporcionan una distintos descuentos en varios canales. Esto es se puede hacer para guiar condiciones del mercado locales o para tratar de los minoristas de la competencia.
+Los minoristas ofrecen a menudo distintos descuentos en diferentes canales. Esto se puede realizar para responder a condiciones empresariales locales o para afrontar a la competencia.
 
-La ventas al por menor y el comercio de Microsoft Dynamics 365 para las operaciones usa grupos de precios para definir canal- descuentos específicos. Los grupos de precios se pueden asignar a una o más de las entidades siguientes: canales, catálogos, afiliaciones y programas de fidelidad. Este artículo describe los canales, pero los mismos conceptos se aplican a los descuentos de catálogo, descuentos de afiliaciones y los descuentos por fidelidad.
+Venta minorista y comercio de Microsoft Dynamics 365 for Operations usa grupos de precios para definir descuentos específicos según canal. Los grupos de precios se pueden asignar a una o más de las entidades siguientes: canales, catálogos, afiliaciones y programas de fidelidad. Este artículo describe los canales, pero los mismos conceptos se aplican a los descuentos de catálogo, descuentos de afiliaciones y los descuentos por fidelidad.
 
 ## <a name="price-groups"></a>Grupos de precio
-alignnone” width= "640 "de align= de " id= " de\[datos adjuntos\_256084 "\][grupos de precios![] (. /media/price-groups-1024x608.png])(. Vínculos del grupo de precios de /media/price-groups.png) para\[al por menor /caption\]
+\[caption id="attachment\_256084" align="alignnone" width="640"\][![Grupos de precios](./media/price-groups-1024x608.png)](./media/price-groups.png) Vínculos de grupos de precios para venta minorista\[/caption\]
 
-El diagrama anterior muestra la relación entre las entidades que pueden estar en una transacción (canal, catálogo, afiliación, cliente, tarjeta de fidelización) y los distintos tipos de descuento que se pueden configurar. Todas las transacciones se producen con un canal, por lo que el canal se garantiza para que esté presente en una transacción. Las entidades restantes son opcionales. En cada página de datos maestros hay un vínculo a una página de grupos de precios relacionada donde se pueden ver y agregar grupos de precios según sea necesario. Un grupo de precios que desea relacionar cuatro diferentes tipos de entidades con los descuentos, los ajustes de precios, y los acuerdos comerciales. Es recomendable planear una estrategia para cómo se denominará los grupos de precios para organizados servicio. Una opción sería utilizar una letra o un prefijo o un sufijo del número para distinguir entre los distintos tipos. Por ejemplo, 1 xxxxx para los grupos de precios el canal y 2 xxxxx para los grupos de precios del catálogo. Existen cuatro páginas de consulta que se centran en cada una de las entidades de venta al por menor que pueden tener descuentos asociados.
+En el diagrama anterior se muestra la relación entre las entidades que pueden estar incluidas en una transacción (canal, catálogo, afiliación, cliente o tarjeta de fidelización) y los distintos tipos de descuento que pueden configurarse. Todas las transacciones se producen en un canal, por lo que se garantiza la presencia del canal en una transacción. Las entidades restantes son opcionales. En cada página de datos maestros hay un vínculo a una página de grupos de precios relacionada donde se pueden ver y agregar grupos de precios según sea necesario. El grupo de precios se usa para relacionar cuatro tipos diferentes de entidades a los descuentos, los ajustes de precios y los acuerdos comerciales. Se recomienda planear una estrategia para nombrar a los grupos de precios con objeto de tenerlos organizados. Una opción sería usar una letra o un prefijo o un sufijo numérico para distinguir entre los diferentes tipos. Por ejemplo, 1-xxxxx para grupos de precios de canal y 2-xxxxx para grupos de precios de catálogo. Existen cuatro páginas de consulta que se centran en cada una de las entidades de venta al por menor que pueden tener descuentos asociados.
 
 -   **Grupos de precios de canal comercial **: esta página muestra una lista de canales y descuentos vinculados conjuntamente para cada grupo de precios.
 -   **Grupos de precios de catálogo **: esta página muestra una lista de catálogos y descuentos vinculados conjuntamente para cada grupo de precios.
@@ -62,6 +62,6 @@ En el ejemplo siguiente se muestran las tareas implicadas en la configuración d
 <a name="see-also"></a>Consulte también
 --------
 
-[Price adjustments and discounts](price-adjustments-discounts.md)
+[Ajustes de precios y descuentos](price-adjustments-discounts.md)
 
 

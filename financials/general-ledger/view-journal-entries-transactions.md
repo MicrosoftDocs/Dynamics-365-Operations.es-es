@@ -46,12 +46,12 @@ Además de los informes financieros, puede usar los siguientes informes de conta
 
 -   **Extracto de dimensión**: este informe muestra transacciones por día y cuenta, y también hay opciones para mostrar transacciones por dimensión y período.
 -   **Lista de transacciones contables**: este informe muestra transacciones en divisas de transacción, contabilidad e informes para una cuenta.
--   ** El diario de impresión ** – este informe muestra el resultado de un diario registrado. Puede ejecutar el informe o del número del tipo de diario de lote del diario, o bien agregue los campos adicionales.
+-   **Imprimir diario**: este informe muestra el resultado de un diario registrado. Puede ejecutar el informe por número de lote del diario o tipo de diario, o agregar campos adicionales.
 -   **Transacciones registradas por diario**: este informe muestra las transacciones que se han registrado en un diario, agrupadas por asiento.
 -   **Lista de transacciones por fecha**: este informe muestra todas las transacciones por fecha, junto con el número de diario, el asiento y la cuenta contable. También muestra las transacciones en las divisas de transacción, contabilidad e informes.
 -   **Origen de la transacción**: este informe de transacciones muestra la cuenta por diario, y por divisa de transacción, contabilidad e informes. También muestra cada línea del diario que se usaba como contrapartida.
 
 
-Para obtener más información, consulte [] los saldos de la cuenta de contabilidad general (general-ledger-account-balances.md), [explorador de origen de las estadísticas] (\ los proveedores operaciones financieras \ \ estadística-origen- Explorador) y informe financiero [] () financial-reporting-getting-started.md
+Para obtener más información, consulte [Saldos de cuentas de contabilidad](general-ledger-account-balances.md) [Explorador de origen de contabilidad](\financials\accounts-payable\accounting-source-explorer) e [Informes financieros](financial-reporting-getting-started.md)
 
 

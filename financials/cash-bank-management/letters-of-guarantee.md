@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-guarantee"></a>Cartas de garantía
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información acerca de las cartas de garantía. En una carta de garantía, un banco acepta pagar una cierta cantidad de dinero a una persona si uno de los clientes del banco se retrasa en un pago o en la obligación a dicha persona. 
 
 Una carta de garantía es un contrato mediante el cual un banco (el garante) paga una cierta cantidad de dinero a alguna persona (el beneficiario) si un cliente del banco (la entidad de seguridad) lo establece en un pago o una obligación al beneficiario. Las cartas de garantía no son transferibles. Solo se aplican al beneficiario nombrado en el acuerdo. La entidad de seguridad puede aplicar un aumento o una reducción del valor de una colección de la garantía, sujeto a las condiciones del contrato. 
@@ -55,6 +58,8 @@ En la tabla siguiente se describen las acciones que se pueden realizar en una ca
 | Ampliar              | Una vez que proporcione la carta de garantía al beneficiario, ampliar el período de validez si es necesaria una ampliación. |
 | Cancelar              | Cuando ya no se aplica el propósito para el que la carta de garantía se ha solicitado, cancelar el contrato.                  |
 | Liquidar           | Cuando el beneficiario muestra la carta de garantía al banco, cobrar la carta de garantía.                      |
+
+
 
 
 

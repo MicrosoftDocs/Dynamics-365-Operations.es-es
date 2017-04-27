@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-manual-task-in-a-workflow"></a>Configuración de una tarea manual en un flujo de trabajo
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tema explica cómo configurar las propiedades para una tarea manual.
 
 Para configurar una tarea manual en el editor de flujo de trabajo, haga clic con el botón secundario en la tarea y, a continuación, haga clic en **Propiedades** para abrir la página **Propiedades**. A continuación, use los siguientes procedimientos para configurar las propiedades de la tarea manual.
@@ -124,10 +127,10 @@ Siga estos pasos para especificar a quién se debe asignar la tarea manual.
     </tr>
     <tr class="even">
     <td>Usuario</td>
-    <td>Microsoft Dynamics específico 365 para los usuarios de operaciones</td>
+    <td>Usuarios específicos de Microsoft Dynamics 365 for Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li><strong>Usuarios disponible</strong> La lista incluye todas Dynamics 365 para los usuarios de las operaciones. Seleccione aquellos a los que desea asignar la tarea y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea asignar la tarea y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -146,7 +149,7 @@ Siga estos pasos para especificar a quién se debe asignar la tarea manual.
     <li>En la lista <strong>Nombre de cola</strong>, seleccione <strong>Cola condicional</strong>.</li>
     </ol></li>
     </ol>
-    <strong>Nota:</strong> esta opción se usa solo para parte flujos de trabajo, como gestión de casos.</td>
+    <strong>Nota:</strong> Esta opción solo se usa para algunos flujos de trabajo, como Gestión de casos.</td>
     </tr>
     </tbody>
     </table>
@@ -214,10 +217,10 @@ Si un usuario no completa la tarea manual en el tiempo asignado, la tarea se con
     </tr>
     <tr class="odd">
     <td>Usuario</td>
-    <td>Dinámica específica 365 para los usuarios de operaciones</td>
+    <td>Usuarios específicos de Dynamics 365 for Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li><strong>Usuarios disponible</strong> La lista incluye todas Dynamics 365 para los usuarios de las operaciones. Seleccione aquellos a los que desea remitir la tarea para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea remitir la tarea para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -234,7 +237,7 @@ Si un usuario no completa la tarea manual en el tiempo asignado, la tarea se con
 6.  Si los usuarios de la ruta de remisión a una instancia superior no completan la tarea en el tiempo asignado, el sistema realiza una acción en la tarea. Para especificar la acción que el sistema realiza, seleccione la fila **Acción** y, a continuación, en la pestaña **Finalizar acción**, seleccione una acción.
 
 ## <a name="specify-when-the-system-automatically-acts-on-the-task"></a>Especificación de las condiciones en que el sistema realiza una acción automática en la tarea
-Puede configurar el sistema para que realice alguna acción en la tarea manual si se cumplen ciertas condiciones. Por ejemplo, supongamos que existe una tarea que requiere que un miembro del departamento Informes de gastos revise los recibos que se adjuntan a un informe de gastos. De acuerdo con las directivas de la empresa, esta tarea se debe realizar si el importe total del informe de gastos es superior a 100 USD. En esta situación, puede configurar el sistema marque automáticamente la tarea como ** completado ** cuando el importe total es inferior a 100. Siga estos pasos para especificar cuándo el sistema realiza una acción en la tarea manual.
+Puede configurar el sistema para que realice alguna acción en la tarea manual si se cumplen ciertas condiciones. Por ejemplo, supongamos que existe una tarea que requiere que un miembro del departamento Informes de gastos revise los recibos que se adjuntan a un informe de gastos. De acuerdo con las directivas de la empresa, esta tarea se debe realizar si el importe total del informe de gastos es superior a 100 USD. Dada esta situación, puede configurar el sistema para que el estado de la tarea cambie a **Completo** si el importe total es menor que 100. Siga estos pasos para especificar cuándo el sistema realiza una acción en la tarea manual.
 
 1.  En el panel izquierdo, haga clic en **Acciones automáticas**.
 2.  Active la casilla **Habilitar acciones automáticas**.
@@ -308,10 +311,10 @@ Puede enviar notificaciones cuando una tarea manual se ha delegado, completado, 
     </tr>
     <tr class="odd">
     <td>Usuario</td>
-    <td>Dinámica específica 365 para los usuarios de operaciones</td>
+    <td>Usuarios específicos de Dynamics 365 for Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li><strong>Usuarios disponible</strong> La lista incluye todas Dynamics 365 para los usuarios de las operaciones. Seleccione aquellos a los que desea enviar notificaciones y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea enviar notificaciones y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -325,8 +328,8 @@ Siga estos pasos si la tarea manual se debe completar en un plazo específico. *
 1.  En el panel izquiero, haga clic en **Configuración avanzada**.
 2.  Active la casilla **Configurar un límite de tiempo para el elemento de flujo de trabajo**.
 3.  En el campo **Duración**, especifique cuándo se debe completar la tarea. Seleccione una de las siguientes opciones:
-    -   ** Las horas ** – escriba el número de horas que la tarea se debe completar en. A continuación, seleccione el calendario que usa la organización y escriba la información pertinente acerca de la semana laboral de la organización.
-    -   ** Los días ** – especifique el número de días que la tarea se debe completar en. A continuación, seleccione el calendario que usa la organización y escriba la información pertinente acerca de la semana laboral de la organización.
+    -   **Horas**: escriba la cantidad de horas disponibles para completar la tarea. A continuación, seleccione el calendario que usa la organización y escriba la información pertinente acerca de la semana laboral de la organización.
+    -   **Días**: escriba la cantidad de días disponibles para completar la tarea. A continuación, seleccione el calendario que usa la organización y escriba la información pertinente acerca de la semana laboral de la organización.
     -   **Semanas**: escriba la cantidad de semanas en las que se debe completar la tarea.
     -   **Meses**: seleccione el día y la semana en los que vence el plazo para completar la tarea. Por ejemplo, tal vez desee que la tarea se haya completado antes del viernes de la tercera semana del mes.
     -   **Años**: seleccione el día, la semana y el mes en los que vence el plazo para completar la tarea. Por ejemplo, tal vez desee que la tarea se haya completado antes del viernes de la tercera semana de diciembre.
@@ -343,6 +346,8 @@ Cuando la tarea manual se asigna a un usuario, este debe realizar alguna acción
 5.  Active la casilla de verificación **Delegar** si el usuario debe poder asignar la tarea a otro usuario.
 6.  Active la casilla de verificación **Volver a asignar** si el usuario debe poder reasignar la tarea a otro usuario de la cola de elementos de trabajo.
 7.  Active la casilla de verificación **Liberar** si el usuario debe poder reasignar la tarea a la cola de elementos de trabajo. Otro usuario podrá encargarse de completar la tarea.
+
+
 
 
 

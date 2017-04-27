@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="warehouse-work-policies"></a>Directivas de trabajo de almacén
 
+[!include[banner](../includes/banner.md)]
+
+
 Se presenta una nueva directiva de trabajo del almacén en Microsoft Dynamics AX 7.0.1 (actualización de mayo de 2016). Esta directiva de trabajo controla si el trabajo del almacén se ha creado para los procesos de almacén en la fabricación.
 
-Esta directiva de trabajo controla si el trabajo del almacén se ha creado para los procesos de almacén en la fabricación. Puede configurar la directiva de trabajo mediante una combinación de **tipos de pedido de trabajo**, la **ubicación del inventario**, y un **producto**. Por ejemplo, el producto L0101 se notifique como finalizado a la ubicación 001 de salida. El producto terminado se consume más adelante en otro pedido de producción en la ubicación 001 de salida. En este caso, puede configurar una directiva de trabajo para evitar el trabajo para el producto terminado - coloca detalle que se creará al notificar el producto L0101 como terminados para generar la ubicación 001. La directiva de trabajo es una entidad individual que puede ser descrita mediante la siguiente información:
+Esta directiva de trabajo controla si el trabajo del almacén se ha creado para los procesos de almacén en la fabricación. Puede configurar la directiva de trabajo mediante una combinación de **tipos de pedido de trabajo**, la **ubicación del inventario**, y un **producto**. Por ejemplo, se ha informado a la ubicación de salida 001 que el producto L0101 ha finalizado. El producto terminado se consume más adelante en otro pedido de producción en la ubicación de salida 001. En este caso, puede configurar una directiva de trabajo para evitar que el trabajo para productos terminados se deseche por haberse creado cuando se informa a la ubicación de salida 001 que el producto L0101 ha finalizado. La directiva de trabajo es una entidad individual que puede ser descrita mediante la siguiente información:
 
 -   **Nombre de la directiva de trabajo **(el identificador único de la directiva de trabajo)
 -   **Tipos de pedido de trabajo **y** Método de creación de trabajo**
@@ -55,7 +58,7 @@ Puede seleccionar un producto para el que se aplique la directiva de trabajo. Pu
 ## <a name="example"></a>Ejemplo
 En el siguiente ejemplo, hay dos pedidos de producción, PRD-001 y PRD-00*2*. El pedido de producción PRD-001 tiene una operación llamada **Montaje**, en la que el producto SC1 se notifica a la ubicación O1 como terminado. El pedido de producción PRD-002 tiene una operación llamada **Pintura** y consume el producto SC1 de la ubicación O1. El pedido de producción PRD-002 también consume la materia prima RM1 de la ubicación O1. RM1 se almacena en la ubicación del almacén BULK-001 y el trabajo del almacén lo escogerá como recogida de materia prima a la ubicación O1. El trabajo de recogida se genera cuando se lanza la producción PRD-002. 
 
-[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
+[![Directivas de trabajo de almacén](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
 
 Cuando desee configurar una directiva de trabajo del almacén para este escenario, debe tener en cuenta la siguiente información:
 
@@ -66,11 +69,11 @@ A continuación se muestra un ejemplo de una directiva de trabajo que puede conf
 
 |                                         |                                                       |
 |-----------------------------------------|-------------------------------------------------------|
-|**Work policy name**<br>                 |**Work order types**<br>                               |
-| Ningún título 01 de forma `                    |- Bienes terminados puesto de forma<br>                           |
-|                                         |**Locations**<br>                                      |
+|**Nombre de directiva de trabajo**<br>                 |**Tipos de pedido de trabajo**<br>                               |
+| Sin almacenaje 01     `                    |- Almacenaje de bienes terminados<br>                           |
+|                                         |**Ubicaciones**<br>                                      |
 |                                         |- O1   |                                               |
-|                                         |**Products** <br>                                      |
+|                                         |**Productos** <br>                                      |
 |                                         |- SC1                                                  |
 
 Los siguientes procedimientos proporcionan instrucciones detalladas sobre cómo configurar la directiva de trabajo del almacén para esta situación. También describe un ejemplo de la configuración que muestra cómo informar de un pedido de producción que se ha completado a una ubicación no controlada por matrícula.
@@ -244,5 +247,7 @@ PASOS (25)
 </tr>
 </tbody>
 </table>
+
+
 
 

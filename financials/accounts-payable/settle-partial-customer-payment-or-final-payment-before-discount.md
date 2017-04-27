@@ -1,5 +1,5 @@
 ---
-title: Establecer un pago de cliente parcial y el pago final en su totalidad antes de la fecha de descuento
+title: Liquidar un pago de cliente parcial y el pago final completamente antes de la fecha de descuento
 description: "Este artículo proporciona escenarios que muestran cómo registrar pagos parciales para un cliente y aplicar descuentos por pronto pago dentro del período del descuento por pronto pago."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Establecer un pago de cliente parcial y el pago final en su totalidad antes de la fecha de descuento
+# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidar un pago de cliente parcial y el pago final completamente antes de la fecha de descuento
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo proporciona escenarios que muestran cómo registrar pagos parciales para un cliente y aplicar descuentos por pronto pago dentro del período del descuento por pronto pago.
 
-Fabrikam vende mercancías al cliente 4028. Fabrikam ofrece un descuento por pronto pago del 1 por ciento si la factura se paga en 14 días. Las facturas se deben pagar en 30 días. Fabrikam también ofrece descuentos por pronto pago en pagos parciales. Los parámetros del acuerdo se encuentran en ** los parámetros de clientes ** la página.
+Fabrikam vende productos al cliente 4028. Fabrikam ofrece un descuento por pronto pago del uno por ciento si la factura se paga en 14 días. Las facturas se deben pagar en 30 días. Fabrikam también ofrece descuentos por pronto pago en pagos parciales. Los parámetros de liquidación se encuentran en la página **Parámetros de clientes**.
 
 ## <a name="customer-invoice"></a>Factura del cliente
-El 25 de junio, Arnie entra y registra una factura de 1,000.00 para el cliente 4028. Arnie puede ver esta transacción en la página **Transacciones de cliente**.
+El 25 de junio, Arnie introduce y registra una factura para 1.000,00 del cliente 4028. Arnie puede ver esta transacción en la página **Transacciones de cliente**.
 
 | Comprobante   | Tipo de transacción | Fecha      | Factura | Importe en débito en divisa de transacción | Importe en crédito en divisa de transacción | Saldo  | Divisa |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -63,14 +66,14 @@ Arnie hace clic en la ficha **Descuento por pronto pago** para ver el importe de
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="partial-payment-by-using-the-enter-customer-payments-page"></a>Pago parcial mediante la página Introducir pagos de cliente
-El cliente 4028 registra un pago de 500.00 el 1 de julio. Para especificar este pago, Arnie no hace clic en ** las líneas **. En su lugar, registra el pago creando un nuevo diario de pagos y abriendo luego la página **Introducir pagos de cliente**. Especifica la información de pago y marca la factura que ha introducido. Cuando Arnie especifica el importe de **500,00**, introduce también **500,00** en el campo **Importe que hay que pagar** de la cuadrícula. Puesto que Fabrikam permite un descuento por pronto pago en los pagos parciales, ve que también se obtendrá un descuento por pronto pago parcial de 5,05. El cálculo de este descuento es 500,00 ÷ 0,99 × 0,01 = 5,05. (En este cálculo, 500,00 se divide por 0,99, porque hay un descuento del 1 por ciento. Por lo tanto, el cliente paga el 99 por ciento de la factura. A continuación, el resultado se multiplica por el porcentaje de descuento, que es un 1 por ciento, o 0,01. Si el cliente tiene el descuento completo de 10.00, el importe que se debe establecer será 990.00.) Información de descuento aparece en la cuadrícula en la parte inferior ** los pagos de cliente de la información ** de la página.
+El cliente 4028 envía un pago de 500,00 el 1 de julio. Para especificar este pago, Arnie no hace clic en **Líneas**. En su lugar, registra el pago creando un nuevo diario de pagos y abriendo luego la página **Introducir pagos de cliente**. Especifica la información de pago y marca la factura que ha introducido. Cuando Arnie especifica el importe de **500,00**, introduce también **500,00** en el campo **Importe que hay que pagar** de la cuadrícula. Puesto que Fabrikam permite un descuento por pronto pago en los pagos parciales, ve que también se obtendrá un descuento por pronto pago parcial de 5,05. El cálculo de este descuento es 500,00 ÷ 0,99 × 0,01 = 5,05. (En este cálculo, 500,00 se divide por 0,99, porque hay un descuento del 1 por ciento. Por lo tanto, el cliente paga el 99 por ciento de la factura. A continuación, el resultado se multiplica por el porcentaje de descuento, que es un 1 por ciento, o 0,01. Si el cliente tiene el descuento completo de 10,00, el importe que se debe liquidar será de 990,00). La información de descuento aparece en la cuadrícula en la parte inferior de la página **Introducir pagos de cliente**.
 
 | Importe de descuento por pronto pago para aplicar | Descuento por pronto pago aplicado | Importe que hay que pagar |
 |------------------------------|---------------------|---------------|
 | 5,05                         | 0,00                | 500,00        |
 
 ## <a name="partial-payment-by-using-the-journal-lines"></a>Pago parcial con las líneas de diario
-En lugar de abrir la página **Introducir pagos de cliente** en el diario de pagos, Arnie puede hacer clic en **Líneas** para especificar un pago. Aparecerá el diario de pagos Arnie, donde puede especificar una línea para el cliente 4028. A continuación, Arnie abre la página **Liquidar transacciones** para poder marcar la factura para su liquidación. Arnie marca la factura y cambia el valor del campo **Importe para liquidar** a **-500,00**. De nuevo, ve que el valor del campo **Importe de descuento por pronto pago** es **-10,00** para la factura completa, y que el valor en el campo **Importe de descuento por pronto pago para aplicar** es **-5,05**. Por lo tanto, Arnie está liquidando 505,05 de esta factura.
+En lugar de abrir la página **Introducir pagos de cliente** en el diario de pagos, Arnie puede hacer clic en **Líneas** para especificar un pago. Se muestra el diario de pagos, donde Arnie puede especificar una línea del cliente 4028. A continuación, Arnie abre la página **Liquidar transacciones** para poder marcar la factura para su liquidación. Arnie marca la factura y cambia el valor del campo **Importe para liquidar** a **-500,00**. De nuevo, ve que el valor del campo **Importe de descuento por pronto pago** es **-10,00** para la factura completa, y que el valor en el campo **Importe de descuento por pronto pago para aplicar** es **-5,05**. Por lo tanto, Arnie está liquidando 505,05 de esta factura.
 
 | Marcar     | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha      | Fecha de vencimiento  | Factura | Importe en divisa de la transacción | Divisa | Importe para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -143,6 +146,8 @@ Arnie registra este diario y revisa las transacciones del cliente en la página 
 | DISC-10010 | Descuento por pronto pago    | 7/1/2015  |         |                                      | 5,00                                  | 0,00    | USD      |
 | ARP-10011  | Pago          | 7/8/2015  |         |                                      | 495,00                                | 0,00    | USD      |
 | DISC-10011 | Descuento por pronto pago    | 7/8/2015  |         |                                      | 5,00                                  | 0,00    | USD      |
+
+
 
 
 

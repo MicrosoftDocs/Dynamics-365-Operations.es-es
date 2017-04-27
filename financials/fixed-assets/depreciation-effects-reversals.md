@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Efectos de depreciación con inversiones
 
+[!include[banner](../includes/banner.md)]
+
+
 En este artículo se describen las implicaciones potenciales de invertir una transacción de activo fijo. 
 
 Se pueden invertir las transacciones de activos fijos, así como las transacciones que están asociadas a un activo fijo. También se puede revocar una transacción invertida. 
@@ -90,6 +93,8 @@ La depreciación es insuficiente por 16,95 (983,62 - 966,67).
 <a name="see-also"></a>Consulte también
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Depreciación de activos fijos](fixed-asset-depreciation.md)
+
+
 
 

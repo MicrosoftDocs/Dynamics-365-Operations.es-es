@@ -1,5 +1,5 @@
 ---
-title: Planificar su plan contable
+title: Planificar su plan de cuentas
 description: "Este artículo proporciona información que le ayudará a planificar el plan de cuenta para su organización."
 author: RobinARH
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-your-chart-of-accounts"></a>Planificar su plan contable
+# <a name="plan-your-chart-of-accounts"></a>Planificar su plan de cuentas
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo proporciona información que le ayudará a planificar el plan de cuenta para su organización.
 
@@ -34,7 +37,7 @@ Puede configurar un plan de cuentas para hacer un seguimiento de la información
 
 El plan contable es una lista estructurada de las cuentas de contabilidad general de una entidad jurídica. Esta lista se utiliza para preparar informes financieros para autoridades y propietarios. Las cuentas se agrupan en tipos de cuentas que se agregan después en categorías más grandes. En el nivel más general, las cuentas se agrupan en ingresos y costes (cuentas operativas) y activos y pasivos (cuentas de saldo). 
 
-Cualquier entidad jurídica de una organización puede usar y compartir un plan contable. El plan contable que usa una entidad jurídica se define en ** libro mayor ** la página. 
+Cualquier entidad jurídica de una organización puede usar y compartir un plan contable. El plan contable utilizado por una entidad jurídica se define en la página **Libro mayor**. 
 
 Estos son algunos de los factores que se deben tener en cuenta la hora de planificar la estructura del plan de cuentas en la organización:
 
@@ -48,10 +51,12 @@ Conviene vincular cuentas principales a categorías de cuenta principal, de modo
 
 Use la página **Configurar estructuras contables** para crear estructuras contables. Las estructuras contables definen combinaciones válidas. Las combinaciones, junto con las cuentas principales, forman el plan contable. 
 
-**Legal entity overrides** 
+**Anulaciones de entidad jurídica** 
 
-No todas las cuentas principales son válidas para todas las entidades jurídicas y algunas sólo pueden ser relevantes para un período de tiempo específico. En esta situación, puede usarse la sección Anulaciones de entidad jurídica para identificar para qué empresas se debe suspender la cuenta principal, quién es el propietario y el período de tiempo que la dimensión está activa. Las anulaciones en el nivel compartido no pueden ser más restrictivas que las anulaciones en el nivel de entidad jurídica.
+No todas las cuentas principales son válidas para todas las entidades jurídicas, y algunas solo pueden ser relevantes para un período de tiempo específico. En esta situación, puede usarse la sección Anulaciones de entidad jurídica para identificar para qué empresas se debe suspender la cuenta principal, quién es el propietario y el período de tiempo que la dimensión está activa. Las anulaciones en el nivel compartido no pueden ser más restrictivas que las anulaciones en el nivel de entidad jurídica.
 
-Para obtener más información, consulte dimensiones financieras [] () financial-dimensions.md.
+Para obtener más información, consulte [Dimensiones financieras](financial-dimensions.md).
+
+
 
 

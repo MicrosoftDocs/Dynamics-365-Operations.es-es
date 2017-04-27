@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchasing-policies"></a>Directivas de compra
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información acerca de las directivas de compra. Una directiva de compra es una colección de reglas que controlan el proceso de solicitud. Las directivas de compra ayudan a los administradores de compras a implementar su estrategia de compras creando una estructura de directiva que está de acuerdo con los requisitos de compras estratégicas de la organización.
 
 Una directiva de compra consta de un conjunto de reglas de directivas. Para definir una regla de directivas, en primer lugar se selecciona un tipo de regla. Al crear una regla para el tipo de regla definiendo la configuración, la fecha inicial y la fecha final de la regla.  
@@ -41,11 +44,11 @@ Según la manera en que configure las directivas de compra, los usuarios de una 
 
 ### <a name="example-1-simple-purchasing-policy-configuration"></a>Ejemplo 1: configuración de directiva de compras sencilla
 
-Las organizaciones que son directivas de compras de instalación de la poder pequeña y menos compleja de entidad jurídica, y pueden utilizar una jerarquía organizativa de las empresas.  
+Las organizaciones pequeñas y menos complejas pueden configurar directivas de compra por entidad jurídica y pueden usar únicamente la jerarquía organizativa Empresas.  
 
 Para Fabrikam, un pequeño negocio, los requisitos de compra varían muy poco en la organización. Las reglas de compras solo varían entre las entidades jurídicas de la organización. Por ejemplo, los empleados de Fabrikam Canadá y los empleados de Fabrikam Estados Unidos compran bienes y servicios de diferentes catálogos y de diferentes proveedores. Por eso, Fabrikam configura sus directivas de compra en el nivel de entidad jurídica.  
 
-Fabrikam crea dos directivas de compra. La directiva A se aplica a su entidad jurídica de Estados Unidos., 1111. La directiva B se aplica a su entidad jurídica de Canadá, 2222. Cuando un empleado de la entidad jurídica 1111 crea una solicitud de compra, las reglas de directivas se obtienen de la directiva A. Por ejemplo, el catálogo de productos que el empleado ve se especifica en la regla de directivas de catálogo para la directiva A.  
+Fabrikam crea dos directivas de compra. La directiva A se aplica a su entidad jurídica de Estados Unidos, 1111. La directiva B se aplica a su entidad jurídica de Canadá, 2222. Cuando un empleado de la entidad jurídica 1111 crea una solicitud de compra, las reglas de directivas se obtienen de la directiva A. Por ejemplo, el catálogo de productos que el empleado ve en la regla de directivas del catálogo para la directiva A.  
 
 Cuando un empleado de la entidad jurídica 2222 crea una solicitud de compra, las reglas de directivas se obtienen de la directiva B.  
 
@@ -117,7 +120,7 @@ La regla de control de reabastecimiento es una regla opcional que define los cam
 
 ### <a name="purchase-order-creation-and-demand-consolidation-rule"></a>Regla de creación de pedidos de compra y consolidación de la demanda
 
-La regla de consolidación creación de pedidos de compra y demanda define las reglas de directivas para utilizar cuando se genera un pedido de compra de una solicitud de compra aprobada. Cuando crea reglas de este tipo, puede establecer opciones en diferentes fichas:
+La regla de la creación de pedido de compra y consolidación de demanda define las reglas de directivas que usar cuando se genera un pedido de compra desde una solicitud de compra aprobada. Cuando crea reglas de este tipo, puede establecer opciones en diferentes fichas:
 
 -   En la ficha **Pedido de compra dividido** puede definir los criterios de división de líneas de solicitudes de compra en distintos pedidos de compra.
 -   En la ficha **Transferencia de precio/descuento** puede definir cuándo volver a calcular el acuerdo de precios cuando se crea un pedido de compra:
@@ -126,7 +129,7 @@ La regla de consolidación creación de pedidos de compra y demanda define las r
 
     También puede permitir que el solicitante cambie el método de transferencia de precio y descuento para las líneas de solicitud de compra individuales, independientemente de la regla de transferencia de precio y descuento que se defina. Active la opción **Permitir anulación manual por línea de solicitud de compra** si desea permitir esta capacidad.
 -   En la ficha **Transferencia de descripción de artículos** puede transferir la descripción del artículo del pedido cuando se origina desde una solicitud de presupuesto.
--   En la ficha **Tolerancia de precios** puede definir reglas para volver a enviar las solicitudes de compra aprobadas mediante el proceso de revisión cuando aumente el precio de un artículo del catálogo de compras. Defina el importe máximo en el que puede aumentar el importe neto del artículo de línea de una solicitud de compra desde que se aprueba la solicitud y hasta que se crea el pedido de compra. El importe neto se calcula mediante la siguiente fórmula: (gastos varios de la unidad de\] + precio de compra de ÷ de × de la cantidad\[(Precio unitario – descuento)) líneas de solicitud de compra de 100 ÷ de × (100 – descuento porcentaje) que superan la tolerancia de precios que se reservan para su procesamiento manual. Las reglas que configure en la ficha **Procesamiento de errores** determinan el modo en que se procesan las líneas de la solicitud de compra.
+-   En la ficha **Tolerancia de precios** puede definir reglas para volver a enviar las solicitudes de compra aprobadas mediante el proceso de revisión cuando aumente el precio de un artículo del catálogo de compras. Defina el importe máximo en el que puede aumentar el importe neto del artículo de línea de una solicitud de compra desde que se aprueba la solicitud y hasta que se crea el pedido de compra. El importe neto se calcula mediante la fórmula siguiente: (\[Cantidad × (Precio unitario – Descuento) ÷ Precio unitario\] + Gastos varios de compra) × (100 – Porcentaje de descuento) ÷ 100 Las líneas de solicitud de compra que sobrepasan la tolerancia de precios definida se reservan para su procesamiento manual. Las reglas que configure en la ficha **Procesamiento de errores** determinan el modo en que se procesan las líneas de la solicitud de compra.
 -   En la ficha **Procesamiento de errores** puede configurar la regla de procesamiento que se aplica a una solicitud de compra si esta no se puede validar durante la creación del pedido de compra debido a un error del proveedor o a un error en la tolerancia de precios. Seleccione una de las siguientes opciones:
     -   **Sin acción**: las líneas de solicitud de compra permanecen en la página **Liberar solicitudes de compra aprobadas**. El estado de las líneas de la solicitud de compra se mantiene en **Aprobado**. Sin embargo, los errores se deben resolver antes de que se pueda generar un pedido de compra para las líneas de solicitud de compra.
     -   **Cancelar la línea de la solicitud de compra**: se cancelan las líneas de solicitud de compra. El solicitante puede crear nuevas solicitudes de compra para las líneas canceladas si aún quiere solicitar los artículos de línea.
@@ -141,6 +144,8 @@ La regla de consolidación creación de pedidos de compra y demanda define las r
     -   **No permitir consolidación de la demanda**: las líneas de solicitudes de compras sin aprobar pueden optar a consolidación de demanda. Esta opción se selecciona de forma predeterminada y solo se aplica a las líneas de solicitudes de compra que requieren un procesamiento manual para la creación de pedidos de compra.
     -   **Permitir siempre consolidación de la demanda**: todas las líneas de solicitud de compra sin aprobar pueden optar a consolidación de demanda. **Nota:** si selecciona la opción **Permitir siempre consolidación de la demanda** en la ficha **Consolidación de la demanda** pero selecciona la opción **Crear automáticamente pedidos de compra** en la ficha **Creación manual de pedidos de compra**, todas las solicitudes de compra se conservan para procesarse manualmente.
     -   **Permitir consolidación de la demanda en estas condiciones**: defina los criterios que determinan si las líneas de solicitud de compra aprobadas pueden optar a consolidación de demanda. Para cada tipo de línea de solicitud de compra, puede definir los criterios por categoría de compra y proveedor. Si selecciona **Permitir consolidación de la demanda en estas condiciones**, puede definir los criterios por categoría de compra y proveedor para cada tipo de línea de solicitud de compra. Cuando selecciona una categoría de compras, se seleccionan también todas las subcategorías definidas para dicha categoría de compras. Si selecciona la opción **Todo** para un tipo determinado de línea, todas las solicitudes de compra de ese tipo de línea son aptas para la consolidación de la demanda.
+
+
 
 
 

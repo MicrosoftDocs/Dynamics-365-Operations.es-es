@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="customer-posting-profiles"></a>Perfiles de contabilización del cliente
 
+[!include[banner](../includes/banner.md)]
+
+
 Los perfiles de contabilización del cliente controlan el registro de transacciones del cliente en la contabilidad general.
 
 <a name="customer-posting-profiles"></a>Perfiles de contabilización del cliente
 -------------------------
 
-Los perfiles de registro de cliente le permiten asignar cuentas de contabilidad general y configuración de documentos a todos los clientes, un grupo de clientes o un único cliente. Estos valores se usarán al crear pedidos de ventas, facturas de servicios, los pagos en efectivo, cartas de cobro, y notas de interés. Para algunas transacciones, cuando seleccione un perfil de registro diferente de los perfiles de registro configurados para las transacciones de esta página y que tenga precedencia sobre los mismos. 
+Los perfiles de registro de cliente le permiten asignar cuentas de contabilidad general y configuración de documentos a todos los clientes, un grupo de clientes o un único cliente. Esta configuración se usará al crear pedidos de venta, facturas de servicios, pagos en efectivo, cartas de cobro y notas de interés. Para algunas transacciones, cuando seleccione un perfil de registro diferente de los perfiles de registro configurados para las transacciones de esta página y que tenga precedencia sobre los mismos. 
 
 El perfil de contabilización predeterminado se define en la ficha desplegable Impuestos y contabilidad en la página Parámetros de clientes. El perfil de contabilización predeterminado se incluye automáticamente en el encabezado de los documentos nuevos donde puede cambiarlo a otro perfil de contabilización si es necesario.
 
@@ -126,7 +129,7 @@ Si desea que todas las transacciones de clientes tengan el mismo perfil de conta
 
 ### 
 
-### <a name="table-restrictions"></a>**Table restrictions**
+### <a name="table-restrictions"></a>**Restricciones de tablas**
 
 Para las transacciones que tienen seleccionado el perfil de registro, especifique si las transacciones se liquidarán automáticamente, se calculará el interés y, las cartas de cobro se emitirán. También puede seleccionar la cuenta que se usa al cerrar las transacciones que tienen el perfil de contabilización seleccionado.
 
@@ -138,6 +141,8 @@ Especifique los valores siguientes para configurar su perfil de contabilización
 | **Aficiones**          | Active esta opción si el interés se calcula en los saldos pendientes para las cuentas de los clientes que usan este perfil. Si se desactiva esta opción, no se calculará el interés para dichos clientes.                                           |
 | **Carta de cobro** | Active esta opción si las cartas de cobro se deben generar para cuentas de clientes que usan este perfil. Si se desactiva esta opción, las cartas de cobro no se generarán para estos clientes.                                                 |
 | **Cerrar**             | Seleccionar un perfil de registro al que desee cambiar cuando se cierren las transacciones con este perfil de registro. Una transacción se considera como cerrada cuando se ha liquidado completamente.                                                                           |
+
+
 
 
 

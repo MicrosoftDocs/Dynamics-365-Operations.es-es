@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manual-depreciation"></a>Depreciación manual
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo ofrece una visión general del método de depreciación manual.
 
 Si configura un perfil de depreciación de activos fijos y selecciona **Manual** en el campo **Método** de la página **Perfiles de depreciación**, la depreciación de los activos fijos asignados al perfil de depreciación vendrá determinada por el porcentaje que se especifique para cada intervalo del año natural. Los intervalos para los que configure porcentajes se registran de acuerdo con el valor que seleccione en el campo **Frecuencia de períodos** de la ficha desplegable **General**, en la página **Perfiles de depreciación**. Estos son los valores que se pueden seleccionar:
@@ -63,13 +66,15 @@ Si selecciona **Mensual** en el campo** Frecuencia de períodos**, se configuran
 | Enero  | (11.000 – 1.000) × 10% = 1.000 |
 | Febrero | (11.000 – 1.000) × 50% = 5.000 |
 
-Si selecciona ** ** semestral en la frecuencia de períodos de **** ** ** campo, puede configurar intervalos de programación manual de la configuración dos. La tabla que sigue muestra los importes de depreciación para estos dos primeros intervalos.
+Si selecciona **Semestral** en el campo ****Frecuencia de períodos****, se configuran dos intervalos de programación manual. La tabla que sigue muestra los importes de depreciación para estos dos primeros intervalos.
 
 | Intervalo    | Importe de depreciación            |
 |-------------|--------------------------------|
 | 30 de junio     | (11.000 – 1.000) × 10% = 1.000 |
 | 31 de diciembre | (11.000 – 1.000) × 50% = 5.000 |
 
-El total de porcentajes de todos los intervalos no tiene que ser 100. Sin embargo, recibirá un mensaje si no es el valor de porcentaje acumulado ** ** el campo en ** el perfil de depreciación de activos fijos programa ** la página 100 ** **.
+El total de porcentajes de todos los intervalos no tiene que ser 100. No obstante, recibirá un mensaje si el valor en el campo **Porcentaje acumulado** en la página **Programas de método de depreciación de activos fijos** es distinto a **100**.
+
+
 
 

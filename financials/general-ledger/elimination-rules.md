@@ -1,6 +1,6 @@
 ---
 title: "Reglas de eliminación"
-description: "Este tema proporciona información acerca de las reglas de eliminación y varias opciones para informar sobre eliminaciones."
+description: "Este tema proporciona información acerca de las reglas de eliminación y las diversas opciones para informar sobre eliminaciones."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="elimination-rules"></a>Reglas de eliminación
 
-Este tema proporciona información acerca de las reglas de eliminación y varias opciones para informar sobre eliminaciones.
+[!include[banner](../includes/banner.md)]
 
-Las transacciones de eliminación se requieren cuando una entidad jurídica trabaja con una o más entidades jurídicas subsidiarias y usa informes financieros consolidados. Los resultados financieros consolidados deben incluir solo las transacciones que tienen lugar entre la organización consolidada y otras entidades fuera de esas organizaciones. Por lo tanto, las transacciones entre entidades jurídicas que forman parte de la misma organización se deben quitar, eliminar, la contabilidad general, por lo que de ellas no aparecen en los informes financieros. Hay varias formas de informar sobre eliminaciones:
+
+Este tema proporciona información acerca de las reglas de eliminación y las diversas opciones para informar sobre eliminaciones.
+
+Las transacciones de eliminación se requieren cuando una entidad jurídica trabaja con una o más entidades jurídicas subsidiarias y usa informes financieros consolidados. Los resultados financieros consolidados deben incluir solo las transacciones que tienen lugar entre la organización consolidada y otras entidades fuera de esas organizaciones. Por lo tanto, las transacciones entre entidades jurídicas que forman parte de la misma organización se deben quitar o eliminar de la contabilidad general de modo que no aparezcan en los informes financieros. Hay varias formas de informar sobre eliminaciones:
 
 -   Se puede crear una regla de eliminación y procesar en una empresa de consolidación o de eliminación.
 -   Se pueden usar informes financieros para mostrar las dimensiones y las cuentas de eliminaciones en una fila o una columna específica.
@@ -129,27 +132,29 @@ Su entidad jurídica, entidad jurídica A, vende widgets a otra entidad jurídic
 Todas estas transacciones crean transacciones de empresas vinculadas a las cuentas de destinatario de pago y remitente de pago. Además, estas transacciones podrían incluir importes de marcado y desmarcado de precios cuando el importe de la venta de empresas vinculadas no es igual al coste de los bienes vendidos.
 
 ## <a name="set-up-elimination-rules"></a>Configurar reglas de eliminación
-Al configurar reglas de eliminación de Dynamics 365 para las operaciones, se recomienda que cree una dimensión financiera específicamente para la eliminación. La mayoría del nombre de clientes él socio comercial o parte similar. Si decide no utilizar una dimensión financiera, asegúrese de tener cuentas principales que son específicas para las transacciones de empresas vinculadas únicamente. 
+Al configurar reglas de eliminación de Dynamics 365 for Operations, le recomendamos que cree una dimensión financiera específicamente para la eliminación. La mayoría de clientes lo denominan Socio comercial o algo similar. Si decide no utilizar una dimensión financiera, asegúrese de tener cuentas principales que sean específicas únicamente para las transacciones de empresas vinculadas. 
 
-La configuración de eliminaciones se encuentra en el área de configuración del módulo de las consolidaciones. Después de especificar una descripción para la regla, debe seleccionar la empresa a la que el diario de eliminaciones registrará. Esta debe ser una empresa que ** uso para el proceso financiero de eliminación ** ha seleccionado en la configuración de la entidad jurídica. 
+La configuración de eliminaciones se encuentra en el área de Configuración del módulo de Consolidaciones. Tras introducir una descripción para la regla, debe seleccionar la empresa a la que registrará el diario de eliminaciones. Esta debe ser una empresa que tengan la opción **Usar para el proceso de eliminación financiera** seleccionada en la configuración de la entidad jurídica. 
 
-Puede establecer una fecha en la que la regla de eliminación se haga efectiva y cuando haya caducado, si es necesario. Debe establecer ** activo ** ** Sí ** si desea que esté disponible en el proceso de propuesta de eliminación. Seleccione un nombre de diario del que tiene un tipo ** ** eliminación.
+Puede establecer una fecha en la que la regla de eliminación se hace efectiva y cuándo caduca, si es necesario. Debe establecer **Activa** en **Sí** si quiere que esté disponible en el proceso de propuesta de eliminación. Seleccione un nombre de diario que tenga un tipo **Eliminación**.
 
-Después de definir los fundamentos, puede definir las reglas de procesamiento reales haciendo clic en ** las líneas **. Existen dos opciones para las eliminaciones, se elimina la cantidad de cambio neto o definiendo un importe fijo. 
+Una vez que haya definido los fundamentos, puede definir las reglas de procesamiento reales haciendo clic en **Líneas**. Hay dos opciones para las eliminaciones, eliminar el importe neto de cambio o definir un importe fijo. 
 
-Seleccione la cuenta de origen. Puede usar un asterisco (\*) como comodín. Por ejemplo, 1\* seleccionar todas las cuentas que comienzan por 1 como un origen de datos para la asignación. 
+Seleccione la cuenta de origen. Puede usar un asterisco (\*) como comodín. Por ejemplo, 1\* seleccionará todas las cuentas que empiecen por 1 como origen de datos para la asignación. 
 
-Una vez haya seleccionado las cuentas de origen, ** especificación de la cuenta ** determina la cuenta de la empresa de destino que se usa. Seleccione ** origen ** si desea usar la misma cuenta principal definida en ** origen ** la cuenta. Si selecciona ** definido por el usuario **, deberá especificar una cuenta de destino. 
+Una vez que haya seleccionado las cuentas de origen, la **Especificación de la cuenta** determina la cuenta de la empresa de destino que se utiliza. Seleccione **Origen** si desea usar la misma cuenta principal definida en la cuenta de **Origen**. Si selecciona **Definido por el usuario**, deberá especificar una cuenta de destino. 
 
-La especificación de la dimensión actúa de la misma manera. Si selecciona ** ** origen, usará las mismas dimensiones en la empresa de destino que la empresa de origen. Si selecciona ** definido por el usuario **, deberá especificar las dimensiones de la empresa de destino haciendo clic en ** las dimensiones de destino ** el elemento de menú. 
+La especificación de la dimensión actúa de la misma manera. Si selecciona **Origen**, se utilizarán las mismas dimensiones en la empresa de destino y la empresa de origen. Si selecciona **Definido por el usuario**, tendrá que especificar las dimensiones de la empresa de destino haciendo clic en el elemento de menú **Dimensiones de destino**. 
 
-Dimensiones seleccionar de origen y las dimensiones financieras y los valores que se usan como origen de la eliminación.
+Seleccione las dimensiones de origen y las dimensiones financieras y los valores que se usan como origen de la eliminación.
 
 ## <a name="process-elimination-transactions"></a>Procesar transacciones de eliminación
-Hay dos maneras de procesar transacciones de eliminación, durante el proceso en línea de la consolidación o creando un diario de eliminaciones y la ejecución de la propuesta de eliminación ha procesado. Enfoques de esta sección de crear el diario y ejecución que la eliminación ha procesado. 
+Hay dos formas de procesar las transacciones de eliminación, durante el proceso de consolidación en línea o creando un diario de eliminaciones y ejecutando el proceso de propuesta de eliminación. Esta sección se centra en crear el diario y en ejecutar el proceso de eliminación. 
 
-En una empresa define como empresa de eliminación, seleccione ** diario de eliminaciones ** en el módulo de las consolidaciones. Una vez haya seleccionado el nombre de diario, haga clic en ** las líneas **. Puede ejecutar la propuesta seleccionando ** las propuestas ** el menú y después seleccionándolo ** propuesta de eliminación **.
+En una empresa definida como empresa de eliminación, seleccione **Diario de eliminaciones** en el módulo de Consolidaciones. Una vez que haya seleccionado el nombre de diario, haga clic en **Líneas**. Puede ejecutar la propuesta seleccionando el menú **Propuestas** y, a continuación, seleccionando **Propuesta de eliminación**.
 
-Seleccione la empresa que es el origen de los datos consolidados, y después seleccione la regla que desea procesar. Especifique una fecha inicial para iniciar la búsqueda para los importes de eliminación, y una fecha final para finalizar la fecha de la búsqueda para los importes de eliminación. ** Fecha de registro de contabilidad general ** el campo es la fecha utilizada para registrar el diario en la contabilidad general. Después de hacer clic en ** éste **, puede revisar los importes y registrar el diario.
+Seleccione la empresa que es el origen de los datos consolidados y, a continuación, seleccione la regla que desea procesar. Introduzca una fecha de inicio para comenzar la búsqueda de importes de eliminación y una fecha final para terminar la búsqueda de importes de eliminación. El campo **Fecha de registro de contabilidad general** es la fecha utilizada para registrar el diario en la contabilidad general. Después de hacer clic en **Aceptar**, puede revisar los importes y registrar el diario.
+
+
 
 

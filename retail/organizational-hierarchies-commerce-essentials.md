@@ -1,6 +1,6 @@
 ---
-title: "Organizaciones y jerarquías organizativas (esencial de comercio)"
-description: "El esencial de comercio tiene tres tipos de organizaciones internas poder definir que ayudan a la organización a realizar un proceso empresarial o a alcanzar un objetivo."
+title: "Organizaciones y jerarquías organizativas (conceptos básicos de Commerce)"
+description: "Commerce essentials tiene tres tipos de organizaciones internas que se pueden definir para ayudar a una organización a realizar un proceso empresarial o a alcanzar un objetivo."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 21251
 ms.assetid: 2bfc6bfe-784b-42e8-8bf0-116e9f0a558e
 ms.search.region: global
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Organizaciones y jerarquías organizativas (esencial de comercio)
+# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Organizaciones y jerarquías organizativas (conceptos básicos de Commerce)
 
-El esencial de comercio tiene tres tipos de organizaciones internas poder definir que ayudan a la organización a realizar un proceso empresarial o a alcanzar un objetivo. 
+[!include[banner](includes/banner.md)]
+
+
+Commerce essentials tiene tres tipos de organizaciones internas que se pueden definir para ayudar a una organización a realizar un proceso empresarial o a alcanzar un objetivo. 
 
 Una organización es un grupo de personas que trabajan juntas para realizar un proceso empresarial o lograr un objetivo. Una jerarquía organizativa representa las relaciones que hay entre las unidades de negocio que con forman la organización.
 
@@ -47,7 +50,7 @@ Una unidad operativa es una organización que se usa para dividir el control de 
 | Canal comercial          | Una unidad operativa que representa un almacén físico.                             | Se usa para gestionar y controlar uno o varios almacenes dentro o entre entidades jurídicas.                                                               |
 
 ## <a name="organizational-hierarchies"></a>Jerarquías organizativas
-En los conceptos básicos de Commerce, cada jerarquía tiene asignado un propósito. El propósito de una jerarquía determina los tipos de organizaciones que se pueden incluir en la jerarquía. El propósito también determina en qué escenarios de aplicación se puede usar una jerarquía. Por ejemplo, una jerarquía comercial se puede utilizar para comprar y para vender productos en una tienda al por menor. Las organizaciones de una jerarquía pueden compartir parámetros, directivas y transacciones. Una organización puede heredar o reemplazar los parámetros de su organización principal. Sin embargo, los datos maestros compartidos, como los productos y las libretas de direcciones, se aplican a toda la organización y no pueden reemplazarse para organizaciones individuales.
+En los conceptos básicos de Commerce, cada jerarquía tiene asignado un propósito. El propósito de una jerarquía determina los tipos de organizaciones que se pueden incluir en la jerarquía. El propósito también determina en qué escenarios de aplicación se puede usar una jerarquía. Por ejemplo, una jerarquía de venta minorista se puede usar para comprar y para vender productos en una tienda de venta minorista. Las organizaciones de una jerarquía pueden compartir parámetros, directivas y transacciones. Una organización puede heredar o reemplazar los parámetros de su organización principal. Sin embargo, los datos maestros compartidos, como los productos y las libretas de direcciones, se aplican a toda la organización y no pueden reemplazarse para organizaciones individuales.
 ### <a name="best-practices-for-setting-up-an-organization-in-a-hierarchy"></a>Prácticas recomendadas para configurar una organización en una jerarquía
 
 Tenga en cuenta las siguientes prácticas recomendadas al implementar una jerarquía organizativa:
@@ -68,6 +71,8 @@ En la siguiente tabla se describen los escenarios de conceptos básicos de Comme
 | Administrar el reabastecimiento comercial                                                    | Agrupe almacenes para reabastecer el inventario según reglas de reabastecimiento.                                                                                                                                                                                                                                          | Reabastecimiento comercial |
 | Crear informes de datos para los almacenes                                                         | Agrupe almacenes para la creación de informes.                                                                                                                                                                                                                                                                                | Informes comerciales     |
 | Registrar inventario, calcular informes o registrar informes para un grupo de almacenes | Cree un grupo de almacenes que se pueden asignar a un trabajo por lotes. Si define un trabajo por lotes para registrar el inventario, calcular informes o registrar informes, puede especificar la jerarquía a la que se aplica el trabajo. Cuando se agregan a se eliminan almacenes de la jerarquía, no es necesario modificar el trabajo por lotes. | Registro de Retail POS   |
+
+
 
 
 

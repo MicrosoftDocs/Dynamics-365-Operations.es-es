@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-orders-for-a-project"></a>Pedidos de compra para un proyecto
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe los distintos métodos que puede usar para crear pedidos de compra para un proyecto. El método que use depende del propósito del pedido de compra y de la fecha de consumo y de cargo a un proyecto de los artículos comprados.
 
-En Microsoft Dynamics 365 para las operaciones, puede usar varios métodos para crear pedidos de compra para un proyecto. El método que use depende del propósito del pedido de compra, de la fecha de consumo de los artículos comprados y de la fecha de cargo de los artículos comprados a un proyecto.
+En Microsoft Dynamics 365 for Operations, puede usar varios métodos para crear pedidos de compra para un proyecto. El método que use depende del propósito del pedido de compra, de la fecha de consumo de los artículos comprados y de la fecha de cargo de los artículos comprados a un proyecto.
 
 ### <a name="methods-for-creating-a-purchase-order"></a>Métodos de creación de un pedido de compra
 
@@ -71,6 +74,8 @@ Puede usar uno de los siguientes métodos para crear un pedido de compra en Gest
 </table>
 
 > [!NOTE] 
-> Al actualizar la factura del proveedor o el albarán, se le pedirá que actualice el albarán con el requisito de artículo.
+> Al actualizar la factura del proveedor o albarán, se solicita que actualice el albarán con el artículo requerido.
+
+
 
 

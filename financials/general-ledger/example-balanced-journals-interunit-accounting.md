@@ -1,5 +1,5 @@
 ---
-title: "Diarios equilibrio para las estadísticas de interunit"
+title: Diarios equilibrados para la contabilidad interunidad
 description: "Este artículo muestra cómo se compensa automáticamente un diario cuando se selecciona una dimensión financiera de equilibrio en la página Libro mayor."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="balanced-journals-for-interunit-accounting"></a>Diarios equilibrio para las estadísticas de interunit
+# <a name="balanced-journals-for-interunit-accounting"></a>Diarios equilibrados para la contabilidad interunidad
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo muestra cómo se compensa automáticamente un diario cuando se selecciona una dimensión financiera de equilibrio en la página Libro mayor. 
 
@@ -34,9 +37,9 @@ Si los asientos contables no se equilibran en el nivel de los valores de la dime
 
 |                      |           |
 |----------------------|-----------|
-| 6100 – MSP – unidades organizativas\_256 | 100,00 DR |
-| 6100 – NY – unidades organizativas\_249  | 100,00 DR |
-| 2100 – MSP – unidades organizativas\_256 | 200,00 CR |
+| 6100 – MSP – OU\_256 | 100,00 DR |
+| 6100 – NY – OU\_249  | 100,00 DR |
+| 2100 – MSP – OU\_256 | 200,00 CR |
 
 En este caso, se determinan los saldos siguientes:
 
@@ -47,8 +50,10 @@ Por lo tanto, los siguientes asientos contables se crean automáticamente para e
 
 |                                   |           |
 |-----------------------------------|-----------|
-| Débito () de Interunit – MSP – Unidad organizativa\_256 | 100,00 DR |
-| Crédito () de Interunit – NY – Unidad organizativa\_249 | 100,00 CR |
+| (Interunidad: débito): MSP: OU\_256 | 100,00 DR |
+| (Interunidad: crédito): NY: OU\_249 | 100,00 CR |
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Actualizar costes estándar en un entorno de no fabricación
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona orientación para actualizar los costes estándar en un entorno de no fabricación.
 
 En las directrices siguientes se supone que se usa el enfoque de dos versiones para actualizar el coste estándar. En este enfoque, una versión de gestión de costes contiene los costes estándar que se definieron originalmente para el período congelado y la segunda versión de gestión de costes contiene las actualizaciones incrementales. Cada actualización se especifica como un registro de coste incluido en la segunda versión de gestión de costes y, finalmente, se activa. El enfoque alternativo de una versión utiliza el conjunto de costes estándar que se definió originalmente. El enfoque de dos versiones requiere que defina una segunda versión de gestión de costes. Esta son las instrucciones para definir esta versión de gestión de costes:
@@ -46,6 +49,8 @@ Para corregir, ajustar o actualizar costes estándar para nuevos artículos, sig
 4.  Utilice la página **Mantenimiento de la versión de gestión de costes** para modificar el indicador de bloqueo y permitir la activación de los registros de costes pendientes incluidos en la segunda versión de gestión de costes.
 5.  Use la página **Activar precios** (que se abre desde la página **Mantenimiento de la versión de gestión de costes**) para activar todos los registros de costes de artículos pendientes que se incluyen en la segunda versión de gestión de costes. También puede activar los registros de costes pendientes para los artículos individuales haciendo clic en la página **Activar precios pendientes** de la página **Precio de artículo**.
 6.  Para impedir la actualización posterior de los datos, use la página **Configuración de la versión de gestión de costes** para modificar los indicadores de bloqueo incluidos en la segunda versión de gestión de costes. Las directivas de bloqueo impedirán la entrada de nuevos costes pendientes y la activación de costes pendientes.
+
+
 
 
 

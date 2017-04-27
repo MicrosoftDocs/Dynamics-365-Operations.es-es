@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-statuses"></a>Estados de inventario
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe cómo puede usar los estados de inventario para clasificar y realizar un seguimiento del inventario.
 
 Puede usar los estados de inventario para clasificar el inventario. A continuación, puede iniciar acciones adecuadas, como el reabastecimiento o el trabajo de ubicación. 
@@ -47,5 +50,7 @@ Para el trabajo de salida, use artículos que tengan un estado de inventario de 
 Una vez que configure estados de inventario, puede establecer el estado de inventario predeterminado para un sitio, artículo y almacén. También puede establecer un estado predeterminado para ventas, transferencia y pedidos de compra. El estado predeterminado para pedidos de ventas y el pedido de transferencia saliente no pueden tener la opción **Bloqueo del inventario** establecida en **Sí**. El estado de inventario que se hereda de la configuración predeterminada en un sitio, almacén, artículo, pedido de compra, pedido de transferencia o pedido de ventas se puede cambiarse mediante el dispositivo móvil, o en el pedido de compra, el pedido de ventas o la línea de pedido de transferencia. 
 
 Para planificar la cobertura para artículos que tienen un estado de inventario disponible, seleccione la opción **Plan de cobertura por dimensión** para una dimensión de almacenamiento en la página **Grupos de dimensiones de almacenamiento**. Cuando abre el **Asistente para la cobertura de artículos**, los artículos que tienen un estado disponible aparecerán en la página **Estado**. Para crear una configuración de cobertura para estos artículos, seleccione el Id. de estado de inventario para los estados de inventario de disponible. Basándose en la configuración de cobertura, puede calcular los requisitos de artículo y la previsión de oferta y demanda de artículos disponibles durante la planificación maestra. No puede crear una configuración de cobertura para artículos que tenga un estado de inventario de bloqueado. Como alternativa, use la página **Cobertura de artículos** para crear o modificar los parámetros de cobertura de artículos.
+
+
 
 

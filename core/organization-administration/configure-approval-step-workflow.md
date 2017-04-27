@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Configuración de un paso de aprobación en un flujo de trabajo
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tema explica cómo configurar las propiedades de un paso de aprobación.
 
 Para configurar un paso de aprobación en el editor de flujo de trabajo, haga clic con el botón secundario en el paso de aprobación y, a continuación, haga clic en **Propiedades** para abrir la página **Propiedades**. A continuación, use los siguientes procedimientos para configurar las propiedades del paso de aprobación.
@@ -124,10 +127,10 @@ Siga estos pasos para especificar a quién se debe asignar el paso de aprobació
     </tr>
     <tr class="even">
     <td>Usuario</td>
-    <td>Microsoft Dynamics específico 365 para los usuarios de operaciones</td>
+    <td>Usuarios específicos de Microsoft Dynamics 365 for Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li><strong>Usuarios disponible</strong> La lista incluye todas Dynamics 365 para los usuarios de las operaciones. Seleccione aquellos a los que desea asignar el paso y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea asignar el paso y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -229,10 +232,10 @@ Si un usuario no realiza ninguna acción en un documento en el tiempo asignado, 
     </tr>
     <tr class="odd">
     <td>Usuario</td>
-    <td>Dinámica específica 365 para los usuarios de operaciones</td>
+    <td>Usuarios específicos de Dynamics 365 for Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li><strong>Usuarios disponible</strong> La lista incluye todas Dynamics 365 para los usuarios de las operaciones. Seleccione aquellos a los que desea remitir el documento para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea remitir el documento para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -247,6 +250,8 @@ Si un usuario no realiza ninguna acción en un documento en el tiempo asignado, 
 
 5.  Repita los pasos 3 a 4 por cada usuario que se debe agregar a la ruta de remisión a una instancia superior. El orden de los usuarios se puede modificar.
 6.  Si los usuarios de la ruta de remisión a una instancia superior no responden en el tiempo asignado, el sistema realiza una acción en el documento de manera automática. Para especificar la acción que el sistema realiza, seleccione la fila **Acción** y, a continuación, en la pestaña **Finalizar acción**, seleccione una acción.
+
+
 
 
 

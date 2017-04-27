@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accruals-overview"></a>Visión general de Acumulaciones
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe acumulaciones y proporciona información acerca de cómo configurarlas y crear transacciones.
 
 Las acumulaciones se usan en la contabilidad por devengo para realizar un seguimiento de los ingresos que se reconoce en el período en que se ha obtenido, no cuando se recibe el pago, y para realizar un seguimiento de los gastos (costes) que se reconocen cuando se producen, no cuando se realiza el pago.
@@ -41,6 +44,8 @@ Los esquemas de acumulación se usan para configurar los costes y los ingresos d
 Tras determinar qué cuentas se usarán, puede especificar cómo se crea el número de asiento al crearse las transacciones de acumulación. También puede especificar la frecuencia con la que se producen las transacciones, el número de veces en que se crean las transacciones y cuándo se registran las transacciones. Tras la creación del esquema de acumulación, puede usarlo en algunos diarios a través de la función Acumulaciones contables.
 
 ## <a name="ledger-accruals"></a>Acumulaciones contables
-Cuando especifique un diario, puede hacer clic en **Acumulaciones contables** en el menú**Funciones**. A continuación, al seleccionar el esquema de acumulación, verá el importe base del diario que se distribuirá por el período, según se determine por el esquema de acumulación. Por ejemplo, si paga el seguro de un empleado durante todo el año en enero, y el importe es 12,000, debe reconocer que dicho gasto cada mes. Puede seleccionar la fecha inicial. También puede especificar si el importe que se acumula se basa en la cuenta o en la cuenta de contrapartida. Después de crear sus selecciones, haga clic ** transacciones ** para ver todas las transacciones que se han creado en función del esquema de acumulación. Por ejemplo, si se amplía 12,000 en los gastos del seguro durante el año, verá 1,000 para cada mes. Después de registrar el diario, puede ver las transacciones mediante ** las transacciones de asiento ** la página de la pregunta. Si un esquema de acumulación no se puede aplicar (por ejemplo, cuando una factura de pedido de ventas o una factura de pedido de compra está involucrada), puede abonar el importe pagado por adelantado y cargar el importe de gastos. A continuación, puede seleccionar **Compensación** al aplicar el esquema de acumulación.
+Cuando especifique un diario, puede hacer clic en **Acumulaciones contables** en el menú**Funciones**. A continuación, al seleccionar el esquema de acumulación, verá el importe base del diario que se distribuirá por el período, según se determine por el esquema de acumulación. Por ejemplo, si paga el seguro de un empleado para todo el año en enero, y el importe es 12 000, debe reconocer dicho gasto cada mes. Puede seleccionar la fecha inicial. También puede especificar si el importe que se acumula se basa en la cuenta o en la cuenta de contrapartida. Después de crear sus selecciones, haga clic en **Transacciones** para ver todas las transacciones que se han creado en función del esquema de acumulación. Por ejemplo, si distribuye el importe de 12 000 en gastos de seguros durante el año, verá 1000 para cada mes. Tras registrar el diario, podrá ver las transacciones con la página de consulta **Transacciones de asiento**. Si no se puede aplicar un esquema de acumulación (por ejemplo, cuando está implicada una factura de pedido de ventas o factura de pedido de compra), puede abonar el importe pagado por adelantado y adeudar el importe de gasto. A continuación, puede seleccionar **Compensación** al aplicar el esquema de acumulación.
+
+
 
 

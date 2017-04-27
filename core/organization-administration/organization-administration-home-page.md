@@ -1,6 +1,6 @@
 ---
 title: "Página principal de administración de la organización"
-description: "Puntos de este tema a los recursos que le ayudarán Microsoft Dynamics 365 de uso para las operaciones de la organización."
+description: "En este tema se indican recursos que le ayudarán a usar Microsoft Dynamics 365 for Operations en una organización."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,56 +26,61 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="organization-administration-home-page"></a>Página principal de administración de la organización
 
-Puntos de este tema a los recursos que le ayudarán Microsoft Dynamics 365 de uso para las operaciones de la organización.
+[!include[banner](../includes/banner.md)]
+
+
+En este tema se indican recursos que le ayudarán a usar Microsoft Dynamics 365 for Operations en una organización.
 
 <a name="number-sequences"></a>Secuencias numéricas
 ----------------
 
--   [Number sequence overview](number-sequence-overview.md)
--   [Secuencias numéricas de la configuración mediante un asistente (http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/)] (guía de la tarea)
--   [Secuencias numéricas de la configuración en una base individual (http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/)] (guía de la tarea)
+-   [Información general de secuencias numéricas](number-sequence-overview.md)
+-   [Configurar secuencias numéricas mediante asistente](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (Guía de tareas)
+-   [Configurar secuencias numéricas de manera individual](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (Guía de tareas)
 
 ## <a name="address-books"></a>Libretas de direcciones
--   [Address books](qa-address-books.md)
--   [Visión general: Libreta de direcciones global (overview-global-address-book.md])
--   [Planificado la configuración de la libreta de direcciones global y de la libreta de direcciones adicional (plan-configuration-global-address-book-additional-address-books.md])
+-   [Libretas de direcciones](qa-address-books.md)
+-   [Visión general de la libreta de direcciones global](overview-global-address-book.md)
+-   [Plan para configurar la libreta de direcciones global y las libretas de direcciones adicionales](plan-configuration-global-address-book-additional-address-books.md)
 
 ## <a name="workflow"></a>Flujo de trabajo
--   [Overview of the workflow system](overview-workflow-system.md)
--   [Workflow system architecture](workflow-system-architecture.md)
--   [Workflow elements](workflow-elements.md)
--   [Workflow actions](workflow-actions.md)
--   [Create a workflow](create-workflow.md)
--   [Configure the properties of a workflow](configure-workflow-properties.md)
--   [Configure a manual task](configure-manual-task-workflow.md)
--   [Configure an automated task](configure-automated-task-workflow.md)
--   [Configure an approval process](configure-approval-process-workflow.md)
+-   [Introducción al sistema de flujo de trabajo](overview-workflow-system.md)
+-   [Arquitectura del sistema de flujo de trabajo](workflow-system-architecture.md)
+-   [Elementos del flujo de trabajo](workflow-elements.md)
+-   [Acciones de flujo de trabajo](workflow-actions.md)
+-   [Creación de un flujo de trabajo](create-workflow.md)
+-   [Configuración de las propiedades de un flujo de trabajo](configure-workflow-properties.md)
+-   [Configuración de una tarea manual](configure-manual-task-workflow.md)
+-   [Configuración de una tarea automatizada](configure-automated-task-workflow.md)
+-   [Configuración de un proceso de aprobación](configure-approval-process-workflow.md)
 -   [Configuración de un paso de aprobación](configure-approval-step-workflow.md)
 -   [Configuración de una decisión manual](configure-manual-decision-workflow.md)
 -   [Configuración de una decisión condicional](configure-conditional-decision-workflow.md)
 -   [Configuración de una actividad paralela](configure-parallel-activity-workflow.md)
--   [Configure a parallel branch](configure-parallel-branch-workflow.md)
--   [Configurar un elemento de flujo de trabajo de elementos configure-line-item-workflow.md] ()
+-   [Configuración de una rama paralela](configure-parallel-branch-workflow.md)
+-   [Configuración de un elemento de flujo de trabajo de elementos](configure-line-item-workflow.md)
 
 ## <a name="case-management"></a>Gestión de casos
--   [Planificado: Caso configurar] (plan-case-management.md)
--   Ejemplos [] de la gestión de casos (cases.md)
+-   [Planificación: configuración de caso](plan-case-management.md)
+-   [Ejemplos de gestión de casos](cases.md)
 
 ## <a name="electronic-signatures"></a>Firmas electrónicas
--   [Electronic signature overview](electronic-signature-overview.md)
--   Firmas electrónicas [] de la configuración (http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (guía de la tarea)
+-   [Visión general de la firma electrónica](electronic-signature-overview.md)
+-   [Configuración de firmas electrónicas](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (Guía de tareas)
 
 ## <a name="organizations"></a>Organizaciones
--   [Organizations and organizational hierarchies](organizations-organizational-hierarchies.md)
--   [Plan the organizational hierarchy](plan-organizational-hierarchy.md)
--   [Crea una unidad operativa (http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/)] (guía de la tarea)
--   [Crear una jerarquía organizativa (http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/)] (Guía de la tarea)
--   [Crear una entidad jurídica (http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/)] (guía de la tarea)
+-   [Organizaciones y jerarquías organizativas](organizations-organizational-hierarchies.md)
+-   [Planificación de la jerarquía organizativa](plan-organizational-hierarchy.md)
+-   [Creación o modificación de una unidad operativa](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (Guía de tareas)
+-   [Creación o modificación de una jerarquía organizativa](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (Guía de tareas)
+-   [Creación de una entidad jurídica](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (Guía de tareas)
 
-## <a name="general-administration"></a>Gestión general
--   [Cambie el banner o el logotipo (http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/)] (Guía de la tarea)
--   [About date/time data and time zones](date-time-zones.md)
--   [Record templates](record-templates.md)
+## <a name="general-administration"></a>Administración general
+-   [Cambiar el encabezado o el logotipo](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (Guía de tareas)
+-   [Acerca de los datos de fecha y hora y las zonas horarias](date-time-zones.md)
+-   [Plantillas de registro](record-templates.md)
+
+
 
 
 

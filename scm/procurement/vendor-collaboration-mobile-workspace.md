@@ -1,6 +1,6 @@
 ---
-title: "Área de trabajo móvil de colaboración del proveedor para Microsoft Dynamics 365 para la aplicación de operaciones"
-description: "Con el área de trabajo móvil de colaboración del proveedor, sus proveedores pueden permanecer actualizaron en los pedidos de compra que se hayan registrado ellos para su aprobación y ver la información sobre nuevos y actualizados pedidos de compra y contactos."
+title: "Espacio de trabajo móvil de colaboración de proveedor para la aplicación Microsoft Dynamics 365 for Operations"
+description: "Con el espacio de trabajo móvil de colaboración de proveedor, sus proveedores pueden mantenerse al día de los pedidos de compra que se hayan enviado para su aprobación y ver la información sobre pedidos de compra y contactos nuevos y actualizados."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-01-12 16 - 36 - 37
@@ -24,9 +24,9 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-collaboration-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Área de trabajo móvil de colaboración del proveedor para Microsoft Dynamics 365 para la aplicación de operaciones
+# <a name="vendor-collaboration-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Espacio de trabajo móvil de colaboración de proveedor para la aplicación Microsoft Dynamics 365 for Operations
 
-Con el área de trabajo móvil de colaboración del proveedor, sus proveedores pueden permanecer actualizaron en los pedidos de compra que se hayan registrado ellos para su aprobación y ver la información sobre nuevos y actualizados pedidos de compra y contactos.
+Con el espacio de trabajo móvil de colaboración de proveedor, sus proveedores pueden mantenerse al día de los pedidos de compra que se hayan enviado para su aprobación y ver la información sobre pedidos de compra y contactos nuevos y actualizados.
 
 <a name="prerequisites"></a>Requisitos previos
 -------------
@@ -44,115 +44,115 @@ Con el área de trabajo móvil de colaboración del proveedor, sus proveedores p
 </thead>
 <tbody>
 <tr class="odd">
-<td>Lea sobre el Microsoft Dynamics 365 para la plataforma de móvil de las operaciones</td>
-<td><a href="/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform">Dinámica 365 para la plataforma de móvil de las operaciones</a></td>
+<td>Obtenga información sobre la plataforma móvil de Microsoft Dynamics 365 for Operations</td>
+<td><a href="/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform">Plataforma móvil de Microsoft Dynamics 365 for Operations</a></td>
 </tr>
 <tr class="even">
-<td>Dinámica 365 para las operaciones</td>
-<td>Asegúrese de que utiliza un entorno con Microsoft Dynamics 365 para la versión 1611 de las operaciones y Microsoft Dynamics para la plataforma de las operaciones actualiza 3 (noviembre de 2016).</td>
+<td>Dynamics 365 for Operations</td>
+<td>Compruebe que utiliza un entorno que tiene la versión 1611 de Microsoft Dynamics 365 for Operations y la actualización 3 de la plataforma de Microsoft Dynamics for Operations (noviembre de 2016).</td>
 </tr>
 <tr class="odd">
-<td><span style="color: #000000;">Dispositivo móvil que tiene Dynamics 365 para la aplicación de las operaciones instalada</span></td>
-<td><span style="color: #000000;">Descargue Dynamics 365 para la aplicación de las operaciones de la tienda móvil de la aplicación.</span></td>
+<td><span style="color: #000000;">Dispositivo móvil que tiene instalada la aplicación Dynamics 365 for Operations</span></td>
+<td><span style="color: #000000;">Descargue la aplicación Dynamics 365 for Operations desde su tienda de aplicaciones móviles.</span></td>
 </tr>
 <tr class="even">
-<td>Sustitución 3215650 KB</td>
-<td>Instale el reemplazo para habilitar las áreas de trabajo que se proporcionan en Dynamics 365 para las operaciones.</td>
+<td>Revisión 3215650 KB</td>
+<td>Instale la revisión para habilitar los espacios de trabajo que ofrece Dynamics 365 for Operations.</td>
 </tr>
 <tr class="odd">
-<td><span style="color: #ff0000;"><span style="color: #000000;">Sustitución 3216943 KB</span></span></td>
-<td>Instale el reemplazo para habilitar el espacio de trabajo del móvil de colaboración del proveedor.</td>
+<td><span style="color: #ff0000;"><span style="color: #000000;">Revisión 3216943 KB</span> </span></td>
+<td>Instale la revisión para habilitar el espacio de trabajo móvil de colaboración de proveedor.</td>
 </tr>
 <tr class="even">
-<td>El usuario proveedor debe tener acceso a la interfaz web de colaboración del proveedor en Dynamics 365 para las operaciones y se configuran un usuario de colaboración del proveedor.</td>
-<td>Siga los pasos descritos en los temas siguientes para configurar y ejecutar la interfaz web de colaboración del proveedor.
+<td>El usuario proveedor debe tener acceso a la interfaz web de colaboración de proveedor en Dynamics 365 for Operations y configurar un usuario de colaboración de proveedor.</td>
+<td>Siga los pasos descritos en los temas siguientes para configurar y trabajar en la interfaz web de colaboración de proveedor.
 <ul>
-<li><a href="vendor-collaboration-work-external-vendors.md">Use la colaboración de proveedor para ejecutar los proveedores externos</a></li>
+<li><a href="vendor-collaboration-work-external-vendors.md">Use la colaboración de proveedor para trabajar con proveedores externos</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Gestionar usuarios de colaboración de proveedor</a></li>
 <li><a href="set-up-maintain-vendor-collaboration.md">Configurar y mantener la colaboración de proveedor</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Use la colaboración de proveedor para ejecutar los clientes de Dynamics 365 para las operaciones</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Use la colaboración de proveedor para trabajar con los clientes en Dynamics 365 for Operations</a></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="overview"></a>Visión general
-El área de trabajo móvil de colaboración del proveedor dispone de los proveedores informados sobre nuevos pedidos de compra de modo que puedan ver y responder a los pedidos de compra en Dynamics 365 para el clientes Web de las operaciones.  
+El espacio de trabajo móvil de colaboración de proveedor mantiene a los proveedores informados sobre nuevos pedidos de compra de modo que puedan ver y responder a los pedidos de compra en el cliente web de Dynamics 365 for Operations.  
 
-** Nota: ** El área de trabajo móvil se debe utilizar como un suplemento a la interfaz Web de colaboración del proveedor, pero no sustitución.  
+**Nota:** el espacio de trabajo móvil se debe utilizar como un suplemento a la interfaz web de colaboración de proveedor, pero no como sustituto.  
 
-Con el área de trabajo móvil de colaboración del proveedor, sus proveedores pueden ver los nuevos pedidos de compra que se envían para aprobación. Muestra información del pedido de compra, como productos, cantidad, y fechas de entrega solicitada. La información de precios está disponible, en función de la configuración para cada proveedor.  
+Con el espacio de trabajo móvil de colaboración de proveedor, sus proveedores pueden ver los nuevos pedidos de compra que se envían para aprobación. Muestra información del pedido de compra, como productos, cantidad y fechas de entrega solicitadas. La información de precios está disponible, en función de la configuración de cada proveedor.  
 
-Cuando un usuario inicia sesión como proveedor, verán qué pedidos de compra se han respondido, o qué pedidos de compra aún están en espera de la acción del cliente. El proveedor puede haber sugerido otra fecha de entrega que aún no se acuerda con el cliente por lo que el pedido de compra está esperando la acción del cliente. El proveedor también verá una lista de pedidos de compra se hayan confirmado pero aún no se entregan que.  
+Si un usuario inicia sesión como proveedor, verá qué pedidos de compra se han respondido, o qué pedidos de compra aún están en espera de la acción del cliente. El proveedor puede haber sugerido otra fecha de entrega que aún no se haya acordado con el cliente por lo que el pedido de compra está esperando la acción del cliente. El proveedor también verá una lista de pedidos de compra que están confirmados pero aún no entregados.  
 
-Para responder a un pedido de compra, el proveedor tiene que usar la interfaz web de colaboración del proveedor que está disponible en Dynamics 365 para el clientes Web de las operaciones. Aquí también el proveedor obtendrán obtener más información sobre el pedido, como datos adjuntos de documento, la dirección de entrega por línea, y los cargos asociados al proveedor.  
+Para responder a un pedido de compra, el proveedor tiene que usar la interfaz web de colaboración de proveedor que está disponible en el cliente web de Dynamics 365 for Operations. Aquí el proveedor también obtendrá más información sobre el pedido, como documentos adjuntos, la dirección de entrega por línea y los cargos asociados al proveedor.  
 
-Con un rol de seguridad especial, el proveedor puede ver que registran las personas de contacto para una cuenta de proveedor. Con el mismo rol de seguridad, el proveedor puede ver el estado de cualquier solicitud de usuario se haya enviado.  
+Con un rol de seguridad especial, el proveedor puede ver las personas de contacto registradas en una cuenta de proveedor. Con el mismo rol de seguridad, el proveedor puede ver el estado de cualquier solicitud de usuario que se haya enviado.  
 
-Crear nuevos contactos y enviar solicitudes de usuario nuevas se deben realizar en la interfaz de colaboración del proveedor que está disponible en Dynamics 365 para el clientes Web de las operaciones.  
+La creación de nuevos contactos y el envío de nuevas solicitudes de usuario se debe realizar en la interfaz de colaboración de proveedor que está disponible en el cliente web de Dynamics 365 for Operations.  
 
-Con el área de trabajo móvil, el proveedor puede:
+Con el espacio de trabajo móvil, el proveedor puede:
 
--   Nuevos pedidos de compra de la vista registrados para el proveedor.
--   Los pedidos de compra de la vista que el proveedor ha respondido a y esperan la acción del cliente.
--   Ver los pedidos de compra que se encuentran en una estado confirmado y no se han recibido completamente.
+-   Ver nuevos pedidos de compra enviados al proveedor.
+-   Ver los pedidos de compra a los que ha respondido el proveedor y que están a la espera de la acción del cliente.
+-   Ver los pedidos de compra que se encuentran en estado confirmado pero que no se han recibido completamente.
 -   Ver la información de la persona de contacto registrada en la cuenta del proveedor (requiere un rol de seguridad adicional).
--   Ver información y siga el estado de una solicitud de usuario que envió el proveedor (requiere un rol de seguridad adicional).
+-   Ver la información y seguir el estado de una solicitud de usuario enviada por el proveedor (requiere un rol de seguridad adicional).
 
 ## <a name="get-started"></a>Introducción
-Para obtener iniciado en su dispositivo móvil:
+Para comenzar en su dispositivo móvil:
 
-1.  En su tienda móvil de la aplicación, y descarga el instalar Microsoft Dynamics 365 para la aplicación de las operaciones.
-2.  Iniciar la aplicación del dispositivo.
-3.  Especifique la dirección URL de Dynamics 365.
-4.  Especifique la empresa para iniciar sesión en. Por ejemplo, escriba USMF ** **.
-5.  La primera vez que se iniciar sesión, se le solicitará el nombre de usuario y la contraseña para su Microsoft Dynamics 365 para la cuenta de operaciones. 
+1.  En su tienda de aplicaciones móviles, descargue e instale la aplicación Microsoft Dynamics 365 for Operations.
+2.  Inicie la aplicación en su dispositivo.
+3.  Escriba la URL de Dynamics 365.
+4.  Escriba la empresa en la que va a iniciar sesión. Por ejemplo, escriba **USMF**.
+5.  La primera vez que inicia sesión, se le pediré el nombre de usuario y la contraseña de su cuenta Microsoft Dynamics 365 for Operations. 
 
-Tras inicie sesión la aplicación, no hay áreas de trabajo visible. Para ver Áreas de trabajo en su aplicación móvil, primero debe publicar las áreas de trabajo deseadas a Dynamics 365 para la aplicación de las operaciones. Necesita el permiso de administración del sistema para publicar el área de trabajo.
+Tras iniciar sesión en la aplicación, no hay espacios de trabajo visibles. Para ver los espacios de trabajo en su aplicación móvil, primero debe publicar los espacios de trabajo deseados para la aplicación Dynamics 365 for Operations. Necesita el permiso de administración del sistema para publicar el espacio de trabajo.
 
-1.  Dinámica 365 de inicio de las operaciones.
-2.  Retroceda ** Administración del sistema ** &gt; ** la configuración ** &gt; ** los parámetros del sistema **.
-3.  Seleccione ** gestionar la aplicación móvil **.
-4.  Seleccione el área de trabajo de colaboración ** ** proveedor para publicar en esta plataforma móvil.
-5.  Seleccione ** publique el área de trabajo **.
-6.  Actualización del dispositivo para ver las áreas de trabajo publicadas.
-7.  Seleccione ** colaboración del proveedor ** el área de trabajo. Es la página siguiente.
+1.  Inicie Dynamics 365 for Operations.
+2.  Vaya a **Administración del sistema** &gt; **Configurar** &gt; **parámetros del sistema**.
+3.  Seleccionar **Administrar aplicación móvil**.
+4.  Seleccione el espacio de trabajo **Colaboración de proveedor** para publicar en la plataforma móvil.
+5.  Seleccione **Publicar área de trabajo**.
+6.  Actualice su dispositivo para ver los espacios de trabajo publicados.
+7.  Seleccione el espacio de trabajo **Colaboración de proveedor**. Verá la página siguiente.
 
-[proveedor-colaboración-Mobile-aplicación de![] (. /media/vendor-collaboration-mobile-app.png])(. /media/vendor-collaboration-mobile-app.png)
+[![vendor-collaboration-mobile-app](./media/vendor-collaboration-mobile-app.png)](./media/vendor-collaboration-mobile-app.png)
 
 ## <a name="contacts"></a>Contactos
-** Contactos ** la página le permite ver todos los contactos que se han configurado para la cuenta de proveedor. Muestra el nombre de la persona de contacto, el correo electrónico principal, y los usuarios alias, si está disponible. También muestra si la cuenta de usuario de la persona de contacto está activo. Al seleccionar un contacto, verá los detalles de contacto, como cuyas para entidades jurídicas la persona es un contacto, y la información de contacto como el número de teléfono o otra dirección de correo electrónico.
+La página **Contactos** le permite ver todos los contactos que se han configurado para la cuenta de proveedor. Muestra el nombre de la persona de contacto, el correo electrónico principal y los alias de usuario, si los hay. También muestra si la cuenta de usuario de la persona de contacto está activa. Al seleccionar un contacto, verá los detalles del contacto como las entidades jurídicas para las que la persona es un contacto y la información de contacto, como el número de teléfono u otra dirección de correo electrónico.
 
 ## <a name="user-requests"></a>Solicitudes de usuarios
-** Solicitudes de usuario ** la página le permite ver todas las solicitudes de usuario que ha enviado a través de la interfaz web de colaboración del proveedor y realizar el seguimiento del estado. Al seleccionar una solicitud de usuario, puede ver lo que se ha solicitado, agrega o desactivar un usuario cambia, seguridad, y qué consulta roles de seguridad se solicitaron para el usuario.
+La página **Solicitudes de usuario** le permite ver todas las solicitudes de usuario que ha enviado a través de la interfaz web de colaboración de proveedor y realizar el seguimiento del estado. Al seleccionar una solicitud de usuario, puede ver lo que se ha solicitado, agregar o desactivar un usuario, cambiar la seguridad y ver qué roles de seguridad se solicitaron para el usuario.
 
-## <a name="purchase-orders-ready-for-review"></a>Pedidos de compra requieran de su revisión
-** Pedidos de compra requieran de su revisión ** la página le permite ver todos los pedidos de compra enviadas por el cliente y que se han respondido. Puede ver la información seleccionada sobre el pedido, como la que se han solicitado los productos y cuándo entregar. La información de precios sólo está disponible si se configura para el proveedor.  
+## <a name="purchase-orders-ready-for-review"></a>Pedidos de compra listos para revisión
+La página **Pedidos de compra listos para revisión** le permite ver todos los pedidos de compra enviados por el cliente y que no han recibido respuesta. Puede ver la información seleccionada sobre el pedido, como los productos que se han solicitado y cuándo se entregan. La información de precios solo está disponible si se ha configurado esto para el proveedor.  
 
-Puede ver si el pedido de compra tiene notas o datos adjuntos. Para abrir los datos adjuntos, necesita la colaboración del proveedor en el clientes Web. Seleccione ** línea de pedido de compra ** para ver todas las líneas con detalles. Tenga en cuenta que para cada línea, un indicador mostrará si hay notas o un adjunto o si hay una dirección de entrega que es diferente que lo que se muestra en el encabezado.  
+Puede ver si el pedido de compra tiene notas o adjuntos. Para abrir los adjuntos, necesita utilizar la colaboración de proveedor en el cliente web. Seleccione **Línea de pedido de compra** para ver todas las líneas con los detalles. Tenga en cuenta que en cada línea un indicador mostrará si hay notas o adjuntos o si hay una dirección de entrega diferente a la que se muestra en el encabezado.  
 
-Para responder al pedido de compra, debe usar el clientes Web de colaboración del proveedor.
+Para responder al pedido de compra, debe usar el cliente web de colaboración de proveedor.
 
 ## <a name="awaiting-customer-action"></a>Esperando acción del cliente
-** Aguardando la acción del cliente ** la página le permite encontrar los pedidos de compra a los que usted, o alguien de la empresa que también tenga acceso a la colaboración del proveedor, ha respondido. Los pedidos de compra son está visible en esta lista si el cliente necesita realizar una de las siguientes acciones en el pedido de compra.
+La página **Esperando acción del cliente** le permite encontrar los pedidos de compra a los que ha respondido usted o alguien de la empresa que también tiene acceso a la colaboración de proveedor. Los pedidos de compra solo están visibles en esta lista si el cliente necesita realizar una de las siguientes acciones en el pedido de compra.
 
--   Si el pedido de compra fuera rechazado el cliente, necesitará actualizar la orden registrada y enviarla de nuevo, o cancelar el pedido y reenviarla. Cuando un pedido de compra se volverá a enviar, desaparecerá ** en espera acción del cliente ** de la página.
--   Si el pedido de compra fuera aceptado con turnos, el cliente necesitará actualizar el pedido original y hacia atrás a revisión, o sólo actualizarlo en función de los cambios y confirmelo inmediatamente. En ambos casos, el pedido de compra desaparecerá ** en espera acción del cliente ** de la página.
--   Si el pedido de compra se aceptó y aparece en ** en espera acción del cliente ** la página, se debe a que el pedido de compra automáticamente no se confirmó cuando la aceptación se ha realizado. Está esperando un agente de compras para cambiar el orden a Confirmado. Normalmente, el pedido de compra sería considerado como el contrato entre el cliente y el proveedor tan pronto como el proveedor acepte el pedido. Mover el pedido de compra a la estado confirmado sería una formalidad.
+-   Si el pedido de compra se ha rechazado, el cliente necesitará actualizar el pedido enviado y enviarlo otra vez o cancelar el pedido y volver a enviar. Si el pedido de compra se vuelve a enviar, desaparecerá de la página **Esperando acción del cliente**.
+-   Si el pedido de compra se acepta con cambios, el cliente necesitará actualizar el pedido original y reenviarlo para su revisión o actualizarlo con los cambios y confirmarlo inmediatamente. En ambos casos, el pedido de compra desaparecerá de la página **Esperando acción del cliente**.
+-   Si el pedido de compra ha sido aceptado y aparece en la página **Esperando acción del cliente** es porque el pedido de compra no se ha confirmado automáticamente cuando la aceptación se ha realizado. Está esperando a que un agente de compras cambie el pedido a Confirmado. Normalmente, el pedido de compra sería considerado un contrato entre el cliente y el proveedor cuando el proveedor acepta el pedido. Mover el pedido de compra al estado Confirmado sería una formalidad.
 
-Mediante la selección del pedido de compra, detalles adicionales se producen de la respuesta. Puede ver los detalles de línea y respuesta de cada línea. Las muestra el estado de línea se ha dado que las respuestas de siguientes.
+Al seleccionar el pedido de compra, aparecen detalles adicionales sobre la respuesta. Puede ver los detalles de línea y responder a cada línea. El estado de línea muestra cuáles de las respuestas siguientes se han dado.
 
 -   Aceptado
 -   Rechazadas
 -   Aceptado con cambios
--   Sustituido/simple sustituto
--   Dividir en la programación o la línea de la programación
+-   Sustituido/Sustituir
+-   Dividir en programar/línea de programación
 
-Tenga en cuenta que un indicador muestra ** entregando ** =yes/no, que se usa para indicar que las líneas no se entregarán. Esto podría ser porque la línea se rechazó, o sustituido donde no se espera que las líneas del original se entreguen, o no se espera que una línea que ha estado divide en las líneas múltiples de programación y la línea original se haya entregado como se solicita en el pedido recibida.  
+Tenga en cuenta que un indicador muestra **En entrega**=sí/no, que se usa para indicar que las líneas no se entregarán. Esto podría deberse a que la línea se ha rechazado o sustituido en los casos en que no se espera que se entreguen las líneas originales o a que una línea se ha dividido en varias líneas de programación y no se espera que la línea original se entregue de la forma solicitada en el pedido recibido.  
 
-Los cambios realizados en la respuesta de la línea de pedido se muestra, excepto las notas y los datos adjuntos cargados, que puede ver mediante la interfaz web de colaboración del proveedor.
+Se muestran los cambios realizados en la respuesta de la línea de pedido, excepto las notas y los adjuntos cargados, que puede ver mediante la interfaz web de colaboración del proveedor.
 
-## <a name="open-confirmed-orders"></a>Pedidos confirmadas Abrir
-Cuando un pedido de compra es confirmado el cliente, que significa que el pedido de compra se modifican a la estado confirmado, aparecerá en el orden confirmado abierto. Permanecerá en la lista hasta que se registre como recibido por el cliente.
+## <a name="open-confirmed-orders"></a>Pedidos confirmados abiertos
+Si el pedido de compra está confirmado, lo que significa que ha cambiado al estado Confirmado, aparecerá en el pedido confirmado abierto. Permanecerá en la lista hasta que se registre como recibido por el cliente.
 
 

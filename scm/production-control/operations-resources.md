@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-resources"></a>Recursos de Operations
 
+[!include[banner](../includes/banner.md)]
+
+
 Los recursos de operaciones realizan las actividades de un proyecto o de un proceso de producción. Pueden ser de distintos tipos y tener diferentes capacidades. 
 
 <a name="operations-resources"></a>Recursos de Operations
@@ -36,7 +39,7 @@ Los recursos de operaciones realizan las actividades de un proyecto o de un proc
 Los recursos de operaciones son las máquinas, las herramientas, los trabajadores, las instalaciones, las áreas físicas o los proveedores que realizan las actividades de un proyecto o de un proceso de producción. Pueden ser de distintos tipos y pueden tener diferentes capacidades.
 
 -   **Proveedor**: un recurso externo que realiza las actividades de un proyecto o las operaciones de producción. Un ejemplo es un subcontratista. Al vincular recursos de proveedor a una cuanta de proveedor, puede generar compras para subcontratistas en función de las líneas de la lista de materiales (L. MAT.) o las líneas de producción.
--   **Recursos humanos**: un trabajador de proyecto o de producción que realiza una actividad, ya sea solo o como operador de una herramienta o de una máquina. Si utiliza la funcionalidad Recursos humanos, puede vincular a recursos humanos a un trabajador. El motor de programación puede asignar a recursos, en función de las capacidades definidas para el trabajador correspondiente.
+-   **Recursos humanos**: un trabajador de proyecto o de producción que realiza una actividad, ya sea solo o como operador de una herramienta o de una máquina. Si usa la funcionalidad de recursos humanos, puede vincular recursos humanos a un trabajador. El motor de programación puede asignar a recursos, en función de las capacidades definidas para el trabajador correspondiente.
 -   **Máquina**: una máquina u otro equipo de producción requerido en la producción.
 -   **Herramienta**: un instrumento o un dispositivo que se suele usar junto con otro recurso para realizar una actividad en un proyecto o en producción.
 -   **Ubicación**: una ubicación física de un tamaño determinado necesario para realizar una actividad. Un ejemplo es una zona de montaje.
@@ -80,5 +83,7 @@ Cuando usa un grupo de recursos como celda de trabajo lean, la capacidad de la c
 
 ## <a name="costing-resources"></a>Recursos de gestión de costes
 Al definir una actividad como una operación de ruta o una previsión de horas de proyecto, puede especificar el requisito para un recurso de operaciones o un grupo de recursos específico. Sin embargo, también puede especificar el requisito para un recurso de operaciones de un tipo específico o un recurso de operaciones que tiene una capacidad o una competencia específica. Por este motivo, la asignación real del recurso no se realiza hasta que se programe la actividad y se reserve la capacidad. Por lo tanto, en una operación de ruta, puede especificar que la estimación y el cálculo de L. MAT. deben basarse en un recurso de operaciones concreto. Hacen referencia a este recurso de operaciones como el recurso de gestión de costes. También puede transferir categorías de coste y tiempos de operación desde el recurso de gestión de costes a la actividad. Una vez programada la operación, la estimación y el cálculo de L. MAT. se realizan mediante el recurso de operaciones que esté programado.
+
+
 
 

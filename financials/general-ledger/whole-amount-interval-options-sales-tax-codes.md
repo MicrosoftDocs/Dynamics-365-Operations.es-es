@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Importe completo y opciones de cálculo de intervalo para los códigos de impuestos
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo explica las opciones del campo Método de cálculo en códigos de impuestos y cómo se calculan los impuestos para los intervalos y los importes completos.
 
 Puede configurar un código de impuestos para que se calcule en función de un importe completo o de un importe de intervalo. En la página de códigos de impuestos, use el campo Método de cálculo en la ficha desplegable Cálculo para seleccionar cómo calcular un código de impuestos.
@@ -56,10 +59,10 @@ Los impuestos se calculan sobre el importe gravable completo.
 
 | Importe gravable (precio) | Cálculo    | Impuestos |
 |------------------------|----------------|-----------|
-| 35,00                  | 35.00 \* 0.30  | 10,50     |
-| 50,00                  | 50.00 \* 0.30  | 15:00     |
-| 85,00                  | 85.00 \* 0.20  | 17,00     |
-| 305,00                 | 305.00 \* 0.10 | 30,50     |
+| 35,00                  | 35,00 \* 0,30  | 10,50     |
+| 50,00                  | 50,00 \* 0,30  | 15:00     |
+| 85,00                  | 85,00 \* 0,20  | 17,00     |
+| 305,00                 | 305,00 \* 0,10 | 30,50     |
 
 ## <a name="example-interval-method-of-calculation"></a>Ejemplo: método de cálculo de intervalo
 En la página Valores, los índices de impuestos se configuran en los siguientes intervalos:
@@ -75,14 +78,16 @@ Los impuestos son la suma de los importes de impuestos que se calculan para cada
 
 | Importe gravable (precio) | Cálculo                                                               | Impuestos |
 |------------------------|---------------------------------------------------------------------------|-----------|
-| 35,00                  | 35.00 \* 0.30                                                             | 10,50     |
-| 50,00                  | 50.00 \* 0.30                                                             | 15:00     |
-| 85,00                  | (50.00 \* 0.30 = 15.00) + (35.00 \* 0.20 = 7.00)                          | 22,00     |
-| 305,00                 | (50.00 \* 0.30 = 15.00) + (50.00 \* 0.20 = 10.00) + (205 \* 0.10 = 20.50) | 45,50     |
+| 35,00                  | 35,00 \* 0,30                                                             | 10,50     |
+| 50,00                  | 50,00 \* 0,30                                                             | 15:00     |
+| 85,00                  | (50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)                          | 22,00     |
+| 305,00                 | (50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50) | 45,50     |
 
  
 
-Para obtener más información, consulte [determinando los índices fiscales de ventas basadas en la base y los campos de Calculation marginales marginal-base-field.md] ().
+Para obtener más información, consulte [Determinación de los índices de impuestos de ventas en función de los campos Base marginal y Método de cálculo](marginal-base-field.md)
+
+
 
 
 

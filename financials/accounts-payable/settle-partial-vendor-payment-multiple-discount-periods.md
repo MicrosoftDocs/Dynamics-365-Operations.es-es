@@ -1,5 +1,5 @@
 ---
-title: "Establecer un pago de proveedor parcial con períodos de descuento varios"
+title: "Liquidar un pago de proveedor parcial con varios períodos de descuento"
 description: "Este artículo le guía por un escenario en el que se realizan varios pagos parciales a un proveedor que ofrece varios descuentos por pronto pago."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Establecer un pago de proveedor parcial con períodos de descuento varios
+# <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Liquidar un pago de proveedor parcial con varios períodos de descuento
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo le guía por un escenario en el que se realizan varios pagos parciales a un proveedor que ofrece varios descuentos por pronto pago. 
 
 El proveedor 3054 ofrece a Fabrikam un descuento por pronto pago del dos por ciento si una factura se paga en cinco días y un descuento por pronto pago del uno por ciento si una factura se paga en 14 días.
 
 ## <a name="invoice"></a>Factura
-El 28 de junio, abril crear una factura para 1,000.00 para el proveedor 3054. April puede ver esta transacción en la página **Transacciones de proveedor**.
+El 28 de junio, April crea una factura de 1.000,00 del proveedor 3054. April puede ver esta transacción en la página **Transacciones de proveedor**.
 
 | Comprobante   | Fecha      | Factura | Importe en débito en divisa de transacción | Importe en crédito en divisa de transacción | Saldo   | Divisa |
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
@@ -48,7 +51,7 @@ Los importes y las fechas de descuento por pronto pago siguientes están disponi
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="payment-on-july-2"></a>Pago el 2 de julio
-El 2 de julio, abril desea pagar 300.00 con esta factura. Ella crear un único pago mediante ** diario de pagos ** la página de proveedores. Agrega una línea para el proveedor 3054 y especifica un importe de pago de **300,00**. Abril abre después la página **Liquidar transacciones** para marcar la factura que se liquidará. Actualiza el valor del campo **Importe para liquidar** a **300,00** y observa que el valor en el campo **Importe de descuento por pronto pago para aplicar** ha cambiado a **6,12**. Dado que este pago se realiza en el primer período de descuento, se aplica un descuento del 2 por ciento.
+El 2 de julio, April quiere pagar 300,00 para esta factura. Crea un pago único mediante la página **Diario de pagos** en Proveedores. Agrega una línea para el proveedor 3054 y especifica un importe de pago de **300,00**. Abril abre después la página **Liquidar transacciones** para marcar la factura que se liquidará. Actualiza el valor del campo **Importe para liquidar** a **300,00** y observa que el valor en el campo **Importe de descuento por pronto pago para aplicar** ha cambiado a **6,12**. Dado que este pago se realiza en el primer período de descuento, se aplica un descuento del 2 por ciento.
 
 | Marcar | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha      | Fecha de vencimiento  | Factura | Importe en divisa de la transacción | Divisa | Importe para liquidar |
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -134,6 +137,8 @@ El 20 de julio, April crea un pago final de 200,00. No se aplica ningún descuen
 | APP-10061  | 12/7/2015 |         | 495,00                               |                                       | 0,00    | USD      |
 | DISC-10061 | 12/7/2015 |         | 5,00                                 |                                       | 0,00    | USD      |
 | APP-10062  | 7/20/2015 |         | 200,00                               |                                       | 0,00    | USD      |
+
+
 
 
 

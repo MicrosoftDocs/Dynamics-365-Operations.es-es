@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consignment"></a>Entrega
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tema explica cómo usar los procesos de entrada de inventario de envío.
 
-El inventario de envío es el inventario que es propiedad de un proveedor, pero se almacena en su ubicación. Cuando esté listo para consumir o usar el inventario, asume el control de la propiedad del inventario. Este tema incluye información acerca de cómo recibir físicamente el inventario de propiedad disponible sin crear transacciones de contabilidad general, cómo iniciar un proceso de producción en el inventario de propiedad se puede reservar físicamente. y la propiedad de la materia prima para que se puedan procesar el consumo como parte del procesamiento de pedido de producción. También contiene información acerca de cómo los proveedores pueden controlar el consumo del inventario mediante la interfaz de colaboración de proveedor. Para obtener información sobre el modo de habilitar y configurar los procesos de entrada de envío, consulte [Configuración del envío](set-up-consignment.md).
+El inventario de envío es el inventario que es propiedad de un proveedor, pero se almacena en su ubicación. Cuando esté listo para consumir o usar el inventario, asume el control de la propiedad del inventario. Este tema incluye información acerca de cómo recibir físicamente el inventario disponible propiedad del proveedor sin crear transacciones de contabilidad general, cómo iniciar un proceso de producción en el que se pueda reservar físicamente el inventario propiedad del proveedor, y cómo cambiar la propiedad de la materia prima para poder procesar el consumo como parte del procesamiento del pedido de producción. También contiene información acerca de cómo los proveedores pueden controlar el consumo del inventario mediante la interfaz de colaboración de proveedor. Para obtener información sobre el modo de habilitar y configurar los procesos de entrada de envío, consulte [Configuración del envío](set-up-consignment.md).
 
 ## <a name="overview-of-the-consignment-process"></a>Información general del proceso de envío
 En este ejemplo, la empresa USMF tiene un acuerdo de envío con el proveedor US-104 para la materia prima M9211CI.
@@ -57,9 +60,9 @@ USMF realiza procesos periódicos adicionales:
 El proveedor, US-104, puede controlar las actualizaciones mediante la página **Inventario disponible de envío**.
 
 ## <a name="consignment-replenishment-orders"></a>Pedidos de reabastecimiento de entrega
-Un pedido de reabastecimiento de envío es un documento que se usa para solicitar y realizar un seguimiento de las cantidades de producto de inventario que un proveedor pretende entregar dentro de un intervalo de fechas concreto mediante la creación de transacciones de inventario solicitadas. Normalmente, esto se realiza en función del pronóstico y la demanda real de productos concretos. El inventario que va se va a recibir con el pedido de reabastecimiento de envío permanece siendo propiedad del proveedor. Únicamente se registra la propiedad de los productos relacionados con la actualización de la factura física y por tanto, no hay actualizaciones de la transacción de contabilidad general. La dimensión del **Propietario** se utiliza para separar la información sobre qué inventario es propiedad del proveedor y cuál es propiedad de la entidad jurídica receptora. Las líneas de pedido de reabastecimiento del envío tienen ** pedido abierto ** un estado y la cantidad completa de las líneas no se haya recibido ni se hayan cancelado. Cuando se ha recibido o cancelado la cantidad completa, cambie el estado a ** ** completado. El inventario físico disponible relacionado con un pedido de reabastecimiento de envío se puede registrar mediante un Proceso de registro así como mediante un Proceso de actualización de recepción de producto. El registro se puede realizar como parte del proceso de recepción de artículo o actualizando manualmente las líneas de pedido. Cuando se usa el Proceso de actualización de la recepción de producto, se realiza un registro en el diario de recepción de producto, que puede usarse para confirmar la recepción de mercancías a los proveedores. 
+Un pedido de reabastecimiento de envío es un documento que se usa para solicitar y realizar un seguimiento de las cantidades de producto de inventario que un proveedor pretende entregar dentro de un intervalo de fechas concreto mediante la creación de transacciones de inventario solicitadas. Normalmente, esto se realiza en función del pronóstico y la demanda real de productos concretos. El inventario que va se va a recibir con el pedido de reabastecimiento de envío permanece siendo propiedad del proveedor. Únicamente se registra la propiedad de los productos relacionados con la actualización de la factura física y por tanto, no hay actualizaciones de la transacción de contabilidad general. La dimensión del **Propietario** se utiliza para separar la información sobre qué inventario es propiedad del proveedor y cuál es propiedad de la entidad jurídica receptora. Las líneas de pedido de reabastecimiento del envío tienen un estado de **Pedido abierto** siempre que la cantidad completa de las líneas no se haya recibido ni cancelado. Cuando la cantidad completa se ha recibido o cancelado, el estado se cambia a **Completado**. El inventario físico disponible relacionado con un pedido de reabastecimiento de envío se puede registrar mediante un Proceso de registro así como mediante un Proceso de actualización de recepción de producto. El registro se puede realizar como parte del proceso de recepción de artículo o actualizando manualmente las líneas de pedido. Cuando se usa el Proceso de actualización de la recepción de producto, se realiza un registro en el diario de recepción de producto, que puede usarse para confirmar la recepción de mercancías a los proveedores. 
 
-[envío-reabastecimiento-orden de![] (. /media/consignment-replenishment-order.png])(. /media/consignment-replenishment-order.png)
+[![consignment-replenishment-order](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Diario de cambio de propiedad de inventario
 El proceso de cambio de propietario de inventario del proveedor a la entidad jurídica receptora se realiza mediante un diario de cambio de propiedad de inventario. Para el diario, no se crean transacciones de inventario inesperadas. Las únicas transacciones de inventario que se crean son aquellas relacionadas con un diario registrado. Cuando se registra el diario:
@@ -69,14 +72,16 @@ El proceso de cambio de propietario de inventario del proveedor a la entidad jur
 
 No es posible actualizar la cantidad de líneas de pedido de compra del envío después de que se haya creado el pedido. 
 
-[![inventario-posesión-cambio-Journal] (. /media/inventory-ownership-change-journal.png])(. /media/inventory-ownership-change-journal.png)
+[![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Colaboración de proveedor en procesos de envío
 La interfaz de colaboración del proveedor tiene tres páginas relacionadas con el proceso de entrada de envío:
 
--   ** Pedidos de compra ** ** que consumen el inventario de envío ** - Pedido de compra detallado de las muestra la información relacionada con el cambio de propiedad del proceso de envío.
+-   **Pedidos de compra** **que consumen el inventario de envío** - Muestra información detallada del pedido de compra relacionada con el cambio de propiedad del proceso de envío.
 -   **Productos recibidos de inventario de envío** - Muestra información sobre los artículos y las cantidades que tienen facturas de productos actualizados durante el proceso de cambio de propiedad.
 -   **Inventario disponible de envío** - Muestra información sobre los artículos de envío que se esperan entregar, y los artículos que ya están físicamente disponibles en la ubicación del cliente.
+
+
 
 
 

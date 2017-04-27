@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configuration-rules"></a>Reglas de configuración
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo ofrece información general relativa a las reglas de configuración. Las reglas de configuración definen relaciones entre artículos de una lista de materiales (L. MAT) para los productos que usan la tecnología de configuración basada en dimensiones.
 
 Las reglas de configuración están disponibles si define modelos de configuración basada en dimensiones. Las reglas de configuración se usan para hacer cumplir o prohibir combinaciones específicas de artículos en una lista de materiales (L. MAT.). Después de crear una L. MAT. y asignar los artículos relevantes a los grupos de configuración respectivos, pueden definirse una o más reglas de configuración. Si dos artículos deben ir juntos, se usará el operador **Seleccionar** para garantizar la inclusión. Si dos artículos se excluyen mutuamente, se usa el operador **Anular selección** para garantizar la exclusión.  
@@ -42,5 +45,7 @@ Las configuraciones existentes no se ven afectadas por los cambios posteriores e
 --------
 
 [Configuración de producto basada en dimensiones](dimension-based-product-configuration.md)
+
+
 
 

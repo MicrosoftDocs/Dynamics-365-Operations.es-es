@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-credit"></a>Carta de crédito
 
+[!include[banner](../includes/banner.md)]
+
+
 Los créditos documentarios son documentos bancarios que se suelen usar para la compra y la venta de bienes entre fronteras internacionales. 
 
 Las cartas de crédito se usan en transacciones internacionales para garantizar que se efectuarán los pagos. Una carta de crédito es un contrato que emite un banco, por el cual el banco garantiza el pago en nombre del comprador, siempre que se cumplan las condiciones del contrato entre el comprador y el vendedor. Recuerde que una carta de crédito también se conoce como un crédito documentario (CD). 
@@ -41,5 +44,7 @@ Para un crédito documentario de importación, la entidad jurídica es el compra
 El crédito documentario incluye una descripción de las mercancías, los documentos requeridos, la fecha de envío y la fecha de vencimiento después de la que el pago no se realizará. El banco emisor cobra un margen por el crédito documentario. 
 
 Un crédito documentario puede ser revocable o irrevocable. La naturaleza de una carta de crédito puede ser transferible, no transferible o rotativa. Normalmente, un crédito documentario es un contrato irrevocable y confirmado que garantiza el pago a un beneficiario específico tras el envío de la documentación completa y precisa del envío.
+
+
 
 

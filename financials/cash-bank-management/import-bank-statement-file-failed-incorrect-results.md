@@ -1,6 +1,6 @@
 ---
 title: "Solución de problemas de la importación de archivos de extractos bancarios"
-description: "Es importante que el archivo de extractos bancarios de la coincidencia del banco que el diseño Microsoft Dynamics 365 para las operaciones admite. Debido a los estrictos estándares para extractos bancarios, la mayoría de las integraciones funcionarán correctamente. Sin embargo, a veces, el archivo de extracto no se puede importar o tiene resultados incorrectos. Normalmente, estos problemas son originados por pequeñas diferencias en el archivo de extracto bancario. En este artículo se explica cómo corregir estas diferencias y resolver los problemas."
+description: "Es importante que el archivo de extracto bancario del banco coincida con el diseño admitido por Microsoft Dynamics 365 for Operations. Debido a los estrictos estándares para extractos bancarios, la mayoría de las integraciones funcionarán correctamente. Sin embargo, a veces, el archivo de extracto no se puede importar o tiene resultados incorrectos. Normalmente, estos problemas son originados por pequeñas diferencias en el archivo de extracto bancario. En este artículo se explica cómo corregir estas diferencias y resolver los problemas."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bank-statement-file-import-troubleshooting"></a>Solución de problemas de la importación de archivos de extractos bancarios
 
-Es importante que el archivo de extractos bancarios de la coincidencia del banco que el diseño Microsoft Dynamics 365 para las operaciones admite. Debido a los estrictos estándares para extractos bancarios, la mayoría de las integraciones funcionarán correctamente. Sin embargo, a veces, el archivo de extracto no se puede importar o tiene resultados incorrectos. Normalmente, estos problemas son originados por pequeñas diferencias en el archivo de extracto bancario. En este artículo se explica cómo corregir estas diferencias y resolver los problemas.
+[!include[banner](../includes/banner.md)]
+
+
+Es importante que el archivo de extracto bancario del banco coincida con el diseño admitido por Microsoft Dynamics 365 for Operations. Debido a los estrictos estándares para extractos bancarios, la mayoría de las integraciones funcionarán correctamente. Sin embargo, a veces, el archivo de extracto no se puede importar o tiene resultados incorrectos. Normalmente, estos problemas son originados por pequeñas diferencias en el archivo de extracto bancario. En este artículo se explica cómo corregir estas diferencias y resolver los problemas.
 
 <a name="what-is-the-error"></a>¿Qué es el error?
 ------------------
@@ -34,16 +37,16 @@ Es importante que el archivo de extractos bancarios de la coincidencia del banco
 Tras intentar importar un archivo de extracto bancario, vaya al historial de trabajos de administración de datos y sus detalles de ejecución para encontrar el error. El error puede resultar de ayuda al señalar la instrucción, el saldo o la línea de extracto. Sin embargo, es poco probable que proporcione suficiente información para ayudarle a identificar el campo o el elemento que está ocasionando el problema.
 
 ## <a name="what-are-the-differences"></a>¿Cuáles son las diferencias?
-Comparar la definición del diseño de archivo del banco en Microsoft Dynamics 365 para la definición de importación de operaciones, y observe los posibles diferencia en los campos y artículos. Comparar el archivo de extracto bancario a Dynamics 365 relacionada de muestreo para el archivo de las operaciones. En los archivos ISO20022, la diferencia debe ser fácil de contabilidad.
+Compare la definición del diseño de archivos de banco con la definición de importación de Microsoft Dynamics 365 for Operations y observe los posibles diferencias en los campos y elementos. Compare el archivo de extracto bancario con el archivo de muestra relacionado de Dynamics 365 for Operations. En los archivos ISO20022 las diferencia se verán fácilmente.
 
 ## <a name="transformations"></a>Transformaciones
 Normalmente, el cambio se debe realizar en una de tres transformaciones. Cada transformación se escribe para un estándar específico.
 
 | Nombre del recurso                                         | Nombre de archivo                          |
 |-------------------------------------------------------|------------------------------------|
-| BankStmtImport\_BAI2CSV\_al xslt\_\_BAI2XML            | BAI2CSV-to-BAI2XML.xslt            |
-| BankStmtImport\_ISO20022XML\_al xslt\_\_conciliación\_ | ISO20022XML-to-Reconciliation.xslt |
-| BankStmtImport\_MT940TXT\_al xslt\_\_MT940XML          | MT940TXT-to-MT940XML.xslt          |
+| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt            | BAI2CSV-to-BAI2XML.xslt            |
+| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt | ISO20022XML-to-Reconciliation.xslt |
+| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt          | MT940TXT-to-MT940XML.xslt          |
 
 ## <a name="debugging-transformations"></a>Depuración de transformaciones
 ### <a name="adjust-the-bai2-and-mt940-files"></a>Ajustar los archivos BAI2 y MT940
@@ -68,7 +71,7 @@ Para obtener más información, consulte <https://msdn.microsoft.com/en-us/libra
 5.  Establezca la entrada en la ubicación del archivo del extracto bancario.
 6.  Defina una ubicación y un nombre de archivo para la salida.
 7.  Establezca los puntos de interrupción necesarios.
-8.  En el menú, haga clic en XML ** ** &gt; ** empiece depuración XSLT **.
+8.  En el menú, haga clic en **XML** &gt; **Iniciar depuración de XSLT**.
 
 ### <a name="format-the-xslt-output"></a>Aplicar formato a la salida de XSLT
 
@@ -76,7 +79,7 @@ Cuando se ejecuta la transformación, crea un archivo de salida que pueda ver en
 
 ### <a name="adjust-the-transformation"></a>Ajustar la transformación
 
-Ajuste la transformación para obtener el elemento o el campo adecuado en el archivo de extracto bancario. A continuación asigne ese campo o artículo a Dynamics 365 adecuada para el artículo de las operaciones.
+Ajuste la transformación para obtener el elemento o el campo adecuado en el archivo de extracto bancario. A continuación, asigne ese campo o artículo al elemento de Dynamics 365 for Operations adecuado.
 
 ### <a name="debitcredit-indicator"></a>Indicador de débito o crédito
 
@@ -87,7 +90,7 @@ A veces, los débitos se pueden importar como créditos y los créditos se puede
 -   Plantilla GetCreditDebitIndicator de MT940XML-to-Reconcilation.xslt
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Ejemplos de diseños técnicos y formatos de extracto bancario
-En la tabla siguiente se muestran ejemplos de las definiciones de diseño técnico para los archivos de importación de conciliación bancaria avanzados y tres archivos de ejemplo de extracto bancario relacionados. Puede descargar los archivos de ejemplo y los diseños técnicos aquí: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+En la tabla siguiente se muestran ejemplos de las definiciones de diseño técnico para los archivos de importación de conciliación bancaria avanzados y tres archivos de ejemplo de extracto bancario relacionados. Puede descargar los archivos de ejemplo y los diseños técnicos desde: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 
 | Definición de diseño técnico                             | Archivo de ejemplo de extracto bancario          |
@@ -95,6 +98,8 @@ En la tabla siguiente se muestran ejemplos de las definiciones de diseño técni
 | DynamicsAXMT940Layout                                   | MT940StatementExample                |
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+
+
 
 
 

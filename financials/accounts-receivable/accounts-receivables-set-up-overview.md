@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Configurar Clientes y créditos y cobros
 
+[!include[banner](../includes/banner.md)]
+
+
 Configure Clientes y Crédito y cobros para controlar todas las facturas y los pagos entrantes de clientes.
 
 Puede configurar los grupos de clientes, clientes, perfiles de registro, varias opciones de pago, notas de interés, cartas de cobro, comisiones, parámetros relativos a los clientes, gastos, entregas y destinos, letras de cambio, así como otros tipos de informaciones de Clientes y créditos y cobros.
 En la tabla siguiente se muestran las páginas que admiten la configuración y el mantenimiento de Clientes y créditos y cobros. Las entradas de la tabla están organizadas por tarea y, a continuación, alfabéticamente por nombre de página.
 
-| ! Nota [] (nota “https://i-technet.sec.s-msft.com/areas/global/content/clear.gif”) ** nota **          |
+| ![Nota](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Nota")**Nota**          |
 |--------------------------------------------------------------------------------------------------|
 | Algunas páginas de la tabla siguiente requieren información o configuración de parámetros para poder explorarlas. |
 
@@ -98,14 +101,16 @@ En la tabla siguiente se muestran las páginas que admiten la configuración y e
 |                                                      | Contactos de cliente y parámetros de correo electrónico | Configure los contactos para los clientes con sus direcciones de correo electrónico. Estas direcciones aparecerán en la página de cobros y se usarán para crear los correos electrónicos que van a los clientes. Configure también un contacto de cobros predeterminado para cada cliente que aparecerá primero en la página de cobros. |
 |                                                      | Secciones de clientes                       | Permite configurar secciones de clientes, que son consultas que definen un grupo de cuentas de clientes que pueden mostrarse y gestionarse para cobros o procesos de vencimiento.                                                                                                                           |
 |                                                      | Perfil de contabilización del cliente             | Permite configurar los perfiles que controlan el registro de transacciones del cliente en la contabilidad general.                                                                                                                                                                                      |
-|                                                      | Códigos de motivo de cliente                | Códigos de motivos de instalación del cliente.                                                                                                                                                                                                                                                    |
-|                                                      | Códigos de motivo de cancelaciones del cliente      | Códigos de motivos de instalación de cancelaciones del cliente que se usarán para transacciones de cancelación.                                                                                                                                                                                             |
+|                                                      | Códigos de motivo de cliente                | Cofigure códigos de motivo de cliente.                                                                                                                                                                                                                                                    |
+|                                                      | Códigos de motivo de cancelación de cliente      | Configure los códigos de motivos de cancelación de cliente que se usarán para las transacciones de cancelación.                                                                                                                                                                                             |
 |                                                      | Configuración de formulario                           | Permite definir parámetros de notas de formulario para presupuestos, confirmaciones, listas de selección, albaranes, facturas de clientes, facturas de servicios y notas de interés.                                                                                                                               |
 |                                                      | Interés                             | Permite configurar y gestionar códigos de interés.                                                                                                                                                                                                                                                 |
 |                                                      | Información de NSF.                     | Configure la información de NSF sobre la cuenta bancaria que se usará cuando un pago se marque como una transacción NSF en la página de cobros.                                                                                                                                              |
 |                                                      | Información del vendedor              | Configure la dirección de correo electrónico para los vendedores. Estas direcciones aparecerán en la página de cobros y puede usarlas para enviar correo electrónico a un vendedor desde esa página.                                                                                                                |
 
  
-Para obtener más información, consulte [crédito y cobros en Clientes] () collections-credit-accounts-receivable.md.
+Para obtener más información, consulte [Credito y cobros en clientes](collections-credit-accounts-receivable.md).
+
+
 
 

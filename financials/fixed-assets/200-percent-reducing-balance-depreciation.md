@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="200-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 200%
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 200%.
 
 Al configurar un método de depreciación de activos fijos y seleccionar el valor **Depreciación degresiva del 200%** en el campo **Método** de la página **Métodos de depreciación**, los activos fijos que se asignan al método de depreciación se deprecian por el mismo porcentaje en cada período de depreciación. El porcentaje se calcula en función del tiempo de vida del activo. Por ejemplo, si un activo tiene un tiempo de vida de cinco años, el porcentaje se calcula como 40 por ciento (200% ÷ 5). 
@@ -44,7 +47,7 @@ La selección determina las opciones disponibles en el campo **Frecuencia de per
 
 Puede elegir mantener el valor predeterminado en el campo **Año de depreciación**, **Calendario**. 
 
-La opción **Calendario** actualiza la base de depreciación el 1 de enero de cada año. Normalmente, la depreciación es el valor neto menos el valor residual. En el ejemplo, más adelante en este tema, la base de depreciación es el numerador en la primera expresión en los cálculos de la columna de cálculos. 
+La opción **Calendario** actualiza la base de depreciación el 1 de enero de cada año. Normalmente, la depreciación es el valor neto en los libros menos el valor residual. En el ejemplo, más adelante en este tema, la base de depreciación es el numerador en la primera expresión en los cálculos de la columna de cálculos. 
 
 Si selecciona **Calendario** como año de depreciación, aparecen las siguientes opciones disponibles en el campo **Frecuencia de períodos**:
 
@@ -58,7 +61,7 @@ Si selecciona **Calendario** como año de depreciación, aparecen las siguientes
 
 Si selecciona **Fiscal** en el campo **Año de depreciación**, la depreciación degresiva del 200% se calcula en base al ejercicio fiscal del calendario fiscal especificado para el libro o para el calendario fiscal seleccionado en la página **Libro mayor**. Los calendarios fiscales se configuran en la página **Calendarios fiscales**. 
 
-Por ejemplo, para el ejercicio del 1 de julio al 30 de junio, el cálculo de depreciación empieza el 1 de julio. El ejercicio no puede ser superior ni inferior a los 12 meses. La depreciación se ajusta para cada período. La extensión del siguiente ejercicio se determina por los períodos fiscales configurados en la página **Calendarios fiscales**. 
+Por ejemplo, para el ejercicio del 1 de julio al 30 de junio, el cálculo de la depreciación comienza el 1 de julio. El ejercicio no puede ser superior ni inferior a los 12 meses. La depreciación se ajusta para cada período. La extensión del siguiente ejercicio se determina por los períodos fiscales configurados en la página **Calendarios fiscales**. 
 
 Si selecciona **Fiscal** como año de depreciación, aparecen las siguientes opciones disponibles en el campo **Frecuencia de períodos**:
 
@@ -83,6 +86,8 @@ El método de depreciación degresiva del 200% divide el 200 por ciento entre lo
 | Año 3 | 3.600 × 40% = 1.440                           | 4.600 - 1.440 = 3.160  | 3.600 - 1.440 = 2.160                 |
 
 > [!NOTE] 
-> Normalmente, cuando el importe que se calcula mediante el método de depreciación degresiva 200% se reduce por debajo del importe que sería calculado mediante el método lineal, hay una conversión al método de depreciación lineal para el tiempo de vida restante.
+> Normalmente, cuando el importe que se calcula mediante el método de depreciación degresiva del 200% resulta inferior al importe que se calcularía con el método de amortización lineal, se realiza una conversión al método de amortización lineal para la vida restante.
+
+
 
 

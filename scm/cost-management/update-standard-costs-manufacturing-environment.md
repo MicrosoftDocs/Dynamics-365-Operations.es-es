@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>Actualizar costes estándar en un entorno de fabricación
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona orientación acerca de cómo actualizar los costes estándar en un entorno de no fabricación. 
 
 Las actualizaciones pueden reflejar nuevos artículos, categorías de coste o fórmulas de cálculo de costes indirectos. También pueden reflejar correcciones y cambios de coste. El tipo de actualización afecta a los pasos que debe completar para actualizar los costes estándar, tal como se muestra en los casos siguientes:
@@ -43,5 +46,7 @@ Las actualizaciones pueden reflejar nuevos artículos, categorías de coste o f�
 -   Calcula los costes de un nuevo artículo fabricado en función de su información de L. MAT y ruta definidas, aprobadas y activas.
 
 Cada caso requiere una consideración cuidadosa sobre cómo se deben actualizar los costes estándar.
+
+
 
 

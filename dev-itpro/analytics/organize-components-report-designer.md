@@ -49,18 +49,18 @@ Puede agrupar definiciones de informes para generar varios informes al mismo tie
 ### <a name="create-a-report-group"></a>Crear un grupo de informes
 
 1.  En el diseñador de informes, en el panel de navegación, haga clic en **Grupos de informes**.
-2.  En ** archivo ** el menú, haga clic en ** nuevo ** &gt; ** la definición del grupo de informe ** abrir un nuevo grupo de informe en la ventana del visor. Esta De forma alternativa, haga clic en ** grupo de informe ** el botón! Grupo de [] (informe https://i-technet.sec.s-msft.com/dynimg/IC679515.gif “grupo de informe”) en la barra de herramientas.
+2.  En el menú **Archivo**, haga clic en **Nuevo** &gt; **Definición de grupo de informes** para abrir un nuevo grupo de informe en la ventana del visor. De forma alternativa, haga clic en el botón **Grupo de informes** ![Grupo de informes](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Grupo de informes") de la barra de herramientas.
 3.  Haga clic en la pestaña **Grupo de informes**. Para reemplazar la información sobre las definiciones de informes individuales para la generación de este informe, active la casilla **Eliminar la configuación de empresa, detalles y fecha de las definiciones de informes individuales**. La información sobre el nombre de la empresa, el nivel de detalle, la configuración provisional y la fecha se especifica automáticamente, pero puede realizar actualizaciones.
 4.  Para generar varios informes que muestren las divisas de notificación, active la casilla **Incluir todas las divisas de notificación**. A continuación, para obtener acceso a varias vistas, haga clic en el botón **Divisa** en el visor de la web al ver el informe.
 5.  En el campo **Informes en grupo**, haga clic en **Agregar** para seleccionar los informes que se incluirán en el grupo de informes. Para seleccionar varios informes en el cuadro de diálogo **Agregar**, mantenga presionada la tecla Ctrl mientras selecciona los informes. Cuando haya finalizado de seleccionar informes, haga clic en **Aceptar**.
-6.  Haga clic en ** archivo ** &gt; ** Guardar ** guardar el nuevo grupo de informe.
+6.  Haga clic en **Archivo** &gt; **Guardar** para guardar el nuevo grupo de informes.
 
 ### <a name="modify-a-report-group"></a>Modificar un grupo de informes
 
 1.  En el diseñador de informes, en el panel de navegación, haga clic en **Grupos de informes**.
 2.  Haga doble clic en el grupo de informes para modificarlo.
 3.  En la pestaña **Grupo de informes**, realice los cambios que desee.
-4.  En ¡** archivo ** el menú, haga clic en Guardar ** ** para guardar el grupo de informe, modificado, haga clic en Guardar como intercambiables ** ** el botón! Salvaguardia [] (Guardar “https://i-technet.sec.s-msft.com/dynimg/IC679516.gif”) en la barra de herramientas.
+4.  En el menú **Archivo**, haga clic en **Guardar** para guardar el grupo de informes modificado. De forma alternativa, haga clic en el botón **Guardar** ![Guardar](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Guardar") de la barra de herramientas.
 
 **Note:** Si ha programado informes para que se generen en intervalos definidos, puede anular esos ajustes y generar un informe inmediatamente.
 
@@ -68,7 +68,7 @@ Puede agrupar definiciones de informes para generar varios informes al mismo tie
 
 1.  En el diseñador de informes, en el panel de navegación, haga clic en **Grupos de informes**.
 2.  Abra el grupo de informes que desea generar.
-3.  Esta Haga clic en ** generar el informe ** el botón! [Generar el informe] (https://i-technet.sec.s-msft.com/dynimg/IC679517.gif “genera el informe”) generar informes.
+3.  Haga clic en el botón **Generar informe** ![Generar informe](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Generar informe") para generar informes.
 
 ### <a name="delete-a-report-group"></a>Eliminar un grupo de informes
 
@@ -104,8 +104,8 @@ En la tabla siguiente se describen los controles de la pestaña **Grupo de infor
 <td>Especifique el nivel de detalle que incluyen los informes.
 <ul>
 <li><strong>Financiero</strong>: un informe resumido de alto nivel. No puede explorar en profundidad las cuentas y dimensiones, salvo las cuentas y dimensiones que se han agregado a través de un organigrama.</li>
-<li><strong>Financiero &amp; Cuenta</strong> Informe de Costes que contiene un resumen de alto nivel y los detalles de la cuenta.</li>
-<li><strong>Financiera, cuenta, &amp; Transacción</strong> Informe de Costes que contiene un resumen de alto nivel y los detalles de la transacción.</li>
+<li><strong>Financiero y contable</strong>: un informe que contiene un resumen de alto nivel y detalles de la cuenta.</li>
+<li><strong>Financiero, contable y de transacciones</strong>: un informe que contiene un resumen de alto nivel y detalles de transacciones.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -154,6 +154,6 @@ Solo la configuración del período de base predeterminado se guarda con la defi
 <a name="see-also"></a>Consulte también
 --------
 
-[Informe financiero para Microsoft Dynamics 365 para las operaciones (financial-reporting-intro.md])
+[Informes financieros para Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

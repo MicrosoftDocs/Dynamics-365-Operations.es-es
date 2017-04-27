@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Revalorización de divisa en una empresa de consolidación
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Cuando se consolidan datos desde una divisa de contabilidad a otra, debe seguir ejecutando la revalorización de divisa si hay un cambio en tipos de cambio, para revalorizar los saldos de cuenta correctamente. Al consolidar por primera vez los datos, use la pestaña **Traducción de divisas** para seleccionar los tipos de cambio iniciales para su traducción durante el proceso de consolidación. Después de que se introduzcan un nuevo tipo de cambio (por ejemplo, el mes próximo), debe revalorizar los saldos de cuenta. Después se actualizarán los beneficios no realizados o las pérdidas, en función de la fecha y los nuevos tipo de cambio. En el ejemplo siguiente se muestran los asientos contables que se crean durante el proceso.
@@ -33,7 +36,7 @@ Cuando se consolidan datos desde una divisa de contabilidad a otra, debe seguir 
 ## <a name="company-setup"></a>Configuración de empresa
 -   **Empresa de origen u operadora (USMF):** se usan dólares americanos (USD) como la divisa de contabilidad y de notificación.
 -   **Empresa consolidada (CON):** se usan euros (EUR) como la divisa de contabilidad y de notificación.
-    -   ** Ganancia realizado ** cuenta contable – 801500
+    -   **Beneficio realizado**: cuenta contable 801500
     -   **Pérdida realizada:** cuenta contable 801600
     -   **Beneficio no realizado:** cuenta contable 801600
     -   **Pérdida no realizada:** cuenta contable 801400
@@ -82,6 +85,8 @@ Verá transacciones adicionales para los importes de divisa de notificación.
 | 130100         | EUR      | -500,00 | Importe original de -500 × 1                          |
 | 801400         | EUR      | 250     | 500 – 333,33 = 166,67 166,67 + 83,33 = 250           |
 | 801600         | EUR      | -250    | -500 – (-333,33) = -166,67 -166,67 + (-83,33) = -250 |
+
+
 
 
 

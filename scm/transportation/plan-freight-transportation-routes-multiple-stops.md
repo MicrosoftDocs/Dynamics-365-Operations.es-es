@@ -1,5 +1,5 @@
 ---
-title: Rutas de transporte de la carga del plan a varios se detiene
+title: Planificar rutas de transporte de flete con varias paradas
 description: "Este artículo describe los distintos elementos que utiliza para planificar rutas de transporte en Microsoft Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Rutas de transporte de la carga del plan a varios se detiene
+# <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planificar rutas de transporte de flete con varias paradas
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo describe los distintos elementos que utiliza para planificar rutas de transporte en Microsoft Dynamics AX.
 
@@ -48,5 +51,7 @@ Una ruta programada es un plan de ruta predefinido que tiene una programación p
 
 ## <a name="load-building-workbench"></a>Área de trabajo de planificación de la carga
 El Área de trabajo de planificación de la carga utiliza direcciones y fechas de entrega desde pedidos de ventas y las rutas programadas que están disponibles para proponer una carga. De forma predeterminada, los valores de la ruta se especifican en el área de trabajo. Sin embargo, puede seleccionar una fecha de inicio que sea anterior a la fecha de inicio en la ruta. Cuando se propone una carga, se comprueban la dirección de entrega y la fecha de entrega de pedidos de ventas abiertos. Si el código postal de la dirección de entrega coincide con el código postal de un concentrador en el plan de viaje, y la fecha de entrega se encuentra dentro del intervalo seleccionado en los criterios, se propone la orden de venta para la carga. También se considera la capacidad de la plantilla de carga. Solo se propone una carga cada vez. Si tiene un pedido de ventas que no se incluye, es posible que tenga que utilizar una plantilla de carga diferente (por ejemplo, una plantilla de carga para un camión o un contenedor más grandes) o planificar una entrega adicional.
+
+
 
 

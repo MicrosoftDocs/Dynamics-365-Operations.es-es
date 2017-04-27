@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-invoicing"></a>Facturación del proyecto
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona una visión general de la facturación del proyecto para Proyectos de tiempo y material y Proyectos de precio fijo. Incluye información acerca de las propuestas de factura (facturas preliminares), control de facturas, facturación a cuenta, facturación de proveedor y notas de abono.
 
 El tipo de proyecto determina el procedimiento de facturación que se debe aplicar. Solo se pueden facturar los dos tipos de proyecto externo, Tiempo y material y Precio fijo. Los proyectos de tiempo y material y los proyectos de precio fijo están siempre vinculados a un contrato de proyecto.
@@ -103,7 +106,7 @@ Por ejemplo, puede configurar la siguiente programación de facturación:
 Cuando los pagos por hito están listos para su facturación, se usa el procedimiento de facturación de importes a cuenta.
 
 ## <a name="vendor-invoicing"></a>Facturación de proveedor
-Cuando solicita un artículo de un proveedor y asigna el artículo a un proyecto, la propiedad de línea seleccionada para la línea de pedido de compra de ese artículo determina si el artículo adquirido se factura a un cliente. Si está las propiedades de línea predeterminada de la configuración, estos se muestran para el artículo de la línea de pedido de compra (propiedad &gt; de &gt; línea de proyecto de los detalles de línea). Hay dos formas de modificar la propiedad de línea:
+Cuando solicita un artículo de un proveedor y asigna el artículo a un proyecto, la propiedad de línea seleccionada para la línea de pedido de compra de ese artículo determina si el artículo adquirido se factura a un cliente. Si configura las propiedades de línea predeterminadas, se mostrarán para el artículo en la línea del pedido de compra (Detalles de línea &gt; Proyecto &gt; Propiedad de línea). Hay dos formas de modificar la propiedad de línea:
 
 -   Facturar al cliente del proyecto por el artículo: defina la propiedad de la línea en un valor imputable en el pedido de compra y, a continuación, facture al cliente con el método de facturación de proyecto correcto.
 -   No facturar al cliente del proyecto por el artículo: no seleccione la propiedad de línea **Imputable** en la línea del pedido de compra para el artículo. A continuación puede facturar el pedido de compra, sin necesidad de tomar medidas adicionales.
@@ -118,5 +121,7 @@ El mismo documento puede incluir transacciones seleccionadas para la asignación
 Para abonar un importe facturado, se debe seleccionar primero el importe facturado para abonar y crear a continuación una nota de abono. Se debe crear una nota de abono mediante el mismo procedimiento usado para generar una factura de cliente. 
 
 Puede crear una factura con un importe negativo, que se convierte en una factura que se clasifica como nota de abono. Para crear e imprimir una nota de abono, debe seleccionar las transacciones que se han registrado anteriormente para una factura de cliente y, a continuación, modificar las transacciones. A menos que la dirección principal de la entidad jurídica se encuentre en Alemania, la título de la factura será "Factura correctiva".
+
+
 
 

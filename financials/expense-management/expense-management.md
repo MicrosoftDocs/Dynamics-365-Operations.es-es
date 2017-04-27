@@ -26,8 +26,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="expense-management"></a>Gestión de gastos
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 [Planificación de administración de gastos](plan-expense-management.md) Se agregará más información más adelante; vuelva a consultar pronto.
+
+
 
 

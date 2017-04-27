@@ -1,6 +1,6 @@
 ---
 title: Procesar asignaciones
-description: "Este artículo proporciona información sobre las asignaciones, las opciones para procesarlas en Microsoft Dynamics 365 para las operaciones, y su uso en la planificación de presupuesto. Las asignaciones se usan para distribuir importes en varias combinaciones de cuenta contable. Ayudan a garantizar que los gastos o ingresos se cargan en objeto adecuado en contabilidad."
+description: "Este artículo proporciona información sobre las asignaciones, las opciones para procesarlas en Microsoft Dynamics 365 for Operations y cómo se pueden usar en la planificación presupuestaria. Las asignaciones se usan para distribuir importes en varias combinaciones de cuenta contable. Ayudan a garantizar que los gastos o ingresos se cargan en objeto adecuado en contabilidad."
 author: twheeloc
 manager: AnnBe
 ms.date: 2017-04-04
@@ -28,11 +28,11 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="process-allocations"></a>Procesar asignaciones
 
-Este artículo proporciona información sobre las asignaciones, las opciones para procesarlas en Microsoft Dynamics 365 para las operaciones, y su uso en la planificación de presupuesto. Las asignaciones se usan para distribuir importes en varias combinaciones de cuenta contable. Ayudan a garantizar que los gastos o ingresos se cargan en objeto adecuado en contabilidad.
+Este artículo proporciona información sobre las asignaciones, las opciones para procesarlas en Microsoft Dynamics 365 for Operations y cómo se pueden usar en la planificación presupuestaria. Las asignaciones se usan para distribuir importes en varias combinaciones de cuenta contable. Ayudan a garantizar que los gastos o ingresos se cargan en objeto adecuado en contabilidad.
 
-Microsoft Dynamics 365 para las operaciones ofrece las siguientes competencias de ese proceso:
+Microsoft Dynamics 365 for Operations proporciona las siguientes capacidades para admitir este proceso:
 
--   Permite asignar manualmente los importes de transacción mediante la acción dividirse en distribuciones contables, o por las plantillas predeterminadas de dimensión financiera que se aplican a un documento. Para obtener más información, consulte [las distribuciones contables.] (\ \ accounting-distributions.md proveedores)
+-   Asigne manualmente los importes de transacción con la acción Dividir en las distribuciones contables o aplicando plantillas predeterminadas de dimensión financiera a un documento. Para obtener más información sobre distribuciones, consulte [Distribuciones contables](\accounts-payable\accounting-distributions.md).
 -   Asigne automáticamente los importes de las transacciones en función de los términos de asignación definidos en la cuenta principal individual. Se generarán asientos contables de asignación para cada diario según el porcentaje y la cuenta contable de destino siempre que un asiento contable cumpla los criterios definidos como la cuenta contable de origen.
 -   Asigne automáticamente los saldos contables o los importes fijos según las reglas de asignación contable. Las reglas de asignación contable se procesan de manera periódica con diarios de asignación. 
 

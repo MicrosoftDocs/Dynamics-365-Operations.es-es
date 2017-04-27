@@ -1,6 +1,6 @@
 ---
-title: "Contenido de Power BI de análisis de gastos de compra"
-description: "Este tema describe lo que se incluye en el paquete de contenido de análisis de gastos de compra para el BI de la potencia de Microsoft. Explica de cómo obtener acceso a los informes que se incluyen en el paquete de contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el paquete del contenido."
+title: "Contenido de Power BI sobre análisis de gastos de compra"
+description: "Este tema describe lo que se incluye en el paquete de contenido de análisis de gastos de compra en Microsoft Power BI. Explica cómo tener acceso a los informes que se incluyen en el paquete de contenido, y proporciona información acerca del modelo de datos y las entidades que se usan para generar el paquete del contenido."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2016-12-30 09 - 40 - 51
@@ -24,23 +24,23 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="purchase-spend-analysis-power-bi-content"></a>Contenido de Power BI de análisis de gastos de compra
+# <a name="purchase-spend-analysis-power-bi-content"></a>Contenido de Power BI sobre análisis de gastos de compra
 
-Este tema describe lo que se incluye en el paquete de contenido de análisis de gastos de compra para el BI de la potencia de Microsoft. Explica de cómo obtener acceso a los informes que se incluyen en el paquete de contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el paquete del contenido.
+Este tema describe lo que se incluye en el paquete de contenido de análisis de gastos de compra en Microsoft Power BI. Explica cómo tener acceso a los informes que se incluyen en el paquete de contenido, y proporciona información acerca del modelo de datos y las entidades que se usan para generar el paquete del contenido.
 
 <a name="overview"></a>Visión general
 --------
 
-El paquete de contenido de análisis de gastos de compra para el BI de la potencia de Microsoft se creó para los directores de compra y los administradores responsables de presupuestos. Se ha diseñado ayudar a vigilar los gastos de compra. Usa datos transaccionales de compra de Microsoft Dynamics 365 para las operaciones, y proporciona una visión global de las cifras empresariales de la compra y un desglose de gastos de compra por proveedor y el producto. Los informes resaltarán cambios en la compra que entran en el tiempo. Por lo tanto, se pueden usar para notificar a los administradores de las tendencias y positivas negativas de gastos para proveedores individuales y los productos. Los gráficos muestran los gastos de compra para las diversas categorías de compras y grupos de proveedores. La categoría y los administradores pueden regionales serle útil para usar estos gráficos para ayudar a identificar cambios en comportamiento del gasto. El paquete de contenido permite a los administradores de la compra y los administradores responsables de presupuestos para analizar la compra que pasan de las siguientes formas:
+El paquete de contenido de análisis de gastos de compra para Microsoft Power BI se creó para los directores de compra y los administradores responsables de presupuestos. Se ha diseñado para ayudar a vigilar los gastos de compra. Usa datos transaccionales de compras de Microsoft Dynamics 365 for Operations y proporciona una visión global de las cifras de compras en la empresa y un desglose de los gastos de compras por proveedor y producto. Los informes resaltan cambios en los gastos de compra a lo largo del tiempo. Por lo tanto, se pueden usar para notificar a los administradores las tendencias positivas y negativas de los gastos relativas a proveedores y productos individuales. Los gráficos muestran los gastos de compra para las diversas categorías de compras y grupos de proveedores. A los administradores de categorías y regionales puede serles útil usar estos gráficos como ayuda para identificar los cambios en comportamiento del gasto. El paquete de contenido permite a los administradores de compras y los administradores responsables de presupuestos analizar los gastos de compra de las siguientes formas:
 
--   compra de la Año-a- fecha (según el grupo de proveedores y proveedores individuales, productos de la categoría de compras y de la persona, y ubicación del proveedor)
--   Cambio año a año de la compra (por grupo de proveedores y la categoría de compras)
+-   Compras hasta la fecha (por grupo de proveedores y proveedores individuales, productos de la categoría de compras e individuales y ubicación del proveedor)
+-   Cambio de las compras año por año (por grupo de proveedores y categoría de compras)
 
 ## <a name="accessing-the-content-pack"></a>Acceso al paquete de contenido
-Se publica el paquete de contenido de análisis de gastos de compra como un activo de la implementación del ciclo de vida de Microsoft Dynamics mantiene (LCS) y se puede acceder de Microsoft Dynamics 365 para las operaciones. Para obtener más información acerca de cómo obtener acceso y abrir los informes de Power BI, consulte [contenido de Power BI en el CD de Microsoft y sus socios power-bi-content-microsoft-partners.md] ().
+El paquete de contenido del análisis de gastos de compra está publicado como un activo de la implementación en Microsoft Dynamics Lifecycle Services (LCS) y se puede acceder a él desde Microsoft Dynamics 365 for Operations. Para obtener más información acerca de cómo obtener acceso a los informes de Power BI y abrirlos, consulte [Contenido de Power BI en LCS de Microsoft y sus socios](power-bi-content-microsoft-partners.md)
 
-## <a name="metrics-that-are-included-in-the-content-pack"></a>Métricas incluidos en el paquete de contenido
-El paquete de contenido de análisis de gastos de compra incluye un informe compuesta por un conjunto de medidas. Estas métricas se visualizan gráficos, como los mosaicos, y tablas. La tabla siguiente proporciona una visión general de las vistas en el paquete del contenido.
+## <a name="metrics-that-are-included-in-the-content-pack"></a>Métricas que se incluyen en el paquete contenido
+El paquete de contenido de análisis de los gastos de compra incluye un informe compuesto por un conjunto de medidas. Estas métricas se visualizan como gráficos, mosaicos y tablas. La tabla siguiente proporciona información general de las visualizaciones del paquete de contenido.
 
 <table>
 <colgroup>
@@ -50,110 +50,110 @@ El paquete de contenido de análisis de gastos de compra incluye un informe comp
 </colgroup>
 <thead>
 <tr class="header">
-<th>Página de informe</th>
+<th>Página de informes</th>
 <th>Gráficos</th>
-<th>Tiles</th>
+<th>Mosaicos</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Compras del proveedor</td>
+<td>Compras por proveedor</td>
 <td><ul>
-<li>Proveedores de la parte superior 10 como la compra (gráfico de barras apiladas)</li>
-<li>Compras total del grupo de proveedores/país/Nombre (gráfico circular)</li>
-<li>Compras del grupo de proveedores/país/Nombre (gráfico de columnas)</li>
-<li>Compras media del grupo de proveedores/país/Nombre (gráfico de columnas)</li>
+<li>Los 10 principales proveedores por compra (gráfico de barras apiladas)</li>
+<li>Compras totales por grupo de proveedores/país/nombre (gráfico circular)</li>
+<li>Compras por grupo de proveedores/país/nombre (gráfico de columnas)</li>
+<li>Promedio de compras por grupo de proveedores/país/nombre (gráfico de columnas)</li>
 </ul></td>
 <td><ul>
 <li>Total de la compra</li>
-<li>Crecimiento de compra de YOY</li>
-<li>Total # proveedores</li>
-<li>Total n.º de proveedores activos</li>
+<li>Crecimiento de compras interanual</li>
+<li>N.º total de proveedores</li>
+<li>N.º total de proveedores activos</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Por producto de la compra</td>
+<td>Compras por producto</td>
 <td><ul>
-<li>Compras por la categoría de compras o el nombre del producto (gráfico de columnas)</li>
-<li>Compras total para la categoría de compras o el nombre del producto (gráfico circular)</li>
-<li>Productos de la parte superior 10 como la compra (gráfico de barras apiladas)</li>
+<li>Compras por categoría de compras o nombre del producto (gráfico de columnas)</li>
+<li>Compra total por categoría de compras o nombre del producto (gráfico circular)</li>
+<li>Los 10 principales productos por compra (gráfico de barras apiladas)</li>
 </ul></td>
 <td><ul>
-<li>Total n.º de productos</li>
-<li>Porcentaje activo total de los productos de # total de productos</li>
-<li>Número de productos que justifican la compra de 80%</li>
+<li>N.º total de productos</li>
+<li>Porcentaje total de productos activos de n.º total de productos</li>
+<li>Número de productos que representan el 80 % de la compra</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Compras por el period*</td>
+<td>Compras por período*</td>
 <td><ul>
-<li>Compras por el día/mes (gráfico de columnas)</li>
-<li>Desviación acumulativa de la compra YOY (gráfico de la cascada)</li>
-<li>Crecimiento total de la compra YOY (gráfico de columnas)</li>
+<li>Compras por mes/día (gráfico de columnas)</li>
+<li>Desviación interanual de compras acumuladas (gráfico de cascada)</li>
+<li>Crecimiento total de la compra interanual (gráfico de columnas)</li>
 <li>Extracto de compras (matriz)</li>
 </ul></td>
 <td><ul>
-<li>Crecimiento de compra de YOY</li>
-<li>Crecimiento % de compra de YOY</li>
+<li>Crecimiento de compras interanual</li>
+<li>% de crecimiento de compras interanual</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Compras por la ubicación del proveedor</td>
+<td>Compras por ubicación de proveedor</td>
 <td><ul>
-<li>Formularios de la ciudad</li>
-<li>Crecimiento % de la compra YOY</li>
-<li>Compras del país</li>
+<li>Compras por ciudad</li>
+<li>% de crecimiento de compras interanual</li>
+<li>Compras por país</li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Análisis de gastos de compra por tiempo</td>
+<td>Análisis de gasto de compras por hora</td>
 <td><ul>
-<li>Año actual de la compra por el día/mes (gráfico de líneas)</li>
-<li>Actual de la compra y el último año (línea y gráfico de columnas)</li>
+<li>Compras de año actual por mes/día (gráfico de líneas)</li>
+<li>Compras este año y el año anterior (gráficos de líneas y columnas)</li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Análisis de gastos de compra del proveedor</td>
+<td>Análisis de gasto de compras por proveedor</td>
 <td><ul>
-<li>Compras % del proveedor de la parte superior 10 de la compra (embudo)</li>
-<li>Proveedores de la parte superior 10 con YOY de gastos mayor</li>
-<li>Proveedores de la parte superior 10 con YOY de gasto reducido</li>
+<li>% de compras de los 10 principales proveedores sobre el total de compras (embudo)</li>
+<li>10 principales proveedores con aumento de gastos interanual</li>
+<li>10 principales proveedores con disminución de gastos interanual</li>
 </ul></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-\* compra\* este año y el último año, y crecimiento por categoría de compras
+\* Compras este año y el año anterior, y crecimiento por categoría de compras
 
 ## <a name="data-model-and-entities"></a>Modelo de datos y entidades
-La Dynamics 365 para los datos de las operaciones se usa para el informe en el paquete de contenido de análisis de gastos de compra. Estos datos se representa como medidas globales que se realizan en el almacén de la entidad, que es una base de datos de Microsoft SQL que se optimiza para analítica. Para obtener más información sobre el almacén de la entidad, consulte [integración de Power BI al almacén de la entidad en Dynamics] (Registrar de blog de https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Las medidas globales en este paquete de contenido son el subconjunto de medidas global que estaban disponibles en el cubo de la compra en Microsoft Dynamics AX 2012 y Microsoft Dynamics 365 para las operaciones 2012 R3. Para realizar las medidas globales del cubo en el almacén de la entidad, primero deben crearse desplegables. Para obtener más información, consulte el procedimiento para realizar mediciones globales en el almacén de la entidad en [integración de Power BI al almacén de la entidad en Dynamics] (Registrar de blog de https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Las medidas siguientes de agregado de la clave están disponibles directamente de las líneas de factura y entidad se usan como base del paquete del contenido.
+Los datos de Dynamics 365 for Operations se usan para el informe del paquete de contenido de análisis de gastos de compra. Estos datos se representan como medidas globales que se realizan en el almacén de la entidad, que es una base de datos de Microsoft SQL que se optimiza para análisis. Para obtener más información sobre el almacén de entidades, consulte la publicación de blog sobre [integración de Power BI con el almacén de entidades en Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Las medidas globales de este paquete de contenido son el subconjunto de las medidas globales que estaban disponibles en el cubo de compra en Microsoft Dynamics AX 2012 y Microsoft Dynamics 365 for Operations 2012 R3. Para realizar las medidas globales del cubo en el almacén de entidades debe hacer que sean desplegables. Para obtener más información, consulte el procedimiento relativo a cómo realizar mediciones globales en el almacén de entidades en el blog sobre [integración de Power BI con el almacén de entidades en Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Las siguientes medidas agregadas clave están directamente disponibles en la entidad de líneas de factura y se usan como base del paquete de contenido.
 
-| Entidad        | Key aggregate measurements | Origen de datos para Dynamics 365 para las operaciones | Campo              | Descripción                           |
+| Entidad        | Medidas agregadas clave | Origen de datos para Dynamics 365 for Operations | Campo              | Descripción                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
-| Líneas de factura | Compra                   | VendInvoiceTrans                            | SUM (LineAmountMST) | Importe en divisa de contabilidad |
+| Líneas de factura | Compra                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Importe en divisa de contabilidad |
 
-En la tabla siguiente se muestran las medidas clave que se calculan en el paquete de responsables de la entidad de las líneas de factura.
+En la tabla siguiente se muestran las medidas clave que se calculan en el paquete de contenido de la entidad de las líneas de factura.
 
 | Medida               | Cálculo                                                                                         |
 |-----------------------|-----------------------------------------------------------------------------------------------------|
-| Año actual de la compra | Año actual de la compra SUM = ('compra de\]\ lines'entity_PLACEHOLDER [de la factura)                                            |
-| Compras el último año    | La compra el último año CALCULA = (SUM ('compra,\]) SAMEPERIODLASTYEAR (fecha de lines'entity_PLACEHOLDER\]\ [de la factura\[de las fechas)) |
-| Crecimiento de compra de YOY   | Crecimiento de compra de YOY =\] año actual de la compra \[– compra el último año \[\]\[                            |
+| Año actual de compra | Año actual de compra = SUM('Líneas de factura'\[Compra\])                                            |
+| Compra el año pasado    | Compra el año pasado = CALCULATE(SUM('Líneas factura'\[Compra\]), SAMEPERIODLASTYEAR(Fechas\[Fecha\]) |
+| Crecimiento de compras interanual   | Crecimiento de compras interanual = \[Compra año actual\] – \[Compra el año pasado\]                            |
 
-Las dimensiones siguientes clave en el paquete de contenido se utilizan como filtros para cortar las medidas globales, de modo que pueda alcanzar más granularidad y penetraciones analíticas más profundas.
+Las dimensiones clave siguientes del paquete de contenido se utilizan como filtros para cortar las medidas globales para lograr mayor granularidad y para profundizar en la visión analítica.
 
 | Entidad                 | Ejemplos de atributos                                |
 |------------------------|-------------------------------------------------------|
-| Empresas proveedoras                | País o regiones, nombre de los grupos de proveedores, del proveedor del proveedor |
+| Empresas proveedoras                | Grupos de proveedores, países o regiones de proveedores, nombre del proveedor |
 | Productos               | Número de producto, nombre de producto, nombre de grupos de artículos        |
 | Categorías de adquisición | Categoría de compras, nombres de la categoría de compras      |
 | Entidades jurídicas         | Nombre de la entidad jurídica                                     |
-| Fechas                  | Fechas, contrapartida del año                                    |
+| Fechas                  | Fechas, contrapartida anual                                    |
 
-De forma predeterminada, el paquete de contenido muestra los datos por año natural actual. Sin embargo, puede cambiar el filtro de la fecha en la sección de filtros de informe. También puede modificar el filtro de la empresa.
+De forma predeterminada, el paquete de contenido muestra los datos del año natural actual. Sin embargo, puede cambiar el filtro de la fecha en la sección de filtros de informe. También puede cambiar el filtro de empresa.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 Estos son algunos vínculos útiles relacionados con las entidades y la creación de contenido de Power BI:

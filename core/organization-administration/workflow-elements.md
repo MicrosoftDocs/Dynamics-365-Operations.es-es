@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-elements"></a>Elementos del flujo de trabajo
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe los diversos elementos que componen un flujo de trabajo.
 
 Un flujo de trabajo está compuesto de elementos. Las secciones que siguen describen cada tipo de elemento.
@@ -55,14 +58,14 @@ Un *proceso de aprobación* es un proceso que consta de pasos individuales. En c
 -   Solicitar que se realice un cambio en el documento.
 -   Asignar el documento a otro usuario para que lo apruebe.
 
-## <a name="lineitem-workflow-elements"></a>Elementos de flujo de trabajo de Lineitem
-Se puede crear un flujo de trabajo para procesar documentos o los artículos de línea de un documento. Por ejemplo, ha creado un flujo de trabajo de aprobación para las hojas de horas (Nos referiremos a este flujo de trabajo como el workflow* de *document). Puede agregar un artículo de workflow* de *line-item a dicho flujo de trabajo de documento. Cuando se ejecuta el artículo de cada línea en el documento, este se envía para su procesamiento. Quizás desee que el mismo flujo de trabajo de elementos procese todos los artículos de línea o, por lo contrario, tal vez prefiera que distintos flujos de trabajo de elementos procesen cada artículo de línea diferente. Imaginemos que un empleado ha enviado una hoja de horas que se asemeja a la siguiente ilustración. ![Flujo de trabajo con artículos de línea](./media/workflow_lineitemworkflow.gif) En esta situación, puede que desee crear los siguientes flujos de trabajo de elementos:
+## <a name="lineitem-workflow-elements"></a>Elementos de flujo de trabajo de artículos de línea
+Se puede crear un flujo de trabajo para procesar documentos o los artículos de línea de un documento. Por ejemplo, ha creado un flujo de trabajo de aprobación para las hojas de horas (Nos referiremos a este flujo de trabajo por el nombre de *flujo de trabajo de documento*). Puede agregar un *flujo de trabajo de artículos de línea* a dicho flujo de trabajo de documento. Cuando se ejecuta el artículo de cada línea en el documento, este se envía para su procesamiento. Quizás desee que el mismo flujo de trabajo de elementos procese todos los artículos de línea o, por lo contrario, tal vez prefiera que distintos flujos de trabajo de elementos procesen cada artículo de línea diferente. Imaginemos que un empleado ha enviado una hoja de horas que se asemeja a la siguiente ilustración. ![Flujo de trabajo con artículos de línea](./media/workflow_lineitemworkflow.gif) En esta situación, puede que desee crear los siguientes flujos de trabajo de elementos:
 
 -   **Flujo de trabajo de elementos 1**: este flujo de trabajo se usa para procesar los artículos de línea cuando el id. de proyecto es 1111.
 -   **Flujo de trabajo de elementos 2**: este flujo de trabajo se usa para procesar los artículos de línea cuando el id. de proyecto es 2222.
 -   **Flujo de trabajo de elementos 3**: este flujo de trabajo se usa para procesar los artículos de línea cuando el id. de proyecto es 3333.
 
-## <a name="flowcontrol-elements"></a>Elementos de control de flujos
+## <a name="flowcontrol-elements"></a>Elementos de control de flujo
 Los siguientes elementos permiten diseñar flujos de trabajo con ramas alternativas o ramas que se ejecutan al mismo tiempo.
 
 ### <a name="manual-decision"></a>Decisión manual
@@ -80,5 +83,7 @@ Una *actividad paralela* es un elemento de flujo de trabajo que incluye dos o m�
 ### <a name="subworkflow"></a>Subflujo de trabajo
 
 Un *subflujo de trabajo* es un flujo de trabajo que se ejecuta en el contexto de otro flujo de trabajo.
+
+
 
 

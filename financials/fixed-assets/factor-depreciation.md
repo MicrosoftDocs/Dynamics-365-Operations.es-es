@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="factor-depreciation"></a>Depreciación de factor
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo ofrece una visión general del método de depreciación de factor.
 
 Los factores son porcentajes que se utilizan para depreciar activos. Cuando se configura un perfil de amortización de activos fijos y se selecciona **Factor** en el campo **Método** de la página **Métodos de depreciación**, puede configurar una depreciación progresiva, degresiva o lineal:
@@ -39,7 +42,7 @@ Los factores son porcentajes que se utilizan para depreciar activos. Cuando se c
 Las reglas y los ejemplos siguientes indican el modo en que puede configurar los factores para cada tipo de depreciación. 
 
 > [!NOTE] 
-> Al seleccionar ** factor ** en ** método ** campo, ** factor ** el campo y ** intervalo ** se muestra el campo.
+> Cuando selecciona **Factor** en el campo **Método**, se muestran los campos **Factor** e **Intervalo**.
 
 ## <a name="progressive-depreciation"></a>Depreciación progresiva
 El valor del campo **Factor** es mayor que **50**.
@@ -75,5 +78,7 @@ El precio de adquisición es de 100.000, el factor es 20, el tiempo de vida es d
 
 ## <a name="straight-line-depreciation"></a>Depreciación lineal
 El valor del campo **Factor** es igual a **50**. En este caso, la depreciación es la misma en cada período y debe tener en cuenta las consecuencias de los valores que ha especificado en otros campos, como se describe en [Depreciación con amortización lineal de vida de servicio](straight-line-service-life-depreciation.md).
+
+
 
 

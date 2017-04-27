@@ -1,6 +1,6 @@
 ---
-title: Configurar las libretas de direcciones globales
-description: "Este artículo describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar y configure la libreta de direcciones global y todas las libretas de direcciones adicional en Microsoft Dynamics 365 para las operaciones. Algunas de las decisiones requerirán que confirme las decisiones que se han realizado para otras áreas de producto, como la jerarquía organizativa."
+title: Configurar la libreta de direcciones global
+description: "Este artículo describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar y configurar la libreta de direcciones global y todas las libretas de direcciones adicionales en Microsoft Dynamics 365 for Operations. Algunas de las decisiones requerirán que confirme las decisiones que se han realizado para otras áreas de producto, como la jerarquía organizativa."
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-global-address-books"></a>Configurar las libretas de direcciones globales
+# <a name="configure-global-address-books"></a>Configurar la libreta de direcciones global
 
-Este artículo describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar y configure la libreta de direcciones global y todas las libretas de direcciones adicional en Microsoft Dynamics 365 para las operaciones. Algunas de las decisiones requerirán que confirme las decisiones que se han realizado para otras áreas de producto, como la jerarquía organizativa.
+[!include[banner](../includes/banner.md)]
+
+
+Este artículo describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar y configurar la libreta de direcciones global y todas las libretas de direcciones adicionales en Microsoft Dynamics 365 for Operations. Algunas de las decisiones requerirán que confirme las decisiones que se han realizado para otras áreas de producto, como la jerarquía organizativa.
 
 <a name="global-address-book"></a>Libreta de direcciones global
 -------------------
@@ -61,6 +64,8 @@ Después de crear la libreta de direcciones global, puede crear libretas de dire
 Puede crear libretas de direcciones en cualquier momento y también puede establecer sus respectivos parámetros de seguridad cuando lo desee. No es necesario que establezca privilegios de seguridad para una libreta de direcciones, pero si no lo hace, todos los trabajadores de la organización podrán ver todos los registros de parte de esa libreta de direcciones. Los privilegios de seguridad relativos a los registros de parte se pueden establecer a través de las libretas de direcciones: Los privilegios de seguridad se basan en equipos. Este enfoque garantiza que solo los trabajadores asignados a un equipo que tiene acceso a una libreta de direcciones pueden ver los registros de parte contenidos en dicha libreta de direcciones. Debe seleccionar los equipos que tienen acceso a cada una de las libretas de direcciones. Por cada libreta de direcciones, puede establecer privilegios de seguridad que permitan o impidan el acceso por parte de determinados equipos. Si otorga privilegios de acceso a una libreta de direcciones a un equipo, todos los usuarios que lo integran pueden ver los registros de la libreta de direcciones. Si no otorga acceso a una libreta de direcciones a un equipo, los miembros de este no podrán ver la libreta de direcciones ni la información que contiene. **Decisión:**
 
 -   ¿Qué equipos deben tener acceso a cada una de las nuevas libretas de direcciones que creará?
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Formatos de archivo para métodos de pago"
-description: "Este tema describe los dos métodos para obtener los formatos de archivo que se pueden usar para las formas de pago."
+description: "En este tema se describen los dos métodos para obtener los formatos de archivo que puede usar para los métodos de pago."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,29 +27,34 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="file-formats-for-methods-of-payment"></a>Formatos de archivo para métodos de pago
 
-Este tema describe los dos métodos para obtener los formatos de archivo que se pueden usar para las formas de pago.
+[!include[banner](../includes/banner.md)]
 
-Existen dos métodos que puede utilizar para recopilar los formatos de archivo para usarlas con formas de pago, los formatos de archivo electrónicos de (ER) que informan o los formatos de archivo X++. Al configurar un método de pago para un cliente o proveedor, se indica qué formatos de archivo y normas se deben usar para los pagos y la manera en la que los pagos se procesarán. Puede seleccionar entre los siguientes tipos de formatos:
+
+En este tema se describen los dos métodos para obtener los formatos de archivo que puede usar para los métodos de pago.
+
+Hay dos métodos que puede utilizar para obtener formatos de archivo para su uso con métodos de pago, formatos de archivo de informes electrónicos (ER) o formatos de archivo X++. Cuando configura un método de pago para un cliente o proveedor, indica qué formatos de archivo y estándares deben usarse para los pagos y cómo se procesarán los pagos. Puede seleccionar entre los siguientes tipos de formatos:
 
 -   Exportar
 -   Importar
 -   Devolución
 -   Envío
 
-### <a name="method-1-electronic-reporting-file-formats"></a>Método 1: Formatos de archivo electrónicos de informes
+### <a name="method-1-electronic-reporting-file-formats"></a>Método 1: formatos de archivo de informes electrónicos
 
-Para los formatos de archivo que se basan en la configuración de ER, debe importar las configuraciones de servicios (LCS) del ciclo de vida. Para obtener más información, consulte [las configuraciones electrónicas de informes de la descarga de servicios] del ciclo de vida (/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs). Tras importar las configuraciones de informes para dichos formatos de archivo, los formatos importados estarán disponibles para seleccionarlas en ** las formas de pago ** la página. El proceso para importar y seleccionar los formatos de archivo para Europa es similar al procedimiento para Japón. <!---For more details, see [Enable the JBA payment file format](https://ax.help.dynamics.com/en/wiki/enable-the-jba-payment-file-format/).-->
+Para formatos de archivo basados en configuraciones de ER, debe importar las configuraciones de Lifecycle Services (LCS). Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs). Después de importar las configuraciones de informes para esos formatos de archivo, los formatos importados estarán disponibles para seleccionar en la página **Métodos de pago**. El proceso para importar y seleccionar formatos de archivo para Europa es similar al procedimiento para Japón. <!---For more details, see [Enable the JBA payment file format](https://ax.help.dynamics.com/en/wiki/enable-the-jba-payment-file-format/).-->
 
-### <a name="method-2-x-file-formats"></a>Método 2: Formatos de archivo X++
+### <a name="method-2-x-file-formats"></a>Método 2: formatos de archivo X++
 
-A los formatos de archivo para que se basan en código X++, siga estos pasos.
+Para seleccionar formatos de archivo basados en código X++, siga los pasos descritos a continuación.
 
-1.  Ir ** las formas de pago ** a la página.
-2.  En ** los formatos de archivo ** la ficha desplegable, haga clic en ** ** configuración.
-3.  Seleccione la ficha que corresponde con el tipo de formato de archivo.
-4.  Seleccione un formato de archivo disponible de ** ** lo muestran y mueven ** ** seleccionado en la lista con el control de la flecha.
-5.  Cierre ** los formatos de archivo para métodos de pago ** la página.
-6.  En ** los formatos de archivo ** la ficha desplegable, seleccione el formato de archivo que se debe usar para el método de pago del campo de formato de archivo apropiado. Las opciones generales electrónicas del informe se deben establecer ** ningún ** para los formatos de archivo X++.
+1.  Vaya a la página **Métodos de pago**.
+2.  En la ficha desplegable **Formatos de archivo**, haga clic en **Configuración**.
+3.  Seleccione la ficha que corresponde al tipo de formato del archivo.
+4.  Seleccione un formato de archivo en la lista **Disponible** y muévalo a la lista **Seleccionado** con el control de flecha.
+5.  Cierre la página **Formatos de archivo para métodos de pago**.
+6.  En la ficha desplegable **Formatos de archivo**, seleccione el formato de archivo que desea utilizar para el método de pago en el campo de formato de archivo apropiado. Las opciones generales de informes electrónicos deben establecerse en **No** para formatos de archivo X++.
+
+
 
 
 

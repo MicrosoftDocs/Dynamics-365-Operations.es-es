@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-payable"></a>Pagos centralizados para Proveedores
 
+[!include[banner](../includes/banner.md)]
+
+
 Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica única que controle todos los pagos. Por lo tanto, los mismos pagos no tienen que se especificarse en varias entidades jurídicas. Este artículo proporciona ejemplos que muestran cómo el registro para pagos centralizados se gestiona en distintos escenarios.
 
 Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica que controle todos los pagos. Por lo tanto, los mismos pagos no tienen que se especificarse en varias entidades jurídicas. Además, la organización ahorra tiempo, ya que se simplifica el proceso de pago.
@@ -66,14 +69,14 @@ Fabrikam Este tiene una factura abierta para la cuenta de proveedor 100, Fourth 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>El pago de Fabrikam se liquida con la factura de Fabrikam Este
 
-**Fabrikam posting**
+**Registro de Fabrikam**
 
 | Cuenta                           | Importe de débito | Importe de crédito |
 |-----------------------------------|--------------|---------------|
 | Debido de Fabrikam Este (Fabrikam) | 600,00       |               |
 | Proveedores (Fabrikam)       |              | 600,00        |
 
-**Fabrikam East posting**
+**Registro de Fabrikam Este**
 
 | Cuenta                          | Importe de débito | Importe de crédito |
 |----------------------------------|--------------|---------------|
@@ -99,14 +102,14 @@ Fabrikam Este tiene una factura abierta para el proveedor 100, Fourth Coffee. La
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>El pago de Fabrikam se liquida con la factura de Fabrikam Este
 
-**Fabrikam posting**
+**Registro de Fabrikam**
 
 | Cuenta                           | Importe de débito | Importe de crédito |
 |-----------------------------------|--------------|---------------|
 | Debido de Fabrikam Este (Fabrikam) | 580,00       |               |
 | Proveedores (Fabrikam)       |              | 580,00        |
 
-**Fabrikam East posting**
+**Registro de Fabrikam Este**
 
 | Cuenta                          | Importe de débito | Importe de crédito |
 |----------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam Este tiene una factura abierta para el proveedor 100, Fourth Coffee. Fa
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>El pago de Fabrikam se liquida con la factura de Fabrikam Este
 
-**Fabrikam posting**
+**Registro de Fabrikam**
 
 | Cuenta                           | Importe de débito            | Importe de crédito           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam Este tiene una factura abierta para el proveedor 100, Fourth Coffee. Fa
 | Pérdida realizada (Fabrikam)          | 0,00 EUR / 12,90 USD    |                         |
 | Debido de Fabrikam Este (Fabrikam) |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East posting**
+**Registro de Fabrikam Este**
 
 | Cuenta                          | Importe de débito            | Importe de crédito           |
 |----------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam Este tiene una factura abierta para el proveedor 100, Fourth Coffee. La
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>El pago de Fabrikam se liquida con la factura de Fabrikam Este
 
-**Fabrikam posting**
+**Registro de Fabrikam**
 
 | Cuenta                           | Importe de débito            | Importe de crédito           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam Este tiene una factura abierta para el proveedor 100, Fourth Coffee. La
 | Pérdida realizada (Fabrikam)          | 0,00 EUR / 12,66 USD    |                         |
 | Debido de Fabrikam Este (Fabrikam) |                         | 0,00 EUR / 12,66 USD    |
 
-**Fabrikam East posting**
+**Registro de Fabrikam Este**
 
 | Cuenta                          | Importe de débito            | Importe de crédito           |
 |----------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ Fabrikam Este tiene una factura abierta para el proveedor 100, Fourth Coffee. La
 | Descuento por pronto pago (Fabrikam Este)    |                         | 11,28 EUR / 13,61 USD   |
 
 ## <a name="example-5-vendor-credit-note-with-primary-payment"></a>Ejemplo 5: Nota de abono de proveedor con pago principal
-Fabrikam genera un pago de 75,00 para el proveedor 3004, Fourth Coffee. El pago se liquida con una factura abierta para el proveedor 3004 de Fabrikam Oeste y una nota de abono abierta para el proveedor 100 de Fabrikam Este. Se activa el pago a medida que el pago principal en ** liquidar las transacciones ** la página.
+Fabrikam genera un pago de 75,00 para el proveedor 3004, Fourth Coffee. El pago se liquida con una factura abierta para el proveedor 3004 de Fabrikam Oeste y una nota de abono abierta para el proveedor 100 de Fabrikam Este. Se selecciona el pago como pago principal en la página **Liquidar transacciones**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>La factura se registra en Fabrikam Oeste para el proveedor 3004
 
@@ -224,7 +227,7 @@ Fabrikam genera un pago de 75,00 para el proveedor 3004, Fourth Coffee. El pago 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>El pago de Fabrikam se liquida con la factura de Fabrikam Oeste y la nota de abono de Fabrikam Este
 
-**Fabrikam posting**
+**Registro de Fabrikam**
 
 | Cuenta                           | Importe de débito | Importe de crédito |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ Fabrikam genera un pago de 75,00 para el proveedor 3004, Fourth Coffee. El pago 
 | Debido de Fabrikam Oeste (Fabrikam) | 100,00       |               |
 | Proveedores (Fabrikam)       |              | 100,00        |
 
-**Fabrikam East posting**
+**Registro de Fabrikam Este**
 
 | Cuenta                           | Importe de débito | Importe de crédito |
 |-----------------------------------|--------------|---------------|
 | Debido de Fabrikam Este (Fabrikam) | 25,00        |               |
 | Proveedores (Fabrikam Este)  |              | 25,00         |
 
-**Fabrikam West posting**
+**Registro de Fabrikam Oeste**
 
 | Cuenta                          | Importe de débito | Importe de crédito |
 |----------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam genera un pago de 75,00 para el proveedor 3004, Fourth Coffee. El pago 
 | Debido a Fabrikam (Fabrikam Oeste)  |              | 100,00        |
 
 ## <a name="example-6-vendor-credit-note-without-primary-payment"></a>Ejemplo 6: Nota de abono de proveedor sin pago principal
-Fabrikam genera un pago de 75,00 para el proveedor 3004, Fourth Coffee. El pago se liquida con una factura abierta para el proveedor 3004 de Fabrikam Oeste y una nota de abono abierta para el proveedor 100 de Fabrikam Este. El pago no se selecciona ya que el pago principal en ** liquidar las transacciones ** la página.
+Fabrikam genera un pago de 75,00 para el proveedor 3004, Fourth Coffee. El pago se liquida con una factura abierta para el proveedor 3004 de Fabrikam Oeste y una nota de abono abierta para el proveedor 100 de Fabrikam Este. No se selecciona el pago como pago principal en la página **Liquidar transacciones**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>La factura se registra en Fabrikam Oeste para el proveedor 3004
 
@@ -273,21 +276,21 @@ Fabrikam genera un pago de 75,00 para el proveedor 3004, Fourth Coffee. El pago 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>El pago de Fabrikam se liquida con la factura de Fabrikam Oeste y la nota de abono de Fabrikam Este
 
-**Fabrikam posting**
+**Registro de Fabrikam**
 
 | Cuenta                           | Importe de débito | Importe de crédito |
 |-----------------------------------|--------------|---------------|
 | Debido de Fabrikam Oeste (Fabrikam) | 75,00        |               |
 | Proveedores (Fabrikam)       |              | 75,00         |
 
-**Fabrikam East posting**
+**Registro de Fabrikam Este**
 
 | Cuenta                                | Importe de débito | Importe de crédito |
 |----------------------------------------|--------------|---------------|
 | Debido de Fabrikam Este (Fabrikam Este) | 25,00        |               |
 | Proveedores (Fabrikam Este)       |              | 25,00         |
 
-**Fabrikam West posting**
+**Registro de Fabrikam Oeste**
 
 | Cuenta                              | Importe de débito | Importe de crédito |
 |--------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam genera un pago de 75,00 para el proveedor 3004, Fourth Coffee. El pago 
 | Debido a Fabrikam (Fabrikam Oeste)      |              | 75,00         |
 | Proveedores (Fabrikam Oeste)     | 25,00        |               |
 | Debido a Fabrikam (Fabrikam Oeste) |              | 25,00         |
+
+
 
 
 

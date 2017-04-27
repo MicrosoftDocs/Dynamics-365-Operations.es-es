@@ -1,6 +1,6 @@
 ---
 title: Procesamiento de diarios generales
-description: "Este describen los artículos capacidad en Microsoft Dynamics 365 para las operaciones que pueden ayudar a crear procesar general del diario más sencilla, y que también pueden ayudar a garantizar que se captura los datos correctos y el control interno no se compromete."
+description: "Este artículo describe las capacidades en Microsoft Dynamics 365 for Operations que pueden facilitar el proceso del diario general y que también puede ayudar a garantizar que se capturan los datos correctos y que no se pone en peligro el control interno."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,32 +28,35 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-journal-processing"></a>Procesamiento de diarios generales
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe las capacidades en Microsoft Dynamics AX que pueden facilitar el proceso del diario general y que también puede ayudar a garantizar que se capturan los datos correctos y que no se pone en peligro el control interno.  
 
 Nombres de diarios
 
-Una de las partes más importantes a configurar es nombres de diario. Conviene definir nombres de diario específicos para cada propósito, como empresas vinculadas, ajuste de la acumulación, y corrección de errores. Puede ajustar cada nombre de diario para que la entrada de datos para cada propósito y fácil segura. 
+Una de las áreas más importantes para configurar es los nombres de diario. Conviene definir los nombres de diario específicos para cada propósito, como empresas vinculadas, ajuste de acumulación y corrección de error. Puede ajustar cada nombre de diario para que la entrada de datos para cada propósito sea sencilla y segura. 
 
 En la página **Nombres de diario**, puede configurar los siguientes elementos:
 
--   **Aprobación de flujo de trabajo:** para mejorar el control interno, defina los flujos de trabajo de diarios que establecen los límites de los pasos para su revisión y aprobación, en función de criterios como importe de débito total. Se flujos de trabajo de la configuración de los diarios generales en ** flujos de trabajo de Contabilidad general ** la página.
+-   **Aprobación de flujo de trabajo:** para mejorar el control interno, defina los flujos de trabajo de diarios que establecen los límites de los pasos para su revisión y aprobación, en función de criterios como importe de débito total. Debe configurar los flujos de trabajo para los diarios generales en la página **Flujos de trabajo de contabilidad general**.
 -   **Valores predeterminados:** seleccione valores predeterminados para cuentas de contrapartida, divisa y dimensiones financieras.
 -   **Control del diario:** puede configurar las restricciones en la empresa y el tipo de cuenta, y también los valores de segmento. 
 
 **Ejemplos**
 
-Un nombre de diario también se puede usar solo para ajustes. En este caso, puede especificar que solo el tipo de cuenta **Libro mayor** es válido en todas las empresas. [tipos de cuenta![control![Journal] (. /media/journal-control-account-types1.png])(. /media/journal-control-account-types1.png)
+Un nombre de diario también se puede usar solo para ajustes. En este caso, puede especificar que solo el tipo de cuenta **Libro mayor** es válido en todas las empresas. [![Tipos de cuenta de control de diarios](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
-Un nombre de diario solo se puede usar para un segmento específico o para un intervalo para las cuentas principales. [segmento de control de![Journal] (. /media/journal-control-segment1.png])(. /media/journal-control-segment1.png)
+Un nombre de diario solo se puede usar para un segmento específico o para un intervalo para las cuentas principales. [![Segmento de control de diarios](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 La opción **Inversión automática** solo está disponible en los diarios generales. Por ejemplo, tiene un ajuste de acumulación donde el documento real aún no se ha procesado, como se muestra en la siguiente ilustración.
-[diario general![de inversión] (. /media/general-journal-reversing1.png])(. /media/general-journal-reversing1.png) 
+[![Inversión del diario general](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-El complemento de Microsoft Excel para la entrada del diario proporciona una capa adicional de automatización y crea la entrada de datos más fácil. La acción **Líneas abiertas en Excel **está disponible en las páginas del **Diario general** y **Asiento del diario** . 
+El complemento de Microsoft Excel para el movimiento del diario proporciona un nivel adicional de automatización y hace que la entrada de datos sea más fácil. La acción **Líneas abiertas en Excel **está disponible en las páginas del **Diario general** y **Asiento del diario** . 
 
 En la página **Diarios periódicos**, puede configurar los diarios periódicos para automatizar el proceso de diario. 
 
-Puede usar plantillas de asientos en cualquier momento. ** En los diarios generales ** la página, ** Guardar ** y ** plantilla de asientos ** seleccione las acciones se encuentran en ** asiento de diario ** la página, en ** las funciones ** para las líneas de asiento.
+Puede usar plantillas de asientos en cualquier momento. En la página **Diarios generales**, las acciones **Guardar** y **Seleccionar la plantilla de asientos** se encuentran en la página **Asiento del diario**, en **Funciones** para las líneas de asientos.
 
 ## <a name="related-setup"></a>Configuración relacionada
 La configuración siguiente no es específica para los diarios generales, pero ayudará a garantizar que la entrada de datos sea correcta y fácil.
@@ -78,6 +81,7 @@ La configuración de la cuenta principal ofrece muchas opciones para el proceso 
 
 Las estructuras contables y las estructuras de reglas avanzadas son muy importantes para garantizar que los datos necesarios para los informes financieros y el seguimiento del rendimiento se capture durante el proceso del diario general y la documentación. Las estructuras contables y las estructuras de reglas avanzadas le permiten adaptar la experiencia de entrada de datos. Puede permitir la entrada de datos solo para las dimensiones financieras que son relevantes en cada situación, y también puede exigir el requisito de que los datos necesarios y correctos se capturen siempre.
 
-Para obtener más información, consulte [planificado: Plan contable plan-chart-of-accounts.md] (). 
+Para obtener más información, consulte [Planificación: plan de cuentas](plan-chart-of-accounts.md). 
+
 
 

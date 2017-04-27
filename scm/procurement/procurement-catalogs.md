@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-catalogs"></a>Catálogos de compras
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe, en un nivel superior, la manera en que los responsables de compras pueden configurar y mantener catálogos de compras. Los catálogos de compras definen los artículos y servicios que los empleados de las empresas puedan pedir para su uso interno.
 
 Los encargados de compras pueden crear y mantener los catálogos de los artículos y servicios que se pueden comprar para uso interno en una organización. Una vez configurados los catálogos, los empleados de las empresas pueden crear solicitudes de compra para pedirlos. Los catálogos se pueden usar para aplicar directivas de compra, de modo que los empleados puedan pedir solo los artículos y servicios que se permiten para la entidad jurídica de compra. Cuando se crea un catálogo de compras, deberá tener en cuenta las siguientes tareas:
 
 -   Configure la jerarquía de categorías de compras antes de crear el catálogo.
--   Determine qué productos desea que puedan pedir los empleados. Puede mostrar u ocultar productos específicos en un nodo del catálogo, o puede mostrar u ocultar todos los productos de un nodo.
+-   Determine qué productos desea que puedan pedir los empleados. Puede mostrar u ocultar productos específicos en un nodo del catálogo o puede mostrar u ocultar todos los productos en un nodo.
 -   Determine cuántos catálogos de compras necesita. El acceso al catálogo de compras viene determinado por la regla de directiva del catálogo configurada para la entidad jurídica y la unidad operativa a la que se ha asignado un empleado.
 
 Varios factores determinan los productos que los empleados pueden solicitar y las categorías de compras que pueden usar al crear solicitudes de compra:
@@ -52,7 +55,7 @@ En la tabla siguiente se describen las tareas que se deben completar para que un
 ## <a name="setting-up-a-catalog"></a>Configuración de un catálogo
 Una vez cumplidos los requisitos previos, puede configurar los catálogos. Puede crear un catálogo que use toda la organización o varios catálogos que usen las distintas divisiones de la organización. Si crea un catálogo para toda la organización, el acceso al catálogo está controlado por las reglas de directiva de compras.  
 
-El catálogo define qué productos están disponibles cuando se crean las solicitudes de compra, pero puede usar reglas de directivas de acceso de categorías para aplicar restricciones adicionales. Dado que los nodos de un catálogo son categorías de compras, se pueden eliminar con una regla de directivas de acceso de categorías. En este caso, los productos en esa categoría no están disponibles para que los empleados usen en solicitudes. Defina reglas de directivas de acceso de categorías en ** las directivas de compras ** la página. En la tabla siguiente se describen las tareas que se deben completar para configurar un catálogo.
+El catálogo define qué productos están disponibles cuando se crean las solicitudes de compra, pero puede usar reglas de directivas de acceso de categorías para aplicar restricciones adicionales. Dado que los nodos de un catálogo son categorías de compras, se pueden eliminar con una regla de directivas de acceso de categorías. En este caso, los productos de esa categoría no están disponibles para que los empleados los usen en las solicitudes. Defina las reglas de directivas de acceso de categorías en la página **Directivas de compra**. En la tabla siguiente se describen las tareas que se deben completar para configurar un catálogo.
 
 | Tarea                                                   | Función             | Descripción                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -70,6 +73,8 @@ Las actualizaciones se publican de forma manual o automática en función de la 
 <a name="see-also"></a>Consulte también
 --------
 
-[Configuración una jerarquía de categorías de compras (guía de la tarea)](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
+[Configurar una jerarquía de categorías de compras (Guía de tareas)](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definiciones de organigramas en informes financieros
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información acerca de las definiciones de organigrama. Una definición de organigrama es un componente de informe, o bloque de creación, que ayuda a definir la estructura y jerarquía de la organización.
 
 Los informes financieros admiten los informes flexibles, de manera que pueda realizar con facilidad cambios a su estructura comercial. Los informes se generan a partir de diversos componentes o bloques de creación. Uno de estos bloques de creación es una definición de árbol de informes. Una definición de árbol de informes ayuda a definir la estructura y la jerarquía de la organización. Es una estructura jerárquica dimensional que se basa en las relaciones dimensionales de los datos financieros. Proporciona información en el nivel de la unidad de informes y en un nivel de resumen para todas las unidades del árbol. Las definiciones de organigramas se pueden combinar con las definiciones de columnas y las definiciones de informes para crear un grupo de bloques de creación que pueda ser usado por varias empresas. Se usa una unidad organizacional para cada organigrama. Una unidad de notificación puede ser un departamento individual de los datos financieros, o puede ser una unidad de resumen de alto nivel que combina la información de otras unidades de notificación. Para obtener una definición del informe que incluya un organigrama, se genera un informe para cada unidad de notificación y para el nivel de resumen. Todos estos informes usan las definiciones de filas y de columnas especificadas en la definición del informe, a menos que la definición del informe especifique que se debe usar el organigrama de la definición de filas. Las definiciones de filas y columnas son componentes importantes en el diseño y la funcionalidad de informes financieros. Los organigramas aumentan el poder de los componentes y son compatibles con los informes flexible cuando la estructura comercial cambia. Los informes financieros que no se basan en organigramas usan solo algunas de las capacidades de los informes financieros. Puede usar varias definiciones de organigramas junto con las mismas definiciones de filas y de columnas para ver los datos de su organización de distintas maneras.
@@ -49,7 +52,7 @@ Una definición del organigrama contiene las columnas que se describen en la tab
 
 | Columna del organigrama | Descripción|
 |---|---|
-| Compañía               | El nombre de la empresa para el organigrama. **@ANY** el valor, que normalmente se asigna solo a nivel de resumen, habilitar el árbol de informes que se utilizará para todas las empresas. Todas las ramas secundarias tienen una empresa asignada a ellas.|
+| Compañía               | El nombre de la empresa para el organigrama. El valor **@ANY**, que normalmente se asigna solo al nivel de resumen, permite que el organigrama se use para todas las empresas. Todas las ramas secundarias tienen una empresa asignada a ellas.|
 | Nombre de la unidad             | El código que identifica esta unidad de notificación en el organigrama gráfico. Asegúrese de establecer un sistema de codificación único que sea coherente y que vaya a ser fácil de comprender para los usuarios. |
 | Descripción de la unidad      | El título de la unidad de notificación aparece en el encabezado o el pie de página del informe si especifica **UnitDesc** como código en la pestaña **Encabezados y pies de página** de la definición del informe. El título aparece en la descripción de la fila del informe si especifica **UnitDesc** en la celda **Descripción** de la definición de la fila|
 | Dimensiones            | Una unidad de notificación que recaba información directamente de los datos financieros. Define la colocación y las longitudes lógicas para la cuenta y los segmentos relacionados. Cada fila de unidad organizacional debe tener una dimensión en esta columna. También puede colocar una dimensión en una fila de unidad de resumen (por ejemplo, para los gastos que están relacionados directamente con esa unidad). Si especifica una dimensión en una fila de resumen de unidad, las cuentas que se usan en unidades principales no se deben usar en unidades secundarias. De lo contrario, se pueden duplicar los importes.|
@@ -58,15 +61,15 @@ Una definición del organigrama contiene las columnas que se describen en la tab
 | Vínculo externo         | El vínculo de fila que se va a usar para esta unidad de notificación. Los vínculos de fila se definen para que la definición de filas identifique el informe al que vincularla.|
 | Archivo externo         | La ruta de acceso al archivo de la hoja de cálculo de informes financieros del que extraer datos.|
 | Opciones de página          | Esta columna controla si se suprimen los detalles de la unidad organizacional cuando se ve o se imprime el informe.|
-| % de distribución              | El porcentaje de la unidad organizacional que se debe asignar a la unidad principal. El porcentaje especificado en esta columna solo se aplica a cada fila de la definición de filas antes de que el valor de la fila se agregue al informe principal. Por ejemplo, si se debe dividir una unidad secundaria uniformemente entre dos departamentos, los importes en cada fila se multiplican por el 50 por ciento antes de que el valor se agregue al informe del departamento. Una unidad organizacional no puede tener dos unidades principales. Para asignar los importes de una unidad organizacional a las unidades biparentales, cree otra unidad organizacional que tenga la misma dimensión para distribuir el 50 por ciento adicional. Especifique porcentajes enteros sin una coma decimal. Por ejemplo, **25** representa la asignación del 25 por ciento al elemento primario. Si incluye una coma decimal (**,25**), se asigna el porcentaje del 0,25% al elemento primario. Para usar un porcentaje que sea inferior al 1 por ciento, utilice ** permita el la &lt;acumulación del 1% ** la opción en la definición de informe. Esta opción está en la pestaña **Opciones adicionales** en el cuadro de diálogo **Configuración de informes**. A este cuadro de diálogo se obtiene acceso desde el botón **Otra** en la pestaña **Configuración** de la definición del informe. |
+| % de distribución              | El porcentaje de la unidad organizacional que se debe asignar a la unidad principal. El porcentaje especificado en esta columna solo se aplica a cada fila de la definición de filas antes de que el valor de la fila se agregue al informe principal. Por ejemplo, si se debe dividir una unidad secundaria uniformemente entre dos departamentos, los importes en cada fila se multiplican por el 50 por ciento antes de que el valor se agregue al informe del departamento. Una unidad organizacional no puede tener dos unidades principales. Para asignar los importes de una unidad organizacional a las unidades biparentales, cree otra unidad organizacional que tenga la misma dimensión para distribuir el 50 por ciento adicional. Especifique porcentajes enteros sin una coma decimal. Por ejemplo, **25** representa la asignación del 25 por ciento al elemento primario. Si incluye una coma decimal (**,25**), se asigna el porcentaje del 0,25% al elemento primario. Para usar un porcentaje inferior al 1 por ciento, use la opción **Permitir distribución de &lt;1%** en la definición del importe. Esta opción está en la pestaña **Opciones adicionales** en el cuadro de diálogo **Configuración de informes**. A este cuadro de diálogo se obtiene acceso desde el botón **Otra** en la pestaña **Configuración** de la definición del informe. |
 | Seguridad de la unidad         | Restricciones en los usuarios y grupos que pueden tener acceso a la información de la unidad organizacional.|
 | Texto adicional       | El texto incluido en el informe.|
 
 Para crear una definición de organigrama, siga estos siguientes pasos.
 
 1.  Abrir el diseñador de informes.
-2.  Haga clic en ** archivo ** &gt; ** nuevo ** &gt; ** definición del árbol del informe de errores **.
-3.  Haga clic en ** edición ** &gt; ** unidades de notificación de Insertar de dimensiones **.
+2.  Haga clic en **Archivo** &gt; **Nuevo** &gt; **Definición del organigrama**.
+3.  Haga clic en **Editar** &gt; **Insertar unidades organizacionales de dimensiones**.
 4.  En el cuadro de diálogo **Insertar unidades de notificaciones de dimensiones**, active la casilla para cada dimensión que desee incluir en la definición del organigrama. El cuadro de diálogo **Insertar unidades de notificaciones de dimensiones** contiene las siguientes secciones.
 
     | Sección                          | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -85,7 +88,7 @@ Para crear una definición de organigrama, siga estos siguientes pasos.
 
 9.  Repita los pasos del 7 al 8 para cada dimensión en el área **Jerarquía y intervalos de segmento**.
 10. Una vez que haya terminado de definir cómo se deben traer las unidades organizacionales al nuevo organigrama, haga clic en **Aceptar**.
-11. Haga clic en ** archivo ** &gt; ** Guardar ** guardar el árbol de informes. Escriba un nombre exclusivo y una descripción para el organigrama y, a continuación, haga clic en **Aceptar**.
+11. Haga clic en **Archivo** &gt; **Guardar** para guardar el organigrama. Escriba un nombre exclusivo y una descripción para el organigrama y, a continuación, haga clic en **Aceptar**.
 
 ### <a name="open-an-existing-reporting-tree-definition"></a>Abra una definición existente del organigrama
 
@@ -121,7 +124,7 @@ Puede cambiar la estructura de organización de un organigrama moviendo las unid
 1.  En el diseñador de informes, abra la definición del organigrama para modificarla.
 2.  En la vista gráfica de la definición del organigrama, seleccione una unidad de notificación.
 3.  Arrastre la unidad a una nueva posición. De forma alternativa, haga clic con el botón secundario en la unidad y, a continuación, seleccione **Aumentar nivel de la unidad organizacional** o **Disminuir nivel de la unidad organizacional**.
-4.  Haga clic en ** archivo ** &gt; ** Guardar ** guardar los cambios.
+4.  Haga clic en **Archivo** &gt; **Guardar** para guardar los cambios.
 
 ### <a name="add-text-about-a-reporting-unit"></a> Agregar texto sobre una unidad de notificación
 
@@ -181,15 +184,15 @@ Consulte la estructura de las unidades organizacionales en el siguiente organigr
 -   Las unidades de notificación de detalle más bajo (ventas para el hogar, ventas de automóviles, servicios al cliente y operaciones) representan departamentos en los datos financieros. Estas unidades de notificación se encuentran en el área sombreada del diagrama.
 -   Las unidades de resumen de alto nivel resumen la información de las unidades de detalle.
 
-![ContosoEntertainmentSummaryReportStructure [] (. /media/contosoentertainmentsummaryreportstructure.png])(. /media/contosoentertainmentsummaryreportstructure.png)
+[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Estructura de la unidad organizacional – Ejemplo 2
 
-En el diagrama siguiente, el organigrama tiene una estructura de organización que está dividida por la función de negocio. [summaryofallunitscontoso de![] (. /media/summaryofallunitscontoso.png])(. /media/summaryofallunitscontoso.png)
+En el diagrama siguiente, el organigrama tiene una estructura de organización que está dividida por la función de negocio. [![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Ejemplo del cuadro de diálogo Insertar unidades organizacionales de dimensiones
 
-En la siguiente ilustración se muestra un ejemplo del cuadro de diálogo **Insertar unidades de notificaciones de dimensiones**. Para este ejemplo, los resultados devolverán la combinación de unidades de negocio, centros de costes y departamentos. ![InsertReportingUnits [] (. /media/insertreportingunits.png])(. /media/insertreportingunits.png) La definición del árbol resultante de informes se ordena por unidad de negocio, por centro de coste, y por el departamento. La dimensión de la quinta unidad de notificación es ** unidad de negocio \[= 001\], centro de coste =\[\], departamento \[= 022\]**, e identificar una unidad de notificación para las cuentas que son específicas de la unidad de negocio 001 y departamento 022. ![ReportingTree [] (. /media/reportingtree-1024x646.png])(. /media/reportingtree.png)
+En la siguiente ilustración se muestra un ejemplo del cuadro de diálogo **Insertar unidades de notificaciones de dimensiones**. Para este ejemplo, los resultados devolverán la combinación de unidades de negocio, centros de costes y departamentos. [![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png) La definición del organigrama resultante se clasifica por unidad de negocio, a continuación, por centro de coste y, por último, por departamento. La dimensión para la quinta unidad organizacional es **Unidad de negocio = \[001\], Centro de coste =\[\], Departamento = \[022\]** e identifica una unidad organizacional para las cuentas que son específicas de la unidad de negocio 001 y el departamento 022. [![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Ejemplos de distribución de datos
 
@@ -197,14 +200,16 @@ Los ejemplos siguientes muestran información que se puede usar en una definici�
 
 #### <a name="example-1"></a>Ejemplo 1
 
-![MutliCompanyRollUp [] (. /media/mutlicompanyrollup.png])(. /media/mutlicompanyrollup.png)
+[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Ejemplo 2
 
-![CrossCompanyDepartmentRollUp [] (. /media/crosscompanydepartmentrollup.png])(. /media/crosscompanydepartmentrollup.png)
+[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 # <a name="see-also"></a>Consulte también
 
-[Financial reporting](financial-reporting-intro.md)
+[Informes financieros](financial-reporting-intro.md)
+
+
 
 

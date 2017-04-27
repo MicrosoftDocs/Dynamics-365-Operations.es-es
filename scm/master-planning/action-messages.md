@@ -1,5 +1,5 @@
 ---
-title: indocumentado
+title: sin documentar
 description: "Un mensaje de acción es una sugerencia generada por el sistema para cambiar una orden de planificada o en firme existente."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="undocumented"></a>indocumentado
+# <a name="undocumented"></a>sin documentar
 
 Un mensaje de acción es una sugerencia generada por el sistema para cambiar una orden de planificada o en firme existente.
 

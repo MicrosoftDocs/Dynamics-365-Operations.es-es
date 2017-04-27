@@ -1,5 +1,5 @@
 ---
-title: "Administración de no conformidad"
+title: "Gestión de disconformidad"
 description: "Este artículo describe la configuración básica necesaria para usar disconformidades. Se requiere configuración adicional si desea usar pedidos de calidad."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="nonconformance-management"></a>Administración de no conformidad
+# <a name="nonconformance-management"></a>Gestión de disconformidad
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo describe la configuración básica necesaria para usar disconformidades. Se requiere configuración adicional si desea usar pedidos de calidad. 
 
@@ -34,7 +37,7 @@ Para activar la gestión de disconformidades, siga estos pasos:
 1.  Defina los parámetros de gestión de inventario y almacén relacionados con disconformidades:
     -   Defina la opción **Usar administración de calidad** en **Sí**.
     -   Use el campo **Índice por hora** para especificar una tasa de mano de obra por hora en la divisa local. El índice por hora se usa para calcular los costes de operaciones relacionadas con un caso de disconformidad. El índice por hora y los costes calculados proporcionan información de referencia para un caso de disconformidad. No interactúan con otra función.
-    -   Use ** administración de calidad ** la ficha de ** configuración de informes ** la página para definir el tipo de documento que desee imprimir. Puede imprimir un informe de no conformidad, una etiqueta de no conformidad, o informe de corrección. Se puede definir más de un registro para imprimir diferentes tipos de documento en un informe, o para imprimir notas internas y externas. Puede ser útil usar la página **Tipo de documento** para definir un tipo de documento único para un caso de disconformidad, y un tipo de documento único para correcciones. Por ejemplo, desea escribir notas acerca un caso de disconformidad utilizando el tipo de documento exclusivo para casos de disconformidad. En este caso, identifique el tipo de documento único en las opciones del informe.
+    -   Utilice la pestaña **Gestión de calidad** de la página **Configuración del informe** para definir el tipo de documento que desea imprimir. Puede imprimir un informe de disconformidad, una etiqueta de disconformidad o un informe de corrección. Se puede definir más de un registro para imprimir diferentes tipos de documento en un informe, o para imprimir notas internas y externas. Puede ser útil usar la página **Tipo de documento** para definir un tipo de documento único para un caso de disconformidad, y un tipo de documento único para correcciones. Por ejemplo, desea escribir notas acerca un caso de disconformidad utilizando el tipo de documento exclusivo para casos de disconformidad. En este caso, identifique el tipo de documento único en las opciones del informe.
     -   Habilite secuencias numéricas para las referencias de disconformidad y correcciones.
 
 2.  Active la aprobación del usuario de los casos de disconformidad. Use el campo **Nombre** de la página **Usuarios** para asignar un empleado a cada usuario que deba aprobar un caso de disconformidad. El sistema utiliza los empleados que cambian el estado de un caso de disconformidad para realizar un seguimiento del historial de disconformidad. Los usuarios no pueden aprobar los casos de disconformidad a menos que se les hayan asignado un identificador de empleado.
@@ -47,10 +50,12 @@ Para activar la gestión de disconformidades, siga estos pasos:
 <a name="see-also"></a>Consulte también
 --------
 
-[Crear y procesar una no conformidad (Guía de la tarea)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
+[Creación y procesamiento de una disconformidad (guías de tareas)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
 
-[Quality management processes](quality-management-processes.md)
+[Procesos de gestión de calidad](quality-management-processes.md)
 
-[Requisitos previos de configuración para la administración de no conformidad (guía de la tarea)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+[Configurar requisitos previos para la gestión de no conformidades (guía de tareas)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+
+
 
 

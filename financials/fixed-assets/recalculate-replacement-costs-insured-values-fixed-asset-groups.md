@@ -1,5 +1,5 @@
 ---
-title: "Actualizar costes de sustitución y los valores asegurados de los grupos de activos fijos"
+title: "Nuevo cálculo de los costes de sustitución y los valores asegurados para grupos de activos fijos"
 description: "Este artículo explica el proceso de la actualización de los costes de sustitución y los valores asegurados de los activos fijos."
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Actualizar costes de sustitución y los valores asegurados de los grupos de activos fijos
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Nuevo cálculo de los costes de sustitución y los valores asegurados para grupos de activos fijos
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo explica el proceso de la actualización de los costes de sustitución y los valores asegurados de los activos fijos.
 
@@ -38,18 +41,18 @@ Para volver a calcular los costes de sustitución y los valores asegurados de lo
 
 Cuando se usa el formulario Actualizar costes de sustitución y valores asegurados para volver a calcular el coste de sustitución y el valor asegurado para los activos, se usan las fórmulas siguientes:
 
--   \[(factor del coste de sustitución del grupo de activos/100) + 1 Coste de sustitución existente del activo\] \*
--   \[(factor/100 del valor asegurado del grupo de activos) el 1 + Valor asegurado existente del activo\] \*
+-   \[(Factor del coste de sustitución del grupo de activos / 100) + 1\] \* Coste de sustitución existente del activo
+-   \[(Factor del valor asegurado del grupo de activos / 100) + 1\] \* Valor asegurado existente del activo
 
 > [!NOTE] 
 > Cuando se usa el formulario Actualizar costes de sustitución y valores asegurados, se actualiza tanto el coste de sustitución como el valor asegurado de los activos seleccionados; no se puede especificar que se actualice un único valor. Para dejar un valor igual y actualizar el otro valor, especifique 0 (cero) como factor en el formulario Grupos de activos fijos. Un factor cero o en blanco hace que se omita el cálculo en la actualización. La actualización periódica no afectará al valor neto ni al valor neto en los libros de los activos fijos. 
 
 ## <a name="how-to-use-a-date-to-select-which-items-to-update"></a>Uso de una fecha para seleccionar los artículos que se deben actualizar
-De manera predeterminada, el proceso de actualización actualiza los activos seleccionados que no se han actualizado en el día actual pero que podrían haberse actualizado en días anteriores. Por ejemplo, &lt; la fecha actual significa “antes de hoy”. Puede cambiar la fecha en los costes de sustitución de actualización y los valores asegurados formulario haciendo clic en el botón Seleccionar. Los criterios de fecha que se especifican se comparan con la fecha de la última actualización periódica del activo (el campo Última actualización periódica de valor/coste del formulario Activos fijos). Cada vez que se actualice correctamente el coste de sustitución o el valor asegurado de un activo fijo, se actualizará automáticamente el campo Última actualización periódica de valor/coste con la fecha actual. 
+De manera predeterminada, el proceso de actualización actualiza los activos seleccionados que no se han actualizado en el día actual pero que podrían haberse actualizado en días anteriores. Por ejemplo, &lt; fecha actual significa "antes del día de hoy". Puede cambiar la fecha en el formulario Actualizar costes de sustitución y valores asegurados al hacer clic en el botón Seleccionar. Los criterios de fecha que se especifican se comparan con la fecha de la última actualización periódica del activo (el campo Última actualización periódica de valor/coste del formulario Activos fijos). Cada vez que se actualice correctamente el coste de sustitución o el valor asegurado de un activo fijo, se actualizará automáticamente el campo Última actualización periódica de valor/coste con la fecha actual. 
 
 Ejemplo 
 
-Ayer se actualizó el coste de sustitución de los grupos Vehículos, Mobiliario de oficina y Edificios en un 5% y ahora se considera que los activos se han actualizado correctamente. Para excluir los activos al actualizar el resto de los activos fijos hoy, especifica una fecha en el campo periódico hasta el valor/de actualización de coste que empieza antes de ayer (&lt; fecha del día anterior), ya que la última actualización de los vehículos, mobiliario de oficina, y grupos de edificios se produjo fuera de los criterios de fecha ha especificado.
+Ayer se actualizó el coste de sustitución de los grupos Vehículos, Mobiliario de oficina y Edificios en un 5% y ahora se considera que los activos se han actualizado correctamente. Para excluir estos activos de la actualización de hoy de los demás activos fijos se escribe una fecha en el campo Última actualización periódica de valor/coste correspondiente a antes de ayer (&lt; fecha de ayer), ya que la última actualización de Vehículos, Mobiliario de oficina y Edificios se produjo fuera de los criterios de fecha especificados.
 
 ## <a name="cumulative-effect-of-each-update"></a>Efecto acumulativo de cada actualización
 Cada actualización tiene un efecto acumulativo. Por lo tanto, debe planificar las actualizaciones con cuidado. Por ejemplo, si aumenta todos los activos en un 3% el martes y, a continuación, actualiza el mobiliario de oficina en un 4% el viernes, se aumentará el mobiliario de oficina un 7,12% en total.
@@ -72,6 +75,8 @@ El día siguiente, el gerente indica que los equipos informáticos disminuyeron 
 
 > [!NOTE]  
 > No es posible invertir el factor de -10 al especificar un factor de 10 positivo (ni un factor de 2, que es la diferencia entre -10 y -8), ya que los importes no se calcularán según se espera. 
+
+
 
 
 

@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reverse-a-vendor-payment"></a>Inversión de un pago de proveedor
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe las diferencias entre la inversión, la eliminación, la anulación y el rechazo de un pago. Además, explica los dos métodos para invertir una comprobación de proveedor. 
 
-En ocasiones, después de que se haya registrado un pago de proveedor, el pago debe invertir. La inversión es diferente de la eliminación, la anulación o el rechazo de un pago. Es posible eliminar un pago solo si su estado es **Creado**. Este estado indica que se ha creado el pago pero aún no se ha generado. Esta limitación aplica siempre, independientemente de la forma de pago. Puede anular los cheques no después de que se hayan generado pero antes de que se han enviado. Si el pago generado se hace como transferencia de fondos electrónicos (EFT), puede rechazar el pago antes de que haya enviado. Para rechazar un pago, cambie ** estado de pago ** el valor. Un pago se ha anulado o se ha rechazado se puede que no se vuelvan a generar después de que ** estado de pago ** el valor se cambie de nuevo a cualquiera ** **. 
+En ocasiones, después de que se haya registrado un pago de proveedor, el pago debe invertir. La inversión es diferente de la eliminación, la anulación o el rechazo de un pago. Es posible eliminar un pago solo si su estado es **Creado**. Este estado indica que se ha creado el pago, pero aún no se ha generado. Esta limitación se aplica siempre, independientemente del método de pago. Puede anular los cheques no registrados después de que se han generado, pero antes de registrarlos. Si el pago generado se realiza como transferencia electrónica de fondos (EFT), puede rechazar el pago antes de registrarlo. Para rechazar un pago, cambie el valor **Estado de pago**. Un pago que se ha anulado o se ha rechazado, se puede regenerar después de volver a cambiar el valor de **Estado de pago** a **Ninguno**. 
 
-Después de registrar un pago, se utilizan las inversiones. Los pagos que se realizan electrónicamente no pueden invertir se registrarán después de registrarse. En su lugar, una nueva transacción debe crearse para el importe de pago para obtener devolución del pasivo en la cuenta del proveedor. Existen dos métodos diferentes para invertir cheques registrados. En un método, las inversiones se registran inmediatamente al hacer clic en **Inversión del pago** en la página **Cheque**. En el otro método, al hacer clic en el botón **Inversión del pago** de la página **Cheque**, la inversión se envía primero al diario de inversión de cheques en Gestión de efectivo y bancos, donde un revisor podrá registrarla o rechazarla. 
+Una vez registrado un pago, se usan las inversiones. Los pagos que se realizan electrónicamente no pueden invertirse después de que se hayan registrado. En su lugar, debe crearse una nueva transacción por el importe de pago para devolver el pasivo a la cuenta del proveedor. Existen dos métodos para invertir los cheques registrados. En un método, las inversiones se registran inmediatamente al hacer clic en **Inversión del pago** en la página **Cheque**. En el otro método, al hacer clic en el botón **Inversión del pago** de la página **Cheque**, la inversión se envía primero al diario de inversión de cheques en Gestión de efectivo y bancos, donde un revisor podrá registrarla o rechazarla. 
 
 Para saber qué método usa la organización, vea la página **Parámetros de gestión de efectivo y bancos**. Si la opción **Usar proceso de revisión para inversiones de pago** está establecida en **Sí**, las inversiones se envían al diario de inversiones de cheques para su revisión. La tabla siguiente se describe cómo difieren los métodos de inversión de cheques.
 
@@ -57,7 +60,7 @@ Si es un usuario que debe revisar inversiones, puede aprobar y registrar el diar
 -   Para rechazar la inversión, elimine el diario de cheques de inversión.
 
 > [!NOTE]
-> Si elimina el diario, la inversión se quita del sistema, pero el cheque original permanece en ** comprobación ** la página. El estado del cheque dejará de ser **Cancelación pendiente**.
+> Si elimina el diario, se quita la inversión del sistema, pero el cheque original permanece en la página **Cheque**. El estado del cheque dejará de ser **Cancelación pendiente**.
 
 ## <a name="results-of-posting-a-reversal"></a>Resultados del registro de una inversión
 Al registrar la inversión de un cheque, ocurren los eventos siguientes:
@@ -78,6 +81,8 @@ Si el cheque invertido se había emitido para una devolución de cliente, tambi�
 
 -   Se registrará una transacción contra la cuenta de cliente para la inversión de pago, y la liquidación entre el pago original y el documento contra el que se había liquidado el pago originalmente se invertirá (se crea un pago negativo).
 -   Se aplica una inversión de pago al pago original. El campo **Último asiento de liquidación** de la página **Transacciones de cliente** del pago original del proveedor se actualizará para reflejar el número de asiento de la transacción invertida.
+
+
 
 
 

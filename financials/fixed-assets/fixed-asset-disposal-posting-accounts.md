@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-disposal-posting-accounts"></a>Cuentas de registro de cancelación de activos fijos
 
+[!include[banner](../includes/banner.md)]
+
+
 En este artículo se explica cómo configurar cuentas de registro de contabilidad general para cancelar activos.
 
 En la página Perfiles de contabilización de activos fijos, en la ficha desplegable Cuentas contables, seleccione Venta y Cancelación para configurar los registros en el libro mayor.
@@ -37,6 +40,8 @@ Para los dos tipos de transacciones, la cuenta contable se abona para el valor d
 Haga clic en Cancelación, después en Venta o residual y, a continuación, configure cuentas detalladas para revertir el valor neto en los libros de los activos fijos. También puede especificar información en los campos Valor contable y Valor de ventas en la página Parámetros de cancelación. 
 
 La transacción de cancelación de un activo de valor reducido reduce el valor neto en los libros del activo de valor reducido sólo por el importe cancelado. Sin embargo, cuando la venta de un activo excede el valor neto en los libros del activo de valor reducido, el valor neto en los libros se reduce a cero.
+
+
 
 
 

@@ -26,12 +26,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-generate-positive-pay-files"></a>Configurar y generar archivos de pago positivo
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo explica cómo configurar un pago positivo y generar archivos de pago positivo. 
 
 Configure los pagos positivos para generar una lista electrónica de cheques que se proporcionan al banco. A continuación, cuando el cheque se envía al banco, el banco lo compara con la lista de cheques. Si el cheque coincide con un cheque de la lista, el banco lo compensa. Si el cheque no coincide con un cheque en la lista, el banco lo retiene para su revisión.
 
 ## <a name="security-for-positive-pay-files"></a>Seguridad para los archivos de pago positivo
-Los archivos de pago positivo pueden contener información confidencial acerca de los beneficiarios y los importes del cheque. Por lo tanto, asegúrese de usar medidas de seguridad adecuadas desde el momento en que los archivos se generan, hasta que los reciba el banco. Los archivos de pago positivo se descarga en la ubicación que especifica el explorador web. Dado que los archivos positivos de sueldo pueden contener información importante, es importante que sólo los usuarios autorizados tienen acceso para generar y ver esta información en Microsoft Dynamics 365 para las operaciones. Use la siguiente tabla para ayudarle a determinar los privilegios necesarios.
+Los archivos de pago positivo pueden contener información confidencial acerca de los beneficiarios y los importes del cheque. Por lo tanto, asegúrese de usar medidas de seguridad adecuadas desde el momento en que los archivos se generan, hasta que los reciba el banco. Los archivos de pago positivo se descarga en la ubicación que especifica el explorador web. Dado que los archivos de pago positivo pueden contener información confidencial, es importante que solo los usuarios autorizados tengan acceso para generar y ver esta información en Microsoft Dynamics 365 for Operations. Use la siguiente tabla para ayudarle a determinar los privilegios necesarios.
 
 <table>
 <colgroup>
@@ -156,5 +159,7 @@ Después de que se hayan pagado los cheques que aparecen en un archivo de pago p
 
 ## <a name="recall-a-positive-pay-file"></a>Recuperar un archivo de pago positivo
 Si debe cambiar un archivo de pago positivo, puede recuperarlo. En la página **Resumen de archivo de pago positivo**, seleccione un archivo de pago positivo que tenga un estado **Creado** y, a continuación, seleccione la acción **Recuperar**. Para cada cheque del archivo de pago positivo, se restablece el campo que indica si el cheque se ha incluido en un archivo de pago positivo. A continuación puede crear un nuevo archivo de pago positivo que incluya el cheque que se ha recuperado.
+
+
 
 

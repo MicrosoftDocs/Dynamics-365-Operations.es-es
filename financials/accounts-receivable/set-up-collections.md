@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-credit-and-collections"></a>Configuración de crédito y cobros
 
+[!include[banner](../includes/banner.md)]
+
+
 En este artículo se explica cómo configurar la funcionalidad de cobros.
 
 <a name="set-up-aging-period-definitions"></a>Configurar definiciones del período de vencimiento
@@ -46,7 +49,7 @@ Si varias personas de su organización realizan trabajos de cobros, puede config
 ## <a name="set-up-a-collections-case-category"></a>Configurar una categoría de caso de cobros
 Si organiza los cobros usando casos, configure una categoría de caso de tipo **Cobros**. Esta configuración solo es necesaria si se desea usar la función de casos en la página **Cobros**.
 
-## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Configurar nombres de diarios (liquidación, depreciación, y NSF)
+## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Configurar nombres de diarios (liquidación, amortización y NSF)
 Configure los nombres de diario que se usan al procesar transacciones en la página **Cobros**. En este procesamiento se incluye la liquidación de y la cancelación de transacciones y el procesamiento de pagos de fondos insuficientes (NSF).
 
 | Descripción | Tipo de diario     |
@@ -82,11 +85,13 @@ Configure direcciones de correo electrónico para los contactos de cliente si de
 En la ficha desplegable **Crédito y cobros** de un cliente, en el campo **Contacto de cobros**, seleccione la persona de la organización del cliente que trabaja con su agente de cobros. Esta persona se usa como contacto predeterminado en la página **Cobros**, y es la persona a la que se enviarán los mensajes de correo electrónico. 
 
 > [!NOTE] 
-> Si un contacto de cobros no se especifica para un cliente, el contacto principal del cliente. Si no se especifica un contacto principal, los mensajes de correo electrónico se enviarán a la primera dirección que aparezca en la página **Contactos**.
+> Si no se especifica un contacto de cobros para un cliente, se usará el contacto principal del cliente. Si no se especifica un contacto principal, los mensajes de correo electrónico se enviarán a la primera dirección que aparezca en la página **Contactos**.
 
 ## <a name="set-up-email-settings-for-salespeople"></a>Configurar los parámetros de correo electrónico para los vendedores
 Configure direcciones de correo electrónico para los vendedores si desea enviar mensajes de correo electrónico a los vendedores desde la página **Cobros**. Configure una dirección de correo electrónico para cada representante de ventas de cada grupo de ventas de la comisión. El representante de ventas que tenga la opción **Contacto** activada es el vendedor predeterminado al que se enviarán los mensajes de correo electrónico. 
 
 Si no se especifica un representante de ventas, se usará el vendedor principal de la organización del cliente. Si no se especifica un vendedor principal, los mensajes de correo electrónico se enviarán al primer vendedor que aparezca en la página.
+
+
 
 

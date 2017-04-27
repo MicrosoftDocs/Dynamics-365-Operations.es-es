@@ -1,6 +1,6 @@
 ---
 title: Ver y evaluar los resultados de un cuestionario
-description: "Este tema explica cómo puede ver y evaluar los resultados de los cuestionarios que los encuestados completan."
+description: "En este tema se explica cómo se pueden ver y evaluar los resultados de los cuestionarios que los encuestados completan."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Ver y evaluar los resultados de un cuestionario
 
-Este tema explica cómo puede ver y evaluar los resultados de los cuestionarios que los encuestados completan. 
+En este tema se explica cómo se pueden ver y evaluar los resultados de los cuestionarios que los encuestados completan. 
 
 Después de que los encuestados completen un cuestionario, puede ver y evaluar los resultados del mismo de las maneras siguientes:
 

@@ -26,23 +26,26 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-and-marketing"></a>Ventas y marketing
 
+[!include[banner](../includes/banner.md)]
+
+
 Puede usar Ventas y marketing para obtener, almacenar y usar distintos tipos de datos en el flujo de ventas. Estos datos incluyen la iniciativa de venta original, la acción de seguimiento futura y las ventas adicionales.
 
 <a name="marketing"></a>Marketing
 ---------
 
-Las actividades y las campañas de marketing se usan para encontrar y crear relaciones con clientes potenciales, para que las interacciones iniciales puedan derivar en relaciones de ventas. El siguiente flujo de procesos muestra el proceso empresarial de marketing. [proceso empresarial![para marketing (]. /media/marketing01.jpg])(. /media/marketing01.jpg)
+Las actividades y las campañas de marketing se usan para encontrar y crear relaciones con clientes potenciales, para que las interacciones iniciales puedan derivar en relaciones de ventas. El siguiente flujo de procesos muestra el proceso empresarial de marketing. [![Proceso empresarial de marketing](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>Relaciones
 
-En ventas y marketing, las interacciones iniciales que tenga con clientes potenciales se pueden producir en varias situaciones. Por ejemplo, podría encontrar un cliente potencial mientras asista a una feria comercial o puede tener un posible cliente potencial con un cliente después de que la organización dirija una campaña de correo masivo. Es muy importante que comprenda el flujo de la entidad de una parte antes de que dicha parte se convierta en cliente. En el gráfico siguiente se muestra el flujo de las relaciones de entidades conforme un cliente potencial se convierte en un cliente real. ![SalesandMarketing01 [] (. /media/salesandmarketing01.jpg])(. /media/salesandmarketing01.jpg)
+En ventas y marketing, las interacciones iniciales que tenga con clientes potenciales se pueden producir en varias situaciones. Por ejemplo, podría encontrar un cliente potencial mientras asista a una feria comercial o puede tener un posible cliente potencial con un cliente después de que la organización dirija una campaña de correo masivo. Es muy importante que comprenda el flujo de la entidad de una parte antes de que dicha parte se convierta en cliente. En el gráfico siguiente se muestra el flujo de las relaciones de entidades conforme un cliente potencial se convierte en un cliente real. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Campañas
 
-Una campaña está destinada a los contactos para clientes potenciales, oportunidades y clientes que se han seleccionado para participar en la campaña. En Microsoft Dynamics 365 para las operaciones, puede crear varios tipos de campaña, como telemarketing, correo, y campañas de correo electrónico, para maximizar el potencial del cliente. Conforme su campaña progresa y recibe respuestas positivas, puede cambiar el proceso de ventas con los destinatarios que han respondido de manera positiva a la campaña.
+Una campaña está destinada a los contactos para clientes potenciales, oportunidades y clientes que se han seleccionado para participar en la campaña. En Microsoft Dynamics 365 for Operations, puede crear varios tipos de campañas, como telemarketing, correo y campañas de correo electrónico, para maximizar a su potencial de clientes. Conforme su campaña progresa y recibe respuestas positivas, puede cambiar el proceso de ventas con los destinatarios que han respondido de manera positiva a la campaña.
 
 ## <a name="sales"></a>Ventas
-Utilice la funcionalidad de venta para crear presupuestos, venta vertical y venta cruzada para clientes nuevos y existentes, crear pedidos de ventas y crear facturas de venta para clientes. El siguiente flujo de procesos muestra el proceso empresarial de ventas. [proceso empresarial![para ventas (]. /media/sales01.jpg])(. /media/sales01.jpg)
+Utilice la funcionalidad de venta para crear presupuestos, venta vertical y venta cruzada para clientes nuevos y existentes, crear pedidos de ventas y crear facturas de venta para clientes. El siguiente flujo de procesos muestra el proceso empresarial de ventas. [![Proceso empresarial de ventas](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Presupuestos de ventas
 
@@ -50,7 +53,7 @@ Cree presupuestos de ventas para presentar a los clientes una oferta de los bien
 
 ### <a name="up-sellcross-sell"></a>Venta vertical o venta cruzada
 
-Las ventas verticales y las ventas cruzadas son técnicas para vender productos cuando se introduce un pedido para un cliente. En las ventas verticales, se sugiere otro producto en lugar del producto actual. En las ventas verticales, se sugiere un producto además del producto actual. Al configurar las listas de productos de la configuración, puede crear reglas específicas para indicar cuándo un producto se debe sugerir como producto de la venta cruzada o la que desea venta.
+Las ventas verticales y las ventas cruzadas son técnicas para vender productos cuando se introduce un pedido para un cliente. En las ventas verticales, se sugiere otro producto en lugar del producto actual. En las ventas verticales, se sugiere un producto además del producto actual. Al configurar listas de productos, puede crear reglas específicas para indicar el momento en que se debe sugerir un producto como un producto de venta cruzada o de venta vertical.
 
 ### <a name="sales-orders"></a>Pedidos de ventas
 
@@ -117,5 +120,7 @@ Las facturas de servicios son facturas no relacionadas con un pedido de ventas. 
 #### <a name="pro-forma-invoice"></a>Factura proforma
 
 Las facturas proforma son facturas que se preparan como estimación del importe real de la factura antes de registrar la factura. Se puede imprimir una factura proforma para una factura de cliente o para una factura de servicios.
+
+
 
 

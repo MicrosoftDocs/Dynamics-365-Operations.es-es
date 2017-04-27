@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-customer-invoice"></a>Crear una factura de cliente
 
+[!include[banner](../includes/banner.md)]
 
 
-Una **factura de cliente para un pedido de ventas** es una factura en relación con una venta que una organización da a un cliente. Este tipo de factura de cliente se crea basándose en un pedido de ventas, que incluye líneas de pedido y números de artículo. Los números de artículos se especifican y se registran en el libro mayor. Los asientos del subdiario contable no están disponibles para una factura de cliente para un pedido de ventas. 
+
+
+Una **factura de cliente para un pedido de ventas** es una factura en relación con una venta que una organización da a un cliente. Este tipo de factura de cliente se crea basándose en un pedido de ventas, que incluye líneas de pedido y números de artículo. Los números de artículos se especifican y se registran en el libro mayor. Los asientos de subdiarios contables no están disponibles para facturas de cliente de pedidos de venta. 
 
 Las **facturas de servicios** no están relacionadas con los pedidos de ventas. Contienen líneas de pedido que incluyen cuentas contables, descripciones de texto libre y un importe de ventas que especifica el usuario. No puede especificar un número de artículo en este tipo de factura. Debe indicar la información de impuestos correspondiente. En cada línea de factura, se indica una cuenta principal para la venta, que se puede distribuir a varias cuentas contables si hace clic en **Distribuir importes** en la página **Factura de servicios**. Además, el saldo del cliente se registra en la cuenta de resumen del perfil de contabilización que se usa para la factura de servicios.
 
@@ -55,7 +58,7 @@ Vea el estado de los pedidos de ventas en la página de lista **Todos los pedido
 ## <a name="consolidate-sales-orders-or-packing-slips-for-posting"></a>Consolidar los pedidos de ventas o los albaranes para registrar
 Use este proceso cuando uno o varios pedidos de ventas están listos para su facturación y desea consolidarlos en una única factura. 
 
-Puede seleccionar varias facturas en la página de lista **Pedido de ventas** y, después, usar **Generar facturas** para consolidarlas. En ** registro de factura ** la página, puede modificar ** pedido de resumen ** el valor para resumir por número de pedido (donde hay varios albaranes para un único pedido de ventas) o por cuenta de facturación (donde hay varios pedidos de ventas para una cuenta de factura única). Use ** organizar ** botón para poner en firme pedidos de ventas en facturas únicas, en función ** pedido de resumen ** de los valores.
+Puede seleccionar varias facturas en la página de lista **Pedido de ventas** y, después, usar **Generar facturas** para consolidarlas. En la página **Registro de factura**, puede cambiar la opción **Pedido de resumen** para resumir por el número de pedido (donde hay varios albaranes para un único pedido de ventas) o por cuenta de facturación (donde hay varios pedidos de ventas para una única cuenta de facturación). Use el botón **Organizar** para consolidar pedidos de ventas en facturas únicas, en función de los ajustes de **Pedido de resumen**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Opciones adicionales que modifican el comportamiento de registro
 Los siguientes campos cambian el comportamiento del proceso de registro.
@@ -123,8 +126,8 @@ Los siguientes campos cambian el comportamiento del proceso de registro.
 <td>Comprobar límite de crédito</td>
 <td>Seleccione la información que se debe analizar cuando se realice la comprobación del límite de crédito.
 <ul>
-<li><strong>None</strong> – There is no requirement for the credit limit check.</li>
-<li><strong>Balance</strong> – The credit limit is checked against the customer balance.</li>
+<li><strong>Ninguno</strong>: no hay requisitos para la comprobación del límite de crédito.</li>
+<li><strong>Saldo</strong>: el límite de crédito se comprueba con respecto al saldo del cliente.</li>
 <li><strong>Saldo + albarán o recepción de producto</strong>: el límite de crédito se comprueba con respecto al saldo del cliente y las entregas.</li>
 <li><strong>Saldo+Todo</strong>: el límite de crédito se comprueba con respecto al saldo del cliente, las entregas y los pedidos abiertos.</li>
 </ul></td>
@@ -150,6 +153,8 @@ Los siguientes campos cambian el comportamiento del proceso de registro.
 </tr>
 </tbody>
 </table>
+
+
 
 
 

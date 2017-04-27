@@ -1,6 +1,6 @@
 ---
-title: Seguridad de usuario del portal de proveedores
-description: "Este artículo explica cómo configurar la seguridad para proveedores externos que usan el Portal de proveedor. Esta información solo se aplica a las versiones &amp; de febrero de 2016 en mayo de 2016 de las Dynamics AX."
+title: Seguridad de usuario del portal de proveedor
+description: "Este artículo explica cómo configurar la seguridad para proveedores externos que usan el Portal de proveedor. Esta información se aplica solo a las versiones de febrero de 2016 y mayo de 2016 de Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-portal-user-security"></a>Seguridad de usuario del portal de proveedores
+# <a name="vendor-portal-user-security"></a>Seguridad de usuario del portal de proveedor
 
-Este artículo explica cómo configurar la seguridad para proveedores externos que usan el Portal de proveedor. Esta información solo se aplica a las versiones &amp; de febrero de 2016 en mayo de 2016 de las Dynamics AX.
+[!include[banner](../includes/banner.md)]
 
-La funcionalidad del portal de proveedores se ha sustituido por la funcionalidad extendida de colaboración del proveedor en Dynamics 365 para la versión 1611 de las operaciones. Para obtener más información acerca de la seguridad de la configuración de la colaboración de proveedor, vea [la configuración y mantiene la colaboración] del proveedor (setup-maintain-vendor-collaboration.md). El portal de proveedores expone un sistema limitado de información acerca de los pedidos de compra a los proveedores externos. Es importante configurar correctamente los permisos de usuario del portal de proveedores en Microsoft Dynamics AX, de modo que los proveedores no tengan acceso involuntario a información adicional en la instalación de Dynamics AX. **Importante:** a diferencia de otros usuarios, los proveedores externos no deben tener el rol de **SystemUser**. El rol de **SystemUser** concede acceso a un conjunto de privilegios que no son convenientes para los usuarios externos.
+
+Este artículo explica cómo configurar la seguridad para proveedores externos que usan el Portal de proveedor. Esta información se aplica solo a las versiones de febrero de 2016 y mayo de 2016 de Dynamics AX.
+
+La funcionalidad del portal de proveedores se ha sustituido por la funcionalidad extendida de colaboración del proveedor en la versión 1611 de Dynamics 365 for Operations. Para obtener más información acerca de la configuración de la seguridad para la colaboración de proveedor, consulte [Configurar y mantener la colaboración de proveedor](set-up-maintain-vendor-collaboration.md). El portal de proveedores expone un sistema limitado de información acerca de los pedidos de compra a los proveedores externos. Es importante configurar correctamente los permisos de usuario del portal de proveedores en Microsoft Dynamics AX, de modo que los proveedores no tengan acceso involuntario a información adicional en la instalación de Dynamics AX. **Importante:** a diferencia de otros usuarios, los proveedores externos no deben tener el rol de **SystemUser**. El rol de **SystemUser** concede acceso a un conjunto de privilegios que no son convenientes para los usuarios externos.
 
 ## <a name="setting-up-a-vendor-portal-user"></a>Configuración de un usuario del portal de proveedores
 Antes de crear una cuenta de usuario para alguien que utilizará el portal de proveedores, debe configurar el proveedor para que pueda colaborar con el portal de proveedores. Use el campo **Colaboración del pedido de compra** en la pestaña **General** en la página **Proveedores**. Los proveedores externos que usan el portal de proveedores deben tener la configuración siguiente:
@@ -44,6 +47,8 @@ Si la misma persona requiere el acceso al portal de proveedores para varias cuen
 <a name="see-also"></a>Consulte también
 --------
 
-[Vendor collaboration](collaborate-vendors-vendor-portal.md)
+[Colaboración de proveedor](collaborate-vendors-vendor-portal.md)
+
+
 
 

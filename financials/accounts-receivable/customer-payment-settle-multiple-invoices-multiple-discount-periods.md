@@ -1,5 +1,5 @@
 ---
-title: "Use un pago de cliente para definir varias facturas que abarcan períodos de descuento varios"
+title: "Usar un pago de cliente para liquidar varias facturas que abarcan varios períodos de descuento"
 description: "En este artículo se muestra cómo se pagan varias facturas cuando cada factura permite un descuento por pronto pago. Los escenarios de su artículo destacan cómo varían los descuentos por pronto pago que se aplican, en función de cuándo se realiza el pago."
 author: twheeloc
 manager: AnnBe
@@ -26,18 +26,21 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Use un pago de cliente para definir varias facturas que abarcan períodos de descuento varios
+# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Usar un pago de cliente para liquidar varias facturas que abarcan varios períodos de descuento
+
+[!include[banner](../includes/banner.md)]
+
 
 En este artículo se muestra cómo se pagan varias facturas cuando cada factura permite un descuento por pronto pago. Los escenarios de su artículo destacan cómo varían los descuentos por pronto pago que se aplican, en función de cuándo se realiza el pago.
 
-Fabrikam vende mercancías al cliente 4032. Fabrikam ofrece un descuento por pronto pago del 1 por ciento si la factura se paga en 14 días. Fabrikam también ofrece descuentos por pronto pago en pagos parciales. Los parámetros de settement se encuentran en ** los parámetros de clientes ** la página.
+Fabrikam vende productos al cliente 4032. Fabrikam ofrece un descuento por pronto pago del uno por ciento si la factura se paga en 14 días. Fabrikam también ofrece descuentos por pronto pago en pagos parciales. Los parámetros de liquidación se encuentran en la página **Parámetros de clientes**.
 
 ## <a name="invoices"></a>Facturas
 El cliente 4032 tiene tres facturas por un total de 3.000,00:
 
--   Facturar FTI-10040, para 1,000.00, especificó el 15 de mayo. Esta factura es apta para un descuento por pronto pago del 1 por ciento si ha pagado en 14 días.
--   Facturar FTI-10041, para 1,000.00, especificó el 25 de junio. Esta factura es apta para un descuento por pronto pago del 1 por ciento si ha pagado en 14 días.
--   Facturar FTI-10042, para 1,000.00, especificó el 25 de junio. Esta factura es apta para un descuento por pronto pago del 2 por ciento si ha pagado en cinco días y un 1 por ciento de descuento si ha pagado en 14 días.
+-   La factura FTI-10040, de 1.000,00, se introdujo el 15 de mayo. Esta factura puede optar a un descuento por pronto pago del uno por ciento si se paga en 14 días.
+-   La factura FTI-10041, de 1.000,00, se introdujo el 25 de junio. Esta factura puede optar a un descuento por pronto pago del uno por ciento si se paga en 14 días.
+-   La factura FTI-10042, de 1.000,00, se introdujo el 25 de junio. Esta factura puede optar a un descuento por pronto pago del dos por ciento si se paga en cinco días y del uno por ciento si se paga en 14 días.
 
 ## <a name="settle-all-invoices-on-june-29"></a>Liquidación de todas las facturas el 29 de junio
 Si Arnie crea un diario de pagos para liquidar completamente estas facturas el 29 de junio, el pago es de 2.970,00. El total de todos los importes de descuento es de 30,00. Arnie crea un pago para el cliente 4032 y después abre la página **Liquidar transacciones**. En la página **Liquidar transacciones**, Arnie marca las tres líneas de factura para su liquidación:
@@ -76,7 +79,7 @@ El cliente 4.032 puede pagar un importe parcial, como la mitad de cada factura. 
 | Seleccionado                 | Normal            | FTI-10041 | 4032    | 25/6/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | USD      | 495,00           |
 | Seleccionado y resaltado | Normal            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | USD      | 490,00           |
 
-Arnie también puede especificar manualmente el importe del pago de 1,485.00 antes de que éste abra ** liquidar las transacciones ** la página. Arnie Si especifica manualmente el importe de pago y después marca las tres transacciones, pero no ajusta el valor en ** ascienda a liquidar ** campos para cada transacción, recibe un mensaje cuando éste cierra la página:
+Arnie también puede especificar manualmente el importe de pago de 1.485,00 antes de abrir la página **Liquidar transacciones**. Si Arnie especifica manualmente el importe del pago y después marca las tres transacciones, pero no ajusta el valor del campo **Importe para liquidar** para cada transacción, recibe el siguiente mensaje al cerrar la página:
 
 > El importe total de las transacciones marcadas es distinto al del diario. ¿Desea cambiar el importe del diario?
 
@@ -95,6 +98,8 @@ Arnie ve la información en la página **Transacciones de clientes**.
 | FTI-10042  | Factura          | 25/6/2015 | 10042   | 1.000,00                             |                                       | 505,10   | USD      |
 | ARP-10040  | Pago          | 29/6/2015 |         |                                      | 1.485,00                              | 0,00     | USD      |
 | DISC-10040 | Descuento por pronto pago    | 29/6/2015 |         |                                      | 9,90                                  | 0,00     | USD      |
+
+
 
 
 

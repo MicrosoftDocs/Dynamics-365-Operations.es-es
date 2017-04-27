@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-an-automated-task-in-a-workflow"></a>Configuración de una tarea automatizada en un flujo de trabajo
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tema explica cómo configurar las propiedades de una tarea automatizada.
 
 Para configurar una tarea automatizada en el editor de flujo de trabajo, haga clic con el botón secundario en la tarea y, a continuación, haga clic en **Propiedades** para abrir la página **Propiedades**. A continuación, use los siguientes procedimientos para configurar las propiedades de la tarea automatizada.
@@ -92,16 +95,18 @@ Puede enviar notificaciones cuando se ha ejecutado o cancelado una tarea automat
     </tr>
     <tr class="odd">
     <td>Usuario</td>
-    <td>Microsoft Dynamics específico 365 para los usuarios de operaciones</td>
+    <td>Usuarios específicos de Microsoft Dynamics 365 for Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li><strong>Usuarios disponible</strong> La lista incluye todas Dynamics 365 para los usuarios de las operaciones. Seleccione aquellos a los que desea enviar notificaciones y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea enviar notificaciones y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
 8.  Repita los pasos 3 a 7 por cada uno de los eventos que haya seleccionado en el paso 2.
+
+
 
 
 

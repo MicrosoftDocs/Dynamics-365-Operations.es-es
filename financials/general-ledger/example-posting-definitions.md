@@ -1,6 +1,6 @@
 ---
 title: "Definiciones de contabilización"
-description: "Este artículo proporciona los ejemplos de cómo las definiciones de contabilización se usan para las reservas de gastos de pedidos de compra y las apropiaciones presupuestarias."
+description: "Este artículo proporciona ejemplos que demuestran cómo se usan las definiciones de contabilización se usan para reservas de gastos de pedidos de compra y para apropiaciones presupuestarias."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="posting-definition-examples"></a>Ejemplos de la definición de contabilización
+# <a name="posting-definition-examples"></a>Ejemplos de definición de contabilización
 
-Este artículo proporciona los ejemplos de cómo las definiciones de contabilización se usan para las reservas de gastos de pedidos de compra y las apropiaciones presupuestarias.
+[!include[banner](../includes/banner.md)]
+
+
+Este artículo proporciona ejemplos que demuestran cómo se usan las definiciones de contabilización se usan para reservas de gastos de pedidos de compra y para apropiaciones presupuestarias.
 
 Antes de leer este tema, es necesario que esté familiarizado con las definiciones de contabilización y las definiciones de contabilización de transacciones. Para obtener información, vea [Definiciones de contabilización](posting-definitions.md). Los ejemplos siguientes se pueden configurar en la página **Definiciones de contabilización**. Cada uno de los ejemplos contiene estas secciones:
 
@@ -39,7 +42,7 @@ Antes de leer este tema, es necesario que esté familiarizado con las definicion
 
 Cuando se produce una coincidencia entre las cuentas y los valores de la dimensión en el panel **Criterios de coincidencia** de la definición de contabilización y las cuentas y los valores de dimensión de la transacción, se generan asientos contables basados en el panel **Entradas generadas** de la definición de contabilización. 
 > [!NOTE]
-> Para asociar una definición de contabilización a un tipo de transacción específico, use ** las definiciones de contabilización de transacción ** la página. Tras asociar una definición de contabilización a un tipo de transacción y seleccione ** las definiciones de contabilización de uso ** ** en los parámetros de contabilidad general ** la página, todas las transacciones del tipo de transacción seleccionado deben usar definiciones de contabilización.
+> Para asociar una definición de contabilización a un tipo de transacción específico, use la página **Definiciones de contabilización de transacciones**. Tras asociar una definición de contabilización con un tipo de transacción y seleccionar **Usar definiciones de contabilización** en la página **Parámetros de contabilidad general**, todas las transacciones del tipo de transacción seleccionado deben usar definiciones de contabilización.
 
 ## <a name="example-purchase-order-encumbrances"></a>Ejemplo: reserva de gastos de pedidos de compra
 Cuando se permite el proceso de reserva de gasto al seleccionar **Habilitar proceso de reserva de gasto** en la página **Parámetros de Contabilidad general**, se deben usar definiciones de contabilización para registrar las reservas de gasto en la contabilidad general para las cuentas que se deban reservar. En la mayoría de los casos, todas las cuentas de gastos se reservan en el balance de situación. 
@@ -80,7 +83,7 @@ Los asientos contables generados se crean para registrar las reservas de gasto.
 | 300143-OU\_1-OU\_3566-Training | 250,00 |        |         |
 | 300144-OU\_1-OU\_3566-Training |        | 250,00 |         |
 
-En este ejemplo, cualquier cuenta que sea parte de la cuenta de estructura contable: pérdidas y ganancias coincide con los criterios de definición de contabilización. Por lo tanto, cuando se evalúa 606500-OU\_1-OU\_3566-Training, se crean entradas generadas para las cuentas definidas en ** las entradas generadas ** el panel para la definición de contabilización.
+En este ejemplo, cualquier cuenta que sea parte de la cuenta de estructura contable: pérdidas y ganancias coincide con los criterios de definición de contabilización. Por lo tanto, cuando se evalúa 606500-OU\_1-OU\_3566-Training, se crean entradas generadas para las cuentas definidas en el panel **Entradas generadas** de la definición de contabilización.
 
 ## <a name="example-budget-appropriations"></a>Ejemplo: apropiaciones presupuestarias
 Si habilita la apropiación presupuestaria seleccionando **Habilitar apropiación presupuestaria** en la página **Parámetros de Contabilidad general**, las definiciones de contabilización se deben usar para registrar las entradas de registro presupuestario en la contabilidad general. Si hay una configuración de control presupuestario activa y en funcionamiento, las definiciones de contabilización y las definiciones de contabilización de transacciones se pueden usar para admitir el registro de entradas para apropiaciones, revisiones, transferencias, proyectos, activos fijos y previsiones de demanda y suministro en la contabilidad general. 
@@ -121,7 +124,9 @@ Los asientos contables generados se crean para registrar el presupuesto original
 | 300145-OU\_1-OU\_3566-Training |        | 250,00 |         |
 | 300146-OU\_1-OU\_3566-Training | 250,00 |        |         |
 
-En este ejemplo, cualquier cuenta que sea parte de la cuenta de estructura contable: pérdidas y ganancias coincide con los criterios de definición de contabilización. Por lo tanto, cuando se evalúa 606400-OU\_1-OU\_3566-Training, se crean los asientos contables generados.
+En este ejemplo, cualquier cuenta que sea parte de la cuenta de estructura contable: pérdidas y ganancias coincide con los criterios de definición de contabilización. Por lo tanto, si se evalúa 606400-OU\_1-OU\_3566-Training, se crean los asientos contables generados.
+
+
 
 
 

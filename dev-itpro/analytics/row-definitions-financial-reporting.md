@@ -45,7 +45,7 @@ Una definición de fila es un componente de informe, o bloque de creación, que 
 Una definición de fila puede contener hasta 20.000 filas de la dimensión financiera e incluir la siguiente información:
 
 -   Texto descriptivo que agrega significado al informe creando títulos de sección, líneas y espacios, como **Efectivo** o **Ingresos totales**
--   Vínculos a los datos financieros, que pueden incluir valores de dimensión en Microsoft Dynamics 365 para las operaciones ** nota: ** Puede configurar una definición de filas para extraer datos del sistema de las dimensiones financieras cada vez que generación del informe.
+-   Vínculos a los datos financieros, que pueden incluir valores de dimensión en Microsoft Dynamics 365 for Operations **Nota:** Puede configurar una definición de filas para extraer datos del sistema de dimensiones financieras cada vez que se genera el informe.
 -   Los totales de filas y las fórmulas que se basan en los datos financieros vinculados
 
 Normalmente, cada fila en una definición de fila contiene uno de los siguientes tipos de información:
@@ -64,7 +64,7 @@ Una dimensión es una intersección de datos y de valores. Puede agrupar datos y
 
 | Opción                | Descripción                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dimensión             | El modelo que identifica la dimensión que se agrega a la definición de filas. Este patrón contiene un ampersand (&) o el signo de número (\#) para cada puesto en las dimensiones. Normalmente, use todos los signos & para la dimensión de la cuenta principal y todos los signos de número para otras dimensiones. |
+| Dimensión             | El modelo que identifica la dimensión que se agrega a la definición de filas. Este modelo contiene una Y comercial (&) o el signo de número (\#) para cada puesto de las dimensiones. Normalmente, use todos los signos & para la dimensión de la cuenta principal y todos los signos de número para otras dimensiones. |
 | Inicio del intervalo de la dimensión | El primer valor que agregará esta dimensión a la definición de filas.                                                                                                                                                                                                                 |
 | Fin del intervalo de la dimensión   | El último valor que agregará esta dimensión a la definición de filas.                                                                                                                                                                                                                  |
 
@@ -73,9 +73,9 @@ Para agregar dimensiones a una definición de fila, siga estos pasos.
 1.  En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
 2.  En el menú **Editar** , haga clic en **Insertar filas de dimensiones**.
 3.  En el cuadro de diálogo **Insertar filas desde dimensiones **, en la fila **Dimensiones**, seleccione la celda en la que la dimensión se transferirá a la definición de filas y, a continuación, haga clic en **Todas &&&**.
-4.  Para limitar la definición de filas a un intervalo específico de valores de dimensión, especifique el valor de dimensión de inicio en la celda ** Inicio del intervalo de la dimensión **y después especifique el valor de dimensión final en la celda **Fin del intervalo de la dimensión **. Para incluir todos los valores de la dimensión seleccionada, deje estas celdas vacías. ** Nota: ** Los caracteres comodín (\* o?) en intervalos de la dimensión no pueden devolver todos los resultados que desee, en función de cómo la base de datos de ERP intercala datos.
+4.  Para limitar la definición de filas a un intervalo específico de valores de dimensión, especifique el valor de dimensión de inicio en la celda ** Inicio del intervalo de la dimensión **y después especifique el valor de dimensión final en la celda **Fin del intervalo de la dimensión **. Para incluir todos los valores de la dimensión seleccionada, deje estas celdas vacías. **Nota:** los caracteres comodín (\* o ?) en los intervalos de la dimensión pueden no devolver todos los resultados que desea, en función de cómo la base de datos ERP intercala los datos.
 5.  En el campo **Código de la fila de inicio**, especifique el código de la fila del primer valor de dimensión que se agregará a la definición de filas.
-6.  En el campo **Incrementar cada fila en**, especifique el hueco entre los códigos de fila consecutivas. Por ejemplo, si el primer código de la fila es 100, y el valor del incremento es 30, las primeras nuevas filas tienen los códigos 100, 130, 160, 190, y 220. Use un valor del incremento que proporcione suficiente espacio a las nuevas filas de formato y fórmulas de inserción.
+6.  En el campo **Incrementar cada fila en**, especifique el hueco entre los códigos de fila consecutivas. Por ejemplo, si el código de la primera fila es 100 y el valor de incremento es 30, las primeras nuevas filas tienen los códigos 100, 130, 160, 190 y 220. Use un valor de incremento que proporcione espacio para insertar nuevas filas de formato y de fórmula.
 7.  Haga clic en **Aceptar**. Para cada uno de los valores de dimensión seleccionados, se agrega una línea a la definición de filas.
 
 ## <a name="adjust-rounding-in-a-row-definition"></a> Ajuste de redondeo en una definición de filas
@@ -146,7 +146,7 @@ El formato que se especifica en la definición de la fila anula el formato que s
 
 1.  En el diseñador de informes, abra la definición de filas para modificarla.
 2.  Seleccione las celdas a las que desea dar formato. Para seleccionar varias celdas, mantenga presionada la tecla Ctrl mientras selecciona la celda.
-3.  Haga clic en el botón de la barra de herramientas del formato que desea aplicar. Esta Por ejemplo, para aplicar sangría una fila, seleccione la fila, y haga clic en ** sangría de aumento! **[] Sangría de aumento (https://i-technet.sec.s-msft.com/dynimg/IC679497.gif “sangría de aumento”) en la barra de herramientas.
+3.  Haga clic en el botón de la barra de herramientas del formato que desea aplicar. Por ejemplo, para aplicar sangría a una fila, seleccione la fila y luego haga clic en **Aumentar sangría** ![Aumentar sangría](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Aumentar sangría") en la barra de herramientas.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Ajustar columnas mientras se diseñan informes
 
@@ -173,6 +173,6 @@ Para facilitar ver las columnas en las que está trabajando en la definición de
 <a name="see-also"></a>Consulte también
 --------
 
-[Informe financiero para Microsoft Dynamics 365 para las operaciones (financial-reporting-intro.md])
+[Informes financieros para Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

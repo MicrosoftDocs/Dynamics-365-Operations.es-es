@@ -1,5 +1,5 @@
 ---
-title: "Recepción del inventario la configuración del objeto"
+title: Valores de objeto de inventario
 description: "Este artículo proporciona información sobre cómo se calculan los valores de un objeto de inventario."
 author: YuyuScheller
 manager: AnnBe
@@ -27,14 +27,14 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="inventory-object-values"></a>Recepción del inventario la configuración del objeto
+# <a name="inventory-object-values"></a>Valores de objeto de inventario
 
 Este artículo proporciona información sobre cómo se calculan los valores de un objeto de inventario. 
 
-Una nueva funcionalidad que se denomina ** cantidad física ** permite tener en cuenta los valores de un objeto específico del inventario. Un objeto de coste representa el nivel de entidad donde se realiza la contabilidad de inventario. Para obtener más información acerca de los objetos de coste, consulte [Objetos de coste](cost-object.md). Para ver los valores del inventario específico SQL, haga clic en ** cantidad física ** en ** objeto de coste ** la página. Aquí es cómo el valor de un objeto de inventario se calcula: Objeto de inventario. Valor = objeto coste. Objeto medio del inventario del × del coste unitario. Cantidad las presentaciones el siguiente ejemplo que los valores de un objeto de inventario y un objeto de coste se calculan. Dos eventos de recepción de producto se registran en el artículo A:
+Una nueva funcionalidad que se denomina **cantidad física** le permite ver los valores de un objeto de inventario específico. Un objeto de coste representa el nivel de entidad donde se realiza la contabilidad de inventario. Para obtener más información acerca de los objetos de coste, consulte [Objetos de coste](cost-object.md). Para ver los valores de un objeto de inventario específico, haga clic en **Cantidad física** en la página **Objeto de coste**. El valor de un objeto de inventario se calcula de la siguiente manera: Objeto de inventario. Valor = Objeto de coste.Coste unitario promedio × Objeto de inventario.Cantidad. El siguiente ejemplo muestra la manera en que se calculan los valores de un objeto de inventario y un objeto de coste. Dos eventos de recepción de producto se registran en el artículo A:
 
--   Recepción de producto 1: Cantidad = 100 equipos., importe = $1,000.00 sitio, = 1, almacén, =11 lote no. = B1
--   Recepción de producto 2: Cantidad = 50 equipos., importe = $800.00 sitio, = 1, almacén, =11 lote no. = B2
+-   Recepción de producto 1: Cantidad = 100 uds, Importe = 1.000,00 $, Sitio = 1, Almacén =11, N.º de lote = B1
+-   Recepción de producto 2: Cantidad = 50 uds, Importe = 800,00 $, Sitio = 1, Almacén =11, N.º de lote = B2
 
 La tabla siguiente muestra el resultado del cálculo de un objeto de coste. Puede ver el resultado en la página **Objeto de coste**.
 
@@ -130,10 +130,10 @@ La tabla siguiente muestra el resultado del cálculo de un objeto de inventario.
 <a name="see-also"></a>Consulte también
 --------
 
-[Cost objects](cost-object.md)
+[Objetos de coste](cost-object.md)
 
-[Cost entries](cost-entries.md)
+[Entradas de costes](cost-entries.md)
 
-[Novedades y cambiado en Microsoft Dynamics AX (/dynamics365/operations/dev-itpro/get-started/what] - es nueva cambiar)
+[Novedades y cambios en la arquitectura de Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
 

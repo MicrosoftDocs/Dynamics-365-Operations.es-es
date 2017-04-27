@@ -32,7 +32,7 @@ Este artículo proporciona directrices para usar la asignación de coste total (
 
 La asignación de coste total (TCA) es un método para calcular el coste entre el producto de fórmula principal para un pedido de lote y los coproductos que se definen para la fórmula. Este método es dinámico. Calcula el coste como media ponderada entre las cantidades que se notifican como terminadas del producto de fórmula y los coproductos. Cuando se usa el TCA, no es necesario revisar las asignaciones de costes para cada pedido de lote. Si no se usa el TCA, el cálculo de la fórmula usa la funcionalidad existente.
 
-## <a name="using-tca-for-coproducts"></a>Uso del TCA para coproductos
+## <a name="using-tca-for-coproducts"></a>Usar el TCA para coproductos
 Estas son algunas de las directrices para usar TCA para coproductos:
 
 -   Si establece el control deslizante **Asignación de coste total** en **Sí** para una versión de fórmula, los coproductos deben tener un precio de coste que sea superiora 0 (cero). El valor se puede recuperar de la versión de coste activo para el mismo sitio o para el primer sitio para una fórmula que no sea específica de sitio. Esta condición se valida cuando se aprueba la fórmula.
@@ -46,7 +46,7 @@ Estas son algunas de las directrices para usar TCA para coproductos:
 -   Cuando un pedido por lotes se crea manualmente o un pedido planificado por lotes se pone en firme, el valor del control deslizante **Asignación de coste total** para la versión de la fórmula se copia en el pedido por lotes. Sin embargo, puede cambiar esta configuración en el pedido de lote. Si el control deslizante **Asignación de coste total** se establece en **No** para la versión de la fórmula y después se cambia a **Sí** para el pedido de lote, el método de la asignación de costes para cada línea que se establece en **Manual** cambia a **TCA**. Una asignación de costes de **Ninguno** permanece sin cambios. Si el control deslizante **Asignación de coste total** se establece en **Sí** para la versión de la fórmula y después se cambia a **No** para el pedido de lote, el método de la asignación de costes para cada coproducto del tipo **Producción** cambia a **Manual**. Cualquier porcentaje estimado de la asignación de costes permanece sin cambios.
 -   La página **Asignación de costes de coproductos** muestra el porcentaje de asignación de costes calculado. Puede abrir esta página desde la página **Pedido de lote**. Esta información es útil cuando los productos y las cantidades que se notifican varían de las cantidades programadas o iniciadas en el pedido de lote. Cuando se completa el coste, estas nuevas asignaciones de porcentaje de TCA se muestran en la página **Asignación de costes de coproductos**.
 
-## <a name="calculating-the-burden-for-byproducts"></a>Calcular la carga para los derivados
+## <a name="calculating-the-burden-for-byproducts"></a>Cálculo de la carga para productos derivados
 El campo **Asignación de costes de productos derivados** de la página **Coproductos** es un campo de enumerador que se usa solo para los productos derivados. Para coproductos, el valor de este campo siempre es **Ninguno**. Para las líneas de productos derivados, este campo determina cómo se agrega el importe de coste para la línea del producto derivado al coste total de la producción. Están disponibles las siguientes opciones:
 
 -   **Ninguno**: No se agrega ningún importe al coste total de la producción para esta línea del producto derivado.

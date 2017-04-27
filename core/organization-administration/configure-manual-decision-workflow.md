@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a>Configuración de una decisión manual en un flujo de trabajo
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tema explica cómo configurar las propiedades de una decisión manual.
 
 Para configurar una decisión manual, en el editor de flujo de trabajo, haga clic con el botón secundario en la decisión manual y, a continuación, haga clic en **Propiedades** para abrir la página **Propiedades**. A continuación, use los siguientes procedimientos para configurar las propiedades de la decisión manual.
@@ -95,8 +98,8 @@ Puede enviar notificaciones cuando se haya tomado o delegado una decisión o cua
 
 1.  En el panel izquierdo, haga clic en **Notificaciones**.
 2.  Active las casillas de verificación junto a los eventos que deben notificarse:
-    -   ** la elección\[1\]\[– ** el usuario asignado ha seleccionado ** Elección 1\[\]\[**.
-    -   ** la elección\[2\]\[– ** el usuario asignado ha seleccionado ** Elección 2\[\]\[**.
+    -   **\[Elección 1\]**: el usuario asignado ha optado por la **\[Elección 1\]**.
+    -   **\[Elección 2\]**: el usuario asignado ha optado por la **\[Elección 2\]**.
     -   **Delegar**: el usuario asignado ha asignado la decisión a otro usuario.
     -   **Remitir a una instancia superior**: el usuario asignado no ha tomado la decisión en el tiempo previsto.
 
@@ -148,10 +151,10 @@ Puede enviar notificaciones cuando se haya tomado o delegado una decisión o cua
     </tr>
     <tr class="odd">
     <td>Usuario</td>
-    <td>Microsoft Dynamics específico 365 para los usuarios de operaciones</td>
+    <td>Usuarios específicos de Microsoft Dynamics 365 for Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li><strong>Usuarios disponible</strong> La lista incluye todas Dynamics 365 para los usuarios de las operaciones. Seleccione aquellos a los que desea enviar notificaciones y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea enviar notificaciones y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -213,10 +216,10 @@ Siga estos pasos para especificar a quién se debe asignar una decisión manual.
     </tr>
     <tr class="even">
     <td>Usuario</td>
-    <td>Dinámica específica 365 para los usuarios de operaciones</td>
+    <td>Usuarios específicos de Dynamics 365 for Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li><strong>Usuarios disponible</strong> La lista incluye todas Dynamics 365 para los usuarios de las operaciones. Seleccione aquellos a los que desea asignar la decisión y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea asignar la decisión y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -235,7 +238,7 @@ Siga estos pasos para especificar a quién se debe asignar una decisión manual.
     <li>En la lista <strong>Nombre de cola</strong>, seleccione <strong>Cola condicional</strong>.</li>
     </ol></li>
     </ol>
-    <strong>Nota:</strong> esta opción se usa solo para parte flujos de trabajo, como gestión de casos.</td>
+    <strong>Nota:</strong> Esta opción solo se usa para algunos flujos de trabajo, como Gestión de casos.</td>
     </tr>
     </tbody>
     </table>
@@ -258,9 +261,9 @@ Si un usuario no toma la decisión en el tiempo asignado, la decisión se consid
     |----------|----------------------------|
     | 1        | Asignar a rol: Donna           |
     | 2        | Asignar a rol: Erin            |
-    | 3        | Acción final: Elección 1 \[\]\[ |
+    | 3        | Acción final: \[Elección 1\] |
 
-    En este ejemplo, el sistema asigna la decisión vencida a Donna. Si Donna no toma la decisión en el tiempo asignado, el sistema la asigna a Erin. Si Erin no toma la decisión en el tiempo asignado, el sistema selecciona ** Elección 1\[\]\[** como decisión.
+    En este ejemplo, el sistema asigna la decisión vencida a Donna. Si Donna no toma la decisión en el tiempo asignado, el sistema la asigna a Erin. Si Erin no toma la decisión en el tiempo asignado, el sistema selecciona la **\[Elección 1\]** como decisión.
 3.  Para agregar un usuario a la ruta de remisión a una instancia superior, haga clic en **Agregar remisión a una instancia superior**. Seleccione una de las opciones de la siguiente tabla y, a continuación, siga los pasos adicionales correspondientes a esa opción antes de realizar el paso 4.
     <table>
     <colgroup>
@@ -303,10 +306,10 @@ Si un usuario no toma la decisión en el tiempo asignado, la decisión se consid
     </tr>
     <tr class="odd">
     <td>Usuario</td>
-    <td>Dinámica específica 365 para los usuarios de operaciones</td>
+    <td>Usuarios específicos de Dynamics 365 for Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li><strong>Usuarios disponible</strong> La lista incluye todas Dynamics 365 para los usuarios de las operaciones. Seleccione aquellos a los que desea remitir la decisión para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea remitir la decisión para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -335,6 +338,8 @@ Siga estos pasos si la decisión se debe tomar en un plazo específico. **Nota:*
     -   **Años**: seleccione el día, la semana y el mes en los que vence el plazo para tomar la decisión. Por ejemplo, tal vez desee que la decisión se haya tomado antes del viernes de la tercera semana de diciembre.
 
 4.  Si se supera el límite de tiempo, el sistema toma la decisión. En la lista **Acción**, seleccione la opción que debe seleccionar el sistema.
+
+
 
 
 

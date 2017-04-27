@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendarios fiscales, ejercicios y períodos
 
+[!include[banner](../includes/banner.md)]
+
+
 En este artículo se describen los calendarios fiscales, los ejercicios y los períodos y cómo usarlos para entidades jurídicas, activos fijos y gestión presupuestaria.
 
 Los calendarios fiscales proporcionan un marco para las actividades financieras de una organización. Cada calendario fiscal contiene uno o más años fiscales y cada ejercicio contiene varios períodos. Los calendarios fiscales se pueden basar en un año natural del 1 de enero al 31 de diciembre o en cualquier fecha que seleccione. Por ejemplo, algunas organizaciones seleccionan un calendario fiscal que comienza el 1 de julio de un año y finaliza el 30 de junio del año siguiente. 
@@ -58,6 +61,8 @@ Los ciclos de presupuesto hacen referencia al tiempo durante el que se usa un pr
 
 ## <a name="maintain-periods-for-your-organization"></a>Mantener períodos para la organización
 Puede utilizar la página Calendario contable para ver los detalles del calendario, los ejercicios y los períodos fiscales que utiliza su organización. También puede modificar el estado de los períodos y seleccionar qué usuarios pueden registrar transacciones contables en los períodos. Por ejemplo, al inicio de un nuevo período, es posible que desee que un grupo de usuarios terminen de registrar las transacciones financieras en el período previo mientras otros grupos trabajan únicamente en el nuevo período.
+
+
 
 
 

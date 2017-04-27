@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consolidated-batch-orders"></a>Pedidos de lote consolidados
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe el concepto de pedidos de lote consolidados.
 
 Un artículo masivo producido se considera artículo principal, mientras que un artículo empaquetado se considera artículo secundario. La relación entre el artículo masivo y el artículo empaquetado se expresa mediante una conversión de artículos masivos. Esta conversión de artículos masivos se define en el artículo masivo en sí.  
@@ -41,6 +44,8 @@ Un pedido de lote consolidado puede incluir cualquier combinación de las órden
 -   Varios pedidos masivos y varios pedidos empaquetados
 -   Varios pedidos masivos y un solo pedido empaquetado
 -   Solo pedidos empaquetados
+
+
 
 
 

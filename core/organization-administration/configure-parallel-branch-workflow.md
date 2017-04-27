@@ -1,5 +1,5 @@
 ---
-title: "Configuración de una rama paralela en un flujo de trabajo"
+title: "Configuración de rama paralela en un flujo de trabajo"
 description: Para configurar una rama paralela, realice los siguientes procedimientos en el editor de flujo de trabajo.
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-parallel-branch-in-a-workflow"></a>Configuración de una rama paralela en un flujo de trabajo
+# <a name="configure-a-parallel-branch-in-a-workflow"></a>Configuración de rama paralela en un flujo de trabajo
+
+[!include[banner](../includes/banner.md)]
+
 
 Para configurar una rama paralela, realice los siguientes procedimientos en el editor de flujo de trabajo.
 
@@ -32,7 +35,7 @@ Una rama paralela es, esencialmente, un flujo de trabajo que se ejecuta en el co
 
 ## <a name="name-a-branch"></a>Nombre de rama
 Siga estos pasos para asignar un nombre a una rama paralela.
-1.  Haga clic con el botón secundario en la rama paralela y, a continuación haga clic en ** las propiedades **. Se abre el formulario **Propiedades**.
+1.  Haga clic con el botón secundario en la rama paralela y, a continuación, haga clic en **Propiedades**. Se abre el formulario **Propiedades**.
 2.  En el panel izquierdo, haga clic en **Configuración básica**.
 3.  En el campo **Nombre**, escriba un nombre único para la rama paralela.
 4.  Haga clic en **Cerrar**.
@@ -47,6 +50,8 @@ Siga estos pasos para diseñar y configurar los elementos de una rama paralela.
 <a name="see-also"></a>Consulte también
 --------
 
-[Create a workflow](create-workflow.md)
+[Creación de un flujo de trabajo](create-workflow.md)
+
+
 
 

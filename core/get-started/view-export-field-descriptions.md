@@ -36,9 +36,9 @@ No todas las páginas tienen descripciones de campos. Queremos proporcionar desc
 Si tiene acceso al entorno de desarrollo de Dynamics 365 for Operations, puede agregar nuevas descripciones de campo y personalizar las existentes. Por ejemplo, puede agregar información específica de la empresa a una descripción de campo. Para obtener más información, consulte [Personalizar ayuda de campo](/dynamics365/operations/dev-itpro/user-interface/customize-field-help).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Consulte las descripciones del campo en la interfaz del usuario.
-Puede ver descripciones de los campos manteniendo el ratón sobre un campo. Si no hay ninguna descripción disponible, verá el nombre del campo al mantener el puntero sobre el campo. (Nota: En la versión 7.0.0, las descripciones de los campos se pueden ver únicamente en ** las descripciones de los campos ** la página.) La ilustración siguiente muestra la descripción del campo que aparece cuando se mantiene el mouse sobre ** los artículos de bloqueo durante el recuento ** el campo. 
+Puede ver descripciones de los campos manteniendo el ratón sobre un campo. Si no hay ninguna descripción disponible, verá el nombre del campo al mantener el puntero sobre el campo. (Nota: En la versión 7.0.0, las descripciones de los campos se pueden ver únicamente en la página **Descripciones de los campos**) En la ilustración siguiente se muestra la descripción del campo que aparece al mantener el puntero sobre el campo **Bloquear artículos durante el recuento**. 
 
-[ejemplo![desde una descripción del campo] (. /media/field-description.png])(. /media/field-description.png)
+[![Ejemplo de una descripción de campo](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Utilice la página Descripciones de campos para ver y exportar la ayuda de campo.
 La página **Descripciones de campos** permite ver y exportar descripciones de campos. Puede ver las descripciones que están disponibles para una página a la vez.
@@ -73,7 +73,7 @@ Hay varias formas de buscar una página en el campo **Seleccionar una página**.
     -   Si hay más de una coincidencia exacta, no se muestran descripciones. Debe abrir la lista desplegable y seleccionar la página que desea.
     -   Si el nombre que ha escrito forma parte del nombre de otra página, vea las descripciones de la página. Sin embargo, si abre la lista desplegable, consulte las páginas adicionales que contienen ese nombre.
 
-Por ejemplo, no se muestra ninguna descripciones al escribir ** contando ** en el **** seleccione un campo de **** de la página. Abre la lista desplegable y ve que hay dos páginas con el nombre **Recuento**, así como varias páginas que contienen la palabra "Recuento" en el nombre. Si selecciona la página que tiene el nombre AOT **InventJournalCount**, se muestran las descripciones de campo de esa página. Sin embargo, si vuelve a abrir la lista desplegable, verá que, ahora, la lista contiene todas las páginas que tienen "InventJournalCount" como parte de su nombre de AOT.
+Por ejemplo, no se muestran descripciones al escribir **Recuento** en el campo ****Seleccionar una página***. Abre la lista desplegable y ve que hay dos páginas con el nombre **Recuento**, así como varias páginas que contienen la palabra "Recuento" en el nombre. Si selecciona la página que tiene el nombre AOT **InventJournalCount**, se muestran las descripciones de campo de esa página. Sin embargo, si vuelve a abrir la lista desplegable, verá que, ahora, la lista contiene todas las páginas que tienen "InventJournalCount" como parte de su nombre de AOT.
 
 ## <a name="troubleshooting"></a>Solución de problemas
 En esta sección se proporciona información que le ayudará a solucionar los problemas que puedan surgir al utilizar las descripciones de campos.

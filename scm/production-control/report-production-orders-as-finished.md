@@ -1,6 +1,6 @@
 ---
 title: "Notificar pedidos de producción como terminados"
-description: "Notificar como terminado es una etapa de producción. En esta etapa, un producto terminado se notifica y movido del pedido de producción al inventario."
+description: "Notificar como terminado es una etapa de producción. En esta etapa se notifica un producto terminado y se mueve del pedido de producción al inventario."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="report-production-orders-as-finished"></a>Notificar pedidos de producción como terminados
 
-Notificar como terminado es una etapa de producción. En esta etapa, un producto terminado se notifica y movido del pedido de producción al inventario.
+[!include[banner](../includes/banner.md)]
+
+
+Notificar como terminado es una etapa de producción. En esta etapa se notifica un producto terminado y se mueve del pedido de producción al inventario.
 
 Cuando una cantidad de mercancías terminadas se notifica como terminada en un pedido de producción, esta se actualiza como disponible en el inventario. Las cantidades parciales de la cantidad de pedido planificado original se pueden notificar originalmente como terminadas. Al notificar cantidades como terminadas, también es posible notificar cantidades con error con su correspondiente motivo de error asociado. Cuando el pedido de producción llega a la etapa Notificado como terminado, indica que no se va a notificar más cantidad en el pedido de producción.
 Las siguientes características se asocian también con el proceso **Notificar como terminado**:
@@ -44,5 +47,7 @@ La cantidad se notifica a la ubicación de salida. El trabajo de almacén se gen
 
 ## <a name="set-a-production-order-to-reporting-as-finished"></a>Definición de pedidos de producción para notificarse como terminados
 Puede establecer un pedido de producción en **Notificar como terminado** mediante la función de actualización de pedido de producción estándar, mediante los diarios de tarjeta de trabajo y de ruta o mediante el diario **Notificar como terminado**. También puede actualizar la etapa a **Notificar como terminado** a través de la terminal de la tarjeta de trabajo y las páginas del dispositivo de tarjeta de trabajo al notificar sobre el último trabajo del pedido de producción. Finalmente, puede habilitar la opción **Notificar como terminado** como un proceso para la solución del dispositivo de almacén de mano.  
+
+
 
 

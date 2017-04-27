@@ -1,6 +1,6 @@
 ---
 title: "Informes financieros de saldo de comprobación"
-description: "Este artículo describe los informes predeterminados para el saldo de comprobación. También se explica los bloques de creación que están asociados a estos informes y cómo puede modificar los informes para que se adapte a sus requisitos empresariales."
+description: "En este artículo se describen los informes predeterminados para los saldos de comprobación. También se describen los componentes asociados a estos informes y cómo puede modificar los informes para que se adapten a sus requisitos empresariales."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="trial-balance-financial-reports"></a>Informes financieros de saldo de comprobación
 
-Este artículo describe los informes predeterminados para el saldo de comprobación. También se explica los bloques de creación que están asociados a estos informes y cómo puede modificar los informes para que se adapte a sus requisitos empresariales. 
+[!include[banner](../includes/banner.md)]
+
+
+En este artículo se describen los informes predeterminados para los saldos de comprobación. También se describen los componentes asociados a estos informes y cómo puede modificar los informes para que se adapten a sus requisitos empresariales. 
 
 <a name="default-trial-balance-reports"></a>Informes de saldo de comprobación predeterminados
 -----------------------------
@@ -51,7 +54,7 @@ Los informes financieros del saldo de comprobación usan los siguientes bloques 
 
 ### <a name="row-definition"></a>Definición de filas
 
-La definición de filas, saldo de comprobación – establezca como valor predeterminado, contiene una sola fila que extraiga en todas las cuentas principales. Por tanto, cualquier persona puede generar el informe sin tener que realizar ninguna modificación. Cuando ve el informe, explora la fila única para ver los detalles acerca de cada cuenta. Puede modificar la definición de filas para que incluya más detalle. Para modificar la definición de filas Saldo de comprobación - predeterminado para que incluya filas para todas las cuentas, siga estos pasos.
+La definición de filas, Saldo de comprobación – Predeterminado, contiene una sola fila que extrae todas las cuentas principales. Por tanto, cualquier persona puede generar el informe sin tener que realizar ninguna modificación. Cuando ve el informe, explora la fila única para ver los detalles acerca de cada cuenta. Puede modificar la definición de filas para que incluya más detalle. Para modificar la definición de filas Saldo de comprobación - predeterminado para que incluya filas para todas las cuentas, siga estos pasos.
 
 1.  Haga clic en **Editar** y, a continuación, en **Insertar filas de dimensiones**. El comando **Insertar filas de dimensiones** le permite elegir las dimensiones que desea tener en la definición de filas. Para esta definición de filas, va a usar **Cuenta principal**.
 2.  Asegúrese de que **Cuenta principal** contiene todos los ampersands (&) y haga clic en **Aceptar**.
@@ -100,10 +103,12 @@ Cada informe de saldo de comprobación usa otra definición de columna. Estas de
 <a name="see-also"></a>Consulte también
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Informes financieros](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Ver informes financieros](view-financial-reports.md)
 
-[] Blog de los informes financieros de Dynamics (http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Blog de informes financieros de Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

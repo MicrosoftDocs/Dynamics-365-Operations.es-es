@@ -1,6 +1,6 @@
 ---
 title: Id. de registro
-description: "Este tema proporciona información acerca de la configuración y el uso id. de registro."
+description: "Este tema proporciona información acerca de la configuración y el uso de Id. de registro."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,78 +27,83 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="registration-ids"></a>Id. de registro
 
-Este tema proporciona información acerca de la configuración y el uso id. de registro.
+[!include[banner](../includes/banner.md)]
 
-Muchos países y regiones tienen diferentes normativas y requisitos para registrar los números o Id. de registro. Este tema proporciona una visión general de la configuración y de procesamiento requerirán a tipos de registro admitidos para las partes en los distintos países europeos/regiones. Todos los países/regiones tienen los requisitos para admitir las distintas funciones específicas del país relacionadas con números de registro suministrado por distintas la oficina de estado. Ejemplos de los números de registro, el número de la Seguridad Social (SSN), el número de identificación fiscal (TIN), y la identificación Europea de IVA (identificador de la UE IVA). Esta característica permite el marco unificado para todos los países en todas las regiones que tienen en cuenta los requisitos específicos de países de algunos países europeos. Las secciones siguientes describen el flujo de información total que se usa para capitalizar y procesar id. de registro.
 
-## <a name="registration-type-creation"></a>Creación del tipo de registro
-Antes de poder especificar el identificador del registro, debe configurar los tipos de registro para los tipos de números de registro que cada entidad está sujeto a. Retroceda ** Administración de organización ** &gt; ** la libreta de direcciones global ** &gt; ** los tipos de registro ** &gt; ** los tipos de registro ** página para crear y gestionar los tipos de registro para Proveedores, Clientes, los trabajadores, y las entidades jurídicas en distintos países o regiones.
+Este tema proporciona información acerca de la configuración y el uso de Id. de registro.
+
+Muchos países y regiones tienen diferentes normativas y requisitos para registrar números de registro o Id. Este tema proporciona una visión general de la configuración y el procesamiento requeridos para los tipos de registro admitidos para las partes en los distintos países/regiones europeos. Todos los países/regiones tienen requisitos propios para admitir las distintas funciones específicas del país relacionadas con los números de registro suministrados por las distintas oficinas de Estado. Ejemplos de los números de registro son: el número de la Seguridad Social (SSN), el número de identificación fiscal (TIN), y la identificación Europea de IVA (identificador de IVA de la UE). Esta característica proporciona un marco unificado para todos los países en todas las regiones y tiene en cuenta los requisitos específicos de algunos países europeos. Las siguientes secciones describen el flujo general de información que se utiliza para configurar y procesar los Id. de registro.
+
+## <a name="registration-type-creation"></a>Creación de tipo de registro
+Para poder especificar el Id. de registro, debe configurar tipos de registro para los diversos tipos de números de registro a los que está sujeta cada parte. Vaya a la página **Administración de la organización** &gt; **Libreta de direcciones global** &gt; **Tipos de registro** &gt; **Tipos de registro** para crear y gestionar los tipos de registro para proveedores, clientes, trabajadores, y entidades jurídicas en distintos países o regiones.
 
 |Campo                 |Descripción      |
 |------------------------------|----------------------------|                                                                           
 | Nombre                | El nombre del tipo de registro. |                                                                           
 | Descripción         | La descripción del tipo de registro. |
 | País o región      | El identificador único del país/región.|
-| Autoridad fiscal       | La autoridad fiscal asociado al tipo de registro.|
-| Restringido a       | La clase de restricción que se aplica al registro de impuestos escrito: Ninguno, persona, organización.|
-| Formato              | El formato de la validación del tipo de registro.|
-| Se puede actualizar      | Define si el número de registro para el tipo de registro se puede actualizar tras especificar.|
-| Único              | Define si el número de registro para el tipo de registro es único. |
-| Principal para país o región | Si está asociada una parte país de una o varias direcciones en particular y el identificador del registro es válida para todas estas direcciones, debe designar una dirección como principal del país. Puede registrar a un identificador como principal. Define si el número de registro se puede especificar solo para principal para la dirección del país. |
+| Autoridad fiscal       | La autoridad fiscal asociada al tipo de registro.|
+| Restringido a       | La clase de restricción que se aplica al tipo de registro de impuestos: Ninguno, persona, organización.|
+| Formato              | El formato de validación del tipo de registro.|
+| Se puede actualizar      | Indica si el número de registro del tipo de registro se puede actualizar después de especificarlo.|
+| Único              | Indica si el número de registro del tipo de registro es único. |
+| Principal para país o región | Si una parte está asociada a una o varias direcciones en un país determinado y el identificador del registro es válido para todas estas direcciones, debe designar una de las direcciones como la dirección principal en dicho país. Solo puede registrar un identificador como principal. Define si el número de registro se puede especificar solo para la dirección principal del país. |
 
 ## <a name="assign-a-registration-type-to-a-registration-category"></a>Asignar un tipo de registro a una categoría de registro
-La categoría del registro es identificador del registro del país/región aprobado para usar en particular el país/región para impuestos, aduanas y otros propósitos. Esta categoría define reglas de validación de identificador determinado de registro (dígitos de control incluidos etc.). y de identificador del registro de inclusión en diversos informes. Use la página ** Administración de organización ** &gt; ** libreta de direcciones global ** &gt; ** los tipos de registro ** &gt; ** las categorías de registro ** asignar el tipo de registro de determinado país a la categoría compatible del registro.
+La categoría del registro es un identificador de registro de país/región aprobado en un país/región determinado para impuestos, aduanas y otros propósitos. Esta categoría define reglas de validación de un identificador determinado de registro (dígitos de control incluidos etc.) y de un identificador del registro de inclusión en diversos informes. Use la página **Administración de la organización** &gt; **Libreta de direcciones global** &gt; **Tipos de registro** &gt; **Categorías de registro** para asignar el tipo de registro de un determinado país a la categoría compatible del registro.
 
 | Campo            | Descripción|
 |-----------------------|----------------|
-| Tipo de registro     | El país o región del tipo de registro en particular.|
-| Restringido a         | La clase de restricción aplica al registro de impuestos escrito: Ninguno, persona, organización.|
-| Categoría de registro | El identificador único de registro aprobado para usar en el país. La lista completa de admitido en las categorías AX7.1 está continuación. |
+| Tipo de registro     | El tipo de registro en un país/región particular.|
+| Restringido a         | La clase de restricción que se aplica al tipo de registro de impuestos: Ninguno, persona, organización.|
+| Categoría de registro | El identificador único de registro aprobado para usar en el país. La lista completa de categorías AX7.1 compatibles está a continuación. |
 
-## <a name="enter-registration-ids-for-global-address-book-records"></a>Id. del registro de la información para los registros de la libreta de direcciones global
-La libreta de direcciones global (GAB) en Microsoft Dynamics 365 para las operaciones contiene la información de dirección consolidada para clientes, proveedores, contactos, relaciones empresariales, y las entidades jurídicas. Para obtener más información, consulte la información [] general de la libreta de direcciones global (/dynamics365/operations/organization-administration/overview-global-address-book). Los registros de parte que se almacenan en la libreta de direcciones global pueden contener uno o varios registros de dirección. Estas direcciones se usan para distintos fines, por ejemplo la facturación o entrega. Puede configurar los id. de registro para la información de dirección para clientes, proveedores, los trabajadores, y las entidades jurídicas. Encuentre la parte (la entidad jurídica, proveedores, clientes, trabajador) que el registro para el que desea indicar el identificador de registro, haga clic en ** los id. de registro ** de los formularios relacionados con la parte, entidad jurídica, proveedores, clientes, trabajador para abrir ** gestionar direcciones ** la página. En ** registro de impuestos ** la ficha, haga clic ** agregue **, y especifique la siguiente información sobre el identificador del registro.
+## <a name="enter-registration-ids-for-global-address-book-records"></a>Especificar el identificador del registro de los registros de la libreta de direcciones global
+La libreta de direcciones global (GAB) en Microsoft Dynamics 365 for Operations contiene información de dirección consolidada para clientes, proveedores, contactos, relaciones empresariales y entidades jurídicas. Para obtener más información, consulte la [visión global de la libreta de direcciones global](/dynamics365/operations/organization-administration/overview-global-address-book). Los registros de partes que se almacenan en la libreta de direcciones global pueden contener uno o varios registros de dirección. Estas direcciones se usan para distintos fines, por ejemplo la facturación o entrega. Puede configurar los identificadores de registro de la información de dirección de clientes, proveedores, trabajadores y entidades jurídicas. Encuentre el registro de la parte (entidad jurídica, proveedor, cliente, trabajador) cuyo identificador de registro quiera especificar y haga clic en **Id. de registro** en los formularios relacionados con la parte, entidad jurídica, proveedor, cliente, trabajador, para abrir la página **Administrar direcciones**. En la ficha **Registro de impuestos**, haga clic en **Agregar** y especifique la siguiente información sobre el identificador del registro.
 
 |Campo                |Descripción                                                |
 |---------------------|-----------------------------------------------------------|
-| Tipo de registro   | El tipo de registro en el país o la región seleccionada.     |
+| Tipo de registro   | El tipo de registro en el país/región seleccionado.     |
 | Número de registro | El identificador del registro de parte.                                |
 | Descripción         | La descripción del número de registro.               |
 | Grupo             | La información adicional sobre el número de registro. |
 | Agencia emisora      | La autoridad que emitió el número de registro.        |
-| Fecha de emisión         | La fecha emitida para el número de registro.              |
-| Vigente           | La fecha de vigencia para el número de registro.           |
-| Caducidad          | La fecha de caducidad para el número de registro.          |
+| Fecha de emisión         | La fecha de emisión del número de registro.              |
+| Vigente           | La fecha efectiva del número de registro.           |
+| Caducidad          | La fecha de vencimiento del número de registro.          |
 
 > [!NOTE]
-> El número de identificación fiscal de la entidad jurídica, proveedor, cliente puede ser seleccionado de los id. de registro relacionados con el identificador del IVA y especificados para la parte.
+> El número de identificación fiscal de la entidad jurídica, proveedor, cliente puede ser seleccionado a partir de los identificadores de registro relacionados con el identificador del IVA y especificados para la parte.
 
-## <a name="search-for-records-by-registration-id"></a>Buscar para los registros por el identificador de registro
-El Buscar para los registros de parte en función de un identificador de registro está disponible en los formularios relacionados con la parte, la entidad jurídica, el proveedor, el cliente, y el trabajador. Haga clic en ** búsqueda del identificador del registro ** a abrir ** criterios de búsqueda del identificador del registro ** la página. Especifique los criterios de búsqueda y haga clic en ** ** búsqueda. El sistema sólo mostrará los registros seleccionados de la libreta de direcciones global y de asociados los tipos de registro de parte.
+## <a name="search-for-records-by-registration-id"></a>Buscar registros por el identificador de registro
+La búsqueda de registros de partes en función de un identificador de registro está disponible en los formularios relacionados con la parte, la entidad jurídica, el proveedor, el cliente, y el trabajador. Haga clic en **Búsqueda de id. de registro** para abrir la página **Criterios de búsqueda de id. de registro**. Especifique los criterios de búsqueda y haga clic en **Buscar**. El sistema mostrará los registros seleccionados de la libreta de direcciones global y los tipos asociados de registro de parte.
 
-## <a name="supported-registration-categories"></a>Categorías admitidas de registro
-La tabla siguiente muestra los tipos de registro admitidos de Dynamics 365 para las operaciones. Si está familiarizado con Microsoft Dynamics AX 2012 campos para los Id. de registro, esta tabla asigna también dichos campos a Dynamics 365 para las categorías de registro de operaciones.
+## <a name="supported-registration-categories"></a>Categorías de registro admitidas
+La tabla siguiente muestra una lista de los tipos de registro admitidos en Dynamics 365 for Operations. Si está familiarizado con los campos de Microsoft Dynamics AX 2012 para los Id. de registro, esta tabla también asigna dichos campos a las categorías de registro de Dynamics 365 for Operations.
 
-| Dinámica 365 para la categoría del registro de operaciones         |País/región  | Término/campo de AX 2012 Approvals|
+| Categoría de registro de Dynamics 365 for Operation         |País/región  | Término/campo de Dynamics AX 2012|
 |---------------------------------------------------------------|---------------------|---------------------------------|
-| Id. de IVA                                                        | Todos los países de la Unión Europea (EU)|  Número de identificación fiscal (legales identificador de TAX del tipo en AX2012 R3)|
-| Id. de empresa (COID)                                          | República Checa Estonia Hungría Letonia Lituania Polonia Suiza de Bélgica | Número de registro del número de empresa (EnterpriseNumber) (número de registro de RegNum\_W) (número de registro de RegNum\_W) (número de registro de RegNum\_W) (RegNum empresa de\_W) código el número de registro de EnterpriseCode () (RegNum\_W UID) (tipo legales UID en AX2012 R3) |
+| Id. de IVA                                                        | Todos los países de la Unión Europea (EU)|  Número de identificación fiscal (ID DE IMPUESTO de tipo legislativo en AX2012 R3)|
+| Id. de empresa (COID)                                          | Bélgica, República Checa, Estonia, Hungría, Letonia, Lituania, Polonia, Suiza | Número de empresa (EnterpriseNumber) Número de registro (RegNum\_W) Número de registro (RegNum\_W) Número de registro (RegNum\_W) Número de registro (RegNum\_W) Código de empresa (EnterpriseCode) Número de registro (RegNum\_W) UID (UID de tipo legislativo en AX2012 R3) |
 | Id. de sucursal                                                     | Bélgica            | Número de sucursal (BranchNumber)|
-| Značka de Spisová (número de registro, enviando la agencia, la sección) | República Checa     | Número de inserción () CommercialRegisterInsetNumber retenerse en la sección de registro comercial (CommercialRegister) del registro comercial (CommercialRegisterSection)|
+| Spisová značka (número de registro, agencia emisora, sección) | República Checa     | Número de bajorrelieve (CommercialRegisterInsetNumber) en la sección de registro comercial (CommercialRegisterSection) del registro comercial (CommercialRegister)|
 | Id. de cliente de aduanas                                           | Finlandia | Número de cliente de aduanas (CustomsCustomerNumber\_FI)|
-| INN                                                           | Federación Rusa| INN (tipo legales en INN AX2012 R3)|
-| RRC                                                           | Federación Rusa| RRC (tipo legales en RRC AX2012 R3)|
-| OKDP                                                          | Federación Rusa| OKDP (tipo legales en OKDP AX2012 R3)|
-| OKPO                                                          | Federación Rusa| OKPO (tipo legales en OKPO AX2012 R3)|
-| RCOAD                                                         | Federación Rusa| RCOAD (tipo legales en RCOAD AX2012 R3)|
-| OGRN                                                          | Federación Rusa| OGRN (tipo legales en OGRN AX2012 R3) |
-| SNILS                                                         | Federación Rusa| SNILS (tipo legales en SNILS AX2012 R3)|
-| CIFTS                                                         | Federación Rusa| CIFTS (tipo legales en CIFTS AX2012 R3)|
+| INN                                                           | Federación Rusa| INN (tipo legislativo INN en AX2012 R3)|
+| RRC                                                           | Federación Rusa| RRC (tipo legislativo RRC en AX2012 R3)|
+| OKDP                                                          | Federación Rusa| OKDP (tipo legislativo OKDP en AX2012 R3)|
+| OKPO                                                          | Federación Rusa| OKPO (tipo legislativo OKPO en AX2012 R3)|
+| RCOAD                                                         | Federación Rusa| RCOAD (tipo legislativo RCOAD en AX2012 R3)|
+| OGRN                                                          | Federación Rusa| OGRN (tipo legislativo OGRN en AX2012 R3) |
+| SNILS                                                         | Federación Rusa| SNILS (tipo legislativo en SNILS AX2012 R3)|
+| CIFTS                                                         | Federación Rusa| CIFTS (tipo legislativo CIFTS en AX2012 R3)|
 
-Para obtener más información acerca de los id. de registro que procesan, incluidos requisitos previos necesarios, consulte los registros de la siguiente tarea para el identificador de IVA en los servicios (LCS) del ciclo de vida:
+Para obtener más información acerca del procesamiento de los id. de registro, incluidos requisitos previos necesarios, consulte las grabaciones de tareas para el identificador de IVA en Lifecycle Services (LCS):
 
 -   Configuración del Id. de IVA
--   Registro del identificador de IVA del proveedor
+-   Registro de ID de IVA del proveedor
 -    Búsqueda de la parte mediante el Id. de IVA
+
+
 
 
 

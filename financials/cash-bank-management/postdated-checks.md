@@ -1,6 +1,6 @@
 ---
 title: Cheques con fecha futura
-description: "Este artículo proporciona información acerca del soporte para los cheques posfechados en Microsoft Dynamics 365 para las operaciones. Los cheques con fecha futura son cheques que se emiten con el fin de realizar y recibir pagos en una fecha futura. Por tanto, no se puede cobrar el cheque hasta la fecha especificada."
+description: "Este artículo proporciona información acerca de la compatibilidad de los cheques posfechados en Microsoft Dynamics 365 for Operations. Los cheques con fecha futura son cheques que se emiten con el fin de realizar y recibir pagos en una fecha futura. Por tanto, no se puede cobrar el cheque hasta la fecha especificada."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="postdated-checks"></a>Cheques con fecha futura
 
-Este artículo proporciona información acerca del soporte para los cheques posfechados en Microsoft Dynamics 365 para las operaciones. Los cheques con fecha futura son cheques que se emiten con el fin de realizar y recibir pagos en una fecha futura. Por tanto, no se puede cobrar el cheque hasta la fecha especificada.
+[!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 para las operaciones admite el ciclo de administración completo para los cheques posfechados en clientes y proveedores, tal y como se muestra en la tabla siguiente.
+
+Este artículo proporciona información acerca de la compatibilidad de los cheques posfechados en Microsoft Dynamics 365 for Operations. Los cheques con fecha futura son cheques que se emiten con el fin de realizar y recibir pagos en una fecha futura. Por tanto, no se puede cobrar el cheque hasta la fecha especificada.
+
+Microsoft Dynamics 365 for Operations admite el ciclo de gestión completo para los cheques posfechados tanto en Clientes como en Proveedores, como se muestra en la siguiente tabla.
 <table>
 <colgroup>
 <col width="50%" />
@@ -48,14 +51,14 @@ Microsoft Dynamics 365 para las operaciones admite el ciclo de administración c
 </tr>
 <tr class="even">
 <td>Registrar un cheque con pago diferido para un proveedor</td>
-<td>Registrar los detalles de un cheque posfechado que emite a un proveedor. Cuando se registra el pago, se reconoce el pasivo del proveedor, pero la cuenta bancaria no está aún crédito. En su lugar, se usa una cuenta de compensación para este propósito.</td>
+<td>Registrar los detalles de un cheque posfechado que emite a un proveedor. Cuando se registra el pago, se reconoce el pasivo del proveedor pero la cuenta bancaria no es crédito todavía. En su lugar, se usa una cuenta de compensación para este propósito.</td>
 </tr>
 <tr class="odd">
 <td>Registro de un cheque con fecha futura para un cliente</td>
-<td>Registrar los detalles de un cheque con fecha futura que recibe de un cliente. Cuando se registra el pago, el cliente es de crédito de clientes, pero la cuenta bancaria no se debe aún. En su lugar, se usa una cuenta de compensación para este propósito.</td>
+<td>Registrar los detalles de un cheque con fecha futura que recibe de un cliente. Cuando se registra el pago, la cuenta por cobrar del cliente es crédito pero la cuenta bancaria no es débito todavía. En su lugar, se usa una cuenta de compensación para este propósito.</td>
 </tr>
 <tr class="even">
-<td>Registrar un cheque con pago diferido de sustitución para un cliente o un proveedor</td>
+<td>Registrar un cheque con pago diferido de sustitución para un proveedor o cliente.</td>
 <td>
 Si ha perdido o dañado el cheque original a un proveedor o de un cliente, puede emitir un cheque posfechado de sustitución al proveedor. Al registrar los detalles del cheque, proporcione una referencia del cheque original e indique que el nuevo cheque es una sustitución del original. También puede registrar el cheque de sustitución.</td>
 </tr>
@@ -70,16 +73,18 @@ Si ha perdido o dañado el cheque original a un proveedor o de un cliente, puede
 <tr class="odd">
 <td>Cancelar un cheque con pago diferido para un proveedor</td>
 <td>Puede cancelar un cheque posfechado registrado en las situaciones siguientes: - El banco ha devuelto el cheque.
-- La comprobación se aplica a una factura incorrecta.
-- Un pago en efectivo en relación al cheque.
+- El cheque se ha aplicado a una factura incorrecta.
+- Se debe hacer un pago en efectivo en relación al cheque.
 </td>
 </tr>
 <tr class="even">
-<td>Pago de detención para un cheque posfechado</td>
-<td>Puede detener el pago de cheque posfechado que se emitió a un proveedor por motivos como fondos insuficientes, cambio de las condiciones del contrato con el proveedor, suministro de mercancías defectuosas por proveedor o devolución de mercancías al proveedor. Puede detener el pago sólo en los cheques que no ha compensado.</td>
+<td>Detener un pago de un cheque con pago diferido</td>
+<td>Puede detener el pago de cheque posfechado que se emitió a un proveedor por motivos como fondos insuficientes, cambio de las condiciones del contrato con el proveedor, suministro de mercancías defectuosas por proveedor o devolución de mercancías al proveedor. Puede detener el pago solo en los cheques que no ha compensado.</td>
 </tr>
 </tbody>
 </table>
+
+
 
 
 

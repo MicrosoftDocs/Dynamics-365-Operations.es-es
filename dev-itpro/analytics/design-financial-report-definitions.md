@@ -30,7 +30,7 @@ ms.lasthandoff: 03/29/2017
 
 Este artículo proporciona información acerca de las definiciones de informes. Una definición del informe es un componente de informe (o un bloque de creación) que utiliza una definición de filas, una definición de columnas y una definición opcional del organigrama para crear un informe. Una definición de informe también proporciona opciones y ajustes para personalizar un informe. 
 
-Una definición del informe es un componente de informe (o un bloque de creación) que utiliza una definición de filas, una definición de columnas y una definición opcional del organigrama para crear un informe. Una definición del informe también proporciona las opciones y los valores que puede usar para personalizar un informe. Después de definir definiciones de filas y de columnas, debe combinarlas en una definición del informe. En este momento, también define otros aspectos de las definiciones, como el nivel de detalle y la fecha del informe. Después, puede guardar y generar un informe. Los informes financieros ofrecen los niveles de detalle siguientes:
+Una definición del informe es un componente de informe (o un bloque de creación) que utiliza una definición de filas, una definición de columnas y una definición opcional del organigrama para crear un informe. Una definición de informe también proporciona opciones y configuración adicionales que puede usar para personalizar un informe. Después de definir definiciones de filas y de columnas, debe combinarlas en una definición del informe. En este momento, también define otros aspectos de las definiciones, como el nivel de detalle y la fecha del informe. Después, puede guardar y generar un informe. Los informes financieros ofrecen los niveles de detalle siguientes:
 
 -   Financiero
 -   Financiero y contable
@@ -89,6 +89,6 @@ La siguiente tabla describe las pestañas en una definición del informe y cómo
 <a name="see-also"></a>Consulte también
 --------
 
-[Informe financiero para Microsoft Dynamics 365 para las operaciones (financial-reporting-intro.md])
+[Informes financieros para Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

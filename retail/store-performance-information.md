@@ -1,6 +1,6 @@
 ---
 title: Analizar el rendimiento de la tienda
-description: "Este artículo se explica cómo puede usar en- memoria y analítica en tiempo real para tener acceso a, para explorar, y para obtener a la penetración acerca de rendimiento almacenado, en función de su Microsoft Dynamics 365 para los datos de las operaciones."
+description: "Este artículo explica cómo puede usar los análisis en memoria y en tiempo real para tener acceso, explorar y obtener información acerca del rendimiento de la tienda, en función de sus datos de Microsoft Dynamics 365 for Operations."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 57811
 ms.assetid: 495a66f0-491a-4688-842d-51c33c37676f
 ms.search.region: global
@@ -27,13 +27,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="analyze-store-performance"></a>Analizar el rendimiento de la tienda
 
-Este artículo se explica cómo puede usar en- memoria y analítica en tiempo real para tener acceso a, para explorar, y para obtener a la penetración acerca de rendimiento almacenado, en función de su Microsoft Dynamics 365 para los datos de las operaciones. 
+[!include[banner](includes/banner.md)]
 
-Como parte de Dynamics 365 para las operaciones, los usuarios pueden estudiar rendimiento de la tienda en tiempo real a través de distintos niveles de la jerarquía organizativa durante un período seleccionado abriendo el componente estándar ** resumen del canal ** informan de ubicaciones siguientes cualquiera de las acciones siguientes:
 
--   ** Administración de Retail Store Connect ** Dynamics 365 del espacio de trabajo para las operaciones &gt; ** al por menor y comercio ** &gt; ** canales ** &gt; ** administración de Retail Store Connect ** &gt; ** informes ** &gt; ** informe de resumen del canal **
--   ** Operaciones financieras de Retail Store Connect ** Dynamics 365 del espacio de trabajo para las operaciones &gt; ** al por menor y comercio ** &gt; ** canales ** &gt; ** operaciones financieras de Retail Store Connect ** &gt; ** informes ** &gt; ** informe de resumen del canal **
--   ** Consultas e informes ** Dynamics 365 de la sección para las operaciones &gt; ** al por menor y comercio ** &gt; ** consultas e informes ** &gt; ** informes de ventas ** &gt; ** informe de resumen del canal **
+Este artículo explica cómo puede usar los análisis en memoria y en tiempo real para tener acceso, explorar y obtener información acerca del rendimiento de la tienda, en función de sus datos de Microsoft Dynamics 365 for Operations. 
+
+Como parte de Dynamics 365 for Operations, los usuarios pueden estudiar el rendimiento de la tienda en tiempo real en distintos niveles de la jerarquía organizativa durante un período seleccionado abriendo el informe listo para usar **Resumen del canal** desde cualquiera de las siguientes ubicaciones:
+
+-   **Gestión de tienda de venta minorista** espacio de trabajo Dynamics 365 for Operations &gt; **Venta minorista y comercio** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de resumen de canal**
+-   **Operaciones financieras de tienda** espacio de trabajo Dynamics 365 for Operations &gt; **Venta minorista y comercio** &gt; **Canales** &gt; **Operaciones financieras de tienda** &gt; **Informes** &gt; **Informe de resumen de canal**
+-   **Consultas e informes** sección Dynamics 365 for Operations &gt; **Venta minorista y comercio** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de resumen de canal**
 
 Este informe proporciona una instantánea de los resúmenes siguientes como parte de rendimiento de la tienda:
 
@@ -42,4 +45,6 @@ Este informe proporciona una instantánea de los resúmenes siguientes como part
 -   Resumen de impuestos
 -   Resumen del reemplazo de precios
 -   Resumen de descuentos
+
+
 

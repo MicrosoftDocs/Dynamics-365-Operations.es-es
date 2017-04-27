@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Vista general de la liquidación para pagos centralizados
 
+[!include[banner](../includes/banner.md)]
+
+
 Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica que controle todos los pagos. De esta forma, se elimina la necesidad de introducir la misma transacción en las diversas entidades jurídicas y se obtiene un importante ahorro de tiempo al racionalizar el proceso de propuestas de pago, el proceso de liquidación, la edición de transacciones abiertas y la edición de transacciones cerradas de los pagos centralizados. 
 
 Cuando se indica un pago de cliente o proveedor en una entidad jurídica y se liquida con una factura que se ha especificado en otra entidad jurídica, las transacciones de la liquidación aplicable y las transacciones de destinatario de pago y de remitente de pago se generan automáticamente para cada entidad jurídica. Se crea un registro de liquidación para cada combinación de factura y pago en la transacción. Cada registro de liquidación se asigna a un nuevo número de asiento, basado en la serie de secuencia numérica del comprobante de pago especificada en la página de **Parámetros de cuentas de clientes** para clientes y en la página de **Parámetros de cuentas de proveedores** para proveedores. 
@@ -108,6 +111,8 @@ Para los pagos de proveedores, las transacciones de destinatario de pago y de re
 
 ## <a name="withholding-tax"></a>Retención de impuestos
 La cuenta del proveedor asociada a la factura se usa para determinar si la retención de impuestos se debe calcular. Si se aplica la retención de impuestos, se calcula en la entidad jurídica asociada a la factura. Si las entidades jurídicas usan distintas divisas, se usará el tipo de cambio de la entidad jurídica asociada con la factura.
+
+
 
 
 

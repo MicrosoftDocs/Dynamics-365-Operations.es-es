@@ -1,6 +1,6 @@
 ---
 title: Analizar patrones y tendencias de ventas
-description: Puede estudiar tendencias y patrones de ventas en tiempo real en Microsoft Dynamics 365 para las operaciones (al por menor.
+description: Puede estudiar patrones y tendencias de ventas en tiempo real en Microsoft Dynamics 365 for Operations - Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 85183
 ms.assetid: df9c62a2-6f13-4a08-bdca-07d041172c1b
 ms.search.region: Global
@@ -27,17 +27,22 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="analyze-sales-trends-and-patterns"></a>Analizar patrones y tendencias de ventas
 
-Puede estudiar tendencias y patrones de ventas en tiempo real en Microsoft Dynamics 365 para las operaciones (al por menor.
+[!include[banner](includes/banner.md)]
 
-Como parte de Dynamics 365 para las operaciones, los usuarios pueden estudiar tendencias y patrones de ventas en tiempo real a través de distintos niveles de la jerarquía organizativa durante un período de años utilizando el componente ** ventas estándar del canal del año ** informe. Puede abrir este informe desde cualquiera de las ubicaciones siguientes:
 
--   ** Gestión de Retail Store Connect ** Dynamics 365 del espacio de trabajo para las operaciones &gt; ** al por menor y el comercio ** &gt; ** los canales ** &gt; ** administración de Retail Store Connect ** &gt; ** los informes ** &gt; ** las ventas del canal del año informan **
--   ** Los operaciones financieras de Retail Store Connect ** Dynamics 365 del espacio de trabajo para las operaciones &gt; ** al por menor y el comercio ** &gt; ** los canales ** &gt; ** los operaciones financieras de Retail Store Connect ** &gt; ** los informes ** &gt; ** las ventas del canal del año informan **
--   ** Las consultas e informes ** Idiomas Dynamics 365 para las operaciones &gt; ** al por menor y el comercio ** &gt; ** consultas e informa ** &gt; ** informes de ventas ** &gt; ** las ventas del canal por informe del año **
+Puede estudiar patrones y tendencias de ventas en tiempo real en Microsoft Dynamics 365 for Operations - Retail.
+
+Como parte de Dynamics 365 for Operations, los usuarios pueden estudiar patrones y tendencias de ventas en tiempo real en distintos niveles de la jerarquía organizativa durante un período de años usando el informe listo para usar **Ventas de canal por año**. Puede abrir este informe desde cualquiera de las ubicaciones siguientes:
+
+-   **Gestión de tienda de venta minorista** espacio de trabajo Dynamics 365 for Operations &gt; **Venta minorista y comercio** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de ventas de canal por año**
+-   **Operaciones financieras de tienda** espacio de trabajo Dynamics 365 for Operations &gt; **Venta minorista y comercio** &gt; **Canales** &gt; **Operaciones financieras de tienda** &gt; **Informes** &gt; **Informe de ventas de canal por año**
+-   **Consultas e informes** sección Dynamics 365 for Operations &gt; **Venta minorista y comercio** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de ventas de canal por año**
 
 Los usuarios también pueden estudiar patrones y tendencias de ventas por hora en distintos niveles de la jerarquía organizativa durante un período seleccionado usando el informe listo para usar **Ventas de canal por hora**. Puede abrir este informe desde cualquiera de las ubicaciones siguientes:
 
--   ** Gestión de Retail Store Connect ** Dynamics 365 del espacio de trabajo para las operaciones &gt; ** al por menor y el comercio ** &gt; ** los canales ** &gt; ** administración de Retail Store Connect ** &gt; ** los informes ** &gt; ** las ventas del canal por hora informan **
--   ** Los operaciones financieras de Retail Store Connect ** Dynamics 365 del espacio de trabajo para las operaciones &gt; ** al por menor y el comercio ** &gt; ** los canales ** &gt; ** los operaciones financieras de Retail Store Connect ** &gt; ** los informes ** &gt; ** las ventas del canal por hora informan **
--   ** Las consultas e informes ** Idiomas Dynamics 365 para las operaciones &gt; ** al por menor y el comercio ** &gt; ** consultas e informa ** &gt; ** informes de ventas ** &gt; ** las ventas del canal en el informe desde la hora **
+-   **Gestión de tienda de venta minorista** espacio de trabajo Dynamics 365 for Operations &gt; **Venta minorista y comercio** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de ventas de canal por hora**
+-   **Operaciones financieras de tienda** espacio de trabajo Dynamics 365 for Operations &gt; **Venta minorista y comercio** &gt; **Canales** &gt; **Operaciones financieras de tienda** &gt; **Informes** &gt; **Informe de ventas de canal por hora**
+-   **Consultas e informes** sección Dynamics 365 for Operations &gt; **Venta minorista y comercio** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de ventas de canal por hora**
+
+
 

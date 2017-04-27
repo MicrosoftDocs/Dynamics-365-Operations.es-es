@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="delays"></a>Retrasos
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información acerca de fechas retrasadas en la planificación maestra. Una fecha retrasada es una fecha de vencimiento realista que una transacción recibe si la fecha de cumplimiento más temprana que la planificación maestra calcula es posterior a la fecha solicitada.
 
 La planificación maestra puede calcular la fecha más temprana de cumplimiento para una transacción según los plazos, la disponibilidad de material, la disponibilidad de capacidad y los diferentes parámetros de planificación. 
@@ -41,11 +44,13 @@ Puede configurar cómo calcular los retrasos para un grupo de cobertura. Más ad
 
 En la página **Parámetros de planificación maestra** puede establecer el momento de inicio para el cálculo de retrasos. Si se satisface un pedido después de este momento, entonces se añade un retraso de un día a la fecha de retraso del pedido. 
 
-** Nota: ** En versiones anteriores, los retrasos calculados fueron conocidos como messages* de los *futures, la fecha se retrasa conocida como el date* de los *futures, y una transacción se retrasa hace referencia como transacción de *a que se set* futuro.
+**Nota:** en versiones anteriores, los retrasos calculados se conocían como *mensajes de futuros*, la fecha retrasada como *fecha de futuros* y las transacciones retrasadas como *transacciones establecidas en una fecha futura*.
 
 <a name="see-also"></a>Consulte también
 --------
 
 [Configuración de cobertura](coverage-settings.md)
+
+
 
 

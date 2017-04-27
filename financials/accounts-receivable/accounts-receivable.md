@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-receivable-home-page"></a>Página principal de clientes
 
-Use Clientes para controlar todas las facturas de cliente y los pagos entrantes.
+[!include[banner](../includes/banner.md)]
+
+
+Use Clientes para controlar todas las facturas de cliente y los pagos entrantes. 
 
 Puede crear facturas de cliente basadas en pedidos de ventas o albaranes. También se pueden especificar facturas de servicios que no estén relacionadas con pedidos de ventas. Puede recibir pagos mediante varios tipos de pago. Entre estos se incluyen letras de cambio, efectivo, cheques, tarjetas de crédito y pagos electrónicos. Si la organización incluye varias entidades jurídicas, puede usar pagos centralizados para registrar pagos en una entidad jurídica única en nombre de las demás entidades jurídicas.
+
+
 
 
 

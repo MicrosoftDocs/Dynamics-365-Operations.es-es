@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-sheets"></a>Hojas de gestión de costes
 
+[!include[banner](../includes/banner.md)]
+
+
 La configuración de la hoja de gestión de costes implica dos objetivos. En primer lugar, se define el formato para la visualización de la información de coste de los bienes vendidos acerca de un artículo fabricado o un pedido de producción. La visualización con formato se denomina "hoja de gestión de costes". En segundo lugar, se define la base del cálculo de los costes indirectos. La configuración de la hoja de gestión de costes se basa en la característica de grupo de costes para la visualización de información y para las fórmulas de cálculo de costes indirectos. En este artículo se describen los dos objetivos de la configuración de la hoja de gestión de costes: 
 
 Una hoja de gestión de costes es la visualización con formato de la información acerca del coste de los bienes vendidos para un artículo fabricado o un pedido de producción. Cuando configure una hoja de gestión de costes, defina el formato de la información y defina también la base para calcular los costes indirectos. La configuración de la hoja de gestión de costes se basa en las características de grupo de costes para la visualización de información y para las fórmulas que se usan para calcular el coste indirecto. Aquí se encuentra más información acerca de los dos objetivos de la configuración de la hoja de gestión de costes:
@@ -43,6 +46,8 @@ Dos directivas de bloqueo para una versión de gestión de costes determinan si 
 Después de definir el formato de hoja de gestión de costes y los cálculos para los costes indirectos, deberá realizar un paso individual para validar y guardar la información. La hoja de gestión de costes representa un formato para toda la empresa que muestra de manera coherente la información sobre costes de los bienes vendidos. 
 
 La hoja de gestión de costes se muestra como parte de la página **Calcular coste del artículo**. La hoja de gestión de costes se puede mostrar para el registro de costes calculados de un artículo fabricado en la página **Precio de artículo** o, para un registro de cálculo específico de un pedido, en la página **Resultados del cálculo de L. MAT.**. También se puede mostrar como parte de la página **Cálculo de precio** para un pedido de producción.
+
+
 
 
 

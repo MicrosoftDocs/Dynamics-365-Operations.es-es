@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="price-simulation"></a>Simulación de precios
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información acerca de la simulación de precios para los presupuestos. La simulación de precios le ayuda a evaluar el efecto de las deducciones en el precio de venta futuro durante el proceso de presupuesto, antes de confirmar un precio determinado.
 
 Una simulación de precios para un presupuesto muestra un importe total nuevo, basado en un nuevo precio propuesto. Una simulación de precios también puede mostrar un importe nuevo para una línea específica que se crea en un presupuesto existente. Puede introducir una simulación de precios y aplicarla posteriormente. También puede usar el presupuesto original, sin simulación de precios, y realizar cambios adicionales a medida que avanza por el proceso de ventas con el cliente.  
@@ -50,7 +53,7 @@ Para garantizar que los descuentos y precios se calculan correctamente, preste a
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Tipos de descuentos de acuerdos comerciales
 
-Los acuerdos comerciales de Microsoft Dynamics 365 para las operaciones pueden tener cuatro tipos de precios/descuentos. Estos descuentos pueden configurarse para diferentes artículos, clientes o grupos de precios, y pueden estar limitados por fecha. Para evitar cálculos erróneos, debe tener en cuenta los acuerdos comerciales al ejecutar simulaciones de precios. Estos son los cuatro tipos de descuentos de los acuerdos comerciales:
+Los acuerdos comerciales de Microsoft Dynamics 365 for Operations pueden tener cuatro tipos de precio/descuento. Estos descuentos pueden configurarse para diferentes artículos, clientes o grupos de precios, y pueden estar limitados por fecha. Para evitar cálculos erróneos, debe tener en cuenta los acuerdos comerciales al ejecutar simulaciones de precios. Estos son los cuatro tipos de descuentos de los acuerdos comerciales:
 
 -   **Precio de ventas**: se pueden especificar precios de ventas independientes de artículos. Cuando se crean las líneas de presupuesto, el programa busca el precio de venta correcto de un artículo y lo transfiere a las líneas de presupuesto. Por lo tanto, un acuerdo comercial con este tipo de descuento no afecta a la simulación de precios. El precio de venta que se usa en la línea de presupuesto refleja el acuerdo comercial.
 -   **Descuento de línea**: se especifican descuentos de artículos especiales en función de la cantidad pedida. Los importes de línea suelen reducirse por el descuento de línea anterior a la ejecución de la simulación de precios. Por lo tanto, un acuerdo comercial con este tipo de descuento sí afecta a la simulación de precios.
@@ -79,7 +82,7 @@ La tabla siguiente muestra las líneas de presupuesto.
 | Valor de ventas en USD         | (10 × 15,32) + (12 × 13,75)          | 318,20   |
 | Valor de coste en USD          | (10 × 9,52) + (12 × 7,48)            | 184,96   |
 | Margen de contribución en USD | 318,20 – 184,96                      | 133,24   |
-| Coeficiente de contribución         | (\[318.20 – 184.96\] ÷ 318.20) × 100 | 41,87%   |
+| Coeficiente de contribución         | (\[318,20 – 184,96\] ÷ 318,20) × 100 | 41,87%   |
 
 Ejecuta una simulación de precios y aplica un 15 por ciento de descuento total para todo el presupuesto o el encabezado del presupuesto. La siguiente tabla muestra los nuevos totales del presupuesto una vez ejecutada la simulación de precios.
 
@@ -89,11 +92,11 @@ Ejecuta una simulación de precios y aplica un 15 por ciento de descuento total 
 | Valor de ventas antiguo en USD                               | (10 × 15,32) + (12 × 13,75)               | 318,20   |
 | Valor de coste antiguo en USD                                | (10 × 9,52) + (12 × 7,48)                 | 184,96   |
 | Margen de contribución antiguo en USD                       | 318,20 – 184,96                           | 133,24   |
-| Coeficiente de contribución antiguo                               | (\[318.20 – (10 × 9.52)\] ÷ 318.20) × 100 | 41,87%   |
+| Coeficiente de contribución antiguo                               | (\[318,20 – (10 × 9,52)\] ÷ 318,20) × 100 | 41,87%   |
 | Simulación de precios de 15 % de descuento total en USD | (15 × 318,2) ÷ 100                        | 47,73    |
 | Valor de ventas nuevo en USD                               | 318,20 – 47,73                            | 270,47   |
 | Margen de contribución nuevo en USD                       | 270,47 – 184,96                           | 85,51    |
-| Nuevo coeficiente de contribución                               | \[(270.47 – 184.96) ÷ 270.47\] × 100      | 31,61%   |
+| Nuevo coeficiente de contribución                               | \[(270,47 – 184,96) ÷ 270,47\] × 100      | 31,61%   |
 
 ### <a name="price-simulation-for-single-line-items"></a>Simulación de precios de artículos de una sola línea
 
@@ -113,12 +116,12 @@ La tabla siguiente muestra las líneas de presupuesto.
 | Valor de coste en USD para BR-14          | 12 × 7,48                            | 89,76    |
 | Margen de contribución en USD para BR-12 | 153,20 - 95,20                       | 58,00    |
 | Margen de contribución en USD para BR-14 | 165,00 - 89,76                       | 75,24    |
-| Coeficiente de contribución en USD para BR-12  | \[(153.20 – 95.20) ÷ 153.20\] × 100  | 37,86    |
-| Coeficiente de contribución en USD para BR-14  | \[(165.00 – 89.76) ÷ 165.00\] × 100  | 45,60    |
+| Coeficiente de contribución en USD para BR-12  | \[(153,20 – 95,20) ÷ 153,20\] × 100  | 37,86    |
+| Coeficiente de contribución en USD para BR-14  | \[(165,00 – 89,76) ÷ 165,00\] × 100  | 45,60    |
 | Valor de ventas total en USD             | (10 × 15,32) + (12 × 13,75)          | 318,20   |
 | Valor de coste total en USD              | (10 × 9,52) + (12 × 7,48)            | 184,96   |
 | Margen de contribución total en USD     | 318,20 – 184,96                      | 133,24   |
-| Coeficiente de contribución total             | \[(318.20 – 184.96) ÷ 318.20\] × 100 | 41,87%   |
+| Coeficiente de contribución total             | \[(318,20 – 184,96) ÷ 318,20\] × 100 | 41,87%   |
 
 Ejecuta una simulación de precios y aplica un descuento total del 10 por ciento a las unidades BR-12. La siguiente tabla muestra los nuevos totales del presupuesto una vez ejecutada la simulación de precios para el artículo de línea única.
 
@@ -133,13 +136,15 @@ Ejecuta una simulación de precios y aplica un descuento total del 10 por ciento
 | Valor de coste en USD para BR-14                       | 12 × 7,48                               | 89,76    |
 | Margen de contribución nuevo en USD para BR-12          | 137,88 - 95,20                          | 42,68    |
 | Margen de contribución en USD para BR-14              | 165,00 - 89,76                          | 75,24    |
-| Coeficiente de contribución nuevo en USD para BR-12           | \[(137.88 – 95.20) ÷ 137.88\] × 100     | 30,95    |
-| Coeficiente de contribución en USD para BR-14               | \[(165.00 – 89.76) ÷ 165.00\] × 100     | 45,60    |
-| Valor de ventas total nuevo en USD                      | \[(10 × 15.32) – 15.32\] + (12 × 13.75) | 302,88   |
+| Coeficiente de contribución nuevo en USD para BR-12           | \[(137,88 – 95,20) ÷ 137,88\] × 100     | 30,95    |
+| Coeficiente de contribución en USD para BR-14               | \[(165,00 – 89,76) ÷ 165,00\] × 100     | 45,60    |
+| Valor de ventas total nuevo en USD                      | \[(10 × 15,32) – 15,32\] + (12 × 13,75) | 302,88   |
 | Valor de coste total en USD                           | (10 × 9,52) + (12 × 7,48)               | 184,96   |
 | Margen de contribución total nuevo en USD              | 302,88 – 184,96                         | 117,92   |
-| Nuevo coeficiente total de contribución                      | \[(302.88 – 184.96) ÷ 302.88\] × 100    | 38,93 %   |
+| Nuevo coeficiente total de contribución                      | \[(302,88 – 184,96) ÷ 302,88\] × 100    | 38,93 %   |
 
 La simulación de precios solo afecta a la línea a la que se aplica y reduce el total para dicha línea.
+
+
 
 

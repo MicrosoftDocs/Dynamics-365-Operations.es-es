@@ -1,5 +1,5 @@
 ---
-title: Actualice la entidad compuestas del diario del banco
+title: "Actualización de la entidad compuesta del diario del banco"
 description: Es necesario seguir los pasos siguiientes para poder agregar el campo adicional de BankTransactionType al compuesto BankJournalEntity.
 author: twheeloc
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="update-the-bank-journal-composite-entity"></a>Actualice la entidad compuestas del diario del banco
+# <a name="update-the-bank-journal-composite-entity"></a>Actualización de la entidad compuesta del diario del banco
+
+[!include[banner](../includes/banner.md)]
+
 
 Es necesario seguir los pasos siguiientes para poder agregar el campo adicional de BankTransactionType al compuesto BankJournalEntity.
 
@@ -37,7 +40,7 @@ Siga estos pasos para agregar el campo adicional de BankTransactionType al compu
     -   Tabla\\BankJournalHeaderStaging
     -   Tabla\\BankJournalLineStaging
 
-2.  Proyectos\\los datos\\de gestión de datos
+2.  Gestión de datos\\proyectos de datos
     -   Exponga el tipo de **Transacción bancaria **en el diseño de **Datos de origen **.
         -   Formato de datos de origen = Elemento XML
         -   Nombre de la entidad = Diario del banco
@@ -49,6 +52,8 @@ Siga estos pasos para agregar el campo adicional de BankTransactionType al compu
             -   Compruebe que se asigna el Tipo de transacción bancaria del Origen a Montaje
 
 3.  Importar el extracto nuevo.
+
+
 
 
 

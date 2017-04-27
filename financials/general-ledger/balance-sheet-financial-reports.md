@@ -1,6 +1,6 @@
 ---
 title: "Informes financieros de balance de situación"
-description: "Este artículo describe los informes predeterminados para los balances de situación. También se explica los bloques de creación que están asociados a ellos."
+description: "En este artículo se describen los informes predeterminados para los balances de situación. También se describen los componentes de estos informes."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="balance-sheet-financial-reports"></a>Informes financieros de balance de situación
 
-Este artículo describe los informes predeterminados para los balances de situación. También se explica los bloques de creación que están asociados a ellos. 
+[!include[banner](../includes/banner.md)]
+
+
+En este artículo se describen los informes predeterminados para los balances de situación. También se describen los componentes de estos informes. 
 
 <a name="default-balance-sheet-reports"></a>Informes de balance de situación predeterminados
 -----------------------------
@@ -72,10 +75,12 @@ Las definiciones de columnas contienen diversos tipos de columnas para proporcio
 <a name="see-also"></a>Consulte también
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Informes financieros](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Ver informes financieros](view-financial-reports.md)
 
-[] Blog de los informes financieros de Dynamics (http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Blog de informes financieros de Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

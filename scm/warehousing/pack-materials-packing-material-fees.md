@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="packing-materials-and-fees"></a>Materiales y cuotas de embalaje
 
+[!include[banner](../includes/banner.md)]
+
+
 Las cuotas de material de embalaje se pagan en algunos intervalos para una empresa de reciclaje. Se debe pagar un importe por unidad de peso para cada material del que consta una unidad de embalaje. Las cuotas de material de embalaje se calculan y se notifican, pero no se registra ninguna transacción contable ya que las cuentas no se contemplan como impuestos que se deban pagar a una autoridad.
 
 Las cuotas y pesos de material de embalaje se calculan para las líneas de pedido de compra y de ventas.
@@ -52,7 +55,7 @@ Al crear una línea de pedidos de ventas, se realiza una comprobación para ver 
 ## <a name="packing-units-on-purchase-order-lines"></a>Unidades de embalaje en las líneas de pedido de compra
 El sistema no crea transacciones de materiales de embalaje para una línea de pedido de compra. Las transacciones para las líneas de pedido de compra facturadas se crean manualmente en la página **Transacciones de material de embalaje**.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Configurar los números de licencia de packagingmaterialfee del cliente
+## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Configurar números de licencia de cuota de material de embalaje del cliente
 Si los clientes pagan las cuotas de material de embalaje, especifique los números de licencia de cuota de material de embalaje de los clientes en la página **Clientes**. Si se ha asignado un número de licencia a un cliente, las cuotas de material de embalaje se calculan automáticamente al facturar los pedidos de ventas. Tras la facturación, se desactiva la casilla de verificación **Calcular cuota** de la página **Transacciones de material de embalaje**, ya que no necesita calcular e imprimir un informe. Puede imprimir los pesos del material de embalaje en la factura e informar a los clientes de que paguen las cuotas. 
 
 Si la empresa paga las cuotas del material de embalaje, no especifique los números de licencia del cliente. Tras la facturación, la casilla **Calcular cuota** se activará en la página **Transacciones de material de embalaje**. Esto indica que las cuotas se calculan cuando se crea el informe. Puede imprimir los pesos en la factura e indicar que la empresa paga las cuotas.
@@ -60,6 +63,8 @@ Si la empresa paga las cuotas del material de embalaje, no especifique los núme
 ## <a name="print-packaging-material-weights-on-invoices"></a>Imprimir pesos de material de embalaje en las facturas
 Puede imprimir los pesos de material de embalaje en la factura e indicar quién paga las cuotas de material de embalaje. Los pesos se resumen por código de embalaje.
  
+
+
 
 
 

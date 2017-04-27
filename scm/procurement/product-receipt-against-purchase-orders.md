@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="product-receipt-against-purchase-orders"></a>Recepción de producto frente a pedidos de compra
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe las distintas opciones para registrar productos como recibidos.
 
 La recepción de producto es el proceso de registro de que se han recibido los productos que se han pedido, de manera que las líneas de pedido de compra se pueden procesar para facturación. En algunos casos, los productos pasan por un pre-registro, donde se registra información adicional del proveedor antes de que se reciban los productos. Cuando llegan los productos, se marcan primero como **Registrado**. Los productos pueden pasar después por procesos adicionales, como la gestión de la calidad antes de que finalmente se marquen como **Recibido**.
@@ -52,19 +55,21 @@ Puede seleccionar varios pedidos y procesar la recepción en todos esos pedidos 
 
 Los pedidos de compra pueden crearse a partir de un pedido de ventas en el que se ha seleccionado la opción **Entrega directa**. Cuando se utiliza la entrega directa, los productos nunca llegan al propio almacén, pero se envían directamente del proveedor al cliente. En este caso, la recepción se suele registrar directamente en el pedido de compra. La recepción se puede realizar automáticamente, como a través de la integración de intercambio electrónico de datos (EDI) con el proveedor. De forma alternativa, si el pedido de compra es un pedido de compra de empresas vinculadas, Microsoft Dynamics 365 for Operations automatiza la recepción del pedido de ventas de empresas vinculadas cuando se produce el envío. Cuando se utiliza la entrega directa, los productos se siguen contabilizando como inventario, a pesar de que no llegan físicamente al almacén. Por tanto, cuando se registre la recepción de producto en el pedido de compra, el pedido de ventas se actualiza automáticamente con un albarán, para que el cambio general en el inventario sea 0 (cero). En los escenarios de entrega directa, no debería requerir el pre-registro. Si utiliza almacenes que están habilitados para la gestión de almacenes, puede eludir el requisito para el registro de matrícula especificando un almacén virtual en su lugar. Especifique este almacén en el campo **Almacén de entrega directa** del producto. 
 
-Tras registrar la recepción de producto se haya procesado en el PO, el estado del PO a ** recibido ** para indicar que la factura se puede procesar para el pedido. Puede revisar los detalles acerca de los productos que ya se han recibido en la página **Diarios de recepción de productos**.  
+Una vez que se ha procesado la recepción de producto en el pedido de compra, el estado del pedido de compra se establece en **Recibido** para indicar que se puede procesar la factura para el pedido. Puede revisar los detalles acerca de los productos que ya se han recibido en la página **Diarios de recepción de productos**.  
 
 Puede tener acceso a esta página desde el grupo de acción **Recibo** de la página **Pedido de compra**. La información en los diarios incluye detalles acerca de las cantidades, las fechas y las dimensiones.
 
 <a name="see-also"></a>Consulte también
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Visión general de pedidos de compra](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Creación de pedido de compra](purchase-order-creation.md)
 
 [Confirmación y aprobación del pedido de compra](purchase-order-approval-confirmation.md)
 
 [Visión general de facturas de proveedores](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

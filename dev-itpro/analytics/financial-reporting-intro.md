@@ -85,6 +85,6 @@ Para obtener más información, consulte la sección “Características de comp
 
 #<a name="see-also"></a>Consulte también
 
-[Generar un informe financiero (] (dynamics365 las operaciones \ \ Common operaciones financieras \ \ contabilidad general generar-financiero- el informe)
+[Generar un informe financiero]((dynamics365\operations\financials\general-ledger\generate-financial-report)
 
 

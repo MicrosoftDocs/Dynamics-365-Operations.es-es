@@ -1,6 +1,6 @@
 ---
-title: "Nuevas guías de la tarea (febrero de 2016)"
-description: "Este wiki muestra las guías de la tarea lanzadas a partir a las bibliotecas de Microsoft BPM en febrero de 2016.  Las bibliotecas que estaban inclusión publicada (febrero de 2016) APQC el unificaron la biblioteca para Microsoft Dynamics 365 para las operaciones, y (febrero de 2016) iniciarse."
+title: "Nuevas guías de tareas (febrero de 2016)"
+description: "Esta wiki enumera a las guías de tareas que se publicaron en las bibliotecas de Microsoft BPM a partir de febrero de 2016.  Las bibliotecas que se publicaron incluyen la biblioteca unificada APQC (febrero de 2016) para Microsoft Dynamics 365 for Operations y la biblioteca de introducción (febrero de 2016)."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-task-guides-february-2016"></a>Nuevas guías de la tarea (febrero de 2016)
+# <a name="new-task-guides-february-2016"></a>Nuevas guías de tareas (febrero de 2016)
 
-Este wiki muestra las guías de la tarea lanzadas a partir a las bibliotecas de Microsoft BPM en febrero de 2016.  Las bibliotecas que estaban inclusión publicada (febrero de 2016) APQC el unificaron la biblioteca para Microsoft Dynamics 365 para las operaciones, y (febrero de 2016) iniciarse.
+Esta wiki enumera a las guías de tareas que se publicaron en las bibliotecas de Microsoft BPM a partir de febrero de 2016.  Las bibliotecas que se publicaron incluyen la biblioteca unificada APQC (febrero de 2016) para Microsoft Dynamics 365 for Operations y la biblioteca de introducción (febrero de 2016).
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Le orienta acerca de la tarea en (febrero de 2016) APQC el unificaron la biblioteca para Microsoft Dynamics 365 para las operaciones
+<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Guías de tareas de la biblioteca unificada APQC (febrero de 2016) para Microsoft Dynamics 365 for Operations
 ---------------------------------------------------------------------------------
 
-(Febrero de 2016) la biblioteca unificada APQC contiene las guías de la tarea pensados para usar para la Ayuda con Dynamics 365 para la liberación de las operaciones 7.0.0. Si necesita las versiones localizadas de estas guías de la tarea, están disponibles en (mayo de 2016) la biblioteca unificada APQC para Microsoft Dynamics 365 para las operaciones. Para obtener más información sobre cómo conectar el sistema de ayuda a una biblioteca de la guía de la tarea, consulte [Get iniciado con la Ayuda help-overview.md] ().
+La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que están pensadas para usarse para obtener ayuda con la versión de Dynamics 365 for Operations 7.0.0. Si necesita versiones localizadas de estas Guías de tareas, están disponibles en la biblioteca unificada APQC (mayo de 2016) para Microsoft Dynamics 365 for Operations. Para obtener más información acerca de cómo conectar el sistema de Ayuda a una biblioteca de Guía de tareas, consulte [Introducción a la ayuda](help-overview.md).
 
 ### <a name="accounts-payable"></a>Proveedores
 
@@ -531,7 +531,7 @@ Este wiki muestra las guías de la tarea lanzadas a partir a las bibliotecas de 
 | Agregar un cálculo a un modelo de configuración de producto    | Global             |
 | Aprobar un modelo de configuración de productos                 | Global             |
 | Completar la configuración básica de un producto maestro liberado | Global             |
-| Cree el. A. \ \ dimensiones financieras producto maestro dimensión- basado               | Global             |
+| Creación de un ..\financial-dimensions\producto maestro basado en la dimensión               | Global             |
 | Crear una jerarquía de clasificación de productos          | Global             |
 | Crear un modelo de configuración de productos                  | Global             |
 | Crear un producto maestro                               | Global             |
@@ -544,7 +544,7 @@ Este wiki muestra las guías de la tarea lanzadas a partir a las bibliotecas de 
 | Mantener L. MAT para un modelo de configuración del producto        | Global             |
 | Mantener ruta para un modelo de producto                    | Global             |
 | Administrar productos emitidos                              | Global             |
-| Liberar A. \ \ dimensiones financieras producto maestro dimensión- basado              | Global             |
+| Publicación de un ..\financial-dimensions\producto maestro basado en la dimensión              | Global             |
 | Transferir datos para los modelos de producto                      | Global             |
 
  
@@ -718,10 +718,10 @@ Este wiki muestra las guías de la tarea lanzadas a partir a las bibliotecas de 
 <a name="see-also"></a>Consulte también
 --------
 
-[Nuevas o actualizadas guías de la tarea (mayo de 2016)](new-updated-task-guides-available-may-2016.md)
+[Guías de tareas nuevas o actualizadas (mayo de 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Nuevas o actualizadas guías de la tarea (agosto de 2016)](new-updated-task-guides-available-august-2016.md)
+[Guías de tareas nuevas o actualizadas (agosto de 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Nuevas o actualizadas guías de la tarea (noviembre de 2016)](new-task-guides-november-2016.md)
+[Guías de tareas nuevas o actualizadas (noviembre de 2016)](new-task-guides-november-2016.md)
 
 

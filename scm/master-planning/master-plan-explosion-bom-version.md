@@ -1,6 +1,6 @@
 ---
-title: "Expansión de una versión de L"
-description: "Este artículo para una situación de planificación maestra que implica la expansión de una versión (BOM) de la lista de materiales."
+title: "Expansión de una versión de lista de materiales"
+description: "En este artículo se explica un escenario de planificación maestra que implica la expansión de una versión de la lista de materiales (L. MAT.)."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="explosion-of-a-bom-version"></a>Expansión de una versión de L
+# <a name="explosion-of-a-bom-version"></a>Expansión de una versión de lista de materiales
 
-Este artículo para una situación de planificación maestra que implica la expansión de una versión (BOM) de la lista de materiales.
+[!include[banner](../includes/banner.md)]
+
+
+En este artículo se explica un escenario de planificación maestra que implica la expansión de una versión de la lista de materiales (L. MAT.).
 
 Una expansión de demanda de una versión de lista de materiales (L. MAT.) crea una demanda de cada elemento de línea de lista de materiales en un sitio específico y, posiblemente, en un almacén específico. Una lista de materiales específica de un sitio puede definir un almacén para cada línea de lista de materiales. Además, para cada línea de lista de materiales, la configuración de las dimensiones de artículos determina si es preciso especificar el almacén. La demanda resultante para cada elemento de línea de lista de materiales se convierte, a su vez, en el punto de partida para expansiones de demandas adicionales. El escenario de planificación maestra implica las condiciones siguientes:
 
@@ -41,8 +44,10 @@ La ilustración siguiente muestra el proceso de expansión de la demanda de plan
 <a name="see-also"></a>Consulte también
 --------
 
-[- Planificación maestra cómo se determina la versión de L master-plan-bom-version-determined.md] ()
+[Planificación maestra: cómo se establece la versión de la lista de materiales](master-plan-bom-version-determined.md)
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Planificación maestra y funcionalidad multisitio](master-plan-multisite-functionality.md)
+
+
 
 

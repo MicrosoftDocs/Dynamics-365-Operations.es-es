@@ -40,7 +40,7 @@ Las restricciones de tabla muestran las combinaciones de valores permitidas para
 
 ### <a name="example-of-a-table-constraint"></a>Ejemplo de una restricción de tablas
 
-Este ejemplo muestra cómo puede limitar la configuración de un altavoz según acabados de caja y frontales específicos. La primera tabla muestra los acabados de caja y frontales que suelen estar disponibles para la configuración. Los valores se definen para ** archivo. CAB ** terminado y ** parrilla Adelante ** los tipos de atributo.
+Este ejemplo muestra cómo puede limitar la configuración de un altavoz según acabados de caja y frontales específicos. La primera tabla muestra los acabados de caja y frontales que suelen estar disponibles para la configuración. Hay valores definidos para los tipos de atributos **Acabado de la caja** y **Rejilla delantera**.
 
 | Tipo de atributo | Valores                      |
 |----------------|-----------------------------|
@@ -60,8 +60,8 @@ La tabla siguiente muestra las combinaciones definidas por la restricción de ta
 
 Puede crear restricciones de tablas definidas por el sistema y definidas por el usuario. Para obtener más información, consulte [Restricciones de tablas definidas por el usuario o definidas por el sistema](system-defined-user-defined-table-constraints.md).
 
-## <a name="what-syntax-should-be-used-to-write-constraints"></a>¿Qué sintaxis se debe usar para escribir restricciones?
-Debe utilizar la sintaxis del lenguaje de modelado de optimización (OML) para escribir las restricciones. El sistema usa a la resolución de restricción de Solver Foundation de Microsoft para solucionar las restricciones.
+## <a name="what-syntax-should-be-used-to-write-constraints"></a>¿Qué sintaxis debe usarse para resolver restricciones de escritura?
+Debe utilizar la sintaxis del lenguaje de modelado de optimización (OML) para escribir las restricciones. El sistema utiliza Microsoft Microsoft Solver Foundation para solucionar las restricciones.
 
 ## <a name="should-i-use-table-constraints-or-expression-constraints"></a>¿Se deben usar restricciones de tablas o restricciones de expresión?
 Puede usar restricciones de expresión o restricciones de tablas, en función de cómo prefiere crear las restricciones. Una restricción de tabla se crea como una matriz, mientras que una restricción de expresión es una sentencia individual. Si configura un producto, no importa qué tipo de restricción se usa. El ejemplo siguiente muestra en qué se diferencian los dos métodos.  
@@ -110,32 +110,32 @@ En las tablas siguientes se enumeran los operadores y la notación de infijo que
 <td>Se aplica si la primera condición es falsa, la segunda condición es verdadera, o se dan ambas condiciones.</td>
 <td>Implies[a, b], infix: a -: b</td>
 <td><ul>
-<li><strong>Operador:</strong> Esta Implica [x! = 0, y &gt;= 0]</li>
-<li><strong>Notación de infijo:</strong> Esta x! = 0 -: y &gt;= 0</li>
+<li><strong>Operador:</strong> Implies[x != 0, y &gt;= 0]</li>
+<li><strong>Notación de infijo:</strong> x != 0 -: y &gt;= 0</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Y</td>
 <td>Se aplica solo si todas las condiciones son verdaderas. Si el número de condiciones es 0 (cero), da lugar a <strong>True</strong>.</td>
-<td>Y args [], infijo: &amp; una z &amp; B &amp; …</td>
+<td>And[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
-<li><strong>Operador:</strong> Y == [2, y de x &lt;2 =]</li>
-<li><strong>Notación de infijo:</strong> x y == &amp; de 2 &lt;= 2</li>
+<li><strong>Operador:</strong> And[x == 2, y &lt;= 2]</li>
+<li><strong>Notación de infijo:</strong> x == 2 &amp; y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>O</td>
 <td>Se aplica si cualquier condición es verdadera. Si el número de condiciones es 0 (cero), da lugar a <strong>False</strong>.</td>
-<td>O bien args [], infijo: a _=_ b _=_ _=_… z</td>
+<td>Or[args], infix: a | b | ... | z</td>
 <td><ul>
-<li><strong>Operador:</strong> O bien == [2, y de x &lt;2 =]</li>
-<li><strong>Notación de infijo:</strong> == x 2 _=_ y &lt;= 2</li>
+<li><strong>Operador:</strong> Or[x == 2, y &lt;= 2]</li>
+<li><strong>Notación de infijo:</strong> x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Más</td>
 <td>Esto suma sus condiciones. Si el número de condiciones es 0 (cero), da lugar a <strong>0</strong>.</td>
-<td>Más args [], infijo: B a + + + z…</td>
+<td>Plus[args], infix: a + b + ... + z</td>
 <td><ul>
 <li><strong>Operador</strong>: Plus[x, y, 2] == z</li>
 <li><strong>Notación de infijo</strong>: x + y + 2 == z</li>
@@ -159,7 +159,7 @@ En las tablas siguientes se enumeran los operadores y la notación de infijo que
 <tr class="odd">
 <td>Horas</td>
 <td>Toma el producto de sus condiciones. Si el número de condiciones es 0 (cero), da lugar a <strong>1</strong>.</td>
-<td>Tiempos args [], infijo: B a * * * z…</td>
+<td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
 <li><strong>Operador:</strong> Times[x, y, 2] == z</li>
 <li><strong>Notación de infijo:</strong> x * y * 2 == z</li>
@@ -167,8 +167,8 @@ En las tablas siguientes se enumeran los operadores y la notación de infijo que
 </tr>
 <tr class="even">
 <td>Inicio/apagado</td>
-<td>Toma un exponencial. Aplica la potencia de derecha a izquierda. Es decir (es derecho- asociativo). Por lo tanto, <strong>[Potencia a, B, C]</strong> es equivalente a <strong>[Potencia a, potencia [B, C]]</strong>. <strong>Power</strong> solo se puede usar si el exponente es una constante positiva.</td>
-<td>Potencia [] args, infijo: una z de ^ de ^ del ^…</td>
+<td>Toma un exponencial. Aplica la potencia de derecha a izquierda. (Es decir, es asociativo a la derecha). Por tanto, <strong>Power[a, b, c]</strong> es equivalente a <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> solo se puede usar si el exponente es una constante positiva.</td>
+<td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Operador:</strong> Power[x, 2] == y</li>
 <li><strong>Notación de infijo:</strong> x ^ 2 == y</li>
@@ -191,7 +191,7 @@ En las tablas siguientes se enumeran los operadores y la notación de infijo que
 <td>Produce el contrario lógico de la condición. Debe tener exactamente una condición.</td>
 <td>Not[expr], infix: !expr</td>
 <td><ul>
-<li><strong>Operador:</strong> No x [] &amp; no == [3 de la y]</li>
+<li><strong>Operador:</strong> Not[x] &amp; Not[y == 3]</li>
 <li><strong>Notación de infijo:</strong> !x!(y == 3)</li>
 </ul></td>
 </tr>
@@ -203,7 +203,7 @@ Los ejemplos en la siguiente tabla muestran cómo escribir una notación de infi
 | Notación de infijo    | Descripción                                                                                   |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | x + y + z         | Adición                                                                                      |
-| z \* y de la de \* x       | Multiplicación                                                                                |
+| x \* y \* z       | Multiplicación                                                                                |
 | x - y             | La resta binaria se traduce de la misma forma que la adición binaria donde hay un segundo negativo. |
 | x ^ y ^ z         | Exponenciación con asociación a la derecha                                                   |
 | !x                | No booleano                                                                                   |
@@ -212,14 +212,14 @@ Los ejemplos en la siguiente tabla muestran cómo escribir una notación de infi
 | x & y & z         | Booleano y                                                                                   |
 | x == y == z       | Igualdad                                                                                      |
 | x != y != z       | Distinto                                                                                      |
-| z &lt; y de la de &lt; x   | Menor que                                                                                     |
-| z &gt; y de la de &gt; x   | Mayor que                                                                                  |
-| = x &lt;y &lt;z = | Inferior a o igual a                                                                         |
-| = x &gt;y &gt;z = | Superior a o igual a                                                                      |
+| x &lt; y &lt; z   | Menor que                                                                                     |
+| x &gt; y &gt; z   | Mayor que                                                                                  |
+| x &lt;= y &lt;= z | Inferior a o igual a                                                                         |
+| x &gt;= y &gt;= z | Superior a o igual a                                                                      |
 | (x)               | El paréntesis anula la prioridad predeterminada.                                                      |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>¿Por qué las restricciones de expresión no se validan correctamente?
-No se pueden usar palabras clave reservadas como nombres del solucionador de atributos, componentes o subcomponentes en un modelo de configuración de productos. A continuación se indica una lista de las palabras clave reservadas que no pueden usar para:
+No se pueden usar palabras clave reservadas como nombres del solucionador de atributos, componentes o subcomponentes en un modelo de configuración de productos. A continuación se muestra una lista de palabras clave reservadas que no se pueden usar:
 
 -   Techo
 -   Elemento
@@ -245,8 +245,8 @@ No se pueden usar palabras clave reservadas como nombres del solucionador de atr
 <a name="see-also"></a>Consulte también
 --------
 
-[Crear una restricción Expresión (guía de la tarea)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
+[Crear una restricción de expresión (guía de tareas)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
-[Agregar un cálculo a un modelo de configuración de productos (guía de la tarea)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+[Agregar un cálculo a un modelo de configuración de producto (guía de tareas)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
 
 

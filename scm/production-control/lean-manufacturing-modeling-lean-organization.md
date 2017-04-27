@@ -1,5 +1,5 @@
 ---
-title: "Modelos de una organización lean"
+title: "Modelar una organización eficiente"
 description: "El artículo proporciona información sobre los conceptos clave en los modelos de una organización lean."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="modeling-a-lean-organization"></a>Modelos de una organización lean
+# <a name="modeling-a-lean-organization"></a>Modelar una organización eficiente
 
 El artículo proporciona información sobre los conceptos clave en los modelos de una organización lean. 
 
@@ -35,7 +35,7 @@ Normalmente, una situación de lean manufacturing (suele ser superior a únicame
 ## <a name="production-flows-in-lean-manufacturing"></a>Flujos de producción en lean manufacturing
 En las situaciones de producción que se basan en pedidos de producción, el material se emite a un pedido de producción específico. Durante una secuencia de operaciones que se basan una lista de materiales (L. Mat) y las rutas, los productos se crean y finalmente se reciben en la ubicación proporcionada. El tiempo de capacidad de proceso de pedidos de producción varía de minutos a semanas. Todo el coste, material y trabajo relacionado se acumula en el pedido de producción. Para reducir el plazo de entrega y el exceso de inventario entre los centros de trabajo que causa la producción de lote, la lean manufacturing coloca el reabastecimiento de kanban y los supermercados en el reabastecimiento del almacén y la fabricación. Normalmente, estas características interrumpen normalmente la producción de ciclos parcialmente independientes de kanban. El reabastecimiento de un kanban para un producto semiterminado ya no se activa por un pedido para un producto terminado. Para restablecer el contexto de producción y de coste para las distintas situaciones de kanban que se proponen en Microsoft Dynamics AX, los flujos de producción basados en actividad que se han introducido como la espina dorsal de lean manufacturing. Todas las reglas kanban hacen referencia a esta estructura predefinida. El modelo basado en actividades admite la configuración de un intervalo más amplio de situaciones que las versiones anteriores de lean manufacturing para Dynamics AX admitido. Sin embargo, este modelo no agrega complejidad para los trabajadores de planta, porque todas las situaciones usan la mismo interfaz de usuario basada en actividades.
 
-## <a name="semifinished-products-nonbom-levels"></a>Productos semielaborados (niveles de nonBOM)
+## <a name="semifinished-products-nonbom-levels"></a>Productos semiterminados (no a niveles de L. MAT.)
 La lean manufacturing para Dynamics AX integra kanbans para los productos a los que se le ha realizado un inventario y productos semiterminados en un único período, y por tanto ofrece una experiencia unificada de usuario para todos los casos. Debido a la arquitectura, ya no se tienen que introducir los niveles adicionales de L. MAT para permitir que se usen los kanbans para productos semiterminados. Esta arquitectura también ayuda a reducir las transacciones de inventario al mínimo.
 
 ## <a name="products-and-material-in-work-in-progress"></a>Productos y materiales en el trabajo en curso
@@ -51,6 +51,6 @@ La consolidación periódica del coste para un flujo de producción corrige la c
 Para mejorar la actualización continua, los flujos de producción se ejecutan en versiones de tiempo de vigencia. Por tanto, una versión de flujo de producción existente, junto con todas las reglas kanban relacionadas, se pueden copiar en una versión futura del flujo de producción. Además, el flujo de producción de estado futuro se puede modelar antes de validarse y activarse para producción. Para ayudar a garantizar un flujo de material constante en la fecha de la transición y más allá, los kanbans existentes de versiones anteriores del flujo de producción están relacionados automáticamente con la nueva versión.
 
 ## <a name="simplicity"></a>Simplicidad
-Para la implementación de producción ajustada para Dynamics AX, elegimos un flujo de producción y un enfoque de la actividad que los permisos simples y los escenarios complejas de la producción que se modelarán en una sola arquitectura escalable. Una observa más atenta en el concepto de la actividad revela una nueva simplicidad para dichos usuarios que necesitan la: planta y los trabajadores de logística. Notificando con trabajos basados en actividad en lugar de transacciones de inventario, una interfaz de usuario unificada para todas las variantes de lean manufacturing (producción ajustada) transfiere la complejidad de negocio de la interfaz de usuario al que pertenece: el flujo de producción como la espina dorsal de lean manufacturing (producción ajustada).
+Para la implementación de lean manufacturing (producción ajustada) para Dynamics AX, hemos elegido el flujo de producción y el de la actividad que permite modelar situaciones simples y complejas de producción en una sola arquitectura escalable. Un análisis más detallado del concepto de actividad revela una nueva simplicidad para los usuarios que realmente la necesitan: los trabajadores de planta y de logística. Notificando con trabajos basados en actividad en lugar de transacciones de inventario, una interfaz de usuario unificada para todas las variantes de lean manufacturing (producción ajustada) transfiere la complejidad de negocio de la interfaz de usuario al que pertenece: el flujo de producción como la espina dorsal de lean manufacturing (producción ajustada).
 
 

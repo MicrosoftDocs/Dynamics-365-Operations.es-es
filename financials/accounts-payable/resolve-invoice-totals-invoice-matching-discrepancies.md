@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Resolver las discrepancias durante la conciliación de los totales de las facturas
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Un tipo de validación de conciliación de facturas es la conciliación de los totales de las facturas. Para especificar que el sistema debe realizar la conciliación de totales de facturas, en la página **Parámetros de proveedores**, en la pestaña **Validación de facturas**, defina la opción **Conciliar totales de facturas** a **Sí**. 
@@ -39,6 +42,8 @@ Una vez haya identificado la discrepancia, es posible que deba ponerse en contac
 -   Aceptar la diferencia de precio y registrar la factura con discrepancias. El sistema se puede configurar para requerir la aprobación antes de que pueda registrar si existen discrepancias. En este caso, debe aprobar la discrepancia en la conciliación y puede especificar de forma opcional un comentario de aprobación. Después puede seleccionar registrar la factura.
 -   Revisar el importe de la factura con el importe previsto y registrar la factura.
 -   Solicitar un crédito previo del proveedor y una nueva factura corregida.
+
+
 
 
 

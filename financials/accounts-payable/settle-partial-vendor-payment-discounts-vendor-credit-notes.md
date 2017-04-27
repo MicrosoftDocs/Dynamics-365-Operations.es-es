@@ -1,5 +1,5 @@
 ---
-title: Establecer un pago de proveedor parcial con descuentos en notas de abono de proveedor
+title: Liquidar un pago de proveedor parcial con descuentos en notas de abono de proveedor
 description: "Este artículo le guía por un escenario donde se liquida una nota de crédito con una factura."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Establecer un pago de proveedor parcial con descuentos en notas de abono de proveedor
+# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Liquidar un pago de proveedor parcial con descuentos en notas de abono de proveedor
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo le guía por un escenario donde se liquida una nota de crédito con una factura.
 
 Los proveedores de Fabrikam ofrecen descuentos por pronto pago en notas de abono. El proveedor 3.050 permite que Fabrikam aproveche un descuento por pronto pago del 1 por ciento si una factura se paga en 14 días.
 
 ## <a name="invoice-and-credit-memo"></a>Factura y nota de crédito
-El 29 de junio, abril crear una factura para 1,000.00 para el proveedor 3050. El 2 de julio, crea una nota de abono para 200.00. Desde la página **Proveedores**, April abre la página **Liquidar transacciones**. April puede usar la página **Liquidar transacciones** para marcar la nota de abono y la factura para la liquidación. Un descuento de 2,00 se calcula en la nota de abono. Por lo tanto, el valor total de la nota de abono se reduce a 198,00.
+El 29 de junio, April crea una factura de 1.000,00 del proveedor 3050. El 2 de julio, crea una nota de abono de 200,00. Desde la página **Proveedores**, April abre la página **Liquidar transacciones**. April puede usar la página **Liquidar transacciones** para marcar la nota de abono y la factura para la liquidación. Un descuento de 2,00 se calcula en la nota de abono. Por lo tanto, el valor total de la nota de abono se reduce a 198,00.
 
 | Marcar                     | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha      | Fecha de vencimiento  | Factura | Importe en divisa de la transacción | Divisa | Importe para liquidar |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -65,6 +68,8 @@ April puede revisar las transacciones del proveedor en la página **Transaccione
 | Inv-10071  |                  | 2/7/2015  | CR10071 | 200,00                               |                                       | 0,00    | USD      |
 | DISC-10071 |  Descuento por pronto pago   | 2/7/2015  |         | 2,00                                 |                                       | 0,00    | USD      |
 | DISC-10071 |  Descuento por pronto pago   | 2/7/2015  |         |                                      | 2,00                                  | 0,00    | USD      |
+
+
 
 
 

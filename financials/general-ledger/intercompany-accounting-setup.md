@@ -1,6 +1,6 @@
 ---
-title: "Configuración de la contabilidad de empresas vinculadas"
-description: "Este tema explica cómo configurar la contabilidad de empresas vinculadas de manera que pueda usar los diarios empresas vinculadas para las asignaciones de contabilidad y los diarios financieros, como diarios, diarios de facturas de proveedor, y diarios de pagos."
+title: Configurar la contabilidad de empresas vinculadas
+description: "Este tema explica cómo configurar la contabilidad de empresas vinculadas de manera que pueda usar los diarios de empresas vinculadas para las asignaciones de contabilidad y los diarios financieros, como diarios, diarios de facturas de proveedor y diarios de pagos."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,25 +25,30 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="intercompany-accounting-setup"></a>Configuración de la contabilidad de empresas vinculadas
+# <a name="intercompany-accounting-setup"></a>Configurar la contabilidad de empresas vinculadas
 
-Este tema explica cómo configurar la contabilidad de empresas vinculadas de manera que pueda usar los diarios empresas vinculadas para las asignaciones de contabilidad y los diarios financieros, como diarios, diarios de facturas de proveedor, y diarios de pagos.
+[!include[banner](../includes/banner.md)]
 
-Los diarios empresas vinculadas pueden crear en distintos escenarios, como para los diarios, los diarios de facturas de proveedor, las asignaciones de contabilidad, y los pagos centralizados. Para habilitar estos escenarios, debe configurar la contabilidad de empresas vinculadas.
 
-## <a name="define-main-accounts"></a>Defina las cuentas principales
-En primer lugar, debe crear las cuentas principales de empresas vinculadas para usarlas para los asientos contables Vencido hasta y Vencido desde. Es una buena idea usar las cuentas principales únicas para cada empresa, para simplificar la conciliación y la eliminación de los asientos contables de empresas vinculadas. Si utiliza una dimensión del socio comercial o duplicados para identificar la parte empresas vinculadas, puede definir esta dimensión como dimensión fija en la cuenta principal definida en la contabilidad de empresas vinculadas. Al configurar las cuentas principales, debe establecer el balance de situación ** tipo de cuenta principal ** del campo ** ** ** en las cuentas principales ** la página.
+Este tema explica cómo configurar la contabilidad de empresas vinculadas de manera que pueda usar los diarios de empresas vinculadas para las asignaciones de contabilidad y los diarios financieros, como diarios, diarios de facturas de proveedor y diarios de pagos.
 
-## <a name="define-journal-names"></a>Definir los nombres de diario
-A continuación, debe definir un nombre de diario. Defina el diario ** tipo de diario del campo ** ** ** ** en los nombres de diario ** la página. Es una buena idea usar un nombre de diario específico para la contabilidad de empresas vinculadas.
+Los diarios de empresas vinculadas se pueden crear en diversos escenarios, como diarios, diarios de facturas de proveedor, asignaciones de contabilidad y pagos centralizados. Para habilitar estos escenarios, debe configurar la contabilidad de empresas vinculadas.
 
-## <a name="define-intercompany-accounting-setup"></a>Definir la configuración de la contabilidad de empresas vinculadas
-** Contabilidad de empresas vinculadas ** la página se utiliza para crear los pares de entidades jurídicas que puedan tramitar entre sí. Se debe compartir la configuración de la contabilidad de empresas vinculadas, por lo que la configuración es visible dentro de todas las entidades jurídicas. Al crear un nuevo par de la entidad jurídica, asegúrese de que conozca cuyo definen en la entidad jurídica como la empresa la de origen con la empresa de destino. Al especificar transacciones de empresas vinculadas, la transacción que determina la entidad jurídica es que inicia o derivado la transacción. Por ejemplo, la contabilidad de empresas vinculadas se configuran para el USMF (origen) y USSI destino (). Si un usuario está activo en USSI y especifique una transacción de empresas vinculadas con USMF, la transacción no se registrará porque la contabilidad de empresas vinculadas se define solo para USMF que es el originador. Si una empresa puede originar una transacción, deberá crear un segundo par de la entidad jurídica para la configuración recíproca. 
+## <a name="define-main-accounts"></a>Definir cuentas principales
+En primer lugar, debe crear las cuentas principales de empresas vinculadas para usarlas para los asientos contables Vencido hasta y Vencido desde. Es una buena idea usar las cuentas principales únicas para cada empresa, para simplificar la conciliación y la eliminación de los asientos contables de empresas vinculadas. Si usa una dimensión de socio comercial u homóloga para identificar la parte de empresas vinculadas, puede definir esta dimensión como dimensión fija en la cuenta principal definida en la contabilidad de empresas vinculadas. Al configurar las cuentas principales, debe definir el campo **Tipo de cuenta principal** en **Balance de situación** en la página **Cuentas principales**.
 
-Seleccione ** cuenta de débito (derecho de **) y ** cuenta de (crédito debido a) para ** origen y la entidad jurídica de destino. Permite definir ** el nombre de diario ** se usará cuando se crea la transacción en la empresa de destino. El diario para la empresa la de origen se conoce porque ya ha seleccionado por el usuario al crear la transacción de empresas vinculadas. 
+## <a name="define-journal-names"></a>Definir nombres de diarios
+A continuación, debe definir un nombre de diario. Establezca el campo **Tipo de diario** en **Diario** en la página **Nombres de diario**. Es una buena idea usar un nombre de diario específico para la contabilidad de empresas vinculadas.
 
-Finalmente, seleccione qué entidad jurídica recibirá los importes que admiten que explican, como el descuento por pronto pago o beneficios realizados/pérdidas para los pagos centralizados. 
+## <a name="define-intercompany-accounting-setup"></a>Definir configuración de contabilidad de empresas vinculadas
+La página **Contabilidad de empresas vinculadas** se utiliza para crear los pares de entidades jurídicas que pueden tramitar entre sí. Se debe compartir la configuración de contabilidad de empresas vinculadas, por lo que la configuración es visible dentro de todas las entidades jurídicas. Al crear un nuevo par de entidades jurídicas, asegúrese de que conoce la entidad jurídica que se define como empresa de origen frente a empresa de destino. Al introducir transacciones de empresas vinculadas, la transacción determina qué entidad jurídica inicia u origina la transacción. Por ejemplo, la contabilidad de empresas vinculadas está configurada para USMF (origen) y USSI (destino). Si un usuario está activo en USSI e introduce una transacción de empresas vinculadas con USMF, la transacción no se registrará porque la contabilidad de empresas vinculadas solo está definida para que USMF sea el originador. Si una empresa puede originar una transacción, tendrá que crear un segundo par de entidades jurídicas para la configuración recíproca. 
 
-Una relación recíproca se puede configurar con facilidad en ** contabilidad de empresas vinculadas ** la página usando ** crear la relación recíproca ** el botón una vez creado el primer par de la entidad jurídica. Cuando se crea un par recíproco, la información para la empresa de destino se copia en la empresa la de origen y viceversa. El diario definido para la empresa de destino permanecerá. La mayoría de las organizaciones usan a la misma convención de nomenclatura para los nombres de diario, de modo que el nombre de diario es el mismo. Si el nombre de diario es diferente, una advertencia aparecerá en el campo para notificarle que no existe el diario y otro diario se puede activar.
+Seleccione **Cuenta de débito (debido de)** y **Cuenta de (debido a)** para la entidad jurídica de origen y de destino. Defina qué **Nombre de diario** se utilizará cuando se cree la transacción en la empresa de destino. El diario para la empresa de origen ya se conoce porque ya ha sido seleccionado por el usuario al crear la transacción de empresas vinculadas. 
+
+Por último, seleccione qué entidad jurídica recibirá la contabilidad para admitir los importes, como el descuento por pronto pago o los beneficios/pérdidas realizados para los pagos centralizados. 
+
+Una relación recíproca se puede configurar con facilidad en la página **Contabilidad de empresas vinculadas** mediante el botón **Crear relación recíproca** tras crear el primer par de entidades jurídicas. Cuando se crea un par recíproco, la información para la empresa de destino se copia en la empresa de origen y viceversa. El diario definido para la empresa de destino permanecerá. La mayoría de organizaciones utilizan la misma convención de nomenclatura para los nombres de diario, por lo que el nombre de diario es el mismo. Si el nombre de diario es diferente, aparecerá una advertencia en el campo para notificarle que el diario no existe y que puede seleccionar un diario diferente.
+
+
 
 

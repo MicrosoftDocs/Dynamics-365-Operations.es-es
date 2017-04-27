@@ -1,5 +1,5 @@
 ---
-title: "Trabajo del almacén del control través de plantillas de trabajos y las directivas de la ubicación"
+title: "Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación"
 description: "Este artículo describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Trabajo del almacén del control través de plantillas de trabajos y las directivas de la ubicación
+# <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
 
@@ -40,7 +43,7 @@ Los ajustes en la definición del encabezado del trabajo se pueden usar para det
 
 Las líneas de trabajo representan las tareas físicas que son necesarias para procesar el trabajo. Por ejemplo, para un proceso de salida de almacén, puede haber una línea de trabajo para seleccionar los artículos dentro del almacén y otra línea para configurar dichos artículos en una zona de espera. Después, puede haber una línea adicional para seleccionar los artículos provisionales de la zona de espera, y otra línea para poner los artículos en un camión como parte del proceso de carga. Puede establecer unn *código directivo *en líneas de la plantilla de trabajo. Un código directivo está vinculado a una ubicación directiva y, por tanto, ayuda a garantizan que el trabajo del almacén se ha procesado en la ubicación correcta en el almacén. 
 
-Puede configurar una consulta para controlar si se usa una determinada plantilla de trabajo. Por ejemplo, puede establecer una limitación para poder utilizar una determinada plantilla solo para el trabajo en un almacén específico. Como alternativa, puede tener varias plantillas que se usan para crear el trabajo para procesar pedidos de venta salientes, en función del origen de venta. El sistema utiliza ** número de secuencia ** campos para determinar el orden en que las plantillas disponibles de trabajo se evaluadas en. Por lo tanto, si tiene una consulta muy específica de una determinada plantilla de trabajo, debe darle un número de secuencia bajo. Dicha consulta se evaluará antes que otras consultas más generales. 
+Puede configurar una consulta para controlar si se usa una determinada plantilla de trabajo. Por ejemplo, puede establecer una limitación para poder utilizar una determinada plantilla solo para el trabajo en un almacén específico. Como alternativa, puede tener varias plantillas que se usan para crear el trabajo para procesar pedidos de venta salientes, en función del origen de venta. El sistema usa el campo **Número de secuencia** para determinar el orden en que las plantillas de trabajo disponibles son evaluadas. Por lo tanto, si tiene una consulta muy específica para una determinada plantilla de trabajo, debe darle un número de secuencia bajo. Dicha consulta se evaluará antes que otras consultas más generales. 
 
 Para detener o poner en pausa un proceso de trabajo, puede usar la configuración **Detener trabajo** en la línea de trabajo. En ese caso, no se le solicitará al trabajador que se está realizando el trabajo que realice la siguiente etapa de trabajo. Para pasar al siguiente paso, dicho trabajador u otro trabajador debe seleccionar el trabajo de nuevo. También puede separar las tareas dentro de un elemento de trabajo mediante un *id. de clase de trabajo *diferente en las líneas de la plantilla de trabajo.
 
@@ -53,12 +56,14 @@ En cuanto a plantillas de trabajo, puede configurar una consulta para determinar
 
 Las líneas directivas de la ubicación establecen restricciones adicionales en la aplicación de las reglas de búsqueda de la ubicación. Puede especificar una cantidad mínima y una cantidad máxima en las que el directorio se debe basar, y puede especificar que el directorio debe ser para una unidad de inventario específica. Por ejemplo, si la unidad de medida es pallets, entonces los artículos en pallets se pueden colocar en una ubicación concreta. También puede especificar si la cantidad se puede dividir entre varias ubicaciones. Como el encabezado de la directiva de ubicación, cada línea directiva de la ubicación tiene un número de secuencia que determina la orden en que las líneas se evalúan. 
 
-Las directivas de la ubicación tienen un nivel de detalle adicional: *acciones de la directiva de la ubicación*. Puede definir varias acciones de las directivas de la ubicación para cada línea. De nuevo, un número de secuencia se usa para determinar el orden en que se las acciones se evalúan en. En este nivel, puede configurar una consulta para definir cómo encontrar la mejor ubicación del almacén. También puede usar una configuración de **Estrategia **predefinida para encontrar una ubicación óptima.
+Las directivas de la ubicación tienen un nivel de detalle adicional: *acciones de la directiva de la ubicación*. Puede definir varias acciones de las directivas de la ubicación para cada línea. De nuevo, se usa un número de secuencia para determinar el orden en que se evalúan las acciones. En este nivel, puede configurar una consulta para definir cómo encontrar la mejor ubicación en el almacén. También puede usar una configuración de **Estrategia **predefinida para encontrar una ubicación óptima.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Ejemplo del uso de las directivas de la ubicación
 
 En este ejemplo, consideraremos un proceso de pedido de compra en el que la directiva de la ubicación debe encontrar capacidad libre dentro de un almacén para los artículos de inventario que acaban de registrarse en el muelle de recepción. Primero, queremos intentar encontrar capacidad libre dentro del almacén consolidando con la existencia de inventario disponible. Si la consolidación no es posible, intentaremos encontrar una ubicación vacía. 
 
 Para esta situación, debemos definir dos acciones de la directiva de la ubicación. La primera acción de la secuencia debe ser usar la estrategia **Consolidar**, y la segunda debería ser la estrategia **Vaciar la ubicación sin trabajo entrante**. A menos que definamos una tercera acción para gestionar una situación de desbordamiento, dos resultados son posibles si no hay capacidad en el almacén: el trabajo puede ser creado aunque no se define ninguna ubicación o el proceso de creación de trabajo puede fallar. El resultado viene determinado por la configuración en la página **Fallos de la directiva de la ubicación**, donde puede decidir si seleccionar la opción **Detener trabajo si falla la directiva de la ubicación** para cada tipo de pedido de trabajo.
+
+
 
 

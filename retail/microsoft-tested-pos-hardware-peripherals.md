@@ -1,5 +1,5 @@
 ---
-title: "Periférico de hardware del PDV"
+title: "Periféricos de hardware de PDV"
 description: "El punto de venta (POS) moderno al por menor y el PDV en la Nube pueden usar una gran variedad de hardware periférico del PDV, con múltiples interfaces y opciones de implementación para alcanzar los distintos escenarios empresariales de un distribuidor."
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 215234
 ms.assetid: 1893d4b3-e1b7-4b66-be58-0102addd5b36
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="pos-hardware-peripherals"></a>Periférico de hardware del PDV
+# <a name="pos-hardware-peripherals"></a>Periféricos de hardware de PDV
+
+[!include[banner](includes/banner.md)]
+
 
 El punto de venta (POS) moderno al por menor y el PDV en la Nube pueden usar una gran variedad de hardware periférico del PDV, con múltiples interfaces y opciones de implementación para alcanzar los distintos escenarios empresariales de un distribuidor. 
 
@@ -63,6 +66,8 @@ La siguiente lista incluye los modelos de dispositivo de cada clase que se han s
 
 -   Código de barras – Honeywell 1900, HP LS2208
 -   MSR – Magtek PN - 21073075
+
+
 
 
 

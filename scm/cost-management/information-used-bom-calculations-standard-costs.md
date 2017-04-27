@@ -1,5 +1,5 @@
 ---
-title: "Cálculos de L con costes estándar"
+title: "Cálculos de L. MAT. con costes estándar"
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bom-calculations-with-standard-costs"></a>Cálculos de L con costes estándar
+# <a name="bom-calculations-with-standard-costs"></a>Cálculos de L. MAT. con costes estándar
+
+[!include[banner](../includes/banner.md)]
+
 
 
 
@@ -78,6 +81,8 @@ La información sobre la versión de gestión de costes que se utiliza en el cá
 -   El contenido de la versión de gestión de costes debe incluir los costes: el contenido debe incluir costes. Puede incluir opcionalmente precios de ventas para calcular los precios de venta sugeridos para los artículos fabricados.
 
 Pueden especificarse diversos orígenes de datos cuando se inicia el cálculo de L. MAT. Esta información incluye el sitio, la fecha de cálculo y la versión de gestión de costes.
+
+
 
 
 

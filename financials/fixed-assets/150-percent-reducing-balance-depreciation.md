@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="150-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 150%
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 150%.
 
 Al configurar un método de depreciación de activos fijos y seleccionar el valor **Depreciación degresiva del 150%** en el campo **Método** de la página **Métodos de depreciación**, los activos fijos que se asignan al método de depreciación se deprecian por el mismo porcentaje en cada período de depreciación. Este porcentaje se calcula en función del tiempo de vida del activo. Por ejemplo, si un activo tiene un tiempo de vida de cinco años, el porcentaje se calcula como 30 por ciento (150% ÷ 5). 
@@ -56,7 +59,7 @@ Si selecciona **Calendario** como año de depreciación, aparecen las siguientes
 
 Si selecciona **Fiscal** en el campo **Año de depreciación**, la depreciación decreciente del 150% se calcula en base al ejercicio fiscal del calendario fiscal especificado para el libro o para el calendario fiscal seleccionado en la página **Libro mayor**. Los calendarios fiscales se configuran en la página **Calendarios fiscales**. 
 
-Por ejemplo, para el ejercicio del 1 de julio al 30 de junio, el cálculo de depreciación empieza el 1 de julio. El ejercicio no puede ser superior ni inferior a los 12 meses. La depreciación se ajusta para cada período. La extensión del siguiente ejercicio se determina por los períodos fiscales configurados en la página **Calendarios fiscales**. 
+Por ejemplo, para el ejercicio del 1 de julio al 30 de junio, el cálculo de la depreciación comienza el 1 de julio. El ejercicio no puede ser superior ni inferior a los 12 meses. La depreciación se ajusta para cada período. La extensión del siguiente ejercicio se determina por los períodos fiscales configurados en la página **Calendarios fiscales**. 
 
 Si selecciona **Fiscal** como año de depreciación, aparecen las siguientes opciones disponibles en el campo **Frecuencia de períodos**:
 
@@ -81,6 +84,8 @@ El método de depreciación degresiva del 150% divide el 150 por ciento entre lo
 | Año 3 | 4.900 × 30% = 1.470                           | 5.900 - 1.470 = 4.430  | 4.900 - 1.470 = 3.430                 |
 
 > [!NOTE]
-> Normalmente, cuando el importe que se calcula mediante el método de depreciación degresiva 150% se reduce por debajo del importe que sería calculado mediante el método lineal, hay una conversión al método de depreciación lineal para el tiempo de vida restante.
+> Normalmente, cuando el importe que se calcula mediante el método de depreciación degresiva del 150% resulta inferior al importe que se calcularía con el método de amortización lineal, se realiza una conversión al método de amortización lineal para la vida restante.
+
+
 
 

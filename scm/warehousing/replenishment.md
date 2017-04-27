@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="replenishment"></a>Reabastecimiento
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe las estrategias de reabastecimiento que están disponibles para los almacenes que utilizan la funcionalidad que está disponible en Administración de almacenes.
 
 Este artículo describe las estrategias de reabastecimiento que están disponibles para los almacenes que utilizan la funcionalidad que está disponible en Administración de almacenes. La información no se aplica a la solución de almacenamiento que está disponible en Gestión de inventarios. Hay tres estrategias de reabastecimiento disponibles:
@@ -67,6 +70,8 @@ El reabastecimiento de demanda de carga suma la demanda para varias cargas y cre
 | Perfiles de ubicación       | Se requieren perfiles de ubicación para crear ubicaciones.                                                                                                                                                                                       |
 | Directivas de ubicación     | Las directivas de ubicación son necesarias para guiar el trabajo a las ubicaciones donde se requiere reabastecimiento y a las ubicaciones desde donde se suministra el inventario.                                                                                     |
 | Plantillas de trabajo          | Las plantillas de trabajo del tipo **Reabastecimiento** son necesarias para crear el trabajo de reabastecimiento para que el inventario se pueda mover a las ubicaciones deseadas.                                                                                           |
+
+
 
 
 

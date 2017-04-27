@@ -1,5 +1,5 @@
 ---
-title: "Visión general de la gestión de calidad"
+title: "Visión general de la gestión de la calidad"
 description: "Este artículo describe cómo puede usar la gestión de calidad en Microsoft Dynamics 365 for Operations para ayudar a mejorar la calidad del producto dentro de la cadena de suministro."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="quality-management-overview"></a>Visión general de la gestión de calidad
+# <a name="quality-management-overview"></a>Visión general de la gestión de la calidad
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo describe cómo puede usar la gestión de calidad en Microsoft Dynamics 365 for Operations para ayudar a mejorar la calidad del producto dentro de la cadena de suministro.
 
@@ -344,7 +347,7 @@ Debe definir una asociación de calidad para cada variación de un proceso empre
 </tr>
 <tr class="even">
 <td>Resultados de la variable de prueba</td>
-<td>Utilice esta página para configurar, editar y visualizar los resultados posibles de una variable de prueba asociada a una prueba cualitativa. Para cada resultado, asigne un estado de <strong>correcto</strong> o <strong>erróneo</strong>. Deberá definir una variable y sus resultados para cada prueba cualitativa definida en la página <strong>Pruebas</strong>. (Para las pruebas cualitativas ", el tipo <strong>Opción</strong> de prueba en <strong>Pruebas</strong> la página.) Use <strong>Grupos de prueba</strong> la página para asignar una variable de prueba y el resultado predeterminado a una prueba cualitativa individual.</td>
+<td>Utilice esta página para configurar, editar y visualizar los resultados posibles de una variable de prueba asociada a una prueba cualitativa. Para cada resultado, asigne un estado de <strong>correcto</strong> o <strong>erróneo</strong>. Deberá definir una variable y sus resultados para cada prueba cualitativa definida en la página <strong>Pruebas</strong>. (Para las pruebas cualitativas, el tipo de prueba se establece en <strong>Opción</strong> en la página <strong>Pruebas</strong>). Utilice la página <strong>Grupos de prueba</strong> para asignar una variable de prueba y el resultado predeterminado a una prueba cualitativa individual.</td>
 <td>Una fábrica de galletas utiliza una prueba de inspección para el producto terminado. Esta prueba de inspección tiene varias variables. Una variable es el gusto y los posibles resultados para esta variable son bueno y malo. Una segunda variable es el color y los posibles resultados son demasiado oscuro, demasiado claro y correcto. Cada resultado tiene asignado un estado de <strong>correcto</strong> o <strong>erróneo</strong>. Durante la prueba de inspección de cada variable, el inspector notifica el resultado de la prueba seleccionando uno de los resultados.</td>
 </tr>
 </tbody>
@@ -355,8 +358,10 @@ Debe definir una asociación de calidad para cada variación de un proceso empre
 <a name="see-also"></a>Consulte también
 --------
 
-[Quality management processes](quality-management-processes.md)
+[Procesos de gestión de calidad](quality-management-processes.md)
 
 [Activación de la gestión de disconformidades](enable-nonconformance-management.md)
+
+
 
 

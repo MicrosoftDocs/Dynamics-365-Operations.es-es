@@ -1,6 +1,6 @@
 ---
-title: "Nomenclatura del número de producto"
-description: "Este tema describe cómo puede configurar una nomenclatura del número de producto para reemplazar el formato fijo, [el número de producto maestro - configuración Tamaño - - Color - Estilo,] con un formato destinado que incluye el número de producto maestro, las dimensiones de producto activo, y los delimitadores de texto de su elección. También puede crear una nomenclatura para identificar las configuraciones que crea el configurador de producto basado en restricciones. Estas nomenclaturas pueden contener atributos de su elección."
+title: "Nomenclatura de número de producto"
+description: "Este tema describe cómo puede configurar una nomenclatura del número de producto para reemplazar el formato fijo, [Número de producto maestro: Configuración: Talla: Color: Estilo], con un formato destinado que incluye el número de producto maestro, las dimensiones de producto activo y los delimitadores de texto de su elección. También puede crear una nomenclatura para identificar las configuraciones que crea el configurador de producto basado en restricciones. Estas nomenclaturas pueden contener atributos de su elección."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-number-nomenclature"></a>Nomenclatura del número de producto
+# <a name="product-number-nomenclature"></a>Nomenclatura de número de producto
 
-Este tema describe cómo puede configurar una nomenclatura del número de producto para reemplazar el formato fijo, [el número de producto maestro - configuración Tamaño - - Color - Estilo,] con un formato destinado que incluye el número de producto maestro, las dimensiones de producto activo, y los delimitadores de texto de su elección. También puede crear una nomenclatura para identificar las configuraciones que crea el configurador de producto basado en restricciones. Estas nomenclaturas pueden contener atributos de su elección.
+[!include[banner](../includes/banner.md)]
+
+
+Este tema describe cómo puede configurar una nomenclatura del número de producto para reemplazar el formato fijo, [Número de producto maestro: Configuración: Talla: Color: Estilo], con un formato destinado que incluye el número de producto maestro, las dimensiones de producto activo y los delimitadores de texto de su elección. También puede crear una nomenclatura para identificar las configuraciones que crea el configurador de producto basado en restricciones. Estas nomenclaturas pueden contener atributos de su elección.
 
 La nueva nomenclatura del número de la variante del producto permite incluir segmentos en sus identificadores de variantes del producto. Estos segmentos pueden incluir el número de producto principal, las dimensiones de producto, las secuencias numéricas, las constantes de texto y los atributos. Dicha función permite encontrar rápidamente una variante del producto específica al crear un pedido de ventas o un pedido de compra.
 
@@ -66,8 +69,8 @@ Una camiseta (TS1234) se fabrica en 3 tallas diferentes (S, M, L), 4 colores dis
 
 El número de variante de producto para el Rojo, Pequeño, Polo será: TS1234-Rojo-Pequeño-Polo.
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Nomenclatura de configuraciones constraintbased
-Para la configuración restricción- basadas, una nomenclatura dedicada se puede construir para la dimensión del producto de configuración. Puede seleccionar los segmentos siguientes en página **Nomenclatura de producto**.
+## <a name="nomenclature-of-constraintbased-configurations"></a>Configuraciones de nomenclatura basada en restricciones
+Para las configuraciones basadas en restricciones, se puede crear una nomenclatura dedicada para la dimensión del producto de configuración. Puede seleccionar los segmentos siguientes en página **Nomenclatura de producto**.
 
 -   Valor de secuencia numérica
 -   Constante de texto
@@ -90,8 +93,8 @@ Una nomenclatura de configuración se define mediante los segmentos siguientes:
 
 El identificador de configuración para el material de madera con una longitud de 78 obtendrá el identificador de configuración siguiente: MaderaAAA78.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Nomenclatura de configuraciones dimensionbased
-Para las configuraciones basadas en dimensiones, una nomenclatura dedicada se puede construir para la dimensión del producto de configuración. Puede seleccionar los segmentos siguientes en página **Nomenclatura de producto**.
+## <a name="nomenclature-of-dimensionbased-configurations"></a>Configuraciones de nomenclatura basadas en dimensiones
+Para las configuraciones basadas en dimensiones, se puede crear una nomenclatura dedicada para la dimensión del producto de configuración. Puede seleccionar los segmentos siguientes en página **Nomenclatura de producto**.
 
 -   Valor de secuencia numérica
 -   Constante de texto
@@ -132,7 +135,7 @@ Cuando usa tecnología de configuración basada en restricciones o en dimensione
 En este ejemplo, puede usar una nomenclatura del número de la variante del producto que consta de los segmentos siguientes:
 
 1.  Número de producto maestro
-2.  Texto “\_” constante
+2.  Constante de texto '\_'
 3.  Configuración
 
 La nomenclatura de configuración consta de los segmentos siguientes:
@@ -147,7 +150,7 @@ Puede especificar los siguientes valores de los segmentos:
 -   Material = Plástico
 -   Longitud = 12
 
-El número de la variante del producto se convertirá: M0099\_PlasticAAA12.
+El número de la variante del producto se convertirá en: M0099\_PlásticoAAA12.
 
 ### <a name="example-for-dimension-based-configurations"></a>Ejemplo de configuraciones basadas en dimensiones
 
@@ -180,7 +183,7 @@ Aparecerá un error si intenta generar manual o automáticamente las variantes d
 
 ### <a name="constraint-based-configurations"></a>Configuraciones basadas en restricciones
 
-En función de la nomenclatura, el sistema puede intentar asignar un número de la variante del producto no único a una configuración. En este caso, el sistema utilizará la secuencia numérica para la dimensión de configuración según el número de la variante del producto en su lugar. Si esto sucede, recibirá una advertencia. Para evitar esto, debe incluir suficientes atributos en la nomenclatura para proteger la singularidad y para asegurarse de que la opción **Reutilización** está activada para el componente.
+En función de la nomenclatura, el sistema puede intentar asignar un número de la variante del producto no único a una configuración. En este caso, el sistema utilizará la secuencia numérica para la dimensión de configuración en lugar del número de la variante del producto. Si esto sucede, recibirá un aviso. Para evitar esto, debe incluir suficientes atributos en la nomenclatura para proteger la singularidad y para asegurarse de que la opción **Reutilización** está activada para el componente.
 
 ### <a name="dimension-based-configurations"></a>Configuraciones basadas en dimensiones
 
@@ -191,8 +194,10 @@ El proceso de configuración incluye un paso en el que el sistema sugerirá un v
 <a name="see-also"></a>Consulte también
 --------
 
-[Crear una nomenclatura del número de producto para las variantes de producto predefinidas (Guía de la tarea)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
+[Crear una nomenclatura del número de producto para las variantes de producto predefinidas (Guía de tareas)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
 
-[Crear una nomenclatura del número de producto para las variantes de producto configuradas (guía de la tarea)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
+[Crear una nomenclatura del número de producto para las variantes de producto configuradas (Guía de tareas)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
+
+
 
 

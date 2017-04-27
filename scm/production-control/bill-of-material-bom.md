@@ -1,6 +1,6 @@
 ---
 title: "Listas de materiales y fórmulas"
-description: "Este artículo proporciona información acerca de las listas de materiales (BOMs) y las fórmulas, que forman parte central de la definición de productos y variantes de producto. MAT y las fórmulas especifican el material o ingredientes necesarios para un producto específico. Las fórmulas también especifican los productos conjuntos o derivados que se reciben en un contexto específico de la producción."
+description: "Este artículo proporciona información acerca de las listas de materiales y las fórmulas, que son una parte fundamental de la definición de productos y variantes de producto. Las listas de materiales y las fórmulas especifican los materiales o componentes necesarios para un producto específico. Las fórmulas también especifican los coproductos o productos derivados que se reciben en un contexto específico de la producción."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bills-of-materials-and-formulas"></a>Listas de materiales y fórmulas
 
-Este artículo proporciona información acerca de las listas de materiales (BOMs) y las fórmulas, que forman parte central de la definición de productos y variantes de producto. MAT y las fórmulas especifican el material o ingredientes necesarios para un producto específico. Las fórmulas también especifican los productos conjuntos o derivados que se reciben en un contexto específico de la producción. 
+[!include[banner](../includes/banner.md)]
+
+
+Este artículo proporciona información acerca de las listas de materiales y las fórmulas, que son una parte fundamental de la definición de productos y variantes de producto. Las listas de materiales y las fórmulas especifican los materiales o componentes necesarios para un producto específico. Las fórmulas también especifican los coproductos o productos derivados que se reciben en un contexto específico de la producción. 
 
 <a name="bills-of-materials"></a>Listas de materiales
 ------------------
@@ -38,7 +41,7 @@ Una lista de materiales (L. MAT) define los componentes necesarios para producir
 
 Cuando se combina con una ruta o un flujo de producción que describe las operaciones y los recursos necesarios para crear un producto, la L. MAT. forma la base para calcular el coste estimado del producto.  
 
-Una L es una entidad individual que es descrita por la siguiente información:
+Una lista de materiales es una entidad individual que se describe con la siguiente información:
 
 -   Id. de BOM
 -   Nombre de L. MAT
@@ -61,7 +64,7 @@ En el ciclo de vida del producto, se pueden crear muchos tipos de L. MAT por var
 -   **L. MAT de producción**: esta es la L. MAT real que se usa para una producción concreta. Una L. MAT de producción debe tener en cuenta los recursos reales que se usan para producir el producto. Cuando se crea un pedido de producción, un pedido de lote o un kanban, los múltiples niveles de L. MAT que están representados por fantasmas se contraen en un nivel y se distribuyen por las operaciones para el pedido.
 -   **L. MAT de gestión de costes**: esta L. MAT se usa para calcular el coste estimado de un producto. Por ejemplo, puede usar una L. MAT de gestión de costes cuando se use el coste estándar o se calcule el coste planificado estimado de un producto determinado. Las L. MAT de gestión de costes pueden hacer referencia a una combinación específica de materiales y recursos que se espera que se usará. Por tanto, puede usar la L. MAT de gestión de costes para crear un coste estimado representativo para un período y ayudar a evitar las desviaciones con el tiempo.
 
-Los tipos de materiales que se utilicen realmente en una implementación dependen de la implementación, así como de los escenarios empresariales y requisitos. En implementaciones simples, una L. MAT de planificación, una L. MAT de producción y una L. MAT de gestión de costes se pueden modelar como una L. MAT. En los entornos con cambios frecuentes de ingeniería y varias rutas alternativas, probablemente se requerirá un conjunto mayor de tipos de L. MAT.
+Los tipos de listas de materiales que se usan realmente en una implementación dependen de la implementación, además de los requisitos y escenarios empresariales. En implementaciones simples, una L. MAT de planificación, una L. MAT de producción y una L. MAT de gestión de costes se pueden modelar como una L. MAT. En los entornos con cambios frecuentes de ingeniería y varias rutas alternativas, probablemente se requerirá un conjunto mayor de tipos de L. MAT.
 
 ### <a name="approval-of-boms-and-formulas"></a>Aprobación de L. MAT y fórmulas
 
@@ -78,7 +81,7 @@ Para que una versión de L. MAT se pueda utilizar en el proceso de planificació
 
 ### <a name="activation-of-the-default-bom-or-formula-version"></a>Activación de la versión de L. MAT. o fórmula predeterminada
 
-Para establecer una L. MAT o una fórmula específica como la versión de L. MAT o de fórmula predeterminada que se usará por la planificación maestra o que se usará para crear pedidos de producción, debe activar la versión. Cuando se activa una versión, la unicidad de la versión para las restricciones dados (por ejemplo, el período, sitio, o cantidad) se comprueba. Se recibe un mensaje de error si la versión que se intentaba activar conflictos con una versión que ya está activo. A continuación, debe desactivar la versión en conflicto o modificar las restricciones de la versión (normalmente el período) para impedir una activación ambigua.
+Para establecer una L. MAT o una fórmula específica como la versión de L. MAT o de fórmula predeterminada que se usará por la planificación maestra o que se usará para crear pedidos de producción, debe activar la versión. Cuando se activa una versión, se comprueba la unicidad de la versión para las restricciones dadas (por ejemplo, el período, el sitio o la cantidad). Recibe un mensaje de error si la versión que está intentando activar entra en conflictos con una versión que ya está activa. A continuación, debe desactivar la versión en conflicto o modificar las restricciones de la versión (normalmente el período) para impedir una activación ambigua.
 
 ### <a name="product-change-with-case-management"></a>Cambio de producto con administración de casos
 
@@ -114,5 +117,7 @@ Seleccione el tipo de línea** Suministro asegurado** cuando desee crear una sub
 Seleccione el tipo de línea **Proveedor** si el proceso de producción usa un subcontratista y desea que se cree una subproducción o pedido de compra automáticamente para el subcontratista.  
 
 **Nota sobre las operaciones subcontratadas en una L. MAT**: el servicio o trabajo que se realiza por el subcontratista se debe crear como artículo de servicio del que se realiza un seguimiento en el inventario. Debe vincular el artículo de servicio al artículo principal como línea de L. MAT. La ruta deberá incluir la operación asignada al recurso de operaciones del subcontratista.
+
+
 
 

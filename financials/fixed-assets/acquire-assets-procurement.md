@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="acquire-assets-through-procurement"></a>Adquisición de activos mediante compra
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo describe la manera de configurar la integración entre Activos fijos y Proveedores para crear automáticamente activos fijos a partir de pedidos de compra o facturas de proveedor, o registrar automáticamente transacciones de adquisición o transacciones de ajuste de adquisición de activos fijos.
 
  Existen los métodos siguientes para integrar los activos fijos y los proveedores, y se debe utilizar el mismo método para todos los activos fijos:
@@ -103,6 +106,8 @@ A continuación se muestran algunas variaciones de este escenario:
 -   Si solo se recibe una cantidad parcial, no se creará ninguna adquisición del activo para la primera factura de proveedor debido a las restricciones de grupos de usuarios. El único modo de poder registrar una adquisición para la segunda factura de proveedor que complete la cantidad solicitada es que ya se haya especificado una transacción de adquisición para la primera factura de proveedor y sea usted miembro de un grupo de usuarios con permiso para registrar adquisiciones.
 
 
-Para obtener más información, consulte [] la integración de los activos fijos (fixed-asset-integration.md).
+Para obtener más información, consulte [Integración de activos fijos](fixed-asset-integration.md).
+
+
 
 

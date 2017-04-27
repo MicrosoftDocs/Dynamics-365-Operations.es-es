@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="compensation-plans"></a>Planes de compensación
 
+[!include[banner](includes/banner.md)]
+
+
 Los directores de compensación y de prestaciones pueden usar la Administración de compensaciones para mantener y procesar los planes de compensación variable y fija para los empleados de la organización.
 
 ### <a name="introduction"></a>Introducción
 
-Se usará la gestión de compensación para controlar la entrega de pago base y primas. El salario base fijo y los aumentos por méritos de un empleado se controlan mediante planes de compensación fija. El pago de incentivos, como los pagos de bonificación, las primas por rendimiento, las acciones y las concesiones, así como también las primas ocasionales, se controlan a través de planes de compensación variable. 
+La gestión de compensaciones se usa para controlar la entrega de salarios base y primas. El sueldo base fijo de un empleado y los aumentos por méritos se controlan mediante planes de compensación fijos. El pago de incentivos, como los pagos de bonificación, las primas por rendimiento, las acciones y las concesiones, así como también las primas ocasionales, se controlan a través de planes de compensación variable. 
 
 Los empleados pueden estar inscritos a uno o más planes de ambos tipos. Un empleado debe cumplir los requisitos siguientes para que se pueda aplicar para la inscripción a un plan de compensación:
 -   El empleado debe tener una asignación de puesto activa.
@@ -54,7 +57,7 @@ En la tabla siguiente se muestran los componentes del proceso de compensación q
 <td>Las acciones de compensación fija cumplen dos propósitos:
 <ul>
 <li>Las acciones pueden especificar el tipo de información que se debe registrar cuando la compensación del empleado cambia. Por ejemplo, se puede requerir que el motivo de un cambio, como una promoción o un descenso, se registre.</li>
-<li>Las acciones pueden asegurarse que se aplicará un cálculo cuando se procesan los planes de compensación fija.  Por ejemplo, las acciones de los recursos propios escritos compararán a los empleados pagan al punto de referencia el nivel mínimo del empleado y garantizan el empleado son el ser remunerados por el menos el mínimo.</li>
+<li>Las acciones garantizan que un cálculo se aplique a un proceso de evento cuando se calculan los planes de compensación fija.  Por ejemplo, las acciones del tipo Recursos propios compararán el sueldo de los empleados con el punto de referencia mínimo para el nivel en el empleado y garantiza que el empleado reciba al menos el sueldo mínimo.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -83,7 +86,7 @@ En la tabla siguiente se muestran los componentes del proceso de compensación q
 </tr>
 <tr class="even">
 <td>Frecuencias de pago</td>
-<td>Las frecuencias de pago se utilizan para definir el período de tiempo para el que se especifica la compensación.  Por ejemplo, ayuda de la frecuencia de pago si se dispone el importe de la compensación se especifica como sueldo anual con un índice salarial por hora. Las frecuencias de pago también se utilizan para configurar factores de conversión a los importes de compensación de convertido de mensual, semanal, y quincenal convertir frecuencias del sueldo por horas a una frecuencia de pago anual.</td>
+<td>Las frecuencias de pago se usan para definir el período de tiempo para el cual se especifica la compensación.  Por ejemplo, la frecuencia de pago ayuda a entender si el importe de compensación se especifica como sueldo anual frente a tasa de pago por hora. Las frecuencias de pago se usan también para configurar factores de conversión para convertir importes de compensación de frecuencia mensual, semanal, quincenal y por hora a una frecuencia de pago anual.</td>
 </tr>
 <tr class="odd">
 <td>Regiones de compensación</td>
@@ -107,7 +110,7 @@ En la tabla siguiente se muestran los componentes del proceso de compensación q
 </tr>
 <tr class="even">
 <td>Cuadrículas de compensación</td>
-<td>Las cuadrículas de compensación contienen la estructura de compensación.  Las cuadrículas de compensación se pueden usar por uno o varios planes de compensación.</td>
+<td>Las cuadrículas de compensación contienen la estructura de compensación.  Las cuadrículas de compensación las pueden usar uno o varios planes de compensación.</td>
 </tr>
 <tr class="odd">
 <td>Planes de rendimiento</td>
@@ -126,9 +129,11 @@ Los eventos de proceso se utilizan para calcular información de compensación p
 <a name="compensation-events"></a>Eventos de compensación
 -------------------
 
-Cada vez que se ejecute un evento de proceso, se crea un evento de compensación.  Los eventos de compensación contienen los resultados del proceso de compensación para cada empleado incluidos en dicho evento de proceso.  Si los cálculos son correctos, puede cargar el evento de compensación para actualizar los registros de compensación para los empleados afectados por el evento de proceso.
+Cada vez que se ejecuta un evento de proceso, se crea un evento de compensación.  Los eventos de compensación contienen los resultados del proceso de compensación para cada empleado incluido en ese evento de proceso.  Cuando los cálculos son correctos, puede cargar el evento de compensación para actualizar los registros de compensación para los empleados afectados por el evento de procesos.
 
 ## <a name="recommendations"></a>Recomendaciones
 Después de ejecutar un evento de proceso, puede recomendar ajustes en la prima o en el aumento por méritos de un empleado, en función de las directrices calculadas a partir del evento de proceso. Para aplicar las recomendaciones para los empleados, debe habilitar las recomendaciones al configurar los planes de compensación o cuando configura el evento de proceso.
+
+
 
 

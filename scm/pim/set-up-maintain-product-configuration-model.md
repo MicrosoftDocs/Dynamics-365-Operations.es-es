@@ -1,5 +1,5 @@
 ---
-title: "Configurar un modelo de configuración de productos"
+title: "Configuración de un modelo de configuración de productos"
 description: "Este artículo describe los pasos para configurar y crear un modelo de configuración de productos."
 author: YuyuScheller
 manager: AnnBe
@@ -27,13 +27,16 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-a-product-configuration-model"></a>Configurar un modelo de configuración de productos
+# <a name="set-up-a-product-configuration-model"></a>Configuración de un modelo de configuración de productos
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo describe los pasos para configurar y crear un modelo de configuración de productos.
 
 | Tarea                                                        | Descripción                                                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Cree un producto maestro.                                    | Cree un producto maestro desde la lista **Producto maestro**. Liberar al producto maestro a todas las empresas relevantes. Para un producto maestro que se usa como versión para un modelo de configuración de productos o como subcomponente, ** configuración basada en restricciones ** debe seleccionarse como la tecnología de configuración, y la dimensión de configuración debe estar seleccionada únicamente para el grupo de dimensiones de producto. |
+| Cree un producto maestro.                                    | Cree un producto maestro desde la lista **Producto maestro**. Emita el producto maestro a todas las empresas relevantes. Para un producto maestro que se usa como versión del modelo de configuración de un producto o como subcomponente, **Configuración basada en restricciones** debe estar seleccionado como tecnología de configuración, y la dimensión de configuración se debe seleccionar solo para el grupo de dimensiones del producto. |
 | Cree componentes.                                          | Cree los componentes en la página **Componentes**. Los componentes son los componentes básicos de un modelo de configuración de productos y se pueden volver a usar en varios modelos de configuración de productos.                                                                                                                                                                                                                      |
 | Cree tipos de atributo.                                     | Cree tipos de atributo en la página **Tipos de atributo**. Los tipos de atributo especifican el conjunto de tipos de datos para todos los atributos que se usan en modelos de configuración de productos. Los atributos **Booleano**, **Texto** con una lista fija y **Entero** con un tipo de intervalo enumeran el conjunto de valores disponibles cuando configura una variante de producto basada en un modelo de configuración de productos.       |
 | Cree un modelo de configuración de productos.                       | Cree un modelo de configuración de productos en la página **Nuevo modelo de configuración de productos**.                                                                                                                                                                                                                                                                                                              |
@@ -47,6 +50,8 @@ Este artículo describe los pasos para configurar y crear un modelo de configura
 | Pruebe un modelo de configuración de productos.                         | Pruebe el modelo de configuración de productos desde la página **Detalles basados en el modelo de configuración de productos** o la página **Lista de modelos de configuración de productos**. Al probar los modelos de configuración de productos se simula el proceso de configuración del modelo de productos que se produce durante la gestión de pedidos.                                                                                                |
 | Cree una plantilla de modelo de configuración de productos.                | Cree una plantilla de modelo de configuración de productos en la página **Plantillas de configuración**. Una plantilla de configuración incluye los valores para los atributos en el modelo de configuración de productos. Seleccione los valores de atributo en la página **Configurar la línea**. Puede seleccionar cargar una plantilla de configuración de modelo de productos durante la configuración del modelo de productos.                                                   |
 | Configure un artículo.                                          | Los modelos de configuración de productos se pueden configurar desde un pedido de ventas, un presupuesto de ventas, un pedido de compra o un pedido de producción.                                                                                                                                                                                                                                                                           |
+
+
 
 
 

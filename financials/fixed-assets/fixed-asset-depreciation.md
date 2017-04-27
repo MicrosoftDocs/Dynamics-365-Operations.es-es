@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-depreciation"></a>Depreciación de activo fijo
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información general de la depreciación de los activos fijos.
 
 La depreciación es una transacción periódica que reduce normalmente el valor del activo fijo en el balance de situación y que se carga como un gasto en la cuenta de pérdidas y ganancias. Por lo tanto, se usa normalmente una cuenta principal para abonar la depreciación periódica en el balance de situación. Una cuenta de contrapartida es una cuenta en la parte de pérdidas y ganancias del plan contable.
@@ -51,6 +54,8 @@ Cada libro tiene un calendario que se utiliza cuando deprecia activos fijos. De 
 
 Puede crear calendarios compartidos mediante la **página de Calendarios fiscales de** la Contabilidad general.
 
-Para obtener más información, consulte [métodos y convenciones depreciation-methods-conventions.md] ().
+Para obtener más información, consulte [Convenciones y métodos de depreciación](depreciation-methods-conventions.md).
+
+
 
 

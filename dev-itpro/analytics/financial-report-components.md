@@ -101,7 +101,7 @@ Puede guardar un grupo de bloques de creación existente con un nuevo nombre. De
 
 ### <a name="export-a-building-block-group"></a> Exportar un grupo de bloques de creación
 
-Puede exportar un grupo de bloque de creación o bloques de creación del informe específicos de un grupo de bloque de creación. Puede usar el grupo exportado del bloque de creación como copia de seguridad. También puede copiar los datos exportados entre los grupos o dinámicas las 365 del bloque de creación para las instalaciones de las operaciones. El diseñador de informes incluye los estilos de fuente y los conjuntos de dimensiones que se hace referencia junto con el grupo de bloque de creación.
+Puede exportar un grupo de bloques de creación o bloques de creación de informes específicos en un grupo de bloques de creación. Puede utilizar el grupo de bloque de creación exportado como una copia de seguridad. También puede copiar los datos exportados entre los grupos de bloques de creación o las instalaciones de Dynamics 365 for Operations. El diseñador de informes incluye los conjuntos de dimensiones y los estilos de fuente a los que se hace referencia junto con el grupo de bloques de creación.
 1.  En el diseñador de informes, en el menú **Empresa**, haga clic en **Grupos de bloques de creación**.
 2.  En el cuadro de diálogo **Grupos de bloques de creación**, seleccione el grupo de bloques de creación que desea exportar y luego haga clic en **Exportar**.
 3.  En el cuadro de diálogo **Exportar**, seleccione las definiciones del informe que desea exportar:

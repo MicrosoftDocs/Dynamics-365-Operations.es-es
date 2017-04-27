@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-distributions"></a>Distribuciones contables
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información acerca de distribuciones contables y describe las opciones disponibles para procesarlas. Las distribuciones contables se usan para asignar importes monetarios para un documento de origen en cuentas contables específicas. 
 
 Las distribuciones contables son una capacidad de todo el programa que se usa y se extiende por cada documento de origen, como un pedido de compra, una factura de proveedor, un informe de gastos y una factura de servicios. De forma predeterminada, se genera una distribución contable predeterminada para cada línea del documento de origen y el importe monetario, y se habilita de manera condicional para la modificación. 
 
 > [!Note] 
-> Importes monetarios admiten del documento del encabezado de algunos documentos, también como gastos para los pedidos y las facturas. 
+> Algunos documentos también admiten importes monetarios de documentos de encabezados, como gastos para pedidos y facturas. 
 
 Las capacidades genéricas de distribución contable proporcionan las siguientes opciones para procesar distribuciones contables:
 
@@ -44,15 +47,17 @@ Las capacidades genéricas de distribución contable proporcionan las siguientes
     -   El botón **Dividir** se puede habilitar para las distribuciones principales. **Dividir** genera nuevas distribuciones contables y la división se puede basar en el porcentaje, el importe o la cantidad.
     -   El botón **Distribuir de forma equitativa** se puede usar junto con **Dividir** para asignar automáticamente el importe de manera equitativa en todas las distribuciones.
     -   El botón **Restablecer** se puede habilitar para distribuciones principales cuando existen más de una distribución. **Restablecer** invierte cualquier modificación manual a la distribución eliminando todas las distribuciones existentes y volviendo a generar las distribuciones predeterminadas.
-    -   Cualquier distribución secundaria, como descuento, cargos e impuestos, siempre sigue la distribución principal. Puede ver la relación primaria o secundaria en ** referencia ** &gt; ** información ** principal.
+    -   Cualquier distribución secundaria, como descuento, cargos e impuestos, siempre sigue la distribución principal. Puede ver la relación principal-secundario en **Referencia** &gt; **Información de elemento principal**.
     -   La cuenta principal y la dimensión financiera pueden ser editables también para los elementos secundarios.
     -   Las dimensiones financieras de las distribuciones contables siguen un patrón predeterminado de que se puede extender un documento. Para obtener más información, consulte los artículos relacionados.
-    -   Las distribuciones de desviación se pueden generar en escenarios de coincidencia, como la coincidencia entre una factura de proveedor y un pedido de compra. Puede ver las relaciones en la conciliación entre la distribución contable en ** referencia ** &gt; ** la información del documento **.
-    -   El botón **Correcto** aparece y está habilitado para documentos que admiten correcciones. ** Correcto ** crea nuevas distribuciones. Primero, se crean las distribuciones que invierten las distribuciones originales. Estas distribuciones no se pueden modificar. Se crea Siguiente, las nuevas distribuciones contables concretas. Estas distribuciones se pueden modificar si las distribuciones originales se pueden modificar.
+    -   Las distribuciones de desviación se pueden generar en escenarios de coincidencia, como la coincidencia entre una factura de proveedor y un pedido de compra. Puede ver las relaciones coincidentes entre la distribución contable en **Referencia** &gt; **Información de documento**.
+    -   El botón **Correcto** aparece y está habilitado para documentos que admiten correcciones. **Correcto** crea nuevas distribuciones. Primero, se crean las distribuciones que invierten las distribuciones originales. Estas distribuciones no se pueden modificar. A continuación se crean las nuevas distribuciones contables correctas. Estas distribuciones se pueden modificar si las distribuciones originales se pueden modificar.
     -   El botón ** Detalles del proyecto** está habilitado como extensión cuando una línea está relacionada con un proyecto. Las distribuciones contables del proyecto le permiten modificar detalles como la fuente de financiación y las propiedades de la línea.
-    -   Puede ver el estado de contabilidad del documento actual en ** ** referencia. El estado es para el documento entero, e indica si el documento se encuentra en proceso o completado.
--   ** Las distribuciones de la vista ** – ver las distribuciones contables para todas las líneas y importes monetarios en el documento. No pueden modificar las distribuciones contables desde esta vista.
+    -   Puede ver el estado de contabilidad del documento actual en **Referencia**. El estado es para el documento entero, e indica si el documento se encuentra en proceso o completado.
+-   ** Ver distribuciones**: permite ver las distribuciones contables para todas las líneas y todos los importes monetarios en el documento. No pueden modificar las distribuciones contables desde esta vista.
 
 
-Para obtener más información, consulte [las distribuciones contables y los asientos del subdiario contable de forma gratuita Ver el texto a las facturas accounting-distributions-subledger-journal-entries-vendor-invoices.md] ().
+Para obtener más información, consulte [Distribuciones contables y asientos del subdiario contable para las facturas de servicios](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+
+
 

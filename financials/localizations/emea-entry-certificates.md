@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="eu-entry-certificates"></a>Certificado de entrada de la UE
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información acerca de los certificados de entrada en la Unión Europea (UE).
 
 Puede realizar las tareas siguientes para un certificado de entrada de la Unión Europea (UE):
@@ -76,7 +79,7 @@ La tabla siguiente muestra los requisitos previos que deben cumplirse antes de c
 </table>
 
 ## <a name="creating-registering-and-uploading-an-eu-entry-certificate"></a>Creación, registro y carga de un certificado de entrada de la UE
-Puede crear un certificado de entrada de la UE de forma automática o manual. Un certificado de la entrada de la UE se crea y se imprime automáticamente al registrar un albarán o factura para un cliente mediante ** registro del albarán ** la página o ** registro de factura ** la página. Para crear o volver a imprimir manualmente un certificado de la entrada de la UE para una factura de cliente, use ** diario de facturas ** la página. También, puede usar la página **Diario de certificado de entrada** para especificar detalles acerca de un certificado de entrada de la UE emitido por un tercero.
+Puede crear un certificado de entrada de la UE de forma automática o manual. Un certificado de entrada de la UE se crea y se imprime automáticamente al registrar un albarán o una factura para un cliente mediante a través de la página **Registro del albarán** o la página **Registro de factura**. Para crear manualmente o reimprimir un certificado de entrada de la UE para una factura de cliente, use la página **Diario de facturas**. También, puede usar la página **Diario de certificado de entrada** para especificar detalles acerca de un certificado de entrada de la UE emitido por un tercero.
 
 ### <a name="creating-an-eu-entry-certificate-automatically-or-manually"></a>Creación de un certificado de entrada de la UE de forma automática o manual
 
@@ -121,6 +124,8 @@ Si no tiene acceso a las páginas que se usan para completar esta tarea, póngas
 </tr>
 </tbody>
 </table>
+
+
 
 
 

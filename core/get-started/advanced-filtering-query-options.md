@@ -1,5 +1,5 @@
 ---
-title: Sintaxis de consulta y filtro avanzado
+title: Sintaxis de consulta y filtro avanzados
 description: "Este artículo describe el filtrado y las opciones de consulta que están disponibles cuando usa el operador “coincide” en el cuadro de diálogo Ordenación o filtro avanzados."
 author: jasongre
 manager: AnnBe
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-filtering-and-query-syntax"></a>Sintaxis de consulta y filtro avanzado
+# <a name="advanced-filtering-and-query-syntax"></a>Sintaxis de consulta y filtro avanzados
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo describe el filtrado y las opciones de consulta que están disponibles cuando usa el operador “coincide” en el cuadro de diálogo Ordenación o filtro avanzados.
 
-<a name="advanced-query-syntax"></a>Sintaxis de la consulta avanzado
+<a name="advanced-query-syntax"></a>Sintaxis de consulta avanzada
 ---------------------
 
 <table>
@@ -52,79 +55,79 @@ Este artículo describe el filtrado y las opciones de consulta que están dispon
 <td><em>valor</em></td>
 <td>Igual que el valor que se especifica</td>
 <td>Escriba el valor que desea buscar.</td>
-<td><strong>Serrano</strong> Serrano&quot;búsquedas &quot;.</td>
+<td><strong>Serrano</strong> encuentra &quot;Serrano&quot;.</td>
 </tr>
 <tr class="even">
 <td>!<em>valor</em> (signo de exclamación)</td>
 <td>No es igual que el valor que se especifica</td>
 <td>Escriba un signo de exclamación y, después, el valor que desee excluir.</td>
-<td><strong>! Serrano</strong> encuentra todos los valores excepto &quot;Serrano&quot;.</td>
+<td><strong>!Serrano</strong> encuentra todos los valores excepto &quot;Serrano&quot;.</td>
 </tr>
 <tr class="odd">
 <td><em>valor-inicial</em>..<em>valor-final</em> (dos puntos seguidos)</td>
 <td>Entre los dos valores que están separados por dos puntos seguidos</td>
 <td>Escriba el valor inicial, después los dos puntos y, por último, el valor final.</td>
-<td><strong>1..10</strong> encuentra todos los valores desde 1 a 10. Sin embargo, en un campo de la cadena, <strong>A.C</strong> encuentra todos los valores que comienzan por A&quot; y &quot;B&quot;, y los valores que se exactamente igual &quot;a la C&quot;. Por ejemplo, esta consulta no &quot;encontrarán el CA.&quot; Para buscar todos los valores &quot;de A*&quot; con &quot;C*&quot;, tipo <strong>A.D</strong>.</td>
+<td><strong>1..10</strong> encuentra todos los valores desde 1 hasta 10. No obstante, en un campo de cadena <strong>A..C</strong> encuentra todos los valores que empiezan por &quot;A&quot; y &quot;B&quot; y los valores exactamente iguales a &quot;C&quot;. Por ejemplo, no se encontrará &quot;Ca&quot;. Para encontrar todos los valores de la &quot;A*&quot; a la &quot;C*&quot;, escriba <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>valor</em> (dos puntos seguidos)</td>
 <td>Menor o igual que el valor especificado</td>
 <td>Escriba los dos puntos y, a continuación, el valor.</td>
-<td><strong>. .1000</strong> encuentra cualquier número menor o igual a 1000, &quot;como &quot;100&quot;, 999.95&quot;, y &quot;1,000&quot;.</td>
+<td><strong>..1000</strong> encuentra cualquier número menor o igual que 1000, por ejemplo &quot;100&quot;, &quot;999,95&quot; y &quot;1000&quot;.</td>
 </tr>
 <tr class="odd">
 <td><em>valor</em>.. (doble punto)</td>
 <td>Mayor o igual que el valor especificado</td>
 <td>Escriba el valor y, a continuación, dos puntos .</td>
-<td><strong>1000..</strong> encuentra cualquier número que mayor o igual a 1000, como &quot;1,000&quot;, &quot;1,000.01&quot;, y &quot;1,000,000&quot;.</td>
+<td><strong>1000..</strong> encuentra cualquier número mayor o igual que 1000, por ejemplo &quot;1000&quot;, &quot;1000,01&quot; y &quot;1 000 000&quot;.</td>
 </tr>
 <tr class="even">
 <td>&gt;<em>valor</em> (signo mayor que)</td>
 <td>Mayor que el valor especificado</td>
-<td>Escriba un mayor que firman (<strong>&gt;</strong>) y finalmente el valor.</td>
-<td><strong>&gt;1000</strong> encuentra cualquier número mayor que 1000, &quot;como &quot;1000.01&quot;, 20,000&quot;, y &quot;1,000,000&quot;.</td>
+<td>Escriba un signo mayor que (<strong>&gt;</strong>) y, a continuación, el valor.</td>
+<td><strong>&gt;1000</strong> encuentra cualquier número mayor que 1000, por ejemplo &quot;1000,01&quot;, &quot;20 000&quot; y &quot;1 000 000&quot;.</td>
 </tr>
 <tr class="odd">
-<td>&lt;<em>valor</em> (signo menos que)</td>
+<td>&lt;<em>valor</em> (signo menor que)</td>
 <td>Menor que el valor especificado</td>
-<td>Escriba menos que firman (<strong>&lt;</strong>) y finalmente el valor.</td>
-<td><strong>&lt;1000</strong> encuentra cualquier número menor que 1000, &quot;como &quot;999.99&quot;, 1&quot;, y &quot;-200&quot;.</td>
+<td>Escriba un signo menor que (<strong>&lt;</strong>) y, a continuación, el valor.</td>
+<td><strong>&lt;1000</strong> encuentra cualquier número menor que 1000, por ejemplo &quot;999,99&quot;, &quot;1&quot; y &quot;-200&quot;.</td>
 </tr>
 <tr class="even">
 <td><em>valor</em>* (asterisco)</td>
 <td>Que empieza por el valor que se especifica</td>
-<td>Escriba el valor inicial y después un asterisco (<strong>*</strong>).</td>
-<td><strong>S*</strong> encuentra cualquier cadena que empiece por &quot;&quot;S, como &quot;Suecia&quot;, &quot;Sydney&quot;, y &quot;San&quot;Francisco.</td>
+<td>Escriba el valor inicial y, a continuación, un asterisco (<strong>*</strong>).</td>
+<td><strong>S*</strong> encuentra cualquier cadena que empiece por &quot;S&quot;, como &quot;Suecia&quot;, &quot;Sydney&quot; y &quot;San Francisco&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>value</em> (asterisk)</td>
+<td>*<em>valor</em> (asterisco)</td>
 <td>Termina por el valor que se especifica</td>
 <td>Escriba un asterisco y, a continuación, el valor final.</td>
-<td><strong>*east</strong> encuentra cualquier cadena que termina con &quot;el este&quot;, como &quot;noreste&quot; y &quot;sureste&quot;.</td>
+<td><strong>*este</strong> encuentra cualquier cadena que termine por &quot;este&quot;, como &quot;Nordeste&quot; y &quot;Sudeste&quot;.</td>
 </tr>
 <tr class="even">
 <td>*<em>valor</em>* (asterisco)</td>
 <td>Contiene el valor especificado</td>
 <td>Escriba un asterisco, a continuación un valor y, por último, otro asterisco.</td>
-<td><strong>*th*</strong> encuentra cualquier cadena que contenga &quot;rr&quot;, como &quot;noreste&quot; y &quot;sureste&quot;.</td>
+<td><strong>*de*</strong> encuentra las cadenas que contengan &quot;de&quot; como &quot;Nordeste&quot; y &quot;Sudeste&quot;.</td>
 </tr>
 <tr class="odd">
 <td>? (signo de interrogación)</td>
 <td>Que tenga uno o más caracteres desconocidos</td>
 <td>Escriba un signo de interrogación en la posición del carácter desconocido en el valor.</td>
-<td><strong>¿Se? th</strong> Serrano&quot; búsquedas &quot;y &quot;Ser&quot;.</td>
+<td><strong>Se?rr</strong> encuentra &quot;Serr&quot; y &quot;Ser&quot;.</td>
 </tr>
 <tr class="even">
 <td><em>valor</em>,<em>valor</em> (coma)</td>
 <td>Que coincida con los valores separados por comas</td>
 <td>Escriba todos los criterios y sepárelos con comas.</td>
-<td><strong>A, D, F, G</strong> encuentra exactamente &quot;encuentra&quot;&quot;exactamente 10&quot;,&quot;<strong>10, 20, 30, 100</strong> 20&quot;, 30 &quot;, 100 de A &quot;, de D, de la F, G&quot;y el.</td>
+<td><strong>A, D, F, G</strong> encuentra exactamente &quot;A&quot;, &quot;D&quot;, &quot;F&quot;, y &quot;G&quot;. <strong>10, 20, 30, 100</strong> encuentra exactamente &quot;10, 20, 30, 100&quot;.</td>
 </tr>
 <tr class="odd">
 <td>(<span class="code">Instrucción SQL</span>) (instrucción SQL entre paréntesis)</td>
 <td>Que coincide con una consulta definida</td>
 <td>Escriba una consulta como una instrucción SQL entre paréntesis.</td>
-<td><strong><span class="code">(origen de datos. Esta Nombre de campo! = &quot;A&quot;)</span></strong></td>
+<td><strong><span class="code">(origen_de_datos.Nombre_de_campo != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
 <td>N</td>
@@ -137,7 +140,7 @@ Este artículo describe el filtrado y las opciones de consulta que están dispon
 <td>Coincide con el valor o el intervalo de valores especificados por los parámetros del método <strong>SysQueryRangeUtil</strong></td>
 <td>Escriba un método <strong>SysQueryRangeUtil</strong> con los parámetros que especifican el valor o el intervalo de valores.</td>
 <td><ol>
-<li>Haga <strong>clientes</strong> &gt; <strong>Facturas</strong> &gt; <strong>Facturas de cliente abiertas</strong>clic en.</li>
+<li>Haga clic en <strong>Clientes</strong> &gt; <strong>Facturas</strong> &gt; <strong>Facturas de cliente abiertas</strong>.</li>
 <li>Presione Ctrl+Mayús+F3 para abrir la página <strong>Consulta</strong>.</li>
 <li>En la ficha <strong>Intervalo</strong>, haga clic en <strong>Agregar</strong>.</li>
 <li>En el campo <strong>Tabla</strong>, seleccione <strong>Transacciones de cliente abiertas</strong>.</li>
@@ -228,6 +231,8 @@ Consulte la tabla en la sección siguiente para ver los detalles adicionales sob
 </tr>
 </tbody>
 </table>
+
+
 
 
 

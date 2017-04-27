@@ -1,6 +1,6 @@
 ---
-title: "Datos de uso fiscales de la cuenta de facturación"
-description: "Para las entidades jurídicas en España, la funcionalidad de datos fiscales de cuenta de factura de uso habilita datos fiscales en pedidos de ventas, facturas de servicios, y los pedidos de compra se actualiza automáticamente, en función de la información de la cuenta de facturación. Este tema proporciona información acerca de la funcionalidad de datos fiscales de cuenta de factura de uso y explica cómo configurarla."
+title: Usar datos fiscales de la cuenta de factura
+description: "Para las entidades jurídicas en España, la funcionalidad Usar datos fiscales de cuenta de factura permite la actualización automática de datos fiscales de los pedidos de ventas, las facturas de texto sin formato y los pedidos de compra, en función de la información de la cuenta de facturación. Este tema proporciona información sobre la funcionalidad Usar datos fiscales de cuenta de factura y explica cómo configurarla."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,47 +24,52 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-fiscal-data-from-the-invoice-account"></a>Datos de uso fiscales de la cuenta de facturación
+# <a name="use-fiscal-data-from-the-invoice-account"></a>Usar datos fiscales de la cuenta de factura
 
-Para las entidades jurídicas en España, la funcionalidad de datos fiscales de cuenta de factura de uso habilita datos fiscales en pedidos de ventas, facturas de servicios, y los pedidos de compra se actualiza automáticamente, en función de la información de la cuenta de facturación. Este tema proporciona información acerca de la funcionalidad de datos fiscales de cuenta de factura de uso y explica cómo configurarla.
+[!include[banner](../includes/banner.md)]
 
-Para las entidades jurídicas en España, la funcionalidad de datos fiscales de cuenta de factura de uso habilita datos fiscales en pedidos de ventas, facturas de servicios, y los pedidos de compra se actualiza automáticamente, en función de la información de la cuenta de facturación. El datos fiscales se actualiza que incluye el nombre del cliente o proveedor, la dirección, y la información fiscal. La funcionalidad de datos fiscales de cuenta de factura de uso afecta a los siguientes módulos:
 
--   Payable de las cuentas ** cuenta de facturación ** página de cambio
+Para las entidades jurídicas en España, la funcionalidad Usar datos fiscales de cuenta de factura permite la actualización automática de datos fiscales de los pedidos de ventas, las facturas de texto sin formato y los pedidos de compra, en función de la información de la cuenta de facturación. Este tema proporciona información sobre la funcionalidad Usar datos fiscales de cuenta de factura y explica cómo configurarla.
+
+Para las entidades jurídicas en España, la funcionalidad Usar datos fiscales de cuenta de factura permite la actualización automática de datos fiscales de los pedidos de ventas, las facturas de texto sin formato y los pedidos de compra, en función de la información de la cuenta de facturación. Los datos fiscales que actualizan incluye el nombre del cliente o proveedor, la dirección y la información fiscal. La funcionalidad Usar datos fiscales de cuenta de factura afecta a los siguientes módulos:
+
+-   Proveedores'Página de cambio **Cuenta de facturación**' 
 -   Adquisición y abastecimiento
 -   Clientes
 -   Ventas y marketing
 
 ## <a name="accounts-payable-and-procurement-and-sourcing"></a>Proveedores y Adquisición y abastecimiento
-Para gestionar la oportunidad de actualización automática fiscal de los datos de cambio de la cuenta de facturación en el módulo Proveedores que necesita configurar un datos fiscales de cuenta de factura de uso del parámetro en la ficha Factura de la página &gt; de los parámetros &gt; de configuración &gt; de la cuenta a pagar de la cuenta a pagar. Están disponibles las siguientes opciones:
+Para gestionar la oportunidad de actualización automática de datos fiscales en cambio de cuenta de facturación del módulo Proveedores, debe configurar un parámetro Usar datos fiscales de cuenta de factura en la ficha Factura de la página Proveedores &gt; Configurar &gt; Proveedores &gt; parámetros. Están disponibles las siguientes opciones:
 
--   ** Nunca ** – información se actualiza de la cuenta de proveedor.
--   ** ** – La información se actualiza siempre desde la cuenta de facturación.
--   ** Pregunta ** – A usuario se solicita para especificar si la información se deben actualizar de la cuenta de factura o de la cuenta de proveedor.
+-   **Nunca**: la información se acualiza desde la cuenta del proveedor.
+-   **Siempre**: la información se acualiza desde la cuenta de facturación.
+-   **Preguntar**: Se le pide al usuario que especifique si la información debe actualizarse desde la cuenta de facturación o la del proveedor.
 
-Cuando ** datos fiscales de cuenta de factura de uso ** se establece el parámetro, tres campos de un pedido de compra se pueden actualizar acordando el valor del parámetro. Cuando ** cuenta de facturación ** se modifica el campo, los siguientes campos se actualizan con la información de la cuenta de facturación:
+Cuando se define el parámetro **Usar datos fiscales de cuenta de factura**, pueden actualizarse tres campos de una orden de compra en función del valor del parámetro. Cuando se modifica el campo **Cuenta de facturación**, los campos siguientes se actualizan con la información de la cuenta de facturación:
 
 -   Nombre
 -   Grupo de impuestos sobre las ventas
--   Exención de impuestos
+-   Exención fiscal
 
-## <a name="accounts-receivable-and-sales-and-marketing"></a>Clientes y Ventas y marketing
-Para gestionar el riesgo de cambio fiscal de la actualización automática de los datos en ** cuenta de facturación ** en ** clientes ** el módulo que necesita configurar un parámetro “** datos fiscales de cuenta de factura de uso **” ** factura en el fasttab ** ** las actualizaciones ** de la ficha ** cuenta por cobrar ** &gt; ** de la configuración ** &gt; ** cuenta por cobrar ** ** los parámetros ** página. Están disponibles las siguientes opciones:
+## <a name="accounts-receivable-and-sales-and-marketing"></a>Clientes, ventas y marketing
+Para gestionar la oportunidad de actualización automática de datos fiscales en cambio de **Cuenta de facturación** del módulo **Proveedores**, debe configurar un parámetro "**Usar datos fiscales de cuenta de factura**" en la ficha desplegable **Factura** de la ficha **Actualizaciones** en la página **Clientes** &gt; **Configurar** &gt; **Proveedores** **parámetros**. Están disponibles las siguientes opciones:
 
--   ** Nunca ** – información se actualiza de la cuenta de cliente.
--   ** ** – La información se actualiza siempre desde la cuenta de facturación.
--   ** Pregunta ** – A usuario se solicita para especificar si la información se deben actualizar de la cuenta de factura o de la cuenta de cliente.
+-   **Nunca**: la información se acualiza desde la cuenta del cliente.
+-   **Siempre**: la información se acualiza desde la cuenta de facturación.
+-   **Preguntar**: Se le pide al usuario que especifique si la información debe actualizarse desde la cuenta de facturación o la del cliente.
 
-Cuando ** datos fiscales de cuenta de factura de uso ** se establece el parámetro, los siguientes documentos de clientes se pueden actualizar:
+Cuando se establece el parámetro **Usar datos fiscales de cuenta de factura**, es posible actualizar los documentos siguientes desde Clientes:
 
 -   Pedidos de ventas
 -   Facturas de servicios
 
-Cuando ** cuenta de facturación ** se modifica el campo, los siguientes campos se pueden actualizar con la información de la cuenta de facturación:
+Cuando se modifica el campo **Cuenta de facturación**, los campos siguientes pueden actualizarse con la información de la cuenta de facturación:
 
 -   Nombre
 -   Grupo de impuestos sobre las ventas
--   Exención de impuestos
+-   Exención fiscal
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-service-life-depreciation"></a>Tiempo de vida de depreciación lineal
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo le ofrece una visión general del método de depreciación Tiempo de vida de depreciación lineal.
 
 Al configurar un método de depreciación de activos fijos y seleccionar Tiempo de vida de depreciación lineal en el campo Método en la página Perfiles de depreciación, la depreciación de los activos fijos que se asigna a este método de depreciación se basa en el tiempo de vida total del activo. Generalmente, éste es el mismo importe de depreciación en cada período de depreciación. 
@@ -98,9 +101,11 @@ El tiempo de vida del ajuste de adquisición es el mismo que el del activo fijo 
 | Año 3 | 14.000 / 5 = 2.800                        | 10.200 - 2.800 = 7.400                |
 | Año 4 | 14.000 / 5 = 2.800                        | 7.400 - 2.800 = 4.600                 |
 | Año 5 | 14.000 / 5 = 2.800                        | 4.600 - 2.800 = 1.800                 |
-| Año 6 | 800 Restantes\*                           | 1.800 – 800 = 1.000                   |
+| Año 6 | 800 restantes\*                           | 1.800 – 800 = 1.000                   |
 
-\*ya que el importe restante es inferior al importe de depreciación, sólo el importe restante menos el valor residual se aplica.
+\*Debido a que el importe restante es inferior al importe de depreciación, sólo se toma el importe restante menos el valor residual.
+
+
 
 
 

@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-receivable"></a>Pagos centralizados para Clientes
 
+[!include[banner](../includes/banner.md)]
+
+
 Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica única que controle todos los pagos. Por lo tanto, no tiene que especificarse la misma transacción en varias entidades jurídicas. Este artículo proporciona ejemplos que muestran cómo el registro para pagos centralizados se gestiona en distintos escenarios.
 
 Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica que controle todos los pagos. Por lo tanto, no tiene que especificarse la misma transacción en varias entidades jurídicas. Además, la organización ahorra tiempo, ya que los procesos para las propuestas de pago, las liquidaciones y la edición de transacciones abiertas y cerradas para pagos centralizados se simplifican. 
 
-En una organización de pagos centralizados, existen muchas entidades jurídicas para las operaciones y cada entidad jurídica operativa administra su propia información de facturas de clientes. Los pagos de las entidades jurídicas operativas se reciben desde una única entidad jurídica, que se conoce como la entidad jurídica de pago. Durante el proceso de liquidación, se generan las transacciones vencidas en el intervalo de fechas aplicable. Puede especificar la entidad jurídica de la organización que recibe las transacciones de pérdidas o de beneficios realizados y cómo se administrarán las transacciones de descuento por pronto pago relacionadas con los pagos centralizados. 
+En una organización de pagos centralizados, existen muchas entidades jurídicas para las operaciones y cada entidad jurídica operativa administra su propia información de facturas de clientes. Los pagos de las entidades jurídicas operativas se reciben desde una única entidad jurídica denominada entidad jurídica del pago. Durante el proceso de liquidación, se generan las transacciones vencidas en el intervalo de fechas aplicable. Puede especificar la entidad jurídica de la organización que recibe las transacciones de pérdidas o de beneficios realizados y cómo se administrarán las transacciones de descuento por pronto pago relacionadas con los pagos centralizados. 
 
 En los siguientes ejemplos se muestra cómo se gestionan los registros en distintas situaciones. Se usa la siguiente configuración en todos los ejemplos:
 
@@ -66,14 +69,14 @@ Fabrikam recibe un pago de 600,00 de la cuenta de cliente 4000 de Fabrikam, Nort
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Se liquida el pago de Fabrikam con la factura de Fabrikam Este
 
-**Fabrikam posting**
+**Registro de Fabrikam**
 
 | Cuenta                         | Importe de débito | Importe de crédito |
 |---------------------------------|--------------|---------------|
 | Clientes (Fabrikam)  | 600,00       |               |
 | Importe debido a Fabrikam Este (Fabrikam) |              | 600,00        |
 
-**Fabrikam East posting**
+**Registro de Fabrikam Este**
 
 | Cuenta                             | Importe de débito | Importe de crédito |
 |-------------------------------------|--------------|---------------|
@@ -81,7 +84,7 @@ Fabrikam recibe un pago de 600,00 de la cuenta de cliente 4000 de Fabrikam, Nort
 | Clientes (Fabrikam Este) |              | 600,00        |
 
 ## <a name="example-2-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>Ejemplo 2: pago de cliente de factura de otra entidad jurídica con descuento por pronto pago
-Fabrikam recibe un pago de 580,00 del cliente 4000 de Fabrikam, Northwind Traders. Fabrikam Este tiene una factura abierta del cliente 4000. La factura tiene un descuento por pronto pago de 20,00. El pago se liquida con las facturas abiertas de Fabrikam Este. El descuento por pronto pago se registra en la entidad jurídica de la factura: Fabrikam Este.
+Fabrikam recibe un pago de 580,00 del cliente 4000 de Fabrikam, Northwind Traders. Fabrikam Este tiene una factura abierta para el cliente 4000. La factura tiene un descuento por pronto pago de 20,00. El pago se liquida con las facturas abiertas de Fabrikam Este. El descuento por pronto pago se registra en la entidad jurídica de la factura: Fabrikam Este.
 
 ### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>Se registra la factura del cliente 4000 de Fabrikam Este en Fabrikam Este
 
@@ -99,14 +102,14 @@ Fabrikam recibe un pago de 580,00 del cliente 4000 de Fabrikam, Northwind Trader
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Se liquida el pago de Fabrikam con la factura de Fabrikam Este
 
-**Fabrikam posting**
+**Registro de Fabrikam**
 
 | Cuenta                         | Importe de débito | Importe de crédito |
 |---------------------------------|--------------|---------------|
 | Clientes (Fabrikam)  | 580,00       |               |
 | Importe debido a Fabrikam Este (Fabrikam) |              | 580,00        |
 
-**Fabrikam East posting**
+**Registro de Fabrikam Este**
 
 | Cuenta                             | Importe de débito | Importe de crédito |
 |-------------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam recibe un pago de 600,00 euros (EUR) del cliente 4000 de Fabrikam, Nort
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Se liquida el pago de Fabrikam con la factura de Fabrikam Este
 
-**Fabrikam posting**
+**Registro de Fabrikam**
 
 | Cuenta                         | Importe de débito            | Importe de crédito           |
 |---------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam recibe un pago de 600,00 euros (EUR) del cliente 4000 de Fabrikam, Nort
 | Importe debido a Fabrikam Este (Fabrikam) | 0,00 EUR / 12,90 dólares USD    |                         |
 | Ganancia realizada (Fabrikam)        |                         | 0,00 EUR / 12,90 dólares USD    |
 
-**Fabrikam East posting**
+**Registro de Fabrikam Este**
 
 | Cuenta                             | Importe de débito            | Importe de crédito           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam registra un pago del cliente 4000 de Fabrikam, Northwind Traders, de un
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Se liquida el pago de Fabrikam con una factura de Fabrikam Este
 
-**Fabrikam posting**
+**Registro de Fabrikam**
 
 | Cuenta                         | Importe de débito            | Importe de crédito           |
 |---------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam registra un pago del cliente 4000 de Fabrikam, Northwind Traders, de un
 | Importe debido a Fabrikam Este (Fabrikam) | 0,00 EUR / 13,46 dólares USD    |                         |
 | Ganancia realizada (Fabrikam)        |                         | 0,00 EUR / 13,46 dólares USD    |
 
-**Fabrikam East posting**
+**Registro de Fabrikam Este**
 
 | Cuenta                             | Importe de débito            | Importe de crédito           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ Fabrikam registra un pago del cliente 4000 de Fabrikam, Northwind Traders, de un
 | Clientes (Fabrikam Este) |                         | 12,00 EUR / 14,47 dólares USD   |
 
 ## <a name="example-5-customer-credit-note-with-primary-payment"></a>Ejemplo 5: Nota de abono de cliente con pago principal
-Fabrikam recibe un pago de 75,00 del cliente 4000, Northwind Traders. El pago se liquida con una factura abierta del cliente 10000 de Fabrikam Oeste y una nota de abono abierta del cliente 4000 de Fabrikam Este. Se activa el pago a medida que el pago principal en ** liquidar las transacciones ** la página.
+Fabrikam recibe un pago de 75,00 del cliente 4000, Northwind Traders. El pago se liquida con una factura abierta del cliente 10000 de Fabrikam Oeste y una nota de abono abierta del cliente 4000 de Fabrikam Este. Se selecciona el pago como pago principal en la página **Liquidar transacciones**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Se registra la factura del cliente 10000 en Fabrikam Oeste
 
@@ -224,7 +227,7 @@ Fabrikam recibe un pago de 75,00 del cliente 4000, Northwind Traders. El pago se
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Se liquida el pago de Fabrikam con la factura de Fabrikam Oeste y la nota de abono de Fabrikam Este
 
-**Fabrikam posting**
+**Registro de Fabrikam**
 
 | Cuenta                           | Importe de débito | Importe de crédito |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ Fabrikam recibe un pago de 75,00 del cliente 4000, Northwind Traders. El pago se
 | Clientes (Fabrikam)    | 100,00       |               |
 | Importe debido a Fabrikam Oeste (Fabrikam)   |              | 100,00        |
 
-**Fabrikam East posting**
+**Registro de Fabrikam Este**
 
 | Cuenta                             | Importe de débito | Importe de crédito |
 |-------------------------------------|--------------|---------------|
 | Clientes (Fabrikam Este) | 25,00        |               |
 | Importe debido a Fabrikam (Fabrikam Este)     |              | 25,00         |
 
-**Fabrikam West posting**
+**Registro de Fabrikam Oeste**
 
 | Cuenta                             | Importe de débito | Importe de crédito |
 |-------------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam recibe un pago de 75,00 del cliente 4000, Northwind Traders. El pago se
 | Clientes (Fabrikam Oeste) |              | 100,00        |
 
 ## <a name="example-6-customer-credit-note-without-primary-payment"></a>Ejemplo 6: Nota de abono de cliente sin pago principal
-Fabrikam recibe un pago de 75,00 del cliente 4000, Northwind Traders. El pago se liquida con una factura abierta del cliente 10000 de Fabrikam Oeste y una nota de abono abierta del cliente 4000 de Fabrikam Este. El pago no se selecciona ya que el pago principal en ** liquidar las transacciones ** la página.
+Fabrikam recibe un pago de 75,00 del cliente 4000, Northwind Traders. El pago se liquida con una factura abierta del cliente 10000 de Fabrikam Oeste y una nota de abono abierta del cliente 4000 de Fabrikam Este. No se selecciona el pago como pago principal en la página **Liquidar transacciones**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Se registra la factura del cliente 10000 en Fabrikam Oeste
 
@@ -273,21 +276,21 @@ Fabrikam recibe un pago de 75,00 del cliente 4000, Northwind Traders. El pago se
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Se liquida el pago de Fabrikam con la factura de Fabrikam Oeste y la nota de abono de Fabrikam Este
 
-**Fabrikam posting**
+**Registro de Fabrikam**
 
 | Cuenta                         | Importe de débito | Importe de crédito |
 |---------------------------------|--------------|---------------|
 | Clientes (Fabrikam)  | 75,00        |               |
 | Importe debido a Fabrikam Oeste (Fabrikam) |              | 75,00         |
 
-**Fabrikam East posting**
+**Registro de Fabrikam Este**
 
 | Cuenta                              | Importe de débito | Importe de crédito |
 |--------------------------------------|--------------|---------------|
 | Clientes (Fabrikam Este)  | 25,00        |               |
 | Importe debido a Fabrikam Oeste (Fabrikam Este) |              | 25,00         |
 
-**Fabrikam West posting**
+**Registro de Fabrikam Oeste**
 
 | Cuenta                                | Importe de débito | Importe de crédito |
 |----------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam recibe un pago de 75,00 del cliente 4000, Northwind Traders. El pago se
 | Clientes (Fabrikam Oeste)    |              | 75,00         |
 | Importe debido de Fabrikam Este (Fabrikam Oeste) | 25,00        |               |
 | Clientes (Fabrikam Oeste)    |              | 25,00         |
+
+
 
 
 

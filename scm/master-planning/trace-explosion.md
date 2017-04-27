@@ -1,5 +1,5 @@
 ---
-title: "Uso el seguimiento para la expansión"
+title: Usar seguimiento para expansiones
 description: "Este artículo explica cómo puede usar el seguimiento para explorar las causas tras el resultado de una expansión de pedido."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-tracing-for-explosion"></a>Uso el seguimiento para la expansión
+# <a name="use-tracing-for-explosion"></a>Usar seguimiento para expansiones
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo explica cómo puede usar el seguimiento para explorar las causas tras el resultado de una expansión de pedido.
 
@@ -43,6 +46,8 @@ Puede ver los detalles acerca de futuros y acciones para un pedido seleccionado.
 <a name="see-also"></a>Consulte también
 --------
 
-[Master plans](master-plans.md)
+[Planes maestros](master-plans.md)
+
+
 
 

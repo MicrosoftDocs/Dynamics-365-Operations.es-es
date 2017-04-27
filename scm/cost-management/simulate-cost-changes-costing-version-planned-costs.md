@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Simular cambios de coste mediante una versión de gestión de costes para costes planificados
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo explica cómo puede simular los efectos de los cambios de coste en los costes calculados de un artículo fabricado con una versión de gestión de costes independiente para los costes planificados.
 
 Puede simular los efectos de los cambios de coste en los costes calculados de un artículo fabricado con una versión de gestión de costes independiente para los costes planificados. Use esta versión de gestión de costes independiente para especificar los registros de coste pendientes que reflejen los cambios de coste incrementales y para calcular el impacto del coste en los artículos fabricados. Debido a que el principio de reserva de costes activos se usará en los cálculos de lista de materiales (L. MAT), solo será necesario especificar los cambios de coste incrementales.
@@ -54,5 +57,7 @@ En los casos siguientes se muestra cómo se usa la versión de gestión de coste
 -   Simule el cambio de coste de una fórmula de cálculo de coste indirecto. Por ejemplo, el cambio de coste podría reflejar un aumento o disminución esperados de los gastos generales de fabricación. Si desea definir el cambio en una fórmula de cálculo de coste indirecto, use la página **Configuración de la hoja de gestión de costes** para especificar un registro de coste pendiente en la versión de gestión de costes de simulación, y validar y guardar el cambio.
 
 Tras especificar los cambios de coste simulados, calcule los costes de los artículos fabricados que se verán afectados por dichos cambios. Use la página **Cálculo** para la versión de gestión de costes de simulación e identifique los artículos fabricados seleccionados que se verán afectados por los cambios de coste. Los cálculos de L. MAT se aplicarán a todos los artículos fabricados, salvo que seleccione artículos seleccionados. Como alternativa, puede usar la opción de cálculo de L. MAT para las actualizaciones de tipo "Utilizado en". Visualice los registros de coste de artículo dentro de la versión de gestión de costes de simulación para analizar cómo los cambios de coste simulados afectaron a los costes de los artículos fabricados seleccionados. Use las páginas **Precio de artículo** y **Calcular coste del artículo** para ver y analizar los costes.
+
+
 
 

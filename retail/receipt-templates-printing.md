@@ -1,6 +1,6 @@
 ---
 title: "Plantillas e impresión de recibos"
-description: "Este artículo describe cómo modificar diseños de formulario para modificar la forma de imprimir recibos, facturas y otros documentos. Microsoft Dynamics 365 para las operaciones (Retail incluye a un diseñador de formularios para poder utilizar con facilidad para crear y modificar diversos tipos de diseños de formulario."
+description: "Este artículo describe cómo modificar diseños de formulario para modificar la forma de imprimir recibos, facturas y otros documentos. Microsoft Dynamics 365 for Operations - Retail incluye un diseñador de formularios que puede usar para crear y modificar con facilidad diversos tipos de diseños de formulario."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="receipt-templates-and-printing"></a>Plantillas e impresión de recibos
 
-Este artículo describe cómo modificar diseños de formulario para modificar la forma de imprimir recibos, facturas y otros documentos. Microsoft Dynamics 365 para las operaciones (Retail incluye a un diseñador de formularios para poder utilizar con facilidad para crear y modificar diversos tipos de diseños de formulario.
+[!include[banner](includes/banner.md)]
 
-** Importante: ** Debe configurar los diseños de formulario y perfiles de recibo de configuración imprimir recibos y otros documentos de PDV moderno al por menor y para nublarse PDV. Puede incluir diseños de formulario varios en un perfil de recibo. Puede asignar el perfil de recibo a una impresora modificando un perfil de hardware.
+
+Este artículo describe cómo modificar diseños de formulario para modificar la forma de imprimir recibos, facturas y otros documentos. Microsoft Dynamics 365 for Operations - Retail incluye un diseñador de formularios que puede usar para crear y modificar con facilidad diversos tipos de diseños de formulario.
+
+**Importante** Debe configurar diseños de formulario y perfiles de recibo para imprimir recibos y otros documentos desde PDV moderno al por menor y PDV en la nube. Puede incluir varios diseños de formulario en un perfil de recibo. Puede asignar el perfil de recibo a una impresora modificando un perfil de hardware.
 
 ## <a name="set-up-a-receipt-format"></a>Configurar un formato de recibo
-1.  Haga clic en ** al por menor y comercio ** &gt; ** canal configurar ** &gt; ** Configuración de PDV ** &gt; ** PDV ** &gt; ** formatos de recepción **.
+1.  Haga clic en **Venta minorista y comercio** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **PDV** &gt; **Formatos de recibos**.
 2.  En la página **Formato de recibo**, haga clic en **Nuevo** para crear un diseño de formulario nuevo o seleccione un diseño de formulario existente.
 3.  En el campo **Formato de recibo**, introduzca un identificador para el diseño de formulario y, a continuación, seleccione el tipo de recibo para el que se utiliza este diseño. También puede introducir una descripción y un nombre corto para el recibo en el campo **Título**.
 4.  En la fecha desplegable **General**, seleccione una opción para definir el comportamiento de impresión:
@@ -44,11 +47,11 @@ Este artículo describe cómo modificar diseños de formulario para modificar la
 ## <a name="design-a-receipt-format"></a>Diseñar un formato de recibo
 Utilice el diseñador de formularios para crear gráficamente el diseño del documento de formulario. La página **Diseñador de formato de recibo** tiene tres secciones: **Encabezado**, **Líneas** y **Pie de página**. Algunos tipos de diseño de formulario usan elementos de las tres secciones, mientras que otros usan elementos sólo de una o dos secciones. Para ver los elementos que están disponibles para cada sección, haga clic en el botón apropiado del panel de navegación en el lado izquierdo de la página.
 
-1.  Haga clic en ** al por menor y comercio ** &gt; ** canal configurar ** &gt; ** Configuración de PDV ** &gt; ** PDV ** &gt; ** formatos de recepción **.
+1.  Haga clic en **Venta minorista y comercio** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **PDV** &gt; **Formatos de recibos**.
 2.  En la página **Formato de formulario** seleccione una configuración de formulario, y haga clic en **Diseñador**.
 3.  Haga clic en **Ejecutar** para iniciar la instalación del host del diseñador de venta minorista.
-4.  En la barra de notificación que aparece en la parte inferior de la ventana de Internet Explorer, haga clic en **Abrir** para empezar a instalar el diseñador de un solo clic. (La barra de la notificación aparezca en una ubicación diferente en otros exploradores.) El indicador de progreso muestra el progreso del proceso de instalación.
-5.  Tras la instalación se complete, escriba su Dynamics 365 para las operaciones nombre de usuario y contraseña y, a continuación haga clic en firme ** ** en para iniciar Diseñador.
+4.  En la barra de notificación que aparece en la parte inferior de la ventana de Internet Explorer, haga clic en **Abrir** para empezar a instalar el diseñador de un solo clic. (La barra de notificación puede aparecer en una ubicación diferente en otros exploradores). El indicador de progreso muestra el progreso del proceso de instalación.
+5.  Después de que la instalación esté completada, escriba el nombre de usuario y la contraseña de Dynamics 365 for Operations y haga clic en **Iniciar sesión** para iniciar el diseñador.
 6.  Después de que se lleva a cabo una validación de sus credenciales y se inicia el diseñador, puede empezar a diseñar el formato de recibo o a modificar un formato existente.
 7.  Para crear los elementos del formulario, seleccione la sección **Encabezado**, **Líneas** o **Pie de página** y, a continuación, arrastre un elemento de la sección hasta el espacio de trabajo. La mayoría de los elementos contienen variables, que se rellenan automáticamente con datos de la base de datos. Otros elementos, por ejemplo **Texto**, permiten imprimir texto personalizado en el recibo. **Nota:** puede especificar el número de líneas que abarcará cada sección si ajusta el número de la esquina inferior derecha de esa sección. Para facilitar la modificación de una sección, aumente su altura. Para ello, arrastre la barra de cambio de tamaño situada en la parte inferior de la sección. La altura de la sección en el espacio de trabajo no afectará al número de líneas en el recibo en sí.
 8.  Después de arrastrar el elemento al espacio de trabajo, defina las propiedades de la parte en el panel **Información de objeto **en la parte inferior de la página. Especifique uno o más de los parámetros siguientes:
@@ -63,9 +66,11 @@ Utilice el diseñador de formularios para crear gráficamente el diseño del doc
 ## <a name="assign-receipt-profiles"></a>Asignación de perfiles de recibo
 Los perfiles de recibo se asignan directamente a impresoras mediante el perfil de hardware.
 
-1.  Abre el perfil de hardware haciendo clic en ** al por menor y comercio ** &gt; ** el canal configurar ** &gt; ** Configuración de PDV ** &gt; ** el PDV ** &gt; ** perfil de hardware **.
+1.  Abra el perfil de hardware haciendo clic en **Venta minorista y comercio** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Perfiles del PDV** &gt; **Perfiles de hardware**.
 2.  Seleccione la impresora y, a continuación, en el campo **Perfil de recibo **, asigne el perfil de recibo para usarlo en el registro.
 
 **Nota:** si se usan dos impresoras, una impresora se puede usar para imprimir recibos térmicos estándar de 40 columnas. La segunda impresora se usa normalmente para imprimir los tipos de recibo a toda página que requieren más información. Estos tipos de recibo incluyen los recibos y facturas de pedidos del cliente.
+
+
 
 

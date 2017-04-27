@@ -1,6 +1,6 @@
 ---
 title: "Diseñar un cuestionario"
-description: "En este tema se describe el proceso para crear un cuestionario. El primer paso es diseñar el cuestionario. Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas."
+description: "En este tema se describe el proceso de creación de un cuestionario. El primer paso es diseñar el cuestionario. Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="design-a-questionnaire"></a>Diseñar un cuestionario
 
-En este tema se describe el proceso para crear un cuestionario. El primer paso es diseñar el cuestionario. Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas. 
+En este tema se describe el proceso de creación de un cuestionario. El primer paso es diseñar el cuestionario. Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas. 
 
 Un cuestionario de cuidado diseño puede ayudarle a aumentar la calidad de los datos recopilados. Con un cuidado diseño, puede seleccionar mejor las opciones adecuadas para un cuestionario en el momento adecuado. Los siguientes puntos pueden ayudarle a planificar un cuestionario efectivo:
 
@@ -87,14 +87,14 @@ Los parámetros de cuestionario son opcionales. Es posible que no los use, en fu
 
 Los parámetros del cuestionario definen el anonimato, los códigos de secuencia numérica y los tipos de referencia de un cuestionario. Cuando una organización distribuye un cuestionario, la opción de permitir que los encuestados sigan siendo anónimos podría ser de interés. 
 
-Los códigos de secuencia numérica se usan para organizar preguntas y respuestas. En función de estos códigos de secuencia numérica, los valores se asignan automáticamente a los artículos. 
+Los códigos de secuencia numérica se usan para organizar preguntas y respuestas. Según estos códigos de secuencia numérica, los valores se asignan automáticamente a los artículos. 
 
 Debe definir todos los parámetros antes de empezar a crear los datos. Puede modificar los parámetros del cuestionario en cualquier momento.
 
 ## <a name="questionnaire-components"></a>Componentes de cuestionario
-Los cuestionarios comprenden tres artículos principales: grupos de respuestas que contienen las respuestas para las preguntas de opciones múltiples, las preguntas, y el cuestionario mismo. Puede agrupar opcionalmente las preguntas de un cuestionario en los grupos de resultados. Los grupos de resultados le permiten clasificar consultas y proporcionar análisis adicional sobre el cuestionario. 
+Los cuestionarios constan de tres elementos principales: grupos de respuestas que contienen las respuestas a preguntas de respuesta múltiple, consultas y el propio cuestionario. Opcionalmente puede agrupar las preguntas de un cuestionario en grupos de resultados. Los grupos de resultados le permiten clasificar consultas y proporcionar análisis adicional sobre el cuestionario. 
 
-![QuestionnaireComponents [] (. /media/questionnairecomponents-1024x615.png])(. /media/questionnairecomponents.png)
+[![Componentes del cuestionario](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Responder a grupos y respuestas
 
@@ -235,6 +235,6 @@ De forma alternativa, configure un cuestionario de manera que un encuestado sele
 
 [Distribuir y completar cuestionarios](distribute-questionnaires.md)
 
-[Ver y evaluación de los resultados de cuestionarios (evaluate-questionnaire-results.md])
+[Visualización y evaluación de los resultados de cuestionarios](evaluate-questionnaire-results.md)
 
 

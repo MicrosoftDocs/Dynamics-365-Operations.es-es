@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Conciliación de facturas y pedidos de compra de empresas vinculadas
 
+[!include[banner](../includes/banner.md)]
+
+
 La entidad jurídica de compra que está involucrada en una transacción de negocios entre empresas vinculadas puede estar configurada para usar la conciliación de facturas de proveedores. En este caso, los requisitos de registro para el negocio entre empresas vinculadas y la conciliación de facturas de proveedores deben ser cumplidos antes de que las facturas de proveedor de empresas vinculadas se puedan registrar.
 
 Los ejemplos de este tema usan la configuración siguiente para el negocio entre empresas vinculadas:
@@ -35,8 +38,8 @@ Los ejemplos de este tema usan la configuración siguiente para el negocio entre
 -   Fabrikam Sales es la entidad jurídica vendedora.
 -   El cliente 4020 pertenece a la empresa Fabrikam Ventas.
 -   El proveedor 3024 pertenece a la empresa Fabrikam Compras.
--   En Fabrikam Compras, la información de empresas vinculadas se especifica para el proveedor 3024. Fabrikam Ventas se especifica como la empresa del cliente, y se especifica el cliente 4020 como la cuenta de cliente que corresponde a la entidad jurídica de Fabrikam Compras.
--   En Fabrikam Ventas, la información de empresas vinculadas se especifica para el cliente 4020. Fabrikam Compras se especifica como el proveedor de empresas vinculadas, y se especifica el proveedor 3024 como la cuenta de proveedor que corresponde a la entidad jurídica de Fabrikam Ventas.
+-   En Fabrikam Purchase, la información de empresas vinculadas se especifica para el proveedor 3024. Fabrikam Sales se especifica como la empresa del cliente, y se especifica el cliente 4020 como la cuenta de cliente que corresponde a la entidad jurídica de Fabrikam Purchase.
+-   En Fabrikam Sales, la información de empresas vinculadas se especifica para el cliente 4020. Fabrikam Sales se especifica como la empresa del proveedor, y se especifica el cliente 3024 como la cuenta de proveedor que corresponde a la entidad jurídica de Fabrikam Sales.
 
 En los ejemplos que se muestran a continuación se utiliza la siguiente configuración de conciliación de facturas de proveedores para Fabrikam Purchase:
 -   En la página Parámetros de proveedores, la opción Habilitar validación de conciliación de facturas está seleccionada.
@@ -45,7 +48,7 @@ En los ejemplos que se muestran a continuación se utiliza la siguiente configur
 
 ## <a name="example-price-matching-and-intercompany-trade"></a>Ejemplo: la conciliación de precio y el negocio entre empresas vinculadas
 Los importes netos para la factura de proveedor de empresas vinculadas y la factura de cliente de empresa vinculada deben ser iguales. Este requisito anula la aprobación de conciliación de facturas o los porcentajes de tolerancia de precios aplicables. Por ejemplo, puede seguir estos pasos.
-1.  En Fabrikam Compras, cree el pedido de ventas SO888 para el cliente 4020. El pedido de compra de empresas vinculadas ICPO222 se creará automáticamente para el proveedor 3024 en Fabrikam Compras, y el pedido de ventas ICSO888 en Fabrikam Ventas.
+1.  En Fabrikam Purchase, crea el pedido de ventas SO888 del cliente 4020. Se crea automáticamente el pedido de compra ICPO222 de empresas vinculadas para el proveedor 3024 en Fabrikam Purchase y el pedido de ventas ICSO888 en Fabrikam Sales.
 2.  En Fabrikan Sales, registra la recepción de artículos y el albarán. El estado de ICSO888 cambia a Entregado. El estado de ICPO222 cambia a Recibido.
 3.  En Fabrikan Sales, actualiza una factura para ICSO888. El precio unitario es 0,45, y se actualizan 100 artículos.
 4.  Crea una factura para ICPO222 en Fabrikam Purchase. Modifica el precio unitario accidentalmente de 45,00 a 54,00. Se muestra un icono que indica que el precio excede la tolerancia de precio permitida de 2 por ciento.
@@ -60,10 +63,12 @@ En el ejemplo que se muestra a continuación se utiliza la siguiente configuraci
 -   La cantidad disponible del artículo B-R14 es 0.
 
 Por ejemplo, puede seguir estos pasos.
-1.  En Fabrikam Compras, cree el pedido de ventas SO999 para el cliente 4020. El pedido incluye un artículo de línea: 100 pilas (artículo B-R14) a un precio unitario de 1.00 cada una. Se crea automáticamente el pedido de compra ICPO333 de empresas vinculadas para el proveedor 3024 en Fabrikam Purchase y el pedido de ventas ICSO999 en Fabrikam Sales.
+1.  En Fabrikam Purchase, cree el pedido de ventas SO999 del cliente 4020. El orden contiene un artículo de línea: 100 baterías (artículo B-R14) a un precio unitario de 1,00 por cada uno. Se crea automáticamente el pedido de compra ICPO333 de empresas vinculadas para el proveedor 3024 en Fabrikam Purchase y el pedido de ventas ICSO999 en Fabrikam Sales.
 2.  En Fabrikan Sales, actualiza una factura para ICSO999. El registro no se finaliza correctamente, ya que el artículo no se encuentra en existencias y todavía no se ha recibido. Por lo tanto, la Información financiera no puede actualizarse.
 3.  Registra la recepción de artículos y el albarán de ICSO999 en Fabrikam Sales. Una recepción de producto para ICPO333 se registra automáticamente en Fabrikam Purchase. La cantidad recibida del artículo B-R14 en Fabrikam Purchase cambia a 100.
 4.  En Fabrikan Sales, actualiza una factura para ICSO999. El registro se realiza correctamente en ambas entidades jurídicas. La cantidad adquirida del artículo B-R14 en Fabrikam Purchase cambia a 100.
+
+
 
 
 

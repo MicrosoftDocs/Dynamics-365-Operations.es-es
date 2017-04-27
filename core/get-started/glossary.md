@@ -1,5 +1,5 @@
 ---
-title: "Dinámica 365 para el glosario de operaciones"
+title: Glosario de Dynamics 365 for Operations
 description: "El glosario de Microsoft Dynamics 365 for Operations define términos y conceptos clave del producto Microsoft Dynamics 365 for Operations."
 author: tonyafehr
 manager: AnnBe
@@ -25,13 +25,16 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Dinámica 365 para el glosario de operaciones
+# <a name="dynamics-365-for-operations-glossary"></a>Glosario de Dynamics 365 for Operations
+
+[!include[banner](../includes/banner.md)]
+
 
 El glosario de Microsoft Dynamics 365 for Operations define términos y conceptos clave del producto Microsoft Dynamics 365 for Operations. 
 
 ### <a name="a"></a>**A**
 
-###### <a name="accounting-journal"></a>**accounting journal**
+###### <a name="accounting-journal"></a>**diario de contabilidad**
 
 Diario utilizado para registrar las consecuencias financieras de eventos de contabilidad en un sistema contable.
 
@@ -73,7 +76,7 @@ Número de días de un período de tiempo utilizado para notificar que el saldo 
 
 Extracto de la posición financiera de una organización que informa del estado de los activos, los pasivos y los recursos propios en una fecha determinada.
 
-###### <a name="balance-sheet-account"></a>**balance sheet account**
+###### <a name="balance-sheet-account"></a>**cuenta de balance de situación**
 
 Cuenta que describe los cambios de valor notificados en un balance de situación.
 
@@ -89,7 +92,7 @@ Atributo del producto de un lote de proceso o un lote de transferencia.
 
 Fecha recomendada para obtener la calidad o característica óptima de un producto.
 
-###### <a name="best-before-period"></a>**best before period**
+###### <a name="best-before-period"></a>**período de consumo preferente**
 
 Período de tiempo en el que se obtiene la calidad o característica óptima de un producto.
 
@@ -109,23 +112,23 @@ Acción de poner un documento o producto en espera.
 
 Práctica de autorizar gastos solo si se pueden reservar fondos del presupuesto que satisfagan los compromisos de pago futuros.
 
-###### <a name="budget-control-dimension"></a>**budget control dimension**
+###### <a name="budget-control-dimension"></a>**dimensión de control presupuestario**
 
 Combinación de valores de dimensiones financieras activas utilizados para asignar fondos presupuestarios para pagar actividades planificadas.
 
-###### <a name="budget-control-rule"></a>**budget control rule**
+###### <a name="budget-control-rule"></a>**regla de control presupuestario**
 
 Codificación de una decisión empresarial para comprobar el gasto comprometido y real frente a los fondos presupuestarios disponibles asignados a actividades detalladas o agregadas definidas por combinaciones válidas de valores de la dimensión de control presupuestario.
 
-###### <a name="budget-cycle-time-span"></a>**budget cycle time span**
+###### <a name="budget-cycle-time-span"></a>**intervalo de tiempo del ciclo presupuestario**
 
 Período de tiempo determinado como un número de períodos fiscales de calendario. El período presupuestario puede ser diferente del período contable.
 
-###### <a name="budget-group"></a>**budget group**
+###### <a name="budget-group"></a>**grupo presupuestario**
 
 Conjunto de valores de la dimensión financiera en una jerarquía de dimensiones presupuestarias que se utiliza para calcular fondos presupuestarios agregados asignados a valores de la dimensión financiera dominantes sumando fondos presupuestarios asignados a valores de la dimensión financiera subordinados.
 
-###### <a name="budget-model"></a>**budget model**
+###### <a name="budget-model"></a>**modelo presupuestario**
 
 Estructura de planificación utilizada para programar asignaciones de fondos presupuestarios y gastos.
 
@@ -147,7 +150,7 @@ Unidad operativa semiautónoma que se crea para cumplir objetivos empresariales 
 
 Cantidad máxima de trabajo programado que un centro de trabajo puede realizar a un nivel de capacidad requerido.
 
-###### <a name="capacity-planning"></a>**capacity planning**
+###### <a name="capacity-planning"></a>**planificación de capacidad**
 
 Procedimiento para determinar los requisitos de capacidad de recursos que cumplen la demanda de producción en el futuro durante períodos de tiempo determinados.
 
@@ -191,11 +194,11 @@ Artículo producido junto con otro artículo.
 
 Unidad operativa cuyos directores se responsabilizan de los gastos presupuestados y reales.
 
-###### <a name="cost-of-goods-sold"></a>**cost of goods sold**
+###### <a name="cost-of-goods-sold"></a>**coste de bienes vendidos**
 
 Categoría de contabilidad utilizada para sumar las consecuencias financieras de la fabricación de productos y la realización del inventario.
 
-###### <a name="cost-variance"></a>**cost variance**
+###### <a name="cost-variance"></a>**desviación de coste**
 
 Diferencia entre un coste esperado y un coste real.
 
@@ -249,7 +252,7 @@ El vehículo usado para el despliegue en la prueba de aceptación de usuario (UA
 
 Una herramienta de Visual Studio que usa para crear, actualizar y examinar sus elementos modelo.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**. \ \ dimensiones financieras configuración basada en dimensiones **
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**..\financial-dimensions\dimension-based configuration**
 
 Tecnología de configuración utilizada para crear variantes del producto seleccionando valores para las dimensiones de producto.
 
@@ -261,7 +264,7 @@ Producto identificable exclusivamente.
 
 Método para poner en espera el proceso de una operación mientras los artículos pedidos se encuentran en un proceso de control de calidad.
 
-###### <a name="document-management-system"></a>**document management system**
+###### <a name="document-management-system"></a>**sistema de gestión de documentos**
 
 Servicio de solicitud para almacenar y gestionar los documentos de una organización.
 
@@ -293,7 +296,7 @@ Personalización de una aplicación agregando funcionalidad al código existente
 
 Clasificador de datos financieros que se crea desde las partes, las ubicaciones, los productos y las actividades en una organización y que se usa para la información de gestión.
 
-###### <a name="financial-dimension-value"></a>**financial dimension value**
+###### <a name="financial-dimension-value"></a>**valor de la dimensión financiera**
 
 Elemento de datos en el dominio de una dimensión financiera.
 
@@ -353,7 +356,7 @@ Práctica de hacer coincidir los precios de la factura de proveedor y las cantid
 
 Agrupación de familias de productos que se utiliza para la programación de previsión y demanda.
 
-###### <a name="item-relation"></a>**item relation**
+###### <a name="item-relation"></a>**relación de artículo**
 
 Referencia al grupo de asignación de artículos o el artículo y sus dimensiones del producto en una regla kanban.
 
@@ -375,7 +378,7 @@ Proceso o actividad de transferencia en un flujo de producción desencadenado po
 
 Retirada de componentes de producto del inventario para completar los trabajos de producción kanban.
 
-###### <a name="kanban-product-quantity"></a>**kanban product quantity**
+###### <a name="kanban-product-quantity"></a>**cantidad de productos kanban**
 
 Número de requisitos de artículos que se llevan a cabo en un kanban basándose en una regla kanban.
 
@@ -499,9 +502,9 @@ Parte de un producto.
 
 ###### <a name="product-dimension"></a>**dimensión del producto**
 
-El tamaño, el color, o los atributos de producto de la configuración para el que se utiliza. \ \ dimensiones financieras configuración basada en dimensiones.
+Atributos de tamaño, color o configuración del producto que se utilizan para ..\financial-dimensions\dimension-based configuration.
 
-###### <a name="product-family"></a>**product family**
+###### <a name="product-family"></a>**familia de productos**
 
 Agrupación única de artículos, servicios o derechos que participa en las mismas actividades de producción o entrega o que se ofrecen a los mismos segmentos de mercado. En Microsoft Dynamics 365 for Operations, la agrupación se representa mediante el uso de una clave de asignación de previsión.
 
@@ -509,23 +512,23 @@ Agrupación única de artículos, servicios o derechos que participa en las mism
 
 Representación estándar o funcional de un producto que es la base para las variantes de producto de configuración.
 
-###### <a name="product-receipt"></a>**product receipt**
+###### <a name="product-receipt"></a>**recepción de producto**
 
 Documento de origen que justifica la recepción de productos pedidos, la recepción de productos devueltos o la recepción de productos recibidos en una remesa.
 
-###### <a name="product-variant"></a>**product variant**
+###### <a name="product-variant"></a>**variante del producto**
 
 Configuración de un productos maestro.
 
-###### <a name="production-flow"></a>**production flow**
+###### <a name="production-flow"></a>**flujo de producción**
 
 Proceso de producción diseñado mediante principios Lean.
 
-###### <a name="production-flow-model"></a>**production flow model**
+###### <a name="production-flow-model"></a>**modelo de flujo de producción**
 
 Representación de la capacidad de producción proporcionada por un grupo de celdas de trabajo en un proceso de flujo de producción.
 
-###### <a name="production-order"></a>**production order**
+###### <a name="production-order"></a>**pedido de producción**
 
 Documento de origen que justifica los requisitos para producir artículos que satisfagan una demanda.
 
@@ -599,7 +602,7 @@ Producto cuya distribución está limitada o restringida por una autoridad guber
 
 Documento de origen que justifica un contrato entre dos o más partes basado en un pacto por el que una parte que desea vender se compromete a vender una cantidad o un valor en particular de un producto durante un período de tiempo a cambio de precios y descuentos favorables.
 
-###### <a name="sales-agreement-policy"></a>**sales agreement policy**
+###### <a name="sales-agreement-policy"></a>**directiva de acuerdo de venta**
 
 Directiva que autoriza a las partes a modificar los términos del acuerdo de venta.
 
@@ -615,7 +618,7 @@ Documento de origen que justifica una oferta para suministrar una cantidad de pr
 
 Conjunto definido de privilegios de acceso a aplicaciones. El rol de seguridad asignado a un usuario determina qué tarea puede realizar el usuario y qué partes de la interfaz del usuario puede ver el usuario. Se debe asignar al menos un rol de seguridad a todos los usuarios para que tengan acceso al sistema.
 
-###### <a name="segregation-of-duties"></a>**segregation of duties**
+###### <a name="segregation-of-duties"></a>**segregación de controles**
 
 Principio de diseño utilizado para reducir el riesgo de fraude, irregularidades y errores que separa el registro, la verificación, la autorización, la custodia de activos y los deberes de revisión periódica de las personas que documentan o registran las consecuencias financieras de transacciones económicas o bien participan en ellas.
 
@@ -697,7 +700,7 @@ Unidad operativa que controla uno o más flujos de producción.
 
 Método de modelar de productos maestros y buscar configuraciones de variantes del producto.
 
-###### <a name="vat-value-added-tax"></a>** IVA (impuesto sobre el valor añadido) **
+###### <a name="vat-value-added-tax"></a>**IVA (impuesto sobre el valor añadido)**
 
 Impuesto aplicado a productos en cada fase de su producción en base al valor añadido durante dicha fase.
 
@@ -705,7 +708,7 @@ Impuesto aplicado a productos en cada fase de su producción en base al valor a�
 
 Listado de ofertas de productos que están disponibles para comprar a un proveedor.
 
-###### <a name="vendor-invoice"></a>**vendor invoice**
+###### <a name="vendor-invoice"></a>**factura de proveedor**
 
 Documento de origen que justifica una solicitud de pago de un proveedor. Una factura de proveedor puede remitir a uno o varios pedidos de compra. Cuando la factura de proveedor se autoriza, se puede realizar un pago al proveedor.
 
@@ -722,5 +725,7 @@ Persona que asume el rol de un empleado o un contratista y cobra a cambio de sus
 ###### <a name="workspace"></a>**espacio de trabajo**
 
 Una página que proporciona una visión general de una de las actividades que el usuario realiza. La página usa los mosaicos, las listas y los gráficos para mostrar trabajo pendientes y datos relacionados de varias fuentes, y en la página aparecen las tareas frecuentes relacionadas con estos datos. Los mosaicos que aparecen en la sección de resumen del espacio de trabajo también se muestran en la sección relacionada en el panel de información.
+
+
 
 

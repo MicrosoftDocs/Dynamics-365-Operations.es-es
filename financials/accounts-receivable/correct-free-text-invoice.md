@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="correct-a-free-text-invoice"></a>Corrección de una factura de servicios
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo explica cómo corregir una factura de servicios que se ha registrado y cómo reenviarla como factura corregida.
 
-Para corregir una factura de servicios que ya se ha enviado, abra la factura de servicios registrada. En ** factura ** la página, seleccione ** ** cancelación y, a continuación ** corregir la factura **. Seleccione un código de razón, agregue comentarios y seleccione la fecha para la nueva factura corregida. Puede modificar la factura corregida y registrarla. 
+Para corregir una factura de servicios que ya se ha registrado, ábrala. En la página **Factura**, seleccione **Cancelar** y, a continuación seleccione **Corregir factura**. Seleccione un código de razón, agregue comentarios y seleccione la fecha para la nueva factura corregida. Puede modificar la factura corregida y registrarla. 
 
 Al registrar la factura corregida, se crea una factura de cancelación por un importe de crédito que sea igual al importe de la factura original. Por lo tanto, el saldo combinado de las facturas original y de cancelación es igual a 0 (cero). La factura de cancelación se liquida con la factura original. 
 
@@ -43,9 +46,11 @@ Después de registrar la factura corregida, tendrá tres facturas:
 Puede identificar la cancelación y la corrección de facturas de dos maneras:
 
 -   La página **Todas las facturas de servicios** incluye una columna **Corrección** donde puede ver qué facturas se han cancelado y qué facturas se han corregido.
--   El encabezado de la factura de servicios muestra un estado de ** cancelar la factura “número de factura\[\]” ** o ** factura corregida “número de factura\[\]” **.
+-   El encabezado de la factura de servicios muestra un estado de **Factura de cancelación '\[número de factura\]'** o **Factura corregida '\[número de factura\]'**.
 
 > [!NOTE]
-> Esta función sólo está disponible si ** corrección de factura de servicios ** se selecciona la clave de configuración.
+> Esta característica solo está disponible si se selecciona la clave de configuración **Corrección de factura de servicios**.
+
+
 
 

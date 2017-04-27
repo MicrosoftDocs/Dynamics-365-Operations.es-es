@@ -1,6 +1,6 @@
 ---
-title: "Informes financieros de la vista y el diseño"
-description: "Este artículo proporciona las prácticas que entran con usted con la vista y crear informes financieros para Microsoft Dynamics 365 para las operaciones. El informe financiero consta de una experiencia de la vista dentro de Dynamics 365 para las operaciones de entrada y una vez que el diseñador de informes que le permite crear y editar informes financieros."
+title: "Ver y diseñar informes financieros"
+description: "En este artículo se proporcionan ejercicios que le enseñarán a visualizar y crear informes financieros para Microsoft Dynamics 365 for Operations. El informe financiero consta de una experiencia de visualización en Dynamics 365 for Operations y un diseñador de informes con un solo clic que le permite crear y editar informes financieros."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="view-and-design-financial-reports"></a>Informes financieros de la vista y el diseño
+# <a name="view-and-design-financial-reports"></a>Ver y diseñar informes financieros
 
-Este artículo proporciona las prácticas que entran con usted con la vista y crear informes financieros para Microsoft Dynamics 365 para las operaciones. El informe financiero consta de una experiencia de la vista dentro de Dynamics 365 para las operaciones de entrada y una vez que el diseñador de informes que le permite crear y editar informes financieros.  
+[!include[banner](../includes/banner.md)]
+
+
+En este artículo se proporcionan ejercicios que le enseñarán a visualizar y crear informes financieros para Microsoft Dynamics 365 for Operations. El informe financiero consta de una experiencia de visualización en Dynamics 365 for Operations y un diseñador de informes con un solo clic que le permite crear y editar informes financieros.  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>Ejercicio 1: Generar y explorar un informe financiero predeterminado
 -----------------------------------------------------------
@@ -45,7 +48,7 @@ Para este ejercicio, generará y explorará un informe predeterminado existente.
 3.  Guarde la configuración de la dimensión. A continuación, generaremos un informe y exploraremos los datos del informe.
 4.  Vaya a **Informes financieros** en **Consultas e informes** en Contabilidad general.
 5.  Seleccione la fila para el informe denominado **Detalle de contabilidad general – predeterminado**.
-6.  Seleccione **Editar**. Nota: Se le solicitará que entrada descargar una vez que diseñador de informes y iniciar sesión. Use sus credenciales para iniciar sesión.
+6.  Seleccione **Editar**. Nota: Se le pedirá que descargue el diseñador de informes con un solo clic y que inicie sesión. Use sus credenciales para iniciar sesión.
 7.  Cambie el año base a 2012 y seleccione **Generar**. Cuando se genera un informe desde el diseñador de informes, se abrirá en una pestaña nueva del explorador. Puede explorador el informe en la nueva pestaña del explorador o ir a su pestaña del explorador original y abrir el informe desde allí seleccionándolo en la lista **Informes financieros**.
 8.  En el informe abierto, seleccione uno de los importes para explorar el detalle de la cuenta para el informe.
 9.  Una vez en el detalle de la cuenta, seleccione una cuenta con datos y realice la acción **Obtener detalles de nivel de transacción de informe**. En el nivel de la transacción del informe, puede ver las propiedades (atributos) que están incluidos en el diseño del informe. En función de la transacción y de la cuenta, se pueden mostrar algunos o todos los atributos.
@@ -55,7 +58,7 @@ Para este ejercicio, generará y explorará un informe predeterminado existente.
 13. Seleccione **Opciones de informe**.
 14. Seleccione **Agregar una dimensión de filtro** y elija **Unidad de negocio**.
 15. Escriba 001 en el campo y seleccione **Aceptar**. El informe muestra ahora solo los datos para la unidad de negocio 001. Esta es una vista personalizada del informe y no está disponible para que la vean los demás.
-16. Cierre el informe filtrado. Los informes financieros se pueden mostrar en cualquier divisa que se han agregado a Dynamics 365 para las operaciones.
+16. Cierre el informe filtrado. Los informes financieros se pueden mostrar en cualquier divisa que se agregue a Dynamics 365 for Operations.
 17. Seleccione **Divisa** y, a continuación, seleccione **EUR**. El informe se muestra ahora en euros. Los códigos de divisa o los símbolo de divisa incluidos en el diseño del informe se muestran ahora en la divisa aplicada. Si no se define ningún símbolo de divisa para una divisa, no se muestra el símbolo de la divisa.
 18. Cierre el informe **Detalle de contabilidad general**.
 19. Cierre el **Diseñador de informes**.
@@ -66,7 +69,7 @@ En este ejercicio, modificará un informe predeterminado existente. Actualizará
 1.  Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
 2.  Seleccione la fila para el informe denominado **Resumen de saldo de comprobación – predeterminado**.
 3.  Seleccione **Editar**. **Resumen de saldo de comprobación – predeterminado** se abrirá en el diseñador de informes.
-4.  Seleccione **Archivo** y, a continuación, **Guardar como** y asigne al informe el nombre Saldo de comprobación detallado con atributos. Nota: Un nuevo informe se crea en cualquier momento en el Diseñador de informes, la lista de informes financiera se actualiza en Dynamics 365 para las operaciones.
+4.  Seleccione **Archivo** y, a continuación, **Guardar como** y asigne al informe el nombre Saldo de comprobación detallado con atributos. Nota: siempre que se crea un nuevo informe en el diseñador de informes, se actualizan los informes financieros en Dynamics 365 for Operations.
 5.  Desde la definición del informe, seleccione el icono de la definición de filas para abrir la definición de fila **Saldo de comprobación - predeterminado**.
 6.  Guarde la definición de fila como **Saldo de comprobación detallado con atributos**.
 7.  Con el cursor en la fila 50, seleccione **Editar** y, a continuación, **Insertar filas de dimensiones**. Insertar filas de dimensiones le permite elegir qué dimensiones desea tener en la definición de fila. Para este ejercicio, vamos a crear la definición de fila con Cuenta principal.
@@ -96,7 +99,7 @@ En este ejercicio, modificará un informe predeterminado existente. Actualizará
 25. Cierre el informe **Saldo de comprobación detallado con atributos**.
 26. Cierre el **Diseñador de informes**.
 
-## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Ejercicio 3: Crear un informe multidimensional mediante un árbol de informes
+## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Ejercicio 3: Crear un informe multidimensional mediante un organigrama
 Para este ejercicio, modificará un informe predeterminado existente. Se creará un organigrama y se agregará a una definición del informe para producir un informe de ingresos de centro de coste o por división. Una vez que se completen las actualizaciones, generará el informe de ingresos de centro de coste o por división y explorará el informe con el organigrama. Empezaremos por la lista Informes financieros.
 
 1.  Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
@@ -138,7 +141,7 @@ Para este ejercicio, modificará un informe predeterminado existente. Agregará 
 1.  Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
 2.  Seleccione la fila del informe denominado **Balance de situación e informe de ingresos en paralelo – predeterminado**
 3.  Seleccione **Editar**. **Balance de situación e informe de ingresos en paralelo – predeterminado** se abrirá en el diseñador de informes.
-4.  Seleccione ** archivo ** &gt; ** Guardar como ** y denominan el informe ** balance de situación consolidados y cuenta de resultados en paralelo **.
+4.  Seleccione **Archivo** &gt; **Guardar como** y asígnele el nombre **Balance de situación consolidado e informe de ingresos en paralelo al informe**.
 5.  Cambie el año base a 2012.
 6.  Haga clic en la flecha desplegable Árbol y seleccione **Jerarquías organizativas**.
 7.  Haga clic en la flecha desplegable Árbol y seleccione **Contoso Holdings**.
@@ -151,7 +154,7 @@ Para este ejercicio, modificará un informe predeterminado existente. Agregará 
 14. Cierre **Balance de situación consolidado e informe de ingresos en paralelo**.
 15. Cierre el **Diseñador de informes**.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Ejercicio 5: Crear un informe de forma simultánea departamental
+## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Ejercicio 5: Crear un informe de departamento en paralelo
 En este ejercicio, creará un informe nuevo. El informe es un informe de ingresos de departamento en paralelo. Usará una definición de fila existente, pero creará una definición del informe nueva y una definición de columna nueva que use filtros de dimensión. Empezaremos por la lista Informes financieros.
 
 1.  Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
@@ -179,8 +182,10 @@ En este ejercicio, creará un informe nuevo. El informe es un informe de ingreso
 18. **Guarde** sus cambios y **genere**. Una vez que el informe complete la generación y se abra, puede explorar el informe.
 
 ## <a name="additional-resources"></a>Recursos adicionales
-Informe financiero [] (\ \ operaciones financieras contabilidad general financial-reporting-getting-started.md \ 
-) [] informes financieros de la vista operaciones financieras (\ \ \ contabilidad general view-financial-reports.md 
-) [] blog de los informes financieros de Dynamics (http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Informes financieros](\financials\general-ledger\financial-reporting-getting-started.md) 
+[Ver informes financieros](\financials\general-ledger\view-financial-reports.md) 
+[Blog de Dynamics Financial Reporting](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

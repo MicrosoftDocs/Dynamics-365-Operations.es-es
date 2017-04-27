@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="dimension-based-product-configuration"></a>Configuración de producto basada en dimensiones
 
+[!include[banner](../includes/banner.md)]
+
+
 La configuración de producto basada en dimensiones representa una solución sencilla para crear muchas variantes de producto a partir de un producto maestro único y su lista de materiales.
 
-la configuración de productos Dimensión-basada es una de las tres tecnologías integradas de la configuración de productos. Las otras dos tecnologías son variantes predefinidas y configuración basada en restricciones. Las tres tecnologías usan un producto maestro como punto de partida y permiten al usuario crear muchas variantes del producto para un producto maestro.
+La configuración de producto basada en dimensiones es una de las tres tecnologías de configuración de producto integradas. Las otras dos tecnologías son variantes predefinidas y configuración basada en restricciones. Las tres tecnologías usan un producto maestro como punto de partida y permiten al usuario crear muchas variantes del producto para un producto maestro.
 
 ## <a name="key-concepts"></a>Conceptos clave
 La configuración de producto basada en dimensiones se basa en los siguientes conceptos clave:
@@ -68,10 +71,12 @@ La ruta de configuración determina la secuencia de los grupos de configuración
 Las reglas de configuración representan un mecanismo para garantizar que un producto incluido en un grupo de configuración de una L. MAT fuerza una inclusión o una exclusión de un producto en un grupo de configuración diferente en la misma L. MAT.
 
 ## <a name="product-modeling-process"></a>Proceso de modelos del producto
-La secuencia natural para crear un modelo de producto para un producto basado en dimensiones comienza con la definición de los grupos de configuración pertinentes. Es importante garantizar que todos los productos que se usarán en la L. MAT se han liberado a la empresa para la que se crea el modelo de producto. Con estos bloques de creación en el lugar, el usuario puede crear la L y los grupos de configuración a todas las líneas pertinentes de L. MAT Una vez finalizada la lista de materiales, una ruta de configuración se puede definir para pedir grupos de configuración en la secuencia correspondiente. \_datos adjuntos de 282671 " id= de\[" width= " axtable= " alignnone de align=” 1187 "\][proceso Dimensión- basado![de modelo de producto (]. /media/dimension-based-product-modeling-process-v1.png])(. proceso Dimensión- basado\[/caption\] si hay determinados productos de grupos de configuración diferentes que debe o no debe para usarse junto, se de modelo de producto de /media/dimension-based-product-modeling-process-v1.png) puede crear reglas de configuración que se aplicarán estas relaciones de productos. Después de que la L. MAT. se haya vinculado a un producto maestro basado en dimensiones a través de una versión de L. MAT y se hayan tanto aprobado como activado, puede crear configuraciones de productos y especificar un nombre para cada configuración. Las configuraciones se pueden definir antes de que se genere cualquier transacción o se pueden realizar cuando se produzca la necesidad de una configuración determinada.
+La secuencia natural para crear un modelo de producto para un producto basado en dimensiones comienza con la definición de los grupos de configuración pertinentes. Es importante garantizar que todos los productos que se usarán en la L. MAT se han liberado a la empresa para la que se crea el modelo de producto. Con estos bloques de creación implementados, el usuario puede crear la L. MAT y asignar grupos de configuración a todas las líneas de L. MAT pertinentes. Cuando se completa la L. MAT, se puede definir una ruta de configuración para solicitar los grupos de configuración en la secuencia adecuada. \[caption id="attachment\_282671" align="alignnone" width="1187"\][![Proceso de modelado de productos basado en dimensiones](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Proceso de modelado de productos basado en dimensiones\[/caption\] Si hay determinados productos de diferentes grupos de configuración que deben o no deben usarse juntos, puede crear reglas de configuración que apliquen estas relaciones de productos. Después de que la L. MAT. se haya vinculado a un producto maestro basado en dimensiones a través de una versión de L. MAT y se hayan tanto aprobado como activado, puede crear configuraciones de productos y especificar un nombre para cada configuración. Las configuraciones se pueden definir antes de que se genere cualquier transacción o se pueden realizar cuando se produzca la necesidad de una configuración determinada.
 
 ### <a name="suggested-use"></a>Uso sugerido
 
 La tecnología de configuración basada en dimensiones se puede usar para productos con variabilidad limitada y la combinación del tamaño de las dimensiones de producto estándar, color, estilo y configuración es inadecuada para identificar una variante del producto específica. Un ejemplo podría ser la bicicleta con el alto del marco de la bicicleta, el tamaño de la rueda, los tipos de freno y las distintas marchas.
+
+
 
 

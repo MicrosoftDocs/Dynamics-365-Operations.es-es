@@ -1,6 +1,6 @@
 ---
-title: "Agregar un control de las recomendaciones a la página de la transacción en un dispositivo de PDV"
-description: "Este tema describe cómo agregar un control de las recomendaciones a proteger la transacción en un dispositivo de (POS) de punto de venta mediante el diseñador de pantalla en Microsoft Dynamics 365 para las operaciones."
+title: "Agregue un control de recomendaciones a la página de transacción en un dispositivo de PDV"
+description: "Este tema describe cómo agregar un control de recomendaciones a la pantalla de transacción en un dispositivo de punto de venta (PDV) mediante el diseñador de pantalla en Microsoft Dynamics 365 for Operations."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,55 +25,60 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Agregar un control de las recomendaciones a la página de la transacción en un dispositivo de PDV
+# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Agregue un control de recomendaciones a la página de transacción en un dispositivo de PDV
 
-Este tema describe cómo agregar un control de las recomendaciones a proteger la transacción en un dispositivo de (POS) de punto de venta mediante el diseñador de pantalla en Microsoft Dynamics 365 para las operaciones.
+[!include[banner](includes/banner.md)]
 
-Puede mostrar recomendaciones del producto en el dispositivo de PDV cuando se usa el Microsoft Dynamics 365 para las operaciones. es el *Recommendations* artículos que el cliente puede ser interesado en función de su historial de compra, los artículos de la lista de solicitudes, y los artículos que compraron otros clientes en línea y en Tiendas de físicas. Para mostrar recomendaciones del producto, debe agregar un control a proteger la transacción mediante el diseñador de visualización.
 
-## <a name="open-layout-designer"></a>Diseñador de diseño abierto
-1.  ** Va al por menor y comercio ** &gt; ** el canal configurar ** &gt; ** Configuración de PDV ** &gt; ** PDV ** &gt; ** los diseños de Pantalla **.
-2.  Use el filtro rápido para encontrar en la pantalla a la que desea agregar el control. Por ejemplo, filtro en ** identificador de diseño de pantalla ** campo mediante un valor de “F2CP16: los 9M”.
-3.  En la lista, busque y seleccione el registro deseado. Por ejemplo, “Name seleccione: F2CP16: identificador de los 9M Screen Layout: F2CP16: los 9M”.
-4.  Haga clic en ** diseñador **.
-5.  Siga los indicadores para iniciar al diseñador. Cuando se le solicite para las credenciales, especifique las mismas credenciales que estén en usar cuando arrancaron al diseñador ** los diseños de Pantalla ** de la página.
-6.  Cuando se inicia sesión, una página similar a la siguiente aparece. El diseño se diferente en función de las personalizaciones creadas para su tienda.
+Este tema describe cómo agregar un control de recomendaciones a la pantalla de transacción en un dispositivo de punto de venta (PDV) mediante el diseñador de pantalla en Microsoft Dynamics 365 for Operations.
 
-![screenlayout-pic-1 [] (. /media/screenlayout-pic-1.png])(. /media/screenlayout-pic-1.png) Elija una opción de visualización
+Puede mostrar recomendaciones del producto en el dispositivo de PDV cuando utilice Microsoft Dynamics 365 for Operations. Las *Recomendaciones* son artículos que pueden interesar a su cliente en función de su historial de compra, los artículos de su lista de deseos y los artículos que compraron otros clientes en línea y en tiendas de físicas. Para mostrar recomendaciones del producto, debe agregar un control a la pantalla de transacción mediante el diseñador de pantalla.
+
+## <a name="open-layout-designer"></a>Abra el Diseñador
+1.  Vaya a **Venta minorista y comercio** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **PDV** &gt; **Diseños de pantalla**.
+2.  Utilice el filtro rápido para buscar la pantallla a la que desea agregar el control. Por ejemplo, filtro el campo **Id. de diseño de pantalla** usando un valor de ‘F2CP16:9M’.
+3.  En la lista, busque y seleccione el registro deseado. Por ejemplo, seleccione ‘Nombre: F2CP16:9M Id. de diseño de pantalla: F2CP16:9M’.
+4.  Haga clic en **Diseñador**.
+5.  Siga las instrucciones para iniciar al diseñador. Cuando se le soliciten las credenciales, introduzca las mismas credenciales que utilizó cuando se inició el Diseñador desde la página **Diseños de pantalla**.
+6.  Cuando inicie sesión, aparece una página similar a la siguiente. El diseño variará en función de las personalizaciones que se crearon para su tienda.
+
+[![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png) Elija una opción de visualización
 -----------------------
 
-Existen dos opciones de configuraciones disponibles. Elija la opción que funciona mejor para su tienda, y siga las instrucciones restantes de acabar de configurar el control. Las dos opciones son:
--   Las recomendaciones siempre son visibles.
--   A ** recomendaciones ** ficha aparece en la cuadrícula a la derecha de la pantalla.
+Hay dos opciones de configuración disponibles: Elija la opción que mejor se ajuste a su tienda y siga las instrucciones restantes para finalizar la configuración del control. Las dos opciones son:
+-   Las recomendaciones siempre están visibles.
+-   Aparece una pestaña de **Recomendaciones** en la cuadrícula del lado derecho de la pantalla.
 
-#### <a name="to-make-recommendations-always-visible"></a>Para hacer recomendaciones siempre visible
+#### <a name="to-make-recommendations-always-visible"></a>Para hacer que las recomendaciones siempre estén visibles
 
-1.  Disminuir el alto del espacio de los detalles de las líneas de transacción de modo que el mismo alto que el panel cliente a la izquierda. [] (. /media/pic-2.png![) [] (screenlayout-pic-2. /media/screenlayout-pic-2.png])(. /media/screenlayout-pic-2.png)
-2.  En el menú a la izquierda, arrastrar y soltar el control de las recomendaciones entre al área de los detalles de la línea de transacción y en la parte inferior de la cuadrícula de botones en el centro de visualización de la transacción. Cambiar tamaño del control de modo que está dentro de ese espacio. [] (. /media/pic-3.png![) [] (screenlayout-pic-3. /media/screenlayout-pic-3.png])(. /media/screenlayout-pic-3.png)
-3.  Hace clic en ** X ** para guardar y salir de diseñador.
-4.  En Dynamics 365 para las operaciones **, vaya al por menor y comercio ** &gt; ** el TI al por menor ** &gt; ** las programaciones de distribución **.
-5.  En la lista, seleccione ** 1090 registros **.
-6.  Haga clic en ejecución ** ahora **.
+1.  Reduzca la altura del área de detalles de las líneas de transacción de manera que tenga la misma altura que el panel de cliente a la izquierda.[](./media/pic-2.png)[![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+2.  En el menú de la izquierda, arrastre y suelte el control de recomendaciones entre el área de detalles de la línea de transacción y la cuadrícula de botones en la parte inferior central de la pantalla de transición. Cambie el tamaño del control de modo que se ajuste a ese espacio.[](./media/pic-3.png)[![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+3.  Haga clic en la **X** para guardar y salir del Diseñador.
+4.  En Dynamics 365 for Operations, vaya a **, vaya a **Venta minorista y comercio** &gt; **TI de venta minorista** &gt; **Programaciones de distribución**.
+5.  En la lista, seleccione **1090, Cajas registradoras**.
+6.  Haga clic en **Ejecutar ahora**.
 
-#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Para agregar una ficha de las recomendaciones a la cuadrícula de botones a la derecha de la pantalla
+#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Para agregar una pestaña de Recomendaciones a la cuadrícula de botones en el lado derecho de la pantalla
 
-1.  Haga clic con el botón secundario en el espacio vacío por debajo de la ficha última en la cuadrícula de botones encuentra a la derecha de la página.
-2.  Haga clic en ** personalice **.![pic-5 [] (. /media/pic-5.png])(. /media/pic-5.png)
-3.  Haga clic en ** nueva ** ficha.
-4.  Obtener una nueva ficha que acaba de agregar. Es posible que tenga que desplazarse hacia abajo.
-5.  En ** ** el contenido desplegable, seleccione ** productos recomendados **. ![pic-6 [] (. /media/pic-6.png])(. /media/pic-6.png)
-6.  En ** etiqueta ** el campo, escriba un nombre para la ficha de las recomendaciones. Por ejemplo, escriba “productos recomendados”.
-7.  En ** imagen ** campo, seleccione la imagen que aparezcan en la ficha.
-8.  Click **OK**. La nueva ficha aparece en la cuadrícula de botones.
-9.  Hace clic en ** X ** para guardar y salir de diseñador.
-10. En Dynamics 365 para las operaciones **, vaya al por menor y comercio ** &gt; ** el TI al por menor ** &gt; ** las programaciones de distribución **.
-11. En la lista, seleccione ** 1090 registros **.
-12. Haga clic en ejecución ** ahora **.
+1.  Haga clic con el botón secundario en el espacio vacío por debajo de la última pestaña en la cuadrícula de botones que se encuentra en el lado derecho de la página.
+2.  Haga clic en **Personalizar**.[![pic-5](./media/pic-5.png)](./media/pic-5.png)
+3.  Haga clic en **Nueva pestaña**.
+4.  Encuentre la nueva pestaña que acaba de agregar. Es posible que tenga que desplazarse hacia abajo.
+5.  En la lista desplegable **Contenido**, seleccione **Productos recomendados**. [![pic-6](./media/pic-6.png)](./media/pic-6.png)
+6.  En el campo **Etiqueta**, escriba un nombre para la pestaña de recomendaciones. Por ejemplo, escriba “Productos recomendados”.
+7.  En el campo **Imagen**, seleccione la imagen que desea que aparezca en la pestaña.
+8.  Haga clic en **Aceptar**. La nueva pestaña aparece en la cuadrícula de botones.
+9.  Haga clic en la **X** para guardar y salir del Diseñador.
+10. En Dynamics 365 for Operations, vaya a **, vaya a **Venta minorista y comercio** &gt; **TI de venta minorista** &gt; **Programaciones de distribución**.
+11. En la lista, seleccione **1090, Cajas registradoras**.
+12. Haga clic en **Ejecutar ahora**.
 
 
 <a name="see-also"></a>Consulte también
 --------
 
-Información general [] personalizada de las recomendaciones del producto (personalized-product-recommendations.md)
+[Visión general de recomendaciones de productos personalizados](personalized-product-recommendations.md)
+
+
 
 

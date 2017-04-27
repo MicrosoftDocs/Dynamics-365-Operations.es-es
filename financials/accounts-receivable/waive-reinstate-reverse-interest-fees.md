@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Condonar, restablecer o revertir cuotas de interés
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo explica cómo condonar, restablecer e invertir los gastos para el interés y las cuotas.
 
 Puede usar los botones de la ficha **Recopilar** que se encuentra en lapágina **Todos los clientes** para condonar, invertir o restablecer cargos:
@@ -89,5 +92,7 @@ Puede invertir transacciones de interés mediante el botón **Interés de transa
 Puede ver el historial detallado de ajustes que se han realizado para notas de interés, como el usuario que ha especificado el ajuste, el tipo de ajuste, el importe y la fecha del ajuste. Por ejemplo, es posible que desee ver los ajustes anteriores que se especificaron para una nota de interés antes de crear una nueva. 
 
 Puede invertir transacciones de interés mediante el botón **Historia **en el separador **Recopilar** de la página **Cliente**.
+
+
 
 

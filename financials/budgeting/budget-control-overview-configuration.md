@@ -1,6 +1,6 @@
 ---
 title: "Visión general del control presupuestario"
-description: "Este artículo presenta el control presupuestario y proporciona información que le ayudará a configurar el control presupuestario en Microsoft Dynamics 365 para las operaciones de modo que se pueda administrar a recursos financieros."
+description: "Este artículo presenta el control presupuestario y proporciona información para ayudarle a configurar el control presupuestario en Microsoft Dynamics 365 for Operations de manera que pueda gestionar los recursos financieros."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,37 +26,40 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-control-overview"></a>Visión general del control presupuestario
 
-Este artículo presenta el control presupuestario y proporciona información que le ayudará a configurar el control presupuestario en Microsoft Dynamics 365 para las operaciones de modo que se pueda administrar a recursos financieros.
+[!include[banner](../includes/banner.md)]
+
+
+Este artículo presenta el control presupuestario y proporciona información para ayudarle a configurar el control presupuestario en Microsoft Dynamics 365 for Operations de manera que pueda gestionar los recursos financieros.
 
 <a name="overview"></a>Visión general
 --------
 
-El control presupuestario en Microsoft Dynamics 365 para las operaciones admite la gestión de los recursos financieros de una organización a través del plan contable, los flujos de trabajo, los grupos de usuarios, los documentos de origen y diarios, el cálculo configurable de fondos disponible, los ciclos presupuestarios, y los umbrales. Cuando los controles están vigentes, una organización puede planear, medir, gestionar y realizar una previsión de sus recursos financieros en su ejercicio. 
+El control presupuestario en Microsoft Dynamics 365 for Operations admite la administración de los recursos financieros de una organización a través del plan de cuentas, los flujos de trabajo, los grupos de usuarios, los documentos de origen y los diarios, el cálculo configurable de los fondos disponibles, los ciclos presupuestarios y los umbrales. Cuando los controles están vigentes, una organización puede planear, medir, gestionar y realizar una previsión de sus recursos financieros en su ejercicio. 
 
-Después de que los presupuestos se hayan aprobado en Dynamics 365 para las operaciones, puede usar planes de presupuesto para generar asientos de registro presupuestario para registrar el presupuesto de gastos para una organización. Además, puede crear o importar asientos de registro presupuestario de un programa de terceros en lugar de usar funcionalidad de planificación de presupuesto. 
+Una vez se hayan aprobado los presupuestos en Dynamics 365 for Operations, puede usar planes presupuestarios para generar asientos de registro presupuestario para registrar el presupuesto de gastos para una organización. También puede crear o importar asientos de registro presupuestario desde un programa de terceros en lugar de usar la funcionalidad de planificación presupuestaria. 
 
 Los gastos se pueden registrar mediante cuentas principales y dimensiones financieras. Puede configurar el control del gasto total para cumplir las directivas y los requisitos de la organización agrupando combinaciones de dimensiones financieras y cuentas principales. 
 
 El gráfico siguiente muestra el lugar del control presupuestario en las etapas de un ciclo presupuestario normal.
 
-![BudgetingCycle [] (. /media/budgetingcycle-300x198.png])(. /media/budgetingcycle.png) 
+[![BudgetingCycle](./media/budgetingcycle-300x198.png)](./media/budgetingcycle.png) 
 
-Puede configurar el control presupuestario en función de varios factores:
+Puede configurar el control presupuestario de acuerdo con varios factores:
 
 -   **Dimensiones financieras**: ¿qué dimensiones financieras se deben usar para los informes de presupuesto y de los valores reales y ¿qué dimensiones financieras son necesarias para controlar el presupuesto? ¿Hay combinaciones de dimensiones específicas o cuentas principales que requieren una atención concreta? Por ejemplo, ¿hay un requisito de seguimiento del presupuesto para los valores reales por centro de coste y programa? ¿Requieren los gastos de viajes una atención especial?
 -   **Tiempo**: ¿Qué período de tiempo (período fiscal, período fiscal hasta la fecha, etc.) se usará para evaluar los fondos presupuestarios disponibles?
--   ** ¿Selección de documentos de origen ** – qué documentos de origen se deben buscar el control presupuestario? ¿Es necesario evaluar los documentos por línea o por documento?
+-   **Documentos de origen** – ¿Qué documentos de origen se deben evaluar para el control presupuestario? ¿¿Los documentos se debe evaluar por línea o por documento?
 -   **Cálculo de fondos disponibles**: ¿Se deben considerar los documentos como las solicitudes de compra (pre-reserva de gasto) y los pedidos de compra (reservas de gastos) en el cálculo de los fondos disponibles? ¿Se deben considerar los documentos con estado de borrador en el cálculo?
 -   **Permiso de anulación**: ¿Quién tiene permiso para superar el presupuesto disponible?
 
-El control presupuestario está completamente integrada con Dynamics 365 para las operaciones. Por tanto, puede evaluar el presupuesto disponible tanto para las compras planificadas como para las compras reales. Los informes y las consultas de presupuesto están disponibles. Por tanto, los usuarios pueden evaluar el presupuesto a lo largo del ciclo presupuestario y, a continuación, puede realizar ajustes necesarios, en forma de transferencias o revisiones presupuestarias. Un director de presupuestos también puede exportar el presupuesto y los valores reales en Microsoft Excel para analizar mejor y realizar la previsión según sea necesario.
+El control presupuestario está completamente integrado con Dynamics 365 for Operations. Por tanto, puede evaluar el presupuesto disponible tanto para las compras planificadas como para las compras reales. Los informes y las consultas de presupuesto están disponibles. Por tanto, los usuarios pueden evaluar el presupuesto a lo largo del ciclo presupuestario y, a continuación, puede realizar ajustes necesarios, en forma de transferencias o revisiones presupuestarias. Un director de presupuestos también puede exportar el presupuesto y los valores reales en Microsoft Excel para analizar mejor y realizar la previsión según sea necesario.
 
 ## <a name="configuring-budget-control"></a>Configuración del control presupuestario
 ### <a name="budget-cycle-time-span"></a>Intervalo de tiempo del ciclo presupuestario
 
 Tras la configuración de la gestión presupuestaria básica, puede definir la hora o los períodos de inicio y fin para la gestión presupuestaria y el control presupuestario en la página **Intervalo de tiempo del ciclo presupuestario**. Los ciclos presupuestarios a menudo se corresponden con los calendarios fiscales pero pueden abarcar ejercicios.
 
-Los siguientes pasos en la configuración se completan en las distintas fichas en ** configuración de control presupuestario ** la página.
+Los siguientes pasos de la configuración se completan en las diversas pestañas de la página **Configuración de control presupuestario**.
 
 ### <a name="define-parameters"></a>Definir parámetros
 
@@ -77,7 +80,7 @@ A continuación, en la pestaña **Permisos de presupuesto excedido**, puede espe
 A continuación, en la pestaña **Fondos presupuestarios disponibles**, puede definir la fórmula que se usa para calcular los fondos presupuestarios disponibles. En función de como sea de conservadora la gestión de una organización de sus recursos financieros, o en función de las normas o a los requisitos del sector, el cálculo puede incluir el borrador o los documentos no registrados. 
 
 > [!NOTE] 
-> Si el cálculo se modifican durante un ciclo presupuestario, los cambios no afectarán a ningún documento que han pasado previamente las comprobaciones de control presupuestario, y que se han enviado o completado.
+> Si este cálculo se modifica durante el ciclo presupuestario, los cambios no afectarán a los documentos que pasaron anteriormente las comprobaciones de control presupuestario y que se registraron o completaron.
 
 ### <a name="documents-and-journals"></a>Documentos y diarios
 
@@ -96,7 +99,7 @@ A continuación, en la pestaña **Asignar modelos presupuestarios**, asigne mode
 A continuación, en la página **Definir reglas de control presupuestario**, debe crear reglas específicas basadas en dimensiones financieras habilitadas con control presupuestario. Por ejemplo, si el enfoque se basa en el gasto o el intervalo de gastos para un departamento, puede usar la configuración de esta pestaña para definir y evaluar esos gastos. Puede definir distintos umbrales para cada regla de control presupuestario. 
 
 > [!Important]
-> El control presupuestario se permitirá para cualquier cuenta principal de ** de pérdidas y ganancias, ** ** ** gasto, ** de ingresos, balance de situación, pasivo, los recursos propios ** o ** ** activo del tipo. Si esta pestaña contiene una regla con criterios vacíos, el control presupuestario se habilitará para **todas **las combinaciones de dimensiones financieras que incluyen las cuentas principales de esos tipos. Por lo tanto, asegúrese de que crea reglas de control presupuestario que definan solo los intervalos de combinaciones de dimensiones financieras donde es importante que el control presupuestario esté activado.  
+> El control presupuestario se habilitará para cualquier cuenta principal del tipo **Pérdidas y ganancias**, **Gasto**, **Ingresos, Balance de situación, Recursos propios** o **Activo**. Si esta pestaña contiene una regla con criterios vacíos, el control presupuestario se habilitará para **todas **las combinaciones de dimensiones financieras que incluyen las cuentas principales de esos tipos. Por lo tanto, asegúrese de que crea reglas de control presupuestario que definan solo los intervalos de combinaciones de dimensiones financieras donde es importante que el control presupuestario esté activado.  
 
 ### <a name="select-main-accounts"></a>Seleccionar cuentas principales
 
@@ -114,15 +117,17 @@ Si se deben suprimir los mensajes de advertencia de control presupuestario para 
 
 Una vez se haya configurado el control presupuestario, puede activarlo en la pestaña **Activar control presupuestario**. La versión de borrador entrará entonces en vigor.
 > [!Important]
-> Tras activar o desactivar el control presupuestario y activo y, después de que se registran las transacciones, no debe ser activa de mitad del año. Cuando se desactiva el control presupuestario, no se registran las actividades para fines de control presupuestario y ya no se realizan las comprobaciones presupuestarias. Por tanto, es posible que los documentos que ya se han registrado no reflejen correctamente saldos o importes de liberación en consultas e informes relacionados con el control presupuestario. Entre estos se incluyen las estadísticas de control presupuestario para cualquier documento y diario descendente o de ajuste. 
+> Una vez el control presupuestario esté activado y activo, y una vez se registren las transacciones, no se debe desactivar a mediados de año. Cuando se desactiva el control presupuestario, no se registran las actividades para fines de control presupuestario y ya no se realizan las comprobaciones presupuestarias. Por tanto, es posible que los documentos que ya se han registrado no reflejen correctamente saldos o importes de liberación en consultas e informes relacionados con el control presupuestario. Entre estos se incluyen las estadísticas de control presupuestario para cualquier documento y diario descendente o de ajuste. 
 
 Además, tenga en cuenta que las transacciones, incluidos los asientos de registro presupuestario, que se han registrado antes de que se active el control presupuestario no se consideran para el control presupuestario. Por tanto, es una buena idea activar el control presupuestario solo al principio de un nuevo ciclo presupuestario. Asegúrese de que las entradas de registro presupuestario que contienen saldos presupuestarios iniciales para control presupuestario actualizan sus saldos presupuestarios solo después de que se active el control presupuestario. Se comprobará cualquier documento abierto (por ejemplo, un pedido de compra) para fondos presupuestarios disponibles y obtendrá una reserva de presupuesto para control presupuestario cuando el usuario desencadene manualmente una comprobación de control presupuestario en el documento.
 
 ## <a name="using-budget-control"></a>Uso de control presupuestario
 Una vez que se activa el control presupuestario, los usuarios recibirán mensajes de error y advertencia del control presupuestario en los documentos y los diarios configurados para el control presupuestario. Recuerde que puede configurar el control presupuestario para poder advertir a los usuarios cuando superan los fondos presupuestarios, pero pueden continuar confirmando o registrando la transacción. Los usuarios pueden ver los detalles de las comprobaciones presupuestarias con error en la página **Errores y advertencias del control presupuestario**.   
 
-En esta página, los usuarios pueden explorar en ** estadísticas de control presupuestario por período ** la página de detalles y las reservas de presupuesto a la disponibilidad para una combinación seleccionada de la dimensión de control presupuestario. Los usuarios también pueden explorar la página **Estadísticas de control presupuestario **para ver la disponibilidad de presupuesto para todas las combinaciones de dimensiones financieras que se usan en el control presupuestario. 
+En esta página, los usuarios pueden explorar la página **Estadísticas de control presupuestario por periodo** para ver los detalles de disponibilidad y las reservas para una combinación de dimensión de control de presupuesto seleccionada. Los usuarios también pueden explorar la página **Estadísticas de control presupuestario **para ver la disponibilidad de presupuesto para todas las combinaciones de dimensiones financieras que se usan en el control presupuestario. 
 
 Si se activa el control presupuestario para los pedidos de compra, el director de presupuestos puede usar el espacio de trabajo **Presupuestos y previsiones contables** para revisar la cola de todos los pedidos de compra que tienen errores y advertencias de comprobación presupuestaria. Si el director de presupuestos tiene permisos de presupuesto excedido configurados, puede confirmar los pedidos de compra directamente en el espacio de trabajo.    
+
+
 
 

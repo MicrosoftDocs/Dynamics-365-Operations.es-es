@@ -1,6 +1,6 @@
 ---
-title: "Exactitud de previsión de Monitor"
-description: "Este artículo describe los tipos de precisión de previsión que Microsoft Dynamics 365 para las operaciones calcula, y explica cómo puede ver los valores de precisión."
+title: "Supervisión de la precisión de previsión"
+description: "Este artículo describe los tipos de precisión de previsión que Microsoft Dynamics 365 for Operations calcula, y se explica cómo puede ver los valores de precisos."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,23 +25,28 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="monitor-forecast-accuracy"></a>Exactitud de previsión de Monitor
+# <a name="monitor-forecast-accuracy"></a>Supervisión de la precisión de previsión
 
-Este artículo describe los tipos de precisión de previsión que Microsoft Dynamics 365 para las operaciones calcula, y explica cómo puede ver los valores de precisión.
+[!include[banner](../includes/banner.md)]
 
-La Dynamics 365 para las operaciones calcula los siguientes tipos de precisión de previsión:
+
+Este artículo describe los tipos de precisión de previsión que Microsoft Dynamics 365 for Operations calcula, y se explica cómo puede ver los valores de precisos.
+
+Dynamics 365 for Operations calcula los siguientes tipos de precisión de previsión:
 
 -   Precisión histórica de previsión, comparando la previsión histórica que la planificación maestra usa con la demanda histórica. Para ver los valores (los valores absolutos y los valores de porcentaje) para la precisión histórica de previsión, haga clic en **Mostrar precisión** en la página **Detalles de previsión de la demanda**.
 -   La precisión estimada del modelo de previsión que se usa para generar las predicciones. Puede ver el porcentaje de precisión en **Detalles del modelo: MAPE** en la página **Detalles de previsión de la demanda**. 
 
-** Nota: ** Si usa Dynamics 365 para el servicio de Microsoft Azure Machine Learning de previsión de demanda de operaciones, el cálculo de precisión interna de modelo se basa en el conjunto de datos de pruebas. Para especificar el tamaño del conjunto de datos de pruebas, establezca ** CALIBRE DETERMINADO\_PERCENT\_\_de la PRUEBA ** el parámetro en ** los parámetros de la previsión de demanda ** la página. Por ejemplo, si establece el valor a **20**, el último 20 por ciento de los datos históricos se usarán para calcular la precisión de modelo interna.
+**Nota:** si usa el servicio de aprendizaje automático de precisión de la demanda de Microsoft Azure de Dynamics 365 for Operations, el cálculo de la precisión de modelo interno se basa en el conjunto de datos de la prueba. Para especificar el tamaño del conjunto de datos de la prueba, establezca el parámetro **TEST\_SET\_SIZE\_PERCENT** en la página **Parámetros de previsión de demanda**. Por ejemplo, si establece el valor a **20**, el último 20 por ciento de los datos históricos se usarán para calcular la precisión de modelo interna.
 
 
 <a name="see-also"></a>Consulte también
 --------
 
-[Authorizing the adjusted forecast](authorize-adjusted-forecast.md)
+[Autorización de la previsión ajustada](authorize-adjusted-forecast.md)
 
-[Remove outliers from historical transaction data when calculating a demand forecast](remove-historical-outliers-calculating-demand-forecast.md)
+[Eliminación de valores atípicos de los datos de transacción históricos al calcular una previsión de la demanda](remove-historical-outliers-calculating-demand-forecast.md)
+
+
 
 

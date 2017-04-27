@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-items-lent-to-workers"></a>Administración de artículos prestados a trabajadores
 
+[!include[banner](includes/banner.md)]
+
+
 Los artículos de préstamo son registros que ayudan a los gerentes a realizar un seguimiento de los artículos físicos que su empresa presta a los trabajadores. 
 
 Los siguientes son ejemplos de artículos que las compañías pueden prestar a los trabajadores:
@@ -39,7 +42,7 @@ Cada artículo físico debe tener un artículo correspondiente de préstamo. Cad
 
 Al prestar un artículo, introduzca la fecha del préstamo y la fecha de devolución planificada. Una vez devuelto el artículo, introduzca la fecha de devolución real.
 
-Los empleados pueden ver los registros de los artículos que se han prestado ellas mediante el área de trabajo Employee Self-Service. También pueden editar registros existentes o especificar nuevos artículos de préstamo, si han recibido artículos físicos adicionales.  El flujo de trabajo se puede configurar para distribuir cambios en los nuevos o existentes artículos de préstamo con un proceso de aprobación. 
+Los empleados pueden ver los registros de los artículos que se han prestado mediante el espacio de trabajo Autoservicio para empleados. También pueden corregir los registros existentes o especificar nuevos artículos de préstamo si se han recibido artículos físicos adicionales.  El flujo de trabajo se puede configurar para dirigir cambios hacia artículos de préstamo nuevos o existentes por medio de un proceso de aprobación. 
 
 Los gerentes pueden ver los artículos prestados para sus informes directos. También pueden disponer de permiso para agregar nuevos artículos de préstamo en nombre de sus empleados.
 
@@ -52,6 +55,8 @@ Si un elemento se daña o se extravía, introduzca un registro de devolución fi
 <a name="see-also"></a>Consulte también
 --------
 
-[Human resources](index.md)
+[Recursos humanos](index.md)
+
+
 
 
