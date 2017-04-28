@@ -1,6 +1,6 @@
 ---
 title: "Página de inicio de gestión de cadenas de suministro"
-description: "Esta página apunta a los recursos que le ayudarán a utiliza el Microsoft Dynamics 365 para operaciones - administración de la cadena de suministro de forma más eficaz."
+description: "Esta página nos señala recursos que ayudan a usar Microsoft Dynamics 365 for Operations - Gestión de la cadena de suministro con más eficacia."
 author: yuyus
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,31 +29,31 @@ ms.lasthandoff: 04/12/2017
 
 [!include[banner](includes/banner.md)]
 
-Esta página apunta a los recursos que le ayudarán a utiliza el Microsoft Dynamics 365 para operaciones - administración de la cadena de suministro de forma más eficaz. 
+Esta página nos señala recursos que ayudan a usar Microsoft Dynamics 365 for Operations - Gestión de la cadena de suministro con más eficacia. 
 
-## <a name="whats-new-and-in-development"></a>Y las novedades en el desarrollo
-Ir a la <a href="https://roadmap.dynamics.com/">Dynamics 365 plan</a> para ver qué nuevas características se liberan y son qué nuevas características en el desarrollo. 
+## <a name="whats-new-and-in-development"></a>Novedades y en desarrollo
+Vaya a <a href="https://roadmap.dynamics.com/">Guía básica de Dynamics 365</a> para ver qué nuevas características hemos lanzado y qué nuevas características esta en desarrollo. 
 
-## <a name="core-concepts-and-tasks"></a>Las tareas y conceptos básicos
-*  En el panel izquierdo, seleccione un área de característica para obtener más información. 
-*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Procesar entrada ASN en almacenes</a> (vídeo) 
+## <a name="core-concepts-and-tasks"></a>Conceptos básicos y tareas
+*  En el panel de la izquierda, seleccione un área funcional para obtener más información acerca de ella. 
+*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Procesamiento de avisos de envío por adelantado entrantes en Administración de almacenes</a> (vídeo) 
 
 
 ## <a name="blogs"></a>Blogs
-Hay muchos temas sobre fabricación y cadena de suministro en el <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX fabricación R & D Team Blog</a> y <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Supply Chain Management en Dynamics AX R & D Team Blog </a>. La mayoría de ellos se escribieron para la versión anterior de Dynamics 365 for Operations, pero aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son similares. 
+Hay muchos temas sobre la administración de la cadena de suministros y la fabricación en el <a href="https://blogs.msdn.microsoft.com/axmfg/">blog Dynamics AX Manufacturing R&D Team</a> y en el <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">blog Supply Chain Management in Dynamics AX R&D Team </a>. La mayoría de ellos se escribieron para la versión anterior de Dynamics 365 for Operations, pero aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son similares. 
 
-Por ejemplo, puede leer los mensajes recientes acerca de: 
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">Anuncio de Dynamics 365 para las operaciones de almacenamiento</a>
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Funcionalidad mejorada de embalaje (365 Dynamics para operaciones 1611)</a>
-* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Tránsito directo a partir de órdenes de producción para pedidos de transferencia</a>
+Por ejemplo, puede leer las publicaciones recientes sobre: 
+* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">Anunciando Dynamics 365 for Operations - Almacenamiento</a>
+* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Funcionalidad de embalaje mejorada (Dynamics 365 for Operations 1611)</a>
+* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Tránsito directo desde pedidos de producción a pedidos de transferencia</a>
 
 ## <a name="white-papers"></a>Notas del producto
-* El <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 para operaciones - Introducción a contabilidad de costos</a> white paper proporciona los pasos básicos para configurar Microsoft Dynamics 365 para operaciones: el costo de contabilidad para realizar el análisis del costo real. También proporciona una serie de procedimientos que se pueden completar en el orden en que aparecen.
-* El <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Dynamics 365 para operaciones - Lean Manufacturing: capaz de comprometer y programación de trabajos Kanban</a> documento describe los detalles de la programación de trabajos kanban y presenta el concepto de la toma de la orden de venta que utiliza el método de comprometer (CTP) capaz de control de fecha de entrega. También se explica cómo se puede combinar CTP con kanbans de evento para modelar escenarios de ensamblar para pedido o el orden de generación.
-* El <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 para operaciones - cálculo de l. MAT mediante una hoja de gestión de costos</a> notas del producto se describe cómo configurar una hoja de gestión de costes que incluye material y fabricación, y cómo el programa de instalación afecta el cálculo de l. MAT da como resultado. Puede realizar los ejercicios en el apéndice con fines de aprendizaje y utilizar los conocimientos que ha obtenido de la lectura de este documento para hacer análisis de cálculo de l. MAT.
+* El documento <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 for Operations - Introducción a la contabilidad de costes</a> ofrece los pasos básicos para configurar Microsoft Dynamics 365 for Operations – Contabilidad de costes para hacer el análisis de costes reales. También proporciona una serie de procedimientos que puede completar en el orden en que aparecen.
+* La documentación <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Dynamics 365 for Operations - Lean manufacturing: programación de trabajo Kanban y capaz de comprometer</a> describe los detalles de la programación de trabajos kanban e introduce el concepto de recoger pedidos de ventas con el método de (CTP) "Capaz de comprometer" para el control de fechas de entrega. También explica cómo se puede combinar CTP con kanbans de eventos para modelar escenarios de ensamblaje a pedido o de construcción a pedido.
+* La documentación <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 for Operations - Cálculo de lista de materiales mediante una hoja de costes</a> describe cómo configurar una hoja de cálculo de costes que incluye material y fabricación, y cómo la configuración afecta los resultados del cálculo de la lista de materiales. Durante el aprendizaje, puede hacer ejercicios en el Apéndice y utilizar el conocimiento obtenido en este documento para realizar el análisis de cálculo de la lista de materiales.
 
-## <a name="elearning-courses"></a>cursos de eLearning
-Para obtener información acerca de Microsoft Dynamics 365 para las operaciones de formación, consulte <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Portal de aprendizaje de Microsoft Dynamics</a>. (requiere cuenta en CustomerSource) 
+## <a name="elearning-courses"></a>Curso de eLearning
+Para obtener más información sobre formación en Microsoft Dynamics 365 for Operations, consulte <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Portal de aprendizaje de Microsoft Dynamics</a>. (requiere cuenta de CustomerSource) 
 
 
 

@@ -31,15 +31,15 @@ ms.lasthandoff: 04/12/2017
 Este tema proporciona una lista de los temas de ayuda y de otros recursos para las características de gestión financiera en Microsoft Dynamics 365 for Operations. 
 
 Seleccione un área de características para obtener más información acerca de ella.
-- [Accounts payable](accounts-payable\accounts-payable.md) 
-- [Accounts receivable](accounts-receivable\accounts-receivable.md) 
-- [Cash and bank management](cash-bank-management\cash-bank-management.md)
-- [Cost accounting](cost-accounting\cost-accounting-home-page.md)
-- [Fixed assets](fixed-assets\fixed-assets.md)
-- [General ledger](general-ledger\general-ledger.md) 
-- [Project management](project-management\overview-project-management-accounting.md)
-- [Public sector](public-sector\public-sector-functionality.md) 
-- [Budgeting](budgeting\budgeting-overview.md) 
+- [Proveedores](accounts-payable\accounts-payable.md) 
+- [Clientes](accounts-receivable\accounts-receivable.md) 
+- [Gestión de efectivo y bancos](cash-bank-management\cash-bank-management.md)
+- [Contabilidad de costes](cost-accounting\cost-accounting-home-page.md)
+- [Activos fijos](fixed-assets\fixed-assets.md)
+- [Contabilidad general](general-ledger\general-ledger.md) 
+- [Administración de proyectos](project-management\overview-project-management-accounting.md)
+- [Sector público](public-sector\public-sector-functionality.md) 
+- [Gestión presupuestaria](budgeting\budgeting-overview.md) 
 
 
 
