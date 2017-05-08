@@ -22,10 +22,14 @@
 ## [Fecha de media ponderada](weighted-average-date.md)
 ## [Media ponderada con valor físico y marcado](weighted-average-physical-value-marking.md)
 # Costes de fabricación
+## [Amortizar los costes constantes para un artículo fabricado](amortize-constant-costs-manufactured-item.md)
+## [Contabilización previa de los costes](backflush-costing.md)
+## [Cálculos de BOM](bom-calculations.md)
 ## [Grupo de cálculo de L. MAT.](bom-calculation-groups.md)
 ## [Orígenes comunes de desviación de producción](common-sources-of-production-variances.md)
 ## [Categoría de costes utilizadas en las rutas de producción](cost-categories-used-production-routings.md)
 ## [Categorías de coste usadas en el control de producción y en la contabilidad de la administración de proyectos](cost-categories-used-production-control-project-management-accounting.md)
+## [Visualización de los gastos para un artículo fabricado](charges-manufactured-item.md)
 ## [Análisis del coste del pedido de producción](production-order-cost-analysis.md)
 ## [Estimación del coste del pedido de producción](production-order-cost-estimation.md)
 ## [Registro de la producción](production-posting.md)
@@ -39,5 +43,6 @@
 ## [Actualizar coste estándar en un entorno de fabricación](update-standard-costs-manufacturing-environment.md)
 ## [Actualizar coste estándar para un nuevo artículo fabricado](update-standard-costs-new-manufactured-item.md)
 ## [Actualizar coste estándar en un entorno de no fabricación](update-standard-costs-non-manufacturing-environment.md)
+
 
 

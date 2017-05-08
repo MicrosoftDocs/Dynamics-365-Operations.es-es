@@ -170,6 +170,7 @@
 ## [Dimensiones de elemento de coste](cost-accounting/cost-elements.md)
 ## [Dimensiones de objeto de coste](cost-accounting/cost-objects.md)
 ## [Asignar miembros de dimensión de elemento de coste a un conjunto común de miembros de dimensión](cost-accounting/map-cost-elements-dimension-members.md)
+## [Cálculo de costes generales](cost-accounting/overhead-calculation.md)
 ## [Espacio de trabajo móvil de control de costes](cost-accounting/cost-controlling-mobile-workspace.md)
 ## [Contenido en Power BI sobre el análisis de la contabilidad de costes](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/operations/financials/toc.json)
 ## [Contenido de Power BI sobre configurar la seguridad para el análisis de la contabilidad de costes](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/operations/financials/toc.json)
@@ -206,4 +207,18 @@
 ## [Presupuestos de proyecto](project-management/project-quotations.md)
 ## [Recursos del proyecto](project-management/project-resourcing.md)
 ## [Estructuras de descomposición del trabajo](project-management/work-breakdown-structures.md)
+## [Espacio de trabajo móvil de entrada de tiempo de proyecto](project-management/project-time-entry-mobile-workspace.md)
 # [Localizaciones](localizations/TOC.md)
+
+# [Recursos humanos](/dynamics365/operations/human-resources/index)
+
+# [Venta al por menor](/dynamics365/operations/retail/index)
+
+# [Gestión de la cadena de suministro](/dynamics365/operations/supply-chain/index)
+
+# [Desarrollador de software y administrador](/dynamics365/operations/dev-itpro/index)
+
+# Otros recursos
+## [Glosario de Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/financials/toc.json)
+## [Novedades y cambios](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/financials/toc.json)
+

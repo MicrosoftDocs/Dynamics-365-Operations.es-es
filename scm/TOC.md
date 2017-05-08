@@ -56,6 +56,7 @@
 ### [L. MAT y fórmula](production-control/bill-of-material-bom.md)
 ### [Funcionalidad del diseñador de lista de materiales](production-control/bom-designer-functionality.md)
 ### [Dimensión de producto](pim/product-dimensions.md)
+### [Configuración predeterminada de pedidos para dimensiones y variantes de producto](production-control/default-order-settings.md)
 ### [Nomenclatura de número de producto](pim/product-variant-identification-nomenclature.md)
 ### [Preguntas frecuentes de traducciones relacionadas con el producto](pim/translations-product-related-information.md)
 ### [Registro de números de serie en el proceso de ventas](sales-marketing/register-serial-numbers-sales-process.md)
@@ -70,49 +71,77 @@
 ### [Configurar un modelo de configuración](pim/set-up-maintain-product-configuration-model.md)
 ### [Restricción de tablas definidas por el usuario o definidas por el sistema](pim/system-defined-user-defined-table-constraints.md)
 # Control de producción
-## Proceso de producción    
-### [Subcontratación basada en actividad](production-control/activity-based-subcontracting.md)
-### [Atributos de lote](production-control/batch-attributes.md)
-### [L. MAT y fórmulas](production-control/bill-of-material-bom.md)
-### [Funcionalidad del diseñador de lista de materiales](production-control/bom-designer-functionality.md)
-### [Pedidos de lote consolidados](production-control/consolidated-batch-orders.md)
-### [Gestionar el trabajo de subcontratación en la producción](production-control/manage-subcontract-work-production.md)
-### [Planificación modo mezcla: combinar abastecimiento producción ajustada, proceso y discreto](production-control/mixed-mode-plan.md)
-### [Proceso de producción](production-control/production-process-overview.md)
-### [Requisitos de configuración de producción](production-control/production-set-up-requirements.md)
-### [Rutas y operaciones.](production-control/routes-operations.md)
-## Pedidos de producción
-### [Crear pedidos de producción](production-control/create-production-orders.md)
-### [Configuración predeterminada de pedidos para dimensiones y variantes de producto](production-control/default-order-settings.md)
-### [Liberar pedidos de producción](production-control/release-production-orders.md)
-### [Invertir el estado de una orden de producción](production-control/reverse-production-order-status.md)
-### [Informar que la L.M. ha terminado](production-control/report-boms-as-finished.md)
-### [Notificar pedidos de producción como terminados](production-control/report-production-orders-as-finished.md)
-## Producción eficiente 
-### [Compatibilidad del tablero de transferencia kanban para escáneres de códigos de barras](production-control/kanban-transfer-board-support-barcode-scanner.md) 
-### [Programación de trabajo kanban para lean manufacturing](production-control/lean-manufacturing-kanban-job-scheduling.md)
+## [Visión general del proceso de producción](production-control/production-process-overview.md)
+## [Planificación modo mezcla: combinar abastecimiento producción ajustada, proceso y discreto](production-control/mixed-mode-plan.md)
+## [Gestionar el trabajo de subcontratación en la producción](production-control/manage-subcontract-work-production.md)
+## Fabricación discreta
+### Mantener datos maestros de producción
+#### [Requisitos de configuración de producción](production-control/production-set-up-requirements.md)
+#### [Listas de materiales y fórmulas](production-control/bill-of-material-bom.md)
+#### [Funcionalidad del diseñador de lista de materiales](production-control/bom-designer-functionality.md)
+#### [Cálculos de L. MAT](cost-management/bom-calculations.md)
+#### [Recursos de operaciones](production-control/operations-resources.md)
+#### [Capacidades de recursos](production-control/resource-capabilities.md)
+#### [Rutas y operaciones.](production-control/routes-operations.md)
+#### [Configuración predeterminada de pedidos de producción en ejecución de fabricación](production-control/production-order-defaults-manufacturing-execution.md)
+#### [Directivas de trabajo de almacén](warehousing/warehouse-work-policies.md)
+### Programar operaciones de producción
+#### [Programación de operaciones](production-control/operations-scheduling.md)
+#### [Programación de trabajos](production-control/job-scheduling.md)
+#### [Opciones de programación de las operaciones](production-control/operation-scheduling-options.md)
+### Operar trabajos de producción
+#### [Crear pedidos de producción](production-control/create-production-orders.md)
+#### [Liberar pedidos de producción](production-control/release-production-orders.md)
+#### [Invertir el estado de un pedido de producción](production-control/reverse-production-order-status.md)
+#### [Notificar pedidos de producción como terminados](production-control/report-production-orders-as-finished.md)
+#### [Informar de que las L. MAT. han terminado](production-control/report-boms-as-finished.md)
+#### [Sustitución material en la fabricación](production-control/substitute-items-bom-lines.md)
+#### [Registro para ejecución de fabricación](production-control/registration-manufacturing-execution.md)
+#### [Comentarios de producción](production-control/production-feedback.md)
+#### [Registro de tiempo y asistencia](production-control/time-attendance-registrations.md)
+### Gestionar operaciones financieras en producción
+#### [Asignar tiempo a trabajos en una agrupación de trabajos](production-control/allocate-time-jobs-job-bundle.md)
+#### [Calcular el consumo de materiales](production-control/consumption.md)
+#### [Registro de la producción](cost-management/production-posting.md)
+## Lean manufacturing (producción ajustada) 
 ### [Visión general de lean manufacturing](production-control/lean-manufacturing-overview.md)
-### [Modelar una organización eficiente](production-control/lean-manufacturing-modeling-lean-organization.md)
-## Programar operaciones y trabajos
-### [Asignar tiempo a trabajos en una agrupación de trabajos](production-control/allocate-time-jobs-job-bundle.md)
-### [Programación de trabajos](production-control/job-scheduling.md)
-### [Opciones de programación de las operaciones](production-control/operation-scheduling-options.md)
-### [Programación de operaciones](production-control/operations-scheduling.md)
-## Recursos
-### [Recursos de operaciones](production-control/operations-resources.md)
-### [Capacidades de recursos](production-control/resource-capabilities.md)
-### [Registro de tiempo y asistencia](production-control/time-attendance-registrations.md)
-## Ejecución de fabricación
-### [Sustitución material en la fabricación](production-control/substitute-items-bom-lines.md)
-### [Calcular el consumo de materiales](production-control/consumption.md)
-### [Comentarios de producción](production-control/production-feedback.md)
-### [Configuración predeterminada de pedidos de producción en ejecución de fabricación](production-control/production-order-defaults-manufacturing-execution.md)
-### [Registro de la producción](cost-management/production-posting.md)
-### [Registro para ejecución de fabricación](production-control/registration-manufacturing-execution.md)
+### [Subcontratación basada en actividad](production-control/activity-based-subcontracting.md)
+### Mantener datos maestros de producción
+#### [Modelar una organización eficiente](production-control/lean-manufacturing-modeling-lean-organization.md)
+#### [Recursos de operaciones](production-control/operations-resources.md)
+### Programación de trabajos kanban
+#### [Programación de trabajo kanban para lean manufacturing](production-control/lean-manufacturing-kanban-job-scheduling.md)
+#### [Programación de trabajos](production-control/job-scheduling.md)
+### Operar trabajos kanban
+#### [Compatibilidad del tablero de transferencia kanban para escáneres de códigos de barras](production-control/kanban-transfer-board-support-barcode-scanner.md)
+#### [Comentarios de producción](production-control/production-feedback.md)
+## Fabricación de procesos
+### Mantener datos maestros de producción
+#### [Listas de materiales y fórmulas](production-control/bill-of-material-bom.md)
+#### [Recursos de operaciones](production-control/operations-resources.md)
+#### [Capacidades de recursos](production-control/resource-capabilities.md)
+#### [Atributos de lote](production-control/batch-attributes.md)
+#### [Configuración predeterminada de pedidos de producción en ejecución de fabricación](production-control/production-order-defaults-manufacturing-execution.md)
+#### [Requisitos de configuración de producción](production-control/production-set-up-requirements.md)
+### Programar operaciones de producción
+#### [Programación de operaciones](production-control/operations-scheduling.md)
+#### [Opciones de programación de las operaciones](production-control/operation-scheduling-options.md)
+#### [Programación de trabajos](production-control/job-scheduling.md)
+### Operar trabajos de producción
+#### [Pedidos de lote consolidados](production-control/consolidated-batch-orders.md)
+#### [Sustitución material en la fabricación](production-control/substitute-items-bom-lines.md)
+#### [Registro para ejecución de fabricación](production-control/registration-manufacturing-execution.md)
+#### [Comentarios de producción](production-control/production-feedback.md)
+#### [Registro de tiempo y asistencia](production-control/time-attendance-registrations.md) 
+### Gestionar operaciones financieras en producción
+#### [Asignar tiempo a trabajos en una agrupación de trabajos](production-control/allocate-time-jobs-job-bundle.md)
+#### [Calcular el consumo de materiales](production-control/consumption.md)
+#### [Registro de la producción](cost-management/production-posting.md)
 # Ventas y marketing
 ## [Marketing](sales-marketing/overview-sales-marketing.md)
 ## Pedidos de ventas
 ### [Compromisos de pedidos](sales-marketing/delivery-dates-available-promise-calculations.md)
+### [Alternativas de entrega](sales-marketing/delivery-alternatives.md)
 ### [Fechas límite del pedido](sales-marketing/order-entry-deadlines.md)
 ### [Entregas directas](sales-marketing/direct-deliveries.md)
 ### [Programaciones de entrega](sales-marketing/delivery-schedules.md)
@@ -138,6 +167,7 @@
 ### [Configurar diseño](warehousing/warehouse-configuration.md)
 ### [Directivas de trabajo de almacén](warehousing/warehouse-work-policies.md)
 ### [Directivas de unidad de medida y de existencias](warehousing/unit-measure-stocking-policies.md)
+### [Contenido de Power BI sobre almacén](/dynamics365/operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/operations/scm/toc.json)
 ## Picking y embalaje
 ### [Materiales y cuotas de embalaje](warehousing/pack-materials-packing-material-fees.md)
 ## Recuento de inventario
@@ -151,7 +181,21 @@
 ## Reabastecimiento
 ### [Reabastecimiento](warehousing/replenishment.md)
 ## Dispositivos móviles
+### [Instalar y configurar la aplicación Warehousing ](warehousing/install-configure-warehousing-app.md)
 ### [Configuración de nombres de campo en la aplicación Warehousing](warehousing/configure-app-field-names-priorities-warehouse.md)
 ### [Configurar dispositivos móviles para el trabajo de almacén](warehousing/configure-mobile-devices-warehouse.md)
 ### [Portal de dispositivos móviles de almacén (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
 ### [Configuración de visualización del dispositivo móvil del almacén](warehousing/change-warehouse-mobile-device-displays.md)
+
+# [Operaciones financieras](/dynamics365/operations/financials/index)
+
+# [Recursos humanos](/dynamics365/operations/human-resources/index)
+
+# [Venta al por menor](/dynamics365/operations/retail/index)
+
+# [Desarrollador de software y administrador](/dynamics365/operations/dev-itpro/index)
+
+# Otros recursos
+## [Glosario de Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Novedades y cambios](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/supply-chain/toc.json)
+

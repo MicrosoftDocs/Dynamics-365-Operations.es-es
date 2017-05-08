@@ -60,3 +60,15 @@
 #### [Preguntas frecuentes sobre nóminas y actualizaciones de datos](localizations/noam-usa-payroll-data-updates.md)
 #### [Generar informes de nómina](localizations/noam-usa-generate-payroll-reports.md)
 
+# [Financials](/dynamics365/operations/financials/index)
+
+# [Venta al por menor](/dynamics365/operations/retail/index)
+
+# [Gestión de la cadena de suministro](/dynamics365/operations/supply-chain/index)
+
+# [Desarrollador de software y administrador](/dynamics365/operations/dev-itpro/index)
+
+# Otros recursos
+## [Glosario de Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/human-resources/toc.json)
+## [Novedades y cambios](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/human-resources/toc.json)
+

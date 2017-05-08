@@ -1,5 +1,6 @@
 # Creación de diseño de almacén
 # Proceso de entrada
+## [Visión general de llegadas](arrival-overview.md)
 # Proceso de salida
 # Configuración del seguimiento de inventario
 ## [Diarios de inventario](inventory-journals.md)
@@ -11,6 +12,7 @@
 ## [Entrega](consignment.md)
 ## [Configuración de entrega](set-up-consignment.md)
 # Administración de calidad
+## [Espacio de trabajo móvil de inventario disponible](inventory-on-hand-mobile-workspace.md)
 ## [Habilitar la administración de calidad](enable-quality-management.md)
 ## [Bloqueo del inventario](inventory-blocking.md)
 ## [Gestión de disconformidad](enable-nonconformance-management.md)
@@ -19,3 +21,4 @@
 # Seguimiento de artículo y lote
 ## [Combinación de lotes de inventario](merge-inventory-batches.md)
 ## [Seguimiento de artículo y materia prima](trace-items-raw-materials-inventory-production-sales.md)
+

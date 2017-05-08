@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: fad93826b0798e2028f75457d5bbdbd1f9639a5b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: 7163951249cbea6d528440aef9bf38bcf4c4f7e5
+ms.contentlocale: es-es
+ms.lasthandoff: 04/26/2017
 
 
 ---
