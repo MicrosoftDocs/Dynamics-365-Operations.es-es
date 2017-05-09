@@ -68,3 +68,16 @@
 ## [Visión general de comercio](commerce-essentials.md)
 ## [Organizaciones y jerarquías organizativas (conceptos básicos de Commerce)](organizational-hierarchies-commerce-essentials.md)
 # [Profesional de TI y contenido de desarrollador](dev-itpro/TOC.md)
+
+# [Operaciones financieras](/dynamics365/operations/financials/index)
+
+# [Recursos humanos](/dynamics365/operations/human-resources/index)
+
+# [Gestión de la cadena de suministro](/dynamics365/operations/supply-chain/index)
+
+# [Desarrollador de software y administrador](/dynamics365/operations/dev-itpro/index)
+
+# Otros recursos
+## [Glosario de Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
+## [Novedades y cambios](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+
