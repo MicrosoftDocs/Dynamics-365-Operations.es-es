@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: 0d00f33ce8059acd877d1c177e3def0b5f0b73b1
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a8385e7103b74be33fd79c1143e481ad8edca31c
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -34,11 +35,9 @@ Dynamics 365 for Operations - Retail ofrece una experiencia de compra completa, 
 Esta página nos señala recursos que ayudan a usar Microsoft Dynamics 365 for Operations - Retail con más eficacia. En el panel de la izquierda, seleccione un área de características para obtener más información acerca de ella. 
 
 ## <a name="set-up-retail-channels"></a>Configurar canales de venta al por menor
-Según configura su experiencia de venta al por menor, va decidiendo cómo definir y configurar las operaciones de su tienda física (llamada *tienda* en Dynamics 365 for Operations) y su tienda en línea. 
+Según configura su experiencia de venta al por menor, va decidiendo cómo definir y configurar las operaciones de sus tiendas, ya sean físicas, en línea y centro de llamadas. 
 
-Cada tienda puede tener sus propios métodos de pago, grupos de precios, soluciones de PDV, cuentas de ingresos y gastos y personal. Después de crearla, debe asignar los productos que desea ofrecer en la tienda. También asigna empleados, cajas registradoras y clientes a la tienda. Por último, la nueva tienda se agrega a una jerarquía organizativa.
-
-Al crear su tienda en línea, debe configurar componentes como surtidos, atributos, métodos de pago y métodos de envío. También puede definir precios, promociones, descuentos y condiciones de envío específicos de la tienda en línea.
+Cada tienda puede tener sus propios métodos de pago, métodos de entrega, grupos de precios, cuentas de ingresos y gastos, registradoras y personal. Después de crear su tienda, debe asignar la selección de productos que desea ofrecer en ella. También puede definir precios específicos de tienda y descuentos aplicables a los productos que están disponibles en la tienda.
 
 -   [Definir los canales comerciales](define-maintain-retail-channels.md)
 -   [Visión general de la tienda en línea](online-stores.md)
@@ -49,10 +48,10 @@ Puede configurar un centro de llamada como canal comercial. En un centro de llam
 -   [Funcionalidad del centro de llamadas](call-center-functionality.md)
 -   [Crear catálogos de centros de llamadas](create-call-center-catalogs.md)
 
-## <a name="define-your-pos-and-mpos-solutions"></a>Definir sus soluciones de PDV y MPOS
-Retail Modern POS (MPOS) es una aplicación para punto de venta para PCs, tabletas y teléfonos. El personal de ventas puede procesar las transacciones de venta y los pedidos de cliente, además de realizar operaciones diarias y gestionar inventarios mediante dispositivos móviles en cualquier lugar de la tienda, o bien, desde cajas registradoras instaladas en PC. PDV en la nube es un PDV basado en explorador. 
+## <a name="define-your-pos-solutions"></a>Definir sus soluciones de PDV
+Retail Modern POS (MPOS) es una aplicación para punto de venta para PCs, tabletas y teléfonos. El personal de ventas puede procesar las transacciones de venta y los pedidos de cliente, además de realizar operaciones diarias y gestionar inventarios mediante dispositivos móviles en cualquier lugar de la tienda, o bien, desde cajas registradoras instaladas en PC. Cloud POS es un PDV basado en Internet que puede iniciarse desde cualquier navegador estándar. 
 
-Hay varios componentes para definir las relaciones entre una tienda, los registros o canales de punto de venta (PDV) en la tienda y los periféricos comerciales que esos registros o canales utilizan para procesar transacciones. También definirá las características de una instalación específica del PDV, como el perfil de hardware o la configuración de los periféricos comerciales que se utilizarán en la caja registradora, la tienda a la que se asigna la caja registradora y la experiencia visual para el usuario que inicia sesión en esa caja registradora.
+Hay varios componentes para definir las relaciones entre una tienda, los registros de punto de venta (PDV) en la tienda y los periféricos comerciales que esos registros utilizan para procesar transacciones. También definirá las características de una instalación específica del PDV, como el perfil de hardware o la configuración de los periféricos comerciales que se utilizarán en la caja registradora, la tienda a la que se asigna la caja registradora y la experiencia visual para el usuario que inicia sesión en esa caja registradora, así como las funciones habilitadas en la caja. También definirá si la caja registradora puede operar en un estado desconectado o fuera de línea.
 
 -   [Definir y mantener clientes de canal, registradoras y estaciones de hardware](define-maintain-channel-clients-registers-hw-stations.md)
 -   [Configurar y instalar MPOS](retail-modern-pos-device-activation.md)
@@ -92,4 +91,6 @@ Puede encontrar opiniones, noticias, y otra información sobre Microsoft Dynamic
 Hay muchos temas relativos a la venta al por menor en el <a href="https://blogs.msdn.microsoft.com/dax/">blog del equipo del producto Microsoft Dynamics AX</a>. La mayoría de ellos se escribieron para la versión anterior de Dynamics 365 for Operations, pero aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son similares.
 
 El <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">blog de la comunidad Microsoft Dynamics Operations Partner</a> proporciona a los socios de Microsoft Dynamics un único desde el que obtener información sobre lo nuevo y la tendencia en MBS Operations.
+
+
 

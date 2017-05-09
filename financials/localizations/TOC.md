@@ -42,6 +42,7 @@
 ## [Editar Id. de la factura en pedidos de ventas](emea-edit-invoice-id-sales-orders.md)
 ## [Certificado de entrada de la UE](emea-entry-certificates.md)
 ## [Informes de listas de ventas de la UE](emea-eu-sales-list.md)
+## [Ajustes del tipo de cambio](emea-exchange-rate-adjustments.md)
 ## [Formatos de archivo para métodos de pago](emea-select-file-formats-for-the-method-of-payments.md)
 ## [Cancelación de activos fijos para Estonia y Lituania](emea-credit-note-reverse-fixed-asset-sale.md)
 ## [Intrastat](emea-intrastat.md)
@@ -54,20 +55,21 @@
 ## [Códigos postales](emea-import-create-postal-codes-manually.md)
 ## [Id. de registro](emea-registration-ids.md)
 ## [Visión general de transferencias de crédito SEPA](../accounts-payable/sepa-credit-transfer.md)
-## [Descripción de adeudo directo SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
+## [Descripción de las domiciliaciones SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Configurar firmantes para formularios de impresión](emea-set-up-signers-for-printing-forms.md)
-## [Dividir períodos en diarios periódicos](emea-create-post-periodic-journals.md)
-## [Actualizar cómo se muestran los importes en los informes y documentos](emea-amount-printing-forms.md)
-## [Informes de IVA](emea-vat-reporting.md)
+## [Tipos de cambio de IVA](emea-vat-exchange-rate.md)
 ## [Ver transacciones sobre la liquidación](emea-transactions-settlement-form.md)
 ## Austria
+### [Depreciación de semestre](emea-aut-half-year-depreciation.md)
 ### [Cuotas de material de embalaje](emea-aut-packing-material-fee-calculation.md)
 ### [Extracto de IVA](emea-aut-vat-statement-details.md)
 ## Bélgica
 ### [Extracto bancario CODA](emea-bel-coda-bank-statement-import.md)
+### [Declaración de impuestos de Intervat](emea-bel-intervat-tax-declaration.md)
 ### [Configuración de informes PRODCOM](emea-bel-prodcom-report.md)
 
 ## República Checa
+### [Descuento por pronto pago en notas de abono](emea-cze-credit-note-cash-discount.md)
 ### [Redondeo de la depreciación](emea-cze-depreciation-rounding.md)
 ### [Suspensión de la depreciación](emea-cze-depreciation-suspension-holidays.md)
 ### [Amortización de activos fijos](emea-cze-fixed-assets-depreciation.md)
@@ -94,7 +96,9 @@
 ### [Informe de lista de diarios](emea-deu-journal-list-report.md)
 ### [Imprime una etiqueta independiente para notas de crédito que se originan de las ventas](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Hungría
+### [Métodos de depreciación para activos fijos](emea-hun-fixed-assets-depreciation-methods.md)    
 ### [Activos fijos de bajo coste](emea-hun-low-cost-fixed-assets.md)
+### [HU - Mover un activo fijo a un inventario](emea-hun-fixed-asset-to-inventory.md)
 ## Italia
 ### [Detalles de declaraciones de IVA](emea-ita-vat-statements-details.md)
 ### [Informe de lista de bloqueados](emea-ita-black-list-report.md)
@@ -103,6 +107,7 @@
 ### [Verificación de fecha de albarán en facturas](emea-ita-packing-slip-date-verification-on-invoice.md)
 ### [Libros de impuestos](emea-ita-fiscal-books.md)
 ### [Pago fraccionado para facturas emitidas a la administración pública](emea-ita-split-payment-invoices-issued-public-administration.md)
+### [Retención de impuestos](emea-ita-withholding tax.md)
 ## Letonia
 ### [Contabilidad de activos fijos](emea-lva-fixed-assets-accounting.md)
 ### [Seguimiento de cambios de ubicación de activos fijos](emea-lva-fixed-assets-location-fields-change.md)
@@ -119,12 +124,17 @@
 ### [Duplicar numeración de facturas de ventas](emea-pol-sales-invoice-duplicates-numbering.md)
 ### [Depreciación de activo fijo](emea-pol-fixed-assets-depreciation.md)
 ### [Extensión de la funcionalidad de cancelación de activos fijos](emea-pol-fixed-asset-disposal-functionality-extension.md)
+### [Embalaje retornable](emea-pol-returnable-packages.md)
+### [Libros de impuestos](emea-pol-sales-tax-reports.md)
+### [Archivo de auditoría estándar](emea-pol-standard-audit-file-saf.md)
 ### [Extracto de saldos y facturación](emea-pol-turnover-balances-statement.md)
 ## España
-### [Opciones de letras de cambio](emea-esp-bill-of-exchange-options.md)
 ### [Aplicar descuentos por pronto pago en la factura](emea-esp-cash-discount-applied-invoice.md)
+### [Opciones de letras de cambio](emea-esp-bill-of-exchange-options.md)
+### [Impuesto no realizado](emea-esp-conditional-sales-tax.md)
 ### [Cuenta de factura de datos fiscales](emea-esp-fiscal-data-invoice-account.md)
 ### [Revalorización de grupos de activos fijos](emea-esp-fixed-asset-group-revaluation.md)
+### [IVA intracomunitario](emea-esp-intra-community-vat.md)
 ### [Clientes plantilla](emea-esp-no-one-time-customer-for-project-contracts.md)
 ### [Opciones de pagaré](emea-esp-promissory-note-options.md)
 ### [Ciclos de compra y venta](emea-esp-sales-purchase-cycle.md)
@@ -163,3 +173,4 @@
 
 # Norteamérica
 ## [Informe 1099 de cierre de ejercicio en Estados Unidos](noam-usa-year-end-1099-reporting.md)
+
