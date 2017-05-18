@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: yuyus
 ms.dyn365.intro: Feb-16
 ms.dyn365.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 15af90d007d77a490db7cb540ef96b4104dbba7e
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35c3d59abe8c2cb4d2db9fa1cf581f022dbc8c39
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="product-configuration-models-overview"></a>Visión general de los modelos de configuración de productos
+
+[!include[banner](../includes/banner.md)]
+
 
 En este artículo se definen los términos y conceptos relevantes para los modelos de configuración de productos. Los modelos de configuración de productos permiten crear una estructura de producto genérico que se puede utilizar para configurar muchas variantes de producto para un solo producto.
 
@@ -75,7 +79,7 @@ Si el tipo de atributo es <strong>Booleano</strong>, <strong>Entero</strong> con
 <td>Restricciones</td>
 <td>Las restricciones describen las restricciones de la configuración del modelo de producto. Las restricciones se usan para garantizar que solo se seleccionan los valores válidos cuando se está configurando un producto. Las restricciones pueden ser restricciones de expresión o restricciones de tabla:
 <ul>
-<li>Las restricciones de expresión se pueden usar solamente para el componente con el que están relacionados. Las restricciones de expresión de un componente pueden hacer referencia a los atributos de los subcomponentes del componente. El solucionador de configuraciones de productos se usa para resolver restricciones, y el usuario debe usar la sintaxis del solucionador para escribir las restricciones. Para obtener más información, consulte el vínculo sobre restricciones de expresiones y de tabla.</li>
+<li>Las restricciones de expresión se pueden usar solamente para el componente con el que están relacionados. Las restricciones de expresión de un componente pueden hacer referencia a los atributos de los subcomponentes del componente. El solucionador de configuraciones de productos se usa para resolver restricciones, y el usuario debe usar la sintaxis del solucionador para escribir las restricciones. Para obtener más información, consulte el vínculo del tema sobre restricciones de expresiones y de tabla.</li>
 <li>Las restricciones de tabla deben definirse antes de poder aplicarse a un componente en un modelo de configuración de productos. Las restricciones de tabla pueden ser definidas por el usuario o definidas por el sistema. Una restricción de tabla definida por el usuario es un tipo de matriz que se puede usar para describir el conjunto de combinaciones de los valores de atributos definidos por los tipos de atributo. Por ejemplo, si se producen altavoces, la matriz para la restricción de tabla definida por el usuario puede tener columnas para el acabado del altavoz y la rejilla.</li>
 </ul>
 <strong>Ejemplo</strong> Los altavoces están disponibles en cuatro acabados: negro, roble, palisandro y blanco. Los altavoces pueden tener una de tres rejillas delanteras: negro, metálico o blanco. El acabado en negro está disponible para todas las rejillas, pero los otros acabados están limitados a rejillas específicas. La tabla siguiente muestra un ejemplo de la información que se muestra en la ficha <strong>Combinaciones permitidas</strong> de la página ficha de la página <strong>Editar restricción de tabla</strong>.
@@ -147,6 +151,8 @@ Puede ver si se puede usar un producto emitido como componente o subcomponente e
 </tr>
 </tbody>
 </table>
+
+
 
 
 

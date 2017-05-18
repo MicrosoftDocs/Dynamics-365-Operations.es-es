@@ -1,16 +1,16 @@
 ---
 title: Definiciones de columna en los informes financieros
 description: "Este artículo proporciona información acerca de las definiciones de columnas. Una definición de columna es un componente de informe, o bloque de creación, que define el contenido de las columnas de un informe. Como definiciones de filas, las definiciones de columna básicas se pueden usar en varios informes."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-08-09 21 - 27 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: af336db81f659d80248aa4ab1fbba96ed1ff48c2
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Definiciones de columna en los informes financieros
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo proporciona información acerca de las definiciones de columnas. Una definición de columna es un componente de informe, o bloque de creación, que define el contenido de las columnas de un informe. Como definiciones de filas, las definiciones de columna básicas se pueden usar en varios informes.
 
@@ -150,7 +154,7 @@ Puede usar la caja de diálogo **Encabezado de columna** para agregar, modificar
 
 1.  En el diseñador de informes, abra la definición de la columna para modificarla.
 2.  Seleccione una celda en la fila de cabecera.
-3.  En el menú **Editar**, haga clic en **Insertar fila**. La nueva fila se inserta encima de la fila que seleccionó en el paso 2. **Nota: **Si tiene cuatro o más filas de los encabezados de informes en un informe, los encabezados se superpondrán cuando el informe se exporta a una hoja de cálculo de Excel. Para ver todos los encabezados en el informe, aumente el margen superior de la definición del informe.
+3.  En el menú **Editar**, haga clic en **Insertar fila**. La nueva fila se inserta encima de la fila que seleccionó en el paso 2. **Nota:**Si tiene cuatro o más filas de los encabezados de informes en un informe, los encabezados se superpondrán cuando el informe se exporta a una hoja de cálculo de Excel. Para ver todos los encabezados en el informe, aumente el margen superior de la definición del informe.
 
 ### <a name="delete-a-column-header-row"></a>Eliminar una fila del encabezado de columna
 
@@ -320,9 +324,9 @@ La celda **Control de impresión** puede contener los códigos que ajustan la vi
 4.  Seleccione una opción en el campo **Opciones de impresión condicional**. De forma predeterminada, **(ninguno)** está seleccionado. Solo puede seleccionar un código de impresión condicional cada vez.
 5.  Haga clic en **Aceptar**.
 
-**Consejo:** También puede escribir los códigos de impresión directamente en la celda **Control de impresión**. Separe varios códigos de control de impresión con una coma.
+> [!TIP]
+> También puede escribir los códigos de impresión directamente en la celda **Control de impresión**. Separe varios códigos de control de impresión con una coma.
 
-### 
 
 ## <a name="column-types"></a>Tipos de columna
 El tipo de información que cada columna en un informe incluye se especifica con el valor en la fila **Tipo de columna** en la definición de la columna. Cada definición de la columna debe contener el menos una columna de descripción (**DESC**) y una columna de importe (**FD**, **WKS** o **CALC**). **Nota:** Los códigos del tipo columna no se aplican a todos los sistemas contables. Si selecciona un tipo que no sea válido para su sistema contable, esa columna está en blanco en el informe.
@@ -507,7 +511,8 @@ Un informe de varias divisas puede mostrar importes en la divisa natural (local)
 -   **Visualización de divisa**: especificar el tipo de divisa (natural, funcional o de notificación) en que muestran las transacciones. Esta función se denomina a veces traducción de la divisa. La traducción de la divisa es la capacidad de notificar importes de la contabilidad general en una divisa que puede no ser la divisa funcional de la empresa o la divisa en que se registró la transacción.
 -   **Filtro de la divisa**: especifique un filtro de la divisa. Solo las transacciones que se especifican en la divisa seleccionada se muestran en el informe.
 
-**Nota:** Para crear los informes que usan varias divisas, debe seleccionar el cuadro de diálogo **Incluir todas las divisas de notificación** en la pestaña **Informe** de la definición del informe. Para determinar la divisa funcional de una empresa, siga estos pasos.
+> [!NOTE]
+> Para crear informes que usan varias divisas, debe seleccionar la casilla de verificación **Incluir todas las divisas de notificación** en la pestaña **Informe** de la definición del informe. Para determinar la divisa funcional de una empresa, siga estos pasos.
 
 1.  En el diseñador de informes, en el menú **Empresa**, haga clic en **Empresas**.
 2.  En el cuadro de diálogo **Empresas**, seleccione una empresa, y haga clic en **Ver**.
@@ -516,10 +521,11 @@ Un informe de varias divisas puede mostrar importes en la divisa natural (local)
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Especificar la divisa en un informe de varias divisas
 
 1.  En el diseñador de informes, abra la definición de la columna para modificarla.
-2.  Haga doble clic en la celda ** Visualización de divisa** en a columna **FD** correspondiente, y seleccione la opción para mostrar la información de divisa: **Divisa natural/originaria**, **Divisa funcional de la información de empresa** o divisa de notificación.
+2.  Haga doble clic en la celda **Visualización de divisa** en a columna **FD** correspondiente, y seleccione la opción para mostrar la información de divisa: **Divisa natural/originaria**, **Divisa funcional de la información de empresa** o divisa de notificación.
 3.  Haga doble clic en la celda **Filtro de la divisa** en la columna **FD** correspondiente, y seleccione el código de divisa correspondiente en la lista. Solo las transacciones que se especifican en esta divisa se muestran en el informe.
 
-**Nota:** Las opciones que se describen aquí pueden variar, en función del sistema ERP. Para obtener más información, consulte [Documentación del sistema de ERP de Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
+> [!NOTE]
+> Las opciones que se describen aquí pueden variar, en función del sistema ERP. Para obtener más información, consulte [Documentación del sistema de ERP de Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Ejemplo para las celdas de visualización de la divisa y filtro de la divisa
 
@@ -572,7 +578,7 @@ Puede hacer referencia a una celda específica del informe introduciendo una let
 
 #### <a name="multiply-or-divide-a-column-by-a-base-row"></a>Multiplicar o dividir una columna por una fila de base
 
-Puede crear una columna que muestre todos los valores en una columna especificada como un porcentaje de un número de la base. Por lo tanto, puede mostrar relaciones entre las filas, como un porcentaje de una fila de ventas o un porcentaje de una fila de los gastos totales. Para multiplicar o dividir cada fila en una columna específica por una fila base, especifique la columna para usar en el cálculo y, a continuación, escriba **\*BASEROW** o **/BASEROW**. Por ejemplo, escriba **C\*BASEROW** o **C/BASEROW**. ** Nota:** cuando usa un cálculo de la fila base en una definición de la columna, asegúrese de que cada definición de fila que se usa con esta definición de columna contiene el menos una fila de la base para los cálculos.
+Puede crear una columna que muestre todos los valores en una columna especificada como un porcentaje de un número de la base. Por lo tanto, puede mostrar relaciones entre las filas, como un porcentaje de una fila de ventas o un porcentaje de una fila de los gastos totales. Para multiplicar o dividir cada fila en una columna específica por una fila base, especifique la columna para usar en el cálculo y, a continuación, escriba **\*BASEROW** o **/BASEROW**. Por ejemplo, escriba **C\*BASEROW** o **C/BASEROW**. **Nota:** cuando usa un cálculo de la fila base en una definición de la columna, asegúrese de que cada definición de fila que se usa con esta definición de columna contiene el menos una fila de la base para los cálculos.
 
 #### <a name="divide-the-amount-in-a-column-by-the-number-of-periods"></a>Dividir el importe en una columna por el número de períodos
 
@@ -584,5 +590,7 @@ Puede dividir el importe en una columna por un número de períodos específico.
 [Definiciones de filas en informes financieros](row-definitions-financial-reporting.md)
 
 [Opciones de formato avanzadas en informes financieros](advanced-formatting-options-financial-reporting.md)
+
+
 
 

@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 9dca5dec846670da25926826f59d7bce0fa0dcea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e2f3a352ca70472de838271fdedfede575cb839d
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Descargar configuraciones de informes electrónicos de Lifecycle Services
+
+[!include[banner](../includes/banner.md)]
+
 
 En este tema se explica cómo descargar las configuraciones de Informes electrónicos (ER) de Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -43,9 +47,10 @@ Este tutorial le guía por el proceso de descarga de la versión más reciente d
     1.  Haga clic en **Agregar** para agregar un repositorio nuevo.
     2.  Seleccione **LCS** como el tipo de repositorio.
     3.  Haga clic en **Crear repositorio**.
-    4.  Especifique un nombre y una descripción para el repositorio.
-    5.  Haga clic en **Aceptar** para confirmar la nueva entrada de repositorio.
-    6.  En la cuadrícula, seleccione el nuevo repositorio del tipo **LCS**.
+    4. Si se le solicite, siga las instrucciones de autorización.
+    5.  Especifique un nombre y una descripción para el repositorio.
+    6.  Haga clic en **Aceptar** para confirmar la nueva entrada de repositorio.
+    7.  En la cuadrícula, seleccione el nuevo repositorio del tipo **LCS**.
 
 6.  Haga clic en **Abierta** para ver la lista de configuraciones de ER para el repositorio seleccionado. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  En el árbol de configuración del panel izquierdo, seleccione la configuración de ER que necesita.
@@ -58,5 +63,7 @@ Este tutorial le guía por el proceso de descarga de la versión más reciente d
 --------
 
 [Visión general de los informes electrónicos](general-electronic-reporting.md)
+
+
 
 

@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 3e6b48768bb8e69d46f1555d9300f3b878b01ff1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35d34f9a356f8a041f2abf0aa8d6c3a6d9ca4a46
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Contenido de Power BI para rendimiento de la rentabilidad y las ventas
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tema describe lo que se incluye en el paquete de contenido de rendimiento de la rentabilidad y las ventas de Dynamics 365 for Operations para Microsoft Power BI. Explica cómo tener acceso a los informes que se incluyen en el paquete de contenido, y proporciona información acerca del modelo de datos y las entidades que se usan para generar el paquete del contenido.
 
@@ -44,6 +48,7 @@ La rentabilidad se pueda analizar por:
 
 ## <a name="accessing-the-content-pack"></a>Acceso al paquete de contenido
 El paquete de contenido del rendimiento de la rentabilidad y las ventas para Power BI está publicado como un activo de la implementación en Lifecycle Services (LCS) y se puede acceder a él desde Dynamics 365 for Operations. Para obtener más información acerca de cómo obtener acceso a los informes de Power BI e iniciarlos, consulte [Contenido de Power BI en LCS de Microsoft y sus socios](power-bi-content-microsoft-partners.md)
+**Nota** KB 4011327 es un requisito previo para el contenido de Power BI. Tras iniciar sesión en Lifecycle Services, puede tener acceso a KB aquí: <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
 
 ## <a name="metrics-included-in-the-content-pack"></a>Métricas incluidas en el paquete de contenido
 El paquete de contenido incluye un informe compuesto por un conjunto de medidas visualizadas como gráficos, mosaicos, y tablas. La tabla siguiente proporciona información general de las visualizaciones del paquete de contenido.
@@ -110,6 +115,8 @@ Estos son algunos vínculos útiles relacionados con las entidades y la creació
 -   [Creación de paquetes de contenido organizativo](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Modelado de datos con Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Adición de iconos de Power BI a espacios de trabajo](configure-power-bi-integration.md)
+
+
 
 
 

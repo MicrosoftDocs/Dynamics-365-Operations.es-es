@@ -1,16 +1,16 @@
 ---
 title: "Preferencias de usuario en el diseñador de informes financieros"
 description: "En este artículo se explica cómo establecer preferencias de usuario para personalizar sus interacciones de usuario en el diseñador de informes financieros y controlar la experiencia de inicio de sesión inicial. También puede controlar cómo se muestran los informes individuales, la biblioteca de informes y las ubicaciones de archivo predeterminadas."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-02-04 19 - 44 - 33
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 31161
 ms.assetid: 59da4854-0f8c-4021-acd1-b303c06f4a34
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 371c095e925ba833216263eed6595e749acc6ab7
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1e7f0665feb24d56fc931052a46f88e7b872aaf1
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="user-preferences-in-financial-report-designer"></a>Preferencias de usuario en el diseñador de informes financieros
+
+[!include[banner](../includes/banner.md)]
+
 
 En este artículo se explica cómo establecer preferencias de usuario para personalizar sus interacciones de usuario en el diseñador de informes financieros y controlar la experiencia de inicio de sesión inicial. También puede controlar cómo se muestran los informes individuales, la biblioteca de informes y las ubicaciones de archivo predeterminadas. 
 
@@ -39,10 +43,6 @@ En este artículo se explica cómo establecer preferencias de usuario para perso
 
 ## <a name="options-dialog-box-options"></a>Opciones del cuadro de diálogo de opciones
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Opción de usuario</th>
@@ -52,7 +52,7 @@ En este artículo se explica cómo establecer preferencias de usuario para perso
 <tbody>
 <tr class="odd">
 <td>En inicio</td>
-<td>Seleccione lo que ve cuando se inicia Management Reporter. Seleccione una de las siguientes opciones:
+<td>Seleccione lo que ve cuando se inicia el Diseñador de informes. Seleccione una de las siguientes opciones:
 <ul>
 <li><strong>Cargar el informe cargado por última</strong>: abre el último informe que se vio.</li>
 <li><strong>Mostrar la ventana Abrir</strong>: abre la ventana <strong>Abrir</strong>. La ventana <strong>Abrir</strong> proporciona una ventana de búsqueda para puede usar para encontrar componentes básicos rápidamente.</li>
@@ -60,7 +60,7 @@ En este artículo se explica cómo establecer preferencias de usuario para perso
 </ul></td>
 </tr>
 <tr class="even">
-<td>Mostrar confirmación antes de salir del generador de gestión</td>
+<td>Visualización de la confirmación antes de salir del Diseñador de informes</td>
 <td>Seleccione si desea recibir un mensaje de advertencia cuando sale de la aplicación. Este mensaje ayuda a garantizar que no sale del programa sin querer.</td>
 </tr>
 <tr class="odd">
@@ -79,6 +79,8 @@ En este artículo se explica cómo establecer preferencias de usuario para perso
 <a name="see-also"></a>Consulte también
 --------
 
-[Informes financieros para Microsoft Dynamics ERP](financial-reporting-intro.md)
+[Informes financieros](financial-reporting-intro.md)
+
+
 
 

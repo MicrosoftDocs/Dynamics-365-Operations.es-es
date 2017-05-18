@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 318c88f88277a8300b1fcda5056a9a92c9a81eae
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7edf456b09c6f77550f1dd023e712c7ef379fd1a
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -36,7 +37,7 @@ Este artículo proporciona información acerca de las notificaciones de lista de
 Las páginas **Notificar como terminado** y **Máx. notificado como terminado** se usan para notificar la finalización de las listas de materiales (L. MAT.). Desde un punto de vista teórico, el proceso para notificar una lista de materiales como terminada es el mismo que el proceso para notificar un pedido de producción como terminado. Este proceso se puede usar en, por ejemplo, procesos sencillos de montaje y de kitting, donde no se necesitan las capacidades más avanzadas de los pedidos de producción. La página **Notificar como terminado** permite notificar varias listas de materiales como terminadas en un lote. La página **Máx. notificado como terminado** permite notificar solo una lista de materiales como terminada a la vez. La página **Notificar como terminado** está disponible desde un elemento de menú en Gestión del inventario, y ambas páginas están disponibles como elementos de menú en la página **Productos emitidos**.
 
 ## <a name="report-as-finished-page"></a>Página Notificar como terminado
-Si abre la página **Notificar como terminado **desde un producto emitido, la página sugiere que notifique la cantidad predeterminada de inventario estándar como terminada. De forma predeterminada, se muestra la versión de la lista de materiales activa, pero puede cambiar la versión de la lista de materiales si hay otras versiones aprobadas. La página también le permite eliminar registros y crear nuevos registros para productos emitidos que se deban notificar como terminados. Para usar una consulta para seleccionar productos, haga clic en el elemento de menú **Seleccionar**. Puede confirmar manualmente la notificación como terminado para los productos seleccionados haciendo clic en **Aceptar**. También puede configurar el proceso para que se ejecute en un lote. Cuando el informe como proceso terminado se confirma, el sistema genera un diario de lista de materiales donde se procesa el registro en el inventario. Este diario consta de un elemento de línea para el producto terminado y un elemento de línea para cada línea de lista de materiales. Puede controlar si el diario se registra automáticamente o si se deja abierto para realizar más ajustes.
+Si abre la página **Notificar como terminado**desde un producto emitido, la página sugiere que notifique la cantidad predeterminada de inventario estándar como terminada. De forma predeterminada, se muestra la versión de la lista de materiales activa, pero puede cambiar la versión de la lista de materiales si hay otras versiones aprobadas. La página también le permite eliminar registros y crear nuevos registros para productos emitidos que se deban notificar como terminados. Para usar una consulta para seleccionar productos, haga clic en el elemento de menú **Seleccionar**. Puede confirmar manualmente la notificación como terminado para los productos seleccionados haciendo clic en **Aceptar**. También puede configurar el proceso para que se ejecute en un lote. Cuando el informe como proceso terminado se confirma, el sistema genera un diario de lista de materiales donde se procesa el registro en el inventario. Este diario consta de un elemento de línea para el producto terminado y un elemento de línea para cada línea de lista de materiales. Puede controlar si el diario se registra automáticamente o si se deja abierto para realizar más ajustes.
 
 ## <a name="max-report-as-finished-page"></a>Página Máx. notificado como terminado
 En la página **Máx. notificado como terminado**, cada línea de lista de materiales indica el número de piezas del producto que se pueden notificar como terminadas. Este cálculo se basa en el inventario físico disponible de cada línea de material. En el siguiente ejemplo, una pieza del número de artículo FG consume dos piezas de materia prima RM10 y una pieza de materia prima RM20. Dado que solo hay 10 piezas RM10 disponibles, la cantidad máxima de FG que se puede notificar como terminada es de cinco piezas. Este valor se muestra en el campo **Máx. notificado como terminado**.

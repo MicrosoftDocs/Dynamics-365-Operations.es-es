@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: f3234bf607ef9ce1643226894716b975a2c2a7b9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a12c5b0ab85ac336592941f1fb62aa62ddc5d40d
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -100,7 +101,7 @@ La información de descuento aparece en la parte inferior de la página **Liquid
 | Descuento por pronto pago aplicado          | 3,00      |
 | Importe de descuento por pronto pago para aplicar | 7,00      |
 
-Arnie cambia de nuevo el valor del campo **Utilizar descuento por pronto pago** a **Normal** porque no desea permitir que este cliente aproveche el descuento por pronto pago restante de 7,00. A continuación, Arnie registra el pago. Cuando Arnie abre la página** Transacciones de cliente**, observa que la factura tiene un saldo de 0,00. También puede ver que existen dos pagos. Un pago es de 297,00 con un descuento por pronto pago de 3,00 y el otro pago es de 700,00.
+Arnie cambia de nuevo el valor del campo **Utilizar descuento por pronto pago** a **Normal** porque no desea permitir que este cliente aproveche el descuento por pronto pago restante de 7,00. A continuación, Arnie registra el pago. Cuando Arnie abre la página**Transacciones de cliente**, observa que la factura tiene un saldo de 0,00. También puede ver que existen dos pagos. Un pago es de 297,00 con un descuento por pronto pago de 3,00 y el otro pago es de 700,00.
 
 | Comprobante    | Tipo de transacción | Fecha      | Factura | Importe en débito en divisa de transacción | Importe en crédito en divisa de transacción | Saldo | Divisa |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

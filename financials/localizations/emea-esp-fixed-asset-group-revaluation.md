@@ -16,10 +16,11 @@ ms.search.region: Spain
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: 982bbfe80435c3870adb4b1d9f1f4c0d46f2611d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b7b6c161a66168d5df57057dd7cd0c86dc466c64
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---

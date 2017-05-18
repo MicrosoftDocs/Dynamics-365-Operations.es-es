@@ -1,9 +1,9 @@
 ---
 title: Informes financieros para Dynamics 365 for Operations
 description: "Los informes financieros para Microsoft Dynamics 365 for Operations permiten a los profesionales financieros y empresariales crear, mantener, implementar y ver resultados financieros. Se mueve más allá de las restricciones tradicionales de informes para ayudarle a diseñar con eficacia diversos tipos de informes."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 31 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 519b3d3fb53b20d0014c97bcb1b9b21802a376d6
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fee79dad870bfbf8852198c7e825cfaa95a8d10b
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="financial-reporting-for-dynamics-365-for-operations"></a>Informes financieros para Dynamics 365 for Operations
+
+[!include[banner](../includes/banner.md)]
+
 
 Los informes financieros para Microsoft Dynamics 365 for Operations permiten a los profesionales financieros y empresariales crear, mantener, implementar y ver resultados financieros. Se mueve más allá de las restricciones tradicionales de informes para ayudarle a diseñar con eficacia diversos tipos de informes.
 
@@ -36,8 +40,7 @@ Los siguientes componentes de los informes financieros facilitan la creación, l
 | Componente        | Funciones                                                                                                                                                                                                                                                                           | Información adicional                                                                          |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | Diseñador de informes  | Cree componentes de creación de informes que se puedan combinan para definir y generar un informe. El asistente para informes dirige a los usuarios menos experimentados por el proceso de diseño. Los usuarios experimentados pueden crear componentes básicos del nuevo informe o modificar componentes básicos de validez para satisfacer sus requisitos. |                                                                                                 |
-| Visor web       | Visualice los Informes financieros en un explorador web. El visor de la web no requiere la instalación de componentes del servidor de informes financieros.                                                                                                                                                        | [Visor web](financial-reporter-designer-web-client.md)            |
-| Programaciones de informes | Programe un informe único o un grupo de informes para que se genere con regularidad.                                                                                                                                                                                          | [Generar un informe](/dynamics365/operations/financials/general-ledger/generate-financial-report) |
+| Programaciones de informes | Programe un informe único o un grupo de informes para que se genere con regularidad.                                                                                                                                                                                          | [Generar un informe financiero](generate-financial-report.md) |
 
 ## <a name="features"></a>Características
 <table>
@@ -78,13 +81,15 @@ Los siguientes componentes de los informes financieros facilitan la creación, l
 <li>Agregar filtros de dimensión para limitar el contenido del informe a una dimensión específica o una combinación de dimensiones.</li>
 <li>Agregar filtros de atributos para limitar el contenido del informe a un atributo específico o una combinación de atributos.</li>
 </ul>
-Para obtener más información, consulte la sección “Características de componentes y navegación interactivos” en <a href="https://technet.microsoft.com/en-us/library/dn469079.aspx">Interfaz del visor de escritorio</a>.</td>
+</td>
 </tr>
 </tbody>
 </table>
 
 #<a name="see-also"></a>Consulte también
+[Generar un informe financiero](generate-financial-report.md)
 
-[Generar un informe financiero]((dynamics365\operations\financials\general-ledger\generate-financial-report)
+
+
 
 

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: 3f96d12960e90bb05497d1bc2900d4477551c091
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ee3d306eecc7eeaca57522245f86dba32b75f942
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -47,7 +48,7 @@ Cada línea de un acuerdo de compra es un compromiso a comprar algo. Puede usar 
 -   **Compromiso de valor**: se compra un importe en una divisa específica de cualquier producto o productos dentro de cualquier categoría de compras.
 
 ## <a name="pricing-terms-for-purchase-agreements"></a>Condiciones de precios para acuerdos de compra
-Las condiciones de precios pueden variar, en función del tipo de compromiso. Las condiciones de precios de los acuerdos de compra anulan cualquier otro término de precio configurado para los contratos comerciales. La siguiente tabla describe los campos relacionados al precio afectados por cada tipo de compromiso. Los campos que contengan **Sí **se pueden actualizar en una línea de pedido.
+Las condiciones de precios pueden variar, en función del tipo de compromiso. Las condiciones de precios de los acuerdos de compra anulan cualquier otro término de precio configurado para los contratos comerciales. La siguiente tabla describe los campos relacionados al precio afectados por cada tipo de compromiso. Los campos que contengan **Sí**se pueden actualizar en una línea de pedido.
 
 | Tipo de confirmación                   | Precio unitario | Unidad de precio | Porcentaje de descuento | Importe de descuento por pronto pago |
 |-----------------------------------|------------|------------|------------------|----------------------|

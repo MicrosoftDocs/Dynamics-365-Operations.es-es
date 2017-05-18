@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: bcf59ea8862280675c9fb711d2aab1e8dff18806
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0285103ef30ebf8322f2bf60941b07c7496e9c70
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Ver y evaluar los resultados de un cuestionario
+
+[!include[banner](includes/banner.md)]
+
 
 En este tema se explica cómo se pueden ver y evaluar los resultados de los cuestionarios que los encuestados completan. 
 
@@ -56,7 +60,8 @@ En la página **Respuestas**, puede ver los detalles sobre las respuestas, los p
 -   **Informe de respuestas**: este informe muestra las respuestas que el encuestado seleccionó para cada pregunta del cuestionario.
 -   **Respuestas incorrectas**: este informe muestra la información relacionada con las respuestas incorrectas que seleccionó el encuestado.
 
-**Nota:** el informe **Resultados** solo está disponible si usa grupos de resultados en el cuestionario y si seleccionó **Página de resultados** en la página **Cuestionarios**. Los informes **Respuesta** y **Respuestas incorrectas** solo están disponibles si seleccionó **Informe de respuestas** en la página**Cuestionarios**.
+> **Nota**
+>   El informe **Resultados** solo está disponible si usa grupos de resultados en el cuestionario y si seleccionó **Página de resultados** en la página **Cuestionarios**. Los informes **Respuesta** y **Respuestas incorrectas** solo están disponibles si seleccionó **Informe de respuestas** en la página**Cuestionarios**.
 
 ## <a name="questionnaire-statistics"></a>Estadísticas de los cuestionarios
 Puede usar las estadísticas del cuestionario para analizar los resultados de un cuestionario completado sobre la base de cálculos que se definan. Para definir cálculos, debe completar las tareas siguientes:
@@ -79,5 +84,7 @@ Los parámetros que defina se guardarán y se podrán usar para volver a calcula
 [Uso de cuestionarios](questionnaires.md)
 
 [Distribuir y completar cuestionarios](distribute-questionnaires.md)
+
+
 
 

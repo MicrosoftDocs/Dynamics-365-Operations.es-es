@@ -3,7 +3,7 @@ title: "Análisis del coste del pedido de producción"
 description: "Este artículo proporciona información acerca del análisis de costes que puede realizar para pedidos de producción finalizados y actuales. Puede analizar los costes estimados y reales mediante la página Cálculo de precios o el informe Estimaciones y gestión de costes. Puede ver la información acerca de los costes y la cantidad estimados y reales para cada artículo de componente, la operación de enrutamiento y el coste indirecto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-04-11 13 - 25 - 42
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f931432f6dc919d448ed690a1deae3d64bebe455
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: acb8e49ed86d3e22ba8e343280f77c0644f057c6
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="production-order-cost-analysis"></a>Análisis del coste del pedido de producción
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo proporciona información acerca del análisis de costes que puede realizar para pedidos de producción finalizados y actuales. Puede analizar los costes estimados y reales mediante la página Cálculo de precios o el informe Estimaciones y gestión de costes. Puede ver la información acerca de los costes y la cantidad estimados y reales para cada artículo de componente, la operación de enrutamiento y el coste indirecto.
 
@@ -40,7 +44,11 @@ Las desviaciones reflejan la comparación de las actividades de producción noti
 -   Desviación en el precio de producción
 -   Desviación de sustitución de producción
 
-En el siguiente diagrama se muestran las cuatro desviaciones que justifican la diferencia entre los costes reales de un pedido de producción y los costes calculados en el registro de costes del artículo en el momento de finalizar el pedido de producción. ![Desviaciones que representan diferencias en un pedido de producción completado](./media/control.jpg) Puede analizar las desviaciones de producción usando la página **Desviación** o el informe **Desviación de producción**. Use las opciones de visualización para ver las desviaciones detalladas por artículo y recurso de operaciones, o por grupo de costes. La directiva de análisis de costes de los parámetros del inventario determina si se realizará un seguimiento de las desviaciones por grupo de costes. También puede usar las opciones de visualización **única**, **múltiple** y **total** para ver las desviaciones resumidas. La información sobre las desviaciones detalladas puede ayudarlo a comprender el origen de cada desviación. Con el fin de poder anticipar las desviaciones antes de que finalice el pedido de producción, analice la información detallada que se proporciona en el informe **Estimaciones y gestión de costes**.
+En el siguiente diagrama se muestran las cuatro desviaciones que justifican la diferencia entre los costes reales de un pedido de producción y los costes calculados en el registro de costes del artículo en el momento de finalizar el pedido de producción. 
+
+![Desviaciones que explican las diferencias en un pedido de producción completado](./media/control.jpg) 
+
+Puede analizar las desviaciones de producción mediante la página **Desviación** o el informe **Desviación de producción** . Use las opciones de visualización para ver las desviaciones detalladas por artículo y recurso de operaciones, o por grupo de costes. La directiva de análisis de costes de los parámetros del inventario determina si se realizará un seguimiento de las desviaciones por grupo de costes. También puede usar las opciones de visualización **única**, **múltiple** y **total** para ver las desviaciones resumidas. La información sobre las desviaciones detalladas puede ayudarlo a comprender el origen de cada desviación. Con el fin de poder anticipar las desviaciones antes de que finalice el pedido de producción, analice la información detallada que se proporciona en el informe **Estimaciones y gestión de costes**.
 
 ## <a name="cost-analysis-for-current-production-orders"></a>Análisis de costes para los pedidos de producción en curso
 Los informes individuales proporcionan información acerca de cada tipo de transacción. Estos informes se pueden utilizar para analizar los costes de actividades de producción notificadas. La información solo se muestra para los pedidos de producción actuales cuyo estado es **Iniciado** o **Notificado como finalizado**.
@@ -56,5 +64,7 @@ Los informes individuales proporcionan información acerca de cada tipo de trans
 --------
 
 [Orígenes comunes de desviaciones de producción](common-sources-of-production-variances.md)
+
+
 
 

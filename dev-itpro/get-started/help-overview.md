@@ -3,7 +3,7 @@ title: "Visión general de la ayuda"
 description: "Este artículo proporciona una visión general de los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Operations. También se explica cómo puede proporcionar la formación y la documentación personalizadas a su organización."
 author: margoc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 240060606c8a2955c3f0a0d47fb25b0cde64c187
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: f08434b4c818460009644e77da1b37ba86cc1d54
+ms.contentlocale: es-es
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="help-overview"></a>Visión general de la ayuda
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo proporciona una visión general de los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Operations. También se explica cómo puede proporcionar la formación y la documentación personalizadas a su organización. 
 
@@ -37,18 +41,18 @@ Dynamics 365 for Operations incluye un sistema de Ayuda que se basa en dos compo
 Puede obtener acceso a los artículos y a las guías de tareas del panel de Ayuda de Dynamics 365 for Operations como se muestra en la siguiente captura de pantalla. [![Panel Ayuda](./media/help-pane-ops-task-guides-1024x741.png)](./media/help-pane-ops-task-guides.png) Este artículo describe el sistema de ayuda y explica cómo puede crear documentación personalizada y recursos de formación para su organización.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Ayuda en docs.microsoft.com
-El sitio docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_operations) es el origen principal de la documentación del producto para Dynamics 365 for Operations. El sitio ofrece las características siguientes:
+El sitio docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations) es el origen principal de la documentación del producto para Dynamics 365 for Operations. El sitio ofrece las características siguientes:
 
 -   **Acceso al contenido más actualizado**: el sitio nos ofrece una manera más rápida y flexible de crear, entregar y actualizar documentación del producto. Por lo tanto, ayuda a garantizar que puede acceder a la información técnica más reciente.
--    **Contenido escrito por expertos**: el sitio proporciona un conjunto enriquecido de documentación de producto que se puede mejorar por los miembros de la comunidad tanto dentro como fuera de Microsoft.
--   **Acceso a diferentes tipos de contenido**: el sitio proporciona acceso rápido a diferentes tipos de contenido sobre Dynamics 365 for Operations, como presentaciones combinadas de Microsoft Office, guías de tareas, vídeos y artículos de la wiki.
--    **Contenido que admite sus procesos empresariales**: el sitio incluye contenido centrado en procesos empresariales que aprovecha el Modelador de procesos empresariales (BPM) de Microsoft Dynamics Lifecycle Services (LCS).
+-   **Contenido escrito por expertos**: el sitio proporciona un conjunto enriquecido de documentación de producto que se puede mejorar por los miembros de la comunidad tanto dentro como fuera de Microsoft.
+-   **Acceso a diferentes tipos de contenido**: el sitio proporciona acceso rápido a diferentes tipos de contenido sobre Dynamics 365 for Operations, como presentaciones combinadas de Microsoft Office, guías de tareas, vídeos y temas.
+-   **Contenido que admite sus procesos empresariales**: el sitio incluye contenido centrado en procesos empresariales que aprovecha el Modelador de procesos empresariales (BPM) de Microsoft Dynamics Lifecycle Services (LCS).
 
 Hemos migrado todo el contenido de nuestra anterior wiki de ayuda a docs. Estamos entusiasmados con nuestro nuevo sitio y esperamos que usted también lo esté.
 
 ### <a name="when-can-we-use-it"></a>¿Cuándo podemos utilizarla?
 
-Podemos leer contenido en docs ahora mismo; es completamente público y permite búsquedas sin requerir inicio de sesión. Puede usar cualquiera de sus motores de búsqueda favoritos para buscar contenido. Si lo desea, puede comentar artículos en el sitio, iniciando sesión con una cuenta de GitHub.
+Podemos leer contenido en docs ahora mismo; es completamente público y permite búsquedas sin requerir inicio de sesión. Puede usar cualquiera de sus motores de búsqueda favoritos para buscar contenido. Si lo desea, puede comentar artículos en el sitio, iniciando sesión.
 
 
 ## <a name="task-guides"></a>Guías de tareas
@@ -68,7 +72,7 @@ Para obtener más información sobre el Grabador de tareas, consulte [Grabador d
 Puede crear sus propias grabaciones de tareas o descargar y personalizar grabaciones de tareas que proporcione Microsoft. Por lo tanto, puede crear una Ayuda personalizada para su organización que refleje su implementación específica de Dynamics 365 for Operations. Para mostrar una grabación de tareas en el panel de Ayuda de Dynamics 365 for Operations y reproducirla como guía de tareas, deberá guardar la grabación en una biblioteca de BPM en LCS. Si es socio, y promociona una biblioteca para ser biblioteca corporativa e incluirla en una solución, esta quedará a disposición de sus clientes. Para obtener instrucciones completas, consulte [Uso de grabaciones de tareas para crear documentación o formación](../user-interface/task-recorder.md).
 
 ## <a name="in-product-help"></a>Ayuda en el producto
-Para obtener acceso al contenido de la Ayuda dentro de Dynamics 365 for Operations, haga clic en el icono **Ayuda** (**?**) y después elija Ayuda, o presione Ctrl+Mayús+?. En ambos casos, se abre el panel Ayuda. En el panel Ayuda, puede obtener acceso a los artículos del sitio o las guías de tareas. [![](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
+Para obtener acceso al contenido de la Ayuda dentro de Dynamics 365 for Operations, haga clic en el icono **Ayuda** (**?**) y después elija Ayuda, o presione Ctrl+Mayús+?. En ambos casos, se abre el panel Ayuda. En el panel Ayuda, puede obtener acceso a los artículos del sitio o las guías de tareas. [![panel Ayuda](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
 
 ### <a name="accessing-articles-from-the-help-pane"></a>Acceso a artículos del sitio desde el panel Ayuda
 
@@ -83,7 +87,7 @@ Para acceder a las guías de tareas desde el panel de Ayuda, un administrador de
 
 [![Formulario de parámetros del sistema con configuración de la Ayuda](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) En la página **Parámetros del sistema**, siga estos pasos:
 
-1.  **Importante: **La primera vez que abra la ficha de la Ayuda, debe conectar con Lifecycle Services. Asegúrese de hacer clic en el vínculo que hay en el medio del formulario, espere por la conexión, cierre el cuadro de diálogo y haga clic en Aceptar para obtener los parámetros del formulario.[![Connectarse a LCS](./media/connect-to-lcs-crop-1024x365.png)](./media/connect-to-lcs-crop.png)
+1.  **Importante:**La primera vez que abra la ficha de la Ayuda, debe conectar con Lifecycle Services. Asegúrese de hacer clic en el vínculo que hay en el medio del formulario, espere por la conexión, cierre el cuadro de diálogo y haga clic en Aceptar para obtener los parámetros del formulario.[![Connectarse a LCS](./media/connect-to-lcs-crop-1024x365.png)](./media/connect-to-lcs-crop.png)
 2.  Seleccione el proyecto de Lifecycle Services al que conectarse.
 3.  Seleccione las bibliotecas de BPM (dentro del proyecto seleccionado) desde la que recuperar grabaciones de tareas.
 4.  Establezca el orden de visualización de las bibliotecas de BPM. Esto determina el orden en que las grabaciones de tareas de las bibliotecas aparecerán en el panel Ayuda.
@@ -101,13 +105,13 @@ En la tabla siguiente se muestran los sitios web que proporcionan el contenido d
 
 | Sitio                                                                     | Descripción                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Docs.microsoft.com](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_operations) | Hospeda o vincula toda la documentación del producto para Dynamics 365 for Operations.                                                                                                                                                               |
+| [Docs.microsoft.com](/dynamics365/#pivot=solutions&panel=solutions_operations) | Hospeda o vincula toda la documentación del producto para Dynamics 365 for Operations.                                                                                                                                                               |
 | [Lifecycle Services](http://lcs.dynamics.com/en/)\*                      | Proporciona un espacio de trabajo de colaboración basado en la nube que los clientes y los socios pueden utilizar para gestionar los proyectos de Dynamics 365 for Operations, desde preventas hasta implementación y operaciones. Este sitio es útil en todas las fases de una implementación. |
 | [CustomerSource](http://www.customersource.com/)\*                       | Hospeda amplios recursos de formación y es el sitio de soporte principal de Dynamics 365 for Operations. Puede que sea necesario iniciar sesión para obtener acceso a recursos específicos en el sitio.                                                                      |
 | [Blog de soporte](http://aka.ms/AXSupportBlog)                              | Proporciona sugerencias y trucos que publica el Equipo de soporte de Dynamics 365 for Operations.                                                                                                                                                  |
 | [MSDN](http://aka.ms/AXMSDN)                                             | Hospeda contenido de versiones anteriores que se escriben para desarrolladores.                                                                                                                                                                       |
 | [TechNet](http://aka.ms/TechNet)                                         | Hospeda contenido de versiones anteriores que se escriben para los profesionales de TI y los usuarios de aplicación.                                                                                                                                           |
-| [Comunidad de Dynamics](http://community.dynamics.com/en/)                  | Hospeda blogs, foros y vídeos.                                                                                                                                                                                                           |
+| [Comunidad de Dynamics](http://community.dynamics.com/)                  | Hospeda blogs, foros y vídeos.                                                                                                                                                                                                           |
 | [Microsoft.com/Dynamics/](http://www.microsoft.com/dynamics/)                 | Ofrece información de evaluación y ventas.                                                                                                                                                                                                 |
 
 
@@ -125,6 +129,8 @@ En la tabla siguiente se muestran los sitios web que proporcionan el contenido d
 [Guías de tareas nuevas o actualizadas (agosto de 2016)](new-updated-task-guides-available-august-2016.md)
 [Guías de tareas nuevas o actualizadas (mayo de 2016)](new-updated-task-guides-available-may-2016.md)
 [Nuevas guías de tareas (febrero de 2016)](new-task-guides-available-february-2016.md)
+
+
 
 
 

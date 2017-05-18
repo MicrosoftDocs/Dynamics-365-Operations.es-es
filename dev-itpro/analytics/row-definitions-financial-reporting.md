@@ -1,16 +1,16 @@
 ---
 title: "Definiciones de filas en el diseñador de informes financieros"
 description: "Una definición de fila es un componente de informe, o bloque de creación, que especifica el contenido de cada fila de un informe financiero. Una definición de fila se puede combinar con las definiciones de columnas, definiciones de organigramas y definiciones de informes para crear un grupo de bloques de creación que puedan usar varias empresas."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 42 - 39
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: a2f92effd1cfdc1d5da2c5ec895c0487a6fc82a4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aa9fcc4d0c122d2355362b75ca210af4c2ef4338
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="row-definitions-in-financial-report-designer"></a>Definiciones de filas en el diseñador de informes financieros
+
+[!include[banner](../includes/banner.md)]
+
 
 Una definición de fila es un componente de informe, o bloque de creación, que especifica el contenido de cada fila de un informe financiero. Una definición de fila se puede combinar con las definiciones de columnas, definiciones de organigramas y definiciones de informes para crear un grupo de bloques de creación que puedan usar varias empresas.
 
@@ -72,8 +76,8 @@ Para agregar dimensiones a una definición de fila, siga estos pasos.
 
 1.  En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
 2.  En el menú **Editar** , haga clic en **Insertar filas de dimensiones**.
-3.  En el cuadro de diálogo **Insertar filas desde dimensiones **, en la fila **Dimensiones**, seleccione la celda en la que la dimensión se transferirá a la definición de filas y, a continuación, haga clic en **Todas &&&**.
-4.  Para limitar la definición de filas a un intervalo específico de valores de dimensión, especifique el valor de dimensión de inicio en la celda ** Inicio del intervalo de la dimensión **y después especifique el valor de dimensión final en la celda **Fin del intervalo de la dimensión **. Para incluir todos los valores de la dimensión seleccionada, deje estas celdas vacías. **Nota:** los caracteres comodín (\* o ?) en los intervalos de la dimensión pueden no devolver todos los resultados que desea, en función de cómo la base de datos ERP intercala los datos.
+3.  En el cuadro de diálogo **Insertar filas desde dimensiones**, en la fila **Dimensiones**, seleccione la celda en la que la dimensión se transferirá a la definición de filas y, a continuación, haga clic en **Todas &&&**.
+4.  Para limitar la definición de filas a un intervalo específico de valores de dimensión, especifique el valor de dimensión de inicio en la celda **Inicio del intervalo de la dimensión**y después especifique el valor de dimensión final en la celda **Fin del intervalo de la dimensión**. Para incluir todos los valores de la dimensión seleccionada, deje estas celdas vacías. **Nota:** los caracteres comodín (\* o ?) en los intervalos de la dimensión pueden no devolver todos los resultados que desea, en función de cómo la base de datos ERP intercala los datos.
 5.  En el campo **Código de la fila de inicio**, especifique el código de la fila del primer valor de dimensión que se agregará a la definición de filas.
 6.  En el campo **Incrementar cada fila en**, especifique el hueco entre los códigos de fila consecutivas. Por ejemplo, si el código de la primera fila es 100 y el valor de incremento es 30, las primeras nuevas filas tienen los códigos 100, 130, 160, 190 y 220. Use un valor de incremento que proporcione espacio para insertar nuevas filas de formato y de fórmula.
 7.  Haga clic en **Aceptar**. Para cada uno de los valores de dimensión seleccionados, se agrega una línea a la definición de filas.
@@ -97,9 +101,9 @@ Para ajustar el redondeo en un balance de situación, siga estos pasos.
     -   **Fila de pasivos totales:** el código de fila para la fila en el balance de situación que contiene los pasivos totales.
     -   **Límite de ajuste del importe**: un número entero positivo que especifica el límite en ajustes automáticos. Este importe se compara con el valor absoluto de diferencias de redondeo real.
 
-    **Nota: **estos códigos de fila se deben vincular a los datos financieros. Es decir, la fila debe tener un valor de dimensión en la celda **Vincular a dimensiones financieras**. No **haga** referenceia a una fila de descripción (**DESC**), calculada (**CALC**) o de totales (**TOT**).
+    **Nota:**estos códigos de fila se deben vincular a los datos financieros. Es decir, la fila debe tener un valor de dimensión en la celda **Vincular a dimensiones financieras**. No **haga** referenceia a una fila de descripción (**DESC**), calculada (**CALC**) o de totales (**TOT**).
 
-Los importes en el balance de situación se equilibrarán ahora cuando se activa el redondeo. **Nota: **el límite de ajuste se aplica según la opción **Precisión del redondeo** que se especifica para la definición del informe. Por ejemplo, si redondea el informe en millares y especifica **2** en el cuadro **Límite del ajuste de importe**, recibirá un mensaje de advertencia cuando el valor del campo **Fila de ajuste de redondeo** aumenta o disminuye por más de 2.000.
+Los importes en el balance de situación se equilibrarán ahora cuando se activa el redondeo. **Nota:**el límite de ajuste se aplica según la opción **Precisión del redondeo** que se especifica para la definición del informe. Por ejemplo, si redondea el informe en millares y especifica **2** en el cuadro **Límite del ajuste de importe**, recibirá un mensaje de advertencia cuando el valor del campo **Fila de ajuste de redondeo** aumenta o disminuye por más de 2.000.
 
 ## <a name="format-row-and-column-text"></a>Dar formato al texto de la columna y la fila
 Puede personalizar el aspecto de sus informes cambiando fuentes y dando formato al texto. En las secciones siguientes se explica cómo dar formato al aspecto de filas y columnas en los informes.
@@ -173,6 +177,8 @@ Para facilitar ver las columnas en las que está trabajando en la definición de
 <a name="see-also"></a>Consulte también
 --------
 
-[Informes financieros para Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
+[Informes financieros](financial-reporting-intro.md)
+
+
 
 

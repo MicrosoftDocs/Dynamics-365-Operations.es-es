@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: 8e09c6b042d557e3b2d608fb5e278169fc3c1d88
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4a5e6164f8aea2d4a6a063966c10f33a5e1f0cdd
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Distribuir y completar un cuestionario
+
+[!include[banner](includes/banner.md)]
+
 
 En este tema se explica cómo distribuir los cuestionarios que diseña, de modo que estén disponibles para la persona o el grupo de personas que lo van a completar. 
 
@@ -53,7 +57,8 @@ Para asignar un grupo de cuestionarios a un cuestionario, en la página **Cuesti
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Sesión de respuestas planificadas en un cuestionario
 Las sesiones de respuesta planificadas son cuestionarios diseñados por usted y para las que ha seleccionado los encuestados. 
 
-**Nota:** Para poder configurar sesiones de respuesta planificadas, debe diseñar un cuestionario. 
+> **Nota**
+>   Para poder configurar sesiones de respuestas planificadas, primero debe diseñar un cuestionario. 
 
 En la página **Sesión de respuestas planificadas**, puede crear una sesión de respuestas planificadas para un empleado. La lista de la página muestra todos los cuestionarios planificados. 
 
@@ -99,7 +104,8 @@ Haga clic en **Funciones** &gt; **Iniciar** para que el cuestionario esté dispo
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Notificación de los encuestados sobre los cuestionarios que tienen a su disposición
 Al distribuir un cuestionario, debe notificar a los encuestados que tienen los cuestionarios a su disposición. 
 
-**Nota:** los encuestados deben ser usuarios de Microsoft Dynamics 365 for Operations para completar un cuestionario.
+> **Nota**
+>   Los encuestados deben ser usuarios de Microsoft Dynamics 365 for Operations para completar un cuestionario.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Notificación de los encuestados acerca de una sesión de respuestas planificadas
 
@@ -109,12 +115,14 @@ Si usa una sesión de respuestas planificadas, debe notificar a la persona direc
 
 Use la página **Programaciones de cuestionarios** para preparar y enviar correo electrónico a todos los encuestados asignados al cuestionario. Escriba el texto de correo electrónico en la pestaña **Correo electrónico para autoservicio de empleados**. Una vez que se ha iniciado la programación, haga clic en **Funciones** &gt; **Enviar correo electrónico** generar y enviar el correo electrónico a los encuestados. A continuación, los encuestados pueden iniciar sesión en el sitio Web y completar el cuestionario. 
 
-**Nota:** Para poder usar la función de correo electrónico, el administrador de TI debe especificar la configuración de correo electrónico en la página **Parámetros del correo electrónico**.
+> **Nota**
+>   Para poder usar la función de correo electrónico, el administrador de TI debe especificar la configuración de correo electrónico en la página **Parámetros del correo electrónico**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Finalización de un cuestionario programado
 Puede finalizar un cuestionario programado una vez que todas las personas que respondan al mismo hayan completado las sesiones de preguntas que les hayan sido asignadas. Cuando finaliza un cuestionario programado, no puede copiar su configuración en una programación nueva. 
 
-**Note:** Si una o varias de los encuestados no han completado el cuestionario, pero aún así desea finalizar la programación, antes deberá eliminar a esos encuestados de la lista en la página **Sesión de respuestas planificadas**. A continuación, puede finalizar la programación.
+> **Note**
+>   Si uno o varios de los encuestados no han completado el cuestionario, pero aún así desea finalizar la programación, primero deberá eliminar a esos encuestados de la lista en la página **Sesión de respuestas planificadas**. A continuación, puede finalizar la programación.
 
 ## <a name="completing-questionnaires"></a>Completando cuestionarios
 Una vez que haya diseñado y haya distribuido un cuestionario, los encuestados seleccionados lo pueden completar. Puede completar los cuestionarios a su disposición desde dos ubicaciones:
@@ -132,5 +140,7 @@ Los cuestionarios se pueden poner a disposición de usuarios o grupos de usuario
 [Uso de cuestionarios](questionnaires.md)
 
 [Visualización y evaluación de los resultados de cuestionarios](evaluate-questionnaire-results.md)
+
+
 
 

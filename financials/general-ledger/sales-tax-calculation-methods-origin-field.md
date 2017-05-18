@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: 0a716310a3b813e08d46ac609e8ac6ce9a2db3e6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5f3d0e2016a3ffe5500ecae9508d44a115c56880
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,7 +52,7 @@ La autoridad fiscal ha impuesto aranceles especiales sobre un artículo. Los imp
 -   IMPUESTOS = 25 %, con el método de cálculo de porcentaje del importe bruto
 
 Si el importe neto es 10,00, entonces ARANCEL 1 es 1,00 (10,00 x 10 %) y ARANCEL 2 = 2,00 (10,00 x 20 %). Los importes serían los siguientes: Importe bruto: Importe neto + Importe ARANCEL 1 + Importe ARANCEL 2 (10,00 + 1,00 + 2,00) = 13,00 IMPUESTOS = 13,00 x 25 % = 3,25 Total de ARANCELES e IMPUESTOS: 1,00 + 2,00 + 3,25 = 6,25 Importe total: 10,00 + 6,25 = 16,25
-| **Nota **                                                                                                                                                                                                                 |
+| **Nota**                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Solo un código de impuestos con origen = el porcentaje del importe bruto se puede usar para una transacción. Si se determina más de un código de impuesto de este tipo para una transacción, se mostrará un error acerca de que los impuestos no se pueden calcular. |
 
@@ -68,7 +69,7 @@ Dados los códigos de impuestos siguientes:
 -   IMPUESTOS = 25 %, con el método de porcentaje del importe bruto
 
 Importe neto: 10,00 ARANCEL 1: 10,00 x 10 % = 1,00 ARANCEL 2: 1,00 x 20 % = 0,20 Importe bruto: 10,00 + 1,00 + 0,20 = 11,20 IMPUESTOS: 11,20 x 25 % = 2,80 Total de ARANCELES e IMPUESTOS: 1,00 + 0,20 + 2,80 = 4,00 Importe total: 10,00 + 4,00 = 14,00
-| **Nota **                                                                                                                                                                                                                    |
+| **Nota**                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Los impuestos de varios niveles en los cálculos de los impuestos no son posibles. Los impuestos no se pueden calcular sobre un impuesto que ya se ha calculado sobre otro impuesto. Los impuestos de un único nivel dentro de códigos de impuestos se pueden calcular en una transacción. |
 
@@ -77,7 +78,7 @@ Cuando selecciona Importe por unidad en el campo Origen, los impuestos se calcul
 ### <a name="example"></a>Ejemplo
 
 El código de impuestos se configura como: 1,20 dólares por unidad = cuadro En una línea de factura de venta se venden 25 cajas de un artículo Los impuestos se calculan como 25 x 1,20 = 30,00
-| **Nota **                                                                                                                                                                                                 |
+| **Nota**                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Si la transacción se ha especificado en otra unidad distinta de la unidad especificada en el código de impuestos, se convierte automáticamente en función de las conversiones de unidades que se configuran en la página de conversiones de unidades. |
 

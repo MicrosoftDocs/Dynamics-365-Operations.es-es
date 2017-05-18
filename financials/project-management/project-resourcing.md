@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: c29c95fc6abd13e668c44d3ccf437bb0e879e46b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 11755e4ab4b3c1f55da80e57ff96e0b13c84c697
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -41,7 +42,7 @@ Un desafío para los directores de proyecto y los directores de recursos durante
 -   Estimar el número de recursos necesarios para el ciclo de vida completo de un proyecto.
 -   Realizar un borrador de una estructura de descomposición del trabajo (WBS) mediante las asignaciones de recursos iniciales.
 
-[![Project life cycle](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg) 
+[![Ciclo de vida del proyecto](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg) 
 
 Conforme continúa la planificación del proyecto, los recursos planificados se pueden reemplazar por recursos de personal. El director de proyecto también puede volver y actualizar las reservas de recursos durante cualquiera de las etapas del proyecto.
 
@@ -209,13 +210,13 @@ El siguiente procedimiento explica cómo crear un equipo de proyecto.
 1.  En la página de lista **Todos los proyectos**, seleccione un proyecto y, a continuación, haga clic en **Editar**.
 2.  En la pestaña **Equipo del proyecto y programación**, en el campo **Programar fecha final**, especifique la fecha inicial de la programación más un mes. Por ejemplo, si la fecha inicial de la programación es el 24 de junio de 2017 (24/06/2017), escriba **24/07/2017**.
 3.  Haga clic en **Agregar**.
-4.  En el panel **Agregar roles al proyecto**, en el campo **Rol **, seleccione **Director de proyecto principal**.
+4.  En el panel **Agregar roles al proyecto**, en el campo **Rol**, seleccione **Director de proyecto principal**.
 5.  Haga clic en **Competencias requeridas**.
 6.  En la página **Elegir características**, las características que estableció anteriormente para el rol de director de proyecto principal se seleccionan de forma predeterminada. Haga clic en **Aceptar**.
 7.  En la página **Agregue roles al proyecto**, en el campo **Número de recursos**, escriba **1**.
 8.  En el campo **Recurso**, las búsquedas muestran todos los recursos con las competencias necesarias. Seleccione **Daniel Goldschmidt** y, a continuación, haga clic en **Crear**.
 9.  En la página **Proyecto**, haga clic en **Agregar**.
-10. En el panel **Agregar roles al proyecto**, en el campo **Rol **, seleccione **Miembro del equipo**. En el campo **Número de recursos**, escriba **5**.
+10. En el panel **Agregar roles al proyecto**, en el campo **Rol**, seleccione **Miembro del equipo**. En el campo **Número de recursos**, escriba **5**.
 11. Haga clic en **Crear**.
 12. En la página **Proyectos**, haga clic en **Cumplir con recurso**.
 
@@ -316,7 +317,7 @@ Se han agregado opciones adicionales en la WBS para usar mejor mejor la funciona
 
 > [!NOTE] 
 > No recibe una advertencia que el recurso especificado es ahora 2, porque el número de recursos sigue siendo 1.
-18. En la página **Estructura de descomposición del trabajo **, valide la asignación de recursos en la WBS y, a continuación, haga clic en **Guardar**.
+18. En la página **Estructura de descomposición del trabajo**, valide la asignación de recursos en la WBS y, a continuación, haga clic en **Guardar**.
 
 ## <a name="resource-fulfillment-for-planned-resources"></a>Cumplimiento de recursos para recursos planificados
 Un director de proyecto puede planificar los roles de recursos necesarios para un proyecto. El administrador de recursos verá estos recursos planificados como solicitudes en la página **Cumplimiento de recursos** y puede asignar recursos reales.
@@ -330,7 +331,7 @@ Un director de proyecto puede planificar los roles de recursos necesarios para u
 7.  Haga clic en **Crear**.
 8.  Cierre la página del proyecto.
 9.  Haga clic en **Administración de proyectos y contabilidad** &gt; **Recursos del proyecto** &gt; **Cumplimiento de recursos**.
-10. Seleccione **Desarrollador de software 1** para el proyecto ** Fase 2 de la actualización XYZ**.
+10. Seleccione **Desarrollador de software 1** para el proyecto **Fase 2 de la actualización XYZ**.
 11. Seleccione un trabajador y haga clic en **Asignar**.
 12. Compruebe que se ha eliminado la línea para **Desarrollador de software 1** para el proyecto **Fase 2 del proyecto de actualización de XYZ**.
 13. En la pestaña **Equipo del proyecto y programación**, para el proyecto **Fase 2 de la actualización de XYZ**, compruebe que se ha agregado el trabajador que seleccionó en el paso 11 como **Desarrollador de software**.

@@ -3,7 +3,7 @@ title: "Método Asignación de coste total"
 description: "Este artículo proporciona directrices para usar la asignación de coste total (TCA). TCA es un método para calcular el coste entre el producto de fórmula principal para un pedido de lote y los coproductos que se definen para la fórmula."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c26dcc5a8caa461bce90f931bb5c584f1816526b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a5c5788a3145dd6cabeed097d25a03a243577b8f
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="total-cost-allocation-method"></a>Método Asignación de coste total
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo proporciona directrices para usar la asignación de coste total (TCA). TCA es un método para calcular el coste entre el producto de fórmula principal para un pedido de lote y los coproductos que se definen para la fórmula.
 
@@ -36,6 +40,11 @@ La asignación de coste total (TCA) es un método para calcular el coste entre e
 Estas son algunas de las directrices para usar TCA para coproductos:
 
 -   Si establece el control deslizante **Asignación de coste total** en **Sí** para una versión de fórmula, los coproductos deben tener un precio de coste que sea superiora 0 (cero). El valor se puede recuperar de la versión de coste activo para el mismo sitio o para el primer sitio para una fórmula que no sea específica de sitio. Esta condición se valida cuando se aprueba la fórmula.
+
+    -   No es necesario especificar manualmente los porcentajes de asignación de costes para coproductos. En su lugar, el sistema crea automáticamente el porcentaje de asignación de costes como la media de los precios de coste activos de coproductos. 
+    -   No es necesario especificar el coste estándar para artículos de coste no estándar que son coproductos. Existen dos tipos de versiones de gestión de costes en el sistema: coste estándar y coste planificado 
+    -   Si un artículo no es evaluado por el método de valoración de costes estándar, recomendamos que use un precio de coste activo de la versión de coste planificado. Este precio se usa para la estimación de costes, por ejemplo, el cálculo de L MAT., la estimación de costes de producción, y el precio de reserva del proceso de la evaluación de inventario. 
+
 -   Si establece el control deslizante **Asignación de coste total** en **Sí** para la versión de la fórmula y las siguientes condiciones son verdaderas, el método de asignación de costes es **TCA** y el porcentaje de la asignación de costes no cambia:
     -   Ha agregado coproductos.
     -   Ha usado un método diferente de asignación de costes para los coproductos.
@@ -53,6 +62,8 @@ El campo **Asignación de costes de productos derivados** de la página **Coprod
 -   **Porcentaje**: El importe del coste se calcula como porcentaje del coste total de las materias primas que se consumen en la producción. Porcentaje usado para el cálculo especificado en el campo.
 -   **Por serie**: El importe del coste se calcula como importe por tamaño de lote estándar del pedido de producción. Este importe es independiente de la cantidad notificada en la producción. Importe usado para el cálculo especificado en el campo.
 -   **Por cantidad**: El importe del coste se calcula como importe por cantidad notificada del producto de fórmula en la producción. Importe usado para el cálculo especificado en el campo.
+
+
 
 
 

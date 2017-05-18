@@ -16,10 +16,11 @@ ms.search.region: Spain
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: fb4c2f5d4b0f2b952fadc2163b2250c0fd0b9e5d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 125b17cdba2fca3f255189df5d4529ad43d5235e
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---

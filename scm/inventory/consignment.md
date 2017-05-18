@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d9dcdd63649d6dbff96efe2eec7cad34025ab2ee
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 01ab473951bc04c68a0248b37041a116eebcaea9
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ En este ejemplo, la empresa USMF tiene un acuerdo de envío con el proveedor US-
 USMF realiza procesos periódicos adicionales:
 
 -   El movimiento de inventario físico propiedad del proveedor entre almacenes diferentes se procesa usando un diario de transferencia.
--   El inventario físico disponible se actualiza mediante un diario de ** Recuento de artículo**. El recuento también se puede usar por parte del proveedor para actualizar el inventario disponible, si tiene permiso para ello.
+-   El inventario físico disponible se actualiza mediante un diario de **Recuento de artículo**. El recuento también se puede usar por parte del proveedor para actualizar el inventario disponible, si tiene permiso para ello.
 
 El proveedor, US-104, puede controlar las actualizaciones mediante la página **Inventario disponible de envío**.
 

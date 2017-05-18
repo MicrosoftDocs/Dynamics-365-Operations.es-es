@@ -19,10 +19,11 @@ ms.search.industry: Distribution
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: ec2907129e68f39e6e5f56f0617b7599598312d2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: de1d8bc2fa1080e549cb8c33657ad0f373644d38
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ La configuración del grupo de dimensiones de seguimiento que se asigna al produ
 Puede crear facturas y albaranes parciales para los pedidos de ventas y registrar solo los números de serie de los artículos que incluyen estas facturas y albaranes. Si desea crear una factura parcial y tiene más de un albarán para el pedido de ventas, puede incluir los números de serie de más de un albarán. Sin embargo, solo puede haber un albarán que no incluya todos los números de serie. Por ejemplo, si tiene tres albaranes y cada uno incluye dos artículos serializados, no puede crear una factura parcial para un artículo de cada albarán.
 
 ## <a name="what-do-i-do-when-a-serial-number-isnt-readable"></a>¿Qué hago cuando un número de serie no es legible?
-Si un número de serie no se puede leer ni escanear, puede crear una línea en blanco para el artículo haciendo clic en **No se puede leer **en la página **Números de serie**. Si el número de serie queda disponible más adelante, puede actualizar la factura o el albarán. Para obtener más información, consulte la sección siguiente, "¿Puedo corregir o cambiar los números de serie que he registrado para un pedido de ventas?"
+Si un número de serie no se puede leer ni escanear, puede crear una línea en blanco para el artículo haciendo clic en **No se puede leer**en la página **Números de serie**. Si el número de serie queda disponible más adelante, puede actualizar la factura o el albarán. Para obtener más información, consulte la sección siguiente, "¿Puedo corregir o cambiar los números de serie que he registrado para un pedido de ventas?"
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>¿Puedo corregir o cambiar los números de serie que he registrado para un pedido de ventas?
 Sí, podrá corregir números de serie cuando se cumplan las siguientes condiciones:

@@ -3,7 +3,7 @@ title: "Configuración de un proceso de aprobación en un flujo de trabajo"
 description: "Use el siguiente procedimiento para configurar las propiedades del proceso de aprobación."
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 579e393ef64bc5ad72d129ac08ac215c524d5c55
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 99decd86602e7537af6393c6d28c262f20ca1f00
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Configuración de un proceso de aprobación en un flujo de trabajo
+
+[!include[banner](../includes/banner.md)]
+
 
 Use el siguiente procedimiento para configurar las propiedades del proceso de aprobación.
 
@@ -132,7 +136,7 @@ Es posible que desee designar un aprobador final que actúe en las situaciones e
 
 ## <a name="set-a-time-limit"></a>Definición de un límite de tiempo
 Siga estos pasos si el proceso de aprobación se debe completar en un plazo específico.
-| **Nota **                                                                                                                                                |
+| **Nota**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Las opciones que seleccione al realizar estos pasos reemplazarán las opciones que haya seleccionado en las áreas de **Asignación** y **Escalada** de cada paso de aprobación. |
 
@@ -155,13 +159,15 @@ Cuando se asigna un documento a un usuario para que lo apruebe, este debe realiz
 4.  Active la casilla de verificación **Solicitar cambio** si el usuario puede solicitar que se realicen cambios en el documento.
 5.  Active la casilla de verificación **Delegar** si el usuario puede asignar el documento a otro usuario para que lo apruebe.
 
-**Nota**: **las acciones de permiso de la casilla de verificación de la lista de trabajo de Enterprise Portal ** se han quedado obsoletas.
+**Nota**: **las acciones de permiso de la casilla de verificación de la lista de trabajo de Enterprise Portal** se han quedado obsoletas.
 
 ## <a name="configure-the-approval-steps"></a> Configuración de los pasos de aprobación
 Los procesos de aprobación se componen de pasos de aprobación. Realice el siguiente procedimiento para agregar pasos en el proceso de aprobación y configurarlos.
 1.  En el editor de flujo de trabajo, haga doble clic en el proceso de aprobación. Los pasos del proceso se mostrarán en el editor de flujo de trabajo.
 2.  Para agregar un paso de aprobación, arrástrelo desde el área de **Elementos del flujo de trabajo** al lienzo.
-3.  Para configurar un paso de aprobación, vea [Configuración de un paso de aprobación](http://axhelp.dynamics.com/en/wiki/configure-an-approval-step/).
+3.  Para configurar un paso de aprobación, vea [Configuración de un paso de aprobación](configure-approval-step-workflow.md).
+
+
 
 
 

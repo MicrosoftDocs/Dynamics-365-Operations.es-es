@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d585ae0716a4bd9c3531e8639cd7c6b3cab780ac
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c8947f9335b3a2de83ab00bad1043ee14d35f2c8
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -57,8 +58,8 @@ La configuración general para la colaboración del proveedor en Dynamics 365 fo
 
 Antes de que las cuentas de usuario se pueden crear para un proveedor externo, deberá configurar la cuenta de proveedor para permitir que utilicen la colaboración del proveedor. Para ello, configure el campo **Activación de la colaboración** para activarla en la ficha **General** de la página **Proveedores**. Existen dos opciones que puede elegir:
 
--   **Activo (el PO se confirma automáticamente) **: los pedidos de compra se confirman de forma automática cuando el vendedor los acepta sin cambios.
--   **Activo (el PO no se confirma automáticamente) **: es necesario que los pedidos de compra se confirmen manualmente por parte de la empresa cuando el proveedor los haya aceptado.
+-   **Activo (el PO se confirma automáticamente)**: los pedidos de compra se confirman de forma automática cuando el vendedor los acepta sin cambios.
+-   **Activo (el PO no se confirma automáticamente)**: es necesario que los pedidos de compra se confirmen manualmente por parte de la empresa cuando el proveedor los haya aceptado.
 
 ### <a name="decide-whether-you-want-the-vendor-to-see-price-information"></a>Decida si desea que el proveedor vea la información de precios
 
@@ -142,7 +143,7 @@ La siguiente tabla muestra un ejemplo de los cambios de estado y versión que pu
 | El proveedor envía una respuesta de **Aceptado con los cambios**.                  | El estado aún está **En revisión externa**.                                                                                                                  |
 | Tiene que realizar algunos cambios que pide el proveedor.                  | El estado se cambia a **Aprobado**.                                                                                                                        |
 | Envíe la nueva versión del PO al proveedor.                        | Una nueva versión se registra en la interfaz de colaboración de proveedor y el estado se cambia a **En revisión externa**.                                      |
-| El proveedor acepta la nueva versión del PO.                            | El estado aún está **En revisión externa **a menos que la cuenta de proveedor se haya configurado para establecer automáticamente el estado del PO a **Confirmado** cuando lo acepta. |
+| El proveedor acepta la nueva versión del PO.                            | El estado aún está **En revisión externa**a menos que la cuenta de proveedor se haya configurado para establecer automáticamente el estado del PO a **Confirmado** cuando lo acepta. |
 
 Los proveedores no tienen que confirmar el PO mediante la interfaz de colaboración de proveedor. También pueden enviar un mensaje de correo electrónico o comunicar la aceptación de una OC a través de otros canales. A continuación puede confirmar el pedido manualmente en Dynamics 365 for Operations. Si lo hace, recibirá una advertencia de que se está confirmando el pedido aunque no haya respuesta del proveedor. El PO aparece a continuación en el historial de confirmaciones como un pedido confirmado abierto que no tiene ninguna respuesta. El proveedor ya no tiene la opción de confirmar o de rechazar el PO.  
 

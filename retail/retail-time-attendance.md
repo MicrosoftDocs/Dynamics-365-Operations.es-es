@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: eac0b85a17df33c860333c5c19d4fb58f160930f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: f256839e1fad810e24d2ed95a933fbeacee4722b
+ms.contentlocale: es-es
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -109,7 +110,7 @@ Para obtener información sobre los pasos de configuración, vea <https://techne
 <!-- -->
 
 -   Diferentes zonas horarias:
-    -   Si ve el tiempo desde otra ubicación (para el registro de cajero, o mediante **View timeclock entries** para una situación de gerente), y esa ubicación se encuentra en una zona horaria diferente, los registros de tiempo que ve se convierten a su zona horaria local. Por ejemplo, usted es el gerente de dos tiendas, una en Barcelona y otra en Londres. Un cajero registra la hora de entrada a las 9:00 de la mañana en Barcelona. En ese momento, en Londres son las 8:00 de la mañana. Por lo tanto, si está en la tienda de Londres y mira los registros de horas, el registro de hora se marca como 8 de la mañana.
+    -   Si ve el tiempo desde otra ubicación (para el registro de cajero, o mediante **Ver entradas de reloj de tiempo** para una situación de gerente), y esa ubicación se encuentra en una zona horaria diferente, los registros de tiempo que ve se convierten a su zona horaria local. Por ejemplo, usted es el gerente de dos tiendas, una en Barcelona y otra en Londres. Un cajero registra la hora de entrada a las 9:00 de la mañana en Barcelona. En ese momento, en Londres son las 8:00 de la mañana. Por lo tanto, si está en la tienda de Londres y mira los registros de horas, el registro de hora se marca como 8 de la mañana.
 
 ## <a name="view-worker-time-registrations"></a>Ver registros de horas del trabajador
 ### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a>Ver los registros de horas del trabajador y filtrar por tipo de tienda o de actividad

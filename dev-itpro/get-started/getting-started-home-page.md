@@ -3,7 +3,7 @@ title: "Dónde empezar"
 description: "Empiece a aquí para ponerse al día y aprender a usar rápidamente la interfaz de usuario de Microsoft Dynamics 365 for Operations."
 eauthor: sericks007
 manager: AnnBe
-ms.date: 2015-12-11 15 - 19 - 40
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ o# ms.search.industry:
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 8f75131c6be6ce0f23cce456405d5e211912f19a
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 69995d2f8a463e82e7a26b673737889b4ea17402
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="where-to-start"></a>Dónde empezar
+
+[!include[banner](../includes/banner.md)]
+
 
 Empiece a aquí para ponerse al día y aprender a usar rápidamente la interfaz de usuario de Microsoft Dynamics 365 for Operations.
 
@@ -36,7 +40,7 @@ Los recursos siguientes proporcionan una visión general de cómo trabajar con s
 - [Introducción a Microsoft FastTrack for Dynamics 365](/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
 - [Registro para suscripción](../dev-tools/sign-up-preview-subscription.md) 
 - [Lifecycle Services (LCS) para clientes de Microsoft Dynamics 365 for Operations](../lifecycle-services/lcs-works-lcs.md) 
-- [Qué tienen que hacer los clientes que compraron Microsoft Dynamics 365 for Operations a través de un proveedor de servicios en la nube para obtener la versión local de Dynamics 365 for Operations 2012](../deployment/csp-download-customersource.md)
+- [Qué tienen que hacer los clientes que compraron Microsoft Dynamics 365 for Operations a través de un proveedor de servicios en la nube para obtener la versión local de Dynamics AX 2012](../deployment/csp-download-customersource.md)
 
 ## <a name="user-interface"></a>Interfaz de usuario
 Los recursos siguientes proporcionan información acerca de la experiencia de usuario de Dynamics 365 for Operations. 
@@ -71,12 +75,12 @@ El Grabador de tareas es una herramienta de Dynamics 365 for Operations que pued
 <a name="see-also"></a>Consulte también
 --------
 
-[Creación de nuevas bibliotecas de formación para Dynamics 365 for Operations dentro de Lifecycle Services con el Grabador de tareas (vínculo externo)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [Nuevas guías de tareas (febrero de 2016)](new-task-guides-available-february-2016.md)
 
 [Guías de tareas nuevas o actualizadas (mayo de 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Guías de tareas nuevas o actualizadas (noviembre de 2016)](new-task-guides-november-2016.md)
+
+
 
 

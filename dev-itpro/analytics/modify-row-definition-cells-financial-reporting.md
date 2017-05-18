@@ -1,16 +1,16 @@
 ---
 title: "Modifique las celdas de definición de filas"
 description: "En este artículo se describe la información que se requiere para cada celda de una definición de fila en un informe financiero y se explica cómo escribir esa información."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-07 16 - 09 - 06
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: b61364c9055e5c5a63592c7f05551d0c145924b9
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 82a0b8c52a816a7fc608e90866bd564392f9c8d4
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Modifique las celdas de definición de filas
+
+[!include[banner](../includes/banner.md)]
+
 
 En este artículo se describe la información que se requiere para cada celda de una definición de fila en un informe financiero y se explica cómo escribir esa información. 
 
@@ -38,7 +42,9 @@ En las definiciones de filas, los números o las etiquetas en la celda **Código
 
 Se requiere un código de fila para todas las filas. Puede mezclar códigos de filas numéricos, alfanuméricos y no establecidos (vacíos) en una definición de fila. El código de fila puede ser cualquier número entero positivo (menor de 100.000.000) o una etiqueta descriptiva que identifique esa fila. Una etiqueta descriptiva debe seguir estas reglas:
 
--   La etiqueta debe comenzar por un carácter alfabético (de la a a la z o de la A a la Z) y puede ser cualquier combinación de números y de letras hasta 16 caracteres. **Nota**: una etiqueta puede incluir el guion bajo (\_), pero no se permiten otros caracteres especiales.
+-   La etiqueta debe comenzar por un carácter alfabético (de la a a la z o de la A a la Z) y puede ser cualquier combinación de números y de letras hasta 16 caracteres. 
+    > [!NOTE]
+    > Una etiqueta puede incluir el guión bajo (\_), pero no se permiten otros caracteres especiales.
 -   La etiqueta no puede usar ninguna de las siguientes palabras reservadas: AND, OR, IF, THEN, ELSE, PERIODS, TO, BASEROW, UNIT, NULL, CPO o RPO.
 
 Los siguientes ejemplos son códigos válidos de fila:
@@ -56,10 +62,14 @@ Los siguientes ejemplos son códigos válidos de fila:
 
 1.  En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
 2.  En el menú **Editar**, haga clic en **Renumerar filas**.
-3.  En el cuadro de diálogo **Renumerar filas**, especifique los nuevos valores para el código de la fila de inicio y el incremento del código de la fila. Puede restablecer los códigos numéricos de la fila a valores equidistantes. Sin embargo, el diseñador de informes renumera solo los códigos de fila que empiecen por números (por ejemplo 130 o 246). No renumera los códigos de fila que empiecen por letras (por ejemplo INCOME\_93 o TP0693). **Nota:** cuando se renumeran códigos de la fila, el diseñador de informes automáticamente las referencias **TOT** y **CAL**. Por ejemplo, si una fila **TOT** hace referencia a un intervalo que empiece por el código 100 de la fila y se renumeran las filas, empezando por 90, la referencia **TOT** cambia del 100 al 90.
+3.  En el cuadro de diálogo **Renumerar filas**, especifique los nuevos valores para el código de la fila de inicio y el incremento del código de la fila. Puede restablecer los códigos numéricos de la fila a valores equidistantes. Sin embargo, el diseñador de informes renumera solo los códigos de fila que empiecen por números (por ejemplo 130 o 246). No renumera los códigos de fila que empiecen por letras (por ejemplo INCOME\_93 o TP0693). 
+> [!NOTE]
+> Cuando se reenumeran los códigos de la fila, el diseñador de informes actualiza automáticamente las referencias **TOT** y **CAL**. Por ejemplo, si una fila **TOT** hace referencia a un intervalo que empiece por el código 100 de la fila y se renumeran las filas, empezando por 90, la referencia **TOT** cambia del 100 al 90.
 
 ## <a name="add-a-description"></a>Agregar una descripción
-La celda de la descripción ofrece una visión general de los datos financieros en la fila del informe, como “ingresos” o “ingresos netos.” El texto en la celda **Descripción** aparece en el informe exactamente como se ha especificado en la definición de filas. **Nota:** la anchura de la columna de la descripción en el informe se establece en la definición de la columna. Si el texto en la columna de **Descripción** en la definición de filas es largo, compruebe la anchura de la columna **DESC**. Cuando se usa el cuadro de diálogo **Insertar filas desde**, los valores en la columna **Descripción** son los valores de segmento o los valores de dimensión de los datos financieros. Puede insertar filas para agregar texto descriptivo, como un título de sección o un total de sección, y para agregar formato, como una línea antes de una fila de total. Si el informe incluye un organigrama, puede incluir el texto adicional que está definido para las unidades de notificación en el organigrama. También puede limitar el texto adicional a una unidad de notificación específica.
+La celda de la descripción ofrece una visión general de los datos financieros en la fila del informe, como “ingresos” o “ingresos netos.” El texto en la celda **Descripción** aparece en el informe exactamente como se ha especificado en la definición de filas. 
+> [!NOTE]
+> La anchura de la columna de la descripción del informe se establece en la definición de la columna. Si el texto en la columna de **Descripción** en la definición de filas es largo, compruebe la anchura de la columna **DESC**. Cuando se usa el cuadro de diálogo **Insertar filas desde**, los valores en la columna **Descripción** son los valores de segmento o los valores de dimensión de los datos financieros. Puede insertar filas para agregar texto descriptivo, como un título de sección o un total de sección, y para agregar formato, como una línea antes de una fila de total. Si el informe incluye un organigrama, puede incluir el texto adicional que está definido para las unidades de notificación en el organigrama. También puede limitar el texto adicional a una unidad de notificación específica.
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>Agregar la descripción de una línea en un informe
 
@@ -81,7 +91,9 @@ La celda de la descripción ofrece una visión general de los datos financieros 
 4.  En el campo **Selección de organigrama para restricción**, expanda o contraiga el organigrama y seleccione un organigrama.
 
 ## <a name="add-a-format-code"></a>Agregar un código de formato
-La celda **Código de formato** ofrece una selección de opciones preformateadas para el contenido de la fila. Si la celda **Código de formato** está en blanco, se interpreta la fila como una fila de datos financieros. **Nota:** si un informe contiene filas de formato sin importe que no están relacionadas con las filas de importe que se han eliminado (por ejemplo debido al saldo cero), puede usar la columna **Fórmulas, filas o unidades relacionadas** para evitar que las filas de cabecera y de formato se impriman.
+La celda **Código de formato** ofrece una selección de opciones preformateadas para el contenido de la fila. Si la celda **Código de formato** está en blanco, se interpreta la fila como una fila de datos financieros. 
+> [!NOTE]
+> Si un informe contiene filas de formato sin importe que no están relacionadas con las filas de importe que se han eliminado (por ejemplo debido al saldo cero), puede usar la columna **Fórmulas, filas o unidades relacionadas** para evitar que las filas de cabecera y de formato se impriman.
 
 ### <a name="add-a-format-code-to-a-report-row"></a>Agregar un código de formato a una fila del informe
 
@@ -140,7 +152,9 @@ Cuando se crea una fórmula total de la fila, se deben usar códigos de fila par
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Relacionar una fila de formato a una fila de importe
 
-En la columna **Código de formato** en una definición de fila, se aplican los códigos de formato **DES**, **LFT**, **RGT**, **CEN**, **---** y **===** a filas sin importe. Para evitar que el formato se imprima cuando se eliminan las filas del importe relacionado (por ejemplo porque las filas del importe contienen valores cero o ninguna actividad del período), debe relacionar las filas de formato a las filas de importe correspondientes. Esta función es útil si desea evitar que se impriman encabezados o formato relacionados con subtotales cuando no hay detalles a imprimir para el período. **Nota:** también puede evitar que se impriman las filas de importe detalladas desactivando la opción de mostrar filas sin importes. Esta opción se encuentra en la pestaña **Configuración** de la definición del importe. De forma predeterminada, las cuentas de detalle de transacción con saldo cero o ninguna actividad del período se eliminan en los informes. Para mostrar estas cuentas de detalle de transacción, active la casilla **Mostrar filas sin importes** en la pestaña **Configuración** de la definición del informe.
+En la columna **Código de formato** en una definición de fila, se aplican los códigos de formato **DES**, **LFT**, **RGT**, **CEN**, **---** y **===** a filas sin importe. Para evitar que el formato se imprima cuando se eliminan las filas del importe relacionado (por ejemplo porque las filas del importe contienen valores cero o ninguna actividad del período), debe relacionar las filas de formato a las filas de importe correspondientes. Esta función es útil si desea evitar que se impriman encabezados o formato relacionados con subtotales cuando no hay detalles a imprimir para el período. 
+    > [!NOTE]
+    >  You can also prevent the detailed amount rows from being printed by clearing the option to display rows without amounts. This option is located on the **Settings** tab of the report definition. By default, transaction detail accounts that have a zero balance or no period activity are suppressed in reports. To show these transaction detail accounts, select the **Display rows without an amounts** check box on the **Settings** tab of the report definition.
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Relacionar una fila de formato a una fila de importe
 
@@ -196,7 +210,9 @@ Los códigos de ordenación ordenan cuentas o valores, ordenan un informe de des
 1.  En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
 2.  Haga doble clic en la celda **Código de formato** y seleccione un código de ordenación.
 3.  En la celda **Fórmulas, filas o unidades relacionadas**, especifique el intervalo de códigos de fila que desea ordenar. Para especificar un intervalo, especifique el primer código de fila, dos puntos (:) y, a continuación, el código de la última fila. Por ejemplo, escriba **160:490** para especificar que el intervalo es de la fila 160 a la fila 490.
-4.  En la celda **Restricción de columnas**, especifique la letra de la columna de informe para usar en la ordenación. **Nota:** incluya solo las filas de importe en un cálculo de ordenación.
+4.  En la celda **Restricción de columnas**, especifique la letra de la columna de informe para usar en la ordenación. 
+    > [!NOTE]
+    > Incluya solo las filas de importe en un cálculo de ordenación.
 
 ### <a name="examples-of-ascending-and-descending-column-values"></a>Ejemplos de valores ascendentes y descendentes de columna
 
@@ -220,255 +236,24 @@ En el siguiente ejemplo, los valores de la columna D del informe se ordenarán e
 
 Ejemplo del informe que se genera.
 
-**Análisis de desviación (ordenado por desviación)**
+|||||||||
+|---|---|---|---|---|---|---|
+|**Análisis de desviación (ordenado por desviación)**|||||||
 
-**Regiones de Pekín y Atlanta**
+|**Regiones de Pekín y Atlanta**|||||||
 
-**Para los siete meses que finalizan el 31 de julio de 2013**
+|**Para los siete meses que finalizan el 31 de julio de 2013**|||||||
 
-**Julio**
+||**Julio**|**Año hasta la fecha**|||||
 
-**Ejercicio a fecha**
+||**Real**|**Presupuesto**|**Desviación**|**Real**|**Presupuesto**|**Desviación**|
 
-**Real**
+|**Clasificado por la desviación mensual en orden ascendente**|||||||
 
-**Presupuesto**
+|COGS|873,872|236,144|(637,728)|4,864,274|1,590,315|(3,273,959)|
 
-**Desviación**
-
-**Real**
-
-**Presupuesto**
-
-**Desviación**
-
-**Clasificado por la desviación mensual en orden ascendente**
-
-COGS
-
-873,872
-
-236,144
-
-(637,728)
-
-4,864,274
-
-1,590,315
-
-(3,273,959)
-
-Sueldos y salarios
-
-97,624
-
-65,573
-
-(32,051)
-
-653,884
-
-441,664
-
-(212,220)
-
-Descuentos de ventas
-
-36,383
-
-24,152
-
-(12,231)
-
-241,562
-
-162,670
-
-(78,892)
-
-Devoluciones de ventas
-
-10,917
-
-7,246
-
-(3,671)
-
-62,809
-
-48,803
-
-(14,006)
-
-Gasto de alquiler
-
-12,052
-
-9,019
-
-(3,033)
-
-80,444
-
-60,748
-
-(19,696)
-
-Gastos de oficina
-
-5,023
-
-3,291
-
-(1,732)
-
-33,420
-
-22,098
-
-(11,322)
-
-Gastos de viajes
-
-7,656
-
-7,641
-
-(15)
-
-51,062
-
-51,469
-
-407
-
-Ventas
-
-1,240,119
-
-410,389
-
-829,730
-
-7,139,288
-
-2,764,549
-
-4,374,739
-
-**Clasificado por la desviación del ejercicio a fecha en orden descendente**
-
-Ventas
-
-1,240,119
-
-410,389
-
-829,730
-
-7,139,288
-
-2,764,549
-
-4,374,739
-
-Gastos de viajes
-
-7,656
-
-7,641
-
-(15)
-
-51,062
-
-51,469
-
-407
-
-Gastos de oficina
-
-5,023
-
-3,291
-
-(1,732)
-
-33,420
-
-22,098
-
-(11,322)
-
-Devoluciones de ventas
-
-10,917
-
-7,246
-
-(3,671)
-
-62,809
-
-48,803
-
-(14,006)
-
-Gasto de alquiler
-
-12,052
-
-9,019
-
-(3,033)
-
-80,444
-
-60,748
-
-(19,696)
-
-Descuentos de ventas
-
-36,383
-
-24,152
-
-(12,231)
-
-241,562
-
-162,670
-
-(78,892)
-
-Sueldos y salarios
-
-97,624
-
-65,573
-
-(32,051)
-
-653,884
-
-441,664
-
-(212,220)
-
-COGS
-
-873,872
-
-236,144
-
-(637,728)
-
-4,864,274
-
-1,590,315
-
-(3,273,959)
+|Sueldos y salarios|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |Descuentos de ventas|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Devoluciones de ventas|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Gasto de alquiler|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Office Expense|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Gastos de viajes|7,656|7,641|(15)|51,062|51,469|407| |Ventas|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |**Clasificado por la desviación del ejercicio a fecha en orden descendente**|||||||
+|Ventas|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |Gastos de viajes|7,656|7,641|(15)|51,062|51,469|407| |Gastos de oficina|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Devoluciones de ventas|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Gasto de alquiler|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Descuentos de ventas|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Sueldos y salarios|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |COGS|873,872|236,144|(637,728)|4,864,274|1,590,315|(3,273,959)|
 
 ## <a name="specify-a-format-override-cell"></a>Especificar una celda de anulación de formato
 La celda **Anulación de formato** especifica el formato que se usa para la fila cuando se imprime el informe. Este formato reemplaza el formato que se especifica en la definición de la columna y la definición del informe. De forma predeterminada, el formato que se especifica en esas definiciones es divisa. Si una fila del informe muestra el número de activos, como el número de edificios, y otra fila muestra el valor monetario de dichos activos, puede anular el formato de divisa y especificar el formato numérico para la fila que especifica el número de edificios. Especifique esta información en el cuadro de diálogo **Anulación de formato**. Las opciones disponibles dependen de la categoría del formato que se selecciona. El área **Ejemplo** del cuadro de diálogo muestra formatos de ejemplo. Están disponibles las siguientes categorías:
@@ -492,7 +277,9 @@ El formato de divisa se aplica a un importe fiscal e incluye el símbolo de la d
 -   **Símbolo de la divisa**: el símbolo de la divisa para el informe. Este valor anula la configuración **Opciones regionales** para la información de la empresa.
 -   **Números negativos**: los números negativos pueden tener un signo menos (-), pueden aparecer entre paréntesis o pueden tener un triángulo (∆).
 -   **Decimales**: el número de dígitos a mostrar después del separador decimal.
--   **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. **Nota:** si la impresión se elimina para los valores cero o ninguna actividad en el período, se eliminará este texto.
+-   **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. 
+    > [!NOTE]
+    >  Si la impresión se elimina si no hay valores ni actividad de período, se eliminará este texto.
 
 ### <a name="numeric-formatting"></a>Formato numérico
 
@@ -500,7 +287,9 @@ El formato numérico se aplica a cualquier importe y no incluye un símbolo de d
 
 -   **Números negativos**: los números negativos pueden tener un signo menos (-), pueden aparecer entre paréntesis o pueden tener un triángulo (∆).
 -   **Decimales**: el número de dígitos a mostrar después del separador decimal.
--   **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. **Nota:** si la impresión se elimina para los valores cero o ninguna actividad en el período, se eliminará este texto.
+-   **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. 
+    > [!NOTE]
+    >  Si la impresión se elimina si no hay valores ni actividad de período, se eliminará este texto.
 
 ### <a name="percentage-formatting"></a>Formato de porcentaje
 
@@ -508,14 +297,18 @@ El formato de porcentaje incluye el signo de porcentaje (%). Están disponibles 
 
 -   **Números negativos**: los números negativos pueden tener un signo menos (-), pueden aparecer entre paréntesis o pueden tener un triángulo (∆).
 -   **Decimales**: el número de dígitos a mostrar después del separador decimal.
--   **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. **Nota:** si la impresión se elimina para los valores cero o ninguna actividad en el período, se eliminará este texto.
+-   **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. 
+    > [!NOTE]
+    >  Si la impresión se elimina si no hay valores ni actividad de período, se eliminará este texto.
 
 ### <a name="custom-formatting"></a>Formato personalizado
 
 Use la categoría de formato personalizado para crear una anulación de formato personalizado. Están disponibles las siguientes opciones:
 
 -   **Tipo**: el formato personalizado.
--   **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. **Nota:** si la impresión se elimina para los valores cero o ninguna actividad en el período, se eliminará este texto.
+-   **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. 
+    > [!NOTE]
+    >  Si la impresión se elimina si no hay valores ni actividad de período, se eliminará este texto.
 
 El tipo debe representar el valor positivo y después el valor negativo. Normalmente, se especifica un formato similar que distinga valores negativos y positivos. Por ejemplo, para especificar que los valores negativos y positivos tienen dos decimales, pero los valores negativos aparecen entre paréntesis, escriba **0.00; (0.00)**. En la tabla siguiente se muestran los formatos personalizados que puede usar para controlar el formato de sus valores. Todos los ejemplos empiezan con el valor 1234.56.
 
@@ -570,14 +363,18 @@ Cuando selecciona una cuenta concreta, el diseñador de informes combina normalm
 
 ### <a name="book-code-modifiers"></a>Modificadores de código de libro
 
-Puede limitar una fila a un código existente del libro. La definición de la columna debe incluir al menos una columna **FD** que tenga el código del libro. **Nota:** la restricción del código del libro para una fila anula las restricciones del código del libro en la definición de columna para dicha fila.
+Puede limitar una fila a un código existente del libro. La definición de la columna debe incluir al menos una columna **FD** que tenga el código del libro. 
+> [!NOTE]
+> La restricción del código del libro para una fila anula las restricciones del código del libro en la definición de columna para dicha fila.
 
 ### <a name="account-and-transaction-attributes"></a>Atributos de cuentas y de transacciones
 
 Algunos sistemas contables admiten atributos de cuentas y atributos de transacción en los datos financieros. Estos atributos actúan como segmentos virtuales de la cuenta y pueden contener información adicional sobre la cuenta o la transacción. Esta información adicional podría ser identificadores de la cuenta, identificadores de lote, códigos postales u otro atributos. Si su sistema contable admite atributos, puede usar atributos de cuenta o atributos de transacción como modificadores de la fila en la definición de filas. Para obtener información sobre cómo anular la información de la fila, consulte la sección “Anulación de la definición de la columna” mendionada anteriormente en este artículo.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Especificar un vínculo a la celda de las dimensiones financieras
-La celda **Vincular a las dimensiones financieras** contiene vínculos a los datos financieros que se deben incluir en cada fila del informe. Esta celda contiene valores de dimensión, pero se pueden especificar celdas en una hoja de cálculo de Microsoft Excel o, además de eso, valores de segmento o valores de dimensión. Para abrir el cuadro de diálogo **Dimensiones**, haga doble clic en la celda **Vínculo a las dimensiones financieras**. **Nota:** el diseñador de informes no puede seleccionar cuentas, dimensiones o campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados_ &, \*, \[, \], { o }. Para especificar información para una fila que ya esté en la definición de filas, agregue la información en la celda **Vínculo a las dimensiones financieras**. Para agregar nuevas filas que vinculan a los datos financieros, use el cuadro de diálogo **Insertar filas desde** para crear nuevas filas en la definición del informe. El título de la columna cambia, en función de cómo se configura la columna, tal y como se muestra en la siguiente tabla.
+La celda **Vincular a las dimensiones financieras** contiene vínculos a los datos financieros que se deben incluir en cada fila del informe. Esta celda contiene valores de dimensión, pero se pueden especificar celdas en una hoja de cálculo de Microsoft Excel o, además de eso, valores de segmento o valores de dimensión. Para abrir el cuadro de diálogo **Dimensiones**, haga doble clic en la celda **Vínculo a las dimensiones financieras**. 
+> [!NOTE]
+> El diseñador de informes no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. Para especificar información para una fila que ya esté en la definición de filas, agregue la información en la celda **Vínculo a las dimensiones financieras**. Para agregar nuevas filas que vinculan a los datos financieros, use el cuadro de diálogo **Insertar filas desde** para crear nuevas filas en la definición del informe. El título de la columna cambia, en función de cómo se configura la columna, tal y como se muestra en la siguiente tabla.
 
 | Tipo de vínculo que se selecciona       | La descripción de la columna de vínculo cambia a esto |
 |----------------------------------|----------------------------------------------------|
@@ -606,21 +403,27 @@ De forma predeterminada, el diseñador de informes no imprime ninguna fila que n
 3.  En el menú **Archivo**, haga clic en **Guardar** para guardar los cambios.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Usar intervalos y caracteres comodín en una definición de filas
-Cuando se especifica un valor natural de segmento en el cuadro de diálogo **Dimensiones**, puede poner un carácter comodín (? o \*) en cualquier posición de un segmento. El diseñador de informes extrae todos los valores de las posiciones definidas sin tener en cuenta los caracteres comodín. Por ejemplo, la definición de filas solo contiene valores naturales de segmentos y los segmentos naturales tienen cuatro caracteres. Si escribe **6???** en una fila, le está pidiendo al diseñador de informes que incluya todas las cuentas con un valor natural de segmento que empiece por 6. Si escribe **6\***, se devuelven los mismos resultados, pero los resultados también incluyen valores de la variable anchura, como **60** y **600000**. El diseñador de informes reemplaza cada carácter comodín (?) por la gama completa de valores posibles, que incluyen letras y caracteres especiales. Por ejemplo, en el intervalo de **12?0** a **12?4**, el carácter comodín en **12?0** se reemplaza con el valor más bajo del conjunto de caracteres, y el carácter comodín en **12?4** se reemplazan con el valor más alto del conjunto de caracteres. **Nota:** debe evitar usar caracteres comodín para las cuentas de inicio y fin en intervalos. Si usa los caracteres comodín en la cuenta de inicio o la cuenta de fin, puede obtener resultados inesperados.
+Cuando se especifica un valor natural de segmento en el cuadro de diálogo **Dimensiones**, puede poner un carácter comodín (? o \*) en cualquier posición de un segmento. El diseñador de informes extrae todos los valores de las posiciones definidas sin tener en cuenta los caracteres comodín. Por ejemplo, la definición de filas solo contiene valores naturales de segmentos y los segmentos naturales tienen cuatro caracteres. Si escribe **6???** en una fila, le está pidiendo al diseñador de informes que incluya todas las cuentas con un valor natural de segmento que empiece por 6. Si escribe **6\***, se devuelven los mismos resultados, pero los resultados también incluyen valores de la variable anchura, como **60** y **600000**. El diseñador de informes reemplaza cada carácter comodín (?) por la gama completa de valores posibles, que incluyen letras y caracteres especiales. Por ejemplo, en el intervalo de **12?0** a **12?4**, el carácter comodín en **12?0** se reemplaza con el valor más bajo del conjunto de caracteres, y el carácter comodín en **12?4** se reemplazan con el valor más alto del conjunto de caracteres. 
+> [!NOTE]
+> Debe evitar usar caracteres comodín para las cuentas de inicio y fin en intervalos. Si usa los caracteres comodín en la cuenta de inicio o la cuenta de fin, puede obtener resultados inesperados.
 
 ### <a name="single-segment-or-single-dimension-ranges"></a>intervalos de un único segmento o de una única dimensión
 
-Puede especificar un intervalo de valores de segmento o valores de dimensión. La ventaja de especificar un intervalo es que no tiene que actualizar la definición de filas cada vez que un nuevo valor de segmento o valor de dimensión se agrega a los datos financieros. Por ejemplo, el intervalo **+Cuenta=\[6100:6900\]** extrae los valores de las cuentas de la 6100 a la 6900 para el importe de fila. Cuando un intervalo incluye un carácter comodín (?), el diseñador de informes no evalúa el intervalo según cada carácter. En su lugar, se determinan los puntos bajos y altos del intervalo y luego se incluyen los valores de fin y todos los valores entre ellos. **Nota:** el diseñador de informes no puede seleccionar cuentas, dimensiones o campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados_ &, \*, \[, \], { o }. Puede agregar el signo & si está creando automáticamente definiciones de filas usando el cuadro de diálogo **Insertar filas desde dimensiones**.
+Puede especificar un intervalo de valores de segmento o valores de dimensión. La ventaja de especificar un intervalo es que no tiene que actualizar la definición de filas cada vez que un nuevo valor de segmento o valor de dimensión se agrega a los datos financieros. Por ejemplo, el intervalo **+Cuenta=\[6100:6900\]** extrae los valores de las cuentas de la 6100 a la 6900 para el importe de fila. Cuando un intervalo incluye un carácter comodín (?), el diseñador de informes no evalúa el intervalo según cada carácter. En su lugar, se determinan los puntos bajos y altos del intervalo y luego se incluyen los valores de fin y todos los valores entre ellos. 
+> [!NOTE]
+> El diseñador de informes no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. Puede agregar el signo & si está creando automáticamente definiciones de filas usando el cuadro de diálogo **Insertar filas desde dimensiones**.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Intervalos de varios segmentos o varias dimensiones
 
-Cuando se especifica un intervalo mediante combinaciones de varios valores de dimensión, la comparación del intervalo ..\financial-dimensions\ se hace dimensión por dimensión. La comparación del intervalo no se puede realizar carácter por carácter o o por segmento parcial. Por ejemplo, el intervalo **+Cuenta=\[5000:6000\], Departamento=\[1000:2000\], Centro de coste=\[00\]** incluye únicamente las cuentas que coinciden con cada segmento. En este escenario, la primera dimensión debe estar en el intervalo de 5000 a 6000, la segunda dimensión debe estar en el intervalo de 1000 a 2000 y la última dimensión debe ser 00. Por ejemplo, **+Cuenta=\[5100\], Departamento=\[1100\], Centro de coste=\[01\]** no se incluye en el informe, ya que el segmento último se encuentra fuera del intervalo específico. Si un valor del segmento contiene espacios, incluya ese valor en corchetes (\[ \]). Los siguientes valores son válidos para un segmento de cuatro caracteres: **\[ 234\], \[123 \], \[1 34\]**. Los valores de dimensión se deben incluir entre corchetes (\[ \]) y el diseñador de informes agrega estos corchetes para el usuario. Cuando un intervalo de varios segmentos o de varias dimensiones incluye caracteres comodín (? o \*), se determina el punto bajo y alto de todo el intervalo de varios segmentos o varias dimensiones y luego se incluyen los valores de fin y todos los valores entre ellos. Si tiene un intervalo de gran tamaño, como todo el intervalo de cuentas de 40000 a 99999, debe especificar una cuenta de inicio válida y una cuenta de fin válida siempre que sea posible. **Nota:** el diseñador de informes no puede seleccionar cuentas, dimensiones o campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados_ &, \*, \[, \], { o }. Puede agregar el signo & si está creando automáticamente definiciones de filas usando el cuadro de diálogo **Insertar filas desde dimensiones**.
+Cuando se especifica un intervalo mediante combinaciones de varios valores de dimensión, la comparación del intervalo ..\financial-dimensions\ se hace dimensión por dimensión. La comparación del intervalo no se puede realizar carácter por carácter o o por segmento parcial. Por ejemplo, el intervalo **+Cuenta=\[5000:6000\], Departamento=\[1000:2000\], Centro de coste=\[00\]** incluye únicamente las cuentas que coinciden con cada segmento. En este escenario, la primera dimensión debe estar en el intervalo de 5000 a 6000, la segunda dimensión debe estar en el intervalo de 1000 a 2000 y la última dimensión debe ser 00. Por ejemplo, **+Cuenta=\[5100\], Departamento=\[1100\], Centro de coste=\[01\]** no se incluye en el informe, ya que el segmento último se encuentra fuera del intervalo específico. Si un valor del segmento contiene espacios, incluya ese valor en corchetes (\[ \]). Los siguientes valores son válidos para un segmento de cuatro caracteres: **\[ 234\], \[123 \], \[1 34\]**. Los valores de dimensión se deben incluir entre corchetes (\[ \]) y el diseñador de informes agrega estos corchetes para el usuario. Cuando un intervalo de varios segmentos o de varias dimensiones incluye caracteres comodín (? o \*), se determina el punto bajo y alto de todo el intervalo de varios segmentos o varias dimensiones y luego se incluyen los valores de fin y todos los valores entre ellos. Si tiene un intervalo de gran tamaño, como todo el intervalo de cuentas de 40000 a 99999, debe especificar una cuenta de inicio válida y una cuenta de fin válida siempre que sea posible. 
+> [!NOTE]
+> El diseñador de informes no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. Puede agregar el signo & si está creando automáticamente definiciones de filas usando el cuadro de diálogo **Insertar filas desde dimensiones**.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Agregar o quitar de otras cuentas en una definición de filas
 Para agregar o quitar los importes monetarios en una cuenta de importes monetarios a otra cuenta, puede usar el símbolo más (+) y el símbolo menos (-) en la celda **Vincular a dimensiones financieras**. La tabla siguiente muestra los formatos aceptables para agregar y quitar vínculos a los datos financieros.
 
-| Operación                                                                               | Use este formato                                                                                              |
-|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Operación  | Use este formato  |
+|------------|-----------------|
 | Agregar dos cuentas completas cualificadas.                                                       | +División=\[000\], Cuenta=\[1205\], Departamento=\[00\]+División=\[100\], Cuenta=\[1205\], Departamento=\[00\] |
 | Agregar dos valores de segmento.                                                                 | +Cuenta=\[1205\]+Cuenta=\[1210\]                                                                           |
 | Agregar valores de segmento que incluyen caracteres comodín.                                    | +Cuenta=\[120?+Cuenta=\[11??\]                                                                             |
@@ -634,7 +437,9 @@ Para agregar o quitar los importes monetarios en una cuenta de importes monetari
 | Quitar un intervalo de valores de segmento.                                                     | -Cuenta=\[1200:1205\]                                                                                       |
 | Quitar un intervalo de valores de segmento que incluyen caracteres comodín.                    | -Cuenta=\[120?:130?\]                                                                                       |
 
-Aunque puede modificar las cuentas directamente, también puede usar el cuadro de diálogo **Dimensiones** para aplicar el formato adecuado a sus vínculos de datos financieros. Cualquiera de los valores puede incluir caracteres comodín (? o \*). Sin embargo, el diseñador de informes no puede seleccionar cuentas, dimensiones o campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. **Nota:** para quitar valores, debe ponerle paréntesis a estos valores. Por ejemplo, si escribe **450?-(4509)**, se mostrará **+Cuenta=\[4509\]-Cuenta=\[450?\]** y le estará dando instrucciones al diseñador de informes para que reste el importe en el segmento 4509 del importe para cualquier segmento de cuenta que empiece por 450.
+Aunque puede modificar las cuentas directamente, también puede usar el cuadro de diálogo **Dimensiones** para aplicar el formato adecuado a sus vínculos de datos financieros. Cualquiera de los valores puede incluir caracteres comodín (? o \*). Sin embargo, el diseñador de informes no puede seleccionar cuentas, dimensiones o campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. 
+> [!NOTE]
+> Para sustraer valores, debe poner paréntesis en torno a estos valores. Por ejemplo, si escribe **450?-(4509)**, se mostrará **+Cuenta=\[4509\]-Cuenta=\[450?\]** y le estará dando instrucciones al diseñador de informes para que reste el importe en el segmento 4509 del importe para cualquier segmento de cuenta que empiece por 450.
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Agregar o quitar cuentas de otras cuentas
 
@@ -648,7 +453,8 @@ Aunque puede modificar las cuentas directamente, también puede usar el cuadro d
 
 4.  Repita los pasos del 2 al 3 para agregar más operaciones.
 
-**Nota:** el operador se aplica a todas las dimensiones en la fila.
+> [!NOTE]
+> El operador se aplica a todas las dimensiones de la fila.
 
 ## <a name="description-of-the-dimensions-dialog-box"></a>Descripción del cuaro de diálogo Dimensiones
 En la tabla siguiente se describen los campos del cuadro de diálogo **Dimensiones**.
@@ -680,7 +486,9 @@ Un conjunto de valores de dimensión es un grupo con nombre de valores de dimens
 2.  En el menú **Editar**, haga clic en **Administrar los conjuntos de valores de dimensión**.
 3.  En el cuadro de diálogo **Gestionar conjuntos de valores de dimensión**, en el campo **Dimensión**, seleccione el tipo de dimensión.
 4.  En la lista, seleccione el conjunto de valores de dimensión para actualizarlo, y haga clic en **Modificar**.
-5.  En el cuadro de diálogo **Modificar**, modifique los valores de la fórmula para incluir en el conjunto. **Nota:** si agrega nuevas cuentas o dimensiones, asegúrese de modificar los conjuntos existentes del conjunto de valores de dimensión para incorporar los cambios.
+5.  En el cuadro de diálogo **Modificar**, modifique los valores de la fórmula para incluir en el conjunto. 
+    > [!NOTE]
+    >  Si agrega nuevas cuentas o dimensiones, asegúrese de modificar los conjuntos existentes de valores de dimensión para incorporar los cambios.
 6.  Haga doble clic en la celda y seleccione el operador apropiado, la cuenta **Desde** y la cuenta **Hasta**.
 7.  Haga clic en **Aceptar** para cerrar el cuadro de diálogo **Modificar** y guardar los cambios.
 
@@ -703,6 +511,8 @@ Un conjunto de valores de dimensión es un grupo con nombre de valores de dimens
 <a name="see-also"></a>Consulte también
 --------
 
-[Informes financieros para Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
+[Informes financieros](financial-reporting-intro.md)
+
+
 
 

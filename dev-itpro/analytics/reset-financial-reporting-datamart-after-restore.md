@@ -1,9 +1,9 @@
 ---
 title: "Restablecer el data mart de informes financieros después de restablecer una base de datos"
 description: "Este tema describe cómo restablecer el data mart de informes financieros después de restaurar una base de datos de Microsoft Dynamics 365 for Operations."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-12-08 16 - 20 - 13
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3967cbb869fbb23d5d7716f619e4c22b4a273921
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d4ce390c62cbfb1f693410b004aa296c0ed75eb2
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Restablecer el data mart de informes financieros después de restablecer una base de datos
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tema describe cómo restablecer el data mart de informes financieros después de restaurar una base de datos de Microsoft Dynamics 365 for Operations. 
 
@@ -43,7 +47,11 @@ En primer lugar, exporte los diseños de informe que se encuentran en el Diseña
 5.  Escriba un nombre de archivo y seleccione una ubicación segura en la que desea guardar las definiciones de informe exportadas.
 6.  Haga clic en **Guardar**.
 
-El archivo se puede copiar o cargar en una ubicación segura, lo que permite importarlo a otro entorno en otra hora. La información sobre el uso de una cuenta de almacenamiento de Microsoft Azure puede ser encontrada en la sección sobre [datos de la transferencia con el programa de línea de comandos de AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **Nota:** Microsoft no proporciona una cuenta de almacenamiento como parte de su contrato de Dynamics 365 for Operations. Debe comprar una cuenta almacenamiento o utilizar una cuenta de almacenamiento de una suscripción de Azure independiente. **Importante:** Tenga en cuenta el comportamiento de la unidad D en Azure Virtual Machines. No retenga sus grupos exportados del bloque de creación aquí permanentemente. Para obtener más información acerca de unidades temporales, vea la sección sobre [entendiendo la unidad temporal de Windows Azure Virtual Machines](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
+El archivo se puede copiar o cargar en una ubicación segura, lo que permite importarlo a otro entorno en otra hora. La información sobre el uso de una cuenta de almacenamiento de Microsoft Azure puede ser encontrada en la sección sobre [datos de la transferencia con el programa de línea de comandos de AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). 
+> [!NOTE]
+> Microsoft no proporciona una cuenta de almacenamiento como parte del contrato de Dynamics 365 for Operations. Debe comprar una cuenta almacenamiento o utilizar una cuenta de almacenamiento de una suscripción de Azure independiente. 
+> [!WARNING]
+> Tenga en cuenta el comportamiento de la unidad D en Azure Virtual Machines. No retenga sus grupos exportados del bloque de creación aquí permanentemente. Para obtener más información acerca de unidades temporales, vea la sección sobre [entendiendo la unidad temporal de Windows Azure Virtual Machines](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
 ## <a name="stop-services"></a>Detener servicios
 Use Escritorio remoto para conectarse con todos los equipos del entorno y detener los servicios siguientes de Windows mediante services.msc:
@@ -96,7 +104,9 @@ Use services.msc para reiniciar los servicios que ha detenido anteriormente:
 Importe sus diseños de informe del Diseñador de informes, mediante el archivo creado durante la exportación:
 
 1.  En el Diseñador de informes, vaya a **Empresa** &gt; **Grupos de bloque de creación**.
-2.  Seleccione el grupo de bloque de creación para exportar y haga clic en **Exportar**. **Nota:** Para Dynamics 365 for Operations, se admite solo un grupo de bloque de creación, **Valor predeterminado**.
+2.  Seleccione el grupo de bloque de creación para exportar y haga clic en **Exportar**. 
+    > [!NOTE]
+    > Para Dynamics 365 for Operations, se admite solo un grupo de bloqueos de creación, **Valor predeterminado**.
 3.  Seleccione el bloque de creación **Predeterminado** y haga clic en **Importar**.
 4.  Seleccione el archivo que contiene las definiciones de informe exportadas y haga clic **Abrir**.
 5.  En el cuadro de diálogo Importar, seleccione las definiciones del informe que desea importar:
@@ -104,6 +114,8 @@ Importe sus diseños de informe del Diseñador de informes, mediante el archivo 
     -   Para importar informes, filas, columnas, organigramas o conjuntos de dimensiones específicos, seleccione los informes, filas, columnas, orgnaigramas o conjuntos de dimensiones que desea importar.
 
 6.  Haga clic en **Importar**.
+
+
 
 
 

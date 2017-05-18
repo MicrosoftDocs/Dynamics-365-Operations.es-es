@@ -18,10 +18,11 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: b3e8174d07c9b9fd4210486c369c640fe07c49eb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: abe9212372fb7429d68c1fb6b32ec1d15c20a6d7
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -47,7 +48,7 @@ El motor de ER tiene las siguientes capacidades:
 ## <a name="concepts"></a>Conceptos
 ### <a name="components"></a>Componentes
 
-ER es compatible con dos tipos de componentes: **Modelo de datos **y **Formato**.
+ER es compatible con dos tipos de componentes: **Modelo de datos**y **Formato**.
 
 #### <a name="data-model-components"></a>Componentes de modelo de datos
 
@@ -104,7 +105,7 @@ Las versiones que tienen el estado** COMPLETADO** o **COMPARTIDO** están dispon
 
 #### <a name="component-date-effectivity"></a>Eficacia de la fecha del componente
 
-Las versiones del componente de ER tienen fecha de vigencia. La fecha** Vigente desde **se puede definir para que un componente de ER especifique la fecha en la que el componente se hace efectivo para procesos de informes. La fecha de sesión de Microsoft Dynamics 365 for Operations se usa para definir si un componente es válido para la ejecución. Si hay más de una versión válida para una fecha concreta, la última versión se usa para procesos de informes.
+Las versiones del componente de ER tienen fecha de vigencia. La fecha**Vigente desde**se puede definir para que un componente de ER especifique la fecha en la que el componente se hace efectivo para procesos de informes. La fecha de sesión de Microsoft Dynamics 365 for Operations se usa para definir si un componente es válido para la ejecución. Si hay más de una versión válida para una fecha concreta, la última versión se usa para procesos de informes.
 
 #### <a name="component-access"></a>Acceso del componente
 
@@ -112,7 +113,7 @@ El acceso a los componentes del formato de ER depende de la configuración del c
 
 #### <a name="configuration"></a>Configuración
 
-Una configuración de ER es la envoltura de un componente concreto de ER: **Modelo de datos **o **Formato**. Una configuración puede incluir diferentes versiones de un componente concreto de ER. Cada configuración se marca como perteneciente a un proveedor concreto de configuración. La versión **BORRADOR** de un componente de una configuración se puede editar cuando se ha seleccionado el propietario de la configuración como proveedor activo en la configuración de ER de Dynamics 365 for Operations. Cada configuración de modelo contiene un componente de **Modelo de datos**. Una nueva configuración de formato se puede originar (derivar) de una configuración de modelo de datos específico. La configuración de formato que se crea se presentará en el árbol de configuración como un elemento secundario de la configuración del modelo de datos original. La configuración de formato que se crea contiene un componente **Formato **. El componente **Modelo de datos** de la configuración del modelo original se inserta automáticamente en el componente **Formato **de la configuración creada de formato secundario como origen de datos predeterminado. Una configuración de ER se comparte en las empresas de Dynamics 365 for Operations.
+Una configuración de ER es la envoltura de un componente concreto de ER: **Modelo de datos**o **Formato**. Una configuración puede incluir diferentes versiones de un componente concreto de ER. Cada configuración se marca como perteneciente a un proveedor concreto de configuración. La versión **BORRADOR** de un componente de una configuración se puede editar cuando se ha seleccionado el propietario de la configuración como proveedor activo en la configuración de ER de Dynamics 365 for Operations. Cada configuración de modelo contiene un componente de **Modelo de datos**. Una nueva configuración de formato se puede originar (derivar) de una configuración de modelo de datos específico. La configuración de formato que se crea se presentará en el árbol de configuración como un elemento secundario de la configuración del modelo de datos original. La configuración de formato que se crea contiene un componente **Formato**. El componente **Modelo de datos** de la configuración del modelo original se inserta automáticamente en el componente **Formato**de la configuración creada de formato secundario como origen de datos predeterminado. Una configuración de ER se comparte en las empresas de Dynamics 365 for Operations.
 
 #### <a name="provider"></a>Proveedor
 
@@ -120,7 +121,7 @@ El proveedor de ER es la identificación de parte que se usa para indicar el aut
 
 #### <a name="repository"></a>Repositorio
 
-Un repositorio de ER guarda las configuraciones de ER. Los tipos de repositorios de ER siguientes son compatibles actualmente: **Recursos de Operations** y **Proyecto LCS**. Un repositorio de **Recursos de Operations** proporciona acceso a la lista de configuraciones que libera Microsoft como parte de la solución Dynamics 365 for Operations como un proveedor de configuración de ER. Esas configuraciones se pueden importar a la instancia actual de Dynamics 365 for Operations y usar para los informes electrónicos. También se pueden utilizar para localizaciones/personalizaciones adicionales. Un repositorio del **proyecto de LCS **proporciona acceso a la lista de configuraciones de un proyecto de LCS específico (biblioteca de los activos del proyecto de LCS) que se seleccionó en la etapa de registro del repositorio. ER le permite cargar las configuraciones compartidas de la instancia de Dynamics 365 for Operations actual a un repositorio concreto del **Proyecto LCS**. También puede importar configuraciones de un repositorio concreto del **Proyecto LCS** en la instancia de Dynamics 365 for Operations actual. Los repositorios necesarios del **Proyecto LCS** se pueden registrar de manera individual para cada proveedor de la configuración de la instancia actual de Dynamics 365 for Operations. Cada repositorio se puede dedicar a un proveedor de configuración específico.
+Un repositorio de ER guarda las configuraciones de ER. Los tipos de repositorios de ER siguientes son compatibles actualmente: **Recursos de Operations** y **Proyecto LCS**. Un repositorio de **Recursos de Operations** proporciona acceso a la lista de configuraciones que libera Microsoft como parte de la solución Dynamics 365 for Operations como un proveedor de configuración de ER. Esas configuraciones se pueden importar a la instancia actual de Dynamics 365 for Operations y usar para los informes electrónicos. También se pueden utilizar para localizaciones/personalizaciones adicionales. Un repositorio del **proyecto de LCS**proporciona acceso a la lista de configuraciones de un proyecto de LCS específico (biblioteca de los activos del proyecto de LCS) que se seleccionó en la etapa de registro del repositorio. ER le permite cargar las configuraciones compartidas de la instancia de Dynamics 365 for Operations actual a un repositorio concreto del **Proyecto LCS**. También puede importar configuraciones de un repositorio concreto del **Proyecto LCS** en la instancia de Dynamics 365 for Operations actual. Los repositorios necesarios del **Proyecto LCS** se pueden registrar de manera individual para cada proveedor de la configuración de la instancia actual de Dynamics 365 for Operations. Cada repositorio se puede dedicar a un proveedor de configuración específico.
 
 ## <a name="supported-scenarios"></a>Escenarios admitidos
 ### <a name="building-a-data-model"></a>Creación de un modelo de datos
@@ -169,7 +170,7 @@ Para familiarizarse bien con los detalles de este escenario, reproduzca la guía
 ## <a name="handling-er-components"></a>Tratamiento de componentes de ER
 ### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>Publicación de un componente de ER en LCS para ofrecerlo externamente (localización)
 
-El propietario de un componente (modelo o formato) que se ha creado puede usar ER para publicar la versión completada del componente en LCS. Se requiere Un repositorio del tipo **Proyecto de LCS **para el proveedor actual de la configuración de ER. Cuando cambie el estado de la versión completada de un componente de **COMPLETADO** a **COMPARTIDO**, esa versión se publica en el LCS. Cuando haya publicado un componente a LCS, el propietario de ese componente pasa a ser un proveedor de servicio para admitir el componente. Por ejemplo, si el componente del formato está diseñado para generar un documento electrónico legalmente necesario (por ejemplo, de acuerdo con una situación de localización), se supone que el formato se mantendrá compatible con los cambios legislativos y que el proveedor emitirá nuevas versiones del componente siempre surjan nuevos requisitos legislativos. Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **ER Cargar una configuración en Lifecycle Services** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**).
+El propietario de un componente (modelo o formato) que se ha creado puede usar ER para publicar la versión completada del componente en LCS. Se requiere Un repositorio del tipo **Proyecto de LCS**para el proveedor actual de la configuración de ER. Cuando cambie el estado de la versión completada de un componente de **COMPLETADO** a **COMPARTIDO**, esa versión se publica en el LCS. Cuando haya publicado un componente a LCS, el propietario de ese componente pasa a ser un proveedor de servicio para admitir el componente. Por ejemplo, si el componente del formato está diseñado para generar un documento electrónico legalmente necesario (por ejemplo, de acuerdo con una situación de localización), se supone que el formato se mantendrá compatible con los cambios legislativos y que el proveedor emitirá nuevas versiones del componente siempre surjan nuevos requisitos legislativos. Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **ER Cargar una configuración en Lifecycle Services** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**).
 
 ### <a name="importing-an-er-component-from-lcs-to-use-it-internally"></a>Importar el componente de ER de LCS para utilizarlo internamente
 

@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: af7e7288f741b3c519227e2778c4c4311c3a2012
-ms.openlocfilehash: 8af663b47117759ed3b2e2ed8eee85ae4df100d1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f80d5d49cae3107390a605e9605d8af65bf2342d
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="use-the-excel-add-in"></a>Usar el complemento de Excel
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tema explica cómo abrir los datos de la entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Microsoft Dynamics Office para Excel. Para abrir los datos de la entidad, puede iniciar desde Excel o Microsoft Dynamics 365 for Operations.
 
@@ -44,13 +48,14 @@ El complemento de Excel lee automáticamente los datos de la entidad que ha sele
 2.  En la Tienda Office, busque con la palabra clave “Dynamics” y haga clic en **Agregar** junto al **Complemento de Microsoft Dynamics Office** (el complemento de Excel).
 3.  Si ejecuta el complemento de Excel por primera vez, haga clic en **Confiar en este complemento** para permitir la ejecución del complemento de Excel. El complemento de Excel se ejecuta en un panel a la derecha de la ventana de Excel.
 4.  Haga clic en **Agregar información de servidor** para abrir el panel **Opciones**.
-5.  Copie la URL de explorador de su instancia de Dynamics 365 for Operations objetivo, péguela en el campo **URL de servidor** y borre todo lo que sigue al nombre del host (por ejemplo, borre **/?cmp=usmf&mi=CustTableListPage**). La dirección URL resultante debe tener solo el nombre de host (por ejemplo, **https://xxx.dynamics.com**).
+5.  Copie la URL de explorador de su instancia de Dynamics 365 for Operations objetivo, péguela en el campo **URL de servidor** y borre todo lo que sigue al nombre del host. La dirección URL resultante debe tener solo el nombre de host.
+Por ejemplo, si la dirección https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage, elimine todo excepto **https://xxx.dynamics.com**.
 6.  Haga clic en **Aceptar** y, a continuación en **Sí** para confirmar el cambio. El complemento de Excel se reinicia y carga los metadatos. El botón **Diseño** está ahora disponible. Si el complemento de Excel tiene un botón **Cargar applets**, probablemente no haya iniciado sesión como el usuario correcto. Para obtener más información, consulte “Aparece el botón Cargar applets” en la sección “Solución de problemas” de este tema.
 7.  Haga clic en **Diseño**. El complemento de Excel recupera los metadatos de la entidad.
 8.  Haga clic en **Agregar tabla**. Aparece una lista de entidades. Las entidades aparecen con el formato "Nombre - Etiqueta".
 9.  Seleccione una entidad de la lista, como **Cliente - Clientes** y haga clic en **Siguiente**.
 10. Para agregar un campo de la lista **Campos disponibles** a la lista **Campos seleccionados**, haga clic en el campo y en **Agregar**. También puede hacer doble clic en el campo.
-11. Una vez agregados los campos deseados a la lista **Campos seleccionados**, asegúrese de que el cursor se encuentre en el lugar adecuado de la hoja de cálculo (por ejemplo, celda A1), y haga clic en **Listo**. Haga clic en **Listo** para salir del diseñador.
+11. Una vez que haya acabado de agregar campos a la lista **Campos seleccionados**, asegúrese de que el cursor se encuentre en el lugar adecuado de la hoja de cálculo (por ejemplo, celda A1), y haga clic en **Listo**. Haga clic en **Listo** para salir del diseñador.
 12. Haga clic en **Actualizar** para extraer en un conjunto de datos.
 
 ## <a name="view-and-update-entity-data-in-excel"></a>Ver y actualizar datos de la entidad en Excel
@@ -59,14 +64,17 @@ Una vez que el complemento de Excel lea los datos de la entidad en el libro, pue
 ## <a name="edit-entity-data-in-excel"></a>Editar datos de la entidad en Excel
 Puede cambiar los datos de la entidad de la forma necesaria y después publicarlos haciendo clic en **Publicar** en el complemento de Excel. Para editar un registro, seleccione una celda en la hoja de cálculo y, a continuación, modifique el valor de la celda. Para agregar un nuevo registro, siga uno de estos pasos:
 
--   Haga clic en cualquier lugar de la hoja de cálculo y, a continuación, haga clic en **Nuevo** en el complemento de Excel.
--   Haga clic en la última fila de la hoja de cálculo y pulse el tabulador hasta que el cursor salga de la última columna de dicha fila y se cree una nueva fila.
--   Haga clic en la fila justo debajo de la hoja de cálculo y comience a introducir datos en una celda. Cuando saque el foco de dicha celda, la hoja de cálculo se expandirá para incluir la nueva fila.
+-   Haga clic en cualquier lugar de la tabla de orígenes de datos y, a continuación, haga clic en **Nuevo** en el complemento de Excel.
+-   Haga clic en la última fila de la tabla de orígenes de datos y pulse el tabulador hasta que el cursor salga de la última columna de dicha fila y se cree una nueva fila.
+-   Haga clic en la fila justo debajo de la tabla de orígenes de datos y comience a introducir datos en una celda. Cuando saque el foco de dicha celda, la tabla se expandirá para incluir la nueva fila.
+-   Para los enlaces de campos de registros de encabezado, haga clic en uno de los campos y, a continuación, haga clic en **Nuevo** en el complemento de Excel.
 
+Tenga en cuenta que solo se puede crear un nuevo registro si la clave y los campos obligatorios están enlazados en la hoja de cálculo, o si los valores predeterminados se completaron mediante la condición de filtro.
 Para eliminar un nuevo registro, siga uno de estos pasos:
 
 -   Haga clic con el botón secundario en el número de la fila situado junto a la fila de la hoja de cálculo que desea eliminar y, a continuación, haga clic en **Eliminar**.
 -   Haga clic con el botón secundario en la fila de la hoja de cálculo que desea eliminar y, a continuación, haga clic en **Eliminar** &gt; **Filas de tabla**.
+Si los orígenes de datos se han agregado como relacionados, el encabezado se publica antes de las líneas. Si existen dependencias entre otros orígenes de datos, es posible que tenga que cambiar el orden de publicación predeterminado. Para cambiar el orden de la publicación, en el complemento de Excel, haga clic en el botón **Opciones** (el símbolo de engranaje). A continuación, en el ficha desplegable **Conector de datos**, haga clic en **Configurar orden de publicación**.
 
 ## <a name="add-or-remove-columns"></a>Agregar o quitar columnas
 Puede usar al diseñador para ajustar las columnas que se agregan automáticamente a la hoja de cálculo.
@@ -79,7 +87,8 @@ Puede usar al diseñador para ajustar las columnas que se agregan automáticamen
     -   Para quitar un campo de la lista **Campos seleccionados**, haga clic en el campo y en **Quitar**. También puede hacer doble clic en el campo.
     -   Para cambiar el orden de los campos, haga clic en la lista **Campos seleccionados** y en **Arriba** o **Abajo**.
 
-5.  Aplique los cambios al origen de datos haciendo clic en **Actualizar**. Haga clic en **Listo** para salir del diseñador. Si ha agregado un campo (columna), haga clic en **Actualizar** para extraer un conjunto de datos actualizado.
+5. Para aplicar los cambios al origen de datos, haga clic en **Actualizar**. Haga clic en **Listo** para salir del diseñador. 
+6. Si ha agregado un campo (columna), haga clic en **Actualizar** para extraer un conjunto de datos actualizado.
 
 ## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Solución de problemas
 Existen problemas que se pueden resolver con unos sencillos pasos.
@@ -87,6 +96,8 @@ Existen problemas que se pueden resolver con unos sencillos pasos.
 -   **Aparece el botón Cargar applets.** Si el complemento de Excel tiene un botón **Cargar applets** tras el inicio de sesión, probablemente no haya iniciado sesión como el usuario correcto. Para resolver este problema, compruebe que el nombre de usuario correcto aparece en la esquina superior derecha del complemento de Excel. Si aparece un nombre de usuario incorrecto, púlselo, cierre la sesión y vuelva a abrirla.
 -   **Recibe un "Mensaje prohibido.** Si recibe un mensaje “Prohibido” mientras que el complemento de Excel está cargando metadatos, la cuenta que ha iniciado sesión en el complemento de Excel no tiene permisos para usar el servicio, la instancia o en la base de datos objetivo. Para resolver este problema, compruebe que el nombre de usuario correcto aparece en la esquina superior derecha del complemento de Excel. Si aparece un nombre de usuario incorrecto, púlselo, cierre la sesión y vuelva a abrirla.
 -   **Aparece una página web en blanco sobre Excel.** Si se abre una página web en blanco durante proceso de inicio de sesión, la cuenta requiere AD FS, pero la versión de Excel que está ejecutando el complemento no es lo suficientemente reciente para cargar el cuadro de diálogo de inicio de sesión. Para resolver este problema, actualice la versión de Excel que usa. Para actualizar la versión de Excel si se encuentra en una empresa que está en el canal diferido, utilice la [Herramienta de implementación de Office](https://technet.microsoft.com/library/jj219422.aspx) para [cambiar del canal diferido al canal actual](https://technet.microsoft.com/library/mt455210.aspx).
+
+
 
 
 

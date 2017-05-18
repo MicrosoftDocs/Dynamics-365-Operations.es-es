@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 849cffa64eaf777f9f4c9243dab41b00fa59ad79
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 33bba0e037a8ccc09b3d47268ca2b350d1d25b5f
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -60,7 +61,7 @@ April hace clic en **Registrar**. A continuación, revisa la liquidación comple
 | Seleccionado y resaltado | Normal            | Inv-10070 | 3050    | 29/6/2015 | 29/7/2015 | 10070    | -1.000,00                      | USD      | -200,00          |
 | Seleccionado                 | Normal            | CR-10070  | 3050    | 2/7/2015  | 29/7/2015 | CR-10070 | 200,00                         | USD      | 198,00           |
 
-April puede revisar las transacciones del proveedor en la página **Transacciones de proveedor** seleccionando un proveedor en la página **Todos los proveedores **y continuación, en el panel de acciones, hacer clic en **Transacciones**. En esta página, April observa que la factura tiene un saldo de -800,00. También observa una nota de abono de 198,00 y un descuento de 2,00.
+April puede revisar las transacciones del proveedor en la página **Transacciones de proveedor** seleccionando un proveedor en la página **Todos los proveedores**y continuación, en el panel de acciones, hacer clic en **Transacciones**. En esta página, April observa que la factura tiene un saldo de -800,00. También observa una nota de abono de 198,00 y un descuento de 2,00.
 
 | Comprobante    | Tipo de transacción | Fecha      | Factura | Importe en débito en divisa de transacción | Importe en crédito en divisa de transacción | Saldo | Divisa |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

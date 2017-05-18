@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: b265a20a271230de5dba6df93900a24aad642885
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: efc932d24e20721c024e8da735ccdbbeca58beb1
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -33,7 +34,7 @@ Este tema ofrece información sobre los procesos para devolver pedidos. Incluye 
 
 Los clientes pueden devolver artículos por varios motivos. Por ejemplo, un artículo puede estar defectuoso o es posible que no cumpla las expectativas del cliente. El proceso de devolución comienza cuando un cliente emite una solicitud para devolver un artículo. Después de que se recibe la solicitud del cliente, se crea un pedido de devolución en Microsoft Dynamics 365 for Operations.
 
-## <a name="return-order-process"></a>Proceso para devolver pedidos
+## <a name="return-order-process"></a>Proceso de pedido de devolución
 La ilustración siguiente muestra una visión general del proceso de devolución de pedidos.  
 
 [![salesreturns01](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  

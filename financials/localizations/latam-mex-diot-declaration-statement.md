@@ -17,10 +17,11 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: c796eb6c14ac9fb7f53327e1396736108e53cbad
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 63ec3ad034f22bf60788c9dc0f6201060df17e1b
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---

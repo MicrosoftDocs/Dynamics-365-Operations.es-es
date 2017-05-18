@@ -3,7 +3,7 @@ title: "Funcionalidad del diseñador de lista de materiales"
 description: "Este artículo describe cómo puede usar la página del diseñador de L. MAT para diseñar y trabajar con estructuras de árbol para las listas de materiales (L. MAT). Puede hacer clic Configurar para seleccionar distintas configuraciones y especificar qué información aparece en las líneas del árbol."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-08 21 - 09 - 22
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 2c98039c9fa8179408394f9f66b9fca0f8cad3fe
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ff482c183276a99a3c9a632d41d9121bf77befbf
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="bom-designer-functionality"></a>Funcionalidad del diseñador de lista de materiales
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo describe cómo puede usar la página del diseñador de L. MAT para diseñar y trabajar con estructuras de árbol para las listas de materiales (L. MAT). Puede hacer clic Configurar para seleccionar distintas configuraciones y especificar qué información aparece en las líneas del árbol.
 
@@ -95,7 +99,7 @@ El filtro que se aplica para la lista de materiales y la ruta se muestra en el e
 Al usar el diseñador de lista de materiales para revisar o editar las listas de materiales que constan de uno o varios niveles de fantasmas, la ruta asociada con el elemento superior normalmente abarca la jerarquía completa de la lista de materiales. Para simplificar la descripción, puede bloquear la ruta de nivel superior en la visualización haciendo clic en **Ver** &gt; **Bloquear ruta**. Para desbloquear la ruta, haga clic en **Ver** &gt; **Desbloquear ruta**.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>Adición y edición de listas de materiales y líneas de listas de materiales
-Use las funciones **Líneas de L. MAT.** o **L. MAT.** para modificar las líneas de la lista de materiales o la lista de materiales. Cuando selecciona un nodo del árbol, el tipo de nodo determina las funciones disponibles.
+Use las funciones **Líneas de L. MAT.**o **L. MAT.** para modificar las líneas de la lista de materiales o la lista de materiales. Cuando selecciona un nodo del árbol, el tipo de nodo determina las funciones disponibles.
 
 | Función                            | Descripción                                                                                               | Tipo de nodo y condiciones                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -115,6 +119,8 @@ Haga clic en **Configurar** para personalizar la información que se muestra en 
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | L. MAT         | Sírvase de las casillas de verificación para seleccionar los criterios que se ven en la estructura de árbol. El diseñador de lista de materiales mostrará los criterios seleccionados en la parte inferior de ambas fichas. |
 | Ruta       | Sírvase de las casillas de verificación para seleccionar los criterios que se ven para las rutas.                                                                                    |
+
+
 
 
 

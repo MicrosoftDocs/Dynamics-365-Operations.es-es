@@ -1,9 +1,9 @@
 ---
-title: "Configuración electrónica de informes para proporcionar datos de Dynamics 365 for Operations a Power BI"
+title: "Configuración de informes electrónicos para proporcionar datos a Power BI"
 description: "Este tema explica cómo puede usar su configuración de informes electrónicos (ER) para organizar la transferencia de datos de la instancia de Dynamics 365 for Operations a los servicios de Power BI. Como ejemplo, este tema utiliza transacciones Intrastat como datos empresariales que se deben transferir. La vista de mapa de Power BI usa estos datos de transacción de Intrastat para mostrar una visión para el análisis de actividades de importación/exportación de la empresa en el informe de Power BI."
 author: kfend
 manager: AnnBe
-ms.date: 2016-10-31 13 - 22 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: ed0192c44b6d7e88120c64e539ebb0ac3b379831
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4bbc77eb1edfe0c109434ce4d26228ed031f48bc
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="set-up-electronic-reporting-to-provide-power-bi-with-data-from-dynamics-365-for-operations"></a>Configuración electrónica de informes para proporcionar datos de Dynamics 365 for Operations a Power BI
+# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Configuración de informes electrónicos para proporcionar datos a Power BI
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tema explica cómo puede usar su configuración de informes electrónicos (ER) para organizar la transferencia de datos de la instancia de Dynamics 365 for Operations a los servicios de Power BI. Como ejemplo, este tema utiliza transacciones Intrastat como datos empresariales que se deben transferir. La vista de mapa de Power BI usa estos datos de transacción de Intrastat para mostrar una visión para el análisis de actividades de importación/exportación de la empresa en el informe de Power BI.
 
@@ -61,7 +65,7 @@ Para completar el ejemplo de este tema, debe tener el acceso siguiente:
 3.  En el área de trabajo de **Informes electrónicos**, active al proveedor requerido haciendo clic en **Establecer como activo**. Para obtener más información, consulte la guía de tareas **Seleccionar proveedor de servicios ER**.
 
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>Use un modelo de datos de ER como origen de datos
-Debe tener un modelo de datos de ER como origen de los datos empresariales que se usarán en los informes de Power BI. Este modelo de datos se carga desde el almacén de configuraciones de ER. Para obtener más información, consulte [Descargar las configuraciones de informes electrónicos de servicios del ciclo de vida](download-electronic-reporting-configuration-lcs.md), o consulte la guía de tareas **Importación de una configuración ER de Lifecycle Services**. Seleccione **Intrastat **como modelo de datos que se cargará desde el almacén de las configuraciones de ER seleccionado. (En este ejemplo se usa la versión 1 del modelo). Después puede tener acceso a la configuración del modelo de ER **Intrastat** en la página **Configuraciones**. [![Página Configuraciones](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+Debe tener un modelo de datos de ER como origen de los datos empresariales que se usarán en los informes de Power BI. Este modelo de datos se carga desde el almacén de configuraciones de ER. Para obtener más información, consulte [Descargar las configuraciones de informes electrónicos de servicios del ciclo de vida](download-electronic-reporting-configuration-lcs.md), o consulte la guía de tareas **Importación de una configuración ER de Lifecycle Services**. Seleccione **Intrastat** como modelo de datos que se cargará desde el almacén de las configuraciones de ER seleccionado. (En este ejemplo se usa la versión 1 del modelo). Después puede tener acceso a la configuración del modelo de ER **Intrastat** en la página **Configuraciones**. [![Página Configuraciones](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Diseñar una configuración del formato de ER
 Debe crear una nueva configuración del formato de ER que use el modelo de datos **Intrastat** como origen de datos empresariales. Esta configuración del formato debe generar resultados de salida como documentos electrónicos en formato OpenXML (archivo de Excel). Para obtener más información, consulte la guía de tareas **Crear una configuración de ER para informes en formato OPENXML**. Asignar un nombre a la nueva configuración de **Actividades de importación / exportación**, como se muestra en la siguiente ilustración. Use el archivo de Excel [Datos de ER: detalles de importación y exportación](https://go.microsoft.com/fwlink/?linkid=845208) como plantilla cuando diseñe el formato de ER. (Para obtener más información sobre cómo importar una plantilla de formato, consulte la guía de tareas). [![Configuración de actividades de importación/exportación](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png) Para modificar la configuración del formato **Actividades de importación / exportación**, siga estos pasos.
@@ -119,5 +123,7 @@ Configure la integración entre Dynamics 365 for Operations y Power BI. Para obt
 [Destinos de informes electrónicos](electronic-reporting-destinations.md)
 
 [Visión general de los informes electrónicos](general-electronic-reporting.md)
+
+
 
 

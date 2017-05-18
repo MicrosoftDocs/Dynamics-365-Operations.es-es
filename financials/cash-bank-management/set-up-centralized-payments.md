@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 44d51807cd6bb64ae2c4bef58d8a445417ffa3a9
-ms.openlocfilehash: 815282422a6d7b8eef7d0628cf10b715449e1d1d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 474453e7f33526bc7bebc60ef68f560d489a1841
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -52,10 +53,10 @@ Si paga a un proveedor de una entidad jurídica y desea seleccionar facturas de 
 Al crear un pago en una entidad jurídica que liquida facturas de otras entidades jurídicas, los identificadores del perfil de contabilización de ambas entidades jurídicas deben coincidir. Para ayudar a garantizar que los pagos se creen correctamente, en cada entidad jurídica de la factura, configure un perfil de contabilización que se corresponda con los perfiles de contabilización que se usan en la entidad jurídica de pago. Cambie a la primera entidad jurídica de la factura y, a continuación, en la página **Perfiles de contabilización del proveedor**, puede crear un nuevo perfil de contabilización o editar un perfil de contabilización existente. No es necesario que las opciones seleccionadas para el perfil de contabilización de la entidad jurídica de facturación coincidan con la configuración del perfil de contabilización en la entidad jurídica de pago.
 
 ## <a name="set-up-methods-of-payment-for-centralized-payments"></a>Configurar métodos de pago para pagos centralizados
-Al crear un pago en una entidad jurídica que liquida facturas de otras entidades jurídicas, los identificadores de forma de pago de ambas entidades jurídicas deben coincidir. Para ayudar a garantizar que los pagos se creen correctamente, en cada entidad jurídica de la factura, configure una forma de pago en cada entidad jurídica de facturación que se corresponda con las formas de pago que se usan en la entidad jurídica de pago. Cambie a la primera entidad jurídica de la factura y, a continuación, en la página **Métodos de pago **, puede crear un nuevo método de pago o editar un método existente de pago. No es necesario que las selecciones que realice para la forma de pago de la entidad jurídica de facturación coincidan con la configuración de la forma de pago de la entidad jurídica de pago.
+Al crear un pago en una entidad jurídica que liquida facturas de otras entidades jurídicas, los identificadores de forma de pago de ambas entidades jurídicas deben coincidir. Para ayudar a garantizar que los pagos se creen correctamente, en cada entidad jurídica de la factura, configure una forma de pago en cada entidad jurídica de facturación que se corresponda con las formas de pago que se usan en la entidad jurídica de pago. Cambie a la primera entidad jurídica de la factura y, a continuación, en la página **Métodos de pago**, puede crear un nuevo método de pago o editar un método existente de pago. No es necesario que las selecciones que realice para la forma de pago de la entidad jurídica de facturación coincidan con la configuración de la forma de pago de la entidad jurídica de pago.
 
 ## <a name="set-up-default-descriptions"></a>Configurar descripciones predeterminadas
-Se pueden definir descripciones predeterminadas para los asientos de liquidación de empresas vinculadas. La descripción predeterminada se incluye en las transacciones de inicio y fin de vencimiento durante el proceso de liquidación entre empresas. En la página **Descripciones Predeterminadas**, puede crear nuevas descripciones tanto para **Liquidación de cliente de empresas vinculadas **como para **Liquidación de proveedor de empresas vinculadas** seleccionando un idioma y después especificando el texto.
+Se pueden definir descripciones predeterminadas para los asientos de liquidación de empresas vinculadas. La descripción predeterminada se incluye en las transacciones de inicio y fin de vencimiento durante el proceso de liquidación entre empresas. En la página **Descripciones Predeterminadas**, puede crear nuevas descripciones tanto para **Liquidación de cliente de empresas vinculadas**como para **Liquidación de proveedor de empresas vinculadas** seleccionando un idioma y después especificando el texto.
 
 
 

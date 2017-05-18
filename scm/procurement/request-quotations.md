@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: d70b4ae0a6b177508021ee72481333cf6f265069
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 20ad50ab5c2dddf4fe07ebb5bb940954c0408f8d
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -48,9 +49,9 @@ Si debe modificar una solicitud de presupuesto después de haberla enviado, pued
 
 Cuando reciba propuestas, debe incorporarlas en la página **Respuestas de solicitudes de presupuesto**. Si selecciona la opción **Copiar datos en respuesta**, los datos como la cantidad y las fechas del caso de solicitud de presupuesto se copian en la respuesta. Puede cambiar estos datos para reflejar la propuesta del proveedor.  
 
-Si se requiere una segunda iteración de una respuesta para un proveedor concreto, haga clic en **Devolución **en la página** Respuesta a solicitud de presupuesto**. La acción de devolución genera un diario nuevo y un informe que se imprimirá, archivará y enviará según la configuración de la gestión de impresión.  
+Si se requiere una segunda iteración de una respuesta para un proveedor concreto, haga clic en **Devolución**en la página**Respuesta a solicitud de presupuesto**. La acción de devolución genera un diario nuevo y un informe que se imprimirá, archivará y enviará según la configuración de la gestión de impresión.  
 
-Si ha agregado criterios de puntuación a su caso de solicitud de presupuesto, la respuesta a la solicitud de presupuesto tendrá un panel de puntuación donde podrá especificar las puntuaciones. Las puntuaciones totales aparecerán al comparar las respuestas en la página **Comparar respuestas, **donde también puede comparar otros datos de respuesta, como el precio de línea, la fecha de entrega y el precio total.  
+Si ha agregado criterios de puntuación a su caso de solicitud de presupuesto, la respuesta a la solicitud de presupuesto tendrá un panel de puntuación donde podrá especificar las puntuaciones. Las puntuaciones totales aparecerán al comparar las respuestas en la página **Comparar respuestas,**donde también puede comparar otros datos de respuesta, como el precio de línea, la fecha de entrega y el precio total.  
 
 Después de tomar una decisión sobre una propuesta o propuestas parciales, puede aceptarlas y rechazar el resto. Se generan los diarios de aceptación, los diarios de rechazo y los informes correspondientes. Estos se imprimirán, archivarán y enviarán según la configuración de gestión de impresión. Al aceptar una propuesta o líneas específicas de una propuesta, se genera un acuerdo de compra o el pedido de compra, o se actualiza una solicitud de compra, en función del tipo de compra de la solicitud de presupuesto. Puede crear un acuerdo comercial que podrá usar más adelante para cualquier respuesta, independientemente de si las acepta o las rechaza.  
 
@@ -107,7 +108,7 @@ Si la solicitud de presupuesto es del tipo **Acuerdo de compra**:
 -   La solicitud de presupuesto se usa para un contrato para comprar una cantidad o valor de producto específicos en el tiempo. Debe seleccionar el intervalo de fechas que se aplica al acuerdo de compra y el nombre de la persona que gestiona el acuerdo de compra.
 -   Al aceptar una propuesta, se genera un acuerdo de compra.
 
-Puede crear una solicitud de presupuesto a partir de una solicitud de compra solo si el estado de la solicitud de compra es **En revisión **y le han asignado para realizar la tarea siguiente del flujo de trabajo. Las líneas de la solicitud de compra se actualizan automáticamente al aceptar líneas de las respuestas a solicitudes de presupuesto (propuestas) que recibe de los proveedores. No puede completar, rechazar, aprobar ni realizar ninguna otra acción en la solicitud de compra mientras se esté procesando la solicitud de presupuesto.  
+Puede crear una solicitud de presupuesto a partir de una solicitud de compra solo si el estado de la solicitud de compra es **En revisión**y le han asignado para realizar la tarea siguiente del flujo de trabajo. Las líneas de la solicitud de compra se actualizan automáticamente al aceptar líneas de las respuestas a solicitudes de presupuesto (propuestas) que recibe de los proveedores. No puede completar, rechazar, aprobar ni realizar ninguna otra acción en la solicitud de compra mientras se esté procesando la solicitud de presupuesto.  
 
 Cuando se crea una solicitud de presupuesto, puede seleccionar un tipo específico de solicitud. El tipo de la solicitud determina el conjunto de criterios de puntuación que se usan para puntuar las respuestas a la solicitud de presupuesto.  
 

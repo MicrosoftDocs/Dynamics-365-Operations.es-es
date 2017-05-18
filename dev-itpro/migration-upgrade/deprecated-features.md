@@ -3,7 +3,7 @@ title: "Características en desuso"
 description: "Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen, de Dynamics 365 for Operations. También muestra las funciones que han dejado de utilizarse en las versiones de Dynamics AX 7.0."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -15,16 +15,20 @@ ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
-ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: e9ba7239b9ff8b9b97c9dabc06fb2c68760d19d4
-ms.lasthandoff: 03/31/2017
+ms.dyn365.ops.version: Platform update 6
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8fbfc8c91c836eb9922f2bf1165ec887d8a0bc8e
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="deprecated-features"></a>Características en desuso
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen, de Dynamics 365 for Operations. También muestra las funciones que han dejado de utilizarse en las versiones de Dynamics AX 7.0.
 
@@ -474,6 +478,16 @@ Las particiones de los datos proporcionan una separación lógica de datos en la
 | ¿Reemplazado por otra característica? | El nuevo cliente web se basa en los metadatos de formulario de escritorio y el modelo de programación que se han modificado para proporcionar una plataforma web enriquecida. |
 | Módulos afectados             | Todas                                                                                                                                    |
 
+### <a name="direct-database-connection"></a>Conexión con base de datos directa
+
+En Dynamics AX 2012 R3, Retail Modern POS podía conectarse directamente a la base de datos de canales de forma parecida a la de Enterprise POS. Esto se añadía al método de comunicación estándar en que Retail Modern POS se comunicaba mediante Retail Server.  
+
+|                              |                                                                                         |
+|------------------------------|-----------------------------------------------------------------------------------------|
+| Motivo de la eliminación       | La conectividad directa de la base de datos requería protocolos de seguridad inferiores y se usaba principalmente para alcanzar niveles de rendimiento más altos. Debido a las mejoras del rendimiento y de seguridad que se han producido en Dynamics 365 for Operations, esta funcionalidad ahora está dando más problemas que soluciones. |
+| ¿Reemplazado por otra característica? | N. º Ahora solo se da soporte a la comunicación de Retail Server estándar.    |
+| Módulos afectados             | Base de datos de canales/Retail Modern POS                                    |
+
 ### <a name="dutch-swift-mt940"></a>SWIFT MT940 holandés
 
 |                              |                                                                                                                                                                                                                                       |
@@ -664,6 +678,16 @@ Esta función le permite cambiar el nombre de una de las tres dimensiones de pro
 | ¿Reemplazado por otra característica? | No                                                                            |
 | Módulos afectados             | Gestión de información de productos                                                |
 
+### <a name="retail-server-connectivity-using-http"></a>Conectividad de Retail Server mediante HTTP
+
+En Dynamics AX 2012 R3, Retail Server podía trabajar usando la comunicación HTTP (sin seguridad). Esto estaba además de la comunicación estándar mediante HTTPS.
+
+|                              |                                                                               |
+|------------------------------|-------------------------------------------------------------------------------|
+| Motivo de la eliminación       | Debido a los nuevos requisitos de seguridad, ahora solo se admite la comunicación segura mediante TLS 1.2 (o un número superior, si está disponible). El instalador de autoservicio configurará automáticamente el equipo para esta comunicación. |
+| ¿Reemplazado por otra característica? | N. º Ahora solo se da soporte a la comunicación de HTTPS estándar.                                                                           |
+| Módulos afectados             | Retail Server                                                |
+
 ### <a name="role-center-pages"></a>Páginas de áreas de trabajo
 
 |                              |                                                                                                                                                                          |
@@ -784,6 +808,8 @@ Información de nómina en Recursos humanos
 | Motivo de la eliminación       | Esta funcionalidad se ha reemplazado por otra característica.                                    |
 | ¿Reemplazado por otra característica? | Management Reporter (etiquetado **Informes financieros** en la versión actual de Dynamics AX) |
 | Módulos afectados             | Contabilidad general                                                                              |
+
+
 
 
 

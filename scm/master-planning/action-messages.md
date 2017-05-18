@@ -3,7 +3,7 @@ title: sin documentar
 description: "Un mensaje de acción es una sugerencia generada por el sistema para cambiar una orden de planificada o en firme existente."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-07 09 - 21 - 54
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,26 +17,29 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f2ac69ddf485139b057dafa20e5f1a961fc32067
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c011ac5dbba5e98ff9f743237b02a69ea2b36a9d
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="undocumented"></a>sin documentar
+# <a name="action-messages"></a>Mensajes de acción
+
+[!include[banner](../includes/banner.md)]
+
 
 Un mensaje de acción es una sugerencia generada por el sistema para cambiar una orden de planificada o en firme existente.
 
-### <a name="introduction"></a>Introducción
+## <a name="introduction"></a>Introducción
 
 Los mensajes de acción se generan por el cálculo de planificación maestra en respuesta a los requisitos modificados. Por ejemplo, la fecha de envío o la cantidad pueden haber cambiado en un pedido de ventas para el que ya se ha creado un pedido de compra para satisfacer la demanda. En este caso, se generan uno o varios mensajes de acción a través del cálculo de la planificación maestra para actualizar el pedido de compra. Puede decidir si desea aplicar los cambios sugeridos.
 
 Configure la forma de calcular mensajes de acción para un grupo de cobertura que vincule a un artículo.
 
- <a name="selecting-action-messages"></a>Selección de los mensajes de acción
-==========================
+## <a name="select-action-messages"></a>Seleccione los mensajes de acción
 
 En la página **Grupos de cobertura** puede seleccionar los mensajes de acción que desea que el sistema genere, y los grupos de cobertura o los artículos a los que se aplican los mensajes. Puede seleccionar los siguientes mensajes de acción.
 
@@ -47,6 +50,8 @@ En la página **Grupos de cobertura** puede seleccionar los mensajes de acción 
 | **Disminuir**        | Si selecciona este mensaje, los pedidos de producción, los pedidos de compra y otras transacciones de recepción se deben disminuir para evitar el exceso de niveles de inventario.                                                                                                   |
 | **Aumentar**        | Si selecciona este mensaje, los pedidos de producción, los pedidos de compra y otras transacciones de recepción se deben aumentar para evitar casos de escasez de inventario.                                                                                                    |
 | **Acciones derivadas** | Si selecciona este mensaje, se crean mensajes de acción para requisitos derivados, por ejemplo, acciones para pedidos de componentes que satisfacen la producción.                                                                                                   |
+
+
 
 
 

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3b16ef53f9fb57a6663db0be1f7e0a57471db2fb
-ms.openlocfilehash: 7025072cd29aac4ceb13b5594c3e321350777cf1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 11fa0f0afa7ab400c87d6e7558292385ae80c8b2
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,7 +52,7 @@ Por ejemplo, ofrece un descuento por pronto pago del 2% si la factura se paga en
 ## <a name="credit-notes-with-discounts"></a>Notas de crédito con descuentos
 Si los clientes devuelven algunos de los artículos de una factura, es posible que emita una nota de abono. Si se obtuvo un descuento por pronto pago en la factura original, la nota de abono al cliente debe ser del importe neto del descuento por pronto pago obtenido por el cliente. Si la opción **Calcular descuentos por pronto pago para notas de abono** está definida en **Sí** en la página **Parámetros de clientes**, se calcula automáticamente el descuento para la nota de abono. 
 
-Por ejemplo, ofrece unas condiciones de pago que especifican un 2% de descuento si la factura se paga en menos de 10 días tras su emisión. Se registra una factura por un valor de 100,00 y el cliente obtiene el descuento por pronto pago. Si el cliente devuelve las mercancías y usted emite una nota de abono, puede especificar la nota de abono por -100,00. Al ver la nota de abono en la página **Liquidar transacciones abiertas**, aparece** 98,00** en el campo **Importe para liquidar** y **-2,00** en **Importe de descuento por pronto pago**. El importe del descuento se registra en una cuenta de descuento por pronto pago.
+Por ejemplo, ofrece unas condiciones de pago que especifican un 2% de descuento si la factura se paga en menos de 10 días tras su emisión. Se registra una factura por un valor de 100,00 y el cliente obtiene el descuento por pronto pago. Si el cliente devuelve las mercancías y usted emite una nota de abono, puede especificar la nota de abono por -100,00. Al ver la nota de abono en la página **Liquidar transacciones abiertas**, aparece**98,00** en el campo **Importe para liquidar** y **-2,00** en **Importe de descuento por pronto pago**. El importe del descuento se registra en una cuenta de descuento por pronto pago.
 
 ## <a name="overpaymentunderpayment-amounts"></a>Importes de sobrepago/pago insuficiente
 Cuando los clientes realizan un pago, puede quedar un importe muy pequeño por liquidar. Por ejemplo, realiza una factura al cliente de 1.000,00 y el cliente paga 999,90. Si el importe restante es inferior al especificado por sobrepagos o pagos insuficientes en la página **Parámetros de clientes**, la diferencia se registra automáticamente en una cuenta contable de sobrepago o pago insuficiente.

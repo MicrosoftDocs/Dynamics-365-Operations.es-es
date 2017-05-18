@@ -253,7 +253,7 @@ El medio usado para implementar la prueba de aceptación del usuario (UAT) y los
 
 Herramienta de Visual Studio que se utiliza para crear, actualizar e inspeccionar los elementos del modelo.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**configuración basada en dimensiones**
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**configuración de producto basada en dimensiones**
 
 Tecnología de configuración utilizada para crear variantes del producto seleccionando valores para las dimensiones de producto.
 
@@ -503,7 +503,7 @@ Parte de un producto.
 
 ###### <a name="product-dimension"></a>**dimensión del producto**
 
-Atributos de tamaño, color o configuración del producto que se utilizan para la configuración basada en dimensiones.
+Atributos de tamaño, color o configuración del producto que se utilizan para la configuración del producto basada en dimensiones.
 
 ###### <a name="product-family"></a>**familia de productos**
 

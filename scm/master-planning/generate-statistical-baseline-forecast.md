@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c0c918b94fe96d123bb6c25c42fe168a026cd8a9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 36b307870f2427cc43a189e92cbd8c30f6ddb0c1
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,14 +40,14 @@ Para generar una previsión de demanda, vaya a **Planificación maestra &gt; Pre
 
 El cubo de previsión se puede seleccionar en el momento de generar la previsión. Los valores disponibles: Día, Semana y Mes. 
 
-El número de depósitos para los que calcular una previsión está definido en el campo** Horizonte de previsión**. 
+El número de depósitos para los que calcular una previsión está definido en el campo**Horizonte de previsión**. 
 
 Cuando la estrategia de previsión se establece en **Copiar por encima de demanda histórica**, el final del horizonte histórico se ignora. El sistema copia el número de depósitos especificado en el campo **Horizonte de previsión** en la demanda planificada, comenzando desde la fecha establecida en el campo **Desde la fecha** en **Horizonte histórico**. Copiando la demanda histórica a partir de una fecha concreta, los planificadores de producción pueden realizar el plan para el siguiente trimestre de dos maneras:
 
 -   Copiando la demanda del mismo trimestre del año anterior.
 -   Copiando la demanda del mismo trimestre del trimestre anterior.
 
-Para evitar confusiones en los planes de producción, algunos depósitos de previsión se pueden congelar. Este número se establece en en campo **Límite de tiempo congelado**. En la página **Previsión de la demanda ajustada **, las celdas para cubos congelados están desactivadas, para dar una indicación visual de que estos valores no se deben cambiar. 
+Para evitar confusiones en los planes de producción, algunos depósitos de previsión se pueden congelar. Este número se establece en en campo **Límite de tiempo congelado**. En la página **Previsión de la demanda ajustada**, las celdas para cubos congelados están desactivadas, para dar una indicación visual de que estos valores no se deben cambiar. 
 
 La fecha inicial para la previsión de la demanda de línea basa no tiene que ser la fecha actual o una fecha en el futuro. Para establecer una fecha inicial, use el campo **Fecha de inicio de previsión de línea base: desde fecha**. Por ejemplo, en junio, los usuarios pueden generar una previsión para el año siguiente. Dado que faltan los cubos de previsión entre el final de la demanda histórica y el inicio de la línea base, puede que las predicciones no sean exactas. Si está usando el servicio de previsión de demanda de Microsoft Dynamics 365 for Operations, existen cuatro maneras en las que puede completar los espacios que faltan. Puede elegir el método que desee si configura el parámetro MISSING\_VALUE\_SUBSTITUTION en la página **Parámetros de previsión de demanda**. 
 

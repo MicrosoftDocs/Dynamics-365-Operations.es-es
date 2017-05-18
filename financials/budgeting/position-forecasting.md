@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 1bc458d58834be1e2e9b602619f76424b3bb449b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 62dcc8a9b17ad044ac63080a94593a5f6ae2f182
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -98,7 +99,7 @@ Se usa el elemento de coste de la ganancia que se seleccionó en el grupo de com
 
 Para la planificación de manera más precisa del presupuesto, puede crear puestos de previsión con los detalles de puestos existentes en Microsoft Dynamics 365 for Operations, independientemente de si el puesto existe o no actualmente. 
 
-La función **Agregar puestos existentes** muestra todas las posiciones para una organización. Al configurar la fecha** A partir de**, puede cambiar la lista de puestos de modo que contenga los puestos que existían en una fecha en el pasado o, normalmente, en el futuro (por ejemplo, el inicio del ciclo presupuestario siguiente). Seleccione una situación del proceso de planificación presupuestaria y el plan de presupuesto, seleccione puestos en la lista, y haga clic en **Aceptar** para crear los puestos de previsión para los puestos seleccionados. Tenga en cuenta que puede crear un puesto de previsión para cada puesto existente en un proceso y una situación de planificación presupuestaria. Sin embargo, puede crear versiones adicionales asignando distintas situaciones del plan de presupuesto. 
+La función **Agregar puestos existentes** muestra todas las posiciones para una organización. Al configurar la fecha**A partir de**, puede cambiar la lista de puestos de modo que contenga los puestos que existían en una fecha en el pasado o, normalmente, en el futuro (por ejemplo, el inicio del ciclo presupuestario siguiente). Seleccione una situación del proceso de planificación presupuestaria y el plan de presupuesto, seleccione puestos en la lista, y haga clic en **Aceptar** para crear los puestos de previsión para los puestos seleccionados. Tenga en cuenta que puede crear un puesto de previsión para cada puesto existente en un proceso y una situación de planificación presupuestaria. Sin embargo, puede crear versiones adicionales asignando distintas situaciones del plan de presupuesto. 
 
 Si los elementos de coste presupuestario se han asignado a la posición en recursos humanos, estos elementos de coste presupuestario también se asignan a la posición de previsión y utilizan los importes predeterminados. El campo **Trabajador asignado** del puesto de previsión se establece con el nombre del trabajador asignado al puesto, si un trabajador está asignado. Este campo es un campo simple de texto. No se crea ningún vínculo directo. 
 
@@ -163,7 +164,7 @@ Si hace clic en **Generar aumentos** una segunda vez, el proceso se ejecuta otra
 
 Las actualizaciones a los puestos de previsión también pueden provenir de otras áreas, como el elemento de coste presupuestario y las páginas de la configuración del grupo de compensación. También puede modificar puestos de previsión a través del procesamiento de actualización masivo. 
 
-Hay dos opciones disponibles en la página de configuración de ** Elemento del coste presupuestario**: **Agregar a puestos** y **Actualizar puestos**. La opción **Agregar a puestos** agrega el elemento de coste presupuestario a puestos de previsión seleccionados. Si el elemento ya está asignado a un puesto de previsión, se omite dicho puesto de previsión. La opción **Puestos de actualización** aplica los valores actuales (la cuenta principal, el porcentaje, el importe anual, etc.) a los puestos seleccionados de previsión. 
+Hay dos opciones disponibles en la página de configuración de **Elemento del coste presupuestario**: **Agregar a puestos** y **Actualizar puestos**. La opción **Agregar a puestos** agrega el elemento de coste presupuestario a puestos de previsión seleccionados. Si el elemento ya está asignado a un puesto de previsión, se omite dicho puesto de previsión. La opción **Puestos de actualización** aplica los valores actuales (la cuenta principal, el porcentaje, el importe anual, etc.) a los puestos seleccionados de previsión. 
 
 Cada proceso tiene una página similar donde puede seleccionar los puestos de previsión. La página **Agregar a puestos** muestra todos os puestos de previsión que estén disponibles para la selección, mientras que la página **Actualizar puestos** muestra solo los puestos de previsión que tengan ya el elemento de coste presupuestario asignado. (Por lo tanto, la página **Actualizar puestos** ofrece una manera de averiguar qué puestos de previsión ya tienen asociado el elemento de coste). Puede mover puestos de previsión desde una cuadrícula superior a una cuadrícula inferior para incluirlos en la actualización. 
 

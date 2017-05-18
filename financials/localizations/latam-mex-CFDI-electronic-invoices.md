@@ -18,15 +18,19 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: d8b556ba651364e60aad734bffb3b98ebab112ea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 607b4ca8f7c477b38abb791d1817a846734b0e18
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="electronic-invoices-cfdi"></a>Facturas electrónicas (CFDI)
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo proporciona información acerca de las facturas electrónicas que su organización puede enviar a la autoridad fiscal mexicana (SAT). Describe el método aprobado actualmente para enviar facturas electrónicas (CFDI), los requisitos para usarlas y la información que incluyen.
 
@@ -46,7 +50,9 @@ Hay dos métodos para generar facturas electrónicas:
 -   **Comprobantes fiscales digitales por internet (CFDI)**: este es el método actual para generar facturas electrónicas en el formato que el SAT exige. En este método, las facturas son verificadas y certificadas por un proveedor digital de servicios de firma (PAC). Antes de poder usar el método CFDI para generar facturas electrónicas, su organización debe configurar una conexión de servicio web a un PAC autorizado. Para el método CFDI, se envía un mensaje XML desde Microsoft Dynamics 365 for Operations al PAC. El PAC valida cada factura, asigna un número de folio y luego incorpora el sello digital que proporcionan las autoridades fiscales de servicio. Después de que el PAC complete el proceso de aprobación, su organización recibe el mensaje XML aprobado y puede enviar la factura al cliente en formato XML o PDF.
 
 > [!NOTE]
->  La integración con el servicio web del PAC no es parte de localización mexicana. Para obtener información sobre cómo personalizar una conexión de servicio web con un PAC, consulte "Personalización de la integración con servicios web de PAC" más adelante en este artículo. El ejemplo siguiente muestra el proceso para generar una factura electrónica usando el método CFDI. ![El proceso de facturas electrónicas en México](./media/about-electronic-invoices-cfdi.jpg)    
+>  La integración con el servicio web del PAC no es parte de localización mexicana. Para obtener información sobre cómo personalizar una conexión de servicio web con un PAC, consulte "Personalización de la integración con servicios web de PAC" más adelante en este artículo. 
+
+El ejemplo siguiente muestra el proceso para generar una factura electrónica usando el método CFDI. ![El proceso de factura electrónica para México](./media/about-electronic-invoices-cfdi.jpg "Proceso de generación de facturación electrónica para el método de CFDI")    
 
 ### <a name="requirements-for-using-electronic-invoices"></a>Requisitos para el uso de facturas electrónicas
 
@@ -81,5 +87,7 @@ En una factura electrónica se incluye la información siguiente:
 
 ## <a name="customizing-the-integration-pac-web-services"></a>Personalización de los servicios web de integración del PAC
 Según se indica en detalle en el documento de ámbito de localización para México, la integración con servicios web de PAC requiere personalización. Este personalización varía en función de los servicios web de PAC contratados.
+
+
 
 

@@ -3,7 +3,7 @@ title: "Configurar dispositivos móviles para el trabajo de almacén"
 description: "En este artículo se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 34d7b246d74d1546b54494944903d160e31f7678
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a964587fa5dd48f0ed4e9f2c67fb52e5071ac98d
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móviles para el trabajo de almacén
+
+[!include[banner](../includes/banner.md)]
+
 
 En este artículo se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil.
 
@@ -315,7 +319,7 @@ La siguiente tabla describe estas opciones.
 </tr>
 <tr class="even">
 <td>Mostrar estado de inventario</td>
-<td>Active esta opción para visualizar el estado de los artículos en el inventario. Para obtener más información, consulte <a href="/inventory/inventory-statuses.md">Ventajas del uso de los estados de inventario</a>. Esta opción solo está disponible para todos los elementos de menú que usan el trabajo existente, excepto el recuento de ciclo.</td>
+<td>Active esta opción para visualizar el estado de los artículos en el inventario. Esta opción solo está disponible para todos los elementos de menú que usan el trabajo existente, excepto el recuento de ciclo.</td>
 </tr>
 <tr class="odd">
 <td>Mostrar resumen de la pantalla de picking</td>
@@ -412,5 +416,7 @@ La siguiente tabla describe los distintos tipos de trabajo con los que puede usa
 [Configurar un elemento de menú del dispositivo móvil para completar trabajo del tipo pedido de compra (guía de tareas)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
 [Configurar un elemento de menú del dispositivo móvil para registrar los artículos recibidos (guía de tareas)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Ventajas de usar los estados de inventario](../inventory/inventory-statuses.md)
+
 
 

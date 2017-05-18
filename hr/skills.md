@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 720a1f272948eb310dc3cd02588aeec40b556d20
-ms.openlocfilehash: 31dda85ff2e4a4e5380401b031b2dd74acff394b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4fd6e61e88ca3ca3fa63308dead1258c0263e5aa
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a>Alienación de las aptitudes de los recursos con las necesidades empresariales
+
+[!include[banner](includes/banner.md)]
+
 
 Puede realizar un seguimiento de las aptitudes que los trabajadores, los candidatos o las personas de contacto tienen o deben tener para cumplir adecuadamente con sus funciones. También puede especificar las aptitudes necesarias para un puesto concreto.
 
@@ -52,24 +56,12 @@ Puede crear una búsqueda de distribución de aptitudes para encontrar un trabaj
 
 Los perfiles de distribución de aptitudes le permiten buscar empleados o candidatos actuales con cualificaciones que se correspondan directamente con sus necesidades empresariales.  Por ejemplo, podría crear un perfil de distribución de aptitudes para una vacante en su organización. Al crear un perfil para un determinado trabajo y copiar las aptitudes, la formación y los certificados de dicho trabajo al perfil, puede buscar rápidamente trabajadores, candidatos y personas de contacto que coincidan con uno o más de los criterios especificados en el perfil y ver una lista de los candidatos cuyas habilidades coincidan más con las aptitudes necesarias para el trabajo.
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>Nota </strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Solo los trabajadores, los candidatos y las personas de contacto que se seleccionan para incluirse en las búsquedas de distribución de aptitudes se pueden mostrar en una lista de los resultados correspondiente o incluirse en un perfil de aptitudes. Para incluir un trabajador, un candidato o una persona de contacto en búsquedas de distribución de perfiles, establezca <strong>Incluir en distribución de habilidades</strong> en Sí en las siguientes páginas:
-<ul>
-<li>Trabajador</li>
-<li>Empleado</li>
-<li>Candidato</li>
-<li>Contactos</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+>**Nota** Solo los trabajadores, los candidatos y las personas de contacto que se seleccionan para incluirlas en las búsquedas de distribución de aptitudes se pueden mostrar en una lista de resultados de distribución de aptitudes o incluir en un perfil de aptitudes. Para incluir un trabajador, un candidato o una persona de contacto en búsquedas de distribución de perfiles, establezca **Incluir en distribución de habilidades** en Sí en las siguientes páginas:
+
+> + Trabajador
+> + Empleado
+> + Candidato
+> + Contactos
 
 ## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Análisis de lagunas de aptitudes y análisis de perfiles de aptitudes
 Puede crear un análisis de aptitud para ver una lista de las capacidades para un trabajador, un candidato o una persona de contacto a partir de una fecha específica. Puede crear un análisis de lagunas de aptitudes para comparar las aptitudes de una persona con las aptitudes necesarias para un puesto.  
@@ -80,5 +72,7 @@ Puede crear un análisis de aptitud para ver una lista de las capacidades para u
 --------
 
 [Recursos humanos](index.md)
+
+
 
 

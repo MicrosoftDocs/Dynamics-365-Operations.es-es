@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: d635421112f6d1e79a47090de3ffc4178b36b132
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e63dd046587f29947c45b12a878ce7108bb1621e
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -42,9 +43,9 @@ La granularidad de las directivas de suministro que se usan en la programación 
 ## <a name="supply-policies"></a>Directivas de suministro
 La planificación modo mezcla de Microsoft Dynamics 365 for Operations controla el modo de suministrar un producto y, en función del suministro, el modo de emisión de los requisitos derivados (consumo de artículos de una lista de materiales \[L. MAT\]). Según el tipo de pedido, el sistema automáticamente suministra materiales para que coincidan con los requisitos.  
 
-Las directivas de suministro se pueden definir en el nivel de producto o en cualquier granularidad que admita sus requisitos. La granularidad de las directivas de suminsitro se definen en la página **Configuración de pedido predeterminada **.  
+Las directivas de suministro se pueden definir en el nivel de producto o en cualquier granularidad que admita sus requisitos. La granularidad de las directivas de suminsitro se definen en la página **Configuración de pedido predeterminada**.  
 
-Las directivas de suministro pueden ser controladas por producto, dimensiones de artículo (configuración, color y tamaño), sitio y almacén. Esta configuración se realiza en la página **Cobertura de artículos **.  
+Las directivas de suministro pueden ser controladas por producto, dimensiones de artículo (configuración, color y tamaño), sitio y almacén. Esta configuración se realiza en la página **Cobertura de artículos**.  
 
 El tipo de pedido predeterminado controla lo que genera la planificación maestra del pedido.  
 

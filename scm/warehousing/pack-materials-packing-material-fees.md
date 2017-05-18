@@ -18,10 +18,11 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 7c0bc5b5d86956336012096c11d0d7621abab1f9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d8296dd0347a325a9ff3bd06f558d161ab4030dc
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -37,7 +38,7 @@ Las cuotas y pesos de material de embalaje se calculan para las líneas de pedid
 
 Puede definir una o más unidades de embalaje para un artículo, un grupo de embalaje de artículos o para todos los artículos. Una unidad de embalaje consta de materiales de embalaje y sus pesos, además del número de artículos que se incluyen en la unidad de embalaje. Se asigna un código de material de embalaje a cada tipo de material de embalaje definido. De acuerdo con el código de material de embalaje, puede especificar un precio de un período concreto. La cuota de material de embalaje se calcula en función de esta información.
 
-| **Nota **                                                                                                                                             |
+| **Nota**                                                                                                                                             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Aunque la empresa no pague las cuentas de material de embalaje, podrá utilizar las funciones para calcular las estadísticas para los pesos de material de embalaje. |
 

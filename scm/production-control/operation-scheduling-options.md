@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 68cac68e1ea3db35b44c91f2c1901abf2aa521be
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4b79b21c6c4ceebfd24225643d099a2e2789d303
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ Varias configuraciones determinan cómo se calculan los programas de producción
 
 La dirección de programación es indispensable en el proceso de programación. La producción se puede programar hacia adelante o hacia atrás a partir de cualquier fecha, en función de los requisitos de tiempo y programación.
 
--   **A partir de la fecha de programación: **puede programar la producción para que se inicie lo antes posible. La producción puede iniciarse hoy, mañana o en cualquier fecha concreta en el futuro. La producción está programada para comenzar lo antes posible y se planifica hacia adelante en el tiempo hasta la fecha final más próxima posible.
+-   **A partir de la fecha de programación:**puede programar la producción para que se inicie lo antes posible. La producción puede iniciarse hoy, mañana o en cualquier fecha concreta en el futuro. La producción está programada para comenzar lo antes posible y se planifica hacia adelante en el tiempo hasta la fecha final más próxima posible.
 -   **Programación regresiva**: puede programar la producción para que se inicie lo más tarde posible. El programa se basa en la fecha en que debe completarse la producción y cuenta hacia atrás hasta la última fecha posible en que puede iniciarse la producción sin que supere la fecha límite objetivo.
 
 Están disponibles las siguientes opciones:
@@ -98,7 +99,7 @@ Cuando las referencias dependen de las órdenes de producción, también se deno
 
 ### <a name="synchronize-references"></a>Sincronizar las referencias
 
-También puede sincronizar las referencias con el pedido de producción. Si se selecciona esta opción, las fechas de las subproducciones se modificarán y alinearán cuando se efectúen cambios en la programación del pedido de producción. Si un pedido de producción tiene una o más subproducciones, se recomienda programar dichas subproducciones junto con la producción principal. En este caso, la producción principal no puede iniciarse hasta que se hayan terminado las subproducciones relacionadas. Por lo tanto, seleccione esta casilla si la programación de subproducciones se basa en los tiempos de inicio y fin de la producción seleccionada. Puede seleccionar esta casilla solo si la casilla de las** Referencias de la programación** también se ha seleccionado.
+También puede sincronizar las referencias con el pedido de producción. Si se selecciona esta opción, las fechas de las subproducciones se modificarán y alinearán cuando se efectúen cambios en la programación del pedido de producción. Si un pedido de producción tiene una o más subproducciones, se recomienda programar dichas subproducciones junto con la producción principal. En este caso, la producción principal no puede iniciarse hasta que se hayan terminado las subproducciones relacionadas. Por lo tanto, seleccione esta casilla si la programación de subproducciones se basa en los tiempos de inicio y fin de la producción seleccionada. Puede seleccionar esta casilla solo si la casilla de las**Referencias de la programación** también se ha seleccionado.
 
 ## <a name="cancellation"></a>Cancelación
 ### <a name="cancel-queue-time"></a>Cancelar el tiempo en cola
