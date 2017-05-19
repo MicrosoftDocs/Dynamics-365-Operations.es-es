@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 64bcea1f305d67c01967184596a58a48a002cf48
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e90741b9151f19c70923685fdf1edb2552296a08
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -56,7 +57,7 @@ En cuanto a plantillas de trabajo, puede configurar una consulta para determinar
 
 Las líneas directivas de la ubicación establecen restricciones adicionales en la aplicación de las reglas de búsqueda de la ubicación. Puede especificar una cantidad mínima y una cantidad máxima en las que el directorio se debe basar, y puede especificar que el directorio debe ser para una unidad de inventario específica. Por ejemplo, si la unidad de medida es pallets, entonces los artículos en pallets se pueden colocar en una ubicación concreta. También puede especificar si la cantidad se puede dividir entre varias ubicaciones. Como el encabezado de la directiva de ubicación, cada línea directiva de la ubicación tiene un número de secuencia que determina la orden en que las líneas se evalúan. 
 
-Las directivas de la ubicación tienen un nivel de detalle adicional: *acciones de la directiva de la ubicación*. Puede definir varias acciones de las directivas de la ubicación para cada línea. De nuevo, se usa un número de secuencia para determinar el orden en que se evalúan las acciones. En este nivel, puede configurar una consulta para definir cómo encontrar la mejor ubicación en el almacén. También puede usar una configuración de **Estrategia **predefinida para encontrar una ubicación óptima.
+Las directivas de la ubicación tienen un nivel de detalle adicional: *acciones de la directiva de la ubicación*. Puede definir varias acciones de las directivas de la ubicación para cada línea. De nuevo, se usa un número de secuencia para determinar el orden en que se evalúan las acciones. En este nivel, puede configurar una consulta para definir cómo encontrar la mejor ubicación en el almacén. También puede usar una configuración de **Estrategia**predefinida para encontrar una ubicación óptima.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Ejemplo del uso de las directivas de la ubicación
 

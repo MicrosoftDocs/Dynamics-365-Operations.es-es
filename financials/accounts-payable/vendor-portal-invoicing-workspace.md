@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 822e621f22f8af63b2a827dcc50a6b0ac68d3e21
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7aebcdf0578d931d326420b42e2b220407049bc6
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="vendor-collaboration-invoicing-workspace"></a>Espacio de trabajo de facturación de colaboración de proveedor
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tema explica cómo puede ver las facturas de proveedor y enviar las facturas desde el espacio de trabajo de la facturacíon de colaboración de proveedor.
 
@@ -43,7 +47,7 @@ Las fichas de **Resumen** ofrecen una visión general de las facturas para el pr
 Si hace clic en una ficha, abrirá una vista filtrada de la página **Lista de facturas**.
 ### <a name="tabular-lists"></a>Listas tabulares
 
-En la sección **Listas tabulares **, el estado de la facturación se desglosa de forma similar a las fichas del resumen: Borrador y Enviado, listas no aprobadas. Cuando se encuentre en estado de Borrador, una factura se puede enviar al flujo de trabajo o eliminarse. La última lista tabular es una opción para buscar facturas. Puede filtrar según busca para permitir búsquedas más rápidas.
+En la sección **Listas tabulares**, el estado de la facturación se desglosa de forma similar a las fichas del resumen: Borrador y Enviado, listas no aprobadas. Cuando se encuentre en estado de Borrador, una factura se puede enviar al flujo de trabajo o eliminarse. La última lista tabular es una opción para buscar facturas. Puede filtrar según busca para permitir búsquedas más rápidas.
 Página de la lista de todas las facturas de proveedor
 -----------------------------
 
@@ -55,6 +59,8 @@ Puede crear una nueva factura de proveedor seleccionando la acción **Nueva** en
 
 
 
-Para obtener más información, consulte [Colaboración con los proveedores mediante el portal de proveedores](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
+Para obtener más información, consulte [Colaboración con los proveedores mediante el portal de proveedores](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+
+
 
 

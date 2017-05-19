@@ -17,10 +17,11 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: 2e5090c11bc22d01516175152a115d3e74b74240
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 61bb5da3b778408978b12749aec87901d98f8fcb
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -118,7 +119,7 @@ Debe cargar los siguientes modelos y formatos de repositorio:
 4.  Diario XML MX (formato)
 5.  Saldo de comprobación XML MX (formato)
 
-Después de que el depósito esté disponible en el entorno, debe identificar estos formatos en los parámetros de contabilidad general. Haga clic en los parámetros **Contabilidad general** &gt; **Configuración de contabilidad** &gt; ** Contabilidad general** y, a continuación, en el grupo de campos **Asignación de informes electrónicos**, seleccione el formato que desea utilizar para generar los archivos XML.
+Después de que el depósito esté disponible en el entorno, debe identificar estos formatos en los parámetros de contabilidad general. Haga clic en los parámetros **Contabilidad general** &gt; **Configuración de contabilidad** &gt; **Contabilidad general** y, a continuación, en el grupo de campos **Asignación de informes electrónicos**, seleccione el formato que desea utilizar para generar los archivos XML.
 
 ## <a name="generate-electronic-ledger-accounting-files"></a>Generar archivos electrónicos de cuenta contable
 Haga clic en **Contabilidad general** &gt; **Consulta e informes** &gt; **Informes de contabilidad** &gt; **Extracto electrónico de cuenta contable** para generar los archivos XML necesarios y descargarlos en el entorno. La tabla siguiente describe los parámetros que debe establecer.

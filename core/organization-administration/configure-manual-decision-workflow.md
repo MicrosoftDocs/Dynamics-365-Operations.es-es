@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: d57b00de54a0966f94b98885c9ffbf02a1838c90
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ac4f520d17c721e249737b4ae95c10685f914497
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -74,7 +75,7 @@ Debe proporcionar una línea de asunto e instrucciones a los usuarios que están
     6.  Haga clic en **Cerrar**.
 
 ## <a name="specify-the-possible-outcomes-of-a-decision"></a>Especificación de los posibles resultados de una decisión
-Normalmente, cuando a una persona responsable de tomar decisiones se le asigna un documento, se le formula una pregunta. La respuesta a esta pregunta es generalmente **Sí **o **No**, o bien **Verdadero** o **Falso**. Siga estos pasos para especificar los resultados que podría tener la decisión manual.
+Normalmente, cuando a una persona responsable de tomar decisiones se le asigna un documento, se le formula una pregunta. La respuesta a esta pregunta es generalmente **Sí**o **No**, o bien **Verdadero** o **Falso**. Siga estos pasos para especificar los resultados que podría tener la decisión manual.
 
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
 2.  En la pestaña **Resultados**, en el campo **Resultado 1**, escriba el nombre del resultado o especifique la opción.

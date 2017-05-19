@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: af7e7288f741b3c519227e2778c4c4311c3a2012
-ms.openlocfilehash: 88cdf531b6da615034f9982d3503b9add0100479
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 447ba56a279a29392b00119730c3594fa4ea80f6
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -42,7 +43,7 @@ La gestión de gastos se integra totalmente con la administración financiera de
 
 ### <a name="per-diems"></a>Dietas
 
-Debe definir las dietas de empleado que ofrece su organización. Dado que las dietas se suelen usar para satisfacer gastos como comidas, alojamiento y otros gastos incidentales, puede crear reglas para las retribuciones de dietas para que ofrece su organización. Las tarifas de dietas se pueden basar en la época del año, el destino del viaje o ambos. Al definir una regla de dietas, puede especificar la retención de un porcentaje de la tarifa de dietas si el trabajador recibe comidas o servicios complementarios. También puede definir niveles de tabla de dietas para establecer el mínimo o máximo de horas durante las que se puede aplicar la tarifa de dietas al viaje del trabajador. **Decisiones: **
+Debe definir las dietas de empleado que ofrece su organización. Dado que las dietas se suelen usar para satisfacer gastos como comidas, alojamiento y otros gastos incidentales, puede crear reglas para las retribuciones de dietas para que ofrece su organización. Las tarifas de dietas se pueden basar en la época del año, el destino del viaje o ambos. Al definir una regla de dietas, puede especificar la retención de un porcentaje de la tarifa de dietas si el trabajador recibe comidas o servicios complementarios. También puede definir niveles de tabla de dietas para establecer el mínimo o máximo de horas durante las que se puede aplicar la tarifa de dietas al viaje del trabajador. **Decisiones:**
 
 -   Reglas de dietas predeterminadas para el primer y el último día:
     -   ¿Cuál es el número mínimo de horas que un empleado puede reclamar para un día y recibir aún dietas?
@@ -63,7 +64,7 @@ Debe definir las dietas de empleado que ofrece su organización. Dado que las di
 
 ### <a name="expense-management-journals-and-accounts"></a>Cuentas y diarios de gestión de gastos
 
-La gestión de gastos requiere que use varios diarios y cuentas. Debe decidir, por ejemplo, si se usa la misma cuenta para anticipos y conflictos de tarjeta de crédito. **Decisiones: **
+La gestión de gastos requiere que use varios diarios y cuentas. Debe decidir, por ejemplo, si se usa la misma cuenta para anticipos y conflictos de tarjeta de crédito. **Decisiones:**
 
 -   ¿En qué diario contable se registran los informes de gastos aprobados?
 -   ¿Qué cuenta se usa para anticipos?
@@ -71,7 +72,7 @@ La gestión de gastos requiere que use varios diarios y cuentas. Debe decidir, p
 
 ### <a name="payment-methods"></a>Métodos de pago
 
-Cuando permite a los empleados incurrir en gastos en nombre de su negocio, debe definir los métodos de pago que se permiten usar a los empleados. Por ejemplo, puede que permitir a los empleados usar efectivo o una tarjeta de crédito corporativa. También puede permitir a los empleados usar tarjetas de crédito personales y después reembolsar a los empleados. Debe tomar las siguientes decisiones para cada método de pago que habilite. **Decisiones: **
+Cuando permite a los empleados incurrir en gastos en nombre de su negocio, debe definir los métodos de pago que se permiten usar a los empleados. Por ejemplo, puede que permitir a los empleados usar efectivo o una tarjeta de crédito corporativa. También puede permitir a los empleados usar tarjetas de crédito personales y después reembolsar a los empleados. Debe tomar las siguientes decisiones para cada método de pago que habilite. **Decisiones:**
 
 -   ¿Qué métodos de pago se permiten?
 -   ¿Quién posee los gastos del método de pago?
@@ -81,7 +82,7 @@ Cuando permite a los empleados incurrir en gastos en nombre de su negocio, debe 
 
 ### <a name="expense-categories-and-shared-categories"></a>Categorías de gastos y categorías compartidas
 
-Cuando los empleados crean un informe de gastos, cada gasto que registran se debe asociar a una categoría de gastos. Las categorías de gastos se derivan de las categorías compartidas que se pueden compartir en las entidades jurídicas de la organización. Estas categorías también se pueden compartir en la gestión de proyectos y la contabilidad, en función de cómo se define la organización. En función de la definición de su organización y la orientación del equipo de implementación, determine si las categorías que se utilizan en la gestión de gastos deben usarse solo en gastos o si se deben compartir entre el proyecto y el gasto. Tenga en cuenta que estas categorías se pueden compartir entre el proyecto y los gastos o el proyecto y la producción, pero no entre el gasto y la producción. Debe tomar las siguientes decisiones para cada categoría de gastos. **Decisiones: **
+Cuando los empleados crean un informe de gastos, cada gasto que registran se debe asociar a una categoría de gastos. Las categorías de gastos se derivan de las categorías compartidas que se pueden compartir en las entidades jurídicas de la organización. Estas categorías también se pueden compartir en la gestión de proyectos y la contabilidad, en función de cómo se define la organización. En función de la definición de su organización y la orientación del equipo de implementación, determine si las categorías que se utilizan en la gestión de gastos deben usarse solo en gastos o si se deben compartir entre el proyecto y el gasto. Tenga en cuenta que estas categorías se pueden compartir entre el proyecto y los gastos o el proyecto y la producción, pero no entre el gasto y la producción. Debe tomar las siguientes decisiones para cada categoría de gastos. **Decisiones:**
 
 -   ¿Cuál es la categoría de gasto? Por ejemplo, vuelos, hotel o kilometraje.
 -   ¿Se puede usar también esta categoría de gastos en la gestión de gastos y la contabilidad?
@@ -119,7 +120,7 @@ Cuando los empleados crean un informe de gastos, cada gasto que registran se deb
 
 ### <a name="taxes"></a>Impuestos
 
-Para los impuestos relacionados con gastos, debe determinar qué se incluye o se permite en los informes de gastos. **Decisiones: **
+Para los impuestos relacionados con gastos, debe determinar qué se incluye o se permite en los informes de gastos. **Decisiones:**
 
 -   ¿Los impuestos se incluyen en los importes de gastos?
 -   ¿Se debe habilitar la devolución de impuestos en los gastos?
@@ -127,7 +128,7 @@ Para los impuestos relacionados con gastos, debe determinar qué se incluye o se
 Tenga en cuenta que si, durante la planificación de la contabilidad general, ha decidido aplicar impuestos de EE.UU. y reglas de IVA de importación, lo que se realiza alternando el campo **Aplicar reglas de tributación de impuestos** en Sí, no podrá habilitar la devolución de impuestos en los gastos.
 
 ## <a name="policies"></a>Directivas
-Puede crear directivas de informe de gastos de modo que la organización pueda ahorrar tiempo y dinero cuando los empleados incurran en gastos en su nombre. Las directivas garantizan que los empleados permanecen dentro del presupuesto, proporcionan toda la información necesaria y gasten dinero solo según sea necesario. Debe tomar las siguientes decisiones para cada directiva de informe de gastos y cada directiva de aprobación de informe de gastos que cree. **Decisiones: **
+Puede crear directivas de informe de gastos de modo que la organización pueda ahorrar tiempo y dinero cuando los empleados incurran en gastos en su nombre. Las directivas garantizan que los empleados permanecen dentro del presupuesto, proporcionan toda la información necesaria y gasten dinero solo según sea necesario. Debe tomar las siguientes decisiones para cada directiva de informe de gastos y cada directiva de aprobación de informe de gastos que cree. **Decisiones:**
 
 -   ¿Cuál es el nombre de la directiva?
 -   ¿Para qué es la directiva de gastos?

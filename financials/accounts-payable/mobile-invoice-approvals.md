@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: 30229c0d24aed0bd927993b9af76b32d9bb073ee
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 511dc31b96f2f5133dd0c22712d2c8d6f8746e8c
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -176,7 +177,7 @@ Para diseñar la página de detalles de la factura para móvil, use la página *
 3.  Haga clic en el botón **Editar** para iniciar el modo de edición en el espacio de trabajo.
 4.  Seleccione la página **Mis facturas de proveedor** que ha creado antes y haga clic en **Editar**.
 5.  En los la ficha **Campos**, haga clic en el encabezado de columna **Cuadrícula**.
-6.  Haga clic en **Propiedades** y **Agregar página**. **Nota:** Al hacer clic en el encabezado de **Cuadrícula** y agregar una página, la relación con la página de detalles se establece automáticamente.
+6.  Haga clic en **Propiedades** &gt; **Agregar página**. **Nota:** Al hacer clic en el encabezado de **Cuadrícula** y agregar una página, la relación con la página de detalles se establece automáticamente.
 7.  Especifique un título de la página, por ejemplo **Detalles de la factura** y una descripción como **Ver detalles de línea y encabezado de la factura**.
 8.  Haga clic en **Seleccionar campos**. Tenga en cuenta que el orden en que se agrega es el orden en que los campos se mostrarán al usuario final. La única forma de cambiar orden de los campos es volviendo a seleccionar todos los campos.
 9.  Agregue los siguientes campos desde el encabezado, según los requisitos para esta situación:

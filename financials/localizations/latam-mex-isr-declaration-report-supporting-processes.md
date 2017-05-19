@@ -17,10 +17,11 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: e6a2946da63e2a32aaeccd0071452248f8922fff
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: dd580c4c7625d94a79690ba172d9d7000141f33c
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ Antes de generar el informe de ISR, puede usar Microsoft Dynamics 365 for Opera
 
 ### <a name="concepts"></a>Conceptos
 
-Debe crear conceptos para identificar las distintas secciones del informe y vincular a continuación una o más cuentas principales para cada concepto. Puede vincular un intervalo o cuentas principales específicas, en función de la estructura del plan de cuentas. Cuando se vincula una cuenta principal, puede seleccionar **Débitos** para usar el importe del débito, **Crédito** para usar solo el importe de crédito o **Ambos**. El informe de ISR muestra el valor, en función del concepto que haya configurado. **Ejemplo **
+Debe crear conceptos para identificar las distintas secciones del informe y vincular a continuación una o más cuentas principales para cada concepto. Puede vincular un intervalo o cuentas principales específicas, en función de la estructura del plan de cuentas. Cuando se vincula una cuenta principal, puede seleccionar **Débitos** para usar el importe del débito, **Crédito** para usar solo el importe de crédito o **Ambos**. El informe de ISR muestra el valor, en función del concepto que haya configurado. **Ejemplo**
 
 |               |                                                          |
 |---------------|----------------------------------------------------------|
@@ -54,7 +55,7 @@ Debe crear conceptos para identificar las distintas secciones del informe y vinc
 
 ### <a name="isr-rate-table"></a>Tabla de coeficientes de ISR
 
-Puede crear o actualizar los índices de ISR que se usan para calcular el importe del pago de ISR provisional. Esta tabla está normalmente disponible en el sitio del gobierno. Identifica el año y el mes y, a continuación los importes mínimo y máximo, el importe fijo y el índice de ISR. En el informe de pago de ISR, el porcentaje de la tasa se usa para multiplicar el valor derivado después de que el importe mínimo se deduzca del importe fiscal resultante. **Ejemplo **
+Puede crear o actualizar los índices de ISR que se usan para calcular el importe del pago de ISR provisional. Esta tabla está normalmente disponible en el sitio del gobierno. Identifica el año y el mes y, a continuación los importes mínimo y máximo, el importe fijo y el índice de ISR. En el informe de pago de ISR, el porcentaje de la tasa se usa para multiplicar el valor derivado después de que el importe mínimo se deduzca del importe fiscal resultante. **Ejemplo**
 
 | Importe mínimo | Importe máximo | Importe fijo | Porcentaje de tasa que se aplicará en el importe mínimo |
 |----------------|----------------|--------------|--------------------------------------------------|

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: d38d05fe445bf0326d408038dff84ccf8c0ff64c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b6b0edfbbcebed323be63d5bc892dba1170b9c67
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -60,7 +61,7 @@ Se admiten varios tipos de destinos. Puede deshabilitar o habilitar todos los ti
 
 ### <a name="email-destination"></a>Destino de correo electrónico
 
-Establezca **Habilitado **en **Sí** para enviar un archivo de salida por correo electrónico. Después de que se haya habilitado esta opción, puede especificar los destinatarios de correo electrónico y editar el asunto y el cuerpo del mensaje de correo electrónico. Puede configurar textos constantes para el asunto y el cuerpo de correo electrónico, o bien usar las fórmulas de ER dinámicamente para crear textos de correo electrónico. Puede configurar direcciones de correo electrónico para el ER de dos maneras. La configuración se puede completar de la misma manera en que la característica de gestión de impresión en Dynamics 365 for Operations la completa. Como alternativa, puede resolver una dirección de correo electrónico mediante una referencia directa a la configuración del ER con una fórmula.
+Establezca **Habilitado**en **Sí** para enviar un archivo de salida por correo electrónico. Después de que se haya habilitado esta opción, puede especificar los destinatarios de correo electrónico y editar el asunto y el cuerpo del mensaje de correo electrónico. Puede configurar textos constantes para el asunto y el cuerpo de correo electrónico, o bien usar las fórmulas de ER dinámicamente para crear textos de correo electrónico. Puede configurar direcciones de correo electrónico para el ER de dos maneras. La configuración se puede completar de la misma manera en que la característica de gestión de impresión en Dynamics 365 for Operations la completa. Como alternativa, puede resolver una dirección de correo electrónico mediante una referencia directa a la configuración del ER con una fórmula.
 
 ### <a name="email-address-types"></a>Tipos de direcciones de correo electrónico
 
@@ -92,7 +93,7 @@ Use este tipo de correo electrónico si la configuración que utiliza tiene un n
 
 ### <a name="archive-destination"></a>Destino de archivo
 
-Puede utilizar esta opción para enviar la salida a una carpeta de Microsoft SharePoint o el Almacenamiento de Microsoft Azure. Establezca **Habilitada** en **Sí **para enviar la salida a un destino que se define por el tipo de documento seleccionado. Solo los tipos de documento donde el grupo se establece en **Archivo** están disponibles para su selección. Defina los tipos de documento en **Administración de la organización** &gt; **Administración de documentos** &gt; **Tipos de documento**. La configuración de destinos de ER es la misma que la configuración para el sistema de administración de documentos.
+Puede utilizar esta opción para enviar la salida a una carpeta de Microsoft SharePoint o el Almacenamiento de Microsoft Azure. Establezca **Habilitada** en **Sí**para enviar la salida a un destino que se define por el tipo de documento seleccionado. Solo los tipos de documento donde el grupo se establece en **Archivo** están disponibles para su selección. Defina los tipos de documento en **Administración de la organización** &gt; **Administración de documentos** &gt; **Tipos de documento**. La configuración de destinos de ER es la misma que la configuración para el sistema de administración de documentos.
 
 [![Página de tipos de documento](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 

@@ -1,16 +1,16 @@
 ---
 title: "Definiciones de informes en el diseñador de informes financieros"
 description: "Este artículo proporciona información acerca de las definiciones de informes. Una definición del informe es un componente de informe (o un bloque de creación) que utiliza una definición de filas, una definición de columnas y una definición opcional del organigrama para crear un informe. Una definición de informe también proporciona opciones y ajustes para personalizar un informe."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-07 18 - 58 - 18
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 81ac503410e51672c2f97a76d37d4c567832912f
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4b8264213cc7b8109b7300752e119d5c03d6239c
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="report-definitions-in-financial-report-designer"></a>Definiciones de informes en el diseñador de informes financieros
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo proporciona información acerca de las definiciones de informes. Una definición del informe es un componente de informe (o un bloque de creación) que utiliza una definición de filas, una definición de columnas y una definición opcional del organigrama para crear un informe. Una definición de informe también proporciona opciones y ajustes para personalizar un informe. 
 
@@ -89,6 +93,8 @@ La siguiente tabla describe las pestañas en una definición del informe y cómo
 <a name="see-also"></a>Consulte también
 --------
 
-[Informes financieros para Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
+[Informes financieros](financial-reporting-intro.md)
+
+
 
 

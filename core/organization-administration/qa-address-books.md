@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 444ffcc8a14650085e24d0ea0d7f725e9d324d69
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f3d34f9ee0c9db97e79b8577d006b198f9a5cb29
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -41,8 +42,8 @@ Puede comprobar los registros duplicados directamente en la página de lista **L
 ## <a name="can-i-bulk-add-or-delete-party-records-from-an-address-book"></a>¿Puedo agregar o eliminar registros de manera masiva desde una libreta de direcciones?
 Sí, puede agregar varios registros de partes a una libreta de direcciones y también quitar varios registros de partes.
 
--   Para agregar varios registros de partes a una libreta de direcciones, en la página de lista **Libreta de direcciones global **, seleccione las partes en la lista. A continuación, en el panel de acciones, en la ficha **Parte**, en el grupo **Mantener**, haga clic en **Asignar partes**. Seleccione las libretas de direcciones a las que desea agregar los registros de parte seleccionados y, a continuación, haga clic en **Aceptar**. Todos los registros de parte seleccionados se agregan a las libretas de direcciones que ha seleccionado.
--   Para quitar varios registros de partes de una libreta de direcciones, en la página de lista **Libreta de direcciones global **, seleccione las partes en la lista. A continuación, en el panel de acciones, en la ficha **Parte**, en el grupo **Mantener**, haga clic en **Quitar partes**. Seleccione las libretas de direcciones de las que desea quitar las partes y, a continuación, haga clic en **Aceptar**. Todos los registros de parte seleccionados se quitan de las libretas de direcciones que ha seleccionado.
+-   Para agregar varios registros de partes a una libreta de direcciones, en la página de lista **Libreta de direcciones global**, seleccione las partes en la lista. A continuación, en el panel de acciones, en la ficha **Parte**, en el grupo **Mantener**, haga clic en **Asignar partes**. Seleccione las libretas de direcciones a las que desea agregar los registros de parte seleccionados y, a continuación, haga clic en **Aceptar**. Todos los registros de parte seleccionados se agregan a las libretas de direcciones que ha seleccionado.
+-   Para quitar varios registros de partes de una libreta de direcciones, en la página de lista **Libreta de direcciones global**, seleccione las partes en la lista. A continuación, en el panel de acciones, en la ficha **Parte**, en el grupo **Mantener**, haga clic en **Quitar partes**. Seleccione las libretas de direcciones de las que desea quitar las partes y, a continuación, haga clic en **Aceptar**. Todos los registros de parte seleccionados se quitan de las libretas de direcciones que ha seleccionado.
 
 ## <a name="can-i-change-the-party-type-of-a-record-or-do-i-have-to-delete-the-old-record-and-create-a-new-one"></a>¿Puedo cambiar el tipo de parte de un registro o tengo que eliminar el antiguo registro y crear uno nuevo?
 Ocasionalmente, es posible que tenga que el tipo de parte de un registro de persona organización o de organización a persona. Por ejemplo, Nancy forma parte del equipo de ventas para Fabrikam U.K. En una muestra comercial de Londres, conoce a seis nuevos clientes potenciales. Nancy crea un registro de parte de cliente potencial para cada cliente potencial. Cuando Nancy guarda los registros, cada registro también se crea en la libreta de direcciones global. Fabrikam ha establecido el tipo de parte predeterminado en organización, pero dos de los clientes potenciales nuevos deben tener un tipo de registro de persona. Por tanto, cuando Nancy regresa de la muestra comercial, debe cambiar el tipo de parte de los dos registros de clientes potenciales. Para cambiar un registro de parte de un tipo de parte a otro, primero debe crear un nuevo registro de parte del tipo adecuado en la libreta de direcciones global. A continuación, asocie el antiguo registro de parte a este registro nuevo. Una vez que haya realizado la nueva asociación de la parte, elimine el registro de parte original que tiene el tipo de registro incorrecto.

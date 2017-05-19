@@ -1,6 +1,6 @@
 ---
 title: Glosario de Dynamics 365 for Operations
-description: "El glosario de Microsoft Dynamics 365 for Operations define términos y conceptos clave del producto Microsoft Dynamics 365 for Operations."
+description: "El glosario de Microsoft Dynamics 365 for Operations define términos y conceptos clave del producto Dynamics 365 for Operations."
 author: tonyafehr
 manager: AnnBe
 ms.date: 04/04/2017
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0d8af341c8020f756f1a736f6f74402e992d6e16
-ms.openlocfilehash: c6372e366db6abc7b586c2f1185ecd44bbf28502
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: dd9f65e045367aeba081d026da53894679ee7ed0
+ms.contentlocale: es-es
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -30,7 +31,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-El glosario de Microsoft Dynamics 365 for Operations define términos y conceptos clave del producto Microsoft Dynamics 365 for Operations. 
+El glosario de Microsoft Dynamics 365 for Operations define términos y conceptos clave del producto Dynamics 365 for Operations. 
 
 ### <a name="a"></a>**A**
 
@@ -40,7 +41,7 @@ Diario utilizado para registrar las consecuencias financieras de eventos de cont
 
 ###### <a name="accounting-rule"></a>**regla de contabilidad**
 
-Regla de un sistema contable que controla los principios, los métodos y los procedimientos para clasificar, registrar y notificar las consecuencias financieras de los eventos de contabilidad.
+Regla de un sistema contable que controla los principios, métodos y procedimientos para clasificar, registrar y notificar las consecuencias financieras de los eventos de contabilidad.
 
 ###### <a name="ach-automated-clearing-house"></a>**ACH (Cámara de compensación automática)**
 
@@ -56,11 +57,11 @@ Este servicio lo presta un procesador de tarjetas de crédito que valida que la 
 
 ###### <a name="adjusted-unit-price"></a>**precio unitario ajustado**
 
-El precio unitario calculado según el precio basado en atributos y la potencia real recibida.
+El precio unitario calculado a partir de los precios basados en atributos y la potencia real recibida.
 
-###### <a name="advanced-pricing"></a>**precios avanzados**
+###### <a name="advanced-pricing"></a>**cálculos de precios avanzados**
 
-Lógica usada para calcular el precio de compra de un artículo de potencia.
+Lógica usada para calcular los precios de compra de un artículo de potencia.
 
 ###### <a name="aging"></a>**vencimiento**
 
@@ -70,7 +71,7 @@ Proceso de clasificar períodos de tiempo por antigüedad.
 
 Número de días de un período de tiempo utilizado para notificar que el saldo de pago del cliente ha vencido.
 
-### <a name="b"></a>**mil millones**
+### <a name="b"></a>**B**
 
 ###### <a name="balance-sheet"></a>**balance de situación**
 
@@ -104,7 +105,7 @@ Documento de origen que justifica una solicitud incondicional para que un tercer
 
 Lista de productos y sus cantidades necesarias para producir un producto.
 
-###### <a name="blocking"></a>**bloqueos**
+###### <a name="blocking"></a>**bloqueo**
 
 Acción de poner un documento o producto en espera.
 
@@ -160,15 +161,15 @@ Presupuesto que se transfiere de un ejercicio al siguiente y que se reserva para
 
 ###### <a name="cash-generating-unit"></a>**unidad generadora de efectivo**
 
-El grupo más pequeño de activos clasificables que genera efectivo independientemente de otros activos dentro de una organización. Estos grupos de activos se usan para medir las pérdidas por deterioro que se producirán.
+El grupo más pequeño de activos clasificables que genera efectivo independientemente de otros activos dentro de una organización. Estos grupos de activos se utilizan para medir las pérdidas por deterioro que se van a producir.
 
 ###### <a name="catch-weight"></a>**peso capturado**
 
 Peso real o nominal de un artículo de ventas o un artículo de inventario.
 
-###### <a name="chart-of-accounts"></a>**plan contable**
+###### <a name="chart-of-accounts"></a>**plan de cuentas**
 
-Lista de cuentas principales.
+Una lista de cuentas principales.
 
 ###### <a name="cogs-cost-of-goods-sold"></a>**COGS (coste de bienes vendidos)**
 
@@ -222,15 +223,15 @@ Tiempo dedicado a completar una actividad.
 
 ###### <a name="dashboard"></a>**panel de información**
 
-La página de inicio típica de Microsoft Dynamics 365 for Operations. En el panel de información, los usuarios ven una sección para cada espacio de trabajo al que tienen acceso. Cada sección muestra los mosaicos de las secciones de resumen en el espacio de trabajo relacionado. El panel de información contiene un nombre y secciones con mosaicos.
+La página de inicio típica de Dynamics 365 for Operations. En el panel de información los usuarios ven una sección por cada espacio de trabajo al que tienen acceso. Cada sección muestra los iconos de las secciones de resumen del espacio de trabajo correspondiente. El panel de información tiene un nombre y secciones con iconos.
 
 ###### <a name="data-entity"></a>**entidad de datos**
 
-Estructura de información que representa los datos característicos de una entidad.
+Estructura de información que representa la característica de datos de una entidad.
 
-###### <a name="delegate"></a>**delegado**
+###### <a name="delegate"></a>**delegar**
 
-Un delegado es un tipo que representa referencias a métodos con una lista de parámetro y un tipo de devolución concretos.
+Un delegado es un tipo que representa referencias a métodos con una lista de parámetros y un tipo de devolución específicos.
 
 ###### <a name="delivery-note"></a>**nota de entrega**
 
@@ -240,19 +241,19 @@ Documento empresarial que justifica la entrega de productos entre dos partes.
 
 Predicción de la demanda de un producto en el futuro.
 
-###### <a name="demand-forecasting"></a>**previsión de demanda**
+###### <a name="demand-forecasting"></a>**cálculo de previsión de demanda**
 
-Proceso empresarial que estima la demanda futura y crea las previsiones de la demanda en función de los datos de transacción históricos.
+Proceso empresarial que realiza una estimación de la demanda futura y crea previsiones de demanda a partir de los datos de transacciones históricos.
 
-###### <a name="deployable-package"></a>**paquete implementable**
+###### <a name="deployable-package"></a>**paquete comercial implementable**
 
-El vehículo usado para el despliegue en la prueba de aceptación de usuario (UAT) y los entornos de producción.
+El medio usado para implementar la prueba de aceptación del usuario (UAT) y los entornos de producción.
 
 ###### <a name="designer"></a>**diseñador**
 
-Una herramienta de Visual Studio que usa para crear, actualizar y examinar sus elementos modelo.
+Herramienta de Visual Studio que se utiliza para crear, actualizar e inspeccionar los elementos del modelo.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**..\financial-dimensions\dimension-based configuration**
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**configuración de producto basada en dimensiones**
 
 Tecnología de configuración utilizada para crear variantes del producto seleccionando valores para las dimensiones de producto.
 
@@ -272,7 +273,7 @@ Servicio de solicitud para almacenar y gestionar los documentos de una organizac
 
 En el modelo de seguridad, conjunto de privilegios de acceso a solicitudes necesario para que un usuario pueda llevar a cabo sus responsabilidades.
 
-### <a name="e"></a>**ELECTRÓNICO**
+### <a name="e"></a>**E**
 
 ###### <a name="eft-electronic-funds-transfer"></a>**EFT (transferencia electrónica de fondos)**
 
@@ -280,15 +281,15 @@ Sistema de red para transferir fondos de una cuenta bancaria a otra.
 
 ###### <a name="event"></a>**evento**
 
-Un evento permite que una clase o un objeto notifique a otras clases u objetos cuando se produce algo de interés.
+Un evento permite que una clase o un objeto notifiquen a otros objetos o clases cuando ocurra algo de interés.
 
 ###### <a name="epe-every-product-every"></a>**EPE (cada producto cada)**
 
-Concepto de Lean que se utiliza para establecer un ciclo de producción periódico que se repite.
+Concepto de eficiencia que se utiliza para establecer un ciclo de producción que se repite periódicamente.
 
-###### <a name="extension"></a>**extensión **
+###### <a name="extension"></a>**extensión**
 
-Personalización de una aplicación agregando funcionalidad al código existente.
+Personalización de una aplicación mediante la adición de funcionalidad a código existente.
 
 ### <a name="f"></a>**F**
 
@@ -310,7 +311,7 @@ Coste que no varía con los cambios en el rendimiento o la producción en la ent
 
 ###### <a name="fixed-currency"></a>**divisa fija**
 
-Una divisa que tiene un tipo de cambio fijo en relación con otra divisa.
+Divisa que tiene un tipo de cambio fijo con respecto a otra divisa.
 
 ###### <a name="fixed-quantity-kanban"></a>**kanban de cantidad fija**
 
@@ -328,27 +329,27 @@ Relación numérica entre entradas del proceso de producción y resultados del p
 
 Producto de un proceso por lotes controlado por una fórmula.
 
-### <a name="g"></a>**G (Verde)**
+### <a name="g"></a>**G**
 
 ###### <a name="general-budget-reservation"></a>**reserva de presupuesto general**
 
-Un documento que se usa a menudo por las entidades del sector público para apartar o marcar fondos presupuestados de modo que los fondos no estén disponibles para otros propósitos.
+Documento que suelen utilizar las entidades del sector público para reservar o asignar fondos presupuestados, a fin de que no estén disponibles para otros fines.
 
 ###### <a name="grace-period"></a>**período de gracia**
 
 Período de tiempo más allá de una fecha determinada durante el cual una obligación se puede cumplir sin penalización.
 
-###### <a name="gst-goods-and-services-tax"></a>**GT (impuestos de bienes y servicios)**
+###### <a name="gst-goods-and-services-tax"></a>**GST (impuesto de bienes y servicios)**
 
-Impuesto sobre el valor añadido (IVA) recaudado en algunos países/regiones.
+Informe del Impuesto sobre el valor añadido recaudado en algunos países/regiones.
 
 ### <a name="i"></a>**I**
 
-###### <a name="intercompany"></a>**empresa vinculada**
+###### <a name="intercompany"></a>**empresas vinculadas**
 
 Se produce entre o con relación a dos o más entidades jurídicas que forman parte de la misma organización que consolida las cuentas de todas las entidades jurídicas.
 
-###### <a name="invoice-matching"></a>**coincidencia de facturas**
+###### <a name="invoice-matching"></a>**conciliación de facturas**
 
 Práctica de hacer coincidir los precios de la factura de proveedor y las cantidades de producto con los pedidos de compra y las recepciones de producto.
 
@@ -360,7 +361,7 @@ Agrupación de familias de productos que se utiliza para la programación de pre
 
 Referencia al grupo de asignación de artículos o el artículo y sus dimensiones del producto en una regla kanban.
 
-### <a name="k"></a>**mil**
+### <a name="k"></a>**K**
 
 ###### <a name="kanban"></a>**kanban**
 
@@ -388,17 +389,17 @@ Regla en un sistema de lean manufacturing (fabricación ajustada) que realiza di
 
 ### <a name="l"></a>**L**
 
-###### <a name="lean-manufacturing"></a>**producción ajustada**
+###### <a name="lean-manufacturing"></a>**lean manufacturing (producción ajustada)**
 
-Una filosofía en que las operaciones de fabricación promueven flujos de producción y actividades empresariales lean.
+Filosofía según la cual las operaciones de producción promueven flujos de producción y actividades empresariales eficientes.
 
 ###### <a name="lean-schedule-group"></a>**grupo de programación lean**
 
-Una forma de agregar artículos para producción, por ejemplo, en función de un grupo de configuración, grupo de envío o grupo de transporte.
+Forma de agregar artículos para la producción basándose, por ejemplo, en un grupo de configuración, un grupo de envío o un grupo de transporte.
 
 ###### <a name="ledger-account"></a>**cuenta contable**
 
-Clasificador creado a partir de la combinación del valor de la cuenta principal y otros valores de la dimensión financiera que aparecen en un gráfico de cuentas y que se utiliza para clasificar las consecuencias financieras de la actividad económica.
+Clasificador creado a partir de la combinación del valor de la cuenta principal y otros valores de la dimensión financiera que aparecen en un plan de cuentas y que se utiliza para clasificar las consecuencias financieras de la actividad económica.
 
 ###### <a name="license-code"></a>**código de licencia**
 
@@ -412,7 +413,7 @@ Capacidad de una parte de utilizar activos actuales para liquidar pasivos actual
 
 ###### <a name="manufacturing-overhead-based-on-material"></a>**gastos generales de fabricación basados en los materiales**
 
-Los gastos generales de fabricación se expresan mediante fórmulas de cálculo de costes indirectos para los porcentajes de suplementos. El grupo de costes que se asigna a los componentes de materiales proporciona la base para la fórmula de cálculo. Las fórmulas de cálculo se pueden definir para productos individuales o para grupos de artículos asignados a productos, lo que permite obtener una mayor flexibilidad a la hora de calcular los gastos generales de fabricación basados en los materiales.
+Los gastos generales de fabricación se expresan mediante fórmulas de cálculo de costes indirectos para un porcentaje de suplemento. El grupo de costes que se asigna a los componentes de materiales proporciona la base para la fórmula de cálculo. Las fórmulas de cálculo se pueden definir para productos individuales o para grupos de artículos asignados a productos, lo que permite obtener una mayor flexibilidad a la hora de calcular los gastos generales de fabricación basados en los materiales.
 
 ###### <a name="master-scheduling"></a>**programación maestra**
 
@@ -420,11 +421,11 @@ Proceso de generar un horario para conciliar el suministro con la demanda.
 
 ###### <a name="model"></a>**modelo**
 
-Un modelo contiene elementos de código y metadatos de referencia. Se crea y se examina en Visual Studio.
+Un modelo contiene elementos de código y metadatos de referencia. Se crea e inspecciona en Visual Studio.
 
 ###### <a name="model-element"></a>**elemento de modelo**
 
-Un modelo es un grupo de elementos (archivos de origen y metadatos) que constituye una solución de programación distribuible. El modelo es un concepto de tiempo de diseño.
+Un modelo es un grupo de elementos (archivos de código fuente y metadatos) que constituye una solución de software distribuible. El modelo es un concepto de tiempo de diseño.
 
 ### <a name="n"></a>**N**
 
@@ -448,17 +449,17 @@ Productos físicos resultado de una actividad.
 
 ###### <a name="overlayering"></a>**superposición**
 
-Método de personalización del código fuente proporcionando un nuevo código origen que anulará la configuración del código origen predeterminado.
+Método de personalización del código fuente que consiste en proporcionar código fuente nuevo para reemplazar el código fuente predeterminado.
 
 ### <a name="p"></a>**P**
 
 ###### <a name="package"></a>**paquete**
 
-Un paquete es una unidad compilable y desplegable de uno o más modelos.
+Un paquete es una unidad compilable e implementable de uno o varios modelos.
 
 ###### <a name="party"></a>**parte**
 
-Entidad que asume un rol jurídicamente vinculante cuando participa en relaciones contractuales.
+Entidad que asume un rol legalmente vinculante al participar en una relación contractual.
 
 ###### <a name="party"></a>**parte**
 
@@ -482,7 +483,7 @@ Demanda prevista de un producto por una entidad jurídica que asume el rol de pr
 
 ###### <a name="post"></a>**registrar**
 
-Registrar el valor monetario de un evento económico en una cuenta determinada o resumir y reclasificar entradas de cuenta del diario generales y subsidiarias en entradas de cuenta contables generales y subsidiarias.
+Registrar el valor monetario de un evento económico en una cuenta determinada o resumir y reclasificar asientos contables del diario generales y subsidiarios en asientos contables del libro mayor generales y subsidiarios.
 
 ###### <a name="preparer"></a>**preparador**
 
@@ -494,7 +495,7 @@ Uno o más permisos que necesita un usuario para realizar una tarea.
 
 ###### <a name="procurement-catalog"></a>**catálogo de compras**
 
-Listado de ofertas de productos que se agrupan por categoría compra. Un catálogo de compras sirve para solicitar productos para uso interno de una organización.
+Listado de ofertas de productos que se agrupan por categoría de compras. Un catálogo de compras sirve para solicitar productos para uso interno de una organización.
 
 ###### <a name="product-component"></a>**componente del producto**
 
@@ -502,11 +503,11 @@ Parte de un producto.
 
 ###### <a name="product-dimension"></a>**dimensión del producto**
 
-Atributos de tamaño, color o configuración del producto que se utilizan para ..\financial-dimensions\dimension-based configuration.
+Atributos de tamaño, color o configuración del producto que se utilizan para la configuración del producto basada en dimensiones.
 
 ###### <a name="product-family"></a>**familia de productos**
 
-Agrupación única de artículos, servicios o derechos que participa en las mismas actividades de producción o entrega o que se ofrecen a los mismos segmentos de mercado. En Microsoft Dynamics 365 for Operations, la agrupación se representa mediante el uso de una clave de asignación de previsión.
+Agrupación única de artículos, servicios o derechos que participa en las mismas actividades de producción o entrega o que se ofrecen a los mismos segmentos de mercado. En Dynamics 365 for Operations, la agrupación se representa mediante el uso de una clave de asignación de previsión.
 
 ###### <a name="product-master"></a>**producto maestro**
 
@@ -518,7 +519,7 @@ Documento de origen que justifica la recepción de productos pedidos, la recepci
 
 ###### <a name="product-variant"></a>**variante del producto**
 
-Configuración de un productos maestro.
+Configuración de un producto maestro.
 
 ###### <a name="production-flow"></a>**flujo de producción**
 
@@ -532,7 +533,7 @@ Representación de la capacidad de producción proporcionada por un grupo de cel
 
 Documento de origen que justifica los requisitos para producir artículos que satisfagan una demanda.
 
-###### <a name="production-schedule"></a>**programación de producción**
+###### <a name="production-schedule"></a>**previsión de producción**
 
 Programación para producir un artículo y una cantidad de artículos en particular en un tiempo determinado y con recursos humanos y operativos determinados.
 
@@ -554,15 +555,15 @@ Documento de origen que justifica una oferta para comprar una cantidad de produc
 
 ###### <a name="purchase-requisition"></a>**solicitud de compra**
 
-Documento de origen que justifica solicitudes de producto para que se puedan enviar para su revisión y se puedan utilizar para autorizar la compra por parte de una organización de compras.
+Documento de origen que justifica solicitudes de producto de manera que se puedan enviar a un proceso de revisión y se puedan utilizar para autorizar compras de una organización de compras.
 
-### <a name="q"></a>**T**
+### <a name="q"></a>**Q**
 
 ###### <a name="quantity-variance"></a>**desviación de cantidad**
 
 Diferencia entre una cantidad de producto pedido y una cantidad de producto recibido cuando no se espera ninguna otra recepción.
 
-### <a name="r"></a>**R (Rojo)**
+### <a name="r"></a>**R**
 
 ###### <a name="receipt-advice"></a>**aviso de recepción**
 
@@ -574,11 +575,11 @@ Práctica de ajustar dos o más cuentas o extractos para que las cifras concuerd
 
 ###### <a name="reduction-key"></a>**clave de reducción**
 
-Método que usado para aumentar o reducir los requisitos de previsión de planificación maestra, en función de los porcentajes definidos por el usuario que se aplican durante períodos específicos.
+Método que se utiliza para aumentar o disminuir los requisitos de previsión en la planificación maestra a partir de los porcentajes definidos por el usuario que se aplican durante períodos específicos.
 
 ###### <a name="register"></a>**registro**
 
-Registro que se utiliza para registrar las consecuencias operativas, legales y financieras de eventos de flujos de recursos en un sistema contable.
+Registro que se utiliza para registrar las consecuencias operativas, legales y financieras de eventos de flujo de recursos en un sistema contable.
 
 ###### <a name="regulated-product"></a>**producto regulado**
 
@@ -628,7 +629,7 @@ Orden en que se procesan trabajos o se realizan operaciones en unas instalacione
 
 ###### <a name="shared-asset"></a>**activo compartido**
 
-Un activo que se usa por más de una unidad generadora de efectivo (CGU). Un ejemplo es un centro de distribución que se usa para almacenar los artículos antes de que se transporten a diferentes mercados que comparten el mismo centro de distribución.
+Activo que se utiliza en más de una unidad generadora de efectivo (CGU). Un ejemplo es un centro de distribución utilizado para almacenar artículos antes de su transporte a distintos mercados que comparten en el mismo centro de distribución.
 
 ###### <a name="single-use-kanban"></a>**kanban de un solo uso**
 
@@ -644,7 +645,7 @@ Cantidad de producto justificada en una línea de documento de origen que crea u
 
 ###### <a name="statistical-baseline-forecast"></a>**previsión estadística de línea base**
 
-Estimación de la demanda futura que se crea mediante la aplicación de un algoritmo de previsión a los datos de transacción históricos.
+Estimación de la demanda futura que se crea aplicando un algoritmo de previsión a datos de transacciones históricos.
 
 ###### <a name="supermarket"></a>**supermercado**
 
@@ -654,23 +655,23 @@ Ubicación de inventario just-in-time (justo a tiempo) que tiene una capacidad f
 
 Dimensión financiera asignada a una tabla o vista en la base de datos que representa un tipo de entidad y cuyos valores están en el dominio de un solo atributo de dicho tipo de entidad.
 
-### <a name="t"></a>**B**
+### <a name="t"></a>**T**
 
 ###### <a name="takt-time"></a>**ritmo de producción**
 
 Tiempo que se tarda en producir una sola unidad de un producto.
 
-###### <a name="task-guide"></a>**Guía de tareas**
+###### <a name="task-guide"></a>**guía de tareas**
 
-Una experiencia controlada y dirigida por los pasos en el registro de una tarea. Una Guía de tarea ayuda al usuario con la experiencia que se registró. Todos los comportamientos de seguridad, datos y aplicación son iguales al completar una guía de tarea que sin la guía de tarea. La guía de tarea usa la misma instrumentación que el grabador de tareas para saber cuándo un usuario ha completado el paso previsto, de modo que pueda solicitar al usuario que debe realizar el paso siguiente del registro.
+Experiencia controlada y dirigida a través de los pasos de una grabación de tareas. Una Guía de tareas dirige al usuario en la experiencia grabada. Al completar una Guía de tareas todos los comportamientos de seguridad, datos y aplicaciones son idénticos a los que hay cuando no se utiliza la Guía de tareas. La Guía de tareas utiliza la misma instrumentación que el Grabador de tareas para saber cuándo ha completado el usuario el paso previsto, a fin de poder pedir al usuario que realice el siguiente paso de la grabación.
 
 ###### <a name="task-recorder"></a>**Grabador de tareas**
 
-Una herramienta que ya está instalada en Microsoft Dynamics 365 for Operations. Al hacer el registro, registre todos los eventos que el usuario especifica en la interfaz de usuario de Dynamics 365 for Operations que se ejecutan en el servidor, incluidos los valores agregados, los ajustes modificados, los datos eliminados, etc.
+Herramienta preinstalada en Dynamics 365 for Operations. Durante la grabación, graba todos los eventos introducidos por el usuario a través de la interfaz de usuario de Dynamics 365 for Operations que se ejecutan en el servidor (incluidos valores añadidos, opciones de configuración modificadas, datos eliminados, etc.).
 
 ###### <a name="task-recording"></a>**Grabación de tareas**
 
-Un archivo que contiene las acciones y las anotaciones que se capturan cuando se ejecuta el grabador de tareas en Microsoft Dynamics 365 for Operations.
+Archivo que contiene las acciones y anotaciones que se capturan cuando se ejecuta el Grabador de tareas en Microsoft Dynamics 365 for Operations.
 
 ###### <a name="three-way-matching-policy"></a>**directiva de triple conciliación**
 
@@ -724,7 +725,7 @@ Persona que asume el rol de un empleado o un contratista y cobra a cambio de sus
 
 ###### <a name="workspace"></a>**espacio de trabajo**
 
-Una página que proporciona una visión general de una de las actividades que el usuario realiza. La página usa los mosaicos, las listas y los gráficos para mostrar trabajo pendientes y datos relacionados de varias fuentes, y en la página aparecen las tareas frecuentes relacionadas con estos datos. Los mosaicos que aparecen en la sección de resumen del espacio de trabajo también se muestran en la sección relacionada en el panel de información.
+Página que proporciona una visión general de una de las actividades realizadas por el usuario. En la página se usan iconos, listas y gráficos para mostrar el trabajo pendiente y datos relacionados de varios recursos, y se destacan tareas frecuentes relacionadas con estos datos. Los iconos mostrados en la sección de resumen del espacio de trabajo también se muestran en la sección correspondiente del panel de información.
 
 
 

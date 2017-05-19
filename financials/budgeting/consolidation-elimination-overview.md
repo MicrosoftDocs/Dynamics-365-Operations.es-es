@@ -3,7 +3,7 @@ title: "Visión general de consolidación y eliminación"
 description: "En este artículo se proporciona información general sobre el proceso de consolidación y eliminación. Incluye respuestas a algunas preguntas frecuentes."
 author: RobinARH
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ef99caf4570969d2b920cec8b53669ce2094965
-ms.openlocfilehash: 3868605826e3c6f0714736ffa8630d1569e17d6f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7ea83b349e5c4ab187cc06cf4df38ac15ea02a7d
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="consolidation-and-elimination-overview"></a>Visión general de consolidación y eliminación
+
+[!include[banner](../includes/banner.md)]
+
 
 En este artículo se proporciona información general sobre el proceso de consolidación y eliminación. Incluye respuestas a algunas preguntas frecuentes.
 
@@ -86,5 +90,7 @@ La opción **Informes financieros** es la solución. Las jerarquías organizativ
 Puede consolidar los datos con la opción **Exportación de saldos de compañía** para exportar desde una instancia y, a continuación, usar la opción **Consolidar con importación** en la otra instancia.
 
 
-Para obtener más información, consulte [Revalorización de divisa en una empresa de consolidación](\finanicials\general-ledger\currency-revaluation-consolidation-company).
+Para obtener más información, consulte [Revalorización de divisa en una empresa de consolidación](..\general-ledger\currency-revaluation-consolidation-company.md).
+
+
 

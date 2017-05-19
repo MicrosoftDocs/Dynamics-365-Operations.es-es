@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 2225707329c67a30d9234bef5282d49834ea042a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: dad6d4ec3788ae73386d582433a8585602e1290e
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -65,7 +66,7 @@ Se asume que se desechan 0,5 metros de tubo por cada cinco piezas de tubo consum
 
 ### <a name="consumption"></a>Consumo
 
-Normalmente, se selecciona** Consumo** como mecanismo de redondeo cuando la materia prima se debe seleccionar en cantidades completas de una unidad de gestión de material del producto específico. Por ejemplo, se usan dos cuartos de pintura para producir una pieza de un producto terminado, y la pintura se selecciona en botes de 25 cuartos. En este caso, se puede usar el mecanismo de redondeo **Consumo** para redondear el consumo a números enteros de botes de 25 cuartos de galón. Este es el cálculo de la cantidad de pintura requerida si se deben producir 180 piezas del producto terminado:
+Normalmente, se selecciona**Consumo** como mecanismo de redondeo cuando la materia prima se debe seleccionar en cantidades completas de una unidad de gestión de material del producto específico. Por ejemplo, se usan dos cuartos de pintura para producir una pieza de un producto terminado, y la pintura se selecciona en botes de 25 cuartos. En este caso, se puede usar el mecanismo de redondeo **Consumo** para redondear el consumo a números enteros de botes de 25 cuartos de galón. Este es el cálculo de la cantidad de pintura requerida si se deben producir 180 piezas del producto terminado:
 
 1.  Pintura necesaria, sin la parte desechada: 180 × 2 = 360 cuartos de galón
 2.  Número de botes: 360 ÷ 25 = 14,4, que se redondea a 15

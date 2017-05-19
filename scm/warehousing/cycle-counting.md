@@ -3,7 +3,7 @@ title: "Recuento cíclico"
 description: "Este artículo describe cómo puede usar el recuento cíclico con la solución de almacenamiento que está disponible en Gestión de almacenes. Este artículo no se aplica a la solución de almacenamiento que está disponible en Gestión de inventarios."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-18 11 - 46 - 20
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: ffc1523d53732616d77511f39b72efc8f97744eb
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 387d114936567fc471cdcafcb2e93c1704db7ead
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cycle-counting"></a>Recuento cíclico
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo describe cómo puede usar el recuento cíclico con la solución de almacenamiento que está disponible en Gestión de almacenes. Este artículo no se aplica a la solución de almacenamiento que está disponible en Gestión de inventarios.
 
@@ -39,7 +43,6 @@ En la ilustración siguiente se muestra el proceso de recuento cíclico. ![Flujo
 
 ## <a name="cycle-counting-prerequisites"></a>Requisitos previos de recuento cíclico
 La tabla siguiente muestra los requisitos previos que deben cumplirse para poder usar el recuento cíclico.
-
 <table>
 <colgroup>
 <col width="50%" />
@@ -82,7 +85,7 @@ La tabla siguiente muestra los requisitos previos que deben cumplirse para poder
 <li>Agrupación de recuentos cíclicos</li>
 <li>Recuento cíclicos puntual</li>
 </ul>
-Para obtener más información, consulte <a href="configure-mobile-devices-warehouse">Configurar dispositivos móviles del trabajo de almacén</a>.</li>
+</li>
 <li>Configure un menú para el dispositivo móvil.</li>
 <li>Cree una cuenta de usuario de trabajo y asigne un menú de dispositivo móvil al id. de usuario de trabajo.</li>
 </ul></td>
@@ -133,6 +136,9 @@ Se produce una diferencia de recuento cíclico en los siguientes escenarios si l
 -   El valor de recuento cíclico difiere de la cantidad de inventario disponible y no se establecen límites de desviación.
 
 Puede ajustar diferencias en el valor de recuento y aceptar a continuación el valor de recuento en la página **Revisión pendiente del trabajo de recuento cíclico**. Puede comprobar el recuento modificado de la cantidad del artículo en la página **Inventario disponible por ubicación**. El valor de recuento se rechaza si no se puede aprobar la diferencia.
+
+# <a name="see-also"></a>Consulte también
+[Configurar dispositivos móviles para el trabajo de almacén](configure-mobile-devices-warehouse.md)
 
 
 

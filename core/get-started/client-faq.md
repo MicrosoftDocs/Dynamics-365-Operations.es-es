@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
-ms.openlocfilehash: 2c99b2e1f7ddecb61be62832ca1a8d3ac1fd21a8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 94f5874cb24b53476843f1a073dc9c4cfdb36ac9
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -52,7 +53,7 @@ Para facilitar el acceso al teclado, planeamos implementar un método abreviado 
 ## <a name="where-is-the-view-details-functionality-in-dynamics-365-for-operations"></a>¿Dónde se encuentra la funcionalidad Ver detalles en Dynamics 365 for Operations?
 La opción **Ver detalles** solo está disponible de dos formas diferentes:
 
--   Si un control tiene capacidades **Ver detalles **, y si el control tiene un valor, ese valor se muestra como hipervínculo. Puede hacer clic en el hipervínculo para abrir una página que contiene detalles adicionales.
+-   Si un control tiene capacidades **Ver detalles**, y si el control tiene un valor, ese valor se muestra como hipervínculo. Puede hacer clic en el hipervínculo para abrir una página que contiene detalles adicionales.
 -   **Ver detalles** también es una opción en los menús contextuales de Dynamics 365 for Operations. Para obtener más información acerca de cuándo se muestran los menús contextuales de Dynamics 365 for Operations al hacer clic con el botón secundario, consulte la sección anterior.
 
 

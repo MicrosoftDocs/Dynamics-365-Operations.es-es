@@ -17,10 +17,11 @@ ms.search.region: Belgium, France, Germany, Norway, Spain, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 54af22f1f2ec779bf947ae584a3ae09c20e6a364
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 70a6d3ff3c998d59176a700c926dff2ce7222302
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---

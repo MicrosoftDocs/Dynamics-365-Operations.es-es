@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: 1666691ec122e65128b74056817a0c40551f49b5
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c85c90feb7f314db6b47f64402f8b9455ed53d9d
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -67,7 +68,7 @@ Para configurar los días laborables y las horas de trabajo para un calendario, 
 Para usar las capacidades completas de estimación de costes de la WBS, debe configurar los costes y los precios de ventas para trabajadores, categorías de mano de obra, gastos, cuotas y artículos.
 
 -   Para configurar el coste y el precio de ventas de la mano de obra, los gastos y las categorías de cuotas, haga clic en **Gestión de proyectos y contabilidad** &gt; **Configuración** &gt; **Precios**.
--   Para configurar el coste y el precio de ventas de los artículos, use la página **Acuerdos comerciales **para cada artículo de la página de lista **Productos emitidos** de Gestión de información de productos.
+-   Para configurar el coste y el precio de ventas de los artículos, use la página **Acuerdos comerciales**para cada artículo de la página de lista **Productos emitidos** de Gestión de información de productos.
 
 ## <a name="creating-a-wbs"></a>Creación de una WBS
 La creación de una WBS conlleva tres actividades:

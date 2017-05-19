@@ -3,7 +3,7 @@ title: "Configuración de almacén"
 description: "Este artículo explica cómo configurar un almacén. Incluye información acerca de cómo habilitar un diseño de almacén y procesos de almacén."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-10-30 12 - 52 - 43
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,19 +17,23 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 437f2348603db432df6d7589e4043d8145c52a1e
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e312f953d6a29d26b98794ed213d6ec70f6aa4b7
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="warehouse-configuration"></a>Configuración de almacén
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo explica cómo configurar un almacén. Incluye información acerca de cómo habilitar un diseño de almacén y procesos de almacén.
 
-**Nota:** Este artículo se aplica a las características del módulo** Administración de almacenes** (almacenamiento avanzado). No se aplica a las características de almacenes del módulo** Administración del inventario**.
+**Nota:** Este artículo se aplica a las características del módulo**Administración de almacenes** (almacenamiento avanzado). No se aplica a las características de almacenes del módulo**Administración del inventario**.
 
 ## <a name="warehouse-layout"></a>Diseño de almacén
 El sistema de Gestión de almacenes de Microsoft Dynamics 365 for Operations le proporciona maneras flexibles de definir el diseño del almacén para satisfacer las necesidades cambiantes, de manera que pueda lograr una eficacia óptima del almacén.
@@ -66,7 +70,7 @@ Para lograr procesos de salida óptimos, debe evaluar si se deben usar ubicacion
 
 ### <a name="location-setup-wizard"></a>Asistente para la configuración de ubicaciones
 
-Para crear rápidamente las ubicaciones dentro de un almacén, puede usar el Asistente para la **configuración de ubicaciones**. Como parte de este proceso, puede mantener con facilidad el formato de los nombres de ubicaciones.
+Para crear rápidamente las ubicaciones dentro de un almacén, puede usar el **Asistente para la configuración de ubicaciones**. Como parte de este proceso, puede mantener con facilidad el formato de los nombres de ubicaciones.
 
 ## <a name="warehouse-processes"></a>Procesos de almacén
 Como parte de la configuración del almacén, es importante que se habiliten procesos de almacén de acuerdo con requisitos empresariales. Los componentes más importantes que debe configurar son plantillas de oleada, plantillas de trabajo, grupos de trabajo y directivas de ubicación.
@@ -75,7 +79,12 @@ Como parte de la configuración del almacén, es importante que se habiliten pro
 
 Las plantillas de oleada ayudan a habilitar el proceso "Liberar al almacén". En cuanto se liberan las líneas de pedido (directamente desde documentos de origen, mediante procesos de trabajo por lotes o mediante las cargas que ya se han creado), se usa la funcionalidad de la plantilla de oleada. 
 
-Puede crear tres tipos de plantillas de oleada: **Envío**, **Pedido de producción** y **Kanban**. Los parámetros se usan para definir cómo de lejos debería llegar el sistema en el procesamiento del trabajo de salida. Una plantilla de oleada se selecciona según la secuencia de la plantilla de oleada y los criterios que se especifican en la plantilla. Si se muestra una plantilla en la parte superior de la secuencia, se comprueban primero los criterios en esa plantilla. Si se puede cumplir los criterios, se procesa la plantilla de oleada. De lo contrario, se comprueban los criterios de la plantilla siguiente, y así sucesivamente. Por lo tanto, es buena idea colocar la plantilla con los criterios más específico en la parte superior de la lista de secuencias de plantillas de oleada, de modo que se procese primero. Por ejemplo, desea procesar todo el trabajo para un transportista específico hoy y retrasa temporalmente el procesamiento del trabajo para otros transportistas. En este caso, la plantilla de oleada que selecciona el trabajo para ese transportista se debe mostrar antes que otras plantillas en la secuencia. De lo contrario, el trabajo para otros transportistas se podría procesar antes de que se complete el trabajo para ese transportista. 
+Puede crear tres tipos de plantillas de oleada: 
+-   **Envío**
+-   **Pedido de producción**
+-   **Kanban** 
+
+Los parámetros se usan para definir cómo de lejos debería llegar el sistema en el procesamiento del trabajo de salida. Una plantilla de oleada se selecciona según la secuencia de la plantilla de oleada y los criterios que se especifican en la plantilla. Si se muestra una plantilla en la parte superior de la secuencia, se comprueban primero los criterios en esa plantilla. Si se puede cumplir los criterios, se procesa la plantilla de oleada. De lo contrario, se comprueban los criterios de la plantilla siguiente, y así sucesivamente. Por lo tanto, es buena idea colocar la plantilla con los criterios más específico en la parte superior de la lista de secuencias de plantillas de oleada, de modo que se procese primero. Por ejemplo, desea procesar todo el trabajo para un transportista específico hoy y retrasa temporalmente el procesamiento del trabajo para otros transportistas. En este caso, la plantilla de oleada que selecciona el trabajo para ese transportista se debe mostrar antes que otras plantillas en la secuencia. De lo contrario, el trabajo para otros transportistas se podría procesar antes de que se complete el trabajo para ese transportista. 
 
 Debe especificar los métodos de proceso de oleada en cada plantilla de oleada. Los métodos disponibles varían, en función del de plantilla de oleada.
 
@@ -107,6 +116,8 @@ Para facilitar y agilizar la definición de las acciones asociadas con cada lín
 <a name="see-also"></a>Consulte también
 --------
 
-[Configurar ubicaciones en un almacén con WMS (guía de tareas)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
+[Configurar ubicaciones en un almacén con WMS (guía de tareas)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehouse/)
+
+
 
 

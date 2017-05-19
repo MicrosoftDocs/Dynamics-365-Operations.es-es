@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 5660e5c8e3329564fc4262b5ad4f2547347bbb1a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 32b401a6faa381c77845347db6aa5e89db5e38c3
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -35,8 +36,8 @@ Se presenta una nueva directiva de trabajo del almacén en Microsoft Dynamics AX
 
 Esta directiva de trabajo controla si el trabajo del almacén se ha creado para los procesos de almacén en la fabricación. Puede configurar la directiva de trabajo mediante una combinación de **tipos de pedido de trabajo**, la **ubicación del inventario**, y un **producto**. Por ejemplo, se ha informado a la ubicación de salida 001 que el producto L0101 ha finalizado. El producto terminado se consume más adelante en otro pedido de producción en la ubicación de salida 001. En este caso, puede configurar una directiva de trabajo para evitar que el trabajo para productos terminados se deseche por haberse creado cuando se informa a la ubicación de salida 001 que el producto L0101 ha finalizado. La directiva de trabajo es una entidad individual que puede ser descrita mediante la siguiente información:
 
--   **Nombre de la directiva de trabajo **(el identificador único de la directiva de trabajo)
--   **Tipos de pedido de trabajo **y** Método de creación de trabajo**
+-   **Nombre de la directiva de trabajo**(el identificador único de la directiva de trabajo)
+-   **Tipos de pedido de trabajo**y**Método de creación de trabajo**
 -   **Ubicaciones del inventario**
 -   **Productos**
 

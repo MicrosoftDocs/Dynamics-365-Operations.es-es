@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: d64f9228c538a08a2fc938bc6ff4ce11278b6fed
-ms.openlocfilehash: 4b516e3460f58ef1c7f4a76357371eefde1bae49
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f2b29978fd0e0cb5e90937a15bd5be6b3674b06c
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -72,7 +73,7 @@ El campo **Clase de presupuesto** permite establecer las líneas del plan presup
 
 ### <a name="generation-rules"></a>Reglas de generación
 
-Tres campos proporciona funciones adicionales: **Factor**, **Mínimo** y **Regla de redondeo** ****. 
+Tres campos proporciona funciones adicionales: **Factor**, **Mínimo** y **Regla de redondeo**. 
 
 El valor del campo **Factor** se multiplica por el importe de origen para establecer el importe en el plan presupuestario. Luego podrá realizar ajustes al crear líneas de plan presupuestario. Por ejemplo, puede especificar **1,03** para un aumento del 3 por ciento. El factor debe ser un número entero positivo. 
 

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: bf66a1b1c9314b454223274810a21913d54b702d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2b484acdce456de2b45407464267bb3ba083e2ce
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -54,8 +55,8 @@ Puede importar tipos de cambio desde el origen de los proveedores del tipo de ca
 | **Proveedor de tipos de cambio**             | Un proveedor de tipos de cambio.                                                                                                                                                                                                                                                                                                                                                  |
 | **Importar a partir de**                       | Este parámetro administra si importa a partir de la fecha de hoy o durante un intervalo de fechas. Si desea utilizar un intervalo de fecha, escriba o seleccione las fechas inicial y final del intervalo.                                                                                                                                                                                                                |
 | **Crear pares de divisas necesarias**    | Esta casilla administra la creación automática de los pares de divisas, en caso de que no existan los pares de divisas que se han importado. Es posible que esta opción no esté disponible para algunos proveedores.                                                                                                                                                                                               |
-| ****Invalidar tipos de cambio existentes   | Esta casilla administra la actualización del tipo de cambio existente para un par de divisas cuando ya existe el tipo de cambio para una fecha específica. Si no activa esta casilla, el tipo de cambio para las fechas específicas no se importa si ya existe otro tipo de cambio.                                                                                       |
-| ****Evitar la importación en una festividad nacional | Esta casilla administra la importación del tipo de cambio para una fecha que es un día festivo. Por ejemplo, si selecciona esta casilla y usa el Banco Central Europeo como el proveedor del tipo de cambio, el sistema no actualizará el tipo de cambio en un día festivo que esté relacionado con la entidad jurídica actual. Es posible que esta opción no esté disponible para algunos proveedores. |
+| **Invalidar tipos de cambio existentes**   | Esta casilla administra la actualización del tipo de cambio existente para un par de divisas cuando ya existe el tipo de cambio para una fecha específica. Si no activa esta casilla, el tipo de cambio para las fechas específicas no se importa si ya existe otro tipo de cambio.                                                                                       |
+| **Evitar la importación en una festividad nacional** | Esta casilla administra la importación del tipo de cambio para una fecha que es un día festivo. Por ejemplo, si selecciona esta casilla y usa el Banco Central Europeo como el proveedor del tipo de cambio, el sistema no actualizará el tipo de cambio en un día festivo que esté relacionado con la entidad jurídica actual. Es posible que esta opción no esté disponible para algunos proveedores. |
 
 
 

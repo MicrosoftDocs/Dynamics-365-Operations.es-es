@@ -3,7 +3,7 @@ title: "Contenido en Power BI sobre el análisis de la contabilidad de costes"
 description: "Este tema describe lo que se incluye en el contenido de análisis de contabilidad de costes en Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,25 +16,31 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 50e7bd92ee693f59fd013226aee22bd1a54c81e2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: be4165f58b17bed0b0984b760fd8eea09267a251
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cost-accounting-analysis-power-bi-content"></a>Contenido en Power BI sobre el análisis de la contabilidad de costes
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tema describe lo que se incluye en el contenido de análisis de contabilidad de costes en Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 <a name="overview"></a>Visión general
 --------
 
-El contenido de **Análisis de la contabilidad de costes** en Microsoft Power BI está destinado a los controladores de costes responsables de realizar el control de costes de una organización. Incluye medidas clave, como el coste, magnitud, el índice de coste por coste real, coste presupuestario, y coste presupuestario flexible. Usa datos de transacción de la contabilidad de costes de Microsoft Dynamics 365 for Operations y proporciona una visión global de costes para la organización completa en una divisa de notificación. Los directores pueden filtrar los datos por objetos de coste para realizar el control de costes de sus unidades organizativas, incluso aunque la organización tenga varias entidades jurídicas. Dado que el contenido de **Análisis de la contabilidad de costes** en Power BI resalta las desviaciones entre los costes reales y los costes presupuestados, se puede notificar a los directores las tendencias positivas y negativas de sus unidades operativas. Los directores pueden explorar en profundidad las jerarquías de artículos de coste o elementos de coste individuales para conseguir una visión detallada sobre cómo las variaciones de coste se han producido y luego tomar medidas efectivas. El contenido de **Análisis de la contabilidad de costes** de Power BI permite a los contables de coste analizar cómo el coste fluye por los objetos de coste de toda la organización. Para obtener más información acerca de la contabilidad de costes, consulte [la página principal de la contabilidad de costes](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page.md). Si define la seguridad de nivel de acceso en contabilidad de costes y la combina con seguridad de nivel fila en Power BI, puede conceder a todos los propietarios de objetos de coste acceso al contenido de **Análisis de la contabilidad de costes** en Power BI. Después todos los datos de las vistas se filtrarán en función del nivel de acceso que se controla en contabilidad de costes. Para obtener más información acerca de la seguridad de nivel de acceso y seguridad de nivel fila, consulte la [configuración de seguridad del contenido de la contabilidad de costes de Power BI](setup-security-cost-accounting-content-pack.md).
+El contenido de **Análisis de la contabilidad de costes** en Microsoft Power BI está destinado a los controladores de costes responsables de realizar el control de costes de una organización. Incluye medidas clave, como el coste, magnitud, el índice de coste por coste real, coste presupuestario, y coste presupuestario flexible. Usa datos de transacción de la contabilidad de costes de Microsoft Dynamics 365 for Operations y proporciona una visión global de costes para la organización completa en una divisa de notificación. Los directores pueden filtrar los datos por objetos de coste para realizar el control de costes de sus unidades organizativas, incluso aunque la organización tenga varias entidades jurídicas. Dado que el contenido de **Análisis de la contabilidad de costes** en Power BI resalta las desviaciones entre los costes reales y los costes presupuestados, se puede notificar a los directores las tendencias positivas y negativas de sus unidades operativas. Los directores pueden explorar en profundidad las jerarquías de artículos de coste o elementos de coste individuales para conseguir una visión detallada sobre cómo las variaciones de coste se han producido y luego tomar medidas efectivas. El contenido de **Análisis de la contabilidad de costes** de Power BI permite a los contables de coste analizar cómo el coste fluye por los objetos de coste de toda la organización. Para obtener más información acerca de la contabilidad de costes, consulte [la página principal de la contabilidad de costes](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page). Si define la seguridad de nivel de acceso en contabilidad de costes y la combina con seguridad de nivel fila en Power BI, puede conceder a todos los propietarios de objetos de coste acceso al contenido de **Análisis de la contabilidad de costes** en Power BI. Después todos los datos de las vistas se filtrarán en función del nivel de acceso que se controla en contabilidad de costes. Para obtener más información acerca de la seguridad de nivel de acceso y seguridad de nivel fila, consulte la [configuración de seguridad del contenido de la contabilidad de costes de Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
-El contenido de **Análisis de la contabilidad de costes** de Power BI se encuentra en la biblioteca de activos compartidos en Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información sobre cómo descargar el contenido y conectarlo a los datos de Dynamics 365 for Operations, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). **Nota:** KB4011327** ** es un requisito previo para el contenido de **Análisis de la contabilidad de costes** en Power BI.  Tras iniciar sesión en Lifecycle Services, puede tener acceso a KB aquí: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+El contenido de **Análisis de la contabilidad de costes** de Power BI se encuentra en la biblioteca de activos compartidos en Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información sobre cómo descargar el contenido y conectarlo a los datos de Dynamics 365 for Operations, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). 
+
+> NOTA - **KB4011327** es un requisito previo para este contenido de Power BI. Tras iniciar sesión en Lifecycle Services, puede tener acceso a KB aquí: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
 El contenido incluye un conjunto de páginas de informe. Cada página consta de un conjunto de métricas que se visualizan como gráficos, mosaicos y tablas. La tabla siguiente proporciona una visión general de las visualizaciones en el contenido de **Análisis de la contabilidad de costes** en Power BI.
@@ -117,5 +123,7 @@ Estos son algunos vínculos útiles relacionados con las entidades y la creació
 -   [Modelado de datos con Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Adición de iconos de Power BI a espacios de trabajo](configure-power-bi-integration.md)
 -   [Configuración de seguridad del contenido de la contabilidad de costes de Power B](setup-security-cost-accounting-content-pack.md)
+
+
 
 

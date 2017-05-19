@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f82033798dbe603c0f2e2c92f91d28985c12b3b4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 144a1adbff74aef468dd4b2c9f69bf479a5ec671
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ En las empresas que usan Tiempo y asistencia, los trabajadores deben registrar e
 -   Trabajadores tienen que registrar el tiempo y la asistencia en intervalos regulares, por ejemplo, diariamente, semanalmente o quincenalmente.
 -   Supervisores, gerentes y administrativos de nóminas que calculan, aprueban y transfieren registros de trabajadores para su procesamiento.
 
-| **Nota **                                                                                                                                                                                                                                                    |
+| **Nota**                                                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Si ejecuta Tiempo y asistencia junto con Fabricación, todos los registros en proyectos, actividades de proyectos, actividades indirectas, códigos de ausencia y horas extra y tiempo flexible se registrarán y se utilizarán para calcular las nóminas en ambos módulos. |
 
@@ -53,7 +54,7 @@ Tras la configuración, los trabajadores pueden especificar distintos tipos de r
 -   Tiempo y consumo de artículos en trabajos de producción.
 -   Tiempo utilizado en una máquina en la planta, si la máquina se ha definido como recurso.
 
-| **Nota **                                                                                                                                                                                                                      |
+| **Nota**                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Un trabajador puede recibir automáticamente una asignación de registros de tiempo en una máquina concreta de la planta, si el trabajador elige trabajar como ayudante de una máquina cuando inicie el trabajo de producción. |
 
@@ -82,7 +83,7 @@ Del mismo modo que asigna un grupo de cálculo a un trabajador con registro de h
 -   Agregar bonificaciones manuales.
 -   Especificar información adicional sobre el registro de ausencias.
 
-| **Nota **                                                                                                                                                                             |
+| **Nota**                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Si se han calculado horas extra para trabajadores concretos, las horas extra se deben asignar a los trabajos concretos durante el día. Esto es relevante si los costes de trabajo se calculan en base al sueldo del trabajador. |
 
@@ -102,7 +103,7 @@ Tras aprobar los registros, podrá transferirlos a un trabajo de nómina periód
 ## <a name="reversing-transferred-registrations"></a>Reversión de registros transferidos
 La tarea de revertir transacciones se puede realizar hasta que la transferencia de sueldo periódico de la nómina se ejecute. Esto significa que los datos de las nóminas se han transferido a un archivo externo. Una vez invertidos, se extraen todos los registros, y las transacciones registradas en los pedidos de producción o los proyectos se compensan y neutralizan.
 
-| **Nota **                                                 |
+| **Nota**                                                 |
 |----------------------------------------------------------|
 | El archivo externo se pueden importar a un sistema de nóminas. |
 

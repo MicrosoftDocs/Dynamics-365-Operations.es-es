@@ -1,7 +1,7 @@
 ---
 title: "Ver y diseñar informes financieros"
-description: "En este artículo se proporcionan ejercicios que le enseñarán a visualizar y crear informes financieros para Microsoft Dynamics 365 for Operations. El informe financiero consta de una experiencia de visualización en Dynamics 365 for Operations y un diseñador de informes con un solo clic que le permite crear y editar informes financieros."
-author: twheeloc
+description: "En este artículo se proporcionan ejercicios que le enseñarán a visualizar y crear informes financieros para Microsoft Dynamics 365 for Operations."
+author: jcart1106
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3319fa0a919ca5e2737319f5cdc4190cf32d59b6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: 635e9e90c63330b3d8b0cc46f16a36fa44ef915d
+ms.contentlocale: es-es
+ms.lasthandoff: 04/27/2017
 
 
 ---
@@ -165,7 +166,7 @@ En este ejercicio, creará un informe nuevo. El informe es un informe de ingreso
 6.  Haga doble clic en el campo **Filtro de dimensiones**.
 7.  En la ventana **Dimensión**, haga doble clic en la columna **Departamento**.
 8.  En la sección Individual o intervalo del diálogo, haga clic en los **puntos suspensivos** para el campo **De** para que aparezca una lista de departamentos.
-9.  Seleccione el departamento **022**, **Ventas y marketing** y, a continuación, haga clic en** Aceptar**.
+9.  Seleccione el departamento **022**, **Ventas y marketing** y, a continuación, haga clic en**Aceptar**.
 10. Repita los pasos 5 al 8 para los departamentos 23-25.
 11. En la fila **Encabezado 2** para cada columna FD, escriba las siguientes descripciones de departamento:
     -   Columna B – Ventas y marketing
@@ -182,8 +183,8 @@ En este ejercicio, creará un informe nuevo. El informe es un informe de ingreso
 18. **Guarde** sus cambios y **genere**. Una vez que el informe complete la generación y se abra, puede explorar el informe.
 
 ## <a name="additional-resources"></a>Recursos adicionales
-[Informes financieros](\financials\general-ledger\financial-reporting-getting-started.md) 
-[Ver informes financieros](\financials\general-ledger\view-financial-reports.md) 
+[Informes financieros](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
+[Ver informes financieros](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
 [Blog de Dynamics Financial Reporting](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

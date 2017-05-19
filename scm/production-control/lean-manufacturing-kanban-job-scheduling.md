@@ -3,7 +3,7 @@ title: "Programación de trabajo kanban para lean manufacturing"
 description: "Este artículo proporciona información acerca del control visual sobre la programación del trabajo kanban y las distintas maneras de programar trabajos kanban."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 02 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,22 +18,28 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 062cbbc8a4fd3b4dc738f24ee0606a3741736377
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 019974b96985748c82641b73e40a3131d5b27232
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Programación de trabajo kanban para lean manufacturing
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información acerca del control visual sobre la programación del trabajo kanban y las distintas maneras de programar trabajos kanban.  
 
 La página **Programación de trabajo** ofrece control visual acerca de las programaciones de las celdas de trabajo de lean manufacturing. Ofrece una visión general de todos los trabajos kanban y ofrece varias capacidades de filtrado. Desde esta página, puede mover al resto de las páginas relacionadas con la configuración y la ejecución del kanban.
 
 ## <a name="automatic-scheduling-of-kanban-jobs"></a>Programación automática de trabajos kanban
-La programación puede ser activada automáticamente si define el parámetro **Cantidad de planificación automática** en la regla kanban. Si establece **Cantidad de planificación automática** en **1**, cada trabajo kanban se planifica inmediatamente cuando se crea. El resultado es una serie de operaciones tipo "se la queda el primero que las extrae". Si establece **Cantidad de planificación automática** en un valor que sea mayor que 1, se agrupan los trabajos kanban antes de que se planifiquen. Este concepto permite que los tamaños kanban se reduzcan por debajo de los tamaños económicos reales del lote. Por ejemplo, el tamaño económico de lote para un artículo específico (o familia de artículos) es 30. En lugar de crear kanbans que usan la cantidad de producto, 30, puede configurar la regla kanban de modo que tenga una cantidad de producto de 10 y un valor de **Cantidad de planificación automática** de **3**. Aunque la planificación automática programa los trabajos kanban para la celda de trabajo solo cuando existen tres trabajos no planificados, es completamente transparente para el planificador y el supervisor de planta que dos trabajos no planificados pueden aguardar ejecución. El planificador o jefe de planta pude llevar estos dos trabajos a producción planificándolos manualmente o creaando kanbans adicionales.
+La programación puede ser activada automáticamente si define el parámetro **Cantidad de planificación automática** en la regla kanban. Si establece **Cantidad de planificación automática** en **1**, cada trabajo kanban se planifica inmediatamente cuando se crea. El resultado es una serie de operaciones tipo "se la queda el primero que las extrae". Si establece **Cantidad de planificación automática** en un valor que sea mayor que 1, se agrupan los trabajos kanban antes de que se planifiquen. 
+
+Este concepto permite que los tamaños kanban se reduzcan por debajo de los tamaños económicos reales del lote. Por ejemplo, el tamaño económico de lote para un artículo específico (o familia de artículos) es 30. En lugar de crear kanbans que usan la cantidad de producto, 30, puede configurar la regla kanban de modo que tenga una cantidad de producto de 10 y un valor de **Cantidad de planificación automática** de **3**. Aunque la planificación automática programa los trabajos kanban para la celda de trabajo solo cuando existen tres trabajos no planificados, es completamente transparente para el planificador y el supervisor de planta que dos trabajos no planificados pueden aguardar ejecución. El planificador o jefe de planta pude llevar estos dos trabajos a producción planificándolos manualmente o creaando kanbans adicionales.
 
 ## <a name="manual-scheduling"></a>Programación manual
 Para la programación manual, Microsoft Dynamics AX 2012 presentó el panel de programación kanban. La programación manual se puede combinar con la programación automática. El panel de programación kanban le permite planificar y dejar de planificar trabajos, moverlos en secuencia o moverlos de un período a otro. Los trabajos que se basan en una regla kanban en la que el valor **Planificación automática** es mayor que **0** se pueden dejar de planificar manualmente. Sin embargo, estos trabajos se volverán a planificar cuando se produzca el próximo evento automático de planificación (es decir, cuando se crea un nuevo kanban). Las siguientes opciones están disponibles para la programación manual:
@@ -66,5 +72,7 @@ La página de lista de la **Programación de trabajo kanban** contiene un cuadro
 
 <a name="see-also"></a>Consulte también
 --------
+
+
 
 

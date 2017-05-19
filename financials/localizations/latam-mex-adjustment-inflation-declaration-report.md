@@ -18,10 +18,11 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: 1adc7e82a5a0970c51e7e2cffeb177f977e12a7c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c69eb79ca3d43a18cd6bbca2555d782d94875f8f
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -122,7 +123,7 @@ Este informe muestra el cálculo del ajuste de inflación del código de cuenta 
 
 -   El control deslizante **Ajuste de B-10** se encuentra para la cuenta principal.
 -   El tipo de cuenta para la cuenta principal es **Balance** **de situación**, **Activo**, **Pasivo** o **Recursos propios**.
--   El tipo de ajuste de la cuenta principal es **Fecha ** **de la transacción**.
+-   El tipo de ajuste de la cuenta principal es **Fecha** **de la transacción**.
 
 
 

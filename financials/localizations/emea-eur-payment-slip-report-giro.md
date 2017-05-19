@@ -16,10 +16,11 @@ ms.search.region: Belgium, Denmark, Finland, Norway, Switzerland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: c795466753ca1515790b7961b989aac6e7d63c2c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 53b03f70ea10a340599ef73f12a9a1aa67bfcac4
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---

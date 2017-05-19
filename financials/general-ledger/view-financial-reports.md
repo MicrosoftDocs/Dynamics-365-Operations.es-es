@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 5535a7897eb328e97a9c8a4ca7986ed5cf9381af
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 632e43028c24813f00f2f71b478bbfd67c462ee4
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -66,7 +67,7 @@ Tras actualizar un informe financiero, puede publicarlo. Otras personas de la or
 Se puede mostrar un informe financiero en cualquier divisa en cualquier momento. Para mostrar un informe en una divisa distinta, en el Panel de acciones, haga clic en **Divisa** y seleccione una divisa. El informe se traduce en esa divisa y se muestran los resultados. Los símbolos o los códigos de divisa que se incluyen como parte del diseño del informe se actualizan para reflejar la nueva divisa. Las divisas que aparecen en la lista son las divisas de notificación que se configuran en Microsoft Dynamics AX.
 
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Mostrar una vista resumida del informe financiero
-Un informe financiero puede contener líneas de detalle y líneas de resumen. Las líneas de detalle son las líneas que contienen cuentas principales o dimensiones. Las líneas de resumen son descripción, total y líneas de cálculo. Para mostrar solo las líneas de resumen de un informe, haga clic en **Mostrar ** y luego en **Solo líneas de resumen**. El informe se contrae y solo muestra las líneas de resumen. Para ver las líneas de detalle junto con las líneas de resumen, haga clic en **Mostrar** y luego haga clic en **Solo líneas de resumen** de nuevo.
+Un informe financiero puede contener líneas de detalle y líneas de resumen. Las líneas de detalle son las líneas que contienen cuentas principales o dimensiones. Las líneas de resumen son descripción, total y líneas de cálculo. Para mostrar solo las líneas de resumen de un informe, haga clic en **Mostrar** y luego en **Solo líneas de resumen**. El informe se contrae y solo muestra las líneas de resumen. Para ver las líneas de detalle junto con las líneas de resumen, haga clic en **Mostrar** y luego haga clic en **Solo líneas de resumen** de nuevo.
 
 ## <a name="open-a-financial-report-from-a-previous-month"></a>Abrir un informe financiero a partir de un mes anterior
 Puede ver informes para el mes actual o meses anteriores sin volver a regenerar el informe. Para abrir el informe para un mes anterior, haga clic en **Mostrar** y después haga clic en a**Informes anteriores**. Aparece una lista de los meses anteriores para los que se ha generado el informe. Expanda el mes para el que desea ver el informe, seleccione la fecha y haga clic en **Aceptar**. Aparece el informe del mes anterior. Para volver al informe del mes actual, haga clic en **Cancelar**.

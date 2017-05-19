@@ -1,6 +1,6 @@
 ---
-title: Definir y mantener clientes de canal, incluidos registros y estaciones de hardware
-description: "Este wiki trata cómo conectar periféricos a su Retail POS."
+title: Definir y mantener clientes de canal, registradoras y estaciones de hardware
+description: "Este tema trata de cómo conectar periféricos a su Retail POS."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
@@ -17,17 +17,21 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: dee5745670ad86000795f2913f99f49c0f123a00
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: db8b059309ecf4da9728394fc3acb091d60baf4d
+ms.contentlocale: es-es
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
-# <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>Definir y mantener clientes de canal, incluidos registros y estaciones de hardware
+# <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>Definir y mantener clientes de canal, registradoras y estaciones de hardware
 
-Este wiki trata cómo conectar periféricos a su Retail POS.
+[!include[banner](includes/banner.md)]
+
+
+Este tema trata de cómo conectar periféricos a su Retail POS.
 
 **Nota:** Para obtener instrucciones específicas de instalación, consulte [Instalación y configuración de la estación de hardware para Retail](retail-hardware-station-configuration-installation.md) y [Instalación y descarga de autoservicio de Retail Modern POS, y activación de dispositivo de Modern POS y Cloud POS](retail-modern-pos-device-activation.md).
 
@@ -65,11 +69,14 @@ Navegación: haga clic en **Comercio** &gt; **Configuración de canal** &gt; **C
 ## <a name="scenarios"></a>Situaciones
 ### <a name="mpos-with-connected-peripheral-devices"></a>MPOS con dispositivos periféricos conectados
 
-[![Punto de venta fijo y tradicional](./media/traditional-300x279.png)](./media/traditional.png) Para conectar periféricos de MPOS a PDV en un escenario de PDV fijo tradicional, navegue primero hasta el propio registro y asígnele un perfil de hardware. Encontrará registros de PDV en **Retail y Commerce** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Registros**. Una vez que haya asignado el perfil de hardware, sincronice los cambios en la base de datos de canal mediante la programación de distribución de "Registros". Puede encontrar las programaciones de distribución en **Retail y Commerce** &gt; **TI de venta minorista** &gt; **Programación de distribución**. A continuación, configure una estación de hardware "local" en el canal. Haga clic en **Venta minorista y comercio** &gt; **Canales** &gt; **Tiendas** &gt; **Todas las tiendas minoristas** y seleccione una tienda. A continuación, en la ficha desplegable **Estaciones de hardware**, haga clic en **Agregar** para agregar una estación de hardware. Escriba una descripción, escriba **localhost** como el nombre del host y, a continuación, sincronice los cambios realizados con el canal mediante la programación de distribución "Configuración del canal". Puede encontrar las programaciones de distribución en **Retail y Commerce** &gt; **TI de venta minorista** &gt; **Programación de distribución**. Por último, en MPOS, utilice la operación **Seleccionar estación de hardware** para seleccionar la estación de hardware **localhost**. Establezca la estación de hardware en **Activa**. El perfil de hardware que se utiliza en este escenario debe provenir del propio registro de PDV. No se requiere un perfil de estación de hardware para este escenario. **Nota:** Algunos cambios de perfil de hardware, como los cambios a las cajas registradoras, requieren que se abra un turno nuevo después de que los cambios se hayan sincronizado en el canal. **Nota:** PDV en la nube debe utilizar la estación de hardware independiente para comunicarse con periféricos comerciales.
+[![Punto de venta fijo y tradicional](./media/traditional-300x279.png)](./media/traditional.png) 
+
+Para conectar periféricos de MPOS a PDV en un escenario de PDV fijo tradicional, navegue primero hasta el propio registro y asígnele un perfil de hardware. Encontrará registros de PDV en **Retail y Commerce** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Registros**. Una vez que haya asignado el perfil de hardware, sincronice los cambios en la base de datos de canal mediante la programación de distribución de "Registros". Puede encontrar las programaciones de distribución en **Retail y Commerce** &gt; **TI de venta minorista** &gt; **Programación de distribución**. A continuación, configure una estación de hardware "local" en el canal. Haga clic en **Venta minorista y comercio** &gt; **Canales** &gt; **Tiendas** &gt; **Todas las tiendas minoristas** y seleccione una tienda. A continuación, en la ficha desplegable **Estaciones de hardware**, haga clic en **Agregar** para agregar una estación de hardware. Escriba una descripción, escriba **localhost** como el nombre del host y, a continuación, sincronice los cambios realizados con el canal mediante la programación de distribución "Configuración del canal". Puede encontrar las programaciones de distribución en **Retail y Commerce** &gt; **TI de venta minorista** &gt; **Programación de distribución**. Por último, en MPOS, utilice la operación **Seleccionar estación de hardware** para seleccionar la estación de hardware **localhost**. Establezca la estación de hardware en **Activa**. El perfil de hardware que se utiliza en este escenario debe provenir del propio registro de PDV. No se requiere un perfil de estación de hardware para este escenario. **Nota:** Algunos cambios de perfil de hardware, como los cambios a las cajas registradoras, requieren que se abra un turno nuevo después de que los cambios se hayan sincronizado en el canal. **Nota:** PDV en la nube debe utilizar la estación de hardware independiente para comunicarse con periféricos comerciales.
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS o PDV en la nube con una estación de hardware independiente
+[![Periféricos compartidos](./media/shared-300x254.png)](./media/shared.png)
 
-\[caption id="attachment\_340041" align="alignleft" width="300"\][![Periféricos compartidos](./media/shared-300x254.png)](./media/shared.png) Periféricos compartidos\[/caption\] En este escenario, se comparte una estación de hardware independiente entre los clientes de MPOS y PDV en la nube. Este escenario requiere la creación de un perfil de estación de hardware para especificar el paquete de descarga, el puerto y el perfil de hardware que la estación de hardware utiliza. Puede encontrar el perfil de estación de hardware en **Venta minorista y comercio** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Perfiles del PDV** &gt; **Perfiles de la estación de hardware**. Una vez creado el perfil de la estación de hardware, navegue hasta el canal comercial específico (**Retail y Commerce** &gt; **Canales** &gt; **Tiendas** &gt; **Todas las tiendas minoristas**) y agregue una nueva estación de hardware. Asigne esta nueva estación de hardware al perfil de la estación de hardware que se creó anteriormente. A continuación, proporcione una descripción que ayude al cajero a identificar la estación de hardware. En el campo **Nombre de host**, escriba la dirección URL del equipo host con el siguiente formato: **https://&lt;NombreDeEquipo:Puerto&gt;/EstaciónHardware**. (Reemplace **&lt;NombredeEquipo:Puerto&gt;** por el nombre del equipo real de la estación de hardware y el puerto que se especifica en el perfil de la estación de hardware.) Para una estación independiente del hardware, también deberá especificar el identificador del terminal (EFT) de transferencia electrónica de fondos. Este valor identifica el terminal EFT que está conectado a la estación de hardware cuando el conector de pago se comunica con el proveedor de pagos. A continuación, desde el equipo de la estación de hardware real, desplácese al canal y seleccione la estación de hardware. A continuación, haga clic en **Descargar**e instale la estación de hardware. A continuación, desde MPOS o PDV en la nube, utilice la operación **Seleccionar estación de hardware** para seleccionar la estación de hardware que se instaló anteriormente. Seleccione **Emparejar** para establecer una relación segura entre el PDV y la estación de hardware. Este paso se debe completar una vez para cada combinación de PDV y una estación de hardware. Una vez se haya emparejado la estación de hardware, se lleva a cabo la misma operación para activar la estación de hardware mientras se utiliza. En este escenario, debe asignarse el perfil de hardware al perfil de la estación de hardware en lugar del propio registro. Si por alguna razón una estación de hardware no tiene un perfil de hardware asignado directamente, se utilizará el perfil de hardware asignado al registro.
+En este escenario, se comparte una estación de hardware independiente entre los clientes de MPOS y PDV en la nube. Este escenario requiere la creación de un perfil de estación de hardware para especificar el paquete de descarga, el puerto y el perfil de hardware que la estación de hardware utiliza. Puede encontrar el perfil de estación de hardware en **Venta minorista y comercio** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Perfiles del PDV** &gt; **Perfiles de la estación de hardware**. Una vez creado el perfil de la estación de hardware, navegue hasta el canal comercial específico (**Retail y Commerce** &gt; **Canales** &gt; **Tiendas** &gt; **Todas las tiendas minoristas**) y agregue una nueva estación de hardware. Asigne esta nueva estación de hardware al perfil de la estación de hardware que se creó anteriormente. A continuación, proporcione una descripción que ayude al cajero a identificar la estación de hardware. En el campo **Nombre de host**, escriba la dirección URL del equipo host con el siguiente formato: **https://&lt;NombreDeEquipo:Puerto&gt;/EstaciónHardware**. (Reemplace **&lt;NombredeEquipo:Puerto&gt;** por el nombre del equipo real de la estación de hardware y el puerto que se especifica en el perfil de la estación de hardware.) Para una estación independiente del hardware, también deberá especificar el identificador del terminal (EFT) de transferencia electrónica de fondos. Este valor identifica el terminal EFT que está conectado a la estación de hardware cuando el conector de pago se comunica con el proveedor de pagos. A continuación, desde el equipo de la estación de hardware real, desplácese al canal y seleccione la estación de hardware. A continuación, haga clic en **Descargar**e instale la estación de hardware. A continuación, desde MPOS o PDV en la nube, utilice la operación **Seleccionar estación de hardware** para seleccionar la estación de hardware que se instaló anteriormente. Seleccione **Emparejar** para establecer una relación segura entre el PDV y la estación de hardware. Este paso se debe completar una vez para cada combinación de PDV y una estación de hardware. Una vez se haya emparejado la estación de hardware, se lleva a cabo la misma operación para activar la estación de hardware mientras se utiliza. En este escenario, debe asignarse el perfil de hardware al perfil de la estación de hardware en lugar del propio registro. Si por alguna razón una estación de hardware no tiene un perfil de hardware asignado directamente, se utilizará el perfil de hardware asignado al registro.
 
 ## <a name="client-maintenance"></a>Mantenimiento del cliente
 ### <a name="registers"></a>Cajas registradoras
@@ -152,5 +159,7 @@ La información adicional relacionada con la activación incluye el trabajador q
 ### <a name="client-data-synchronization"></a>Sincronización de datos del cliente
 
 Todos los cambios a un cliente de PDV, excepto los cambios en el estado de activación del dispositivo, se deben sincronizar para que la base de datos de canales tenga efecto. Para sincronizar los cambios con la base de datos de canales, navegue hasta **Retail y Commerce** &gt; **TI de venta minorista** &gt; **Programación de distribución** y ejecute la programación de distribución requerida. Para los cambios de clientes, debe ejecutar las programaciones de distribución "Registros" y "Configuración del canal".
+
+
 
 

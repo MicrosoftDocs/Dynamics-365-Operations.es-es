@@ -1,9 +1,9 @@
 ---
-title: "Asignar diferentes miembros de dimensión de elemento de coste a un conjunto común de miembros de dimensión"
+title: "Asignar miembros de dimensión de elemento de coste a un conjunto común de miembros de dimensión"
 description: "Asignando diferentes miembros de la dimensión del elemento de coste a un conjunto común de miembros de la dimensión del elemento de coste, los datos se combinan en un formato común para los análisis."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-11-01 13 - 45 - 07
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: global
 ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: a1e9817b6ee596ad516531d7597a2a39e115749c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 24794f371e1914f8466cd9a7407fd263e94b00aa
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Asignar diferentes miembros de dimensión de elemento de coste a un conjunto común de miembros de dimensión
+# <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Asignar miembros de dimensión de elemento de coste a un conjunto común de miembros de dimensión
+
+[!include[banner](../includes/banner.md)]
+
 
 Asignando diferentes miembros de la dimensión del elemento de coste a un conjunto común de miembros de la dimensión del elemento de coste, los datos se combinan en un formato común para los análisis.
 
@@ -48,5 +52,7 @@ Los distintos planes contables que use se pueden configurar para utilizar distin
 
 ## <a name="update-mappings-at-any-time"></a>Actualizar las asignaciones en cualquier momento
 Puede actualizar las definiciones de asignación para una dimensión de elemnto de coste en cualquier momento. Dado que las asignaciones no son fechas efectivas, los cambios se aplican la próxima vez que procesa transacciones de coste o ejecuta cálculos de coste.
+
+
 
 

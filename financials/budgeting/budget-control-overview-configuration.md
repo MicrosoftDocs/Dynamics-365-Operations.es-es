@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 04e0c066511c1fedf33784944441326201fc2df8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4caef8eb4d11ad5d2ba1ce0e23d869c0b26b5466
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -99,7 +100,7 @@ A continuación, en la pestaña **Asignar modelos presupuestarios**, asigne mode
 A continuación, en la página **Definir reglas de control presupuestario**, debe crear reglas específicas basadas en dimensiones financieras habilitadas con control presupuestario. Por ejemplo, si el enfoque se basa en el gasto o el intervalo de gastos para un departamento, puede usar la configuración de esta pestaña para definir y evaluar esos gastos. Puede definir distintos umbrales para cada regla de control presupuestario. 
 
 > [!Important]
-> El control presupuestario se habilitará para cualquier cuenta principal del tipo **Pérdidas y ganancias**, **Gasto**, **Ingresos, Balance de situación, Recursos propios** o **Activo**. Si esta pestaña contiene una regla con criterios vacíos, el control presupuestario se habilitará para **todas **las combinaciones de dimensiones financieras que incluyen las cuentas principales de esos tipos. Por lo tanto, asegúrese de que crea reglas de control presupuestario que definan solo los intervalos de combinaciones de dimensiones financieras donde es importante que el control presupuestario esté activado.  
+> El control presupuestario se habilitará para cualquier cuenta principal del tipo **Pérdidas y ganancias**, **Gasto**, **Ingresos, Balance de situación, Recursos propios** o **Activo**. Si esta pestaña contiene una regla con criterios vacíos, el control presupuestario se habilitará para **todas**las combinaciones de dimensiones financieras que incluyen las cuentas principales de esos tipos. Por lo tanto, asegúrese de que crea reglas de control presupuestario que definan solo los intervalos de combinaciones de dimensiones financieras donde es importante que el control presupuestario esté activado.  
 
 ### <a name="select-main-accounts"></a>Seleccionar cuentas principales
 
@@ -124,7 +125,7 @@ Además, tenga en cuenta que las transacciones, incluidos los asientos de regist
 ## <a name="using-budget-control"></a>Uso de control presupuestario
 Una vez que se activa el control presupuestario, los usuarios recibirán mensajes de error y advertencia del control presupuestario en los documentos y los diarios configurados para el control presupuestario. Recuerde que puede configurar el control presupuestario para poder advertir a los usuarios cuando superan los fondos presupuestarios, pero pueden continuar confirmando o registrando la transacción. Los usuarios pueden ver los detalles de las comprobaciones presupuestarias con error en la página **Errores y advertencias del control presupuestario**.   
 
-En esta página, los usuarios pueden explorar la página **Estadísticas de control presupuestario por periodo** para ver los detalles de disponibilidad y las reservas para una combinación de dimensión de control de presupuesto seleccionada. Los usuarios también pueden explorar la página **Estadísticas de control presupuestario **para ver la disponibilidad de presupuesto para todas las combinaciones de dimensiones financieras que se usan en el control presupuestario. 
+En esta página, los usuarios pueden explorar la página **Estadísticas de control presupuestario por periodo** para ver los detalles de disponibilidad y las reservas para una combinación de dimensión de control de presupuesto seleccionada. Los usuarios también pueden explorar la página **Estadísticas de control presupuestario**para ver la disponibilidad de presupuesto para todas las combinaciones de dimensiones financieras que se usan en el control presupuestario. 
 
 Si se activa el control presupuestario para los pedidos de compra, el director de presupuestos puede usar el espacio de trabajo **Presupuestos y previsiones contables** para revisar la cola de todos los pedidos de compra que tienen errores y advertencias de comprobación presupuestaria. Si el director de presupuestos tiene permisos de presupuesto excedido configurados, puede confirmar los pedidos de compra directamente en el espacio de trabajo.    
 

@@ -3,7 +3,7 @@ title: Valores de objeto de inventario
 description: "Este artículo proporciona información sobre cómo se calculan los valores de un objeto de inventario."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-07 09 - 09 - 05
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,19 +19,31 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 7a0a2af2094e3e5be757d3dd82255769677b96ea
-ms.openlocfilehash: 8898d5d91ffb4f73ea68f1251e1a99440e81bcd4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d177903e3c79226e90a1f2eb3d55e3c670446a44
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="inventory-object-values"></a>Valores de objeto de inventario
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artículo proporciona información sobre cómo se calculan los valores de un objeto de inventario. 
 
-Una nueva funcionalidad que se denomina **cantidad física** le permite ver los valores de un objeto de inventario específico. Un objeto de coste representa el nivel de entidad donde se realiza la contabilidad de inventario. Para obtener más información acerca de los objetos de coste, consulte [Objetos de coste](cost-object.md). Para ver los valores de un objeto de inventario específico, haga clic en **Cantidad física** en la página **Objeto de coste**. El valor de un objeto de inventario se calcula de la siguiente manera: Objeto de inventario. Valor = Objeto de coste.Coste unitario promedio × Objeto de inventario.Cantidad. El siguiente ejemplo muestra la manera en que se calculan los valores de un objeto de inventario y un objeto de coste. Dos eventos de recepción de producto se registran en el artículo A:
+Una nueva funcionalidad que se denomina **cantidad física**le permite ver los valores de un objeto de inventario específico. 
+
+Un objeto de coste representa el nivel de entidad donde se realiza la contabilidad de inventario. Para obtener más información acerca de los objetos de coste, consulte [Objetos de coste](cost-object.md). 
+
+Para ver los valores de un objeto de inventario específico, haga clic en **Cantidad física** en la página **Objeto de coste**. A continuación se ve cómo se calcula el valor de un objeto de inventario: 
+
+Valor de objeto de inventario. Valor = Coste objeto.Coste unitario promedio × Objeto inventario.Cantidad 
+
+El siguiente ejemplo muestra cómo se calculan los valores de un objeto de inventario y un objeto de coste. Dos eventos de recepción de producto se registran en el artículo A:
 
 -   Recepción de producto 1: Cantidad = 100 uds, Importe = 1.000,00 $, Sitio = 1, Almacén =11, N.º de lote = B1
 -   Recepción de producto 2: Cantidad = 50 uds, Importe = 800,00 $, Sitio = 1, Almacén =11, N.º de lote = B2
@@ -135,5 +147,7 @@ La tabla siguiente muestra el resultado del cálculo de un objeto de inventario.
 [Entradas de costes](cost-entries.md)
 
 [Novedades y cambios en la arquitectura de Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+
+
 
 

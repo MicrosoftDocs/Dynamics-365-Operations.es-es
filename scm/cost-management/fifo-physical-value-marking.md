@@ -3,7 +3,7 @@ title: "FIFO con valor físico y marcado"
 description: "FIFO (primero en entrar, primero en salir) es un modelo de inventario en que las primeras recepciones adquiridas se emiten primero. Las emisiones actualizadas financieramente del inventario se liquidan contra las primeras recepciones actualizadas financieramente en el inventario, según la fecha financiera de la transacción de inventario."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 18 - 57 - 00
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Retail
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8e3d189fc4dbc5c747a3473d3a221c739c323050
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b0be852bde33e8dfc82ceb42dd98be10537f318d
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO con valor físico y marcado
+
+[!include[banner](../includes/banner.md)]
+
 
 FIFO (primero en entrar, primero en salir) es un modelo de inventario en que las primeras recepciones adquiridas se emiten primero. Las emisiones actualizadas financieramente del inventario se liquidan contra las primeras recepciones actualizadas financieramente en el inventario, según la fecha financiera de la transacción de inventario. 
 
@@ -50,7 +54,9 @@ En este ejemplo, el grupo de modelos de artículo no está marcado para incluir 
 -   5b. Emisión del inventario financiero de una cantidad de 1 unidad con un precio de coste de 20,00 dólares USD por unidad (promedio móvil de transacciones actualizadas financieramente).
 -   6. Se efectúa el cierre de inventario. Según el método FIFO, la primera emisión actualizada financieramente se liquidará contra la primera recepción actualizada financieramente. Se lleva a cabo un ajuste de 10,00 dólares USD en la transacción de emisión.
 
-El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente. Los ejemplos siguientes muestran los efectos del modelo de inventario FIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. ![FIFO sin Incluir valor físico](./media/fifowithoutincludephysicalvalue.gif) **Descripción del diagrama**
+El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente. Los ejemplos siguientes muestran los efectos del modelo de inventario FIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. ![FIFO sin Incluir valor físico en coste](./media/fifowithoutincludephysicalvalue.gif) 
+
+**Clave del diagrama**
 
 -   Las transacciones de inventario se representan por medio de flechas verticales.
 -   Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
@@ -78,7 +84,9 @@ Si se ha seleccionado la casilla **Incluir valor físico** para un artículo en 
 -   6a. Emisión del inventario físico de una cantidad de 1 unidad con un precio de coste de 21,25 dólares USD por unidad.
 -   7. Se efectúa el cierre de inventario. Según el método FIFO, la primera transacción de emisión financiera se ajustará o liquidará contra la primera recepción actualizada (financiera o física).
 
-La transacción 5b se liquidará contra la transacción de recepción 1b. Se producirá un ajuste de 11,25 USD a esta transacción de emisión. El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente, es decir, 27,50 dólares USD. La ilustración siguiente muestra los efectos del modelo de inventario FIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. ![FIFO con Incluir valor físico](./media/fifowithincludephysicalvalue.gif) **Descripción del diagrama**
+La transacción 5b se liquidará contra la transacción de recepción 1b. Se producirá un ajuste de 11,25 USD a esta transacción de emisión. El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente, es decir, 27,50 dólares USD. La ilustración siguiente muestra los efectos del modelo de inventario FIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. ![FIFO con Incluir valor físico en coste](./media/fifowithincludephysicalvalue.gif) 
+
+**Clave del diagrama**
 
 -   Las transacciones de inventario se representan por medio de flechas verticales.
 -   Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
@@ -106,7 +114,9 @@ La marcación es un proceso que permite vincular, o marcar, una transacción de 
 -   6a. Emisión del inventario físico de una cantidad de 1 unidad con un precio de coste de 21,25 dólares USD por unidad.
 -   7. Se efectúa el cierre de inventario. Debido a que la transacción FIFO que se ha actualizado financieramente incluye una marca con una recepción existente, estas transacciones se liquidan entre sí y no se realiza ningún ajuste.
 
-El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente, es decir, 27,50 dólares USD. La ilustración siguiente muestra los efectos del modelo de inventario FIFO en esta serie de transacciones al emplear marcado entre emisiones y recepciones. ![FIFO con Marcado](./media/fifowithmarking.gif) **Descripción del diagrama**
+El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente, es decir, 27,50 dólares USD. La ilustración siguiente muestra los efectos del modelo de inventario FIFO en esta serie de transacciones al emplear marcado entre emisiones y recepciones. ![FIFO con marcado](./media/fifowithmarking.gif) 
+
+**Clave del diagrama**
 
 -   Las transacciones de inventario se representan por medio de flechas verticales.
 -   Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
@@ -118,6 +128,8 @@ El nuevo precio de coste promedio móvil refleja la media de las transacciones a
 -   Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican el orden de los registros de transacciones de inventario en la línea de tiempo.
 -   Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta *Cierre de inventario*.
 -   Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de rayas que van en sentido diagonal desde las recepciones a las emisiones.
+
+
 
 
 

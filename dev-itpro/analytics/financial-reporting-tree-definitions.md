@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 288605570462c2e7659a894731c12933410d7636
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7e6a3c25dd97d242e28bff319c75a64718c39f55
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -128,7 +129,7 @@ Puede cambiar la estructura de organización de un organigrama moviendo las unid
 
 ### <a name="add-text-about-a-reporting-unit"></a> Agregar texto sobre una unidad de notificación
 
-Una entrada de texto adicional es una cadena de texto estática de hasta 255 caracteres, que agrega información en la definición del organigrama. Por ejemplo, el texto adicional puede ser una descripción breve de la compañía. Puede crear hasta diez entradas de texto adicionales para cada unidad de notificación en una definición del organigrama. El texto adicional aparece en el informe para la unidad organizacional a la que se asigna el texto. Puede agregar entradas de texto de la columna ** Descripción** de la definición de filas y de la pestaña **Encabezados y pies de página** en la definición del informe.
+Una entrada de texto adicional es una cadena de texto estática de hasta 255 caracteres, que agrega información en la definición del organigrama. Por ejemplo, el texto adicional puede ser una descripción breve de la compañía. Puede crear hasta diez entradas de texto adicionales para cada unidad de notificación en una definición del organigrama. El texto adicional aparece en el informe para la unidad organizacional a la que se asigna el texto. Puede agregar entradas de texto de la columna **Descripción** de la definición de filas y de la pestaña **Encabezados y pies de página** en la definición del informe.
 
 1.  En el diseñador de informes, abra la definición del organigrama para modificarla.
 2.  Haga doble clic en la celda de **Texto adicional** para la fila de la unidad organizacional.

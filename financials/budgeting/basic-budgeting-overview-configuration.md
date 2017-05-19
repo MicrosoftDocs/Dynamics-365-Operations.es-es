@@ -16,10 +16,11 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a639e509cf6a3d2f1b850f27481d7b95546522b8
-ms.openlocfilehash: b62e14f7c91692ae97bb332b38b0deeb328cc1bd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0e3484ee731423798e686b9a70f4f09b5c3c45b4
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -76,7 +77,7 @@ El administrador de presupuestos puede revisar el estado actual de un presupuest
 > [!NOTE] 
 > El campo **Director de departamento** en la página **Unidades de organización** determina qué directores admiten combinaciones de dimensiones financieras específicas. Haga clic en **Ver más** en la parte inferior de la ficha para abrir la página de consulta **Presupuesto frente a gastos reales** para obtener más información sobre importes presupuestarios con importes reales. 
 
-La página de consulta **Presupuesto frente a gastos reales** le permite explorar los detalles presupuestarios con los importes reales. Seleccione una línea en la página de consulta, y haga clic en **Saldos del período** para ver el presupuesto y los importes reales en los períodos fiscales. La página **Asientos contables presupuestarios** ofrece detalles del importe presupuestario en asientos de registro presupuestario. La página **Entradas del diario general **abre las transacciones contables que se incluyen en el importe calculado **Gastos reales**. 
+La página de consulta **Presupuesto frente a gastos reales** le permite explorar los detalles presupuestarios con los importes reales. Seleccione una línea en la página de consulta, y haga clic en **Saldos del período** para ver el presupuesto y los importes reales en los períodos fiscales. La página **Asientos contables presupuestarios** ofrece detalles del importe presupuestario en asientos de registro presupuestario. La página **Entradas del diario general**abre las transacciones contables que se incluyen en el importe calculado **Gastos reales**. 
 
 Una empresa que está utilizando la funcionalidad de planificación presupuestaria puede crear y usar *previsiones presupuestarias *en el espacio de trabajo **Presupuestos contables y previsiones**.
 

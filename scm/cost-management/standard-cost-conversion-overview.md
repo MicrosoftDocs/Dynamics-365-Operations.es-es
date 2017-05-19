@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8b13d734c22203618183b8855f99da8e51114f76
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5c21260315a08ecb31ae180d2d905a8606de2e88
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -61,13 +62,13 @@ La nueva versión de gestión de costes está dedicada al registro de conversió
 La información de coste de artículo dentro de la versión de gestión de costes dedicada solo se puede mantener desde la página **Conversiones de costes estándar**. No puede usar las páginas **Configuración de la versión de gestión de costes** o **Mantenimiento de la versión de gestión de costes** para calcular los costes de la versión de gestión de costes durante la conversión. Sin embargo, puede usar estas páginas para mantener la versión de gestión de costes dedicada después de haber completado el proceso de conversión.
 
 ## <a name="3-identify-the-items-to-convert-to-standard-cost"></a>3. Identifique los artículos que se convertirán al coste estándar
-Use la página** Conversiones de costes estándar** para identificar los artículos individuales que se deben convertir al coste estándar. Puede agregar varios artículos mediante la página **Agregar artículos a la conversión de coste estándar**. En general, debe incluir todos los artículos fabricados en un único registro de conversión para ayudar a garantizar que los costes se calculen correctamente.
+Use la página**Conversiones de costes estándar** para identificar los artículos individuales que se deben convertir al coste estándar. Puede agregar varios artículos mediante la página **Agregar artículos a la conversión de coste estándar**. En general, debe incluir todos los artículos fabricados en un único registro de conversión para ayudar a garantizar que los costes se calculen correctamente.
 
 ## <a name="4-enter-or-calculate-the-pending-standard-cost-for-each-item-that-is-being-converted"></a>4. Especifique o calcule el coste estándar pendiente para cada artículo que se esté convirtiendo
 Use la página **Precio de artículo** para especificar costes estándares pendientes dentro de la versión de gestión de costes dedicada para artículos adquiridos y artículos de transferencia. Los registros de coste son específicos del sitio y se deben introducir los costes pendientes de un artículo para cada sitio. Utilice la página **Precio de artículo** para calcular los costes estándar pendientes para artículos fabricados. Los costes pendientes de un artículo fabricado se deben calcular para cada sitio de fabricación, a menos que el sitio represente un sitio de transferencia. En este caso, los costes pendientes deben especificarse manualmente. Algunos artículos pueden tener dimensiones de producto de color, tamaño o configuración. En la página **Conversiones de costes estándar**, la casilla **Usar precio de coste por variante** muestra el coste estándar para cada combinación de dimensiones de producto. Si esta casilla está desactivada, solo debe especificar un coste pendiente para el artículo.
 
 ## <a name="5-check-and-resolve-any-issues-for-the-items-that-are-being-converted"></a>5. Compruebe si hay algún problema en los artículos que se están convirtiendo y, en su caso, resuélvalos.
-Use el informe** Comprobaciones de conversión de coste estándar** para identificar problemas para los artículos que se están convirtiendo. Si un artículo no tiene ningún problema, su estado dentro del registro de conversión cambia a **Comprobado**. Si un artículo tiene problemas, debe solucionarlos y volver a ejecutar el informe hasta que su estado cambie a **Comprobado**. Si no puede solucionar los problemas de un artículo, puede eliminar el artículo del registro de conversión y convertirlo más adelante.
+Use el informe**Comprobaciones de conversión de coste estándar** para identificar problemas para los artículos que se están convirtiendo. Si un artículo no tiene ningún problema, su estado dentro del registro de conversión cambia a **Comprobado**. Si un artículo tiene problemas, debe solucionarlos y volver a ejecutar el informe hasta que su estado cambie a **Comprobado**. Si no puede solucionar los problemas de un artículo, puede eliminar el artículo del registro de conversión y convertirlo más adelante.
 
 ## <a name="6-change-the-status-of-the-conversion-record-to-ready"></a>6. Cambie el estado del registro de conversión a Preparado
 Cuando el estado del registro de conversión se cambia a **Preparado**, el sistema realiza una comprobación final antes de ejecutar una conversión de coste estándar. El estado solo cambia a **Preparado** si se han cumplido las siguientes condiciones:

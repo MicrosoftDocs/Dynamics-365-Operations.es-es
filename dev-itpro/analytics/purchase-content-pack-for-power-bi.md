@@ -3,7 +3,7 @@ title: "Contenido de Power BI sobre análisis de gastos de compra"
 description: "Este tema describe lo que se incluye en el paquete de contenido de análisis de gastos de compra en Microsoft Power BI. Explica cómo tener acceso a los informes que se incluyen en el paquete de contenido, y proporciona información acerca del modelo de datos y las entidades que se usan para generar el paquete del contenido."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-12-30 09 - 40 - 51
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 8cb928cbf1316e63a8c7de833587168cd36a455c
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d392b88942f4b7d7365b000df1cd69809060b910
+ms.openlocfilehash: e39b1677038037cd91cfad8d104d0130bc20fb9b
+ms.contentlocale: es-es
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="purchase-spend-analysis-power-bi-content"></a>Contenido de Power BI sobre análisis de gastos de compra
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tema describe lo que se incluye en el paquete de contenido de análisis de gastos de compra en Microsoft Power BI. Explica cómo tener acceso a los informes que se incluyen en el paquete de contenido, y proporciona información acerca del modelo de datos y las entidades que se usan para generar el paquete del contenido.
 
@@ -38,6 +42,7 @@ El paquete de contenido de análisis de gastos de compra para Microsoft Power BI
 
 ## <a name="accessing-the-content-pack"></a>Acceso al paquete de contenido
 El paquete de contenido del análisis de gastos de compra está publicado como un activo de la implementación en Microsoft Dynamics Lifecycle Services (LCS) y se puede acceder a él desde Microsoft Dynamics 365 for Operations. Para obtener más información acerca de cómo obtener acceso a los informes de Power BI y abrirlos, consulte [Contenido de Power BI en LCS de Microsoft y sus socios](power-bi-content-microsoft-partners.md)
+Nota: KB 4011327 es un requisito previo para el contenido de Power BI. Tras iniciar sesión en Lifecycle Services, puede tener acceso a KB aquí: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="metrics-that-are-included-in-the-content-pack"></a>Métricas que se incluyen en el paquete contenido
 El paquete de contenido de análisis de los gastos de compra incluye un informe compuesto por un conjunto de medidas. Estas métricas se visualizan como gráficos, mosaicos y tablas. La tabla siguiente proporciona información general de las visualizaciones del paquete de contenido.
@@ -129,7 +134,7 @@ El paquete de contenido de análisis de los gastos de compra incluye un informe 
 \* Compras este año y el año anterior, y crecimiento por categoría de compras
 
 ## <a name="data-model-and-entities"></a>Modelo de datos y entidades
-Los datos de Dynamics 365 for Operations se usan para el informe del paquete de contenido de análisis de gastos de compra. Estos datos se representan como medidas globales que se realizan en el almacén de la entidad, que es una base de datos de Microsoft SQL que se optimiza para análisis. Para obtener más información sobre el almacén de entidades, consulte la publicación de blog sobre [integración de Power BI con el almacén de entidades en Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Las medidas globales de este paquete de contenido son el subconjunto de las medidas globales que estaban disponibles en el cubo de compra en Microsoft Dynamics AX 2012 y Microsoft Dynamics 365 for Operations 2012 R3. Para realizar las medidas globales del cubo en el almacén de entidades debe hacer que sean desplegables. Para obtener más información, consulte el procedimiento relativo a cómo realizar mediciones globales en el almacén de entidades en el blog sobre [integración de Power BI con el almacén de entidades en Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Las siguientes medidas agregadas clave están directamente disponibles en la entidad de líneas de factura y se usan como base del paquete de contenido.
+Los datos de Dynamics 365 for Operations se usan para el informe del paquete de contenido de análisis de gastos de compra. Estos datos se representan como medidas globales que se realizan en el almacén de la entidad, que es una base de datos de Microsoft SQL que se optimiza para análisis. Para obtener más información sobre el almacén de entidades, consulte la publicación de blog sobre [integración de Power BI con el almacén de entidades en Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Las medidas agregadas en este paquete de contenido son el subconjunto de las medidas agregadas que estaban disponibles en el cubo de compra en Microsoft Dynamics AX 2012 y Microsoft Dynamics AX 2012 R3. Para realizar las medidas globales del cubo en el almacén de entidades debe hacer que sean desplegables. Para obtener más información, consulte el procedimiento relativo a cómo realizar mediciones globales en el almacén de entidades en el blog sobre [integración de Power BI con el almacén de entidades en Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Las siguientes medidas agregadas clave están directamente disponibles en la entidad de líneas de factura y se usan como base del paquete de contenido.
 
 | Entidad        | Medidas agregadas clave | Origen de datos para Dynamics 365 for Operations | Campo              | Descripción                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
@@ -162,6 +167,8 @@ Estos son algunos vínculos útiles relacionados con las entidades y la creació
 -   [Creación de paquetes de contenido organizativo](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Modelado de datos con Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Adición de iconos de Power BI a espacios de trabajo](configure-power-bi-integration.md)
+
+
 
 
 

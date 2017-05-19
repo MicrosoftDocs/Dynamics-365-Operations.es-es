@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 451273a8ee98f7033795182e754f76aca3788f47
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 6379f63a367dab51fa3ed6465ed8422a44ef7a7a
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Una factura se considerará sobrepagada cuando el importe del pago sea superior 
 | 105,00        | 10,50                   | 94,50                                               | 95,00                             |
 
 ## <a name="cash-discount-administration--specific"></a>Administración del descuento por pronto pago = Específico
-Si se selecciona **Específico** en el campo **Administración del descuento por pronto pago** de la página **Cuentas para transacciones automáticas**, se obtiene el descuento por pronto pago completo. El importe del sobrepago se registra en una cuenta contable de diferencia de descuento por pronto pago o permanece como saldo en la cuenta del cliente. El funcionamiento dependerá de si el importe del sobrepago se encuentra entre 0,00 y el importe especificado en el campo** Sobrepago o pago insuficiente máximo**, o si el importe del sobrepago es superior al importe de **Sobrepago o pago insuficiente máximo**.
+Si se selecciona **Específico** en el campo **Administración del descuento por pronto pago** de la página **Cuentas para transacciones automáticas**, se obtiene el descuento por pronto pago completo. El importe del sobrepago se registra en una cuenta contable de diferencia de descuento por pronto pago o permanece como saldo en la cuenta del cliente. El funcionamiento dependerá de si el importe del sobrepago se encuentra entre 0,00 y el importe especificado en el campo**Sobrepago o pago insuficiente máximo**, o si el importe del sobrepago es superior al importe de **Sobrepago o pago insuficiente máximo**.
 
 ### <a name="scenario-1"></a>Escenario 1
 
@@ -101,7 +102,7 @@ El importe del sobrepago de 0,50 se mantendrá como saldo de apertura en el pago
 
 | Cuenta                                                                                          | Importe de débito | Importe de crédito |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Descuento por pronto pago (el campo **Cuenta principal para descuentos de cliente** en la página** Descuentos por pronto pago**) | 10,50        |               |
+| Descuento por pronto pago (el campo **Cuenta principal para descuentos de cliente** en la página**Descuentos por pronto pago**) | 10,50        |               |
 | Clientes                                                                              |              | 10,50         |
 
 ## <a name="cash-discount-administration--unspecific"></a>Administración del descuento por pronto pago = No específico

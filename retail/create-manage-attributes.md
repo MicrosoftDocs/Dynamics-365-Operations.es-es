@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
@@ -18,15 +18,19 @@ ms.search.industry: Retail
 ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 26c628e10aaa5f47bc87d7510ca8f41ab3630204
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: a5c45bb0b9ed10c989a3222a751df3f454b14a0b
+ms.contentlocale: es-es
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="create-and-manage-attributes"></a>Permite crear y gestionar atributos
+
+[!include[banner](includes/banner.md)]
+
 
 Este artículo describe atributos en Microsoft Dynamics 365 for Operations. Los atributos le permiten describir un producto y sus características a través de campos definidos por el usuario.
 
@@ -34,110 +38,28 @@ Los atributos le permiten describir un producto y sus características a través
 
 #### <a name="examples"></a>Ejemplo
 
-Categoría
+| Categoría   | Atributo                | Valores permitidos          | Valor predeterminado |
+|------------|--------------------------|-----------------------------|---------------|
+| Televisión y vídeo | Marca                    | Cualquier valor de Marca válido       | Ninguna          |
+| Televisión         | Tamaño de pantalla              | 20" – 80"                     | Ninguna          |
+| Televisión         | Resolución vertical      | 480i, 720p, 1080i o 1080p | 1080p         |
+| Televisión         | Intervalo de actualización de la pantalla      | 60hz120hz o 240hz       | 60hz          |
+| Televisión         | Entradas HDMI              | 0 – 10                        | 3             |
+| Televisión         | Entradas DVI               | 0 – 10                        | 1             |
+| Televisión         | Entradas compuestas         | 0 – 10                        | 2             |
+| Televisión         | Entradas del componente         | 0 – 10                        | 1             |
+| LCD        | Preparada para 3D                 | Sí o No                   | Sí           |
+| LCD        | Habilitada para 3D               | Sí o No                   | No            |
+| Plasma     | Temporalidad de operación desde      | 32–110 grados              | 32            |
+| Plasma     | Temporalidad de operación hasta        | 32–110 grados              | 100           |
+| Proyección | Garantía de tubo de proyección | 612 o 18 meses         | 12            |
+| Proyección | #  de tubos de proyección    | 1 – 5                         | 3             |
 
-Atributo
-
-Valores permitidos
-
-Valor predeterminado
-
-Televisión y vídeo
-
-Marca
-
-Cualquier valor de **Marca** válido
-
-Ninguna
-
-Televisión
-
-Tamaño de pantalla
-
-**20"**–**80"**
-
-Ninguna
-
-Resolución vertical
-
-**480i**, **720p**, **1080i** o **1080p**
-
-**1080p**
-
-Intervalo de actualización de la pantalla
-
-**60hz****120hz** o **240hz**
-
-**60hz**
-
-Entradas HDMI
-
-**0**–**10**
-
-**3**
-
-Entradas DVI
-
-**0**–**10**
-
-**1**
-
-Entradas compuestas
-
-**0**–**10**
-
-**2**
-
-Entradas del componente
-
-**0**–**10**
-
-**1**
-
-LCD
-
-Preparada para 3D
-
-**Sí** o **No**
-
-**Sí**
-
-Habilitada para 3D
-
-**Sí** o **No**
-
-**No**
-
-Plasma
-
-Temporalidad de operación desde
-
-**32**–**110** grados
-
-**32**
-
-Temporalidad de operación hasta
-
-**32**–**110** grados
-
-**100**
-
-Proyección
-
-Garantía de tubo de proyección
-
-**6****12** o **18** meses
-
-**12**
-
-\# de tubos de proyección
-
-**1**–**5**
-
-**3**
 
 ## <a name="attribute-type"></a>Tipo de atributo
-  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) Los atributos se basan en tipos de atributo. Los tipos de atributo identifican el tipo de datos que se pueden introducir para un atributo específico. Actualmente, Microsoft Dynamics 365 for Operations admite los tipos de atributo siguientes:
+  [![copia-de-atributos-fijos](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
+  
+Los atributos se basan en tipos de atributo. Los tipos de atributo identifican el tipo de datos que se pueden introducir para un atributo específico. Actualmente, Microsoft Dynamics 365 for Operations admite los tipos de atributo siguientes:
 
 -   **Moneda:** este tipo de atributo admite valores de divisa. Puede estar limitado (es decir, puede admitir un intervalo de valores) o se puede dejar abierto.
 -   **DateTime:** este tipo de atributo admite valores de fecha y hora. Puede estar limitado (es decir, puede admitir un intervalo de valores) o se puede dejar abierto.
@@ -174,5 +96,7 @@ Garantía de tubo de proyección
 ### <a name="at-the-retail-channel-level"></a>En el nivel de canal comercial
 
   [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) Los valores predeterminados de atributos se pueden anular para los productos individuales en los catálogos específicos que se dirigen a los canales de venta minorista específicos.
+
+
 
 

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
-ms.openlocfilehash: 8965c193839002776b3c61036b23b54625c974a4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 734bf8a5cd71d218942e1a57fbb6af8fef4dc998
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,10 +40,10 @@ Todas las personalizaciones, de cualquier tipo, que un usuario haga en Dynamics 
 ## <a name="systemwide-options-for-the-current-user"></a>Opciones de sistema válidas para el usuario actual
 En la barra de exploración se encontrará una imagen de engranaje que es el botón de menú **Configuración**. Al abrir el menú **Configuración** se mostrarán varias opciones. La selección de **Opciones** abrirá la página **Opciones** del usuario. Allí encontrará cuatro pestañas de opción: **Visual****Preferencias****Cuenta** y **Flujo de trabajo**.
 
--   **Visual: **para elegir un tema de color y el tamaño predeterminado de los elementos en las páginas.
+-   **Visual:** para elegir un tema de color y el tamaño predeterminado de los elementos en las páginas.
 -   **Preferencias:** aquí puede elegir los valores predeterminados para cada vez que abra Dynamics 365 for Operations, incluida la empresa, página de inicio y modo de vista o edición predeterminados (que determina si una página está bloqueada para su visualización o se abre para editar cada vez que la abre). También encontrará idioma, zona horaria y las opciones de formato de fecha, hora y número. Por último, esta página contiene varias preferencias distintas que varían según el lanzamiento.
--   **Cuenta: **para proporcionar el id. de usuario y otras opciones relacionadas con la cuenta.
--   **Flujo de trabajo: **aquí puede elegir opciones relacionadas con el flujo de trabajo.
+-   **Cuenta:**para proporcionar el id. de usuario y otras opciones relacionadas con la cuenta.
+-   **Flujo de trabajo:**aquí puede elegir opciones relacionadas con el flujo de trabajo.
 
 ## <a name="implicit-personalizations"></a>Personalizaciones implícitas
 Las personalizaciones implícitas son las personalizaciones que realiza simplemente interactuando con determinados controles que recuerden su estado visible actual. 
@@ -106,7 +107,7 @@ Algunos espacios de trabajo contienen los mosaicos de la cuenta (mosaicos con n�
 El panel de información suele ser la primera página que verá al abrir Dynamics 365 for Operations. Puede personalizar el panel de información para cambiar sus mosaicos de navegación del espacio de trabajo, para mostrar solo los mosaicos que desea ver, para cambiar de nombre a los mosaicos o para organizar los mosaicos en el orden en que se preferiría verlos. Para personalizar el panel de información, seleccione cualquier mosaico y haga clic con el botón secundario para abrir un menú contextual. En el menú de contexto, seleccione **Personalizar**. Si el mosaico seleccionado es uno que desea ocultar, renombrar o saltarse, puede realizar ese cambio directamente en la ventana de la propiedad que ha aparecido. Si desea organizar los mosaicos, seleccione **Personalizar este formulario** en la ventana de propiedad para abrir la barra de herramientas de la personalización. Puede usar la herramienta de movimientos para organizar los mosaicos.
 
 ## <a name="administration-of-personalization"></a>Administración de la personalización
-Es posible personalizar una página y compartirla con otros usuarios simplemente exportando la página personalizada y solicitando que los otros usuarios naveguen a la página personalizada e importen el archivo de personalización que ha creado. Si un usuario tiene privilegios de administración, también puede gestionar las personalizaciones para otros usuarios en la página **Configuración de la personalización**. Desplácese a la página b. En la página **Personalización**, encontrará dos fichas, una etiquetada **Sistema** y una etiquetada** Usuarios**. 
+Es posible personalizar una página y compartirla con otros usuarios simplemente exportando la página personalizada y solicitando que los otros usuarios naveguen a la página personalizada e importen el archivo de personalización que ha creado. Si un usuario tiene privilegios de administración, también puede gestionar las personalizaciones para otros usuarios en la página **Configuración de la personalización**. Desplácese a la página b. En la página **Personalización**, encontrará dos fichas, una etiquetada **Sistema** y una etiquetada**Usuarios**. 
 
 **Sistema:** Aquí es donde puede desactivar temporalmente o “apagar” todas las personalizaciones en el sistema. Esto no elimina personalizaciones, pero restablece todos los formularios a su estado predeterminado. Puede volver a habilitar más tarde la personalización para tener todas las personalizaciones aplicadas de nuevo a todos los formularios de los usuarios. También puede eliminar todas las personalizaciones de todos los usuarios. Tenga en cuenta que si elimina personalizaciones, no hay manera de volver a habilitar automáticamente personalizaciones del sistema. Asegúrese de haber exportado las personalizaciones que puede querer importar más tarde antes de realizar este paso. 
 

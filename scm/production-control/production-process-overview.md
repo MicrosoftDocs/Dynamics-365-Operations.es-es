@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 6a33117f454b5b0d109c8a5c460fa218eab5c0f7
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 434b603fd0b2322372c7e2e7584267173fb90b94
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -36,7 +37,7 @@ Este artículo ofrece una visión general de los procesos de producción. Descri
 
 La producción de productos, un proceso también conocido como el ciclo de vida de producción, sigue los pasos específicos necesarios para completar la fabricación de un artículo. El ciclo de vida comienza con la creación del pedido de producción, el pedido de lote o kanban. Finaliza con un artículo manufacturado terminado listo para el cliente o para otra fase de producción. Cada paso del ciclo de vida requiere diferentes tipos de información para terminar el proceso. Cuando termina cada paso, el pedido de producción, el pedido de lote o el kanban refleja esto cambiando el estado de producción. Distintos tipos de productos requieren diferentes procesos de fabricación.  
 
-El módulo **Control de producción** está vinculado a otros módulos, como **Gestión de información de productos**, **Gestión de inventarios**, **Contabilidad general**, **Administración de almacenes**, **Contabilidad de proyectos** y** Administración de la organización**. Esta integración permite el flujo de información necesario para completar la fabricación de un artículo terminado.  
+El módulo **Control de producción** está vinculado a otros módulos, como **Gestión de información de productos**, **Gestión de inventarios**, **Contabilidad general**, **Administración de almacenes**, **Contabilidad de proyectos** y**Administración de la organización**. Esta integración permite el flujo de información necesario para completar la fabricación de un artículo terminado.  
 
 El proceso de producción se ve influenciado normalmente por los métodos de validación de inventario y contabilidad de costes que se eligen para un proceso de producción específico. Dynamics 365 for Operations admite ambos métodos, el de coste real (primero en entrar, primero en salir \[FIFO\]; último en entrar, primero en salir \[LIFO\]; promedio móvil; y media ponderada periódica) y el de coste estándar. La Lean manufacturing se implementa en función del principio de la contabilización previa de los costes.  
 

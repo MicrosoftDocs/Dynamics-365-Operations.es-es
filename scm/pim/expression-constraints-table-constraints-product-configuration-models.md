@@ -3,7 +3,7 @@ title: "Restricciones de expresión y tabla en modelos de configuración de prod
 description: "En este tema se describe el uso de las restricciones de expresión y las restricciones de tabla. Las restricciones controlan los valores de atributo que puede seleccionar al configurar los productos para un pedido de ventas, un presupuesto de ventas, un pedido de compra o un pedido de producción. Puede usar las restricciones de expresión o las restricciones de tablas, en función de cómo prefiere crear las restricciones."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 08 - 06
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 1fe8a0d90a3f707fa7b0fea0310c819ce5040a42
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1a08f537d87178973b3ce90bcb60b891bef1141e
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Restricciones de expresión y tabla en modelos de configuración de productos
+
+[!include[banner](../includes/banner.md)]
+
 
 En este tema se describe el uso de las restricciones de expresión y las restricciones de tabla. Las restricciones controlan los valores de atributo que puede seleccionar al configurar los productos para un pedido de ventas, un presupuesto de ventas, un pedido de compra o un pedido de producción. Puede usar las restricciones de expresión o las restricciones de tablas, en función de cómo prefiere crear las restricciones. 
 
@@ -40,7 +44,7 @@ Las restricciones de tabla muestran las combinaciones de valores permitidas para
 
 ### <a name="example-of-a-table-constraint"></a>Ejemplo de una restricción de tablas
 
-Este ejemplo muestra cómo puede limitar la configuración de un altavoz según acabados de caja y frontales específicos. La primera tabla muestra los acabados de caja y frontales que suelen estar disponibles para la configuración. Hay valores definidos para los tipos de atributos **Acabado de la caja** y **Rejilla delantera**.
+Este ejemplo muestra cómo puede limitar la configuración de un altavoz según acabados de caja y frontales específicos. La primera tabla muestra los acabados de caja y frontales que suelen estar disponibles para la configuración. Hay valores definidos para los tipos de atributos **Acabado de la caja**y **Rejilla delantera**.
 
 | Tipo de atributo | Valores                      |
 |----------------|-----------------------------|
@@ -248,5 +252,7 @@ No se pueden usar palabras clave reservadas como nombres del solucionador de atr
 [Crear una restricción de expresión (guía de tareas)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
 [Agregar un cálculo a un modelo de configuración de producto (guía de tareas)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+
+
 
 

@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3b16ef53f9fb57a6663db0be1f7e0a57471db2fb
-ms.openlocfilehash: a749f2bee137eedda49d7c5b5df3ea8829a50860
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b82d8233eb427acd341255202c30b4857a44a497
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -47,7 +48,7 @@ Para un crédito documentario de importación, la entidad jurídica es el compra
 
 La carta de crédito incluye una descripción de las mercancías, los documentos requeridos, la fecha de envío y la fecha de vencimiento después de la que el pago no se realizará. El banco emisor cobra un margen por el crédito documentario. 
 
-Un crédito documentario puede ser **revocable** o **irrevocable**. La naturaleza de una carta de crédito puede ser **transferible**, ** no transferible** o **rotativa**. Normalmente, un crédito documentario es un contrato irrevocable y confirmado que garantiza el pago a un beneficiario específico tras el envío de la documentación completa y precisa del envío.
+Un crédito documentario puede ser **revocable** o **irrevocable**. La naturaleza de una carta de crédito puede ser **transferible**, **no transferible** o **rotativa**. Normalmente, un crédito documentario es un contrato irrevocable y confirmado que garantiza el pago a un beneficiario específico tras el envío de la documentación completa y precisa del envío.
 
 ## <a name="import-collections"></a>Remesas documentarias
 Una remesa documentaria es un acuerdo entre el banco y el exportador (vendedor), en el que el banco acepta entregar la documentación de envío al importador internacional (comprador). El banco deberá entregar la documentación de envío al recibir el pago de las mercancías enviadas en efectivo o al recibir un borrador firmado del pago. 

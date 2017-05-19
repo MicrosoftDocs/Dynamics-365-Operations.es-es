@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: fabaacbc7187b38a1745c2139a9eb7760f2be987
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: a0a105ade7e47d7c554d62ee112ed03437bb7521
+ms.contentlocale: es-es
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -54,10 +55,10 @@ Utilice el diseñador de formularios para crear gráficamente el diseño del doc
 5.  Después de que la instalación esté completada, escriba el nombre de usuario y la contraseña de Dynamics 365 for Operations y haga clic en **Iniciar sesión** para iniciar el diseñador.
 6.  Después de que se lleva a cabo una validación de sus credenciales y se inicia el diseñador, puede empezar a diseñar el formato de recibo o a modificar un formato existente.
 7.  Para crear los elementos del formulario, seleccione la sección **Encabezado**, **Líneas** o **Pie de página** y, a continuación, arrastre un elemento de la sección hasta el espacio de trabajo. La mayoría de los elementos contienen variables, que se rellenan automáticamente con datos de la base de datos. Otros elementos, por ejemplo **Texto**, permiten imprimir texto personalizado en el recibo. **Nota:** puede especificar el número de líneas que abarcará cada sección si ajusta el número de la esquina inferior derecha de esa sección. Para facilitar la modificación de una sección, aumente su altura. Para ello, arrastre la barra de cambio de tamaño situada en la parte inferior de la sección. La altura de la sección en el espacio de trabajo no afectará al número de líneas en el recibo en sí.
-8.  Después de arrastrar el elemento al espacio de trabajo, defina las propiedades de la parte en el panel **Información de objeto **en la parte inferior de la página. Especifique uno o más de los parámetros siguientes:
+8.  Después de arrastrar el elemento al espacio de trabajo, defina las propiedades de la parte en el panel **Información de objeto**en la parte inferior de la página. Especifique uno o más de los parámetros siguientes:
     -   **Alinear**: establezca la alineación del campo en **Izquierda** o **Derecha**.
     -   **Carácter de relleno**: permite especificar el carácter de espacio en blanco. De manera predeterminada se utiliza un espacio vacío, pero puede introducir cualquier carácter.
-    -   **Prefijo**: escriba el valor que aparece al principio del campo. Este valor solo se aplica a la sección **Líneas **del diseño.
+    -   **Prefijo**: escriba el valor que aparece al principio del campo. Este valor solo se aplica a la sección **Líneas**del diseño.
     -   **Caracteres**: permite especificar el número máximo de caracteres que el campo puede contener si el elemento contiene una variable. Si el texto del campo es más largo que el número de caracteres que especifique, quedará truncado para que quepa en el campo.
     -   **Variable**: esta casilla se activa automáticamente si el elemento contiene una variable y no se puede personalizar.
     -   **Tipo de fuente**: establezca el estilo de fuente en **Normal** o **Negrita**. Las letras en negrita utilizan el doble de espacio que las letras normales. Por lo tanto, es posible que se trunquen algunos caracteres.
@@ -67,7 +68,7 @@ Utilice el diseñador de formularios para crear gráficamente el diseño del doc
 Los perfiles de recibo se asignan directamente a impresoras mediante el perfil de hardware.
 
 1.  Abra el perfil de hardware haciendo clic en **Venta minorista y comercio** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Perfiles del PDV** &gt; **Perfiles de hardware**.
-2.  Seleccione la impresora y, a continuación, en el campo **Perfil de recibo **, asigne el perfil de recibo para usarlo en el registro.
+2.  Seleccione la impresora y, a continuación, en el campo **Perfil de recibo**, asigne el perfil de recibo para usarlo en el registro.
 
 **Nota:** si se usan dos impresoras, una impresora se puede usar para imprimir recibos térmicos estándar de 40 columnas. La segunda impresora se usa normalmente para imprimir los tipos de recibo a toda página que requieren más información. Estos tipos de recibo incluyen los recibos y facturas de pedidos del cliente.
 

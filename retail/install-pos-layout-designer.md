@@ -18,25 +18,29 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: b33cbf67c00b6baea4393e82d19300085781af29
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e60994f5c4fa38fc2be17b4021e2def904c87b7f
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a>Instale el diseñador de estructura del PDV (punto de venta) al por menor
 
+[!include[banner](includes/banner.md)]
+
+
 Puede usar el diseñador de un solo clic para diseñar diferentes estructuras de PDV moderno de venta al por menor (MPOS) y PDV en la Nube, tanto en modo horizontal como vertical, para tiendas, registros, cajeros y directores.
 
 La interfaz de diseño gráfico del PDV moderno (MPOS) o PDV en la Nube (Cloud POS) se controla mediante el diseño de caja registradora. Un diseño controla la posición de los diversos objetos. Entre los ejemplos se incluyen el diseño total, de cuadrícula de artículos, de cliente, de pago y el de varios botones de menú. Los diseños incluyen también el aspecto general de la interfaz de ventas que se muestra a los trabajadores.
 
-## <a name="install-the-oneclick-designer"></a>Instalar el diseñador de un solo clic
+## <a name="install-the-one-click-designer"></a>Instalar el diseñador de un solo clic
 1.  En Microsoft Dynamics 365 for Operations, utilice el menú de la parte superior izquierda para ir a **Retail** **y Commerce** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **PDV** &gt; **Diseños de pantalla**.
 2.  Seleccione cualquier diseño que tenga el tipo de aplicación de **PDV moderno para Windows** o **PDV en la Nube**, y haga clic en **Diseñador de estructura**.
 3.  En la barra de notificación que aparece en la parte inferior de la ventana de Internet Explorer, haga clic en **Abrir** para empezar a instalar el diseñador de un solo clic. (La barra de notificación puede aparecer en un lugar diferente en otros exploradores.)
-4.  En el cuadro de mensaje **Ejecución de la aplicación: advertencia de seguridad** que aparece, haga clic en **Ejecutar **para instalar el host del diseñador de ventas al por menor. Un indicador de progreso muestra el progreso de la instalación.
+4.  En el cuadro de mensaje **Ejecución de la aplicación: advertencia de seguridad** que aparece, haga clic en **Ejecutar**para instalar el host del diseñador de ventas al por menor. Un indicador de progreso muestra el progreso de la instalación.
 5.  Cuando se complete la instalación, escriba el nombre de usuario y la contraseña de Microsoft Dynamics 365 for Operations en la página de **Iniciar sesión** y haga clic en **Iniciar sesión** para iniciar el diseñador.
 6.  Cuando se lleve a cabo una validación de sus credenciales y se inicie el diseñador, puede empezar a diseñar su propia estructura o a modificar el diseño existente. [![Diseño en el diseñador de un solo clic](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
 
@@ -52,5 +56,7 @@ La interfaz de diseño gráfico del PDV moderno (MPOS) o PDV en la Nube (Cloud P
 --------
 
 [Configurar, descargar, instalar y activar PDV moderno al por menor](retail-modern-pos-device-activation.md)
+
+
 
 

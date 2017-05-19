@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: a812c93a13fd36f44e659c9976099af62793098f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ce03d3b55ecdc05f70a36762f7de49b3018b6451
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Ejemplos de secuencia numérica
 En los siguientes ejemplos se muestra cómo usar segmentos para crear formatos de secuencia numérica. En concreto, en los ejemplos se muestran los efectos del uso de segmentos de ámbito.
 ### <a name="expense-report-numbers"></a>Números de informes de gastos
 
-En el siguiente ejemplo, los números de informe de gastos se configuran para la entidad jurídica titulada **CS**. **Área: **Viajes y gastos **Referencia: **Número del informe de gastos **Ámbito: **Entidad jurídica **Entidad jurídica **CS
+En el siguiente ejemplo, los números de informe de gastos se configuran para la entidad jurídica titulada **CS**. **Área:**Viajes y gastos **Referencia:**Número del informe de gastos **Ámbito:**Entidad jurídica **Entidad jurídica**CS
 | Segmentos  | Tipo de segmento | Valor     |
 |-----------|--------------|-----------|
 | Segmento 1 | Entidad jurídica | CS        |
@@ -49,7 +50,7 @@ En el siguiente ejemplo, los números de informe de gastos se configuran para la
 
 ### <a name="sales-order-numbers"></a>Números de pedidos de ventas
 
-En el siguiente ejemplo, los números de pedidos de ventas se configuran para el id. de empresa **CEU**. **Área: **Ventas **Referencia: **Pedido de ventas**Ámbito: **Empresa **Empresa: **CEU
+En el siguiente ejemplo, los números de pedidos de ventas se configuran para el id. de empresa **CEU**. **Área:**Ventas **Referencia:**Pedido de ventas**Ámbito:**Empresa **Empresa:**CEU
 | Segmentos  | Tipo de segmento | Valor    |
 |-----------|--------------|----------|
 | Segmento 1 | Constante     | SO-      |
@@ -59,7 +60,7 @@ En el siguiente ejemplo, los números de pedidos de ventas se configuran para el
 
 ### <a name="purchase-requisition-numbers"></a>Números de solicitudes de compra
 
-En el siguiente ejemplo, los números de solicitudes de compra son para toda la organización. **Área: **Compra **Referencia: **Solicitud de compra **Ámbito: **Compartido
+En el siguiente ejemplo, los números de solicitudes de compra son para toda la organización. **Área:**Compra **Referencia:**Solicitud de compra **Ámbito:**Compartido
 | Segmentos  | Tipo de segmento | Valor    |
 |-----------|--------------|----------|
 | Segmento 1 | Constante     | Sol      |

@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9f82bf6373e8076fb6786fe9ef184f47f3cf7b84
-ms.openlocfilehash: 5ad918b72962b0a59ab35c292c2a6177fb8a9358
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: f731d0f872ac0f7e369de3744e90e0cb0179e691
+ms.contentlocale: es-es
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -51,7 +52,7 @@ Igualmente, los usuarios pueden estudiar la rentabilidad de los peroductos (10 a
 -   Margen de beneficio bruto
 -   Porcentaje de margen
 
-Para esta evaluación, puede usar el informe listo para usar **Productos principales **report, which you can open from any of the following locations:
+Para esta evaluación, puede usar el informe listo para usar **Productos principales**report, which you can open from any of the following locations:
 
 -   **Gestión de tienda comercial** espacio de trabajo Dynamics 365 for Operations &gt; **Venta minorista y comercio** &gt; **Canales** &gt; **Gestión de tienda comercial** &gt; **Informes** &gt; **Informe de productos principales**
 -   **Administración de categorías y productos** espacio de trabajo Dynamics 365 for Operations &gt; **Venta minorista y comercio** &gt; **Productos y categorías** &gt; **Gestión de tienda comercial** &gt; **Informes** &gt; **Informe de productos principales**

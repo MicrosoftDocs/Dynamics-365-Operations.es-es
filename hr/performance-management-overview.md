@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 81b5c9056001b26c33b2b42a95711ff5b50243e6
-ms.openlocfilehash: 4bd934091c80ab9a4d244499d2bce2c4646c3e99
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 769680aff8c018bc042ffce98ee50a9760a65fcf
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -126,7 +127,7 @@ Puede adjuntar un documento a una evaluación en la sección **Datos adjuntos** 
 Puede usar el flujo de trabajo de la Evaluación del empleado para controlar la aprobación de una evaluación. También puede elegir saltarse el flujo de trabajo automatizado y cambiar manualmente el estado de la evaluación, que permite crear documentos más sencillos como el de uno en uno sin tener que utilizar el proceso de flujo de trabajo. El acceso a una evaluación se controla mediante el estado de la evaluación.
 
 1.  Cuando se crea la evaluación, se establece con el estado de **No iniciado**. La evaluación puede editarla cualquiera.
-2.  Una vez el empleado pulsa el botón **Comenzar evaluación**, la evaluación se establece con el estado** En curso**. A continuación, el empleado comienza a añadir contenido. En este punto, el administrador ya no puede ver el documento de evaluación.
+2.  Una vez el empleado pulsa el botón **Comenzar evaluación**, la evaluación se establece con el estado**En curso**. A continuación, el empleado comienza a añadir contenido. En este punto, el administrador ya no puede ver el documento de evaluación.
 3.  El empleado cambia el estado a **Preparado para evaluación**.
 4.  El administrador puede añadir comentarios y calificaciones. En este punto, solo el administrador puede ver la evaluación.
 5.  El administrador cambia el estado a **Evaluación final**, de modo que el administrador y el empleado puedan ver la evaluación y comentarla. En los parámetros puede especificar si la evaluación se puede editar o no en este punto. Este paso también es opcional si el administrador solo desea compartir la evaluación con el empleado y marcarla como **Completa** cuando terminan.

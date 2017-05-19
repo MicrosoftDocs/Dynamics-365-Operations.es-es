@@ -3,7 +3,7 @@ title: Entradas de costes
 description: "Este artículo proporciona información acerca de las entradas de coste y de cuándo se crean. Una entrada de coste es un registro que registra la cantidad y el coste de un evento dado."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 55f5ee731c40acc40e8fe20c24d4ed707fe2c81a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 341251119304456a89b02c7a8d4af941ea21196d
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cost-entries"></a>Entradas de costes
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artículo proporciona información acerca de las entradas de coste y de cuándo se crean. Una entrada de coste es un registro que registra la cantidad y el coste de un evento dado.
 
@@ -53,17 +57,22 @@ La nueva página **Entradas de costes** le permite ver y controlar registros de 
 -   Algunos días después del registro del evento de la factura, el coste aumenta a 11,00 USD. Por tanto, el importe total es 1.100 USD. Se crea un segundo asiento para tener en cuenta la diferencia de 100 USD.
 -   Unos días más tarde, se registra un cargo vario de 15,00 USD para cubrir el coste de transporte en el pedido de compra.
 
-| Comprobante | Fecha       | Referencia      | Número | Id. de lote interno  | Lote de referencia | Devolución de id. de lote interno | Cantidad | Importe  |
-|---------|------------|----------------|--------|---------|---------------|---------------|----------|---------|
-| 00001   | 01-01-2015 | Pedido de compra | 100001 | 0000101 |               |               | 100,00   | 1000.00 |
-| 00002   | 20-01-2015 | Pedido de compra | 100001 | 0000101 |               |               |          | 100,00  |
-| 00003   | 31-01-2015 | Ajuste     | 100001 | 0000101 |               |               |          | 15:00   |
+| Asiento | Fecha       | Referencia      | Número | Id. de lote interno  | Cantidad | Importe  |
+|---------|------------|----------------|--------|---------|---------------|----|
+| 00001   | 01-01-2015 | Pedido de compra | 100001 | 0000101 | 100,00   | 1000.00 |
+| 00002   | 20-01-2015 | Pedido de compra | 100001 | 0000101 |          | 100,00  |
+| 00003   | 31-01-2015 | Ajuste     | 100001 | 0000101 |          | 15:00   |
 
-La página **Entradas de costes** permite el filtrado por id. de documento y fecha de documento. **Nota:** Las entradas de costes solo están disponibles para [objetos de costes](cost-object.md) o productos emitidos.
+La página **Entradas de costes** permite el filtrado por id. de documento y fecha de documento. 
+
+> [!NOTE]
+> Las entradas de costes solo están disponibles para [objetos de costes](cost-object.md) o productos liberados.
 
 <a name="see-also"></a>Consulte también
 --------
 
 [Objetos de costes](cost-object.md)
+
+
 
 

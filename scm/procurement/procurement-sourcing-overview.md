@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 758c516b378b4858c248fbca2befc6b9c47cc32a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: e8a12f846bb24c9fc79c3533d4e65a2d3ece257b
+ms.openlocfilehash: 6d4d476e294e1b5cbe91a61a7ffe151a6c865ea6
+ms.contentlocale: es-es
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -40,7 +41,7 @@ Los *Límites de gasto *pueden usarse para limitar el gasto de la petición, y *
   
 El departamento de adquisición identifica a los proveedores para los productos y servicios necesarios, y esto puede implicar que se envíe una *solicitud de presupuesto * a varios proveedores potenciales. Es posible compartir las especificaciones del producto se solicita y los posibles proveedores pueden verlas para ver si pueden entregar un producto que cumpla con ellas. Los proveedores devuelven sus ofertas, que después serán revisadas por el departamento de compras antes de seleccionar el proveedor que desean.  
 
-Los pedidos de compra incluyen una opción para enviar una *consulta de compra * al proveedor como alternativa a un proceso más completo de la solicitud de presupuesto. La consulta de compra se puede usar para ayudar a establecer condiciones como precios, descuentos y fecha de entrega del pedido. Si se configura los proveedores para que usen el portal **Proveedor**, la funcionalidad de consulta de compra estará deshabilitada. En su lugar, el pedido se comparte en el portal** Proveedor**, y cuando se envía una*solicitud de confirmación*, el proveedor puede confirmar directamente el pedido.  
+Los pedidos de compra incluyen una opción para enviar una *consulta de compra * al proveedor como alternativa a un proceso más completo de la solicitud de presupuesto. La consulta de compra se puede usar para ayudar a establecer condiciones como precios, descuentos y fecha de entrega del pedido. Si se configura los proveedores para que usen el portal **Proveedor**, la funcionalidad de consulta de compra estará deshabilitada. En su lugar, el pedido se comparte en el portal**Proveedor**, y cuando se envía una*solicitud de confirmación*, el proveedor puede confirmar directamente el pedido.  
 
 Los *Catálogos de proveedores *puede usarse para recopilar información sobre el surtido de productos que los proveedores pueden suministrar. Los proveedores pueden publicar su propio catálogo, por lo que resulta más fácil mantener el catálogo actualizado. Es posible vincular una *lista de proveedores aprobados* a un producto, y ésto puede ayudar para la selección del proveedor cuando se abren los nuevos pedidos de compra y evitar el uso de proveedores no intencionados.
 

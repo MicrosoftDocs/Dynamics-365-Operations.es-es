@@ -1,6 +1,6 @@
 ---
 title: "Configuración de la funcionaidad de inicio de sesión extendido para Cloud POS y MPOS"
-description: "En esta wiki se abordan las opciones de configuración de inicio de sesión extendido para PDV en la nube y Retail Modern POS (MPOS)."
+description: "En este tema se abordan las opciones de configuración de inicio de sesión extendido para PDV en la nube y Retail Modern POS (MPOS)."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
@@ -17,17 +17,21 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 0dc80784a5c9a7de6009826284cb68f1aee83f70
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: 499fd5947a96f4a44f09883d5dd0d6124758e47a
+ms.contentlocale: es-es
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Configuración de la funcionaidad de inicio de sesión extendido para Cloud POS y MPOS
 
-En esta wiki se abordan las opciones de configuración de inicio de sesión extendido para PDV en la nube y Retail Modern POS (MPOS).
+[!include[banner](includes/banner.md)]
+
+
+En este tema se abordan las opciones de configuración de inicio de sesión extendido para PDV en la nube y Retail Modern POS (MPOS).
 
 <a name="setting-up-extended-logon"></a>Configuración del inicio de sesión extendido
 =========================
@@ -53,7 +57,7 @@ Cuando se activa la opción **El inicio de sesión de tarjeta del personal neces
 <a name="assigning-an-extended-logon"></a>Asignación de un inicio de sesión extendido
 ===========================
 
-De forma predeterminada, solo los directores pueden asignar el inicio de sesión extendido a los trabajadores. Para asignar el inicio de sesión extendido, vaya a **Inicio de sesión extendido** en PDV. A continuación, busque un trabajador introduciendo su id. de operador en el campo de búsqueda. Seleccione el trabajador y, a continuación, haga clic en la pestaña **Asignar**. En la siguiente página, pase o o escanee el inicio de sesión que desee asignar al trabajador. Si se lee correctamente, el botón **Aceptar **estará disponible. Haga clic en **Aceptar** para guardar el inicio de sesión extendido para dicho trabajador.
+De forma predeterminada, solo los directores pueden asignar el inicio de sesión extendido a los trabajadores. Para asignar el inicio de sesión extendido, vaya a **Inicio de sesión extendido** en PDV. A continuación, busque un trabajador introduciendo su id. de operador en el campo de búsqueda. Seleccione el trabajador y, a continuación, haga clic en la pestaña **Asignar**. En la siguiente página, pase o o escanee el inicio de sesión que desee asignar al trabajador. Si se lee correctamente, el botón **Aceptar**estará disponible. Haga clic en **Aceptar** para guardar el inicio de sesión extendido para dicho trabajador.
 
 <a name="deleting-an-extended-logon"></a>Eliminación de un inicio de sesión extendido
 ==========================
@@ -69,5 +73,7 @@ El servicio del inicio de sesión puede ser extendido para admitir dispositivos 
 ====================
 
 Cuando se configura el inicio de sesión extendido, y se le ha asignado a un trabajador un código de barras o una cinta magnética, el trabajador sólo tiene que pasar o escanear su tarjeta mientras se abre la página de inicio de sesión del PDV. Si una contraseña también es necesaria para que el inicio de sesión pueda continuar, se le pedirá al trabajador que especifique su contraseña.
+
+
 
 

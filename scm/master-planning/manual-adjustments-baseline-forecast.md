@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 24caafcd01875f04cf3ae5299aadcf9b38ac0e15
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 38725d4d873a3b39eb3916c3f616826f8a266b60
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ La página **Previsión de la demanda ajustada** incluye una cuadrícula con la 
 ## <a name="forecast-aggregation-and-deaggregation"></a>Agregación y desagregación de previsión
 El subtítulo de la página muestra el nivel de agregación de previsión. 
 
-Por ejemplo, si el título de la página es **Empresa / Sitio / Clave de asignación / Número de artículo / Color / Tamaño / Configuración / Estilo**, no hay agregación de previsión, y la previsión se muestra en el nivel del artículo y sus dimensiones. Para cambiar la agregación, use la página** Cambiar las dimensiones de previsión**, que puede abrir desde el menú de la aplicación. 
+Por ejemplo, si el título de la página es **Empresa / Sitio / Clave de asignación / Número de artículo / Color / Tamaño / Configuración / Estilo**, no hay agregación de previsión, y la previsión se muestra en el nivel del artículo y sus dimensiones. Para cambiar la agregación, use la página**Cambiar las dimensiones de previsión**, que puede abrir desde el menú de la aplicación. 
 
 Para modificar la previsión, haga clic en una de las celdas disponibles, y especifique el valor ajustado de previsión. La celda corregida pasa a estar en negrita inmediatamente para indicar que la previsión que muestra no es la previsión creada por el servicio de previsión de demanda, sino que se ha ajustado manualmente. 
 
@@ -58,7 +59,7 @@ Cuando el ajuste de la cantidad prevista se realiza en un nivel agregado, el sis
 También puede realizar ajustes manuales en la página **Líneas de previsión de la demanda**, modificando el valor **Cantidad total** o las celdas de **Cantidad** en la cuadrícula de agregación.
 
 ## <a name="viewing-details-of-the-forecast"></a>Visualización de los detalles de la previsión
-Puede abrir la página** Detalles de previsión de la demanda** para ver más información acerca de la previsión. 
+Puede abrir la página**Detalles de previsión de la demanda** para ver más información acerca de la previsión. 
 
 La página **Detalles de previsión de la demanda** muestra la siguiente información en un formato gráfico y tabular:
 

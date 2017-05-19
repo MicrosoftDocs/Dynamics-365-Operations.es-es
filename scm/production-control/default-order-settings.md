@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 60abaa69debd891b2fe2dd98184c0dab50b0bf9f
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 26ad7fb0e9371b8e1d45d61f2348241c6aca16b9
+ms.contentlocale: es-es
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -90,7 +91,7 @@ Las reglas de configuración de pedido predeterminada tienen categorías. Cuanto
 
 ### <a name="default-order-settings-for-released-products"></a>Configuración predeterminada de pedido para productos emitidos
 
-Para productos emitidos distintos, puede definir la configuración general de pedido o la configuración específica. La configuración general de pedido siempre tiene categoría cero. Si configura nuevos valores de pedido de ventas, compras e inventario juntos al mismo tiempo, se recomienda usar la **Vista de detalles** en la página **Configuración predeterminada de pedido **. Para cambiar a la vista de detalles, vaya al panel de acciones **Opciones** &gt; **Opciones de página** &gt; **Cambiar vista** &gt; **Vista de detalles**.
+Para productos emitidos distintos, puede definir la configuración general de pedido o la configuración específica. La configuración general de pedido siempre tiene categoría cero. Si configura nuevos valores de pedido de ventas, compras e inventario juntos al mismo tiempo, se recomienda usar la **Vista de detalles** en la página **Configuración predeterminada de pedido**. Para cambiar a la vista de detalles, vaya al panel de acciones **Opciones** &gt; **Opciones de página** &gt; **Cambiar vista** &gt; **Vista de detalles**.
 
 ### <a name="site-specific-order-settings"></a>Configuración de pedido específica del sitio
 
@@ -149,9 +150,9 @@ Como norma general, las reglas específicas y las reglas para las dimensiones qu
 
 La regla con categoría cero sirve como red de seguridad. Si no aparece ninguna otra regla, se usará la configuración predeterminada de pedido de la regla cero. 
 
-Dado que el número de categoría es tan importante, en el Panel de acciones **Configuración predeterminada de pedido **, hay funciones para mover una regla hacia arriba o hacia abajo y volver a numerar las reglas, de modo que están siempre en incrementos de 10. 
+Dado que el número de categoría es tan importante, en el Panel de acciones **Configuración predeterminada de pedido**, hay funciones para mover una regla hacia arriba o hacia abajo y volver a numerar las reglas, de modo que están siempre en incrementos de 10. 
 
-Se puede crear un gran número de reglas para un producto emitido. Para tener una idea más clara de lo que sustituye cada regla y por qué es necesario, se recomienda ir a **Vista de cuadrícula** en la página de** Configuración predeterminada de pedido**. Puede habilitar la vista de cuadrícula en el panel de acciones **Opciones** &gt; **Opciones de página** &gt; **Cambiar vista** &gt; **Vista de cuadrícula**. El número de columnas mostradas en la cuadrícula podría ser bastante significativo, especialmente para las fichas de ventas y de inventario. Para limitar el número de columnas que se muestran en la cuadrícula, se pueden ocultar o mostrar grupos de columnas mediante los botones del menú **Configuración predeterminada de pedido** &gt; **Visualización de la columna**.
+Se puede crear un gran número de reglas para un producto emitido. Para tener una idea más clara de lo que sustituye cada regla y por qué es necesario, se recomienda ir a **Vista de cuadrícula** en la página de**Configuración predeterminada de pedido**. Puede habilitar la vista de cuadrícula en el panel de acciones **Opciones** &gt; **Opciones de página** &gt; **Cambiar vista** &gt; **Vista de cuadrícula**. El número de columnas mostradas en la cuadrícula podría ser bastante significativo, especialmente para las fichas de ventas y de inventario. Para limitar el número de columnas que se muestran en la cuadrícula, se pueden ocultar o mostrar grupos de columnas mediante los botones del menú **Configuración predeterminada de pedido** &gt; **Visualización de la columna**.
 
 ### <a name="specific-order-settings-for-released-product-variant"></a>Configuración específica de pedido para la variante del producto emitido
 
