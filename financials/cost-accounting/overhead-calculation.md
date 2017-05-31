@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bb02e0756d675726f6c3b9f456b980a7ed695463
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
 ms.contentlocale: es-es
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -53,7 +53,8 @@ El cálculo de costes generales ejecuta las directivas de contabilidad de costes
 -   Ejercicio
 -   Período fiscal
 
-El cálculo de costes generales se ejecuta independientemente de la versión. Por lo tanto, puede calcular la versión de presupuesto antes que la versión real. El cálculo de costes generales consta de cuatro pasos, como se muestra en la siguiente ilustración. En cada paso, se crea una cabecera de diario que tiene entradas del diario. Esta cabecera de diario guarda los datos de entrada para cada paso de cálculo. Las directivas y las reglas se aplican a cada línea de diario, y las entradas de coste se generan como resultado. Por tanto, siempre se tiene rastreabilidad completa. [![Cálculo de costes generales](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+El cálculo de costes generales se ejecuta independientemente de la versión. Por lo tanto, puede calcular la versión de presupuesto antes que la versión real. El cálculo de costes generales consta de cuatro pasos, como se muestra en la siguiente ilustración. En cada paso, se crea una cabecera de diario que tiene entradas del diario. Esta cabecera de diario guarda los datos de entrada para cada paso de cálculo. Las directivas y las reglas se aplican a cada línea de diario, y las entradas de coste se generan como resultado. Por tanto, siempre se tiene rastreabilidad completa. 
+[![Cálculo de costes generales](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Calcular y asignar costes generales de electricidad
 En la contabilidad financiera, algunos costes, como la electricidad, se registran como suma total. Por lo tanto, no se proporciona una visión de gestión detallada para la contabilidad de costes. En contabilidad de costes, para proporcionar información de gestión correcta en todas las unidades y niveles organizativos, los costes deben fluir por las unidades organizativas. Este flujo se debe basar en cualquier registro preciso de consumo o en una evaluación justa. En la contabilidad general, un coste de la electricidad se puede registrar como se muestra en la tabla siguiente.
@@ -622,7 +623,7 @@ Para obtener información detallada acerca de la directiva de tasa de costes gen
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Paso 4: Procese el cálculo de asignación de costes
 
-La asignación es utilizada para asignar el saldo de un objeto de coste a otros objetos de coste aplicando una base de asignación. Microsoft Dynamics 365 for Operations admite el método de asignación recíproco. En el método de asignación recíproco, se reconocen completamente los servicios mutuos que los objetos de coste auxiliar intercambian. El sistema determina automáticamente el orden correcto para realizar las asignaciones. El saldo de un objeto de coste se asigna según una única base de asignación. Las asignaciones entre dimensiones de objetos de coste y sus miembros respectivos se admiten. El orden de asignación se controla por unidad de control de costes. [![](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+La asignación es utilizada para asignar el saldo de un objeto de coste a otros objetos de coste aplicando una base de asignación. Microsoft Dynamics 365 for Operations admite el método de asignación recíproco. En el método de asignación recíproco, se reconocen completamente los servicios mutuos que los objetos de coste auxiliar intercambian. El sistema determina automáticamente el orden correcto para realizar las asignaciones. El saldo de un objeto de coste se asigna según una única base de asignación. Las asignaciones entre dimensiones de objetos de coste y sus miembros respectivos se admiten. El orden de asignación se controla por unidad de control de costes. [![Método recíproco](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Defina la asignación de costes
 

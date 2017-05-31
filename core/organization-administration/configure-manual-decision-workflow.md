@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ac4f520d17c721e249737b4ae95c10685f914497
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ac86ffa794b5fd92ca9aba24537fbc05057fe824
 ms.contentlocale: es-es
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -195,13 +195,11 @@ Siga estos pasos para especificar a quién se debe asignar una decisión manual.
     <td>Usuarios de una jerarquía organizativa específica</td>
     <td><ol>
     <li>Tras seleccionar <strong>Jerarquía</strong>, en la pestaña <strong>Selección de jerarquía</strong>, en la lista <strong>Tipo de jerarquía</strong>, seleccione el tipo de jerarquía al que desea asignar la decisión.</li>
-    <li>El sistema debe recuperar un intervalo de nombres de usuario de la jerarquía. Dichos nombres representan a los usuarios a los que se puede asignar la decisión. Siga estos pasos para especificar el punto de inicio y de finalización del intervalo de nombres de usuario que el sistema recupera:
-    <ol>
+    <li>El sistema debe recuperar un intervalo de nombres de usuario de la jerarquía. Dichos nombres representan a los usuarios a los que se puede asignar la decisión. Siga estos pasos para especificar el punto de inicio y de finalización del intervalo de nombres de usuario que el sistema recupera: <ol>
     <li>Para especificar el punto de inicio, seleccione una persona en la lista <strong>Comenzar desde</strong>.</li>
     <li>Para especificar el punto de finalización, haga clic en <strong>Agregar condición</strong>. A continuación, especifique una condición que determine en qué parte de la jerarquía el sistema dejará de recuperar nombres.</li>
     </ol></li>
-    <li>En la pestaña <strong>Opciones de jerarquía</strong>, especifique a qué usuarios del intervalo se debe asignar la decisión:
-    <ul>
+    <li>En la pestaña <strong>Opciones de jerarquía</strong>, especifique a qué usuarios del intervalo se debe asignar la decisión: <ul>
     <li><strong>Asignar a todos los usuarios recuperados</strong>: la decisión se asigna a todos los usuarios del intervalo.</li>
     <li><strong>Asignar sólo al último usuario recuperado</strong>: la decisión se asigna únicamente al último usuario del intervalo.</li>
     <li><strong>Excluir usuarios con la siguiente condición</strong>: la decisión no se asigna a ninguno de los usuarios del intervalo que cumplen con una condición determinada. Haga clic en <strong>Agregar condición</strong> para especificar la condición.</li>
@@ -228,13 +226,11 @@ Siga estos pasos para especificar a quién se debe asignar una decisión manual.
     <td>Una cola de elementos de trabajo</td>
     <td><ol>
     <li>Tras seleccionar <strong>Cola</strong>, haga clic en la pestaña <strong>Basado en cola</strong>.</li>
-    <li>Para asignar la decisión a una cola específica, siga estos pasos:
-    <ol>
+    <li>Para asignar la decisión a una cola específica, siga estos pasos: <ol>
     <li>En la lista <strong>Tipo de cola</strong>, seleccione <strong>Colas de elementos de trabajo</strong>.</li>
     <li>En la lista <strong>Nombre de cola</strong>, seleccione la cola.</li>
     </ol></li>
-    <li>Si la cola a la que se debe asignar la decisión debe estar determinada por una condición específica, siga estos pasos:
-    <ol>
+    <li>Si la cola a la que se debe asignar la decisión debe estar determinada por una condición específica, siga estos pasos: <ol>
     <li>En la lista <strong>Tipo de cola</strong>, seleccione <strong>Colas de elementos de trabajo condicional</strong>.</li>
     <li>En la lista <strong>Nombre de cola</strong>, seleccione <strong>Cola condicional</strong>.</li>
     </ol></li>
@@ -285,13 +281,11 @@ Si un usuario no toma la decisión en el tiempo asignado, la decisión se consid
     <td>Usuarios de una jerarquía organizativa específica</td>
     <td><ol>
     <li>Tras seleccionar <strong>Jerarquía</strong>, en la pestaña <strong>Selección de jerarquía</strong>, en la lista <strong>Tipo de jerarquía</strong>, seleccione el tipo de jerarquía al que desea remitir a una instancia superior la decisión.</li>
-    <li>El sistema debe recuperar un intervalo de nombres de usuario de la jerarquía. Dichos nombres representan a los usuarios a los que se puede remitir la decisión para una instancia superior. Siga estos pasos para especificar el punto de inicio y de finalización del intervalo de nombres de usuario que el sistema recupera:
-    <ol>
+    <li>El sistema debe recuperar un intervalo de nombres de usuario de la jerarquía. Dichos nombres representan a los usuarios a los que se puede remitir la decisión para una instancia superior. Siga estos pasos para especificar el punto de inicio y de finalización del intervalo de nombres de usuario que el sistema recupera: <ol>
     <li>Para especificar el punto de inicio, seleccione una persona en la lista <strong>Comenzar desde</strong>.</li>
     <li>Para especificar el punto de finalización, haga clic en <strong>Agregar condición</strong>. A continuación, especifique una condición que determine en qué parte de la jerarquía el sistema dejará de recuperar nombres.</li>
     </ol></li>
-    <li>En la pestaña <strong>Opciones de jerarquía</strong>, especifique a qué usuarios del intervalo se debe remitir la decisión para una instancia superior:
-    <ul>
+    <li>En la pestaña <strong>Opciones de jerarquía</strong>, especifique a qué usuarios del intervalo se debe remitir la decisión para una instancia superior: <ul>
     <li><strong>Asignar a todos los usuarios recuperados</strong>: la decisión se remite para una instancia superior a todos los usuarios del intervalo.</li>
     <li><strong>Asignar sólo al último usuario recuperado</strong>: la decisión se remite para una instancia superior únicamente al último usuario del intervalo.</li>
     <li><strong>Excluir usuarios con la siguiente condición</strong>: la decisión no se remite para una instancia superior a ninguno de los usuarios del intervalo que cumplen con una condición determinada. Haga clic en <strong>Agregar condición</strong> para especificar la condición.</li>

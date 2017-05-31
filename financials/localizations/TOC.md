@@ -67,13 +67,15 @@
 ### [Extracto bancario CODA](emea-bel-coda-bank-statement-import.md)
 ### [Declaración de impuestos de Intervat](emea-bel-intervat-tax-declaration.md)
 ### [Configuración de informes PRODCOM](emea-bel-prodcom-report.md)
+### [Informes de conciliación](emea-bel-reconciliation-reports.md)
 
 ## República Checa
 ### [Descuento por pronto pago en notas de abono](emea-cze-credit-note-cash-discount.md)
 ### [Redondeo de la depreciación](emea-cze-depreciation-rounding.md)
 ### [Suspensión de la depreciación](emea-cze-depreciation-suspension-holidays.md)
-### [Amortización de activos fijos](emea-cze-fixed-assets-depreciation.md)
+### [Depreciación de activos fijos](emea-cze-fixed-assets-depreciation.md)
 ### [Depreciación de medio año](emea-cze-half-depreciation-fixed-asset-disposal.md)
+### [Notificación de impuestos ](emea-cze-intra-community-vat-transactions.md)
 ### [Extracto de IVA](emea-cze-vat-statement-details.md)
 ## Estonia
 ### [Extracto de IVA](emea-est-vat-statement-details.md)

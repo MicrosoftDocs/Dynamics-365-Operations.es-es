@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 335a0d7ca466028e8b157cb4e04df7d0f4880e73
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5726a6fc60977a82b49e00ca653696e4051cbb10
 ms.contentlocale: es-es
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -474,7 +474,7 @@ Los campos de Etiqueta y Descripción se devolverán a los valores de tiempo de 
 </tr>
 <tr class="even">
 <td>FORMAT (cadena 1, cadena 2 [, cadena 3,…])</td>
-<td>Devuelve la cadena especificada, que se formatea sustituyendo cualquier aparición de <strong>%N</strong> con el argumento <em>n</em>th. Los argumentos son cadenas. Si no se proporciona un argumento para un parámetro, el parámetro se devuelve como <strong>&quot;%N&quot;</strong> en la cadena. Para los valores del tipo <strong>real</strong>, la conversión de la cadena se limita a dos decimales.</td>
+<td>Devuelve la cadena especificada, que se formatea sustituyendo cualquier aparición de <strong>%N</strong> con el argumento <em>n</em>-ésimo. Los argumentos son cadenas. Si no se proporciona un argumento para un parámetro, el parámetro se devuelve como <strong>&quot;%N&quot;</strong> en la cadena. Para los valores del tipo <strong>real</strong>, la conversión de la cadena se limita a dos decimales.</td>
 <td>En este ejemplo, el origen de datos <strong>PaymentModel</strong> devuelve la lista de registros de clientes mediante el componente <strong>Cliente</strong> y el valor de la fecha de procesamiento mediante el campo <strong>ProcessingDate</strong>. <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> En el formato ER diseñado para generar un archivo electrónico para los clientes seleccionados, <strong>PaymentModel</strong> se selecciona como origen de datos y controla el flujo de proceso. Se genera una excepción para los usuarios finales cuando se detiene un cliente seleccionado para la fecha en la que se procesa el informe. La fórmula que está diseñada para este tipo de control de proceso puede usar los recursos siguientes:
 <ul>
 <li>La etiqueta SYS70894 de Dynamics 365 for Operations, tiene el siguiente texto:

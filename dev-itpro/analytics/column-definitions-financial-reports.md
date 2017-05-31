@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
 ms.contentlocale: es-es
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -350,8 +350,7 @@ El tipo de información que cada columna en un informe incluye se especifica con
     <tbody>
     <tr class="odd">
     <td>FD</td>
-    <td>Visualizar datos financieros o datos de una hoja de cálculo de Excel al usar una columna de <strong>Vínculo a las dimensiones financieras</strong> o <strong>Vínculo a la hoja de cálculo</strong> en la definición de filas. Cuando selecciona el tipo de columna <strong>FD</strong>, los parámetros predeterminados se especifican automáticamente para las filas siguientes:
-    <ul>
+    <td>Visualizar datos financieros o datos de una hoja de cálculo de Excel al usar una columna de <strong>Vínculo a las dimensiones financieras</strong> o <strong>Vínculo a la hoja de cálculo</strong> en la definición de filas. Cuando selecciona el tipo de columna <strong>FD</strong>, los parámetros predeterminados se especifican automáticamente para las filas siguientes: <ul>
     <li><strong>Código de libro/Categoría de atributo:</strong> REAL</li>
     <li><strong>Código de libro/Categoría de atributo:</strong> REAL</li>
     <li><strong>Ejercicio:</strong> BASE</li>
@@ -359,7 +358,7 @@ El tipo de información que cada columna en un informe incluye se especifica con
     <li><strong>Períodos cubiertos:</strong> PERIÓDICO</li>
     <li><strong>Ancho de columna:</strong> 14</li>
     </ul>
-    Es posible cambiar estos ajustes predeterminados.</td>
+Es posible cambiar estos ajustes predeterminados.</td>
     </tr>
     <tr class="even">
     <td>CALC</td>
@@ -379,7 +378,7 @@ El tipo de información que cada columna en un informe incluye se especifica con
     </tr>
     <tr class="even">
     <td>RELLENO</td>
-    <td>Rellene la celda con un carácter que se va a incluir entre comillas simples. Si no especifica un carácter, la columna está vacía. Por ejemplo, para rellenar una columna con puntos suspensivos (...), escriba. <strong>RELLENAR</strong> <strong>'.'</strong>.</td>
+    <td>Rellene la celda con un carácter que se va a incluir entre comillas simples. Si no especifica un carácter, la columna está vacía. Por ejemplo, para rellenar una columna con puntos suspensivos (...), escriba <strong>RELLENAR</strong> <strong>'.'</strong>.</td>
     </tr>
     <tr class="odd">
     <td>PÁGINA</td>
@@ -387,12 +386,11 @@ El tipo de información que cada columna en un informe incluye se especifica con
     </tr>
     <tr class="even">
     <td>WKS</td>
-    <td>Visualizar datos que se tiran de una hoja de cálculo de Excel. Cuando selecciona el tipo de columna <strong>WKS</strong>, los parámetros predeterminados se especifican automáticamente para las filas siguientes:
-    <ul>
+    <td>Visualizar datos que se tiran de una hoja de cálculo de Excel. Cuando selecciona el tipo de columna <strong>WKS</strong>, los parámetros predeterminados se especifican automáticamente para las filas siguientes: <ul>
     <li><strong>Ejercicio:</strong> PERIÓDICO</li>
     <li><strong>Período:</strong> BASE</li>
     </ul>
-    Es posible cambiar estos ajustes predeterminados.</td>
+Es posible cambiar estos ajustes predeterminados.</td>
     </tr>
     <tr class="odd">
     <td>ATTR</td>

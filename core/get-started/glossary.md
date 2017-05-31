@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: dd9f65e045367aeba081d026da53894679ee7ed0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4f3015ed4f8dc165d988b2b63ed9ad89d6d6f578
 ms.contentlocale: es-es
-ms.lasthandoff: 05/10/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -253,7 +253,7 @@ El medio usado para implementar la prueba de aceptación del usuario (UAT) y los
 
 Herramienta de Visual Studio que se utiliza para crear, actualizar e inspeccionar los elementos del modelo.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**configuración de producto basada en dimensiones**
+###### <a name="dimension-based-product-configuration"></a>**configuración de producto basada en dimensiones**
 
 Tecnología de configuración utilizada para crear variantes del producto seleccionando valores para las dimensiones de producto.
 
@@ -503,7 +503,7 @@ Parte de un producto.
 
 ###### <a name="product-dimension"></a>**dimensión del producto**
 
-Atributos de tamaño, color o configuración del producto que se utilizan para la configuración del producto basada en dimensiones.
+Atributos de tamaño, color o configuración del producto que se utilizan para la configuración de producto basada en dimensiones.
 
 ###### <a name="product-family"></a>**familia de productos**
 

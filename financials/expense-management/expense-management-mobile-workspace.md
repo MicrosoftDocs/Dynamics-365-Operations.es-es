@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: end user, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 8bc47c5b170fd7dd8f6288682aad6eae1d2dc09a
-ms.openlocfilehash: 9d3b7a4d5184c3c4958f4298f1d3dd4de0cd06d6
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4e3202de8e5288bbd52e8c28922374de147cc99f
 ms.contentlocale: es-es
-ms.lasthandoff: 04/26/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -29,8 +29,6 @@ ms.lasthandoff: 04/26/2017
 # <a name="expense-management-mobile-workspace"></a>Espacio de trabajo móvil de gestión de gastos
 
 [!include[banner](../includes/banner.md)]
-
-"[!include[banner](../includes/banner.md)]"
 
 
 Este tema proporciona información acerca del espacio de trabajo móvil de gestión de gastos que está disponible para la aplicación móvil Microsoft Dynamics 365 for Operations. Este espacio de trabajo permite a los usuarios capturar y cargar un recibo, de modo que puedan adjuntarlo a un informe de gastos posteriormente. El espacio de trabajo móvil también permite a los usuarios crear rápidamente una línea de gastos mediante un recibo vinculado.
@@ -66,7 +64,7 @@ Para poder implementar el espacio de trabajo móvil **Gestión de gastos** , ase
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior debe estar implementado.</td>
 <td>Administrador del sistema</td>
-<td>Si todavía no tiene Dynamics 365 for Operations implementado en su organización, el administrador del sistema debería ver <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Implementar un entorno de demostración de Microsoft Dynamics 365 for Operations</a>.</td>
+<td>Si todavía no tiene Dynamics 365 for Operations implementado en su organización, el administrador del sistema debería ver <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Implementar un entorno de demostración de Microsoft Dynamics 365 for Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>KB 4019015 debe implementarse.</td>
@@ -74,9 +72,9 @@ Para poder implementar el espacio de trabajo móvil **Gestión de gastos** , ase
 <td>KB 4019015 (una revisión de metadatos o actualización de X++) contiene cuatro áreas de trabajo móviles para la gestión de cadenas de suministro. Para implementar KB 4019015, el administrador del sistema debe seguir estos pasos:
 <ol>
 <li>Descargar KB 4019015 de Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Instalar la revisión de metadatos</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Crear un paquete desplegable</a> que contenga el modelo <strong>ApplicationSuite</strong> y <strong>ExpenseMobile</strong> y luego cargar el paquete desplegable en LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Aplicar el paquete desplegable</a> a su sistema Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar la revisión de metadatos</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Crear un paquete desplegable</a> que contenga el modelo <strong>ApplicationSuite</strong> y <strong>ExpenseMobile</strong> y luego cargar el paquete desplegable en LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Aplicar el paquete desplegable</a> a su sistema Dynamics 365 for Operations.</li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -97,14 +95,15 @@ Descargue e instale la aplicación móvil Microsoft Dynamics 365 for Operations 
 
 -   Para Android: [Dynamics 365 for Operations en Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
 -   Para iPhone: [Dynamics 365 for Operations en la tienda de aplicaciones de iTunes](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
--   Para el teléfono de Windows (plataforma universal de Windows \[UWP\]: próximamente.
 
 ## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>Inicie sesión en la aplicación móvil Dynamics 365 for Operations
 1.  Inicie la aplicación en su dispositivo móvil.
 2.  Entre en la URL de Dynamics 365 for Operations.
 3.  Escriba la empresa en la que va a iniciar sesión. Por ejemplo, escriba **USMF**.
 4.  La primera vez que inicia sesión, se le pedirá el nombre de usuario y la contraseña de su cuenta Dynamics 365 for Operations. Escriba sus credenciales.
-5.  Tras iniciar sesión, verá los espacios de trabajo disponibles para su empresa. Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, puede tocar la pantalla para actualizar la lista de espacios de trabajo móviles. [![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+5.  Tras iniciar sesión, verá los espacios de trabajo disponibles para su empresa. Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, puede tocar la pantalla para actualizar la lista de espacios de trabajo móviles. 
+
+[![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Obtener un recibo mediante el espacio de trabajo móvil de gestión de gastos
 1.  En el dispositivo móvil, seleccione el espacio de trabajo **Gestión de gastos**.
@@ -114,7 +113,7 @@ Descargue e instale la aplicación móvil Microsoft Dynamics 365 for Operations 
     1.  El sistema lo llevará a la cámara del dispositivo móvil, para que pueda realizar una foto del recibo. Cuando haya terminado de realizar una foto, haga clic en **Aceptar** para aceptar la foto.
     2.  Opcional: Especifique un nombre para la foto, y escriba una nota.
 
-     o si seleccionó **Seleccionar imagen**, siga estos pasos:
+     **O bien:** si seleccionó **Seleccionar imagen**, siga estos pasos:
     1.  Seleccione una imagen en la lista.
     2.  Opcional: Especifique un nombre para la imagen y escriba una nota.
 
@@ -123,11 +122,11 @@ Descargue e instale la aplicación móvil Microsoft Dynamics 365 for Operations 
 ## <a name="quick-expense-entry-by-using-the-expense-management-mobile-workspace"></a>Entrada rápida del gasto usando el espacio de trabajo móvil de gestión de gastos
 1.  En el dispositivo móvil, seleccione el espacio de trabajo **Gestión de gastos**.
 2.  Seleccione **Entrada rápida del gasto**.
-3.  Seleccione la categoría del gasto. Verá una lista de las categorías de gastos que se cargan en su aplicación para su uso sin conexión. Hay hasta 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número. Para obtener más información, los desarrolladores deben ver [Plataforma móvil Dynamics 365 for Operations](http://ax.help.dynamics.com/en/wiki/mobile-development-handbook/). Si su categoría no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea en Dynamics 365 for Operations. Busque por categoría de gastos, o cambie a buscar por tipo de gastos.
+3.  Seleccione la categoría del gasto. Verá una lista de las categorías de gastos que se cargan en su aplicación para su uso sin conexión. Hay hasta 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número. Para obtener más información, los desarrolladores deben ver [Plataforma móvil Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform). Si su categoría no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea en Dynamics 365 for Operations. Busque por categoría de gastos, o cambie a buscar por tipo de gastos.
 4.  Especifique la fecha de la transacción del gasto.
 5.  Opcional: Especifique el comerciante del gasto.
 6.  Especifique el importe del gasto.
-7.  Seleccione la divisa del gasto. Verá una lista de los códigos de divisa que se cargan en su aplicación para su uso sin conexión. Hay hasta 400 divisas cargadas de forma predeterminada, pero un desarrollador puede cambiar este número. Para obtener más información, los desarrolladores deben ver [Plataforma móvil Dynamics 365 for Operations](http://ax.help.dynamics.com/en/wiki/mobile-development-handbook/). Si su divisa no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea en Dynamics 365 for Operations. Busque por divisa, o cambie a buscar por nombre.
+7.  Seleccione la divisa del gasto. Verá una lista de los códigos de divisa que se cargan en su aplicación para su uso sin conexión. Hay hasta 400 divisas cargadas de forma predeterminada, pero un desarrollador puede cambiar este número. Para obtener más información, los desarrolladores deben ver [Plataforma móvil Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform). Si su divisa no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea en Dynamics 365 for Operations. Busque por divisa, o cambie a buscar por nombre.
 8.  Seleccione **Sacar una foto** o **Seleccionar imagen**.
 9.  Si seleccionó **Sacar foto**, el sistema lo llevará a la cámara del dispositivo móvil para que pueda realizar una foto del recibo. Cuando haya terminado de realizar una foto, haga clic en **Aceptar** para aceptar la foto.  o si seleccionó **Seleccionar imagen**, seleccione una imagen de la lista.
 10. Seleccione **Listo**.

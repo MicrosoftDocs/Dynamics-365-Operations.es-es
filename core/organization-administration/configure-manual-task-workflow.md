@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: a62b56bd2ac0a7484471190c5f342a1db335ab07
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5d2a69066a1245d5b86d27d01db4b67d4a490488
 ms.contentlocale: es-es
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -106,13 +106,11 @@ Siga estos pasos para especificar a quién se debe asignar la tarea manual.
     <td>Usuarios de una jerarquía organizativa específica</td>
     <td><ol>
     <li>Tras seleccionar <strong>Jerarquía</strong>, en la pestaña <strong>Selección de jerarquía</strong>, en la lista <strong>Tipo de jerarquía</strong>, seleccione el tipo de jerarquía al que desea asignar la tarea.</li>
-    <li>El sistema debe recuperar un intervalo de nombres de usuario de la jerarquía. Dichos nombres representan a los usuarios a los que se puede asignar la tarea. Siga estos pasos para especificar el punto de inicio y de finalización del intervalo de nombres de usuario que el sistema recupera:
-    <ol>
+    <li>El sistema debe recuperar un intervalo de nombres de usuario de la jerarquía. Dichos nombres representan a los usuarios a los que se puede asignar la tarea. Siga estos pasos para especificar el punto de inicio y de finalización del intervalo de nombres de usuario que el sistema recupera: <ol>
     <li>Para especificar el punto de inicio, seleccione una persona en la lista <strong>Comenzar desde</strong>.</li>
     <li>Para especificar el punto de finalización, haga clic en <strong>Agregar condición</strong>. A continuación, especifique una condición que determine en qué parte de la jerarquía el sistema dejará de recuperar nombres.</li>
     </ol></li>
-    <li>En la pestaña <strong>Opciones de jerarquía</strong>, especifique a qué usuarios del intervalo se debe asignar la tarea:
-    <ul>
+    <li>En la pestaña <strong>Opciones de jerarquía</strong>, especifique a qué usuarios del intervalo se debe asignar la tarea: <ul>
     <li><strong>Asignar a todos los usuarios recuperados</strong>: la tarea se asigna a todos los usuarios del intervalo.</li>
     <li><strong>Asignar sólo al último usuario recuperado</strong>: la tarea se asigna únicamente al último usuario del intervalo.</li>
     <li><strong>Excluir usuarios con la siguiente condición</strong>: la tarea no se asigna a ninguno de los usuarios del intervalo que cumplen con una condición determinada. Haga clic en <strong>Agregar condición</strong> para especificar la condición.</li>
@@ -139,13 +137,11 @@ Siga estos pasos para especificar a quién se debe asignar la tarea manual.
     <td>Una cola de elementos de trabajo</td>
     <td><ol>
     <li>Tras seleccionar <strong>Cola</strong>, haga clic en la pestaña <strong>Basado en cola</strong>.</li>
-    <li>Para asignar la tarea a una cola específica, siga estos pasos:
-    <ol>
+    <li>Para asignar la tarea a una cola específica, siga estos pasos: <ol>
     <li>En la lista <strong>Tipo de cola</strong>, seleccione <strong>Colas de elementos de trabajo</strong>.</li>
     <li>En la lista <strong>Nombre de cola</strong>, seleccione la cola.</li>
     </ol></li>
-    <li>Si la cola a la que se debe asignar la tarea debe estar determinada por una condición específica, siga estos pasos:
-    <ol>
+    <li>Si la cola a la que se debe asignar la tarea debe estar determinada por una condición específica, siga estos pasos: <ol>
     <li>En la lista <strong>Tipo de cola</strong>, seleccione <strong>Colas de elementos de trabajo condicional</strong>.</li>
     <li>En la lista <strong>Nombre de cola</strong>, seleccione <strong>Cola condicional</strong>.</li>
     </ol></li>
@@ -196,13 +192,11 @@ Si un usuario no completa la tarea manual en el tiempo asignado, la tarea se con
     <td>Usuarios de una jerarquía organizativa específica</td>
     <td><ol>
     <li>Tras seleccionar <strong>Jerarquía</strong>, en la pestaña <strong>Selección de jerarquía</strong>, en la lista <strong>Tipo de jerarquía</strong>, seleccione el tipo de jerarquía al que desea remitir la tarea para una instancia superior.</li>
-    <li>El sistema debe recuperar un intervalo de nombres de usuario de la jerarquía. Dichos nombres representan a los usuarios a los que se puede remitir la tarea para una instancia superior. Siga estos pasos para especificar el punto de inicio y de finalización del intervalo de nombres de usuario que el sistema recupera:
-    <ol>
+    <li>El sistema debe recuperar un intervalo de nombres de usuario de la jerarquía. Dichos nombres representan a los usuarios a los que se puede remitir la tarea para una instancia superior. Siga estos pasos para especificar el punto de inicio y de finalización del intervalo de nombres de usuario que el sistema recupera: <ol>
     <li>Para especificar el punto de inicio, seleccione una persona en la lista <strong>Comenzar desde</strong>.</li>
     <li>Para especificar el punto de finalización, haga clic en <strong>Agregar condición</strong>. A continuación, especifique una condición que determine en qué parte de la jerarquía el sistema dejará de recuperar nombres.</li>
     </ol></li>
-    <li>En la pestaña <strong>Opciones de jerarquía</strong>, especifique a qué usuarios del intervalo se debe remitir la tarea para una instancia superior:
-    <ul>
+    <li>En la pestaña <strong>Opciones de jerarquía</strong>, especifique a qué usuarios del intervalo se debe remitir la tarea para una instancia superior: <ul>
     <li><strong>Asignar a todos los usuarios recuperados</strong>: la tarea se remite para una instancia superior para todos los usuarios del intervalo.</li>
     <li><strong>Asignar sólo al último usuario recuperado</strong>: la tarea se remite para una instancia superior únicamente al último usuario del intervalo.</li>
     <li><strong>Excluir usuarios con la siguiente condición</strong>: esta tarea no se remite para una instancia superior a ninguno de los usuarios del intervalo que cumplen con una condición determinada. Haga clic en <strong>Agregar condición</strong> para especificar la condición.</li>

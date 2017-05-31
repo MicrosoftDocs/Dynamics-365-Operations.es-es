@@ -3,9 +3,10 @@
 # Planificación maestra
 ## Crear previsión de la demanda
 ### [Visión general de previsión de la demanda](master-planning/introduction-demand-forecasting.md)
-### [Configurar modelo de previsión](master-planning/demand-forecasting-setup.md)
+### [Configurar una previsión de la demanda](master-planning/demand-forecasting-setup.md)
+### [Importar datos históricos para previsión de la demanda](master-planning/import-historical-data.md)
 ### [Generar previsión estadística de línea base](master-planning/generate-statistical-baseline-forecast.md)
-### [Realización de ajustes manuales realizados en la previsión de línea base](master-planning/manual-adjustments-baseline-forecast.md)
+### [Realizar ajustes manuales en la previsión de línea base](master-planning/manual-adjustments-baseline-forecast.md)
 ### [Autorizar previsión de la demanda ajustada](master-planning/authorize-adjusted-forecast.md)
 ### [Supervisión de la precisión de previsión](master-planning/monitor-forecast-accuracy.md)
 ### [Eliminación de valores atípicos de los datos de transacción históricos](master-planning/remove-historical-outliers-calculating-demand-forecast.md)
