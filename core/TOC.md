@@ -44,29 +44,30 @@
 ## [Configurar y enviar correo electrónico](organization-administration/configure-email.md)
 ## [Datos de fecha y hora y las zonas horarias](organization-administration/date-time-zones.md)
 
-# Diseños de flujo de trabajo
+# Diseñar flujos de trabajo
 ## [Visión general del sistema de flujo de trabajo](organization-administration/overview-workflow-system.md)
-## [Arquitectura](organization-administration/workflow-system-architecture.md)
-## [Acciones](organization-administration/workflow-actions.md)
-## [Elementos](organization-administration/workflow-elements.md)
+### [Arquitectura](organization-administration/workflow-system-architecture.md)
+### [Acciones](organization-administration/workflow-actions.md)
+### [Elementos](organization-administration/workflow-elements.md)
+## [Crear un flujo de trabajo](organization-administration/create-workflow.md)
+### [Configurar un proceso de aprobación](organization-administration/configure-approval-process-workflow.md)
+### [Configurar un paso de aprobación](organization-administration/configure-approval-step-workflow.md)
+### [Configuración de una tarea automatizada](organization-administration/configure-automated-task-workflow.md)
+### [Configuración de una decisión condicional](organization-administration/configure-conditional-decision-workflow.md)
+### [Configuración de un flujo de trabajo de elementos](organization-administration/configure-line-item-workflow.md)
+### [Configuración de una decisión manual](organization-administration/configure-manual-decision-workflow.md)
+### [Configuración de una tarea manual](organization-administration/configure-manual-task-workflow.md)
+### [Configuración de una actividad paralela](organization-administration/configure-parallel-activity-workflow.md)
+### [Configurar una rama paralela](organization-administration/configure-parallel-branch-workflow.md)
+## [Configurar propiedades del flujo de trabajo](organization-administration/configure-workflow-properties.md)
+## [Configurar el trabajo por lotes de procesamiento de mensajes](organization-administration/workflow-batch-job-critical.md)
 ## [Informe de tipos de flujo de trabajo](organization-administration/workflow-types-report.md)
-## [Creación de un flujo de trabajo](organization-administration/create-workflow.md)
-## [Configuración de un proceso de aprobación](organization-administration/configure-approval-process-workflow.md)
-## [Configuración de un paso de aprobación](organization-administration/configure-approval-step-workflow.md)
-## [Configuración de una tarea automatizada](organization-administration/configure-automated-task-workflow.md)
-## [Configuración de una decisión condicional](organization-administration/configure-conditional-decision-workflow.md)
-## [Configuración de un flujo de trabajo de elementos](organization-administration/configure-line-item-workflow.md)
-## [Configuración de una decisión manual](organization-administration/configure-manual-decision-workflow.md)
-## [Configuración de una tarea manual](organization-administration/configure-manual-task-workflow.md)
-## [Configuración de una actividad paralela](organization-administration/configure-parallel-activity-workflow.md)
-## [Configuración de una rama paralela](organization-administration/configure-parallel-branch-workflow.md)
-## [Configuración de propiedades del flujo de trabajo](organization-administration/configure-workflow-properties.md)
 
 # [Operaciones financieras](/dynamics365/operations/financials/index)
 
 # [Recursos humanos](/dynamics365/operations/human-resources/index)
 
-# [Venta al por menor](/dynamics365/operations/retail/index)
+# [Venta minorista](/dynamics365/operations/retail/index)
 
 # [Gestión de la cadena de suministro](/dynamics365/operations/supply-chain/index)
 

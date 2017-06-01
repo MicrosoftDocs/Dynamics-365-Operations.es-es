@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 3df3144b08c54441699d9c0b48fe507857877586
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5208dc64d86345de4e53c5e293fbc861351a63ef
 ms.contentlocale: es-es
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -59,6 +59,7 @@ Cuando un empleado de la entidad jurídica 2222 crea una solicitud de compra, la
 
 En el ejemplo anterior, todas las reglas de compra se definieron en una jerarquía organizativa única, en este caso, la jerarquía organizativa Empresas. No obstante, una organización compleja puede definir directivas para varias jerarquías organizativas.  
 
+
 Contoso es una empresa grande que requiere reglas de compra complejas para controlar el proceso de solicitud. Contoso ha definido reglas para dos jerarquías organizativas diferentes: Departamento y Control de compra mundial.  
 
 La directiva 123 se define para la jerarquía organizativa Departamento para el departamento de ventas del Reino Unido. En la directiva 123, la regla de control de solicitud de compra especifica que se deben aplicar restricciones para cantidades de pedido mínimas. En esta regla, está activada la opción **Exigir las restricciones mínimas en la cantidad del pedido**.  
@@ -93,6 +94,9 @@ La regla de directivas de categoría define cómo pueden seleccionar los usuario
 ### <a name="re-approval-rule-for-purchase-orders"></a>Regla de nueva aprobación para pedidos de compra
 
 La regla de nueva aprobación es una regla opcional que define los criterios para requerir reaprobación al realizar cambios en un pedido de compra. Los campos seleccionados se evalúan en flujo de trabajo de pedido de compra cuando se configura la condición "Requiere nueva aprobación de pedido de compra" en el flujo de trabajo.
+
+> [!NOTE]
+> La distribución contable siempre se restablece cuando se modifica un pedido de compra aprobado con administración de cambios. Así que debe tener en cuenta que, si desea evitar una nueva aprobación de un pedido de compra cuando se cambian determinados campos, el campo Accounting distribution.changed NO se debe incluir como campo seleccionado para la nueva aprobación. 
 
 ### <a name="purchase-requisition-rfq-rule"></a>Regla de solicitud de presupuesto para solicitud de compra
 

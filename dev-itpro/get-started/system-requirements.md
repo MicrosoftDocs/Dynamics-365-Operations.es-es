@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.search.scope: Core
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 86053196a3aad6b7b5d7830860e1af347dd969d8
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: de2f71a21c5aac953349559c84283d0f76082d42
 ms.contentlocale: es-es
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -42,7 +42,9 @@ La aplicación web de Microsoft Dynamics 365 for Operations se puede ejecutar en
 -   Google Chrome (la versión disponible publicada más recientemente) en Windows 10, Windows 8.1, Windows 8, Windows 7 o la tableta Google Nexus 10
 -   Apple Safari (la versión disponible publicada más recientemente) en Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) o 10.12 (Sierra) o Apple iPad
 
-Para buscar la versión más reciente para cada explorador web, vaya al sitio web del fabricante de software. **Notas:**
+Para buscar la versión más reciente para cada explorador web, vaya al sitio web del fabricante de software. 
+
+**Notas:**
 
 -   Para tomar las imágenes generadas en el Grabador de tareas y incluirlas en los documentos de Microsoft Word, debe tener una extensión de Chrome instalada. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
 -   El editor de flujo de trabajo se inicia como aplicación ClickOnce. Solo Microsoft Edge y Internet Explorer (en una versión compatible de Microsoft Windows) admiten aplicaciones ClickOnce. La aplicación ClickOnce del editor de flujo de trabajo requiere un sistema operativo compatible de 64 bits.
@@ -59,10 +61,12 @@ Retail Cloud POS para Dynamics 365 for Operations se puede ejecutar en cualquier
 -   Chrome (la versión disponible publicada recientemente) en Windows 10, Windows 8.1 o Windows 7
 
 ## <a name="network-requirements"></a>Requisitos de red
--   Dynamics 365 for Operations está diseñado para redes con latencia de menos de 150 milisegundos (ms). Esta es la latencia de un cliente de explorador al centro de datos de Microsoft Azure que aloja Dynamics 365 for Operations. Se recomienda que pruebe la latencia de red en <http://www.azurespeed.com>.
+-   Dynamics 365 for Operations está diseñado para redes con latencia de 250-300 milisegundos (ms) o menos. Esta es la latencia de un cliente de explorador al centro de datos de Microsoft Azure que aloja Dynamics 365 for Operations. Se recomienda que pruebe la latencia de red en <http://www.azurespeed.com>.
 -   Los requisitos del ancho de banda para Dynamics 365 for Operations dependen de su caso. La mayoría de las situaciones habituales requieren un ancho de banda de más de 50 kilobytes por segundo (Kbps). Sin embargo, para las situaciones con requisitos de carga elevados, como los espacios de trabajo o las situaciones que implican una personalización amplia, se recomienda más ancho de banda.
 
-En general, Dynamics 365 for Operations se optimiza para Internet. El número de acciones de ida y vuelta de un cliente de explorador al centro de datos de Azure es muy pequeño y se comprime la carga completa. **Advertencia**: No calcule los requisitos del ancho de banda de una ubicación del cliente multiplicando el número de usuarios por los requisitos mínimos del ancho de banda. El uso simultáneo de una ubicación determinada es muy difícil de calcular. Para los clientes que están preocupados por los requisitos del ancho de banda, use una versión preliminar de Dynamics 365 for Operations.
+En general, Dynamics 365 for Operations se optimiza para Internet. El número de acciones de ida y vuelta de un cliente de explorador al centro de datos de Azure es muy pequeño y se comprime la carga completa. 
+
+**Advertencia**: No calcule los requisitos del ancho de banda de una ubicación del cliente multiplicando el número de usuarios por los requisitos mínimos del ancho de banda. El uso simultáneo de una ubicación determinada es muy difícil de calcular. Para los clientes que están preocupados por los requisitos del ancho de banda, use una versión preliminar de Dynamics 365 for Operations.
 
 ## <a name="net-framework-requirements"></a>Requisitos de .NET Framework
 Dynamics 365 for Operations requiere la versión 4.6.2 de .NET Framework para todas las aplicaciones de un solo clic como el agente de ruta del documento. Para obtener instrucciones de instalación, consulte [Instalación de .NET Framework](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).

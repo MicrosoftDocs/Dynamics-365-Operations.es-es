@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: c9f1e32986238739fc7eee519fd1d17a6ce6731e
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 55a3252aa2d84ac5af68a1a6eebeaa909d95b33b
 ms.contentlocale: es-es
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -34,6 +34,9 @@ ms.lasthandoff: 04/25/2017
 Esta página señala los temas que pueden ayudarle a obtener información acerca de las nuevas características de las versiones más recientes de Microsoft Dynamics 365 for Operations.
 
 Para actualizar a la versión más reciente, vea [Proceso para ir a la actualización más reciente de Dynamics 365 for Operations](../migration-upgrade/upgrade-latest-update.md).
+
+Para obtener más información acerca de los espacios de trabajo móviles y el contenido de Power BI lanzado recientemente, vea [Espacios de trabajo móviles lanzados recientemente para la aplicación móvil Dynamics 365 for Operations](../mobile-apps/mobile-workspaces-released.md) y [Contenido de Power BI lanzado recientemente para Dynamics 365 for Operations](../analytics/power-bi-content-released.md)
+
 <table>
 <colgroup>
 <col width="20%" />
@@ -44,15 +47,21 @@ Para actualizar a la versión más reciente, vea [Proceso para ir a la actualiza
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Liberar</strong></th>
+<th><strong>Lanzamiento</strong></th>
 <th><strong><strong>Versión</strong></strong></th>
-<th><strong><strong>Crear número</strong></strong></th>
+<th><strong><strong>Número de compilación</strong></strong></th>
 <th><strong><strong>Disponibilidad</strong></strong></th>
 <th><strong><strong>Para obtener más información</strong></strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td>Plataforma de Microsoft Dynamics 365 for Operations</td>
+<td>Actualización 7 de la plataforma</td>
+<td> 7.0.4542.16189</td>
+<td>2017 de mayo</td>
+<td><a href="whats-new-platform-update-7.md">Novedades o cambios en la actualización 7 de la plataforma de Dynamics 365 for Operations (mayo de 2017)</a></td>
+</tr><tr class="odd">
 <td>Plataforma de Microsoft Dynamics 365 for Operations</td>
 <td>Actualización 6 de la plataforma</td>
 <td> 7.0.4509.16180</td>

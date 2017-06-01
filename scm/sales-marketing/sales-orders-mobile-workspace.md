@@ -3,10 +3,10 @@ title: "Espacio de trabajo móvil de pedidos de ventas"
 description: "Este tema proporciona información acerca del espacio de trabajo móvil de pedidos de ventas, que está disponible para la aplicación móvil Microsoft Dynamics 365 for Operations. Este espacio de trabajo le permitirá estar informado sobre los pedidos de ventas en cualquier momento y cualquier lugar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 119b80e5d8067ffbf75d8b067f4803558c2c94b0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 11898146a13756a6bb22a769e37e8773484e0d04
 ms.contentlocale: es-es
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,7 +37,9 @@ Este tema proporciona información acerca del espacio de trabajo móvil de pedid
 <a name="overview-of-the-sales-orders-mobile-workspace"></a>Visión general del espacio de trabajo móvil de pedidos de ventas
 ---------------------------------------------
 
-El espacio de trabajo móvil **Pedidos de ventas** tiene acceso a Microsoft Dynamics 365 for Operations y le permite ver información detallada sobre cada pedido de ventas. Esta información incluye el estado del pedido, la información de contacto para el cliente, y la información de contacto del creador del pedido. El espacio de trabajo móvil **Pedidos de ventas** proporciona una vista inmediata de los pedidos de ventas. Puede ver todos los pedidos de ventas, o ver los pedidos de ventas por cliente o ver la información sobre un pedido de ventas concreto. El espacio de trabajo móvil proporciona dos perspectivas que le ayudarán a analizar en detalle los pedidos de ventas.
+El espacio de trabajo móvil **Pedidos de ventas** tiene acceso a Microsoft Dynamics 365 for Operations y le permite ver información detallada sobre cada pedido de ventas. Esta información incluye el estado del pedido, la información de contacto para el cliente, y la información de contacto del creador del pedido. El espacio de trabajo móvil **Pedidos de ventas** proporciona una vista inmediata de los pedidos de ventas. Puede ver todos los pedidos de ventas, o ver los pedidos de ventas por cliente o ver la información sobre un pedido de ventas concreto. 
+
+El espacio de trabajo móvil proporciona dos perspectivas que le ayudarán a analizar en detalle los pedidos de ventas.
 
 ### <a name="view-all-sales-orders"></a>Ver todos los pedidos de ventas
 
@@ -50,6 +52,7 @@ Esta vista muestra todos los pedidos de ventas.
     -   Buscar por estado
     -   Buscar por estado de liberación
     -   Buscar por fecha y hora de creación
+    
 -   Tras seleccionar los pedidos de ventas, puede ver los detalles de pedidos específicos. Concretamente, puede ver la siguiente información:
     -   Información del nombre y la dirección del cliente
     -   Diversas fechas del pedido de ventas, como la fecha de envío solicitada y la fecha de envío confirmada
@@ -65,6 +68,7 @@ Esta vista muestra pedidos de ventas por cliente.
 -   Utilice uno de los filtros siguientes para ver los pedidos de un cliente:
     -   Buscar por nombre
     -   Buscar por cuenta
+
 -   Tras seleccionar un cliente, puede ver la información siguiente:
     -   Nombre y grupo del cliente
     -   Información de contacto del cliente
@@ -96,7 +100,7 @@ Para poder usar el espacio de trabajo móvil **Pedidos de ventas** , asegúrese 
 <tr class="odd">
 <td>Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior debe estar implementado.</td>
 <td>Administrador del sistema</td>
-<td>Si todavía no tiene Dynamics 365 for Operations implementado en su organización, el administrador del sistema debería ver <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Implementar un entorno de demostración de Microsoft Dynamics 365 for Operations</a>.</td>
+<td>Si todavía no tiene Dynamics 365 for Operations implementado en su organización, el administrador del sistema debería ver <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment/">Implementar un entorno de demostración de Microsoft Dynamics 365 for Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>KB 4013633 debe implementarse.</td>
@@ -104,9 +108,9 @@ Para poder usar el espacio de trabajo móvil **Pedidos de ventas** , asegúrese 
 <td>KB 4013633 (una revisión de metadatos o actualización de X++) contiene cuatro áreas de trabajo móviles para la gestión de cadenas de suministro. Para implementar KB 4013633, el administrador del sistema debe seguir estos pasos:
 <ol>
 <li>Descargar KB 4013633 de Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Instalar la revisión de metadatos</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Crear un paquete desplegable</a> que contenga el modelo <strong>SCMMobile</strong> y luego cargar el paquete desplegable en LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Aplicar el paquete desplegable</a> a su sistema Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar la revisión de metadatos</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Crear un paquete desplegable</a> que contenga el modelo <strong>SCMMobile</strong> y luego cargar el paquete desplegable en LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Aplicar el paquete desplegable</a> a su sistema Dynamics 365 for Operations.</li>
 </ol></td>
 </tr>
 <tr class="odd">

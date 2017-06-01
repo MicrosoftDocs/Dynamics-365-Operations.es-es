@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 1ab51f90be918ee60e99fe11e5425383beefb26e
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 6e8e87df88aace213f50db617229383eba4d86ec
 ms.contentlocale: es-es
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -47,13 +47,11 @@ Cerrar los períodos en la contabilidad general
 |Confirmar pedido de ventas                   | Permite actualizar los pedidos de ventas.                                                                       |
 |Revalorización de divisa extranjera          | Permite generar transacciones que actualizan el valor de transacciones del cliente abiertas en divisas.                                                                                                                         |
 | Diario                              | Permite registrar facturas, pagos y pagarés.                                             |
-| Asiento del diario                      | -   **Diario de pagos**: permite generar, procesar y registrar pagos.
-                                         -   **Draw bill of exchange journal** – Post bills of exchange.
-                                         -   **Protest bill of exchange journal** – Post protested bills of exchange.
-                                         -   **Redraw bill of exchange journal** – Post redrawn bills of exchange.
-                                         -   **Remittance journal** – Post remittances.
-                                         -   **Settle bill of exchange journal** – Post settled bills of exchange                   |
-| Albaranes de pedidos de ventas                 | Permite actualizar los albaranes de los pedidos de ventas.                                                     | | Registrar la factura de servicio               | Permite registrar facturas de servicios.                                                                   | | Registro de factura                      | Permite registrar facturas para los pedidos de ventas.                                                            | | Registro de lista de selección                 | Permite actualizar las listas de selección de los pedidos de ventas.                                                      |
+| Asiento del diario                      |<ul><li>**Diario de pagos**: permite generar, procesar y registrar pagos.</li><li>**Diario de creación de letra de cambio**: permite registrar letras de cambio.</li><li>**Diario de impago de letras de cambio**: permite registrar letras de cambio impagadas.</li><li>**Diario de renegociación de letras de cambio**: permite registrar letras de cambio renegociadas.</li><li>**Diario de envíos**: permite registrar envíos.</li><li>**Diario de liquidación de letra de cambio**: permite registrar letras de cambio liquidadas</li></ul>                   |
+| Registro del albarán                 | Permite actualizar los albaranes de los pedidos de ventas.                                                     |
+| Registrar la factura de servicio               | Permite registrar facturas de servicios.                                                                   |
+| Registro de factura                      | Permite registrar facturas para los pedidos de ventas.                                                            |
+| Registro de lista de selección                 |Permite actualizar las listas de selección de los pedidos de ventas.                                                      |
 
 **Tarea del componente del proceso empresarial**   
 

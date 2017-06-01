@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
-ms.openlocfilehash: a5c45bb0b9ed10c989a3222a751df3f454b14a0b
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: eaee0edb4822a386c8781d9929999cea326f0a40
 ms.contentlocale: es-es
-ms.lasthandoff: 04/26/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -53,7 +53,7 @@ Los atributos le permiten describir un producto y sus características a través
 | Plasma     | Temporalidad de operación desde      | 32–110 grados              | 32            |
 | Plasma     | Temporalidad de operación hasta        | 32–110 grados              | 100           |
 | Proyección | Garantía de tubo de proyección | 612 o 18 meses         | 12            |
-| Proyección | #  de tubos de proyección    | 1 – 5                         | 3             |
+| Proyección | # de tubos de proyección    | 1 – 5                         | 3             |
 
 
 ## <a name="attribute-type"></a>Tipo de atributo

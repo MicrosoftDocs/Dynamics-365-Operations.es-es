@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ef434747c075a32887035fa1d3c0e6fecd4e0a0d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
 ms.contentlocale: es-es
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -68,7 +68,7 @@ Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynam
 | Abrir el panel del cuadro informativo (o mover el enfoque al panel de cuadro informativo si ya está abierto) | Ctrl+F2                                   |
 | Cerrar el panel del cuadro informativo (con el enfoque en el panel del cuadro informativo)                         | Esc                                       |
 | Pasar al cuadro informativo siguiente/anterior (con el enfoque en el panel del cuadro informativo)              | Alt+Mayús+Flecha abajo / Alt+Mayús+Flecha arriba |
-| Pasar al cuadro informativo &lt;n&gt; (con el enfoque en el panel del cuadro informativo)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Pasar al &lt;n&gt;-ésimo cuadro informativo (con el enfoque en el panel del cuadro informativo)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Expandir un cuadro informativo (con el enfoque en el encabezado del cuadro informativo)                             | Espacio o Intro                            |
 | Contraer el cuadro informativo actual                                                    | Alt+0                                     |
 
@@ -115,8 +115,8 @@ Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynam
 | Ir al campo siguiente/anterior.                     | Tabulador / Mayús+Tab                              |
 | Ir a la ficha siguiente/anterior                       | Alt+Mayús+Fecha derecha / Alt+Mayús+Flecha izquierda |
 | Ir a la ficha desplegable siguiente/anterior                   | Alt+Mayús+Flecha abajo / Alt+Mayús+Flecha arriba    |
-| Ir a la ficha desplegable &lt;n&gt;                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| Ir a la ficha &lt;n&gt;                         | Alt+Mayús+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Ir a la &lt;n&gt;-ésima ficha desplegable                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Ir a la &lt;n&gt;-ésima pestaña                         | Alt+Mayús+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Expandir una lista desplegable (con el enfoque en el encabezado de la ficha desplegable) | Espacio o Intro                               |
 | Contraer la ficha desplegable actual                        | Alt+0                                        |
 | Cambiar a la vista de cuadrícula                                 | Ctrl+Mayús+G                                 |
