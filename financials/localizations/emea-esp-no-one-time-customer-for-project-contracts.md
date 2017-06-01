@@ -10,9 +10,9 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustTable
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 264394
-ms.assetid: 28357e20-5e7e-4fe9-bbdf-d4812951369e
 ms.search.region: Spain
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30

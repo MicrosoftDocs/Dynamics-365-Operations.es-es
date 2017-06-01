@@ -12,10 +12,9 @@ audience: Application User
 ms.reviewer: annbe
 ms.search.scope: Operations, Core
 ms.custom: 271503
-ms.assetid: 6b2a8a42-3c23-4e20-98aa-d3babfd893ab
 ms.search.region: Spain
 ms.author: v-elgolu
-ms.dyn365.ops.intro: Version 1611
+ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670

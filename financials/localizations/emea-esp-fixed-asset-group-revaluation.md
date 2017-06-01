@@ -9,9 +9,9 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 264994
-ms.assetid: 50ed4cae-7606-4ded-a07b-992848ece5ae
 ms.search.region: Spain
 ms.author: epopov
 ms.search.validFrom: 2016-11-30

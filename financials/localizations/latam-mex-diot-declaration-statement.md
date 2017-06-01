@@ -1,7 +1,7 @@
 ---
 title: "Informe de declaración DIOT"
 description: "En este tema se proporciona información acerca del informe de declaración DIOT para México."
-author: ShylaThompson
+author: sndray
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -10,6 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DIOTDeclarationConcept_MX, DIOTDeclarationTaxCode_MX, VendTable
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 79334
 ms.assetid: 0cdb4da3-dca8-4e31-8fd5-8a1f785b5104
