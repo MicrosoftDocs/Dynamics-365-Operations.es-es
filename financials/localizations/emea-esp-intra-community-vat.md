@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 271523
 ms.search.region: Spain
