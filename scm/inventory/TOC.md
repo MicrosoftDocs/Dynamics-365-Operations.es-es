@@ -21,4 +21,5 @@
 # Seguimiento de artículo y lote
 ## [Combinación de lotes de inventario](merge-inventory-batches.md)
 ## [Seguimiento de artículo y materia prima](trace-items-raw-materials-inventory-production-sales.md)
+## [Registro de números de serie en el proceso de ventas](../sales-marketing/register-serial-numbers-sales-process.md)
 
