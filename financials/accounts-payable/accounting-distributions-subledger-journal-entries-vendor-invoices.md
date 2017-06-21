@@ -3,7 +3,7 @@ title: Distribuciones contables y asientos del subdiario contable para las factu
 description: "Las distribuciones contables se usan para definir cómo un importe se justificará, por ejemplo, cómo se justificarán los gastos, impuestos o cargos en la factura de un proveedor. Cada importe que se debe justificar cuando se registre en el diario la factura de proveedor tendrá una o varias distribuciones contables."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

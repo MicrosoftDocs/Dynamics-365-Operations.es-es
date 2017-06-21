@@ -3,7 +3,7 @@ title: "Organizar los componentes del informe en el diseñador de informes"
 description: "Una vez ha diseñado los bloques de creación y los informes generados, resulta útil organizar estos objetos para que los usuarios los encuentren más fácilmente. En este artículo se explica cómo organizar los informes existentes, los bloques de creación y los objetos en el diseñador de informes."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

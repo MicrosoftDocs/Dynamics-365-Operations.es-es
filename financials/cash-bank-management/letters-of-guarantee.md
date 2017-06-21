@@ -3,7 +3,7 @@ title: "Cartas de garantía"
 description: "Este artículo proporciona información acerca de las cartas de garantía. En una carta de garantía, un banco acepta pagar una cierta cantidad de dinero a una persona si uno de los clientes del banco se retrasa en un pago o en la obligación a dicha persona."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

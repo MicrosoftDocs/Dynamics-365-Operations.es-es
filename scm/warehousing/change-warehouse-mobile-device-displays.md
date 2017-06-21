@@ -3,7 +3,7 @@ title: "Configuración de visualización del dispositivo móvil del almacén"
 description: "Este artículo describe cómo configurar el aspecto de una visualización del dispositivo móvil y cómo asignar teclas de método abreviado a controles, como botones."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

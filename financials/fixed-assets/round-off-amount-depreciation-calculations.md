@@ -3,7 +3,7 @@ title: "Importe de redondeo para cálculos de depreciación"
 description: "Este artículo describe el campo Depreciación de redondeo que se encuentra en las páginas de Configuración del libro."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

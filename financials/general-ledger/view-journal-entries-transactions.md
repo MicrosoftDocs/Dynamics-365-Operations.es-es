@@ -3,7 +3,7 @@ title: Ver movimientos del diario y transacciones
 description: "Este artículo explica las distintas maneras en las que puede ver entradas del diario y transacciones."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

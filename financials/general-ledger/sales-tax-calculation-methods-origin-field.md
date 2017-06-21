@@ -3,7 +3,7 @@ title: "Métodos de cálculo de impuestos en el campo Origen"
 description: "Este artículo explica las opciones del campo Origen en la página de códigos de impuestos y cómo se calculan los impuestos en función de la opción seleccionada para un código de impuestos."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

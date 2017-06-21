@@ -3,7 +3,7 @@ title: Usar seguimiento para expansiones
 description: "Este artículo explica cómo puede usar el seguimiento para explorar las causas tras el resultado de una expansión de pedido."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

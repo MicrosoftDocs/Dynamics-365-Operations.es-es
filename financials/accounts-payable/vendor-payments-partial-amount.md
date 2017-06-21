@@ -3,7 +3,7 @@ title: Pagos de proveedor para un importe parcial
 description: "En ocasiones, puede crear un pago a un proveedor inferior al importe de una factura. Este artículo describe las diferentes opciones para gestionar esta situación. Las opciones disponibles dependen de la configuración y de los requisitos empresariales."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

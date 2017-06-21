@@ -3,7 +3,7 @@ title: "Revalorización de divisa extranjera para Contabilidad general"
 description: "Este tema proporciona una visión general de los siguientes pasos para el proceso de revalorización de divisa extranjera de la contabilidad general: configuración, ejecución del proceso, cálculo para el proceso y cómo invertir las transacciones de revalorización, en caso necesario."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

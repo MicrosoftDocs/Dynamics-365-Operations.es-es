@@ -3,7 +3,7 @@ title: "Gestionar actualizaciones de coste estándar"
 description: "Las actualizaciones los datos de coste estándar se pueden gestionar con dos métodos diferentes: el método de una versión y el de dos versiones."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

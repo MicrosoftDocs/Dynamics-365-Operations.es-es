@@ -3,7 +3,7 @@ title: "Funcionalidad del diseñador de lista de materiales"
 description: "Este artículo describe cómo puede usar la página del diseñador de L. MAT para diseñar y trabajar con estructuras de árbol para las listas de materiales (L. MAT). Puede hacer clic Configurar para seleccionar distintas configuraciones y especificar qué información aparece en las líneas del árbol."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Planificar cargas mediante la consolidación de concentrador"
 description: "En este artículo se describe la característica de consolidación de envíos en un concentrador al entregar mercancías desde almacenes diferentes al mismo cliente, o cuando recibe mercancías de varios proveedores en el mismo almacén."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

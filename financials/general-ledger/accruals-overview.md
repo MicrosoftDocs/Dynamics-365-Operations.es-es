@@ -3,7 +3,7 @@ title: "Visión general de Acumulaciones"
 description: "Este artículo describe acumulaciones y proporciona información acerca de cómo configurarlas y crear transacciones."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

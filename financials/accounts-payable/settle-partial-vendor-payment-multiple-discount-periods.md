@@ -3,7 +3,7 @@ title: "Liquidar un pago de proveedor parcial con varios períodos de descuento"
 description: "Este artículo le guía por un escenario en el que se realizan varios pagos parciales a un proveedor que ofrece varios descuentos por pronto pago."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

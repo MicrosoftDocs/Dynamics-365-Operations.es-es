@@ -3,7 +3,7 @@ title: Informe de resguardo de pago para Europa
 description: "Este tema proporciona información sobre los informes de resguardo de pago para Europa."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

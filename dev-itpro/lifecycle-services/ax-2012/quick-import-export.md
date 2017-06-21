@@ -3,7 +3,7 @@ title: "Usar importación y exportación rápidas"
 description: "El propósito de la importación y exportación rápidas es permitirle importar y exportar con menos pasos."
 author: margoc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: dynamics-ax-2012
 ms.service: 

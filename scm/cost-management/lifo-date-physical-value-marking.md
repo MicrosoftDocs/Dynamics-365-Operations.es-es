@@ -3,7 +3,7 @@ title: "Fecha LIFO con valor físico y marcado"
 description: "El método de valoración contable de fecha LIFO (Último en entrar, primero en salir) es un modelo de inventario. Las emisiones del inventario se liquidan contra las últimas recepciones del inventario según la fecha de transacción de inventario. Mediante la fecha LIFO, si no existe ninguna recepción antes de la emisión, ésta se liquida frente a cualquier recepción que ocurra después de la fecha de la emisión. Varias emisiones en una misma fecha se pueden liquidar en el orden de última emisión, última recepción."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

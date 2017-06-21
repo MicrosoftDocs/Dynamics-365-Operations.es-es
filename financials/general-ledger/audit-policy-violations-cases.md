@@ -3,7 +3,7 @@ title: "Infracciones y casos de directivas de auditoría"
 description: "El artículo explica cómo se generan los casos de auditoría a partir de infracciones de reglas de directivas de auditoría. También incluye información acerca de las distintas maneras en que las directivas de auditoría usan el intervalo de fechas de selección de documentos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

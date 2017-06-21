@@ -3,7 +3,7 @@ title: Planificar su plan de cuentas
 description: "Este artículo proporciona información que le ayudará a planificar el plan de cuenta para su organización."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

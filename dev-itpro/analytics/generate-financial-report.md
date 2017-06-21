@@ -3,7 +3,7 @@ title: Generar un informe financiero
 description: "Este tema proporciona información acerca de la generación de un informe financiero."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

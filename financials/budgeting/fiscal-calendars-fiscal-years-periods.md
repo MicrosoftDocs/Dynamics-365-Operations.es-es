@@ -3,7 +3,7 @@ title: "Calendarios fiscales, ejercicios y períodos"
 description: "En este artículo se describen los calendarios fiscales, los ejercicios y los períodos y cómo usarlos para entidades jurídicas, activos fijos y gestión presupuestaria."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

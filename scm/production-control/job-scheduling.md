@@ -3,7 +3,7 @@ title: "Programación de trabajos"
 description: "Este artículo proporciona información acerca de la programación de trabajos, que es un formulario más detallado de programación que la programación de operaciones. Puede utilizar una programación de trabajos para programar trabajos o pedidos de tienda y controlar el entorno de fabricación."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

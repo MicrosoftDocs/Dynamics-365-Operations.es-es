@@ -3,7 +3,7 @@ title: Programaciones de entrega
 description: "Las programaciones de entrega le permiten realizar el seguimiento de cantidad de la línea de pedido cuando está usando entregas para un pedido de ventas único, un presupuesto de ventas o un pedido de compra."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

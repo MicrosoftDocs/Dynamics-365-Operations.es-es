@@ -3,7 +3,7 @@ title: "Visión general de conversión de costes estándares"
 description: "Este artículo proporciona una visión general del proceso para ayudarle a configurar y a ejecutar una conversión de coste estándar. Los pasos mostrados están pensados para completarse una vez se hayan completado los requisitos previos para una conversión de coste estándar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

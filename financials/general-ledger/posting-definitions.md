@@ -3,7 +3,7 @@ title: "Definiciones de contabilización"
 description: "Este artículo proporciona información acerca de las definiciones de contabilización, y acerca de cómo definirlas y vincularlas. Para los tipos de contabilización y documentos admitidos, puede usar definiciones de contabilización en lugar de los perfiles de contabilización para clasificar cuentas principales y las dimensiones financieras de asientos contables."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

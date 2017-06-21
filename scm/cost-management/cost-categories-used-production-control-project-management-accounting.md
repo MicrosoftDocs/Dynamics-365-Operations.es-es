@@ -3,7 +3,7 @@ title: "Categorías de coste usadas en el control de producción y en la contabi
 description: "Algunos tipos de trabajo de producción se pueden aplicar a estimaciones del tiempo del proyecto y a los informes. Este artículo proporciona información acerca de las categorías de coste que debe definir para estos tipos de trabajos de producción con fines de producción y del proyecto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Sustitución material en la fabricación"
 description: "Este tema describe cómo sustituir materiales durante el proceso de producción."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

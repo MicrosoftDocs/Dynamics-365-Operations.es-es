@@ -3,7 +3,7 @@ title: "Usar un pago de cliente para liquidar varias facturas que abarcan varios
 description: "En este artículo se muestra cómo se pagan varias facturas cuando cada factura permite un descuento por pronto pago. Los escenarios de su artículo destacan cómo varían los descuentos por pronto pago que se aplican, en función de cuándo se realiza el pago."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

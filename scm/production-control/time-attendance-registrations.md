@@ -3,7 +3,7 @@ title: Registro de Tiempo y asistencia
 description: "Los trabajadores del registro de horas pueden especificar distintos tipos de registros de horas, por ejemplo entrada, salida, registro de actividades indirectas y registro de ausencia. Este artículo describe registros, su cálculo, aprobación y uso del flujo de trabajo para agregar la estructura y la aprobación automatizada al proceso de aprobación de hojas de horas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

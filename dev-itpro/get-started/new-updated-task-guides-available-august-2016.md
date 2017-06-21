@@ -3,7 +3,7 @@ title: "Guías de tareas nuevas o actualizadas (agosto de 2016)"
 description: "En este tema se muestran las Guías de tareas nuevas o actualizadas que se publicaron en la Biblioteca unificada APQC de Microsoft (agosto de 2016: todos los idiomas) para Microsoft Dynamics AX. No se publicó ninguna biblioteca de introducción nueva."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

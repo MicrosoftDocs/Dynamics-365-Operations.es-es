@@ -1,9 +1,9 @@
 ---
 title: "Hojas de gestión de costes"
-description: "La configuración de la hoja de gestión de costes implica dos objetivos. En primer lugar, se define el formato para la visualización de la información de coste de los bienes vendidos acerca de un artículo fabricado o un pedido de producción. La visualización con formato se denomina &quot;hoja de gestión de costes&quot;. En segundo lugar, se define la base del cálculo de los costes indirectos. La configuración de la hoja de gestión de costes se basa en la característica de grupo de costes para la visualización de información y para las fórmulas de cálculo de costes indirectos. En este artículo se describen los dos objetivos de la configuración de la hoja de gestión de costes:"
+description: "La configuración de la hoja de gestión de costes implica dos objetivos. En primer lugar, se define el formato para la visualización de la información de coste de los bienes vendidos acerca de un artículo fabricado o un pedido de producción. La visualización con formato se denomina \"hoja de gestión de costes\". En segundo lugar, se define la base del cálculo de los costes indirectos. La configuración de la hoja de gestión de costes se basa en la característica de grupo de costes para la visualización de información y para las fórmulas de cálculo de costes indirectos. En este artículo se describen los dos objetivos de la configuración de la hoja de gestión de costes:"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

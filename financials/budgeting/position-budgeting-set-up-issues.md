@@ -3,7 +3,7 @@ title: "Solución de problemas de presupuesto"
 description: "Este artículo proporciona respuestas a preguntas que puede que tenga cuando configure el presupuesto de puesto. Responde a preguntas frecuentes acerca de cómo crear elementos de costes presupuestarios, grupos de compensación y cuadrículas de compensación."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Liquidar un pago de proveedor parcial con descuentos en notas de abono de
 description: "Este artículo le guía por un escenario donde se liquida una nota de crédito con una factura."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

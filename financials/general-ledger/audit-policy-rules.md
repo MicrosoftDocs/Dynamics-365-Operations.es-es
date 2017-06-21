@@ -3,7 +3,7 @@ title: "Reglas de directivas de auditoría"
 description: "Puede usar directivas de auditoría para evaluar si ciertos informes de gastos, facturas de proveedor y pedidos de compra para asegurarse de que cumplan las reglas de directivas que ha creado. Todas las reglas asociadas a una directiva de auditoría se ejecutan en el modo por lotes, de acuerdo con la programación que haya especificado.  Cada regla de directivas pertenece a un tipo de regla de directivas. Sólo puede haber una regla de directivas activa por cada tipo de regla de directivas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Página principal de gestión de efectivo y bancos"
 description: "Puede usar la Gestión de efectivo y bancos para mantener las cuentas bancarias de la entidad jurídica y los instrumentos financieros asociados a dichas cuentas bancarias."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

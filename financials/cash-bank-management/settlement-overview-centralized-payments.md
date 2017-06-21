@@ -3,7 +3,7 @@ title: "Vista general de la liquidación para pagos centralizados"
 description: "Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica que controle todos los pagos. De esta forma, se elimina la necesidad de introducir la misma transacción en las diversas entidades jurídicas y se obtiene un importante ahorro de tiempo al racionalizar el proceso de propuestas de pago, el proceso de liquidación, la edición de transacciones abiertas y la edición de transacciones cerradas de los pagos centralizados."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

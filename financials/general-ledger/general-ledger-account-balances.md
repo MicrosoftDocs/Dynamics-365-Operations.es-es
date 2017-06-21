@@ -3,7 +3,7 @@ title: Saldos de cuentas de contabilidad
 description: "En este artículo se explican dos formas de ver los saldos de la cuenta de contabilidad general: la página de lista Saldo de comprobación y los informes financieros. También se describe cómo actualizar los saldos del conjunto de dimensiones."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

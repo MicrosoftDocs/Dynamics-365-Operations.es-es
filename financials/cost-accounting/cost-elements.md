@@ -3,7 +3,7 @@ title: Dimensiones de elemento de coste
 description: "Como uno de los pilares básicos de la Contabilidad de costes, las dimensiones del elemento de coste se utilizan para clasificar y realizar un seguimiento de a dónde fluyen los costes."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

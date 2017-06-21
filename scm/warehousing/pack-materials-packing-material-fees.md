@@ -3,7 +3,7 @@ title: Materiales y cuotas de embalaje
 description: "Las cuotas de material de embalaje se pagan en algunos intervalos para una empresa de reciclaje. Se debe pagar un importe por unidad de peso para cada material del que consta una unidad de embalaje. Las cuotas de material de embalaje se calculan y se notifican, pero no se registra ninguna transacción contable ya que las cuentas no se contemplan como impuestos que se deban pagar a una autoridad."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

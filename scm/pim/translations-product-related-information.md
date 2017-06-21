@@ -3,7 +3,7 @@ title: "Preguntas más frecuentes sobre traducciones relacionadas con el product
 description: "En este tema se describe cómo administrar las traducciones para los productos, los valores de la dimensión del producto y los atributos del producto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Reglas de asignación contable"
 description: "Este artículo ofrece información general relativa a las reglas de asignación contable. Describe los diversos componentes de estas reglas de asignación y los métodos de asignación que se pueden usar para ellos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

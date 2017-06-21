@@ -3,7 +3,7 @@ title: "Facturación del proyecto"
 description: "Este artículo proporciona una visión general de la facturación del proyecto para Proyectos de tiempo y material y Proyectos de precio fijo. Incluye información acerca de las propuestas de factura (facturas preliminares), control de facturas, facturación a cuenta, facturación de proveedor y notas de abono."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

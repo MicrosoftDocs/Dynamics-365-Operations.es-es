@@ -3,7 +3,7 @@ title: "Página principal de activos fijos"
 description: "Los activos fijos son artículos de valor, como edificios, vehículos, tierras y equipos, que posee una persona o una organización."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

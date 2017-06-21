@@ -3,7 +3,7 @@ title: "Inversión de un pago de proveedor"
 description: "Este artículo describe las diferencias entre la inversión, la eliminación, la anulación y el rechazo de un pago. Además, explica los dos métodos para invertir una comprobación de proveedor."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

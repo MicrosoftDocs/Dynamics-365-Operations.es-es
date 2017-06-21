@@ -3,10 +3,10 @@ title: "Configuración de los componentes de un trabajo"
 description: "Este tema describe los artículos conceptuales que un trabajo puede incluir y se proporcionan ejemplos de cómo se pueden usar los artículos en la organización."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle
 audience: Application User

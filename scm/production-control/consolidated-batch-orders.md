@@ -3,7 +3,7 @@ title: Pedidos de lote consolidados
 description: "Este artículo describe el concepto de pedidos de lote consolidados."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

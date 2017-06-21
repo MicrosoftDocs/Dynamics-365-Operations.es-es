@@ -3,7 +3,7 @@ title: "Extractos electrónicos de cuenta contable"
 description: "Este artículo explica cómo configurar y generar la versión 1.1 de los archivos XML de contabilidad general que todas las empresas de México debe presentar a las autoridades fiscales mexicanas (SAT) de manera mensual."
 author: sndray
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

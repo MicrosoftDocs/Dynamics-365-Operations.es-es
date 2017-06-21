@@ -3,7 +3,7 @@ title: Liquidar un pago de cliente parcial y el pago final completamente antes d
 description: "Este artículo proporciona escenarios que muestran cómo registrar pagos parciales para un cliente y aplicar descuentos por pronto pago dentro del período del descuento por pronto pago."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

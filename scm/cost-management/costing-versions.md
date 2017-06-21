@@ -3,7 +3,7 @@ title: "Versiones de gestión de costes"
 description: "Este artículo proporciona información acerca de las versiones de gestión de costes, cómo mantenerlas y los tipos de datos que se pueden incluir en ellas. El propósito principal de una versión de gestión de costes es contener los registros de costes acerca de los artículos, las categorías de coste y las fórmulas de cálculo de los costes indirectos."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

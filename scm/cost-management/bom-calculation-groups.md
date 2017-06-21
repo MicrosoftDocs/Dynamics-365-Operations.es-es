@@ -3,7 +3,7 @@ title: "Grupos para cálculos de lista de materiales"
 description: "Este artículo proporciona información acerca de los grupos de cálculo para listas de materiales y de cómo configurarlos. Para ejecutar un cálculo de L. MAT, debe configurar los grupos de cálculo y asignarlos a artículos individuales o establecer un grupo de cálculo predeterminado. La configuración del cálculo del grupo de cálculo se utiliza a continuación como valores predeterminados en la página Cálculo de L. MAT en el momento del cálculo de L. MAT."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

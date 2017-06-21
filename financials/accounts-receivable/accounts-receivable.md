@@ -3,7 +3,7 @@ title: "Página principal de clientes"
 description: Use Clientes para controlar todas las facturas de cliente y los pagos entrantes.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

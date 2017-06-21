@@ -3,10 +3,10 @@ title: "Visión general de la gestión del rendimiento"
 description: "El proceso de gestión del rendimiento permite a los empleados documentar y comentar su rendimiento con el administrador. A su vez, los administradores pueden proporcionar comentarios de retroalimentación y orientación a los empleados."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma

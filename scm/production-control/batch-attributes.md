@@ -3,7 +3,7 @@ title: Atributos de lote
 description: "Este artículo proporciona información acerca de los atributos de lote. Los atributos de lote son características de las materias primas y los productos terminados que componen los lotes de inventario. El artículo también explica cómo asignar atributos de lote y cómo puede buscar en ellos al reservar lotes."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

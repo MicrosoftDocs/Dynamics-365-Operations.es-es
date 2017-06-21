@@ -3,7 +3,7 @@ title: "Configuración de un flujo de trabajo de elementos"
 description: "Este tema explica cómo configurar un elemento de flujo de trabajo de elementos."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

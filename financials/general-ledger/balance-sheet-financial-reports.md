@@ -3,7 +3,7 @@ title: "Informes financieros de balance de situación"
 description: "En este artículo se describen los informes predeterminados para los balances de situación. También se describen los componentes de estos informes."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

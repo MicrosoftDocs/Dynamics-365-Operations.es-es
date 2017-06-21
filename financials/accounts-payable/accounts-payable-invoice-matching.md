@@ -3,7 +3,7 @@ title: "Conciliación de facturas de proveedores"
 description: "La conciliación de facturas de proveedores es el proceso de conciliación de la factura de proveedor, el pedido de compra y la información de recepción de producto."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

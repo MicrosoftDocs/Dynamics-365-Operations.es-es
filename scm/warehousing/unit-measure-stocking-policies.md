@@ -3,7 +3,7 @@ title: Directivas de unidad de medida y de existencias
 description: "Este artículo describe cómo se usan las unidades predeterminadas, las secuencias de unidad y las conversiones de unidades en los procesos de almacén."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

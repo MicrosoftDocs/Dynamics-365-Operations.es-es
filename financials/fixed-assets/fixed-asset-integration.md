@@ -3,7 +3,7 @@ title: "Integración de activos fijos"
 description: "Los activos fijos se pueden integrar con el Libro mayor, la Gestión de inventario, los Clientes y los Proveedores. También es posible configurar los activos fijos para que se integren con los pedidos de compra."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

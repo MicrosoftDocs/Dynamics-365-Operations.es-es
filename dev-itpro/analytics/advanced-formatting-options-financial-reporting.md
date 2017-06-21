@@ -3,7 +3,7 @@ title: Opciones de formato avanzadas en informes financieros
 description: "Al crear un informe en informes financieros, las funciones adicionales de formato están disponibles, incluidos los filtros para dimensiones, las restricciones de columnas y las unidades de informes, las filas sin impresión y las instrucciones IF/THEN/ELSE en los cálculos."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

@@ -3,7 +3,7 @@ title: Informes de listas de ventas de la UE
 description: "Este artículo proporciona información acerca de los informes de listas de ventas de la Unión Europea (UE)."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

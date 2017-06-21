@@ -3,7 +3,7 @@ title: "Efectos de depreciación con inversiones"
 description: "En este artículo se describen las implicaciones potenciales de invertir una transacción de activo fijo."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

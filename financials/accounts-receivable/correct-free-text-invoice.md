@@ -3,7 +3,7 @@ title: "Corrección de una factura de servicios"
 description: "Este artículo explica cómo corregir una factura de servicios que se ha registrado y cómo reenviarla como factura corregida."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Configurar y filtrar espacios de trabajo
 description: "Este artículo proporciona una visión general sobre cómo configurar y filtrar espacios de trabajo."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

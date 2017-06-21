@@ -3,7 +3,7 @@ title: "Programación de trabajo kanban para lean manufacturing"
 description: "Este artículo proporciona información acerca del control visual sobre la programación del trabajo kanban y las distintas maneras de programar trabajos kanban."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

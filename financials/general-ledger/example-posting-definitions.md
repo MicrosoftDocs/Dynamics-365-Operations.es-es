@@ -3,7 +3,7 @@ title: "Definiciones de contabilización"
 description: "Este artículo proporciona ejemplos que demuestran cómo se usan las definiciones de contabilización se usan para reservas de gastos de pedidos de compra y para apropiaciones presupuestarias."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

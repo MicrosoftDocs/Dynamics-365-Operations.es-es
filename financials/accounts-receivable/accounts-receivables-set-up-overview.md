@@ -3,7 +3,7 @@ title: "Configurar Clientes y créditos y cobros"
 description: "Configure Clientes y Crédito y cobros para controlar todas las facturas y los pagos entrantes de clientes."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

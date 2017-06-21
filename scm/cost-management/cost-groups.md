@@ -3,7 +3,7 @@ title: Grupos de coste
 description: "Los grupos de costes proporcionan la base para la segmentación y el análisis de contribuciones de coste en el coste calculado de un artículo fabricado como, por ejemplo, las contribuciones de coste de material, mano de obra y gastos generales. La segmentación de grupos de costes tiene varios sinónimos dentro de los entornos de fabricación como, por ejemplo, desglose de costes, descomposición de costes o clasificación de costes."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

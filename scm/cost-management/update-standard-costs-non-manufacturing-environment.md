@@ -3,7 +3,7 @@ title: "Actualizar costes estándar en un entorno de no fabricación"
 description: "Este artículo proporciona orientación para actualizar los costes estándar en un entorno de no fabricación."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

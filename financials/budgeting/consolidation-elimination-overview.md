@@ -3,7 +3,7 @@ title: "Visión general de consolidación y eliminación"
 description: "En este artículo se proporciona información general sobre el proceso de consolidación y eliminación. Incluye respuestas a algunas preguntas frecuentes."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
