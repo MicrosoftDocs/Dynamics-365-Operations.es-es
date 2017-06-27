@@ -3,7 +3,7 @@ title: Pagos centralizados para Clientes
 description: "Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica única que controle todos los pagos. Por lo tanto, no tiene que especificarse la misma transacción en varias entidades jurídicas. Este artículo proporciona ejemplos que muestran cómo el registro para pagos centralizados se gestiona en distintos escenarios."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

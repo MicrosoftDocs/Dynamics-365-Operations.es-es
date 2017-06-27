@@ -3,7 +3,7 @@ title: Reembolsar a clientes
 description: "En este artículo se explica cómo crear transacciones de reembolso de un grupo de clientes. Si un cliente tiene un saldo de crédito, puede reembolsar al cliente por el importe del saldo."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

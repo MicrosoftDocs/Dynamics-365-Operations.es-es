@@ -3,14 +3,14 @@ title: Distribuciones contables
 description: "Este artículo proporciona información acerca de distribuciones contables y describe las opciones disponibles para procesarlas. Las distribuciones contables se usan para asignar importes monetarios para un documento de origen en cuentas contables específicas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AccountingDistribution
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: twheeloc
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 17231
 ms.assetid: 9030355d-8e6e-408b-9e7d-7b346eaa652c

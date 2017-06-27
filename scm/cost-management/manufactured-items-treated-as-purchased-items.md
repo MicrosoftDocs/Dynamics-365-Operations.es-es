@@ -3,7 +3,7 @@ title: Configurar productos que pueden fabricarse o suministrarse
 description: "Los productos se pueden suministrar de distintas maneras: se pueden producir (fabricar) o adquirir (comprar). Este artículo describe algunos puntos típicos que se deben tener en cuenta al configurar los productos para admitir el abastecimiento múltiple."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

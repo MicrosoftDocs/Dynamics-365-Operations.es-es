@@ -3,13 +3,13 @@ title: Explorador de origen de contabilidad
 description: "Este artículo proporciona información acerca del explorador del origen de contabilidad, que puede usar para análisis detallado de la información de origen detrás de asientos contables de la contabilidad general."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: twheeloc
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 15391
 ms.assetid: 57b95899-7298-43c0-8034-45b5d993cbf2

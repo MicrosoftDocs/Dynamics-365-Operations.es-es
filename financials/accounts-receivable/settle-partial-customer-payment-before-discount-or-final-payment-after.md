@@ -3,7 +3,7 @@ title: "Liquidar un pago de cliente parcial antes de la fecha de descuento con u
 description: "En este artículo se aborda el efecto de liquidar pagos de las facturas para los clientes. El escenario se centra en los efectos del subdiario, no en la Contabilidad general."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

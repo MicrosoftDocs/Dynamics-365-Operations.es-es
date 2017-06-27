@@ -3,7 +3,7 @@ title: Configurar letras de cambio
 description: Este tema describe los pasos para configurar letras de cambio.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

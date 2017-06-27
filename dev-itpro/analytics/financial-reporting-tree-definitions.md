@@ -3,7 +3,7 @@ title: Definiciones de organigramas en informes financieros
 description: "Este artículo proporciona información acerca de las definiciones de organigrama. Una definición de organigrama es un componente de informe, o bloque de creación, que ayuda a definir la estructura y jerarquía de la organización."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

@@ -3,7 +3,7 @@ title: "Depreciación con amortización degresiva del 150%"
 description: "Este artículo le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 150%."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

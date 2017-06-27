@@ -3,7 +3,7 @@ title: "Liquidar un pago de proveedor parcial antes de la fecha de descuento con
 description: "Este artículo le guía por un escenario donde se realizan múltiples pagos parciales, algunos dentro del período del descuento por pronto pago y otros fuera del período de descuento por pronto pago."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Configurar la contabilidad de empresas vinculadas
 description: "Este tema explica cómo configurar la contabilidad de empresas vinculadas de manera que pueda usar los diarios de empresas vinculadas para las asignaciones de contabilidad y los diarios financieros, como diarios, diarios de facturas de proveedor y diarios de pagos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

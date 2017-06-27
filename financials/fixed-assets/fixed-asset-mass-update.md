@@ -3,7 +3,7 @@ title: "Actualización masiva de activos fijos"
 description: "Si utiliza libros, puede modificar las convenciones de depreciación de grupos de activos que forman parte del mismo libro."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

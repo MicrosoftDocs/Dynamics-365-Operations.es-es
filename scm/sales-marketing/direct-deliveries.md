@@ -3,7 +3,7 @@ title: Entregas directas
 description: "Este artículo proporciona información sobre las entregas directas. Las entregas directas son entregas que se envían directamente del proveedor al cliente."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -1,7 +1,7 @@
 ---
 title: "Facturas electrónicas (CFDI)"
 description: "Este artículo proporciona información acerca de las facturas electrónicas que su organización puede enviar a la autoridad fiscal mexicana (SAT). Describe el método aprobado actualmente para enviar facturas electrónicas (CFDI), los requisitos para usarlas y la información que incluyen."
-author: ShylaThompson
+author: sndray
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EInvoiceCFDIJour_MX, EInvoiceCFDIPACTable_MX, EInvoiceParameters_MX, SalesTable, SalesTablePostings
 audience: Application User
-ms.reviewer: ShylaThompson
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 29791
 ms.assetid: b6861a2c-c132-48a2-97b5-9cb1020e0512

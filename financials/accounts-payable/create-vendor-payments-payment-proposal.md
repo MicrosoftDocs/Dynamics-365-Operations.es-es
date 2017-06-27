@@ -3,7 +3,7 @@ title: "Creación de pagos de proveedor mediante una propuesta de pago"
 description: "Este tema proporciona una visión general de las opciones de propuesta de pago e incluye algunos ejemplos que muestran cómo funcionan las propuestas de pago. Las propuestas de pago se usan a menudo para crear pagos de proveedor, ya que se puede usar la consulta para seleccionar rápidamente facturas de proveedor para realizar el pago, en función de los criterios como la fecha de vencimiento y el descuento por pronto pago."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

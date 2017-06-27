@@ -3,7 +3,7 @@ title: "Programación de operaciones"
 description: "Este tema proporciona información acerca de la programación de las operaciones. Puede usar la programación de operaciones para proporcionar una estimación general del tiempo extra del proceso de producción."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

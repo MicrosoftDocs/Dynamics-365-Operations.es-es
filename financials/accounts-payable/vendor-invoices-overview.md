@@ -3,7 +3,7 @@ title: "Visión general de facturas de proveedores"
 description: "Este artículo ofrece información general relativa a facturas de proveedor. Las facturas de proveedor son solicitudes de pago para productos y servicios que se han recibido. Las facturas de proveedor pueden representar una cuenta para servicios en curso ose pueden basar en pedidos de compra para artículos y servicios específicos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Permite buscar los productos y variantes de producto durante la entrada d
 description: "Utilice el campo <strong>Número de artículo </strong>para buscar los productos y las variantes del producto cuando cree una línea de pedido de ventas o de pedido de compras manualmente.  Esto le permite buscar rápidamente variantes de producto cuando solo dispone de la cadena de configuración o de una de las dimensiones del producto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

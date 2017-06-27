@@ -3,16 +3,16 @@ title: Clientes plantilla
 description: "Este tema proporciona información sobre los clientes plantilla."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustTable
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 264394
-ms.assetid: 28357e20-5e7e-4fe9-bbdf-d4812951369e
 ms.search.region: Spain
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30

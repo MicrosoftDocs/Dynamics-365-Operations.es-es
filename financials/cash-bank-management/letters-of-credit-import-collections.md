@@ -3,7 +3,7 @@ title: "Cartas de crédito y remesas documentarias"
 description: "Este artículo proporciona información general acerca de las cartas de crédito y los cobros. Ambos tipos de documentos bancarios se usan a menudo para la compra y la venta de bienes entre fronteras internacionales."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

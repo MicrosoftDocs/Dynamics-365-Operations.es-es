@@ -3,7 +3,7 @@ title: Directivas de compra
 description: "Este artículo proporciona información acerca de las directivas de compra. Una directiva de compra es una colección de reglas que controlan el proceso de solicitud. Las directivas de compra ayudan a los administradores de compras a implementar su estrategia de compras creando una estructura de directiva que está de acuerdo con los requisitos de compras estratégicas de la organización."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

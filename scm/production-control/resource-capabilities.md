@@ -3,7 +3,7 @@ title: Capacidades de recursos
 description: "En este artículo se proporciona información acerca de las capacidades de recursos. Una capacidad es la posibilidad de que un recurso de operaciones realice una actividad concreta. El artículo explica cómo se usan las capacidades y los conceptos relacionados, como el nivel de aptitud y la prioridad, para seleccionar los recursos adecuados para una actividad."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Preguntas más frecuentes sobre cálculos para modelos de configuración
 description: "En este artículo se describen los cálculos para los modelos de configuración de productos y se explica cómo utilizar los cálculos junto con las restricciones."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Perfiles de contabilización del proveedor"
 description: "Los perfiles de contabilización controlan el registro de transacciones de proveedores en la contabilidad general."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

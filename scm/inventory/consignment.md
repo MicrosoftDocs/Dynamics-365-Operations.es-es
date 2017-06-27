@@ -3,7 +3,7 @@ title: Entrega
 description: "Este tema explica cómo usar los procesos de entrada de inventario de envío."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

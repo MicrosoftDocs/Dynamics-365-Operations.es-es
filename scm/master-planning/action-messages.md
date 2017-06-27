@@ -3,7 +3,7 @@ title: sin documentar
 description: "Un mensaje de acción es una sugerencia generada por el sistema para cambiar una orden de planificada o en firme existente."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

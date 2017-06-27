@@ -3,7 +3,7 @@ title: "Listas de materiales y fórmulas"
 description: "Este artículo proporciona información acerca de las listas de materiales y las fórmulas, que son una parte fundamental de la definición de productos y variantes de producto. Las listas de materiales y las fórmulas especifican los materiales o componentes necesarios para un producto específico. Las fórmulas también especifican los coproductos o productos derivados que se reciben en un contexto específico de la producción."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

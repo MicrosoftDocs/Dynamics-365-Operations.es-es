@@ -3,7 +3,7 @@ title: Pagos de cliente para un importe parcial
 description: "A veces, los clientes realizan un pago inferior al importe de la factura. Este artículo describe las diferentes opciones para gestionar esta situación. Las opciones disponibles dependen de la configuración y de los requisitos empresariales."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

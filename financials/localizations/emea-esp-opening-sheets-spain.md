@@ -3,15 +3,15 @@ title: Entradas especiales y hojas de apertura
 description: "Las entidades jurídicas de España pueden registrar entradas especiales como entradas de apertura para el período actual, mientras adaptan sus cuentas a los cambios de las reglas de contabilidad."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 261334
-ms.assetid: ee065203-20dc-4bbb-bc56-bb01d28a6576
 ms.search.region: Spain
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30

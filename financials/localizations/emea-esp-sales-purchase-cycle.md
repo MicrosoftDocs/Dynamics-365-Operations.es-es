@@ -3,15 +3,15 @@ title: "Ventas y ciclos de compra para España"
 description: "Este tema describe cómo configurar los ciclos de pedido de ventas o de compra para un proveedor o un cliente para las entidades jurídicas en España."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 263444
-ms.assetid: 0dfb76cb-ca4c-4b64-b768-86d20c0e5f56
 ms.search.region: Spain
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30

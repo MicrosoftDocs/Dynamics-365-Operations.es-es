@@ -3,7 +3,7 @@ title: "Asignar tiempo a trabajos en una agrupación de trabajos"
 description: "En la ejecución de fabricación se pueden agrupar trabajos. A continuación puede iniciar varios trabajos a la vez en la página Lista de trabajos."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

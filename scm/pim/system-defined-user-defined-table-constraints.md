@@ -3,7 +3,7 @@ title: Restricciones de tablas definidas por el usuario o definidas por el siste
 description: "Este artículo explica los dos tipos de restricciones de tablas para componentes en un modelo de configuración de productos: definidos por el usuario y definidos por el sistema. Las restricciones de tablas representan matrices de las combinaciones de atributos permitidas, donde cada fila define un conjunto de valores de atributos posibles."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

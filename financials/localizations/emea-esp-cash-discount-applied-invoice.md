@@ -3,16 +3,16 @@ title: "Parámetro El descuento por pronto pago se aplica a la factura"
 description: "En este tema se describe el descuento por pronto pago aplicado en el parámetro de factura para España."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerParameters
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 261474
-ms.assetid: 1be79a65-477a-4fb1-9cb6-70afe2b0846e
 ms.search.region: Spain
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30

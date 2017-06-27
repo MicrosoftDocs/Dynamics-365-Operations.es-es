@@ -3,7 +3,7 @@ title: Elementos del flujo de trabajo
 description: "Este artículo describe los diversos elementos que componen un flujo de trabajo."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

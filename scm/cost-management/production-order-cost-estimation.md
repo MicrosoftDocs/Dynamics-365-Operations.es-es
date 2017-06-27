@@ -3,7 +3,7 @@ title: "Estimación del coste del pedido de producción"
 description: "Este artículo proporciona información acerca de la estimación de costes de producción. La estimación de costes de producción proporciona los costes de consumo de capacidad y material previsto de producir un artículo en la cantidad del pedido de producción planificado."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

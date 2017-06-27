@@ -3,7 +3,7 @@ title: "Preferencias de usuario en el diseñador de informes financieros"
 description: "En este artículo se explica cómo establecer preferencias de usuario para personalizar sus interacciones de usuario en el diseñador de informes financieros y controlar la experiencia de inicio de sesión inicial. También puede controlar cómo se muestran los informes individuales, la biblioteca de informes y las ubicaciones de archivo predeterminadas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

@@ -3,7 +3,7 @@ title: "Obtener un descuento por pronto pago fuera del período de descuento por
 description: "Este artículo proporciona dos escenarios que muestran cómo se puede aplicar un descuento por pronto pago incluso si el pago se realiza fuera del período de descuento por pronto pago."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

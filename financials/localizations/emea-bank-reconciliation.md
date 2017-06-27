@@ -10,9 +10,9 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BankAccountTable, CustPaymMode, VendPaymMode
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 267994
-ms.assetid: 2bfb8ecc-e850-43cb-9a96-deb11716a391
 ms.search.region: Belgium, Norway, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30

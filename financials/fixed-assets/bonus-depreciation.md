@@ -3,7 +3,7 @@ title: "Depreciación de bonificación"
 description: "Este artículo proporciona una visión general de la funcionalidad de depreciación de bonificación."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Simular cambios de coste mediante una versión de gestión de costes par
 description: "Este artículo explica cómo puede simular los efectos de los cambios de coste en los costes calculados de un artículo fabricado con una versión de gestión de costes independiente para los costes planificados."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

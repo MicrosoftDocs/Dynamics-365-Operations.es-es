@@ -3,7 +3,7 @@ title: Facturas de anticipo frente a anticipos
 description: "Este artículo describe y contrasta los dos métodos que las organizaciones pueden usar para los pagos anticipados (anticipos). En un método, crea una factura de anticipo asociada a un pedido de compra. En el otro método, crea asientos del diario de anticipos creando entradas de diario y marcándolas como asientos del diario de anticipos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,10 +3,10 @@ title: "Crear un departamento y asociarlo a la jerarquía de departamento"
 description: "Un departamneto es una unidad operativa que representa una categoría o un área funcional de la organización. Un departamento es responsable de un área específica de la organización, como ventas, contabilidad o recursos humanos. Puede usar departamentos para informar sobre las áreas funcionales. Los departamentos pueden tener responsabilidad de pérdidas y ganancias."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HierarchyDesigner, OMOperatingUnit
 audience: Application User
@@ -17,7 +17,7 @@ ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 576418ce1c8b2019a55905558273106badadaa40

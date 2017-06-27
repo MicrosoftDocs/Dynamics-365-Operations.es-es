@@ -3,7 +3,7 @@ title: Acuerdos de pago al cobro con el proveedor
 description: "Este artículo explica las condiciones de pago al cobro (AaC) para los acuerdos de proveedor. Las condiciones de AaC le permiten retener parcial o completamente el pago a un proveedor hasta que el cliente del proyecto le paga. Este artículo también proporciona un ejemplo de la vida real para mostrar cómo puede usar las condiciones de AaC para un proyecto."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

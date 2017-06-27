@@ -3,7 +3,7 @@ title: Liquidar un pago de cliente parcial con descuentos en notas de abono de p
 description: "Este artículo le guía por un escenario en el que se aplica un descuento por pronto pago en una nota de abono cuando la factura original también tenía un descuento por pronto pago."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

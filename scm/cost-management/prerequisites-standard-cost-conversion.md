@@ -3,7 +3,7 @@ title: "Requisitos previos para la conversión de costes estándar"
 description: "En este tema se describen tareas para realizar antes de ejecutar una conversión de coste estándar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

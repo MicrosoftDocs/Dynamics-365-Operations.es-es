@@ -10,9 +10,9 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustPaymMode, VendPaymMode
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 262514
-ms.assetid: 72ea2018-5a49-419c-93d0-755e5ff2722f
 ms.search.region: Belgium, France, Germany, Norway, Spain, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30

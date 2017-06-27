@@ -3,7 +3,7 @@ title: "Cuentas de registro de cancelación de activos fijos"
 description: "En este artículo se explica cómo configurar cuentas de registro de contabilidad general para cancelar activos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

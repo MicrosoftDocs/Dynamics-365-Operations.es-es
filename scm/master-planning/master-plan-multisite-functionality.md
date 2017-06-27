@@ -3,7 +3,7 @@ title: "Planificación maestra y funcionalidad multisitio"
 description: "La planificación maestra tiene en cuenta la configuración del sitio y las dimensiones de inventario de almacén."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

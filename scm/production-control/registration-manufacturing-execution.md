@@ -3,7 +3,7 @@ title: "Registro para ejecución de fabricación"
 description: "En este tema se describen los conceptos y los términos clave que necesita comprender para configurar y usar la ejecución de fabricación."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

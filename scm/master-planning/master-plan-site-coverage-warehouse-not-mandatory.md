@@ -3,7 +3,7 @@ title: "Planificación maestra para cobertura de sitios y almacenes, almacén no
 description: "Este tema describe cómo se planifica un artículo que tiene la dimensión del sitio establecida para cobertura."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

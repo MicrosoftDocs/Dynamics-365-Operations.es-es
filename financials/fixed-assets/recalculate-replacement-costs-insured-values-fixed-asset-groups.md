@@ -3,7 +3,7 @@ title: "Nuevo cálculo de los costes de sustitución y los valores asegurados pa
 description: "Este artículo explica el proceso de la actualización de los costes de sustitución y los valores asegurados de los activos fijos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,14 +3,14 @@ title: "Conciliación de facturas y pedidos de compra de empresas vinculadas"
 description: "La entidad jurídica de compra que está involucrada en una transacción de negocios entre empresas vinculadas puede estar configurada para usar la conciliación de facturas de proveedores. En este caso, los requisitos de registro para el negocio entre empresas vinculadas y la conciliación de facturas de proveedores deben ser cumplidos antes de que las facturas de proveedor de empresas vinculadas se puedan registrar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: twheeloc
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf

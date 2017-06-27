@@ -3,7 +3,7 @@ title: Solicitud de presupuestos
 description: "Este artículo proporciona información general de solicitudes de presupuesto, que las organizaciones emiten cuando deben comprar artículos o servicios y desean recibir ofertas competitivas de varios proveedores. En una solicitud de presupuesto, se les pide a los proveedores que proporcionen precios y plazos de entrega para las cantidades de artículos especificadas. También puede solicitar que especifiquen si hay algunos gastos adicionales, como gastos de envío, o si el proveedor ofrece descuentos para pedidos cuantiosos o por pronto pago de la factura de proveedor."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

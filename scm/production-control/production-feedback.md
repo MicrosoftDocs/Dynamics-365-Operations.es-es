@@ -3,7 +3,7 @@ title: "Comentarios de producción"
 description: "Este artículo proporciona información acerca de los comentarios de producción, lo que ofrece a los trabajadores realimentación sobre los trabajos de producción. El artículo incluye información sobre las distintas maneras en que se puede actualizar la realimentación de producción."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

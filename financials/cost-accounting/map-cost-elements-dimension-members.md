@@ -3,7 +3,7 @@ title: "Asignar miembros de dimensión de elemento de coste a un conjunto común
 description: "Asignando diferentes miembros de la dimensión del elemento de coste a un conjunto común de miembros de la dimensión del elemento de coste, los datos se combinan en un formato común para los análisis."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

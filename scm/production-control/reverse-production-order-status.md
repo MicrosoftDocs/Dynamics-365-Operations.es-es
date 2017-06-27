@@ -3,7 +3,7 @@ title: "Invertir el estado de una orden de producción"
 description: "En este tema se describe cómo invertir el estado del pedido de producción."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

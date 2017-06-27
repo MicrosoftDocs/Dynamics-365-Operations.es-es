@@ -3,7 +3,7 @@ title: Informar que la L. MAT. ha terminado
 description: "Este artículo proporciona información acerca de las notificaciones de lista de materiales terminadas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

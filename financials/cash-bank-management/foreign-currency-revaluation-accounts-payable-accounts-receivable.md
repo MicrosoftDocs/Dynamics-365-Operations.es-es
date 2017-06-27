@@ -3,7 +3,7 @@ title: "Revalorización de divisa extranjera para clientes y proveedores"
 description: "Las fluctuaciones en los tipos de cambio hacen que el valor teórico (valor en los libros) de las transacciones abiertas en divisas extranjeras varíen con el tiempo. Este artículo proporciona información acerca del proceso de revalorización de divisa extranjera que ejecuta para actualizar el valor de las transacciones de proveedores y clientes abiertas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

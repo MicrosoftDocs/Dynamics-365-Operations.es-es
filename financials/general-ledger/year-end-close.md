@@ -3,7 +3,7 @@ title: "Cierre de fin de año"
 description: "Este tema describe la configuración y los pasos necesarios para ejecutar el proceso de cierre de fin de año de la contabilidad general."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Configuración de cobertura"
 description: "La programación maestra utiliza la configuración de cobertura para calcular los requisitos de artículos."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

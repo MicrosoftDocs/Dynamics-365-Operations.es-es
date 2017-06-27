@@ -3,7 +3,7 @@ title: "Seguimiento de artículos y materias primas en el inventario, la producc
 description: "Este tema se describe cómo puede usar el seguimiento de artículos para identificar dónde se han usado los artículos o las materias primas, dónde se están usando o dónde se usarán en los procesos de producción y ventas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

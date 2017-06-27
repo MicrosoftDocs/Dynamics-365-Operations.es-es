@@ -3,7 +3,7 @@ title: Novedades o cambios en Dynamics AX 7.0 (febrero de 2016)
 description: "Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics AX 7.0. Esta versión contiene características tanto de plataforma como de aplicación y se publicó en febrero de 2016."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

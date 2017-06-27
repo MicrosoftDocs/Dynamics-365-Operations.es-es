@@ -3,7 +3,7 @@ title: "Notificar pedidos de producción como terminados"
 description: "Notificar como terminado es una etapa de producción. En esta etapa se notifica un producto terminado y se mueve del pedido de producción al inventario."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Fechas límite del pedido"
 description: "En este artículo se proporciona información acerca de los plazos de la entrada de pedidos. Una fecha límite de entrada de pedido es una hora límite que determina si se trata un pedido de cliente (y se completa) como si se hubiera recibido en el día actual o al día siguiente."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

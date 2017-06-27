@@ -3,7 +3,7 @@ title: "Ejecución del precio de coste promedio móvil"
 description: "El proceso de cierre de inventario de liquida las transacciones de emisión con las transacciones de recepción en función del método de valoración de inventario seleccionado en el grupo de modelos del artículo. Sin embargo, antes de ejecutar el cierre de inventario, el sistema calcula un precio de coste promedio móvil que se usa normalmente al registrar transacciones de emisión."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

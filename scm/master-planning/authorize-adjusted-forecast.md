@@ -3,7 +3,7 @@ title: "Autorizar previsión de la demanda ajustada"
 description: "No todos los datos de previsión se deben autorizar inmediatamente. Este artículo se explica cómo puede especificar el período para el que una previsión está autorizada. También explica cómo puede autorizar la previsión para empresas y modelos de previsión específicos."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

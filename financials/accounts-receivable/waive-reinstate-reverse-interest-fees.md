@@ -3,7 +3,7 @@ title: "Condonar, restablecer o revertir cuotas de interés"
 description: "Este artículo explica cómo condonar, restablecer e invertir los gastos para el interés y las cuotas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
