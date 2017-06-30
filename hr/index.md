@@ -1,12 +1,12 @@
 ---
-title: Recursos humanos
-description: "Recursos humanos simplifica muchas tareas rutinarias de mantenimiento de registros y automatiza un gran número de procesos relacionados con la dotación de personal para la organización. También proporciona un marco de trabajo para que el personal de recursos humanos administre áreas de supervisión. Estas áreas incluyen la contratación y retención de empleados, la administración de prestaciones, la formación, las revisiones de rendimiento y la gestión de cambios."
+title: Microsoft Dynamics 365 for Talent
+description: "Talent simplifica muchas tareas rutinarias de mantenimiento de registros y automatiza un gran número de procesos relacionados con la dotación de personal para la organización. Estos procesos incluyen la conservación de empleados, la administración de prestaciones, la formación, las evaluaciones de desempeño y la administración de cambios."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/19/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
@@ -16,23 +16,25 @@ ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 213d1dc69ac0f6dc10138e185625a142e107f073
+ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
+ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
 
-# <a name="welcome-to-human-resources"></a>Bienvenido a Recursos Humanos
+# <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Esto es Microsoft Dynamics 365 for Talent
 
 [!include[banner](includes/banner.md)]
 
-Recursos humanos simplifica muchas tareas rutinarias de mantenimiento de registros y automatiza un gran número de procesos relacionados con la dotación de personal para la organización. También proporciona un marco de trabajo para que el personal de recursos humanos administre áreas de supervisión. Estas áreas incluyen la contratación y retención de empleados, la administración de prestaciones, la formación, las revisiones de rendimiento y la gestión de cambios.
+Microsoft Dynamics 365 for Talent facilita muchas tareas rutinarias de conservación de registros y automatiza distintos procesos relacionados con la dotación de personal para la organización. Estos procesos incluyen la conservación de empleados, la administración de prestaciones, la formación, las evaluaciones de desempeño y la administración de cambios. También proporciona un marco de trabajo para que el personal de recursos humanos administre las áreas de supervisión.
 
-Puede usar Recursos humanos para completar estas tareas:
+Dynamics 365 for Talent está estrechamente vinculado con Recursos humanos en Dynamics 365 for Finance and Operations, Enterprise Edition. Puede que ambos productos tengan la misma funcionalidad. Como resultado, en los temas relacionados principalmente con Recursos humanos, el nombre del producto será Dynamics 365 for Finance and Operations, Enterprise Edition. En los temas relacionados principalmente con Talent, el nombre del producto será Dynamics 365 for Talent. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
+
+Puede usar Talent para completar estas tareas:
 
 > + Gestionar estructuras organizativas.
 > + Mantener la información completa del trabajador desde la contratación hasta la jubilación.
@@ -41,26 +43,20 @@ Puede usar Recursos humanos para completar estas tareas:
 > + Implementar y supervisar la gestión de horas basada en perfiles y generar información de sueldo para exportar a un sistema de nóminas.
 > + Gestionar competencias del trabajador.
 > + Revisar objetivos de los trabajadores de rendimiento e implementación.
-> + Configurar, proporcionar y analizar cursos, incluidos los programas, sesiones y seguimiento.
-> + Contratar a trabajadores y realizar un seguimiento de los candidatos.
+> + Configurar, proporcionar y analizar cursos, incluidos los programas, las sesiones y los seguimientos.
 
-<a name="develop-a-human-resources-strategy"></a>Desarrollar una estrategia de recursos humanos
+<a name="develop-a-strategy-for-managing-your-human-resources"></a>Desarrollar una estrategia para administrar sus recursos humanos
 ---------------------------------------------------------
 
-Durante el trabajo con Recursos humanos, decidirá cómo estructurar su organización utilizando elementos como departamentos, trabajos y puestos. Estos son los elementos fundamentales que configurará en Recursos humanos. Se asignan empleados individuales a puestos asociados a trabajos.
+Durante el trabajo con Talent, decidirá cómo estructurar su organización utilizando elementos como departamentos, trabajos y puestos. Estos son los elementos fundamentales que configurará. Se asignan empleados individuales a puestos asociados a trabajos.
 
 -   [Organización de los recursos mediante departamentos, trabajos y puestos](departments-jobs-positions.md)
--   [Configuración de los parámetros de recursos humanos específicos de la empresa](set-up-company-specific-hr-parameters.md)
+-   [Configuración de parámetros de recursos humanos específicos de la empresa](set-up-company-specific-hr-parameters.md)
 -   [Configurar parámetros de recursos humanos en entidades jurídicas](set-up-hr-parameters-across-legal-entities.md) 
 
-## <a name="recruit-hire-and-motivate-employees"></a>Contratar y motivar a los empleados
+## <a name="retain-and-motivate-employees"></a>Conservar y motivar a los empleados
 
-Los proyectos de contratación administran el contenido utilizado en los anuncios de vacantes y pueden ayudarle a administrar las solicitudes de vacantes de trabajo. Puede usarlos para realizar un seguimiento de las respuestas a los registros de trabajo para un proyecto de contratación específico, o a candidatos específicos, y actualizar el estado de las vacantes. También puede contratar a candidatos únicos o administrar "proyectos de contratación masiva", que facilitan la contratación de varios trabajadores, por ejemplo, para satisfacer las necesidades empresariales periódicas.
-
--   [Gestión de un proceso de contratación](manage-recruiting-process.md)
--   [Proyectos de contratación masiva](mass-hire-projects.md) 
-
-Tras la contratación de personal, puede configurar planes para administrar la compensación de forma eficaz y equitativa, así como para administrar artículos, como ordenadores o teléfonos, que la organización presta a sus empleados. Puede crear planes de compensación fija y variable, así como definir reglas que apliquen el plan de compensación para satisfacer los criterios de dicho plan.
+Puede configurar planes para administrar la compensación de forma eficaz y equitativa, así como para administrar artículos, como ordenadores o teléfonos, que la organización presta a sus empleados. Puede crear planes de compensación fija y variable, así como definir reglas que apliquen el plan de compensación para satisfacer los criterios de dicho plan.
 
 -   [Planes de compensación](compensation-plans.md)
 -   [Actualizar planes de compensación fija](create-fixed-compensation-plans.md)
@@ -84,10 +80,10 @@ Además de compensar al personal con sueldos, salarios y bonificaciones, puede d
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Mantener el cumplimiento de normas y la seguridad en el lugar de trabajo
 
-Microsoft Dynamics AX puede ayudarle a mantener un entorno de trabajo seguro en cumplimiento de las leyes aplicables, incluidas la Ley para Personas con Discapacidades (ADA) de Estados Unidos y las leyes de Inmigración y naturalización, entre otras. Por ejemplo, puede gestionar los requisitos físicos para trabajos específicos, así como las solicitudes de trayectoria para alojamientos que pueden ayudar a la organización a optimizar las aptitudes de los recursos.
+Talent puede ayudarle a proteger un entorno de trabajo en cumplimiento de las leyes aplicables, incluida la Ley para Personas con Discapacidades (ADA) de Estados Unidos y las leyes de Inmigración y naturalización, entre otras. Por ejemplo, puede gestionar los requisitos físicos para trabajos específicos, así como las solicitudes de trayectoria para alojamientos que pueden ayudar a la organización a optimizar las aptitudes de los recursos.
 
--   [Comprobación de empleo del formulario I-9](localizations/noam-usa-form-i-9-verification.md)
--   [Cumplimiento de la Ley para Personas con Discapacidades de Estados Unidos (ADA)](localizations/noam-usa-comply-ada.md)
+-   [Comprobación de empleo del formulario I-9](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
+-   [Cumplimiento de la Ley para Personas con Discapacidades de Estados Unidos (ADA)](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-comply-ada)
 
 ## <a name="gather-information-using-questionnaires"></a>Recopilar información mediante cuestionarios
 
@@ -97,7 +93,4 @@ Puede diseñar y administrar cuestionarios para recopilar información que se us
 -   [Diseñar un cuestionario](design-questionnaires.md)
 -   [Distribuir y completar un cuestionario](distribute-questionnaires.md)
 -   [Ver y evaluar los resultados de un cuestionario](evaluate-questionnaire-results.md)
-
-
-
 
