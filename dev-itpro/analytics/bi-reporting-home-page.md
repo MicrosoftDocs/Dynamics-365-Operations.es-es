@@ -1,15 +1,15 @@
 ---
 title: "Página principal de BI e informes"
-description: Este tema muestra los recursos de BI e informes disponibles en Microsoft Dynamics 365 for Operations.
+description: En este tema se enumeran los recursos de BI e informes disponibles en Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3e97fda52acf6b61bf47eb30d53ce6597b4929d3
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 448517531112636d553dc895b17c5644c9c1f0bc
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
@@ -30,35 +30,35 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tema muestra los recursos de BI e informes disponibles en Microsoft Dynamics 365 for Operations. 
+En este tema se enumeran los recursos de BI e informes disponibles en Microsoft Dynamics 365 for Finance and Operations. 
 
-<a name="working-with-aggregate-data"></a>Cómo trabajar con datos agregados
+<a name="working-with-aggregate-data"></a>Trabajar con datos agregados
 ---------------------------
 
 -   [Análisis](analytics.md)
--   [Los modelos agregados de tiempo real en memoria reemplazan cubos SSAS](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
+-   [Los modelos agregados en tiempo real, en memoria, reemplazan los cubos de SSAS](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
 -   [Modelado y uso de datos agregados](model-aggregate-data.md)
 -   [Migrar un cubo de ventas de Dynamics AX 2012 R3 actualizado al almacenes de entidades](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
 ## <a name="self-service-reporting"></a>Informes de autoservicio
 -   [Integración de Power BI](power-bi-integration.md)
 -   [Configuración de la integración de Power BI para espacios de trabajo](configure-power-bi-integration.md)
--   [Crear un informe de Power BI con datos de Microsoft Dynamics 365 for Operations](create-powerbi-report-data.md)
--   [Crear un panel y un informe de Power BI](create-powerbi-report-dashboard.md)
--   [Contenido de Power BI sobre rendimiento de canal de venta minorista](retail-channel-performance-dashboard-power-bi-data.md)
+-   [Creación de informes de Power BI con datos de Microsoft Dynamics 365 for Finance and Operations](create-powerbi-report-data.md)
+-   [Creación de paneles e informes de Power BI](create-powerbi-report-dashboard.md)
+-   [Contenido de Power BI sobre el rendimiento de los canales de venta minorista](retail-channel-performance-dashboard-power-bi-data.md)
 -   [Contenido de Power BI sobre rendimiento financiero](financial-performance-power-bi-content-pack.md)
 -   [Contenido de Power BI sobre rendimiento de la rentabilidad y las ventas](sales-profitability-performance-content-pack.md)
--   [Usar una configuración electrónica de informes para proporcionar datos de Dynamics 365 for Operations a Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Uso de una configuración de informes electrónicos para proporcionar datos de Finance and Operations a Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Creación de experiencias analíticas incrustadas en el cliente de Dynamics 365 for Operations
--   [Inteligencia empresarial incrustada](analytics.md#embedded-business-intelligence)
+## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a>Creación de experiencias analíticas integradas en el cliente de Finance and Operations
+-   [Inteligencia empresarial integrada](analytics.md#embedded-business-intelligence)
 -   [Modelado y personalización de KPI](analytics.md#kpi-modeling-and-customization)
 -   [Adición de BI a espacios de trabajo](add-bi-workspaces.md)
 -   [Adición de BI contextual a formularios](add-contextual-bi-forms.md)
 
 ## <a name="document-reporting-and-printing"></a>Impresión e informes de documentos
 -   [Visión general de Reporting Services de documentos](document-reporting-services.md)
--   [Imprimir en las aplicaciones de Dynamics 365 for Operations](print-documents.md)
+-   [Impresión en las aplicaciones de Finance and Operations](print-documents.md)
 -   [Instalación del Agente de ruta de documentos para habilitar los dispositivos de impresora de red](install-document-routing-agent.md)
 -   [Ejecución del agente de rutas del documento como servicio de Windows](run-document-routing-agent-as-windows-service.md)
 -   [Creación de las soluciones de informes de última generación](create-nextgen-reporting-solutions.md)
@@ -72,8 +72,8 @@ Este tema muestra los recursos de BI e informes disponibles en Microsoft Dynamic
 -   [Diseñador de fórmulas en los informes electrónicos](general-electronic-reporting-formula-designer.md)
 -   [Destinos de informes electrónicos](electronic-reporting-destinations.md)
 -   [Descargar configuraciones de informes electrónicos de Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
--   [Usar una configuración electrónica de informes para proporcionar datos de Dynamics 365 for Operations a Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [ER Creación de un proveedor de configuraciones y marcarlo como activo](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (Guía de tareas)
+-   [Uso de una configuración de informes electrónicos para proporcionar datos de Finance and Operations a Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [ER Crear un proveedor de configuraciones y marcarlo como activo](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (Guía de tareas)
 -   [ER Diseñar un modelo de datos de dominio específico](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (Guía de tareas)
 -   [ER Definir la asignación del modelo y seleccionar los orígenes de los datos](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (Guía de tareas)
 -   [ER Asignar un modelo de datos a los orígenes de datos seleccionados](http://ax.help.dynamics.com/en/wiki/er-map-data-model-to-selected-data-sources/) (Guía de tareas)
