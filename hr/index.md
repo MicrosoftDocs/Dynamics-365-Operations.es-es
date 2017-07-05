@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
 ms.contentlocale: es-es
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -32,18 +32,19 @@ ms.lasthandoff: 06/21/2017
 
 Microsoft Dynamics 365 for Talent facilita muchas tareas rutinarias de conservación de registros y automatiza distintos procesos relacionados con la dotación de personal para la organización. Estos procesos incluyen la conservación de empleados, la administración de prestaciones, la formación, las evaluaciones de desempeño y la administración de cambios. También proporciona un marco de trabajo para que el personal de recursos humanos administre las áreas de supervisión.
 
-Dynamics 365 for Talent está estrechamente vinculado con Recursos humanos en Dynamics 365 for Finance and Operations, Enterprise Edition. Puede que ambos productos tengan la misma funcionalidad. Como resultado, en los temas relacionados principalmente con Recursos humanos, el nombre del producto será Dynamics 365 for Finance and Operations, Enterprise Edition. En los temas relacionados principalmente con Talent, el nombre del producto será Dynamics 365 for Talent. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
-
 Puede usar Talent para completar estas tareas:
 
-> + Gestionar estructuras organizativas.
-> + Mantener la información completa del trabajador desde la contratación hasta la jubilación.
-> + Definir y administrar planes de prestaciones, contratar a trabajadores, asignar cobertura a dependientes y designar beneficiarios.
-> + Crear y supervisar directivas de ausencia.
-> + Implementar y supervisar la gestión de horas basada en perfiles y generar información de sueldo para exportar a un sistema de nóminas.
-> + Gestionar competencias del trabajador.
-> + Revisar objetivos de los trabajadores de rendimiento e implementación.
-> + Configurar, proporcionar y analizar cursos, incluidos los programas, las sesiones y los seguimientos.
++ Administrar estructuras organizativas.
++ Mantener la información completa del trabajador desde la contratación hasta la jubilación.
++ Definir y administrar planes de prestaciones, contratar a trabajadores, asignar cobertura a dependientes y designar beneficiarios.
++ Crear y supervisar directivas de ausencia.
++ Implementar y supervisar la gestión de horas basada en perfiles y generar información de sueldo para exportar a un sistema de nóminas.
++ Gestionar competencias del trabajador.
++ Revisar objetivos de los trabajadores de rendimiento e implementación.
++ Configurar, proporcionar y analizar cursos, incluidos los programas, las sesiones y las trayectorias.
+
+> [!NOTE] 
+> Dynamics 365 for Talent está estrechamente vinculado con Recursos humanos en Dynamics 365 for Finance and Operations, Enterprise Edition. Puede que ambos productos tengan la misma funcionalidad. Como resultado, en los temas relacionados principalmente con Recursos humanos, el nombre del producto será Dynamics 365 for Finance and Operations, Enterprise Edition. En los temas relacionados principalmente con Talent, el nombre del producto será Dynamics 365 for Talent. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Desarrollar una estrategia para administrar sus recursos humanos
 ---------------------------------------------------------
