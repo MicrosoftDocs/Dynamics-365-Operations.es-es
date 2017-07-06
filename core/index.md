@@ -40,7 +40,7 @@ Esta documentación puede ayudarle a obtener información sobre cómo hacer que 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h3>Operaciones financieras</h3>
+<td><h3>Financials</h3>
 <p><a href="../financials/general-ledger/audit-policy-rules">Conformidad</a></p>
 <p>Administración financiera</p>
 <ul style="list-style-type:none">
