@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -31,6 +31,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="weighted-average-date"></a>Fecha de media ponderada
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 La fecha de media ponderada es un modelo de inventario basado en el principio de medias ponderadas. En el principio de medias ponderadas, las emisiones de inventario se valoran según el valor medio de los artículos que se reciben en el inventario para cada día del período de cierre de inventario. Cuando se ejecuta un cierre de inventario con la fecha de media ponderada, todas las recepciones de un día se liquidan contra una emisión virtual. Esta emisión virtual mantiene la cantidad recibida total y el valor para dicho día. La emisión virtual tiene una recepción virtual correspondiente a partir de la cual se liquidarán las emisiones. Así pues, todas las emisiones reciben el mismo coste medio. La emisión y la recepción virtual pueden verse como una transferencia virtual llamada *transferencia de cierre de inventario de media ponderada*. 
