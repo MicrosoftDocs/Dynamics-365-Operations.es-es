@@ -3,59 +3,66 @@ title: "Actualizar planes de compensación fija"
 description: "La compensación fija hace referencia al sueldo o salario bruto regular de un empleado. Este artículo describe los componentes que deben configurarse para poder crear un plan de compensación fija e inscribir a empleados."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HRCCompGrid, HRCCompRefPointSetup, HRMCompEligibility, HRMCompEvent, HRMFixedCompPlanTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15991
 ms.assetid: ef8cf992-176c-4c98-9dff-6510e1eb9f1c
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e71e22cef2b65c4cf89b8fe0ea55e092e259c6dc
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 92237f2dda486f71cabe414e88e7ee4b69fb4485
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="create-fixed-compensation-plans"></a>Actualizar planes de compensación fija
+# Actualizar planes de compensación fija
+<a id="create-fixed-compensation-plans" class="xliff"></a>
 
 [!include[banner](includes/banner.md)]
 
 
 La compensación fija hace referencia al sueldo o salario bruto regular de un empleado. En este tema se describen los componentes que deben configurarse para poder crear un plan de compensación fija e inscribir a empleados.
 
-Los importes de compensación fija se pueden calcular para sus empleados, en función de factores como el rendimiento, la región y los aumentos de presupuesto. Microsoft Dynamics 365 for Operations admite tipos de compensación de banda, paso y categoría.
+Los importes de compensación fija se pueden calcular para sus empleados, en función de factores como el rendimiento, la región y los aumentos de presupuesto. Microsoft Talent admite tipos de compensación de banda, paso y categoría.
 
-## <a name="fixed-compensation-components"></a>Componentes de compensación fija
-### <a name="compensation-levels"></a>Niveles de compensación
+## Componentes de compensación fija
+<a id="fixed-compensation-components" class="xliff"></a>
+### Niveles de compensación
+<a id="compensation-levels" class="xliff"></a>
 
 Puede usar **niveles de compensación** para establecer la compensación para varios trabajos, para ayudar a garantizar que se paga justamente a los empleados que realizan esos trabajos. En la página **Niveles de compensación**, puede configurar los niveles de compensación necesarios para cada plan de banda, categoría y paso. Use los botones **Arriba** y **Abajo** para colocar los niveles en el orden correcto, según su tipo. Al establecer los niveles de compensación en un trabajo, ayuda a garantizar que se les paga en el mismo nivel a todos los empleados que mantienen un puesto para ese trabajo.
 
-### <a name="reference-points"></a>Puntos de referencia
+### Puntos de referencia
+<a id="reference-points" class="xliff"></a>
 
 Los **puntos de referencia** son las columnas de la cuadrícula que definen los intervalos de compensación para cada nivel. El nivel de compensación es la fila de la cuadrícula. Los puntos de referencia típicos para un plan del tipo de categoría son un mínimo, un punto medio y un máximo. Cree los puntos de referencia en la página **Configuraciones de puntos de referencia**.
 
-### <a name="compensation-grids"></a>Cuadrículas de compensación
+### Cuadrículas de compensación
+<a id="compensation-grids" class="xliff"></a>
 
 Después de configurar los niveles y los puntos de referencia, se pueden combinar para crear una **cuadrícula de compensación** En la página **Cuadrículas de compensación**, defina la información sobre la cuadrícula. Por ejemplo, especifique para qué se usa la cuadrícula diseñada, con qué tipo de plan se usará y qué puntos de referencia o columnas se requieren en la cuadrícula. Una vez que haya terminado de especificar esa información, haga clic en **Estructura de compensación** para agregar niveles e importes a la cuadrícula. 
 
 **Sugerencia:** Use la función de **cambios masivos** en la estructura de compensación para establecer importes iniciales, e incrementar después por porcentajes o importes en sus niveles o puntos de referencia.
 
-### <a name="pay-frequencies"></a>Frecuencias de pago
+### Frecuencias de pago
+<a id="pay-frequencies" class="xliff"></a>
 
 Las **Frecuencias de pagos** se usan para definir cómo se está especificando el salario o el sueldo de un empleado (por ejemplo, 10 $ por hora frente a 50.000 $ al año), y la conversión entre las tarifas por hora, semanales, mensuales (12 meses) y anuales. Por ejemplo, una empresa que usa una semana laboral de 38 horas para sus empleados por hora configura una frecuencia de pago que tiene un índice por hora de 1, un índice semanal de 38, un índice mensual de 164,6666666667 y un índice anual de 1,976. Estas conversiones se usan para calcular los diferentes índices salariales que aparecen en el registro de compensación fija de un empleado.
 
-## <a name="fixed-compensation-plans"></a>Planes de compensación fija
+## Planes de compensación fija
+<a id="fixed-compensation-plans" class="xliff"></a>
 Puede diseñar el plan de compensación fija para combinar todos los componentes que ha configurado. Para crear un plan de compensación fija, abra la página **Planes de compensación fija**. Aquí, puede dar un nombre y una descripción al plan, seleccionar qué tipo de plan es (paso, categoría o banda), seleccione la frecuencia de los pagos que usará para el índice salarial del empleado (importe por hora, importe por año, etc.) y establecer algunas opciones que controlan cómo se procesa la compensación. 
 
 La configuración **Fuera del intervalo de tolerancia** le permite especificar cómo de estricto desea ser acerca de asegurarse de que los importes de compensación se encuentran entre los importes mínimo y máximo. Una tolerancia **Fuerte** requiere esa compensación se encuentre dentro del intervalo definido para un nivel determinado. La tolerancia **Débil** le alerta cuando el importe de compensación se encuentra fuera del intervalo pero le permite continuar. Si establece la tolerancia en **Ninguna**, puede especificar cualquier importe de compensación para un empleado sin recibir mensajes de error o advertencia. 
@@ -72,8 +79,10 @@ Después de definir los conceptos básicos del plan de compensación fija, puede
 
 Tras seleccionar una opción, se abrirá la página **Estructura de compensación** y podrá realizar cambios en la nueva cuadrícula de compensación o la cuadrícula de compensación existente.
 
-## <a name="fixed-compensation-enrollment"></a>Inscripción de compensación fija
-### <a name="determine-who-is-eligible-for-the-plan"></a>Determinar quién es apto para el plan
+## Inscripción de compensación fija
+<a id="fixed-compensation-enrollment" class="xliff"></a>
+### Determinar quién es apto para el plan
+<a id="determine-who-is-eligible-for-the-plan" class="xliff"></a>
 
 El primer paso en la inscripción de empleados en un plan de compensación fija es determinar quién es apto para la compensación que está definida en el plan. Hasta que determine la idoneidad, no podrá asignar el plan a ningún empleado. Para configurar la idoneidad, abra la página **Reglas de idoneidad**. Aquí, crea una nueva regla de idoneidad para su plan de compensación y define los criterios que un empleado debe cumplir para ser apto para un plan. Puede limitar la idoneidad en función del departamento, el sindicato, región de compensación (ubicación ), trabajo, función de trabajo, tipo de trabajo o nivel de compensación. Los empleados solo se pueden inscribir en un plan de compensación si cumplen todas las condiciones que se establecen en la regla de idoneidad. 
 
@@ -89,13 +98,15 @@ La regla de idoneidad considera el valor de campos específicos en los registros
 
 La regla de idoneidad también considera los sindicatos asociados al empleado (en la página **Empleados**, en la pestaña **Trabajador**, haga clic en **Información personal** &gt; **Sindicatos**).
 
-### <a name="define-fixed-compensation-actions"></a>Definir acciones de compensación fija
+### Definir acciones de compensación fija
+<a id="define-fixed-compensation-actions" class="xliff"></a>
 
 Las **acciones de compensación fija** se utilizan cuando establece o aplica cambios a la compensación fija de un empleado. Las acciones de compensación fija le permiten proporcionar nombres descriptivos para los tipos de acciones que un Director de compensaciones y prestaciones puede realizar. Distintos tipos de acción tienen una lógica especial detrás de ellos, para que se puedan usar en momentos específicos. 
 
 Por ejemplo, cuando la compensación fija se configura para un empleado, solo se pueden usar las acciones que tienen un tipo de **Contratar/Volver a contratar**. En este caso, puede que desee crear tres acciones diferentes del tipo **Contratar/Volver a contratar** y nombrarlas **Contratar**, **Volver a contratar** y **Transferir**. A continuación, tiene una explicación más descriptiva del motivo por el que se dio la compensación fija a un empleado o se cambió.
 
-### <a name="enroll-the-employee"></a>Inscribir al empleado
+### Inscribir al empleado
+<a id="enroll-the-employee" class="xliff"></a>
 
 Ahora puede asignar un empleado a un plan de compensación fija. Abra la página **Empleados** y seleccione el empleado que desea inscribir en el plan de compensación. En el panel de acciones, haga clic en **Compensación** &gt; **Plan fijo**. Ahora puede crear una nueva acción de compensación fija para ese empleado. 
 
@@ -103,7 +114,8 @@ Ahora puede asignar un empleado a un plan de compensación fija. Abra la página
 
 El sistema comprueba que el importe de compensación que se especifica para un plan de compensación del tipo de banda o clasificación se encuentra dentro de los puntos de referencia mínimo y máximo para el nivel de compensación proporcionado en el trabajo del empleado. Si el importe de compensación se encuentra fuera del intervalo permitido, se mostrará un mensaje de advertencia o error, en función del nivel de tolerancia que se establece en el plan de compensación fija.
 
-<a name="see-also"></a>Consulte también
+Consulte también
+<a id="see-also" class="xliff"></a>
 --------
 
 [Planes de compensación](compensation-plans.md)

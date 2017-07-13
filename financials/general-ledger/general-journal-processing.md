@@ -1,6 +1,6 @@
 ---
 title: Procesamiento de diarios generales
-description: "Este artículo describe las capacidades en Microsoft Dynamics 365 for Operations que pueden facilitar el proceso del diario general y que también puede ayudar a garantizar que se capturan los datos correctos y que no se pone en peligro el control interno."
+description: "Este artículo describe las capacidades en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition que pueden facilitar el proceso del diario general y que también puede ayudar a garantizar que se capturan los datos correctos y que no se pone en peligro el control interno."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/25/2017
@@ -10,8 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
@@ -19,20 +19,21 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 150ca540fca154947cca47e97e45ce865ab1f507
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="general-journal-processing"></a>Procesamiento de diarios generales
+# Procesamiento de diarios generales
+<a id="general-journal-processing" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo describe las capacidades en Microsoft Dynamics 365 for Operations que pueden facilitar el proceso del diario general y que también puede ayudar a garantizar que se capturan los datos correctos y que no se pone en peligro el control interno.  
+Este artículo describe las capacidades en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition que pueden facilitar el proceso del diario general y que también puede ayudar a garantizar que se capturan los datos correctos y que no se pone en peligro el control interno.  
 
 Nombres de diarios
 
@@ -53,16 +54,18 @@ Un nombre de diario solo se puede usar para un segmento específico o para un in
 La opción **Inversión automática** solo está disponible en los diarios generales. Por ejemplo, tiene un ajuste de acumulación donde el documento real aún no se ha procesado, como se muestra en la siguiente ilustración.
 [![Inversión del diario general](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-El complemento de Microsoft Excel para el movimiento del diario proporciona un nivel adicional de automatización y hace que la entrada de datos sea más fácil. La acción **Líneas abiertas en Excel**está disponible en las páginas del **Diario general** y **Asiento del diario** . 
+El complemento de Microsoft Excel para el movimiento del diario proporciona un nivel adicional de automatización y hace que la entrada de datos sea más fácil. La acción **Líneas abiertas en Excel** está disponible en las páginas del **Diario general** y **Asiento del diario** . 
 
 En la página **Diarios periódicos**, puede configurar los diarios periódicos para automatizar el proceso de diario. 
 
 Puede usar plantillas de asientos en cualquier momento. En la página **Diarios generales**, las acciones **Guardar** y **Seleccionar la plantilla de asientos** se encuentran en la página **Asiento del diario**, en **Funciones** para las líneas de asientos.
 
-## <a name="related-setup"></a>Configuración relacionada
+## Configuración relacionada
+<a id="related-setup" class="xliff"></a>
 La configuración siguiente no es específica para los diarios generales, pero ayudará a garantizar que la entrada de datos sea correcta y fácil.
 
-### <a name="main-account"></a>Cuenta principal
+### Cuenta principal
+<a id="main-account" class="xliff"></a>
 
 La configuración de la cuenta principal ofrece muchas opciones para el proceso del diario general:
 
@@ -78,7 +81,8 @@ La configuración de la cuenta principal ofrece muchas opciones para el proceso 
     -   **Validación de usuario:** esta opción controla qué usuarios pueden registrar en una cuenta principal.
     -   **Validación de tipo de registro:** esta opción controla qué tipos de registro se premiten en una cuenta principal.
 
-### <a name="accounting-structures-and-advanced-rules-structures"></a>Estructuras contables y estructuras de reglas avanzadas
+### Estructuras contables y estructuras de reglas avanzadas
+<a id="accounting-structures-and-advanced-rules-structures" class="xliff"></a>
 
 Las estructuras contables y las estructuras de reglas avanzadas son muy importantes para garantizar que los datos necesarios para los informes financieros y el seguimiento del rendimiento se capture durante el proceso del diario general y la documentación. Las estructuras contables y las estructuras de reglas avanzadas le permiten adaptar la experiencia de entrada de datos. Puede permitir la entrada de datos solo para las dimensiones financieras que son relevantes en cada situación, y también puede exigir el requisito de que los datos necesarios y correctos se capturen siempre.
 

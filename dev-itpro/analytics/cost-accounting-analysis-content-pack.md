@@ -3,46 +3,59 @@ title: "Contenido en Power BI sobre el análisis de la contabilidad de costes"
 description: "Este tema describe lo que se incluye en el contenido de análisis de contabilidad de costes en Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 270274
 ms.assetid: b74549df-35d5-4f2f-b3c7-405b0d38ea78
 ms.search.region: Global
-ms.author: yuyus
+ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5ce75a6145bde4a8c33ed785c7d2a60a52416676
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1d19276331a4278f44ad14292ed434c49b74d727
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="cost-accounting-analysis-power-bi-content"></a>Contenido en Power BI sobre el análisis de la contabilidad de costes
+# Contenido en Power BI sobre el análisis de la contabilidad de costes
+<a id="cost-accounting-analysis-power-bi-content" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
+Este tema describe lo que se incluye en el contenido de **análisis de contabilidad de costes** en Microsoft Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
-Este tema describe lo que se incluye en el contenido de análisis de contabilidad de costes en Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+## Información general
+<a id="overview" class="xliff"></a>
 
-<a name="overview"></a>Visión general
---------
+El contenido de **Análisis de la contabilidad de costes** en Power BI está destinado a los controladores de costes responsables de realizar el control de costes de una organización. Incluye medidas clave, como el coste, magnitud, el índice de coste por coste real, coste presupuestario, y coste presupuestario flexible. Usa datos de transacción del módulo **Contabilidad de costes** y proporciona una visión global de costes para la organización completa en una divisa de notificación. Los directores pueden filtrar los datos por objetos de coste para realizar el control de costes de sus unidades organizativas, incluso aunque la organización tenga varias entidades jurídicas. 
 
-El contenido de **Análisis de la contabilidad de costes** en Microsoft Power BI está destinado a los controladores de costes responsables de realizar el control de costes de una organización. Incluye medidas clave, como el coste, magnitud, el índice de coste por coste real, coste presupuestario, y coste presupuestario flexible. Usa datos de transacción de la contabilidad de costes de Microsoft Dynamics 365 for Operations y proporciona una visión global de costes para la organización completa en una divisa de notificación. Los directores pueden filtrar los datos por objetos de coste para realizar el control de costes de sus unidades organizativas, incluso aunque la organización tenga varias entidades jurídicas. Dado que el contenido de **Análisis de la contabilidad de costes** en Power BI resalta las desviaciones entre los costes reales y los costes presupuestados, se puede notificar a los directores las tendencias positivas y negativas de sus unidades operativas. Los directores pueden explorar en profundidad las jerarquías de artículos de coste o elementos de coste individuales para conseguir una visión detallada sobre cómo las variaciones de coste se han producido y luego tomar medidas efectivas. El contenido de **Análisis de la contabilidad de costes** de Power BI permite a los contables de coste analizar cómo el coste fluye por los objetos de coste de toda la organización. Para obtener más información acerca de la contabilidad de costes, consulte [la página principal de la contabilidad de costes](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page). Si define la seguridad de nivel de acceso en contabilidad de costes y la combina con seguridad de nivel fila en Power BI, puede conceder a todos los propietarios de objetos de coste acceso al contenido de **Análisis de la contabilidad de costes** en Power BI. Después todos los datos de las vistas se filtrarán en función del nivel de acceso que se controla en contabilidad de costes. Para obtener más información acerca de la seguridad de nivel de acceso y seguridad de nivel fila, consulte la [configuración de seguridad del contenido de la contabilidad de costes de Power BI](setup-security-cost-accounting-content-pack.md).
+Dado que el contenido de **Análisis de la contabilidad de costes** resalta las desviaciones entre los costes reales y los costes presupuestados, se puede notificar a los directores las tendencias positivas y negativas de sus unidades operativas. Los directores pueden explorar en profundidad las jerarquías de los elementos de coste o los elementos de coste individuales. De esta manera, los directores pueden conseguir información detallada sobre cómo se produjeron las variaciones de costes y, después, tomar medidas eficaces. 
 
-## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
-El contenido de **Análisis de la contabilidad de costes** de Power BI se encuentra en la biblioteca de activos compartidos en Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información sobre cómo descargar el contenido y conectarlo a los datos de Dynamics 365 for Operations, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). 
+El contenido de **Análisis de la contabilidad de costes** permite a los contables de coste analizar cómo el coste fluye por los objetos de coste de toda la organización. 
 
-> NOTA - **KB4011327** es un requisito previo para este contenido de Power BI. Tras iniciar sesión en Lifecycle Services, puede tener acceso a KB aquí: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+Para obtener más información acerca de la contabilidad de costes, consulte [la página principal de la contabilidad de costes](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page). 
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
+Si define la seguridad de nivel de acceso en contabilidad de costes y la combina con seguridad de nivel fila en Power BI, puede conceder a todos los propietarios de objetos de coste acceso al contenido de **Análisis de la contabilidad de costes** en Power BI. Después todos los datos de las vistas se filtrarán en función del nivel de acceso que se controla en contabilidad de costes. Para obtener más información acerca de la seguridad de nivel de acceso y seguridad de nivel fila, consulte la [configuración de seguridad del contenido de la contabilidad de costes de Power BI](setup-security-cost-accounting-content-pack.md).
+
+## Acceso al contenido de Power BI
+<a id="accessing-the-power-bi-content" class="xliff"></a>
+El contenido de **Análisis de la contabilidad de costes** de Power BI se encuentra en la biblioteca de activos compartidos en Microsoft Dynamics Lifecycle Services (LCS). Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
+
+Asegúrese de descargar el contenido de **Análisis de contabilidad de costes** que se aplica a la versión de Microsoft Dynamics 365 que esté usando.
+
+> [!NOTE]
+> KB 4011327 es un requisito previo para este contenido de Power BI. Tras iniciar sesión en LCS, puede tener acceso a KB aquí en <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+
+## Métricas que se incluyen en el contenido de Power BI
+<a id="metrics-that-are-included-in-the-power-bi-content" class="xliff"></a>
 El contenido incluye un conjunto de páginas de informe. Cada página consta de un conjunto de métricas que se visualizan como gráficos, mosaicos y tablas. La tabla siguiente proporciona una visión general de las visualizaciones en el contenido de **Análisis de la contabilidad de costes** en Power BI.
 
 | Página de informes                      | Gráfico                                                                                                                         | Icono                                          |
@@ -63,13 +76,16 @@ El contenido incluye un conjunto de páginas de informe. Cada página consta de 
 | Extracto del coste por período fiscal  | Coste real por nivel de la jerarquía de artículo de coste y nombre de miembro de dimensión de objeto de coste                                             |                                               |
 |                                  | Coste real por nombre de miembro de dimensión de objeto de coste y nombre de miembro de dimensión de artículo de coste                                       |                                               |
 
-## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
-Los datos de Dynamics 365 for Operations se usan para rellenar las páginas de informes en el contenido de **Análisis de la contabilidad de costes** en Power BI. Estos datos se representan como medidas globales que se realizan en el almacén de la entidad, que es una base de datos de Microsoft SQL que se optimiza para análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md). Las siguientes medidas agregadas clave se usan como la base del contenido.
+## Comprensión del modelo de datos y de las entidades
+<a id="understanding-the-data-model-and-entities" class="xliff"></a>
+Los datos siguientes se usan para rellenar las páginas de informes en el contenido de **Análisis de la contabilidad de costes** en Power BI. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md). 
 
-| Entidad                  | Medida agregada clave | Origen de datos para Dynamics 365 for Operations | Campo     | Descripción                                   |
-|-------------------------|---------------------------|---------------------------------------------|-----------|-----------------------------------------------|
-| Entradas de contabilidad de costes | SUM(Amount)               | CAMDATAAggregatedCostEntry                  | Importe    | Importe en divisa del libro mayor de contabilidad de costes. |
-| Entradas estadísticas     | SUM(Magnitude)            | CAMDATAAggregatedStatisctialEntry           | Magnitud |                                               |
+Las siguientes medidas agregadas clave se usan como la base del contenido.
+
+| Entidad                  | Medida agregada clave | Origen de datos para Dynamics 365      | Campo     | Descripción                                        |
+|-------------------------|---------------------------|-----------------------------------|-----------|----------------------------------------------------|
+| Entradas de contabilidad de costes | SUM(Amount)               | CAMDATAAggregatedCostEntry        | Importe    | El importe en divisa del libro mayor de contabilidad de costes. |
+| Entradas estadísticas     | SUM(Magnitude)            | CAMDATAAggregatedStatisctialEntry | Magnitud |                                                    |
 
 Se usará la tabla siguiente para mostrar cómo se usan las medidas agregadas clave para crear varias medidas calculadas en el conjunto de datos del contenido.
 
@@ -114,16 +130,4 @@ Las dimensiones clave siguientes se utilizan como filtros para cortar las medida
 | Calendarios fiscales                   | Calendario, descripción del calendario                                                                                       |
 | Ejercicios                       | Año natural                                                                                                        |
 | Períodos fiscales                     | Período del año natural                                                                                                 |
-
-## <a name="additional-resources"></a>Recursos adicionales
-Estos son algunos vínculos útiles relacionados con las entidades y la creación de contenido de Power BI:
-
--   [Entidades de datos](..\data-entities\data-entities.md)
--   [Creación de paquetes de contenido organizativo](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Modelado de datos con Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Adición de iconos de Power BI a espacios de trabajo](configure-power-bi-integration.md)
--   [Configuración de seguridad del contenido de la contabilidad de costes de Power B](setup-security-cost-accounting-content-pack.md)
-
-
-
 

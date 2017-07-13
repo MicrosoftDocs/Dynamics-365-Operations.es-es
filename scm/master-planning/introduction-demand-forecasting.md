@@ -3,14 +3,14 @@ title: "Visión general de previsión de la demanda"
 description: "La previsión de demanda se usa para predecir demanda independiente de pedidos de ventas y demanda dependiente en cualquier momento de desemparejamiento para los pedidos del cliente. Las reglas mejoradas de reducción de la previsión de demanda proporcionan una solución ideal para una personalización global."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72004
 ms.assetid: 916707c9-1333-460f-a0fa-4e95f6fda2ad
 ms.search.region: global
@@ -19,24 +19,26 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9d74c1d1219eb39f2a76c0009adb21dd0c8c7b7c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6b4498ae05b9495918c0a079cc88903820192a59
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="demand-forecasting-overview"></a>Visión general de previsión de la demanda
+# Visión general de previsión de la demanda
+<a id="demand-forecasting-overview" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
 La previsión de demanda se usa para predecir demanda independiente de pedidos de ventas y demanda dependiente en cualquier momento de desemparejamiento para los pedidos del cliente. Las reglas mejoradas de reducción de la previsión de demanda proporcionan una solución ideal para una personalización global.
 
-Para generar la previsión de línea base, un resumen de transacciones históricas se transfiere a un servicio de aprendizaje automático de Microsoft Azure que está hospedado en Azure. Dado que este servicio no se comparte entre usuarios, puede ser personalizado fácilmente para cumplir los requisitos específicos del sector. Puede usar Dynamics 365 for Operations para visualizar la previsión, ajustar la previsión y visualizar los indicadores claves de rendimiento (KPI) acerca de la precisión de la previsión.
+Para generar la previsión de línea base, un resumen de transacciones históricas se transfiere a un servicio de aprendizaje automático de Microsoft Azure que está hospedado en Azure. Dado que este servicio no se comparte entre usuarios, puede ser personalizado fácilmente para cumplir los requisitos específicos del sector. Puede usar Finance and Operations para visualizar la previsión, ajustar la previsión y visualizar los indicadores claves de rendimiento (KPI) acerca de la precisión de la previsión.
 
-## <a name="key-features-of-demand-forecasting"></a>Características clave de previsión de demanda
+## Características clave de previsión de demanda
+<a id="key-features-of-demand-forecasting" class="xliff"></a>
 Estas son algunas de las características principales de la previsión de demanda:
 
 -   Generación de una previsión estadística de línea base basada en datos históricos.
@@ -46,34 +48,38 @@ Estas son algunas de las características principales de la previsión de demand
 -   Eliminación de valores atípicos.
 -   Crear medidas de precisión de la previsión.
 
-## <a name="major-themes-in-demand-forecasting"></a>Temas principales en la previsión de demanda
+## Temas principales en la previsión de demanda
+<a id="major-themes-in-demand-forecasting" class="xliff"></a>
 Se implementan tres temas principales en la previsión de demanda:
 
 -   **Modularidad:** la previsión de demanda es modular y fácil de configurar. Puede activar y desactivar la funcionalidad cambiando la clave de configuración en **Comercio** &gt; **Previsión de inventario** &gt; **Previsión de demanda**.
 -   **Reutilización de la pila de Microsoft**: Microsoft lanzó la plataforma Aprendizaje automático en febrero de 2015. Aprendizaje automático, que ahora es parte de Microsoft Cortana Analytics Suite, le permite crear rápida y fácilmente experimentos de análisis de previsión, como experimentos de estimación de demanda, mediante los algoritmos R o los idiomas de programación de Python y una interfaz simple de arrastrar y colocar.
-    -   Puede descargar los experimentos de previsión de demanda de Dynamics 365 for Operations, modificarlos para satisfacer sus requisitos empresariales, publicarlos como un servicio web en Azure y utilizarlos para generar las previsiones de demanda. Los experimentos están disponibles para descargar si ha comprado una suscripción a Dynamics 365 for Operations para un planificador de producción como usuario de nivel empresarial.
-    -   Puede descargar cualquiera de los experimentos de previsión de demanda actualmente disponibles en [Galería de análisis de Cortana](https://gallery.cortanaanalytics.com/). Mientras que los experimentos de previsión de demanda de Dynamics 365 for Operations se integran automáticamente con Dynamics 365 for Operations, los clientes y los asociados deben gestionar la integración de los experimentos que descargan en [Galería de análisis de Cortana](https://gallery.cortanaanalytics.com/). Por tanto, los experimentos de la [Galería de análisis de Cortana](https://gallery.cortanaanalytics.com/) no son tan sencillos de usar como los experimentos de la previsión de demanda de Dynamics 365 for Operations. Debe modificar el código de los experimentos de modo que usen la interfaz de programación de aplicaciones (API) de Dynamics 365 for Operations.
+    -   Puede descargar los experimentos de previsión de demanda de Finance and Operations, modificarlos para satisfacer sus requisitos empresariales, publicarlos como un servicio web en Azure y utilizarlos para generar las previsiones de demanda. Los experimentos están disponibles para descargar si ha comprado una suscripción a Finance and Operations para un planificador de producción como usuario de nivel empresarial.
+    -   Puede descargar cualquiera de los experimentos de previsión de demanda actualmente disponibles en [Galería de análisis de Cortana](https://gallery.cortanaanalytics.com/). Mientras que los experimentos de previsión de demanda de Finance and Operations se integran automáticamente con Finance and Operations, los clientes y los asociados deben gestionar la integración de los experimentos que descargan en [Galería de análisis de Cortana](https://gallery.cortanaanalytics.com/). Por tanto, los experimentos de la [Galería de análisis de Cortana](https://gallery.cortanaanalytics.com/) no son tan sencillos de usar como los experimentos de la previsión de demanda de Finance and Operations. Debe modificar el código de los experimentos de modo que usen la interfaz de programación de aplicaciones (API) de Finance and Operations.
     -   Puede crear sus propios experimentos en es Estudio de aprendizaje automático de Microsoft Azure, publicarlos como servicios en Azure, y utilizarlos para generar las previsiones de demanda.
     -   Si no necesita alto rendimiento, o si no necesita procesar grandes cantidades de datos, puede usar el nivel libre de aprendizaje automático. Recomendamos que comience siempre desde este nivel, especialmente durante las fases de implementación y de pruebas. Si necesita un rendimiento más alto y almacenamiento adicional, puede usar el nivel estándar de aprendizaje automático. Este nivel requiere una suscripción a Azure e implica costes adicionales. Para obtener más información sobre los precios de Aprendizaje automático, consulte <http://aka.ms/machine-learning-price-info>.
--   **Reducción de previsión en cualquier momento de desemparejamiento:** previsión de demanda en Dynamics 365 for Operations en esta función, que le permite realizar una previsión de demanda dependiente e independiente en cualquier momento de desemparejamiento.
+-   **Reducción de previsión en cualquier momento de desemparejamiento:** previsión de demanda en Finance and Operations en esta función, que le permite realizar una previsión de demanda dependiente e independiente en cualquier momento de desemparejamiento.
 
-## <a name="basic-flow-in-demand-forecasting"></a>Flujo básico en la previsión de demanda
+## Flujo básico en la previsión de demanda
+<a id="basic-flow-in-demand-forecasting" class="xliff"></a>
 En el siguiente diagrama se muestra el flujo de básico en la previsión de la demanda. 
 
 [![diagrama de introducción a la previsión de la demanda](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
 
-La generación de previsión de la demanda se inicia en Dynamics 365 for Operations. Los datos históricos de transacción de la base de datos de transacciones de Dynamics 365 for Operations se recopilan y rellenan una tabla provisional. Esta tabla provisional se alimenta más tarde a un servicio de aprendizaje automático. Con una personalización mínima, puede conectar varios orígenes de datos a la tabla provisional. Los orígenes de datos pueden incluir archivos de Microsoft Excel, archivos con valores separados por coma (CSV), y datos de Microsoft Dynamics AX 2009 y Microsoft Dynamics AX 2012. Por lo tanto, puede generar las previsiones de demanda que tienen en cuenta los datos históricos que aparecen en varios sistemas. Sin embargo, los datos maestros, como los nombres de artículo y unidades de medida, deben ser iguales en todas las fuentes de datos.
+La generación de previsión de la demanda se inicia en Finance and Operations. Los datos históricos de transacción de la base de datos de transacciones de Finance and Operations se recopilan y rellenan una tabla provisional. Esta tabla provisional se alimenta más tarde a un servicio de aprendizaje automático. Con una personalización mínima, puede conectar varios orígenes de datos a la tabla provisional. Los orígenes de datos pueden incluir archivos de Microsoft Excel, archivos con valores separados por coma (CSV), y datos de Microsoft Dynamics AX 2009 y Microsoft Dynamics AX 2012. Por lo tanto, puede generar las previsiones de demanda que tienen en cuenta los datos históricos que aparecen en varios sistemas. Sin embargo, los datos maestros, como los nombres de artículo y unidades de medida, deben ser iguales en todas las fuentes de datos.
 
-Si usa los experimentos de aprendizaje automático de previsión de demanda de Dynamics 365 for Operations, se busca un mejor ajuste entre cinco métodos de previsión de serie de tiempo para calcular una previsión de línea base. Los parámetros para estos métodos de previsión se gestionan en Dynamics 365 for Operations. 
+Si usa los experimentos de aprendizaje automático de previsión de demanda de Finance and Operations, se busca un mejor ajuste entre cinco métodos de previsión de serie de tiempo para calcular una previsión de línea base. Los parámetros para estos métodos de previsión se gestionan en Finance and Operations. 
 
-Las previsiones, los datos históricos y los cambios que se hayan realizado a las previsiones de demanda en iteraciones anteriores estarán disponibles en Dynamics 365 for Operations. 
+Las previsiones, los datos históricos y los cambios que se hayan realizado a las previsiones de demanda en iteraciones anteriores estarán disponibles en Finance and Operations. 
 
-Puede usar Dynamics 365 for Operations para visualizar y modificar las previsiones de línea base. Los ajustes manuales deben estar autorizados antes de que las previsiones se puedan utilizar para la planificación.
+Puede usar Finance and Operations para visualizar y modificar las previsiones de línea base. Los ajustes manuales deben estar autorizados antes de que las previsiones se puedan utilizar para la planificación.
 
-## <a name="limitations"></a>Limitaciones
-La previsión de demanda en Dynamics 365 for Operations es una herramienta que ayuda a los clientes en el sector de fabricación a crear procesos de previsión. Ofrece la función básica de una solución de previsión de demanda y se diseña de modo que pueda extenderse fácilmente. La previsión de demanda puede qeue no sea el mejor ajuste para clientes en sectores como venta minorista, venta al por mayor, almacenamiento, transporte u otros servicios profesionales.
+## Limitaciones
+<a id="limitations" class="xliff"></a>
+La previsión de demanda en Finance and Operations es una herramienta que ayuda a los clientes en el sector de fabricación a crear procesos de previsión. Ofrece la función básica de una solución de previsión de demanda y se diseña de modo que pueda extenderse fácilmente. La previsión de demanda puede qeue no sea el mejor ajuste para clientes en sectores como venta minorista, venta al por mayor, almacenamiento, transporte u otros servicios profesionales.
 
-<a name="see-also"></a>Consulte también
+Consulte también
+<a id="see-also" class="xliff"></a>
 --------
 
 [Configuración de la previsión de la demanda](demand-forecasting-setup.md)

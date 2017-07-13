@@ -1,16 +1,16 @@
 ---
 title: "Ver y diseñar informes financieros"
-description: "En este artículo se proporcionan ejercicios que le enseñarán a visualizar y crear informes financieros para Microsoft Dynamics 365 for Operations."
+description: "En este artículo se proporcionan ejercicios que le enseñarán a visualizar y crear informes financieros para Microsoft Dynamics 365 for Finance and Operations."
 author: jcart1106
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.region: Global
@@ -18,22 +18,24 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1c0787327830d2cdff9e8a48798165dc83493393
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="view-and-design-financial-reports"></a>Ver y diseñar informes financieros
+# Ver y diseñar informes financieros
+<a id="view-and-design-financial-reports" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-En este artículo se proporcionan ejercicios que le enseñarán a visualizar y crear informes financieros para Microsoft Dynamics 365 for Operations. El informe financiero consta de una experiencia de visualización en Dynamics 365 for Operations y un diseñador de informes con un solo clic que le permite crear y editar informes financieros.  
+En este artículo se proporcionan ejercicios que le enseñarán a visualizar y crear informes financieros para Microsoft Dynamics 365 for Finance and Operations. El informe financiero consta de una experiencia de visualización en Finance and Operationsy un diseñador de informes con un solo clic que le permite crear y editar informes financieros.  
 
-<a name="exercise-1-generate-and-explore-a-default-financial-report"></a>Ejercicio 1: Generar y explorar un informe financiero predeterminado
+Ejercicio 1: Generar y explorar un informe financiero predeterminado
+<a id="exercise-1-generate-and-explore-a-default-financial-report" class="xliff"></a>
 -----------------------------------------------------------
 
 Para este ejercicio, generará y explorará un informe predeterminado existente. Este informe incluye todas las cuentas y también contiene las propiedades de la cuenta (atributos) para las cuentas. Explorará en profundidad el detalle de la transacción, aplicando filtros de dimensiones, cambiando la divisa del informe. En primer lugar, actualizaremos el orden de visualización de las dimensiones para informes financieros. Esto le permite seleccionar cómo se muestran las dimensiones no solo al diseñar y ver informes financieros.
@@ -59,18 +61,19 @@ Para este ejercicio, generará y explorará un informe predeterminado existente.
 13. Seleccione **Opciones de informe**.
 14. Seleccione **Agregar una dimensión de filtro** y elija **Unidad de negocio**.
 15. Escriba 001 en el campo y seleccione **Aceptar**. El informe muestra ahora solo los datos para la unidad de negocio 001. Esta es una vista personalizada del informe y no está disponible para que la vean los demás.
-16. Cierre el informe filtrado. Los informes financieros se pueden mostrar en cualquier divisa que se agregue a Dynamics 365 for Operations.
+16. Cierre el informe filtrado. Los informes financieros se pueden mostrar en cualquier divisa que se agregue a Finance and Operations.
 17. Seleccione **Divisa** y, a continuación, seleccione **EUR**. El informe se muestra ahora en euros. Los códigos de divisa o los símbolo de divisa incluidos en el diseño del informe se muestran ahora en la divisa aplicada. Si no se define ningún símbolo de divisa para una divisa, no se muestra el símbolo de la divisa.
 18. Cierre el informe **Detalle de contabilidad general**.
 19. Cierre el **Diseñador de informes**.
 
-## <a name="exercise-2-add-additional-account-properties-to-a-report-design"></a>Ejercicio 2: Agregar propiedades de cuenta adicionales a un diseño de informe
+## Ejercicio 2: Agregar propiedades de cuenta adicionales a un diseño de informe
+<a id="exercise-2-add-additional-account-properties-to-a-report-design" class="xliff"></a>
 En este ejercicio, modificará un informe predeterminado existente. Actualizará tanto la definición de fila para incluir todas las cuentas como la definición de columna para contener atributos de cuenta. Una vez que se completen las actualizaciones, generará el informe recién creado y explorará el informe. Empezaremos por la lista Informes financieros.
 
 1.  Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
 2.  Seleccione la fila para el informe denominado **Resumen de saldo de comprobación – predeterminado**.
 3.  Seleccione **Editar**. **Resumen de saldo de comprobación – predeterminado** se abrirá en el diseñador de informes.
-4.  Seleccione **Archivo** y, a continuación, **Guardar como** y asigne al informe el nombre Saldo de comprobación detallado con atributos. Nota: siempre que se crea un nuevo informe en el diseñador de informes, se actualizan los informes financieros en Dynamics 365 for Operations.
+4.  Seleccione **Archivo** y, a continuación, **Guardar como** y asigne al informe el nombre Saldo de comprobación detallado con atributos. Nota: siempre que se crea un nuevo informe en el diseñador de informes, se actualizan los informes financieros en Finance and Operations.
 5.  Desde la definición del informe, seleccione el icono de la definición de filas para abrir la definición de fila **Saldo de comprobación - predeterminado**.
 6.  Guarde la definición de fila como **Saldo de comprobación detallado con atributos**.
 7.  Con el cursor en la fila 50, seleccione **Editar** y, a continuación, **Insertar filas de dimensiones**. Insertar filas de dimensiones le permite elegir qué dimensiones desea tener en la definición de fila. Para este ejercicio, vamos a crear la definición de fila con Cuenta principal.
@@ -100,13 +103,14 @@ En este ejercicio, modificará un informe predeterminado existente. Actualizará
 25. Cierre el informe **Saldo de comprobación detallado con atributos**.
 26. Cierre el **Diseñador de informes**.
 
-## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Ejercicio 3: Crear un informe multidimensional mediante un organigrama
+## Ejercicio 3: Crear un informe multidimensional mediante un organigrama
+<a id="exercise-3-create-a-multidimensional-report-using-a-reporting-tree" class="xliff"></a>
 Para este ejercicio, modificará un informe predeterminado existente. Se creará un organigrama y se agregará a una definición del informe para producir un informe de ingresos de centro de coste o por división. Una vez que se completen las actualizaciones, generará el informe de ingresos de centro de coste o por división y explorará el informe con el organigrama. Empezaremos por la lista Informes financieros.
 
 1.  Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
 2.  Seleccione la fila para el informe denominado **Informe de ingresos – predeterminado**.
 3.  Seleccione **Editar**. **Informe de ingresos – predeterminado** se abrirá en el diseñador de informes.
-4.  En el menú **Archivo**, seleccione **Nuevo**y, a continuación, haga clic en **Definición del organigrama**.
+4.  En el menú **Archivo**, seleccione **Nuevo** y, a continuación, haga clic en **Definición del organigrama**.
 5.  En el menú **Editar**, haga clic en **Insertar unidades de notificaciones desde dimensiones**.
 6.  Desactive las casillas para todas las dimensiones, excepto **Centro de coste**.
 7.  Haga clic en el campo **Desde la dimensión** para la dimensión Centro de coste, escriba **007** y, a continuación, presione la tecla de tabulador. En el campo **Hasta la dimensión**, escriba **018**.
@@ -136,7 +140,8 @@ Para este ejercicio, modificará un informe predeterminado existente. Se creará
 31. Cierre **Informe de ingresos - predeterminado**.
 32. Cierre el **Diseñador de informes**.
 
-## <a name="exercise-4-create-a-consolidated-report-using-an-organization-hierarchy"></a>Ejercicio 4: Crear un informe consolidado con una jerarquía organizativa
+## Ejercicio 4: Crear un informe consolidado con una jerarquía organizativa
+<a id="exercise-4-create-a-consolidated-report-using-an-organization-hierarchy" class="xliff"></a>
 Para este ejercicio, modificará un informe predeterminado existente. Agregará una jerarquía organizativa en la definición del informe para producir un informe de ingresos consolidado y un balance de situación. Una vez que se completen las actualizaciones, generará el informe consolidado y explorará el informe con el organigrama. Empezaremos por la lista Informes financieros.
 
 1.  Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
@@ -155,7 +160,8 @@ Para este ejercicio, modificará un informe predeterminado existente. Agregará 
 14. Cierre **Balance de situación consolidado e informe de ingresos en paralelo**.
 15. Cierre el **Diseñador de informes**.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Ejercicio 5: Crear un informe de departamento en paralelo
+## Ejercicio 5: Crear un informe de departamento en paralelo
+<a id="exercise-5-create-a-sidebyside-departmental-report" class="xliff"></a>
 En este ejercicio, creará un informe nuevo. El informe es un informe de ingresos de departamento en paralelo. Usará una definición de fila existente, pero creará una definición del informe nueva y una definición de columna nueva que use filtros de dimensión. Empezaremos por la lista Informes financieros.
 
 1.  Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
@@ -166,7 +172,7 @@ En este ejercicio, creará un informe nuevo. El informe es un informe de ingreso
 6.  Haga doble clic en el campo **Filtro de dimensiones**.
 7.  En la ventana **Dimensión**, haga doble clic en la columna **Departamento**.
 8.  En la sección Individual o intervalo del diálogo, haga clic en los **puntos suspensivos** para el campo **De** para que aparezca una lista de departamentos.
-9.  Seleccione el departamento **022**, **Ventas y marketing** y, a continuación, haga clic en**Aceptar**.
+9.  Seleccione el departamento **022**, **Ventas y marketing** y, a continuación, haga clic en **Aceptar**.
 10. Repita los pasos 5 al 8 para los departamentos 23-25.
 11. En la fila **Encabezado 2** para cada columna FD, escriba las siguientes descripciones de departamento:
     -   Columna B – Ventas y marketing
@@ -182,9 +188,10 @@ En este ejercicio, creará un informe nuevo. El informe es un informe de ingreso
 17. Cambiar el nivel de detalle a **Financiero, Cuenta y Transacción**.
 18. **Guarde** sus cambios y **genere**. Una vez que el informe complete la generación y se abra, puede explorar el informe.
 
-## <a name="additional-resources"></a>Recursos adicionales
-[Informes financieros](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
-[Ver informes financieros](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
+## Recursos adicionales
+<a id="additional-resources" class="xliff"></a>
+[Informes financieros](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
+[Ver informes financieros](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
 [Blog de Dynamics Financial Reporting](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

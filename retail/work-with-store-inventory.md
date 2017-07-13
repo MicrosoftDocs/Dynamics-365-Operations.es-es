@@ -16,17 +16,18 @@ ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5e5043d5951015fc14d29989ef4cab20a8b24f3b
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 1a5f2cd60e09b67cee4bab211bba4e07e9ef181f
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="manage-store-inventory"></a>Administrar inventario en tienda
+# Administrar inventario en tienda
+<a id="manage-store-inventory" class="xliff"></a>
 
 [!include[banner](includes/banner.md)]
 
@@ -35,15 +36,21 @@ En este artículo se describen los tipos de documentos que puede usar para gesti
 
 Puede utilizar los siguientes tipos de documentos para gestionar el inventario de la organización.
 
-## <a name="purchase-orders"></a>Pedidos de compra
-Los pedidos de compra se crean en la oficina central. Si se incluye almacén comercial en el encabezado del pedido de compra, el pedido se puede recibir en la tienda mediante PDV PDV moderno (MPOS) o PDV en la nube en Microsoft Dynamics 365 for Operations - Retail. Después de especificar las cantidades que se reciben en la tienda, se pueden guardar de manera local para realizar otras modificaciones. Otra opción es que las cantidades se comprometan y se envíen a la oficina central. En la oficina central, las cantidades que se han recibido en la tienda se muestran en Dynamics 365 for Operations, en el campo **Recibir ahora** del pedido de compra.
+## Pedidos de compra
+<a id="purchase-orders" class="xliff"></a>
+Los pedidos de compra se crean en la oficina central. Si se incluye un almacén comercial en el encabezado del pedido de compra, el pedido se puede recibir en la tienda mediante Modern POS (MPOS) o Cloud POS en Microsoft Dynamics 365 for Retail. Después de especificar las cantidades que se reciben en la tienda, se pueden guardar de manera local para realizar otras modificaciones. Otra opción es que las cantidades se comprometan y se envíen a la oficina central. En la oficina central, las cantidades que se han recibido en la tienda se muestran en Dynamics 365 for Retail, en el campo **Recibir ahora** del pedido de compra.
 
-## <a name="transfer-orders"></a>Transferir pedidos
-Un pedido de transferencia puede especificar que una tienda concreta es una ubicación desde la que se pueden enviar artículos. En este caso, el pedido de transferencia aparece en la tienda como una solicitud de selección en MPOS o PDV en la nube. Después de seleccionar las cantidades solicitadas, se comprometen y se envían a la oficina central. En la oficina central, las cantidades que se han seleccionado en la tienda se muestran en Dynamics 365 for Operations, en el campo **Enviar ahora** del pedido de transferencia. Un pedido de transferencia puede especificar que una tienda concreta es una ubicación a la que se pueden enviar artículos. En este caso, el pedido de transferencia aparece en la tienda como una solicitud de recepción en MPOS o PDV en la nube. Después de especificar las cantidades que se reciben en la tienda, se pueden guardar de manera local para realizar otras modificaciones. Otra opción es que las cantidades se comprometan y se envíen a la oficina central. En la oficina central, las cantidades que se han recibido en la tienda se muestran en Dynamics 365 for Operations, en el campo **Recibir ahora** del pedido de transferencia.
+## Transferir pedidos
+<a id="transfer-orders" class="xliff"></a>
+Un pedido de transferencia puede especificar que una tienda concreta es una ubicación desde la que se pueden enviar artículos. En este caso, el pedido de transferencia aparece en la tienda como una solicitud de selección en MPOS o PDV en la nube. Después de seleccionar las cantidades solicitadas, se comprometen y se envían a la oficina central. En la oficina central, las cantidades que se han seleccionado en la tienda se muestran en Dynamics 365 for Retail, en el campo **Enviar ahora** del pedido de transferencia. Un pedido de transferencia puede especificar que una tienda concreta es una ubicación a la que se pueden enviar artículos. En este caso, el pedido de transferencia aparece en la tienda como una solicitud de recepción en MPOS o PDV en la nube. Después de especificar las cantidades que se reciben en la tienda, se pueden guardar de manera local para realizar otras modificaciones. Otra opción es que las cantidades se comprometan y se envíen a la oficina central. En la oficina central, las cantidades que se han recibido en la tienda se muestran en Dynamics 365 for Retail, en el campo **Recibir ahora** del pedido de transferencia.
 
-## <a name="stock-counts"></a>Recuentos de existencias
+## Recuentos de existencias
+<a id="stock-counts" class="xliff"></a>
 Los recuentos de existencias se pueden programar o no. Los recuentos de existencias programados se inician en la oficina central, que especifica los artículos que se deben contar. La oficina central crea un documento que se puede recibir en la tienda, donde se especifican las cantidades de existencias disponibles reales en MPOS o PDV en la nube. Los recuentos de existencias no programados se inician en una tienda y las cantidades de existencias disponibles se actualizan en MPOS o PDV en la nube. A diferencia de los recuentos programados de existencias, los recuentos no programados de existencias no tienen una lista predefinida de artículos. Cuando finaliza un recuento de existencias de cualquier tipo, se compromete y se envía a la oficina central. En la oficina central, se valida y se registra el recuento.
 
+## Búsqueda de inventario
+<a id="inventory-lookup" class="xliff"></a>
+La cantidad de producto disponible actualmente para múltiples tiendas y almacenes se puede ver en la página de consulta de inventario. Además de la cantidad disponible actual, las cantidades futuras de neto no comprometido (NNC) se pueden visualizar para cada tienda. Para ello, seleccione la tienda para la que desea ver el NNC y después para haga clic en **Mostrar disponibilidad en tienda**.
 
 
 

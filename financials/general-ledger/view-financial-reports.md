@@ -1,45 +1,49 @@
 ---
 title: Ver informes financieros
-description: "En este artículo se describe cómo ver y explorar informes financieros en Microsoft Dynamics AX. Incluye información sobre las distintas opciones que se pueden aplicar a los informes financieros para cambiar su aspecto y los datos que incluyen."
-author: RobinARH
+description: "Este artículo describe cómo ver y explorar informes financieros en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Incluye información sobre las distintas opciones que se pueden aplicar a los informes financieros para cambiar su aspecto y los datos que incluyen."
+author: kweekley
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
-ms.author: aolson
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b02dbc0181c08611674cdf571075c20d78cebdc
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 102031174417a33b12c32f6b8185556b8c4701e5
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="view-financial-reports"></a>Ver informes financieros
+# Ver informes financieros
+<a id="view-financial-reports" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-En este artículo se describe cómo ver y explorar informes financieros en Microsoft Dynamics AX. Incluye información sobre las distintas opciones que se pueden aplicar a los informes financieros para cambiar su aspecto y los datos que incluyen.
+Este artículo describe cómo ver y explorar informes financieros en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Incluye información sobre las distintas opciones que se pueden aplicar a los informes financieros para cambiar su aspecto y los datos que incluyen.
 
-<a name="financial-reporting-overview"></a>Visión general de informes financieros
+Visión general de informes financieros
+<a id="financial-reporting-overview" class="xliff"></a>
 ----------------------------
 
-## <a name="open-a-financial-report"></a>Abrir un informe financiero
+## Abrir un informe financiero
+<a id="open-a-financial-report" class="xliff"></a>
 Para abrir un informe, seleccione el nombre del informe. La primera vez que se abre un informe, se genera automáticamente para el mes anterior. Por ejemplo, si abre un informe por primera vez en agosto de 2015, el informe se genera para el 31 de julio de 2015. Tras abrir un informe, puede empezar a explorarlo profundizando en fragmentos específicos de datos y cambiando las opciones de informe.
 
-## <a name="drill-down-on-a-financial-report"></a>Exploración en profundidad de informes financieros
+## Exploración en profundidad de informes financieros
+<a id="drill-down-on-a-financial-report" class="xliff"></a>
 Los informes financieros pueden incluir múltiples niveles de detalle. El nivel financiero es el primer nivel que ve al abrir un informe financiero. Para ir al nivel de cuenta, seleccione los datos que desea explorar en profundidad. Por ejemplo, para ver los detalles de la cuenta para ventas, seleccione los datos de ventas que desea explorar. Desde el nivel de cuenta, puede explorar en profundidad para ver las transacciones que componen el saldo de la cuenta. Hay dos formas de ver transacciones: transacciones de informes y transacciones de asientos.
 
 -   **Transacciones de informes**: las transacciones aparecen en una vista con formato que se incluye en el informe financiero. Para ver transacciones en la vista con formato, seleccione los datos que desea explorar en profundidad y, a continuación, haga clic en **Obtener detalles de nivel de transacción de informe**.
@@ -47,7 +51,8 @@ Los informes financieros pueden incluir múltiples niveles de detalle. El nivel 
 
 Si los datos son datos de presupuesto, puede elegir abrir asientos contables presupuestarios. Para cerrar cualquier nivel del informe y regresar la lugar donde comenzó, puede presionar la tecla Esc o hacer clic en el botón **Cerrar** (**X**) en la parte superior derecha.
 
-## <a name="change-report-options"></a>Cambiar opciones de informe
+## Cambiar opciones de informe
+<a id="change-report-options" class="xliff"></a>
 Puede cambiar la fecha del informe, aplicar filtros de atributos y dimensiones, o cambiar el escenario de presupuesto en un informe **Real frente a presupuesto**. En el Panel de acciones, haga clic en **Opciones del informe** y, a continuación, siga uno o más de estos pasos:
 
 -   Para cambiar el período base y el año base de un informe, seleccione un período base y un año base y haga clic en **Aceptar**.
@@ -57,22 +62,28 @@ Puede cambiar la fecha del informe, aplicar filtros de atributos y dimensiones, 
 
 Al hacer clic en **Aceptar**, se aplican al informe todas las opciones que haya seleccionado. Si decide que no desea aplicar las opciones seleccionadas, haga clic en **Cancelar**.
 
-## <a name="update-a-financial-report"></a>Actualizar un informe financiero
+## Actualizar un informe financiero
+<a id="update-a-financial-report" class="xliff"></a>
 Puede actualizar un informe financiero de modo que muestre los datos más recientes para el período y el año para el que se generó el informe. Por ejemplo, si actualiza un informe financiero que se generó para octubre de 2015, el informe refleja las nuevas transacciones que se han registrado para octubre de 2015. Para actualizar un informe financiero, en el Panel de acciones, haga clic en **Actualizar**. Un informe actualizado solo está disponible para la persona que lo actualizó. Para que las demás personas vean los mismos datos, se debe publicar el informe.
 
-## <a name="publish-a-financial-report"></a>Publicar un informe financiero
+## Publicar un informe financiero
+<a id="publish-a-financial-report" class="xliff"></a>
 Tras actualizar un informe financiero, puede publicarlo. Otras personas de la organización podrán verlo entonces. Para publicar un informe, en el Panel de acciones, haga clic en **Publicar**.
 
-## <a name="display-a-financial-report-in-a-different-currency"></a>Mostrar un informe financiero en una divisa distinta
-Se puede mostrar un informe financiero en cualquier divisa en cualquier momento. Para mostrar un informe en una divisa distinta, en el Panel de acciones, haga clic en **Divisa** y seleccione una divisa. El informe se traduce en esa divisa y se muestran los resultados. Los símbolos o los códigos de divisa que se incluyen como parte del diseño del informe se actualizan para reflejar la nueva divisa. Las divisas que aparecen en la lista son las divisas de notificación que se configuran en Microsoft Dynamics AX.
+## Mostrar un informe financiero en una divisa distinta
+<a id="display-a-financial-report-in-a-different-currency" class="xliff"></a>
+Se puede mostrar un informe financiero en cualquier divisa en cualquier momento. Para mostrar un informe en una divisa distinta, en el Panel de acciones, haga clic en **Divisa** y seleccione una divisa. El informe se traduce en esa divisa y se muestran los resultados. Los símbolos o los códigos de divisa que se incluyen como parte del diseño del informe se actualizan para reflejar la nueva divisa. Las divisas que aparecen en la lista son las divisas de notificación que se configuran en Finance and Operations.
 
-## <a name="display-a-summarized-view-of-the-financial-report"></a>Mostrar una vista resumida del informe financiero
+## Mostrar una vista resumida del informe financiero
+<a id="display-a-summarized-view-of-the-financial-report" class="xliff"></a>
 Un informe financiero puede contener líneas de detalle y líneas de resumen. Las líneas de detalle son las líneas que contienen cuentas principales o dimensiones. Las líneas de resumen son descripción, total y líneas de cálculo. Para mostrar solo las líneas de resumen de un informe, haga clic en **Mostrar** y luego en **Solo líneas de resumen**. El informe se contrae y solo muestra las líneas de resumen. Para ver las líneas de detalle junto con las líneas de resumen, haga clic en **Mostrar** y luego haga clic en **Solo líneas de resumen** de nuevo.
 
-## <a name="open-a-financial-report-from-a-previous-month"></a>Abrir un informe financiero a partir de un mes anterior
-Puede ver informes para el mes actual o meses anteriores sin volver a regenerar el informe. Para abrir el informe para un mes anterior, haga clic en **Mostrar** y después haga clic en a**Informes anteriores**. Aparece una lista de los meses anteriores para los que se ha generado el informe. Expanda el mes para el que desea ver el informe, seleccione la fecha y haga clic en **Aceptar**. Aparece el informe del mes anterior. Para volver al informe del mes actual, haga clic en **Cancelar**.
+## Abrir un informe financiero a partir de un mes anterior
+<a id="open-a-financial-report-from-a-previous-month" class="xliff"></a>
+Puede ver informes para el mes actual o meses anteriores sin volver a regenerar el informe. Para abrir el informe para un mes anterior, haga clic en **Mostrar** y después haga clic en a **Informes anteriores**. Aparece una lista de los meses anteriores para los que se ha generado el informe. Expanda el mes para el que desea ver el informe, seleccione la fecha y haga clic en **Aceptar**. Aparece el informe del mes anterior. Para volver al informe del mes actual, haga clic en **Cancelar**.
 
-## <a name="print-a-financial-report"></a>Imprimir un informe financiero
+## Imprimir un informe financiero
+<a id="print-a-financial-report" class="xliff"></a>
 Para imprimir un informe financiero, en el Panel de acciones, haga clic en **Imprimir** y, a continuación, siga uno o más de estos pasos para establecer las opciones de impresión:
 
 -   Para incluir los diversos niveles de detalles en el informe impreso, establezca el control deslizante en **Sí** o **No**. Si un informe usa un organigrama, puede elegir incluir todas las unidades de notificación o solo la unidad de notificación actual.
@@ -82,13 +93,16 @@ Para imprimir un informe financiero, en el Panel de acciones, haga clic en **Imp
 
 Una vez que haya terminado de establecer las opciones de impresión, haga clic en **Imprimir** para imprimir el informe. Si decide que no desea imprimir el informe, haga clic en **Cancelar** en su lugar. Se muestra una vista previa del informe impreso. Puede seleccionar la impresora a la que enviar el informe y también puede ajustar las opciones de impresión.
 
-## <a name="export-a-financial-report"></a>Exportar un informe financiero
+## Exportar un informe financiero
+<a id="export-a-financial-report" class="xliff"></a>
 Para exportar un informe financiero, en el Panel de acciones, haga clic en **Exportar**. El informe se exporta a Microsoft Excel y el explorador le pregunta si desea abrir o guardar el archivo exportado. La configuración de exportación que se define en el diseño del informe se aplica al informe exportado.    
 
-<a name="see-also"></a>Consulte también
+Consulte también
+<a id="see-also" class="xliff"></a>
 --------
 
-[Informes financieros para Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+[Informes financieros para Microsoft Dynamics AX](/dynamics365/unified-operations/dev-itpro/analytics/financial-reporting-intro)
+
 
 
 

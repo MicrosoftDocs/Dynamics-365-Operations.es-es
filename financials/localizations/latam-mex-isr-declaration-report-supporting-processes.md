@@ -3,7 +3,7 @@ title: "Informe de declaración de ISR y procesos auxiliares para México"
 description: "En México, todos los individuos o corporaciones deben presentar un informe de declaración mensual Impuesto sobre la renta (ISR). Este tema proporciona información acerca de la generación de este informe financiero."
 author: sndray
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ISRConcept_MX, ISRConceptMainAccount_MX, ISRRateTable_MX
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 270644
 ms.assetid: bcc395db-7c00-4151-9340-e83415cb0882
 ms.search.region: Mexico
@@ -19,15 +19,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 626c6309888a95537ceae2b80998dbad5ddca7e8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 73f6cd0b3bc37824ae10d1504acedfb6591990ea
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="isr-declaration-report-and-supporting-processes-for-mexico"></a>Informe de declaración de ISR y procesos auxiliares para México
+# Informe de declaración de ISR y procesos auxiliares para México
+<a id="isr-declaration-report-and-supporting-processes-for-mexico" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
@@ -42,10 +43,12 @@ Debe presentar el informe de la declaración de IRS para cada mes el día diecis
 
 Por ejemplo, los pagos de ISR provisionales para enero de 2014 se pagan y se presentan en febrero de 2014; los pagos de febrero se pagan y se presentan en marzo, etc. Los contribuyentes deben usar el año natural para archivar los impuestos. Al final del año, los contribuyentes también deben enviar la declaración anual, que muestra el cálculo final del impuesto.
 
-## <a name="prerequisites"></a>Requisitos previos
-Antes de generar el informe de ISR, puede usar Microsoft Dynamics 365 for Operations para configurar la categoría del concepto y para definir los índices de ISR que se deben aplicar en el informe. El informe de ISR se basa en las transacciones de diario generales.
+## Requisitos previos
+<a id="prerequisites" class="xliff"></a>
+Antes de generar el informe de ISR, puede usar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, para configurar la categoría del concepto y para definir los índices de ISR que se deben aplicar en el informe. El informe de ISR se basa en las transacciones de diario generales.
 
-### <a name="concepts"></a>Conceptos
+### Conceptos
+<a id="concepts" class="xliff"></a>
 
 Debe crear conceptos para identificar las distintas secciones del informe y vincular a continuación una o más cuentas principales para cada concepto. Puede vincular un intervalo o cuentas principales específicas, en función de la estructura del plan de cuentas. Cuando se vincula una cuenta principal, puede seleccionar **Débitos** para usar el importe del débito, **Crédito** para usar solo el importe de crédito o **Ambos**. El informe de ISR muestra el valor, en función del concepto que haya configurado. **Ejemplo**
 
@@ -54,7 +57,8 @@ Debe crear conceptos para identificar las distintas secciones del informe y vinc
 | **Ingresos**   | Cuentas principales 4010001, 401002, 4010003, 4100001, 4100002 |
 | **Inventario** | Cuentas principales 1155001, 1155002, 1155003                  |
 
-### <a name="isr-rate-table"></a>Tabla de coeficientes de ISR
+### Tabla de coeficientes de ISR
+<a id="isr-rate-table" class="xliff"></a>
 
 Puede crear o actualizar los índices de ISR que se usan para calcular el importe del pago de ISR provisional. Esta tabla está normalmente disponible en el sitio del gobierno. Identifica el año y el mes y, a continuación los importes mínimo y máximo, el importe fijo y el índice de ISR. En el informe de pago de ISR, el porcentaje de la tasa se usa para multiplicar el valor derivado después de que el importe mínimo se deduzca del importe fiscal resultante. **Ejemplo**
 
@@ -68,7 +72,8 @@ Puede crear o actualizar los índices de ISR que se usan para calcular el import
 
 Si el importe de utilidad fiscal que se obtiene durante el proceso de cálculo se encuentra entre 7399,43 y 8601,50, la tasa que se debe aplicar es del 16 por ciento.
 
-## <a name="generating-the-provisional-isr-payment-report"></a>Generación del informe de pago de ISR provisional
+## Generación del informe de pago de ISR provisional
+<a id="generating-the-provisional-isr-payment-report" class="xliff"></a>
 Puede generar un informe de ISR detallado o el informe puede resumir cada cuenta principal que tenga los indicadores de débito y crédito. Para generar el informe, haga clic en **Impuestos** &gt; **Declaraciones** &gt; **Impuestos** &gt; **Informes de ISR**. Al generar el informe de ISR, debe especificar la información en los campos siguientes:
 
 -   **Mes** y **Año**

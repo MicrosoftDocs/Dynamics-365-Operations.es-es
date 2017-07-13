@@ -3,7 +3,7 @@ title: "Visión general de impuestos"
 description: "Este artículo proporciona una visión general del sistema de impuesto sobre las ventas. Explica los elementos de la configuración de los impuesto y de cómo funcionan juntos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
@@ -19,22 +19,26 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdb3188f533cf0cdb1e70c63891408e45d02418d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="sales-tax-overview"></a>Visión general de impuestos
+# Visión general de impuestos
+<a id="sales-tax-overview" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Este artículo proporciona una visión general del sistema de impuesto sobre las ventas. Explica los elementos de la configuración de los impuesto y de cómo funcionan juntos.
 
-<a name="overview"></a>Visión general
+Visión general
+<a id="overview" class="xliff"></a>
 --------
 
 El marco de impuestos admite muchos tipos de impuestos indirectos, como impuestos, impuesto sobre el valor añadido (IVA), impuesto de bienes y servicios (GST), cuotas basadas en unidad y retención de impuestos. Estos impuestos se calculan y se documentan durante transacciones de compra y de ventas. Periódicamente, se notifican y se pagan a las autoridades fiscales. 
@@ -67,17 +71,20 @@ La siguiente tabla describe las entidades y la secuencia para la configuración 
 | Configurar grupos de impuestos de artículos.                                   | Requerido. Los grupos de impuestos de artículos contienen una lista de códigos de ventas que solicitan el recurso (producto, servicio, etc.) de una transacción. Para una transacción determinada, la intersección de códigos de impuestos en el grupo de impuestos y en el grupo de impuestos de artículos determina los códigos de impuestos que se aplican a esa transacción. |
 | Configurar los parámetros de impuestos en las páginas de parámetros de la solicitud. | Requerido. Distintas áreas, como Contabilidad general, Clientes y Proveedores, deben configurar parámetros para el cálculo correcto de impuestos indirectos. Aunque la mayoría de estos parámetros tienen valores predeterminados, se deben modificar para ajustarse a los requisitos de cada empresa.                                          |
 
-## <a name="sales-tax-on-transactions"></a>Impuestos en transacciones
+## Impuestos en transacciones
+<a id="sales-tax-on-transactions" class="xliff"></a>
 En cada transacción (líneas de documentos de ventas/compras, etc.), debe especificar un grupo de impuestos y un grupo de impuestos de artículos para calcular los impuestos. Los grupos predeterminados se especifican en datos maestros (por ejemplo, cliente, proveedor, artículo y categoría de compras), pero puede cambiar manualmente los grupos en una transacción si es necesario. Ambos grupos contienen una lista de códigos de impuestos y la intersección entre las dos listas de códigos de impuestos determina la lista de códigos de impuestos aplicables para la transacción. 
 
 En cada transacción, para buscar los impuestos calculados, abra la página **Transacción de impuestos**. Puede buscar los impuestos para una línea de documento o para todo el documento. Para determinados documentos (por ejemplo, factura de proveedor y diarios generales), puede ajustar los impuestos calculados si el documento original muestra importes irregulares.
 
-## <a name="sales-tax-settlement-and-reporting"></a>Liquidación de impuestos y generación de informes
-Los impuestos se deben notificar y pagar a las autoridades fiscales en intervalos regulados (mensuales, trimestrales, etc.). Microsoft Dynamics 365 for Operations proporciona funciones que le permiten liquidar cuentas de impuestos para el intervalo y compensar los saldos con la cuenta de liquidación de impuestos, como se especifica en los grupos de registro. Puede obtener acceso a esta función en la página **Liquidar y registrar impuestos**. Debe especificar el período de liquidación de impuestos para el que se deben liquidar los impuestos. 
+## Liquidación de impuestos y generación de informes
+<a id="sales-tax-settlement-and-reporting" class="xliff"></a>
+Los impuestos se deben notificar y pagar a las autoridades fiscales en intervalos regulados (mensuales, trimestrales, etc.). Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition proporciona funciones que le permiten liquidar cuentas de impuestos para el intervalo y compensar los saldos con la cuenta de liquidación de impuestos, como se especifica en los grupos de registro. Puede obtener acceso a esta función en la página **Liquidar y registrar impuestos**. Debe especificar el período de liquidación de impuestos para el que se deben liquidar los impuestos. 
 
 Después de que se hayan pagado los impuestos, el saldo de la cuenta de liquidación de impuestos se debe equilibrar con la cuenta bancaria. Si la autoridad fiscal que está especificada en el período de liquidación de impuestos está relacionada con una cuenta de proveedor, el saldo de los impuestos se registra como factura de proveedor abierta y se puede incluir en la propuesta de pago normal.
 
-## <a name="conditional-sales-tax"></a>Impuesto no realizado
+## Impuesto no realizado
+<a id="conditional-sales-tax" class="xliff"></a>
 El impuesto condicional es un impuesto que se paga de forma proporcional al importe real que se paga en una factura. Inversamente, los impuestos estándar se calculan en el momento de la facturación. El impuesto condicional se debe pagar a la autoridad fiscal cuando se registra el pago, no cuando se registra la factura. Cuando se registra la factura, la transacción se debe informar en el informe de libro de impuestos. Sin embargo, la transacción se debe excluir del informe de pago de impuestos. 
 
 Si activa la casilla Impuesto no realizado en el formulario Parámetros de contabilidad general, no se puede deducir ningún impuesto hasta que haya pagado la factura. Se trata de un requisito legal en algunos países o regiones.
@@ -85,7 +92,8 @@ Si activa la casilla Impuesto no realizado en el formulario Parámetros de conta
 > [!NOTE]
 > Si activa la casilla Impuesto no realizado, debe configurar códigos de impuestos y grupos de impuestos, así como crear grupos de registro contable para admitir la funcionalidad. |
 
-###  <a name="example"></a>Ejemplo
+###  Ejemplo
+<a id="example" class="xliff"></a>
 
 Usted liquida los impuestos cada mes. El 15 de junio, crea una factura de cliente de 10.000, más impuestos.
 -   El impuesto es un 25 por ciento, o 25,00.

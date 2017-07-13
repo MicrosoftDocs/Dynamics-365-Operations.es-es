@@ -3,13 +3,13 @@ title: "Configuración de las propiedades de un flujo de trabajo"
 description: "Este tema explica cómo configurar las diversas propiedades de un flujo de trabajo."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 196083
 ms.assetid: 192b7a98-7d04-4c7a-a986-29d797a8a837
 ms.search.region: Global
@@ -17,15 +17,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 263ebaf1cf509589a745f1a9ec3384f97e854519
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 713204bc1e9c757bda48d556ea5b0f66ed79a5c9
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="configure-the-properties-of-a-workflow"></a>Configuración de las propiedades de un flujo de trabajo
+# Configuración de las propiedades de un flujo de trabajo
+<a id="configure-the-properties-of-a-workflow" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
@@ -34,25 +35,29 @@ Este tema explica cómo configurar las diversas propiedades de un flujo de traba
 
 Para configurar las propiedades de un flujo de trabajo, abra el flujo de trabajo en el editor de flujo de trabajo. Haga clic en el lienzo del editor de flujos de trabajo y luego haga clic en **Propiedades** para abrir la página **Propiedades**. A continuación, puede usar los siguientes procedimientos para configurar las diversas propiedades del flujo de trabajo.
 
-## <a name="name-the-workflow"></a>Asignación de un nombre al flujo de trabajo
+## Asignación de un nombre al flujo de trabajo
+<a id="name-the-workflow" class="xliff"></a>
 Siga estos pasos para asignar un nombre al flujo de trabajo.
 
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
 2.  En el campo **Nombre**, especifique un nombre exclusivo para el flujo de trabajo. Por ejemplo, si crea un flujo de trabajo de solicitud de compra para cada país o región en los que opera, puede llamar al flujo de trabajo de solicitud de compra **Solicitudes de compra Dinamarca** o **Solicitudes de compra España**.
 
-## <a name="specify-the-workflow-owner"></a>Especificación del propietario del flujo de trabajo
+## Especificación del propietario del flujo de trabajo
+<a id="specify-the-workflow-owner" class="xliff"></a>
 El propietario del flujo de trabajo es la persona que administra y mantiene el flujo de trabajo. Siga estos pasos para especificar el propietario del flujo de trabajo.
 
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
 2.  En la lista **Propietario**, seleccione el nombre de la persona que administrará el flujo de trabajo.
 
-## <a name="select-an-email-template"></a>Selección de una plantilla de correo electrónico
+## Selección de una plantilla de correo electrónico
+<a id="select-an-email-template" class="xliff"></a>
 Siga estos pasos para seleccionar la plantilla de correo electrónico que se usa para generar los mensajes de notificación sobre el flujo de trabajo.
 
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
 2.  En la lista **Plantilla de correo electrónico para notificaciones de flujo de trabajo**, seleccione la plantilla.
 
-## <a name="enter-instructions-for-users"></a>Especificación de las instrucciones para los usuarios
+## Especificación de las instrucciones para los usuarios
+<a id="enter-instructions-for-users" class="xliff"></a>
 Puede proporcionar instrucciones a los usuarios que envían los documentos que se deben procesar y aprobar. A estos usuarios también se les conoce como *originadores*. Por ejemplo, está creando un flujo de trabajo de solicitudes de compra y especifica instrucciones. Esas instrucciones se pueden ver entonces por los usuarios que especifican solicitudes de compra en la página **Solicitudes de compra**. Para consultar las instrucciones, el originador hace clic en el icono de la barra de mensajes del flujo de trabajo. Siga estos pasos para escribir las instrucciones para los usuarios.
 
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
@@ -71,7 +76,8 @@ Puede proporcionar instrucciones a los usuarios que envían los documentos que s
     5.  Para personalizar el texto, puede insertar marcadores de posición. Para obtener instrucciones acerca de cómo agregar un marcador de posición, consulte el paso 3.
     6.  Haga clic en **Cerrar**.
 
-## <a name="specify-when-this-workflow-is-used"></a>Especificación de las condiciones en que se usa el flujo de trabajo
+## Especificación de las condiciones en que se usa el flujo de trabajo
+<a id="specify-when-this-workflow-is-used" class="xliff"></a>
 Puede crear varios flujos de trabajo que estén basados en el mismo tipo. Por ejemplo, puede crear un flujo de trabajo de solicitudes de compra para cada país o región en los que opera como, por ejemplo, Solicitudes de compra Dinamarca y Solicitudes de compra España. Cuando existen varios flujos de trabajo basados en el mismo tipo, debe especificar cuándo se usa cada uno. Para el ejemplo anterior, especifique las siguientes condiciones:
 
 -   Se usa Solicitudes de compra Dinamarca cuando: país/región = DK
@@ -90,7 +96,8 @@ Siga estos pasos para especificar cuándo se usa el flujo de trabajo que está c
     3.  Haga clic en **Probar**. El sistema evalúa el registro seleccionado para determinar si reúne las condiciones que se especificaron. Por ejemplo, si crea un flujo de trabajo de solicitudes de compra para España, el área **Comprobar condición** de la página muestra una lista de solicitudes de compra. Al hacer clic en **Probar**, el sistema evalúa la solicitud de compra seleccionada para determinar si el país o región es ES.
     4.  Haga clic en **Aceptar** o en **Cancelar** para regresar a la página **Propiedades**.
 
-## <a name="specify-when-notifications-are-sent"></a>Especificación del momento en que se envían notificaciones
+## Especificación del momento en que se envían notificaciones
+<a id="specify-when-notifications-are-sent" class="xliff"></a>
 Cuando se envía un documento para que se lo procese, se crea una instancia de flujo de trabajo. Puede enviar notificaciones a los usuarios para indicar el inicio, la finalización, la terminación o la detención debido a un error de las instancias de flujo de trabajo basadas en el flujo de trabajo. Siga estos pasos para especificar cuándo se envían notificaciones.
 
 1.  En el panel izquierdo, haga clic en **Notificaciones**.
@@ -151,10 +158,10 @@ Cuando se envía un documento para que se lo procese, se crea una instancia de f
     </tr>
     <tr class="odd">
     <td>Usuario</td>
-    <td>Usuarios específicos de Dynamics 365 for Operations</td>
+    <td>Usuarios específicos de Finance and Operations</td>
     <td><ol>
     <li>En la ficha <strong>Destinatario</strong>, haga clic en <strong>Usuario</strong>.</li>
-    <li>En la pestaña <strong>Usuario</strong>, la lista <strong>Usuarios disponibles</strong> incluye todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea enviar notificaciones y muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>En la pestaña <strong>Usuario</strong>, la lista <strong>Usuarios disponibles</strong> incluye todos los usuarios de Finance and Operations. Seleccione aquellos a los que desea enviar notificaciones y muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -162,7 +169,8 @@ Cuando se envía un documento para que se lo procese, se crea una instancia de f
 
 8.  Repita los pasos 3 a 7 por cada uno de los eventos que haya seleccionado en el paso 2.
 
-## <a name="enter-comments-about-the-changes-that-you-made-to-the-workflow"></a>Escriba comentarios acerca de los cambios que realizó en el flujo de trabajo.
+## Escriba comentarios acerca de los cambios que realizó en el flujo de trabajo.
+<a id="enter-comments-about-the-changes-that-you-made-to-the-workflow" class="xliff"></a>
 Para escribir comentarios acerca de los cambios que realizó en el flujo de trabajo, siga estos pasos.
 
 1.  En el panel izquierdo, haga clic en **Notas**.

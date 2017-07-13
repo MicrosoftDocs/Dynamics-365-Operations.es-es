@@ -3,7 +3,7 @@ title: "Interfaz del diseñador de informes"
 description: "En este artículo se explica cómo navegar por el Diseñador de informes y cómo utilizar las diversas opciones para satisfacer sus requerimientos específicos."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.region: Global
@@ -19,27 +19,30 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 775a836748949a86b64a0ddec15ee4519b1c5127
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: aad8f2617d94e9abc77dafe96cb95f7e191873bd
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="report-designer-interface"></a>Interfaz del diseñador de informes
+# Interfaz del diseñador de informes
+<a id="report-designer-interface" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
 En este artículo se explica cómo navegar por el Diseñador de informes y cómo utilizar las diversas opciones para satisfacer sus requerimientos específicos. 
 
-<a name="report-designer-menu-commands"></a>Comandos de menú del diseñador de informes
+Comandos de menú del diseñador de informes
+<a id="report-designer-menu-commands" class="xliff"></a>
 -----------------------------
 
 En las siguientes tablas se describen los comandos y las opciones de menú que se pueden usar cuando se diseñan informes financieros. Algunos comandos y opciones de menú sólo están disponibles en circunstancias específicas. Por ejemplo, los comandos para promocionar y degradar las unidades de informe solo están disponibles cuando se modifica una definición del organigrama.
 
-### <a name="file-menu"></a>Menú Archivo
+### Menú Archivo
+<a id="file-menu" class="xliff"></a>
 
 El menú **Archivo** está disponible para todos los usuarios e incluye los siguientes comandos.
 
@@ -53,14 +56,15 @@ El menú **Archivo** está disponible para todos los usuarios e incluye los sigu
 | Guardar como                           | Guardar la definición de la fila, definición de la columna, definición del organigrama o definición del informe actuales bajo un nuevo nombre.                                                                            |
 | Propiedades                        | Abra el cuadro de diálogo **Propiedades**, donde puede cambiar el nombre y la descripción de un informe.                                                                                                   |
 | Generar                          | Generar el informe actual. Este comando está disponible desde una definición del informe.                                                                                                                 |
-| Ver informe                       | Abrir la versión más reciente del informe generado en Dynamics 365 for Operations. Este comando está disponible desde una definición del informe si ha generado al menos un informe.                                 |
+| Ver informe                       | Abrir la versión más reciente del informe generado en Finance and Operations. Este comando está disponible desde una definición del informe si ha generado al menos un informe.                                 |
 | Definiciones de informe recientes         | Mostrar una lista de informes que se han creado o se han modificado recientemente. Puede seleccionar un informe en la lista.                                                                                    |
 | Definiciones de filas recientes            | Mostrar una lista de definiciones de fila que se han creado o se han modificado recientemente. Puede seleccionar una definición en la lista.                                                                    |
 | Definiciones de columnas recientes         | Mostrar una lista de definiciones de columna que se han creado o se han modificado recientemente. Puede seleccionar una definición de columna en la lista.                                                              |
 | Definiciones de organigramas recientes | Mostrar una lista de definiciones de organigramas que se han creado o se han modificado recientemente. Puede seleccionar una definición de organigrama en la lista.                                              |
 | Salir                              | Salir del diseñador de informes.                                                                                                                                                                            |
 
-### <a name="edit-menu"></a>Editar menú
+### Editar menú
+<a id="edit-menu" class="xliff"></a>
 
 El menú **Editar** está disponible para los usuarios que tienen el rol de **Diseñador** o **Administrador**. Este menú incluye los comandos siguientes.
 
@@ -88,7 +92,8 @@ El menú **Editar** está disponible para los usuarios que tienen el rol de **Di
 | Insertar unidad de informe                  | Insertar una fila en blanco en la definición del organigrama. Este comando está disponible desde una definición del organigrama.                                                                                                |
 | Eliminar unidad de informe                  | Eliminar la fila seleccionada de la unidad de informe de la definición del organigrama. Este comando está disponible desde una definición del organigrama.                                                                             |
 
-### <a name="view-menu"></a>Menú Ver
+### Menú Ver
+<a id="view-menu" class="xliff"></a>
 
 El menú **Visualización** está disponible para todos los usuarios e incluye los siguientes comandos.
 
@@ -99,7 +104,8 @@ El menú **Visualización** está disponible para todos los usuarios e incluye l
 | Barra de estado      | Mostrar u ocultar la información del estado en la ventana **Diseñador de informes**. |
 | Página de bienvenida    | Abra la página **Bienvenido**.                                             |
 
-### <a name="format-menu"></a>Menú Formato
+### Menú Formato
+<a id="format-menu" class="xliff"></a>
 
 El menú **Formato** está disponible para los usuarios que tienen el rol de **Diseñador** o **Administrador**. Este menú incluye los comandos siguientes.
 
@@ -110,7 +116,8 @@ El menú **Formato** está disponible para los usuarios que tienen el rol de **D
 | Ocultar                  | Ocultar la columna seleccionada. Este comando está disponible desde una definición de fila, una definición de columna o una definición de organigrama.                                                                                        |
 | Mostrar                | Hacer visibles las columnas ocultas entre las columnas seleccionadas. Este comando está disponible desde una definición de fila, una definición de columna o una definición de organigrama.                                                      |
 
-### <a name="company-menu"></a>Menú de la empresa
+### Menú de la empresa
+<a id="company-menu" class="xliff"></a>
 
 El menú **Empresa** está disponible para los usuarios que tienen el rol de **Diseñador** o **Administrador**. Este menú incluye los comandos siguientes.
 
@@ -119,7 +126,8 @@ El menú **Empresa** está disponible para los usuarios que tienen el rol de **D
 | Empresas             | Abrir el cuadro de diálogo **Empresas**, donde puede crear y modificar empresas.                                          |
 | Grupos de bloque de creación | Abra el cuadro de diálogo **Grupos de bloque de creación**, donde puede crear, modificar, importar y exportar los grupos de bloque de creación. |
 
-### <a name="go-menu"></a>Menú Ir
+### Menú Ir
+<a id="go-menu" class="xliff"></a>
 
 El menú **Ir** está disponible para todos los usuarios e incluye los siguientes comandos. **Nota:** estos comandos no tienen efecto visible a menos que el panel de navegación esté visible.
 
@@ -131,7 +139,8 @@ El menú **Ir** está disponible para todos los usuarios e incluye los siguiente
 | Definiciones de los organigramas | Mostrar las definiciones de los organigramas en el panel de navegación.                            |
 | Seguridad                   | Mostrar la información de seguridad para los usuarios, los grupos y las empresas en el panel de navegación. |
 
-### <a name="tools-menu"></a>Menú Herramientas
+### Menú Herramientas
+<a id="tools-menu" class="xliff"></a>
 
 El menú **Herramientas** está disponible para todos los usuarios, pero algunos comandos han limitado disponibilidad. Este menú incluye los comandos siguientes.
 
@@ -144,7 +153,8 @@ El menú **Herramientas** está disponible para todos los usuarios, pero algunos
 | Actualizar los datos financieros en caché | Actualizar los datos en la columna de las dimensiones financieras.                                                                                                                                                               |
 | Opciones                       | Abra el cuadro de diálogo **Opciones**, donde puede modificar las preferencias de usuario para el diseñador de informes.                                                                                                                       |
 
-### <a name="window-menu"></a>Menú Ventana
+### Menú Ventana
+<a id="window-menu" class="xliff"></a>
 
 El menú **Ventana** está disponible para todos los usuarios e incluye los siguientes comandos.
 
@@ -157,19 +167,22 @@ El menú **Ventana** está disponible para todos los usuarios e incluye los sigu
 | Inmovilización vertical      | Inmovilizar la columna seleccionada de modo que, cuando se desplaza, esa columna sigue siendo visible en la ventana. Este comando está disponible para los usuarios que tienen el rol de **Diseñador** o de **Administrador**. |
 | Lista de ventanas abiertas | Mostrar una lista de ventanas que están abiertas. Seleccionar una ventana para traerla en la parte delantera                                                                                                               |
 
-### <a name="help-menu"></a>Menú Ayuda
+### Menú Ayuda
+<a id="help-menu" class="xliff"></a>
 
 El menú **Ayuda** está disponible para todos los usuarios e incluye los siguientes comandos.
 
 | Comando | Descripción                                                  |
 |---------|--------------------------------------------------------------|
-| Ayuda    | Abra la página del tema de ayuda de Dynamics 365 for Operations para los informes financieros. |
+| Ayuda    | Abra la página del tema de ayuda de Finance and Operations para los informes financieros. |
 |         |                                                              |
 
-## <a name="report-designer-toolbar-buttons"></a>Botones de la barra de herramientas del diseñador de informes
+## Botones de la barra de herramientas del diseñador de informes
+<a id="report-designer-toolbar-buttons" class="xliff"></a>
 En las siguientes tablas se describen los botones de la barra de herramientas que se pueden usar cuando se diseñan informes. Algunos botones de la barra de herramientas sólo están disponibles en determinadas circunstancias Por ejemplo, los botones para promocionar y degradar las unidades de notificaciones solo están disponibles cuando se modifica una definición del organigrama.
 
-### <a name="standard-toolbar"></a>Barra de herramientas estándar
+### Barra de herramientas estándar
+<a id="standard-toolbar" class="xliff"></a>
 
 La barra de herramientas estándar ofrece acceso rápido para archivar y editar comandos. Esta barra de herramientas incluye los siguientes botones.
 
@@ -194,7 +207,8 @@ La barra de herramientas estándar ofrece acceso rápido para archivar y editar 
 | [![Botón Contraer](./media/collapsec130389.png)](./media/collapsec130389.png)               | Contraer el organigrama.                                                                                                                                                           |
 | [![Botón Ayuda](./media/helpc130389.png)](./media/helpc130389.png)                           | Abra la Ayuda.                                                                                                                                                                             |
 
-### <a name="formatting-toolbar"></a>Barra de herramientas de formato
+### Barra de herramientas de formato
+<a id="formatting-toolbar" class="xliff"></a>
 
 La barra de herramientas de formato proporciona de fácil acceso a los comandos de estilo. Esta barra de herramientas incluye los siguientes botones.
 
@@ -211,7 +225,8 @@ La barra de herramientas de formato proporciona de fácil acceso a los comandos 
 | [![Botón Color de fondo](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Cambiar el color de fondo de la celda actual.        |
 | [![Botón color de fuente](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Cambiar el color del texto actual                   |
 
-### <a name="report-designer-toolbar"></a>Barra de herramientas del diseñador de informes
+### Barra de herramientas del diseñador de informes
+<a id="report-designer-toolbar" class="xliff"></a>
 
 La barra de herramientas del diseñador de informes ofrece acceso rápido a los comandos para navegar por el diseñador de informes. Esta barra de herramientas incluye los siguientes botones.
 
@@ -226,7 +241,8 @@ La barra de herramientas del diseñador de informes ofrece acceso rápido a los 
 
 
 
-<a name="see-also"></a>Consulte también
+Consulte también
+<a id="see-also" class="xliff"></a>
 --------
 
 [Informes financieros](financial-reporting-intro.md)

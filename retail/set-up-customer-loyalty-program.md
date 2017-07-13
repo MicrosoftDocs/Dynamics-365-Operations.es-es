@@ -1,39 +1,43 @@
 ---
 title: "Configurar un programa de fidelización de clientes"
-description: "En este artículo se describe cómo configurar un programa de fidelización. Los programas de fidelización pueden ayudar a aumentar la fidelización del cliente al premiar a los clientes para la compra de productos en las tiendas comerciales. En Microsoft Dynamics for Operations, puede configurar programas de fidelización simples o complejos que se aplican en todas las entidades jurídicas de cualquier canal comercial."
+description: "En este artículo se describe cómo configurar un programa de fidelización. Los programas de fidelización pueden ayudar a aumentar la fidelización del cliente al premiar a los clientes para la compra de productos en las tiendas comerciales. En Microsoft Dynamics for Retail, puede configurar programas de fidelización simples o complejos que se aplican en todas las entidades jurídicas de cualquier canal comercial."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16201
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 04521c20ddeca1154b134b23c1db69f45c554ed3
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 710f8ae3a6a2b5072f37879aad066dc699ede8f0
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="set-up-a-customer-loyalty-program"></a>Configurar un programa de fidelización de clientes
+# Configurar un programa de fidelización de clientes
+<a id="set-up-a-customer-loyalty-program" class="xliff"></a>
 
 [!include[banner](includes/banner.md)]
 
 
-En este artículo se describe cómo configurar un programa de fidelización. Los programas de fidelización pueden ayudar a aumentar la fidelización del cliente al premiar a los clientes para la compra de productos en las tiendas comerciales. En Microsoft Dynamics for Operations, puede configurar programas de fidelización simples o complejos que se aplican en todas las entidades jurídicas de cualquier canal comercial.
+En este artículo se describe cómo configurar un programa de fidelización. Los programas de fidelización pueden ayudar a aumentar la fidelización del cliente al premiar a los clientes para la compra de productos en las tiendas comerciales. En Microsoft Dynamics for Retail, puede configurar programas de fidelización simples o complejos que se aplican en todas las entidades jurídicas de cualquier canal comercial.
 
-<a name="loyalty-features"></a>Características de fidelidad
+Características de fidelidad
+<a id="loyalty-features" class="xliff"></a>
 ----------------
 
 Puede configurar su programa de fidelización de modo que se incluyan las siguientes opciones:
@@ -44,10 +48,12 @@ Puede configurar su programa de fidelización de modo que se incluyan las siguie
 -   Emita tarjetas de fidelización desde cualquier canal comercial que participe en los programas de fidelización y asocie tarjetas de fidelización a uno o varios programas de fidelización en los que puede participar el cliente. También puede asociar un registro de cliente a una tarjeta de fidelización para permitir al cliente agrupar los puntos de fidelización de varias tarjetas y luego canjearlos.
 -   Ajuste manualmente las tarjetas de fidelización o transfiera los saldos de recompensas de fidelización de una tarjeta a otra acomodar o recompensar a un cliente.
 
-## <a name="setting-up-loyalty-programs"></a>Configurar programas de fidelidad
-Debe configurar varios componentes para habilitar la característica de fidelización en Dynamics 365 for Operations - Retail. En el siguiente diagrama se muestran los componentes de fidelización y cómo se relacionan entre sí. ![Flujo de proceso de configuración de fidelización](./media/loyaltyprocess.gif)
+## Configurar programas de fidelidad
+<a id="setting-up-loyalty-programs" class="xliff"></a>
+Debe configurar varios componentes para habilitar la característica de fidelización en Dynamics 365 for Retail. En el siguiente diagrama se muestran los componentes de fidelización y cómo se relacionan entre sí. ![Flujo de proceso de configuración de fidelización](./media/loyaltyprocess.gif)
 
-## <a name="loyalty-components"></a>Componentes de fidelización
+## Componentes de fidelización
+<a id="loyalty-components" class="xliff"></a>
 En la tabla siguiente se describe cada componente y dónde se usa en la configuración de fidelización.
 
 | Componente                                        | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Dónde se usa                                                                                                                                                                                                                                                                                                                                                                 |
@@ -63,12 +69,13 @@ En la tabla siguiente se describe cada componente y dónde se usa en la configur
 | Configuración de los esquemas de fidelidad                           | Los esquemas de fidelización especifican las reglas de obtención y canje que se aplican al programa de fidelización seleccionado. Se asignan canales comerciales a un esquema de fidelización para identificar los programas de fidelización, las reglas de obtención y las reglas de canje que se aplican a la tienda comercial.                                                                                                                                                                                                                                                                                                                                  | Los esquemas de fidelización se asignan a un programa de fidelización y los canales comerciales. Puede asignar muchos esquemas de fidelización al mismo programa de fidelización y puede asignar muchos esquemas de fidelización a varios canales comerciales.                                                                                                                                                                        |
 | Configuración de tarjetas de fidelización                             | Una tarjeta de fidelización permite al titular de la tarjeta participar en los programas de fidelización asignados a la tarjeta. Las tarjetas de fidelización se pueden emitir de forma anónima se pueden asignar a un cliente específico. Puede ver las transacciones de fidelización de una tarjeta específica y puede ver un resumen de los puntos de fidelización que se han acumulado en la tarjeta. Puede emitir tarjetas de fidelización desde cualquier canal comercial. También puede ajustar manualmente una tarjeta de fidelización para pasar al cliente a otro nivel, agregar puntos de fidelización o transferir saldos de puntos de fidelización de una tarjeta a otra. | Se asignan programas de fidelización a una tarjeta de fidelización.                                                                                                                                                                                                                                                                                                                                  |
 
-## <a name="loyalty-processes"></a>Procesos de fidelización
+## Procesos de fidelización
+<a id="loyalty-processes" class="xliff"></a>
 La tabla siguiente describe los procesos que se deben ejecutar para enviar configuraciones y datos de fidelidad a las tiendas, y recuperar las transacciones de fidelidad de las tiendas.
 
 | Nombre del proceso                         | Descripción                                                                                                                                                                                                                                                                                                                                                                                                    | Nombre de página                            |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| 1050 (información sobre fidelización)           | Ejecute este proceso para enviar datos de fidelización desde Dynamics 365 for Operations a las tiendas. Conviene programar este proceso para ejecutarse con frecuencia, para transmitir datos de fidelidad a todas las tiendas.                                                                                                                                                                                               | Programación de distribución                |
+| 1050 (información sobre fidelización)           | Ejecute este proceso para enviar datos de fidelización desde Dynamics 365 for Retail a las tiendas. Conviene programar este proceso para ejecutarse con frecuencia, para transmitir datos de fidelidad a todas las tiendas.                                                                                                                                                                                               | Programación de distribución                |
 | Procesar esquemas de fidelización              | Ejecute este proceso para asociar los esquemas de fidelización con los canales comerciales a los que está asignado el esquema de fidelización. Este proceso se puede programar para que se ejecute como un proceso por lotes. Debe ejecutar este proceso si realiza cambios en los datos de configuración de fidelidad, como esquemas de fidelidad, programas de fidelidad o puntos de premio por fidelidad.                                                                                               | Procesar esquemas de fidelización              |
 | Procesar transacciones de fidelización sin conexión | Ejecute este proceso para actualizar las tarjetas de fidelización de modo que incluyan las transacciones que se procesaron sin conexión. Este proceso se aplica solo si la casilla **Obtener sin conexión** está seleccionada en la página **Parámetros compartidos comerciales** para poder obtener premios sin conexión.                                                                                                                                               | Procesar transacciones de fidelización sin conexión |
 | Actualizar niveles de tarjeta de fidelización            | Ejecute este proceso para evaluar la actividad de obtención del cliente en comparación con las reglas de nivel de un programa de fidelización y actualizar el estado del nivel del cliente. Este proceso solo se necesita si modifica las reglas de nivel en los programas de fidelización y desea que las reglas actualizadas se apliquen de forma retroactiva a las tarjetas de fidelización que ya se han emitido. Este proceso se puede programar como un proceso por lotes o para tarjetas individuales. | Actualizar niveles de tarjeta de fidelización            |

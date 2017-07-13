@@ -3,13 +3,14 @@ title: "Espacio de trabajo de facturación de colaboración de proveedor"
 description: "Este tema explica cómo puede ver las facturas de proveedor y enviar las facturas desde el espacio de trabajo de la facturacíon de colaboración de proveedor."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
@@ -17,35 +18,38 @@ ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7c8fe2fea08dbad625cd373ca316135ac4e29e13
+ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
+ms.openlocfilehash: 2171a454c763abab82f6555950994237b4de7b8b
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/14/2017
 
 
 ---
 
-# <a name="vendor-collaboration-invoicing-workspace"></a>Espacio de trabajo de facturación de colaboración de proveedor
+# Espacio de trabajo de facturación de colaboración de proveedor
+<a id="vendor-collaboration-invoicing-workspace" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
 Este tema explica cómo puede ver las facturas de proveedor y enviar las facturas desde el espacio de trabajo de la facturacíon de colaboración de proveedor.
 
-El espacio de trabajo de **Facturación de colaboración de proveedor** se puede usar para ver información de la factura de proveedor y para enviar facturas a Microsoft Dynamics 365 for Operations mediante capacidades del flujo de trabajo.
+El espacio de trabajo **Facturación de colaboración de proveedor** se puede usar para ver información de la factura de proveedor y para enviar facturas a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition mediante capacidades del flujo de trabajo.
 Espacio de trabajo de facturación de colaboración de proveedor
 ----------------------------------------
 
-### <a name="summary-tiles"></a>Iconos de resumen
+### Iconos de resumen
+<a id="summary-tiles" class="xliff"></a>
 
 Las fichas de **Resumen** ofrecen una visión general de las facturas para el proveedor seleccionado. Puede visualizar facturas por su estado.
 -   Las facturas de borrador no se han enviado al flujo de trabajo.
--   Las facturas enviadas no aprobadas son aquellas facturas que el proveedor ha enviado pero que no se han registrado en Dynamics 365 for Operations.
--   Las facturas aprobadas no pagadas son aquellas facturas que el proveedor ha registrado en Dynamics 365 for Operations pero que todavía no se han pagado por completo.
--   Las facturas pagadas son aquellas que se han pagado por completo en Dynamics 365 for Operations.
+-   Las facturas enviadas no aprobadas son aquellas facturas que el proveedor ha enviado pero que no se han registrado en Finance and Operations.
+-   Las facturas aprobadas no pagadas son aquellas facturas que el proveedor ha registrado en Finance and Operations pero que todavía no se han pagado por completo.
+-   Las facturas pagadas son aquellas que se han pagado por completo en Finance and Operations.
 
 Si hace clic en una ficha, abrirá una vista filtrada de la página **Lista de facturas**.
-### <a name="tabular-lists"></a>Listas tabulares
+### Listas tabulares
+<a id="tabular-lists" class="xliff"></a>
 
 En la sección **Listas tabulares**, el estado de la facturación se desglosa de forma similar a las fichas del resumen: Borrador y Enviado, listas no aprobadas. Cuando se encuentre en estado de Borrador, una factura se puede enviar al flujo de trabajo o eliminarse. La última lista tabular es una opción para buscar facturas. Puede filtrar según busca para permitir búsquedas más rápidas.
 Página de la lista de todas las facturas de proveedor
@@ -59,7 +63,7 @@ Puede crear una nueva factura de proveedor seleccionando la acción **Nueva** en
 
 
 
-Para obtener más información, consulte [Colaboración con los proveedores mediante el portal de proveedores](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+Para obtener más información, consulte [Colaboración con los proveedores mediante el portal de proveedores](/dynamics365/unified-operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
 
 
 

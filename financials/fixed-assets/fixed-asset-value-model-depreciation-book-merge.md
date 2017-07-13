@@ -1,15 +1,15 @@
 ---
 title: "Modelo de valor de activos fijos y fusión del libro de amortización"
-description: "En versiones anteriores, había dos conceptos de la evaluación para activos fijos: modelos de valor y libros de depreciación. En la versión 1611 de Microsoft Dynamics 365 for Operations, la función del modelo de valor y la del libro de amortización se han combinado en un solo concepto que se conoce como libro."
+description: "En versiones anteriores, había dos conceptos de la evaluación para activos fijos: modelos de valor y libros de depreciación. En Microsoft Dynamics 365 for Operations (1611), la función del modelo de valor y la del libro de amortización se han combinado en un solo concepto que se conoce como libro."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221564
 ms.assetid: 7c68eb7c-8b1a-4dd9-afb8-04b4040e305e
 ms.search.region: Global
@@ -17,24 +17,26 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ed01fc3c5f2f8b0870f22b39a8b0f6e98596af21
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: add41ceb1dd31d5b5aa26916114d7d7864cb1626
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Modelo de valor de activos fijos y fusión del libro de amortización
+# Modelo de valor de activos fijos y fusión del libro de amortización
+<a id="fixed-asset-value-model-and-depreciation-book-merge" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-En versiones anteriores, había dos conceptos de la evaluación para activos fijos: modelos de valor y libros de depreciación. En la versión 1611 de Microsoft Dynamics 365 for Operations, la función del modelo de valor y la del libro de amortización se han combinado en un solo concepto que se conoce como libro.
+En versiones anteriores, había dos conceptos de la evaluación para activos fijos: modelos de valor y libros de depreciación. En Microsoft Dynamics 365 for Operations (1611), la función del modelo de valor y la del libro de amortización se han combinado en un solo concepto que se conoce como libro.
 
 La función del nuevo libro se basa en la función anterior del modelo de valor pero también incluye todas las funciones que se proporcionaron anteriormente únicamente en libros de amortización. [![El libro como una combinación de la funcionalidad del modelo de valor y el libro de amortización](./media/fixed-assets.png)](./media/fixed-assets.png) Debido a esta fusión, ahora puede usar un único conjunto de páginas, preguntas e informes para todos los procesos del activo fijo. Las tablas de este tema describen la función anterior para los libros de amortización y los modelos de valor, así como la nueva función para los libros.
 
-## <a name="setup"></a>Configuración
+## Configuración
+<a id="setup" class="xliff"></a>
 De forma predeterminada, los libros se registran tanto en la contabilidad general (GL) como en el subdiario de activo fijo. Los libros tienen una nueva opción de **Registrar en la contabilidad general** que permite deshabilitar la publicación en la contabilidad general y registrar solo el subdiario de activo fijo. Esta función es similar al comportamiento anterior de registro de los libros de amortización. La configuración de los nombres de diario tiene una nueva capa de registro que se denomina Ninguno. Esta capa de registro se ha añadido específicamente para las transacciones de activos fijos. Para registrar transacciones de libros que no se registran en la contabilidad general, debe utilizar un nombre de diario que tiene la capa de registro establecida en **Ninguno**.
 
 |                                                  |                                 |                                 |                                                         |
@@ -46,7 +48,8 @@ De forma predeterminada, los libros se registran tanto en la contabilidad genera
 | Libros derivados                                    | No permitido                     | Permitido                         | Permitido                                                 |
 | Anulación del perfil de depreciación al nivel del activo | Permitido                         | No permitido                     | Permitido                                                 |
 
-## <a name="processes"></a>Procesos
+## Procesos
+<a id="processes" class="xliff"></a>
 Los procesos ahora usan una página común. Se permiten algunos procesos si la opción **Registrar en la contabilidad general** se ha establecido a **No** en la configuración de libros.
 
 |                                |                           |                     |                                          |
@@ -57,7 +60,8 @@ Los procesos ahora usan una página común. Se permiten algunos procesos si la o
 | Eliminar transacciones históricas | Permitido                   | No permitido         | Permitido, salvo que esté registrando en la contabilidad general |
 | Actualización masiva                    | Permitido                   | No permitido         | Permitido, salvo que esté registrando en la contabilidad general |
 
-## <a name="inquiries-and-reports"></a>Consultas e informes
+## Consultas e informes
+<a id="inquiries-and-reports" class="xliff"></a>
 Las consultas e informes admiten todos los libros. Los informes que no se incluyen en la tabla siguiente admitían anteriormente los libros de amortización y los modelos de valor, y ahora seguirán apoyando todos los tipos de libro. El campo **Capa de registro** también se ha agregado a los informes, para que pueda identificar fácilmente los registros de transacción.
 
 |                                       |                                |                          |                          |
@@ -68,7 +72,8 @@ Las consultas e informes admiten todos los libros. Los informes que no se incluy
 | Base de activo fijo                     | Permitido                        | No permitido              | Permitido                  |
 | Aplicabilidad de la mitad del trimestre del activo fijo | Permitido                        | No permitido              | Permitido                  |
 
-## <a name="upgrade"></a>Actualizar
+## Actualizar
+<a id="upgrade" class="xliff"></a>
 El proceso de actualización moverá la configuración existente y todas sus transacciones existentes a la estructura del nuevo libro. Los modelos de valor se mantendrán como hasta ahora, como un libro que registra en la contabilidad general. Sin embargo, los libros de amortización se moverán a un libro que tiene la opción **Registrar en la contabilidad general** establecida a **No**. Los nombres del diario del libro de amortización se moverán a un nombre de diario de la contabilidad general que tenga la capa de registro establecida a **Ninguno**.
 
 

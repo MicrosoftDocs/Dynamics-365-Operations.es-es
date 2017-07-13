@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
@@ -17,15 +17,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3a95ce92fe40f7e1c52bba554b82bd73d627c6b4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cf6d4756ae706316a342590ab76b4a5cbdd7e4f9
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="procurement-and-sourcing-home-page"></a>Página inicial de adquisición y abastecimiento
+# Página inicial de adquisición y abastecimiento
+<a id="procurement-and-sourcing-home-page" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
@@ -34,20 +35,23 @@ Este tema proporciona una lista de temas de ayuda y otros recursos disponibles p
 
 Adquisición y abastecimiento cubre todos los pasos desde identificar una necesidad de productos y servicios hasta la obtención de productos, recibos, facturas y el proceso de pago con los proveedores. Los procesos de adquisición se pueden configurar con requisitos específicos de la empresa definiendo directivas de compra y flujos de trabajo. Para obtener información general, vea [Obtención y visión general de la compra de componentes](procurement-sourcing-overview.md). A continuación se muestran los recursos adicionales.
 
-## <a name="purchase-requisitions"></a>Solicitudes de compra
+## Solicitudes de compra
+<a id="purchase-requisitions" class="xliff"></a>
 -   [Visión general de solicitud de compra](purchase-requisitions-overview.md)
 -   [Creación de un pedido para consumo](http://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 -   [Crear una solicitud que utilice una solicitud de presupuesto](http://ax.help.dynamics.com/en/wiki/create-a-requisition-that-uses-an-rfq/)
 -   [Configurar permisos para pedir productos en nombre de otro usuario](http://ax.help.dynamics.com/en/wiki/set-up-permissions-for-ordering-products-on-behalf-of-someone-else/)
 
-## <a name="requests-for-quotation"></a>Solicitudes de presupuesto
+## Solicitudes de presupuesto
+<a id="requests-for-quotation" class="xliff"></a>
 -   [Solicitud de presupuestos](request-quotations.md)
 -   [Cree una solicitud de presupuesto](http://ax.help.dynamics.com/en/wiki/create-a-request-for-quotation/)
 -   [Especificar y comparar ofertas de la solicitud de presupuesto y conceder contratos](http://ax.help.dynamics.com/en/wiki/enter-and-compare-rfq-bids-and-award-contracts/)
 -   [Crear un método de puntuación para solicitudes de presupuesto](http://ax.help.dynamics.com/en/wiki/create-a-scoring-method-for-rfqs/)
 -   [Crear tipos de solicitud y criterios de puntuación para solicitudes de presupuesto](http://ax.help.dynamics.com/en/wiki/create-solicitation-types-and-scoring-criteria-for-rfqs/)
 
-## <a name="vendor-management-and-collaboration"></a>Colaboración y gestión de proveedores
+## Colaboración y gestión de proveedores
+<a id="vendor-management-and-collaboration" class="xliff"></a>
 -   [Configuración de cuentas de proveedor](set-up-vendor-accounts.md)
 -   [Crear una cuenta de proveedor](http://ax.help.dynamics.com/en/wiki/create-a-vendor-account/)
 -   [Crear una cuenta bancaria del proveedor](http://ax.help.dynamics.com/en/wiki/create-a-vendor-bank-account/)
@@ -57,13 +61,14 @@ Adquisición y abastecimiento cubre todos los pasos desde identificar una necesi
 -   [Colaboración de proveedor con los clientes](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Gestionar usuarios de colaboración de proveedor](manage-vendor-collaboration-users.md)
 -   [Configurar y mantener la colaboración de proveedor](set-up-maintain-vendor-collaboration.md)
--   [Secuencia de entrada de demostración de inventario de envío para Microsoft Dynamics 365 for Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(documentación)
+-   [Secuencia de entrada de demostración de inventario de envío para Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(documentación)
 -   [Supervisar el inventario de envío mediante la colaboración de proveedor](http://ax.help.dynamics.com/en/wiki/monitor-consignment-inventory-using-vendor-collaboration/)
--   [Colaboración con proveedores mediante el portal de proveedores](collaborate-vendors-vendor-portal.md)  (solo en las versiones de febrero de 2016 y mayo de 2016 de Dynamics 365 for Operations)
--   [Configuración de seguridad para los usuarios del portal de proveedores](configure-security-vendor-portal-users.md) (solo en las versiones de mayo de 2016 de Dynamics 365 for Operations)
--   [Espacio de trabajo móvil de colaboración de proveedor para la aplicación Microsoft Dynamics 365 for Operations](vendor-collaboration-mobile-workspace.md)
+-   [Colaboración con proveedores mediante el portal de proveedores](collaborate-vendors-vendor-portal.md)  (solo en las versiones de febrero de 2016 y mayo de 2016 de Dynamics AX)
+-   [Configuración de seguridad para los usuarios del portal de proveedores](configure-security-vendor-portal-users.md) (solo en las versiones de 2016 y mayo de 2016 de Finance and Operations)
+-   [Espacio de trabajo móvil de colaboración de proveedor para la aplicación Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
 
-## <a name="procurement-product-management"></a>Gestión de compra de productos
+## Gestión de compra de productos
+<a id="procurement-product-management" class="xliff"></a>
 -   [Catálogos de compras](procurement-catalogs.md)
 -   [Crear un catálogo de compras](http://ax.help.dynamics.com/en/wiki/create-a-procurement-catalog/)
 -   [Importación de catálogos de proveedores](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (entrada de blog)
@@ -71,7 +76,8 @@ Adquisición y abastecimiento cubre todos los pasos desde identificar una necesi
 -   [Configurar directivas para jerarquías de categorías de compras](http://ax.help.dynamics.com/en/wiki/set-up-policies-for-procurement-category-hierarchies/)
 -   [Aprobar proveedores para categorías de compras específicas](http://ax.help.dynamics.com/en/wiki/approve-vendors-for-specific-procurement-categories/)
 
-## <a name="procurement"></a>Adquisición
+## Adquisición
+<a id="procurement" class="xliff"></a>
 -   [Visión general de pedidos de compra](purchase-order-overview.md)
 -   [Creación de pedido de compra](purchase-order-creation.md)
 -   [Confirmación y aprobación del pedido de compra](purchase-order-approval-confirmation.md)
@@ -85,17 +91,20 @@ Adquisición y abastecimiento cubre todos los pasos desde identificar una necesi
 -   [Creación de un pedido parcial de compra al crear el pedido de compra](http://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-when-creating-the-purchase-order/)
 -   [Crear un pedido de reabastecimiento de entrega](http://ax.help.dynamics.com/en/wiki/create-a-consignment-replenishment-order/)
 
-## <a name="prices-and-discounts"></a>Precios y descuentos
+## Precios y descuentos
+<a id="prices-and-discounts" class="xliff"></a>
 -   [Acuerdos de compra](purchase-agreements.md)
 -   [Creación de un acuerdo de compra](http://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
 -   [Devoluciones de proveedor](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/Vendor_rebates) (notas del producto)
 
-## <a name="product-receipt-and-invoicing"></a>Recepción y facturación de productos
+## Recepción y facturación de productos
+<a id="product-receipt-and-invoicing" class="xliff"></a>
 -   [Recepción de producto frente a pedidos de compra](product-receipt-against-purchase-orders.md)
--   [Visión general de facturas de proveedores](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
--   [Perfiles de contabilización del proveedor](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+-   [Visión general de facturas de proveedores](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+-   [Perfiles de contabilización del proveedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
-## <a name="procurement-and-sourcing-workflows"></a>Flujos de trabajo de adquisición y abastecimiento
+## Flujos de trabajo de adquisición y abastecimiento
+<a id="procurement-and-sourcing-workflows" class="xliff"></a>
 -   [Vista general de adquisición y abastecimiento](procurement-sourcing-overview.md)
 -   [Flujos de trabajo de adquisición y abastecimiento](procurement-sourcing-workflows.md)
 -   [Registrar la recepción de mercancías en el pedido de compra](http://ax.help.dynamics.com/en/wiki/record-receipt-of-goods-on-a-purchase-order/)

@@ -1,15 +1,15 @@
 ---
 title: "Visión general del control presupuestario"
-description: "Este artículo presenta el control presupuestario y proporciona información para ayudarle a configurar el control presupuestario en Microsoft Dynamics 365 for Operations de manera que pueda gestionar los recursos financieros."
+description: "Este artículo presenta el control presupuestario y proporciona información para ayudarle a configurar el control presupuestario en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition de manera que pueda gestionar los recursos financieros."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
@@ -17,27 +17,29 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48649b891be72529e6045e48f9738fe68be6cffe
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="budget-control-overview"></a>Visión general del control presupuestario
+# Visión general del control presupuestario 
+<a id="budget-control-overview" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo presenta el control presupuestario y proporciona información para ayudarle a configurar el control presupuestario en Microsoft Dynamics 365 for Operations de manera que pueda gestionar los recursos financieros.
+Este artículo presenta el control presupuestario y proporciona información para ayudarle a configurar el control presupuestario en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition de manera que pueda gestionar los recursos financieros.
 
-<a name="overview"></a>Visión general
+Información general
+<a id="overview" class="xliff"></a>
 --------
 
-El control presupuestario en Microsoft Dynamics 365 for Operations admite la administración de los recursos financieros de una organización a través del plan de cuentas, los flujos de trabajo, los grupos de usuarios, los documentos de origen y los diarios, el cálculo configurable de los fondos disponibles, los ciclos presupuestarios y los umbrales. Cuando los controles están vigentes, una organización puede planear, medir, gestionar y realizar una previsión de sus recursos financieros en su ejercicio. 
+El control presupuestario en Microsoft Dynamics 365 for Finance and Operations admite la administración de los recursos financieros de una organización a través del plan de cuentas, los flujos de trabajo, los grupos de usuarios, los documentos de origen y los diarios, el cálculo configurable de los fondos disponibles, los ciclos presupuestarios y los umbrales. Cuando los controles están vigentes, una organización puede planear, medir, gestionar y realizar una previsión de sus recursos financieros en su ejercicio. 
 
-Una vez se hayan aprobado los presupuestos en Dynamics 365 for Operations, puede usar planes presupuestarios para generar asientos de registro presupuestario para registrar el presupuesto de gastos para una organización. También puede crear o importar asientos de registro presupuestario desde un programa de terceros en lugar de usar la funcionalidad de planificación presupuestaria. 
+Una vez se hayan aprobado los presupuestos en Dynamics 365 for Finance and Operations, puede usar planes presupuestarios para generar asientos de registro presupuestario para registrar el presupuesto de gastos para una organización. También puede crear o importar asientos de registro presupuestario desde un programa de terceros en lugar de usar la funcionalidad de planificación presupuestaria. 
 
 Los gastos se pueden registrar mediante cuentas principales y dimensiones financieras. Puede configurar el control del gasto total para cumplir las directivas y los requisitos de la organización agrupando combinaciones de dimensiones financieras y cuentas principales. 
 
@@ -53,16 +55,19 @@ Puede configurar el control presupuestario de acuerdo con varios factores:
 -   **Cálculo de fondos disponibles**: ¿Se deben considerar los documentos como las solicitudes de compra (pre-reserva de gasto) y los pedidos de compra (reservas de gastos) en el cálculo de los fondos disponibles? ¿Se deben considerar los documentos con estado de borrador en el cálculo?
 -   **Permiso de anulación**: ¿Quién tiene permiso para superar el presupuesto disponible?
 
-El control presupuestario está completamente integrado con Dynamics 365 for Operations. Por tanto, puede evaluar el presupuesto disponible tanto para las compras planificadas como para las compras reales. Los informes y las consultas de presupuesto están disponibles. Por tanto, los usuarios pueden evaluar el presupuesto a lo largo del ciclo presupuestario y, a continuación, puede realizar ajustes necesarios, en forma de transferencias o revisiones presupuestarias. Un director de presupuestos también puede exportar el presupuesto y los valores reales en Microsoft Excel para analizar mejor y realizar la previsión según sea necesario.
+El control presupuestario está completamente integrado con Dynamics 365 for Finance and Operations. Por tanto, puede evaluar el presupuesto disponible tanto para las compras planificadas como para las compras reales. Los informes y las consultas de presupuesto están disponibles. Por tanto, los usuarios pueden evaluar el presupuesto a lo largo del ciclo presupuestario y, a continuación, puede realizar ajustes necesarios, en forma de transferencias o revisiones presupuestarias. Un director de presupuestos también puede exportar el presupuesto y los valores reales en Microsoft Excel para analizar mejor y realizar la previsión según sea necesario.
 
-## <a name="configuring-budget-control"></a>Configuración del control presupuestario
-### <a name="budget-cycle-time-span"></a>Intervalo de tiempo del ciclo presupuestario
+## Configuración del control presupuestario
+<a id="configuring-budget-control" class="xliff"></a>
+### Intervalo de tiempo del ciclo presupuestario
+<a id="budget-cycle-time-span" class="xliff"></a>
 
 Tras la configuración de la gestión presupuestaria básica, puede definir la hora o los períodos de inicio y fin para la gestión presupuestaria y el control presupuestario en la página **Intervalo de tiempo del ciclo presupuestario**. Los ciclos presupuestarios a menudo se corresponden con los calendarios fiscales pero pueden abarcar ejercicios.
 
 Los siguientes pasos de la configuración se completan en las diversas pestañas de la página **Configuración de control presupuestario**.
 
-### <a name="define-parameters"></a>Definir parámetros
+### Definir parámetros
+<a id="define-parameters" class="xliff"></a>
 
 De acuerdo con las dimensiones financieras habilitadas para el presupuesto, puede usar todas las dimensiones financieras o un subconjunto de las mismas para el control presupuestario. 
 
@@ -72,18 +77,21 @@ Las maneras en que se crean y se registran los presupuestos en el registro presu
 
 Además, la cultura de una organización en relación con los presupuestos y el control presupuestario también ayuda a definir la configuración.
 
-### <a name="over-budget-permissions"></a>Permisos de presupuesto excedido
+### Permisos de presupuesto excedido
+<a id="over-budget-permissions" class="xliff"></a>
 
 A continuación, en la pestaña **Permisos de presupuesto excedido**, puede especificar grupos de usuarios. También puede especificar si los usuarios que son miembros de un grupo tienen permiso para superar el presupuesto. Puede evitar que los usuarios superen el presupuesto más allá del umbral de presupuesto que se estableció en la página **Parámetros presupuestarios** o puede evitar que superen el presupuesto en cualquier importe, independientemente del umbral. En función de cómo sea de proactiva la gestión de una organización de su gasto, estos permisos pueden ayudarle a gestionar sus recursos financieros. 
 
-### <a name="budget-funds-available"></a>Fondos presupuestarios disponibles
+### Fondos presupuestarios disponibles
+<a id="budget-funds-available" class="xliff"></a>
 
 A continuación, en la pestaña **Fondos presupuestarios disponibles**, puede definir la fórmula que se usa para calcular los fondos presupuestarios disponibles. En función de como sea de conservadora la gestión de una organización de sus recursos financieros, o en función de las normas o a los requisitos del sector, el cálculo puede incluir el borrador o los documentos no registrados. 
 
 > [!NOTE] 
 > Si este cálculo se modifica durante el ciclo presupuestario, los cambios no afectarán a los documentos que pasaron anteriormente las comprobaciones de control presupuestario y que se registraron o completaron.
 
-### <a name="documents-and-journals"></a>Documentos y diarios
+### Documentos y diarios
+<a id="documents-and-journals" class="xliff"></a>
 
 A continuación, en la pestaña **Documentos y diarios**, puede seleccionar qué documentos de origen y diarios estarán sujetos a comprobaciones de control presupuestario y si las comprobaciones se producirán en el nivel de la entrada de línea o para el documento completo. 
 
@@ -91,30 +99,36 @@ Los documentos de origen que se seleccionen deben coincidir con las casillas par
 
 Si se incluyen **Reservas de presupuesto para reservas de gasto** y/o **Reservas de presupuesto para pre-reservas de gasto** en el cálculo de los fondos presupuestarios disponibles y se deben reflejar a través de los registros en la contabilidad general, debe habilitar el compromiso contable asumido en la página **Parámetros de Contabilidad general**.  
 
-### <a name="assign-budget-models"></a>Asignar modelos presupuestarios
+### Asignar modelos presupuestarios
+<a id="assign-budget-models" class="xliff"></a>
 
 A continuación, en la pestaña **Asignar modelos presupuestarios**, asigne modelos presupuestarios a intervalos de tiempo del ciclo presupuestario que se debe incluir en el control presupuestario.
 
-### <a name="define-budget-control-rules"></a>Definir reglas de control presupuestario
+### Definir reglas de control presupuestario
+<a id="define-budget-control-rules" class="xliff"></a>
 
 A continuación, en la página **Definir reglas de control presupuestario**, debe crear reglas específicas basadas en dimensiones financieras habilitadas con control presupuestario. Por ejemplo, si el enfoque se basa en el gasto o el intervalo de gastos para un departamento, puede usar la configuración de esta pestaña para definir y evaluar esos gastos. Puede definir distintos umbrales para cada regla de control presupuestario. 
 
 > [!Important]
-> El control presupuestario se habilitará para cualquier cuenta principal del tipo **Pérdidas y ganancias**, **Gasto**, **Ingresos, Balance de situación, Recursos propios** o **Activo**. Si esta pestaña contiene una regla con criterios vacíos, el control presupuestario se habilitará para **todas**las combinaciones de dimensiones financieras que incluyen las cuentas principales de esos tipos. Por lo tanto, asegúrese de que crea reglas de control presupuestario que definan solo los intervalos de combinaciones de dimensiones financieras donde es importante que el control presupuestario esté activado.  
+> El control presupuestario se habilitará para cualquier cuenta principal del tipo **Pérdidas y ganancias**, **Gasto**, **Ingresos, Balance de situación, Recursos propios** o **Activo**. Si esta pestaña contiene una regla con criterios vacíos, el control presupuestario se habilitará para **todas** las combinaciones de dimensiones financieras que incluyen las cuentas principales de esos tipos. Por lo tanto, asegúrese de que crea reglas de control presupuestario que definan solo los intervalos de combinaciones de dimensiones financieras donde es importante que el control presupuestario esté activado.  
 
-### <a name="select-main-accounts"></a>Seleccionar cuentas principales
+### Seleccionar cuentas principales
+<a id="select-main-accounts" class="xliff"></a>
 
 Si la opción **Cuenta principal** no está seleccionada como dimensión de control presupuestario en la página **Definir parámetros**, pero se están gestionando los gastos específicos, puede seleccionar esos gastos en la pestaña **Seleccionar cuentas principales**. Si se selecciona la opción **Cuenta principal** como dimensión de control presupuestario, no se requieren entradas.  
 
-### <a name="define-budget-groups"></a>Definir grupos presupuestarios
+### Definir grupos presupuestarios
+<a id="define-budget-groups" class="xliff"></a>
 
 A continuación, en la pestaña **Definir grupos presupuestarios**, puede definir opcionalmente combinaciones únicas de dimensiones financieras en las que los recursos presupuestarios se agrupan para la comprobación presupuestaria secundaria. Puede crear un registro único que incluya toda la organización o definir varios grupos para representar departamentos o centros de costes individuales.  
 
-### <a name="define-message-levels"></a>Definir niveles de mensaje
+### Definir niveles de mensaje
+<a id="define-message-levels" class="xliff"></a>
 
 Si se deben suprimir los mensajes de advertencia de control presupuestario para cualquier grupo de usuarios, puede especificar dichos grupos en la página **Definir niveles de mensaje**. Los miembros de los grupos de usuarios continuarán recibiendo mensajes de error cuando superen los fondos de presupuesto disponibles, en función de los permisos de presupuesto excedido.
 
-### <a name="activate-budget-control"></a>Activar control presupuestario
+### Activar control presupuestario
+<a id="activate-budget-control" class="xliff"></a>
 
 Una vez se haya configurado el control presupuestario, puede activarlo en la pestaña **Activar control presupuestario**. La versión de borrador entrará entonces en vigor.
 > [!Important]
@@ -122,13 +136,10 @@ Una vez se haya configurado el control presupuestario, puede activarlo en la pes
 
 Además, tenga en cuenta que las transacciones, incluidos los asientos de registro presupuestario, que se han registrado antes de que se active el control presupuestario no se consideran para el control presupuestario. Por tanto, es una buena idea activar el control presupuestario solo al principio de un nuevo ciclo presupuestario. Asegúrese de que las entradas de registro presupuestario que contienen saldos presupuestarios iniciales para control presupuestario actualizan sus saldos presupuestarios solo después de que se active el control presupuestario. Se comprobará cualquier documento abierto (por ejemplo, un pedido de compra) para fondos presupuestarios disponibles y obtendrá una reserva de presupuesto para control presupuestario cuando el usuario desencadene manualmente una comprobación de control presupuestario en el documento.
 
-## <a name="using-budget-control"></a>Uso de control presupuestario
+## Uso de control presupuestario
+<a id="using-budget-control" class="xliff"></a>
 Una vez que se activa el control presupuestario, los usuarios recibirán mensajes de error y advertencia del control presupuestario en los documentos y los diarios configurados para el control presupuestario. Recuerde que puede configurar el control presupuestario para poder advertir a los usuarios cuando superan los fondos presupuestarios, pero pueden continuar confirmando o registrando la transacción. Los usuarios pueden ver los detalles de las comprobaciones presupuestarias con error en la página **Errores y advertencias del control presupuestario**.   
 
-En esta página, los usuarios pueden explorar la página **Estadísticas de control presupuestario por periodo** para ver los detalles de disponibilidad y las reservas para una combinación de dimensión de control de presupuesto seleccionada. Los usuarios también pueden explorar la página **Estadísticas de control presupuestario**para ver la disponibilidad de presupuesto para todas las combinaciones de dimensiones financieras que se usan en el control presupuestario. 
+En esta página, los usuarios pueden explorar la página **Estadísticas de control presupuestario por periodo** para ver los detalles de disponibilidad y las reservas para una combinación de dimensión de control de presupuesto seleccionada. Los usuarios también pueden explorar la página **Estadísticas de control presupuestario** para ver la disponibilidad de presupuesto para todas las combinaciones de dimensiones financieras que se usan en el control presupuestario. 
 
 Si se activa el control presupuestario para los pedidos de compra, el director de presupuestos puede usar el espacio de trabajo **Presupuestos y previsiones contables** para revisar la cola de todos los pedidos de compra que tienen errores y advertencias de comprobación presupuestaria. Si el director de presupuestos tiene permisos de presupuesto excedido configurados, puede confirmar los pedidos de compra directamente en el espacio de trabajo.    
-
-
-
-

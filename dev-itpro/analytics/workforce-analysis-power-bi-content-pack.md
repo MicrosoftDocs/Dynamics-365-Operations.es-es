@@ -1,15 +1,15 @@
 ---
 title: "Contenido de BI sobre métricas de recursos"
-description: "En este tema se describe Dynamics 365 for Operations, contenido de Power BI sobre métricas de recursos. Explica cómo tener acceso a los informes que se incluyen en el paquete de contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizaron para generar el paquete del contenido."
-author: twheeloc
+description: "Este tema describe el contenido en Power BI de métricas de recursos. Explica cómo obtener acceso a los informes y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
+author: jcart1106
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Operations, UnifiedOperations, Talent, Core
 ms.custom: 264084
 ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
 ms.search.region: Global
@@ -17,85 +17,86 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2a3f611d29e041a5f05e3f93fd2330f4218b9dd1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1f732a53eee17317417058b92706a9228d783cb5
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="workforce-metrics-power-bi-content"></a>Contenido de BI sobre métricas de recursos
+# Contenido de BI sobre métricas de recursos
+<a id="workforce-metrics-power-bi-content" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
+Este tema describe el contenido en Microsoft Power BI de **métricas de recursos**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
-En este tema se describe Dynamics 365 for Operations, contenido de Power BI sobre métricas de recursos. Explica cómo tener acceso a los informes que se incluyen en el paquete de contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizaron para generar el paquete del contenido.
+## Acceso al contenido de Power BI
+<a id="accessing-the-power-bi-content" class="xliff"></a>
+El contenido en Power BI de **métricas de recursos** se muestra en el espacio de trabajo **Administración de personal** si usa uno de estos productos:
 
-<a name="accessing-the-content-pack"></a>Acceso al paquete de contenido
---------------------------
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, actualización de julio 2017
+- Microsoft Dynamics 365 for Talent
 
-El paquete de contenido sobre métricas de recursos se encuentra en la biblioteca compartida de los activos en los servicios del ciclo de vida de Microsoft Dynamics (LCS). Para obtener más información sobre cómo descargar el paquete de contenido y conectarlo a los datos de Microsoft Dynamics 365 for Operations, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md).
+## Métricas que se incluyen en el contenido de Power BI
+<a id="metrics-that-are-included-in-the-power-bi-content" class="xliff"></a>
+En la tabla siguiente se enumeran las métricas que se muestran en cada informe.
 
-## <a name="reports-that-are-included-in-the-content-pack"></a>Informes que se incluyen en el paquete de contenido
-Tras la conexión del paquete de contenido con sus datos de Dynamics 365 for Operations, los informes muestran los datos de su organización. Si nunca antes ha utilizado Microsoft Power BI, consulte [Aprendizaje dirigido para Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) para obtener más información acerca de la aplicación. Los informes incluidos en el paquete de contenido tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.
-
-| Informe                                           | Contenido                                                                                                                                                                                                            |
+| Informe                                           | Métricas                                                                                                                                                                                                            |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica de las personas                                   | Resumen de otros informes                                                                                                                           |
 | Empresa de análisis de recuento de personas, Departamento, Ubicación | Recuento de personas por empresa, recuento de personas por departamento, recuento de personas por ubicación y recuento de personas totales                                                                                                                           |
 | Trabajo de análisis de recuento de personas, Paso, Administrador            | Recuento de personas por trabajo, recuento de personas por paso, recuento de personas por administrador y recuento de personas totales                                                                                                                                      |
 | Análisis de tendencia del recuento de personas                         | Recuento de personas de este año con relación al año anterior por empresa y recuento de personas acumulado para los últimos 12 meses                                                                                                                        |
-| Datos demográficos de recursos                           | Recuento de personas por edad y género, recuento de personas por origen étnico, recuento de personas por estado de excombatiente, recuento de personas por estado civil, número de estudiantes a jornada completa, duración media, edad media y proporción entre mujeres y hombres en la plantilla |
+| Análisis de FTE                                     | Equivalente a jornada completa (FTE), FTE asignado total, FTE por departamento, FTE de los últimos 12 meses y FTE por trabajo |
+| Datos demográficos de recursos                           | Recuento de personas por edad y género, recuento de personas por origen étnico, recuento de personas por estado de excombatiente, recuento de personas por estado civil, número de estudiantes a jornada completa, duración media, edad media, proporción entre mujeres y hombres e idiomas hablados por los empleados |
 | Análisis de puestos                                | Vacantes por departamento, puestos vacantes a ocupados, puestos activos a inactivos y puestos por departamento                                                                                                   |
-| Análisis de abandono                               | Abandono de este año frente al año pasado, conservación, duración media de las personas que abandonan, edad promedio de las personas que abandonan y empleados que abandonan por motivos.                                                                   |
+| Análisis de abandono                               | Abandono de este año frente al año pasado, abandono, empleados que salen por antigüedad y género, tiempo medio en la empresa de los empleados que se van, empleados que salen este mes y empleados que se van por un motivo                                                                   |
 | Personas por departamento                             | Empleados con un número de personal por departamento, puesto y fechas inicial y final de asignación                                                                                                                       |
-| Análisis de antigüedad                               | Promedio de años de servicio por lista de empresa y antigüedad                                                                                                                                                              |
-| Aniversarios y años de servicio               | Empleados por años de servicio y aniversarios                                                                                                                                                                    |
+| Análisis de antigüedad                               | Promedio de tiempo en la empresa, promedio de años de servicio por empresa y lista de antigüedad                                                                                                                                                              |
+| Aniversarios del empleado                           | Aniversarios este mes, aniversarios el siguiente mes, empleados por años de servicio, y aniversarios, años de servicio por departamento                                                                                                                                                                    |
+| Cumpleaños del empleado                               | Cumpleaños este mes, el cumpleaños siguiente mes, cumpleaños de los empleados, y cumpleaños por mes y departamento                                                                                                                                                                    |
+| Proyectos de contratación masiva                               | Proyectos de contratación masiva totales, proyectos de contratación masiva por estado, proyectos de contratación masiva por departamento y propietario, proyectos de contratación masiva por trabajo, y proyectos de contratación masiva                                                                                                                                                                    |
 
 Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e iconos al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
-Los datos de Dynamics 365 for Operations se usan para rellenar los informes del paquete de contenido sobre métricas de recursos. En la tabla siguiente se muestran las entidades en las que se basaba el paquete de contenido.
+## Ampliar el contenido de Power BI
+<a id="extending-the-power-bi-content" class="xliff"></a>
+Mediante los paquetes de contenido disponibles en Microsoft Dynamics Lifecycle Services (LCS), puede ofrecer análisis muy buenos a las personas que no inician sesión en Finance and Operations. Puede modificar estos paquetes de contenido para que incluyan otros informes o representaciones visuales y, a continuación, publicar los paquetes de contenidos en el inquilino de Power BI.com para su análisis.
 
-| Entidad                            | Contenido                                                                                                   | Relaciones con otras entidades                                                                                                                                                                                                                                                                                                |
-|-----------------------------------|------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Workforce\_CalendarOffset         | Desplazamientos del calendario para dividir informes                                                                          | Workforce\_PastPositionAssignment Workforce\_PositionTrend Workorce\_WorkerTrend Workforce\_TerminatedWorker                                                                                                                                                                                                                     |
-| Workforce\_Company                | Empresas para filtrar informes por                                                                             | Workforce\_CurrentCompensation Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                        |
-| Workforce\_Compensation           | Índice salaria y frecuencia a lo largo del tiempo                                                                           | Workforce\_CurrentCompensation Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                        |
-| Workforce\_CurrentCompensation    | Índice salarial y frecuencia a partir de la fecha actual                                                              | Workforce\_Company Workforce\_Compensation Workforce\_Demographics Workforce\_Job Workforce\_Position                                                                                                                                                                                                                            |
-| Workforce\_CurrentPosition        | Puestos a partir de la fecha actual, equivalentes a tiempo completo (FTE), vacantes y puestos vacantes a ocupados | Workforce\_Job Workforce\_Position                                                                                                                                                                                                                                                                                               |
-| Workforce\_CurrentWorker          | Trabajadores a partir de la fecha actual, edad y plantilla                                                         | Workforce\_Company Workforce\_Compensation Workforce\_GeographicLocation Workforce\_Performance Workforce\_WorkerName Workforce\_ReportsToWorkerName Workforce\_WorkerTitle Workforce\_Demographics Workforce\_Job Workforce\_Employment Workforce\_Position Workforce\_WorkerBenefit                                            |
-| Workforce\_Date                   | Días, semanas, meses y años                                                                             | Workforce\_PastPositionAssignment Workforce\_PositionTrend Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                     |
-| Workforce\_Demographics           | Fecha de nacimiento, género, origen étnico y estado civil                                                   | Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Workforce\_Employment             | Fecha de inicio, fecha final y fecha de transición                                                                  | Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Workforce\_GeographicLocation     | Ciudad, provincia, código postal y comunidad autónoma                                                           | Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Workforce\_Job                    | Función tipo y cargo                                                                                  | Workforce\_CurrentPosition Workforce\_CurrentWorker                                                                                                                                                                                                                                                                              |
-| Workforce\_JobPerferredSkill      |                                                                                                            |                                                                                                                                                                                                                                                                                                                                  |
-| Workforce\_PastPositionAssignment | Motivo de la asignación, fecha de inicio, fecha final y trabajo                                                           | Workforce\_CalendarOffset Workforce\_Date Workforce\_Job Workforce\_Position                                                                                                                                                                                                                                                     |
-| Workforce\_Performance            | Calificación, descripción y modelo de calificación                                                                      | Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Workforce\_PersonSkill            | Nivel y aptitud                                                                                            | Workforce\_Skill                                                                                                                                                                                                                                                                                                                 |
-| Workforce\_PersonSkillAnalysis    | Certificado, nivel y aptitud                                                                                | Workforce\_Skill Workforce\_WorkerName                                                                                                                                                                                                                                                                                           |
-| Workforce\_Position               | Departamento, FTE, puesto, tipo de puesto y cargo                                                        | Workforce\_CurrentPosition Workforce\_CurrentWorker                                                                                                                                                                                                                                                                              |
-| Workforce\_PositionTrend          | Puestos a lo largo del tiempo, FTE y trabajo                                                                          | Workforce\_CalendarOffset Workforce\_Date Workforce\_Job Workforce\_Position                                                                                                                                                                                                                                                     |
-| Workforce\_ReportsToWorkerName    | Nombre, apellido y nombre completo                                                                       | Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Workforce\_Skill                  | Aptitudes, tipo de aptitud y calificación                                                                              | Workforce\_PersonSkill Workforce\_PersonSkillAnalysis                                                                                                                                                                                                                                                                            |
-| Workforce\_TerminatedWorker       | Trabajadores terminados, fecha de finalización, cargo, puesto y trabajo                                             | Workforce\_Company Workforce\_Compensation Workforce\_GeographicLocation Workforce\_Performance Workforce\_WorkerName Workforce\_ReportsToWorkerName Workforce\_CalendarOffset Workforces\_Date Workforce\_WorkerTitle Workforce\_Demographics Workforce\_Employment Workforce\_Job Workforce\_Position Workforce\_WorkerBenefit |
-| Workforce\_WorkerBenefit          | Fecha de vigencia, opción de prestación, plan de prestaciones y tipo de prestación                                             | Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Workforce\_WorkerName             | Nombre, apellido y nombre completo                                                                       | Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend Workforce\_PersonSkillAnalysis                                                                                                                                                                                                                        |
-| Workforce\_WorkerTitle            | Cargo y fecha de antigüedad                                                                                   | Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Workorce\_WorkerTrend             | Trabajadores a lo largo del tiempo, plantilla, empresa y puesto                                                        | Workforce\_Company Workforce\_Compensation Workforce\_GeographicLocation Workforce\_Performance Workforce\_WorkerName Workforce\_ReportsToWorkerName Workforce\_CalendarOffset Workforces\_Date Workforce\_WorkerTitle Workforce\_Demographics Workforce\_Employment Workforce\_Job Workforce\_WorkerBenefit                     |
+Puede encontrar el contenido en Power BI de **métricas de recursos** en la biblioteca de activos compartidos de LCS. Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
 
-Estas entidades se usaban para crear medidas calculadas en el modelo de datos. Estas medidas calculadas se utilizan para calcular los indicadores de rendimiento clave (KPI) y los informes que se utilizan en el paquete del contenido. Si desea incluir cálculos adicionales en sus informes y en el panel de información, puede descargar y modificar el archivo CompensationandBenefits.pbix en LCS. Este archivo es el modelo de datos predeterminado usado para crear el paquete del contenido. Una vez que haya realizado las modificaciones, puede crear un panel de información y paquete de contenido organizativo que contienen la información que ha agregado.
+Asegúrese de descargar el contenido en Power BI de **métricas de recursos** que se aplica a la versión de Microsoft Dynamics 365 que esté usando.
 
-## <a name="additional-resources"></a>Recursos adicionales
-Estos son algunos vínculos útiles relacionados con las entidades y la creación de contenido de Power BI:
+>[!NOTE]
+>Los archivos .pbix disponibles en Lifecycle Services se aplican solamente a Finance and Operations.
 
--   [Entidades de datos](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
--   [Creación de paquetes de contenido organizativo](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Modelado de datos con Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Adición de iconos de Power BI a espacios de trabajo](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
+## Comprensión del modelo de datos y de las entidades
+<a id="understanding-the-data-model-and-entities" class="xliff"></a>
+En la tabla siguiente se muestran las entidades en las que se basaba el contenido.
 
+| Entidad                   | Contenido                                                                            | Relaciones con otras entidades |
+|--------------------------|-------------------------------------------------------------------------------------|-----------------------------------|
+| Contrapartida del calendario          | Desplazamientos del calendario para dividir informes                                                   | Asignación de puesto anterior, tenencia de puestos, tendencia de empleado, empleado cesado |
+| Compañía                  | Empresas para filtrar informes por                                                      | Empleado actual, empleado cesado, tendencia del empleado |
+| Puesto actual         | Puestos a fecha actual, FTE, vacantes y puestos vacantes a ocupados | Trabajo, puesto |
+| Empleado actual         | Trabajadores a partir de la fecha actual, edad y plantilla                                  | Empresa, ubicación geográfica, nombre del empleado, responsable ante, cargo del empleado, demografía, trabajo, empleo, puesto |
+| Fecha                     | Días, semanas, meses y años                                                      | Asignación de puesto anterior, tenencia de puestos, tendencia de empleado, tendencia de empleado |
+| Datos demográficos             | Fecha de nacimiento, género, origen étnico y estado civil                            | Empleado actual, empleado cesado, tendencia del empleado |
+| Empleo               | Fecha de inicio, fecha final y fecha de transición                                           | Empleado actual, empleado cesado, tendencia del empleado |
+| Ubicación geográfica      | Ciudad, provincia, código postal y comunidad autónoma                                    | Empleado actual, empleado cesado, tendencia del empleado |
+| Trabajo                      | Función tipo y cargo                                                           | Puesto actual, empleado actual |
+| Asignación de puestos anteriores | Motivo de la asignación, fecha de inicio, fecha final y trabajo                                    | Contrapartida del calendario, fecha, trabajo, puesto |
+| Posición                 | Departamento, FTE, puesto, tipo de puesto y cargo                                 | Puesto actual, empleado actual |
+| Tendencia de puestos           | Puestos a lo largo del tiempo, FTE y trabajo                                                   | Contrapartida del calendario, fecha, trabajo, puesto |
+| Es responsable ante               | Nombre, apellido y nombre completo                                                | Empleado actual, empleado cesado, tendencia del empleado |
+| Empleado cesado      | Trabajadores terminados, fecha de finalización, cargo, puesto y trabajo                      | Empresa, ubicación geográfica, nombre del empleado, responsable ante, contrapartida del calendario, fecha, puesto del empleado, demografía, empleo, trabajo, puesto |
+| Nombre de empleado            | Nombre, apellido y nombre completo                                                | Trabajador actual, empleado cesado, tendencia del empleado |
+| Puesto del empleado           | Cargo y fecha de antigüedad                                                            | Empleado actual, empleado cesado, tendencia del empleado |
+| Tendencia del empleado           | Trabajadores a lo largo del tiempo, plantilla, empresa y puesto                                 | Empresa, ubicación geográfica, nombre del empleado, responsable ante, contrapartida del calendario, fecha, puesto del empleado, demografía, empleo, trabajo |
+| Proyecto de contratación masiva        | Número de proyectos de contratación masiva, propietario del proyecto, y estado de proyecto                     | Empresa, línea de contratación masiva |
+| Línea de contratación masiva           | Departamento, tipo de empleo y puesto                                           | Fecha, trabajo, proyecto de contratación masiva |
 
-
-
+Estas entidades se usaban para crear medidas calculadas en el modelo de datos. Estas medidas calculadas se utilizan para calcular los indicadores de rendimiento clave (KPI) y los informes que se utilizan en el contenido de Power BI. Si desea incluir cálculos adicionales en sus informes y en el panel de información, puede descargar y modificar el archivo .pbix en LCS. Este archivo es el modelo de datos predeterminado usado para crear el contenido de Power BI. Una vez que haya realizado las modificaciones, puede crear un panel de información y paquete de contenido organizativo que contienen la información que ha agregado.
 

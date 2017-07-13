@@ -3,14 +3,14 @@ title: "Visión general de la planificación presupuestaria"
 description: "En este artículo se introduce la plantificación presupuestaria y contiene información que le ayudará a configurar la planificación presupuestaria y los procesos de planificación presupuestaria."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
@@ -18,29 +18,32 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5212c8401f26f30cf593c52eb88291463b9b8810
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="budget-planning-overview"></a>Visión general de la planificación presupuestaria
+# Visión general de la planificación presupuestaria
+<a id="budget-planning-overview" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
 En este artículo se introduce la plantificación presupuestaria y contiene información que le ayudará a configurar la planificación presupuestaria y los procesos de planificación presupuestaria.
 
-<a name="overview-of-budget-planning"></a>Visión general de la planificación presupuestaria
+Visión general de la planificación presupuestaria
+<a id="overview-of-budget-planning" class="xliff"></a>
 ---------------------------
 
 La planificación presupuestaria se realiza cuando se preparan los presupuestos que una organización implementará. Una organización puede configurar la planificación presupuestaria y, a continuación, configurar procesos de planificación presupuestaria para cumplir sus directivas, procedimientos y requisitos para la preparación de presupuestos. 
 
-Cuando comprenda los conceptos y la terminología que se usan en Microsoft Dynamics 365 for Operations, le será más sencillo implementar la planificación presupuestaria en su organización.
+Cuando comprenda los conceptos y la terminología que se usan en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, le será más sencillo implementar la planificación presupuestaria en su organización.
 
-### <a name="key-terms"></a>Términos clave
+### Términos clave
+<a id="key-terms" class="xliff"></a>
 
 -   **Procesos de planificación presupuestaria**: los procesos de planificación presupuestaria determinan cómo se pueden actualizar, enrutar, revisar y aprobar los planes presupuestarios en la jerarquía organizativa presupuestaria. Un proceso de planificación presupuestaria está vinculado a un ciclo presupuestario y una organización mediante una entidad jurídica.
 -   **Planes presupuestarios**: los planes presupuestarios contienen los datos de presupuesto para un ciclo de presupuesto. Puede tener varios planes presupuestarios que se usan para distintos fines. Por ejemplo, los planes presupuestarios se pueden usar para crear importes presupuestarios para diferentes unidades organizativas, o pueden ayudarle a realizar comparaciones y a tomar decisiones informadas.
@@ -50,7 +53,8 @@ Cuando comprenda los conceptos y la terminología que se usan en Microsoft Dynam
 
 [![Terminología de planificación presupuestaria](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
-### <a name="common-tasks"></a>Tareas comunes
+### Tareas comunes
+<a id="common-tasks" class="xliff"></a>
 
 Puede utilizar la planificación presupuestaria para realizar las tareas siguientes:
 
@@ -59,12 +63,14 @@ Puede utilizar la planificación presupuestaria para realizar las tareas siguien
 -   Enrutar automáticamente los planes presupuestarios, junto con las hojas de cálculo, los documentos de justificación y otros datos adjuntos, para su revisión y aprobación.
 -   Consolidar varios planes presupuestarios de un nivel inferior de la organización en un único plan presupuestario principal de un nivel superior de la organización. También puede desarrollar un único plan presupuestario en un nivel superior de la organización y asignar el presupuesto a niveles inferiores de la organización.
 
-La planificación presupuestaria se integra con otros módulos de Microsoft Dynamics 365 for Operations. Por tanto, puede incorporar la información de presupuestos anteriores, gastos reales, activos fijos y recursos humanos. Dado que la planificación presupuestaria también se integra con Microsoft Excel y Microsoft Word, puede usar estos programas para trabajar con los datos de planificación presupuestaria. Por ejemplo, un administrador de presupuestos puede exportar la solicitud de presupuesto de un departamento desde un escenario de plan presupuestario en una hoja de cálculo de Excel. Los datos se pueden analizar, actualizar y asignar en la hoja de cálculo y, a continuación, publicar de nuevo en las líneas del plan presupuestario.
+La planificación presupuestaria se integra con otros módulos de Microsoft Dynamics 365 for Finance and Operations. Por tanto, puede incorporar la información de presupuestos anteriores, gastos reales, activos fijos y recursos humanos. Dado que la planificación presupuestaria también se integra con Microsoft Excel y Microsoft Word, puede usar estos programas para trabajar con los datos de planificación presupuestaria. Por ejemplo, un administrador de presupuestos puede exportar la solicitud de presupuesto de un departamento desde un escenario de plan presupuestario en una hoja de cálculo de Excel. Los datos se pueden analizar, actualizar y asignar en la hoja de cálculo y, a continuación, publicar de nuevo en las líneas del plan presupuestario.
 
-## <a name="configuring-budget-planning"></a>Configuración de la planificación presupuestaria
+## Configuración de la planificación presupuestaria
+<a id="configuring-budget-planning" class="xliff"></a>
 La página **Configuración de planificación presupuestaria** contiene la mayoría de los parámetros que se necesitan para configurar la planificación presupuestaria. Las siguientes secciones describen algunos factores clave que debe tener en cuenta conforme configura la planificación presupuestaria. Después de completar la configuración, configure los procesos de planificación presupuestaria.
 
-### <a name="create-a-budget-planning-schema"></a>Crear un esquema de planificación presupuestaria
+### Crear un esquema de planificación presupuestaria
+<a id="create-a-budget-planning-schema" class="xliff"></a>
 
 El primer paso opcional pero muy recomendable es crear un esquema que muestre el procedimiento de la organización para formular un presupuesto. Puede usar cualquier método que desee para crear este esquema. El ejemplo siguiente muestra un ejemplo genérico, donde se crean los flujos de trabajo de planificación presupuestaria independientes para distintos niveles de la organización. Las etapas se definen dentro de cada flujo de trabajo y se asignan escenarios específicos a cada etapa para mantener los datos del presupuesto. Las tareas se realizan para mover los datos de una etapa a la siguiente. Por ejemplo, se pueden asignar o agregar importes a diferentes cuentas, aprobaciones y otras revisiones. En este ejemplo, el texto en cursiva indica un escenario que no es editable durante la etapa, o datos que son históricos o que se han aprobado en una etapa anterior y que por tanto no se deben cambiar. 
 
@@ -74,27 +80,30 @@ En el siguiente ejemplo, la sede corporativa calcula los importes de línea base
 
 [![Ejemplo de esquema de planificación presupuestaria](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
-###  <a name="organization-hierarchy-for-budget-planning"></a>Jerarquía organizativa para planificación presupuestaria
+###  Jerarquía organizativa para planificación presupuestaria
+<a id="organization-hierarchy-for-budget-planning" class="xliff"></a>
 
 En la página **Jerarquía organizativa**, puede designar una jerarquía organizativa como jerarquía de planificación presupuestaria para cada proceso de planificación presupuestaria. La jerarquía de planificación presupuestaria no tiene que coincidir con la jerarquía organizativa estándar que se usa para otros propósitos. Dado que esta jerarquía se usa para agregar y distribuir datos, puede que desee que tenga otra estructura. En el esquema de ejemplo, los departamentos de ventas se encuentran en un nivel de sede que incluye departamentos de finanzas y presupuesto. Esta estructura se diferencia probablemente de la estructura que se usa para gestionar operaciones para los departamentos de ventas. Solo una jerarquía de organización se puede asignar a cada proceso de planificación presupuestaria. 
 
-Para obtener más información acerca de las jerarquías organizativas, consulte [Organizaciones y las jerarquías organizativas](/dynamics365/operations/organization-administration/organizations-organizational-hierarchies).
+Para obtener más información acerca de las jerarquías organizativas, consulte [Organizaciones y las jerarquías organizativas](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies).
 
-### <a name="user-security"></a>Seguridad de usuario
+### Seguridad de usuario
+<a id="user-security" class="xliff"></a>
 
 La planificación presupuestaria puede seguir uno de los dos modelos de seguridad para definir permisos de usuario. Para especificar el modelo de seguridad, se establece un parámetro de planificación presupuestaria en la página **Configuración de planificación presupuestaria**.
 
-### <a name="budget-planning-workflows-stages"></a>Etapas de flujos de trabajo de planificación presupuestaria
+### Etapas de flujos de trabajo de planificación presupuestaria
+<a id="budget-planning-workflows-stages" class="xliff"></a>
 
 Los flujos de trabajo de planificación presupuestaria se usan junto con los Flujos de trabajo presupuestarios para administrar la configuración y la evolución de los planes presupuestarios.
 
-Un flujo de trabajo de planificación presupuestaria consiste en un conjunto ordenado de etapas por las que se mueve un plan presupuestario. Cada flujo de trabajo de planificación presupuestaria se asocia a un flujo de trabajo presupuestario. Los flujos de trabajo presupuestarios son uno de los tipos de flujo de trabajo que se usan en Microsoft Dynamics 365 for Operations. El flujo de trabajo presupuestario enruta los planes presupuestarios, junto con las hojas de cálculo, las justificaciones y los datos adjuntos, a la organización para su revisión y aprobación. 
+Un flujo de trabajo de planificación presupuestaria consiste en un conjunto ordenado de etapas por las que se mueve un plan presupuestario. Cada flujo de trabajo de planificación presupuestaria se asocia a un flujo de trabajo presupuestario. Los flujos de trabajo presupuestarios son uno de los tipos de flujo de trabajo que se usan en Finance and Operations. El flujo de trabajo presupuestario enruta los planes presupuestarios, junto con las hojas de cálculo, las justificaciones y los datos adjuntos, a la organización para su revisión y aprobación. 
 
 Cree el flujo de trabajo de planificación presupuestaria en la sección **Etapas de flujo de trabajo** de la página **Configuración de planificación presupuestaria**. Ahí, puede seleccionar las etapas y el flujo de trabajo de presupuesto que se usarán, y también configurar opciones adicionales. 
 
 Una buena práctica es crear un flujo de trabajo de planificación presupuestaria para cada nivel de una jerarquía de presupuesto. A continuación, asigna un flujo de trabajo de presupuesto que contenga elementos que correspondientes a las etapas del flujo de trabajo de planificación presupuestaria. En el esquema de ejemplo que aparece anteriormente en este artículo, se crearía un flujo de trabajo de planificación presupuestaria para los departamento de ventas y otro, para las sedes. Un flujo de trabajo de presupuesto mueve los planes de presupuesto por las etapas. 
 
-Cree el flujo de trabajo de presupuesto para la planificación presupuestaria en la página **Flujos de trabajo presupuestarios**. El proceso es similar al proceso para crear otros flujos de trabajo en Microsoft Dynamics 365 for Operations. En la ilustración siguiente se muestra un ejemplo de un flujo de trabajo de sedes. 
+Cree el flujo de trabajo de presupuesto para la planificación presupuestaria en la página **Flujos de trabajo presupuestarios**. El proceso es similar al proceso para crear otros flujos de trabajo en Finance and Operations. En la ilustración siguiente se muestra un ejemplo de un flujo de trabajo de sedes. 
 
 [![Flujo de trabajo de presupuesto para la planificación presupuestaria](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
@@ -102,7 +111,8 @@ El flujo de trabajo incluye elementos para asignación a departamentos de ventas
 
 Asigne el flujo de trabajo de presupuesto a cada flujo de trabajo de planificación presupuestaria en la sección **Etapas de flujo de trabajo** de la página **Configuración de planificación presupuestaria**.
 
-### <a name="parameters-scenarios-and-stages"></a>Parámetros, escenarios y etapas
+### Parámetros, escenarios y etapas
+<a id="parameters-scenarios-and-stages" class="xliff"></a>
 
 La configuración inicial de la página **Configuración de planificación presupuestaria** le permite crear algunos componentes básicos para pasos de configuración posteriores:
 
@@ -110,7 +120,8 @@ La configuración inicial de la página **Configuración de planificación presu
 -   **Escenarios**: los escenarios abarcan las categorías de datos que desea para los planes presupuestarios. Los escenarios del plan presupuestarios se definen para admitir clases monetarias y otras clases de unidad de medida, como cantidad. En un plan presupuestario, los escenarios representan una versión de los datos de planificación presupuestaria. Los ejemplos de escenarios monetarios del plan presupuestario incluyen las ventas del año anterior y los contratos firmados. Entre los ejemplos de escenarios que usan cantidades se incluyen el número de llamadas de ventas y el recuento equivalente de jornada completa (FTE).
 -   **Etapas**: las etapas definen los pasos que un plan presupuestario sigue desde su inicio a la aprobación final. Entre los ejemplos de las etapas de planificación presupuestaria se incluyen la acumulación de sede, la revisión del director financiero y la final.
 
-### <a name="allocation-schedules"></a>Programaciones de asignación
+### Programaciones de asignación
+<a id="allocation-schedules" class="xliff"></a>
 
 En la planificación presupuestaria, puede asignar los importes o las cantidades de líneas del plan presupuestario de un escenario a otro, o incluso al mismo escenario. Por ejemplo, puede asignar al mismo escenario si desea aplicar cambios a las dimensiones financieras o las fechas de los importes en dicho escenario. Una asignación se puede realizar dentro de un plan presupuestario o a partir de un plan presupuestario a otro. 
 
@@ -123,7 +134,8 @@ Las programaciones de asignación asignan automáticamente líneas del plan pres
 -   **Usar reglas de asignación contable**: las líneas del plan presupuestario se distribuyen del escenario del plan presupuestario de origen al escenario de destino, basándose en la regla de asignación contable seleccionada.
 -   **Copiar del plan presupuestario**: puede seleccionar otro plan presupuestario para usarlo como el origen de la asignación.
 
-### <a name="stage-allocations"></a>Asignaciones de etapa
+### Asignaciones de etapa
+<a id="stage-allocations" class="xliff"></a>
 
 Las asignaciones de etapa se usan para asignar automáticamente líneas del plan presupuestario durante el procesamiento del flujo de trabajo. Cuando se usan asignaciones de etapa, las líneas del plan presupuestario del escenario de destino se pueden crear y modificar sin intervención del preparador o del revisor del plan presupuestario.
 
@@ -137,11 +149,13 @@ Además, en el esquema de ejemplo, se realiza una agregación desde los escenari
 
 [![Agregación](./media/aggregation-109x300.png)](./media/aggregation.png)
 
-### <a name="priorities"></a>Prioridades
+### Prioridades
+<a id="priorities" class="xliff"></a>
 
 De forma opcional, puede usar prioridades del plan presupuestario para definir categorías y objetivos para los planes presupuestarios que ha configurado. También puede usar prioridades para organizar, clasificar y evaluar varios planes presupuestarios. Por ejemplo, puede crear una prioridad de planificación presupuestaria para el estado y la seguridad y, a continuación, evaluar los planes presupuestarios que están asignados a dicha prioridad. También puede asignar un número para clasificar planes presupuestarios a través de todos los planes presupuestarios.
 
-### <a name="columns-and-layouts"></a>Columnas y diseños
+### Columnas y diseños
+<a id="columns-and-layouts" class="xliff"></a>
 
 Las cifras de presupuesto aparecen en un plan presupuestario en filas y columnas. Debe definir primero las columnas y, a continuación, podrá crear un diseño para definir la presentación de las columnas. 
 
@@ -157,7 +171,8 @@ Para el esquema de ejemplo, puede que desee crear columnas para escenarios de ve
 
 También puede designar si cada elemento de diseño (columna) es editable y si está disponible en cualquier plantilla de hoja de cálculo que se cree para ese diseño. Para el esquema de ejemplo, en el diseño que se usa para la etapa Estimación, las columnas de previsión son editables, mientras que las columnas de ventas PY y contratos son de solo lectura.
 
-### <a name="templates"></a>Plantillas
+### Plantillas
+<a id="templates" class="xliff"></a>
 
 En la sección **Diseños** de la página **Configuración de planificación presupuestaria**, también puede generar, ver o cargar plantillas de Excel. Estas plantillas son los libros que se vinculan a cada plan presupuestario para proporcionar funcionalidad adicional de análisis, gráficos y entrada de datos. 
 
@@ -166,11 +181,13 @@ Puede generar, ver o cargar una plantilla para cada diseño. Cuando se genera un
 > [!NOTE] 
 > La plantilla se debe guardar en una ubicación a la que el usuario tiene acceso, para que se pueda cargar en el diseño una vez completada la edición. De esa manera, la plantilla se usará con los planes presupuestarios que usan la configuración.
 
-### <a name="descriptions"></a>Descripciones
+### Descripciones
+<a id="descriptions" class="xliff"></a>
 
 Las descripciones que puede asignar en la sección **Diseños** se usan para mostrar el nombre de una dimensión financiera que se incluye en un diseño. Por ejemplo, es posible que una organización pueda desear que se muestre el nombre de la cuenta principal junto al número de la cuenta principal en un plan presupuestario, pero es posible que desee omitir los nombres de las demás dimensiones financieras para evitar que se recargue la visualización.
 
-## <a name="setting-up-budget-planning-processes"></a>Configuración de procesos de planificación presupuestaria
+## Configuración de procesos de planificación presupuestaria
+<a id="setting-up-budget-planning-processes" class="xliff"></a>
 
 Una vez que haya terminado de configurar la planificación presupuestaria, puede configurar procesos de planificación presupuestaria en la página **Proceso de planificación presupuestaria**. Los procesos de planificación presupuestaria son conjuntos de reglas que determinan cómo se pueden actualizar, enrutar, revisar y aprobar los planes presupuestarios en la jerarquía organizativa presupuestaria. 
 

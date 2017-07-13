@@ -3,13 +3,13 @@ title: "Configuración de un proceso de aprobación en un flujo de trabajo"
 description: "Use el siguiente procedimiento para configurar las propiedades del proceso de aprobación."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 195643
 ms.assetid: f853f57b-83ae-4fb0-a9fa-06ea3fc34fa1
 ms.search.region: Global
@@ -17,15 +17,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 159fe64b7a37ffdcbcd6c122116c2e110300122b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c2765cf4ed8e0f5e00491bfe74835102bddff611
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="configure-an-approval-process-in-a-workflow"></a>Configuración de un proceso de aprobación en un flujo de trabajo
+# Configuración de un proceso de aprobación en un flujo de trabajo
+<a id="configure-an-approval-process-in-a-workflow" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
@@ -40,7 +41,8 @@ Siga estos pasos para asignar un nombre al proceso de aprobación.
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
 2.  En el campo **Nombre**, especifique un nombre único para el proceso de aprobación.
 
-## <a name="specify-when-the-system-automatically-acts-on-the-document"></a>Especificación de las condiciones en que el sistema realiza una acción automática en el documento
+## Especificación de las condiciones en que el sistema realiza una acción automática en el documento
+<a id="specify-when-the-system-automatically-acts-on-the-document" class="xliff"></a>
 Puede configurar el sistema para que realice alguna acción en el documento de forma automática si se cumplen ciertas condiciones. Por ejemplo, el sistema puede aprobar los informes de gastos con importes totales inferiores a 100 USD. Siga estos pasos para especificar cuándo el sistema realiza una acción en el documento.
 1.  En el panel izquierdo, haga clic en **Acciones automáticas**.
 2.  Active la casilla **Habilitar acciones automáticas**.
@@ -55,7 +57,8 @@ Puede configurar el sistema para que realice alguna acción en el documento de f
 
 7.  En la lista **Acción de autocompletar**, seleccione la acción que el sistema debe realizar en el documento.
 
-## <a name="specify-when-notifications-are-sent"></a>Especificación del momento en que se envían notificaciones
+## Especificación del momento en que se envían notificaciones
+<a id="specify-when-notifications-are-sent" class="xliff"></a>
 Puede enviar notificaciones cuando un documento se ha aprobado, rechazado, delegado o remitido a una instancia superior o cuando se ha solicitado un cambio. Siga estos pasos para especificar cuándo se deben enviar notificaciones y a quiénes se deben enviar.
 1.  En el panel izquierdo, haga clic en **Notificaciones**.
 2.  Active las casillas de verificación junto a los eventos que deben notificarse:
@@ -117,10 +120,10 @@ Puede enviar notificaciones cuando un documento se ha aprobado, rechazado, deleg
     </tr>
     <tr class="odd">
     <td><strong>Usuario</strong></td>
-    <td>Usuarios específicos de Microsoft Dynamics 365 for Operations</td>
+    <td>Usuarios específicos de Microsoft Dynamics 365 for Finance and Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Microsoft Dynamics 365 for Operations. Seleccione aquellos usuarios a los que enviar notificaciones y, a continuación, muévalos a la lista de <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Microsoft Dynamics 365 for Finance and Operations. Seleccione aquellos usuarios a los que enviar notificaciones y, a continuación, muévalos a la lista de <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -128,13 +131,15 @@ Puede enviar notificaciones cuando un documento se ha aprobado, rechazado, deleg
 
 10. Repita los pasos 3 a 9 por cada uno de los eventos que haya seleccionado en el paso 2.
 
-## <a name="specify-a-final-approver"></a>Especificación de un aprobador final
+## Especificación de un aprobador final
+<a id="specify-a-final-approver" class="xliff"></a>
 Es posible que desee designar un aprobador final que actúe en las situaciones en las que el aprobador sea la persona que solicitó la aprobación del documento. Para especificar un aprobador final, siga estos pasos.
 1.  En el panel izquiero, haga clic en **Configuración avanzada**.
 2.  Seleccione la casilla de verificación **Usar aprobador final**.
 3.  En la lista, seleccione el usuario que actuará como aprobador final.
 
-## <a name="set-a-time-limit"></a>Definición de un límite de tiempo
+## Definición de un límite de tiempo
+<a id="set-a-time-limit" class="xliff"></a>
 Siga estos pasos si el proceso de aprobación se debe completar en un plazo específico.
 | **Nota**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -151,7 +156,8 @@ Siga estos pasos si el proceso de aprobación se debe completar en un plazo espe
 
 4.  Si se supera el límite de tiempo, el sistema realiza una acción en el documento. En la lista **Acción**, seleccione la acción que debe realizar el sistema.
 
-## <a name="specify-which-actions-are-available-to-the-user"></a>Especificación de las acciones de las que dispone el usuario
+## Especificación de las acciones de las que dispone el usuario
+<a id="specify-which-actions-are-available-to-the-user" class="xliff"></a>
 Cuando se asigna un documento a un usuario para que lo apruebe, este debe realizar alguna acción. Siga estos pasos para especificar las acciones que el usuario puede realizar en el documento enviado.
 1.  En el panel izquiero, haga clic en **Configuración avanzada**.
 2.  Active la casilla de verificación **Aprobar** si el usuario puede aprobar el documento.
@@ -161,7 +167,8 @@ Cuando se asigna un documento a un usuario para que lo apruebe, este debe realiz
 
 **Nota**: **las acciones de permiso de la casilla de verificación de la lista de trabajo de Enterprise Portal** se han quedado obsoletas.
 
-## <a name="configure-the-approval-steps"></a> Configuración de los pasos de aprobación
+##  Configuración de los pasos de aprobación
+<a id="configure-the-approval-steps" class="xliff"></a>
 Los procesos de aprobación se componen de pasos de aprobación. Realice el siguiente procedimiento para agregar pasos en el proceso de aprobación y configurarlos.
 1.  En el editor de flujo de trabajo, haga doble clic en el proceso de aprobación. Los pasos del proceso se mostrarán en el editor de flujo de trabajo.
 2.  Para agregar un paso de aprobación, arrástrelo desde el área de **Elementos del flujo de trabajo** al lienzo.

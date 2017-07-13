@@ -1,15 +1,15 @@
 ---
 title: "Conciliar extractos bancarios mediante la conciliación bancaria avanzada"
-description: "La característica Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Operations. En este tema se explica el proceso de conciliación."
+description: "La función Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. En este tema se explica el proceso de conciliación."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
 ms.search.region: global
@@ -17,22 +17,24 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 81368294164ca4ca1915d73f8f5622e61f5d1fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: eb7fd01874b08417933ddf575c7d6ff866b4e6f8
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Conciliar extractos bancarios mediante la conciliación bancaria avanzada
+# Conciliar extractos bancarios mediante la conciliación bancaria avanzada
+<a id="reconcile-bank-statements-by-using-advanced-bank-reconciliation" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-La característica Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Operations. En este tema se explica el proceso de conciliación.  
+La función Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. En este tema se explica el proceso de conciliación.  
 
-<a name="import-an-electronic-bank-statement"></a>Importar un extracto bancario electrónico
+Importar un extracto bancario electrónico
+<a id="import-an-electronic-bank-statement" class="xliff"></a>
 -----------------------------------
 
 Importa los extractos bancarios mediante la acción **Importar extracto** en la página **Extractos bancarios**. En el extracto bancario, la cuenta bancaria se identifica mediante una combinación de valores que se establecen en los detalles de la cuenta bancaria. Estos valores incluyen el nombre del banco, el número de cuenta bancaria, el número de ruta, el código SWIFT (Society for Worldwide Interbank Financial Telecommunication, Sociedad para la telecomunicación financiera interbancaria en el mundo) y el número internacional de cuenta bancaria (IBAN). 
@@ -44,11 +46,12 @@ Puede cargar un extracto bancario que contiene información tanto para una cuent
 
 Si no se puede asociar ningún extracto del archivo electrónico con la cuenta bancaria mediante los campos de identificación, no se importarán. No obstante, se pueden importar todavía otros extractos del archivo. El usuario recibe, a continuación, un mensaje que indica que la importación de los extractos bancarios para las cuentas bancarias específicas no ha podido realizarse. Tenga en cuenta que el usuario que está importando el archivo del extracto bancario debe tener acceso a una entidad jurídica para importar los extractos para las cuentas bancarias de dicha entidad jurídica. 
 
-Para cargar varios archivos de extractos a Microsoft Dynamics 365 for Operations en un único proceso, puede usar un archivo zip. Para importar varios archivos de extractos bancarios para varias cuentas, combine todos los archivos de extractos bancarios en un archivo zip. En el cuadro de diálogo **Importar extractos bancarios**, establezca la opción **Importar extracto para varias cuentas bancarias en todas las entidades jurídicas** en **Sí**. Haga clic en **Examinar** para seleccionar el archivo zip que contiene los archivos de extractos bancarios y, a continuación, haga clic en **Cargar**. El proceso de importación reconocerá el archivo zip y cargará cada extracto que se incluye en el mismo, independientemente de la entidad jurídica de la cuenta bancaria. 
+Para cargar varios archivos de extractos a Finance and Operations en un único proceso, puede usar un archivo zip. Para importar varios archivos de extractos bancarios para varias cuentas, combine todos los archivos de extractos bancarios en un archivo zip. En el cuadro de diálogo **Importar extractos bancarios**, establezca la opción **Importar extracto para varias cuentas bancarias en todas las entidades jurídicas** en **Sí**. Haga clic en **Examinar** para seleccionar el archivo zip que contiene los archivos de extractos bancarios y, a continuación, haga clic en **Cargar**. El proceso de importación reconocerá el archivo zip y cargará cada extracto que se incluye en el mismo, independientemente de la entidad jurídica de la cuenta bancaria. 
 
 Hay una opción **Conciliar tras la importación** disponible. Cuando establece esta opción en **Sí**, el sistema valida el extracto bancario automáticamente, crea una conciliación bancaria y una hoja de cálculo nuevas, y ejecuta el Conjunto de reglas de coincidencia predeterminado cuando se carga el extracto bancario. Esta funcionalidad automatiza el proceso hasta el punto donde deben conciliarse manualmente transacciones.
 
-## <a name="validate-the-bank-statement"></a>Validar el extracto bancario
+## Validar el extracto bancario
+<a id="validate-the-bank-statement" class="xliff"></a>
 Para validar un extracto, en la página **Extractos bancarios**, haga clic en **Validar**. Los extractos bancarios se deben validar para que se pueden conciliar. Este paso se completa automáticamente si establece la opción **Conciliar tras la importación** en **Sí** en el momento de la importación. 
 
 La validación del extracto bancario comprueba los siguientes detalles:
@@ -63,7 +66,8 @@ La validación del extracto bancario comprueba los siguientes detalles:
 
 Una vez finaliza la validación, se actualiza el estado del extracto bancario en **Validado**. Un extracto bancario se deben validar para que se pueda conciliar.
 
-## <a name="reconcile-the-bank-statement"></a>Conciliar el extracto bancario
+## Conciliar el extracto bancario
+<a id="reconcile-the-bank-statement" class="xliff"></a>
 Una vez hay importado un extracto bancario electrónico y haya validado el extracto en la página **Extractos bancarios**, puede conciliar el extracto bancario con las páginas **Conciliación bancaria** y **Hoja de cálculo de conciliación bancaria**. 
 
 En la página **Conciliación bancaria**, haga clic en **Nueva** para crear una conciliación nueva y, a continuación, seleccione la cuenta bancaria del extracto que se importó. Una cuenta bancaria solo puede tener una conciliación bancaria abierta. La fecha límite determina las transacciones de extracto bancario y las transacciones bancarias de Operaciones que se incluyen en la hoja de cálculo de conciliación. De forma predeterminada, se utiliza la fecha actual del sistema como la fecha límite, pero puede cambiar la fecha de la conciliación. La información restante del encabezado se toma automáticamente del extracto. Este paso se completa automáticamente si establece la opción **Conciliar tras la importación** en **Sí** en el momento de la importación. 
@@ -76,7 +80,7 @@ Hay tres formas para hacer coincidir o conciliar las transacciones de extracto b
 
 -   Conciliar las transacciones con transacciones bancarias de Operaciones.
 -   Conciliar las transacciones con una transacción de extracto bancario de inversión.
--   Marcar las transacciones como **Nueva**, de manera que puedan registrarse posteriormente como transacción bancaria en Dynamics 365 for Operations.
+-   Marcar las transacciones como **Nueva**, de manera que puedan registrarse posteriormente como transacción bancaria en Finance and Operations.
 
 Para conciliar transacciones manuales, seleccione las transacciones de la cuadrícula **Transacciones de extracto bancario**, seleccione las transacciones correspondientes en la cuadrícula **Transacciones bancarias de Operaciones** y, a continuación, haga clic en **Conciliar**. Las transacciones seleccionadas se mueven desde las cuadrículas superiores para transacciones no conciliadas hasta las cuadrículas inferiores de transacciones conciliadas. Además, se actualizan los importes totales conciliados y no conciliados. Puede tener coincidencias de transacciones unívocas, de varios a uno y de varios a varios. Las coincidencias deben seguir las reglas para las diferencias de fecha permitidas y la asignación de tipos de transacción. Estas reglas se establecen en la página **Parámetros de gestión de efectivo y bancos**.
 
@@ -86,13 +90,14 @@ Las inversiones de transacciones de extracto bancario se concilian mediante la h
 
 Las transacciones bancarias de Operaciones inversas se deben conciliar mediante la página **Transacciones bancarias de Operaciones**. Puede conciliar dos transacciones bancarias de Operaciones juntas si los documentos tienen la misma cuenta bancaria, tipo de documento y referencia de pago, y si tienen importes opuestos. También puede conciliar un único cheque cancelado para evitar que dichas transacciones aparezcan en la hoja de cálculo de conciliación. 
 
-Si hay nuevas transacciones iniciadas por el banco, como intereses, comisiones y gastos, que no están todavía en Dynamics 365 for Operations, puede agregarlos a un diario asociado a la conciliación de extracto bancario seleccionada. Seleccione una transacción de extracto bancario en la cuadrícula **Transacciones de extracto bancario** para transacciones no conciliadas y, a continuación, haga clic en **Marcar como nuevo**. El estado de la transacción se establece en **Nuevo** y la transacción se mueve a la cuadrícula **Transacciones de extracto bancario** para las transacciones conciliadas. Registrará transacciones que estén marcadas como **Nueva** posteriormente, desde la página **Extracto bancario**. 
+Si hay nuevas transacciones iniciadas por el banco, como intereses, comisiones y gastos, que no están todavía en Finance and Operations, puede agregarlos a un diario asociado a la conciliación de extracto bancario seleccionada. Seleccione una transacción de extracto bancario en la cuadrícula **Transacciones de extracto bancario** para transacciones no conciliadas y, a continuación, haga clic en **Marcar como nuevo**. El estado de la transacción se establece en **Nuevo** y la transacción se mueve a la cuadrícula **Transacciones de extracto bancario** para las transacciones conciliadas. Registrará transacciones que estén marcadas como **Nueva** posteriormente, desde la página **Extracto bancario**. 
 
 Puede quitar la conciliación de las transacciones que estuvieran incorrectamente conciliadas. Seleccione la transacción de extracto bancario conciliada y, a continuación, haga clic en **Quitar conciliación**. Todas las transacciones asociadas se devuelven a las cuadrículas superiores de transacciones no conciliadas y se actualizan los importes totales conciliados y no conciliados. 
 
 Una vez que se han procesado todas las líneas de extracto, debe marcar la hoja de trabajo de conciliación bancaria como conciliada.
 
-## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Registrar nuevas transacciones asociadas con la conciliación
+## Registrar nuevas transacciones asociadas con la conciliación
+<a id="post-new-transactions-that-are-associated-with-the-reconciliation" class="xliff"></a>
 Las transacciones de extracto bancario que marcó como **Nueva** en la hoja de cálculo de conciliación se registran en la página **Extracto bancario**. En el **Extracto bancario** , seleccione el id. de extracto para ver los detalles del extracto. En el menú **Contabilidad**, puede utilizar las opciones **Ver distribuciones** y **Ver contabilidad** para ver detalles de las nuevas transacciones y los movimientos contables asociados. Seleccione la opción **Registrar** para registrar las líneas de extracto bancario marcadas como **Nueva** en la contabilidad general. Tenga en cuenta que el registro solo se puede completar una vez por extracto bancario.
 
 

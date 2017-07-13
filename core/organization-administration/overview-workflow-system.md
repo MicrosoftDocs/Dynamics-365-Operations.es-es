@@ -1,6 +1,6 @@
 ---
 title: "Visión general del sistema de flujo de trabajo"
-description: Este tema describe el sistema de flujo de trabajo en Microsoft Dynamics 365 for Operations.
+description: Este tema describe el sistema de flujo de trabajo en Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
 ms.date: 04/25/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 56381
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
@@ -17,30 +17,34 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 142f6f122172f717733db6f39b964c3f6f2e2f77
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1dc7935bf92567d529d393abf3069935a387e388
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="workflow-system-overview"></a>Visión general del sistema de flujo de trabajo
+# Visión general del sistema de flujo de trabajo
+<a id="workflow-system-overview" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este tema describe el sistema de flujo de trabajo en Microsoft Dynamics 365 for Operations.
+Este tema describe el sistema de flujo de trabajo en Microsoft Dynamics 365 for Finance and Operations.
 
-<a name="what-is-workflow"></a>¿Qué significa flujo de trabajo?
+¿Qué significa flujo de trabajo?
+<a id="what-is-workflow" class="xliff"></a>
 -----------------
 
 El término *flujo de trabajo* se puede definir de dos maneras: como sistema y como proceso empresarial.
-### <a name="workflow-is-a-system"></a>Flujo de trabajo es un sistema
+### Flujo de trabajo es un sistema
+<a id="workflow-is-a-system" class="xliff"></a>
 
-El flujo de trabajo es un sistema que se instala junto con Dynamics 365 for Operations y se ejecuta en Application Object Server (AOS). El sistema de flujo de trabajo proporciona funciones que se pueden usar para crear flujos de trabajo individuales, o procesos empresariales.
+El flujo de trabajo es un sistema que se instala junto con Dynamics 365 for Finance and Operations y se ejecuta en Application Object Server (AOS). El sistema de flujo de trabajo proporciona funciones que se pueden usar para crear flujos de trabajo individuales, o procesos empresariales.
 
-### <a name="workflow-is-a-business-process"></a>Flujo de trabajo es un proceso empresarial
+### Flujo de trabajo es un proceso empresarial
+<a id="workflow-is-a-business-process" class="xliff"></a>
 
 Un flujo de trabajo representa un proceso empresarial. El flujo de trabajo define el flujo o movimiento de un documento en el sistema al mostrar quién debe completar una tarea, tomar una decisión o aprobar un documento. Por ejemplo, en la siguiente ilustración se muestra un flujo de trabajo de informes de gastos. 
 
@@ -48,7 +52,8 @@ Un flujo de trabajo representa un proceso empresarial. El flujo de trabajo defin
 
 Para comprender mejor este flujo de trabajo, supongamos que Sam envía un informe de gastos por un total de 7.000 USD. En esta situación, Ivan debe revisar los recibos que Sam le envía. A continuación, Frank y Sue deben aprobar el informe de gastos. Ahora supongamos que Sam envía un informe de gastos por un total de 11.000 USD. En esa situación, Ivan debe revisar los recibos y Frank, Sue y Ann deben aprobar el informe de gastos.
 
-## <a name="benefits-of-using-the-workflow-system"></a>Ventajas del uso del sistema de flujo de trabajo
+## Ventajas del uso del sistema de flujo de trabajo
+<a id="benefits-of-using-the-workflow-system" class="xliff"></a>
 
 El uso del sistema de flujo de trabajo en una organización ofrece varias ventajas:
 -   **Procesos coherentes**: puede definir cómo determinados documentos —por ejemplo, solicitudes de compra e informes de gastos— se procesan. Al usar el sistema de flujo de trabajo, puede asegurarse de que los documentos se procesarán y aprobarán de manera coherente y eficiente.
@@ -56,7 +61,8 @@ El uso del sistema de flujo de trabajo en una organización ofrece varias ventaj
 -   **Lista de trabajo centralizada**: los usuarios pueden ver una lista de trabajo centralizada con las tareas y aprobaciones de flujo de trabajo que tienen asignadas.
 
 
-## <a name="workflow-content"></a>Contenido del flujo de trabajo
+## Contenido del flujo de trabajo
+<a id="workflow-content" class="xliff"></a>
 
 + [Arquitectura del flujo de trabajo](workflow-system-architecture.md)
 + [Elementos del flujo de trabajo](workflow-elements.md)

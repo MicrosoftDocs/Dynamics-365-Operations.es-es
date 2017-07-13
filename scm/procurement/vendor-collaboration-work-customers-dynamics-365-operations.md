@@ -1,16 +1,16 @@
 ---
 title: "Colaboración de proveedor con los clientes"
-description: "Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los PO y supervisar el inventario de envío en Microsoft Dynamics 365 for Operations."
+description: "Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los PO y supervisar el inventario de envío en Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
@@ -18,24 +18,26 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1649014855d8d5e0f1225a661c9b6bae6490f597
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="vendor-collaboration-with-customers"></a>Colaboración de proveedor con los clientes
+# Colaboración de proveedor con los clientes
+<a id="vendor-collaboration-with-customers" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los PO y supervisar el inventario de envío en Microsoft Dynamics 365 for Operations.
+Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los PO y supervisar el inventario de envío en Finance and Operations.
 
-Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los clientes en Microsoft Dynamics 365 for Operations. Incluye información acerca de cómo supervisar y responder a los pedidos de compra, y cómo controlar el inventario de envío. También es posible usar la colaboración de proveedor para trabajar con las facturas. Para obtener más información, consulte [Espacio de trabajo de facturación de colaboración de proveedor](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los clientes en Microsoft Finance and Operations. Incluye información acerca de cómo supervisar y responder a los pedidos de compra, y cómo controlar el inventario de envío. También es posible usar la colaboración de proveedor para trabajar con las facturas. Para obtener más información, consulte [Espacio de trabajo de facturación de colaboración de proveedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
 
-## <a name="working-with-purchase-orders"></a>Trabajar con pedidos de compra
+## Trabajar con pedidos de compra
+<a id="working-with-purchase-orders" class="xliff"></a>
 El área de trabajo de la **Confirmación del pedido de compra** le permite responder a los PO que se le han enviado para que los revise. También le permite ver información sobre pedidos de compra que están esperando una acción por parte del cliente, y los que han sido confirmados pero siguen abiertos. Existen tres listas en el espacio de trabajo de **Confirmación de pedido de compra**:
 
 -   **Pedidos de compra para revisar**: esta lista muestra los PO que se han enviado y esperan una respuesta por su parte. Cuando responda, los PO desaparecerán de la lista. Si el cliente le envía una nueva versión del PO antes de que haya respondido el anterior, solo se muestra la última versión.
@@ -49,7 +51,8 @@ La lista siguiente muestra las cuatro páginas que puede usar para trabajar con 
 -   **Abrir los pedidos de compra confirmados** (ver más arriba)
 -   **Todos los pedidos de compra confirmados**: esta página contiene todos los PO que se han confirmado, incluidos aquellos donde se han recibido los productos o servicios. Puede usar esta lista para supervisar para qué PO puede enviar facturas.
 
-### <a name="responding-to-purchase-orders"></a>Responder a pedidos de compra
+### Responder a pedidos de compra
+<a id="responding-to-purchase-orders" class="xliff"></a>
 
 Los pedidos de compra que el cliente le ha enviado para revisar están visibles en el espacio de trabajo **Confirmación del pedido de compra** y en la página **Pedidos de compra para revisar**. Cuando abre un pedido de compra, puede elegir aceptarlo, rechazarlo o aceptarlo con cambios. Podía haber documentos adjuntos en el encabezado del PO o en líneas individuales. También es posible que adjunte información a su respuesta en el encabezado del PO o en líneas individuales. Por ejemplo, puede sugerir un artículo sustituto para una de las líneas. Puede obtener una vista previa e imprimir el PO como archivo PDF mediante la opción **Vista preliminar/Imprimir**. Puede ocultar o mostrar las siguientes columnas de dimensión usando la acción **Mostrar dimensiones**: Sitio, Almacén, Color, Tamaño, Estilo, Configuración. Si usa la opción **Aceptar con cambios**, puede aceptar o rechazar líneas individuales. También puede realizar los siguientes cambios en las líneas:
 
@@ -59,7 +62,8 @@ Los pedidos de compra que el cliente le ha enviado para revisar están visibles 
 
 No puede cambiar la información sobre precios o gastos, pero puede hacer sugerencias para dichos cambios mediante el uso de notas. Si el cliente le envía una nueva versión de un PO, éste tendrá un sufijo de versión para indicar que es una versión modificada de un PO que se comunicó anteriormente. La página del **Historial de confirmación del proveedor del pedido de compra** le permite hacer seguimiento del historia de cada pedido.
 
-## <a name="monitoring-consignment-inventory"></a>Supervisar el inventario de entrega
+## Supervisar el inventario de entrega
+<a id="monitoring-consignment-inventory" class="xliff"></a>
 Si está usando el inventario de envío, puede usar la interfaz de colaboración del proveedor para visualizar la información de las siguientes páginas:
 
 -   **Pedidos de compra que consumen el inventario de envío**: los pedidos de compra de inventario de envío se generan cuando el cliente se adueña del inventario. Estos pedidos de compra de envío solo se muestran en la página de **Pedidos de compra que consumen el inventario de envío**. No se incluyen en la página **Todos los pedidos de compra confirmados**.
@@ -67,7 +71,8 @@ Si está usando el inventario de envío, puede usar la interfaz de colaboración
 -   **Inventario de envío disponible**: esta página muestra el inventario disponible de envío que es propiedad de la empresa y que está disponible en el almacén de los clientes.
 
 
-<a name="see-also"></a>Consulte también
+Consulte también
+<a id="see-also" class="xliff"></a>
 --------
 
 [Gestionar usuarios de colaboración de proveedor](manage-vendor-collaboration-users.md)

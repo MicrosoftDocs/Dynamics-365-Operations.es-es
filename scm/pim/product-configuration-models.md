@@ -3,7 +3,7 @@ title: "Visión general de los modelos de configuración de productos"
 description: "En este artículo se definen los términos y conceptos relevantes para los modelos de configuración de productos. Los modelos de configuración de productos permiten crear una estructura de producto genérico que se puede utilizar para configurar muchas variantes de producto para un solo producto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 4031
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
 ms.search.region: Global
@@ -19,15 +19,16 @@ ms.author: yuyus
 ms.dyn365.intro: Feb-16
 ms.dyn365.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 30580b059a4c240ad540a9c347b0551df0ab5c02
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1270c35bc7dbe4c85a1aa991a0387b33e1cb6990
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="product-configuration-models-overview"></a>Visión general de los modelos de configuración de productos
+# Visión general de los modelos de configuración de productos
+<a id="product-configuration-models-overview" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
@@ -121,7 +122,7 @@ Si el tipo de atributo es <strong>Booleano</strong>, <strong>Entero</strong> con
 </tr>
 </tbody>
 </table>
-Una restricción de tabla definida por el sistema representa una asignación entre un tipo de atributo y un campo en una tabla de Dynamics 365 for Operations. Una restricción de tabla definida por el sistema vincula dinámicamente el tipo de atributo al campo. El vínculo permite al atributo en un modelo de configuración de productos reflejar los datos del campo en la tabla de Microsoft Dynamics 365 for Operations.</td>
+Una restricción de tabla definida por el sistema representa una asignación entre un tipo de atributo y un campo en una tabla de Finance and Operations. Una restricción de tabla definida por el sistema vincula dinámicamente el tipo de atributo al campo. El vínculo permite al atributo en un modelo de configuración de productos reflejar los datos del campo en la tabla de Finance and Operations.</td>
 </tr>
 <tr class="odd">
 <td>Cálculos</td>

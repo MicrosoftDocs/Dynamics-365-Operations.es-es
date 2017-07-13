@@ -1,16 +1,16 @@
 ---
 title: "Previsión de puestos"
-description: 
+description: "Los gastos relacionados con los trabajadores componen a menudo una proporción grande de los costes de una organización. La previsión de puestos le permite planificar esos gastos y los incluye en la planificación de presupuestos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
@@ -18,24 +18,25 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 03645693c5101c48ef9d35bdbe14debef1e69fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="position-forecasting"></a>Previsión de puestos
+# Previsión de puestos
+<a id="position-forecasting" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
 
-
 Los gastos relacionados con los trabajadores componen a menudo una proporción grande de los costes de una organización. La previsión de puestos le permite planificar esos gastos y los incluye en la planificación de presupuestos.
 
-## <a name="position-forecasting-in-budget-planning"></a>Previsión de puestos en la planificación de presupuesto
+## Previsión de puestos en la planificación de presupuesto
+<a id="position-forecasting-in-budget-planning" class="xliff"></a>
 
 [![Gráfico superior](./media/graphic-top.png)](./media/graphic-top.png) 
 
@@ -47,7 +48,8 @@ A **elemento de coste presupuestario** es un componente de configuración que re
 
 Un **grupo de compensación** es un componente opcional de la configuración que se usa para aplicar un conjunto de elementos de coste presupuestario y para pagar cálculos a los puestos que tienen características similares de sueldo. Un grupo de compensación puede incluir una cuadrícula de compensación de índices salariales. Cuando se asigna el grupo a un puesto de previsión, un nivel y un paso en la cuadrícula pueden asignar las ganancias del puesto de previsión. El conjunto de elementos de coste se agrega automáticamente.
 
-### <a name="position-forecasting-processes"></a>Procesos de la previsión de puestos
+### Procesos de la previsión de puestos
+<a id="position-forecasting-processes" class="xliff"></a>
 
 [![graphic1b](./media/graphic1b.png)](./media/graphic1b.png) 
 
@@ -55,10 +57,12 @@ En un proceso típico para la previsión de puestos, primero se crean los compon
 
 Puede crear versiones de puestos adicionales de previsión a medida que se revisan planes de presupuesto. Estas nuevas versiones proporcionan una base para las revisiones.
 
-## <a name="position-forecasting-setup"></a>Configuración de la previsión de puestos
+## Configuración de la previsión de puestos
+<a id="position-forecasting-setup" class="xliff"></a>
 [![graphic2](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
-### <a name="budget-cost-elements"></a>Elementos de coste presupuestario
+### Elementos de coste presupuestario
+<a id="budget-cost-elements" class="xliff"></a>
 
 Los elementos de coste presupuestario se usan para definir los detalles de coste para un puesto de previsión. Estos detalles incluyen el tipo de coste, cómo se calcula el coste, y si el coste se asignará a las fechas varias en que el puesto de previsión se incluye en un plan de presupuesto. 
 
@@ -78,7 +82,8 @@ A continuación, Jorge agrega una línea de cálculo de costes, establece las fe
 
 Finalmente, Jorge agrega todos los elementos de coste de la ganancia que se usan para el sueldo base como bases de cálculo. Su elemento de coste presupuestario está ahora listo para usar.
 
-### <a name="compensation-groups"></a>Grupos de compensación
+### Grupos de compensación
+<a id="compensation-groups" class="xliff"></a>
 
 Los grupos de compensación se pueden usar para agrupar puestos de previsión que tienen atributos similares de compensación. También se puede usar para definir las ganancias de un puesto de previsión y los aumentos anuales, y para asignar un conjunto de elementos comunes de coste presupuestario. 
 
@@ -92,14 +97,16 @@ Los campos **Aumentar programación** y **Fecha del aumento** del grupo de compe
 
 Se usa el elemento de coste de la ganancia que se seleccionó en el grupo de compensación al crear las ganancias para los puestos de previsión en el grupo, incluido el sueldo base y cualquier aumento de etapa. El campo **Plan fijo de compensación** vincula el grupo de compensación a un plan de compensación fija en recursos humanos. Este vínculo puede asignar la información de compensación fija de un trabajador a un puesto de previsión, y puede por lo tanto realizar una planificación de presupuesto más precisa. Recuerde que la estructura de la cuadrícula de compensación (niveles y pasos) para el grupo de compensación debe coincidir con la estructura del plan de compensación fija. De lo contrario, el sistema no puede vincular correctamente el grupo de compensación y el plan de compensación fija.
 
-## <a name="creating-forecast-positions"></a>Crear puestos de previsión
+## Crear puestos de previsión
+<a id="creating-forecast-positions" class="xliff"></a>
 [![graphic3](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
-### <a name="creating-forecast-positions-for-existing-positions"></a>Crear puestos de previsión para puestos existentes
+### Crear puestos de previsión para puestos existentes
+<a id="creating-forecast-positions-for-existing-positions" class="xliff"></a>
 
-Para la planificación de manera más precisa del presupuesto, puede crear puestos de previsión con los detalles de puestos existentes en Microsoft Dynamics 365 for Operations, independientemente de si el puesto existe o no actualmente. 
+Para la planificación de manera más precisa del presupuesto, puede crear puestos de previsión con los detalles de puestos existentes en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, independientemente de si el puesto existe o no actualmente. 
 
-La función **Agregar puestos existentes** muestra todas las posiciones para una organización. Al configurar la fecha**A partir de**, puede cambiar la lista de puestos de modo que contenga los puestos que existían en una fecha en el pasado o, normalmente, en el futuro (por ejemplo, el inicio del ciclo presupuestario siguiente). Seleccione una situación del proceso de planificación presupuestaria y el plan de presupuesto, seleccione puestos en la lista, y haga clic en **Aceptar** para crear los puestos de previsión para los puestos seleccionados. Tenga en cuenta que puede crear un puesto de previsión para cada puesto existente en un proceso y una situación de planificación presupuestaria. Sin embargo, puede crear versiones adicionales asignando distintas situaciones del plan de presupuesto. 
+La función **Agregar puestos existentes** muestra todas las posiciones para una organización. Al configurar la fecha **A partir de**, puede cambiar la lista de puestos de modo que contenga los puestos que existían en una fecha en el pasado o, normalmente, en el futuro (por ejemplo, el inicio del ciclo presupuestario siguiente). Seleccione una situación del proceso de planificación presupuestaria y el plan de presupuesto, seleccione puestos en la lista, y haga clic en **Aceptar** para crear los puestos de previsión para los puestos seleccionados. Tenga en cuenta que puede crear un puesto de previsión para cada puesto existente en un proceso y una situación de planificación presupuestaria. Sin embargo, puede crear versiones adicionales asignando distintas situaciones del plan de presupuesto. 
 
 Si los elementos de coste presupuestario se han asignado a la posición en recursos humanos, estos elementos de coste presupuestario también se asignan a la posición de previsión y utilizan los importes predeterminados. El campo **Trabajador asignado** del puesto de previsión se establece con el nombre del trabajador asignado al puesto, si un trabajador está asignado. Este campo es un campo simple de texto. No se crea ningún vínculo directo. 
 
@@ -113,7 +120,8 @@ El ajuste de la opción **Asignar un grupo de compensación** tiene prioridad so
 
 Otra opción es asignar una fecha de aniversario. La fecha seleccionada (fecha inicial, fecha inicial del trabajador, fecha de inicio del empleo o fecha de antigüedad ajustadas) del trabajador asignado se establece como la fecha de aniversario del puesto de previsión, y se usa para información y cuando se generan los aumentos de sueldo.
 
-### <a name="creating-new-forecast-positions"></a>Crear nuevos puestos de previsión
+### Crear nuevos puestos de previsión
+<a id="creating-new-forecast-positions" class="xliff"></a>
 
 Puede crear nuevos puestos de previsión de dos formas: copiando una previsión de puesto existente o creando una nueva previsión de puesto. 
 
@@ -121,20 +129,24 @@ Si se ha seleccionado un puesto de previsión, seleccione **Copiar el puesto de 
 
 También puede crear un puesto de previsión totalmente nuevo. Seleccione un trabajo existente, y también seleccione la situación del proceso de planificación presupuestaria y el plan de presupuesto. Puede agregar cualquier otro detalle que desee agregar. De nuevo, un puesto nuevo se crea en recursos humanos al mismo tiempo.
 
-## <a name="working-with-forecast-positions"></a>Trabajar con puestos de previsión
+## Trabajar con puestos de previsión
+<a id="working-with-forecast-positions" class="xliff"></a>
 [![graphic5](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
-### <a name="multiple-versions-of-a-forecast-position"></a>Varias versiones de un puesto de previsión
+### Varias versiones de un puesto de previsión
+<a id="multiple-versions-of-a-forecast-position" class="xliff"></a>
 
 Puede modificar puestos de previsión para aplicar los cambios conocidos para el ciclo presupuestario o los cambios modelo propuestos. Una práctica común es crear un conjunto de línea base de puestos de previsión, crear copias de dichos puestos de previsión, y después usar las copias para modelar los distintos conjuntos de cambios. Las copias se asignan a otra situación del plan de presupuesto, pero al menos hasta que se realizan los cambios, son idénticas a los puestos de previsión de los que se han copiado. Los originales y las copias comparten el mismo puesto en recursos humanos. 
 
 La función **Copiar al escenario** proporciona esta característica. Tenga en cuenta que cada puesto de recursos humanos sólo puede tener un puesto de previsión en cada escenario del plan de presupuesto.
 
-### <a name="modifying-forecast-positions"></a>Modificar puestos de previsión
+### Modificar puestos de previsión
+<a id="modifying-forecast-positions" class="xliff"></a>
 
 Los cambios realizados en los puestos de previsión se limitan a dichos puestos de previsión. Los cambios no afectan a los registros de puestos en recursos humanos. La mayoría de los cambios también se limita al puesto de previsión que se está editando. Es decir, los cambios son específicos al proceso de planificación presupuestaria y al escenario del plan de presupuesto que tienen asignados. Las excepciones son los cambios en los campos que se comparten para el puesto en los procesos y las situaciones. Estos campos incluyen los campos de las fichas **General** y **Dimensiones financieras**. Cuando se modifican estos campos, los nuevos valores se aplican al puesto en todas las situaciones de planificación presupuestaria. Por lo tanto, estos campos permiten rápidamente actualizar todas sus versiones.
 
-#### <a name="budget-cost-elements"></a>Elementos de coste presupuestario
+#### Elementos de coste presupuestario
+<a id="budget-cost-elements" class="xliff"></a>
 
 Los elementos de coste presupuestario proporcionan la información principal para los planes de presupuesto: el importe presupuestario y la cuenta principal. El importe de presupuesto es el importe que se envía al plan de presupuesto cuando un puesto de previsión se incluye en un plan. El importe presupuestario se calcula y no se puede modificar directamente. Este importe es el importe anual o un cálculo del porcentaje de los elementos de la base del importe anual (como se define en la configuración del elemento de coste presupuestario). El importe luego se descompone en factores por el número de días en el intervalo de fechas del elemento (fecha inicial hasta la fecha final) y también por el valor **Equivalente a jornada completa** para el puesto de previsión. 
 
@@ -146,13 +158,15 @@ Las líneas del elemento de coste presupuestario se deben recalcular cuando el v
 
 La organización está considerando dos opciones para reducir el coste de un puesto de contable. Una opción es terminar el puesto parte del año. Otra opción es cambiar el puesto a tiempo parcial para todo el año. Alberto ha creado un puesto de previsión para el puesto existente de contable en una situación de línea base. Copia este puesto de previsión de línea base en la situación A, establece la fecha de jubilación al 31 de mayo, y vuelve a calcular. Alberto después copia el puesto de previsión de la línea base en la situación B, cambia el valor de FTE a **0,50**, y recalcula. Alberto ahora tiene tres versiones, cada una con totales de coste que se alinean con sus opciones.
 
-#### <a name="assigning-a-compensation-group"></a>Asignar un grupo de compensación
+#### Asignar un grupo de compensación
+<a id="assigning-a-compensation-group" class="xliff"></a>
 
 Cuando se asigna un grupo de compensación a un puesto de previsión, los elementos de coste presupuestario predeterminados del grupo de compensación se agregan. Si los elementos de coste ya están asignados al puesto de previsión, esos elementos de coste permanecen. Si a un grupo de compensación ya ha sido asignado y se está modificando, los elementos existentes del coste de presupuesto se quitarán y sse ustituirán por el conjunto del grupo de compensación. 
 
 Cuando selecciona un nivel de compensación y un paso, se agrega un elemento de coste presupuestario de ganancias (tal como se define en el grupo de compensación). El importe anual se calcula usando el índice en el nivel y el paso seleccionados, y las horas anuales en el grupo de compensación (o, para un salario anual, el importe completo en el nivel y el paso). De nuevo, este importe se descompone en factores por el intervalo de fechas de la línea del elemento de coste y el valor de FTE del puesto de previsión.
 
-#### <a name="generating-increases"></a>Generar incrementos
+#### Generar incrementos
+<a id="generating-increases" class="xliff"></a>
 
 Los aumentos anuales (uno por año natural) se pueden crear automáticamente para puestos de previsión que tienen un grupo de compensación basado en pasos asignado. Haga clic en **Generar aumentos** para agregar un elemento de coste presupuestario de ganancias en el paso más alto siguiente. La fecha inicial del nuevo elemento de coste presupuestario de ganancias es la fecha programada del aumento que se muestra en el puesto de previsión. Esta fecha se establece en el grupo de compensación de una de estas dos formas. Si la programación del aumento del grupo de compensación se establece en **Fecha común**, la fecha del aumento se especifica en el grupo de compensación. Si la programación del aumento se establece en **Fecha de aniversario**, se usa el campo de la fecha de aniversario en el puesto de previsión, y el ciclo presupuestario proporciona el año. Si hay años varios naturales dentro de un ciclo de presupuesto, se agregan varios aumentos. 
 
@@ -160,7 +174,8 @@ La fecha final del elemento actual de coste presupuestario de ganancias se actua
 
 Si hace clic en **Generar aumentos** una segunda vez, el proceso se ejecuta otra vez pero no agrega más registros. Solo se crea un aumento por año natural.
 
-#### <a name="changes-from-other-pages"></a>Modificaciones de otras páginas
+#### Modificaciones de otras páginas
+<a id="changes-from-other-pages" class="xliff"></a>
 
 Las actualizaciones a los puestos de previsión también pueden provenir de otras áreas, como el elemento de coste presupuestario y las páginas de la configuración del grupo de compensación. También puede modificar puestos de previsión a través del procesamiento de actualización masivo. 
 
@@ -176,13 +191,15 @@ Seleccionando puestos de previsión y haciendo clic en **Actualización masiva**
 
 El proceso de recálculo se usa automáticamente en cualquier puesto de previsión que haya cambiado.
 
-## <a name="bringing-forecast-positions-into-budget-plans"></a>Incorporar puestos de previsión en los planes de presupuesto
+## Incorporar puestos de previsión en los planes de presupuesto
+<a id="bringing-forecast-positions-into-budget-plans" class="xliff"></a>
 
 [![graphic6](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
 El propósito de crear y modificar puestos de la previsión es agregarlos a los planes de presupuesto, de modo que los planes de presupuesto incluyan los importes presupuestarios más precisos. Existen dos métodos para agregar puestos de previsión a planes de presupuesto. Puede usar un proceso de generación o un proceso de selección en el plan de presupuesto.
 
-### <a name="generating-a-budget-plan-from-forecast-positions"></a>Generar plan presupuestario a partir de posiciones de previsión
+### Generar plan presupuestario a partir de posiciones de previsión
+<a id="generating-a-budget-plan-from-forecast-positions" class="xliff"></a>
 
 La función **Generación del plan de presupuesto desde puestos de previsión** crea o actualiza planes de presupuesto de modo que tengan los importes de presupuesto y recuentos de FTE de los puestos de previsión. Los importes presupuestarios del puesto de previsión se convierten en los importes de la línea del plan de presupuesto y se agregan para valores de la dimensión financiera y fecha de vigencia. El proceso de generación asigna la posición de previsión de origen a la línea del plan presupuestario. Para ver el puesto, puede agregar el puesto de previsión como una fila en el diseño del plan presupuestario o usar la consulta **Líneas del plan presupuestario**. Para omitir esta asignación, defina la opción a **Incluir puesto en la línea del plan presupuestario** en **No**. 
 
@@ -196,7 +213,8 @@ Para otros procesos de generación, hay tres opciones disponibles:
 -   **Sustituir el escenario del plan presupuestario existente**: eliminar todos los datos en el plan presupuestario de destino en el escenario seleccionado del plan presupuestario y crear nuevas líneas que tengan los datos del puesto de previsión.
 -   **Actualizar el escenario del plan presupuestario existente y anexar nuevos datos**: actualizar las líneas existentes en el plan de destino que coinciden con las líneas de origen y también agregar nuevas líneas para los nuevos datos. La conciliación se basa en la cuenta contable, la fecha, la clase de presupuesto y otros valores, como el puesto de previsión. Todas las líneas con un número de posición que coincida con el número de posición de origen se sustituyen por las nuevas líneas de origen.
 
-### <a name="selecting-forecast-positions"></a>Seleccionar puestos de previsión
+### Seleccionar puestos de previsión
+<a id="selecting-forecast-positions" class="xliff"></a>
 
 También puede agregar importes presupuestarios del puesto de previsión directamente a un plan de presupuesto. Use la función **Agregar puestos** encima de las líneas del plan de presupuesto para seleccionar los puestos de previsión que desea incluir. 
 
@@ -204,7 +222,8 @@ Las situaciones del plan de presupuesto que puede seleccionar como origen se lim
 
 Este proceso de selección actúa como la opción **Actualizar la situación existente del plan de presupuest y agregar los nuevos datos** para un proceso de generación. Todas las líneas del plan existente de presupuesto donde se va a agregar el puesto de previsión se eliminarán y se sustituirán por nuevas líneas que se basan en el estado actual del puesto de previsión.
 
-#### <a name="date-options"></a>Opciones de fecha
+#### Opciones de fecha
+<a id="date-options" class="xliff"></a>
 
 Tanto para el proceso de generación como para el proceso de selección, la fecha inicial de la línea del elemento de coste presupuestario determina la fecha de vigencia de la línea correspondiente del plan de presupuesto. El campo **Método de asignación** de la página de configuración del elemento de coste presupuestario especifica el método de asignación:
 
@@ -214,7 +233,8 @@ Tanto para el proceso de generación como para el proceso de selección, la fech
 -   **Semanal** la lógica es similar a la lógica de los métodos **Mensual** y **Trimestral**. El importe presupuestario se divide uniformemente por el número de semanas en el intervalo de fechas para producir un importe semanal normal que se asigne el primer día de cada semana. Si el primer período es una semana incompleta, el importe para esa semana se descompone en factores por el número de días que el coste estará activo en esa semana, y el resultado se asigna a la fecha inicial. El importe de la última semana es la diferencia entre el importe total del presupuesto y la suma del resto de las semanas. Por lo tanto, el redondeo puede afectar al importe de la última semana.
 -   **Quincenal**: este método es igual que el **Semanal**, pero los cálculos se realizan para períodos de dos semanas.
 
-#### <a name="changing-budget-plan-lines-that-have-forecast-positions"></a>Modificar línas de planes presupuestarios que tienen puestos de previsión
+#### Modificar línas de planes presupuestarios que tienen puestos de previsión
+<a id="changing-budget-plan-lines-that-have-forecast-positions" class="xliff"></a>
 
 Las líneas del plan de presupuesto muestran el origen de los importes de presupuesto (el número del puesto de previsión) pero no están vinculados. Por lo tanto, las modificaciones al puesto de previsión no se muestran en la línea del plan de presupuesto, y las modificaciones a la línea del plan de presupuesto se muestran en el puesto de previsión. Si cambia un puesto de previsión y desea que las actualizaciones se incluyan en un plan de presupuesto, debe incorporar el puesto de previsión en el plan de nuevo. Sin embargo, recuerde que este proceso elimina todas las líneas que se asignan al puesto de previsión. Por tanto, se eliminan los cambios realizados a estas líneas. 
 

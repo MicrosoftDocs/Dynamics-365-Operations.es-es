@@ -1,47 +1,52 @@
 ---
 title: "Configurar la gestión de gastos"
-description: "Este artículo describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar Gestión de gastos en Microsoft Dynamics AX. En el área Gestión de gastos, puede almacenar información sobre los métodos de pago, los pedidos de viaje, los informes de gastos y las directivas, entre otros elementos."
-author: kfend
+description: "Este artículo describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar Gestión de gastos en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. En el área Gestión de gastos, puede almacenar información sobre los métodos de pago, los pedidos de viaje, los informes de gastos y las directivas, entre otros elementos."
+author: KimANelson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23001
 ms.assetid: aa3fd14d-7e94-4603-985f-ca26d6f860ea
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 62bef78c143f7ad83e78982dbecb1c9e4542187d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: edd3d8ca760c1453ae7cf8d5ff2fdfdedbb022c4
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="configure-expense-management"></a>Configurar la gestión de gastos
+# Configurar la gestión de gastos
+<a id="configure-expense-management" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar Gestión de gastos en Microsoft Dynamics AX. En el área Gestión de gastos, puede almacenar información sobre los métodos de pago, los pedidos de viaje, los informes de gastos y las directivas, entre otros elementos. 
+Este artículo describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar Gestión de gastos en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. En el área Gestión de gastos, puede almacenar información sobre los métodos de pago, los pedidos de viaje, los informes de gastos y las directivas, entre otros elementos. 
 
 Dado que muchas de las decisiones que realiza al planificar su configuración para la gestión de gastos se basan en la jerarquía y la estructura financiera de su organización, debe hacer referencia a los documentos de planificación para esas áreas.
 
-## <a name="intercompany-expenses"></a>Gastos de empresas vinculadas
+## Gastos de empresas vinculadas
+<a id="intercompany-expenses" class="xliff"></a>
 Al habilitar gastos de empresas vinculadas, permite a las entidades jurídicas y a los empleados incurrir en gastos en nombre de, y realizar el cobro de, otra entidad jurídica dentro de su organización. Por ejemplo, un empleado de la entidad jurídica A completa un proyecto para la entidad jurídica B. Si se habilitan los gastos de empresas vinculadas, el empleado puede entonces archivar una hoja de horas para, y que además le pague, la entidad jurídica B. Si su organización no tiene varias entidades jurídicas, no necesitará habilitar los gastos de empresas vinculadas. **Decisión:** ¿Desea habilitar gastos de empresas vinculadas?
 
-## <a name="financial-management"></a>Administración financiera
+## Administración financiera
+<a id="financial-management" class="xliff"></a>
 La gestión de gastos se integra totalmente con la administración financiera de la organización. Gran parte de la configuración de la gestión de gastos se basará en las decisiones que haya realizado sobre las finanzas de su organización. Las siguientes secciones describen las distintas áreas que requieren planificación y decisiones basadas en la orientación y las decisiones financieras de su organización del equipo de dirección.
 
-### <a name="per-diems"></a>Dietas
+### Dietas
+<a id="per-diems" class="xliff"></a>
 
 Debe definir las dietas de empleado que ofrece su organización. Dado que las dietas se suelen usar para satisfacer gastos como comidas, alojamiento y otros gastos incidentales, puede crear reglas para las retribuciones de dietas para que ofrece su organización. Las tarifas de dietas se pueden basar en la época del año, el destino del viaje o ambos. Al definir una regla de dietas, puede especificar la retención de un porcentaje de la tarifa de dietas si el trabajador recibe comidas o servicios complementarios. También puede definir niveles de tabla de dietas para establecer el mínimo o máximo de horas durante las que se puede aplicar la tarifa de dietas al viaje del trabajador. **Decisiones:**
 
@@ -62,7 +67,8 @@ Debe definir las dietas de empleado que ofrece su organización. Dado que las di
         -   hotel
         -   otros gastos
 
-### <a name="expense-management-journals-and-accounts"></a>Cuentas y diarios de gestión de gastos
+### Cuentas y diarios de gestión de gastos
+<a id="expense-management-journals-and-accounts" class="xliff"></a>
 
 La gestión de gastos requiere que use varios diarios y cuentas. Debe decidir, por ejemplo, si se usa la misma cuenta para anticipos y conflictos de tarjeta de crédito. **Decisiones:**
 
@@ -70,7 +76,8 @@ La gestión de gastos requiere que use varios diarios y cuentas. Debe decidir, p
 -   ¿Qué cuenta se usa para anticipos?
 -   ¿Se deben registrar los anticipos inmediatamente?
 
-### <a name="payment-methods"></a>Métodos de pago
+### Métodos de pago
+<a id="payment-methods" class="xliff"></a>
 
 Cuando permite a los empleados incurrir en gastos en nombre de su negocio, debe definir los métodos de pago que se permiten usar a los empleados. Por ejemplo, puede que permitir a los empleados usar efectivo o una tarjeta de crédito corporativa. También puede permitir a los empleados usar tarjetas de crédito personales y después reembolsar a los empleados. Debe tomar las siguientes decisiones para cada método de pago que habilite. **Decisiones:**
 
@@ -80,7 +87,8 @@ Cuando permite a los empleados incurrir en gastos en nombre de su negocio, debe 
 -   Si hay una cuenta de contrapartida, ¿cuál es la cuenta?
 -   Si el método de pago es una tarjeta de crédito, ¿debe usarse el método de pago solo con transacciones importadas?
 
-### <a name="expense-categories-and-shared-categories"></a>Categorías de gastos y categorías compartidas
+### Categorías de gastos y categorías compartidas
+<a id="expense-categories-and-shared-categories" class="xliff"></a>
 
 Cuando los empleados crean un informe de gastos, cada gasto que registran se debe asociar a una categoría de gastos. Las categorías de gastos se derivan de las categorías compartidas que se pueden compartir en las entidades jurídicas de la organización. Estas categorías también se pueden compartir en la gestión de proyectos y la contabilidad, en función de cómo se define la organización. En función de la definición de su organización y la orientación del equipo de implementación, determine si las categorías que se utilizan en la gestión de gastos deben usarse solo en gastos o si se deben compartir entre el proyecto y el gasto. Tenga en cuenta que estas categorías se pueden compartir entre el proyecto y los gastos o el proyecto y la producción, pero no entre el gasto y la producción. Debe tomar las siguientes decisiones para cada categoría de gastos. **Decisiones:**
 
@@ -118,7 +126,8 @@ Cuando los empleados crean un informe de gastos, cada gasto que registran se deb
 
  
 
-### <a name="taxes"></a>Impuestos
+### Impuestos
+<a id="taxes" class="xliff"></a>
 
 Para los impuestos relacionados con gastos, debe determinar qué se incluye o se permite en los informes de gastos. **Decisiones:**
 
@@ -127,7 +136,8 @@ Para los impuestos relacionados con gastos, debe determinar qué se incluye o se
 
 Tenga en cuenta que si, durante la planificación de la contabilidad general, ha decidido aplicar impuestos de EE.UU. y reglas de IVA de importación, lo que se realiza alternando el campo **Aplicar reglas de tributación de impuestos** en Sí, no podrá habilitar la devolución de impuestos en los gastos.
 
-## <a name="policies"></a>Directivas
+## Directivas
+<a id="policies" class="xliff"></a>
 Puede crear directivas de informe de gastos de modo que la organización pueda ahorrar tiempo y dinero cuando los empleados incurran en gastos en su nombre. Las directivas garantizan que los empleados permanecen dentro del presupuesto, proporcionan toda la información necesaria y gasten dinero solo según sea necesario. Debe tomar las siguientes decisiones para cada directiva de informe de gastos y cada directiva de aprobación de informe de gastos que cree. **Decisiones:**
 
 -   ¿Cuál es el nombre de la directiva?

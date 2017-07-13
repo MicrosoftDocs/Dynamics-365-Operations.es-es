@@ -1,15 +1,15 @@
 ---
-title: Preguntas frecuentes sobre el cliente de Dynamics 365 for Operations
-description: "Este artículo proporciona respuestas a preguntas frecuentes acerca del cliente de Microsoft Dynamics 365 for Operations."
+title: Preguntas frecuentes para clientes de Finance and Operations
+description: "Este artículo proporciona respuestas a preguntas frecuentes acerca del cliente de Microsoft Dynamics 365 for Finance and Operations."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12334
 ms.assetid: a9a57f0e-a67c-46b1-83c9-5d6350fb3b86
 ms.search.region: Global
@@ -17,44 +17,49 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7e8f09b965403298630460ccb6669fd82abb0e8c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b7618f5150b55542d26d10000a644a13a8651e82
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="dynamics-365-for-operations-client-faq"></a>Preguntas frecuentes sobre el cliente de Dynamics 365 for Operations
+# Preguntas frecuentes para clientes de Finance and Operations
+<a id="finance-and-operations-client-faq" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo proporciona respuestas a preguntas frecuentes acerca del cliente de Microsoft Dynamics 365 for Operations.
+Este artículo proporciona respuestas a preguntas frecuentes acerca del cliente de Microsoft Dynamics 365 for Finance and Operations.
 
-<a name="why-arent-symbols-loaded-when-i-use-dynamics-365-for-operations"></a>¿Por qué no se cargan los símbolos cuando uso Dynamics 365 for Operations?
+¿Por qué no se cargan los símbolos cuando uso Dynamics 365 for Finance and Operations?
+<a id="why-arent-symbols-loaded-when-i-use-finance-and-operations" class="xliff"></a>
 -----------------------------------------------------------------
 
 Las opciones de seguridad del explorador pueden impedir que los símbolos se carguen correctamente. Para resolver este problema, pruebe los siguientes pasos:
 
 -   Si tiene este problema en Internet Explorer, haga clic en **Herramientas** y después haga clic en **Opciones de Internet**.  En el cuadro de diálogo Opciones de Internet, en la pestaña **Privacidad**, haga clic en **Nivel personalizado** y asegúrese de que la opción **Descarga de fuentes** está activada.
--   De lo contrario, puede que tenga que agregar el sitio de Microsoft Dynamics 365 for Operations a la lista de sitios de confianza.
+-   De lo contrario, puede que tenga que agregar el sitio de Finance and Operations a la lista de sitios de confianza.
 
-## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>No veo la cinta de opciones de Dynamics AX 2012. ¿Puedo mantener las pestañas del Panel de acciones abiertas todo el tiempo?
+## No veo la cinta de opciones de Dynamics AX 2012. ¿Puedo mantener las pestañas del Panel de acciones abiertas todo el tiempo?
+<a id="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time" class="xliff"></a>
 Estamos planeando implementar esta característica pronto. Los usuarios podrán elegir entonces mantener las pestañas de los paneles de acciones abiertas todo el tiempo. De lo contrario, las pestañas se contraerán cuando no se usen, para lograr más espacio en la pantalla para la página.
 
-## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-rightclick"></a>¿Por qué a veces veo diferentes menús contextuales cuando hago clic con el botón secundario?
-Si hace clic con el botón secundario en un campo editable (o si se selecciona texto), se mostrará el menú contextual del explorador. Este menú le concede acceso a los comandos **Cortar**, **Copiar** y **Pegar**. No podemos integrar estos comandos en los menús contextuales de Dynamics 365 for Operations porque, por motivos de seguridad, los exploradores no nos permiten obtener acceso mediante programación al portapapeles del sistema.
+## ¿Por qué a veces veo diferentes menús contextuales cuando hago clic con el botón secundario?
+<a id="why-do-i-sometimes-see-different-shortcut-menus-when-i-rightclick" class="xliff"></a>
+Si hace clic con el botón secundario en un campo editable (o si se selecciona texto), se mostrará el menú contextual del explorador. Este menú le concede acceso a los comandos **Cortar**, **Copiar** y **Pegar**. No podemos integrar estos comandos en los menús contextuales de Finance and Operations porque, por motivos de seguridad, los exploradores no nos permiten obtener acceso mediante programación al portapapeles del sistema.
 
-Si hace clic con el botón secundario en una etiqueta de campo o el valor de un control de solo lectura, verá el menú contextual de Dynamics 365 for Operations.
+Si hace clic con el botón secundario en una etiqueta de campo o el valor de un control de solo lectura, verá el menú contextual de Finance and Operations.
 
-Para facilitar el acceso al teclado, planeamos implementar un método abreviado de teclado en el futuro que abra el menú contextual de Dynamics 365 for Operations.
+Para facilitar el acceso al teclado, planeamos implementar un método abreviado de teclado en el futuro que abra el menú contextual de Finance and Operations.
 
-## <a name="where-is-the-view-details-functionality-in-dynamics-365-for-operations"></a>¿Dónde se encuentra la funcionalidad Ver detalles en Dynamics 365 for Operations?
+## ¿Dónde se encuentra la funcionalidad Ver detalles en Finance and Operations?
+<a id="where-is-the-view-details-functionality-in-finance-and-operations" class="xliff"></a>
 La opción **Ver detalles** solo está disponible de dos formas diferentes:
 
 -   Si un control tiene capacidades **Ver detalles**, y si el control tiene un valor, ese valor se muestra como hipervínculo. Puede hacer clic en el hipervínculo para abrir una página que contiene detalles adicionales.
--   **Ver detalles** también es una opción en los menús contextuales de Dynamics 365 for Operations. Para obtener más información acerca de cuándo se muestran los menús contextuales de Dynamics 365 for Operations al hacer clic con el botón secundario, consulte la sección anterior.
+-   **Ver detalles** también es una opción en los menús contextuales de Finance and Operations. Para obtener más información acerca de cuándo se muestran los menús contextuales de Finance and Operations al hacer clic con el botón secundario, consulte la sección anterior.
 
 
 

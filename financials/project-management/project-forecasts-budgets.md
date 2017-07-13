@@ -3,37 +3,38 @@ title: Previsiones y presupuestos del proyecto
 description: 
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23501
 ms.assetid: 4e6d1384-19a2-4232-b3f3-d2590c218bd7
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7d0e9bebe67f6e028faf1237fa4fb392004a1204
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 835a92a8f95c7d75b02f5991cc2528c6a209540a
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="project-forecasts-and-budgets"></a>Previsiones y presupuestos del proyecto
+# Previsiones y presupuestos del proyecto
+<a id="project-forecasts-and-budgets" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
 
 
-Microsoft Dynamics 365 for Operations proporciona dos formas de gestionar y controlar los proyectos: las previsiones y los presupuestos de proyecto. 
+Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition proporciona dos formas de gestionar y controlar los proyectos: las previsiones y los presupuestos de proyecto. 
 
 Puede usar la previsión si su organización tiene una perspectiva operativa y se centra en los ingresos y costes derivados de transacciones específicas. Puede usar la gestión presupuestaria si su organización se centra en mayor medida en los importes financieros. 
 
@@ -53,7 +54,8 @@ Cada método tiene sus propias ventajas. Debe considerar los siguientes puntos a
 | **Saturaciones de costes**         | Solo puede permitir o rechazar la entrada de las transacciones que provocarían una saturación de costes.                                                                                                                                                                | La gestión presupuestaria de proyectos proporciona a los usuarios opciones de control adicionales. Puede permitir las advertencias y las saturaciones.                                                                   |
 | **Control**               | El control de previsión se realiza mediante la reducción de previsión. Los importes reales se restan de los saldos de transacciones de previsión sin trazas de auditoría. Esto puede dificultar el seguimiento de la ubicación en que se realizaron las transacciones reales.                   | En el control presupuestario de proyectos, los importes reales se restan de los importes del presupuesto restante. Esto permite realizar trazas de auditoría más claras.                                   |
 
-## <a name="project-forecasts"></a>Previsiones de proyectos
+## Previsiones de proyectos
+<a id="project-forecasts" class="xliff"></a>
 Si usa la previsión de proyecto, puede especificar transacciones de previsión para cada tipo de transacción en los formularios de previsión. En las transacciones de previsión, puede usar cualquier atributo disponible para una transacción real, por ejemplo, rentabilidad de línea, atributos de línea, trabajadores o descripciones. También puede proyectar el tiempo que transcurrirá desde que se produzca un coste hasta que se facture al cliente. 
 
 Las transacciones de previsión de proyecto se basan en unidades e importes. 
@@ -70,7 +72,8 @@ Puede revisar, copiar, eliminar o transferir las previsiones de proyecto a un pr
 -   **Copiar o eliminar**: al copiar transacciones de previsión, se copian las líneas de transacción de un modelo de previsión a otro. Al eliminar una previsión, se eliminan las transacciones de previsión del modelo de previsión. Para limitar las transacciones de previsión que se copian o eliminan, seleccione fechas y tipos de transacción específicos. Esto le permite copiar o eliminar solo partes concretas de una previsión.
 -   **Transferir**: al transferir una previsión de proyecto a un presupuesto de contabilidad general, se transfieren las transacciones de previsión de un modelo de previsión a un presupuesto de contabilidad general. Puede sobrescribir cualquier transacción transferida previamente al presupuesto de contabilidad general al que transfiere la previsión de proyecto.
 
-## <a name="project-budgets"></a>Presupuestos de proyecto
+## Presupuestos de proyecto
+<a id="project-budgets" class="xliff"></a>
 El método de presupuesto de proyecto es más sencillo que la previsión, aunque no se integra con los modelos de previsión. Usa un formulario de una sola entrada para los detalles de presupuesto originales y las revisiones, y solo permite las proyecciones basadas en importe, categoría o actividad. 
 
 Con el presupuesto de proyecto, es necesario enviar todos los presupuestos y revisiones originales al flujo de trabajo del proyecto para su aprobación. Los flujos de trabajo proporcionan un mayor control sobre el proceso y crean un registro de historial de cambios. 
@@ -79,7 +82,8 @@ El presupuesto de proyecto es similar al presupuesto de contabilidad general, pe
 
 Los presupuestos de proyecto se asocian automáticamente a dos modelos de previsión: uno para el presupuesto original y otro para el presupuesto restante. Por lo tanto, los informes basados en modelos de previsión puedan usar los datos presupuestarios. Al comprometer un presupuesto de proyecto, el sistema crea transacciones de previsión basadas en los modelos asociados que se usan para fines de informes y control.
 
-## <a name="forecast-models"></a>Modelos de previsión
+## Modelos de previsión
+<a id="forecast-models" class="xliff"></a>
 Los modelos de previsión tienen una jerarquía de una sola capa. Esto significa que una previsión de proyecto se debe asociar a un modelo de previsión.
 
 Si utiliza la previsión de proyecto, puede identificar los modelos como submodelos. A continuación, puede crear previsiones por departamentos, períodos de tiempo o regiones. Por ejemplo, podría crear un modelo de previsión para un año y, a continuación, crear submodelos para las previsiones regionales del noreste, el sureste, el noroeste y el suroeste que envían los encargados regionales. Mediante la selección de diferentes opciones en los informes disponibles, puede visualizar la información por previsión total o por submodelos.

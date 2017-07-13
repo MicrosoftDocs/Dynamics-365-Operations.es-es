@@ -3,13 +3,13 @@ title: "Nuevas guías de tareas (febrero de 2016)"
 description: "Este tema enumera las guías de tareas que estaban publicadas en las bibliotecas de Microsoft BPM en febrero de 2016.  Las bibliotecas que se publicaron incluyen la biblioteca unificada APQC (febrero de 2016) para Microsoft Dynamics 365 for Operations y la biblioteca de introducción (febrero de 2016)."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 102083
 ms.assetid: f50585e8-4ef6-4cd8-90d8-c8d6a65b22b8
 ms.search.region: global
@@ -17,27 +17,30 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3c99753f22e537fdc026342dce12389fb9acc83a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cdad1d6c2466b47b07133a5335866ef6881609ca
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="new-task-guides-february-2016"></a>Nuevas guías de tareas (febrero de 2016)
+# Nuevas guías de tareas (febrero de 2016)
+<a id="new-task-guides-february-2016" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este tema enumera las guías de tareas que estaban publicadas en las bibliotecas de Microsoft BPM en febrero de 2016.  Las bibliotecas que se publicaron incluyen la biblioteca unificada APQC (febrero de 2016) para Microsoft Dynamics 365 for Operations y la biblioteca de introducción (febrero de 2016).
+Este tema enumera las guías de tareas que estaban publicadas en las bibliotecas de Microsoft BPM en febrero de 2016.  Las bibliotecas que se publicaron incluyen la biblioteca unificada APQC (febrero de 2016) para Microsoft Dynamics AX y la biblioteca de introducción (febrero de 2016).
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Guías de tareas de la biblioteca unificada APQC (febrero de 2016) para Microsoft Dynamics 365 for Operations
+Guías de tareas de la biblioteca unificada APQC (febrero de 2016) para Microsoft Dynamics AX
+<a id="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax" class="xliff"></a>
 ---------------------------------------------------------------------------------
 
-La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que están pensadas para usarse para obtener ayuda con la versión de Dynamics 365 for Operations 7.0.0. Si necesita versiones localizadas de estas Guías de tareas, están disponibles en la biblioteca unificada APQC (mayo de 2016) para Microsoft Dynamics 365 for Operations. Para obtener más información acerca de cómo conectar el sistema de Ayuda a una biblioteca de Guía de tareas, consulte [Introducción a la ayuda](help-overview.md).
+La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que están pensadas para usarse para obtener ayuda con la versión de Dynamics AX 7.0.0. Si necesita versiones localizadas de estas guías de tareas, están disponibles en la biblioteca unificada APQC (mayo de 2016) para Microsoft Dynamics AX. Para obtener más información acerca de cómo conectar el sistema de Ayuda a una biblioteca de Guía de tareas, consulte [Introducción a la ayuda](help-overview.md).
 
-### <a name="accounts-payable"></a>Proveedores
+### Proveedores
+<a id="accounts-payable" class="xliff"></a>
 
 |                                                           |                    |
 |-----------------------------------------------------------|--------------------|
@@ -52,7 +55,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="accounts-receivable"></a>Clientes
+### Clientes
+<a id="accounts-receivable" class="xliff"></a>
 
 |                                                             |                    |
 |-------------------------------------------------------------|--------------------|
@@ -73,7 +77,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="cash-and-bank-management"></a>Gestión de efectivo y bancos
+### Gestión de efectivo y bancos
+<a id="cash-and-bank-management" class="xliff"></a>
 
 |                                                                      |                    |
 |----------------------------------------------------------------------|--------------------|
@@ -101,7 +106,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="compliance"></a>Cumplimiento
+### Cumplimiento
+<a id="compliance" class="xliff"></a>
 
 |                                            |                    |
 |--------------------------------------------|--------------------|
@@ -110,7 +116,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="cost-management"></a>Gestión de costes
+### Gestión de costes
+<a id="cost-management" class="xliff"></a>
 
 |                                                                     |                    |
 |---------------------------------------------------------------------|--------------------|
@@ -123,7 +130,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="countryregion-functionality"></a>Funcionalidad por país/región
+### Funcionalidad por país/región
+<a id="countryregion-functionality" class="xliff"></a>
 
 |                                                                                                        |                                 |
 |--------------------------------------------------------------------------------------------------------|---------------------------------|
@@ -265,7 +273,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="develop-vision-and-strategy"></a>Desarrollar visión y estrategia
+### Desarrollar visión y estrategia
+<a id="develop-vision-and-strategy" class="xliff"></a>
 
 |                                                                                          |                    |
 |------------------------------------------------------------------------------------------|--------------------|
@@ -278,7 +287,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="electronic-reporting"></a>Informes electrónicos
+### Informes electrónicos
+<a id="electronic-reporting" class="xliff"></a>
 
 |                                                 |                    |
 |-------------------------------------------------|--------------------|
@@ -291,7 +301,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="expense-management"></a>Gestión de gastos
+### Gestión de gastos
+<a id="expense-management" class="xliff"></a>
 
 |                              |                    |
 |------------------------------|--------------------|
@@ -300,7 +311,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="fixed-assets"></a>Activos fijos
+### Activos fijos
+<a id="fixed-assets" class="xliff"></a>
 
 |                                                           |                    |
 |-----------------------------------------------------------|--------------------|
@@ -323,7 +335,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="general-ledger"></a>Contabilidad general
+### Contabilidad general
+<a id="general-ledger" class="xliff"></a>
 
 |                                                                   |                    |
 |-------------------------------------------------------------------|--------------------|
@@ -356,7 +369,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="human-capital-management"></a>Gestión del capital humano
+### Gestión del capital humano
+<a id="human-capital-management" class="xliff"></a>
 
 |                                                                  |                    |
 |------------------------------------------------------------------|--------------------|
@@ -400,7 +414,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="inventory-management"></a>Gestión de inventarios
+### Gestión de inventarios
+<a id="inventory-management" class="xliff"></a>
 
 |                                                                                   |                    |
 |-----------------------------------------------------------------------------------|--------------------|
@@ -424,7 +439,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="manufacturing"></a>Fabricación
+### Fabricación
+<a id="manufacturing" class="xliff"></a>
 
 |                                                               |                    |
 |---------------------------------------------------------------|--------------------|
@@ -476,7 +492,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="master-planning"></a>Planificación maestra
+### Planificación maestra
+<a id="master-planning" class="xliff"></a>
 
 |                                                   |                    |
 |---------------------------------------------------|--------------------|
@@ -489,7 +506,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="organization-administration"></a>Administración de la organización
+### Administración de la organización
+<a id="organization-administration" class="xliff"></a>
 
 |                                           |                    |
 |-------------------------------------------|--------------------|
@@ -503,7 +521,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="planning"></a>Planificación
+### Planificación
+<a id="planning" class="xliff"></a>
 
 |                        |                    |
 |------------------------|--------------------|
@@ -512,7 +531,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="procurement-and-sourcing"></a>Adquisición y abastecimiento
+### Adquisición y abastecimiento
+<a id="procurement-and-sourcing" class="xliff"></a>
 
 |                                                                  |                    |
 |------------------------------------------------------------------|--------------------|
@@ -527,7 +547,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="product-information-and-configuration"></a>Configuración e Información del producto
+### Configuración e Información del producto
+<a id="product-information-and-configuration" class="xliff"></a>
 
 |                                                       |                    |
 |-------------------------------------------------------|--------------------|
@@ -553,7 +574,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="public-sector"></a>Sector público
+### Sector público
+<a id="public-sector" class="xliff"></a>
 
 |                                                                                         |                    |
 |-----------------------------------------------------------------------------------------|--------------------|
@@ -579,7 +601,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="retail-and-commerce"></a>Retail y Commerce
+### Retail y Commerce
+<a id="retail-and-commerce" class="xliff"></a>
 
 |                                                                                           |                    |
 |-------------------------------------------------------------------------------------------|--------------------|
@@ -621,7 +644,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="sales"></a>Ventas
+### Ventas
+<a id="sales" class="xliff"></a>
 
 |                                            |                    |
 |--------------------------------------------|--------------------|
@@ -644,7 +668,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="sales-tax"></a>Impuestos
+### Impuestos
+<a id="sales-tax" class="xliff"></a>
 
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
@@ -663,7 +688,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="security"></a>Seguridad
+### Seguridad
+<a id="security" class="xliff"></a>
 
 |                                                         |                    |
 |---------------------------------------------------------|--------------------|
@@ -674,7 +700,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-### <a name="warehouse-and-transportation"></a>Almacén y transporte
+### Almacén y transporte
+<a id="warehouse-and-transportation" class="xliff"></a>
 
 |                                                                                   |                    |
 |-----------------------------------------------------------------------------------|--------------------|
@@ -699,7 +726,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-## <a name="task-guides-in-the-february-2016-getting-started-library"></a>Guías de tareas en la biblioteca de introducción (febrero de 2016)
+## Guías de tareas en la biblioteca de introducción (febrero de 2016)
+<a id="task-guides-in-the-february-2016-getting-started-library" class="xliff"></a>
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | **Línea de BPM**                                       | **País o región** |
@@ -719,7 +747,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las Guías de tareas que
 
  
 
-<a name="see-also"></a>Consulte también
+Consulte también
+<a id="see-also" class="xliff"></a>
 --------
 
 [Guías de tareas nuevas o actualizadas (mayo de 2016)](new-updated-task-guides-available-may-2016.md)

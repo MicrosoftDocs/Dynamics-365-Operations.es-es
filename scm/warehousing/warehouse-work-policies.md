@@ -1,16 +1,16 @@
 ---
 title: "Directivas de trabajo de almacén"
-description: "Se presenta una nueva directiva de trabajo del almacén en Microsoft Dynamics AX 7.0.1 (actualización de mayo de 2016). Esta directiva de trabajo controla si el trabajo del almacén se ha creado para los procesos de almacén en la fabricación."
+description: "Control de las directivas de trabajo de almacén si el trabajo del almacén se crea mediante procesos de almacén en la fabricación, en función de tipo de pedido del trabajo, la ubicación de inventario y el producto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSWorkPolicy
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 196561
 ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
@@ -19,29 +19,31 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6c9cdf361e4d4543e6aca962e9ec712428bc76e6
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 7612003bc20f91f173629893750478b034cff27b
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="warehouse-work-policies"></a>Directivas de trabajo de almacén
+# Directivas de trabajo de almacén
+<a id="warehouse-work-policies" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Se presenta una nueva directiva de trabajo del almacén en Microsoft Dynamics AX 7.0.1 (actualización de mayo de 2016). Esta directiva de trabajo controla si el trabajo del almacén se ha creado para los procesos de almacén en la fabricación.
+El control de las directivas de trabajo de almacén en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition si el trabajo del almacén se crea mediante procesos de almacén en la fabricación, en función de tipo de pedido del trabajo, la ubicación de inventario y el producto.
 
 Esta directiva de trabajo controla si el trabajo del almacén se ha creado para los procesos de almacén en la fabricación. Puede configurar la directiva de trabajo mediante una combinación de **tipos de pedido de trabajo**, la **ubicación del inventario**, y un **producto**. Por ejemplo, se ha informado a la ubicación de salida 001 que el producto L0101 ha finalizado. El producto terminado se consume más adelante en otro pedido de producción en la ubicación de salida 001. En este caso, puede configurar una directiva de trabajo para evitar que el trabajo para productos terminados se deseche por haberse creado cuando se informa a la ubicación de salida 001 que el producto L0101 ha finalizado. La directiva de trabajo es una entidad individual que puede ser descrita mediante la siguiente información:
 
 -   **Nombre de la directiva de trabajo**(el identificador único de la directiva de trabajo)
--   **Tipos de pedido de trabajo**y**Método de creación de trabajo**
+-   **Tipos de pedido de trabajo** y **Método de creación de trabajo**
 -   **Ubicaciones del inventario**
 -   **Productos**
 
-## <a name="work-order-types"></a>Tipos de pedido de trabajo
+## Tipos de pedido de trabajo
+<a id="work-order-types" class="xliff"></a>
 Puede seleccionar los siguientes tipos de pedido de trabajo:
 
 -   Ubicación de bienes terminados
@@ -50,13 +52,16 @@ Puede seleccionar los siguientes tipos de pedido de trabajo:
 
 El campo de **Método de creación de trabajo** tiene el valor **Nunca**. Este valor indica que la directiva de trabajo evitará que se genere el trabajo del almacén para el tipo de pedido de trabajo seleccionado.
 
-## <a name="inventory-locations"></a>Ubicaciones del inventario
+## Ubicaciones del inventario
+<a id="inventory-locations" class="xliff"></a>
 Puede seleccionar una ubicación para la que se aplique la directiva de trabajo. Si no se asocia ninguna ubicación a una directiva de trabajo, la directiva de trabajo no se aplica a ningún proceso. En la página **Ubicaciones**, puede activar o cancelar la selección de la directiva de trabajo para una ubicación concreta.
 
-## <a name="products"></a>Productos
+## Productos
+<a id="products" class="xliff"></a>
 Puede seleccionar un producto para el que se aplique la directiva de trabajo. Puede aplicar la directiva de trabajo a todos los productos o productos seleccionados.
 
-## <a name="example"></a>Ejemplo
+## Ejemplo
+<a id="example" class="xliff"></a>
 En el siguiente ejemplo, hay dos pedidos de producción, PRD-001 y PRD-00*2*. El pedido de producción PRD-001 tiene una operación llamada **Montaje**, en la que el producto SC1 se notifica a la ubicación O1 como terminado. El pedido de producción PRD-002 tiene una operación llamada **Pintura** y consume el producto SC1 de la ubicación O1. El pedido de producción PRD-002 también consume la materia prima RM1 de la ubicación O1. RM1 se almacena en la ubicación del almacén BULK-001 y el trabajo del almacén lo escogerá como recogida de materia prima a la ubicación O1. El trabajo de recogida se genera cuando se lanza la producción PRD-002. 
 
 [![Directivas de trabajo de almacén](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
@@ -79,7 +84,8 @@ A continuación se muestra un ejemplo de una directiva de trabajo que puede conf
 
 Los siguientes procedimientos proporcionan instrucciones detalladas sobre cómo configurar la directiva de trabajo del almacén para esta situación. También describe un ejemplo de la configuración que muestra cómo informar de un pedido de producción que se ha completado a una ubicación no controlada por matrícula.
 
-## <a name="set-up-a-warehouse-work-policy"></a>Configurar una directiva de trabajo de almacén
+## Configurar una directiva de trabajo de almacén
+<a id="set-up-a-warehouse-work-policy" class="xliff"></a>
 Los procesos de almacén no siempre incluyen trabajo de almacén. Al definir una directiva de trabajo, puede evitar la creación de trabajo para picking de materia prima y ubicación de bienes terminados para un conjunto de productos en ubicaciones específicas. Para crear este procedimiento se utiliza la empresa de datos de prueba USMF. 
 
 PASOS (21)
@@ -108,7 +114,8 @@ PASOS (21)
 | 20. | En el campo Número de artículo, especifique o seleccione "L0101".                         |
 | 21. | Haga clic en Guardar.                                                                |
 
-## <a name="report-a-production-order-as-finished-to-a-location-that-isnt-license-platecontrolled"></a>Informar de una orden de producción como terminada a una ubicación no controlada por matrícula.
+## Informar de una orden de producción como terminada a una ubicación no controlada por matrícula.
+<a id="report-a-production-order-as-finished-to-a-location-that-isnt-license-platecontrolled" class="xliff"></a>
 Este procedimiento muestra un ejemplo de notificación de producto finalizado a una ubicación no controlada por matrícula. Una directiva aplicable de trabajo es el requisito previo para esta tarea. El procedimiento anterior muestra la configuración de la directiva de trabajo. 
 
 PASOS (25)

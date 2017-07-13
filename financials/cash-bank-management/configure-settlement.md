@@ -3,7 +3,7 @@ title: "Configurar liquidación"
 description: "Cómo y cuándo se liquidan las transacciones puede ser temas complejos, lo que es fundamental que entienda y defina correctamente los parámetros para satisfacer sus requisitos empresariales. Este artículo describe los parámetros que se usan para la liquidación tanto para Proveedores como Clientes."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
@@ -19,22 +19,23 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d3015004371aa041a7ee545df9a4c7f0e48ca31
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 059513de66827aa3a839b9eb06973ec4c1549f73
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="configure-settlement"></a>Configurar liquidación
+# Configurar liquidación
+<a id="configure-settlement" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
 Cómo y cuándo se liquidan las transacciones puede ser temas complejos, lo que es fundamental que entienda y defina correctamente los parámetros para satisfacer sus requisitos empresariales. Este artículo describe los parámetros que se usan para la liquidación tanto para Proveedores como Clientes. 
 
-Los siguientes parámetros afectan al procesamiento de las liquidaciones en Microsoft Dynamics 365 for Operations. La liquidación es el proceso de liquidar una factura con un pago o una nota de abono. Estos parámetros se encuentran en el área **Liquidación** de las páginas **Parámetros de clientes** y **Parámetros de proveedores**.
+Los siguientes parámetros afectan al procesamiento de las liquidaciones en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. La liquidación es el proceso de liquidar una factura con un pago o una nota de abono. Estos parámetros se encuentran en el área **Liquidación** de las páginas **Parámetros de clientes** y **Parámetros de proveedores**.
 
 -   **Liquidación automática**: establezca esta opción en **Sí** si se debe liquidar una transacción automáticamente con otras transacciones abiertas cuando se registre. Si esta opción se establece en **No**, los usuarios pueden liquidar transacciones manualmente al especificar pagos, o más adelante, mediante la página **Liquidar transacciones**.
 -   **Administración del descuento por pronto pago**: especifique cómo [se controla un descuento por pronto pago cuando se sobrepaga una factura](cash-discount-handling-overpayments.md). Para un sobrepago, el descuento por pronto pago se puede reducir, se puede tratar como diferencia o puede quedar a cuenta para el proveedor o el cliente.
