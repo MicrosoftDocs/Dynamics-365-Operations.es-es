@@ -3,13 +3,13 @@ title: "Configuración de una tarea manual en un flujo de trabajo"
 description: "Este tema explica cómo configurar las propiedades para una tarea manual."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
@@ -17,15 +17,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5d2a69066a1245d5b86d27d01db4b67d4a490488
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 242abaae1aa17578ba8eab4b2664794ff2c2caec
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="configure-a-manual-task-in-a-workflow"></a>Configuración de una tarea manual en un flujo de trabajo
+# Configuración de una tarea manual en un flujo de trabajo
+<a id="configure-a-manual-task-in-a-workflow" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
@@ -34,13 +35,15 @@ Este tema explica cómo configurar las propiedades para una tarea manual.
 
 Para configurar una tarea manual en el editor de flujo de trabajo, haga clic con el botón secundario en la tarea y, a continuación, haga clic en **Propiedades** para abrir la página **Propiedades**. A continuación, use los siguientes procedimientos para configurar las propiedades de la tarea manual.
 
-## <a name="name-the-task"></a>Asignación de un nombre a la tarea
+## Asignación de un nombre a la tarea
+<a id="name-the-task" class="xliff"></a>
 Siga estos pasos para asignar un nombre a la tarea manual.
 
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
 2.  En el campo **Nombre**, especifique un nombre único para la tarea.
 
-## <a name="enter-a-subject-line-and-instructions"></a>Especificación de una línea de asunto e instrucciones
+## Especificación de una línea de asunto e instrucciones
+<a id="enter-a-subject-line-and-instructions" class="xliff"></a>
 Debe proporcionar una línea de asunto e instrucciones a los usuarios que están asignados a la tarea. Por ejemplo, si está configurando una tarea para solicitudes de compra, el usuario asignado a la tarea ve la línea de asunto y las instrucciones en la página **Solicitudes de compra**. La línea de asunto se muestra en una barra de mensajes de la página. A continuación, el usuario puede hacer clic en el icono de dicha barra para ver las instrucciones. Siga estos pasos para escribir una línea de asunto e instrucciones.
 
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
@@ -74,7 +77,8 @@ Debe proporcionar una línea de asunto e instrucciones a los usuarios que están
     5.  Para personalizar el texto, puede insertar marcadores de posición como se describe en el paso 6.
     6.  Haga clic en **Cerrar**.
 
-## <a name="assign-the-task"></a>Asignación de la tarea
+## Asignación de la tarea
+<a id="assign-the-task" class="xliff"></a>
 Siga estos pasos para especificar a quién se debe asignar la tarea manual.
 
 1.  En el panel izquierdo, haga clic en **Asignación**.
@@ -126,10 +130,10 @@ Siga estos pasos para especificar a quién se debe asignar la tarea manual.
     </tr>
     <tr class="even">
     <td>Usuario</td>
-    <td>Usuarios específicos de Microsoft Dynamics 365 for Operations</td>
+    <td>Usuarios específicos de Microsoft Dynamics 365 for Finance and Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea asignar la tarea y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Finance and Operations. Seleccione aquellos a los que desea asignar la tarea y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -160,7 +164,8 @@ Siga estos pasos para especificar a quién se debe asignar la tarea manual.
 
     Si el usuario no completa la tarea en el tiempo asignado, la tarea se considera vencida. Las tareas vencidas se pueden remitir a una instancia superior en función de las opciones que se seleccionen en el área **Remisión a una instancia superior** de la página.
 
-## <a name="specify-what-happens-when-the-task-is-overdue"></a>Especificación de la acción que se realiza cuando vence la tarea
+## Especificación de la acción que se realiza cuando vence la tarea
+<a id="specify-what-happens-when-the-task-is-overdue" class="xliff"></a>
 Si un usuario no completa la tarea manual en el tiempo asignado, la tarea se considera vencida. Las tareas vencidas se pueden remitir a una instancia superior o asignar a otro usuario de forma automática. Si la tarea ha vencido, siga estos pasos para remitirla a una instancia superior.
 
 1.  En el panel izquierdo, haga clic en **Remisión a una instancia superior**.
@@ -212,10 +217,10 @@ Si un usuario no completa la tarea manual en el tiempo asignado, la tarea se con
     </tr>
     <tr class="odd">
     <td>Usuario</td>
-    <td>Usuarios específicos de Dynamics 365 for Operations</td>
+    <td>Usuarios específicos de Finance and Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea remitir la tarea para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Finance and Operations. Seleccione aquellos a los que desea remitir la tarea para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -231,7 +236,8 @@ Si un usuario no completa la tarea manual en el tiempo asignado, la tarea se con
 5.  Repita los pasos 3 a 4 por cada usuario que se debe agregar a la ruta de remisión a una instancia superior. El orden de los usuarios se puede modificar.
 6.  Si los usuarios de la ruta de remisión a una instancia superior no completan la tarea en el tiempo asignado, el sistema realiza una acción en la tarea. Para especificar la acción que el sistema realiza, seleccione la fila **Acción** y, a continuación, en la pestaña **Finalizar acción**, seleccione una acción.
 
-## <a name="specify-when-the-system-automatically-acts-on-the-task"></a>Especificación de las condiciones en que el sistema realiza una acción automática en la tarea
+## Especificación de las condiciones en que el sistema realiza una acción automática en la tarea
+<a id="specify-when-the-system-automatically-acts-on-the-task" class="xliff"></a>
 Puede configurar el sistema para que realice alguna acción en la tarea manual si se cumplen ciertas condiciones. Por ejemplo, supongamos que existe una tarea que requiere que un miembro del departamento Informes de gastos revise los recibos que se adjuntan a un informe de gastos. De acuerdo con las directivas de la empresa, esta tarea se debe realizar si el importe total del informe de gastos es superior a 100 USD. Dada esta situación, puede configurar el sistema para que el estado de la tarea cambie a **Completo** si el importe total es menor que 100. Siga estos pasos para especificar cuándo el sistema realiza una acción en la tarea manual.
 
 1.  En el panel izquierdo, haga clic en **Acciones automáticas**.
@@ -247,7 +253,8 @@ Puede configurar el sistema para que realice alguna acción en la tarea manual s
 
 7.  En la lista **Acción de finalización automática**, seleccione la acción que el sistema debe realizar en la tarea.
 
-## <a name="specify-when-notifications-are-sent"></a>Especificación del momento en que se envían notificaciones
+## Especificación del momento en que se envían notificaciones
+<a id="specify-when-notifications-are-sent" class="xliff"></a>
 Puede enviar notificaciones cuando una tarea manual se ha delegado, completado, rechazado, remitido a una instancia superior o cuando se ha solicitado un cambio. Siga estos pasos para especificar cuándo se deben enviar notificaciones y a quiénes se deben enviar.
 
 1.  En el panel izquierdo, haga clic en **Notificaciones**.
@@ -306,10 +313,10 @@ Puede enviar notificaciones cuando una tarea manual se ha delegado, completado, 
     </tr>
     <tr class="odd">
     <td>Usuario</td>
-    <td>Usuarios específicos de Dynamics 365 for Operations</td>
+    <td>Usuarios específicos de Finance and Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea enviar notificaciones y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Finance and Operations. Seleccione aquellos a los que desea enviar notificaciones y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -317,7 +324,8 @@ Puede enviar notificaciones cuando una tarea manual se ha delegado, completado, 
 
 8.  Repita los pasos 3 a 7 por cada uno de los eventos que haya seleccionado en el paso 2.
 
-## <a name="set-a-time-limit"></a>Definición de un límite de tiempo
+## Definición de un límite de tiempo
+<a id="set-a-time-limit" class="xliff"></a>
 Siga estos pasos si la tarea manual se debe completar en un plazo específico. **Nota:** Las opciones que seleccione en este procedimiento anulan las opciones elegidas en las áreas **Asignación** y **Remisión a una instancia superior** de la página.
 
 1.  En el panel izquiero, haga clic en **Configuración avanzada**.
@@ -331,7 +339,8 @@ Siga estos pasos si la tarea manual se debe completar en un plazo específico. *
 
 4.  Si se supera el límite de tiempo, el sistema realiza una acción en la tarea. En la lista **Acción**, seleccione la acción que debe realizar el sistema.
 
-## <a name="specify-which-actions-are-available-to-the-user"></a>Especificación de las acciones de las que dispone el usuario
+## Especificación de las acciones de las que dispone el usuario
+<a id="specify-which-actions-are-available-to-the-user" class="xliff"></a>
 Cuando la tarea manual se asigna a un usuario, este debe realizar alguna acción en ella. Siga estos pasos para especificar las acciones que el usuario puede realizar en la tarea. **Nota**: las acciones disponibles variarán en función del diseño de la tarea.
 
 1.  En el panel izquiero, haga clic en **Configuración avanzada**.

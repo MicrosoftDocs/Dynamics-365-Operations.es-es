@@ -3,13 +3,13 @@ title: Configurar y generar archivos de pago positivo
 description: "Este artículo explica cómo configurar un pago positivo y generar archivos de pago positivo."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 88433
 ms.assetid: 73f3dcf6-040a-44ad-9512-7b3e0d17a571
 ms.search.region: Global
@@ -17,15 +17,16 @@ ms.author: abruer
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f82ed69aaaf4d3345ef4e74a338124465dcf2358
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fc4269fc8bf8319a2a2f4e3769f0ffb31d5ef79d
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="set-up-and-generate-positive-pay-files"></a>Configurar y generar archivos de pago positivo
+# Configurar y generar archivos de pago positivo
+<a id="set-up-and-generate-positive-pay-files" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
@@ -34,8 +35,9 @@ Este artículo explica cómo configurar un pago positivo y generar archivos de p
 
 Configure los pagos positivos para generar una lista electrónica de cheques que se proporcionan al banco. A continuación, cuando el cheque se envía al banco, el banco lo compara con la lista de cheques. Si el cheque coincide con un cheque de la lista, el banco lo compensa. Si el cheque no coincide con un cheque en la lista, el banco lo retiene para su revisión.
 
-## <a name="security-for-positive-pay-files"></a>Seguridad para los archivos de pago positivo
-Los archivos de pago positivo pueden contener información confidencial acerca de los beneficiarios y los importes del cheque. Por lo tanto, asegúrese de usar medidas de seguridad adecuadas desde el momento en que los archivos se generan, hasta que los reciba el banco. Los archivos de pago positivo se descarga en la ubicación que especifica el explorador web. Dado que los archivos de pago positivo pueden contener información confidencial, es importante que solo los usuarios autorizados tengan acceso para generar y ver esta información en Microsoft Dynamics 365 for Operations. Use la siguiente tabla para ayudarle a determinar los privilegios necesarios.
+## Seguridad para los archivos de pago positivo
+<a id="security-for-positive-pay-files" class="xliff"></a>
+Los archivos de pago positivo pueden contener información confidencial acerca de los beneficiarios y los importes del cheque. Por lo tanto, asegúrese de usar medidas de seguridad adecuadas desde el momento en que los archivos se generan, hasta que los reciba el banco. Los archivos de pago positivo se descarga en la ubicación que especifica el explorador web. Dado que los archivos de pago positivo pueden contener información confidencial, es importante que solo los usuarios autorizados tengan acceso para generar y ver esta información en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Use la siguiente tabla para ayudarle a determinar los privilegios necesarios.
 
 <table>
 <colgroup>
@@ -78,10 +80,12 @@ Los archivos de pago positivo pueden contener información confidencial acerca d
 </tbody>
 </table>
 
-## <a name="set-up-a-positive-pay-format"></a>Configurar un formato de pago positivo
+## Configurar un formato de pago positivo
+<a id="set-up-a-positive-pay-format" class="xliff"></a>
 Los archivos de pago positivo se crean mediante entidades de datos. Para poder generar un archivo de pago positivo, debe configurar un formato de entrada de transformación que se usará para traducir la información del cheque en un formato que puede comunicarse con el banco. En la página **Formato de pago positivo**, puede crear un identificador de formato de archivo y una descripción. El formato de entrada de transformación debe ser del tipo XML El formato específico depende del archivo de transformación que esté usando. Por ejemplo, el archivo Extensible Stylesheet Language Transformations (XSLT) de ejemplo que se proporciona usa el formato **Elemento XML**. Use la acción **Archivo de carga usado para la transformación** para especificar la ubicación del archivo de transformación para el formato que el banco requiere.
 
-## <a name="example-xslt-file-for-positive-pay-file"></a>Ejemplo: archivo XSLT para archivo de pago positivo
+## Ejemplo: archivo XSLT para archivo de pago positivo
+<a id="example-xslt-file-for-positive-pay-file" class="xliff"></a>
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl xslthelper" xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xslthelper="http://schemas.microsoft.com/BizTalk/2003/xslthelper">
       <xsl:output method="xml" omit-xml-declaration="no" version="1.0" encoding="utf-8"/>
       <xsl:template match="/">
@@ -140,25 +144,32 @@ Los archivos de pago positivo se crean mediante entidades de datos. Para poder g
       </xsl:template>
     </xsl:stylesheet>
 
-## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>Asignar el formato de pago positivo a una cuenta bancaria
+## Asignar el formato de pago positivo a una cuenta bancaria
+<a id="assign-the-positive-pay-format-to-a-bank-account" class="xliff"></a>
 Para cada cuenta bancaria para la que desea generar información de pago positivo, debe asignar el formato de pago positivo que ha especificado en la sección anterior. En la página **Cuentas bancarias**, seleccione el formato de pago positivo que se corresponde con la cuenta bancaria. En el campo **Fecha inicial de pago positivo**, escriba la primera fecha para generar archivos de pago positivo. Es importante que especifique una fecha en este campo. De lo contrario, el primer archivo de pago positivo que genere incluirá todos los cheques que se han creado para esta cuenta bancaria.
 
-## <a name="assign-a-number-sequence-for-positive-pay-files"></a>Asignar una secuencia numérica para los archivos de pago positivo
+## Asignar una secuencia numérica para los archivos de pago positivo
+<a id="assign-a-number-sequence-for-positive-pay-files" class="xliff"></a>
 Cada archivo de pago positivo debe tener un número único. Utilice la pestaña **Secuencias numéricas** de la página **Parámetros de gestión de efectivo y bancos** para crear una secuencia numérica para los archivos de pago positivo.
 
-## <a name="generate-a-positive-pay-file-for-a-single-bank-account"></a>Generar un archivo de pago positivo para una cuenta bancaria única
+## Generar un archivo de pago positivo para una cuenta bancaria única
+<a id="generate-a-positive-pay-file-for-a-single-bank-account" class="xliff"></a>
 Puede generar un archivo de pago positivo para una única entidad jurídica y una única cuenta bancaria. Para obtener información acerca de cómo generar archivos de pago positivo para múltiples entidades jurídicas y cuentas bancarias al mismo tiempo, vea la siguiente sección. Para generar un archivo de pago positivo para una entidad jurídica única y una cuenta bancaria única, abra el cuadro de diálogo **Generar archivo de pago positivo** en la página **Cuentas bancarias**. En el campo **Fecha límite**, especifique la última fecha del cheque que se debe incluir en el archivo de pago positivo. Todos los cheques que no se han incluido en un archivo de pago positivo antes del final de esta fecha de cheque se incluyen en el archivo.
 
-## <a name="generate-a-positive-pay-file-for-multiple-bank-accounts"></a>Generar un archivo de pago positivo para múltiples cuentas bancarias
+## Generar un archivo de pago positivo para múltiples cuentas bancarias
+<a id="generate-a-positive-pay-file-for-multiple-bank-accounts" class="xliff"></a>
 Para generar un archivo de pago positivo para varias entidades jurídicas, use la tarea periódica **Generar archivo de pago positivo**. Seleccione el formato de pago positivo para el archivo y especifique si se debe generar el archivo para todas las entidades jurídicas o para una entidad jurídica seleccionada. También puede generar el archivo de pago positivo para todas las cuentas bancarias que usan el formato de pago positivo o para una cuenta bancaria seleccionada. En el campo **Fecha límite**, especifique la última fecha del cheque que se debe incluir en el archivo de pago positivo. Todos los cheques que no se han incluido en un archivo de pago positivo antes del final de esta fecha de cheque se incluyen en el archivo.
 
-## <a name="view-the-results-of-positive-pay-file-generation"></a>Ver los resultados de la generación de archivos de pago positivo
+## Ver los resultados de la generación de archivos de pago positivo
+<a id="view-the-results-of-positive-pay-file-generation" class="xliff"></a>
 Tras generar el archivo de pago positivo, puede ver los resultados en la página **Resumen de archivo de pago positivo**. Para ver los detalles de los cheques individuales, use la página de detalles **Archivo de pago positivo**.
 
-## <a name="confirm-a-positive-pay-file"></a>Confirmar un archivo de pago positivo
+## Confirmar un archivo de pago positivo
+<a id="confirm-a-positive-pay-file" class="xliff"></a>
 Después de que se hayan pagado los cheques que aparecen en un archivo de pago positivo, recibirá un número de confirmación del banco. A continuación puede confirmar el archivo de pago positivo. En la página **Resumen de archivo de pago positivo**, seleccione un archivo de pago positivo que tenga un estado **Creado** y, a continuación, seleccione la acción **Especificar confirmación**. Al confirmar un archivo de pago positivo, se registra el número de confirmación que ha recibido del banco.
 
-## <a name="recall-a-positive-pay-file"></a>Recuperar un archivo de pago positivo
+## Recuperar un archivo de pago positivo
+<a id="recall-a-positive-pay-file" class="xliff"></a>
 Si debe cambiar un archivo de pago positivo, puede recuperarlo. En la página **Resumen de archivo de pago positivo**, seleccione un archivo de pago positivo que tenga un estado **Creado** y, a continuación, seleccione la acción **Recuperar**. Para cada cheque del archivo de pago positivo, se restablece el campo que indica si el cheque se ha incluido en un archivo de pago positivo. A continuación puede crear un nuevo archivo de pago positivo que incluya el cheque que se ha recuperado.
 
 

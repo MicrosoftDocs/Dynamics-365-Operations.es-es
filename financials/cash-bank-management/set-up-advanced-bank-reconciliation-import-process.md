@@ -1,16 +1,16 @@
 ---
 title: "Configurar el proceso de importación avanzada de conciliación bancaria"
-description: "La característica Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Operations. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios."
+description: "La función Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
@@ -18,25 +18,27 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fda4dca4339c09757477b04166b17d5f92f46a7c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a4d1c81386c0ef03391f3127fa51a6b09a5142b3
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Configurar el proceso de importación avanzada de conciliación bancaria
+# Configurar el proceso de importación avanzada de conciliación bancaria
+<a id="set-up-the-advanced-bank-reconciliation-import-process" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-La característica Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Operations. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios. 
+La función Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios. 
 
-La configuración de la importación del extracto bancario varía en función del formato de su extracto bancario electrónico. Microsoft Dynamics 365 for Operations admite tres formatos de extractos bancarios inmediatos: ISO20022, MT940 y BAI2.
+La configuración de la importación del extracto bancario varía en función del formato de su extracto bancario electrónico. Finance and Operations admite de serie tres formatos de extractos bancarios: ISO20022, MT940 y BAI2.
 
-## <a name="sample-files"></a>Archivo de muestra
-Para los tres formatos, debe tener archivos que traduzcan la instrucción bancaria electrónica del formato original a un formato que Dynamics 365 for Operations puede usar. Encontrará los archivos los recursos necesarios en el nodo **Recursos** de Application Explorer de Microsoft Visual Studio. Tras encontrar los archivos, cópielos en una única ubicación conocida, para que pueda cargarlos más fácilmente durante el proceso de instalación.
+## Archivo de muestra
+<a id="sample-files" class="xliff"></a>
+Para los tres formatos, debe tener archivos que traduzcan la instrucción bancaria electrónica del formato original a un formato que Finance and Operations puede usar. Encontrará los archivos los recursos necesarios en el nodo **Recursos** de Application Explorer de Microsoft Visual Studio. Tras encontrar los archivos, cópielos en una única ubicación conocida, para que pueda cargarlos más fácilmente durante el proceso de instalación.
 
 | Nombre del recurso                                           | Nombre de archivo                            |
 |---------------------------------------------------------|--------------------------------------|
@@ -48,7 +50,8 @@ Para los tres formatos, debe tener archivos que traduzcan la instrucción bancar
 | BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt      | MT940XML-to-Reconciliation.xslt      |
 | BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
 
-## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Ejemplos de diseños técnicos y formatos de extracto bancario
+## Ejemplos de diseños técnicos y formatos de extracto bancario
+<a id="examples-of-bank-statement-formats-and-technical-layouts" class="xliff"></a>
 A continuación se presentan ejemplos de diseño técnico de archivo de importación de conciliación bancaria avanzado y tres archivos de ejemplo de extracto bancario relacionados: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 | Definición de diseño técnico                             | Archivo de ejemplo de extracto bancario          |
@@ -59,7 +62,8 @@ A continuación se presentan ejemplos de diseño técnico de archivo de importac
 
  
 
-## <a name="set-up-the-import-of-iso20022-bank-statements"></a>Configuración de la importación de los extractos bancarios ISO20022
+## Configuración de la importación de los extractos bancarios ISO20022
+<a id="set-up-the-import-of-iso20022-bank-statements" class="xliff"></a>
 En primer lugar, debe definir el grupo de procesamiento del formato de extractos bancarios para los extractos bancarios ISO20022 mediante el marco de entidades de datos.
 
 1.  Vaya a **Espacios de trabajo** &gt; **Administración de datos**.
@@ -67,13 +71,13 @@ En primer lugar, debe definir el grupo de procesamiento del formato de extractos
 3.  Escriba un nombre para el formato, como **ISO20022**.
 4.  Establezca el campo **Formato de datos de origen** en **Elemento XML**.
 5.  Establezca el campo **Nombre de entidad** en **Extractos bancarios**.
-6.  Para cargar los archivos de importación, haga clic en **Cargar**y, a continuación, busque y seleccione el archivo **SampleBankCompositeEntity.xml** que guardó anteriormente.
+6.  Para cargar los archivos de importación, haga clic en **Cargar** y, a continuación, busque y seleccione el archivo **SampleBankCompositeEntity.xml** que guardó anteriormente.
 7.  Cuando se cargue la entidad Extractos bancarios y se complete la asignación, haga clic en la **Ver mapa** para la entidad.
 8.  La entidad de extractos bancarios es una entidad compuesta que consta de cuatro entidades independientes. En la lista, seleccione **BankStatementDocumentEntity** y, a continuación, haga clic en la acción **Ver mapa**.
 9.  En la ficha **Transformaciones**, haga clic en **Nueva**.
-10. Para el número de secuencia 1, haga clic en **Cargar archivo** y seleccione el archivo **ISO20022XML-to-Reconciliation.xslt** que guardó anteriormente. **Nota:** Los archivos de transformación de Dynamics 365 for Operations se crean para el formato estándar. Debido a que los bancos a menudo se apartan de este formato, puede tener que actualizar el archivo de transformación para asignarlo al formato del extracto bancario. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+10. Para el número de secuencia 1, haga clic en **Cargar archivo** y seleccione el archivo **ISO20022XML-to-Reconciliation.xslt** que guardó anteriormente. **Nota:** Los archivos de transformación de Finance and Operations se crean para el formato estándar. Debido a que los bancos a menudo se apartan de este formato, puede tener que actualizar el archivo de transformación para asignarlo al formato del extracto bancario. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
 11. Haga clic en **Nuevo**.
-12. Para el número de secuencia 2, haga clic en **Cargar archivo**y seleccione el archivo **BankReconciliation-to-Composite.xslt** que guardó anteriormente.
+12. Para el número de secuencia 2, haga clic en **Cargar archivo** y seleccione el archivo **BankReconciliation-to-Composite.xslt** que guardó anteriormente.
 13. Haga clic en **Aplicar transformaciones**.
 
 Después de configurar el grupo de procesamiento de formato, el siguiente paso es definir las reglas de formato de instrucciones bancarias para extractos bancarios ISO20022.
@@ -89,10 +93,11 @@ El último paso es habilitar Conciliación bancaria avanzada y establecer el for
 
 1.  Vaya a **Gestión de efectivo y bancos** &gt; **Cuentas bancarias**.
 2.  Seleccione la cuenta bancaria y ábrala para ver los detalles.
-3.  En la pestaña **Conciliación**, establezca la opción **Conciliación bancaria avanzada**en **Sí**.
+3.  En la pestaña **Conciliación**, establezca la opción **Conciliación bancaria avanzada** en **Sí**.
 4.  Establezca el campo **Formato de extracto** en el formato que ha creado anteriormente, como **ISO20022**.
 
-## <a name="set-up-the-import-of-mt940-bank-statements"></a>Configuración de la importación de los extractos bancarios MT940
+## Configuración de la importación de los extractos bancarios MT940
+<a id="set-up-the-import-of-mt940-bank-statements" class="xliff"></a>
 En primer lugar, debe definir el grupo de procesamiento del formato de extractos bancarios para los extractos bancarios MT940 mediante el marco de entidades de datos.
 
 1.  Vaya a **Espacios de trabajo** &gt; **Administración de datos**.
@@ -100,15 +105,15 @@ En primer lugar, debe definir el grupo de procesamiento del formato de extractos
 3.  Escriba un nombre para el formato, como **MT940**.
 4.  Establezca el campo **Formato de datos de origen** en **Elemento XML**.
 5.  Establezca el campo **Nombre de entidad** en **Extractos bancarios**.
-6.  Para cargar los archivos de importación, haga clic en **Cargar**y, a continuación, busque y seleccione el archivo **SampleBankCompositeEntity.xml** que guardó anteriormente.
+6.  Para cargar los archivos de importación, haga clic en **Cargar** y, a continuación, busque y seleccione el archivo **SampleBankCompositeEntity.xml** que guardó anteriormente.
 7.  Cuando se cargue la entidad Extractos bancarios y se complete la asignación, haga clic en la **Ver mapa** para la entidad.
 8.  La entidad de extractos bancarios es una entidad compuesta que consta de cuatro entidades independientes. En la lista, seleccione **BankStatementDocumentEntity** y, a continuación, haga clic en la acción **Ver mapa**.
 9.  En la ficha **Transformaciones**, haga clic en **Nueva**.
-10. Para el número de secuencia 1, haga clic en **Cargar archivo**y seleccione el archivo **MT940TXT-to-MT940XML.xslt** que guardó anteriormente.
+10. Para el número de secuencia 1, haga clic en **Cargar archivo** y seleccione el archivo **MT940TXT-to-MT940XML.xslt** que guardó anteriormente.
 11. Haga clic en **Nuevo**.
-12. Para el número de secuencia 2, haga clic en **Cargar archivo** y seleccione el archivo **MT940XML-to-Reconciliation.xslt** que guardó anteriormente. **Nota:** Los archivos de transformación de Dynamics 365 for Operations se crean para el formato estándar. Debido a que los bancos a menudo se apartan de este formato, puede tener que actualizar el archivo de transformación para asignarlo al formato del extracto bancario. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+12. Para el número de secuencia 2, haga clic en **Cargar archivo** y seleccione el archivo **MT940XML-to-Reconciliation.xslt** que guardó anteriormente. **Nota:** Los archivos de transformación de Finance and Operations se crean para el formato estándar. Debido a que los bancos a menudo se apartan de este formato, puede tener que actualizar el archivo de transformación para asignarlo al formato del extracto bancario. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
 13. Haga clic en **Nuevo**.
-14. Para el número de secuencia 3, haga clic en **Cargar archivo**y seleccione el archivo **BankReconciliation-to-Composite.xslt** que guardó anteriormente.
+14. Para el número de secuencia 3, haga clic en **Cargar archivo** y seleccione el archivo **BankReconciliation-to-Composite.xslt** que guardó anteriormente.
 15. Haga clic en **Aplicar transformaciones**.
 
 Después de configurar el grupo de procesamiento de formato, el siguiente paso es definir las reglas de formato de instrucciones bancarias para extractos bancarios MT940.
@@ -124,11 +129,12 @@ El último paso es habilitar Conciliación bancaria avanzada y establecer el for
 
 1.  Vaya a **Gestión de efectivo y bancos** &gt; **Cuentas bancarias**.
 2.  Seleccione la cuenta bancaria y ábrala para ver los detalles.
-3.  En la pestaña **Conciliación**, establezca la opción **Conciliación bancaria avanzada**en **Sí**.
+3.  En la pestaña **Conciliación**, establezca la opción **Conciliación bancaria avanzada** en **Sí**.
 4.  Cuando se le pida que confirme la selección y habilite Conciliación bancaria avanzada, haga clic en **Aceptar**.
 5.  Establezca el campo **Formato de extracto** en el formato que ha creado anteriormente, como **MT940**.
 
-## <a name="set-up-the-import-of-bai2-bank-statements"></a>Configuración de la importación de los extractos bancarios BAI2
+## Configuración de la importación de los extractos bancarios BAI2
+<a id="set-up-the-import-of-bai2-bank-statements" class="xliff"></a>
 En primer lugar, debe definir el grupo de procesamiento del formato de extractos bancarios para los extractos bancarios BAI2 mediante el marco de entidades de datos.
 
 1.  Vaya a **Espacios de trabajo** &gt; **Administración de datos**.
@@ -136,15 +142,15 @@ En primer lugar, debe definir el grupo de procesamiento del formato de extractos
 3.  Escriba un nombre para el formato, como **BAI2**.
 4.  Establezca el campo **Formato de datos de origen** en **Elemento XML**.
 5.  Establezca el campo **Nombre de entidad** en **Extractos bancarios**.
-6.  Para cargar los archivos de importación, haga clic en **Cargar**y, a continuación, busque y seleccione el archivo **SampleBankCompositeEntity.xml** que guardó anteriormente.
+6.  Para cargar los archivos de importación, haga clic en **Cargar** y, a continuación, busque y seleccione el archivo **SampleBankCompositeEntity.xml** que guardó anteriormente.
 7.  Cuando se cargue la entidad Extractos bancarios y se complete la asignación, haga clic en la **Ver mapa** para la entidad.
 8.  La entidad de extractos bancarios es una entidad compuesta que consta de cuatro entidades independientes. En la lista, seleccione **BankStatementDocumentEntity** y, a continuación, haga clic en la acción **Ver mapa**.
 9.  En la ficha **Transformaciones**, haga clic en **Nueva**.
-10. Para el número de secuencia 1, haga clic en **Cargar archivo**y seleccione el archivo **BAI2CSV-to-BAI2XML.xslt** que guardó anteriormente.
+10. Para el número de secuencia 1, haga clic en **Cargar archivo** y seleccione el archivo **BAI2CSV-to-BAI2XML.xslt** que guardó anteriormente.
 11. Haga clic en **Nuevo**.
-12. Para el número de secuencia 2, haga clic en **Cargar archivo** y seleccione el archivo **BAI2XML-to-Reconciliation.xslt** que guardó anteriormente. **Nota:** Los archivos de transformación de Dynamics 365 for Operations se crean para el formato estándar. Debido a que los bancos a menudo se apartan de este formato, puede tener que actualizar el archivo de transformación para asignarlo al formato del extracto bancario. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+12. Para el número de secuencia 2, haga clic en **Cargar archivo** y seleccione el archivo **BAI2XML-to-Reconciliation.xslt** que guardó anteriormente. **Nota:** Los archivos de transformación de Finance and Operations se crean para el formato estándar. Debido a que los bancos a menudo se apartan de este formato, puede tener que actualizar el archivo de transformación para asignarlo al formato del extracto bancario. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
 13. Haga clic en **Nuevo**.
-14. Para el número de secuencia 3, haga clic en **Cargar archivo**y seleccione el archivo **BankReconciliation-to-Composite.xslt** que guardó anteriormente.
+14. Para el número de secuencia 3, haga clic en **Cargar archivo** y seleccione el archivo **BankReconciliation-to-Composite.xslt** que guardó anteriormente.
 15. Haga clic en **Aplicar transformaciones**.
 
 Después de configurar el grupo de procesamiento de formato, el siguiente paso es definir las reglas de formato de instrucciones bancarias para extractos bancarios BAI2.
@@ -160,11 +166,12 @@ El último paso es habilitar Conciliación bancaria avanzada y establecer el for
 
 1.  Vaya a **Gestión de efectivo y bancos** &gt; **Cuentas bancarias**.
 2.  Seleccione la cuenta bancaria y ábrala para ver los detalles.
-3.  En la pestaña **Conciliación**, establezca la opción **Conciliación bancaria avanzada**en **Sí**.
+3.  En la pestaña **Conciliación**, establezca la opción **Conciliación bancaria avanzada** en **Sí**.
 4.  Cuando se le pida que confirme la selección y habilite Conciliación bancaria avanzada, haga clic en **Aceptar**.
 5.  Establezca el campo **Formato de extracto** en el formato que ha creado anteriormente, como **BAI2**.
 
-## <a name="test-the-bank-statement-import"></a>Probar la importación del extracto bancario
+## Probar la importación del extracto bancario
+<a id="test-the-bank-statement-import" class="xliff"></a>
 El paso final es probar que puede importar el extracto bancario.
 
 1.  Vaya a **Gestión de efectivo y bancos** &gt; **Cuentas bancarias**.

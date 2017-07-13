@@ -3,7 +3,7 @@ title: Rutas y operaciones.
 description: "Este tema proporciona información acerca de las rutas y las operaciones. Una ruta define el proceso para producir un producto o una variante del producto. Describe cada paso (operación) en el proceso de producción y el orden en que estos pasos se deben realizar. Para cada etapa, la ruta también define los recursos de operaciones necesarios, el tiempo de configuración necesaria y el tiempo de ejecución, y cómo el coste se debe calcular."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,43 +19,48 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3abc4e6f648ecc10105346ce181d8bc752d95f17
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 61548f2e308781e8329ca3cd26c3e6502d2f92c9
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="routes-and-operations"></a>Rutas y operaciones.
+# Rutas y operaciones.
+<a id="routes-and-operations" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
 Este tema proporciona información acerca de las rutas y las operaciones. Una ruta define el proceso para producir un producto o una variante del producto. Describe cada paso (operación) en el proceso de producción y el orden en que estos pasos se deben realizar. Para cada etapa, la ruta también define los recursos de operaciones necesarios, el tiempo de configuración necesaria y el tiempo de ejecución, y cómo el coste se debe calcular.
 
-<a name="overview"></a>Visión general
+Visión general
+<a id="overview" class="xliff"></a>
 --------
 
-Una ruta describe el orden de las operaciones que se necesitan para producir un producto o una variante del producto. Para cada operación, la ruta también define los recursos de operaciones que se necesitan, el tiempo necesario para configurar y ejecutar la operación, y cómo el coste se debe calcular. Puede usar la misma ruta para generar varios productos o puede definir una ruta única para cada producto o variante del producto. Puede incluso tener varias rutas para el mismo producto. En este caso, la ruta que se utiliza varía, en función de factores como la cantidad que se debe producir. La definición de una ruta en Microsoft Dynamics 365 for Operations consta de cuatro elementos independientes, en conjunto, describen el proceso de producción:
+Una ruta describe el orden de las operaciones que se necesitan para producir un producto o una variante del producto. Para cada operación, la ruta también define los recursos de operaciones que se necesitan, el tiempo necesario para configurar y ejecutar la operación, y cómo el coste se debe calcular. Puede usar la misma ruta para generar varios productos o puede definir una ruta única para cada producto o variante del producto. Puede incluso tener varias rutas para el mismo producto. En este caso, la ruta que se utiliza varía, en función de factores como la cantidad que se debe producir. La definición de una ruta en Microsoft Dynamics 365 for Finance and Operations consta de cuatro elementos independientes, en conjunto, describen el proceso de producción:
 
 -   **Ruta**: una ruta define la estructura del proceso de producción. Es decir, define el orden de las operaciones.
 -   **Operación**: una operación identifica un paso con nombre en una ruta, por ejemplo **Ensamblado**. La misma operación puede producirse en varias rutas y puede tener diferentes números de operación.
 -   **Relación de operación**: una relación de operación define las propiedades operativas de una operación, como el tiempo de configuración y el tiempo de ejecución, las categorías de coste, los parámetros de consumo y los requisitos de recursos. La relación de operación permite a las propiedades operativas de una operación variar, en función de la ruta que la operación use en los productos que se generan.
 -   **Versión de la ruta**: una versión de ruta define la ruta que se usa para generar un producto o una variante del producto. Las versiones de ruta permiten volver a utilizar las rutas en todos los productos o cambiarlas con el tiempo. También habilitan diferentes rutas que se utilizarán para generar el mismo producto. En este caso, la ruta que se utiliza depende de factores como la ubicación o la cantidad que se debe producir.
 
-## <a name="routes"></a>Rutas
-Una ruta describe el orden de las operaciones que se usan para producir un producto o una variante del producto. A cada operación se le asigna un número de operación y una operación sucesora. El orden de las operaciones forma una red de rutas que se puede representar mediante un gráfico dirigido con uno o más puntos de inicio y un único punto de destino. En Dynamics 365 for Operations, las rutas se diferencian en función del tipo de estructura. Los dos tipos de rutas son rutas simples y redes de rutas. En los parámetros de control de producción, puede especificar si solo se pueden usar rutas simples o si se pueden usar redes de rutas más complejas.
+## Rutas
+<a id="routes" class="xliff"></a>
+Una ruta describe el orden de las operaciones que se usan para producir un producto o una variante del producto. A cada operación se le asigna un número de operación y una operación sucesora. El orden de las operaciones forma una red de rutas que se puede representar mediante un gráfico dirigido con uno o más puntos de inicio y un único punto de destino. En Dynamics 365 for Finance and Operations, las rutas se diferencian en función del tipo de estructura. Los dos tipos de rutas son rutas simples y redes de rutas. En los parámetros de control de producción, puede especificar si solo se pueden usar rutas simples o si se pueden usar redes de rutas más complejas.
 
-### <a name="simple-routes"></a>Rutas simples
+### Rutas simples
+<a id="simple-routes" class="xliff"></a>
 
 Una ruta sencilla es secuencial y solo hay un punto de inicio para la ruta.  
 
 [![Ruta sencilla](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Si solo habilita rutas simples en los parámetros de control de producción, Dynamics 365 for Operations genera automáticamente los números de operación (10, 20, 30, etc.) cuando define la ruta.
+Si solo habilita rutas simples en los parámetros de control de producción, Finance and Operations genera automáticamente los números de operación (10, 20, 30, etc.) cuando define la ruta.
 
-### <a name="route-networks"></a>Redes de rutas
+### Redes de rutas
+<a id="route-networks" class="xliff"></a>
 
 Si habilita redes de rutas más complejas en los parámetros de control de producción, puede definir las rutas que tengan múltiples puntos de inicio y operaciones que se pueden ejecutar en paralelo.  
 
@@ -67,7 +72,8 @@ Si habilita redes de rutas más complejas en los parámetros de control de produ
 -   No se garantiza que múltiples operaciones con la misma operación sucesora (por ejemplo, las operaciones 30 y 40 en la ilustración anterior) se vayan a ejecutar realmente en paralelo. La disponibilidad y la capacidad de los recursos puede limitar la forma en que se programan las operaciones.
 -   No puede usar 0 (cero) como el número de operación. Ese número se reserva y utiliza para especificar que la última operación de la ruta no tiene ninguna operación sucesora.
 
-### <a name="parallel-operations"></a>Operaciones paralelas
+### Operaciones paralelas
+<a id="parallel-operations" class="xliff"></a>
 
 A veces, requieren una combinación de múltiples recursos de operaciones con diversas características para realizar una operación. Por ejemplo, una operación de ensamblado puede requerir una máquina, una herramienta y un trabajador para dos máquinas poder supervisar la operación. Se puede dar forma a este ejemplo con operaciones paralelas, donde una operación se designa como la operación principal y las otras son secundarias.  
 
@@ -79,16 +85,18 @@ La operación principal y las operaciones secundarias deben tener el mismo núme
 
 En el ejemplo anterior, el requisito de recurso para la operación principal (30) es el equipo, mientras que los requisitos de recurso para las operaciones secundarias ('30 y 30 ") es la herramienta y el trabajador. Una carga del cincuenta por ciento garantiza que el trabajador programado pueda supervisar dos equipos el mismo tiempo.
 
-### <a name="approval-of-routes"></a>Aprobación de rutas
+### Aprobación de rutas
+<a id="approval-of-routes" class="xliff"></a>
 
 Se debe aprobar una ruta antes de que se pueda utilizar en el proceso de planificación o fabricación. La aprobación indica que el diseño de la ruta se ha completado. El mismo producto emitido o variante de producto emitido puede tener varias rutas aprobadas. Normalmente, la aprobación de una ruta se produce cuando se aprueba la primera versión de ruta pertinente. Sin embargo, en algunos escenarios empresariales, la aprobación de la ruta y la versión de ruta son actividades individuales que pueden involucrar a diversos propietarios de procesos.  
 
 Cada ruta se puede aprobar o desaprobar por separado. Sin embargo, tenga en cuenta que, cuando una ruta se desaprueba, también se desaprobarán todas las versiones de ruta relacionadas. En los parámetros de control de producción, puede especificar si las rutas pueden desaprobarse y si las rutas aprobadas se pueden modificar.  
 
-Si debe retener un registro que registre quién aprueba cada ruta, puede requerir firmas electrónicas para la aprobación de la ruta. Los usuarios tendrán que confirmar su identidad con una [firma electrónica](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Si debe retener un registro que registre quién aprueba cada ruta, puede requerir firmas electrónicas para la aprobación de la ruta. Los usuarios tendrán que confirmar su identidad con una [firma electrónica](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
-## <a name="operations"></a>Operaciones
-Las operaciones son un paso del proceso de producción. En Dynamics 365 for Operations, cada operación tiene un identificador y una descripción sencilla. Las siguientes tablas muestran ejemplos típicos de operaciones de una tienda de máquinas.
+## Operaciones
+<a id="operations" class="xliff"></a>
+Las operaciones son un paso del proceso de producción. En Dynamics 365 for Finance and Operations, cada operación tiene un identificador y una descripción sencilla. Las siguientes tablas muestran ejemplos típicos de operaciones de una tienda de máquinas.
 
 | Operación  | Descripción        |
 |------------|--------------------|
@@ -99,7 +107,8 @@ Las operaciones son un paso del proceso de producción. En Dynamics 365 for Oper
 
 Las propiedades operativas de la operación, como el tiempo de configuración y el tiempo de ejecución, los requisitos de los recursos, la información de la gestión de costes y el cálculo de los consumos se especifican en la relación de la operación. (Para obtener más información sobre las relaciones operativas, consulte la sección siguiente).
 
-## <a name="operation-relations"></a>Relaciones de operación
+## Relaciones de operación
+<a id="operation-relations" class="xliff"></a>
 Las propiedades operativas siguientes de una operación se mantienen en la relación de operación:
 
 -   Categorías de coste
@@ -126,9 +135,10 @@ Las relaciones de operación proporcionan gran flexibilidad al definir sus rutas
 
 **Nota**: Dado que las propiedades operativas se almacenan en relaciones de operaciones por operación y por ruta, todas las repeticiones de la misma operación (por ejemplo, ensamblado) tienen el mismo tiempo de preparación, tiempo de ejecución, requisitos de recurso, etc. Por lo tanto, si debe haber dos repeticiones de una operación en la misma ruta pero deben tener distintos tiempos de ejecución, tendrá que crear dos operaciones distintas, como Ensamblado1 y Ensamblado2.
 
-### <a name="modifying-product-specific-routes"></a>Modificar rutas de específicas de un producto
+### Modificar rutas de específicas de un producto
+<a id="modifying-product-specific-routes" class="xliff"></a>
 
-Cuando abre la página **Ruta** en la página **Detalles del producto liberado**, se muestran las versiones de ruta que se están asociadas con el producto liberado. En este contexto, para cada operación, Dynamics 365 for Operations muestra las propiedades operativas de la relación de operación que coincide mejor la versión de ruta. Se observará que la lista de operaciones incluye el **Código de artículo** y el **Código de la ruta** de la relación de operación. Por lo tanto, puede determinar qué relación de operación se muestra.  
+Cuando abre la página **Ruta** en la página **Detalles del producto liberado**, se muestran las versiones de ruta que se están asociadas con el producto liberado. En este contexto, para cada operación, Dynamics 365 for Finance and Operations muestra las propiedades operativas de la relación de operación que coincide mejor la versión de ruta. Se observará que la lista de operaciones incluye el **Código de artículo** y el **Código de la ruta** de la relación de operación. Por lo tanto, puede determinar qué relación de operación se muestra.  
 
 En la página **Ruta**, puede modificar las propiedades operativas de la operación, como el tiempo de ejecución o las categorías de coste. Sus cambios se almacenan en la relación de operación específica de la ruta y el producto liberado al que se hace referencia en la versión de ruta actual. Si la relación de operación que se muestra no es específica de la ruta y el producto liberado, antes de que se almacenan los cambios, el sistema crea una copia de la relación de operación. Esta copia *es* específica de la ruta y el producto liberado. Por lo tanto, los cambios no afectarán a otras rutas o productos liberados. Para comprobar qué relación de operación se está modificando en la página **Ruta**, consulte los campos **Código de artículo** y **Código de ruta**.  
 
@@ -136,23 +146,26 @@ También puede crear manualmente una operación que sea específica para una rut
 
 **Nota:** Si agrega una nueva operación a una ruta en la página **Ruta**, una relación de operación de relación se crea únicamente para el producto liberado actual. Por lo tanto, si la ruta también se usa para generar otros productos emitidos, no existirá ninguna relación de operación aplicable para dichos productos liberados, y la ruta ya no se podrá usar para esos productos liberados.
 
-### <a name="maintaining-operation-relations-per-route"></a>Mantener relaciones de operación por ruta
+### Mantener relaciones de operación por ruta
+<a id="maintaining-operation-relations-per-route" class="xliff"></a>
 
 Cuando abra la página **Detalles de la ruta** en la página de la lista de **Rutas**, se muestra una lista de todas las relaciones de operación que se aplican a la ruta seleccionada. Por lo tanto, puede comprobar fácilmente qué propiedades operativas se usan para qué productos. Puede modificar los valores predeterminados de propiedades y los valores de propiedades de específicos para un producto.  
 
 Si agrega una nueva relación de operación en la página **Detalles de la ruta**, el campo **Código de la ruta** se establece automáticamente en **Ruta** y el campo **Relación de la ruta** se establece en el número de la ruta de la ruta actual.
 
-### <a name="maintaining-operation-relations-per-operation"></a>Mantener relaciones de operación por operación
+### Mantener relaciones de operación por operación
+<a id="maintaining-operation-relations-per-operation" class="xliff"></a>
 
 En la página **Operaciones**, puede abrir la página **Relaciones de operación**. En esta página, puede modificar todas las relaciones de operaciones para una operación específica. Puede incluso modificar las relaciones de operación que contienen valores predeterminados.  
 
 Si su empresa utiliza operaciones estándar y si los parámetros operativos son iguales en todos los productos y procesos, la página **Relaciones de operación** ofrece una forma cómoda de mantener las propiedades operativas predeterminadas de dichas operaciones.
 
-### <a name="applying-operation-relations"></a>Aplicar relaciones de operaciones
+### Aplicar relaciones de operaciones
+<a id="applying-operation-relations" class="xliff"></a>
 
-En algunos casos, Dynamics 365 for Operations debe buscar las propiedades operativas para una operación. Por ejemplo, cuando se crea un pedido de compra, las propiedades operativas de cada operación se deben copiar desde relaciones de operaciones hasta la ruta de producción. En estos casos, Dynamics 365 for Operations busca las relaciones de operación relevantes desde la combinación más específica hasta la combinación menos específica.  
+En algunos casos, Dynamics 365 for Finance and Operations debe buscar las propiedades operativas para una operación. Por ejemplo, cuando se crea un pedido de compra, las propiedades operativas de cada operación se deben copiar desde relaciones de operaciones hasta la ruta de producción. En estos casos, Finance and Operations busca las relaciones de operación relevantes desde la combinación más específica hasta la combinación menos específica.  
 
-Cuando Dynamics 365 for Operations busca la relación de operación más relevante para un producto liberado, se prefiere una relación de operación que coincida con el Id. de artículo del producto antes que una relación de operación que coincida con el identificador del grupo de artículo. A su vez, una relación de operación que coincide con el identificador del grupo de artículo se prefiere a una relación de operación predeterminada. La búsqueda se realiza en el siguiente orden:
+Cuando Dynamics 365 for Finance and Operations busca la relación de operación más relevante para un producto liberado, se prefiere una relación de operación que coincida con el Id. de artículo del producto antes que una relación de operación que coincida con el identificador del grupo de artículo. A su vez, una relación de operación que coincide con el identificador del grupo de artículo se prefiere a una relación de operación predeterminada. La búsqueda se realiza en el siguiente orden:
 
 1.  **Código de artículo**=**Tabla** y **Relación de artículo**=&lt;Id. de artículo&gt;
 2.  **Código de artículo**=**Grupo** y **Relación de artículo**=&lt;Id. del grupo de artículo&gt;
@@ -166,7 +179,8 @@ Cuando Dynamics 365 for Operations busca la relación de operación más relevan
 
 Por lo tanto, una operación se debe usar solo una vez para cada ruta. Si la operación tiene lugar varias veces en la misma ruta, todas las repeticiones de esa operación tendrán la misma relación de operación y no podrá haber distintas propiedades (por ejemplo, tiempo de ejecución) para cada repetición.
 
-## <a name="route-versions"></a>Versiones de ruta
+## Versiones de ruta
+<a id="route-versions" class="xliff"></a>
 Las versiones de ruta se utilizan para contemplar variaciones en la producción de productos, así como para proporcionar un mayor control del proceso de producción. Definen la ruta que se debe utilizar cuando se genera un producto liberado específico o a una variante de un producto liberado. Puede usar las restricciones siguientes para definir la ruta que se utiliza para un producto liberado:
 
 -   Las dimensiones de producto (tamaño, color, estilo o configuración)
@@ -178,34 +192,41 @@ Cuando se está generando el producto en un sitio específico, en una cantidad e
 
 En los parámetros de control de producción, puede ser necesario que el período de validez de una versión de ruta esté siempre especificado.
 
-### <a name="approval-of-route-versions"></a>Aprobación de las versiones de ruta
+### Aprobación de las versiones de ruta
+<a id="approval-of-route-versions" class="xliff"></a>
 
 Antes de que se pueda usar una versión de ruta en el proceso de planificación o fabricación, se debe aprobar. Al aprobar una versión de ruta, también puede aprobar la ruta relacionada. Sin embargo, tenga en cuenta que una versión de ruta se puede aprobar solo si la ruta relacionada también está aprobada.
 
-### <a name="activating-the-default-route-version"></a>Activar la versión de la ruta predeterminada
+### Activar la versión de la ruta predeterminada
+<a id="activating-the-default-route-version" class="xliff"></a>
 
 Al activar una versión de ruta, la designa como la versión de ruta predeterminada que la planificación maestra utilizará o que se usará para crear pedidos de producción. Puede tener solo una versión de ruta activa para un conjunto concreto de restricciones (por ejemplo, el período, el sitio o la cantidad). Si la versión que está intentando activar entra en conflicto con una versión que ya está activa, recibirá un mensaje de error. Para evitar una activación ambigua, es preciso desactivar la versión en conflicto o modificar las restricciones de la versión (normalmente el período) en la versión de la ruta.
 
-### <a name="electronic-signatures"></a>Firmas electrónicas
+### Firmas electrónicas
+<a id="electronic-signatures" class="xliff"></a>
 
-Si debe retener un registro que registre quién aprueba y activa cada versión de la ruta, puede requerir firmas electrónicas para estas tareas. Los usuarios que aprueban y activan las versiones de ruta tendrán que confirmar su identidad con una [firma electrónica](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Si debe retener un registro que registre quién aprueba y activa cada versión de la ruta, puede requerir firmas electrónicas para estas tareas. Los usuarios que aprueban y activan las versiones de ruta tendrán que confirmar su identidad con una [firma electrónica](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
-### <a name="product-change-that-uses-case-management"></a>Cambio de producto que usa administración de casos
+### Cambio de producto que usa administración de casos
+<a id="product-change-that-uses-case-management" class="xliff"></a>
 
 El caso de cambio de producto para la aprobación y activación de rutas nuevas o cambiadas y versiones de ruta le proporcionan una manera sencilla de considerar una descripción de las restricciones de la versión de ruta. También puede aprobar y activar todas las rutas relacionadas con respecto a un cambio específico en una operación y documentar los resultados en el caso de cambio del producto.
 
-## <a name="maintaining-routes"></a>Mantener rutas
+## Mantener rutas
+<a id="maintaining-routes" class="xliff"></a>
 En función de sus necesidades empresariales, es posible que pueda reducir el esfuerzo necesario para mantener las definiciones del proceso.
 
-### <a name="making-routes-independent-of-resources"></a>Crear rutas independientes de los recursos
+### Crear rutas independientes de los recursos
+<a id="making-routes-independent-of-resources" class="xliff"></a>
 
-En muchos sistemas, el recurso de operaciones o el grupo de recursos que deben realizar una operación debe ser especificado en la ruta. Sin embargo, en Dynamics 365 for Operations, puede definir un conjunto de requisitos que un recurso de operaciones debe cumplir para aplicarse a la operación. Por lo tanto, el recurso de operaciones o el grupo de recursos específicos que se usarán no tienen que determinarse hasta que la operación se programe realmente. Esta funcionalidad es especialmente útil si tiene muchos trabajadores o máquinas que pueden realizar la misma operación.  
+En muchos sistemas, el recurso de operaciones o el grupo de recursos que deben realizar una operación debe ser especificado en la ruta. Sin embargo, en Dynamics 365 for Finance and Operations, puede definir un conjunto de requisitos que un recurso de operaciones debe cumplir para aplicarse a la operación. Por lo tanto, el recurso de operaciones o el grupo de recursos específicos que se usarán no tienen que determinarse hasta que la operación se programe realmente. Esta funcionalidad es especialmente útil si tiene muchos trabajadores o máquinas que pueden realizar la misma operación.  
 
 Por ejemplo, especifica que una operación requiere un recurso de operaciones de tipo **Máquina** con una capacidad de **Sellado** de 20 toneladas. El motor de programación resolverá estos requisitos según un recurso de operaciones o un grupo de recursos específicos cuando se programa la operación. Dado que simplemente puede especificar estos requisitos en lugar de vincular la operación a una máquina específica, tiene mucha más flexibilidad. Además, el mantenimiento resulta más fácil cuando mueven los recursos o se agregan nuevos.  
 
 Para obtener más información sobre los distintos tipos de requisitos de recurso y cómo usarlos, consulte Requisitos de recursos de operaciones y [Capacidades de recursos](resource-capabilities.md).
 
-### <a name="sharing-routes-across-sites"></a>Compartir rutas a través de sitios
+### Compartir rutas a través de sitios
+<a id="sharing-routes-across-sites" class="xliff"></a>
 
 Si genera el mismo producto en más de un sitio de producción y si los pasos para generar el producto son iguales en todos los sitios, puede diseñar a menudo una ruta compartida que se utilice a través de todos los sitios de producción. Para crear una ruta compartida, no especifique un sitio en la misma ruta. Sin embargo, debe aún así crear una versión de ruta que asocie la ruta compartida con producto en cada sitio.  
 
@@ -213,7 +234,8 @@ También debe asegurarse de que los requisitos de recurso para cada operación e
 
 Para aprovechar las ventajas de las prestaciones de rutas compartidas, debe usar el consumo de recursos en la lista de materiales (BOM)correspondiente. Cuando establece el indicador para el consumo de recursos en la línea de BOM, el almacén y la ubicación desde donde se deben consumir las materias primas se deducen del recurso de operaciones en el que está programada la operación. Por lo tanto, el almacén y la ubicación no tienen que determinase hasta que la producción se programe realmente. De esta manera, puede crear la BOM y la ruta de forma independiente de la ubicación física donde se genera el producto.
 
-### <a name="standard-operation-relations"></a>Relaciones de operaciones estándar
+### Relaciones de operaciones estándar
+<a id="standard-operation-relations" class="xliff"></a>
 
 Si su empresa utiliza operaciones estandarizadas en la producción, y si hay muy poca variación o ninguna en el tiempo de configuración, el tiempo de ejecución, los cálculos de consumo, el cálculo de costes, etc., es posible que se pueda beneficiar de crear relaciones de operación predeterminadas para todas las operaciones. En este caso, evite crear relaciones de operación que sean específicas de cualquier ruta o producto liberado.  
 
@@ -221,7 +243,8 @@ Si también expresa los requisitos de recurso en términos de conocimientos y ca
 
 Cuando usa este enfoque, la página **Relaciones de operación** se convierte en su destino principal para mantener los tiempos de ejecución y otras propiedades.
 
-### <a name="resource-specific-process-times"></a>Tiempos de proceso específicos de los recursos
+### Tiempos de proceso específicos de los recursos
+<a id="resource-specific-process-times" class="xliff"></a>
 
 Si no especifica un recurso de operaciones o un grupo de recursos como parte de los requisitos de recurso para una operación, los recursos aplicables pueden operar a varias velocidades. Por lo tanto, el tiempo necesario para procesar una operación puede variar. Para resolver este problema, puede usar el campo **Fórmula** de la relación de operación para especificar cómo se calcula el tiempo del proceso. Están disponibles las siguientes opciones:
 
@@ -231,7 +254,8 @@ Si no especifica un recurso de operaciones o un grupo de recursos como parte de 
 -   **Lote de recursos:** esta opción es básicamente la misma que la opción **Lote**. Sin embargo, el cálculo incluye el campo **Capacidad de lote** del recurso de operaciones. Por lo tanto, el tiempo depende de los recursos.
 
 
-<a name="see-also"></a>Consulte también
+Consulte también
+<a id="see-also" class="xliff"></a>
 --------
 
 [Listas de materiales y fórmulas](bill-of-material-bom.md)
@@ -240,7 +264,7 @@ Si no especifica un recurso de operaciones o un grupo de recursos como parte de 
 
 [Capacidades de recursos](resource-capabilities.md)
 
-[Visión general de la firma electrónica](/dynamics365/operations/organization-administration/electronic-signature-overview)
+[Visión general de la firma electrónica](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview)
 
 
 

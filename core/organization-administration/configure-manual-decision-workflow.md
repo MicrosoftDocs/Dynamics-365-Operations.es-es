@@ -3,13 +3,13 @@ title: "Configuración de una decisión manual en un flujo de trabajo"
 description: "Este tema explica cómo configurar las propiedades de una decisión manual."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192101
 ms.assetid: 0bccad77-1a44-4f08-967b-12c62c02afc7
 ms.search.region: Global
@@ -17,15 +17,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ac86ffa794b5fd92ca9aba24537fbc05057fe824
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6ea8b060741ea94af16861d5bb52894a577e5521
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="configure-a-manual-decision-in-a-workflow"></a>Configuración de una decisión manual en un flujo de trabajo
+# Configuración de una decisión manual en un flujo de trabajo
+<a id="configure-a-manual-decision-in-a-workflow" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
@@ -34,13 +35,15 @@ Este tema explica cómo configurar las propiedades de una decisión manual.
 
 Para configurar una decisión manual, en el editor de flujo de trabajo, haga clic con el botón secundario en la decisión manual y, a continuación, haga clic en **Propiedades** para abrir la página **Propiedades**. A continuación, use los siguientes procedimientos para configurar las propiedades de la decisión manual.
 
-## <a name="name-the-decision"></a>Asignación de un nombre a la decisión
+## Asignación de un nombre a la decisión
+<a id="name-the-decision" class="xliff"></a>
 Siga estos pasos para asignar un nombre a la decisión manual.
 
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
 2.  En el campo **Nombre**, escriba un nombre único para la decisión manual.
 
-## <a name="enter-a-subject-line-and-instructions"></a>Especificación de una línea de asunto e instrucciones
+## Especificación de una línea de asunto e instrucciones
+<a id="enter-a-subject-line-and-instructions" class="xliff"></a>
 Debe proporcionar una línea de asunto e instrucciones a los usuarios que están asignados a la decisión manual. Por ejemplo, si está configurando una decisión para solicitudes de compra, el usuario asignado a la decisión ve la línea de asunto y las instrucciones en la página **Solicitudes de compra**. La línea de asunto se muestra en una barra de mensajes de la página. A continuación, el usuario puede hacer clic en el icono de dicha barra para ver las instrucciones. Siga estos pasos para escribir una línea de asunto e instrucciones.
 
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
@@ -74,8 +77,9 @@ Debe proporcionar una línea de asunto e instrucciones a los usuarios que están
     5.  Para personalizar el texto, puede insertar marcadores de posición como se describe en el paso 6.
     6.  Haga clic en **Cerrar**.
 
-## <a name="specify-the-possible-outcomes-of-a-decision"></a>Especificación de los posibles resultados de una decisión
-Normalmente, cuando a una persona responsable de tomar decisiones se le asigna un documento, se le formula una pregunta. La respuesta a esta pregunta es generalmente **Sí**o **No**, o bien **Verdadero** o **Falso**. Siga estos pasos para especificar los resultados que podría tener la decisión manual.
+## Especificación de los posibles resultados de una decisión
+<a id="specify-the-possible-outcomes-of-a-decision" class="xliff"></a>
+Normalmente, cuando a una persona responsable de tomar decisiones se le asigna un documento, se le formula una pregunta. La respuesta a esta pregunta es generalmente **Sí** o **No**, o bien **Verdadero** o **Falso**. Siga estos pasos para especificar los resultados que podría tener la decisión manual.
 
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
 2.  En la pestaña **Resultados**, en el campo **Resultado 1**, escriba el nombre del resultado o especifique la opción.
@@ -94,7 +98,8 @@ Normalmente, cuando a una persona responsable de tomar decisiones se le asigna u
     4.  En el campo **Texto traducido**, escriba el texto.
     5.  Haga clic en **Cerrar**.
 
-## <a name="specify-when-notifications-are-sent"></a>Especificación del momento en que se envían notificaciones
+## Especificación del momento en que se envían notificaciones
+<a id="specify-when-notifications-are-sent" class="xliff"></a>
 Puede enviar notificaciones cuando se haya tomado o delegado una decisión o cuando se la haya remitido a una instancia superior. Siga estos pasos para especificar cuándo se deben enviar notificaciones y a quiénes se deben enviar.
 
 1.  En el panel izquierdo, haga clic en **Notificaciones**.
@@ -152,10 +157,10 @@ Puede enviar notificaciones cuando se haya tomado o delegado una decisión o cua
     </tr>
     <tr class="odd">
     <td>Usuario</td>
-    <td>Usuarios específicos de Microsoft Dynamics 365 for Operations</td>
+    <td>Usuarios específicos de Microsoft Dynamics 365 for Finance and Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea enviar notificaciones y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Finance and Operations. Seleccione aquellos a los que desea enviar notificaciones y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -163,7 +168,8 @@ Puede enviar notificaciones cuando se haya tomado o delegado una decisión o cua
 
 8.  Repita los pasos 3 a 7 por cada uno de los eventos que haya seleccionado en el paso 2.
 
-## <a name="assign-a-decision"></a>Asignación de una decisión
+## Asignación de una decisión
+<a id="assign-a-decision" class="xliff"></a>
 Siga estos pasos para especificar a quién se debe asignar una decisión manual.
 
 1.  En el panel izquierdo, haga clic en **Asignación**.
@@ -215,10 +221,10 @@ Siga estos pasos para especificar a quién se debe asignar una decisión manual.
     </tr>
     <tr class="even">
     <td>Usuario</td>
-    <td>Usuarios específicos de Dynamics 365 for Operations</td>
+    <td>Usuarios específicos de Finance and Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea asignar la decisión y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Finance and Operations. Seleccione aquellos a los que desea asignar la decisión y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -249,7 +255,8 @@ Siga estos pasos para especificar a quién se debe asignar una decisión manual.
 
     Si el usuario no toma la decisión en el tiempo asignado, la decisión se considera vencida. Las decisiones vencidas se remiten a una instancia superior en función de las opciones que se seleccionen en el área **Remisión a una instancia superior** de la página.
 
-## <a name="specify-what-happens-when-a-decision-is-overdue"></a>Especificación de la acción que se realiza cuando vence una decisión
+## Especificación de la acción que se realiza cuando vence una decisión
+<a id="specify-what-happens-when-a-decision-is-overdue" class="xliff"></a>
 Si un usuario no toma la decisión en el tiempo asignado, la decisión se considera vencida. Las decisiones vencidas se pueden remitir a una instancia superior, o asignar a otro usuario de forma automática. Si la decisión ha vencido, siga estos pasos para remitirla a una instancia superior.
 
 1.  En el panel izquierdo, haga clic en **Remisión a una instancia superior**.
@@ -301,10 +308,10 @@ Si un usuario no toma la decisión en el tiempo asignado, la decisión se consid
     </tr>
     <tr class="odd">
     <td>Usuario</td>
-    <td>Usuarios específicos de Dynamics 365 for Operations</td>
+    <td>Usuarios específicos de Finance and Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea remitir la decisión para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Finance and Operations. Seleccione aquellos a los que desea remitir la decisión para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -320,7 +327,8 @@ Si un usuario no toma la decisión en el tiempo asignado, la decisión se consid
 5.  Repita los pasos 3 a 4 por cada usuario que se debe agregar a la ruta de remisión a una instancia superior. El orden de los usuarios se puede modificar.
 6.  Si los usuarios de la ruta de remisión a una instancia superior no toman la decisión en el tiempo asignado, lo hace el sistema. Para especificar la opción que el sistema selecciona, seleccione la fila **Acción** y, a continuación, en la pestaña **Finalizar acción**, seleccione una opción.
 
-## <a name="set-a-time-limit"></a>Definición de un límite de tiempo
+## Definición de un límite de tiempo
+<a id="set-a-time-limit" class="xliff"></a>
 Siga estos pasos si la decisión se debe tomar en un plazo específico. **Nota:** Las opciones que seleccione en este procedimiento anulan las opciones elegidas en las áreas **Asignación** y **Remisión a una instancia superior** de la página.
 
 1.  En el panel izquiero, haga clic en **Configuración avanzada**.

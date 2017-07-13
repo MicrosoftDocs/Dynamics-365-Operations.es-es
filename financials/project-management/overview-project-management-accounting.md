@@ -3,29 +3,30 @@ title: "Gestión de proyectos y contabilidad"
 description: "La funcionalidad de gestión de proyectos y contabilidad se puede usar en varias industrias para proporcionar un servicio, producir un producto o lograr un resultado."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a6235f36af6dfb2f4164405d384f13a7c1cde06
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 12afcde947463b3abf58dea6138653a32dcda6f1
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="project-management-and-accounting"></a>Gestión de proyectos y contabilidad
+# Gestión de proyectos y contabilidad
+<a id="project-management-and-accounting" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
@@ -34,12 +35,14 @@ La funcionalidad de gestión de proyectos y contabilidad se puede usar en varias
 
 Un proyecto es un grupo de actividades diseñado para proporcionar un servicio, producir un producto o lograr un resultado. Los proyectos consumen recursos y generan resultados financieros en forma de ingresos o activos
 
-## <a name="projects-across-industries"></a>Proyectos entre sectores
+## Proyectos entre sectores
+<a id="projects-across-industries" class="xliff"></a>
 La funcionalidad de contabilidad y administración de proyectos se puede usar en varios sectores, como se muestra en la siguiente ilustración. [![Proyectos entre sectores](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-En un centro de llamadas, se puede usar un ticket para describir el conjunto de acciones que se requieren para resolver una llamada. Las empresas de asesoría, como las agencias de publicidad o las organizaciones de asesoría técnica o de administración, hacen referencia a sus actividades como proyectos. En marketing, una campaña representa un conjunto de trabajos que se deben entregar. En la fabricación basada en proyectos, un pedido de producción está relacionado con el trabajo diverso que se debe realizar para producir algunos bienes terminados. Cualquiera que sea el nombre que se use para ellos, estos proyectos constan de recursos, programaciones y costes, y la funcionalidad de contabilidad y administración de proyectos de Microsoft Dynamics 365 for Operations puede ayudar con la planificación, la ejecución y el análisis de estos proyectos.
+En un centro de llamadas, se puede usar un ticket para describir el conjunto de acciones que se requieren para resolver una llamada. Las empresas de asesoría, como las agencias de publicidad o las organizaciones de asesoría técnica o de administración, hacen referencia a sus actividades como proyectos. En marketing, una campaña representa un conjunto de trabajos que se deben entregar. En la fabricación basada en proyectos, un pedido de producción está relacionado con el trabajo diverso que se debe realizar para producir algunos bienes terminados. Cualquiera que sea el nombre que se use para ellos, estos proyectos constan de recursos, programaciones y costes, y la funcionalidad de contabilidad y administración de proyectos de Microsoft Dynamics 365 Finance and Operations, Enterprise Edition puede ayudar con la planificación, la ejecución y el análisis de estos proyectos.
 
-## <a name="project-phases"></a>Fases del proyecto
+## Fases del proyecto
+<a id="project-phases" class="xliff"></a>
 Aunque el siguiente flujo de proceso está dirigido hacia los proyectos externos, o los proyectos que se completan para uno o más clientes, la funcionalidad también se aplica a proyectos internos, de solo coste. 
 
 ![3 etapas de un proyecto](./media/3-stages-of-a-project.png) 
@@ -50,10 +53,12 @@ Como se muestra en la ilustración anterior, la contabilidad y la gestión de pr
 2.  Ejecutar
 3.  Analizar
 
-## <a name="initiate-the-project"></a>Iniciar el proyecto
+## Iniciar el proyecto
+<a id="initiate-the-project" class="xliff"></a>
 Durante el inicio del proyecto, se producen varios procesos clave. Puede usar un presupuesto de proyecto para comunicar la mano de obra, los gastos y los materiales estimados al cliente. Puede registrar los términos de facturación, los límites y los acuerdos en un contrato de proyecto. Puede usar una estructura de descomposición del trabajo (WBS) para planificar y estimar el trabajo. Puede configurar previsiones y presupuestos para guiar la ejecución del proyecto. En el ejemplo siguiente se muestra la estructura de un proyecto.[![estructura de proyecto](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
-### <a name="create-project-quotations"></a>Crear presupuestos de proyecto
+### Crear presupuestos de proyecto
+<a id="create-project-quotations" class="xliff"></a>
 
 En la fase inicial de ventas de un proyecto, los presupuestos del proyecto le permiten proporcionar al cliente una oferta no vinculante. Un presupuesto puede incluir elementos como los artículos y los servicios que se van a presupuestar, la información básica de contacto, los acuerdos y descuentos comerciales especiales, así como posibles impuestos y suplementos.
 
@@ -61,25 +66,29 @@ También puede emitir una carta de garantía para una transacción de presupuest
 
 Para obtener más información, consulte [Presupuestos de proyecto](project-quotations.md).
 
-### <a name="create-project-contracts"></a>Crear contratos de proyectos
+### Crear contratos de proyectos
+<a id="create-project-contracts" class="xliff"></a>
 
 Cuando formaliza un contrato con un cliente o una fuente de financiación para completar un proyecto, debe crear un contracto de proyecto. A continuación, cuando cree el proyecto, debe asignarlo al contrato correspondiente. El tipo de proyecto que cree para un contrato de proyecto determinará el método de facturación usado para los clientes del proyecto. Puede modificar un contrato de proyecto y el proyecto relacionado, pero no puede cambiar el tipo de proyecto. Para obtener más información acerca de los tipos de proyectos, consulte la sección "Creación de proyectos”.
 
 Para obtener más información acerca de los contratos de proyecto, vea [Contratos de proyecto](project-contracts.md).
 
-### <a name="create-work-breakdown-structures"></a>Crear estructuras de descomposición del trabajo
+### Crear estructuras de descomposición del trabajo
+<a id="create-work-breakdown-structures" class="xliff"></a>
 
 El nivel de detalle de una WBS depende del nivel de precisión que se requiere en las estimaciones y el nivel de seguimiento que se requiere frente a las estimaciones. Los proyectos que tienen muy baja tolerancia para los desvíos en la programación o el coste normalmente requieren una WBS más detallado y también requieren seguimiento diligente del coste y del progreso del trabajo en relación con la WBS. 
 
 Para obtener más información, vea [Estructuras de descomposición del trabajo](work-breakdown-structures.md).
 
-### <a name="create-project-forecasts-and-budgets"></a>Crear las previsiones y presupuestos del proyecto
+### Crear las previsiones y presupuestos del proyecto
+<a id="create-project-forecasts-and-budgets" class="xliff"></a>
 
-Puede usar la previsión si su organización tiene una perspectiva operativa y se centra en los ingresos y costes derivados de transacciones específicas. Sin embargo, si su organización se centra en mayor medida en los importes financieros, puede usar la gestión presupuestaria. Cada método tiene sus propias ventajas. Para obtener más información, consulte [Previsiones y presupuestos del proyecto](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
+Puede usar la previsión si su organización tiene una perspectiva operativa y se centra en los ingresos y costes derivados de transacciones específicas. Sin embargo, si su organización se centra en mayor medida en los importes financieros, puede usar la gestión presupuestaria. Cada método tiene sus propias ventajas. Para obtener más información, consulte [Previsiones y presupuestos del proyecto](project-forecasts-budgets.md).
 
-### <a name="create-projects"></a>Crear proyectos
+### Crear proyectos
+<a id="create-projects" class="xliff"></a>
 
-Puede crear seis tipos de proyectos en Microsoft Dynamics 365 for Operations. Cada tipo de proyecto se configura de manera diferente para costes y reconocimiento de ingresos. El tipo de proyecto que seleccione dependerá del objetivo del proyecto. En la tabla siguiente se describe el uso habitual de cada tipo de proyecto.
+Puede crear seis tipos de proyectos en Microsoft Dynamics 365 for Finance and Operations. Cada tipo de proyecto se configura de manera diferente para costes y reconocimiento de ingresos. El tipo de proyecto que seleccione dependerá del objetivo del proyecto. En la tabla siguiente se describe el uso habitual de cada tipo de proyecto.
 
                                                                                                                                                                          |
 | Tipo de proyecto      | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -92,7 +101,8 @@ Puede crear seis tipos de proyectos en Microsoft Dynamics 365 for Operations. C
 | Hora              | Los proyectos de tiempo se usan para realizar el seguimiento del tiempo asociado con actividades no imputables y no productivas, como un proyecto para realizar un seguimiento del tiempo de baja por enfermedad de los trabajadores. Las transacciones en los proyectos de tiempo no se registran en el libro mayor. En su lugar, se incluyen en los informes de utilización del trabajador. En este caso, solo se podrán registrar las transacciones por horas en los proyectos de tiempo. Usa un diario o una hoja de horas de horas para registrar estas horas en el proyecto. Una vez se registran las horas, aparecen como transacciones de proyecto pero no tienen transacciones de asiento correspondientes. **Nota:** Las transacciones en proyectos de tiempo no se reflejan en la página **Registrar costes**, **Acumular ingresos** o **Crear propuestas de facturas**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 
-### <a name="assign-workers-categories-and-resources"></a>Asignar trabajadores, categorías y recursos
+### Asignar trabajadores, categorías y recursos
+<a id="assign-workers-categories-and-resources" class="xliff"></a>
 
 Puede programar recursos de trabajador en función de los requisitos y la programación de un proyecto, o en las aptitudes y la disponibilidad de trabajadores. Las capacidades de programación de recursos permiten la implementación de los trabajadores de la organización de manera efectiva y eficiente. Puede encontrar rápidamente a los trabajadores más cualificados para están disponibles para trabajar en su proyecto. También puede ver fácilmente cómo esos trabajadores se pueden usar de manera más eficaz durante el transcurso del proyecto. 
 
@@ -105,22 +115,26 @@ Estas son algunas de las maneras que puede usar la funcionalidad de programació
 -   Revisar la información acerca del uso de los trabajadores en una vista resumida (por ejemplo, por departamento o por trabajador) o en una vista detallada (por ejemplo, por trabajadores de un departamento o por detalle semanal de cada trabajador).
 -   Modificar las asignaciones de recursos para diversas unidades de tiempo, tales como día, semana o mes, para optimizar el uso que se hace de los trabajadores.
 
-## <a name="execute-the-project"></a>Ejecutar el proyecto
+## Ejecutar el proyecto
+<a id="execute-the-project" class="xliff"></a>
 Durante la ejecución de proyectos, los miembros del equipo o los directores registran el trabajo y los gastos en que se incurre, usando hojas de horas, informes de gastos y otros documentos empresariales. Los directores de proyecto tienen herramientas que les permiten supervisar el consumo de importes presupuestados para el proyecto. Los directores de proyecto también pueden pedir, seleccionar o adquirir materiales para proyectos mediante pedidos de compra y otros documentos empresariales. Las facturas se preparan y se aprueban, de manera que se pueda facturar a los clientes por el trabajo en curso. Por último, los ingresos se reconocen durante este proceso para afectar a las operaciones financieras de la organización.
 
-### <a name="manage-work-breakdown-structures"></a>Administrar estructuras de descomposición del trabajo
+### Administrar estructuras de descomposición del trabajo
+<a id="manage-work-breakdown-structures" class="xliff"></a>
 
 Una WBS es una descripción del trabajo que se completará para un proyecto. Una WBS es una jerarquía de tareas. Representa no solo el trabajo para cada tarea, sino también el tamaño, el coste y la duración de tarea. 
 
 Para obtener más información, vea [Estructuras de descomposición del trabajo](work-breakdown-structures.md).
 
-### <a name="manage-project-forecasts-and-budgets"></a>Gestionar presupuestos y previsiones de proyecto
+### Gestionar presupuestos y previsiones de proyecto
+<a id="manage-project-forecasts-and-budgets" class="xliff"></a>
 
 Hay dos formas de gestionar y controlar los proyectos: las previsiones y los presupuestos de proyecto. Puede usar la previsión si su organización tiene una perspectiva operativa y se centra en los ingresos y costes derivados de transacciones específicas. Sin embargo, si su organización se centra en mayor medida en los importes financieros, puede usar la gestión presupuestaria.
 
-Para obtener más información, consulte [Previsiones y presupuestos del proyecto](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
+Para obtener más información, consulte [Previsiones y presupuestos del proyecto](project-forecasts-budgets.md).
 
-### <a name="create-production-orders"></a>Crear órdenes de producción
+### Crear órdenes de producción
+<a id="create-production-orders" class="xliff"></a>
 
 Un pedido de producción relacionado con el proyecto se puede vincular con un requisito de artículo o un pedido de ventas usando el método de artículo consumido o de artículo finalizado. Además, si el pedido de producción se creó manualmente, no existe un vínculo entre el pedido de producción y el pedido de ventas o el requisito del artículo (ningún vínculo al pedido). Sin embargo, si el pedido de producción se creó automáticamente para satisfacer un pedido de ventas o un requisito de artículo, existe un vínculo entre el pedido de producción y el pedido de ventas o el requisito del artículo (vínculo al pedido). 
 
@@ -131,11 +145,13 @@ Según las combinaciones de estos factores, utilice uno de los métodos siguient
 -   **Artículo consumido/vínculo al pedido**: vincule el proyecto a un requisito de artículo. Mediante este método, se podrán ver los costes reales del proyecto cuando la producción tenga el estado **Iniciado** o se haya notificado como terminado. Los costes se registrarán como múltiples transacciones de artículo del proyecto para materias primas y horas consumidas para la producción. Cuando se actualice el albarán para el requisito de artículo, no se registrarán costes del proyecto. También puede definir el nivel de la jerarquía de la lista de materiales (L. MAT) en la que se siguen los proyectos de la producción.
 -   ****Artículo consumido/sin vínculo al pedido**** – vincule el proyecto a un requisito de artículo. Mediante este método, se podrán ver los costes reales del proyecto cuando la producción tenga el estado **Iniciado** o se haya notificado como terminado. Los costes se registrarán como múltiples transacciones de artículo del proyecto para materias primas y horas consumidas para la producción. También puede definir el nivel de la jerarquía de la lista de materiales en la que se siguen los proyectos de la producción.
 
-### <a name="procure-products-and-services"></a>Adquirir productos y servicios
+### Adquirir productos y servicios
+<a id="procure-products-and-services" class="xliff"></a>
 
 La compra y venta de artículos constituyen actividades fundamentales en muchos negocios centrados en proyectos.
 
-#### <a name="purchase-orders-for-projects"></a>Pedidos de compra para proyectos
+#### Pedidos de compra para proyectos
+<a id="purchase-orders-for-projects" class="xliff"></a>
 
 La finalidad del pedido de compra determina cuándo se consume el pedido de compra y, por tanto, cuándo se cargan los artículos en un proyecto.
 
@@ -175,7 +191,8 @@ La finalidad del pedido de compra determina cuándo se consume el pedido de comp
 </tbody>
 </table>
 
-#### <a name="sales-orders-for-projects"></a>Pedidos de ventas para proyectos
+#### Pedidos de ventas para proyectos
+<a id="sales-orders-for-projects" class="xliff"></a>
 
 En Gestión de proyectos y contabilidad, puede registrar el consumo de artículos de varias formas. Puede vender artículos o artículos de compra de un proyecto o reservar artículos para un proyecto. 
 
@@ -198,7 +215,8 @@ En la siguiente tabla, se muestran los métodos para pedir artículos y el modo 
 | Requisito de artículo  | Especifique los artículos que no se consumirán inmediatamente. Este método permite que los usuarios realicen un seguimiento del número de artículos que se ha consumido en un único registro de requisitos de artículos.    | Las transacciones de artículos se consumen cuando se actualiza el albarán. Es decir, el requisito de artículo se crea al registrar el albarán. |
 | Pedidos de compra   | Se especifican las transacciones en una de tres ubicaciones, en función del método de compra.                                                                              | Las transacciones de artículos se consumen cuando se actualiza el albarán o cuando se factura al cliente o proveedor.                                      |
 
-### <a name="process-project-invoices"></a>Procesar las facturas del proyecto
+### Procesar las facturas del proyecto
+<a id="process-project-invoices" class="xliff"></a>
 
 El tipo de proyecto determina el procedimiento de facturación que se debe aplicar. Solo se pueden facturar los dos tipos de proyecto externo (Tiempo y material y Precio fijo). Los proyectos de tiempo y material y los proyectos de precio fijo están siempre vinculados a un contrato de proyecto. 
 
@@ -208,9 +226,10 @@ Antes de crear una factura de cliente para un proyecto, puede crear una factura 
 Para obtener más información acerca de cómo procesar facturas de proyectos, consulte [Facturación del proyecto](../accounts-payable/project-invoicing.md).
 
 
-### <a name="calculate-the-cost-to-complete-a-project"></a>Calcular el coste para completar un proyecto
+### Calcular el coste para completar un proyecto
+<a id="calculate-the-cost-to-complete-a-project" class="xliff"></a>
 
-Al crear una estimación, puede elegir el método que se usa para calcular el coste para completar el proyecto. Seleccione un método en el campo **Método de coste para completar**de la página **Crear estimación**. El método de coste seleccionado se aplica por separado a cada línea de coste de la estimación. Mientras que una línea tiene un estado de **Creado**, puede cambiar el método que se le aplica en la página **Estimación de coste**. 
+Al crear una estimación, puede elegir el método que se usa para calcular el coste para completar el proyecto. Seleccione un método en el campo **Método de coste para completar** de la página **Crear estimación**. El método de coste seleccionado se aplica por separado a cada línea de coste de la estimación. Mientras que una línea tiene un estado de **Creado**, puede cambiar el método que se le aplica en la página **Estimación de coste**. 
 
 La tabla siguiente describe los métodos para calcular el coste para completar un proyecto.
 
@@ -228,7 +247,7 @@ La tabla siguiente describe los métodos para calcular el coste para completar u
 <tbody>
 <tr class="odd">
 <td>Coste total – Real</td>
-<td>Los costes estimados se deben especificar manualmente. Cuando se complete la columna <strong>Coste total</strong> o <strong>Cantidad total</strong> en la página <strong>Estimación de coste </strong>, los costes reales se restan de los totales especificados por el usuario. El resultado es el coste para completar el proyecto. Normalmente, no se realiza un seguimiento del progreso de costes basado en, por ejemplo, el número de comidas y de estancias de hotel que se registran en cada período. En su lugar, suele basarse en una comparación con el importe total de las horas estimadas. Este planteamiento no necesita un modelo de previsión y el coste o la cantidad total se puede cambiar manualmente. Cuando se especifica un valor en la columna <strong>Coste total</strong> o <strong>Cantidad total</strong>, Microsoft Dynamics 365 for Operations compara este valor con las transacciones reales que se han registrado en el período y, a continuación, disminuye el valor de la columna <strong>Cantidad para completar</strong> o <strong>Coste para completar</strong>.</td>
+<td>Los costes estimados se deben especificar manualmente. Cuando se complete la columna <strong>Coste total</strong> o <strong>Cantidad total</strong> en la página <strong>Estimación de coste </strong>, los costes reales se restan de los totales especificados por el usuario. El resultado es el coste para completar el proyecto. Normalmente, no se realiza un seguimiento del progreso de costes basado en, por ejemplo, el número de comidas y de estancias de hotel que se registran en cada período. En su lugar, suele basarse en una comparación con el importe total de las horas estimadas. Este planteamiento no necesita un modelo de previsión y el coste o la cantidad total se puede cambiar manualmente. Cuando se especifica un valor en la columna <strong>Coste total</strong> o <strong>Cantidad total</strong>, Finance and Operations compara este valor con las transacciones reales que se han registrado en el período y, a continuación, disminuye el valor de la columna <strong>Cantidad para completar</strong> o <strong>Coste para completar</strong>.</td>
 </tr>
 <tr class="even">
 <td>Presupuesto total - Real</td>
@@ -238,7 +257,7 @@ La tabla siguiente describe los métodos para calcular el coste para completar u
 <li>Compare las transacciones de previsión con las transacciones reales.</li>
 <li>Mantenga, reduzca o actualice las estimaciones para el siguiente período.</li>
 </ol>
-Microsoft Dynamics 365 for Operations no disminuye automáticamente las estimaciones previstas. Por tanto, es buena idea mantener un modelo de previsión original en el proyecto de precio fijo para establecer una base para comparación una vez completado el proyecto. 
+Finance and Operations no disminuye automáticamente las estimaciones previstas. Por tanto, es buena idea mantener un modelo de previsión original en el proyecto de precio fijo para establecer una base para comparación una vez completado el proyecto. 
 > [!NOTE] Al seleccionar este método, use al menos dos modelos de previsión. Un modelo debe contener la previsión original. Para el otro modelo, debe copiar las transacciones de previsión de otro modelo. Este método solo es válido para proyectos de precios fijos e inversión.</td>
 > </tr>
 <tr class="odd">
@@ -260,18 +279,21 @@ Microsoft Dynamics 365 for Operations no disminuye automáticamente las estimaci
 </tbody>
 </table>
 
-## <a name="analyze-the-project"></a>Analizar el proyecto
+## Analizar el proyecto
+<a id="analyze-the-project" class="xliff"></a>
 En su nivel más básico, un proyecto se usa para agrupar transacciones que registran costes y, a continuación, registra estos costes en la contabilidad general. 
 
 Normalmente, estas transacciones son el resultado de documentos empresariales, como hojas de horas, informes de gastos, facturas de proveedor o transacciones de inventario. El ciclo de vida de un proyecto se inicia normalmente con estimaciones, previsiones y presupuestos que ayudan a planificar y anticipan el trabajo y el impacto financiero del proyecto. Al analizar un proyecto, puede evaluar no solo las transacciones que tuvieron lugar durante el proyecto, sino también la precisión de sus estimaciones y previsiones, las tasas de utilización de los miembros del equipo del proyecto y el éxito total del proyecto.
 
-### <a name="analyze-cash-flow"></a>Analizar el flujo de efectivo
+### Analizar el flujo de efectivo
+<a id="analyze-cash-flow" class="xliff"></a>
 
 La supervisión del flujo de efectivo permite revisar el flujo de efectivo previsto y el real de un proyecto. Puede revisar los flujos de efectivo mientras un proyecto está en curso o puede ver los flujos de efectivo de un proyecto completado. 
 
 La supervisión de los flujos de efectivo le permite evaluar un proyecto individual, utilizar los informes para ver varios proyectos y transferir los flujos de efectivo del proyecto a las previsiones de flujo de efectivo en la contabilidad general.
 
-#### <a name="cash-inflow-forecasting"></a>Previsiones de flujos de efectivo entrantes
+#### Previsiones de flujos de efectivo entrantes
+<a id="cash-inflow-forecasting" class="xliff"></a>
 
 En función de la configuración, puede prever los flujos de entrada para un proyecto seleccionado. Por ejemplo, si la fecha de proyecto es el 5 de marzo de 2012 y la factura se emite el 31 de marzo de 2012, esta es la manera en que puede realizar la previsión de la fecha de vencimiento y de la fecha de pago de ventas esperada:
 
@@ -287,7 +309,8 @@ Los días de almacenaje general pueden sustituir los días de almacenaje o agreg
 
 Configure los días de almacenaje individuales en el contrato del proyecto. Los días se calculan según la fecha de vencimiento de la factura de ventas y la experiencia de la organización con un patrón de pago del cliente.
 
-#### <a name="actual-cash-inflow"></a>Flujo de entrada de efectivo real
+#### Flujo de entrada de efectivo real
+<a id="actual-cash-inflow" class="xliff"></a>
 
 El flujo de entrada de efectivo real se parece a la previsión, pero puede comenzar sus cálculos a partir de la fecha de la primera factura. Este es un ejemplo:
 
@@ -295,7 +318,8 @@ El flujo de entrada de efectivo real se parece a la previsión, pero puede comen
 -   **Fecha de vencimiento:** 16 de marzo de 2012. Las condiciones de pago se establecen en 14 días.
 -   **Fecha esperada de pago de ventas:** 29 de mazo de 2012. Este cálculo incluye tres días de almacenaje general y 10 los días de almacenaje.
 
-#### <a name="cost-forecasting"></a>Previsión de costes
+#### Previsión de costes
+<a id="cost-forecasting" class="xliff"></a>
 
 De acuerdo con los días que se definen, la fecha de pago de costes puede diferir de la fecha del proyecto. En este caso, la fecha de pago de coste se calcula sumando el número de días a partir de la fecha del proyecto al número de días en las condiciones de pago. 
 
@@ -316,7 +340,7 @@ De acuerdo con esta configuración, esta es la fecha de pago de costes para cada
 
 La fecha de pago de los costes no se calcula en días de almacenaje. Cuando se completa un proyecto y toda la gestión de costes y facturación, tanto los costes como las ventas se registrarán en las cuentas de ganancias y pérdidas. 
 
-Cuando se completan todas las ventas y facturas de proveedor, puede ver la relación entre los campos en la página **Flujo de efectivo**y los campos de la página **Informes de proyecto**.
+Cuando se completan todas las ventas y facturas de proveedor, puede ver la relación entre los campos en la página **Flujo de efectivo** y los campos de la página **Informes de proyecto**.
 
 | Página Flujo de efectivo | Página Informes de proyecto |
 |----------------|-------------------------|
@@ -324,16 +348,18 @@ Cuando se completan todas las ventas y facturas de proveedor, puede ver la relac
 | Flujos de salida de efectivo  | Coste total              |
 | Flujos de efectivo netos | Margen bruto            |
 
-### <a name="review-costs"></a>Revisar los costes
+### Revisar los costes
+<a id="review-costs" class="xliff"></a>
 
 Puede supervisar los costes en los que incurre su organización durante un proyecto en la página **Control de costes**. Comparar los costes presupuestados originales para el proyecto con los costes reales actuales y los gastos comprometidos, puede determinar si el proyecto está en seguimiento, por encima del presupuesto o por debajo del presupuesto. 
 
 > [!NOTE] 
 > Cuando se usa la página **Control de costes** para ver el estado actual de los costes del proyecto, use los modelos de previsión seleccionados para presupuestos originales y restantes. Si selecciona otros modelos de previsión al calcular costes, los resultados del cálculo no serán precisos.
 
-#### <a name="viewing-the-remaining-budgeted-amounts"></a>Ver los importes presupuestados pendientes
+#### Ver los importes presupuestados pendientes
+<a id="viewing-the-remaining-budgeted-amounts" class="xliff"></a>
 
-Si está seleccionada la opción **Presupuesto restante**como el método de control de costes en la página **Parámetros de gestión de proyectos y contabilidad**, la página **Control de costes** calcula los costes que no se han registrado como reales o marcado como comprometidos. Específicamente, los importes de la pestaña **General** en el panel inferior de la página **Control de costes**se calculan de las siguientes formas:
+Si está seleccionada la opción **Presupuesto restante** como el método de control de costes en la página **Parámetros de gestión de proyectos y contabilidad**, la página **Control de costes** calcula los costes que no se han registrado como reales o marcado como comprometidos. Específicamente, los importes de la pestaña **General** en el panel inferior de la página **Control de costes** se calculan de las siguientes formas:
 
 -   **Coste real**: importe total que se ha dedicado al proyecto para la línea de costes seleccionada. El importe del coste real se calcula en la página **Actualizaciones de contabilidad**.
 -   **Gasto comprometido**: el importe adicional de gastos que la entidad jurídica se ha comprometido a pagar. Los importes de gasto comprometido específicos se calculan en la página **Gastos comprometidos**.
@@ -348,7 +374,8 @@ En la página **Control de costes**, en la pestaña **Desviación**, puede ver u
 -   **Desviación según cantidad**: la diferencia total entre el presupuesto original previsto y el total previsto. Esta diferencia se puede expresar matemáticamente como (Cantidad prevista total) x (Precio medio original - Precio medio total). Este cálculo solo se aplica a las horas del proyecto.
 -   **Desviación según precio**: la diferencia total entre el presupuesto original previsto y el total previsto. Esta diferencia se puede expresar matemáticamente como (Precio previsto original) x (Cantidad prevista original - Cantidad prevista total). Este cálculo solo se aplica a las horas del proyecto.
 
-#### <a name="viewing-the-total-budgeted-amounts"></a>Visualización de los importes presupuestados totales
+#### Visualización de los importes presupuestados totales
+<a id="viewing-the-total-budgeted-amounts" class="xliff"></a>
 
 Si la opción **Presupuesto total** está seleccionada como el método de control de costes en la página **Parámetros de gestión de proyectos y contabilidad**, la página **Control de costes** calcula los costes reales y los costes totales del proyecto para ayudarle a detectar las diferencias entre los dos. Específicamente, en la página **Control de costes**, los importes de las columnas del panel inferior de la pestaña **General** se calculan de las siguientes formas:
 
@@ -365,7 +392,8 @@ En la página **Control de costes**, en la pestaña **Desviación**, puede ver l
 -   **Desviación según cantidad**: la diferencia total entre el presupuesto original y el presupuesto total. Este importe se calcula restando las horas del presupuesto total de las horas del presupuesto original y multiplicando luego la diferencia por el precio de coste presupuestado original. Esta diferencia se puede expresar matemáticamente como (Precio de coste presupuestado original) × (Horas del presupuesto original – Horas del presupuesto total). Este cálculo solo se aplica a las horas del proyecto.
 -   **Desviación según precio**: este importe se calcula restando las horas del presupuesto total de las horas del presupuesto original y multiplicando la diferencia por el número total de horas consumidas. Esta diferencia se puede expresar matemáticamente como (Horas consumidas totales) x (Horas del presupuesto original – Horas del presupuesto total). Este cálculo solo se aplica a las horas del proyecto.
 
-### <a name="analyze-utilization"></a>Analizar la utilización
+### Analizar la utilización
+<a id="analyze-utilization" class="xliff"></a>
 
 La tasa de utilización es el porcentaje de tiempo en que un trabajador realiza trabajo facturable o trabajo productivo en un período de trabajo específico. Las horas facturables son las horas del trabajador que se pueden cargar a un cliente específico. 
 
@@ -392,7 +420,8 @@ En la página **Utilización de horas**, junto con el porcentaje total de la tas
 
 Al calcular la tasa de utilización para un trabajador, puede usar horas de norma o las horas incluidas. Si usa horas incluidas, debe asegurarse de que los trabajadores registran todo su horario de trabajo para los períodos de la hoja de horas, ya que el cálculo se expresa como un porcentaje de las horas que se especifican. Al calcular la tasa de utilización de horas para un proyecto, un contrato de proyecto, un registro de clientes o una categoría, debe usar las horas incluidas para el cálculo.
 
-### <a name="review-project-statements"></a>Revisar informes del proyecto
+### Revisar informes del proyecto
+<a id="review-project-statements" class="xliff"></a>
 
 Puede crear un informe del proyecto para ver una instantánea rápida del progreso de un proyecto. Cuando ejecute un informe del proyecto, puede especificar los criterios que se usarán para calcular el informe haciendo selecciones en la pestaña **General** de la página **Informes de proyecto**. Puede seleccionar para incluir o excluir la siguiente información:
 

@@ -3,14 +3,14 @@ title: "Visión general de pedidos de compra"
 description: "Este artículo proporciona información general acerca de los pedidos de compra (PC) y vínculos a artículos adicionales relacionados con las distintas etapas por las que pasa un pedido de compra."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93083
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
@@ -18,17 +18,20 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 88fa3fb97621e0f4a226a45b36809e824c807420
+ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
+ms.openlocfilehash: a5dd28e79cbd66e79311c0549c63ea844394ab14
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/09/2017
 
 
 ---
 
-# <a name="purchase-order-overview"></a>Visión general de pedidos de compra
+# Visión general de pedidos de compra
+<a id="purchase-order-overview" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Este artículo proporciona información general acerca de los pedidos de compra (PC) y vínculos a artículos adicionales relacionados con las distintas etapas por las que pasa un pedido de compra.
@@ -46,9 +49,10 @@ Los siguientes artículos proporcionan una visión general de las distintas fase
 -   [Creación de pedido de compra](purchase-order-creation.md)
 -   [Confirmación y aprobación del pedido de compra](purchase-order-approval-confirmation.md)
 -   [Recepción de producto frente a pedidos de compra](product-receipt-against-purchase-orders.md)
--   [Visión general de facturas de proveedores](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+-   [Visión general de facturas de proveedores](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
-## <a name="types-of-purchase-orders"></a>Tipos de pedidos de compra
+## Tipos de pedidos de compra
+<a id="types-of-purchase-orders" class="xliff"></a>
 Hay tres tipos de pedidos de compra. Al crear un pedido de compra, debe especificar el tipo. Puede configurar un tipo de pedido predeterminado para nuevos pedidos en la página **Parámetros de adquisición y abastecimiento**.
 
 | Tipo de pedido de compra        | Descripción                                                                                                                                                                                                                                                                           |
@@ -57,7 +61,8 @@ Hay tres tipos de pedidos de compra. Al crear un pedido de compra, debe especifi
 | Pedido de compra | Use este tipo para crear pedidos de compra cuando los pedidos se confirmen con un proveedor y conforme se procesen los pedidos a través de la recepción y la facturación antes de efectuar el pago al proveedor. Este tipo de pedido de compra es el más común.                                                                          |
 | Pedido devuelto | Utilice este tipo cuando se devuelvan mercancías al proveedor. Este tipo de pedido requiere que especifique el número de autorización de devolución de material (RMA) que le proporciona el proveedor. Especifique el número RMA en la pestaña **General** del pedido de compra. Las líneas de pedido deben tener cantidades negativas. |
 
-## <a name="purchase-order-statuses"></a>Estados de pedidos de compra
+## Estados de pedidos de compra
+<a id="purchase-order-statuses" class="xliff"></a>
 Los pedidos de compra incluyen varios campos de estado que indican el progreso del pedido. Todos estos campos son visibles en la vista **Encabezado** del pedido y algunos de ellos también son visibles en la visión general de cuadrícula de todos los pedidos. En el campo **Estado** se muestra el estado de las cantidades en el pedido. Los siguientes valores están disponibles:
 
 -   **Pedido abierto**: se han creado pedidos y las cantidades están en el pedido.
@@ -81,7 +86,8 @@ El campo **Estado de aprobación** se utiliza cuando un pedido de compra pasa po
 -   **Confirmado**: este estado se asigna una vez se ha confirmado el pedido. Normalmente, este estado es el último estado de aprobación que se asigna a un pedido.
 
 
-<a name="see-also"></a>Consulte también
+Consulte también
+<a id="see-also" class="xliff"></a>
 --------
 
 [Creación de pedido de compra](purchase-order-creation.md)
@@ -90,7 +96,7 @@ El campo **Estado de aprobación** se utiliza cuando un pedido de compra pasa po
 
 [Recepción de producto frente a pedidos de compra](product-receipt-against-purchase-orders.md)
 
-[Visión general de facturas de proveedores](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Visión general de facturas de proveedores](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

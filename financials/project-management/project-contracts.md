@@ -1,37 +1,38 @@
 ---
 title: Contratos de proyecto
-description: "Este artículo describe y proporciona ejemplos de contratos de proyecto que puede crear para diversos tipos de proyectos y fuentes de financiación, y cómo puede administrar contratos y clientes de proyecto de facturación en Microsoft Dynamics 365 for Operations."
+description: "Este artículo describe y proporciona ejemplos de contratos de proyecto que puede crear para diversos tipos de proyectos y fuentes de financiación, y cómo puede administrar contratos y clientes de proyecto de facturación en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9f3bdbd147f3132d64e3b9ac2bdd37f7278ae18d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2aa70e050bf068a26e2d0d86c26045fc000931eb
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="project-contracts"></a>Contratos de proyecto
+# Contratos de proyecto
+<a id="project-contracts" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo describe y proporciona ejemplos de contratos de proyecto que puede crear para diversos tipos de proyectos y fuentes de financiación, y cómo puede administrar contratos y clientes de proyecto de facturación en Microsoft Dynamics 365 for Operations.
+Este artículo describe y proporciona ejemplos de contratos de proyecto que puede crear para diversos tipos de proyectos y fuentes de financiación, y cómo puede administrar contratos y clientes de proyecto de facturación en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 El tipo de proyecto que cree para un contrato de proyecto determinará el método de facturación usado para los clientes del proyecto. Puede cambiar un contrato de proyecto y el proyecto relacionado, pero no puede cambiar el tipo de proyecto. 
 
@@ -41,7 +42,8 @@ Cada proyecto que se facturará se debe asociar a un contrato de proyecto. La co
 
 En un contrato de proyecto se puede especificar una o más fuentes de financiación. Por tanto, puede dividir la facturación entre varios proveedores de fondos, configurar los límites de financiación para que la factura a las fuentes de financiación no incluyan importes superiores a los especificados y configurar reglas de financiación para el cargo de gastos.
 
-## <a name="funding-for-project-contracts"></a>Financiación para contratos de proyecto
+## Financiación para contratos de proyecto
+<a id="funding-for-project-contracts" class="xliff"></a>
 Algunos contratos de proyecto especifican que varias partes comparten las responsabilidad de la financiación de los costes del proyecto. A continuación se incluyen algunos ejemplos:
 
 -   Un cliente grande que tiene varias divisiones solicita que la financiación de un proyecto se divida por división.
@@ -49,7 +51,7 @@ Algunos contratos de proyecto especifican que varias partes comparten las respon
 -   Un proyecto de carretera está cofinanciado por dos municipios.
 -   Un proyecto de puente está financiado por una concesión del gobierno y una corporación privada.
 
-En Microsoft Dynamics 365 for Operations, puede dividir la facturación de una sola transacción o un proyecto completo entre varios clientes, concesiones u organizaciones. 
+En Finance and Operations, puede dividir la facturación de una sola transacción o un proyecto completo entre varios clientes, concesiones u organizaciones. 
 
 En proyectos con varios proveedores de fondos, todas las partes que contribuyen a la financiación de un proyecto de financiación avanzada se denominan fuentes de financiación. Después de definir un cliente, organización o concesión como fuente de financiación, se puede asignar a una o varias reglas de financiación. Las reglas de financiación contienen los criterios que determinan cómo se asignan gastos a las distintas fuentes de financiación de un proyecto. 
 
@@ -68,7 +70,8 @@ A continuación se muestran algunos pasos que puede llevar a cabo para facilitar
 
 Para determinar el grupo de impuestos que se asociará a una transacción, se busca el proyecto para una asignación de grupos de impuestos. Si no se han realizado asignaciones de grupos de impuestos a nivel de proyecto, se busca el contrato del proyecto.
 
-### <a name="example-multiple-funding-sources-simple"></a>Ejemplo: Varias fuentes de financiación (simple)
+### Ejemplo: Varias fuentes de financiación (simple)
+<a id="example-multiple-funding-sources-simple" class="xliff"></a>
 
 En la siguiente tabla encontrará escenarios para la administración de asignación de financiación entre fuentes de financiación múltiples. Estos escenarios se basan en las siguientes suposiciones:
 
@@ -164,7 +167,8 @@ En la siguiente tabla encontrará escenarios para la administración de asignaci
 </tbody>
 </table>
 
-### <a name="example-multiple-funding-sources-complex"></a>Ejemplo: Varias fuentes de financiación (complejo)
+### Ejemplo: Varias fuentes de financiación (complejo)
+<a id="example-multiple-funding-sources-complex" class="xliff"></a>
 
 Dispone de tres fuentes de financiación que desea usar en el siguiente orden:
 
@@ -249,7 +253,8 @@ En la siguiente tabla se examina este escenario con más detalle.
 </tbody>
 </table>
 
-## <a name="billing-rules"></a>Reglas de facturación
+## Reglas de facturación
+<a id="billing-rules" class="xliff"></a>
 En el contrato de un proyecto que se negocia con el cliente, se define cómo y cuándo se podrá facturar al cliente por el trabajo realizado en un proyecto. Una vez haya configurado el contrato de proyecto y el proyecto, podrá configurar las reglas de facturación para dicho proyecto. Las reglas de facturación se basan en los términos de proyecto que se especifican en el contrato de proyecto. Las reglas de facturación que puede crear dependen de las condiciones del contrato de proyecto y del tipo de proyecto, tal como el tiempo y el material o el precio fijo, que se asocia a la regla de facturación. Puede crear más de una regla de facturación para un contrato de proyecto. También puede asignar una regla de facturación a varios proyectos asociados al mismo contrato de proyecto y tener condiciones similares de facturación. 
 
 Puede configurar los tipos de reglas de facturación siguientes:
@@ -268,7 +273,8 @@ Cuando esté preparado para facturar al cliente, el importe que se facturará de
 
 En las secciones siguientes se proporcionan ejemplos que muestran cómo configurar y gestionar reglas de facturación para un proyecto.
 
-### <a name="example-create-a-billing-rule-that-is-based-on-the-number-of-units-delivered"></a>Ejemplo: Creación de una regla de facturación que se basa en el número de unidades entregadas
+### Ejemplo: Creación de una regla de facturación que se basa en el número de unidades entregadas
+<a id="example-create-a-billing-rule-that-is-based-on-the-number-of-units-delivered" class="xliff"></a>
 
 Su organización llega a un acuerdo para proporcionar un total de cinco sesiones de formación a los empleados de un cliente a un coste de 10.000 por sesión de formación. Su organización factura al cliente tras cada sesión de formación. 
 
@@ -280,14 +286,16 @@ Al configurar las reglas de facturación para el contrato, usa los siguientes va
 
 Una vez completada una sesión de formación, puede crear una factura de 10.000 € por la primera unidad entregada y enviar la factura al cliente.
 
-### <a name="example-create-a-billing-rule-that-is-based-on-a-specified-percentage-of-project-completion-manual-calculation"></a>Ejemplo: Creación de una regla de facturación que se basa en un porcentaje específico de finalización del proyecto (cálculo manual)
+### Ejemplo: Creación de una regla de facturación que se basa en un porcentaje específico de finalización del proyecto (cálculo manual)
+<a id="example-create-a-billing-rule-that-is-based-on-a-specified-percentage-of-project-completion-manual-calculation" class="xliff"></a>
 
 Su organización, una empresa de asesoría de software, llega a un acuerdo con un cliente para encargarse de parte del desarrollo de un producto. Su organización acepta entregar el código de software durante un período de seis meses. El cliente acepta pagar a su organización un total de 100.000 USD por el trabajo. Puede crear una regla de facturación para facturar al cliente según el porcentaje de trabajo completado del proyecto según se especifica en el contrato.
 
 -   Al final del primer mes, se reúne con el cliente para determinar el porcentaje de trabajo completado. Una vez que su empresa y el cliente revisen el proyecto, su empresa decide que el proyecto está completado en un 15 %.
 -   Crea una factura por 15.000 (15 % de 100.000) y se la envía al cliente.
 
-### <a name="example-create-a-billing-rule-that-is-based-on-a-specified-percentage-of-project-completion-automatic-calculation"></a>Ejemplo: Creación de una regla de facturación que se basa en un porcentaje específico de finalización del proyecto (cálculo automático)
+### Ejemplo: Creación de una regla de facturación que se basa en un porcentaje específico de finalización del proyecto (cálculo automático)
+<a id="example-create-a-billing-rule-that-is-based-on-a-specified-percentage-of-project-completion-automatic-calculation" class="xliff"></a>
 
 Su organización, una empresa de desarrollo de software, acuerda desarrollar un paquete de contabilidad de nóminas para un cliente por 30.000. El cliente acepta pagar a su organización según el porcentaje de trabajo completado. Se estima que los costes del proyecto son de 20.000 USD. El contrato del proyecto determina las categorías de trabajo para que su empresa usa en el proceso de facturación. Se configuran reglas de facturación que calculan automáticamente los importes de las facturas por el porcentaje de trabajo completado en cada categoría. Configura un presupuesto para cada categoría:
 
@@ -300,7 +308,8 @@ Al facturar al cliente por primera vez, el importe de la factura se calcula auto
 -   El importe de la factura de 8.667 se calcula automáticamente (33 de 20.000 más el 20 por ciento de 10.000).
 -   Crea una factura por 8.667 y se la envía al cliente.
 
-### <a name="example-create-a-billing-rule-that-is-based-on-agreed-upon-milestones"></a>Ejemplo: Creación de una regla de facturación que se basa en hitos acordados
+### Ejemplo: Creación de una regla de facturación que se basa en hitos acordados
+<a id="example-create-a-billing-rule-that-is-based-on-agreed-upon-milestones" class="xliff"></a>
 
 Su organización, una empresa de asesoría administrativa, acuerda llevar a cabo una investigación de mercado para un producto de consumo que el cliente quiere vender. El cliente acepta usar sus servicios durante tres meses, comenzando en marzo, y acuerda pagar a su organización 50.000 USD. El proyecto tiene tres hitos:
 
@@ -317,7 +326,8 @@ Al configurar el contrato de proyecto, acepta facturar al cliente según los hit
 
 Al completar el primer hito el 31 de marzo, márquelo como completado y, a continuación, cree una factura por 10.000 y envíela al cliente. No se puede crear una factura para un hito hasta que haya marcado el hito como completado.
 
-### <a name="example-create-a-billing-rule-that-is-based-on-services-plus-a-management-fee"></a>Ejemplo: Creación de una regla de facturación basada en servicios más una cuota administrativa
+### Ejemplo: Creación de una regla de facturación basada en servicios más una cuota administrativa
+<a id="example-create-a-billing-rule-that-is-based-on-services-plus-a-management-fee" class="xliff"></a>
 
 Su organización, una empresa de asesoría administrativa, acuerda llevar a cabo una investigación de mercado para evaluar la viabilidad que el cliente, una empresa minorista, está desarrollando. Las condiciones del acuerdo especifican que proporcionará los servicios de sus tres mejores asesores administrativos, que llevará a cabo la investigación según tiempo y material. El cliente acepta pagar 100 USD por hora por los asesores, más un 10% adicional de cuota administrativa por las horas de asesoría que se cargan al proyecto. 
 
@@ -331,7 +341,8 @@ Al crear una factura para el cliente, se factura un 10% de cuota administrativa 
 
 Si las cuotas son gravables a un cliente y selecciona un grupo de impuestos en el contrato del proyecto, el grupo de impuestos se especificará automáticamente en una regla de facturación de cuotas.
 
-### <a name="example-create-a-billing-rule-for-the-value-of-time-and-materials"></a>Ejemplo: Creación de una regla de facturación para el valor del tiempo y el material
+### Ejemplo: Creación de una regla de facturación para el valor del tiempo y el material
+<a id="example-create-a-billing-rule-for-the-value-of-time-and-materials" class="xliff"></a>
 
 Su organización, una empresa de consultoría de software, acuerda proporcionar cinco asesores técnicos para trabajar en un proyecto de desarrollo de software para un cliente durante los próximos seis meses. El cliente acepta pagar 150 por cada hora de asesoría, además del coste de los suministros de oficina. Su organización envía una factura al cliente al final de cada mes. 
 

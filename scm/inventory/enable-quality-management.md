@@ -1,16 +1,16 @@
 ---
 title: "Visión general de la gestión de la calidad"
-description: "Este artículo describe cómo puede usar la gestión de calidad en Microsoft Dynamics 365 for Operations para ayudar a mejorar la calidad del producto dentro de la cadena de suministro."
+description: "Este artículo describe cómo puede usar la gestión de calidad en Microsoft Dynamics 365 for Finance and Operations para ayudar a mejorar la calidad del producto dentro de la cadena de suministro."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
@@ -19,28 +19,30 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bb3f36bb425adffa7e055eba4e8732866cb67c49
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 255035bf13155190e59088a7f64f798c7462b885
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="quality-management-overview"></a>Visión general de la gestión de la calidad
+# Visión general de la gestión de la calidad
+<a id="quality-management-overview" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo describe cómo puede usar la gestión de calidad en Microsoft Dynamics 365 for Operations para ayudar a mejorar la calidad del producto dentro de la cadena de suministro.
+Este artículo describe cómo puede usar la gestión de calidad en Microsoft Dynamics 365 for Finance and Operations para ayudar a mejorar la calidad del producto dentro de la cadena de suministro.
 
-La gestión de calidad puede ayudarle a gestionar los plazos de entrega cuando maneja productos de disconformidad, independientemente de su punto de origen. Dado que los tipos de diagnóstico están vinculados a la corrección de los informes, Microsoft Dynamics 365 for Operations puede programar tareas para corregir los problemas y evitar que se repitan.
+La gestión de calidad puede ayudarle a gestionar los plazos de entrega cuando maneja productos de disconformidad, independientemente de su punto de origen. Dado que los tipos de diagnóstico están vinculados a la corrección de los informes, Microsoft Dynamics 365 for Finance and Operations puede programar tareas para corregir los problemas y evitar que se repitan.
 
 Además de la funcionalidad para gestionar la no conformidad, la gestión de calidad incluye la funcionalidad de realizar un seguimiento de las incidencias por tipo de problema (incluso problemas internos) y para identificar soluciones a corto plazo o a largo plazo. Las estadísticas acerca de los indicadores clave de rendimiento (KPI) proporcionan información sobre el historial de problemas de disconformidad anteriores y las soluciones utilizadas para corregirlos. Puede usar los datos históricos para revisar la eficacia de las medidas de calidad anteriores y determinar las medidas adecuadas que se deben usar en el futuro.
 
-Al configurar una asociación de calidad, Microsoft Dynamics 365 for Operations puede generar pedidos de calidad para varios procesos empresariales, eventos y condiciones. La asociación de calidad puede cubrir un artículo concreto, un determinado grupo de éstos o todos los artículos.
+Al configurar una asociación de calidad, Finance and Operations puede generar pedidos de calidad para varios procesos empresariales, eventos y condiciones. La asociación de calidad puede cubrir un artículo concreto, un determinado grupo de éstos o todos los artículos.
 
-## <a name="examples-of-the-use-of-quality-management"></a>Ejemplos del uso de la gestión de calidad
+## Ejemplos del uso de la gestión de calidad
+<a id="examples-of-the-use-of-quality-management" class="xliff"></a>
 La gestión de calidad es flexible y puede ejecutarse de distintas maneras para satisfacer los requisitos de niveles específicos de operaciones de la cadena de suministro. En los ejemplos siguientes se muestran usos posibles de estas características:
 
 -   Inicie automáticamente un proceso de control de calidad en función de los criterios predefinidos (sobre el registro del almacén de un pedido de compra para un proveedor específico).
@@ -50,7 +52,8 @@ La gestión de calidad es flexible y puede ejecutarse de distintas maneras para 
 -   Especifique un nivel de calidad aceptable (AQL) para controlar las tolerancias de medida de calidad.
 -   Especifique los recursos que una operación de inspección requiere, por ejemplo instrumentos de prueba y un área de prueba.
 
-## <a name="working-with-quality-associations"></a>Trabajar con asociaciones de calidad
+## Trabajar con asociaciones de calidad
+<a id="working-with-quality-associations" class="xliff"></a>
 El proceso empresarial que utiliza una asociación de calidad puede estar relacionado con varios documentos de origen, como pedidos de compra, pedidos de ventas o pedidos de producción. 
 
 Cada registro de asociación de calidad define el conjunto de pruebas, el nivel de calidad aceptable y el plan de muestreo que se aplica a los pedidos de calidad generados. Debe definir un registro de asociación de calidad para cada variación de un proceso empresarial. Por ejemplo, puede configurar una asociación de calidad que genere un pedido de calidad cuando se actualice una recepción de producto de pedido de compra. En función de la configuración del plan de ejecución, el propio proceso de activación puede bloquearse mientras que haya un pedido de calidad abierto o los siguientes procesos, por ejemplo, una factura de pedido de compra, se pueden bloquear. 
@@ -295,7 +298,8 @@ La siguiente tabla proporciona más información acerca de cómo se pueden gener
 </tbody>
 </table>
 
-## <a name="quality-management-pages"></a>Páginas de administración de calidad
+## Páginas de administración de calidad
+<a id="quality-management-pages" class="xliff"></a>
 <table>
 <colgroup>
 <col width="33%" />
@@ -356,7 +360,8 @@ Debe definir una asociación de calidad para cada variación de un proceso empre
 
 
 
-<a name="see-also"></a>Consulte también
+Consulte también
+<a id="see-also" class="xliff"></a>
 --------
 
 [Procesos de gestión de calidad](quality-management-processes.md)

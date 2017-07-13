@@ -3,7 +3,7 @@ title: Objetos de coste
 description: "Este artículo proporciona información sobre objetos de costes y explica cómo se acumulan los costes y las cantidades. Un objeto de coste es una entidad para la que se acumulan los costes y las cantidades. Una entidad de objeto de coste puede ser producto o variantes de producto, como variantes para estilo y color."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventCostOnhandItem
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19451
 ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
@@ -20,22 +20,24 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c818bfac6645b71bcc8b2249534aa80907786651
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 823d3edd106925339607d01fbf5f1921b85ff244
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="cost-objects"></a>Objetos de coste
+# Objetos de coste
+<a id="cost-objects" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
 Este artículo proporciona información sobre objetos de costes y explica cómo se acumulan los costes y las cantidades. Un objeto de coste es una entidad para la que se acumulan los costes y las cantidades. Una entidad de objeto de coste puede ser producto o variantes de producto, como variantes para estilo y color.  
 
-<a name="cost-objects"></a>Objetos de coste
+Objetos de coste
+<a id="cost-objects" class="xliff"></a>
 ------------
 
 La página **Objetos de coste** muestra todos los objetos de coste que se registran en un producto. Los objetos de coste se definen por datos desde los siguientes orígenes:
@@ -58,7 +60,8 @@ La tabla siguiente muestra qué es un objeto de coste y qué es un objeto de inv
 | Objeto de coste      | x           | x    |           |           |
 | Objeto de inventario | x           | x    |  x        | x         |
 
-## <a name="accumulation-of-costs-and-quantities"></a>Acumulación de costes y cantidades
+## Acumulación de costes y cantidades
+<a id="accumulation-of-costs-and-quantities" class="xliff"></a>
 -   El valor del campo **Valor** es una suma de los valores siguientes:
     -   Importe de coste físico
     -   Importe de coste financiero
@@ -71,7 +74,8 @@ La tabla siguiente muestra qué es un objeto de coste y qué es un objeto de inv
 
 **Nota**: El parámetro **Incluir valor físico en coste** no tiene ningún efecto en los cálculos precedentes.
 
-<a name="see-also"></a>Consulte también
+Consulte también
+<a id="see-also" class="xliff"></a>
 --------
 
 [Grupo de dimensiones de producto](https://technet.microsoft.com/en-us/library/aa499382.aspx)
@@ -80,7 +84,7 @@ La tabla siguiente muestra qué es un objeto de coste y qué es un objeto de inv
 
 [Grupo de dimensiones de seguimiento](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[Novedades o cambios en Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[Novedades y cambios](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed)
 
 [Entradas de costes](cost-entries.md)
 

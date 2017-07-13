@@ -3,15 +3,15 @@ title: "Directivas de triple conciliación"
 description: "Este artículo proporciona ejemplos de triple conciliación."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
@@ -19,22 +19,24 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b9f66a9a907cf01046c78677a3f1d55f112fa8c7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8ae07088fec05ad416ce1891dd0d0ecd489364ca
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="three-way-matching-policies"></a>Directivas de triple conciliación
+# Directivas de triple conciliación
+<a id="three-way-matching-policies" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
 Este artículo proporciona ejemplos de triple conciliación.
 
-<a name="example-three-way-matching-for-items"></a>Ejemplo: Triple conciliación para artículos
+Ejemplo: Triple conciliación para artículos
+<a id="example-three-way-matching-for-items" class="xliff"></a>
 -------------------------------------
 
 **Resumen**: Ken es controlador en las sedes corporativas de una entidad jurídica llamada Fabrikam. Ken decide que todas las facturas de proveedor basadas en pedidos de compra deben coincidir con las líneas de pedido de compra (doble conciliación). Para las compras de los artículos que se usarán como activos fijos, las facturas se deben coincidir con las líneas de pedido de compra y las líneas de recepción de producto (triple conciliación).
@@ -47,7 +49,8 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
 -   Phyllis y april son directores de contabilidad del departamento de los proveedores de la división de Estados Unidos de Fabrikam. Pueden aplicar la directiva corporativa y asegurarse de que las facturas se hayan pagado solo después de que las facturas se asocian al pedido de compra y las recepciones de bienes y servicios, según proceda.
 -   Tony es el director de producción para la división de Estados Unidos de Fabrikam. Él y otros personales de producción pueden asegurarse de que los artículos estén recibidos como se pidieron de proveedores, y explicados de modo que personal tengan lo que deben tener para llevar a cabo sus trabajos.
 
-### <a name="prerequisites"></a>Requisitos previos
+### Requisitos previos
+<a id="prerequisites" class="xliff"></a>
 
 -   Ken establece la directiva de conciliación en el nivel de entidad jurídica en Triple conciliación.
 -   Ken establece la actualización automática de la alternancia de estado de coincidencia del encabezado en la entidad jurídica en Sí.
@@ -61,12 +64,13 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
 
 -   Arnie, vendedor de clientes en Contoso, revise los envíos para la semana. Arnie selecciona transacciones de envío a la factura Fabrikam para la entrega de las máquinas de CNC Milicron. Arnie incluye un gasto para enviar y guiar. Fabrikam tendrá en cuenta el gasto formar parte del coste del activo.
 
-### <a name="scenario"></a>Escenario
+### Escenario
+<a id="scenario" class="xliff"></a>
 
 1.  Sammy, trabajador en el departamento de recepción de Fabrikam, recibe la cantidad total de máquinas que se envían de Contoso. Éste especifica una cantidad de 5 en una recepción de producto. Dado que el pedido de compra se ha recibido completamente, el estado del pedido de compra cambia a Recibido.
 2.  April, el coordinador de proveedores en Fabrikam, especifique y comprueba la factura que se produce por Contoso. Comprueba la siguiente información:
     -   Para los artículos que requieren triple conciliación, la cantidad de la línea de factura coincide con la cantidad que se ha recibido. La cantidad recibida se indica en la recepción de producto que se asigna a la factura.
-    -   Para los artículos que requieren doble o triple conciliación, los precios en la línea de factura se encuentran dentro de las tolerancias que se definen en Microsoft Dynamics 365 for Operations. Esto incluye los siguientes tipos de conciliación de precio:
+    -   Para los artículos que requieren doble o triple conciliación, los precios en la línea de factura se encuentran dentro de las tolerancias que se definen en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Esto incluye los siguientes tipos de conciliación de precio:
         -   Conciliación de precio neto unitario – el precio unitario neto de la línea de factura coincide con el precio unitario neto de la línea de pedido de compra, dentro del porcentaje de tolerancia. En este ejemplo, la tolerancia de precio unitario neto es el +8%.
         -   Conciliación de totales de precios: la desviación entre el importe neto de las líneas de facturas y el importe neto de las líneas de pedidos de compra deben estar dentro de los porcentajes de tolerancia permitidos. En este ejemplo, los totales de precio coincidentes tolerancia son los +15%.
 
@@ -79,7 +83,7 @@ La factura de papel de Contoso contiene la siguiente información.
 | Impuesto                         |          |            | 0,00       |
 | Total                       |          |            | 44.500,00  |
 
-En Microsoft Dynamics 365 for Operations, la línea de factura incluye la información siguiente.
+En Finance and Operations, la línea de factura incluye la información siguiente.
 
 | código de artículo                 | Cantidad | Precio unitario | Importe neto de línea | Directiva de conciliación    | Cantidad de recepciones de producto para asignar | Conciliación de precios | Conciliación total de precios |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -87,7 +91,8 @@ En Microsoft Dynamics 365 for Operations, la línea de factura incluye la inform
 
 Puesto que esta línea se aprobará el proceso de conciliación de facturas, la factura se pueda registrar.
 
-## <a name="example-three-way-matching-for-item-and-vendor-combinations"></a>Ejemplo: Triple conciliación para combinaciones de artículo y proveedor
+## Ejemplo: Triple conciliación para combinaciones de artículo y proveedor
+<a id="example-three-way-matching-for-item-and-vendor-combinations" class="xliff"></a>
 Resumen: Ken es el controlador en las jefaturas corporativas de una entidad jurídica denominada Fabrikam. Ken decide que todas las facturas basadas en pedidos de compra deben coincidir con las líneas de pedido de compra (doble conciliación). Cassie es la contable en la división de Fabrikam en Malasia. Ella especifica que los artículos seleccionados que se piden de determinados proveedores en Malasia deben coincidir con las líneas de pedido de compra y las líneas de recepción de producto (triple conciliación). También puede anular la directiva de conciliación a un nivel superior de conciliación para los pedidos de compra. 
 
 El volumen y los importes son pequeños, y ha habido problemas con la entrega de algunos proveedores en Malasia. Por estas razones, Cassie establece el nivel de comprobación para ciertas combinaciones de artículo y proveedor que se adquieren en Malasia en la triple conciliación. 
@@ -96,7 +101,8 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
 -   Ken es el controlador de la empresa de Fabrikam. Este puede ayudar a las personas de su organización a identificar y a sortear problemas con pedir, recepción, y pagar artículos (las mercancías y servicios) de los proveedores.
 -   Cassie es la contable en la división de Fabrikam en Malasia. Puede aplicar la directiva corporativa y asegurarse de que las facturas se hayan pagado solo después de que se asocien a las líneas de pedido de compra y recepciones de producto que representan el envío de bienes y servicios, según proceda. Ella también puede aumentar el nivel de comprobación a la triple conciliación para los artículos específicos para controlar los costes operativos.
 
-### <a name="prerequisites"></a>Requisitos previos
+### Requisitos previos
+<a id="prerequisites" class="xliff"></a>
 
 -   Ken establece la directiva de conciliación en el nivel de entidad jurídica en Doble conciliación.
 -   Ken establece el campo Conciliar totales de precios para la entidad jurídica en Porcentaje, y especifica 10% como porcentaje de tolerancia.
@@ -110,12 +116,13 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
     | MM01: mouse inalámbrico | 2        | 40,00      | 80,00      | Doble conciliación                | Triple conciliación                           |
     | Unidad USB             | 200      | 10,00      | 2.000,00   | Doble conciliación                | Doble conciliación                             |
 
-### <a name="scenario"></a>Situación
+### Situación
+<a id="scenario" class="xliff"></a>
 
 1.  Llegan los artículos. Se interrumpe a Sammy, trabajador en el departamento de recepción de Fabrikam en la división de Malasia, y no registra la recepción del producto inmediatamente.
 2.  April, el coordinador de proveedores en Fabrikam, especifique y comprueba la factura que se produce por Contoso. Comprueba la siguiente información:
     -   Para los artículos que requieren triple conciliación, la cantidad de la línea de factura coincide con la cantidad que se ha recibido. La cantidad recibida se indica en la recepción de producto que se asigna a la factura.
-    -   Para los artículos que requieren doble o triple conciliación, los precios en la línea de factura se encuentran dentro de las tolerancias que se definen en Microsoft Dynamics 365 for Operations. Esto incluye los siguientes tipos de conciliación de precio:
+    -   Para los artículos que requieren doble o triple conciliación, los precios en la línea de factura se encuentran dentro de las tolerancias que se definen en Finance and Operations. Esto incluye los siguientes tipos de conciliación de precio:
         -   Conciliación de precio neto unitario – el precio unitario neto de la línea de factura coincide con el precio unitario neto de la línea de pedido de compra, dentro del porcentaje de tolerancia. En este ejemplo, la tolerancia de precio unitario neto es el +2%.
         -   Conciliación de totales de precios: la desviación entre el importe neto de las líneas de facturas y el importe neto de las líneas de pedidos de compra deben estar dentro de los porcentajes de tolerancia permitidos. En este ejemplo, los totales de precio coincidentes tolerancia son los +10%.
 
@@ -128,7 +135,7 @@ La factura de papel de Contoso contiene la siguiente información.
 | Unidad USB             | 200      | 10,05      | 2.010,00   |
 | Factura total         |          |            | 7.092,00   |
 
-En Microsoft Dynamics 365 for Operations, la línea de factura incluye la información siguiente.
+En Finance and Operations, la línea de factura incluye la información siguiente.
 
 | código de artículo           | Cantidad | Precio unitario | Importe neto de línea | Directiva de conciliación    | Cantidad de recepciones de producto para asignar | Conciliación de precios | Conciliación total de precios |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|

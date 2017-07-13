@@ -3,7 +3,7 @@ title: "Simulación de precios"
 description: "Este artículo proporciona información acerca de la simulación de precios para los presupuestos. La simulación de precios le ayuda a evaluar el efecto de las deducciones en el precio de venta futuro durante el proceso de presupuesto, antes de confirmar un precio determinado."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
 ms.search.region: Global
@@ -19,15 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 293f09ca8758c0b1a66614eb9c75ca266b044fe7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c5381ab48e394702c2423de7a5b5cb9166993388
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="price-simulation"></a>Simulación de precios
+# Simulación de precios
+<a id="price-simulation" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
@@ -49,26 +50,31 @@ Al crear un presupuesto, puede configurar una alerta. Estas son algunas de las m
 -   Pueden mantenerle informado acerca del estado de los presupuestos de la organización.
 -   Pueden desencadenar una revisión de un presupuesto en particular o informarle cuando se han superado los límites de descuento.
 
-## <a name="price-simulation-and-discounts"></a>Simulación de precios y descuentos
+## Simulación de precios y descuentos
+<a id="price-simulation-and-discounts" class="xliff"></a>
 Para garantizar que los descuentos y precios se calculan correctamente, preste atención al ejecutar simulaciones de precios en presupuestos que tienen descuentos. Dado que todas las simulaciones de precios se tratan como descuentos especiales en la línea de presupuesto activa o en el presupuesto completo, debe realizar un seguimiento de las diferencias en los descuentos.
 
-### <a name="types-of-discounts-in-trade-agreements"></a>Tipos de descuentos de acuerdos comerciales
+### Tipos de descuentos de acuerdos comerciales
+<a id="types-of-discounts-in-trade-agreements" class="xliff"></a>
 
-Los acuerdos comerciales de Microsoft Dynamics 365 for Operations pueden tener cuatro tipos de precio/descuento. Estos descuentos pueden configurarse para diferentes artículos, clientes o grupos de precios, y pueden estar limitados por fecha. Para evitar cálculos erróneos, debe tener en cuenta los acuerdos comerciales al ejecutar simulaciones de precios. Estos son los cuatro tipos de descuentos de los acuerdos comerciales:
+Los acuerdos comerciales de Microsoft Dynamics 365 for Finance and Operations pueden tener cuatro tipos descuentos. Estos descuentos pueden configurarse para diferentes artículos, clientes o grupos de precios, y pueden estar limitados por fecha. Para evitar cálculos erróneos, debe tener en cuenta los acuerdos comerciales al ejecutar simulaciones de precios. Estos son los cuatro tipos de descuentos de los acuerdos comerciales:
 
 -   **Precio de ventas**: se pueden especificar precios de ventas independientes de artículos. Cuando se crean las líneas de presupuesto, el programa busca el precio de venta correcto de un artículo y lo transfiere a las líneas de presupuesto. Por lo tanto, un acuerdo comercial con este tipo de descuento no afecta a la simulación de precios. El precio de venta que se usa en la línea de presupuesto refleja el acuerdo comercial.
 -   **Descuento de línea**: se especifican descuentos de artículos especiales en función de la cantidad pedida. Los importes de línea suelen reducirse por el descuento de línea anterior a la ejecución de la simulación de precios. Por lo tanto, un acuerdo comercial con este tipo de descuento sí afecta a la simulación de precios.
 -   **Descuento multilínea**: si las cantidades combinadas superan el límite que ha definido, las combinaciones predefinidas de artículos pedidos activan un descuento en todo el pedido. Los importes de línea suelen reducirse por el descuento de línea anterior a la ejecución de la simulación de precios. Por lo tanto, un acuerdo comercial con este tipo de descuento sí afecta a la simulación de precios.
 -   **Descuento total**: si los importes combinados superan el límite que ha definido, los artículos pedidos predefinidos activan un descuento en todo el pedido. El descuento total se genera por las líneas de presupuesto. No obstante, debido a que el descuento total se aplica al total del presupuesto como un descuento, se reduce el importe total del presupuesto. Por lo tanto, un acuerdo comercial con este tipo de descuento sí afecta a la simulación de precios.
 
-### <a name="quotation-lines-and-trade-agreements"></a>Líneas de presupuesto y acuerdos comerciales
+### Líneas de presupuesto y acuerdos comerciales
+<a id="quotation-lines-and-trade-agreements" class="xliff"></a>
 
 Al crear o ajustar una línea de presupuesto, los descuentos de línea se calculan automáticamente. Se encuentra el precio de venta relevante para el artículo, según el acuerdo comercial.
 
-## <a name="price-simulation-examples"></a>Ejemplos de simulación de precios
+## Ejemplos de simulación de precios
+<a id="price-simulation-examples" class="xliff"></a>
 Los ejemplos siguientes utilizan la simulación de precios para encabezados de presupuesto y artículos de una línea.
 
-### <a name="price-simulation-for-quotation-headers"></a>Simulación de precios para encabezados de presupuesto
+### Simulación de precios para encabezados de presupuesto
+<a id="price-simulation-for-quotation-headers" class="xliff"></a>
 
 Crea un presupuesto con las siguientes líneas:
 
@@ -99,7 +105,8 @@ Ejecuta una simulación de precios y aplica un 15 por ciento de descuento total 
 | Margen de contribución nuevo en USD                       | 270,47 – 184,96                           | 85,51    |
 | Nuevo coeficiente de contribución                               | \[(270,47 – 184,96) ÷ 270,47\] × 100      | 31,61%   |
 
-### <a name="price-simulation-for-single-line-items"></a>Simulación de precios de artículos de una sola línea
+### Simulación de precios de artículos de una sola línea
+<a id="price-simulation-for-single-line-items" class="xliff"></a>
 
 Crea un presupuesto con las siguientes líneas:
 

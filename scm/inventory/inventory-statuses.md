@@ -3,14 +3,14 @@ title: Estados de inventario
 description: "Este artículo describe cómo puede usar los estados de inventario para clasificar y realizar un seguimiento del inventario."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 21331
 ms.assetid: b35f495f-de4f-48a0-9d09-4d06781d7650
 ms.search.region: Global
@@ -18,15 +18,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1565b7738260270a986b515dfd21931296ce83bd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b3ec66c805d028c20f3d3f95e7af9d78252828c7
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="inventory-statuses"></a>Estados de inventario
+# Estados de inventario
+<a id="inventory-statuses" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
@@ -44,7 +45,7 @@ A continuación, se muestran algunos ejemplos de las maneras en que puede usar e
 
 El estado de inventario es una de las dimensiones del grupo de dimensiones de almacenamiento. Los estados de inventario se pueden clasificar como disponibles o no disponibles, y puede usar el parámetro **Bloqueo del inventario** para bloquear los artículos que tienen un estado de inventario no disponible. Los artículos que tienen un estado bloqueado se consideran inventario físico y no se pueden usar en un pedido de producción, un pedido de ventas, un pedido de transferencia o una transacción de salida. 
 
-Puede usar artículos de almacén que tengan estados de inventario disponible o no disponible para el trabajo de entrada. Por ejemplo, crea un estado disponible con el nombre **Listo**, un estado no disponible con el nombre **Dañado** y un estado bloqueado con el nombre **Bloqueado**. Cuando crea un pedido de compra para artículos recibidos o devueltos, si cualquier artículo está dañado o roto, puede cambiar el estado de inventario de esos artículos a **Dañado**en la línea de pedido de compra. Después de recibir estos artículos, el estado se establece automáticamente en **Bloqueado**. Si escanea los artículos dañados con un dispositivo móvil, Microsoft Dynamics 365 for Operations puede usar las directrices de ubicación y las plantillas de trabajo para mostrar información acerca de una ubicación apropiada o el intervalo de ubicaciones en las que puede ubicar esos artículos. Para los artículos devueltos, se crea un tipo de asunto de **Reserva** en la página **Transacciones de inventario**. 
+Puede usar artículos de almacén que tengan estados de inventario disponible o no disponible para el trabajo de entrada. Por ejemplo, crea un estado disponible con el nombre **Listo**, un estado no disponible con el nombre **Dañado** y un estado bloqueado con el nombre **Bloqueado**. Cuando crea un pedido de compra para artículos recibidos o devueltos, si cualquier artículo está dañado o roto, puede cambiar el estado de inventario de esos artículos a **Dañado** en la línea de pedido de compra. Después de recibir estos artículos, el estado se establece automáticamente en **Bloqueado**. Si escanea los artículos dañados con un dispositivo móvil, Microsoft Dynamics 365 for Finance and Operations puede usar las directrices de ubicación y las plantillas de trabajo para mostrar información acerca de una ubicación apropiada o el intervalo de ubicaciones en las que puede ubicar esos artículos. Para los artículos devueltos, se crea un tipo de asunto de **Reserva** en la página **Transacciones de inventario**. 
 
 Para el trabajo de salida, use artículos que tengan un estado de inventario de disponible. Si tiene artículos que tiene un estado de **Roto**, y la planificación maestra se ejecuta en estos artículos, se considera que faltan los artículos y el inventario se reabastece automáticamente. 
 

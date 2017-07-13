@@ -1,15 +1,15 @@
 ---
 title: "Información general de secuencias numéricas"
-description: "Las secuencias numéricas de Microsoft Dynamics 365 for Operations se usan para generar identificadores únicos y legibles para los registros de datos maestros y los registros de transacciones que necesitan identificadores. El registro de datos maestros o de transacciones que necesita un identificador se denomina <em>referencia</em>."
+description: "Las secuencias numéricas de Microsoft Dynamics 365 for Finance and Operations se usan para generar identificadores únicos y legibles para los registros de datos maestros y los registros de transacciones que necesitan identificadores. El registro de datos maestros o de transacciones que necesita un identificador se denomina <em>referencia</em>."
 author: MargoC
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15461
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
@@ -17,29 +17,31 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a2dcbbbd0b67c171d5a26bbf2053d159f7367cc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d260f460bf0da072eb46909d8c28d18041ecaa78
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="number-sequence-overview"></a>Información general de secuencias numéricas
+# Información general de secuencias numéricas
+<a id="number-sequence-overview" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Las secuencias numéricas de Microsoft Dynamics 365 for Operations se usan para generar identificadores únicos y legibles para los registros de datos maestros y los registros de transacciones que necesitan identificadores. El registro de datos maestros o de transacciones que necesita un identificador se denomina <em>referencia</em>.
+Las secuencias numéricas de Microsoft Dynamics 365 for Finance and Operations se usan para generar identificadores únicos y legibles para los registros de datos maestros y los registros de transacciones que necesitan identificadores. El registro de datos maestros o de transacciones que necesita un identificador se denomina <em>referencia</em>.
 
-Para poder crear nuevos registros para una referencia en Microsoft Dynamics 365 for Operations, debe configurar una secuencia numérica y asociarla a la referencia. Se recomienda usar las páginas en **Administración de la organización** para configurar secuencias numéricas. Si se requiere una configuración de módulo específica, puede usar la página de parámetros en un módulo para especificar secuencias numéricas para sus referencias. Por ejemplo, en **Clientes** y **Proveedores**, puede configurar también grupos de secuencias numéricas para asignar secuencias numéricas específicas a proveedores o clientes concretos. Al configurar una secuencia numérica, debe especificar un ámbito, que defina qué organización usa la secuencia numérica. El ámbito puede ser **Compartido**, **Empresa**, **Entidad jurídica** o **Unidad operativa**. Los ámbitos **Entidad jurídica** y **Empresa** también se pueden combinar con **Período de calendario fiscal** para crear secuencias numéricas más específicas incluso. Los formatos de secuencia numérica constan de segmentos. Las secuencias numéricas con un ámbito distinto a **Compartido** pueden contener segmentos que correspondan al ámbito. Por ejemplo, una secuencia numérica con un ámbito **Entidad jurídica** puede contener un segmento de entidad jurídica. Al incluir un segmento de ámbito en el formato de secuencia numérica, puede identificar el ámbito de un registro concreto mirando su número. Además de los segmentos correspondientes a ámbitos, los formatos de secuencia numérica pueden contener segmentos **Constante** y **Alfanumérico**. Un segmento **Constante** contiene un conjunto de letras, números o símbolos que no cambian. Un segmento **Alfanumérico** contiene un conjunto de letras o números que aumentan cada vez que se usa un número. Use un signo de número (\#) para representar el incremento de números y un ampersand (&) para representar un incremento de letras. Por ejemplo, el formato \#\#\#\#\#\_2017 crea la secuencia 00001\_2017, 00002\_2017, etc.
+Para poder crear nuevos registros para una referencia en Microsoft Dynamics 365 for Finance and Operations, debe configurar una secuencia numérica y asociarla a la referencia. Se recomienda usar las páginas en **Administración de la organización** para configurar secuencias numéricas. Si se requiere una configuración de módulo específica, puede usar la página de parámetros en un módulo para especificar secuencias numéricas para sus referencias. Por ejemplo, en **Clientes** y **Proveedores**, puede configurar también grupos de secuencias numéricas para asignar secuencias numéricas específicas a proveedores o clientes concretos. Al configurar una secuencia numérica, debe especificar un ámbito, que defina qué organización usa la secuencia numérica. El ámbito puede ser **Compartido**, **Empresa**, **Entidad jurídica** o **Unidad operativa**. Los ámbitos **Entidad jurídica** y **Empresa** también se pueden combinar con **Período de calendario fiscal** para crear secuencias numéricas más específicas incluso. Los formatos de secuencia numérica constan de segmentos. Las secuencias numéricas con un ámbito distinto a **Compartido** pueden contener segmentos que correspondan al ámbito. Por ejemplo, una secuencia numérica con un ámbito **Entidad jurídica** puede contener un segmento de entidad jurídica. Al incluir un segmento de ámbito en el formato de secuencia numérica, puede identificar el ámbito de un registro concreto mirando su número. Además de los segmentos correspondientes a ámbitos, los formatos de secuencia numérica pueden contener segmentos **Constante** y **Alfanumérico**. Un segmento **Constante** contiene un conjunto de letras, números o símbolos que no cambian. Un segmento **Alfanumérico** contiene un conjunto de letras o números que aumentan cada vez que se usa un número. Use un signo de número (\#) para representar el incremento de números y un ampersand (&) para representar un incremento de letras. Por ejemplo, el formato \#\#\#\#\#\_2017 crea la secuencia 00001\_2017, 00002\_2017, etc.
 Ejemplos de secuencia numérica
 ------------------------
 
 En los siguientes ejemplos se muestra cómo usar segmentos para crear formatos de secuencia numérica. En concreto, en los ejemplos se muestran los efectos del uso de segmentos de ámbito.
-### <a name="expense-report-numbers"></a>Números de informes de gastos
+### Números de informes de gastos
+<a id="expense-report-numbers" class="xliff"></a>
 
-En el siguiente ejemplo, los números de informe de gastos se configuran para la entidad jurídica titulada **CS**. **Área:**Viajes y gastos **Referencia:**Número del informe de gastos **Ámbito:**Entidad jurídica **Entidad jurídica**CS
+En el siguiente ejemplo, los números de informe de gastos se configuran para la entidad jurídica titulada **CS**. **Área:** Viajes y gastos **Referencia:** Número del informe de gastos **Ámbito:** Entidad jurídica **Entidad jurídica** CS
 | Segmentos  | Tipo de segmento | Valor     |
 |-----------|--------------|-----------|
 | Segmento 1 | Entidad jurídica | CS        |
@@ -48,9 +50,10 @@ En el siguiente ejemplo, los números de informe de gastos se configuran para la
 
 **Ejemplo de número con formato**: CS-EXPENSE-0039 Puede configurar un formato de secuencia numérica similar para otras entidades jurídicas. Por ejemplo, para una entidad jurídica que se denomina **RW**, si cambia únicamente el valor del segmento de la entidad jurídica, el número con formato es RW-EXPENSE-0039. También puede cambiar el formato de secuencia numérica completo para otras entidades jurídicas. Por ejemplo, puede omitir el segmento de ámbito de entidad jurídica para crear un número con formato como Exp-0001.
 
-### <a name="sales-order-numbers"></a>Números de pedidos de ventas
+### Números de pedidos de ventas
+<a id="sales-order-numbers" class="xliff"></a>
 
-En el siguiente ejemplo, los números de pedidos de ventas se configuran para el id. de empresa **CEU**. **Área:**Ventas **Referencia:**Pedido de ventas**Ámbito:**Empresa **Empresa:**CEU
+En el siguiente ejemplo, los números de pedidos de ventas se configuran para el id. de empresa **CEU**. **Área:** Ventas **Referencia:** Pedido de ventas **Ámbito:** Empresa **Empresa:** CEU
 | Segmentos  | Tipo de segmento | Valor    |
 |-----------|--------------|----------|
 | Segmento 1 | Constante     | SO-      |
@@ -58,9 +61,10 @@ En el siguiente ejemplo, los números de pedidos de ventas se configuran para el
 
 **Ejemplo de número con formato**: SO-0029 Aunque no se incluye un segmento de ámbito en el formato, la numeración se reinicia para cada identificador de empresa. Si usa el mismo formato para todos los id. de empresa, se usan los mismos números en cada empresa. Por ejemplo, el número de pedido de ventas SO-0029 se usa en cada empresa. También puede cambiar el formato de secuencia numérica completo para otros id. de empresa.
 
-### <a name="purchase-requisition-numbers"></a>Números de solicitudes de compra
+### Números de solicitudes de compra
+<a id="purchase-requisition-numbers" class="xliff"></a>
 
-En el siguiente ejemplo, los números de solicitudes de compra son para toda la organización. **Área:**Compra **Referencia:**Solicitud de compra **Ámbito:**Compartido
+En el siguiente ejemplo, los números de solicitudes de compra son para toda la organización. **Área:** Compra **Referencia:** Solicitud de compra **Ámbito:** Compartido
 | Segmentos  | Tipo de segmento | Valor    |
 |-----------|--------------|----------|
 | Segmento 1 | Constante     | Sol      |
@@ -70,11 +74,13 @@ En el siguiente ejemplo, los números de solicitudes de compra son para toda la 
 -----------------------------------------------
 
 Tenga en cuenta la siguiente información acerca de la manera en que la configuración de las secuencias numéricas puede afectar al rendimiento del sistema para poder configurar secuencias numéricas.
-### <a name="continuous-and-non-continuous-number-sequences"></a>Secuencias numéricas continuas y no continuas
+### Secuencias numéricas continuas y no continuas
+<a id="continuous-and-non-continuous-number-sequences" class="xliff"></a>
 
 Las secuencias numéricas pueden ser continuas o no continuas. Una secuencia numérica continua no omite ningún número aunque los números no se pueden usar secuencialmente. Los números de una secuencia numérica no continua se usan secuencialmente pero la secuencia numérica puede omitir números. Por ejemplo, si un usuario cancela una transacción, se genera un número, aunque no se usa. En una secuencia numérica continua, dicho número se recicla posteriormente. En una secuencia numérica no continua, no se usa el número. Las secuencias numéricas continuas se necesitan normalmente para documentos externos, como pedidos de compra, pedidos de ventas y facturas. Sin embargo, las secuencias numéricas continuas pueden afectar de manera adversa los tiempos de respuesta del sistema porque el sistema debe solicitar un número de la base de datos cada vez que se crea un registro o documento nuevo. Si usa una secuencia numérica no continua, puede habilitar **Asignación previa** en la ficha desplegable **Rendimiento** de la página **Secuencias numéricas**. Al especificar una cantidad de números para preasignación, el sistema selecciona dichos números y los almacena en memoria. Los nuevos números se solicitan de la base de datos solo después de que se haya usado la cantidad preasignada. A menos que haya una norma legal para usar secuencias numéricas continuas, se recomienda usar las secuencias numéricas no continuas para un mejor rendimiento.
 
-### <a name="automatic-cleanup-of-number-sequences"></a>Limpieza automática de secuencias numéricas
+### Limpieza automática de secuencias numéricas
+<a id="automatic-cleanup-of-number-sequences" class="xliff"></a>
 
 En caso de fallo eléctrico, un error de aplicación u otro error inesperado, el sistema no podrá reciclar números de manera automática para las secuencias numéricas continuas. Puede ejecutar el proceso de limpieza manualmente o automáticamente para recuperar los números perdidos. Valore detenidamente el uso del servidor al planificar el proceso de limpieza. Es recomendable que realice la limpieza como un trabajo por lotes durante las horas de menor demanda.
 

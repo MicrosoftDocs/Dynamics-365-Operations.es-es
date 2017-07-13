@@ -1,15 +1,15 @@
 ---
 title: "Visión general de la administración de transporte"
-description: "Este tema ofrece una visión general de la funcionalidad de Administración de transporte en Microsoft Dynamics 365 for Operations."
+description: "Este tema ofrece una visión general de la funcionalidad de Administración de transporte en Microsoft Dynamics 365 for Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30251
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
@@ -17,22 +17,23 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 796bf42f103bd6d14e872138d07e4a911ddcab1a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2fbea4f5e86a6bef98be5df3a2b69aac36e371e5
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="transportation-management-overview"></a>Visión general de la administración de transporte
+# Visión general de la administración de transporte
+<a id="transportation-management-overview" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este tema ofrece una visión general de la funcionalidad de Administración de transporte en Microsoft Dynamics 365 for Operations.
+Este tema ofrece una visión general de la funcionalidad de Administración de transporte en Microsoft Dynamics 365 for Finance and Operations.
 
-La Administración de transporte le permite gestionar el transporte de su empresa e identificar soluciones de proveedor y de ruta para los pedidos de entrada y salida. Por ejemplo, puede identificar la ruta más rápida o la tarifa menos cara para un envío. En la tabla siguiente se describen los escenarios principales para usar la Administración de transporte en Microsoft Dynamics 365 for Operations.
+La Administración de transporte le permite gestionar el transporte de su empresa e identificar soluciones de proveedor y de ruta para los pedidos de entrada y salida. Por ejemplo, puede identificar la ruta más rápida o la tarifa menos cara para un envío. En la tabla siguiente se describen los escenarios principales para usar la Administración de transporte en Microsoft Dynamics 365 for Finance and Operations.
 
 <table>
 <colgroup>
@@ -68,23 +69,27 @@ La Administración de transporte le permite gestionar el transporte de su empres
 </tbody>
 </table>
 
-## <a name="planning-transportation-in-dynamics-365-for-operations"></a>Planificación del transporte en Dynamics 365 for Operations
+## Planificación del transporte en Finance and Operations
+<a id="planning-transportation-in-finance-and-operations" class="xliff"></a>
 En la Administración de transporte, la planificación del transporte se puede basar en órdenes o en los envíos que se crean a partir de esos pedidos. Los envíos siempre existen en algún punto específico pero no son necesarios para la planificación de transporte. Los pedidos de transferencia forman parte del escenario de salida y se pueden planificar junto con los pedidos de ventas. 
 
 ![Cargar dibujo](./media/Load-drawing1-1024x477.jpg)
 
-## <a name="inbound-transportation"></a>Transporte de entrada
-Cuando pide artículos a un proveedor, y los artículos se deben entregarse a su almacén, puede que desee organizar el transporte de los artículos usted mismo. Puede usar Dynamics 365 for Operations para planificar el transporte y la recepción de la carga de entrada. En la siguiente ilustración se muestra el flujo del proceso empresarial para planificar el transporte de una carga de entrada. 
+## Transporte de entrada
+<a id="inbound-transportation" class="xliff"></a>
+Cuando pide artículos a un proveedor, y los artículos se deben entregarse a su almacén, puede que desee organizar el transporte de los artículos usted mismo. Puede usar Finance and Operations para planificar el transporte y la recepción de la carga de entrada. En la siguiente ilustración se muestra el flujo del proceso empresarial para planificar el transporte de una carga de entrada. 
 
 ![Flujo del proceso empresarial para el transporte de la carga de entrada](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
-## <a name="outbound-transportation"></a>Transporte de salida
-Puede planificar y procesar una carga de salida para enviar artículos específicos del almacén de una empresa a un cliente. Puede usar Dynamics 365 for Operations para planificar el transporte y el envío de una carga de salida. En la siguiente ilustración se muestra el flujo del proceso empresarial para planificar y procesar las cargas de salida para su envío. 
+## Transporte de salida
+<a id="outbound-transportation" class="xliff"></a>
+Puede planificar y procesar una carga de salida para enviar artículos específicos del almacén de una empresa a un cliente. Puede usar Finance and Operations para planificar el transporte y el envío de una carga de salida. En la siguiente ilustración se muestra el flujo del proceso empresarial para planificar y procesar las cargas de salida para su envío. 
 
 ![Planificación y procesamiento de cargas de salida](./media/Planningandprocessingoutboundloads.jpg)
 
-## <a name="load-building"></a>Planificación de carga
-Dynamics 365 for Operations proporciona una estrategia de planificación de carga que se denomina Estrategia de planificación de la carga basada en volumen. Esta estrategia le permite usar los valores máximos que se especifican para la altura y el peso de la plantilla de carga o bien, puede reemplazar los ajustes especificando valores nuevos. Para usar esta estrategia, selecciónela en el campo **Estrategia de creación de carga** en la ficha desplegable **Programa de instalación** de la página **Banco de trabajo de creación de carga**. Además, puede agregar sus propias estrategias de creación de carga creando una nueva clase en el árbol de objetos de aplicación (AOT).
+## Planificación de carga
+<a id="load-building" class="xliff"></a>
+Finance and Operations proporciona una estrategia de planificación de carga que se denomina Estrategia de planificación de la carga basada en volumen. Esta estrategia le permite usar los valores máximos que se especifican para la altura y el peso de la plantilla de carga o bien, puede reemplazar los ajustes especificando valores nuevos. Para usar esta estrategia, selecciónela en el campo **Estrategia de creación de carga** en la ficha desplegable **Programa de instalación** de la página **Banco de trabajo de creación de carga**. Además, puede agregar sus propias estrategias de creación de carga creando una nueva clase en el árbol de objetos de aplicación (AOT).
 
 
 

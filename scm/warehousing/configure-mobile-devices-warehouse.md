@@ -3,14 +3,14 @@ title: "Configurar dispositivos móviles para el trabajo de almacén"
 description: "En este artículo se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSRFMenuItem
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 29941
 ms.assetid: 6dff6313-dc6e-4f06-9c0c-dab24eefe4da
 ms.search.region: Global
@@ -18,15 +18,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6a7658c56e2d0712c6aa27a4bb8ffc02bbd01d6c
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: dfb738e41f4b3f7d475a551dca0aba7a071dd989
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móviles para el trabajo de almacén
+# Configurar dispositivos móviles para el trabajo de almacén
+<a id="set-up-mobile-devices-for-warehouse-work" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,7 +42,8 @@ En este artículo se describe cómo configurar los elementos de menú que usan l
 
 Para crear un elemento de menú para una actividad o una consulta, establezca el campo **Modo** como **Indirecto**. A continuación, se ofrece una lista de opciones de **Código de actividad** para seleccionar el tipo de consulta o actividad al que corresponde el elemento de menú. Para crear un elemento de menú para generar trabajo del almacén, establezca el campo **Modo** en **Trabajo**. A continuación, aparece una lista de opciones de **Proceso de creación de trabajo**. Para crear un elemento de menú para el trabajo existente del almacén de proceso, establezca el campo **Modo** en **Trabajo** y, a continuación, establezca la opción **Usar trabajo existente** en **Sí**. **Nota:** En función del modo seleccionado para el elemento de menú, y de si el elemento de menú se usa para realizar el trabajo existente, el elemento de menú puede ofrecer otros campos. Para obtener información sobre otras selecciones de campos, consulte la sección “Opciones del elemento de menú adicionales” más adelante en este artículo.
 
-## <a name="configure-menu-items-for-activities-and-inquiries"></a>Configurar elementos de menú para las actividades y consultas
+## Configurar elementos de menú para las actividades y consultas
+<a id="configure-menu-items-for-activities-and-inquiries" class="xliff"></a>
 Si el campo **Modo** para un elemento de menú se establece en **Indirecto**, puede crear un elemento de menú para realizar una actividad o una consulta general que no cree el trabajo. Entre los ejemplos se incluyen la reimpresión de etiquetas de número de matrícula y una consulta sobre los artículos en una ubicación. En la tabla siguiente se muestran las opciones disponibles.
 
 | Opción                      | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -64,7 +66,8 @@ Si el campo **Modo** para un elemento de menú se establece en **Indirecto**, pu
 | Cambiar disposición de lote    | Permita que un trabajador especifique un código de disposición de lote para un artículo y un lote. Esta selección actualiza el código de disposición que se especifica para el lote.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | Mostrar lista de trabajo abierta      | Muestra una lista de trabajo disponible para un usuario concreto. El usuario puede seleccionar el trabajo para realizar y se le dirige a él. Esta lista está diseñada para verla en dispositivos de tableta que tienen tamaños de pantalla de 7 pulgadas o más. Cuando se selecciona esta opción, están disponibles los elementos de menú **Editar consulta** y **Lista de campos**. La página **Editar la consulta** permite configurar los criterios para el trabajo que aparece en la lista. La página **Lista de campos** permite seleccionar los campos que aparecen en la lista de trabajo. Por ejemplo, puede reducir el número de campos que aparecen para que el usuario pueda seleccionar con más rapidez el elemento de trabajo más adecuado. En la ficha desplegable **General**, en el campo **Registros por página**, también puede seleccionar cuántos registros se muestran por página. Si selecciona la opción **Permitir a los usuarios filtrar por tipo de transacción**, la lista de trabajos incluirá un control **Filtrar trabajo** que el usuario puede usar para filtrar por tipo de transacción. En la lista de trabajos, los usuarios solo verán aquellos trabajos para los que tienen permiso de acceso. Debe asegurarse de que esos usuarios tienen permiso para uno o más elementos de menú dirigidos al usuario que admiten los tipos de clase de trabajo específicos a los que deben poder tener acceso. Los permisos se verificarán cuando un usuario intente realizar el trabajo desde la lista. |
 
-## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Configurar elementos de menú para crear trabajo para otro trabajador o proceso
+## Configurar elementos de menú para crear trabajo para otro trabajador o proceso
+<a id="configure-menu-items-to-create-work-for-another-worker-or-process" class="xliff"></a>
 Puede configurar un elemento de menú que crea trabajo para otro trabajador tras realizar una acción inicial en el dispositivo móvil. Por ejemplo, cuando un trabajador usa un dispositivo móvil para recibir un artículo, el trabajo de ubicación se crea para otro trabajador. Para configurar un elemento de menú que crea el trabajo, en la página **Elementos de menú del dispositivo móvil**, en el campo **Modo**, seleccione **Trabajo**. En la tabla siguiente, las opciones del campo **Proceso de creación de trabajo** están organizadas por el tipo de pedido de trabajo.
 
 <table>
@@ -165,7 +168,7 @@ Puede configurar un elemento de menú que crea trabajo para otro trabajador tras
 </tr>
 <tr>
 <td>Plantilla de movimiento por</td>
-<td>Mover artículos desde una ubicación a otra de manera semiautomatizada. El trabajador selecciona la ubicación desde la que mover los artículos y Microsoft Dynamics 365 for Operations usa la directiva de ubicación para determinar dónde mover los artículos.</td>
+<td>Mover artículos desde una ubicación a otra de manera semiautomatizada. El trabajador selecciona la ubicación desde la que mover los artículos y Finance and Operations usa la directiva de ubicación para determinar dónde mover los artículos.</td>
 </tr>
 <tr>
 <td>Transferencia de almacén</td>
@@ -193,7 +196,8 @@ Puede configurar un elemento de menú que crea trabajo para otro trabajador tras
 </tbody>
 </table>
 
-## <a name="configure-menu-items-to-process-existing-work"></a>Configurar elementos de menú para el trabajo existente del proceso
+## Configurar elementos de menú para el trabajo existente del proceso
+<a id="configure-menu-items-to-process-existing-work" class="xliff"></a>
 Además de los elementos de menú de la configuración para crear el trabajo del almacén, puede configurar los elementos de menú para procesar el trabajo que ya se ha creado. Defina el campo **Modo** en **Trabajo** y seleccione la opción **Usar trabajo existente**. A continuación, se ofrecen algunas opciones adicionales en la ficha **General**. Para controlar el acceso al elemento de menú, asigne una o varias clases de trabajo en la ficha desplegable **Clase de trabajo**. Las clases de trabajo definen el trabajo que el elemento de menú puede procesar. La clase de trabajo también se puede usar para conceder acceso a los roles de usuario específicos o al proceso independiente para distintos tipos de operaciones. En la tabla siguiente se describen las opciones disponibles.
 
 <table>
@@ -214,7 +218,7 @@ Además de los elementos de menú de la configuración para crear el trabajo del
 </tr>
 <tr class="even">
 <td>Dirigido por el sistema</td>
-<td>Microsoft Dynamics 365 for Operations controla el tipo de trabajo asignado a un trabajador y el pedido en el que el trabajador realiza el trabajo. Cuando selecciona esta opción, puede hacer clic en <strong>Trabajo dirigido por el sistema</strong> en el panel de acciones para abrir la página <strong>Orden de clasificación dirigido por el sistema</strong>, donde puede configurar los criterios de clasificación para el trabajo. Los criterios de ordenación controlan el orden en que el trabajador realiza el trabajo. Puede agregar tantos criterios como sea necesario.</td>
+<td>Microsoft Dynamics 365 for Finance and Operations controla el tipo de trabajo asignado a un trabajador y el pedido en el que el trabajador realiza el trabajo. Cuando selecciona esta opción, puede hacer clic en <strong>Trabajo dirigido por el sistema</strong> en el panel de acciones para abrir la página <strong>Orden de clasificación dirigido por el sistema</strong>, donde puede configurar los criterios de clasificación para el trabajo. Los criterios de ordenación controlan el orden en que el trabajador realiza el trabajo. Puede agregar tantos criterios como sea necesario.</td>
 </tr>
 <tr class="odd">
 <td>Dirigido por el usuario</td>
@@ -226,7 +230,7 @@ Además de los elementos de menú de la configuración para crear el trabajo del
 </tr>
 <tr class="odd">
 <td>Agrupamiento del sistema</td>
-<td>Microsoft Dynamics 365 for Operations agrupa trabajo para el trabajador en función de un campo especificado. Por ejemplo, el trabajo de picking se agrupa cuando un trabajador analiza una identificación de envío, la identificación de carga o cualquier valor que pueda vincular cada unidad de trabajo. Si selecciona esta opción, los siguientes campos son necesarios:
+<td>Microsoft Dynamics 365 for Finance and Operations agrupa trabajo para el trabajador en función de un campo especificado. Por ejemplo, el trabajo de picking se agrupa cuando un trabajador analiza una identificación de envío, la identificación de carga o cualquier valor que pueda vincular cada unidad de trabajo. Si selecciona esta opción, los siguientes campos son necesarios:
 <ul>
 <li><strong>Campo de agrupamiento del sistema</strong>: seleccione el campo que el trabajador analizará para agrupar el trabajo.</li>
 <li><strong>Etiqueta de agrupamiento del sistema</strong>: especifique el texto para indicar al trabajador qué debe escanear para agrupar el trabajo.</li>
@@ -247,12 +251,13 @@ Esta opción es útil, por ejemplo, cuando varios pallets se almacenan provision
 </tr>
 <tr class="even">
 <td>Agrupación de recuentos cíclicos</td>
-<td>El trabajador selecciona una zona, un grupo de trabajo o una ubicación y Microsoft Dynamics 365 for Operations asigna el trabajo basándose en la selección. Si selecciona esta opción, puede hacer clic en <strong>Recuento cíclico</strong> en el panel de acciones para especificar información adicional para mostrar y también puede especificar el número de veces que el trabajador debe repetir el recuento si se encuentra una diferencia.</td>
+<td>El trabajador selecciona una zona, un grupo de trabajo o una ubicación y Microsoft Dynamics 365 for Finance and Operations asigna el trabajo basándose en la selección. Si selecciona esta opción, puede hacer clic en <strong>Recuento cíclico</strong> en el panel de acciones para especificar información adicional para mostrar y también puede especificar el número de veces que el trabajador debe repetir el recuento si se encuentra una diferencia.</td>
 </tr>
 </tbody>
 </table>
 
-## <a name="additional-menu-item-options"></a>Opciones del elemento de menú adicionales
+## Opciones del elemento de menú adicionales
+<a id="additional-menu-item-options" class="xliff"></a>
 Las opciones adicionales de los elementos de menú estarán disponibles en la página **Elementos de menú del dispositivo móvil**. Las opciones varían, en función del proceso para el que está configurando el elemento de menú. 
 
 La siguiente tabla describe estas opciones.
@@ -331,7 +336,7 @@ La siguiente tabla describe estas opciones.
 </tr>
 <tr class="odd">
 <td>Ubicaciones en grupo</td>
-<td>Seleccione esta opción para agrupar el trabajo de ubicación. Esta opción está disponible cuando el trabajo fue agrupado por el trabajador o por Microsoft Dynamics 365 for Operations. Cuando el trabajador ha terminado todo el trabajo de picking en el grupo, el trabajo de ubicación se crea para el mismo grupo.</td>
+<td>Seleccione esta opción para agrupar el trabajo de ubicación. Esta opción está disponible cuando el trabajo fue agrupado por el trabajador o por Microsoft Dynamics 365 for Finance and Operations. Cuando el trabajador ha terminado todo el trabajo de picking en el grupo, el trabajo de ubicación se crea para el mismo grupo.</td>
 </tr>
 <tr class="even">
 <td>Tipos de ajuste de inventario</td>
@@ -364,11 +369,11 @@ La siguiente tabla describe estas opciones.
 </tr>
 <tr class="even">
 <td>Campo de agrupamiento del sistema</td>
-<td>Seleccione el campo que determinará cómo Microsoft Dynamics 365 for Operations agrupará el trabajo de recolección para los trabajadores. Por ejemplo, si selecciona el campo <strong>ShipmentId</strong>, el trabajador explorará la identificación del envío para agrupar el trabajo de picking. Todo el trabajo para el envío se asigna al trabajador. Este campo requiere que cree un elemento de menú para usar el trabajo existente que el sistema ha agrupado. Debe escribir texto también en el campo <strong>Etiqueta de agrupamiento del sistema</strong> para indicar al trabajador qué debe escanear.</td>
+<td>Seleccione el campo que determinará cómo Microsoft Dynamics 365 for Finance and Operations agrupará el trabajo de recolección para los trabajadores. Por ejemplo, si selecciona el campo <strong>ShipmentId</strong>, el trabajador explorará la identificación del envío para agrupar el trabajo de picking. Todo el trabajo para el envío se asigna al trabajador. Este campo requiere que cree un elemento de menú para usar el trabajo existente que el sistema ha agrupado. Debe escribir texto también en el campo <strong>Etiqueta de agrupamiento del sistema</strong> para indicar al trabajador qué debe escanear.</td>
 </tr>
 <tr class="odd">
 <td>Etiqueta de agrupamiento del sistema</td>
-<td>Especifique el texto que indicará al trabajador sobre qué escanear cuando Microsoft Dynamics 365 for Operations agrupa el trabajo de recolección. Por ejemplo, si está usando el campo <strong>ShipmentId</strong> para agrupar el trabajo de picking por envíos, puede especificar <strong>Id. del envío</strong> en el campo. Este campo requiere que cree un elemento de menú para usar el trabajo existente que el sistema ha agrupado. También debe seleccionar el campo por el que desea agrupar en <strong>Campo de agrupamiento del sistema</strong>.</td>
+<td>Especifique el texto que indicará al trabajador sobre qué escanear cuando Microsoft Dynamics 365 for Finance and Operations agrupa el trabajo de recolección. Por ejemplo, si está usando el campo <strong>ShipmentId</strong> para agrupar el trabajo de picking por envíos, puede especificar <strong>Id. del envío</strong> en el campo. Este campo requiere que cree un elemento de menú para usar el trabajo existente que el sistema ha agrupado. También debe seleccionar el campo por el que desea agrupar en <strong>Campo de agrupamiento del sistema</strong>.</td>
 </tr>
 <tr class="even">
 <td>Usar datos predeterminados</td>
@@ -384,13 +389,14 @@ La siguiente tabla describe estas opciones.
 </tr>
 <tr class="odd">
 <td>Código de plantilla de trabajo</td>
-<td>Seleccione la plantilla de trabajo que creará el trabajo de un proceso. Por ejemplo, si recibe un artículo para un pedido de compra, el trabajo de ubicación se generará en función de la plantilla de trabajo. Si no selecciona una plantilla de trabajo, Microsoft Dynamics 365 for Operations asigna una plantilla, según criterios de consulta. Para obtener más información sobre plantillas de trabajo, vea <a href="control-warehouse-location-directives.md">Controlar el trabajo de almacén con plantillas de trabajo y directivas de ubicación</a>.</td>
+<td>Seleccione la plantilla de trabajo que creará el trabajo de un proceso. Por ejemplo, si recibe un artículo para un pedido de compra, el trabajo de ubicación se generará en función de la plantilla de trabajo. Si no selecciona una plantilla de trabajo, Microsoft Dynamics 365 for Finance and Operations asigna una plantilla, según criterios de consulta. Para obtener más información sobre plantillas de trabajo, vea <a href="control-warehouse-location-directives.md">Controlar el trabajo de almacén con plantillas de trabajo y directivas de ubicación</a>.</td>
 </tr>
 </tbody>
 </table>
 
-## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Requerir a los trabajadores confirmar el producto, la ubicación o la cantidad cuando seleccionan artículos
-Puede configurar las confirmaciones de trabajo que requieren que un trabajador use un dispositivo móvil para registrar la ubicación o la cantidad cuando realiza el trabajo en el almacén. Las confirmaciones de trabajo ayudan a garantizar que el trabajador esté en la ubicación correcta o que está manejando la cantidad correcta de artículos. También puede habilitar Microsoft Dynamics 365 for Operations para confirmar automáticamente el registro del trabajador. Si permite la confirmación automática, no puede requerir también las confirmaciones para la ubicación o la cantidad. Las confirmaciones de trabajo también incluyen los productos y las variantes de producto. Además, puede registrar confirmaciones explorando un código de barras. Para confirmar los productos y las variantes de producto, debe especificar una identificación del producto o la variante del producto. Este identificador puede ser un id. del producto, un id. de búsqueda del producto, un id. externo, GTIN o un código de barras. Tras escribir la identificación o explorar el código de barras, las dimensiones para la variante del producto se muestran en el dispositivo móvil. 
+## Requerir a los trabajadores confirmar el producto, la ubicación o la cantidad cuando seleccionan artículos
+<a id="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items" class="xliff"></a>
+Puede configurar las confirmaciones de trabajo que requieren que un trabajador use un dispositivo móvil para registrar la ubicación o la cantidad cuando realiza el trabajo en el almacén. Las confirmaciones de trabajo ayudan a garantizar que el trabajador esté en la ubicación correcta o que está manejando la cantidad correcta de artículos. También puede habilitar Microsoft Dynamics 365 for Finance and Operations para confirmar automáticamente el registro del trabajador. Si permite la confirmación automática, no puede requerir también las confirmaciones para la ubicación o la cantidad. Las confirmaciones de trabajo también incluyen los productos y las variantes de producto. Además, puede registrar confirmaciones explorando un código de barras. Para confirmar los productos y las variantes de producto, debe especificar una identificación del producto o la variante del producto. Este identificador puede ser un id. del producto, un id. de búsqueda del producto, un id. externo, GTIN o un código de barras. Tras escribir la identificación o explorar el código de barras, las dimensiones para la variante del producto se muestran en el dispositivo móvil. 
 
 La siguiente tabla describe los distintos tipos de trabajo con los que puede usar confirmaciones de trabajo.
 
@@ -408,7 +414,8 @@ La siguiente tabla describe los distintos tipos de trabajo con los que puede usa
 
 **Nota**: puede exigir la confirmación del producto solo para los tipos de trabajo de picking y ubicación.
 
-<a name="see-also"></a>Consulte también
+Consulte también
+<a id="see-also" class="xliff"></a>
 --------
 
 [Configuración de visualización del dispositivo móvil del almacén](change-warehouse-mobile-device-displays.md)

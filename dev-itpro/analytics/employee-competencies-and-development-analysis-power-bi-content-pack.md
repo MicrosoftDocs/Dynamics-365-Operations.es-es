@@ -1,15 +1,15 @@
 ---
 title: Contenido de Power BI sobre competencias y desarrollo de empleados
-description: "En este tema se describe Dynamics 365 for Operations, contenido de Power BI sobre competencias y desarrollo de empleados Explica cómo tener acceso a los informes que se incluyen en el paquete de contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizaron para generar el paquete del contenido."
+description: "En este tema se describe Finance and Operations, contenido de Power BI sobre competencias y desarrollo de empleados Explica cómo tener acceso a los informes que se incluyen en el paquete de contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizaron para generar el paquete del contenido."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 263894
 ms.assetid: 7d375d8a-b2de-4bec-b575-93d1d4521b79
 ms.search.region: Global
@@ -17,28 +17,31 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 770a832efe8ee2da44d65670b1818be4fcf4bcc0
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f5b3c180f0a9d60fa5d4d8398daf79a14da2d6f4
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="employee-competencies-and-development-power-bi-content"></a>Contenido de Power BI sobre competencias y desarrollo de empleados
+# Contenido de Power BI sobre competencias y desarrollo de empleados
+<a id="employee-competencies-and-development-power-bi-content" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-En este tema se describe Dynamics 365 for Operations, contenido de Power BI sobre competencias y desarrollo de empleados Explica cómo tener acceso a los informes que se incluyen en el paquete de contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizaron para generar el paquete del contenido.
+En este tema se describe Finance and Operations, contenido de Power BI sobre competencias y desarrollo de empleados Explica cómo tener acceso a los informes que se incluyen en el paquete de contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizaron para generar el paquete del contenido.
 
-<a name="accessing-the-content-pack"></a>Acceso al paquete de contenido
+Acceso al paquete de contenido
+<a id="accessing-the-content-pack" class="xliff"></a>
 --------------------------
 
-El paquete de contenido sobre competencias y desarrollo de empleados se encuentra en la biblioteca de activos compartidos de los Servicios de ciclo de vida (LCS) de Microsoft Dynamics. Para obtener más información sobre cómo descargar el paquete de contenido y conectarlo a los datos de Microsoft Dynamics 365 for Operations, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md).
+El paquete de contenido sobre competencias y desarrollo de empleados se encuentra en la biblioteca de activos compartidos de los Servicios de ciclo de vida (LCS) de Microsoft Dynamics. Para obtener más información sobre cómo descargar el paquete de contenido y conectarlo a los datos de Microsoft Dynamics 365 for Finance and Operations consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md).
 
-## <a name="reports-that-are-included-in-the-content-pack"></a>Informes que se incluyen en el paquete de contenido
-Tras la conexión del paquete de contenido con sus datos de Dynamics 365 for Operations, los informes muestran los datos de su organización. Si nunca antes ha utilizado Microsoft Power BI, consulte [Aprendizaje dirigido para Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) para obtener más información acerca de la aplicación. Los informes incluidos en el paquete de contenido tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.
+## Informes que se incluyen en el paquete de contenido
+<a id="reports-that-are-included-in-the-content-pack" class="xliff"></a>
+Tras la conexión del paquete de contenido con sus datos de Finance and Operations, los informes muestran los datos de su organización. Si nunca antes ha utilizado Microsoft Power BI, consulte [Aprendizaje dirigido para Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) para obtener más información acerca de la aplicación. Los informes incluidos en el paquete de contenido tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.
 
 | Informe                            | Contenido                                               |
 |-----------------------------------|--------------------------------------------------------|
@@ -48,8 +51,9 @@ Tras la conexión del paquete de contenido con sus datos de Dynamics 365 for Ope
 
 Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e iconos al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
-Los datos de Dynamics 365 for Operations se utilizan para rellenar los informes del paquete de contenido sobre competencias y desarrollo de empleados. En la tabla siguiente se muestran las entidades en las que se basaba el paquete de contenido.
+## Comprensión del modelo de datos y de las entidades
+<a id="understanding-the-data-model-and-entities" class="xliff"></a>
+Los datos de Finance and Operations se utilizan para rellenar los informes del paquete de contenido sobre competencias y desarrollo de empleados. En la tabla siguiente se muestran las entidades en las que se basaba el paquete de contenido.
 
 | Entidad                            | Contenido                                                                                                   | Relaciones con otras entidades                                                                                                                                                                                                                                                                       |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,7 +84,8 @@ Los datos de Dynamics 365 for Operations se utilizan para rellenar los informes 
 
 Estas entidades se usaban para crear medidas calculadas en el modelo de datos. Estas medidas calculadas se utilizan para calcular los indicadores de rendimiento clave (KPI) y los informes que se utilizan en el paquete del contenido. Si desea incluir cálculos adicionales en sus informes y en el panel de información, puede descargar y modificar el archivo CompetenciesandDevelopment.pbix en LCS. Este archivo es el modelo de datos predeterminado usado para crear el paquete del contenido. Una vez que haya realizado las modificaciones, puede crear un panel de información y paquete de contenido organizativo que contienen la información que ha agregado.
 
-## <a name="additional-resources"></a>Recursos adicionales
+## Recursos adicionales
+<a id="additional-resources" class="xliff"></a>
 Estos son algunos vínculos útiles relacionados con las entidades y la creación de contenido de Power BI:
 
 -   [Entidades de datos](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)

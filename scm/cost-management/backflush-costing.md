@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272063
 ms.assetid: 62a2a7da-ff79-49bf-a6e8-29460ba5252f
 ms.search.region: global
@@ -20,15 +20,16 @@ ms.author: conradv
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fb8fa9f5f17b8d658e2d0fea3a9659ab09562611
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: e520c292b7350f332649f23fb4232e7ecd191776
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="backflush-costing"></a>Contabilización previa de los costes
+# Contabilización previa de los costes
+<a id="backflush-costing" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,7 +38,8 @@ Este tema presenta el concepto de contabilización previa de los costes que se u
 
 El coste de la producción ajustada permite al flujo de producción para utilizar el método de acumulación de costes que se conoce como contabilización previa de los costes. En el método de la contabilización previa de los costes, el material directo que se consume se acumula en la cuenta de costes de (WIP) del trabajo en curso del flujo de producción. Se usa el grupo de modelos de inventario de costes estándar. Los productos recibidos del flujo de producción se deducen del trabajo en curso en su coste estándar. La principal diferencia entre la contabilización previa de los costes y el coste estándar es que, para la contabilización previa de los costes, las desviaciones no se calculan por kanban o el producto terminado. En su lugar, las desviaciones se calculan por el flujo de producción durante un período. Este método presenta un concepto verdaderamente lean para notificar el consumo de materiales. Las cantidades seleccionadas dedicadas de material no se notifican a un kanban o a un pedido de producción. En su lugar, los lotes completos o las unidades de manipulación se almacenan provisionalmente en el flujo de producción. Después de que los lotes o las unidades de manipulación se registren como vacíos, se declaran consumidos. Se puede usar el consumo avanzado, según la [configuración del flujo de producción](http://ax.help.dynamics.com/en/wiki/lean-manufacturing-modeling-the-lean-organization/). Antes de que el consumo avanzado se pueda usar, las organizaciones deben permitirse hacer desaparecer material en el trabajo en curso del flujo de producción. La contabilización previa de los costes periódica determina el valor efectivo del trabajo en curso al final del período. Esta determinación se basa en el estado del kanban, las unidades de manipulación y el trabajo kanban. Las desviaciones entre los valores reales y los valores reales del trabajo en curso por grupo de costes y artículos se tienen en cuenta y se muestran como desviaciones.
 
-## <a name="configuring-backflush-costing"></a>Configuración de la contabilización previa de los costes
+## Configuración de la contabilización previa de los costes
+<a id="configuring-backflush-costing" class="xliff"></a>
 Para habilitar la gestión de costes, debe completar la configuración siguiente:
 
 -   **La configuración de las cuentas de trabajo en curso para el grupo de producción y el flujo de producción.** Las cuentas de trabajo en curso para el flujo de producción se especifican en el grupo de producción. El flujo de producción de la contabilización previa de los costes calcula las desviaciones como la diferencia en el valor de trabajo en curso antes y después de la ejecución de la contabilización previa de los costes para cada flujo de producción. Por lo tanto, se recomienda que cree una cuenta de trabajo en curso para cada flujo de producción.
@@ -49,7 +51,8 @@ Para habilitar la gestión de costes, debe completar la configuración siguiente
     -   **Grupo de costes de externalización directa** - El grupo de costes para los servicios habilita una vista agregada de coste asignado y el trabajo en curso, y determina las variaciones de coste de los servicios subcontratados.
     -   **Grupo de costes de un producto terminado**: los productos terminados requieren un grupo de costes que identifique la categoría de gestión de costes. Este grupo de costes permite una vista agregada del coste, el trabajo en curso, y las desviaciones en función de la categoría de producto. El coste estándar para los productos se calcula mediante el cálculo de coste que se basa en la lista de materiales (BOM), y el flujo de producción y las reglas kanban o la ruta.
 
-### <a name="costing-sheet"></a>Hoja de gestión de costes
+### Hoja de gestión de costes
+<a id="costing-sheet" class="xliff"></a>
 
 La hoja de gestión de costes da forma a la estructura de costes para la empresa y se crea en función de los grupos de coste para clasificar el coste. La hoja de gestión de costes tiene varios formularios. Muestra la información de coste según la estructura diseñada en ella. En la hoja de gestión de costes, también puede definir la fórmula utilizada para calcular el coste indirecto. La fórmula de cálculo se puede basar en cantidades, el peso, el volumen, o el valor.
 
@@ -59,24 +62,29 @@ La hoja de gestión de costes da forma a la estructura de costes para la empresa
 
 Para los productos resultantes, el cálculo de coste que se basa en el flujo de producción requiere que se mantenga un coste estándar para los servicios que están relacionados con las actividades subcontratadas. El grupo de costes que se asigna a los servicios se usa para determinar las variaciones de coste de la actividad subcontratada.
 
-## <a name="cost-calculation-for-lean-manufacturing"></a>Cálculo de coste de lean manufacturing
+## Cálculo de coste de lean manufacturing
+<a id="cost-calculation-for-lean-manufacturing" class="xliff"></a>
 Para los productos que se proporcionan fuera de un flujo de producción, el cálculo de L. MAT se debe basar en una versión de ruta o un flujo de producción. El cálculo de BOM calcula el coste de un producto y el desglose relacionado con los recursos y el material que se requieren para crear el producto. La deducción de la cuenta de trabajo en curso para el flujo de producción se realiza mediante el desglose de un producto por artículos y por grupo de costes.
 
-### <a name="calculation-that-is-based-on-the-production-flow"></a>Cálculo que se basa el flujo de producción
+### Cálculo que se basa el flujo de producción
+<a id="calculation-that-is-based-on-the-production-flow" class="xliff"></a>
 
-El lean manufacturing para Microsoft Dynamics 365 for Operations no depende de rutas. El cálculo del coste para los productos que se proporcionan de un flujo de producción se puede basar en el flujo de producción en sí. Antes de realizar el cálculo, se debe crear una regla kanban que proporcione el producto fuera del flujo de producción. Si un producto se puede suministrar desde varios flujos de producción en el mismo sitio en la fecha de cálculo, puede seleccionar el flujo de producción para el cálculo de L. MAT. En la página **Flujo de producción predeterminado** , puede configurar un flujo de producción predeterminado para cada artículo. Si varias reglas kanban existen para el mismo producto en el mismo flujo de producción que está activo en la fecha de cálculo, el cálculo selecciona la primera regla kanban que está activa para el cálculo.
+El lean manufacturing para Microsoft Dynamics 365 for Finance and Operations no depende de rutas. El cálculo del coste para los productos que se proporcionan de un flujo de producción se puede basar en el flujo de producción en sí. Antes de realizar el cálculo, se debe crear una regla kanban que proporcione el producto fuera del flujo de producción. Si un producto se puede suministrar desde varios flujos de producción en el mismo sitio en la fecha de cálculo, puede seleccionar el flujo de producción para el cálculo de L. MAT. En la página **Flujo de producción predeterminado** , puede configurar un flujo de producción predeterminado para cada artículo. Si varias reglas kanban existen para el mismo producto en el mismo flujo de producción que está activo en la fecha de cálculo, el cálculo selecciona la primera regla kanban que está activa para el cálculo.
 
-### <a name="calculation-that-is-based-on-the-route"></a>Cálculo basado en la ruta
+### Cálculo basado en la ruta
+<a id="calculation-that-is-based-on-the-route" class="xliff"></a>
 
-El cálculo que se basa en una ruta es tan válido como el cálculo que se basa en un flujo de producción. Sin embargo, el cálculo que se basa en una ruta no usa la gestión de costes para la funcionalidad de lean manufacturing. La ruta debe usar requisitos de recurso para los grupos de recursos. Para evitar las desviaciones sistemáticas, debe usar también las mismas celdas de trabajo, o al menos las mismas categorías de coste. Una vez más debe evitar las categorías de coste para la configuración y la cantidad. No ayudan a calcular el coste en un desglose más específico que el flujo invertido del coste de lean manufacturing. Para determinar la opción (flujo de producción o ruta) que debe usar para calcular el coste, tenga en cuenta los resultados del desglose de costes. La versión más cercana a la realidad y genera menos desviaciones en general es la mejor opción. En un entorno de lean manufacturing donde un producto se proporciona mediante un solo flujo de producción y una sola regla kanban, el cálculo que se basa en el flujo de producción es probablemente más preciso. Para un producto que se puede suministrar mediante lean manufacturing y pedidos de producción en el mismo sitio, o que puede tener varios flujos de producción o varias reglas kanban en el mismo flujo, un cálculo puede ser más preciso si se basa en una versión de ruta que se crea específicamente para el cálculo de costes, no para la producción. El cálculo del flujo de producción se debe usar para calcular los productos en los que hay una subcontratación. En Microsoft Dynamics 365 for Operations, los modelos de coste para subcontratar mediante pedidos de producción y subcontratar en lean manufacturing usan dos enfoques diferentes. El lean manufacturing presenta a un nuevo tipo de grupo de costes, **Subcontratación directa**, para calcular los servicios subcontratados.
+El cálculo que se basa en una ruta es tan válido como el cálculo que se basa en un flujo de producción. Sin embargo, el cálculo que se basa en una ruta no usa la gestión de costes para la funcionalidad de lean manufacturing. La ruta debe usar requisitos de recurso para los grupos de recursos. Para evitar las desviaciones sistemáticas, debe usar también las mismas celdas de trabajo, o al menos las mismas categorías de coste. Una vez más debe evitar las categorías de coste para la configuración y la cantidad. No ayudan a calcular el coste en un desglose más específico que el flujo invertido del coste de lean manufacturing. Para determinar la opción (flujo de producción o ruta) que debe usar para calcular el coste, tenga en cuenta los resultados del desglose de costes. La versión más cercana a la realidad y genera menos desviaciones en general es la mejor opción. En un entorno de lean manufacturing donde un producto se proporciona mediante un solo flujo de producción y una sola regla kanban, el cálculo que se basa en el flujo de producción es probablemente más preciso. Para un producto que se puede suministrar mediante lean manufacturing y pedidos de producción en el mismo sitio, o que puede tener varios flujos de producción o varias reglas kanban en el mismo flujo, un cálculo puede ser más preciso si se basa en una versión de ruta que se crea específicamente para el cálculo de costes, no para la producción. El cálculo del flujo de producción se debe usar para calcular los productos en los que hay una subcontratación. En Microsoft Dynamics 365 for Finance and Operations, los modelos de coste para subcontratar mediante pedidos de producción y subcontratar en lean manufacturing usan dos enfoques diferentes. El lean manufacturing presenta a un nuevo tipo de grupo de costes, **Subcontratación directa**, para calcular los servicios subcontratados.
 
-## <a name="material-consumption"></a>Lista de selección
+## Lista de selección
+<a id="material-consumption" class="xliff"></a>
 Cuando el material se consume de inventario a trabajo en curso, el coste de material se agrega al trabajo en curso a su coste estándar real para un grupo de costes. Esta operación se produce en las condiciones siguientes:
 
 -   Las emisiones de kanban se envían para las líneas de picking de kanban que actualizan el inventario.
 -   Se completan trabajos de transferencia que actualizan el inventario en la selección pero no la recepción (transferencia de materiales del inventario al trabajo en curso).
 
-## <a name="receiving-products-from-the-production-flow"></a>Recibir productos del flujo de producción
+## Recibir productos del flujo de producción
+<a id="receiving-products-from-the-production-flow" class="xliff"></a>
 Los productos se reciben del flujo de producción bajo las siguientes condiciones:
 
 -   Se completan los trabajos de proceso que tienen **Actualizar inventario al recibir** definido en **Sí**.
@@ -84,18 +92,21 @@ Los productos se reciben del flujo de producción bajo las siguientes condicione
 
 Los productos recibidos del flujo de producción se deducen del trabajo en curso.
 
-## <a name="products-in-wip"></a>Productos en el trabajo en curso
-El modelo de trabajo en curso de lean manufacturing en Microsoft Dynamics 365 for Operations permite usar el estado de unidad de manipulación de kanban para la gestión de materiales, los productos semiterminados, y los productos terminados que forman parte del trabajo en curso.
+## Productos en el trabajo en curso
+<a id="products-in-wip" class="xliff"></a>
+El modelo de trabajo en curso de lean manufacturing en Microsoft Dynamics 365 for Finance and Operations permite usar el estado de unidad de manipulación de kanban para la gestión de materiales, los productos semiterminados, y los productos terminados que forman parte del trabajo en curso.
 
 -   **Asignado** - El kanban puede haber consumido el material que se considera en el trabajo en curso.
 -   **Recibido** - Si el kanban hace referencia a una última actividad en que la **actualización del inventario en recepción** está establecida en **No**, representa una unidad de manipulación completa de un producto o de un producto semiterminado que no se registra en el inventario.
 
 Tenga en cuenta que el trabajo en curso no estará visible en las visiones generales del inventario disponible. Sin embargo, se puede ver en visiones generales sobre la cantidad kanban.
 
-## <a name="consuming-products-in-wip"></a>Consumir productos del trabajo en curso
+## Consumir productos del trabajo en curso
+<a id="consuming-products-in-wip" class="xliff"></a>
 Los productos del trabajo en curso se consumen cuando se vacían las unidades de manipulación de kanban correspondientes. Una señal de kanban vacío no genera una transacción de gestión de costes activa pero se hará efectiva cuando se ejecute la contabilización previa de los costes siguiente. Las unidades de manipulación de kanban vacías ya no se consideran como disponibles y se calculan como consumidas en el período.
 
-### <a name="automatic-empty-registration"></a>Registro vacío automático
+### Registro vacío automático
+<a id="automatic-empty-registration" class="xliff"></a>
 
 Los kanbans programados o de evento se pueden establecer en un registro automático vacío en la regla kanban:
 
@@ -104,7 +115,8 @@ Los kanbans programados o de evento se pueden establecer en un registro automát
 
 En conclusión, las unidades de manipulación de material de kanban se pueden asignar (= en proceso), recibir (=full), o ser vaciadas. No existe un vaciado parcial. Por lo tanto, para habilitar el registro preciso de consumo, es importante que limite las cantidades de producto de un kanban de modo que sean menores que el consumo por período. Los productos que se trasladan a la planta en grandes lotes que cubren días o semanas de demanda no se deben consumir en el trabajo en curso. En su lugar, estos productos deben mantenerse en el inventario.
 
-## <a name="backflush-costing"></a>Contabilización previa de los costes
+## Contabilización previa de los costes
+<a id="backflush-costing" class="xliff"></a>
 Debe ejecutar una contabilización previa de los costes para valorar el trabajo en curso periódicamente y generar un estado de final del período que calcula las desviaciones de material, trabajo, y costes indirectos. Las desviaciones calculadas se registran en las cuentas de desviación. En el proceso de la contabilización previa de los costes, todos los flujos de producción de la entidad jurídica se usan en la misma ejecución por lotes. Cuando la contabilización previa de los costes se ejecuta en un lote, el procesamiento puede ser de varios subprocesos por flujo de producción. El período del flujo invertido se define con una fecha de finalización. No puede enviar nuevas transacciones a una fecha cuando se ha ejecutado un cálculo de contabilización previa de los costes. Nunca debe ejecutar la contabilización previa de los costes para la fecha actual antes de que el día haya acabado realmente. La contabilización previa de los costes realiza los pasos siguientes.
 
 1.  Determina las cantidades no utilizadas en el flujo de producción en la fecha final del período. Una vez que se haya ejecutado la contabilización previa de los costes, podrá ver las cantidades no utilizadas en la fecha de la ejecución de la gestión de costes en el cuadro de diálogo **Cantidades sin usar** .

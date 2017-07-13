@@ -1,15 +1,15 @@
 ---
 title: "Acumulación de costes de proyectos en recibos de compra"
-description: "Este tema describe cómo los costes de proyecto acumulados de recibos de compra se pueden controlar en Microsoft Dynamics 365 for Operations."
+description: "Este tema describe cómo los costes de proyecto acumulados de recibos de compra se pueden controlar en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
@@ -17,20 +17,21 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: acb14deb9d77927ffc95500e4e97763ba3ad7826
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b46929d2991f3ec1b38d54ddc57de632aa9b01b9
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="project-cost-accrual-on-purchase-receipts"></a>Acumulación de costes de proyectos en recibos de compra
+# Acumulación de costes de proyectos en recibos de compra
+<a id="project-cost-accrual-on-purchase-receipts" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este tema describe cómo los costes de proyecto acumulados de recibos de compra se pueden controlar en Microsoft Dynamics 365 for Operations. 
+Este tema describe cómo los costes de proyecto acumulados de recibos de compra se pueden controlar en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
 
 Las facturas para un proyecto suelen llegar después de prestar los bienes y servicios, lo cual puede tener un impacto significativo impacto en los indicadores de rendimiento clave (KPI) del proyecto. Es importante poder controlar estas transacciones mediante informes financieros y del proyecto.
 
@@ -38,7 +39,7 @@ En el siguiente supuesto de ejemplo se muestra esto.
 
 Contoso Consulting ha iniciado un nuevo proyecto de implementación en la nube. Se crea un pedido de compra para comprar un equipo para el proyecto. El equipo costará 1500 $ y los servicios de instalación costarán 150 $. El proveedor ha entregado e instalado el equipo, pero Contoso Consulting aún no ha recibido la factura. El director del proyecto desea ver la acumulación de costes de proyecto de 1650 $ antes de que se entregue la factura. Este coste también se debe reflejar en los informes financieros de final de mes de la empresa. 
 
-El coste acumulado tiene que registrarse en el nivel financiero y en el nivel del proyecto a efectos de notificación. En Dynamics 365 for Operations, la actualización financiera de la recepción del producto se puede controlar para las categorías de artículo y compras. 
+El coste acumulado tiene que registrarse en el nivel financiero y en el nivel del proyecto a efectos de notificación. En Finance and Operations, la actualización financiera de la recepción del producto se puede controlar para las categorías de artículo y compras. 
 
 Para los artículos, en la página **Parámetros de proveedores**, seleccione la opción **Publicar recepciones de producto en la contabilidad**.
 [![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
@@ -73,7 +74,7 @@ Es posible asignar categorías de compras a las categorías de proyecto en la p�
 
 **Paso 3:** Crear un borrador de factura de proveedor 
 
-En Dynamics 365 for Operations, el registro de una recepción de producto no afecta a la información del proyecto. Como solución alternativa, podría generar un borrador de factura de proveedor justo después de registrar la recepción de compra. Vaya a la página **Pedido de compra** &gt; **ficha Factura** &gt; **Generar** &gt; **Factura**. Esto crea un documento de factura pendiente que actualiza la información de proyecto. 
+En Finance and Operations, el registro de una recepción de producto no afecta a la información del proyecto. Como solución alternativa, podría generar un borrador de factura de proveedor justo después de registrar la recepción de compra. Vaya a la página **Pedido de compra** &gt; **ficha Factura** &gt; **Generar** &gt; **Factura**. Esto crea un documento de factura pendiente que actualiza la información de proyecto. 
 
 Crear un borrador de factura de proveedor generará transacción de proyectos pendientes. 
 [![accruals8](./media/accruals8-1024x225.png)](./media/accruals8.png) 

@@ -3,14 +3,14 @@ title: "Configuración de almacén"
 description: "Este artículo explica cómo configurar un almacén. Incluye información acerca de cómo habilitar un diseño de almacén y procesos de almacén."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11554
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
@@ -18,25 +18,27 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 08c086767303f6f52e085f8f56b5d09f1e46878f
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 17608d373fbedd20efe0b525ec141989a50a40a2
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="warehouse-configuration"></a>Configuración de almacén
+# Configuración de almacén
+<a id="warehouse-configuration" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
 Este artículo explica cómo configurar un almacén. Incluye información acerca de cómo habilitar un diseño de almacén y procesos de almacén.
 
-**Nota:** Este artículo se aplica a las características del módulo**Administración de almacenes** (almacenamiento avanzado). No se aplica a las características de almacenes del módulo**Administración del inventario**.
+**Nota:** Este artículo se aplica a las características del módulo **Administración de almacenes** (almacenamiento avanzado). No se aplica a las características de almacenes del módulo **Administración del inventario**.
 
-## <a name="warehouse-layout"></a>Diseño de almacén
-El sistema de Gestión de almacenes de Microsoft Dynamics 365 for Operations le proporciona maneras flexibles de definir el diseño del almacén para satisfacer las necesidades cambiantes, de manera que pueda lograr una eficacia óptima del almacén.
+## Diseño de almacén
+<a id="warehouse-layout" class="xliff"></a>
+El sistema de Gestión de almacenes de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, le proporciona maneras flexibles de definir el diseño del almacén para satisfacer las necesidades cambiantes, de manera que pueda lograr una eficacia óptima del almacén.
 
 -   Puede establecer áreas de almacenamiento de alta y baja prioridad para la ubicación óptima de las mercancías.
 -   Puede dividir el almacén en zonas para acomodar distintas necesidades de almacenamiento, como los requisitos de temperatura, o las diferentes tasas de facturación para los artículos.
@@ -44,9 +46,10 @@ El sistema de Gestión de almacenes de Microsoft Dynamics 365 for Operations le 
 -   Puede agrupar las ubicaciones mediante la configuración de restricciones de capacidad física.
 -   Puede controlar la manera en que se almacenan y se seleccionan los artículos, en función de las reglas definidas por consultas.
 
-Para usar la gestión de almacenes en Microsoft Dynamics 365 for Operations, debe crear un almacén y habilitarlo para actividades de gestión de almacenes más avanzadas o especializadas. En la página **Almacenes**, seleccione la opción **Usar procesos de gestión de almacenes**.
+Para usar la administración de almacenes en Finance and Operations, debe crear un almacén y habilitarlo para actividades de gestión de almacenes más avanzadas o especializadas. En la página **Almacenes**, seleccione la opción **Usar procesos de gestión de almacenes**.
 
-### <a name="zone-groups-zones-location-types-and-locations"></a>Grupos de zona, zonas, tipos de ubicación y ubicaciones
+### Grupos de zona, zonas, tipos de ubicación y ubicaciones
+<a id="zone-groups-zones-location-types-and-locations" class="xliff"></a>
 
 Como parte del proceso de habilitación de una configuración de almacén, debe definir grupos de zonas de almacén y zonas, perfiles de ubicación, tipos de ubicación y ubicaciones.
 
@@ -56,9 +59,10 @@ Como parte del proceso de habilitación de una configuración de almacén, debe 
 -   **Tipos de ubicaciones**: agrupación lógica o física de las ubicaciones de almacén. Por ejemplo, puede crear un tipo de ubicación para todas las ubicaciones provisionales. La configuración obligatoria de la página **Parámetros de gestión de almacenes** dirige el proceso de la definición de tipos de ubicación provisional y el tipo final de ubicación de envío.
 -   **Ubicaciones**: el nivel más bajo de la información de la ubicación. Las ubicaciones se usan para realizar un seguimiento de dónde se almacena el inventario disponible y se selecciona en un almacén.
 
-Las entidades que crea para definir el diseño del almacén se usan en las consultas que configura en las plantillas de trabajo para manejar los pedidos de trabajo en el almacén. Por lo tanto, al definir las zonas, los tipos de ubicación, etc., piense en cómo se usan diferentes áreas del almacén para distintos procesos. Además, considere factores como las características físicas de un área concreta. Por ejemplo, puede haber áreas donde solo puede usar un tipo determinado de elevador de carga. O bien, si su empresa tiene tanto la producción como los productos terminados dentro de la misma instalación, puede que desee crear un único almacén en Dynamics 365 for Operations pero separar entonces las dos operaciones creando dos grupos de zona. Asigne nombres descriptivos a las entidades, de manera que resulte sencillo identificarlas cuando las use en consultas de plantillas.
+Las entidades que crea para definir el diseño del almacén se usan en las consultas que configura en las plantillas de trabajo para manejar los pedidos de trabajo en el almacén. Por lo tanto, al definir las zonas, los tipos de ubicación, etc., piense en cómo se usan diferentes áreas del almacén para distintos procesos. Además, considere factores como las características físicas de un área concreta. Por ejemplo, puede haber áreas donde solo puede usar un tipo determinado de elevador de carga. O bien, si su empresa tiene tanto la producción como los productos terminados dentro de la misma instalación, puede que desee crear un único almacén en Finance and Operations pero separar entonces las dos operaciones creando dos grupos de zona. Asigne nombres descriptivos a las entidades, de manera que resulte sencillo identificarlas cuando las use en consultas de plantillas.
 
-### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Límites de existencias de la ubicación, perfiles de ubicación y ubicaciones de picking fijas
+### Límites de existencias de la ubicación, perfiles de ubicación y ubicaciones de picking fijas
+<a id="location-stocking-limits-location-profiles-and-fixed-picking-locations" class="xliff"></a>
 
 Debe tener en cuenta el diseño físico del almacén, tanto para determinar las capacidades de almacenamiento (límites de existencias de la ubicación y perfiles de ubicación) y como parte de sus intentos de lograr procesos óptimos de almacén. 
 
@@ -68,14 +72,17 @@ Si se requieren cálculos más avanzados para controlar las restricciones de cap
 
 Para lograr procesos de salida óptimos, debe evaluar si se deben usar ubicaciones de picking fijas y/o ubicaciones de embalaje. A menudo, el reabastecimiento mínimo o máximo se usa para los procesos de reabastecimiento desde un área de almacenaje a las ubicaciones de picking fijas y se pueden habilitar múltiples ubicaciones de picking fijas dentro del mismo almacén y para variantes de producto. Considere la flexibilidad que se puede lograr habilitando las ubicaciones de desbordamiento de reabastecimiento de demanda dedicadas que se usan únicamente para el procesamiento de reabastecimiento de oleada/carga.
 
-### <a name="location-setup-wizard"></a>Asistente para la configuración de ubicaciones
+### Asistente para la configuración de ubicaciones
+<a id="location-setup-wizard" class="xliff"></a>
 
 Para crear rápidamente las ubicaciones dentro de un almacén, puede usar el **Asistente para la configuración de ubicaciones**. Como parte de este proceso, puede mantener con facilidad el formato de los nombres de ubicaciones.
 
-## <a name="warehouse-processes"></a>Procesos de almacén
+## Procesos de almacén
+<a id="warehouse-processes" class="xliff"></a>
 Como parte de la configuración del almacén, es importante que se habiliten procesos de almacén de acuerdo con requisitos empresariales. Los componentes más importantes que debe configurar son plantillas de oleada, plantillas de trabajo, grupos de trabajo y directivas de ubicación.
 
-### <a name="wave-templates"></a>Plantillas de oleada
+### Plantillas de oleada
+<a id="wave-templates" class="xliff"></a>
 
 Las plantillas de oleada ayudan a habilitar el proceso "Liberar al almacén". En cuanto se liberan las líneas de pedido (directamente desde documentos de origen, mediante procesos de trabajo por lotes o mediante las cargas que ya se han creado), se usa la funcionalidad de la plantilla de oleada. 
 
@@ -88,13 +95,15 @@ Los parámetros se usan para definir cómo de lejos debería llegar el sistema e
 
 Debe especificar los métodos de proceso de oleada en cada plantilla de oleada. Los métodos disponibles varían, en función del de plantilla de oleada.
 
-### <a name="work-templates"></a>Plantillas de trabajo
+### Plantillas de trabajo
+<a id="work-templates" class="xliff"></a>
 
 Las definiciones de plantilla de trabajo desempeñan un papel importante en la definición de los procesos de trabajo de la gestión de almacenes. Definen qué trabajo se realiza y cómo se realiza. Las plantillas también pueden contener un código de directiva que vincula a un directiva de ubicación para determinar dónde se realiza el trabajo. Las plantillas de trabajo incluyen una consulta que especifica los criterios para el trabajo. Cada plantilla debe incluir al menos una operación de recogida y una operación de colocación para llevar la operación de trabajo básica de transferencia del inventario disponible de una ubicación a otra. 
 
 Si varios trabajadores deben poder procesar el trabajo para algunas de las operaciones de almacén, puede que desee usar el concepto de *etapas* para el inventario y separar la ejecución del trabajo en diferentes clases de trabajo.
 
-### <a name="work-pools"></a>Grupos de trabajo
+### Grupos de trabajo
+<a id="work-pools" class="xliff"></a>
 
 Los grupos de trabajo se usan para organizar el trabajo en grupos. Por ejemplo, puede crear un grupo de trabajo para clasificar el trabajo que se produce en una ubicación concreta de almacén. Para todos los tipos de trabajo excepto la contabilidad, puede asignar un grupo de trabajo a una plantilla de trabajo. Para el recuento cíclico, puede asignar un grupo de trabajo en las siguientes páginas:
 
@@ -107,13 +116,15 @@ Al usar plantillas de trabajo para crear el trabajo, el grupo de trabajo se asig
 
 Los id. del grupo de trabajo también se pueden usar para limitar el tipo de trabajo que se dirige a un trabajador concreto del almacén, siempre que esta función se configure en el artículo de menú del dispositivo móvil pertinente.
 
-### <a name="location-directives"></a>Directivas de ubicación
+### Directivas de ubicación
+<a id="location-directives" class="xliff"></a>
 
 Como el nombre sugiere, las directivas de ubicación se usan para dirigir las transacciones de trabajo a las ubicaciones adecuadas del almacén. Es decir, definen dónde realizar el picking y la ubicación. 
 
 Para facilitar y agilizar la definición de las acciones asociadas con cada línea de directiva de ubicación, use una de las estrategias predefinidas. Por ejemplo, puede usar la estrategia **Ubicación vacía sin trabajo entrante** para buscar las ubicaciones libres de un almacén, o puede usar la estrategia **Reserva de lote de FEFO** para el picking de ventas salientes.
 
-<a name="see-also"></a>Consulte también
+Consulte también
+<a id="see-also" class="xliff"></a>
 --------
 
 [Configurar ubicaciones en un almacén con WMS (guía de tareas)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehouse/)

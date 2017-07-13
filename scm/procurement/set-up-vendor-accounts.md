@@ -3,7 +3,7 @@ title: "Configuración de cuentas de proveedor"
 description: "Este tema describe los tipos de información que debe especificar al crear una nueva cuenta de proveedor."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,15 +18,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bee95a2f3d9727e9123aa0abcf41325e6cac1efd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="set-up-vendor-accounts"></a>Configuración de cuentas de proveedor
+# Configuración de cuentas de proveedor
+<a id="set-up-vendor-accounts" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
@@ -48,29 +49,34 @@ Para acelerar el proceso de creación de cuentas de proveedor, puede crear plant
 
 También puede crear una plantilla de usuario para su propio uso. No puede eliminar un proveedor que esté asociado a otros registros, como contactos o productos.
 
-## <a name="vendor-account-numbers"></a>Números de cuenta de proveedor
+## Números de cuenta de proveedor
+<a id="vendor-account-numbers" class="xliff"></a>
 El número de cuenta es un identificador único para un proveedor. Puede configurar números de cuenta para que se generen automáticamente cuando cree un proveedor. También puede configurar la secuencia numérica para que los números de cuenta se especifiquen manualmente. Por ejemplo, puede que desee usar el número de teléfono del proveedor como el identificador.
 
-## <a name="vendor-organizations-and-individual-vendors"></a>Organizaciones de proveedores y proveedores individuales
+## Organizaciones de proveedores y proveedores individuales
+<a id="vendor-organizations-and-individual-vendors" class="xliff"></a>
 Al crear una nueva cuenta de proveedor, debe seleccionar si el proveedor es una organización o una persona. Su selección afecta a la información que debe completar para el proveedor. Para una persona, esta información incluye el nombre, el apellido y el tratamiento. Para una organización, esta información incluye el número de organización y el número de empleados.
 
-## <a name="addresses"></a>Direcciones
+## Direcciones
+<a id="addresses" class="xliff"></a>
 Para cada proveedor, puede definir varias direcciones y cada una de ellas se usa para un fin diferente. Por ejemplo, puede crear una dirección tenga un propósito de **Factura**. O bien, si va a pagar al proveedor mediante cheque, puede configurar una dirección que tenga el propósito **Remitir a**. Si debe especificar una dirección para usarla para transferencias de dinero a bancos extranjeros, el propósito será **SWIFT**.
 
-## <a name="vendor-contacts"></a>Contactos de proveedor
+## Contactos de proveedor
+<a id="vendor-contacts" class="xliff"></a>
 Puede almacenar contactos para un proveedor. Estos contactos se pueden utilizar en documentos como pedidos de compra o solicitudes de presupuesto.  
 
 Para agregar contactos para un proveedor, en la página **Todos los proveedores**, en la pestaña **Proveedor**, en el grupo **Configurar**, haga clic en **Contactos** &gt; **Agregar contactos**.  
 
-Puede crear contactos de proveedor desde cero. Como alternativa, puede copiar los detalles de otra persona que ya está registrada en Microsoft Dynamics 365 for Operations y editar la información según sea necesario.  
+Puede crear contactos de proveedor desde cero. Como alternativa, puede copiar los detalles de otra persona que ya está registrada en Microsoft Dynamics 365 for Finance and Operations y editar la información según sea necesario.  
 
 **Nota:** Agregar un contacto para un proveedor no es lo mismo que agregar información de contacto para ese proveedor. Aunque es posible agregar información de contacto general para un proveedor, es posible que también tenga varias personas determinadas que sean contactos en esa empresa y que todas ellas tengan su propia información de contacto.  
 
 No puede eliminar un registro de la persona de contacto si al contacto se hace referencia en un documento. En su lugar, puede desactivar el contacto.  
 
-Puede agregar contactos de proveedor a sus contactos personales de Microsoft Office 365. Sin embargo, debe configurar primero la sincronización entre Dynamics 365 for Operations y Office 365 en la sincronización de Microsoft Exchange Server y en el Asistente de configuración de Microsoft Outlook.
+Puede agregar contactos de proveedor a sus contactos personales de Microsoft Office 365. Sin embargo, debe configurar primero la sincronización entre Finance and Operations y Office 365 en la sincronización de Microsoft Exchange Server y en el Asistente de configuración de Microsoft Outlook.
 
-## <a name="vendors-in-different-legal-entities"></a>Proveedores en diferentes entidades jurídicas
+## Proveedores en diferentes entidades jurídicas
+<a id="vendors-in-different-legal-entities" class="xliff"></a>
 Si un proveedor se registra solo para una entidad jurídica de su organización, y otras entidades jurídicas deben registrar el mismo proveedor, puede utilizar la página **Agregar proveedor a otra entidad jurídica** para configurar el proveedor para hacer negocios con otra entidad jurídica. Debe seleccionar un grupo de proveedores, una divisa y un estado de suspensión para el proveedor, en la entidad jurídica seleccionada.  
 
 Si varias entidades jurídicas de la organización trabajan con el mismo proveedor, y cada una de ellas dispone de una cuenta de proveedor independiente para ese proveedor, puede combinar los identificadores de la parte para las cuentas del proveedor. De esta manera, se puede compartir la información como la dirección y el número de empleados, para que deba actualizarla solo en un lugar.  
@@ -80,10 +86,12 @@ Para combinar los id. de parte, siga estos pasos.
 1.  En la página **Libreta de direcciones global**, seleccione los registros de la libreta de direcciones que representan al proveedor en cada entidad jurídica que se deben incluir en la asignación.
 2.  En el panel de acciones, haga clic en **Combinar registros**.
 
-## <a name="agreements"></a>Acuerdos
+## Acuerdos
+<a id="agreements" class="xliff"></a>
 Al configurar una cuenta de proveedor, también es posible que desee registrar los acuerdos que tiene con el proveedor. Puede configurar los acuerdos de precios y descuentos mediante las acciones en el registro de proveedor. También puede configurar un acuerdo de compra en la página **Acuerdos de compra**.
 
-## <a name="putting-a-vendor-on-hold"></a>Poner a un proveedor en espera
+## Poner a un proveedor en espera
+<a id="putting-a-vendor-on-hold" class="xliff"></a>
 Puede colocar un proveedor en espera para diversos tipos de transacciones. Están disponibles las siguientes opciones:
 
 -   **No**: el proveedor no tiene esperas.
@@ -95,13 +103,16 @@ Puede colocar un proveedor en espera para diversos tipos de transacciones. Está
 
 Cuando coloca un proveedor en espera, también puede especificar un motivo y una fecha en que finalizará el estado en espera. Si no especifica una fecha final, el estado en espera del proveedor dura de forma indefinida.
 
-## <a name="vendor-invoice-account"></a>Cuenta de facturas del proveedor
+## Cuenta de facturas del proveedor
+<a id="vendor-invoice-account" class="xliff"></a>
 Si más de un proveedor tiene la misma dirección de facturación, o si se factura a un proveedor a través de un tercero, puede especificar una cuenta de factura en el registro de proveedor. La cuenta de facturación es la cuenta en la que se abona el importe de la factura cuando crea una factura del proveedor desde un pedido de compra. Si no especifica ninguna cuenta de facturación en el registro del proveedor, la cuenta del proveedor se utilizará como cuenta de facturación.
 
-## <a name="vendor-bank-accounts"></a>Cuentas bancarias del proveedor
+## Cuentas bancarias del proveedor
+<a id="vendor-bank-accounts" class="xliff"></a>
 Si debe realizar pagos en una cuenta bancaria de proveedor, puede especificar información sobre el banco del proveedor y cuentas bancarias en la página **Cuentas bancarias del proveedor**. También puede escribir información acerca de la validación y los pagos de la cuenta bancaria. Por ejemplo, puede agregar validaciones de cuentas a las cuentas bancarias de proveedor. Estas validaciones de cuentas se pueden usar para comprobar la precisión de los datos de la cuenta, como los números de enrutamiento y los números de cuenta. Debe especificar una cuenta predeterminada para pagos al proveedor. Sin embargo, al realizar un pago real, puede cambiar esta cuenta a una de las demás cuentas del proveedor.
 
-## <a name="ledger-accounts"></a>Cuentas contables
+## Cuentas contables
+<a id="ledger-accounts" class="xliff"></a>
 Puede especificar las cuentas predeterminadas que aparecen automáticamente en los diarios de facturas de proveedor para el proveedor especificado. Esta funcionalidad puede ser de utilidad si paga normalmente los mismos tipos de elementos o servicios de los mismos proveedores en el transcurso del tiempo. Al especificar una cuenta predeterminada, puede especificar de forma rápida y eficaz entradas de diario en el diario de facturas. Las cuentas predeterminadas que especifica no se usan para los pedidos de ventas o para facturas de proveedor que se especifican en la página **Factura de proveedor**.  
 
 Puede seleccionar cuentas predeterminadas en la página **Configuración de cuenta predeterminada**, que puede abrir en la pestaña **Factura** del registro de proveedor. Las cuentas que selecciona aquí aparecen en la lista filtrada de cuentas para la cuenta de proveedor cuando especifica una entrada de diario. Puede establecer una de las cuentas como cuenta predeterminada.

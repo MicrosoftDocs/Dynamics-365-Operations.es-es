@@ -1,40 +1,42 @@
 ---
-title: Informes financieros para Dynamics 365 for Operations
-description: "Los informes financieros para Microsoft Dynamics 365 for Operations permiten a los profesionales financieros y empresariales crear, mantener, implementar y ver resultados financieros. Se mueve más allá de las restricciones tradicionales de informes para ayudarle a diseñar con eficacia diversos tipos de informes."
+title: Informes financieros for Finance and Operations
+description: "Los informes financieros para Finance and Operations permiten a los profesionales financieros y empresariales crear, mantener, implementar y ver resultados financieros. Se mueve más allá de las restricciones tradicionales de informes para ayudarle a diseñar con eficacia diversos tipos de informes."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: Management Reporter
+ms.search.scope: Management Reporter, UnifiedOperations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 997c34856d2445b02038d208f91522fe7a9a487c
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 4e0c984b95cd395e7ab23394b886782e55fac90f
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="financial-reporting-for-dynamics-365-for-operations"></a>Informes financieros para Dynamics 365 for Operations
+# Informes financieros for Finance and Operations
+<a id="financial-reporting-for-finance-and-operations" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Los informes financieros para Microsoft Dynamics 365 for Operations permiten a los profesionales financieros y empresariales crear, mantener, implementar y ver resultados financieros. Se mueve más allá de las restricciones tradicionales de informes para ayudarle a diseñar con eficacia diversos tipos de informes.
+Los informes financieros para Finance and Operations permiten a los profesionales financieros y empresariales crear, mantener, implementar y ver resultados financieros. Se mueve más allá de las restricciones tradicionales de informes para ayudarle a diseñar con eficacia diversos tipos de informes.
 
 Los informes financieros incluyen la compatibilidad de dimensiones. Por lo tanto, las dimensiones o los segmentos de cuenta están disponibles inmediatamente. No se requieren pasos de configuración o herramientas adicionales.
 
-## <a name="financial-reporting-components"></a>Componentes de informes financieros
+## Componentes de informes financieros
+<a id="financial-reporting-components" class="xliff"></a>
 Los siguientes componentes de los informes financieros facilitan la creación, la visualización y la programación de informes.
 
 | Componente        | Funciones                                                                                                                                                                                                                                                                           | Información adicional                                                                          |
@@ -42,7 +44,8 @@ Los siguientes componentes de los informes financieros facilitan la creación, l
 | Diseñador de informes  | Cree componentes de creación de informes que se puedan combinan para definir y generar un informe. El asistente para informes dirige a los usuarios menos experimentados por el proceso de diseño. Los usuarios experimentados pueden crear componentes básicos del nuevo informe o modificar componentes básicos de validez para satisfacer sus requisitos. |                                                                                                 |
 | Programaciones de informes | Programe un informe único o un grupo de informes para que se genere con regularidad.                                                                                                                                                                                          | [Generar un informe financiero](generate-financial-report.md) |
 
-## <a name="features"></a>Características
+## Características
+<a id="features" class="xliff"></a>
 <table>
 <thead>
 <tr class="header">
@@ -86,7 +89,8 @@ Los siguientes componentes de los informes financieros facilitan la creación, l
 </tbody>
 </table>
 
-#<a name="see-also"></a>Consulte también
+#Consulte también
+<a id="see-also" class="xliff"></a>
 [Generar un informe financiero](generate-financial-report.md)
 
 

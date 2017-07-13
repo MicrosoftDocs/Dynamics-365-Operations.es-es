@@ -1,9 +1,9 @@
 ---
 title: "Características en desuso"
-description: "Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen, de Dynamics 365 for Operations. También muestra las funciones que han dejado de utilizarse en las versiones de Dynamics AX 7.0."
+description: "Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen."
 author: sericks007
 manager: AnnBe
-ms.date: 04/18/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,25 +17,64 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 46a6f054f1cc5162e19d962964eb6eeb780087a6
+ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
+ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/16/2017
 
 
 ---
 
-# <a name="deprecated-features"></a>Características en desuso
+# Características en desuso
+<a id="deprecated-features" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
+Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen.
 
-Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen, de Dynamics 365 for Operations. También muestra las funciones que han dejado de utilizarse en las versiones de Dynamics AX 7.0.
+## Funciones que se han dejado de utilizar en Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017)
+<a id="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update" class="xliff"></a>
 
-<a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Funciones que se han dejado de utilizar en Dynamics 365 for Operations 1611 con la actualización de la plataforma 3
+### Portal de dispositivos móviles de almacén
+<a id="warehouse-mobile-devices-portal" class="xliff"></a>
+
+El portal de dispositivos móviles de almacén (WMDP) era componente independiente pensando para la implementación propia localmente. Este componente ya no se admite en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Una aplicación nativa que mejora la experiencia del usuario ha sustituido a la funcionalidad de WMDP. 
+
+|                                  |                                                 |
+|----------------------------------|-------------------------------------------------|
+| **Motivo de la eliminación**       | Funcionalidad duplicada.                        |
+| **¿Reemplazado por otra característica?** | Sí. Esta función se ha sustituido por Finance and Operations - Warehousing. Para obtener más información sobre la configuración y requisitos previos, consulte [Instalar y configurar Microsoft Dynamics 365 for Finance and Operations - Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Módulos afectados**             | Gestión de almacenes y administración de transporte |
+
+### Regla de correspondencia de conciliación bancaria para coincidencia manual
+<a id="advanced-bank-reconciliation-matching-rule-for-manual-matching" class="xliff"></a>
+
+Una regla de coincidencia se utilizó para seleccionar y marcar un documento bancario cuando los documentos se conciliaron manualmente en la hoja de cálculo de conciliación.
+
+|                                  |                                                                                        |
+|----------------------------------|----------------------------------------------------------------------------------------|
+| **Motivo de la eliminación**       | Uso limitado.                                                                         |
+| **¿Reemplazado por otra característica?** | N. º Las capacidades de filtro de columnas se deben usar para buscar los documentos de la conciliación. |
+| **Módulos afectados**             | Gestión de efectivo y bancos                                                               |
+
+### Aplicación para tabletas con Windows 8
+<a id="windows-8-tablet-app" class="xliff"></a>
+
+La aplicación para tabletas con Windows 8 ofrecía funcionalidad para la entrada y la aprobación de gastos.
+
+|                                  |                                                                                          |
+|----------------------------------|------------------------------------------------------------------------------------------|
+| **Motivo de la eliminación**       | Finance and Operations es compatible con las tabletas. La aplicación para tabletas ya no se requiere. |
+| **¿Reemplazado por otra característica?** | N. º                                                                                      |
+| **Módulos afectados**             | Gestión de gastos                                                                       |
+
+
+Funciones que se han dejado de utilizar en Dynamics 365 for Operations 1611 con la actualización de la plataforma 3
+<a id="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3" class="xliff"></a>
 ---------------------------------------------------------------------------------------------
 
-### <a name="aeb-payment-formats-for-spain"></a>Formatos de pago de AEB para España
+### Formatos de pago de AEB para España
+<a id="aeb-payment-formats-for-spain" class="xliff"></a>
 
 Los formatos de pago del Consejo Superior Bancario se usan para enviar remesas al banco de los pagos de cliente y proveedor. El contenido de estos formatos lo determina aa Asociación Española de Banca. Cubre Cuadernos 19, 32, 58, 34.
 
@@ -45,7 +84,8 @@ Los formatos de pago del Consejo Superior Bancario se usan para enviar remesas a
 | ¿Reemplazado por otra característica? | Sí, transferencia de crédito ISO20022 y formatos de pago de domiciliación bancaria para España |
 | Módulos afectados             | Cuentas de proveedores, cuentas de clientes                                    |
 
-### <a name="bank-payments-transfer-for-lithuania"></a>Transferencia de pagos bancarios para Lituania
+### Transferencia de pagos bancarios para Lituania
+<a id="bank-payments-transfer-for-lithuania" class="xliff"></a>
 
 Las transferencias de los pagos bancarios se generan e imprimen mediante el formato de exportación de Transferencia de pagos (LT) para Lituania. El mercado lituano empezó a usar LITAS, el sistema unificado de banca electrónica, en 2005.
 
@@ -55,7 +95,8 @@ Las transferencias de los pagos bancarios se generan e imprimen mediante el form
 | ¿Reemplazado por otra característica? | Sí, formato de pago de transferencia de crédito ISO20022 para Lituania |
 | Módulos afectados             | Proveedores                                           |
 
-### <a name="bbs-direkte-remittering-payment-formats-for-norway"></a>Formatos de pago de BBS Direkte Remittering para Noruega
+### Formatos de pago de BBS Direkte Remittering para Noruega
+<a id="bbs-direkte-remittering-payment-formats-for-norway" class="xliff"></a>
 
 Los formatos de pago de BBS Direkte Remittering incluyen la exportación del cobro de pago de cliente (domiciliación bancaria) y la importación de la devolución del mensaje.
 
@@ -65,7 +106,8 @@ Los formatos de pago de BBS Direkte Remittering incluyen la exportación del cob
 | ¿Reemplazado por otra característica? | El formato de pago de un cliente de AvtaleGiro para Noruega se puede usar para generar los mensajes de domiciliación bancaria. La importación de la devolución del mensaje será implementada en próximas versiones. |
 | Módulos afectados             | Cuentas de proveedores, cuentas de clientes                                                                                                                          |
 
-### <a name="chart-of-accounts-tool-for-spain"></a>Herramienta para el plan de cuentas para España
+### Herramienta para el plan de cuentas para España
+<a id="chart-of-accounts-tool-for-spain" class="xliff"></a>
 
 Se utiliza esta herramienta cuando un plan de cuentas en España requiere cambios importantes. Los usuarios pueden importar un nuevo plan de cuentas en Microsoft Excel o en formato de texto, y también pueden importar los informes financieros.
 
@@ -75,7 +117,8 @@ Se utiliza esta herramienta cuando un plan de cuentas en España requiere cambio
 | ¿Reemplazado por otra característica? | Nº             |
 | Módulos afectados             | Contabilidad general |
 
-### <a name="dom80-payment-format-for-belgium"></a>Formato de pago Dom80 para Bélgica
+### Formato de pago Dom80 para Bélgica
+<a id="dom80-payment-format-for-belgium" class="xliff"></a>
 
 Formato de pago Legacy Belga para cobro de pago (domiciliación bancaria).
 
@@ -85,7 +128,8 @@ Formato de pago Legacy Belga para cobro de pago (domiciliación bancaria).
 | ¿Reemplazado por otra característica? | Sí, formato de pago de domiciliación bancaria ISO 20022 para Bélgica. |
 | Módulos afectados             | Clientes                                    |
 
-### <a name="dtaezag-payment-formats-for-switzerland"></a>Formatos de pago DTA/EZAG para Suiza
+### Formatos de pago DTA/EZAG para Suiza
+<a id="dtaezag-payment-formats-for-switzerland" class="xliff"></a>
 
 Los formatos DTA/EZAG se integran en el sistema ESR, ya que pueden contener un número de referencia. Puesto que el número de referencia no es obligatorio, los formatos se pueden usar para procesar los pagos de proveedor. Estos formatos los usan las empresas con una cuenta bancaria en una ubicación diferente de “Postfinance.”
 
@@ -95,7 +139,8 @@ Los formatos DTA/EZAG se integran en el sistema ESR, ya que pueden contener un n
 | ¿Reemplazado por otra característica? | Sí, formato de pago de transferencia de crédito ISO20022 para Suiza |
 | Módulos afectados             | Proveedores                                             |
 
-### <a name="edifact-dirdeb-payment-format-for-austria"></a>Formato de pago de EDIFACT-DIRDEB para Austria
+### Formato de pago de EDIFACT-DIRDEB para Austria
+<a id="edifact-dirdeb-payment-format-for-austria" class="xliff"></a>
 
 Formato de pago de EDIFACT-DIRDEB para cobro de pago (domiciliación bancaria).
 
@@ -105,7 +150,8 @@ Formato de pago de EDIFACT-DIRDEB para cobro de pago (domiciliación bancaria).
 | ¿Reemplazado por otra característica? | Sí, formato de pago de domiciliación bancaria ISO 20022 para Austria |
 | Módulos afectados             | Clientes                                    |
 
-### <a name="edivat-for-belgium"></a>EDIVAT para Bélgica
+### EDIVAT para Bélgica
+<a id="edivat-for-belgium" class="xliff"></a>
 
 EDIVAT es una norma belga obsoleta para la declaración electrónica a través de correo seguro. Microsoft Dynamics AX 2012 conserva la opción de sólo lectura para habilitar el acceso a los datos históricos.
 
@@ -115,7 +161,8 @@ EDIVAT es una norma belga obsoleta para la declaración electrónica a través d
 | ¿Reemplazado por otra característica? | Nº                                   |
 | Módulos afectados             | Contabilidad general                       |
 
-### <a name="egiro-edifact-cremul-payment-import-format-for-norway"></a>Formato de importación de pago de eGiro EDIFACT CREMUL para Noruega
+### Formato de importación de pago de eGiro EDIFACT CREMUL para Noruega
+<a id="egiro-edifact-cremul-payment-import-format-for-norway" class="xliff"></a>
 
 eGiro se basa en la norma internacional UN EDIFACT CREMUL (Mensaje de aviso de crédito múltiple), que se usa para el registro automático de pagos del cliente. En Microsoft Dynamics AX, eGiro se implementa como formato de importación de pago de cliente.
 
@@ -125,7 +172,8 @@ eGiro se basa en la norma internacional UN EDIFACT CREMUL (Mensaje de aviso de c
 | ¿Reemplazado por otra característica? | N. º El formato se sustituirá por formatos ISO 20022 de importación de criterio en próximas versiones. |
 | Módulos afectados             | Clientes                                                                       |
 
-### <a name="external-inventory-for-poland"></a>Inventario externo para Polonia
+### Inventario externo para Polonia
+<a id="external-inventory-for-poland" class="xliff"></a>
 
 Pruebas de mercancías que se toman de un proveedor para las venta sin compra. Las mercancías que son gestionadas en un inventario externo, no afectan al inventario estándar y se pueden vender y comprar después automáticamente. Este proceso crea los movimientos de inventario reales.
 
@@ -135,7 +183,8 @@ Pruebas de mercancías que se toman de un proveedor para las venta sin compra. L
 | ¿Reemplazado por otra característica? | Sí, la funcionalidad básica de entrada de envío |
 | Módulos afectados             | Cuentas de proveedores, gestión de inventario          |
 
-### <a name="financial-reports-generator-for-eastern-europe"></a>Generador de informes financieros para Europa Oriental
+### Generador de informes financieros para Europa Oriental
+<a id="financial-reports-generator-for-eastern-europe" class="xliff"></a>
 
 Se utiliza una herramienta para configurar la recopilación de datos para los informes de contabilidad e impuestos, y para exportar datos a plantillas de informes XLS y DOC.
 
@@ -145,7 +194,8 @@ Se utiliza una herramienta para configurar la recopilación de datos para los in
 | ¿Reemplazado por otra característica? | N. º La herramienta se reemplazará por las configuraciones de informes electrónicas en próximas versiones. |
 | Módulos afectados             | Contabilidad general                                                                           |
 
-### <a name="import-of-customer-payment-transactions-for-finland"></a>Importación de las transacciones de pago del cliente para Finlandia
+### Importación de las transacciones de pago del cliente para Finlandia
+<a id="import-of-customer-payment-transactions-for-finland" class="xliff"></a>
 
 Puede seleccionar un formato de importación para los pagos finlandeses para importar las transacciones de pago del cliente desde un archivo externo proporcionado por el banco.
 
@@ -155,7 +205,8 @@ Puede seleccionar un formato de importación para los pagos finlandeses para imp
 | ¿Reemplazado por otra característica? | N. º El formato se sustituirá por formatos ISO 20022 de importación de criterio en próximas versiones. |
 | Módulos afectados             | Clientes                                                                       |
 
-### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a>Importación de transacciones de pago en un diario de contabilidad general para Finlandia
+### Importación de transacciones de pago en un diario de contabilidad general para Finlandia
+<a id="import-of-payment-transactions-into-a-general-ledger-journal-for-finland" class="xliff"></a>
 
 Se usa un formato específico para Finlandia para importar las transacciones de contabilidad en la contabilidad general.
 
@@ -165,7 +216,8 @@ Se usa un formato específico para Finlandia para importar las transacciones de 
 | ¿Reemplazado por otra característica? | N. º El formato se sustituirá por formatos ISO 20022 de importación de criterio en próximas versiones. |
 | Módulos afectados             | Clientes                                                                       |
 
-### <a name="integration-with-isabel-synchronized-cis-for-belgium"></a>Integración con el software Isabel sincronizado (CIS) para Bélgica
+### Integración con el software Isabel sincronizado (CIS) para Bélgica
+<a id="integration-with-isabel-synchronized-cis-for-belgium" class="xliff"></a>
 
 Isabel es el marco de trabajo de la banca electrónica en Europa y es una norma de hecho en Bélgica.
 
@@ -175,7 +227,8 @@ Isabel es el marco de trabajo de la banca electrónica en Europa y es una norma 
 | ¿Reemplazado por otra característica? | N. º Los formatos de pago que ya no se usan son reemplazados por el formato de pago de transferencia de crédito ISO20022 para Bélgica. |
 | Módulos afectados             | Proveedores                                                                                                     |
 
-### <a name="modifications-in-the-chart-of-accounts-and-accounting-rules-for-spain"></a>Modificaciones del plan de cuentas y reglas de contabilidad para España
+### Modificaciones del plan de cuentas y reglas de contabilidad para España
+<a id="modifications-in-the-chart-of-accounts-and-accounting-rules-for-spain" class="xliff"></a>
 
 Esta característica se usa para los cambios en el plan de cuentas y en las reglas de contabilidad de España. Asigna cuentas para ayudar a transformar el antiguo plan de cuentas en el nuevo plan contable, y compara el ejercicio anterior con el nuevo ejercicio, incluso si se han registrado en números de cuenta distintos.
 
@@ -185,7 +238,8 @@ Esta característica se usa para los cambios en el plan de cuentas y en las regl
 | ¿Reemplazado por otra característica? | Nº             |
 | Módulos afectados             | Contabilidad general |
 
-### <a name="pagamento-fornittori-vendor-payment-format"></a>Formato de pago de proveedor de Pagamento Fornittori
+### Formato de pago de proveedor de Pagamento Fornittori
+<a id="pagamento-fornittori-vendor-payment-format" class="xliff"></a>
 
 Formato de pago de transferencia de crédito de Legacy italiano.
 
@@ -195,7 +249,8 @@ Formato de pago de transferencia de crédito de Legacy italiano.
 | ¿Reemplazado por otra característica? | Sí, formato de pago de transferencia de crédito ISO20022 para Italia |
 | Módulos afectados             | Proveedores                                       |
 
-### <a name="payment-export-formats-for-estonia"></a>Formatos de exportación de pagos para Estonia
+### Formatos de exportación de pagos para Estonia
+<a id="payment-export-formats-for-estonia" class="xliff"></a>
 
 Los formatos de Telehansa y Teleservicio se usan para la exportación de pago bancario.
 
@@ -205,7 +260,8 @@ Los formatos de Telehansa y Teleservicio se usan para la exportación de pago ba
 | ¿Reemplazado por otra característica? | Sí, formato de pago de transferencia de crédito ISO20022 para Estonia |
 | Módulos afectados             | Proveedores                                         |
 
-### <a name="payment-file-archive-for-norway"></a>Archivo de pago para Noruega
+### Archivo de pago para Noruega
+<a id="payment-file-archive-for-norway" class="xliff"></a>
 
 Cuando se generan los archivos de pago, el archivo almacena automáticamente todos los archivos que se crean, incluso los que se han escrito o leído con anterioridad.
 
@@ -215,7 +271,8 @@ Cuando se generan los archivos de pago, el archivo almacena automáticamente tod
 | ¿Reemplazado por otra característica? | Sí, trabajos archivados de informes electrónicos                            |
 | Módulos afectados             | Cuentas de proveedores, cuentas de clientes, administración de la empresa |
 
-### <a name="payment-import-formats-for-estonia"></a>Formatos de importación de pagos para Estonia
+### Formatos de importación de pagos para Estonia
+<a id="payment-import-formats-for-estonia" class="xliff"></a>
 
 Los formatos de Telehansa y TeleTeenus se usan para la importación de pago bancario.
 
@@ -225,7 +282,8 @@ Los formatos de Telehansa y TeleTeenus se usan para la importación de pago banc
 | ¿Reemplazado por otra característica? | N. º Los formatos se sustituirán por formatos ISO 20022 de importación de criterio en próximas versiones. |
 | Módulos afectados             | Clientes                                                                        |
 
-### <a name="performance-management-goal-workflow"></a>Flujo de trabajo de objetivo de gestión del rendimiento
+### Flujo de trabajo de objetivo de gestión del rendimiento
+<a id="performance-management-goal-workflow" class="xliff"></a>
 
 La gestión del rendimiento incluye la administración y la integración del objetivo con las evaluaciones de rendimiento.
 
@@ -235,7 +293,8 @@ La gestión del rendimiento incluye la administración y la integración del obj
 | ¿Reemplazado por otra característica? | N. º Los objetivos son visibles para los administradores a través del portal Manager Self Service, y se pueden ver y cambiar por el administrador. |
 | Módulos afectados             | Gestión del capital humano                                                                                                 |
 
-### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>Formatos de pago de Postgirot y Postgirot Utland para Suecia
+### Formatos de pago de Postgirot y Postgirot Utland para Suecia
+<a id="postgirot-and-postgirot-utland-payment-formats-for-sweden" class="xliff"></a>
 
 Formatos de pago de Postgirot y Postgirot Utland para Suecia.
 
@@ -245,7 +304,8 @@ Formatos de pago de Postgirot y Postgirot Utland para Suecia.
 | ¿Reemplazado por otra característica? | Sí, formato de pago de transferencia de crédito ISO20022 para Suecia |
 | Módulos afectados             | Proveedores                                        |
 
-### <a name="radio-frequency-identifier"></a>Identificador por radiofrecuencia
+### Identificador por radiofrecuencia
+<a id="radio-frequency-identifier" class="xliff"></a>
 
 La identificación por radiofrecuencia (RFID) es una tecnología de recopilación de datos que utiliza etiquetas electrónicas para almacenar datos de identificación y no precisa ningún lector de requisitos visuales para capturarlos.
 
@@ -255,7 +315,8 @@ La identificación por radiofrecuencia (RFID) es una tecnología de recopilació
 | ¿Reemplazado por otra característica? | No                                            |
 | Módulos afectados             | Gestión del inventario                          |
 
-### <a name="report-about-state-invoices-numbering-for-latvia"></a>Informe sobre la numeración del estado de las facturas para Letonia
+### Informe sobre la numeración del estado de las facturas para Letonia
+<a id="report-about-state-invoices-numbering-for-latvia" class="xliff"></a>
 
 La legislación letona proporciona reglas específicas acerca de la numeración de las facturas de ventas. Dicha funcionalidad le permite asignar números específicos a las facturas de ventas, en función del usuario o del grupo de usuarios. A continuación puede generar un informe o un archivo XML. También puede imprimir un informe sobre los números de factura que se usan.
 
@@ -265,7 +326,8 @@ La legislación letona proporciona reglas específicas acerca de la numeración 
 | ¿Reemplazado por otra característica? | Nº                                                                                                                       |
 | Módulos afectados             | Clientes                                                                                                      |
 
-### <a name="set-up-the-names-of-the-manager-and-general-accountant-of-a-company-for-lithuania"></a>Configuración de los nombres del administrador y el contable general de una empresa para Lituania
+### Configuración de los nombres del administrador y el contable general de una empresa para Lituania
+<a id="set-up-the-names-of-the-manager-and-general-accountant-of-a-company-for-lithuania" class="xliff"></a>
 
 Los nombres del administrador y el contable general de una empresa se pueden especificar en la información de la empresa y usar en distintas copias impresas locales del informe.
 
@@ -275,7 +337,8 @@ Los nombres del administrador y el contable general de una empresa se pueden esp
 | ¿Reemplazado por otra característica? | Sí, la configuración de funcionarios se puede usar con el mismo propósito.   |
 | Módulos afectados             | Clientes, Proveedores, Gestión de efectivo y bancos |
 
-### <a name="telepay-payment-formats-for-norway"></a>Formatos de pago Telepay para Noruega
+### Formatos de pago Telepay para Noruega
+<a id="telepay-payment-formats-for-norway" class="xliff"></a>
 
 Los formatos de pago Telepay incluyen la exportación del pago de proveedor (transferencia de crédito) y el cobro de pago del cliente (domiciliación bancaria).
 
@@ -285,7 +348,8 @@ Los formatos de pago Telepay incluyen la exportación del pago de proveedor (tra
 | ¿Reemplazado por otra característica? | Sí, formato de pago de transferencia de crédito ISO20022 y formato de pago del cliente de AvtaleGiro para Noruega |
 | Módulos afectados             | Cuentas de proveedores, cuentas de clientes                                                          |
 
-### <a name="vendor-payment-export-formats-for-finland"></a>Formatos de exportación de pago de proveedores para Finlandia
+### Formatos de exportación de pago de proveedores para Finlandia
+<a id="vendor-payment-export-formats-for-finland" class="xliff"></a>
 
 Dos formatos para exportar pagos están disponibles para Finlandia. LM02 (FI) se usa para pagos nacionales y LUM2 (FI) se usa para pagos extranjeros.
 
@@ -295,18 +359,21 @@ Dos formatos para exportar pagos están disponibles para Finlandia. LM02 (FI) se
 | ¿Reemplazado por otra característica? | Sí, formato de pago de transferencia de crédito ISO20022 para Finlandia |
 | Módulos afectados             | Proveedores                                         |
 
-### <a name="workflow-for-creating-goals"></a>Flujo de trabajo para crear objetivos
+### Flujo de trabajo para crear objetivos
+<a id="workflow-for-creating-goals" class="xliff"></a>
 
 Un flujo de trabajo para gestionar la creación de los objetivos del empleado es uno de varios flujos de trabajo que estaban disponibles para ayudar a coordinar el proceso de gestión del rendimiento.
 
 |                              |                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo de la eliminación       | La gestión del rendimiento se ha vuelto a diseñar por completo en Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                        |
+| Motivo de la eliminación       | La gestión del rendimiento se ha vuelto a diseñar por completo en Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                        |
 | ¿Reemplazado por otra característica? | La característica de Gestión del rendimiento que se ha diseñado de nuevo proporciona más control sobre el contenido de los objetivos, las medidas que se utilizan para realizar el seguimiento del progreso y los datos adjuntos de la documentación correspondiente. Los objetivos se pueden almacenar como plantillas y volverse a utilizar. Esta función puede ayudarle a configurar los objetivos adicionales para sus empleados con más rapidez. |
 | Módulos afectados             | Gestión del capital humano                                                                                                                                                                                                                                                                                                               |
 
-## <a name="features-deprecated-in-dynamics-ax-70-releases"></a>Funciones que ya no se utilizan en las versiones de Dynamics AX 7.0
-### <a name="ability-to-cancel-changes-to-a-vendor-invoice"></a>Capacidad para cancelar cambios en una factura de proveedor
+## Funciones que ya no se utilizan en las versiones de Dynamics AX 7.0
+<a id="features-deprecated-in-dynamics-ax-70-releases" class="xliff"></a>
+### Capacidad para cancelar cambios en una factura de proveedor
+<a id="ability-to-cancel-changes-to-a-vendor-invoice" class="xliff"></a>
 
 |                              |                         |
 |------------------------------|-------------------------|
@@ -314,7 +381,8 @@ Un flujo de trabajo para gestionar la creación de los objetivos del empleado es
 | ¿Reemplazado por otra característica? | No                      |
 | Módulos afectados             | Proveedores        |
 
-### <a name="aif-axd-and-axbc-integrations"></a>Integración de AIF, Axd y AxBC
+### Integración de AIF, Axd y AxBC
+<a id="aif-axd-and-axbc-integrations" class="xliff"></a>
 
 En Application Integration Framework (AIF), los datos se pueden intercambiar con sistemas externos por medio de lógica de negocios expuesta como servicios. Dynamics AX incluye servicios que se basan en documentos y en .NET Business Connector (AxBC). Los documentos se crean mediante XML. El XML incluye información de encabezado que se agrega para crear un *mensaje* que se puede transferir a o de Dynamics AX. Algunos ejemplos de documentos son los pedidos de compra y venta. No obstante, casi cualquier entidad, como un cliente, puede ser representado por un documento. Los servicios que se basan en documentos usan las clases **Axd &lt;*Documento*&gt;.
 
@@ -324,7 +392,8 @@ En Application Integration Framework (AIF), los datos se pueden intercambiar con
 | ¿Reemplazado por otra característica? | En la versión actual de Dynamics AX, esta característica se sustituye por el marco de importación y exportación de datos, compatible con la importación y exportación masiva recurrente. Para AxBC, se recomienda usar las tablas reales. |
 | Módulos afectados             | AxDs, AxBC y AIF                                                                                                                                                                                     |
 
-### <a name="boms-without-bom-versions"></a>L. MAT sin versiones de L. MAT
+### L. MAT sin versiones de L. MAT
+<a id="boms-without-bom-versions" class="xliff"></a>
 
 Cuando la clave de configuración **Versiones de L. MAT.** se deshabilita, las versiones de la lista de materiales se ocultan en todos los formularios, y el sistema fuerza una relación 1:1 entre los productos liberados y las listas de materiales. En la versión actual de Dynamics AX, no se puede deshabilitar la clave de configuración **Versiones de L. MAT**.
 
@@ -334,7 +403,8 @@ Cuando la clave de configuración **Versiones de L. MAT.** se deshabilita, las v
 | ¿Reemplazado por otra característica? | No                                                                                      |
 | Módulos afectados             | Gestión de información de productos, Gestión de inventarios                                    |
 
-### <a name="brazilian-bordero"></a>Bordero brasileño
+### Bordero brasileño
+<a id="brazilian-bordero" class="xliff"></a>
 
 Forma de pago específica para las empresas brasileñas
 
@@ -344,7 +414,8 @@ Forma de pago específica para las empresas brasileñas
 | ¿Reemplazado por otra característica? | Nº                                                                                                    |
 | Módulos afectados             | Proveedores                                                                                      |
 
-### <a name="brazilian-sintegra-statement"></a>Extracto de Sintegra brasileño
+### Extracto de Sintegra brasileño
+<a id="brazilian-sintegra-statement" class="xliff"></a>
 
 Extracto del impuesto federal para el impuesto de ICMS
 
@@ -354,7 +425,8 @@ Extracto del impuesto federal para el impuesto de ICMS
 | ¿Reemplazado por otra característica? | N. º Los usuarios pueden utilizar la herramienta de informes electrónica genérica para configurar el extracto si es necesario de acuerdo a situaciones específicas. |
 | Módulos afectados             | Libros fiscales                                                                                                          |
 
-### <a name="brazilian-scan-contingency-mode-for-nf-e"></a>Modo brasileño de contingencia SCAN brasileña para NF-e
+### Modo brasileño de contingencia SCAN brasileña para NF-e
+<a id="brazilian-scan-contingency-mode-for-nf-e" class="xliff"></a>
 
 El entorno de contingencia de (SCAN) se usa para generar, exportar e importar el estado de una Nota fiscal electrónica (NF-e) cuando el entorno de la Secretaría de Hacienda (SEFAZ) no está disponible.
 
@@ -364,7 +436,8 @@ El entorno de contingencia de (SCAN) se usa para generar, exportar e importar el
 | ¿Reemplazado por otra característica? | Nº                                                                          |
 | Módulos afectados             | Clientes                                                         |
 
-### <a name="business-analyzer"></a>Analizador de negocio
+### Analizador de negocio
+<a id="business-analyzer" class="xliff"></a>
 
 Esta aplicación móvil permite a los usuarios revisar métricas de negocio clave.
 
@@ -374,7 +447,8 @@ Esta aplicación móvil permite a los usuarios revisar métricas de negocio clav
 | ¿Reemplazado por otra característica? | El paquete de contenido de supervisión del rendimiento financiero para Microsoft Power BI incluirá métricas financieras clave anteriormente disponibles en Business Analyzer. |
 | Módulos afectados             | Contabilidad general                                                                                                                                                |
 
-### <a name="business-statistics"></a>Estadísticas comerciales
+### Estadísticas comerciales
+<a id="business-statistics" class="xliff"></a>
 
 La configuración de consultas de estadísticas comerciales que le pueden ayudar a analizar el rendimiento de la organización
 
@@ -384,7 +458,8 @@ La configuración de consultas de estadísticas comerciales que le pueden ayudar
 | ¿Reemplazado por otra característica? | Nuevas soluciones de inteligencia empresarial para la versión actual de Dynamics AX                                      |
 | Módulos afectados             | Adquisición y abastecimiento, Proveedores, Ventas y marketing, Clientes.         |
 
-### <a name="change-document-date-function-in-invoice-approval-journal"></a>Cambio de la función de fecha de documento en el diario de aprobación de facturas
+### Cambio de la función de fecha de documento en el diario de aprobación de facturas
+<a id="change-document-date-function-in-invoice-approval-journal" class="xliff"></a>
 
 |                              |                                                                         |
 |------------------------------|-------------------------------------------------------------------------|
@@ -392,7 +467,8 @@ La configuración de consultas de estadísticas comerciales que le pueden ayudar
 | ¿Reemplazado por otra característica? | Sí. La fecha de documento en la transacción de proveedor registrada puede cambiarse. |
 | Módulos afectados             | Proveedores                                                        |
 
-### <a name="clieop03-payment-format-for-the-netherlands"></a>Formato de pago ClieOp03 para Países Bajos
+### Formato de pago ClieOp03 para Países Bajos
+<a id="clieop03-payment-format-for-the-netherlands" class="xliff"></a>
 
 |                              |                                                                                                            |
 |------------------------------|------------------------------------------------------------------------------------------------------------|
@@ -400,7 +476,8 @@ La configuración de consultas de estadísticas comerciales que le pueden ayudar
 | ¿Reemplazado por otra característica? | Exportación de pagos SEPA                                                                                       |
 | Módulos afectados             | Todas                                                                                                        |
 
-### <a name="compliance-center"></a>Centro de cumplimiento
+### Centro de cumplimiento
+<a id="compliance-center" class="xliff"></a>
 
 El Centro de cumplimiento era un sitio de Enterprise Portal para gestionar los requisitos de documentación para las iniciativas de conformidad relacionadas con la ley Sarbanes-Oxley.
 
@@ -410,7 +487,8 @@ El Centro de cumplimiento era un sitio de Enterprise Portal para gestionar los r
 | ¿Reemplazado por otra característica? | No                                                                                                                     |
 | Módulos afectados             | Cumplimiento y controles internos                                                                                       |
 
-### <a name="connector-for-microsoft-dynamics"></a>Conector para Microsoft Dynamics
+### Conector para Microsoft Dynamics
+<a id="connector-for-microsoft-dynamics" class="xliff"></a>
 
 Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en las aplicaciones de Microsoft Dynamics ERP.
 
@@ -420,7 +498,8 @@ Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en 
 | ¿Reemplazado por otra característica? | Integrador de Dynamics                                      |
 | Módulos afectados             | Conector para Microsoft Dynamics                         |
 
-### <a name="container-unit-and-multi-dimension-on-hand"></a>Unidad de contenedor y multidimensión disponibles
+### Unidad de contenedor y multidimensión disponibles
+<a id="container-unit-and-multi-dimension-on-hand" class="xliff"></a>
 
 |                              |                                                                                                                                                                 |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -428,7 +507,8 @@ Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en 
 | ¿Reemplazado por otra característica? | Sí. Desde AX 2012, esta funcionalidad se ha reemplazado por el conjunto de características de pedidos de lotes consolidados. Este conjunto de características incluye la vista disponible consolidada. |
 | Módulos afectados             | Gestión de información de productos, Control de producción, Administración de inventario, Ventas y marketing                                                                   |
 
-### <a name="cue-group-metadata"></a>Metadatos de grupo de pilas
+### Metadatos de grupo de pilas
+<a id="cue-group-metadata" class="xliff"></a>
 
 |                              |                                                                                                                                                                                                                               |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -436,7 +516,8 @@ Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en 
 | ¿Reemplazado por otra característica? | No                                                                                                                                                                                                                            |
 | Módulos afectados             | Todas                                                                                                                                                                                                                           |
 
-### <a name="cue-metadata"></a>Metadatos de pila
+### Metadatos de pila
+<a id="cue-metadata" class="xliff"></a>
 
 |                              |                                                                                                                                                                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -444,7 +525,8 @@ Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en 
 | ¿Reemplazado por otra característica? | Los metadatos de icono se introdujeron para proporcionar más flexibilidad para modelar. Por ejemplo, puede modelar recuentos actuales, navegación e indicadores de rendimiento clave (KPI). Los metadatos de icono de recuento sustituyen directamente a los metadatos de pila. |
 | Módulos afectados             | Todas                                                                                                                                                                                                                                     |
 
-### <a name="danish-check-format"></a>Formato de cheque danés
+### Formato de cheque danés
+<a id="danish-check-format" class="xliff"></a>
 
 |                              |                                                                                                                         |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------|
@@ -452,7 +534,8 @@ Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en 
 | ¿Reemplazado por otra característica? | No                                                                                                                      |
 | Módulos afectados             | Todas                                                                                                                     |
 
-### <a name="data-partitions"></a>Particiones de datos
+### Particiones de datos
+<a id="data-partitions" class="xliff"></a>
 
 Las particiones de los datos proporcionan una separación lógica de datos en la base de datos de Microsoft Dynamics AX.
 
@@ -462,7 +545,8 @@ Las particiones de los datos proporcionan una separación lógica de datos en la
 | ¿Reemplazado por otra característica? | Se reemplazarán las particiones de datos mediante el soporte para múltiples bases de datos o instancias de Dynamics AX en una versión futura.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Módulos afectados             | Todas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
-### <a name="delimitation"></a>Delimitación
+### Delimitación
+<a id="delimitation" class="xliff"></a>
 
 |                              |                                        |
 |------------------------------|----------------------------------------|
@@ -470,7 +554,8 @@ Las particiones de los datos proporcionan una separación lógica de datos en la
 | ¿Reemplazado por otra característica? | No                                     |
 | Módulos afectados             | Tiempo y asistencia                    |
 
-### <a name="desktop-client"></a>Cliente de escritorio
+### Cliente de escritorio
+<a id="desktop-client" class="xliff"></a>
 
 |                              |                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
@@ -478,17 +563,19 @@ Las particiones de los datos proporcionan una separación lógica de datos en la
 | ¿Reemplazado por otra característica? | El nuevo cliente web se basa en los metadatos de formulario de escritorio y el modelo de programación que se han modificado para proporcionar una plataforma web enriquecida. |
 | Módulos afectados             | Todas                                                                                                                                    |
 
-### <a name="direct-database-connection"></a>Conexión con base de datos directa
+### Conexión con base de datos directa
+<a id="direct-database-connection" class="xliff"></a>
 
 En Dynamics AX 2012 R3, Retail Modern POS podía conectarse directamente a la base de datos de canales de forma parecida a la de Enterprise POS. Esto se añadía al método de comunicación estándar en que Retail Modern POS se comunicaba mediante Retail Server.  
 
 |                              |                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------|
-| Motivo de la eliminación       | La conectividad directa de la base de datos requería protocolos de seguridad inferiores y se usaba principalmente para alcanzar niveles de rendimiento más altos. Debido a las mejoras del rendimiento y de seguridad que se han producido en Dynamics 365 for Operations, esta funcionalidad ahora está dando más problemas que soluciones. |
+| Motivo de la eliminación       | La conectividad directa de la base de datos requería protocolos de seguridad inferiores y se usaba principalmente para alcanzar niveles de rendimiento más altos. Debido a las mejoras del rendimiento y de seguridad que se han producido en Finance and Operations, esta funcionalidad ahora está dando más problemas que soluciones. |
 | ¿Reemplazado por otra característica? | N. º Ahora solo se da soporte a la comunicación de Retail Server estándar.    |
 | Módulos afectados             | Base de datos de canales/Retail Modern POS                                    |
 
-### <a name="dutch-swift-mt940"></a>SWIFT MT940 holandés
+### SWIFT MT940 holandés
+<a id="dutch-swift-mt940" class="xliff"></a>
 
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -496,7 +583,8 @@ En Dynamics AX 2012 R3, Retail Modern POS podía conectarse directamente a la ba
 | ¿Reemplazado por otra característica? | Sí, esta función se ha reemplazado por la funcionalidad avanzada de conciliación bancaria. Además, se prevé la implementación de la importación de extractos de cuenta camt.053 ISO20022 para el Diario general en la siguiente actualización de Dynamics AX. |
 | Módulos afectados             | Todas                                                                                                                                                                                                                                   |
 
-### <a name="ebilanz-xbrl-for-germany"></a>eBilanz (XBRL para Alemania)
+### eBilanz (XBRL para Alemania)
+<a id="ebilanz-xbrl-for-germany" class="xliff"></a>
 
 Esta funcionalidad proporcionaba salida en el lenguaje eXtensible Business Reporting Language (XBRL) pensada específicamente para la taxonomía alemana eBilanz.
 
@@ -506,7 +594,8 @@ Esta funcionalidad proporcionaba salida en el lenguaje eXtensible Business Repor
 | ¿Reemplazado por otra característica? | Esta característica no se ha sustituido por otra, pero hay disponibles varios paquetes XBRL especializados que proporcionan funcionalidad XBRL enriquecida para el mercado alemán. |
 | Módulos afectados             | Management Reporter                                                                                                                                                    |
 
-### <a name="enterprise-portal-client"></a>Cliente de Enterprise Portal
+### Cliente de Enterprise Portal
+<a id="enterprise-portal-client" class="xliff"></a>
 
 |                              |                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
@@ -514,7 +603,8 @@ Esta funcionalidad proporcionaba salida en el lenguaje eXtensible Business Repor
 | ¿Reemplazado por otra característica? | El nuevo cliente web se basa en los metadatos del formulario de escritorio y el modelo de programación que se han modificado para proporcionar una plataforma web enriquecida. |
 | Módulos afectados             | Todas                                                                                                                                    |
 
-### <a name="environmental-sustainability"></a>Sustentabilidad ambiental
+### Sustentabilidad ambiental
+<a id="environmental-sustainability" class="xliff"></a>
 
 |                              |                                                    |
 |------------------------------|----------------------------------------------------|
@@ -522,7 +612,8 @@ Esta funcionalidad proporcionaba salida en el lenguaje eXtensible Business Repor
 | ¿Reemplazado por otra característica? | No                                                 |
 | Módulos afectados             | Cumplimiento y controles internos, Proveedores |
 
-### <a name="form-activex-and-managed-host-controls"></a>Controles de formulario de host administrados y ActiveX
+### Controles de formulario de host administrados y ActiveX
+<a id="form-activex-and-managed-host-controls" class="xliff"></a>
 
 |                              |                                                                                                                                                                                               |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -530,7 +621,8 @@ Esta funcionalidad proporcionaba salida en el lenguaje eXtensible Business Repor
 | ¿Reemplazado por otra característica? | El marco de controles extensibles admite la creación de nuevos controles que se basan en HTML, CSS y Javascript, y es un control de primera clase en el entorno de Microsoft Visual Studio Tooling. |
 | Módulos afectados             | Todas                                                                                                                                                                                           |
 
-### <a name="generate-prenotes-by-using-a-batch"></a>Generación de prenotas mediante un lote
+### Generación de prenotas mediante un lote
+<a id="generate-prenotes-by-using-a-batch" class="xliff"></a>
 
 La generación de prenotas no se puede hacer mediante un lote pero sí la puede realizar un usuario.
 
@@ -540,7 +632,8 @@ La generación de prenotas no se puede hacer mediante un lote pero sí la puede 
 | ¿Reemplazado por otra característica? | Aún se pueden generar prenotas y el usuario tiene control sobre la ubicación en la que se guarda el archivo.   |
 | Módulos afectados             | Clientes, Proveedores, Gestión de efectivo y bancos                                        |
 
-### <a name="german-dtaus-payment-export-and-account-statement-import-totals-and-transactions"></a>Exportación de pagos DTAUS alemanes e importación de extractos de cuentas (totales y transacciones)
+### Exportación de pagos DTAUS alemanes e importación de extractos de cuentas (totales y transacciones)
+<a id="german-dtaus-payment-export-and-account-statement-import-totals-and-transactions" class="xliff"></a>
 
 |                              |                                                                                                                                                                                                                                                                                                |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -548,7 +641,8 @@ La generación de prenotas no se puede hacer mediante un lote pero sí la puede 
 | ¿Reemplazado por otra característica? | Sí, esta funcionalidad se ha reemplazado por la funcionalidad de exportación de pagos SEPA y conciliación bancaria avanzada para importar extractos de cuenta. Además, se prevé la implementación de la importación de extractos de cuenta camt.053 ISO20022 para el Diario general en la siguiente actualización de Dynamics AX. |
 | Módulos afectados             | Todas                                                                                                                                                                                                                                                                                            |
 
-### <a name="german-dtazv-payment-format"></a>Formato de pago DTAZV para Alemania
+### Formato de pago DTAZV para Alemania
+<a id="german-dtazv-payment-format" class="xliff"></a>
 
 |                              |                                                                                                    |
 |------------------------------|----------------------------------------------------------------------------------------------------|
@@ -556,7 +650,8 @@ La generación de prenotas no se puede hacer mediante un lote pero sí la puede 
 | ¿Reemplazado por otra característica? | Exportación de pagos SEPA                                                                               |
 | Módulos afectados             | Todas                                                                                                |
 
-### <a name="german-mt940-import"></a>Importación MT940 alemana
+### Importación MT940 alemana
+<a id="german-mt940-import" class="xliff"></a>
 
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -564,7 +659,8 @@ La generación de prenotas no se puede hacer mediante un lote pero sí la puede 
 | ¿Reemplazado por otra característica? | Sí, esta función se ha reemplazado por la funcionalidad avanzada de conciliación bancaria. Además, se prevé la implementación de la importación de extractos de cuenta camt.053 ISO20022 para el Diario general en la siguiente actualización de Dynamics AX. |
 | Módulos afectados             | Todas                                                                                                                                                                                                                                   |
 
-### <a name="german-xml-eu-sales-list"></a>Lista de ventas UE XML para Alemania
+### Lista de ventas UE XML para Alemania
+<a id="german-xml-eu-sales-list" class="xliff"></a>
 
 |                              |                                                                                                                                                                                    |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -572,7 +668,8 @@ La generación de prenotas no se puede hacer mediante un lote pero sí la puede 
 | ¿Reemplazado por otra característica? | No                                                                                                                                                                                 |
 | Módulos afectados             | Impuesto                                                                                                                                                                                |
 
-### <a name="gl-ssrs-reports"></a>Informes GL SSRS
+### Informes GL SSRS
+<a id="gl-ssrs-reports" class="xliff"></a>
 
 Se han retirado los informes que incluyen los siguientes elementos de menú: **Resumen de saldo de comprobación**, **Saldo de comprobación detallado**, **Plan contable**, **Traza de auditoría**, **Saldos** y **Lista de saldo**.
 
@@ -582,7 +679,8 @@ Se han retirado los informes que incluyen los siguientes elementos de menú: **R
 | ¿Reemplazado por otra característica? | Management Reporter (etiquetado **Informes financieros** en la versión actual de Dynamics AX)                                                  |
 | Módulos afectados             | Contabilidad general                                                                                                                               |
 
-### <a name="infopart-and-formpart-metadata"></a>Metadatos de InfoPart y FormPart
+### Metadatos de InfoPart y FormPart
+<a id="infopart-and-formpart-metadata" class="xliff"></a>
 
 |                              |                                                                                                                                                                                                                                |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -590,7 +688,8 @@ Se han retirado los informes que incluyen los siguientes elementos de menú: **R
 | ¿Reemplazado por otra característica? | Los metadatos de InfoPart, que eran una definición simplificada de formulario, se han convertido a un formulario mediante herramientas de actualización. Los metadatos de FormPart, con un formulario al que se hace referencia, se han sustituido por una referencia más directa creada mediante herramientas de actualización. |
 | Módulos afectados             | Todas                                                                                                                                                                                                                            |
 
-### <a name="main-account-list-page"></a>Página de lista Cuenta principal
+### Página de lista Cuenta principal
+<a id="main-account-list-page" class="xliff"></a>
 
 Una lista de cuentas para la entidad jurídica y la información relacionada de saldo
 
@@ -600,7 +699,8 @@ Una lista de cuentas para la entidad jurídica y la información relacionada de 
 | ¿Reemplazado por otra característica? | **Cuentas principales** contiene la misma lista de cuentas que contenía la página de lista **Cuenta principal**. La vista de cuadrícula en **Cuentas principales** también muestra una vista más pequeña tipo cuadrícula. |
 | Módulos afectados             | Contabilidad general                                                                                                                                                                     |
 
-### <a name="malaysia-and-singapore-bank-cash-flow-report"></a>Informe de flujo de efectivo bancario de Malasia y Singapur
+### Informe de flujo de efectivo bancario de Malasia y Singapur
+<a id="malaysia-and-singapore-bank-cash-flow-report" class="xliff"></a>
 
 Esta función permite al usuario imprimir un informe de flujo de efectivo que muestra transacciones y detalles de flujos de entrada y de salida de efectivo para un intervalo específico de fechas para las cuentas bancarias seleccionadas.
 
@@ -610,7 +710,8 @@ Esta función permite al usuario imprimir un informe de flujo de efectivo que mu
 | ¿Reemplazado por otra característica? | La transacción bancaria de consulta                                            |
 | Módulos afectados             | Gestión de efectivo y bancos                                                |
 
-### <a name="mexican-cfd-electronic-invoice"></a>Factura electrónica CFD mexicana
+### Factura electrónica CFD mexicana
+<a id="mexican-cfd-electronic-invoice" class="xliff"></a>
 
 Esta función habilitó la generación de facturas electrónicas mexicanas mediante el método Comprobante Fiscal Digital (CFD), donde la empresa firma la factura solicitando el permiso correspondiente del gobierno. Esta función también proporciona un informe mensual con todas las facturas electrónicas emitidas en el período.
 
@@ -620,7 +721,8 @@ Esta función habilitó la generación de facturas electrónicas mexicanas media
 | ¿Reemplazado por otra característica? | No                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Módulos afectados             | Clientes, Proyecto                                                                                                                                                                                                                                                                                                                                                                              |
 
-### <a name="mexico-realized-and-unrealized-vat"></a>IVA realizado y sin realizar en México
+### IVA realizado y sin realizar en México
+<a id="mexico-realized-and-unrealized-vat" class="xliff"></a>
 
 Microsoft Dynamics AX 2012 gestionaba el impuesto sobre el valor añadido (IVA) sin realizar mediante la funcionalidad específica para México de “impuestos sin realizar”.
 
@@ -630,7 +732,8 @@ Microsoft Dynamics AX 2012 gestionaba el impuesto sobre el valor añadido (IVA) 
 | ¿Reemplazado por otra característica? | Sí, esta funcionalidad se ha reemplazado por la funcionalidad estándar de impuestos condicional proporcionada por Core. |
 | Módulos afectados             | Impuesto                                                                                                                 |
 
-### <a name="microsoft-outlook-integration"></a>Integración de Microsoft Outlook
+### Integración de Microsoft Outlook
+<a id="microsoft-outlook-integration" class="xliff"></a>
 
 |                              |                                                                                |
 |------------------------------|--------------------------------------------------------------------------------|
@@ -638,7 +741,8 @@ Microsoft Dynamics AX 2012 gestionaba el impuesto sobre el valor añadido (IVA) 
 | ¿Reemplazado por otra característica? | Sí                                                                            |
 | Módulos afectados             | Ventas y marketing                                                            |
 
-### <a name="payroll-information-in-human-resources"></a>Información de nómina en Recursos humanos
+### Información de nómina en Recursos humanos
+<a id="payroll-information-in-human-resources" class="xliff"></a>
 
 Información de nómina en Recursos humanos
 
@@ -648,7 +752,8 @@ Información de nómina en Recursos humanos
 | ¿Reemplazado por otra característica? | Se han reconfigurado las páginas **Prestaciones**, **Ganancias** y otras páginas relacionadas que estaban anteriormente en nóminas de Estados Unidos y ahora forman parte de la configuración de Recursos humanos base para ayudar con el procesamiento externo de nóminas. A esta función se accede mediante la clave de configuración **Recursos humanos 1** &gt; **Nómina**. |
 | Módulos afectados             | Recursos humanos, Nómina                                                                                                                                                                                                                                                                                                     |
 
-### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Bloqueo privado de los diarios de gestión de almacenes e inventarios
+### Bloqueo privado de los diarios de gestión de almacenes e inventarios
+<a id="private-blocking-of-inventory-and-warehouse-management-journals" class="xliff"></a>
 
 Los diarios de almacén e inventario ya no admiten la opción de marcar un diario como privado para un usuario seleccionado. Solo se admite el proceso de bloqueo de diarios como privado para grupos de usuarios y bloqueo durante la edición.
 
@@ -658,7 +763,8 @@ Los diarios de almacén e inventario ya no admiten la opción de marcar un diari
 | ¿Reemplazado por otra característica? | No                                     |
 | Módulos afectados             | Gestión de inventarios                   |
 
-### <a name="product-builder"></a>Configurador de productos
+### Configurador de productos
+<a id="product-builder" class="xliff"></a>
 
 El configurador de productos se usaba para configurar dinámicamente artículos desde un pedido de ventas, presupuesto de ventas, pedido de compra, orden de producción, presupuesto de venta, presupuesto del proyecto o petición de artículo. De acuerdo con un modelo de producto que tenía variables de modelo, el usuario podía seleccionar valores para cumplir con los requisitos del cliente y obtener una variante del producto única con una lista de materiales y una ruta.
 
@@ -668,7 +774,8 @@ El configurador de productos se usaba para configurar dinámicamente artículos 
 | ¿Reemplazado por otra característica? | Configuración del producto                                                                                                                                                                                   |
 | Módulos afectados             | Gestión de información de productos, Ventas y marketing                                                                                                                                                     |
 
-### <a name="rename-product-dimension"></a>Asignar un nuevo nombre a la dimensión del producto
+### Asignar un nuevo nombre a la dimensión del producto
+<a id="rename-product-dimension" class="xliff"></a>
 
 Esta función le permite cambiar el nombre de una de las tres dimensiones de producto estándar (tamaño, color o estilo) a un nombre que cumpla mejor con sus requisitos empresariales. El cambio de nombre incluía todas las etiquetas donde se aislaba el nombre de la dimensión de producto.
 
@@ -678,7 +785,8 @@ Esta función le permite cambiar el nombre de una de las tres dimensiones de pro
 | ¿Reemplazado por otra característica? | No                                                                            |
 | Módulos afectados             | Gestión de información de productos                                                |
 
-### <a name="retail-server-connectivity-using-http"></a>Conectividad de Retail Server mediante HTTP
+### Conectividad de Retail Server mediante HTTP
+<a id="retail-server-connectivity-using-http" class="xliff"></a>
 
 En Dynamics AX 2012 R3, Retail Server podía trabajar usando la comunicación HTTP (sin seguridad). Esto estaba además de la comunicación estándar mediante HTTPS.
 
@@ -688,7 +796,8 @@ En Dynamics AX 2012 R3, Retail Server podía trabajar usando la comunicación HT
 | ¿Reemplazado por otra característica? | N. º Ahora solo se da soporte a la comunicación de HTTPS estándar.                                                                           |
 | Módulos afectados             | Retail Server                                                |
 
-### <a name="role-center-pages"></a>Páginas de áreas de trabajo
+### Páginas de áreas de trabajo
+<a id="role-center-pages" class="xliff"></a>
 
 |                              |                                                                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -696,7 +805,8 @@ En Dynamics AX 2012 R3, Retail Server podía trabajar usando la comunicación HT
 | ¿Reemplazado por otra característica? | El nuevo patrón del formulario de espacio de trabajo proporciona a los usuarios un diseño centrado en el proceso de fácil acceso a las tareas de uso general dentro de dicho proceso.                       |
 | Módulos afectados             | Todas                                                                                                                                                                      |
 
-### <a name="sales-tax-jurisdictions"></a>Jurisdicciones de impuestos
+### Jurisdicciones de impuestos
+<a id="sales-tax-jurisdictions" class="xliff"></a>
 
 |                              |                                              |
 |------------------------------|----------------------------------------------|
@@ -704,7 +814,8 @@ En Dynamics AX 2012 R3, Retail Server podía trabajar usando la comunicación HT
 | ¿Reemplazado por otra característica? | No                                           |
 | Módulos afectados             | Impuestos de EE.UU                                 |
 
-### <a name="shipping-carrier-interface"></a>Interfaz de transportistas de envío
+### Interfaz de transportistas de envío
+<a id="shipping-carrier-interface" class="xliff"></a>
 
 |                              |                                                                                                                                                 |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -712,7 +823,8 @@ En Dynamics AX 2012 R3, Retail Server podía trabajar usando la comunicación HT
 | ¿Reemplazado por otra característica? | Sí, esta característica se ha sustituido parcialmente por Administración de transporte, pero aún no se ha reemplazado por Administración de almacenes básico (WMS I). |
 | Módulos afectados             | Ventas y marketing, Gestión de inventarios                                                                                                       |
 
-### <a name="sites-services"></a>Sites Service
+### Sites Service
+<a id="sites-services" class="xliff"></a>
 
 Servicios de sitios le permite crear sitios web que amplía sus procesos empresariales a Internet sin el soporte técnico de TI.
 
@@ -722,7 +834,8 @@ Servicios de sitios le permite crear sitios web que amplía sus procesos empresa
 | ¿Reemplazado por otra característica? | No                                                                                                                                       |
 | Módulos afectados             | Contratación de RR. HH., gestión de casos, solicitud de presupuestos, registro de proveedor                                                                  |
 
-### <a name="ssas-demand-forecasting-strategy"></a>Estrategia de previsión de la demanda de SSAS
+### Estrategia de previsión de la demanda de SSAS
+<a id="ssas-demand-forecasting-strategy" class="xliff"></a>
 
 |                              |                                                                              |
 |------------------------------|------------------------------------------------------------------------------|
@@ -730,7 +843,8 @@ Servicios de sitios le permite crear sitios web que amplía sus procesos empresa
 | ¿Reemplazado por otra característica? | Estrategia de previsión de demanda de Aprendizaje automático de Azure                           |
 | Módulos afectados             | Planificada                                                                     |
 
-### <a name="travel-requisitions"></a>Pedidos de viaje
+### Pedidos de viaje
+<a id="travel-requisitions" class="xliff"></a>
 
 |                              |                                                                 |
 |------------------------------|-----------------------------------------------------------------|
@@ -738,7 +852,8 @@ Servicios de sitios le permite crear sitios web que amplía sus procesos empresa
 | ¿Reemplazado por otra característica? | No                                                              |
 | Módulos afectados             | Gestión de gastos                                              |
 
-### <a name="vendor-invoice-pool-excluding-posting-details"></a>Ver detalles de grupo de facturas de proveedor excluidas del registro
+### Ver detalles de grupo de facturas de proveedor excluidas del registro
+<a id="vendor-invoice-pool-excluding-posting-details" class="xliff"></a>
 
 |                              |                                                                                                         |
 |------------------------------|---------------------------------------------------------------------------------------------------------|
@@ -746,7 +861,8 @@ Servicios de sitios le permite crear sitios web que amplía sus procesos empresa
 | ¿Reemplazado por otra característica? | Capacidades del flujo de trabajo del Diario de facturas.                                                           |
 | Módulos afectados             | Proveedores                                                                                        |
 
-### <a name="virtual-company-accounts"></a>Cuentas de empresa virtuales
+### Cuentas de empresa virtuales
+<a id="virtual-company-accounts" class="xliff"></a>
 
 La característica de empresas virtuales ya no se admite en Dynamics AX. La característica de empresas virtuales permite a los usuarios configurar tablas que se puedan compartidas por un conjunto de empresas. Puede obtener una descripción de la función, vea [Cuentas de empresa y cuentas de empresa virtuales](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx). La función trabaja agrupando tablas en recopilaciones que se asignan a empresas virtuales, que son grupos de empresas “reales” existentes. Se crean consultas de modo que todas las empresas de la empresa virtual puedan obtener acceso a los datos de las tablas de las recopilaciones de tablas asociadas.
 
@@ -775,7 +891,8 @@ La característica de empresas virtuales ya no se admite en Dynamics AX. La cara
 </tbody>
 </table>
 
-### <a name="warehouse-management-ii"></a>Gestión de almacenes II
+### Gestión de almacenes II
+<a id="warehouse-management-ii" class="xliff"></a>
 
 |                              |                                                                                                                                                                                                                                                                                                             |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -783,7 +900,8 @@ La característica de empresas virtuales ya no se admite en Dynamics AX. La cara
 | ¿Reemplazado por otra característica? | El módulo **Administración de almacenes** lanzado en AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 y Dynamics AX 2012 R3 CU9 reemplaza las funciones de Gestión de almacenes II. El nuevo módulo dispone de características más avanzadas y procesos más flexibles de gestión de almacenes que Gestión de almacenes II. |
 | Módulos afectados             | Gestión del inventario, ventas y marketing, adquisición y abastecimiento                                                                                                                                                                                                                                         |
 
-### <a name="worker-reminders-in-human-resources"></a>Recordatorios de trabajador en Recursos humanos
+### Recordatorios de trabajador en Recursos humanos
+<a id="worker-reminders-in-human-resources" class="xliff"></a>
 
 Información de nómina en Recursos humanos
 
@@ -793,7 +911,8 @@ Información de nómina en Recursos humanos
 | ¿Reemplazado por otra característica? | No              |
 | Módulos afectados             | Recursos humanos |
 
-### <a name="workplanner"></a>Planificador de trabajo
+### Planificador de trabajo
+<a id="workplanner" class="xliff"></a>
 
 |                              |                                                                                                                                                                      |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -801,16 +920,13 @@ Información de nómina en Recursos humanos
 | ¿Reemplazado por otra característica? | No, pero la página **Relación de perfiles**, que se abre desde la página **Grupos de perfiles**, admite el mismo escenario empresarial que la página **Planificador de trabajo** desaprobada. |
 | Módulos afectados             | Tiempo y asistencia                                                                                                                                                  |
 
-### <a name="x-financial-statements"></a>Informes financieros de X++
+### Informes financieros de X++
+<a id="x-financial-statements" class="xliff"></a>
 
 |                              |                                                                                             |
 |------------------------------|---------------------------------------------------------------------------------------------|
 | Motivo de la eliminación       | Esta funcionalidad se ha reemplazado por otra característica.                                    |
 | ¿Reemplazado por otra característica? | Management Reporter (etiquetado **Informes financieros** en la versión actual de Dynamics AX) |
 | Módulos afectados             | Contabilidad general                                                                              |
-
-
-
-
 
 

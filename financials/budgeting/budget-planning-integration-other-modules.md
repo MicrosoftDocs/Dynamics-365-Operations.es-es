@@ -1,16 +1,16 @@
 ---
 title: "Integración de planificación presupuestaria con otros módulos"
-description: 
+description: "Se pueden generar planes presupuestarios desde diversos recursos diferentes. Los elementos básicos del proceso periódico son iguales para todos los recursos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64443
 ms.assetid: f9a94db5-906c-404a-9ca5-91528d67c490
 ms.search.region: Global
@@ -18,22 +18,24 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3828416b7da366aa53757ea1b5ed7d2e84446344
+ms.sourcegitcommit: 975497e8ed0c9738c225bad4db9165bf2ebc0192
+ms.openlocfilehash: 7f3dc8089153a6c67c1666aa8f859d63dcc9d3c9
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/05/2017
 
 
 ---
 
-# <a name="budget-planning-integration-with-other-modules"></a>Integración de planificación presupuestaria con otros módulos
+# Integración de planificación presupuestaria con otros módulos
+<a id="budget-planning-integration-with-other-modules" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
 
 
-<a name="periodic-processes-for-generating-budget-plans"></a>Procesos periódicos para generar planes presupuestarios
+Procesos periódicos para generar planes presupuestarios
+<a id="periodic-processes-for-generating-budget-plans" class="xliff"></a>
 ----------------------------------------------
 
 Se pueden generar planes presupuestarios desde los recursos siguientes:
@@ -49,7 +51,8 @@ Se pueden generar planes presupuestarios desde los recursos siguientes:
 
 Los elementos básicos del proceso periódico son iguales para todos los procesos. Las pestañas le permiten definir el origen de los datos, los atributos de destino (plan presupuestario) y opciones para ejecutar el proceso en segundo plano como un proceso por lotes. En secciones posteriores de este artículo se describen los elementos que no sean evidentes en cada proceso.
 
-### <a name="actions"></a>Acciones 
+### Acciones 
+<a id="actions" class="xliff"></a>
 
 Para cada proceso de generación, hay tres acciones disponibles:
 
@@ -57,11 +60,13 @@ Para cada proceso de generación, hay tres acciones disponibles:
 -   **Sustituir el escenario del plan presupuestario existente** elimina todos los datos en el plan presupuestario de destino en el escenario seleccionado del plan presupuestario y crea nuevas líneas que usan los datos de origen seleccionados.
 -   **Actualizar el escenario del plan presupuestario existente y anexar nuevos datos** actualiza las líneas existentes en el plan de destino que coinciden con las líneas de origen y agrega nuevas líneas para los nuevos datos. La conciliación se basa en la cuenta contable, la fecha, la clase de presupuesto y otros campos. Por ejemplo, al generar planes presupuestarios de puestos de previsión, el número de posición es un campo importante. Todas las líneas con un número de posición que coincida con el número de posición de origen se sustituyen por las nuevas líneas de origen.
 
-### <a name="source"></a>Origen
+### Origen
+<a id="source" class="xliff"></a>
 
 Para todos los procesos, la pestaña **Origen** la ficha le permite filtrar los datos mediante el botón **Filtro**. De forma predeterminada, los campos específicos se agregan al filtro para cada proceso. Por ejemplo, para el proceso **Generar el plan presupuestario desde contabilidad general**, las categoría **Cuenta contable** y **Cuenta principal** están disponibles y aparecen en la página de la generación. Cualquier campo que agregue al filtro también se agrega a la página, junto con los criterios que se agreguen.
 
-### <a name="target"></a>Objetivo
+### Objetivo
+<a id="target" class="xliff"></a>
 
 La opción **Histórico** en la pestaña **Destino** le permite usar las fechas de los datos de origen como la fecha de vigencia en el plan presupuestario. Normalmente, la fecha de vigencia debe situarse dentro del ciclo presupuestario del plan. Cuando establece la opción **Histórico** en **Sí**, la fecha (incluso el año) del origen se utiliza, de manera que pueda usar los últimos datos como base para la comparación. No puede modificar datos históricos en el plan presupuestario, y el plan se establece en un estado del flujo de trabajo aprobado. Sin embargo, puede restablecer el estado si otros escenarios en el plan requieren cambios.
 
@@ -71,7 +76,8 @@ Muchos de los campos de la pestaña **Destino** pasan a ser editables o de sólo
 
 El campo **Clase de presupuesto** permite establecer las líneas del plan presupuestario como transacciones de gastos o transacciones de ingresos. Normalmente, las transacciones de ingresos son créditos en una cuenta contable y por tanto se almacenan como importes negativos. Normalmente, estas transacciones también aparecen como importes negativos en el plan presupuestario. Sin embargo, si se agrega la clase de presupuesto como un campo en el diseño del plan, los ingresos aparecerán como importes positivos.
 
-### <a name="generation-rules"></a>Reglas de generación
+### Reglas de generación
+<a id="generation-rules" class="xliff"></a>
 
 Tres campos proporciona funciones adicionales: **Factor**, **Mínimo** y **Regla de** **redondeo**. 
 
@@ -81,18 +87,22 @@ El campo **Mínimo** permite establecer el umbral del importe para crear una lí
 
 El campo **Regla de redondeo** permite establecer la precisión de las líneas del plan presupuestario que se crean. Puede redondear los importes al 1,00, 10,00, 100,00, etc., de divisa más cercano.
 
-## <a name="notes-for-specific-processes"></a>Notas para procesos específicos
-### <a name="generate-budget-plan-from-general-ledger"></a>Generar plan presupuestario a partir de contabilidad general
+## Notas para procesos específicos
+<a id="notes-for-specific-processes" class="xliff"></a>
+### Generar plan presupuestario a partir de contabilidad general
+<a id="generate-budget-plan-from-general-ledger" class="xliff"></a>
 
 Al crear un plan presupuestario de datos de contabilidad general, debe definir el campo **Agregar total por** a **Ejercicio** si la opción **Histórico** está establecida en **No**. Los períodos y las fechas del origen pueden no coincidir con los períodos de fechas en el destino. Dado que el proceso no tiene ninguna forma fiable de asignar estos valores, debe limitar el proceso al primero de año. 
 
 En el destino, el campo **Clase de presupuesto** se establece en **Gastos** o **Ingresos**. Esta configuración se usa para seleccionar el atributo **Tipo de presupuesto** para las líneas que se creen, cuando la cuenta principal en una línea no es de tipo **Ingresos** o **Gastos**.
 
-### <a name="generate-budget-plan-from-fixed-assets"></a>Generar un plan presupuestario a partir de activos fijos
+### Generar un plan presupuestario a partir de activos fijos
+<a id="generate-budget-plan-from-fixed-assets" class="xliff"></a>
 
 El proceso **Generación del plan presupuestario de activos fijos** no tiene ninguna opción para agregar por período o día. Tampoco hay opción para definir el plan como histórico. Puede usar este proceso periódico para incluir las transacciones previstas para los activos fijos en la planificación presupuestaria.
 
-### <a name="generate-budget-plan-from-forecast-positions"></a>Generar plan presupuestario a partir de posiciones de previsión
+### Generar plan presupuestario a partir de posiciones de previsión
+<a id="generate-budget-plan-from-forecast-positions" class="xliff"></a>
 
 El proceso **Generación del plan presupuestario de posiciones de previsión** asigna la posición de previsión de origen a la línea del plan presupuestario. Puede ver la posición al agregar la posición de previsión como una fila en el diseño del plan presupuestario o mediante la consulta **Líneas del plan presupuestario**. Si no desea que la posición de previsión se asigne a líneas del plan presupuestario, establezca la opción **Incluir posición en la línea del plan presupuestario** en **No**.
 
@@ -102,7 +112,8 @@ En el campo **Escenario de FTE del plan presupuestario**, puede seleccionar un e
 
 El proceso de planificación presupuestaria y el escenario de del plan presupuestario seleccionados en el origen establecen el proceso y el escenario de planificación presupuestaria del escenario de destino. Dado que estos atributos se asignan a posiciones de previsión, deben coincidir con el plan presupuestario. Por tanto, estos atributos no se pueden modificar en el destino.
 
-### <a name="generate-budget-plan-from-project-forecasts"></a>Generar plan presupuestario a partir de previsiones de proyecto
+### Generar plan presupuestario a partir de previsiones de proyecto
+<a id="generate-budget-plan-from-project-forecasts" class="xliff"></a>
 
 El proceso **Generación del plan presupuestario de previsiones de proyecto** como el proceso **Generación del plan presupuestario de posiciones de previsiones**, tiene una opción para incluir las cantidades de proyecto (horas, gastos y artículos) en un escenario de cantidad. Los dos procesos también tienen filtros similares para las columnas del diseño del plan presupuestario. 
 
@@ -112,30 +123,36 @@ No existe el campo **Clase de presupuesto**, porque la clase de presupuesto (**G
 
 Puede usar los presupuestos de proyecto como un origen seleccionando el modelo de previsión que contiene los importes presupuestarios de proyecto. Recuerde que los presupuestos de proyecto crearán entradas de previsión de proyecto a medida que se aprueban.
 
-Para seleccionar sólo costes o ingresos para las líneas del plan presupuestario, use el filtro para seleccionar **Actualizaciones de presupuesto: tipo de importe = coste**seleccionar. Para seleccionar solo un tipo de previsión, use el filtro para seleccionar **Actualizaciones de presupuesto: tipo de transacción = *xxx***. 
+Para seleccionar sólo costes o ingresos para las líneas del plan presupuestario, use el filtro para seleccionar **Actualizaciones de presupuesto: tipo de importe = coste** seleccionar. Para seleccionar solo un tipo de previsión, use el filtro para seleccionar **Actualizaciones de presupuesto: tipo de transacción = *xxx***. 
 
 Solo se puede usar un modelo de previsión para generar un escenario del plan presupuestario. Si ejecuta el proceso para un modelo de previsión y después realiza una actualización e intenta especificar otro modelo, el primer modelo se sobrescribirá si se aplica el mismo proyecto y cuentas contables. Para generar un escenario del plan presupuestario a partir de más de un modelo de previsión, genere en distintos escenarios del plan presupuestario y use las opciones de asignación para agregarlas conjuntamente en otro escenario. 
 
 El proceso **Generación del plan presupuestario de previsiones de proyecto** también asigna el proyecto de origen a la línea del plan presupuestario.
 
-### <a name="generate-budget-plan-from-supply-forecast"></a>Generar plan presupuestario a partir de previsión de suministro
+### Generar plan presupuestario a partir de previsión de suministro
+<a id="generate-budget-plan-from-supply-forecast" class="xliff"></a>
 
 Las opciones de filtro de origen en el proceso **Generación del plan presupuestario de previsión de suministro** han sido modeladas de acuerdo con las opciones en la funcionalidad **Transferencia de presupuesto de compras a libro mayor**, debido a semejanzas entre el proceso y la funcionalidad.
 
-### <a name="generate-budget-plan-from-demand-forecast"></a>Generar plan presupuestario a partir de previsión de la demanda
+### Generar plan presupuestario a partir de previsión de la demanda
+<a id="generate-budget-plan-from-demand-forecast" class="xliff"></a>
 
 Para el proceso **Generación del plan presupuestario de previsión de demanda**, puede establecer la opción **Pedido de ventas** en **Sí** para generar líneas de ingresos en el plan presupuestario, establecer **Consumo** en **Sí** para crear líneas de gastos o establecer ambas opciones en **Sí**.
 
-### <a name="generate-budget-plan-from-budget-register-entries"></a>Generar plan presupuestario a partir de las entradas del registro presupuestario
+### Generar plan presupuestario a partir de las entradas del registro presupuestario
+<a id="generate-budget-plan-from-budget-register-entries" class="xliff"></a>
 
 Para el proceso **Generación del plan presupuestario de asientos de registro presupuestario**, el origen debe especificar un submodelo, un código presupuestario y un número de entrada. Es decir, puede crear líneas del plan presupuestario para solo un asiento de registro presupuestario cada vez. Puede usar entradas adicionales en el mismo plan presupuestario si ejecuta el proceso una vez para cada entrada de origen.
 
-### <a name="generate-budget-plan-from-budget-plan"></a>Generar plan presupuestario a partir de un plan presupuestario
+### Generar plan presupuestario a partir de un plan presupuestario
+<a id="generate-budget-plan-from-budget-plan" class="xliff"></a>
 
 Para el proceso **Generación del plan presupuestario de plan presupuestario**, un conjunto adicional de opciones en la pestaña **Destino** le permite asignar nuevas dimensiones financieras. Si se selecciona una dimensión financiera, ese valor se usará para todas las líneas del plan presupuestario. Por lo tanto, puede usar un plan presupuestario como base para otros planes presupuestarios, pero también puede asignar, por ejemplo, un departamento o centro de costediferente a los nuevos planes presupuestarios.
 
-## <a name="looking-back-from-the-budget-plan"></a>Repaso del plan presupuestario
-### <a name="budget-plans-by-dimension-set-inquiry"></a>Consulta de planes presupuestarios por conjunto de dimensiones
+## Repaso del plan presupuestario
+<a id="looking-back-from-the-budget-plan" class="xliff"></a>
+### Consulta de planes presupuestarios por conjunto de dimensiones
+<a id="budget-plans-by-dimension-set-inquiry" class="xliff"></a>
 
 La consulta **Planes presupuestarios por conjunto de dimensiones** incluye varias opciones que le permiten ejecutar una consulta para ayudar a identificar el origen de los datos del plan presupuestario. 
 

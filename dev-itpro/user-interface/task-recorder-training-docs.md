@@ -3,7 +3,7 @@ title: "Crear documentación o formación con las grabaciones de tareas"
 description: "Este tema explica qué son el Grabador de tareas y las guías de tareas, cómo crear grabaciones de tareas y cómo personalizar las guías de tareas de Microsoft e incluirlas en la Ayuda."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,33 +19,39 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b44dc66cdcd1ede59cb9bb4ed05be27dd465599
+ms.sourcegitcommit: ee6d455c44a38d9b3962ca20a5cb28007c19cf1d
+ms.openlocfilehash: e71c2638caccb9a31c5254a3cf68c802808960b9
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/17/2017
 
 
 ---
 
-# <a name="create-documentation-or-training-using-task-recordings"></a>Crear documentación o formación con las grabaciones de tareas
+# Crear documentación o formación con las grabaciones de tareas
+<a id="create-documentation-or-training-using-task-recordings" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
-Este tema explica qué son el Grabador de tareas y las guías de tareas, cómo crear grabaciones de tareas y cómo personalizar las guías de tareas de Microsoft e incluirlas en la Ayuda.
+Este tema explica qué son el Grabador de tareas y las guías de tareas, cómo crear grabaciones de tareas y cómo personalizar las guías de tareas de Microsoft para los productos de Unified Operations e incluirlas en la Ayuda.
 
-<a name="learn-about-task-recorder"></a>Información sobre el grabador de tareas
+> [!IMPORTANT]
+> No puede crear guías de tareas personalizadas para Dynamics 365 for Talent. El sistema de Ayuda para Talent se conecta automáticamente a las guías de tareas para el producto. 
+
+Información sobre el grabador de tareas
+<a id="learn-about-task-recorder" class="xliff"></a>
 -------------------------
 
-El Grabador de tareas es una herramienta de Microsoft Dynamics 365 for Operations que puede usar para grabar las acciones que realiza en la interfaz de usuario (IU) de producto. Al usar el Grabador de tareas, se capturan todos los eventos que realiza en la IU que se ejecutan en relación con el servidor, entre los que se incluyen la adición de valores, el cambio de configuración y la eliminación de datos. Los pasos que grabe se denominan conjuntamente *grabación de tareas*. Las grabaciones de tareas se pueden usar de muchas maneras:
+El Grabador de tareas es una herramienta que puede usar para grabar las acciones que realice en la interfaz de usuario (IU) del producto. Al usar el Grabador de tareas, se capturan todos los eventos que realiza en la IU que se ejecutan en relación con el servidor, entre los que se incluyen la adición de valores, el cambio de configuración y la eliminación de datos. Los pasos que grabe se denominan conjuntamente *grabación de tareas*. Las grabaciones de tareas se pueden usar de muchas maneras:
 
--   **Las grabaciones de tareas se pueden reproducir como guías de tareas.** Las guías de tareas son una parte integral de la experiencia de Dynamics 365 for Operations. Una guía de tareas es una experiencia controlada, dirigida e interactiva a través de los pasos de un proceso empresarial. Al usuario se le indica que complete cada paso mediante un aviso móvil (o "burbuja"), que se animará a través de la IU y señalará al elemento de la IU con el que debe interactuar el usuario. La “burbuja” también proporciona información sobre cómo interactuar con el elemento, como "Haga clic aquí" o "En este campo, escriba un valor". Se ejecuta una guía de tareas con el conjunto de datos actual del usuario y los datos especificados se guardan en el entorno del usuario.
+-   **Las grabaciones de tareas se pueden reproducir como guías de tareas.** Las guías de tareas son una parte integral de la experiencia de la Ayuda. Una guía de tareas es una experiencia controlada, dirigida e interactiva a través de los pasos de un proceso empresarial. Al usuario se le indica que complete cada paso mediante un aviso móvil (o "burbuja"), que se animará a través de la IU y señalará al elemento de la IU con el que debe interactuar el usuario. La “burbuja” también proporciona información sobre cómo interactuar con el elemento, como "Haga clic aquí" o "En este campo, escriba un valor". Se ejecuta una guía de tareas con el conjunto de datos actual del usuario y los datos especificados se guardan en el entorno del usuario.
 -   **Las registros de tarea se pueden mostrar como pasos de procedimientos en el panel de la Ayuda.** Puede usar el panel de la Ayuda para buscar y mostrar grabaciones de tareas. Puede obtener acceso al panel de la Ayuda haciendo clic en el icono **?** de la barra de navegación superior o puede usar la combinación de teclas de método abreviado, **Ctrl+Mayús+?**. Solo puede leer los pasos de una grabación de tareas en el panel de la Ayuda o puede optar por reproducir la grabación como guía de tareas para que le guíe por la IU.
--   **Los registros de tareas se pueden guardar en BPM.** Puede guardar su grabación de tareas en una línea de una jerarquía en una biblioteca de Modelador de procesos empresariales (BPM) en Lifecycle Services (LCS). Se generará una lista de pasos y un diagrama de flujo de proceso empresarial desde la grabación. Las grabaciones de tareas que se han guardado en una biblioteca de BPM se pueden mostrar en Dynamics 365 for Operations como Ayuda.
+-   **Los registros de tareas se pueden guardar en BPM.** Puede guardar su grabación de tareas en una línea de una jerarquía en una biblioteca de Modelador de procesos empresariales (BPM) en Lifecycle Services (LCS). Se generará una lista de pasos y un diagrama de flujo de proceso empresarial desde la grabación. Las grabaciones de tareas que se han guardado en una biblioteca de BPM se pueden mostrar como Ayuda.
 -   **Las grabaciones de tareas se pueden guardar como documentos de Word.** Esto le permite producir con facilidad guías de formación imprimibles.
 
-Puede crear sus propias grabaciones de tareas, reproducir grabaciones de tareas proporcionadas por Microsoft o modificar grabaciones de tareas proporcionadas por Microsoft para reflejar su configuración. Para obtener más información sobre el Grabador de tareas, consulte [Grabador de tareas en Dynamics 365 for Operations](task-recorder.md).
+Puede crear sus propias grabaciones de tareas, reproducir grabaciones de tareas proporcionadas por Microsoft o modificar grabaciones de tareas proporcionadas por Microsoft para reflejar su configuración. Para obtener más información sobre el Grabador de tareas, consulte [Grabador de tareas](task-recorder.md).
 
-## <a name="plan-your-task-recording"></a>Planear su grabación de tareas
+## Planear su grabación de tareas
+<a id="plan-your-task-recording" class="xliff"></a>
 Si está creando una nueva grabación de tareas o basando su grabación en una grabación de tareas de Microsoft, tenga en cuenta la siguiente información.
 
 -   Planee su grabación como planearía un vídeo. Tome todas sus decisiones con antelación.
@@ -83,7 +89,7 @@ Así es como se muestra la anotación del notas en la “burbuja” de la guía 
 
 [![screen4](./media/screen4.png)](./media/screen4.png)
 
--   **Paso de la información**: estas anotaciones se crean haciendo clic con el botón secundario en un control o en cualquier lugar de un formulario &lt; **Grabador de tareas** &lt; **Agregar paso de información. **Los pasos de información aparecen como paso numerado en cualquier punto en el que lo inserta, aunque no se haya grabado ninguna acción en la IU. Puede agregar un paso de información de nivel de formulario o un paso de información asociado con un control. Cuando un paso de información está asociado a un formulario, la "burbuja" de la guía de tareas aparecerá en algún lugar del formulario, sin puntero, cuando se reproduzca la guía de tareas. Cuando un paso de información está asociado a un control, la "burbuja" de la guía de tareas señalará al control cuando se reproduzca la guía de tareas. En el panel de la Ayuda, aparecerá una anotación del paso de la información como paso numerado siempre que escriba texto. Use los pasos de información para preparar al usuario para los pasos siguientes, para describir los pasos que se deben dar fuera de Dynamics 365 for Operations, o para hacer referencia a otras grabaciones (aunque no puede crear hipervínculos en anotaciones.).
+-   **Paso de la información**: estas anotaciones se crean haciendo clic con el botón secundario en un control o en cualquier lugar de un formulario &lt; **Grabador de tareas** &lt; **Agregar paso de información. **Los pasos de información aparecen como paso numerado en cualquier punto en el que lo inserta, aunque no se haya grabado ninguna acción en la IU. Puede agregar un paso de información de nivel de formulario o un paso de información asociado con un control. Cuando un paso de información está asociado a un formulario, la "burbuja" de la guía de tareas aparecerá en algún lugar del formulario, sin puntero, cuando se reproduzca la guía de tareas. Cuando un paso de información está asociado a un control, la "burbuja" de la guía de tareas señalará al control cuando se reproduzca la guía de tareas. En el panel de la Ayuda, aparecerá una anotación del paso de la información como paso numerado siempre que escriba texto. Use los pasos de información para preparar al usuario para los pasos siguientes, para describir los pasos que se deben dar fuera de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, para hacer referencia a otras grabaciones (aunque no puede crear hipervínculos en anotaciones.).
 
 **Determine el tiempo para realizar la grabación**
 
@@ -95,13 +101,15 @@ Así es como se muestra la anotación del notas en la “burbuja” de la guía 
 
 **Decida en qué lugar de la IU se iniciará una grabación** La página en la que se encuentra al iniciar la grabación de tareas afecta a para qué página se muestra la guía de tareas. Por ejemplo, si desea que su grabación de tareas se muestre en el panel de la Ayuda cuando un usuario hace clic en la Ayuda de la página Parámetros de contabilidad general, debe comenzar la grabación en la página Parámetros de contabilidad general. **Guarde las grabaciones como archivos .axtr** Cuando haya acabado de crear o editar una grabación de tareas, se le presentarán varias opciones para cómo desea descargar o guardar la grabación. Puede descargar el archivo como paquete de grabación de tareas (.axtr), descargarlo como archivo de grabación en bruto (.xml), descargarlo como documento de Word o guardar el archivo en una biblioteca de LCS. Es una buena idea guardar siempre su grabación de tareas como un archivo de paquete de grabación de tareas (.axtr). Esto facilitará el mantenimiento del archivo si los procedimientos o las anotaciones necesitan cambiarse posteriormente. Si desea descargar el archivo como documento de Word, guárdelo también como archivo de paquete de grabación de tareas.
 
-## <a name="create-your-task-recording"></a>Crear la grabación de tareas
+## Crear la grabación de tareas
+<a id="create-your-task-recording" class="xliff"></a>
 Para los pasos detallados de tutorial, consulte [Cómo crear una grabación de tareas](task-recorder.md).
 
-## <a name="copy-and-customize-microsofts-task-recordings"></a>Copiar y personalizar las grabaciones de tareas de Microsoft
+## Copiar y personalizar las grabaciones de tareas de Microsoft
+<a id="copy-and-customize-microsofts-task-recordings" class="xliff"></a>
 Puede descargar y editar las grabaciones de tareas de Microsoft para usarlas para sus propios materiales de formación y documentación de la Ayuda. Para descargar una grabación de tarea de Microsoft, siga estos pasos:
 
-1.  Abra el Grabador de tareas en Microsoft Dynamics 365 for Operations. El Grabador de tareas se encuentra en el menú **Parámetros**.
+1.  Abra el Grabador de tareas. El Grabador de tareas se encuentra en el menú **Parámetros**.
 2.  En el panel Grabador de tareas, haga clic en **Mantener una grabación**.
 3.  En **¿Dónde encuentro la grabación?**, haga clic en **Se encuentra en la biblioteca LCS**.
 4.  Haga clic en **Seleccionar biblioteca de LCS**.
@@ -113,24 +121,21 @@ Puede descargar y editar las grabaciones de tareas de Microsoft para usarlas par
 10. Cuando se haya reproducido la grabación hasta el final, haga clic en **Detener** en el grabador de tareas de la parte superior de la pantalla.
 11. Elija cómo desea guardar la grabación de tareas.
 
-## <a name="include-your-task-recordings-in-the-help-pane"></a>Incluir las grabaciones de tareas en el panel de la Ayuda
+## Incluir las grabaciones de tareas en el panel de la Ayuda
+<a id="include-your-task-recordings-in-the-help-pane" class="xliff"></a>
 Para mostrar sus propias grabaciones de tareas personalizadas en el panel de la Ayuda para que se puedan reproducir como guías de tareas o ver como texto, debe guardar sus grabaciones de tareas en su propia biblioteca de BPM y después actualizar los parámetros del sistema de Ayuda para que señalen a la biblioteca de BPM. Para obtener más información, consulte [Conexión del sistema de Ayuda](../get-started/help-connect.md)
 
-<a name="see-also"></a>Consulte también
+Consulte también
+<a id="see-also" class="xliff"></a>
 --------
 
-[Ayuda de Dynamics 365 for Operations](..\get-started\help-overview.md)
+[Visión general de la ayuda](..\get-started\help-overview.md)
 
 [Ayuda sobre Connect](..\get-started\help-connect.md)
 
-[Grabador de tareas de Dynamics 365 for Operations](task-recorder.md)
+[Grabador de tareas](task-recorder.md)
 
 [Funciones recién agregadas en el Grabador de tareas](\core\get-started\recently-added-editing-features-in-task-recorder)
 
-[Creación de nuevas bibliotecas de formación para Dynamics AX dentro de Lifecycle Services con el Grabador de tareas (vínculo externo)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [Crear Rich Help Topics con el Grabador de tareas (vínculo externo)](https://mbspartner.microsoft.com/AX/Videos/970)
-
-
-
 

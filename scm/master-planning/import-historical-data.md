@@ -9,25 +9,27 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.assetid: 59c0d269-9db0-48e7-b8c7-9a388781a9ca
 ms.search.region: Global
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0d1e2b9a51c2d7a7c30c2458b7babf8ac5c08118
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 957626a283b750645adefa5176480e68cc27e4f1
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="import-historical-data-for-demand-forecasts"></a>Importar datos históricos para previsiones de la demanda
+# Importar datos históricos para previsiones de la demanda
+<a id="import-historical-data-for-demand-forecasts" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
-Como ayuda para garantizar la precisión de las previsiones de demanda, debe tener todos los datos históricos de demanda que pueda obtener por artículo o por clave de asignación de artículos. Si aún no ha importado los datos históricos de demanda, utilice la entidad de datos **Demanda externa histórica** (ReqDemPlanHistoricalExternalDemandEntity) de Microsoft Dynamics 365 for Operations para importarlos.
+Como ayuda para garantizar la precisión de las previsiones de demanda, debe tener todos los datos históricos de demanda que pueda obtener por artículo o por clave de asignación de artículos. Si aún no ha importado los datos históricos de demanda, utilice la entidad de datos **Demanda externa histórica** (ReqDemPlanHistoricalExternalDemandEntity) de Microsoft Dynamics 365 for Finance and Operations para importarlos.
 
 En el espacio de trabajo **Administración de datos** podrá ver una descripción de todos los campos de la entidad.
 
@@ -38,7 +40,8 @@ En el espacio de trabajo **Administración de datos** podrá ver una descripció
 
 Para usar la entidad de datos debe tener un archivo de Microsoft Excel o de valores separados por comas (CSV) que contenga los datos históricos de la demanda. El siguiente ejemplo muestra cómo importar datos desde un archivo CSV.
 
-## <a name="example"></a>Ejemplo
+## Ejemplo
+<a id="example" class="xliff"></a>
 
 Puede utilizar el siguiente archivo como ejemplo. Descargue [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast). Este archivo contiene los datos históricos de la demanda para el artículo D0001. Contiene solo los siguientes campos obligatorios: sitio, cantidad y la fecha de la demanda.
 
@@ -54,7 +57,8 @@ Puede utilizar el siguiente archivo como ejemplo. Descargue [HistoricalDemandDat
 
 Una vez importados los datos históricos de la demanda, puede generar una previsión de la demanda.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
+<a id="see-also" class="xliff"></a>
 
 [Generar previsión estadística de línea base](generate-statistical-baseline-forecast.md)
 

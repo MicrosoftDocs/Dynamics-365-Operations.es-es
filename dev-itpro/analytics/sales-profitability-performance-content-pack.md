@@ -1,15 +1,15 @@
 ---
-title: Contenido de Power BI para rendimiento de la rentabilidad y las ventas
-description: "Este tema describe lo que se incluye en el paquete de contenido de rendimiento de la rentabilidad y las ventas de Dynamics 365 for Operations para Microsoft Power BI. Explica cómo tener acceso a los informes que se incluyen en el paquete de contenido, y proporciona información acerca del modelo de datos y las entidades que se usan para generar el paquete del contenido."
+title: Contenido de Power BI sobre rendimiento de la rentabilidad y las ventas
+description: "Este tema describe lo que se incluye en el contenido de Power BI sobre Rendimiento de ventas y rentabilidad. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
-audience: Application User
-ms.search.scope: Operations, Core
+audience: Application User, IT Pro
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.region: Global
@@ -17,45 +17,49 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 357f7071d801b13518c83170f8d0e7946dd9dede
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 16fef86e330a392ddd888fcb46060c3e1efa87c5
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Contenido de Power BI para rendimiento de la rentabilidad y las ventas
+# Contenido de Power BI sobre rendimiento de la rentabilidad y las ventas
+<a id="sales-and-profitability-performance-power-bi-content" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
+Este tema describe lo que incluye el contenido de Microsoft Power BI sobre **Rendimiento de ventas y rentabilidad**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
-Este tema describe lo que se incluye en el paquete de contenido de rendimiento de la rentabilidad y las ventas de Dynamics 365 for Operations para Microsoft Power BI. Explica cómo tener acceso a los informes que se incluyen en el paquete de contenido, y proporciona información acerca del modelo de datos y las entidades que se usan para generar el paquete del contenido.
+## Información general
+<a id="overview" class="xliff"></a>
 
-<a name="overview"></a>Visión general
---------
+El contenido de Power BI sobre **Rendimiento de ventas y rentabilidad** se creó de modo que los directores de ventas puedan controlar medidas clave de ingresos, beneficio bruto y margen de beneficio. Usa datos transaccionales de ventas y proporciona una visión global de las cifras de ventas empresariales y un desglose de rendimiento de ventas para los clientes y los productos.
 
-Este paquete de contenido se creó para que los directores de ventas controlen medidas clave de las ventas de los ingresos, las ganancias brutas y los márgenes de prestación. Usa datos transaccionales de ventas de Dynamics 365 for Operations y proporciona una visión global de las cifras de ventas empresariales y un desglose de rendimiento de ventas para los clientes y los productos. Al destacar los cambios en el crecimiento de los ingresos y las ganancias en el tiempo, los informes se pueden utilizar para notificar a los administradores de las tendencias positivas y negativas para clientes y productos individuales. Los administradores de categorías y regionales lo encontrarán útil para tener gráficos que comparen los ingresos y la rentabilidad de distintas categorías de productos y grupos de clientes entre sí para resaltar a los rezagados y los que van en primer lugar. Un informe exhaustivo que compara los ingresos del cliente individual con el margen de beneficio proporciona a los administradores de cuentas una base fundada en datos para ajustar las ventas y los esfuerzos de marketing al perfil respectivo de cada cliente. El paquete de rendimiento de rentabilidad y ventas permite a los directores de ventas analizar el rendimiento de ventas por:
+Los informes resaltan los cambios en ingresos y el crecimiento de las ganancias con el tiempo. Por lo tanto, los informes se pueden usar para notificar a los administradores las tendencias positivas y negativas de clientes y productos individuales. Además, los gráficos comparan los ingresos y la rentabilidad de distintas categorías de productos y grupos de clientes entre sí. Por lo tanto, los directores de categoría y regionales pueden identificar a los rezagados y a los que van en primer lugar. Finalmente, un informe exhaustivo traza ingresos de un cliente individual frente al margen de beneficio. Por lo tanto, los administradores de cuentas tienen una base respaldada por datos que pueden usar para ajustar los esfuerzos de ventas y marketing al perfil de cada cliente. 
+
+El contenido **Rendimiento de ventas y rentabilidad** permite a los directores de ventas analizar el rendimiento de ventas de las maneras siguientes:
 
 -   Ingresos, año hasta la fecha (por grupos de clientes y clientes individuales, categorías de ventas, y productos individuales y geografías)
 -   Cambio de ingresos, año a año (por regiones y categorías de ventas del cliente)
 
-La rentabilidad se pueda analizar por:
+La rentabilidad se pueda analizar mediante los siguientes procedimientos:
 
 -   Ganancia bruta y margen de beneficio (por grupos de clientes y categorías de ventas de producto)
 -   Cambio de ganancias brutas, año a año
 -   Rentabilidad del cliente (por ingreso comparado con margen bruto)
 
-## <a name="accessing-the-content-pack"></a>Acceso al paquete de contenido
-El paquete de contenido del rendimiento de la rentabilidad y las ventas para Power BI está publicado como un activo de la implementación en Lifecycle Services (LCS) y se puede acceder a él desde Dynamics 365 for Operations. Para obtener más información acerca de cómo obtener acceso a los informes de Power BI e iniciarlos, consulte [Contenido de Power BI en LCS de Microsoft y sus socios](power-bi-content-microsoft-partners.md)
-**Nota** KB 4011327 es un requisito previo para el contenido de Power BI. Tras iniciar sesión en Lifecycle Services, puede tener acceso a KB aquí: <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
+## Acceso al contenido de Power BI
+<a id="accessing-the-power-bi-content" class="xliff"></a>
+Si está usando la actualización de julio de 2017 de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, el contenido de Power BI sobre **Rendimiento de ventas y rentabilidad** se muestra en la página **Rendimiento de ventas y rentabilidad** (**Ventas y marketing** > **Consultas e informes** > **Análisis de rendimiento de ventas** > **Rendimiento de ventas y rentabilidad**). 
 
-## <a name="metrics-included-in-the-content-pack"></a>Métricas incluidas en el paquete de contenido
-El paquete de contenido incluye un informe compuesto por un conjunto de medidas visualizadas como gráficos, mosaicos, y tablas. La tabla siguiente proporciona información general de las visualizaciones del paquete de contenido.
+## Métricas que se incluyen en el contenido de Power BI
+<a id="metrics-that-are-included-in-the-power-bi-content" class="xliff"></a>
+El contenido de Power BI sobre **Rendimiento de ventas y rentabilidad** incluye un informe compuesto por un conjunto de métricas. Estas métricas se visualizan como gráficos, mosaicos y tablas. La tabla siguiente proporciona información general de las visualizaciones del contenido.
 
-|                        |                                            |                                                         |
+| Página de informes            | Gráficos                                     | Mosaicos                                                   |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
-| **Página de informes**        | **Gráficos**                                 | **Mosaicos**                                               |
 | Ingresos por cliente    | 10 clientes principales por ingresos                | Ingresos totales                                           |
 |                        | Ingresos totales por grupo de clientes            | Crecimiento de ingresos interanual                                      |
 |                        | Ingresos de cliente medio por grupo de clientes | Margen bruto                                            |
@@ -76,47 +80,48 @@ El paquete de contenido incluye un informe compuesto por un conjunto de medidas 
 
 \* Ingresos este año y el año anterior, y crecimiento por categoría de ventas
 
-## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
-Los datos de Dynamics 365 for Operations se utilizan para rellenar los informes del paquete de contenido de rendimiento de la rentabilidad y las ventas. Esto se representa como medidas globales que se realizan en el almacén de la entidad, que es una base de datos de Microsoft SQL que se optimiza para análisis. Lea más información sobre este tema en el blog [Integración de Power BI con el almacén de entidades en Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Las medidas globales de este paquete de contenido son el subconjunto de las medidas globales que estaban disponibles en el cubo de venta en Dynamics AX 2012 y AX 2012 R3. Para realizar las medidas globales del cubo en el almacén de entidades debe hacer que sean desplegables. Para obtener más información, consulte el procedimiento relativo a cómo realizar mediciones globales en el almacén de entidades en el blog [Integración de Power BI con el almacén de entidades en Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Las siguientes medidas agregadas clave de la entidad de líneas de factura se usan como base del paquete de contenido.
+## Ampliar el contenido de Power BI
+<a id="extending-the-power-bi-content" class="xliff"></a>
+Mediante los paquetes de contenido disponibles en Microsoft Dynamics Lifecycle Services (LCS), puede ofrecer análisis muy buenos a las personas que no inician sesión en Microsoft Dynamics 365. Puede modificar estos paquetes de contenido para que incluyan otros informes o representaciones visuales y, a continuación, publicar los paquetes de contenidos en el inquilino de Power BI.com para su análisis.
 
-|               |                                              |                                                 |                                              |                                          |
-|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|------------------------------------------|
-| **Entidad**    | **Medidas agregadas clave**               | **Origen de datos para Dynamics 365 for Operations** | **Campo**                                    | **Descripción**                          |
-| Líneas de factura | Ingresos                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Importe en la divisa de contabilidad            |
-|               | Coste de bienes vendidos                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Importe del coste + ajuste                 |
-|               | Importe de la línea de comisión - divisa de contabilidad | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Importe de la comisión en divisa de contabilidad |
+El contenido de Power BI sobre **Rendimiento de ventas y rentabilidad** se encuentra en la biblioteca de activos compartidos de LCS. Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
 
-Se usará la tabla siguiente para mostrar cómo se usan las medidas agregadas clave de la entidad de líneas de factura para crear varias medidas calculadas en el conjunto de datos del paquete de contenido.
+Asegúrese de descargar el contenido sobre **Rendimiento de ventas y rentabilidad** que se aplica a la versión de Dynamics 365 que esté usando.
 
-|                   |                                                                                                  |
+> [!NOTE]
+> Si utiliza Microsoft Dynamics 365 for Operations, versión 1611, KB 4011327 es un requisito para este contenido de Power BI. Tras iniciar sesión en LCS, puede acceder a KB en https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+
+## Comprensión del modelo de datos y de las entidades
+<a id="understanding-the-data-model-and-entities" class="xliff"></a>
+Los datos siguientes se usan para rellenar el informe del contenido de Power BI sobre **Rendimiento de ventas y rentabilidad**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md). 
+
+Las medidas agregadas en este contenido son el subconjunto de las medidas agregadas que estaban disponibles en el cubo de ventas en Microsoft Dynamics AX 2012 y Microsoft Dynamics AX 2012 R3. Para realizar las medidas globales del cubo en el almacén de entidades debe hacer que sean desplegables. Para obtener más información, consulte el procedimiento relativo a cómo realizar mediciones globales en el almacén de entidades en el blog sobre [integración de Power BI con el almacén de entidades en Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). 
+
+Las siguientes medidas agregadas clave de la entidad de líneas de factura se usan como base del contenido.
+
+| Entidad        | Medidas agregadas clave                   | Origen de datos para Dynamics 365                    | Campo                                        | Descripción                                   |
+|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|----------------------------------------------|
+| Líneas de factura | Ingresos                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | El importe en la divisa de contabilidad.            |
+|               | Coste de bienes vendidos                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | La suma del importe de coste y el ajuste.    |
+|               | Importe de la línea de comisión - divisa de contabilidad | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | El importe de la comisión en la divisa de la contabilidad. |
+
+Se usará la tabla siguiente para mostrar cómo se usan las medidas agregadas clave de la entidad de líneas de factura para crear varias medidas calculadas en el conjunto de datos del contenido.
+
+| Medida           | Cálculo                                                                                      |
 |-------------------|--------------------------------------------------------------------------------------------------|
-| **Medida**       | **Calculado como**                                                                                |
 | Ganancias brutas      | SUM(Ingresos – COGS – Comisión – Impuestos (incluidos en el importe de la línea de factura de cliente))          |
 | Margen bruto      | SUM(Ganancias brutas / (Ingresos - Impuestos (incluidos en el importe de la línea de factura de cliente)))             |
 | Ingresos el último año | Ingresos el último año = CALCULATE(SUM('Líneas factura'\[Ingresos\]), SAMEPERIODLASTYEAR(Fechas\[Fecha\]) |
 
-Las dimensiones clave siguientes del **cubo de venta** se utilizan como filtros para cortar las medidas globales para lograr mayor granularidad y para profundizar en la visión analítica.
+Las dimensiones clave siguientes del cubo de ventas se utilizan como filtros para cortar las medidas globales de forma que logre mayor granularidad y profundizar en la visión analítica.
 
-|                  |                                                      |
+| Entidad           | Ejemplos de atributos                               |
 |------------------|------------------------------------------------------|
-| **Entidad**       | **Ejemplos de atributos**                           |
 | Empresas cliente        | Grupos de clientes, regiones de clientes, dirección, sector |
 | Productos         | Número de producto, nombre de producto, nombre de grupos de artículos       |
 | Categorías de ventas | Nombres de categoría de ventas                                 |
 | Entidades jurídicas   | Nombres de entidad jurídica                                   |
 | Fechas            | Fechas                                                |
 
-De forma predeterminada, el paquete de contenido muestra los datos por año natural actual, pero puede abrir la sección de filtros de informe y cambiar el filtro de fecha. También puede cambiar el filtro de empresa.
-
-## <a name="additional-resources"></a>Recursos adicionales
-Estos son algunos vínculos útiles relacionados con las entidades y la creación de contenido de Power BI:
-
--   [Entidades de datos](..\data-entities\data-entities.md)
--   [Creación de paquetes de contenido organizativo](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Modelado de datos con Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Adición de iconos de Power BI a espacios de trabajo](configure-power-bi-integration.md)
-
-
-
-
+De forma predeterminada, el contenido muestra los datos del año natural actual. Sin embargo, puede cambiar el filtro de la fecha en la sección de filtros de informe. También puede cambiar el filtro de empresa.
 

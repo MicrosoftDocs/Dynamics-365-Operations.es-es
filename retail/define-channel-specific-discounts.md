@@ -3,46 +3,50 @@ title: "Definición de descuentos específicos de un canal"
 description: "Los minoristas establecen a menudo distintos descuentos en diferentes canales. Este tema revisa los conceptos que necesita conocer para crear un descuento para un canal específico."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16401
 ms.assetid: d807fd51-86aa-47a0-8e00-6c5ddd21ff6b
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 750f61198550a248d70fd531c3cb2ff86ca37f50
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: d40c37628f03a7605e04b95339072a67806f2fa1
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="define-channel-specific-discounts"></a>Definición de descuentos específicos de un canal
+# Definición de descuentos específicos de un canal
+<a id="define-channel-specific-discounts" class="xliff"></a>
 
 [!include[banner](includes/banner.md)]
 
 
 Los minoristas establecen a menudo distintos descuentos en diferentes canales. Este tema revisa los conceptos que necesita conocer para crear un descuento para un canal específico. 
 
-<a name="channel-specific-discounts"></a>Descuentos específicos de un canal
+Descuentos específicos de un canal
+<a id="channel-specific-discounts" class="xliff"></a>
 --------------------------
 
 Los minoristas ofrecen a menudo distintos descuentos en diferentes canales. Esto se puede realizar para responder a condiciones empresariales locales o para afrontar a la competencia.
 
-Venta minorista y comercio de Microsoft Dynamics 365 for Operations usa grupos de precios para definir descuentos específicos según canal. Los grupos de precios se pueden asignar a una o más de las entidades siguientes: canales, catálogos, afiliaciones y programas de fidelidad. Este artículo describe los canales, pero los mismos conceptos se aplican a los descuentos de catálogo, descuentos de afiliaciones y los descuentos por fidelidad.
+Microsoft Dynamics 365 for Retail usa grupos de precios para definir descuentos específicos según canal. Los grupos de precios se pueden asignar a una o más de las entidades siguientes: canales, catálogos, afiliaciones y programas de fidelidad. Este artículo describe los canales, pero los mismos conceptos se aplican a los descuentos de catálogo, descuentos de afiliaciones y los descuentos por fidelidad.
 
-## <a name="price-groups"></a>Grupos de precio
+## Grupos de precio
+<a id="price-groups" class="xliff"></a>
 
 [![Grupos de precio](./media/price-groups-1024x608.png)](./media/price-groups.png)
 
@@ -53,7 +57,8 @@ En el diagrama anterior se muestra la relación entre las entidades que pueden e
 -   **Grupos de precios de fidelización**: esta página muestra una lista de programas de fidelización y descuentos vinculados conjuntamente para cada grupo de precios.
 -   **Grupos de precios de afiliación**: esta página muestra una lista de afiliaciones y descuentos vinculados conjuntamente para cada grupo de precios.
 
-## <a name="example-channel-discount-set-up"></a>Ejemplo de configuración de descuento por canal
+## Ejemplo de configuración de descuento por canal
+<a id="example-channel-discount-set-up" class="xliff"></a>
 En el ejemplo siguiente se muestran las tareas implicadas en la configuración de un descuento por canal.
 
 1.  Para este ejemplo puede tener un canal llamado **Houston** y va a crear un nuevo descuento llamado **Vuelta al cole**.
@@ -64,7 +69,8 @@ En el ejemplo siguiente se muestran las tareas implicadas en la configuración d
 
  
 
-<a name="see-also"></a>Consulte también
+Consulte también
+<a id="see-also" class="xliff"></a>
 --------
 
 [Ajustes de precios y descuentos](price-adjustments-discounts.md)

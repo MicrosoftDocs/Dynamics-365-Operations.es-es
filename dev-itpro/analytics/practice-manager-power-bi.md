@@ -1,133 +1,141 @@
 ---
 title: "Contenido de Power BI para Director de práctica"
-description: "En este tema se describe lo que se incluye en el contenido de Power BI para Director de práctica. Explica cómo tener acceso a los informes que se incluyen en el paquete de contenido, y proporciona información acerca del modelo de datos y las entidades que se usan para generar el paquete del contenido."
-author: knelson
+description: "En este tema se describe lo que se incluye en el contenido de Power BI para Director de práctica. Explica cómo tener acceso a los informes que se incluyen en el contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
+author: KimANelson
 manager: AnnBe
-ms.date: 04/28/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
-audience: Developer/IT Pro
+audience: Application User, IT Pro
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.assetid: 
 ms.search.region: Global
 ms.author: knelson
-ms.dyn365.intro: 2017/04/27
-ms.dyn365.version: 
+ms.search.validFrom: 2017-06-30
+ms.dyn365.version: Enterprise edition, July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0f2a1a9df8e5036c60b74b8a710e606b0b1e312a
+ms.sourcegitcommit: 993e88703f19dbeec435d07a4599cbbfcda563bc
+ms.openlocfilehash: b63e31f3e4993c1fda229a54b4e5ef2fed824355
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="practice-manager-power-bi-content"></a>Contenido de Power BI para Director de práctica
+# Contenido de Power BI para Director de práctica
+<a id="practice-manager-power-bi-content" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
-
 En este tema se describe lo que se incluye en el contenido de Microsoft Power BI para **Director de práctica**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
-## <a name="overview"></a>Información general
+## Información general
+<a id="overview" class="xliff"></a>
 
-El contenido de Power BI para **Director de práctica** se creó para los directores de práctica y los directores de proyecto. Proporciona métricas clave relacionadas con los proyectos en los que la organización está trabajando. El panel ofrece una visión general de los proyectos y los clientes relacionados. Se puede usar un filtro de informes para entidades jurídicas específicas. Este contenido de Power BI extrae datos de las medidas de agregado de contabilidad de proyecto para Microsoft Dynamics 365 for Operations.
+El contenido de Power BI para **Director de práctica** se creó para los directores de práctica y los directores de proyecto. Proporciona métricas clave relacionadas con los proyectos en los que la organización está trabajando. El panel ofrece una visión general de los proyectos y los clientes relacionados. Se puede usar un filtro de informes para entidades jurídicas específicas. Este contenido de Power BI extrae datos de las medidas agregadas de contabilidad del proyecto.
 
-El contenido de Power BI para **Director de práctica** contiene cinco páginas de informes: una página de visión general y cuatro páginas con detalles de costes de proyecto, ingresos, administración del valor acumulado y métricas de horas que se analizan según varias dimensiones.
+El contenido en Power BI de **Director de práctica** contiene cinco páginas de informes: una página de visión general y cuatro páginas con detalles sobre costes de proyecto, ingresos, administración del valor acumulado y métricas de horas que se desglosan según varias dimensiones.
 
 Todos los importes del contenido se muestran en la divisa del sistema. Puede establecer la divisa del sistema en la página **Parámetros del sistema** .
 
-## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
+## Acceso al contenido de Power BI
+<a id="accessing-the-power-bi-content" class="xliff"></a>
+Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017), el contenido en Power BI de **Director de prácticas** aparece en el espacio de trabajo **Administración de proyectos**.
 
-El contenido de Power BI para **Director de práctica** se encuentra en la biblioteca de activos compartidos de Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información sobre cómo descargar el paquete de contenido y conectarlo a los datos de Dynamics 365 for Operations, consulte [Contenido de Power BI en LCS de Microsoft y sus socios](power-bi-content-microsoft-partners.md).
-
-Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office mix).
-
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
+## Informes que se incluyen en el contenido de Power BI
+<a id="reports-that-are-included-in-the-power-bi-content" class="xliff"></a>
 
 La siguiente tabla ofrece información sobre las métricas que se encuentran en cada página de informe en el contenido de Power BI de **Director de práctica** .
 
-| Página de informes                                          | Métricas               |
-|------------------------------------------------------|-----------------------------------------------|
-| Panel de información  | Proyectos creados<br>Proyectos estimados<br>Proyectos en curso<br>Número de proyectos por etapa<br>Número de proyectos por ciudad<br>Ingresos reales por cliente<br>Margen bruto presupuestario por proyecto<br>Visión general de la administración del valor obtenido |
-| Coste                                                 | Comparación de coste real y coste presupuestado por mes<br>Comparación de coste real y coste presupuestado por año<br>Comparación de coste real y coste presupuestado por categoría<br>Coste real por tipo de transacción       |
-| Ingresos                                              | Ingresos reales por mes<br>Ingresos reales por código postal<br>Comparación de ingresos reales e ingresos presupuestados por categoría<br>Ingresos reales por sector del cliente        |
-| EVM                                                  | Coste e índice de rendimiento de la programación por proyecto                 |
-| Horas                                                | Comparación de horas facturables usadas reales, horas no facturables reales y horas presupuestadas<br>Comparación de horas facturables usadas reales y horas no facturables reales por proyecto<br>Comparación de horas facturables usadas reales y horas no facturables reales por recurso<br>Proporción de horas facturables reales por proyecto<br>Proporción de horas facturables reales por recurso |
+| Página de informes       | Métricas |
+|-------------------|---------|
+| Visión general de proyectos | <ul><li>Proyectos creados</li><li>Proyectos estimados</li><li>Proyectos en curso</li><li>Número de proyectos por etapa</li><li>Número de proyectos por ciudad</li><li>Ingresos reales por cliente</li><li>Margen bruto presupuestario por proyecto</li><li>Visión general de la administración del valor obtenido</li></ul> |
+| Coste              | <ul><li>Comparación de coste real y coste presupuestado por mes</li><li>Comparación de coste real y coste presupuestado por año</li><li>Comparación de coste real y coste presupuestado por categoría</li><li>Coste real por tipo de transacción</li></ul> |
+| Ingresos           | <ul><li>Ingresos reales por mes</li><li>Ingresos reales por código postal</li><li>Comparación de ingresos reales e ingresos presupuestados por categoría</li><li>Ingresos reales por sector del cliente</li></ul> |
+| EVM               | Coste e índice de rendimiento de la programación por proyecto |
+| Horas             | <ul><li>Comparación de horas facturables usadas reales, horas no facturables reales y horas presupuestadas</li><li>Comparación de horas facturables usadas reales y horas no facturables reales por proyecto</li><li>Comparación de horas facturables usadas reales y horas no facturables reales por recurso</li><li>Proporción de horas facturables reales por proyecto</li><li>Proporción de horas facturables reales por recurso</li></ul> |
 
 Los gráficos y los iconos en todos estos informes se pueden filtrar y anclar al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). También puede usar la funcionalidad subyacente de exportación de datos para exportar los datos subyacente que se resume en una visualización.
 
-## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
+## Ampliar el contenido de Power BI
+<a id="extending-the-power-bi-content" class="xliff"></a>
+Mediante los paquetes de contenido disponibles en Microsoft Dynamics Lifecycle Services (LCS), puede ofrecer análisis muy buenos a las personas que no inician sesión en Microsoft Dynamics 365. Puede modificar estos paquetes de contenido para que incluyan otros informes o representaciones visuales y, a continuación, publicarlos en el inquilino de Power BI.com para su análisis. 
 
-Los datos de Dynamics 365 for Operations se usan para rellenar las páginas de informes en el contenido de **Director de práctica**. Estos datos se representan como medidas globales que se realizan en el almacén de la entidad, que es una base de datos de Microsoft SQL que se optimiza para análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
+Puede encontrar el contenido en Power BI de **Director de prácticas** en la biblioteca de activos compartidos de LCS. Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
 
-En las secciones siguientes se describen las medidas de agregado que se utilizan en cada entidad.
+Asegúrese de descargar el contenido **Director de prácticas** que se aplica a la versión de Dynamics 365 que esté usando.
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>Entidad: ProjectAccountingCube_ActualHourUtilization
-**Origen de datos**: ProjEmplTrans
+## Comprensión del modelo de datos y de las entidades
+<a id="understanding-the-data-model-and-entities" class="xliff"></a>
 
-| Medida agregada clave                | Campo                                | Descripción                            | 
-|------------------------------------------|--------------------------------------|----------------------------------------|
-| ActualBillableUtilizedHours              | Sum(ActualUtilizationBillableRate)   | Total de horas facturables usadas reales |
-| ActualBillableBurdenHours                | Sum(ActualBurdenBillableRate)        | Total de horas no facturables reales             |
+Los datos siguientes se usan para rellenar las páginas de informes en el contenido de Power BI **Director de prácticas**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
 
-### <a name="entity-projectaccountingcubeactuals"></a>Entidad: ProjectAccountingCube_Actuals
-**Origen de datos**: ProjTransPosting
+En las secciones siguientes se describen las medidas de agregado que se utilizan en cada entidad.
 
-| Medida agregada clave                | Campo                                | Descripción                            | 
-|------------------------------------------|--------------------------------------|----------------------------------------|
-| ActualRevenue                            |     Sum(ActualRevenue)               |  Total de ingresos registrados para toda la transacción |   
-| ActualCost   |                             Sum(ActualCost)           |    Total de costes registrados para todos los tipos de transacciones    |
+### Entidad: ProjectAccountingCube_ActualHourUtilization
+<a id="entity-projectaccountingcubeactualhourutilization" class="xliff"></a>
+**Origen de datos:** ProjEmplTrans
 
-### <a name="entity-projectaccountingcubecustomer"></a>Entidad: ProjectAccountingCube_Customer
-**Origen de datos**: CustTable
+| Medida agregada clave      | Campo                              | Descripción | 
+|--------------------------------|------------------------------------|-------------|
+| Horas facturables usadas reales | Sum(ActualUtilizationBillableRate) | Total de horas facturables usadas reales. |
+| Horas facturables/no facturables reales   | Sum(ActualBurdenBillableRate)      | Total de horas no facturables reales. |
 
-| Medida agregada clave                | Campo                                | Descripción                            | 
-|------------------------------------------|--------------------------------------|----------------------------------------|
-|    Número de proyectos        |   COUNTA(ProjectAccountingCube_Projects[PROJECTS])       |         Número de proyectos disponibles    |
+### Entidad: ProjectAccountingCube_Actuals
+<a id="entity-projectaccountingcubeactuals" class="xliff"></a>
+**Origen de datos:** ProjTransPosting
+
+| Medida agregada clave | Campo              | Descripción | 
+|---------------------------|--------------------|-------------|
+| Ingresos reales            | Sum(ActualRevenue) | Total de ingresos registrados para todas las transacciones. |   
+| Coste real               | Sum(ActualCost)    | Total de costes registrados para todos los tipos de transacciones. |
+
+### Entidad: ProjectAccountingCube_Customer
+<a id="entity-projectaccountingcubecustomer" class="xliff"></a>
+**Origen de datos:** CustTable
+
+| Medida agregada clave | Campo                                            | Descripción | 
+|---------------------------|--------------------------------------------------|-------------|
+| Número de proyectos        | COUNTA(ProjectAccountingCube_Projects[PROJECTS]) | Número de proyectos disponibles. |
 
 
-### <a name="entity-projectaccountingcubeforecasts"></a>Entidad: ProjectAccountingCube_Forecasts
-**Origen de datos**: ProjTransBudget
+### Entidad: ProjectAccountingCube_Forecasts
+<a id="entity-projectaccountingcubeforecasts" class="xliff"></a>
+**Origen de datos:** ProjTransBudget
 
-| Medida agregada clave                | Campo                                | Descripción                            | 
-|------------------------------------------|--------------------------------------|----------------------------------------|
-|    BudgetCost    |       Sum(BudgetCost)  |       Total de costes previstos para todos los tipos de transacciones     |
-|     BudgetRevenue    |         Sum(BudgetRevenue)    |    Total de ingresos acumulados/facturados previstos         |
-|BudgetGrossMargin | Sum(BudgetGrossMargin) |Diferencia entre la suma de ingresos totales previstos y la suma de costes totales previstos
+| Medida agregada clave | Campo                  | Descripción | 
+|---------------------------|------------------------|-------------|
+| Coste presupuestario               | Sum(BudgetCost)        | Total de costes previstos para todos los tipos de transacciones. |
+| Ingresos presupuestarios            | Sum(BudgetRevenue)     | Total de ingresos acumulados/facturados previstos.  |
+| Margen bruto presupuestario       | Sum(BudgetGrossMargin) | Diferencia entre la suma de ingresos totales previstos y la suma de costes totales previstos. |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>Entidad: ProjectAccountingCube_ProjectPlanCostsView
-**Origen de datos**: Project
+### Entidad: ProjectAccountingCube_ProjectPlanCostsView
+<a id="entity-projectaccountingcubeprojectplancostsview" class="xliff"></a>
+**Origen de datos:** Project
 
-| Medida agregada clave                | Campo                                | Descripción                            | 
-|------------------------------------------|--------------------------------------|----------------------------------------|
-|      PlannedCost      |        Sum(SumOfTotalCostPrice)   | Precio de coste total en las estimaciones de todos los tipos de transacciones de proyecto con tareas planificadas |
+| Medida agregada clave | Campo                    | Descripción | 
+|---------------------------|--------------------------|-------------|
+| Costes planificados              | Sum(SumOfTotalCostPrice) | Precio de coste total en las estimaciones de todos los tipos de transacciones de proyecto que cuentan con tareas planificadas. |
 
-### <a name="entity-projectaccountingcubeprojects"></a>Entidad: ProjectAccountingCube_Projects
-**Origen de datos**: Project
+### Entidad: ProjectAccountingCube_Projects
+<a id="entity-projectaccountingcubeprojects" class="xliff"></a>
+**Origen de datos:** Project
 
-| Medida agregada clave                | Campo                                | Descripción                            | 
-|------------------------------------------|--------------------------------------|----------------------------------------|
-|   Índice de rendimiento de costes  |ProjectAccountingCube_Projects[Valor obtenido] / ProjectAccountingCube_Projects[Coste real total de las tareas completadas] |     Cálculo del valor obtenido total dividido por el coste real total|
-|  Índice de rendimiento de la programación |ProjectAccountingCube_Projects[Valor obtenido] / ProjectAccountingCube_Projects[Coste planificado total de las tareas completadas]|Cálculo del valor obtenido total dividido por el coste planificado total |
-|Porcentaje de trabajo completado |Porcentaje de trabajo completado = [ProjectAccountingCube_Projects[Coste real total de las tareas completadas] / (ProjectAccountingCube_Projects[Coste real total de tareas completadas] + ProjectAccountingCube_Projects[Coste planificado total del proyecto] - ProjectAccountingCube_Projects[Coste planificado total de tareas completadas])|Porcentaje total de trabajo completado basado en el coste real total de tareas completadas y el coste planificado del proyecto|
-|Proporción de horas facturables reales del proyecto|ProjectAccountingCube_Projects[Horas utilizadas facturables reales totales del proyecto] / (ProjectAccountingCube_Projects[Horas utilizadas facturables reales totales del proyecto] + ProjectAccountingCube_Projects[Horas no facturables reales totales del proyecto])|Horas facturables reales totales basadas en horas utilizadas + horas no facturables|
-|Valor obtenido|ProjectAccountingCube_Projects[Coste planificado total del proyecto] * ProjectAccountingCube_Projects[Porcentaje de trabajo completado]|Coste planificado total multiplicado por el porcentaje de trabajo completado|
+| Medida agregada clave    | Campo | Descripción | 
+|------------------------------|-------|-------------|
+| Índice de rendimiento de costes       | ProjectAccountingCube_Projects[Valor obtenido] / ProjectAccountingCube_Projects[Coste real total de las tareas completadas] | Cálculo del valor obtenido total dividido por el coste real total. |
+| Índice de rendimiento de la programación   | ProjectAccountingCube_Projects[Valor obtenido] / ProjectAccountingCube_Projects[Coste planificado total de las tareas completadas] | Cálculo del valor obtenido total dividido por el coste planificado total. |
+| Porcentaje de trabajo completado | Porcentaje de trabajo completado = [ProjectAccountingCube_Projects[Coste real total de las tareas completadas] / (ProjectAccountingCube_Projects[Coste real total de tareas completadas] + ProjectAccountingCube_Projects[Coste planificado total del proyecto] - ProjectAccountingCube_Projects[Coste planificado total de tareas completadas]) | Porcentaje total de trabajo completado basado en el coste real total de tareas completadas y el coste planificado del proyecto. |
+| Proporción de horas facturables reales  | ProjectAccountingCube_Projects[Horas utilizadas facturables reales totales del proyecto] / (ProjectAccountingCube_Projects[Horas utilizadas facturables reales totales del proyecto] + ProjectAccountingCube_Projects[Horas no facturables reales totales del proyecto]) | Horas facturables totales reales, en función de las horas usadas y las horas no facturables. |
+| Valor obtenido                 | ProjectAccountingCube_Projects[Coste planificado total del proyecto] * ProjectAccountingCube_Projects[Porcentaje de trabajo completado] | Coste planificado total multiplicado por el porcentaje de trabajo completado. |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entidad: ProjectAccountingCube_TotalEstimatedCosts 
-**Origen de datos**: ProjTable
+### Entidad: ProjectAccountingCube_TotalEstimatedCosts
+<a id="entity-projectaccountingcubetotalestimatedcosts" class="xliff"></a> 
+**Origen de datos:** ProjTable
 
-| Medida agregada clave                | Campo                                | Descripción                            | 
-|------------------------------------------|--------------------------------------|----------------------------------------|
-| CompletedActivityPlannedCost  |  Sum(TotalCostPrice)  |   Precio de coste total en las estimaciones de todos los tipos de transacciones de proyecto con tareas completadas|
-
-## <a name="additional-resources"></a>Recursos adicionales
-
-Estos son algunos vínculos útiles relacionados con las entidades y la creación de contenido de Power BI:
-
-- [Entidades de datos](/dynamics365/operations/dev-itpro/data-entities/data-entities)
-- [Creación de paquetes de contenido organizativo](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
-- [Modelado de datos con Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
-- [Configuración de la integración de Power BI para espacios de trabajo](configure-power-bi-integration.md)
+| Medida agregada clave       | Campo               | Descripción | 
+|---------------------------------|---------------------|-------------|
+| Coste de la actividad planificada completada | Sum(TotalCostPrice) | Precio de coste total en las estimaciones de todos los tipos de transacciones de proyecto que cuentan con tareas completadas. |
 

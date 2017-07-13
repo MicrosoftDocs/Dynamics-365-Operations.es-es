@@ -1,9 +1,9 @@
 ---
 title: "Créditos y cobros en Clientes"
-description: "La información de los cobros de clientes se gestiona en una vista central con la página Cobros de Microsoft Dynamics 365 for Operations. Los administradores de crédito y cobros pueden usar esta vista central para gestionar los cobros. Los agentes de cobros pueden comenzar el proceso de cobro por las listas de clientes que se generan mediante criterios de cobro predefinidos o por la página Clientes."
+description: "La información de los cobros de clientes se gestiona en una vista central con la página Cobros de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Los administradores de crédito y cobros pueden usar esta vista central para gestionar los cobros. Los agentes de cobros pueden comenzar el proceso de cobro por las listas de clientes que se generan mediante criterios de cobro predefinidos o por la página Clientes."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,20 +19,21 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74f671a35fa1dbeeb120fe968b1bcc09868f57d5
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="credit-and-collections-in-accounts-receivable"></a>Créditos y cobros en Clientes
+# Créditos y cobros en Clientes
+<a id="credit-and-collections-in-accounts-receivable" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-La información de los cobros de clientes se gestiona en una vista central con la página Cobros de Microsoft Dynamics 365 for Operations. Los administradores de crédito y cobros pueden usar esta vista central para gestionar los cobros. Los agentes de cobros pueden comenzar el proceso de cobro por las listas de clientes que se generan mediante criterios de cobro predefinidos o por la página Clientes.
+La información de los cobros de clientes se gestiona en una vista central con la página Cobros de Finance and Operations. Los administradores de crédito y cobros pueden usar esta vista central para gestionar los cobros. Los agentes de cobros pueden comenzar el proceso de cobro por las listas de clientes que se generan mediante criterios de cobro predefinidos o por la página Clientes.
 
 Antes de comenzar a configurar cobros o a trabajar con éstos, debe comprender los siguientes conceptos:
 -   Las instantáneas de vencimiento de los clientes contienen información sobre saldos vencidos en un momento determinado.
@@ -46,7 +47,8 @@ Antes de comenzar a configurar cobros o a trabajar con éstos, debe comprender l
 
 En las siguientes secciones, se describe cada concepto.
 
-## <a name="customer-aging-snapshots"></a>Instantáneas de vencimientos de clientes
+## Instantáneas de vencimientos de clientes
+<a id="customer-aging-snapshots" class="xliff"></a>
 Una instantánea de vencimientos contiene los saldos vencidos calculados en un momento determinado. Esta información aparece en la página de lista Saldos vencidos y en la página Cobros. Es necesario crear una instantánea de vencimientos para poder visualizar información en las páginas de lista Cobros. 
 
 Para cada cliente, las instantáneas de vencimientos contienen un encabezado de instantánea de vencimientos y los registros de detalle que corresponden a cada período de vencimiento en la definición de período de vencimiento. 
@@ -55,15 +57,18 @@ El encabezado de instantánea de vencimientos contiene el importe vencido total,
 
 Para cada período de vencimiento de la definición de período de vencimiento, se crea un registro de detalle de la instantánea de vencimientos. Cada registro de detalles de las instantáneas de vencimiento contiene el id. del período de vencimiento y el importe total de las transacciones con las fechas del período de vencimiento. Las transacciones tienen asignado un período de vencimiento, como 30 días pasados desde el vencimiento. La fecha está relacionada con la fecha de Vencimiento a partir de especificada al crear la instantánea de vencimientos. Esta información se muestra en la página de lista Saldos vencidos y en el cuadro informativo Saldos vencidos de la página Cobros.
 
-## <a name="collections-customer-pools"></a> Secciones de cobros de clientes
+##  Secciones de cobros de clientes
+<a id="collections-customer-pools" class="xliff"></a>
 Las secciones de clientes son consultas que definen un grupo de registros de cliente que se pueden mostrar y gestionar para cobros o procesos de vencimiento. Use las secciones de clientes para filtrar información en las páginas Saldos vencidos, Actividades de cobros y Casos de cobros. También se usan las secciones de clientes para filtrar las cuentas de cliente que se incluyen al crear instantáneas de vencimientos.
 
-## <a name="collections-agents"></a>Agentes de cobros
-De forma predeterminada, los usuarios de Microsoft Dynamics 365 for Operations pueden ver toda la información de los clientes en las páginas de listas de cobros. Puede usar los registros de agente de cobros para determinar las secciones de clientes disponibles para filtrar la información de las páginas de listas de cobros y en la página Cobros. 
+## Agentes de cobros
+<a id="collections-agents" class="xliff"></a>
+De forma predeterminada, los usuarios de Microsoft Dynamics 365 for Finance and Operations pueden ver toda la información de los clientes en las páginas de listas de cobros. Puede usar los registros de agente de cobros para determinar las secciones de clientes disponibles para filtrar la información de las páginas de listas de cobros y en la página Cobros. 
 
-El agente de cobros es una persona que trabaja con clientes para asegurarse de que los pagos se cobran a tiempo. En Microsoft Dynamics 365 for Operations, los agentes de cobros son trabajadores asignados a usuarios en la página Configuración de usuario.
+El agente de cobros es una persona que trabaja con clientes para asegurarse de que los pagos se cobran a tiempo. En Finance and Operations, los agentes de cobros son trabajadores asignados a usuarios en la página Configuración de usuario.
 
-## <a name="collections-list-pages"></a> Páginas de listas Cobros 
+##  Páginas de listas Cobros 
+<a id="collections-list-pages" class="xliff"></a>
 En las siguientes páginas de lista, se le ayuda a organizar la información de cobros.
 -   Saldos vencidos: las columnas de la página de la lista muestran los saldos de los clientes y los importes vencidos por período de vencimiento. Esta información se almacena como una instantánea de vencimientos. Los períodos de vencimiento se determinan por la definición de período de vencimiento que se use. La definición del período de vencimiento se toma de la sección de clientes, si se ha especificado una para la consulta de secciones. Si la sección no tiene definición de período de vencimiento, se usará la definición de período de vencimiento predeterminada que se haya especificado en la página Parámetros de clientes. Si no se especifica ninguna definición de período de vencimiento predeterminada, se usa la primera definición de período de vencimiento de la página Definiciones de período de vencimiento.
 -   Actividades de cobros: en las columnas de la página de lista, se muestran las actividades identificadas como actividades de cobros. Estas actividades se crean mediante el uso de la página Cobros. Use actividades para realizar un seguimiento del trabajo que realiza en relación con los cobros.
@@ -71,12 +76,13 @@ En las siguientes páginas de lista, se le ayuda a organizar la información de 
 
 > [!NOTE]
 > Es necesario crear una instantánea de vencimientos antes de que pueda visualizar información en estas páginas de lista. La información se muestra solo para aquellos clientes para los que se ha creado una instantánea de vencimientos. Los registros que se muestran en la página de lista se pueden filtrar más, como sigue:
-<li>De forma predeterminada, un usuario de Microsoft Dynamics 365 for Operations tiene acceso a todos los clientes que dispongan de una instantánea de vencimientos.</li>
+<li>De forma predeterminada, un usuario de Finance and Operations tiene acceso a todos los clientes que dispongan de una instantánea de vencimientos.</li>
 <li>Si existen secciones de clientes, es necesario configurar un usuario como agente de cobros para que pueda usar las secciones para filtrar información de páginas de listas de cobros. El acceso a esta información está limitado a los clientes incluidos en la sección de clientes seleccionada.</li>
 <li>Si un usuario está configurado como agente de cobros, sólo estarán disponibles en la página de lista las secciones seleccionadas para dicho agente de cobros. Si se ha seleccionado Permitir que el agente vea todas las secciones de clientes en la página Agente de cobros para el agente de cobros, todas las secciones quedan disponibles para dicho agente.</li>
 
 
-## <a name="collections-page"></a> Página Cobros
+##  Página Cobros
+<a id="collections-page" class="xliff"></a>
 Use la página Cobros para ver, administrar y actuar en la información de cobros, actividades y casos de un cliente. 
 
 En el panel superior, se muestran los casos del cliente seleccionado. En el panel intermedio se muestran las transacciones del cliente. En el panel inferior, se muestran las actividades del cliente. Puede crear casos de cobros para realizar seguimientos de la información de cobros de una o varias transacciones y actividades. La información que aparece en la parte superior y en los paneles inferiores se puede filtrar por caso. 
@@ -85,12 +91,14 @@ En los cuadros informativos, se muestran los saldos vencidos y la información d
 
 El panel de acciones contiene los botones que muestran información relacionada para el cliente, el caso, la transacción o la actividad seleccionada. También puede realizar acciones comunes, como cambiar el estado de cobros de una transacción, enviar mensajes de correo electrónico por medio de la integración con su proveedor de correo electrónico, realizar reembolsos a clientes, procesar pagos NSF y cancelar saldos incobrables.
 
-## <a name="waive-reinstate-or-reverse-interest-and-fees"></a> Condonar, restablecer o revertir interés y cuotas
+##  Condonar, restablecer o revertir interés y cuotas
+<a id="waive-reinstate-or-reverse-interest-and-fees" class="xliff"></a>
 Puede renunciar, restablecer o invertir notas de interés completas, o las cuotas e intereses de la transacción que forman parte de las notas de interés. Puede hacerlo desde la ficha Cobrar en el panel de acciones de la página de lista Todos los clientes al hacer clic en Nota de interés, Interés de transacción o Cuota. 
 
 Estos ajustes sólo afectan a las notas de interés, así como a los intereses y cuotas incluidos en éstos. Realice los pasos descritos en la sección “Crear transacciones de cancelación en un paso” para cancelar todos los cargos que debe un cliente.
 
-## <a name="create-writeoff-transactions"></a>Creación de transacciones de cancelación
+## Creación de transacciones de cancelación
+<a id="create-writeoff-transactions" class="xliff"></a>
 Puede cancelar deudas incorrectas haciendo clic en Cancelar en el formulario Cobros y en las páginas de listas Saldos vencidos, Clientes y Facturas de cliente abiertas. 
 
 Al cancelar transacciones para un cliente, todas las transacciones del cliente se marcan automáticamente para liquidación. El importe que se cancela depende del importe neto de las transacciones marcadas. La transacción de cancelación se crea en un diario general, que puede contener hasta tres tipos de líneas de diario.

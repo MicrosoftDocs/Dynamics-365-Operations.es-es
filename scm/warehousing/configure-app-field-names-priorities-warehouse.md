@@ -1,16 +1,16 @@
 ---
 title: "Configuración de nombres de campo de aplicación en la aplicación de almacén"
-description: "Este tema describe cómo definir y configurar nombres de campo y prioridades de la aplicación de almacén en Dynamics 365 for Operations."
+description: "Este tema describe cómo definir y configurar nombres de campo y prioridades de la aplicación de almacén en Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
@@ -19,27 +19,29 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: edcbf8a0921e0eb08d0f970e681c9d098b354c0b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 49db5ad10914897b2157e123c5803ca51e4e66e7
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="configure-app-field-names-in-warehousing-app"></a>Configuración de nombres de campo de aplicación en la aplicación de almacén
+# Configuración de nombres de campo de aplicación en la aplicación de almacén
+<a id="configure-app-field-names-in-warehousing-app" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este tema describe cómo definir y configurar nombres de campo y prioridades de la aplicación de almacén en Dynamics 365 for Operations. 
+Este tema describe cómo definir y configurar nombres de campo y prioridades de la aplicación de almacén en Finance and Operations. 
 
-**Nota**: este tema se aplica a las características de gestión de almacenes. No se aplica a las características de gestión del inventario. Dynamics 365 for Operations : el almacenamiento es una aplicación que puede usar para realizar tareas de almacén. Es posible definir y configurar los nombres de campo que se utilizan en la aplicación, así como configurar la prioridad a la que los nombres de campo se deben asignar. Este tema explica cómo definir y configurar estos nombres de campo y prioridades de la aplicación de almacén y cómo se usan en Dynamics 365 for Operations - Almacenamiento. Para obtener información detallada sobre cómo configurar la conexión a Dynamics 365 for Operations - Almacenamiento, consulte el tutorial sobre [Instalación y configuración de Dynamics 365 for Operations - Almacenamiento](install-configure-warehousing-app.md).
+**Nota**: este tema se aplica a las características de gestión de almacenes. No se aplica a las características de gestión del inventario. Finance and Operations - Warehousing es una aplicación que puede usar para realizar tareas de almacén. Es posible definir y configurar los nombres de campo que se utilizan en la aplicación, así como configurar la prioridad a la que los nombres de campo se deben asignar. Este tema explica cómo definir y configurar estos nombres de campo y prioridades de la aplicación de almacén y cómo se usan en Finance and Operations - Warehousing. Para obtener información detallada sobre cómo configurar la conexión a Finance and Operations - Warehousing, consulte el tutorial sobre [Instalación y configuración de Finance and Operations - Warehousing](install-configure-warehousing-app.md).
 
-<a name="configure-warehouse-app-field-names"></a>Configurar nombres de campo de la aplicación de almacén
+Configurar nombres de campo de la aplicación de almacén
+<a id="configure-warehouse-app-field-names" class="xliff"></a>
 ===================================
 
-Cuando se usa Dynamics 365 for Operations - Almacenamiento en el dispositivo móvil, puede configurar cómo los metadatos se deben mostrar en su dispositivo en la página **Nombres de campo de aplicación de almacén**. En una nueva empresa en Dynamics 365 for Operations, seleccione **Crear configuración predeterminada** para generar todos los nombres de campo que se usarán en los flujos de trabajo del dispositivo móvil de almacén y, a continuación, para asignarles un modo y un tipo de entrada preferidos. Una vez que haya generado todos los nombres de campo, puede seleccionar las siguientes opciones de entrada.
+Cuando se usa Finance and Operations - Warehousing en el dispositivo móvil, puede configurar cómo los metadatos se deben mostrar en su dispositivo en la página **Nombres de campo de aplicación de almacén**. En una nueva empresa en Finance and Operations, seleccione **Crear configuración predeterminada** para generar todos los nombres de campo que se usarán en los flujos de trabajo del dispositivo móvil de almacén y, a continuación, para asignarles un modo y un tipo de entrada preferidos. Una vez que haya generado todos los nombres de campo, puede seleccionar las siguientes opciones de entrada.
 
 <table>
 <colgroup>
@@ -70,10 +72,11 @@ Cuando se usa Dynamics 365 for Operations - Almacenamiento en el dispositivo mó
 </tbody>
 </table>
 
-<a name="configure-warehouse-app-field-priority"></a>Configurar la prioridad de campo de aplicación de almacén
+Configurar la prioridad de campo de aplicación de almacén
+<a id="configure-warehouse-app-field-priority" class="xliff"></a>
 ======================================
 
-En la página **Prioridad de campo de aplicación de almacén**, puede poner nombres de campo en distintos grupos de prioridad. Esto permite decidir qué información se debe mostrar en la página de la tarea principal cuando los trabajadores del almacén realizan tareas mediante la aplicación. Si hace clic en **Crear configuración predeterminada**, se generará un conjunto predeterminado de grupos de prioridad. Es posible crear tantos grupos de prioridad según sea necesario, pero solo se mostrarán tres grupos de prioridad en la página de tareas. Cuando Dynamics 365 for Operations envía metadatos a la aplicación, asignará a cada campo una prioridad relativa en función de su grupo de prioridad, y la aplicación mostrará los primeros tres grupos de prioridad contenidos en los metadatos en la página de tareas. El resto de los metadatos que se desbordan se mostrará en una página de detalles secundaria. En la tabla siguiente se muestra un ejemplo de cinco grupos de prioridad.
+En la página **Prioridad de campo de aplicación de almacén**, puede poner nombres de campo en distintos grupos de prioridad. Esto permite decidir qué información se debe mostrar en la página de la tarea principal cuando los trabajadores del almacén realizan tareas mediante la aplicación. Si hace clic en **Crear configuración predeterminada**, se generará un conjunto predeterminado de grupos de prioridad. Es posible crear tantos grupos de prioridad según sea necesario, pero solo se mostrarán tres grupos de prioridad en la página de tareas. Cuando Finance and Operations envía metadatos a la aplicación, asignará a cada campo una prioridad relativa en función de su grupo de prioridad, y la aplicación mostrará los primeros tres grupos de prioridad contenidos en los metadatos en la página de tareas. El resto de los metadatos que se desbordan se mostrará en una página de detalles secundaria. En la tabla siguiente se muestra un ejemplo de cinco grupos de prioridad.
 
 <table>
 <colgroup>
@@ -141,12 +144,13 @@ En función de la configuración de la prioridad del campo de la aplicación de 
 -   Fila 2: descripción del artículo
 -   Fila 3: tamaño
 
-Los metadatos restantes, por ejemplo, ubicación, no se muestran en la página de tareas, pero se mostrarán en una página de detalles. Para obtener más información y ver ejemplos de la interfaz de usuario, consulte el artículo del blog sobre [Dynamics 365 for Operations - Almacenamiento](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Los metadatos restantes, por ejemplo, ubicación, no se muestran en la página de tareas, pero se mostrarán en una página de detalles. Para obtener más información y ver ejemplos de la interfaz de usuario, consulte el artículo del blog sobre [Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
-<a name="see-also"></a>Consulte también
+Consulte también
+<a id="see-also" class="xliff"></a>
 --------
 
-[Instalación y configuración de Microsoft Dynamics 365 for Operations - Almacenamiento](install-configure-warehousing-app.md)
+[Instalación y configuración de Microsoft Dynamics 365 for Finance and Operations - Almacenamiento](install-configure-warehousing-app.md)
 
 
 

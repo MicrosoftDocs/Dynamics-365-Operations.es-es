@@ -1,40 +1,42 @@
 ---
 title: Funcionalidad del centro de llamadas
-description: "Este artículo proporciona una visión general de la funcionalidad de ventas del centro de llamadas en Microsoft Dynamics 365 for Operations."
+description: "Este artículo proporciona una visión general de la funcionalidad de ventas del centro de llamadas en Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16361
 ms.assetid: c8ed2ba4-8d06-4d99-9728-2a83e6d95ca9
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 40d7c1a95f33c189639c12279a8e3a286f0c6761
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: befbf43a0af8016895e570f5d8cf3a51983692f2
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="call-center-functionality"></a>Funcionalidad del centro de llamadas
+# Funcionalidad del centro de llamadas
+<a id="call-center-functionality" class="xliff"></a>
 
 [!include[banner](includes/banner.md)]
 
 
-Este artículo proporciona una visión general de la funcionalidad de ventas del centro de llamadas en Microsoft Dynamics 365 for Operations.
+Este artículo proporciona una visión general de la funcionalidad de ventas del centro de llamadas en Microsoft Dynamics 365 for Retail.
 
-La venta minorista y el comercio en Microsoft Dynamics AX admite centros de llamadas como un tipo de canal de venta minorista. En un centro de llamadas, los trabajadores realizan pedidos de clientes por teléfono y crean pedidos de ventas. La funcionalidad del centro de llamadas incluye características que diseñadas para facilitar la realización de pedidos por teléfono y la gestión del servicio al cliente en el proceso del pedido. Por ejemplo, los trabajadores de los centros de llamadas pueden especificar la información de pago directamente en el pedido de ventas y pueden ver un resumen detallado de gastos y de pagos antes de enviar el pedido. Los trabajadores tienen opciones para controlar precios, y pueden acceder a distintos datos sobre los clientes, productos y precios desde la página **Pedido de ventas**. Los centros de llamadas también tienen la funcionalidad mejorada para el seguimiento del historial y el estado del pedido de cliente. Cada centro de llamadas puede tener sus propios usuarios, métodos de pago, grupos de precios, dimensiones financieras y modos de entrega. Puede configurar estas opciones cuando crea el centro de llamadas. Además, puede usar la página **Centro de llamadas** para habilitar o deshabilitar los siguientes grupos de funcionalidades que son únicas a los centros de llamadas:
+Dynamics 365 for Retail también admite los centro de llamadas como tipo de canal comercial. En un centro de llamadas, los trabajadores realizan pedidos de clientes por teléfono y crean pedidos de ventas. La funcionalidad del centro de llamadas incluye características que diseñadas para facilitar la realización de pedidos por teléfono y la gestión del servicio al cliente en el proceso del pedido. Por ejemplo, los trabajadores de los centros de llamadas pueden especificar la información de pago directamente en el pedido de ventas y pueden ver un resumen detallado de gastos y de pagos antes de enviar el pedido. Los trabajadores tienen opciones para controlar precios, y pueden acceder a distintos datos sobre los clientes, productos y precios desde la página **Pedido de ventas**. Los centros de llamadas también tienen la funcionalidad mejorada para el seguimiento del historial y el estado del pedido de cliente. Cada centro de llamadas puede tener sus propios usuarios, métodos de pago, grupos de precios, dimensiones financieras y modos de entrega. Puede configurar estas opciones cuando crea el centro de llamadas. Además, puede usar la página **Centro de llamadas** para habilitar o deshabilitar los siguientes grupos de funcionalidades que son únicas a los centros de llamadas:
 
 -   **Finalización del pedido:** este grupo incluye características relacionadas con los pagos y la finalización del pedido en la página **Pedido de ventas**.
 -   **Venta dirigida:** este grupo incluye características relacionadas con los códigos fuente, las secuencias de comandos las y solicitudes del catálogo.

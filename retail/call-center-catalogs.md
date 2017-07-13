@@ -1,40 +1,42 @@
 ---
 title: "Catálogos de centros de llamadas"
-description: "Este artículo describe la funcionalidad específica del centro de llamadas para catálogos en Microsoft Dynamics 365 for Operations."
+description: "Este artículo describe la funcionalidad específica del centro de llamadas para catálogos en Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6609d2d653e761e97f075f928d5993e5cb5ba21d
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: c98cdb9c94a179577caecff7f57a99b91e4878a4
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="call-center-catalogs"></a>Catálogos de centros de llamadas
+# Catálogos de centros de llamadas
+<a id="call-center-catalogs" class="xliff"></a>
 
 [!include[banner](includes/banner.md)]
 
 
-Este artículo describe la funcionalidad específica del centro de llamadas para catálogos en Microsoft Dynamics 365 for Operations.
+Este artículo describe la funcionalidad específica del centro de llamadas para catálogos en Microsoft Dynamics 365 for Retail.
 
-En un centro de llamadas, puede usar los catálogos de productos comerciales para identificar los productos que desee ofrecer a los clientes. Los centros de llamadas usan normalmente catálogos impresos. El diseño y la producción de un catálogo impreso se gestiona fuera de Microsoft Dynamics 365 for Operations. Sin embargo, puede crear y almacenar un formulario digital de un catálogo de venta al por mayor y comercio en Dynamics 365 for Operations con las mismas páginas que usa para configurar catálogos de venta al por mayor en línea. Antes de poder crear un catálogo, debe configurar las selecciones de productos y asignar las selecciones a un centro de llamadas. A continuación agrega productos al catálogo seleccionando los productos de estas selecciones. Después de agregar los productos al catálogo y de haberlo completado, debe validar el catálogo para comprobar los datos. A continuación, debe enviar el catálogo para su revisión y aprobación. Una vez aprobado el catálogo, es se puede publicar. Cuando se crea un catálogo de centro de llamadas, puede tomar una instantánea de los datos del catálogo en el momento en que el catálogo se publica. Esta función de la instantánea permite el acceso a una versión concreta del catálogo incluso si el catálogo se cambia y se actualiza más adelante. Los catálogos del centro de llamadas también se pueden configurar para incluir las características opcionales siguientes:
+En un centro de llamadas, puede usar los catálogos de productos comerciales para identificar los productos que desee ofrecer a los clientes. Los centros de llamadas usan normalmente catálogos impresos. El diseño y la producción de un catálogo impreso se gestiona fuera de Microsoft Dynamics 365 for Retail. Sin embargo, puede crear y almacenar un formulario digital de un catálogo con las mismas páginas que usa para configurar catálogos de venta al por mayor en línea. Antes de poder crear un catálogo, debe configurar las selecciones de productos y asignar las selecciones a un centro de llamadas. A continuación agrega productos al catálogo seleccionando los productos de estas selecciones. Después de agregar los productos al catálogo y de haberlo completado, debe validar el catálogo para comprobar los datos. A continuación, debe enviar el catálogo para su revisión y aprobación. Una vez aprobado el catálogo, es se puede publicar. Cuando se crea un catálogo de centro de llamadas, puede tomar una instantánea de los datos del catálogo en el momento en que el catálogo se publica. Esta función de la instantánea permite el acceso a una versión concreta del catálogo incluso si el catálogo se cambia y se actualiza más adelante. Los catálogos del centro de llamadas también se pueden configurar para incluir las características opcionales siguientes:
 
 -   **Códigos fuente**: códigos fuente que se utilizan para realizar un seguimiento de la respuesta del cliente en correos de catálogos específicos.
 -   **Productos gratuitos**: se pueden incluir productos en el pedido de un cliente sin ningún gasto adicional. Estos productos se agregan a un pedido automáticamente cuando el código fuente del catálogo se especifica en el pedido.

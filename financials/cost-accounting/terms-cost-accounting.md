@@ -3,14 +3,14 @@ title: "Terminología de contabilidad de costes"
 description: "Este tema define los términos clave que se utilizan en la Contabilidad de costes."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
@@ -19,15 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7ce12337c22542aea2002ffc5abd09e4f4d770c1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 35b8e510e7e2c13aebb73f46d20b16275d097432
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="cost-accounting-terminology"></a>Terminología de contabilidad de costes
+# Terminología de contabilidad de costes
+<a id="cost-accounting-terminology" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,7 +37,7 @@ Este tema define los términos clave que se utilizan en la Contabilidad de coste
 
 **Contabilidad de costes**
 
-La Contabilidad de costes permite recopilar datos de distintas fuentes, como la contabilidad general, los subdiarios, y los presupuestos, así como información estadística. A continuación, puede analizar, resumir y evaluar los datos de coste, de modo que la administración puede tomar las mejores decisiones para las actualizaciones de precios, los presupuestos, el control de costes, etc. Los datos de origen que se usan para el análisis de costes se tratan de forma independiente en la Contabilidad de costes. Por lo tanto, las actualizaciones en Contabilidad de costes no afectan a los datos de origen. Sin embargo, cuando se obtienen los datos de costes de varias fuentes, especialmente al importar las cuentas principales de Contabilidad general a Microsoft Dynamics 365 for Operations como elementos de costes, hay redundancia de datos, ya que existen los mismos datos en la Contabilidad general y en la Contabilidad de costes. Dicha redundancia es necesaria, ya que la gestión financiera se utiliza para los informes externos y la Contabilidad de costes para los informes internos.
+La Contabilidad de costes permite recopilar datos de distintas fuentes, como la contabilidad general, los subdiarios, y los presupuestos, así como información estadística. A continuación, puede analizar, resumir y evaluar los datos de coste, de modo que la administración puede tomar las mejores decisiones para las actualizaciones de precios, los presupuestos, el control de costes, etc. Los datos de origen que se usan para el análisis de costes se tratan de forma independiente en la Contabilidad de costes. Por lo tanto, las actualizaciones en Contabilidad de costes no afectan a los datos de origen. Sin embargo, cuando se obtienen los datos de costes de varias fuentes, especialmente al importar las cuentas principales de Contabilidad general a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition como elementos de costes, hay redundancia de datos, ya que existen los mismos datos en la Contabilidad general y en la Contabilidad de costes. Dicha redundancia es necesaria, ya que la gestión financiera se utiliza para los informes externos y la Contabilidad de costes para los informes internos.
 
 **Libro mayor de contabilidad de costes**
 

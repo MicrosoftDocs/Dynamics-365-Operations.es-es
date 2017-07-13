@@ -1,16 +1,16 @@
 ---
 title: Informes financieros
-description: "Este tema describe cómo acceder a los informes financieros en Microsoft Dynamics 365 for Operations y cómo usar las capacidades de informes financieros. Incluye una descripción de los informes financieros predeterminados proporcionados."
+description: "Este tema describe cómo acceder a los informes financieros en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition y cómo usar las capacidades de informes financieros. Incluye una descripción de los informes financieros predeterminados proporcionados."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
@@ -18,25 +18,27 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 39db754df7edeca414752ce1844d7f9e85df0b36
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fedde78a563939fd7080e748c412c89c71586823
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="financial-reporting"></a>Informes financieros
+# Informes financieros
+<a id="financial-reporting" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este tema describe cómo acceder a los informes financieros en Microsoft Dynamics 365 for Operations y cómo usar las capacidades de informes financieros. Incluye una descripción de los informes financieros predeterminados proporcionados.
+Este tema describe cómo acceder a los informes financieros en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition y cómo usar las capacidades de informes financieros. Incluye una descripción de los informes financieros predeterminados proporcionados.
 
-<a name="accessing-financial-reporting"></a>Acceso a informes financieros
+Acceso a informes financieros
+<a id="accessing-financial-reporting" class="xliff"></a>
 -----------------------------
 
-Encontrará el menú **Informes financieros** en los dos siguientes lugares de Microsoft Dynamics 365 for Operations:
+Encontrará el menú **Informes financieros** en los dos siguientes lugares de Finance and Operations:
 
 -   **Contabilidad general** &gt; **Consultas e informes**
 -   **Gestión presupuestaria** &gt; **Consultas e informes** &gt; **Gestión presupuestaria básica**
@@ -53,7 +55,8 @@ Para crear y generar informes financieros para una entidad jurídica, debe confi
 
 Las funciones de informes financieros están disponibles para los usuarios que tienen los privilegios y los derechos adecuados asignados con sus roles de seguridad. Las secciones siguientes muestran estos privilegios y deberes, junto con los roles asociados.
 
-### <a name="duties"></a>Deberes
+### Deberes
+<a id="duties" class="xliff"></a>
 
 | Etiqueta de arancel                            | Descripción                                                             | Nombre AOT                         |
 |---------------------------------------|-------------------------------------------------------------------------|----------------------------------|
@@ -62,7 +65,8 @@ Las funciones de informes financieros están disponibles para los usuarios que t
 | Generar informes financieros            | Generar y actualizar informes financieros.                                 | FinancialReportsGenerate         |
 | Revisar rendimiento financiero          | Revisar y analizar rendimiento financiero.                               | FinancialReportsPerfReview       |
 
-### <a name="privileges"></a>Privilegios
+### Privilegios
+<a id="privileges" class="xliff"></a>
 
 | Etiqueta del privilegio                       | Descripción                                                             | Nombre AOT                         |
 |---------------------------------------|-------------------------------------------------------------------------|----------------------------------|
@@ -71,7 +75,8 @@ Las funciones de informes financieros están disponibles para los usuarios que t
 | Generar informes financieros            | Generar y actualizar informes financieros.                                 | FinancialReportsGenerateReports  |
 | Ver informes financieros                | Ver informes financieros.                                                 | FinancialReportsView             |
 
-### <a name="roles"></a>Roles
+### Roles
+<a id="roles" class="xliff"></a>
 
 | Etiqueta del privilegio                       | Derecho                                  | Roles                                                                           |
 |---------------------------------------|---------------------------------------|---------------------------------------------------------------------------------|
@@ -82,8 +87,9 @@ Las funciones de informes financieros están disponibles para los usuarios que t
 
 Tras la adición de un usuario o el cambio de un rol, el usuario debe poder tener acceso a informes financieros al cabo de unos minutos. **Nota:** el rol sysadmin se agrega a todos los roles en informes financieros.
 
-## <a name="default-reports"></a>Informes predeterminados
-Los informes financieros proporcionan 22 informes financieros predeterminados. Cada informe usa las categorías de cuenta principal predeterminadas en Microsoft Dynamics 365 for Operations. Puede usar estos informes tal cual o como punto de partida para las necesidades de informes financieros. Además de los informes financieros tradicionales, como Informe financiero y Balance de situación, estos informes predeterminados incluyen informes que muestran los diferentes tipos de informes financieros que puede crear. Cada informe de la tabla siguiente se vincula con una presentación combinada de Office sobre el informe.
+## Informes predeterminados
+<a id="default-reports" class="xliff"></a>
+Los informes financieros proporcionan 22 informes financieros predeterminados. Cada informe usa las categorías de cuenta principal predeterminadas en Finance and Operations. Puede usar estos informes tal cual o como punto de partida para las necesidades de informes financieros. Además de los informes financieros tradicionales, como Informe financiero y Balance de situación, estos informes predeterminados incluyen informes que muestran los diferentes tipos de informes financieros que puede crear. Cada informe de la tabla siguiente se vincula con una presentación combinada de Office sobre el informe.
 
 | Informe predeterminado                                                                                         | Descripción                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -110,13 +116,16 @@ Los informes financieros proporcionan 22 informes financieros predeterminados. C
 | [Ventas y descuentos semanales - predeterminado](https://mix.office.com/watch/112ng0hy5de0j)                     | Obtenga información de las ventas y los descuentos para cada semana de un mes. Este informe incluye un total de cuatro semanas.                                                                                                                                                                                                              |
 | [Depositar fondos presupuestarios disponibles - Valor predeterminado](https://mix.office.com/watch/15hcpezcbx7tv)                         | Vea una comparación detallada de presupuesto revisado, gastos reales, reservas de presupuesto y fondos de presupuestos disponibles para todas las cuentas                                                                                                                                                                                  |
 
-## <a name="opening-financial-reports"></a>Apertura de informes financieros
+## Apertura de informes financieros
+<a id="opening-financial-reports" class="xliff"></a>
 Al hacer clic en el menú **Informes financieros**, se muestra la lista de informes financieros predeterminado para la empresa. A continuación, puede abrir o modificar un informe. Para abrir uno de los informes predeterminados, seleccione el nombre del informe. La primera vez que se abre un informe, se genera automáticamente para el mes anterior. Por ejemplo, si abre un informe por primera vez en agosto de 2016, el informe se genera para el 31 de julio de 2016. Tras abrir un informe, puede empezar a explorarlo profundizando en fragmentos específicos de datos y cambiando las opciones de informe.
 
-## <a name="creating-and-modifying-financial-reports"></a>Creación y modificación de informes financieros
-A partir de la lista de informes financieros, puede crear un nuevo informe o modificar un informe existente. Si dispone de los permisos adecuados, puede crear un nuevo informe financiero haciendo clic en **Nuevo** del panel de acciones. Se descarga un programa del diseñador de informes en el dispositivo. Una vez iniciado el diseñador de informes, puede crear el nuevo informe. Tras guardar el nuevo informe, aparece en la lista de informes financieros. En la lista se muestran solo los informes que se crearon para la empresa que está usando en Microsoft Dynamics 365 for Operations. Para obtener más información sobre el proceso de creación y modificación de informes financieros en Dynamics 365 for Operations, consulte estos [artículos de blog](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) en el blog de informes financieros de Dynamics. **Nota:** El equipo en el que está descargando el cliente del diseñador de informes debe tener instalada la versión 4.6.2 del Microsoft .NET Framework. Esta versión de Microsoft .NET Framework puede descargarse e instalarse desde [aquí](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Si está usando Chrome, debe instalar una extensión ClickOnce para descargar el cliente del diseñador de informes. Si está ejecutando en modo ingógnito, asegúrese de que la extensión ClickOnce está activada para el modo incógnito. También puede modificar un informe que aparece en la lista de informes financieros. Cuando se seleccione el área alrededor del nombre del informe, haga clic en **Editar** en el Panel de acciones. Se inicia el programa del diseñador de informes.
+## Creación y modificación de informes financieros
+<a id="creating-and-modifying-financial-reports" class="xliff"></a>
+A partir de la lista de informes financieros, puede crear un nuevo informe o modificar un informe existente. Si dispone de los permisos adecuados, puede crear un nuevo informe financiero haciendo clic en **Nuevo** del panel de acciones. Se descarga un programa del diseñador de informes en el dispositivo. Una vez iniciado el diseñador de informes, puede crear el nuevo informe. Tras guardar el nuevo informe, aparece en la lista de informes financieros. En la lista se muestran solo los informes que se crearon para la empresa que está usando en Finance and Operations. Para obtener más información sobre el proceso de creación y modificación de informes financieros en Finance and Operations, consulte estos [artículos de blog](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) en el blog de informes financieros de Dynamics. **Nota:** El equipo en el que está descargando el cliente del diseñador de informes debe tener instalada la versión 4.6.2 del Microsoft .NET Framework. Esta versión de Microsoft .NET Framework puede descargarse e instalarse desde [aquí](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Si está usando Chrome, debe instalar una extensión ClickOnce para descargar el cliente del diseñador de informes. Si está ejecutando en modo ingógnito, asegúrese de que la extensión ClickOnce está activada para el modo incógnito. También puede modificar un informe que aparece en la lista de informes financieros. Cuando se seleccione el área alrededor del nombre del informe, haga clic en **Editar** en el Panel de acciones. Se inicia el programa del diseñador de informes.
 
-<a name="see-also"></a>Consulte también
+Consulte también
+<a id="see-also" class="xliff"></a>
 --------
 
 [Ver informes financieros](view-financial-reports.md)

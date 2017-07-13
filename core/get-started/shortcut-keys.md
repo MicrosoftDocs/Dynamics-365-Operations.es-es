@@ -1,15 +1,15 @@
 ---
 title: "Métodos abreviados de teclado"
-description: "Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynamics 365 for Operations."
+description: "Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynamics 365 for Finance and Operations."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
@@ -17,24 +17,26 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8daf9d0c5b83e3bca66c0229a328737adeeb2951
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
+# Métodos abreviados de teclado
+<a id="keyboard-shortcuts" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
 
-Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynamics 365 for Operations. 
+Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynamics 365 for Finance and Operations. 
 
 **Nota**: los métodos abreviados de teclado aquí descritos se refieren al diseño del teclado de Estados Unidos. Es posible que las teclas de otros diseños de teclados no se correspondan exactamente con las teclas de un teclado de Estados Unidos.
 
-## <a name="action-shortcuts"></a>Métodos abreviados de acción
+## Métodos abreviados de acción
+<a id="action-shortcuts" class="xliff"></a>
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | **Para realizar esta tarea**                                    | **Presionar**                        |
@@ -44,14 +46,15 @@ Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynam
 | Pasar a la opción anterior o siguiente en un menú            | Flecha abajo / Flecha arriba            |
 | Cerrar una ficha en el panel de acciones o un menú          | Esc                              |
 | Simular un clic con el botón secundario                            | Mayús+F10                        |
-| Abra el menú contextual de Dynamics 365 for Operations. | Ctrl+F10                         |
+| Abra el menú contextual de Finance and Operations | Ctrl+F10                         |
 | Ejecutar el botón predeterminado en un formulario/cuadro de diálogo       | Alt+Intro                        |
 | Hacer clic en un botón o un icono                            | Intro o Espacio                   |
 | Ver información actualizada de un icono de recuento         | Alt+Fecha arriba                     |
 
  
 
-## <a name="date-picker-shortcuts"></a>Métodos abreviados de selección de fecha
+## Métodos abreviados de selección de fecha
+<a id="date-picker-shortcuts" class="xliff"></a>
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Para realizar esta tarea**                        | **Presionar**                                 |
@@ -62,7 +65,8 @@ Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynam
 
  
 
-## <a name="factbox-shortcuts"></a>Métodos abreviados de cuadro informativo
+## Métodos abreviados de cuadro informativo
+<a id="factbox-shortcuts" class="xliff"></a>
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | Abrir el panel del cuadro informativo (o mover el enfoque al panel de cuadro informativo si ya está abierto) | Ctrl+F2                                   |
@@ -74,7 +78,8 @@ Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynam
 
  
 
-## <a name="filtering-shortcuts"></a>Métodos abreviados de filtrado
+## Métodos abreviados de filtrado
+<a id="filtering-shortcuts" class="xliff"></a>
 |                                                                                                                     |               |
 |---------------------------------------------------------------------------------------------------------------------|---------------|
 | **Para realizar esta tarea**                                                                                                      | **Presionar**     |
@@ -86,7 +91,8 @@ Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynam
 
  
 
-## <a name="form-shortcuts"></a>Métodos abreviado de formulario
+## Métodos abreviado de formulario
+<a id="form-shortcuts" class="xliff"></a>
 |                                                                                                                                 |                   |
 |---------------------------------------------------------------------------------------------------------------------------------|-------------------|
 | **Para realizar esta tarea**                                                                                                                  | **Presionar**         |
@@ -108,7 +114,8 @@ Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynam
 
  
 
-## <a name="form-navigation-shortcuts"></a>Métodos abreviados de navegación en formularios
+## Métodos abreviados de navegación en formularios
+<a id="form-navigation-shortcuts" class="xliff"></a>
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | **Para realizar esta tarea**                                      | **Presionar**                                    |
@@ -129,7 +136,8 @@ Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynam
 
  
 
-## <a name="grid-shortcuts"></a>Métodos abreviado de cuadrícula
+## Métodos abreviado de cuadrícula
+<a id="grid-shortcuts" class="xliff"></a>
 |                                                                                                               |                                 |
 |---------------------------------------------------------------------------------------------------------------|---------------------------------|
 | **Para realizar esta tarea**                                                                                                | **Presionar**                       |
@@ -147,7 +155,8 @@ Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynam
 
  
 
-## <a name="input-control-shortcuts"></a>Métodos abreviados de control de entrada de datos
+## Métodos abreviados de control de entrada de datos
+<a id="input-control-shortcuts" class="xliff"></a>
 |                                                            |                               |
 |------------------------------------------------------------|-------------------------------|
 | **Para realizar esta tarea**                                             | **Presionar**                     |
@@ -162,7 +171,8 @@ Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynam
 
  
 
-## <a name="messaging-shortcuts"></a>Métodos abreviados en mensajes
+## Métodos abreviados en mensajes
+<a id="messaging-shortcuts" class="xliff"></a>
 |                          |               |
 |--------------------------|---------------|
 | **Para realizar esta tarea**           | **Presionar**     |
@@ -171,7 +181,8 @@ Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynam
 
  
 
-## <a name="navigation-shortcuts"></a>Métodos abreviados de navegación
+## Métodos abreviados de navegación
+<a id="navigation-shortcuts" class="xliff"></a>
 |                                                                           |                 |
 |---------------------------------------------------------------------------|-----------------|
 | **Para realizar esta tarea**                                                            | **Presionar**       |
@@ -186,7 +197,8 @@ Los siguientes métodos abreviados de teclado se aplican en todo Microsoft Dynam
 
  
 
-## <a name="segmented-entry-shortcuts"></a>Métodos abreviados de entrada segmentados
+## Métodos abreviados de entrada segmentados
+<a id="segmented-entry-shortcuts" class="xliff"></a>
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | **Para realizar esta tarea**                                                                                                          | **Presione**                        |

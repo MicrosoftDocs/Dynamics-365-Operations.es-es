@@ -1,85 +1,98 @@
 ---
 title: "Espacio de trabajo móvil de control de costes"
-description: "Este tema proporciona información acerca del espacio de trabajo móvil de control de costes, que está disponible para la aplicación móvil Microsoft Dynamics 365 for Operations. Este espacio de trabajo permite a los administradores de un centro de coste ver información acerca del rendimiento del centro de coste en cualquier momento y cualquier lugar."
+description: "Este tema proporciona información sobre del espacio de trabajo móvil de Control de costes. Este espacio de trabajo permite a los administradores de un centro de coste ver información acerca del rendimiento del centro de coste en cualquier momento y cualquier lugar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 267114
 ms.assetid: 612f2988-b2b9-420d-9825-40b99dc0e204
 ms.search.region: global
-ms.author: yuyus
+ms.author: aevengir
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 09383c24b0dd2ad61a836f6c8dc97f4389915772
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: dbedf75a6f61a9e2bc644056f0dd1e7499cedc42
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="cost-controlling-mobile-workspace"></a>Espacio de trabajo móvil de control de costes
+# Espacio de trabajo móvil de control de costes
+<a id="cost-controlling-mobile-workspace" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
+Este tema proporciona información sobre del espacio de trabajo móvil de **Control de costes**. Este espacio de trabajo permite a los administradores de un centro de coste ver información acerca del rendimiento del centro de coste en cualquier momento y cualquier lugar.
 
-Este tema proporciona información acerca del espacio de trabajo móvil de control de costes, que está disponible para la aplicación móvil Microsoft Dynamics 365 for Operations. Este espacio de trabajo permite a los administradores de un centro de coste ver información acerca del rendimiento del centro de coste en cualquier momento y cualquier lugar. 
+Este espacio de trabajo móvil se debe usar con la aplicación móvil Microsoft Dynamics 365 for Unified Operations.
 
-<a name="overview-of-the-cost-controlling-mobile-workspace"></a>Visión general del espacio de trabajo móvil de control de costes
--------------------------------------------------
-
-El espacio de trabajo móvil **Control de costes** proporciona una vista inmediata del rendimiento actual de los centros de costes al comparar los costes reales con los costes presupuestados. Puede explorar en profundidad los estados de los elementos de coste individuales. 
+## Información general
+<a id="overview" class="xliff"></a>
+El espacio de trabajo móvil **Control de costes** proporciona una vista inmediata del rendimiento actual de los centros de costes al comparar los costes reales con los costes presupuestados. Puede explorar en profundidad el estado de los elementos de coste individuales.
 
 Por ejemplo, un empleado recibe una invitación para una conferencia internacional, pero la organización debe cubrir todos los gastos de viajes. El empleado pregunta a su director si puede asistir a la conferencia. El director abre rápidamente el espacio de trabajo móvil de **control de costes** en su teléfono móvil para ver si dispone de presupuesto para que el empleado asista a la conferencia.
 
-### <a name="data-security"></a>Seguridad de los datos
+### Seguridad de los datos
+<a id="data-security" class="xliff"></a>
+Los datos del espacio de trabajo móvil **Control de costes** están protegidos mediante credenciales de usuario. Los directores de los centros de coste pueden ver solo los datos de su propio centro de coste. La seguridad de nivel de acceso se administra en el módulo **Contabilidad de costes**.
 
-Los datos del espacio de trabajo móvil **Control de costes** están protegidos mediante credenciales de usuario. Los directores de los centros de coste pueden ver solo los datos de su propio centro de coste. La seguridad de nivel de acceso se administra en el módulo **Contabilidad de costes**. 
+Los contables de coste definen la configuración del espacio de trabajo móvil **Control de costes** en el módulo **Contabilidad de costes**. Una vez que se haya publicado el espacio de trabajo en la aplicación móvil, el espacio está disponible en la aplicación. Por lo tanto, todos los administradores de centro de coste de la organización pueden ver los datos en el mismo formato.
 
-Los contables de coste definen la configuración del espacio de trabajo móvil **Control de costes** en el módulo **Contabilidad de costes**. Una vez que se haya publicado el espacio de trabajo en la aplicación móvil Microsoft Dynamics 365 for Operations, el espacio está disponible en la aplicación. Por lo tanto, todos los administradores de centro de coste de la organización pueden ver los datos en el mismo formato.
-
-### <a name="actions-views-and-links"></a>Acciones, vistas y vínculos
-
-El espacio de trabajo móvil **Control de costes** para la aplicación Microsoft Dynamics 365 for Operations proporciona las siguientes acciones, vistas y vínculos:
+### Acciones, vistas y vínculos
+<a id="actions-views-and-links" class="xliff"></a>
+El espacio de trabajo móvil **Control costes** proporciona las acciones, las vistas y los vínculos siguientes:
 
 -   **Acciones:**
+
     -   Use **Seleccionar configuración** para seleccionar un diseño.
-    -   Use **Seleccionar objeto de coste** para seleccionar los centros de coste donde se filtrarán los datos. **Nota:** Los centros de coste que aparecen en la lista depende del acceso que se otorga en el módulo **Contabilidad de costes** .
--   **Vistas:** Según las acciones que se seleccionen y lo que se configure en el módulo **Contabilidad de costes**, puede visualizar la siguiente información en las tarjetas.
-    -   Valor real frente a presupuesto (período actual)
-    -   Valor real frente a presupuesto revisado (período actual)
+    -   Use **Seleccionar objeto de coste** para seleccionar los centros de coste donde se filtrarán los datos.
+    
+        > [!NOTE]
+        > Los centros de coste que aparecen en la lista depende del acceso que se otorga en el módulo **Contabilidad de costes**.
+
+-   **Vistas:** Según las acciones que se seleccionen y lo que se configure en el módulo **Contabilidad de costes**, puede visualizar la siguiente información en las tarjetas:
+
+    -   Real frente a presupuesto (periodo actual)
+    -   Real frente a presupuesto revisado (periodo actual)
     -   Valor real frente a presupuesto (período anterior)
     -   Valor real frente a presupuesto revisado (período anterior)
     -   Valor real frente a presupuesto (año hasta la fecha)
     -   Valor real frente a presupuesto revisado (año hasta la fecha)
 
     Los importes siguientes se muestran en cada tarjeta: real, presupuesto, desviación, y desviación en %.
+
 -   **Vínculos:**
+
     -   Detalles para el período actual
     -   Detalles para el período anterior
     -   Detalles para año hasta la fecha
 
-    Al seleccionar un vínculo, una tarjeta se muestra por cada artículo de coste. Los importes siguientes se muestran en todas las tarjetas: real, presupuesto, desviación de presupuesto, % de desviación de presupuesto, presupuesto revisado, desviación de presupuesto revisado y % de desviación de presupuesto revisado. 
+    Al seleccionar un vínculo, una tarjeta se muestra por cada artículo de coste. Los importes siguientes se muestran en todas las tarjetas: real, presupuesto, desviación de presupuesto, % de desviación de presupuesto, presupuesto revisado, desviación de presupuesto revisado y % de desviación de presupuesto revisado.
     
-    [![Tarjeta para un elemento de coste ](./media/cost-controlling.png)](./media/cost-controlling.png)
+    [![Tarjeta para un elemento de coste ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
-## <a name="prerequisites"></a>Requisitos previos
-Para poder usar el espacio de trabajo móvil **Control de costes** , asegúrese de que el administrador del sistema tenga los requisitos previos siguientes en vigor.
+## Requisitos previos
+<a id="prerequisites" class="xliff"></a>
+Los requisitos previos varían, en función de la versión de Microsoft Dynamics 365 que se ha implementado para su organización.
+
+### Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, actualización de julio 2017
+<a id="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update" class="xliff"></a>
+Si Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017) se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo del móvil **Control de costes**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+
+### Requisitos previos si usa Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior
+<a id="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later" class="xliff"></a>
+Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior para su organización, el administrador del sistema debe cumplir los requisitos previos siguientes.
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Requisito previo</th>
@@ -89,50 +102,47 @@ Para poder usar el espacio de trabajo móvil **Control de costes** , asegúrese 
 </thead>
 <tbody>
 <tr class="odd">
-<td>Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior debe estar implementado.</td>
+<td>Implementar 4013633 KB.</td>
 <td>Administrador del sistema</td>
-<td>Si todavía no tiene Dynamics 365 for Operations implementado en su organización, el administrador del sistema debería ver <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Implementar un entorno de demostración de Microsoft Dynamics 365 for Operations</a>.</td>
+
+<td>KB 4013633 es una sustitución de actualización o de metadatos X++ que contiene el espacio de trabajo móvil <strong>Control de costes</strong>. Para implementar KB 4013633, el administrador del sistema debe seguir estos pasos.
+<ol>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Descargar la revisión de metadatos en Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar la revisión de metadatos</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Crear un paquete desplegable</a> que contenga el modelo <strong>SCMMobile</strong> y luego cargar el paquete desplegable en LCS.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Aplicar el paquete implementable</a>.</li>
+
+</ol></td>
 </tr>
 <tr class="even">
-<td>KB 4013633 debe implementarse.</td>
+<td>Publique el espacio de trabajo móvil <strong>Control de costes</strong>.</td>
 <td>Administrador del sistema</td>
-<td>KB 4013633 (una revisión de metadatos o actualización de X++) contiene cuatro áreas de trabajo móviles para la gestión de cadenas de suministro. Para implementar KB 4013633, el administrador del sistema debe seguir estos pasos:
-<ol>
-<li>Descargar KB 4013633 de Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar la revisión de metadatos</a>.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Crear un paquete desplegable</a> que contenga el modelo <strong>SCMMobile</strong> y luego cargar el paquete desplegable en LCS.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Aplicar el paquete desplegable</a> a su sistema Dynamics 365 for Operations.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>El espacio de trabajo móvil <strong>Control de costes</strong> debe estar publicado en la aplicación móvil Dynamics 365 for Operations.</td>
-<td>Administrador del sistema</td>
-<td><ol>
-<li>Inicie Dynamics 365 for Operations en su explorador.</li>
-<li>En la página <strong>Parámetros del sistema</strong>, seleccione <strong>Gestionar espacios de trabajo móviles</strong>.</li>
-<li>Seleccione el espacio de trabajo <strong>Visión general del objeto de coste</strong>.</li>
-<li>Haga clic en <strong>Publicar espacio de trabajo móvil</strong>.</li>
-</ol></td>
+<td>Consulte <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar un espacio de trabajo móvil</a>.</td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Descargue e instale la aplicación móvil Dynamics 365 for Operations
-Descargue e instale la aplicación móvil Microsoft Dynamics 365 for Operations desde la tienda de aplicaciones móviles.
 
--   Para Android: [Dynamics 365 for Operations en Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
--   Para iPhone: [Dynamics 365 for Operations en la tienda de aplicaciones de iTunes](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
+## Descargar e instalar la aplicación móvil
+<a id="download-and-install-the-mobile-app" class="xliff"></a>
+Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
-## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>Inicie sesión en la aplicación móvil Dynamics 365 for Operations
+-   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
+
+## Iniciar sesión en la aplicación móvil
+<a id="sign-in-to-the-mobile-app" class="xliff"></a>
+
 1.  Inicie la aplicación en su dispositivo móvil.
-2.  Entre en la URL de Dynamics 365 for Operations.
-3.  Escriba la empresa en la que va a iniciar sesión. Por ejemplo, escriba **USMF**.
-4.  La primera vez que inicia sesión, se le pedirá el nombre de usuario y la contraseña de su cuenta Dynamics 365 for Operations. Escriba sus credenciales.
-5.  Tras iniciar sesión, verá los espacios de trabajo disponibles para su empresa. Tenga en cuenta que si el administrador del sistema más adelante publica un nuevo espacio de trabajo, puede tocar la pantalla para actualizar la lista de espacios de trabajo móviles. 
+2.  Escriba la URL de Dynamics 365.
+3.  La primera vez que se inicie sesión, se le solicitará su nombre de usuario y contraseña. Escriba sus credenciales.
+4.  Tras iniciar sesión, se mostrarán los espacios de trabajo disponibles para su empresa. Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, tendrá que actualizar la lista de espacios de trabajo móviles.
 
-    [![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
-## <a name="view-the-performance-of-your-cost-center-by-using-the-cost-controlling-mobile-workspace"></a>Visualizar el rendimiento del centro de coste según el espacio de trabajo móvil de control de costes
+## Visualizar el rendimiento del centro de coste según el espacio de trabajo móvil de control de costes
+<a id="view-the-performance-of-your-cost-center-by-using-the-cost-controlling-mobile-workspace" class="xliff"></a>
+
 1.  En el dispositivo móvil, seleccione el espacio de trabajo **Control de costes**.
 2.  Seleccione **Control de objeto de coste**.
 3.  Seleccione **Acciones**.
@@ -145,8 +155,5 @@ Descargue e instale la aplicación móvil Microsoft Dynamics 365 for Operations 
 10. Seleccione el vínculo **Detalles para el período actual** .
 11. Visualice el rendimiento de los elementos de coste individuales.
 12. También puede buscar elementos de coste específicos.
-
-
-
 
 

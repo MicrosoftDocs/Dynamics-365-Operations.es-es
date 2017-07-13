@@ -114,7 +114,7 @@ Esta documentación puede ayudarle a obtener información sobre cómo hacer que 
 <p><a href="../retail/call-center-functionality">Centro de llamadas</p>
 <p><a href="../retail/define-maintain-retail-channels">Configuración y administración de canales</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS y Cloud POS</p>
-<p><a href="../retail/dev-itpro/dev-retail-home-page">Desarrollador y administración comercial</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">Desarrollador y administración de Retail</p>
 
 </td>
 </tr>

@@ -1,39 +1,42 @@
 ---
 title: Configurar opciones de procesamiento de pedidos
-description: "Este tema proporciona información relativa a cómo procesar los pedidos para los centros de llamadas mediante la venta minorista y comercio en Microsoft Dynamics 365 for Operations - Retail."
+description: "Este tema proporciona información relativa a cómo procesar los pedidos para los centros de llamadas mediante la venta minorista y comercio en Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 78973
 ms.assetid: 09fca083-ac0d-4f30-baf2-bb00a626be12
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 52b56274c8b72c67bc0a50f23114cebc510f1667
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: afdea84b7016fcc3214dc94f2d393a5f3d256370
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="set-up-order-processing-options"></a>Configurar opciones de procesamiento de pedidos
+# Configurar opciones de procesamiento de pedidos
+<a id="set-up-order-processing-options" class="xliff"></a>
 
 [!include[banner](includes/banner.md)]
 
 
-Este tema proporciona información relativa a cómo procesar los pedidos para los centros de llamadas mediante la venta minorista y comercio en Microsoft Dynamics 365 for Operations - Retail. 
+Este tema proporciona información relativa a cómo procesar los pedidos para los centros de llamadas mediante la venta minorista y comercio en Microsoft Dynamics 365 for Retail. 
 
-Venta minorista y comercio en Dynamics 365 for Operations admite varios canales de venta, como tiendas en línea, almacenes físicos y centros de llamadas. En los centros de llamadas, los trabajadores realizan pedidos de clientes por teléfono y crean pedidos de ventas. En este tema se describe cómo crear un centro de llamadas y configurar sus opciones. Cada centro de llamadas puede tener sus propios usuarios, métodos de pago, grupos de precios, dimensiones financieras y modos de entrega. Puede configurar estas opciones cuando crea el centro de llamadas. **Importante:** para que los flujos de trabajo del centro de llamadas se puedan usar cuando el usuario actual de Dynamics AX crea pedidos de ventas, se debe asignar al usuario al centro de llamadas como usuario del centro de llamadas. Puede usar la página **Centro de llamadas** para habilitar o deshabilitar grupos de funcionalidades que son únicas a los centros de llamadas. Los siguientes grupos de características se pueden habilitar:
+Retail admite varios canales de venta, como tiendas en línea, almacenes físicos y centros de llamadas. En los centros de llamadas, los trabajadores realizan pedidos de clientes por teléfono y crean pedidos de ventas. En este tema se describe cómo crear un centro de llamadas y configurar sus opciones. Cada centro de llamadas puede tener sus propios usuarios, métodos de pago, grupos de precios, dimensiones financieras y modos de entrega. Puede configurar estas opciones cuando crea el centro de llamadas. **Importante:** para que los flujos de trabajo del centro de llamadas se puedan usar cuando un usuario crea pedidos de ventas, se debe asignar al usuario al centro de llamadas como usuario del centro de llamadas. Puede usar la página **Centro de llamadas** para habilitar o deshabilitar grupos de funcionalidades que son únicas a los centros de llamadas. Los siguientes grupos de características se pueden habilitar:
 
 -   **Finalización del pedido:** este grupo incluye características relacionadas con los pagos y la finalización del pedido en la página **Pedido de ventas**.
 -   **Venta dirigida:** este grupo incluye características relacionadas con los códigos fuente, las secuencias de comandos las y solicitudes del catálogo.

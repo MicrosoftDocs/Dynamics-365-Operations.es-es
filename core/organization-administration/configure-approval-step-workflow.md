@@ -3,13 +3,13 @@ title: "Configuración de un paso de aprobación en un flujo de trabajo"
 description: "Este tema explica cómo configurar las propiedades de un paso de aprobación."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192161
 ms.assetid: 8b478e3d-d6b4-403b-aae0-f639a71ca36c
 ms.search.region: Global
@@ -17,15 +17,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1924562f866ecdbb6fa6d3d0a9dc7627387f2d6a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 61b3107516c7af8d1c0f4c427bdffa9be0fbc18d
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="configure-an-approval-step-in-a-workflow"></a>Configuración de un paso de aprobación en un flujo de trabajo
+# Configuración de un paso de aprobación en un flujo de trabajo
+<a id="configure-an-approval-step-in-a-workflow" class="xliff"></a>
 
 [!include[banner](../includes/banner.md)]
 
@@ -34,13 +35,15 @@ Este tema explica cómo configurar las propiedades de un paso de aprobación.
 
 Para configurar un paso de aprobación en el editor de flujo de trabajo, haga clic con el botón secundario en el paso de aprobación y, a continuación, haga clic en **Propiedades** para abrir la página **Propiedades**. A continuación, use los siguientes procedimientos para configurar las propiedades del paso de aprobación.
 
-## <a name="name-the-step"></a>Asignación de un nombre al paso
+## Asignación de un nombre al paso
+<a id="name-the-step" class="xliff"></a>
 Siga estos pasos para asignar un nombre al paso de aprobación.
 
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
 2.  En el campo **Nombre**, especifique un nombre único para la etapa de aprobación.
 
-## <a name="enter-a-subject-line-and-instructions"></a>Especificación de una línea de asunto e instrucciones
+## Especificación de una línea de asunto e instrucciones
+<a id="enter-a-subject-line-and-instructions" class="xliff"></a>
 Debe proporcionar una línea de asunto e instrucciones a los usuarios que están asignados al paso de aprobación. Por ejemplo, si configura un paso de aprobación para solicitudes de compra, el usuario asignado a él ve la línea de asunto y las instrucciones en la página **Solicitudes de compra**. La línea de asunto se muestra en una barra de mensajes de la página. A continuación, el usuario puede hacer clic en el icono de dicha barra para ver las instrucciones. Siga estos pasos para escribir una línea de asunto e instrucciones.
 
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
@@ -74,7 +77,8 @@ Debe proporcionar una línea de asunto e instrucciones a los usuarios que están
     5.  Para personalizar el texto, puede insertar marcadores de posición como se describe en el paso 6.
     6.  Haga clic en **Cerrar**.
 
-## <a name="assign-the-approval-step"></a>Asignación del paso de aprobación
+## Asignación del paso de aprobación
+<a id="assign-the-approval-step" class="xliff"></a>
 Siga estos pasos para especificar a quién se debe asignar el paso de aprobación.
 
 1.  En el panel izquierdo, haga clic en **Asignación**.
@@ -126,10 +130,10 @@ Siga estos pasos para especificar a quién se debe asignar el paso de aprobació
     </tr>
     <tr class="even">
     <td>Usuario</td>
-    <td>Usuarios específicos de Microsoft Dynamics 365 for Operations</td>
+    <td>Usuarios específicos de Microsoft Dynamics 365 for Finance and Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea asignar el paso y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Finance and Operations. Seleccione aquellos a los que desea asignar el paso y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -153,17 +157,20 @@ Siga estos pasos para especificar a quién se debe asignar el paso de aprobació
         -   Si tanto Sue como Jo aprueban el documento, se lo envía a Ann para que lo apruebe.
     -   **Todos los aprobadores**: todos los aprobadores deben aprobar el documento; de lo contrario, el flujo de trabajo no podrá continuar. Por ejemplo, supongamos que Sam ha enviado un informe de gastos por un total de 15.000 USD. En este momento, el informe de gastos está asignado a Sue, Jo y Bill. Si Sue y Jo aprueban el documento pero Bill lo rechaza, el documento se rechaza y se vuelve a enviar a Sam. Si Sue, Jo y Bill aprueban el documento, se lo envía a Ann para que lo apruebe.
 
-## <a name="specify-when-the-approval-step-is-required"></a>Especificación de las condiciones en que se requiere el paso de aprobación
+## Especificación de las condiciones en que se requiere el paso de aprobación
+<a id="specify-when-the-approval-step-is-required" class="xliff"></a>
 Puede especificar cuándo se requiere el paso de aprobación. El paso de aprobación se puede requerir siempre o solo si se cumplen determinadas condiciones.
 
-### <a name="the-approval-step-is-always-required"></a>El paso de aprobación se requiere siempre
+### El paso de aprobación se requiere siempre
+<a id="the-approval-step-is-always-required" class="xliff"></a>
 
 Siga estos pasos si el paso de aprobación se requiere siempre.
 
 1.  En el panel izquierdo, haga clic en **Condición**.
 2.  Seleccione la opción **Ejecutar siempre este paso**.
 
-### <a name="the-approval-step-is-required-in-specific-conditions"></a>El paso de aprobación se requiere en condiciones específicas
+### El paso de aprobación se requiere en condiciones específicas
+<a id="the-approval-step-is-required-in-specific-conditions" class="xliff"></a>
 
 Es posible que el paso de aprobación que está configurando se requiera solo si se cumplen determinadas condiciones. Por ejemplo, si está configurando un paso de aprobación para un flujo de trabajo de solicitudes de compra, es posible que desee que el paso de aprobación se lleve a cabo solamente cuando el importe de una solicitud de compra sea superior a 10.000 USD. Siga estos pasos para especificar cuándo se requiere el paso de aprobación.
 
@@ -177,7 +184,8 @@ Es posible que el paso de aprobación que está configurando se requiera solo si
     3.  Haga clic en **Probar**. El sistema evalúa el registro seleccionado para determinar si reúne las condiciones definidas.
     4.  Haga clic en **Aceptar** o en **Cancelar** para regresar a la página **Propiedades**.
 
-## <a name="specify-what-happens-when-the-document-is-overdue"></a>Especificación de la acción que se realiza cuando vence el documento
+## Especificación de la acción que se realiza cuando vence el documento
+<a id="specify-what-happens-when-the-document-is-overdue" class="xliff"></a>
 Si un usuario no realiza ninguna acción en un documento en el tiempo asignado, el documento se considera vencido. Los documentos vencidos se pueden remitir a una instancia superior o asignar a otro usuario de forma automática para que los apruebe. Si el documento ha vencido, siga estos pasos para remitirlo a una instancia superior.
 
 1.  En el panel izquierdo, haga clic en **Remisión a una instancia superior**.
@@ -229,10 +237,10 @@ Si un usuario no realiza ninguna acción en un documento en el tiempo asignado, 
     </tr>
     <tr class="odd">
     <td>Usuario</td>
-    <td>Usuarios específicos de Dynamics 365 for Operations</td>
+    <td>Usuarios específicos de Finance and Operations</td>
     <td><ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Operations. Seleccione aquellos a los que desea remitir el documento para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Finance and Operations. Seleccione aquellos a los que desea remitir el documento para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

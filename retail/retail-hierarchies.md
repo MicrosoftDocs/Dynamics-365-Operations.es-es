@@ -1,42 +1,45 @@
 ---
 title: "Jerarquías comerciales"
-description: "Este artículo describe jerarquías comerciales en Microsoft Dynamics AX."
+description: "Este artículo describe jerarquías comerciales en Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 15851
 ms.assetid: dfa11d41-2a0c-4cde-99b6-058c49176c94
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2544b299267ec6e21adf5c657c23f545fc66a0b3
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: a425680fb4d2e2da8d96acd843694ea9a07e29f0
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="retail-hierarchies"></a>Jerarquías comerciales
+# Jerarquías comerciales
+<a id="retail-hierarchies" class="xliff"></a>
 
 [!include[banner](includes/banner.md)]
 
 
-Este artículo describe jerarquías comerciales en Microsoft Dynamics AX.
+Este artículo describe jerarquías comerciales en Microsoft Dynamics 365 for Retail.
 
 Puede crear una jerarquía de categoría comercial para organizar los productos que vende a través de los canales comerciales. Puede usar jerarquías de productos comerciales para categorizar o agrupar productos. Puede usar estos productos para crear selecciones de productos y programas de fidelización de clientes. También puede asignar propiedades y atributos de productos, asignar una estructura de precios, incluir los productos en las promociones de producto y usar los productos para crear informes. Puede crear una jerarquía de categoría comercial que represente todos los productos y categorías de la organización y, a continuación, utilizar dicha jerarquía de categoría con distintos fines. Como alternativa, puede crear varias jerarquías de categoría comercial para fines especiales, tales como promociones de productos. Al crear una jerarquía de productos comerciales, debe asignar un tipo de jerarquía de categoría para identificar el propósito de la jerarquía de categoría. Por ejemplo, solo se hace referencia a las jerarquías de productos que tienen el tipo **Jerarquía de navegación comercial** asignado al examinar productos por categoría en línea o en el punto de venta (POS).
 
-## <a name="retail-hierarchy-types"></a>Tipos de jerarquía comercial
+## Tipos de jerarquía comercial
+<a id="retail-hierarchy-types" class="xliff"></a>
 La siguiente tabla enumera los tipos de jerarquías de categorías comerciales disponibles y los fines generales de cada tipo.
 
 | Tipo de jerarquía de categorías       | Propósito                                                                                                                                                                                                                                                                                                            |
