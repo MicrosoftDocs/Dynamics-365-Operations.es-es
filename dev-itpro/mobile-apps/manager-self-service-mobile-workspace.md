@@ -9,10 +9,11 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: sericks
 ms.search.scope: Talent, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: shielas
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,8 +23,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Espacio de trabajo móvil Mi equipo
-<a id="my-team-mobile-workspace" class="xliff"></a>
+# <a name="my-team-mobile-workspace"></a>Espacio de trabajo móvil Mi equipo
 
 [!include[banner](../includes/banner.md)]
 
@@ -31,8 +31,7 @@ Este tema proporciona información sobre del espacio de trabajo móvil **Mi equi
 
 Este espacio de trabajo móvil se debe usar con la aplicación móvil Microsoft Dynamics 365 for Unified Operations.
 
-## Información general
-<a id="overview" class="xliff"></a> 
+## <a name="overview"></a>Información general 
 El espacio de trabajo móvil **Mi equipo** permite a los administradores realizar las tareas siguientes:
 
 - Ver una lista de los subordinados directos de los directores.
@@ -40,8 +39,7 @@ El espacio de trabajo móvil **Mi equipo** permite a los administradores realiza
 - Ver información detallada para cada miembro del equipo, como la fecha de nacimiento, la fecha de antigüedad, los años de servicio e información sobre compensaciones y rendimiento.
 - Envíe elogios a otras a una personas en el equipo subordinado ampliado.
 
-## Requisitos previos
-<a id="prerequisites" class="xliff"></a>
+## <a name="prerequisites"></a>Requisitos previos
 Para poder usar este espacio de trabajo móvil, antes debe satisfacer los siguientes requisitos previos:
 
 <table>
@@ -71,16 +69,14 @@ Para poder usar este espacio de trabajo móvil, antes debe satisfacer los siguie
 </tbody>
 </table>
 
-## Descargar e instalar la aplicación móvil
-<a id="download-and-install-the-mobile-app" class="xliff"></a>
+## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
 
 Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 -   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## Iniciar sesión en la aplicación móvil
-<a id="sign-in-to-the-mobile-app" class="xliff"></a>
+## <a name="sign-in-to-the-mobile-app"></a>Iniciar sesión en la aplicación móvil
 1.  Inicie la aplicación en su dispositivo móvil.
 2.  Escriba la dirección URL de Microsoft Dynamics 365.
 3.  La primera vez que se inicie sesión, se le solicitará su nombre de usuario y contraseña. Escriba sus credenciales.
@@ -88,19 +84,16 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 [![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
-## Ver los miembros del equipo utilizando el espacio de trabajo móvil Mi equipo
-<a id="view-team-members-by-using-the-my-team-mobile-workspace" class="xliff"></a>
+## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>Ver los miembros del equipo utilizando el espacio de trabajo móvil Mi equipo
 1.  En la aplicación móvil, seleccione el espacio de trabajo **Mi equipo**. Aparece una lista de los miembros. La lista también muestra el puesto de cada miembro del equipo y los subordinados directos que tenga.
 2.  Seleccione un miembro del equipo. Aparece la página **Resumen del miembro del equipo**. La información de esta página incluye la fecha de nacimiento del miembro del equipo, la fecha de antigüedad, los años de servicio, los años en su puesto actual y la información de compensación.
 
-## Ver los miembros del equipo ampliado utilizando el espacio de trabajo móvil Mi equipo
-<a id="view-extended-team-members-by-using-the-my-team-mobile-workspace" class="xliff"></a>
+## <a name="view-extended-team-members-by-using-the-my-team-mobile-workspace"></a>Ver los miembros del equipo ampliado utilizando el espacio de trabajo móvil Mi equipo
 1.  En la aplicación móvil, seleccione el espacio de trabajo **Mi equipo**. Aparece una lista de los miembros. La lista también muestra el puesto de cada miembro del equipo y los subordinados directos que tenga.
 1.  Seleccione el vínculo **Subordinados directos**. Aparece una lista del equipo ampliado.
 1.  Seleccione un miembro del equipo. Aparece la página **Resumen del miembro del equipo**. La información de esta página incluye la fecha de nacimiento del miembro del equipo, la fecha de antigüedad, los años de servicio, los años en su puesto actual y la información de compensación.
 
-## Enviar elogios a los miembros del equipo utilizando el espacio de trabajo móvil Mi equipo
-<a id="send-praise-about-team-members-by-using-the-my-team-mobile-workspace" class="xliff"></a>
+## <a name="send-praise-about-team-members-by-using-the-my-team-mobile-workspace"></a>Enviar elogios a los miembros del equipo utilizando el espacio de trabajo móvil Mi equipo
 1.  En la aplicación móvil, seleccione el espacio de trabajo **Mi equipo**. Aparece una lista de los miembros. La lista también muestra el puesto de cada miembro del equipo y los subordinados directos que tenga.
 1.  Seleccione un miembro del equipo. Aparece la página **Resumen del miembro del equipo**.
 1.  Seleccione **Enviar elogio**. 

@@ -10,13 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72004
 ms.assetid: 916707c9-1333-460f-a0fa-4e95f6fda2ad
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: roxanad
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -24,11 +25,9 @@ ms.openlocfilehash: 6b4498ae05b9495918c0a079cc88903820192a59
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Visión general de previsión de la demanda
-<a id="demand-forecasting-overview" class="xliff"></a>
+# <a name="demand-forecasting-overview"></a>Visión general de previsión de la demanda
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,8 +36,7 @@ La previsión de demanda se usa para predecir demanda independiente de pedidos d
 
 Para generar la previsión de línea base, un resumen de transacciones históricas se transfiere a un servicio de aprendizaje automático de Microsoft Azure que está hospedado en Azure. Dado que este servicio no se comparte entre usuarios, puede ser personalizado fácilmente para cumplir los requisitos específicos del sector. Puede usar Finance and Operations para visualizar la previsión, ajustar la previsión y visualizar los indicadores claves de rendimiento (KPI) acerca de la precisión de la previsión.
 
-## Características clave de previsión de demanda
-<a id="key-features-of-demand-forecasting" class="xliff"></a>
+## <a name="key-features-of-demand-forecasting"></a>Características clave de previsión de demanda
 Estas son algunas de las características principales de la previsión de demanda:
 
 -   Generación de una previsión estadística de línea base basada en datos históricos.
@@ -48,8 +46,7 @@ Estas son algunas de las características principales de la previsión de demand
 -   Eliminación de valores atípicos.
 -   Crear medidas de precisión de la previsión.
 
-## Temas principales en la previsión de demanda
-<a id="major-themes-in-demand-forecasting" class="xliff"></a>
+## <a name="major-themes-in-demand-forecasting"></a>Temas principales en la previsión de demanda
 Se implementan tres temas principales en la previsión de demanda:
 
 -   **Modularidad:** la previsión de demanda es modular y fácil de configurar. Puede activar y desactivar la funcionalidad cambiando la clave de configuración en **Comercio** &gt; **Previsión de inventario** &gt; **Previsión de demanda**.
@@ -60,8 +57,7 @@ Se implementan tres temas principales en la previsión de demanda:
     -   Si no necesita alto rendimiento, o si no necesita procesar grandes cantidades de datos, puede usar el nivel libre de aprendizaje automático. Recomendamos que comience siempre desde este nivel, especialmente durante las fases de implementación y de pruebas. Si necesita un rendimiento más alto y almacenamiento adicional, puede usar el nivel estándar de aprendizaje automático. Este nivel requiere una suscripción a Azure e implica costes adicionales. Para obtener más información sobre los precios de Aprendizaje automático, consulte <http://aka.ms/machine-learning-price-info>.
 -   **Reducción de previsión en cualquier momento de desemparejamiento:** previsión de demanda en Finance and Operations en esta función, que le permite realizar una previsión de demanda dependiente e independiente en cualquier momento de desemparejamiento.
 
-## Flujo básico en la previsión de demanda
-<a id="basic-flow-in-demand-forecasting" class="xliff"></a>
+## <a name="basic-flow-in-demand-forecasting"></a>Flujo básico en la previsión de demanda
 En el siguiente diagrama se muestra el flujo de básico en la previsión de la demanda. 
 
 [![diagrama de introducción a la previsión de la demanda](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
@@ -74,12 +70,10 @@ Las previsiones, los datos históricos y los cambios que se hayan realizado a l
 
 Puede usar Finance and Operations para visualizar y modificar las previsiones de línea base. Los ajustes manuales deben estar autorizados antes de que las previsiones se puedan utilizar para la planificación.
 
-## Limitaciones
-<a id="limitations" class="xliff"></a>
+## <a name="limitations"></a>Limitaciones
 La previsión de demanda en Finance and Operations es una herramienta que ayuda a los clientes en el sector de fabricación a crear procesos de previsión. Ofrece la función básica de una solución de previsión de demanda y se diseña de modo que pueda extenderse fácilmente. La previsión de demanda puede qeue no sea el mejor ajuste para clientes en sectores como venta minorista, venta al por mayor, almacenamiento, transporte u otros servicios profesionales.
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Configuración de la previsión de la demanda](demand-forecasting-setup.md)

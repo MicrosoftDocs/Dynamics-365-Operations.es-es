@@ -9,13 +9,14 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: sericks
 ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 270314
 ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -23,24 +24,20 @@ ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Contenido de gestión de costes en Power BI
-<a id="cost-management-power-bi-content" class="xliff"></a>
+# <a name="cost-management-power-bi-content"></a>Contenido de gestión de costes en Power BI
 
 [!include[banner](../includes/banner.md)]
 
 
 Este tema describe lo que se incluye en el contenido de gestión de costes en Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
-# Visión general
-<a id="overview" class="xliff"></a>
+# <a name="overview"></a>Visión general
 
 El contenido de **gestión de costes** en Microsoft Power BI está destinado a los contables de inventario o a los individuos de la organización responsables del inventario. El contenido de **gestión de costes** en Power BI proporciona información administrativa de inventario y de inventario del trabajo en curso y explica cómo el coste fluye por categoría en el tiempo. La información se puede usar como suplemento detallado del informe financiero.
 
-## Medidas clave
-<a id="key-measures" class="xliff"></a>
+## <a name="key-measures"></a>Medidas clave
 
 + Saldo inicial
 + Saldo final
@@ -48,19 +45,16 @@ El contenido de **gestión de costes** en Microsoft Power BI está destinado a l
 + Cambio neto en %
 + Vencimiento
 
-## Indicadores clave de rendimiento
-<a id="key-performance-indicators" class="xliff"></a>
+## <a name="key-performance-indicators"></a>Indicadores clave de rendimiento
 + Rotación de inventario
 + Precisión del inventario
 
 El origen de datos principal para CostAggregatedCostStatementEntryEntity es la tabla CostStatementCache. Esta tabla se gestiona a través del marco de caché del conjunto de datos. De forma predeterminada, la tabla se actualiza cada 24 horas, pero puede habilitar actualizaciones manuales en la configuración de la caché de datos. Puede realizar entonces una actualización manual en el área de trabajo **Gestión de costes** o **Análisis de coste**. Una vez ejecutada la actualización de CostStatementCache, debe actualizar la conexión de OData en Power BI.com para ver los datos actualizados en el sitio. Las medidas de desviación (compra, producción) en este contenido de Power BI pertenecen a solo los artículos que se han evaluado por el método de inventario de coste estándar. La desviación de producción se calcula como la diferencia entre el coste activo y el coste realizado. Se calcula la desviación de producción cuando el pedido de producción tiene el estado **Finalizado**. Para obtener más información sobre los tipos de desviación de producción y cómo cada tipo se calcula, consulte [Acerca del análisis de desviaciones de un pedido de producción completado](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
-## Acceso al contenido de Power BI
-<a id="accessing-the-power-bi-content" class="xliff"></a>
+## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 El contenido de **gestión de costes** en Power BI está disponible en PowerBI.com. Para obtener más información sobre cómo conectar y cargar los datos de Microsoft Dynamics 365 for Finance and Operations, consulte [Acceso al contenido de Power BI en PowerBI.com](power-bi-home-page.md).
 
-## Métricas que se incluyen en el contenido de Power BI
-<a id="metrics-that-are-included-in-the-power-bi-content" class="xliff"></a>
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
 El contenido incluye un conjunto de páginas de informe. Cada página consta de un conjunto de métricas que se visualizan como gráficos, mosaicos y tablas. La tabla siguiente proporciona una visión general de las visualizaciones en el contenido de **gestión de costes** en Power BI.
 
 | Página de informes | Gráficos | Cargos |
@@ -89,8 +83,7 @@ El contenido incluye un conjunto de páginas de informe. Cada página consta de 
 | |Cambio neto de trabajo en curso por nombre de sitio y nombre de categoría nivel 2 | |
 | |Desviaciones de producción por nombre de sitio y nombre de categoría nivel 3 | |
 
-## Comprensión del modelo de datos y de las entidades
-<a id="understanding-the-data-model-and-entities" class="xliff"></a>
+## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 Finance and Operations se usan para rellenar las páginas de informes en el contenido de **gestión de costes** en Power BI. Estos datos se representan como medidas globales que se realizan en el almacén de la entidad, que es una base de datos de Microsoft SQL que se optimiza para análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md). Las siguientes medidas agregadas clave se usan como la base del contenido.
 
 | Entidad            | Medida agregada clave | Origen de datos para Finance and Operations | Campo             | Descripción                       |
@@ -143,8 +136,7 @@ Las dimensiones clave siguientes se utilizan como filtros para cortar las medida
 | Libros mayores          | Divisa, nombre, descripción                  |
 | Sitios            | Identificador, nombre, país, ciudad                      |
 
-## Recursos adicionales
-<a id="additional-resources" class="xliff"></a>
+## <a name="additional-resources"></a>Recursos adicionales
 Estos son algunos vínculos útiles relacionados con las entidades y la creación de contenido de Power BI:
 
 -   [Entidades de datos](..\data-entities\data-entities.md)

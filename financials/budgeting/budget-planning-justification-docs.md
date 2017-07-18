@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 259594
 ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
 ms.search.region: Global
 ms.author: ryansand
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,11 +23,9 @@ ms.openlocfilehash: 1d23c0e1725a39d25d2be8971f541b2c31bbe859
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Planificación presupuestaria para documentos de justificación
-<a id="budget-planning-justification-documents" class="xliff"></a>
+# <a name="budget-planning-justification-documents"></a>Planificación presupuestaria para documentos de justificación
 
 [!include[banner](../includes/banner.md)]
 
@@ -35,8 +34,7 @@ Los documentos de justificación proporcionan una descripción para aquellos que
 
 El administrador presupuestario crea una plantilla del plan presupuestario en Microsoft Word y la asigna al proceso de planificación presupuestaria actual. A continuación, los propietarios de presupuesto pueden abrir la plantilla y tener los datos rellenados automáticamente en Word en función de su solicitud de presupuesto. Posteriormente, pueden agregar texto o datos adicionales antes de guardar y adjuntar el documento de justificación personalizado a su plan presupuestario.
 
-##### Configure el complemento de Microsoft Dynamics Office para Microsoft Word
-<a id="set-up-microsoft-dynamics-office-add-in-for-microsoft-word" class="xliff"></a>
+##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Configure el complemento de Microsoft Dynamics Office para Microsoft Word
 
 1.  Abra un nuevo documento de Microsoft Word.
 2.  Haga clic en **Insertar** en la cinta de opciones y haga clic en **Tienda**.
@@ -44,8 +42,7 @@ El administrador presupuestario crea una plantilla del plan presupuestario en Mi
 4.  En Word, en el panel derecho, haga clic en **Agregar información de servidor**.
 5.  Escriba o pegue la dirección URL del servidor y haga clic en **Aceptar**.
 
-##### Defina la plantilla de justificación en Microsoft Word
-<a id="define-the-justification-template-in-microsoft-word" class="xliff"></a>
+##### <a name="define-the-justification-template-in-microsoft-word"></a>Defina la plantilla de justificación en Microsoft Word
 
 1.  Haga clic en **Diseño** en el complemento de Microsoft Dynamics Office una vez que haya iniciado sesión.
 2.  Para obtener información del encabezado, utilice el botón **Agregar campos**.
@@ -58,8 +55,7 @@ El administrador presupuestario crea una plantilla del plan presupuestario en Mi
 9.  Agregue cualquier instrucción adicional para proporcionar al usuario final y realice cualquier formato o estilo necesario al documento.
 10. Guarde el documento en su equipo local y cierre el archivo antes de continuar.
 
-##### Configure el proceso de planificación presupuestaria para usar la plantilla de justificación
-<a id="set-up-the-budget-planning-process-to-use-the-justification-template" class="xliff"></a>
+##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Configure el proceso de planificación presupuestaria para usar la plantilla de justificación
 
 1.  En Finance and Operations, vaya a **Gestión presupuestaria** &gt; **Configuración** &gt; **Planificación presupuestaria** &gt; **Plantillas de documento de justificación**.
 2.  Haga clic **Nuevo** y busque su documento de Microsoft Word recién creado.
@@ -68,8 +64,7 @@ El administrador presupuestario crea una plantilla del plan presupuestario en Mi
 5.  Seleccione el proceso en el que debe utilizarse la plantilla de justificación y haga clic en **Editar**.
 6.  En el campo **Plantilla de documento de justificación**, seleccione la plantilla adecuada y guarde.
 
-##### Edite y guarde los documentos de justificación personalizados
-<a id="edit-and-save-personalized-justification-documents" class="xliff"></a>
+##### <a name="edit-and-save-personalized-justification-documents"></a>Edite y guarde los documentos de justificación personalizados
 
 1.  En Finance and Operations, cree un nuevo plan presupuestario o abra un plan presupuestario existente.
 2.  En el menú desplegable **Justificación**, seleccione **Crear nueva justificación**.

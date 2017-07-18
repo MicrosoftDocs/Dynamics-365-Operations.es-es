@@ -10,13 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -24,11 +25,9 @@ ms.openlocfilehash: 9dbbe540c919d27bafcc10614f308e5b6ba313f1
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Planificación modo mezcla: combinar abastecimiento producción ajustada, proceso y discreto
-<a id="mixed-mode-planning---combine-discrete-process-and-lean-sourcing" class="xliff"></a>
+# <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Planificación modo mezcla: combinar abastecimiento producción ajustada, proceso y discreto
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,8 +40,7 @@ Por ejemplo, puede tener control de kanban en el ensamblado, donde los materiale
 
 La granularidad de las directivas de suministro que se usan en la programación maestra depende de las dimensiones de almacenamiento que se habilitan como dimensiones de cobertura. Para permitir que la programación maestra controle el reabastecimiento y el suministro de distintos tipos de ubicaciones (por ejemplo, separando la planta de producción para distintas unidades de producción o separando diferentes tipos de materiales y almacenes de mercancías terminadas), se recomienda que habilite el sitio y el almacén como dimensiones de cobertura. De manera alternativa, el almacén se puede anular como dimensión de cobertura. En ese caso, cuando se usa la gestión de almacenes avanzada, todos los movimientos dentro de un almacén se controlan por el trabajo del almacén, mientras que todos los movimientos de un almacén a otro pueden ser controlados por kanban de retirada.
 
-## Directivas de suministro
-<a id="supply-policies" class="xliff"></a>
+## <a name="supply-policies"></a>Directivas de suministro
 La planificación modo mezcla de Finance and Operations controla el modo de suministrar un producto y, en función del suministro, el modo de emisión de los requisitos derivados (consumo de artículos de una lista de materiales \[L. MAT\]). Según el tipo de pedido, el sistema automáticamente suministra materiales para que coincidan con los requisitos.  
 
 Las directivas de suministro se pueden definir en el nivel de producto o en cualquier granularidad que admita sus requisitos. La granularidad de las directivas de suminsitro se definen en la página **Configuración de pedido predeterminada**.  
@@ -61,16 +59,14 @@ Normalmente, los kanbans no se crean para fechas futuras, ya que un kanban tiene
 
 La misma lógica está presente para el resto de los tipos de directivas de suministro. Por lo tanto, la planificación a largo plazo de los materiales se basa en la misma lógica que espera ejecutar con los pedidos reales después de a aprobación de la producción y el suministro.
 
-## Directiva de suministros cruzados de la asignación de los materiales: consumo de recursos de L. MAT.
-<a id="materials-allocation-crosssupply-policy--resource-consumption-on-boms" class="xliff"></a>
+## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Directiva de suministros cruzados de la asignación de los materiales: consumo de recursos de L. MAT.
 El consumo de recursos es una funcionalidad importante. El consumo de recursos permite seleccionar dinámicamente un almacén para seleccionar materiales, en función de la directiva de suministros (tipo de pedido), y también hace que el mantenimiento de datos base sea más fácil.  
 
 El consumo de recursos requiere que el almacén en el que se seleccionan los materiales se asigne en base a la forma en que se suministra el producto. Es decir, en el tiempo de ejecución, el sistema encuentra los recursos que se usarán para la fabricación. Swgún estos recursos, el sistema encuentra el almacén de selección.  
 
 Para el trabajo que es independiente de una directiva de suministro, no es necesario modificar la información en la L. MAT. si se cambia el suministro. Para los cambios ad hoc, Finance and Operations garantiza que los materiales se suministren del almacén adecuado.
 
-## Fabricación en procesos: el tipo de producción
-<a id="process-manufacturing--the-production-type" class="xliff"></a>
+## <a name="process-manufacturing--the-production-type"></a>Fabricación en procesos: el tipo de producción
 Para una flexibilidad completa en modo mezcla, se recomienda usar las L. MAT. del tipo de producción para todos los productos. Puede usar pedidos de producción, kanbans, pedidos de transferencia o pedidos de compra para el suministro de un producto. Para la fabricación de procesos, debe usar un tipo de proceso de **Fórmula**, **Coproducto**, **Producto derivado** o **Artículo de planificación**. Los kanbans y los pedidos de producción no se pueden usar para estos tipos de producción.
 
 

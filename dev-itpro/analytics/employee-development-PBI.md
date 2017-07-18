@@ -9,10 +9,11 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: sericks
 ms.search.scope: Operations, UnifiedOperations, Talent, Core
 ms.search.region: Global
 ms.author: JCart
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,20 +23,17 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Contenido en Power BI de Desarrollo de empleados
-<a id="employee-development-power-bi-content" class="xliff"></a>
+# <a name="employee-development-power-bi-content"></a>Contenido en Power BI de Desarrollo de empleados
 
 [!include[banner](../includes/banner.md)]
 
 Este tema describe el contenido en Microsoft Power BI de **Desarrollo de empleados**. Explica cómo obtener acceso a los informes y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
-## Acceso al contenido de Power BI
-<a id="accessing-the-power-bi-content" class="xliff"></a>
+## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 
 Si está usando Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017), puede encontrar el paquete de contenido **Desarrollo de empleados** en la biblioteca de activos compartidos en Microsoft Dynamics Lifecycle Services (LCS). Para obtener información sobre cómo descargar el paquete de contenido y conectarlo a sus datos, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md).
 
-## Informes que se incluyen en el contenido de Power BI
-<a id="reports-that-are-included-in-the-power-bi-content" class="xliff"></a>
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
 Los informes incluidos en el contenido de Power BI de **Desarrollo de empleados** tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.
 
 | Informe                        | Contenido |
@@ -50,8 +48,7 @@ Los informes incluidos en el contenido de Power BI de **Desarrollo de empleados*
 
 Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e iconos al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-## Comprensión del modelo de datos y de las entidades
-<a id="understanding-the-data-model-and-entities" class="xliff"></a>
+## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 | Entidad                   | Contenido                                                                                                   | Relaciones con otras entidades |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | Contrapartida del calendario          | Desplazamientos del calendario para dividir informes                                                                          | Asignación de puesto anterior, tenencia de puestos, tendencia de empleado, empleado cesado 

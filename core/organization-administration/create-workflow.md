@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: sericks
 ms.search.scope: Core, UnifiedOperations
 ms.custom: 195583
 ms.assetid: 836ddd01-cc34-45c3-a4b0-20647357dbc6
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-08-30
+ms.search.validFrom: 2016-08-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,19 +23,16 @@ ms.openlocfilehash: 138cf8d60f5a6e1ec1e46837a516e981c8ff4c19
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Creación de un flujo de trabajo
-<a id="create-a-workflow" class="xliff"></a>
+# <a name="create-a-workflow"></a>Creación de un flujo de trabajo
 
 [!include[banner](../includes/banner.md)]
 
 
 Este tema explica cómo crear un flujo de trabajo.
 
-Apertura del editor de flujo de trabajo
-<a id="open-the-workflow-editor" class="xliff"></a>
+<a name="open-the-workflow-editor"></a>Apertura del editor de flujo de trabajo
 ------------------------
 
 El módulo de Microsoft Dynamics 365 for Finance and Operations en el que está trabajando determina los tipos de flujo de trabajo que puede crear. Siga estos pasos para seleccionar el tipo de flujo de trabajo que va a crear y abrir el editor de flujo de trabajo.
@@ -44,24 +42,20 @@ El módulo de Microsoft Dynamics 365 for Finance and Operations en el que está 
 3.  En la página de lista que aparece, en el Panel de acciones, haga clic en **Nuevo**.
 4.  En la página **Crear flujo de trabajo**, seleccione el tipo de flujo de trabajo para crear y haga clic en **Crear flujo de trabajo**. Aparecerá el editor de flujo de trabajo. Ahora puede usar los siguientes procedimientos para diseñar el flujo de trabajo.
 
-## Arrastre de elementos de flujo de trabajo al lienzo
-<a id="drag-workflow-elements-onto-the-canvas" class="xliff"></a>
+## <a name="drag-workflow-elements-onto-the-canvas"></a>Arrastre de elementos de flujo de trabajo al lienzo
 El área de **Elementos de flujo de trabajo** del editor de flujo de trabajo contiene los elementos que se pueden agregar al flujo de trabajo. Para agregar elementos al flujo de trabajo, arrástrelos al lienzo.
 
-## Conexión de los elementos
-<a id="connect-the-elements" class="xliff"></a>
+## <a name="connect-the-elements"></a>Conexión de los elementos
 Para conectar un elemento de flujo de trabajo con otro, mantenga el puntero sobre uno de los elementos hasta que aparezcan puntos de conexión. Haga clic en uno de los puntos de conexión y arrástrelo a otro elemento. Asegúrese de conectar todos los elementos.
 
-## Configuración de las propiedades del flujo de trabajo
-<a id="configure-the-properties-of-the-workflow" class="xliff"></a>
+## <a name="configure-the-properties-of-the-workflow"></a>Configuración de las propiedades del flujo de trabajo
 Siga estos pasos para configurar las propiedades del flujo de trabajo.
 
 1.  Haga clic en el lienzo para asegurarse de que no haya ningún elemento de flujo de trabajo seleccionado.
 2.  Haga clic en **Propiedades** para abrir la página de **Propiedades** correspondiente al flujo de trabajo.
 3.  Siga los procedimientos del tema [Configurar las propiedades del flujo de trabajo](configure-workflow-properties.md).
 
-## Configuración de los elementos del flujo de trabajo
-<a id="configure-the-elements-of-the-workflow" class="xliff"></a>
+## <a name="configure-the-elements-of-the-workflow"></a>Configuración de los elementos del flujo de trabajo
 Configure los elementos que arrastró al lienzo. Para obtener más información acerca de cómo configurar cada elemento de flujo de trabajo, vea los siguientes temas:
 
 -   [Configuración de una tarea manual](configure-manual-task-workflow.md)
@@ -74,12 +68,10 @@ Configure los elementos que arrastró al lienzo. Para obtener más información 
 -   [Configuración de una rama paralela](configure-parallel-branch-workflow.md)
 -   [Configuración de un flujo de trabajo de elementos](configure-line-item-workflow.md)
 
-## Resolución de los errores o advertencias
-<a id="resolve-any-errors-or-warnings" class="xliff"></a>
+## <a name="resolve-any-errors-or-warnings"></a>Resolución de los errores o advertencias
 En el panel **Errores y advertencias** ubicado en la parte inferior del editor de flujo de trabajo se muestran los mensajes generados para el flujo de trabajo. Para encontrar el elemento en el que se produjo un error o advertencia, haga doble clic en el mensaje de error o advertencia. Antes de poder activar el flujo de trabajo, debe resolver todos los errores y advertencias.
 
-## Guardado y activación del flujo de trabajo
-<a id="save-and-activate-the-workflow" class="xliff"></a>
+## <a name="save-and-activate-the-workflow"></a>Guardado y activación del flujo de trabajo
 Cuando esté listo para guardar y activar el flujo de trabajo, siga estos pasos.
 
 1.  Haga clic en **Guardar y cerrar** para cerrar el editor de flujo de trabajo y abrir la página **Guardar flujo de trabajo**.

@@ -9,11 +9,12 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: 
 ms.assetid: 
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
@@ -21,28 +22,23 @@ ms.openlocfilehash: 4011a2383fe4556b730fa0b6353ba0b9773a4eec
 ms.contentlocale: es-es
 ms.lasthandoff: 06/14/2017
 
-
 ---
 
-# Espacio de trabajo de pagos de proveedor
-<a id="vendor-payments-workspace" class="xliff"></a>
+# <a name="vendor-payments-workspace"></a>Espacio de trabajo de pagos de proveedor
 
 [!include[banner](../includes/banner.md)]
 
 El espacio de trabajo **Pagos a proveedores** muestra la información relacionada con el procesamiento de pagos a proveedores. Este espacio de trabajo incluye un vista **Mi trabajo** y una página **Análisis** . La vista **Mi trabajo** muestra mosaicos de resumen, cuadrículas de transacciones con proveedores y la información de proveedor relacionada. La página **Análisis** utiliza las capacidades de Microsoft Power BI para mostrar las representaciones visuales relacionados con pagos a proveedores.
 
-## Vista Mi trabajo
-<a id="my-work-view" class="xliff"></a>
+## <a name="my-work-view"></a>Vista Mi trabajo
 
-### Iconos de resumen
-<a id="summary-tiles" class="xliff"></a>
+### <a name="summary-tiles"></a>Iconos de resumen
 
 Los mosaicos en la sección **Resumen** ofrece una visión general del estado de la información de pago. Puede ver los diarios de pagos que todavía no se han registrado, las facturas vencidas, todos los proveedores, y proveedores que están en espera. En la sección **Resumen** , puede crear un nuevo período de pago.
 
 La información de la sección **Resumen** es para la empresa con la que tiene firmado un contrato.
 
-### Cuadrículas de transacciones con proveedores
-<a id="vendor-transactions-grids" class="xliff"></a>
+### <a name="vendor-transactions-grids"></a>Cuadrículas de transacciones con proveedores
 
 La sección **Transacciones de proveedor** contiene las cuadrículas que muestran las facturas vencidas y los pagos que no se hayan liquidado. En la cuadrícula **Factura vencidas** , puede ver el historial de liquidaciones de una factura seleccionada. En la cuadrícula **Pagos no liquidados** , puede ver el historial de liquidaciones de una factura seleccionada y liquidarla.
 
@@ -50,13 +46,11 @@ Los empleados de pagos centralizados pueden utilizar un filtro que aparece en la
 
 La ficha **Buscar transacciones** en la sección **Transacciones de proveedor** le permite buscar una transacción de proveedor.
 
-### Información relacionada
-<a id="related-information" class="xliff"></a>
+### <a name="related-information"></a>Información relacionada
 
 Puede ver el informe **Antigüedad de proveedores** y el informe **Resumen de pago por fecha** mediante los vínculos de la sección **Información relacionada** del espacio de trabajo.
 
-## Página Análisis
-<a id="analytics-page" class="xliff"></a>
+## <a name="analytics-page"></a>Página Análisis
 
 La página **Análisis** proporciona medidas importantes, como facturas de proveedor vencidas y facturas de proveedor que venzan en el futuro. Esta página contiene nueve páginas de informe. Una página ofrece una visión general, y las otras ocho proporcionan información detallada acerca de medidas de pago a proveedores.
 

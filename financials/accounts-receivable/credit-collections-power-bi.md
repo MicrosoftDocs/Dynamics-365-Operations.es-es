@@ -9,10 +9,11 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: sericks
 ms.search.scope: Operations, UnifiedOperations. Core
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
@@ -22,13 +23,11 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Contenido en Power BI de Administración de créditos y cobros
-<a id="credit-and-collections-management-power-bi-content" class="xliff"></a>
+# <a name="credit-and-collections-management-power-bi-content"></a>Contenido en Power BI de Administración de créditos y cobros
 
 Este tema describe lo que se incluye en el contenido en Microsoft Power BI de **Administración de créditos y cobros**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
-## Información general
-<a id="overview" class="xliff"></a>
+## <a name="overview"></a>Información general
 
 El contenido en Power BI de **Administración de créditos y cobros** se creó para los administradores de créditos y cobros y los empleados de cobros. Proporciona métricas clave de créditos y cobros, como las ventas de los días pendientes, saldos vencidos, exposición crediticia y los clientes que sobrepasan su límite de crédito. Usa datos transaccionales y ofrece las vistas globales de créditos y cobros en todas las empresas. También proporciona un desglose por empresa, grupo de clientes y cliente.
 
@@ -41,12 +40,10 @@ Todos los importes se muestran en la divisa del sistema. Puede establecer la div
 
 De forma predeterminada, se muestran los datos sobre créditos y cobros para la empresa actual. Para ver los datos en todas las empresas, asigne el deber **CustCollectionsBICrossCompany** al rol.
 
-## Acceso al contenido de Power BI
-<a id="accessing-the-power-bi-content" class="xliff"></a>
+## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 Si está usando Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017), el contenido en Power BI de **Administración de créditos y cobros** se muestra en el espacio de trabajo **Créditos y cobros del cliente**.
 
-## Informes que se incluyen en el contenido de Power BI
-<a id="reports-that-are-included-in-the-power-bi-content" class="xliff"></a>
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
 
 El contenido en Power BI de **CustCollectionsBICrossCompany** incluye un informe compuesto por un conjunto de métricas. Estas métricas se visualizan como gráficos, mosaicos y tablas. La tabla siguiente proporciona una visión general de las visualizaciones en el contenido de **CustCollectionsBICrossCompany** en Power BI.
 
@@ -65,16 +62,14 @@ El contenido en Power BI de **CustCollectionsBICrossCompany** incluye un informe
 
 Los gráficos y los iconos en todos estos informes se pueden filtrar y anclar al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). También puede usar la funcionalidad subyacente de exportación de datos para exportar los datos subyacente que se resume en una visualización.
 
-## Ampliar el contenido de Power BI
-<a id="extending-the-power-bi-content" class="xliff"></a>
+## <a name="extending-the-power-bi-content"></a>Ampliar el contenido de Power BI
 Mediante los paquetes de contenido disponibles en Microsoft Dynamics Lifecycle Services (LCS), puede ofrecer análisis muy buenos a las personas que no inician sesión en Finance and Operations. Puede modificar estos paquetes de contenido para que incluyan otros informes o representaciones visuales y, a continuación, publicar los paquetes de contenidos en el inquilino de Power BI.com para su análisis.
 
 El contenido en Power BI de **Administración de crédito y cobros** se encuentra en la biblioteca de activos compartidos de LCS. Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-content-microsoft-partners). Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
 
 Asegúrese de descargar el contenido en Power BI de **Administración de crédito y cobros** que se aplica a la versión de Finance and Operations que esté usando.
 
-## Comprensión del modelo de datos y de las entidades
-<a id="understanding-the-data-model-and-entities" class="xliff"></a>
+## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 
 Los datos siguientes se usan para rellenar las páginas de informes en el contenido en Power BI de **Administración de crédito y cobros**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration-entity-store).
 

@@ -9,10 +9,11 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: sericks
 ms.search.scope: Talent, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: JCart
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,8 +23,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Espacio de trabajo móvil del directorio de empresa
-<a id="company-directory-mobile-workspace" class="xliff"></a>
+# <a name="company-directory-mobile-workspace"></a>Espacio de trabajo móvil del directorio de empresa
 
 [!include[banner](../includes/banner.md)]
 
@@ -31,8 +31,7 @@ Este tema proporciona información sobre del espacio de trabajo móvil **Directo
 
 Este espacio de trabajo móvil se puede usar con la aplicación móvil Microsoft Dynamics 365 for Unified Operations.
 
-## Información general
-<a id="overview" class="xliff"></a>
+## <a name="overview"></a>Información general
 El espacio de trabajo móvil **Directorio de empresa** permite a los usuarios realizar las tareas siguientes:
 
 - Ver una lista de los empleados de la organización.
@@ -40,8 +39,7 @@ El espacio de trabajo móvil **Directorio de empresa** permite a los usuarios re
 - Ver información de contacto de los empleados.
 - Ponerse en contacto con empleados desde la información de perfil.
 
-## Requisitos previos
-<a id="prerequisites" class="xliff"></a>
+## <a name="prerequisites"></a>Requisitos previos
 Para poder usar este espacio de trabajo móvil, antes debe satisfacer los siguientes requisitos previos:
 
 <table>
@@ -71,15 +69,13 @@ Para poder usar este espacio de trabajo móvil, antes debe satisfacer los siguie
 </tbody>
 </table>
 
-## Descargar e instalar la aplicación móvil
-<a id="download-and-install-the-mobile-app" class="xliff"></a>
+## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
 Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 -   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## Iniciar sesión en la aplicación móvil
-<a id="sign-in-to-the-mobile-app" class="xliff"></a>
+## <a name="sign-in-to-the-mobile-app"></a>Iniciar sesión en la aplicación móvil
 1.  Inicie la aplicación en su dispositivo móvil.
 2.  Escriba la dirección URL de Microsoft Dynamics 365.
 3.  La primera vez que se inicie sesión, se le solicitará su nombre de usuario y contraseña. Escriba sus credenciales.
@@ -87,13 +83,11 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 [![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
-## Ver el directorio de empresa con el espacio de trabajo móvil
-<a id="view-the-company-directory-by-using-the-mobile-workspace" class="xliff"></a>
+## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>Ver el directorio de empresa con el espacio de trabajo móvil
 1.  En la aplicación móvil, seleccione el espacio de trabajo **Directorio de empresa**. Aparece una lista de los empleados.
 3.  Seleccione un empleado. Aparece la página **Perfil de empleado**. La información de esta página incluye el nombre, el apellido, el puesto y departamento del empleado.
 
-## Buscar en el directorio de empresa con el espacio de trabajo móvil
-<a id="search-the-company-directory-by-using-the-mobile-workspace" class="xliff"></a>
+## <a name="search-the-company-directory-by-using-the-mobile-workspace"></a>Buscar en el directorio de empresa con el espacio de trabajo móvil
 1.  En la aplicación móvil, seleccione el espacio de trabajo **Directorio de empresa**.
 2.  En el campo **Buscar**, especifique el nombre, el apellido, el puesto o el departamento del empleado para iniciar la búsqueda.
 3.  Seleccione un empleado. Aparece la página **Perfil de empleado**. La información de esta página incluye el nombre, el apellido, el puesto y departamento del empleado.

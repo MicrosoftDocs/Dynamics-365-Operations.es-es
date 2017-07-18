@@ -10,12 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
@@ -23,11 +24,9 @@ ms.openlocfilehash: c4aac72d9f7e975d4a270deb340f96ddcc9ca1fb
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
 
-
 ---
 
-# Motores de administración del transporte
-<a id="transportation-management-engines" class="xliff"></a>
+# <a name="transportation-management-engines"></a>Motores de administración del transporte
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,8 +35,7 @@ Los motores de administración del transporte definen la lógica que se usa para
 
 Un motor de administración del transporte calcula tareas como, por ejemplo, la tasa de transporte del transportista. El sistema del motor le permite cambiar las estrategias de cálculo en tiempo de ejecución, basándose en los datos de Microsoft Dynamics 365 for Finance and Operations. Un motor de administración del transporte se asemeja a un complemento relacionado con un contrato concreto del transportista.
 
-## ¿Qué motores están disponibles?
-<a id="what-engines-are-available" class="xliff"></a>
+## <a name="what-engines-are-available"></a>¿Qué motores están disponibles?
 En la siguiente tabla se muestran los motores de administración del transporte disponibles en Microsoft Dynamics 365 for Finance and Operations.
 
 | Motor de administración del transporte | Descripción                                                                                                                                                                                                                                                                                                                 |
@@ -50,14 +48,12 @@ En la siguiente tabla se muestran los motores de administración del transporte 
 | **Tipo de albarán de flete**            | Estandariza la factura de flete y las líneas de albarán de flete y se usa para conciliar automáticamente albaranes de flete.                                                                                                                                                                                                                |
 
  
-¿Qué motores se deben configurar para clasificar un envío?
-<a id="what-engines-must-be-configured-to-rate-a-shipment" class="xliff"></a>
+<a name="what-engines-must-be-configured-to-rate-a-shipment"></a>¿Qué motores se deben configurar para clasificar un envío?
 ---------------------------------------------------
 
 Para clasificar un envío mediante un transportista específico, debe configurar varios motores de administración del transporte. El **Motor de tarifas** es necesario, pero es posible que también sean necesarios otros motores de administración del transporte para ofrecer soporte al **Motor de tarifas**. Por ejemplo, el **Motor de tarifas** se puede usar para recuperar los datos del **Motor de cálculo de kilometraje** con el fin de calcular la tasa basándose en el kilometraje entre el origen y el destino.
 
-## ¿Qué se necesita para inicializar un motor de administración del transporte?
-<a id="whats-required-to-initialize-a-transportation-management-engine" class="xliff"></a>
+## <a name="whats-required-to-initialize-a-transportation-management-engine"></a>¿Qué se necesita para inicializar un motor de administración del transporte?
 Un motor de administración del transporte necesita que configure los datos de inicialización para que funcionen de una manera específica. La configuración puede incluir los siguientes tipos de datos:
 -   Referencias a otros motores de administración del transporte. Para obtener detalles, vea el ejemplo de configuración de esta sección.
 -   Referencias a los tipos de .NET que usa el motor de administración del transporte.
@@ -71,25 +67,21 @@ En la mayoría de los casos, puede hacer clic en el botón **Parámetros** de lo
 | *ApportionmentEngine* | Código de motor genérico que identifica el motor de reparto en la base de datos de Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                                              |
 
  
-¿Cómo se usan los metadatos en los motores de administración del transporte?
-<a id="how-is-metadata-used-in-transportation-management-engines" class="xliff"></a>
+<a name="how-is-metadata-used-in-transportation-management-engines"></a>¿Cómo se usan los metadatos en los motores de administración del transporte?
 ----------------------------------------------------------
 
 Los motores de administración del transporte que se basan en datos definidos en Dynamics 365 for Finance and Operations pueden usar diferentes esquemas de datos. El sistema de administración del transporte permite que distintos motores de administración del transporte usen las mismas tablas de base de datos física genéricas. Para garantizar que la interpretación en tiempo ejecución de los datos del motor sea correcta, puede definir los metadatos de las tablas de base de datos. Esto reduce el coste de crear nuevos motores de administración del transporte porque las estructuras adicionales de tabla y formulario no son necesarias en Operaciones.
 
-## ¿Qué se puede usar como datos de la búsqueda en los cálculos de tasas?
-<a id="what-can-be-used-as-search-data-in-rate-calculations" class="xliff"></a>
+## <a name="what-can-be-used-as-search-data-in-rate-calculations"></a>¿Qué se puede usar como datos de la búsqueda en los cálculos de tasas?
 Los datos que se usan al calcular tasas en Microsoft Dynamics 365 for Finance and Operations se controlan mediante la configuración de metadatos. Por ejemplo, si desea buscar tasas basadas en códigos postales debe configurar los metadatos según el tipo de búsqueda de un código postal.
 
-## ¿Todas las configuraciones de motores requieren metadatos?
-<a id="do-all-engine-configurations-require-metadata" class="xliff"></a>
+## <a name="do-all-engine-configurations-require-metadata"></a>¿Todas las configuraciones de motores requieren metadatos?
 No, los motores de administración del transporte que se usan para recuperar los datos necesarios para el cálculo de tasas de sistemas externos no necesitan metadatos. Los datos de tasas para estos motores se pueden recuperar a partir de sistemas de transportistas externos, generalmente mediante un servicio web. Por ejemplo, puede usar un motor de cálculo de kilometraje que recupera datos directamente de Mapas de Bing de modo que no necesite metadatos para este motor.
 | **Nota**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Los motores de administración del transporte que se entregan con Finance and Operations se basan en datos recuperados de la aplicación. Los motores que se conectan a sistemas externos no se incluyen con Operaciones. Sin embargo, el modelo de extensibilidad basado en motores le permite crear extensiones mediante Visual Studio Tools de Microsoft Dynamics 365 for Finance and Operations. |
 
-## ¿Cómo se configuran los metadatos para un motor de administración del transporte?
-<a id="how-do-i-configure-metadata-for-a-transportation-management-engine" class="xliff"></a>
+## <a name="how-do-i-configure-metadata-for-a-transportation-management-engine"></a>¿Cómo se configuran los metadatos para un motor de administración del transporte?
 Los metadatos para motores de administración del transporte se configuran de forma diferente para cada tipo de motor.
 
 | Motor de administración del transporte               | Configuración de metadatos                                                                                                                                                                                                                                                                                                                                                                                                                                               |

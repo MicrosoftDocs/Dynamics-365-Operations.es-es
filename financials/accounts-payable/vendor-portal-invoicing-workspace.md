@@ -15,7 +15,7 @@ ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
 ms.author: abruer
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
@@ -23,11 +23,9 @@ ms.openlocfilehash: 2171a454c763abab82f6555950994237b4de7b8b
 ms.contentlocale: es-es
 ms.lasthandoff: 06/14/2017
 
-
 ---
 
-# Espacio de trabajo de facturación de colaboración de proveedor
-<a id="vendor-collaboration-invoicing-workspace" class="xliff"></a>
+# <a name="vendor-collaboration-invoicing-workspace"></a>Espacio de trabajo de facturación de colaboración de proveedor
 
 [!include[banner](../includes/banner.md)]
 
@@ -38,8 +36,7 @@ El espacio de trabajo **Facturación de colaboración de proveedor** se puede us
 Espacio de trabajo de facturación de colaboración de proveedor
 ----------------------------------------
 
-### Iconos de resumen
-<a id="summary-tiles" class="xliff"></a>
+### <a name="summary-tiles"></a>Iconos de resumen
 
 Las fichas de **Resumen** ofrecen una visión general de las facturas para el proveedor seleccionado. Puede visualizar facturas por su estado.
 -   Las facturas de borrador no se han enviado al flujo de trabajo.
@@ -48,8 +45,7 @@ Las fichas de **Resumen** ofrecen una visión general de las facturas para el pr
 -   Las facturas pagadas son aquellas que se han pagado por completo en Finance and Operations.
 
 Si hace clic en una ficha, abrirá una vista filtrada de la página **Lista de facturas**.
-### Listas tabulares
-<a id="tabular-lists" class="xliff"></a>
+### <a name="tabular-lists"></a>Listas tabulares
 
 En la sección **Listas tabulares**, el estado de la facturación se desglosa de forma similar a las fichas del resumen: Borrador y Enviado, listas no aprobadas. Cuando se encuentre en estado de Borrador, una factura se puede enviar al flujo de trabajo o eliminarse. La última lista tabular es una opción para buscar facturas. Puede filtrar según busca para permitir búsquedas más rápidas.
 Página de la lista de todas las facturas de proveedor

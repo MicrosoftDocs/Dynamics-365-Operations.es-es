@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: sericks
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 265434
 ms.assetid: 3cd9dfce-2687-4303-bc78-349e7cb5ea75
 ms.search.region: global
 ms.author: fdahl
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,18 +23,15 @@ ms.openlocfilehash: daba17aed7e6cc475a16d6100c5c99ee747ca048
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Contenido de Power BI sobre análisis de gastos de compra
-<a id="purchase-spend-analysis-power-bi-content" class="xliff"></a>
+# <a name="purchase-spend-analysis-power-bi-content"></a>Contenido de Power BI sobre análisis de gastos de compra
 
 [!include[banner](../includes/banner.md)]
 
 Este tema describe lo que se incluye en el contenido de Microsoft Power BI acerca de **Análisis de compras y gastos**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
-## Información general
-<a id="overview" class="xliff"></a>
+## <a name="overview"></a>Información general
 
 El contenido de Power BI sobre **Análisis de compras y gastos** se ha diseñado para ayudar a directores de compras y los administradores responsables de presupuestos a vigilar los gastos en adquisiciones. Los directores pueden analizar su gasto en adquisiciones de las siguientes formas:
 
@@ -42,12 +40,10 @@ El contenido de Power BI sobre **Análisis de compras y gastos** se ha diseñado
 
 El contenido usa datos transaccionales de compras y proporciona tanto una visión global de las cifras de compras en la empresa como un desglose de los gastos en compras por proveedor y producto. Los informes resaltan cambios en los gastos de compra a lo largo del tiempo. Por lo tanto, los informes se pueden usar para notificar a los administradores las tendencias positivas y negativas de los gastos relativas a proveedores y productos individuales. Además, los gráficos muestran los gastos de compra para las diversas categorías de compras y grupos de proveedores. Por lo tanto, los administradores de categorías y regionales pueden utilizar los gráficos como ayuda para identificar los cambios en comportamiento del gasto.
 
-## Acceso al contenido de Power BI
-<a id="accessing-the-power-bi-content" class="xliff"></a>
+## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 Si usa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017), el contenido de Power BI sobre **Análisis de compras y gastos** se muestra en la página **Análisis de compras y gastos** (**Adquisición y abastecimiento** > **Consultas e informes** > **Análisis del rendimiento de compra** > **Análisis de compras y gastos**). 
 
-## Métricas que se incluyen en el contenido de Power BI
-<a id="metrics-that-are-included-in-the-power-bi-content" class="xliff"></a>
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
 El contenido de Power BI sobre **Análisis de compras y gastos** incluye un informe compuesto por un conjunto de métricas. Estas métricas se visualizan como gráficos, mosaicos y tablas. La tabla siguiente muestra una visión general de las visualizaciones.
 
 <table>
@@ -136,8 +132,7 @@ El contenido de Power BI sobre **Análisis de compras y gastos** incluye un info
 
 \* Compras este año y el año anterior, y crecimiento por categoría de compras
 
-## Ampliar el contenido de Power BI
-<a id="extending-the-power-bi-content" class="xliff"></a>
+## <a name="extending-the-power-bi-content"></a>Ampliar el contenido de Power BI
 Mediante los paquetes de contenido disponibles en Microsoft Dynamics Lifecycle Services (LCS), puede ofrecer análisis muy buenos a las personas que no inician sesión en Microsoft Dynamics 365. Puede modificar estos paquetes de contenido para que incluyan otros informes o representaciones visuales y, a continuación, publicar los paquetes de contenidos en el inquilino de Power BI.com para su análisis. 
 
 Puede encontrar el contenido de Power BI sobre **Análisis de compras y gastos** en la biblioteca de activos compartidos de LCS. Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
@@ -147,8 +142,7 @@ Asegúrese de descargar el contenido **Análisis de compras y gastos** que se ap
 > [!NOTE]
 > Si utiliza Microsoft Dynamics 365 for Operations, versión 1611, KB 4011327 es un requisito para este contenido de Power BI. Tras iniciar sesión en LCS, puede acceder a KB en https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
-## Modelo de datos y entidades
-<a id="data-model-and-entities" class="xliff"></a>
+## <a name="data-model-and-entities"></a>Modelo de datos y entidades
 Los datos siguientes se usan para rellenar las páginas de informes en el contenido de Power BI sobre **Análisis de compras y gastos**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
 
 Las medidas agregadas en este contenido son el subconjunto de las medidas agregadas que estaban disponibles en el cubo de compra en Microsoft Dynamics AX 2012 y Microsoft Dynamics AX 2012 R3. Para realizar las medidas globales del cubo en el almacén de entidades debe hacer que sean desplegables. Para obtener más información, consulte el procedimiento relativo a cómo realizar mediciones globales en el almacén de entidades en [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md). Las siguientes medidas agregadas clave están directamente disponibles en la entidad de líneas de factura y se usan como base del contenido.

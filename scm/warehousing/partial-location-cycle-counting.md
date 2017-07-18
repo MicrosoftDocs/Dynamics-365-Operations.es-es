@@ -10,14 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 keywords: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
 ms.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -27,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Recuento cíclico de ubicaciones parcial
-<a id="partial-location-cycle-counting" class="xliff"></a>
+# <a name="partial-location-cycle-counting"></a>Recuento cíclico de ubicaciones parcial
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,8 +36,7 @@ Los planes de recuento cíclico dirigen las operaciones de recuento. Puede solic
 
 Si utiliza los planes de recuento cíclico para crear trabajos de recuento, puede dirigir las operaciones que recuento reales. Puede solicitar que solo los productos específicos y las variantes de producto entren en el recuento en lugar de todos los inventarios disponibles en una ubicación. Al filtrar según productos específicos, el responsable del almacén puede reducir los costes generales de revisión, evitar errores de consolidación y ahorrar tiempo.
 
-## Cómo configurar el recuento cíclico de ubicación parcial
-<a id="how-to-configure-partial-location-cycle-counting" class="xliff"></a>
+## <a name="how-to-configure-partial-location-cycle-counting"></a>Cómo configurar el recuento cíclico de ubicación parcial
 Cuando se usa el proceso de trabajo de almacén para contar operaciones, un encabezado de trabajo se crea para cada ubicación. Al definir el plan de ciclo de recuento, puede usar la consulta **Seleccionar ubicaciones** para limitar trabajo de recuento cíclico que se crea. Al seleccionar los productos para el plan de recuento cíclico, puede seleccionar las consultas de producto y de la variante del producto para limitar lo que entra en el recuento. 
 
 Puede asociar una **plantilla de trabajo** a un plan de recuento cíclico para definir cómo debe crearse el trabajo de recuento cíclico. La plantilla del trabajo para las operaciones de recuento se referencia directamente desde el plan de recuento cíclico. 
@@ -51,8 +49,7 @@ Antes de que el trabajo de recuento cíclico parcial se pueda procesar, debe, al
 
 Para el proceso de recuento cíclico parcial, la fecha o la hora de **Último recuento cíclico** no se actualizará para la ubicación.
 
-## Ejemplo
-<a id="example" class="xliff"></a>
+## <a name="example"></a>Ejemplo
 Para este ejemplo, solo se debe contar el número de artículo A0001 en el almacén 61.
 
 1.  Se crea una plantilla de trabajo nueva para el recuento cíclico. La opción **Saltos de línea de trabajo** se usa para agrupar líneas de trabajo de recuento para el número de artículo. Por lo tanto, el trabajo de recuento cíclico que se crea tendrá líneas por número de artículo. También puede agrupar las líneas por número de variante del producto.
@@ -61,8 +58,7 @@ Para este ejemplo, solo se debe contar el número de artículo A0001 en el almac
 
 
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Recuento cíclico](cycle-counting.md)

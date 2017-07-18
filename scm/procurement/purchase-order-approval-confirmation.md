@@ -10,12 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.author: fdahl
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -23,11 +24,9 @@ ms.openlocfilehash: 0ec91bcf0ab334585eefae2fe54750c45419682e
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# confirmarAprobar y confirmar pedidos de compra.
-<a id="approve-and-confirm-purchase-orders" class="xliff"></a>
+# <a name="approve-and-confirm-purchase-orders"></a>confirmarAprobar y confirmar pedidos de compra.
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,8 +36,7 @@ Este artículo describe los estados por los que pasa un pedido de compra una vez
 
 Una vez se ha creado un pedido de compra, puede que tenga que pasar por un proceso de aprobación. Después de que el proveedor haya aceptado el pedido, el pedido de compra se establece en un estado de **Confirmado**.
 
-## Aprobación de pedidos de compra
-<a id="approval-of-purchase-orders" class="xliff"></a>
+## <a name="approval-of-purchase-orders"></a>Aprobación de pedidos de compra
 Los pedidos de compra que no utilizan la administración de cambios tienen un estado de **Aprobado** tan pronto como se crean, mientras que los pedidos de compra que usan la administración de cambios tienen un estado de **Borrador** cuando se crean por primera vez. Un pedido de compra que se ha creado consolidando un pedido planificado de la planificación maestra siempre se establece en un estado de **Aprobado**, independientemente de la configuración de la administración de cambios. Un pedido de compra crea transacciones de inventario solo cuando alcanza el estado **Aprobado**. Por tanto, ese inventario no aparece como disponible para reserva o marcado hasta que no se acepta el pedido.  
 
 Habilite la administración de cambios para pedidos de compra estableciendo la opción **Activar administración de cambios** en la página **Parámetros de adquisición y abastecimiento**. Cuando está habilitada la administración de cambios, los pedidos de compra pasan por un flujo de trabajo de aprobación después de que se hayan completado. Microsoft Dynamics 365 for Finance and Operations tiene un editor de procesos de flujo de trabajo donde puede definir un flujo de trabajo para que represente el proceso de aprobación. Este flujo de trabajo puede incluir reglas de aprobación automática, reglas que determinan quién se asignará para aprobar pedidos de compra concretos y reglas para escalar un flujo de trabajo que ha estado esperando aprobación durante mucho tiempo. Puede habilitar el proceso de administración de cambios para todos los proveedores o para proveedores específicos. También puede configurar el proceso para que se puede anular para pedidos de compra individuales.  
@@ -54,8 +52,7 @@ Cuando se habilita la administración de cambios, los pedidos de compra pasan po
 | Confirmado       | El pedido de compra se ha confirmado. Un pedido de compra no se puede confirmar hasta que se haya aprobado.        | Sí                       |
 | Finalizada       | El pedido se ha finalizado. Está cerrado financieramente ahora y ya no se puede modificar. | No                        |
 
-## Confirmación de pedidos de compra
-<a id="confirming-purchase-orders" class="xliff"></a>
+## <a name="confirming-purchase-orders"></a>Confirmación de pedidos de compra
 POs que tienen un estado de aprobación de **aprobado** puede pasar por pasos adicionales antes de que se confirmaron. Por ejemplo, es posible que tenga que enviar una consulta de compra al proveedor para consultar precios, descuentos o fechas de entrega. En este caso, puede establecer el pedido de compra en el estado **En revisión externa** con la acción **Consulta de compra**.  
 
 Los proveedores que estén configurados para utilizar el portal de proveedores pueden revisar pedidos en el portal, y aprobarlos o rechazarlos. Durante este proceso de revisión, el pedido de compra tiene un estado de **En revisión externa**. El portal de proveedores se puede configurar de modo que una confirmación del proveedor confirma automáticamente el pedido en Finance and Operations. De forma alternativa, puede confirmar un pedido de compra manualmente después de recibir la confirmación del proveedor. Si un proveedor rechaza un pedido de compra, el rechazo se recibe junto con el motivo del rechazo y sugerencias para cambios. En este caso, el estado del pedido de compra sigue siendo **En revisión externa**.  
@@ -69,8 +66,7 @@ Una vez que el proveedor haya acordado el pedido, el siguiente paso será regist
 
 Un proveedor podrá solicitar algún tipo de garantía de que se proporcionará el pago para una compra. Hay diversos métodos para proporcionar esta garantía dentro de los procesos de proveedores. Por ejemplo, la acción **Pago por adelantado** reserva fondos para el pedido de compra y este pago por adelantado se registra en el pedido de compra.
 
-## Cambio de pedidos de compra
-<a id="changing-purchase-orders" class="xliff"></a>
+## <a name="changing-purchase-orders"></a>Cambio de pedidos de compra
 En algunas situaciones, es posible que tenga que cambiar un pedido de compra una vez que alcance un estado de aprobación de **Aprobado** o **Confirmado**.  
 
 Si el pedido de compra se creó mediante un proceso de administración de cambios, puede realizar cambios recuperando el pedido o, si ya se ha aprobado el pedido, con la acción **Solicitar cambio**. En este caso, el estado de aprobación vuelve a ser **Borrador** y, a continuación, podrá modificar el pedido. Una vez que haya terminado de realizar cambios, es posible que tenga que enviar el pedido para la nueva aprobación. Puede configurar los tipos de cambios que requieren nueva aprobación mediante una regla de directivas **Regla de nueva aprobación para pedidos de compra** en la página **Directivas de compra**.  
@@ -79,8 +75,7 @@ Si se ha entregado parte de la cantidad pedida para una línea de pedido de comp
 
 Tras la confirmación de un pedido, ya no podrá eliminarlo. Sin embargo, puede cancelar la cantidad total o cualquier cantidad restante de un pedido, siempre que la cantidad no se haya recibido o facturado.
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Visión general de pedidos de compra](purchase-order-overview.md)

@@ -10,13 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSReplenishmentTemplates
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 90043
 ms.assetid: 49fa97eb-8e10-49a5-9261-1e393159f178
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
@@ -26,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Reabastecimiento
-<a id="replenishment" class="xliff"></a>
+# <a name="replenishment"></a>Reabastecimiento
 
 [!include[banner](../includes/banner.md)]
 
@@ -40,8 +40,7 @@ Este tema describe las estrategias de reabastecimiento que están disponibles pa
 
 Las tres estrategias crean trabajo de reabastecimiento, en función de una plantilla de reabastecimiento.
 
-## Reabastecimiento de la demanda de oleada
-<a id="wave-demand-replenishment" class="xliff"></a>
+## <a name="wave-demand-replenishment"></a>Reabastecimiento de la demanda de oleada
 
 El reabastecimiento de demanda de oleada crea el trabajo de reabastecimiento, basado en demanda, si la cantidad necesaria para los pedidos de producción, kanbans, pedidos o cargas de salida no está disponible cuando la oleada crea el trabajo. La plantilla de reabastecimiento contiene información sobre los criterios del artículo, la unidad de medida, el incremento de la demanda y la ubicación. 
 
@@ -54,20 +53,17 @@ La página **Plantilla de reabastecimiento** incluye una casilla **Permitir una 
 
 El reabastecimiento de la demanda se admite para los pedidos de ventas, pedidos de transferencia, pedidos de producción y kanbans. 
 
-## Reabastecimiento mínimo/máximo
-<a id="minmax-replenishment" class="xliff"></a>
+## <a name="minmax-replenishment"></a>Reabastecimiento mínimo/máximo
 En el reabastecimiento mínimo/máximo, las existencias se reabastecen para que se encuentren entre los límites mínimo y máximo que se han establecido. Normalmente, este proceso se produce una vez al día para garantizar que todas las ubicaciones de picking se rellenan hasta el nivel máximo antes de que se inicie el picking. 
 
 Los importes mínimo y máximo se establecen en una plantilla de reabastecimiento. Muchos de los demás valores de la plantilla son similares a la configuración de las plantillas que se utilizan en el reabastecimiento de la demanda de oleada. La plantilla debe contener una línea para cada artículo y ubicación. Cuando ejecute el reabastecimiento mediante el trabajo por lotes, Finance and Operations evalua si el reabastecimiento es necesario en la secuencia en la que se organizan las líneas. 
 
 Tenga en cuenta que la estrategia de reabastecimiento mínima/máxima no puede reabastecer una ubicación vacía a menos que la ubicación se establezca como la ubicación fija para el artículo. Si la ubicación que debe reabastecerse no es una ubicación fija, no se puede determinar qué elemento se va a reabastecer. Por tanto, se requiere al menos alguna cantidad disponible para que se produzca el reabastecimiento.
 
-## Reabastecimiento de la demanda de la carga
-<a id="load-demand-replenishment" class="xliff"></a>
+## <a name="load-demand-replenishment"></a>Reabastecimiento de la demanda de la carga
 El reabastecimiento de demanda de carga suma la demanda para varias cargas y crea el trabajo de reabastecimiento que es necesario para almacenar las ubicaciones de picking pertinentes. El reabastecimiento de demanda de carga es similar de muchas maneras al reabastecimiento de demanda de oleada. La diferencia principal es cómo y cuándo se ejecutan el reabastecimiento de la demanda de la carga y el reabastecimiento de la demanda de oleada. Como el reabastecimiento mínimo/máximo, el reabastecimiento de la demanda de carga se ejecuta mediante un trabajo por lotes. Para configurar el trabajo por lotes, en la página **Reabastecimiento de la demanda de la carga**, seleccione la plantilla de reabastecimiento que desee usar y establezca una consulta de filtro para especificar qué cargas se usan para determinar la demanda. La consulta de ubicación define las ubicaciones de las que se restará cualquier cantidad disponible para satisfacer la demanda agregada de las cargas.
 
-## Requisitos previos de reabastecimiento
-<a id="replenishment-prerequisites" class="xliff"></a>
+## <a name="replenishment-prerequisites"></a>Requisitos previos de reabastecimiento
 | Requisito previo            | Descripción                                                                                                                                                                                                                                        |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Artículo                    | El artículo se debe habilitar para procesos de administración de almacenes.                                                                                                                                                                                       |

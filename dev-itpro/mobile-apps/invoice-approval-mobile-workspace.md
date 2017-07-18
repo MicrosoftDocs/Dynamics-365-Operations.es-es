@@ -9,10 +9,11 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: sericks
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: abruer
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,8 +23,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Espacio de trabajo móvil Aprobaciones de facturas
-<a id="invoice-approvals-mobile-workspace" class="xliff"></a>
+# <a name="invoice-approvals-mobile-workspace"></a>Espacio de trabajo móvil Aprobaciones de facturas
 
 [!include[banner](../includes/banner.md)]
 
@@ -31,13 +31,11 @@ Este tema proporciona información sobre del espacio de trabajo móvil **Aprobac
 
 Este espacio de trabajo móvil se debe usar con la aplicación móvil Microsoft Dynamics 365 for Unified Operations.
 
-## Información general
-<a id="overview" class="xliff"></a>
+## <a name="overview"></a>Información general
 
 El espacio de trabajo móvil **Aprobaciones de facturas** permite a los empleados y directores de proveedores ver las facturas que se les han asignado como parte del proceso de flujo de trabajo del encabezado de factura de proveedor. Puede ver la información de la factura e incluso los detalles de la línea y la distribución, que le ayudarán a tomar decisiones informadas de aprobación. En el espacio de trabajo, puede tomar medidas para mover la factura por el proceso de flujo de trabajo. 
 
-## Requisitos previos
-<a id="prerequisites" class="xliff"></a>
+## <a name="prerequisites"></a>Requisitos previos
 
 Para poder usar este espacio de trabajo móvil, antes debe satisfacer los siguientes requisitos previos:
 
@@ -64,16 +62,14 @@ Para poder usar este espacio de trabajo móvil, antes debe satisfacer los siguie
 </tbody>
 </table>
 
-## Descargar e instalar la aplicación móvil
-<a id="download-and-install-the-mobile-app" class="xliff"></a>
+## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
 
 Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 -   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## Iniciar sesión en la aplicación móvil
-<a id="sign-in-to-the-mobile-app" class="xliff"></a>
+## <a name="sign-in-to-the-mobile-app"></a>Iniciar sesión en la aplicación móvil
 
 1.  Inicie la aplicación en su dispositivo móvil.
 2.  Escriba la dirección URL de Microsoft Dynamics 365.
@@ -82,8 +78,7 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
     [![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
-## Aprobar facturas mediante el espacio de trabajo móvil Aprobaciones de facturas
-<a id="approve-invoices-by-using-the-invoice-approvals-mobile-workspace" class="xliff"></a>
+## <a name="approve-invoices-by-using-the-invoice-approvals-mobile-workspace"></a>Aprobar facturas mediante el espacio de trabajo móvil Aprobaciones de facturas
 1.  En el dispositivo móvil, seleccione el espacio de trabajo **Aprobaciones de facturas**.
 2.  Seleccione la factura que le ha sido asignada por el proceso de flujo de trabajo del encabezado de factura de proveedor.
 3.  En la página **Detalles de la factura**, revise la información de encabezado de factura, como la información del proveedor y la fecha.

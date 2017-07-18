@@ -10,12 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SysUserSetup
 audience: Application User, IT Pro
+ms.reviewer: sericks
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
 ms.author: tlefor
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -23,11 +24,9 @@ ms.openlocfilehash: b338a930777a5945eb6318dc8066fb3649c79dbe
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Personalizar la experiencia del usuario
-<a id="personalize-the-user-experience" class="xliff"></a>
+# <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
 [!include[banner](../includes/banner.md)]
 
@@ -38,8 +37,7 @@ Hay muchos tipos de personalizaciones en Microsoft Dynamics 365 for Finance and 
 
 Todas las personalizaciones, de cualquier tipo, que un usuario haga en Finance and Operations son solo para dicho usuario, independientemente de la empresa con la que el usuario interactúa. Los cambios que un usuario hace a una página no afecta a otros usuarios en el sistema.
 
-## Opciones de sistema válidas para el usuario actual
-<a id="systemwide-options-for-the-current-user" class="xliff"></a>
+## <a name="systemwide-options-for-the-current-user"></a>Opciones de sistema válidas para el usuario actual
 En la barra de exploración se encontrará una imagen de engranaje que es el botón de menú **Configuración**. Al abrir el menú **Configuración** se mostrarán varias opciones. La selección de **Opciones** abrirá la página **Opciones** del usuario. Allí encontrará cuatro pestañas de opción: **Visual****Preferencias****Cuenta** y **Flujo de trabajo**.
 
 -   **Visual:** para elegir un tema de color y el tamaño predeterminado de los elementos en las páginas.
@@ -47,8 +45,7 @@ En la barra de exploración se encontrará una imagen de engranaje que es el bot
 -   **Cuenta:** para proporcionar el id. de usuario y otras opciones relacionadas con la cuenta.
 -   **Flujo de trabajo:** aquí puede elegir opciones relacionadas con el flujo de trabajo.
 
-## Personalizaciones implícitas
-<a id="implicit-personalizations" class="xliff"></a>
+## <a name="implicit-personalizations"></a>Personalizaciones implícitas
 Las personalizaciones implícitas son las personalizaciones que realiza simplemente interactuando con determinados controles que recuerden su estado visible actual. 
 
 **Columnas de cuadrícula:** puede ajustar la anchura de una columna en una lista seleccionando la barra de tamaño a la izquierda o la derecha del encabezado de la columna y desplazándola hacia la izquierda o hacia la derecha hasta la anchura deseada. Finance and Operations almacenará la anchura que se le gustaría y mostrará esa columna con esa anchura cada vez que se abra la página con esa lista. 
@@ -57,8 +54,7 @@ Las personalizaciones implícitas son las personalizaciones que realiza simpleme
 
 **Cuadros informativos:** algunas páginas tienen una sección llamada panel de cuadro informativo. Este panel contiene información solo de lectura relacionada con el tema actual de la página. Cada sección en el panel del cuadro informativo se denomina cuadro informativo. Puede expandir o contraer un cuadro informativo y Finance and Operations guardará su preferencia. En algunos casos, contraer un cuadro informativo puede mejorar el rendimiento porque Finance and Operations no necesitará recuperar la información para ese cuadro informativo hasta que se expanda el cuadro informativo.
 
-## Personalizaciones explícitas que usan la barra de herramientas de personalización
-<a id="explicit-personalizations-using-the-personalization-toolbar" class="xliff"></a>
+## <a name="explicit-personalizations-using-the-personalization-toolbar"></a>Personalizaciones explícitas que usan la barra de herramientas de personalización
 Cada persona y empresa tiene una perspectiva distinta sobre qué datos son los más importantes para ellos o qué datos no son necesarios para llevar su negocio. La capacidad de adaptar la manera en que se pide su información, se interactúa con ella o se oculta es esencial para que Finance and Operations se convierta en una experiencia personal y productiva. 
 
 Las personalizaciones explícitas son aquellas personalizaciones que se realizan explícitamente con la intención de cambiar el aspecto o el comportamiento de un elemento o de una página, seleccionando un menú de personalización. El tipo más básico de personalización explícita es cuando se hace clic con el botón secundario en un elemento y se selecciona **Personalizar**. (Tenga en cuenta que no todos los elementos en su página se pueden personalizar.) Si selecciona este método de personalización, verá la ventana de la propiedad del elemento. 
@@ -93,8 +89,7 @@ Elija el botón **Cerrar** para cerrar la barra de herramientas y devolver la p�
 
 Con la barra de herramientas de la personalización, guardar es implícito. Sus personalizaciones surtirán efecto inmediatamente a medida que las hace y no hay necesidad de hacer clic en el botón **Guardar**. En algunos casos, verá un icono de candado junto a un elemento cuando selecciona una herramienta. Esto quiere decir que para que la página funcione correctamente, no puede modificar las propiedades relacionadas con la herramienta seleccionada. Cuando se abre la barra de herramientas de la personalización, la página pasará a ser no interactiva. No puede escribir datos o expandir y contraer secciones.
 
-## Personalización explícita: agregar un mosaico o lista a un espacio de trabajo
-<a id="explicit-personalization-adding-a-tile-or-list-to-a-workspace" class="xliff"></a>
+## <a name="explicit-personalization-adding-a-tile-or-list-to-a-workspace"></a>Personalización explícita: agregar un mosaico o lista a un espacio de trabajo
 Algunas páginas con listas tendrán una característica adicional de personalización disponible dentro de su Panel de acciones, en el grupo de la personalización de la pestaña opciones. Seleccione **Agregar al espacio de trabajo** para abrir la lista desplegable que proporciona la capacidad de mostrar la información de la lista actual (filtrada y clasificada o predeterminado) en un espacio de trabajo como una lista o mosaico de resumen (que se pueda usar para mostrar el número de elementos de la lista). 
 
 [![Agregar al espacio de trabajo](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png) 
@@ -105,16 +100,13 @@ Para agregar un mosaico a un espacio de trabajo, primero debe filtrar la lista p
 
 Cuando la lista o mosico se agrega a un espacio de trabajo, puede elegir abrir el espacio de trabajo y reordenar la lista o el mosaico dentro del grupo en que se ha colocado.
 
-## Personalización explícita: Agreagar un resumen de un espacio de trabajo a un panel de información
-<a id="explicit-personalization-adding-a-summary-from-a-workspace-to-a-dashboard" class="xliff"></a>
+## <a name="explicit-personalization-adding-a-summary-from-a-workspace-to-a-dashboard"></a>Personalización explícita: Agreagar un resumen de un espacio de trabajo a un panel de información
 Algunos espacios de trabajo contienen los mosaicos de la cuenta (mosaicos con números en ellos) que también quisiera ver en el panel de información. En un espacio de trabajo, haga clic con el botón derecho en un mosaico de cuenta y seleccione **Personalizar**. Seleccione **Anlar al panel de información**. La próxima vez que navegue (y actualice) el panel de información seleccionado, verá ese recuento debajo de ese mosaico de navegación del área de trabajo en el panel de navegación.
 
-## Personalización explícita: Personalización del panel de información
-<a id="explicit-personalization-personalizing-your-dashboard" class="xliff"></a>
+## <a name="explicit-personalization-personalizing-your-dashboard"></a>Personalización explícita: Personalización del panel de información
 El panel de información suele ser la primera página que verá al abrir Finance and Operations. Puede personalizar el panel de información para cambiar sus mosaicos de navegación del espacio de trabajo, para mostrar solo los mosaicos que desea ver, para cambiar de nombre a los mosaicos o para organizar los mosaicos en el orden en que se preferiría verlos. Para personalizar el panel de información, seleccione cualquier mosaico y haga clic con el botón secundario para abrir un menú contextual. En el menú de contexto, seleccione **Personalizar**. Si el mosaico seleccionado es uno que desea ocultar, renombrar o saltarse, puede realizar ese cambio directamente en la ventana de la propiedad que ha aparecido. Si desea organizar los mosaicos, seleccione **Personalizar este formulario** en la ventana de propiedad para abrir la barra de herramientas de la personalización. Puede usar la herramienta de movimientos para organizar los mosaicos.
 
-## Administración de la personalización
-<a id="administration-of-personalization" class="xliff"></a>
+## <a name="administration-of-personalization"></a>Administración de la personalización
 Tras personalizar una página, puede compartir sus personalizaciones con otros usuarios del usuario. Basta exportar la página personalizada. A continuación puede pedir que los demás usuarios naveguen a la página personalizada e importen el archivo de personalización que ha creado.
 
 Los usuarios con privilegios de administración también pueden gestionar las personalizaciones para otros usuarios en la página **Personalización**. Esta página tiene cuatro fichas: **Sistema**, **Usuarios**, **Importación** y **Borrar**.

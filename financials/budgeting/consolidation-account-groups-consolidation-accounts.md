@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 265544
 ms.assetid: 71c31df7-b655-46a8-8844-4f92a8bd71b0
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,25 +23,21 @@ ms.openlocfilehash: 835669de01deb1ba0dcc5752d9d6d8f498e6ff7d
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Grupos de cuentas de consolidación y cuentas de consolidación adicionales
-<a id="consolidation-account-groups-and-additional-consolidation-accounts" class="xliff"></a>
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Grupos de cuentas de consolidación y cuentas de consolidación adicionales
 
 [!include[banner](../includes/banner.md)]
 
 
 Este tema proporciona información sobre grupos de cuentas de consolidación y cuentas de consolidación adicionales y explica cómo se utilizan en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
-Grupos de cuentas de consolidación
-<a id="consolidation-account-groups" class="xliff"></a>
+<a name="consolidation-account-groups"></a>Grupos de cuentas de consolidación
 ----------------------------
 
 Los grupos de cuentas de consolidación permiten crear grupos de las cuentas que desee usar para consolidar los datos. Normalmente, un grupo de cuentas de consolidación representa un plan contable impuesto por el gobierno o asigna cuentas a un grupo definido por la sede central de la empresa. Los grupos de cuentas de consolidación están en la zona **Configuración** del módulo **Consolidaciones**. Al agregar un nuevo grupo, especifique un identificador único para el grupo de cuentas y un nombre.
 
-## Cuentas de consolidación adicionales
-<a id="additional-consolidation-accounts" class="xliff"></a>
+## <a name="additional-consolidation-accounts"></a>Cuentas de consolidación adicionales
 Las cuentas de consolidación adicionales permiten asignar una cuenta de un plan contable existente a un grupo de cuentas de consolidación. Después, puede especificar un valor y un nombre de la cuenta de consolidación. 
 
 Los grupos de cuentas de consolidación adicionales están en la zona **Configuración** del módulo **Consolidaciones**. Al crear una nueva cuenta de consolidación, debe especificar la siguiente información:

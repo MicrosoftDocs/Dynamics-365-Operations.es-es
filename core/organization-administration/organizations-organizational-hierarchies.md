@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: sericks
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17291
 ms.assetid: 76b7ca45-93d4-45cc-b191-66ee63afa1fd
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,31 +23,26 @@ ms.openlocfilehash: 4a7e1253d83e9212d423868a1f841b6944b07ad7
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Organizaciones y las jerarquías organizativas
-<a id="organizations-and-organizational-hierarchies" class="xliff"></a>
+# <a name="organizations-and-organizational-hierarchies"></a>Organizaciones y las jerarquías organizativas
 
 [!include[banner](../includes/banner.md)]
 
 
 Una organización es un grupo de personas que trabajan juntas para llevar a cabo un proceso empresarial o lograr un objetivo. Las jerarquías organizativas representan las relaciones que hay entre las organizaciones que forman el negocio.
 
-Organizaciones
-<a id="organizations" class="xliff"></a>
+<a name="organizations"></a>Organizaciones
 -------------
 
 En Microsoft Dynamics 365 for Finance and Operations puede definir los siguientes tipos de organizaciones internas: entidades jurídicas, unidades operativas y equipos.
 
 Todas las organizaciones internas son tipos de la entidad **Parte**. Por tanto, estas organizaciones usan la libreta de direcciones para almacenar información de contactos y direcciones. Un parte, que puede ser una persona o una organización, puede pertenecer a una o varias libretas de direcciones.
-### Entidades jurídicas
-<a id="legal-entities" class="xliff"></a>
+### <a name="legal-entities"></a>Entidades jurídicas
 
 Una entidad jurídica es una organización que tiene una estructura jurídicas registrada o legislada. Las entidades jurídicas pueden realizar contratos legales y tienen la obligación de preparar declaraciones para dar a conocer su rendimiento. Una empresa en un tipo de entidad jurídica. En esta versión de Microsoft Dynamics 365 for Finance and Operations las empresas son el único tipo de entidad jurídica que se puede crear y todas las entidades jurídicas están asociadas a un id. de empresa. Esta asociación existe porque algunas áreas funcionales del programa usan un id. de empresa, o DataAreaId, en sus modelos de datos. En estas áreas funcionales, las empresas se usan como un límite para la seguridad de datos. Los usuarios sólo pueden acceder a los datos de la empresa en la que han iniciado sesión en ese momento.
 
-### Unidades operativas
-<a id="operating-units" class="xliff"></a>
+### <a name="operating-units"></a>Unidades operativas
 
 Una unidad operativa es una organización que se usa para dividir el control de los recursos económicos y los procesos operativos de un negocio. Las personas de una unidad operativa tienen el deber de optimizar el uso de recursos escasos, mejorar los procesos y responder de su rendimiento. En Microsoft Dynamics 365 for Finance and Operations, los tipos de unidades operativas incluyen los centros de coste, los flujos de valor, los departamentos y los canales comerciales. En la siguiente tabla se proporciona más información sobre cada tipo de unidad operativa.
 | Tipo de unidad operativa | Descripción                                                                                                                                    | Propósito                                                                                                                                 |
@@ -57,8 +53,7 @@ Una unidad operativa es una organización que se usa para dividir el control de 
 | Departamento          | Una unidad operativa que representa una categoría o parte funcional de una organización y que realiza una tarea determinada, como las ventas o la contabilidad. | Se usa para informar sobre las áreas funcionales. Un departamento puede tener responsabilidad de pérdidas y ganancias y puede estar compuesto de un grupos de centros de coste.   |
 | Canal comercial      | Una unidad operativa que representa una tienda física, una tienda en línea o un mercado en línea.                                          | Se usa para la administración y el control operativo de una o varias tiendas dentro o a través de entidades jurídicas.                                  |
 
-### Equipos
-<a id="teams" class="xliff"></a>
+### <a name="teams"></a>Equipos
 
 Un equipo es una organización cuyos miembros comparten una responsabilidad, un interés o un objetivo común. Los equipos no pueden usarse en las jerarquías organizativas.
 Jerarquías organizativas

@@ -10,12 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
 ms.author: fdahl
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
@@ -23,11 +24,9 @@ ms.openlocfilehash: fbf5337ac41ceae6e911c056db5226c8ed1cefb0
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
 
-
 ---
 
-# Crear pedidos de compra
-<a id="create-purchase-orders" class="xliff"></a>
+# <a name="create-purchase-orders"></a>Crear pedidos de compra
 
 [!include[banner](../includes/banner.md)]
 
@@ -42,8 +41,7 @@ También puede crear pedidos de compra copiando líneas de otro documento de ped
 
 Aunque puede crear pedidos de compra manualmente, se suelen generar más desde otros procesos. Los pedidos se pueden crear automáticamente en función de otros documentos, como solicitudes. De forma alternativa, se pueden crear como parte del proceso de planificación maestra a través de pedidos de compra planificados. Si utiliza acuerdos de compra, los pedidos de compra se pueden crear mediante la acción **Pedido parcial**. También hay métodos más avanzados para la creación automática de un pedido de compra. Por ejemplo, se pueden crear pedidos al usar entrega directa o cadenas de pedidos de empresas vinculadas.
 
-## Creación de un encabezado de pedido de compra
-<a id="creating-a-purchase-order-header" class="xliff"></a>
+## <a name="creating-a-purchase-order-header"></a>Creación de un encabezado de pedido de compra
 Al crear un nuevo pedido de compra, aparece un cuadro de diálogo, donde puede especificar la información más común para el encabezado del pedido de compra. Al hacer clic en **Aceptar** para cerrar el cuadro de diálogo, se crea el pedido y, a continuación, puede especificar información adicional en el encabezado.  
 
 El primer detalle que debe considerar al crear un pedido de compra es el tipo de pedido. El tipo **Pedido de compra** es el más usado. Sin embargo, si se requiere una factura de crédito, puede utilizar el tipo **Pedido devuelto**.  
@@ -56,8 +54,7 @@ Si hay un acuerdo de compra asociado al pedido, debe especificar esta informaci�
 
 El encabezado del pedido de compra también contiene información acerca de los cargos que se aplican a todo el pedido en lugar de líneas individuales. Los cargos se pueden agregar automáticamente al pedido si se han configurado cargos automáticos para el proveedor o el grupo de cargos del proveedor. También puede agregar manualmente cargos al encabezado del pedido haciendo clic en **Mantener gastos** en el panel de acciones.
 
-## Adición de líneas de pedido de compra
-<a id="adding-purchase-order-lines" class="xliff"></a>
+## <a name="adding-purchase-order-lines"></a>Adición de líneas de pedido de compra
 Los pedidos de compra pueden ser para productos físicos o para servicios. Una configuración en el grupo de modelos de inventario determina si se aplica un número de artículo determinado a un producto o un servicio. Normalmente, el artículo que se compra se especifica por un número de artículo. Sin embargo, si el pedido es para productos o servicios que se consumen directamente, también puede especificar el artículo usando una categoría de compras.  
 
 Las líneas de pedido de compra contienen numerosos campos, pero muchos de estos tienen un valor predeterminado o un valor que se hereda del encabezado del pedido. Se establecen campos adicionales al seleccionar un producto o servicio. Los campos que se establecen manualmente más a menudo incluyen los campos para el número de artículo, la cantidad y la fecha de entrega solicitada. La información acerca del precio unitario y los descuentos también es muy importante, pero los valores de esos campos a menudo se determinan mediante acuerdos comerciales o acuerdos de compra.  
@@ -74,8 +71,7 @@ A veces, es posible que desee dividir la cantidad que ha solicitado, de manera q
 
 Los cargos se pueden agregar automáticamente a las líneas de pedido de compra si se han configurado cargos automáticos para el proveedor o el grupo de cargos del proveedor, y para el artículo o el grupo de cargos del artículo. Sin embargo, por lo general, los cargos se agregan manualmente en el nivel de línea de pedido. Para agregar un cargo, abra la página **Mantener gastos** con la acción **Mantener gastos** del menú **Operaciones financieras** de la vista **Líneas**. La ventaja de agregar cargos directamente en el nivel de línea de pedido es que el cargo se puede asignar como coste de inventario. Para configurar códigos de cargos a coste de producto de cuenta, utilice la opción de débito **Artículo**. Estos tipos de cargos deben asignarse desde el encabezado del pedido de compra a las líneas para se pueda confirmar el pedido. Por ejemplo, puede que desee asignar cargos basados en la cantidad de cada línea. La categoría de cargo también afecta a cómo se contabilizan los cargos. Por ejemplo, los gastos fijos especifican un importe fijo y los gastos de porcentaje se calculan como un porcentaje del importe neto de la línea de pedido. Se pueden asignar pedidos de compra a una carga y la carga podría incluir una estimación de los gastos previsto para el coste de transporte. Puede asignar este gasto de la carga de nuevo a las líneas de pedido de compra.
 
-## Acciones del pedido de compra
-<a id="purchase-order-actions" class="xliff"></a>
+## <a name="purchase-order-actions"></a>Acciones del pedido de compra
 Una vez haya agregado el encabezado y las líneas al pedido de compra, a menudo debe completar pasos adicionales para que el pedido esté listo para su confirmación. Dado que hay muchas opciones disponibles, es posible que le resulte útil usar [Búsqueda de acción](/dynamics365/unified-operations/fin-and-ops/get-started/action-search) para encontrar el elemento de menú relevante.  
 
 Puede configurar los productos del pedido para que tengan artículos adicionales. Los artículos adicionales son productos que deben comprarse o que se pueden comprar junto con otros productos. Los productos adicionales se pueden agregar de manera gratuita como productos complementarios, o puede decidir si desea agregarlos al pedido o no. Puede revisar los artículos adicionales después de cada línea de pedido que se agrega. Sin embargo, probablemente encontrará más adecuado revisar y agregar artículos adicionales pertinentes para todas las líneas de pedido con la página **Artículos adicionales**, que puede abrir en el panel de acciones.  
@@ -91,8 +87,7 @@ Los pedidos de compra se pueden configurar para requerir la asignación de fondo
 
 Es posible que deba retrasar la finalización de un pedido de compra. Por ejemplo, es posible que requiera información adicional sobre productos o servicios, o que tenga que obtener autorización para el gasto. Hay varias maneras de retener un pedido. Por ejemplo, puede esperar para confirmar el pedido. De forma alternativa, si se utiliza un flujo de trabajo de administración de cambios, no envíe el pedido para su aprobación. Si debe bloquear todos los pedidos para un proveedor determinado, también puede marcar el proveedor como **En espera** para su procesamiento en el maestro de proveedores. También hay circunstancias que pueden impedir el procesamiento del pedido. Por ejemplo, es posible evitar el procesamiento si se han superado los límites de crédito o si los fondos presupuestarios necesarios no están disponibles.
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Visión general de pedidos de compra](purchase-order-overview.md)

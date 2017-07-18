@@ -10,13 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
@@ -24,11 +25,9 @@ ms.openlocfilehash: 180863b5c3b8fe7870ab58f3849e52583f5880c1
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
 
-
 ---
 
-# Miembros de dimensiones estadísticas y plantillas de proveedor de medidas estadísticas
-<a id="statistical-dimension-members-and-statistical-measure-provider-templates" class="xliff"></a>
+# <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Miembros de dimensiones estadísticas y plantillas de proveedor de medidas estadísticas
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,8 +36,7 @@ Una dimensión estadística y sus miembros se usan para registrar y controlar en
 - Como base de asignación en directivas como la distribución de costes o la asignación de costes
 - Para informar del consumo no monetario
 
-## Dimensión estadística
-<a id="statistical-dimension" class="xliff"></a>
+## <a name="statistical-dimension"></a>Dimensión estadística
 
 Una dimensión estadística tiene un nombre único y un conjunto de miembros de dimensión únicos. La dimensión estadística se asigna a un identificador de libro mayor de contabilidad de costes. Esta relación vincula a todos los miembros de dimensión estadística correspondientes al libro mayor de contabilidad de costes. Por lo tanto, todas las entradas estadísticas se crearán en el contexto del libro mayor de contabilidad de costes.
 
@@ -57,8 +55,7 @@ A continuación se muestra un ejemplo de dimensión estadística que se ha asign
 |-----------------------|---------------------|--------------------|-----------------|------------------------|-----------------------------|
 | Contabilidad directiva | USD                 | Divisa constante  | Período fiscal   | Elementos de coste compartidos   | Elementos estadísticos compartidos |
 
-## Miembros de dimensión estadística
-<a id="statistical-dimension-members" class="xliff"></a>
+## <a name="statistical-dimension-members"></a>Miembros de dimensión estadística
 
 Un miembro de dimensión estadística representa a una entidad para la que desea registrar medidas no monetarias. Estas medidas se pueden usar como base de asignación o solo para informar de valores no monetarios.
 
@@ -74,8 +71,7 @@ A continuación se muestran algunos ejemplos de miembros de dimensión estadíst
 | Elementos estadísticos compartidos | Electricidad          | Consumo de electricidad | kWh  |
 | Elementos estadísticos compartidos | Paquete CC              | Paquete Centro de coste   | Horas |
 
-## Plantilla de proveedor de medidas estadísticas
-<a id="statistical-measure-provider-template" class="xliff"></a>
+## <a name="statistical-measure-provider-template"></a>Plantilla de proveedor de medidas estadísticas
 
 Las medidas estadísticas pueden proceder de muchos tipos de fuentes. Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition es una gran fuente para extraer medidas estadísticas. Puede usar una plantilla de proveedor de medidas estadísticas para configurar fácilmente las medidas estadísticas que desea extraer.
 
@@ -113,8 +109,7 @@ Al crear un registro **Plantilla de proveedor de medidas estadísticas**, debe d
 - **Recuento**: se transfiere un recuento de registros por objeto de coste.
 - **Suma**: se transfiere una suma de registros por objeto de coste. (Se requieren el campo **Suma** y el campo **Fecha**).
 
-## Uso de la función de recuento
-<a id="using-the-count-function" class="xliff"></a>
+## <a name="using-the-count-function"></a>Uso de la función de recuento
 
 Por ejemplo, una plantilla de proveedor de medidas estadísticas se puede establecer del modo siguiente.
 
@@ -183,8 +178,7 @@ Si la base de asignación del miembro de dimensión predefinida de EJC se asigna
 | CC002       | FI | 2.00      | (2/5) × Importe    |
 | CC003       | TI | 2.00      | (2/5) × Importe    |
 
-## Uso de la función de suma
-<a id="using-the-sum-function" class="xliff"></a>
+## <a name="using-the-sum-function"></a>Uso de la función de suma
 
 Un centro de coste de producción, CC010 (embalaje), es el responsable de empaquetar los productos antes de enviarlos a los clientes. El coste laboral directo se agrega a los productos a través de la lista de materiales (L MAT.) y la ruta. El coste indirecto de ejecutar el centro de coste también se debe asignar a los productos generados. Con frecuencia, la mejor medida estadística para tal asignación es el número de horas de producción registradas por producto dentro del periodo concreto.
 
@@ -271,8 +265,7 @@ Si la base de asignación del miembro de dimensión predefinida del Paquete CC s
 | Zumo de naranja B2B      | 16,00     | (16 ÷ 24) × importe |
 | Consumidor de zumo de naranja | 8,00      | (8 ÷ 24) × importe  |
 
-## Medidas estadísticas importadas
-<a id="imported-statistical-measures" class="xliff"></a>
+## <a name="imported-statistical-measures"></a>Medidas estadísticas importadas
 
 Puede importar medidas estadísticas en la contabilidad de costes utilizando la herramienta de importación y exportación de gestión de datos.
 
@@ -351,8 +344,7 @@ Si la base de asignación del miembro de dimensión predefinida de electricidad 
 | CC002       | FI | 4,100.00  | (4100 ÷ 21 550) × Importe  |
 | CC003       | TI | 15.000,00 | (15 000 ÷ 21 550) × Importe |
 
-## Consulte también
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Consulte también
 
 [Bases de asignación](allocation-bases.md)
 
