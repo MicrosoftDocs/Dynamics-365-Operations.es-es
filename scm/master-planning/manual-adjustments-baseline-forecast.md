@@ -10,13 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: roxanad
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -24,11 +25,9 @@ ms.openlocfilehash: 0b3b56aa838888461a6d27c6612e405a3cf59414
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Realización de ajustes manuales en la previsión de línea base
-<a id="make-manual-adjustments-to-the-baseline-forecast" class="xliff"></a>
+# <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Realización de ajustes manuales en la previsión de línea base
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,16 +36,14 @@ Este artículo explica cómo puede realizar ajustes manuales a una previsión de
 
 Antes de realizar ajustes manuales, es importante que entienda algunos conceptos en diversas páginas.
 
-## Cuadrícula en la página Previsión de la demanda ajustada
-<a id="grid-on-the-adjusted-demand-forecast-page" class="xliff"></a>
+## <a name="grid-on-the-adjusted-demand-forecast-page"></a>Cuadrícula en la página Previsión de la demanda ajustada
 La página **Previsión de la demanda ajustada** incluye una cuadrícula con la estructura siguiente:
 
 -   La primera columna muestra los artículos, las claves de asignación de artículos, empresas, etc., para los que se ha generado la previsión. El subtítulo de la página ofrece una descripción de las dimensiones de previsión actuales que se muestran en la cuadrícula. Por ejemplo, si el subtítulo de la página es **Empresa / Sitio / Clave de asignación de artículos**, y uno de los encabezados de la fila en la cuadrícula es **USMF / 1 / D\_Alloc**, esa fila muestra la previsión para la empresa USMF, sitio 1 y clave de asignación de artículos **D\_Alloc**.
 -   Las columnas siguientes representan los cubos de previsión para los que se ha generado la previsión. Cada encabezado de columna es la primera fecha del cubo de previsión que la columna muestra.
 -   Los valores de las celdas representan la previsión para un artículo, una clave de asignación de artículos, etc., para dicho cubo específico de previsión.
 
-## Agregación y desagregación de previsión
-<a id="forecast-aggregation-and-deaggregation" class="xliff"></a>
+## <a name="forecast-aggregation-and-deaggregation"></a>Agregación y desagregación de previsión
 El subtítulo de la página muestra el nivel de agregación de previsión. 
 
 Por ejemplo, si el título de la página es **Empresa / Sitio / Clave de asignación / Número de artículo / Color / Tamaño / Configuración / Estilo**, no hay agregación de previsión, y la previsión se muestra en el nivel del artículo y sus dimensiones. Para cambiar la agregación, use la página **Cambiar las dimensiones de previsión**, que puede abrir desde el menú de la aplicación. 
@@ -61,8 +58,7 @@ Cuando el ajuste de la cantidad prevista se realiza en un nivel agregado, el sis
 
 También puede realizar ajustes manuales en la página **Líneas de previsión de la demanda**, modificando el valor **Cantidad total** o las celdas de **Cantidad** en la cuadrícula de agregación.
 
-## Visualización de los detalles de la previsión
-<a id="viewing-details-of-the-forecast" class="xliff"></a>
+## <a name="viewing-details-of-the-forecast"></a>Visualización de los detalles de la previsión
 Puede abrir la página **Detalles de previsión de la demanda** para ver más información acerca de la previsión. 
 
 La página **Detalles de previsión de la demanda** muestra la siguiente información en un formato gráfico y tabular:
@@ -81,8 +77,7 @@ La página **Detalles de previsión de la demanda** muestra la siguiente informa
 
 También puede realizar ajustes manuales en la previsión en la página **Detalles de previsión de la demanda**, modificando los valores en la fila **Previsión** en la sección **Previsión**.
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Supervisión de la precisión de previsión](monitor-forecast-accuracy.md)

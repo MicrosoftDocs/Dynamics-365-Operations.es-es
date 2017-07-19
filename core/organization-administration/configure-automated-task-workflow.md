@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: sericks
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192061
 ms.assetid: c0aceb57-b5e6-4ef3-91e7-89a21c9f048a
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,11 +23,9 @@ ms.openlocfilehash: 66f1b8e03cc0da5d21fea9b3c795d8f4097c8cfc
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Configuración de una tarea automatizada en un flujo de trabajo
-<a id="configure-an-automated-task-in-a-workflow" class="xliff"></a>
+# <a name="configure-an-automated-task-in-a-workflow"></a>Configuración de una tarea automatizada en un flujo de trabajo
 
 [!include[banner](../includes/banner.md)]
 
@@ -35,15 +34,13 @@ Este tema explica cómo configurar las propiedades de una tarea automatizada.
 
 Para configurar una tarea automatizada en el editor de flujo de trabajo, haga clic con el botón secundario en la tarea y, a continuación, haga clic en **Propiedades** para abrir la página **Propiedades**. A continuación, use los siguientes procedimientos para configurar las propiedades de la tarea automatizada.
 
-## Asignación de un nombre a la tarea
-<a id="name-the-task" class="xliff"></a>
+## <a name="name-the-task"></a>Asignación de un nombre a la tarea
 Siga estos pasos para asignar un nombre a la tarea automatizada.
 
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
 2.  En el campo **Nombre**, especifique un nombre único para la tarea.
 
-## Especificación del momento en que se envían notificaciones
-<a id="specify-when-notifications-are-sent" class="xliff"></a>
+## <a name="specify-when-notifications-are-sent"></a>Especificación del momento en que se envían notificaciones
 Puede enviar notificaciones cuando se ha ejecutado o cancelado una tarea automatizada. Siga estos pasos para especificar cuándo se deben enviar notificaciones y a quiénes se deben enviar.
 
 1.  En el panel izquierdo, haga clic en **Notificaciones**.

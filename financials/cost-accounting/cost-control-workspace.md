@@ -10,13 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
@@ -24,25 +25,21 @@ ms.openlocfilehash: 5c5f06d1a518963738e446b5032261059d98bf13
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
 
-
 ---
 
-# Visión general del Control de costes
-<a id="cost-control-overview" class="xliff"></a> 
+# <a name="cost-control-overview"></a>Visión general del Control de costes 
 
 [!include[banner](../includes/banner.md)]
 
 El espacio de trabajo **Control de costes** es un punto central donde los directores responsables de supervisar un objeto de coste o un conjunto de objetos de coste dentro de una dimensión o a través de dimensiones (por ejemplo, centros de coste y grupos de producto) pueden obtener acceso a los informes. Los informes del espacio de trabajo se gestionan plenamente por contables de coste, de modo que el diseño y los datos que se usan para informes sean coherentes a través de toda la organización.
 
-## Configuración del espacio de trabajo del control de costes
-<a id="cost-control-workspace-configuration" class="xliff"></a>
+## <a name="cost-control-workspace-configuration"></a>Configuración del espacio de trabajo del control de costes
 
 Los contables de coste pueden definir tantas configuraciones de informe como sean necesarios para la composición o el diseño deseados de los datos. Una configuración de informe consta de seis secciones, cada una de la cuales contribuye a la selección de la composición de datos de destino o al diseño.
 
 Para configurar un espacio de trabajo de control de costes, haga clic en **Contabilidad de costes** \> **Configuración** \> **Configuración del espacio de trabajo del control de costes**.
 
-### General
-<a id="general" class="xliff"></a>
+### <a name="general"></a>General
 
 En la FastTab **General**, puede crear un diseño de informe único. El nombre del informe será un identificador único que los usuarios podrán reconocer en el espacio de trabajo **Control de costes**. También puede especificar si el informe se debe compartir o mantener en el ámbito interno para los contables de costes.
 
@@ -52,8 +49,7 @@ En la FastTab **General**, puede crear un diseño de informe único. El nombre d
 | Descripción | Indique una descripción detallada. |
 | Publicado   | Si configura este campo en **Sí**, un usuario que esté asignado a uno de los roles siguientes puede ver el informe en el espacio de trabajo **Control de costes**:<ul><li>Administrador de contabilidad de costes</li><li>Contable de costes</li><li>Contable de costes</li><li>Controlador de objeto de coste</li></ul>Si configura este campo en **No**, solo los usuarios que estén asignados a uno de los roles siguientes pueden ver el informe en el espacio de trabajo **Control de costes**:<ul><li>Administrador de contabilidad de costes</li><li>Contable de costes</li><li>Contable de costes</li></ul> |
 
-### Filtrado de datos
-<a id="data-filtering" class="xliff"></a>
+### <a name="data-filtering"></a>Filtrado de datos
 
 En el FastTab **Filtrado de datos**, se definen los datos base para el informe. Los usuarios de este informe verán valores en el informe después de que se hayan procesado los datos de origen.
 
@@ -66,8 +62,7 @@ En el FastTab **Filtrado de datos**, se definen los datos base para el informe. 
 | Versión original del presupuesto                                           | Seleccione el identificador de la versión del presupuesto que actúe como el presupuesto original en el contexto de este informe. |
 | Versión revisada del presupuesto                                            | Seleccione el identificador de la versión del presupuesto que actúe como el presupuesto revisado en el contexto de este informe. |
 
-### Asignación de registros de cálculo
-<a id="assign-calculation-records" class="xliff"></a>
+### <a name="assign-calculation-records"></a>Asignación de registros de cálculo
 
 El cálculo de gastos generales lleva a cabo varios pasos de cálculo sobre los datos de origen, como clasificación del comportamiento de los costes, la distribución de costes y la asignación de costes. Los cálculos de los gastos generales se pueden realizar para el mismo período fiscal, en caso de que se detecte que faltan datos de origen o que haya que actualizar reglas. Cada cálculo de gastos generales se guarda con un identificador único. El contable de costes puede seleccionar un identificador de cálculo de gastos generales específico. Los usuarios del informe, como los directores, verán los resultados del cálculo de gastos generales en el espacio de trabajo **Control de costes**.
 
@@ -78,8 +73,7 @@ El cálculo de gastos generales lleva a cabo varios pasos de cálculo sobre los 
 | Versión de presupuesto         | Seleccione el identificador de cálculo de gastos generales adecuado. |
 | Versión de presupuesto revisado | Seleccione el identificador de cálculo de gastos generales adecuado. |
 
-### Períodos fiscales por columna
-<a id="fiscal-periods-per-column" class="xliff"></a>
+### <a name="fiscal-periods-per-column"></a>Períodos fiscales por columna
 
 En el FastTab **Períodos fiscales por columna**, el contable de costes elige qué período fiscal debe aparecer en el diseño del informe.
 
@@ -92,8 +86,7 @@ Los valores de las columnas seleccionados se multiplicarán por los valores sele
 | Año hasta la fecha         | Aparece el año hasta la fecha. Se usa la siguiente fórmula:<br>YearToDate (periodo fiscal actual)<blockquote>[!NOTE]<br>De forma predeterminada, el periodo actual se determina por la fecha de la sesión. En el espacio de trabajo **Control de costes**, se puede seleccionar un período fiscal específico. El valor seleccionado representa el período actual y el valor de **Año hasta la fecha** se actualizará en consecuencia.</blockquote> |
 | Año hasta la fecha, promedio | Aparece el promedio del año hasta la fecha. Se usa la siguiente fórmula:<br>(YearToDate [Periodo fiscal actual]) ÷ (Recuento [Periodo fiscal actual])<p><strong>Ejemplo </strong></p><ul><li>**Miembro de dimensión estadística:** empleados a jornada completa</li><li>**Fecha actual:** 3-21-2017</li><li>**Período:** período fiscal 1, período fiscal 2, período fiscal 3</li><li>**Magnitud:** 10, 10, 12</li></ul>En este caso, **Año hasta la fecha, promedio** = (10 + 10 + 12) ÷ 3 = 10,67<p>El valor de **Año hasta la fecha, promedio** se puede calcular para los miembros de la dimensión de elementos de coste y los miembros de la dimensión estadística.</p><blockquote>[!NOTE]<br>De forma predeterminada, el periodo actual se determina por la fecha de la sesión. En el espacio de trabajo **Control de costes**, se puede seleccionar un período fiscal específico. El valor seleccionado representa el período actual y los valores de **Año hasta la fecha** y **Año hasta la fecha, promedio** se actualizarán en consecuencia.</blockquote> |
 
-### Columnas para mostrar de costes
-<a id="columns-to-display-for-costs" class="xliff"></a>
+### <a name="columns-to-display-for-costs"></a>Columnas para mostrar de costes
 
 En el FastTab **Columnas para mostrar de costes**, el contable de costes elige qué columnas debe contener el diseño del informe. Existen tres categorías: Coste fijo, Coste variable y Coste sin clasificar.
 
@@ -105,8 +98,7 @@ En el FastTab **Columnas para mostrar de costes**, el contable de costes elige q
 | Coste total            | Este tipo de columna muestra el coste total (coste sin clasificar, coste fijo y coste variable).<blockquote>[!NOTE]<br>El tipo de columna mostrará el saldo en todo momento.</blockquote> |
 | Coste sin clasificar     | Este tipo de columna mostrará el coste sin clasificar.<blockquote>[!NOTE]<br>Esta columna se puede usar para validar si todos los costes se han ordenado correctamente por el cálculo de gastos generales o si las reglas del comportamiento de costes se deben ajustar.</blockquote> |
 
-### Columnas para mostrar de costes presupuestados
-<a id="columns-to-display-for-budgeted-costs" class="xliff"></a>
+### <a name="columns-to-display-for-budgeted-costs"></a>Columnas para mostrar de costes presupuestados
 
 En el FastTab **Columnas para mostrar de costes presupuestados**, el contable de costes elige qué columnas deben mostrarse para las versiones del presupuesto seleccionadas. Las selecciones individuales se pueden realizar para el presupuesto original y revisado.
 
@@ -122,8 +114,7 @@ En el FastTab **Columnas para mostrar de costes presupuestados**, el contable de
 | Umbral de desviación del año   | Establezca un umbral para la desviación en el importe monetario para el año. Si se supera el umbral, la línea se destaca en rojo en el espacio de trabajo **Control de costes**. |
 | % de umbral de desviación      | Establezca un umbral para la desviación en porcentaje. Si se supera el umbral, la línea se destaca en rojo en el espacio de trabajo **Control de costes**.<blockquote>[!NOTE]<br>El mismo umbral en porcentaje se aplica al período actual y al año.</blockquote> |
 
-## Espacio de trabajo de control de costes
-<a id="cost-control-workspace" class="xliff"></a>
+## <a name="cost-control-workspace"></a>Espacio de trabajo de control de costes
 
 El espacio de trabajo **Control de costes** está diseñado como un informe web. Por lo tanto, todos los directores responsables de un objeto de coste pueden obtener permiso de acceso como se describe en [Definir los derechos de acceso de un controlador de objeto de coste](access-rights-cost-object-controller.md).
 
@@ -137,13 +128,11 @@ Los valores del período del calendario fiscal están determinados por el nombre
 
 En la jerarquía de la dimensión del objeto de coste, los usuarios pueden seleccionar el nivel de agregación en el que los saldos se deben mostrar. Al habilitar la seguridad de nivel de acceso, controla los permisos, de modo que los usuarios pueden seleccionar solo los niveles de la jerarquía a la que se les haya concedido el acceso. Por lo tanto, solo pueden ver los saldos agregados para los que se les ha concedido acceso.
 
-### Agregar o quitar columnas
-<a id="add-or-remove-columns" class="xliff"></a>
+### <a name="add-or-remove-columns"></a>Agregar o quitar columnas
 
 Los usuarios pueden personalizar las columnas de un informe para que se adapte a sus requisitos.
 
-### Ver detalles
-<a id="view-details" class="xliff"></a>
+### <a name="view-details"></a>Ver detalles
 
 Los usuarios pueden explorar los detalles de los saldos que se muestran en el espacio de trabajo. Si los usuarios seleccionan un nodo de la jerarquía de dimensiones del elemento de coste y, a continuación, hacen clic en **Detalles de la vista**, el cuadro **Detalles del elemento de coste** muestra la información detallada del nodo.
 

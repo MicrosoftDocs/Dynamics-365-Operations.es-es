@@ -10,14 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventCostOnhandItem
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19451
 ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
@@ -25,19 +25,16 @@ ms.openlocfilehash: 823d3edd106925339607d01fbf5f1921b85ff244
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Objetos de coste
-<a id="cost-objects" class="xliff"></a>
+# <a name="cost-objects"></a>Objetos de coste
 
 [!include[banner](../includes/banner.md)]
 
 
 Este artículo proporciona información sobre objetos de costes y explica cómo se acumulan los costes y las cantidades. Un objeto de coste es una entidad para la que se acumulan los costes y las cantidades. Una entidad de objeto de coste puede ser producto o variantes de producto, como variantes para estilo y color.  
 
-Objetos de coste
-<a id="cost-objects" class="xliff"></a>
+<a name="cost-objects"></a>Objetos de coste
 ------------
 
 La página **Objetos de coste** muestra todos los objetos de coste que se registran en un producto. Los objetos de coste se definen por datos desde los siguientes orígenes:
@@ -60,8 +57,7 @@ La tabla siguiente muestra qué es un objeto de coste y qué es un objeto de inv
 | Objeto de coste      | x           | x    |           |           |
 | Objeto de inventario | x           | x    |  x        | x         |
 
-## Acumulación de costes y cantidades
-<a id="accumulation-of-costs-and-quantities" class="xliff"></a>
+## <a name="accumulation-of-costs-and-quantities"></a>Acumulación de costes y cantidades
 -   El valor del campo **Valor** es una suma de los valores siguientes:
     -   Importe de coste físico
     -   Importe de coste financiero
@@ -74,8 +70,7 @@ La tabla siguiente muestra qué es un objeto de coste y qué es un objeto de inv
 
 **Nota**: El parámetro **Incluir valor físico en coste** no tiene ningún efecto en los cálculos precedentes.
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Grupo de dimensiones de producto](https://technet.microsoft.com/en-us/library/aa499382.aspx)

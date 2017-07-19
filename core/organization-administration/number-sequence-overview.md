@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: sericks
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15461
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,11 +23,9 @@ ms.openlocfilehash: d260f460bf0da072eb46909d8c28d18041ecaa78
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Información general de secuencias numéricas
-<a id="number-sequence-overview" class="xliff"></a>
+# <a name="number-sequence-overview"></a>Información general de secuencias numéricas
 
 [!include[banner](../includes/banner.md)]
 
@@ -38,8 +37,7 @@ Ejemplos de secuencia numérica
 ------------------------
 
 En los siguientes ejemplos se muestra cómo usar segmentos para crear formatos de secuencia numérica. En concreto, en los ejemplos se muestran los efectos del uso de segmentos de ámbito.
-### Números de informes de gastos
-<a id="expense-report-numbers" class="xliff"></a>
+### <a name="expense-report-numbers"></a>Números de informes de gastos
 
 En el siguiente ejemplo, los números de informe de gastos se configuran para la entidad jurídica titulada **CS**. **Área:** Viajes y gastos **Referencia:** Número del informe de gastos **Ámbito:** Entidad jurídica **Entidad jurídica** CS
 | Segmentos  | Tipo de segmento | Valor     |
@@ -50,8 +48,7 @@ En el siguiente ejemplo, los números de informe de gastos se configuran para la
 
 **Ejemplo de número con formato**: CS-EXPENSE-0039 Puede configurar un formato de secuencia numérica similar para otras entidades jurídicas. Por ejemplo, para una entidad jurídica que se denomina **RW**, si cambia únicamente el valor del segmento de la entidad jurídica, el número con formato es RW-EXPENSE-0039. También puede cambiar el formato de secuencia numérica completo para otras entidades jurídicas. Por ejemplo, puede omitir el segmento de ámbito de entidad jurídica para crear un número con formato como Exp-0001.
 
-### Números de pedidos de ventas
-<a id="sales-order-numbers" class="xliff"></a>
+### <a name="sales-order-numbers"></a>Números de pedidos de ventas
 
 En el siguiente ejemplo, los números de pedidos de ventas se configuran para el id. de empresa **CEU**. **Área:** Ventas **Referencia:** Pedido de ventas **Ámbito:** Empresa **Empresa:** CEU
 | Segmentos  | Tipo de segmento | Valor    |
@@ -61,8 +58,7 @@ En el siguiente ejemplo, los números de pedidos de ventas se configuran para el
 
 **Ejemplo de número con formato**: SO-0029 Aunque no se incluye un segmento de ámbito en el formato, la numeración se reinicia para cada identificador de empresa. Si usa el mismo formato para todos los id. de empresa, se usan los mismos números en cada empresa. Por ejemplo, el número de pedido de ventas SO-0029 se usa en cada empresa. También puede cambiar el formato de secuencia numérica completo para otros id. de empresa.
 
-### Números de solicitudes de compra
-<a id="purchase-requisition-numbers" class="xliff"></a>
+### <a name="purchase-requisition-numbers"></a>Números de solicitudes de compra
 
 En el siguiente ejemplo, los números de solicitudes de compra son para toda la organización. **Área:** Compra **Referencia:** Solicitud de compra **Ámbito:** Compartido
 | Segmentos  | Tipo de segmento | Valor    |
@@ -74,13 +70,11 @@ En el siguiente ejemplo, los números de solicitudes de compra son para toda la 
 -----------------------------------------------
 
 Tenga en cuenta la siguiente información acerca de la manera en que la configuración de las secuencias numéricas puede afectar al rendimiento del sistema para poder configurar secuencias numéricas.
-### Secuencias numéricas continuas y no continuas
-<a id="continuous-and-non-continuous-number-sequences" class="xliff"></a>
+### <a name="continuous-and-non-continuous-number-sequences"></a>Secuencias numéricas continuas y no continuas
 
 Las secuencias numéricas pueden ser continuas o no continuas. Una secuencia numérica continua no omite ningún número aunque los números no se pueden usar secuencialmente. Los números de una secuencia numérica no continua se usan secuencialmente pero la secuencia numérica puede omitir números. Por ejemplo, si un usuario cancela una transacción, se genera un número, aunque no se usa. En una secuencia numérica continua, dicho número se recicla posteriormente. En una secuencia numérica no continua, no se usa el número. Las secuencias numéricas continuas se necesitan normalmente para documentos externos, como pedidos de compra, pedidos de ventas y facturas. Sin embargo, las secuencias numéricas continuas pueden afectar de manera adversa los tiempos de respuesta del sistema porque el sistema debe solicitar un número de la base de datos cada vez que se crea un registro o documento nuevo. Si usa una secuencia numérica no continua, puede habilitar **Asignación previa** en la ficha desplegable **Rendimiento** de la página **Secuencias numéricas**. Al especificar una cantidad de números para preasignación, el sistema selecciona dichos números y los almacena en memoria. Los nuevos números se solicitan de la base de datos solo después de que se haya usado la cantidad preasignada. A menos que haya una norma legal para usar secuencias numéricas continuas, se recomienda usar las secuencias numéricas no continuas para un mejor rendimiento.
 
-### Limpieza automática de secuencias numéricas
-<a id="automatic-cleanup-of-number-sequences" class="xliff"></a>
+### <a name="automatic-cleanup-of-number-sequences"></a>Limpieza automática de secuencias numéricas
 
 En caso de fallo eléctrico, un error de aplicación u otro error inesperado, el sistema no podrá reciclar números de manera automática para las secuencias numéricas continuas. Puede ejecutar el proceso de limpieza manualmente o automáticamente para recuperar los números perdidos. Valore detenidamente el uso del servidor al planificar el proceso de limpieza. Es recomendable que realice la limpieza como un trabajo por lotes durante las horas de menor demanda.
 

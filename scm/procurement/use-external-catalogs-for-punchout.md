@@ -10,12 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
@@ -23,11 +24,9 @@ ms.openlocfilehash: 01955aefb27bd18809b35fd025c9dd1b8eb70520
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
 
-
 ---
 
-# Usar catálogos externos para la adquisición electrónica de marcaje de salida
-<a id="use-external-catalogs-for-punchout-eprocurement" class="xliff"></a>
+# <a name="use-external-catalogs-for-punchout-eprocurement"></a>Usar catálogos externos para la adquisición electrónica de marcaje de salida
 Mediante los catálogos externos para la adquisición electrónica de marcaje de salida, no tiene que mantener información sobre los productos de los proveedores en sus propios datos maestros. En su lugar, el carro de la compra en la página web de un proveedor se convierte en las líneas de la solicitud con la información correcta de producto. 
 
 Debe evitar mantener las descripciones y los precios de los productos de los proveedores en sus propios datos de producto maestro. Es mejor usar catálogos externos para la adquisición electrónica de marcaje de salida. A continuación, cuando los empleados creen solicitudes, pueden consultar el sitio del catálogo externo del proveedor (es decir, salir del sistema y dirigirse al sitio del proveedor). Los productos que se agregan al carro de la compra en la página web del proveedor se pueden convertir a continuación en líneas de solicitud. Por lo tanto, se recopila la información de producto correcta: identificador, nombre, precio y demás datos del producto.

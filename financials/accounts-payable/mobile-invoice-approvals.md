@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: sunilg
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
@@ -22,19 +23,16 @@ ms.openlocfilehash: 0ca4ebdca1fce3863a50abf19a071af1f1c425e0
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
 
-
 ---
 
-# Aprobaciones de factura móvil
-<a id="mobile-invoice-approvals" class="xliff"></a>
+# <a name="mobile-invoice-approvals"></a>Aprobaciones de factura móvil
 
 [!include[banner](../includes/banner.md)]
 
 
 Las capacidades móviles de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, permiten a un usuario empresarial diseñar experiencias móviles. Para situaciones avanzadas, la plataforma también permite a los desarrolladores ampliar las capacidades como desean. La forma más eficaz de aprender algunos de los conceptos nuevos sobre capacidades móviles es pasar por el proceso de diseño de algunos escenarios. Este tema está pensando para proporcionar un método práctico de diseñar escenarios móviles con las aprobaciones de facturas de proveedores para aplicaciones móviles como un caso de uso. Este tema le ayudará a diseñar otras variaciones de los escenarios y se puede aplicar a otros escenarios que no están relacionados con las facturas de proveedores.
 
-Requisitos previos
-<a id="prerequisites" class="xliff"></a>
+<a name="prerequisites"></a>Requisitos previos
 -------------
 
 | Requisito previo                                                                                            | Descripción                                                                                                                                                          |
@@ -46,8 +44,7 @@ Requisitos previos
 | Instalar revisión KB 3208224.                                                                              | El código de la aplicación para la aplicación de aprobación de facturas de proveedores móviles se incluye en la aplicación 7.0.1 de Microsoft Dynamics AX (mayo de 2016).                          |
 | Un dispositivo Android, iOS o Windows que tengan la aplicación móvil instalada para Finance and Operations | Busque la aplicación en la tienda de aplicaciones apropiada.                                                                                                                     |
 
-## Introducción
-<a id="introduction" class="xliff"></a>
+## <a name="introduction"></a>Introducción
 Las aprobaciones móviles para las facturas de proveedor requieren la tres revisiones mencionadas en la sección de los requisititos previos. Estas revisiones no proporcionan un espacio de trabajo para las aprobaciones de facturas. Para saber qué es un espacio de trabajo en el contexto de las aplicaciones móviles, lea el manual referido en la sección de los requisitos previos. Se debe diseñar un espacio de trabajo para aprobaciones de facturas. 
 
 Cada organización articula y define su proceso empresarial para las facturas de proveedores de forma diferente. Antes de diseñar una experiencia móvil para las aprobaciones de la facturas de proveedores, debe tener en cuenta los siguientes aspectos del proceso empresarial. La idea es usar estos puntos de datos tanto como sea posible para optimizar la experiencia del usuario en el dispositivo.
@@ -68,8 +65,7 @@ El diseño de la experiencia móvil de las aprobaciones de facturas variará, en
 
 Como orientación general, al trabajar con el diseñador para aplicaciones móviles, asegúrese de “publicar” los cambios para evitar perder las actualizaciones.
 
-## Diseñar una situación de ejemplo sencillo de aprobación de facturas para Contoso
-<a id="designing-a-simple-invoice-approval-scenario-for-contoso" class="xliff"></a>
+## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Diseñar una situación de ejemplo sencillo de aprobación de facturas para Contoso
 <table>
 <colgroup>
 <col width="50%" />
@@ -128,8 +124,7 @@ Como orientación general, al trabajar con el diseñador para aplicaciones móvi
 </tbody>
 </table>
 
-### Crear el espacio de trabajo
-<a id="create-the-workspace" class="xliff"></a>
+### <a name="create-the-workspace"></a>Crear el espacio de trabajo
 
 1.  En un explorador, abra Finance and Operations e inicie sesión.
 2.  Una vez que haya iniciado sesión, agregue **&mode=mobile** a la dirección URL como se muestra en el siguiente ejemplo, y actualice la página: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**
@@ -141,8 +136,7 @@ Como orientación general, al trabajar con el diseñador para aplicaciones móvi
 8.  Haga clic en **Listo**
 9.  Haga clic en **Publicar espacio de trabajo** para guardar los cambios
 
-### Facturas de proveedor asignadas al usuario
-<a id="vendor-invoices-assigned-to-me" class="xliff"></a>
+### <a name="vendor-invoices-assigned-to-me"></a>Facturas de proveedor asignadas al usuario
 
 La primera página para aplicaciones móviles que debe diseñar es la lista de facturas que se asignan al usuario para revisión. Para diseñar esta página para aplicaciones móviles, use la página **VendMobileInvoiceAssignedToMeListPage** en Finance and Operations. Para completar este procedimiento, asegúrese de que al menos se le asigna una factura de proveedores para revisión, y que la línea de factura tiene dos distribuciones. Esta configuración cumple los requisitos para este supuesto.
 
@@ -175,8 +169,7 @@ La primera página para aplicaciones móviles que debe diseñar es la lista de f
 12. Haga clic en **Publicar espacio de trabajo** para guardar el trabajo.
 13. Habilite **Mostrar total factura en lista de facturas de proveedor pendiente** en los parámetros de proveedores desde **Factura**. Tenga en cuenta que, al habilitar este parámetro, los totales de las facturas se calcularán para mostrarse en la página de la lista de facturas de proveedor pendientes. Esta es una nueva capacidad que forma parte de la revisión 3208224 del requisito previo.
 
-### Detalles de la factura de proveedor
-<a id="vendor-invoice-details" class="xliff"></a>
+### <a name="vendor-invoice-details"></a>Detalles de la factura de proveedor
 
 Para diseñar la página de detalles de la factura para móvil, use la página **VendMobileInvoiceHeaderDetails** en Finance and Operations. Tenga en cuenta que, en función del número de facturas que tiene en el sistema, esta página muestra la factura más antigua (la factura que se creó primero). Para buscar una factura específica, utilice el filtro a la izquierda. Sin embargo, no se requiere una factura concreta para este ejemplo. Simplemente requerimos algunos datos de la factura para que podamos diseñar la página para dispositivos móviles. [![Página del flujo de trabajo](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
@@ -211,13 +204,11 @@ Para diseñar la página de detalles de la factura para móvil, use la página *
 13. Haga clic en **Atrás** y, a continuación, **Listo** para salir del espacio de trabajo
 14. Haga clic en **Publicar espacio de trabajo** para guardar el trabajo
 
-### Acciones de flujo de trabajo
-<a id="workflow-actions" class="xliff"></a>
+### <a name="workflow-actions"></a>Acciones de flujo de trabajo
 
 Para agregar acciones de flujo, use la página **VendMobileInvoiceHeaderDetails** en Finance and Operations. Para abrir esta página, reemplace el nombre del elemento de menú de la dirección URL, como lo hizo anteriormente. Después, abra el diseñador para aplicaciones móviles desde el botón **Configuración** (engranaje). Siga estos pasos para agregar acciones de flujo de trabajo en la página de detalles. Debe tener facturas asignadas y que tengan un estado apropiado para que las acciones del flujo de trabajo para las que va a realizar el diseño estén disponibles.
 
-#### Registrar acciones de flujo de trabajo
-<a id="record-workflow-actions" class="xliff"></a>
+#### <a name="record-workflow-actions"></a>Registrar acciones de flujo de trabajo
 1.  Haga clic en el botón **Editar** para iniciar el modo de edición en el espacio de trabajo.
 2.  Seleccione la página **Mis facturas de proveedor** que ha creado antes y haga clic en **Editar**.
 3.  En la ficha **Acciones**, haga clic en **Agregar acción**.
@@ -231,8 +222,7 @@ Para agregar acciones de flujo, use la página **VendMobileInvoiceHeaderDetails*
 11. Haga clic en **Publicar espacio de trabajo** para guardar el trabajo
 12. Repita los pasos anteriores para registrar todas las acciones del flujo de trabajo necesarias. 
 
-#### Crear un archivo .js
-<a id="create-a-js-file" class="xliff"></a>
+#### <a name="create-a-js-file"></a>Crear un archivo .js
 1. Abra el Bloc de notas o Microsoft Visual Studio, y pegue el código siguiente. Guarde el archivo como archivo .js. Este código hace lo siguiente:
     - Oculta las columnas adicionales relacionadas con el flujo de trabajo adicionales que agregamos anteriormente en la página de la lista para dispositivos móviles. Agregamos estas columnas de modo que la aplicación tenga información en contexto y se pueda ir al paso siguiente.
     - Según el paso del flujo de trabajo que está activo, aplica la lógica para mostrar solo esas acciones.
@@ -304,8 +294,7 @@ Para agregar acciones de flujo, use la página **VendMobileInvoiceHeaderDetails*
 4.  Haga clic en **Atrás** y, a continuación, **Listo** para salir del espacio de trabajo
 5.  Haga clic en **Publicar espacio de trabajo** para guardar el trabajo
 
-### Datos adjuntos de la factura de proveedor
-<a id="vendor-invoice-attachments" class="xliff"></a>
+### <a name="vendor-invoice-attachments"></a>Datos adjuntos de la factura de proveedor
 
 1.  Haga clic en el botón **Configuración** (engranaje) en la parte superior derecha de la página y, a continuación, haga clic en **Aplicación móvil**
 2.  Haga clic en el botón **Editar** para iniciar el modo de edición en el espacio de trabajo.
@@ -316,8 +305,7 @@ Para agregar acciones de flujo, use la página **VendMobileInvoiceHeaderDetails*
 7.  Haga clic en **Atrás** y, a continuación, **Listo** para salir del espacio de trabajo
 8.  Haga clic en **Publicar espacio de trabajo** para guardar el trabajo
 
-### Distribuciones de línea de la factura de proveedor
-<a id="vendor-invoice-line-distributions" class="xliff"></a>
+### <a name="vendor-invoice-line-distributions"></a>Distribuciones de línea de la factura de proveedor
 
 Los requisitos para este escenario confirman que solo habrá distribuciones a nivel de línea y que las facturas serán siempre de una línea. Puesto que este escenario es sencillo, la experiencia del usuario en el dispositivo móvil también debe ser lo suficientemente sencilla para que el usuario no tenga que buscar en profundidad para ver las distribuciones. Las facturas de proveedor de Finance and Operations incluyen la opción para mostrar todas las distribuciones del encabezado de la factura. Esta experiencia es lo que necesitamos para el escenario de dispositivos móviles. Por lo tanto, utilizaremos la página **VendMobileInvoiceAllDistributionTree** para diseñar esta parte del escenario móvil. 
 
@@ -420,8 +408,7 @@ Los requisitos para este escenario confirman que solo habrá distribuciones a ni
 4.  Haga clic en **Atrás** y, a continuación, **Listo** para salir del espacio de trabajo
 5.  Haga clic en **Publicar espacio de trabajo** para guardar el trabajo
 
-### Validación
-<a id="validation" class="xliff"></a>
+### <a name="validation"></a>Validación
 
 Desde el dispositivo móvil, abra la aplicación y conéctese a la instancia de su instancia de Finance and Operations. Asegúrese de tener haber iniciado sesión en la empresa donde tenga asignadas las facturas de proveedores para revisión. Debería poder realizar las acciones siguientes:
 
@@ -433,8 +420,7 @@ Desde el dispositivo móvil, abra la aplicación y conéctese a la instancia de 
 -   En la página de detalles, ver un vínculo a la página **Ver contabilidad** y utilizarlo para navegar a la página de distribuciones y ver las distribuciones.
 -   En la página de detalles, haga clic en el menú **Acciones** de la parte inferior y realice las acciones del flujo de trabajo aplicables al paso del flujo de trabajo.
 
-## Diseñar un escenario de aprobación de factoras complejo para Fabrikam
-<a id="designing-a-complex-invoice-approval-scenario-for-fabrikam" class="xliff"></a>
+## <a name="designing-a-complex-invoice-approval-scenario-for-fabrikam"></a>Diseñar un escenario de aprobación de factoras complejo para Fabrikam
 <table>
 <colgroup>
 <col width="50%" />
@@ -493,8 +479,7 @@ Desde el dispositivo móvil, abra la aplicación y conéctese a la instancia de 
 </tbody>
 </table>
 
-### Pasos siguientes
-<a id="next-steps" class="xliff"></a>
+### <a name="next-steps"></a>Pasos siguientes
 
 Las variaciones siguientes se pueden realizar para el escenario 1, en función de los requisitos para el escenario 2. Puede usar esta sección para mejorar la experiencia móvil de la aplicación.
 

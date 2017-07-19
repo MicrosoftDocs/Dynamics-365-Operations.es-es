@@ -10,11 +10,12 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
+ms.reviewer: bis
 ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 30211
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
@@ -22,11 +23,9 @@ ms.openlocfilehash: a2ab719b971c325be184d1d950f6c03815e4cea2
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
 
-
 ---
 
-# Área de trabajo de móvil de la aprobación del pedido de compra
-<a id="purchase-order-approval-mobile-workspace" class="xliff"></a>
+# <a name="purchase-order-approval-mobile-workspace"></a>Área de trabajo de móvil de la aprobación del pedido de compra
 
 [!include[banner](../includes/banner.md)]
 
@@ -34,22 +33,18 @@ ms.lasthandoff: 06/20/2017
 
 Este tema proporciona información sobre el espacio de trabajo móvil **Aprobación del pedido de compra**. Este espacio de trabajo le permite ver pedidos de compra y responder a ellos con acciones. Por ejemplo, puede aprobar o rechazar un pedido de compra.
  
-## Información general
-<a id="overview" class="xliff"></a> 
+## <a name="overview"></a>Información general 
 Los pedidos de compra que requieren aprobación pasan por un flujo de trabajo de aprobación. El flujo de trabajo puede incluir varios pasos que requieren que una o más personas realicen una acción. Por ejemplo, una persona puede tener que completar una tarea o aprobar el pedido de compra. 
 
 El espacio de trabajo móvil **Aprobación de pedido de compra** le permite ver fácilmente y responder a los pedidos de compra desde el dispositivo móvil. Este espacio de trabajo también le permite realizar las mismas acciones que el cliente web de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
-## Requisitos previos
-<a id="prerequisites" class="xliff"></a>
+## <a name="prerequisites"></a>Requisitos previos
 Los requisitos varían en función de la versión de Finance and Operations que se haya implementado en su organización.
 
-### Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, actualización de julio 2017
-<a id="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update" class="xliff"></a> 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, actualización de julio 2017 
 Si Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017) se ha implementado en su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Aprobación del pedido de compra**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
 
-### Requisitos si usa Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior
-<a id="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later" class="xliff"></a>
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Requisitos si usa Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior
 Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior en su organización, el administrador del sistema debe cumplir los requisitos siguientes. 
 
 <table>
@@ -80,16 +75,14 @@ Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con ac
 </tbody>
 </table>
 
-## Descargar e instalar la aplicación móvil
-<a id="download-and-install-the-mobile-app" class="xliff"></a>
+## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
 Descargue e instale la aplicación móvil Microsoft Dynamics 365 for Unified Operations:
 
 - [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
 
-## Iniciar sesión en la aplicación móvil
-<a id="sign-in-to-the-mobile-app" class="xliff"></a>
+## <a name="sign-in-to-the-mobile-app"></a>Iniciar sesión en la aplicación móvil
 
 1. Inicie la aplicación en su dispositivo móvil.
 2. Escriba la dirección URL de Microsoft Dynamics 365.
@@ -98,16 +91,14 @@ Descargue e instale la aplicación móvil Microsoft Dynamics 365 for Unified Ope
 
 ![Espacio de trabajo de aprobación del pedido de compra en la lista de espacios de trabajo disponibles](./media/po-workspaces.png)
 
-## Visualización de los pedidos asignados al usuario
-<a id="view-orders-that-are-assigned-to-you" class="xliff"></a>
+## <a name="view-orders-that-are-assigned-to-you"></a>Visualización de los pedidos asignados al usuario
 1. En el dispositivo móvil, seleccione el espacio de trabajo **Aprobación del pedido de compra**.
 2. Seleccione **Pedidos asignados a mí** para ver todos los pedidos de compra para los que le han pedido tomar medidas en el flujo de trabajo de aprobación del pedido de compra.
 3. Seleccione un pedido. En la página **Detalles de pedido** , verá la información y las líneas de encabezado del pedido. También puede encontrar instrucciones de la tarea del flujo de trabajo.
 4. Seleccione **Distribuciones contables** para abrir la página **Distribuciones contables para el encabezado**.
 5. Vuelva a la página **Detalles de pedido** y seleccione una línea. Desde los detalles de la línea de pedido, también puede explorar las distribuciones contables específicas de línea.
 
-## Realice una acción en el pedido de compra
-<a id="complete-an-action-on-the-purchase-order" class="xliff"></a>
+## <a name="complete-an-action-on-the-purchase-order"></a>Realice una acción en el pedido de compra
 Una vez que haya visualizado el pedido de compra que se le ha asignado y leído las instrucciones del flujo de trabajo, debe estar listo para tomar medidas.
 
 1. En el dispositivo móvil, seleccione el espacio de trabajo **Aprobación del pedido de compra**.

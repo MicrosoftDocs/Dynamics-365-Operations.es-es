@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
 ms.author: abruer
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,11 +23,9 @@ ms.openlocfilehash: 31040ff14b99a9b351268feb88698ac706befb55
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Asiento único con varios registros de cliente o proveedor
-<a id="single-voucher-with-multiple-customer-or-vendor-records" class="xliff"></a>
+# <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Asiento único con varios registros de cliente o proveedor
 
 [!include[banner](../includes/banner.md)]
 
@@ -46,12 +45,10 @@ Este tema muestra cómo se procesará el acuerdo cuando se registre un asiento c
 -   Contabilidad de descento en efectivo
 -   Contabilidad de revalorización
 
-## Cómo afecta el acuerdo al uso del asiento único
-<a id="how-does-settlement-impact-single-voucher-usage" class="xliff"></a>
+## <a name="how-does-settlement-impact-single-voucher-usage"></a>Cómo afecta el acuerdo al uso del asiento único
 Al registrar un asiento que contiene varios registros de cliente o de proveedor, se crea un solo documento contable que contiene varios saldos de cuentas de clientes o proveedores. Durante el proceso de liquidación, las entradas contables originales se usan para crear las entradas contables para el descuento por pronto pago, las pérdidas y ganancias no realizadas, las pérdidas y ganancias realizadas y la liberación del extracto de cuenta del documento original. Por ejemplo, si se obtiene un descuento por pronto pago al liquidar un pago de proveedor a una factura, la contabilidad del descuento de efectivo debe registrarse en la cuenta contable de proveedores de la factura original. Si la factura original se ha registrado en un documento que contiene registros de varios proveedores, se resume la contabilidad original. En este caso, ya que no es posible tener acceso a la entrada contable detallada de cada transacción de proveedor en el documento único, no hay manera de determinar cómo pretendía el usuario contabilizar el descuento de efectivo.
 
-### Un documento con varios proveedores y el impacto en la contabilidad del descuento de efectivo
-<a id="one-voucher-with-multiple-vendors-and-the-impact-on-cash-discount-accounting" class="xliff"></a>
+### <a name="one-voucher-with-multiple-vendors-and-the-impact-on-cash-discount-accounting"></a>Un documento con varios proveedores y el impacto en la contabilidad del descuento de efectivo
 
 En el siguiente ejemplo, se registran varias facturas de proveedor en la Contabilidad general en un documento único en la página **Diario general**. Estas facturas se distribuyen a través de dimensiones de varias cuentas.
 
@@ -115,8 +112,7 @@ Ahora, cuando se pague INV2, se creará la siguiente entrada. Observe que las di
 | 14000056    | 520200-003-- | Descuento por pronto pago del proveedor |           | 3,00       |
 | 14000056    | 200110-001-  | Saldo del proveedor       | 3,00      |            |
 
-### Un documento con varios proveedores y el impacto en la contabilidad de pérdidas/ganancias realizadas
-<a id="one-voucher-with-multiple-vendors-and-the-impact-on-realized-gainloss-accounting" class="xliff"></a>
+### <a name="one-voucher-with-multiple-vendors-and-the-impact-on-realized-gainloss-accounting"></a>Un documento con varios proveedores y el impacto en la contabilidad de pérdidas/ganancias realizadas
 
 |             |                  |             |                 |           |            |                  |              |
 |-------------|------------------|-------------|-----------------|-----------|------------|------------------|--------------|
@@ -165,8 +161,7 @@ Ahora, cuando se pague INV2, se creará la siguiente entrada. Observe que las di
 | 14000056    | 801300-002- | Pérdida en el ajuste del cambio | 0,00                                     | 2.00                                    |
 | 14000056    | 200110-001- | Saldo del proveedor     |                                          | -2,00                                   |
 
-## Un documento para las transferencias de saldo y las situaciones de compensación
-<a id="one-voucher-for-balance-transfers-and-netting-scenarios" class="xliff"></a>
+## <a name="one-voucher-for-balance-transfers-and-netting-scenarios"></a>Un documento para las transferencias de saldo y las situaciones de compensación
 Dos situaciones de uso general que utilizan un documento que contiene varios clientes o proveedores incluyen las transferencias de saldos de un lciente/proveedor a otro cliente/proveedor, y la compensación de un cliente y un proveedor que son la misma organización. Los dos ejemplos siguientes muestran el método preferido para especificar estas situaciones en Finance and Operations, como alternativa a incorporarlas en un documento. 
 
 Una *transferencia de saldo* es un documento con varios clientes, inscritos con el fin de transferir el saldo de un cliente a otro cliente (lo mismo para proveedores). Esta situación puede ocurrir cuando la responsabilidad de pagar las facturas se traspasa a otra parte, como una empresa secundaria que traspasa la responsabilidad a la empresa matriz. 
@@ -238,8 +233,7 @@ En el asiento relacionado para el descuento de efectivo, se usarán las dimensio
 
 ### 
 
-## Un documento con una compensación para varios clientes y proveedores
-<a id="one-voucher-with-a-netting-for-multiple-customers-and-vendors" class="xliff"></a>
+## <a name="one-voucher-with-a-netting-for-multiple-customers-and-vendors"></a>Un documento con una compensación para varios clientes y proveedores
 La compensación puede ser útil cuando una organización compra y vende a la misma empresa. En lugar de pagar las facturas de proveedor y esperar a recibir el pago para las facturas de cliente, se compensan las facturas de proveedor y cliente. La transacción de compensación se liquida con los saldos pendientes. 
 
 Para mostrarlo, supongamos que el proveedor 1001 y el cliente US-008 son la misma entidad, por lo que la organización desea compensar los saldos de proveedores y clientes antes de pagar/recibir el saldo restante. Suponga que el registro de cliente debe 75,00 EUR y el registro de proveedor debe 100,00 EUR, lo que significa que preferiría compensar los balances y pagar solo al proveedor 25,00 EUR. Supongamos que la divisa de contabilidad es USD. En este caso, se especifica una transacción de compensación en un documento del diario de la cuenta de proveedores.

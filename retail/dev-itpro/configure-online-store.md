@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: robinr
 ms.search.scope: AX 7.0.0, Operations, Retail, UnifiedOperations
 ms.custom: 31541
 ms.assetid: 7a25f9b4-a0bb-4e8c-95c0-c0799ec0620d
 ms.search.region: Global
 ms.author: meeram
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
@@ -22,11 +23,9 @@ ms.openlocfilehash: 1191ad3180544a70668aef8dbdb4f0a3d8bfc937
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
 
-
 ---
 
-# Configurar una tienda en línea
-<a id="configure-an-online-store" class="xliff"></a>
+# <a name="configure-an-online-store"></a>Configurar una tienda en línea
 
 [!include[banner](../includes/banner.md)]
 
@@ -34,8 +33,7 @@ Este artículo proporciona vínculos a temas que le ayudarán a configurar y adm
 
 Los temas que aparecen en la siguiente tabla le ayudarán a configurar los componentes de Retail y una tienda en línea de Retail en el cliente.
 
-## Configurar una tienda en línea
-<a id="configure-an-online-store" class="xliff"></a>
+## <a name="configure-an-online-store"></a>Configurar una tienda en línea
 | Tarea                                                | Detalles                                                                                                                                                                                                                                                                                                                                                   | Temas                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configurar los componentes de Retail.                        | Configurar y mantener información para las operaciones minoristas. Esta información incluye tiendas, impuestos, productos, tarjetas regalo, promociones y descuentos.                                                                                                                                                                                                          | [Configuración y mantenimiento de Retail](https://technet.microsoft.com/en-us/library/hh597201.aspx) (contenido TechNet para Microsoft Dynamics AX 2012)                                                                                                                                                                                                                                                                                          |
@@ -44,8 +42,7 @@ Los temas que aparecen en la siguiente tabla le ayudarán a configurar los compo
 | Agregar modos de entrega a la tienda en línea.          | Seleccione los métodos de entrega que ofrece la tienda en línea.                                                                                                                                                                                                                                                                                                 | [Configurar una tienda en línea](https://technet.microsoft.com/en-us/library/jj682095.aspx) (contenido TechNet para Microsoft AX 2012)                                                                                                                                                                                                                                                                                                     |
 | Asignar atributos y agregar metadatos.                   | Seleccione las opciones que indican cómo los atributos para cada categoría o producto de canal deben comportarse en la tienda en línea en el sitio de Microsoft SharePoint.                                                                                                                                                                                              | [Configurar una tienda en línea](https://technet.microsoft.com/en-us/library/jj682095.aspx) (contenido TechNet para AX 2012)                                                                                                                                                                                                                                                                                                     |
 
-## Configurar los productos de la tienda en línea
-<a id="configure-online-store-products" class="xliff"></a>
+## <a name="configure-online-store-products"></a>Configurar los productos de la tienda en línea
 | Tarea                                 | Detalles                                                                                                                                           | Temas                                                                                                                                                                                                                                                                            |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Agregar selecciones a la tienda en línea. | Agregar los surtidos que incluyan los productos que ofrece en la tienda en línea.                                                                  | [Configurar una tienda en línea](https://technet.microsoft.com/en-us/library/jj682095.aspx) (contenido TechNet para AX 2012)                                                                                                                                              |
@@ -55,8 +52,7 @@ Los temas que aparecen en la siguiente tabla le ayudarán a configurar los compo
 | Administrar gastos de envío.             | Configurar y administrar los gastos de envío que son específicos de la tienda en línea.                                                                     | [Configurar los gastos de envío de artículos para tiendas en línea](https://technet.microsoft.com/en-us/library/jj728714.aspx) (contenido TechNet para AX 2012)                                                                                                                           |
 | Administrar modos de entrega.            | Administrar los modos de entrega que ofrece la tienda en línea.                                                                                        | [Configurar modos de entrega](https://technet.microsoft.com/en-us/library/jj728719.aspx) (contenido TechNet para AX 2012)                                                                                                                                            |
 
-## Configurar el intercambio de datos entre Microsoft Dynamics 365 for Retail y la tienda en línea.
-<a id="set-up-data-exchange-between-microsoft-dynamics-365-for-retail-and-the-online-store" class="xliff"></a>
+## <a name="set-up-data-exchange-between-microsoft-dynamics-365-for-retail-and-the-online-store"></a>Configurar el intercambio de datos entre Microsoft Dynamics 365 for Retail y la tienda en línea.
 | Tarea                                 | Detalles                                                                                                                               | Temas                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configurar perfiles de integración de canales. | Los perfiles permiten a los componentes de Retail comunicarse entre sí. Antes de configurar los ajustes del intercambio de datos, defina los perfiles. | [Configurar un perfil de Real-time Service](https://technet.microsoft.com/en-us/library/hh580631.aspx) (contenido TechNet para AX 2012) [Configurar un perfil de canal](https://technet.microsoft.com/en-us/library/jj677402.aspx) (contenido TechNet para AX 2012) |

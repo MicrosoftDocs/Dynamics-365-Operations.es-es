@@ -10,14 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: JmgProdParameters
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
 ms.industry: Manufacturing
 ms.author: johanhoffmann
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
@@ -27,8 +27,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Parámetros de producción en ejecución de fabricación
-<a id="production-parameters-in-manufacturing-execution" class="xliff"></a>
+# <a name="production-parameters-in-manufacturing-execution"></a>Parámetros de producción en ejecución de fabricación
 
 [!include[banner](../includes/banner.md)]
 
@@ -44,8 +43,7 @@ Considere atentamente las opciones de la página **Parámetros de producción** 
 - **Notificar como terminado**: parámetros que se usan cuando los artículos se informan como terminados en la última operación de un pedido de producción.
 - **Validación de cantidades**: parámetros que se usan para validar las cantidades de realimentación y de inicio en pedidos de producción.
 
-## Tipos de trabajos de producción
-<a id="types-of-production-jobs" class="xliff"></a>
+## <a name="types-of-production-jobs"></a>Tipos de trabajos de producción
 En la ficha **Operaciones** puede seleccionar qué tipos de trabajos de producción requieren registro en la página **Registro del trabajo**.
 
 Normalmente, los trabajadores realizan registros en trabajos de configuración y de proceso. No obstante, si se aplica una programación de trabajos, puede seleccionar otros tipos de trabajos en los que el trabajador debe realizar registros al procesar un pedido de producción. Por ejemplo, puede exigir registros en los trabajos de transporte.
@@ -58,8 +56,7 @@ Si se selecciona **Gestión de trabajos** en el grupo de rutas, este tipo de tra
 > [!NOTE]
 > Algunos tipos de trabajo pueden notificarse manualmente a través de diarios de producción. En este caso, seleccione **Gestión de trabajos** para el tipo de trabajo, pero no seleccione el tipo de trabajo para su registro en la ficha **Operaciones** de la página **Parámetros de producción** en Ejecución de fabricación.
 
-## Consumo de la lista de materiales y diarios de listas de selección
-<a id="bom-consumption-and-picking-list-journals" class="xliff"></a>
+## <a name="bom-consumption-and-picking-list-journals"></a>Consumo de la lista de materiales y diarios de listas de selección
 Una configuración coherente para el consumo de lista de materiales (BOM) es importante, ya que ayuda a garantizar que la gestión del inventario es eficiente. Por ejemplo, si los parámetros del consumo de la lista de materiales no están configurados correctamente en Ejecución de fabricación, es posible que se deduzcan materiales del inventario dos veces o ninguna.
 
 En la página **Parámetros de producción**, el consumo automático de la lista de materiales se configura en tres fases:
@@ -91,8 +88,7 @@ Para cada fase, el campo **Consumo automático de L. MAT** permite seleccionar u
 
 En los ejemplos siguientes se muestran algunas configuraciones que admiten varios principios de consumo de L. MAT. Los parámetros se configuran en la página **Parámetros de producción** en la ejecución de fabricación.
 
-### Ejemplo 1: Flujo invertido de las operaciones
-<a id="example-1-backflushing-on-operations" class="xliff"></a>
+### <a name="example-1-backflushing-on-operations"></a>Ejemplo 1: Flujo invertido de las operaciones
 
 Use la configuración siguiente si se deberían generar diarios de listas de selección y el consumo de artículos de la lista de materiales cuando los artículos se notifican como terminados en una operación.
 
@@ -104,8 +100,7 @@ Use la configuración siguiente si se deberían generar diarios de listas de sel
 | Notificar como terminado | Consumo automático de L. MAT      | **Nunca**                           |
 | Notificar como terminado | Actualizar el registro en línea terminado | **Estado + cantidad**               |
 
-### Ejemplo 2: Flujo invertido de la producción
-<a id="example-2-backflushing-on-production" class="xliff"></a>
+### <a name="example-2-backflushing-on-production"></a>Ejemplo 2: Flujo invertido de la producción
 
 Use la configuración siguiente si se deberían generar diarios de listas de selección y el consumo de artículos de la lista de materiales cuando los artículos se notifican como terminados en el pedido de producción.
 
@@ -117,8 +112,7 @@ Use la configuración siguiente si se deberían generar diarios de listas de sel
 | Notificar como terminado | Consumo automático de L. MAT      | **Siempre**                          |
 | Notificar como terminado | Actualizar el registro en línea terminado | **Estado + cantidad**               |
 
-### Ejemplo 3: Principio de vaciado
-<a id="example-3-flushing-principle" class="xliff"></a>
+### <a name="example-3-flushing-principle"></a>Ejemplo 3: Principio de vaciado
 
 Use la configuración siguiente si se deberían generar diarios de listas de selección y el consumo de artículos de la lista de materiales según el principio de vaciado configurado para los artículos de la L. MAT.
 
@@ -130,8 +124,7 @@ Use la configuración siguiente si se deberían generar diarios de listas de sel
 | Notificar como terminado | Consumo automático de L. MAT      | **Nunca**              |
 | Notificar como terminado | Actualizar el registro en línea terminado | **Estado + cantidad**  |
 
-### Ejemplo 4: Deducción de materiales durante el inicio de un pedido de producción
-<a id="example-4-deduction-of-materials-during-startup-of-a-production-order" class="xliff"></a>
+### <a name="example-4-deduction-of-materials-during-startup-of-a-production-order"></a>Ejemplo 4: Deducción de materiales durante el inicio de un pedido de producción
 
 Use la configuración siguiente si se deberían generar diarios de listas de selección y el consumo de artículos de la lista de materiales cuando se inicia la producción.
 
@@ -149,8 +142,7 @@ En función de las selecciones descritas anteriormente en esta sección, los dia
 - Cuando se notifica una realimentación de cantidad en una operación.
 - Cuando los artículos se notifican como terminados en el pedido de producción.
 
-### Ejemplo 5: Consumo manual de la lista de materiales
-<a id="example-5-manual-bom-consumption" class="xliff"></a>
+### <a name="example-5-manual-bom-consumption"></a>Ejemplo 5: Consumo manual de la lista de materiales
 
 Puede usar la siguiente configuración si los materiales deberían deducirse siempre manualmente del inventario. En este caso, no se registran los diarios de listas de selección.
 

@@ -9,10 +9,11 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
@@ -21,28 +22,23 @@ ms.contentlocale: es-es
 ms.lasthandoff: 06/14/2017
 
 ---
-# Espacio de trabajo para la gestión bancaria
-<a id="bank-management-workspace" class="xliff"></a>
+# <a name="bank-management-workspace"></a>Espacio de trabajo para la gestión bancaria
 
 El espacio de trabajo **Gestión bancaria** muestra la información relacionada con las cuentas bancarias de la empresa. Este espacio de trabajo incluye un vista **Resumen** y una página **Análisis** . La vista **Resumen** muestra las fichas del resumen, la información de cuentas bancarias, un gráfico de saldos e información relacionada. La página **Análisis** utiliza las capacidades de Microsoft Power BI para mostrar las representaciones visuales relacionados con los saldos de la cuenta bancaria.
 
-## Vista de resumen
-<a id="summary-view" class="xliff"></a>
+## <a name="summary-view"></a>Vista de resumen
 
-### Resumen
-<a id="summary" class="xliff"></a>
+### <a name="summary"></a>Resumen
 
 Los mosaicos en la sección **Resumen** ofrecen una visión general de las cuentas bancarias y acceso rápido a las páginas que utiliza con mayor frecuencia. La información de conciliación bancaria es específica de las funcionalidades avanzadas de conciliación bancaria. La información solo se incluye para aquellas cuentas bancarias que tengan la opción **Conciliación bancaria avanzada** establecida en **Sí** en la página **Cuenta bancaria**. En la sección **Resumen** , puede importar archivos bancarios electrónicos para las cuentas bancarias en todas las entidades jurídicas.
 
-### Cuentas bancarias
-<a id="bank-accounts" class="xliff"></a>
+### <a name="bank-accounts"></a>Cuentas bancarias
 
 Cada cuenta bancaria en la entidad jurídica se representa mediante una tarjeta en la sección **Cuentas bancarias**. Se muestran los saldos actuales y puede explorar en profundidad las transacciones que componen dicho importe de saldo de resumen. El importe de **Transacciones puente** también le permite explorar en profundidad las transacciones que componen dicho importe de resumen. Las transacciones puente son las transacciones pendientes que se han registrado con la funcionalidad de puente, pero que aún no se han borrado. El importe de **Saldo pendiente** es el saldo actual menos las transacciones puente o pendientes.
 
 La tarjeta también muestra cuando la cuenta bancaria se concilió por última vez. Se muestra esta información solo si la conciliación bancaria avanzada está habilitada para la cuenta bancaria.
 
-### Saldo
-<a id="balance" class="xliff"></a>
+### <a name="balance"></a>Saldo
 
 El gráfico **Saldo** muestra la información histórica del saldo de la cuenta bancaria seleccionada en la sección **Cuentas bancarias** o un resumen de la información histórica de saldo para todas las cuentas bancarias en la entidad jurídica. Esta información está disponible para varios períodos: la semana actual, el mes actual, el año actual, los últimos cinco años y todos los períodos (el historial completo de la cuenta bancaria). 
 
@@ -50,13 +46,11 @@ Si está viendo el gráfico **Saldo** para una sola cuenta bancaria, los saldos 
 
 La información sobre cuándo los datos se actualizaron por última vez aparece en la parte superior del gráfico. Puede actualizar los datos según necesite.
 
-### Información relacionada
-<a id="related-information" class="xliff"></a>
+### <a name="related-information"></a>Información relacionada
 
 En la sección **Información relacionada**, puede abrir la página **Diario general** para completar las transferencias bancarias. También puede abrir rápidamente las páginas **Transacciones bancarias** y **Transacciones puente** .
 
-## Vista de análisis
-<a id="analytics-view" class="xliff"></a>
+## <a name="analytics-view"></a>Vista de análisis
 
 La página **Análisis** proporciona métricas importantes sobre las cuentas bancarias de la empresa actual. Las visualizaciones siguientes están disponibles en la página:
 

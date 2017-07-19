@@ -10,13 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMDimensionMember
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223174
 ms.assetid: 
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
@@ -24,11 +25,9 @@ ms.openlocfilehash: 74a3033ffbdba2efc6c5ecd6c55019898751a146
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
 
-
 ---
 
-# Bases de asignación
-<a id="allocation-bases" class="xliff"></a> 
+# <a name="allocation-bases"></a>Bases de asignación 
 
 [!include[banner](../includes/banner.md)]
 
@@ -40,8 +39,7 @@ Hay tres tipos de bases de asignación en la contabilidad de costes:
 - Bases de asignación de la jerarquía
 - Bases de asignación de la fórmula
 
-## Bases de asignación de miembros de dimensión predefinida
-<a id="predefined-dimension-member-allocation-bases" class="xliff"></a>
+## <a name="predefined-dimension-member-allocation-bases"></a>Bases de asignación de miembros de dimensión predefinida
 
 Las bases de asignación de miembro de dimensión predefinida se crean automáticamente cuando se crea un miembro de dimensión de los siguientes tipos:
 
@@ -51,8 +49,7 @@ Las bases de asignación de miembro de dimensión predefinida se crean automáti
 > [!NOTE]
 > Las bases de asignación de miembro de dimensión predefinida que se basan en un miembro de dimensión de elemento de coste consideran solo los valores del proveedor del origen de datos, como la contabilidad general o el presupuesto.
 
-### Ejemplo 1: Use un miembro de dimensión de elemento de coste como base de la asignación
-<a id="example-1-use-a-cost-element-dimension-member-as-the-allocation-base" class="xliff"></a>
+### <a name="example-1-use-a-cost-element-dimension-member-as-the-allocation-base"></a>Ejemplo 1: Use un miembro de dimensión de elemento de coste como base de la asignación
 Este ejemplo muestra cómo crear una regla de asignación de costes para asignar el elemento de coste 10002 (seguro del empleado) al saldo que se registra en el elemento de coste 10001 (salarios). La regla de asignación se define en función de la proporción de salarios de cada departamento con respecto a los salarios totales. (¡Es necesario revisar!)
 
 En la contabilidad general, el plan de cuentas se define como sigue.
@@ -140,8 +137,7 @@ Una vez que el elemento de coste 10001 (salarios) se aplique como base de asigna
 | CC002       | FI                  | 10002        | Seguro de empleado | Sin clasificar  | 500,00    | 31-01-2017      |
 | CC099       | TI                  | 10002        | Seguro de empleado | Sin clasificar  | 300,00    | 31-01-2017      |
 
-### Ejemplo 2: Use un miembro de dimensión estadística como base de la asignación
-<a id="example-2-use-a-statistical-dimension-member-as-the-allocation-base" class="xliff"></a>
+### <a name="example-2-use-a-statistical-dimension-member-as-the-allocation-base"></a>Ejemplo 2: Use un miembro de dimensión estadística como base de la asignación
 
 Los miembros de la dimensión estadística se pueden usar como bases de asignación para definir directivas o para notificar el consumo no monetario de los objetos de coste. Puede crear manualmente miembros de dimensión estadística o importarlos desde un archivo utilizando la herramienta de importación o exportación de administración de datos.
 
@@ -234,13 +230,11 @@ A continuación se muestra un ejemplo de una regla de distribución de costes cu
 | CC002       | FI   | 4,100.00  | (4100 ÷ 21 550) × Importe  |
 | CC003       | TI   | 15.000,00 | (15 000 ÷ 21 550) × Importe |
 
-## Bases de asignación de la jerarquía
-<a id="hierarchy-allocation-bases" class="xliff"></a>
+## <a name="hierarchy-allocation-bases"></a>Bases de asignación de la jerarquía
 
 Los contables de coste pueden crear manualmente las bases de asignación de la jerarquía aplicando un nodo de jerarquía de dimensiones de objeto de coste a una base de asignación existente. De esta manera, puede limitar el intervalo de la base de asignación del miembro de la dimensión predefinida original. Una base de asignación de miembro de dimensión predefinida se puede usar para crear varias bases de asignación de la jerarquía. Los intervalos se pueden mantener en la jerarquía de dimensión del objeto de coste que está asociado a las bases de asignación de la jerarquía.
 
-### Ejemplo: bases de asignación de la jerarquía que se basan en empleados a jornada completa en la organización
-<a id="example-hierarchy-allocation-bases-that-are-based-on-full-time-employees-in-the-organization" class="xliff"></a>
+### <a name="example-hierarchy-allocation-bases-that-are-based-on-full-time-employees-in-the-organization"></a>Ejemplo: bases de asignación de la jerarquía que se basan en empleados a jornada completa en la organización
 A continuación se muestra un ejemplo de una jerarquía de dimensiones de objetos de coste que se puede crear para describir una organización simplificada.
 
 | Nombre de jerarquía | Nivel de nodo 0 | Nivel de nodo 1 | Nivel de nodo 2 | Miembros de dimensión |
@@ -283,8 +277,7 @@ A continuación se muestra un ejemplo de una regla de distribución de costes cu
 | CC001       | RR. HH.   | 1,00      | (1/3) × Importe    |
 | CC002       | FI   | 2.00      | (2/3) × Importe    |
 
-## Bases de asignación de la fórmula
-<a id="formula-allocation-bases" class="xliff"></a>
+## <a name="formula-allocation-bases"></a>Bases de asignación de la fórmula
 
 Las bases de asignación de fórmulas le permiten definir fórmulas avanzadas para lograr la base de asignación correcta. Puede crear manualmente las bases de asignación de fórmulas.
 
@@ -313,8 +306,7 @@ No se admiten las instrucciones tradicionales **SI**. Sin embargo, puede crear i
 | a \> b    | VERDADERO       | 1      |
 | a \> b    | FALSO      | 0      |
 
-### Ejemplo 1: Una fórmula simple
-<a id="example-1-a-simple-formula" class="xliff"></a>
+### <a name="example-1-a-simple-formula"></a>Ejemplo 1: Una fórmula simple
 
 Las cuentas de electricidad suelen constar de dos partes:
 
@@ -379,8 +371,7 @@ A continuación se muestra un ejemplo de una regla de distribución de costes cu
 | CC002       | FI   | 1,00      | (1/3) × Importe     |
 | CC003       | TI   | 1,00      | (1/3) × Importe     |
 
-### Ejemplo 2: Una fórmula avanzada
-<a id="example-2-an-advanced-formula" class="xliff"></a>
+### <a name="example-2-an-advanced-formula"></a>Ejemplo 2: Una fórmula avanzada
 Para este ejemplo, el coste de la electricidad no debe seguir solamente la electricidad real que se consume en kWh. La dirección desea incorporar incentivos para hacer disminuir el uso de electricidad. 
 
 | Regla              | Índice | 

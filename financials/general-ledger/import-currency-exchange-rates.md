@@ -10,12 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
 ms.author: epopov
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -23,11 +24,9 @@ ms.openlocfilehash: 2d0654d6dbed3b4fe56b8918194132787f66af80
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Importar tipos de cambio de divisa
-<a id="import-currency-exchange-rates" class="xliff"></a>
+# <a name="import-currency-exchange-rates"></a>Importar tipos de cambio de divisa
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,8 +35,7 @@ Si una entidad jurídica ha recibido facturas en divisas extranjeras, es necesar
 
 Las siguientes secciones describen el flujo de información que se utiliza para configurar y procesar la importación de tipos de cambio extranjeros.
 
-## Configurar un proveedor de tipo de cambio
-<a id="configure-an-exchange-rate-provider" class="xliff"></a>
+## <a name="configure-an-exchange-rate-provider"></a>Configurar un proveedor de tipo de cambio
 Para poder importar tipos de cambio, debe configurar la información requerida por los proveedores que ofrecen los tipos de cambio. Use la página **Configurar proveedores de tipo de cambio** para seleccionar los proveedores de tipo de cambio. Algunos proveedores de tipo de cambio se incluyen con los datos de demostración en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. En la siguiente tabla se proporcionan descripciones de los controles de este página.
 
 |           |                                                                                                                                                                                                                             |
@@ -47,8 +45,7 @@ Para poder importar tipos de cambio, debe configurar la información requerida p
 | **Clave**   | El identificador único para cada fragmento de información de configuración que requiere el proveedor. Esta información se agrega automáticamente para cada proveedor de tipos de cambio que agregue cuando haga clic en el botón **Agregar**. |
 | **Valor** | Información para cada clave. Esta información se agrega para cada proveedor de tipos de cambio que agregue cuando haga clic en el botón **Agregar**.                                                                                         |
 
-## Importar tipos de cambio de divisa
-<a id="import-currency-exchange-rates" class="xliff"></a>
+## <a name="import-currency-exchange-rates"></a>Importar tipos de cambio de divisa
 Puede importar tipos de cambio desde el origen de los proveedores del tipo de cambio y configurarlos en la página **Tipos de cambio de divisas**. Use la página **Importar tipos de cambio de divisa** para importar los tipos de cambio. La siguiente tabla proporciona descripciones de los campos necesarios para completar correctamente el proceso de importación.
 
 |                                        |                                                                                                                                                                                                                                                                                                                                                                             |

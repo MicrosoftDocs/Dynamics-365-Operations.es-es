@@ -10,13 +10,14 @@ ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
+ms.reviewer: josaw
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16481
 ms.assetid: 14496d96-1c72-43ce-a2e7-8467bab4ae46
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: mumani
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
@@ -24,11 +25,9 @@ ms.openlocfilehash: 3f0b566963574569cb40b72550e2337c9ba8a2ce
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
 
-
 ---
 
-# Definir y mantener canales comerciales
-<a id="define-and-maintain-retail-channels" class="xliff"></a>
+# <a name="define-and-maintain-retail-channels"></a>Definir y mantener canales comerciales
 
 [!include[banner](includes/banner.md)]
 
@@ -37,12 +36,10 @@ Este artículo proporciona una visión general del proceso para configurar tiend
 
 Dynamics 365 for Retail admite varios canales de venta, como tiendas en línea, centros de llamadas y almacenes físicos. Las tiendas físicas también se denominan tiendas minoristas. Cada tienda minorista puede tener sus propios métodos de pago, grupos de precios, puntos de venta (PDV), cuentas de ingresos y gastos o personal. Debe configurar todos estos elementos para una tienda antes de crearla. Después de crear la tienda, se asignan los productos que desea que tenga. También asigna empleados, cajas registradoras y clientes a la tienda. Por último, la nueva tienda se agrega a una jerarquía organizativa.
 
-## Configurar tiendas
-<a id="setting-up-retail-stores" class="xliff"></a>
+## <a name="setting-up-retail-stores"></a>Configurar tiendas
 Antes de poder configurar una tienda minorista en Dynamics 365 for Retail, debe completar algunas de las tareas de requisitos previos. A continuación, puede crear la tienda y agregar detalles.
 
-### Requisitos previos
-<a id="prerequisites" class="xliff"></a>
+### <a name="prerequisites"></a>Requisitos previos
 
 Para poder configurar una tienda, debe completar las siguientes tareas:
 
@@ -61,8 +58,7 @@ Para poder configurar una tienda, debe completar las siguientes tareas:
 
 Revise todas las tareas que se incluyen en el requisito previo y complete solo las tareas que se aplican a su caso.
 
-### Configurar una tienda comercial
-<a id="set-up-a-retail-store" class="xliff"></a>
+### <a name="set-up-a-retail-store"></a>Configurar una tienda comercial
 
 Tras completar las tareas de requisito previo, complete estas tareas para configurar los detalles de la tienda minorista:
 
@@ -72,8 +68,7 @@ Tras completar las tareas de requisito previo, complete estas tareas para config
 4.  Agregue detalles a las descripciones de producto para los productos que ofrece en las tiendas comerciales. Por ejemplo, puede agregar texto enriquecido e imágenes. Estos detalles de producto aparecen en distintos contextos, por ejemplo, en el registro de PDV o en etiquetas impresas.
 5.  Agregue la tienda a una jerarquía organizativa predeterminada que está asignada a una finalidad de **Selección comercial**, **Reabastecimiento comercial** o **Informes comerciales**.
 
-### Después de configurar una tienda minorista
-<a id="after-you-set-up-a-retail-store" class="xliff"></a>
+### <a name="after-you-set-up-a-retail-store"></a>Después de configurar una tienda minorista
 
 Tras especificar los detalles de la tienda minorista, complete estas tareas para enviar los datos de la nueva tienda minorista a Retail POS:
 
@@ -84,8 +79,7 @@ Tras especificar los detalles de la tienda minorista, complete estas tareas para
 5.  Publique la tienda comercial para enviar datos de tienda a Retail POS.
 6.  Ejecute los trabajos para enviar los datos de tienda a Retail POS.
 
-## Jerarquías organizativas
-<a id="organization-hierarchies" class="xliff"></a>
+## <a name="organization-hierarchies"></a>Jerarquías organizativas
 Retail usa jerarquías organizativas para estructurar los canales comerciales. Las jerarquías organizativas representan las relaciones que hay entre las organizaciones que forman el negocio. Al configurar tiendas, puede agregarlas a una jerarquía organizativa. A continuación, los almacenes comparten los datos que se usan para las selecciones, el reaprovisionamiento y los informes.
 
 

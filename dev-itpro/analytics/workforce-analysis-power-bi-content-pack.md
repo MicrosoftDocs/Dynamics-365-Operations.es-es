@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: sericks
 ms.search.scope: Operations, UnifiedOperations, Talent, Core
 ms.custom: 264084
 ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
 ms.search.region: Global
 ms.author: jcart
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,25 +23,21 @@ ms.openlocfilehash: 1f732a53eee17317417058b92706a9228d783cb5
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Contenido de BI sobre métricas de recursos
-<a id="workforce-metrics-power-bi-content" class="xliff"></a>
+# <a name="workforce-metrics-power-bi-content"></a>Contenido de BI sobre métricas de recursos
 
 [!include[banner](../includes/banner.md)]
 
 Este tema describe el contenido en Microsoft Power BI de **métricas de recursos**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
-## Acceso al contenido de Power BI
-<a id="accessing-the-power-bi-content" class="xliff"></a>
+## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 El contenido en Power BI de **métricas de recursos** se muestra en el espacio de trabajo **Administración de personal** si usa uno de estos productos:
 
 - Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, actualización de julio 2017
 - Microsoft Dynamics 365 for Talent
 
-## Métricas que se incluyen en el contenido de Power BI
-<a id="metrics-that-are-included-in-the-power-bi-content" class="xliff"></a>
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
 En la tabla siguiente se enumeran las métricas que se muestran en cada informe.
 
 | Informe                                           | Métricas                                                                                                                                                                                                            |
@@ -61,8 +58,7 @@ En la tabla siguiente se enumeran las métricas que se muestran en cada informe.
 
 Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e iconos al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-## Ampliar el contenido de Power BI
-<a id="extending-the-power-bi-content" class="xliff"></a>
+## <a name="extending-the-power-bi-content"></a>Ampliar el contenido de Power BI
 Mediante los paquetes de contenido disponibles en Microsoft Dynamics Lifecycle Services (LCS), puede ofrecer análisis muy buenos a las personas que no inician sesión en Finance and Operations. Puede modificar estos paquetes de contenido para que incluyan otros informes o representaciones visuales y, a continuación, publicar los paquetes de contenidos en el inquilino de Power BI.com para su análisis.
 
 Puede encontrar el contenido en Power BI de **métricas de recursos** en la biblioteca de activos compartidos de LCS. Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
@@ -72,8 +68,7 @@ Asegúrese de descargar el contenido en Power BI de **métricas de recursos** qu
 >[!NOTE]
 >Los archivos .pbix disponibles en Lifecycle Services se aplican solamente a Finance and Operations.
 
-## Comprensión del modelo de datos y de las entidades
-<a id="understanding-the-data-model-and-entities" class="xliff"></a>
+## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 En la tabla siguiente se muestran las entidades en las que se basaba el contenido.
 
 | Entidad                   | Contenido                                                                            | Relaciones con otras entidades |

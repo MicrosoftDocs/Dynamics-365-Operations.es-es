@@ -10,12 +10,13 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERSolutionImport, ERWorkspace
 audience: Application User, IT Pro
+ms.reviewer: kfend
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 105843
 ms.assetid: dc44dea2-22ce-401e-98b9-d289e0e2825b
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-05-31
+ms.search.validFrom: 2016-05-31T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -23,11 +24,9 @@ ms.openlocfilehash: be77d76194e9d38589548113cc650599d5af4323
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Descargar configuraciones de informes electrónicos de Lifecycle Services
-<a id="download-electronic-reporting-configurations-from-lifecycle-services" class="xliff"></a>
+# <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Descargar configuraciones de informes electrónicos de Lifecycle Services
 
 [!include[banner](../includes/banner.md)]
 
@@ -60,8 +59,7 @@ Este tutorial le guía por el proceso de descarga de la versión más reciente d
 
 **Nota:** En función de la configuración de ER, se validan las configuraciones después de haberlas importado. Es posible que se le notifique acerca de los problemas de incoherencias que se detecten. Debe resolver esos problemas antes de poder usar la versión de configuración importada. Para obtener más información, consulte la lista de artículos relacionados para este tema.
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Visión general de los informes electrónicos](general-electronic-reporting.md)

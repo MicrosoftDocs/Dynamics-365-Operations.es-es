@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Management Reporter, UnifiedOperations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
@@ -22,11 +23,9 @@ ms.openlocfilehash: 4e0c984b95cd395e7ab23394b886782e55fac90f
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Informes financieros for Finance and Operations
-<a id="financial-reporting-for-finance-and-operations" class="xliff"></a>
+# <a name="financial-reporting-for-finance-and-operations"></a>Informes financieros for Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
@@ -35,8 +34,7 @@ Los informes financieros para Finance and Operations permiten a los profesionale
 
 Los informes financieros incluyen la compatibilidad de dimensiones. Por lo tanto, las dimensiones o los segmentos de cuenta están disponibles inmediatamente. No se requieren pasos de configuración o herramientas adicionales.
 
-## Componentes de informes financieros
-<a id="financial-reporting-components" class="xliff"></a>
+## <a name="financial-reporting-components"></a>Componentes de informes financieros
 Los siguientes componentes de los informes financieros facilitan la creación, la visualización y la programación de informes.
 
 | Componente        | Funciones                                                                                                                                                                                                                                                                           | Información adicional                                                                          |
@@ -44,8 +42,7 @@ Los siguientes componentes de los informes financieros facilitan la creación, l
 | Diseñador de informes  | Cree componentes de creación de informes que se puedan combinan para definir y generar un informe. El asistente para informes dirige a los usuarios menos experimentados por el proceso de diseño. Los usuarios experimentados pueden crear componentes básicos del nuevo informe o modificar componentes básicos de validez para satisfacer sus requisitos. |                                                                                                 |
 | Programaciones de informes | Programe un informe único o un grupo de informes para que se genere con regularidad.                                                                                                                                                                                          | [Generar un informe financiero](generate-financial-report.md) |
 
-## Características
-<a id="features" class="xliff"></a>
+## <a name="features"></a>Características
 <table>
 <thead>
 <tr class="header">
@@ -89,8 +86,7 @@ Los siguientes componentes de los informes financieros facilitan la creación, l
 </tbody>
 </table>
 
-#Consulte también
-<a id="see-also" class="xliff"></a>
+#<a name="see-also"></a>Consulte también
 [Generar un informe financiero](generate-financial-report.md)
 
 

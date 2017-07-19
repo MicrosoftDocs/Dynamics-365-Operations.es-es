@@ -10,13 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 267034
 ms.assetid: 15c76a51-fa6d-42d2-994a-c67df6bae6a9
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -24,11 +25,9 @@ ms.openlocfilehash: 43c95c8ab8599a048b1c8c732d6dcac1c3e8b9e9
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Subcontratación basada en actividad
-<a id="activity-based-subcontracting" class="xliff"></a>
+# <a name="activity-based-subcontracting"></a>Subcontratación basada en actividad
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,8 +36,7 @@ Este tema describe detalladamente cómo usar actividades subcontratadas en un fl
 
 En Microsoft Dynamics 365 for Finance and Operations hay dos enfoques para subcontratar: pedidos de producción y lean manufacturing. En el método de lean manufacturing, el trabajo de subcontratación se modela como servicio relacionado con una actividad de un flujo de producción. Se han introducido un tipo especial de tipo de grupo de costes que se denomina **Subcontratación directa** y los servicios de subcontratación ya no son parte de una lista de materiales (L. MAT.). La contabilidad de costes del trabajo subcontratado está completamente integrada en la solución de la gestión de costes de la lean manufacturing.
 
-## Flujos de producción que implican subcontratistas
-<a id="production-flows-that-involve-subcontractors" class="xliff"></a>
+## <a name="production-flows-that-involve-subcontractors"></a>Flujos de producción que implican subcontratistas
 El principio básico de un flujo de producción no cambia cuando se subcontratan actividades. El material aún fluye entre las ubicaciones, las actividades de proceso convierten el material en productos y las actividades de transferencia mueven el material o los productos de una ubicación a otra. Puede modelar ubicaciones y celdas de trabajo como administradas por el proveedor asignando la cuenta de proveedor a un almacén o un recurso de un grupo de recursos.  
 
 Según estas capacidades, la lean manufacturing no requiere ninguna característica específica para admitir el flujo de materiales y productos. Todas las situaciones que implican a los proveedores, como proveedores de servicios de producción o de transporte, se pueden modelar en función de la arquitectura del flujo de producción y las actividades.  
@@ -49,8 +47,7 @@ Un subcontratista se puede usar para equilibrar la carga de la capacidad total d
 
 Como cualquier otra actividad de un flujo de producción, las actividades subcontratadas pueden consumir y proporcionar materiales y productos inventariados, no inventariados (trabajo en curso \[WIP\]) y semiacabados. En todos los casos, los procesos para programar y ejecutar actividades subcontratadas son iguales. Además, estos procesos son iguales que los procesos del trabajo interno.
 
-## Proceso de compra de actividades subcontratadas (servicios)
-<a id="purchase-process-for-subcontracted-activities-services" class="xliff"></a>
+## <a name="purchase-process-for-subcontracted-activities-services"></a>Proceso de compra de actividades subcontratadas (servicios)
 El proceso de compra de las actividades subcontratadas se basa en el flujo de material físico registrado por el progreso de trabajo kanban, por ejemplo, iniciado o completado. El flujo financiero, por ejemplo, coste de trabajo subcontratado es un flujo secundario que sigue al flujo físico. Al mismo tiempo, el proceso de compra es un proceso independiente que permite el ajuste manual de los documentos de compra en cada paso. Este es el proceso de compra de actividades subcontratadas:
 
 1.  Creación de un acuerdo de compra. El acuerdo de compra se crea para el servicio y se conecta a la actividad del flujo de producción.
@@ -62,12 +59,10 @@ El proceso de compra de las actividades subcontratadas se basa en el flujo de ma
 
 El proceso finalizará cuando se factura al subcontratista por un período. La conciliación de facturas se realiza con los avisos de recepción creados. Dado que los avisos de recepción representan la recepción física precisa del material, se simplifica la triple conciliación.
 
-## Configuración de actividades para la subcontratación
-<a id="configuring-activities-for-subcontracting" class="xliff"></a>
+## <a name="configuring-activities-for-subcontracting"></a>Configuración de actividades para la subcontratación
 Las secciones siguientes describen cómo configurar actividades para subcontratar.
 
-### Servicios subcontratados
-<a id="subcontracted-services" class="xliff"></a>
+### <a name="subcontracted-services"></a>Servicios subcontratados
 
 El artículo del pago que se usa en la subcontratación basada en actividades debe ser un producto que tenga las siguientes propiedades:
 
@@ -76,16 +71,14 @@ El artículo del pago que se usa en la subcontratación basada en actividades de
 
 Este requisito fuerza el uso del modelo de inventario de salida en el orden de entrada (FIFO). **Nota:** el cálculo del coste de los productos requiere que se defina el coste estándar del servicio. Un acuerdo de compra con el proveedor es necesario. En caso contrario, el servicio no puede usarse para la subcontratación basada en actividades.
 
-### Actividades de proceso subcontratadas
-<a id="subcontracted-process-activities" class="xliff"></a>
+### <a name="subcontracted-process-activities"></a>Actividades de proceso subcontratadas
 
 Para configurar una actividad de proceso como actividad subcontratada, siga estos pasos.
 
 1.  Configuración de una celda de trabajo subcontratada. Para configurar una celda de trabajo subcontratada, debe crear un recurso de tipo **Proveedor** y asociarlo con la celda de trabajo (grupo de recursos). Una categoría de coste de tiempo de ejecución del tipo de grupo de coste **Subcontratación directa** se debe asignar a la celda de trabajo. Las categorías de coste para la configuración y la cantidad no son necesarias.
 2.  Una vez que una actividad de proceso se cree y se relacione con una celda de trabajo subcontratada, debe configurar un servicio para la actividad antes de que la versión del flujo de producción se pueda activar. Puede realizar este paso en la página de **detalles de** **actividad**. Para las actividades que están asociadas a una celda de trabajo subcontratada se muestra la ficha desplegable de las **Condiciones de servicio**. En esta ficha desplegable, agregue un servicio predeterminado que sea válido para todos los artículos de salida. Si algunos artículos específicos de salida requieren diferentes servicios o diferentes parámetros de cálculo de servicio (por ejemplo, otro coeficiente del servicio), puede agregar otros servicios a la actividad.
 
-## Actividades de transferencia subcontratadas
-<a id="subcontracted-transfer-activities" class="xliff"></a>
+## <a name="subcontracted-transfer-activities"></a>Actividades de transferencia subcontratadas
 Una actividad de transferencia se configura como actividad subcontratada en función del ajuste **Fletado por** de la actividad de transferencia. Están disponibles las siguientes opciones:
 
 -   **Expedidor** – La actividad se subcontrata si la transferencia desde el almacén se gestiona a través de un proveedor (según se define con una propiedad del almacén). Todos los acuerdos de compra seleccionados para los servicios deben tener el mismo identificador de proveedor que el almacén.
@@ -94,22 +87,19 @@ Una actividad de transferencia se configura como actividad subcontratada en func
 
 Con respecto a actividades de proceso, debe configurar un servicio predeterminado para las actividades de transferencia subcontratadas en la ficha desplegable de las **Condiciones de servicio** de la página de detalles de la **actividad.** ****
 
-## Cálculo de cantidad de servicio
-<a id="service-quantity-calculation" class="xliff"></a>
+## <a name="service-quantity-calculation"></a>Cálculo de cantidad de servicio
 Todo el proceso de compra se basa en una referencia de artículo para un servicio. Esta referencia del artículo se mide en una unidad de medida de un servicio. Los servicios generalmente se miden por el número de servicios (unidades) o por el tiempo. Para calcular la cantidad de servicio, en función de la finalización registrada de trabajos kanban, puede usar los métodos siguientes:
 
 -   **Cálculo basado en el número de trabajos** – Un trabajo kanban es igual a *n* unidades de servicio, independientemente de la cantidad de producto suministrada. En la lean manufacturing un trabajo se corresponde a una unidad de gestión de material. Este método de cálculo se aplica a todos los servicios que tienen un precio fijo por unidad de gestión de material. Por lo tanto, este método se aplica normalmente a las actividades de transferencia. Sin embargo, puede aplicarse también para procesar las actividades que procesan unidades de gestión de material completas.
 -   **Cálculo basado en la cantidad de producto** – La cantidad de servicio está relacionada con la cantidad de producto programada/suministrada. Al calcular la cantidad de producto suministrada, las cantidades con errores se pueden incluir o ser excluidas. Este método de cálculo se aplica a todos los casos en los que el precio de servicio por unidad de producto procesado se acuerda.
 -   **Cálculo basado en el tiempo de actividad** – Los tiempos de actividad teóricos se calculan a partir del tiempo de procesamiento de la actividad, la cantidad procesada total y el coeficiente de capacidad de proceso del producto procesado. Este método de cálculo se aplica a los servicios que se pagan por horas y tienen una desviación del tiempo por producto procesado.
 
-## Contabilidad de costes de los servicios subcontratados
-<a id="cost-accounting-of-subcontracted-services" class="xliff"></a>
+## <a name="cost-accounting-of-subcontracted-services"></a>Contabilidad de costes de los servicios subcontratados
 Cuando el aviso de recepción o un albarán del proveedor en un pedido de compra creado para un flujo de producción (es decir un pedido de compra que se ha generado en función de los trabajos kanban de las actividades subcontratadas) se envía, el valor del recibo se registra en las cuentas de trabajo en curso del flujo de producción. Las desviaciones de facturas también se registran en el flujo de producción. Una categoría de coste para el trabajo subcontratado se han especificado. Esta categoría de coste permite un seguimiento transparente del valor del trabajo subcontratado que se asigna al trabajo en curso y se consume por período.  
 
 La contabilización previa de los costes de lean manufacturing al final de un período de la gestión de costes calcula las desviaciones reales de los productos generados en el flujo de producción durante el período de gestión de costes.
 
-## Modelado de transferencias como actividades subcontratadas
-<a id="modeling-transfers-as-subcontracted-activities" class="xliff"></a>
+## <a name="modeling-transfers-as-subcontracted-activities"></a>Modelado de transferencias como actividades subcontratadas
 Las personas con frecuencia consideran el transporte como algo no productivo y piensan que no agrega ningún valor. No obstante, si el coste de la subcontratación se compara con el coste de producción interna, el coste de las actividades de transporte adicionales debe tenerse en cuenta. Un flujo de producción que abarca distintas ubicaciones y requiere servicios de transporte debe modelar el coste de transporte como parte del coste del suministro de productos al cliente. 
 
 La subcontratación basada en actividades en lean manufacturing permite integrar a los transportistas y a los proveedores de transporte que mueven materiales y productos entre ubicaciones de un flujo de producción. Modelando una actividad de transferencia, puede asignar un transportista o un proveedor. Las actividades de transferencia/trabajo se basan en un acuerdo de compra y servicio y puede crear pedidos de compra y avisos de recepción basados en los trabajos reales de transferencia. Esta funcionalidad es igual a la funcionalidad para las actividades de proceso subcontratadas.  

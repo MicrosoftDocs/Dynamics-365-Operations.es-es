@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: sericks
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 195643
 ms.assetid: f853f57b-83ae-4fb0-a9fa-06ea3fc34fa1
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,11 +23,9 @@ ms.openlocfilehash: c2765cf4ed8e0f5e00491bfe74835102bddff611
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Configuración de un proceso de aprobación en un flujo de trabajo
-<a id="configure-an-approval-process-in-a-workflow" class="xliff"></a>
+# <a name="configure-an-approval-process-in-a-workflow"></a>Configuración de un proceso de aprobación en un flujo de trabajo
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,8 +40,7 @@ Siga estos pasos para asignar un nombre al proceso de aprobación.
 1.  En el panel izquierdo, haga clic en **Configuración básica**.
 2.  En el campo **Nombre**, especifique un nombre único para el proceso de aprobación.
 
-## Especificación de las condiciones en que el sistema realiza una acción automática en el documento
-<a id="specify-when-the-system-automatically-acts-on-the-document" class="xliff"></a>
+## <a name="specify-when-the-system-automatically-acts-on-the-document"></a>Especificación de las condiciones en que el sistema realiza una acción automática en el documento
 Puede configurar el sistema para que realice alguna acción en el documento de forma automática si se cumplen ciertas condiciones. Por ejemplo, el sistema puede aprobar los informes de gastos con importes totales inferiores a 100 USD. Siga estos pasos para especificar cuándo el sistema realiza una acción en el documento.
 1.  En el panel izquierdo, haga clic en **Acciones automáticas**.
 2.  Active la casilla **Habilitar acciones automáticas**.
@@ -57,8 +55,7 @@ Puede configurar el sistema para que realice alguna acción en el documento de f
 
 7.  En la lista **Acción de autocompletar**, seleccione la acción que el sistema debe realizar en el documento.
 
-## Especificación del momento en que se envían notificaciones
-<a id="specify-when-notifications-are-sent" class="xliff"></a>
+## <a name="specify-when-notifications-are-sent"></a>Especificación del momento en que se envían notificaciones
 Puede enviar notificaciones cuando un documento se ha aprobado, rechazado, delegado o remitido a una instancia superior o cuando se ha solicitado un cambio. Siga estos pasos para especificar cuándo se deben enviar notificaciones y a quiénes se deben enviar.
 1.  En el panel izquierdo, haga clic en **Notificaciones**.
 2.  Active las casillas de verificación junto a los eventos que deben notificarse:
@@ -131,15 +128,13 @@ Puede enviar notificaciones cuando un documento se ha aprobado, rechazado, deleg
 
 10. Repita los pasos 3 a 9 por cada uno de los eventos que haya seleccionado en el paso 2.
 
-## Especificación de un aprobador final
-<a id="specify-a-final-approver" class="xliff"></a>
+## <a name="specify-a-final-approver"></a>Especificación de un aprobador final
 Es posible que desee designar un aprobador final que actúe en las situaciones en las que el aprobador sea la persona que solicitó la aprobación del documento. Para especificar un aprobador final, siga estos pasos.
 1.  En el panel izquiero, haga clic en **Configuración avanzada**.
 2.  Seleccione la casilla de verificación **Usar aprobador final**.
 3.  En la lista, seleccione el usuario que actuará como aprobador final.
 
-## Definición de un límite de tiempo
-<a id="set-a-time-limit" class="xliff"></a>
+## <a name="set-a-time-limit"></a>Definición de un límite de tiempo
 Siga estos pasos si el proceso de aprobación se debe completar en un plazo específico.
 | **Nota**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -156,8 +151,7 @@ Siga estos pasos si el proceso de aprobación se debe completar en un plazo espe
 
 4.  Si se supera el límite de tiempo, el sistema realiza una acción en el documento. En la lista **Acción**, seleccione la acción que debe realizar el sistema.
 
-## Especificación de las acciones de las que dispone el usuario
-<a id="specify-which-actions-are-available-to-the-user" class="xliff"></a>
+## <a name="specify-which-actions-are-available-to-the-user"></a>Especificación de las acciones de las que dispone el usuario
 Cuando se asigna un documento a un usuario para que lo apruebe, este debe realizar alguna acción. Siga estos pasos para especificar las acciones que el usuario puede realizar en el documento enviado.
 1.  En el panel izquiero, haga clic en **Configuración avanzada**.
 2.  Active la casilla de verificación **Aprobar** si el usuario puede aprobar el documento.
@@ -167,8 +161,7 @@ Cuando se asigna un documento a un usuario para que lo apruebe, este debe realiz
 
 **Nota**: **las acciones de permiso de la casilla de verificación de la lista de trabajo de Enterprise Portal** se han quedado obsoletas.
 
-##  Configuración de los pasos de aprobación
-<a id="configure-the-approval-steps" class="xliff"></a>
+## <a name="configure-the-approval-steps"></a> Configuración de los pasos de aprobación
 Los procesos de aprobación se componen de pasos de aprobación. Realice el siguiente procedimiento para agregar pasos en el proceso de aprobación y configurarlos.
 1.  En el editor de flujo de trabajo, haga doble clic en el proceso de aprobación. Los pasos del proceso se mostrarán en el editor de flujo de trabajo.
 2.  Para agregar un paso de aprobación, arrástrelo desde el área de **Elementos del flujo de trabajo** al lienzo.

@@ -10,13 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72653
 ms.assetid: c5fa4b09-512d-4349-ac51-cc13da69a160
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: roxanad
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -24,11 +25,9 @@ ms.openlocfilehash: 74d520199410711b80b750a12ee726633e09d01c
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Configuración de la previsión de la demanda
-<a id="demand-forecasting-setup" class="xliff"></a>
+# <a name="demand-forecasting-setup"></a>Configuración de la previsión de la demanda
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,24 +36,21 @@ En este tema se describen las tareas de configuración que debe realizar antes d
 
 Las tareas de configuración incluyen la configuración de los datos y parámetros siguientes.
 
-## Clave de asignación de artículos
-<a id="item-allocation-key" class="xliff"></a>
+## <a name="item-allocation-key"></a>Clave de asignación de artículos
 Una previsión de la demanda se calcula para un artículo y sus dimensiones únicamente si el artículo es parte de una clave de asignación de artículos. Esta regla se aplica para agrupar un gran número de artículos, para poder crear previsiones de demanda más rápidamente. Se omite el porcentaje de la clave de asignación de artículos cuando se generan previsiones de demanda. Las previsiones se crean únicamente en base a los datos históricos. 
 
 Un artículo y sus dimensiones deben formar parte de una sola clave de asignación de artículos si la clave de asignación de artículos se utiliza durante la creación de la previsión. 
 
 Para agregar una referencia de almacén (SKU) a una clave de asignación de artículos, vaya a **Planificación maestra** &gt; **Configuración** &gt; **Previsión de demanda** &gt; **Claves de asignación de artículos**. Use la página **Asignar artículos** para asignar un artículo a una clave de asignación.
 
-## Grupos de planificación de empresas vinculadas
-<a id="intercompany-planning-groups" class="xliff"></a>
+## <a name="intercompany-planning-groups"></a>Grupos de planificación de empresas vinculadas
 La previsión de demanda genera previsiones entre empresas. En Microsoft Dynamics 365 for Finance and Operations, se agrupa a las empresas que se planifican conjuntamente en un grupo de planificación de empresas vinculadas. Para especificar, según la empresa, las claves de asignación de artículos que se deben tener en cuenta para la previsión de demanda, asocie una clave de asignación de artículos con el miembro de planificación de empresas vinculadas del grupo yendo a **Planificación maestra** &gt; **Configuración** &gt; **Grupos de planificación de empresas vinculadas**. 
 
 De forma predeterminada, si no se ha asignado ninguna clave de asignación de artículos a los miembros del grupo de planificación de empresas vinculadas, se calcula una previsión de la demanda para todos los artículos asignados a todas las claves de asignación de artículos de todas las empresas de Dynamics 365 for Finance and Operations. Las opciones de filtrado adicionales para las empresas y las claves de asignación de artículos están disponibles en la página **Generar la previsión estadística de línea base**. 
 
 Revisión del número de artículos que están previstos. Los artículos innecesarios podrían incrementar los costes cuando se usa el aprendizaje automático de Microsoft Azure.
 
-## Parámetros de previsión de la demanda
-<a id="demand-forecasting-parameters" class="xliff"></a>
+## <a name="demand-forecasting-parameters"></a>Parámetros de previsión de la demanda
 Para configurar los parámetros de previsión de la demanda, vaya a **Planificación maestra** &gt; **Configuración** &gt; **Parámetros de previsión de la demanda**. Dado que la previsión de demanda se realiza entre empresas, la configuración es global. Es decir, la configuración se aplica a todas las empresas. 
 
 La previsión de demanda genera la previsión en cantidades. Por lo tanto, la unidad de medida en la que la cantidad debe ser expresada se debe especificar en el campo **Unidad de previsión de la demanda**. La unidad de medida debe ser única, para ayudar a garantizar que la agregación y la distribución del porcentaje tienen sentido. Para obtener más información sobre la agregación y la distribución de porcentaje, consulte [Realizar ajustes manuales en la previsión de línea base](manual-adjustments-baseline-forecast.md). Para cada unidad de medida que se usa para los SKU que se incluyen en la previsión de demanda, asegúrese de que haya una regla de conversión para la unidad de medida y la unidad de medida de previsión general. Cuando se ejecute la generación de la previsión, se registra la lista de artículos que no tienen una conversión de unidad de medida, de manera que podrá corregir fácilmente la configuración. 
@@ -80,12 +76,10 @@ Para generar la previsión, Dynamics 365 for Finance and Operations usa un servi
 
 Para crear predicciones de demanda, puede implementar su propio servicio mediante el Estudio de aprendizaje automático o los experimentos de previsión de demanda de Finance and Operations. Las instrucciones para implementar los experimentos de la previsión de demanda de Finance and Operations como un servicio web están disponible en Finance and Operations. En la página **Parámetros de previsión de demanda**, haga clic en la pestaña **Aprendizaje automático de Azure**.
 
-## Configuración del servicio de aprendizaje automático de previsión de demanda de Finance and Operations
-<a id="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service" class="xliff"></a>
+## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>Configuración del servicio de aprendizaje automático de previsión de demanda de Finance and Operations
 Para ver los parámetros que se pueden configurar para el servicio de previsión de demanda de Finance and Operations, vaya a **Planificación maestra** &gt; **Configuración** &gt; **Previsión de demanda** &gt; **Parámetros de algoritmo de previsión**. La página **Parámetros de algoritmo de previsión** muestra los valores predeterminados para los parámetros. Puede sobrescribir estos parámetros en la página **Parámetros de previsión de demanda**. Use la pestaña **General** para sobrescribir los parámetros globalmente, o use la pestaña **Claves de asignación de artículos** para sobrescribir los parámetros por clave de asignación de artículo. Los parámetros que se sobrescriben para una clave de asignación de artículos afectan solo a la previsión de los artículos que están asociados con esa clave de asignación de artículos.
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Introducción a la previsión de demanda](introduction-demand-forecasting.md)

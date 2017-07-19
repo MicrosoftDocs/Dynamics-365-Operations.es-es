@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: sericks
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 263934
 ms.assetid: 38e6827b-0819-473c-bc47-821a1ec482b8
 ms.search.region: Global
 ms.author: jcart
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,22 +23,18 @@ ms.openlocfilehash: 49cfd0f1ed645f1980b21b6d4f453cb7a8957a1a
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Contenido de Power BI para contratación
-<a id="recruiting-power-bi-content" class="xliff"></a>
+# <a name="recruiting-power-bi-content"></a>Contenido de Power BI para contratación
 
 [!include[banner](../includes/banner.md)]
 
 Este tema describe el contenido en Microsoft Power BI sobre **Contratación**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
-## Acceso al contenido de Power BI
-<a id="accessing-the-power-bi-content" class="xliff"></a>
+## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017), el contenido en Power BI sobre **Contratación** aparece en el espacio de trabajo **Administración de contratación**. 
 
-## Informes y representaciones visuales en el espacio de trabajo de Administración de contratación
-<a id="reports-and-visuals-in-the-recruitment-management-workspace" class="xliff"></a>
+## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>Informes y representaciones visuales en el espacio de trabajo de Administración de contratación
 El espacio de trabajo **Administración de contratación** contiene una ficha de **Análisis**. Esta ficha contiene el contenido incrustado de Power BI sobre contratación. El contenido consiste en una ficha de visión general y otras fichas con detalles. En la tabla siguiente se describen los informes de cada ficha.
 
 | Informe               | Contenido |
@@ -47,8 +44,7 @@ El espacio de trabajo **Administración de contratación** contiene una ficha de
 | Estado del candidato     | Candidatos por tipo y estado y estado del candidato |
 | Análisis de la contratación  | Relación de contratación neta, promedio de días a contratar, porcentaje de contrataciones fallidas, costes de contratación, número de proyectos de contratación, contratación aplicada y número de candidatos por puesto por proyecto de contratación |
 
-## Comprensión del modelo de datos y de las entidades
-<a id="understanding-the-data-model-and-entities" class="xliff"></a>
+## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e iconos al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 En la tabla siguiente se muestran las entidades en las que se basaba el contenido de Power BI acerca de **Contratación**.

@@ -9,10 +9,11 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application user, IT Pro
+ms.reviewer: sericks
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,21 +23,18 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Contenido de Power BI de CFO
-<a id="cfo-overview-power-bi-content" class="xliff"></a>
+# <a name="cfo-overview-power-bi-content"></a>Contenido de Power BI de CFO
 
 [!include[banner](../includes/banner.md)]
 
 
 Este tema describe el contenido de Microsoft Power BI de **visión general de CFO**. 
 
-## Acceso al contenido de Power BI
-<a id="accessing-the-power-bi-content" class="xliff"></a>
+## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 
 Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017), los informes de contenido de Power BI de **visión general de CFO** aparecen en el espacio de trabajo **visión general de CFO**.
 
-## Informes que se incluyen en el contenido de Power BI
-<a id="reports-that-are-included-in-the-power-bi-content" class="xliff"></a>
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
 El contenido de Power BI de **visión general de CFO** es un compuesto de informes de diversos contenidos de Power BI, así como los saldos real y presupuestarios de la contabilidad general. Por lo tanto, este contenido de Power BI ofrece al director financiero (CFO) una visión general de la organización.
 
 La tabla siguiente muestra el contenido de Power BI desde donde se copian los informes y los informes que se proporcionan en el espacio de trabajo **visión general de CFO**. Se proporcionan vínculos a la documentación para el diverso contenido de Power BI.
@@ -49,8 +47,7 @@ La tabla siguiente muestra el contenido de Power BI desde donde se copian los in
 | [Administración de crédito y cobros](/dynamics365/unified-operations/financials/accounts-receivable/credit-collections-power-bi) | <ul><li>Actividad de cliente vencida</li><li>Clientes sobre límite de crédito</li><li>Saldos vencidos</li></ul> |
 | [Análisis de gastos en compras](/dynamics365/unified-operations/financials/accounts-receivable/credit-collections-power-bi) | <ul><li>Compras por mes/día</li><li>10 principales proveedores por compras</li><li>10 principales productos por compras</li></ul> |
 
-## Ampliar el contenido de Power BI
-<a id="extending-the-power-bi-content" class="xliff"></a>
+## <a name="extending-the-power-bi-content"></a>Ampliar el contenido de Power BI
 Mediante los paquetes de contenido disponibles en Microsoft Dynamics Lifecycle Services (LCS), puede ofrecer análisis muy buenos a las personas que no inician sesión en Microsoft Dynamics 365. Puede modificar estos paquetes de contenido para que incluyan otros informes o representaciones visuales y, a continuación, publicar los paquetes de contenidos en el inquilino de Power BI.com para su análisis.
 
 El contenido de Power BI de **visión general de CFO** se encuentra en la biblioteca de activos compartidos de LCS. Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-content-microsoft-partners). Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).

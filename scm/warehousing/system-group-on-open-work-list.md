@@ -9,11 +9,12 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: bis
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
@@ -21,19 +22,16 @@ ms.openlocfilehash: dbf0e49b1156c54cd37bbbe57ca564cdbc45fb2d
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
 
-
 ---
 
-# Agrupamiento del sistema en una lista de trabajo abierta
-<a id="system-grouping-on-an-open-work-list" class="xliff"></a>
+# <a name="system-grouping-on-an-open-work-list"></a>Agrupamiento del sistema en una lista de trabajo abierta
 
 [!include[banner](../includes/banner.md)]
 
 Usando un campo de agrupamiento del sistema puede filtrar una lista de trabajos abierta sin tener que editar el elemento de menú del dispositivo móvil.
 Donde corresponda, el agrupamiento del sistema funciona para filtrar una lista de trabajos en un solo campo de encabezados de trabajos. No puede usar el agrupamiento del sistema para filtrar campos en el nivel de línea.
 
-## Configuración del agrupamiento del sistema en una lista de trabajos abierta
-<a id="set-up-system-grouping-on-an-open-work-list" class="xliff"></a>
+## <a name="set-up-system-grouping-on-an-open-work-list"></a>Configuración del agrupamiento del sistema en una lista de trabajos abierta
 Siga estos pasos para configurar el agrupamiento del sistema en una lista de trabajos abierta.
 
 -   Desde un elemento de menú del dispositivo móvil, seleccione **Modo: Indirecto** y **Código de actividad: Mostrar lista de trabajo abierta**. Están disponibles las siguientes opciones. Estas opciones son obligatorias para el agrupamiento del sistema en una lista de trabajo abierta. 

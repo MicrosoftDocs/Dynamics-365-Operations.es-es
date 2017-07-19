@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: sericks
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17404
 ms.assetid: babde0c6-bb5d-45ae-95ca-2af75a0ea292
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,11 +23,9 @@ ms.openlocfilehash: 26ca948e26708126686ca0d96ea21dc16b1c3799
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Configurar una jerarquía organizativa
-<a id="configure-organizational-hierarchy" class="xliff"></a>
+# <a name="configure-organizational-hierarchy"></a>Configurar una jerarquía organizativa
 
 [!include[banner](../includes/banner.md)]
 
@@ -58,8 +57,7 @@ Debe tener al menos una entidad jurídica para representar su empresa en Finance
 | Productos                                 | Las definiciones de producto se comparten y se deben lanzar a las entidades jurídicas individuales para que se puedan incluir en las transacciones. Cada entidad jurídica tiene su propio conjunto de productos lanzados que se pueden incluir en los documentos de transacción. Si las organizaciones internas deben utilizar distintos conjuntos de productos, debe modelarlas como entidades jurídicas. **Nota:** Aunque las definiciones de producto se comparten, en cada entidad jurídica en la que se ha lanzado un producto, puede especificar distintos parámetros de ventas, compra e inventario para el artículo en cada sitio de inventario.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Todas las unidades operativas comparten el mismo conjunto de productos. Si las organizaciones internas pueden compartir el mismo conjunto de productos, puede modelar las organizaciones como unidades operativas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Consulta e informes                    | Debe cambiar manualmente las empresas para especificar transacciones y realizar consultas en varias entidades jurídicas. Debido a los límites de seguridad de datos, la consulta consolidada y los informes pueden emplear un gran número de recursos y llevar mucho tiempo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | No es necesario cambiar las empresas para acceder a los datos de varias unidades operativas. La consulta y los informes consolidados y la consulta regional individual son más fáciles y más rápidas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
-## Prácticas recomendadas para modelar organizaciones y jerarquías
-<a id="best-practices-for-modeling-organizations-and-hierarchies" class="xliff"></a>
+## <a name="best-practices-for-modeling-organizations-and-hierarchies"></a>Prácticas recomendadas para modelar organizaciones y jerarquías
 Tenga en cuenta las siguientes prácticas recomendadas al implementar una jerarquía organizativa:
 -   Cree un departamento para modelar la intersección entre una entidad jurídica y una unidad de negocio. A continuación, puede acumular datos de un departamento a una entidad jurídica para informes estatutarios, y desde un departamento a una unidad de negocio para informes internos. Los departamentos pueden servir como centros de ganancias. Si usa departamentos, no tiene que usar entidades jurídicas y unidades de negocio como dimensiones en la estructura contable. Puede usar únicamente departamentos como una dimensión. Sin embargo, debe usar centros de costes y departamentos como dimensiones en la estructura contable si los centros de costes solo se usan como acumuladores de costes y los departamentos se usan como aprobación de ingresos.
 -   Modele varias jerarquías para unidades operativas si tiene requisitos complejos para notificar pérdidas y ganancias.

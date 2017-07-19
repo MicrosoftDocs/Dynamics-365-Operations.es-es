@@ -9,11 +9,12 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: bis
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
@@ -21,11 +22,9 @@ ms.openlocfilehash: d2db0431a3f749cbdaf35cc5108851f1e116bc96
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
 
-
 ---
 
-# Movimiento de inventario con trabajo asociado en Gestión de almacenes
-<a id="movement-of-inventory-with-associated-work-in-warehouse-management" class="xliff"></a>
+# <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>Movimiento de inventario con trabajo asociado en Gestión de almacenes
 
 [!include[banner](../includes/banner.md)]
 
@@ -33,20 +32,16 @@ Si usa el movimiento de inventario, puede decidir que trabajadores de almacén p
 
 La flexibilidad para administrar las operaciones diarias de trabajadores de almacén puede ser útil en escenarios como estos:
 
-## Escenario 1
-<a id="scenario-1" class="xliff"></a>
+## <a name="scenario-1"></a>Escenario 1
 Una empresa tiene un área de recepción relativamente pequeña y está congestionada con pallets y cajas que deben colocarse. Un envío grande se espera en este día, por lo que el vendedor receptor decide desalojar el área de recepción moviendo algunos pallets a una área provisional de entrada secundaria.
 
-## Escenario 2
-<a id="scenario-2" class="xliff"></a>
+## <a name="scenario-2"></a>Escenario 2
 Un trabajador experimentado de almacén ve una oportunidad en un almacén de consolidar artículos en una ubicación en lugar de dividirlos tenerlos en 3 ubicaciones próximas con menor cantidad en cada una. El trabajador desea consolidar la cantidad moviendo artículos desde cada una de las ubicaciones a la misma ubicación y en la misma matrícula.
 
-## Escenario 3
-<a id="scenario-3" class="xliff"></a>
+## <a name="scenario-3"></a>Escenario 3
 Un pallet está en espera de envío en una ubicación provisional, como STAGE01, que está cerca de BAYDOOR01. Sin embargo, debido a un cambio de planes el camión se programa para su llegada a BAYDOOR04. El encargado de los envíos lo sabe y necesita garantizar que el camión no tenga que esperar para cargarse en STAGE01. El encargado de los envíos decide mover los artículos en este envío desde STAGE01 a STAGE04, que está más cerca del nuevo destino.
 
-### Limitaciones actuales
-<a id="current-limitations" class="xliff"></a>
+### <a name="current-limitations"></a>Limitaciones actuales
 
 Las reservas de trabajo que puede mover se limitan al pedido de ventas, emisión de pedidos de transferencia, recibo de pedidos de transferencia, pedido de compra y trabajo de reabastecimiento.
 
@@ -55,13 +50,11 @@ Los artículos móviles se limitan para evitar la división de las líneas de tr
 Para las situaciones provisionales, donde la matrícula desde la que mueve la mercancía o la matrícula a la que mueve la mercancías se establecen como Destino LP para un pedido de trabajo, solo se perite el movimiento de LP completo para no interrumpir el Destino LP.
 Solo el movimiento ad hoc se admite actualmente. Esto significa que no podrá mover el inventario reservado a través del movimiento por los elementos de menú del dispositivo móvil de la plantilla.
 
-### Configure el permiso para mover el inventario reservado para trabajadores individuales
-<a id="set-up-the-permission-to-move-reserved-inventory-for-individual-workers" class="xliff"></a>
+### <a name="set-up-the-permission-to-move-reserved-inventory-for-individual-workers"></a>Configure el permiso para mover el inventario reservado para trabajadores individuales
 
 Para el trabajador tenga permitido mover el inventario reservado, seleccione la casilla de verificación **Permitir el movimiento de inventario con trabajo asociado** en **Gestión de almacenes** > **Configuración** > **Trabajador**.  
 
-### Transporte de paquetes entre versiones
-<a id="backported" class="xliff"></a>
+### <a name="backported"></a>Transporte de paquetes entre versiones
 
 Esta función también permite el transporte de paquetes entre versiones a Microsoft Dynamics AX 2012 R3 y estará disponible como parte de CU12.
 También puede descargase de forma individual con el KB número 3192548. 

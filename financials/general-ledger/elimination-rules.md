@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerEliminationRule
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: robinr
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -24,11 +24,9 @@ ms.openlocfilehash: 76af350f37109260a757ccc0b93908637d0579dc
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Reglas de eliminación
-<a id="elimination-rules" class="xliff"></a>
+# <a name="elimination-rules"></a>Reglas de eliminación
 
 [!include[banner](../includes/banner.md)]
 
@@ -123,8 +121,7 @@ La tabla siguiente muestra los tipos de transacciones que podrían tener que eli
 </tbody>
 </table>
 
-## ejemplo
-<a id="example" class="xliff"></a>
+## <a name="example"></a>ejemplo
 Su entidad jurídica, entidad jurídica A, vende widgets a otra entidad jurídica de su organización, entidad jurídica B. En el ejemplo siguiente se muestra cómo las transacciones que tienen lugar entre las dos entidades jurídicas pueden tener que ser eliminadas:
 
 -   La entidad jurídica A vende un widget que cuesta 10,00 euros a la entidad jurídica B por 10,00 euros.
@@ -134,8 +131,7 @@ Su entidad jurídica, entidad jurídica A, vende widgets a otra entidad jurídic
 
 Todas estas transacciones crean transacciones de empresas vinculadas a las cuentas de destinatario de pago y remitente de pago. Además, estas transacciones podrían incluir importes de marcado y desmarcado de precios cuando el importe de la venta de empresas vinculadas no es igual al coste de los bienes vendidos.
 
-## Configurar reglas de eliminación
-<a id="set-up-elimination-rules" class="xliff"></a>
+## <a name="set-up-elimination-rules"></a>Configurar reglas de eliminación
 Al configurar reglas de eliminación de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, le recomendamos que cree una dimensión financiera específicamente para la eliminación. La mayoría de clientes lo denominan Socio comercial o algo similar. Si decide no utilizar una dimensión financiera, asegúrese de tener cuentas principales que sean específicas únicamente para las transacciones de empresas vinculadas. 
 
 La configuración de eliminaciones se encuentra en el área de Configuración del módulo de Consolidaciones. Tras introducir una descripción para la regla, debe seleccionar la empresa a la que registrará el diario de eliminaciones. Esta debe ser una empresa que tengan la opción **Usar para el proceso de eliminación financiera** seleccionada en la configuración de la entidad jurídica. 
@@ -152,8 +148,7 @@ La especificación de la dimensión actúa de la misma manera. Si selecciona **O
 
 Seleccione las dimensiones de origen y las dimensiones financieras y los valores que se usan como origen de la eliminación.
 
-## Procesar transacciones de eliminación
-<a id="process-elimination-transactions" class="xliff"></a>
+## <a name="process-elimination-transactions"></a>Procesar transacciones de eliminación
 Hay dos formas de procesar las transacciones de eliminación, durante el proceso de consolidación en línea o creando un diario de eliminaciones y ejecutando el proceso de propuesta de eliminación. Esta sección se centra en crear el diario y en ejecutar el proceso de eliminación. 
 
 En una empresa definida como empresa de eliminación, seleccione **Diario de eliminaciones** en el módulo de Consolidaciones. Una vez que haya seleccionado el nombre de diario, haga clic en **Líneas**. Puede ejecutar la propuesta seleccionando el menú **Propuestas** y, a continuación, seleccionando **Propuesta de eliminación**.

@@ -10,13 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTrans, InventTransVoucher
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 75023
 ms.assetid: 128340e1-c573-48e6-b835-6c350d8dd0fb
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -24,11 +25,9 @@ ms.openlocfilehash: a0eeb5a57f9b82150150752c64e89c2c91856889
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Actualizaciones físicas y financieras
-<a id="physical-and-financial-updates" class="xliff"></a>
+# <a name="physical-and-financial-updates"></a>Actualizaciones físicas y financieras
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,8 +36,7 @@ En este tema se proporciona un resumen de qué tipos de transacciones aumentan y
 
 Las transacciones de inventario se pueden actualizar físicamente y financieramente en Microsoft Dynamics 365 for Finance and Operations. Algunos tipos de transacciones financieras y físicas aumentan las cantidades de inventario, mientras que otros reducen la cantidad.
 
-## Incrementos físicos
-<a id="physical-increases" class="xliff"></a>
+## <a name="physical-increases"></a>Incrementos físicos
 Cuando se registra una transacción física, el estado del registro de la transacción es **Recibido**. Las siguientes transacciones se consideran incrementos físicos:
 
 -   Recibo del pedido de compra
@@ -46,8 +44,7 @@ Cuando se registra una transacción física, el estado del registro de la transa
 -   Notificación de un pedido de producción como terminado
 -   Por producto en una lista de selección de pedidos de producción
 
-## Incrementos financieros
-<a id="financial-increases" class="xliff"></a>
+## <a name="financial-increases"></a>Incrementos financieros
 Cuando se registra una transacción de recepción financiera, el estado del registro de la transacción que aumenta la cantidad es **Comprado**. Las siguientes transacciones se consideran incrementos financieros:
 
 -   Factura de proveedor
@@ -55,16 +52,13 @@ Cuando se registra una transacción de recepción financiera, el estado del regi
 -   Gestión de costes del pedido de producción
 -   Diarios de inventario de cantidad positiva, como movimiento, pérdidas y ganancias, recuento, lista de materiales y transferencia
 
-## Transacciones que aumentan la cantidad.
-<a id="transactions-that-increase-quantity" class="xliff"></a>
+## <a name="transactions-that-increase-quantity"></a>Transacciones que aumentan la cantidad.
 Las transacciones que aumentan la cantidad se registran en el precio de coste promedio móvil. Finance and Operations calcula un precio de coste promedio móvil basado en el coste de cada una de las transacciones para cada dimensión de inventario de la que se efectúa un seguimiento financiero. Para obtener información acerca del precio de coste promedio móvil, consulte [Precio de coste promedio móvil](running-average-cost-price.md).
 
-## Transacciones que reducen la cantidad
-<a id="transactions-that-decrease-quantity" class="xliff"></a>
+## <a name="transactions-that-decrease-quantity"></a>Transacciones que reducen la cantidad
 Finance and Operations utiliza el precio de coste promedio móvil cuando se registra una transacción que reduce la cantidad, independientemente de qué modelo de inventario está asociado a ese inventario. La transacción que reduce la cantidad no debe haberse marcado para otra transacción antes de registrarse. Si el inventario físico disponible llega a ser negativo, Finance and Operations utiliza el coste de inventario definido para el artículo en la página **Artículo**. **Nota**: si la funcionalidad multisitio está activada, este coste será en su lugar el coste de inventario definido para un sitio en la página **Configuración predeterminada de pedido**.
 
-## Emisiones físicas frente a emisiones financieras
-<a id="physical-issues-vs-financial-issues" class="xliff"></a>
+## <a name="physical-issues-vs-financial-issues"></a>Emisiones físicas frente a emisiones financieras
 Cuando se registra una transacción de emisión física, el estado del registro de la transacción es **Deducido**. Las siguientes transacciones se consideran emisiones físicas:
 
 -   Diario de listas de selección de órdenes de producción

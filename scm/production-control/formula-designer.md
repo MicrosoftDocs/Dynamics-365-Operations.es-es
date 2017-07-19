@@ -10,13 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: 
 ms.author: cvocph
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -24,11 +25,9 @@ ms.openlocfilehash: 84322bb3f02d236843bebc24c4c5eccdd4d9f2bf
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Diseñador de fórmula
-<a id="formula-designer" class="xliff"></a>
+# <a name="formula-designer"></a>Diseñador de fórmula
 
 [!include[banner](../includes/banner.md)]
 
@@ -45,8 +44,7 @@ Haga clic en **Filtro** para cambiar la selección inicial en la vista. Si estab
 
 Las siguientes secciones describen la funcionalidad disponible en el diseñador de lista de materiales.
 
-## Analizar una estructura de fórmulas mediante el diseñador de fórmulas
-<a id="analyze-a-formula-structure-by-using-the-formula-designer" class="xliff"></a>
+## <a name="analyze-a-formula-structure-by-using-the-formula-designer"></a>Analizar una estructura de fórmulas mediante el diseñador de fórmulas
 El diseñador de fórmulas tiene dos secciones:
 
 -   La vista de árbol de la estructura de fórmulas.
@@ -57,8 +55,7 @@ El diseñador de fórmulas tiene dos secciones:
     -   **Ruta**: muestra el encabezado de la ruta relacionada con el nodo seleccionado.
     -   **Operaciones de ruta**: muestra una vista preliminar de las operaciones de ruta. Cuando se selecciona una línea de lista de materiales asignada a una operación específica, se marca la operación como **Componente necesario en las operaciones**.
 
-## Seleccionar una fórmula y una ruta
-<a id="select-a-formula-and-route" class="xliff"></a>
+## <a name="select-a-formula-and-route"></a>Seleccionar una fórmula y una ruta
 El filtro que se aplica para la fórmula y la ruta se muestra en el encabezado del diseñador de fórmulas. Puede cambiar el filtro mediante el cuadro de diálogo **Filtro**. En la tabla siguiente se describen los campos de este cuadro de diálogo.
 
 <table>
@@ -102,8 +99,7 @@ El filtro que se aplica para la fórmula y la ruta se muestra en el encabezado d
 
 Al usar el diseñador de fórmulas para revisar o editar las fórmulas que constan de uno o varios niveles de fantasmas, la ruta asociada con el elemento superior normalmente abarca la jerarquía completa de fórmulas. Para simplificar la descripción, puede bloquear la ruta de nivel superior en la visualización haciendo clic en **Ver** &gt; **Bloquear ruta**. Para desbloquear la ruta, haga clic en **Ver** &gt; **Desbloquear ruta**.
 
-## Agregar y editar fórmulas y líneas de fórmula
-<a id="add-and-edit-formulas-and-formula-lines" class="xliff"></a>
+## <a name="add-and-edit-formulas-and-formula-lines"></a>Agregar y editar fórmulas y líneas de fórmula
 Use las funciones **Líneas de L. MAT.** o **Fórmula** para modificar las líneas de fórmula o la fórmula. Cuando selecciona un nodo del árbol, el tipo de nodo determina las funciones disponibles.
 
 | Función                            | Descripción                                                                                               | Tipo de nodo y condiciones |
@@ -117,8 +113,7 @@ Use las funciones **Líneas de L. MAT.** o **Fórmula** para modificar las líne
 | Fórmula &gt; Cálculo            | Abra un cuadro de diálogo donde pueda ejecutar el cálculo de coste o del precio de ventas para la variante del producto seleccionada. | Esta función solo está disponible cuando se ha seleccionado un nodo relacionado con una versión de fórmulas. |
 | Fórmula &gt; Comprobar                  | Valide y compruebe la fórmula seleccionada.                                                                  | Esta función solo está disponible cuando se ha seleccionado un nodo relacionado con una versión de fórmulas. |
 
-## Configuración de la vista de árbol
-<a id="configuring-the-tree-view" class="xliff"></a>
+## <a name="configuring-the-tree-view"></a>Configuración de la vista de árbol
 Haga clic en **Configurar** para personalizar la información que se muestra en el diseñador de fórmula.
 
 | Grupo de campos | Descripción |

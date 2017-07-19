@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,19 +23,16 @@ ms.openlocfilehash: f35db274a6b14f6bae185b69348d3829c77801b5
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Visión general de Gestión presupuestaria 
-<a id="budgeting-overview" class="xliff"></a>
+# <a name="budgeting-overview"></a>Visión general de Gestión presupuestaria 
 
 [!include[banner](../includes/banner.md)]
 
 
 Casi todas las empresas que utilizan la funcionalidad de Financials en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, tendrán que poder crear informes de valores presupuestados frente a reales. En este artículo se explica la configuración mínima necesaria para crear presupuestos en Finance and Operations o cargarlos desde un programa de terceros.
 
-Información general
-<a id="overview" class="xliff"></a>
+<a name="overview"></a>Información general
 --------
 
 El presupuesto aprobado para una entidad jurídica se mantiene en un documento que se conoce como un *asiento de registro presupuestario* Las líneas de un documento de asiento de registro presupuestario se conocen como entradas de *cuenta de presupuesto* y contienen información de dimensión financiera, fechas y los importes de presupuesto aprobados. El documento del asiento de registro presupuestario se integra con los informes financieros básicos y las páginas de consulta donde los importes reales del libro mayor se comparan con los importes presupuestarios. 
@@ -48,8 +46,7 @@ Hay varios métodos para crear asientos de registro presupuestario en Finance a
 
 El asiento de registro presupuestario se considera completado cuando se han actualizado los saldos presupuestarios. En la página **Asientos de registro presupuestario**, haga clic en **Actualizar saldos presupuestarios** para un asiento de registro presupuestario seleccionado o varios asientos. Tras actualizar los saldos presupuestarios, el estado del asiento de registro presupuestario cambia a **Completado**. El asiento de registro presupuestario completado no se puede abrir de nuevo para editar. Por lo tanto, si los datos presupuestarios se deben ajustar, debe crear un nuevo asiento de registro presupuestario en lugar de corregir los datos en el asiento de registro presupuestario completado.
 
-## Configuración
-<a id="configuration" class="xliff"></a>
+## <a name="configuration"></a>Configuración
 Cuando configura el presupuesto, inicie en la pagina **Parámetros de gestión presupuestaria**. En esta página, debe definir el diario de presupuesto, la secuencia numérica para los asientos de registro presupuestario y el comportamiento predeterminado en los espacios de trabajo.
 
 A continuación, si hay directivas que rigen la aprobación de asientos de registro presupuestario, en función del tipo de presupuesto (por ejemplo, las transferencias o las revisiones), debe crear flujos de trabajo del asiento de registro presupuestario en la página **Flujos de trabajo de gestión presupuestaria**. Si hay situaciones en que las transferencias se pueden permitir sin necesidad de aprobación de flujo de trabajo, puede definir reglas de transferencia presupuestaria para admitir las situaciones. 
@@ -74,8 +71,7 @@ Los códigos presupuestarios le permiten tener una traza de auditoría de las mo
 
 También puede configurar *reglas de transferencia presupuestaria*. Para usar reglas de transferencia presupuestaria, seleccione **Usar reglas para las transferencias presupuestarias** en la página **Parámetros presupuestarios**. Cuando se usan las reglas de transferencia presupuestaria, si un usuario crea un documento mediante un código presupuestario de tipo **Transferencia**, los saldos presupuestarios no se actualizarán si se infringen las reglas de transferencia presupuestaria. Por ejemplo, puede habilitar los documentos de transferencia presupuestaria en que el presupuesto de gastos se transfiere entre las cuentas principales para el departamento de ventas y marketing, pero puede prohibir que el presupuesto se transfiera a dicho departamento o desde el mismo a menos que la aprobación de flujo de trabajo se haya concedido para dicho tipo de asiento contable de presupuesto.
 
-## Usar los espacios de trabajo y las páginas de consulta para realizar un seguimiento del presupuesto frente a gastos reales
-<a id="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals" class="xliff"></a>
+## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Usar los espacios de trabajo y las páginas de consulta para realizar un seguimiento del presupuesto frente a gastos reales
 El administrador de presupuestos puede revisar el estado actual de un presupuesto en el espacio de trabajo **Presupuestos contables y previsiones**. Las pestañas **Gastos sobre presupuesto** y **Ingresos bajo presupuesto** proporcionan una vista rápida de las combinaciones de dimensiones financieras en que los objetivos de presupuesto no se están resolviendo ni se están acercando al umbral. Puede personalizar el porcentaje del umbral del presupuesto y los conjuntos de dimensiones financieras que se usan en esas fichas haciendo clic en **Configurar mi espacio de trabajo**. Puede hacer clic en **Directores de unidad** en para ver qué trabajadores son los responsables de las combinaciones de dimensiones financieras específicas que están activadas en esas fichas. Por ejemplo, si observa que el presupuesto de gastos del departamento de operaciones está pasando el umbral de presupuesto, puede encontrar fácilmente y ponerse en contacto con el director de departamento de operaciones para hablar del problema. 
 
 > [!NOTE] 

@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
 ms.search.region: global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,19 +23,16 @@ ms.openlocfilehash: eb7fd01874b08417933ddf575c7d6ff866b4e6f8
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Conciliar extractos bancarios mediante la conciliación bancaria avanzada
-<a id="reconcile-bank-statements-by-using-advanced-bank-reconciliation" class="xliff"></a>
+# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Conciliar extractos bancarios mediante la conciliación bancaria avanzada
 
 [!include[banner](../includes/banner.md)]
 
 
 La función Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. En este tema se explica el proceso de conciliación.  
 
-Importar un extracto bancario electrónico
-<a id="import-an-electronic-bank-statement" class="xliff"></a>
+<a name="import-an-electronic-bank-statement"></a>Importar un extracto bancario electrónico
 -----------------------------------
 
 Importa los extractos bancarios mediante la acción **Importar extracto** en la página **Extractos bancarios**. En el extracto bancario, la cuenta bancaria se identifica mediante una combinación de valores que se establecen en los detalles de la cuenta bancaria. Estos valores incluyen el nombre del banco, el número de cuenta bancaria, el número de ruta, el código SWIFT (Society for Worldwide Interbank Financial Telecommunication, Sociedad para la telecomunicación financiera interbancaria en el mundo) y el número internacional de cuenta bancaria (IBAN). 
@@ -50,8 +48,7 @@ Para cargar varios archivos de extractos a Finance and Operations en un único p
 
 Hay una opción **Conciliar tras la importación** disponible. Cuando establece esta opción en **Sí**, el sistema valida el extracto bancario automáticamente, crea una conciliación bancaria y una hoja de cálculo nuevas, y ejecuta el Conjunto de reglas de coincidencia predeterminado cuando se carga el extracto bancario. Esta funcionalidad automatiza el proceso hasta el punto donde deben conciliarse manualmente transacciones.
 
-## Validar el extracto bancario
-<a id="validate-the-bank-statement" class="xliff"></a>
+## <a name="validate-the-bank-statement"></a>Validar el extracto bancario
 Para validar un extracto, en la página **Extractos bancarios**, haga clic en **Validar**. Los extractos bancarios se deben validar para que se pueden conciliar. Este paso se completa automáticamente si establece la opción **Conciliar tras la importación** en **Sí** en el momento de la importación. 
 
 La validación del extracto bancario comprueba los siguientes detalles:
@@ -66,8 +63,7 @@ La validación del extracto bancario comprueba los siguientes detalles:
 
 Una vez finaliza la validación, se actualiza el estado del extracto bancario en **Validado**. Un extracto bancario se deben validar para que se pueda conciliar.
 
-## Conciliar el extracto bancario
-<a id="reconcile-the-bank-statement" class="xliff"></a>
+## <a name="reconcile-the-bank-statement"></a>Conciliar el extracto bancario
 Una vez hay importado un extracto bancario electrónico y haya validado el extracto en la página **Extractos bancarios**, puede conciliar el extracto bancario con las páginas **Conciliación bancaria** y **Hoja de cálculo de conciliación bancaria**. 
 
 En la página **Conciliación bancaria**, haga clic en **Nueva** para crear una conciliación nueva y, a continuación, seleccione la cuenta bancaria del extracto que se importó. Una cuenta bancaria solo puede tener una conciliación bancaria abierta. La fecha límite determina las transacciones de extracto bancario y las transacciones bancarias de Operaciones que se incluyen en la hoja de cálculo de conciliación. De forma predeterminada, se utiliza la fecha actual del sistema como la fecha límite, pero puede cambiar la fecha de la conciliación. La información restante del encabezado se toma automáticamente del extracto. Este paso se completa automáticamente si establece la opción **Conciliar tras la importación** en **Sí** en el momento de la importación. 
@@ -96,8 +92,7 @@ Puede quitar la conciliación de las transacciones que estuvieran incorrectament
 
 Una vez que se han procesado todas las líneas de extracto, debe marcar la hoja de trabajo de conciliación bancaria como conciliada.
 
-## Registrar nuevas transacciones asociadas con la conciliación
-<a id="post-new-transactions-that-are-associated-with-the-reconciliation" class="xliff"></a>
+## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Registrar nuevas transacciones asociadas con la conciliación
 Las transacciones de extracto bancario que marcó como **Nueva** en la hoja de cálculo de conciliación se registran en la página **Extracto bancario**. En el **Extracto bancario** , seleccione el id. de extracto para ver los detalles del extracto. En el menú **Contabilidad**, puede utilizar las opciones **Ver distribuciones** y **Ver contabilidad** para ver detalles de las nuevas transacciones y los movimientos contables asociados. Seleccione la opción **Registrar** para registrar las líneas de extracto bancario marcadas como **Nueva** en la contabilidad general. Tenga en cuenta que el registro solo se puede completar una vez por extracto bancario.
 
 

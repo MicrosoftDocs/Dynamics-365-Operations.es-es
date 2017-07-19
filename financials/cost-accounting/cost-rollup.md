@@ -10,13 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
@@ -24,11 +25,9 @@ ms.openlocfilehash: c236c72c2f29578f5ce8f2e536bd708a6ef358a6
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
 
-
 ---
 
-## Directiva de acumulación de costes y cálculo de costes generales
-<a id="cost-rollup-policy-and-overhead-calculation" class="xliff"></a> 
+## <a name="cost-rollup-policy-and-overhead-calculation"></a>Directiva de acumulación de costes y cálculo de costes generales 
 
 [!include[banner](../includes/banner.md)]
 
@@ -45,8 +44,7 @@ Para evitar estas implicaciones, la contabilidad de costes le permite configurar
 > [!NOTE]
 > Puede cambiar las configuraciones si cambian los requisitos de los informes.
 
-## Ejemplo de configuración de la directiva de acumulación de costes
-<a id="example-of-cost-rollup-policy-setup" class="xliff"></a>
+## <a name="example-of-cost-rollup-policy-setup"></a>Ejemplo de configuración de la directiva de acumulación de costes
 
 Imagine que una organización tiene la siguiente estructura con 4 centros de coste.
 
@@ -155,8 +153,7 @@ Las reglas de asignación de costes se puede establecer del modo siguiente.
 | CC001                                | Total         | **Servicios RR. HH.**        |
 | CC002                                | Total         | **Servicios financieros** |
 
-<br>Cómo el coste fluye entre los centros de coste
-<a id="brhow-cost-flows-between-cost-centers" class="xliff"></a> 
+<a name="brhow-cost-flows-between-cost-centers"></a><br>Cómo el coste fluye entre los centros de coste 
 ---------------------------------------------------
 
 Si desea obtener información sobre cómo el coste fluye entre los centros de coste de la organización, puede crear elementos de coste del tipo **Secundario** para cada centro de coste. Estos artículos de coste se usarán para transferir los saldos entre los centros de coste durante el cálculo de gastos generales.
@@ -207,8 +204,7 @@ Cree una **Directiva de acumulación de costes** donde cada centro de coste se a
 | CC003                                | Informe de pérdidas y ganancias               | **SC-CC003**           |
 | CC004                                | Informe de pérdidas y ganancias               | **SC-CC004**           |
 
-## Realizar cálculo de costes generales
-<a id="perform-overhead-calculation" class="xliff"></a>
+## <a name="perform-overhead-calculation"></a>Realizar cálculo de costes generales
 
 **Diario**
 
@@ -257,8 +253,7 @@ La página **Detalles de movimiento de diario de saldo de costes de objetos de c
 
 Después de que se complete el **Cálculo de costes generales**, puede notificar los resultados mediante herramientas como Microsoft SharePoint Workspace, Excel o Power BI.
 
-## Ver los informes en Excel
-<a id="view-reporting-in-excel" class="xliff"></a> 
+## <a name="view-reporting-in-excel"></a>Ver los informes en Excel 
 
 Las jerarquías de dimensión le permiten ver datos en distintos niveles de agregado.
 
@@ -302,8 +297,7 @@ La clara separación entre **Asignación de costes** y **Directivas de acumulaci
 
 
 
-## Consulte también
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Consulte también
 -  [Dimensiones de objeto de coste](cost-objects.md)
 -  [Dimensiones de elemento de coste](cost-elements.md)
 -  [Jerarquías de dimensiones](dimension-hierarchy.md)

@@ -10,13 +10,13 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: ShylaThompson
+ms.reviewer: shylaw
 ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
@@ -24,32 +24,27 @@ ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Definiciones de filas en el diseñador de informes financieros
-<a id="row-definitions-in-financial-report-designer" class="xliff"></a>
+# <a name="row-definitions-in-financial-report-designer"></a>Definiciones de filas en el diseñador de informes financieros
 
 [!include[banner](../includes/banner.md)]
 
 
 Una definición de fila es un componente de informe, o bloque de creación, que especifica el contenido de cada fila de un informe financiero. Una definición de fila se puede combinar con las definiciones de columnas, definiciones de organigramas y definiciones de informes para crear un grupo de bloques de creación que puedan usar varias empresas.
 
-Crear una definición de fila
-<a id="create-a-row-definition" class="xliff"></a>
+<a name="create-a-row-definition"></a>Crear una definición de fila
 -----------------------
 
 1.  En el diseñador de informes, en el panel de navegación, haga clic en **Definiciones de las filas**.
 2.  En el menú **Archivo**, haga clic en **Nueva** y, a continuación, haga clic en **Definición de filas**. Para obtener más información sobre el contenido de cada celda, vea [Modificar las celdas de la definición de filas](modify-row-definition-cells-financial-reporting.md).
 
-## Abrir una definición de fila
-<a id="open-a-row-definition" class="xliff"></a>
+## <a name="open-a-row-definition"></a>Abrir una definición de fila
 1.  En el diseñador de informes, en el panel de navegación, haga clic en **Definiciones de las filas**.
 2.  Haga doble clic en el nombre de la definición de la fila para abrirla.
 3.  Para ver los bloques de creación asociados con la definición de filas, haga clic con el botón secundario en la definición de filas y seleccione **Asociaciones**.
 
-##  Contenido de una definición de filas
-<a id="contents-of-a-row-definition" class="xliff"></a>
+## <a name="contents-of-a-row-definition"></a> Contenido de una definición de filas
 Una definición de fila puede contener hasta 20.000 filas de la dimensión financiera e incluir la siguiente información:
 
 -   Texto descriptivo que agrega significado al informe creando títulos de sección, líneas y espacios, como **Efectivo** o **Ingresos totales**
@@ -67,8 +62,7 @@ Hay dos métodos para escribir información en una definición de fila:
 -   Especifique manualmente la información de fila en una nueva definición de fila. Para obtener más información, consulte [Modificar las celdas de la definición de filas](modify-row-definition-cells-financial-reporting.md).
 -   Utilice el diseñador de informes para extraer información de la fila directamente de las dimensiones financieras. Para obtener más información, consulte la sección "Fórmulas/filas/unidades relacionadas" en [Modificar las celdas de la definición de filas](modify-row-definition-cells-financial-reporting.md).
 
-##  Agregar dimensiones en una definición de filas
-<a id="add-dimensions-in-a-row-definition" class="xliff"></a>
+## <a name="add-dimensions-in-a-row-definition"></a> Agregar dimensiones en una definición de filas
 Una dimensión es una intersección de datos y de valores. Puede agrupar datos y valores en el diseñador de informes. A continuación, puede clasificar y analizar transacciones con más detalle. Puede usar el cuadro de diálogo **Insertar filas desde dimensiones** para agregar varias filas a una definición de fila al mismo tiempo. El cuadro de diálogo muestra una columna para cada dimensión. En la tabla siguiente se describe la información que puede especificar para cada dimensión.
 
 | Opción                | Descripción                                                                                                                                                                                                                                                                      |
@@ -87,8 +81,7 @@ Para agregar dimensiones a una definición de fila, siga estos pasos.
 6.  En el campo **Incrementar cada fila en**, especifique el hueco entre los códigos de fila consecutivas. Por ejemplo, si el código de la primera fila es 100 y el valor de incremento es 30, las primeras nuevas filas tienen los códigos 100, 130, 160, 190 y 220. Use un valor de incremento que proporcione espacio para insertar nuevas filas de formato y de fórmula.
 7.  Haga clic en **Aceptar**. Para cada uno de los valores de dimensión seleccionados, se agrega una línea a la definición de filas.
 
-##  Ajuste de redondeo en una definición de filas
-<a id="adjust-rounding-in-a-row-definition" class="xliff"></a>
+## <a name="adjust-rounding-in-a-row-definition"></a> Ajuste de redondeo en una definición de filas
 Si tiene un balance de situación donde se redondean los importes, los totales pueden estar desequilibrados. Este problema puede producirse si, por ejemplo, utiliza la opción de redondeo en un informe de balance de situación y la definición del informe también especifica el redondeo. Puede utilizar la opción **Ajuste de redondeo** en la definición de filas para equilibrar los importes de los balances de situación. Puede desactivar el redondeo o modificarlo en la pestaña **Configuración** de la definición del informe. En la siguiente tabla se muestra cómo se redondean los importes. En esta tabla, los totales de las filas 100 y 200 difieren cuando se activa el redondeo.
 
 | Código de la fila | Importes sin redondeo | Importe con redondeo a millares enteros |
@@ -111,12 +104,10 @@ Para ajustar el redondeo en un balance de situación, siga estos pasos.
 
 Los importes en el balance de situación se equilibrarán ahora cuando se activa el redondeo. **Nota:** el límite de ajuste se aplica según la opción **Precisión del redondeo** que se especifica para la definición del informe. Por ejemplo, si redondea el informe en millares y especifica **2** en el cuadro **Límite del ajuste de importe**, recibirá un mensaje de advertencia cuando el valor del campo **Fila de ajuste de redondeo** aumenta o disminuye por más de 2.000.
 
-## Dar formato al texto de la columna y la fila
-<a id="format-row-and-column-text" class="xliff"></a>
+## <a name="format-row-and-column-text"></a>Dar formato al texto de la columna y la fila
 Puede personalizar el aspecto de sus informes cambiando fuentes y dando formato al texto. En las secciones siguientes se explica cómo dar formato al aspecto de filas y columnas en los informes.
 
-### Gestionar estilos de fuentes
-<a id="manage-font-styles" class="xliff"></a>
+### <a name="manage-font-styles"></a>Gestionar estilos de fuentes
 
 Puede crear y modificar estilos de fuente para el informe. A continuación, puede aplicar esos estilos al documento o a una fila o columna concreta de un informe.
 
@@ -152,8 +143,7 @@ Puede crear y modificar estilos de fuente para el informe. A continuación, pued
 </tbody>
 </table>
 
-### Dar formato al texto de la fila
-<a id="format-row-text" class="xliff"></a>
+### <a name="format-row-text"></a>Dar formato al texto de la fila
 
 El formato que se especifica en la definición de la fila anula el formato que se especifica en la definición de la columna y la definición del informe. Puede modificar el formato de texto mediante los controles de la barra de herramientas de formato. Estos controles son controles estándar de Microsoft Windows.
 
@@ -161,34 +151,29 @@ El formato que se especifica en la definición de la fila anula el formato que s
 2.  Seleccione las celdas a las que desea dar formato. Para seleccionar varias celdas, mantenga presionada la tecla Ctrl mientras selecciona la celda.
 3.  Haga clic en el botón de la barra de herramientas del formato que desea aplicar. Por ejemplo, para aplicar sangría a una fila, seleccione la fila y luego haga clic en **Aumentar sangría** ![Aumentar sangría](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Aumentar sangría") en la barra de herramientas.
 
-### Ajustar columnas mientras se diseñan informes
-<a id="adjust-columns-while-you-design-reports" class="xliff"></a>
+### <a name="adjust-columns-while-you-design-reports"></a>Ajustar columnas mientras se diseñan informes
 
 Para facilitar ver las columnas en las que está trabajando en la definición de filas, puede ajustar la anchura de una columna y ocultar además (minimizar) o mostrar columnas en el panel de vista. Las modificaciones que realice afectan solo al aspecto en pantalla de las columnas. No afectan al formato de las columnas en los informes.
 
-### Cambiar la anchura de una columna en el panel de vista
-<a id="change-the-width-of-a-column-in-the-view-pane" class="xliff"></a>
+### <a name="change-the-width-of-a-column-in-the-view-pane"></a>Cambiar la anchura de una columna en el panel de vista
 
 1.  En el diseñador de informes, abra la definición de filas para modificarla.
 2.  En el menú **Formato**, seleccione **Anchura de columna**.
 3.  En el cuadro de diálogo **Ancho de columna**, escriba un valor y, a continuación, haga clic en **Aceptar**. De forma alternativa, también puede arrastrar el límite derecho de una celda del encabezado de columna para cambiar el ancho de la columna.
 
-### Ocultar columnas en el panel de vista
-<a id="hide-columns-in-the-view-pane" class="xliff"></a>
+### <a name="hide-columns-in-the-view-pane"></a>Ocultar columnas en el panel de vista
 
 1.  En el diseñador de informes, abra la definición de filas para modificarla.
 2.  Seleccione la columna o las columnas que desea minimizar.
 3.  Haga clic con el botón secundario y, a continuación, haga clic en **Ocultar**.
 
-### Mostrar todas las columnas ocultas en el panel de vista
-<a id="show-all-hidden-columns-in-the-view-pane" class="xliff"></a>
+### <a name="show-all-hidden-columns-in-the-view-pane"></a>Mostrar todas las columnas ocultas en el panel de vista
 
 1.  En el diseñador de informes, abra la definición de filas para modificarla.
 2.  Haga clic con el botón secundario en la columna minimizada que desee mostrar y, a continuación, haga clic en **No ocultar**.
 
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Informes financieros](financial-reporting-intro.md)

@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261824
 ms.assetid: d0784b2c-fe10-428d-8d07-fd474ca50fcc
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,11 +23,9 @@ ms.openlocfilehash: c132c04bc64f02201252f03830d3f8309306f19c
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Restablecer el data mart de informes financieros después de restablecer una base de datos
-<a id="reset-the-financial-reporting-data-mart-after-restoring-a-database" class="xliff"></a>
+# <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Restablecer el data mart de informes financieros después de restablecer una base de datos
 
 [!include[banner](../includes/banner.md)]
 
@@ -35,8 +34,7 @@ Este tema describe cómo restablecer el data mart de informes financieros despu�
 
 Existen varias situaciones donde puede necesitar restablecer la base de datos de Finance and Operations desde una copia de seguridad o copiar la base de datos desde otro entorno. Si esto ocurre, también necesitará seguir los pasos adecuados para garantizar que el data mart de informes financieros use correctamente la base de datos de Finance and Operations restaurada. Si tiene preguntas sobre cómo restablecer el data mart de informes financieros por motivos que no sean restablecer una base de datos de Finance and Operations, consulte [cómo restablecer el data mart de Management Reporter](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) para obtener más información. Tenga en cuenta que los pasos de este proceso se admiten para la versión de mayo de 2016 de Dynamics 365 (compilación de la aplicación 7.0.1265.23014 y compilación de informe financiero 7.0.10000.4) y versiones posteriores. Si tiene una versión anterior de Finance and Operations, contacte con nuestro equipo de soporte técnico para obtener ayuda.
 
-## Exportar las definiciones de informe
-<a id="export-report-definitions" class="xliff"></a>
+## <a name="export-report-definitions"></a>Exportar las definiciones de informe
 En primer lugar, exporte los diseños de informe que se encuentran en el Diseñador de informes, mediante los pasos siguientes:
 
 1.  En el Diseñador de informes, vaya a **Empresa** &gt; **Grupos de bloque de creación**.
@@ -55,8 +53,7 @@ El archivo se puede copiar o cargar en una ubicación segura, lo que permite imp
 > [!WARNING]
 > Tenga en cuenta el comportamiento de la unidad D en Azure Virtual Machines. No retenga sus grupos exportados del bloque de creación aquí permanentemente. Para obtener más información acerca de unidades temporales, vea la sección sobre [entendiendo la unidad temporal de Windows Azure Virtual Machines](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
-## Detener servicios
-<a id="stop-services" class="xliff"></a>
+## <a name="stop-services"></a>Detener servicios
 Use Escritorio remoto para conectarse con todos los equipos del entorno y detener los servicios siguientes de Windows mediante services.msc:
 
 -   Servicio de publicación de la World Wide Web (en todos los equipos AOS)
@@ -65,15 +62,12 @@ Use Escritorio remoto para conectarse con todos los equipos del entorno y detene
 
 Estos servicios tendrán conexiones abiertas con la base de datos de Finance and Operations.
 
-## Restablecer
-<a id="reset" class="xliff"></a>
-#### Localice el último paquete de DataUpgrade.zip
-<a id="locate-the-latest-dataupgradezip-package" class="xliff"></a>
+## <a name="reset"></a>Restablecer
+#### <a name="locate-the-latest-dataupgradezip-package"></a>Localice el último paquete de DataUpgrade.zip
 
 Localice el último paquete de DataUpgrade.zip mediante las instrucciones que se encuentran en la sección de [descarga de la secuencia de comandos de DataUpgrade.zip](..\migration-upgrade\upgrade-data-to-latest-update.md). Las instrucciones explican cómo encontrar la versión correcta del paquete de actualización de datos para su entorno.
 
-#### Ejecute las secuencias de comandos en la base de datos de Finance and Operations
-<a id="execute-scripts-against-finance-and-operations-database" class="xliff"></a>
+#### <a name="execute-scripts-against-finance-and-operations-database"></a>Ejecute las secuencias de comandos en la base de datos de Finance and Operations
 
 Ejecute las secuencias de comandos siguientes en la base de datos de Finance and Operations (no en la base de datos del informe financiero).
 
@@ -82,8 +76,7 @@ Ejecute las secuencias de comandos siguientes en la base de datos de Finance and
 
 Estas secuencias de comandos garantizan que la configuración de usuarios, roles y seguimiento de cambios sea correcta.
 
-#### Ejecute el comando PowerShell para restablecer la base de datos
-<a id="execute-powershell-command-to-reset-database" class="xliff"></a>
+#### <a name="execute-powershell-command-to-reset-database"></a>Ejecute el comando PowerShell para restablecer la base de datos
 
 Ejecute el siguiente comando, directamente en el equipo AOS, para restablecer la integración entre Finance and Operations y el informe financiero:
 
@@ -100,16 +93,14 @@ Explicación de parámetros:
 -   El parámetro ReasonDetail es de texto libre.
 -   El motivo y reasonDetail se registrarán en telemetría/seguimiento del entorno.
 
-## Iniciar los servicios
-<a id="start-services" class="xliff"></a>
+## <a name="start-services"></a>Iniciar los servicios
 Use services.msc para reiniciar los servicios que ha detenido anteriormente:
 
 -   Servicio de publicación de la World Wide Web (en todos los equipos AOS)
 -   Servicio de administración por lotes de Microsoft Dynamics 365 for Finance and Operations (solo en equipos AOS que no son privados)
 -   Servicio de proceso de Management Reporter 2012 (en equipos de BI solamente)
 
-## Importar las definiciones de informe
-<a id="import-report-definitions" class="xliff"></a>
+## <a name="import-report-definitions"></a>Importar las definiciones de informe
 Importe sus diseños de informe del Diseñador de informes, mediante el archivo creado durante la exportación:
 
 1.  En el Diseñador de informes, vaya a **Empresa** &gt; **Grupos de bloque de creación**.

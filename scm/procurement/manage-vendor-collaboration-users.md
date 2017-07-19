@@ -10,12 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220744
 ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -23,11 +24,9 @@ ms.openlocfilehash: ec7ed3a81d296e9bef4d26f1756b73883d560cb5
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Gestionar usuarios de colaboración de proveedor
-<a id="manage-vendor-collaboration-users" class="xliff"></a>
+# <a name="manage-vendor-collaboration-users"></a>Gestionar usuarios de colaboración de proveedor
 
 [!include[banner](../includes/banner.md)]
 
@@ -38,8 +37,7 @@ La interfaz de colaboración del proveedor en Microsoft Dynamics 365 for Finance
 
 Para obtener más información sobre cómo usar la colaboración del proveedor si es un profesional de compras, consulte [Colaboración de proveedor con proveedores externos](vendor-collaboration-work-external-vendors.md).
 
-## Añadir nuevos contactos de colaboración de proveedor
-<a id="add-new-vendor-collaboration-contacts" class="xliff"></a>
+## <a name="add-new-vendor-collaboration-contacts"></a>Añadir nuevos contactos de colaboración de proveedor
 Si desea que una persona pueda acceder a la colaboración de proveedor primero es necesario añadirla como contacto de colaboración del proveedor. También puede que quiera añadir contactos para los empleados de la empresa que no utilizan la colaboración de proveedor. Por ejemplo, podrían ser el punto de contacto para otras clases de información de compras. Los nuevos contactos se añaden en la página de **Todos los contactos**, a la que se accede desde el menú de **Colaboración de proveedor** &gt; **Contactos**. Para añadir un contacto nuevo:
 
 1.  Haga clic en **Nuevo.**
@@ -49,8 +47,7 @@ Si desea que una persona pueda acceder a la colaboración de proveedor primero e
 
 Si desea eliminar un contacto, solo se pueden eliminar los que ha creado.
 
-## Solicitudes de usuario de colaboración de proveedor
-<a id="vendor-collaboration-user-requests" class="xliff"></a>
+## <a name="vendor-collaboration-user-requests"></a>Solicitudes de usuario de colaboración de proveedor
 Las solicitudes de usuario de colaboración de proveedor pueden activarse mediante un responsable de compras, o un administrador de proveedor externo.
 
 -   Si usted es proveedor externo, envía solicitudes desde la página **Todos los contactos** dentro del módulo **Colaboración de proveedor**.
@@ -60,8 +57,7 @@ Puede hacer una solicitud para aprovisionar a un usuario, para desactivarlo o pa
 
 Cuando se envía una solicitud se añade a la lista **Solicitudes de usuario de colaboración de proveedor** en el módulo **Colaboración de proveedor**, y en la lista **Solicitud de usuario de colaboración de proveedor** del módulo de **Adquisición y abastecimiento** (el módulo de la adquisición y abastecimiento no es accesible a los usuarios externos).
 
-### Aprovisionar un usuario
-<a id="provision-a-user" class="xliff"></a>
+### <a name="provision-a-user"></a>Aprovisionar un usuario
 
 Para poder solicitar el aprovisionamiento de un nuevo usuario, esa persona debe figurar como contacto para una o más cuentas de proveedor. Para crear una solicitud de nuevo usuario de colaboración de proveedor:
 
@@ -73,8 +69,7 @@ Para poder solicitar el aprovisionamiento de un nuevo usuario, esa persona debe 
 
 Cuando se envíe la solicitud de usuario proveedor, el campo **Acceso a la colaboración de proveedor permitido** se establece en **Sí** para la cuenta de proveedor seleccionada y se inicia un flujo de trabajo de solicitud del usuario. Como parte del flujo de trabajo, se crea un nuevo usuario en Finance and Operations, y se asignan los roles de seguridad. Además, el servicio Azure B2B que inicia la interacción con el portal Azure se activa y se asocia a una cuenta nueva o existente de AAD con la cuenta de usuario de Finance and Operations.
 
-### Desactivar un usuario
-<a id="inactivate-a-user" class="xliff"></a>
+### <a name="inactivate-a-user"></a>Desactivar un usuario
 
 Hay dos formas de eliminar el acceso a la colaboración del proveedor de un usuario:
 
@@ -87,8 +82,7 @@ Para solicitar que se desactive un usuario:
 2.  Escriba un comentario en el campo **Justificación comercial**.
 3.  Haga clic en **Enviar**.
 
-### Modificar roles de seguridad
-<a id="modify-security-roles" class="xliff"></a>
+### <a name="modify-security-roles"></a>Modificar roles de seguridad
 
 La página **Mantener los roles de usuario de proveedor** es la misma que la de **Provisión de un usuario de proveedor** excepto porque la lista de roles de seguridad se puede editar.  
 

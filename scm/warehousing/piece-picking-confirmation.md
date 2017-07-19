@@ -9,11 +9,12 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: bis
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
@@ -21,11 +22,9 @@ ms.openlocfilehash: c5340f4dacd743600ef955c8d5228d1e2d2d2fa9
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
 
-
 ---
 
-# Confirmación de picking de pieza
-<a id="piece-picking-confirmation" class="xliff"></a>
+# <a name="piece-picking-confirmation"></a>Confirmación de picking de pieza
 
 [!include[banner](../includes/banner.md)]
 
@@ -35,13 +34,11 @@ Si habilita el piece picking, la confirmación del producto se selecciona autom�
 
 También puede utilizar la cantidad y la unidad de medida (UdM) asociada a un código de barras digitalizado. Esto funcionará para recibir flujos de entrada con matrículas mezcladas, artículos de pedidos de compra, artículos de pedidos de transferencia y artículos de flete. También funciona para el picking de pieza cuando la digitalización del código de barras agregará la cantidad al número total de piezas confirmados que se convierten entre la UdM en el código de barras y la unidad de trabajo. Si, al realizar el recuento la UdM en el código de barras, se confirma que la cantidad está permitida para el recuento en el grupo de la secuencia, la cantidad se agregará al recuento total.
 
-## Dónde se aplica
-<a id="where-it-applies" class="xliff"></a>
+## <a name="where-it-applies"></a>Dónde se aplica
 
 El picking de piezas funciona para todos los trabajos de recuento y para la selección inicial en cualquier tipo de trabajo. El picking de piezas no se aplica si el artículo se controla mediante números de serie o si es una selección de producción o kanban de una ubicación de matrícula (LP) y el artículo se configura por etapas.
 
-## Configurar picking de piezas
-<a id="set-up-piece-picking" class="xliff"></a>
+## <a name="set-up-piece-picking"></a>Configurar picking de piezas
 
 1.  En un elemento de menú del dispositivo móvil, abra el formulario de configuración para la confirmación del trabajo: Gestión de almacenes > **Gestión de almacenes** > **Configuración** > **Dispositivo móvil** > **Elementos de menú del dispositivo móvil**. 
 2. En el elemento de menú del dispositivo móvil, abra Configuración de la confirmación de trabajo.

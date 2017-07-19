@@ -9,12 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: sericks
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -22,18 +23,15 @@ ms.openlocfilehash: 16fef86e330a392ddd888fcb46060c3e1efa87c5
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
 
-
 ---
 
-# Contenido de Power BI sobre rendimiento de la rentabilidad y las ventas
-<a id="sales-and-profitability-performance-power-bi-content" class="xliff"></a>
+# <a name="sales-and-profitability-performance-power-bi-content"></a>Contenido de Power BI sobre rendimiento de la rentabilidad y las ventas
 
 [!include[banner](../includes/banner.md)]
 
 Este tema describe lo que incluye el contenido de Microsoft Power BI sobre **Rendimiento de ventas y rentabilidad**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
-## Información general
-<a id="overview" class="xliff"></a>
+## <a name="overview"></a>Información general
 
 El contenido de Power BI sobre **Rendimiento de ventas y rentabilidad** se creó de modo que los directores de ventas puedan controlar medidas clave de ingresos, beneficio bruto y margen de beneficio. Usa datos transaccionales de ventas y proporciona una visión global de las cifras de ventas empresariales y un desglose de rendimiento de ventas para los clientes y los productos.
 
@@ -50,12 +48,10 @@ La rentabilidad se pueda analizar mediante los siguientes procedimientos:
 -   Cambio de ganancias brutas, año a año
 -   Rentabilidad del cliente (por ingreso comparado con margen bruto)
 
-## Acceso al contenido de Power BI
-<a id="accessing-the-power-bi-content" class="xliff"></a>
+## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 Si está usando la actualización de julio de 2017 de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, el contenido de Power BI sobre **Rendimiento de ventas y rentabilidad** se muestra en la página **Rendimiento de ventas y rentabilidad** (**Ventas y marketing** > **Consultas e informes** > **Análisis de rendimiento de ventas** > **Rendimiento de ventas y rentabilidad**). 
 
-## Métricas que se incluyen en el contenido de Power BI
-<a id="metrics-that-are-included-in-the-power-bi-content" class="xliff"></a>
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
 El contenido de Power BI sobre **Rendimiento de ventas y rentabilidad** incluye un informe compuesto por un conjunto de métricas. Estas métricas se visualizan como gráficos, mosaicos y tablas. La tabla siguiente proporciona información general de las visualizaciones del contenido.
 
 | Página de informes            | Gráficos                                     | Mosaicos                                                   |
@@ -80,8 +76,7 @@ El contenido de Power BI sobre **Rendimiento de ventas y rentabilidad** incluye 
 
 \* Ingresos este año y el año anterior, y crecimiento por categoría de ventas
 
-## Ampliar el contenido de Power BI
-<a id="extending-the-power-bi-content" class="xliff"></a>
+## <a name="extending-the-power-bi-content"></a>Ampliar el contenido de Power BI
 Mediante los paquetes de contenido disponibles en Microsoft Dynamics Lifecycle Services (LCS), puede ofrecer análisis muy buenos a las personas que no inician sesión en Microsoft Dynamics 365. Puede modificar estos paquetes de contenido para que incluyan otros informes o representaciones visuales y, a continuación, publicar los paquetes de contenidos en el inquilino de Power BI.com para su análisis.
 
 El contenido de Power BI sobre **Rendimiento de ventas y rentabilidad** se encuentra en la biblioteca de activos compartidos de LCS. Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
@@ -91,8 +86,7 @@ Asegúrese de descargar el contenido sobre **Rendimiento de ventas y rentabilida
 > [!NOTE]
 > Si utiliza Microsoft Dynamics 365 for Operations, versión 1611, KB 4011327 es un requisito para este contenido de Power BI. Tras iniciar sesión en LCS, puede acceder a KB en https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
-## Comprensión del modelo de datos y de las entidades
-<a id="understanding-the-data-model-and-entities" class="xliff"></a>
+## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 Los datos siguientes se usan para rellenar el informe del contenido de Power BI sobre **Rendimiento de ventas y rentabilidad**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md). 
 
 Las medidas agregadas en este contenido son el subconjunto de las medidas agregadas que estaban disponibles en el cubo de ventas en Microsoft Dynamics AX 2012 y Microsoft Dynamics AX 2012 R3. Para realizar las medidas globales del cubo en el almacén de entidades debe hacer que sean desplegables. Para obtener más información, consulte el procedimiento relativo a cómo realizar mediciones globales en el almacén de entidades en el blog sobre [integración de Power BI con el almacén de entidades en Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). 

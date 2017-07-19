@@ -10,13 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
@@ -24,18 +25,15 @@ ms.openlocfilehash: dcbab70d2057a2eb252538a51343fa8bae16873d
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
 
-
 ---
 
-# Jerarquía de dimensiones
-<a id="dimension-hierarchy" class="xliff"></a>
+# <a name="dimension-hierarchy"></a>Jerarquía de dimensiones
 
 [!include[banner](../includes/banner.md)]
 
 Este tema proporciona información sobre las jerarquías de dimensiones. Use una jerarquía de dimensiones para definir la estructura del informe, las directivas de coste y configurar la seguridad en la contabilidad de costes.  
 
-## Información general
-<a id="overview" class="xliff"></a>
+## <a name="overview"></a>Información general
 
 Las jerarquías de dimensión se usan en distintas ubicaciones en contabilidad de costes. Una jerarquía de dimensiones permite definir la siguiente información:
 
@@ -59,26 +57,22 @@ Una jerarquía de dimensión se puede crear para los siguientes tipos de dimensi
 > - Una jerarquía de dimensión puede tener niveles ilimitados en su estructura. Todos los niveles estarán disponibles en el espacio de trabajo **Control de costes**. Cuando se usa Microsoft Excel o Microsoft Power BI para fines de notificación, solo los primeros 15 niveles de la jerarquía de dimensiones se exportan. Esta limitación existe porque Excel y Power BI requieren un esquema fijo.
 > - Jerarquía de dimensiones no tiene una fecha de vigencia. Por lo tanto, los cambios en una jerarquía de dimensiones se guardan inmediatamente en el registro y no se puede comparar de fecha de antes y de después.
 
-## Tipo de jerarquía de dimensión
-<a id="dimension-hierarchy-type" class="xliff"></a>
+## <a name="dimension-hierarchy-type"></a>Tipo de jerarquía de dimensión
 
 Al crear una nueva jerarquía de dimensiones, debe seleccionar un tipo de jerarquía. Vaya a **Contabilidad de costes** > **Dimensiones** > **Jerarquías de dimensiones**. Haga clic en **Nuevo** y seleccione un tipo de la jerarquía de dimensiones. Puede seleccionar **Jerarquía de categorización de dimensiones** o **Jerarquía de clasificación de dimensiones**.
 
-### Jerarquía de categorización de dimensiones
-<a id="dimension-categorization-hierarchy" class="xliff"></a>
+### <a name="dimension-categorization-hierarchy"></a>Jerarquía de categorización de dimensiones
 
 El tipo **Jerarquía de categorización de dimensiones** se usa para fines informativos. Admite solo las dimensiones del elemento de coste. Cuando selecciona este tipo, se aplicarán las siguientes reglas:
 
 -  Un miembro de la dimensión se puede asociar más de una vez en la estructura de la jerarquía.
 -  Puede colocar un miembro de dimensión de elemento de coste en distintos nodos asignando un comportamiento de coste al nodo de hoja.
 
-### Jerarquía de clasificación de dimensiones
-<a id="dimension-classification-hierarchy" class="xliff"></a>
+### <a name="dimension-classification-hierarchy"></a>Jerarquía de clasificación de dimensiones
 
 El tipo **Jerarquía de clasificación de dimensiones** se usa para definir reglas y fines de notificación. Admite todas las dimensiones, como objetos de coste, elementos de coste y dimensiones estadísticas. Cuando seleccione este tipo, un miembro de la dimensión se puede asociar solo una vez en la estructura de la jerarquía.
 
-## Crear y mantener las jerarquías dimensiones
-<a id="create-and-maintain-a-dimension-hierarchy" class="xliff"></a>
+## <a name="create-and-maintain-a-dimension-hierarchy"></a>Crear y mantener las jerarquías dimensiones
 
 Una jerarquía de dimensiones se crea como estructura de árbol que tiene relaciones de nodo y nodo de hoja.
 
@@ -86,8 +80,7 @@ Una jerarquía de dimensiones se crea como estructura de árbol que tiene relaci
 -  Un nodo no puede tener subnodos y nodos de hoja asignados a la vez.
 -  Un nodo de hoja solo se puede asignar en el nivel inferior de la jerarquía.
 
-### Ejemplo
-<a id="example" class="xliff"></a>
+### <a name="example"></a>Ejemplo
 
 Una empresa pequeña tiene la estructura organizativa siguiente, donde los recursos de finanzas y recursos humanos son departamentos de Administración y ensamblaje y empaquetado son departamentos de Producción.
 
@@ -165,13 +158,11 @@ La jerarquía de dimensión para la directiva se puede configurar como se muestr
 > [!NOTE]
 > En **Intervalos de miembros de dimensión**, un nodo puede contener 1:_n_ intervalos de miembro de dimensión. Puede insertar los identificadores de miembro de dimensión que aún no existen como miembros de dimensión. Este enfoque hace que la jerarquía sea resistente para el futuro.  
 
-### Copiar una jerarquía
-<a id="copy-a-hierarchy" class="xliff"></a>
+### <a name="copy-a-hierarchy"></a>Copiar una jerarquía
 
 Puede copiar una jerarquía de dimensiones actual como punto de partida para una nueva jerarquía de dimensiones. Este método puede ser de utilidad si desea comparar la jerarquía de dimensiones anterior con una nueva jerarquía de dimensiones.
 
-### Reorganizar los nodos en una jerarquía
-<a id="rearrange-nodes-in-a-hierarchy" class="xliff"></a>
+### <a name="rearrange-nodes-in-a-hierarchy"></a>Reorganizar los nodos en una jerarquía
 
 Puede mover un nodo hacia arriba y hacia abajo dentro de su nivel actual en la estructura. De esta manera, puede reorganizar el orden de los nodos para las notificaciones en el espacio de trabajo **Control de costes**.
 
@@ -183,8 +174,7 @@ Se mueve un nodo a una nueva ubicación en la jerarquía seleccionando el nodo d
 > [!NOTE] 
 > El orden de los nodos no se mantiene al exportar datos a Excel o Power BI, ya que estas herramientas usan una clasificación alfanumérica predeterminada. Debe cambiar manualmente el orden.
 
-## Definir las jerarquías de dimensiones para notificaciones
-<a id="define-dimension-hierarchies-for-reporting" class="xliff"></a>
+## <a name="define-dimension-hierarchies-for-reporting"></a>Definir las jerarquías de dimensiones para notificaciones
 
 Las jerarquías de dimensiones son importantes para las notificaciones. Le permiten definir la estructura específica que encaja en la organización individual. Las agregaciones realizadas en el nodo de la jerarquía de dimensiones permiten a las partes interesadas a cualquier nivel de la organización ver cualquier nivel.
 
@@ -223,8 +213,7 @@ El siguiente ejemplo muestra el aspecto de una jerarquía de dimensiones en la e
 | Organización                              | Producción                                | Empaquetado                                 | CC005                                     |                                            |
 | Organización                              | Producción                                | Ensamblado                                  | CC006                                     |                                            |
 
-### Actualizar las jerarquías de dimensiones que se usan para informes
-<a id="update-the-dimension-hierarchies-that-are-used-for-reporting" class="xliff"></a> 
+### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>Actualizar las jerarquías de dimensiones que se usan para informes 
 
 Con el tiempo, las jerarquías de dimensiones que se usan en las herramientas de informes anteriormente indicadas tendrán que actualizarse. Puede actualizar jerarquías de dimensiones actualizando el cliente.
 
@@ -239,8 +228,7 @@ Las actualizaciones de las jerarquías de dimensiones se seleccionan cada 24 hor
 > [!NOTE] 
 > Para activar manualmente una actualización de la memoria caché de la jerarquía de dimensiones, puede crear una nueva exportación a Excel para la jerarquía de dimensiones o jerarquías que se van a actualizar.
 
-## Definir las jerarquías de dimensiones para directivas de costes
-<a id="define-dimension-hierarchies-for-cost-policies" class="xliff"></a>
+## <a name="define-dimension-hierarchies-for-cost-policies"></a>Definir las jerarquías de dimensiones para directivas de costes
 
 La contabilidad de costes consta de varias directivas donde se definen reglas detalladas. Debe definir una o varias jerarquías de dimensiones para las directivas siguientes:
 
@@ -251,8 +239,7 @@ La contabilidad de costes consta de varias directivas donde se definen reglas de
 
 Las jerarquías de dimensiones hacen que sea sencillo crear reglas. Para evitar tener que crear reglas para cada miembro de la dimensión, puede aprovechar las agregaciones de los miembros de las dimensiones que suministran por niveles de la jerarquía de dimensiones. Si tiene reglas que se solapan, debe definir reglas específicas que el sistema tendrá en cuenta cuando realice el cálculo de gastos generales.
 
-### Ejemplo: Definir una directiva de comportamiento de costes
-<a id="example-define-a-cost-behavior-policy" class="xliff"></a>
+### <a name="example-define-a-cost-behavior-policy"></a>Ejemplo: Definir una directiva de comportamiento de costes
 
 Se crea una nueva directiva de comportamiento de costes y las jerarquías de dimensiones adecuadas se asignan a la directiva, como se muestra aquí.
 
@@ -295,8 +282,7 @@ Cualquier cálculo de gastos generales que se ejecute después del 20 de enero d
 > [!NOTE] 
 > Los campos **Válido desde** y **Válido hasta** son fechas y horas con vigencia Puede vencer la regla y ejecutar un nuevo cálculo de gastos generales en el mismo día.
 
-## Definir las jerarquías de dimensiones para configurar la seguridad
-<a id="define-dimension-hierarchies-for-security-setup" class="xliff"></a>
+## <a name="define-dimension-hierarchies-for-security-setup"></a>Definir las jerarquías de dimensiones para configurar la seguridad
 
 Los datos de la contabilidad de costes se deben poner a disposición de todos los administradores responsables de una unidad de notificación. En terminología de contabilidad de costes, una unidad de notificación se representa como un objeto de coste o conjunto de objetos de coste.
 
