@@ -26,16 +26,14 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Diseñador de fórmulas en los informes electrónicos
-<a id="formula-designer-in-electronic-reporting" class="xliff"></a>
+# <a name="formula-designer-in-electronic-reporting"></a>Diseñador de fórmulas en los informes electrónicos
 
 [!include[banner](../includes/banner.md)]
 
 
 Este tema explica cómo usar el diseñador de fórmula en Informes electrónicos (ER). Cuando diseña un formato para un documento electrónico específico en ER, puede usar fórmulas del tipo de Microsoft Excel para que la transformación de datos cumpla los requisitos para el cumplimiento y el formato de ese documento. Se admiten diversos tipos de funciones: texto, fecha y hora, lógica matemática, información, conversión de tipo de datos y otras (funciones específicas de dominio empresarial).
 
-Visión general del diseñador de fórmulas
-<a id="formula-designer-overview" class="xliff"></a>
+<a name="formula-designer-overview"></a>Visión general del diseñador de fórmulas
 -------------------------
 
 Los informes electrónicos admiten el diseñador de fórmulas. Por tanto, en el momento del diseño, puede configurar las expresiones que se pueden usar para las siguientes tareas en tiempo de ejecución:
@@ -56,10 +54,8 @@ La página del diseñador de fórmulas se puede abrir si realiza alguna de las s
 -   Definir las condiciones para las validaciones de control de proceso.
 -   Definir el texto de mensaje para las validaciones de control de proceso.
 
-## Diseño de las fórmulas de ER
-<a id="designing-er-formulas" class="xliff"></a>
-### Vinculación de datos
-<a id="data-binding" class="xliff"></a>
+## <a name="designing-er-formulas"></a>Diseño de las fórmulas de ER
+### <a name="data-binding"></a>Vinculación de datos
 
 El diseñador de fórmula de ER se puede usar para definir una expresión que transforma datos que se reciben de orígenes de datos, para que se puedan rellenar los datos en el consumidor de datos en tiempo de ejecución:
 
@@ -69,13 +65,11 @@ El diseñador de fórmula de ER se puede usar para definir una expresión que tr
 
 En la ilustración siguiente se muestra el diseño de una expresión de este tipo. En este ejemplo, la expresión devuelve el valor del campo **Intrastat.AmountMST** de la tabla **Intrastat** de Finance and Operations después de que el valor se haya redondeado a dos posiciones decimales. [![picture-expression-binding](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg) La siguiente ilustración muestra cómo una expresión de este tipo se puede usar. En este ejemplo, el resultado de la expresión diseñada se rellena en el componente **Transaction.InvoicedAmount** del modelo de datos **Modelo de notificación tributaria**. [![picture-expression-binding2](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg) En tiempo de ejecución, la fórmula diseñada, **ROUND (Intrastat.AmountMST, 2)**, redondeará el valor del campo **AmountMST** para cada registro de la tabla **Intrastat** a dos posiciones decimales y rellenará el valor redondeado al componente **Transaction.InvoicedAmount** del modelo de datos de la **Notificación tributaria**.
 
-### Formato de datos
-<a id="data-formatting" class="xliff"></a>
+### <a name="data-formatting"></a>Formato de datos
 
 El diseñador de fórmula de ER se puede usar para definir una expresión que formatea datos que se reciben de orígenes de datos, para que se puedan enviar como parte de la generación de un documento electrónico. Si tiene formato que se debe aplicar como una regla típica que se debe volver a usar para un formato, puede presentar ese formato una vez en la configuración del formato como una transformación con nombre que tenga una expresión de formato. Esta transformación con nombre se puede vincular a continuación a varios componentes de formato para los que se debe formatear el resultado de acuerdo con la expresión creada. En la ilustración siguiente se muestra el diseño de una transformación de este tipo. En este ejemplo, la transformación **TrimmedString** obtiene datos entrantes del tipo de datos **Secuencia** y trunca los espacios de principio y final cuando devuelve el valor de la cadena. [![picture-transformation-design](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg) En la ilustración siguiente se muestra cómo usar una transformación de este tipo. En este ejemplo, varios componentes de formato que envían texto como salida al documento electrónico de generación en tiempo de ejecución hacen referencia a la transformación **TrimmedString** por nombre. [![picture-transformation-usage](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg) Cuando los componentes del formato hacen referencia a la transformación **TrimmedString ** (por ejemplo, el componente **partyName** de la ilustración anterior) se envía texto como resultado al documento que lo genera. El texto no incluye espacios principales y finales. Si tiene un formato que se debe aplicar de forma individual, puede introducir ese formato como una expresión individual de una vinculación de un componente de formato concreto. En la ilustración siguiente se muestra una expresión de este tipo. En este ejemplo, el componente del formato **partyType** se vincula al origen de datos mediante una expresión que convierte los datos entrantes del campo **Model.Company.RegistrationType** del origen de datos en texto en mayúsculas y envía ese texto como salida al documento electrónico. [![picture-binding-with-formula](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
-### Control de flujo de proceso
-<a id="process-flow-control" class="xliff"></a>
+### <a name="process-flow-control"></a>Control de flujo de proceso
 
 El diseñador de fórmulas de ER se puede usar para definir las expresiones que controlan el flujo de proceso de la generación de documentos. El usuario puede:
 
@@ -98,8 +92,7 @@ Cada regla de control de flujo de proceso está diseñada como validación indiv
 
 [![picture-file-control](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
-### Sintaxis básica
-<a id="basic-syntax" class="xliff"></a>
+### <a name="basic-syntax"></a>Sintaxis básica
 
 Las expresiones de ER pueden contener todo los elementos siguientes o cualquiera de ellos:
 
@@ -109,13 +102,11 @@ Las expresiones de ER pueden contener todo los elementos siguientes o cualquiera
 -   Rutas
 -   Funciones
 
-#### Constantes
-<a id="constants" class="xliff"></a>
+#### <a name="constants"></a>Constantes
 
 Puede usar constantes de texto y numéricas (valores que no se calculan) al diseñar expresiones. Por ejemplo, la expresión **VALUE ("100") + 20 **usa la constante numérica 20 y la constante de cadena “100” y devuelve el valor numérico **120**. El diseñador de fórmulas de ER admite secuencias de escape, lo que significa que puede especificar esa parte de la cadena de expresión que se debe gestionar de forma diferente. Por ejemplo, la expresión **"Leo Tolstoy ""Guerra y paz"" Volumen 1"** devuelve la cadena de texto **Leo Tolstoy "Guerra y paz" Volumen 1**.
 
-#### Operadores
-<a id="operators" class="xliff"></a>
+#### <a name="operators"></a>Operadores
 
 La tabla siguiente muestra los operadores aritméticos que puede usar para realizar operaciones matemáticas básicas, como suma, resta, división y multiplicación.
 
@@ -143,8 +134,7 @@ Además, puede usar una Y comercial (&) como operador de concatenación de texto
 |----------|-------------|------------------------------------------------|
 | &        | Concatenar | "No hay nada que imprimir" & ": " & "No se encuentran registros" |
 
-#### Prevalencia del operador
-<a id="operator-precedence" class="xliff"></a>
+#### <a name="operator-precedence"></a>Prevalencia del operador
 
 El orden en el que se evalúan las partes de una expresión compuesta es importante. Por ejemplo, el resultado de la expresión** 1 + 4 / 2** varía en función de si la operación de adición o la operación de división se realiza primero. Puede usar paréntesis para definir explícitamente la manera en que se evalúa una expresión. Por ejemplo, para indicar que la operación de adición debe llevarse a cabo primero, puede modificar la expresión precedente a **(1 + 4)/2**. Si el orden de las operaciones que se deben realizar en una expresión no se define explícitamente, el pedido se basa en la prioridad predeterminada que se asigna a los operadores admitidos. En las siguientes tablas se muestran los operadores y prioridad que se asigna a cada uno. Los operadores que tienen mayor prioridad (por ejemplo, 7) se evalúan antes que los operadores que tienen prioridad más baja (por ejemplo, 1).
 
@@ -160,8 +150,7 @@ El orden en el que se evalúan las partes de una expresión compuesta es importa
 
 Los operadores de la misma línea tienen igual prioridad. Si una expresión incluye más de uno de estos operadores, la expresión se evalúa de izquierda a derecha. Por ejemplo, la expresión **1 + 6 / 2 \* 3 &gt; 5** devuelve **true**. Se recomienda usar paréntesis para indicar explícitamente el pedido deseado de evaluación para expresiones, para facilitar la lectura y el mantenimiento de las expresiones.
 
-#### Referencias
-<a id="references" class="xliff"></a>
+#### <a name="references"></a>Referencias
 
 Todos los orígenes de datos del componente del ER actual (un modelo o un formato) que están disponibles durante el diseño de una expresión se pueden usar como referencias con nombre. Por ejemplo, el modelo de datos actual de ER contiene el origen de datos **ReportingDate**, que devuelve el valor del tipo de datos **DATETIME**. Para dar un formato correcto a ese valor en el documento de generación, puede hacer referencia al origen de datos en la expresión del modo siguiente: **DATETIMEFORMAT (ReportingDate, “dd-MM-aaaa”)** Todos los caracteres del nombre del origen de datos de referencia que no representan una letra del alfabeto, deben empezar con comillas simples ('). Si el nombre de un origen de datos de referencia incluye al menos un símbolo que no representa una letra del alfabeto (por ejemplo, signos de puntuación o cualquier otro símbolo escrito) el nombre debe estar entre comillas simples. A continuación se incluyen algunos ejemplos:
 
@@ -180,22 +169,18 @@ Tenga en cuenta que pasar a estos parámetros de métodos se puede definir con l
 - Únicamente las constantes se pueden pasar a estos métodos y su valor se define en tiempo de diseño.
 - Solo se admiten los tipos de datos primitivos (básicos) para tales parámetros (entero, real, booleano, cadena, etc.).
 
-#### Ruta
-<a id="path" class="xliff"></a>
+#### <a name="path"></a>Ruta
 
 Cuando una expresión hace referencia a un origen de datos estructurado, puede usar la definición de ruta para seleccionar un elemento primitivo específico de ese origen de datos. Un carácter de punto (.) se usa para separar elementos individuales de un origen de datos estructurado. Por ejemplo, el modelo de datos actual de ER contiene el origen de datos **InvoiceTransactions** que devuelve una lista de registros. La estructura de registros **InvoiceTransactions** contiene los campos **AmountDebit** y **AmountCredit** que devuelven valores numéricos. Por tanto, puede diseñar la siguiente expresión para calcular el importe facturado: **InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**
 
-#### Funciones
-<a id="functions" class="xliff"></a>
+#### <a name="functions"></a>Funciones
 
 La sección siguiente describe las funciones que se pueden usar en expresiones de ER. Todos los orígenes de datos del contexto de la expresión (el modelo de datos de ER o formato actual de ER) así como las constantes pueden usarse como parámetros de funciones de llamada de acuerdo con la lista de argumentos de la función de llamada. Por ejemplo, el modelo de datos actual de ER contiene el origen de datos **InvoiceTransactions** que devuelve una lista de registros. La estructura de registros **InvoiceTransactions** contiene los campos **AmountDebit** y **AmountCredit** que devuelven valores numéricos. Por tanto, para calcular el importe facturado, puede diseñar la siguiente expresión que usa la función de redondeo incorporada de ER: **ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)**
 
-## Funciones no permitidas.
-<a id="supported-functions" class="xliff"></a>
+## <a name="supported-functions"></a>Funciones no permitidas.
 Las siguientes tablas describen las funciones de manipulación de datos que puede usar para diseñar modelos de datos de ER e informes de ER. La lista de funciones no es fija y se puede ampliar por los desarrolladores. Para ver la lista de funciones que puede usar, acceda al panel de funciones del diseñador de fórmulas de ER.
 
-### Funciones de fecha y de tiempo
-<a id="date-and-time-functions" class="xliff"></a>
+### <a name="date-and-time-functions"></a>Funciones de fecha y de tiempo
 
 | Función                                   | Descripción                                                                                                                                                                                                                                                                                                                                                      | Ejemplo                                                                                                                                                                                                                                                                                               |
 |--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -223,8 +208,7 @@ Las siguientes tablas describen las funciones de manipulación de datos que pued
 | DATEVALUE (cadena, formato, cultura)              | Devuelve la representación de fecha de la cadena con el formato y la cultura especificados.       | **DATEVALUE ("21-Gen-2016", "dd-MMM-aaaa", “IT”)** devuelve la fecha 01/21/2016 según un formato personalizado y cultura especificada. Una excepción se producirá para la llamada de esta función, **DATEVALUE ("21-Gen-2016", "dd-MMM-aaaa", “EN-US”)** que indica que una cadena determinada no se reconoce como fecha válida.                                                                                                                       |
 | DATETIMEVALUE (cadena, formato)              | Devuelve la representación de fecha y hora de la cadena con el formato especificado.       | **DATETIMEVALUE ("21-Dic-2016 02:55:00", "dd-MMM-aaaa hh:mm:ss")** devuelve las 2:55:00 a.m. del 21 de diciembre de 2016 según un formato personalizado y la cultura predeterminada **EN-US** de la aplicación.                                                                                                                       |
 | DATETIMEVALUE (cadena, formato, cultura)              | Devuelve la representación de fecha y hora de la cadena con el formato y la cultura especificados.       | **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-aaaa hh:mm:ss", “IT”)** devuelve las 2:55:00 a.m. del 21 de diciembre de 2016 según un formato y la cultura predeterminada. Una excepción se producirá para la llamada de esta función, **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-aaaa hh:mm:ss", “EN-US”)** que indica que una cadena determinada no se reconoce como fecha válida.                                                                                                                       |
-### Funciones de lista
-<a id="list-functions" class="xliff"></a>
+### <a name="list-functions"></a>Funciones de lista
 
 <table>
 <colgroup>
@@ -364,19 +348,17 @@ Los campos de Etiqueta y Descripción se devolverán a los valores de tiempo de 
 </tbody>
 </table>
 
-### Funciones lógicas
-<a id="logical-functions" class="xliff"></a>
+### <a name="logical-functions"></a>Funciones lógicas
 
 | Función                                                                                | Descripción                                                                                                                                                                                                                                                                     | Ejemplo                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CASE (expresión, opción 1, resultado 1 \[, opción 2, resultado 2\] ... \[, resultado predeterminado\]) | Evaluar el valor de la expresión especificado con las opciones alternativas especificadas. Devolver el resultado de la opción que es igual al valor de la expresión. En caso contrario, devolver el resultado predeterminado introducido opcionalmente (el último parámetro al que no le antecede una opción). | **CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "INVIERNO", "11", "INVIERNO", "12", "INVIERNO", "")** devuelve la cadena **"INVIERNO"** cuando la fecha de la sesión de Finance and Operations actual se encuentra entre octubre y diciembre. En caso contrario, devuelve una cadena en blanco. |
 | SI (condición, valor 1, valor 2)                                                        | Devuelve el valor especificado 1 cuando se cumple la condición determinada. En caso contrario, devuelve el valor 2. Si el valor 1 y el valor 2 son registros o listas de registro, el resultado tendrá solo los campos que existan en ambas listas.                                                                     | **IF (1=2, "se cumple la condición", "no se cumple la condición")** devuelve la cadena **"no se cumple la condición"**.                                                                                                                                                      |
 | NOT (condición)                                                                         | Devuelve el valor lógico invertido de la condición determinada.                                                                                                                                                                                                                   | **NOT (TRUE)** devuelve **FALSE**.                                                                                                                                                                                                                            |
-| AND (condición 1\[, condición 2, ...\])                                                 | Devolver **TRUE** si *todas *las condiciones especificadas son verdaderas. En caso contrario, devuelva **FALSE**.                                                                                                                                                                                            | **AND (1=1, "a"="a")** devuelve **TRUE**. **AND (1=2, "a"="a")** devuelve **FALSE**.                                                                                                                                                                           |
-| OR (condición 1\[, condición 2, ...\])                                                  | Devolver **FALSE** si *todas *las condiciones especificadas son falsa. Devolver **TRUE** si *cualquier *condición especificada es verdadera.                                                                                                                                                                 | **OR (1=2, "a"="a")** devuelve **TRUE**.                                                                                                                                                                                                                      |
+| AND (condición 1\[, condición 2, ...\])                                                 | Devolver **TRUE** si *todas* las condiciones especificadas son verdaderas. En caso contrario, devuelva **FALSE**.                                                                                                                                                                                            | **AND (1=1, "a"="a")** devuelve **TRUE**. **AND (1=2, "a"="a")** devuelve **FALSE**.                                                                                                                                                                           |
+| OR (condición 1\[, condición 2, ...\])                                                  | Devolver **FALSE** si *todas* las condiciones especificadas son falsa. Devolver **TRUE** si *cualquier* condición especificada es verdadera.                                                                                                                                                                 | **OR (1=2, "a"="a")** devuelve **TRUE**.                                                                                                                                                                                                                      |
 
-### Funciones matemáticas
-<a id="mathematical-functions" class="xliff"></a>
+### <a name="mathematical-functions"></a>Funciones matemáticas
 
 <table>
 <colgroup>
@@ -448,16 +430,14 @@ Los campos de Etiqueta y Descripción se devolverán a los valores de tiempo de 
 
 
 
-### Funciones de registro
-<a id="record-functions" class="xliff"></a>
+### <a name="record-functions"></a>Funciones de registro
 
 | Función             | Descripción                                                                                                                                                                                                                                     | Ejemplo                                                                                                                                             |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | NULLCONTAINER (lista) | Devolver un registro **nulo** con la misma estructura que el registro o la lista de registros especificada. **Nota:** Esta función es obsoleta. Use **EMPTYRECORD** en su lugar.                                                                                  | **NULLCONTAINER (SPLIT ("abc", 1))** devuelve un nuevo registro vacía que tiene la misma estructura que la lista que se devuelve por la función **SPLIT**. |
 | EMPTYRECORD (registro) | Devolver un registro **nulo** con la misma estructura que el registro o la lista de registros especificada. **Nota:** Un registro **nulo** es un registro donde todos los campos tienen un valor vacío (**0** \[cero\] para números, una cadena vacía para cadenas, etc.). | **EMPTYRECORD (SPLIT ("abc", 1))** devuelve un nuevo registro vacía que tiene la misma estructura que la lista que se devuelve por la función **SPLIT**.   |
 
-### Funciones de texto
-<a id="text-functions" class="xliff"></a>
+### <a name="text-functions"></a>Funciones de texto
 
 <table>
 <colgroup>
@@ -589,8 +569,7 @@ Para los valores del tipo real, la conversión de la cadena se limita a dos deci
 **TEXT (1/3) devuelve "0,33"**. |
 | QRCODE (cadena) | Produce una imagen de código QR en formato binario base64 de una determinada cadena. | **QRCODE (“texto de muestra ")** devuelve **U2FtcGxlIHRleHQ=**.   |
 
-### Funciones de recopilación de datos
-<a id="data-collection-functions" class="xliff"></a>
+### <a name="data-collection-functions"></a>Funciones de recopilación de datos
 
 | Función             | Descripción                                                                                                                                                                                                                                     | Ejemplo                                                                                                                                             |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -604,8 +583,7 @@ Para los valores del tipo real, la conversión de la cadena se limita a dos deci
 
 
 
-### Otras funciones (específicas de dominio empresarial)
-<a id="other-business-domainspecific-functions" class="xliff"></a>
+### <a name="other-business-domainspecific-functions"></a>Otras funciones (específicas de dominio empresarial)
 
 | Función                                                                         | Descripción                                                                                                                                                                                                                                                        | Ejemplo                                                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -622,13 +600,11 @@ Para los valores del tipo real, la conversión de la cadena se limita a dos deci
 | TABLENAME2ID (cadena)                                                       | Devuelve la representación en entero del ID de una tabla para un nombre de tabla dado.                                                                                                                                                                      | **TABLENAME2ID (“Intrastat”)** devuelve **1510**.                                                                                                                                                                                                                                                                   |
 | ISVALIDCHARACTERISO7064 (cadena)                                                       | Devuelve el valor booleano **TRUE** cuando una cadena dada representa un número internacional de cuenta bancaria válido (IBAN). De lo contrario, devuelve un valor booleano **FALSE**.                                                                                                                                                                      | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** devuelve **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** devuelve **FALSE**.                                                                                                                                                                                                                                                                   |
 
-### Extensión de la lista de funciones
-<a id="functions-list-extension" class="xliff"></a>
+### <a name="functions-list-extension"></a>Extensión de la lista de funciones
 
 ER le permite ampliar la lista de funciones que se usan en las expresiones de ER. Son necesarios algunos esfuerzos de ingeniería. Para obtener información detallada, vea [Ampliar la lista de funciones de informes electrónicos](general-electronic-reporting-formulas-list-extension.md).
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Visión general de los informes electrónicos](general-electronic-reporting.md)

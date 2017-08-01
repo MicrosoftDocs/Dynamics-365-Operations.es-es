@@ -28,8 +28,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Evaluar la consecución de ventas por producto
-<a id="assess-sales-performance-by-product" class="xliff"></a>
+# <a name="assess-sales-performance-by-product"></a>Evaluar la consecución de ventas por producto
 
 [!include[banner](includes/banner.md)]
 

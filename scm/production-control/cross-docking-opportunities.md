@@ -24,13 +24,11 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Tránsito directo desde pedidos de producción a muelles de salida
-<a id="cross-docking-from-production-orders-to-outbound-docks" class="xliff"></a>
+# <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Tránsito directo desde pedidos de producción a muelles de salida
 
 Este tema describe cómo se administra el proceso de material de tránsito directo que se le notifica como terminado desde una línea de producción a un muelle de salida de transporte.
 
-Introducción
-<a id="introduction" class="xliff"></a>
+<a name="introduction"></a>Introducción
 ------------
 
 El tránsito directo desde la producción a una ubicación de salida es relevante para los fabricantes que generan grandes cantidades y desean enviar en el menor de los casos los productos terminados en cuanto se notifica que están terminados desde las líneas de producción. El objetivo es enviar los productos a los centros de distribución que se ubican físicamente cerca de la demanda de los clientes, en lugar de generar un inventario en el sitio de fabricación.
@@ -47,25 +45,21 @@ Un producto se registra como terminado a la ubicación de salida de producción 
 
 [![](./media/scenario1.png)](./media/scenario1.png)
 
-## Configurar el tránsito directo
-<a id="configure-cross-docking" class="xliff"></a>
+## <a name="configure-cross-docking"></a>Configurar el tránsito directo
 Puede configurar el proceso de tránsito director en las **directivas de trabajo**. Una directiva de trabajo incluye un tipo de pedido de trabajo, una ubicación y un producto. En el siguiente ejemplo, el tránsito directo se configura para el producto X y la ubicación Y.
 
-#### Tipos de pedido de trabajo
-<a id="work-order-types" class="xliff"></a>
+#### <a name="work-order-types"></a>Tipos de pedido de trabajo
 
 -   Tipo de pedido de trabajo: Los productos terminados se retiran
 -   Método de creación de trabajo: Tránsito directo
 -   Nombre de la directiva de tránsito directo: Pedidos de transferencia
 
-#### Ubicaciones del inventario
-<a id="inventory-locations" class="xliff"></a>
+#### <a name="inventory-locations"></a>Ubicaciones del inventario
 
 -   Almacén: 51
 -   Ubicación: Y
 
-#### Productos
-<a id="products" class="xliff"></a>
+#### <a name="products"></a>Productos
 
 -   Número de artículo: X
 
@@ -76,31 +70,26 @@ Actualmente, el tránsito directo se puede configurar para solo dos tipos de ped
 
 En la **directiva de tránsito directa**, define qué tipos de documentos son de aplicación para el tránsito directo. Actualmente, el único tipo de documento que se admite es **Pedidos de transferencia**. El ejemplo siguiente se muestra la configuración de una directiva de tránsito directo.
 
-### Nombre de la directiva de tránsito directo: Pedido de transferencia
-<a id="cross-docking-policy-name-transfer-order" class="xliff"></a>
+### <a name="cross-docking-policy-name-transfer-order"></a>Nombre de la directiva de tránsito directo: Pedido de transferencia
 
 -   Número de secuencia: 10
 -   Tipo de pedido de trabajo: Problema de transferencia
 -   La demanda de tránsito directo precisa una ubicación: Falso
 -   Estrategia de tránsito directo: Fecha y hora
 
-### Número de secuencia
-<a id="sequence-number" class="xliff"></a>
+### <a name="sequence-number"></a>Número de secuencia
 
 El **número de secuencia** indica la prioridad del tipo de documento. Actualmente, **Problema de transferencia** es el único tipo que se admite. Por lo tanto, el número de secuencia pasará a ser relevante solo cuando se admitan más tipos de pedido de trabajo.
 
-### Directiva de tránsito directo
-<a id="cross-docking-policy" class="xliff"></a>
+### <a name="cross-docking-policy"></a>Directiva de tránsito directo
 
 La directiva de tránsito también define la directiva para la priorización de la demanda del pedido de transferencia. Por ejemplo, si existen varios pedidos de transferencia para el mismo producto, la fecha y hora programadas que se establecen en la carga y se asocian al pedido de transferencia determinan la priorización entre los pedidos. La fecha y hora programadas se pueden establecer directamente en la carga o se pueden configurar en una **programación de presupuesto** que esté asociado a la carga. La priorización está determinada por la estrategia de tránsito directo. Actualmente, solo existe una estrategia: **Fecha y hora**.
 
-### La demanda de tránsito directo precisa una ubicación
-<a id="cross-docking-demand-requires-location" class="xliff"></a>
+### <a name="cross-docking-demand-requires-location"></a>La demanda de tránsito directo precisa una ubicación
 
 En la directiva de tránsito directo, puede configurar un criterio para requerir que los pedidos de transferencia tengan una ubicación asignada para ser aptos para el tránsito directo. Este criterio se establece en el campo **La demanda de tránsito directo precisa una ubicación**. La ubicación en la programación de citas que está asociada a la carga se usa como la ubicación final para las mercancías del tránsito directo. La ubicación final de las mercancías del tránsito directo viene determinada por la directiva de la ubicación para **Emisión de transferencia** para el tipo de pedido del trabajo **Colocar**. Es posible que lo encuentre útil para establecer los valores del campo **La demanda de tránsito directo precisa una ubicación** en un escenario en el que el producto terminado se procesará en tránsito directo si se asigna un tráiler a una compuerta. En esta situación, las mercancías se trasladan directamente desde la línea de producción al tráiler. Cuando un tráiler se asigna a la compuerta, un usuario asignará la ubicación a la programación de citas y por tanto hará que se puede usar la ubicación en el tránsito directo. Las secciones siguientes describen dos ejemplos.
 
-#### Situación 1: Tránsito directo desde pedidos de producción a pedidos de transferencia
-<a id="scenario-1--cross-docking-from-production-to-transfer-orders" class="xliff"></a>
+#### <a name="scenario-1--cross-docking-from-production-to-transfer-orders"></a>Situación 1: Tránsito directo desde pedidos de producción a pedidos de transferencia
 
 Después de que un producto se notifica como terminado en la línea de producción se transfiere a una ubicación de compuerta donde se carga en un camión y se transfiere a un centro de distribución. Use USMF de la empresa.
 
@@ -117,8 +106,7 @@ Después de que un producto se notifica como terminado en la línea de producci�
 
 El trabajo del tipo **Ubicación de bienes terminados** se creó y procesó.
 
-#### Situación 2: Tránsito directo desde producción a los pedidos de transferencia con una programación de citas
-<a id="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule" class="xliff"></a>
+#### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>Situación 2: Tránsito directo desde producción a los pedidos de transferencia con una programación de citas
 
 Después de que un producto se notifica como terminado en la línea de producción se transfiere a una ubicación de compuerta que se identifica por una programación de citas para las ubicaciones de compuerta. Use USMF de la empresa.
 
@@ -132,8 +120,7 @@ Después de que un producto se notifica como terminado en la línea de producci�
 8.  Vaya al portar del dispositivo móvil y seleccione el elemento de menú **Notificar como terminado y poner en ubicación**.
 9.  Notifique el numero de artículo **L0101** como terminado desde el dispositivo de mano. Tenga en cuenta que la ubicación de colocación es ahora **BAYDOOR**. Esta ubicación se encuentra en la programación de citas en lugar de la directiva de ubicación **Recibo de transferencia**.
 
-### Información adicional
-<a id="additional-information" class="xliff"></a>
+### <a name="additional-information"></a>Información adicional
 
 -   La situación de tránsito directo se admite para artículos controlados de lote y serie, con las dimensiones de lote y número de serie definidas anteriormente y la ubicación de más abajo en la jerarquía de la reserva.
 -   La cantidad que se le notifica como terminada no se puede dividir para un pedido de transferencia que sea inferior. Por ejemplo, si se notifican 20 piezas como terminadas y existe un pedido de transferencia para 5 piezas, el pedido de transferencia no será de aplicación para el tránsito directo.

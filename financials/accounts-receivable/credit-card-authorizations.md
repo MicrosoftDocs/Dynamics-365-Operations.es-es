@@ -27,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Configuración, autorización y captura de tarjetas de crédito
-<a id="credit-card-setup-authorization-and-capture" class="xliff"></a>
+# <a name="credit-card-setup-authorization-and-capture"></a>Configuración, autorización y captura de tarjetas de crédito
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,8 +36,7 @@ ms.lasthandoff: 06/13/2017
 
 Este artículo proporciona una visión general de la autorización de tarjeta de crédito en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Incluye información acerca de cómo configurar un servicio de pago, agregar una tarjeta de crédito a un pedido de ventas y anular una autorización.
 
-Configuración del servicio de pago con tarjeta de crédito
-<a id="setting-up-the-credit-card-payment-service" class="xliff"></a>
+<a name="setting-up-the-credit-card-payment-service"></a>Configuración del servicio de pago con tarjeta de crédito
 ------------------------------------------
 
 Para usar tarjetas de crédito debe configurar y activar un servicio de pago en la página Servicios de pago. Un servicio de pago actúa como puente entre su entidad jurídica y el banco que procesa los gastos de tarjeta de crédito del cliente. Debe trabajar con un proveedor de tarjetas de crédito incluido en el campo Conector de pago y configurar una cuenta con dicho proveedor. A continuación debe configurar las demás opciones de la página Servicios de pago, configurar los tipos de tarjeta de crédito para American Express, Discover y Mastercard en la página Tipos de tarjetas de crédito, y activar el proveedor como proveedor predeterminado. También debe seguir estos pasos para completar su configuración:
@@ -46,8 +44,7 @@ Para usar tarjetas de crédito debe configurar y activar un servicio de pago en 
 -   Configure las condiciones de pago para la tarjeta en la página Condiciones de pago. En el campo Tipo de pago, seleccione Tarjeta de crédito.
 -   En la página Tarjetas de crédito del cliente, especifique los datos de tarjeta de crédito de los clientes.
 
-## Adición de una nueva tarjeta de crédito
-<a id="adding-a-new-credit-card" class="xliff"></a>
+## <a name="adding-a-new-credit-card"></a>Adición de una nueva tarjeta de crédito
 Puede crear nuevos registros de tarjeta de crédito nuevos en la página Clientes a través de Cliente, Configuración, Tarjeta de crédito. También puede crear registros de tarjeta de crédito al especificar pedidos de ventas en la página Pedido de ventas, mediante Gestionar, Cliente, Tarjeta de crédito, Registro.
 Adición de una tarjeta de crédito a un pedido de ventas
 -------------------------------------
@@ -58,13 +55,11 @@ Autorización de una tarjeta de crédito
 
 Cuando se autoriza una tarjeta de crédito, se verifica el número de la tarjeta y la identidad de su titular, y se confirma además el saldo de crédito disponible. Opcionalmente, se verifican el valor de verificación de tarjetas y la dirección del titular. A continuación, se carga el importe de la factura en la cuenta del cliente, descontándolo del saldo de crédito disponible. El servicio de pago envía información acerca de la aprobación o rechazo de la tarjeta de crédito. Cuando se factura el pedido de ventas, se carga (captura) el importe de la factura en la tarjeta de crédito.
 
-### Código de seguridad de la tarjeta
-<a id="card-verification-value" class="xliff"></a>
+### <a name="card-verification-value"></a>Código de seguridad de la tarjeta
 
 Puede requerir el valor de la verificación de la tarjeta, en ocasiones llamado "código de seguridad". Para American Express, es un valor de cuatro dígitos. En Discover, MasterCard y Visa, es un valor de tres dígitos.
 
-### Comprobación de dirección
-<a id="address-verification" class="xliff"></a>
+### <a name="address-verification"></a>Comprobación de dirección
 
 La información de verificación de la dirección se envía siempre al proveedor de pagos. Puede decidir la cantidad de información requerida para aceptar una transacción. Asegúrese de confirmar con su proveedor si acepta esta información. Estas son las opciones para verificación de direcciones:
 -   **Aceptar siempre la transacción**: se acepta la transacción, independientemente de los resultados de la comprobación de la dirección.
@@ -72,19 +67,16 @@ La información de verificación de la dirección se envía siempre al proveedor
 -   **Dirección de facturación**: se compara el nombre y la dirección de facturación del titular para la transacción con la información de empresa de la tarjeta de crédito.
 -   **Código postal de facturación**: se compara el nombre, la dirección de facturación y el código postal del titular para la transacción con la información de empresa de la tarjeta de crédito.
 
-## Soporte de datos
-<a id="data-support" class="xliff"></a>
+## <a name="data-support"></a>Soporte de datos
 Para cada tipo de tarjeta de crédito se que admita, puede especificar el nivel de soporte de datos. El nivel controla la cantidad de información sobre una transacción que se transfiere al servicio de pago. Asegúrese de confirmar con su proveedor si puede proporcionar esta información. Estas son las opciones para el nivel de aceptación de datos:
 -   **Nivel 1**: se transfiere la fecha de transacción, el importe de la transacción y una descripción.
 -   **Nivel 2**: se transfiere toda la información de nivel 1, más el envío y las direcciones mercantiles, así como la información fiscal.
 -   **Nivel 3**: se transfiere toda la información del nivel 2, más información de la línea de pedido.
 
-## Pagos parciales
-<a id="partial-payments" class="xliff"></a>
+## <a name="partial-payments"></a>Pagos parciales
 Si se envía parte de un pedido, el importe del pedido parcial se captura, y se cierra la autorización, obtenida para el importe del pedido en su totalidad. A continuación, se envía una nueva autorización para el importe restante del pedido que no se ha enviado.
 
-## Anulación de una autorización 
-<a id="voiding-an-authorization" class="xliff"></a>
+## <a name="voiding-an-authorization"></a>Anulación de una autorización 
 Para anular una autorización de tarjeta de crédito puede cambiar el método de pago a otro método que no sea del tipo Tarjeta de crédito.
 
 

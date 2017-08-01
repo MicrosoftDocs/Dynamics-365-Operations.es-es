@@ -27,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Informe de la declaración de inflación de ajuste
-<a id="adjustment-inflation-declaration-report" class="xliff"></a>
+# <a name="adjustment-inflation-declaration-report"></a>Informe de la declaración de inflación de ajuste
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,8 +36,7 @@ Los usuarios de Finance and Operations pueden procesar ajustes de inflación med
 
 Todas las empresas de México deben aplicar el proceso de NIF B-10 para reconocimiento de inflación en informes financieros si la tasa de inflación acumulativa durante los tres últimos años es igual o supera el 26 por ciento. Al usar las tasas de índice del Índice Nacional de Precios al Consumidor (INPC) cada mes, puede expresar los valores de transacción en la fecha de cierre de la hoja del saldo general. Cuando se ejecuta el proceso de ajuste de inflación, se ajustan los saldos contables y las entradas de asiento se registran de acuerdo con los coeficientes de INPC. Se definen los métodos de ajuste y puede ver el efecto del ajuste de inflación generando informes de simulación antes de ejecutar el proceso real.
 
-## Requisitos previos
-<a id="prerequisites" class="xliff"></a>
+## <a name="prerequisites"></a>Requisitos previos
 La tabla siguiente muestra la configuración que debe existir antes de comenzar el registro de efectos inflacionistas en la contabilidad general.
 
 <table>
@@ -85,20 +83,17 @@ La tabla siguiente muestra la configuración que debe existir antes de comenzar 
 </tbody>
 </table>
 
-## Iniciar el proceso de inflación de ajuste
-<a id="start-the-adjustment-inflation-process" class="xliff"></a>
+## <a name="start-the-adjustment-inflation-process"></a>Iniciar el proceso de inflación de ajuste
 Para iniciar el proceso, haga clic en **Contabilidad general** &gt; **Tareas de período** &gt; **Ajuste de inflación B-10**. Puede** **crear la entrada para un período específico e incluir las fechas inicial y final. El estado predeterminado para la entrada es **Abierto**. También puede incluir notas adicionales acerca del proceso de ajuste de inflación. Hay diversas maneras de ejecutar el proceso:
 
 -   **Simular**: antes de ejecutar el proceso de ajuste de inflación, puede ejecutar una simulación de los efectos generales de ejecutar el ajuste de inflación. Si se encuentran diferencias en el informe **Simulación**, puede cambiar solo los campos **Capa de registro** y **Notas** en la página **Ajuste por inflación B-10**. El proceso de simulación no registra las transacciones contables de ajuste de inflación. El proceso genera un informe que muestra las transacciones contables de ajuste de inflación generadas por el sistema.
 -   **Registrar**: puede registrar definitivamente el ajuste de inflación para generar los asientos de inflación de ajuste relacionados. También puede especificar la capa de registro donde se generan las transacciones. La entrada de inflación de ajuste tiene un estado de **Registrado**.
 -   **Invertir**: puede invertir las transacciones de ajuste de inflación que se han registrado y ejecutar el proceso de nuevo si es necesario. Tras la inversión, el estado del proceso de inflación de ajuste se cambia a **Invertido**.
 
-## Tipos de informes disponibles
-<a id="available-report-types" class="xliff"></a>
+## <a name="available-report-types"></a>Tipos de informes disponibles
 Hay varios tipos de informes de inflación de ajuste disponibles para fines de control cuando la entrada de inflación de ajuste tiene un estado de **Registrado**.
 
-### Informe REPOMO
-<a id="repomo-report" class="xliff"></a>
+### <a name="repomo-report"></a>Informe REPOMO
 
 Este informe se basa en los siguientes valores de parámetros:
 
@@ -107,8 +102,7 @@ Este informe se basa en los siguientes valores de parámetros:
 -   El tipo REPOMO para la cuenta principal es **Activo** o **Pasivo**.
 -   El tipo de ajuste de la cuenta principal es **Saldo de** **apertura**.
 
-### Informe de pérdidas y ganancias
-<a id="profit-and-loss-report" class="xliff"></a>
+### <a name="profit-and-loss-report"></a>Informe de pérdidas y ganancias
 
 Este informe muestra el cálculo del ajuste de inflación de pérdidas y ganancias para el intervalo del período seleccionado. Muestra los detalles de todas las cuentas principales que tienen los siguientes valores de parámetros:
 
@@ -116,16 +110,14 @@ Este informe muestra el cálculo del ajuste de inflación de pérdidas y gananci
 -   El tipo de cuenta para la cuenta principal es **Pérdidas y ganancias**, **Ingresos** o **Gasto**.
 -   El tipo de ajuste de la cuenta principal es **Saldo** **mensual**.
 
-### Informe de inventario
-<a id="inventory-report" class="xliff"></a>
+### <a name="inventory-report"></a>Informe de inventario
 
 Este informe muestra el cálculo del ajuste de inflación del código de cuenta de inventario para el período seleccionado. Debe mostrar todas las cuentas principales que tiene los siguientes valores de parámetros:
 
 -   El control deslizante **Ajuste de B-10** se encuentra para la cuenta principal.
 -   El tipo de ajuste de la cuenta principal es **Saldo**
 
-### Informe de capital y resultado
-<a id="capital-and-result-report" class="xliff"></a>
+### <a name="capital-and-result-report"></a>Informe de capital y resultado
 
 Este informe muestra el cálculo del ajuste de inflación del código de cuenta de capital y resultado para el período seleccionado. Debe mostrar todas las cuentas principales que tiene los siguientes valores de parámetros:
 

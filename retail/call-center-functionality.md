@@ -28,8 +28,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Funcionalidad del centro de llamadas
-<a id="call-center-functionality" class="xliff"></a>
+# <a name="call-center-functionality"></a>Funcionalidad del centro de llamadas
 
 [!include[banner](includes/banner.md)]
 

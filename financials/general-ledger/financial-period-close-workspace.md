@@ -27,8 +27,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Espacio de trabajo de cierre del período financiero
-<a id="financial-period-close-workspace" class="xliff"></a>
+# <a name="financial-period-close-workspace"></a>Espacio de trabajo de cierre del período financiero
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,13 +40,11 @@ El espacio de trabajo **Cierre de período financiero** le permite realizar un s
 
 Debe seleccionar una programación de cierre en la parte superior del espacio de trabajo. Todos los datos que se muestra en el espacio de trabajo se filtran por la programación de cierre seleccionada.
 
-### Iconos de resumen
-<a id="summary-tiles" class="xliff"></a>
+### <a name="summary-tiles"></a>Iconos de resumen
 
 Los iconos de **Resumen** proporcionan una visión general del proceso y los indicadores le ayudan a controlar el proceso de cierre. Puede ver las tareas vencidas, restantes del día actual, las tareas que vencen hoy pero que están bloqueadas debido a dependencias, y todas las tareas restantes del proceso. Esta información se muestra para todas las empresas incluidas en la programación de cierre seleccionada.
 
-### Sección Tareas y estados
-<a id="tasks-and-status-section" class="xliff"></a>
+### <a name="tasks-and-status-section"></a>Sección Tareas y estados
 
 En la sección **Estado de tareas**, se clasifica el estado de la programación de cierre total de varias maneras: estado por empresa, estado por área y estado por persona responsable. Puede ver el estado de todas las tareas en la programación de cierre, sólo las tareas que vencen hoy, o las tareas ya vencidas cambiando el filtro en la parte superior de la lista de tarjeta. También puede seleccionar el filtro de la empresa para ver el estado de una empresa específica. Cada ficha del estado ofrece un desglose por el porcentaje que se ha completado y por el número de tareas restantes. Haga clic en la acción **Ver detalles** para filtrar la lista de tareas detallada por la tarjeta seleccionada. 
 
@@ -64,16 +61,13 @@ Puede adjuntar archivos, notas, imágenes, y las direcciones URL a una tarea med
 
 La opción **Tarea completada** se debe seleccionar manualmente después de que la tarea se haya completado. Cuando una tarea se ha marcado como completada, el campo **Fecha de finalización** se actualiza automáticamente a la fecha y hora actuales. Los indicadores de la dependencia también se actualizarán como corresponda.
 
-## Página de lista Todas las tareas de cierre del período financiero
-<a id="all-financial-period-close-tasks-list-page" class="xliff"></a>
+## <a name="all-financial-period-close-tasks-list-page"></a>Página de lista Todas las tareas de cierre del período financiero
 Puede ver todas las tareas de cierre del período actual y anterior en la página de lista **Todas las tareas de cierre del período financiero** . Esta página de lista se puede usar para el análisis de historial del proceso de cierre, ya que incluye información acerca de la fecha de vencimiento programada, la fecha de finalización real y la persona que completó la tarea. Es fácil exportar la información de esta página de lista a Microsoft Excel con fines de informes y auditoría.
 
-## Página Configuración de cierre del período financiero
-<a id="financial-period-close-configuration-page" class="xliff"></a>
+## <a name="financial-period-close-configuration-page"></a>Página Configuración de cierre del período financiero
 Para poder usar el espacio de trabajo **Cierre del periodo financiero**, debe configurar el proceso en Microsoft Dynamics 365 for Finance and Operations con la página **Configuración de cierre del período financiero**. (Haga clic en **Contabilidad general** &gt; **Cierre de período** &gt; **Configuración de cierre del período financiero**.)
 
-### Recursos
-<a id="resources" class="xliff"></a>
+### <a name="resources"></a>Recursos
 
 En la ficha **Recursos** se definen las personas implicadas en los procesos de cierre. Cualquier empleado responsable de una tarea de cierre primero se debe asignar aquí. También se debe especificar la vista de empleado en el espacio de trabajo. Están disponibles las siguientes opciones:
 
@@ -82,18 +76,15 @@ En la ficha **Recursos** se definen las personas implicadas en los procesos de c
 
 Los usuarios que tienen permisos para ver solo sus tareas asignadas no podrán agregar tareas a la lista de tareas, editar tareas o quitar tareas de la lista de tareas.
 
-### Áreas de tareas
-<a id="task-areas" class="xliff"></a>
+### <a name="task-areas"></a>Áreas de tareas
 
 Las áreas de tareas se usan para agrupar las tareas de cierre en áreas lógicas de propiedad dentro de su organización. Por ejemplo, Proveedores, Clientes o Contabilidad general se pueden usar como áreas de tareas.
 
-### Calendarios
-<a id="calendars" class="xliff"></a>
+### <a name="calendars"></a>Calendarios
 
 Crear y editar calendarios de cierre financiero usando la ficha Calendarios.  Aquí es donde se definirán los días laborables para los procesos de cierre, y se usará para programar tareas de cierre.  Cree un calendario nuevo e indique los días laborables que se utilizarán para la programación de tarea.  Es lo mejor para crear un calendario para un período largo de tiempo, como un año o varios años, ya que se puede editar después de su creación.  Después de crear el calendario, haga clic en el botón Editar para actualizar el calendario en días específicos, como festivos.  Las siguientes tareas de cierre se programarán los días en que el valor de Control se haya establecido en Abierto.  Si las siguientes tareas de cierre no se deben programar en un día concreto, ese día debe tener el valor de Control establecido en Cerrado.
 
-### Plantillas
-<a id="templates" class="xliff"></a>
+### <a name="templates"></a>Plantillas
 
 Use una plantilla de cierre financiero para definir todas las tareas que forman parte de un proceso de cierre. Una tarea de cierre es un esfuerzo de trabajo periódico que se asigna a un usuario para que lo complete como parte de cada proceso de cierre. En la plantilla, debe definir una fecha de vencimiento relativa para cada tarea de cierre. La fecha de vencimiento relativa es el número de días antes o después de la fecha final del período definida en la que vencerá la tarea en cada período. También se asigna una hora de vencimiento a cada tarea. La hora de vencimiento se establece usando el contexto de su zona horaria y se convierte a la zona horaria de cada usuario. 
 
@@ -107,8 +98,7 @@ Puede definir dependencias entre tareas en la plantilla. Si se ha configurado un
 
 Puede crear varias plantillas de cierre financiero. Puede utilizar las diferentes plantillas para realizar un seguimiento de los procesos de cierre de los diferentes tipos de períodos como final de mes o de fin de año, o para realizar un seguimiento de las empresas que usan procesos de cierre diferentes. Una vez creada una plantilla, puede copiarla en una nueva plantilla y realizar los cambios necesarios. Puede asignar sólo una plantilla a cada programación de cierre.
 
-### Programaciones de cierre
-<a id="closing-schedules" class="xliff"></a>
+### <a name="closing-schedules"></a>Programaciones de cierre
 
 Use una programación de cierre para asignar una plantilla de cierre financiero a un período financiero específico que se debe cerrar. Las tareas de la plantilla se generan automáticamente para el período específico, y la nueva programación de cierre se agrega al espacio de trabajo. Al crear una nueva programación de cierre, el campo **Fecha final del período** se usa para determinar las fechas de vencimiento reales de las tareas de cierre, según la fecha de vencimiento relativa asignada en la plantilla de cierre financiero. 
 

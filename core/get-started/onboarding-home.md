@@ -24,8 +24,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Página principal de familiarización
-<a id="onboarding-home-page" class="xliff"></a>
+# <a name="onboarding-home-page"></a>Página principal de familiarización
 
 [!include[banner](../includes/banner.md)]
 

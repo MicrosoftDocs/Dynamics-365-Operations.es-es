@@ -28,8 +28,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Plantillas e impresión de recibos
-<a id="receipt-templates-and-printing" class="xliff"></a>
+# <a name="receipt-templates-and-printing"></a>Plantillas e impresión de recibos
 
 [!include[banner](includes/banner.md)]
 
@@ -38,8 +37,7 @@ Este artículo describe cómo modificar diseños de formulario para modificar la
 
 **Importante** Debe configurar diseños de formulario y perfiles de recibo para imprimir recibos y otros documentos desde PDV moderno al por menor y PDV en la nube. Puede incluir varios diseños de formulario en un perfil de recibo. Puede asignar el perfil de recibo a una impresora modificando un perfil de hardware.
 
-## Configurar un formato de recibo
-<a id="set-up-a-receipt-format" class="xliff"></a>
+## <a name="set-up-a-receipt-format"></a>Configurar un formato de recibo
 1.  Haga clic en **Venta minorista** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **PDV** &gt; **Formatos de recibos**.
 2.  En la página **Formato de recibo**, haga clic en **Nuevo** para crear un diseño de formulario nuevo o seleccione un diseño de formulario existente.
 3.  En el campo **Formato de recibo**, introduzca un identificador para el diseño de formulario y, a continuación, seleccione el tipo de recibo para el que se utiliza este diseño. También puede introducir una descripción y un nombre corto para el recibo en el campo **Título**.
@@ -49,8 +47,7 @@ Este artículo describe cómo modificar diseños de formulario para modificar la
     -   **Preguntar al usuario:** se debe preguntar al usuario si desea imprimir el recibo.
     -   **Según sea necesario:** esta opción solo se usa para los recibos de regalo. Cuando se selecciona esta opción, el usuario puede imprimir un alabrán de regalo desde la página **Cambiar**, si se requiere un recibo de regalo.
 
-## Diseñar un formato de recibo
-<a id="design-a-receipt-format" class="xliff"></a>
+## <a name="design-a-receipt-format"></a>Diseñar un formato de recibo
 Utilice el diseñador de formularios para crear gráficamente el diseño del documento de formulario. La página **Diseñador de formato de recibo** tiene tres secciones: **Encabezado**, **Líneas** y **Pie de página**. Algunos tipos de diseño de formulario usan elementos de las tres secciones, mientras que otros usan elementos sólo de una o dos secciones. Para ver los elementos que están disponibles para cada sección, haga clic en el botón apropiado del panel de navegación en el lado izquierdo de la página.
 
 1.  Haga clic en **Venta minorista** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **PDV** &gt; **Formatos de recibos**.
@@ -70,8 +67,7 @@ Utilice el diseñador de formularios para crear gráficamente el diseño del doc
     -   **Tamaño de fuente**: establezca el tamaño de fuente en **Normal** o **Grande**. Las letras grandes son dos veces superior a letras normales. Por lo tanto, el uso de letras grandes podría conducir a superponer el texto del recibo.
     -   **Eliminar**: haga clic en este botón para quitar el elemento seleccionado del diseño de formulario.
 
-## Asignación de perfiles de recibo
-<a id="assign-receipt-profiles" class="xliff"></a>
+## <a name="assign-receipt-profiles"></a>Asignación de perfiles de recibo
 Los perfiles de recibo se asignan directamente a impresoras mediante el perfil de hardware.
 
 1.  Abra el perfil de hardware haciendo clic en **Venta minorista** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Perfiles del PDV** &gt; **Perfiles de hardware**.

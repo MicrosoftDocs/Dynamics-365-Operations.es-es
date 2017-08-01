@@ -28,8 +28,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Configuración de selecciones
-<a id="set-up-assortments" class="xliff"></a>
+# <a name="set-up-assortments"></a>Configuración de selecciones
 
 [!include[banner](includes/banner.md)]
 
@@ -38,8 +37,7 @@ Este artículo describe qué es una selección y explica cómo configurar selecc
 
 Una selección es una colección de productos relacionados que se asigna a un canal comercial, como una tienda física o en línea. Las selecciones se usan para identificar los productos disponibles en cada tienda. Una selección puede incluir categorías de productos. Por lo tanto, todos los productos asignados a una categoría específica se incluyen en la selección. Una selección también puede incluir productos específicos y variantes específicas de producto. Al configurar una selección, puede asignar miles de productos a los canales comerciales al mismo tiempo, en cualquier combinación que las tiendas requieran. Puede configurar tantas selecciones de producto como sea necesario. Cada producto se puede incluir en una o varias selecciones y cada selección se puede asignar a uno o varios canales comerciales. Por ejemplo, puede definir una selección que incluya un conjunto básico de productos. Todas las tiendas reciben esta selección. A continuación, puede definir otra selección que incluya solo equipamiento deportivo en gran volumen. Solo sus tiendas más grandes reciben esta selección. En el diagrama siguiente se muestra cómo se pueden asignar los productos a selecciones y cómo se pueden asignar las selecciones a los canales de venta. ![Relaciones de selecciones de productos](./media/assortments_relationship.gif)
 
-## Requisitos previos
-<a id="prerequisites" class="xliff"></a>
+## <a name="prerequisites"></a>Requisitos previos
 Antes de configurar una selección y asignarla a un canal comercial, debe completar las siguientes tareas.
 
 | Tarea                              | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -49,8 +47,7 @@ Antes de configurar una selección y asignarla a un canal comercial, debe comple
 | Defina productos.                  | Para poder agregar productos a una selección, debe agregarlos a Microsoft Dynamics 365 for Retail. Puede agregar los productos manualmente, o bien importarlos de un proveedor. Después de agregar los productos, debe liberarlos para una entidad jurídica. Solo los productos liberados para una entidad jurídica pueden estar disponibles para los canales comerciales. Los productos que aún no se han liberado para una entidad jurídica se pueden agregar a una selección y la selección se puede aprobar. No obstante, los productos no estarán disponibles en los canales de venta hasta que se liberen para una entidad jurídica.                                                                                                                                                                                                                                                                                     |
 | Configure una jerarquía de categoría.      | Al crear productos comerciales, puede agruparlos y categorizarlos mediante la jerarquía de categoría. Puede crear una jerarquía principal para agrupar y categorizar todos los productos que se distribuyen a través de canales comerciales. También puede crear jerarquías de categoría independientes y complementarias para agrupar o categorizar los productos con fines especiales, como promociones o selecciones. Al usar jerarquías de categoría, puede asignar todos los productos de una categoría específica a una selección. Todos los productos agregados a la categoría incluida en la selección se incluyen automáticamente en la selección. A continuación, la próxima vez que se ejecute el programador de selección comercial, estos productos estarán disponibles en canales comerciales asignados a la selección.                                            |
 
-## Configuración de una selección
-<a id="setting-up-an-assortment" class="xliff"></a>
+## <a name="setting-up-an-assortment"></a>Configuración de una selección
 Después de completar los requisitos previos, puede crear una selección y asignarla a los canales comerciales. Para configurar una selección, debe completar las tareas siguientes.
 
 1.  Crear una selección o copiar una existente.

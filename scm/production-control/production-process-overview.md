@@ -28,8 +28,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Visión general del proceso de producción
-<a id="production-process-overview" class="xliff"></a>
+# <a name="production-process-overview"></a>Visión general del proceso de producción
 
 [!include[banner](../includes/banner.md)]
 
@@ -44,8 +43,7 @@ El proceso de producción se ve influenciado normalmente por los métodos de val
 
 La opción de los métodos de medición del coste también define los requisitos para informar sobre el consumo de material y recursos durante el proceso de producción. Normalmente, los métodos de coste real requieren un informe exacto en el nivel de trabajo, mientras que los métodos de costes periódicos permiten disponer de informes menos granulares sobre el consumo de materiales y recursos.
 
-## Fabricación en modo mixto
-<a id="mixed-mode-manufacturing" class="xliff"></a>
+## <a name="mixed-mode-manufacturing"></a>Fabricación en modo mixto
 Los distintos productos y topologías de producción que requieren la aplicación de distintos tipos de pedido. Finance and Operations puede aplicar los distintos tipos de pedido de modo mezclado. En otras palabras, se pueden producir todos los tipos de pedidos durante el proceso de completo de producir un producto terminado.
 
 -   **Pedido de producción**: este es el tipo de pedido clásico para producir un producto o una variante del producto específico de una cantidad concreta en una fecha específica. Los pedidos de producción se basan en listas de materiales y rutas.
@@ -53,8 +51,7 @@ Los distintos productos y topologías de producción que requieren la aplicació
 -   **Kanban**: los kanbans se usan para señalar procesos repetitivos de lean manufacturing (producción ajustada) que se basan en flujos de producción, reglas kanban y listas de materiales.
 -   **Proyecto**: un proyecto de la fabricación combina productos y servicios con una programación y un presupuesto dados. La parte de fabricación de un proyecto se puede entregar a través de los otros tipos de pedido.
 
-## Principios de fabricación
-<a id="manufacturing-principles" class="xliff"></a>
+## <a name="manufacturing-principles"></a>Principios de fabricación
 Para seleccionar el principio de fabricación que se aplica mejor a un determinado producto y un mercado relacionado, debe tener en cuenta los requisitos de producción y logística, y también las expectativas del cliente acerca de los plazos de entrega.
 
 -   **Para existencias**: este es el principio clásico de fabricación, donde los productos se producen para existencias, en función de la previsión o del reabastecimiento de la de existencias mínimo (este último se calcula normalmente en función de la previsión o de consumo histórico).
@@ -62,8 +59,7 @@ Para seleccionar el principio de fabricación que se aplica mejor a un determina
 -   **Configurar a pedido**: en cuanto al principio Hacer para pedir, las operaciones finales de la cadena de valor se hacen por pedido. La variante del producto real que se produce no está predefinida, sino que se crea en el momento de introducir los pedidos, según el modelo de configuración del producto de ventas. El principio Configurar a pedido requiere un nivel determinado de unificación del proceso para una línea determinada de producto.
 -   **Diseñar a pedido**: los procesos de diseño a pedido se gestiona normalmente por medio de un proyecto y suelen empezar normalmente con la fase de ingeniería. Durante la fase de ingeniería, se diseñan y se describen los productos reales necesarios para satisfacer el pedido. Los pedidos de producción, los pedidos de lote o los kanbans se pueden crear continuación para producir los productos.
 
-## Visión general del ciclo de vida de producción
-<a id="overview-of-the-production-life-cycle" class="xliff"></a>
+## <a name="overview-of-the-production-life-cycle"></a>Visión general del ciclo de vida de producción
 Se pueden dar los siguientes pasos en el ciclo de vida de producción para todos los tipos de pedido de fabricación en modo mixto. Sin embargo, no todos están representadas como estados de pedido explícitos.
 
 1.  **Creado**: puede crear un pedido de producción, un pedido de lote, o un kanban manualmente, o puede configurar el sistema para generarlos basándose en distintas señales de la demanda. La planificación maestra crea pedidos de producción, pedidos de lote o kanbans poniendo el firme los pedidos planificados. Otras señales de demanda son pedidos de ventas o señales de suministro fijado desde otros pedidos de producción o kanbans. Para kanbans de cantidad fija, se generan señales de demanda cuando los kanbans se registran como vacíos.
@@ -84,8 +80,7 @@ Se pueden dar los siguientes pasos en el ciclo de vida de producción para todos
 12. **Cierre de período**: algunos principios de contabilidad de costes, como media periódica, costes de contabilización previa, FIFO o LIFO, requieren actividades periódicas para cerrar el inventario o el período financiero. Normalmente, el sistema intenta informar de todo el material y los recurso consumidos, y también las correcciones del inventario y los residuos, antes de cerrar los períodos. Estos informes se realizan normalmente mediante los diarios de movimientos de inventario o los diarios de ajuste. El objetivo es evaluar el rendimiento económico de unidades operativas por período. En algunos casos, cuando se usan pedidos de producción duraderos que abarcan los períodos de informes financieros, los diarios de producción se usan para notificar sobre el progreso de producción y el consumo de recursos para el final del período.
 
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Comentarios de producción](production-feedback.md)

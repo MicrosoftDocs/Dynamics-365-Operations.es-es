@@ -27,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Espacio de trabajo móvil de entrada de tiempo de proyecto
-<a id="project-time-entry-mobile-workspace" class="xliff"></a>
+# <a name="project-time-entry-mobile-workspace"></a>Espacio de trabajo móvil de entrada de tiempo de proyecto
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,8 +35,7 @@ Este tema proporciona información acerca del espacio de trabajo móvil **Entrad
 
 Este espacio de trabajo móvil se debe usar con la aplicación móvil Microsoft Dynamics 365 for Unified Operations. 
 
-## Información general
-<a id="overview" class="xliff"></a>
+## <a name="overview"></a>Información general
 Como parte de su trabajo diario, los recursos de proyecto están a menudo in situ o de viaje. El espacio de trabajo móvil **Entrada de horas del proyecto** permite a los usuarios especificar su tiempo facturable o no facturable relativo a un proyecto, en el dispositivo móvil de su elección. Por lo tanto, los recursos de proyecto pueden registrar las entradas de horas en cualquier momento y cualquier lugar. También se pueden ver las entradas de horas que ya se han registrado. 
 
 Específicamente, en el espacio de trabajo móvil **Entrada de tiempo del proyecto**, los usuarios pueden realizar las tareas siguientes:
@@ -48,16 +46,13 @@ Específicamente, en el espacio de trabajo móvil **Entrada de tiempo del proyec
 -   Registre la hora como facturable o no facturable para el proyecto.
 -   También puede especificar cualquier comentario externo o interno.
 
-## Requisitos previos
-<a id="prerequisites" class="xliff"></a>
+## <a name="prerequisites"></a>Requisitos previos
 Los requisitos previos varían, en función de la versión de Microsoft Dynamics 365 que se ha implementado para su organización.
 
-### Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, actualización de julio 2017
-<a id="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update" class="xliff"></a> 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, actualización de julio 2017 
 Si Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017) se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Entrada de tiempo del proyecto**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
 
-### Requisitos previos si usa Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior
-<a id="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later" class="xliff"></a>
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Requisitos previos si usa Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior
 Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior para su organización, el administrador del sistema debe cumplir los requisitos previos siguientes. 
 
 <table>
@@ -90,16 +85,14 @@ Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con ac
 </tbody>
 </table>
 
-## Descargar e instalar la aplicación móvil
-<a id="download-and-install-the-mobile-app" class="xliff"></a>
+## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
 
 Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 -   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## Iniciar sesión en la aplicación móvil
-<a id="sign-in-to-the-mobile-app" class="xliff"></a>
+## <a name="sign-in-to-the-mobile-app"></a>Iniciar sesión en la aplicación móvil
 1.  Inicie la aplicación en su dispositivo móvil.
 2.  Escriba la URL de Dynamics 365.
 3.  La primera vez que se inicie sesión, se le solicitará su nombre de usuario y contraseña. Escriba sus credenciales.
@@ -107,8 +100,7 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 [![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
-## Especifique las horas mediante el espacio de trabajo móvil de entrada de horas del proyecto
-<a id="enter-time-by-using-the-project-time-entry-mobile-workspace" class="xliff"></a>
+## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Especifique las horas mediante el espacio de trabajo móvil de entrada de horas del proyecto
 1.  En el dispositivo móvil, seleccione el espacio de trabajo **Entrada de horas del proyecto**.
 2.  Seleccione **Entrada de horas** Se muestran las fechas de calendario de la semana actual.
 3.  Para una fecha seleccionada, seleccione **Acciones** &gt; **Nueva entrada**.

@@ -27,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Configurar la gestión de gastos
-<a id="configure-expense-management" class="xliff"></a>
+# <a name="configure-expense-management"></a>Configurar la gestión de gastos
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,16 +36,13 @@ Este artículo describe las consideraciones y las decisiones que debe realizar d
 
 Dado que muchas de las decisiones que realiza al planificar su configuración para la gestión de gastos se basan en la jerarquía y la estructura financiera de su organización, debe hacer referencia a los documentos de planificación para esas áreas.
 
-## Gastos de empresas vinculadas
-<a id="intercompany-expenses" class="xliff"></a>
+## <a name="intercompany-expenses"></a>Gastos de empresas vinculadas
 Al habilitar gastos de empresas vinculadas, permite a las entidades jurídicas y a los empleados incurrir en gastos en nombre de, y realizar el cobro de, otra entidad jurídica dentro de su organización. Por ejemplo, un empleado de la entidad jurídica A completa un proyecto para la entidad jurídica B. Si se habilitan los gastos de empresas vinculadas, el empleado puede entonces archivar una hoja de horas para, y que además le pague, la entidad jurídica B. Si su organización no tiene varias entidades jurídicas, no necesitará habilitar los gastos de empresas vinculadas. **Decisión:** ¿Desea habilitar gastos de empresas vinculadas?
 
-## Administración financiera
-<a id="financial-management" class="xliff"></a>
+## <a name="financial-management"></a>Administración financiera
 La gestión de gastos se integra totalmente con la administración financiera de la organización. Gran parte de la configuración de la gestión de gastos se basará en las decisiones que haya realizado sobre las finanzas de su organización. Las siguientes secciones describen las distintas áreas que requieren planificación y decisiones basadas en la orientación y las decisiones financieras de su organización del equipo de dirección.
 
-### Dietas
-<a id="per-diems" class="xliff"></a>
+### <a name="per-diems"></a>Dietas
 
 Debe definir las dietas de empleado que ofrece su organización. Dado que las dietas se suelen usar para satisfacer gastos como comidas, alojamiento y otros gastos incidentales, puede crear reglas para las retribuciones de dietas para que ofrece su organización. Las tarifas de dietas se pueden basar en la época del año, el destino del viaje o ambos. Al definir una regla de dietas, puede especificar la retención de un porcentaje de la tarifa de dietas si el trabajador recibe comidas o servicios complementarios. También puede definir niveles de tabla de dietas para establecer el mínimo o máximo de horas durante las que se puede aplicar la tarifa de dietas al viaje del trabajador. **Decisiones:**
 
@@ -67,8 +63,7 @@ Debe definir las dietas de empleado que ofrece su organización. Dado que las di
         -   hotel
         -   otros gastos
 
-### Cuentas y diarios de gestión de gastos
-<a id="expense-management-journals-and-accounts" class="xliff"></a>
+### <a name="expense-management-journals-and-accounts"></a>Cuentas y diarios de gestión de gastos
 
 La gestión de gastos requiere que use varios diarios y cuentas. Debe decidir, por ejemplo, si se usa la misma cuenta para anticipos y conflictos de tarjeta de crédito. **Decisiones:**
 
@@ -76,8 +71,7 @@ La gestión de gastos requiere que use varios diarios y cuentas. Debe decidir, p
 -   ¿Qué cuenta se usa para anticipos?
 -   ¿Se deben registrar los anticipos inmediatamente?
 
-### Métodos de pago
-<a id="payment-methods" class="xliff"></a>
+### <a name="payment-methods"></a>Métodos de pago
 
 Cuando permite a los empleados incurrir en gastos en nombre de su negocio, debe definir los métodos de pago que se permiten usar a los empleados. Por ejemplo, puede que permitir a los empleados usar efectivo o una tarjeta de crédito corporativa. También puede permitir a los empleados usar tarjetas de crédito personales y después reembolsar a los empleados. Debe tomar las siguientes decisiones para cada método de pago que habilite. **Decisiones:**
 
@@ -87,8 +81,7 @@ Cuando permite a los empleados incurrir en gastos en nombre de su negocio, debe 
 -   Si hay una cuenta de contrapartida, ¿cuál es la cuenta?
 -   Si el método de pago es una tarjeta de crédito, ¿debe usarse el método de pago solo con transacciones importadas?
 
-### Categorías de gastos y categorías compartidas
-<a id="expense-categories-and-shared-categories" class="xliff"></a>
+### <a name="expense-categories-and-shared-categories"></a>Categorías de gastos y categorías compartidas
 
 Cuando los empleados crean un informe de gastos, cada gasto que registran se debe asociar a una categoría de gastos. Las categorías de gastos se derivan de las categorías compartidas que se pueden compartir en las entidades jurídicas de la organización. Estas categorías también se pueden compartir en la gestión de proyectos y la contabilidad, en función de cómo se define la organización. En función de la definición de su organización y la orientación del equipo de implementación, determine si las categorías que se utilizan en la gestión de gastos deben usarse solo en gastos o si se deben compartir entre el proyecto y el gasto. Tenga en cuenta que estas categorías se pueden compartir entre el proyecto y los gastos o el proyecto y la producción, pero no entre el gasto y la producción. Debe tomar las siguientes decisiones para cada categoría de gastos. **Decisiones:**
 
@@ -126,8 +119,7 @@ Cuando los empleados crean un informe de gastos, cada gasto que registran se deb
 
  
 
-### Impuestos
-<a id="taxes" class="xliff"></a>
+### <a name="taxes"></a>Impuestos
 
 Para los impuestos relacionados con gastos, debe determinar qué se incluye o se permite en los informes de gastos. **Decisiones:**
 
@@ -136,8 +128,7 @@ Para los impuestos relacionados con gastos, debe determinar qué se incluye o se
 
 Tenga en cuenta que si, durante la planificación de la contabilidad general, ha decidido aplicar impuestos de EE.UU. y reglas de IVA de importación, lo que se realiza alternando el campo **Aplicar reglas de tributación de impuestos** en Sí, no podrá habilitar la devolución de impuestos en los gastos.
 
-## Directivas
-<a id="policies" class="xliff"></a>
+## <a name="policies"></a>Directivas
 Puede crear directivas de informe de gastos de modo que la organización pueda ahorrar tiempo y dinero cuando los empleados incurran en gastos en su nombre. Las directivas garantizan que los empleados permanecen dentro del presupuesto, proporcionan toda la información necesaria y gasten dinero solo según sea necesario. Debe tomar las siguientes decisiones para cada directiva de informe de gastos y cada directiva de aprobación de informe de gastos que cree. **Decisiones:**
 
 -   ¿Cuál es el nombre de la directiva?

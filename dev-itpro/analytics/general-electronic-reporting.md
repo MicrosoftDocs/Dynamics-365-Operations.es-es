@@ -27,8 +27,7 @@ ms.lasthandoff: 06/19/2017
 
 ---
 
-# Visión general de los informes electrónicos
-<a id="electronic-reporting-overview" class="xliff"></a>
+# <a name="electronic-reporting-overview"></a>Visión general de los informes electrónicos
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,8 +40,7 @@ El motor de ER está dirigido a usuarios empresariales en lugar de desarrollador
 
 ER admite actualmente los formatos TEXT, XML, documento de Microsoft Word y hoja de cálculo OPENXML. Sin embargo, una interfaz de extensión proporciona compatibilidad con formatos adicionales.
 
-## Capacidades
-<a id="capabilities" class="xliff"></a>
+## <a name="capabilities"></a>Capacidades
 El motor de ER tiene las siguientes capacidades:
 
 - Representa una sola herramienta compartida para realizar informes electrónicos en diferentes ámbitos y reemplaza a más de 20 motores distintos que hacen algún tipo de informe electrónico para Microsoft Dynamics 365 for Operations.
@@ -51,15 +49,12 @@ El motor de ER tiene las siguientes capacidades:
 - Se convierte en la herramienta estándar principal para la ayuda de los requisitos de localización en los informes electrónicos, tanto para Microsoft como para los socios de MS.
 - Admite la capacidad de distribuir formatos a los socios y los clientes a través de Microsoft Dynamics Lifecycle Services (LCS).
 
-## Conceptos clave
-<a id="key-concepts" class="xliff"></a>
-### Componentes
-<a id="components" class="xliff"></a>
+## <a name="key-concepts"></a>Conceptos clave
+### <a name="components"></a>Componentes
 
 ER es compatible con dos tipos de componentes: **Modelo de datos** y **Formato**.
 
-#### Componentes de modelo de datos
-<a id="data-model-components" class="xliff"></a>
+#### <a name="data-model-components"></a>Componentes de modelo de datos
 
 Un componente de modelo de datos es una representación abstracta de una estructura de datos. Se usa para describir un área de dominio empresarial específico con los detalles suficientes para cumplir los requisitos de creación de informes para dicho dominio. Un componente del modelo de datos consta de las siguientes partes:
 
@@ -88,8 +83,7 @@ Una asignación de modelo que admite documentos electrónicos entrantes tiene la
 - Admite parámetros de entrada de usuario que se pueden definir como orígenes de datos para un modelo de datos cuando algunos datos se deben especificar en el tiempo de ejecución.
 Un componente de modelo de datos está diseñado para cada dominio del negocio que se debe usar como origen de datos unificado para creación de informes y que aísla los informes de la implementación física de los orígenes de datos de Dynamics 365 for Operations. Representa conceptos y funcionalidades de dominio de negocio específicos en un formulario que hace que el diseño inicial del formato y el mantenimiento posterior sean más eficientes.
 
-#### Componentes del formato para los documentos electrónicos salientes
-<a id="format-components-for-outgoing-electronic-documents" class="xliff"></a>
+#### <a name="format-components-for-outgoing-electronic-documents"></a>Componentes del formato para los documentos electrónicos salientes
 
 Un componente de formato es el esquema de la salida de informes que se generará en el momento de la ejecución. Un esquema consta de los siguientes elementos:
 
@@ -115,8 +109,7 @@ La ilustración siguiente muestra fluyen los datos para estos formatos.
 
 Para ejecutar una sola configuración de formato ER y generar un documento electrónico salientes, debe identificar la asignación de la configuración del formato.
 
-#### Componentes del formato para los documentos electrónicos entrantes
-<a id="format-components-for-incoming-electronic-documents" class="xliff"></a>
+#### <a name="format-components-for-incoming-electronic-documents"></a>Componentes del formato para los documentos electrónicos entrantes
 Un componente de formato es el esquema del documento entrante que se importa en tiempo de ejecución. Un esquema consta de los siguientes elementos:
 
 - Un formato que define la estructura y el contenido del documento electrónico de entrada que contiene datos que se importan en tiempo de ejecución. Un componente de formato se usa analizar un documento entrante en distintos formatos, como texto y XML.
@@ -129,8 +122,7 @@ La ilustración siguiente muestra fluyen los datos para estos formatos.
 
 Para ejecutar una única configuración del formato de ER para importar datos desde un documento electrónico entrante, debe identificar la asignación deseada de una configuración del formato, así como el punto de la integración de una asignación de modelo. Puede usar la misma asignación y destinos de modelos así como los formatos diferentes para el tipo distinto de documentos de entrada.
 
-#### Control de versiones de componentes
-<a id="component-versioning" class="xliff"></a>
+#### <a name="component-versioning"></a>Control de versiones de componentes
 
 El control de versiones se admite para componentes de ER. El flujo de trabajo siguiente se proporciona para gestionar cambios en los componentes de ER:
 
@@ -144,20 +136,17 @@ Las versiones que tienen el estado **Completado** o **Compartido** están dispon
 - El componente serializar en formato XML y exportar desde Dynamics 365 for Operations como archivo en formato XML.
 - El componente pueden volver a serializar desde un archivo XML e importar en Dynamics 365 for Operations como una nueva versión de un componente de ER.
 
-#### Eficacia de la fecha del componente
-<a id="component-date-effectivity" class="xliff"></a>
+#### <a name="component-date-effectivity"></a>Eficacia de la fecha del componente
 
 Las versiones del componente de ER tienen fecha de vigencia. Puede establecer fecha **Vigente desde** para que un componente de ER especifique la fecha en la que el componente se hace efectivo para procesos de informes. La fecha de sesión de Microsoft Dynamics 365 for Operations se usa para definir si un componente es válido para la ejecución. Si hay más de una versión válida para una fecha concreta, la última versión se usa para procesos de informes.
 
-#### Acceso del componente
-<a id="component-access" class="xliff"></a>
+#### <a name="component-access"></a>Acceso del componente
 
 El acceso a los componentes del formato de ER depende de la configuración del código de país o región ISO. Cuando esta opción está en blanco para una versión seleccionada de una configuración de formato, se puede obtener acceso a un componente de formato desde cualquier empresa de Dynamics 365 for Operations en tiempo de ejecución. Cuando esta configuración contiene códigos de país o región ISO, un componente de formato está disponible solo desde las empresas de Dynamics 365 for Operations que tienen una dirección principal que está definida para uno de los códigos de país o región ISO de un componente de formato.
 
 Diferentes versiones de un componente de formato de datos pueden tener distintos ajustes de los códigos de país o región ISO.
 
-#### Configuración
-<a id="configuration" class="xliff"></a>
+#### <a name="configuration"></a>Configuración
 
 Una configuración de ER es el contenedor de un componente concreto de ER. Dicho componente puede ser un componente del modelo de datos o un componente del formato. Una configuración puede incluir diferentes versiones de un componente de ER. Cada configuración se marca como perteneciente a un proveedor específico de configuración. La versión **Borrador** de un componente de una configuración se puede editar cuando se ha seleccionado el propietario de la configuración como proveedor activo en la configuración de ER de Dynamics 365 for Operations.
 
@@ -167,15 +156,13 @@ La configuración de formato que se crea contiene un componente formato. El comp
 
 Una configuración de ER se comparte en las empresas de Dynamics 365 for Operations.
 
-#### Proveedor
-<a id="provider" class="xliff"></a>
+#### <a name="provider"></a>Proveedor
 
 El proveedor de ER es la identificación de parte que se usa para indicar el autor (propietario) de cada configuración de ER. ER le permite administrar la lista de proveedores de configuración. Las configuraciones del formato que se liberan para documentos electrónicos como parte de la solución de Dynamics 365 for Operations se marcan como propiedad del proveedor de configuración **Microsoft**.
 
 Para obtener información sobre cómo registrar un nuevo proveedor de ER, reproduzca la guía de la tarea, **ER Creación de un proveedor de configuraciones y marcarlo como activo** (parte del proceso empresarial **7.5.4.3 Adquirir y desarrollar los componentes del servicio o la solución de TI (10677)**).
 
-#### Repositorio
-<a id="repository" class="xliff"></a>
+#### <a name="repository"></a>Repositorio
 
 Un repositorio de ER guarda las configuraciones de ER. Dos tipos de repositorios de ER siguientes son compatibles actualmente: **Recursos de Operations** y **Proyecto LCS**.
 
@@ -185,10 +172,8 @@ Un repositorio del **proyecto de LCS** proporciona acceso a la lista de configur
 
 Los repositorios necesarios del **Proyecto LCS** se pueden registrar de manera individual para cada proveedor de la configuración de la instancia actual de Dynamics 365 for Operations. Cada repositorio se puede dedicar a un proveedor de configuración específico.
 
-## Escenarios admitidos
-<a id="supported-scenarios" class="xliff"></a>
-### Creación de un modelo de datos
-<a id="building-a-data-model" class="xliff"></a>
+## <a name="supported-scenarios"></a>Escenarios admitidos
+### <a name="building-a-data-model"></a>Creación de un modelo de datos
 
 ER proporciona un diseñador de modelo que puede usar para crear un modelo de datos para un dominio concreto de negocio. Todas las entidades específicas de empresa de dominio y las relaciones entre ellas se pueden presentar en un modelo de datos como una estructura jerárquica. En la siguiente ilustración se muestra un ejemplo de este tipo de modelo de datos (el modelo de datos de dominio de pago). 
 
@@ -196,8 +181,7 @@ ER proporciona un diseñador de modelo que puede usar para crear un modelo de da
 
 Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **CE Diseñar el modelo de datos específico de dominio** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**).
 
-### Traducción del contenido del modelo de datos
-<a id="translating-data-model-content" class="xliff"></a>
+### <a name="translating-data-model-content"></a>Traducción del contenido del modelo de datos
 
 El contenido del modelo de datos (etiquetas y descripciones) se puede traducir a otros idiomas admitidos por Finance and Operations. Desea traducir el contenido del modelo de datos por las siguientes razones:
 
@@ -211,8 +195,7 @@ La ilustración siguiente muestra un ejemplo de cómo se traduce el contenido de
 [![Contenido del modelo de datos traducido al japonés](./media/ER-overview-06.png)](./media/ER-overview-06.png)
 
 
-### Configurar asignaciones del modelo de datos para los documentos de salida
-<a id="configuring-data-model-mappings-for-outgoing-documents" class="xliff"></a>
+### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>Configurar asignaciones del modelo de datos para los documentos de salida
 
 ER proporciona un diseñador de asignación de modelos que permite a los usuarios asignar modelos de datos que se han diseñado para orígenes de datos de Finance and Operations específicos. En función de la asignación, los datos se importarán en tiempo de ejecución desde los orígenes de datos seleccionados en el modelo de datos. El modelo de datos se usa como un origen de datos abstracto de los formatos de ER que generan los documentos electrónicos salientes. La ilustración siguiente muestra un ejemplo de este tipo de asignación de modelo de datos (**Transferencia de crédito SEPA** asignación del modelo de datos de dominio de pago). 
 
@@ -220,21 +203,18 @@ ER proporciona un diseñador de asignación de modelos que permite a los usuario
 
 Para familiarizarse con los detalles de este escenario, reproduzca las guías de tareas **CE Definir asignación del modelo y seleccionar orígenes de datos** y **CE Asignar modelo de datos a los orígenes de datos seleccionados** (parte del proceso de negocio **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677))**.
 
-### Configurar asignaciones del modelo de datos para los documentos de entrada
-<a id="configuring-data-model-mappings-for-incoming-documents" class="xliff"></a>
+### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Configurar asignaciones del modelo de datos para los documentos de entrada
 ER proporciona un diseñador de asignación de modelos que permite a los usuarios asignar modelos de datos que se han diseñado para destinos específicos. Por ejemplo, los modelos de datos se pueden asignar a Dynamics 365 for Operations para los componentes de datos que se puede actualizar (tablas, entidades de datos y vistas). En función de la asignación, los datos de Dynamics 365 for Operations se actualizarán en tiempo de ejecución con los datos del modelo de datos. Como almacenamiento abstracto del formato de ER, el modelo de datos se rellena con los datos que se importan de un documento electrónico entrante. En la siguiente ilustración se muestra un ejemplo de este tipo de asignación de modelo de datos. En este ejemplo, la asignación del modelo **Asignación de importación para NETS** del modelo de datos del dominio de pago se utiliza para permitir la importación de extractos bancarios en el formato bancario NETS para Noruega.
 
 [![Asignación de importación para el ejemplo de modelo de datos de NETS](./media/ER-overview-08.png)](./media/ER-overview-08.png)
 
-### Almacenar un componente modelo diseñado como una configuración del modelo
-<a id="storing-a-designed-model-component-as-a-model-configuration" class="xliff"></a>
+### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Almacenar un componente modelo diseñado como una configuración del modelo
 
 ER puede almacenar un modelo de datos diseñado junto con las asignaciones de datos asociadas como una configuración del modelo de la instancia actual de Finance and Operations. En la siguiente ilustración se muestra un ejemplo de este tipo de configuración de modelo de datos (la configuración del modelo de pago). 
 
 Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **CE Asignar modelo de datos a los orígenes de datos seleccionados** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**).
 
-### Creación de un formato que usa un modelo de datos como base
-<a id="building-a-format-that-uses-a-data-model-as-a-base" class="xliff"></a>
+### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Creación de un formato que usa un modelo de datos como base
 
 ER admite un diseñador de formato que puede usar para crear el formato de un documento electrónico para un dominio empresarial seleccionando el componente modelo como base. El mismo diseñador del formato de ER le permite asignar un formato que crea a la asignación del modelo de datos de un dominio seleccionado como origen de datos. En la siguiente ilustración se muestra un ejemplo de este tipo de formato (la configuración de formato que admite el formato de pago **BACS** para el Reino Unido). 
 
@@ -242,8 +222,7 @@ ER admite un diseñador de formato que puede usar para crear el formato de un do
 
 Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **CE Diseñar el formato específico de dominio** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**).
 
-### Creación de una configuración para generar documentos electrónicos en formato de hoja de cálculo OPENXML
-<a id="building-a-configuration-to-generate-electronic-documents-in-openxml-worksheet-format" class="xliff"></a>
+### <a name="building-a-configuration-to-generate-electronic-documents-in-openxml-worksheet-format"></a>Creación de una configuración para generar documentos electrónicos en formato de hoja de cálculo OPENXML
 
 El diseñador de formato de ER se puede utilizar para generar un documento electrónico en formato de hoja de cálculo OPENXML. En la siguiente ilustración se muestra un ejemplo de este tipo de formato (una configuración de formato para generar la hoja de cálculo OPENXML con los detalles de un diario de pago seleccionado).
 
@@ -251,8 +230,7 @@ El diseñador de formato de ER se puede utilizar para generar un documento elect
 
 Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **Crear una configuración ER para generar informes en formato OPENXML** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**). Como parte del paso de la guía de la tarea para importar una plantilla, utilice [Plantilla de informe de pago (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) el archivo de Excel como plantilla.
 
-### Creación de una configuración para generar documentos electrónicos en formato documento de Word.
-<a id="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format" class="xliff"></a>
+### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Creación de una configuración para generar documentos electrónicos en formato documento de Word.
 El diseñador de formato de ER se puede utilizar para generar un documento electrónico en formato de documento de Word. En la siguiente ilustración se muestra un ejemplo de este tipo de formato. Tenga en cuenta que este formato reutiliza la configuración actual de ER que diseñó originalmente para generar la salida de informes en formato de OPENXML.
 
 [![Pic-ER-format-Word](./media/ER-overview-11.png)](./media/ER-overview-11.png)
@@ -262,8 +240,7 @@ Para familiarizarse con los detalles de este escenario, reproduzca la guía de t
 - [Plantilla de informe de pago (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 - [Plantilla enlazada de pago (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
-### Generar una configuración para importar datos desde documentos electrónicos entrantes
-<a id="building-a-configuration-to-import-data-from-incoming-electronic-documents" class="xliff"></a>  
+### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Generar una configuración para importar datos desde documentos electrónicos entrantes  
 El diseñador del formato de ER se puede utilizar para describir un documento electrónico que se planifica para la importación de datos en formato XML o de texto. El formato diseñado se usa para analizar un documento de entrada. El diseñador de la asignación de formato de ER se puede utilizar para definir el enlazado de los elementos del formato diseñado para el modelo de datos. La siguiente ilustración muestra un ejemplo de este tipo de formato y asignación de formato. En este ejemplo, se importan extractos bancarios de NETS que incluyen los detalles de pago de proveedores en formato de texto.
 
 [![ER-format-designer](./media/ER-overview-12.png)](./media/ER-overview-12.png)
@@ -277,13 +254,11 @@ Para familiarizarse con los detalles de este escenario, reproduzca la guía Crea
 - [Ejemplo de documento de entrada en formato XML (1099entries.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
 - [Ejemplo de libro para administrar datos del documento de entrada (1099entries.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
-### Almacenar un componente diseñado del formato en una configuración del formato
-<a id="storing-a-designed-format-component-in-a-format-configuration" class="xliff"></a>
+### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Almacenar un componente diseñado del formato en una configuración del formato
 
 ER puede almacenar un formato diseñado junto con las asignaciones configuradas de los datos como una configuración del formato de la instancia actual de Finance and Operations. La ilustración anterior muestra un ejemplo de este tipo de configuración de formato (**BACS (Reino Unido)**, que es un elemento secundario de la configuración de **Modelo de pago**). Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **CE Diseñar el formato específico de dominio** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**).
 
-### Configuración de Finance and Operations para comenzar a usar un formato creado internamente
-<a id="configuring-finance-and-operations-to-start-to-use-a-created-format-internally" class="xliff"></a>
+### <a name="configuring-finance-and-operations-to-start-to-use-a-created-format-internally"></a>Configuración de Finance and Operations para comenzar a usar un formato creado internamente
 
 Finance and Operations se puede configurar para empezar a usar un formato creado para generar informes electrónicos. La referencia a la configuración creada de formato se debe definir en la configuración de un determinado dominio. Por ejemplo, para empezar a utilizar una configuración de formato de ER para pagos electrónicos a proveedores en formato BACS, se debe hacer referencia a la configuración de formato en métodos específicos de pago, como se muestra en las siguientes ilustraciones: 
 
@@ -293,30 +268,24 @@ Finance and Operations se puede configurar para empezar a usar un formato creado
 
 Para familiarizarse bien con los detalles de este escenario, reproduzca la guía de tareas **ER Usar formato para generar documentos electrónicos para pagos** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**).
 
-## Tratamiento de componentes de ER
-<a id="handling-er-components" class="xliff"></a>
-### Publicación de un componente de ER en LCS para ofrecerlo externamente (localización)
-<a id="publishing-an-er-component-in-lcs-to-offer-it-externally-localization" class="xliff"></a>
+## <a name="handling-er-components"></a>Tratamiento de componentes de ER
+### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>Publicación de un componente de ER en LCS para ofrecerlo externamente (localización)
 
 El propietario de un componente (modelo o formato) que se ha creado puede usar ER para publicar la versión completada del componente en LCS. Se requiere Un repositorio del tipo **Proyecto de LCS** para el proveedor actual de la configuración de ER. Cuando cambie el estado de la versión completada de un componente de **COMPLETADO** a **COMPARTIDO**, esa versión se publica en el LCS. Cuando haya publicado un componente a LCS, el propietario de ese componente pasa a ser un proveedor de servicio para admitir el componente. Por ejemplo, si el componente del formato está diseñado para generar un documento electrónico legalmente necesario (por ejemplo, de acuerdo con una situación de localización), se supone que el formato se mantendrá compatible con los cambios legislativos y que el proveedor emitirá nuevas versiones del componente siempre surjan nuevos requisitos legislativos. Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **ER Cargar una configuración en Lifecycle Services** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**).
 
-### Importar el componente de ER de LCS para utilizarlo internamente
-<a id="importing-an-er-component-from-lcs-to-use-it-internally" class="xliff"></a>
+### <a name="importing-an-er-component-from-lcs-to-use-it-internally"></a>Importar el componente de ER de LCS para utilizarlo internamente
 
 ER le permite importar componentes de ER desde LCS en la instancia actual de Finance and Operations. Se requiere un repositorio del tipo **Proyecto de LCS**. Si se ha importado un componente de ER de LCS a la instancia actual de Finance and Operations, el propietario de la instancia se convierte en un consumidor del servicio ofrecido por el propietario (autor) del componente importado. Por ejemplo, si un componente del formato está diseñado para generar un documento electrónico específico desde Finance and Operations en un formato específico del país o región (situación de localización), se supone que el consumidor del servicio podrá obtener actualizaciones que se realizan a ese formato, para mantenerlo compatible con los requisitos legislativos. Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **ER Importar una configuración de Lifecycle Services** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**).
 
-### Creación de un formato que selecciona otro formato como base (personalización)
-<a id="building-a-format-selecting-another-format-as-a-base-customization" class="xliff"></a>
+### <a name="building-a-format-selecting-another-format-as-a-base-customization"></a>Creación de un formato que selecciona otro formato como base (personalización)
 
 ER le permite crear (deriva) un nuevo componente de la versión actual de un componente (base) que se importó de LCS. Por ejemplo, si un usuario desea derivar un nuevo formato para implementar algunos requisitos especiales para un documento electrónico (como un campo adicional o una descripción amplia) para admitir un escenario de personalización. Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **ER Actualizar formato adoptando una nueva versión base del mismo** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**) .
 
-### Actualizar un formato que selecciona una versión nueva del formato base (rebase)
-<a id="upgrading-a-format-selecting-a-new-version-of-base-format-rebase" class="xliff"></a>
+### <a name="upgrading-a-format-selecting-a-new-version-of-base-format-rebase"></a>Actualizar un formato que selecciona una versión nueva del formato base (rebase)
 
 ER le permite adoptar automáticamente los cambios de la última versión del componente de la base de la versión actual del borrador de componentes derivados. Este proceso se conoce como *reorganización*. Por ejemplo, un cambio normativo nuevo que se ha introducido en la última versión del formato que se importó desde LCS se puede combinar automáticamente en la versión personalizada de este formato del documento electrónico. Los cambios que no se pueden combinar automáticamente se consideran conflictos. Estos conflictos se presentan para la resolución manual de la herramienta del diseñador para el componente apropiado. Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **ER Actualizar formato adoptando una nueva versión base del mismo** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**) .
 
-## Lista de configuraciones ER que se entregan en la solución de Finance and Operations
-<a id="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution" class="xliff"></a>
+## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a>Lista de configuraciones ER que se entregan en la solución de Finance and Operations
 | Configuraciones del modelo de datos específicos de dominio: título | Dominio                | Configuraciones de formato dependientes del modelo de datos: título | Descripción                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | Modelo de archivo de auditoría                                 | Auditoría financiera       |                                                   |                                                                    |
@@ -399,8 +368,7 @@ ER le permite adoptar automáticamente los cambios de la última versión del co
 
 
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Requisitos de localización: crear una configuración de informes electrónicos](electronic-reporting-configuration.md)

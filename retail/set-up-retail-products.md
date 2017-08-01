@@ -28,8 +28,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Configurar productos comerciales
-<a id="set-up-retail-products" class="xliff"></a>
+# <a name="set-up-retail-products"></a>Configurar productos comerciales
 
 [!include[banner](includes/banner.md)]
 

@@ -26,8 +26,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Configurar el proceso de importación avanzada de conciliación bancaria
-<a id="set-up-the-advanced-bank-reconciliation-import-process" class="xliff"></a>
+# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Configurar el proceso de importación avanzada de conciliación bancaria
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,8 +35,7 @@ La función Conciliación bancaria avanzada le permite importar extractos bancar
 
 La configuración de la importación del extracto bancario varía en función del formato de su extracto bancario electrónico. Finance and Operations admite de serie tres formatos de extractos bancarios: ISO20022, MT940 y BAI2.
 
-## Archivo de muestra
-<a id="sample-files" class="xliff"></a>
+## <a name="sample-files"></a>Archivo de muestra
 Para los tres formatos, debe tener archivos que traduzcan la instrucción bancaria electrónica del formato original a un formato que Finance and Operations puede usar. Encontrará los archivos los recursos necesarios en el nodo **Recursos** de Application Explorer de Microsoft Visual Studio. Tras encontrar los archivos, cópielos en una única ubicación conocida, para que pueda cargarlos más fácilmente durante el proceso de instalación.
 
 | Nombre del recurso                                           | Nombre de archivo                            |
@@ -50,8 +48,7 @@ Para los tres formatos, debe tener archivos que traduzcan la instrucción bancar
 | BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt      | MT940XML-to-Reconciliation.xslt      |
 | BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
 
-## Ejemplos de diseños técnicos y formatos de extracto bancario
-<a id="examples-of-bank-statement-formats-and-technical-layouts" class="xliff"></a>
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Ejemplos de diseños técnicos y formatos de extracto bancario
 A continuación se presentan ejemplos de diseño técnico de archivo de importación de conciliación bancaria avanzado y tres archivos de ejemplo de extracto bancario relacionados: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 | Definición de diseño técnico                             | Archivo de ejemplo de extracto bancario          |
@@ -62,8 +59,7 @@ A continuación se presentan ejemplos de diseño técnico de archivo de importac
 
  
 
-## Configuración de la importación de los extractos bancarios ISO20022
-<a id="set-up-the-import-of-iso20022-bank-statements" class="xliff"></a>
+## <a name="set-up-the-import-of-iso20022-bank-statements"></a>Configuración de la importación de los extractos bancarios ISO20022
 En primer lugar, debe definir el grupo de procesamiento del formato de extractos bancarios para los extractos bancarios ISO20022 mediante el marco de entidades de datos.
 
 1.  Vaya a **Espacios de trabajo** &gt; **Administración de datos**.
@@ -96,8 +92,7 @@ El último paso es habilitar Conciliación bancaria avanzada y establecer el for
 3.  En la pestaña **Conciliación**, establezca la opción **Conciliación bancaria avanzada** en **Sí**.
 4.  Establezca el campo **Formato de extracto** en el formato que ha creado anteriormente, como **ISO20022**.
 
-## Configuración de la importación de los extractos bancarios MT940
-<a id="set-up-the-import-of-mt940-bank-statements" class="xliff"></a>
+## <a name="set-up-the-import-of-mt940-bank-statements"></a>Configuración de la importación de los extractos bancarios MT940
 En primer lugar, debe definir el grupo de procesamiento del formato de extractos bancarios para los extractos bancarios MT940 mediante el marco de entidades de datos.
 
 1.  Vaya a **Espacios de trabajo** &gt; **Administración de datos**.
@@ -133,8 +128,7 @@ El último paso es habilitar Conciliación bancaria avanzada y establecer el for
 4.  Cuando se le pida que confirme la selección y habilite Conciliación bancaria avanzada, haga clic en **Aceptar**.
 5.  Establezca el campo **Formato de extracto** en el formato que ha creado anteriormente, como **MT940**.
 
-## Configuración de la importación de los extractos bancarios BAI2
-<a id="set-up-the-import-of-bai2-bank-statements" class="xliff"></a>
+## <a name="set-up-the-import-of-bai2-bank-statements"></a>Configuración de la importación de los extractos bancarios BAI2
 En primer lugar, debe definir el grupo de procesamiento del formato de extractos bancarios para los extractos bancarios BAI2 mediante el marco de entidades de datos.
 
 1.  Vaya a **Espacios de trabajo** &gt; **Administración de datos**.
@@ -170,8 +164,7 @@ El último paso es habilitar Conciliación bancaria avanzada y establecer el for
 4.  Cuando se le pida que confirme la selección y habilite Conciliación bancaria avanzada, haga clic en **Aceptar**.
 5.  Establezca el campo **Formato de extracto** en el formato que ha creado anteriormente, como **BAI2**.
 
-## Probar la importación del extracto bancario
-<a id="test-the-bank-statement-import" class="xliff"></a>
+## <a name="test-the-bank-statement-import"></a>Probar la importación del extracto bancario
 El paso final es probar que puede importar el extracto bancario.
 
 1.  Vaya a **Gestión de efectivo y bancos** &gt; **Cuentas bancarias**.

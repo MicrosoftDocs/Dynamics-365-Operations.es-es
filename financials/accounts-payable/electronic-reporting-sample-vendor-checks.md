@@ -26,20 +26,17 @@ ms.lasthandoff: 06/14/2017
 
 [!include[banner](../includes/banner.md)]
 
-# Formatos de cheques de ejemplo para informes electrónicos
-<a id="electronic-reporting-sample-check-formats" class="xliff"></a>
+# <a name="electronic-reporting-sample-check-formats"></a>Formatos de cheques de ejemplo para informes electrónicos
 
 Puede usar informes electrónicos (ER) para dar formato a los cheques de proveedores. Muchos formatos de cheque específicos de bancos y proveedores están disponibles en el mercado. Los formatos de cheque de ejemplo se han incluido en el modelo de cheques de pago en el repositorio de la herramienta de ER. Estos cheques de ejemplo se etiquetan como **Cheque en el medio (EE. UU.)** y **Cheque sobre recibo inferior (EE. UU.)**.
 
-## ¿Qué formatos de cheque se admiten actualmente?
-<a id="what-check-formats-are-currently-supported" class="xliff"></a>
+## <a name="what-check-formats-are-currently-supported"></a>¿Qué formatos de cheque se admiten actualmente?
 
 Debe ir siempre a la biblioteca de activos compartidos de Microsoft Dynamics Lifecycle Services (LCS) y ver la lista actual de archivos disponibles que tienen un tipo de activo de **configuración de GER**. La siguiente sección, “¿Qué tengo que configurar? ”, incluye un vínculo al tema que explica cómo crear un repositorio de LCS para que pueda revisar las configuraciones disponibles e importar las configuraciones seleccionadas.
 
 Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, incluye un formato de muestra dónde se encuentra el cheque en la parte superior, seguido por dos secciones de remesa. También incluye un formato de muestra donde el cheque está en el medio, entre dos secciones de la remesa. Estos formatos de ejemplo se corresponden con los formatos de cheques empresariales Deluxe.
 
-## ¿Qué tengo que configurar?
-<a id="what-do-i-have-to-set-up" class="xliff"></a>
+## <a name="what-do-i-have-to-set-up"></a>¿Qué tengo que configurar?
 
 - Para poder crear imprimir cheques utilizando ER, antes debe activar al menos una configuración de cheque de crédito en las configuraciones de ER. Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 - Cuando configure cheques de efectivo y de gestión bancaria para la cuenta bancaria, seleccione la casilla de verificación **Formato de exportación electrónica genérica** y seleccione el formato de cheque apropiado como configuración del formato de exportación.

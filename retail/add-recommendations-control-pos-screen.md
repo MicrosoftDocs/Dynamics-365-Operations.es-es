@@ -27,8 +27,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Agregue un control de recomendaciones a la página de transacción en un dispositivo de PDV
-<a id="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device" class="xliff"></a>
+# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Agregue un control de recomendaciones a la página de transacción en un dispositivo de PDV
 
 [!include[banner](includes/banner.md)]
 
@@ -37,8 +36,7 @@ Este tema describe cómo agregar un control de recomendaciones a la pantalla de 
 
 Puede mostrar recomendaciones del producto en el dispositivo de PDV cuando utilice Microsoft Dynamics 365 for Retail. Las *Recomendaciones* son artículos que pueden interesar a su cliente en función de su historial de compra, los artículos de su lista de deseos y los artículos que compraron otros clientes en línea y en tiendas de físicas. Para mostrar recomendaciones del producto, debe agregar un control a la pantalla de transacción mediante el diseñador de pantalla.
 
-## Abra el Diseñador
-<a id="open-layout-designer" class="xliff"></a>
+## <a name="open-layout-designer"></a>Abra el Diseñador
 1.  Vaya a **Venta minorista** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **PDV** &gt; **Diseños de pantalla**.
 2.  Utilice el filtro rápido para buscar la pantallla a la que desea agregar el control. Por ejemplo, filtro el campo **Id. de diseño de pantalla** usando un valor de ‘F2CP16:9M’.
 3.  En la lista, busque y seleccione el registro deseado. Por ejemplo, seleccione ‘Nombre: F2CP16:9M Id. de diseño de pantalla: F2CP16:9M’.
@@ -53,8 +51,7 @@ Hay dos opciones de configuración disponibles: Elija la opción que mejor se aj
 -   Las recomendaciones siempre están visibles.
 -   Aparece una pestaña de **Recomendaciones** en la cuadrícula del lado derecho de la pantalla.
 
-#### Para hacer que las recomendaciones siempre estén visibles
-<a id="to-make-recommendations-always-visible" class="xliff"></a>
+#### <a name="to-make-recommendations-always-visible"></a>Para hacer que las recomendaciones siempre estén visibles
 
 1.  Reduzca la altura del área de detalles de las líneas de transacción de manera que tenga la misma altura que el panel de cliente a la izquierda.[](./media/pic-2.png)[![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 2.  En el menú de la izquierda, arrastre y suelte el control de recomendaciones entre el área de detalles de la línea de transacción y la cuadrícula de botones en la parte inferior central de la pantalla de transición. Cambie el tamaño del control de modo que se ajuste a ese espacio.[](./media/pic-3.png)[![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
@@ -63,8 +60,7 @@ Hay dos opciones de configuración disponibles: Elija la opción que mejor se aj
 5.  En la lista, seleccione **1090, Cajas registradoras**.
 6.  Haga clic en **Ejecutar ahora**.
 
-#### Para agregar una pestaña de Recomendaciones a la cuadrícula de botones en el lado derecho de la pantalla
-<a id="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen" class="xliff"></a>
+#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Para agregar una pestaña de Recomendaciones a la cuadrícula de botones en el lado derecho de la pantalla
 
 1.  Haga clic con el botón secundario en el espacio vacío por debajo de la última pestaña en la cuadrícula de botones que se encuentra en el lado derecho de la página.
 2.  Haga clic en **Personalizar**.[![pic-5](./media/pic-5.png)](./media/pic-5.png)
@@ -80,8 +76,7 @@ Hay dos opciones de configuración disponibles: Elija la opción que mejor se aj
 12. Haga clic en **Ejecutar ahora**.
 
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Visión general de recomendaciones de productos personalizados](personalized-product-recommendations.md)

@@ -26,8 +26,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Visión general de la ayuda
-<a id="help-overview" class="xliff"></a>
+# <a name="help-overview"></a>Visión general de la ayuda
 
 [!include[banner](../includes/banner.md)]
 
@@ -57,8 +56,7 @@ Este tema describe el sistema de ayuda y explica cómo puede crear documentació
 > [!IMPORTANT]
 > La pestaña **Guías de tareas** no está actualmente disponible en Microsoft Dynamics 365 for Talent y Microsoft Dynamics 365 for Retail, Estamos trabajando actualmente para permitir esta funcionalidad en una versión futura. Las Guías de tareas para la Introducción a Talent seguirán disponibles para cubrir las funcionalidades básicas. La ayuda de procedimientos también está disponible en el sitio de docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) para Retail y Talent.
 
-## Ayuda en docs.microsoft.com
-<a id="help-on-docsmicrosoftcom" class="xliff"></a>
+## <a name="help-on-docsmicrosoftcom"></a>Ayuda en docs.microsoft.com
 
 El sitio docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) es el origen principal de la documentación del producto para Dynamics 365 Finance and Operations. El sitio ofrece las características siguientes:
 
@@ -67,8 +65,7 @@ El sitio docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynami
 -   **Acceso a diferentes tipos de contenido**: el sitio proporciona acceso rápido a diferentes tipos de contenido sobre Dynamics 365 for Finance and Operations como presentaciones combinadas de Microsoft Office, guías de tareas, vídeos y temas.
 -   **Contenido que admite sus procesos empresariales**: el sitio incluye contenido centrado en procesos empresariales que aprovecha el Modelador de procesos empresariales (BPM) de Microsoft Dynamics Lifecycle Services (LCS).
 
-### Cómo buscar en docs.microsoft.com
-<a id="searching-on-docsmicrosoftcom" class="xliff"></a>
+### <a name="searching-on-docsmicrosoftcom"></a>Cómo buscar en docs.microsoft.com
 Recibimos muchas preguntas sobre cómo realizar búsquedas en nuestro contenido. En nuestro sitio, si empieza desde una página sobre Dynamics 365 for Finance and Operations, la búsqueda se limitará a contenido sobre Dynamics 365 for Finance and Operations. Para quitar esta restricción de ámbito, haga clic en la X situada junto a Operations en el cuadro de búsqueda. 
 
 ![Buscar pedidos](./media/search-scope.png)
@@ -78,12 +75,10 @@ También puede encontrar nuestro contenido con cualquier motor de búsqueda. Par
 
 ![Resultados de la búsqueda en sitio](./media/site-search-results.png)
 
-### La tabla de contenido docs.microsoft.com para Unified Operations
-<a id="the-docsmicrosoftcom-table-of-contents-for-unified-operations" class="xliff"></a>
+### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>La tabla de contenido docs.microsoft.com para Unified Operations
 Todos los productos comparten una sola tabla de contenido en el sitio de los documentos, que permite a los clientes ver el contexto del tema en el que están. También le permite usar el control de filtro para buscar temas que quiera.
 
-### ¿Cómo puedo contribuir?
-<a id="how-can-i-contribute" class="xliff"></a> 
+### <a name="how-can-i-contribute"></a>¿Cómo puedo contribuir? 
 
 Déjenos aquí un comentario 
 
@@ -105,8 +100,7 @@ A la derecha, escriba una dirección de correo electrónico y una nueva contrase
 ![Opciones de inicio de sesión](./media/signin-options.png)
 
 
-## Guías de tareas
-<a id="task-guides" class="xliff"></a>
+## <a name="task-guides"></a>Guías de tareas
 Una guía de tareas es una experiencia guiada, interactiva y controlada que le lleva por los pasos de una tarea o de un proceso empresarial. Puede abrir (reproducir) una guía de tareas desde el panel Ayuda. Al hacer clic por primera vez en una guía de tareas, el panel Ayuda mostrará instrucciones detalladas para la tarea. Ahora dispone de guías de tareas localizadas. 
 
 Proporcionaremos los distintos conjuntos de guías de tareas para cada producto de Unified Operations. La sección sobre cómo acceder las guías de tareas en el panel Ayuda describe cómo buscar las guías de tareas correctas para su producto. 
@@ -119,8 +113,7 @@ Para comenzar la experiencia interactiva y guiada, haga clic en **Iniciar guía 
 > [!IMPORTANT] 
 > Los datos que especifica al reproducir una guía de tareas son reales. Si está en un entorno de producción, los datos se especificarán en la empresa que está usando actualmente.
 
-### Todo comienza el Grabador de tareas
-<a id="it-all-begins-with-task-recorder" class="xliff"></a>
+### <a name="it-all-begins-with-task-recorder"></a>Todo comienza el Grabador de tareas
 
 Las guías de tareas se crean mediante el Grabador de tareas. Al usar el Grabador de tareas, se graban todas las acciones que realiza en la interfaz de usuario de Finance and Operations (como hacer clic en menús, cambiar la configuración y especificar cambios). Los pasos que grabe se denominan conjuntamente grabación de tareas. Como explicamos en la sección anterior, las grabaciones de tareas se pueden mostrar en el panel Ayuda y reproducir como guías de tareas. Sin embargo, hay otras maneras en que puede usar grabaciones de tareas:
 
@@ -129,27 +122,23 @@ Las guías de tareas se crean mediante el Grabador de tareas. Al usar el Grabado
 
 Para obtener más información sobre el Grabador de tareas, consulte [Grabador de tareas de Finance and Operations](../user-interface/task-recorder.md).
 
-### Creación de grabaciones de tareas personalizadas
-<a id="creating-customized-task-recordings" class="xliff"></a>
+### <a name="creating-customized-task-recordings"></a>Creación de grabaciones de tareas personalizadas
 
 Puede crear sus propias grabaciones de tareas o descargar y personalizar grabaciones de tareas que proporcione Microsoft. Por lo tanto, puede crear una Ayuda personalizada para su organización que refleje su implementación específica de Finance and Operations. Nota: Para mostrar una grabación de tareas en el panel de Ayuda de Finance and Operations y reproducirla como guía de tareas, deberá guardar la grabación en una biblioteca de en LCS. Si es socio, y promociona una biblioteca para ser biblioteca corporativa e incluirla en una solución, esta quedará a disposición de sus clientes. Para obtener instrucciones completas, consulte [Uso de grabaciones de tareas para crear documentación o formación](../user-interface/task-recorder.md).
 
-## Ayuda en el producto
-<a id="in-product-help" class="xliff"></a>
+## <a name="in-product-help"></a>Ayuda en el producto
 Para obtener acceso al contenido de la Ayuda dentro de Finance and Operations, haga clic en el icono **Ayuda** (**?**) y después elija Ayuda, o presione Ctrl+Mayús+?. En ambos casos, se abre el panel Ayuda. En el panel Ayuda, puede obtener acceso a los artículos del sitio o las guías de tareas. 
 
 ![Panel Ayuda](./media/help-pane-wiki-1024x684.png)
 
-### Acceso a los temas de ayuda desde el panel Ayuda
-<a id="accessing-help-topics-from-the-help-pane" class="xliff"></a>
+### <a name="accessing-help-topics-from-the-help-pane"></a>Acceso a los temas de ayuda desde el panel Ayuda
 
 En el panel Ayuda, puede obtener acceso a artículos del sitio que se aplican al cliente de Finance and Operations. Al abrir el panel de la Ayuda por primera vez y hacer clic en la pestaña **Wiki**, verá los artículos que se aplican a la página en la que se encuentra actualmente en Finance and Operations. Si no encuentra ningún artículo, puede escribir palabras clave para limitar la búsqueda. Al hacer clic en un artículo del panel Ayuda, se abre una nueva pestaña en el explorador y se muestra el artículo. 
 
 > [!IMPORTANT]
 > Esta sección no se aplica a Dynamics 365 for Talent. El sistema de Ayuda para Talent se conecta automáticamente a las guías de tareas para el producto. Además, no puede crear guías de tareas personalizadas para Talent. 
 
-### Acceso a guías de tareas desde el panel Ayuda
-<a id="accessing-task-guides-from-the-help-pane" class="xliff"></a>
+### <a name="accessing-task-guides-from-the-help-pane"></a>Acceso a guías de tareas desde el panel Ayuda
 
 Para acceder a las guías de tareas desde el panel de Ayuda, un administrador del sistema tiene que ir a la página **Parámetros del sistema** en Finance and Operations y configurar algunos parámetros. 
 
@@ -175,15 +164,13 @@ Una vez que un administrador del sistema complete estos pasos, puede abrir el pa
 
 ![Vista de lectura de la guía de tareas](./media/task-guide-ops-1024x742.png)
 
-### ¿Dónde están las guías de tareas traducidas?
-<a id="where-are-the-translated-task-guides" class="xliff"></a>
+### <a name="where-are-the-translated-task-guides"></a>¿Dónde están las guías de tareas traducidas?
 
 Las guías de tareas traducidas se publican en bibliotecas que llevan "Todos los idiomas" en el título. En Finance and Operations, para ver la ayuda de la guía de tareas localizada, asegúrese de que está conectado a la biblioteca apropiada. El idioma en el que aparece una guía de tareas se controla para cada usuario mediante la configuración de idioma en **Opciones** &gt; **Preferencias**. 
 -   Si se ha traducido una guía de tareas, al abrir esa guía de tareas, todo el texto de la guía de tareas aparecerá en el idioma seleccionado.
 -   Si aún no se ha traducido una guía de tareas, al abrirla, solo parte del texto (el texto de los controles) aparecerá en el idioma seleccionado.
 
-## Recursos adicionales
-<a id="additional-resources" class="xliff"></a>
+## <a name="additional-resources"></a>Recursos adicionales
 En la tabla siguiente se muestran los sitios web que proporcionan el contenido de Unified Operations. Nuestros sitios web de contenido están organizados para admitir el ciclo de vida del cliente. Cada fase se admite con otro conjunto de sitios. Los sitios que tienen un asterisco (\*) junto al nombre requieren que inicie sesión con una cuenta asociada a un plan de servicio.
 
 | Sitio                                                                     | Descripción                                                                                                                                                                                                                                |
@@ -199,8 +186,7 @@ En la tabla siguiente se muestran los sitios web que proporcionan el contenido d
 
 
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 [Sistema de Ayuda de Finance and Operations (hoja informativa descargable)](https://mbs.microsoft.com/files/public/CS/AX2012R3/DynamicsAXHelpSystemFactSheet.pdf)
 

@@ -23,8 +23,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Directivas fiscales para Europa
-<a id="tax-directives-for-europe" class="xliff"></a>
+# <a name="tax-directives-for-europe"></a>Directivas fiscales para Europa
 La directiva de la UE proporciona la normativa que seguirán todos los estados miembros en relación con las reglas y a la información de la factura que se van a incluir al crear facturas. La directiva de la UE incluye la información requerida por los proveedores para los clientes en la UE. Por ejemplo, una factura podría incluir una referencia que describe los argumentos legales para una categoría de IVA cero o una exención. Si una factura ajusta una factura emitida anterior, como una nota de abono, se debe realizar una referencia clara a la factura original.
 
 - Para imprimir una descripción de códigos de impuestos en una factura de ventas, la factura de servicios o el informe de la factura del proyecto, configure el texto de referencia a la directiva fiscal en los códigos de impuestos.

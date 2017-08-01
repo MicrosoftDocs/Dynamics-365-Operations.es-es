@@ -27,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Facturas electrónicas (CFDI)
-<a id="electronic-invoices-cfdi" class="xliff"></a>
+# <a name="electronic-invoices-cfdi"></a>Facturas electrónicas (CFDI)
 
 [!include[banner](../includes/banner.md)]
 
@@ -44,8 +43,7 @@ Una factura electrónica es un recibo de impuestos digital aceptado legalmente q
 -   Factura del proyecto
 -   Pedido de ventas de proyecto
 
-## Métodos para generar facturas electrónicas
-<a id="methods-for-generating-electronic-invoices" class="xliff"></a>
+## <a name="methods-for-generating-electronic-invoices"></a>Métodos para generar facturas electrónicas
 Hay dos métodos para generar facturas electrónicas:
 
 -   **Comprobantes fiscales digitales (CFD)**: las facturas electrónicas se generan mediante Finance and Operations. Las facturas luego se comprueban y se certifican mediante un sitio web gubernamental. Por último, su organización envía las facturas al SAT. Aunque este método está obsoleto ahora debido a cambios en la legislación, puede investigar las transacciones CFD que se han generado anteriormente en Finance and Operations.
@@ -56,8 +54,7 @@ Hay dos métodos para generar facturas electrónicas:
 
 El ejemplo siguiente muestra el proceso para generar una factura electrónica usando el método CFDI. ![El proceso de factura electrónica para México](./media/about-electronic-invoices-cfdi.jpg "Proceso de generación de facturación electrónica para el método de CFDI")    
 
-### Requisitos para el uso de facturas electrónicas
-<a id="requirements-for-using-electronic-invoices" class="xliff"></a>
+### <a name="requirements-for-using-electronic-invoices"></a>Requisitos para el uso de facturas electrónicas
 
 Para usar facturas electrónicas, su organización debe completar las tareas siguientes:
 
@@ -72,8 +69,7 @@ Para usar facturas electrónicas, su organización debe completar las tareas sig
 -   Habilite a la configuración para emitir facturas electrónicas CFDI. (Haga clic en **Clientes** &gt; **Facturas** &gt; **Factura electrónica** &gt; **Parámetros de facturas electrónicas**).
 -   Prepare la integración con el servicio web del PAC.
 
-### Información que se incluye en facturas electrónicas
-<a id="information-that-is-included-in-electronic-invoices" class="xliff"></a>
+### <a name="information-that-is-included-in-electronic-invoices"></a>Información que se incluye en facturas electrónicas
 
 En una factura electrónica se incluye la información siguiente:
 
@@ -89,8 +85,7 @@ En una factura electrónica se incluye la información siguiente:
 -   Marca digital de la organización.
 -   En una versión impresa de CFDI, el código de barras bidimensional.
 
-## Personalización de los servicios web de integración del PAC
-<a id="customizing-the-integration-pac-web-services" class="xliff"></a>
+## <a name="customizing-the-integration-pac-web-services"></a>Personalización de los servicios web de integración del PAC
 Según se indica en detalle en el documento de ámbito de localización para México, la integración con servicios web de PAC requiere personalización. Este personalización varía en función de los servicios web de PAC contratados.
 
 

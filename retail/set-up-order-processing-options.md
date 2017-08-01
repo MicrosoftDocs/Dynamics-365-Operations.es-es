@@ -28,8 +28,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Configurar opciones de procesamiento de pedidos
-<a id="set-up-order-processing-options" class="xliff"></a>
+# <a name="set-up-order-processing-options"></a>Configurar opciones de procesamiento de pedidos
 
 [!include[banner](includes/banner.md)]
 

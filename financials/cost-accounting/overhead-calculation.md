@@ -28,16 +28,14 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Cálculo de costes generales
-<a id="overhead-calculation" class="xliff"></a>
+# <a name="overhead-calculation"></a>Cálculo de costes generales
 
 [!include[banner](../includes/banner.md)]
 
 
 Este tema describe los procesos típicos para calcular y asignar costes generales.
 
-Definición del término
-<a id="term-definition" class="xliff"></a>
+<a name="term-definition"></a>Definición del término
 ---------------
 
 Los costes generales son costes que se contraen para dirigir un negocio, pero que no pueden ser atribuidos directamente a ninguna actividad empresarial, productos, o servicio específicos. Los costes generales proporcionan un soporte fundamental a la generación de actividades rentables. Algunos ejemplos de costes generales son:
@@ -46,8 +44,7 @@ Los costes generales son costes que se contraen para dirigir un negocio, pero qu
 -   Electricidad
 -   Sueldos administrativos
 
-## Visión general del cálculo de costes generales
-<a id="overhead-calculation-overview" class="xliff"></a>
+## <a name="overhead-calculation-overview"></a>Visión general del cálculo de costes generales
 El cálculo de costes generales ejecuta las directivas de contabilidad de costes en el orden correcto. Puede calcular varias veces los costes generales del mismo período fiscal si se han cambiado las directivas de contabilidad de costes o se han detectado errores específicos. Cada ejecución del cálculo de costes generales se almacena y recibe un identificador de versión único que permite comparar los cálculos de diferentes versiones. Las entradas de costes que el cálculo de costes generales genera reciben una fecha de contabilidad. Esta fecha de contabilidad coincide con la fecha final del período fiscal que se usa en el cálculo. El identificador de versión único consiste en los elementos siguientes:
 
 -   Tipo de versión
@@ -59,8 +56,7 @@ El cálculo de costes generales ejecuta las directivas de contabilidad de costes
 El cálculo de costes generales se ejecuta independientemente de la versión. Por lo tanto, puede calcular la versión de presupuesto antes que la versión real. El cálculo de costes generales consta de cuatro pasos, como se muestra en la siguiente ilustración. En cada paso, se crea una cabecera de diario que tiene entradas del diario. Esta cabecera de diario guarda los datos de entrada para cada paso de cálculo. Las directivas y las reglas se aplican a cada línea de diario, y las entradas de coste se generan como resultado. Por tanto, siempre se tiene rastreabilidad completa. 
 [![Cálculo de costes generales](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
-## Calcular y asignar costes generales de electricidad
-<a id="calculate-and-allocate-the-electricity-overhead-cost" class="xliff"></a>
+## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Calcular y asignar costes generales de electricidad
 En la contabilidad financiera, algunos costes, como la electricidad, se registran como suma total. Por lo tanto, no se proporciona una visión de gestión detallada para la contabilidad de costes. En contabilidad de costes, para proporcionar información de gestión correcta en todas las unidades y niveles organizativos, los costes deben fluir por las unidades organizativas. Este flujo se debe basar en cualquier registro preciso de consumo o en una evaluación justa. En la contabilidad general, un coste de la electricidad se puede registrar como se muestra en la tabla siguiente.
 
 <table>
@@ -84,13 +80,11 @@ En la contabilidad financiera, algunos costes, como la electricidad, se registra
 </tbody>
 </table>
 
-### Paso 1: Procese el cálculo del comportamiento del coste
-<a id="step-1-process-the-cost-behavior-calculation" class="xliff"></a>
+### <a name="step-1-process-the-cost-behavior-calculation"></a>Paso 1: Procese el cálculo del comportamiento del coste
 
 De forma predeterminada, cuando las entradas de coste se importan de los datos de origen, reciben la clasificación de comportamiento del coste **Sin ordenar** en la contabilidad de costes. Aplicando reglas de directivas de comportamiento de coste, puede reclasificar entradas de coste como **Coste fijo** o **Coste variable**.
 
-#### Defina la regla de comportamiento del coste
-<a id="define-the-cost-behavior-rule" class="xliff"></a>
+#### <a name="define-the-cost-behavior-rule"></a>Defina la regla de comportamiento del coste
 
 En algunos casos, parte del coste es una cuota fija, y el coste pendiente se basa en el consumo. Las facturas de electricidad coinciden a menudo con esta definición. Tras pagar una cuota fija específica, paga el consumo por kilovatio-hora (Kwh). Por ejemplo, si la cuota de coste fijo es de 1.000,00, la regla de comportamiento del coste se define como sigue:
 
@@ -98,8 +92,7 @@ En algunos casos, parte del coste es una cuota fija, y el coste pendiente se bas
     -   0 &lt;= 1.000,00 = Fijo
     -   1.000,01 &lt; N = Variable
 
-##### Diario
-<a id="journal" class="xliff"></a>
+##### <a name="journal"></a>Diario
 
 <table>
 <thead>
@@ -122,8 +115,7 @@ En algunos casos, parte del coste es una cuota fija, y el coste pendiente se bas
 </tbody>
 </table>
 
-##### Entradas del diario (entradas de diario para saldo de objeto de costes)
-<a id="journal-entries-cost-object-balance-journal-entries" class="xliff"></a>
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a>Entradas del diario (entradas de diario para saldo de objeto de costes)
 
 <table>
 <thead>
@@ -148,8 +140,7 @@ En algunos casos, parte del coste es una cuota fija, y el coste pendiente se bas
 </tbody>
 </table>
 
-##### Entradas de costes
-<a id="cost-entries" class="xliff"></a>
+##### <a name="cost-entries"></a>Entradas de costes
 
 <table>
 <thead>
@@ -203,13 +194,11 @@ En algunos casos, parte del coste es una cuota fija, y el coste pendiente se bas
 
 Para obtener información detallada sobre el comportamiento del coste, consulte Directiva de comportamiento de costes. (Tenga en cuenta que este tema no se ha completado aún, pero pronto se abordará).
 
-### Paso 2: Procese el cálculo de distribución de costes
-<a id="step-2-process-the-cost-distribution-calculation" class="xliff"></a>
+### <a name="step-2-process-the-cost-distribution-calculation"></a>Paso 2: Procese el cálculo de distribución de costes
 
 La distribución de costes se usa para redistribuir costes desde un objeto de coste a uno o más objetos de coste aplicando una base relevante de la asignación. La distribución de costes y la asignación de costes difieren en que la distribución de costes siempre se produce en el nivel de elemento de costes principal del coste original.
 
-#### Defina la regla de distribución del coste
-<a id="define-the-cost-distribution-rule" class="xliff"></a>
+#### <a name="define-the-cost-distribution-rule"></a>Defina la regla de distribución del coste
 
 En la contabilidad financiera, los costes de electricidad se registran como suma total. En contabilidad de costes, este método no es suficientemente detallado. El coste variable debe distribuirse a los objetos individuales de coste aplicando una base justa. La base de asignación más lógica es el consumo de electricidad (Kwh). Se crea un miembro de dimensión estadística que se denomina Electricity, y se registra el consumo de electricidad. De forma predeterminada, todos los miembros de dimensión estadísticos estarán disponibles como bases de asignación.
 
@@ -315,8 +304,7 @@ El coste fijo debe distribuirse uniformemente a los objetos individuales de cost
 </tbody>
 </table>
 
-##### Diario
-<a id="journal" class="xliff"></a>
+##### <a name="journal"></a>Diario
 
 <table>
 <thead>
@@ -339,8 +327,7 @@ El coste fijo debe distribuirse uniformemente a los objetos individuales de cost
 </tbody>
 </table>
 
-##### Entradas del diario (entradas de diario para saldo de objeto de costes)
-<a id="journal-entries-cost-object-balance-journal-entries" class="xliff"></a>
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a>Entradas del diario (entradas de diario para saldo de objeto de costes)
 
 <table>
 <thead>
@@ -374,8 +361,7 @@ El coste fijo debe distribuirse uniformemente a los objetos individuales de cost
 </tbody>
 </table>
 
-##### Entradas de costes
-<a id="cost-entries" class="xliff"></a>
+##### <a name="cost-entries"></a>Entradas de costes
 
 <table>
 <thead>
@@ -447,13 +433,11 @@ El coste fijo debe distribuirse uniformemente a los objetos individuales de cost
 
 Para obtener información detallada sobre la distribución de costes y las bases de asignación, consulte la directiva de distribución de costes y las bases de asignación. (Tenga en cuenta que este tema no se ha completado aún, pero pronto se abordará).
 
-### Paso 3: Procese el cálculo de las tasas de costes generales
-<a id="step-3-process-the-overhead-rate-calculation" class="xliff"></a>
+### <a name="step-3-process-the-overhead-rate-calculation"></a>Paso 3: Procese el cálculo de las tasas de costes generales
 
 La tasa de costes generales se usa para cargar uno o varios objetos de coste específicos. El cargo se basa en un índice de coste predeterminado y la magnitud de la base de asignación asignada. 
 
-#### Defina la tasa de costes generales
-<a id="define-the-overhead-rate" class="xliff"></a>
+#### <a name="define-the-overhead-rate"></a>Defina la tasa de costes generales
 
 El objeto de coste CC001 HR contribuye a un conjunto de proyectos internos. Se crea un miembro de dimensión estadística que se denomina proyectos HR para medir la magnitud consumida.
 
@@ -534,8 +518,7 @@ La tabla siguiente muestra el resultado cuando los proyectos HR se aplican como 
 </tbody>
 </table>
 
-##### Diario
-<a id="journal" class="xliff"></a>
+##### <a name="journal"></a>Diario
 
 <table>
 <thead>
@@ -558,8 +541,7 @@ La tabla siguiente muestra el resultado cuando los proyectos HR se aplican como 
 </tbody>
 </table>
 
-##### Entradas de diario (entradas de diario para cálculo de tasas de costes generales)
-<a id="journal-entries-journal-entries-for-overhead-rate-calculation" class="xliff"></a>
+##### <a name="journal-entries-journal-entries-for-overhead-rate-calculation"></a>Entradas de diario (entradas de diario para cálculo de tasas de costes generales)
 
 <table>
 <thead>
@@ -585,8 +567,7 @@ La tabla siguiente muestra el resultado cuando los proyectos HR se aplican como 
 </tbody>
 </table>
 
-##### Entradas de costes
-<a id="cost-entries" class="xliff"></a>
+##### <a name="cost-entries"></a>Entradas de costes
 
 <table>
 <thead>
@@ -640,13 +621,11 @@ La tabla siguiente muestra el resultado cuando los proyectos HR se aplican como 
 
 Para obtener información detallada acerca de la directiva de tasa de costes generales, consulte la directiva de tasas de costes generales y las bases de asignación. (Tenga en cuenta que este tema no se ha completado aún, pero pronto se abordará).
 
-### Paso 4: Procese el cálculo de asignación de costes
-<a id="step-4-process-the-cost-allocation-calculation" class="xliff"></a>
+### <a name="step-4-process-the-cost-allocation-calculation"></a>Paso 4: Procese el cálculo de asignación de costes
 
 La asignación es utilizada para asignar el saldo de un objeto de coste a otros objetos de coste aplicando una base de asignación. Finance and Operations admite el método de asignación recíproco. En el método de asignación recíproco, se reconocen completamente los servicios mutuos que los objetos de coste auxiliar intercambian. El sistema determina automáticamente el orden correcto para realizar las asignaciones. El saldo de un objeto de coste se asigna según una única base de asignación. Las asignaciones entre dimensiones de objetos de coste y sus miembros respectivos se admiten. El orden de asignación se controla por unidad de control de costes. [![Método recíproco](./media/reciprocal-method.png)]
 
-#### Defina la asignación de costes
-<a id="define-the-cost-allocation" class="xliff"></a>
+#### <a name="define-the-cost-allocation"></a>Defina la asignación de costes
 
 A continuación se indica un ejemplo sencillo que explica cómo puede realizar el seguimiento del flujo de coste. El objeto de coste CC001 HR contribuye a varios objetos de coste. Se crea un miembro de dimensión estadística que se denomina servicios HR para medir la magnitud consumida.
 
@@ -953,8 +932,7 @@ La tabla siguiente muestra el resultado cuando se aplican los servicios de Embal
 </tbody>
 </table>
 
-##### Entradas del diario (entradas de diario para saldo de objeto de costes)
-<a id="journal-entries-cost-object-balance-journal-entries" class="xliff"></a>
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a>Entradas del diario (entradas de diario para saldo de objeto de costes)
 
 <table>
 <thead>
@@ -977,8 +955,7 @@ La tabla siguiente muestra el resultado cuando se aplican los servicios de Embal
 </tbody>
 </table>
 
-##### Líneas de diario
-<a id="journal-lines" class="xliff"></a>
+##### <a name="journal-lines"></a>Líneas de diario
 
 <table>
 <thead>
@@ -1102,8 +1079,7 @@ La tabla siguiente muestra el resultado cuando se aplican los servicios de Embal
 </tbody>
 </table>
 
-##### Entradas de costes
-<a id="cost-entries" class="xliff"></a>
+##### <a name="cost-entries"></a>Entradas de costes
 
 <table>
 <thead>
@@ -1353,8 +1329,7 @@ La tabla siguiente muestra el resultado cuando se aplican los servicios de Embal
 </tbody>
 </table>
 
-## Conclusión
-<a id="conclusion" class="xliff"></a>
+## <a name="conclusion"></a>Conclusión
 En la contabilidad financiera, un coste de 10.000,00 para electricidad se envía a un identificador ficticio de centro de coste. Por lo tanto, los contables de coste sabrán que este coste se debe asignar. En contabilidad de costes, los costes fluyen en las unidades organizativas y los niveles en función de las directivas y las reglas que se aplican. Cada coste se ha asociado con una base de asignación que proporciona la mejor evaluación para la asignación de costes.
 
 <table>

@@ -26,8 +26,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Configurar dispositivos móviles para el trabajo de almacén
-<a id="set-up-mobile-devices-for-warehouse-work" class="xliff"></a>
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móviles para el trabajo de almacén
 
 [!include[banner](../includes/banner.md)]
 
@@ -42,8 +41,7 @@ En este artículo se describe cómo configurar los elementos de menú que usan l
 
 Para crear un elemento de menú para una actividad o una consulta, establezca el campo **Modo** como **Indirecto**. A continuación, se ofrece una lista de opciones de **Código de actividad** para seleccionar el tipo de consulta o actividad al que corresponde el elemento de menú. Para crear un elemento de menú para generar trabajo del almacén, establezca el campo **Modo** en **Trabajo**. A continuación, aparece una lista de opciones de **Proceso de creación de trabajo**. Para crear un elemento de menú para el trabajo existente del almacén de proceso, establezca el campo **Modo** en **Trabajo** y, a continuación, establezca la opción **Usar trabajo existente** en **Sí**. **Nota:** En función del modo seleccionado para el elemento de menú, y de si el elemento de menú se usa para realizar el trabajo existente, el elemento de menú puede ofrecer otros campos. Para obtener información sobre otras selecciones de campos, consulte la sección “Opciones del elemento de menú adicionales” más adelante en este artículo.
 
-## Configurar elementos de menú para las actividades y consultas
-<a id="configure-menu-items-for-activities-and-inquiries" class="xliff"></a>
+## <a name="configure-menu-items-for-activities-and-inquiries"></a>Configurar elementos de menú para las actividades y consultas
 Si el campo **Modo** para un elemento de menú se establece en **Indirecto**, puede crear un elemento de menú para realizar una actividad o una consulta general que no cree el trabajo. Entre los ejemplos se incluyen la reimpresión de etiquetas de número de matrícula y una consulta sobre los artículos en una ubicación. En la tabla siguiente se muestran las opciones disponibles.
 
 | Opción                      | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -66,8 +64,7 @@ Si el campo **Modo** para un elemento de menú se establece en **Indirecto**, pu
 | Cambiar disposición de lote    | Permita que un trabajador especifique un código de disposición de lote para un artículo y un lote. Esta selección actualiza el código de disposición que se especifica para el lote.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | Mostrar lista de trabajo abierta      | Muestra una lista de trabajo disponible para un usuario concreto. El usuario puede seleccionar el trabajo para realizar y se le dirige a él. Esta lista está diseñada para verla en dispositivos de tableta que tienen tamaños de pantalla de 7 pulgadas o más. Cuando se selecciona esta opción, están disponibles los elementos de menú **Editar consulta** y **Lista de campos**. La página **Editar la consulta** permite configurar los criterios para el trabajo que aparece en la lista. La página **Lista de campos** permite seleccionar los campos que aparecen en la lista de trabajo. Por ejemplo, puede reducir el número de campos que aparecen para que el usuario pueda seleccionar con más rapidez el elemento de trabajo más adecuado. En la ficha desplegable **General**, en el campo **Registros por página**, también puede seleccionar cuántos registros se muestran por página. Si selecciona la opción **Permitir a los usuarios filtrar por tipo de transacción**, la lista de trabajos incluirá un control **Filtrar trabajo** que el usuario puede usar para filtrar por tipo de transacción. En la lista de trabajos, los usuarios solo verán aquellos trabajos para los que tienen permiso de acceso. Debe asegurarse de que esos usuarios tienen permiso para uno o más elementos de menú dirigidos al usuario que admiten los tipos de clase de trabajo específicos a los que deben poder tener acceso. Los permisos se verificarán cuando un usuario intente realizar el trabajo desde la lista. |
 
-## Configurar elementos de menú para crear trabajo para otro trabajador o proceso
-<a id="configure-menu-items-to-create-work-for-another-worker-or-process" class="xliff"></a>
+## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Configurar elementos de menú para crear trabajo para otro trabajador o proceso
 Puede configurar un elemento de menú que crea trabajo para otro trabajador tras realizar una acción inicial en el dispositivo móvil. Por ejemplo, cuando un trabajador usa un dispositivo móvil para recibir un artículo, el trabajo de ubicación se crea para otro trabajador. Para configurar un elemento de menú que crea el trabajo, en la página **Elementos de menú del dispositivo móvil**, en el campo **Modo**, seleccione **Trabajo**. En la tabla siguiente, las opciones del campo **Proceso de creación de trabajo** están organizadas por el tipo de pedido de trabajo.
 
 <table>
@@ -196,8 +193,7 @@ Puede configurar un elemento de menú que crea trabajo para otro trabajador tras
 </tbody>
 </table>
 
-## Configurar elementos de menú para el trabajo existente del proceso
-<a id="configure-menu-items-to-process-existing-work" class="xliff"></a>
+## <a name="configure-menu-items-to-process-existing-work"></a>Configurar elementos de menú para el trabajo existente del proceso
 Además de los elementos de menú de la configuración para crear el trabajo del almacén, puede configurar los elementos de menú para procesar el trabajo que ya se ha creado. Defina el campo **Modo** en **Trabajo** y seleccione la opción **Usar trabajo existente**. A continuación, se ofrecen algunas opciones adicionales en la ficha **General**. Para controlar el acceso al elemento de menú, asigne una o varias clases de trabajo en la ficha desplegable **Clase de trabajo**. Las clases de trabajo definen el trabajo que el elemento de menú puede procesar. La clase de trabajo también se puede usar para conceder acceso a los roles de usuario específicos o al proceso independiente para distintos tipos de operaciones. En la tabla siguiente se describen las opciones disponibles.
 
 <table>
@@ -256,8 +252,7 @@ Esta opción es útil, por ejemplo, cuando varios pallets se almacenan provision
 </tbody>
 </table>
 
-## Opciones del elemento de menú adicionales
-<a id="additional-menu-item-options" class="xliff"></a>
+## <a name="additional-menu-item-options"></a>Opciones del elemento de menú adicionales
 Las opciones adicionales de los elementos de menú estarán disponibles en la página **Elementos de menú del dispositivo móvil**. Las opciones varían, en función del proceso para el que está configurando el elemento de menú. 
 
 La siguiente tabla describe estas opciones.
@@ -394,8 +389,7 @@ La siguiente tabla describe estas opciones.
 </tbody>
 </table>
 
-## Requerir a los trabajadores confirmar el producto, la ubicación o la cantidad cuando seleccionan artículos
-<a id="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items" class="xliff"></a>
+## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Requerir a los trabajadores confirmar el producto, la ubicación o la cantidad cuando seleccionan artículos
 Puede configurar las confirmaciones de trabajo que requieren que un trabajador use un dispositivo móvil para registrar la ubicación o la cantidad cuando realiza el trabajo en el almacén. Las confirmaciones de trabajo ayudan a garantizar que el trabajador esté en la ubicación correcta o que está manejando la cantidad correcta de artículos. También puede habilitar Microsoft Dynamics 365 for Finance and Operations para confirmar automáticamente el registro del trabajador. Si permite la confirmación automática, no puede requerir también las confirmaciones para la ubicación o la cantidad. Las confirmaciones de trabajo también incluyen los productos y las variantes de producto. Además, puede registrar confirmaciones explorando un código de barras. Para confirmar los productos y las variantes de producto, debe especificar una identificación del producto o la variante del producto. Este identificador puede ser un id. del producto, un id. de búsqueda del producto, un id. externo, GTIN o un código de barras. Tras escribir la identificación o explorar el código de barras, las dimensiones para la variante del producto se muestran en el dispositivo móvil. 
 
 La siguiente tabla describe los distintos tipos de trabajo con los que puede usar confirmaciones de trabajo.
@@ -414,8 +408,7 @@ La siguiente tabla describe los distintos tipos de trabajo con los que puede usa
 
 **Nota**: puede exigir la confirmación del producto solo para los tipos de trabajo de picking y ubicación.
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Configuración de visualización del dispositivo móvil del almacén](change-warehouse-mobile-device-displays.md)

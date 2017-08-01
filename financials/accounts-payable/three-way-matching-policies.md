@@ -27,16 +27,14 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Directivas de triple conciliación
-<a id="three-way-matching-policies" class="xliff"></a>
+# <a name="three-way-matching-policies"></a>Directivas de triple conciliación
 
 [!include[banner](../includes/banner.md)]
 
 
 Este artículo proporciona ejemplos de triple conciliación.
 
-Ejemplo: Triple conciliación para artículos
-<a id="example-three-way-matching-for-items" class="xliff"></a>
+<a name="example-three-way-matching-for-items"></a>Ejemplo: Triple conciliación para artículos
 -------------------------------------
 
 **Resumen**: Ken es controlador en las sedes corporativas de una entidad jurídica llamada Fabrikam. Ken decide que todas las facturas de proveedor basadas en pedidos de compra deben coincidir con las líneas de pedido de compra (doble conciliación). Para las compras de los artículos que se usarán como activos fijos, las facturas se deben coincidir con las líneas de pedido de compra y las líneas de recepción de producto (triple conciliación).
@@ -49,8 +47,7 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
 -   Phyllis y april son directores de contabilidad del departamento de los proveedores de la división de Estados Unidos de Fabrikam. Pueden aplicar la directiva corporativa y asegurarse de que las facturas se hayan pagado solo después de que las facturas se asocian al pedido de compra y las recepciones de bienes y servicios, según proceda.
 -   Tony es el director de producción para la división de Estados Unidos de Fabrikam. Él y otros personales de producción pueden asegurarse de que los artículos estén recibidos como se pidieron de proveedores, y explicados de modo que personal tengan lo que deben tener para llevar a cabo sus trabajos.
 
-### Requisitos previos
-<a id="prerequisites" class="xliff"></a>
+### <a name="prerequisites"></a>Requisitos previos
 
 -   Ken establece la directiva de conciliación en el nivel de entidad jurídica en Triple conciliación.
 -   Ken establece la actualización automática de la alternancia de estado de coincidencia del encabezado en la entidad jurídica en Sí.
@@ -64,8 +61,7 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
 
 -   Arnie, vendedor de clientes en Contoso, revise los envíos para la semana. Arnie selecciona transacciones de envío a la factura Fabrikam para la entrega de las máquinas de CNC Milicron. Arnie incluye un gasto para enviar y guiar. Fabrikam tendrá en cuenta el gasto formar parte del coste del activo.
 
-### Escenario
-<a id="scenario" class="xliff"></a>
+### <a name="scenario"></a>Escenario
 
 1.  Sammy, trabajador en el departamento de recepción de Fabrikam, recibe la cantidad total de máquinas que se envían de Contoso. Éste especifica una cantidad de 5 en una recepción de producto. Dado que el pedido de compra se ha recibido completamente, el estado del pedido de compra cambia a Recibido.
 2.  April, el coordinador de proveedores en Fabrikam, especifique y comprueba la factura que se produce por Contoso. Comprueba la siguiente información:
@@ -91,8 +87,7 @@ En Finance and Operations, la línea de factura incluye la información siguient
 
 Puesto que esta línea se aprobará el proceso de conciliación de facturas, la factura se pueda registrar.
 
-## Ejemplo: Triple conciliación para combinaciones de artículo y proveedor
-<a id="example-three-way-matching-for-item-and-vendor-combinations" class="xliff"></a>
+## <a name="example-three-way-matching-for-item-and-vendor-combinations"></a>Ejemplo: Triple conciliación para combinaciones de artículo y proveedor
 Resumen: Ken es el controlador en las jefaturas corporativas de una entidad jurídica denominada Fabrikam. Ken decide que todas las facturas basadas en pedidos de compra deben coincidir con las líneas de pedido de compra (doble conciliación). Cassie es la contable en la división de Fabrikam en Malasia. Ella especifica que los artículos seleccionados que se piden de determinados proveedores en Malasia deben coincidir con las líneas de pedido de compra y las líneas de recepción de producto (triple conciliación). También puede anular la directiva de conciliación a un nivel superior de conciliación para los pedidos de compra. 
 
 El volumen y los importes son pequeños, y ha habido problemas con la entrega de algunos proveedores en Malasia. Por estas razones, Cassie establece el nivel de comprobación para ciertas combinaciones de artículo y proveedor que se adquieren en Malasia en la triple conciliación. 
@@ -101,8 +96,7 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
 -   Ken es el controlador de la empresa de Fabrikam. Este puede ayudar a las personas de su organización a identificar y a sortear problemas con pedir, recepción, y pagar artículos (las mercancías y servicios) de los proveedores.
 -   Cassie es la contable en la división de Fabrikam en Malasia. Puede aplicar la directiva corporativa y asegurarse de que las facturas se hayan pagado solo después de que se asocien a las líneas de pedido de compra y recepciones de producto que representan el envío de bienes y servicios, según proceda. Ella también puede aumentar el nivel de comprobación a la triple conciliación para los artículos específicos para controlar los costes operativos.
 
-### Requisitos previos
-<a id="prerequisites" class="xliff"></a>
+### <a name="prerequisites"></a>Requisitos previos
 
 -   Ken establece la directiva de conciliación en el nivel de entidad jurídica en Doble conciliación.
 -   Ken establece el campo Conciliar totales de precios para la entidad jurídica en Porcentaje, y especifica 10% como porcentaje de tolerancia.
@@ -116,8 +110,7 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
     | MM01: mouse inalámbrico | 2        | 40,00      | 80,00      | Doble conciliación                | Triple conciliación                           |
     | Unidad USB             | 200      | 10,00      | 2.000,00   | Doble conciliación                | Doble conciliación                             |
 
-### Situación
-<a id="scenario" class="xliff"></a>
+### <a name="scenario"></a>Situación
 
 1.  Llegan los artículos. Se interrumpe a Sammy, trabajador en el departamento de recepción de Fabrikam en la división de Malasia, y no registra la recepción del producto inmediatamente.
 2.  April, el coordinador de proveedores en Fabrikam, especifique y comprueba la factura que se produce por Contoso. Comprueba la siguiente información:

@@ -29,24 +29,21 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Definición de descuentos específicos de un canal
-<a id="define-channel-specific-discounts" class="xliff"></a>
+# <a name="define-channel-specific-discounts"></a>Definición de descuentos específicos de un canal
 
 [!include[banner](includes/banner.md)]
 
 
 Los minoristas establecen a menudo distintos descuentos en diferentes canales. Este tema revisa los conceptos que necesita conocer para crear un descuento para un canal específico. 
 
-Descuentos específicos de un canal
-<a id="channel-specific-discounts" class="xliff"></a>
+<a name="channel-specific-discounts"></a>Descuentos específicos de un canal
 --------------------------
 
 Los minoristas ofrecen a menudo distintos descuentos en diferentes canales. Esto se puede realizar para responder a condiciones empresariales locales o para afrontar a la competencia.
 
 Microsoft Dynamics 365 for Retail usa grupos de precios para definir descuentos específicos según canal. Los grupos de precios se pueden asignar a una o más de las entidades siguientes: canales, catálogos, afiliaciones y programas de fidelidad. Este artículo describe los canales, pero los mismos conceptos se aplican a los descuentos de catálogo, descuentos de afiliaciones y los descuentos por fidelidad.
 
-## Grupos de precio
-<a id="price-groups" class="xliff"></a>
+## <a name="price-groups"></a>Grupos de precio
 
 [![Grupos de precio](./media/price-groups-1024x608.png)](./media/price-groups.png)
 
@@ -57,8 +54,7 @@ En el diagrama anterior se muestra la relación entre las entidades que pueden e
 -   **Grupos de precios de fidelización**: esta página muestra una lista de programas de fidelización y descuentos vinculados conjuntamente para cada grupo de precios.
 -   **Grupos de precios de afiliación**: esta página muestra una lista de afiliaciones y descuentos vinculados conjuntamente para cada grupo de precios.
 
-## Ejemplo de configuración de descuento por canal
-<a id="example-channel-discount-set-up" class="xliff"></a>
+## <a name="example-channel-discount-set-up"></a>Ejemplo de configuración de descuento por canal
 En el ejemplo siguiente se muestran las tareas implicadas en la configuración de un descuento por canal.
 
 1.  Para este ejemplo puede tener un canal llamado **Houston** y va a crear un nuevo descuento llamado **Vuelta al cole**.
@@ -69,8 +65,7 @@ En el ejemplo siguiente se muestran las tareas implicadas en la configuración d
 
  
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Ajustes de precios y descuentos](price-adjustments-discounts.md)

@@ -28,8 +28,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Configuración de códigos de barras
-<a id="set-up-bar-codes" class="xliff"></a>
+# <a name="set-up-bar-codes"></a>Configuración de códigos de barras
 
 [!include[banner](includes/banner.md)]
 
@@ -44,8 +43,7 @@ Puede usar códigos de barras para comprar y vender productos, realizar un segui
 4.  Cree códigos de barras para productos.
 
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Configuración de máscaras de código de barras](set-up-bar-code-masks.md)

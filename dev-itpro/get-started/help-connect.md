@@ -27,23 +27,20 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Conexión del sistema de ayuda
-<a id="connect-the-help-system" class="xliff"></a>
+# <a name="connect-the-help-system"></a>Conexión del sistema de ayuda
 
 [!include[banner](../includes/banner.md)]
 
 
 En este tema se describen los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations. Ofrece una visión general de cómo conectar estos componentes y un resumen de cómo crear una ayuda personalizada. 
 
-## Arquitectura de la Ayuda
-<a id="help-architecture" class="xliff"></a>
+## <a name="help-architecture"></a>Arquitectura de la Ayuda
 En la ilustración siguiente se muestran las partes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations. El sistema de Ayuda del producto extrae artículos del sitio de Dynamics 365 for Finance and Operations en https://docs.microsoft.com, además de guías de tareas guardadas en el Modelador de procesos empresariales de Microsoft Dynamics Lifecycle Services (LCS). 
 > [!NOTE]
 > Las características que aparecen en el diagrama con un asterisco (\*) están planificadas, pero aún no se encuentran disponibles. [![Arquitectura de la Ayuda](./media/help-architecture.png)](./media/help-architecture.png)
 
 
-## Conexión con el sistema de Ayuda
-<a id="connecting-the-help-system" class="xliff"></a>
+## <a name="connecting-the-help-system"></a>Conexión con el sistema de Ayuda
 > [!NOTE]
 > La pestaña **Guías de tareas** no está actualmente disponible en Microsoft Dynamics 365 for Talent y Microsoft Dynamics 365 for Retail, Estamos trabajando actualmente para permitir esta funcionalidad en una versión futura. Las Guías de tareas para la Introducción a Talent seguirán disponibles para cubrir las funcionalidades básicas. La ayuda de procedimientos también está disponible en el sitio de docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) para Retail y Talent.
  
@@ -63,8 +60,7 @@ Con el formulario **Parámetros del sistema**, los administradores del sistema c
 
 Tras completar estos pasos, puede abrir el panel **Ayuda** y hacer clic en la pestaña **Guías de tareas**. Ahora verá las guías de tareas que se aplican a la página en la que se encuentra actualmente en Finance and Operations. Si no se encuentra ninguna guía de tareas, puede escribir palabras clave para limitar la búsqueda.
 
-### Mostrar guías de tareas traducidas
-<a id="showing-translated-task-guides" class="xliff"></a>
+### <a name="showing-translated-task-guides"></a>Mostrar guías de tareas traducidas
 
 Las guías de tareas traducidas se incluyeron por primera vez en la biblioteca unificada APQC de mayo de 2016 y en la biblioteca de introducción. En Finance and Operations, para ver la ayuda de la guía de tareas localizada, asegúrese de que está conectado a la biblioteca de mayo. El idioma en el que aparece una guía de tareas se controla para cada usuario mediante la configuración de idioma en **Opciones** &gt; **Preferencias**. 
 
@@ -73,14 +69,12 @@ Las guías de tareas traducidas se incluyeron por primera vez en la biblioteca u
 > -   Si se ha traducido una guía de tareas, al abrir esa guía de tareas, todo el texto de la guía de tareas aparecerá en el idioma seleccionado.
 > -   Si se ha traducido aún una guía de tareas, al abrirla, solo parte del texto (el texto de los controles) aparecerá en el idioma seleccionado.
 
-## Creación de ayuda personalizada
-<a id="creating-custom-help" class="xliff"></a>
+## <a name="creating-custom-help"></a>Creación de ayuda personalizada
 Puede crear ayuda personalizada para su implementación de Finance and Operations y para Retail creando grabaciones de tareas que reflejan su implementación y guardándolos en una Biblioteca de proceso empresarial LCS. No puede crear guías de tareas personalizadas para Talent. 
 
 Para socios, si promociona una biblioteca para que sea una biblioteca corporativa, e incluirla en una solución, esta estará disponible para sus clientes. También puede realizar una copia de la biblioteca global unificada APQC y, a continuación abrir su copia, abrir grabaciones de tareas desde allí, modificarlas y guardar las grabaciones con sus cambios. Para obtener más información, consulte el tema [Cómo crear una grabación de tareas para usarla como documentación o formación](../user-interface/task-recorder.md).
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Visión general de la ayuda](help-overview.md)

@@ -28,8 +28,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Ajustes de precios y descuentos
-<a id="price-adjustments-and-discounts" class="xliff"></a>
+# <a name="price-adjustments-and-discounts"></a>Ajustes de precios y descuentos
 
 [!include[banner](includes/banner.md)]
 
@@ -38,8 +37,7 @@ Este artículo proporciona información acerca de los ajustes de precios y descu
 
 En Dynamics 365 for Retail, puede realizar ajustes de precios a los productos y también puede configurar los descuentos que se aplican a un artículo de línea o una transacción en el punto de venta (PDV), en un pedido de ventas del centro de llamadas o en un pedido en línea. Tanto los ajustes de precios como los descuentos se pueden vincular a grupos de precios. Para los ajustes de precios y descuentos, puede especificar una sola fecha inicial y la fecha final o un período que se repite, un código de descuento y algunos atributos adicionales. Los ajustes de precios y los descuentos se pueden aplicar a productos, variantes o categorías. Si se aplica más de un descuento a un producto, un cliente puede recibir uno de los descuentos o un descuento combinado, en función de la configuración del descuento. Dynamics 365 for Retail aplica automáticamente el descuento o la combinación de descuentos que proporcionan el mejor precio al cliente. Cuando configure un ajuste de precio o un descuento, asegúrese de confirmar que los grupos de precios se asignan a los canales, catálogos, afiliaciones o programas de fidelidad correctos a los que desea que el descuento se aplique. Además, si desea generar automáticamente el id. de descuento, puede configurar secuencias numéricas en la página **Parámetros de ventas al por menor** antes de definir un nuevo descuento o ajuste de precios. **Nota**: puede eliminar un ajuste de precios o un descuento. Sin embargo, se perderá la información estadística.
 
-### Tipos de descuentos
-<a id="types-of-discounts" class="xliff"></a>
+### <a name="types-of-discounts"></a>Tipos de descuentos
 
 Hay cuatro tipos de descuentos comerciales:
 

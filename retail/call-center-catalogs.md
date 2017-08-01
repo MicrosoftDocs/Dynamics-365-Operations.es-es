@@ -28,8 +28,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Catálogos de centros de llamadas
-<a id="call-center-catalogs" class="xliff"></a>
+# <a name="call-center-catalogs"></a>Catálogos de centros de llamadas
 
 [!include[banner](includes/banner.md)]
 

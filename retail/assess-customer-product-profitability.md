@@ -28,8 +28,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Evaluar rentabilidad de clientes y productos
-<a id="assess-customer-and-product-profitability" class="xliff"></a>
+# <a name="assess-customer-and-product-profitability"></a>Evaluar rentabilidad de clientes y productos
 
 [!include[banner](includes/banner.md)]
 

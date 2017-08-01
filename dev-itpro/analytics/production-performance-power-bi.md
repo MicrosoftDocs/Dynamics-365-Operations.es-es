@@ -22,15 +22,13 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Contenido en Power BI sobre rendimiento de la producción
-<a id="production-performance-power-bi-content" class="xliff"></a>
+# <a name="production-performance-power-bi-content"></a>Contenido en Power BI sobre rendimiento de la producción
 
 [!include[banner](../includes/banner.md)]
 
 Este tema describe lo que se incluye en el contenido de Microsoft Power BI sobre **Rendimiento de la producción**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
-## Información general
-<a id="overview" class="xliff"></a>
+## <a name="overview"></a>Información general
 
 El contenido de Power BI sobre **Rendimiento de la producción** es para directores de producción o personas de la organización responsables del control de producción.
 
@@ -42,12 +40,10 @@ Este contenido de Power BI también le permite analizar las desviaciones de prod
 
 El contenido de Power BI sobre **Rendimiento de la producción** incluye datos procedentes de pedidos de producción y de pedidos de lote. Los informes no incluyen datos relacionados con las producciones de kanban.
 
-## Acceso al contenido de Power BI
-<a id="accessing-the-power-bi-content" class="xliff"></a>
+## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 Si está usando la actualización de julio de 2017 de Microsoft Dynamics 365 for Finance and Operations, Enterprise Editions , el contenido de Power BI sobre **Rendimiento de la producción** se muestra en la página **Rendimiento de la producción** (**Control de la producción** > **Consultas e informes** > **Análisis del rendimiento de la producción** > **Rendimiento de la producción**). 
 
-## Métricas que se incluyen en el contenido de Power BI
-<a id="metrics-that-are-included-in-the-power-bi-content" class="xliff"></a>
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
 
 El contenido de Power BI sobre **Rendimiento de la producción** incluye un conjunto de páginas de informes. Cada página consta de un conjunto de métricas que se visualizan como gráficos, mosaicos y tablas.
 
@@ -62,8 +58,7 @@ La tabla siguiente proporciona información general de las visualizaciones que s
 | Tendencia de defectos por recurso                  | Tasa de defectos (ppm) por cantidad procesada | |
 | Desviaciones de producción para gestión de costes de órdenes de producción | <ul><li>Desviación de producción por fecha y tipo de grupo de costes</li><li>Desviación de producción por ubicación y tipo de grupo de costes</li><li>10 primeros productos con desviación de producción desfavorable</li><li>10 primeros con desviación de producción desfavorable por recurso</li></ul> | <ul><li>Coste realizado</li><li>Desviación de producción</li><li>Porcentaje de desviación de producción</li></ul> |
 
-## Ampliar el contenido de Power BI
-<a id="extending-the-power-bi-content" class="xliff"></a>
+## <a name="extending-the-power-bi-content"></a>Ampliar el contenido de Power BI
 Mediante los paquetes de contenido disponibles en Microsoft Dynamics Lifecycle Services (LCS), puede ofrecer análisis muy buenos a las personas que no inician sesión en Microsoft Dynamics 365. Puede modificar estos paquetes de contenido para que incluyan otros informes o representaciones visuales y, a continuación, publicar los paquetes de contenidos en el inquilino de Power BI.com para su análisis.
 
 Puede encontrar el contenido de Power BI sobre **Rendimiento de la producción** en la biblioteca de activos compartidos de LCS. Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
@@ -73,8 +68,7 @@ Asegúrese de descargar el contenido sobre **Rendimiento de la producción** que
 > [!NOTE]
 > Si utiliza Microsoft Dynamics 365 for Operations, versión 1611, KB 4011327 es un requisito para este contenido de Power BI. Tras iniciar sesión en LCS, puede acceder a KB en https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
-## Comprensión del modelo de datos y de las entidades
-<a id="understanding-the-data-model-and-entities" class="xliff"></a>
+## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 
 Los datos siguientes se usan para las páginas de informes en el contenido de Power BI sobre **Rendimiento de la producción**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información acerca del almacén de entidades, consulte [Integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
 
@@ -144,8 +138,7 @@ Las tabla siguiente muestra las dimensiones clave que se utilizan como filtros p
 | Recursos                 | Identificador de recurso, nombre de recurso, tipo de recurso y grupo de recursos |
 | Productos                  | Número de producto, nombre de producto, identificador de artículo y grupo de artículos         |
 
-## Recursos adicionales
-<a id="additional-resources" class="xliff"></a>
+## <a name="additional-resources"></a>Recursos adicionales
 
 Estos son algunos vínculos útiles relacionados con las entidades y la creación de contenido de Power BI:
 

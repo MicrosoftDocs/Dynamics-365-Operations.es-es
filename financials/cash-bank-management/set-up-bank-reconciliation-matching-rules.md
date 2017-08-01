@@ -27,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Configurar las reglas de coincidencia de conciliación bancaria
-<a id="set-up-bank-reconciliation-matching-rules" class="xliff"></a>
+# <a name="set-up-bank-reconciliation-matching-rules"></a>Configurar las reglas de coincidencia de conciliación bancaria
 
 [!include[banner](../includes/banner.md)]
 

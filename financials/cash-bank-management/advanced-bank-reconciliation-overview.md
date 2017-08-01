@@ -27,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Visión general de conciliación bancaria avanzada
-<a id="advanced-bank-reconciliation-overview" class="xliff"></a>
+# <a name="advanced-bank-reconciliation-overview"></a>Visión general de conciliación bancaria avanzada
 
 [!include[banner](../includes/banner.md)]
 

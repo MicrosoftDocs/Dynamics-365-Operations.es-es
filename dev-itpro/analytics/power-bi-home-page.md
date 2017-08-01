@@ -25,15 +25,13 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Contenido de Power BI disponible
-<a id="power-bi-content-available" class="xliff"></a>
+# <a name="power-bi-content-available"></a>Contenido de Power BI disponible
 [!include[banner](../includes/banner.md)]
 
 
 Este tema enumera el contenido de Microsoft Power BI que está disponible y le señala a los recursos donde puede obtener más información acerca de él.
 
-## Contenido de Power BI para Dynamics 365 for Finance and Operations, Enterprise Edition, actualización de julio 2017
-<a id="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update" class="xliff"></a>
+## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Contenido de Power BI para Dynamics 365 for Finance and Operations, Enterprise Edition, actualización de julio 2017
 Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017), el siguiente contenido de Power BI está disponible:
 
 - [Contenido de Power BI de prestaciones](benefits-power-bi.md)
@@ -55,19 +53,15 @@ Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
 - [Contenido de Power BI sobre rendimiento del almacén](warehouse-power-bi-content.md)
 - [Contenido de BI sobre métricas de recursos](workforce-analysis-power-bi-content-pack.md)  
 
-### Acceso al contenido
-<a id="accessing-the-content" class="xliff"></a>
+### <a name="accessing-the-content"></a>Acceso al contenido
 
-#### Contenido incrustado
-<a id="embedded-content" class="xliff"></a>
+#### <a name="embedded-content"></a>Contenido incrustado
 Excepto para el contenido que se marca con un asterisco (\*), todo el contenido de la lista anterior se inserta en la aplicación. Para obtener más información acerca de dónde ver el contenido de Power BI, haga clic en los vínculos.
 
-#### Archivos disponibles en Lifecycle Services
-<a id="files-available-in-lifecycle-services" class="xliff"></a>
+#### <a name="files-available-in-lifecycle-services"></a>Archivos disponibles en Lifecycle Services
 Este contenido de Power BI está disponible en la biblioteca de activos compartidos de Microsoft Dynamics Lifecycle Services (LCS). Para obtener información sobre cómo descargar el contenido y conectarlo a sus datos, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
 
-## Contenido en Power BI sobre Dynamics 365 for Operations, versión 1611
-<a id="power-bi-content-for-dynamics-365-for-operations-version-1611" class="xliff"></a>
+## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a>Contenido en Power BI sobre Dynamics 365 for Operations, versión 1611
 Si utiliza Microsoft Dynamics 365 for Operations, versión 1611, el siguiente contenido de Power BI está disponible:
 
 - [Contenido de Power BI sobre compensaciones y prestaciones](compensation-and-benefits-analysis-power-bi-content-pack.md)   
@@ -84,20 +78,17 @@ Si utiliza Microsoft Dynamics 365 for Operations, versión 1611, el siguiente co
 - [Contenido de Power BI sobre rendimiento del almacén](warehouse-power-bi-content.md)
 - [Contenido de BI sobre métricas de recursos](workforce-analysis-power-bi-content-pack.md)  
 
-### Acceso al contenido
-<a id="accessing-the-content" class="xliff"></a>
+### <a name="accessing-the-content"></a>Acceso al contenido
 Este contenido de Power BI está disponible en la biblioteca de activos compartidos de LCS. Para obtener información sobre cómo descargar el contenido y conectarlo a sus datos, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
 
-## Contenido en Power BI sobre Microsoft Dynamics AX
-<a id="power-bi-content-for-microsoft-dynamics-ax" class="xliff"></a>
+## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Contenido en Power BI sobre Microsoft Dynamics AX
 Si utiliza Microsoft Dynamics AX 7.0 o Microsoft Dynamics AX 7.0.1, el siguiente contenido de Power BI está disponible:
 
 - [Contenido de gestión de costes en Power BI](cost-management-content-pack.md)    
 - [Contenido de Power BI sobre rendimiento financiero](financial-performance-power-bi-content-pack.md)
 - [Contenido en Power BI sobre rendimiento de los canales de venta minorista](retail-channel-performance-dashboard-power-bi-data.md) 
 
-### Acceso al contenido
-<a id="accessing-the-content" class="xliff"></a>
+### <a name="accessing-the-content"></a>Acceso al contenido
 Este contenido de Power BI está disponible en PowerBI.com.
 
 1. Iniciar sesión en [PowerBI.com](https://www.powerbi.com/).

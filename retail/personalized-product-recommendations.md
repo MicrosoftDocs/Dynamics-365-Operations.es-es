@@ -27,16 +27,14 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Visión general de recomendaciones de productos personalizados
-<a id="personalized-product-recommendations-overview" class="xliff"></a>
+# <a name="personalized-product-recommendations-overview"></a>Visión general de recomendaciones de productos personalizados
 
 [!include[banner](includes/banner.md)]
 
 
 En Dynamics 365 for Retail, las recomendaciones de productos se pueden visualizar en el dispositivo de punto de venta (PDV). Las recomendaciones son artículos que pueden interesar al cliente en función de su historial de compra, los artículos de su lista de deseos y los artículos que compraron otros clientes en línea y en tiendas de físicas. Para minoristas con grandes catálogos, las recomendaciones ayudan al cliente con el descubrimiento de productos. Al mostrar productos orientados a los intereses y hábitos de compra de un cliente, las recomendaciones de productos pueden ayudar a los minoristas con las ventas verticales y cruzadas, y a mejorar la retención de clientes. En Dynamics 365 for Retail, las recomendaciones de productos son impulsadas por servicios cognitivos y el aprendizaje automático de Microsoft Azure.
 
-Situaciones
-<a id="scenarios" class="xliff"></a>
+<a name="scenarios"></a>Situaciones
 ---------
 
 Las recomendaciones de productos se habilitan para los siguientes escenarios de PDV. Están disponibles en PDV en la nube o en PDV moderno (MPOS).
@@ -60,8 +58,7 @@ Las recomendaciones de productos se habilitan para los siguientes escenarios de 
 
 [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
-## Configure Dynamics 365 for Retail para habilitar las recomendaciones de PDV
-<a id="configure-dynamics-365-for-retail-to-enable-pos-recommendations" class="xliff"></a>
+## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a>Configure Dynamics 365 for Retail para habilitar las recomendaciones de PDV
 Para configurar las recomendaciones de productos, tiene que hacer lo siguiente.
 
 1.  Asegúrese de que ha seleccionado la **Entidad jurídica** correcta.
@@ -70,8 +67,7 @@ Para configurar las recomendaciones de productos, tiene que hacer lo siguiente.
 4.  Vaya a **Parámetros de ventas al por menor aprendiendo**, seleccione **Aprendizaje automático**, seleccione **Sí** en **Habilitar recomendaciones de PDV**.
 5.  Para ver recomendaciones sobre el PDV, ejecute el trabajo de configuración global **1110**. Para reflejar los cambios realizados en el diseñador de pantalla del PVD, ejecute el trabajo de configuración de canal **1070**.
 
-## []()¿Cómo funciona?
-<a id="how-does-it-work" class="xliff"></a>
+## <a name="how-does-it-work"></a>[]()¿Cómo funciona?
 Al actualizar la entidad **Almacén de entidades**, tienen lugar las siguientes acciones.
 
 -   Los datos en el formato requerido por los servicios cognitivos se extraen de la base de datos operativa Dynamics 365 for Retail y se envían al almacén de entidades.
@@ -84,8 +80,7 @@ Al activar **Habilitar recomendaciones del permiso** y ejecutar los trabajos de 
 -   Las credenciales del modelo y el id. se ponen a disposición de CRT para que se puedan aplicar llamadas para recomendaciones de productos desde el PDV en la nube y el MPOS en modo en línea.
 
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Agregue un control de recomendaciones a la página de transacción en un dispositivo de PDV](add-recommendations-control-pos-screen.md)

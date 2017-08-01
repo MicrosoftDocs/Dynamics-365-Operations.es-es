@@ -28,8 +28,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Inicializar datos semilla en un nuevo entorno de distribución
-<a id="initialize-seed-data-in-a-new-retail-environment" class="xliff"></a>
+# <a name="initialize-seed-data-in-a-new-retail-environment"></a>Inicializar datos semilla en un nuevo entorno de distribución
 
 [!include[banner](includes/banner.md)]
 

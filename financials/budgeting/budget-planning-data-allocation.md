@@ -27,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Asignación de datos de la planificación presupuestaria
-<a id="budget-planning-data-allocation" class="xliff"></a>
+# <a name="budget-planning-data-allocation"></a>Asignación de datos de la planificación presupuestaria
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,8 +36,7 @@ Este artículo describe los distintos métodos de asignación que están disponi
 
 Puede distribuir los datos en un plan de presupuesto de varias formas de retratar exactamente los importes proyectados.
 
-## Métodos de asignación
-<a id="allocation-methods" class="xliff"></a>
+## <a name="allocation-methods"></a>Métodos de asignación
 Tres métodos de asignación (Asignar en períodos, Asignar a dimensiones y Usar reglas de asignación contable) pueden crear las líneas del plan presupuestario que se basan en las líneas del mismo plan presupuestario. Otros tres métodos (Agregado, Distribuir y Copiar del plan presupuestario) pueden crear líneas de plan presupuestario en otros planes de presupuesto. Para los seis métodos de asignación, especifica la situación de destino. El escenario de destino puede ser el mismo que el escenario de origen o puede ser diferente. Además, puede especificar si las nuevas líneas se agregan al plan presupuestario o reemplazan las líneas actuales en el plan presupuestario.
 
 [![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
@@ -59,16 +57,14 @@ Tres métodos de asignación (Asignar en períodos, Asignar a dimensiones y Usar
 [![CopyFromBudgetPlan](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
 **Copiar del plan presupuestario**: como en el método de asignación de distribución, las líneas del plan presupuestario se crean en el destino, en función de las líneas de un plan presupuestario relacionado. Sin embargo, para este método, el plan presupuestario de origen no tiene que ser el principal, pero puede estar en un nivel superior de la jerarquía del plan presupuestario. Este método de asignación es útil si los importes consolidados se presupuestaron originalmente en un nivel muy superior y se debe transferir a un nivel inferior de la organización para la revisión y el ajuste detallados antes de que puedan recibir la aprobación de nivel superior.          
 
-## Mediante métodos de asignación en un plan presupuestario
-<a id="using-allocation-methods-in-a-budget-plan" class="xliff"></a>
+## <a name="using-allocation-methods-in-a-budget-plan"></a>Mediante métodos de asignación en un plan presupuestario
 Para realizar asignaciones en la página del plan presupuestario, seleccione las líneas para asignar y haga clic en **Asignar presupuesto**.
 
 [![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
 
 A continuación, seleccione un método de asignación. Los campos restantes se establecen a continuación, según el método seleccionado. Estos campos incluyen el origen y destino de los datos del plan presupuestario y una opción que le permite multiplicar el origen por un factor especificado cuando se crean los importes de destino para simplificar el ajuste masivo. También puede establecer la opción **Anexar al plan**. Seleccione **No** para reemplazar las líneas existentes del plan presupuestario o seleccione **Sí** para conservar las líneas existentes del plan presupuestario y agregar nuevas líneas para los importes asignados.
 
-## Automatización de asignaciones durante un flujo de trabajo
-<a id="automating-allocations-during-a-workflow" class="xliff"></a>
+## <a name="automating-allocations-during-a-workflow"></a>Automatización de asignaciones durante un flujo de trabajo
 Una característica potente permite llevar a cabo asignaciones automáticamente como parte de un flujo de trabajo de planificación presupuestaria. Mientras que un plan presupuestario pasa por su flujo de trabajo, las tareas automatizadas pueden invocar una asignación en una etapa de planificación presupuestaria especificada. 
 
 Para configurar la asignación automatizada, primero debe crear una programación de asignación en la página **Configuración de planificación presupuestaria**. La programación de la asignación define el método de asignación que se usará cuando se ejecute la asignación automática y los valores de las diferentes opciones de asignación (consulte la sección anterior para ver las descripciones). 

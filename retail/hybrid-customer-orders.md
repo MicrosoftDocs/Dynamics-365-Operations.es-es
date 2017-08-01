@@ -27,8 +27,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Pedidos de cliente híbridos
-<a id="hybrid-customer-orders" class="xliff"></a>
+# <a name="hybrid-customer-orders"></a>Pedidos de cliente híbridos
 
 [!include[banner](includes/banner.md)]
 
@@ -42,8 +41,7 @@ En Microsoft Dynamics 365 for Retail, puede seleccionar enviar todos los product
 
 Si hay una línea del carro definida como **Recoger selección**, **Enviar selección** o **Ejecutar selección**, solo se definirá con ese método de entrega la línea específica del carro. En ese caso, el flujo descendente de la operación continúa de la forma habitual. Sin embargo, si se elige **Recoger selección**, **Enviar selección** o **Ejecutar selección** sin haber seleccionado ninguna línea, se abre una nueva página que enumera todas las líneas del carro. En esa pantalla, puede seleccionar varias líneas inmediatamente para definir el método de entrega. Al utilizar este método para seleccionar líneas, se sustituirá cualquier método de entrega anterior que se hubiera asignado a la línea.
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Visión general de pedidos de cliente](customer-orders-overview.md)

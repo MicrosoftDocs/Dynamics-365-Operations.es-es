@@ -28,8 +28,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Códigos de información
-<a id="info-codes" class="xliff"></a>
+# <a name="info-codes"></a>Códigos de información
 
 [!include[banner](includes/banner.md)]
 
@@ -43,14 +42,12 @@ Los códigos de la información proporcionan una forma de capturar datos en un r
 -   Vender un producto como una venta regular, venta con descuento o producto gratuito.
 -   Solicitar al cajero que especifique un valor o seleccione uno de una lista de subcódigos al abrir la caja registradora sin realizar una operación de ventas.
 
-## Grupo de códigos de información
-<a id="info-codes-group" class="xliff"></a>
+## <a name="info-codes-group"></a>Grupo de códigos de información
 En Dynamics 365 for Retail puede crear grupos de códigos de información. Los grupos de códigos de información agregan flexibilidad al permitirle definir menos códigos de información y después usarlos de maneras más versátiles. Puede usar los grupos de códigos de información de las siguientes formas:
 -   Defina menos códigos de información y reutilícelos fácilmente. Los códigos de información que se incluyen en grupos de códigos de información no tienen ninguna dependencia predefinida en otros códigos de información. Puede incluir el mismo código de información de varios grupos de códigos de información y después usar la priorización para presentar los mismos códigos de información en el orden que tiene sentido en cualquier escenario concreto.
 -   Vincule códigos de información a otros códigos de información o grupos de códigos de información para recopilar información sobre un producto o una transacción sin tener que definir un código distinto de información o un código de información vinculado para cada situación.
 
-## Ejemplos de códigos de información
-<a id="info-code-examples" class="xliff"></a>
+## <a name="info-code-examples"></a>Ejemplos de códigos de información
 **Ejemplo 1: Reutilización de códigos de información**: puede vincular códigos de información para que cuando se active un código de la información, se desencadene otro código de la información inmediatamente después de él. Por ejemplo, cuando vende determinados productos, puede solicitar al cajero que pregunte al cliente si desean comprar pilas y una garantía del producto. Para otros productos, puede solicitar al cajero que pregunte al cliente si desean comprar pilas y si puede proporcionarles también su código postal. Si crea códigos de información vinculados para estos casos, debe configurar cada variación del código de información para solicitar al cajero que pida la información correcta. Si usa grupos de códigos de información, los códigos de información comunes, como solicitar baterías, se pueden configurar una vez y después reutilizarlos en varios grupos de código de información. También puede usar la priorización en los grupos de códigos de información para identificar el orden en que se muestran los avisos.
 
 

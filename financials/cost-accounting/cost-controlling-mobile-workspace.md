@@ -26,8 +26,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Espacio de trabajo móvil de control de costes
-<a id="cost-controlling-mobile-workspace" class="xliff"></a>
+# <a name="cost-controlling-mobile-workspace"></a>Espacio de trabajo móvil de control de costes
 
 [!include[banner](../includes/banner.md)]
 
@@ -35,20 +34,17 @@ Este tema proporciona información sobre del espacio de trabajo móvil de **Cont
 
 Este espacio de trabajo móvil se debe usar con la aplicación móvil Microsoft Dynamics 365 for Unified Operations.
 
-## Información general
-<a id="overview" class="xliff"></a>
+## <a name="overview"></a>Información general
 El espacio de trabajo móvil **Control de costes** proporciona una vista inmediata del rendimiento actual de los centros de costes al comparar los costes reales con los costes presupuestados. Puede explorar en profundidad el estado de los elementos de coste individuales.
 
 Por ejemplo, un empleado recibe una invitación para una conferencia internacional, pero la organización debe cubrir todos los gastos de viajes. El empleado pregunta a su director si puede asistir a la conferencia. El director abre rápidamente el espacio de trabajo móvil de **control de costes** en su teléfono móvil para ver si dispone de presupuesto para que el empleado asista a la conferencia.
 
-### Seguridad de los datos
-<a id="data-security" class="xliff"></a>
+### <a name="data-security"></a>Seguridad de los datos
 Los datos del espacio de trabajo móvil **Control de costes** están protegidos mediante credenciales de usuario. Los directores de los centros de coste pueden ver solo los datos de su propio centro de coste. La seguridad de nivel de acceso se administra en el módulo **Contabilidad de costes**.
 
 Los contables de coste definen la configuración del espacio de trabajo móvil **Control de costes** en el módulo **Contabilidad de costes**. Una vez que se haya publicado el espacio de trabajo en la aplicación móvil, el espacio está disponible en la aplicación. Por lo tanto, todos los administradores de centro de coste de la organización pueden ver los datos en el mismo formato.
 
-### Acciones, vistas y vínculos
-<a id="actions-views-and-links" class="xliff"></a>
+### <a name="actions-views-and-links"></a>Acciones, vistas y vínculos
 El espacio de trabajo móvil **Control costes** proporciona las acciones, las vistas y los vínculos siguientes:
 
 -   **Acciones:**
@@ -80,16 +76,13 @@ El espacio de trabajo móvil **Control costes** proporciona las acciones, las vi
     
     [![Tarjeta para un elemento de coste ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
-## Requisitos previos
-<a id="prerequisites" class="xliff"></a>
+## <a name="prerequisites"></a>Requisitos previos
 Los requisitos previos varían, en función de la versión de Microsoft Dynamics 365 que se ha implementado para su organización.
 
-### Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, actualización de julio 2017
-<a id="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update" class="xliff"></a>
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, actualización de julio 2017
 Si Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017) se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo del móvil **Control de costes**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
 
-### Requisitos previos si usa Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior
-<a id="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later" class="xliff"></a>
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Requisitos previos si usa Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior
 Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior para su organización, el administrador del sistema debe cumplir los requisitos previos siguientes.
 
 <table>
@@ -123,15 +116,13 @@ Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con ac
 </table>
 
 
-## Descargar e instalar la aplicación móvil
-<a id="download-and-install-the-mobile-app" class="xliff"></a>
+## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
 Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 -   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## Iniciar sesión en la aplicación móvil
-<a id="sign-in-to-the-mobile-app" class="xliff"></a>
+## <a name="sign-in-to-the-mobile-app"></a>Iniciar sesión en la aplicación móvil
 
 1.  Inicie la aplicación en su dispositivo móvil.
 2.  Escriba la URL de Dynamics 365.
@@ -140,8 +131,7 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 [![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
-## Visualizar el rendimiento del centro de coste según el espacio de trabajo móvil de control de costes
-<a id="view-the-performance-of-your-cost-center-by-using-the-cost-controlling-mobile-workspace" class="xliff"></a>
+## <a name="view-the-performance-of-your-cost-center-by-using-the-cost-controlling-mobile-workspace"></a>Visualizar el rendimiento del centro de coste según el espacio de trabajo móvil de control de costes
 
 1.  En el dispositivo móvil, seleccione el espacio de trabajo **Control de costes**.
 2.  Seleccione **Control de objeto de coste**.

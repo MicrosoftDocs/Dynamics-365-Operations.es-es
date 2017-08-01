@@ -27,16 +27,13 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Procesar compensaciones
-<a id="process-compensation" class="xliff"></a>
+# <a name="process-compensation"></a>Procesar compensaciones
 El procesamiento de compensación le permite calcular los nuevos importes de compensación básicos para sus empleados en función de los ajustes de recursos propios, los objetivos de aumento por mérito y el rendimiento. Este artículo del blog cubrirá el flujo básico de procesamiento de compensación para los planes de compensación fija sin tener en cuenta el rendimiento.
 
-## Planifique los nuevos importes y presupuestos de la compensación
-<a id="plan-the-new-compensation-amounts-and-budgets" class="xliff"></a>
+## <a name="plan-the-new-compensation-amounts-and-budgets"></a>Planifique los nuevos importes y presupuestos de la compensación
 Para dar a sus empleados un aumento por méritos, debe configurar un presupuesto de incremento fijo para cada uno de sus departamentos: Gestión de compensación > Vínculos > los Objetivos de aumento por méritos. (Como alternativa, puede abrir este formulario a través del departamento: Organización > Departamentos.) Aquí puede especificar si los empleados afliados a cierto sindicato o en una ubicación determinada deberán obtener otro porcentaje de aumento. Los campos **Presupuesto** y **Divisa** son informativos y se pueden usar para anotar un importe de divisa del presupuesto.
 
-## Configure el proceso de compensación
-<a id="set-up-the-compensation-process" class="xliff"></a>
+## <a name="set-up-the-compensation-process"></a>Configure el proceso de compensación
 Un evento de proceso le permite especificar parámetros para el procesamiento de compensación. Esto incluye el período de fechas que debe evaluarse para determinar los importes de compensación.  y la fecha en que los nuevos importes de compensación deberían entrar en vigor.
 
 También puede incluir una Fecha de contratación prorrateada fija si cualquiera de sus planes de compensación fija usan una regla porcentual asociada a la contratación. Para dichos planes, cualquier persona que fuese contratada después de la fecha inicial del ciclo y antes de la fecha de contratación prorrateada fija recibirá el 100 % de su mérito calculado o incremento general. Cualquiera que fuese contratada después de la fecha de contratación prorrateada fija y antes de la fecha final del ciclo recibirá una parte de su aumento calculado en función de cuántos días fuera de los días totales del ciclo fueron empleados. Por ejemplo, si nuestro ciclo va del 1 de enero al 31 de diciembre y tenemos una fecha de contratación prorrateada fija de 1 de abril, un empleado que fuera contratado en marzo recibirá el incremento completo calculado, mientras que un empleado contratado el 1 de julio recibirá aproximadamente la mitad del incremento calculado.
@@ -66,12 +63,10 @@ Puede agregar sólo acciones de compensación fija con un tipo de plan Paso a pa
 |                                | **1 paso**: el sistema comprobará si el empleado ya está en el último punto de referencia de su nivel.                                                                                             |
 |                                | **2 pasos**: el sistema avanzará al empleado dos pasos en su nivel actual. Puede que el sistema sólo mueva al empleado uno o cero pasos si alcanza el último punto de referencia de su nivel. |
 
-## Ejecutar el proceso de compensación
-<a id="run-the-compensation-process" class="xliff"></a>
+## <a name="run-the-compensation-process"></a>Ejecutar el proceso de compensación
 Una vez que el evento de proceso se haya configurado con los campos de fecha, los planes y las acciones necesarios, puede hacer clic en **Ejecutar proceso** en la página del evento de proceso. Al hacerlo se abre el cuadro de diálogo de eventos de Ejecutar proceso de compensación. Dentro de este diálogo, puede hacer clic en la opción **Mostrar resultados de procesamiento** para ver cómo se calcularon los importes de la compensación de cada empleado. Al hacer clic en **Aceptar** se ejecuta el proceso de compensación para todos los empleados cuyos planes de compensación se encuentren en la fecha final del ciclo.
 
-## Ver los resultados del proceso
-<a id="view-the-process-results" class="xliff"></a>
+## <a name="view-the-process-results"></a>Ver los resultados del proceso
 Para ver los resultados del proceso, abra la página **Resultados de proceso** . Cada vez que se ejecuta el evento de proceso, se crea un evento de compensación nuevo. De esta manera, puede hacer ejecuciones de prueba, realizar ajustes y ejecutar varias veces el evento de compensación para ver cómo los distintos cambios afectan a la compensación del empleado.
 
 La página de Resultados de proceso contiene información acerca de la ejecución de proceso, incluido cuándo se produjo la ejecución, el usuario que ejecutó el proceso y si hay se ha producido algún error cuando el proceso se ejecutó. También puede marcar la opción **Bloqueado** de deshabilitar el botón **Cargar compensación** e impedir que los usuarios carguen los eventos de compensación a los registros del empleado. Si hace clic en el botón **Resultados de los empleados** se mostrará la lista de empleados incluidos en la ejecución.
@@ -80,8 +75,7 @@ Los resultados de los empleados muestran información acerca del proceso en sí,
 
 Una vez que los importes de compensación para un empleado se han revisado y los ajustes en los valores recomendados se han efectuado, puede cambiar **Estado** en la línea **Evento del empleado** para indicar si el evento se ha aprobado o debe omitirse. Opcionalmente, puede borrar cualquier modificación realizada en la recomendación del empleado haciendo clic en el botón **Recalcular** . Esto marcará el evento del empleado existente con un estado de Ignorar y creará un nuevo evento del empleado con valores actualizados.
 
-## Cargar cambios de compensación aprobados
-<a id="loading-approved-compensation-changes" class="xliff"></a>
+## <a name="loading-approved-compensation-changes"></a>Cargar cambios de compensación aprobados
 Una vez que se ha actualizado el estado de uno o más eventos del empleado a Aprobado, pueden cargarse a los registros de compensación fija de los empleados. Esto se puede hacer seleccionando cada evento del empleado sucesivamente y haciendo clic en el botón Cargar compensación del empleado en la página de resultados de los empleados, o haciendo clic en **Cargar compensación** en la página de resultados de proceso para cargar todos los eventos de empleado aprobados a la vez.
 
 Al hacer clic en **Aceptar** en el diálogo **Cargar compensación** se agregarán las líneas de acción de compensación que no estén vacías a la página **Compensación fija del empleado** .

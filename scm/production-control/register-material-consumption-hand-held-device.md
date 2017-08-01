@@ -25,23 +25,19 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Registrar el material de consumo mediante un dispositivo móvil
-<a id="register-material-consumption-using-a-mobile-device" class="xliff"></a>
+# <a name="register-material-consumption-using-a-mobile-device"></a>Registrar el material de consumo mediante un dispositivo móvil
 Este tema describe un flujo de trabajo que habilita el registro de consumo de materias primas en la producción mediante un dispositivo de mano.
 
-Introducción
-<a id="introduction" class="xliff"></a>
+<a name="introduction"></a>Introducción
 ------------
 
 Este flujo de trabajo es relevante si hay un requisito estricto para la trazabilidad del material. En tales casos, para mantener la trazabilidad de los materiales, la hora y la cantidad exactas se deben notificar para el consumo. Este proceso se puede ver en comparación con operaciones de autoconsumo o flujo invertido, donde hay una demora entre la hora de registro y la hora en la que tiene lugar el consumo real. Esto explica por qué una estrategia de consumo automático no se puede usar para algunos materiales con requisitos de la trazabilidad. Miremos una situación de ejemplo sencilla que explica cómo configurar un flujo de trabajo para habilitar el registro de consumo de materias primas en la producción mediante un dispositivo de mano. [![](./media/scenario3.png)](./media/scenario3.png)
 
-### Detalles del escenario
-<a id="scenario-details" class="xliff"></a>
+### <a name="scenario-details"></a>Detalles del escenario
 
 Un proceso continuo de producción (5) consume la materia prima RM-100 controlada por lotes. El material está disponible en la ubicación Bulk-001 (1), en la matrícula PL -1 con dos lotes, B1 y B2, ambos con una cantidad de 100 lbs. El trabajo de almacén (2) se libera y se procesa para RM-100, y se recoge el material de Bulk-001 a la ubicación de entrada de producción PIL-01 (3), que se define como sin control de matrículas. El operador de maquinaria pesa el material de la ubicación de entrada de producción (3) y registra el peso y el número de lote como consumido (4). Desde la ubicación de entrada de producción, se agrega una parte del material manualmente al proceso de producción a intervalos de tiempo definidos. Cuando el operador de maquinaria agrega el material, se pesa en una báscula y se registra el número de lote.
 
-## Configuración del flujo de trabajo para registrar el consumo mediante un dispositivo de mano
-<a id="set-up-the-workflow-to-register-consumption-using-a-handheld-device" class="xliff"></a>
+## <a name="set-up-the-workflow-to-register-consumption-using-a-handheld-device"></a>Configuración del flujo de trabajo para registrar el consumo mediante un dispositivo de mano
 Cree un producto de bien terminado, FG-100, con una lista de materiales con la materia prima controlada por lotes RM-100. Agregue dos lotes, B1 y B2, de RM-100 en una cantidad de 100 a la ubicación: Bulk-001 en la matrícula: PL-1. El principio de vaciado de la línea de lista de materiales para RM-100 se establece en **Manual**. Configure la ubicación de entrada de producción como PIL-01. Puede hacerlo seleccionando esta ubicación como ubicación de entrada de producción predeterminada en el almacén 51.
 
 1.  Cree un nuevo elemento de menú del dispositivo móvil: 
@@ -85,8 +81,7 @@ Ahora puede optar por continuar su registro, por ejemplo en el número de lote B
 
 Una vez que haya terminado su registro, seleccione **Hecho** para registrar el diario y finalizar el flujo de trabajo.
 
-### Comentarios adicionales
-<a id="additional-comments" class="xliff"></a> 
+### <a name="additional-comments"></a>Comentarios adicionales 
 
 -   Si un usuario cancela el flujo de trabajo después de que se cree una línea de diario, el diario se encuentra en estado sin registrar, pero si el usuario en un momento posterior utiliza el flujo de trabajo para el mismo pedido de producción, las líneas se agregarán al diario abierto en lugar de a un nuevo diario.
 -   El nuevo flujo de trabajo también admite el registro de números de serie.

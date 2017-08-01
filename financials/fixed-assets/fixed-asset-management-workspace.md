@@ -24,23 +24,19 @@ ms.lasthandoff: 06/14/2017
 
 ---
 
-# Espacio de trabajo de administración de activos fijos
-<a id="fixed-asset-management-workspace" class="xliff"></a>
+# <a name="fixed-asset-management-workspace"></a>Espacio de trabajo de administración de activos fijos
 
 [!include[banner](../includes/banner.md)]
 
 El espacio de trabajo **Administración de activos fijos** muestra la información relacionada con los activos fijos que se especifican en el sistema. Este espacio de trabajo incluye una vista de resumen y una vista de análisis. La pestaña **Mi trabajo** muestra fichas del resumen, detalles de activos fijos e información relacionada sobre los activos fijos en la empresa actual. También puede agregar análisis a la sección de análisis de Power BI directamente en el espacio de trabajo. Las pestaña **Análisis de todas las empresas** usa las capacidades de Microsoft Power BI para mostrar las representaciones visuales relacionadas con los activos fijos en todas las empresas.
 
-## Mi trabajo
-<a id="my-work" class="xliff"></a>
+## <a name="my-work"></a>Mi trabajo
 
-### Resumen
-<a id="summary" class="xliff"></a>
+### <a name="summary"></a>Resumen
 
 Las fichas en la sección **Resumen** ofrecen una visión general de los activos fijos. La información incluye métricas sobre los activos que aún no se adquirieron, los activos que se han adquirido durante el año actual y los activos que se han cancelado durante el año actual. La sección **Resumen** también tiene exploración rápida a la página de la lista de los **Activos fijos**, la propuesta de depreciación de lote y el diario de activos fijos.
 
-### Buscar activos fijos
-<a id="find-fixed-assets" class="xliff"></a>
+### <a name="find-fixed-assets"></a>Buscar activos fijos
 
 La sección **Buscar activos fijos** permite buscar rápidamente los activos especificando el número de activo fijo, el grupo, el nombre, la ubicación o la persona responsable. Todos los activos que coincidan con los criterios de búsqueda aparecerán en la lista.
 
@@ -50,20 +46,17 @@ En la lista, puede ver las siguientes páginas:
  - La página **Libros** para todos los libros asociados al activo fijo
  - La página **Evaluación de activos fijos**
 
-### Valoraciones
-<a id="valuations" class="xliff"></a>
+### <a name="valuations"></a>Valoraciones
 
 La página **Evaluación del activo fijo** permite ver, en una página, la información más importante sobre un activo fijo, así como los detalles de todos los libros que están asociados al activo fijo. La opción **Saldos** en la parte superior izquierda de la página muestra la evaluación actual para cada libro que está asociada al activo fijo. Puede explorar desde los valores para ver las transacciones detalladas que forman el valor de resumen. La opción **Perfil** en la parte superior izquierda de la página muestra el programa de depreciación para cada libro que está asociada al activo fijo.
 
 Puede obtener acceso a la página **Evaluación de activos fijos** en espacio de trabajo **Administración de activos fijos** o la página de lista de **Activo fijo**.
 
-### Información relacionada
-<a id="related-information" class="xliff"></a>
+### <a name="related-information"></a>Información relacionada
 
 Puede navegar directamente a la página **Configuración de libros**, la página **Consulta de las transacciones de activos fijos** y a varios informes mediante los vínculos de la sección **Información relacionada** del espacio de trabajo.
 
-### Análisis de todas las empresas
-<a id="analytics--all-companies" class="xliff"></a>
+### <a name="analytics--all-companies"></a>Análisis de todas las empresas
 
 La página **Análisis** proporciona métricas importante sobre activos fijos en todas las entidades jurídicas del sistema. El acceso a esta ficha se controla mediante la opción Ver el análisis de los activos fijos para el privilegio de seguridad de todas las empresas.
 

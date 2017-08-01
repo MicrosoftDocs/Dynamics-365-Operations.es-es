@@ -26,8 +26,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Visión general de solicitud de compra
-<a id="purchase-requisition-overview" class="xliff"></a>
+# <a name="purchase-requisition-overview"></a>Visión general de solicitud de compra
 
 [!include[banner](../includes/banner.md)]
 
@@ -38,28 +37,24 @@ En función de la configuración de la organización, podrá crear solicitudes d
 
 Una vez aprobada una solicitud de compra, se puede usar para generar un pedido de compra. Los pedidos de compra son los documentos externos que el departamento de compras envía a los proveedores.
 
-## Creación de solicitudes de compra
-<a id="creating-purchase-requisitions" class="xliff"></a>
+## <a name="creating-purchase-requisitions"></a>Creación de solicitudes de compra
 Puede crear una solicitud de compra en la página **Mis solicitudes de compra**, y seleccionar los artículos y los servicios que sea necesario. Puede seleccionar artículos de un catálogo de compras creado por su organización, o bien solicitar artículos que no se encuentran en un catálogo seleccionando una categoría de compra y especificando los detalles del producto.  
 
 Para que una solicitud de compra se pueda enviar a revisión, los flujos de trabajo se deben configurar en Microsoft Dynamics 365 for Finance and Operations. El proceso del flujo de trabajo se usa para mover una solicitud de compra por el proceso de revisión, desde un estado inicial de **Borrador** a un estado final de **Aprobado**.
 
-### Estados de solicitudes de compra
-<a id="purchase-requisition-statuses" class="xliff"></a>
+### <a name="purchase-requisition-statuses"></a>Estados de solicitudes de compra
 
 Al crear una solicitud de compra, se le asigna un estado. A cada una de las líneas que se agrega a la solicitud de compra se le asigna también un estado. Si envía una solicitud de compra al flujo de trabajo para su revisión, su estado y las líneas se actualizan a medida que las líneas pasan por el ciclo de vida del proceso de flujo de trabajo.  
 
 Puede configurar el proceso del flujo de trabajo de la solicitud de compra para dirigir una solicitud de compra a través del proceso de revisión como un documento único. Otra opción es que las líneas de una solicitud de compra se pueden enrutar individualmente a los revisores adecuados. Si las líneas de la solicitud de compra se revisan de manera individual, el estado de cada línea de la solicitud de compra se puede actualizar a medida que la línea se mueve en el proceso de revisión. Cuando todas las líneas hayan completado el proceso de revisión y no queden pasos de revisión para la solicitud de compra, se actualizará el estado de la solicitud de compra completa.
 
-### Flujo de trabajo de solicitudes de compra
-<a id="purchase-requisition-workflow" class="xliff"></a>
+### <a name="purchase-requisition-workflow"></a>Flujo de trabajo de solicitudes de compra
 
 En el diagrama siguiente se muestran los estados que se han asignado a una solicitud de compra y una línea de solicitud de compra a medida que avanzan por el proceso del flujo de trabajo.  
 
 [![Estados de encabezado y línea de solicitud de compra](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
-### Relaciones de estados de encabezado y línea de solicitud de compra
-<a id="purchase-requisition-header-and-line-status-relationships" class="xliff"></a>
+### <a name="purchase-requisition-header-and-line-status-relationships"></a>Relaciones de estados de encabezado y línea de solicitud de compra
 
 El estado general de una solicitud de compra lo determina el estado de las líneas de solicitud de compra. Por lo tanto, el proceso de revisión se debe completar para todas las líneas de la solicitud de compra antes de que se pueda completar el proceso de revisión para la solicitud de compra en su totalidad. En la tabla siguiente se describen los estados asignados al encabezado y las líneas de una solicitud de compra a medida que la solicitud de compra pasa por el proceso del flujo de trabajo.
 
@@ -138,23 +133,19 @@ Si reenvía una línea de solicitud de compra que se ha rechazado, el proceso de
 </tbody>
 </table>
 
-## Distribución de costes a varias cuentas financieras
-<a id="distributing-costs-to-multiple-financial-accounts" class="xliff"></a>
+## <a name="distributing-costs-to-multiple-financial-accounts"></a>Distribución de costes a varias cuentas financieras
 Es posible distribuir el coste de un producto incluido en una solicitud de compra a varias cuentas financieras. Si la organización usa dimensiones, tales como departamentos o centros de coste, puede distribuir los costes de un producto a las dimensiones de las cuentas financieras.
 
-## Propósitos de pedido
-<a id="requisition-purposes" class="xliff"></a>
+## <a name="requisition-purposes"></a>Propósitos de pedido
 Los propósitos de pedido realizan el proceso de satisfacer las demandas de solicitud de manera más flexible. Cuando se crea una solicitud, puede asignarle uno de los dos propósitos: consumo o reabastecimiento. En función del propósito de solicitud y la configuración de la organización, la demanda de solicitud la puede cumplir un pedido de compra, un pedido de transferencia, un pedido de producción o un kanban.  
 
 En las directivas de compra, puede controlar los propósitos de solicitud disponibles al crear una solicitud para la organización.
 
-### Solicitudes con el propósito de consumo
-<a id="requisitions-that-have-a-purpose-of-consumption" class="xliff"></a>
+### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Solicitudes con el propósito de consumo
 
 Una solicitud con un propósito de consumo representa una demanda para los artículos o servicios que se usarán internamente en la organización. La demanda que se crea mediante este tipo de solicitud siempre la cumple un pedido de compra. Si Microsoft Dynamics 365 for Finance and Operations se ha configurado para generar pedidos de compra automáticamente, los pedidos de compra se crean tras la aprobación de la solicitud de compra.
 
-### Solicitudes con el propósito de reabastecimiento
-<a id="requisitions-that-have-a-purpose-of-replenishment" class="xliff"></a>
+### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Solicitudes con el propósito de reabastecimiento
 
 Una solicitud que tiene un propósito de reabastecimiento representa una demanda para reabastecer el inventario. Por ejemplo, crea una solicitud para reabastecer los artículos de modo que se puedan vender en una ubicación comercial específica en un plazo específico. La demanda que crea este tipo de solicitud se puede cumplir mediante un pedido de compra, un pedido de transferencia, un pedido de producción o un kanban.  
 
@@ -162,16 +153,14 @@ Cuando el propósito de solicitud es reabastecimiento, la demanda se expresa com
 
 Para usar las solicitudes de compra con un propósito de reabastecimiento, debe configurar una programación maestra para incluir la demanda de la solicitud. El método de cumplimiento de la demanda que se crea mediante este tipo de solicitud se determina automáticamente según las directivas de suministro configuradas para los artículos de la organización y planificadas mediante la programación maestra.
 
-## Solicitudes de compra y solicitudes de presupuesto
-<a id="purchase-requisitions-and-requests-for-quotation" class="xliff"></a>
+## <a name="purchase-requisitions-and-requests-for-quotation"></a>Solicitudes de compra y solicitudes de presupuesto
 En algunos casos, debe comenzar un proceso de solicitud de presupuesto para identificar el proveedor y el precio para los productos que se piden en una solicitud de compra. Se puede generar una solicitud de presupuesto cuando la solicitud de compra se encuentra en revisión. Al aceptar una oferta, la información acerca del proveedor, precio, etc., se transfiere a la solicitud.  
 
 Puede poner una solicitud de compra en espera seleccionando la casilla **En espera** en la página **Detalles de la solicitud de compra**. El procesamiento de la solicitud de compra puede continuar solo después de eliminar la espera desactivando la casilla.  
 
 **Nota:** en eProcurement, la solicitud de presupuesto para su solicitud de compra puede permitir a los proveedores agregar líneas alternativas. En este caso, las alternativas se reflejarán en la solicitud de compra.
 
-## Consolidación de la demanda
-<a id="demand-consolidation" class="xliff"></a>
+## <a name="demand-consolidation"></a>Consolidación de la demanda
 Al consolidar las líneas de solicitudes de compra de varias solicitudes de compra, puede aumentar su poder de negociación con sus proveedores para alcanzar un mejor precio, costes de envío y tramitación más bajos, así como menores costes generales.  
 
 Las líneas de solicitudes de compras aprobadas se pueden elegir para la consolidación de demanda solo en el caso de que se cumplan las siguientes afirmaciones:
@@ -189,8 +178,7 @@ Después de agregar líneas de solicitud a una oportunidad de consolidación y r
 
 Para crear un pedido de compra para líneas de solicitud de compra que no sean aptas para la consolidación de la demanda o que no estén seleccionadas para una oportunidad de consolidación, las líneas deben procesarse manualmente.
 
-### Consolidar líneas de solicitudes de compra
-<a id="consolidating-purchase-requisition-lines" class="xliff"></a>
+### <a name="consolidating-purchase-requisition-lines"></a>Consolidar líneas de solicitudes de compra
 
 El proceso para la consolidación de la demanda comienza cuando una solicitud de compra se aprueba en un flujo de trabajo y se han registrado las reservas de presupuesto y las pre-reservas de gastos, si se ha configurado control presupuestario para su organización. En el siguiente diagrama se muestra el flujo de proceso para la consolidación de la demanda.  
 
@@ -205,8 +193,7 @@ Para consolidar las líneas de solicitud de compra aprobadas, siga estos pasos:
 5.  Cree pedidos de compra para las líneas de solicitud consolidadas o para las líneas de solicitud de compra en una oportunidad de consolidación.
 
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Creación de un pedido para consumo (Guía de tareas)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)

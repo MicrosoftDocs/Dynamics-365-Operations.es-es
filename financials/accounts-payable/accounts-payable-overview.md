@@ -27,16 +27,14 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Configuración de proveedores
-<a id="configure-accounts-payable" class="xliff"></a>
+# <a name="configure-accounts-payable"></a>Configuración de proveedores
 
 [!include[banner](../includes/banner.md)]
 
 
 Este artículo describe las páginas que usa para configurar la funcionalidad básica y opcional para Proveedores en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. También describen los pasos de configuración que debe completar antes de comenzar a configurar Proveedores.
 
-Requisitos previos para la configuración de proveedores
-<a id="prerequisites-for-accounts-payable-setup" class="xliff"></a>
+<a name="prerequisites-for-accounts-payable-setup"></a>Requisitos previos para la configuración de proveedores
 ----------------------------------------
 
 Para poder configurar los proveedores, debe completar la configuración siguiente:
@@ -46,8 +44,7 @@ Para poder configurar los proveedores, debe completar la configuración siguient
     -   Si pretende ejecutar ajustes del tipo de cambio, configure los códigos de divisa en la página de divisas, los tipos de cambio en la página de tipos de cambio y los tipos de cambio de divisa puesto en la página de tipos de cambio de divisa.
 -   En Gestión de efectivo y bancos, configure cuentas bancarias para usarlas con formas de pago.
 
-## Configurar páginas para proveedores
-<a id="setup-pages-for-accounts-payable" class="xliff"></a>
+## <a name="setup-pages-for-accounts-payable"></a>Configurar páginas para proveedores
 
 Utilice las páginas siguientes para configurar la funcionalidad básica de Proveedores para cada entidad jurídica. Las páginas se enumeran en el orden de configuración recomendado. Para simplificar el proceso de configuración, puede crear plantillas a partir de los primeros registros que cree. En una plantilla, normalmente suelen introducirse valores en muchos campos para reflejar las características que la organización desea implantar para un tipo concreto de proveedor.
 1.  En la página de términos de pago, defina las condiciones de pago que va a asignar a los pedidos de ventas, pedidos de compra, clientes y proveedores, que determinan las fechas de vencimiento de las facturas.
@@ -58,8 +55,7 @@ Utilice las páginas siguientes para configurar la funcionalidad básica de Prov
 6.  En la página de configuración de formulario, defina el formato de varios documentos relacionados con proveedores y que la organización usa para realizar un seguimiento de las recepciones de los proveedores y para indicar motivos del flujo de pagos a los proveedores.
 7.  En la página Proveedores, cree y mantenga las cuentas de proveedor y también las de autoridades fiscales a las que su organización paga impuestos.
 
-## Páginas de configuración opcionales de proveedores
-<a id="optional-setup-pages-for-accounts-payable" class="xliff"></a>
+## <a name="optional-setup-pages-for-accounts-payable"></a>Páginas de configuración opcionales de proveedores
 Además de la funcionalidad básica, los proveedores tienen otra funcionalidad que puede configurar.
 
 Las páginas de configuración adicionales están organizadas por funciones.
@@ -125,8 +121,7 @@ Las páginas de configuración adicionales están organizadas por funciones.
 
 -   En la página de **campos de IRPF**, compruebe y actualice los importes mínimos que se deben notificar a la agencia tributaria en función de los últimos requisitos fiscales.
 
-## **Configuración opcional para otros módulos**
-<a id="optional-setup-for-other-modules" class="xliff"></a>
+## <a name="optional-setup-for-other-modules"></a>**Configuración opcional para otros módulos**
 **Administración de la organización**
 
 -   En la página de secuencias numéricas, configure los grupos de secuencias numéricas para los números de factura.
