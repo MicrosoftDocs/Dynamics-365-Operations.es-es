@@ -14,14 +14,13 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: ac77d2d374dc77aa4cf43ae2621b3692e556c9d0
+ms.translationtype: HT
+ms.sourcegitcommit: 9f4b007c174961a8e6794ab532d733584f492758
+ms.openlocfilehash: ead315d2e07818b35dd2806fca7e242f4028be07
 ms.contentlocale: es-es
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -216,7 +215,7 @@ Las siguientes secciones muestran una lista de recursos por país o región.
 -   [Detalles de declaraciones de IVA](/dynamics365/unified-operations/financials/localizations/emea-ita-vat-statements-details)
 -   [Fecha de capacidad para las transacciones](/dynamics365/unified-operations/financials/localizations/emea-ita-competence-date)
 -   [Depreciación manual de activos fijos](/dynamics365/unified-operations/financials/localizations/emea-ita-depreciation-of-fixed-assets)
--   [Verificación de fecha de albartán en facturas para Italia](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
+-   [Verificación de fecha de albarán en facturas para Italia](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [Libros de impuestos italianos](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books)
 -   [Pago fraccionado para facturas emitidas a la administración pública](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
 -   [Retención de impuestos](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax)

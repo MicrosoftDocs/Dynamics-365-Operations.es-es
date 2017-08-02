@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 745abbfde09bab40f032c13d1b0293e0990a3de3
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 85000ee4507e1d716c6118441d77d94091494f33
 ms.contentlocale: es-es
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -73,32 +73,32 @@ En este tema se enumeran los recursos de BI e informes disponibles en Microsoft 
 -   [Destinos de informes electrónicos](electronic-reporting-destinations.md)
 -   [Descargar configuraciones de informes electrónicos de Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 -   [Uso de una configuración de informes electrónicos para proporcionar datos de Finance and Operations a Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [ER Crear un proveedor de configuraciones y marcarlo como activo](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (Guía de tareas)
--   [ER Diseñar un modelo de datos de dominio específico](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (Guía de tareas)
--   [ER Definir la asignación del modelo y seleccionar los orígenes de los datos](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (Guía de tareas)
--   [ER Asignar un modelo de datos a los orígenes de datos seleccionados](http://ax.help.dynamics.com/en/wiki/er-map-data-model-to-selected-data-sources/) (Guía de tareas)
--   [ER Diseñar el formato de dominio específico](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-format/) (Guía de tareas)
--   [ER Cargar una configuración en Lifecycle Services](http://ax.help.dynamics.com/en/wiki/upload-a-configuration-into-lifecycle-services/) (Guía de tareas)
--   [ER Importar una configuración de Lifecycle Services](http://ax.help.dynamics.com/en/wiki/import-a-configuration-from-lifecycle-services/) (Guía de tareas)
--   [ER Diseñar una configuración para generar informes en formato OPENXML](http://ax.help.dynamics.com/en/wiki/design-a-configuration-for-generating-reports-in-openxml-format/) (Guía de tareas)
--   [ER Configurar objetivos](http://ax.help.dynamics.com/en/wiki/configure-destinations/) (Guía de tareas)
--   [ER Usar las dimensiones financieras como origen de datos (Parte 1: Diseñar modelo de datos)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-1-design-data-model/) (Guía de tareas)
--   [ER Usar las dimensiones financieras como origen de datos (Parte 2: Asignación de modelo)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-2-model-mapping/) (Guía de tareas)
--   [ER Usar las dimensiones financieras como origen de datos (Parte 3: Diseñar el informe)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-3-design-the-report/) (Guía de tareas)
--   [ER Usar las dimensiones financieras como origen de datos (Parte 4: Ejecutar el informe)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-4-run-the-report/) (Guía de tareas)
--   [ER Configuración del formato para hacer contar y sumar (Parte 1: Crear el formato)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-1-create-format/) (Guía de tareas)
--   [ER Configuración del formato para hacer contar y sumar (Parte 2: Configuración de los cálculos)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-2-configure-computations/) (Guía de tareas)
--   [ER Configuración del formato para hacer contar y sumar (Parte 3: Uso de los cálculos para lograr el resultado)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-3-use-computations-to-make-the-output/) (Guía de tareas)
--   [ER Configuración del formato para hacer contar y sumar (Parte 4: Ejecución del formato)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-4-run-format/) (Guía de tareas)
--   [ER Usar los intervalos horizontalmente ensanchables para agregar de forma dinámica columnas en Excel (Parte 1: Diseñar el formato)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1-design-format/) (Guía de tareas)
--   [ER Usar los intervalos horizontalmente ensanchables para agregar de forma dinámica columnas en Excel (Parte 2: Ejecución del formato)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-2-run-format/) (Guía de tareas)
--   [ER Usar los archivos de gestión documental en salidas de formato (Parte 1: Preparar el modelo de datos)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-1-prepare-data-model/) (Guía de tareas)
--   [ER Usar los archivos de gestión documental en salidas de formato (Parte 2: Ampliar el modelo de datos)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-2-extend-data-model/) (Guía de tareas)
--   [ER Usar los archivos de la gestión documental en las salidas de formato (Parte 3: Creación del formato)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-3-create-format/) (Guía de tareas)
--   [ER Usar los archivos de la gestión documental en las salidas de formato (Parte 4: Ejecución del formato)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-4-run-format/) (Guía de tareas)
--   [ER Usar los archivos de la gestión documental en las salidas de formato (Parte 5: Modificar y ejecutar el formato)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (Guía de tareas)
--   [ER Generar documentos electrónicos para pagos mediante una configuración de formato](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (Guía de tareas)
--   [ER Actualizar el formato adoptando una nueva versión de base de ese formato](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (Guía de tareas)
+-   [ER Crear un proveedor de configuraciones y marcarlo como activo](/dynamics365/unified-operations/do-not-publish/er-configuration-provider-mark-it-active-2016-02) (Guía de tareas)
+-   [ER Diseñar un modelo de datos de dominio específico](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-data-model-2016-02-05) (Guía de tareas)
+-   [ER Definir la asignación del modelo y seleccionar los orígenes de los datos](/dynamics365/unified-operations/do-not-publish/er-define-model-mapping-select-data-sources-2016-02-05) (Guía de tareas)
+-   [ER Asignar un modelo de datos a los orígenes de datos seleccionados](/dynamics365/unified-operations/do-not-publish/er-map-data-model-selected-data-sources-2016-02-05) (Guía de tareas)
+-   [ER Diseñar el formato de dominio específico](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-format-2016-02-05) (Guía de tareas)
+-   [ER Cargar una configuración en Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services) (Guía de tareas)
+-   [ER Importar una configuración de Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services) (Guía de tareas)
+-   [ER Diseñar una configuración para generar informes en formato OPENXML](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11) (Guía de tareas)
+-   [ER Configurar objetivos](/dynamics365/unified-operations/do-not-publish/er-destinations-2016-05) (Guía de tareas)
+-   [ER Usar las dimensiones financieras como origen de datos (Parte 1: Diseñar modelo de datos)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1) (Guía de tareas)
+-   [ER Usar las dimensiones financieras como origen de datos (Parte 2: Asignación de modelo)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2) (Guía de tareas)
+-   [ER Usar las dimensiones financieras como origen de datos (Parte 3: Diseñar el informe)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3) (Guía de tareas)
+-   [ER Usar las dimensiones financieras como origen de datos (Parte 4: Ejecutar el informe)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4) (Guía de tareas)
+-   [ER Configuración del formato para hacer contar y sumar (Parte 1: Crear el formato)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-1) (Guía de tareas)
+-   [ER Configuración del formato para hacer contar y sumar (Parte 2: Configuración de los cálculos)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-2) (Guía de tareas)
+-   [ER Configuración del formato para hacer contar y sumar (Parte 3: Uso de los cálculos para lograr el resultado)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-3) (Guía de tareas)
+-   [ER Configuración del formato para hacer contar y sumar (Parte 4: Ejecución del formato)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-4) (Guía de tareas)
+-   [ER Usar los intervalos horizontalmente ensanchables para agregar de forma dinámica columnas en Excel (Parte 1: Diseñar el formato)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-1) (Guía de tareas)
+-   [ER Usar los intervalos horizontalmente ensanchables para agregar de forma dinámica columnas en Excel (Parte 2: Ejecución del formato)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-2) (Guía de tareas)
+-   [ER Usar los archivos de gestión documental en salidas de formato (Parte 1: Preparar el modelo de datos)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-1) (Guía de tareas)
+-   [ER Usar los archivos de gestión documental en salidas de formato (Parte 2: Ampliar el modelo de datos)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-2) (Guía de tareas)
+-   [ER Usar los archivos de la gestión documental en las salidas de formato (Parte 3: Creación del formato)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-3) (Guía de tareas)
+-   [ER Usar los archivos de la gestión documental en las salidas de formato (Parte 4: Ejecución del formato)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-4) (Guía de tareas)
+-   [ER Usar los archivos de la gestión documental en las salidas de formato (Parte 5: Modificar y ejecutar el formato)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-5) (Guía de tareas)
+-   [ER Generar documentos electrónicos para pagos mediante una configuración de formato](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-electronic-payments) (Guía de tareas)
+-   [ER Actualizar el formato adoptando una nueva versión de base de ese formato](/dynamics365/unified-operations/do-not-publish/er-upgrade-format--2016-05) (Guía de tareas)
 
 
 
