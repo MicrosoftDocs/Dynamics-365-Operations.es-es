@@ -26,14 +26,12 @@ ms.lasthandoff: 06/19/2017
 
 ---
 
-# Crear vales para ventas minoristas
-<a id="create-coupons-for-retail-sales" class="xliff"></a>
+# <a name="create-coupons-for-retail-sales"></a>Crear vales para ventas minoristas
 
 [!include[banner](includes/banner.md)]
 
 
-## Visión general de los vales
-<a id="overview-of-coupons" class="xliff"></a>
+## <a name="overview-of-coupons"></a>Visión general de los vales
 
 Los vales son códigos y códigos de barras que se usan para agregar descuentos al por menor a las transacciones. Cada vale puede tener varios códigos, y cada código puede tener sus propias fechas de vigencia. 
 
@@ -46,22 +44,19 @@ Para crear un vale, cree el descuento y el vale por separado. A continuación vi
 > [!NOTE]
 > Después de que un vale se vincula a un descuento, varios campos en la página de descuentos en Microsoft Dynamics 365 for Retail se vuelven de sólo lectura, ya que son administrados mediante la configuración del vale. Estos campos incluyen los campos para estado y los intervalos de fechas estándar.
 
-### Vales de uso limitado
-<a id="limited-use-coupons" class="xliff"></a>
+### <a name="limited-use-coupons"></a>Vales de uso limitado
 
 Los vales se pueden configurar como vales de uso limitado. El límite de uso puede definirse por cliente o canal, o como límite global. Este límite se aplica cuando el código o el código de barras se introducen o escanean en el PDV o durante la entrada de pedidos de ventas. Un vale se registra como usado cuando se completa un pedido que tiene el vale asociado a él.
 
 El límite se aplica por el código de vale. Por ejemplo, un cupón de un solo uso que tiene dos códigos de vale se puede utilizar dos veces: una vez por cada código de vale. Cada código de un vale se puede activar de forma independiente.
 
-## Administrar vales
-<a id="managing-coupons" class="xliff"></a>
+## <a name="managing-coupons"></a>Administrar vales
 
 Debe crear el descuento y el vale por separado. A continuación los vincula seleccionando el descuento en la página de vales. Después de vincular un vale a un descuento, varios campos del descuento se vuelven de solo lectura porque son administrados mediante la configuración del vale. Estos campos incluyen los campos para estado y los intervalos de fechas estándar.  
 
 Esencialmente, los vales son ahora una validación adicional a los descuentos minoristas. El vale proporciona los códigos y los códigos de barras, así como los intervalos de fechas, los límites de uso y la propiedad exigida por el cliente. El descuento proporciona el conjunto de productos para los que es válido. Los grupos de precios del descuento proporcionan el conjunto de clientes, canales o catálogos para los que el vale es válido.
 
-## Configuración del sistema para vales
-<a id="system-setup-for-coupons" class="xliff"></a> 
+## <a name="system-setup-for-coupons"></a>Configuración del sistema para vales 
 
 Para poder configurar un vale, debe configurar el código de barras del vale y dos secuencias numéricas de vales. 
 
@@ -77,8 +72,7 @@ Para poder configurar un vale, debe configurar el código de barras del vale y d
 6.  En la página **Parámetros de ventas al por menor**, en la ficha **Secuencias numéricas** , seleccione las secuencias numéricas que ha creado para el número de vale y el identificador del código de vale.
 7.  Ahora puede abrir la página **Vales** y crear vales nuevos.
 
-## El efecto de las actualizaciones parciales en los vales
-<a id="the-effect-of-partial-updates-on-coupons" class="xliff"></a>
+## <a name="the-effect-of-partial-updates-on-coupons"></a>El efecto de las actualizaciones parciales en los vales
 
 La funcionalidad de vales incluye varias características distintivas de Dynamics 365 for Retail. Microsoft Dynamics 365 for Retail Headquarters (HQ) y el canal se pueden actualizar parcialmente a través de los componentes. Por lo tanto, es importante que comprenda cómo las actualizaciones parciales afectan a la funcionalidad de los vales en conjunto.
 

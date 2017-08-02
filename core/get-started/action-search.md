@@ -26,24 +26,21 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Búsqueda de acción
-<a id="action-search" class="xliff"></a>
+# <a name="action-search"></a>Búsqueda de acción
 
 [!include[banner](../includes/banner.md)]
 
 
 Este artículo describe la funcionalidad de búsqueda de acción en Microsoft Dynamics 365 for Finance and Operations. La búsqueda de acción le ayudará a encontrar y ejecutar acciones en una página.
 
-Introducción
-<a id="introduction" class="xliff"></a>
+<a name="introduction"></a>Introducción
 ------------
 
 Las páginas de Microsoft Dynamics 365 for Finance and Operations exponen principalmente comandos en los paneles de acciones, tanto el panel de acciones estándar que aparece en la parte superior de una página como las barras de herramientas que aparecen en las distintas secciones de la página. En versiones anteriores, una característica de las sugerencias de teclas le permite acceder rápidamente a cualquier botón de un panel de acciones presionando la tecla Alt y, a continuación, una serie de letras. 
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) Sin embargo, en la versión actual de Finance and Operations, las sugerencias de teclas no están disponibles pero han sido sustituidas por la función de búsqueda de acciones. Esta característica nueva le permite rápidamente buscar y ejecutar un botón del Panel de acciones visible.
 
-## Usar búsqueda de acciones
-<a id="using-action-search" class="xliff"></a>
+## <a name="using-action-search"></a>Usar búsqueda de acciones
 Para usar la característica de búsqueda de acciones, siga estos pasos.
 
 1.  En el panels de acciones, haga clic en el campo **búsqueda de acciones**. (El campo **búsqueda de acción** contiene un icono de lupa.)
@@ -56,8 +53,7 @@ Después de ejecutar el botón, el foco se devuelve a la última posición de la
 
 También puede iniciar la búsqueda de acciones presionando Ctrl+/ or Alt+Q. Presione el método abreviado de teclado de nuevo para devolver el foco a su última posición en la página.
 
-## Comprensión de la lista de los resultados
-<a id="understanding-the-results-list" class="xliff"></a>
+## <a name="understanding-the-results-list"></a>Comprensión de la lista de los resultados
 A menudo, en Finance and Operations, debe conocer la ubicación y el contexto de un botón para comprender completamente el propósito de dicho botón. Por lo tanto, la información adicional se muestra para cada elemento en la lista de resultados, para ayudarle a comprender exactamente qué botones aparecen en la lista. Concretamente, se muestra la "ruta" del botón. Esta ruta puede incluir las etiquetas de los siguientes elementos de la IU, según corresponda:
 
 -   Ficha Panel de acciones
@@ -74,8 +70,7 @@ En el ejemplo anterior, la búsqueda de acción muestra resultados del panel de 
 
 [![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
-## Búsqueda de acciones frente a búsqueda de navegación
-<a id="action-search-vs-navigation-search" class="xliff"></a>
+## <a name="action-search-vs-navigation-search"></a>Búsqueda de acciones frente a búsqueda de navegación
 Mientras que la búsqueda de acciones se va a utilizar para encontrar y ejecutar acciones en una página, hay un mecanismo independiente de la búsqueda para encontrar y desplazarse a las páginas en Finance and Operations. Para obtener más información sobre dicha característica, consulte el artículo [Búsqueda de navegación](navigation-search.md).
 
 

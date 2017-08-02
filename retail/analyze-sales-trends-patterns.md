@@ -27,8 +27,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Analizar patrones y tendencias de ventas
-<a id="analyze-sales-trends-and-patterns" class="xliff"></a>
+# <a name="analyze-sales-trends-and-patterns"></a>Analizar patrones y tendencias de ventas
 
 [!include[banner](includes/banner.md)]
 

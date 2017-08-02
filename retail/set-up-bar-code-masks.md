@@ -28,16 +28,14 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Configuración de máscaras de código de barras
-<a id="set-up-bar-code-masks" class="xliff"></a>
+# <a name="set-up-bar-code-masks"></a>Configuración de máscaras de código de barras
 
 [!include[banner](includes/banner.md)]
 
 
 Este tema describe cómo configurar los caracteres de máscara de código de barras, máscaras de código de barras, y cómo asignar máscaras de código de barras a códigos de barras.
 
-Configuración de los caracteres de máscara de código de barras
-<a id="set-up-bar-code-mask-characters" class="xliff"></a>
+<a name="set-up-bar-code-mask-characters"></a>Configuración de los caracteres de máscara de código de barras
 -------------------------------
 
 Los máscaras de código de barras se usan para crear códigos de barras e identificar rápidamente los códigos de barras que se procesan en el punto de venta (PDV). Las máscaras se componen de caracteres que actuarán como marcadores de posición que indican el formato para los códigos de barras que se crearán. Para configurar una máscara de código de barras, debe configurar los caracteres de máscara de código de barras. Vaya a **Venta minorista** &gt; **Gestión de inventarios** &gt; **Códigos de barras y etiquetas** &gt; **Caracteres de máscara**. Haga clic en **Nuevo** para crear caracteres de máscara de código de barras. Los caracteres de máscara se pueden crear para indicar los siguientes datos del código de barras.
@@ -62,8 +60,7 @@ Los máscaras de código de barras se usan para crear códigos de barras e ident
 | **Tarjeta regalo**        | Indica un número de tarjeta regalo al emitir o pago con tarjeta regalo.                                               |
 | **Tarjeta de fidelización**     | Agrega un cliente fidelizado a la transacción, y se puede usar para pagar por fidelidad.                             |
 
-## Definición de máscaras de código de barras
-<a id="define-bar-code-masks" class="xliff"></a>
+## <a name="define-bar-code-masks"></a>Definición de máscaras de código de barras
 Una vez que los caracteres de máscara de código de barras se especifiquen para las máscaras de código de barras necesarias, vaya a **Retail** &gt; **Gestión del inventario** &gt; **Códigos de barras y etiquetas** &gt; **Configuración de máscara de código de barras**. En esta página, puede definir máscaras de código de barras que usan los caracteres especificados anteriormente. Estas máscaras de códigos de barras se usarán al generar códigos de barras y nos ayudarán a identificar los códigos de barras examinados en el PDV.
 
 1.  Haga clic en **Nuevo** para crear una máscara de código de barras nueva.
@@ -79,8 +76,7 @@ Como ejemplo, crear una máscara de código de barras con el identificador de m�
 4.  Agregue un segmento de la máscara. El segmento de la máscara "Producto” se seleccionará.
 5.  Proporcione una duración para el segmento de producto, por ejemplo, "10 ". La longitud debe coincidir con la duración de un identificador de producto de uso general en el almacén. La máscara se mostrará como vista previa en la sección **General** en **Máscara**.
 
-## Asignar máscaras de códigos de barras a códigos de barras
-<a id="assign-bar-code-masks-to-bar-codes" class="xliff"></a>
+## <a name="assign-bar-code-masks-to-bar-codes"></a>Asignar máscaras de códigos de barras a códigos de barras
 Las máscaras de códigos de barras se deben asignar a los códigos de barras antes de que se puedan usar. Si se sigue con el ejemplo anterior, para asignar la máscara de código de barras a un código de barras, haga lo siguiente:
 
 1.  Vaya a **Administración de la organización** &gt; **Configurar** &gt; **Códigos de barras**. Haga clic en **Nuevo** para crear un código de barras nuevo.

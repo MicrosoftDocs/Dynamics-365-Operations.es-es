@@ -27,8 +27,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Procesar asignaciones
-<a id="process-allocations" class="xliff"></a>
+# <a name="process-allocations"></a>Procesar asignaciones
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,8 +40,7 @@ Microsoft Dynamics 365 for Finance and Operations proporciona las siguientes cap
 -   Asigne automáticamente los importes de las transacciones en función de los términos de asignación definidos en la cuenta principal individual. Se generarán asientos contables de asignación para cada diario según el porcentaje y la cuenta contable de destino siempre que un asiento contable cumpla los criterios definidos como la cuenta contable de origen.
 -   Asigne automáticamente los saldos contables o los importes fijos según las reglas de asignación contable. Las reglas de asignación contable se procesan de manera periódica con diarios de asignación. 
 
-###  Asignaciones en planificación presupuestaria
-<a id="allocations-in-budget-planning" class="xliff"></a>
+###  <a name="allocations-in-budget-planning"></a>Asignaciones en planificación presupuestaria
 
 Las reglas de asignación contable se pueden usar para planes presupuestarios. Cuando se usan reglas de asignación contable en la planificación presupuestaria, las reglas de asignación funcionan de la misma forma que el libro mayor, pero los datos de origen y los datos de destino proceden del plan presupuestario. También puede seleccionar manualmente reglas de asignación contable para usar para planes presupuestarios. Como alternativa, puede usar una programación de asignación que se ejecute como parte de un proceso de flujo de trabajo.
 

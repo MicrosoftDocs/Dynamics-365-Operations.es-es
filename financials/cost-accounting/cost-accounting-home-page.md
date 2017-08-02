@@ -24,8 +24,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Página principal de Contabilidad de costes
-<a id="cost-accounting-home-page" class="xliff"></a>
+# <a name="cost-accounting-home-page"></a>Página principal de Contabilidad de costes
 
 [!include[banner](../includes/banner.md)]
 
@@ -48,8 +47,7 @@ El módulo Contabilidad de costes permite hacer lo siguiente:
 -   Cree los extractos que se pueden ver en el área de trabajo.
 -   Crear informes mediante Excel.
 
-## Introducción
-<a id="get-started" class="xliff"></a>
+## <a name="get-started"></a>Introducción
 
 > [!Video https://www.youtube.com/embed/https://www.youtube.com/embed/1pUDtJQZ8FU]
 
@@ -66,14 +64,12 @@ Para comprender cómo puede usar la Contabilidad de costes para su trabajo diari
 -   [Dimensiones de objeto de coste](cost-objects.md)
 -   [Crear objetos de coste](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (Guía de tareas)
 
-## Espacio de trabajo móvil de control de costes
-<a id="cost-control-mobile-workspace" class="xliff"></a>
+## <a name="cost-control-mobile-workspace"></a>Espacio de trabajo móvil de control de costes
 Con el espacio de trabajo móvil de control de costes, los administradores de centro de coste pueden ver el rendimiento de centro de coste en cualquier momento y en cualquier lugar.
 
 -   [Espacio de trabajo móvil de control de costes](cost-controlling-mobile-workspace.md)
 
-## Contenido en Power BI sobre el análisis de la contabilidad de costes
-<a id="cost-accounting-analysis-power-bi-content" class="xliff"></a>
+## <a name="cost-accounting-analysis-power-bi-content"></a>Contenido en Power BI sobre el análisis de la contabilidad de costes
 El contenido de Análisis de la contabilidad de costes en Microsoft Power BI está destinado a los controladores de costes responsables de realizar el control de costes de una organización. Incluye medidas clave, como el coste, magnitud, el índice de coste por coste real, coste presupuestario, y coste presupuestario flexible. Usa datos de transacción de la contabilidad de costes de Finance and Operations y proporciona una visión global de costes para la organización completa en una divisa de notificación. Los directores pueden filtrar los datos por objetos de coste para realizar el control de costes de sus unidades organizativas, incluso aunque la organización tenga varias entidades jurídicas.
 
 -   [Contenido de Power BI sobre el análisis de la contabilidad de costes](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)

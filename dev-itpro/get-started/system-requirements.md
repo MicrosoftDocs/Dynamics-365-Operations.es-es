@@ -25,16 +25,14 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Requisitos del sistema
-<a id="system-requirements" class="xliff"></a>
+# <a name="system-requirements"></a>Requisitos del sistema
 
 [!include[banner](../includes/banner.md)]
 
 
 Este tema muestra los requisitos del sistema para la versión actual de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
-Exploradores web compatibles
-<a id="supported-web-browsers" class="xliff"></a>
+<a name="supported-web-browsers"></a>Exploradores web compatibles
 ----------------------
 
 La aplicación web se puede ejecutar en cualquiera de los siguientes exploradores web que se ejecutan en sistemas operativos especificados:
@@ -54,8 +52,7 @@ Para buscar la versión más reciente para cada explorador web, vaya al sitio we
 -   Para obtener una vista previa de los archivos PDF, se recomienda que use exploradores como Microsoft Edge (la última versión disponible para el público) en Windows 10, o Google Chrome (la última versión disponible para el público) en tabletas con Windows 10, Windows 8.1, Windows 8, Windows 7, o Google Nexus 10.
 
 
-### Exploradores web admitidos para Retail Cloud POS
-<a id="supported-web-browsers-for-retail-cloud-pos" class="xliff"></a>
+### <a name="supported-web-browsers-for-retail-cloud-pos"></a>Exploradores web admitidos para Retail Cloud POS
 
 Retail Cloud POS se puede ejecutar en cualquiera de los siguientes exploradores web que se ejecutan en sistemas operativos especificados:
 
@@ -63,8 +60,7 @@ Retail Cloud POS se puede ejecutar en cualquiera de los siguientes exploradores 
 -   Internet Explorer 11 en Windows 10, Windows 8.1 o Windows 7
 -   Chrome (la versión disponible publicada recientemente) en Windows 10, Windows 8.1 o Windows 7
 
-## Requisitos de red
-<a id="network-requirements" class="xliff"></a>
+## <a name="network-requirements"></a>Requisitos de red
 -   Dynamics 365 for Finance and Operations, Enterprise Edition está diseñado para redes con latencia de 250-300 milisegundos (ms) o menos. Esta es la latencia de un cliente de explorador al centro de datos de Microsoft Azure que aloja Finance and Operations. Se recomienda que pruebe la latencia de red en <http://www.azurespeed.com>.
 -   Los requisitos de ancho de banda dependen de su situación. La mayoría de las situaciones habituales requieren un ancho de banda de más de 50 kilobytes por segundo (Kbps). Sin embargo, para las situaciones con requisitos de carga elevados, como los espacios de trabajo o las situaciones que implican una personalización amplia, se recomienda más ancho de banda.
 
@@ -72,25 +68,20 @@ En general, Finance and Operations está optimizado para Internet. El número de
 
 **Advertencia**: No calcule los requisitos del ancho de banda de una ubicación del cliente multiplicando el número de usuarios por los requisitos mínimos del ancho de banda. El uso simultáneo de una ubicación determinada es difícil de calcular. Para los clientes que están preocupados por los requisitos del ancho de banda, use una versión preliminar de Finance and Operations.
 
-## Requisitos de .NET Framework
-<a id="net-framework-requirements" class="xliff"></a>
+## <a name="net-framework-requirements"></a>Requisitos de .NET Framework
 Requiere la versión 4.6.2 de .NET Framework para todas las aplicaciones ClickOnce, como el agente de ruta del documento. Para obtener instrucciones de instalación, consulte [Instalación de .NET Framework](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).
 
-## Aplicaciones de Microsoft Office compatibles
-<a id="supported-microsoft-office-applications" class="xliff"></a>
+## <a name="supported-microsoft-office-applications"></a>Aplicaciones de Microsoft Office compatibles
 -   Para ejecutar los complementos de Microsoft Excel y Word, es necesario tener instalado Microsoft Office 2016 para Windows o Mac. Para obtener más información acerca de los requisitos de la versión, consulte [la solución de problemas de la integración de Office](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
 -   Para ver los documentos que se generan mediante la funcionalidad de exportación a Excel o exportación a Word, debe tener instalado Microsoft Office 2007 o una versión posterior.
 
-## Requisitos de Retail Modern POS
-<a id="retail-modern-pos-requirements" class="xliff"></a>
-### Sistemas operativos admitidos
-<a id="supported-operating-systems" class="xliff"></a>
+## <a name="retail-modern-pos-requirements"></a>Requisitos de Retail Modern POS
+### <a name="supported-operating-systems"></a>Sistemas operativos admitidos
 
 -   Retail Modern POS es una aplicación de 32 bits, pero se ejecutará en arquitecturas de x86 y de x64.
 -   Retail Modern POS solo se admite en las ediciones Pro, Enterprise y Enterprise Long Term Servicing Branch (LTSB) de Windows 10.
 
-### Requisitos mínimos del sistema
-<a id="minimum-system-requirements" class="xliff"></a>
+### <a name="minimum-system-requirements"></a>Requisitos mínimos del sistema
 
 -   La resolución compatible mínima es 1280 × 1024.
 -   El equipo donde se ejecuta Retail Modern POS debe cumplir estos requisitos:
@@ -98,10 +89,8 @@ Requiere la versión 4.6.2 de .NET Framework para todas las aplicaciones ClickOn
     -   Es necesario, como mínimo, 3 gigabytes (GB) de RAM.
     -   Debe tener acceso a Internet.
 
-## Requisitos de Retail hardware station
-<a id="retail-hardware-station-requirements" class="xliff"></a>
-### Sistemas operativos admitidos
-<a id="supported-operating-systems" class="xliff"></a>
+## <a name="retail-hardware-station-requirements"></a>Requisitos de Retail hardware station
+### <a name="supported-operating-systems"></a>Sistemas operativos admitidos
 
 -   Retail hardware station es una aplicación de 32 bits, pero se ejecutará en arquitecturas de x86 y de x64.
 -   Retail hardware station se admite en los sistemas operativos siguientes:
@@ -109,18 +98,15 @@ Requiere la versión 4.6.2 de .NET Framework para todas las aplicaciones ClickOn
     -   Las ediciones Professional, Enterprise y Embedded de Windows 8.1 Update 1
     -   Ediciones Pro, Enterprise y Enterprise LTSB de Windows 10
 
-### Requisitos mínimos del sistema
-<a id="minimum-system-requirements" class="xliff"></a>
+### <a name="minimum-system-requirements"></a>Requisitos mínimos del sistema
 
 El equipo debe cumplir todos los requisitos del sistema para instalar y usar los siguientes elementos:
 
 -   Servicios de Internet Information Server (IIS)
 -   Hardware de terceros
 
-## Requisitos de Retail Store Scale Unit
-<a id="retail-store-scale-unit-requirements" class="xliff"></a>
-### Sistemas operativos admitidos
-<a id="supported-operating-systems" class="xliff"></a>
+## <a name="retail-store-scale-unit-requirements"></a>Requisitos de Retail Store Scale Unit
+### <a name="supported-operating-systems"></a>Sistemas operativos admitidos
 
 -   Retail Store Scale Unit es una aplicación de 32 bits, pero se ejecutará en arquitecturas de x86 y de x64.
 -   Retail Store Scale Unit se admite en los sistemas operativos siguientes:
@@ -128,24 +114,20 @@ El equipo debe cumplir todos los requisitos del sistema para instalar y usar los
     -   Las ediciones Professional, Enterprise y Embedded de Windows 8.1 Update 1
     -   Ediciones Pro, Enterprise y Enterprise LTSB de Windows 10
 
-### Requisitos mínimos del sistema
-<a id="minimum-system-requirements" class="xliff"></a>
+### <a name="minimum-system-requirements"></a>Requisitos mínimos del sistema
 
 -   4 GB de RAM
 -   Velocidad de CPU pico de 1,6 GHz por núcleo (dos núcleos como mínimo).
 -   Al menos 10 GB de espacio libre (la base de datos del canal puede requerir una gran cantidad de espacio).
 
-### Requisitos del sistema recomendados
-<a id="recommended-system-requirements" class="xliff"></a>
+### <a name="recommended-system-requirements"></a>Requisitos del sistema recomendados
 
 -   6 GB de RAM
 -   Velocidad de CPU pico de 2,4 GHz i7 por núcleo (se recomiendan cuatro núcleos).
 -   Al menos 10 GB de espacio libre (la base de datos del canal puede requerir una gran cantidad de espacio).
 
-## Requisitos de Connector
-<a id="connector-requirements" class="xliff"></a>
-### Sistemas operativos admitidos
-<a id="supported-operating-systems" class="xliff"></a>
+## <a name="connector-requirements"></a>Requisitos de Connector
+### <a name="supported-operating-systems"></a>Sistemas operativos admitidos
 
 -   El Connector para Microsoft Dynamics AX tiene dos instaladores independientes, el **Servicio de Connector de Servidor Async** y el **Servicio en tiempo real para Dynamics AX 2012 R3**.
 -   Ambos componentes son aplicaciones de 32 bits, pero funcionan en arquitecturas x86 y x64.
@@ -155,19 +137,16 @@ El equipo debe cumplir todos los requisitos del sistema para instalar y usar los
     -   Ediciones Pro, Enterprise y Enterprise LTSB de Windows 10
     -   Windows Server 2012 R2, Windows Server 2016
 
-### Requisitos mínimos del sistema
-<a id="minimum-system-requirements" class="xliff"></a>
+### <a name="minimum-system-requirements"></a>Requisitos mínimos del sistema
 
 -   2 GB de RAM, aunque se recomiendan 4 GB de RAM
 -   Velocidad de CPU pico de 1,6 GHz por núcleo (dos núcleos como mínimo).
 -   Al menos 10 GB de espacio libre (la base de datos del canal puede requerir una gran cantidad de espacio).
 
-## Requisitos de desarrollo en VM locales
-<a id="requirements-for-development-on-local-vms" class="xliff"></a>
+## <a name="requirements-for-development-on-local-vms"></a>Requisitos de desarrollo en VM locales
 Para obtener información acerca de los requisitos de desarrollo en las máquinas virtuales locales (VM), consulte [la ejecución de VM en las instalaciones](../dev-tools/access-instances.md).
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Obtenga una copia de evaluacion de Dynamics 365 for Finance and Operations, Enterprise Edition](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy)

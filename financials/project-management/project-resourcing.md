@@ -26,8 +26,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Recursos del proyecto
-<a id="project-resourcing" class="xliff"></a>
+# <a name="project-resourcing"></a>Recursos del proyecto
 
 [!include[banner](../includes/banner.md)]
 
@@ -47,14 +46,12 @@ Un desafío para los directores de proyecto y los directores de recursos durante
 
 Conforme continúa la planificación del proyecto, los recursos planificados se pueden reemplazar por recursos de personal. El director de proyecto también puede volver y actualizar las reservas de recursos durante cualquiera de las etapas del proyecto.
 
-## Configurar recursos del proyecto
-<a id="set-up-project-resources" class="xliff"></a>
+## <a name="set-up-project-resources"></a>Configurar recursos del proyecto
 Debe configurar un calendario y asociarlo a un empleado o un trabajador. El calendario se usa para programar el proyecto y el horario de trabajo de los recursos reservados para el proyecto. Durante la configuración del calendario, los directores de proyecto pueden realizar la nivelación de recursos como parte de la optimización de recursos. En función de la programación del calendario, se pueden aplicar restricciones en los recursos. Puede configurar un calendario en la página **Calendarios**. 
 
 Si configura un trabajador como recurso de proyecto, puede seleccionar entre los trabajadores que trabajan en la empresa para la que está configurando recursos o puede seleccionar trabajadores de otras empresas de la organización. Estos son recursos de empresas vinculadas. Los procedimientos siguientes explican cómo configurar un trabajador como recurso del proyecto dentro de la empresa y cómo configurar un recurso de proyecto de empresas vinculadas.
 
-### Configurar un trabajador como recurso de proyecto
-<a id="set-up-a-worker-as-a-project-resource" class="xliff"></a>
+### <a name="set-up-a-worker-as-a-project-resource"></a>Configurar un trabajador como recurso de proyecto
 
 1.  En la página **Trabajadores**, en la lista **Trabajadores**, seleccione el trabajador que va a agregar como recurso del proyecto y abra el registro de trabajador.
 2.  En el Panel de acciones, haga clic en **Proyecto** &gt; **Configuración** &gt; **Configuración del proyecto**.
@@ -62,8 +59,7 @@ Si configura un trabajador como recurso de proyecto, puede seleccionar entre los
 
 También puede especificar los proyectos predeterminados para un recurso como un tipo de asignación previa. Las asignaciones previas se pueden utilizar cuando el director de recursos o el director de proyecto sabe en qué proyectos trabajará el recurso por adelantado. Las asignaciones previas también se pueden basar en la solicitud de un cliente o patrocinador de proyecto. Para asignar previamente un proyecto, en la página **Asignar proyectos**, en la ficha **Proyectos**, en la lista **Proyectos restantes**, seleccione el proyecto adecuado.
 
-### Configurar un recurso de empresas vinculadas
-<a id="set-up-an-intercompany-resource" class="xliff"></a>
+### <a name="set-up-an-intercompany-resource"></a>Configurar un recurso de empresas vinculadas
 
 Al configurar un trabajador como recurso de empresas vinculadas, debe completar la configuración de la empresa de préstamo y la empresa que recibe el préstamo. 
 
@@ -82,16 +78,14 @@ Al configurar un trabajador como recurso de empresas vinculadas, debe completar 
 1.  Vaya a **Administración de proyectos y contabilidad** &gt; **Recursos del proyecto** &gt; **Lista de recursos**.
 2.  En el filtro de la búsqueda, escriba el nombre de recurso que creó en el procedimiento anterior para que la empresa de préstamo compruebe que el nombre está incluido en la lista de recursos para la empresa que solicita el préstamo.
 
-## Gestionar competencias de recurso
-<a id="manage-resource-competencies" class="xliff"></a>
+## <a name="manage-resource-competencies"></a>Gestionar competencias de recurso
 Las competencias de recurso son una parte esencial de la gestión de recursos. Las competencias se pueden usar como línea base para determinar los recursos con el equilibrio correcto de aptitudes, formación, certificación y experiencia en proyectos. Debe configurar esta información para cada recurso y actualizarla periódicamente. De esta manera, puede maximizar las capacidades cuando las competencias de recursos específicas se concilian durante la asignación de recursos de proyectos. [![Ejemplos de aptitudes, certificaciones, formación y experiencia en proyectos](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg) 
 
 Los procedimientos siguientes explican cómo configurar algunas de las capacidades para un recurso. 
 
 Para configurar competencias para un trabajador, puede usar la página de lista **Trabajadores** en Recursos humanos o la página de lista **Recursos** en Administración de proyectos y contabilidad. Para los siguientes procedimientos, utilizaremos la página de lista **Trabajadores** en Recursos humanos.
 
-### Configuración de competencias: certificados
-<a id="set-up-competencies-certificates" class="xliff"></a>
+### <a name="set-up-competencies-certificates"></a>Configuración de competencias: certificados
 
 1.  En la página de lista **Trabajadores**, seleccione la línea del trabajador para el que está agregando la información de certificado.
 2.  En el panel de acciones, en la pestaña **Trabajador**, en el grupo **Competencias**, haga clic en **Certificados**.
@@ -100,8 +94,7 @@ Para configurar competencias para un trabajador, puede usar la página de lista 
 5.  En el campo **Fecha inicial**, seleccione **1/10/2015**.
 6.  Haga clic en **Guardar** y, a continuación, cierre la página.
 
-### Configurar competencia: aptitudes
-<a id="set-up-competencies-skills" class="xliff"></a>
+### <a name="set-up-competencies-skills"></a>Configurar competencia: aptitudes
 
 1.  En la página de lista **Trabajadores**, asegúrese de que el trabajador que usó en el procedimiento anterior está aún seleccionado. A continuación, en el panel de acciones, en la pestaña **Trabajador**, en el grupo **Competencias**, haga clic en **Aptitudes**.
 2.  Haga clic en **Nuevo**.
@@ -111,8 +104,7 @@ Para configurar competencias para un trabajador, puede usar la página de lista 
 6.  En el campo **Años de experiencia**, escriba **10**.
 7.  Haga clic en **Guardar** y, a continuación, cierre la página.
 
-## Crear un proyecto nuevo
-<a id="create-a-new-project" class="xliff"></a>
+## <a name="create-a-new-project"></a>Crear un proyecto nuevo
 1.  Haga clic en **Administración de proyectos y contabilidad** &gt; **Espacios de trabajo** &gt; **Gestión de proyectos**.
 2.  Haga clic en **Nuevo proyecto** y escriba los siguientes valores:
     -   **Tipo de proyecto:** - Tiempo y material
@@ -121,8 +113,7 @@ Para configurar competencias para un trabajador, puede usar la página de lista 
     -   **Id. de contrato de proyecto:** - 00000002
 3.  Haga clic en **Crear proyecto**.
 
-### Asignar un recurso a un proyecto
-<a id="assign-a-resource-to-a-project" class="xliff"></a>
+### <a name="assign-a-resource-to-a-project"></a>Asignar un recurso a un proyecto
 
 1.  Haga clic en **Recursos humanos** &gt; **Trabajadores** &gt; **Trabajadores**.
 2.  En la lista **Trabajadores**, seleccione el registro del trabajador para el que ha configurado anteriormente competencias y abra el registro de trabajador.
@@ -134,8 +125,7 @@ Para configurar competencias para un trabajador, puede usar la página de lista 
 
 Si es necesario, también puede asignar categorías para un recurso. El tipo de categoría es Coste o Ingresos. Esto lo determina la organización. Si no hay categorías asignadas para el recurso, Finance and Operations buscará la categoría predeterminada en los precios de hora para costes e ingresos.
 
-### Configurar características de rol y recursos de proyectos
-<a id="set-up-project-resource-and-role-characteristics" class="xliff"></a>
+### <a name="set-up-project-resource-and-role-characteristics"></a>Configurar características de rol y recursos de proyectos
 
 Un director de proyecto puede usar la funcionalidad de recursos de proyecto para crear los roles que se requieren para el proyecto. Los roles se pueden usar cuando los recursos confirmados son aún desconocidos cuando se reservan los recursos. Los roles se pueden reservar temporalmente como recursos planeados, de manera que pueda continuar las etapas de planificación de proyectos. 
 
@@ -157,8 +147,7 @@ Los siguientes pasos muestran cómo el director de recursos puede configurar e
 8.  En el campo **Características disponibles**, especifique el tipo de certificado que desea buscar.
 9.  Haga clic en **Aceptar** y cierre la página.
 
-### Asignar un recurso de proyecto a un proyecto
-<a id="assign-a-project-resource-to-a-project" class="xliff"></a>
+### <a name="assign-a-project-resource-to-a-project"></a>Asignar un recurso de proyecto a un proyecto
 
 1.  Haga clic en **Administración de proyectos y contabilidad** &gt; **Común** &gt; **Proyectos** &gt; **Todos los proyectos** y abra el proyecto **Fase 2 de la actualización de XYZ**.
 2.  En la pestaña **Equipo del proyecto y programación**, haga clic en **Agregar**.
@@ -173,8 +162,7 @@ Los siguientes pasos muestran cómo el director de recursos puede configurar e
 8.  Haga clic en **Reserva en firme** &gt; **Capacidad total**.
 9.  Cierre la página.
 
-### Asignar un recurso a un rol predeterminado
-<a id="assign-a-resource-to-a-default-role" class="xliff"></a>
+### <a name="assign-a-resource-to-a-default-role"></a>Asignar un recurso a un rol predeterminado
 
 Para ayudar a los directores de proyecto o de recursos, puede explorar en profundidad en los recursos que se pueden reservar para un proyecto. Puede asociar un rol predeterminado a un recurso existente o un recurso recién adquirido. Por ejemplo, cuando se contrató a Daniel, este tenía la experiencia y aptitudes para ejercer la función de la analista de negocios. El administrador de recursos asignó este rol como rol predeterminado de Daniel. Por lo tanto, la directora de recursos agregó a Daniel a un conjunto de analistas de negocios disponibles para trabajar en proyectos. 
 
@@ -192,8 +180,7 @@ Durante la reserva de recursos, los directores de proyecto pueden filtrar los re
 5.  Haga clic en **Guardar** y, a continuación, cierre la página.
 6.  En la pestaña **Competencias**, agregue la aptitud **ProjectMgmt** y el certificado **PMP**.
 
-## Configurar precios basados en roles
-<a id="set-up-role-based-pricing" class="xliff"></a>
+## <a name="set-up-role-based-pricing"></a>Configurar precios basados en roles
 Todos los precios de coste, ventas y transferencia se pueden configurar para roles.
 
 1.  Haga clic en **Administración de proyectos y contabilidad** &gt; **Configurar** &gt; **Precios** &gt; **Precio de venta (hora)**.
@@ -202,8 +189,7 @@ Todos los precios de coste, ventas y transferencia se pueden configurar para rol
 4.  En la columna **Rol** seleccione un rol.
 5.  En la columna **Precio**, especifique un precio para el rol del recurso seleccionado.
 
-## Formación de un equipo de proyecto
-<a id="form-a-project-team" class="xliff"></a>
+## <a name="form-a-project-team"></a>Formación de un equipo de proyecto
 Para usar los roles que se configuraron anteriormente en un proyecto, un director de proyecto debe asociar los roles al proyecto. Se pueden asignar varios roles para un proyecto y Finance and Operations etiqueta automáticamente estos roles durante la reserva para evitar confusiones. Por ejemplo, si el director de proyecto necesita tres ingenieros de software, se generan automáticamente tres roles de ingenieros de software que tienen las etiquetas ingeniero de software 1, ingeniero de software 2 e ingeniero de software 3. Si se establecieron anteriormente características de rol para el rol, se aplican como filtro durante búsquedas para un recurso. Se pueden agregar características adicionales según sea necesario para restringir más la búsqueda. 
 
 La configuración de la vista también se pueden personalizar para ofrecer una mejor vista de la disponibilidad de recursos. Hay opciones para mostrar la disponibilidad por hora, diaria, semanal, mensual, trimestral y anual. También hay una opción para mostrar la capacidad disponible y restante en los recursos. Esta opción es útil para la gestión del tiempo cuando se calcula el tiempo disponible para las actividades o la disponibilidad de recursos. 
@@ -219,8 +205,7 @@ El director de proyecto tiene varias opciones para reservar un recurso para un p
 
 El siguiente procedimiento explica cómo crear un equipo de proyecto.
 
-### Crear un equipo de proyecto
-<a id="create-a-project-team" class="xliff"></a>
+### <a name="create-a-project-team"></a>Crear un equipo de proyecto
 
 1.  En la página de lista **Todos los proyectos**, seleccione un proyecto y, a continuación, haga clic en **Editar**.
 2.  En la pestaña **Equipo del proyecto y programación**, en el campo **Programar fecha final**, especifique la fecha inicial de la programación más un mes. Por ejemplo, si la fecha inicial de la programación es el 24 de junio de 2017 (24/06/2017), escriba **24/07/2017**.
@@ -235,12 +220,10 @@ El siguiente procedimiento explica cómo crear un equipo de proyecto.
 11. Haga clic en **Crear**.
 12. En la página **Proyectos**, haga clic en **Cumplir con recurso**.
 
-## Sincronización de capacidad de recursos
-<a id="resource-capacity-synchronization" class="xliff"></a>
+## <a name="resource-capacity-synchronization"></a>Sincronización de capacidad de recursos
 Los procesos para la sincronización de recursos ayudan a garantizar que la información del calendario y del calendario de base entran lentamente en la programación de recursos del proyecto. Si se modifica el calendario, los procesos realizan las actualizaciones necesarias a la programación de recursos del proyecto. Los procesos también ayudan a mejorar el rendimiento, porque la información del recurso del calendario se sincroniza por adelantado, de modo que las actualizaciones a la información de la programación de recursos se produce con mayor rapidez. Se recomienda la programación de los procesos como lote en lugar de uno cada vez. De no ser así, existe el riesgo de que alguien olvidará las fechas inclusivas en las que la información se sincronizó por última vez. Si no se usan fechas inclusivas, pueden producir huecos durante la sincronización de fecha.
 
-### ![Sincronización de calendario](./media/projectresourcing04-1024x471.jpg)
-<a id="calendar-synchronizationmediaprojectresourcing04-1024x471jpg" class="xliff"></a>
+### <a name="calendar-synchronizationmediaprojectresourcing04-1024x471jpg"></a>![Sincronización de calendario](./media/projectresourcing04-1024x471.jpg)
 
 **Sincronizar acumulaciones de capacidad de recursos**
 
@@ -257,16 +240,14 @@ Recomendamos que use un lote. Las opciones están disponibles en la sincronizaci
 
 [![Proceso de sincronización](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
-## Configurar roles en plantillas de WBS
-<a id="set-up-roles-on-wbs-templates" class="xliff"></a>
+## <a name="set-up-roles-on-wbs-templates"></a>Configurar roles en plantillas de WBS
 Los directores de proyecto pueden configurar plantillas de WBS que pueden aplicar al crear una WBS para proyectos nuevos. Los directores de proyecto pueden agregar roles al crear una plantilla. Use el siguiente procedimiento para asignar un rol a una plantilla de WBS.** **
 
 1.  Haga clic en **Administración de proyectos y contabilidad** &gt; **Configurar** &gt; **Proyectos** &gt; **Plantillas de estructura de descomposición del trabajo**.
 2.  Haga clic en **Detalles** para una plantilla de WBS seleccionada.
 3.  Seleccione una tarea en la lista y, a continuación, en el campo **Rol**, seleccione un rol para asignarlo a la tarea.
 
-### Trabajar con una WBS
-<a id="work-with-a-wbs" class="xliff"></a>
+### <a name="work-with-a-wbs"></a>Trabajar con una WBS
 
 Puede crear una nuevo WBS o puede copiar una WBS de una plantilla de WBS existente. Un director de proyecto puede gestionar fácilmente los recursos asignando roles a las nuevas tareas en la WBS. Los roles se pueden reemplazar después de adquirirse un recurso o después de que se identifique un recurso confirmado para trabajar en la tarea. Esta flexibilidad permite a los directores de proyecto realizar las tareas siguientes:
 
@@ -338,8 +319,7 @@ Se han agregado opciones adicionales en la WBS para usar mejor mejor la funciona
 > No recibe una advertencia que el recurso especificado es ahora 2, porque el número de recursos sigue siendo 1.
 18. En la página **Estructura de descomposición del trabajo**, valide la asignación de recursos en la WBS y, a continuación, haga clic en **Guardar**.
 
-## Cumplimiento de recursos para recursos planificados
-<a id="resource-fulfillment-for-planned-resources" class="xliff"></a>
+## <a name="resource-fulfillment-for-planned-resources"></a>Cumplimiento de recursos para recursos planificados
 Un director de proyecto puede planificar los roles de recursos necesarios para un proyecto. El administrador de recursos verá estos recursos planificados como solicitudes en la página **Cumplimiento de recursos** y puede asignar recursos reales.
 
 1.  Haga clic en **Gestión de proyectos y contabilidad** &gt; **Proyectos** &gt; **Todos los proyectos**.
@@ -356,8 +336,7 @@ Un director de proyecto puede planificar los roles de recursos necesarios para u
 12. Compruebe que se ha eliminado la línea para **Desarrollador de software 1** para el proyecto **Fase 2 del proyecto de actualización de XYZ**.
 13. En la pestaña **Equipo del proyecto y programación**, para el proyecto **Fase 2 de la actualización de XYZ**, compruebe que se ha agregado el trabajador que seleccionó en el paso 11 como **Desarrollador de software**.
 
-## Solicitudes de recursos de proyecto
-<a id="requests-for-project-resources" class="xliff"></a>
+## <a name="requests-for-project-resources"></a>Solicitudes de recursos de proyecto
 La funcionalidad de programación de recursos del proyecto solo admite a administradores de recursos para distribuir recursos de personal en compromisos o proyectos. Para habilitar esta funcionalidad, realice las tareas siguientes, o compruebe que se han realizado.
 
 -   Configurar secuencias numéricas.
@@ -372,8 +351,7 @@ Una vez que haya comprobado o haya completado las tareas anteriores, puede compl
 -   Solicite un recurso de personal de EDT.
 -   Reserve recursos para un proyecto sin un pedido de recurso de personal.
 
-## Supervisar los equipos de proyecto
-<a id="monitor-project-teams" class="xliff"></a>
+## <a name="monitor-project-teams"></a>Supervisar los equipos de proyecto
 1.  Haga clic en **Gestión de proyectos y contabilidad** &gt; **Proyectos** &gt; **Todos los proyectos**.
 2.  En la lista de proyectos, haga clic en el vínculo **Id. de proyecto** para el proyecto **Fase 2 de la actualización de XYZ**.
 3.  En la ficha desplegable **Equipo del proyecto y programación**, compruebe que los recursos de proyectos mostrados son correctos.

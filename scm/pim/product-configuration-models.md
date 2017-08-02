@@ -27,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Visión general de los modelos de configuración de productos
-<a id="product-configuration-models-overview" class="xliff"></a>
+# <a name="product-configuration-models-overview"></a>Visión general de los modelos de configuración de productos
 
 [!include[banner](../includes/banner.md)]
 

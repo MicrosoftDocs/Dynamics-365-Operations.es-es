@@ -58,7 +58,7 @@ Defina un *modelo presupuestario *que corresponde a todos o a algunos presupues
 > [!NOTE] 
 > Si se usa el control presupuestario, solo puede asociar un modelo presupuestario a un intervalo de tiempo del ciclo presupuestario concreto. 
 
-Cree *códigos de presupuesto *que identifiquen el tipo de transacciones de presupuesto para registrar y cualquier flujo de trabajo relacionado. Los códigos de presupuesto pueden admitir los tipos de presupuesto siguientes:
+Cree *códigos de presupuesto* que identifiquen el tipo de transacciones de presupuesto para registrar y cualquier flujo de trabajo relacionado. Los códigos de presupuesto pueden admitir los tipos de presupuesto siguientes:
 
 -   Presupuesto original
 -   Transferir
@@ -79,7 +79,7 @@ El administrador de presupuestos puede revisar el estado actual de un presupuest
 
 La página de consulta **Presupuesto frente a gastos reales** le permite explorar los detalles presupuestarios con los importes reales. Seleccione una línea en la página de consulta, y haga clic en **Saldos del período** para ver el presupuesto y los importes reales en los períodos fiscales. La página **Asientos contables presupuestarios** ofrece detalles del importe presupuestario en asientos de registro presupuestario. La página **Entradas del diario general** abre las transacciones contables que se incluyen en el importe calculado **Gastos reales**. 
 
-Una empresa que está utilizando la funcionalidad de planificación presupuestaria puede crear y usar *previsiones presupuestarias *en el espacio de trabajo **Presupuestos contables y previsiones**.
+Una empresa que está utilizando la funcionalidad de planificación presupuestaria puede crear y usar *previsiones presupuestarias* en el espacio de trabajo **Presupuestos contables y previsiones**.
 
 
 

@@ -26,8 +26,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Id. de registro
-<a id="registration-ids" class="xliff"></a>
+# <a name="registration-ids"></a>Id. de registro
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,8 +35,7 @@ Este tema proporciona información acerca de la configuración y el uso de Id. d
 
 Muchos países y regiones tienen diferentes normativas y requisitos para registrar números de registro o Id. Este tema proporciona una visión general de la configuración y el procesamiento requeridos para los tipos de registro admitidos para las partes en los distintos países/regiones europeos. Todos los países/regiones tienen requisitos propios para admitir las distintas funciones específicas del país relacionadas con los números de registro suministrados por las distintas oficinas de Estado. Ejemplos de los números de registro son: el número de la Seguridad Social (SSN), el número de identificación fiscal (TIN), y la identificación Europea de IVA (identificador de IVA de la UE). Esta característica proporciona un marco unificado para todos los países en todas las regiones y tiene en cuenta los requisitos específicos de algunos países europeos. Las siguientes secciones describen el flujo general de información que se utiliza para configurar y procesar los Id. de registro.
 
-## Creación de tipo de registro
-<a id="registration-type-creation" class="xliff"></a>
+## <a name="registration-type-creation"></a>Creación de tipo de registro
 Para poder especificar el Id. de registro, debe configurar tipos de registro para los diversos tipos de números de registro a los que está sujeta cada parte. Vaya a la página **Administración de la organización** &gt; **Libreta de direcciones global** &gt; **Tipos de registro** &gt; **Tipos de registro** para crear y gestionar los tipos de registro para proveedores, clientes, trabajadores, y entidades jurídicas en distintos países o regiones.
 
 |Campo                 |Descripción      |
@@ -52,8 +50,7 @@ Para poder especificar el Id. de registro, debe configurar tipos de registro par
 | Único              | Indica si el número de registro del tipo de registro es único. |
 | Principal para país o región | Si una parte está asociada a una o varias direcciones en un país determinado y el identificador del registro es válido para todas estas direcciones, debe designar una de las direcciones como la dirección principal en dicho país. Solo puede registrar un identificador como principal. Define si el número de registro se puede especificar solo para la dirección principal del país. |
 
-## Asignar un tipo de registro a una categoría de registro
-<a id="assign-a-registration-type-to-a-registration-category" class="xliff"></a>
+## <a name="assign-a-registration-type-to-a-registration-category"></a>Asignar un tipo de registro a una categoría de registro
 La categoría del registro es un identificador de registro de país/región aprobado en un país/región determinado para impuestos, aduanas y otros propósitos. Esta categoría define reglas de validación de un identificador determinado de registro (dígitos de control incluidos etc.) y de un identificador del registro de inclusión en diversos informes. Use la página **Administración de la organización** &gt; **Libreta de direcciones global** &gt; **Tipos de registro** &gt; **Categorías de registro** para asignar el tipo de registro de un determinado país a la categoría compatible del registro.
 
 | Campo            | Descripción|
@@ -62,8 +59,7 @@ La categoría del registro es un identificador de registro de país/región apro
 | Restringido a         | La clase de restricción que se aplica al tipo de registro de impuestos: Ninguno, persona, organización.|
 | Categoría de registro | El identificador único de registro aprobado para usar en el país. La lista completa que se admite en las categorías de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition se muestra a continuación. |
 
-## Especificar el identificador del registro de los registros de la libreta de direcciones global
-<a id="enter-registration-ids-for-global-address-book-records" class="xliff"></a>
+## <a name="enter-registration-ids-for-global-address-book-records"></a>Especificar el identificador del registro de los registros de la libreta de direcciones global
 
 La libreta de direcciones global (GAB) en Microsoft Finance and Operations contiene información de dirección consolidada para clientes, proveedores, contactos, relaciones empresariales y entidades jurídicas. Para obtener más información, consulte la [visión global de la libreta de direcciones global](/dynamics365/unified-operations/fin-and-ops/organization-administration/overview-global-address-book). Los registros de partes que se almacenan en la libreta de direcciones global pueden contener uno o varios registros de dirección. Estas direcciones se usan para distintos fines, por ejemplo la facturación o entrega. Puede configurar los identificadores de registro de la información de dirección de clientes, proveedores, trabajadores y entidades jurídicas. Encuentre el registro de la parte (entidad jurídica, proveedor, cliente, trabajador) cuyo identificador de registro quiera especificar y haga clic en **Id. de registro** en los formularios relacionados con la parte, entidad jurídica, proveedor, cliente, trabajador, para abrir la página **Administrar direcciones**. En la ficha **Registro de impuestos**, haga clic en **Agregar** y especifique la siguiente información sobre el identificador del registro.
 
@@ -82,12 +78,10 @@ La libreta de direcciones global (GAB) en Microsoft Finance and Operations conti
 > [!NOTE]
 > El número de identificación fiscal de la entidad jurídica, proveedor, cliente puede ser seleccionado a partir de los identificadores de registro relacionados con el identificador del IVA y especificados para la parte.
 
-## Buscar registros por el identificador de registro
-<a id="search-for-records-by-registration-id" class="xliff"></a>
+## <a name="search-for-records-by-registration-id"></a>Buscar registros por el identificador de registro
 La búsqueda de registros de partes en función de un identificador de registro está disponible en los formularios relacionados con la parte, la entidad jurídica, el proveedor, el cliente, y el trabajador. Haga clic en **Búsqueda de id. de registro** para abrir la página **Criterios de búsqueda de id. de registro**. Especifique los criterios de búsqueda y haga clic en **Buscar**. El sistema mostrará los registros seleccionados de la libreta de direcciones global y los tipos asociados de registro de parte.
 
-## Categorías de registro admitidas
-<a id="supported-registration-categories" class="xliff"></a>
+## <a name="supported-registration-categories"></a>Categorías de registro admitidas
 La tabla siguiente muestra una lista de los tipos de registro admitidos en Finance and Operations. Si está familiarizado con los campos de Microsoft Dynamics AX 2012 para los Id. de registro, esta tabla también asigna dichos campos a las categorías de registro de Finance and Operations.
 
 | Categoría de registro de Finance and Operations         |País/región  | Término/campo de Dynamics AX 2012|

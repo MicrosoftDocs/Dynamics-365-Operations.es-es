@@ -23,8 +23,7 @@ ms.lasthandoff: 06/14/2017
 
 ---
 
-# Cargo invertido
-<a id="reverse-charge-vat" class="xliff"></a>
+# <a name="reverse-charge-vat"></a>Cargo invertido
 Este tema describe un enfoque genérico para configurar el impuesto sobre el valor añadido (VAT) de cargo invertido para países europeos.
 
 El cargo invertido es un esquema de impuestos que transfiere la responsabilidad de la contabilidad y notificación del IVA del vendedor al comprador de mercancías o servicios. Por lo tanto, los destinatarios de mercancías o servicios informan el IVA diferido(en el rol de un vendedor) y el IVA soportado (en el rol de un comprador) en su declaración del IVA.
@@ -33,8 +32,7 @@ La directiva de la Unión Europea (EU) deja a los estados miembros determinar c�
 
 Para aplicar el cargo invertido, debe completar la configuración siguiente.
 
-## Configurar códigos de impuestos
-<a id="set-up-sales-tax-codes" class="xliff"></a>
+## <a name="set-up-sales-tax-codes"></a>Configurar códigos de impuestos
 Recomendamos que use los códigos de impuestos independientes para las operaciones de compra y las operaciones de ventas.
 
 <table>
@@ -58,8 +56,7 @@ Debe asignar este código de impuestos negativo a un grupo de impuestos de artí
 </tbody>
 </table>
 
-## Configurar grupos de impuestos y grupos de impuestos de artículos
-<a id="set-up-sales-tax-groups-and-item-sales-tax-groups" class="xliff"></a>
+## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Configurar grupos de impuestos y grupos de impuestos de artículos
 Recomendamos que use los grupos de impuestos independientes para las operaciones de compra y las operaciones de ventas.
 
 <table>
@@ -77,12 +74,10 @@ Recomendamos que use los grupos de impuestos independientes para las operaciones
 </tr>
 </table>
 
-## Configurar los grupos de cargo invertido
-<a id="set-up-reverse-charge-groups" class="xliff"></a>
+## <a name="set-up-reverse-charge-groups"></a>Configurar los grupos de cargo invertido
 En la página **Grupos de artículos de cargo invertido** (**Impuestos** > **Configuración** > **Impuestos** > **Grupos de artículos de cargo invertido**), puede definir grupos de productos o servicios, o productos individuales o servicios, a los que se puede aplicar el cargo invertido. Para cada grupo de artículos de cargo invertido, defina la lista de artículos, grupos de artículos y categorías para ventas o compras.
 
-## Configurar las reglas de cargo invertido
-<a id="set-up-reverse-charge-rules" class="xliff"></a>
+## <a name="set-up-reverse-charge-rules"></a>Configurar las reglas de cargo invertido
 En la página **Reglas de cargo invertido** (**Impuestos** > **Configuración** > **Impuestos** > **Reglas de cargo invertido**), puede definir las reglas de la aplicabilidad para fines de compra y venta. Puede configurar un conjunto de reglas de aplicabilidad de cargo invertido. Para cada regla, establezca los siguientes campos:
 
 - **Tipo de documento**: seleccione **Pedido de compra**, **Diario de facturas de proveedor**, **Pedido de ventas**, **Factura de servicios**, **Diario de facturas del cliente** o **Factura de proveedor**.
@@ -99,18 +94,15 @@ Además, puede especificar si va a aparecer una notificación y si la línea del
 - **Solicitud**: aparece una notificación para confirmar que el cargo invertido se puede aplicar.
 - **Establecer**: la línea del documento se actualiza sin la notificación adicional.
 
-## Configurar parámetros predeterminados
-<a id="set-up-default-parameters" class="xliff"></a>
+## <a name="set-up-default-parameters"></a>Configurar parámetros predeterminados
 Para habilitar la funcionalidad, en la página **Parámetros de contabilidad general**, en la pestaña **Cargo invertido**, establezca la opción **Habilitar cargo invertido** en **Sí**. En el los campos **Grupo de impuestos del pedido de compra** y **Grupo de impuestos de pedido de ventas**, seleccione los grupos de impuestos predeterminados. Cuando se cumple una condición de la aplicabilidad de cargo invertido, la línea de pedido de ventas o compra se actualiza con estos grupos de impuestos.
 
-## Cargo invertido en una factura de ventas
-<a id="reverse-charge-on-a-sales-invoice" class="xliff"></a>
+## <a name="reverse-charge-on-a-sales-invoice"></a>Cargo invertido en una factura de ventas
 Para las ventas sujetas al modelo de cargo invertido, el vendedor no carga el IVA. En su lugar, la factura indica los artículos sujetos al IVA de cargo invertido y el importe total del IVA de cargo invertido.
 
 Cuando se registra una factura de ventas con cargo invertido, las transacciones de impuestos tienen la dirección fiscal de **Impuestos repercutidos** y los impuestos cero, y la casilla de verificación **Cargo invertido** está seleccionada.
 
-## Cargo invertido en una factura de compras
-<a id="reverse-charge-on-a-purchase-invoice" class="xliff"></a>
+## <a name="reverse-charge-on-a-purchase-invoice"></a>Cargo invertido en una factura de compras
 Para las compras sujetas a cargo invertido, el comprador que recibe la factura con el cargo invertido actúa como un comprador y vendedor a efectos contables de IVA.
 
 Cuando se registra una factura de compra con cargo invertido, se crean dos transacciones de impuestos. Una transacción tiene la dirección fiscal de **Impuestos soportados**. La otra transacción tiene la dirección fiscal de **Impuestos repercutidos** y se selecciona la casilla de verificación **Cargo invertido**.

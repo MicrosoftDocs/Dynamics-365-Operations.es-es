@@ -26,37 +26,32 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Informe financiero de informe de ingresos
-<a id="income-statement-financial-report" class="xliff"></a>
+# <a name="income-statement-financial-report"></a>Informe financiero de informe de ingresos
 
 [!include[banner](../includes/banner.md)]
 
 
 En este artículo se describen los informes predeterminados para las declaraciones de ingresos. También se describen los componentes asociados con este informe. 
 
-Informe de ingresos predeterminado
-<a id="default-income-statement-report" class="xliff"></a>
+<a name="default-income-statement-report"></a>Informe de ingresos predeterminado
 -------------------------------
 
 | Informe predeterminado             | Qué hace                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
 | Informe de ingresos – predeterminado | Ofrece una vista de la rentabilidad de la organización para el período actual y también para el ejercicio hasta la fecha. |
 
-## Bloques de creación
-<a id="building-blocks" class="xliff"></a>
+## <a name="building-blocks"></a>Bloques de creación
 El informe financiero del informe de ingresos usa los siguientes bloques de creación.
 
 | Informe predeterminado             | Definición de filas                     | Definición de columnas          |
 |----------------------------|------------------------------------|----------------------------|
 | Informe de ingresos - predeterminado | Resumen de informe de ingresos - predeterminado | Periódico y anual - predeterminado |
 
-### Definición de filas
-<a id="row-definition" class="xliff"></a>
+### <a name="row-definition"></a>Definición de filas
 
 La definición de filas, Resumen de informe de ingresos - predeterminado, contiene una sección para cada parte de un extracto tradicional de ingresos. La dimensión Categoría de cuenta principal se usa para crear esta definición de filas. Por tanto, cualquier persona puede generar el informe sin tener que realizar ninguna modificación.
 
-### Definición de columnas
-<a id="column-definition" class="xliff"></a>
+### <a name="column-definition"></a>Definición de columnas
 
 Las definiciones de columnas contienen diversos tipos de columnas para proporcionar distintos niveles de detalle y datos financieros.
 
@@ -67,8 +62,7 @@ Las definiciones de columnas contienen diversos tipos de columnas para proporcio
 
  
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Informes financieros](financial-reporting-getting-started.md)

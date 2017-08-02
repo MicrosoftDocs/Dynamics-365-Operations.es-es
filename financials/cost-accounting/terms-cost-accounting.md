@@ -27,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Terminología de contabilidad de costes
-<a id="cost-accounting-terminology" class="xliff"></a>
+# <a name="cost-accounting-terminology"></a>Terminología de contabilidad de costes
 
 [!include[banner](../includes/banner.md)]
 

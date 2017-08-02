@@ -1,37 +1,35 @@
 ---
-title: Glosario de Dynamics 365 for Operations
-description: "El glosario de Microsoft Dynamics 365 for Operations define términos y conceptos clave del producto Dynamics 365 for Operations."
+title: Glosario de Finance and Operations
+description: "En este glosario se definen términos y conceptos clave de Microsoft Dynamics 365 for Finance and Operations, edición Enterprise."
 author: tonyafehr
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 07/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 44101
 ms.assetid: d4e01957-69a0-4c92-91c5-4646c8b0cad8
 ms.search.region: Global
 ms.author: tfehr
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4f3015ed4f8dc165d988b2b63ed9ad89d6d6f578
+ms.translationtype: HT
+ms.sourcegitcommit: 84ee9110fa32a551133a6ab4b7c6feb9ea9c017a
+ms.openlocfilehash: 0b4d5285cc1aa44da566ec5d7fa7ebe568729fdf
 ms.contentlocale: es-es
-ms.lasthandoff: 06/08/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Glosario de Dynamics 365 for Operations
+# <a name="finance-and-operations-glossary"></a>Glosario de Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-
-El glosario de Microsoft Dynamics 365 for Operations define términos y conceptos clave del producto Dynamics 365 for Operations. 
+En este glosario se definen términos y conceptos clave de Microsoft Dynamics 365 for Finance and Operations, edición Enterprise. 
 
 ### <a name="a"></a>**A**
 
@@ -51,17 +49,9 @@ Sistema de transferencia electrónica de fondos disponible en Estados Unidos que
 
 Cantidad medida que se aplica a una actividad o que se obtiene de esta.
 
-###### <a name="address-verification-service"></a>**servicio de verificación de direcciones**
+###### <a name="address-verification"></a>**verificación de direcciones**
 
 Este servicio lo presta un procesador de tarjetas de crédito que valida que la dirección de facturación facilitada por el titular de una tarjeta coincida con la información del archivo del banco emisor.
-
-###### <a name="adjusted-unit-price"></a>**precio unitario ajustado**
-
-El precio unitario calculado a partir de los precios basados en atributos y la potencia real recibida.
-
-###### <a name="advanced-pricing"></a>**cálculos de precios avanzados**
-
-Lógica usada para calcular los precios de compra de un artículo de potencia.
 
 ###### <a name="aging"></a>**vencimiento**
 
@@ -101,14 +91,13 @@ Período de tiempo en el que se obtiene la calidad o característica óptima de 
 
 Documento de origen que justifica una solicitud incondicional para que un tercero abone un importe a otra parte a petición.
 
-###### <a name="bill-of-materials"></a>**lista de materiales**
-
-Lista de productos y sus cantidades necesarias para producir un producto.
-
 ###### <a name="blocking"></a>**bloqueo**
 
 Acción de poner un documento o producto en espera.
 
+###### <a name="bom-bill-of-materials"></a>**L. MAT. (lista de materiales)**
+
+Lista de productos y sus cantidades necesarias para producir un producto.
 ###### <a name="budget-control"></a>**control presupuestario**
 
 Práctica de autorizar gastos solo si se pueden reservar fondos del presupuesto que satisfagan los compromisos de pago futuros.
@@ -175,14 +164,6 @@ Una lista de cuentas principales.
 
 Categoría de contabilidad utilizada para sumar las consecuencias financieras de la fabricación de productos y la realización del inventario.
 
-###### <a name="commodity-pricing"></a>**precios de mercancías**
-
-Estrategia de precios para actualizar el precio de artículos de ventas producidos a partir de mercancías sujetas a cambios de precio frecuentes.
-
-###### <a name="consolidated-order"></a>**pedido consolidado**
-
-Documento de origen que justifica más de un pedido de referencia.
-
 ###### <a name="contractor"></a>**contratista**
 
 Rol que asume una persona que participa en una relación de contratista-empresario con una entidad jurídica.
@@ -194,10 +175,6 @@ Artículo producido junto con otro artículo.
 ###### <a name="cost-center"></a>**centro de coste**
 
 Unidad operativa cuyos directores se responsabilizan de los gastos presupuestados y reales.
-
-###### <a name="cost-of-goods-sold"></a>**coste de bienes vendidos**
-
-Categoría de contabilidad utilizada para sumar las consecuencias financieras de la fabricación de productos y la realización del inventario.
 
 ###### <a name="cost-variance"></a>**desviación de coste**
 
@@ -223,7 +200,7 @@ Tiempo dedicado a completar una actividad.
 
 ###### <a name="dashboard"></a>**panel de información**
 
-La página de inicio típica de Dynamics 365 for Operations. En el panel de información los usuarios ven una sección por cada espacio de trabajo al que tienen acceso. Cada sección muestra los iconos de las secciones de resumen del espacio de trabajo correspondiente. El panel de información tiene un nombre y secciones con iconos.
+La página de inicio típica de Finance and Operations. En el panel de información los usuarios ven una sección por cada espacio de trabajo al que tienen acceso. Cada sección muestra los iconos de las secciones de resumen del espacio de trabajo correspondiente. El panel de información tiene un nombre y secciones con iconos.
 
 ###### <a name="data-entity"></a>**entidad de datos**
 
@@ -260,10 +237,6 @@ Tecnología de configuración utilizada para crear variantes del producto selecc
 ###### <a name="distinct-product"></a>**producto único**
 
 Producto identificable exclusivamente.
-
-###### <a name="document-blocking"></a>**bloqueo de documentos**
-
-Método para poner en espera el proceso de una operación mientras los artículos pedidos se encuentran en un proceso de control de calidad.
 
 ###### <a name="document-management-system"></a>**sistema de gestión de documentos**
 
@@ -316,10 +289,6 @@ Divisa que tiene un tipo de cambio fijo con respecto a otra divisa.
 ###### <a name="fixed-quantity-kanban"></a>**kanban de cantidad fija**
 
 Tipo de kanban que se utiliza cuando el número de kanbans asignados a una regla kanban es constante.
-
-###### <a name="flexible-authentication"></a>**autenticación flexible**
-
-Proceso de autenticación en el que los usuarios de varios sistemas de gestión de la identidad se pueden autenticar.
 
 ###### <a name="formula"></a>**fórmula**
 
@@ -379,10 +348,6 @@ Proceso o actividad de transferencia en un flujo de producción desencadenado po
 
 Retirada de componentes de producto del inventario para completar los trabajos de producción kanban.
 
-###### <a name="kanban-product-quantity"></a>**cantidad de productos kanban**
-
-Número de requisitos de artículos que se llevan a cabo en un kanban basándose en una regla kanban.
-
 ###### <a name="kanban-rule"></a>**regla kanban**
 
 Regla en un sistema de lean manufacturing (fabricación ajustada) que realiza directivas de planificación y reabastecimiento de material controlando cómo se coordinan las actividades de proceso y transferencia en flujos de producción.
@@ -410,10 +375,6 @@ Clave alfanumérica que concede a una parte el derecho a utilizar software o com
 Capacidad de una parte de utilizar activos actuales para liquidar pasivos actuales.
 
 ### <a name="m"></a>**M**
-
-###### <a name="manufacturing-overhead-based-on-material"></a>**gastos generales de fabricación basados en los materiales**
-
-Los gastos generales de fabricación se expresan mediante fórmulas de cálculo de costes indirectos para un porcentaje de suplemento. El grupo de costes que se asigna a los componentes de materiales proporciona la base para la fórmula de cálculo. Las fórmulas de cálculo se pueden definir para productos individuales o para grupos de artículos asignados a productos, lo que permite obtener una mayor flexibilidad a la hora de calcular los gastos generales de fabricación basados en los materiales.
 
 ###### <a name="master-scheduling"></a>**programación maestra**
 
@@ -459,10 +420,6 @@ Un paquete es una unidad compilable e implementable de uno o varios modelos.
 
 ###### <a name="party"></a>**parte**
 
-Entidad que asume un rol legalmente vinculante al participar en una relación contractual.
-
-###### <a name="party"></a>**parte**
-
 Persona u organización que participa en actividades económicas.
 
 ###### <a name="pegging"></a>**diagrama de árbol**
@@ -472,10 +429,6 @@ Proceso de realizar un seguimiento de la cantidad de un artículo requerido de u
 ###### <a name="pegging-event"></a>**evento de pedido**
 
 Evento de flujo de recursos que señala la demanda de un producto.
-
-###### <a name="phantom-item"></a>**artículo fantasma**
-
-Artículo que se produce pero no se mantiene en existencias.
 
 ###### <a name="planned-intercompany-demand"></a>**demanda planificada de empresa vinculada**
 
@@ -489,17 +442,9 @@ Registrar el valor monetario de un evento económico en una cuenta determinada o
 
 Persona que crea un documento de origen para iniciar una solicitud de recursos económicos.
 
-###### <a name="privilege"></a>**privilegio**
-
-Uno o más permisos que necesita un usuario para realizar una tarea.
-
 ###### <a name="procurement-catalog"></a>**catálogo de compras**
 
 Listado de ofertas de productos que se agrupan por categoría de compras. Un catálogo de compras sirve para solicitar productos para uso interno de una organización.
-
-###### <a name="product-component"></a>**componente del producto**
-
-Parte de un producto.
 
 ###### <a name="product-dimension"></a>**dimensión del producto**
 
@@ -507,7 +452,7 @@ Atributos de tamaño, color o configuración del producto que se utilizan para l
 
 ###### <a name="product-family"></a>**familia de productos**
 
-Agrupación única de artículos, servicios o derechos que participa en las mismas actividades de producción o entrega o que se ofrecen a los mismos segmentos de mercado. En Dynamics 365 for Operations, la agrupación se representa mediante el uso de una clave de asignación de previsión.
+Agrupación única de artículos, servicios o derechos que participa en las mismas actividades de producción o entrega, o que se ofrecen a los mismos segmentos de mercado. En Finance and Operations, la agrupación se representa mediante el uso de una clave de asignación de previsión.
 
 ###### <a name="product-master"></a>**producto maestro**
 
@@ -581,11 +526,7 @@ Método que se utiliza para aumentar o disminuir los requisitos de previsión en
 
 Registro que se utiliza para registrar las consecuencias operativas, legales y financieras de eventos de flujo de recursos en un sistema contable.
 
-###### <a name="regulated-product"></a>**producto regulado**
-
-Producto que regula una autoridad gubernamental que requiere el cumplimiento de las normativas y la elaboración de informes de auditoría.
-
-###### <a name="rfq-request-for-quotation"></a>**RFQ (solicitud de presupuesto)**
+###### <a name="rfq-request-for-quotation"></a>**solicitud de presupuesto**
 
 Documento de origen que justifica una invitación a una oferta para suministrar una cantidad de producto por un precio determinado y antes de una fecha determinada.
 
@@ -593,9 +534,6 @@ Documento de origen que justifica una invitación a una oferta para suministrar 
 
 Persona que solicita los recursos económicos.
 
-###### <a name="restricted-product"></a>**producto restringido**
-
-Producto cuya distribución está limitada o restringida por una autoridad gubernamental.
 
 ### <a name="s"></a>**S**
 
@@ -647,13 +585,6 @@ Cantidad de producto justificada en una línea de documento de origen que crea u
 
 Estimación de la demanda futura que se crea aplicando un algoritmo de previsión a datos de transacciones históricos.
 
-###### <a name="supermarket"></a>**supermercado**
-
-Ubicación de inventario just-in-time (justo a tiempo) que tiene una capacidad finita y se utiliza para realizar lotes de material cerca de un punto de consumo.
-
-###### <a name="system-defined-financial-dimension-type"></a>**tipo de dimensión financiera definido por el sistema**
-
-Dimensión financiera asignada a una tabla o vista en la base de datos que representa un tipo de entidad y cuyos valores están en el dominio de un solo atributo de dicho tipo de entidad.
 
 ### <a name="t"></a>**T**
 
@@ -667,11 +598,11 @@ Experiencia controlada y dirigida a través de los pasos de una grabación de ta
 
 ###### <a name="task-recorder"></a>**Grabador de tareas**
 
-Herramienta preinstalada en Dynamics 365 for Operations. Durante la grabación, graba todos los eventos introducidos por el usuario a través de la interfaz de usuario de Dynamics 365 for Operations que se ejecutan en el servidor (incluidos valores añadidos, opciones de configuración modificadas, datos eliminados, etc.).
+Herramienta preinstalada en Finance and Operations. Durante la grabación, graba todos los eventos introducidos por el usuario a través de la interfaz de usuario de Finance and Operations que se ejecutan en el servidor (incluidos valores añadidos, opciones de configuración modificadas, datos eliminados, etc.).
 
 ###### <a name="task-recording"></a>**Grabación de tareas**
 
-Archivo que contiene las acciones y anotaciones que se capturan cuando se ejecuta el Grabador de tareas en Microsoft Dynamics 365 for Operations.
+Archivo que contiene las acciones y anotaciones que se capturan cuando se ejecuta el Grabador de tareas en Finance and Operations.
 
 ###### <a name="three-way-matching-policy"></a>**directiva de triple conciliación**
 
@@ -684,12 +615,6 @@ Cantidad de uno o más artículos que se transfiere o que se puede transferir.
 ###### <a name="two-way-matching-policy"></a>**directiva de doble conciliación**
 
 Directiva de conciliación que requiere que uno o más precios de la factura de proveedor coincidan con uno o más precios del pedido de compra.
-
-### <a name="u"></a>**U**
-
-###### <a name="user-defined-financial-dimension-type"></a>**tipo de dimensión financiera definido por el usuario**
-
-Dimensión financiera asignada a una lista de valores definida por el usuario.
 
 ### <a name="v"></a>**V**
 
@@ -726,7 +651,4 @@ Persona que asume el rol de un empleado o un contratista y cobra a cambio de sus
 ###### <a name="workspace"></a>**espacio de trabajo**
 
 Página que proporciona una visión general de una de las actividades realizadas por el usuario. En la página se usan iconos, listas y gráficos para mostrar el trabajo pendiente y datos relacionados de varios recursos, y se destacan tareas frecuentes relacionadas con estos datos. Los iconos mostrados en la sección de resumen del espacio de trabajo también se muestran en la sección correspondiente del panel de información.
-
-
-
 

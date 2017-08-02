@@ -27,8 +27,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Visión general de la gestión de la calidad
-<a id="quality-management-overview" class="xliff"></a>
+# <a name="quality-management-overview"></a>Visión general de la gestión de la calidad
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,8 +40,7 @@ Además de la funcionalidad para gestionar la no conformidad, la gestión de cal
 
 Al configurar una asociación de calidad, Finance and Operations puede generar pedidos de calidad para varios procesos empresariales, eventos y condiciones. La asociación de calidad puede cubrir un artículo concreto, un determinado grupo de éstos o todos los artículos.
 
-## Ejemplos del uso de la gestión de calidad
-<a id="examples-of-the-use-of-quality-management" class="xliff"></a>
+## <a name="examples-of-the-use-of-quality-management"></a>Ejemplos del uso de la gestión de calidad
 La gestión de calidad es flexible y puede ejecutarse de distintas maneras para satisfacer los requisitos de niveles específicos de operaciones de la cadena de suministro. En los ejemplos siguientes se muestran usos posibles de estas características:
 
 -   Inicie automáticamente un proceso de control de calidad en función de los criterios predefinidos (sobre el registro del almacén de un pedido de compra para un proveedor específico).
@@ -52,8 +50,7 @@ La gestión de calidad es flexible y puede ejecutarse de distintas maneras para 
 -   Especifique un nivel de calidad aceptable (AQL) para controlar las tolerancias de medida de calidad.
 -   Especifique los recursos que una operación de inspección requiere, por ejemplo instrumentos de prueba y un área de prueba.
 
-## Trabajar con asociaciones de calidad
-<a id="working-with-quality-associations" class="xliff"></a>
+## <a name="working-with-quality-associations"></a>Trabajar con asociaciones de calidad
 El proceso empresarial que utiliza una asociación de calidad puede estar relacionado con varios documentos de origen, como pedidos de compra, pedidos de ventas o pedidos de producción. 
 
 Cada registro de asociación de calidad define el conjunto de pruebas, el nivel de calidad aceptable y el plan de muestreo que se aplica a los pedidos de calidad generados. Debe definir un registro de asociación de calidad para cada variación de un proceso empresarial. Por ejemplo, puede configurar una asociación de calidad que genere un pedido de calidad cuando se actualice una recepción de producto de pedido de compra. En función de la configuración del plan de ejecución, el propio proceso de activación puede bloquearse mientras que haya un pedido de calidad abierto o los siguientes procesos, por ejemplo, una factura de pedido de compra, se pueden bloquear. 
@@ -298,8 +295,7 @@ La siguiente tabla proporciona más información acerca de cómo se pueden gener
 </tbody>
 </table>
 
-## Páginas de administración de calidad
-<a id="quality-management-pages" class="xliff"></a>
+## <a name="quality-management-pages"></a>Páginas de administración de calidad
 <table>
 <colgroup>
 <col width="33%" />
@@ -360,8 +356,7 @@ Debe definir una asociación de calidad para cada variación de un proceso empre
 
 
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Procesos de gestión de calidad](quality-management-processes.md)

@@ -26,8 +26,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Tipos de diarios contables
-<a id="ledger-journal-types" class="xliff"></a>
+# <a name="ledger-journal-types"></a>Tipos de diarios contables
 
 [!include[banner](../includes/banner.md)]
 

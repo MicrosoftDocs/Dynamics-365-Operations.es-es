@@ -26,8 +26,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Cheques con fecha futura
-<a id="postdated-checks" class="xliff"></a>
+# <a name="postdated-checks"></a>Cheques con fecha futura
 
 [!include[banner](../includes/banner.md)]
 

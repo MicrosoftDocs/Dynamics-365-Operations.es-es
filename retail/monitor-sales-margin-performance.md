@@ -27,8 +27,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Supervisar las ventas y el rendimiento de margen
-<a id="monitor-sales-and-margin-performance" class="xliff"></a>
+# <a name="monitor-sales-and-margin-performance"></a>Supervisar las ventas y el rendimiento de margen
 
 [!include[banner](includes/banner.md)]
 

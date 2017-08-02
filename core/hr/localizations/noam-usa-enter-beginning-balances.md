@@ -26,8 +26,7 @@ ms.lasthandoff: 06/19/2017
 
 ---
 
-# Especificar saldos iniciales de nómina
-<a id="enter-payroll-beginning-balances" class="xliff"></a>
+# <a name="enter-payroll-beginning-balances"></a>Especificar saldos iniciales de nómina
 
 [!include[banner](../../includes/banner.md)]]
 
@@ -52,12 +51,10 @@ El siguiente ejemplo muestra cómo puede especificar saldos iniciales de nómina
 > [!NOTE] 
 > Si desea reproducir los mismos pasos de más abajo, puede usar los datos de prueba. Los datos de prueba se pueden descargar en PartnerSource
 
-### A. Cómo configurar los códigos de ganancias que se utilizarán en los saldos iniciales de nóminas
-<a id="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances" class="xliff"></a>
+### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a>A. Cómo configurar los códigos de ganancias que se utilizarán en los saldos iniciales de nóminas
 Al especificar los saldos iniciales de nómina, asegúrese de que los códigos de ganancias que usará están configurados con la opción “Permitir edición de tasas de extracto de ganancias” habilitada. Esto le permitirá especificar manualmente el importe del sistema heredado. 
 
-### B. Crear el extracto de ganancias para que un empleado con saldo inicial
-<a id="b-create-earnings-statement-for-an-employee-to-have-a-beginning-balance" class="xliff"></a>
+### <a name="b-create-earnings-statement-for-an-employee-to-have-a-beginning-balance"></a>B. Crear el extracto de ganancias para que un empleado con saldo inicial
 Este paso crea manualmente una instrucción de ganancias para cada trabajador para el último período salarial del sistema heredado, lo que crea las líneas de extracto de ganancias en el nuevo sistema de nóminas. Especifique una línea por código de ganancias y el importe y las horas de del año hasta la fecha. Los pasos de ejemplo son los siguientes:
 
 1. Abra la página **Todos los extractos de ganancias** y haga clic en **Nuevo**.  
@@ -121,12 +118,10 @@ Línea 3: Pestaña **Línea de extracto de ganancias**
 
 Haga clic en **Aceptar** y cierre el **Registro de información**.
 
-#### ¿Por qué la casilla de verificación Contabilidad tiene que estar activada cuando se generan extractos de pago?
-<a id="why-disable-accounting-checkbox-needs-to-be-turned-on-when-generating-pay-statements" class="xliff"></a>
+#### <a name="why-disable-accounting-checkbox-needs-to-be-turned-on-when-generating-pay-statements"></a>¿Por qué la casilla de verificación Contabilidad tiene que estar activada cuando se generan extractos de pago?
 Esto impide que cualquier línea de los extractos de pago se distribuya y se registrada en la contabilidad general. No se recomienda registrar este extracto de pago de saldo inicial mientras que sus valores estén en la contabilidad general a partir del sistema heredado. Esta carga de saldos se usa para fines de notificación y restricción.
 
-### C. Crear extractos de pago para empleados
-<a id="c-create-pay-statements-for-employees" class="xliff"></a>
+### <a name="c-create-pay-statements-for-employees"></a>C. Crear extractos de pago para empleados
 Tras generar los extractos de pago con saldos iniciales, debe comprobar que los extractos de pago reflejan exactamente los datos de la nómina. También debe actualizar manualmente la información de prestaciones y de impuestos para que coincida con los valores del sistema de nóminas anterior. Después de verificar que los importes del sistema de nóminas anterior se corresponden con los importes de los extractos de pago actuales, debe finalizar los extractos de pago.
 
 1. Abre la página **Todos los extractos de pago**.
@@ -180,8 +175,7 @@ Tras generar los extractos de pago con saldos iniciales, debe comprobar que los 
 
 El mismo proceso se puede realizar en incrementos trimestres si fuera necesario para todos los trimestres anteriores de cada año. Esto solo es necesario si el cliente necesita ver los datos por trimestre sin tener que volver al sistema heredado.
 
-## Si se equivoca especificando los saldos iniciales para un empleado
-<a id="if-you-make-a-mistake-entering-beginning-balances-for-an-employee" class="xliff"></a>
+## <a name="if-you-make-a-mistake-entering-beginning-balances-for-an-employee"></a>Si se equivoca especificando los saldos iniciales para un empleado
 Es posible invertir y repetir las transacciones. Para invertir la transacción, todo lo que debe hacer es completar los pasos siguientes en la página **Todos los extractos de pago**.
 
 1. Haga clic en **Invertir**.

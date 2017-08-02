@@ -27,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Convenciones y métodos de depreciación
-<a id="depreciation-methods-and-conventions" class="xliff"></a>
+# <a name="depreciation-methods-and-conventions"></a>Convenciones y métodos de depreciación
 
 [!include[banner](../includes/banner.md)]
 
@@ -68,8 +67,7 @@ Puede seleccionar entre los siguientes métodos de amortización.
 
 
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Depreciación de activo fijo](fixed-asset-depreciation.md)

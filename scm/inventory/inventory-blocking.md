@@ -27,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Bloqueo del inventario
-<a id="inventory-blocking" class="xliff"></a>
+# <a name="inventory-blocking"></a>Bloqueo del inventario
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,19 +40,15 @@ Puede bloquear artículos de inventario de las siguientes formas:
 -   Mediante el uso de un proceso que genera un pedido de calidad
 -   Mediante el bloqueo del estado de inventario
 
-## Bloqueo manual de artículos
-<a id="blocking-items-manually" class="xliff"></a>
+## <a name="blocking-items-manually"></a>Bloqueo manual de artículos
 Puede bloquear una cantidad de un artículo creando una transacción en la página **Bloqueo del inventario**. Solo se pueden bloquear manualmente artículos disponibles en el inventario. Para las cantidades bloqueadas manualmente, debe decidir si las actividades de planificación incluyen recepciones previstas como una cantidad disponible. Las recepciones previstas son artículos bloqueados que se espera que estén disponibles en el inventario tras completar la inspección. Puede mantener la fecha prevista. De forma predeterminada, la opción **Recepciones previstas** está seleccionada para artículos bloqueados mediante un pedido de calidad. Puede cancelar un bloqueo manual en una cantidad eliminando la transacción en la página **Bloqueo del inventario**.
 
-## Bloqueo de artículos creando un pedido de calidad
-<a id="blocking-items-by-creating-a-quality-order" class="xliff"></a>
+## <a name="blocking-items-by-creating-a-quality-order"></a>Bloqueo de artículos creando un pedido de calidad
 Puede especificar los artículos que se deben inspeccionar creando un pedido de calidad en la página **Pedidos de calidad**. Cuando crea el pedido de calidad, la cantidad de un artículo especificada se bloquea. El plan de muestreo asociado al pedido de calidad controla solo la cantidad de artículos que se debe inspeccionar, no la cantidad que se bloquea. La cantidad especificada en el pedido de calidad es la cantidad que se bloquea, independientemente de la cantidad que el plan de muestreo especifique como que se deben enviar a inspección.
 
-## Bloqueo de artículos mediante un proceso que genera un pedido de calidad
-<a id="blocking-items-by-using-a-process-that-generates-a-quality-order" class="xliff"></a>
+## <a name="blocking-items-by-using-a-process-that-generates-a-quality-order"></a>Bloqueo de artículos mediante un proceso que genera un pedido de calidad
 Si un proceso de calidad especifica que se debe inspeccionar un artículo, se bloquea automáticamente una cantidad del artículo. Por tanto, cuando un pedido de calidad se genera automáticamente, el plan de muestreo del artículo asociado al pedido de calidad controla tanto la cantidad de artículos que se bloquea como la cantidad que debe inspeccionarse. Si la opción **Bloqueo completo** en la página **Muestreo de artículos** está seleccionada, la cantidad completa de, por ejemplo, una línea de pedido de compra, se bloquea durante la inspección, independientemente de la cantidad de muestreo del artículo.
-### Ejemplo
-<a id="example" class="xliff"></a>
+### <a name="example"></a>Ejemplo
 
 En el siguiente ejemplo, se generará un pedido de calidad al registrar un albarán de pedido de compra. En la página **Asociaciones de calidad** especificó que el registro de un albarán de pedido de compra es el proceso que activa un pedido de calidad.
 
@@ -61,14 +56,12 @@ En el siguiente ejemplo, se generará un pedido de calidad al registrar un albar
 |--------------------------------------------------------------------------|----------------------------|-------------------|
 | Una asociación de calidad especifica que debe generarse un pedido de calidad cuando se registre un albarán de pedido de compra. La configuración de muestreo del artículo del pedido de calidad especifica que se debe realizar una inspección del 10 por ciento de la cantidad en la línea del pedido de compra. Además, dado que la opción **Bloqueo completo** está seleccionada en la configuración de muestreo del artículo, la cantidad completa de la línea de pedido de compra debe bloquearse durante la inspección independientemente de la cantidad enviada para inspección. | Se imprimirá y registrará el albarán. | Se generará un pedido de calidad. Un diez por ciento de la cantidad del pedido de compra para el artículo se enviará para inspección. La cantidad completa de la línea del pedido de compra se bloqueará. |
 
-## Bloqueo de artículos mediante bloqueo del estado de inventario
-<a id="blocking-items-by-using-inventory-status-blocking" class="xliff"></a>
+## <a name="blocking-items-by-using-inventory-status-blocking"></a>Bloqueo de artículos mediante bloqueo del estado de inventario
 Puede especificar qué estados de inventario son estados de bloqueo mediante el parámetro **Bloqueo de inventario** en la página **Estados de inventario**.  No puede usar los estados de inventario como estados de bloqueo para los pedidos de producción, los pedidos de ventas, los pedidos de transferencia, las transacciones de salida ni las integraciones de proyectos. Para el trabajo de salida, use artículos que tengan un estado de inventario de disponible. Si tiene artículos con estado **Roto** y la planificación maestra se ejecuta en estos artículos, se considera que faltan los artículos y el inventario se reabastece automáticamente.
 
 
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Creación y mantenimiento de un bloqueo del inventario (guía de tareas)](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)

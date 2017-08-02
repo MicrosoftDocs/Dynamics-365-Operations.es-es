@@ -27,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Procesamiento de diarios generales
-<a id="general-journal-processing" class="xliff"></a>
+# <a name="general-journal-processing"></a>Procesamiento de diarios generales
 
 [!include[banner](../includes/banner.md)]
 
@@ -60,12 +59,10 @@ En la página **Diarios periódicos**, puede configurar los diarios periódicos 
 
 Puede usar plantillas de asientos en cualquier momento. En la página **Diarios generales**, las acciones **Guardar** y **Seleccionar la plantilla de asientos** se encuentran en la página **Asiento del diario**, en **Funciones** para las líneas de asientos.
 
-## Configuración relacionada
-<a id="related-setup" class="xliff"></a>
+## <a name="related-setup"></a>Configuración relacionada
 La configuración siguiente no es específica para los diarios generales, pero ayudará a garantizar que la entrada de datos sea correcta y fácil.
 
-### Cuenta principal
-<a id="main-account" class="xliff"></a>
+### <a name="main-account"></a>Cuenta principal
 
 La configuración de la cuenta principal ofrece muchas opciones para el proceso del diario general:
 
@@ -81,8 +78,7 @@ La configuración de la cuenta principal ofrece muchas opciones para el proceso 
     -   **Validación de usuario:** esta opción controla qué usuarios pueden registrar en una cuenta principal.
     -   **Validación de tipo de registro:** esta opción controla qué tipos de registro se premiten en una cuenta principal.
 
-### Estructuras contables y estructuras de reglas avanzadas
-<a id="accounting-structures-and-advanced-rules-structures" class="xliff"></a>
+### <a name="accounting-structures-and-advanced-rules-structures"></a>Estructuras contables y estructuras de reglas avanzadas
 
 Las estructuras contables y las estructuras de reglas avanzadas son muy importantes para garantizar que los datos necesarios para los informes financieros y el seguimiento del rendimiento se capture durante el proceso del diario general y la documentación. Las estructuras contables y las estructuras de reglas avanzadas le permiten adaptar la experiencia de entrada de datos. Puede permitir la entrada de datos solo para las dimensiones financieras que son relevantes en cada situación, y también puede exigir el requisito de que los datos necesarios y correctos se capturen siempre.
 

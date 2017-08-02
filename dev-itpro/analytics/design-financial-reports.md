@@ -26,16 +26,14 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Ver y diseñar informes financieros
-<a id="view-and-design-financial-reports" class="xliff"></a>
+# <a name="view-and-design-financial-reports"></a>Ver y diseñar informes financieros
 
 [!include[banner](../includes/banner.md)]
 
 
 En este artículo se proporcionan ejercicios que le enseñarán a visualizar y crear informes financieros para Microsoft Dynamics 365 for Finance and Operations. El informe financiero consta de una experiencia de visualización en Finance and Operationsy un diseñador de informes con un solo clic que le permite crear y editar informes financieros.  
 
-Ejercicio 1: Generar y explorar un informe financiero predeterminado
-<a id="exercise-1-generate-and-explore-a-default-financial-report" class="xliff"></a>
+<a name="exercise-1-generate-and-explore-a-default-financial-report"></a>Ejercicio 1: Generar y explorar un informe financiero predeterminado
 -----------------------------------------------------------
 
 Para este ejercicio, generará y explorará un informe predeterminado existente. Este informe incluye todas las cuentas y también contiene las propiedades de la cuenta (atributos) para las cuentas. Explorará en profundidad el detalle de la transacción, aplicando filtros de dimensiones, cambiando la divisa del informe. En primer lugar, actualizaremos el orden de visualización de las dimensiones para informes financieros. Esto le permite seleccionar cómo se muestran las dimensiones no solo al diseñar y ver informes financieros.
@@ -66,8 +64,7 @@ Para este ejercicio, generará y explorará un informe predeterminado existente.
 18. Cierre el informe **Detalle de contabilidad general**.
 19. Cierre el **Diseñador de informes**.
 
-## Ejercicio 2: Agregar propiedades de cuenta adicionales a un diseño de informe
-<a id="exercise-2-add-additional-account-properties-to-a-report-design" class="xliff"></a>
+## <a name="exercise-2-add-additional-account-properties-to-a-report-design"></a>Ejercicio 2: Agregar propiedades de cuenta adicionales a un diseño de informe
 En este ejercicio, modificará un informe predeterminado existente. Actualizará tanto la definición de fila para incluir todas las cuentas como la definición de columna para contener atributos de cuenta. Una vez que se completen las actualizaciones, generará el informe recién creado y explorará el informe. Empezaremos por la lista Informes financieros.
 
 1.  Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
@@ -103,8 +100,7 @@ En este ejercicio, modificará un informe predeterminado existente. Actualizará
 25. Cierre el informe **Saldo de comprobación detallado con atributos**.
 26. Cierre el **Diseñador de informes**.
 
-## Ejercicio 3: Crear un informe multidimensional mediante un organigrama
-<a id="exercise-3-create-a-multidimensional-report-using-a-reporting-tree" class="xliff"></a>
+## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Ejercicio 3: Crear un informe multidimensional mediante un organigrama
 Para este ejercicio, modificará un informe predeterminado existente. Se creará un organigrama y se agregará a una definición del informe para producir un informe de ingresos de centro de coste o por división. Una vez que se completen las actualizaciones, generará el informe de ingresos de centro de coste o por división y explorará el informe con el organigrama. Empezaremos por la lista Informes financieros.
 
 1.  Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
@@ -140,8 +136,7 @@ Para este ejercicio, modificará un informe predeterminado existente. Se creará
 31. Cierre **Informe de ingresos - predeterminado**.
 32. Cierre el **Diseñador de informes**.
 
-## Ejercicio 4: Crear un informe consolidado con una jerarquía organizativa
-<a id="exercise-4-create-a-consolidated-report-using-an-organization-hierarchy" class="xliff"></a>
+## <a name="exercise-4-create-a-consolidated-report-using-an-organization-hierarchy"></a>Ejercicio 4: Crear un informe consolidado con una jerarquía organizativa
 Para este ejercicio, modificará un informe predeterminado existente. Agregará una jerarquía organizativa en la definición del informe para producir un informe de ingresos consolidado y un balance de situación. Una vez que se completen las actualizaciones, generará el informe consolidado y explorará el informe con el organigrama. Empezaremos por la lista Informes financieros.
 
 1.  Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
@@ -160,8 +155,7 @@ Para este ejercicio, modificará un informe predeterminado existente. Agregará 
 14. Cierre **Balance de situación consolidado e informe de ingresos en paralelo**.
 15. Cierre el **Diseñador de informes**.
 
-## Ejercicio 5: Crear un informe de departamento en paralelo
-<a id="exercise-5-create-a-sidebyside-departmental-report" class="xliff"></a>
+## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Ejercicio 5: Crear un informe de departamento en paralelo
 En este ejercicio, creará un informe nuevo. El informe es un informe de ingresos de departamento en paralelo. Usará una definición de fila existente, pero creará una definición del informe nueva y una definición de columna nueva que use filtros de dimensión. Empezaremos por la lista Informes financieros.
 
 1.  Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
@@ -188,8 +182,7 @@ En este ejercicio, creará un informe nuevo. El informe es un informe de ingreso
 17. Cambiar el nivel de detalle a **Financiero, Cuenta y Transacción**.
 18. **Guarde** sus cambios y **genere**. Una vez que el informe complete la generación y se abra, puede explorar el informe.
 
-## Recursos adicionales
-<a id="additional-resources" class="xliff"></a>
+## <a name="additional-resources"></a>Recursos adicionales
 [Informes financieros](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
 [Ver informes financieros](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
 [Blog de Dynamics Financial Reporting](http://blogs.msdn.com/b/dynamics_financial_reporting/)

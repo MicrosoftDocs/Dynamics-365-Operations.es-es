@@ -27,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Presupuestos de proyecto
-<a id="project-quotations" class="xliff"></a>
+# <a name="project-quotations"></a>Presupuestos de proyecto
 
 [!include[banner](../includes/banner.md)]
 

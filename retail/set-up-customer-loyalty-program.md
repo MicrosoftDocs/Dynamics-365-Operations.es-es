@@ -28,16 +28,14 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Configurar un programa de fidelización de clientes
-<a id="set-up-a-customer-loyalty-program" class="xliff"></a>
+# <a name="set-up-a-customer-loyalty-program"></a>Configurar un programa de fidelización de clientes
 
 [!include[banner](includes/banner.md)]
 
 
 En este artículo se describe cómo configurar un programa de fidelización. Los programas de fidelización pueden ayudar a aumentar la fidelización del cliente al premiar a los clientes para la compra de productos en las tiendas comerciales. En Microsoft Dynamics for Retail, puede configurar programas de fidelización simples o complejos que se aplican en todas las entidades jurídicas de cualquier canal comercial.
 
-Características de fidelidad
-<a id="loyalty-features" class="xliff"></a>
+<a name="loyalty-features"></a>Características de fidelidad
 ----------------
 
 Puede configurar su programa de fidelización de modo que se incluyan las siguientes opciones:
@@ -48,12 +46,10 @@ Puede configurar su programa de fidelización de modo que se incluyan las siguie
 -   Emita tarjetas de fidelización desde cualquier canal comercial que participe en los programas de fidelización y asocie tarjetas de fidelización a uno o varios programas de fidelización en los que puede participar el cliente. También puede asociar un registro de cliente a una tarjeta de fidelización para permitir al cliente agrupar los puntos de fidelización de varias tarjetas y luego canjearlos.
 -   Ajuste manualmente las tarjetas de fidelización o transfiera los saldos de recompensas de fidelización de una tarjeta a otra acomodar o recompensar a un cliente.
 
-## Configurar programas de fidelidad
-<a id="setting-up-loyalty-programs" class="xliff"></a>
+## <a name="setting-up-loyalty-programs"></a>Configurar programas de fidelidad
 Debe configurar varios componentes para habilitar la característica de fidelización en Dynamics 365 for Retail. En el siguiente diagrama se muestran los componentes de fidelización y cómo se relacionan entre sí. ![Flujo de proceso de configuración de fidelización](./media/loyaltyprocess.gif)
 
-## Componentes de fidelización
-<a id="loyalty-components" class="xliff"></a>
+## <a name="loyalty-components"></a>Componentes de fidelización
 En la tabla siguiente se describe cada componente y dónde se usa en la configuración de fidelización.
 
 | Componente                                        | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Dónde se usa                                                                                                                                                                                                                                                                                                                                                                 |
@@ -69,8 +65,7 @@ En la tabla siguiente se describe cada componente y dónde se usa en la configur
 | Configuración de los esquemas de fidelidad                           | Los esquemas de fidelización especifican las reglas de obtención y canje que se aplican al programa de fidelización seleccionado. Se asignan canales comerciales a un esquema de fidelización para identificar los programas de fidelización, las reglas de obtención y las reglas de canje que se aplican a la tienda comercial.                                                                                                                                                                                                                                                                                                                                  | Los esquemas de fidelización se asignan a un programa de fidelización y los canales comerciales. Puede asignar muchos esquemas de fidelización al mismo programa de fidelización y puede asignar muchos esquemas de fidelización a varios canales comerciales.                                                                                                                                                                        |
 | Configuración de tarjetas de fidelización                             | Una tarjeta de fidelización permite al titular de la tarjeta participar en los programas de fidelización asignados a la tarjeta. Las tarjetas de fidelización se pueden emitir de forma anónima se pueden asignar a un cliente específico. Puede ver las transacciones de fidelización de una tarjeta específica y puede ver un resumen de los puntos de fidelización que se han acumulado en la tarjeta. Puede emitir tarjetas de fidelización desde cualquier canal comercial. También puede ajustar manualmente una tarjeta de fidelización para pasar al cliente a otro nivel, agregar puntos de fidelización o transferir saldos de puntos de fidelización de una tarjeta a otra. | Se asignan programas de fidelización a una tarjeta de fidelización.                                                                                                                                                                                                                                                                                                                                  |
 
-## Procesos de fidelización
-<a id="loyalty-processes" class="xliff"></a>
+## <a name="loyalty-processes"></a>Procesos de fidelización
 La tabla siguiente describe los procesos que se deben ejecutar para enviar configuraciones y datos de fidelidad a las tiendas, y recuperar las transacciones de fidelidad de las tiendas.
 
 | Nombre del proceso                         | Descripción                                                                                                                                                                                                                                                                                                                                                                                                    | Nombre de página                            |

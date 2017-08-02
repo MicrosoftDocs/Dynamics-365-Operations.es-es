@@ -27,8 +27,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-## Derechos de acceso de un controlador de objeto de coste
-<a id="access-rights-of-a-cost-object-controller" class="xliff"></a>
+## <a name="access-rights-of-a-cost-object-controller"></a>Derechos de acceso de un controlador de objeto de coste
 
 [!include[banner](../includes/banner.md)]
 
@@ -56,8 +55,7 @@ Cuando el rol **Controlador de objeto de coste** se asigna a un administrador, e
 > [!NOTE]
 > El rol **Controlador de objeto de coste** no controla a qué objetos de coste puede el usuario acceder y ver sus datos. La seguridad de filas se proporciona mediante jerarquías de dimensión y la jerarquía de listas de acceso.
 
-## Conceder derechos de acceso
-<a id="grant-access-rights" class="xliff"></a>
+## <a name="grant-access-rights"></a>Conceder derechos de acceso
 El siguiente ejemplo muestra cómo puede ser el aspecto de las jerarquías de dimensión.
 
 **Detalles de jerarquía de dimensión**

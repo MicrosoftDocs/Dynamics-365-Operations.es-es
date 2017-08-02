@@ -27,26 +27,22 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Acciones del personal [Preguntas frecuentes]
-<a id="personnel-actions-faq" class="xliff"></a>
+# <a name="personnel-actions-faq"></a>Acciones del personal [Preguntas frecuentes]
 Este tema contiene respuestas a preguntas que puede que tenga si su organización usa acciones de personal. Las acciones de personal son pasos adicionales que debe completar cuando realice ciertas tareas relacionadas con el personal. Son ejemplos de tareas que requerirán acciones de personal crear nuevos puestos, modificar los valores de puestos existentes, contratar a trabajadores nuevos, transferir trabajadores, cambiar la compensación del trabajador, cambiar las asignaciones del puesto o despedir a trabajadores.
 
 **Nota:** las acciones del personal únicamente están disponibles si está instalada y se ha seleccionado la clave de configuración de acciones del personal. 
 
-## ¿Cómo puedo saber si mi organización requiere acciones de personal?
-<a id="how-can-i-tell-if-my-organization-requires-personnel-actions" class="xliff"></a>
+## <a name="how-can-i-tell-if-my-organization-requires-personnel-actions"></a>¿Cómo puedo saber si mi organización requiere acciones de personal?
 La organización requiere acciones de personal si se le solicita que seleccione una acción de personal al crear nuevos puestos, cambie puestos existentes, contrate a nuevos trabajadores, transfiera a trabajadores, cambie la compensación del trabajador, cambie asignaciones del puesto, despida a trabajadores o especifique las bajas de los trabajadores. 
 
-## ¿Cuál es la diferencia entre una acción de puesto y una acción de trabajador?
-<a id="what-is-the-difference-between-a-position-action-and-a-worker-action" class="xliff"></a>
+## <a name="what-is-the-difference-between-a-position-action-and-a-worker-action"></a>¿Cuál es la diferencia entre una acción de puesto y una acción de trabajador?
 Existen dos tipos de acciones de personal:
 
 - Acción de puesto: una acción de puesto se realiza en puestos existentes o puestos nuevos. Por ejemplo, una acción de puesto puede ser necesaria si cambia un valor en un puesto existente o si crea un nuevo puesto temporal. Para obtener información detallada sobre cómo usar acciones del puesto, consulte las tareas clave: puestos o tareas claves existentes del trabajador: nuevos puestos del trabajador.
 
 - Acción de trabajador: una acción de trabajador se realiza en empleados existentes o empleados nuevos. Por ejemplo, una acción de trabajador puede ser necesaria al contratar a un empleado nuevo o ascender a un empleado existente. Para obtener información detallada sobre cómo usar acciones del trabajador, consulte el apartado Asignar acciones del personal a los trabajadores.
 
-## ¿Qué implican los estados de las acciones de personal?
-<a id="what-do-the-statuses-of-the-personnel-actions-mean" class="xliff"></a>
+## <a name="what-do-the-statuses-of-the-personnel-actions-mean"></a>¿Qué implican los estados de las acciones de personal?
 Las acciones de personal pueden tener los siguientes estados:
 
 - **Borrador**: si se usa el flujo de trabajo, la acción no se ha enviado. Si el flujo de trabajo no se usa, la acción no ha finalizado.
@@ -57,16 +53,13 @@ Las acciones de personal pueden tener los siguientes estados:
 - **Completado**: el puesto se ha creado o modificado correctamente o bien se ha contratado, transferido o despedido correctamente al empleado, o se ha cambiado su compensación. Error: se ha producido un problema distinto de la información anticuada. Abra el Registro del mensaje de acciones de personal para determinar la causa del error.
 - **Denegada**: el aprobador ha denegado la solicitud de acción.
 
-## ¿Se puede eliminar una acción de personal?
-<a id="can-i-delete-a-personnel-action" class="xliff"></a>
+## <a name="can-i-delete-a-personnel-action"></a>¿Se puede eliminar una acción de personal?
 Sí, puede eliminar las acciones de personal que tengan el estado de **Borrador**, **Error**, **Fallida** o **Cancelada**.
 
-## ¿Cuál es la forma más rápida de comprobar el estado de una solicitud de acción de personal?
-<a id="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request" class="xliff"></a>
+## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>¿Cuál es la forma más rápida de comprobar el estado de una solicitud de acción de personal?
 Abra cualquiera de las páginas de lista de la acción de personal y seleccione una acción de personal.
 
-## ¿Qué debo hacer si una solicitud de acción de personal falla?
-<a id="what-should-i-do-if-a-personnel-action-request-fails" class="xliff"></a>
+## <a name="what-should-i-do-if-a-personnel-action-request-fails"></a>¿Qué debo hacer si una solicitud de acción de personal falla?
 Si una solicitud de acción de personal falla, siga estos pasos para solucionar el error y volver a enviar la solicitud:
 
 > 1. En el **Panel de acciones**, haga clic en el botón **Texto de error** para ver el texto del mensaje que describe el problema.
@@ -75,12 +68,10 @@ Si una solicitud de acción de personal falla, siga estos pasos para solucionar 
 
 > 3. Resuelva el error y haga clic en **Completo** o **Enviar**.
 
-## ¿Qué sucede a una acción de personal que use el flujo de trabajo cuando se completa la aprobación final?
-<a id="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed" class="xliff"></a>
+## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>¿Qué sucede a una acción de personal que use el flujo de trabajo cuando se completa la aprobación final?
 Si no hay errores, la acción de personal pasará a ser de solo lectura. (Puede ver el historial en la página de lista **Todas las acciones del trabajador**, pero no se puede modificar la acción del personal.) Cuando el estado de una acción del personal es **Completada**, el puesto o el registro de trabajador se ha actualizado su factura. Para ver los cambios realizados, abra la página de lista **Puestos** o **Trabajadores**.
 
-## ¿Por qué recibo el siguiente mensaje de error cuando especifico un valor distinto de cero en el campo de índice salarial? “El valor se encuentra fuera del intervalo válido; debe estar entre 0,00 y 0,00“
-<a id="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000" class="xliff"></a>
+## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>¿Por qué recibo el siguiente mensaje de error cuando especifico un valor distinto de cero en el campo de índice salarial? “El valor se encuentra fuera del intervalo válido; debe estar entre 0,00 y 0,00“
 Recibe este mensaje porque el campo Nivel del formulario Trabajo está en blanco para el trabajo asociado con el puesto seleccionado.
 
 Para solucionar el error, siga estos pasos:
@@ -94,8 +85,7 @@ Para solucionar el error, siga estos pasos:
 > 7. Cierre la página Puesto.
 > 8. Vuelva a la ficha Compensación en la página Trabajador y seleccione la compensación fija.  Seleccione Nuevo y especifique el puesto del empleado en el campo Puesto.  Escriba un valor en el campo Plan y, después, introduzca la compensación del empleado en el campo del Índice salarial.
 
-## ¿Por qué no se puede cambiar la fecha de vigencia en el encabezado del formulario de la acción de trabajador?
-<a id="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form" class="xliff"></a>
+## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a>¿Por qué no se puede cambiar la fecha de vigencia en el encabezado del formulario de la acción de trabajador?
 No puede cambiar la fecha de vigencia dado que el campo se rellena con la fecha más lógica para el tipo de acción.
 
 Por ejemplo:

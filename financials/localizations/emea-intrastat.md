@@ -26,8 +26,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# intrastat
-<a id="intrastat" class="xliff"></a>
+# <a name="intrastat"></a>intrastat
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,22 +35,18 @@ Este artículo proporciona información acerca de los informes de Intrastat para
 
 Intrastat es el sistema de recopilación de información y generación de estadísticas sobre comercio de bienes entre países y regiones de la Unión Europea (UE). Siempre que un producto cruce la frontera de otro país o región de la UE. hace falta presentar un informe Intrastat. En varios países y regiones, los informes Intrastat también son obligatorios para los servicios. Los informes Intrastat pueden incluir elementos necesarios y opcionales. Los elementos siguientes son obligatorios: el número de IVA de la parte responsable de proporcionar información, el período de referencia, el flujo (recepción o distribución), el código de mercancía de ocho dígitos, el estado miembro socio (estado miembro de envío en recepción y el estado miembro de destino en distribución), el valor de las mercancías, la cantidad de las mercancías (masa neta y unidad suplementaria) y la naturaleza de la transacción. Los países y regiones también pueden recopilar elementos opcionales bajo distintas condiciones. Algunos elementos opcionales son el país o la región de origen, las condiciones de entrega, el modo de transporte, un código de mercancía más detallado que el CN8, la región de origen en distribución y la región de destino en llegadas, el procedimiento estadístico, el valor estadístico, una descripción de las mercancías y el puerto o el aeropuerto de carga y descarga.
 
-## Visión general del proceso de informes Intrastat
-<a id="overview-of-the-intrastat-reporting-process" class="xliff"></a>
+## <a name="overview-of-the-intrastat-reporting-process"></a>Visión general del proceso de informes Intrastat
 En las secciones siguientes se describe el flujo de información general en los informes Intrastat.
 
-### 1. Especificación de transacción transfronteriza a otro país o región de la UE
-<a id="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion" class="xliff"></a>
+### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Especificación de transacción transfronteriza a otro país o región de la UE
 
 Una factura de cliente, una factura de texto libre, una factura de compra, una factura de proyecto, un albarán del cliente, una recepción de producto del proveedor o un pedido de transferencia se transfiere al diario de Intrastat si el tipo de país o región de destino (en distribuciones) o de envío (en llegadas) es **UE**. Esta función se ha ampliado para Microsoft Dynamics 365 for Operations (1611) y permite especificar una dirección de embarque para una transacción de comercio intracomunitario. Si una dirección de embarque difiere de una dirección empresarial del proveedor (o la dirección empresarial del cliente para el pedido de devolución), los informes Intrastat operarán con esta información. Al crear un pedido de ventas, una factura de servicios, un pedido de compra, una factura de proveedor, una factura de proyecto o un pedido de transferencia, algunos campos relacionados con comercio exterior tienen valores predeterminados en el encabezado del documento o en la línea. El código de transacción predeterminado se toma del campo correspondiente en la página **Parámetros de comercio exterior**. El código de mercancía predeterminado, el país o la región de origen y el estado o la provincia se toman del artículo. Puede cambiar los valores predeterminados y también puede completar otra información de comercio exterior: las estadísticas procedimiento, método de transporte y puerto.
 
-### 2. Utilice el diario de Intrastat para generar información sobre el comercio entre los países y regiones de la UE.
-<a id="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions" class="xliff"></a>
+### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Utilice el diario de Intrastat para generar información sobre el comercio entre los países y regiones de la UE.
 
 Para fines estadísticos, se genera información sobre el comercio entre países y regiones de la UE cada mes. Puede transferir transacciones desde una factura de texto libre, una factura de cliente, un albarán de cliente, una factura de proveedor, un albarán de proveedor, una factura de proyecto o un pedido de transferencia, según los criterios de transferencia que se hayan configurado en la página **Parámetros de comercio exterior**. También puede especificar transacciones manualmente. Puede actualizar manualmente las transacciones transferidas en el diario de Intrastat, si se requieren actualizaciones. En determinadas condiciones configuradas en la página **Compresión de Intrastat**, puede comprimir las transacciones en el diario de Intrastat. Algunos países y regiones le permiten aplicar un pequeño umbral de transacción. A continuación puede informar de transacciones por debajo de dicho umbral bajo el código de mercancía especificado. Puede actualizar el código de mercancía en las correspondientes líneas del diario de Intrastat, en el ajuste **Límite mínimo** de la página **Parámetros de comercio exterior**. También puede comprimir esas transacciones, según el ajuste **Compresión de Intrastat**. Puede validar la finalización de las transacciones en el diario de Intrastat, según el ajuste **Comprobar configuración** en la página **Parámetros de comercio exterior**. Se puede validar la cumplimentación de los datos en los campos correspondientes: país o región, estado o provincia, peso, código de mercancía, código de transacción, unidad adicional, puerto, origen, términos de entrega, método de transporte y número de identificación fiscal (NIF). Las transacciones que no se hayan completado se marcarán como no válidas.
 
-### 3. Utilice el diario de Intrastat para informar sobre el comercio entre los países y regiones de la UE.
-<a id="3-use-the-intrastat-journal-to-report-information-about-trade-among-eu-countriesregions" class="xliff"></a>
+### <a name="3-use-the-intrastat-journal-to-report-information-about-trade-among-eu-countriesregions"></a>3. Utilice el diario de Intrastat para informar sobre el comercio entre los países y regiones de la UE.
 
 Para fines estadísticos, se informa sobre el comercio entre países y regiones de la UE cada mes. Puede imprimir el informe Intrastat, según los ajustes **Asignación de formato de informe** en la página **Parámetros de comercio exterior**. También puede generar un archivo electrónico según los ajustes **Asignación de formato de archivo** en la página **Parámetros de comercio exterior**. Para obtener más información acerca de los informes Intrastat, incluidos los requisitos previos necesarios, consulte las grabaciones de tareas de informes Intrastat.
 
@@ -59,8 +54,7 @@ Para fines estadísticos, se informa sobre el comercio entre países y regiones 
 -   Transferir transacciones a Intrastat,
 -   Especificación de una dirección de embarque para una transacción intracomunitaria.
 
-## Requisitos previos
-<a id="prerequisites" class="xliff"></a>
+## <a name="prerequisites"></a>Requisitos previos
 La tabla siguiente muestra los requisitos previos para los informes Intrastat.
 
 <table>
@@ -117,12 +111,10 @@ La tabla siguiente muestra los requisitos previos para los informes Intrastat.
 </tbody>
 </table>
 
-## Configuración
-<a id="setup" class="xliff"></a>
+## <a name="setup"></a>Configuración
 Las siguientes secciones describen los ajustes necesarios para los informes Intrastat.
 
-### Configuración de todas las listas relacionadas con Intrastat necesarias
-<a id="set-up-all-required-intrastat-related-lists" class="xliff"></a>
+### <a name="set-up-all-required-intrastat-related-lists"></a>Configuración de todas las listas relacionadas con Intrastat necesarias
 
 <table>
 <colgroup>
@@ -179,13 +171,11 @@ Las siguientes secciones describen los ajustes necesarios para los informes Intr
 </tbody>
 </table>
 
-### Configuración de reglas para comprimir transacciones de Intrastat
-<a id="set-up-rules-for-compressing-intrastat-transactions" class="xliff"></a>
+### <a name="set-up-rules-for-compressing-intrastat-transactions"></a>Configuración de reglas para comprimir transacciones de Intrastat
 
 En la página **Compresión de Intrastat**, puede seleccionar los campos que se usarán para la compresión. Todas las transacciones que tienen la misma combinación de valores para los campos seleccionados en el diario de Intrastat se comprimirán en una única transacción al ejecutar la función Comprimir en el diario de Intrastat.
 
-### Configurar parámetros de comercio exterior
-<a id="set-up-foreign-trade-parameters" class="xliff"></a>
+### <a name="set-up-foreign-trade-parameters"></a>Configurar parámetros de comercio exterior
 
 Use la página **Parámetros de comercio exterior** para configurar los parámetros en la tabla siguiente.
 

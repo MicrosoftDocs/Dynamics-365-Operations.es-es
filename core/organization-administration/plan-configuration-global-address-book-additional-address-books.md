@@ -27,16 +27,14 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Configurar la libreta de direcciones global
-<a id="configure-global-address-books" class="xliff"></a>
+# <a name="configure-global-address-books"></a>Configurar la libreta de direcciones global
 
 [!include[banner](../includes/banner.md)]
 
 
 Este artículo describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar y configurar la libreta de direcciones global y todas las libretas de direcciones adicionales en Microsoft Dynamics 365 for Finance and Operations. Algunas de las decisiones requerirán que confirme las decisiones que se han realizado para otras áreas de producto, como la jerarquía organizativa.
 
-Libreta de direcciones global
-<a id="global-address-book" class="xliff"></a>
+<a name="global-address-book"></a>Libreta de direcciones global
 -------------------
 
 Antes de comenzar a trabajar con la libreta de direcciones global, debe determinar los valores predeterminados para ella. Estos valores predeterminados se usan para todas las libretas de direcciones adicionales que cree. **Decisiones:**
@@ -49,8 +47,7 @@ Antes de comenzar a trabajar con la libreta de direcciones global, debe determin
 -   Cuándo se crea un registro de parte en la libreta de direcciones global, ¿desea un tipo de parte, una persona o una organización predeterminados?
 -   ¿Qué roles de usuario deben tener acceso a las direcciones privadas y a la información de los registros de partes?
 
-## Libretas de direcciones adicionales
-<a id="additional-address-books" class="xliff"></a>
+## <a name="additional-address-books"></a>Libretas de direcciones adicionales
 Después de crear la libreta de direcciones global, puede crear libretas de direcciones adicionales como sea necesario, como una libreta de direcciones independiente para cada empresa de su organización o para cada línea de negocio. Por ejemplo, Fabrikam es una organización internacional con varias empresas y líneas de negocios. Fabrikam planea crear una libreta de direcciones para cada línea de negocios. En el caso de las líneas de negocios que están presentes en más de una ubicación —por ejemplo, la empresa de herramientas neumáticas—, Fabrikam planea crear una libreta de direcciones para cada ubicación. Chris, el encargado de TI en Fabrikam, ha creado la lista siguiente de las libretas de direcciones que se requieren. Esta lista también describe los registros de parte que cada libreta de direcciones debe incluir.
 
 -   **Contratos del sector público (PubSC)**: registros de parte de todas las partes involucradas en los contratos del sector público que Fabrikam mantiene.
@@ -63,8 +60,7 @@ Después de crear la libreta de direcciones global, puede crear libretas de dire
 
 -   ¿Cuántas libretas de direcciones adicionales creará?
 
-### Seguridad de la libreta de direcciones
-<a id="address-book-security" class="xliff"></a>
+### <a name="address-book-security"></a>Seguridad de la libreta de direcciones
 
 Puede crear libretas de direcciones en cualquier momento y también puede establecer sus respectivos parámetros de seguridad cuando lo desee. No es necesario que establezca privilegios de seguridad para una libreta de direcciones, pero si no lo hace, todos los trabajadores de la organización podrán ver todos los registros de parte de esa libreta de direcciones. Los privilegios de seguridad relativos a los registros de parte se pueden establecer a través de las libretas de direcciones: Los privilegios de seguridad se basan en equipos. Este enfoque garantiza que solo los trabajadores asignados a un equipo que tiene acceso a una libreta de direcciones pueden ver los registros de parte contenidos en dicha libreta de direcciones. Debe seleccionar los equipos que tienen acceso a cada una de las libretas de direcciones. Por cada libreta de direcciones, puede establecer privilegios de seguridad que permitan o impidan el acceso por parte de determinados equipos. Si otorga privilegios de acceso a una libreta de direcciones a un equipo, todos los usuarios que lo integran pueden ver los registros de la libreta de direcciones. Si no otorga acceso a una libreta de direcciones a un equipo, los miembros de este no podrán ver la libreta de direcciones ni la información que contiene. **Decisión:**
 

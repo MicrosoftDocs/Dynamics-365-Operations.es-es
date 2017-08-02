@@ -26,8 +26,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Página principal de aplicación móvil
-<a id="mobile-app-home-page" class="xliff"></a>
+# <a name="mobile-app-home-page"></a>Página principal de aplicación móvil
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,8 +35,7 @@ Este tema describe la aplicación móvil Microsoft Dynamics 365 for Unified Oper
 > [!NOTE]
 > La aplicación móvil anteriormente se denominó *Microsoft Dynamics 365 for Finance and Operations*.
 
-Información general
-<a id="overview" class="xliff"></a>
+<a name="overview"></a>Información general
 --------
 
 La aplicación móvil permite a su organización tener los procesos de negocio disponibles en dispositivos móviles. Una vez que el administrador de TI habilita los espacios de trabajo móviles para su organización, los usuarios pueden iniciar sesión en la aplicación e inmediatamente comenzar a trabajar con procesos empresariales en sus dispositivos móviles. La aplicación móvil incluye las siguientes características que pueden ayudarle a aumentar la productividad:
@@ -47,8 +45,7 @@ La aplicación móvil permite a su organización tener los procesos de negocio d
 - Las administraciones o los desarrolladores de TI fácilmente puede diseñar espacios de trabajo móviles mediante el diseñador de espacios de trabajo interactivo que se incluye en el cliente web de Dynamics 365 for Operations.
 - Los administradores o los desarrolladores de TI pueden opcionalmente optimizar las capacidades sin conexión de los espacios de trabajo usando el marco de extensibilidad de la lógica empresarial. Dado que los datos continúan con su procesamiento mientras el dispositivo está desconectado, los escenarios móviles siguen siendo ricos y fluidos, aunque los dispositivos no tengan conectividad de red constante.
 
-## Elementos de la aplicación móvil
-<a id="elements-of-the-mobile-app" class="xliff"></a>
+## <a name="elements-of-the-mobile-app"></a>Elementos de la aplicación móvil
 La exploración en la aplicación móvil consiste en cuatro conceptos básicos: el panel de información, los espacios de trabajo, las páginas, y las acciones. 
 
 [![Conceptos de navegación en la aplicación móvil](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
@@ -62,8 +59,7 @@ La exploración en la aplicación móvil consiste en cuatro conceptos básicos: 
     - Navegue a otras páginas, puede navegar a otras páginas para buscar datos relacionados, como líneas o detalles de entidad.
     - Vea una lista **acciones** disponibles para dicha página. Las acciones le permiten crear o editar datos existentes.
 
-## Proceso de implementación
-<a id="implementation-process" class="xliff"></a>
+## <a name="implementation-process"></a>Proceso de implementación
 La ilustración siguiente muestra el proceso para implementar ambos espacios de trabajo móviles que proporciona Microsoft y los espacios de trabajo móviles personalizados. 
 
 ![Proceso de implementación de aplicaciones móviles](./media/Mobile-implementation-process-5.png)

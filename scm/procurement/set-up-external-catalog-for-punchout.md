@@ -26,8 +26,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Configurar un catálogo externo para la adquisición electrónica de marcaje de salida
-<a id="set-up-an-external-catalog-for-punchout-eprocurement" class="xliff"></a>
+# <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Configurar un catálogo externo para la adquisición electrónica de marcaje de salida
 
 Usando el catálogo externo, puede asegurarse de que la información del producto y de precios que procese posteriormente en Dynamics 365 for Finance and Operations, Edición Enterprise de julio de 2017 sea precisa y actualizada. La solicitud puede aprobarse y convertirse en un pedido de compra y se puede presentar el pedido al proveedor.
 
@@ -35,13 +34,11 @@ Cuando el catálogo externo se configura y un empleado está preparando una soli
 
 Para establecer la comunicación, el proveedor tiene que proporcionar datos que usted utilizará en la configuración del catálogo externo, como identidad, dominio de la empresa del comprador, por ejemplo, “DUNS” y “número DUNS”, credenciales y el URL para acceder al catálogo de proveedores.
 
-## Configuración de un catálogo externo
-<a id="setting-up-an-external-catalog" class="xliff"></a>
+## <a name="setting-up-an-external-catalog"></a>Configuración de un catálogo externo
 
 El catálogo externo debe habilitar que un empleado que especifique una solicitud de compra sea redirigido a un sitio externo para seleccionar productos. Los productos que el empleado seleccione en el catálogo externo se devuelven a Dynamics 365 for Finance and Operations con información de precio actualizada y de aquí se pueden agregar a la solicitud de compra. La intención no es permitir a los empleados realizar un pedido en el sitio externo. Cuando configure el catálogo externo, debe asegurarse de que el propósito del sitio al que se puede acceder por el catálogo externo sea recopilar información de presupuestos y no realizar un pedido real.
 
-### Para configurar un catálogo de proveedores externos, complete estas tareas:
-<a id="to-set-up-an-external-vendor-catalog-complete-the-following-tasks" class="xliff"></a>
+### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Para configurar un catálogo de proveedores externos, complete estas tareas:
 
 1. Configure una jerarquía de categorías de compras. Para obtener más información, consulte [Configurar directivas para jerarquías de categorías de compras](/https://ax.help.dynamics.com/en/wiki/set-up-policies-for-procurement-category-hierarchies/).
 2. Registre el proveedor en Finance and Operations. Para poder configurar las opciones de acceso al catálogo externo del proveedor, debe configurar el proveedor y el contacto del proveedor en Microsoft Dynamics 365. También debe agregar el proveedor del catálogo externo a la categoría de compras seleccionada. Para obtener más información acerca del registro de proveedores en Microsoft Dynamics 365, consulte [Gestionar usuarios de colaboración de proveedor](/procurement/manage-vendor-collaboration-users.md). Para obtener información sobre cómo asignar a un proveedor a una categoría de compras, consulte [Aprobar proveedores para categorías de compras específicas](/https://ax.help.dynamics.com/en/wiki/approve-vendors-for-specific-procurement-categories/).
@@ -51,8 +48,7 @@ El catálogo externo debe habilitar que un empleado que especifique una solicitu
 6. Active el catálogo externo mediante el botón **Activar catálogo** en la página **Catálogos externos** . El catálogo externo deberá activarse antes de que los empleados puedan usarlo. Puede desactivar el catálogo externo en cualquier momento.
 
 
-## (4) Configurar el catálogo de proveedores externos
-<a id="4-configure-the-external-vendor-catalog" class="xliff"></a>
+## <a name="4-configure-the-external-vendor-catalog"></a>(4) Configurar el catálogo de proveedores externos
 
 Esta sección proporciona más detalles sobre la tarea 4 de la sección anterior.
 
@@ -68,8 +64,7 @@ Las directivas de compra se utilizan para permitir o restringir el acceso a las 
 
 En cualquier momento, puede recargar la plantilla de mensajes generada por el sistema haciendo clic en **Restaurar formato de mensaje**. Tenga en cuenta que si restaura el formato del mensaje, el mensaje actual se sustituye por el formato de mensaje generado automáticamente, que tiene etiquetas vacías.
 
-### Mensaje de configuración de cXML
-<a id="cxml-setup-message" class="xliff"></a>
+### <a name="cxml-setup-message"></a>Mensaje de configuración de cXML
 A continuación verá una descripción de las etiquetas que se incluyen en la plantilla:
 
 | Campo | Descripción | 
@@ -84,15 +79,13 @@ A continuación verá una descripción de las etiquetas que se incluyen en la pl
 |< Request deploymentMode=”” >|La implementación de prueba o en producción.|
 |< Request >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL>|El URL del extremo de marcaje de salida del proveedor.|
 
-### Elementos extrínsecos
-<a id="extrinsic-elements" class="xliff"></a>
+### <a name="extrinsic-elements"></a>Elementos extrínsecos
 
 Un elemento extrínseco es información adicional, como un nombre de usuario basado en un usuario que hace un marcaje de salida. Se establece el elemento extrínseco cuando se produce el marcaje de salida y se puede enviar en el mensaje de configuración de la solicitud.
 Su proveedor puede tener un requisito para recibir un elemento extrínseco en la solicitud de configuración. En ese caso, debe agregar el elemento extrínseco a la lista de elementos extrínsecos en la sección **Formato de mensaje** de la página **Catálogo externo**. Especifique un nombre para el elemento extrínseco que el proveedor pueda reconocer y asignar a un valor. Las opciones de valores son: nombre de usuario, correo electrónico del usuario o valor aleatorio.
 Para obtener más información acerca del protocolo de cXML, consulte: http://cxml.org/
 
-## Mensaje de confirmación
-<a id="post-back-message" class="xliff"></a>
+## <a name="post-back-message"></a>Mensaje de confirmación
 El mensaje de confirmación es el mensaje que se recibe del proveedor cuando el usuario completa la compra en el sitio externo y vuelve a Finance and Operations. Los mensajes de confirmación no se pueden configurar. Los mensajes se basan en la definición del protocolo cXML. A continuación se indica la información que puede formar parte del mensaje de confirmación que se recibe en una línea de solicitud:
 
 | Mensaje recibido del proveedor | Se copia a la línea de solicitud en Finance and Operations|
@@ -107,8 +100,7 @@ El mensaje de confirmación es el mensaje que se recibe del proveedor cuando el 
 |< ItemDetail >< Classification >< /Classification >|Incluido en la descripción del artículo|
 |< ItemDetail >< Classification domain=”” >|Incluido en la descripción del artículo|
 
-## Eliminar un catálogo externo
-<a id="delete-an-external-catalog" class="xliff"></a>
+## <a name="delete-an-external-catalog"></a>Eliminar un catálogo externo
 Eliminar un catálogo externo con la acción Eliminar en la página.
 
 Si se ha solicitado un producto del catálogo de proveedores externo, no se podrá eliminar el catálogo de proveedores externo. En su lugar, el estado del catálogo de proveedor externo se establece como inactivo. Si desea impedir el acceso al sitio del catálogo del proveedor externo, pero no eliminarlo, cambie el estado del catálogo externo a Inactivo.

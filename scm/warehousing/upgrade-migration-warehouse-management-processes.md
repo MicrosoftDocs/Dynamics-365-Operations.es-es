@@ -25,41 +25,34 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Migrar desde AX 2012 a Finance and Operations
-<a id="migrate-from-ax-2012-to-finance-and-operations" class="xliff"></a>
+# <a name="migrate-from-ax-2012-to-finance-and-operations"></a>Migrar desde AX 2012 a Finance and Operations
 
 Este tema proporciona una visión general de las opciones de migración de la gestión de productos y de almacenes dentro de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
-Introducción
-<a id="introduction" class="xliff"></a>
+<a name="introduction"></a>Introducción
 ------------
 
 Durante una actualización de Finance and Operations, los productos están bloqueados si se asocian a un grupo de dimensiones de almacenamiento con valores que no coinciden con los requisitos de valores del grupo de dimensiones de almacenamiento de Finance and Operations. Sin embargo, después de la actualización, puede usar un conjunto de opciones de migración en el proceso **Cambiar grupo de dimensiones de almacenamiento para artículos** para desbloquear los productos bloqueados durante la actualización. A continuación puede procesar las transacciones de estos productos. Algunos de los elementos pueden estar ya asociados a grupos de dimensiones de almacenamiento en los que se activaron las dimensiones de sitio, almacén e inventario de ubicación y ser seguidos físicamente. En este caso, puede usar el proceso **Cambiar grupo de dimensiones de almacenamiento para artículos** para habilitar los artículos que se utilizarán en procesos de gestión de almacenes. Esta función resulta útil si desea usar la funcionalidad de gestión de almacenes para los artículos existentes.
 
-## Actualización de Finance and Operations cuando se utiliza AX 2012 R3 WMSII
-<a id="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used" class="xliff"></a>
+## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Actualización de Finance and Operations cuando se utiliza AX 2012 R3 WMSII
 Finance and Operations ya no admite el antiguo módulo **WMSII** de Microsoft Dynamics AX 2012. En su lugar, puede utilizar el nuevo módulo **Gestión de almacenes** . Para obtener más información, consulte la [página principal de Gestión de almacenes](https://ax.help.dynamics.com/en/wiki/warehouse-management/). En versiones anteriores, las dimensiones de inventario de la ubicación y del ID de palé se podían seleccionar para el inventario financiero. Sin embargo, como parte del proceso de actualización, la dimensión de inventario de identificador de palé ya no se puede habilitar para el inventario financiero. Todos los productos asociados a un grupo de dimensiones de almacenamiento que utilice la dimensión de inventario de identificador de palé se bloquean y no se procesan.
 
-### Habilitación de artículos en Finance and Operations
-<a id="enabling-items-in-finance-and-operations" class="xliff"></a>
+### <a name="enabling-items-in-finance-and-operations"></a>Habilitación de artículos en Finance and Operations
 
 En Finance and Operations, los artículos que se usarán como parte de procesos de gestión de almacenes se deben asociar a un grupo de dimensiones de almacenamiento donde se selecciona el parámetro **Usar procesos de gestión de almacenes** . Cuando se selecciona este valor, se activan las dimensiones de inventario de sitio, almacén, estado de inventario, ubicación y número de matrícula. Puede cambiar a este tipo de grupo de dimensiones de almacenamiento únicamente para los artículos que ya están asociados a los grupos de dimensiones de almacenamiento donde está activa la dimensión de inventario de la ubicación.
 
-### Artículos que se bloquean para las actualizaciones de inventario
-<a id="items-that-are-blocked-for-inventory-updates" class="xliff"></a>
+### <a name="items-that-are-blocked-for-inventory-updates"></a>Artículos que se bloquean para las actualizaciones de inventario
 
 Para ver la lista de productos emitidos que se bloquearon durante la actualización y no pueden procesarse, haga clic en **Gestión del inventario** &gt; **Configuración** &gt; **Inventario** &gt; **Artículos bloqueados para las actualizaciones de inventario**.
 
-### Reaplicación de productos bloqueados
-<a id="reapplying-blocked-products" class="xliff"></a>
+### <a name="reapplying-blocked-products"></a>Reaplicación de productos bloqueados
 
 Para desbloquear los productos bloqueados durante la actualización, debe seleccionar un nuevo grupo de dimensiones de almacenamiento para los productos. Tenga en cuenta que puede cambiar el grupo de dimensiones de almacenamiento incluso si existen transacciones de inventario abiertas. Para usar los artículos bloqueados durante la actualización, tiene dos opciones:
 
 -   Cambiar el grupo de dimensiones de almacenamiento del artículo a un grupo de dimensiones de almacenamiento que use únicamente las dimensiones de sitio, almacén y ubicación. Como resultado de este cambio, la dimensión de inventario identificador de palé ya no se usa.
 -   Cambiar el grupo de dimensiones de almacenamiento del artículo a un grupo de dimensiones de almacenamiento que use los procesos de gestión de almacenes. Como resultado de este cambio, la dimensión de inventario del número de matrícula ahora se usa.
 
-### Procesos de migración
-<a id="migration-processes" class="xliff"></a>
+### <a name="migration-processes"></a>Procesos de migración
 
 En Finance and Operations, el seguimiento de artículos forma parte de los procesos de gestión de almacenes. Para estos procesos, todos los almacenes y sus ubicaciones deben estar asociadas a un perfil de ubicación. Conceptualmente, si desea utilizar procesos de gestión de almacenes, debe trabajar con dos procesos:
 
@@ -68,13 +61,11 @@ En Finance and Operations, el seguimiento de artículos forma parte de los proce
 
 Si los grupos de dimensiones de almacenamiento de origen usan la dimensión de inventario identificador de palé, las ubicaciones de inventario disponible existentes que utilizaron la dimensión de inventario identificador de palé se deben asociar a un perfil de ubicación donde esté seleccionado el parámetro **Usar seguimiento de matrículas de entidad de almacén**. Si los almacenes existentes no deben habilitarse para utilizar procesos de gestión de almacenes, puede cambiar los grupos de dimensiones de almacenamiento del inventario disponible existentes que usen únicamente las dimensiones de inventario sitio, almacén y ubicación.
 
-### Uso de los procesos de gestión de almacenes
-<a id="using-the-warehouse-management-processes" class="xliff"></a>
+### <a name="using-the-warehouse-management-processes"></a>Uso de los procesos de gestión de almacenes
 
 Para poder usar los productos emitidos en el módulo **Gestión de almacenes**, los productos deben usar un grupo de dimensiones de almacenamiento donde esté seleccionado el parámetro **Usar procesos de gestión de almacenes** .
 
-#### Habilite los almacenes para usar los procesos de gestión de almacenes
-<a id="enable-warehouses-to-use-warehouse-management-processes" class="xliff"></a>
+#### <a name="enable-warehouses-to-use-warehouse-management-processes"></a>Habilite los almacenes para usar los procesos de gestión de almacenes
 
 1.  Cree al menos un nuevo perfil de ubicación.
 2.  Haga clic en **Gestión de almacenes** &gt; **Configuración** &gt; **Habilitar procesos de gestión de almacenes** &gt; **Habilitar la configuración del almacén**.
@@ -83,8 +74,7 @@ Para poder usar los productos emitidos en el módulo **Gestión de almacenes**, 
 5.  Valide los cambios. Como parte del proceso de validación se producen varias validaciones de la integridad de datos. Como parte de un proceso de actualización mayor, es posible que los problemas que aparezcan tengan que ajustarse en la implementación de origen. En este caso, una actualización de datos adicional será necesaria.
 6.  Procese los cambios.
 
-#### Cambie el grupo de dimensiones de almacenamiento de los artículos para que use procesos de gestión de almacenes
-<a id="change-the-storage-dimension-group-for-items-so-that-it-uses-warehouse-management-processes" class="xliff"></a>
+#### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-warehouse-management-processes"></a>Cambie el grupo de dimensiones de almacenamiento de los artículos para que use procesos de gestión de almacenes
 
 1.  Cree un nuevo valor **Estado de inventario** y asígnelo como valor **Id. del estado de inventario predeterminado** en la configuración de **Parámetros de gestión de almacenes**.
 2.  Cree un nuevo grupo de dimensiones de almacenamiento donde esté seleccionado el parámetro **Usar procesos de gestión de almacenes**.

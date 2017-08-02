@@ -25,8 +25,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Plantillas de planificación presupuestaria para Excel
-<a id="budget-planning-templates-for-excel" class="xliff"></a>
+# <a name="budget-planning-templates-for-excel"></a>Plantillas de planificación presupuestaria para Excel
 
 [!include[banner](../includes/banner.md)]
 
@@ -35,8 +34,7 @@ Este tema describe cómo crear plantillas de Microsoft Excel que se puedan utili
 
 Este tema muestra cómo crear plantillas de Excel que se usarán con planes presupuestarios mediante el conjunto de datos de demostración estándar y el inicio de sesión de usuario Admin. Para obtener más información sobre la planificación presupuestaria, consulte [Visión general de la planificación presupuestaria.](budget-planning-overview-configuration.md) También puede seguir el tutorial [Planificación presupuestaria 101](budget-plan.md) para aprender los principios básicos de la configuración y el uso de módulos.
 
-## Generación de una hoja de cálculo mediante el diseño del documento de plan presupuestario
-<a id="generate-a-worksheet-using-budget-plan-document-layout" class="xliff"></a>
+## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Generación de una hoja de cálculo mediante el diseño del documento de plan presupuestario
 Los documentos de plan presupuestario se pueden ver y editar mediante uno o varios diseños. Cada diseño puede tener una plantilla de documento de plan presupuestario asociada para ver y editar los datos del plan presupuestario en una hoja de cálculo de Excel. En este tema, una plantilla de documento de plan presupuestario se generará empleando una configuración de diseño existente. Abra la **Lista de planes presupuestarios** (**Gestión presupuestaria**&gt; **Planes presupuestarios**). Haga clic en **Nuevo** para crear un documento de plan presupuestario. [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 Emplee la opción de línea **Agregar** para agregar líneas. Haga clic en **Diseños** para ver la configuración del diseño de documento de plan presupuestario. 
@@ -54,8 +52,7 @@ La plantilla de Excel contendrá todos los elementos del diseño de documento de
 > [!NOTE] 
 > Para evitar posibles problemas con la visualización y edición de los datos del plan presupuestario con Excel, el mismo usuario se debe registrar en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition y el conector de datos del complemento de Office para Microsoft Dynamics.
 
-## Agregar un encabezado a la plantilla de documento de plan presupuestario
-<a id="add-a-header-to-budget-plan-document-template" class="xliff"></a>
+## <a name="add-a-header-to-budget-plan-document-template"></a>Agregar un encabezado a la plantilla de documento de plan presupuestario
 Para agregar información de encabezado, seleccione la fila superior en el archivo de Excel e inserte las filas vacías. Haga clic en **Diseño** en el **Conector de datos** para agregar campos de cabecera al archivo de Excel.
 
 [![bpt5](./media/bpt5-1024x615.png)](./media/bpt5.png) 
@@ -66,11 +63,9 @@ En la pestaña **Diseño**,** **haga clic en los campos **Agregar** y seleccione
 
 Coloque el cursor en la ubicación deseada del archivo de Excel. Haga clic en **Agregar etiqueta** para agregar la etiqueta de campo a la ubicación seleccionada. Seleccione **Agregar valor** para agregar el campo de valor al lugar seleccionado. Haga clic en **Listo** para cerrar el diseñador.
 
-## [![bpt7](./media/bpt7.png)](./media/bpt7.png)
-<a id="bpt7mediabpt7pngmediabpt7png" class="xliff"></a>
+## <a name="bpt7mediabpt7pngmediabpt7png"></a>[![bpt7](./media/bpt7.png)](./media/bpt7.png)
 
-Agregue una columna calculada a la tabla de plantillas de documento de plan presupuestario
-<a id="add-a-calculated-column-to-budget-plan-document-template-table" class="xliff"></a>
+<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Agregue una columna calculada a la tabla de plantillas de documento de plan presupuestario
 --------------------------------------------------------------
 
 A continuación, las columnas calculadas se agregará a la plantilla de documento de plan presupuestario generada. Una columna **Total de la solicitud** que suma las columnas Solicitud de primer trimestre: Solicitud de cuarto trimestre y una columna **Ajuste** que recalcula la columna **Total de la solicitud** con un factor predefinido.
@@ -96,17 +91,14 @@ Cierre el control deslizante **Diseños**. En el documento **Plan presupuestario
 
 [![bpt11](./media/bpt111-1024x431.png)](./media/bpt111.png)
 
-## Trucos para crear plantillas de plan presupuestario
-<a id="tips--tricks-for-creating-budget-plan-templates" class="xliff"></a>
-### ¿Puedo agregar y utilizar orígenes de datos adicionales para una plantilla de plan presupuestario?
-<a id="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template" class="xliff"></a>
+## <a name="tips--tricks-for-creating-budget-plan-templates"></a>Trucos para crear plantillas de plan presupuestario
+### <a name="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template"></a>¿Puedo agregar y utilizar orígenes de datos adicionales para una plantilla de plan presupuestario?
 
 Sí, puede usar el menú **Diseño** para agregar entidades adicionales a la misma o a otras hojas en la plantilla de Excel. Por ejemplo, puede agregar el origen de datos **BudgetPlanProposedProject** para crear y mantener una lista de proyectos propuestos al mismo tiempo al trabajar con datos del plan presupuestario en Excel. Tenga en cuenta que incluir orígenes de datos de gran volumen puede afectar al rendimiento del libro de Excel. 
 
 Puede usar la opción **Filtro** en **Conector de datos** de agregar los filtros deseados a orígenes de datos adicionales.
 
-### ¿Puedo ocultar la opción Diseño en el Conector de datos para otros usuarios?
-<a id="can-i-hide-the-design-option-in-the-data-connector-for-other-users" class="xliff"></a>
+### <a name="can-i-hide-the-design-option-in-the-data-connector-for-other-users"></a>¿Puedo ocultar la opción Diseño en el Conector de datos para otros usuarios?
 
 Sí, abra las opciones del **Conector de datos** para ocultar la opción **Diseño** de otros usuarios.
 
@@ -116,8 +108,7 @@ Expanda las opciones de **Conector de datos** y desmarque la casilla de verifica
 
 [![bpt14](./media/bpt14-1024x592.png)](./media/bpt14.png)
 
-### ¿Puedo evitar que los usuarios cierren accidentalmente el Conector de datos mientras trabajan con los datos?
-<a id="can-i-prevent-users-from-accidently-closing-the-data-connector-while-working-with-data" class="xliff"></a>
+### <a name="can-i-prevent-users-from-accidently-closing-the-data-connector-while-working-with-data"></a>¿Puedo evitar que los usuarios cierren accidentalmente el Conector de datos mientras trabajan con los datos?
 
 Es recomendable bloquear la plantilla para evitar que los usuarios la cierren. Para activar el bloqueo, haga clic en **Conector de datos**; en la esquina superior derecha aparece una flecha. 
 
@@ -125,11 +116,9 @@ Es recomendable bloquear la plantilla para evitar que los usuarios la cierren. P
 
 Haga clic en la flecha para un menú adicional. Seleccione **Bloquear**.
 
-### [![bpt16](./media/bpt16-1024x614.png)](./media/bpt16.png)
-<a id="bpt16mediabpt16-1024x614pngmediabpt16png" class="xliff"></a>
+### <a name="bpt16mediabpt16-1024x614pngmediabpt16png"></a>[![bpt16](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
-### ¿Puedo usar otras funciones de Excel, como formato de celda, colores, formato condicional y gráficos mis con plantillas del plan presupuestario?
-<a id="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates" class="xliff"></a>
+### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>¿Puedo usar otras funciones de Excel, como formato de celda, colores, formato condicional y gráficos mis con plantillas del plan presupuestario?
 
 Sí, la mayoría de las capacidades estándar de Excel funcionarán en las plantillas de plan presupuestario. Recomendamos usar la codificación de color para que los usuarios distingan entre las columnas de solo lectura y las editables. El formato condicional se puede usar para resaltar las áreas problemáticas del presupuesto. Los totales de las columnas se pueden mostrar con facilidad mediante las fórmulas estándar de Excel sobre la tabla.
 

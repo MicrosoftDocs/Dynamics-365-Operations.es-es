@@ -28,8 +28,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Analizar el rendimiento de la tienda
-<a id="analyze-store-performance" class="xliff"></a>
+# <a name="analyze-store-performance"></a>Analizar el rendimiento de la tienda
 
 [!include[banner](includes/banner.md)]
 

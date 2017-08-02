@@ -28,8 +28,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Jerarquías comerciales
-<a id="retail-hierarchies" class="xliff"></a>
+# <a name="retail-hierarchies"></a>Jerarquías comerciales
 
 [!include[banner](includes/banner.md)]
 
@@ -38,8 +37,7 @@ Este artículo describe jerarquías comerciales en Microsoft Dynamics 365 for Re
 
 Puede crear una jerarquía de categoría comercial para organizar los productos que vende a través de los canales comerciales. Puede usar jerarquías de productos comerciales para categorizar o agrupar productos. Puede usar estos productos para crear selecciones de productos y programas de fidelización de clientes. También puede asignar propiedades y atributos de productos, asignar una estructura de precios, incluir los productos en las promociones de producto y usar los productos para crear informes. Puede crear una jerarquía de categoría comercial que represente todos los productos y categorías de la organización y, a continuación, utilizar dicha jerarquía de categoría con distintos fines. Como alternativa, puede crear varias jerarquías de categoría comercial para fines especiales, tales como promociones de productos. Al crear una jerarquía de productos comerciales, debe asignar un tipo de jerarquía de categoría para identificar el propósito de la jerarquía de categoría. Por ejemplo, solo se hace referencia a las jerarquías de productos que tienen el tipo **Jerarquía de navegación comercial** asignado al examinar productos por categoría en línea o en el punto de venta (POS).
 
-## Tipos de jerarquía comercial
-<a id="retail-hierarchy-types" class="xliff"></a>
+## <a name="retail-hierarchy-types"></a>Tipos de jerarquía comercial
 La siguiente tabla enumera los tipos de jerarquías de categorías comerciales disponibles y los fines generales de cada tipo.
 
 | Tipo de jerarquía de categorías       | Propósito                                                                                                                                                                                                                                                                                                            |

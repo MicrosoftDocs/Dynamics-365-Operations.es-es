@@ -26,16 +26,14 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Informes financieros de saldo de comprobación
-<a id="trial-balance-financial-reports" class="xliff"></a>
+# <a name="trial-balance-financial-reports"></a>Informes financieros de saldo de comprobación
 
 [!include[banner](../includes/banner.md)]
 
 
 En este artículo se describen los informes predeterminados para los saldos de comprobación. También se describen los componentes asociados a estos informes y cómo puede modificar los informes para que se adapten a sus requisitos empresariales. 
 
-Informes de saldo de comprobación predeterminados
-<a id="default-trial-balance-reports" class="xliff"></a>
+<a name="default-trial-balance-reports"></a>Informes de saldo de comprobación predeterminados
 -----------------------------
 
 Tres informes de saldo de comprobación están disponibles en informes financieros en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
@@ -46,8 +44,7 @@ Tres informes de saldo de comprobación están disponibles en informes financier
 | Resumen de saldo de comprobación – predeterminado                | Ofrece información de saldo para todas las cuentas e incluye saldos de apertura y de cierre, y saldos de débito y crédito, junto con su diferencia neta.                                        |
 | Resumen de saldo de comprobación año por año – predeterminado | Ofrece información de saldo para todas las cuentas e incluye saldos de apertura y cierre, y saldos de débito y crédito, junto con su diferencia neta para el año actual y el anterior. |
 
-## Bloques de creación
-<a id="building-blocks" class="xliff"></a>
+## <a name="building-blocks"></a>Bloques de creación
 Los informes financieros del saldo de comprobación usan los siguientes bloques de creación.
 
 | Informe predeterminado                                 | Definición de filas          | Definición de columnas                              |
@@ -56,8 +53,7 @@ Los informes financieros del saldo de comprobación usan los siguientes bloques 
 | Resumen de saldo de comprobación – predeterminado                | Saldo de comprobación - predeterminado | Resumen de saldo de comprobación - predeterminado                |
 | Resumen de saldo de comprobación año por año – predeterminado | Saldo de comprobación - predeterminado | Resumen de saldo de comprobación año por año - predeterminado |
 
-### Definición de filas
-<a id="row-definition" class="xliff"></a>
+### <a name="row-definition"></a>Definición de filas
 
 La definición de filas, Saldo de comprobación – Predeterminado, contiene una sola fila que extrae todas las cuentas principales. Por tanto, cualquier persona puede generar el informe sin tener que realizar ninguna modificación. Cuando ve el informe, explora la fila única para ver los detalles acerca de cada cuenta. Puede modificar la definición de filas para que incluya más detalle. Para modificar la definición de filas Saldo de comprobación - predeterminado para que incluya filas para todas las cuentas, siga estos pasos.
 
@@ -66,8 +62,7 @@ La definición de filas, Saldo de comprobación – Predeterminado, contiene una
 
 La definición de filas contiene ahora todas las cuentas principales para la entidad jurídica predeterminada.
 
-### Definición de columnas
-<a id="column-definition" class="xliff"></a>
+### <a name="column-definition"></a>Definición de columnas
 
 Cada informe de saldo de comprobación usa otra definición de columna. Estas definiciones de columnas contienen diversos tipos de columnas para proporcionar distintos niveles de detalle y datos financieros.
 
@@ -106,8 +101,7 @@ Cada informe de saldo de comprobación usa otra definición de columna. Estas de
 
  
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Informes financieros](financial-reporting-getting-started.md)

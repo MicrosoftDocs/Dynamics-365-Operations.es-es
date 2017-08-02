@@ -28,8 +28,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Permite crear y gestionar atributos
-<a id="create-and-manage-attributes" class="xliff"></a>
+# <a name="create-and-manage-attributes"></a>Permite crear y gestionar atributos
 
 [!include[banner](includes/banner.md)]
 
@@ -38,8 +37,7 @@ Este artículo describe atributos en Microsoft Dynamics 365 for Retail. Los atri
 
 Los atributos le permiten describir un producto y sus características a través de campos definidos por el usuario. Por ejemplo, puede especificar el tamaño de la memoria del producto y la capacidad del disco duro, e indicar si el producto es compatible con las estrellas de energía. Los atributos se pueden asociar con las distintas entidades minoristas, como categorías de productos y canales de venta minorista, y se pueden definir valores predeterminados. Los productos heredan sus atributos y los valores predeterminados para dichos atributos cuando se asocian a las categorías de productos o canales de venta minorista. Los valores predeterminados se pueden anular en el nivel de producto individual, en el nivel del canal de venta minorista o en un catálogo de venta minorista.
 
-#### Ejemplo
-<a id="examples" class="xliff"></a>
+#### <a name="examples"></a>Ejemplo
 
 | Categoría   | Atributo                | Valores permitidos          | Valor predeterminado |
 |------------|--------------------------|-----------------------------|---------------|
@@ -59,8 +57,7 @@ Los atributos le permiten describir un producto y sus características a través
 | Proyección | # de tubos de proyección    | 1 – 5                         | 3             |
 
 
-## Tipo de atributo
-<a id="attribute-type" class="xliff"></a>
+## <a name="attribute-type"></a>Tipo de atributo
   [![copia-de-atributos-fijos](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
   
 Los atributos se basan en tipos de atributo. Los tipos de atributo identifican el tipo de datos que se pueden introducir para un atributo específico. Actualmente, Microsoft Dynamics 365 for Retail admite los tipos de atributo siguientes:
@@ -73,39 +70,31 @@ Los atributos se basan en tipos de atributo. Los tipos de atributo identifican e
 -   **Boolean**: este tipo de atributo admite valores binarios (**verdadero**/**falso**).
 -   **Referencia**.
 
-## Atributo
-<a id="attribute" class="xliff"></a>
+## <a name="attribute"></a>Atributo
   [![createandmanageattribute-8](./media/createandmanageattribute-8.png)](./media/createandmanageattribute-8.png) Además del nombre, el nombre descriptivo, la descripción y el texto de ayuda, uno o más de los siguientes tipos de información se pueden capturar para un atributo:
 
 -   Valor predeterminado
 -   El atributo metadatos, como metadatos que indican si el atributo puede ser buscado, se refinado o clasificado
 
-## Grupo de atributos
-<a id="attribute-group" class="xliff"></a>
+## <a name="attribute-group"></a>Grupo de atributos
   [![createandmanageattribute-10](./media/createandmanageattribute-10.png)](./media/createandmanageattribute-10.png) Después de que se hayan definido los atributos, se pueden agrupar en grupos de atributos. Los grupos de atributos proporcionan agrupaciones de atributos individuales y se pueden asignar a las categorías de venta minorista o a los canales de venta minorista.
 
-## Asignar grupos de atributos a las categorías de venta minorista
-<a id="assigning-attribute-groups-to-retail-categories" class="xliff"></a>
+## <a name="assigning-attribute-groups-to-retail-categories"></a>Asignar grupos de atributos a las categorías de venta minorista
   [![createandmanageattribute-12](./media/createandmanageattribute-12.png)](./media/createandmanageattribute-12.png) Uno o más grupos de atributos se pueden asociar con nodos de categoría en la jerarquía de categoría de productos de venta minorista. Cuando se han clasificado los productos, heredan los atributos incluidos en los grupos de atributos.
 
-## Asignar grupos de atributos a las tiendas de venta minorista
-<a id="assigning-attribute-groups-to-retail-stores" class="xliff"></a>
+## <a name="assigning-attribute-groups-to-retail-stores"></a>Asignar grupos de atributos a las tiendas de venta minorista
   [![createandmanageattribute-13-1024x576](./media/createandmanageattribute-13-1024x576.png)](./media/createandmanageattribute-13-1024x576.png) Uno o más grupos de atributos se pueden asociar con tiendas de venta minorista en la jerarquía de categoría de tiendas de venta minorista. Cuando se han enriquecido los productos para tiendas de enta minorista concretas, heredan los atributos incluidos en los grupos de atributos.
 
-## Anular valores de atributos
-<a id="overriding-attribute-values" class="xliff"></a>
-### En el nivel de productos
-<a id="at-the-product-level" class="xliff"></a>
+## <a name="overriding-attribute-values"></a>Anular valores de atributos
+### <a name="at-the-product-level"></a>En el nivel de productos
 
   [![createandmanageattribute-14-1024x576](./media/createandmanageattribute-14-1024x576.png)](./media/createandmanageattribute-14-1024x576.png) Los valores predeterminados de atributos se pueden anular en el nivel de producto (es decir, para productos individuales).
 
-### En un catálogo comercial
-<a id="in-a-retail-catalog" class="xliff"></a>
+### <a name="in-a-retail-catalog"></a>En un catálogo comercial
 
   [![createandmanageattribute-2](./media/createandmanageattribute-2.png)](./media/createandmanageattribute-2.png) Los valores predeterminados de atributos se pueden anular para los productos individuales en los catálogos específicos que se dirigen a los canales de venta minorista específicos.
 
-### En el nivel de canal comercial
-<a id="at-the-retail-channel-level" class="xliff"></a>
+### <a name="at-the-retail-channel-level"></a>En el nivel de canal comercial
 
   [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) Los valores predeterminados de atributos se pueden anular para los productos individuales en los catálogos específicos que se dirigen a los canales de venta minorista específicos.
 

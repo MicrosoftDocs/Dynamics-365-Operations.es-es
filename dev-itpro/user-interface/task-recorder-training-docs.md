@@ -27,8 +27,7 @@ ms.lasthandoff: 06/17/2017
 
 ---
 
-# Crear documentación o formación con las grabaciones de tareas
-<a id="create-documentation-or-training-using-task-recordings" class="xliff"></a>
+# <a name="create-documentation-or-training-using-task-recordings"></a>Crear documentación o formación con las grabaciones de tareas
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,8 +36,7 @@ Este tema explica qué son el Grabador de tareas y las guías de tareas, cómo c
 > [!IMPORTANT]
 > No puede crear guías de tareas personalizadas para Dynamics 365 for Talent. El sistema de Ayuda para Talent se conecta automáticamente a las guías de tareas para el producto. 
 
-Información sobre el grabador de tareas
-<a id="learn-about-task-recorder" class="xliff"></a>
+<a name="learn-about-task-recorder"></a>Información sobre el grabador de tareas
 -------------------------
 
 El Grabador de tareas es una herramienta que puede usar para grabar las acciones que realice en la interfaz de usuario (IU) del producto. Al usar el Grabador de tareas, se capturan todos los eventos que realiza en la IU que se ejecutan en relación con el servidor, entre los que se incluyen la adición de valores, el cambio de configuración y la eliminación de datos. Los pasos que grabe se denominan conjuntamente *grabación de tareas*. Las grabaciones de tareas se pueden usar de muchas maneras:
@@ -50,8 +48,7 @@ El Grabador de tareas es una herramienta que puede usar para grabar las acciones
 
 Puede crear sus propias grabaciones de tareas, reproducir grabaciones de tareas proporcionadas por Microsoft o modificar grabaciones de tareas proporcionadas por Microsoft para reflejar su configuración. Para obtener más información sobre el Grabador de tareas, consulte [Grabador de tareas](task-recorder.md).
 
-## Planear su grabación de tareas
-<a id="plan-your-task-recording" class="xliff"></a>
+## <a name="plan-your-task-recording"></a>Planear su grabación de tareas
 Si está creando una nueva grabación de tareas o basando su grabación en una grabación de tareas de Microsoft, tenga en cuenta la siguiente información.
 
 -   Planee su grabación como planearía un vídeo. Tome todas sus decisiones con antelación.
@@ -101,12 +98,10 @@ Así es como se muestra la anotación del notas en la “burbuja” de la guía 
 
 **Decida en qué lugar de la IU se iniciará una grabación** La página en la que se encuentra al iniciar la grabación de tareas afecta a para qué página se muestra la guía de tareas. Por ejemplo, si desea que su grabación de tareas se muestre en el panel de la Ayuda cuando un usuario hace clic en la Ayuda de la página Parámetros de contabilidad general, debe comenzar la grabación en la página Parámetros de contabilidad general. **Guarde las grabaciones como archivos .axtr** Cuando haya acabado de crear o editar una grabación de tareas, se le presentarán varias opciones para cómo desea descargar o guardar la grabación. Puede descargar el archivo como paquete de grabación de tareas (.axtr), descargarlo como archivo de grabación en bruto (.xml), descargarlo como documento de Word o guardar el archivo en una biblioteca de LCS. Es una buena idea guardar siempre su grabación de tareas como un archivo de paquete de grabación de tareas (.axtr). Esto facilitará el mantenimiento del archivo si los procedimientos o las anotaciones necesitan cambiarse posteriormente. Si desea descargar el archivo como documento de Word, guárdelo también como archivo de paquete de grabación de tareas.
 
-## Crear la grabación de tareas
-<a id="create-your-task-recording" class="xliff"></a>
+## <a name="create-your-task-recording"></a>Crear la grabación de tareas
 Para los pasos detallados de tutorial, consulte [Cómo crear una grabación de tareas](task-recorder.md).
 
-## Copiar y personalizar las grabaciones de tareas de Microsoft
-<a id="copy-and-customize-microsofts-task-recordings" class="xliff"></a>
+## <a name="copy-and-customize-microsofts-task-recordings"></a>Copiar y personalizar las grabaciones de tareas de Microsoft
 Puede descargar y editar las grabaciones de tareas de Microsoft para usarlas para sus propios materiales de formación y documentación de la Ayuda. Para descargar una grabación de tarea de Microsoft, siga estos pasos:
 
 1.  Abra el Grabador de tareas. El Grabador de tareas se encuentra en el menú **Parámetros**.
@@ -121,12 +116,10 @@ Puede descargar y editar las grabaciones de tareas de Microsoft para usarlas par
 10. Cuando se haya reproducido la grabación hasta el final, haga clic en **Detener** en el grabador de tareas de la parte superior de la pantalla.
 11. Elija cómo desea guardar la grabación de tareas.
 
-## Incluir las grabaciones de tareas en el panel de la Ayuda
-<a id="include-your-task-recordings-in-the-help-pane" class="xliff"></a>
+## <a name="include-your-task-recordings-in-the-help-pane"></a>Incluir las grabaciones de tareas en el panel de la Ayuda
 Para mostrar sus propias grabaciones de tareas personalizadas en el panel de la Ayuda para que se puedan reproducir como guías de tareas o ver como texto, debe guardar sus grabaciones de tareas en su propia biblioteca de BPM y después actualizar los parámetros del sistema de Ayuda para que señalen a la biblioteca de BPM. Para obtener más información, consulte [Conexión del sistema de Ayuda](../get-started/help-connect.md)
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Visión general de la ayuda](..\get-started\help-overview.md)

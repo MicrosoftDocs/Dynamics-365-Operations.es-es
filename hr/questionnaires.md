@@ -27,8 +27,7 @@ ms.lasthandoff: 06/20/2017
 
 ---
 
-# Cuestionarios
-<a id="questionnaires" class="xliff"></a>
+# <a name="questionnaires"></a>Cuestionarios
 
 En este tema se proporciona información general acerca de los cuestionarios, además de vínculos a información más detallada. Un cuestionario es un conjunto de preguntas que se utiliza para recopilar información con varios objetivos. Puede diseñar, crear, distribuir y completar cuestionarios y, a continuación, analizar los resultados. 
 
@@ -50,8 +49,7 @@ En la siguiente tabla se proporcionan vínculos a información sobre cómo usar 
 
 
 
-Consulte también
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a>Consulte también
 --------
 
 [Diseñar cuestionarios](design-questionnaires.md)

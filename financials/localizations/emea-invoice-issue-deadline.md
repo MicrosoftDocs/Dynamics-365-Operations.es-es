@@ -26,8 +26,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Fecha de límite de emisión de factura
-<a id="invoice-issue-deadline" class="xliff"></a>
+# <a name="invoice-issue-deadline"></a>Fecha de límite de emisión de factura
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,8 +40,7 @@ La Directiva de la Unión Europea (UE) 45/2010 y otras directorias requieren que
 
 También puede configurar controles de fecha para ayudar a garantizar que las facturas de cliente y las notas de abono para las transacciones de cliente se generan dentro del período especificado una vez que se realice la entrega.
 
-## Requisitos previos
-<a id="prerequisites" class="xliff"></a>
+## <a name="prerequisites"></a>Requisitos previos
 La tabla siguiente muestra los requisitos previos que deben cumplirse antes de que pueda usar la función de la fecha límite de emisión de la factura.
 
 | Categoría            | Requisito previo                                                                                                                                                                                                                                                                                                                                                                             |
@@ -50,20 +48,16 @@ La tabla siguiente muestra los requisitos previos que deben cumplirse antes de q
 | País o región      | La dirección principal de la entidad jurídica debe estar en un estado miembro de la Unión Europea.                                                                                                                                                                                                                                                                                                                    |
 | Tareas de configuración relacionada | En la página **Intervalos de fechas**, configure un intervalo de fechas que se usa para calcular la fecha límite de emisión de la factura. (Haga clic en **Contabilidad general** &gt; **Configuración de contabilidad** &gt; **Intervalos de fecha**). En la página **Parámetros de comercio exterior**, configure las propiedades de comercio exterior para distintos países o regiones. (Haga clic en **Impuestos** &gt; **Configuración** &gt; **Comercio exterior** &gt; **Parámetros de comercio exterior**). |
 
-## Regla de cálculo de fechas límites de emisión de facturas
-<a id="invoice-issue-due-date-calculation-rule" class="xliff"></a>
+## <a name="invoice-issue-due-date-calculation-rule"></a>Regla de cálculo de fechas límites de emisión de facturas
 Use la página **Configurar cálculo para la fecha límite de emisión de la factura** para configurar una regla de cálculo de fechas límite de emisión de facturas asignando un código de intervalo de fechas a un país o a un tipo de región.
 
-## Parámetros de control de fecha para facturas de cliente y notas de abono
-<a id="date-control-parameters-for-customer-invoices-and-credit-notes" class="xliff"></a>
+## <a name="date-control-parameters-for-customer-invoices-and-credit-notes"></a>Parámetros de control de fecha para facturas de cliente y notas de abono
 También puede configurar parámetros de control para ayudar a garantizar que las facturas de cliente y las notas de abono para las transacciones de cliente se generan dentro del período especificado una vez que se realice la entrega. Encontrará estos parámetros en el área **Control de fechas de factura** de la página **Parámetros de clientes**.
 
-## Ejemplo
-<a id="example" class="xliff"></a>
+## <a name="example"></a>Ejemplo
 Para configurar Microsoft Dynamics 365 Finance and Operations, Enterprise Edition para calcular las fechas de vencimiento de emisión de facturas para los envíos dentro de la UE el día quince del mes siguiente de efectuada la entrega, cree un código de intervalo de fechas y una regla de cálculo con la siguiente configuración.
 
-### Código de intervalo de fechas
-<a id="date-interval-code" class="xliff"></a>
+### <a name="date-interval-code"></a>Código de intervalo de fechas
 
 | Campo                                                           | Valor                           |
 |-----------------------------------------------------------------|---------------------------------|
@@ -74,8 +68,7 @@ Para configurar Microsoft Dynamics 365 Finance and Operations, Enterprise Editio
 | +/- (en el grupo de campos **Fecha final**)                            | 15                              |
 | Días, meses, años o períodos (en el grupo de campos **Fecha final**) | Días                            |
 
-### Regla de cálculo de fechas límites de emisión de facturas
-<a id="invoice-issue-due-date-calculation-rule" class="xliff"></a>
+### <a name="invoice-issue-due-date-calculation-rule"></a>Regla de cálculo de fechas límites de emisión de facturas
 
 | Campo               | Valor                                                     |
 |---------------------|-----------------------------------------------------------|
@@ -83,15 +76,13 @@ Para configurar Microsoft Dynamics 365 Finance and Operations, Enterprise Editio
 | Fecha inicial          | Especifique la fecha en que la línea de configuración actual entra en vigor. |
 | Código de intervalo de fechas  | **15-NM**                                                 |
 
-## Pasos siguientes
-<a id="next-steps" class="xliff"></a>
+## <a name="next-steps"></a>Pasos siguientes
 Una vez que haya terminado de configurar los parámetros para calcular las fechas límite de emisión de la factura, puede crear y registrar las siguientes transacciones para calcular y actualizar automáticamente las fechas límite para emitir facturas:
 
 -   **Pedidos de ventas**: cuando se crea un pedido de ventas y se registra un albarán, la fecha límite para emitir la factura se calcula y se actualiza en el albarán. La fecha límite se calcula en función del intervalo de fechas que está asociado al país/región especificado en la dirección de entrega del pedido de ventas. Después de registrar el albarán, puede comprobar la fecha límite de emisión de la factura en el campo **Fecha de límite de emisión de factura** de la página **Diario del albarán**. (Haga clic en **Ventas y marketing** &gt; **Pedido de ventas** &gt; **Envío de pedido** &gt; **Albarán**). Puede ver todos los albaranes que no se facturan y sus fechas límite de emisión de la factura en la página **Albaranes no facturados**. (Haga clic en **Ventas y marketing** &gt; **Pedido de ventas** &gt; **Envío de pedido** &gt; **Albaranes no facturados**).
 -   **Pedidos de compra**: cuando se crea un pedido de compra y se registra una recepción de producto, la fecha límite para emitir la factura se calcula y se actualiza en la recepción de producto. La fecha límite se calcula en función del intervalo de fechas que está asociado al país o región especificado en la dirección principal del proveedor. Después de registrar la recepción de producto, puede comprobar la fecha límite de emisión de la factura en el campo **Fecha de límite de emisión de factura** de la página **Diario de recepciones de producto**. (Haga clic en **Adquisición y abastecimiento** &gt; **Pedidos de compra** &gt; **Recepción de productos** &gt; **Recepción de producto**). Puede ver todas las recepciones de productos que no se facturan y sus fechas límite de emisión de la factura en la página **Recepciones de producto no facturadas**. (Haga clic en **Adquisición y abastecimiento** &gt; **Pedidos de compra** &gt; **Recepción de productos** &gt; **Recepciones de producto no facturadas**).
 
-## Información técnica para administradores del sistema
-<a id="technical-information-for-system-administrators" class="xliff"></a>
+## <a name="technical-information-for-system-administrators"></a>Información técnica para administradores del sistema
 Si no tiene acceso a las páginas que se usan para completar las tareas mencionadas en este artículo, póngase en contacto con el administrador del sistema y proporcione la información que se indica en la tabla siguiente.
 
 <table>

@@ -25,8 +25,7 @@ ms.lasthandoff: 06/15/2017
 
 ---
 
-# Colaboración de proveedor con proveedores externos
-<a id="vendor-collaboration-with-external-vendors" class="xliff"></a>
+# <a name="vendor-collaboration-with-external-vendors"></a>Colaboración de proveedor con proveedores externos
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,8 +40,7 @@ Para obtener más información sobre cómo los proveedores pueden utilizar la co
 
 Para obtener información sobre cómo suministrar nuevos usuarios de colaboración de proveedor, consulte [Gestionar usuarios de colaboración del proveedor](manage-vendor-collaboration-users.md).
 
-## Definir la información que se muestra a los proveedores cuando responden a los PO
-<a id="define-the-information-that-is-shown-to-vendors-when-they-respond-to-pos" class="xliff"></a>
+## <a name="define-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Definir la información que se muestra a los proveedores cuando responden a los PO
 Cuando los proveedores responden a un PO que les envía, ven un cuadro de mensaje donde deben confirmar que desean aceptar el PO, rechazarlo o aceptarlo con cambios. Puesto que la información que se debe mostrar al proveedor en ese momento puede ser específica para su negocio, puede especificar el texto que aparece en cada uno de los tres mensajes de confirmación. Por ejemplo, el texto puede notificar al proveedor sobre los siguientes pasos del proceso, o sobre los términos y condiciones.  
 
 Para definir el texto que se muestra en la respuesta del PO:
@@ -54,34 +52,28 @@ Para definir el texto que se muestra en la respuesta del PO:
 
 Si tiene que agregar mensajes en más de un idioma, cree mensajes aparte y especifique los códigos de idioma adecuados para cada uno. Se mostrará el mensaje al proveedor en el idioma que este usa.
 
-## Configurar las opciones de colaboración de proveedor para un proveedor específico
-<a id="set-the-vendor-collaboration-options-for-a-specific-vendor" class="xliff"></a>
+## <a name="set-the-vendor-collaboration-options-for-a-specific-vendor"></a>Configurar las opciones de colaboración de proveedor para un proveedor específico
 La configuración general para la colaboración del proveedor en Finance and Operations las configura un administrador. Por ejemplo, un administrador determinará qué roles de seguridad están disponibles para todos los proveedores con los que colabora. También algunos ajustes que pueden ser diferentes para cada cuenta de proveedor, y se deben establecer estos:
 -   Habilitar la colaboración de proveedor.
 -   Decida si desea que el proveedor vea la información de precios.
 
-### Habilitar la colaboración de proveedor
-<a id="enable-vendor-collaboration" class="xliff"></a>
+### <a name="enable-vendor-collaboration"></a>Habilitar la colaboración de proveedor
 
 Antes de que las cuentas de usuario se pueden crear para un proveedor externo, deberá configurar la cuenta de proveedor para permitir que utilicen la colaboración del proveedor. Para ello, configure el campo **Activación de la colaboración** para activarla en la ficha **General** de la página **Proveedores**. Existen dos opciones que puede elegir:
 
 -   **Activo (el PO se confirma automáticamente)**: los pedidos de compra se confirman de forma automática cuando el vendedor los acepta sin cambios.
 -   **Activo (el PO no se confirma automáticamente)**: es necesario que los pedidos de compra se confirmen manualmente por parte de la empresa cuando el proveedor los haya aceptado.
 
-### Decida si desea que el proveedor vea la información de precios
-<a id="decide-whether-you-want-the-vendor-to-see-price-information" class="xliff"></a>
+### <a name="decide-whether-you-want-the-vendor-to-see-price-information"></a>Decida si desea que el proveedor vea la información de precios
 
 Si desea compartir información de precios como precio por unidad, descuentos y gastos mediante la interfaz de colaboración, necesita configurar la opción de **Importe/precios de pedido de compra** a **Sí** en la cuenta de proveedor. Esta opción está disponible en la ficha **Valores predeterminados del pedido de compra**.
 
-## Trabajar con PO cuando se usa la colaboración del proveedor
-<a id="work-with-pos-when-using-vendor-collaboration" class="xliff"></a>
-### Enviar un PO al proveedor
-<a id="sending-a-po-to-the-vendor" class="xliff"></a>
+## <a name="work-with-pos-when-using-vendor-collaboration"></a>Trabajar con PO cuando se usa la colaboración del proveedor
+### <a name="sending-a-po-to-the-vendor"></a>Enviar un PO al proveedor
 
 Los pedidos de compra se preparan en Finance and Operations. Cuando el PO tiene un estado de **Aprobado**, se envía al proveedor mediante la acción **Enviar para su confirmación** en la página **Pedido de compra**. El estado del PO cambia a **En proceso de revisión externa**. Después de enviar el PO, el proveedor puede consultarlo en la página **Pedidos de compra para revisar** de la interfaz de colaboración del proveedor. El proveedor puede aceptar el pedido, rechazarlo o sugerir cambios en el mismo. El proveedor también puede agregar comentarios para comunicar información como cambios al pedido de compra. Si quiere que el proveedor se fije en una nueva OC, también puede usar el sistema de gestión de impresión para enviar la OC por correo electrónico.
 
-### Confirmación y aceptación del PO por parte del proveedor
-<a id="confirmation-and-acceptance-of-the-po-by-the-vendor" class="xliff"></a>
+### <a name="confirmation-and-acceptance-of-the-po-by-the-vendor"></a>Confirmación y aceptación del PO por parte del proveedor
 
 Cuando un proveedor ha aceptado un pedido de compra, el PO puede confirmarse automáticamente, o es posible que necesite confirmarse de forma manual. Esto depende de si el campo de **Activación del proveedor** está configurado como **Activo (el PO se confirma automáticamente)** o como **Activo (el PO no se confirma automáticamente)** por parte del proveedor.  
 
@@ -133,23 +125,19 @@ Puede usar el espacio de trabajo de espacio de trabajo **Preparación del** **pe
 -   En revisión externa requiere de una acción.
 -   En revisión externa en espera de respuesta del proveedor.
 
-### Cambiar un PO
-<a id="changing-a-po" class="xliff"></a>
+### <a name="changing-a-po"></a>Cambiar un PO
 
 Para cambiar un PO que ya ha sido respondido, debe enviar una nueva versión del PO al proveedor. El nuevo PO tendrá un sufijo de versión para indicar que es una versión modificada de un PO que se comunicó anteriormente. La página del **Historial de confirmación del proveedor del pedido de compra** le permite a usted y a sus proveedores hacer seguimiento del historial de cada pedido. La versión confirmada anteriormente de un PO permanece en la lista de PO confirmados hasta que se confirme el nuevo PO.
 
-### Cancelar un PO
-<a id="cancelling-a-po" class="xliff"></a>
+### <a name="cancelling-a-po"></a>Cancelar un PO
 
 Al cancelar un PO, el estado se cambia a **Aprobado**. Debe enviar de nuevo la OC al proveedor a través del portal de proveedores de modo que el proveedor pueda confirmar o rechazar la cancelación. Cuando se confirme la cancelación, el PO aparece en la lista de PO confirmados del proveedor como **Cancelado**.
 
-### Añadir datos adjuntos a un PO
-<a id="adding-attachments-to-a-po" class="xliff"></a>
+### <a name="adding-attachments-to-a-po"></a>Añadir datos adjuntos a un PO
 
 Puede añadir datos adjuntos como archivos, imágenes y notas al PO mediante el sistema de gestión de documentos. Los datos adjuntos del tipo **Externo** serán visibles para el proveedor cuando le envíe el PO.
 
-## Actualice el PO cuando un proveedor sugiera cambios
-<a id="update-the-po-when-a-vendor-suggests-changes" class="xliff"></a>
+## <a name="update-the-po-when-a-vendor-suggests-changes"></a>Actualice el PO cuando un proveedor sugiera cambios
 Cuando un proveedor haya respondido al PO y sugerido cambios, el paso siguiente es procesar la respuesta.
 En el **Espacio de trabajo de preparación del pedido de compra**, en la lista En revisión externa requiere acción, puede identificar un PO al que un proveedor respondió como aceptado con cambios. En la lista En revisión externa requiere acción, también puede ir a la respuesta del proveedor. En una respuesta, un proveedor puede cambiar la siguiente información del encabezado.
  
@@ -178,12 +166,10 @@ No todos los cambios sugeridos se pueden actualizar en un PO. Solo se actualiza 
 Una línea que tiene un estado de **Aceptado** tendrá una fecha de entrega confirmada que se actualizará en el PO cuando ejecute **Procesar actualización PO**. Las notas y los datos adjuntos no se automáticamente transferirán al PO actual. Tenga en cuenta que cuando actualice el PO actual a través de la acción **Procesar actualización de PO**, los acuerdos comerciales no se revaluarán en las líneas de PO.
 
 
-## Estados y versiones de PO
-<a id="po-statuses-and-versions" class="xliff"></a>
+## <a name="po-statuses-and-versions"></a>Estados y versiones de PO
 Esta sección describe los distintos estados que un PO puede tener hasta el momento en que se confirma. También describe hasta qué punto están disponibles para el proveedor las nuevas versiones del PO. El comportamiento varía en función de si usa la gestión de cambios para los PO. 
 
-### Versiones y estados si no utiliza la gestión de cambios
-<a id="versions-and-statuses-if-you-dont-use-change-management" class="xliff"></a>
+### <a name="versions-and-statuses-if-you-dont-use-change-management"></a>Versiones y estados si no utiliza la gestión de cambios
 
 La siguiente tabla muestra un ejemplo de los cambios de estado y versión que puede tener una OC.
 
@@ -204,8 +190,7 @@ Los proveedores no tienen que confirmar el PO mediante la interfaz de colaboraci
 >[!NOTE]
 >La versión del PO que está disponible para otros procesos en Dynamics 365 for Finance and Operations siempre es la última versión, incluso si dicha versión no se ha registrado todavía en la interfaz de colaboración del proveedor.
 
-### Versiones y estados si utiliza la gestión de cambios
-<a id="versions-and-statuses-if-you-use-change-management" class="xliff"></a>
+### <a name="versions-and-statuses-if-you-use-change-management"></a>Versiones y estados si utiliza la gestión de cambios
 
 Si se ha habilitado la gestión de cambios para los PO, el PO pasa por un flujo de trabajo de aprobación para lograr el estado de **Aprobado**. Este proceso no es visible para el proveedor.  
 
@@ -218,8 +203,7 @@ La siguiente tabla muestra un ejemplo de los cambios de estado y versión que pu
 
 | La PO se envía al proceso de aprobación. (El proceso de aprobación es un proceso interno en el que el proveedor no está involucrado.) | El estado se cambia de **Borrador** a **En revisión** a **Aprobación** si el PO no se rechaza durante el proceso de aprobación. El pedido de compra aprobado se registra como versión.                                                                                                                                                                                                                     | | La nueva PO se envía al proveedor                                                                                  | La versión se registra en la interfaz de colaboración de proveedor y el estado se cambia a **En revisión externa**.                                                                                                                                                                                                                                                                       | | Tiene que realizar algunos cambios que pide el proveedor, ya sea manualmente o mediante la acción en la respuesta para actualizar el PO.                                                       | El estado se vuelve a cambiar a **Borrador**.                                                                                                                                                                                                                                                                                                                                                    | | La PO se envía al proceso de aprobación de nuevo.                                                            | El estado se cambia de **Borrador** a **En revisión** a **Aprobación** si la OC no se rechaza durante el proceso de aprobación. De manera alternativa, el sistema puede estar configurado de modo que los cambios de campo específicos no necesitan volver a ser aprobados. En este caso, el estado cambia primero a **Borrador** y a continuación se actualizan automáticamente a **Aprobado**. El pedido de compra aprobado se registra como nueva versión. | | Envíe la nueva versión del PO al proveedor.                                                             | La nueva versión se registra en la interfaz de colaboración de proveedor y el estado se cambia a **En revisión externa**.                                                                                                                                                                                                                                                                   | | El proveedor aprueba la nueva versión de la OC.                                                                | El estado se cambia a **Confirmado** automáticamente o cuando reciba la respuesta del proveedor y después confirma la PO.                                                                                                                                                                                                                                                     |
 
-## Compartir la información acerca del inventario de envío
-<a id="share-information-about-consignment-inventory" class="xliff"></a>
+## <a name="share-information-about-consignment-inventory"></a>Compartir la información acerca del inventario de envío
 Si está usando el inventario de envío, los proveedores pueden usar la interfaz de colaboración del proveedor para visualizar la información de las siguientes páginas:
 
 -   **Pedidos de compra que consumen el inventario de envío**: los pedidos de compra del inventario de envío se generan cuando la propiedad del inventario pasa del proveedor a la empresa. El recibo del producto se publica al mismo tiempo. Estos pedidos de compra de envío solo se muestran en la página de **Pedidos de compra que consumen el inventario de envío**. No se incluyen en la página **Todos los pedidos de compra confirmados** del módulo **Colaboración de proveedor**.

@@ -26,16 +26,14 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Espacio de trabajo móvil de gestión de gastos
-<a id="expense-management-mobile-workspace" class="xliff"></a>
+# <a name="expense-management-mobile-workspace"></a>Espacio de trabajo móvil de gestión de gastos
 
 [!include[banner](../includes/banner.md)]
 
 
 Este tema proporciona información acerca del espacio de trabajo móvil de gestión de gastos que está disponible para la aplicación móvil Microsoft Dynamics 365 for Finance and Operations. Este espacio de trabajo permite a los usuarios capturar y cargar un recibo, de modo que puedan adjuntarlo a un informe de gastos posteriormente. El espacio de trabajo móvil también permite a los usuarios crear rápidamente una línea de gastos mediante un recibo vinculado.
 
-Visión general del espacio de trabajo móvil de gestión de gastos
-<a id="overview-of-the-expense-management-mobile-workspace" class="xliff"></a>
+<a name="overview-of-the-expense-management-mobile-workspace"></a>Visión general del espacio de trabajo móvil de gestión de gastos
 ---------------------------------------------------
 
 Muchas organizaciones requieren que se adjunte al informe de gastos que presenta el empleado para el reembolso, una copia de los recibos relacionados con el viaje o la empresa. El espacio de trabajo móvil **Gestión de gastos** permite a los usuarios crear rápidamente nuevas líneas de gastos en el dispositivo móvil de su elección mediante una foto vinculada a un recibo. Como alternativa, los usuarios pueden capturar una foto del recibo y después adjuntarla más tarde al informe de gastos. Específicamente, el espacio de trabajo móvil **Gestión de gastos** habilita al usuario para:
@@ -46,8 +44,7 @@ Muchas organizaciones requieren que se adjunte al informe de gastos que presenta
 
 Las secciones restantes de este tema explican cómo implementar y usar el espacio de trabajo móvil **Gestión de gastos**.
 
-## Requisitos previos
-<a id="prerequisites" class="xliff"></a>
+## <a name="prerequisites"></a>Requisitos previos
 Para poder implementar el espacio de trabajo móvil **Gestión de gastos** , asegúrese de que el administrador del sistema haya completado los requisitos previos siguientes.
 
 <table>
@@ -93,15 +90,13 @@ Para poder implementar el espacio de trabajo móvil **Gestión de gastos** , ase
 </tbody>
 </table>
 
-## Descargue e instale la aplicación móvil Finance and Operations.
-<a id="download-and-install-the-finance-and-operations-mobile-app" class="xliff"></a>
+## <a name="download-and-install-the-finance-and-operations-mobile-app"></a>Descargue e instale la aplicación móvil Finance and Operations.
 Descargue e instale la aplicación móvil Finance and Operations desde la tienda de aplicaciones móviles.
 
 -   Para Android: [Finance and Operations en Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
 -   Para iPhone: [Finance and Operations en la tienda de aplicaciones de iTunes](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
 
-## Iniciar sesión en la aplicación móvil Finance and Operations
-<a id="sign-in-to-the-finance-and-operations-mobile-app" class="xliff"></a>
+## <a name="sign-in-to-the-finance-and-operations-mobile-app"></a>Iniciar sesión en la aplicación móvil Finance and Operations
 1.  Inicie la aplicación en su dispositivo móvil.
 2.  Indique la dirección URL de Finance and Operations
 3.  Escriba la empresa en la que va a iniciar sesión. Por ejemplo, escriba **USMF**.
@@ -110,8 +105,7 @@ Descargue e instale la aplicación móvil Finance and Operations desde la tienda
 
 [![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
-## Obtener un recibo mediante el espacio de trabajo móvil de gestión de gastos
-<a id="capture-a-receipt-by-using-the-expense-management-mobile-workspace" class="xliff"></a>
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Obtener un recibo mediante el espacio de trabajo móvil de gestión de gastos
 1.  En el dispositivo móvil, seleccione el espacio de trabajo **Gestión de gastos**.
 2.  Seleccione **Capturar recibo**.
 3.  Seleccione **Sacar una foto** o **Seleccionar imagen**.
@@ -125,8 +119,7 @@ Descargue e instale la aplicación móvil Finance and Operations desde la tienda
 
 5.  Seleccione **Listo**.
 
-## Entrada rápida del gasto usando el espacio de trabajo móvil de gestión de gastos
-<a id="quick-expense-entry-by-using-the-expense-management-mobile-workspace" class="xliff"></a>
+## <a name="quick-expense-entry-by-using-the-expense-management-mobile-workspace"></a>Entrada rápida del gasto usando el espacio de trabajo móvil de gestión de gastos
 1.  En el dispositivo móvil, seleccione el espacio de trabajo **Gestión de gastos**.
 2.  Seleccione **Entrada rápida del gasto**.
 3.  Seleccione la categoría del gasto. Verá una lista de las categorías de gastos que se cargan en su aplicación para su uso sin conexión. Hay hasta 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número. Para obtener más información, los desarrolladores deben ver [Plataforma móvil de Finance and Operations](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Si su categoría no está en la lista, seleccione **Buscar** para realizar una búsqueda en Finance and Operations. Busque por categoría de gastos, o cambie a buscar por tipo de gastos.

@@ -27,8 +27,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-# Informe de declaración DIOT
-<a id="diot-declaration-statement" class="xliff"></a>
+# <a name="diot-declaration-statement"></a>Informe de declaración DIOT
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,15 +36,13 @@ En este tema se proporciona información acerca del informe de declaración DIOT
 
 El informe de la declaración DIOT (declaración informativa de operaciones con proveedores) se usa para informar de transacciones de proveedores a las autoridades fiscales mexicanas (Servicio de Administración Tributaria \[SAT\]). Puede que tenga que hacerlo si está sujeto a impuestos sobre el valor añadido (IVA). El informe de la declaración DIOT es un archivo de texto. Puede generar este archivo en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition y, a continuación, importarlo en la herramienta de validación y entrega del gobierno. Los informes consolidados y detallados también se generan para fines de control. El informe incluye transacciones que se generaron de los pedidos de compra, los diarios de registro de facturas, los diarios de aprobación de facturas y los diarios de facturas. También incluye las transacciones de proveedor que se generaron del módulo **Proyecto**. Además, puede incluir transacciones abiertas o transacciones liquidadas.
 
-## Requisitos previos
-<a id="prerequisites" class="xliff"></a>
+## <a name="prerequisites"></a>Requisitos previos
 Debe completar la configuración siguiente para poder generar el archivo de texto de DIOT o informes relacionados:
 
 1.  Especifique los números o los id. de registro de impuestos para la entidad jurídica.
 2.  Permite especificar información de impuestos para proveedores.
 
-## Información de impuestos para proveedores no administrados
-<a id="tax-information-for-unmanaged-vendors" class="xliff"></a>
+## <a name="tax-information-for-unmanaged-vendors"></a>Información de impuestos para proveedores no administrados
 Los proveedores no administrados son proveedores que no tienen sus detalles registrados como cuentas de proveedor en Finance and Operations. Cuando se registra una transacción de compra para este tipo de proveedor, puede seleccionar cualquier cuenta contable diferente de la cuenta de proveedor. Dado que todas las transacciones de compras se incluyen en el informe de la declaración DIOT, las transacciones de compras para los proveedores no administrados también requieren los id. de impuestos (RFC o CURP), el tipo de operación y otra información adicional. Para los proveedores habituales, puede definir información adicional en la página **Proveedores**. Sin embargo, no puede hacerlo para proveedores no administrados. Para capturar la información fiscal necesaria para proveedores no administrados, puede especificar información adicional en el nivel de la transacción en las siguientes transacciones de diario cuando no se identifique la cuenta de proveedor:
 
 -   Diario de facturas
@@ -54,12 +51,10 @@ Los proveedores no administrados son proveedores que no tienen sus detalles regi
 
 Para definir códigos de impuestos para que los campos de información adicional estén disponibles para un proveedor no administrados en transacciones de diario, debe especificar un código de impuestos que se ha configurado para permitir información adicional en el diario.
 
-## Configuración de informe DIOT
-<a id="diot-report-configuration" class="xliff"></a>
+## <a name="diot-report-configuration"></a>Configuración de informe DIOT
 En esta sección se describe cómo definir los conceptos y vincular los códigos de impuestos que se requieren para generar el informe de la declaración DIOT. En Finance and Operations, un concepto representa los importes de transacción de compras que se agrupan en distintos porcentajes de IVA, según lo especificado por las autoridades fiscales de México. En el archivo de texto de DIOT, los importes totales se agrupan para cada proveedor, en función de los conceptos definidos anteriormente. Estos conceptos se notifican en las columnas 8 al 22 del formato de diseño de DIOT. Las demás columnas del informe se rellenan automáticamente en función de la información del proveedor como RFC, tipo de operación y otros datos relacionados.
 
-### Ejemplo de conceptos
-<a id="example-of-concepts" class="xliff"></a>
+### <a name="example-of-concepts"></a>Ejemplo de conceptos
 
 | Id. de concepto | Descripción del concepto                               | Posición de columna en el archivo de texto (número de pedido) |
 |------------|---------------------------------------------------|-------------------------------------------------|
@@ -69,13 +64,11 @@ En esta sección se describe cómo definir los conceptos y vincular los códigos
 
 Puede crear nuevos conceptos en la página **Declaración DIOT**. Sin embargo, solo puede crear 15 conceptos. El primer concepto debe ser el número de pedido 8 y el último debe ser el número de pedido 22. Puede empezar a crear los conceptos con otro pedido, pero debe completar todos (del 8 al 22) para evitar incoherencias en la herramienta de validación del gobierno. Para cada concepto, debe especificar un tipo de columna. Especifique un tipo de columna de **Ninguno** si se ha quedado en desuso la columna. Algunas columnas ya no se aplican y se deben notifica con un importe **0,00**. Si la casilla no está activada, el informe de declaración DIOT muestra el importe neto completo o el importe de impuestos. Además, para cada columna, puede indicar el porcentaje no deducible del importe neto o el importe de impuestos que se muestra en el informe de declaración DIOT.
 
-#### Ejemplo
-<a id="example" class="xliff"></a>
+#### <a name="example"></a>Ejemplo
 
 Si el importe neto o el importe de impuestos es 10000.00 pesos, y el porcentaje del importe no deducible es el 30 por ciento, el informe muestra solo el 30 por ciento de 10.000,00 pesos, o 3.000,00 pesos. Use el botón **Código de impuestos** para vincular uno o más códigos de impuestos a un concepto.
 
-## Generar el informe de declaración DIOT
-<a id="generate-the-diot-declaration-statement" class="xliff"></a>
+## <a name="generate-the-diot-declaration-statement"></a>Generar el informe de declaración DIOT
 Para generar el informe de declaración DIOT, haga clic en **Impuestos** &gt; **Declaraciones** &gt; **Impuestos** &gt; **Generar la DIOT**. Debe especificar o seleccionar la siguiente información.
 
 <table>
