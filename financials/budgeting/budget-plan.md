@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 11b5ffacef06fd3e83c61cd14da11ad645eec335
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 608ec87233acb05b0d46e367bcb7cd14985d7813
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -88,9 +87,8 @@ Como todo el proceso presupuestario se produce en el departamento de finanzas, J
 ## <a name="task-2-configure-user-security"></a>Tarea 2: Configurar seguridad de usuario
 La planificación presupuestaria usa directivas especiales de seguridad para configurar el acceso a los datos de planes presupuestarios. Julia necesita darse acceso a los planes presupuestarios de finanzas a ella misma. 
 
-2.1. Pase al contexto de entidad jurídica DEMF: 
+2.1. Pase al contexto de entidad jurídica de DEMF. 
 
-[![DEMF](./media/screenshot10.png)](./media/screenshot10.png) 
 
 2.2. Navegue hasta Gestión presupuestaria &gt; Configurar &gt; Planificación presupuestaria &gt; Configuración de planificación presupuestaria. En la pestaña Parámetros, establezca el valor de Modelo de seguridad en Basado en organizaciones de seguridad 
 

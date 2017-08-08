@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,12 +35,18 @@ Este tema describe cómo crear plantillas de Microsoft Excel que se puedan utili
 Este tema muestra cómo crear plantillas de Excel que se usarán con planes presupuestarios mediante el conjunto de datos de demostración estándar y el inicio de sesión de usuario Admin. Para obtener más información sobre la planificación presupuestaria, consulte [Visión general de la planificación presupuestaria.](budget-planning-overview-configuration.md) También puede seguir el tutorial [Planificación presupuestaria 101](budget-plan.md) para aprender los principios básicos de la configuración y el uso de módulos.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Generación de una hoja de cálculo mediante el diseño del documento de plan presupuestario
-Los documentos de plan presupuestario se pueden ver y editar mediante uno o varios diseños. Cada diseño puede tener una plantilla de documento de plan presupuestario asociada para ver y editar los datos del plan presupuestario en una hoja de cálculo de Excel. En este tema, una plantilla de documento de plan presupuestario se generará empleando una configuración de diseño existente. Abra la **Lista de planes presupuestarios** (**Gestión presupuestaria**&gt; **Planes presupuestarios**). Haga clic en **Nuevo** para crear un documento de plan presupuestario. [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+
+Los documentos de plan presupuestario se pueden ver y editar mediante uno o varios diseños. Cada diseño puede tener una plantilla de documento de plan presupuestario asociada para ver y editar los datos del plan presupuestario en una hoja de cálculo de Excel. En este tema, una plantilla de documento de plan presupuestario se generará empleando una configuración de diseño existente. 
+
+Abra la **Lista de planes presupuestarios** (**Gestión presupuestaria** &gt; **Planes presupuestarios**). Haga clic en **Nuevo** para crear un documento de plan presupuestario. 
+
+[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 Emplee la opción de línea **Agregar** para agregar líneas. Haga clic en **Diseños** para ver la configuración del diseño de documento de plan presupuestario. 
+
 [![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-Puede revisar la configuración de diseño y ajustarla según sea necesario. Vaya a **Plantilla** &gt; **Generar** para crear un archivo de Excel para este diseño. Después de que se cree la plantilla, vaya a **Plantilla** &gt; **Ver** para abrir y revisar la plantilla de documento de plan presupuestario. Puede guardar el archivo de Excel en la unidad local. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png) 
+Puede revisar la configuración de diseño y ajustarla según sea necesario. Vaya a **Plantilla** &gt; **Generar** para crear un archivo de Excel para este diseño. Después de que se cree la plantilla, vaya a **Plantilla** &gt; **Ver** para abrir y revisar la plantilla de documento de plan presupuestario. Puede guardar el archivo de Excel en la unidad local. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > El diseño de documento del plan presupuestario no se puede editar después de asociarle una plantilla de Excel. Para modificar el diseño, elimine el archivo de plantilla de Excel asociado y regenérelo. Esto es necesario para mantener sincronizados los campos del diseño y la hoja de cálculo. 

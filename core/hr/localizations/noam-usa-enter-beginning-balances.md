@@ -10,25 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: kherr
-ms.search.validFrom: 2017-07-01
+ms.search.validFrom: 2017-07-01T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 911a51e2498800e7ee7b1562b66c56967eef0505
-ms.openlocfilehash: e6213d2e01445b78c6d8f98fc6a55f7c551231b5
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: d9e3018eb7b6c20cfd5e23a10d15e230009196de
 ms.contentlocale: es-es
-ms.lasthandoff: 06/19/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a>Especificar saldos iniciales de nómina
 
-[!include[banner](../../includes/banner.md)]]
+[!include[banner](../../includes/banner.md)]
 
 El tema se describen los pasos para especificar los saldos iniciales para los códigos de ganancias, las deducciones, las prestaciones y los impuestos. Esta información tiene valor para que los socios que transfieran los datos para una nueva implementación de nóminas desde otro sistema. Para prepararse para especificar los saldos iniciales de nóminas, comprobamos la siguiente información:
 
@@ -47,9 +46,6 @@ El tema se describen los pasos para especificar los saldos iniciales para los c�
 Cuando vaya a especificar saldos iniciales, considere cómo lo detallados que deben estar los datos. La mayoría de las empresas especifican un importe único, consolidado del año hasta la fecha. Sin embargo, si se necesita más información detallada, los saldos se pueden especificar en incrementos trimestrales. Decidir el nivel de detalle que sea necesario determina cuántos extractos de pago manuales se deben crear para cada trabajador. Para un solo importe del año hasta la fecha, solo una instrucción manual es necesaria para cada empleado. Para hacer esto utilice importes de año hasta la fecha desde el extracto de pago final del sistema anterior como el importe especificado en el nuevo sistema de nóminas.
 
 El siguiente ejemplo muestra cómo puede especificar saldos iniciales de nómina de empleados, incluidos los códigos de ganancias, las prestaciones/deducciones y los impuestos. En un ejemplo del mundo real sólo recibiría un artículo de línea para cada código de ganancias, deducción de prestaciones, contribución de prestaciones impuesto de empleado e impuesto de empresario con el importe especificado siendo el importe del año hasta la fecha. Mediante esta lista de códigos e importes, siga los pasos para crear una ganancia manual y extracto de pago con la contabilidad deshabilitada para traer saldos iniciales para fines de nómina.  Se deshabilita la contabilidad ya que no se recomienda registrar este extracto de pago de saldo inicial en la contabilidad general. Esto se ha realizado en el sistema heredado y pasará al nuevo sistema cuando configure los saldos iniciales en la contabilidad general.
-
-> [!NOTE] 
-> Si desea reproducir los mismos pasos de más abajo, puede usar los datos de prueba. Los datos de prueba se pueden descargar en PartnerSource
 
 ### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a>A. Cómo configurar los códigos de ganancias que se utilizarán en los saldos iniciales de nóminas
 Al especificar los saldos iniciales de nómina, asegúrese de que los códigos de ganancias que usará están configurados con la opción “Permitir edición de tasas de extracto de ganancias” habilitada. Esto le permitirá especificar manualmente el importe del sistema heredado. 
@@ -101,7 +97,7 @@ Línea 3: Pestaña **Línea de extracto de ganancias**
 | Manual          | (Marcado)   |
 
 > [!NOTE]
-> Marcar el valor de la casilla de verificación Manual en la pestaña **Detalles de línea** para cada línea de extracto de ganancias es fundamental para tener saldos iniciales de nómina especificados para cada trabajador.
+> Establecer el control deslizante **Manual** en **Sí** en la pestaña **Detalles de línea** para cada línea de extracto de ganancias es fundamental para tener saldos iniciales de nómina especificados para cada trabajador.
 
 3. En el panel **Acción**, haga clic en **Liberar extracto de ganancias** USA-FED-ER-FICA.
 
@@ -111,15 +107,15 @@ Línea 3: Pestaña **Línea de extracto de ganancias**
 |--------------------|-----------|
 | Fecha de pago       | 6/30/2017 |
 | Tipo de ejecución de pago   | Manual    |
-| Deshabilitar contabilidad | (marcado)  |
+| Deshabilitar contabilidad |   Sí     |
 
 > [!NOTE] 
 > Esto solo está disponible cuando el tipo de procesamiento de pago es manual y si el usuario desea deshabilitar la contabilidad en el procesamiento de pagos.
 
 Haga clic en **Aceptar** y cierre el **Registro de información**.
 
-#### <a name="why-disable-accounting-checkbox-needs-to-be-turned-on-when-generating-pay-statements"></a>¿Por qué la casilla de verificación Contabilidad tiene que estar activada cuando se generan extractos de pago?
-Esto impide que cualquier línea de los extractos de pago se distribuya y se registrada en la contabilidad general. No se recomienda registrar este extracto de pago de saldo inicial mientras que sus valores estén en la contabilidad general a partir del sistema heredado. Esta carga de saldos se usa para fines de notificación y restricción.
+#### <a name="why-the-disable-accounting-slider-needs-to-set-to-yes-when-generating-pay-statements"></a>¿Por qué el control deslizante Deshabilitar contabilidad tiene que establecerse en Sí cuando se generan extractos de pago?
+Establecer el control deslizante en **Sí** impide que las líneas de los extractos de pago se distribuya en la contabilidad general. Los importes de la contabilidad general se actualizaron con anterioridad cuando se introdujeron los saldos de cuenta desde el sistema heredado. Introducir los saldos iniciales para la nómina le permite generar informes que contienen información de años anteriores, así como identificar límites para fines de prestaciones e impuestos.   
 
 ### <a name="c-create-pay-statements-for-employees"></a>C. Crear extractos de pago para empleados
 Tras generar los extractos de pago con saldos iniciales, debe comprobar que los extractos de pago reflejan exactamente los datos de la nómina. También debe actualizar manualmente la información de prestaciones y de impuestos para que coincida con los valores del sistema de nóminas anterior. Después de verificar que los importes del sistema de nóminas anterior se corresponden con los importes de los extractos de pago actuales, debe finalizar los extractos de pago.
@@ -140,17 +136,7 @@ Tras generar los extractos de pago con saldos iniciales, debe comprobar que los 
 | Gastos de atención del Dep | Participar | 2500.00          |
 | Visión | SupSp                  | 500,00           |
 
-5. En la pestaña **Deducciones por prestaciones**, especifique lo siguiente: 
-
-| Campo                           | Valor            |
-|---------------------------------|------------------|
-| Beneficio                         | Importe de deducción |
-| 401K | Participar              | 3000.00          |
-| Dental | SubSp                  | 495,00           |
-| Gastos de atención del Dep | Participar | 2500.00          |
-| Visión | SupSp                  | 500,00           |
-
-6. En la pestaña **Contribuciones por prestaciones**, especifique lo siguiente:
+5. En la pestaña **Contribuciones por prestaciones**, especifique lo siguiente:
 
 | Campo              | Valor               |
 |--------------------|---------------------|
@@ -159,7 +145,7 @@ Tras generar los extractos de pago con saldos iniciales, debe comprobar que los 
 | Dental | SubSp     | 495,00              |
 | Visión | SubSp     | 500,00              |
 
-7. En la pestaña **Deducciones por impuestos**, especifique lo siguiente:
+6. En la pestaña **Deducciones por impuestos**, especifique lo siguiente:
 
 | Campo           | Valor            |
 |-----------------|------------------|
@@ -167,9 +153,9 @@ Tras generar los extractos de pago con saldos iniciales, debe comprobar que los 
 | USA-FED-ER-FICA | 1600.00          |
 | USA-FED-ER-MEDI | 825.75           |
 
-8. En la pestaña **Contribuciones por impuestos**, especifique lo siguiente:
+7. En la pestaña **Contribuciones por impuestos**, especifique lo siguiente:
 
-9. Haga clic en **Calcular**.
+8. Haga clic en **Calcular**.
 > [!IMPORTANT] 
 > Valide los totales del extracto de pago que coincidan con el año hasta la fecha del sistema heredado para el trabajador. Es posible que desee retener la finalización en el paso siguiente para hacer una validación general de todos los extractos de pago en conjunto. Una vez hecha la validación pase por todos los extractos de pago y complételos.
 
@@ -182,5 +168,5 @@ Es posible invertir y repetir las transacciones. Para invertir la transacción, 
 
 2. Haga clic en **Sí** cuando aparezca el mensaje “Cuando se invierte este extracto de pago, se crea un extracto de pago de inversión para compensarlo. Ninguno de los extractos de pago se podrá modificar. ¿Quiere invertir este extracto de pago? . 
 
-Después de invertir extracto de pago, puede generar un nuevo extracto de pago para el trabajador desde el extracto de ganancias que creó anteriormente en el procedimiento para generar extractos de ganancias y extractos de pago con saldos iniciales anteriormente en este tema. Asegúrese de corregir cualquier línea errónea en el extracto de ganancias antes de generar un nuevo extracto de pago y repita el procedimiento para actualizar extractos de pago con saldos iniciales para prestaciones e impuestos anteriormente en este tema.
+Una vez que revierta el extracto de pago, puede generar un nuevo extracto de pago para el trabajador desde el extracto de ganancias que creó anteriormente. Asegúrese de corregir las líneas incorrectas del extracto de ganancias antes de generar la nueva instrucción de pago, y luego genere nuevos extractos de sueldo con los importes correctos. 
 

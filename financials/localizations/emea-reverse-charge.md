@@ -1,5 +1,5 @@
 ---
-title: Cargo invertido | Microsoft Docs
+title: Cargo invertido
 description: "Este tema explica cómo configurar el impuesto sobre el valor añadido (VAT) de cargo invertido en los países europeos."
 author: epodkolz
 manager: AnnBe
@@ -13,13 +13,13 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epodkolz
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6cb473962f40ed9ef2f5f807f089098764f47009
-ms.openlocfilehash: b3c94fa73410d9bdcaaec11dee04a7a239e4d45a
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: dba651b4e6f0e661d6743780495c7ee217eefd9d
 ms.contentlocale: es-es
-ms.lasthandoff: 06/14/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -44,7 +44,7 @@ Recomendamos que use los códigos de impuestos independientes para las operacion
 </tr>
 <tr>
 <td><strong>Código de impuestos para compras</strong></td>
-<td><p>Cree códigos de impuestos negativos y positivos para el IVA de cargo invertido para las compras (<strong>Impuestos</strong> > <strong>Impuestos indirectos</strong> > <strong>Impuestos</strong> > <strong>Códigos de impuestos</strong>).</p>
+<td><p>Cree códigos de impuestos negativos y positivos para el cargo invertido para las compras (<strong>Impuestos</strong> > <strong>Impuestos indirectos</strong> > <strong>Impuestos</strong> > <strong>Códigos de impuestos</strong>).</p>
 <ol>
 <li>Cree un código de impuestos con un valor positivo.</li>
 <li>Cree un código de impuestos con un valor negativo. Establezca la opción <strong>Permitir porcentaje de impuestos negativo</strong> en <strong>Sí</strong>.
@@ -66,7 +66,7 @@ Recomendamos que use los grupos de impuestos independientes para las operaciones
 </tr>
 <tr>
 <td><strong>Grupos de impuestos sobre compras</strong></td>
-<td>Cree un grupo de impuestos para las operaciones de compras con cargo invertido (<strong>Impuestos</strong> > <strong>Impuestos indirectos</strong> > <strong>Impuestos</strong> > <strong>Grupos de impuestos</strong>). En la pestaña <strong>Configuración</strong>, incluya los códigos de impuestos negativos y positivos en este grupo. Seleccione la casilla de verificación <strong>Cargo invertido</strong> para el código de impuestos con valor negativo.</td>
+<td>Cree un grupo de impuestos para las operaciones de compra con cargo invertido (<strong>Impuestos</strong> > <strong>Impuestos indirectos</strong> > <strong>Impuestos</strong> > <strong>Grupos de impuestos</strong>). En la pestaña <strong>Configuración</strong>, incluya los códigos de impuestos negativos y positivos en este grupo. Seleccione la casilla de verificación <strong>Cargo invertido</strong> para el código de impuestos con valor negativo.</td>
 </tr>
 <tr>
 <td><strong>Grupos de impuestos de artículos</strong></td>

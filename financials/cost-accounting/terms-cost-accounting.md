@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 35b8e510e7e2c13aebb73f46d20b16275d097432
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 1f12e8e82430c79ee93f2284e5fdf47ac559525d
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -121,9 +121,13 @@ Los costes generales hacen referencia a los gastos en curso de operar un negocio
 -   Impuestos
 -   Costes de servicios
 
+**Distribución de costes**
+
+La distribución de costes se usa para redistribuir costes desde un objeto de coste a uno o más objetos de coste aplicando una base relevante de la asignación. La distribución de costes y la asignación de costes difieren en que la distribución de costes siempre se produce en el nivel de elemento de costes principal del coste original.
+
 **Asignación de costes**
 
-La asignación de costes es el proceso de asignación y atribución, en función de las causas originales de los costes comunes. Se asignan los importes de costes y las cantidades de un objeto de coste a uno o más objetos de coste distintos. Por ejemplo, todos los costes de servicios de las instalaciones se asignan a los distintos departamentos que usan el edificio de oficinas común.
+La asignación es utilizada para asignar el saldo de un objeto de coste a otros objetos de coste aplicando una base de asignación. Finance and Operations admite el método de asignación recíproco. En el método de asignación recíproco, se reconocen completamente los servicios mutuos que los objetos de coste auxiliar intercambian. El sistema determina automáticamente el orden correcto para realizar las asignaciones. El saldo de un objeto de coste se asigna según una única base de asignación. Las asignaciones entre dimensiones de objetos de coste y sus miembros respectivos se admiten. El orden de asignación se controla por unidad de control de costes.
 
 **Directiva de asignación de costes**
 

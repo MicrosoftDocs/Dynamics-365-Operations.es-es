@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 91207e03902fa8a45ab44270cc61b58ef9e3c98c
+ms.translationtype: HT
+ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
+ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
 ms.contentlocale: es-es
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -32,33 +31,31 @@ ms.lasthandoff: 06/20/2017
 
 Este artículo proporciona una visión general de los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations. También se explica cómo puede proporcionar la formación y la documentación personalizadas a su organización. 
 
-> [!IMPORTANT] 
-> Los siguientes productos están estrechamente relacionados: Dynamics 365 for Finance and Operations, Enterprise Edition; Dynamics 365 for Retail; y Dynamics 365 for Talent. Puede que los tres productos tengan la misma funcionalidad. Como resultado, en los temas relativos principalmente a Retail, el nombre de producto será 365 Dynamics for Retail, en los temas relativos principalmente a Talent, el nombre de producto será Dynamics 365 Talent y en los temas relativos principalmente al producto básico, el nombre del producto será Dynamics 365 for Finance and Operations. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado
+> [!NOTE] 
+> Los siguientes productos están estrechamente relacionados: Dynamics 365 for Finance and Operations, Enterprise Edition; Dynamics 365 for Retail; y Dynamics 365 for Talent. Puede que los tres productos tengan la misma funcionalidad. Como resultado, en los temas relativos principalmente a Retail, el nombre de producto será 365 Dynamics for Retail, en los temas relativos principalmente a Talent, el nombre de producto será Dynamics 365 Talent y en los temas relativos principalmente al producto básico, el nombre del producto será Dynamics 365 for Finance and Operations. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
+
+El sistema de Ayuda lo comparten todos los productos de Unified Operations:
+- Dynamics 365 for Finance and Operations, edición Enterprise
+- Dynamics 365 for Retail
+- Dynamics 365 for Talent
 
 Finance and Operations incluye un sistema de Ayuda que se basa en dos componentes principales:
 
 -   Un sitio de documentación
 -   Guías de tareas
 
-Los siguientes productos están estrechamente relacionados: Dynamics 365 for Finance and Operations, Enterprise Edition; Dynamics 365 for Retail; y Dynamics 365 for Talent. Puede que los tres productos tengan la misma funcionalidad. Como resultado, en los temas relativos principalmente a Retail, el nombre de producto será 365 Dynamics for Retail, en los temas relativos principalmente a Talent, el nombre de producto será Dynamics 365 Talent y en los temas relativos principalmente al producto básico, el nombre del producto será Dynamics 365 for Finance and Operations. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado. 
-
-El sistema de Ayuda lo comparten todos los productos de Unified Operations:
-- Dynamics 365 for Finance and Operations, Enterprise Edition
-- Dynamics 365 for Retail
-- Dynamics 365 for Talent
-
 Puede obtener acceso a ambos temas y guías de tareas desde el panel de la Ayuda en cualquiera de los productos que esté usando. El captura de pantalla siguiente muestra Dynamics 365 for Finance and Operations
 
-![Panel Ayuda](./media/help-pane-ops-task-guides-1024x741.png)
+![Panel Ayuda](./media/help-pane-ops-task-guides.png)
 
 Este tema describe el sistema de ayuda y explica cómo puede crear documentación personalizada y recursos de formación para su organización.
 
 > [!IMPORTANT]
-> La pestaña **Guías de tareas** no está actualmente disponible en Microsoft Dynamics 365 for Talent y Microsoft Dynamics 365 for Retail, Estamos trabajando actualmente para permitir esta funcionalidad en una versión futura. Las Guías de tareas para la Introducción a Talent seguirán disponibles para cubrir las funcionalidades básicas. La ayuda de procedimientos también está disponible en el sitio de docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) para Retail y Talent.
+> La pestaña **Guías de tareas** no está actualmente disponible en Microsoft Dynamics 365 for Talent y Microsoft Dynamics 365 for Retail, Estamos trabajando actualmente para permitir esta funcionalidad en una versión futura. Las Guías de tareas para la Introducción a Talent seguirán disponibles para cubrir las funcionalidades básicas. La ayuda de procedimientos también está disponible en el sitio de docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index) para Retail y Talent.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Ayuda en docs.microsoft.com
 
-El sitio docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) es el origen principal de la documentación del producto para Dynamics 365 Finance and Operations. El sitio ofrece las características siguientes:
+El sitio docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index)) es el origen principal de la documentación del producto para Dynamics 365 Finance and Operations. El sitio ofrece las características siguientes:
 
 -   **Acceso al contenido más actualizado**: el sitio nos ofrece una manera más rápida y flexible de crear, entregar y actualizar documentación del producto. Por lo tanto, ayuda a garantizar que puede acceder a la información técnica más reciente.
 -   **Contenido escrito por expertos**: el sitio proporciona un conjunto enriquecido de documentación de producto que se puede mejorar por los miembros de la comunidad tanto dentro como fuera de Microsoft.
@@ -68,12 +65,13 @@ El sitio docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynami
 ### <a name="searching-on-docsmicrosoftcom"></a>Cómo buscar en docs.microsoft.com
 Recibimos muchas preguntas sobre cómo realizar búsquedas en nuestro contenido. En nuestro sitio, si empieza desde una página sobre Dynamics 365 for Finance and Operations, la búsqueda se limitará a contenido sobre Dynamics 365 for Finance and Operations. Para quitar esta restricción de ámbito, haga clic en la X situada junto a Operations en el cuadro de búsqueda. 
 
-![Buscar pedidos](./media/search-scope.png)
+![Buscar pedidos](./media/search-scope-2.png)
 
 También puede encontrar nuestro contenido con cualquier motor de búsqueda. Para obtener los mejores resultados, recomendamos utilizar una búsqueda en sitio con el parámetro site:docs.microsoft.com dynamics 365 “término buscado”.  
-![Búsqueda en sitio](./media/site-search.png)
 
-![Resultados de la búsqueda en sitio](./media/site-search-results.png)
+![Búsqueda en sitio](./media/site-search-1.png)
+
+![Resultados de la búsqueda en sitio](./media/site-search-results-2.png)
 
 ### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>La tabla de contenido docs.microsoft.com para Unified Operations
 Todos los productos comparten una sola tabla de contenido en el sitio de los documentos, que permite a los clientes ver el contexto del tema en el que están. También le permite usar el control de filtro para buscar temas que quiera.
@@ -105,7 +103,7 @@ Una guía de tareas es una experiencia guiada, interactiva y controlada que le l
 
 Proporcionaremos los distintos conjuntos de guías de tareas para cada producto de Unified Operations. La sección sobre cómo acceder las guías de tareas en el panel Ayuda describe cómo buscar las guías de tareas correctas para su producto. 
 
-![Vista de lectura de la guía de tareas](./media/task-guide-ops-1024x742.png)
+![Vista de lectura de la guía de tareas](./media/task-guide-ops.png)
 
 Para comenzar la experiencia interactiva y guiada, haga clic en **Iniciar guía de tareas** en la parte inferior del panel Ayuda. Se abre un puntero negro e indica la acción que debe realizar. Siga las indicaciones que aparecen en la IU y especifique los datos como se indica. 
 ![Instrucción de pasos de la guía de tareas](./media/task-guide-step-1-ops.png)
@@ -129,7 +127,7 @@ Puede crear sus propias grabaciones de tareas o descargar y personalizar grabaci
 ## <a name="in-product-help"></a>Ayuda en el producto
 Para obtener acceso al contenido de la Ayuda dentro de Finance and Operations, haga clic en el icono **Ayuda** (**?**) y después elija Ayuda, o presione Ctrl+Mayús+?. En ambos casos, se abre el panel Ayuda. En el panel Ayuda, puede obtener acceso a los artículos del sitio o las guías de tareas. 
 
-![Panel Ayuda](./media/help-pane-wiki-1024x684.png)
+![Panel Ayuda](./media/help-pane-wiki.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Acceso a los temas de ayuda desde el panel Ayuda
 
@@ -162,7 +160,7 @@ En la página **Parámetros del sistema**, siga estos pasos:
 
 Una vez que un administrador del sistema complete estos pasos, puede abrir el panel Ayuda y hacer clic en la pestaña **Guías de tareas**. Ahora verá las guías de tareas que se aplican a la página en la que se encuentra actualmente en Finance and Operations. Si no se encuentra ninguna guía de tareas, puede escribir palabras clave para limitar la búsqueda. Tras hacer clic en una guía de tareas en el panel Ayuda, el panel Ayuda muestra las instrucciones detalladas y puede reproducir la guía de tareas. 
 
-![Vista de lectura de la guía de tareas](./media/task-guide-ops-1024x742.png)
+![Vista de lectura de la guía de tareas](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>¿Dónde están las guías de tareas traducidas?
 

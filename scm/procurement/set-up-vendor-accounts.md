@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: bis
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 3c3c215dbc64c3b823ab8537b66f72d7d7fdf5c1
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -94,6 +94,18 @@ Puede colocar un proveedor en espera para diversos tipos de transacciones. Está
 -   **Nunca**: el proveedor nunca se pone en espera por inactividad.
 
 Cuando coloca un proveedor en espera, también puede especificar un motivo y una fecha en que finalizará el estado en espera. Si no especifica una fecha final, el estado en espera del proveedor dura de forma indefinida.
+
+Puede actualizar masivamente el estado en espera a **Todos** para los proveedores en función de los criterios seleccionados en la página **Desactivación del proveedor** y asignar un motivo por el que el proveedor está en espera.
+
+Los siguientes criterios se usan para incluir proveedores que ha estado inactivos en un período, incluir o excluir proveedores que son empleados y excluir proveedores que están en un período de gracia antes de la próxima suspensión.
+
+- En función del número de días que especifique en el campo **Período en actividad** dela página **Desactivación del proveedor** , la aplicación calcula la última fecha en la que el proveedor puede tener cualquier actividad que se considera inactiva. Es decir, la fecha actual menos el número de días que especifique. Si existe una o más facturas para el proveedor en la que la fecha es posterior a la última fecha calculada, el proveedor será excluido de la desactivación. Esto también se valida si el proveedor tiene pagos después de esa fecha, solicitudes de compra abiertas, pedidos de compra abiertos, solicitudes de presupuestos o respuestas.
+- El número de días en el campo **Período de gracia antes de la próxima suspensión** se usa para calcular la última fecha de gracia. Es decir, la fecha actual menos los días que especifique. Esto solo se aplica a los proveedores que han sido desactivados previamente. En caso de una desactivación anterior, la aplicación verifica el historial de otras repeticiones de desactivación del proveedor y comprueba si la última desactivación se produjo antes de la última fecha de gracia. Si éste es el caso, el proveedor se incluirá en el proceso de desactivación.
+- El parámetro **Incluir empleados** hace referencia a los proveedores que se vinculan a un empleado. Puede establecer si desea incluir a estos empleados.
+
+Este proceso siempre excluirá a proveedores en el que el valor del campo **Retención de proveedor** es **Nunca**.
+
+Los proveedores que aprueban las validaciones se ponen en espera, lo que establece el valor del campo **Retención de proveedor** a **Todos** y el **Motivo** por el que se ha seleccionado. Se crea un registro en el historial en espera para el proveedor.
 
 ## <a name="vendor-invoice-account"></a>Cuenta de facturas del proveedor
 Si más de un proveedor tiene la misma dirección de facturación, o si se factura a un proveedor a través de un tercero, puede especificar una cuenta de factura en el registro de proveedor. La cuenta de facturación es la cuenta en la que se abona el importe de la factura cuando crea una factura del proveedor desde un pedido de compra. Si no especifica ninguna cuenta de facturación en el registro del proveedor, la cuenta del proveedor se utilizará como cuenta de facturación.

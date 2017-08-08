@@ -12,13 +12,13 @@ audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: sunilg
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5bfde00f88a12711c2519aaea19dd7a48196a828
+ms.translationtype: HT
+ms.sourcegitcommit: 172d952c79347e7dd563cfda70729750fa0ddde9
+ms.openlocfilehash: c47ca406e2c8be98f26f1c78d6f5e0a3f66690a5
 ms.contentlocale: es-es
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 # <a name="vendor-invoice-automation"></a>Automatización de factura de proveedor
@@ -57,7 +57,7 @@ Un paquete de datos es la unidad de trabajo que debe enviarse a Finance and Oper
 
 Los adjuntos del documento de la factura de proveedor son una nueva entidad de datos que se introduce como parte de esta función. Se ha modificado la entidad del encabezado de la factura de proveedor para que admita adjuntos. No se ha modificado la entidad de la línea de factura de proveedor para esta función.
 
-Este tema no ofrece una definición detallada de un paquete de datos. Tampoco explica cómo crear los paquetes de los datos. Para obtener esta información, consulte [Marco de entidades y paquetes de datos](/dynamics365/en-us/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
+Este tema no ofrece una definición detallada de un paquete de datos. Tampoco explica cómo crear los paquetes de los datos. Para obtener esta información, consulte [Marco de entidades y paquetes de datos](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
 
 Para generar rápidamente los datos de prueba que incluyen facturas y adjuntos, siga estos pasos.
 

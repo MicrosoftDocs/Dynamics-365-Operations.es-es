@@ -18,13 +18,12 @@ ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: e520c292b7350f332649f23fb4232e7ecd191776
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.translationtype: HT
+ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
+ms.openlocfilehash: 404803c6317b2aeda78de86d4ba11987b2a8cf65
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +34,7 @@ ms.lasthandoff: 06/13/2017
 
 Este tema presenta el concepto de contabilización previa de los costes que se utiliza para lean manufacturing. 
 
-El coste de la producción ajustada permite al flujo de producción para utilizar el método de acumulación de costes que se conoce como contabilización previa de los costes. En el método de la contabilización previa de los costes, el material directo que se consume se acumula en la cuenta de costes de (WIP) del trabajo en curso del flujo de producción. Se usa el grupo de modelos de inventario de costes estándar. Los productos recibidos del flujo de producción se deducen del trabajo en curso en su coste estándar. La principal diferencia entre la contabilización previa de los costes y el coste estándar es que, para la contabilización previa de los costes, las desviaciones no se calculan por kanban o el producto terminado. En su lugar, las desviaciones se calculan por el flujo de producción durante un período. Este método presenta un concepto verdaderamente lean para notificar el consumo de materiales. Las cantidades seleccionadas dedicadas de material no se notifican a un kanban o a un pedido de producción. En su lugar, los lotes completos o las unidades de manipulación se almacenan provisionalmente en el flujo de producción. Después de que los lotes o las unidades de manipulación se registren como vacíos, se declaran consumidos. Se puede usar el consumo avanzado, según la [configuración del flujo de producción](http://ax.help.dynamics.com/en/wiki/lean-manufacturing-modeling-the-lean-organization/). Antes de que el consumo avanzado se pueda usar, las organizaciones deben permitirse hacer desaparecer material en el trabajo en curso del flujo de producción. La contabilización previa de los costes periódica determina el valor efectivo del trabajo en curso al final del período. Esta determinación se basa en el estado del kanban, las unidades de manipulación y el trabajo kanban. Las desviaciones entre los valores reales y los valores reales del trabajo en curso por grupo de costes y artículos se tienen en cuenta y se muestran como desviaciones.
+El coste de la producción ajustada permite al flujo de producción para utilizar el método de acumulación de costes que se conoce como contabilización previa de los costes. En el método de la contabilización previa de los costes, el material directo que se consume se acumula en la cuenta de costes de (WIP) del trabajo en curso del flujo de producción. Se usa el grupo de modelos de inventario de costes estándar. Los productos recibidos del flujo de producción se deducen del trabajo en curso en su coste estándar. La principal diferencia entre la contabilización previa de los costes y el coste estándar es que, para la contabilización previa de los costes, las desviaciones no se calculan por kanban o el producto terminado. En su lugar, las desviaciones se calculan por el flujo de producción durante un período. Este método presenta un concepto verdaderamente lean para notificar el consumo de materiales. Las cantidades seleccionadas dedicadas de material no se notifican a un kanban o a un pedido de producción. En su lugar, los lotes completos o las unidades de manipulación se almacenan provisionalmente en el flujo de producción. Después de que los lotes o las unidades de manipulación se registren como vacíos, se declaran consumidos. Se puede usar el consumo avanzado, según la [configuración del flujo de producción](/dynamics365/unified-operations/supply-chain/production-control/lean-manufacturing-modeling-lean-organization). Antes de que el consumo avanzado se pueda usar, las organizaciones deben permitirse hacer desaparecer material en el trabajo en curso del flujo de producción. La contabilización previa de los costes periódica determina el valor efectivo del trabajo en curso al final del período. Esta determinación se basa en el estado del kanban, las unidades de manipulación y el trabajo kanban. Las desviaciones entre los valores reales y los valores reales del trabajo en curso por grupo de costes y artículos se tienen en cuenta y se muestran como desviaciones.
 
 ## <a name="configuring-backflush-costing"></a>Configuración de la contabilización previa de los costes
 Para habilitar la gestión de costes, debe completar la configuración siguiente:

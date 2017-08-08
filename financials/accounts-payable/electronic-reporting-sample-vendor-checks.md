@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.assetid: 
 ms.search.region: Global
 ms.author: twheeloc
-ms.dyn365.intro: 2017-06-30
+ms.dyn365.intro: 2017-06-30T00:00:00.000Z
 ms.dyn365.version: Enterprise edition, July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6cb473962f40ed9ef2f5f807f089098764f47009
-ms.openlocfilehash: 8228690ee5ab7839ec19c307c23f9b6150006371
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: a8ba439ff643fce4811be9224a3edf96b2b9025c
 ms.contentlocale: es-es
-ms.lasthandoff: 06/14/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -38,11 +38,11 @@ Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, incluye u
 
 ## <a name="what-do-i-have-to-set-up"></a>¿Qué tengo que configurar?
 
-- Para poder crear imprimir cheques utilizando ER, antes debe activar al menos una configuración de cheque de crédito en las configuraciones de ER. Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+- Para poder crear imprimir cheques utilizando ER, antes debe activar al menos una configuración de cheque de crédito en las configuraciones de ER. Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 - Cuando configure cheques de efectivo y de gestión bancaria para la cuenta bancaria, seleccione la casilla de verificación **Formato de exportación electrónica genérica** y seleccione el formato de cheque apropiado como configuración del formato de exportación.
 - También debe especificar el número de líneas de albaranes que se imprimirán en la remesa. Asegúrese de incluir las filas de encabezado cuando se calcula este número. Para los dos formatos de cheque de ejemplo, el número de líneas de albarán recomendado es 17. Sin embargo, este número variará, en función de sus existencia de cheques y los controladores de la impresora.
 - Es recomendable que imprima un cheque de prueba para validar el diseño de cheques. Para imprimir un cheque de prueba, seleccione la opción **Imprimir prueba**. Los formatos de cheque de prueba funcionan mejor cuando los **Márgenes** se establecen en **Ninguno** en las propiedades de impresora avanzadas para Microsoft Excel. Una vez que se haya generado el cheque de prueba, habilite la edición de salida de Excel y configure el diseño de página para definir todos los márgenes en **0** (cero). Compare la copia de prueba de los cheques con las existencias de cheques y ajuste los valores hasta que se quede satisfecho con la alineación.
 - Al generar los pagos para la cuenta bancaria configurada en el diario de pagos, los cheques se imprimirán con el formato especificado.
 
-Para obtener más información, consulte [Modificar un formato de informe electrónico](/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
+Para obtener más información, consulte [Modificar un formato de informe electrónico](/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template).
 
