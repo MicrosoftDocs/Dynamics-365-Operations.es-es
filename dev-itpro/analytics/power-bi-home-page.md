@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 2df0c6dc9b41dde861f5361bfcc1226786e7aa76
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 282973618e56db3feb0103a7021a66d137218a7a
 ms.contentlocale: es-es
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/25/2017
 
 ---
 
@@ -35,28 +35,30 @@ Este tema enumera el contenido de Microsoft Power BI que está disponible y le s
 Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017), el siguiente contenido de Power BI está disponible:
 
 - [Contenido de Power BI de prestaciones](benefits-power-bi.md)
-- [Contenido de Power BI de visión general de efectivo](/dynamics365/operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
+- [Contenido de Power BI de visión general de efectivo](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 - [Contenido de Power BI de CFO](CFO-power-bi.md)
 - [Contenido de Power BI de compensaciones](compensation-power-bi.md)
 - [Contenido en Power BI sobre el análisis de la contabilidad de costes*](cost-accounting-analysis-content-pack.md) 
-- [Contenido en Power BI de Administración de créditos y cobros](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [Contenido en Power BI de Administración de créditos y cobros](/dynamics365/unified-operations/financials/accounts-receivable/credit-collections-power-bi)
 - [Contenido en Power BI de desarrollo de empleados](employee-development-PBI.md) 
 - [Contenido de Power BI sobre rendimiento financiero*](financial-performance-power-bi-content-pack.md)
-- [Contenido en Power BI de gestión de activos fijos](/dynamics365/operations/financials/fixed-assets/Fixed-asset-management-workspace)
+- [Contenido en Power BI de gestión de activos fijos](/dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace)
 - [Contenido en Power BI de Aprendizaje](learning-power-bi.md)
 - [Contenido de Power BI para Director de prácticas](practice-manager-power-bi.md)
 - [Contenido en Power BI sobre rendimiento de la producción](production-performance-power-bi.md)
 - [Contenido de Power BI sobre análisis de gastos de compra](purchase-content-pack-for-power-bi.md) 
 - [Contenido de Power BI para contratación](recruiting-analysis-power-bi-content-pack.md) 
 - [Contenido de Power BI sobre rendimiento de la rentabilidad y las ventas](sales-profitability-performance-content-pack.md)
-- [Contenido en Power BI sobre pagos de proveedor](/dynamics365/operations/financials/accounts-payable/Vendor-payments-workspace)
+- [Contenido en Power BI sobre pagos de proveedor](/dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace)
 - [Contenido de Power BI sobre rendimiento del almacén](warehouse-power-bi-content.md)
 - [Contenido de BI sobre métricas de recursos](workforce-analysis-power-bi-content-pack.md)  
 
 ### <a name="accessing-the-content"></a>Acceso al contenido
 
 #### <a name="embedded-content"></a>Contenido incrustado
-Excepto para el contenido que se marca con un asterisco (\*), todo el contenido de la lista anterior se inserta en la aplicación. Para obtener más información acerca de dónde ver el contenido de Power BI, haga clic en los vínculos.
+Excepto para el contenido que se marca con un asterisco (\*), todo el contenido de la lista anterior se inserta en la aplicación. Para obtener más información acerca de dónde ver el contenido de Power BI, haga clic en los vínculos mencionados más arriba.
+
+Para ver los datos en los informes de Power BI, asegúrese de actualizar el almacén de entidades. Para obtener más información, consulte la sección *Actualizar almacén de entidades* de [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
 
 #### <a name="files-available-in-lifecycle-services"></a>Archivos disponibles en Lifecycle Services
 Este contenido de Power BI está disponible en la biblioteca de activos compartidos de Microsoft Dynamics Lifecycle Services (LCS). Para obtener información sobre cómo descargar el contenido y conectarlo a sus datos, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
@@ -66,7 +68,7 @@ Si utiliza Microsoft Dynamics 365 for Operations, versión 1611, el siguiente co
 
 - [Contenido de Power BI sobre compensaciones y prestaciones](compensation-and-benefits-analysis-power-bi-content-pack.md)   
 - [Contenido en Power BI sobre el análisis de la contabilidad de costes](cost-accounting-analysis-content-pack.md) 
-- [Contenido en Power BI de Administración de créditos y cobros](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [Contenido en Power BI de Administración de créditos y cobros](/dynamics365/unified-operations/financials/accounts-receivable/credit-collections-power-bi)
 - [Contenido de Power BI sobre competencias y desarrollo de los empleados](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
 - [Contenido de Power BI sobre rendimiento financiero](financial-performance-power-bi-content-pack.md)
 - [Contenido de Power BI sobre formación organizativa](organizational-training-analysis-power-bi-content-pack.md) 

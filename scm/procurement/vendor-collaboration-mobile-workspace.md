@@ -16,13 +16,12 @@ ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 20e4c77bc47bffc3474559e3b9933b87e947e178
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.translationtype: HT
+ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
+ms.openlocfilehash: d76b3592ed8274498a7a58c46cc83619f2f668f5
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -103,10 +102,10 @@ Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con ac
 <td>El usuario proveedor debe tener acceso a la interfaz web de colaboración de proveedor en el cliente web y debe configurar un usuario de colaboración de proveedor.</td><td>Encargados de compras y el administrador del sistema</td>
 <td>Siga los pasos en los temas siguientes para configurar y trabajar en la interfaz web de colaboración de proveedor.
 <ul>
-<li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-external-vendors/">Use la colaboración de proveedor para trabajar con proveedores externos</a></li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/manage-vendor-collaboration-users/">Gestionar usuarios de colaboración de proveedor</a></li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/set-up-and-maintain-vendor-collaboration/">Configurar y mantener la colaboración de proveedor</a></li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-customers-in-dynamics-365-for-operations/">Use la colaboración de proveedor para trabajar con los clientes en Dynamics 365 for Finance and Operations</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors">Use la colaboración de proveedor para trabajar con proveedores externos</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/procurement/manage-vendor-collaboration-user">Gestionar usuarios de colaboración de proveedor</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/procurement/set-up-maintain-vendor-collaboration">Configurar y mantener la colaboración de proveedor</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations">Use la colaboración de proveedor para trabajar con los clientes en Dynamics 365 for Finance and Operations</a></li>
 </ul></td>
 </tr>
 </tbody>

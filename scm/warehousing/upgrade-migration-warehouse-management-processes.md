@@ -15,13 +15,13 @@ ms.custom: 1714054
 ms.assetid: 79a1a3b9-3a36-4162-8839-ec39b5e26602
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5ab19faddedae8cf61222762714609601b0ae96f
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: cacf48bc10be5c06154816c2f9951ab4bbaee1c1
 ms.contentlocale: es-es
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +35,7 @@ Este tema proporciona una visión general de las opciones de migración de la ge
 Durante una actualización de Finance and Operations, los productos están bloqueados si se asocian a un grupo de dimensiones de almacenamiento con valores que no coinciden con los requisitos de valores del grupo de dimensiones de almacenamiento de Finance and Operations. Sin embargo, después de la actualización, puede usar un conjunto de opciones de migración en el proceso **Cambiar grupo de dimensiones de almacenamiento para artículos** para desbloquear los productos bloqueados durante la actualización. A continuación puede procesar las transacciones de estos productos. Algunos de los elementos pueden estar ya asociados a grupos de dimensiones de almacenamiento en los que se activaron las dimensiones de sitio, almacén e inventario de ubicación y ser seguidos físicamente. En este caso, puede usar el proceso **Cambiar grupo de dimensiones de almacenamiento para artículos** para habilitar los artículos que se utilizarán en procesos de gestión de almacenes. Esta función resulta útil si desea usar la funcionalidad de gestión de almacenes para los artículos existentes.
 
 ## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Actualización de Finance and Operations cuando se utiliza AX 2012 R3 WMSII
-Finance and Operations ya no admite el antiguo módulo **WMSII** de Microsoft Dynamics AX 2012. En su lugar, puede utilizar el nuevo módulo **Gestión de almacenes** . Para obtener más información, consulte la [página principal de Gestión de almacenes](https://ax.help.dynamics.com/en/wiki/warehouse-management/). En versiones anteriores, las dimensiones de inventario de la ubicación y del ID de palé se podían seleccionar para el inventario financiero. Sin embargo, como parte del proceso de actualización, la dimensión de inventario de identificador de palé ya no se puede habilitar para el inventario financiero. Todos los productos asociados a un grupo de dimensiones de almacenamiento que utilice la dimensión de inventario de identificador de palé se bloquean y no se procesan.
+Finance and Operations ya no admite el antiguo módulo **WMSII** de Microsoft Dynamics AX 2012. En su lugar, puede utilizar el nuevo módulo **Gestión de almacenes** . En versiones anteriores, las dimensiones de inventario de la ubicación y del ID de palé se podían seleccionar para el inventario financiero. Sin embargo, como parte del proceso de actualización, la dimensión de inventario de identificador de palé ya no se puede habilitar para el inventario financiero. Todos los productos asociados a un grupo de dimensiones de almacenamiento que utilice la dimensión de inventario de identificador de palé se bloquean y no se procesan.
 
 ### <a name="enabling-items-in-finance-and-operations"></a>Habilitación de artículos en Finance and Operations
 
@@ -70,7 +70,7 @@ Para poder usar los productos emitidos en el módulo **Gestión de almacenes**, 
 1.  Cree al menos un nuevo perfil de ubicación.
 2.  Haga clic en **Gestión de almacenes** &gt; **Configuración** &gt; **Habilitar procesos de gestión de almacenes** &gt; **Habilitar la configuración del almacén**.
 3.  En la página **Habilitar la configuración del almacén**, agregue los almacenes que deban habilitarse. Puede completar este paso directamente en la página o mediante la integración de Microsoft Office.
-4.  Asigne un perfil de ubicación a todas las ubicaciones. Puede completar fácilmente este paso usando la integración de Microsoft Office directamente en la página. Puede exportar e importar los datos, o utilizar el procesamiento de entidades de datos en [Administración de datos](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/).
+4.  Asigne un perfil de ubicación a todas las ubicaciones. Puede completar fácilmente este paso usando la integración de Microsoft Office directamente en la página. Puede exportar e importar los datos, o utilizar el procesamiento de entidades de datos en [Administración de datos](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities).
 5.  Valide los cambios. Como parte del proceso de validación se producen varias validaciones de la integridad de datos. Como parte de un proceso de actualización mayor, es posible que los problemas que aparezcan tengan que ajustarse en la implementación de origen. En este caso, una actualización de datos adicional será necesaria.
 6.  Procese los cambios.
 
@@ -81,7 +81,7 @@ Para poder usar los productos emitidos en el módulo **Gestión de almacenes**, 
 3.  En la página **Jerarquía de reserva**, defina una nueva jerarquía de la reserva en función del almacenamiento y los grupos de dimensiones de seguimiento del artículo.
 4.  Cree uno o varios grupos de secuencias de unidades que incluyen al menos las mismas unidades que se usan para las unidades de inventario de los artículos.
 5.  Haga clic en **Gestión de almacenes** &gt; **Configuración** &gt; **Habilitar procesos de gestión de almacenes** &gt; **Cambiar grupo de dimensiones de almacenamiento para artículos**.
-6.  En la página **Cambiar grupo de dimensiones de almacenamiento para artículos**, agregue los números de artículo, los grupos de dimensiones de almacenamiento y los grupos de secuencias de unidades. Puede completar este paso directamente en la página, mediante la integración de Microsoft Office, o mediante el proceso de entidades de datos en [Administración de datos](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/).
+6.  En la página **Cambiar grupo de dimensiones de almacenamiento para artículos**, agregue los números de artículo, los grupos de dimensiones de almacenamiento y los grupos de secuencias de unidades. Puede completar este paso directamente en la página, mediante la integración de Microsoft Office, o mediante el proceso de entidades de datos en [Administración de datos](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities).
 7.  Valide los cambios. Como parte del proceso de validación se producen varias validaciones de la integridad de datos. Como parte de un proceso de actualización mayor, es posible que los problemas que aparezcan tengan que ajustarse en la implementación de origen. En este caso, será necesaria otra actualización de datos.
 8.  Procese los cambios. Una actualización de todas las dimensiones de inventario puede tardar. Puede controlar el progreso mediante las tareas de los trabajos por lotes.
 

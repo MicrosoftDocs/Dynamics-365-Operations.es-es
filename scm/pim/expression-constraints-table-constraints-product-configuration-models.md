@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0bad513590ec0b0d495664d81f2e5f92e162bdd7
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: dd6f993e5c5fe343c6484383ff097f87f5dbf894
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -44,7 +44,7 @@ Las restricciones de tabla muestran las combinaciones de valores permitidas para
 
 ### <a name="example-of-a-table-constraint"></a>Ejemplo de una restricción de tablas
 
-Este ejemplo muestra cómo puede limitar la configuración de un altavoz según acabados de caja y frontales específicos. La primera tabla muestra los acabados de caja y frontales que suelen estar disponibles para la configuración. Hay valores definidos para los tipos de atributos **Acabado de la caja**y **Rejilla delantera**.
+Este ejemplo muestra cómo puede limitar la configuración de un altavoz según acabados de caja y frontales específicos. La primera tabla muestra los acabados de caja y frontales que suelen estar disponibles para la configuración. Hay valores definidos para los tipos de atributos **Acabado de la caja** y **Rejilla delantera**.
 
 | Tipo de atributo | Valores                      |
 |----------------|-----------------------------|
@@ -249,9 +249,9 @@ No se pueden usar palabras clave reservadas como nombres del solucionador de atr
 <a name="see-also"></a>Consulte también
 --------
 
-[Crear una restricción de expresión (guía de tareas)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
+[Crear una restricción de expresión (guía de tareas)(/dynamics365/unified-operations/supply-chain/pim/tasks/add-expression-constraint-product-configuration-model)
 
-[Agregar un cálculo a un modelo de configuración de producto (guía de tareas)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+[Agregar un cálculo a un modelo de configuración de producto (guía de tareas)](/dynamics365/unified-operations/supply-chain/pim/tasks/add-calculation-product-configuration-model)
 
 
 

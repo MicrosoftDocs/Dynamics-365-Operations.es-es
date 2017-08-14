@@ -3,25 +3,25 @@ title: "Características en desuso"
 description: "Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 07/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: Operations, Platform
+ms.reviewer: sericks
+ms.search.scope: Operations, Platform, UnifiedOperations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-08-30
+ms.search.validFrom: 2016-08-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 6
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
-ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 18274d9ca390ee3d6d463b3a6d67ddc3a39294f8
 ms.contentlocale: es-es
-ms.lasthandoff: 06/16/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -29,9 +29,10 @@ ms.lasthandoff: 06/16/2017
 
 [!include[banner](../includes/banner.md)]
 
-Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen.
+Este tema describe las características que se han quitado o que cuya eliminación de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition se ha planificado.
 
-## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Funciones que se han dejado de utilizar en Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017)
+## <a name="features-that-have-been-deprecated-for-all-deployment-types-of-the-july-2017-update-with-platform-update-8"></a>Las características que se han dejado de utilizar para todos los tipos de implementación de la actualización de julio de 2017 con la actualización de plataforma 8
+Esta lista incluye las características que se han dejado de utilizar para las implementaciones locales y en la nube.
 
 ### <a name="warehouse-mobile-devices-portal"></a>Portal de dispositivos móviles de almacén
 
@@ -40,7 +41,7 @@ El portal de dispositivos móviles de almacén (WMDP) era componente independien
 |                                  |                                                 |
 |----------------------------------|-------------------------------------------------|
 | **Motivo de la eliminación**       | Funcionalidad duplicada.                        |
-| **¿Reemplazado por otra característica?** | Sí. Esta función se ha sustituido por Finance and Operations - Warehousing. Para obtener más información sobre la configuración y requisitos previos, consulte [Instalar y configurar Microsoft Dynamics 365 for Finance and Operations - Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **¿Reemplazado por otra característica?** | Sí. Esta función se ha sustituido por Finance and Operations - Warehousing. Para obtener más información sobre la configuración y requisitos previos, consulte [Instalar y configurar Microsoft Dynamics 365 for Finance and Operations - Warehousing](/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Módulos afectados**             | Gestión de almacenes y administración de transporte |
 
 ### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Regla de correspondencia de conciliación bancaria para coincidencia manual
@@ -62,6 +63,28 @@ La aplicación para tabletas con Windows 8 ofrecía funcionalidad para la entrad
 | **Motivo de la eliminación**       | Finance and Operations es compatible con las tabletas. La aplicación para tabletas ya no se requiere. |
 | **¿Reemplazado por otra característica?** | N. º                                                                                      |
 | **Módulos afectados**             | Gestión de gastos                                                                       |
+
+## <a name="features-that-have-been-deprecated-for-on-premises-deployments-of-the-july-2017-update-with-platform-update-8"></a>Las características que se han dejado de utilizar en implementaciones locales de la actualización de julio de 2017 con la actualización de plataforma 8
+
+### <a name="ssrs-report-viewer-control"></a>Control de la vista del informe de SSRS
+
+Esta función se usó para interactuar con informes con formato HTML en el cliente Web de Finance and Operations.
+
+|                                  |  |
+|----------------------------------|--|
+| **Motivo de la eliminación**       | SQL Reporting Services (SSRS) no admite un control del visor de informes que sea compatible con el cliente Web local.      |
+| **¿Reemplazado por otra característica?** | Los informes se generan como documentos PDF por el servicio local. Utilice extensiones para habilitar vínculos de obtención de detalles en informes de aplicación. |
+| **Módulos afectados**             | Todas    |
+
+### <a name="document-routing-agent"></a>Agente de ruta de documentos
+
+El cliente del agente de ruta de documentos se usa como una puerta de enlace de servicio para conectar de la nube a impresoras de red autenticadas en el dominio.
+
+|                                  |  |
+|----------------------------------|--|
+| **Motivo de la eliminación**       | Las implementaciones locales se hospedan en servidores autenticados de dominio. Esto ofrece un acceso seguro y directo a los dispositivos de impresora de red. |
+| **¿Reemplazado por otra característica?** | Este componente no es necesario para implementaciones locales.|
+| **Módulos afectados**             | Sin ordenar               |
 
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Funciones que se han dejado de utilizar en Dynamics 365 for Operations 1611 con la actualización de la plataforma 3
@@ -488,11 +511,20 @@ Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en 
 
 Las particiones de los datos proporcionan una separación lógica de datos en la base de datos de Microsoft Dynamics AX.
 
-|                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   |   |
+|---|---|
 | Motivo de la eliminación       | Las particiones de datos se introdujeron en Microsoft Dynamics AX 2012 R2 para habilitar el aislamiento de los datos. En un escenario común, una compañía tiene filiales y los datos de una filial no deben ser visibles para otra, aunque el mismo departamento de TI administre ambas filiales. Sin embargo, se requerían gastos generales de administración y scripts adicionales en todo el programa para crear nuevas particiones y rellenarlas con datos y hacer copia de seguridad de los datos de partición. En la nube, donde tenemos acceso a la plataforma como servicios de base de datos (Base de datos SQL de Microsoft Azure) de un servicio (PaaS), es mucho más eficaz utilizar una base de datos como el contenedor de aislamiento para realizar el aislamiento en el programa. Con independencia de si se requiere la partición de datos para filiales, para varios inquilinos o simplemente para escala, creemos que los escenarios se pueden controlar mejor a través de varias bases de datos o varias instancias de Dynamics AX. |
-| ¿Reemplazado por otra característica? | Se reemplazarán las particiones de datos mediante el soporte para múltiples bases de datos o instancias de Dynamics AX en una versión futura.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Módulos afectados             | Todas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ¿Reemplazado por otra característica? | Se reemplazarán las particiones de datos mediante el soporte para múltiples bases de datos o instancias de Dynamics AX en una versión futura.    |
+| Módulos afectados             | Todas  |
+
+### <a name="database-and-file-share-storage-for-attachments"></a>Almacenamiento de recursos compartidos de archivo y base de datos para los datos adjuntos
+Microsoft Dynamics AX 2012 permitía el almacenamiento de datos adjuntos en los recursos compartidos de archivos y la base de datos. Ambas opciones ya no se admiten.
+
+|                              |                                        |
+|------------------------------|----------------------------------------|
+| Motivo de la eliminación       | El almacenamiento de recurso compartido de archivos ya no se admite ya que los entornos hospedados en la nube no pueden comunicarse con los recursos compartidos de archivos. El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure. El almacenamiento de blobs de Azure es equivalente al almacenamiento en la base de datos, ya que solo se puede tener acceso a los documentos a través de formularios cliente de Dynamics 365 for Finance and Operations. Esto ofrece la ventaja adicional de proporcionar almacenamiento que no afecte negativamente al rendimiento de la base de datos. El almacenamiento de blobs es el mecanismo predeterminado de almacenamiento para la gestión de documentos y funciona inmediatamente. |
+| ¿Reemplazado por otra característica? | El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure.       |
+| Módulos afectados             | Todas                   |
 
 ### <a name="delimitation"></a>Delimitación
 
@@ -525,7 +557,7 @@ En Dynamics AX 2012 R3, Retail Modern POS podía conectarse directamente a la ba
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Motivo de la eliminación       | Ahora se utiliza la función genérica en lugar de la función localizada.                                                                                                                                                                 |
-| ¿Reemplazado por otra característica? | Sí, esta función se ha reemplazado por la funcionalidad avanzada de conciliación bancaria. Además, se prevé la implementación de la importación de extractos de cuenta camt.053 ISO20022 para el Diario general en la siguiente actualización de Dynamics AX. |
+| ¿Reemplazado por otra característica? | Sí, esta función se ha reemplazado por la funcionalidad avanzada de conciliación bancaria. |
 | Módulos afectados             | Todas                                                                                                                                                                                                                                   |
 
 ### <a name="ebilanz-xbrl-for-germany"></a>eBilanz (XBRL para Alemania)
@@ -577,7 +609,7 @@ La generación de prenotas no se puede hacer mediante un lote pero sí la puede 
 |                              |                                                                                                                                                                                                                                                                                                |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Motivo de la eliminación       | El formato ya no es aplicable en Alemania, ya que se ha sustituido por la funcionalidad SEPA (zona única de pagos en euros).                                                                                                                                                                 |
-| ¿Reemplazado por otra característica? | Sí, esta funcionalidad se ha reemplazado por la funcionalidad de exportación de pagos SEPA y conciliación bancaria avanzada para importar extractos de cuenta. Además, se prevé la implementación de la importación de extractos de cuenta camt.053 ISO20022 para el Diario general en la siguiente actualización de Dynamics AX. |
+| ¿Reemplazado por otra característica? | Sí, esta funcionalidad se ha reemplazado por la funcionalidad de exportación de pagos SEPA y conciliación bancaria avanzada para importar extractos de cuenta. |
 | Módulos afectados             | Todas                                                                                                                                                                                                                                                                                            |
 
 ### <a name="german-dtazv-payment-format"></a>Formato de pago DTAZV para Alemania
@@ -593,7 +625,7 @@ La generación de prenotas no se puede hacer mediante un lote pero sí la puede 
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Motivo de la eliminación       | Ahora se utiliza la función genérica en lugar de la función localizada.                                                                                                                                                                 |
-| ¿Reemplazado por otra característica? | Sí, esta función se ha reemplazado por la funcionalidad avanzada de conciliación bancaria. Además, se prevé la implementación de la importación de extractos de cuenta camt.053 ISO20022 para el Diario general en la siguiente actualización de Dynamics AX. |
+| ¿Reemplazado por otra característica? | Sí, esta función se ha reemplazado por la funcionalidad avanzada de conciliación bancaria. |
 | Módulos afectados             | Todas                                                                                                                                                                                                                                   |
 
 ### <a name="german-xml-eu-sales-list"></a>Lista de ventas UE XML para Alemania

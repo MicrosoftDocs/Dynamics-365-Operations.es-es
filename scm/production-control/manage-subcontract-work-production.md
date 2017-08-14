@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0e1368d3f637143fd47c3772c811257e8472cc74
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: ebcae0e323203a98a9b8ed1113db945fceaaa4af
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -68,7 +68,7 @@ Si se usa esta configuración, se crea un pedido de compra para el producto de s
 Un pedido de producción puede tener muchas operaciones, y cada operación se puede asignar a un proveedor diferente. Por lo tanto, un pedido de producción de principio a fin puede activar varios pedidos de compra.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Subcontratación de actividades de flujo de producción
-La solución [lean manufacturing](lean-manufacturing-overview.md)modela el trabajo de subcontratación como un servicio relacionado con una actividad de un [flujo de producción](http://ax.help.dynamics.com/en/wiki/create-a-production-flow-version/) (tema de la Guía de tareas). Por tanto, a este tipo de subcontratación se lo denomina también [subcontratación basada en actividades.](activity-based-subcontracting.md) Se han introducido un tipo especial de grupo de costes que se denomina **Subcontratación directa** y los servicios de subcontratación ya no son parte de una lista de materiales de productos terminados. Cuando usa la lean manufacturing, todas las actividades se definen por kanbans que pueden estar relacionadas con una o varias actividades del flujo de producción. Hasta ahora, esa explicación es similar a la de los pedidos de producción. Sin embargo, mientras que los pedidos de producción deben finalizar siempre con un producto terminado, puede crear kanbans para suministrar un producto semiterminado. No tiene que especificar un nuevo producto y nivel de lista de materiales.  
+La solución [lean manufacturing](lean-manufacturing-overview.md)modela el trabajo de subcontratación como un servicio relacionado con una actividad de un [flujo de producción](/dynamics365/unified-operations/supply-chain/production-control/tasks/create-production-flow-version) (tema de la Guía de tareas). Por tanto, a este tipo de subcontratación se lo denomina también [subcontratación basada en actividades.](activity-based-subcontracting.md) Se han introducido un tipo especial de grupo de costes que se denomina **Subcontratación directa** y los servicios de subcontratación ya no son parte de una lista de materiales de productos terminados. Cuando usa la lean manufacturing, todas las actividades se definen por kanbans que pueden estar relacionadas con una o varias actividades del flujo de producción. Hasta ahora, esa explicación es similar a la de los pedidos de producción. Sin embargo, mientras que los pedidos de producción deben finalizar siempre con un producto terminado, puede crear kanbans para suministrar un producto semiterminado. No tiene que especificar un nuevo producto y nivel de lista de materiales.  
 
 Dado que las reglas kanban pueden ser muy dinámicas, se pueden modelar distintas variantes de suministro para el mismo producto de un flujo de producción. Cuando utilice la subcontratación lean, el flujo de material y el flujo financiero se separarán estrictamente. Todo el flujo de material se representa con actividades de kanban. Los pedidos de compra para los productos de servicio y los registros de recepción de dichos servicios se pueden automatizar, en función del estado de los trabajos kanban, en el flujo de producción. Los trabajos kanban se pueden iniciar y completar incluso antes de que se creen los pedidos de compra. Los documentos de subcontratación (pedido de compra y recepción de compra de servicio) se pueden agregar por período y servicio. Por lo tanto, se puede mantener un número reducido de documentos y líneas de compra, incluso en las operaciones muy repetitivas en las que los proveedores proporcionen servicios subcontratados en un flujo unitario.
 

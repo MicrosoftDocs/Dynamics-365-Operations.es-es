@@ -3,26 +3,26 @@ title: "Creación de pagos de proveedor mediante una propuesta de pago"
 description: "Este tema proporciona una visión general de las opciones de propuesta de pago e incluye algunos ejemplos que muestran cómo funcionan las propuestas de pago. Las propuestas de pago se usan a menudo para crear pagos de proveedor, ya que se puede usar la consulta para seleccionar rápidamente facturas de proveedor para realizar el pago, en función de los criterios como la fecha de vencimiento y el descuento por pronto pago."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b351ea58a25c763dcf90ff1c61e0e3b3cba6c34a
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: aac70abc25c45ef4479425cdb648f4450d5db2dc
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -40,7 +40,7 @@ La consulta de la propuesta de pago contiene diferentes fichas, cada una con var
 ## <a name="parameters"></a>Parámetros
 -   **Seleccionar facturas por**: las facturas dentro del intervalo de fechas especificado por los campos **Fecha inicial** y **Fecha final** se pueden seleccionar por fecha de vencimiento, fecha de descuento por pronto pago o ambas. Si usa la fecha de descuento por pronto pago, el sistema busca primero facturas con una fecha de descuento por pronto pago entre la fecha inicial y la fecha final. El sistema a continuación determina si la factura puede optar al descuento por pronto pago mediante la fecha de la sesión para asegurarse de que la fecha de descuento por pronto pago no haya pasado ya.
 -   **Fecha inicial** y **Fecha final**: las facturas que tienen una fecha de vencimiento o una de descuento por pronto pago dentro del intervalo de fechas se selecciona para su pago.
--   **Fecha de pago**: si se ha definido una fecha, todos los pagos se crean esta fecha. El campo **Fecha de pago mínima** no se tiene en cuenta.
+-   **Fecha de pago**: Se utiliza únicamente cuando el campo **Período** de la forma de pago se establece en **Total**. Si se ha definido una fecha, todos los pagos se crean con esta fecha. El campo **Fecha de pago mínima** no se tiene en cuenta.
 -   **Fecha de pago mínima**: especifique la fecha de pago mínima. Por ejemplo, los campos **Fecha inicial** y **Fecha final** especifican un intervalo desde el 1 de septiembre al 10 de septiembre, y la fecha de pago mínima es el 5 de septiembre. En este caso, todas las facturas que tienen fecha de vencimiento del 1 de septiembre al 5 de septiembre tienen una fecha de pago del 5 de septiembre. Sin embargo, todas las facturas que tienen una fecha de vencimiento del 5 de septiembre al 10 de septiembre tienen una fecha de pago igual a la fecha de vencimiento de cada factura.
 -   **Límite del importe**: especifique el importe total máximo para todos los pagos.
 -   **Crear pagos sin vista previa de factura**: si esta opción se establece en **Sí**, los pagos se crean inmediatamente en la página **Pagos de proveedor**. La página **Propuesta de pago** no se tiene en cuenta. Así pues, los pagos se crean más rápidamente. Los pagos se pueden modificar desde la página **Pagos de proveedor**. Alternativamente, puede volver a la página **Propuesta de pago** mediante el botón **Editar facturas para pago seleccionado**.

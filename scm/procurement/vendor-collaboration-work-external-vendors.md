@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b0aefc62f2d54da963f03dc74d492260722cd451
-ms.openlocfilehash: aabb8277218895566edada3c74d99c02a83dae1e
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
 ms.contentlocale: es-es
-ms.lasthandoff: 06/15/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,7 +36,7 @@ El módulo de **Colaboración del proveedor** se indica para los proveedores que
 
 Para obtener más información sobre cómo los proveedores pueden utilizar la colaboración del proveedor en los procesos de facturación, consulte [Área de trabajo de facturación de colaboración de proveedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Para obtener información sobre cómo suministrar nuevos usuarios de colaboración de proveedor, consulte [Gestionar usuarios de colaboración del proveedor](manage-vendor-collaboration-users.md).
 
-Para obtener más información sobre cómo los proveedores pueden utilizar la colaboración del proveedor en los procesos de facturación, consulte [Área de trabajo de facturación de colaboración de proveedor](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
+Para obtener más información sobre cómo los proveedores pueden utilizar la colaboración del proveedor en los procesos de facturación, consulte [Área de trabajo de facturación de colaboración de proveedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
 
 Para obtener información sobre cómo suministrar nuevos usuarios de colaboración de proveedor, consulte [Gestionar usuarios de colaboración del proveedor](manage-vendor-collaboration-users.md).
 
@@ -196,12 +196,16 @@ Si se ha habilitado la gestión de cambios para los PO, el PO pasa por un flujo 
 
 La siguiente tabla muestra un ejemplo de los cambios de estado y versión que puede tener una OC cuando está activada la gestión de cambios. La versión se registra cuando se aprueba el PO, no cuando el PO se envía al proveedor o se confirma.
 
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Acción**                                                                                                    | **Estado y versión**                                                                                                                                                                                                                                                                                                                                                                      |
-| La versión inicial del PO se crea en Finance and Operations.                                      | El estado es **Borrador**.                                                                                                                                                                                                                                                                                                                                                                    |
-
-| La PO se envía al proceso de aprobación. (El proceso de aprobación es un proceso interno en el que el proveedor no está involucrado.) | El estado se cambia de **Borrador** a **En revisión** a **Aprobación** si el PO no se rechaza durante el proceso de aprobación. El pedido de compra aprobado se registra como versión.                                                                                                                                                                                                                     | | La nueva PO se envía al proveedor                                                                                  | La versión se registra en la interfaz de colaboración de proveedor y el estado se cambia a **En revisión externa**.                                                                                                                                                                                                                                                                       | | Tiene que realizar algunos cambios que pide el proveedor, ya sea manualmente o mediante la acción en la respuesta para actualizar el PO.                                                       | El estado se vuelve a cambiar a **Borrador**.                                                                                                                                                                                                                                                                                                                                                    | | La PO se envía al proceso de aprobación de nuevo.                                                            | El estado se cambia de **Borrador** a **En revisión** a **Aprobación** si la OC no se rechaza durante el proceso de aprobación. De manera alternativa, el sistema puede estar configurado de modo que los cambios de campo específicos no necesitan volver a ser aprobados. En este caso, el estado cambia primero a **Borrador** y a continuación se actualizan automáticamente a **Aprobado**. El pedido de compra aprobado se registra como nueva versión. | | Envíe la nueva versión del PO al proveedor.                                                             | La nueva versión se registra en la interfaz de colaboración de proveedor y el estado se cambia a **En revisión externa**.                                                                                                                                                                                                                                                                   | | El proveedor aprueba la nueva versión de la OC.                                                                | El estado se cambia a **Confirmado** automáticamente o cuando reciba la respuesta del proveedor y después confirma la PO.                                                                                                                                                                                                                                                     |
+|                                                                          |                                                                                                                                                              |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Acción**                                                               | **Estado y versión**                                                                                                                                       |
+| La versión inicial del PO se crea en Finance and Operations.      | El estado es **Borrador**.  |
+| La OC se envía al proceso de aprobación. (El proceso de aprobaciónes un proceso interno en el que el proveedor no está involucrado.)                                                           | El estado se cambia de **Borrador** a **En revisión** a **Aprobación** si el PO no se rechaza durante el proceso de aprobación. El pedido de compra aprobado se registra como versión.           | 
+| El PO se envía al proveedor                                                            | La versión se registra en la interfaz de colaboración de proveedor y el estado se cambia a **En revisión externa**.      |
+| Tiene que realizar algunos cambios que pide el proveedor, ya sea manualmente o mediante la acción en la respuesta para actualizar el PO.                                                            | El estado se vuelve a cambiar a **Borrador**.     |
+|La OC se envía al proceso de aprobación de nuevo.                                                |  El estado se cambia de **Borrador** a **En revisión** a **Aprobación** si el PO no se rechaza durante el proceso de aprobación. De manera alternativa, el sistema puede estar configurado de modo que los cambios de campo específicos no necesitan volver a ser aprobados. En este caso, el estado cambia primero a **Borrador** y a continuación se actualizan automáticamente a **Aprobado**. El pedido de compra aprobado se registra como nueva versión.                                         |
+|Envíe la nueva versión del PO al proveedor.                                                |  La nueva versión se registra en la interfaz de colaboración de proveedor y el estado se cambia a **En revisión externa**.                                         |
+|El proveedor aprueba la nueva versión de la OC.                                                |  El estado se cambia a **Confirmado** automáticamente o cuando reciba la respuesta del proveedor y después confirma la OC. |
 
 ## <a name="share-information-about-consignment-inventory"></a>Compartir la información acerca del inventario de envío
 Si está usando el inventario de envío, los proveedores pueden usar la interfaz de colaboración del proveedor para visualizar la información de las siguientes páginas:
