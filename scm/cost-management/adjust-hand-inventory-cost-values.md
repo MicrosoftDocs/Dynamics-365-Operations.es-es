@@ -10,7 +10,6 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventAdjInventOnHand
 audience: Application User
-ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 53231
 ms.assetid: bc1fde9f-5ad9-4339-8ae8-e2839b792eb2
@@ -31,7 +30,6 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-
 Use la página Ajuste del inventario disponible para ajustar el valor de coste de las cantidades de inventario disponible después de efectuar un cierre de inventario.
 
 Puede usar la página **Ajuste del inventario disponible** para ajustar el valor de coste de las cantidades de inventario disponible después de efectuar un cierre de inventario. **Nota**: para abrir la página **Ajuste del inventario disponible**, en la página **Cierre y ajuste**, seleccione el registro de un proceso de cierre de inventario finalizado y haga clic en **Ajuste** &gt; **Disponible**. **Ejemplo:** Tiene las siguientes transacciones en febrero:
@@ -46,7 +44,4 @@ Este artículo se ha configurado con el modelo de inventario FIFO, y el cierre d
 -   5 de febrero: una cantidad de 1 a un coste de 13,00 dólares
 
 Para definir el coste de estos dos artículos en 15,00 USD, utilice la opción de ajuste disponible para ajustar las cantidades abiertas disponibles como del último período de cierre del inventario. **Nota**: la fecha de contabilización de la transacción de ajuste disponible será la fecha del último cierre de inventario. Este valor de fecha no se podrá modificar.
-
-
-
 
