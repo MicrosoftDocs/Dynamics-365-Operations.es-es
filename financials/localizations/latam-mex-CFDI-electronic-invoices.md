@@ -18,12 +18,11 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 20e9807e58d4ade42ecfc1485632c0cbe3607043
+ms.translationtype: HT
+ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
+ms.openlocfilehash: 7db17961d232724297bee6621b1f2270f2451db3
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/31/2017
 
 ---
 
@@ -88,6 +87,11 @@ En una factura electrónica se incluye la información siguiente:
 ## <a name="customizing-the-integration-pac-web-services"></a>Personalización de los servicios web de integración del PAC
 Según se indica en detalle en el documento de ámbito de localización para México, la integración con servicios web de PAC requiere personalización. Este personalización varía en función de los servicios web de PAC contratados.
 
+## <a name="additional-resources"></a>Recursos adicionales
+
+- [Crear y registrar una factura de cliente como factura electrónica mediante el método CFDI.](./tasks/mx-00010-e-invoicing-cfdi.md)
+- [Visualizar, enviar por correo electrónico, exportar o imprimir una factura electrónica CFDI ya generada según la solicitud de un cliente.](./tasks/mx-00010-inquire-print-electronic-invoice.md)
+- [Cancelación de una factura electrónica CFDI](./tasks/mx-00010-cancel-electronic-invoice.md)
 
 
 

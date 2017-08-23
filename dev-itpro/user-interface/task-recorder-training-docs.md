@@ -16,13 +16,13 @@ ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
 ms.search.region: Global
 ms.author: josaw
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e161e25568506c6e64bc52b2fad404b0706024a1
-ms.openlocfilehash: f29df4a12f5fb0587cf4aeb1b223bda2e3dd4152
+ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
+ms.openlocfilehash: d5e4857081134808b194d3248dd8739f83b57d6e
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 07/27/2017
 
 [!include[banner](../includes/banner.md)]
 
-Este tema explica qué son el Grabador de tareas y las guías de tareas, cómo crear grabaciones de tareas y cómo personalizar las guías de tareas de Microsoft para los productos de Unified Operations e incluirlas en la Ayuda.
+Este tema explica qué son el Grabador de tareas y las guías de tareas, cómo crear grabaciones de tareas y cómo personalizar las guías de tareas de Microsoft e incluirlas en la Ayuda.
 
 > [!IMPORTANT]
 > No puede crear guías de tareas personalizadas para Dynamics 365 for Talent. El sistema de Ayuda para Talent se conecta automáticamente a las guías de tareas para el producto. 

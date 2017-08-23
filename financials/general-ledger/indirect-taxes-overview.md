@@ -3,7 +3,7 @@ title: "Visión general de impuestos"
 description: "Este artículo proporciona una visión general del sistema de impuesto sobre las ventas. Explica los elementos de la configuración de los impuesto y de cómo funcionan juntos."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: f4838dade6b2694a11f4b9775fe53560b1332f18
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,7 +46,7 @@ En el diagrama siguiente se muestran las entidades de la configuración de impue
 
 Para todos los impuestos que una empresa debe tener en cuenta, se debe definir un código de impuestos. Un código de impuestos almacena las tasas de impuestos y las reglas de cálculo para los impuestos. 
 
-Cada código de impuestos se debe vincular a un período de liquidación de impuestos. Los períodos de liquidación de impuestos definen los intervalos en los que se deben notificar los impuestos y pagarse a la autoridad fiscal. Cada período de liquidación de impuestos se debe asignar a una autoridad fiscal. Una autoridad fiscal representa la entidad a la que se notifican y se pagan los impuestos. También define el diseño del informe de impuestos. Las autoridades fiscales pueden estar relacionadas con cuentas de proveedor. 
+Cada código de impuestos se debe vincular a un período de liquidación de impuestos. Los períodos de liquidación de impuestos definen los intervalos en los que se deben notificar los impuestos y pagarse a la autoridad fiscal. Cada período de liquidación de impuestos se debe asignar a una autoridad fiscal. Una autoridad fiscal representa la entidad a la que se notifican y se pagan los impuestos. También define el diseño del informe de impuestos. Las autoridades fiscales pueden estar relacionadas con cuentas de proveedor. Para obtener más información, consulte [Configurar los periodos de liquidación de los impuestos](tasks/set-up-sales-tax-settlement-periods.md).
 
 Cada código de impuestos también se debe vincular a un grupo de registro. Un grupo de registro especifica las cuentas principales en las que se registrarán los importes para los códigos de impuestos. 
 
@@ -60,13 +59,13 @@ La siguiente tabla describe las entidades y la secuencia para la configuración 
 | Actividad de configuración                                                  | Necesario/opcional y descripción                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Crear cuentas principales.                                           | Requerido. Para poder configurar la función de impuestos, se deben crear las cuentas principales que la empresa utiliza para pagar y registrar impuestos.                                                                                                                                                                             |
-| Configuración de grupos de contabilidad para impuestos.                     | Requerido. Los grupos de registro definen las cuentas principales para el registro y el pago de impuestos.                                                                                                                                                                                                                            |
-| Configure las autoridades fiscales.                                   | Requerido. Las autoridades fiscales son las entidades a la que se deben notificar y pagar los impuestos.                                                                                                                                                                                                                                   |
+| Configuración de grupos de contabilidad para impuestos.                     | Requerido. Los grupos de registro definen las cuentas principales para el registro y el pago de impuestos.   Para obtener más información, consulte [Configurar los grupos de apuntes de los impuestos en el libro mayor](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
+| Configure las autoridades fiscales.                                   | Requerido. Las autoridades fiscales son las entidades a la que se deben notificar y pagar los impuestos.    Para obtener más información, consulte [Configurar las autoridades fiscales](tasks/set-up-sales-tax-authorities.md).                                                                                                                                          |
 | Configurar períodos de liquidación de impuestos.                            | Requerido. Los períodos de liquidación de impuestos contienen información acerca de cuándo y con qué frecuencia se deben notificar y pagar los impuestos. Están relacionados con una autoridad fiscal.                                                                                                                                                       |
-| Configure los códigos de notificación de impuestos.                               | Opcional. Los códigos de notificación de impuestos se pueden asignar a códigos de impuestos para notificar importes para múltiples códigos de impuestos con un código de notificación de impuestos.                                                                                                                                                                 |
-| Configure códigos de impuesto sobre las ventas.                                         | Requerido. Los códigos de impuestos contienen tasas de impuestos y reglas de cálculo para cada impuesto. Los códigos de impuestos están relacionados con un período de liquidación de impuestos y un grupo de registro.                                                                                                                                        |
+| Configure los códigos de notificación de impuestos.                               | Opcional. Los códigos de notificación de impuestos se pueden asignar a códigos de impuestos para notificar importes para múltiples códigos de impuestos con un código de notificación de impuestos. Para obtener más información, consulte [Configurar los códigos de informes de los impuestos](tasks/set-up-sales-tax-reporting-codes.md).                                         |
+| Configure códigos de impuesto sobre las ventas.                                         | Requerido. Los códigos de impuestos contienen tasas de impuestos y reglas de cálculo para cada impuesto. Los códigos de impuestos están relacionados con un período de liquidación de impuestos y un grupo de registro. Para obtener más información, consulte [Configurar los códigos de los impuestos](tasks/set-up-sales-tax-codes.md).                                |
 | Configure los grupos de impuestos.                                        | Requerido. Los grupos de impuestos contienen una lista de códigos de ventas que solicitan la parte (cliente o proveedor) de una transacción. Para una transacción determinada, la intersección de códigos de impuestos en el grupo de impuestos y en el grupo de impuestos de artículos determina los códigos de impuestos que se aplican a esa transacción.                  |
-| Configurar grupos de impuestos de artículos.                                   | Requerido. Los grupos de impuestos de artículos contienen una lista de códigos de ventas que solicitan el recurso (producto, servicio, etc.) de una transacción. Para una transacción determinada, la intersección de códigos de impuestos en el grupo de impuestos y en el grupo de impuestos de artículos determina los códigos de impuestos que se aplican a esa transacción. |
+| Configurar grupos de impuestos de artículos.                                   | Requerido. Los grupos de impuestos de artículos contienen una lista de códigos de ventas que solicitan el recurso (producto, servicio, etc.) de una transacción. Para una transacción determinada, la intersección de códigos de impuestos en el grupo de impuestos y en el grupo de impuestos de artículos determina los códigos de impuestos que se aplican a esa transacción. Para obtener más información, consulte [Configurar grupos de impuestos y grupos de impuestos de artículos de venta](tasks/set-up-sales-tax-groups-item-sales-tax-groups.md). |
 | Configurar los parámetros de impuestos en las páginas de parámetros de la solicitud. | Requerido. Distintas áreas, como Contabilidad general, Clientes y Proveedores, deben configurar parámetros para el cálculo correcto de impuestos indirectos. Aunque la mayoría de estos parámetros tienen valores predeterminados, se deben modificar para ajustarse a los requisitos de cada empresa.                                          |
 
 ## <a name="sales-tax-on-transactions"></a>Impuestos en transacciones
@@ -98,5 +97,5 @@ Normalmente tendría que liquidar y pagar 2.500 a la autoridad fiscal cuando se 
 Sin embargo, si usa un impuesto condicional, se liquida con la autoridad fiscal cuando recibe el pago del cliente el 30 de julio.
 
 
-
+Para obtener más información, consulte [Configurar la retención de impuestos](tasks/set-up-withholding-tax.md).
 

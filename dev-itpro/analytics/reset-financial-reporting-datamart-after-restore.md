@@ -15,13 +15,13 @@ ms.custom: 261824
 ms.assetid: d0784b2c-fe10-428d-8d07-fd474ca50fcc
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: c132c04bc64f02201252f03830d3f8309306f19c
+ms.translationtype: HT
+ms.sourcegitcommit: 9953d2f29a67b35f4bb43f577df1c4d910e379a1
+ms.openlocfilehash: 08a420a776f47119a5dc47f9119545aa448ffdbd
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,15 +30,20 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tema describe cómo restablecer el data mart de informes financieros después de restaurar una base de datos de Microsoft Dynamics 365 for Finance and Operations. 
+Este tema describe cómo restablecer el data mart de informes financieros después de restaurar una base de datos de Microsoft Dynamics 365 for Finance and Operations.
 
-Existen varias situaciones donde puede necesitar restablecer la base de datos de Finance and Operations desde una copia de seguridad o copiar la base de datos desde otro entorno. Si esto ocurre, también necesitará seguir los pasos adecuados para garantizar que el data mart de informes financieros use correctamente la base de datos de Finance and Operations restaurada. Si tiene preguntas sobre cómo restablecer el data mart de informes financieros por motivos que no sean restablecer una base de datos de Finance and Operations, consulte [cómo restablecer el data mart de Management Reporter](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) para obtener más información. Tenga en cuenta que los pasos de este proceso se admiten para la versión de mayo de 2016 de Dynamics 365 (compilación de la aplicación 7.0.1265.23014 y compilación de informe financiero 7.0.10000.4) y versiones posteriores. Si tiene una versión anterior de Finance and Operations, contacte con nuestro equipo de soporte técnico para obtener ayuda.
+Si se restablece la base de datos de Finance and Operations desde una copia de seguridad o copia de la base de datos de otro entorno, debe seguir los pasos de este tema para garantizar que el informe financiero data mart usa correctamente la base de datos restaurada de Finance and Operations. 
+<!--If you have questions about resetting the financial reporting data mart for a reason outside of restoring a Finance and Operations database, refer to the [Resetting the Management Reporter data mart](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) for more information. -->
+> [!Note] 
+> Los pasos de este proceso se admiten para la versión de mayo de 2016 de Dynamics 365 for Operation (compilación de la aplicación 7.0.1265.23014 y compilación de informe financiero 7.0.10000.4) y versiones posteriores. Si tiene una versión anterior de Finance and Operations, contacte con nuestro equipo de soporte técnico para obtener ayuda.
 
 ## <a name="export-report-definitions"></a>Exportar las definiciones de informe
 En primer lugar, exporte los diseños de informe que se encuentran en el Diseñador de informes, mediante los pasos siguientes:
 
 1.  En el Diseñador de informes, vaya a **Empresa** &gt; **Grupos de bloque de creación**.
-2.  Seleccione el grupo de bloque de creación para exportar y haga clic en **Exportar**. **Nota:** Para Finance and Operations, se admite solo un grupo de bloque de creación, **Valor predeterminado**.
+2.  Seleccione el grupo de bloque de creación para exportar y haga clic en **Exportar**. 
+    > [!Note] 
+    > Para Finance and Operations, se admite solo un grupo de bloque de creación, **Predeterminado**.
 3.  Seleccione las definiciones del informe que quiere exportar:
     -   Para exportar todas las definiciones de informes y los loques de creación asociados, haga clic en **Seleccionar todo**.
     -   Para exportar informes, filas, columnas, organigramas o conjuntos de dimensiones específicos, haga clic en la pestaña apropiada y, a continuación, seleccione los artículos que se exportarán. Mantenga presionada la tecla CTRL para seleccionar varios elementos en una pestaña. Cuando selecciona informes para exportar, se seleccionan las filas, columnas, organigramas y conjuntos de dimensión asociados.
@@ -63,9 +68,9 @@ Use Escritorio remoto para conectarse con todos los equipos del entorno y detene
 Estos servicios tendrán conexiones abiertas con la base de datos de Finance and Operations.
 
 ## <a name="reset"></a>Restablecer
-#### <a name="locate-the-latest-dataupgradezip-package"></a>Localice el último paquete de DataUpgrade.zip
+#### <a name="locate-and-download-the-latest-minorversiondataupgradezip-package"></a>Localice y descargue el último paquete de MinorVersionDataUpgrade.zip
 
-Localice el último paquete de DataUpgrade.zip mediante las instrucciones que se encuentran en la sección de [descarga de la secuencia de comandos de DataUpgrade.zip](..\migration-upgrade\upgrade-data-to-latest-update.md). Las instrucciones explican cómo encontrar la versión correcta del paquete de actualización de datos para su entorno.
+Localice el último paquete de MinorVersionDataUpgrade.zip mediante las instrucciones que se encuentran en la sección de [Descarga del paquete desplegable de la última actualización de datos](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). Las instrucciones explican cómo encontrar y descargar la versión correcta del paquete de actualización de datos. No se requiere una actualización para descargar el paquete de MinorVersionDataUpgrade.zip. Sólo necesita completar los pasos de la sección “Descarga del paquete desplegable de la última actualización de datos” sin realizar ningún otro paso del artículo para recuperar una copia del paquete de MinorVersionDataUpgrade.zip.
 
 #### <a name="execute-scripts-against-finance-and-operations-database"></a>Ejecute las secuencias de comandos en la base de datos de Finance and Operations
 
@@ -105,8 +110,10 @@ Importe sus diseños de informe del Diseñador de informes, mediante el archivo 
 
 1.  En el Diseñador de informes, vaya a **Empresa** &gt; **Grupos de bloque de creación**.
 2.  Seleccione el grupo de bloque de creación para exportar y haga clic en **Exportar**. 
+
     > [!NOTE]
     > Para Finance and Operations, se admite solo un grupo de bloque de creación, **Predeterminado**.
+    
 3.  Seleccione el bloque de creación **Predeterminado** y haga clic en **Importar**.
 4.  Seleccione el archivo que contiene las definiciones de informe exportadas y haga clic **Abrir**.
 5.  En el cuadro de diálogo Importar, seleccione las definiciones del informe que desea importar:

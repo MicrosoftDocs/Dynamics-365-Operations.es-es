@@ -3,7 +3,7 @@ title: Procesamiento de diarios generales
 description: "Este artículo describe las capacidades en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition que pueden facilitar el proceso del diario general y que también puede ayudar a garantizar que se capturan los datos correctos y que no se pone en peligro el control interno."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/25/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 68da281cb4793ed83f70c68d061d327aa8a8c772
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -82,8 +81,13 @@ La configuración de la cuenta principal ofrece muchas opciones para el proceso 
 
 Las estructuras contables y las estructuras de reglas avanzadas son muy importantes para garantizar que los datos necesarios para los informes financieros y el seguimiento del rendimiento se capture durante el proceso del diario general y la documentación. Las estructuras contables y las estructuras de reglas avanzadas le permiten adaptar la experiencia de entrada de datos. Puede permitir la entrada de datos solo para las dimensiones financieras que son relevantes en cada situación, y también puede exigir el requisito de que los datos necesarios y correctos se capturen siempre.
 
-Para obtener más información, consulte [Planificación: plan de cuentas](plan-chart-of-accounts.md). 
-
+Para obtener más información, consulte los siguientes temas:
+- [Planificación: plan de cuentas](plan-chart-of-accounts.md). 
+- [Crear reglas avanzadas para diarios](tasks/create-advanced-rules-journals.md)
+- [Crear un movimiento de diario mediante una plantilla](tasks/create-journal-entry-template.md)
+- [Crear y validar diarios](tasks/create-validate-journals.md)
+- [Registrar diarios periódicos](tasks/post-periodic-journals.md)
+- [Procesar diario de asignaciones contables](tasks/process-ledger-allocation-journal.md)
 
 
 

@@ -1,9 +1,9 @@
 ---
-title: "Espacios de trabajo móviles recientemente liberados"
-description: "Este tema muestra los espacios de trabajo móviles que se han liberado recientemente."
+title: "Espacios de trabajo móviles"
+description: "Este tema muestra los espacios de trabajo móviles disponibles para administradores el uso."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -13,62 +13,36 @@ ms.reviewer: sericks
 ms.search.scope: Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: e5633d1db9593e2e0cb8bb4703de76766ab706b0
+ms.translationtype: HT
+ms.sourcegitcommit: 0574c8c1164ef54095135bd9b3f2a946320f8996
+ms.openlocfilehash: e6d45094e8722fa51e545076c204459c41fd9131
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/07/2017
 
 ---
 
-# <a name="mobile-workspaces-recently-released"></a>Espacios de trabajo móviles recientemente liberados
+# <a name="mobile-workspaces"></a>Espacios de trabajo móviles
 
 [!include[banner](../includes/banner.md)]
 
-
-
-Este tema indica los espacios de trabajo móviles que se han emitido recientemente para la aplicación móvil Dynamics 365 for Unified Operations.
+Este tema indica los espacios de trabajo móviles que se están disponibles para usarse con la aplicación móvil de Dynamics 365 for Unified Operations.
 
 > [!NOTE]
 > La aplicación móvil anteriormente se denominó *Microsoft Dynamics 365 for Finance and Operations*.
 
-
-## <a name="new-mobile-workspaces-released-in-june-2017"></a>Espacios de trabajo móviles nuevos lanzados en junio de 2017
-
-| Espacio de trabajo móvil     | Descripción   | Más información   |
+| Espacio de trabajo móvil     | Descripción   | Disponibilidad   |
 |----------------------|---------------|--------------|
-|Directorio de empresa| Permite a los usuarios ver y contactar a otros empleados de su organización.| [Espacio de trabajo móvil del directorio de empresa](company-directory-mobile-workspace.md)|    
-|Mi equipo| Permite ver sus subordinados directos y personal ampliado, así como enviar elogios a personas en la cadena de subordinados.| [Espacio de trabajo móvil Mi equipo](manager-self-service-mobile-workspace.md)|     
-|Aprobaciones de facturas| Proporciona una lista de facturas que se le han asignado a través del proceso de flujo de trabajo del encabezado de factura de proveedor.|[Espacio de trabajo móvil Aprobaciones de facturas](invoice-approval-mobile-workspace.md)    |    
-
-## <a name="new-mobile-workspaces-released-in-april-2017"></a>Espacios de trabajo móviles nuevos lanzados en abril de 2017
-
-| Espacio de trabajo móvil   | Descripción                                                                                                                                                                                                      | Más información                                                                                                      |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Gestión de gastos | Permite a los usuarios capturar y cargar un recibo, de modo que puedan adjuntarlo a un informe de gastos posteriormente. El espacio de trabajo móvil también permite a los usuarios crear rápidamente una línea de gastos mediante un recibo vinculado. | [Espacio de trabajo móvil de gestión de gastos](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace) |
-| Aprobación del pedido de compra | Permite a los usuarios ver y responder a pedidos de compra con acciones como aprobar o rechazar. | [Área de trabajo de móvil de la aprobación del pedido de compra](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace) |
-
-## <a name="new-mobile-workspaces-released-in-march-2017"></a>Espacios de trabajo móviles nuevos lanzados en marzo de 2017
-
-| Espacio de trabajo móvil   | Descripción                                                                                   | Más información                                                                                                                                                                              |
-|--------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Entrada de tiempo del proyecto | Permite a los usuarios especificar y guardar la hora en un proyecto mediante el dispositivo móvil. | [Espacio de trabajo móvil de entrada de tiempo de proyecto](/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace) |
-
-## <a name="new-mobile-workspaces-released-in-january-2017"></a>Espacios de trabajo móviles nuevos lanzados en enero de 2017
-
-| Espacio de trabajo móvil     | Descripción                                                                                                                                                                         | Más información                                                                                                                                                        |
-|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Control de costes     | Permite a los administradores de centros de coste pueden ver el rendimiento de los centros de coste en cualquier momento y en cualquier lugar.                                                                                               | [Espacio de trabajo móvil de control de costes](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace)         |
-| Inventario disponible    | Permite a los usuarios obtener información sobre inventarios reservados y disponibles en cualquier momento y cualquier lugar.                                                                                                    | [Espacio de trabajo móvil de inventario disponible](/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace)       |
-| Pedidos de ventas         | Permite a los usuarios estar informados sobre los pedidos de ventas en cualquier momento y cualquier lugar.                                                                                                                          | [Espacio de trabajo móvil de pedidos de ventas](/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace)                 |
-| Colaboración de proveedor | Permite a los proveedores estar informados sobre los pedidos de compra que les han enviado para su aprobación. También pueden ver la información sobre los pedidos y contactos nuevos y actualizados. | [Espacio de trabajo de móvil de colaboración de proveedor](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) |
-
-## <a name="new-mobile-workspace-functionality-released-in-december-2016"></a>Funcionalidad nueva del espacio de trabajo móvil que se emitió en diciembre de 2016
-
-| Espacio de trabajo móvil        | Descripción                                                                    | Más información                                                                                                            |
-|-------------------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| Aprobación de factura de proveedor | Infórmese sobre cómo diseñar y crear un espacio de trabajo móvil para la aprobación de la factura de proveedor. | [Aprobaciones de factura móvil](/dynamics365/unified-operations/financials/accounts-payable/mobile-invoice-approvals) |
+|[Directorio de empresa](company-directory-mobile-workspace.md)| Le permite ver y contactar con otros empleados de su organización.| 2017 de junio |    
+|[Mi equipo](manager-self-service-mobile-workspace.md)| Puede ver sus informes directos y personal ampliado, así como enviar felicitaciones a personas en su cadena de subordinados.|2017 de junio |     
+|[Aprobación de factura](invoice-approval-mobile-workspace.md)| Proporciona una lista de facturas que se le han asignado a través del proceso de flujo de trabajo del encabezado de factura de proveedor.| 2017 de junio   |
+| [Gestión de gastos](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace) | Puede capturar y cargar un recibo, de modo que pueda adjuntarlo a un informe de gastos posteriormente. El espacio de trabajo móvil también le permite crear rápidamente una línea de gastos mediante un recibo vinculado. | 2017 de abril |
+| [Aprobación del pedido de compra](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace) | Ver y responder a pedidos de compra con acciones como aprobar o rechazar. | 2017 de abril |
+| [Entrada de tiempo del proyecto](/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace) | Puede especificar y guardar la hora en un proyecto mediante su dispositivo móvil. | 2017 de marzo |
+| [Control de costes](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace)     | Los administradores de centros de coste pueden ver el rendimiento de los centros de coste.                                                                                               |  2017 de enero        |
+| [Inventario disponible](/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace)    | Obtener información de inventario reservado y disponible.                                                                                                    |   2017 de enero       |
+| [Pedidos de ventas](/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace)         | Puede permanecer informado sobre los pedidos de ventas.                                                                                                                          |  2017 de enero                  |
+| [Colaboración de proveedor](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) | Los proveedores pueden estar informados sobre los pedidos de compra que les han enviado para su aprobación. También pueden ver la información sobre los pedidos y contactos nuevos y actualizados. |2017 de enero    |
 
 

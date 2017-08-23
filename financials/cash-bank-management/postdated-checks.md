@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: f7cf2b7996d113f0f883b39f3603de8236e8ad2c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 6a535b5f1192b7c27383cb8ece53f76a9c76f047
 ms.contentlocale: es-es
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -52,7 +51,7 @@ Microsoft Dynamics 365 for Finance and Operations admite el ciclo de gestión co
 </tr>
 <tr class="even">
 <td>Registrar un cheque con pago diferido para un proveedor</td>
-<td>Registrar los detalles de un cheque posfechado que emite a un proveedor. Cuando se registra el pago, se reconoce el pasivo del proveedor pero la cuenta bancaria no es crédito todavía. En su lugar, se usa una cuenta de compensación para este propósito.</td>
+<td>Registrar los detalles de un cheque posfechado que emite a un proveedor. Cuando se registra el pago, se reconoce el pasivo del proveedor pero la cuenta bancaria no es crédito todavía. En su lugar, se usa una cuenta de compensación para este propósito. </td>
 </tr>
 <tr class="odd">
 <td>Registro de un cheque con fecha futura para un cliente</td>
@@ -87,6 +86,17 @@ Si ha perdido o dañado el cheque original a un proveedor o de un cliente, puede
 
 
 
+Para obtener más información, consulte los siguientes temas:
+
+[Configuración de cheques con pago diferido](tasks/set-up-postdated-checks.md)
+
+[Registrar un cheque con pago diferido para un cliente](tasks/register-post-postdated-check-customer.md)
+
+[Liquidar un cheque con pago diferido de un cliente](tasks/settle-postdated-check-customer.md)
+
+[Registrar un cheque con pago diferido para un proveedor](tasks/register-post-postdated-check-vendor.md) 
+
+[Liquidar un cheque con pago diferido para un proveedor](tasks/settle-postdated-check-vendor.md)
 
 
 

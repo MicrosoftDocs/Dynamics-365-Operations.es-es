@@ -15,13 +15,13 @@ ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
-ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
+ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
+ms.openlocfilehash: 171d006e20834ea4ad6d5651ec27fc305eac4bc6
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -34,8 +34,8 @@ Este artículo proporciona una visión general de los componentes del sistema de
 > [!NOTE] 
 > Los siguientes productos están estrechamente relacionados: Dynamics 365 for Finance and Operations, Enterprise Edition; Dynamics 365 for Retail; y Dynamics 365 for Talent. Puede que los tres productos tengan la misma funcionalidad. Como resultado, en los temas relativos principalmente a Retail, el nombre de producto será 365 Dynamics for Retail, en los temas relativos principalmente a Talent, el nombre de producto será Dynamics 365 Talent y en los temas relativos principalmente al producto básico, el nombre del producto será Dynamics 365 for Finance and Operations. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
 
-El sistema de Ayuda lo comparten todos los productos de Unified Operations:
-- Dynamics 365 for Finance and Operations, edición Enterprise
+El sistema de Ayuda lo comparten los siguientes productos:
+- Dynamics 365 for Finance and Operations, Enterprise Edition
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
 
@@ -73,7 +73,7 @@ También puede encontrar nuestro contenido con cualquier motor de búsqueda. Par
 
 ![Resultados de la búsqueda en sitio](./media/site-search-results-2.png)
 
-### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>La tabla de contenido docs.microsoft.com para Unified Operations
+### <a name="the-docsmicrosoftcom-table-of-contents"></a>La tabla de contenido docs.microsoft.com
 Todos los productos comparten una sola tabla de contenido en el sitio de los documentos, que permite a los clientes ver el contexto del tema en el que están. También le permite usar el control de filtro para buscar temas que quiera.
 
 ### <a name="how-can-i-contribute"></a>¿Cómo puedo contribuir? 
@@ -101,7 +101,7 @@ A la derecha, escriba una dirección de correo electrónico y una nueva contrase
 ## <a name="task-guides"></a>Guías de tareas
 Una guía de tareas es una experiencia guiada, interactiva y controlada que le lleva por los pasos de una tarea o de un proceso empresarial. Puede abrir (reproducir) una guía de tareas desde el panel Ayuda. Al hacer clic por primera vez en una guía de tareas, el panel Ayuda mostrará instrucciones detalladas para la tarea. Ahora dispone de guías de tareas localizadas. 
 
-Proporcionaremos los distintos conjuntos de guías de tareas para cada producto de Unified Operations. La sección sobre cómo acceder las guías de tareas en el panel Ayuda describe cómo buscar las guías de tareas correctas para su producto. 
+Proporcionaremos los distintos conjuntos de guías de la tarea para cada producto como Dynamics 365 for Retail, Dynamics 365 for Finance and Operations, o Dynamics 365 for Talent. La sección sobre cómo acceder las guías de tareas en el panel Ayuda describe cómo buscar las guías de tareas correctas para su producto. 
 
 ![Vista de lectura de la guía de tareas](./media/task-guide-ops.png)
 
@@ -169,7 +169,7 @@ Las guías de tareas traducidas se publican en bibliotecas que llevan "Todos los
 -   Si aún no se ha traducido una guía de tareas, al abrirla, solo parte del texto (el texto de los controles) aparecerá en el idioma seleccionado.
 
 ## <a name="additional-resources"></a>Recursos adicionales
-En la tabla siguiente se muestran los sitios web que proporcionan el contenido de Unified Operations. Nuestros sitios web de contenido están organizados para admitir el ciclo de vida del cliente. Cada fase se admite con otro conjunto de sitios. Los sitios que tienen un asterisco (\*) junto al nombre requieren que inicie sesión con una cuenta asociada a un plan de servicio.
+En la tabla siguiente aparecen las listas de nuestras páginas web. Nuestros sitios web de contenido están organizados para admitir el ciclo de vida del cliente. Cada fase se admite con otro conjunto de sitios. Los sitios que tienen un asterisco (\*) junto al nombre requieren que inicie sesión con una cuenta asociada a un plan de servicio.
 
 | Sitio                                                                     | Descripción                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
