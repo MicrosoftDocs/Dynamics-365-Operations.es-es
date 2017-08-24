@@ -3,7 +3,7 @@ title: "Configuración de una tarea manual en un flujo de trabajo"
 description: "Este tema explica cómo configurar las propiedades para una tarea manual."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -165,6 +165,7 @@ Si un usuario no completa la tarea manual en el tiempo asignado, la tarea se con
 
 1.  En el panel izquierdo, haga clic en **Remisión a una instancia superior**.
 2.  Active la casilla de verificación **Usar ruta de remisión a una instancia superior** para crear una ruta de remisión a una instancia superior. De manera automática, el sistema asigna la tarea a los usuarios que forman parte de la ruta de remisión a una instancia superior. La siguiente tabla, por ejemplo, representa una ruta de remisión a una instancia superior.
+
     | Secuencia | Ruta de remisión a una instancia superior      |
     |----------|----------------------|
     | 1        | Asignar a rol: Donna     |
@@ -318,7 +319,9 @@ Puede enviar notificaciones cuando una tarea manual se ha delegado, completado, 
 8.  Repita los pasos 3 a 7 por cada uno de los eventos que haya seleccionado en el paso 2.
 
 ## <a name="set-a-time-limit"></a>Definición de un límite de tiempo
-Siga estos pasos si la tarea manual se debe completar en un plazo específico. **Nota:** Las opciones que seleccione en este procedimiento anulan las opciones elegidas en las áreas **Asignación** y **Remisión a una instancia superior** de la página.
+Siga estos pasos si la tarea manual se debe completar en un plazo específico. 
+
+**Nota:** Las opciones que seleccione en este procedimiento anulan las opciones elegidas en las áreas **Asignación** y **Remisión a una instancia superior** de la página.
 
 1.  En el panel izquiero, haga clic en **Configuración avanzada**.
 2.  Active la casilla **Configurar un límite de tiempo para el elemento de flujo de trabajo**.
