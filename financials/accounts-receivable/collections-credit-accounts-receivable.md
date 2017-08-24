@@ -1,9 +1,9 @@
 ---
 title: "Créditos y cobros en Clientes"
 description: "La información de los cobros de clientes se gestiona en una vista central con la página Cobros de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Los administradores de crédito y cobros pueden usar esta vista central para gestionar los cobros. Los agentes de cobros pueden comenzar el proceso de cobro por las listas de clientes que se generan mediante criterios de cobro predefinidos o por la página Clientes."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 282084b9d4e63795ec475690e5b22e06c23bb704
 ms.contentlocale: es-es
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -90,6 +89,8 @@ Puede renunciar, restablecer o invertir notas de interés completas, o las cuota
 
 Estos ajustes sólo afectan a las notas de interés, así como a los intereses y cuotas incluidos en éstos. Realice los pasos descritos en la sección “Crear transacciones de cancelación en un paso” para cancelar todos los cargos que debe un cliente.
 
+Para obtener más información, consulte [Crear un código de interés con un intervalo](tasks/create-interest-code-range.md) y [Interés del proceso](tasks/process-interest.md). 
+
 ## <a name="create-writeoff-transactions"></a>Creación de transacciones de cancelación
 Puede cancelar deudas incorrectas haciendo clic en Cancelar en el formulario Cobros y en las páginas de listas Saldos vencidos, Clientes y Facturas de cliente abiertas. 
 
@@ -100,7 +101,10 @@ Al cancelar transacciones para un cliente, todas las transacciones del cliente s
 -   El tercer tipo de línea del diario contiene información de cancelación del libro mayor para los impuestos sobre las ventas. Esta línea de diario se crea solo si se ha seleccionado Impuestos independientes en la página Parámetros de clientes. Si las transacciones marcadas contienen varias combinaciones de cuentas a pagar de impuestos sobre las ventas, dimensiones y códigos de impuestos sobre las ventas, se crea una línea de diario independiente para cada combinación.
 
 La transacción de cancelación se crea en la divisa de la transacción.
-Procesamiento de pagos de fondos insuficientes (NSF)  
+
+Para obtener más información, consulte [Crear un diario de cancelación para un cliente](tasks/create-write-off-journal-customer.md).
+
+<a name="process-not-sufficient-funds-nsf-payments"></a>Procesamiento de pagos de fondos insuficientes (NSF)  
 --------------------------------------------
 
 Puede procesar pagos NSF haciendo clic en Pago NSF en la página Cobros. Al hacer clic en este botón, se cancela el pago. Si se aplica una cuota NSF para el cliente, se creará una transacción de cargos en un diario de pagos. El importe de la cuota se basa en la configuración de los cargos automáticos. Los cargos automáticos que se aplican para los pagos NSF se especifican en función del grupo de cargos seleccionado en la página Cuentas bancarias de la cuenta bancaria afectada.

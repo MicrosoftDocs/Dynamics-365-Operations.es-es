@@ -3,7 +3,7 @@ title: "Cierre de fin de año"
 description: "Este tema describe la configuración y los pasos necesarios para ejecutar el proceso de cierre de fin de año de la contabilidad general."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 50a6a23febc725eb05d30d5db4f97ca699607461
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 4aad946f51c0c9a0a4c0ea1249e6e876cc628e20
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,7 +47,7 @@ En la página de **Cuenta principal**:
 
 En la página **Parámetros de Contabilidad general** en **Cierre del ejercicio**:
 
--   La opción ***Eliminar transacciones de cierre de fin de año** se usa para especificar si la transacción de apertura generada por el sistema de un cierre de fin de año anterior se debe eliminar cuando se realice de nuevo el cierre de fin de año. Si esta opción se establece **Sí**, se eliminará la transacción de apertura anterior y se creará una nueva transacción de apertura en los saldos actuales. Si se establece esta opción **No**, la transacción de apertura anterior se mantendrá y se creará una transacción de apertura adicional para mover los saldos de las transacciones de ajuste registrados después del cierre de fin de año anterior.
+-   La opción **Eliminar transacciones de cierre de fin de año** se usa para especificar si la transacción de apertura generada por el sistema de un cierre de fin de año anterior se debe eliminar cuando se realice de nuevo el cierre de fin de año. Si esta opción se establece **Sí**, se eliminará la transacción de apertura anterior y se creará una nueva transacción de apertura en los saldos actuales. Si se establece esta opción **No**, la transacción de apertura anterior se mantendrá y se creará una transacción de apertura adicional para mover los saldos de las transacciones de ajuste registrados después del cierre de fin de año anterior.
 -   La opción **Creación de transacciones de cierre durante una transferencia** se usa para crear transacciones de cierre en el ejercicio que se está cerrando para poner a cero los saldos de las cuentas de pérdidas y ganancias. Si esta opción se establece **Sí**, se crean la transacción de apertura y la transacción de cierre. Si se establece esta opción en **No**, solo se crea la transacción de apertura en el siguiente ejercicio para transferir los saldos. Los saldos de las cuentas de pérdidas y ganancias se mantienen al final del ejercicio.
 -   La opción **Establecer el estado del ejercicio en Cerrado de forma permanente** se usa para establecer el ejercicio en un estado cerrado de forma permanente. Use esta configuración con precaución, ya que los períodos con un estado cerrado de forma permanente no se pueden reabrir, lo que impide que se registren ajustes en el ejercicio. Es mejor establecerlo en **No**.
 -   La opción **Es necesario rellenar el número de asiento** se usa para definir si se necesita un número de asiento al ejecutar el proceso de cierre de fin de año. Es una práctica recomendada requerir un número de asiento para identificar fácilmente la transacción de apertura.
@@ -86,7 +86,7 @@ Si desea revertir un cierre de fin de año anterior del ejercicio seleccionado, 
 
 El proceso de cierre de fin de año se realiza de forma predeterminada en el modo de lotes. Lo mejor es realizar el proceso en el modo de lotes para permitir volver a otras actividades. Una vez finalizado el proceso de cierre, la **Fecha de último cierre de fin de año** se actualizará a la fecha de la sesión.
 
-Para obtener más información, consulte [Cerrar la contabilidad general al final del período](close-general-ledger-at-period-end.md).
+Para obtener más información, consulte [Cerrar la contabilidad general al final del período](close-general-ledger-at-period-end.md) y [Cerrar el año fiscal](tasks/close-fiscal-year.md).
 
 
 

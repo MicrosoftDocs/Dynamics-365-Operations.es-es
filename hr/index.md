@@ -15,14 +15,13 @@ ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: ed80e59579c2356cc3c1e0f13b33026284867a2c
 ms.contentlocale: es-es
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -51,17 +50,20 @@ Puede usar Talent para completar estas tareas:
 
 Durante el trabajo con Talent, decidirá cómo estructurar su organización utilizando elementos como departamentos, trabajos y puestos. Estos son los elementos fundamentales que configurará. Se asignan empleados individuales a puestos asociados a trabajos.
 
--   [Organización de los recursos mediante departamentos, trabajos y puestos](departments-jobs-positions.md)
--   [Configuración de parámetros de recursos humanos específicos de la empresa](set-up-company-specific-hr-parameters.md)
+-   [Organizar los recursos mediante departamentos, trabajos y puestos](departments-jobs-positions.md)
+-   [Configurar parámetros de recursos humanos específicos de la empresa](set-up-company-specific-hr-parameters.md)
 -   [Configurar parámetros de recursos humanos en entidades jurídicas](set-up-hr-parameters-across-legal-entities.md) 
+-   [Preguntas más frecuentes sobre acciones del personal](personnel-actions-faq.md)
+-   [Visión general de bajas y ausencias](leave-absence-overview.md)
 
 ## <a name="retain-and-motivate-employees"></a>Conservar y motivar a los empleados
 
 Puede configurar planes para administrar la compensación de forma eficaz y equitativa, así como para administrar artículos, como ordenadores o teléfonos, que la organización presta a sus empleados. Puede crear planes de compensación fija y variable, así como definir reglas que apliquen el plan de compensación para satisfacer los criterios de dicho plan.
 
 -   [Planes de compensación](compensation-plans.md)
--   [Actualizar planes de compensación fija](create-fixed-compensation-plans.md)
--   [Cree planes de compensación variable](create-variable-compensation-plans.md)
+-   [Procesar compensaciones](process-compensation.md)
+-   [Crear planes de compensación fija](create-fixed-compensation-plans.md)
+-   [Crear planes de compensación variable](create-variable-compensation-plans.md)
 
 ## <a name="develop-and-train-employees"></a>Desarrollar y formar a empleados
 

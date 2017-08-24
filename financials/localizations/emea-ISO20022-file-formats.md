@@ -3,7 +3,7 @@ title: "Importación de archivos ISO20022"
 description: "Este tema explica cómo importar archivos de pago de formatos camt.054 y pain.002 ISO 20022 a Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: neserovleo
 manager: AnnBe
-ms.date: 05/25/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -13,13 +13,13 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Latvia, Lithuania, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom
 ms.author: v-lenest
-ms.search.validFrom: 2017-06-01T00:00:00.000Z
+ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: Enterprise edition, July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 48e280bf0a6c5db237bd389fe448c9d698d3ae12
-ms.openlocfilehash: acf6ed5f503d77f372d802a51a71cec062c2b24b
+ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
+ms.openlocfilehash: 90e21bb939bd96a3420decb5f9bc07c017c3e946
 ms.contentlocale: es-es
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 07/31/2017
 
 ---
 
@@ -105,4 +105,29 @@ Si está importando el archivo camt.054, especifique los parámetros adicionales
 - **Liquidar transacciones** Establezca esta opción en **Sí** si los pagos importados de proveedor se deben liquidar con las facturas que se encuentran en el sistema.
 
 Puede ver la información importada en la página **Transferencias de pago**. 
+
+## <a name="additional-details"></a>Más detalles
+
+Al importar una configuración del formato de LCS, se importa el árbol entero de la configuración, lo que significa que las configuraciones Modelo y asignaciones Modelo se incluyen. En el modelo de pago a partir de la versión 8, las asignaciones están ubicadas en distintas configuraciones de ER en la solución de árbol (asignación modelo 1611 de pago, asignación modelo al destino ISO20022 de pago, etc.). Hay muchos diversos formatos de pago en un modelo (modelo de pago), por lo que el administrar las asignaciones por separado es una clave para el mantenimiento fácil de la solución. Por ejemplo, considere este escenario: utiliza los pagos ISO20022 para generar archivos de transferencia de crédito y a continuación se importan los mensajes de respuesta del banco. En este escenario, debe utilizar las siguientes configuraciones:
+
+ - **Modelo de pago**
+ - **Asignaciones modelo 1611 de pago** esta asignación se usará para generar el archivo de exportación
+ - **Asignación modelo al destino ISO20022 de pago** esta configuración incluye todas las asignaciones que se usarán para importar los datos (“al destino" dirección de asignación)
+ - **Transferencia de crédito ISO20022** esta configuración incluye un componente de formato que es responsable de la generación del archivo de exportación (pain.001) en función de la asignación modelo 1611 de pago, así como un formato para modelar el componente de la asignación que se usará junto con la asignación modelo al destino ISO20022 de pago para registrar pagos exportados en el sistema para futuros propósitos más de importación (la importación en la tabla técnica de CustVendProcessedPayments)
+ - **Transferencia de crédito ISO20022 (CE)**, dondel CE corresponde a la extensión del país – formato derivado a la transferencia de crédito ISO20022 con la misma estructura y con determinadas diferencias específicas del país
+ - **Pain.002** este formato se usará junto con la asignación modelo de pago al destino ISO20022 para importar el archivo pain.002 en el diario de transferencias de los pagos de proveedor
+ - **Camt.054** este formato se usará junto con la asignación modelo de pago al destino ISO20022 para importar el archivo Camt.054 en el diario de transferencias de los pagos de proveedor La misma configuración del formato se usará en la funcionalidad de importación de los pagos de clientes, pero la asignación diferente se usará en la asignación modelo de pago al destino ISO20022.
+
+Para obtener más información acerca de las informes electrónicos, consulte [Información general de informes electrónicos](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+
+## <a name="additional-resources"></a>Recursos adicionales
+- [Creación y exportación de pagos de proveedor mediante el formato de pago de ISO20022](./tasks/create-export-vendor-payments-iso20022-payment-format.md)
+- [Importación de la configuración de transferencia de crédito ISO20022](./tasks/import-iso20022-credit-transfer-configuration.md)
+- [Importación de la configuración de domiciliación bancaria ISO20022](./tasks/import-iso20022-direct-debit-configuration.md)
+- [Configurar cuentas bancarias de la empresa para transferencias de crédito ISO20022](./tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md)
+- [Configurar cuentas bancarias de empresa para débitos directos ISO20022](./tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)
+- [Configuración de clientes y cuentas bancarias de cliente para domiciliaciones bancarias ISO20022](./tasks/set-up-bank-accounts-iso20022-direct-debits.md)
+- [Configuración forma de pago para transferencias de crédito ISO20022](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
+- [Configuración de la forma de pago para domiciliaciones bancarias ISO20022](./tasks/setup-method-payment-iso20022-direct-debit.md)
+- [Configurar proveedores y cuentas bancarias de los proveedores para las transferencias de crédito ISO20022](./tasks/set-up-vendor-iso20022-credit-transfers.md)
 

@@ -1,9 +1,9 @@
 ---
 title: Personalizar la experiencia del usuario
-description: "Este artículo explica cómo puede personalizar Microsoft Dynamics 365 for Finance and Operations."
+description: "Este tema explica cómo puede personalizar Microsoft Dynamics 365 for Finance and Operations."
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
 ms.author: tlefor
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b338a930777a5945eb6318dc8066fb3649c79dbe
+ms.translationtype: HT
+ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 
@@ -31,28 +31,28 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo explica cómo puede personalizar Microsoft Dynamics 365 for Finance and Operations.
+Este tema explica cómo puede personalizar Microsoft Dynamics 365 for Finance and Operations.
 
-Hay muchos tipos de personalizaciones en Microsoft Dynamics 365 for Finance and Operations. Algunas personalizaciones son las selecciones realizadas en una lista de opciones en una página de configuración. Algunas personalizaciones están predeterminadas, por ejemplo, Finance and Operations no pierde de vista las anchuras de las columnas de cuadrícula si las ajusta, y el estado de expandido/contraído de las Fichas desplegables. Otras personalizaciones son explícitas. Para las personalizaciones explícitas, tiene que especificar un modo interactivo de personalización y modificar el aspecto de una página gestionando directamente la forma en que los elementos aparecen o se comportan en la página. 
+Hay muchos tipos de personalizaciones en Microsoft Dynamics 365 for Finance and Operations. Algunas personalizaciones son las selecciones realizadas en una lista de opciones en una página de configuración. Algunas personalizaciones están predeterminadas, por ejemplo, Finance and Operations mantiene el ancho de las columnas de cuadrícula si las ajusta, y el estado de expandido/contraído de las Fichas desplegables. Otras personalizaciones son explícitas. Para las personalizaciones explícitas, tiene que especificar un modo interactivo de personalización y modificar el aspecto de una página gestionando directamente la forma en que los elementos aparecen o se comportan en la página. 
 
 Todas las personalizaciones, de cualquier tipo, que un usuario haga en Finance and Operations son solo para dicho usuario, independientemente de la empresa con la que el usuario interactúa. Los cambios que un usuario hace a una página no afecta a otros usuarios en el sistema.
 
 ## <a name="systemwide-options-for-the-current-user"></a>Opciones de sistema válidas para el usuario actual
-En la barra de exploración se encontrará una imagen de engranaje que es el botón de menú **Configuración**. Al abrir el menú **Configuración** se mostrarán varias opciones. La selección de **Opciones** abrirá la página **Opciones** del usuario. Allí encontrará cuatro pestañas de opción: **Visual****Preferencias****Cuenta** y **Flujo de trabajo**.
+En la barra de exploración se encontrará una imagen de engranaje que es el botón de menú **Configuración**. Al abrir el menú **Configuración** se mostrarán varias opciones. La selección de **Opciones** abrirá la página **Opciones** del usuario. Allí encontrará cuatro pestañas de opción: 
 
--   **Visual:** para elegir un tema de color y el tamaño predeterminado de los elementos en las páginas.
--   **Preferencias:** aquí puede elegir los valores predeterminados para cada vez que abra Finance and Operations, incluida la empresa, página de inicio y modo de vista o edición predeterminados (que determina si una página está bloqueada para su visualización o se abre para editar cada vez que la abre). También encontrará idioma, zona horaria y las opciones de formato de fecha, hora y número. Por último, esta página contiene varias preferencias distintas que varían según el lanzamiento.
--   **Cuenta:** para proporcionar el id. de usuario y otras opciones relacionadas con la cuenta.
--   **Flujo de trabajo:** aquí puede elegir opciones relacionadas con el flujo de trabajo.
+-   **Visual:** - Uee para elegir color de tema y el tamaño predeterminado de los elementos en las páginas.
+-   **Preferencias:** - Aquí puede elegir los valores predeterminados para cada vez que abra Finance and Operations, incluida la empresa, página de inicio y modo de vista o edición predeterminados (que determina si una página está bloqueada para su visualización o se abre para editar cada vez que la abre). También encontrará idioma, zona horaria y las opciones de formato de fecha, hora y número. Por último, esta página contiene varias preferencias distintas que varían según el lanzamiento.
+-   **Cuenta:** - Use para proporcionar el id. de usuario y otras opciones relacionadas con la cuenta.
+-   **Flujo de trabajo:**- Aquí puede elegir opciones relacionadas con el flujo de trabajo.
 
 ## <a name="implicit-personalizations"></a>Personalizaciones implícitas
 Las personalizaciones implícitas son las personalizaciones que realiza simplemente interactuando con determinados controles que recuerden su estado visible actual. 
 
-**Columnas de cuadrícula:** puede ajustar la anchura de una columna en una lista seleccionando la barra de tamaño a la izquierda o la derecha del encabezado de la columna y desplazándola hacia la izquierda o hacia la derecha hasta la anchura deseada. Finance and Operations almacenará la anchura que se le gustaría y mostrará esa columna con esa anchura cada vez que se abra la página con esa lista. 
+**Columnas de cuadrícula:** - Puede ajustar el ancho de una columna en una lista seleccionando la barra de tamaño a la izquierda o la derecha del encabezado de la columna y desplazándola hacia la izquierda o hacia la derecha hasta la anchura deseada. Finance and Operations almacenará la anchura que se le gustaría y mostrará esa columna con esa anchura cada vez que se abra la página con esa lista. 
 
-**Fichas Desplegables:** algunas páginas tienen secciones extensibles llamadas Fichas Desplegables. Finance and Operations guardará las Fichas Desplegables que ha expandido y las que ha contraído. Cada vez que vuelve a la página, esas mismas Fichas Desplegables se ampliarán o se contraerán según como las usó la última vez. En este artículo, explicaremos cómo cambiar el orden de las secciones de la ficah desplegable. En algunos casos, contraer una ficha Desplegable puede mejorar el rendimiento porque Finance and Operations no necesitará recuperar información para dicha ficha Desplegable hasta que se extienda la ficha Desplegable. 
+**Fichas Desplegables:** - Algunas páginas tienen secciones extensibles llamadas Fichas Desplegables. Finance and Operations guardará las Fichas Desplegables que ha expandido y las que ha contraído. Cada vez que vuelve a la página, esas mismas Fichas Desplegables se ampliarán o se contraerán según como las usó la última vez. En este artículo, explicaremos cómo cambiar el orden de las secciones de la ficah desplegable. En algunos casos, contraer una ficha Desplegable puede mejorar el rendimiento porque Finance and Operations no necesitará recuperar información para dicha ficha Desplegable hasta que se extienda la ficha Desplegable. 
 
-**Cuadros informativos:** algunas páginas tienen una sección llamada panel de cuadro informativo. Este panel contiene información solo de lectura relacionada con el tema actual de la página. Cada sección en el panel del cuadro informativo se denomina cuadro informativo. Puede expandir o contraer un cuadro informativo y Finance and Operations guardará su preferencia. En algunos casos, contraer un cuadro informativo puede mejorar el rendimiento porque Finance and Operations no necesitará recuperar la información para ese cuadro informativo hasta que se expanda el cuadro informativo.
+**Cuadros informativos:** - Algunas páginas tienen una sección llamada panel de cuadro informativo. Este panel contiene información solo de lectura relacionada con el tema actual de la página. Cada sección en el panel del cuadro informativo se denomina cuadro informativo. Puede expandir o contraer un cuadro informativo y Finance and Operations guardará su preferencia. En algunos casos, contraer un cuadro informativo puede mejorar el rendimiento porque Finance and Operations no necesitará recuperar la información para ese cuadro informativo hasta que se expanda el cuadro informativo.
 
 ## <a name="explicit-personalizations-using-the-personalization-toolbar"></a>Personalizaciones explícitas que usan la barra de herramientas de personalización
 Cada persona y empresa tiene una perspectiva distinta sobre qué datos son los más importantes para ellos o qué datos no son necesarios para llevar su negocio. La capacidad de adaptar la manera en que se pide su información, se interactúa con ella o se oculta es esencial para que Finance and Operations se convierta en una experiencia personal y productiva. 
@@ -107,15 +107,20 @@ Algunos espacios de trabajo contienen los mosaicos de la cuenta (mosaicos con n�
 El panel de información suele ser la primera página que verá al abrir Finance and Operations. Puede personalizar el panel de información para cambiar sus mosaicos de navegación del espacio de trabajo, para mostrar solo los mosaicos que desea ver, para cambiar de nombre a los mosaicos o para organizar los mosaicos en el orden en que se preferiría verlos. Para personalizar el panel de información, seleccione cualquier mosaico y haga clic con el botón secundario para abrir un menú contextual. En el menú de contexto, seleccione **Personalizar**. Si el mosaico seleccionado es uno que desea ocultar, renombrar o saltarse, puede realizar ese cambio directamente en la ventana de la propiedad que ha aparecido. Si desea organizar los mosaicos, seleccione **Personalizar este formulario** en la ventana de propiedad para abrir la barra de herramientas de la personalización. Puede usar la herramienta de movimientos para organizar los mosaicos.
 
 ## <a name="administration-of-personalization"></a>Administración de la personalización
-Tras personalizar una página, puede compartir sus personalizaciones con otros usuarios del usuario. Basta exportar la página personalizada. A continuación puede pedir que los demás usuarios naveguen a la página personalizada e importen el archivo de personalización que ha creado.
+Tras personalizar una página, puede compartir sus personalizaciones con otros usuarios exportando la página personalizada. A continuación puede pedir que los demás usuarios naveguen a la página personalizada e importen el archivo de personalización que ha creado.
 
-Los usuarios con privilegios de administración también pueden gestionar las personalizaciones para otros usuarios en la página **Personalización**. Esta página tiene cuatro fichas: **Sistema**, **Usuarios**, **Importación** y **Borrar**.
+Los usuarios con privilegios de administración también pueden gestionar las personalizaciones para otros usuarios en la página **Personalización**. Esta página tiene cuatro fichas: 
 
 - **Sistema:** – Puede desactivar temporalmente o deshabilitar todas las personalizaciones en el sistema. En este caso, no elimina personalizaciones. En su lugar, acaba de restablecer todas las páginas a su estado predeterminado. Si vuelve a habilitar más tarde la personalización, todas las personalizaciones se aplican de nuevo a todas las páginas de los usuarios. También puede eliminar todas las personalizaciones de todos los usuarios. Tenga en cuenta que si elimina personalizaciones, no hay manera de volver a habilitar automáticamente personalizaciones del sistema. Por lo tanto, antes de realizar este paso, asegúrese de haber exportado todas las personalizaciones que pueda querer importar más tarde.
 - **Usuarios**: puede especificar si cada usuario puede hacer personalización implícita o personalización explícita. También puede especificar si cada usuario puede realizar la personalización implícita o explícita en una página específica. Por último, puede importar, exportar o eliminar una personalización para cada usuario.
 - **Importación**: puede importar una personalización para uno o varios usuarios. Use esta ficha cuando haya creado una personalización en una página o un espacio de trabajo y, a continuación, exportado dicha personalización como archivo de personalización. Para importar su archivo de personalización y aplicarlo a uno o varios usuarios, seleccione los usuarios individuales en la lista de todos los usuarios, o filtre un rol específico y después seleccione usuarios en dicho rol. Una vez que haya seleccionado a los usuarios que utilizarán su personalización, haga click en **Importar** y seleccione el archivo de personalización. La personalización se validará y aplicará a todos los usuarios seleccionado la próxima vez que abra la página seleccionada.
 - **Borrar**: puede borrar las personalizaciones de la página o del espacio de trabajo para uno o varios usuarios. En primer lugar, seleccione la página o el espacio de trabajo del que borrar las personalizaciones. A continuación, seleccione usuarios individuales en la lista de todos los usuarios, o filtre un rol específico y después seleccione usuarios en dicho rol. Una vez haya seleccionado una página o espacio de trabajo y los usuarios, haga clic en **Borrar**. Se borran todas las personalizaciones que los usuarios seleccionados han aplicado a la página o al espacio de trabajo seleccionado. Esta acción no se puede deshacer. Sin embargo, si la página o el espacio de trabajo tiene una personalización guardada, esa personalización se puede reimportar.
 
+## <a name="personalization-of-inventory-dimensions"></a>Personalización de dimensiones de inventario
 
+Al personalizar la configuración de dimensiones de inventario en una página, tenga en cuenta los valores que se han creado usando la opción **Dimensión de visualización**. Por ejemplo, si usa la personalización para ocultar una columna para la dimensión de inventario de número de lote y aparece la columna la siguiente vez que abre la página, podría ser porque los ajustes de visualización de la dimensión controlan qué columnas de la dimensión de inventario se muestran. 
 
+Los ajustes de visualización de la dimensión se aplican a todas las páginas y estos valores anulan cualquier configuración personalizada de campos de dimensión de inventario en las páginas individuales. 
+
+Para el ejemplo con la dimensión de inventario de número de lote, esta dimensión tendría estar desactivada como parte de la opción de **Dimensiones de visualización** para que la tabla no muestre esta columna. Este cambio aplicaría finalmente no sólo a una página determinada, sino en todas las páginas.
 

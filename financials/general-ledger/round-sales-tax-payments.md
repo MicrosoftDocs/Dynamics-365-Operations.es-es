@@ -3,7 +3,7 @@ title: Pagos de impuestos y reglas de redondeo
 description: "En este artículo se explica cómo funciona la configuración de la regla de redondeo en las autoridades fiscales y el redondeo del saldo de impuestos durante el trabajo Liquidar y registrar impuestos."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7ec117598a6a008e5b274179659b515824029874
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 8de01b77fcbeb65321e60614b6a11d264460208f
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -65,8 +64,11 @@ La siguiente tabla muestra cómo el monto 98.765,43 se redondea mediante cada un
 > [!NOTE]                                                                                  
 > Si selecciona Ventaja propia, el redondeo siempre se realizará a favor de la entidad jurídica. 
 
-Para obtener más información, consulte [Visión general de impuestos](indirect-taxes-overview.md). 
-
+Para obtener más información, consulte los siguientes temas:
+- [Visión general de impuestos](indirect-taxes-overview.md)
+- [Crear un pago de impuestos](tasks/create-sales-tax-payment.md)
+- [Crear transacciones de impuestos en documentos](tasks/create-sales-tax-transactions-documents.md)
+- [Ver transacciones de impuestos registradas](tasks/view-posted-sales-tax-transactions.md)
 
 
 

@@ -15,13 +15,13 @@ ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: 0484723217ccff2ebf717d059429d863ececb797
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -37,7 +37,7 @@ Los clientes pueden devolver artículos por varios motivos. Por ejemplo, un art�
 ## <a name="return-order-process"></a>Proceso de pedido de devolución
 La ilustración siguiente muestra una visión general del proceso de devolución de pedidos.  
 
-[![salesreturns01](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
+[![Proceso de pedido de devolución](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
 
 Existen dos tipos de proceso del pedido de devolución: devolución y comprobar crédito solo.
 
@@ -213,7 +213,7 @@ Existen dos métodos para gestionar la sustitución del producto:
 
 En la sustitución creada anteriormente, el artículo de sustitución se puede entregar al cliente antes de que se devuelva el artículo. Este método resulta útil si, por ejemplo, el artículo es parte de una máquina que no se puede quitar a menos que un recambio esté disponible para tomar su lugar o bien si solo desea que su cliente tenga el artículo de sustitución lo más rápidamente posible. El pedido de sustitución creado anteriormente es un pedido de ventas independiente. La información del encabezado se inicializa desde el cliente, y información de línea se inicializa desde el pedido de devolución. Puede editar, procesar, y eliminar el pedido de sustitución independientemente del pedido de devolución. Al eliminar un pedido de sustitución, recibirá un mensaje indicando la creación del pedido como un pedido de sustitución. La ilustración siguiente muestra el proceso para la sustitución creada anteriormente.  
 
-[![Proceso de sustitución creada anteriormente](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)  
+![Proceso de sustitución creado anteriormente](./media/SalesReturn04.png)
 
 El pedido de devolución incluye una referencia al pedido de sustitución. Si un pedido de sustitución creado anteriormente se crea para un pedido de devolución antes de que se devuelva el artículo defectuoso, no puede seleccionar los códigos de disposición para la sustitución después de que se haya devuelto el artículo defectuoso.
 
@@ -221,7 +221,7 @@ El pedido de devolución incluye una referencia al pedido de sustitución. Si un
 
 Si envía un artículo de sustitución al cliente y utiliza la acción de disposición **Reemplazar y cancelar** o **Reemplazar y abonar** en el pedido de devolución, use el proceso que se muestra en la siguiente ilustración.  
 
-[![Proceso de sustitución cuando se usa un código de disposición](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)  
+![Proceso de sustitución cuando se usa un código de disposición](./media/SalesReturn05.png)
 
 El artículo de sustitución se entregará mediante un pedido de ventas independiente, el pedido de ventas de sustitución. Se crea este pedido de ventas cuando se genera el albarán para el pedido de devolución. El encabezado del pedido utiliza información del cliente a la que se hace referencia en el encabezado del pedido de devolución. La información de línea se obtiene de la información que se especifica en la página **Artículo de sustitución**. La página **Artículo de sustitución** se debe completar para las líneas con acciones de disposición que comienzan por la palabra “sustitución". Sin embargo, ni la cantidad ni la identidad del artículo de sustitución se valida o limita. Este comportamiento permite casos en los que el cliente desea recibir el mismo artículo, pero en una configuración o tamaño diferentes y también los casos en los que los clientes desean un artículo completamente diferente. De forma predeterminada, los artículos idénticos se especifican en la página **Artículo de sustitución**. Sin embargo, puede seleccionar un artículo diferente, siempre que la función se haya configurado. **Nota:** Puede editar y eliminar el pedido de ventas de sustitución después de que se haya creado.
 
@@ -254,7 +254,7 @@ Los pedidos de devolución se pueden completar entre dos empresas de la organiza
 
 La ilustración siguiente muestra la configuración mínima que se requiere para que dos empresas participen en una relación de empresas vinculadas y aprovechen el comercio entre empresas vinculadas.  
 
-[![Configuración mínima](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)  
+![Configuración mínima](./media/SalesReturn06.png)
 
 En el escenario siguiente, CompBuy es la empresa compradora y CompSell es la empresa vendedora. Normalmente, la empresa vendedora envía los artículos a la empresa compradora o, en escenarios de envíos de entrega directos, directamente al cliente final. En CompBuy, se ha definido el proveedor IC\_CompSell como un extremo de empresas vinculadas que está asociado a la empresa CompSell. Al mismo tiempo, en CompSell, se ha definido el cliente IC\_CompBuy como un extremo de empresas vinculadas que está asociado a la empresa CompBuy. Los detalles de políticas de acción apropiados y las asignaciones de valores deben definirse en ambas empresas. En un escenario de envío de la entrega directa, un pedido de devolución de empresas vinculadas, que es también un pedido de ventas de empresas vinculadas, se crea en la empresa vendedora. El número RMA del pedido de devolución de empresas vinculadas se puede escoger a partir de la secuencia del número RMA en CompSell o se puede copiar del número RMA asignado al pedido de devolución original en CompBuy. Los valores de número RMA la directiva de acciones **PurchaseRequisition** de CompBuy determinan estas acciones. Si se sincroniza el número RMA, debe planificar mitigar el riesgo de conflictos de números si las dos empresas usan la misma secuencia numérica.
 
@@ -262,7 +262,7 @@ En el escenario siguiente, CompBuy es la empresa compradora y CompSell es la emp
 
 Esta situación implica a dos empresas de la misma organización, como se muestra en la siguiente ilustración.  
 
-[![Devolución de empresas vinculadas simples](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
+![Devolución de empresas vinculadas simple](./media/SalesReturn07.png)
 
 La cadena de pedidos puede establecerse cuando se crea un pedido de devolución de un proveedor en la empresa compradora o un pedido de devolución del cliente en la empresa vendedora. Finance and Operations crea el pedido correspondiente en la otra empresa y garantiza que el encabezado y la información de línea en el pedido de devolución del proveedor reflejan los valores en el pedido de la devolución del cliente. El pedido de devolución que se establece puede incluir o excluir la referencia (**Buscar pedido de ventas**) a una factura de cliente existente. Los albaranes y las facturas de los dos pedidos se pueden procesar individualmente. Por ejemplo, no es necesario generar un albarán para el pedido de devolución del proveedor antes de generar el albarán para el pedido de devolución de cliente.
 
@@ -270,7 +270,7 @@ La cadena de pedidos puede establecerse cuando se crea un pedido de devolución 
 
 Este escenario se puede establecer si una venta anterior del tipo **Entrega directa** se ha completado y si una factura con el cliente existe en la empresa que interactúa con el cliente. En la siguiente ilustración, la empresa CompBuy ha vendido y facturado anteriormente los productos al cliente Extern. Los productos se enviaron directamente desde la empresa CompSell al cliente mediante una cadena de pedidos de empresas vinculadas.  
 
-[![Devoluciones de envío de entrega directo entre tres partes](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)  
+![Devoluciones de envío directo de entrega entre tres partes](./media/SalesReturn08.png)
 
 Si el cliente Extern desea devolver los productos, se crea un pedido de devolución (RMA02) para el cliente de la empresa CompBuy. Para establecer la cadena de empresas vinculadas, el pedido de devolución se debe marcar para entrega directa. Cuando usa la función **Buscar pedidos de ventas** para seleccionar la factura de cliente a devolver, se establece una cadena de pedidos de empresas vinculadas que consta de los siguientes documentos:
 
@@ -292,7 +292,7 @@ En los ejemplos siguientes, el precio de coste de devolución se representa como
 
 El pedido de devolución no hace referencia una factura de cliente. Se abona el artículo devuelto. El parámetro **Corrección de abono** no se selecciona cuando se genera la factura del pedido de devolución, o la nota de abono.  
 
-[![Pedido de devolución no hace referencia una factura de cliente](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)  
+![Pedido de devolución no hace referencia a una factura del cliente](./media/SalesReturn09.png)  
 
 **Nota:** el precio del artículo maestro se usa como el valor predeterminado para el parámetro **Precio de coste de la devolución**. El precio predeterminado difiere del precio de coste en el momento de la emisión de inventario. Por lo tanto, la implicación que se ha incurrido en una pérdida de 3. Además, el pedido de devolución no incluye el descuento que se ha concedido al cliente en el pedido de ventas. Por lo tanto, aparece un crédito excesivo.
 
@@ -300,7 +300,7 @@ El pedido de devolución no hace referencia una factura de cliente. Se abona el 
 
 El ejemplo 2 es lo mismo que el ejemplo 1, se selecciona el parámetro **Corrección de crédito** cuando se genera la factura del pedido de devolución.  
 
-[![Pedido de devolución donde se selecciona la corrección del crédito ](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)  
+![Pedido de devolución donde se selecciona la corrección del crédito ](./media/SalesReturn10.png)  
 
 **Nota:** Los registros contables se especifican como correcciones negativas.
 
@@ -308,7 +308,7 @@ El ejemplo 2 es lo mismo que el ejemplo 1, se selecciona el parámetro **Correcc
 
 En este ejemplo, la línea de pedido de devolución se crea mediante la función **Buscar pedido de ventas**. El parámetro **Corrección de crédito** no se activa cuando se crea la factura.  
 
-[![Línea de pedido de devolución que se crea mediante Buscar pedido de ventas ](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)  
+![Línea de pedido de devolución que se crea mediante Buscar pedido de ventas ](./media/SalesReturn11.png)  
 
 **Nota:** **Descuento** y **Precio de coste de la devolución** se han configurado correctamente. Por lo tanto, se produce una inversión exacta de la factura de cliente.
 

@@ -1,9 +1,9 @@
 ---
 title: "Configurar Clientes y créditos y cobros"
 description: "Configure Clientes y Crédito y cobros para controlar todas las facturas y los pagos entrantes de clientes."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24631
 ms.assetid: 8c1fc7c5-b461-41ed-b102-2648cc58eb0b
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74556e571c215b0fea8deb061fd968c240b063d4
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 1d37014e8f7b333a15077fc3477808a3ad62b96f
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -66,13 +65,13 @@ En la tabla siguiente se muestran las páginas que admiten la configuración y e
 |                                                      | Divisas                           | Permite crear y ver las divisas que usa su organización.                                                                                                                                                                                                                       |
 |                                                      | Tipos de cambio de divisa              | Permite crear y mantener los tipos de cambio correspondientes entre la divisa de contabilidad y otras divisas.                                                                                                                                                                              |
 |                                                      | Contabilidad de empresas vinculadas              | Permite crear una lista de cuentas en las que la entidad jurídica actual puede registrar. Deberá configurar cuentas de débito y crédito, así como el diario que recibirá las transacciones en la otra entidad jurídica.                                                                             |
-|                                                      | Métodos de pago: cliente        | Permite crear y actualizar información acerca de formas de pago para clientes.                                                                                                                                                                                                           |
+|                                                      | Métodos de pago: cliente        | Permite crear y actualizar información acerca de formas de pago para clientes. Para obtener más información, consulte [Establecer métodos de pago del cliente](tasks/establish-customer-method-payment.md).                                                                                             |
 |                                                      | Jerarquías organizativas             | Permite configurar una jerarquía organizativa para pagos centralizados.                                                                                                                                                                                                                        |
 |                                                      | Fines de la jerarquía organizativa      | Permite especificar un propósito para los pagos centralizados.                                                                                                                                                                                                                                       |
 |                                                      | Días de pago                         | Permite definir los días de pago que se usan para calcular fechas de vencimiento para pagos que se recibirán de clientes o que se efectuarán a proveedores.                                                                                                                                                |
-|                                                      | Cuota de pago                          | Permite crear y mantener cuotas de pago relacionadas con clientes, como las cuotas de las letras de cambio.                                                                                                                                                                               |
-|                                                      | Configuración de cuota de pago                    | Permite configurar las cuotas de pago para diferentes combinaciones de bancos, formas de pago, tipos de envío, especificaciones de pago, divisas e intervalos de fechas.                                                                                                                              |
-|                                                      | Multivencimientos                    | Permite crear multivencimientos que se pueden usar para programar pagos a plazos de clientes y a proveedores.                                                                                                                                                                       |
+|                                                      | Cuota de pago                          | Permite crear y mantener cuotas de pago relacionadas con clientes, como las cuotas de las letras de cambio.                                                                                                                                                                         |
+|                                                      | Configuración de cuota de pago                    | Permite configurar las cuotas de pago para diferentes combinaciones de bancos, formas de pago, tipos de envío, especificaciones de pago, divisas e intervalos de fechas.  Para obtener más información, consulte [Establecer tarifas de pago del cliente](tasks/establish-customer-payment-fees.md).                                                                                   |
+|                                                      | Multivencimientos.                    | Permite crear multivencimientos que se pueden usar para programar pagos a plazos de clientes y a proveedores.                                                                                                                                                                       |
 |                                                      | Especificación del pago                | Permite crear y ver los códigos de especificación de pago para la forma de pago seleccionada en la página Formas de pago. Defina los códigos de especificación de pago según el acuerdo con el banco que haya especificado para la forma de pago seleccionada.                    |
 |                                                      | Texto de la transacción                     | Permite crear texto de transacción para registros automáticos en la contabilidad general. Puede configurar los textos de la transacción en varios idiomas.                                                                                                                                                           |
 |                                                      | Conversiones                         | Permite crear texto en otro idioma. Puede traducir todos los textos para uso externo (como los términos de pago, los términos de entrega y los modos de entrega) en uno o más idiomas.                                                                                                    |
@@ -83,7 +82,7 @@ En la tabla siguiente se muestran las páginas que admiten la configuración y e
 |                                                      | Métodos de pago: cliente        | Permite crear y actualizar información acerca de formas de pago para clientes.                                                                                                                                                                                                           |
 |                                                      | Firma                            | Permite agregar, modificar o eliminar archivos de imágenes de firmas, como los archivos .bmp, .jpg o .gif. Los archivos de imagen de firma se imprimen en los cheques como firmas oficiales de la entidad jurídica.                                                                                                             |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
-| Configuración de estadísticas de Clientes           | Definiciones de período de vencimiento             | Permite configurar y gestionar definiciones de períodos de vencimiento realizadas por el usuario, que se usan para analizar el vencimiento de las cuentas de cliente y de proveedor, en función de una fecha especificada.                                                                                                         |
+| Configuración de estadísticas de Clientes           | Definiciones de período de vencimiento             | Permite configurar y gestionar definiciones de períodos de vencimiento realizadas por el usuario, que se usan para analizar el vencimiento de las cuentas de cliente y de proveedor, en función de una fecha especificada. Para obtener más información, consulte [Configurar y generar la información de vencimiento de los clientes](tasks/set-up-accounts-receivable-aging-information.md).                                                           |
 |                                                      | Estadísticas comerciales                  | Permite configurar consultas de estadísticas comerciales que le pueden ayudar a analizar el rendimiento de la organización.                                                                                                                                                                              |
 |                                                      | Datos de estadísticas comerciales             | Muestra los datos de una estadística comercial seleccionada, en formato de cuadrícula.                                                                                                                                                                                                                     |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |

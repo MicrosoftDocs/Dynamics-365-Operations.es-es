@@ -1,9 +1,9 @@
 ---
 title: "Aprobaciones de factura móvil"
 description: "Este tema está pensando para proporcionar un método práctico de diseñar escenarios móviles en Dynamics 365 for Finance and Operations con las aprobaciones de facturas de proveedores para aplicaciones móviles como un caso de uso."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
-ms.author: sunilg
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 0ca4ebdca1fce3863a50abf19a071af1f1c425e0
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 108a4f4ce366d2efd66fc1ed27ffb6b23ff0e933
 ms.contentlocale: es-es
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -37,7 +37,7 @@ Las capacidades móviles de Microsoft Dynamics 365 for Finance and Operations, E
 
 | Requisito previo                                                                                            | Descripción                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Manual sobre capacidades móviles de lectura previa                                                                                |[Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)                                                                                                  |
+| Manual sobre capacidades móviles de lectura previa                                                                                |[Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | Un entorno que tiene la versión 1611 de Microsoft Dynamics 365 for Operations y la actualización 3 de la plataforma de Microsoft Dynamics for Operations (noviembre de 2016).                   |
 | Instalar revisión KB 3204341.                                                                              | El grabador de tareas puede registrar de forma errónea dos comandos Close para diálogos desplegables incluidos en la actualización 3 de Dynamics 365 for Operations (noviembre de 2016) |
 | Instalar revisión KB 3207800.                                                                              | Esta revisión habilita los datos adjuntos que se verán en el cliente móvil, lo cual se incluye en la actualización 3 de Dynamics 365 for Operation (noviembre de 2016).           |

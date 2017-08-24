@@ -1,9 +1,9 @@
 ---
 title: Crear una factura de cliente
 description: 
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fd89921a97782c4d09807a730ab077809304159f
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 249b1f331d6889d3b9ed2ace2e5db21d7a5d3e46
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,11 +30,20 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-
-
-Una **factura de cliente para un pedido de ventas** es una factura en relación con una venta que una organización da a un cliente. Este tipo de factura de cliente se crea basándose en un pedido de ventas, que incluye líneas de pedido y números de artículo. Los números de artículos se especifican y se registran en el libro mayor. Los asientos de subdiarios contables no están disponibles para facturas de cliente de pedidos de venta. 
+Una **factura de cliente para un pedido de ventas** es una factura en relación con una venta que una organización da a un cliente. Este tipo de factura de cliente se crea basándose en un pedido de ventas, que incluye líneas de pedido y números de artículo. Los números de artículos se especifican y se registran en el libro mayor. Los asientos de subdiarios contables no están disponibles para facturas de cliente de pedidos de venta. Para obtener más información, consulte [Crear facturas de pedido de ventas](tasks/create-sales-order-invoices.md).
 
 Las **facturas de servicios** no están relacionadas con los pedidos de ventas. Contienen líneas de pedido que incluyen cuentas contables, descripciones de texto libre y un importe de ventas que especifica el usuario. No puede especificar un número de artículo en este tipo de factura. Debe indicar la información de impuestos correspondiente. En cada línea de factura, se indica una cuenta principal para la venta, que se puede distribuir a varias cuentas contables si hace clic en **Distribuir importes** en la página **Factura de servicios**. Además, el saldo del cliente se registra en la cuenta de resumen del perfil de contabilización que se usa para la factura de servicios.
+
+Para obtener más información, consulte: 
+
+[Crear una factura de servicio](tasks/create-free-text-invoice.md)
+
+[Crear una plantilla](tasks/create-free-text-invoice-template.md)
+
+[Asignar una plantilla de factura de servicios a un cliente](tasks/assign-free-text-invoice-template-customer.md)
+
+[Generación y registro de facturas de servicios](tasks/post-recurring-free-text-invoices.md)
+
 
 Las **facturas proforma** son facturas que se preparan como estimación de los importes reales de la factura antes de registrar la factura. Puede imprimir una factura proforma para una factura de cliente de un pedido de ventas o de una factura de servicios.
 

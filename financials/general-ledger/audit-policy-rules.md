@@ -3,7 +3,7 @@ title: "Reglas de directivas de auditoría"
 description: "Puede usar directivas de auditoría para evaluar si ciertos informes de gastos, facturas de proveedor y pedidos de compra para asegurarse de que cumplan las reglas de directivas que ha creado. Todas las reglas asociadas a una directiva de auditoría se ejecutan en el modo por lotes, de acuerdo con la programación que haya especificado.  Cada regla de directivas pertenece a un tipo de regla de directivas. Sólo puede haber una regla de directivas activa por cada tipo de regla de directivas."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 43d2595a4a80e68ed1c0e5639e5413d732fe6a32
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 68f31f00a30513b7d2f3f36a39eaf1cfe7a219a1
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -100,8 +99,8 @@ Todas las reglas de directivas de una directiva de auditoría concreta comparten
 <a name="see-also"></a>Consulte también
 --------
 
-[Infracciones y casos de directivas de auditoría](audit-policy-violations-cases.md)
-
+[Infracciones de directivas de auditoría y casos](audit-policy-violations-cases.md)
+[Defina directivas de auditoría para los documentos de origen](tasks/define-audit-policies-source-documents.md)
 
 
 

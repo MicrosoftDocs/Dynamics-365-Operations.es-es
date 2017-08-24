@@ -3,7 +3,7 @@ title: "Conciliación de facturas de proveedores"
 description: "La conciliación de facturas de proveedores es el proceso de conciliación de la factura de proveedor, el pedido de compra y la información de recepción de producto."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6d1348ad43f8170f29bfc2f3df8a2ec60f9f8912
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: aa195f6057ae4ea511d661ffb47b1feeed58d2f9
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -192,7 +191,7 @@ Las facturas de proveedor a menudo se basan en los recepciones de producto que r
 -   Especifique importes de factura que no se han incluido en el pedido de compra original, de modo que la información de la factura coincida con la factura recibida del proveedor. Se pueden comparar los gastos varios de pedidos de compra con gastos varios para las facturas. En caso necesario, se pueden agregar gastos a las facturas y asignarlos a líneas de factura.
 -   Vea y apruebe discrepancias de conciliación de precios entre el precio unitario neto de la factura y el precio unitario neto del pedido de compra. Se pueden configurar porcentajes de tolerancia de precios para la entidad jurídica, los proveedores y los artículos. Si el precio de la línea de factura del proveedor no se encuentra dentro de la tolerancia de precios aceptable, se puede guardar la factura hasta que se apruebe para el registro o bien hasta que se reciba una corrección por parte del proveedor.
 
-Para obtener más información, consulte [Directiva de triple conciliación](three-way-matching-policies.md).
+Para obtener más información, consulte [Directivas de triple conciliación](three-way-matching-policies.md) y [Validación de conciliación de facturas de proveedores de instalación](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
 
 
 

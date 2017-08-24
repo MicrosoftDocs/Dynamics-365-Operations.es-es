@@ -1,9 +1,9 @@
 ---
 title: "Plantillas de planificación presupuestaria para Excel"
 description: "Este tema describe cómo crear plantillas de Microsoft Excel que se puedan utilizar con planes presupuestarios."
-author: twheeloc
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
-ms.author: sigitac
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: ryansand
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
+ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: es-es
 ms.lasthandoff: 07/27/2017
 
@@ -38,22 +38,27 @@ Este tema muestra cómo crear plantillas de Excel que se usarán con planes pres
 
 Los documentos de plan presupuestario se pueden ver y editar mediante uno o varios diseños. Cada diseño puede tener una plantilla de documento de plan presupuestario asociada para ver y editar los datos del plan presupuestario en una hoja de cálculo de Excel. En este tema, una plantilla de documento de plan presupuestario se generará empleando una configuración de diseño existente. 
 
-Abra la **Lista de planes presupuestarios** (**Gestión presupuestaria** &gt; **Planes presupuestarios**). Haga clic en **Nuevo** para crear un documento de plan presupuestario. 
+1. Abra la **Lista de planes presupuestarios** (**Gestión presupuestaria** &gt; **Planes presupuestarios**). 
+2. Haga clic en **Nuevo** para crear un documento de plan presupuestario. 
 
-[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+  [![Lista de planes presupuestarios](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
-Emplee la opción de línea **Agregar** para agregar líneas. Haga clic en **Diseños** para ver la configuración del diseño de documento de plan presupuestario. 
+3. Emplee la opción de línea **Agregar** para agregar líneas. Haga clic en **Diseños** para ver la configuración del diseño de documento de plan presupuestario. 
 
-[![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+  [![Agregar planes presupuestarios](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-Puede revisar la configuración de diseño y ajustarla según sea necesario. Vaya a **Plantilla** &gt; **Generar** para crear un archivo de Excel para este diseño. Después de que se cree la plantilla, vaya a **Plantilla** &gt; **Ver** para abrir y revisar la plantilla de documento de plan presupuestario. Puede guardar el archivo de Excel en la unidad local. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
+Puede revisar la configuración de diseño y ajustarla según sea necesario. 
+1. Vaya a **Plantilla** &gt; **Generar** para crear un archivo de Excel para este diseño. 
+2. Después de que se cree la plantilla, vaya a **Plantilla** &gt; **Ver** para abrir y revisar la plantilla de documento de plan presupuestario. Puede guardar el archivo de Excel en la unidad local. 
+
+[![Guardar como](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > El diseño de documento del plan presupuestario no se puede editar después de asociarle una plantilla de Excel. Para modificar el diseño, elimine el archivo de plantilla de Excel asociado y regenérelo. Esto es necesario para mantener sincronizados los campos del diseño y la hoja de cálculo. 
 
 La plantilla de Excel contendrá todos los elementos del diseño de documento de plan presupuestario en los que la columna **Disponible en la hoja de cálculo** se haya definido como Verdadero. Los elementos superpuestos no están permitidos en la plantilla de Excel. Por ejemplo, si el diseño contiene las columnas Solicitud de primer trimestre, Solicitud de segundo trimestre, Solicitud de tercer trimestre y Solicitud de cuarto trimestre y una columna con el total de las solicitudes que representa una suma de las 4 columnas trimestrales, solo las columnas trimestrales o la columna total estarán disponibles para su empleo en la plantilla de Excel. El archivo de Excel no puede actualizar las columnas superpuestas durante la actualización porque los datos de la tabla pueden quedar obsoletos e inexactos.
 
-[![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
+[![Ejemplo ](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
 > Para evitar posibles problemas con la visualización y edición de los datos del plan presupuestario con Excel, el mismo usuario se debe registrar en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition y el conector de datos del complemento de Office para Microsoft Dynamics.
@@ -63,7 +68,7 @@ Para agregar información de encabezado, seleccione la fila superior en el archi
 
 [![bpt5](./media/bpt5-1024x615.png)](./media/bpt5.png) 
 
-En la pestaña **Diseño**,** **haga clic en los campos **Agregar** y seleccione **BudgetPlanHeader** como origen de datos de entidad.
+En la pestaña **Diseño** haga clic en los campos **Agregar** y seleccione **BudgetPlanHeader** como origen de datos de entidad.
 
 [![bpt6](./media/bpt6-1024x615.png)](./media/bpt6.png)
 

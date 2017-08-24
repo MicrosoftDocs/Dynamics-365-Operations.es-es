@@ -18,12 +18,11 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: d80dea89db1fbe270b96063f3818ec3ac95239c8
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 83899969255a9b771fc5e62e66e3c5ffdca0296e
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -105,11 +104,11 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 2.  Seleccione **Entrada de horas** Se muestran las fechas de calendario de la semana actual.
 3.  Para una fecha seleccionada, seleccione **Acciones** &gt; **Nueva entrada**.
 4.  Escriba la cantidad de horas que deben registrarse.
-5.  Seleccione el proyecto de la entrada de horas. Una lista muestra los proyectos que están cargados en su aplicación para su uso sin conexión. Hay 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número. Para obtener más información, consulte [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+5.  Seleccione el proyecto de la entrada de horas. Una lista muestra los proyectos que están cargados en su aplicación para su uso sin conexión. Hay 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número. Para obtener más información, consulte [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 6.  Si el proyecto no está en la lista, seleccione **Buscar**. Busque por su nombre, o cambie a la búsqueda al nombre del proyecto o el cliente.
-7.  Permite seleccionar una categoría. Una lista muestra las categorías que están cargadas en su aplicación para su uso sin conexión. Hay 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número. Para obtener más información, consulte [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+7.  Permite seleccionar una categoría. Una lista muestra las categorías que están cargadas en su aplicación para su uso sin conexión. Hay 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número. Para obtener más información, consulte [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 8.  Si la categoría no está en la lista, seleccione **Buscar**. Busque por categoría o cambie a buscar por nombre de categoría.
-9.  Seleccione una actividad. Una lista muestra las actividades que están cargadas en su aplicación para su uso sin conexión. Hay 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número. Para obtener más información, consulte [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+9.  Seleccione una actividad. Una lista muestra las actividades que están cargadas en su aplicación para su uso sin conexión. Hay 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número. Para obtener más información, consulte [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 10. Si la actividad no está en la lista, seleccione **Buscar**. Busque por número de actividad o cambie a buscar por propósito.
 
 11. Seleccione la propiedad del línea.

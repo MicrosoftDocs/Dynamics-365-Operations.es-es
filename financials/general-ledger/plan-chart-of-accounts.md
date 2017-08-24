@@ -1,9 +1,9 @@
 ---
 title: Planificar su plan de cuentas
 description: "Este artículo proporciona información que le ayudará a planificar el plan de cuenta para su organización."
-author: RobinARH
+author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4c57c4fe8cc66228062f7b64c88efe255657d016
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 424ea5ce12d51d384c86878b7d2199bcd52c40f8
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -45,17 +45,19 @@ Estos son algunos de los factores que se deben tener en cuenta la hora de planif
 -   Los requisitos de informes de la entidad jurídica
 -   El grado de especificación necesario, para las organizaciones externas y para la propia.
 
-Cree el plan de cuentas en la página **Plan de cuentas**. Las cuentas principales se pueden crear desde la página **Plan de cuentas** o la página **Cuentas principales**. Sus cuentas principales no deben usar ninguno de los caracteres especiales que se usan como delimitadores en los planes de cuentas. Si hay un carácter especial igual al delimitador del plan de cuentas, puede haber inestabilidad o puede ser necesario usar siempre búsquedas o elementos emergentes al especificar las combinaciones de las combinaciones y las cuentas. 
+Cree el plan de cuentas en la página **Plan de cuentas**. Las cuentas principales se pueden crear desde la página **Plan de cuentas** o la página **Cuentas principales**. Sus cuentas principales no deben usar ninguno de los caracteres especiales que se usan como delimitadores en los planes de cuentas. Si hay un carácter especial igual al delimitador del plan de cuentas, puede haber inestabilidad o puede ser necesario usar siempre búsquedas o elementos emergentes al especificar las combinaciones de las combinaciones y las cuentas. Para obtener más información, consulte [Crear una cuenta principal](tasks/create-account-structures.md).
+
 
 Conviene vincular cuentas principales a categorías de cuenta principal, de modo que pueda aprovecharse la ventaja de usar los informes financieros predeterminados sin tener que realizar ninguna modificación. Por lo tanto, puede diseñar y mantener más rápida y fácilmente los informes. 
 
-Use la página **Configurar estructuras contables** para crear estructuras contables. Las estructuras contables definen combinaciones válidas. Las combinaciones, junto con las cuentas principales, forman el plan contable. 
+Use la página **Configurar estructuras contables** para crear estructuras contables. Las estructuras contables definen combinaciones válidas. Las combinaciones, junto con las cuentas principales, forman el plan contable.  Para obtener más información, consulte [Crear una estructura contable](tasks/create-main-account.md).
 
 **Anulaciones de entidad jurídica** 
 
 No todas las cuentas principales son válidas para todas las entidades jurídicas, y algunas solo pueden ser relevantes para un período de tiempo específico. En esta situación, puede usarse la sección Anulaciones de entidad jurídica para identificar para qué empresas se debe suspender la cuenta principal, quién es el propietario y el período de tiempo que la dimensión está activa. Las anulaciones en el nivel compartido no pueden ser más restrictivas que las anulaciones en el nivel de entidad jurídica.
 
-Para obtener más información, consulte [Dimensiones financieras](financial-dimensions.md).
+Para obtener más información, consulte los siguientes temas: [Dimensiones financieras](financial-dimensions.md)
+[Crear y asignar las estructuras de regla avanzada](tasks/create-assign-advanced-rule-structures.md)
 
 
 

@@ -1,9 +1,9 @@
 ---
 title: "Configuración de proveedores"
 description: "Este artículo describe las páginas que usa para configurar la funcionalidad básica y opcional para Proveedores en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. También describen los pasos de configuración que debe completar antes de comenzar a configurar Proveedores."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24671
 ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2a61cb86a4f2cfc6d701445c139e22df0db44f8c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 9b29fec7fadbb1ac699f1144f011df1bfd2f511a
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -47,7 +46,7 @@ Para poder configurar los proveedores, debe completar la configuración siguient
 ## <a name="setup-pages-for-accounts-payable"></a>Configurar páginas para proveedores
 
 Utilice las páginas siguientes para configurar la funcionalidad básica de Proveedores para cada entidad jurídica. Las páginas se enumeran en el orden de configuración recomendado. Para simplificar el proceso de configuración, puede crear plantillas a partir de los primeros registros que cree. En una plantilla, normalmente suelen introducirse valores en muchos campos para reflejar las características que la organización desea implantar para un tipo concreto de proveedor.
-1.  En la página de términos de pago, defina las condiciones de pago que va a asignar a los pedidos de ventas, pedidos de compra, clientes y proveedores, que determinan las fechas de vencimiento de las facturas.
+1.  En la página de términos de pago, defina las condiciones de pago que va a asignar a los pedidos de ventas, pedidos de compra, clientes y proveedores, que determinan las fechas de vencimiento de las facturas. Para obtener más información, consulte [Definir tarifas de pago del proveedor](tasks/define-vendor-payment-fees.md).
 2.  En la página Métodos de pago - Proveedor, cree y mantenga la información sobre cómo paga la organización a sus proveedores.
 3.  En la página de grupos de proveedores, cree y mantenga grupos de proveedores que comparten los principales parámetros para el registro, liquidación y pago, informes y previsiones.
 4.  En la página de perfiles de contabilización de proveedores, defina cómo se registran las transacciones del proveedor en la contabilidad general.

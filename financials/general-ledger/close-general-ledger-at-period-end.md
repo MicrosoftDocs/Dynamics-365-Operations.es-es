@@ -3,7 +3,7 @@ title: "Cerrar la contabilidad general al final del período"
 description: "En este tema se describen las tareas que se completan normalmente al realizar un cierre de período para la contabilidad general."
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,13 +15,13 @@ ms.custom: 14111
 ms.assetid: cec9e039-c1a2-482c-bea6-e11d896eea9d
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 81d687cc16ef43442c8c1c166cc6f0d8b171e28f
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: bcf58b0ca995883bc466eec66a3d75c73c0be79e
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -43,10 +43,15 @@ En Contabilidad general, puede completar los procedimientos de cierre de un per�
 -   Registrar transacciones en el diario y revisar el informe del **Diario contable**.
 -   Realizar una consolidación mediante una empresa de consolidación o informes financieros.
 -   Generar resultados financieros de final de período con Informes financieros.
--   Definir períodos contables en **En espera**, de modo que no se produzca ningún otro registro. También puede restringir un período a un grupo de usuarios específico mientras se estén produciendo actividades de final de período, para un mayor control. No es buena idea establecer períodos en **Cerrado de forma permanente**porque no se puede volver a abrir un período que se ha cerrado.
+-   Definir períodos contables en **En espera**, de modo que no se produzca ningún otro registro. También puede restringir un período a un grupo de usuarios específico mientras se estén produciendo actividades de final de período, para un mayor control. No es buena idea establecer períodos en **Cerrado de forma permanente** porque no se puede volver a abrir un período que se ha cerrado.
 
-El espacio de trabajo de cierre del período financiero se puede usar para organizar y seguir las tareas necesarias para varios procesos de cierre del ejercicio. Consulte los temas [Espacio de trabajo de cierre del período financiero](financial-period-close-workspace.md) y [Cierre de fin de año](Year-end-close.md) para obtener más información. 
+El espacio de trabajo de cierre del período financiero se puede usar para organizar y seguir las tareas necesarias para varios procesos de cierre del ejercicio. 
 
+
+Para obtener más información, vea los siguientes temas:
+- [Espacio de trabajo de cierre del período financiero](financial-period-close-workspace.md) 
+- [Cierre de fin de año](Year-end-close.md)  
+- [Cierre masivo de período financiero](tasks/mass-financial-period-close.md)
 
 
 
