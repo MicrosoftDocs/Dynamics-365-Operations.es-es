@@ -1,7 +1,7 @@
 ---
 title: Analizar el rendimiento de la tienda
 description: "Este artículo explica cómo puede usar los análisis en memoria y en tiempo real para tener acceso, explorar y obtener información acerca del rendimiento de la tienda, en función de sus datos de Microsoft Dynamics 365 for Retail."
-author: josaw1
+author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 37baac8d3160b95f75dd11197fc60060450c0680
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

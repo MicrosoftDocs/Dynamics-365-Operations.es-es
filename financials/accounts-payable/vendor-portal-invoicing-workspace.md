@@ -1,9 +1,9 @@
 ---
 title: "Espacio de trabajo de facturación de colaboración de proveedor"
 description: "Este tema explica cómo puede ver las facturas de proveedor y enviar las facturas desde el espacio de trabajo de la facturacíon de colaboración de proveedor."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,8 +14,8 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
-ms.author: abruer
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: shpandey
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
@@ -33,7 +33,9 @@ ms.lasthandoff: 06/14/2017
 Este tema explica cómo puede ver las facturas de proveedor y enviar las facturas desde el espacio de trabajo de la facturacíon de colaboración de proveedor.
 
 El espacio de trabajo **Facturación de colaboración de proveedor** se puede usar para ver información de la factura de proveedor y para enviar facturas a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition mediante capacidades del flujo de trabajo.
-Espacio de trabajo de facturación de colaboración de proveedor
+
+
+<a name="vendor-collaboration-invoicing-workspace"></a>Espacio de trabajo de facturación de colaboración de proveedor
 ----------------------------------------
 
 ### <a name="summary-tiles"></a>Iconos de resumen

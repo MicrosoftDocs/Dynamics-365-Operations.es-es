@@ -1,7 +1,7 @@
 ---
 title: "Periféricos de hardware de PDV"
 description: "El punto de venta (POS) moderno al por menor y el PDV en la Nube pueden usar una gran variedad de hardware periférico del PDV, con múltiples interfaces y opciones de implementación para alcanzar los distintos escenarios empresariales de un distribuidor."
-author: josaw1
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: f5f090eb406488ecfcd502c2cc6e3a63ca16111a
 ms.contentlocale: es-es
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

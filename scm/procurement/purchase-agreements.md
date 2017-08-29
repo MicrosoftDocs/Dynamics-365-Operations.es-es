@@ -1,7 +1,7 @@
 ---
 title: Acuerdos de compra
 description: "Este artículo proporciona información acerca de los acuerdos de compra. Un acuerdo de compra es un contrato que compromete a una organización a comprar una cantidad o un importe específico mediante varios pedidos de compra en el tiempo. A cambio de este compromiso, el comprador recibe precios y descuentos especiales."
-author: YuyuScheller
+author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f

@@ -1,7 +1,7 @@
 ---
 title: "Cerrar la contabilidad general al final del período"
 description: "En este tema se describen las tareas que se completan normalmente al realizar un cierre de período para la contabilidad general."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

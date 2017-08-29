@@ -1,7 +1,7 @@
 ---
 title: Descuentos por pronto pago
 description: "Los descuentos por pronto pago se configuran y se comparten para Proveedores y Clientes.  El descuento por pronto pago disponible se puede definir en la factura de cliente o la factura de proveedor, y se tomará si la factura se paga dentro de la fecha de descuento por pronto pago."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 9d581a1d32a0df15e0b63e129d369d90aaa440d2
 ms.contentlocale: es-es
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Visión general de pedidos de compra"
 description: "Este artículo proporciona información general acerca de los pedidos de compra (PC) y vínculos a artículos adicionales relacionados con las distintas etapas por las que pasa un pedido de compra."
-author: YuyuScheller
+author: FrankDahl
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 93083
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
 ms.author: fdahl
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40

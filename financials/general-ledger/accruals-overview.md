@@ -1,7 +1,7 @@
 ---
 title: "Visión general de Acumulaciones"
 description: "Este artículo describe acumulaciones y proporciona información acerca de cómo configurarlas y crear transacciones."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

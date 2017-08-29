@@ -1,7 +1,7 @@
 ---
 title: Liquidar un pago de cliente parcial y el pago final completamente antes de la fecha de descuento
 description: "Este artículo proporciona escenarios que muestran cómo registrar pagos parciales para un cliente y aplicar descuentos por pronto pago dentro del período del descuento por pronto pago."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14491
 ms.assetid: 0f07d3ce-a439-43ed-a22e-957ccd36a37b
 ms.search.region: Global
-ms.author: kweekley
+ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 08b5fc87fdee476cd978bcc242cea324ac4bcee2
 ms.contentlocale: es-es
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

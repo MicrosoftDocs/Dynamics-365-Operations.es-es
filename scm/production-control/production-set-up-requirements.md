@@ -1,7 +1,7 @@
 ---
 title: "Requisitos de configuración de producción"
 description: "Este artículo proporciona información acerca de los requisitos de configuración para poder trabajar con el Control de producción."
-author: YuyuScheller
+author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: bis
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 55561
 ms.assetid: 1953059f-478d-4706-b461-25b89ace5fc3
@@ -24,7 +24,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 2e39173ef6a27296a20d5f6e44ff6c728aa49c09
 ms.contentlocale: es-es
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

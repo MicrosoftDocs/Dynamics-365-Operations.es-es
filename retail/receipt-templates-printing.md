@@ -1,7 +1,7 @@
 ---
 title: "Plantillas e impresión de recibos"
 description: "Este artículo describe cómo modificar diseños de formulario para modificar la forma de imprimir recibos, facturas y otros documentos. Microsoft Dynamics 365 for Retail incluye un diseñador de formularios que puede usar para crear y modificar con facilidad diversos tipos de diseños de formulario."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 6f1ec982522c6fe677b1921b69d5d04c4e783725
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

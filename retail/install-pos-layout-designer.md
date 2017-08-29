@@ -1,7 +1,7 @@
 ---
 title: "Instale el diseñador de estructura del PDV (punto de venta) al por menor"
 description: "Puede usar el diseñador de un solo clic para diseñar diferentes estructuras de PDV moderno de venta al por menor (MPOS) y PDV en la Nube, tanto en modo horizontal como vertical, para tiendas, registros, cajeros y directores."
-author: MargoC
+author: athinesh99
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,15 +10,15 @@ ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: RetailTillLayout
 audience: Application User
-ms.reviewer: margoc
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations, Core, UnifiedOperations
 ms.custom: 219684
 ms.assetid: 2e2c4eea-c6e2-4912-9832-a6b22416e39f
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: athinesh
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
-ms.dyn365.ops.version: Version 1611, Retail Version
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
 ms.openlocfilehash: 4308e7bad71271f242def93d587e4a0c1f7c06cc

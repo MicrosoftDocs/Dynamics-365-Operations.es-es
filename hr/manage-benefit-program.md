@@ -1,7 +1,7 @@
 ---
 title: Definir y gestionar un programa de prestaciones
 description: "Los Recursos humanos ofrecen una serie de herramientas que se pueden usar para configurar y mantener prestaciones, deducciones y los planes de compensación de los trabajadores que una organización ofrece o procesa para sus trabajadores. En este artículo se ofrece información acerca de cómo configurar y gestionar prestaciones."
-author: rschloma
+author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: 09ad9ad22c676c3b117cc39e692c64ef92637dc1
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

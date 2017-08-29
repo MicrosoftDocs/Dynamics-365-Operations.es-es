@@ -1,7 +1,7 @@
 ---
 title: "Creación de pagos de proveedor mediante una propuesta de pago"
 description: "Este tema proporciona una visión general de las opciones de propuesta de pago e incluye algunos ejemplos que muestran cómo funcionan las propuestas de pago. Las propuestas de pago se usan a menudo para crear pagos de proveedor, ya que se puede usar la consulta para seleccionar rápidamente facturas de proveedor para realizar el pago, en función de los criterios como la fecha de vencimiento y el descuento por pronto pago."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 07/17/2017
 ms.topic: article
@@ -15,8 +15,8 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
-ms.author: kweekley
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: shpandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786

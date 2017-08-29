@@ -1,7 +1,7 @@
 ---
 title: "Informes financieros de saldo de comprobación"
 description: "En este artículo se describen los informes predeterminados para los saldos de comprobación. También se describen los componentes asociados a estos informes y cómo puede modificar los informes para que se adapten a sus requisitos empresariales."
-author: twheeloc
+author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -22,7 +22,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: 86e8e91f2af474999d89bb63ac9e2afad7843c8a
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

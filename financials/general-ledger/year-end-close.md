@@ -1,7 +1,7 @@
 ---
 title: "Cierre de fin de año"
 description: "Este tema describe la configuración y los pasos necesarios para ejecutar el proceso de cierre de fin de año de la contabilidad general."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

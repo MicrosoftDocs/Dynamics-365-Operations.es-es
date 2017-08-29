@@ -1,7 +1,7 @@
 ---
 title: "Contenido en Power BI sobre rendimiento de la producción"
 description: "Este tema describe lo que se incluye en el contenido de Power BI sobre Rendimiento de la producción. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
-author: sericks
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article

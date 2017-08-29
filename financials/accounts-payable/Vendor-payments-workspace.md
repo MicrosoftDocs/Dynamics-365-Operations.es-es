@@ -1,7 +1,7 @@
 ---
 title: Espacio de trabajo de pagos de proveedor
 description: "Este tema proporciona información acerca del espacio de trabajo Pagos a proveedores. El espacio de trabajo Pagos a proveedores muestra la información relacionada con el procesamiento de pagos a proveedores."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
@@ -13,8 +13,8 @@ ms.reviewer: twheeloc
 ms.search.scope: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: twheeloc
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.author: shpandey
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e

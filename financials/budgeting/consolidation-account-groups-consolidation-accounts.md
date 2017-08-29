@@ -1,7 +1,7 @@
 ---
 title: "Grupos de cuentas de consolidación y cuentas de consolidación adicionales"
 description: "Este tema proporciona información sobre grupos de cuentas de consolidación y cuentas de consolidación adicionales y explica cómo se utilizan en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

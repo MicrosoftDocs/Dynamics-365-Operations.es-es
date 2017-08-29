@@ -1,7 +1,7 @@
 ---
 title: "Colaboración con los proveedores mediante el portal de proveedores"
 description: "Este tema describe cómo los agentes de compras pueden usar el portal de proveedores para colaborar con los proveedores externos durante el proceso de confirmación del pedido de compra. Esta información se aplica solo a las versiones de febrero de 2016 y mayo de 2016 de Dynamics AX."
-author: YuyuScheller
+author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40

@@ -1,7 +1,7 @@
 ---
 title: Tipos de cuentas principales
 description: "Los tipos de cuenta principal determinan cómo se usa una cuenta principal en el plan contable."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

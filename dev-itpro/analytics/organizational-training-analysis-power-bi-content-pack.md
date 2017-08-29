@@ -1,7 +1,7 @@
 ---
 title: "Contenido de Power BI sobre formación organizativa"
 description: "En este tema se describe Finance and Operations, contenido de Power BI sobre formación organizativa. Explica cómo obtener acceso al paquete de contenido y describe el modelo de datos y las entidades que se utilizan para generar el paquete de contenido."
-author: twheeloc
+author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.custom: 263874
 ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
 ms.search.region: Global
 ms.author: jcart
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
