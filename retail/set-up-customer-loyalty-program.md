@@ -1,7 +1,7 @@
 ---
 title: "Configurar un programa de fidelización de clientes"
 description: "En este artículo se describe cómo configurar un programa de fidelización. Los programas de fidelización pueden ayudar a aumentar la fidelización del cliente al premiar a los clientes para la compra de productos en las tiendas comerciales. En Microsoft Dynamics for Retail, puede configurar programas de fidelización simples o complejos que se aplican en todas las entidades jurídicas de cualquier canal comercial."
-author: josaw1
+author: scott-tucker
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 710f8ae3a6a2b5072f37879aad066dc699ede8f0
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

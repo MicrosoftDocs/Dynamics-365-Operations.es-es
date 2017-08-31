@@ -16,13 +16,13 @@ ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: 
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 7e916dd91126d140790cbb3a6a740c2e2f20ccef
+ms.sourcegitcommit: 9e0d4e510542ffdeb01c8c9daffab40f5ba4b654
+ms.openlocfilehash: 3875aab63d2046bf6f0ebeb04622babb6f3f104d
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/16/2017
 
 ---
 
@@ -59,8 +59,11 @@ Estos vídeos breves le ayudarán a descubrir las nuevas características inclui
 -  [Introducción a la contabilidad de costes](https://youtu.be/1pUDtJQZ8FU)
 -  [Espacio de trabajo móvil de control de costes](https://youtu.be/imsuTg8rUVk)
 -  [Uso de Excel para análisis de costes](https://youtu.be/-HKHYdClvx8)
+-  [Aprobar pedidos de compra en dispositivos móviles](https://youtu.be/gZ-gOlJe7H8)
 
-### <a name="tech-talk"></a>Charla técnica 
+### <a name="tech-talks"></a>Charlas técnicas
+La mayoría de estas charlas describen la funcionalidad de los productos de la versión anterior de Finance and Operations, pero aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son similares. 
+
 -  <a href="https://youtu.be/zotrj3SbCl4">Configurador de productos en Microsoft Dynamics AX</a>
 -  <a href="https://youtu.be/7v8BPmEs9Dg">Planificación maestra: trucos y sugerencias para solucionar problemas de rendimiento</a>
 -  <a href="https://youtu.be/RLXybx20B5o">! ¡Ayuda ¡La planificación maestra es lenta!</a>
@@ -71,13 +74,14 @@ Estos vídeos breves le ayudarán a descubrir las nuevas características inclui
 -  <a href="https://youtu.be/5w1MngVchBA">Etiquetas en la nueva administración de almacenes de Microsoft Dynamics AX 2012 R3</a>
 -  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3: Administración avanzada de almacenes - Vida cotidiana de la fabricación en procesos</a>
 -  <a href="https://youtu.be/y1jrd3A_k70">Subcontratación de operaciones y actividades en la fabricación</a>
+-  <a href="https://youtu.be/jgmTgJIgEFQ">Administración de transporte (TMS) en la nueva solución Microsoft Dynamics AX</a>
 
 ## <a name="blogs"></a>Blogs
-Hay muchos temas sobre la gestión de la cadena de suministro y la fabricación en el <a href="https://blogs.msdn.microsoft.com/axmfg/">blog Dynamics AX Manufacturing R&D Team</a> y en el <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">blog Supply Chain Management in Dynamics AX R&D Team</a>. La mayoría de ellos se crearon para la versión anterior de Finance and Operations, pero aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son similares. 
+Hay muchos temas sobre la gestión de la cadena de suministro y la fabricación en el <a href="https://blogs.msdn.microsoft.com/axmfg/">blog del equipo de I+D de Dynamics AX Manufacturing</a> y en el <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">blog del equipo de I+D de la Administración de cadenas de suministros en Dynamics AX</a>. La mayoría de ellos se crearon para la versión anterior de Finance and Operations, pero aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son similares. 
 
 ## <a name="white-papers"></a>Notas del producto
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Laboratorios prácticos de contabilidad de costes</a> 
--  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing: capaz de comprometer y programación de trabajos kanban</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing: programación de trabajos kanban y CTP (capaz de comprometer)</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Cálculo de L. MAT. con una hoja de gestión de costes</a>
 
 ## <a name="elearning-courses"></a>Cursos de eLearning

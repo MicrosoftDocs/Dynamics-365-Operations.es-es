@@ -1,7 +1,7 @@
 ---
 title: Dimensiones financieras y registro
 description: "Cuando planifique y configure su plan contable, debe ver cómo funcionarán conjuntamente los distintos componentes cuando se registre un documento o un diario. Estos componentes incluyen las estructuras contables, reglas avanzadas, y saldo y las dimensiones fijas. Este tema explica cuál es cada componente y cómo los componentes funcionan juntos."
-author: aolson
+author: aprilolson
 manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.2.0
+ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
 ms.sourcegitcommit: addd8c6956a19828687fbda606a0531c0c5decec
 ms.openlocfilehash: 6d47aa7df47f498fa751428fe659f0500dd00fc5

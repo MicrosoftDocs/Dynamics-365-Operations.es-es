@@ -1,7 +1,7 @@
 ---
 title: Dimensiones financieras
 description: "Este tema describe los diferentes tipos de dimensiones financieras y cómo se configuran."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

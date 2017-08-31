@@ -1,7 +1,7 @@
 ---
 title: Ver movimientos del diario y transacciones
 description: "Este artículo explica las distintas maneras en las que puede ver entradas del diario y transacciones."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

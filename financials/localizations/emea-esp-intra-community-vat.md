@@ -1,7 +1,7 @@
 ---
 title: "IVA intracomunitario para España"
 description: "Este tema proporciona información sobre la funcionalidad dedicada al impuesto sobre el valor añadido intracomunitario (IVA). Explica cómo se activa la funcionalidad, cómo se calculan e imprimen los importes de IVA intracomunitarios, y revisa los importes de IVA intracomunitarios que se han registrado."
-author: ShylaThompson
+author: Anasyash
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
@@ -21,7 +21,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: e6a8a3011e9a4332cb6db2021f2520bd8da0f7b1
 ms.contentlocale: es-es
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

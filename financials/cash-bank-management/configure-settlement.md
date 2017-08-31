@@ -1,7 +1,7 @@
 ---
 title: "Configurar liquidación"
 description: "Cómo y cuándo se liquidan las transacciones puede ser temas complejos, lo que es fundamental que entienda y defina correctamente los parámetros para satisfacer sus requisitos empresariales. Este artículo describe los parámetros que se usan para la liquidación tanto para Proveedores como Clientes."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: 059513de66827aa3a839b9eb06973ec4c1549f73
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Grupos de revalorización de activos fijos"
 description: "Este tema proporciona información acerca de la revalorización de activos fijos para España."
-author: ShylaThompson
+author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -21,7 +21,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 67224febce50fb0058b0fc251a4b699ec006cd36
 ms.contentlocale: es-es
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Evaluar la consecución de ventas por producto"
 description: Puede estudiar la rentabilidad de los 10 productos principales mediante Microsoft Dynamics 365 for Retail.
-author: josaw1
+author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: d6c04b8a6a4208e187786be158ceb3c84e1bb408
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

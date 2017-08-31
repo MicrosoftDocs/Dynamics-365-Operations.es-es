@@ -1,7 +1,7 @@
 ---
 title: Importar tipos de cambio de divisa
 description: "Si una entidad jurídica ha recibido facturas en divisas extranjeras, es necesario convertir la divisa extranjera en la divisa local. Esto significa que se requieren tipos de cambio actualizados para las distintas divisas. Este tema proporciona una visión general de los ajustes y el proceso necesarios para importar las tasas de referencia de divisa extranjera publicadas en Internet por los proveedores de tipos de cambio, como el Banco Central Europeo y el Central Bank of Russia."
-author: ShylaThompson
+author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
 ms.author: epopov
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008

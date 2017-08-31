@@ -1,7 +1,7 @@
 ---
 title: "Configurar y gestionar imágenes del PDV moderno minorista"
 description: "Este artículo explica los pasos para realizar la configuración y la gestión de imágenes para las distintas entidades que aparecen en Retail Modern POS (MPOS)."
-author: MargoC
+author: athinesh99
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 3985d731709eff4085927b277996528e4e448ba9
 ms.contentlocale: es-es
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

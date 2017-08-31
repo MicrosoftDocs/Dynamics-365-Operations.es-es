@@ -1,7 +1,7 @@
 ---
 title: Seguimiento de las comisiones en PDV mediante los grupos de ventas
 description: "Es habitual en la práctica del comercio al por menor realizar un seguimiento de las ventas en función del asociado que trabajó con el cliente (dando asistencia, vendiendo productos adicionales, facilitando ventas cruzadas y procesando la transacción)."
-author: josaw1
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,12 @@ ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611, Retail Version
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 31f57519aa55a06256d2b31cc64d4a964d889555
 ms.contentlocale: es-es
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

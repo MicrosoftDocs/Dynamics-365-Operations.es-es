@@ -1,7 +1,7 @@
 ---
 title: Planificar su plan de cuentas
 description: "Este artículo proporciona información que le ayudará a planificar el plan de cuenta para su organización."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

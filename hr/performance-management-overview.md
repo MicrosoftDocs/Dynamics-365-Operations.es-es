@@ -1,7 +1,7 @@
 ---
 title: "Visión general de la gestión del rendimiento"
 description: "El proceso de gestión del rendimiento permite a los empleados documentar y comentar su rendimiento con el administrador. A su vez, los administradores pueden proporcionar comentarios de retroalimentación y orientación a los empleados."
-author: twheeloc
+author: mikefalkner
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -22,7 +22,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 4872eaf18a07797d06f2f4d7868630d364eeda6e
 ms.contentlocale: es-es
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

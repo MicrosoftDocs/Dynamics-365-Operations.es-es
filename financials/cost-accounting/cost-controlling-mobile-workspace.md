@@ -1,7 +1,7 @@
 ---
 title: "Espacio de trabajo móvil de control de costes"
 description: "Este tema proporciona información sobre del espacio de trabajo móvil de Control de costes. Este espacio de trabajo permite a los administradores de un centro de coste ver información acerca del rendimiento del centro de coste en cualquier momento y cualquier lugar."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -22,7 +22,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: dbedf75a6f61a9e2bc644056f0dd1e7499cedc42
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
-
 
 ---
 
