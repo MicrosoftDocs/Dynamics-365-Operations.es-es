@@ -17,68 +17,68 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 7ce132b590fffb753948e663763b8f3ef576ac36
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b80c258d6a779a8fc5bb6c846abd3af7e69d5e06
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a>Configurar un elemento de menú del dispositivo móvil para completar el trabajo en un pedido de compra
+# <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a><span data-ttu-id="fdb86-103">Configurar un elemento de menú del dispositivo móvil para completar el trabajo en un pedido de compra</span><span class="sxs-lookup"><span data-stu-id="fdb86-103">Set up a mobile device menu item for completing work in a purchase order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo configurar un elemento de menú Dispositivo móvil. En este ejemplo, el elemento de menú se usa para realizar el trabajo del tipo Pedido de compra. La clase de trabajo asociado al elemento de menú determina qué valor es válido. Puede usar esta guía en la empresa de datos de demostración USMF. Este procedimiento lo suele realizar un director de almacén.
+<span data-ttu-id="fdb86-104">Este procedimiento muestra cómo configurar un elemento de menú Dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="fdb86-104">This procedure shows how to set up a Mobile device menu item.</span></span> <span data-ttu-id="fdb86-105">En este ejemplo, el elemento de menú se usa para realizar el trabajo del tipo Pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="fdb86-105">In this example, the menu item is used for performing work of type Purchase order.</span></span> <span data-ttu-id="fdb86-106">La clase de trabajo asociado al elemento de menú determina qué valor es válido.</span><span class="sxs-lookup"><span data-stu-id="fdb86-106">The work class that’s associated with the menu item determines which work is valid.</span></span> <span data-ttu-id="fdb86-107">Puede usar esta guía en la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="fdb86-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="fdb86-108">Este procedimiento lo suele realizar un director de almacén.</span><span class="sxs-lookup"><span data-stu-id="fdb86-108">This procedure is typically carried out by a warehouse manager.</span></span>
 
 
-## <a name="create-a-mobile-device-menu-item"></a>Crear un elemento de menú del dispositivo móvil
-1. Vaya a Elementos de menú del dispositivo móvil.
-2. Haga clic en Nuevo.
-3. En el campo Nombre del elemento de menú, escriba un valor.
-    * Especifique un valor exclusivo. Por ejemplo, podría escribir PCMover. Recuerde el valor, lo necesitará más adelante.  
-4. En el campo Título, escriba un valor.
-    * Este es el título que se mostrará en el dispositivo móvil. Por ejemplo, podría escribir Pedido de compra Mover.  
-5. En el campo Modo, seleccione Trabajo.
-6. Seleccione Sí en el campo Usar trabajo existente.
-    * Este elemento de menú del dispositivo móvil se utiliza para realizar el trabajo existente. Por lo tanto, debe establecer este valor en Sí.  
-    * El campo Mostrar estado de inventario determina si se mostrará el estado de inventario del inventario disponible para el trabajador del almacén en el dispositivo móvil.  
-7. En el campo Dirigido por, seleccione "Agrupamiento del sistema".
-    * Al seleccionar algo en el campo Dirigido por, aparecen campos adicionales en la sección General de esta página. Los campos que aparecen dependen de lo que haya seleccionado. Al seleccionar Agrupamiento del sistema, se agregan dos nuevos campos. Estos se explican a continuación.  
-8. En el campo Agrupamiento del sistema, seleccione “WorkPoolId”.
-    * Cuando los empleados de almacén abran este elemento de menú, se les pedirá que detecten un id. de grupo de trabajo. Todos los pedidos de trabajo con este id. de grupo de trabajo y las líneas de pedido de trabajo con una de las clases de trabajo agregadas a este elemento de menú se enviarán al usuario.  
-9. En el campo Etiqueta de agrupamiento del sistema, escriba un valor.
-    * Este es el texto que se muestra al usuario en el dispositivo móvil. Por ejemplo, podría escribir Grupo de trabajo.  
-10. Seleccione Sí en el campo Anular número de entidad de almacén durante colocación.
-    * Esta opción permite a los trabajadores de almacén anular la matrícula de entidad de almacén de destino cuando los artículos se colocan en una ubicación controlada mediante matrícula de entidad de almacén.  
-11. Seleccione Sí en el campo Ubicaciones en grupo.
-    * Si todas las líneas de colocación del pedido de trabajo comparten la misma ubicación, el usuario recibirá una instrucción Put combinada para todas las líneas.  
-    * Id. de plantilla de auditoría: una plantilla de auditoría de trabajo le permite especificar que el proceso de trabajo para un elemento de menú se debe interrumpir a fin de que se pueda realizar otra operación. Por ejemplo, si este elemento de menú es para trabajo de entrada, la plantilla de auditoría puede requerir que el trabajador compruebe la temperatura. El punto en el que se interrumpe el proceso se especifica en la plantilla de auditoría y puede ser, por ejemplo, cuando el trabajo es iniciado o completado, o cuando cambia el estado.  
-12. Expanda la sección Clases de trabajo.
-13. Haga clic en Nuevo.
-14. En el campo Identificador de la clase de trabajo, escriba "Compra".
-    * El grupo de trabajo restringe el trabajo para el que se puede utilizar el elemento de menú. En este caso se utilizará para las líneas de pedido de trabajo abiertas que tienen el id. de clase de trabajo de compra.  
-15. Haga clic en Guardar.
+## <a name="create-a-mobile-device-menu-item"></a><span data-ttu-id="fdb86-109">Crear un elemento de menú del dispositivo móvil</span><span class="sxs-lookup"><span data-stu-id="fdb86-109">Create a mobile device menu item</span></span>
+1. <span data-ttu-id="fdb86-110">Vaya a Elementos de menú del dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="fdb86-110">Go to Mobile device menu items.</span></span>
+2. <span data-ttu-id="fdb86-111">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="fdb86-111">Click New.</span></span>
+3. <span data-ttu-id="fdb86-112">En el campo Nombre del elemento de menú, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="fdb86-112">In the Menu item name field, type a value.</span></span>
+    * <span data-ttu-id="fdb86-113">Especifique un valor exclusivo.</span><span class="sxs-lookup"><span data-stu-id="fdb86-113">Enter a unique value.</span></span> <span data-ttu-id="fdb86-114">Por ejemplo, podría escribir PCMover.</span><span class="sxs-lookup"><span data-stu-id="fdb86-114">For example, you could type POMove.</span></span> <span data-ttu-id="fdb86-115">Recuerde el valor, lo necesitará más adelante.</span><span class="sxs-lookup"><span data-stu-id="fdb86-115">Remember the value, you'll need it later.</span></span>  
+4. <span data-ttu-id="fdb86-116">En el campo Título, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="fdb86-116">In the Title field, type a value.</span></span>
+    * <span data-ttu-id="fdb86-117">Este es el título que se mostrará en el dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="fdb86-117">This is the title which will be displayed on the mobile device.</span></span> <span data-ttu-id="fdb86-118">Por ejemplo, podría escribir Pedido de compra Mover.</span><span class="sxs-lookup"><span data-stu-id="fdb86-118">For example, you could type PO Move.</span></span>  
+5. <span data-ttu-id="fdb86-119">En el campo Modo, seleccione Trabajo.</span><span class="sxs-lookup"><span data-stu-id="fdb86-119">In the Mode field, select 'Work'.</span></span>
+6. <span data-ttu-id="fdb86-120">Seleccione Sí en el campo Usar trabajo existente.</span><span class="sxs-lookup"><span data-stu-id="fdb86-120">Select Yes in the Use existing work field.</span></span>
+    * <span data-ttu-id="fdb86-121">Este elemento de menú del dispositivo móvil se utiliza para realizar el trabajo existente.</span><span class="sxs-lookup"><span data-stu-id="fdb86-121">This mobile device menu item is used to perform existing work.</span></span> <span data-ttu-id="fdb86-122">Por lo tanto, debe establecer este valor en Sí.</span><span class="sxs-lookup"><span data-stu-id="fdb86-122">Therefore you must set this value to Yes.</span></span>  
+    * <span data-ttu-id="fdb86-123">El campo Mostrar estado de inventario determina si se mostrará el estado de inventario del inventario disponible para el trabajador del almacén en el dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="fdb86-123">The Display inventory status field determines whether the inventory status of the on-hand inventory will be displayed to the warehouse worker on the mobile device.</span></span>  
+7. <span data-ttu-id="fdb86-124">En el campo Dirigido por, seleccione "Agrupamiento del sistema".</span><span class="sxs-lookup"><span data-stu-id="fdb86-124">In the Directed by field, select 'System grouping'.</span></span>
+    * <span data-ttu-id="fdb86-125">Al seleccionar algo en el campo Dirigido por, aparecen campos adicionales en la sección General de esta página.</span><span class="sxs-lookup"><span data-stu-id="fdb86-125">When you select something in the Directed by field, additional fields appear in the General section on this page.</span></span> <span data-ttu-id="fdb86-126">Los campos que aparecen dependen de lo que haya seleccionado.</span><span class="sxs-lookup"><span data-stu-id="fdb86-126">The fields that appear depend on what you selected.</span></span> <span data-ttu-id="fdb86-127">Al seleccionar Agrupamiento del sistema, se agregan dos nuevos campos.</span><span class="sxs-lookup"><span data-stu-id="fdb86-127">When you select System grouping, two new fields are added.</span></span> <span data-ttu-id="fdb86-128">Estos se explican a continuación.</span><span class="sxs-lookup"><span data-stu-id="fdb86-128">These are explained below.</span></span>  
+8. <span data-ttu-id="fdb86-129">En el campo Agrupamiento del sistema, seleccione “WorkPoolId”.</span><span class="sxs-lookup"><span data-stu-id="fdb86-129">In the System grouping field, select 'WorkPoolId'.</span></span>
+    * <span data-ttu-id="fdb86-130">Cuando los empleados de almacén abran este elemento de menú, se les pedirá que detecten un id. de grupo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="fdb86-130">When warehouse workers open this menu item, they’ll be asked to scan a Work pool ID.</span></span> <span data-ttu-id="fdb86-131">Todos los pedidos de trabajo con este id. de grupo de trabajo y las líneas de pedido de trabajo con una de las clases de trabajo agregadas a este elemento de menú se enviarán al usuario.</span><span class="sxs-lookup"><span data-stu-id="fdb86-131">All work orders with this Work pool ID and open work order lines with one of the work classes added to this menu item will be pushed to the user.</span></span>  
+9. <span data-ttu-id="fdb86-132">En el campo Etiqueta de agrupamiento del sistema, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="fdb86-132">In the System grouping label field, type a value.</span></span>
+    * <span data-ttu-id="fdb86-133">Este es el texto que se muestra al usuario en el dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="fdb86-133">This is the text displayed to the user on the mobile device.</span></span> <span data-ttu-id="fdb86-134">Por ejemplo, podría escribir Grupo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="fdb86-134">For example, you could type Work pool.</span></span>  
+10. <span data-ttu-id="fdb86-135">Seleccione Sí en el campo Anular número de entidad de almacén durante colocación.</span><span class="sxs-lookup"><span data-stu-id="fdb86-135">Select Yes in the Override license plate during put field.</span></span>
+    * <span data-ttu-id="fdb86-136">Esta opción permite a los trabajadores de almacén anular la matrícula de entidad de almacén de destino cuando los artículos se colocan en una ubicación controlada mediante matrícula de entidad de almacén.</span><span class="sxs-lookup"><span data-stu-id="fdb86-136">This option allows warehouse workers to override the target license plate when items are put down on a license plate controlled location.</span></span>  
+11. <span data-ttu-id="fdb86-137">Seleccione Sí en el campo Ubicaciones en grupo.</span><span class="sxs-lookup"><span data-stu-id="fdb86-137">Select Yes in the Group put away field.</span></span>
+    * <span data-ttu-id="fdb86-138">Si todas las líneas de colocación del pedido de trabajo comparten la misma ubicación, el usuario recibirá una instrucción Put combinada para todas las líneas.</span><span class="sxs-lookup"><span data-stu-id="fdb86-138">If all the Put lines on the work order share the same location, the user will receive one combined Put instruction for all lines.</span></span>  
+    * <span data-ttu-id="fdb86-139">Id. de plantilla de auditoría: una plantilla de auditoría de trabajo le permite especificar que el proceso de trabajo para un elemento de menú se debe interrumpir a fin de que se pueda realizar otra operación.</span><span class="sxs-lookup"><span data-stu-id="fdb86-139">Audit template ID: A work audit template allows you to specify that the work process for a menu item should be interrupted so that another operation can be performed.</span></span> <span data-ttu-id="fdb86-140">Por ejemplo, si este elemento de menú es para trabajo de entrada, la plantilla de auditoría puede requerir que el trabajador compruebe la temperatura.</span><span class="sxs-lookup"><span data-stu-id="fdb86-140">For example, if this menu item is for inbound work, the audit template might require that the worker checks the temperature.</span></span> <span data-ttu-id="fdb86-141">El punto en el que se interrumpe el proceso se especifica en la plantilla de auditoría y puede ser, por ejemplo, cuando el trabajo es iniciado o completado, o cuando cambia el estado.</span><span class="sxs-lookup"><span data-stu-id="fdb86-141">The point at which the process is interrupted is specified on the audit template and can be, for example, when work is started or completed, or when its status changes.</span></span>  
+12. <span data-ttu-id="fdb86-142">Expanda la sección Clases de trabajo.</span><span class="sxs-lookup"><span data-stu-id="fdb86-142">Expand the Work classes section.</span></span>
+13. <span data-ttu-id="fdb86-143">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="fdb86-143">Click New.</span></span>
+14. <span data-ttu-id="fdb86-144">En el campo Identificador de la clase de trabajo, escriba "Compra".</span><span class="sxs-lookup"><span data-stu-id="fdb86-144">In the Work class ID field, type 'Purchase'.</span></span>
+    * <span data-ttu-id="fdb86-145">El grupo de trabajo restringe el trabajo para el que se puede utilizar el elemento de menú.</span><span class="sxs-lookup"><span data-stu-id="fdb86-145">The work pool restricts the work that the menu item can be used for.</span></span> <span data-ttu-id="fdb86-146">En este caso se utilizará para las líneas de pedido de trabajo abiertas que tienen el id. de clase de trabajo de compra.</span><span class="sxs-lookup"><span data-stu-id="fdb86-146">In this case it will be used for open work order lines that have the Purchase work class ID.</span></span>  
+15. <span data-ttu-id="fdb86-147">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="fdb86-147">Click Save.</span></span>
 
-## <a name="set-up-work-confirmation"></a>Configurar confirmación de trabajo
-1. Haga clic en Configuración de la confirmación de trabajo.
-2. En el campo Tipo de trabajo, seleccione "Seleccionar".
-3. Active la casilla Confirmación automática.
-    * La instrucción de trabajo con el tipo de trabajo Seleccionar se confirmará automáticamente. Esta instrucción no se presentará al usuario.  
-4. Haga clic en Nuevo.
-5. En el campo Tipo de trabajo, seleccione Colocar.
-6. Seleccione la casilla Confirmación de la ubicación.
-    * Al trabajador de almacén se le pedirá que realice un análisis de confirmación de la ubicación, cuando se coloque el artículo.  
-7. Haga clic en Guardar.
-8. Cierre la página.
-9. Cierre la página.
+## <a name="set-up-work-confirmation"></a><span data-ttu-id="fdb86-148">Configurar confirmación de trabajo</span><span class="sxs-lookup"><span data-stu-id="fdb86-148">Set up work confirmation</span></span>
+1. <span data-ttu-id="fdb86-149">Haga clic en Configuración de la confirmación de trabajo.</span><span class="sxs-lookup"><span data-stu-id="fdb86-149">Click Work confirmation setup.</span></span>
+2. <span data-ttu-id="fdb86-150">En el campo Tipo de trabajo, seleccione "Seleccionar".</span><span class="sxs-lookup"><span data-stu-id="fdb86-150">In the Work type field, select 'Pick'.</span></span>
+3. <span data-ttu-id="fdb86-151">Active la casilla Confirmación automática.</span><span class="sxs-lookup"><span data-stu-id="fdb86-151">Select the Auto confirm check box.</span></span>
+    * <span data-ttu-id="fdb86-152">La instrucción de trabajo con el tipo de trabajo Seleccionar se confirmará automáticamente.</span><span class="sxs-lookup"><span data-stu-id="fdb86-152">The work instruction with work type Pick will be auto-confirmed.</span></span> <span data-ttu-id="fdb86-153">Esta instrucción no se presentará al usuario.</span><span class="sxs-lookup"><span data-stu-id="fdb86-153">This instruction will not be presented to the user.</span></span>  
+4. <span data-ttu-id="fdb86-154">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="fdb86-154">Click New.</span></span>
+5. <span data-ttu-id="fdb86-155">En el campo Tipo de trabajo, seleccione Colocar.</span><span class="sxs-lookup"><span data-stu-id="fdb86-155">In the Work type field, select 'Put'.</span></span>
+6. <span data-ttu-id="fdb86-156">Seleccione la casilla Confirmación de la ubicación.</span><span class="sxs-lookup"><span data-stu-id="fdb86-156">Select the Location confirmation check box.</span></span>
+    * <span data-ttu-id="fdb86-157">Al trabajador de almacén se le pedirá que realice un análisis de confirmación de la ubicación, cuando se coloque el artículo.</span><span class="sxs-lookup"><span data-stu-id="fdb86-157">The warehouse worker will be asked to perform a confirmation scan of the location, when the item is put down.</span></span>  
+7. <span data-ttu-id="fdb86-158">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="fdb86-158">Click Save.</span></span>
+8. <span data-ttu-id="fdb86-159">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="fdb86-159">Close the page.</span></span>
+9. <span data-ttu-id="fdb86-160">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="fdb86-160">Close the page.</span></span>
 
-## <a name="add-the-menu-item-to-a-mobile-device-menu"></a>Agregar el elemento de menú a un menú de dispositivo móvil
-1. Vaya a Dispositivo móvil.
-2. Haga clic en Editar.
-3. Use el filtro rápido para buscar registros. Por ejemplo, filtrar en el campo Nombre con un valor de "entrada".
-    * Desea encontrar el menú que utiliza para elementos de menú de entrada. En USMF esto se denomina Entrada.  
-4. En el árbol, seleccione "un valor".
-5. Haga clic en la flecha que apunta a la derecha.
-6. Haga clic en Guardar.
-7. Cierre la página.
+## <a name="add-the-menu-item-to-a-mobile-device-menu"></a><span data-ttu-id="fdb86-161">Agregar el elemento de menú a un menú de dispositivo móvil</span><span class="sxs-lookup"><span data-stu-id="fdb86-161">Add the menu item to a mobile device menu</span></span>
+1. <span data-ttu-id="fdb86-162">Vaya a Dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="fdb86-162">Go to Mobile device menu.</span></span>
+2. <span data-ttu-id="fdb86-163">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="fdb86-163">Click Edit.</span></span>
+3. <span data-ttu-id="fdb86-164">Use el filtro rápido para buscar registros.</span><span class="sxs-lookup"><span data-stu-id="fdb86-164">Use the Quick Filter to find records.</span></span> <span data-ttu-id="fdb86-165">Por ejemplo, filtrar en el campo Nombre con un valor de "entrada".</span><span class="sxs-lookup"><span data-stu-id="fdb86-165">For example, filter on the Name field with a value of 'inbound'.</span></span>
+    * <span data-ttu-id="fdb86-166">Desea encontrar el menú que utiliza para elementos de menú de entrada.</span><span class="sxs-lookup"><span data-stu-id="fdb86-166">You want to find the menu you use for inbound menu items.</span></span> <span data-ttu-id="fdb86-167">En USMF esto se denomina Entrada.</span><span class="sxs-lookup"><span data-stu-id="fdb86-167">In USMF this is called Inbound.</span></span>  
+4. <span data-ttu-id="fdb86-168">En el árbol, seleccione "un valor".</span><span class="sxs-lookup"><span data-stu-id="fdb86-168">In the tree, select 'a value'.</span></span>
+5. <span data-ttu-id="fdb86-169">Haga clic en la flecha que apunta a la derecha.</span><span class="sxs-lookup"><span data-stu-id="fdb86-169">Click on the arrow that points to the right.</span></span>
+6. <span data-ttu-id="fdb86-170">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="fdb86-170">Click Save.</span></span>
+7. <span data-ttu-id="fdb86-171">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="fdb86-171">Close the page.</span></span>
 
 

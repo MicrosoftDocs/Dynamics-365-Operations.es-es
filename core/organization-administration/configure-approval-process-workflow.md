@@ -15,74 +15,74 @@ ms.custom: 195643
 ms.assetid: f853f57b-83ae-4fb0-a9fa-06ea3fc34fa1
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: c2765cf4ed8e0f5e00491bfe74835102bddff611
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: eedadfcbfac9d792a5ab80c1dcd8f3abfaddca08
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="configure-an-approval-process-in-a-workflow"></a>Configuración de un proceso de aprobación en un flujo de trabajo
+# <a name="configure-an-approval-process-in-a-workflow"></a><span data-ttu-id="e8363-103">Configuración de un proceso de aprobación en un flujo de trabajo</span><span class="sxs-lookup"><span data-stu-id="e8363-103">Configure an approval process in a workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Use el siguiente procedimiento para configurar las propiedades del proceso de aprobación.
+<span data-ttu-id="e8363-104">Use el siguiente procedimiento para configurar las propiedades del proceso de aprobación.</span><span class="sxs-lookup"><span data-stu-id="e8363-104">Use the following procedure to configure the properties of the approval process.</span></span>
 
-Para configurar un proceso de aprobación, en el editor de flujo de trabajo, haga clic con el botón secundario en el elemento de aprobación y, a continuación, haga clic en **Propiedades** para abrir el formulario **Propiedades**.
-Asignación de un nombre al proceso de aprobación
+<span data-ttu-id="e8363-105">Para configurar un proceso de aprobación, en el editor de flujo de trabajo, haga clic con el botón secundario en el elemento de aprobación y, a continuación, haga clic en **Propiedades** para abrir el formulario **Propiedades**.</span><span class="sxs-lookup"><span data-stu-id="e8363-105">To configure an approval process, in the workflow editor, right-click the approval element, and then click **Properties** to open the **Properties** form.</span></span>
+<span data-ttu-id="e8363-106">Asignación de un nombre al proceso de aprobación</span><span class="sxs-lookup"><span data-stu-id="e8363-106">Name the approval process</span></span>
 -------------------------
 
-Siga estos pasos para asignar un nombre al proceso de aprobación.
-1.  En el panel izquierdo, haga clic en **Configuración básica**.
-2.  En el campo **Nombre**, especifique un nombre único para el proceso de aprobación.
+<span data-ttu-id="e8363-107">Siga estos pasos para asignar un nombre al proceso de aprobación.</span><span class="sxs-lookup"><span data-stu-id="e8363-107">Follow these steps to enter a name for the approval process.</span></span>
+1.  <span data-ttu-id="e8363-108">En el panel izquierdo, haga clic en **Configuración básica**.</span><span class="sxs-lookup"><span data-stu-id="e8363-108">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="e8363-109">En el campo **Nombre**, especifique un nombre único para el proceso de aprobación.</span><span class="sxs-lookup"><span data-stu-id="e8363-109">In the **Name** field, enter a unique name for the approval process.</span></span>
 
-## <a name="specify-when-the-system-automatically-acts-on-the-document"></a>Especificación de las condiciones en que el sistema realiza una acción automática en el documento
-Puede configurar el sistema para que realice alguna acción en el documento de forma automática si se cumplen ciertas condiciones. Por ejemplo, el sistema puede aprobar los informes de gastos con importes totales inferiores a 100 USD. Siga estos pasos para especificar cuándo el sistema realiza una acción en el documento.
-1.  En el panel izquierdo, haga clic en **Acciones automáticas**.
-2.  Active la casilla **Habilitar acciones automáticas**.
-3.  Haga clic en **Agregar condición**.
-4.  Escriba una condición.
-5.  Escriba condiciones adicionales, si fuera necesario.
-6.  Para comprobar que las condiciones definidas se hayan configurado correctamente, siga estos pasos:
-    1.  Haga clic en **Probar** para abrir el formulario **Probar la condición del flujo de trabajo**.
-    2.  Seleccione un registro del área **Comprobar condición** del formulario.
-    3.  Haga clic en **Probar**. El sistema evalúa el registro seleccionado para determinar si reúne las condiciones definidas.
-    4.  Haga clic en **Aceptar** o en **Cancelar** para regresar al formulario **Propiedades**.
+## <a name="specify-when-the-system-automatically-acts-on-the-document"></a><span data-ttu-id="e8363-110">Especificación de las condiciones en que el sistema realiza una acción automática en el documento</span><span class="sxs-lookup"><span data-stu-id="e8363-110">Specify when the system automatically acts on the document</span></span>
+<span data-ttu-id="e8363-111">Puede configurar el sistema para que realice alguna acción en el documento de forma automática si se cumplen ciertas condiciones.</span><span class="sxs-lookup"><span data-stu-id="e8363-111">You can configure the system to automatically act on the document if specific conditions are met.</span></span> <span data-ttu-id="e8363-112">Por ejemplo, el sistema puede aprobar los informes de gastos con importes totales inferiores a 100 USD.</span><span class="sxs-lookup"><span data-stu-id="e8363-112">For example, the system can approve expense reports that have total amounts that are less than USD 100.</span></span> <span data-ttu-id="e8363-113">Siga estos pasos para especificar cuándo el sistema realiza una acción en el documento.</span><span class="sxs-lookup"><span data-stu-id="e8363-113">Follow these steps to specify when the system acts on the document.</span></span>
+1.  <span data-ttu-id="e8363-114">En el panel izquierdo, haga clic en **Acciones automáticas**.</span><span class="sxs-lookup"><span data-stu-id="e8363-114">In the left pane, click **Automatic actions**.</span></span>
+2.  <span data-ttu-id="e8363-115">Active la casilla **Habilitar acciones automáticas**.</span><span class="sxs-lookup"><span data-stu-id="e8363-115">Select the **Enable automatic actions** check box.</span></span>
+3.  <span data-ttu-id="e8363-116">Haga clic en **Agregar condición**.</span><span class="sxs-lookup"><span data-stu-id="e8363-116">Click **Add condition**.</span></span>
+4.  <span data-ttu-id="e8363-117">Escriba una condición.</span><span class="sxs-lookup"><span data-stu-id="e8363-117">Enter a condition.</span></span>
+5.  <span data-ttu-id="e8363-118">Escriba condiciones adicionales, si fuera necesario.</span><span class="sxs-lookup"><span data-stu-id="e8363-118">Enter additional conditions, if necessary.</span></span>
+6.  <span data-ttu-id="e8363-119">Para comprobar que las condiciones definidas se hayan configurado correctamente, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="e8363-119">To verify that the conditions that you entered are configured correctly, complete the following steps:</span></span>
+    1.  <span data-ttu-id="e8363-120">Haga clic en **Probar** para abrir el formulario **Probar la condición del flujo de trabajo**.</span><span class="sxs-lookup"><span data-stu-id="e8363-120">Click **Test** to open the **Test workflow condition** form.</span></span>
+    2.  <span data-ttu-id="e8363-121">Seleccione un registro del área **Comprobar condición** del formulario.</span><span class="sxs-lookup"><span data-stu-id="e8363-121">Select a record in the **Validate condition** area of the form.</span></span>
+    3.  <span data-ttu-id="e8363-122">Haga clic en **Probar**.</span><span class="sxs-lookup"><span data-stu-id="e8363-122">Click **Test**.</span></span> <span data-ttu-id="e8363-123">El sistema evalúa el registro seleccionado para determinar si reúne las condiciones definidas.</span><span class="sxs-lookup"><span data-stu-id="e8363-123">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span>
+    4.  <span data-ttu-id="e8363-124">Haga clic en **Aceptar** o en **Cancelar** para regresar al formulario **Propiedades**.</span><span class="sxs-lookup"><span data-stu-id="e8363-124">Click **OK** or **Cancel** to return to the **Properties** form.</span></span>
 
-7.  En la lista **Acción de autocompletar**, seleccione la acción que el sistema debe realizar en el documento.
+7.  <span data-ttu-id="e8363-125">En la lista **Acción de autocompletar**, seleccione la acción que el sistema debe realizar en el documento.</span><span class="sxs-lookup"><span data-stu-id="e8363-125">In the **Auto complete action** list, select the action that the system should take on the document.</span></span>
 
-## <a name="specify-when-notifications-are-sent"></a>Especificación del momento en que se envían notificaciones
-Puede enviar notificaciones cuando un documento se ha aprobado, rechazado, delegado o remitido a una instancia superior o cuando se ha solicitado un cambio. Siga estos pasos para especificar cuándo se deben enviar notificaciones y a quiénes se deben enviar.
-1.  En el panel izquierdo, haga clic en **Notificaciones**.
-2.  Active las casillas de verificación junto a los eventos que deben notificarse:
-    -   **Delegar**: cuando un documento se ha asignado a otro usuario para que se lo apruebe.
-    -   **Remitir a una instancia superior**: cuando el usuario asignado no ha realizado ninguna acción en un documento en el tiempo asignado.
-    -   **Aprobar**: cuando un documento se ha aprobado.
-    -   **Rechazar**: cuando un documento se ha rechazado.
-    -   **Solicitar cambio**: cuando el usuario asignado ha solicitado que se realice un cambio en un documento enviado.
+## <a name="specify-when-notifications-are-sent"></a><span data-ttu-id="e8363-126">Especificación del momento en que se envían notificaciones</span><span class="sxs-lookup"><span data-stu-id="e8363-126">Specify when notifications are sent</span></span>
+<span data-ttu-id="e8363-127">Puede enviar notificaciones cuando un documento se ha aprobado, rechazado, delegado o remitido a una instancia superior o cuando se ha solicitado un cambio.</span><span class="sxs-lookup"><span data-stu-id="e8363-127">You can send notifications to people when a document has been approved, rejected, delegated, or escalated, or when a change has been requested.</span></span> <span data-ttu-id="e8363-128">Siga estos pasos para especificar cuándo se deben enviar notificaciones y a quiénes se deben enviar.</span><span class="sxs-lookup"><span data-stu-id="e8363-128">Follow these steps to specify when notifications are sent, and who the notifications are sent to.</span></span>
+1.  <span data-ttu-id="e8363-129">En el panel izquierdo, haga clic en **Notificaciones**.</span><span class="sxs-lookup"><span data-stu-id="e8363-129">In the left pane, click **Notifications**.</span></span>
+2.  <span data-ttu-id="e8363-130">Active las casillas de verificación junto a los eventos que deben notificarse:</span><span class="sxs-lookup"><span data-stu-id="e8363-130">Select the check box next to the events to send notifications for:</span></span>
+    -   <span data-ttu-id="e8363-131">**Delegar**: cuando un documento se ha asignado a otro usuario para que se lo apruebe.</span><span class="sxs-lookup"><span data-stu-id="e8363-131">**Delegate** – When a document has been assigned to another user for approval.</span></span>
+    -   <span data-ttu-id="e8363-132">**Remitir a una instancia superior**: cuando el usuario asignado no ha realizado ninguna acción en un documento en el tiempo asignado.</span><span class="sxs-lookup"><span data-stu-id="e8363-132">**Escalate** – When the assigned user has not acted on a document in the allotted time.</span></span>
+    -   <span data-ttu-id="e8363-133">**Aprobar**: cuando un documento se ha aprobado.</span><span class="sxs-lookup"><span data-stu-id="e8363-133">**Approve** – When a document has been approved.</span></span>
+    -   <span data-ttu-id="e8363-134">**Rechazar**: cuando un documento se ha rechazado.</span><span class="sxs-lookup"><span data-stu-id="e8363-134">**Reject** – When a document has been rejected.</span></span>
+    -   <span data-ttu-id="e8363-135">**Solicitar cambio**: cuando el usuario asignado ha solicitado que se realice un cambio en un documento enviado.</span><span class="sxs-lookup"><span data-stu-id="e8363-135">**Request change** – When the assigned user has requested a change to a document that was submitted.</span></span>
 
-3.  Seleccione la fila correspondiente a uno de los eventos que seleccionó en el paso 2.
-4.  Haga clic en la ficha **Texto de la notificación**.
-5.  En el cuadro de texto, escriba el texto de la notificación.
-6.  Para personalizar el texto, puede insertar marcadores de posición, que se reemplazan con los datos adecuados cuando se muestran a los usuarios. Para insertar un marcador de posición, siga estos pasos:
-    1.  Haga clic en el punto del cuadro de texto en el que debe aparecer el marcador de posición.
-    2.  Haga clic en **Insertar marcador de posición**.
-    3.  En la lista que se abre, seleccione el marcador de posición que desea insertar.
-    4.  Haga clic en **Insertar**.
+3.  <span data-ttu-id="e8363-136">Seleccione la fila correspondiente a uno de los eventos que seleccionó en el paso 2.</span><span class="sxs-lookup"><span data-stu-id="e8363-136">Select the row for an event that you selected in step 2.</span></span>
+4.  <span data-ttu-id="e8363-137">Haga clic en la ficha **Texto de la notificación**.</span><span class="sxs-lookup"><span data-stu-id="e8363-137">Click the **Notification text** tab.</span></span>
+5.  <span data-ttu-id="e8363-138">En el cuadro de texto, escriba el texto de la notificación.</span><span class="sxs-lookup"><span data-stu-id="e8363-138">In the text box, enter the text for the notification.</span></span>
+6.  <span data-ttu-id="e8363-139">Para personalizar el texto, puede insertar marcadores de posición, que se reemplazan con los datos adecuados cuando se muestran a los usuarios.</span><span class="sxs-lookup"><span data-stu-id="e8363-139">To personalize the text, you can insert placeholders, which are replaced with the appropriate data when they are displayed to users.</span></span> <span data-ttu-id="e8363-140">Para insertar un marcador de posición, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="e8363-140">To insert a placeholder, follow these steps:</span></span>
+    1.  <span data-ttu-id="e8363-141">Haga clic en el punto del cuadro de texto en el que debe aparecer el marcador de posición.</span><span class="sxs-lookup"><span data-stu-id="e8363-141">Click in the text box at the location where the placeholder should appear.</span></span>
+    2.  <span data-ttu-id="e8363-142">Haga clic en **Insertar marcador de posición**.</span><span class="sxs-lookup"><span data-stu-id="e8363-142">Click **Insert placeholder**.</span></span>
+    3.  <span data-ttu-id="e8363-143">En la lista que se abre, seleccione el marcador de posición que desea insertar.</span><span class="sxs-lookup"><span data-stu-id="e8363-143">In the list that is displayed, select the placeholder to insert.</span></span>
+    4.  <span data-ttu-id="e8363-144">Haga clic en **Insertar**.</span><span class="sxs-lookup"><span data-stu-id="e8363-144">Click **Insert**.</span></span>
 
-7.  Para agregar traducciones de la notificación, haga clic en **Traducciones**. En el formulario que aparece, siga estos pasos:
-    1.  Haga clic en **Agregar**.
-    2.  En la lista que aparece, seleccione el idioma que usará para escribir el texto.
-    3.  En el cuadro de texto **Texto traducido**, escriba el texto.
-    4.  Para personalizar el texto, inserte marcadores de posición.
-    5.  Haga clic en **Cerrar**.
+7.  <span data-ttu-id="e8363-145">Para agregar traducciones de la notificación, haga clic en **Traducciones**.</span><span class="sxs-lookup"><span data-stu-id="e8363-145">To add translations of the notification, click **Translations**.</span></span> <span data-ttu-id="e8363-146">En el formulario que aparece, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="e8363-146">In the form that is displayed, follow these steps:</span></span>
+    1.  <span data-ttu-id="e8363-147">Haga clic en **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="e8363-147">Click **Add**.</span></span>
+    2.  <span data-ttu-id="e8363-148">En la lista que aparece, seleccione el idioma que usará para escribir el texto.</span><span class="sxs-lookup"><span data-stu-id="e8363-148">In the list that is displayed, select the language in which you will enter the text.</span></span>
+    3.  <span data-ttu-id="e8363-149">En el cuadro de texto **Texto traducido**, escriba el texto.</span><span class="sxs-lookup"><span data-stu-id="e8363-149">In the **Translated text** text box, enter the text.</span></span>
+    4.  <span data-ttu-id="e8363-150">Para personalizar el texto, inserte marcadores de posición.</span><span class="sxs-lookup"><span data-stu-id="e8363-150">To personalize the text, insert placeholders.</span></span>
+    5.  <span data-ttu-id="e8363-151">Haga clic en **Cerrar**.</span><span class="sxs-lookup"><span data-stu-id="e8363-151">Click **Close**.</span></span>
 
-8.  Haga clic en la ficha **Destinatario**.
-9.  Especifique los destinatarios de las notificaciones. Seleccione una de las opciones de la siguiente tabla y, a continuación, siga los pasos adicionales correspondientes a la opción elegida antes de realizar el paso 10.
+8.  <span data-ttu-id="e8363-152">Haga clic en la ficha **Destinatario**.</span><span class="sxs-lookup"><span data-stu-id="e8363-152">Click the **Recipient** tab.</span></span>
+9.  <span data-ttu-id="e8363-153">Especifique los destinatarios de las notificaciones.</span><span class="sxs-lookup"><span data-stu-id="e8363-153">Specify who the notifications are sent to.</span></span> <span data-ttu-id="e8363-154">Seleccione una de las opciones de la siguiente tabla y, a continuación, siga los pasos adicionales correspondientes a la opción elegida antes de realizar el paso 10.</span><span class="sxs-lookup"><span data-stu-id="e8363-154">Select one of the options in the following table, and then follow the additional steps for the option before you go to step 10.</span></span>
 
     <table>
     <colgroup>
@@ -92,80 +92,80 @@ Puede enviar notificaciones cuando un documento se ha aprobado, rechazado, deleg
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Opción</th>
-    <th>Destinatarios de las notificaciones</th>
-    <th>Pasos adicionales</th>
+    <th><span data-ttu-id="e8363-155">Opción</span><span class="sxs-lookup"><span data-stu-id="e8363-155">Option</span></span></th>
+    <th><span data-ttu-id="e8363-156">Destinatarios de las notificaciones</span><span class="sxs-lookup"><span data-stu-id="e8363-156">Notification recipients</span></span></th>
+    <th><span data-ttu-id="e8363-157">Pasos adicionales</span><span class="sxs-lookup"><span data-stu-id="e8363-157">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><strong>Participante</strong></td>
-    <td>Usuarios asignados a un grupo o rol específicos</td>
+    <td><span data-ttu-id="e8363-158"><strong>Participante</strong></span><span class="sxs-lookup"><span data-stu-id="e8363-158"><strong>Participant</strong></span></span></td>
+    <td><span data-ttu-id="e8363-159">Usuarios asignados a un grupo o rol específicos</span><span class="sxs-lookup"><span data-stu-id="e8363-159">Users who are assigned to a specific group or role</span></span></td>
     <td><ol>
-    <li>Tras seleccionar <strong>Participante</strong>, haga clic en la ficha <strong>Basado en el rol</strong>.</li>
-    <li>En la lista <strong>Tipo de participante</strong>, seleccione el tipo de grupo o rol al que enviar las notificaciones.</li>
-    <li>En la lista <strong>Participante</strong>, seleccione el grupo o rol al que se deben enviar las notificaciones.</li>
+    <li><span data-ttu-id="e8363-160">Tras seleccionar <strong>Participante</strong>, haga clic en la ficha <strong>Basado en el rol</strong>.</span><span class="sxs-lookup"><span data-stu-id="e8363-160">After you select <strong>Participant</strong>, click the <strong>Role based</strong> tab.</span></span></li>
+    <li><span data-ttu-id="e8363-161">En la lista <strong>Tipo de participante</strong>, seleccione el tipo de grupo o rol al que enviar las notificaciones.</span><span class="sxs-lookup"><span data-stu-id="e8363-161">In the <strong>Type of participant</strong> list, select the type of group or role to send notifications to.</span></span></li>
+    <li><span data-ttu-id="e8363-162">En la lista <strong>Participante</strong>, seleccione el grupo o rol al que se deben enviar las notificaciones.</span><span class="sxs-lookup"><span data-stu-id="e8363-162">In the <strong>Participant</strong> list, select the group or role to send notifications to.</span></span></li>
     </ol></td>
     </tr>
     <tr class="even">
-    <td><strong>Usuario del flujo de trabajo</strong></td>
-    <td>Usuarios que participan en el flujo de trabajo actual</td>
+    <td><span data-ttu-id="e8363-163"><strong>Usuario del flujo de trabajo</strong></span><span class="sxs-lookup"><span data-stu-id="e8363-163"><strong>Workflow user</strong></span></span></td>
+    <td><span data-ttu-id="e8363-164">Usuarios que participan en el flujo de trabajo actual</span><span class="sxs-lookup"><span data-stu-id="e8363-164">Users who participate in the current workflow</span></span></td>
     <td><ol>
-    <li>Tras seleccionar <strong>Usuario de flujo de trabajo</strong>, haga clic en la ficha <strong>Usuario de flujo de trabajo</strong>.</li>
-    <li>En la lista <strong>Usuario de flujo de trabajo</strong>, seleccione un usuario que participe en el flujo de trabajo.</li>
+    <li><span data-ttu-id="e8363-165">Tras seleccionar <strong>Usuario de flujo de trabajo</strong>, haga clic en la ficha <strong>Usuario de flujo de trabajo</strong>.</span><span class="sxs-lookup"><span data-stu-id="e8363-165">After you select <strong>Workflow user</strong>, click the <strong>Workflow user</strong> tab.</span></span></li>
+    <li><span data-ttu-id="e8363-166">En la lista <strong>Usuario de flujo de trabajo</strong>, seleccione un usuario que participe en el flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="e8363-166">In the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ol></td>
     </tr>
     <tr class="odd">
-    <td><strong>Usuario</strong></td>
-    <td>Usuarios específicos de Microsoft Dynamics 365 for Finance and Operations</td>
+    <td><span data-ttu-id="e8363-167"><strong>Usuario</strong></span><span class="sxs-lookup"><span data-stu-id="e8363-167"><strong>User</strong></span></span></td>
+    <td><span data-ttu-id="e8363-168">Usuarios específicos de Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="e8363-168">Specific Microsoft Dynamics 365 for Finance and Operations users</span></span></td>
     <td><ol>
-    <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Microsoft Dynamics 365 for Finance and Operations. Seleccione aquellos usuarios a los que enviar notificaciones y, a continuación, muévalos a la lista de <strong>Usuarios seleccionados</strong>.</li>
+    <li><span data-ttu-id="e8363-169">Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</span><span class="sxs-lookup"><span data-stu-id="e8363-169">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="e8363-170">La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e8363-170">The <strong>Available users</strong>: list includes all Microsoft Dynamics 365 for Finance and Operations users.</span></span> <span data-ttu-id="e8363-171">Seleccione aquellos usuarios a los que enviar notificaciones y, a continuación, muévalos a la lista de <strong>Usuarios seleccionados</strong>.</span><span class="sxs-lookup"><span data-stu-id="e8363-171">Select the users to send notifications to, and then move these users to the <strong>Selected users</strong>: list.</span></span></li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
-10. Repita los pasos 3 a 9 por cada uno de los eventos que haya seleccionado en el paso 2.
+10. <span data-ttu-id="e8363-172">Repita los pasos 3 a 9 por cada uno de los eventos que haya seleccionado en el paso 2.</span><span class="sxs-lookup"><span data-stu-id="e8363-172">Repeat steps 3 through 9 for each event that you selected in step 2.</span></span>
 
-## <a name="specify-a-final-approver"></a>Especificación de un aprobador final
-Es posible que desee designar un aprobador final que actúe en las situaciones en las que el aprobador sea la persona que solicitó la aprobación del documento. Para especificar un aprobador final, siga estos pasos.
-1.  En el panel izquiero, haga clic en **Configuración avanzada**.
-2.  Seleccione la casilla de verificación **Usar aprobador final**.
-3.  En la lista, seleccione el usuario que actuará como aprobador final.
+## <a name="specify-a-final-approver"></a><span data-ttu-id="e8363-173">Especificación de un aprobador final</span><span class="sxs-lookup"><span data-stu-id="e8363-173">Specify a final approver</span></span>
+<span data-ttu-id="e8363-174">Es posible que desee designar un aprobador final que actúe en las situaciones en las que el aprobador sea la persona que solicitó la aprobación del documento.</span><span class="sxs-lookup"><span data-stu-id="e8363-174">You may want to designate a final approver for scenarios where the approver is the person who submitted the document for approval.</span></span> <span data-ttu-id="e8363-175">Para especificar un aprobador final, siga estos pasos.</span><span class="sxs-lookup"><span data-stu-id="e8363-175">Follow these steps to specify a final approver.</span></span>
+1.  <span data-ttu-id="e8363-176">En el panel izquiero, haga clic en **Configuración avanzada**.</span><span class="sxs-lookup"><span data-stu-id="e8363-176">In the left pane, click **Advanced settings**.</span></span>
+2.  <span data-ttu-id="e8363-177">Seleccione la casilla de verificación **Usar aprobador final**.</span><span class="sxs-lookup"><span data-stu-id="e8363-177">Select the **Use final approver** check box.</span></span>
+3.  <span data-ttu-id="e8363-178">En la lista, seleccione el usuario que actuará como aprobador final.</span><span class="sxs-lookup"><span data-stu-id="e8363-178">In the list, select the user to be the final approver.</span></span>
 
-## <a name="set-a-time-limit"></a>Definición de un límite de tiempo
-Siga estos pasos si el proceso de aprobación se debe completar en un plazo específico.
-| **Nota**                                                                                                                                                |
+## <a name="set-a-time-limit"></a><span data-ttu-id="e8363-179">Definición de un límite de tiempo</span><span class="sxs-lookup"><span data-stu-id="e8363-179">Set a time limit</span></span>
+<span data-ttu-id="e8363-180">Siga estos pasos si el proceso de aprobación se debe completar en un plazo específico.</span><span class="sxs-lookup"><span data-stu-id="e8363-180">Follow these steps if the approval process must be completed in a specific time.</span></span>
+| <span data-ttu-id="e8363-181">**Nota**</span><span class="sxs-lookup"><span data-stu-id="e8363-181">**Note**</span></span>                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Las opciones que seleccione al realizar estos pasos reemplazarán las opciones que haya seleccionado en las áreas de **Asignación** y **Escalada** de cada paso de aprobación. |
+| <span data-ttu-id="e8363-182">Las opciones que seleccione al realizar estos pasos reemplazarán las opciones que haya seleccionado en las áreas de **Asignación** y **Escalada** de cada paso de aprobación.</span><span class="sxs-lookup"><span data-stu-id="e8363-182">The options that you select in these steps override the options that you selected in the **Assignment** and **Escalation** areas of each approval step.</span></span> |
 
-1.  En el panel izquiero, haga clic en **Configuración avanzada**.
-2.  Active la casilla **Configurar un límite de tiempo para el elemento de** **flujo de trabajo**.
-3.  En el campo **Duración**, especifique cuándo se debe completar el proceso de aprobación. Seleccione una de las siguientes opciones:
-    -   **Horas**: escriba la cantidad de horas disponibles para completar el proceso de aprobación. A continuación, seleccione el calendario que usa la organización y escriba la información pertinente acerca de la semana laboral de la organización.
-    -   **Días**: escriba la cantidad de días disponibles para completar el proceso de aprobación. A continuación, seleccione el calendario que usa la organización y escriba la información pertinente acerca de la semana laboral de la organización.
-    -   **Semanas**: escriba la cantidad de semanas disponibles para completar el proceso de aprobación.
-    -   **Meses**: seleccione el día y la semana en los que vence el plazo para completar el proceso de aprobación. Por ejemplo, tal vez desee que el proceso de aprobación se haya completado antes del viernes de la tercera semana del mes.
-    -   **Años**: seleccione el día, la semana y el mes en los que vence el plazo para completar el proceso de aprobación. Por ejemplo, tal vez desee que el proceso de aprobación se haya completado antes del viernes de la tercera semana de diciembre.
+1.  <span data-ttu-id="e8363-183">En el panel izquiero, haga clic en **Configuración avanzada**.</span><span class="sxs-lookup"><span data-stu-id="e8363-183">In the left pane, click **Advanced settings**.</span></span>
+2.  <span data-ttu-id="e8363-184">Active la casilla **Configurar un límite de tiempo para el elemento de** **flujo de trabajo**.</span><span class="sxs-lookup"><span data-stu-id="e8363-184">Select the **Set a time limit for the workflow** **element** check box.</span></span>
+3.  <span data-ttu-id="e8363-185">En el campo **Duración**, especifique cuándo se debe completar el proceso de aprobación.</span><span class="sxs-lookup"><span data-stu-id="e8363-185">In the **Duration** field, specify when the approval process must be completed.</span></span> <span data-ttu-id="e8363-186">Seleccione una de las siguientes opciones:</span><span class="sxs-lookup"><span data-stu-id="e8363-186">Select one of the following options:</span></span>
+    -   <span data-ttu-id="e8363-187">**Horas**: escriba la cantidad de horas disponibles para completar el proceso de aprobación.</span><span class="sxs-lookup"><span data-stu-id="e8363-187">**Hours** – Enter the number of hours in which the approval process must be completed.</span></span> <span data-ttu-id="e8363-188">A continuación, seleccione el calendario que usa la organización y escriba la información pertinente acerca de la semana laboral de la organización.</span><span class="sxs-lookup"><span data-stu-id="e8363-188">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="e8363-189">**Días**: escriba la cantidad de días disponibles para completar el proceso de aprobación.</span><span class="sxs-lookup"><span data-stu-id="e8363-189">**Days** – Enter the number of days in which the approval process must be completed.</span></span> <span data-ttu-id="e8363-190">A continuación, seleccione el calendario que usa la organización y escriba la información pertinente acerca de la semana laboral de la organización.</span><span class="sxs-lookup"><span data-stu-id="e8363-190">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="e8363-191">**Semanas**: escriba la cantidad de semanas disponibles para completar el proceso de aprobación.</span><span class="sxs-lookup"><span data-stu-id="e8363-191">**Weeks** – Enter the number of weeks in which the approval process must be completed.</span></span>
+    -   <span data-ttu-id="e8363-192">**Meses**: seleccione el día y la semana en los que vence el plazo para completar el proceso de aprobación.</span><span class="sxs-lookup"><span data-stu-id="e8363-192">**Months** – Select the day and week by which the approval process must be completed.</span></span> <span data-ttu-id="e8363-193">Por ejemplo, tal vez desee que el proceso de aprobación se haya completado antes del viernes de la tercera semana del mes.</span><span class="sxs-lookup"><span data-stu-id="e8363-193">For example, you may want the approval process to be completed by Friday of the third week of the month.</span></span>
+    -   <span data-ttu-id="e8363-194">**Años**: seleccione el día, la semana y el mes en los que vence el plazo para completar el proceso de aprobación.</span><span class="sxs-lookup"><span data-stu-id="e8363-194">**Years** – Select the day, week, and month by which the approval process must be completed.</span></span> <span data-ttu-id="e8363-195">Por ejemplo, tal vez desee que el proceso de aprobación se haya completado antes del viernes de la tercera semana de diciembre.</span><span class="sxs-lookup"><span data-stu-id="e8363-195">For example, you may want the approval process to be completed by Friday of the third week of December.</span></span>
 
-4.  Si se supera el límite de tiempo, el sistema realiza una acción en el documento. En la lista **Acción**, seleccione la acción que debe realizar el sistema.
+4.  <span data-ttu-id="e8363-196">Si se supera el límite de tiempo, el sistema realiza una acción en el documento.</span><span class="sxs-lookup"><span data-stu-id="e8363-196">If the time limit is exceeded, the system acts on the document.</span></span> <span data-ttu-id="e8363-197">En la lista **Acción**, seleccione la acción que debe realizar el sistema.</span><span class="sxs-lookup"><span data-stu-id="e8363-197">In the **Action** list, select the action that the system should take.</span></span>
 
-## <a name="specify-which-actions-are-available-to-the-user"></a>Especificación de las acciones de las que dispone el usuario
-Cuando se asigna un documento a un usuario para que lo apruebe, este debe realizar alguna acción. Siga estos pasos para especificar las acciones que el usuario puede realizar en el documento enviado.
-1.  En el panel izquiero, haga clic en **Configuración avanzada**.
-2.  Active la casilla de verificación **Aprobar** si el usuario puede aprobar el documento.
-3.  Active la casilla de verificación **Rechazar** si el usuario puede rechazar el documento.
-4.  Active la casilla de verificación **Solicitar cambio** si el usuario puede solicitar que se realicen cambios en el documento.
-5.  Active la casilla de verificación **Delegar** si el usuario puede asignar el documento a otro usuario para que lo apruebe.
+## <a name="specify-which-actions-are-available-to-the-user"></a><span data-ttu-id="e8363-198">Especificación de las acciones de las que dispone el usuario</span><span class="sxs-lookup"><span data-stu-id="e8363-198">Specify which actions are available to the user</span></span>
+<span data-ttu-id="e8363-199">Cuando se asigna un documento a un usuario para que lo apruebe, este debe realizar alguna acción.</span><span class="sxs-lookup"><span data-stu-id="e8363-199">When a document is assigned to a user for approval, the user must act on the document.</span></span> <span data-ttu-id="e8363-200">Siga estos pasos para especificar las acciones que el usuario puede realizar en el documento enviado.</span><span class="sxs-lookup"><span data-stu-id="e8363-200">Follows these steps to specify which actions the user can take on the document that was submitted.</span></span>
+1.  <span data-ttu-id="e8363-201">En el panel izquiero, haga clic en **Configuración avanzada**.</span><span class="sxs-lookup"><span data-stu-id="e8363-201">In the left pane, click **Advanced settings**.</span></span>
+2.  <span data-ttu-id="e8363-202">Active la casilla de verificación **Aprobar** si el usuario puede aprobar el documento.</span><span class="sxs-lookup"><span data-stu-id="e8363-202">Select the **Approve** check box if the user can approve the document.</span></span>
+3.  <span data-ttu-id="e8363-203">Active la casilla de verificación **Rechazar** si el usuario puede rechazar el documento.</span><span class="sxs-lookup"><span data-stu-id="e8363-203">Select the **Reject** check box the user can reject the document.</span></span>
+4.  <span data-ttu-id="e8363-204">Active la casilla de verificación **Solicitar cambio** si el usuario puede solicitar que se realicen cambios en el documento.</span><span class="sxs-lookup"><span data-stu-id="e8363-204">Select the **Request change** check box the user can request changes to the document.</span></span>
+5.  <span data-ttu-id="e8363-205">Active la casilla de verificación **Delegar** si el usuario puede asignar el documento a otro usuario para que lo apruebe.</span><span class="sxs-lookup"><span data-stu-id="e8363-205">Select the **Delegate** check box if the user can assign the document to another user for approval.</span></span>
 
-**Nota**: **las acciones de permiso de la casilla de verificación de la lista de trabajo de Enterprise Portal** se han quedado obsoletas.
+<span data-ttu-id="e8363-206">**Nota**: **las acciones de permiso de la casilla de verificación de la lista de trabajo de Enterprise Portal** se han quedado obsoletas.</span><span class="sxs-lookup"><span data-stu-id="e8363-206">**Note**: The **Enable actions from the work list in Enterprise Portal** check box has been deprecated.</span></span>
 
-## <a name="configure-the-approval-steps"></a> Configuración de los pasos de aprobación
-Los procesos de aprobación se componen de pasos de aprobación. Realice el siguiente procedimiento para agregar pasos en el proceso de aprobación y configurarlos.
-1.  En el editor de flujo de trabajo, haga doble clic en el proceso de aprobación. Los pasos del proceso se mostrarán en el editor de flujo de trabajo.
-2.  Para agregar un paso de aprobación, arrástrelo desde el área de **Elementos del flujo de trabajo** al lienzo.
-3.  Para configurar un paso de aprobación, vea [Configuración de un paso de aprobación](configure-approval-step-workflow.md).
+## <a name="configure-the-approval-steps"></a><span data-ttu-id="e8363-207"> Configuración de los pasos de aprobación</span><span class="sxs-lookup"><span data-stu-id="e8363-207">Configure the approval steps</span></span>
+<span data-ttu-id="e8363-208">Los procesos de aprobación se componen de pasos de aprobación.</span><span class="sxs-lookup"><span data-stu-id="e8363-208">An approval process consists of approval steps.</span></span> <span data-ttu-id="e8363-209">Realice el siguiente procedimiento para agregar pasos en el proceso de aprobación y configurarlos.</span><span class="sxs-lookup"><span data-stu-id="e8363-209">Complete the following procedure to add steps the approval process and configure the steps.</span></span>
+1.  <span data-ttu-id="e8363-210">En el editor de flujo de trabajo, haga doble clic en el proceso de aprobación.</span><span class="sxs-lookup"><span data-stu-id="e8363-210">In the workflow editor, double-click the approval process.</span></span> <span data-ttu-id="e8363-211">Los pasos del proceso se mostrarán en el editor de flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="e8363-211">The workflow editor displays the steps of the approval process.</span></span>
+2.  <span data-ttu-id="e8363-212">Para agregar un paso de aprobación, arrástrelo desde el área de **Elementos del flujo de trabajo** al lienzo.</span><span class="sxs-lookup"><span data-stu-id="e8363-212">To add an approval step, drag the step from the **Workflow elements** area to the canvas.</span></span>
+3.  <span data-ttu-id="e8363-213">Para configurar un paso de aprobación, vea [Configuración de un paso de aprobación](configure-approval-step-workflow.md).</span><span class="sxs-lookup"><span data-stu-id="e8363-213">To configure an approval step, see [Configure an approval step](configure-approval-step-workflow.md).</span></span>
 
 
 

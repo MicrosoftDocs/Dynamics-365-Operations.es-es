@@ -17,102 +17,102 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 38b60098daa0389af596920682c30dcd9b17a7fb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-containerization"></a>Configurar lógica de creación de contenedores
+# <a name="set-up-containerization"></a><span data-ttu-id="3b1ae-103">Configurar lógica de creación de contenedores</span><span class="sxs-lookup"><span data-stu-id="3b1ae-103">Set up containerization</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento describe cómo automatizar la creación de contenedores de cargas en Administración de almacenes. La creación de contenedores automatizada crea contenedores y el trabajo de picking para envíos cuando se procesa una oleada y las líneas de trabajo se pueden dividir en cantidades que se ajusten a los contenedores. Esto ayuda a los trabajadores de almacén a seleccionar los artículos directamente en el contenedor elegido. En comparación con el proceso de embalaje manual, las tareas como la creación de contenedores, la asignación de artículos y el cierre de contenedores se automatizan por el sistema. Este procedimiento usa la empresa de demostración USM y lo lleva a cabo un director de almacén.
+<span data-ttu-id="3b1ae-104">Este procedimiento describe cómo automatizar la creación de contenedores de cargas en Administración de almacenes.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-104">This procedure describes how to automate the containerization of loads in Warehouse management.</span></span> <span data-ttu-id="3b1ae-105">La creación de contenedores automatizada crea contenedores y el trabajo de picking para envíos cuando se procesa una oleada y las líneas de trabajo se pueden dividir en cantidades que se ajusten a los contenedores.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-105">Automated containerization creates containers and the picking work for shipments when a wave is processed and work lines can be split into quantities that fit the containers.</span></span> <span data-ttu-id="3b1ae-106">Esto ayuda a los trabajadores de almacén a seleccionar los artículos directamente en el contenedor elegido.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-106">This helps warehouse workers to pick the items directly into the chosen container.</span></span> <span data-ttu-id="3b1ae-107">En comparación con el proceso de embalaje manual, las tareas como la creación de contenedores, la asignación de artículos y el cierre de contenedores se automatizan por el sistema.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-107">Compared to the manual packing process, tasks such as creating containers, assigning items, and closing containers are automated by the system.</span></span> <span data-ttu-id="3b1ae-108">Este procedimiento usa la empresa de demostración USM y lo lleva a cabo un director de almacén.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-108">This procedure uses the USMF demo company and is performed by a Warehouse manager.</span></span>
 
 
-## <a name="set-up-a-wave-template"></a>Configurar una plantilla de oleada
-1. Vaya a Gestión de almacenes > Configurar > Oleadas > Plantillas de oleada.
-2. Haga clic en Nuevo.
-3. En el campo Nombre de la plantilla de oleada, escriba un valor.
-4. En el campo Descripción de la plantilla de oleada, escriba un valor.
-5. En el campo Sitio, especifique o seleccione un valor.
-6. En el campo Almacén, especifique o seleccione un valor.
-7. Expanda la sección Métodos.
-    * En el panel Métodos de selección se muestran los métodos para el tipo de plantilla de oleada seleccionado. La plantilla de oleada debe incluir el método de creación de contenedores.  
-8. En la lista, busque y seleccione el registro deseado.
-9. En el campo Código de paso de oleada, escriba un valor.
-    * Especifique un código de paso de oleada para el método agregado, que puede ser cualquier código. Es posible agregar el método más de una vez y asignar diferentes códigos de paso de oleada. Para ello, seleccione Repetible para este método en la página Métodos de procesamiento de oleada.  
-10. Haga clic en Guardar.
-11. Cierre la página.
+## <a name="set-up-a-wave-template"></a><span data-ttu-id="3b1ae-109">Configurar una plantilla de oleada</span><span class="sxs-lookup"><span data-stu-id="3b1ae-109">Set up a wave template</span></span>
+1. <span data-ttu-id="3b1ae-110">Vaya a Gestión de almacenes > Configurar > Oleadas > Plantillas de oleada.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-110">Go to Warehouse management > Setup > Waves > Wave templates.</span></span>
+2. <span data-ttu-id="3b1ae-111">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-111">Click New.</span></span>
+3. <span data-ttu-id="3b1ae-112">En el campo Nombre de la plantilla de oleada, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-112">In the Wave template name field, type a value.</span></span>
+4. <span data-ttu-id="3b1ae-113">En el campo Descripción de la plantilla de oleada, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-113">In the Wave template description field, type a value.</span></span>
+5. <span data-ttu-id="3b1ae-114">En el campo Sitio, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-114">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="3b1ae-115">En el campo Almacén, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-115">In the Warehouse field, enter or select a value.</span></span>
+7. <span data-ttu-id="3b1ae-116">Expanda la sección Métodos.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-116">Expand the Methods section.</span></span>
+    * <span data-ttu-id="3b1ae-117">En el panel Métodos de selección se muestran los métodos para el tipo de plantilla de oleada seleccionado.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-117">The Selected methods pane lists the methods for the selected wave template type.</span></span> <span data-ttu-id="3b1ae-118">La plantilla de oleada debe incluir el método de creación de contenedores.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-118">The wave template must include the containerize method.</span></span>  
+8. <span data-ttu-id="3b1ae-119">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-119">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="3b1ae-120">En el campo Código de paso de oleada, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-120">In the Wave step code field, type a value.</span></span>
+    * <span data-ttu-id="3b1ae-121">Especifique un código de paso de oleada para el método agregado, que puede ser cualquier código.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-121">Enter a Wave step code for the added method, which can be any code.</span></span> <span data-ttu-id="3b1ae-122">Es posible agregar el método más de una vez y asignar diferentes códigos de paso de oleada.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-122">It’s possible to add the method more than once and assign different wave step codes.</span></span> <span data-ttu-id="3b1ae-123">Para ello, seleccione Repetible para este método en la página Métodos de procesamiento de oleada.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-123">To do this, select Repeatable for this method in the Wave process methods page.</span></span>  
+10. <span data-ttu-id="3b1ae-124">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-124">Click Save.</span></span>
+11. <span data-ttu-id="3b1ae-125">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-125">Close the page.</span></span>
 
-## <a name="set-up-a-container-type"></a>Configure un tipo de contenedor.
-1. Vaya a Administración de almacenes > Configurar > Contenedores > Tipos de contenedor.
-    * Puede definir sus contenedores en la página Tipos de contenedor. Puede configurar las dimensiones físicas de los contenedores, incluida la tara, el peso máximo, el volumen máximo, la longitud máxima, el ancho y el alto. En este ejemplo, tenemos tres tamaños diferentes de cajas.  
-2. Haga clic en Nuevo.
-3. En el campo Código de tipo de contenedor, escriba un valor.
-4. En el campo Tara, escriba un número.
-5. Escriba un número en el campo Peso máximo.
-6. En el campo Volumen, escriba un número.
-7. En el campo Longitud, especifique un número.
-8. En el campo Ancho, escriba un número.
-9. En el campo Alto, escriba un número.
-10. En el campo Descripción, escriba un valor.
-11. Haga clic en Guardar.
-12. Haga clic en Nuevo.
-13. En el campo Código de tipo de contenedor, escriba un valor.
-14. En el campo Descripción, escriba un valor.
-15. En el campo Tara, escriba un número.
-16. Escriba un número en el campo Peso máximo.
-17. En el campo Volumen, escriba un número.
-18. En el campo Longitud, especifique un número.
-19. En el campo Ancho, escriba un número.
-20. En el campo Alto, escriba un número.
-21. Haga clic en Guardar.
-22. Haga clic en Nuevo.
-23. En el campo Código de tipo de contenedor, escriba un valor.
-24. En el campo Descripción, escriba un valor.
-25. En el campo Tara, escriba un número.
-26. Escriba un número en el campo Peso máximo.
-27. En el campo Volumen, escriba un número.
-28. En el campo Longitud, especifique un número.
-29. En el campo Ancho, escriba un número.
-30. En el campo Alto, escriba un número.
-31. Haga clic en Guardar.
-32. Cierre la página.
+## <a name="set-up-a-container-type"></a><span data-ttu-id="3b1ae-126">Configure un tipo de contenedor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-126">Set up a container type</span></span>
+1. <span data-ttu-id="3b1ae-127">Vaya a Administración de almacenes > Configurar > Contenedores > Tipos de contenedor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-127">Go to Warehouse management > Setup > Containers > Container types.</span></span>
+    * <span data-ttu-id="3b1ae-128">Puede definir sus contenedores en la página Tipos de contenedor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-128">You can define your containers in the Container types page.</span></span> <span data-ttu-id="3b1ae-129">Puede configurar las dimensiones físicas de los contenedores, incluida la tara, el peso máximo, el volumen máximo, la longitud máxima, el ancho y el alto.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-129">You can configure the physical dimensions of containers including tare weight, maximum weight, maximum volume, length, width, and height.</span></span> <span data-ttu-id="3b1ae-130">En este ejemplo, tenemos tres tamaños diferentes de cajas.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-130">In this example, we have three different sizes of boxes.</span></span>  
+2. <span data-ttu-id="3b1ae-131">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-131">Click New.</span></span>
+3. <span data-ttu-id="3b1ae-132">En el campo Código de tipo de contenedor, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-132">In the Container type code field, type a value.</span></span>
+4. <span data-ttu-id="3b1ae-133">En el campo Tara, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-133">In the Tare weight field, enter a number.</span></span>
+5. <span data-ttu-id="3b1ae-134">Escriba un número en el campo Peso máximo.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-134">In the Maximum weight field, enter a number.</span></span>
+6. <span data-ttu-id="3b1ae-135">En el campo Volumen, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-135">In the Volume field, enter a number.</span></span>
+7. <span data-ttu-id="3b1ae-136">En el campo Longitud, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-136">In the Length field, enter a number.</span></span>
+8. <span data-ttu-id="3b1ae-137">En el campo Ancho, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-137">In the Width field, enter a number.</span></span>
+9. <span data-ttu-id="3b1ae-138">En el campo Alto, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-138">In the Height field, enter a number.</span></span>
+10. <span data-ttu-id="3b1ae-139">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-139">In the Description field, type a value.</span></span>
+11. <span data-ttu-id="3b1ae-140">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-140">Click Save.</span></span>
+12. <span data-ttu-id="3b1ae-141">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-141">Click New.</span></span>
+13. <span data-ttu-id="3b1ae-142">En el campo Código de tipo de contenedor, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-142">In the Container type code field, type a value.</span></span>
+14. <span data-ttu-id="3b1ae-143">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-143">In the Description field, type a value.</span></span>
+15. <span data-ttu-id="3b1ae-144">En el campo Tara, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-144">In the Tare weight field, enter a number.</span></span>
+16. <span data-ttu-id="3b1ae-145">Escriba un número en el campo Peso máximo.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-145">In the Maximum weight field, enter a number.</span></span>
+17. <span data-ttu-id="3b1ae-146">En el campo Volumen, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-146">In the Volume field, enter a number.</span></span>
+18. <span data-ttu-id="3b1ae-147">En el campo Longitud, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-147">In the Length field, enter a number.</span></span>
+19. <span data-ttu-id="3b1ae-148">En el campo Ancho, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-148">In the Width field, enter a number.</span></span>
+20. <span data-ttu-id="3b1ae-149">En el campo Alto, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-149">In the Height field, enter a number.</span></span>
+21. <span data-ttu-id="3b1ae-150">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-150">Click Save.</span></span>
+22. <span data-ttu-id="3b1ae-151">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-151">Click New.</span></span>
+23. <span data-ttu-id="3b1ae-152">En el campo Código de tipo de contenedor, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-152">In the Container type code field, type a value.</span></span>
+24. <span data-ttu-id="3b1ae-153">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-153">In the Description field, type a value.</span></span>
+25. <span data-ttu-id="3b1ae-154">En el campo Tara, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-154">In the Tare weight field, enter a number.</span></span>
+26. <span data-ttu-id="3b1ae-155">Escriba un número en el campo Peso máximo.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-155">In the Maximum weight field, enter a number.</span></span>
+27. <span data-ttu-id="3b1ae-156">En el campo Volumen, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-156">In the Volume field, enter a number.</span></span>
+28. <span data-ttu-id="3b1ae-157">En el campo Longitud, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-157">In the Length field, enter a number.</span></span>
+29. <span data-ttu-id="3b1ae-158">En el campo Ancho, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-158">In the Width field, enter a number.</span></span>
+30. <span data-ttu-id="3b1ae-159">En el campo Alto, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-159">In the Height field, enter a number.</span></span>
+31. <span data-ttu-id="3b1ae-160">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-160">Click Save.</span></span>
+32. <span data-ttu-id="3b1ae-161">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-161">Close the page.</span></span>
 
-## <a name="set-up-a-container-group"></a>Configurar un grupo de contenedores
-1. Vaya a Administración de almacenes > Configurar > Contenedores > Grupos de contenedores.
-2. Haga clic en Nuevo.
-    * Puede configurar grupos lógicos de tipos de contenedores. Para cada grupo, puede especificar la secuencia en la que se deben empaquetar los contenedores y el porcentaje de relleno de los contenedores. Las dimensiones del artículo se usan para determinar si cabrá en el contenedor. Se usa el contenedor que se encuentra más cercano a las dimensiones de tamaño del artículo. Si tiene varios tipos de contenedor en un grupo, se recomienda que organice la secuencia por tamaños, de modo que el contenedor más grande sea el primero, número 1 en la secuencia, y el contenedor más pequeño el último.    
-3. En el campo Id. de grupo de contenedores, escriba un valor.
-4. En el campo Descripción, escriba un valor.
-5. Haga clic en Nuevo.
-6. En la lista, marque la fila seleccionada.
-7. En el campo Tipo de contenedor, especifique o seleccione un valor.
-8. Haga clic en Nuevo.
-9. En la lista, marque la fila seleccionada.
-10. En el campo Tipo de contenedor, especifique o seleccione un valor.
-11. Haga clic en Nuevo.
-12. En la lista, marque la fila seleccionada.
-13. En el campo Tipo de contenedor, especifique o seleccione un valor.
-14. Haga clic en Guardar.
-15. Cierre la página.
+## <a name="set-up-a-container-group"></a><span data-ttu-id="3b1ae-162">Configurar un grupo de contenedores</span><span class="sxs-lookup"><span data-stu-id="3b1ae-162">Set up a container group</span></span>
+1. <span data-ttu-id="3b1ae-163">Vaya a Administración de almacenes > Configurar > Contenedores > Grupos de contenedores.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-163">Go to Warehouse management > Setup > Containers > Container groups.</span></span>
+2. <span data-ttu-id="3b1ae-164">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-164">Click New.</span></span>
+    * <span data-ttu-id="3b1ae-165">Puede configurar grupos lógicos de tipos de contenedores.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-165">You can set up logical groups of container types.</span></span> <span data-ttu-id="3b1ae-166">Para cada grupo, puede especificar la secuencia en la que se deben empaquetar los contenedores y el porcentaje de relleno de los contenedores. Las dimensiones del artículo se usan para determinar si cabrá en el contenedor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-166">For each group, you can specify the sequence in which to pack the containers and the percentage of the containers to fill.The size dimensions of the item is used to determine whether it will fit in a container.</span></span> <span data-ttu-id="3b1ae-167">Se usa el contenedor que se encuentra más cercano a las dimensiones de tamaño del artículo.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-167">The container that is closest to the size dimensions of the item is used.</span></span> <span data-ttu-id="3b1ae-168">Si tiene varios tipos de contenedor en un grupo, se recomienda que organice la secuencia por tamaños, de modo que el contenedor más grande sea el primero, número 1 en la secuencia, y el contenedor más pequeño el último.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-168">If you have multiple container types in a group, we recommend that you arrange the sequence by size, so that the largest container is first, number 1 in the sequence, and the smallest container is last.</span></span>    
+3. <span data-ttu-id="3b1ae-169">En el campo Id. de grupo de contenedores, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-169">In the Container group ID field, type a value.</span></span>
+4. <span data-ttu-id="3b1ae-170">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-170">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="3b1ae-171">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-171">Click New.</span></span>
+6. <span data-ttu-id="3b1ae-172">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-172">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="3b1ae-173">En el campo Tipo de contenedor, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-173">In the Container type field, enter or select a value.</span></span>
+8. <span data-ttu-id="3b1ae-174">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-174">Click New.</span></span>
+9. <span data-ttu-id="3b1ae-175">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-175">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="3b1ae-176">En el campo Tipo de contenedor, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-176">In the Container type field, enter or select a value.</span></span>
+11. <span data-ttu-id="3b1ae-177">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-177">Click New.</span></span>
+12. <span data-ttu-id="3b1ae-178">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-178">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="3b1ae-179">En el campo Tipo de contenedor, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-179">In the Container type field, enter or select a value.</span></span>
+14. <span data-ttu-id="3b1ae-180">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-180">Click Save.</span></span>
+15. <span data-ttu-id="3b1ae-181">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-181">Close the page.</span></span>
 
-## <a name="set-up-a-container-build-template"></a>Configurar una plantilla de creación de contenedores
-1. Vaya a Administración de almacenes > Configurar > Contenedores > Plantillas de creación de contenedores.
-2. Haga clic en Nuevo.
-    * La plantilla de creación de contenedores se basa en cuáles de los procesos de creación de contenedores se realizan. Cada plantilla de creación de contenedores define un proceso de creación de contenedores que se usará por una plantilla de oleada. La opción Editar consulta le permite definir las condiciones en las que se procesará la plantilla seleccionada. Por ejemplo, puede que desee ejecutar solo la creación de contenedores para clientes, productos o almacenes específicos, o puede agregar los intervalos de consultas correspondientes a la plantilla. El campo Código de paso de oleada es cómo una plantilla de creación de contenedores se vincula a los pasos de una plantilla de oleada. Cuando se ejecuta una oleada, determina qué plantilla de creación de contenedores se usan para iniciar la creación de contenedores. El campo Tipos de consulta base determina qué embalar y en qué se basará la consulta del filtro.  
-3. En la lista, marque la fila seleccionada.
-4. En el campo Id. de plantilla de contenedor, escriba un valor.
-5. En el campo Id. de grupo de contenedores, especifique o seleccione un valor.
-6. En el campo Código de paso de oleada, escriba un valor.
-7. Active la casilla Permitir selecciones divididas.
-8. Haga clic en Guardar.
-9. Haga clic en Restricciones de combinación de contenedor.
-    * Las interrupciones de lógica de combinación le permiten configurar reglas para embalar líneas de asignación en contenedores. Por ejemplo, si agrega el campo Número de artículo, cuando los artículos se asignen a los contenedores, se crearán un nuevo contenedor cuando haya un nuevo número de artículo. Esto evitará que los trabajadores embalen líneas de asignación para dos clientes diferentes en el mismo contenedor.  
-10. Haga clic en Nuevo.
-11. En el campo Tabla, seleccione una opción.
-12. En el campo Selección de campo, especifique o seleccione un valor.
-13. Haga clic en Aceptar
+## <a name="set-up-a-container-build-template"></a><span data-ttu-id="3b1ae-182">Configurar una plantilla de creación de contenedores</span><span class="sxs-lookup"><span data-stu-id="3b1ae-182">Set up a container build template</span></span>
+1. <span data-ttu-id="3b1ae-183">Vaya a Administración de almacenes > Configurar > Contenedores > Plantillas de creación de contenedores.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-183">Go to Warehouse management > Setup > Containers > Container build templates.</span></span>
+2. <span data-ttu-id="3b1ae-184">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-184">Click New.</span></span>
+    * <span data-ttu-id="3b1ae-185">La plantilla de creación de contenedores se basa en cuáles de los procesos de creación de contenedores se realizan.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-185">The container build template is based on which of the containerization processes are performed.</span></span> <span data-ttu-id="3b1ae-186">Cada plantilla de creación de contenedores define un proceso de creación de contenedores que se usará por una plantilla de oleada.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-186">Each container build template defines one containerization process that will be used by a wave template.</span></span> <span data-ttu-id="3b1ae-187">La opción Editar consulta le permite definir las condiciones en las que se procesará la plantilla seleccionada.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-187">The Edit query option allows you to define the conditions on which the selected template will be processed.</span></span> <span data-ttu-id="3b1ae-188">Por ejemplo, puede que desee ejecutar solo la creación de contenedores para clientes, productos o almacenes específicos, o puede agregar los intervalos de consultas correspondientes a la plantilla.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-188">For example, you may want to only run containerization for specific customers, products, or warehouses or you can add the corresponding query ranges to the template.</span></span> <span data-ttu-id="3b1ae-189">El campo Código de paso de oleada es cómo una plantilla de creación de contenedores se vincula a los pasos de una plantilla de oleada.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-189">The Wave step code field is how a container build template is linked to steps in a wave template.</span></span> <span data-ttu-id="3b1ae-190">Cuando se ejecuta una oleada, determina qué plantilla de creación de contenedores se usan para iniciar la creación de contenedores.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-190">When a wave is executed, it determines which container build template(s) are used to initiate containerization.</span></span> <span data-ttu-id="3b1ae-191">El campo Tipos de consulta base determina qué embalar y en qué se basará la consulta del filtro.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-191">The Base query type field determines what to pack and what to base the filter query on.</span></span>  
+3. <span data-ttu-id="3b1ae-192">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-192">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="3b1ae-193">En el campo Id. de plantilla de contenedor, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-193">In the Container template ID field, type a value.</span></span>
+5. <span data-ttu-id="3b1ae-194">En el campo Id. de grupo de contenedores, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-194">In the Container group ID field, enter or select a value.</span></span>
+6. <span data-ttu-id="3b1ae-195">En el campo Código de paso de oleada, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-195">In the Wave step code field, type a value.</span></span>
+7. <span data-ttu-id="3b1ae-196">Active la casilla Permitir selecciones divididas.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-196">Select the Allow split picks check box.</span></span>
+8. <span data-ttu-id="3b1ae-197">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-197">Click Save.</span></span>
+9. <span data-ttu-id="3b1ae-198">Haga clic en Restricciones de combinación de contenedor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-198">Click Containier mixing constraints.</span></span>
+    * <span data-ttu-id="3b1ae-199">Las interrupciones de lógica de combinación le permiten configurar reglas para embalar líneas de asignación en contenedores.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-199">Mixing logic breaks allows you to set up rules for packing allocation lines in containers.</span></span> <span data-ttu-id="3b1ae-200">Por ejemplo, si agrega el campo Número de artículo, cuando los artículos se asignen a los contenedores, se crearán un nuevo contenedor cuando haya un nuevo número de artículo.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-200">For example, if you add the Item number field, when items are assigned to containers, a new container will be created when there is a new item number.</span></span> <span data-ttu-id="3b1ae-201">Esto evitará que los trabajadores embalen líneas de asignación para dos clientes diferentes en el mismo contenedor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-201">This is will prevent workers from packing allocations lines for two different customers in the same container.</span></span>  
+10. <span data-ttu-id="3b1ae-202">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-202">Click New.</span></span>
+11. <span data-ttu-id="3b1ae-203">En el campo Tabla, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-203">In the Table field, select an option.</span></span>
+12. <span data-ttu-id="3b1ae-204">En el campo Selección de campo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="3b1ae-204">In the Field Select field, enter or select a value.</span></span>
+13. <span data-ttu-id="3b1ae-205">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="3b1ae-205">Click OK.</span></span>
 
 

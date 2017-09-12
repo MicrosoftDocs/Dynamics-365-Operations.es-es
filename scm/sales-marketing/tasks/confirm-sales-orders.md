@@ -16,56 +16,56 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: b0853e6a326a90b022bedc3b898d6c1b218c5fa2
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7cab69222c5004e6a62c632a9e85085403434ffd
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="confirm-sales-orders"></a>Confirmar pedidos de ventas
+# <a name="confirm-sales-orders"></a><span data-ttu-id="08fe6-103">Confirmar pedidos de ventas</span><span class="sxs-lookup"><span data-stu-id="08fe6-103">Confirm sales orders</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo confirmar pedidos de ventas. Se le mostrará cómo confirmar un solo pedido y cómo confirmar varios pedidos de una vez. Estas tareas las realizará normalmente la persona encargada de procesar los pedidos de ventas. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Antes de empezar, asegúrese de que haya varios pedidos de ventas abiertos para el mismo cliente. Si está usando USMF, puede usar el cliente US-027.
+<span data-ttu-id="08fe6-104">Este procedimiento muestra cómo confirmar pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="08fe6-104">This procedure demonstrates how to confirm sales orders.</span></span> <span data-ttu-id="08fe6-105">Se le mostrará cómo confirmar un solo pedido y cómo confirmar varios pedidos de una vez.</span><span class="sxs-lookup"><span data-stu-id="08fe6-105">You’ll be shown how to confirm a single order, and how to confirm multiple orders at once.</span></span> <span data-ttu-id="08fe6-106">Estas tareas las realizará normalmente la persona encargada de procesar los pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="08fe6-106">These tasks would typically be carried out by a sales order processor.</span></span> <span data-ttu-id="08fe6-107">Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.</span><span class="sxs-lookup"><span data-stu-id="08fe6-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="08fe6-108">Antes de empezar, asegúrese de que haya varios pedidos de ventas abiertos para el mismo cliente.</span><span class="sxs-lookup"><span data-stu-id="08fe6-108">Before you start, make sure there are several open sales orders for the same customer.</span></span> <span data-ttu-id="08fe6-109">Si está usando USMF, puede usar el cliente US-027.</span><span class="sxs-lookup"><span data-stu-id="08fe6-109">If you’re using USMF, you can use customer US-027.</span></span>
 
 
-## <a name="confirm-a-single-sales-order"></a>Confirmación de un solo pedido de ventas
-1. Vaya a Ventas y marketing > Pedidos de ventas > Todos los pedidos de ventas.
-2. En la lista, busque y seleccione el pedido que desee confirmar.
-3. Haga clic en el vínculo en el número de pedido de ventas para abrir el pedido seleccionado.
-4. En el panel de acciones, haga clic en Vender.
-5. Haga clic en Confirmar pedido de ventas.
-6. Expanda o contraiga la sección Parámetros.
-    * Asegúrese de que el campo de confirmación de registro esté activo.  
-7. Establezca la opción Imprimir confirmación en Sí.
-    * El campo Comprobar límite de crédito especifica el método que se usa para calcular el crédito que le queda a un cliente. De forma predeterminada, se copia desde la página Parámetros de clientes. Si desea omitir la comprobación del límite de crédito al confirmar un pedido de ventas específico, defina Comprobar límite de crédito en Ninguno. No obstante, debe tener presente que, incluso si este campo está establecido en Ninguno, la comprobación del límite de crédito se seguirá realizando si la opción Límite de crédito obligatorio está seleccionada en los datos maestros del cliente.  
-8. Haga clic en Aceptar
-9. Haga clic en Sí.
-10. Cierre la página.
-11. En el panel de acciones, haga clic en Opciones.
-12. Haga clic en Cambiar vista.
-13. Haga clic en Visualización de encabezado.
-    * Cuando se confirma un pedido, el estado del documento se establece en Confirmación.  
-14. En el panel de acciones, haga clic en Vender.
-15. Haga clic en Confirmación del pedido de ventas.
-16. Cierre la página.
+## <a name="confirm-a-single-sales-order"></a><span data-ttu-id="08fe6-110">Confirmación de un solo pedido de ventas</span><span class="sxs-lookup"><span data-stu-id="08fe6-110">Confirm a single sales order</span></span>
+1. <span data-ttu-id="08fe6-111">Vaya a Ventas y marketing > Pedidos de ventas > Todos los pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="08fe6-111">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="08fe6-112">En la lista, busque y seleccione el pedido que desee confirmar.</span><span class="sxs-lookup"><span data-stu-id="08fe6-112">In the list, find and select the order that you want to confirm.</span></span>
+3. <span data-ttu-id="08fe6-113">Haga clic en el vínculo en el número de pedido de ventas para abrir el pedido seleccionado.</span><span class="sxs-lookup"><span data-stu-id="08fe6-113">Click the link on the sales order number to open the selected order.</span></span>
+4. <span data-ttu-id="08fe6-114">En el panel de acciones, haga clic en Vender.</span><span class="sxs-lookup"><span data-stu-id="08fe6-114">On the Action Pane, click Sell.</span></span>
+5. <span data-ttu-id="08fe6-115">Haga clic en Confirmar pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="08fe6-115">Click Confirm sales order.</span></span>
+6. <span data-ttu-id="08fe6-116">Expanda o contraiga la sección Parámetros.</span><span class="sxs-lookup"><span data-stu-id="08fe6-116">Expand or collapse the Parameters section.</span></span>
+    * <span data-ttu-id="08fe6-117">Asegúrese de que el campo de confirmación de registro esté activo.</span><span class="sxs-lookup"><span data-stu-id="08fe6-117">Make sure that the Posting Yes field is active.</span></span>  
+7. <span data-ttu-id="08fe6-118">Establezca la opción Imprimir confirmación en Sí.</span><span class="sxs-lookup"><span data-stu-id="08fe6-118">Set the Print confirmation option to Yes.</span></span>
+    * <span data-ttu-id="08fe6-119">El campo Comprobar límite de crédito especifica el método que se usa para calcular el crédito que le queda a un cliente.</span><span class="sxs-lookup"><span data-stu-id="08fe6-119">The Check credit limit field specifies the method that’s used to calculate a customer's remaining credit.</span></span> <span data-ttu-id="08fe6-120">De forma predeterminada, se copia desde la página Parámetros de clientes.</span><span class="sxs-lookup"><span data-stu-id="08fe6-120">By default, it’s copied from the Accounts receivable parameters page.</span></span> <span data-ttu-id="08fe6-121">Si desea omitir la comprobación del límite de crédito al confirmar un pedido de ventas específico, defina Comprobar límite de crédito en Ninguno.</span><span class="sxs-lookup"><span data-stu-id="08fe6-121">If you want to skip the credit limit check when confirming a specific sales order, set the Check credit limit to None.</span></span> <span data-ttu-id="08fe6-122">No obstante, debe tener presente que, incluso si este campo está establecido en Ninguno, la comprobación del límite de crédito se seguirá realizando si la opción Límite de crédito obligatorio está seleccionada en los datos maestros del cliente.</span><span class="sxs-lookup"><span data-stu-id="08fe6-122">However, you should be aware that even with if this field is set to None, the credit limit check will still be performed if the Mandatory credit limit option is selected on the customer master data.</span></span>  
+8. <span data-ttu-id="08fe6-123">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="08fe6-123">Click OK.</span></span>
+9. <span data-ttu-id="08fe6-124">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="08fe6-124">Click Yes.</span></span>
+10. <span data-ttu-id="08fe6-125">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="08fe6-125">Close the page.</span></span>
+11. <span data-ttu-id="08fe6-126">En el panel de acciones, haga clic en Opciones.</span><span class="sxs-lookup"><span data-stu-id="08fe6-126">On the Action Pane, click Options.</span></span>
+12. <span data-ttu-id="08fe6-127">Haga clic en Cambiar vista.</span><span class="sxs-lookup"><span data-stu-id="08fe6-127">Click Change view.</span></span>
+13. <span data-ttu-id="08fe6-128">Haga clic en Visualización de encabezado.</span><span class="sxs-lookup"><span data-stu-id="08fe6-128">Click Header view.</span></span>
+    * <span data-ttu-id="08fe6-129">Cuando se confirma un pedido, el estado del documento se establece en Confirmación.</span><span class="sxs-lookup"><span data-stu-id="08fe6-129">When an order is confirmed, the Document status is set to Confirmation.</span></span>  
+14. <span data-ttu-id="08fe6-130">En el panel de acciones, haga clic en Vender.</span><span class="sxs-lookup"><span data-stu-id="08fe6-130">On the Action Pane, click Sell.</span></span>
+15. <span data-ttu-id="08fe6-131">Haga clic en Confirmación del pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="08fe6-131">Click Sales order confirmation.</span></span>
+16. <span data-ttu-id="08fe6-132">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="08fe6-132">Close the page.</span></span>
 
-## <a name="confirm-multiple-sales-orders-at-once"></a>Confirmación de varios pedidos de ventas a la vez
-1. Vaya a Ventas y marketing > Pedidos de ventas > Confirmación de pedido > Confirmar pedido de ventas.
-2. Haga clic en Seleccionar.
-3. En la lista de la ficha Rango, localice y seleccione el registro que hace referencia al campo Cuenta de cliente.
-4. En el campo Criterios, haga clic en el botón desplegable para abrir la búsqueda.
-5. En la lista, busque y seleccione la cuenta de cliente con los varios pedidos que desea confirmar en masa.
-    * Si está usando USMF, puede seleccionar la cuenta US-027.  
-6. Haga clic en Aceptar
-    * La ficha Visión general muestra una lista de los pedidos que coinciden con los criterios de la consulta. Estos se incluirán en la confirmación.  
-    * El campo Actualización conjunta para especifica el parámetro por el cual se reunirán varios pedidos en un documento de confirmación. De forma predeterminada, la opción se copia de los valores predeterminados del ajuste de actualización conjunta en la página Parámetros de clientes.  
-7. En el campo Actualización conjunta para, seleccione Pedido.
-    * Los parámetros mínimos requeridos para crear actualizaciones conjuntas son la cuenta de facturación y la divisa. Esto significa que no se permiten actualizaciones conjuntas con diferentes cuentas de facturación y divisas. Se pueden configurar parámetros adicionales en la página Parámetros de actualización conjunta, disponible desde la página Parámetros de clientes.  
-8. En el campo Pedido de ventas, haga clic en el botón desplegable para abrir la búsqueda.
-9. En la lista, seleccione el número del pedido que desea que sea el pedido de resumen.
-10. Haga clic en Organizar.
-11. Haga clic en Aceptar
-12. Haga clic en Aceptar
+## <a name="confirm-multiple-sales-orders-at-once"></a><span data-ttu-id="08fe6-133">Confirmación de varios pedidos de ventas a la vez</span><span class="sxs-lookup"><span data-stu-id="08fe6-133">Confirm multiple sales orders at once</span></span>
+1. <span data-ttu-id="08fe6-134">Vaya a Ventas y marketing > Pedidos de ventas > Confirmación de pedido > Confirmar pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="08fe6-134">Go to Sales and marketing > Sales orders > Order confirmation > Confirm sales order.</span></span>
+2. <span data-ttu-id="08fe6-135">Haga clic en Seleccionar.</span><span class="sxs-lookup"><span data-stu-id="08fe6-135">Click Select.</span></span>
+3. <span data-ttu-id="08fe6-136">En la lista de la ficha Rango, localice y seleccione el registro que hace referencia al campo Cuenta de cliente.</span><span class="sxs-lookup"><span data-stu-id="08fe6-136">In the list on the Range tab, find and select the record that references the Customer account field.</span></span>
+4. <span data-ttu-id="08fe6-137">En el campo Criterios, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="08fe6-137">In the Criteria field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="08fe6-138">En la lista, busque y seleccione la cuenta de cliente con los varios pedidos que desea confirmar en masa.</span><span class="sxs-lookup"><span data-stu-id="08fe6-138">In the list, find and select the customer account that has multiple orders which you want to mass confirm.</span></span>
+    * <span data-ttu-id="08fe6-139">Si está usando USMF, puede seleccionar la cuenta US-027.</span><span class="sxs-lookup"><span data-stu-id="08fe6-139">If you’re using USMF, you can select account US-027.</span></span>  
+6. <span data-ttu-id="08fe6-140">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="08fe6-140">Click OK.</span></span>
+    * <span data-ttu-id="08fe6-141">La ficha Visión general muestra una lista de los pedidos que coinciden con los criterios de la consulta.</span><span class="sxs-lookup"><span data-stu-id="08fe6-141">The Overview tab displays a list of the orders that match the query criteria.</span></span> <span data-ttu-id="08fe6-142">Estos se incluirán en la confirmación.</span><span class="sxs-lookup"><span data-stu-id="08fe6-142">These will be included in the confirmation.</span></span>  
+    * <span data-ttu-id="08fe6-143">El campo Actualización conjunta para especifica el parámetro por el cual se reunirán varios pedidos en un documento de confirmación.</span><span class="sxs-lookup"><span data-stu-id="08fe6-143">The Summary update for field specifies the parameter by which multiple orders are to be summarized into one confirmation document.</span></span> <span data-ttu-id="08fe6-144">De forma predeterminada, la opción se copia de los valores predeterminados del ajuste de actualización conjunta en la página Parámetros de clientes.</span><span class="sxs-lookup"><span data-stu-id="08fe6-144">By default, the option is copied from the Default values for summary update setting on the Accounts receivable parameters page.</span></span>  
+7. <span data-ttu-id="08fe6-145">En el campo Actualización conjunta para, seleccione Pedido.</span><span class="sxs-lookup"><span data-stu-id="08fe6-145">In the Summary update for field, select 'Order'.</span></span>
+    * <span data-ttu-id="08fe6-146">Los parámetros mínimos requeridos para crear actualizaciones conjuntas son la cuenta de facturación y la divisa.</span><span class="sxs-lookup"><span data-stu-id="08fe6-146">The minimum parameters that are required to create summary updates are Invoice account and Currency.</span></span> <span data-ttu-id="08fe6-147">Esto significa que no se permiten actualizaciones conjuntas con diferentes cuentas de facturación y divisas.</span><span class="sxs-lookup"><span data-stu-id="08fe6-147">This means that summary updates that have different invoice accounts and different currencies are not allowed.</span></span> <span data-ttu-id="08fe6-148">Se pueden configurar parámetros adicionales en la página Parámetros de actualización conjunta, disponible desde la página Parámetros de clientes.</span><span class="sxs-lookup"><span data-stu-id="08fe6-148">Additional parameters can be set up in the Summary update parameters page which is accessible from the Accounts receivable parameters page.</span></span>  
+8. <span data-ttu-id="08fe6-149">En el campo Pedido de ventas, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="08fe6-149">In the Sales order field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="08fe6-150">En la lista, seleccione el número del pedido que desea que sea el pedido de resumen.</span><span class="sxs-lookup"><span data-stu-id="08fe6-150">In the list, select the order number that you want to be the summary order.</span></span>
+10. <span data-ttu-id="08fe6-151">Haga clic en Organizar.</span><span class="sxs-lookup"><span data-stu-id="08fe6-151">Click Arrange.</span></span>
+11. <span data-ttu-id="08fe6-152">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="08fe6-152">Click OK.</span></span>
+12. <span data-ttu-id="08fe6-153">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="08fe6-153">Click OK.</span></span>
 
 

@@ -16,36 +16,36 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 2ab30f4326b627406f9a39d6c3203b181b67d68f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 754f28cd2831d8a9a57c408518d240de460b732b
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-segregation-of-duties"></a>Configuración de segregación de controles
+# <a name="set-up-segregation-of-duties"></a><span data-ttu-id="122e3-103">Configuración de segregación de controles</span><span class="sxs-lookup"><span data-stu-id="122e3-103">Set up segregation of duties</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Puede configurar reglas para tareas diferentes que deban llevar a cabo diferentes usuarios. Este concepto se denomina "segregación de controles". Por ejemplo, puede que no desee que sea la misma persona la que confirme la recepción de mercancías y procese el pago al proveedor. La segregación de controles ayuda a reducir el riesgo de fraude, y también ayuda a detectar errores o irregularidades. También puede usar la segregación de controles para aplicar directivas de control internas. Complete el siguiente procedimiento para crear una regla. Es necesario ser administrador del sistema para completar el procedimiento. La empresa de datos de demostración utilizada para crear este procedimiento es DAT. 
+<span data-ttu-id="122e3-104">Puede configurar reglas para tareas diferentes que deban llevar a cabo diferentes usuarios.</span><span class="sxs-lookup"><span data-stu-id="122e3-104">You can set up rules to separate tasks that must be performed by different users.</span></span> <span data-ttu-id="122e3-105">Este concepto se denomina "segregación de controles".</span><span class="sxs-lookup"><span data-stu-id="122e3-105">This concept is named segregation of duties.</span></span> <span data-ttu-id="122e3-106">Por ejemplo, puede que no desee que sea la misma persona la que confirme la recepción de mercancías y procese el pago al proveedor.</span><span class="sxs-lookup"><span data-stu-id="122e3-106">For example, you might not want the same person both to acknowledge the receipt of goods and to process payment to the vendor.</span></span> <span data-ttu-id="122e3-107">La segregación de controles ayuda a reducir el riesgo de fraude, y también ayuda a detectar errores o irregularidades.</span><span class="sxs-lookup"><span data-stu-id="122e3-107">Segregation of duties helps you reduce the risk of fraud, and it also helps you detect errors or irregularities.</span></span> <span data-ttu-id="122e3-108">También puede usar la segregación de controles para aplicar directivas de control internas.</span><span class="sxs-lookup"><span data-stu-id="122e3-108">You can also use segregation of duties to enforce internal control policies.</span></span> <span data-ttu-id="122e3-109">Complete el siguiente procedimiento para crear una regla.</span><span class="sxs-lookup"><span data-stu-id="122e3-109">Complete the following procedure to create a rule.</span></span> <span data-ttu-id="122e3-110">Es necesario ser administrador del sistema para completar el procedimiento.</span><span class="sxs-lookup"><span data-stu-id="122e3-110">You must be a system administrator to complete the procedure.</span></span> <span data-ttu-id="122e3-111">La empresa de datos de demostración utilizada para crear este procedimiento es DAT.</span><span class="sxs-lookup"><span data-stu-id="122e3-111">The demo data company used to create this procedure is DAT.</span></span> 
 
-1. Vaya a Administración del sistema > Seguridad > Segregación de controles > Reglas de segregación de controles.
-2. Haga clic en Nuevo.
-3. En el campo Nombre, escriba un valor.
-    * Especifique un nombre para la regla.  
-4. En el campo Primer deber, haga clic en el botón desplegable para abrir la búsqueda.
-5. En la lista, busque y seleccione el registro deseado.
-    * Seleccione el primer deber controlado por la regla.  
-6. En la lista, haga clic en el vínculo de la fila seleccionada.
-7. En el campo Segundo deber, haga clic en el botón desplegable para abrir la búsqueda.
-8. En la lista, busque y seleccione el registro deseado.
-    * Seleccione el segundo deber controlado por la regla.  
-9. En la lista, haga clic en el vínculo de la fila seleccionada.
-10. En el campo Gravedad, seleccione una opción.
-    * Seleccione la gravedad del riesgo que se genera cuando el mismo usuario o rol realiza ambos deberes.  
-11. En el campo Riesgo de seguridad, escriba un valor.
-    * Escriba una descripción del riesgo para la seguridad.  
-12. En el campo Mitigación de seguridad, escriba un valor.
-    * Escriba una descripción de las acciones para mitigar el riesgo de seguridad. Por ejemplo, puede mitigar el riesgo realizando revisiones más detalladas del proceso, realizando una revisión administrativa mensual o compartiendo recursos con otros departamentos.  
-13. Haga clic en Guardar.
+1. <span data-ttu-id="122e3-112">Vaya a Administración del sistema > Seguridad > Segregación de controles > Reglas de segregación de controles.</span><span class="sxs-lookup"><span data-stu-id="122e3-112">Go to System administration > Security > Segregation of duties > Segregation of duties rules.</span></span>
+2. <span data-ttu-id="122e3-113">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="122e3-113">Click New.</span></span>
+3. <span data-ttu-id="122e3-114">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="122e3-114">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="122e3-115">Especifique un nombre para la regla.</span><span class="sxs-lookup"><span data-stu-id="122e3-115">Enter a name for the rule.</span></span>  
+4. <span data-ttu-id="122e3-116">En el campo Primer deber, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="122e3-116">In the First duty field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="122e3-117">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="122e3-117">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="122e3-118">Seleccione el primer deber controlado por la regla.</span><span class="sxs-lookup"><span data-stu-id="122e3-118">Select the first duty that is controlled by the rule.</span></span>  
+6. <span data-ttu-id="122e3-119">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="122e3-119">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="122e3-120">En el campo Segundo deber, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="122e3-120">In the Second duty field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="122e3-121">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="122e3-121">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="122e3-122">Seleccione el segundo deber controlado por la regla.</span><span class="sxs-lookup"><span data-stu-id="122e3-122">Select the second duty that is controlled by the rule.</span></span>  
+9. <span data-ttu-id="122e3-123">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="122e3-123">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="122e3-124">En el campo Gravedad, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="122e3-124">In the Severity field, select an option.</span></span>
+    * <span data-ttu-id="122e3-125">Seleccione la gravedad del riesgo que se genera cuando el mismo usuario o rol realiza ambos deberes.</span><span class="sxs-lookup"><span data-stu-id="122e3-125">Select the severity of the risk that occurs when the same user or role performs both duties.</span></span>  
+11. <span data-ttu-id="122e3-126">En el campo Riesgo de seguridad, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="122e3-126">In the Security risk field, type a value.</span></span>
+    * <span data-ttu-id="122e3-127">Escriba una descripción del riesgo para la seguridad.</span><span class="sxs-lookup"><span data-stu-id="122e3-127">Enter a description of the security risk.</span></span>  
+12. <span data-ttu-id="122e3-128">En el campo Mitigación de seguridad, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="122e3-128">In the Security mitigation field, type a value.</span></span>
+    * <span data-ttu-id="122e3-129">Escriba una descripción de las acciones para mitigar el riesgo de seguridad.</span><span class="sxs-lookup"><span data-stu-id="122e3-129">Enter a description of the actions that you take to mitigate the security risk.</span></span> <span data-ttu-id="122e3-130">Por ejemplo, puede mitigar el riesgo realizando revisiones más detalladas del proceso, realizando una revisión administrativa mensual o compartiendo recursos con otros departamentos.</span><span class="sxs-lookup"><span data-stu-id="122e3-130">For example, you can mitigate the risk by conducting more detailed reviews of the process, by conducting a monthly managerial review, or by sharing resources with other departments.</span></span>  
+13. <span data-ttu-id="122e3-131">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="122e3-131">Click Save.</span></span>
 
 

@@ -16,87 +16,87 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 9820888a6ab0b3eafcd4d8c95982900b2719b2ec
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 79e5c09484f9d33106194c2a8b2c9971d58d0e75
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="select-data-model-definition-while-creating-format-for-electronic-reporting-er"></a>Seleccionar la definición de modelo de datos durante la creación del formato para informes electrónicos (ER)
+# <a name="select-data-model-definition-while-creating-format-for-electronic-reporting-er"></a><span data-ttu-id="fef8c-103">Seleccionar la definición de modelo de datos durante la creación del formato para informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="fef8c-103">Select data model definition while creating format for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Para completar los pasos de este procedimiento, primero debe completar los pasos del procedimiento, ER: Creación y activación de un proveedor de configuraciones. 
+<span data-ttu-id="fef8c-104">Para completar los pasos de este procedimiento, primero debe completar los pasos del procedimiento, ER: Creación y activación de un proveedor de configuraciones.</span><span class="sxs-lookup"><span data-stu-id="fef8c-104">To complete the steps in this procedure, you must first complete the procedure, ER Create a configuration provider and mark it as active.</span></span> 
 
-Este procedimiento muestra cómo el elemento raíz de un modelo se puede seleccionar como definición del modelo de datos para insertar una configuración de formato de informe electrónico (ER) que se designa para generar documentos electrónicos. En este procedimiento, usted agregará una configuración de formato de ER para la empresa de ejemplo Litware, Inc. 
+<span data-ttu-id="fef8c-105">Este procedimiento muestra cómo el elemento raíz de un modelo se puede seleccionar como definición del modelo de datos para insertar una configuración de formato de informe electrónico (ER) que se designa para generar documentos electrónicos.</span><span class="sxs-lookup"><span data-stu-id="fef8c-105">This procedure shows how a model’s root item can be selected as a data model definition for inserting an Electronic reporting (ER) format configuration that is designed to generate electronic documents.</span></span> <span data-ttu-id="fef8c-106">En este procedimiento, usted agregará una configuración de formato de ER para la empresa de ejemplo Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="fef8c-106">In this procedure, you will add a new ER format configuration for the sample company Litware, Inc.</span></span> 
 
-Este procedimiento se ha creado para los usuarios con los roles de Administrador del sistema o Desarrollador de informes electrónicos asignados. Los pasos se pueden completar mediante cualquier conjunto de datos.
+<span data-ttu-id="fef8c-107">Este procedimiento se ha creado para los usuarios con los roles de Administrador del sistema o Desarrollador de informes electrónicos asignados.</span><span class="sxs-lookup"><span data-stu-id="fef8c-107">This procedure is intended for users who have the System administrator or Electronic reporting developer role assigned to them.</span></span> <span data-ttu-id="fef8c-108">Los pasos se pueden completar mediante cualquier conjunto de datos.</span><span class="sxs-lookup"><span data-stu-id="fef8c-108">The steps can be completed by using any dataset.</span></span>
 
-1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
-    * Asegúrese de que el proveedor de configuración de la empresa de ejemplo “Litware, Inc.” está disponible y marcado como Activo. Si no ve a este proveedor de configuración, complete los pasos del procedimiento "Creación de un proveedor de configuración y marcarlo como activo".  
-2. Haga clic en Configuraciones de informes.
+1. <span data-ttu-id="fef8c-109">Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="fef8c-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="fef8c-110">Asegúrese de que el proveedor de configuración de la empresa de ejemplo “Litware, Inc.” está disponible y marcado como Activo.</span><span class="sxs-lookup"><span data-stu-id="fef8c-110">Make sure that the configuration provider for the sample company, Litware, Inc., is available and marked as Active.</span></span> <span data-ttu-id="fef8c-111">Si no ve a este proveedor de configuración, complete los pasos del procedimiento "Creación de un proveedor de configuración y marcarlo como activo".</span><span class="sxs-lookup"><span data-stu-id="fef8c-111">If you don’t see this configuration provider, complete the steps in the procedure, Create a configuration provider and mark it as active.</span></span>  
+2. <span data-ttu-id="fef8c-112">Haga clic en Configuraciones de informes.</span><span class="sxs-lookup"><span data-stu-id="fef8c-112">Click Reporting configurations.</span></span>
 
-## <a name="add-a-new-er-data-model-configuration"></a>Agregue una nueva configuración para los datos de ER
-1. Haga clic en Crear configuración para abrir el cuadro de diálogo desplegable.
-    * Agregamos una nueva configuración del modelo de ER que contiene un modelo de datos que se designa para usarlo como origen de datos para generar informes ER.  
-2. En el campo Nombre, escriba "Modelo de pagos (ficticio)".
-    * Modelo de pago (ficticio)  
-3. Haga clic en Crear configuración.
-4. Haga clic en Diseñador.
-    * Abra el diseñador de ER para especificar la estructura del modelo de datos de esta configuración.  
-    * Supongamos que diseñamos el modelo de datos para que el dominio de pagos de la empresa admita 2 métodos de pago: transferencia de crédito y transferencia bancaria.  
-5. Haga clic en Nueva para abrir el cuadro de diálogo desplegable.
-6. En el campo Nombre, escriba "Pagos: transferencia de crédito".
-    * Pagos: transferencia de crédito  
-7. Haga clic en Agregar.
-8. Haga clic en Nueva para abrir el cuadro de diálogo desplegable.
-9. En el campo "Nuevo nodo como", escriba "Raíz del modelo".
-10. En el campo Nombre, escriba "Pagos: transferencia bancaria".
-    * Pagos: domiciliación bancaria  
-11. Haga clic en Agregar.
-12. Haga clic en Guardar.
-13. Cierre la página.
-14. Haga clic en Cambiar estado.
-    * Complete la versión de borrador del modelo para que esté disponible en las asignaciones y los formatos del modelo nuevo.  
-15. Haga clic en Completar.
-16. Haga clic en Aceptar
+## <a name="add-a-new-er-data-model-configuration"></a><span data-ttu-id="fef8c-113">Agregue una nueva configuración para los datos de ER</span><span class="sxs-lookup"><span data-stu-id="fef8c-113">Add a new ER data model configuration</span></span>
+1. <span data-ttu-id="fef8c-114">Haga clic en Crear configuración para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="fef8c-114">Click Create configuration to open the drop dialog.</span></span>
+    * <span data-ttu-id="fef8c-115">Agregamos una nueva configuración del modelo de ER que contiene un modelo de datos que se designa para usarlo como origen de datos para generar informes ER.</span><span class="sxs-lookup"><span data-stu-id="fef8c-115">We add a new ER model configuration containing a data model that is designed to be used as data source for generation ER reports.</span></span>  
+2. <span data-ttu-id="fef8c-116">En el campo Nombre, escriba "Modelo de pagos (ficticio)".</span><span class="sxs-lookup"><span data-stu-id="fef8c-116">In the Name field, type 'Payment model (fictitious)'.</span></span>
+    * <span data-ttu-id="fef8c-117">Modelo de pago (ficticio)</span><span class="sxs-lookup"><span data-stu-id="fef8c-117">Payment model (fictitious)</span></span>  
+3. <span data-ttu-id="fef8c-118">Haga clic en Crear configuración.</span><span class="sxs-lookup"><span data-stu-id="fef8c-118">Click Create configuration.</span></span>
+4. <span data-ttu-id="fef8c-119">Haga clic en Diseñador.</span><span class="sxs-lookup"><span data-stu-id="fef8c-119">Click Designer.</span></span>
+    * <span data-ttu-id="fef8c-120">Abra el diseñador de ER para especificar la estructura del modelo de datos de esta configuración.</span><span class="sxs-lookup"><span data-stu-id="fef8c-120">Open the ER designer to specify the structure of data model of this configuration.</span></span>  
+    * <span data-ttu-id="fef8c-121">Supongamos que diseñamos el modelo de datos para que el dominio de pagos de la empresa admita 2 métodos de pago: transferencia de crédito y transferencia bancaria.</span><span class="sxs-lookup"><span data-stu-id="fef8c-121">Assume that we design the data model for payments business domain to support 2 payment methods – credit transfer and direct debit ones.</span></span>  
+5. <span data-ttu-id="fef8c-122">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="fef8c-122">Click New to open the drop dialog.</span></span>
+6. <span data-ttu-id="fef8c-123">En el campo Nombre, escriba "Pagos: transferencia de crédito".</span><span class="sxs-lookup"><span data-stu-id="fef8c-123">In the Name field, type 'Payments – credit transfer'.</span></span>
+    * <span data-ttu-id="fef8c-124">Pagos: transferencia de crédito</span><span class="sxs-lookup"><span data-stu-id="fef8c-124">Payments – credit transfer</span></span>  
+7. <span data-ttu-id="fef8c-125">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="fef8c-125">Click Add.</span></span>
+8. <span data-ttu-id="fef8c-126">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="fef8c-126">Click New to open the drop dialog.</span></span>
+9. <span data-ttu-id="fef8c-127">En el campo "Nuevo nodo como", escriba "Raíz del modelo".</span><span class="sxs-lookup"><span data-stu-id="fef8c-127">In the New node as a field, enter 'Model root'.</span></span>
+10. <span data-ttu-id="fef8c-128">En el campo Nombre, escriba "Pagos: transferencia bancaria".</span><span class="sxs-lookup"><span data-stu-id="fef8c-128">In the Name field, type 'Payments – direct debit'.</span></span>
+    * <span data-ttu-id="fef8c-129">Pagos: domiciliación bancaria</span><span class="sxs-lookup"><span data-stu-id="fef8c-129">Payments – direct debit</span></span>  
+11. <span data-ttu-id="fef8c-130">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="fef8c-130">Click Add.</span></span>
+12. <span data-ttu-id="fef8c-131">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="fef8c-131">Click Save.</span></span>
+13. <span data-ttu-id="fef8c-132">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="fef8c-132">Close the page.</span></span>
+14. <span data-ttu-id="fef8c-133">Haga clic en Cambiar estado.</span><span class="sxs-lookup"><span data-stu-id="fef8c-133">Click Change status.</span></span>
+    * <span data-ttu-id="fef8c-134">Complete la versión de borrador del modelo para que esté disponible en las asignaciones y los formatos del modelo nuevo.</span><span class="sxs-lookup"><span data-stu-id="fef8c-134">Complete the draft version of the model to make it available in new model mappings and formats.</span></span>  
+15. <span data-ttu-id="fef8c-135">Haga clic en Completar.</span><span class="sxs-lookup"><span data-stu-id="fef8c-135">Click Complete.</span></span>
+16. <span data-ttu-id="fef8c-136">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="fef8c-136">Click OK.</span></span>
 
-## <a name="start-to-enter-a-new-er-format-configuration"></a>Empezar a especificar una nueva configuración del formato de ER
-1. Haga clic en Crear configuración para abrir el cuadro de diálogo desplegable.
-2. En el campo Nuevo, especifique "Formato basado en el modelo de datos del Modelo de pagos (ficticio)".
-3. En el campo definición del modelo de Datos, introduzca o seleccione un valor.
-    * Tenga en cuenta que todos los elementos raíz del modelo de datos seleccionados están actualmente disponibles para su selección como definición del modelo de datos. Puede continuar diseñando el formato mediante cualquiera de los elementos raíz necesarios del modelo de datos. Si falta una asignación de modelo para el elemento raíz seleccionado no impide que continúe.  
-4. Cierre la página.
+## <a name="start-to-enter-a-new-er-format-configuration"></a><span data-ttu-id="fef8c-137">Empezar a especificar una nueva configuración del formato de ER</span><span class="sxs-lookup"><span data-stu-id="fef8c-137">Start to enter a new ER format configuration</span></span>
+1. <span data-ttu-id="fef8c-138">Haga clic en Crear configuración para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="fef8c-138">Click Create configuration to open the drop dialog.</span></span>
+2. <span data-ttu-id="fef8c-139">En el campo Nuevo, especifique "Formato basado en el modelo de datos del Modelo de pagos (ficticio)".</span><span class="sxs-lookup"><span data-stu-id="fef8c-139">In the New field, enter 'Format based on data model Payment model (fictitious)'.</span></span>
+3. <span data-ttu-id="fef8c-140">En el campo definición del modelo de Datos, introduzca o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="fef8c-140">In the Data model definition field, enter or select a value.</span></span>
+    * <span data-ttu-id="fef8c-141">Tenga en cuenta que todos los elementos raíz del modelo de datos seleccionados están actualmente disponibles para su selección como definición del modelo de datos.</span><span class="sxs-lookup"><span data-stu-id="fef8c-141">Note that all root items of the selected data model are currently available for selection as a data model definition.</span></span> <span data-ttu-id="fef8c-142">Puede continuar diseñando el formato mediante cualquiera de los elementos raíz necesarios del modelo de datos.</span><span class="sxs-lookup"><span data-stu-id="fef8c-142">You can continue to design your format by using any of the required root items of the data model.</span></span> <span data-ttu-id="fef8c-143">Si falta una asignación de modelo para el elemento raíz seleccionado no impide que continúe.</span><span class="sxs-lookup"><span data-stu-id="fef8c-143">A missing model mapping for the selected root item doesn't prevent you from continuing.</span></span>  
+4. <span data-ttu-id="fef8c-144">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="fef8c-144">Close the page.</span></span>
 
-## <a name="add-a-new-er-model-mapping-configuration"></a>Agregar una nueva configuración de asignación al modelo de ER
-1. Haga clic en Crear configuración para abrir el cuadro de diálogo desplegable.
-2. En el campo Nuevo, especifique "Asignación de modelo basado en el modelo de datos del Modelo de pagos (ficticio)".
-3. En el campo Nombre, escriba "Asignaciones de Modelo de pagos (ficticio)".
-    * Asignaciones del modelo de pago (ficticio)  
-4. En el campo definición del modelo de Datos, introduzca o seleccione un valor.
-5. Haga clic en Crear configuración.
+## <a name="add-a-new-er-model-mapping-configuration"></a><span data-ttu-id="fef8c-145">Agregar una nueva configuración de asignación al modelo de ER</span><span class="sxs-lookup"><span data-stu-id="fef8c-145">Add a new ER model mapping configuration</span></span>
+1. <span data-ttu-id="fef8c-146">Haga clic en Crear configuración para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="fef8c-146">Click Create configuration to open the drop dialog.</span></span>
+2. <span data-ttu-id="fef8c-147">En el campo Nuevo, especifique "Asignación de modelo basado en el modelo de datos del Modelo de pagos (ficticio)".</span><span class="sxs-lookup"><span data-stu-id="fef8c-147">In the New field, enter 'Model Mapping based on data model Payment model (fictitious)'.</span></span>
+3. <span data-ttu-id="fef8c-148">En el campo Nombre, escriba "Asignaciones de Modelo de pagos (ficticio)".</span><span class="sxs-lookup"><span data-stu-id="fef8c-148">In the Name field, type 'Payment model mappings (fictitious)'.</span></span>
+    * <span data-ttu-id="fef8c-149">Asignaciones del modelo de pago (ficticio)</span><span class="sxs-lookup"><span data-stu-id="fef8c-149">Payment model mappings (fictitious)</span></span>  
+4. <span data-ttu-id="fef8c-150">En el campo definición del modelo de Datos, introduzca o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="fef8c-150">In the Data model definition field, enter or select a value.</span></span>
+5. <span data-ttu-id="fef8c-151">Haga clic en Crear configuración.</span><span class="sxs-lookup"><span data-stu-id="fef8c-151">Click Create configuration.</span></span>
 
-## <a name="design-er-model-mappings"></a>Diseñar asignaciones de modelo de ER
-1. Haga clic en Diseñador.
-    * Use el diseñador de ER para especificar las asignaciones de modelo para los elementos raíz necesarios.  
-2. Haga clic en Diseñador.
-    * Simule el valor de la asignación del modelo seleccionado para el elemento raíz del modelo seleccionado.  
-3. En el árbol, seleccione "Dynamics 365 for Operations\Registros de tabla".
-4. Haga clic en Agregar raíz.
-5. En el campo Nombre escriba "Libro mayor".
-6. En el campo Tabla, escriba "LedgerJournalTrans".
-    * LedgerJournalTrans  
-7. Haga clic en Aceptar
-8. Haga clic en Guardar.
-9. Cierre la página.
-10. Cierre la página.
+## <a name="design-er-model-mappings"></a><span data-ttu-id="fef8c-152">Diseñar asignaciones de modelo de ER</span><span class="sxs-lookup"><span data-stu-id="fef8c-152">Design ER model mappings</span></span>
+1. <span data-ttu-id="fef8c-153">Haga clic en Diseñador.</span><span class="sxs-lookup"><span data-stu-id="fef8c-153">Click Designer.</span></span>
+    * <span data-ttu-id="fef8c-154">Use el diseñador de ER para especificar las asignaciones de modelo para los elementos raíz necesarios.</span><span class="sxs-lookup"><span data-stu-id="fef8c-154">Use the ER designer to specify the model mappings for the required root items.</span></span>  
+2. <span data-ttu-id="fef8c-155">Haga clic en Diseñador.</span><span class="sxs-lookup"><span data-stu-id="fef8c-155">Click Designer.</span></span>
+    * <span data-ttu-id="fef8c-156">Simule el valor de la asignación del modelo seleccionado para el elemento raíz del modelo seleccionado.</span><span class="sxs-lookup"><span data-stu-id="fef8c-156">Simulate setting of selected model mapping for the selected model’s root item.</span></span>  
+3. <span data-ttu-id="fef8c-157">En el árbol, seleccione "Dynamics 365 for Operations\Registros de tabla".</span><span class="sxs-lookup"><span data-stu-id="fef8c-157">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
+4. <span data-ttu-id="fef8c-158">Haga clic en Agregar raíz.</span><span class="sxs-lookup"><span data-stu-id="fef8c-158">Click Add root.</span></span>
+5. <span data-ttu-id="fef8c-159">En el campo Nombre escriba "Libro mayor".</span><span class="sxs-lookup"><span data-stu-id="fef8c-159">In the Name field, type 'Ledger'.</span></span>
+6. <span data-ttu-id="fef8c-160">En el campo Tabla, escriba "LedgerJournalTrans".</span><span class="sxs-lookup"><span data-stu-id="fef8c-160">In the Table field, type 'LedgerJournalTrans'.</span></span>
+    * <span data-ttu-id="fef8c-161">LedgerJournalTrans</span><span class="sxs-lookup"><span data-stu-id="fef8c-161">LedgerJournalTrans</span></span>  
+7. <span data-ttu-id="fef8c-162">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="fef8c-162">Click OK.</span></span>
+8. <span data-ttu-id="fef8c-163">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="fef8c-163">Click Save.</span></span>
+9. <span data-ttu-id="fef8c-164">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="fef8c-164">Close the page.</span></span>
+10. <span data-ttu-id="fef8c-165">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="fef8c-165">Close the page.</span></span>
 
-## <a name="start-to-enter-another-new-er-format-configuration"></a>Empezar a especificar otra configuración de formato de ER nueva
-1. En el árbol, seleccione "Modelo de pagos (ficticio)".
-2. Haga clic en Crear configuración para abrir el cuadro de diálogo desplegable.
-3. En el campo Nuevo, especifique "Formato basado en el modelo de datos del Modelo de pagos (ficticio)".
-4. En el campo definición del modelo de Datos, introduzca o seleccione un valor.
-    * Tenga en cuenta que solo un elemento raíz está disponible ahora asignar a los orígenes de datos de la aplicación. Cuando se introduce al menos una asignación de modelo, solo los artículos raíz del modelo se asignan a los orígenes de datos de la aplicación se pueden seleccionar como definición de modelo cuando se agrega el formato de ER.   
-5. Cierre la página.
+## <a name="start-to-enter-another-new-er-format-configuration"></a><span data-ttu-id="fef8c-166">Empezar a especificar otra configuración de formato de ER nueva</span><span class="sxs-lookup"><span data-stu-id="fef8c-166">Start to enter another new ER format configuration</span></span>
+1. <span data-ttu-id="fef8c-167">En el árbol, seleccione "Modelo de pagos (ficticio)".</span><span class="sxs-lookup"><span data-stu-id="fef8c-167">In the tree, select 'Payment model (fictitious)'.</span></span>
+2. <span data-ttu-id="fef8c-168">Haga clic en Crear configuración para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="fef8c-168">Click Create configuration to open the drop dialog.</span></span>
+3. <span data-ttu-id="fef8c-169">En el campo Nuevo, especifique "Formato basado en el modelo de datos del Modelo de pagos (ficticio)".</span><span class="sxs-lookup"><span data-stu-id="fef8c-169">In the New field, enter 'Format based on data model Payment model (fictitious)'.</span></span>
+4. <span data-ttu-id="fef8c-170">En el campo definición del modelo de Datos, introduzca o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="fef8c-170">In the Data model definition field, enter or select a value.</span></span>
+    * <span data-ttu-id="fef8c-171">Tenga en cuenta que solo un elemento raíz está disponible ahora asignar a los orígenes de datos de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="fef8c-171">Note that now only one root item is available to map to the application data sources.</span></span> <span data-ttu-id="fef8c-172">Cuando se introduce al menos una asignación de modelo, solo los artículos raíz del modelo se asignan a los orígenes de datos de la aplicación se pueden seleccionar como definición de modelo cuando se agrega el formato de ER.</span><span class="sxs-lookup"><span data-stu-id="fef8c-172">When at least one model mapping is introduced, only the model’s root items that are mapped to application data sources can be selected as a model definition while the ER format is added.</span></span>   
+5. <span data-ttu-id="fef8c-173">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="fef8c-173">Close the page.</span></span>
 
 

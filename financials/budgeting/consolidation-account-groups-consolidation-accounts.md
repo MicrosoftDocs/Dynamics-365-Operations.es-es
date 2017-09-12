@@ -18,40 +18,40 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
-ms.openlocfilehash: 3c08e48b22f964c3f643c5ddc4ecd687502d7fda
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: eb69b8def1d0a4fc296ccf44490af6c70591cb7b
 ms.contentlocale: es-es
-ms.lasthandoff: 08/01/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Grupos de cuentas de consolidación y cuentas de consolidación adicionales
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a><span data-ttu-id="2e004-103">Grupos de cuentas de consolidación y cuentas de consolidación adicionales</span><span class="sxs-lookup"><span data-stu-id="2e004-103">Consolidation account groups and additional consolidation accounts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este tema proporciona información sobre grupos de cuentas de consolidación y cuentas de consolidación adicionales y explica cómo se utilizan en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+<span data-ttu-id="2e004-104">Este tema proporciona información sobre grupos de cuentas de consolidación y cuentas de consolidación adicionales y explica cómo se utilizan en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="2e004-104">This topic provides information about consolidation account groups and additional consolidation accounts, and explains how they are used in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span>
 
-<a name="consolidation-account-groups"></a>Grupos de cuentas de consolidación
+<a name="consolidation-account-groups"></a><span data-ttu-id="2e004-105">Grupos de cuentas de consolidación</span><span class="sxs-lookup"><span data-stu-id="2e004-105">Consolidation account groups</span></span>
 ----------------------------
 
-Los grupos de cuentas de consolidación permiten crear grupos de las cuentas que desee usar para consolidar los datos. Normalmente, un grupo de cuentas de consolidación representa un plan contable impuesto por el gobierno o asigna cuentas a un grupo definido por la sede central de la empresa. Los grupos de cuentas de consolidación están en la zona **Configuración** del módulo **Consolidaciones**. Al agregar un nuevo grupo, especifique un identificador único para el grupo de cuentas y un nombre.
+<span data-ttu-id="2e004-106">Los grupos de cuentas de consolidación permiten crear grupos de las cuentas que desee usar para consolidar los datos.</span><span class="sxs-lookup"><span data-stu-id="2e004-106">Consolidation account groups let you create groups of the accounts that you want to use to consolidate data.</span></span> <span data-ttu-id="2e004-107">Normalmente, un grupo de cuentas de consolidación representa un plan contable impuesto por el gobierno o asigna cuentas a un grupo definido por la sede central de la empresa.</span><span class="sxs-lookup"><span data-stu-id="2e004-107">Most often, a consolidation account group represents a government-mandated chart of accounts or maps accounts to a group that is defined by the company's headquarters.</span></span> <span data-ttu-id="2e004-108">Los grupos de cuentas de consolidación están en la zona **Configuración** del módulo **Consolidaciones**.</span><span class="sxs-lookup"><span data-stu-id="2e004-108">You can find consolidation account groups in the **Setup** area of the **Consolidations** module.</span></span> <span data-ttu-id="2e004-109">Al agregar un nuevo grupo, especifique un identificador único para el grupo de cuentas y un nombre.</span><span class="sxs-lookup"><span data-stu-id="2e004-109">When you add a new group, you enter a unique identifier for the account group and a name.</span></span>
 
-## <a name="additional-consolidation-accounts"></a>Cuentas de consolidación adicionales
-Las cuentas de consolidación adicionales permiten asignar una cuenta de un plan contable existente a un grupo de cuentas de consolidación. Después, puede especificar un valor y un nombre de la cuenta de consolidación. 
+## <a name="additional-consolidation-accounts"></a><span data-ttu-id="2e004-110">Cuentas de consolidación adicionales</span><span class="sxs-lookup"><span data-stu-id="2e004-110">Additional consolidation accounts</span></span>
+<span data-ttu-id="2e004-111">Las cuentas de consolidación adicionales permiten asignar una cuenta de un plan contable existente a un grupo de cuentas de consolidación.</span><span class="sxs-lookup"><span data-stu-id="2e004-111">Additional consolidation accounts let you assign an account from an existing chart of accounts to a consolidation account group.</span></span> <span data-ttu-id="2e004-112">Después, puede especificar un valor y un nombre de la cuenta de consolidación.</span><span class="sxs-lookup"><span data-stu-id="2e004-112">You can then specify a consolidation account value and name.</span></span> 
 
-Los grupos de cuentas de consolidación adicionales están en la zona **Configuración** del módulo **Consolidaciones**. Al crear una nueva cuenta de consolidación, debe especificar la siguiente información:
+<span data-ttu-id="2e004-113">Los grupos de cuentas de consolidación adicionales están en la zona **Configuración** del módulo **Consolidaciones**.</span><span class="sxs-lookup"><span data-stu-id="2e004-113">You can find additional consolidation accounts in the **Setup** area of the **Consolidations** module.</span></span> <span data-ttu-id="2e004-114">Al crear una nueva cuenta de consolidación, debe especificar la siguiente información:</span><span class="sxs-lookup"><span data-stu-id="2e004-114">When you create a new consolidation account, you must specify the following information:</span></span>
 
--   **Cuenta principal**: este campo es una búsqueda que muestra todas las cuentas principales que se basan en el plan contable que seleccionó en la página. Al seleccionar una cuenta, el nombre se especifica en el campo **Nombre de la cuenta principal**.
--   **Grupo de cuentas de consolidación**: utilice este campo para especificar un grupo al que asignar la cuenta. Si consolida de dos formas diferentes, debe agregar la misma cuenta a los cuatro grupos de cuentas de consolidación.
--   **Cuenta de consolidación**: especifique el valor de la cuenta de consolidación. Este valor no tiene que ser una cuenta de un plan contable. Puede ser cualquier valor que necesite.
--   **Nombre de cuenta de consolidación**: permite especificar el nombre de la cuenta que desea que aparezca en consultas e informes.
--   **Nivel del SAT**: este campo se usa para informar sobre extractos de cuenta a las autoridades fiscales mexicanas. 
+-   <span data-ttu-id="2e004-115">**Cuenta principal**: este campo es una búsqueda que muestra todas las cuentas principales que se basan en el plan contable que seleccionó en la página.</span><span class="sxs-lookup"><span data-stu-id="2e004-115">**Main account** – This field is a lookup that shows all the main accounts that are based on the chart of accounts that you selected on the page.</span></span> <span data-ttu-id="2e004-116">Al seleccionar una cuenta, el nombre se especifica en el campo **Nombre de la cuenta principal**.</span><span class="sxs-lookup"><span data-stu-id="2e004-116">When you select an account, the name is automatically entered in the **Main account name** field.</span></span>
+-   <span data-ttu-id="2e004-117">**Grupo de cuentas de consolidación**: utilice este campo para especificar un grupo al que asignar la cuenta.</span><span class="sxs-lookup"><span data-stu-id="2e004-117">**Consolidation account group** – Use this field to specify the group to assign the account to.</span></span> <span data-ttu-id="2e004-118">Si consolida de dos formas diferentes, debe agregar la misma cuenta a los cuatro grupos de cuentas de consolidación.</span><span class="sxs-lookup"><span data-stu-id="2e004-118">If you consolidate in two different ways, you must add the same account to all four consolidation account groups.</span></span>
+-   <span data-ttu-id="2e004-119">**Cuenta de consolidación**: especifique el valor de la cuenta de consolidación.</span><span class="sxs-lookup"><span data-stu-id="2e004-119">**Consolidation account** – Enter the value of the consolidation account.</span></span> <span data-ttu-id="2e004-120">Este valor no tiene que ser una cuenta de un plan contable.</span><span class="sxs-lookup"><span data-stu-id="2e004-120">This value doesn't have to be an account from a chart of accounts.</span></span> <span data-ttu-id="2e004-121">Puede ser cualquier valor que necesite.</span><span class="sxs-lookup"><span data-stu-id="2e004-121">It can be any value that you require.</span></span>
+-   <span data-ttu-id="2e004-122">**Nombre de cuenta de consolidación**: permite especificar el nombre de la cuenta que desea que aparezca en consultas e informes.</span><span class="sxs-lookup"><span data-stu-id="2e004-122">**Consolidation account name** – Enter the name of account as you want it to appear on inquiries and reports.</span></span>
+-   <span data-ttu-id="2e004-123">**Nivel del SAT**: este campo se usa para informar sobre extractos de cuenta a las autoridades fiscales mexicanas.</span><span class="sxs-lookup"><span data-stu-id="2e004-123">**SAT level** – This field is used to report account statements to the Mexican tax authorities.</span></span> 
 
-Cuando haya terminado de crear los grupos de cuentas de la consolidación y las cuentas de consolidación adicionales, puede seleccionar el grupo en el proceso en línea de consolidación.
+<span data-ttu-id="2e004-124">Cuando haya terminado de crear los grupos de cuentas de la consolidación y las cuentas de consolidación adicionales, puede seleccionar el grupo en el proceso en línea de consolidación.</span><span class="sxs-lookup"><span data-stu-id="2e004-124">When you've finished creating your consolidation account groups and additional consolidation accounts, you can select the group in the Consolidate online process.</span></span>
 
 
-Para obtener más información, consulte [Crear grupos de consolidación y cuentas de consolidación adicionales](../general-ledger/tasks/create-consolidation-groups.md) 
+<span data-ttu-id="2e004-125">Para obtener más información, consulte [Crear grupos de consolidación y cuentas de consolidación adicionales](../general-ledger/tasks/create-consolidation-groups.md)</span><span class="sxs-lookup"><span data-stu-id="2e004-125">For more information, see [Create consolidation groups and additional consolidation accounts](../general-ledger/tasks/create-consolidation-groups.md).</span></span> 
 
 
 

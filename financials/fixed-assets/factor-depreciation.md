@@ -19,66 +19,66 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 131045a5702f8c85be44ba1ebae1866c033850b9
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 4b87d96e80b343a2b57db59b5d4c19e70d0a94ea
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="factor-depreciation"></a>Depreciación de factor
+# <a name="factor-depreciation"></a><span data-ttu-id="9c309-103">Depreciación de factor</span><span class="sxs-lookup"><span data-stu-id="9c309-103">Factor depreciation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo ofrece una visión general del método de depreciación de factor.
+<span data-ttu-id="9c309-104">Este artículo ofrece una visión general del método de depreciación de factor.</span><span class="sxs-lookup"><span data-stu-id="9c309-104">This article gives an overview of the factor depreciation method.</span></span>
 
-Los factores son porcentajes que se utilizan para depreciar activos. Cuando se configura un perfil de amortización de activos fijos y se selecciona **Factor** en el campo **Método** de la página **Métodos de depreciación**, puede configurar una depreciación progresiva, degresiva o lineal:
+<span data-ttu-id="9c309-105">Los factores son porcentajes que se utilizan para depreciar activos.</span><span class="sxs-lookup"><span data-stu-id="9c309-105">Factors are the percentages that are used to depreciate assets.</span></span> <span data-ttu-id="9c309-106">Cuando se configura un perfil de amortización de activos fijos y se selecciona **Factor** en el campo **Método** de la página **Métodos de depreciación**, puede configurar una depreciación progresiva, degresiva o lineal:</span><span class="sxs-lookup"><span data-stu-id="9c309-106">When you set up a fixed asset depreciation profile and select **Factor** in the **Method** field on the **Depreciation profiles** page, you can set up progressive, digressive, or straight line depreciation:</span></span>
 
--   En la depreciación progresiva, el importe de depreciación aumenta cada período de depreciación.
--   En la depreciación degresiva, el importe de depreciación por período aumenta con el transcurso del tiempo.
--   En la depreciación lineal, la depreciación es la misma en cada período.
+-   <span data-ttu-id="9c309-107">En la depreciación progresiva, el importe de depreciación aumenta cada período de depreciación.</span><span class="sxs-lookup"><span data-stu-id="9c309-107">In progressive depreciation, the amount of depreciation increases each depreciation period.</span></span>
+-   <span data-ttu-id="9c309-108">En la depreciación degresiva, el importe de depreciación por período aumenta con el transcurso del tiempo.</span><span class="sxs-lookup"><span data-stu-id="9c309-108">In digressive depreciation, the amount of depreciation per period decreases over time.</span></span>
+-   <span data-ttu-id="9c309-109">En la depreciación lineal, la depreciación es la misma en cada período.</span><span class="sxs-lookup"><span data-stu-id="9c309-109">In straight line depreciation, the depreciation is the same in each period.</span></span>
 
-Las reglas y los ejemplos siguientes indican el modo en que puede configurar los factores para cada tipo de depreciación. 
+<span data-ttu-id="9c309-110">Las reglas y los ejemplos siguientes indican el modo en que puede configurar los factores para cada tipo de depreciación.</span><span class="sxs-lookup"><span data-stu-id="9c309-110">The rules and examples that follow indicate how you can set up factors for each type of depreciation.</span></span> 
 
 > [!NOTE] 
-> Cuando selecciona **Factor** en el campo **Método**, se muestran los campos **Factor** e **Intervalo**.
+> <span data-ttu-id="9c309-111">Cuando selecciona **Factor** en el campo **Método**, se muestran los campos **Factor** e **Intervalo**.</span><span class="sxs-lookup"><span data-stu-id="9c309-111">When you select **Factor** in the **Method** field, the **Factor** field and the **Interval** field are displayed.</span></span>
 
-## <a name="progressive-depreciation"></a>Depreciación progresiva
-El valor del campo **Factor** es mayor que **50**.
+## <a name="progressive-depreciation"></a><span data-ttu-id="9c309-112">Depreciación progresiva</span><span class="sxs-lookup"><span data-stu-id="9c309-112">Progressive depreciation</span></span>
+<span data-ttu-id="9c309-113">El valor del campo **Factor** es mayor que **50**.</span><span class="sxs-lookup"><span data-stu-id="9c309-113">The value in the **Factor** field is more than **50**.</span></span>
 
-### <a name="example"></a>Ejemplo
+### <a name="example"></a><span data-ttu-id="9c309-114">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="9c309-114">Example</span></span>
 
-El precio de adquisición es de 100.000, el factor es 70, el tiempo de vida es de 10 años, y la depreciación comienza el 1 de enero. Las cantidades de depreciación y de valor neto en los libros sólo se muestran los primeros seis años del tiempo de vida.
+<span data-ttu-id="9c309-115">El precio de adquisición es de 100.000, el factor es 70, el tiempo de vida es de 10 años, y la depreciación comienza el 1 de enero.</span><span class="sxs-lookup"><span data-stu-id="9c309-115">The acquisition price is 100,000, the factor is 70, the service life is 10 years, and depreciation starts on January 1.</span></span> <span data-ttu-id="9c309-116">Las cantidades de depreciación y de valor neto en los libros sólo se muestran los primeros seis años del tiempo de vida.</span><span class="sxs-lookup"><span data-stu-id="9c309-116">The depreciation amounts and net book value amounts are shown only for the first six years of service life.</span></span>
 
-| Año | Período      | Importe de depreciación | Importe del valor neto en los libros |
+| <span data-ttu-id="9c309-117">Año</span><span class="sxs-lookup"><span data-stu-id="9c309-117">Year</span></span> | <span data-ttu-id="9c309-118">Período</span><span class="sxs-lookup"><span data-stu-id="9c309-118">Period</span></span>      | <span data-ttu-id="9c309-119">Importe de depreciación</span><span class="sxs-lookup"><span data-stu-id="9c309-119">Depreciation amount</span></span> | <span data-ttu-id="9c309-120">Importe del valor neto en los libros</span><span class="sxs-lookup"><span data-stu-id="9c309-120">Net book value amount</span></span> |
 |------|-------------|---------------------|-----------------------|
-| 1    | 31 de diciembre | 307,69              | 99.692,31             |
-| 2    | 31 de diciembre | 1.447,21            | 98.245,10             |
-| 3    | 31 de diciembre | 3.104,50            | 95.140,60             |
-| 4    | 31 de diciembre | 5.150,21            | 89.990,39             |
-| 5    | 31 de diciembre | 7.522,95            | 82.467,44             |
-| 6    | 31 de diciembre | 10.184,06           | 72.283,38             |
+| <span data-ttu-id="9c309-121">1</span><span class="sxs-lookup"><span data-stu-id="9c309-121">1</span></span>    | <span data-ttu-id="9c309-122">31 de diciembre</span><span class="sxs-lookup"><span data-stu-id="9c309-122">December 31</span></span> | <span data-ttu-id="9c309-123">307,69</span><span class="sxs-lookup"><span data-stu-id="9c309-123">307.69</span></span>              | <span data-ttu-id="9c309-124">99.692,31</span><span class="sxs-lookup"><span data-stu-id="9c309-124">99,692.31</span></span>             |
+| <span data-ttu-id="9c309-125">2</span><span class="sxs-lookup"><span data-stu-id="9c309-125">2</span></span>    | <span data-ttu-id="9c309-126">31 de diciembre</span><span class="sxs-lookup"><span data-stu-id="9c309-126">December 31</span></span> | <span data-ttu-id="9c309-127">1.447,21</span><span class="sxs-lookup"><span data-stu-id="9c309-127">1,447.21</span></span>            | <span data-ttu-id="9c309-128">98.245,10</span><span class="sxs-lookup"><span data-stu-id="9c309-128">98,245.10</span></span>             |
+| <span data-ttu-id="9c309-129">3</span><span class="sxs-lookup"><span data-stu-id="9c309-129">3</span></span>    | <span data-ttu-id="9c309-130">31 de diciembre</span><span class="sxs-lookup"><span data-stu-id="9c309-130">December 31</span></span> | <span data-ttu-id="9c309-131">3.104,50</span><span class="sxs-lookup"><span data-stu-id="9c309-131">3,104.50</span></span>            | <span data-ttu-id="9c309-132">95.140,60</span><span class="sxs-lookup"><span data-stu-id="9c309-132">95,140.60</span></span>             |
+| <span data-ttu-id="9c309-133">4</span><span class="sxs-lookup"><span data-stu-id="9c309-133">4</span></span>    | <span data-ttu-id="9c309-134">31 de diciembre</span><span class="sxs-lookup"><span data-stu-id="9c309-134">December 31</span></span> | <span data-ttu-id="9c309-135">5.150,21</span><span class="sxs-lookup"><span data-stu-id="9c309-135">5,150.21</span></span>            | <span data-ttu-id="9c309-136">89.990,39</span><span class="sxs-lookup"><span data-stu-id="9c309-136">89,990.39</span></span>             |
+| <span data-ttu-id="9c309-137">5</span><span class="sxs-lookup"><span data-stu-id="9c309-137">5</span></span>    | <span data-ttu-id="9c309-138">31 de diciembre</span><span class="sxs-lookup"><span data-stu-id="9c309-138">December 31</span></span> | <span data-ttu-id="9c309-139">7.522,95</span><span class="sxs-lookup"><span data-stu-id="9c309-139">7,522.95</span></span>            | <span data-ttu-id="9c309-140">82.467,44</span><span class="sxs-lookup"><span data-stu-id="9c309-140">82,467.44</span></span>             |
+| <span data-ttu-id="9c309-141">6</span><span class="sxs-lookup"><span data-stu-id="9c309-141">6</span></span>    | <span data-ttu-id="9c309-142">31 de diciembre</span><span class="sxs-lookup"><span data-stu-id="9c309-142">December 31</span></span> | <span data-ttu-id="9c309-143">10.184,06</span><span class="sxs-lookup"><span data-stu-id="9c309-143">10,184.06</span></span>           | <span data-ttu-id="9c309-144">72.283,38</span><span class="sxs-lookup"><span data-stu-id="9c309-144">72,283.38</span></span>             |
 
-## <a name="digressive-depreciation"></a>Depreciación degresiva
-El valor del campo **Factor** es menor que **50**.
+## <a name="digressive-depreciation"></a><span data-ttu-id="9c309-145">Depreciación degresiva</span><span class="sxs-lookup"><span data-stu-id="9c309-145">Digressive depreciation</span></span>
+<span data-ttu-id="9c309-146">El valor del campo **Factor** es menor que **50**.</span><span class="sxs-lookup"><span data-stu-id="9c309-146">The value in the **Factor** field is less than **50**.</span></span>
 
-### <a name="example"></a>Ejemplo
+### <a name="example"></a><span data-ttu-id="9c309-147">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="9c309-147">Example</span></span>
 
-El precio de adquisición es de 100.000, el factor es 20, el tiempo de vida es de 10 años, y la depreciación comienza el 1 de enero. Las cantidades de depreciación y de valor neto en los libros sólo se muestran los primeros seis años del tiempo de vida.
+<span data-ttu-id="9c309-148">El precio de adquisición es de 100.000, el factor es 20, el tiempo de vida es de 10 años, y la depreciación comienza el 1 de enero.</span><span class="sxs-lookup"><span data-stu-id="9c309-148">The acquisition price is 100,000, the factor is 20, the service life is 10 years, and depreciation starts on January 1.</span></span> <span data-ttu-id="9c309-149">Las cantidades de depreciación y de valor neto en los libros sólo se muestran los primeros seis años del tiempo de vida.</span><span class="sxs-lookup"><span data-stu-id="9c309-149">The depreciation amounts and net book value amounts are shown only for the first six years of service life.</span></span>
 
-| Año | Período      | Importe de depreciación | Importe del valor neto en los libros |
+| <span data-ttu-id="9c309-150">Año</span><span class="sxs-lookup"><span data-stu-id="9c309-150">Year</span></span> | <span data-ttu-id="9c309-151">Período</span><span class="sxs-lookup"><span data-stu-id="9c309-151">Period</span></span>      | <span data-ttu-id="9c309-152">Importe de depreciación</span><span class="sxs-lookup"><span data-stu-id="9c309-152">Depreciation amount</span></span> | <span data-ttu-id="9c309-153">Importe del valor neto en los libros</span><span class="sxs-lookup"><span data-stu-id="9c309-153">Net book value amount</span></span> |
 |------|-------------|---------------------|-----------------------|
-| 1    | 31 de diciembre | 56.080,43           | 43.919,57             |
-| 2    | 31 de diciembre | 10.665,70           | 33.253,87             |
-| 3    | 31 de diciembre | 7.156,22            | 26.097,65             |
-| 4    | 31 de diciembre | 5.538,06            | 20.559,59             |
-| 5    | 31 de diciembre | 4.579,89            | 15.979,70             |
-| 6    | 31 de diciembre | 3.937,36            | 12.042,34             |
+| <span data-ttu-id="9c309-154">1</span><span class="sxs-lookup"><span data-stu-id="9c309-154">1</span></span>    | <span data-ttu-id="9c309-155">31 de diciembre</span><span class="sxs-lookup"><span data-stu-id="9c309-155">December 31</span></span> | <span data-ttu-id="9c309-156">56.080,43</span><span class="sxs-lookup"><span data-stu-id="9c309-156">56,080.43</span></span>           | <span data-ttu-id="9c309-157">43.919,57</span><span class="sxs-lookup"><span data-stu-id="9c309-157">43,919.57</span></span>             |
+| <span data-ttu-id="9c309-158">2</span><span class="sxs-lookup"><span data-stu-id="9c309-158">2</span></span>    | <span data-ttu-id="9c309-159">31 de diciembre</span><span class="sxs-lookup"><span data-stu-id="9c309-159">December 31</span></span> | <span data-ttu-id="9c309-160">10.665,70</span><span class="sxs-lookup"><span data-stu-id="9c309-160">10,665.70</span></span>           | <span data-ttu-id="9c309-161">33.253,87</span><span class="sxs-lookup"><span data-stu-id="9c309-161">33,253.87</span></span>             |
+| <span data-ttu-id="9c309-162">3</span><span class="sxs-lookup"><span data-stu-id="9c309-162">3</span></span>    | <span data-ttu-id="9c309-163">31 de diciembre</span><span class="sxs-lookup"><span data-stu-id="9c309-163">December 31</span></span> | <span data-ttu-id="9c309-164">7.156,22</span><span class="sxs-lookup"><span data-stu-id="9c309-164">7,156.22</span></span>            | <span data-ttu-id="9c309-165">26.097,65</span><span class="sxs-lookup"><span data-stu-id="9c309-165">26,097.65</span></span>             |
+| <span data-ttu-id="9c309-166">4</span><span class="sxs-lookup"><span data-stu-id="9c309-166">4</span></span>    | <span data-ttu-id="9c309-167">31 de diciembre</span><span class="sxs-lookup"><span data-stu-id="9c309-167">December 31</span></span> | <span data-ttu-id="9c309-168">5.538,06</span><span class="sxs-lookup"><span data-stu-id="9c309-168">5,538.06</span></span>            | <span data-ttu-id="9c309-169">20.559,59</span><span class="sxs-lookup"><span data-stu-id="9c309-169">20,559.59</span></span>             |
+| <span data-ttu-id="9c309-170">5</span><span class="sxs-lookup"><span data-stu-id="9c309-170">5</span></span>    | <span data-ttu-id="9c309-171">31 de diciembre</span><span class="sxs-lookup"><span data-stu-id="9c309-171">December 31</span></span> | <span data-ttu-id="9c309-172">4.579,89</span><span class="sxs-lookup"><span data-stu-id="9c309-172">4,579.89</span></span>            | <span data-ttu-id="9c309-173">15.979,70</span><span class="sxs-lookup"><span data-stu-id="9c309-173">15,979.70</span></span>             |
+| <span data-ttu-id="9c309-174">6</span><span class="sxs-lookup"><span data-stu-id="9c309-174">6</span></span>    | <span data-ttu-id="9c309-175">31 de diciembre</span><span class="sxs-lookup"><span data-stu-id="9c309-175">December 31</span></span> | <span data-ttu-id="9c309-176">3.937,36</span><span class="sxs-lookup"><span data-stu-id="9c309-176">3,937.36</span></span>            | <span data-ttu-id="9c309-177">12.042,34</span><span class="sxs-lookup"><span data-stu-id="9c309-177">12,042.34</span></span>             |
 
-## <a name="straight-line-depreciation"></a>Depreciación lineal
-El valor del campo **Factor** es igual a **50**. En este caso, la depreciación es la misma en cada período y debe tener en cuenta las consecuencias de los valores que ha especificado en otros campos, como se describe en [Depreciación con amortización lineal de vida de servicio](straight-line-service-life-depreciation.md).
+## <a name="straight-line-depreciation"></a><span data-ttu-id="9c309-178">Depreciación lineal</span><span class="sxs-lookup"><span data-stu-id="9c309-178">Straight line depreciation</span></span>
+<span data-ttu-id="9c309-179">El valor del campo **Factor** es igual a **50**.</span><span class="sxs-lookup"><span data-stu-id="9c309-179">The value in the **Factor** field is equal to **50**.</span></span> <span data-ttu-id="9c309-180">En este caso, la depreciación es la misma en cada período y debe tener en cuenta las consecuencias de los valores que ha especificado en otros campos, como se describe en [Depreciación con amortización lineal de vida de servicio](straight-line-service-life-depreciation.md).</span><span class="sxs-lookup"><span data-stu-id="9c309-180">In this case, the depreciation is the same in each period, and you should consider the implications of the values that you have specified in other fields, as described in [Straight line service life depreciation](straight-line-service-life-depreciation.md).</span></span>
 
 
 

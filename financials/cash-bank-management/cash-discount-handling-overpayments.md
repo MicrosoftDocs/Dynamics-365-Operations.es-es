@@ -19,124 +19,124 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f5d75794146eada9b9f439d99ad272f5af8db53b
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 5604f806eed81c60dfcae7cb7b1a22bba25aa454
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Gestión de descuentos por pronto pago para sobrepagos
+# <a name="handling-cash-discounts-for-overpayments"></a><span data-ttu-id="6fb23-103">Gestión de descuentos por pronto pago para sobrepagos</span><span class="sxs-lookup"><span data-stu-id="6fb23-103">Handling cash discounts for overpayments</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo proporcionan escenarios que muestran cómo se gestiona un pago cuando el cliente recibe un descuento por pronto pago pero también paga en exceso. 
+<span data-ttu-id="6fb23-104">Este artículo proporcionan escenarios que muestran cómo se gestiona un pago cuando el cliente recibe un descuento por pronto pago pero también paga en exceso.</span><span class="sxs-lookup"><span data-stu-id="6fb23-104">This article provides scenarios that show how a payment is handled when the customer takes a cash discount but also overpays.</span></span> 
 
-Una factura se considerará sobrepagada cuando el importe del pago sea superior al importe de la factura menos el descuento por pronto pago. Para especificar cómo se gestiona una diferencia obtenible de descuento por pronto pago cuando se sobrepaga una factura, use los campos **Administración del descuento por pronto pago** y **Sobrepago o pago insuficiente máximo** de la página **Parámetros de clientes**. En el siguiente ejemplo, el cliente ha pagado en exceso la factura por 0,50.
+<span data-ttu-id="6fb23-105">Una factura se considerará sobrepagada cuando el importe del pago sea superior al importe de la factura menos el descuento por pronto pago.</span><span class="sxs-lookup"><span data-stu-id="6fb23-105">An invoice is considered overpaid when the payment amount is more than the invoice amount minus the cash discount.</span></span> <span data-ttu-id="6fb23-106">Para especificar cómo se gestiona una diferencia obtenible de descuento por pronto pago cuando se sobrepaga una factura, use los campos **Administración del descuento por pronto pago** y **Sobrepago o pago insuficiente máximo** de la página **Parámetros de clientes**.</span><span class="sxs-lookup"><span data-stu-id="6fb23-106">To specify how an obtainable cash discount difference is handled when an invoice is overpaid, use the **Cash discount administration** and **Maximum overpayment or underpayment** fields on the **Accounts receivable parameters** page.</span></span> <span data-ttu-id="6fb23-107">En el siguiente ejemplo, el cliente ha pagado en exceso la factura por 0,50.</span><span class="sxs-lookup"><span data-stu-id="6fb23-107">In the following example, the customer has overpaid the invoice by 0.50.</span></span>
 
-| Total de la factura | Descuento por pronto pago disponible | Importe a pagar, incluido el descuento por pronto pago | Importe que el cliente paga realmente |
+| <span data-ttu-id="6fb23-108">Total de la factura</span><span class="sxs-lookup"><span data-stu-id="6fb23-108">Invoice total</span></span> | <span data-ttu-id="6fb23-109">Descuento por pronto pago disponible</span><span class="sxs-lookup"><span data-stu-id="6fb23-109">Cash discount available</span></span> | <span data-ttu-id="6fb23-110">Importe a pagar, incluido el descuento por pronto pago</span><span class="sxs-lookup"><span data-stu-id="6fb23-110">Amount to be paid, which includes the cash discount</span></span> | <span data-ttu-id="6fb23-111">Importe que el cliente paga realmente</span><span class="sxs-lookup"><span data-stu-id="6fb23-111">Amount the customer actually pays</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|-----------------------------------|
-| 105,00        | 10,50                   | 94,50                                               | 95,00                             |
+| <span data-ttu-id="6fb23-112">105,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-112">105.00</span></span>        | <span data-ttu-id="6fb23-113">10,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-113">10.50</span></span>                   | <span data-ttu-id="6fb23-114">94,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-114">94.50</span></span>                                               | <span data-ttu-id="6fb23-115">95,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-115">95.00</span></span>                             |
 
-## <a name="cash-discount-administration--specific"></a>Administración del descuento por pronto pago = Específico
-Si se selecciona **Específico** en el campo **Administración del descuento por pronto pago** de la página **Cuentas para transacciones automáticas**, se obtiene el descuento por pronto pago completo. El importe del sobrepago se registra en una cuenta contable de diferencia de descuento por pronto pago o permanece como saldo en la cuenta del cliente. El funcionamiento dependerá de si el importe del sobrepago se encuentra entre 0,00 y el importe especificado en el campo**Sobrepago o pago insuficiente máximo**, o si el importe del sobrepago es superior al importe de **Sobrepago o pago insuficiente máximo**.
+## <a name="cash-discount-administration--specific"></a><span data-ttu-id="6fb23-116">Administración del descuento por pronto pago = Específico</span><span class="sxs-lookup"><span data-stu-id="6fb23-116">Cash discount administration = Specific</span></span>
+<span data-ttu-id="6fb23-117">Si se selecciona **Específico** en el campo **Administración del descuento por pronto pago** de la página **Cuentas para transacciones automáticas**, se obtiene el descuento por pronto pago completo.</span><span class="sxs-lookup"><span data-stu-id="6fb23-117">When **Specific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the full cash discount is taken.</span></span> <span data-ttu-id="6fb23-118">El importe del sobrepago se registra en una cuenta contable de diferencia de descuento por pronto pago o permanece como saldo en la cuenta del cliente.</span><span class="sxs-lookup"><span data-stu-id="6fb23-118">The overpayment amount either is posted to a cash discount difference ledger account or remains a balance on the customer’s account.</span></span> <span data-ttu-id="6fb23-119">El funcionamiento dependerá de si el importe del sobrepago se encuentra entre 0,00 y el importe especificado en el campo**Sobrepago o pago insuficiente máximo**, o si el importe del sobrepago es superior al importe de **Sobrepago o pago insuficiente máximo**.</span><span class="sxs-lookup"><span data-stu-id="6fb23-119">The behavior depends on whether the overpayment amount is between 0.00 and the amount that is entered in the **Maximum overpayment or underpayment** field, or whether the overpayment amount is more than the **Maximum overpayment or underpayment** amount.</span></span>
 
-### <a name="scenario-1"></a>Escenario 1
+### <a name="scenario-1"></a><span data-ttu-id="6fb23-120">Escenario 1</span><span class="sxs-lookup"><span data-stu-id="6fb23-120">Scenario 1</span></span>
 
-En este caso, el importe del sobrepago está entre 0,00 y el sobrepago o pago insuficiente máximo. Se especifica una factura por un valor de 105,00 con un descuento por pronto pago si la factura se paga en menos de siete días.
+<span data-ttu-id="6fb23-121">En este caso, el importe del sobrepago está entre 0,00 y el sobrepago o pago insuficiente máximo.</span><span class="sxs-lookup"><span data-stu-id="6fb23-121">In this scenario, the overpayment amount is between 0.00 and the maximum overpayment or underpayment.</span></span> <span data-ttu-id="6fb23-122">Se especifica una factura por un valor de 105,00 con un descuento por pronto pago si la factura se paga en menos de siete días.</span><span class="sxs-lookup"><span data-stu-id="6fb23-122">An invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Total de la factura | Descuento por pronto pago disponible | Importe a pagar, incluido el descuento por pronto pago |
+| <span data-ttu-id="6fb23-123">Total de la factura</span><span class="sxs-lookup"><span data-stu-id="6fb23-123">Invoice total</span></span> | <span data-ttu-id="6fb23-124">Descuento por pronto pago disponible</span><span class="sxs-lookup"><span data-stu-id="6fb23-124">Cash discount available</span></span> | <span data-ttu-id="6fb23-125">Importe a pagar, incluido el descuento por pronto pago</span><span class="sxs-lookup"><span data-stu-id="6fb23-125">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="6fb23-126">105,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-126">105.00</span></span>        | <span data-ttu-id="6fb23-127">10,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-127">10.50</span></span>                   | <span data-ttu-id="6fb23-128">94,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-128">94.50</span></span>                                               |
 
-El cliente envía un pago de 95,00 dentro del período de descuento por pronto pago. El pago se liquida con la factura por 105,00. Una vez liquidados la factura y el pago, se crean las siguientes transacciones en Clientes para el cliente.
+<span data-ttu-id="6fb23-129">El cliente envía un pago de 95,00 dentro del período de descuento por pronto pago.</span><span class="sxs-lookup"><span data-stu-id="6fb23-129">The customer submits a payment for 95.00 within the cash discount period.</span></span> <span data-ttu-id="6fb23-130">El pago se liquida con la factura por 105,00.</span><span class="sxs-lookup"><span data-stu-id="6fb23-130">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="6fb23-131">Una vez liquidados la factura y el pago, se crean las siguientes transacciones en Clientes para el cliente.</span><span class="sxs-lookup"><span data-stu-id="6fb23-131">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Transacción   | Importe | Saldo |
+| <span data-ttu-id="6fb23-132">Transacción</span><span class="sxs-lookup"><span data-stu-id="6fb23-132">Transaction</span></span>   | <span data-ttu-id="6fb23-133">Importe</span><span class="sxs-lookup"><span data-stu-id="6fb23-133">Amount</span></span> | <span data-ttu-id="6fb23-134">Saldo</span><span class="sxs-lookup"><span data-stu-id="6fb23-134">Balance</span></span> |
 |---------------|--------|---------|
-| Factura       | 105,00 | 0,00    |
-| Pago       | -95,00 | 0,00    |
-| Descuento por pronto pago | -10,50 | 0,00    |
+| <span data-ttu-id="6fb23-135">Factura</span><span class="sxs-lookup"><span data-stu-id="6fb23-135">Invoice</span></span>       | <span data-ttu-id="6fb23-136">105,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-136">105.00</span></span> | <span data-ttu-id="6fb23-137">0,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-137">0.00</span></span>    |
+| <span data-ttu-id="6fb23-138">Pago</span><span class="sxs-lookup"><span data-stu-id="6fb23-138">Payment</span></span>       | <span data-ttu-id="6fb23-139">-95,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-139">-95.00</span></span> | <span data-ttu-id="6fb23-140">0,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-140">0.00</span></span>    |
+| <span data-ttu-id="6fb23-141">Descuento por pronto pago</span><span class="sxs-lookup"><span data-stu-id="6fb23-141">Cash discount</span></span> | <span data-ttu-id="6fb23-142">-10,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-142">-10.50</span></span> | <span data-ttu-id="6fb23-143">0,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-143">0.00</span></span>    |
 
-Se generan los asientos contables siguientes para el pago y la liquidación. **Pago**
+<span data-ttu-id="6fb23-144">Se generan los asientos contables siguientes para el pago y la liquidación.</span><span class="sxs-lookup"><span data-stu-id="6fb23-144">The following accounting entries are generated for the payment and the settlement.</span></span> <span data-ttu-id="6fb23-145">**Pago**</span><span class="sxs-lookup"><span data-stu-id="6fb23-145">**Payment**</span></span>
 
-| Cuenta             | Importe de débito | Importe de crédito |
+| <span data-ttu-id="6fb23-146">Cuenta</span><span class="sxs-lookup"><span data-stu-id="6fb23-146">Account</span></span>             | <span data-ttu-id="6fb23-147">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="6fb23-147">Debit amount</span></span> | <span data-ttu-id="6fb23-148">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="6fb23-148">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Efectivo                | 95,00        |               |
-| Clientes |              | 95,00         |
+| <span data-ttu-id="6fb23-149">Efectivo</span><span class="sxs-lookup"><span data-stu-id="6fb23-149">Cash</span></span>                | <span data-ttu-id="6fb23-150">95,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-150">95.00</span></span>        |               |
+| <span data-ttu-id="6fb23-151">Clientes</span><span class="sxs-lookup"><span data-stu-id="6fb23-151">Accounts receivable</span></span> |              | <span data-ttu-id="6fb23-152">95,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-152">95.00</span></span>         |
 
-**Liquidación**
+<span data-ttu-id="6fb23-153">**Liquidación**</span><span class="sxs-lookup"><span data-stu-id="6fb23-153">**Settlement**</span></span>
 
-| Cuenta                                                                                                          | Importe de débito | Importe de crédito |
+| <span data-ttu-id="6fb23-154">Cuenta</span><span class="sxs-lookup"><span data-stu-id="6fb23-154">Account</span></span>                                                                                                          | <span data-ttu-id="6fb23-155">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="6fb23-155">Debit amount</span></span> | <span data-ttu-id="6fb23-156">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="6fb23-156">Credit amount</span></span> |
 |------------------------------------------------------------------------------------------------------------------|--------------|---------------|
-| Descuento por pronto pago (el campo **Cuenta principal para descuentos de cliente** en la página **Descuentos por pronto pago**)                 | 10,50        |               |
-| Clientes                                                                                              |              | 10,50         |
-| Descuento por pronto pago del cliente (el campo **Descuento por pronto pago del cliente** de la página **Cuentas para transacciones automáticas**) |              | 0,50          |
-| Clientes                                                                                              | 0,50         |               |
+| <span data-ttu-id="6fb23-157">Descuento por pronto pago (el campo **Cuenta principal para descuentos de cliente** en la página **Descuentos por pronto pago**)</span><span class="sxs-lookup"><span data-stu-id="6fb23-157">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span>                 | <span data-ttu-id="6fb23-158">10,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-158">10.50</span></span>        |               |
+| <span data-ttu-id="6fb23-159">Clientes</span><span class="sxs-lookup"><span data-stu-id="6fb23-159">Accounts receivable</span></span>                                                                                              |              | <span data-ttu-id="6fb23-160">10,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-160">10.50</span></span>         |
+| <span data-ttu-id="6fb23-161">Descuento por pronto pago del cliente (el campo **Descuento por pronto pago del cliente** de la página **Cuentas para transacciones automáticas**)</span><span class="sxs-lookup"><span data-stu-id="6fb23-161">Customer cash discount (the **Customer cash discount** field on the **Account for automatic transactions** page)</span></span> |              | <span data-ttu-id="6fb23-162">0,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-162">0.50</span></span>          |
+| <span data-ttu-id="6fb23-163">Clientes</span><span class="sxs-lookup"><span data-stu-id="6fb23-163">Accounts receivable</span></span>                                                                                              | <span data-ttu-id="6fb23-164">0,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-164">0.50</span></span>         |               |
 
-### <a name="scenario-2"></a>Escenario 2
+### <a name="scenario-2"></a><span data-ttu-id="6fb23-165">Escenario 2</span><span class="sxs-lookup"><span data-stu-id="6fb23-165">Scenario 2</span></span>
 
-En este caso, el importe del sobrepago supera el sobrepago o pago insuficiente máximo. Se especifica una factura por un valor de 105,00 con un descuento por pronto pago si la factura se paga en menos de siete días.
+<span data-ttu-id="6fb23-166">En este caso, el importe del sobrepago supera el sobrepago o pago insuficiente máximo.</span><span class="sxs-lookup"><span data-stu-id="6fb23-166">In this scenario, the overpayment amount exceeds the maximum overpayment or underpayment amount.</span></span> <span data-ttu-id="6fb23-167">Se especifica una factura por un valor de 105,00 con un descuento por pronto pago si la factura se paga en menos de siete días.</span><span class="sxs-lookup"><span data-stu-id="6fb23-167">An invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Total de la factura | Descuento por pronto pago disponible | Importe a pagar, incluido el descuento por pronto pago |
+| <span data-ttu-id="6fb23-168">Total de la factura</span><span class="sxs-lookup"><span data-stu-id="6fb23-168">Invoice total</span></span> | <span data-ttu-id="6fb23-169">Descuento por pronto pago disponible</span><span class="sxs-lookup"><span data-stu-id="6fb23-169">Cash discount available</span></span> | <span data-ttu-id="6fb23-170">Importe a pagar, incluido el descuento por pronto pago</span><span class="sxs-lookup"><span data-stu-id="6fb23-170">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="6fb23-171">105,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-171">105.00</span></span>        | <span data-ttu-id="6fb23-172">10,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-172">10.50</span></span>                   | <span data-ttu-id="6fb23-173">94,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-173">94.50</span></span>                                               |
 
-El cliente envía un pago de 95,00 dentro del período de descuento por pronto pago. El pago se liquida con la factura por 105,00. Una vez liquidados la factura y el pago, se crean las siguientes transacciones en Clientes para el cliente.
+<span data-ttu-id="6fb23-174">El cliente envía un pago de 95,00 dentro del período de descuento por pronto pago.</span><span class="sxs-lookup"><span data-stu-id="6fb23-174">The customer submits a payment for 95.00 within the cash discount period.</span></span> <span data-ttu-id="6fb23-175">El pago se liquida con la factura por 105,00.</span><span class="sxs-lookup"><span data-stu-id="6fb23-175">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="6fb23-176">Una vez liquidados la factura y el pago, se crean las siguientes transacciones en Clientes para el cliente.</span><span class="sxs-lookup"><span data-stu-id="6fb23-176">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Transacción   | Importe | Saldo |
+| <span data-ttu-id="6fb23-177">Transacción</span><span class="sxs-lookup"><span data-stu-id="6fb23-177">Transaction</span></span>   | <span data-ttu-id="6fb23-178">Importe</span><span class="sxs-lookup"><span data-stu-id="6fb23-178">Amount</span></span> | <span data-ttu-id="6fb23-179">Saldo</span><span class="sxs-lookup"><span data-stu-id="6fb23-179">Balance</span></span> |
 |---------------|--------|---------|
-| Factura       | 105,00 | 0,00    |
-| Pago       | -95,00 | -0,50   |
-| Descuento por pronto pago | -10,50 | 0,00    |
+| <span data-ttu-id="6fb23-180">Factura</span><span class="sxs-lookup"><span data-stu-id="6fb23-180">Invoice</span></span>       | <span data-ttu-id="6fb23-181">105,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-181">105.00</span></span> | <span data-ttu-id="6fb23-182">0,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-182">0.00</span></span>    |
+| <span data-ttu-id="6fb23-183">Pago</span><span class="sxs-lookup"><span data-stu-id="6fb23-183">Payment</span></span>       | <span data-ttu-id="6fb23-184">-95,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-184">-95.00</span></span> | <span data-ttu-id="6fb23-185">-0,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-185">-0.50</span></span>   |
+| <span data-ttu-id="6fb23-186">Descuento por pronto pago</span><span class="sxs-lookup"><span data-stu-id="6fb23-186">Cash discount</span></span> | <span data-ttu-id="6fb23-187">-10,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-187">-10.50</span></span> | <span data-ttu-id="6fb23-188">0,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-188">0.00</span></span>    |
 
-El importe del sobrepago de 0,50 se mantendrá como saldo de apertura en el pago y se puede liquidar con otra factura. Se generan los asientos contables siguientes para el pago y la liquidación. **Pago**
+<span data-ttu-id="6fb23-189">El importe del sobrepago de 0,50 se mantendrá como saldo de apertura en el pago y se puede liquidar con otra factura.</span><span class="sxs-lookup"><span data-stu-id="6fb23-189">The overpayment amount of 0.50 will remain as an open balance on the payment and can be settled against another invoice.</span></span> <span data-ttu-id="6fb23-190">Se generan los asientos contables siguientes para el pago y la liquidación.</span><span class="sxs-lookup"><span data-stu-id="6fb23-190">The following accounting entries are generated for the payment and the settlement.</span></span> <span data-ttu-id="6fb23-191">**Pago**</span><span class="sxs-lookup"><span data-stu-id="6fb23-191">**Payment**</span></span>
 
-| Cuenta             | Importe de débito | Importe de crédito |
+| <span data-ttu-id="6fb23-192">Cuenta</span><span class="sxs-lookup"><span data-stu-id="6fb23-192">Account</span></span>             | <span data-ttu-id="6fb23-193">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="6fb23-193">Debit amount</span></span> | <span data-ttu-id="6fb23-194">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="6fb23-194">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Efectivo                | 95,00        |               |
-| Clientes |              | 95,00         |
+| <span data-ttu-id="6fb23-195">Efectivo</span><span class="sxs-lookup"><span data-stu-id="6fb23-195">Cash</span></span>                | <span data-ttu-id="6fb23-196">95,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-196">95.00</span></span>        |               |
+| <span data-ttu-id="6fb23-197">Clientes</span><span class="sxs-lookup"><span data-stu-id="6fb23-197">Accounts receivable</span></span> |              | <span data-ttu-id="6fb23-198">95,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-198">95.00</span></span>         |
 
-**Liquidación**
+<span data-ttu-id="6fb23-199">**Liquidación**</span><span class="sxs-lookup"><span data-stu-id="6fb23-199">**Settlement**</span></span>
 
-| Cuenta                                                                                          | Importe de débito | Importe de crédito |
+| <span data-ttu-id="6fb23-200">Cuenta</span><span class="sxs-lookup"><span data-stu-id="6fb23-200">Account</span></span>                                                                                          | <span data-ttu-id="6fb23-201">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="6fb23-201">Debit amount</span></span> | <span data-ttu-id="6fb23-202">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="6fb23-202">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Descuento por pronto pago (el campo **Cuenta principal para descuentos de cliente** en la página**Descuentos por pronto pago**) | 10,50        |               |
-| Clientes                                                                              |              | 10,50         |
+| <span data-ttu-id="6fb23-203">Descuento por pronto pago (el campo **Cuenta principal para descuentos de cliente** en la página**Descuentos por pronto pago**)</span><span class="sxs-lookup"><span data-stu-id="6fb23-203">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="6fb23-204">10,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-204">10.50</span></span>        |               |
+| <span data-ttu-id="6fb23-205">Clientes</span><span class="sxs-lookup"><span data-stu-id="6fb23-205">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="6fb23-206">10,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-206">10.50</span></span>         |
 
-## <a name="cash-discount-administration--unspecific"></a>Administración del descuento por pronto pago = No específico
-Si se selecciona **No específico** en el campo **Administración del descuento por pronto pago** de la página **Cuentas para transacciones automáticas**, el importe de descuento por pronto pago se deduce del importe del sobrepago. Este funcionamiento se aplica siempre, independientemente de si el importe del sobrepago está por encima o por debajo del importe que se especifica en el campo **Sobrepago o pago insuficiente máximo**.
+## <a name="cash-discount-administration--unspecific"></a><span data-ttu-id="6fb23-207">Administración del descuento por pronto pago = No específico</span><span class="sxs-lookup"><span data-stu-id="6fb23-207">Cash discount administration = Unspecific</span></span>
+<span data-ttu-id="6fb23-208">Si se selecciona **No específico** en el campo **Administración del descuento por pronto pago** de la página **Cuentas para transacciones automáticas**, el importe de descuento por pronto pago se deduce del importe del sobrepago.</span><span class="sxs-lookup"><span data-stu-id="6fb23-208">When **Unspecific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the cash discount amount is reduced by the overpayment amount.</span></span> <span data-ttu-id="6fb23-209">Este funcionamiento se aplica siempre, independientemente de si el importe del sobrepago está por encima o por debajo del importe que se especifica en el campo **Sobrepago o pago insuficiente máximo**.</span><span class="sxs-lookup"><span data-stu-id="6fb23-209">This behavior always applies, regardless of whether the overpayment amount is over or under the amount that is entered in the **Maximum overpayment or underpayment** field.</span></span>
 
-### <a name="scenario-3"></a>Escenario 3
+### <a name="scenario-3"></a><span data-ttu-id="6fb23-210">Escenario 3</span><span class="sxs-lookup"><span data-stu-id="6fb23-210">Scenario 3</span></span>
 
-En este caso, se especifica una factura por un valor de 105,00 con un descuento por pronto pago si la factura se paga en menos de siete días.
+<span data-ttu-id="6fb23-211">En este caso, se especifica una factura por un valor de 105,00 con un descuento por pronto pago si la factura se paga en menos de siete días.</span><span class="sxs-lookup"><span data-stu-id="6fb23-211">In this scenario, an invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Total de la factura | Descuento por pronto pago disponible | Importe a pagar, incluido el descuento por pronto pago |
+| <span data-ttu-id="6fb23-212">Total de la factura</span><span class="sxs-lookup"><span data-stu-id="6fb23-212">Invoice total</span></span> | <span data-ttu-id="6fb23-213">Descuento por pronto pago disponible</span><span class="sxs-lookup"><span data-stu-id="6fb23-213">Cash discount available</span></span> | <span data-ttu-id="6fb23-214">Importe a pagar, incluido el descuento por pronto pago</span><span class="sxs-lookup"><span data-stu-id="6fb23-214">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="6fb23-215">105,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-215">105.00</span></span>        | <span data-ttu-id="6fb23-216">10,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-216">10.50</span></span>                   | <span data-ttu-id="6fb23-217">94,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-217">94.50</span></span>                                               |
 
-El cliente envía un pago de 95,00 dentro de la fecha de descuento por pronto pago. El pago se liquida con la factura por 105,00. Una vez liquidados la factura y el pago, se crean las siguientes transacciones en Clientes para el cliente.
+<span data-ttu-id="6fb23-218">El cliente envía un pago de 95,00 dentro de la fecha de descuento por pronto pago.</span><span class="sxs-lookup"><span data-stu-id="6fb23-218">The customer submits a payment for 95.00 within the cash discount date.</span></span> <span data-ttu-id="6fb23-219">El pago se liquida con la factura por 105,00.</span><span class="sxs-lookup"><span data-stu-id="6fb23-219">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="6fb23-220">Una vez liquidados la factura y el pago, se crean las siguientes transacciones en Clientes para el cliente.</span><span class="sxs-lookup"><span data-stu-id="6fb23-220">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Transacción   | Importe | Saldo |
+| <span data-ttu-id="6fb23-221">Transacción</span><span class="sxs-lookup"><span data-stu-id="6fb23-221">Transaction</span></span>   | <span data-ttu-id="6fb23-222">Importe</span><span class="sxs-lookup"><span data-stu-id="6fb23-222">Amount</span></span> | <span data-ttu-id="6fb23-223">Saldo</span><span class="sxs-lookup"><span data-stu-id="6fb23-223">Balance</span></span> |
 |---------------|--------|---------|
-| Factura       | 105,00 | 0,00    |
-| Pago       | -95,00 | -0,00   |
-| Descuento por pronto pago | -10,00 | 0,00    |
+| <span data-ttu-id="6fb23-224">Factura</span><span class="sxs-lookup"><span data-stu-id="6fb23-224">Invoice</span></span>       | <span data-ttu-id="6fb23-225">105,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-225">105.00</span></span> | <span data-ttu-id="6fb23-226">0,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-226">0.00</span></span>    |
+| <span data-ttu-id="6fb23-227">Pago</span><span class="sxs-lookup"><span data-stu-id="6fb23-227">Payment</span></span>       | <span data-ttu-id="6fb23-228">-95,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-228">-95.00</span></span> | <span data-ttu-id="6fb23-229">-0,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-229">-0.00</span></span>   |
+| <span data-ttu-id="6fb23-230">Descuento por pronto pago</span><span class="sxs-lookup"><span data-stu-id="6fb23-230">Cash discount</span></span> | <span data-ttu-id="6fb23-231">-10,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-231">-10.00</span></span> | <span data-ttu-id="6fb23-232">0,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-232">0.00</span></span>    |
 
-El importe del descuento por pronto pago se reduce de 10,50 a 10,00. El pago y la factura se consideran liquidados. **Pago**
+<span data-ttu-id="6fb23-233">El importe del descuento por pronto pago se reduce de 10,50 a 10,00.</span><span class="sxs-lookup"><span data-stu-id="6fb23-233">The cash discount amount is reduced from 10.50 to 10.00.</span></span> <span data-ttu-id="6fb23-234">El pago y la factura se consideran liquidados.</span><span class="sxs-lookup"><span data-stu-id="6fb23-234">The payment and invoice are considered settled.</span></span> <span data-ttu-id="6fb23-235">**Pago**</span><span class="sxs-lookup"><span data-stu-id="6fb23-235">**Payment**</span></span>
 
-| Cuenta             | Importe de débito | Importe de crédito |
+| <span data-ttu-id="6fb23-236">Cuenta</span><span class="sxs-lookup"><span data-stu-id="6fb23-236">Account</span></span>             | <span data-ttu-id="6fb23-237">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="6fb23-237">Debit amount</span></span> | <span data-ttu-id="6fb23-238">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="6fb23-238">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Efectivo                | 95,00        |               |
-| Clientes |              | 95,00         |
+| <span data-ttu-id="6fb23-239">Efectivo</span><span class="sxs-lookup"><span data-stu-id="6fb23-239">Cash</span></span>                | <span data-ttu-id="6fb23-240">95,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-240">95.00</span></span>        |               |
+| <span data-ttu-id="6fb23-241">Clientes</span><span class="sxs-lookup"><span data-stu-id="6fb23-241">Accounts receivable</span></span> |              | <span data-ttu-id="6fb23-242">95,00</span><span class="sxs-lookup"><span data-stu-id="6fb23-242">95.00</span></span>         |
 
-**Liquidación**
+<span data-ttu-id="6fb23-243">**Liquidación**</span><span class="sxs-lookup"><span data-stu-id="6fb23-243">**Settlement**</span></span>
 
-| Cuenta                                                                                          | Importe de débito | Importe de crédito |
+| <span data-ttu-id="6fb23-244">Cuenta</span><span class="sxs-lookup"><span data-stu-id="6fb23-244">Account</span></span>                                                                                          | <span data-ttu-id="6fb23-245">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="6fb23-245">Debit amount</span></span> | <span data-ttu-id="6fb23-246">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="6fb23-246">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Descuento por pronto pago (el campo **Cuenta principal para descuentos de cliente** en la página **Descuentos por pronto pago**) | 10,50        |               |
-| Clientes                                                                              |              | 10,50         |
+| <span data-ttu-id="6fb23-247">Descuento por pronto pago (el campo **Cuenta principal para descuentos de cliente** en la página **Descuentos por pronto pago**)</span><span class="sxs-lookup"><span data-stu-id="6fb23-247">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="6fb23-248">10,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-248">10.50</span></span>        |               |
+| <span data-ttu-id="6fb23-249">Clientes</span><span class="sxs-lookup"><span data-stu-id="6fb23-249">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="6fb23-250">10,50</span><span class="sxs-lookup"><span data-stu-id="6fb23-250">10.50</span></span>         |
 
 
 

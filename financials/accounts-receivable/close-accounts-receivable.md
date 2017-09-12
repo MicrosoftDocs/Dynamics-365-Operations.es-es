@@ -18,48 +18,48 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6e8e87df88aace213f50db617229383eba4d86ec
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 2b2e827df0c679855af9624f8a2fb36cb23f359a
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="close-accounts-receivable"></a>Cerrar Clientes
+# <a name="close-accounts-receivable"></a><span data-ttu-id="8e350-102">Cerrar Clientes</span><span class="sxs-lookup"><span data-stu-id="8e350-102">Close Accounts receivable</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
 
 
-La tabla siguiente muestra las páginas que admiten el proceso empresarial de cierre de Clientes.
+<span data-ttu-id="8e350-103">La tabla siguiente muestra las páginas que admiten el proceso empresarial de cierre de Clientes.</span><span class="sxs-lookup"><span data-stu-id="8e350-103">The following table lists the pages that support the close Accounts receivable business process.</span></span>
 
 > [!NOTE] 
-> Para abrir algunas de las páginas de la tabla, debe especificar información o la configuración de parámetros.
+> <span data-ttu-id="8e350-104">Para abrir algunas de las páginas de la tabla, debe especificar información o la configuración de parámetros.</span><span class="sxs-lookup"><span data-stu-id="8e350-104">To open some of the pages in the table, you must enter information or specify parameter settings.</span></span>
 
-**Tarea del componente del proceso empresarial**                   
+<span data-ttu-id="8e350-105">**Tarea del componente del proceso empresarial**</span><span class="sxs-lookup"><span data-stu-id="8e350-105">**Business process component task**</span></span>                   
 
-Cerrar los períodos en la contabilidad general
+<span data-ttu-id="8e350-106">Cerrar los períodos en la contabilidad general</span><span class="sxs-lookup"><span data-stu-id="8e350-106">Close periods in the general ledger</span></span>
 
-| Nombre de página                            | Uso                                                                                      |
+| <span data-ttu-id="8e350-107">Nombre de página</span><span class="sxs-lookup"><span data-stu-id="8e350-107">Page name</span></span>                            | <span data-ttu-id="8e350-108">Uso</span><span class="sxs-lookup"><span data-stu-id="8e350-108">Usage</span></span>                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------|
-|Trabajo por lotes                             | Permite ver o crear trabajos por lotes. Los trabajos por lotes pueden no completarse y desea garantizar que todos los registros se han completado.                                                                                                               |
-|Confirmar pedido de ventas                   | Permite actualizar los pedidos de ventas.                                                                       |
-|Revalorización de divisa extranjera          | Permite generar transacciones que actualizan el valor de transacciones del cliente abiertas en divisas.                                                                                                                         |
-| Diario                              | Permite registrar facturas, pagos y pagarés.                                             |
-| Asiento del diario                      |<ul><li>**Diario de pagos**: permite generar, procesar y registrar pagos.</li><li>**Diario de creación de letra de cambio**: permite registrar letras de cambio.</li><li>**Diario de impago de letras de cambio**: permite registrar letras de cambio impagadas.</li><li>**Diario de renegociación de letras de cambio**: permite registrar letras de cambio renegociadas.</li><li>**Diario de envíos**: permite registrar envíos.</li><li>**Diario de liquidación de letra de cambio**: permite registrar letras de cambio liquidadas</li></ul>                   |
-| Registro del albarán                 | Permite actualizar los albaranes de los pedidos de ventas.                                                     |
-| Registrar la factura de servicio               | Permite registrar facturas de servicios.                                                                   |
-| Registro de factura                      | Permite registrar facturas para los pedidos de ventas.                                                            |
-| Registro de lista de selección                 |Permite actualizar las listas de selección de los pedidos de ventas.                                                      |
+|<span data-ttu-id="8e350-109">Trabajo por lotes</span><span class="sxs-lookup"><span data-stu-id="8e350-109">Batch job</span></span>                             | <span data-ttu-id="8e350-110">Permite ver o crear trabajos por lotes.</span><span class="sxs-lookup"><span data-stu-id="8e350-110">View or create batch jobs.</span></span> <span data-ttu-id="8e350-111">Los trabajos por lotes pueden no completarse y desea garantizar que todos los registros se han completado.</span><span class="sxs-lookup"><span data-stu-id="8e350-111">Batch jobs might not be completed, and you want make sure that all posting is completed.</span></span>                                                                                                               |
+|<span data-ttu-id="8e350-112">Confirmar pedido de ventas</span><span class="sxs-lookup"><span data-stu-id="8e350-112">Confirm sales order</span></span>                   | <span data-ttu-id="8e350-113">Permite actualizar los pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="8e350-113">Update sales orders.</span></span>                                                                       |
+|<span data-ttu-id="8e350-114">Revalorización de divisa extranjera</span><span class="sxs-lookup"><span data-stu-id="8e350-114">Foreign currency revaluation</span></span>          | <span data-ttu-id="8e350-115">Permite generar transacciones que actualizan el valor de transacciones del cliente abiertas en divisas.</span><span class="sxs-lookup"><span data-stu-id="8e350-115">Generate transactions that update the value of open customer transactions in foreign currencies.</span></span>                                                                                                                         |
+| <span data-ttu-id="8e350-116">Diario</span><span class="sxs-lookup"><span data-stu-id="8e350-116">Journal</span></span>                              | <span data-ttu-id="8e350-117">Permite registrar facturas, pagos y pagarés.</span><span class="sxs-lookup"><span data-stu-id="8e350-117">Post invoices, payments, and promissory notes.</span></span>                                             |
+| <span data-ttu-id="8e350-118">Asiento del diario</span><span class="sxs-lookup"><span data-stu-id="8e350-118">Journal voucher</span></span>                      |<ul><li><span data-ttu-id="8e350-119">**Diario de pagos**: permite generar, procesar y registrar pagos.</span><span class="sxs-lookup"><span data-stu-id="8e350-119">**Payment journal** – Generate, process, and post payments.</span></span></li><li><span data-ttu-id="8e350-120">**Diario de creación de letra de cambio**: permite registrar letras de cambio.</span><span class="sxs-lookup"><span data-stu-id="8e350-120">**Draw bill of exchange journal** – Post bills of exchange.</span></span></li><li><span data-ttu-id="8e350-121">**Diario de impago de letras de cambio**: permite registrar letras de cambio impagadas.</span><span class="sxs-lookup"><span data-stu-id="8e350-121">**Protest bill of exchange journal** – Post protested bills of exchange.</span></span></li><li><span data-ttu-id="8e350-122">**Diario de renegociación de letras de cambio**: permite registrar letras de cambio renegociadas.</span><span class="sxs-lookup"><span data-stu-id="8e350-122">**Redraw bill of exchange journal** – Post redrawn bills of exchange.</span></span></li><li><span data-ttu-id="8e350-123">**Diario de envíos**: permite registrar envíos.</span><span class="sxs-lookup"><span data-stu-id="8e350-123">**Remittance journal** – Post remittances.</span></span></li><li><span data-ttu-id="8e350-124">**Diario de liquidación de letra de cambio**: permite registrar letras de cambio liquidadas</span><span class="sxs-lookup"><span data-stu-id="8e350-124">**Settle bill of exchange journal** – Post settled bills of exchange</span></span></li></ul>                   |
+| <span data-ttu-id="8e350-125">Registro del albarán</span><span class="sxs-lookup"><span data-stu-id="8e350-125">Packing slip posting</span></span>                 | <span data-ttu-id="8e350-126">Permite actualizar los albaranes de los pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="8e350-126">Update packing slips for sales orders.</span></span>                                                     |
+| <span data-ttu-id="8e350-127">Registrar la factura de servicio</span><span class="sxs-lookup"><span data-stu-id="8e350-127">Post free text invoice</span></span>               | <span data-ttu-id="8e350-128">Permite registrar facturas de servicios.</span><span class="sxs-lookup"><span data-stu-id="8e350-128">Post free text invoices.</span></span>                                                                   |
+| <span data-ttu-id="8e350-129">Registro de factura</span><span class="sxs-lookup"><span data-stu-id="8e350-129">Posting invoice</span></span>                      | <span data-ttu-id="8e350-130">Permite registrar facturas para los pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="8e350-130">Post invoices for sales orders.</span></span>                                                            |
+| <span data-ttu-id="8e350-131">Registro de lista de selección</span><span class="sxs-lookup"><span data-stu-id="8e350-131">Posting picking list</span></span>                 |<span data-ttu-id="8e350-132">Permite actualizar las listas de selección de los pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="8e350-132">Update picking lists for sales orders.</span></span>                                                      |
 
-**Tarea del componente del proceso empresarial**   
+<span data-ttu-id="8e350-133">**Tarea del componente del proceso empresarial**</span><span class="sxs-lookup"><span data-stu-id="8e350-133">**Business process component task**</span></span>   
 
-Crear y enviar la lista de ventas a la UE
+<span data-ttu-id="8e350-134">Crear y enviar la lista de ventas a la UE</span><span class="sxs-lookup"><span data-stu-id="8e350-134">Create and submit the EU sales list</span></span>
 
-| Nombre de página                            | Uso                                                                                      |
+| <span data-ttu-id="8e350-135">Nombre de página</span><span class="sxs-lookup"><span data-stu-id="8e350-135">Page name</span></span>                            | <span data-ttu-id="8e350-136">Uso</span><span class="sxs-lookup"><span data-stu-id="8e350-136">Usage</span></span>                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------|
-|Lista de ventas de la UE                         | Informe de ventas de la UE a la autoridad fiscal para la declaración del impuesto sobre el valor añadido (IVA).                                                                                                                           |
+|<span data-ttu-id="8e350-137">Lista de ventas de la UE</span><span class="sxs-lookup"><span data-stu-id="8e350-137">EU sales list</span></span>                         | <span data-ttu-id="8e350-138">Informe de ventas de la UE a la autoridad fiscal para la declaración del impuesto sobre el valor añadido (IVA).</span><span class="sxs-lookup"><span data-stu-id="8e350-138">Report on European Union (EU) sales to the tax authority for value-added tax (VAT) declaration purposes.</span></span>                                                                                                                           |
 
 
 

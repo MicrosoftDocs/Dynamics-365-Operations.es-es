@@ -16,54 +16,54 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: b783c41459163ab5a0644a1ff5c39b6933bcdb1b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 4e8d438da1524850c115f5c38865fac2f19f3ff5
 ms.contentlocale: es-es
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-product-master"></a>Crear un producto maestro
+# <a name="create-a-product-master"></a><span data-ttu-id="07cfe-103">Crear un producto maestro</span><span class="sxs-lookup"><span data-stu-id="07cfe-103">Create a product master</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cree un producto maestro para las variantes predefinidas. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento se ha pensado para el diseñador de producto.
+<span data-ttu-id="07cfe-104">Cree un producto maestro para las variantes predefinidas.</span><span class="sxs-lookup"><span data-stu-id="07cfe-104">Create a product master for the predefined variants.</span></span> <span data-ttu-id="07cfe-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="07cfe-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="07cfe-106">Este procedimiento se ha pensado para el diseñador de producto.</span><span class="sxs-lookup"><span data-stu-id="07cfe-106">This procedure is intended for the product designer.</span></span>
 
 
-## <a name="create-a-new-product-master"></a>Crear un nuevo producto maestro
-1. Vaya a Gestión de información de productos > Productos > Productos maestros.
-2. Haga clic en Nuevo.
-3. En el campo Número de producto, escriba un valor.
-    * El número debe ser único. Se puede especificar una secuencia numérica para el campo Número de producto. En este caso, el usuario no tiene que especificar un valor.  
-4. En el campo Nombre de producto, escriba un valor.
-    * Escriba un nombre del producto que sea descriptivo. El valor predeterminado es el nombre de búsqueda, pero esto lo puede cambiar el usuario.  
-5. En el campo Grupo de dimensiones de producto, haga clic en el botón desplegable para abrir la búsqueda.
-    * El grupo de dimensiones del producto determina cuál de las cuatro dimensiones del producto se pueden usar para crear variantes del producto. Este ejemplo usa un grupo con tamaño y color.  
-6. En la lista, busque y seleccione el registro deseado.
-7. En la lista, haga clic en el vínculo de la fila seleccionada.
-    * La tecnología de configuración predeterminada es Variante predefinida. Es lo que se usará para este ejemplo.  
-8. Haga clic en Aceptar
+## <a name="create-a-new-product-master"></a><span data-ttu-id="07cfe-107">Crear un nuevo producto maestro</span><span class="sxs-lookup"><span data-stu-id="07cfe-107">Create a new product master</span></span>
+1. <span data-ttu-id="07cfe-108">Vaya a Gestión de información de productos > Productos > Productos maestros.</span><span class="sxs-lookup"><span data-stu-id="07cfe-108">Go to Product information management > Products > Product masters.</span></span>
+2. <span data-ttu-id="07cfe-109">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="07cfe-109">Click New.</span></span>
+3. <span data-ttu-id="07cfe-110">En el campo Número de producto, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="07cfe-110">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="07cfe-111">El número debe ser único.</span><span class="sxs-lookup"><span data-stu-id="07cfe-111">The number must be unique.</span></span> <span data-ttu-id="07cfe-112">Se puede especificar una secuencia numérica para el campo Número de producto.</span><span class="sxs-lookup"><span data-stu-id="07cfe-112">A number sequence can be set for the Product number field.</span></span> <span data-ttu-id="07cfe-113">En este caso, el usuario no tiene que especificar un valor.</span><span class="sxs-lookup"><span data-stu-id="07cfe-113">In this case, the user doesn't have to enter a value.</span></span>  
+4. <span data-ttu-id="07cfe-114">En el campo Nombre de producto, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="07cfe-114">In the Product name field, type a value.</span></span>
+    * <span data-ttu-id="07cfe-115">Escriba un nombre del producto que sea descriptivo.</span><span class="sxs-lookup"><span data-stu-id="07cfe-115">Enter a descriptive product name.</span></span> <span data-ttu-id="07cfe-116">El valor predeterminado es el nombre de búsqueda, pero esto lo puede cambiar el usuario.</span><span class="sxs-lookup"><span data-stu-id="07cfe-116">The value defaults to the search name, but this can be changed by the user.</span></span>  
+5. <span data-ttu-id="07cfe-117">En el campo Grupo de dimensiones de producto, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="07cfe-117">In the Product dimension group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="07cfe-118">El grupo de dimensiones del producto determina cuál de las cuatro dimensiones del producto se pueden usar para crear variantes del producto.</span><span class="sxs-lookup"><span data-stu-id="07cfe-118">The product dimension group determines which of the 4 product dimensions that can be used to create product variants.</span></span> <span data-ttu-id="07cfe-119">Este ejemplo usa un grupo con tamaño y color.</span><span class="sxs-lookup"><span data-stu-id="07cfe-119">This example uses a group with color and size.</span></span>  
+6. <span data-ttu-id="07cfe-120">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="07cfe-120">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="07cfe-121">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="07cfe-121">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="07cfe-122">La tecnología de configuración predeterminada es Variante predefinida.</span><span class="sxs-lookup"><span data-stu-id="07cfe-122">The default configuration technology is Predefined variant.</span></span> <span data-ttu-id="07cfe-123">Es lo que se usará para este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="07cfe-123">This will be used for this example.</span></span>  
+8. <span data-ttu-id="07cfe-124">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="07cfe-124">Click OK.</span></span>
 
-## <a name="select-product-dimension-groups"></a>Selección de grupos de dimensiones de producto
-1. En el campo Grupo de colores, haga clic en el botón desplegable para abrir la búsqueda.
-2. En la lista, busque y seleccione el registro deseado.
-3. En la lista, haga clic en el vínculo de la fila seleccionada.
-4. En el campo Grupo de tamaños, haga clic en el botón desplegable para abrir la búsqueda.
-5. En la lista, busque y seleccione el registro deseado.
-6. En la lista, haga clic en el vínculo de la fila seleccionada.
+## <a name="select-product-dimension-groups"></a><span data-ttu-id="07cfe-125">Selección de grupos de dimensiones de producto</span><span class="sxs-lookup"><span data-stu-id="07cfe-125">Select product dimension groups</span></span>
+1. <span data-ttu-id="07cfe-126">En el campo Grupo de colores, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="07cfe-126">In the Color group field, click the drop-down button to open the lookup.</span></span>
+2. <span data-ttu-id="07cfe-127">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="07cfe-127">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="07cfe-128">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="07cfe-128">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="07cfe-129">En el campo Grupo de tamaños, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="07cfe-129">In the Size group field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="07cfe-130">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="07cfe-130">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="07cfe-131">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="07cfe-131">In the list, click the link in the selected row.</span></span>
 
-## <a name="add-dimension-groups"></a>Agregar grupos de dimensiones
-1. En el panel de acciones, haga clic en Producto.
-2. Haga clic en Grupos de dimensiones para abrir el cuadro de diálogo.
-3. En el campo Grupo de dimensiones de almacenamiento, haga clic en el botón desplegable para abrir la búsqueda.
-    * Las dimensiones de almacenamiento ayudan a controlar el modo en que los artículos se almacenan y se toman del inventario. Por ejemplo, una dimensión de almacenamiento puede incluir el sitio y el almacén.  
-4. En la lista, busque y seleccione el registro deseado.
-5. En la lista, haga clic en el vínculo de la fila seleccionada.
-6. En el campo Grupo de dimensiones de seguimiento, haga clic en el botón desplegable para abrir la búsqueda.
-    * El grupo de dimensiones de seguimiento determina qué dimensiones de seguimiento puede agregar a un producto. Por ejemplo, el número de lote y el número de serie se utilizan para hacer un seguimiento de los artículos de inventario.  
-7. En la lista, busque y seleccione el registro deseado.
-8. En la lista, haga clic en el vínculo de la fila seleccionada.
-9. Haga clic en Aceptar
-10. Haga clic en Guardar.
-11. Cierre la página.
+## <a name="add-dimension-groups"></a><span data-ttu-id="07cfe-132">Agregar grupos de dimensiones</span><span class="sxs-lookup"><span data-stu-id="07cfe-132">Add dimension groups</span></span>
+1. <span data-ttu-id="07cfe-133">En el panel de acciones, haga clic en Producto.</span><span class="sxs-lookup"><span data-stu-id="07cfe-133">On the Action Pane, click Product.</span></span>
+2. <span data-ttu-id="07cfe-134">Haga clic en Grupos de dimensiones para abrir el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="07cfe-134">Click Dimension groups to open the drop dialog.</span></span>
+3. <span data-ttu-id="07cfe-135">En el campo Grupo de dimensiones de almacenamiento, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="07cfe-135">In the Storage dimension group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="07cfe-136">Las dimensiones de almacenamiento ayudan a controlar el modo en que los artículos se almacenan y se toman del inventario.</span><span class="sxs-lookup"><span data-stu-id="07cfe-136">The storage dimensions help you control how items are stored and taken from inventory.</span></span> <span data-ttu-id="07cfe-137">Por ejemplo, una dimensión de almacenamiento puede incluir el sitio y el almacén.</span><span class="sxs-lookup"><span data-stu-id="07cfe-137">For example, a storage dimension can include Site and Warehouse.</span></span>  
+4. <span data-ttu-id="07cfe-138">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="07cfe-138">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="07cfe-139">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="07cfe-139">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="07cfe-140">En el campo Grupo de dimensiones de seguimiento, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="07cfe-140">In the Tracking dimension group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="07cfe-141">El grupo de dimensiones de seguimiento determina qué dimensiones de seguimiento puede agregar a un producto.</span><span class="sxs-lookup"><span data-stu-id="07cfe-141">The tracking dimension group determines which tracking dimensions you can add to a product.</span></span> <span data-ttu-id="07cfe-142">Por ejemplo, el número de lote y el número de serie se utilizan para hacer un seguimiento de los artículos de inventario.</span><span class="sxs-lookup"><span data-stu-id="07cfe-142">For example, the batch number and serial number are used to track inventory items.</span></span>  
+7. <span data-ttu-id="07cfe-143">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="07cfe-143">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="07cfe-144">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="07cfe-144">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="07cfe-145">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="07cfe-145">Click OK.</span></span>
+10. <span data-ttu-id="07cfe-146">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="07cfe-146">Click Save.</span></span>
+11. <span data-ttu-id="07cfe-147">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="07cfe-147">Close the page.</span></span>
 
 

@@ -16,61 +16,61 @@ ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: db6babb4cc679d8f3c6346e72013157a34ea3216
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 2f10f627f33108b8750a1d71d24a99763178e2ef
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a>Configurar los documentos de transferencia para el movimiento de mercancías dentro de una empresa
+# <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a><span data-ttu-id="4cbd8-103">Configurar los documentos de transferencia para el movimiento de mercancías dentro de una empresa</span><span class="sxs-lookup"><span data-stu-id="4cbd8-103">Set up the transfer documents for goods movement inside a company</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo crear documentos de transferencia para movimiento de mercancías dentro de una empresa. Este procedimiento sólo está disponible para entidades jurídicas con dirección principal en Lituania. Este procedimiento se ha creado con los datos de demostración de la empresa DEMF, con una dirección principal en Lituania. Antes de completar este procedimiento, deberá completar el procedimiento de “Configuración de los documentos de transferencia de mercancías dentro de una empresa”. Este procedimiento está dirigido a contables de inventario. Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
+<span data-ttu-id="4cbd8-104">Este procedimiento muestra cómo crear documentos de transferencia para movimiento de mercancías dentro de una empresa.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-104">This procedure shows how to create transfer documents for goods movement inside a company.</span></span> <span data-ttu-id="4cbd8-105">Este procedimiento sólo está disponible para entidades jurídicas con dirección principal en Lituania.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-105">This procedure is only available for legal entities with a primary address in Lithuania.</span></span> <span data-ttu-id="4cbd8-106">Este procedimiento se ha creado con los datos de demostración de la empresa DEMF, con una dirección principal en Lituania.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-106">The procedure was created using the demo data company DEMF with a primary address in Lithuania.</span></span> <span data-ttu-id="4cbd8-107">Antes de completar este procedimiento, deberá completar el procedimiento de “Configuración de los documentos de transferencia de mercancías dentro de una empresa”.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-107">Before you can complete this procedure, you must complete the “Set up transfer documents for goods movement inside a company” procedure.</span></span> <span data-ttu-id="4cbd8-108">Este procedimiento está dirigido a contables de inventario.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-108">This procedure is intended for inventory accountants.</span></span> <span data-ttu-id="4cbd8-109">Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="create-a-transfer-order"></a>Creación de un pedido de transferencia
-1. Vaya a Gestión del inventario > Pedidos de entrada > Orden de transferencia.
-2. Haga clic en Nuevo.
-3. En el campo Desde almacén, especifique o seleccione un valor.
-4. En el campo Hasta almacén, especifique o seleccione un valor.
-5. Haga clic en Agregar.
-6. En la lista, marque la fila seleccionada.
-7. En el campo Número de artículo, especifique o seleccione un valor.
+## <a name="create-a-transfer-order"></a><span data-ttu-id="4cbd8-110">Creación de un pedido de transferencia</span><span class="sxs-lookup"><span data-stu-id="4cbd8-110">Create a transfer order</span></span>
+1. <span data-ttu-id="4cbd8-111">Vaya a Gestión del inventario > Pedidos de entrada > Orden de transferencia.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-111">Go to Inventory management > Inbound orders > Transfer order.</span></span>
+2. <span data-ttu-id="4cbd8-112">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-112">Click New.</span></span>
+3. <span data-ttu-id="4cbd8-113">En el campo Desde almacén, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-113">In the From warehouse field, enter or select a value.</span></span>
+4. <span data-ttu-id="4cbd8-114">En el campo Hasta almacén, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-114">In the To warehouse field, enter or select a value.</span></span>
+5. <span data-ttu-id="4cbd8-115">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-115">Click Add.</span></span>
+6. <span data-ttu-id="4cbd8-116">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-116">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="4cbd8-117">En el campo Número de artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-117">In the Item number field, enter or select a value.</span></span>
 
-## <a name="enter-transportation-details-for-the-transfer-order"></a>Especificar los detalles de transporte para el pedido de transferencia
-1. Haga clic en Guardar.
-2. En el panel de acciones, haga clic en Enviar.
-3. Haga clic en Detalles de transporte.
-4. Seleccione Sí en el campo Imprimir detalles de transporte.
-5. En el campo Mercancías emitidas por, especifique o seleccione un valor.
-6. En el campo Paquete, escriba un valor.
-7. En el campo Nivel de riesgo de la carga, escriba un valor.
-8. En el campo Transportista, especifique o seleccione un valor.
-9. En el campo Modelo, especifique o seleccione un valor.
-10. En el campo Número de registro, escriba un valor.
-11. En el campo Número de registro del tráiler, escriba un valor.
-12. En el campo Conductor, especifique o seleccione un valor.
-13. En el campo Nombre de conductor, escriba un valor.
-14. Haga clic en Guardar.
-15. Cierre la página.
+## <a name="enter-transportation-details-for-the-transfer-order"></a><span data-ttu-id="4cbd8-118">Especificar los detalles de transporte para el pedido de transferencia</span><span class="sxs-lookup"><span data-stu-id="4cbd8-118">Enter transportation details for the transfer order</span></span>
+1. <span data-ttu-id="4cbd8-119">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-119">Click Save.</span></span>
+2. <span data-ttu-id="4cbd8-120">En el panel de acciones, haga clic en Enviar.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-120">On the Action Pane, click Ship.</span></span>
+3. <span data-ttu-id="4cbd8-121">Haga clic en Detalles de transporte.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-121">Click Transportation details.</span></span>
+4. <span data-ttu-id="4cbd8-122">Seleccione Sí en el campo Imprimir detalles de transporte.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-122">Select Yes in the Print transportation details field.</span></span>
+5. <span data-ttu-id="4cbd8-123">En el campo Mercancías emitidas por, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-123">In the Goods issued by field, enter or select a value.</span></span>
+6. <span data-ttu-id="4cbd8-124">En el campo Paquete, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-124">In the Package field, type a value.</span></span>
+7. <span data-ttu-id="4cbd8-125">En el campo Nivel de riesgo de la carga, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-125">In the Risk level of the load field, type a value.</span></span>
+8. <span data-ttu-id="4cbd8-126">En el campo Transportista, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-126">In the Carrier field, enter or select a value.</span></span>
+9. <span data-ttu-id="4cbd8-127">En el campo Modelo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-127">In the Model field, enter or select a value.</span></span>
+10. <span data-ttu-id="4cbd8-128">En el campo Número de registro, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-128">In the Registration number field, type a value.</span></span>
+11. <span data-ttu-id="4cbd8-129">En el campo Número de registro del tráiler, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-129">In the Trailer registration number field, type a value.</span></span>
+12. <span data-ttu-id="4cbd8-130">En el campo Conductor, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-130">In the Driver field, enter or select a value.</span></span>
+13. <span data-ttu-id="4cbd8-131">En el campo Nombre de conductor, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-131">In the Driver name field, type a value.</span></span>
+14. <span data-ttu-id="4cbd8-132">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-132">Click Save.</span></span>
+15. <span data-ttu-id="4cbd8-133">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-133">Close the page.</span></span>
 
-## <a name="view-the-packing-slip-for-the-unposted-transfer-order"></a>Ver el albarán para el pedido de transferencia sin registrar
-1. Haga clic en Albarán.
-2. Haga clic en Aceptar
-3. Cierre la página.
+## <a name="view-the-packing-slip-for-the-unposted-transfer-order"></a><span data-ttu-id="4cbd8-134">Ver el albarán para el pedido de transferencia sin registrar</span><span class="sxs-lookup"><span data-stu-id="4cbd8-134">View the packing slip for the unposted transfer order</span></span>
+1. <span data-ttu-id="4cbd8-135">Haga clic en Albarán.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-135">Click Packing slip.</span></span>
+2. <span data-ttu-id="4cbd8-136">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="4cbd8-136">Click OK.</span></span>
+3. <span data-ttu-id="4cbd8-137">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-137">Close the page.</span></span>
 
-## <a name="view-the-packing-slip-for-the-posted-transfer-order"></a>Ver el albarán para el pedido de transferencia registrado
-1. En el panel de acciones, haga clic Transferir pedido.
-2. En el panel de acciones, haga clic en Enviar.
-3. Haga clic en Enviar pedido de transferencia.
-4. Haga clic en la pestaña General.
-5. En el campo Actualizar, seleccione una opción.
-6. Haga clic en la ficha Visión general.
-7. En el campo Albarán, escriba un valor.
-8. Haga clic en Aceptar
-9. En el panel de acciones, haga clic en Enviar.
-10. Haga clic en Albarán.
-11. Haga clic en Aceptar
+## <a name="view-the-packing-slip-for-the-posted-transfer-order"></a><span data-ttu-id="4cbd8-138">Ver el albarán para el pedido de transferencia registrado</span><span class="sxs-lookup"><span data-stu-id="4cbd8-138">View the packing slip for the posted transfer order</span></span>
+1. <span data-ttu-id="4cbd8-139">En el panel de acciones, haga clic Transferir pedido.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-139">On the Action Pane, click Transfer order.</span></span>
+2. <span data-ttu-id="4cbd8-140">En el panel de acciones, haga clic en Enviar.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-140">On the Action Pane, click Ship.</span></span>
+3. <span data-ttu-id="4cbd8-141">Haga clic en Enviar pedido de transferencia.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-141">Click Ship transfer order.</span></span>
+4. <span data-ttu-id="4cbd8-142">Haga clic en la pestaña General.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-142">Click the General tab.</span></span>
+5. <span data-ttu-id="4cbd8-143">En el campo Actualizar, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-143">In the Update field, select an option.</span></span>
+6. <span data-ttu-id="4cbd8-144">Haga clic en la ficha Visión general.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-144">Click the Overview tab.</span></span>
+7. <span data-ttu-id="4cbd8-145">En el campo Albarán, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-145">In the Packing slip field, type a value.</span></span>
+8. <span data-ttu-id="4cbd8-146">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="4cbd8-146">Click OK.</span></span>
+9. <span data-ttu-id="4cbd8-147">En el panel de acciones, haga clic en Enviar.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-147">On the Action Pane, click Ship.</span></span>
+10. <span data-ttu-id="4cbd8-148">Haga clic en Albarán.</span><span class="sxs-lookup"><span data-stu-id="4cbd8-148">Click Packing slip.</span></span>
+11. <span data-ttu-id="4cbd8-149">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="4cbd8-149">Click OK.</span></span>
 
 

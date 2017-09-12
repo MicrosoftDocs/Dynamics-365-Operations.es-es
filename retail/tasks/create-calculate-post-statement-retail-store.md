@@ -17,34 +17,34 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 60bcafffc922e6d57e52a5dff104a0fbb252f6ce
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 42ab631e29a7fae1140acd41ad80c13e55ca1404
 ms.contentlocale: es-es
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a>Crear, calcular y registrar un extracto para una tienda
+# <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a><span data-ttu-id="e1777-103">Crear, calcular y registrar un extracto para una tienda</span><span class="sxs-lookup"><span data-stu-id="e1777-103">Create, calculate, and post a statement for a retail store</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Este procedimiento le guía por los pasos manuales para crear, calcular y registrar un extracto para un almacén. También hay trabajos por lotes que se pueden configurar para las mismas tareas. Los pasos para configurar y ejecutar los trabajos por lotes se pueden encontrar en otros temas. Para completar este procedimiento, debe tener transacciones que se completaron en PDV y después se incluyeron en Dynamics AX. Este registro usa la empresa USRT en los datos de demostración. Este procedimiento puede remitir a Microsoft Dynamics AX. Tenga en cuenta que Dynamics AX ahora se denomina Microsoft Dynamics 365 for Operations.
+<span data-ttu-id="e1777-104">Este procedimiento le guía por los pasos manuales para crear, calcular y registrar un extracto para un almacén.</span><span class="sxs-lookup"><span data-stu-id="e1777-104">This procedure walks through the manual steps for creating, calculating, and posting a statement for a store.</span></span> <span data-ttu-id="e1777-105">También hay trabajos por lotes que se pueden configurar para las mismas tareas.</span><span class="sxs-lookup"><span data-stu-id="e1777-105">There are also batch jobs that can be configured for the same tasks.</span></span> <span data-ttu-id="e1777-106">Los pasos para configurar y ejecutar los trabajos por lotes se pueden encontrar en otros temas.</span><span class="sxs-lookup"><span data-stu-id="e1777-106">The steps for configuring and running the batch jobs can be found in other topics.</span></span> <span data-ttu-id="e1777-107">Para completar este procedimiento, debe tener transacciones que se completaron en PDV y después se incluyeron en Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="e1777-107">To complete this procedure, you must have transactions that were completed in POS and then pulled into Dynamics AX.</span></span> <span data-ttu-id="e1777-108">Este registro usa la empresa USRT en los datos de demostración.</span><span class="sxs-lookup"><span data-stu-id="e1777-108">This recording uses the USRT company in demo data.</span></span> <span data-ttu-id="e1777-109">Este procedimiento puede remitir a Microsoft Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="e1777-109">This procedure may refer to Microsoft Dynamics AX.</span></span> <span data-ttu-id="e1777-110">Tenga en cuenta que Dynamics AX ahora se denomina Microsoft Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="e1777-110">Please note that Dynamics AX is now called Microsoft Dynamics 365 for Operations.</span></span>
 
-1. Vaya a Todos los espacios de trabajo > .. > Operaciones financieras de tienda.
-2. Haga clic en Nuevo extracto.
-3. En el campo Número de tienda, haga clic en el botón desplegable para abrir la búsqueda.
-4. En la lista, haga clic en el vínculo de la fila seleccionada.
-5. Haga clic en Aceptar
-    * El grupo Configuración tiene la configuración que controla qué transacciones se incluyen en el extracto y cómo se agrupan en las líneas de extracto. Puede abrir el grupo de configuración y cambiar estos ajustes, o puede usar los valores predeterminados.  
-    * El campo Método de extracto define cómo se agruparán las líneas de extracto.  
-    * Seleccione un miembro del personal o un registro si desea calcular un extracto solo para el registro o el miembros del personal específico.  
-6. En el campo Método de cierre, seleccione una opción.
-7. Haga clic en Calcular extracto.
-8. Haga clic en Sí.
-    * Tras calcular el extracto, debe haber líneas creadas con importes totales para cada método de pago y el método de extracto que se usó.  
-    * Especifique un importe contado en cada línea si se necesita especificar o actualizar. El campo contado se rellena con importes de las declaraciones por forma de pago realizadas en PDV.  
-9. Haga clic en Registrar extracto.
-10. Haga clic en Cerrar.
-11. Vaya a Venta minorista y comercio > Canales > Operaciones financieras de tienda.
-12. Haga clic en la ficha Extractos registrados.
+1. <span data-ttu-id="e1777-111">Vaya a Todos los espacios de trabajo > ..</span><span class="sxs-lookup"><span data-stu-id="e1777-111">Go to All workspaces > ..</span></span> <span data-ttu-id="e1777-112">> Operaciones financieras de tienda.</span><span class="sxs-lookup"><span data-stu-id="e1777-112">> Retail store financials.</span></span>
+2. <span data-ttu-id="e1777-113">Haga clic en Nuevo extracto.</span><span class="sxs-lookup"><span data-stu-id="e1777-113">Click New statement.</span></span>
+3. <span data-ttu-id="e1777-114">En el campo Número de tienda, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e1777-114">In the Store number field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="e1777-115">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="e1777-115">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="e1777-116">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="e1777-116">Click OK.</span></span>
+    * <span data-ttu-id="e1777-117">El grupo Configuración tiene la configuración que controla qué transacciones se incluyen en el extracto y cómo se agrupan en las líneas de extracto.</span><span class="sxs-lookup"><span data-stu-id="e1777-117">The Setup group has the settings that control what transactions are included in the statement and how they are grouped into statement lines.</span></span> <span data-ttu-id="e1777-118">Puede abrir el grupo de configuración y cambiar estos ajustes, o puede usar los valores predeterminados.</span><span class="sxs-lookup"><span data-stu-id="e1777-118">You can open the Setup group and change these settings, or you can use the defaults.</span></span>  
+    * <span data-ttu-id="e1777-119">El campo Método de extracto define cómo se agruparán las líneas de extracto.</span><span class="sxs-lookup"><span data-stu-id="e1777-119">The Statement method field defines how the statement lines will be grouped.</span></span>  
+    * <span data-ttu-id="e1777-120">Seleccione un miembro del personal o un registro si desea calcular un extracto solo para el registro o el miembros del personal específico.</span><span class="sxs-lookup"><span data-stu-id="e1777-120">Select a staff member or a register if you want to calculate a statement only for the specific staff member or register.</span></span>  
+6. <span data-ttu-id="e1777-121">En el campo Método de cierre, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="e1777-121">In the Closing method field, select an option.</span></span>
+7. <span data-ttu-id="e1777-122">Haga clic en Calcular extracto.</span><span class="sxs-lookup"><span data-stu-id="e1777-122">Click Calculate statement.</span></span>
+8. <span data-ttu-id="e1777-123">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="e1777-123">Click Yes.</span></span>
+    * <span data-ttu-id="e1777-124">Tras calcular el extracto, debe haber líneas creadas con importes totales para cada método de pago y el método de extracto que se usó.</span><span class="sxs-lookup"><span data-stu-id="e1777-124">After calculating the statement, there should be lines created with total amounts for each payment method and statement method that was used.</span></span>  
+    * <span data-ttu-id="e1777-125">Especifique un importe contado en cada línea si se necesita especificar o actualizar.</span><span class="sxs-lookup"><span data-stu-id="e1777-125">Enter a counted amount in each line if it needs to be entered or updated.</span></span> <span data-ttu-id="e1777-126">El campo contado se rellena con importes de las declaraciones por forma de pago realizadas en PDV.</span><span class="sxs-lookup"><span data-stu-id="e1777-126">The counted field is populated with amounts from tender declarations done in POS.</span></span>  
+9. <span data-ttu-id="e1777-127">Haga clic en Registrar extracto.</span><span class="sxs-lookup"><span data-stu-id="e1777-127">Click Post statement.</span></span>
+10. <span data-ttu-id="e1777-128">Haga clic en Cerrar.</span><span class="sxs-lookup"><span data-stu-id="e1777-128">Click Close.</span></span>
+11. <span data-ttu-id="e1777-129">Vaya a Venta minorista y comercio > Canales > Operaciones financieras de tienda.</span><span class="sxs-lookup"><span data-stu-id="e1777-129">Go to Retail and commerce > Channels > Retail store financials.</span></span>
+12. <span data-ttu-id="e1777-130">Haga clic en la ficha Extractos registrados.</span><span class="sxs-lookup"><span data-stu-id="e1777-130">Click the Posted statements tab.</span></span>
 
 

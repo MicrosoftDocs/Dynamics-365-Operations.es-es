@@ -16,48 +16,48 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 220b33fe81a63aad83bc045ca4a7c74971e7c7bd
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 411d2eeebcbf0a78203ac440968b559088a2fcf5
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="establish-customer-payment-fees"></a>Establecer cuotas de pago de cliente
+# <a name="establish-customer-payment-fees"></a><span data-ttu-id="ff87d-103">Establecer cuotas de pago de cliente</span><span class="sxs-lookup"><span data-stu-id="ff87d-103">Establish customer payment fees</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Creación de cuotas de pago para pagos de clientes.
+<span data-ttu-id="ff87d-104">Creación de cuotas de pago para pagos de clientes.</span><span class="sxs-lookup"><span data-stu-id="ff87d-104">Create payment fees for customer payments.</span></span>
 
-Esta tarea usa la empresa de demostración USMF.
+<span data-ttu-id="ff87d-105">Esta tarea usa la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="ff87d-105">This task uses the USMF demo company.</span></span>
 
-1. Vaya a Clientes > Configuración de pagos > Cuota de pago.
-2. Haga clic en Nuevo.
-3. En el campo Id. de cuota, especifique un identificador para la cuota.
-    * El Id. de cuota se muestra en los diarios de pagos, por lo que debe hacerlo descriptivo para comprender qué cuota se está aplicando.  
-4. Escriba un nombre para la cuota en el campo Nombre.
-5. En el campo Descripción de cuota, especifique una descripción para la cuota.
-6. Seleccione si la cuota se cobrará al cliente o a una cuenta contable.
-    * Si la cuota se aplica al cliente, seleccione Cliente. Si la cuota se aplica a su organización como gasto, seleccione Libro mayor. Para esta tarea, seleccione Cliente.  
-7. Seleccione el tipo de diario que puede usar esta cuota de pago.
-    * Si estas cuotas se usan para los pagos de cliente, el tipo de diario será probablemente Cobros.  
-8. Haga clic en Guardar.
-9. Haga clic en Configuración de cuota de pago.
-    * La configuración de la cuota de pago se usa para definir los criterios para cuando se aplique la cuota de pago.  Por ejemplo, puede definir que la cuota se calculará si la cuenta bancaria es USMF OPER, y el método de pago es cheque.  
-10. Seleccione Tabla, Grupo o Todo para definir en qué cuentas bancarias se aplicará esta cuota.
-    * Si selecciona Todo, se podría aplicar esta cuota en todas las cuentas bancarias.  Si selecciona Tabla, solo se podría aplicar esta cuota a la cuenta bancaria que seleccione. Si selecciona Grupo, solo se podría aplicar esta cuota a las cuentas bancarias en el grupo de bancos seleccionado.  
-11. Seleccione un grupo de bancos o una cuenta bancaria.
-    * Si ha seleccionado Tabla, las búsquedas mostrarán cuentas bancarias. Si ha seleccionado Grupo, las búsquedas mostrarán grupos de bancos.  
-12. En la lista, haga clic en el vínculo de la fila seleccionada.
-13. Seleccione la forma de pago para la que se aplicará esta cuota.
-    * Por ejemplo, puede aplicar una cuota para sus clientes si envían los pagos como cheques, en lugar de como pago electrónico.  
-14. En la lista, busque y seleccione el registro deseado.
-15. Si procede, especifique una divisa de pago.
-    * La divisa de pago se usa como criterio adicional para saber si se aplicará la cuota.  Por ejemplo, su banco puede cobrar una cuota adicional para los pagos recibidos en divisa USD, ya que normalmente solo tramitan la divisa EUR.  
-16. Seleccione si la cuota será un porcentaje, un importe o un intervalo.
-17. Especifique el porcentaje o el importe de la cuota.
-    * Si el campo Porcentaje / Importe es Porcentaje, el valor especificado aquí será un porcentaje. Si el campo Porcentaje / Importe es Importe, el valor especificado aquí será un importe. Si el campo Porcentaje / Importe es Intervalo, use la ficha Intervalo para definir los niveles.  
-18. En el campo Divisa de cuota, seleccione la divisa de la cuota.
-    * Esta es la divisa en la que se creará la cuota.  
-19. Haga clic en Guardar.
+1. <span data-ttu-id="ff87d-106">Vaya a Clientes > Configuración de pagos > Cuota de pago.</span><span class="sxs-lookup"><span data-stu-id="ff87d-106">Go to Accounts receivable > Payments setup > Payment fee.</span></span>
+2. <span data-ttu-id="ff87d-107">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="ff87d-107">Click New.</span></span>
+3. <span data-ttu-id="ff87d-108">En el campo Id. de cuota, especifique un identificador para la cuota.</span><span class="sxs-lookup"><span data-stu-id="ff87d-108">In the Fee ID field, enter a Fee ID.</span></span>
+    * <span data-ttu-id="ff87d-109">El Id. de cuota se muestra en los diarios de pagos, por lo que debe hacerlo descriptivo para comprender qué cuota se está aplicando.</span><span class="sxs-lookup"><span data-stu-id="ff87d-109">The Fee ID displays on payment journals, so make it descriptive to understand what fee is being assessed.</span></span>  
+4. <span data-ttu-id="ff87d-110">Escriba un nombre para la cuota en el campo Nombre.</span><span class="sxs-lookup"><span data-stu-id="ff87d-110">In the Name field, enter a fee Name.</span></span>
+5. <span data-ttu-id="ff87d-111">En el campo Descripción de cuota, especifique una descripción para la cuota.</span><span class="sxs-lookup"><span data-stu-id="ff87d-111">In the Fee description field, enter a description for the fee.</span></span>
+6. <span data-ttu-id="ff87d-112">Seleccione si la cuota se cobrará al cliente o a una cuenta contable.</span><span class="sxs-lookup"><span data-stu-id="ff87d-112">Select whether the fee will be charged to the Customer or a Ledger account.</span></span>
+    * <span data-ttu-id="ff87d-113">Si la cuota se aplica al cliente, seleccione Cliente.</span><span class="sxs-lookup"><span data-stu-id="ff87d-113">If the customer is assessed the fee, select Customer.</span></span> <span data-ttu-id="ff87d-114">Si la cuota se aplica a su organización como gasto, seleccione Libro mayor.</span><span class="sxs-lookup"><span data-stu-id="ff87d-114">If the fee will be assess to your organization as an expense, select Ledger.</span></span> <span data-ttu-id="ff87d-115">Para esta tarea, seleccione Cliente.</span><span class="sxs-lookup"><span data-stu-id="ff87d-115">For this task, select Customer.</span></span>  
+7. <span data-ttu-id="ff87d-116">Seleccione el tipo de diario que puede usar esta cuota de pago.</span><span class="sxs-lookup"><span data-stu-id="ff87d-116">Select the type of  journal that can use this payment fee.</span></span>
+    * <span data-ttu-id="ff87d-117">Si estas cuotas se usan para los pagos de cliente, el tipo de diario será probablemente Cobros.</span><span class="sxs-lookup"><span data-stu-id="ff87d-117">If these fees are used for customer payments, the journal type will likely be Customer payment.</span></span>  
+8. <span data-ttu-id="ff87d-118">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="ff87d-118">Click Save.</span></span>
+9. <span data-ttu-id="ff87d-119">Haga clic en Configuración de cuota de pago.</span><span class="sxs-lookup"><span data-stu-id="ff87d-119">Click Payment fee setup.</span></span>
+    * <span data-ttu-id="ff87d-120">La configuración de la cuota de pago se usa para definir los criterios para cuando se aplique la cuota de pago.</span><span class="sxs-lookup"><span data-stu-id="ff87d-120">The Payment fee setup is used to define the criteria for when the payment fee will be assessed.</span></span>  <span data-ttu-id="ff87d-121">Por ejemplo, puede definir que la cuota se calculará si la cuenta bancaria es USMF OPER, y el método de pago es cheque.</span><span class="sxs-lookup"><span data-stu-id="ff87d-121">For example, you can define that the fee will be calculated if the bank account is USMF OPER, and the method of payment is check.</span></span>  
+10. <span data-ttu-id="ff87d-122">Seleccione Tabla, Grupo o Todo para definir en qué cuentas bancarias se aplicará esta cuota.</span><span class="sxs-lookup"><span data-stu-id="ff87d-122">Select either Table, Group or All to define which bank accounts will be assessed this fee.</span></span>
+    * <span data-ttu-id="ff87d-123">Si selecciona Todo, se podría aplicar esta cuota en todas las cuentas bancarias.</span><span class="sxs-lookup"><span data-stu-id="ff87d-123">If you select All, all bank accounts could be assessed this fee.</span></span>  <span data-ttu-id="ff87d-124">Si selecciona Tabla, solo se podría aplicar esta cuota a la cuenta bancaria que seleccione.</span><span class="sxs-lookup"><span data-stu-id="ff87d-124">If you select Table, only the bank account you select could be assessed this fee.</span></span> <span data-ttu-id="ff87d-125">Si selecciona Grupo, solo se podría aplicar esta cuota a las cuentas bancarias en el grupo de bancos seleccionado.</span><span class="sxs-lookup"><span data-stu-id="ff87d-125">If you select Group, only the bank accounts in the selected bank group could be assessed this fee.</span></span>  
+11. <span data-ttu-id="ff87d-126">Seleccione un grupo de bancos o una cuenta bancaria.</span><span class="sxs-lookup"><span data-stu-id="ff87d-126">Select either a bank group or a bank account.</span></span>
+    * <span data-ttu-id="ff87d-127">Si ha seleccionado Tabla, las búsquedas mostrarán cuentas bancarias.</span><span class="sxs-lookup"><span data-stu-id="ff87d-127">If you selected Table, the lookup will display bank accounts.</span></span> <span data-ttu-id="ff87d-128">Si ha seleccionado Grupo, las búsquedas mostrarán grupos de bancos.</span><span class="sxs-lookup"><span data-stu-id="ff87d-128">If you selected Group, the lookup will display bank groups.</span></span>  
+12. <span data-ttu-id="ff87d-129">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="ff87d-129">In the list, click the link in the selected row.</span></span>
+13. <span data-ttu-id="ff87d-130">Seleccione la forma de pago para la que se aplicará esta cuota.</span><span class="sxs-lookup"><span data-stu-id="ff87d-130">Select the Method of payment for which this fee will be assessed.</span></span>
+    * <span data-ttu-id="ff87d-131">Por ejemplo, puede aplicar una cuota para sus clientes si envían los pagos como cheques, en lugar de como pago electrónico.</span><span class="sxs-lookup"><span data-stu-id="ff87d-131">For example, you may assess a fee to your customers if they send payments as a check, rather than as an electronic payment.</span></span>  
+14. <span data-ttu-id="ff87d-132">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="ff87d-132">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="ff87d-133">Si procede, especifique una divisa de pago.</span><span class="sxs-lookup"><span data-stu-id="ff87d-133">If relevant, enter a payment currency.</span></span>
+    * <span data-ttu-id="ff87d-134">La divisa de pago se usa como criterio adicional para saber si se aplicará la cuota.</span><span class="sxs-lookup"><span data-stu-id="ff87d-134">The payment currency is used as an additional criteria for whether the fee will be assessed.</span></span>  <span data-ttu-id="ff87d-135">Por ejemplo, su banco puede cobrar una cuota adicional para los pagos recibidos en divisa USD, ya que normalmente solo tramitan la divisa EUR.</span><span class="sxs-lookup"><span data-stu-id="ff87d-135">For example, your bank may charge an extra fee for payments received in USD currency, since they normally only transact in EUR currency.</span></span>  
+16. <span data-ttu-id="ff87d-136">Seleccione si la cuota será un porcentaje, un importe o un intervalo.</span><span class="sxs-lookup"><span data-stu-id="ff87d-136">Select whether the fee will be a percent, amount or interval.</span></span>
+17. <span data-ttu-id="ff87d-137">Especifique el porcentaje o el importe de la cuota.</span><span class="sxs-lookup"><span data-stu-id="ff87d-137">Enter either percentage or amount of the fee.</span></span>
+    * <span data-ttu-id="ff87d-138">Si el campo Porcentaje / Importe es Porcentaje, el valor especificado aquí será un porcentaje.</span><span class="sxs-lookup"><span data-stu-id="ff87d-138">If the Percentage/Amount field is Percent, then the value enter here will be a percentage.</span></span> <span data-ttu-id="ff87d-139">Si el campo Porcentaje / Importe es Importe, el valor especificado aquí será un importe.</span><span class="sxs-lookup"><span data-stu-id="ff87d-139">If the Percentage/Amount field is Amount, then the value you enter here will be an amount.</span></span> <span data-ttu-id="ff87d-140">Si el campo Porcentaje / Importe es Intervalo, use la ficha Intervalo para definir los niveles.</span><span class="sxs-lookup"><span data-stu-id="ff87d-140">If the Percentage/Amount field is Interval, use the Interval tab to define the tiers.</span></span>  
+18. <span data-ttu-id="ff87d-141">En el campo Divisa de cuota, seleccione la divisa de la cuota.</span><span class="sxs-lookup"><span data-stu-id="ff87d-141">In the Fee currency field, select the currency of the fee.</span></span>
+    * <span data-ttu-id="ff87d-142">Esta es la divisa en la que se creará la cuota.</span><span class="sxs-lookup"><span data-stu-id="ff87d-142">This is the currency in which the fee will be created.</span></span>  
+19. <span data-ttu-id="ff87d-143">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="ff87d-143">Click Save.</span></span>
 
 

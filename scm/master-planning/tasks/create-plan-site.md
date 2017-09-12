@@ -16,42 +16,42 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d89d34d4d429faf87c70943961f7141a6258d482
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1452c5d6f5dd8d0dd4cb08eb5cc9a48fd8f875f9
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-plan-for-a-site"></a>Crear un plan para un sitio
+# <a name="create-a-plan-for-a-site"></a><span data-ttu-id="0bc0b-103">Crear un plan para un sitio</span><span class="sxs-lookup"><span data-stu-id="0bc0b-103">Create a plan for a site</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-El planificador de producción calcula los requisitos de materiales y capacidad para la producción de un artículo específico. Una vez creadas las sugerencias de abastecimiento, encuentra los pedidos en el sitio para el que está planificando y pone en firme los pedidos, empezando por los urgentes. Los pedidos más urgentes son los que se deben poner en firme en la fecha actual. Use la empresa de datos de demostración USMF para llevar a cabo estas tareas.
+<span data-ttu-id="0bc0b-104">El planificador de producción calcula los requisitos de materiales y capacidad para la producción de un artículo específico.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-104">The production planner calculates the material and capacity requirements for the production of a specific item.</span></span> <span data-ttu-id="0bc0b-105">Una vez creadas las sugerencias de abastecimiento, encuentra los pedidos en el sitio para el que está planificando y pone en firme los pedidos, empezando por los urgentes.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-105">After the sourcing suggestions are created, he finds the orders at the site for which he is planning and firms the orders, starting from the urgent ones.</span></span> <span data-ttu-id="0bc0b-106">Los pedidos más urgentes son los que se deben poner en firme en la fecha actual.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-106">The most urgent orders are the ones that need to be firmed on the current date.</span></span> <span data-ttu-id="0bc0b-107">Use la empresa de datos de demostración USMF para llevar a cabo estas tareas.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-107">Use the demo data company USMF to perform these tasks.</span></span>
 
 
-## <a name="create-a-materials-and-capacity-plan-for-an-item"></a>Crear un plan de capacidad y materiales para un artículo
-1. Haga clic en Planificación maestra.
-    * Necesita desplazarse al panel de información predeterminado.  
-2. Haga clic en Ejecutar.
-3. Expanda la sección Registros que incluir.
-4. Haga clic en Filtro.
-5. En la lista, marque la fila seleccionada.
-6. En el campo Criterios, escriba un valor.
-    * Ejemplo: D0001  
-7. Haga clic en Aceptar
-8. Haga clic en Aceptar
-    * Esto puede tardar unos minutos.  
-9. Actualice la página.
+## <a name="create-a-materials-and-capacity-plan-for-an-item"></a><span data-ttu-id="0bc0b-108">Crear un plan de capacidad y materiales para un artículo</span><span class="sxs-lookup"><span data-stu-id="0bc0b-108">Create a materials and capacity plan for an item</span></span>
+1. <span data-ttu-id="0bc0b-109">Haga clic en Planificación maestra.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-109">Click Master planning.</span></span>
+    * <span data-ttu-id="0bc0b-110">Necesita desplazarse al panel de información predeterminado.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-110">You need to navigate to the default Dashboard.</span></span>  
+2. <span data-ttu-id="0bc0b-111">Haga clic en Ejecutar.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-111">Click Run.</span></span>
+3. <span data-ttu-id="0bc0b-112">Expanda la sección Registros que incluir.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-112">Expand the Records to include section.</span></span>
+4. <span data-ttu-id="0bc0b-113">Haga clic en Filtro.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-113">Click Filter.</span></span>
+5. <span data-ttu-id="0bc0b-114">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-114">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="0bc0b-115">En el campo Criterios, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-115">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="0bc0b-116">Ejemplo: D0001</span><span class="sxs-lookup"><span data-stu-id="0bc0b-116">Example: D0001</span></span>  
+7. <span data-ttu-id="0bc0b-117">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="0bc0b-117">Click OK.</span></span>
+8. <span data-ttu-id="0bc0b-118">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="0bc0b-118">Click OK.</span></span>
+    * <span data-ttu-id="0bc0b-119">Esto puede tardar unos minutos.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-119">This may take a few minutes.</span></span>  
+9. <span data-ttu-id="0bc0b-120">Actualice la página.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-120">Refresh the page.</span></span>
 
-## <a name="identify-the-urgent-planned-orders-for-the-item"></a>Identificar los pedidos planificados urgentes para el artículo
-1. Abra el filtro de columna Número de artículo.
-2. Aplique un filtro en el campo "Número de artículo" con un valor de "D0001", mediante el operador de filtro "empieza por".
-3. Abra el filtro de columna Fecha del pedido.
-4. Aplique un filtro en el campo "Fecha del pedido", con un valor de la fecha actual, usando el operador de filtro "es exactamente".
+## <a name="identify-the-urgent-planned-orders-for-the-item"></a><span data-ttu-id="0bc0b-121">Identificar los pedidos planificados urgentes para el artículo</span><span class="sxs-lookup"><span data-stu-id="0bc0b-121">Identify the urgent planned orders for the item</span></span>
+1. <span data-ttu-id="0bc0b-122">Abra el filtro de columna Número de artículo.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-122">Open Item number column filter.</span></span>
+2. <span data-ttu-id="0bc0b-123">Aplique un filtro en el campo "Número de artículo" con un valor de "D0001", mediante el operador de filtro "empieza por".</span><span class="sxs-lookup"><span data-stu-id="0bc0b-123">Apply a filter on the "Item number" field, with a value of "D0001", using the "begins with" filter operator.</span></span>
+3. <span data-ttu-id="0bc0b-124">Abra el filtro de columna Fecha del pedido.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-124">Open Order date column filter.</span></span>
+4. <span data-ttu-id="0bc0b-125">Aplique un filtro en el campo "Fecha del pedido", con un valor de la fecha actual, usando el operador de filtro "es exactamente".</span><span class="sxs-lookup"><span data-stu-id="0bc0b-125">Apply a filter on the "Order date" field, with a value of current date, using the "is exactly" filter operator.</span></span>
 
-## <a name="firm-all-the-urgent-orders-for-the-item"></a>Poner en firme todos los pedidos urgentes para el artículo
-1. En la lista, active o desactive todas las filas.
-2. Haga clic en En firme.
-3. Haga clic en Aceptar
+## <a name="firm-all-the-urgent-orders-for-the-item"></a><span data-ttu-id="0bc0b-126">Poner en firme todos los pedidos urgentes para el artículo</span><span class="sxs-lookup"><span data-stu-id="0bc0b-126">Firm all the urgent orders for the item</span></span>
+1. <span data-ttu-id="0bc0b-127">En la lista, active o desactive todas las filas.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-127">In the list, mark or unmark all rows.</span></span>
+2. <span data-ttu-id="0bc0b-128">Haga clic en En firme.</span><span class="sxs-lookup"><span data-stu-id="0bc0b-128">Click Firm.</span></span>
+3. <span data-ttu-id="0bc0b-129">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="0bc0b-129">Click OK.</span></span>
 
 

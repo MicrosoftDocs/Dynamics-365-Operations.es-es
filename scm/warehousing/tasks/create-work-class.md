@@ -17,26 +17,26 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 50b8ee1825391d7e5977f758628b559d006a334e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 9a775366bdaecb59a375f245f7a4d17a659cab11
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-work-class"></a>Crear una clase de trabajo
+# <a name="create-a-work-class"></a><span data-ttu-id="0154a-103">Crear una clase de trabajo</span><span class="sxs-lookup"><span data-stu-id="0154a-103">Create a work class</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo configurar una clase de trabajo. Las clases de trabajo se usan para dirigir y/o para limitar el tipo de líneas de pedido de trabajo que un trabajador de almacén puede procesar en un dispositivo móvil. Las líneas que un trabajador puede procesar se determinan a partir de las clases de trabajo en los elementos de menú del dispositivo móvil a los que el trabajador de almacén tiene acceso y la clase de trabajo especificada en las líneas de trabajo. Las clases de trabajo también se pueden usar para validar la ubicación de colocación para una línea de pedido de trabajo. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Este procedimiento va destinado al encargado de almacén.
+<span data-ttu-id="0154a-104">Este procedimiento muestra cómo configurar una clase de trabajo.</span><span class="sxs-lookup"><span data-stu-id="0154a-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="0154a-105">Las clases de trabajo se usan para dirigir y/o para limitar el tipo de líneas de pedido de trabajo que un trabajador de almacén puede procesar en un dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="0154a-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="0154a-106">Las líneas que un trabajador puede procesar se determinan a partir de las clases de trabajo en los elementos de menú del dispositivo móvil a los que el trabajador de almacén tiene acceso y la clase de trabajo especificada en las líneas de trabajo.</span><span class="sxs-lookup"><span data-stu-id="0154a-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that’s specified on the work lines.</span></span> <span data-ttu-id="0154a-107">Las clases de trabajo también se pueden usar para validar la ubicación de colocación para una línea de pedido de trabajo.</span><span class="sxs-lookup"><span data-stu-id="0154a-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="0154a-108">Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.</span><span class="sxs-lookup"><span data-stu-id="0154a-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="0154a-109">Este procedimiento va destinado al encargado de almacén.</span><span class="sxs-lookup"><span data-stu-id="0154a-109">This procedure is intended for the warehouse manager.</span></span>
 
-1. Vaya a Gestión de almacenes > Configurar > Trabajo > Clases de trabajo.
-2. Haga clic en Nuevo.
-3. En el campo Identificador de la clase de trabajo, escriba un valor.
-4. En el campo Descripción, escriba un valor.
-5. En el campo Tipo de pedido de trabajo, seleccione una opción.
-6. Haga clic en Nuevo.
-7. En el campo Tipo de ubicación, escriba un valor.
-    * Si selecciona un tipo de ubicación, se establece una restricción sobre dónde se pueden colocar los artículos una vez seleccionados. Esta configuración se usa cuando una directiva de ubicación intenta resolver la ubicación, o si un trabajador del almacén indica manualmente la ubicación para el elemento de menú del dispositivo móvil.  
-8. Cierre la página.
+1. <span data-ttu-id="0154a-110">Vaya a Gestión de almacenes > Configurar > Trabajo > Clases de trabajo.</span><span class="sxs-lookup"><span data-stu-id="0154a-110">Go to Warehouse management > Setup > Work > Work classes.</span></span>
+2. <span data-ttu-id="0154a-111">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="0154a-111">Click New.</span></span>
+3. <span data-ttu-id="0154a-112">En el campo Identificador de la clase de trabajo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="0154a-112">In the Work class ID field, type a value.</span></span>
+4. <span data-ttu-id="0154a-113">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="0154a-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="0154a-114">En el campo Tipo de pedido de trabajo, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="0154a-114">In the Work order type field, select an option.</span></span>
+6. <span data-ttu-id="0154a-115">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="0154a-115">Click New.</span></span>
+7. <span data-ttu-id="0154a-116">En el campo Tipo de ubicación, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="0154a-116">In the Location type field, type a value.</span></span>
+    * <span data-ttu-id="0154a-117">Si selecciona un tipo de ubicación, se establece una restricción sobre dónde se pueden colocar los artículos una vez seleccionados.</span><span class="sxs-lookup"><span data-stu-id="0154a-117">If you select a location type, this sets a restriction on where items can be put after they’ve been picked.</span></span> <span data-ttu-id="0154a-118">Esta configuración se usa cuando una directiva de ubicación intenta resolver la ubicación, o si un trabajador del almacén indica manualmente la ubicación para el elemento de menú del dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="0154a-118">This setting is used when a location directive tries to resolve the location, or if a warehouse worker manually provides the location for the mobile device menu item.</span></span>  
+8. <span data-ttu-id="0154a-119">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="0154a-119">Close the page.</span></span>
 
 

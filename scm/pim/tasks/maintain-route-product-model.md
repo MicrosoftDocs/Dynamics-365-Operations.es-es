@@ -22,48 +22,48 @@ ms.contentlocale: es-es
 ms.lasthandoff: 07/28/2017
 
 ---
-# <a name="maintain-a-route-for-a-product-model"></a>Mantener una ruta para un modelo de producto
+# <a name="maintain-a-route-for-a-product-model"></a><span data-ttu-id="38e23-103">Mantener una ruta para un modelo de producto</span><span class="sxs-lookup"><span data-stu-id="38e23-103">Maintain a route for a product model</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-La ejecución de este procedimiento requiere que existe un modelo de configuración de producto. Este procedimiento usa el modelo Altavoz superior en la empresa de demostración de datos USMF para guiarle por el proceso.
+<span data-ttu-id="38e23-104">La ejecución de este procedimiento requiere que existe un modelo de configuración de producto.</span><span class="sxs-lookup"><span data-stu-id="38e23-104">Running this procedure requires that a product configuration model exists.</span></span> <span data-ttu-id="38e23-105">Este procedimiento usa el modelo Altavoz superior en la empresa de demostración de datos USMF para guiarle por el proceso.</span><span class="sxs-lookup"><span data-stu-id="38e23-105">This procedure uses the High end speaker model in the demo company USMF to walk you through the process.</span></span>
 
 
-## <a name="add-a-route-operation"></a>Agregar un nodo de ruta
-1. Haga clic en Definición de modelo de variante del producto.
-2. Haga clic en Modelos de configuración del producto.
-3. En la lista, busque y seleccione el registro deseado.
-    * Seleccione el modelo Altavoz superior para este ejercicio.  
-4. En la lista, haga clic en el vínculo de la fila seleccionada.
-5. Expanda la sección Operaciones de ruta.
-6. Haga clic en Agregar.
-7. En el campo Nombre, escriba un valor.
-8. En el campo Descripción, escriba un valor.
-9. Haga clic en Guardar.
+## <a name="add-a-route-operation"></a><span data-ttu-id="38e23-106">Agregar un nodo de ruta</span><span class="sxs-lookup"><span data-stu-id="38e23-106">Add a route operation</span></span>
+1. <span data-ttu-id="38e23-107">Haga clic en Definición de modelo de variante del producto.</span><span class="sxs-lookup"><span data-stu-id="38e23-107">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="38e23-108">Haga clic en Modelos de configuración del producto.</span><span class="sxs-lookup"><span data-stu-id="38e23-108">Click Product configuration models.</span></span>
+3. <span data-ttu-id="38e23-109">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="38e23-109">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="38e23-110">Seleccione el modelo Altavoz superior para este ejercicio.</span><span class="sxs-lookup"><span data-stu-id="38e23-110">Select the High end speaker model for this exercise.</span></span>  
+4. <span data-ttu-id="38e23-111">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="38e23-111">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="38e23-112">Expanda la sección Operaciones de ruta.</span><span class="sxs-lookup"><span data-stu-id="38e23-112">Expand the Route operations section.</span></span>
+6. <span data-ttu-id="38e23-113">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="38e23-113">Click Add.</span></span>
+7. <span data-ttu-id="38e23-114">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="38e23-114">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="38e23-115">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="38e23-115">In the Description field, type a value.</span></span>
+9. <span data-ttu-id="38e23-116">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="38e23-116">Click Save.</span></span>
 
-## <a name="enter-route-operation-details"></a>Especificar detalles de operación de ruta
-1. Haga clic en Detalles de operación de ruta.
-2. En el campo Operación, especifique o seleccione un valor.
-3. El campo Nº de oper. N. º especifique un número.
-    * Los números de operación determinan la secuencia de ruta.  
-    * Cada propiedad de una operación de ruta puede obtener un valor estático o se puede asignar a un atributo. La asignación a un atributo dará lugar al valor que se está estableciendo como parte de la configuración.  
-4. En el campo Grupo de rutas, especifique o seleccione un valor.
-    * El grupo de rutas determina el comportamiento esencial de la gestión de costes, el consumo y la configuración.  
-5. Haga clic en la pestaña Configurar.
-6. Haga clic en la ficha Tiempos.
-7. En el campo Cantidad de proceso, especifique un número.
-    * Determine cuántos se procesarán durante una operación.  
-8. En el campo Horas/tiempo, especifique un número.
-    * Escriba el coeficiente de tiempo.  
-9. Active la casilla Establecer.
-10. En el campo Tiempo de ejecución, especifique un número.
-    * Determine el tiempo de procesamiento para la cantidad que ha especificado.  
-11. Haga clic en la ficha Requisitos de recursos.
-12. Haga clic en Agregar.
-13. En la lista, marque la fila seleccionada.
-14. En el campo Tipo de requisito, seleccione una opción.
-    * Decida si desea especificar recursos o capacidades específicos que debe poseer.  
-15. En el campo Requisito, especifique o seleccione un valor.
-16. Haga clic en Aceptar
+## <a name="enter-route-operation-details"></a><span data-ttu-id="38e23-117">Especificar detalles de operación de ruta</span><span class="sxs-lookup"><span data-stu-id="38e23-117">Enter route operation details</span></span>
+1. <span data-ttu-id="38e23-118">Haga clic en Detalles de operación de ruta.</span><span class="sxs-lookup"><span data-stu-id="38e23-118">Click Route operation details.</span></span>
+2. <span data-ttu-id="38e23-119">En el campo Operación, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="38e23-119">In the Operation field, enter or select a value.</span></span>
+3. <span data-ttu-id="38e23-120">El campo Nº de oper.</span><span class="sxs-lookup"><span data-stu-id="38e23-120">In the Oper.</span></span> <span data-ttu-id="38e23-121">N. º</span><span class="sxs-lookup"><span data-stu-id="38e23-121">No.</span></span> <span data-ttu-id="38e23-122">especifique un número.</span><span class="sxs-lookup"><span data-stu-id="38e23-122">field, enter a number.</span></span>
+    * <span data-ttu-id="38e23-123">Los números de operación determinan la secuencia de ruta.</span><span class="sxs-lookup"><span data-stu-id="38e23-123">Operation numbers determine the route sequence.</span></span>  
+    * <span data-ttu-id="38e23-124">Cada propiedad de una operación de ruta puede obtener un valor estático o se puede asignar a un atributo.</span><span class="sxs-lookup"><span data-stu-id="38e23-124">Each property on a route operation can get a static value or be mapped to an attribute.</span></span> <span data-ttu-id="38e23-125">La asignación a un atributo dará lugar al valor que se está estableciendo como parte de la configuración.</span><span class="sxs-lookup"><span data-stu-id="38e23-125">Mapping to an attribute will result in the value being set as part of the configuration.</span></span>  
+4. <span data-ttu-id="38e23-126">En el campo Grupo de rutas, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="38e23-126">In the Route group field, enter or select a value.</span></span>
+    * <span data-ttu-id="38e23-127">El grupo de rutas determina el comportamiento esencial de la gestión de costes, el consumo y la configuración.</span><span class="sxs-lookup"><span data-stu-id="38e23-127">The route group determines essential behavior for costing, consumption, and setup.</span></span>  
+5. <span data-ttu-id="38e23-128">Haga clic en la pestaña Configurar.</span><span class="sxs-lookup"><span data-stu-id="38e23-128">Click the Setup tab.</span></span>
+6. <span data-ttu-id="38e23-129">Haga clic en la ficha Tiempos.</span><span class="sxs-lookup"><span data-stu-id="38e23-129">Click the Times tab.</span></span>
+7. <span data-ttu-id="38e23-130">En el campo Cantidad de proceso,</span><span class="sxs-lookup"><span data-stu-id="38e23-130">In the Process qty.</span></span> <span data-ttu-id="38e23-131">especifique un número.</span><span class="sxs-lookup"><span data-stu-id="38e23-131">field, enter a number.</span></span>
+    * <span data-ttu-id="38e23-132">Determine cuántos se procesarán durante una operación.</span><span class="sxs-lookup"><span data-stu-id="38e23-132">Determine how many will be processed during one operation.</span></span>  
+8. <span data-ttu-id="38e23-133">En el campo Horas/tiempo, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="38e23-133">In the Hours/time field, enter a number.</span></span>
+    * <span data-ttu-id="38e23-134">Escriba el coeficiente de tiempo.</span><span class="sxs-lookup"><span data-stu-id="38e23-134">Enter the time ratio.</span></span>  
+9. <span data-ttu-id="38e23-135">Active la casilla Establecer.</span><span class="sxs-lookup"><span data-stu-id="38e23-135">Select the Set check box.</span></span>
+10. <span data-ttu-id="38e23-136">En el campo Tiempo de ejecución, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="38e23-136">In the Run time field, enter a number.</span></span>
+    * <span data-ttu-id="38e23-137">Determine el tiempo de procesamiento para la cantidad que ha especificado.</span><span class="sxs-lookup"><span data-stu-id="38e23-137">Determine the processing time for the quantity that you have specified.</span></span>  
+11. <span data-ttu-id="38e23-138">Haga clic en la ficha Requisitos de recursos.</span><span class="sxs-lookup"><span data-stu-id="38e23-138">Click the Resource requirements tab.</span></span>
+12. <span data-ttu-id="38e23-139">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="38e23-139">Click Add.</span></span>
+13. <span data-ttu-id="38e23-140">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="38e23-140">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="38e23-141">En el campo Tipo de requisito, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="38e23-141">In the Requirement type field, select an option.</span></span>
+    * <span data-ttu-id="38e23-142">Decida si desea especificar recursos o capacidades específicos que debe poseer.</span><span class="sxs-lookup"><span data-stu-id="38e23-142">Decide if you want to specify specific resources or capabilities that they must possess.</span></span>  
+15. <span data-ttu-id="38e23-143">En el campo Requisito, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="38e23-143">In the Requirement field, enter or select a value.</span></span>
+16. <span data-ttu-id="38e23-144">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="38e23-144">Click OK.</span></span>
 
 

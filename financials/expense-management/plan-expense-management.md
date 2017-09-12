@@ -19,125 +19,125 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: edd3d8ca760c1453ae7cf8d5ff2fdfdedbb022c4
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 83cfd2ef15ae3a02eba21bb31f3311e8f5e15b90
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="configure-expense-management"></a>Configurar la gestión de gastos
+# <a name="configure-expense-management"></a><span data-ttu-id="bf6c7-104">Configurar la gestión de gastos</span><span class="sxs-lookup"><span data-stu-id="bf6c7-104">Configure expense management</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar Gestión de gastos en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. En el área Gestión de gastos, puede almacenar información sobre los métodos de pago, los pedidos de viaje, los informes de gastos y las directivas, entre otros elementos. 
+<span data-ttu-id="bf6c7-105">Este artículo describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar Gestión de gastos en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-105">This article describes the considerations and the decisions that you must make during the planning process before you configure Expense management in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="bf6c7-106">En el área Gestión de gastos, puede almacenar información sobre los métodos de pago, los pedidos de viaje, los informes de gastos y las directivas, entre otros elementos.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-106">In the Expense management area, you can store information about payment methods, travel requisitions, expense reports, and policies, among other things.</span></span> 
 
-Dado que muchas de las decisiones que realiza al planificar su configuración para la gestión de gastos se basan en la jerarquía y la estructura financiera de su organización, debe hacer referencia a los documentos de planificación para esas áreas.
+<span data-ttu-id="bf6c7-107">Dado que muchas de las decisiones que realiza al planificar su configuración para la gestión de gastos se basan en la jerarquía y la estructura financiera de su organización, debe hacer referencia a los documentos de planificación para esas áreas.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-107">Because many of the decisions that you make when you plan your configuration for Expense management are based on your organization’s hierarchy and financial structure, you must refer to the planning documents for those areas.</span></span>
 
-## <a name="intercompany-expenses"></a>Gastos de empresas vinculadas
-Al habilitar gastos de empresas vinculadas, permite a las entidades jurídicas y a los empleados incurrir en gastos en nombre de, y realizar el cobro de, otra entidad jurídica dentro de su organización. Por ejemplo, un empleado de la entidad jurídica A completa un proyecto para la entidad jurídica B. Si se habilitan los gastos de empresas vinculadas, el empleado puede entonces archivar una hoja de horas para, y que además le pague, la entidad jurídica B. Si su organización no tiene varias entidades jurídicas, no necesitará habilitar los gastos de empresas vinculadas. **Decisión:** ¿Desea habilitar gastos de empresas vinculadas?
+## <a name="intercompany-expenses"></a><span data-ttu-id="bf6c7-108">Gastos de empresas vinculadas</span><span class="sxs-lookup"><span data-stu-id="bf6c7-108">Intercompany expenses</span></span>
+<span data-ttu-id="bf6c7-109">Al habilitar gastos de empresas vinculadas, permite a las entidades jurídicas y a los empleados incurrir en gastos en nombre de, y realizar el cobro de, otra entidad jurídica dentro de su organización.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-109">When you enable intercompany expenses, you allow legal entities and employees to incur expenses on behalf of, and collect payment from, another legal entity within your organization.</span></span> <span data-ttu-id="bf6c7-110">Por ejemplo, un empleado de la entidad jurídica A completa un proyecto para la entidad jurídica B. Si se habilitan los gastos de empresas vinculadas, el empleado puede entonces archivar una hoja de horas para, y que además le pague, la entidad jurídica B. Si su organización no tiene varias entidades jurídicas, no necesitará habilitar los gastos de empresas vinculadas.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-110">For example, an employee in legal entity A completes a project for legal entity B. If intercompany expenses are enabled, the employee can then file a timesheet to, and be paid by, legal entity B. If your organization doesn’t have multiple legal entities, you won’t need to enable intercompany expenses.</span></span> <span data-ttu-id="bf6c7-111">**Decisión:** ¿Desea habilitar gastos de empresas vinculadas?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-111">**Decision:** Do you want to enable intercompany expenses?</span></span>
 
-## <a name="financial-management"></a>Administración financiera
-La gestión de gastos se integra totalmente con la administración financiera de la organización. Gran parte de la configuración de la gestión de gastos se basará en las decisiones que haya realizado sobre las finanzas de su organización. Las siguientes secciones describen las distintas áreas que requieren planificación y decisiones basadas en la orientación y las decisiones financieras de su organización del equipo de dirección.
+## <a name="financial-management"></a><span data-ttu-id="bf6c7-112">Administración financiera</span><span class="sxs-lookup"><span data-stu-id="bf6c7-112">Financial management</span></span>
+<span data-ttu-id="bf6c7-113">La gestión de gastos se integra totalmente con la administración financiera de la organización.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-113">Expense management is tightly integrated with the financial management of your organization.</span></span> <span data-ttu-id="bf6c7-114">Gran parte de la configuración de la gestión de gastos se basará en las decisiones que haya realizado sobre las finanzas de su organización.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-114">A lot of your configuration for Expense management will be based on the decisions that you’ve made about your organization’s finances.</span></span> <span data-ttu-id="bf6c7-115">Las siguientes secciones describen las distintas áreas que requieren planificación y decisiones basadas en la orientación y las decisiones financieras de su organización del equipo de dirección.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-115">The following sections describe the different areas that require planning and decisions based on your organization’s financial decisions and guidance from your leadership team.</span></span>
 
-### <a name="per-diems"></a>Dietas
+### <a name="per-diems"></a><span data-ttu-id="bf6c7-116">Dietas</span><span class="sxs-lookup"><span data-stu-id="bf6c7-116">Per diems</span></span>
 
-Debe definir las dietas de empleado que ofrece su organización. Dado que las dietas se suelen usar para satisfacer gastos como comidas, alojamiento y otros gastos incidentales, puede crear reglas para las retribuciones de dietas para que ofrece su organización. Las tarifas de dietas se pueden basar en la época del año, el destino del viaje o ambos. Al definir una regla de dietas, puede especificar la retención de un porcentaje de la tarifa de dietas si el trabajador recibe comidas o servicios complementarios. También puede definir niveles de tabla de dietas para establecer el mínimo o máximo de horas durante las que se puede aplicar la tarifa de dietas al viaje del trabajador. **Decisiones:**
+<span data-ttu-id="bf6c7-117">Debe definir las dietas de empleado que ofrece su organización.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-117">You must define the employee per diems that your organization provides.</span></span> <span data-ttu-id="bf6c7-118">Dado que las dietas se suelen usar para satisfacer gastos como comidas, alojamiento y otros gastos incidentales, puede crear reglas para las retribuciones de dietas para que ofrece su organización.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-118">Because per diems are typically used to cover expenses such as meals, lodging, and other incidental expenses, you can create rules for the per diem allowances that your organization offers.</span></span> <span data-ttu-id="bf6c7-119">Las tarifas de dietas se pueden basar en la época del año, el destino del viaje o ambos.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-119">Per diem rates can be based on the time of year, the travel location, or both.</span></span> <span data-ttu-id="bf6c7-120">Al definir una regla de dietas, puede especificar la retención de un porcentaje de la tarifa de dietas si el trabajador recibe comidas o servicios complementarios.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-120">When you define a per diem rule, you can specify that a percentage of the per diem rate will be withheld if a worker receives complimentary meals or services.</span></span> <span data-ttu-id="bf6c7-121">También puede definir niveles de tabla de dietas para establecer el mínimo o máximo de horas durante las que se puede aplicar la tarifa de dietas al viaje del trabajador.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-121">You can also define per diem rate tiers to set the minimum and maximum number of hours that the per diem rate can be applied to a worker’s travel.</span></span> <span data-ttu-id="bf6c7-122">**Decisiones:**</span><span class="sxs-lookup"><span data-stu-id="bf6c7-122">**Decisions:**</span></span>
 
--   Reglas de dietas predeterminadas para el primer y el último día:
-    -   ¿Cuál es el número mínimo de horas que un empleado puede reclamar para un día y recibir aún dietas?
-    -   ¿Hay una reducción del importe que se ofrece para comidas el primer y el último día? Si es así, ¿cuál es el porcentaje de la reducción?
-    -   ¿Hay una reducción del importe que se ofrece para un hotel el primer y el último día? Si es así, ¿cuál es el porcentaje de la reducción?
-    -   ¿Hay una reducción del importe que se ofrece para otros gastos incurridos el primer y el último día? Si es así, ¿cuál es el porcentaje de la reducción?
--   Reglas de dietas predeterminadas:
-    -   ¿Hay una reducción del porcentaje en el permiso de dietas para cada comida si, por ejemplo, la comida es gratuita? Si es así, ¿cuál es el porcentaje de la reducción para cada comida?
-    -   ¿La reducción de la comida se calcula por día, por viaje o por el número de comidas al día?
-    -   ¿Se deben redondear normalmente los importes de dietas o hacia arriba?
-    -   ¿Las dietas se calculan en un período de 24 horas o en un día de calendario?
--   Reglas de dietas basadas en la ubicación:
-    -   ¿Las tarifas de dietas varían según la ubicación y qué ubicaciones se incluyen?
-    -   Si la tarifa de dietas varía según la ubicación, para cada ubicación, para qué importe de porcentaje se proporciona:
-        -   comidas
-        -   hotel
-        -   otros gastos
+-   <span data-ttu-id="bf6c7-123">Reglas de dietas predeterminadas para el primer y el último día:</span><span class="sxs-lookup"><span data-stu-id="bf6c7-123">Default per diem rules for the first and last days:</span></span>
+    -   <span data-ttu-id="bf6c7-124">¿Cuál es el número mínimo de horas que un empleado puede reclamar para un día y recibir aún dietas?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-124">What is the minimum number of hours that an employee can claim for a day and still receive a per diem?</span></span>
+    -   <span data-ttu-id="bf6c7-125">¿Hay una reducción del importe que se ofrece para comidas el primer y el último día?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-125">Is there a reduction in the amount that is offered for meals for the first and last day?</span></span> <span data-ttu-id="bf6c7-126">Si es así, ¿cuál es el porcentaje de la reducción?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-126">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="bf6c7-127">¿Hay una reducción del importe que se ofrece para un hotel el primer y el último día?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-127">Is there a reduction in the amount that is offered for a hotel for the first and last day?</span></span> <span data-ttu-id="bf6c7-128">Si es así, ¿cuál es el porcentaje de la reducción?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-128">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="bf6c7-129">¿Hay una reducción del importe que se ofrece para otros gastos incurridos el primer y el último día?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-129">Is there a reduction in the amount that is offered for other expenses incurred on the first and last day?</span></span> <span data-ttu-id="bf6c7-130">Si es así, ¿cuál es el porcentaje de la reducción?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-130">If so, what is the percentage of the reduction?</span></span>
+-   <span data-ttu-id="bf6c7-131">Reglas de dietas predeterminadas:</span><span class="sxs-lookup"><span data-stu-id="bf6c7-131">Default per diem rules:</span></span>
+    -   <span data-ttu-id="bf6c7-132">¿Hay una reducción del porcentaje en el permiso de dietas para cada comida si, por ejemplo, la comida es gratuita?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-132">Is there a percentage reduction in the per diem allowance for each meal if, for example, the meal is complimentary?</span></span> <span data-ttu-id="bf6c7-133">Si es así, ¿cuál es el porcentaje de la reducción para cada comida?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-133">If so, what is the reduction percentage for each meal?</span></span>
+    -   <span data-ttu-id="bf6c7-134">¿La reducción de la comida se calcula por día, por viaje o por el número de comidas al día?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-134">Is the meal reduction calculated per day, per trip, or by the number of meals per day?</span></span>
+    -   <span data-ttu-id="bf6c7-135">¿Se deben redondear normalmente los importes de dietas o hacia arriba?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-135">Should per diem amounts be rounded normally or rounded up?</span></span>
+    -   <span data-ttu-id="bf6c7-136">¿Las dietas se calculan en un período de 24 horas o en un día de calendario?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-136">Are per diems calculated on a 24-hour period or on a calendar day?</span></span>
+-   <span data-ttu-id="bf6c7-137">Reglas de dietas basadas en la ubicación:</span><span class="sxs-lookup"><span data-stu-id="bf6c7-137">Per diem rules based on location:</span></span>
+    -   <span data-ttu-id="bf6c7-138">¿Las tarifas de dietas varían según la ubicación y qué ubicaciones se incluyen?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-138">Do per diem rates vary based on location and what locations are included?</span></span>
+    -   <span data-ttu-id="bf6c7-139">Si la tarifa de dietas varía según la ubicación, para cada ubicación, para qué importe de porcentaje se proporciona:</span><span class="sxs-lookup"><span data-stu-id="bf6c7-139">If per diem rate do vary based on location, for each location, what percentage amount is provided for:</span></span>
+        -   <span data-ttu-id="bf6c7-140">comidas</span><span class="sxs-lookup"><span data-stu-id="bf6c7-140">meals</span></span>
+        -   <span data-ttu-id="bf6c7-141">hotel</span><span class="sxs-lookup"><span data-stu-id="bf6c7-141">hotel</span></span>
+        -   <span data-ttu-id="bf6c7-142">otros gastos</span><span class="sxs-lookup"><span data-stu-id="bf6c7-142">other expenses</span></span>
 
-### <a name="expense-management-journals-and-accounts"></a>Cuentas y diarios de gestión de gastos
+### <a name="expense-management-journals-and-accounts"></a><span data-ttu-id="bf6c7-143">Cuentas y diarios de gestión de gastos</span><span class="sxs-lookup"><span data-stu-id="bf6c7-143">Expense management journals and accounts</span></span>
 
-La gestión de gastos requiere que use varios diarios y cuentas. Debe decidir, por ejemplo, si se usa la misma cuenta para anticipos y conflictos de tarjeta de crédito. **Decisiones:**
+<span data-ttu-id="bf6c7-144">La gestión de gastos requiere que use varios diarios y cuentas.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-144">Expense management requires that you use multiple journals and accounts.</span></span> <span data-ttu-id="bf6c7-145">Debe decidir, por ejemplo, si se usa la misma cuenta para anticipos y conflictos de tarjeta de crédito.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-145">You must decide, for example, whether the same account is used for cash advances and credit card disputes.</span></span> <span data-ttu-id="bf6c7-146">**Decisiones:**</span><span class="sxs-lookup"><span data-stu-id="bf6c7-146">**Decisions:**</span></span>
 
--   ¿En qué diario contable se registran los informes de gastos aprobados?
--   ¿Qué cuenta se usa para anticipos?
--   ¿Se deben registrar los anticipos inmediatamente?
+-   <span data-ttu-id="bf6c7-147">¿En qué diario contable se registran los informes de gastos aprobados?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-147">Which ledger journal are approved expense reports posted to?</span></span>
+-   <span data-ttu-id="bf6c7-148">¿Qué cuenta se usa para anticipos?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-148">Which account is used for cash advances?</span></span>
+-   <span data-ttu-id="bf6c7-149">¿Se deben registrar los anticipos inmediatamente?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-149">Should cash advances be posted immediately?</span></span>
 
-### <a name="payment-methods"></a>Métodos de pago
+### <a name="payment-methods"></a><span data-ttu-id="bf6c7-150">Métodos de pago</span><span class="sxs-lookup"><span data-stu-id="bf6c7-150">Payment methods</span></span>
 
-Cuando permite a los empleados incurrir en gastos en nombre de su negocio, debe definir los métodos de pago que se permiten usar a los empleados. Por ejemplo, puede que permitir a los empleados usar efectivo o una tarjeta de crédito corporativa. También puede permitir a los empleados usar tarjetas de crédito personales y después reembolsar a los empleados. Debe tomar las siguientes decisiones para cada método de pago que habilite. **Decisiones:**
+<span data-ttu-id="bf6c7-151">Cuando permite a los empleados incurrir en gastos en nombre de su negocio, debe definir los métodos de pago que se permiten usar a los empleados.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-151">When you allow employees to incur expenses on behalf of your business, you must define the payment methods that employees are allowed to use.</span></span> <span data-ttu-id="bf6c7-152">Por ejemplo, puede que permitir a los empleados usar efectivo o una tarjeta de crédito corporativa.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-152">For example, you might allow employees to use cash or a corporate credit card.</span></span> <span data-ttu-id="bf6c7-153">También puede permitir a los empleados usar tarjetas de crédito personales y después reembolsar a los empleados.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-153">You might also allow employees to use personal credit cards, and then reimburse the employees.</span></span> <span data-ttu-id="bf6c7-154">Debe tomar las siguientes decisiones para cada método de pago que habilite.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-154">You must make the following decisions for each payment method that you allow.</span></span> <span data-ttu-id="bf6c7-155">**Decisiones:**</span><span class="sxs-lookup"><span data-stu-id="bf6c7-155">**Decisions:**</span></span>
 
--   ¿Qué métodos de pago se permiten?
--   ¿Quién posee los gastos del método de pago?
--   ¿Hay un tipo de cuenta de contrapartida? De ser así, ¿cuál es?
--   Si hay una cuenta de contrapartida, ¿cuál es la cuenta?
--   Si el método de pago es una tarjeta de crédito, ¿debe usarse el método de pago solo con transacciones importadas?
+-   <span data-ttu-id="bf6c7-156">¿Qué métodos de pago se permiten?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-156">What payment methods are allowed?</span></span>
+-   <span data-ttu-id="bf6c7-157">¿Quién posee los gastos del método de pago?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-157">Who owns the payment method expenses?</span></span>
+-   <span data-ttu-id="bf6c7-158">¿Hay un tipo de cuenta de contrapartida?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-158">Is there an offset account type?</span></span> <span data-ttu-id="bf6c7-159">De ser así, ¿cuál es?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-159">If so, what is it?</span></span>
+-   <span data-ttu-id="bf6c7-160">Si hay una cuenta de contrapartida, ¿cuál es la cuenta?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-160">If there is an offset account, what is the account?</span></span>
+-   <span data-ttu-id="bf6c7-161">Si el método de pago es una tarjeta de crédito, ¿debe usarse el método de pago solo con transacciones importadas?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-161">If the payment method is a credit card, should the payment method be used only with imported transactions?</span></span>
 
-### <a name="expense-categories-and-shared-categories"></a>Categorías de gastos y categorías compartidas
+### <a name="expense-categories-and-shared-categories"></a><span data-ttu-id="bf6c7-162">Categorías de gastos y categorías compartidas</span><span class="sxs-lookup"><span data-stu-id="bf6c7-162">Expense categories and shared categories</span></span>
 
-Cuando los empleados crean un informe de gastos, cada gasto que registran se debe asociar a una categoría de gastos. Las categorías de gastos se derivan de las categorías compartidas que se pueden compartir en las entidades jurídicas de la organización. Estas categorías también se pueden compartir en la gestión de proyectos y la contabilidad, en función de cómo se define la organización. En función de la definición de su organización y la orientación del equipo de implementación, determine si las categorías que se utilizan en la gestión de gastos deben usarse solo en gastos o si se deben compartir entre el proyecto y el gasto. Tenga en cuenta que estas categorías se pueden compartir entre el proyecto y los gastos o el proyecto y la producción, pero no entre el gasto y la producción. Debe tomar las siguientes decisiones para cada categoría de gastos. **Decisiones:**
+<span data-ttu-id="bf6c7-163">Cuando los empleados crean un informe de gastos, cada gasto que registran se debe asociar a una categoría de gastos.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-163">When employees create an expense report, each expense that they record must be associated with an expense category.</span></span> <span data-ttu-id="bf6c7-164">Las categorías de gastos se derivan de las categorías compartidas que se pueden compartir en las entidades jurídicas de la organización.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-164">Expense categories are derived from Shared categories that can be shared across the legal entities within your organization.</span></span> <span data-ttu-id="bf6c7-165">Estas categorías también se pueden compartir en la gestión de proyectos y la contabilidad, en función de cómo se define la organización.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-165">These categories can also be shared in Project management and accounting, depending on how your organization is defined.</span></span> <span data-ttu-id="bf6c7-166">En función de la definición de su organización y la orientación del equipo de implementación, determine si las categorías que se utilizan en la gestión de gastos deben usarse solo en gastos o si se deben compartir entre el proyecto y el gasto.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-166">Based on the definition of your organization and guidance from the implementation team, determine whether the categories used in expense management are to be used in only expense or if they should be shared between Project and Expense.</span></span> <span data-ttu-id="bf6c7-167">Tenga en cuenta que estas categorías se pueden compartir entre el proyecto y los gastos o el proyecto y la producción, pero no entre el gasto y la producción.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-167">Note that these categories can be shared between Project and Expense or Project and Production, but not between Expense and Production.</span></span> <span data-ttu-id="bf6c7-168">Debe tomar las siguientes decisiones para cada categoría de gastos.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-168">You must make the following decisions for each expense category.</span></span> <span data-ttu-id="bf6c7-169">**Decisiones:**</span><span class="sxs-lookup"><span data-stu-id="bf6c7-169">**Decisions:**</span></span>
 
--   ¿Cuál es la categoría de gasto? Por ejemplo, vuelos, hotel o kilometraje.
--   ¿Se puede usar también esta categoría de gastos en la gestión de gastos y la contabilidad?
--   ¿Cuál es el tipo de gasto?
--   ¿Cuál es el método de pago predeterminado para la categoría de gastos?
--   ¿Es necesario detallar los gastos de esta categoría?
--   ¿Cuál es la principal cuenta predeterminada para la categoría de gastos?
--   ¿Qué es el grupo de impuestos de artículos predeterminado para la categoría de gastos?
--   ¿Se permiten métodos de pago adicionales para la categoría de gastos? De ser así, ¿cuáles son?
--   ¿Hay subcategorías dentro de esta categoría de gastos? En ese caso:
-    -   ¿Se excluye cualquiera de las subcategorías de la devolución de impuestos?
-    -   ¿Cuál es el grupo de impuestos de artículos de las subcategorías?
+-   <span data-ttu-id="bf6c7-170">¿Cuál es la categoría de gasto?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-170">What is the expense category?</span></span> <span data-ttu-id="bf6c7-171">Por ejemplo, vuelos, hotel o kilometraje.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-171">For example, flights, hotel, or mileage.</span></span>
+-   <span data-ttu-id="bf6c7-172">¿Se puede usar también esta categoría de gastos en la gestión de gastos y la contabilidad?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-172">Can this expense category also be used in Project management and accounting?</span></span>
+-   <span data-ttu-id="bf6c7-173">¿Cuál es el tipo de gasto?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-173">What is the expense type?</span></span>
+-   <span data-ttu-id="bf6c7-174">¿Cuál es el método de pago predeterminado para la categoría de gastos?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-174">What is the default payment method for the expense category?</span></span>
+-   <span data-ttu-id="bf6c7-175">¿Es necesario detallar los gastos de esta categoría?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-175">Are expenses in this category required to be itemized?</span></span>
+-   <span data-ttu-id="bf6c7-176">¿Cuál es la principal cuenta predeterminada para la categoría de gastos?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-176">What is the main default account for the expense category?</span></span>
+-   <span data-ttu-id="bf6c7-177">¿Qué es el grupo de impuestos de artículos predeterminado para la categoría de gastos?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-177">What is the default item sales tax group for the expense category?</span></span>
+-   <span data-ttu-id="bf6c7-178">¿Se permiten métodos de pago adicionales para la categoría de gastos?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-178">Are additional payment methods allowed for the expense category?</span></span> <span data-ttu-id="bf6c7-179">De ser así, ¿cuáles son?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-179">If so, what are they?</span></span>
+-   <span data-ttu-id="bf6c7-180">¿Hay subcategorías dentro de esta categoría de gastos?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-180">Are there subcategories within this expense category?</span></span> <span data-ttu-id="bf6c7-181">En ese caso:</span><span class="sxs-lookup"><span data-stu-id="bf6c7-181">If so:</span></span>
+    -   <span data-ttu-id="bf6c7-182">¿Se excluye cualquiera de las subcategorías de la devolución de impuestos?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-182">Are any of the subcategories excluded from tax recovery?</span></span>
+    -   <span data-ttu-id="bf6c7-183">¿Cuál es el grupo de impuestos de artículos de las subcategorías?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-183">What is the item sales tax group of the subcategories?</span></span>
 
-    Si esta categoría de gastos también se usa en la gestión de proyectos y la contabilidad, responda las preguntas restantes. De lo contrario, ha terminado con esta sección.
--   ¿Qué cuentas de costes se usarán para lo siguiente?
-    -   Coste
-    -   Asignación de nóminas
-    -   Trabajo en proceso - Valor de coste
-    -   Coste-artículo
-    -   Trabajo en proceso - Valor de coste - Artículo
-    -   Pérdida acumulada
-    -   Trabajo en proceso - Pérdida acumulada
--   ¿Qué cuentas de ingresos se usarán para lo siguiente?
-    -   Ingresos facturados
-    -   Ingresos acumulados-valor de ventas
-    -   Trabajo en proceso-valor de ventas
-    -   Ingresos acumulados-producción
-    -   Trabajo en proceso-producción
-    -   Ingresos acumulados-ganancias
-    -   Trabajo en proceso - ganancias
-    -   Ingresos acumulados-suscripción
-    -   Trabajo en proceso - suscripción
+    <span data-ttu-id="bf6c7-184">Si esta categoría de gastos también se usa en la gestión de proyectos y la contabilidad, responda las preguntas restantes.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-184">If this expense category is also used in Project management and accounting, answer the remaining questions.</span></span> <span data-ttu-id="bf6c7-185">De lo contrario, ha terminado con esta sección.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-185">Otherwise, you are finished with this section.</span></span>
+-   <span data-ttu-id="bf6c7-186">¿Qué cuentas de costes se usarán para lo siguiente?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-186">Which cost accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="bf6c7-187">Coste</span><span class="sxs-lookup"><span data-stu-id="bf6c7-187">Cost</span></span>
+    -   <span data-ttu-id="bf6c7-188">Asignación de nóminas</span><span class="sxs-lookup"><span data-stu-id="bf6c7-188">Payroll allocation</span></span>
+    -   <span data-ttu-id="bf6c7-189">Trabajo en proceso - Valor de coste</span><span class="sxs-lookup"><span data-stu-id="bf6c7-189">WIP-cost value</span></span>
+    -   <span data-ttu-id="bf6c7-190">Coste-artículo</span><span class="sxs-lookup"><span data-stu-id="bf6c7-190">Cost-item</span></span>
+    -   <span data-ttu-id="bf6c7-191">Trabajo en proceso - Valor de coste - Artículo</span><span class="sxs-lookup"><span data-stu-id="bf6c7-191">WIP-cost value-item</span></span>
+    -   <span data-ttu-id="bf6c7-192">Pérdida acumulada</span><span class="sxs-lookup"><span data-stu-id="bf6c7-192">Accrued loss</span></span>
+    -   <span data-ttu-id="bf6c7-193">Trabajo en proceso - Pérdida acumulada</span><span class="sxs-lookup"><span data-stu-id="bf6c7-193">WIP-accrued loss</span></span>
+-   <span data-ttu-id="bf6c7-194">¿Qué cuentas de ingresos se usarán para lo siguiente?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-194">Which revenue accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="bf6c7-195">Ingresos facturados</span><span class="sxs-lookup"><span data-stu-id="bf6c7-195">Invoiced revenue</span></span>
+    -   <span data-ttu-id="bf6c7-196">Ingresos acumulados-valor de ventas</span><span class="sxs-lookup"><span data-stu-id="bf6c7-196">Accrued revenue-sales value</span></span>
+    -   <span data-ttu-id="bf6c7-197">Trabajo en proceso-valor de ventas</span><span class="sxs-lookup"><span data-stu-id="bf6c7-197">WIP-sales value</span></span>
+    -   <span data-ttu-id="bf6c7-198">Ingresos acumulados-producción</span><span class="sxs-lookup"><span data-stu-id="bf6c7-198">Accrued revenue-production</span></span>
+    -   <span data-ttu-id="bf6c7-199">Trabajo en proceso-producción</span><span class="sxs-lookup"><span data-stu-id="bf6c7-199">WIP-production</span></span>
+    -   <span data-ttu-id="bf6c7-200">Ingresos acumulados-ganancias</span><span class="sxs-lookup"><span data-stu-id="bf6c7-200">Accrued revenue-profit</span></span>
+    -   <span data-ttu-id="bf6c7-201">Trabajo en proceso - ganancias</span><span class="sxs-lookup"><span data-stu-id="bf6c7-201">WIP-profit</span></span>
+    -   <span data-ttu-id="bf6c7-202">Ingresos acumulados-suscripción</span><span class="sxs-lookup"><span data-stu-id="bf6c7-202">Accrued revenue-subscription</span></span>
+    -   <span data-ttu-id="bf6c7-203">Trabajo en proceso - suscripción</span><span class="sxs-lookup"><span data-stu-id="bf6c7-203">WIP-subscription</span></span>
 
  
 
-### <a name="taxes"></a>Impuestos
+### <a name="taxes"></a><span data-ttu-id="bf6c7-204">Impuestos</span><span class="sxs-lookup"><span data-stu-id="bf6c7-204">Taxes</span></span>
 
-Para los impuestos relacionados con gastos, debe determinar qué se incluye o se permite en los informes de gastos. **Decisiones:**
+<span data-ttu-id="bf6c7-205">Para los impuestos relacionados con gastos, debe determinar qué se incluye o se permite en los informes de gastos.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-205">For expense-related taxes, you must determine what is included or enabled on expense reports.</span></span> <span data-ttu-id="bf6c7-206">**Decisiones:**</span><span class="sxs-lookup"><span data-stu-id="bf6c7-206">**Decisions:**</span></span>
 
--   ¿Los impuestos se incluyen en los importes de gastos?
--   ¿Se debe habilitar la devolución de impuestos en los gastos?
+-   <span data-ttu-id="bf6c7-207">¿Los impuestos se incluyen en los importes de gastos?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-207">Is sales tax included in the expense amounts?</span></span>
+-   <span data-ttu-id="bf6c7-208">¿Se debe habilitar la devolución de impuestos en los gastos?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-208">Should tax recovery be enabled on expenses?</span></span>
 
-Tenga en cuenta que si, durante la planificación de la contabilidad general, ha decidido aplicar impuestos de EE.UU. y reglas de IVA de importación, lo que se realiza alternando el campo **Aplicar reglas de tributación de impuestos** en Sí, no podrá habilitar la devolución de impuestos en los gastos.
+<span data-ttu-id="bf6c7-209">Tenga en cuenta que si, durante la planificación de la contabilidad general, ha decidido aplicar impuestos de EE.UU. y reglas de IVA de importación, lo que se realiza alternando el campo **Aplicar reglas de tributación de impuestos** en Sí, no podrá habilitar la devolución de impuestos en los gastos.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-209">Note that if, during your planning of the general ledger, you have decided to apply U.S. sales tax and use tax rules, which is done by toggling the **Apply sales tax taxations rules** field to Yes, you can’t enable tax recovery on expenses.</span></span>
 
-## <a name="policies"></a>Directivas
-Puede crear directivas de informe de gastos de modo que la organización pueda ahorrar tiempo y dinero cuando los empleados incurran en gastos en su nombre. Las directivas garantizan que los empleados permanecen dentro del presupuesto, proporcionan toda la información necesaria y gasten dinero solo según sea necesario. Debe tomar las siguientes decisiones para cada directiva de informe de gastos y cada directiva de aprobación de informe de gastos que cree. **Decisiones:**
+## <a name="policies"></a><span data-ttu-id="bf6c7-210">Directivas</span><span class="sxs-lookup"><span data-stu-id="bf6c7-210">Policies</span></span>
+<span data-ttu-id="bf6c7-211">Puede crear directivas de informe de gastos de modo que la organización pueda ahorrar tiempo y dinero cuando los empleados incurran en gastos en su nombre.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-211">You can create expense report policies so that your organization can save time and money when employees incur expenses on its behalf.</span></span> <span data-ttu-id="bf6c7-212">Las directivas garantizan que los empleados permanecen dentro del presupuesto, proporcionan toda la información necesaria y gasten dinero solo según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-212">Policies ensure that employees stay within budget, provide all required information, and spend money only as necessary.</span></span> <span data-ttu-id="bf6c7-213">Debe tomar las siguientes decisiones para cada directiva de informe de gastos y cada directiva de aprobación de informe de gastos que cree.</span><span class="sxs-lookup"><span data-stu-id="bf6c7-213">You must make the following decisions for each expense report policy and each expense report approval policy that you create.</span></span> <span data-ttu-id="bf6c7-214">**Decisiones:**</span><span class="sxs-lookup"><span data-stu-id="bf6c7-214">**Decisions:**</span></span>
 
--   ¿Cuál es el nombre de la directiva?
--   ¿Para qué es la directiva de gastos?
--   Si decidió anteriormente habilitar los gastos de empresas vinculadas, ¿a qué empresas de su organización se aplicará esta directiva?
--   ¿Cuándo entrará en vigor la directiva?
--   ¿Cuándo expira la directiva?
--   ¿Cuál es la regla de directivas?
--   ¿Cuál es el resultado de la regla de directivas?
+-   <span data-ttu-id="bf6c7-215">¿Cuál es el nombre de la directiva?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-215">What is the name of the policy?</span></span>
+-   <span data-ttu-id="bf6c7-216">¿Para qué es la directiva de gastos?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-216">What is the expense policy for?</span></span>
+-   <span data-ttu-id="bf6c7-217">Si decidió anteriormente habilitar los gastos de empresas vinculadas, ¿a qué empresas de su organización se aplicará esta directiva?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-217">If you previously decided to enable intercompany expenses, to which companies in your organization will this policy apply?</span></span>
+-   <span data-ttu-id="bf6c7-218">¿Cuándo entrará en vigor la directiva?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-218">When does the policy become effective?</span></span>
+-   <span data-ttu-id="bf6c7-219">¿Cuándo expira la directiva?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-219">When does the policy expire?</span></span>
+-   <span data-ttu-id="bf6c7-220">¿Cuál es la regla de directivas?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-220">What is the policy rule?</span></span>
+-   <span data-ttu-id="bf6c7-221">¿Cuál es el resultado de la regla de directivas?</span><span class="sxs-lookup"><span data-stu-id="bf6c7-221">What is the outcome of the policy rule?</span></span>
 
 
 

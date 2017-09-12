@@ -16,29 +16,29 @@ ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 1055d60b2a23c3124398b0e13cfa911f6ab68c6b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c600b7ac56b970a3fdb592eb0fc42865ee3e2dec
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-address-books"></a>Configuración de libretas de direcciones
+# <a name="configure-address-books"></a><span data-ttu-id="58db6-103">Configuración de libretas de direcciones</span><span class="sxs-lookup"><span data-stu-id="58db6-103">Configure address books</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Use este procedimiento y las decisiones que tomó en el tema sobre planificación de la configuración de la libreta de direcciones global y libretas de direcciones adicionales para configurar libretas de direcciones adicionales para su organización.
+<span data-ttu-id="58db6-104">Use este procedimiento y las decisiones que tomó en el tema sobre planificación de la configuración de la libreta de direcciones global y libretas de direcciones adicionales para configurar libretas de direcciones adicionales para su organización.</span><span class="sxs-lookup"><span data-stu-id="58db6-104">Use this procedure, and the decisions that you made in the Planning the configuration of the global address book and additional address books topic, to set up additional address books for your organization.</span></span>
 
-La empresa de datos de prueba utilizada para crear esta tarea es USMF. Esta grabación va destinada a los miembros del equipo de planificación y configuración.
+<span data-ttu-id="58db6-105">La empresa de datos de prueba utilizada para crear esta tarea es USMF.</span><span class="sxs-lookup"><span data-stu-id="58db6-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="58db6-106">Esta grabación va destinada a los miembros del equipo de planificación y configuración.</span><span class="sxs-lookup"><span data-stu-id="58db6-106">This recording is intended for the Planning and configuration team members.</span></span>
 
 
-## <a name="configure-address-books"></a>Configuración de libretas de direcciones
-1. Vaya a Administración de la organización > Libreta de direcciones global > Libretas de direcciones.
-2. Haga clic en Nuevo.
-3. En el campo Nombre, escriba un valor.
-4. En el campo Descripción, escriba un valor.
-5. Haga clic en Guardar.
-6. En la lista, busque y seleccione el registro deseado.
-7. Haga clic en la flecha para agregar los equipos disponibles seleccionados a la libreta de direcciones.
-8. Haga clic en Guardar.
+## <a name="configure-address-books"></a><span data-ttu-id="58db6-107">Configuración de libretas de direcciones</span><span class="sxs-lookup"><span data-stu-id="58db6-107">Configure address books</span></span>
+1. <span data-ttu-id="58db6-108">Vaya a Administración de la organización > Libreta de direcciones global > Libretas de direcciones.</span><span class="sxs-lookup"><span data-stu-id="58db6-108">Go to Organization administration > Global address book > Address books.</span></span>
+2. <span data-ttu-id="58db6-109">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="58db6-109">Click New.</span></span>
+3. <span data-ttu-id="58db6-110">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="58db6-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="58db6-111">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="58db6-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="58db6-112">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="58db6-112">Click Save.</span></span>
+6. <span data-ttu-id="58db6-113">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="58db6-113">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="58db6-114">Haga clic en la flecha para agregar los equipos disponibles seleccionados a la libreta de direcciones.</span><span class="sxs-lookup"><span data-stu-id="58db6-114">Click the arrow to add the selected available teams to the address book.</span></span>
+8. <span data-ttu-id="58db6-115">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="58db6-115">Click Save.</span></span>
 
 

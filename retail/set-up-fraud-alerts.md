@@ -19,28 +19,28 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7255f2b7e49f56a731d0e3745b4752091013668b
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 09d80015298c3d0219b6ffb290dc456990536a62
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 
 ---
 
-# <a name="set-up-fraud-alerts"></a>Configurar avisos de fraude
+# <a name="set-up-fraud-alerts"></a><span data-ttu-id="24ea3-104">Configurar avisos de fraude</span><span class="sxs-lookup"><span data-stu-id="24ea3-104">Set up fraud alerts</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-En este tema se explica cómo configurar reglas para avisar a los representantes de servicio al cliente de la existencia de información potencialmente fraudulenta al procesar pedidos. También puede definir códigos específicos que puede usar para poner en espera los pedidos sospechosos automática o manualmente. 
+<span data-ttu-id="24ea3-105">En este tema se explica cómo configurar reglas para avisar a los representantes de servicio al cliente de la existencia de información potencialmente fraudulenta al procesar pedidos.</span><span class="sxs-lookup"><span data-stu-id="24ea3-105">This topic explains how to set up rules to alert customer service representatives of potentially fraudulent information when orders are processed.</span></span> <span data-ttu-id="24ea3-106">También puede definir códigos específicos que puede usar para poner en espera los pedidos sospechosos automática o manualmente.</span><span class="sxs-lookup"><span data-stu-id="24ea3-106">You can define specific codes to use to automatically or manually put suspicious orders on hold.</span></span> 
 
-Antes de configurar y usar reglas de comprobación de fraudes, debe habilitar la comprobación de fraudes y definir los valores básicos de comprobación de fraudes en los parámetros del centro de llamadas. Existen dos tipos de reglas de fraude:
+<span data-ttu-id="24ea3-107">Antes de configurar y usar reglas de comprobación de fraudes, debe habilitar la comprobación de fraudes y definir los valores básicos de comprobación de fraudes en los parámetros del centro de llamadas.</span><span class="sxs-lookup"><span data-stu-id="24ea3-107">Before you set up and use fraud checking rules, you must enable fraud checking and define the basic fraud checking values in the call center parameters.</span></span> <span data-ttu-id="24ea3-108">Existen dos tipos de reglas de fraude:</span><span class="sxs-lookup"><span data-stu-id="24ea3-108">There are two types of fraud rules:</span></span>
 
--   **Reglas estáticas** usa un valor específico, como un número de teléfono que está en la lista negra.
--   **Reglas dinámicas** puede estar compuesto de variables y de condiciones.
+-   <span data-ttu-id="24ea3-109">**Reglas estáticas** usa un valor específico, como un número de teléfono que está en la lista negra.</span><span class="sxs-lookup"><span data-stu-id="24ea3-109">**Static rules** use a specific value, such as a phone number that has been blacklisted.</span></span>
+-   <span data-ttu-id="24ea3-110">**Reglas dinámicas** puede estar compuesto de variables y de condiciones.</span><span class="sxs-lookup"><span data-stu-id="24ea3-110">**Dynamic rules** can be composed from variables and conditions.</span></span>
 
-Antes de crear una regla dinámica, debe crear las variables y condiciones que definen a quién se aplica la regla y cuándo se debe aplicar la regla. Por ejemplo, desea crear una regla para requerir que cuando el cliente 1202 realice un pedido de ventas por valor de 1.000,00 o más, el pedido de ventas se deba poner en espera hasta que se pueda comprobar el pago del cliente. En este caso, las variables son el cliente 1202 y un total de 1.000,00 del pedido. La condición especifica de que si el cliente 1202 configura un pedido, y el importe total del pedido es igual a o mayor de 1.000,00, el pedido de ventas debe estar en espera hasta que el pago del cliente pueda ser verificado.
+<span data-ttu-id="24ea3-111">Antes de crear una regla dinámica, debe crear las variables y condiciones que definen a quién se aplica la regla y cuándo se debe aplicar la regla.</span><span class="sxs-lookup"><span data-stu-id="24ea3-111">Before you create a dynamic rule, you must create the variables and conditions that define who the rule applies to and when the rule should be applied.</span></span> <span data-ttu-id="24ea3-112">Por ejemplo, desea crear una regla para requerir que cuando el cliente 1202 realice un pedido de ventas por valor de 1.000,00 o más, el pedido de ventas se deba poner en espera hasta que se pueda comprobar el pago del cliente.</span><span class="sxs-lookup"><span data-stu-id="24ea3-112">For example, you want to create a rule to require that any sales order that customer 1202 places that is worth 1,000.00 or more be put on hold until the customer payment can be verified.</span></span> <span data-ttu-id="24ea3-113">En este caso, las variables son el cliente 1202 y un total de 1.000,00 del pedido.</span><span class="sxs-lookup"><span data-stu-id="24ea3-113">In this case, the variables are customer 1202 and an order total of 1,000.00.</span></span> <span data-ttu-id="24ea3-114">La condición especifica de que si el cliente 1202 configura un pedido, y el importe total del pedido es igual a o mayor de 1.000,00, el pedido de ventas debe estar en espera hasta que el pago del cliente pueda ser verificado.</span><span class="sxs-lookup"><span data-stu-id="24ea3-114">The condition specifies that if customer 1202 places an order, and the total amount of the order is equal to or more than 1,000.00, the sales order must be put on hold until the customer payment can be verified.</span></span>
 
 
 

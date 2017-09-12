@@ -16,7 +16,7 @@ ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: b2b1b99fd4c7c439ad89440827ad78173d371855
@@ -26,242 +26,242 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="distribute-and-complete-a-questionnaire"></a>Distribuir y completar un cuestionario
+# <a name="distribute-and-complete-a-questionnaire"></a><span data-ttu-id="49f12-103">Distribuir y completar un cuestionario</span><span class="sxs-lookup"><span data-stu-id="49f12-103">Distribute and complete a questionnaire</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-En este tema se explica cómo distribuir los cuestionarios que diseña, de modo que estén disponibles para la persona o el grupo de personas que lo van a completar. 
+<span data-ttu-id="49f12-104">En este tema se explica cómo distribuir los cuestionarios que diseña, de modo que estén disponibles para la persona o el grupo de personas que lo van a completar.</span><span class="sxs-lookup"><span data-stu-id="49f12-104">This topic explains how distribute the questionnaires that you design, so that they are available to the person or group of people who will complete them.</span></span> 
 
-Hay varias manera de distribuir un cuestionario:
+<span data-ttu-id="49f12-105">Hay varias manera de distribuir un cuestionario:</span><span class="sxs-lookup"><span data-stu-id="49f12-105">There are multiple ways to distribute a questionnaire:</span></span>
 
--   Marcar el cuestionario como activo. El cuestionario estará entonces disponible para todos los empleados, a menos que se configure un grupo de cuestionarios para restringir el acceso al mismo.
--   Asigne derechos a un grupo de cuestionarios. El cuestionario estará entonces disponible para todos los miembros del grupo seleccionado.
--   Crear sesiones de respuestas planificadas. El cuestionario está entonces disponible solo para una persona concreta.
--   Crear una programación. El cuestionario estará entonces disponibles para varias personas.
+-   <span data-ttu-id="49f12-106">Marcar el cuestionario como activo.</span><span class="sxs-lookup"><span data-stu-id="49f12-106">Mark the questionnaire as active.</span></span> <span data-ttu-id="49f12-107">El cuestionario estará entonces disponible para todos los empleados, a menos que se configure un grupo de cuestionarios para restringir el acceso al mismo.</span><span class="sxs-lookup"><span data-stu-id="49f12-107">The questionnaire is then available to all employees, unless a questionnaire group is set up to restrict access to it.</span></span>
+-   <span data-ttu-id="49f12-108">Asigne derechos a un grupo de cuestionarios.</span><span class="sxs-lookup"><span data-stu-id="49f12-108">Assign rights to a questionnaire group.</span></span> <span data-ttu-id="49f12-109">El cuestionario estará entonces disponible para todos los miembros del grupo seleccionado.</span><span class="sxs-lookup"><span data-stu-id="49f12-109">The questionnaire is then available to all members of the selected group.</span></span>
+-   <span data-ttu-id="49f12-110">Crear sesiones de respuestas planificadas.</span><span class="sxs-lookup"><span data-stu-id="49f12-110">Create planned answer sessions.</span></span> <span data-ttu-id="49f12-111">El cuestionario está entonces disponible solo para una persona concreta.</span><span class="sxs-lookup"><span data-stu-id="49f12-111">The questionnaire is then available only to a particular person.</span></span>
+-   <span data-ttu-id="49f12-112">Crear una programación.</span><span class="sxs-lookup"><span data-stu-id="49f12-112">Create a schedule.</span></span> <span data-ttu-id="49f12-113">El cuestionario estará entonces disponibles para varias personas.</span><span class="sxs-lookup"><span data-stu-id="49f12-113">The questionnaire can then be available to multiple people.</span></span>
 
-## <a name="marking-a-questionnaire-as-active"></a>Marcar un cuestionario como activo
-Al establecer el campo **Activo** en **Sí** en la página **Cuestionarios**, pone el cuestionario a disposición de todos los empleados para que lo completen. Los encuestados pueden completar el cuestionario varias veces. Esta función resulta útil si desea recopilar comentarios continuos a lo largo del año. Por ejemplo, puede crear un cuestionario que los empleados usen para dar comentario sobre el servicio de almuerzo en la cafetería.
+## <a name="marking-a-questionnaire-as-active"></a><span data-ttu-id="49f12-114">Marcar un cuestionario como activo</span><span class="sxs-lookup"><span data-stu-id="49f12-114">Marking a questionnaire as active</span></span>
+<span data-ttu-id="49f12-115">Al establecer el campo **Activo** en **Sí** en la página **Cuestionarios**, pone el cuestionario a disposición de todos los empleados para que lo completen.</span><span class="sxs-lookup"><span data-stu-id="49f12-115">By setting the **Active** field to **Yes** on the **Questionnaires** page, you make the questionnaire available for all employees to complete.</span></span> <span data-ttu-id="49f12-116">Los encuestados pueden completar el cuestionario varias veces.</span><span class="sxs-lookup"><span data-stu-id="49f12-116">Respondents can complete the questionnaire multiple times.</span></span> <span data-ttu-id="49f12-117">Esta función resulta útil si desea recopilar comentarios continuos a lo largo del año.</span><span class="sxs-lookup"><span data-stu-id="49f12-117">This functionality is useful if you want to gather continual feedback throughout the year.</span></span> <span data-ttu-id="49f12-118">Por ejemplo, puede crear un cuestionario que los empleados usen para dar comentario sobre el servicio de almuerzo en la cafetería.</span><span class="sxs-lookup"><span data-stu-id="49f12-118">For example, you can make a questionnaire that employees use to give feedback about the lunch service in the cafeteria.</span></span>
 
-## <a name="questionnaire-groups"></a>Grupos de cuestionarios
-Puede configurar los grupos de cuestionarios e incluir a continuación a los encuestados a los que se debe distribuir un cuestionario. 
+## <a name="questionnaire-groups"></a><span data-ttu-id="49f12-119">Grupos de cuestionarios</span><span class="sxs-lookup"><span data-stu-id="49f12-119">Questionnaire groups</span></span>
+<span data-ttu-id="49f12-120">Puede configurar los grupos de cuestionarios e incluir a continuación a los encuestados a los que se debe distribuir un cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-120">You can set up questionnaire groups and then include the respondents that a questionnaire should be distributed to.</span></span> 
 
-Puede crear grupos de cuestionarios a partir de las páginas siguientes:
+<span data-ttu-id="49f12-121">Puede crear grupos de cuestionarios a partir de las páginas siguientes:</span><span class="sxs-lookup"><span data-stu-id="49f12-121">You can create questionnaire groups from the following pages:</span></span>
 
--   **Grupos de cuestionarios**: solo las personas de un grupo de cuestionarios pueden completar un cuestionario seleccionado. Por ejemplo, su público de destino son contratistas, por lo que crea un grupo de cuestionarios que sea específico para dichos encuestados.
--   **Miembros del grupo de cuestionarios**: puede agregar personas a grupos de cuestionarios.
+-   <span data-ttu-id="49f12-122">**Grupos de cuestionarios**: solo las personas de un grupo de cuestionarios pueden completar un cuestionario seleccionado.</span><span class="sxs-lookup"><span data-stu-id="49f12-122">**Questionnaire groups** – Only individuals in a questionnaire group can complete a selected questionnaire.</span></span> <span data-ttu-id="49f12-123">Por ejemplo, su público de destino son contratistas, por lo que crea un grupo de cuestionarios que sea específico para dichos encuestados.</span><span class="sxs-lookup"><span data-stu-id="49f12-123">For example, your intended audience is contractors, so you create a questionnaire group that is specific to those respondents.</span></span>
+-   <span data-ttu-id="49f12-124">**Miembros del grupo de cuestionarios**: puede agregar personas a grupos de cuestionarios.</span><span class="sxs-lookup"><span data-stu-id="49f12-124">**Questionnaire group members** – You can add people to the questionnaire groups.</span></span>
 
-Para asignar un grupo de cuestionarios a un cuestionario, en la página **Cuestionarios**, haga clic en **Derechos del usuario**. Una vez que se guarda el cuestionario como activo, los miembros del grupo de cuestionarios pueden completar el cuestionario. Esta función resulta de utilidad si desea probar un cuestionario en un grupo seleccionado de personas antes de extenderlo a un grupo mayor, o si desea que el público de un cuestionario sea muy específico.
+<span data-ttu-id="49f12-125">Para asignar un grupo de cuestionarios a un cuestionario, en la página **Cuestionarios**, haga clic en **Derechos del usuario**.</span><span class="sxs-lookup"><span data-stu-id="49f12-125">To assign a questionnaire group to a questionnaire, on the **Questionnaires** page, click **User rights**.</span></span> <span data-ttu-id="49f12-126">Una vez que se guarda el cuestionario como activo, los miembros del grupo de cuestionarios pueden completar el cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-126">After the questionnaire is saved as active, the members of the questionnaire group can complete the questionnaire.</span></span> <span data-ttu-id="49f12-127">Esta función resulta de utilidad si desea probar un cuestionario en un grupo seleccionado de personas antes de extenderlo a un grupo mayor, o si desea que el público de un cuestionario sea muy específico.</span><span class="sxs-lookup"><span data-stu-id="49f12-127">This functionality is helpful if you want to test a questionnaire on a select group of people before you roll it out to a larger group, or if you want to target a questionnaire to a very specific audience.</span></span>
 
-## <a name="planned-answer-sessions-in-a-questionnaire"></a>Sesión de respuestas planificadas en un cuestionario
-Las sesiones de respuesta planificadas son cuestionarios diseñados por usted y para las que ha seleccionado los encuestados. 
+## <a name="planned-answer-sessions-in-a-questionnaire"></a><span data-ttu-id="49f12-128">Sesión de respuestas planificadas en un cuestionario</span><span class="sxs-lookup"><span data-stu-id="49f12-128">Planned answer sessions in a questionnaire</span></span>
+<span data-ttu-id="49f12-129">Las sesiones de respuesta planificadas son cuestionarios diseñados por usted y para las que ha seleccionado los encuestados.</span><span class="sxs-lookup"><span data-stu-id="49f12-129">Planned answer sessions are questionnaires that you've designed and selected the respondents for.</span></span> 
 
-> **Nota:** Para poder configurar sesiones de respuesta planificadas, debe diseñar un cuestionario. 
+> <span data-ttu-id="49f12-130">**Nota:** Para poder configurar sesiones de respuesta planificadas, debe diseñar un cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-130">**Note** Before you can set up planned answer sessions, you must design a questionnaire.</span></span> 
 
-En la página **Sesión de respuestas planificadas**, puede crear una sesión de respuestas planificadas para un empleado. La lista de la página muestra todos los cuestionarios planificados. 
+<span data-ttu-id="49f12-131">En la página **Sesión de respuestas planificadas**, puede crear una sesión de respuestas planificadas para un empleado.</span><span class="sxs-lookup"><span data-stu-id="49f12-131">On the **Planned answer session** page, you can create a planned answer session for an individual employee.</span></span> <span data-ttu-id="49f12-132">La lista de la página muestra todos los cuestionarios planificados.</span><span class="sxs-lookup"><span data-stu-id="49f12-132">The list on the page displays all planned questionnaires.</span></span> 
 
-Las sesiones de respuestas planificadas también se utilizan en la página **Programaciones de cuestionarios**, donde puede planificar cuestionarios para varias personas:
+<span data-ttu-id="49f12-133">Las sesiones de respuestas planificadas también se utilizan en la página **Programaciones de cuestionarios**, donde puede planificar cuestionarios para varias personas:</span><span class="sxs-lookup"><span data-stu-id="49f12-133">Planned answer sessions are also used on the **Questionnaire schedules** page, where you can plan questionnaires for multiple people:</span></span>
 
--   Empleados
--   Participantes en el curso
--   Unidades organizativas
+-   <span data-ttu-id="49f12-134">Empleados</span><span class="sxs-lookup"><span data-stu-id="49f12-134">Employees</span></span>
+-   <span data-ttu-id="49f12-135">Participantes en el curso</span><span class="sxs-lookup"><span data-stu-id="49f12-135">Course participants</span></span>
+-   <span data-ttu-id="49f12-136">Unidades organizativas</span><span class="sxs-lookup"><span data-stu-id="49f12-136">Organizational units</span></span>
 
-Cada persona puede responder al cuestionario solo una vez.
+<span data-ttu-id="49f12-137">Cada persona puede responder al cuestionario solo una vez.</span><span class="sxs-lookup"><span data-stu-id="49f12-137">Each person can answer the questionnaire only one time.</span></span>
 
-## <a name="scheduling-a-questionnaire"></a>Programación de un cuestionario
-Puede programar opcionalmente un cuestionario para varios encuestados.
+## <a name="scheduling-a-questionnaire"></a><span data-ttu-id="49f12-138">Programación de un cuestionario</span><span class="sxs-lookup"><span data-stu-id="49f12-138">Scheduling a questionnaire</span></span>
+<span data-ttu-id="49f12-139">Puede programar opcionalmente un cuestionario para varios encuestados.</span><span class="sxs-lookup"><span data-stu-id="49f12-139">You can optionally schedule a questionnaire for multiple respondents.</span></span>
 
-### <a name="planning-types"></a>Tipos de planificación
+### <a name="planning-types"></a><span data-ttu-id="49f12-140">Tipos de planificación</span><span class="sxs-lookup"><span data-stu-id="49f12-140">Planning types</span></span>
 
-Los tipos de planificación son obligatorios si desea programar sesiones de respuesta planificadas para varios encuestados. Los tipos de planificación se usan para clasificar las programaciones de cuestionarios. Por ejemplo, puede programar cuestionarios para los fines siguientes:
+<span data-ttu-id="49f12-141">Los tipos de planificación son obligatorios si desea programar sesiones de respuesta planificadas para varios encuestados.</span><span class="sxs-lookup"><span data-stu-id="49f12-141">Planning types are required if you want to schedule planned answer sessions for multiple respondents.</span></span> <span data-ttu-id="49f12-142">Los tipos de planificación se usan para clasificar las programaciones de cuestionarios.</span><span class="sxs-lookup"><span data-stu-id="49f12-142">Planning types are used to classify questionnaire schedules.</span></span> <span data-ttu-id="49f12-143">Por ejemplo, puede programar cuestionarios para los fines siguientes:</span><span class="sxs-lookup"><span data-stu-id="49f12-143">For example, you can schedule questionnaires for the following purposes:</span></span>
 
--   Evaluación
--   Encuesta
--   Pruebas
+-   <span data-ttu-id="49f12-144">Evaluación</span><span class="sxs-lookup"><span data-stu-id="49f12-144">Evaluation</span></span>
+-   <span data-ttu-id="49f12-145">Encuesta</span><span class="sxs-lookup"><span data-stu-id="49f12-145">Survey</span></span>
+-   <span data-ttu-id="49f12-146">Pruebas</span><span class="sxs-lookup"><span data-stu-id="49f12-146">Testing</span></span>
 
-Puede especificar los tipos de planificación para una programación de cuestionarios en la página **Programaciones de cuestionarios**.
+<span data-ttu-id="49f12-147">Puede especificar los tipos de planificación para una programación de cuestionarios en la página **Programaciones de cuestionarios**.</span><span class="sxs-lookup"><span data-stu-id="49f12-147">You can specify planning types for a questionnaire schedule on the **Questionnaire schedules** page.</span></span>
 
-### <a name="reference-types-for-questionnaire"></a>Tipos de referencia para cuestionario
+### <a name="reference-types-for-questionnaire"></a><span data-ttu-id="49f12-148">Tipos de referencia para cuestionario</span><span class="sxs-lookup"><span data-stu-id="49f12-148">Reference types for questionnaire</span></span>
 
-Puede utilizar tipos de referencia para especificar los criterios para los encuestados que podría seleccionar al programar un cuestionario. 
+<span data-ttu-id="49f12-149">Puede utilizar tipos de referencia para especificar los criterios para los encuestados que podría seleccionar al programar un cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-149">You can use reference types to enter criteria for the respondents that you might select when you schedule a questionnaire.</span></span> 
 
-Use la página **Tipos de referencia** para configurar tipos de referencia para un cuestionario. Cada tipo de referencia se corresponde con una tabla de Microsoft Dynamics 365 for Finance and Operations. Al crear programaciones de cuestionarios, puede especificar los registros individuales en la tabla o un intervalo de registros con los que el cuestionario esté asociado. 
+<span data-ttu-id="49f12-150">Use la página **Tipos de referencia** para configurar tipos de referencia para un cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-150">Use the **Reference types** page to set up reference types for a questionnaire.</span></span> <span data-ttu-id="49f12-151">Cada tipo de referencia se corresponde con una tabla de Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="49f12-151">Each reference type corresponds to a table in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="49f12-152">Al crear programaciones de cuestionarios, puede especificar los registros individuales en la tabla o un intervalo de registros con los que el cuestionario esté asociado.</span><span class="sxs-lookup"><span data-stu-id="49f12-152">When you create questionnaire schedules, you can specify individual records in the table or a range of records that the questionnaire will be associated with.</span></span> 
 
-Por ejemplo, si selecciona la tabla Cursos, puede decidir para qué curso específico será el cuestionario. Al configurar un tipo de referencia para la tabla Cursos, algunos campos y botones de la página **Cursos** pueden hacerse disponibles.
+<span data-ttu-id="49f12-153">Por ejemplo, si selecciona la tabla Cursos, puede decidir para qué curso específico será el cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-153">For example, if you select the Courses table, you can decide which specific course the questionnaire will be for.</span></span> <span data-ttu-id="49f12-154">Al configurar un tipo de referencia para la tabla Cursos, algunos campos y botones de la página **Cursos** pueden hacerse disponibles.</span><span class="sxs-lookup"><span data-stu-id="49f12-154">When you set up a reference for the Courses table, some fields and buttons on the **Courses** page become available.</span></span>
 
-### <a name="questionnaire-schedules"></a>Programaciones de cuestionarios
+### <a name="questionnaire-schedules"></a><span data-ttu-id="49f12-155">Programaciones de cuestionarios</span><span class="sxs-lookup"><span data-stu-id="49f12-155">Questionnaire schedules</span></span>
 
-Puede usar programaciones del cuestionario para generar varias sesiones de respuesta planificadas para un grupo de usuarios, en función de un tipo de referencia. Cree una programación en la página **Programaciones de cuestionarios**. Seleccione el tipo de planificación para clasificar la programación, y también seleccionar el tipo de referencia que se debe usar para consultar el sistema para usuarios específicos. Por ejemplo, si establece el tipo de referencia en la tabla Cursos, puede seleccionar un curso específico en el campo **Referencia**. 
+<span data-ttu-id="49f12-156">Puede usar programaciones del cuestionario para generar varias sesiones de respuesta planificadas para un grupo de usuarios, en función de un tipo de referencia.</span><span class="sxs-lookup"><span data-stu-id="49f12-156">You can use questionnaire schedules to generate multiple planned answer sessions for a group of users, based on a reference type.</span></span> <span data-ttu-id="49f12-157">Cree una programación en la página **Programaciones de cuestionarios**.</span><span class="sxs-lookup"><span data-stu-id="49f12-157">Create a schedule on the **Questionnaire schedules** page.</span></span> <span data-ttu-id="49f12-158">Seleccione el tipo de planificación para clasificar la programación, y también seleccionar el tipo de referencia que se debe usar para consultar el sistema para usuarios específicos.</span><span class="sxs-lookup"><span data-stu-id="49f12-158">Select the planning type to categorize the schedule, and also select the reference type that should be used to query the system for specific users.</span></span> <span data-ttu-id="49f12-159">Por ejemplo, si establece el tipo de referencia en la tabla Cursos, puede seleccionar un curso específico en el campo **Referencia**.</span><span class="sxs-lookup"><span data-stu-id="49f12-159">For example, if you set the reference type to the Courses table, you can select a specific course in the **Reference** field.</span></span> 
 
-Haga clic en **Detalles de configuración** para seleccionar el cuestionario y otros criterios. Por ejemplo, especifique el nombre del instructor como criterio si el cuestionario es una evaluación del instructor. Una vez que haya terminado de especificar los detalles de la configuración, el sistema genera sesiones de respuestas planificadas para los usuarios que se incluyen en la consulta. 
+<span data-ttu-id="49f12-160">Haga clic en **Detalles de configuración** para seleccionar el cuestionario y otros criterios.</span><span class="sxs-lookup"><span data-stu-id="49f12-160">Click **Setup details** to select the questionnaire and other criteria.</span></span> <span data-ttu-id="49f12-161">Por ejemplo, especifique el nombre del instructor como criterio si el cuestionario es una evaluación del instructor.</span><span class="sxs-lookup"><span data-stu-id="49f12-161">For example, specify the instructor's name as a criterion if the questionnaire is an evaluation of the instructor.</span></span> <span data-ttu-id="49f12-162">Una vez que haya terminado de especificar los detalles de la configuración, el sistema genera sesiones de respuestas planificadas para los usuarios que se incluyen en la consulta.</span><span class="sxs-lookup"><span data-stu-id="49f12-162">After you've finished entering the setup details, the system generates planned answer sessions for the users that are included in the query.</span></span> 
 
-Haga clic en **Sesiones de respuestas planificadas** para ver las sesiones de respuesta para la programación. A continuación, puede crear manualmente sesiones de respuestas planificadas adicionales o eliminar sesiones de respuestas planificadas que no se han respondido. 
+<span data-ttu-id="49f12-163">Haga clic en **Sesiones de respuestas planificadas** para ver las sesiones de respuesta para la programación.</span><span class="sxs-lookup"><span data-stu-id="49f12-163">Click **Planned answer sessions** to view the answer sessions for the schedule.</span></span> <span data-ttu-id="49f12-164">A continuación, puede crear manualmente sesiones de respuestas planificadas adicionales o eliminar sesiones de respuestas planificadas que no se han respondido.</span><span class="sxs-lookup"><span data-stu-id="49f12-164">You can then manually create additional planned answer sessions or delete planned answer sessions that haven't been answered.</span></span> 
 
-Haga clic en **Funciones** &gt; **Iniciar** para que el cuestionario esté disponible para los usuarios en sesiones de respuestas planificadas relacionadas. Haga clic en **Respuestas** para ver las respuestas completadas para el cuestionario. Puede copiar opcionalmente la configuración de la programación de cuestionarios, las sesiones de respuestas planificadas y las respuestas a una nueva programación de cuestionarios.
+<span data-ttu-id="49f12-165">Haga clic en **Funciones** &gt; **Iniciar** para que el cuestionario esté disponible para los usuarios en sesiones de respuestas planificadas relacionadas.</span><span class="sxs-lookup"><span data-stu-id="49f12-165">Click **Functions** &gt; **Start** to make the questionnaire available to the users in related planned answer sessions.</span></span> <span data-ttu-id="49f12-166">Haga clic en **Respuestas** para ver las respuestas completadas para el cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-166">Click **Answers** to view the completed responses to the questionnaire.</span></span> <span data-ttu-id="49f12-167">Puede copiar opcionalmente la configuración de la programación de cuestionarios, las sesiones de respuestas planificadas y las respuestas a una nueva programación de cuestionarios.</span><span class="sxs-lookup"><span data-stu-id="49f12-167">You can optionally copy the questionnaire schedule settings, planned answer sessions, and answers to a new questionnaire schedule.</span></span>
 
-## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Notificación de los encuestados sobre los cuestionarios que tienen a su disposición
-Al distribuir un cuestionario, debe notificar a los encuestados que tienen los cuestionarios a su disposición. 
+## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a><span data-ttu-id="49f12-168">Notificación de los encuestados sobre los cuestionarios que tienen a su disposición</span><span class="sxs-lookup"><span data-stu-id="49f12-168">Notifying respondents about questionnaires that are available to them</span></span>
+<span data-ttu-id="49f12-169">Al distribuir un cuestionario, debe notificar a los encuestados que tienen los cuestionarios a su disposición.</span><span class="sxs-lookup"><span data-stu-id="49f12-169">When you distribute a questionnaire, you must notify respondents that questionnaires are available to them.</span></span> 
 
-### <a name="notifying-respondents-about-a-planned-answer-session"></a>Notificación de los encuestados acerca de una sesión de respuestas planificadas
+### <a name="notifying-respondents-about-a-planned-answer-session"></a><span data-ttu-id="49f12-170">Notificación de los encuestados acerca de una sesión de respuestas planificadas</span><span class="sxs-lookup"><span data-stu-id="49f12-170">Notifying respondents about a planned answer session</span></span>
 
-Si usa una sesión de respuestas planificadas, debe notificar a la persona directamente, por ejemplo, por teléfono o correo electrónico.
+<span data-ttu-id="49f12-171">Si usa una sesión de respuestas planificadas, debe notificar a la persona directamente, por ejemplo, por teléfono o correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="49f12-171">If you use a planned answer session, you must notify the person directly, such as by telephone or email.</span></span>
 
-### <a name="notifying-respondents-about-a-scheduling"></a>Notificación de los encuestados acerca de una programación
+### <a name="notifying-respondents-about-a-scheduling"></a><span data-ttu-id="49f12-172">Notificación de los encuestados acerca de una programación</span><span class="sxs-lookup"><span data-stu-id="49f12-172">Notifying respondents about a scheduling</span></span>
 
-Use la página **Programaciones de cuestionarios** para preparar y enviar correo electrónico a todos los encuestados asignados al cuestionario. Escriba el texto de correo electrónico en la pestaña **Correo electrónico para autoservicio de empleados**. Una vez que se ha iniciado la programación, haga clic en **Funciones** &gt; **Enviar correo electrónico** generar y enviar el correo electrónico a los encuestados. A continuación, los encuestados pueden iniciar sesión en el sitio Web y completar el cuestionario. 
+<span data-ttu-id="49f12-173">Use la página **Programaciones de cuestionarios** para preparar y enviar correo electrónico a todos los encuestados asignados al cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-173">Use the **Questionnaire schedules** page to prepare and send email to all respondents who are assigned to the questionnaire.</span></span> <span data-ttu-id="49f12-174">Escriba el texto de correo electrónico en la pestaña **Correo electrónico para autoservicio de empleados**.</span><span class="sxs-lookup"><span data-stu-id="49f12-174">Enter the email text on the **E-mail for employee self service** tab.</span></span> <span data-ttu-id="49f12-175">Una vez que se ha iniciado la programación, haga clic en **Funciones** &gt; **Enviar correo electrónico** generar y enviar el correo electrónico a los encuestados.</span><span class="sxs-lookup"><span data-stu-id="49f12-175">After the schedule has been started, click **Functions** &gt; **Send e-mail** to generate and send the email to the respondents.</span></span> <span data-ttu-id="49f12-176">A continuación, los encuestados pueden iniciar sesión en el sitio Web y completar el cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-176">Respondents can then sign in to the website and complete the questionnaire.</span></span> 
 
-> **Nota:** Para poder usar la función de correo electrónico, el administrador de TI debe especificar la configuración de correo electrónico en la página **Parámetros del correo electrónico**.
+> <span data-ttu-id="49f12-177">**Nota:** Para poder usar la función de correo electrónico, el administrador de TI debe especificar la configuración de correo electrónico en la página **Parámetros del correo electrónico**.</span><span class="sxs-lookup"><span data-stu-id="49f12-177">**Note** Before you can use the email functionality, your IT administrator must enter the email settings on the **E-mail parameters** page.</span></span>
 
-## <a name="ending-a-scheduled-questionnaire"></a>Finalización de un cuestionario programado
-Puede finalizar un cuestionario programado una vez que todas las personas que respondan al mismo hayan completado las sesiones de preguntas que les hayan sido asignadas. Cuando finaliza un cuestionario programado, no puede copiar su configuración en una programación nueva. 
+## <a name="ending-a-scheduled-questionnaire"></a><span data-ttu-id="49f12-178">Finalización de un cuestionario programado</span><span class="sxs-lookup"><span data-stu-id="49f12-178">Ending a scheduled questionnaire</span></span>
+<span data-ttu-id="49f12-179">Puede finalizar un cuestionario programado una vez que todas las personas que respondan al mismo hayan completado las sesiones de preguntas que les hayan sido asignadas.</span><span class="sxs-lookup"><span data-stu-id="49f12-179">You can end a scheduled questionnaire after all respondents have completed their assigned answer sessions.</span></span> <span data-ttu-id="49f12-180">Cuando finaliza un cuestionario programado, no puede copiar su configuración en una programación nueva.</span><span class="sxs-lookup"><span data-stu-id="49f12-180">After a scheduled questionnaire is ended, you can't copy its settings to a new schedule.</span></span> 
 
-> **Note:** Si uno o varios de los encuestados no han completado el cuestionario, pero aun así desea finalizar la programación, antes deberá eliminar a esos encuestados de la lista en la página **Sesión de respuestas planificadas**. A continuación, puede finalizar la programación.
+> <span data-ttu-id="49f12-181">**Note:** Si uno o varios de los encuestados no han completado el cuestionario, pero aun así desea finalizar la programación, antes deberá eliminar a esos encuestados de la lista en la página **Sesión de respuestas planificadas**.</span><span class="sxs-lookup"><span data-stu-id="49f12-181">**Note** If one or more respondents haven't completed the questionnaire, but you still want to end the scheduling, you must first delete those respondents from the list on the **Planned answer session** page.</span></span> <span data-ttu-id="49f12-182">A continuación, puede finalizar la programación.</span><span class="sxs-lookup"><span data-stu-id="49f12-182">You can then end the schedule.</span></span>
 
-## <a name="completing-questionnaires"></a>Completando cuestionarios
-Una vez que haya diseñado y haya distribuido un cuestionario, los encuestados seleccionados lo pueden completar. Puede completar los cuestionarios a su disposición desde dos ubicaciones:
+## <a name="completing-questionnaires"></a><span data-ttu-id="49f12-183">Completando cuestionarios</span><span class="sxs-lookup"><span data-stu-id="49f12-183">Completing questionnaires</span></span>
+<span data-ttu-id="49f12-184">Una vez que haya diseñado y haya distribuido un cuestionario, los encuestados seleccionados lo pueden completar.</span><span class="sxs-lookup"><span data-stu-id="49f12-184">After you've designed and distributed a questionnaire, the questionnaire can be completed by selected respondents.</span></span> <span data-ttu-id="49f12-185">Puede completar los cuestionarios a su disposición desde dos ubicaciones:</span><span class="sxs-lookup"><span data-stu-id="49f12-185">You can complete the questionnaires that are available to you from two locations:</span></span>
 
--   En el panel de navegación, haga clic en **Cuestionarios** &gt; **Distribuir** &gt; **Completar un cuestionario**.
--   En Autoservicio para empleados, haga clic en **Cuestionarios que deben completarse**.
+-   <span data-ttu-id="49f12-186">En el panel de navegación, haga clic en **Cuestionarios** &gt; **Distribuir** &gt; **Completar un cuestionario**.</span><span class="sxs-lookup"><span data-stu-id="49f12-186">In the navigation pane, click **Questionnaires** &gt; **Distribute** &gt; **Complete a questionnaire**.</span></span>
+-   <span data-ttu-id="49f12-187">En Autoservicio para empleados, haga clic en **Cuestionarios que deben completarse**.</span><span class="sxs-lookup"><span data-stu-id="49f12-187">In Employee self-service, click **Questionnaires to complete**.</span></span>
 
-Los cuestionarios se pueden poner a disposición de usuarios o grupos de usuarios específicos, o de todos los usuarios conectados a una red.
+<span data-ttu-id="49f12-188">Los cuestionarios se pueden poner a disposición de usuarios o grupos de usuarios específicos, o de todos los usuarios conectados a una red.</span><span class="sxs-lookup"><span data-stu-id="49f12-188">Questionnaires can made be available to specific users or groups of users, or to all users in a network.</span></span>
 
-<a name="see-also"></a>Consulte también
+<a name="see-also"></a><span data-ttu-id="49f12-189">Consulte también</span><span class="sxs-lookup"><span data-stu-id="49f12-189">See also</span></span>
 --------
 
-[Diseñar cuestionarios](design-questionnaires.md)
+[<span data-ttu-id="49f12-190">Diseñar cuestionarios</span><span class="sxs-lookup"><span data-stu-id="49f12-190">Designing questionnaires</span></span>](design-questionnaires.md)
 
-[Uso de cuestionarios](questionnaires.md)
+[<span data-ttu-id="49f12-191">Uso de cuestionarios</span><span class="sxs-lookup"><span data-stu-id="49f12-191">Using questionnaires</span></span>](questionnaires.md)
 
-[Visualización y evaluación de los resultados de cuestionarios](evaluate-questionnaire-results.md)
+[<span data-ttu-id="49f12-192">Visualización y evaluación de los resultados de cuestionarios</span><span class="sxs-lookup"><span data-stu-id="49f12-192">Viewing and evaluating the results of questionnaires</span></span>](evaluate-questionnaire-results.md)
 
 
 
 <a name=""></a>=======
 ---
-# <a name="required-metadata"></a>metadatos necesarios
+# <a name="required-metadata"></a><span data-ttu-id="49f12-193">metadatos necesarios</span><span class="sxs-lookup"><span data-stu-id="49f12-193">required metadata</span></span>
 
-título: Descripción de cómo distribuir y completar un cuestionario. En este tema se explica cómo distribuir los cuestionarios que diseña, de modo que estén disponibles para la persona o el grupo de personas que lo van a completar. autor: administrador de twheeloc: AnnBe ms.date: 06/20/2017 ms.topic: article ms.prod: ms.service: Dynamics365Operations ms.technology: 
+<span data-ttu-id="49f12-194">título: Descripción de cómo distribuir y completar un cuestionario. En este tema se explica cómo distribuir los cuestionarios que diseña, de modo que estén disponibles para la persona o el grupo de personas que lo van a completar.</span><span class="sxs-lookup"><span data-stu-id="49f12-194">title: Distribute and complete a questionnaire description: This topic explains how distribute the questionnaires that you design, so that they are available to the person or group of people who will complete them.</span></span> <span data-ttu-id="49f12-195">autor: administrador de twheeloc: AnnBe ms.date: 06/20/2017 ms.topic: article ms.prod: ms.service: Dynamics365Operations ms.technology:</span><span class="sxs-lookup"><span data-stu-id="49f12-195">author: twheeloc manager: AnnBe ms.date: 06/20/2017 ms.topic: article ms.prod: ms.service: Dynamics365Operations ms.technology:</span></span> 
 
-# <a name="optional-metadata"></a>metadatos opcionales
+# <a name="optional-metadata"></a><span data-ttu-id="49f12-196">metadatos opcionales</span><span class="sxs-lookup"><span data-stu-id="49f12-196">optional metadata</span></span>
 
-ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters
-# <a name="robots"></a>ROBOTS: 
-público: usuario de la aplicación
-# <a name="msdevlang"></a>ms.devlang: 
-ms.reviewer: twheeloc ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
-# <a name="mstgtpltfrm"></a>ms.tgt_pltfrm: 
-ms.custom: 17424 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470 ms.search.region: Global
-# <a name="mssearchindustry"></a>ms.search.industry: 
-ms.author: twheeloc ms.search.validFrom: 2016-02-28 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+<span data-ttu-id="49f12-197">ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters</span><span class="sxs-lookup"><span data-stu-id="49f12-197">ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters</span></span>
+# <a name="robots"></a><span data-ttu-id="49f12-198">ROBOTS:</span><span class="sxs-lookup"><span data-stu-id="49f12-198">ROBOTS:</span></span> 
+<span data-ttu-id="49f12-199">público: usuario de la aplicación</span><span class="sxs-lookup"><span data-stu-id="49f12-199">audience: Application User</span></span>
+# <a name="msdevlang"></a><span data-ttu-id="49f12-200">ms.devlang:</span><span class="sxs-lookup"><span data-stu-id="49f12-200">ms.devlang:</span></span> 
+<span data-ttu-id="49f12-201">ms.reviewer: twheeloc ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations</span><span class="sxs-lookup"><span data-stu-id="49f12-201">ms.reviewer: twheeloc ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations</span></span>
+# <a name="mstgtpltfrm"></a><span data-ttu-id="49f12-202">ms.tgt_pltfrm:</span><span class="sxs-lookup"><span data-stu-id="49f12-202">ms.tgt_pltfrm:</span></span> 
+<span data-ttu-id="49f12-203">ms.custom: 17424 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470 ms.search.region: Global</span><span class="sxs-lookup"><span data-stu-id="49f12-203">ms.custom: 17424 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470 ms.search.region: Global</span></span>
+# <a name="mssearchindustry"></a><span data-ttu-id="49f12-204">ms.search.industry:</span><span class="sxs-lookup"><span data-stu-id="49f12-204">ms.search.industry:</span></span> 
+<span data-ttu-id="49f12-205">ms.author: twheeloc ms.search.validFrom: 2016-02-28 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update</span><span class="sxs-lookup"><span data-stu-id="49f12-205">ms.author: twheeloc ms.search.validFrom: 2016-02-28 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update</span></span>
 
 ---
 
-# <a name="distribute-and-complete-a-questionnaire"></a>Distribuir y completar un cuestionario
+# <a name="distribute-and-complete-a-questionnaire"></a><span data-ttu-id="49f12-206">Distribuir y completar un cuestionario</span><span class="sxs-lookup"><span data-stu-id="49f12-206">Distribute and complete a questionnaire</span></span>
 
-En este tema se explica cómo distribuir los cuestionarios que diseña, de modo que estén disponibles para la persona o el grupo de personas que lo van a completar. 
+<span data-ttu-id="49f12-207">En este tema se explica cómo distribuir los cuestionarios que diseña, de modo que estén disponibles para la persona o el grupo de personas que lo van a completar.</span><span class="sxs-lookup"><span data-stu-id="49f12-207">This topic explains how distribute the questionnaires that you design, so that they are available to the person or group of people who will complete them.</span></span> 
 
-Hay varias manera de distribuir un cuestionario:
+<span data-ttu-id="49f12-208">Hay varias manera de distribuir un cuestionario:</span><span class="sxs-lookup"><span data-stu-id="49f12-208">There are multiple ways to distribute a questionnaire:</span></span>
 
--   Marcar el cuestionario como activo. El cuestionario estará entonces disponible para todos los empleados, a menos que se configure un grupo de cuestionarios para restringir el acceso al mismo.
--   Asigne derechos a un grupo de cuestionarios. El cuestionario estará entonces disponible para todos los miembros del grupo seleccionado.
--   Crear sesiones de respuestas planificadas. El cuestionario está entonces disponible solo para una persona concreta.
--   Crear una programación. El cuestionario estará entonces disponibles para varias personas.
+-   <span data-ttu-id="49f12-209">Marcar el cuestionario como activo.</span><span class="sxs-lookup"><span data-stu-id="49f12-209">Mark the questionnaire as active.</span></span> <span data-ttu-id="49f12-210">El cuestionario estará entonces disponible para todos los empleados, a menos que se configure un grupo de cuestionarios para restringir el acceso al mismo.</span><span class="sxs-lookup"><span data-stu-id="49f12-210">The questionnaire is then available to all employees, unless a questionnaire group is set up to restrict access to it.</span></span>
+-   <span data-ttu-id="49f12-211">Asigne derechos a un grupo de cuestionarios.</span><span class="sxs-lookup"><span data-stu-id="49f12-211">Assign rights to a questionnaire group.</span></span> <span data-ttu-id="49f12-212">El cuestionario estará entonces disponible para todos los miembros del grupo seleccionado.</span><span class="sxs-lookup"><span data-stu-id="49f12-212">The questionnaire is then available to all members of the selected group.</span></span>
+-   <span data-ttu-id="49f12-213">Crear sesiones de respuestas planificadas.</span><span class="sxs-lookup"><span data-stu-id="49f12-213">Create planned answer sessions.</span></span> <span data-ttu-id="49f12-214">El cuestionario está entonces disponible solo para una persona concreta.</span><span class="sxs-lookup"><span data-stu-id="49f12-214">The questionnaire is then available only to a particular person.</span></span>
+-   <span data-ttu-id="49f12-215">Crear una programación.</span><span class="sxs-lookup"><span data-stu-id="49f12-215">Create a schedule.</span></span> <span data-ttu-id="49f12-216">El cuestionario estará entonces disponibles para varias personas.</span><span class="sxs-lookup"><span data-stu-id="49f12-216">The questionnaire can then be available to multiple people.</span></span>
 
-## <a name="marking-a-questionnaire-as-active"></a>Marcar un cuestionario como activo
-Al establecer el campo **Activo** en **Sí** en la página **Cuestionarios**, pone el cuestionario a disposición de todos los empleados para que lo completen. Los encuestados pueden completar el cuestionario varias veces. Esta función resulta útil si desea recopilar comentarios continuos a lo largo del año. Por ejemplo, puede crear un cuestionario que los empleados usen para dar comentario sobre el servicio de almuerzo en la cafetería.
+## <a name="marking-a-questionnaire-as-active"></a><span data-ttu-id="49f12-217">Marcar un cuestionario como activo</span><span class="sxs-lookup"><span data-stu-id="49f12-217">Marking a questionnaire as active</span></span>
+<span data-ttu-id="49f12-218">Al establecer el campo **Activo** en **Sí** en la página **Cuestionarios**, pone el cuestionario a disposición de todos los empleados para que lo completen.</span><span class="sxs-lookup"><span data-stu-id="49f12-218">By setting the **Active** field to **Yes** on the **Questionnaires** page, you make the questionnaire available for all employees to complete.</span></span> <span data-ttu-id="49f12-219">Los encuestados pueden completar el cuestionario varias veces.</span><span class="sxs-lookup"><span data-stu-id="49f12-219">Respondents can complete the questionnaire multiple times.</span></span> <span data-ttu-id="49f12-220">Esta función resulta útil si desea recopilar comentarios continuos a lo largo del año.</span><span class="sxs-lookup"><span data-stu-id="49f12-220">This functionality is useful if you want to gather continual feedback throughout the year.</span></span> <span data-ttu-id="49f12-221">Por ejemplo, puede crear un cuestionario que los empleados usen para dar comentario sobre el servicio de almuerzo en la cafetería.</span><span class="sxs-lookup"><span data-stu-id="49f12-221">For example, you can make a questionnaire that employees use to give feedback about the lunch service in the cafeteria.</span></span>
 
-## <a name="questionnaire-groups"></a>Grupos de cuestionarios
-Puede configurar los grupos de cuestionarios e incluir a continuación a los encuestados a los que se debe distribuir un cuestionario. 
+## <a name="questionnaire-groups"></a><span data-ttu-id="49f12-222">Grupos de cuestionarios</span><span class="sxs-lookup"><span data-stu-id="49f12-222">Questionnaire groups</span></span>
+<span data-ttu-id="49f12-223">Puede configurar los grupos de cuestionarios e incluir a continuación a los encuestados a los que se debe distribuir un cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-223">You can set up questionnaire groups and then include the respondents that a questionnaire should be distributed to.</span></span> 
 
-Puede crear grupos de cuestionarios a partir de las páginas siguientes:
+<span data-ttu-id="49f12-224">Puede crear grupos de cuestionarios a partir de las páginas siguientes:</span><span class="sxs-lookup"><span data-stu-id="49f12-224">You can create questionnaire groups from the following pages:</span></span>
 
--   **Grupos de cuestionarios**: solo las personas de un grupo de cuestionarios pueden completar un cuestionario seleccionado. Por ejemplo, su público de destino son contratistas, por lo que crea un grupo de cuestionarios que sea específico para dichos encuestados.
--   **Miembros del grupo de cuestionarios**: puede agregar personas a grupos de cuestionarios.
+-   <span data-ttu-id="49f12-225">**Grupos de cuestionarios**: solo las personas de un grupo de cuestionarios pueden completar un cuestionario seleccionado.</span><span class="sxs-lookup"><span data-stu-id="49f12-225">**Questionnaire groups** – Only individuals in a questionnaire group can complete a selected questionnaire.</span></span> <span data-ttu-id="49f12-226">Por ejemplo, su público de destino son contratistas, por lo que crea un grupo de cuestionarios que sea específico para dichos encuestados.</span><span class="sxs-lookup"><span data-stu-id="49f12-226">For example, your intended audience is contractors, so you create a questionnaire group that is specific to those respondents.</span></span>
+-   <span data-ttu-id="49f12-227">**Miembros del grupo de cuestionarios**: puede agregar personas a grupos de cuestionarios.</span><span class="sxs-lookup"><span data-stu-id="49f12-227">**Questionnaire group members** – You can add people to the questionnaire groups.</span></span>
 
-Para asignar un grupo de cuestionarios a un cuestionario, en la página **Cuestionarios**, haga clic en **Derechos del usuario**. Una vez que se guarda el cuestionario como activo, los miembros del grupo de cuestionarios pueden completar el cuestionario. Esta función resulta de utilidad si desea probar un cuestionario en un grupo seleccionado de personas antes de extenderlo a un grupo mayor, o si desea que el público de un cuestionario sea muy específico.
+<span data-ttu-id="49f12-228">Para asignar un grupo de cuestionarios a un cuestionario, en la página **Cuestionarios**, haga clic en **Derechos del usuario**.</span><span class="sxs-lookup"><span data-stu-id="49f12-228">To assign a questionnaire group to a questionnaire, on the **Questionnaires** page, click **User rights**.</span></span> <span data-ttu-id="49f12-229">Una vez que se guarda el cuestionario como activo, los miembros del grupo de cuestionarios pueden completar el cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-229">After the questionnaire is saved as active, the members of the questionnaire group can complete the questionnaire.</span></span> <span data-ttu-id="49f12-230">Esta función resulta de utilidad si desea probar un cuestionario en un grupo seleccionado de personas antes de extenderlo a un grupo mayor, o si desea que el público de un cuestionario sea muy específico.</span><span class="sxs-lookup"><span data-stu-id="49f12-230">This functionality is helpful if you want to test a questionnaire on a select group of people before you roll it out to a larger group, or if you want to target a questionnaire to a very specific audience.</span></span>
 
-## <a name="planned-answer-sessions-in-a-questionnaire"></a>Sesión de respuestas planificadas en un cuestionario
-Las sesiones de respuesta planificadas son cuestionarios diseñados por usted y para las que ha seleccionado los encuestados. 
+## <a name="planned-answer-sessions-in-a-questionnaire"></a><span data-ttu-id="49f12-231">Sesión de respuestas planificadas en un cuestionario</span><span class="sxs-lookup"><span data-stu-id="49f12-231">Planned answer sessions in a questionnaire</span></span>
+<span data-ttu-id="49f12-232">Las sesiones de respuesta planificadas son cuestionarios diseñados por usted y para las que ha seleccionado los encuestados.</span><span class="sxs-lookup"><span data-stu-id="49f12-232">Planned answer sessions are questionnaires that you've designed and selected the respondents for.</span></span> 
 
-**Nota:** Para poder configurar sesiones de respuesta planificadas, debe diseñar un cuestionario. 
+<span data-ttu-id="49f12-233">**Nota:** Para poder configurar sesiones de respuesta planificadas, debe diseñar un cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-233">**Note:** Before you can set up planned answer sessions, you must design a questionnaire.</span></span> 
 
-En la página **Sesión de respuestas planificadas**, puede crear una sesión de respuestas planificadas para un empleado. La lista de la página muestra todos los cuestionarios planificados. 
+<span data-ttu-id="49f12-234">En la página **Sesión de respuestas planificadas**, puede crear una sesión de respuestas planificadas para un empleado.</span><span class="sxs-lookup"><span data-stu-id="49f12-234">On the **Planned answer session** page, you can create a planned answer session for an individual employee.</span></span> <span data-ttu-id="49f12-235">La lista de la página muestra todos los cuestionarios planificados.</span><span class="sxs-lookup"><span data-stu-id="49f12-235">The list on the page displays all planned questionnaires.</span></span> 
 
-Las sesiones de respuestas planificadas también se utilizan en la página **Programaciones de cuestionarios**, donde puede planificar cuestionarios para varias personas:
+<span data-ttu-id="49f12-236">Las sesiones de respuestas planificadas también se utilizan en la página **Programaciones de cuestionarios**, donde puede planificar cuestionarios para varias personas:</span><span class="sxs-lookup"><span data-stu-id="49f12-236">Planned answer sessions are also used on the **Questionnaire schedules** page, where you can plan questionnaires for multiple people:</span></span>
 
--   Empleados
--   Participantes en el curso
--   Unidades organizativas
+-   <span data-ttu-id="49f12-237">Empleados</span><span class="sxs-lookup"><span data-stu-id="49f12-237">Employees</span></span>
+-   <span data-ttu-id="49f12-238">Participantes en el curso</span><span class="sxs-lookup"><span data-stu-id="49f12-238">Course participants</span></span>
+-   <span data-ttu-id="49f12-239">Unidades organizativas</span><span class="sxs-lookup"><span data-stu-id="49f12-239">Organizational units</span></span>
 
-Cada persona puede responder al cuestionario solo una vez.
+<span data-ttu-id="49f12-240">Cada persona puede responder al cuestionario solo una vez.</span><span class="sxs-lookup"><span data-stu-id="49f12-240">Each person can answer the questionnaire only one time.</span></span>
 
-## <a name="scheduling-a-questionnaire"></a>Programación de un cuestionario
-Puede programar opcionalmente un cuestionario para varios encuestados.
+## <a name="scheduling-a-questionnaire"></a><span data-ttu-id="49f12-241">Programación de un cuestionario</span><span class="sxs-lookup"><span data-stu-id="49f12-241">Scheduling a questionnaire</span></span>
+<span data-ttu-id="49f12-242">Puede programar opcionalmente un cuestionario para varios encuestados.</span><span class="sxs-lookup"><span data-stu-id="49f12-242">You can optionally schedule a questionnaire for multiple respondents.</span></span>
 
-### <a name="planning-types"></a>Tipos de planificación
+### <a name="planning-types"></a><span data-ttu-id="49f12-243">Tipos de planificación</span><span class="sxs-lookup"><span data-stu-id="49f12-243">Planning types</span></span>
 
-Los tipos de planificación son obligatorios si desea programar sesiones de respuesta planificadas para varios encuestados. Los tipos de planificación se usan para clasificar las programaciones de cuestionarios. Por ejemplo, puede programar cuestionarios para los fines siguientes:
+<span data-ttu-id="49f12-244">Los tipos de planificación son obligatorios si desea programar sesiones de respuesta planificadas para varios encuestados.</span><span class="sxs-lookup"><span data-stu-id="49f12-244">Planning types are required if you want to schedule planned answer sessions for multiple respondents.</span></span> <span data-ttu-id="49f12-245">Los tipos de planificación se usan para clasificar las programaciones de cuestionarios.</span><span class="sxs-lookup"><span data-stu-id="49f12-245">Planning types are used to classify questionnaire schedules.</span></span> <span data-ttu-id="49f12-246">Por ejemplo, puede programar cuestionarios para los fines siguientes:</span><span class="sxs-lookup"><span data-stu-id="49f12-246">For example, you can schedule questionnaires for the following purposes:</span></span>
 
--   Evaluación
--   Encuesta
--   Pruebas
+-   <span data-ttu-id="49f12-247">Evaluación</span><span class="sxs-lookup"><span data-stu-id="49f12-247">Evaluation</span></span>
+-   <span data-ttu-id="49f12-248">Encuesta</span><span class="sxs-lookup"><span data-stu-id="49f12-248">Survey</span></span>
+-   <span data-ttu-id="49f12-249">Pruebas</span><span class="sxs-lookup"><span data-stu-id="49f12-249">Testing</span></span>
 
-Puede especificar los tipos de planificación para una programación de cuestionarios en la página **Programaciones de cuestionarios**.
+<span data-ttu-id="49f12-250">Puede especificar los tipos de planificación para una programación de cuestionarios en la página **Programaciones de cuestionarios**.</span><span class="sxs-lookup"><span data-stu-id="49f12-250">You can specify planning types for a questionnaire schedule on the **Questionnaire schedules** page.</span></span>
 
-### <a name="reference-types-for-questionnaire"></a>Tipos de referencia para cuestionario
+### <a name="reference-types-for-questionnaire"></a><span data-ttu-id="49f12-251">Tipos de referencia para cuestionario</span><span class="sxs-lookup"><span data-stu-id="49f12-251">Reference types for questionnaire</span></span>
 
-Puede utilizar tipos de referencia para especificar los criterios para los encuestados que podría seleccionar al programar un cuestionario. 
+<span data-ttu-id="49f12-252">Puede utilizar tipos de referencia para especificar los criterios para los encuestados que podría seleccionar al programar un cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-252">You can use reference types to enter criteria for the respondents that you might select when you schedule a questionnaire.</span></span> 
 
-Use la página **Tipos de referencia** para configurar tipos de referencia para un cuestionario. Cada tipo de referencia se corresponde con una tabla en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Al crear programaciones de cuestionarios, puede especificar los registros individuales en la tabla o un intervalo de registros con los que el cuestionario esté asociado. 
+<span data-ttu-id="49f12-253">Use la página **Tipos de referencia** para configurar tipos de referencia para un cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-253">Use the **Reference types** page to set up reference types for a questionnaire.</span></span> <span data-ttu-id="49f12-254">Cada tipo de referencia se corresponde con una tabla en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="49f12-254">Each reference type corresponds to a table in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span></span> <span data-ttu-id="49f12-255">Al crear programaciones de cuestionarios, puede especificar los registros individuales en la tabla o un intervalo de registros con los que el cuestionario esté asociado.</span><span class="sxs-lookup"><span data-stu-id="49f12-255">When you create questionnaire schedules, you can specify individual records in the table or a range of records that the questionnaire will be associated with.</span></span> 
 
-Por ejemplo, si selecciona la tabla Cursos, puede decidir para qué curso específico será el cuestionario. Al configurar un tipo de referencia para la tabla Cursos, algunos campos y botones de la página **Cursos** pueden hacerse disponibles.
+<span data-ttu-id="49f12-256">Por ejemplo, si selecciona la tabla Cursos, puede decidir para qué curso específico será el cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-256">For example, if you select the Courses table, you can decide which specific course the questionnaire will be for.</span></span> <span data-ttu-id="49f12-257">Al configurar un tipo de referencia para la tabla Cursos, algunos campos y botones de la página **Cursos** pueden hacerse disponibles.</span><span class="sxs-lookup"><span data-stu-id="49f12-257">When you set up a reference for the Courses table, some fields and buttons on the **Courses** page become available.</span></span>
 
-### <a name="questionnaire-schedules"></a>Programaciones de cuestionarios
+### <a name="questionnaire-schedules"></a><span data-ttu-id="49f12-258">Programaciones de cuestionarios</span><span class="sxs-lookup"><span data-stu-id="49f12-258">Questionnaire schedules</span></span>
 
-Puede usar programaciones del cuestionario para generar varias sesiones de respuesta planificadas para un grupo de usuarios, en función de un tipo de referencia. Cree una programación en la página **Programaciones de cuestionarios**. Seleccione el tipo de planificación para clasificar la programación, y también seleccionar el tipo de referencia que se debe usar para consultar el sistema para usuarios específicos. Por ejemplo, si establece el tipo de referencia en la tabla Cursos, puede seleccionar un curso específico en el campo **Referencia**. 
+<span data-ttu-id="49f12-259">Puede usar programaciones del cuestionario para generar varias sesiones de respuesta planificadas para un grupo de usuarios, en función de un tipo de referencia.</span><span class="sxs-lookup"><span data-stu-id="49f12-259">You can use questionnaire schedules to generate multiple planned answer sessions for a group of users, based on a reference type.</span></span> <span data-ttu-id="49f12-260">Cree una programación en la página **Programaciones de cuestionarios**.</span><span class="sxs-lookup"><span data-stu-id="49f12-260">Create a schedule on the **Questionnaire schedules** page.</span></span> <span data-ttu-id="49f12-261">Seleccione el tipo de planificación para clasificar la programación, y también seleccionar el tipo de referencia que se debe usar para consultar el sistema para usuarios específicos.</span><span class="sxs-lookup"><span data-stu-id="49f12-261">Select the planning type to categorize the schedule, and also select the reference type that should be used to query the system for specific users.</span></span> <span data-ttu-id="49f12-262">Por ejemplo, si establece el tipo de referencia en la tabla Cursos, puede seleccionar un curso específico en el campo **Referencia**.</span><span class="sxs-lookup"><span data-stu-id="49f12-262">For example, if you set the reference type to the Courses table, you can select a specific course in the **Reference** field.</span></span> 
 
-Haga clic en **Detalles de configuración** para seleccionar el cuestionario y otros criterios. Por ejemplo, especifique el nombre del instructor como criterio si el cuestionario es una evaluación del instructor. Una vez que haya terminado de especificar los detalles de la configuración, el sistema genera sesiones de respuestas planificadas para los usuarios que se incluyen en la consulta. 
+<span data-ttu-id="49f12-263">Haga clic en **Detalles de configuración** para seleccionar el cuestionario y otros criterios.</span><span class="sxs-lookup"><span data-stu-id="49f12-263">Click **Setup details** to select the questionnaire and other criteria.</span></span> <span data-ttu-id="49f12-264">Por ejemplo, especifique el nombre del instructor como criterio si el cuestionario es una evaluación del instructor.</span><span class="sxs-lookup"><span data-stu-id="49f12-264">For example, specify the instructor's name as a criterion if the questionnaire is an evaluation of the instructor.</span></span> <span data-ttu-id="49f12-265">Una vez que haya terminado de especificar los detalles de la configuración, el sistema genera sesiones de respuestas planificadas para los usuarios que se incluyen en la consulta.</span><span class="sxs-lookup"><span data-stu-id="49f12-265">After you've finished entering the setup details, the system generates planned answer sessions for the users that are included in the query.</span></span> 
 
-Haga clic en **Sesiones de respuestas planificadas** para ver las sesiones de respuesta para la programación. A continuación, puede crear manualmente sesiones de respuestas planificadas adicionales o eliminar sesiones de respuestas planificadas que no se han respondido. 
+<span data-ttu-id="49f12-266">Haga clic en **Sesiones de respuestas planificadas** para ver las sesiones de respuesta para la programación.</span><span class="sxs-lookup"><span data-stu-id="49f12-266">Click **Planned answer sessions** to view the answer sessions for the schedule.</span></span> <span data-ttu-id="49f12-267">A continuación, puede crear manualmente sesiones de respuestas planificadas adicionales o eliminar sesiones de respuestas planificadas que no se han respondido.</span><span class="sxs-lookup"><span data-stu-id="49f12-267">You can then manually create additional planned answer sessions or delete planned answer sessions that haven't been answered.</span></span> 
 
-Haga clic en **Funciones** &gt; **Iniciar** para que el cuestionario esté disponible para los usuarios en sesiones de respuestas planificadas relacionadas. Haga clic en **Respuestas** para ver las respuestas completadas para el cuestionario. Puede copiar opcionalmente la configuración de la programación de cuestionarios, las sesiones de respuestas planificadas y las respuestas a una nueva programación de cuestionarios.
+<span data-ttu-id="49f12-268">Haga clic en **Funciones** &gt; **Iniciar** para que el cuestionario esté disponible para los usuarios en sesiones de respuestas planificadas relacionadas.</span><span class="sxs-lookup"><span data-stu-id="49f12-268">Click **Functions** &gt; **Start** to make the questionnaire available to the users in related planned answer sessions.</span></span> <span data-ttu-id="49f12-269">Haga clic en **Respuestas** para ver las respuestas completadas para el cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-269">Click **Answers** to view the completed responses to the questionnaire.</span></span> <span data-ttu-id="49f12-270">Puede copiar opcionalmente la configuración de la programación de cuestionarios, las sesiones de respuestas planificadas y las respuestas a una nueva programación de cuestionarios.</span><span class="sxs-lookup"><span data-stu-id="49f12-270">You can optionally copy the questionnaire schedule settings, planned answer sessions, and answers to a new questionnaire schedule.</span></span>
 
-## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Notificación de los encuestados sobre los cuestionarios que tienen a su disposición
-Al distribuir un cuestionario, debe notificar a los encuestados que tienen los cuestionarios a su disposición. 
+## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a><span data-ttu-id="49f12-271">Notificación de los encuestados sobre los cuestionarios que tienen a su disposición</span><span class="sxs-lookup"><span data-stu-id="49f12-271">Notifying respondents about questionnaires that are available to them</span></span>
+<span data-ttu-id="49f12-272">Al distribuir un cuestionario, debe notificar a los encuestados que tienen los cuestionarios a su disposición.</span><span class="sxs-lookup"><span data-stu-id="49f12-272">When you distribute a questionnaire, you must notify respondents that questionnaires are available to them.</span></span> 
 
-**Nota:** los encuestados deben ser usuarios de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, para completar un cuestionario.
+<span data-ttu-id="49f12-273">**Nota:** los encuestados deben ser usuarios de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, para completar un cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-273">**Note:** Respondents must be users in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition to complete a questionnaire.</span></span>
 
-### <a name="notifying-respondents-about-a-planned-answer-session"></a>Notificación de los encuestados acerca de una sesión de respuestas planificadas
+### <a name="notifying-respondents-about-a-planned-answer-session"></a><span data-ttu-id="49f12-274">Notificación de los encuestados acerca de una sesión de respuestas planificadas</span><span class="sxs-lookup"><span data-stu-id="49f12-274">Notifying respondents about a planned answer session</span></span>
 
-Si usa una sesión de respuestas planificadas, debe notificar a la persona directamente, por ejemplo, por teléfono o correo electrónico.
+<span data-ttu-id="49f12-275">Si usa una sesión de respuestas planificadas, debe notificar a la persona directamente, por ejemplo, por teléfono o correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="49f12-275">If you use a planned answer session, you must notify the person directly, such as by telephone or email.</span></span>
 
-### <a name="notifying-respondents-about-a-scheduling"></a>Notificación de los encuestados acerca de una programación
+### <a name="notifying-respondents-about-a-scheduling"></a><span data-ttu-id="49f12-276">Notificación de los encuestados acerca de una programación</span><span class="sxs-lookup"><span data-stu-id="49f12-276">Notifying respondents about a scheduling</span></span>
 
-Use la página **Programaciones de cuestionarios** para preparar y enviar correo electrónico a todos los encuestados asignados al cuestionario. Escriba el texto de correo electrónico en la pestaña **Correo electrónico para autoservicio de empleados**. Una vez que se ha iniciado la programación, haga clic en **Funciones** &gt; **Enviar correo electrónico** generar y enviar el correo electrónico a los encuestados. A continuación, los encuestados pueden iniciar sesión en el sitio Web y completar el cuestionario. 
+<span data-ttu-id="49f12-277">Use la página **Programaciones de cuestionarios** para preparar y enviar correo electrónico a todos los encuestados asignados al cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-277">Use the **Questionnaire schedules** page to prepare and send email to all respondents who are assigned to the questionnaire.</span></span> <span data-ttu-id="49f12-278">Escriba el texto de correo electrónico en la pestaña **Correo electrónico para autoservicio de empleados**.</span><span class="sxs-lookup"><span data-stu-id="49f12-278">Enter the email text on the **E-mail for employee self service** tab.</span></span> <span data-ttu-id="49f12-279">Una vez que se ha iniciado la programación, haga clic en **Funciones** &gt; **Enviar correo electrónico** generar y enviar el correo electrónico a los encuestados.</span><span class="sxs-lookup"><span data-stu-id="49f12-279">After the schedule has been started, click **Functions** &gt; **Send e-mail** to generate and send the email to the respondents.</span></span> <span data-ttu-id="49f12-280">A continuación, los encuestados pueden iniciar sesión en el sitio Web y completar el cuestionario.</span><span class="sxs-lookup"><span data-stu-id="49f12-280">Respondents can then sign in to the website and complete the questionnaire.</span></span> 
 
-**Nota:** Para poder usar la función de correo electrónico, el administrador de TI debe especificar la configuración de correo electrónico en la página **Parámetros del correo electrónico**.
+<span data-ttu-id="49f12-281">**Nota:** Para poder usar la función de correo electrónico, el administrador de TI debe especificar la configuración de correo electrónico en la página **Parámetros del correo electrónico**.</span><span class="sxs-lookup"><span data-stu-id="49f12-281">**Note:** Before you can use the email functionality, your IT administrator must enter the email settings on the **E-mail parameters** page.</span></span>
 
-## <a name="ending-a-scheduled-questionnaire"></a>Finalización de un cuestionario programado
-Puede finalizar un cuestionario programado una vez que todas las personas que respondan al mismo hayan completado las sesiones de preguntas que les hayan sido asignadas. Cuando finaliza un cuestionario programado, no puede copiar su configuración en una programación nueva. 
+## <a name="ending-a-scheduled-questionnaire"></a><span data-ttu-id="49f12-282">Finalización de un cuestionario programado</span><span class="sxs-lookup"><span data-stu-id="49f12-282">Ending a scheduled questionnaire</span></span>
+<span data-ttu-id="49f12-283">Puede finalizar un cuestionario programado una vez que todas las personas que respondan al mismo hayan completado las sesiones de preguntas que les hayan sido asignadas.</span><span class="sxs-lookup"><span data-stu-id="49f12-283">You can end a scheduled questionnaire after all respondents have completed their assigned answer sessions.</span></span> <span data-ttu-id="49f12-284">Cuando finaliza un cuestionario programado, no puede copiar su configuración en una programación nueva.</span><span class="sxs-lookup"><span data-stu-id="49f12-284">After a scheduled questionnaire is ended, you can't copy its settings to a new schedule.</span></span> 
 
-**Note:** Si una o varias de los encuestados no han completado el cuestionario, pero aún así desea finalizar la programación, antes deberá eliminar a esos encuestados de la lista en la página **Sesión de respuestas planificadas**. A continuación, puede finalizar la programación.
+<span data-ttu-id="49f12-285">**Note:** Si una o varias de los encuestados no han completado el cuestionario, pero aún así desea finalizar la programación, antes deberá eliminar a esos encuestados de la lista en la página **Sesión de respuestas planificadas**.</span><span class="sxs-lookup"><span data-stu-id="49f12-285">**Note:** If one or more respondents haven't completed the questionnaire, but you still want to end the scheduling, you must first delete those respondents from the list on the **Planned answer session** page.</span></span> <span data-ttu-id="49f12-286">A continuación, puede finalizar la programación.</span><span class="sxs-lookup"><span data-stu-id="49f12-286">You can then end the schedule.</span></span>
 
-## <a name="completing-questionnaires"></a>Completando cuestionarios
-Una vez que haya diseñado y haya distribuido un cuestionario, los encuestados seleccionados lo pueden completar. Puede completar los cuestionarios a su disposición desde dos ubicaciones:
+## <a name="completing-questionnaires"></a><span data-ttu-id="49f12-287">Completando cuestionarios</span><span class="sxs-lookup"><span data-stu-id="49f12-287">Completing questionnaires</span></span>
+<span data-ttu-id="49f12-288">Una vez que haya diseñado y haya distribuido un cuestionario, los encuestados seleccionados lo pueden completar.</span><span class="sxs-lookup"><span data-stu-id="49f12-288">After you've designed and distributed a questionnaire, the questionnaire can be completed by selected respondents.</span></span> <span data-ttu-id="49f12-289">Puede completar los cuestionarios a su disposición desde dos ubicaciones:</span><span class="sxs-lookup"><span data-stu-id="49f12-289">You can complete the questionnaires that are available to you from two locations:</span></span>
 
--   En el panel de navegación, haga clic en **Cuestionarios** &gt; **Distribuir** &gt; **Completar un cuestionario**.
--   En Autoservicio para empleados, haga clic en **Cuestionarios que deben completarse**.
+-   <span data-ttu-id="49f12-290">En el panel de navegación, haga clic en **Cuestionarios** &gt; **Distribuir** &gt; **Completar un cuestionario**.</span><span class="sxs-lookup"><span data-stu-id="49f12-290">In the navigation pane, click **Questionnaires** &gt; **Distribute** &gt; **Complete a questionnaire**.</span></span>
+-   <span data-ttu-id="49f12-291">En Autoservicio para empleados, haga clic en **Cuestionarios que deben completarse**.</span><span class="sxs-lookup"><span data-stu-id="49f12-291">In Employee self-service, click **Questionnaires to complete**.</span></span>
 
-Los cuestionarios se pueden poner a disposición de usuarios o grupos de usuarios específicos, o de todos los usuarios conectados a una red.
+<span data-ttu-id="49f12-292">Los cuestionarios se pueden poner a disposición de usuarios o grupos de usuarios específicos, o de todos los usuarios conectados a una red.</span><span class="sxs-lookup"><span data-stu-id="49f12-292">Questionnaires can made be available to specific users or groups of users, or to all users in a network.</span></span>
 
-<a name="see-also"></a>Consulte también
+<a name="see-also"></a><span data-ttu-id="49f12-293">Consulte también</span><span class="sxs-lookup"><span data-stu-id="49f12-293">See also</span></span>
 --------
 
-[Diseñar cuestionarios](design-questionnaires.md)
+[<span data-ttu-id="49f12-294">Diseñar cuestionarios</span><span class="sxs-lookup"><span data-stu-id="49f12-294">Designing questionnaires</span></span>](design-questionnaires.md)
 
-[Uso de cuestionarios](questionnaires.md)
+[<span data-ttu-id="49f12-295">Uso de cuestionarios</span><span class="sxs-lookup"><span data-stu-id="49f12-295">Using questionnaires</span></span>](questionnaires.md)
 
-[Visualización y evaluación de los resultados de cuestionarios](evaluate-questionnaire-results.md)
+[<span data-ttu-id="49f12-296">Visualización y evaluación de los resultados de cuestionarios</span><span class="sxs-lookup"><span data-stu-id="49f12-296">Viewing and evaluating the results of questionnaires</span></span>](evaluate-questionnaire-results.md)
 
-maestro
+<span data-ttu-id="49f12-297">maestro</span><span class="sxs-lookup"><span data-stu-id="49f12-297">master</span></span>
 

@@ -16,53 +16,53 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 3b050d47910c146b9691e7aae5b4a1a847ce716e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6331c3680169b305c4bfbfada4ba106b619be092
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-collection-letter-sequence"></a>Crear una secuencia de cartas de cobro
+# <a name="create-a-collection-letter-sequence"></a><span data-ttu-id="33a90-103">Crear una secuencia de cartas de cobro</span><span class="sxs-lookup"><span data-stu-id="33a90-103">Create a collection letter sequence</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Use esta guía de tarea para crear una secuencia de cartas de cobro. Esta tarea usa la empresa de demostración USMF.
+<span data-ttu-id="33a90-104">Use esta guía de tarea para crear una secuencia de cartas de cobro.</span><span class="sxs-lookup"><span data-stu-id="33a90-104">Use this task guide to create a collection letter sequence.</span></span> <span data-ttu-id="33a90-105">Esta tarea usa la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="33a90-105">This task uses the USMF demo company.</span></span>
 
-1. Vaya a Crédito y cobros > Configuración > Configurar secuencia de cartas de cobro.
-2. Haga clic en Nuevo.
-3. En el campo Secuencia de la carta de cobro, especifique un identificador de secuencia que represente la secuencia. Se usará cuando se configure un perfil de contabilización.
-4. En el campo Descripción, escriba un valor.
-    * Las condiciones de pago son opcionales. Si especifica un valor aquí, la factura de la cuota de la carta de cobro usará estas condiciones de pago, en lugar de las condiciones de pago almacenadas con el cliente.  
-5. En el campo del código de carta de cobro, seleccione el código para la primera carta de cobro que desee enviar.
-    * La primera carta de cobro se crea de acuerdo con la fecha de vencimiento que figura en la factura, el valor especificado para el período de gracia en el campo Días en esta línea y otra información indicada en esta línea.  
-6. En el campo Descripción, escriba un valor.
-    * La divisa de la cuota se establecerá por defecto en la divisa del cliente. Este código de divisa puede ser diferente de la divisa de la factura.  
-7. Haga clic en Agregar para agregar la siguiente carta de cobro que se enviará en la secuencia.
-    * En muchos casos, la primera carta de cobro es solo una advertencia. Puede agregar cuotas si es necesario.  
-8. En el campo del código de carta de cobro, seleccione la siguiente carta de cobro que se enviará en la secuencia.
-9. En el campo Descripción, escriba un valor.
-10. En el campo de la cuenta principal, seleccione la cuenta de ingresos que se usará para las cuotas.
-11. Especifique la cuota que se cobrará cuando se registre esta carta de cobro.
-12. En el campo Grupo de impuestos de artículos, haga clic en el botón desplegable para abrir la búsqueda.
-    * Seleccione un grupo de impuestos de artículo si se deben calcular impuestos en la cuota.  
-13. En la lista, haga clic en el vínculo de la fila seleccionada.
-14. Escriba el saldo vencido mínimo necesario antes de enviar una carta de cobro.
-15. Escriba el número de días de gracia que se permitirán.
-    * Este es el número de días después de la fecha de vencimiento en el que se puede generar una carta de cobro. La fecha de vencimiento que se usa para el cálculo depende del puesto de la carta de cobro en la secuencia de cartas de cobro:  ⦁  El período de gracia para la carta de cobro 1 es relativo a la fecha de vencimiento de la factura.  ⦁ El período de gracia para las cartas de cobro 2 y superiores depende de la fecha en que la carta de cobro anterior se haya registrado o impreso, en función de la selección en el campo Actualizar código de carta de cobro en la página Parámetros de clientes.  
-16. Haga clic en Agregar para agregar la última carta de cobro en la secuencia.
-    * Puede agregar hasta cinco códigos de cartas de cobro para la secuencia de la carta de cobro.  
-17. En el campo del código de carta de cobro, seleccione la siguiente carta de cobro que se enviará en la secuencia.
-18. En el campo Descripción, escriba un valor.
-19. En el campo Cuenta principal, especifique los valores deseados.
-20. En el campo Cuota en divisa, escriba un número.
-21. En el campo Grupo de impuestos de artículos, haga clic en el botón desplegable para abrir la búsqueda.
-22. En la lista, haga clic en el vínculo de la fila seleccionada.
-23. Especifique un número en el campo Saldo vencido mínimo.
-24. En el campo Días, especifique un número.
-25. Seleccione esta casilla de verificación para detener otras entregas y facturas adicionales por parte del cliente.
-    * Para desbloquear la cuenta, seleccione No en el campo Facturación y entrega en espera en la página Clientes.  
-26. Expanda la ficha desplegable Nota.
-27. Especifique el texto tal como desea que aparezca en la carta de cobro para el código de carta de cobro seleccionado.
-    * Puede traducir este texto a varios idiomas mediante el menú Traducciones encima del cuadro de nota.  
+1. <span data-ttu-id="33a90-106">Vaya a Crédito y cobros > Configuración > Configurar secuencia de cartas de cobro.</span><span class="sxs-lookup"><span data-stu-id="33a90-106">Go to Credit and collections > Setup > Set up collection letter sequence.</span></span>
+2. <span data-ttu-id="33a90-107">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="33a90-107">Click New.</span></span>
+3. <span data-ttu-id="33a90-108">En el campo Secuencia de la carta de cobro, especifique un identificador de secuencia que represente la secuencia.</span><span class="sxs-lookup"><span data-stu-id="33a90-108">In the Collection letter sequence field, enter a sequence ID that will represent the sequence.</span></span> <span data-ttu-id="33a90-109">Se usará cuando se configure un perfil de contabilización.</span><span class="sxs-lookup"><span data-stu-id="33a90-109">It will be used when you set up a posting profile.</span></span>
+4. <span data-ttu-id="33a90-110">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="33a90-110">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="33a90-111">Las condiciones de pago son opcionales.</span><span class="sxs-lookup"><span data-stu-id="33a90-111">The terms of payment is optional.</span></span> <span data-ttu-id="33a90-112">Si especifica un valor aquí, la factura de la cuota de la carta de cobro usará estas condiciones de pago, en lugar de las condiciones de pago almacenadas con el cliente.</span><span class="sxs-lookup"><span data-stu-id="33a90-112">If you enter a value here, the collection letter fee invoice will use these terms of payment instead of the terms of payment stored with the customer.</span></span>  
+5. <span data-ttu-id="33a90-113">En el campo del código de carta de cobro, seleccione el código para la primera carta de cobro que desee enviar.</span><span class="sxs-lookup"><span data-stu-id="33a90-113">In the collection letter code field, select the code for the first collection letter that you want to send.</span></span>
+    * <span data-ttu-id="33a90-114">La primera carta de cobro se crea de acuerdo con la fecha de vencimiento que figura en la factura, el valor especificado para el período de gracia en el campo Días en esta línea y otra información indicada en esta línea.</span><span class="sxs-lookup"><span data-stu-id="33a90-114">The first collection letter is created according to the due date on the invoice, the value that you enter for the grace period in the Days field on this line, and other information that you enter on this line.</span></span>  
+6. <span data-ttu-id="33a90-115">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="33a90-115">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="33a90-116">La divisa de la cuota se establecerá por defecto en la divisa del cliente.</span><span class="sxs-lookup"><span data-stu-id="33a90-116">The currency for the fee defaults to the customer currency.</span></span> <span data-ttu-id="33a90-117">Este código de divisa puede ser diferente de la divisa de la factura.</span><span class="sxs-lookup"><span data-stu-id="33a90-117">This currency code can be different than the invoice currency.</span></span>  
+7. <span data-ttu-id="33a90-118">Haga clic en Agregar para agregar la siguiente carta de cobro que se enviará en la secuencia.</span><span class="sxs-lookup"><span data-stu-id="33a90-118">Click Add to add the next collection letter that will be sent in the sequence</span></span>
+    * <span data-ttu-id="33a90-119">En muchos casos, la primera carta de cobro es solo una advertencia.</span><span class="sxs-lookup"><span data-stu-id="33a90-119">In many cases, the first collection letter is just a warning.</span></span> <span data-ttu-id="33a90-120">Puede agregar cuotas si es necesario.</span><span class="sxs-lookup"><span data-stu-id="33a90-120">You can add fees if needed.</span></span>  
+8. <span data-ttu-id="33a90-121">En el campo del código de carta de cobro, seleccione la siguiente carta de cobro que se enviará en la secuencia.</span><span class="sxs-lookup"><span data-stu-id="33a90-121">In the collection letter code field, select the next collection letter that will be sent in the sequence.</span></span>
+9. <span data-ttu-id="33a90-122">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="33a90-122">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="33a90-123">En el campo de la cuenta principal, seleccione la cuenta de ingresos que se usará para las cuotas.</span><span class="sxs-lookup"><span data-stu-id="33a90-123">In the main account field, select the revenue account that will be used for fees.</span></span>
+11. <span data-ttu-id="33a90-124">Especifique la cuota que se cobrará cuando se registre esta carta de cobro.</span><span class="sxs-lookup"><span data-stu-id="33a90-124">Enter the fee that will be charged when this collection letter is posted.</span></span>
+12. <span data-ttu-id="33a90-125">En el campo Grupo de impuestos de artículos, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="33a90-125">In the Item sales tax group field, click the drop down button to open the lookup.</span></span>
+    * <span data-ttu-id="33a90-126">Seleccione un grupo de impuestos de artículo si se deben calcular impuestos en la cuota.</span><span class="sxs-lookup"><span data-stu-id="33a90-126">Select an item sales tax group if sales taxes must be calculated on the fee.</span></span>  
+13. <span data-ttu-id="33a90-127">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="33a90-127">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="33a90-128">Escriba el saldo vencido mínimo necesario antes de enviar una carta de cobro.</span><span class="sxs-lookup"><span data-stu-id="33a90-128">Enter the minimum overdue balance required before a collection letter is sent.</span></span>
+15. <span data-ttu-id="33a90-129">Escriba el número de días de gracia que se permitirán.</span><span class="sxs-lookup"><span data-stu-id="33a90-129">Enter the number of grace days that you will allow.</span></span>
+    * <span data-ttu-id="33a90-130">Este es el número de días después de la fecha de vencimiento en el que se puede generar una carta de cobro.</span><span class="sxs-lookup"><span data-stu-id="33a90-130">This is the number of days after the due date that a collection letter can be generated.</span></span> <span data-ttu-id="33a90-131">La fecha de vencimiento que se usa para el cálculo depende del puesto de la carta de cobro en la secuencia de cartas de cobro:  ⦁  El período de gracia para la carta de cobro 1 es relativo a la fecha de vencimiento de la factura.</span><span class="sxs-lookup"><span data-stu-id="33a90-131">The due date that is used for the calculation depends on the position of the collection letter in the collection letter sequence:   ⦁    The grace period for collection letter 1 is relative to the due date on the invoice.</span></span>  <span data-ttu-id="33a90-132">⦁ El período de gracia para las cartas de cobro 2 y superiores depende de la fecha en que la carta de cobro anterior se haya registrado o impreso, en función de la selección en el campo Actualizar código de carta de cobro en la página Parámetros de clientes.</span><span class="sxs-lookup"><span data-stu-id="33a90-132">⦁ The grace period for collection letters 2 and higher is relative to the date that the previous collection letter is posted or printed, depending on the selection in the Update collection letter code field in the Accounts receivable parameters page.</span></span>  
+16. <span data-ttu-id="33a90-133">Haga clic en Agregar para agregar la última carta de cobro en la secuencia.</span><span class="sxs-lookup"><span data-stu-id="33a90-133">Click Add to add the last collection letter in the sequence.</span></span>
+    * <span data-ttu-id="33a90-134">Puede agregar hasta cinco códigos de cartas de cobro para la secuencia de la carta de cobro.</span><span class="sxs-lookup"><span data-stu-id="33a90-134">You can add up to five collection letter codes for a collection letter sequence.</span></span>  
+17. <span data-ttu-id="33a90-135">En el campo del código de carta de cobro, seleccione la siguiente carta de cobro que se enviará en la secuencia.</span><span class="sxs-lookup"><span data-stu-id="33a90-135">In the collection letter code field, select the next collection letter that will be sent in the sequence.</span></span>
+18. <span data-ttu-id="33a90-136">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="33a90-136">In the Description field, type a value.</span></span>
+19. <span data-ttu-id="33a90-137">En el campo Cuenta principal, especifique los valores deseados.</span><span class="sxs-lookup"><span data-stu-id="33a90-137">In the Main account field, specify the desired values.</span></span>
+20. <span data-ttu-id="33a90-138">En el campo Cuota en divisa, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="33a90-138">In the Fee in currency field, enter a number.</span></span>
+21. <span data-ttu-id="33a90-139">En el campo Grupo de impuestos de artículos, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="33a90-139">In the Item sales tax group field, click the drop-down button to open the lookup.</span></span>
+22. <span data-ttu-id="33a90-140">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="33a90-140">In the list, click the link in the selected row.</span></span>
+23. <span data-ttu-id="33a90-141">Especifique un número en el campo Saldo vencido mínimo.</span><span class="sxs-lookup"><span data-stu-id="33a90-141">In the Minimum overdue balance field, enter a number.</span></span>
+24. <span data-ttu-id="33a90-142">En el campo Días, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="33a90-142">In the Days field, enter a number.</span></span>
+25. <span data-ttu-id="33a90-143">Seleccione esta casilla de verificación para detener otras entregas y facturas adicionales por parte del cliente.</span><span class="sxs-lookup"><span data-stu-id="33a90-143">Select this check box to stop the customer from additional deliveries and invoicing.</span></span>
+    * <span data-ttu-id="33a90-144">Para desbloquear la cuenta, seleccione No en el campo Facturación y entrega en espera en la página Clientes.</span><span class="sxs-lookup"><span data-stu-id="33a90-144">To unblock the account, select No in the Invoicing and delivery on hold field in the Customers page.</span></span>  
+26. <span data-ttu-id="33a90-145">Expanda la ficha desplegable Nota.</span><span class="sxs-lookup"><span data-stu-id="33a90-145">Expand the Note fasttab.</span></span>
+27. <span data-ttu-id="33a90-146">Especifique el texto tal como desea que aparezca en la carta de cobro para el código de carta de cobro seleccionado.</span><span class="sxs-lookup"><span data-stu-id="33a90-146">Enter the text to appear on the collection letter for the selected collection letter code.</span></span>
+    * <span data-ttu-id="33a90-147">Puede traducir este texto a varios idiomas mediante el menú Traducciones encima del cuadro de nota.</span><span class="sxs-lookup"><span data-stu-id="33a90-147">You can translate this text in to multiple languages using the Translations menu above the note box.</span></span>  
 
 

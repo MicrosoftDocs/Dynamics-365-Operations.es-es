@@ -18,22 +18,22 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4b03825057c4b42781043f15c067bdb520addc2e
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 64bce1e23ef929793c0c838978d9eb646551a048
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="accounts-payable-home-page"></a>Página principal de proveedores
+# <a name="accounts-payable-home-page"></a><span data-ttu-id="6cd84-103">Página principal de proveedores</span><span class="sxs-lookup"><span data-stu-id="6cd84-103">Accounts payable home page</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este tema proporciona una visión general de los proveedores. 
+<span data-ttu-id="6cd84-104">Este tema proporciona una visión general de los proveedores.</span><span class="sxs-lookup"><span data-stu-id="6cd84-104">This topic provides an overview of Accounts payable.</span></span> 
 
-Puede especificar facturas de proveedor manualmente o recibirlas electrónicamente a través de una entidad de datos. Después de que las facturas se especifican o se reciben, puede revisar y aprobar las facturas mediante un diario de aprobación de facturas o la página **Factura de proveedor**. Puede usar la conciliación de facturas, las directivas de facturas de proveedor y el flujo de trabajo para automatizar el proceso de revisión de manera que las facturas que cumplan determinados criterios se aprueben automáticamente y las facturas restantes se marquen para revisión por parte de un usuario autorizado.
+<span data-ttu-id="6cd84-105">Puede especificar facturas de proveedor manualmente o recibirlas electrónicamente a través de una entidad de datos.</span><span class="sxs-lookup"><span data-stu-id="6cd84-105">You can enter vendor invoices manually or receive them electronically through a data entity.</span></span> <span data-ttu-id="6cd84-106">Después de que las facturas se especifican o se reciben, puede revisar y aprobar las facturas mediante un diario de aprobación de facturas o la página **Factura de proveedor**.</span><span class="sxs-lookup"><span data-stu-id="6cd84-106">After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the **Vendor invoice** page.</span></span> <span data-ttu-id="6cd84-107">Puede usar la conciliación de facturas, las directivas de facturas de proveedor y el flujo de trabajo para automatizar el proceso de revisión de manera que las facturas que cumplan determinados criterios se aprueben automáticamente y las facturas restantes se marquen para revisión por parte de un usuario autorizado.</span><span class="sxs-lookup"><span data-stu-id="6cd84-107">You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</span></span>
 
 
 

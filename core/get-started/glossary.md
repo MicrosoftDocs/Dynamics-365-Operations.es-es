@@ -18,637 +18,637 @@ ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 84ee9110fa32a551133a6ab4b7c6feb9ea9c017a
-ms.openlocfilehash: 0b4d5285cc1aa44da566ec5d7fa7ebe568729fdf
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 04f47b838bb5ca0d22f36855c3a969d4c38430de
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="finance-and-operations-glossary"></a>Glosario de Finance and Operations
+# <a name="finance-and-operations-glossary"></a><span data-ttu-id="54904-103">Glosario de Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="54904-103">Finance and Operations glossary</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-En este glosario se definen términos y conceptos clave de Microsoft Dynamics 365 for Finance and Operations, edición Enterprise. 
+<span data-ttu-id="54904-104">En este glosario se definen términos y conceptos clave de Microsoft Dynamics 365 for Finance and Operations, edición Enterprise.</span><span class="sxs-lookup"><span data-stu-id="54904-104">This glossary defines key terms and concepts in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
 
-### <a name="a"></a>**A**
+### <a name="a"></a><span data-ttu-id="54904-105">**A**</span><span class="sxs-lookup"><span data-stu-id="54904-105">**A**</span></span>
 
-###### <a name="accounting-journal"></a>**diario de contabilidad**
+###### <a name="accounting-journal"></a><span data-ttu-id="54904-106">**diario de contabilidad**</span><span class="sxs-lookup"><span data-stu-id="54904-106">**accounting journal**</span></span>
 
-Diario utilizado para registrar las consecuencias financieras de eventos de contabilidad en un sistema contable.
+<span data-ttu-id="54904-107">Diario utilizado para registrar las consecuencias financieras de eventos de contabilidad en un sistema contable.</span><span class="sxs-lookup"><span data-stu-id="54904-107">A journal that is used to record the financial consequences of accounting events in an accounting system.</span></span>
 
-###### <a name="accounting-rule"></a>**regla de contabilidad**
+###### <a name="accounting-rule"></a><span data-ttu-id="54904-108">**regla de contabilidad**</span><span class="sxs-lookup"><span data-stu-id="54904-108">**accounting rule**</span></span>
 
-Regla de un sistema contable que controla los principios, métodos y procedimientos para clasificar, registrar y notificar las consecuencias financieras de los eventos de contabilidad.
+<span data-ttu-id="54904-109">Regla de un sistema contable que controla los principios, métodos y procedimientos para clasificar, registrar y notificar las consecuencias financieras de los eventos de contabilidad.</span><span class="sxs-lookup"><span data-stu-id="54904-109">A rule in an accounting system that controls the principles, methods, and procedures for classifying, recording, and reporting the financial consequences of accounting events.</span></span>
 
-###### <a name="ach-automated-clearing-house"></a>**ACH (Cámara de compensación automática)**
+###### <a name="ach-automated-clearing-house"></a><span data-ttu-id="54904-110">**ACH (Cámara de compensación automática)**</span><span class="sxs-lookup"><span data-stu-id="54904-110">**ACH (Automated Clearing House)**</span></span>
 
-Sistema de transferencia electrónica de fondos disponible en Estados Unidos que facilita la transferencia de fondos entre las cuentas bancarias de la parte receptora y la parte de origen.
+<span data-ttu-id="54904-111">Sistema de transferencia electrónica de fondos disponible en Estados Unidos que facilita la transferencia de fondos entre las cuentas bancarias de la parte receptora y la parte de origen.</span><span class="sxs-lookup"><span data-stu-id="54904-111">An electronic funds transfer system available in the United States that facilitates the transfer of funds between receiving party and originating party bank accounts.</span></span>
 
-###### <a name="actual-quantity"></a>**cantidad real**
+###### <a name="actual-quantity"></a><span data-ttu-id="54904-112">**cantidad real**</span><span class="sxs-lookup"><span data-stu-id="54904-112">**actual quantity**</span></span>
 
-Cantidad medida que se aplica a una actividad o que se obtiene de esta.
+<span data-ttu-id="54904-113">Cantidad medida que se aplica a una actividad o que se obtiene de esta.</span><span class="sxs-lookup"><span data-stu-id="54904-113">The measured quantity that is input into or output from an activity.</span></span>
 
-###### <a name="address-verification"></a>**verificación de direcciones**
+###### <a name="address-verification"></a><span data-ttu-id="54904-114">**verificación de direcciones**</span><span class="sxs-lookup"><span data-stu-id="54904-114">**address verification**</span></span>
 
-Este servicio lo presta un procesador de tarjetas de crédito que valida que la dirección de facturación facilitada por el titular de una tarjeta coincida con la información del archivo del banco emisor.
+<span data-ttu-id="54904-115">Este servicio lo presta un procesador de tarjetas de crédito que valida que la dirección de facturación facilitada por el titular de una tarjeta coincida con la información del archivo del banco emisor.</span><span class="sxs-lookup"><span data-stu-id="54904-115">The service that is provided by a credit card processor that validates that the billing address provided by a card holder matches the information on file with the issuing bank.</span></span>
 
-###### <a name="aging"></a>**vencimiento**
+###### <a name="aging"></a><span data-ttu-id="54904-116">**vencimiento**</span><span class="sxs-lookup"><span data-stu-id="54904-116">**aging**</span></span>
 
-Proceso de clasificar períodos de tiempo por antigüedad.
+<span data-ttu-id="54904-117">Proceso de clasificar períodos de tiempo por antigüedad.</span><span class="sxs-lookup"><span data-stu-id="54904-117">The process of classifying time periods by age.</span></span>
 
-###### <a name="aging-period"></a>**período de vencimiento**
+###### <a name="aging-period"></a><span data-ttu-id="54904-118">**período de vencimiento**</span><span class="sxs-lookup"><span data-stu-id="54904-118">**aging period**</span></span>
 
-Número de días de un período de tiempo utilizado para notificar que el saldo de pago del cliente ha vencido.
+<span data-ttu-id="54904-119">Número de días de un período de tiempo utilizado para notificar que el saldo de pago del cliente ha vencido.</span><span class="sxs-lookup"><span data-stu-id="54904-119">The number of days in a time period used to report an overdue customer payment balance.</span></span>
 
-### <a name="b"></a>**B**
+### <a name="b"></a><span data-ttu-id="54904-120">**B**</span><span class="sxs-lookup"><span data-stu-id="54904-120">**B**</span></span>
 
-###### <a name="balance-sheet"></a>**balance de situación**
+###### <a name="balance-sheet"></a><span data-ttu-id="54904-121">**balance de situación**</span><span class="sxs-lookup"><span data-stu-id="54904-121">**balance sheet**</span></span>
 
-Extracto de la posición financiera de una organización que informa del estado de los activos, los pasivos y los recursos propios en una fecha determinada.
+<span data-ttu-id="54904-122">Extracto de la posición financiera de una organización que informa del estado de los activos, los pasivos y los recursos propios en una fecha determinada.</span><span class="sxs-lookup"><span data-stu-id="54904-122">A statement of the financial position of an organization that reports the state of assets, liabilities, and equity on a specified date.</span></span>
 
-###### <a name="balance-sheet-account"></a>**cuenta de balance de situación**
+###### <a name="balance-sheet-account"></a><span data-ttu-id="54904-123">**cuenta de balance de situación**</span><span class="sxs-lookup"><span data-stu-id="54904-123">**balance sheet account**</span></span>
 
-Cuenta que describe los cambios de valor notificados en un balance de situación.
+<span data-ttu-id="54904-124">Cuenta que describe los cambios de valor notificados en un balance de situación.</span><span class="sxs-lookup"><span data-stu-id="54904-124">An account that describes the changes in value reported on a balance sheet.</span></span>
 
-###### <a name="bank-reconciliation"></a>**conciliación bancaria**
+###### <a name="bank-reconciliation"></a><span data-ttu-id="54904-125">**conciliación bancaria**</span><span class="sxs-lookup"><span data-stu-id="54904-125">**bank reconciliation**</span></span>
 
-Práctica de conciliar una cuenta contable que representa una cuenta bancaria haciendo coincidir los asientos contables con las entradas del extracto bancario.
+<span data-ttu-id="54904-126">Práctica de conciliar una cuenta contable que representa una cuenta bancaria haciendo coincidir los asientos contables con las entradas del extracto bancario.</span><span class="sxs-lookup"><span data-stu-id="54904-126">A practice of reconciling a ledger account that represents a bank account by matching ledger account entries to bank statement entries.</span></span>
 
-###### <a name="batch-attribute"></a>**atributo de lote**
+###### <a name="batch-attribute"></a><span data-ttu-id="54904-127">**atributo de lote**</span><span class="sxs-lookup"><span data-stu-id="54904-127">**batch attribute**</span></span>
 
-Atributo del producto de un lote de proceso o un lote de transferencia.
+<span data-ttu-id="54904-128">Atributo del producto de un lote de proceso o un lote de transferencia.</span><span class="sxs-lookup"><span data-stu-id="54904-128">A product attribute of a process batch or a transfer batch.</span></span>
 
-###### <a name="best-before-date"></a>**fecha de consumo preferente**
+###### <a name="best-before-date"></a><span data-ttu-id="54904-129">**fecha de consumo preferente**</span><span class="sxs-lookup"><span data-stu-id="54904-129">**best-before date**</span></span>
 
-Fecha recomendada para obtener la calidad o característica óptima de un producto.
+<span data-ttu-id="54904-130">Fecha recomendada para obtener la calidad o característica óptima de un producto.</span><span class="sxs-lookup"><span data-stu-id="54904-130">A recommended date for obtaining the optimum quality or characteristic of a product.</span></span>
 
-###### <a name="best-before-period"></a>**período de consumo preferente**
+###### <a name="best-before-period"></a><span data-ttu-id="54904-131">**período de consumo preferente**</span><span class="sxs-lookup"><span data-stu-id="54904-131">**best-before period**</span></span>
 
-Período de tiempo en el que se obtiene la calidad o característica óptima de un producto.
+<span data-ttu-id="54904-132">Período de tiempo en el que se obtiene la calidad o característica óptima de un producto.</span><span class="sxs-lookup"><span data-stu-id="54904-132">The time period in which to obtain the optimum quality or characteristic of a product.</span></span>
 
-###### <a name="bill-of-exchange"></a>**letra de cambio**
+###### <a name="bill-of-exchange"></a><span data-ttu-id="54904-133">**letra de cambio**</span><span class="sxs-lookup"><span data-stu-id="54904-133">**bill of exchange**</span></span>
 
-Documento de origen que justifica una solicitud incondicional para que un tercero abone un importe a otra parte a petición.
+<span data-ttu-id="54904-134">Documento de origen que justifica una solicitud incondicional para que un tercero abone un importe a otra parte a petición.</span><span class="sxs-lookup"><span data-stu-id="54904-134">A source document that documents an unconditional request for a third-party to pay a second party on demand.</span></span>
 
-###### <a name="blocking"></a>**bloqueo**
+###### <a name="blocking"></a><span data-ttu-id="54904-135">**bloqueo**</span><span class="sxs-lookup"><span data-stu-id="54904-135">**blocking**</span></span>
 
-Acción de poner un documento o producto en espera.
+<span data-ttu-id="54904-136">Acción de poner un documento o producto en espera.</span><span class="sxs-lookup"><span data-stu-id="54904-136">The action of placing a document or product on hold.</span></span>
 
-###### <a name="bom-bill-of-materials"></a>**L. MAT. (lista de materiales)**
+###### <a name="bom-bill-of-materials"></a><span data-ttu-id="54904-137">**L. MAT. (lista de materiales)**</span><span class="sxs-lookup"><span data-stu-id="54904-137">**BOM (bill of materials)**</span></span>
 
-Lista de productos y sus cantidades necesarias para producir un producto.
-###### <a name="budget-control"></a>**control presupuestario**
+<span data-ttu-id="54904-138">Lista de productos y sus cantidades necesarias para producir un producto.</span><span class="sxs-lookup"><span data-stu-id="54904-138">A list of products and their quantities that are required to produce one product.</span></span>
+###### <a name="budget-control"></a><span data-ttu-id="54904-139">**control presupuestario**</span><span class="sxs-lookup"><span data-stu-id="54904-139">**budget control**</span></span>
 
-Práctica de autorizar gastos solo si se pueden reservar fondos del presupuesto que satisfagan los compromisos de pago futuros.
+<span data-ttu-id="54904-140">Práctica de autorizar gastos solo si se pueden reservar fondos del presupuesto que satisfagan los compromisos de pago futuros.</span><span class="sxs-lookup"><span data-stu-id="54904-140">A practice of authorizing expenditure only when budget funds can be reserved to meet future payment commitments.</span></span>
 
-###### <a name="budget-control-dimension"></a>**dimensión de control presupuestario**
+###### <a name="budget-control-dimension"></a><span data-ttu-id="54904-141">**dimensión de control presupuestario**</span><span class="sxs-lookup"><span data-stu-id="54904-141">**budget control dimension**</span></span>
 
-Combinación de valores de dimensiones financieras activas utilizados para asignar fondos presupuestarios para pagar actividades planificadas.
+<span data-ttu-id="54904-142">Combinación de valores de dimensiones financieras activas utilizados para asignar fondos presupuestarios para pagar actividades planificadas.</span><span class="sxs-lookup"><span data-stu-id="54904-142">A combination of active financial dimensions values used to allocate budget funds to pay for planned activities.</span></span>
 
-###### <a name="budget-control-rule"></a>**regla de control presupuestario**
+###### <a name="budget-control-rule"></a><span data-ttu-id="54904-143">**regla de control presupuestario**</span><span class="sxs-lookup"><span data-stu-id="54904-143">**budget control rule**</span></span>
 
-Codificación de una decisión empresarial para comprobar el gasto comprometido y real frente a los fondos presupuestarios disponibles asignados a actividades detalladas o agregadas definidas por combinaciones válidas de valores de la dimensión de control presupuestario.
+<span data-ttu-id="54904-144">Codificación de una decisión empresarial para comprobar el gasto comprometido y real frente a los fondos presupuestarios disponibles asignados a actividades detalladas o agregadas definidas por combinaciones válidas de valores de la dimensión de control presupuestario.</span><span class="sxs-lookup"><span data-stu-id="54904-144">The encoding of a business decision to check committed and actual expenditure against available budget funds allocated for detailed or aggregate activities defined by valid budget control dimension value combinations.</span></span>
 
-###### <a name="budget-cycle-time-span"></a>**intervalo de tiempo del ciclo presupuestario**
+###### <a name="budget-cycle-time-span"></a><span data-ttu-id="54904-145">**intervalo de tiempo del ciclo presupuestario**</span><span class="sxs-lookup"><span data-stu-id="54904-145">**budget cycle time span**</span></span>
 
-Período de tiempo determinado como un número de períodos fiscales de calendario. El período presupuestario puede ser diferente del período contable.
+<span data-ttu-id="54904-146">Período de tiempo determinado como un número de períodos fiscales de calendario.</span><span class="sxs-lookup"><span data-stu-id="54904-146">A time period specified as a number of fiscal calendar periods.</span></span> <span data-ttu-id="54904-147">El período presupuestario puede ser diferente del período contable.</span><span class="sxs-lookup"><span data-stu-id="54904-147">The budget period can be different from the accounting period.</span></span>
 
-###### <a name="budget-group"></a>**grupo presupuestario**
+###### <a name="budget-group"></a><span data-ttu-id="54904-148">**grupo presupuestario**</span><span class="sxs-lookup"><span data-stu-id="54904-148">**budget group**</span></span>
 
-Conjunto de valores de la dimensión financiera en una jerarquía de dimensiones presupuestarias que se utiliza para calcular fondos presupuestarios agregados asignados a valores de la dimensión financiera dominantes sumando fondos presupuestarios asignados a valores de la dimensión financiera subordinados.
+<span data-ttu-id="54904-149">Conjunto de valores de la dimensión financiera en una jerarquía de dimensiones presupuestarias que se utiliza para calcular fondos presupuestarios agregados asignados a valores de la dimensión financiera dominantes sumando fondos presupuestarios asignados a valores de la dimensión financiera subordinados.</span><span class="sxs-lookup"><span data-stu-id="54904-149">A set of financial dimension values in a budget dimension hierarchy that is used to calculate aggregate budget funds allocated to superordinate financial dimension values by summing budget funds allocated to subordinate financial dimension values.</span></span>
 
-###### <a name="budget-model"></a>**modelo presupuestario**
+###### <a name="budget-model"></a><span data-ttu-id="54904-150">**modelo presupuestario**</span><span class="sxs-lookup"><span data-stu-id="54904-150">**budget model**</span></span>
 
-Estructura de planificación utilizada para programar asignaciones de fondos presupuestarios y gastos.
+<span data-ttu-id="54904-151">Estructura de planificación utilizada para programar asignaciones de fondos presupuestarios y gastos.</span><span class="sxs-lookup"><span data-stu-id="54904-151">A planning structure used to schedule budget fund allocations and expenditures.</span></span>
 
-###### <a name="bulk-item"></a>**artículo masivo**
+###### <a name="bulk-item"></a><span data-ttu-id="54904-152">**artículo masivo**</span><span class="sxs-lookup"><span data-stu-id="54904-152">**bulk item**</span></span>
 
-Producto de fórmula especificado en una actividad de entrega de producto.
+<span data-ttu-id="54904-153">Producto de fórmula especificado en una actividad de entrega de producto.</span><span class="sxs-lookup"><span data-stu-id="54904-153">A formula item input into a product delivery activity.</span></span>
 
-###### <a name="bundle"></a>**paquete**
+###### <a name="bundle"></a><span data-ttu-id="54904-154">**paquete**</span><span class="sxs-lookup"><span data-stu-id="54904-154">**bundle**</span></span>
 
-Combinación de una serie de productos para venderlos como una sola unidad.
+<span data-ttu-id="54904-155">Combinación de una serie de productos para venderlos como una sola unidad.</span><span class="sxs-lookup"><span data-stu-id="54904-155">The combination of a number of products for sale as one unit.</span></span>
 
-###### <a name="business-unit"></a>**unidad de negocio**
+###### <a name="business-unit"></a><span data-ttu-id="54904-156">**unidad de negocio**</span><span class="sxs-lookup"><span data-stu-id="54904-156">**business unit**</span></span>
 
-Unidad operativa semiautónoma que se crea para cumplir objetivos empresariales estratégicos.
+<span data-ttu-id="54904-157">Unidad operativa semiautónoma que se crea para cumplir objetivos empresariales estratégicos.</span><span class="sxs-lookup"><span data-stu-id="54904-157">A semi-autonomous operating unit that is created to meet strategic business objectives.</span></span>
 
-### <a name="c"></a>**C**
+### <a name="c"></a><span data-ttu-id="54904-158">**C**</span><span class="sxs-lookup"><span data-stu-id="54904-158">**C**</span></span>
 
-###### <a name="capacity-load"></a>**carga de capacidad**
+###### <a name="capacity-load"></a><span data-ttu-id="54904-159">**carga de capacidad**</span><span class="sxs-lookup"><span data-stu-id="54904-159">**capacity load**</span></span>
 
-Cantidad máxima de trabajo programado que un centro de trabajo puede realizar a un nivel de capacidad requerido.
+<span data-ttu-id="54904-160">Cantidad máxima de trabajo programado que un centro de trabajo puede realizar a un nivel de capacidad requerido.</span><span class="sxs-lookup"><span data-stu-id="54904-160">The maximum amount of scheduled work that a work center can perform at a required capacity level.</span></span>
 
-###### <a name="capacity-planning"></a>**planificación de capacidad**
+###### <a name="capacity-planning"></a><span data-ttu-id="54904-161">**planificación de capacidad**</span><span class="sxs-lookup"><span data-stu-id="54904-161">**capacity planning**</span></span>
 
-Procedimiento para determinar los requisitos de capacidad de recursos que cumplen la demanda de producción en el futuro durante períodos de tiempo determinados.
+<span data-ttu-id="54904-162">Procedimiento para determinar los requisitos de capacidad de recursos que cumplen la demanda de producción en el futuro durante períodos de tiempo determinados.</span><span class="sxs-lookup"><span data-stu-id="54904-162">A procedure for determining the resource capacity requirements that meet the demand of future output during specific time periods.</span></span>
 
-###### <a name="carry-forward-budget"></a>**presupuesto transferible**
+###### <a name="carry-forward-budget"></a><span data-ttu-id="54904-163">**presupuesto transferible**</span><span class="sxs-lookup"><span data-stu-id="54904-163">**carry-forward budget**</span></span>
 
-Presupuesto que se transfiere de un ejercicio al siguiente y que se reserva para abrir pedidos de compra en el nuevo ejercicio.
+<span data-ttu-id="54904-164">Presupuesto que se transfiere de un ejercicio al siguiente y que se reserva para abrir pedidos de compra en el nuevo ejercicio.</span><span class="sxs-lookup"><span data-stu-id="54904-164">The budget that is transferred from one fiscal year to the next and that is reserved for open purchase orders in the new fiscal year.</span></span>
 
-###### <a name="cash-generating-unit"></a>**unidad generadora de efectivo**
+###### <a name="cash-generating-unit"></a><span data-ttu-id="54904-165">**unidad generadora de efectivo**</span><span class="sxs-lookup"><span data-stu-id="54904-165">**cash-generating unit**</span></span>
 
-El grupo más pequeño de activos clasificables que genera efectivo independientemente de otros activos dentro de una organización. Estos grupos de activos se utilizan para medir las pérdidas por deterioro que se van a producir.
+<span data-ttu-id="54904-166">El grupo más pequeño de activos clasificables que genera efectivo independientemente de otros activos dentro de una organización.</span><span class="sxs-lookup"><span data-stu-id="54904-166">The smallest group of classifiable assets that generates cash independently of other assets within an organization.</span></span> <span data-ttu-id="54904-167">Estos grupos de activos se utilizan para medir las pérdidas por deterioro que se van a producir.</span><span class="sxs-lookup"><span data-stu-id="54904-167">These groups of assets are used to measure impairment losses that will be incurred.</span></span>
 
-###### <a name="catch-weight"></a>**peso capturado**
+###### <a name="catch-weight"></a><span data-ttu-id="54904-168">**peso capturado**</span><span class="sxs-lookup"><span data-stu-id="54904-168">**catch weight**</span></span>
 
-Peso real o nominal de un artículo de ventas o un artículo de inventario.
+<span data-ttu-id="54904-169">Peso real o nominal de un artículo de ventas o un artículo de inventario.</span><span class="sxs-lookup"><span data-stu-id="54904-169">The actual or nominal weight of a sales item or inventory item.</span></span>
 
-###### <a name="chart-of-accounts"></a>**plan de cuentas**
+###### <a name="chart-of-accounts"></a><span data-ttu-id="54904-170">**plan de cuentas**</span><span class="sxs-lookup"><span data-stu-id="54904-170">**chart of accounts**</span></span>
 
-Una lista de cuentas principales.
+<span data-ttu-id="54904-171">Una lista de cuentas principales.</span><span class="sxs-lookup"><span data-stu-id="54904-171">A list of main accounts.</span></span>
 
-###### <a name="cogs-cost-of-goods-sold"></a>**COGS (coste de bienes vendidos)**
+###### <a name="cogs-cost-of-goods-sold"></a><span data-ttu-id="54904-172">**COGS (coste de bienes vendidos)**</span><span class="sxs-lookup"><span data-stu-id="54904-172">**COGS (cost of goods sold)**</span></span>
 
-Categoría de contabilidad utilizada para sumar las consecuencias financieras de la fabricación de productos y la realización del inventario.
+<span data-ttu-id="54904-173">Categoría de contabilidad utilizada para sumar las consecuencias financieras de la fabricación de productos y la realización del inventario.</span><span class="sxs-lookup"><span data-stu-id="54904-173">An accounting category used to sum the financial consequences of manufacturing products and carrying inventory.</span></span>
 
-###### <a name="contractor"></a>**contratista**
+###### <a name="contractor"></a><span data-ttu-id="54904-174">**contratista**</span><span class="sxs-lookup"><span data-stu-id="54904-174">**contractor**</span></span>
 
-Rol que asume una persona que participa en una relación de contratista-empresario con una entidad jurídica.
+<span data-ttu-id="54904-175">Rol que asume una persona que participa en una relación de contratista-empresario con una entidad jurídica.</span><span class="sxs-lookup"><span data-stu-id="54904-175">A role assumed by a person who participates in a contractor-employer relationship with a legal entity.</span></span>
 
-###### <a name="co-product"></a>**coproducto**
+###### <a name="co-product"></a><span data-ttu-id="54904-176">**coproducto**</span><span class="sxs-lookup"><span data-stu-id="54904-176">**co-product**</span></span>
 
-Artículo producido junto con otro artículo.
+<span data-ttu-id="54904-177">Artículo producido junto con otro artículo.</span><span class="sxs-lookup"><span data-stu-id="54904-177">An item produced jointly with another item.</span></span>
 
-###### <a name="cost-center"></a>**centro de coste**
+###### <a name="cost-center"></a><span data-ttu-id="54904-178">**centro de coste**</span><span class="sxs-lookup"><span data-stu-id="54904-178">**cost center**</span></span>
 
-Unidad operativa cuyos directores se responsabilizan de los gastos presupuestados y reales.
+<span data-ttu-id="54904-179">Unidad operativa cuyos directores se responsabilizan de los gastos presupuestados y reales.</span><span class="sxs-lookup"><span data-stu-id="54904-179">An operating unit whose managers are accountable for budgeted and actual expenditures.</span></span>
 
-###### <a name="cost-variance"></a>**desviación de coste**
+###### <a name="cost-variance"></a><span data-ttu-id="54904-180">**desviación de coste**</span><span class="sxs-lookup"><span data-stu-id="54904-180">**cost variance**</span></span>
 
-Diferencia entre un coste esperado y un coste real.
+<span data-ttu-id="54904-181">Diferencia entre un coste esperado y un coste real.</span><span class="sxs-lookup"><span data-stu-id="54904-181">The difference between an expected cost and an actual cost.</span></span>
 
-###### <a name="costing"></a>**gestión de costes**
+###### <a name="costing"></a><span data-ttu-id="54904-182">**gestión de costes**</span><span class="sxs-lookup"><span data-stu-id="54904-182">**costing**</span></span>
 
-Proceso de calcular, asignar y adjudicar el coste de recursos económicos adquiridos, producidos o entregados por una organización.
+<span data-ttu-id="54904-183">Proceso de calcular, asignar y adjudicar el coste de recursos económicos adquiridos, producidos o entregados por una organización.</span><span class="sxs-lookup"><span data-stu-id="54904-183">The process of calculating, assigning, and allocating the cost of economic resources acquired, produced, or delivered by an organization.</span></span>
 
-###### <a name="ctp-capable-to-promise"></a>**CTP (capaz de comprometer)**
+###### <a name="ctp-capable-to-promise"></a><span data-ttu-id="54904-184">**CTP (capaz de comprometer)**</span><span class="sxs-lookup"><span data-stu-id="54904-184">**CTP (capable-to-promise)**</span></span>
 
-Parte del producto obtenido a partir de recursos de operaciones disponibles y el producto disponible utilizado necesario para cumplir un requisito determinado del cliente.
+<span data-ttu-id="54904-185">Parte del producto obtenido a partir de recursos de operaciones disponibles y el producto disponible utilizado necesario para cumplir un requisito determinado del cliente.</span><span class="sxs-lookup"><span data-stu-id="54904-185">The portion of product output from available operations resources and available input product required to fulfill a specific customer requirement.</span></span>
 
-###### <a name="currency-code"></a>**código de divisa**
+###### <a name="currency-code"></a><span data-ttu-id="54904-186">**código de divisa**</span><span class="sxs-lookup"><span data-stu-id="54904-186">**currency code**</span></span>
 
-Identificador alfanumérico que representa una unidad de divisa.
+<span data-ttu-id="54904-187">Identificador alfanumérico que representa una unidad de divisa.</span><span class="sxs-lookup"><span data-stu-id="54904-187">An alphanumeric identifier that represents a currency unit.</span></span>
 
-###### <a name="cycle-time"></a>**tiempo de ciclo**
+###### <a name="cycle-time"></a><span data-ttu-id="54904-188">**tiempo de ciclo**</span><span class="sxs-lookup"><span data-stu-id="54904-188">**cycle time**</span></span>
 
-Tiempo dedicado a completar una actividad.
+<span data-ttu-id="54904-189">Tiempo dedicado a completar una actividad.</span><span class="sxs-lookup"><span data-stu-id="54904-189">The time taken to complete an activity.</span></span>
 
-### <a name="d"></a>**D**
+### <a name="d"></a><span data-ttu-id="54904-190">**D**</span><span class="sxs-lookup"><span data-stu-id="54904-190">**D**</span></span>
 
-###### <a name="dashboard"></a>**panel de información**
+###### <a name="dashboard"></a><span data-ttu-id="54904-191">**panel de información**</span><span class="sxs-lookup"><span data-stu-id="54904-191">**dashboard**</span></span>
 
-La página de inicio típica de Finance and Operations. En el panel de información los usuarios ven una sección por cada espacio de trabajo al que tienen acceso. Cada sección muestra los iconos de las secciones de resumen del espacio de trabajo correspondiente. El panel de información tiene un nombre y secciones con iconos.
+<span data-ttu-id="54904-192">La página de inicio típica de Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="54904-192">The typical start page in Finance and Operations.</span></span> <span data-ttu-id="54904-193">En el panel de información los usuarios ven una sección por cada espacio de trabajo al que tienen acceso.</span><span class="sxs-lookup"><span data-stu-id="54904-193">On the dashboard, users see a section for each workspace that they have access to.</span></span> <span data-ttu-id="54904-194">Cada sección muestra los iconos de las secciones de resumen del espacio de trabajo correspondiente.</span><span class="sxs-lookup"><span data-stu-id="54904-194">Each section displays the tiles from the summary sections in the related workspace.</span></span> <span data-ttu-id="54904-195">El panel de información tiene un nombre y secciones con iconos.</span><span class="sxs-lookup"><span data-stu-id="54904-195">The dashboard consists of a name and sections with tiles.</span></span>
 
-###### <a name="data-entity"></a>**entidad de datos**
+###### <a name="data-entity"></a><span data-ttu-id="54904-196">**entidad de datos**</span><span class="sxs-lookup"><span data-stu-id="54904-196">**data entity**</span></span>
 
-Estructura de información que representa la característica de datos de una entidad.
+<span data-ttu-id="54904-197">Estructura de información que representa la característica de datos de una entidad.</span><span class="sxs-lookup"><span data-stu-id="54904-197">An information structure that represents the data characteristic of an entity.</span></span>
 
-###### <a name="delegate"></a>**delegar**
+###### <a name="delegate"></a><span data-ttu-id="54904-198">**delegar**</span><span class="sxs-lookup"><span data-stu-id="54904-198">**delegate**</span></span>
 
-Un delegado es un tipo que representa referencias a métodos con una lista de parámetros y un tipo de devolución específicos.
+<span data-ttu-id="54904-199">Un delegado es un tipo que representa referencias a métodos con una lista de parámetros y un tipo de devolución específicos.</span><span class="sxs-lookup"><span data-stu-id="54904-199">A delegate is a type that represents references to methods with a particular parameter list and return type.</span></span>
 
-###### <a name="delivery-note"></a>**nota de entrega**
+###### <a name="delivery-note"></a><span data-ttu-id="54904-200">**nota de entrega**</span><span class="sxs-lookup"><span data-stu-id="54904-200">**delivery note**</span></span>
 
-Documento empresarial que justifica la entrega de productos entre dos partes.
+<span data-ttu-id="54904-201">Documento empresarial que justifica la entrega de productos entre dos partes.</span><span class="sxs-lookup"><span data-stu-id="54904-201">A business document that documents the delivery of products between two parties.</span></span>
 
-###### <a name="demand-forecast"></a>**previsión de la demanda**
+###### <a name="demand-forecast"></a><span data-ttu-id="54904-202">**previsión de la demanda**</span><span class="sxs-lookup"><span data-stu-id="54904-202">**demand forecast**</span></span>
 
-Predicción de la demanda de un producto en el futuro.
+<span data-ttu-id="54904-203">Predicción de la demanda de un producto en el futuro.</span><span class="sxs-lookup"><span data-stu-id="54904-203">A prediction of future product demand.</span></span>
 
-###### <a name="demand-forecasting"></a>**cálculo de previsión de demanda**
+###### <a name="demand-forecasting"></a><span data-ttu-id="54904-204">**cálculo de previsión de demanda**</span><span class="sxs-lookup"><span data-stu-id="54904-204">**demand forecasting**</span></span>
 
-Proceso empresarial que realiza una estimación de la demanda futura y crea previsiones de demanda a partir de los datos de transacciones históricos.
+<span data-ttu-id="54904-205">Proceso empresarial que realiza una estimación de la demanda futura y crea previsiones de demanda a partir de los datos de transacciones históricos.</span><span class="sxs-lookup"><span data-stu-id="54904-205">A business process that estimates future demand and creates demand forecasts based on historical transaction data.</span></span>
 
-###### <a name="deployable-package"></a>**paquete comercial implementable**
+###### <a name="deployable-package"></a><span data-ttu-id="54904-206">**paquete comercial implementable**</span><span class="sxs-lookup"><span data-stu-id="54904-206">**deployable package**</span></span>
 
-El medio usado para implementar la prueba de aceptación del usuario (UAT) y los entornos de producción.
+<span data-ttu-id="54904-207">El medio usado para implementar la prueba de aceptación del usuario (UAT) y los entornos de producción.</span><span class="sxs-lookup"><span data-stu-id="54904-207">The vehicle used for deployment on User Acceptance Test (UAT) and production environments.</span></span>
 
-###### <a name="designer"></a>**diseñador**
+###### <a name="designer"></a><span data-ttu-id="54904-208">**diseñador**</span><span class="sxs-lookup"><span data-stu-id="54904-208">**designer**</span></span>
 
-Herramienta de Visual Studio que se utiliza para crear, actualizar e inspeccionar los elementos del modelo.
+<span data-ttu-id="54904-209">Herramienta de Visual Studio que se utiliza para crear, actualizar e inspeccionar los elementos del modelo.</span><span class="sxs-lookup"><span data-stu-id="54904-209">A Visual Studio tool that you used to create, update, and inspect your model elements.</span></span>
 
-###### <a name="dimension-based-product-configuration"></a>**configuración de producto basada en dimensiones**
+###### <a name="dimension-based-product-configuration"></a><span data-ttu-id="54904-210">**configuración de producto basada en dimensiones**</span><span class="sxs-lookup"><span data-stu-id="54904-210">**dimension-based product configuration**</span></span>
 
-Tecnología de configuración utilizada para crear variantes del producto seleccionando valores para las dimensiones de producto.
+<span data-ttu-id="54904-211">Tecnología de configuración utilizada para crear variantes del producto seleccionando valores para las dimensiones de producto.</span><span class="sxs-lookup"><span data-stu-id="54904-211">A configuration technology used to create product variants by selecting values for product dimensions.</span></span>
 
-###### <a name="distinct-product"></a>**producto único**
+###### <a name="distinct-product"></a><span data-ttu-id="54904-212">**producto único**</span><span class="sxs-lookup"><span data-stu-id="54904-212">**distinct product**</span></span>
 
-Producto identificable exclusivamente.
+<span data-ttu-id="54904-213">Producto identificable exclusivamente.</span><span class="sxs-lookup"><span data-stu-id="54904-213">A uniquely identifiable product.</span></span>
 
-###### <a name="document-management-system"></a>**sistema de gestión de documentos**
+###### <a name="document-management-system"></a><span data-ttu-id="54904-214">**sistema de gestión de documentos**</span><span class="sxs-lookup"><span data-stu-id="54904-214">**document management system**</span></span>
 
-Servicio de solicitud para almacenar y gestionar los documentos de una organización.
+<span data-ttu-id="54904-215">Servicio de solicitud para almacenar y gestionar los documentos de una organización.</span><span class="sxs-lookup"><span data-stu-id="54904-215">An application service for storing and handling an organization's documents.</span></span>
 
-###### <a name="duty"></a>**deber**
+###### <a name="duty"></a><span data-ttu-id="54904-216">**deber**</span><span class="sxs-lookup"><span data-stu-id="54904-216">**duty**</span></span>
 
-En el modelo de seguridad, conjunto de privilegios de acceso a solicitudes necesario para que un usuario pueda llevar a cabo sus responsabilidades.
+<span data-ttu-id="54904-217">En el modelo de seguridad, conjunto de privilegios de acceso a solicitudes necesario para que un usuario pueda llevar a cabo sus responsabilidades.</span><span class="sxs-lookup"><span data-stu-id="54904-217">In the security model, a set of application access privileges that are required for a user to carry out their responsibilities.</span></span>
 
-### <a name="e"></a>**E**
+### <a name="e"></a><span data-ttu-id="54904-218">**E**</span><span class="sxs-lookup"><span data-stu-id="54904-218">**E**</span></span>
 
-###### <a name="eft-electronic-funds-transfer"></a>**EFT (transferencia electrónica de fondos)**
+###### <a name="eft-electronic-funds-transfer"></a><span data-ttu-id="54904-219">**EFT (transferencia electrónica de fondos)**</span><span class="sxs-lookup"><span data-stu-id="54904-219">**EFT (electronic funds transfer)**</span></span>
 
-Sistema de red para transferir fondos de una cuenta bancaria a otra.
+<span data-ttu-id="54904-220">Sistema de red para transferir fondos de una cuenta bancaria a otra.</span><span class="sxs-lookup"><span data-stu-id="54904-220">A networked system for transferring funds from one bank account to another.</span></span>
 
-###### <a name="event"></a>**evento**
+###### <a name="event"></a><span data-ttu-id="54904-221">**evento**</span><span class="sxs-lookup"><span data-stu-id="54904-221">**event**</span></span>
 
-Un evento permite que una clase o un objeto notifiquen a otros objetos o clases cuando ocurra algo de interés.
+<span data-ttu-id="54904-222">Un evento permite que una clase o un objeto notifiquen a otros objetos o clases cuando ocurra algo de interés.</span><span class="sxs-lookup"><span data-stu-id="54904-222">An event lets a class or object to notify other classes or objects when something of interest occurs.</span></span>
 
-###### <a name="epe-every-product-every"></a>**EPE (cada producto cada)**
+###### <a name="epe-every-product-every"></a><span data-ttu-id="54904-223">**EPE (cada producto cada)**</span><span class="sxs-lookup"><span data-stu-id="54904-223">**EPE (Every Product Every)**</span></span>
 
-Concepto de eficiencia que se utiliza para establecer un ciclo de producción que se repite periódicamente.
+<span data-ttu-id="54904-224">Concepto de eficiencia que se utiliza para establecer un ciclo de producción que se repite periódicamente.</span><span class="sxs-lookup"><span data-stu-id="54904-224">A lean concept that is used to establish a regular repeating production cycle.</span></span>
 
-###### <a name="extension"></a>**extensión**
+###### <a name="extension"></a><span data-ttu-id="54904-225">**extensión**</span><span class="sxs-lookup"><span data-stu-id="54904-225">**extension**</span></span>
 
-Personalización de una aplicación mediante la adición de funcionalidad a código existente.
+<span data-ttu-id="54904-226">Personalización de una aplicación mediante la adición de funcionalidad a código existente.</span><span class="sxs-lookup"><span data-stu-id="54904-226">Customizing an application by adding functionality to existing code.</span></span>
 
-### <a name="f"></a>**F**
+### <a name="f"></a><span data-ttu-id="54904-227">**F**</span><span class="sxs-lookup"><span data-stu-id="54904-227">**F**</span></span>
 
-###### <a name="financial-dimension"></a>**dimensión financiera**
+###### <a name="financial-dimension"></a><span data-ttu-id="54904-228">**dimensión financiera**</span><span class="sxs-lookup"><span data-stu-id="54904-228">**financial dimension**</span></span>
 
-Clasificador de datos financieros que se crea desde las partes, las ubicaciones, los productos y las actividades en una organización y que se usa para la información de gestión.
+<span data-ttu-id="54904-229">Clasificador de datos financieros que se crea desde las partes, las ubicaciones, los productos y las actividades en una organización y que se usa para la información de gestión.</span><span class="sxs-lookup"><span data-stu-id="54904-229">A financial data classifier created from the parties, locations, products, and activities in an organization and used for management reporting.</span></span>
 
-###### <a name="financial-dimension-value"></a>**valor de la dimensión financiera**
+###### <a name="financial-dimension-value"></a><span data-ttu-id="54904-230">**valor de la dimensión financiera**</span><span class="sxs-lookup"><span data-stu-id="54904-230">**financial dimension value**</span></span>
 
-Elemento de datos en el dominio de una dimensión financiera.
+<span data-ttu-id="54904-231">Elemento de datos en el dominio de una dimensión financiera.</span><span class="sxs-lookup"><span data-stu-id="54904-231">A data element in the domain of a financial dimension.</span></span>
 
-###### <a name="financial-statement"></a>**informe financiero**
+###### <a name="financial-statement"></a><span data-ttu-id="54904-232">**informe financiero**</span><span class="sxs-lookup"><span data-stu-id="54904-232">**financial statement**</span></span>
 
-Informe que documenta la información financiera y la posición financiera de una organización.
+<span data-ttu-id="54904-233">Informe que documenta la información financiera y la posición financiera de una organización.</span><span class="sxs-lookup"><span data-stu-id="54904-233">A report that documents the financial information and financial position of an organization.</span></span>
 
-###### <a name="fixed-cost"></a>**coste fijo**
+###### <a name="fixed-cost"></a><span data-ttu-id="54904-234">**coste fijo**</span><span class="sxs-lookup"><span data-stu-id="54904-234">**fixed cost**</span></span>
 
-Coste que no varía con los cambios en el rendimiento o la producción en la entrega de producto.
+<span data-ttu-id="54904-235">Coste que no varía con los cambios en el rendimiento o la producción en la entrega de producto.</span><span class="sxs-lookup"><span data-stu-id="54904-235">A cost that does not vary with changes in product delivery throughput or output.</span></span>
 
-###### <a name="fixed-currency"></a>**divisa fija**
+###### <a name="fixed-currency"></a><span data-ttu-id="54904-236">**divisa fija**</span><span class="sxs-lookup"><span data-stu-id="54904-236">**fixed currency**</span></span>
 
-Divisa que tiene un tipo de cambio fijo con respecto a otra divisa.
+<span data-ttu-id="54904-237">Divisa que tiene un tipo de cambio fijo con respecto a otra divisa.</span><span class="sxs-lookup"><span data-stu-id="54904-237">A currency that has a fixed exchange rate in relation to another currency.</span></span>
 
-###### <a name="fixed-quantity-kanban"></a>**kanban de cantidad fija**
+###### <a name="fixed-quantity-kanban"></a><span data-ttu-id="54904-238">**kanban de cantidad fija**</span><span class="sxs-lookup"><span data-stu-id="54904-238">**fixed quantity kanban**</span></span>
 
-Tipo de kanban que se utiliza cuando el número de kanbans asignados a una regla kanban es constante.
+<span data-ttu-id="54904-239">Tipo de kanban que se utiliza cuando el número de kanbans asignados a una regla kanban es constante.</span><span class="sxs-lookup"><span data-stu-id="54904-239">A type of kanban that is used when the number of kanbans that are assigned to a kanban rule is constant.</span></span>
 
-###### <a name="formula"></a>**fórmula**
+###### <a name="formula"></a><span data-ttu-id="54904-240">**fórmula**</span><span class="sxs-lookup"><span data-stu-id="54904-240">**formula**</span></span>
 
-Relación numérica entre entradas del proceso de producción y resultados del proceso de producción.
+<span data-ttu-id="54904-241">Relación numérica entre entradas del proceso de producción y resultados del proceso de producción.</span><span class="sxs-lookup"><span data-stu-id="54904-241">A numeric relationship among production process inputs and production process outputs.</span></span>
 
-###### <a name="formula-item"></a>**producto de fórmula**
+###### <a name="formula-item"></a><span data-ttu-id="54904-242">**producto de fórmula**</span><span class="sxs-lookup"><span data-stu-id="54904-242">**formula item**</span></span>
 
-Producto de un proceso por lotes controlado por una fórmula.
+<span data-ttu-id="54904-243">Producto de un proceso por lotes controlado por una fórmula.</span><span class="sxs-lookup"><span data-stu-id="54904-243">An output of a batch process controlled by a formula.</span></span>
 
-### <a name="g"></a>**G**
+### <a name="g"></a><span data-ttu-id="54904-244">**G**</span><span class="sxs-lookup"><span data-stu-id="54904-244">**G**</span></span>
 
-###### <a name="general-budget-reservation"></a>**reserva de presupuesto general**
+###### <a name="general-budget-reservation"></a><span data-ttu-id="54904-245">**reserva de presupuesto general**</span><span class="sxs-lookup"><span data-stu-id="54904-245">**general budget reservation**</span></span>
 
-Documento que suelen utilizar las entidades del sector público para reservar o asignar fondos presupuestados, a fin de que no estén disponibles para otros fines.
+<span data-ttu-id="54904-246">Documento que suelen utilizar las entidades del sector público para reservar o asignar fondos presupuestados, a fin de que no estén disponibles para otros fines.</span><span class="sxs-lookup"><span data-stu-id="54904-246">A document that is often used by public sector entities to set aside or earmark budgeted funds so that those funds are not available for other purposes.</span></span>
 
-###### <a name="grace-period"></a>**período de gracia**
+###### <a name="grace-period"></a><span data-ttu-id="54904-247">**período de gracia**</span><span class="sxs-lookup"><span data-stu-id="54904-247">**grace period**</span></span>
 
-Período de tiempo más allá de una fecha determinada durante el cual una obligación se puede cumplir sin penalización.
+<span data-ttu-id="54904-248">Período de tiempo más allá de una fecha determinada durante el cual una obligación se puede cumplir sin penalización.</span><span class="sxs-lookup"><span data-stu-id="54904-248">The time period beyond a specified date during which an obligation can be fulfilled without penalty.</span></span>
 
-###### <a name="gst-goods-and-services-tax"></a>**GST (impuesto de bienes y servicios)**
+###### <a name="gst-goods-and-services-tax"></a><span data-ttu-id="54904-249">**GST (impuesto de bienes y servicios)**</span><span class="sxs-lookup"><span data-stu-id="54904-249">**GST (goods and services tax)**</span></span>
 
-Informe del Impuesto sobre el valor añadido recaudado en algunos países/regiones.
+<span data-ttu-id="54904-250">Informe del Impuesto sobre el valor añadido recaudado en algunos países/regiones.</span><span class="sxs-lookup"><span data-stu-id="54904-250">A value-added tax levied in some countries/regions.</span></span>
 
-### <a name="i"></a>**I**
+### <a name="i"></a><span data-ttu-id="54904-251">**I**</span><span class="sxs-lookup"><span data-stu-id="54904-251">**I**</span></span>
 
-###### <a name="intercompany"></a>**empresas vinculadas**
+###### <a name="intercompany"></a><span data-ttu-id="54904-252">**empresas vinculadas**</span><span class="sxs-lookup"><span data-stu-id="54904-252">**intercompany**</span></span>
 
-Se produce entre o con relación a dos o más entidades jurídicas que forman parte de la misma organización que consolida las cuentas de todas las entidades jurídicas.
+<span data-ttu-id="54904-253">Se produce entre o con relación a dos o más entidades jurídicas que forman parte de la misma organización que consolida las cuentas de todas las entidades jurídicas.</span><span class="sxs-lookup"><span data-stu-id="54904-253">Occurring between or relating two or more legal entities that are part the same organization that consolidates the accounts of all legal entities.</span></span>
 
-###### <a name="invoice-matching"></a>**conciliación de facturas**
+###### <a name="invoice-matching"></a><span data-ttu-id="54904-254">**conciliación de facturas**</span><span class="sxs-lookup"><span data-stu-id="54904-254">**invoice matching**</span></span>
 
-Práctica de hacer coincidir los precios de la factura de proveedor y las cantidades de producto con los pedidos de compra y las recepciones de producto.
+<span data-ttu-id="54904-255">Práctica de hacer coincidir los precios de la factura de proveedor y las cantidades de producto con los pedidos de compra y las recepciones de producto.</span><span class="sxs-lookup"><span data-stu-id="54904-255">A practice of matching vendor invoice prices and product quantities to purchase orders and product receipts.</span></span>
 
-###### <a name="item-allocation-key"></a>**clave de asignación de artículos**
+###### <a name="item-allocation-key"></a><span data-ttu-id="54904-256">**clave de asignación de artículos**</span><span class="sxs-lookup"><span data-stu-id="54904-256">**item allocation key**</span></span>
 
-Agrupación de familias de productos que se utiliza para la programación de previsión y demanda.
+<span data-ttu-id="54904-257">Agrupación de familias de productos que se utiliza para la programación de previsión y demanda.</span><span class="sxs-lookup"><span data-stu-id="54904-257">A product family grouping that is used for forecast and demand scheduling.</span></span>
 
-###### <a name="item-relation"></a>**relación de artículo**
+###### <a name="item-relation"></a><span data-ttu-id="54904-258">**relación de artículo**</span><span class="sxs-lookup"><span data-stu-id="54904-258">**item relation**</span></span>
 
-Referencia al grupo de asignación de artículos o el artículo y sus dimensiones del producto en una regla kanban.
+<span data-ttu-id="54904-259">Referencia al grupo de asignación de artículos o el artículo y sus dimensiones del producto en una regla kanban.</span><span class="sxs-lookup"><span data-stu-id="54904-259">A reference to the item allocation group or the item and its product dimensions in a kanban rule.</span></span>
 
-### <a name="k"></a>**K**
+### <a name="k"></a><span data-ttu-id="54904-260">**K**</span><span class="sxs-lookup"><span data-stu-id="54904-260">**K**</span></span>
 
-###### <a name="kanban"></a>**kanban**
+###### <a name="kanban"></a><span data-ttu-id="54904-261">**kanban**</span><span class="sxs-lookup"><span data-stu-id="54904-261">**kanban**</span></span>
 
-Señal que comunica un requisito para una cantidad de producto.
+<span data-ttu-id="54904-262">Señal que comunica un requisito para una cantidad de producto.</span><span class="sxs-lookup"><span data-stu-id="54904-262">A signal that communicates a requirement for a quantity of product.</span></span>
 
-###### <a name="kanban-flow"></a>**flujo kanban**
+###### <a name="kanban-flow"></a><span data-ttu-id="54904-263">**flujo kanban**</span><span class="sxs-lookup"><span data-stu-id="54904-263">**kanban flow**</span></span>
 
-Define la secuencia de actividades que se realizan para los kanbans que se crean para una regla kanban.
+<span data-ttu-id="54904-264">Define la secuencia de actividades que se realizan para los kanbans que se crean para una regla kanban.</span><span class="sxs-lookup"><span data-stu-id="54904-264">Defines the sequence of activities that are performed for kanbans that are created for a kanban rule.</span></span>
 
-###### <a name="kanban-job"></a>**trabajo kanban**
+###### <a name="kanban-job"></a><span data-ttu-id="54904-265">**trabajo kanban**</span><span class="sxs-lookup"><span data-stu-id="54904-265">**kanban job**</span></span>
 
-Proceso o actividad de transferencia en un flujo de producción desencadenado por un kanban.
+<span data-ttu-id="54904-266">Proceso o actividad de transferencia en un flujo de producción desencadenado por un kanban.</span><span class="sxs-lookup"><span data-stu-id="54904-266">A process or transfer activity in a production flow that is triggered by a Kanban.</span></span>
 
-###### <a name="kanban-job-consumption"></a>**consumo de trabajos kanban**
+###### <a name="kanban-job-consumption"></a><span data-ttu-id="54904-267">**consumo de trabajos kanban**</span><span class="sxs-lookup"><span data-stu-id="54904-267">**kanban job consumption**</span></span>
 
-Retirada de componentes de producto del inventario para completar los trabajos de producción kanban.
+<span data-ttu-id="54904-268">Retirada de componentes de producto del inventario para completar los trabajos de producción kanban.</span><span class="sxs-lookup"><span data-stu-id="54904-268">The withdrawal of product components from inventory in order to complete the kanban production jobs.</span></span>
 
-###### <a name="kanban-rule"></a>**regla kanban**
+###### <a name="kanban-rule"></a><span data-ttu-id="54904-269">**regla kanban**</span><span class="sxs-lookup"><span data-stu-id="54904-269">**kanban rule**</span></span>
 
-Regla en un sistema de lean manufacturing (fabricación ajustada) que realiza directivas de planificación y reabastecimiento de material controlando cómo se coordinan las actividades de proceso y transferencia en flujos de producción.
+<span data-ttu-id="54904-270">Regla en un sistema de lean manufacturing (fabricación ajustada) que realiza directivas de planificación y reabastecimiento de material controlando cómo se coordinan las actividades de proceso y transferencia en flujos de producción.</span><span class="sxs-lookup"><span data-stu-id="54904-270">A rule in a lean manufacturing system that realizes material planning and replenishment policies by controlling how process and transfer activities are coordinated in production flows.</span></span>
 
-### <a name="l"></a>**L**
+### <a name="l"></a><span data-ttu-id="54904-271">**L**</span><span class="sxs-lookup"><span data-stu-id="54904-271">**L**</span></span>
 
-###### <a name="lean-manufacturing"></a>**lean manufacturing (producción ajustada)**
+###### <a name="lean-manufacturing"></a><span data-ttu-id="54904-272">**lean manufacturing (producción ajustada)**</span><span class="sxs-lookup"><span data-stu-id="54904-272">**lean manufacturing**</span></span>
 
-Filosofía según la cual las operaciones de producción promueven flujos de producción y actividades empresariales eficientes.
+<span data-ttu-id="54904-273">Filosofía según la cual las operaciones de producción promueven flujos de producción y actividades empresariales eficientes.</span><span class="sxs-lookup"><span data-stu-id="54904-273">A philosophy in which manufacturing operations promote lean production flows and business activities.</span></span>
 
-###### <a name="lean-schedule-group"></a>**grupo de programación lean**
+###### <a name="lean-schedule-group"></a><span data-ttu-id="54904-274">**grupo de programación lean**</span><span class="sxs-lookup"><span data-stu-id="54904-274">**lean schedule group**</span></span>
 
-Forma de agregar artículos para la producción basándose, por ejemplo, en un grupo de configuración, un grupo de envío o un grupo de transporte.
+<span data-ttu-id="54904-275">Forma de agregar artículos para la producción basándose, por ejemplo, en un grupo de configuración, un grupo de envío o un grupo de transporte.</span><span class="sxs-lookup"><span data-stu-id="54904-275">A way in which to aggregate items for production, for example, based on a setup group, shipping group, or transport group.</span></span>
 
-###### <a name="ledger-account"></a>**cuenta contable**
+###### <a name="ledger-account"></a><span data-ttu-id="54904-276">**cuenta contable**</span><span class="sxs-lookup"><span data-stu-id="54904-276">**ledger account**</span></span>
 
-Clasificador creado a partir de la combinación del valor de la cuenta principal y otros valores de la dimensión financiera que aparecen en un plan de cuentas y que se utiliza para clasificar las consecuencias financieras de la actividad económica.
+<span data-ttu-id="54904-277">Clasificador creado a partir de la combinación del valor de la cuenta principal y otros valores de la dimensión financiera que aparecen en un plan de cuentas y que se utiliza para clasificar las consecuencias financieras de la actividad económica.</span><span class="sxs-lookup"><span data-stu-id="54904-277">A classifier created from the combination of main account value and other financial dimension values listed in a chart of accounts and used to classify the financial consequences of economic activity.</span></span>
 
-###### <a name="license-code"></a>**código de licencia**
+###### <a name="license-code"></a><span data-ttu-id="54904-278">**código de licencia**</span><span class="sxs-lookup"><span data-stu-id="54904-278">**license code**</span></span>
 
-Clave alfanumérica que concede a una parte el derecho a utilizar software o componentes de software como se establece en los términos del contrato de licencia, y que activa y desactiva módulos de software y funciones de software.
+<span data-ttu-id="54904-279">Clave alfanumérica que concede a una parte el derecho a utilizar software o componentes de software como se establece en los términos del contrato de licencia, y que activa y desactiva módulos de software y funciones de software.</span><span class="sxs-lookup"><span data-stu-id="54904-279">An alphanumeric key that grants a party the right to use software or software components as prescribed in the terms of the license agreement, and that activates and inactivates software modules, software capabilities, and software functions.</span></span>
 
-###### <a name="liquidity"></a>**liquidez**
+###### <a name="liquidity"></a><span data-ttu-id="54904-280">**liquidez**</span><span class="sxs-lookup"><span data-stu-id="54904-280">**liquidity**</span></span>
 
-Capacidad de una parte de utilizar activos actuales para liquidar pasivos actuales.
+<span data-ttu-id="54904-281">Capacidad de una parte de utilizar activos actuales para liquidar pasivos actuales.</span><span class="sxs-lookup"><span data-stu-id="54904-281">The ability of a party to use current assets to settle current liabilities.</span></span>
 
-### <a name="m"></a>**M**
+### <a name="m"></a><span data-ttu-id="54904-282">**M**</span><span class="sxs-lookup"><span data-stu-id="54904-282">**M**</span></span>
 
-###### <a name="master-scheduling"></a>**programación maestra**
+###### <a name="master-scheduling"></a><span data-ttu-id="54904-283">**programación maestra**</span><span class="sxs-lookup"><span data-stu-id="54904-283">**master scheduling**</span></span>
 
-Proceso de generar un horario para conciliar el suministro con la demanda.
+<span data-ttu-id="54904-284">Proceso de generar un horario para conciliar el suministro con la demanda.</span><span class="sxs-lookup"><span data-stu-id="54904-284">The process for generating a timetable for matching supply with demand.</span></span>
 
-###### <a name="model"></a>**modelo**
+###### <a name="model"></a><span data-ttu-id="54904-285">**modelo**</span><span class="sxs-lookup"><span data-stu-id="54904-285">**model**</span></span>
 
-Un modelo contiene elementos de código y metadatos de referencia. Se crea e inspecciona en Visual Studio.
+<span data-ttu-id="54904-286">Un modelo contiene elementos de código y metadatos de referencia.</span><span class="sxs-lookup"><span data-stu-id="54904-286">A model contains code elements and reference metadata.</span></span> <span data-ttu-id="54904-287">Se crea e inspecciona en Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="54904-287">It is created and inspected in Visual Studio.</span></span>
 
-###### <a name="model-element"></a>**elemento de modelo**
+###### <a name="model-element"></a><span data-ttu-id="54904-288">**elemento de modelo**</span><span class="sxs-lookup"><span data-stu-id="54904-288">**model element**</span></span>
 
-Un modelo es un grupo de elementos (archivos de código fuente y metadatos) que constituye una solución de software distribuible. El modelo es un concepto de tiempo de diseño.
+<span data-ttu-id="54904-289">Un modelo es un grupo de elementos (archivos de código fuente y metadatos) que constituye una solución de software distribuible.</span><span class="sxs-lookup"><span data-stu-id="54904-289">A model is a group of elements (source files and metadata) that constitutes a distributable software solution.</span></span> <span data-ttu-id="54904-290">El modelo es un concepto de tiempo de diseño.</span><span class="sxs-lookup"><span data-stu-id="54904-290">The model is a design-time concept.</span></span>
 
-### <a name="n"></a>**N**
+### <a name="n"></a><span data-ttu-id="54904-291">**N**</span><span class="sxs-lookup"><span data-stu-id="54904-291">**N**</span></span>
 
-###### <a name="nbv-net-book-value"></a>**NBV (valor neto en los libros)**
+###### <a name="nbv-net-book-value"></a><span data-ttu-id="54904-292">**NBV (valor neto en los libros)**</span><span class="sxs-lookup"><span data-stu-id="54904-292">**NBV (net book value)**</span></span>
 
-Valor de un activo fijo calculado como la diferencia entre el coste original del activo fijo menos las depreciaciones acumuladas.
+<span data-ttu-id="54904-293">Valor de un activo fijo calculado como la diferencia entre el coste original del activo fijo menos las depreciaciones acumuladas.</span><span class="sxs-lookup"><span data-stu-id="54904-293">The value of a fixed asset calculated as the difference between the original cost of the fixed asset minus its accumulated depreciations.</span></span>
 
-### <a name="o"></a>**O**
+### <a name="o"></a><span data-ttu-id="54904-294">**O**</span><span class="sxs-lookup"><span data-stu-id="54904-294">**O**</span></span>
 
-###### <a name="object-permission"></a>**permiso de objeto**
+###### <a name="object-permission"></a><span data-ttu-id="54904-295">**permiso de objeto**</span><span class="sxs-lookup"><span data-stu-id="54904-295">**object permission**</span></span>
 
-Una operación permitida de creación, lectura, actualización, eliminación o ejecución en un objeto protegible.
+<span data-ttu-id="54904-296">Una operación permitida de creación, lectura, actualización, eliminación o ejecución en un objeto protegible.</span><span class="sxs-lookup"><span data-stu-id="54904-296">A permitted create, read, update, delete, or execute operation on a securable object.</span></span>
 
-###### <a name="operating-unit"></a>**unidad operativa**
+###### <a name="operating-unit"></a><span data-ttu-id="54904-297">**unidad operativa**</span><span class="sxs-lookup"><span data-stu-id="54904-297">**operating unit**</span></span>
 
-Organización que divide el control de los recursos económicos y los procesos operativos entre las personas que tienen un deber de optimizar el uso de recursos escasos, mejorar los procesos y responder de su rendimiento.
+<span data-ttu-id="54904-298">Organización que divide el control de los recursos económicos y los procesos operativos entre las personas que tienen un deber de optimizar el uso de recursos escasos, mejorar los procesos y responder de su rendimiento.</span><span class="sxs-lookup"><span data-stu-id="54904-298">An organization that divides the control of economic resources and operational processes among people who have a duty to maximize the use of scarce resources, to improve processes, and to account for their performance.</span></span>
 
-###### <a name="output-product"></a>**producto resultante**
+###### <a name="output-product"></a><span data-ttu-id="54904-299">**producto resultante**</span><span class="sxs-lookup"><span data-stu-id="54904-299">**output product**</span></span>
 
-Productos físicos resultado de una actividad.
+<span data-ttu-id="54904-300">Productos físicos resultado de una actividad.</span><span class="sxs-lookup"><span data-stu-id="54904-300">The physical products that result from an activity.</span></span>
 
-###### <a name="overlayering"></a>**superposición**
+###### <a name="overlayering"></a><span data-ttu-id="54904-301">**superposición**</span><span class="sxs-lookup"><span data-stu-id="54904-301">**overlayering**</span></span>
 
-Método de personalización del código fuente que consiste en proporcionar código fuente nuevo para reemplazar el código fuente predeterminado.
+<span data-ttu-id="54904-302">Método de personalización del código fuente que consiste en proporcionar código fuente nuevo para reemplazar el código fuente predeterminado.</span><span class="sxs-lookup"><span data-stu-id="54904-302">A method of customizing source code by providing new source code that overrides the default source code.</span></span>
 
-### <a name="p"></a>**P**
+### <a name="p"></a><span data-ttu-id="54904-303">**P**</span><span class="sxs-lookup"><span data-stu-id="54904-303">**P**</span></span>
 
-###### <a name="package"></a>**paquete**
+###### <a name="package"></a><span data-ttu-id="54904-304">**paquete**</span><span class="sxs-lookup"><span data-stu-id="54904-304">**package**</span></span>
 
-Un paquete es una unidad compilable e implementable de uno o varios modelos.
+<span data-ttu-id="54904-305">Un paquete es una unidad compilable e implementable de uno o varios modelos.</span><span class="sxs-lookup"><span data-stu-id="54904-305">A package is a compilable and deployable unit of one or more models.</span></span>
 
-###### <a name="party"></a>**parte**
+###### <a name="party"></a><span data-ttu-id="54904-306">**parte**</span><span class="sxs-lookup"><span data-stu-id="54904-306">**party**</span></span>
 
-Persona u organización que participa en actividades económicas.
+<span data-ttu-id="54904-307">Persona u organización que participa en actividades económicas.</span><span class="sxs-lookup"><span data-stu-id="54904-307">A person or organization that participates in economic activities.</span></span>
 
-###### <a name="pegging"></a>**diagrama de árbol**
+###### <a name="pegging"></a><span data-ttu-id="54904-308">**diagrama de árbol**</span><span class="sxs-lookup"><span data-stu-id="54904-308">**pegging**</span></span>
 
-Proceso de realizar un seguimiento de la cantidad de un artículo requerido de un artículo para identificar su origen.
+<span data-ttu-id="54904-309">Proceso de realizar un seguimiento de la cantidad de un artículo requerido de un artículo para identificar su origen.</span><span class="sxs-lookup"><span data-stu-id="54904-309">The process of tracing the quantity of a required item to its source.</span></span>
 
-###### <a name="pegging-event"></a>**evento de pedido**
+###### <a name="pegging-event"></a><span data-ttu-id="54904-310">**evento de pedido**</span><span class="sxs-lookup"><span data-stu-id="54904-310">**pegging event**</span></span>
 
-Evento de flujo de recursos que señala la demanda de un producto.
+<span data-ttu-id="54904-311">Evento de flujo de recursos que señala la demanda de un producto.</span><span class="sxs-lookup"><span data-stu-id="54904-311">A resource flow event that signals the demand for a product.</span></span>
 
-###### <a name="planned-intercompany-demand"></a>**demanda planificada de empresa vinculada**
+###### <a name="planned-intercompany-demand"></a><span data-ttu-id="54904-312">**demanda planificada de empresa vinculada**</span><span class="sxs-lookup"><span data-stu-id="54904-312">**planned intercompany demand**</span></span>
 
-Demanda prevista de un producto por una entidad jurídica que asume el rol de proveedor. La demanda planificada se genera a partir de una demanda planificada del producto desde una entidad jurídica en sentido descendente.
+<span data-ttu-id="54904-313">Demanda prevista de un producto por una entidad jurídica que asume el rol de proveedor.</span><span class="sxs-lookup"><span data-stu-id="54904-313">Predicted demand for a product by a legal entity that assumes the role of a vendor.</span></span> <span data-ttu-id="54904-314">La demanda planificada se genera a partir de una demanda planificada del producto desde una entidad jurídica en sentido descendente.</span><span class="sxs-lookup"><span data-stu-id="54904-314">The planned demand is generated from planned demand for the product from a downstream legal entity.</span></span>
 
-###### <a name="post"></a>**registrar**
+###### <a name="post"></a><span data-ttu-id="54904-315">**registrar**</span><span class="sxs-lookup"><span data-stu-id="54904-315">**post**</span></span>
 
-Registrar el valor monetario de un evento económico en una cuenta determinada o resumir y reclasificar asientos contables del diario generales y subsidiarios en asientos contables del libro mayor generales y subsidiarios.
+<span data-ttu-id="54904-316">Registrar el valor monetario de un evento económico en una cuenta determinada o resumir y reclasificar asientos contables del diario generales y subsidiarios en asientos contables del libro mayor generales y subsidiarios.</span><span class="sxs-lookup"><span data-stu-id="54904-316">To record the monetary value of an economic event in a specific account, or to summarize and reclassify general and subsidiary journal account entries into general and subsidiary ledger account entries.</span></span>
 
-###### <a name="preparer"></a>**preparador**
+###### <a name="preparer"></a><span data-ttu-id="54904-317">**preparador**</span><span class="sxs-lookup"><span data-stu-id="54904-317">**preparer**</span></span>
 
-Persona que crea un documento de origen para iniciar una solicitud de recursos económicos.
+<span data-ttu-id="54904-318">Persona que crea un documento de origen para iniciar una solicitud de recursos económicos.</span><span class="sxs-lookup"><span data-stu-id="54904-318">The person who creates a source document to initiate a request for economic resources.</span></span>
 
-###### <a name="procurement-catalog"></a>**catálogo de compras**
+###### <a name="procurement-catalog"></a><span data-ttu-id="54904-319">**catálogo de compras**</span><span class="sxs-lookup"><span data-stu-id="54904-319">**procurement catalog**</span></span>
 
-Listado de ofertas de productos que se agrupan por categoría de compras. Un catálogo de compras sirve para solicitar productos para uso interno de una organización.
+<span data-ttu-id="54904-320">Listado de ofertas de productos que se agrupan por categoría de compras.</span><span class="sxs-lookup"><span data-stu-id="54904-320">A listing of product offerings that are grouped by procurement category.</span></span> <span data-ttu-id="54904-321">Un catálogo de compras sirve para solicitar productos para uso interno de una organización.</span><span class="sxs-lookup"><span data-stu-id="54904-321">A procurement catalog is used to request products for internal use by an organization.</span></span>
 
-###### <a name="product-dimension"></a>**dimensión del producto**
+###### <a name="product-dimension"></a><span data-ttu-id="54904-322">**dimensión del producto**</span><span class="sxs-lookup"><span data-stu-id="54904-322">**product dimension**</span></span>
 
-Atributos de tamaño, color o configuración del producto que se utilizan para la configuración de producto basada en dimensiones.
+<span data-ttu-id="54904-323">Atributos de tamaño, color o configuración del producto que se utilizan para la configuración de producto basada en dimensiones.</span><span class="sxs-lookup"><span data-stu-id="54904-323">The size, color, or configuration product attributes that are used for dimension-based product configuration.</span></span>
 
-###### <a name="product-family"></a>**familia de productos**
+###### <a name="product-family"></a><span data-ttu-id="54904-324">**familia de productos**</span><span class="sxs-lookup"><span data-stu-id="54904-324">**product family**</span></span>
 
-Agrupación única de artículos, servicios o derechos que participa en las mismas actividades de producción o entrega, o que se ofrecen a los mismos segmentos de mercado. En Finance and Operations, la agrupación se representa mediante el uso de una clave de asignación de previsión.
+<span data-ttu-id="54904-325">Agrupación única de artículos, servicios o derechos que participa en las mismas actividades de producción o entrega, o que se ofrecen a los mismos segmentos de mercado.</span><span class="sxs-lookup"><span data-stu-id="54904-325">A unique grouping of items, services, or rights that either participates in the same production or delivery activities or that are offered to the same market segments.</span></span> <span data-ttu-id="54904-326">En Finance and Operations, la agrupación se representa mediante el uso de una clave de asignación de previsión.</span><span class="sxs-lookup"><span data-stu-id="54904-326">In Finance and Operations, the grouping is represented by using a forecast allocation key.</span></span>
 
-###### <a name="product-master"></a>**producto maestro**
+###### <a name="product-master"></a><span data-ttu-id="54904-327">**producto maestro**</span><span class="sxs-lookup"><span data-stu-id="54904-327">**product master**</span></span>
 
-Representación estándar o funcional de un producto que es la base para las variantes de producto de configuración.
+<span data-ttu-id="54904-328">Representación estándar o funcional de un producto que es la base para las variantes de producto de configuración.</span><span class="sxs-lookup"><span data-stu-id="54904-328">A standard or functional product representation that is the basis for configuring product variants.</span></span>
 
-###### <a name="product-receipt"></a>**recepción de producto**
+###### <a name="product-receipt"></a><span data-ttu-id="54904-329">**recepción de producto**</span><span class="sxs-lookup"><span data-stu-id="54904-329">**product receipt**</span></span>
 
-Documento de origen que justifica la recepción de productos pedidos, la recepción de productos devueltos o la recepción de productos recibidos en una remesa.
+<span data-ttu-id="54904-330">Documento de origen que justifica la recepción de productos pedidos, la recepción de productos devueltos o la recepción de productos recibidos en una remesa.</span><span class="sxs-lookup"><span data-stu-id="54904-330">A source document that documents the receipt of products ordered, the receipt of products returned, or the receipt of products received on consignment.</span></span>
 
-###### <a name="product-variant"></a>**variante del producto**
+###### <a name="product-variant"></a><span data-ttu-id="54904-331">**variante del producto**</span><span class="sxs-lookup"><span data-stu-id="54904-331">**product variant**</span></span>
 
-Configuración de un producto maestro.
+<span data-ttu-id="54904-332">Configuración de un producto maestro.</span><span class="sxs-lookup"><span data-stu-id="54904-332">A configuration of a product master.</span></span>
 
-###### <a name="production-flow"></a>**flujo de producción**
+###### <a name="production-flow"></a><span data-ttu-id="54904-333">**flujo de producción**</span><span class="sxs-lookup"><span data-stu-id="54904-333">**production flow**</span></span>
 
-Proceso de producción diseñado mediante principios Lean.
+<span data-ttu-id="54904-334">Proceso de producción diseñado mediante principios Lean.</span><span class="sxs-lookup"><span data-stu-id="54904-334">A production process designed using Lean principles.</span></span>
 
-###### <a name="production-flow-model"></a>**modelo de flujo de producción**
+###### <a name="production-flow-model"></a><span data-ttu-id="54904-335">**modelo de flujo de producción**</span><span class="sxs-lookup"><span data-stu-id="54904-335">**production flow model**</span></span>
 
-Representación de la capacidad de producción proporcionada por un grupo de celdas de trabajo en un proceso de flujo de producción.
+<span data-ttu-id="54904-336">Representación de la capacidad de producción proporcionada por un grupo de celdas de trabajo en un proceso de flujo de producción.</span><span class="sxs-lookup"><span data-stu-id="54904-336">A representation of the production capacity provided by a group of work cells in a production flow process.</span></span>
 
-###### <a name="production-order"></a>**pedido de producción**
+###### <a name="production-order"></a><span data-ttu-id="54904-337">**pedido de producción**</span><span class="sxs-lookup"><span data-stu-id="54904-337">**production order**</span></span>
 
-Documento de origen que justifica los requisitos para producir artículos que satisfagan una demanda.
+<span data-ttu-id="54904-338">Documento de origen que justifica los requisitos para producir artículos que satisfagan una demanda.</span><span class="sxs-lookup"><span data-stu-id="54904-338">A source document that documents the requirements for producing items to meet a demand.</span></span>
 
-###### <a name="production-schedule"></a>**previsión de producción**
+###### <a name="production-schedule"></a><span data-ttu-id="54904-339">**previsión de producción**</span><span class="sxs-lookup"><span data-stu-id="54904-339">**production schedule**</span></span>
 
-Programación para producir un artículo y una cantidad de artículos en particular en un tiempo determinado y con recursos humanos y operativos determinados.
+<span data-ttu-id="54904-340">Programación para producir un artículo y una cantidad de artículos en particular en un tiempo determinado y con recursos humanos y operativos determinados.</span><span class="sxs-lookup"><span data-stu-id="54904-340">A schedule to produce a specific item and item quantity at a specific time and by specific human and operational resources.</span></span>
 
-###### <a name="prospect"></a>**cliente potencial**
+###### <a name="prospect"></a><span data-ttu-id="54904-341">**cliente potencial**</span><span class="sxs-lookup"><span data-stu-id="54904-341">**prospect**</span></span>
 
-Participante que tiene la capacidad existente y potencial de proporcionar un servicio o una probable prestación económica en el futuro a una entidad jurídica.
+<span data-ttu-id="54904-342">Participante que tiene la capacidad existente y potencial de proporcionar un servicio o una probable prestación económica en el futuro a una entidad jurídica.</span><span class="sxs-lookup"><span data-stu-id="54904-342">A participant that has the existing and potential ability to provide a service or probable future economic benefit to a legal entity.</span></span>
 
-###### <a name="purchase-agreement-policy"></a>**directiva de acuerdo de compra**
+###### <a name="purchase-agreement-policy"></a><span data-ttu-id="54904-343">**directiva de acuerdo de compra**</span><span class="sxs-lookup"><span data-stu-id="54904-343">**purchase agreement policy**</span></span>
 
-Directiva que autoriza a las partes a modificar los términos del acuerdo de compra.
+<span data-ttu-id="54904-344">Directiva que autoriza a las partes a modificar los términos del acuerdo de compra.</span><span class="sxs-lookup"><span data-stu-id="54904-344">A policy that authorizes parties to modify purchase agreement terms.</span></span>
 
-###### <a name="purchase-order-policy"></a>**directiva de pedido de compra**
+###### <a name="purchase-order-policy"></a><span data-ttu-id="54904-345">**directiva de pedido de compra**</span><span class="sxs-lookup"><span data-stu-id="54904-345">**purchase order policy**</span></span>
 
-Directiva que autoriza a las partes a modificar los términos del pedido de compra y controlar el procesamiento del pedido.
+<span data-ttu-id="54904-346">Directiva que autoriza a las partes a modificar los términos del pedido de compra y controlar el procesamiento del pedido.</span><span class="sxs-lookup"><span data-stu-id="54904-346">A policy that authorizes parties to modify purchase order terms and to control order processing.</span></span>
 
-###### <a name="purchase-quotation"></a>**presupuesto de compra**
+###### <a name="purchase-quotation"></a><span data-ttu-id="54904-347">**presupuesto de compra**</span><span class="sxs-lookup"><span data-stu-id="54904-347">**purchase quotation**</span></span>
 
-Documento de origen que justifica una oferta para comprar una cantidad de producto por un precio determinado y antes de una fecha determinada en respuesta a una solicitud de presupuesto en un proceso de compra.
+<span data-ttu-id="54904-348">Documento de origen que justifica una oferta para comprar una cantidad de producto por un precio determinado y antes de una fecha determinada en respuesta a una solicitud de presupuesto en un proceso de compra.</span><span class="sxs-lookup"><span data-stu-id="54904-348">A source document that documents an offer to purchase a quantity of product for a specified price and by a specified date in response to a request for quotation in a procurement process.</span></span>
 
-###### <a name="purchase-requisition"></a>**solicitud de compra**
+###### <a name="purchase-requisition"></a><span data-ttu-id="54904-349">**solicitud de compra**</span><span class="sxs-lookup"><span data-stu-id="54904-349">**purchase requisition**</span></span>
 
-Documento de origen que justifica solicitudes de producto de manera que se puedan enviar a un proceso de revisión y se puedan utilizar para autorizar compras de una organización de compras.
+<span data-ttu-id="54904-350">Documento de origen que justifica solicitudes de producto de manera que se puedan enviar a un proceso de revisión y se puedan utilizar para autorizar compras de una organización de compras.</span><span class="sxs-lookup"><span data-stu-id="54904-350">A source document that documents product requests so that they can be submitted for review and be used to authorize purchasing by a purchasing organization.</span></span>
 
-### <a name="q"></a>**Q**
+### <a name="q"></a><span data-ttu-id="54904-351">**Q**</span><span class="sxs-lookup"><span data-stu-id="54904-351">**Q**</span></span>
 
-###### <a name="quantity-variance"></a>**desviación de cantidad**
+###### <a name="quantity-variance"></a><span data-ttu-id="54904-352">**desviación de cantidad**</span><span class="sxs-lookup"><span data-stu-id="54904-352">**quantity variance**</span></span>
 
-Diferencia entre una cantidad de producto pedido y una cantidad de producto recibido cuando no se espera ninguna otra recepción.
+<span data-ttu-id="54904-353">Diferencia entre una cantidad de producto pedido y una cantidad de producto recibido cuando no se espera ninguna otra recepción.</span><span class="sxs-lookup"><span data-stu-id="54904-353">The difference between an ordered product quantity and a received product quantity when no more receipts are expected.</span></span>
 
-### <a name="r"></a>**R**
+### <a name="r"></a><span data-ttu-id="54904-354">**R**</span><span class="sxs-lookup"><span data-stu-id="54904-354">**R**</span></span>
 
-###### <a name="receipt-advice"></a>**aviso de recepción**
+###### <a name="receipt-advice"></a><span data-ttu-id="54904-355">**aviso de recepción**</span><span class="sxs-lookup"><span data-stu-id="54904-355">**receipt advice**</span></span>
 
-Documento empresarial que justifica un resumen de los productos que recibe un comprador de un proveedor.
+<span data-ttu-id="54904-356">Documento empresarial que justifica un resumen de los productos que recibe un comprador de un proveedor.</span><span class="sxs-lookup"><span data-stu-id="54904-356">A business document that documents a summary of the products a buyer receives from a vendor.</span></span>
 
-###### <a name="reconciliation"></a>**conciliación**
+###### <a name="reconciliation"></a><span data-ttu-id="54904-357">**conciliación**</span><span class="sxs-lookup"><span data-stu-id="54904-357">**reconciliation**</span></span>
 
-Práctica de ajustar dos o más cuentas o extractos para que las cifras concuerden.
+<span data-ttu-id="54904-358">Práctica de ajustar dos o más cuentas o extractos para que las cifras concuerden.</span><span class="sxs-lookup"><span data-stu-id="54904-358">A practice of adjusting two or more accounts or statements so that the figures agree.</span></span>
 
-###### <a name="reduction-key"></a>**clave de reducción**
+###### <a name="reduction-key"></a><span data-ttu-id="54904-359">**clave de reducción**</span><span class="sxs-lookup"><span data-stu-id="54904-359">**reduction key**</span></span>
 
-Método que se utiliza para aumentar o disminuir los requisitos de previsión en la planificación maestra a partir de los porcentajes definidos por el usuario que se aplican durante períodos específicos.
+<span data-ttu-id="54904-360">Método que se utiliza para aumentar o disminuir los requisitos de previsión en la planificación maestra a partir de los porcentajes definidos por el usuario que se aplican durante períodos específicos.</span><span class="sxs-lookup"><span data-stu-id="54904-360">A method that is used to increase or decrease forecast requirements in master planning, based on user defined percentages that are applied during specific periods.</span></span>
 
-###### <a name="register"></a>**registro**
+###### <a name="register"></a><span data-ttu-id="54904-361">**registro**</span><span class="sxs-lookup"><span data-stu-id="54904-361">**register**</span></span>
 
-Registro que se utiliza para registrar las consecuencias operativas, legales y financieras de eventos de flujo de recursos en un sistema contable.
+<span data-ttu-id="54904-362">Registro que se utiliza para registrar las consecuencias operativas, legales y financieras de eventos de flujo de recursos en un sistema contable.</span><span class="sxs-lookup"><span data-stu-id="54904-362">A record that is used to record the operational, legal, and financial consequences of resource flow events in an accounting system.</span></span>
 
-###### <a name="rfq-request-for-quotation"></a>**solicitud de presupuesto**
+###### <a name="rfq-request-for-quotation"></a><span data-ttu-id="54904-363">**solicitud de presupuesto**</span><span class="sxs-lookup"><span data-stu-id="54904-363">**RFQ (request for quotation)**</span></span>
 
-Documento de origen que justifica una invitación a una oferta para suministrar una cantidad de producto por un precio determinado y antes de una fecha determinada.
+<span data-ttu-id="54904-364">Documento de origen que justifica una invitación a una oferta para suministrar una cantidad de producto por un precio determinado y antes de una fecha determinada.</span><span class="sxs-lookup"><span data-stu-id="54904-364">A source document that documents an invitation to bid on supplying a quantity of product for a specified price and by a specified date.</span></span>
 
-###### <a name="requester"></a>**solicitante**
+###### <a name="requester"></a><span data-ttu-id="54904-365">**solicitante**</span><span class="sxs-lookup"><span data-stu-id="54904-365">**requester**</span></span>
 
-Persona que solicita los recursos económicos.
+<span data-ttu-id="54904-366">Persona que solicita los recursos económicos.</span><span class="sxs-lookup"><span data-stu-id="54904-366">The person who requests the economic resources.</span></span>
 
 
-### <a name="s"></a>**S**
+### <a name="s"></a><span data-ttu-id="54904-367">**S**</span><span class="sxs-lookup"><span data-stu-id="54904-367">**S**</span></span>
 
-###### <a name="sales-agreement"></a>**acuerdo de ventas**
+###### <a name="sales-agreement"></a><span data-ttu-id="54904-368">**acuerdo de ventas**</span><span class="sxs-lookup"><span data-stu-id="54904-368">**sales agreement**</span></span>
 
-Documento de origen que justifica un contrato entre dos o más partes basado en un pacto por el que una parte que desea vender se compromete a vender una cantidad o un valor en particular de un producto durante un período de tiempo a cambio de precios y descuentos favorables.
+<span data-ttu-id="54904-369">Documento de origen que justifica un contrato entre dos o más partes basado en un pacto por el que una parte que desea vender se compromete a vender una cantidad o un valor en particular de un producto durante un período de tiempo a cambio de precios y descuentos favorables.</span><span class="sxs-lookup"><span data-stu-id="54904-369">A source document that documents an agreement between two or more parties based on an understanding that a selling party will commit to selling a specific quantity or value of product over a period of time in exchange for favorable prices and discounts.</span></span>
 
-###### <a name="sales-agreement-policy"></a>**directiva de acuerdo de venta**
+###### <a name="sales-agreement-policy"></a><span data-ttu-id="54904-370">**directiva de acuerdo de venta**</span><span class="sxs-lookup"><span data-stu-id="54904-370">**sales agreement policy**</span></span>
 
-Directiva que autoriza a las partes a modificar los términos del acuerdo de venta.
+<span data-ttu-id="54904-371">Directiva que autoriza a las partes a modificar los términos del acuerdo de venta.</span><span class="sxs-lookup"><span data-stu-id="54904-371">A policy that authorizes parties to modify sales agreement terms.</span></span>
 
-###### <a name="sales-order-policy"></a>**directiva de pedido de venta**
+###### <a name="sales-order-policy"></a><span data-ttu-id="54904-372">**directiva de pedido de venta**</span><span class="sxs-lookup"><span data-stu-id="54904-372">**sales order policy**</span></span>
 
-Directiva que autoriza a las partes a modificar los términos del pedido de ventas y controlar el procesamiento del pedido y los procesos de pago.
+<span data-ttu-id="54904-373">Directiva que autoriza a las partes a modificar los términos del pedido de ventas y controlar el procesamiento del pedido y los procesos de pago.</span><span class="sxs-lookup"><span data-stu-id="54904-373">A policy that authorizes parties to modify sales order terms and to control order processing and payment processes.</span></span>
 
-###### <a name="sales-quotation"></a>**presupuesto de ventas**
+###### <a name="sales-quotation"></a><span data-ttu-id="54904-374">**presupuesto de ventas**</span><span class="sxs-lookup"><span data-stu-id="54904-374">**sales quotation**</span></span>
 
-Documento de origen que justifica una oferta para suministrar una cantidad de producto por un precio determinado y antes de una fecha determinada en respuesta a una solicitud de presupuesto en un proceso de ventas.
+<span data-ttu-id="54904-375">Documento de origen que justifica una oferta para suministrar una cantidad de producto por un precio determinado y antes de una fecha determinada en respuesta a una solicitud de presupuesto en un proceso de ventas.</span><span class="sxs-lookup"><span data-stu-id="54904-375">A source document that documents an offer to supply a quantity of product for a specified price and by a specified date in response to a request for quotation in a sales process.</span></span>
 
-###### <a name="security-role"></a>**rol de seguridad**
+###### <a name="security-role"></a><span data-ttu-id="54904-376">**rol de seguridad**</span><span class="sxs-lookup"><span data-stu-id="54904-376">**security role**</span></span>
 
-Conjunto definido de privilegios de acceso a aplicaciones. El rol de seguridad asignado a un usuario determina qué tarea puede realizar el usuario y qué partes de la interfaz del usuario puede ver el usuario. Se debe asignar al menos un rol de seguridad a todos los usuarios para que tengan acceso al sistema.
+<span data-ttu-id="54904-377">Conjunto definido de privilegios de acceso a aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="54904-377">A defined set of application access privileges.</span></span> <span data-ttu-id="54904-378">El rol de seguridad asignado a un usuario determina qué tarea puede realizar el usuario y qué partes de la interfaz del usuario puede ver el usuario.</span><span class="sxs-lookup"><span data-stu-id="54904-378">The security role assigned to a user determines which tasks the user can perform and which parts of the user interface the user can view.</span></span> <span data-ttu-id="54904-379">Se debe asignar al menos un rol de seguridad a todos los usuarios para que tengan acceso al sistema.</span><span class="sxs-lookup"><span data-stu-id="54904-379">All users must be assigned at least one security role in order to access the system.</span></span>
 
-###### <a name="segregation-of-duties"></a>**segregación de controles**
+###### <a name="segregation-of-duties"></a><span data-ttu-id="54904-380">**segregación de controles**</span><span class="sxs-lookup"><span data-stu-id="54904-380">**segregation of duties**</span></span>
 
-Principio de diseño utilizado para reducir el riesgo de fraude, irregularidades y errores que separa el registro, la verificación, la autorización, la custodia de activos y los deberes de revisión periódica de las personas que documentan o registran las consecuencias financieras de transacciones económicas o bien participan en ellas.
+<span data-ttu-id="54904-381">Principio de diseño utilizado para reducir el riesgo de fraude, irregularidades y errores que separa el registro, la verificación, la autorización, la custodia de activos y los deberes de revisión periódica de las personas que documentan o registran las consecuencias financieras de transacciones económicas o bien participan en ellas.</span><span class="sxs-lookup"><span data-stu-id="54904-381">A design principle used to reduce the risk of fraud, irregularities, and errors that separates the recording, verification, authorization, custody of assets, and periodic review duties of people who participate in, document, or record the financial consequences of economic transactions.</span></span>
 
-###### <a name="sequencing"></a>**secuenciación**
+###### <a name="sequencing"></a><span data-ttu-id="54904-382">**secuenciación**</span><span class="sxs-lookup"><span data-stu-id="54904-382">**sequencing**</span></span>
 
-Orden en que se procesan trabajos o se realizan operaciones en unas instalaciones de fabricación para lograr los objetivos.
+<span data-ttu-id="54904-383">Orden en que se procesan trabajos o se realizan operaciones en unas instalaciones de fabricación para lograr los objetivos.</span><span class="sxs-lookup"><span data-stu-id="54904-383">The order in which jobs are processed or operations are performed at a manufacturing facility to achieve objectives.</span></span>
 
-###### <a name="shared-asset"></a>**activo compartido**
+###### <a name="shared-asset"></a><span data-ttu-id="54904-384">**activo compartido**</span><span class="sxs-lookup"><span data-stu-id="54904-384">**shared asset**</span></span>
 
-Activo que se utiliza en más de una unidad generadora de efectivo (CGU). Un ejemplo es un centro de distribución utilizado para almacenar artículos antes de su transporte a distintos mercados que comparten en el mismo centro de distribución.
+<span data-ttu-id="54904-385">Activo que se utiliza en más de una unidad generadora de efectivo (CGU).</span><span class="sxs-lookup"><span data-stu-id="54904-385">An asset that is used by more than one cash-generating unit (CGU).</span></span> <span data-ttu-id="54904-386">Un ejemplo es un centro de distribución utilizado para almacenar artículos antes de su transporte a distintos mercados que comparten en el mismo centro de distribución.</span><span class="sxs-lookup"><span data-stu-id="54904-386">An example is a distribution center that is used to store items before they are transported to different markets that share that same distribution center.</span></span>
 
-###### <a name="single-use-kanban"></a>**kanban de un solo uso**
+###### <a name="single-use-kanban"></a><span data-ttu-id="54904-387">**kanban de un solo uso**</span><span class="sxs-lookup"><span data-stu-id="54904-387">**single use kanban**</span></span>
 
-Tipo de kanban que se utiliza con una regla kanban de cantidad fija para satisfacer una demanda excepcionalmente alta. Kanban de un solo uso que no desencadena un kanban nuevo cuando se descarta.
+<span data-ttu-id="54904-388">Tipo de kanban que se utiliza con una regla kanban de cantidad fija para satisfacer una demanda excepcionalmente alta.</span><span class="sxs-lookup"><span data-stu-id="54904-388">A type of kanban that is used with a fixed quantity kanban rule to meet exceptionally high demand.</span></span> <span data-ttu-id="54904-389">Kanban de un solo uso que no desencadena un kanban nuevo cuando se descarta.</span><span class="sxs-lookup"><span data-stu-id="54904-389">A single use kanban does not trigger a new kanban when it is discarded.</span></span>
 
-###### <a name="smart-rounding"></a>**redondeo psicológico**
+###### <a name="smart-rounding"></a><span data-ttu-id="54904-390">**redondeo psicológico**</span><span class="sxs-lookup"><span data-stu-id="54904-390">**smart rounding**</span></span>
 
-Práctica de marketing que utiliza números impares que son marginalmente menores que su número redondo más próximo a la hora de establecer precios.
+<span data-ttu-id="54904-391">Práctica de marketing que utiliza números impares que son marginalmente menores que su número redondo más próximo a la hora de establecer precios.</span><span class="sxs-lookup"><span data-stu-id="54904-391">A marketing practice to use odd numbers that are marginally less than their nearest round number to set prices.</span></span>
 
-###### <a name="source-requirement"></a>**requisito de origen**
+###### <a name="source-requirement"></a><span data-ttu-id="54904-392">**requisito de origen**</span><span class="sxs-lookup"><span data-stu-id="54904-392">**source requirement**</span></span>
 
-Cantidad de producto justificada en una línea de documento de origen que crea un requisito de diagrama de árbol.
+<span data-ttu-id="54904-393">Cantidad de producto justificada en una línea de documento de origen que crea un requisito de diagrama de árbol.</span><span class="sxs-lookup"><span data-stu-id="54904-393">The product quantity documented on a source document line that creates a pegging requirement.</span></span>
 
-###### <a name="statistical-baseline-forecast"></a>**previsión estadística de línea base**
+###### <a name="statistical-baseline-forecast"></a><span data-ttu-id="54904-394">**previsión estadística de línea base**</span><span class="sxs-lookup"><span data-stu-id="54904-394">**statistical baseline forecast**</span></span>
 
-Estimación de la demanda futura que se crea aplicando un algoritmo de previsión a datos de transacciones históricos.
+<span data-ttu-id="54904-395">Estimación de la demanda futura que se crea aplicando un algoritmo de previsión a datos de transacciones históricos.</span><span class="sxs-lookup"><span data-stu-id="54904-395">An estimate of future demand that is created by applying a forecasting algorithm to historical transaction data.</span></span>
 
 
-### <a name="t"></a>**T**
+### <a name="t"></a><span data-ttu-id="54904-396">**T**</span><span class="sxs-lookup"><span data-stu-id="54904-396">**T**</span></span>
 
-###### <a name="takt-time"></a>**ritmo de producción**
+###### <a name="takt-time"></a><span data-ttu-id="54904-397">**ritmo de producción**</span><span class="sxs-lookup"><span data-stu-id="54904-397">**takt time**</span></span>
 
-Tiempo que se tarda en producir una sola unidad de un producto.
+<span data-ttu-id="54904-398">Tiempo que se tarda en producir una sola unidad de un producto.</span><span class="sxs-lookup"><span data-stu-id="54904-398">The time that it takes to produce one unit of a product.</span></span>
 
-###### <a name="task-guide"></a>**guía de tareas**
+###### <a name="task-guide"></a><span data-ttu-id="54904-399">**guía de tareas**</span><span class="sxs-lookup"><span data-stu-id="54904-399">**Task guide**</span></span>
 
-Experiencia controlada y dirigida a través de los pasos de una grabación de tareas. Una Guía de tareas dirige al usuario en la experiencia grabada. Al completar una Guía de tareas todos los comportamientos de seguridad, datos y aplicaciones son idénticos a los que hay cuando no se utiliza la Guía de tareas. La Guía de tareas utiliza la misma instrumentación que el Grabador de tareas para saber cuándo ha completado el usuario el paso previsto, a fin de poder pedir al usuario que realice el siguiente paso de la grabación.
+<span data-ttu-id="54904-400">Experiencia controlada y dirigida a través de los pasos de una grabación de tareas.</span><span class="sxs-lookup"><span data-stu-id="54904-400">A controlled, guided experience through the steps in a Task recording.</span></span> <span data-ttu-id="54904-401">Una Guía de tareas dirige al usuario en la experiencia grabada.</span><span class="sxs-lookup"><span data-stu-id="54904-401">A Task guide leads the user through the experience that was recorded.</span></span> <span data-ttu-id="54904-402">Al completar una Guía de tareas todos los comportamientos de seguridad, datos y aplicaciones son idénticos a los que hay cuando no se utiliza la Guía de tareas.</span><span class="sxs-lookup"><span data-stu-id="54904-402">All security, data, and application behaviors are the same when completing a Task guide as they are without the Task guide.</span></span> <span data-ttu-id="54904-403">La Guía de tareas utiliza la misma instrumentación que el Grabador de tareas para saber cuándo ha completado el usuario el paso previsto, a fin de poder pedir al usuario que realice el siguiente paso de la grabación.</span><span class="sxs-lookup"><span data-stu-id="54904-403">The Task guide uses the same instrumentation as Task recorder to know when a user has completed the intended step, so that it can prompt the user to take the next step in the recording.</span></span>
 
-###### <a name="task-recorder"></a>**Grabador de tareas**
+###### <a name="task-recorder"></a><span data-ttu-id="54904-404">**Grabador de tareas**</span><span class="sxs-lookup"><span data-stu-id="54904-404">**Task recorder**</span></span>
 
-Herramienta preinstalada en Finance and Operations. Durante la grabación, graba todos los eventos introducidos por el usuario a través de la interfaz de usuario de Finance and Operations que se ejecutan en el servidor (incluidos valores añadidos, opciones de configuración modificadas, datos eliminados, etc.).
+<span data-ttu-id="54904-405">Herramienta preinstalada en Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="54904-405">A tool that is pre-installed in Finance and Operations.</span></span> <span data-ttu-id="54904-406">Durante la grabación, graba todos los eventos introducidos por el usuario a través de la interfaz de usuario de Finance and Operations que se ejecutan en el servidor (incluidos valores añadidos, opciones de configuración modificadas, datos eliminados, etc.).</span><span class="sxs-lookup"><span data-stu-id="54904-406">When recording, it records all events that the user enters in the Finance and Operations user interface that get executed against the server—including values added, settings changed, data removed, etc.</span></span>
 
-###### <a name="task-recording"></a>**Grabación de tareas**
+###### <a name="task-recording"></a><span data-ttu-id="54904-407">**Grabación de tareas**</span><span class="sxs-lookup"><span data-stu-id="54904-407">**Task recording**</span></span>
 
-Archivo que contiene las acciones y anotaciones que se capturan cuando se ejecuta el Grabador de tareas en Finance and Operations.
+<span data-ttu-id="54904-408">Archivo que contiene las acciones y anotaciones que se capturan cuando se ejecuta el Grabador de tareas en Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="54904-408">A file that contains the actions and annotations that are captured when Task recorder is run in Finance and Operations.</span></span>
 
-###### <a name="three-way-matching-policy"></a>**directiva de triple conciliación**
+###### <a name="three-way-matching-policy"></a><span data-ttu-id="54904-409">**directiva de triple conciliación**</span><span class="sxs-lookup"><span data-stu-id="54904-409">**three-way matching policy**</span></span>
 
-Directiva de conciliación que requiere que uno o más precios de la factura de proveedor coincidan con uno o más precios del pedido de compra y que requiere que una o más cantidades de la factura de proveedor coincidan con una o más cantidades de la recepción de producto.
+<span data-ttu-id="54904-410">Directiva de conciliación que requiere que uno o más precios de la factura de proveedor coincidan con uno o más precios del pedido de compra y que requiere que una o más cantidades de la factura de proveedor coincidan con una o más cantidades de la recepción de producto.</span><span class="sxs-lookup"><span data-stu-id="54904-410">A matching policy that requires one or more vendor invoice prices to match with one or more purchase order prices and that requires one or more vendor invoice quantities to match with one or more product receipt quantities.</span></span>
 
-###### <a name="transfer-batch"></a>**lote de transferencia**
+###### <a name="transfer-batch"></a><span data-ttu-id="54904-411">**lote de transferencia**</span><span class="sxs-lookup"><span data-stu-id="54904-411">**transfer batch**</span></span>
 
-Cantidad de uno o más artículos que se transfiere o que se puede transferir.
+<span data-ttu-id="54904-412">Cantidad de uno o más artículos que se transfiere o que se puede transferir.</span><span class="sxs-lookup"><span data-stu-id="54904-412">The quantity of one or more items that is transferred or that can be transferred.</span></span>
 
-###### <a name="two-way-matching-policy"></a>**directiva de doble conciliación**
+###### <a name="two-way-matching-policy"></a><span data-ttu-id="54904-413">**directiva de doble conciliación**</span><span class="sxs-lookup"><span data-stu-id="54904-413">**two-way matching policy**</span></span>
 
-Directiva de conciliación que requiere que uno o más precios de la factura de proveedor coincidan con uno o más precios del pedido de compra.
+<span data-ttu-id="54904-414">Directiva de conciliación que requiere que uno o más precios de la factura de proveedor coincidan con uno o más precios del pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="54904-414">A matching policy that requires one or more vendor invoice prices to match with one or more purchase order prices.</span></span>
 
-### <a name="v"></a>**V**
+### <a name="v"></a><span data-ttu-id="54904-415">**V**</span><span class="sxs-lookup"><span data-stu-id="54904-415">**V**</span></span>
 
-###### <a name="value-stream"></a>**flujo de valor**
+###### <a name="value-stream"></a><span data-ttu-id="54904-416">**flujo de valor**</span><span class="sxs-lookup"><span data-stu-id="54904-416">**value stream**</span></span>
 
-Unidad operativa que controla uno o más flujos de producción.
+<span data-ttu-id="54904-417">Unidad operativa que controla uno o más flujos de producción.</span><span class="sxs-lookup"><span data-stu-id="54904-417">An operating unit that controls one or more production flows.</span></span>
 
-###### <a name="variant-configuration-technology"></a>**tecnología de configuración de variantes**
+###### <a name="variant-configuration-technology"></a><span data-ttu-id="54904-418">**tecnología de configuración de variantes**</span><span class="sxs-lookup"><span data-stu-id="54904-418">**variant configuration technology**</span></span>
 
-Método de modelar de productos maestros y buscar configuraciones de variantes del producto.
+<span data-ttu-id="54904-419">Método de modelar de productos maestros y buscar configuraciones de variantes del producto.</span><span class="sxs-lookup"><span data-stu-id="54904-419">A method of modeling product masters and searching for product variant configurations.</span></span>
 
-###### <a name="vat-value-added-tax"></a>**IVA (impuesto sobre el valor añadido)**
+###### <a name="vat-value-added-tax"></a><span data-ttu-id="54904-420">**IVA (impuesto sobre el valor añadido)**</span><span class="sxs-lookup"><span data-stu-id="54904-420">**VAT (value-added tax)**</span></span>
 
-Impuesto aplicado a productos en cada fase de su producción en base al valor añadido durante dicha fase.
+<span data-ttu-id="54904-421">Impuesto aplicado a productos en cada fase de su producción en base al valor añadido durante dicha fase.</span><span class="sxs-lookup"><span data-stu-id="54904-421">A tax on products at each stage of their production based on the value added during that stage.</span></span>
 
-###### <a name="vendor-catalog"></a>**catálogo de proveedores**
+###### <a name="vendor-catalog"></a><span data-ttu-id="54904-422">**catálogo de proveedores**</span><span class="sxs-lookup"><span data-stu-id="54904-422">**vendor catalog**</span></span>
 
-Listado de ofertas de productos que están disponibles para comprar a un proveedor.
+<span data-ttu-id="54904-423">Listado de ofertas de productos que están disponibles para comprar a un proveedor.</span><span class="sxs-lookup"><span data-stu-id="54904-423">A listing of product offerings that are available for purchase from a vendor.</span></span>
 
-###### <a name="vendor-invoice"></a>**factura de proveedor**
+###### <a name="vendor-invoice"></a><span data-ttu-id="54904-424">**factura de proveedor**</span><span class="sxs-lookup"><span data-stu-id="54904-424">**vendor invoice**</span></span>
 
-Documento de origen que justifica una solicitud de pago de un proveedor. Una factura de proveedor puede remitir a uno o varios pedidos de compra. Cuando la factura de proveedor se autoriza, se puede realizar un pago al proveedor.
+<span data-ttu-id="54904-425">Documento de origen que justifica una solicitud de pago de un proveedor.</span><span class="sxs-lookup"><span data-stu-id="54904-425">A source document that documents a vendor payment request.</span></span> <span data-ttu-id="54904-426">Una factura de proveedor puede remitir a uno o varios pedidos de compra.</span><span class="sxs-lookup"><span data-stu-id="54904-426">A vendor invoice can refer to one or more purchase orders.</span></span> <span data-ttu-id="54904-427">Cuando la factura de proveedor se autoriza, se puede realizar un pago al proveedor.</span><span class="sxs-lookup"><span data-stu-id="54904-427">When the vendor invoice is authorized, a payment can be made to the vendor.</span></span>
 
-### <a name="w"></a>**W**
+### <a name="w"></a><span data-ttu-id="54904-428">**W**</span><span class="sxs-lookup"><span data-stu-id="54904-428">**W**</span></span>
 
-###### <a name="work-cell"></a>**celda de trabajo**
+###### <a name="work-cell"></a><span data-ttu-id="54904-429">**celda de trabajo**</span><span class="sxs-lookup"><span data-stu-id="54904-429">**work cell**</span></span>
 
-Grupo de recursos que participa en una actividad de flujo de producción.
+<span data-ttu-id="54904-430">Grupo de recursos que participa en una actividad de flujo de producción.</span><span class="sxs-lookup"><span data-stu-id="54904-430">A resource group that participates in a production flow activity.</span></span>
 
-###### <a name="worker"></a>**trabajador**
+###### <a name="worker"></a><span data-ttu-id="54904-431">**trabajador**</span><span class="sxs-lookup"><span data-stu-id="54904-431">**worker**</span></span>
 
-Persona que asume el rol de un empleado o un contratista y cobra a cambio de sus servicios.
+<span data-ttu-id="54904-432">Persona que asume el rol de un empleado o un contratista y cobra a cambio de sus servicios.</span><span class="sxs-lookup"><span data-stu-id="54904-432">A person who assumes the role of an employee or a contractor and is paid in exchange for services.</span></span>
 
-###### <a name="workspace"></a>**espacio de trabajo**
+###### <a name="workspace"></a><span data-ttu-id="54904-433">**espacio de trabajo**</span><span class="sxs-lookup"><span data-stu-id="54904-433">**workspace**</span></span>
 
-Página que proporciona una visión general de una de las actividades realizadas por el usuario. En la página se usan iconos, listas y gráficos para mostrar el trabajo pendiente y datos relacionados de varios recursos, y se destacan tareas frecuentes relacionadas con estos datos. Los iconos mostrados en la sección de resumen del espacio de trabajo también se muestran en la sección correspondiente del panel de información.
+<span data-ttu-id="54904-434">Página que proporciona una visión general de una de las actividades realizadas por el usuario.</span><span class="sxs-lookup"><span data-stu-id="54904-434">A page that provides an overview of one of the activities that the user performs.</span></span> <span data-ttu-id="54904-435">En la página se usan iconos, listas y gráficos para mostrar el trabajo pendiente y datos relacionados de varios recursos, y se destacan tareas frecuentes relacionadas con estos datos.</span><span class="sxs-lookup"><span data-stu-id="54904-435">The page uses tiles, lists, and charts to display pending work and related data from multiple sources, and the page surfaces frequent tasks related to this data.</span></span> <span data-ttu-id="54904-436">Los iconos mostrados en la sección de resumen del espacio de trabajo también se muestran en la sección correspondiente del panel de información.</span><span class="sxs-lookup"><span data-stu-id="54904-436">Tiles shown in the summary section of the workspace are also displayed in the related section in the dashboard.</span></span>
 

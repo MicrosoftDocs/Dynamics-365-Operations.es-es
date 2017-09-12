@@ -17,81 +17,81 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 4c2456fffd9a010728154749b35c58db13f142bb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 45e1e54c807597d4d5ff7370748012cbf28c1c6b
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Configurar una directiva de ubicación para apartar un pedido de trabajo
+# <a name="set-up-a-location-directive-for-purchase-order-put-away"></a><span data-ttu-id="18a6b-103">Configurar una directiva de ubicación para apartar un pedido de trabajo</span><span class="sxs-lookup"><span data-stu-id="18a6b-103">Set up a location directive for purchase order put-away</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo configurar una directiva de ubicación sencilla. El ejemplo que se muestra crea una directiva de ubicación que se usará para determinar dónde colocar los artículos recibidos para un pedido de compra. Puede reproducir esta guía de tarea con los datos mencionados usando para ello la empresa de demostración USMF. Condiciones previas: necesita crear un código de disposición. En este procedimiento usamos un código de disposición llamado Relabel. Si está creando una directiva de ubicación en sus propios datos, debe haber configurado la gestión de almacenes avanzada para su almacén y sus artículos.  Este procedimiento va destinado al encargado de almacén.
+<span data-ttu-id="18a6b-104">Este procedimiento muestra cómo configurar una directiva de ubicación sencilla.</span><span class="sxs-lookup"><span data-stu-id="18a6b-104">This procedure shows you how to set up a simple location directive.</span></span> <span data-ttu-id="18a6b-105">El ejemplo que se muestra crea una directiva de ubicación que se usará para determinar dónde colocar los artículos recibidos para un pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="18a6b-105">The example that’s shown creates a location directive to be used to determine where to put items that have been received for a purchase order.</span></span> <span data-ttu-id="18a6b-106">Puede reproducir esta guía de tarea con los datos mencionados usando para ello la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="18a6b-106">You can play this task guide with the data mentioned using demo data company USMF.</span></span> <span data-ttu-id="18a6b-107">Condiciones previas: necesita crear un código de disposición.</span><span class="sxs-lookup"><span data-stu-id="18a6b-107">Pre-conditions: You need to create a disposition code.</span></span> <span data-ttu-id="18a6b-108">En este procedimiento usamos un código de disposición llamado Relabel.</span><span class="sxs-lookup"><span data-stu-id="18a6b-108">In this procedure we use a disposition code called Relabel.</span></span> <span data-ttu-id="18a6b-109">Si está creando una directiva de ubicación en sus propios datos, debe haber configurado la gestión de almacenes avanzada para su almacén y sus artículos.</span><span class="sxs-lookup"><span data-stu-id="18a6b-109">If you’re creating a location directive in your own data, you need to have set up advanced warehouse management for your warehouse and items.</span></span>  <span data-ttu-id="18a6b-110">Este procedimiento va destinado al encargado de almacén.</span><span class="sxs-lookup"><span data-stu-id="18a6b-110">This procedure is intended for the warehouse manager.</span></span>
 
-1. Vaya a Gestión de almacenes > Configurar > Directivas de ubicación.
-2. En el campo Tipo de pedido de trabajo, seleccione Pedidos de compra.
+1. <span data-ttu-id="18a6b-111">Vaya a Gestión de almacenes > Configurar > Directivas de ubicación.</span><span class="sxs-lookup"><span data-stu-id="18a6b-111">Go to Warehouse management > Setup > Location directives.</span></span>
+2. <span data-ttu-id="18a6b-112">En el campo Tipo de pedido de trabajo, seleccione Pedidos de compra.</span><span class="sxs-lookup"><span data-stu-id="18a6b-112">In the Work order type field, select 'Purchase orders'.</span></span>
 
-## <a name="create-a-location-directive-header"></a>Creación de un encabezado de directiva de ubicación
-1. Haga clic en Nuevo.
-2. En el campo Número de secuencia, especifique un número.
-    * Esta es la secuencia en la que se debe procesar la directiva de ubicación para el tipo de trabajo seleccionado. Puede modificar la secuencia, si fuera necesario.  
-3. En el campo Nombre, escriba un valor.
-    * Este es el identificador único para esta directiva.  
-4. En el campo Tipo de trabajo, seleccione Colocar.
-    * Seleccione el tipo de trabajo que se debe realizar. Para la directiva con tipo pedido de trabajo Pedido de compra, Colocar es el único valor admitido.  
-5. En el campo Sitio, escriba un valor.
-6. En el campo Almacén, escriba un valor.
-    * Deje en blanco el código de la directiva.  Los códigos de las directivas se usan para vincular una línea de pedido de trabajo del tipo Colocar en una directiva concreta. En los pedidos de compra, la ubicación de la última línea de pedido de trabajo de tipo Colocar se resuelve antes de determinar la plantilla de trabajo. Por lo tanto, no es posible conectar la última línea de una plantilla de trabajo con una directiva específica.   
-7. En el campo Código de disposición, escriba un valor.
-    * El código de disposición limita el uso de la directiva de ubicación, de modo que la directiva de ubicación solo se usa si el trabajador del almacén especifica este valor concreto durante el registro del artículo mediante un dispositivo móvil.  
-8. Haga clic en Guardar.
+## <a name="create-a-location-directive-header"></a><span data-ttu-id="18a6b-113">Creación de un encabezado de directiva de ubicación</span><span class="sxs-lookup"><span data-stu-id="18a6b-113">Create a location directive header</span></span>
+1. <span data-ttu-id="18a6b-114">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="18a6b-114">Click New.</span></span>
+2. <span data-ttu-id="18a6b-115">En el campo Número de secuencia, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="18a6b-115">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="18a6b-116">Esta es la secuencia en la que se debe procesar la directiva de ubicación para el tipo de trabajo seleccionado.</span><span class="sxs-lookup"><span data-stu-id="18a6b-116">This is the sequence in which the location directive is processed for the selected work type.</span></span> <span data-ttu-id="18a6b-117">Puede modificar la secuencia, si fuera necesario.</span><span class="sxs-lookup"><span data-stu-id="18a6b-117">You can also modify the sequence, if needed.</span></span>  
+3. <span data-ttu-id="18a6b-118">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="18a6b-118">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="18a6b-119">Este es el identificador único para esta directiva.</span><span class="sxs-lookup"><span data-stu-id="18a6b-119">This is the unique identifier for this directive.</span></span>  
+4. <span data-ttu-id="18a6b-120">En el campo Tipo de trabajo, seleccione Colocar.</span><span class="sxs-lookup"><span data-stu-id="18a6b-120">In the Work type field, select 'Put'.</span></span>
+    * <span data-ttu-id="18a6b-121">Seleccione el tipo de trabajo que se debe realizar.</span><span class="sxs-lookup"><span data-stu-id="18a6b-121">Select the type of work to be performed.</span></span> <span data-ttu-id="18a6b-122">Para la directiva con tipo pedido de trabajo Pedido de compra, Colocar es el único valor admitido.</span><span class="sxs-lookup"><span data-stu-id="18a6b-122">For directive with work order type Purchase order, Put is the only supported value.</span></span>  
+5. <span data-ttu-id="18a6b-123">En el campo Sitio, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="18a6b-123">In the Site field, type a value.</span></span>
+6. <span data-ttu-id="18a6b-124">En el campo Almacén, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="18a6b-124">In the Warehouse field, type a value.</span></span>
+    * <span data-ttu-id="18a6b-125">Deje en blanco el código de la directiva.</span><span class="sxs-lookup"><span data-stu-id="18a6b-125">Leave the Directive code blank.</span></span>  <span data-ttu-id="18a6b-126">Los códigos de las directivas se usan para vincular una línea de pedido de trabajo del tipo Colocar en una directiva concreta.</span><span class="sxs-lookup"><span data-stu-id="18a6b-126">Directive codes are used to link a work order line of type Put to a specific directive.</span></span> <span data-ttu-id="18a6b-127">En los pedidos de compra, la ubicación de la última línea de pedido de trabajo de tipo Colocar se resuelve antes de determinar la plantilla de trabajo.</span><span class="sxs-lookup"><span data-stu-id="18a6b-127">For purchase orders, the location of the last work order line of type Put is resolved before the work template is determined.</span></span> <span data-ttu-id="18a6b-128">Por lo tanto, no es posible conectar la última línea de una plantilla de trabajo con una directiva específica.</span><span class="sxs-lookup"><span data-stu-id="18a6b-128">Therefore it is not possible to connect the last line of a work template to a specific directive.</span></span>   
+7. <span data-ttu-id="18a6b-129">En el campo Código de disposición, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="18a6b-129">In the Disposition code field, type a value.</span></span>
+    * <span data-ttu-id="18a6b-130">El código de disposición limita el uso de la directiva de ubicación, de modo que la directiva de ubicación solo se usa si el trabajador del almacén especifica este valor concreto durante el registro del artículo mediante un dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="18a6b-130">The Disposition code limits the use of the location directive, so the location directive is only used if the warehouse worker enters this specific value during registration of the item using a mobile device.</span></span>  
+8. <span data-ttu-id="18a6b-131">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="18a6b-131">Click Save.</span></span>
 
-## <a name="edit-the-query-for-directive"></a>Edición de la consulta de la directiva
-1. Haga clic en Editar consulta.
-    * El uso de esta directiva está limitado ya a usarse con artículos registrados en el almacén y con el código de disposición especificados. Puede agregar otras restricciones mediante la consulta.  
-2. Haga clic en Aceptar
+## <a name="edit-the-query-for-directive"></a><span data-ttu-id="18a6b-132">Edición de la consulta de la directiva</span><span class="sxs-lookup"><span data-stu-id="18a6b-132">Edit the query for directive</span></span>
+1. <span data-ttu-id="18a6b-133">Haga clic en Editar consulta.</span><span class="sxs-lookup"><span data-stu-id="18a6b-133">Click Edit query.</span></span>
+    * <span data-ttu-id="18a6b-134">El uso de esta directiva está limitado ya a usarse con artículos registrados en el almacén y con el código de disposición especificados.</span><span class="sxs-lookup"><span data-stu-id="18a6b-134">The use of this directive is already limited to be used for items registered in the warehouse that you specified, and with the disposition code that you specified.</span></span> <span data-ttu-id="18a6b-135">Puede agregar otras restricciones mediante la consulta.</span><span class="sxs-lookup"><span data-stu-id="18a6b-135">You can add other constraints using the query.</span></span>  
+2. <span data-ttu-id="18a6b-136">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="18a6b-136">Click OK.</span></span>
 
-## <a name="add-directive-lines"></a>Adición de líneas de directiva
-1. Haga clic en Nuevo.
-    * Esta es la secuencia en la que se procesan las líneas de la directiva de ubicación para el tipo de trabajo seleccionado. Puede modificar la secuencia, si fuera necesario.  
-2. En el campo Cantidad inicial, especifique un número.
-    * Esta es la cantidad inferior para la que es válida esta línea de directiva.  
-3. En el campo Cantidad final, especifique un número.
-4. En el campo Unidad, escriba un valor.
-    * La unidad en la que se expresa Cantidad inicial y Cantidad final. Si deja este campo en blanco, se utilizará la unidad de inventario del artículo.  
-5. En el campo Cantidad para localizar, seleccione una opción.
-    * Ninguno o Cantidad de matrícula de entidad de almacén: la cantidad registrada en cada matrícula de entidad de almacén. Cantidad dividido en unidades: la cantidad total registrada. Cantidad restante: la cantidad que queda por registrar desde la línea de pedido de compra. Cantidad esperada: la cantidad total especificada en la línea de pedido de compra.  
-6. Active o desactive la casilla Restringir por unidad.
-    * Si selecciona esta opción y especifica la unidad en la página Restringir por unidad, solo los artículos con esa unidad de medida se pueden colocar en la ubicación. Por ejemplo, si la unidad de medida es PL (pallets), solo los artículos en pallets se pueden colocar en una ubicación especificada.  
-7. Active o desactive la casilla Permitir división.
-    * Esto permite a la directiva dividir la cantidad entre varias ubicaciones.  
-8. Haga clic en Guardar.
+## <a name="add-directive-lines"></a><span data-ttu-id="18a6b-137">Adición de líneas de directiva</span><span class="sxs-lookup"><span data-stu-id="18a6b-137">Add directive lines</span></span>
+1. <span data-ttu-id="18a6b-138">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="18a6b-138">Click New.</span></span>
+    * <span data-ttu-id="18a6b-139">Esta es la secuencia en la que se procesan las líneas de la directiva de ubicación para el tipo de trabajo seleccionado.</span><span class="sxs-lookup"><span data-stu-id="18a6b-139">This is the sequence in which the location directive lines are processed for the selected work type.</span></span> <span data-ttu-id="18a6b-140">Puede modificar la secuencia, si fuera necesario.</span><span class="sxs-lookup"><span data-stu-id="18a6b-140">You can also modify the sequence, if needed.</span></span>  
+2. <span data-ttu-id="18a6b-141">En el campo Cantidad inicial, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="18a6b-141">In the From quantity field, enter a number.</span></span>
+    * <span data-ttu-id="18a6b-142">Esta es la cantidad inferior para la que es válida esta línea de directiva.</span><span class="sxs-lookup"><span data-stu-id="18a6b-142">This is the lowest quantity that this directive line is valid for.</span></span>  
+3. <span data-ttu-id="18a6b-143">En el campo Cantidad final, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="18a6b-143">In the To quantity field, enter a number.</span></span>
+4. <span data-ttu-id="18a6b-144">En el campo Unidad, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="18a6b-144">In the Unit field, type a value.</span></span>
+    * <span data-ttu-id="18a6b-145">La unidad en la que se expresa Cantidad inicial y Cantidad final.</span><span class="sxs-lookup"><span data-stu-id="18a6b-145">The unit the From quantity and To quantity is expressed in.</span></span> <span data-ttu-id="18a6b-146">Si deja este campo en blanco, se utilizará la unidad de inventario del artículo.</span><span class="sxs-lookup"><span data-stu-id="18a6b-146">If you leave this field blank the inventory unit from the item is used.</span></span>  
+5. <span data-ttu-id="18a6b-147">En el campo Cantidad para localizar, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="18a6b-147">In the Locate quantity field, select an option.</span></span>
+    * <span data-ttu-id="18a6b-148">Ninguno o Cantidad de matrícula de entidad de almacén: la cantidad registrada en cada matrícula de entidad de almacén.</span><span class="sxs-lookup"><span data-stu-id="18a6b-148">None, or licence plate quantity: The quantity registered on each licence plate.</span></span> <span data-ttu-id="18a6b-149">Cantidad dividido en unidades: la cantidad total registrada.</span><span class="sxs-lookup"><span data-stu-id="18a6b-149">Unitized quantity: The entire quantity that’s been registered.</span></span> <span data-ttu-id="18a6b-150">Cantidad restante: la cantidad que queda por registrar desde la línea de pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="18a6b-150">Remaining quantity: The quantity that is yet to be registered from the purchase order line.</span></span> <span data-ttu-id="18a6b-151">Cantidad esperada: la cantidad total especificada en la línea de pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="18a6b-151">Expected quantity: The total quantity that is specified on the purchase order line.</span></span>  
+6. <span data-ttu-id="18a6b-152">Active o desactive la casilla Restringir por unidad.</span><span class="sxs-lookup"><span data-stu-id="18a6b-152">Check or uncheck the Restrict by unit checkbox.</span></span>
+    * <span data-ttu-id="18a6b-153">Si selecciona esta opción y especifica la unidad en la página Restringir por unidad, solo los artículos con esa unidad de medida se pueden colocar en la ubicación.</span><span class="sxs-lookup"><span data-stu-id="18a6b-153">If you select this option, and specify the unit on the Restrict by unit page, only items with that unit of measurement can be put into the location.</span></span> <span data-ttu-id="18a6b-154">Por ejemplo, si la unidad de medida es PL (pallets), solo los artículos en pallets se pueden colocar en una ubicación especificada.</span><span class="sxs-lookup"><span data-stu-id="18a6b-154">For example, if the unit of measurement is PL (pallets), only items in pallets can be put into the specified location.</span></span>  
+7. <span data-ttu-id="18a6b-155">Active o desactive la casilla Permitir división.</span><span class="sxs-lookup"><span data-stu-id="18a6b-155">Check or uncheck the Allow split checkbox.</span></span>
+    * <span data-ttu-id="18a6b-156">Esto permite a la directiva dividir la cantidad entre varias ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="18a6b-156">This allows the directive to split the quantity across multiple locations.</span></span>  
+8. <span data-ttu-id="18a6b-157">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="18a6b-157">Click Save.</span></span>
 
-## <a name="restrict-the-directive-line-to-a-specific-unit"></a>Restricción de la línea directiva a una unidad específica
-1. Haga clic en Restringir por unidad.
-    * Este botón solo está disponible si presiona Guardar después de seleccionar la casilla Restringir por unidad.  
-2. En el campo Unidad, escriba un valor.
-3. Cierre la página.
+## <a name="restrict-the-directive-line-to-a-specific-unit"></a><span data-ttu-id="18a6b-158">Restricción de la línea directiva a una unidad específica</span><span class="sxs-lookup"><span data-stu-id="18a6b-158">Restrict the directive line to a specific unit</span></span>
+1. <span data-ttu-id="18a6b-159">Haga clic en Restringir por unidad.</span><span class="sxs-lookup"><span data-stu-id="18a6b-159">Click Restrict by unit.</span></span>
+    * <span data-ttu-id="18a6b-160">Este botón solo está disponible si presiona Guardar después de seleccionar la casilla Restringir por unidad.</span><span class="sxs-lookup"><span data-stu-id="18a6b-160">This button is only available when you press Save after you have selected the Restrict by unit check box.</span></span>  
+2. <span data-ttu-id="18a6b-161">En el campo Unidad, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="18a6b-161">In the Unit field, type a value.</span></span>
+3. <span data-ttu-id="18a6b-162">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="18a6b-162">Close the page.</span></span>
 
-## <a name="add-a-location-directive-action-line"></a>Adición de una línea de acción de directiva de ubicación
-1. Haga clic en Nuevo.
-    * Esta es la secuencia en la que se procesan las líneas de acción de la directiva de ubicación para el tipo de trabajo seleccionado. Puede modificar la secuencia, si fuera necesario.  
-2. En el campo Nombre, escriba un valor.
-    * Este es el identificador único para esta acción de directiva.  
-3. En el campo Uso de ubicaciones fijas, seleccione una opción.
-    * Ubicaciones fijas y no fijas: todas las ubicaciones no fijas son válidas, así como la propia ubicación fija del producto, dentro del rango específico en la consulta.  Solo ubicaciones fijas para el producto: las ubicaciones fijas para el producto son válidas, así como todas las variantes de producto comparten el mismo conjunto de ubicaciones fijas. Solo ubicaciones fijas para la variante del producto: solo son válidas las ubicaciones fijas especificadas para cada variante del producto.  
-4. En el campo Estrategia, seleccione una opción.
-    * Los pedidos de trabajo del tipo Pedido de compra admiten las estrategias siguientes: Ninguna: el artículo se coloca en la primera ubicación que se encuentra. Consolidar: el artículo se configura en una ubicación donde ya estén disponibles otros artículos similares. Ubicación vacía sin trabajo entrante: el artículo se coloca en la primera ubicación vacía que se encuentra. Una ubicación se considera vacía si no tiene ningún inventario físico y ningún trabajo entrante previsto.  
-5. Haga clic en Guardar.
+## <a name="add-a-location-directive-action-line"></a><span data-ttu-id="18a6b-163">Adición de una línea de acción de directiva de ubicación</span><span class="sxs-lookup"><span data-stu-id="18a6b-163">Add a location directive action line</span></span>
+1. <span data-ttu-id="18a6b-164">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="18a6b-164">Click New.</span></span>
+    * <span data-ttu-id="18a6b-165">Esta es la secuencia en la que se procesan las líneas de acción de la directiva de ubicación para el tipo de trabajo seleccionado.</span><span class="sxs-lookup"><span data-stu-id="18a6b-165">This is the sequence in which the location directive action lines are processed for the selected work type.</span></span> <span data-ttu-id="18a6b-166">Puede modificar la secuencia, si fuera necesario.</span><span class="sxs-lookup"><span data-stu-id="18a6b-166">You can also modify the sequence, if needed.</span></span>  
+2. <span data-ttu-id="18a6b-167">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="18a6b-167">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="18a6b-168">Este es el identificador único para esta acción de directiva.</span><span class="sxs-lookup"><span data-stu-id="18a6b-168">This is the unique identifier for this directive action.</span></span>  
+3. <span data-ttu-id="18a6b-169">En el campo Uso de ubicaciones fijas, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="18a6b-169">In the Fixed location usage field, select an option.</span></span>
+    * <span data-ttu-id="18a6b-170">Ubicaciones fijas y no fijas: todas las ubicaciones no fijas son válidas, así como la propia ubicación fija del producto, dentro del rango específico en la consulta.</span><span class="sxs-lookup"><span data-stu-id="18a6b-170">Fixed and non-fixed locations: All non-fixed locations are valid as well as the product’s own fixed location, within the range specified in the query.</span></span>  <span data-ttu-id="18a6b-171">Solo ubicaciones fijas para el producto: las ubicaciones fijas para el producto son válidas, así como todas las variantes de producto comparten el mismo conjunto de ubicaciones fijas.</span><span class="sxs-lookup"><span data-stu-id="18a6b-171">Only fixed location for the product: Fixed locations for the product are valid, and all product variants share the same set of fixed locations.</span></span> <span data-ttu-id="18a6b-172">Solo ubicaciones fijas para la variante del producto: solo son válidas las ubicaciones fijas especificadas para cada variante del producto.</span><span class="sxs-lookup"><span data-stu-id="18a6b-172">Only fixed location for the product variants: Only fixed locations specified for each product variant are valid.</span></span>  
+4. <span data-ttu-id="18a6b-173">En el campo Estrategia, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="18a6b-173">In the Strategy field, select an option.</span></span>
+    * <span data-ttu-id="18a6b-174">Los pedidos de trabajo del tipo Pedido de compra admiten las estrategias siguientes: Ninguna: el artículo se coloca en la primera ubicación que se encuentra.</span><span class="sxs-lookup"><span data-stu-id="18a6b-174">Work orders of type Purchase order support the following strategies: None: the item is placed at the first location that’s found.</span></span> <span data-ttu-id="18a6b-175">Consolidar: el artículo se configura en una ubicación donde ya estén disponibles otros artículos similares.</span><span class="sxs-lookup"><span data-stu-id="18a6b-175">Consolidate: The item is placed in a location where similar items are already available.</span></span> <span data-ttu-id="18a6b-176">Ubicación vacía sin trabajo entrante: el artículo se coloca en la primera ubicación vacía que se encuentra.</span><span class="sxs-lookup"><span data-stu-id="18a6b-176">Empty location with no incoming work: the item is placed in the first empty location that’s found.</span></span> <span data-ttu-id="18a6b-177">Una ubicación se considera vacía si no tiene ningún inventario físico y ningún trabajo entrante previsto.</span><span class="sxs-lookup"><span data-stu-id="18a6b-177">A location is considered to be empty if it has no physical inventory and no expected incoming work.</span></span>  
+5. <span data-ttu-id="18a6b-178">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="18a6b-178">Click Save.</span></span>
 
-## <a name="edit-the-query-for-directive-action-line"></a>Edición de la consulta de la línea de acción de la directiva
-1. Haga clic en Editar consulta.
-2. Haga clic en Agregar.
-3. En el campo Campo, escriba "Id. de perfil de ubicación".
-    * En este ejemplo, restringiremos las ubicaciones posibles mediante un identificador de perfil de ubicación.  
-4. En el campo Criterios, escriba un valor.
-5. Haga clic en Aceptar
-    * Puede continuar agregando líneas de directivas y acciones de directivas hasta que haya cubierto todas las situaciones posibles del almacén.  
+## <a name="edit-the-query-for-directive-action-line"></a><span data-ttu-id="18a6b-179">Edición de la consulta de la línea de acción de la directiva</span><span class="sxs-lookup"><span data-stu-id="18a6b-179">Edit the query for directive action line</span></span>
+1. <span data-ttu-id="18a6b-180">Haga clic en Editar consulta.</span><span class="sxs-lookup"><span data-stu-id="18a6b-180">Click Edit query.</span></span>
+2. <span data-ttu-id="18a6b-181">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="18a6b-181">Click Add.</span></span>
+3. <span data-ttu-id="18a6b-182">En el campo Campo, escriba "Id. de perfil de ubicación".</span><span class="sxs-lookup"><span data-stu-id="18a6b-182">In the Field field, type 'location profile ID'.</span></span>
+    * <span data-ttu-id="18a6b-183">En este ejemplo, restringiremos las ubicaciones posibles mediante un identificador de perfil de ubicación.</span><span class="sxs-lookup"><span data-stu-id="18a6b-183">In this example, we’ll restrict the possible locations using a location profile ID.</span></span>  
+4. <span data-ttu-id="18a6b-184">En el campo Criterios, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="18a6b-184">In the Criteria field, type a value.</span></span>
+5. <span data-ttu-id="18a6b-185">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="18a6b-185">Click OK.</span></span>
+    * <span data-ttu-id="18a6b-186">Puede continuar agregando líneas de directivas y acciones de directivas hasta que haya cubierto todas las situaciones posibles del almacén.</span><span class="sxs-lookup"><span data-stu-id="18a6b-186">You can continue to add directive lines and directive actions until you have covered all the possible scenarios in your warehouse.</span></span>  
 
 

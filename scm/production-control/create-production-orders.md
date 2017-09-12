@@ -20,29 +20,29 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bcbb07553d990c35057ba32fd56d26fbc9c6f71b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 58213d4d6e8c29ab6605eb7aa5c6cb9ca6ba4a10
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="create-production-orders"></a>Crear pedidos de producción
+# <a name="create-production-orders"></a><span data-ttu-id="78c38-105">Crear pedidos de producción</span><span class="sxs-lookup"><span data-stu-id="78c38-105">Create production orders</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Al crear un pedido de producción, se inicia una solicitud para iniciar la producción de un artículo. El pedido de producción contiene información acerca de qué se producirá, qué cantidad y la fecha de finalización planificada. También contiene información relativa a qué materiales se van a consumir y qué proceso seguir para producir el artículo.
+<span data-ttu-id="78c38-106">Al crear un pedido de producción, se inicia una solicitud para iniciar la producción de un artículo.</span><span class="sxs-lookup"><span data-stu-id="78c38-106">When a production order is created, a request is initiated to start producing an item.</span></span> <span data-ttu-id="78c38-107">El pedido de producción contiene información acerca de qué se producirá, qué cantidad y la fecha de finalización planificada.</span><span class="sxs-lookup"><span data-stu-id="78c38-107">The production order contains information about what will be produced, the quantity to produce, and the planned finish date.</span></span> <span data-ttu-id="78c38-108">También contiene información relativa a qué materiales se van a consumir y qué proceso seguir para producir el artículo.</span><span class="sxs-lookup"><span data-stu-id="78c38-108">It also contains information about which materials to consume and which process to follow to produce the item.</span></span>
 
-Un pedido de producción pasa por las etapas del ciclo de vida de producción. Cuando se crea un pedido, se le asigna el estado **Creado**. Cuando se termina un pedido, se le asigna el estado **Finalizado**. Un parámetro en cada etapa permite al usuario configurar cada paso. El parámetro se puede configurar para un único usuario o para todos los usuarios.
+<span data-ttu-id="78c38-109">Un pedido de producción pasa por las etapas del ciclo de vida de producción.</span><span class="sxs-lookup"><span data-stu-id="78c38-109">A production order passes through stages of the production life cycle.</span></span> <span data-ttu-id="78c38-110">Cuando se crea un pedido, se le asigna el estado **Creado**.</span><span class="sxs-lookup"><span data-stu-id="78c38-110">When an order is created, it is assigned the status **Created**.</span></span> <span data-ttu-id="78c38-111">Cuando se termina un pedido, se le asigna el estado **Finalizado**.</span><span class="sxs-lookup"><span data-stu-id="78c38-111">When an order is finished, it is assigned the status **Ended**.</span></span> <span data-ttu-id="78c38-112">Un parámetro en cada etapa permite al usuario configurar cada paso.</span><span class="sxs-lookup"><span data-stu-id="78c38-112">A parameter setting in each stage allows a user to configure each step.</span></span> <span data-ttu-id="78c38-113">El parámetro se puede configurar para un único usuario o para todos los usuarios.</span><span class="sxs-lookup"><span data-stu-id="78c38-113">The setting can be set up for a single user or for all users.</span></span>
 
-La lista de materiales de producción y la ruta de producción son las entidades principales del pedido de producción. Se copian en el pedido de producción según el artículo y la cantidad seleccionados que se van a producir. Antes de iniciar el pedido de producción se pueden editar la lista de materiales y la ruta de producción.
+<span data-ttu-id="78c38-114">La lista de materiales de producción y la ruta de producción son las entidades principales del pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="78c38-114">The production bill of material and the production route are the main entities of the production order.</span></span> <span data-ttu-id="78c38-115">Se copian en el pedido de producción según el artículo y la cantidad seleccionados que se van a producir.</span><span class="sxs-lookup"><span data-stu-id="78c38-115">They are copied to the production order based on the selected item and quantity that are going to be produced.</span></span> <span data-ttu-id="78c38-116">Antes de iniciar el pedido de producción se pueden editar la lista de materiales y la ruta de producción.</span><span class="sxs-lookup"><span data-stu-id="78c38-116">Before the production order is started, the production bill of material and route can be edited.</span></span>
 
-El pedido de producción se puede crear en las siguientes situaciones:
+<span data-ttu-id="78c38-117">El pedido de producción se puede crear en las siguientes situaciones:</span><span class="sxs-lookup"><span data-stu-id="78c38-117">A production order can be created in the following scenarios:</span></span>
 
--   Se crean al ejecutarse la planificación maestra según la demanda de material.
--   Se crean directamente a partir de una línea de pedido de ventas o cuando se crea y se estima un pedido de producción de alto nivel (suministro asegurado).
--   Se crea manualmente.
+-   <span data-ttu-id="78c38-118">Se crean al ejecutarse la planificación maestra según la demanda de material.</span><span class="sxs-lookup"><span data-stu-id="78c38-118">Created by master planning execution based on material demand.</span></span>
+-   <span data-ttu-id="78c38-119">Se crean directamente a partir de una línea de pedido de ventas o cuando se crea y se estima un pedido de producción de alto nivel (suministro asegurado).</span><span class="sxs-lookup"><span data-stu-id="78c38-119">Created directly from a sales order line or when a higher-level production order is created and estimated (pegged supply).</span></span>
+-   <span data-ttu-id="78c38-120">Se crea manualmente.</span><span class="sxs-lookup"><span data-stu-id="78c38-120">Created manually.</span></span>
 
 
 

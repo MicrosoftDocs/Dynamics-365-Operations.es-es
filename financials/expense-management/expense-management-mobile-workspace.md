@@ -25,222 +25,222 @@ ms.lasthandoff: 08/10/2017
 
 ---
 
-# <a name="expense-management-mobile-workspace"></a>Espacio de trabajo móvil de gestión de gastos
+# <a name="expense-management-mobile-workspace"></a><span data-ttu-id="7402b-105">Espacio de trabajo móvil de gestión de gastos</span><span class="sxs-lookup"><span data-stu-id="7402b-105">Expense management mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Este tema proporciona información acerca del espacio de trabajo móvil de **gestión de gastos**. Este espacio de trabajo permite a los usuarios capturar y cargar un recibo, de modo que puedan adjuntarlo a un informe de gastos posteriormente. Los usuarios también pueden crear rápidamente una línea de gastos mediante un recibo vinculado, y crear y gestionar sus informes de gastos. Además, los aprobadores pueden usar el espacio de trabajo móvil **Gestión de gastos** para ver los informes de gastos que se les asignan, y aprobar o rechazar los informes de gastos.
+<span data-ttu-id="7402b-106">Este tema proporciona información acerca del espacio de trabajo móvil de **gestión de gastos**.</span><span class="sxs-lookup"><span data-stu-id="7402b-106">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="7402b-107">Este espacio de trabajo permite a los usuarios capturar y cargar un recibo, de modo que puedan adjuntarlo a un informe de gastos posteriormente.</span><span class="sxs-lookup"><span data-stu-id="7402b-107">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="7402b-108">Los usuarios también pueden crear rápidamente una línea de gastos mediante un recibo vinculado, y crear y gestionar sus informes de gastos.</span><span class="sxs-lookup"><span data-stu-id="7402b-108">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="7402b-109">Además, los aprobadores pueden usar el espacio de trabajo móvil **Gestión de gastos** para ver los informes de gastos que se les asignan, y aprobar o rechazar los informes de gastos.</span><span class="sxs-lookup"><span data-stu-id="7402b-109">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 
 
-Este espacio de trabajo móvil se debe usar con la aplicación móvil Microsoft Dynamics 365 for Unified Operations.
+<span data-ttu-id="7402b-110">Este espacio de trabajo móvil se debe usar con la aplicación móvil Microsoft Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="7402b-110">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
 
-## <a name="overview"></a>Información general
+## <a name="overview"></a><span data-ttu-id="7402b-111">Información general</span><span class="sxs-lookup"><span data-stu-id="7402b-111">Overview</span></span>
 
-Muchas organizaciones requieren que se adjunte al informe de gastos que presenta el empleado para el reembolso, una copia de los recibos relacionados con el viaje o la empresa. El espacio de trabajo móvil **Gestión de gastos** permite a los usuarios crear rápidamente nuevas líneas de gastos en el dispositivo móvil de su elección mediante una foto vinculada a un recibo. Como alternativa, los usuarios pueden capturar una foto del recibo y después adjuntarla más tarde al informe de gastos. Los empleados también pueden crear y administrar sus informes de gastos, y después enviarlos para su aprobación y reembolso usando el dispositivo móvil.
+<span data-ttu-id="7402b-112">Muchas organizaciones requieren que se adjunte al informe de gastos que presenta el empleado para el reembolso, una copia de los recibos relacionados con el viaje o la empresa.</span><span class="sxs-lookup"><span data-stu-id="7402b-112">Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense report that an employee submits for reimbursement.</span></span> <span data-ttu-id="7402b-113">El espacio de trabajo móvil **Gestión de gastos** permite a los usuarios crear rápidamente nuevas líneas de gastos en el dispositivo móvil de su elección mediante una foto vinculada a un recibo.</span><span class="sxs-lookup"><span data-stu-id="7402b-113">The **Expense management** mobile workspace lets users quickly create new expense lines on the mobile device of their choice by using an attached photo of a receipt.</span></span> <span data-ttu-id="7402b-114">Como alternativa, los usuarios pueden capturar una foto del recibo y después adjuntarla más tarde al informe de gastos.</span><span class="sxs-lookup"><span data-stu-id="7402b-114">Alternatively, users can capture a photo of a receipt and then attach it to an expense report later.</span></span> <span data-ttu-id="7402b-115">Los empleados también pueden crear y administrar sus informes de gastos, y después enviarlos para su aprobación y reembolso usando el dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="7402b-115">Employees can also create and manage their expense reports, and then submit them for approval and reimbursement by using their mobile device.</span></span>
 
 
-En concreto, el espacio de trabajo móvil **Gestión de gastos** permite a los usuarios realizar las tareas siguientes:
+<span data-ttu-id="7402b-116">En concreto, el espacio de trabajo móvil **Gestión de gastos** permite a los usuarios realizar las tareas siguientes:</span><span class="sxs-lookup"><span data-stu-id="7402b-116">Specifically, the **Expense management** mobile workspace lets users perform these tasks:</span></span>
 
-- Tomar una foto de un recibo, y cargarla en Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Entonces puede vincular esa foto a un informe de gastos más tarde.
-- Cargar un archivo como un recibo capturado. Entonces puede vincular ese archivo a un informe de gastos más tarde.
-- Crear una nueva línea de gastos mediante un recibo vinculado. Puede agregar el artículo de línea a un informe de gastos más tarde, y enviarlo para su aprobación y reembolso.
+- <span data-ttu-id="7402b-117">Tomar una foto de un recibo, y cargarla en Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="7402b-117">Take a photo of a receipt, and upload it to Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="7402b-118">Entonces puede vincular esa foto a un informe de gastos más tarde.</span><span class="sxs-lookup"><span data-stu-id="7402b-118">You can then attach that photo to an expense report later.</span></span>
+- <span data-ttu-id="7402b-119">Cargar un archivo como un recibo capturado.</span><span class="sxs-lookup"><span data-stu-id="7402b-119">Upload a file as a captured receipt.</span></span> <span data-ttu-id="7402b-120">Entonces puede vincular ese archivo a un informe de gastos más tarde.</span><span class="sxs-lookup"><span data-stu-id="7402b-120">You can then attach that file to an expense report later.</span></span>
+- <span data-ttu-id="7402b-121">Crear una nueva línea de gastos mediante un recibo vinculado.</span><span class="sxs-lookup"><span data-stu-id="7402b-121">Create a new expense line by using an attached receipt.</span></span> <span data-ttu-id="7402b-122">Puede agregar el artículo de línea a un informe de gastos más tarde, y enviarlo para su aprobación y reembolso.</span><span class="sxs-lookup"><span data-stu-id="7402b-122">You can then add the line item to an expense report later, and submit it for approval and reimbursement.</span></span>
 
-Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017), también puede utilizar las características siguientes:
+<span data-ttu-id="7402b-123">Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017), también puede utilizar las características siguientes:</span><span class="sxs-lookup"><span data-stu-id="7402b-123">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update, you can also use these features:</span></span>
 
-- Crear un nuevo informe de gastos.
-- Vincular transacciones de tarjeta de crédito y otros gastos anteriormente creados a un informe de gastos.
-- Crear gastos nuevos para un informe de gastos.
-- Vincular un recibo a cualquier gasto de un informe de gastos, tomando una foto del recibo o cargando un archivo como recibo capturado.
-- En función de la directiva de gastos de la empresa, agregar la lista de invitados a un gasto.
-- En función de la directiva de gastos de la empresa, detallar los gastos.
-- Enviar el informe de gastos para su aprobación y reembolso.
-- Aprobar o rechazar informes de gastos para los que es un aprobador asignado.
+- <span data-ttu-id="7402b-124">Crear un nuevo informe de gastos.</span><span class="sxs-lookup"><span data-stu-id="7402b-124">Create a new expense report.</span></span>
+- <span data-ttu-id="7402b-125">Vincular transacciones de tarjeta de crédito y otros gastos anteriormente creados a un informe de gastos.</span><span class="sxs-lookup"><span data-stu-id="7402b-125">Attach credit card transactions and other previously created expenses to an expense report.</span></span>
+- <span data-ttu-id="7402b-126">Crear gastos nuevos para un informe de gastos.</span><span class="sxs-lookup"><span data-stu-id="7402b-126">Create new expenses for an expense report.</span></span>
+- <span data-ttu-id="7402b-127">Vincular un recibo a cualquier gasto de un informe de gastos, tomando una foto del recibo o cargando un archivo como recibo capturado.</span><span class="sxs-lookup"><span data-stu-id="7402b-127">Attach a receipt to any expense for an expense report, either by taking a photo of the receipt or by uploading a file as a captured receipt.</span></span>
+- <span data-ttu-id="7402b-128">En función de la directiva de gastos de la empresa, agregar la lista de invitados a un gasto.</span><span class="sxs-lookup"><span data-stu-id="7402b-128">Depending on the company's expense policy, add the list of guests to an expense.</span></span>
+- <span data-ttu-id="7402b-129">En función de la directiva de gastos de la empresa, detallar los gastos.</span><span class="sxs-lookup"><span data-stu-id="7402b-129">Depending on the company's expense policy, itemize expenses.</span></span>
+- <span data-ttu-id="7402b-130">Enviar el informe de gastos para su aprobación y reembolso.</span><span class="sxs-lookup"><span data-stu-id="7402b-130">Submit an expense report for approval and reimbursement.</span></span>
+- <span data-ttu-id="7402b-131">Aprobar o rechazar informes de gastos para los que es un aprobador asignado.</span><span class="sxs-lookup"><span data-stu-id="7402b-131">Approve or reject expense reports that you're an assigned approver for.</span></span>
 
-## <a name="prerequisites"></a>Requisitos previos
-Los requisitos previos varían en función de la versión de Microsoft Dynamics 365 que se haya implementado para su organización.
+## <a name="prerequisites"></a><span data-ttu-id="7402b-132">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="7402b-132">Prerequisites</span></span>
+<span data-ttu-id="7402b-133">Los requisitos previos varían en función de la versión de Microsoft Dynamics 365 que se haya implementado para su organización.</span><span class="sxs-lookup"><span data-stu-id="7402b-133">The prerequisites vary, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, actualización de julio 2017 
-Si Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017) se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Gestión de gastos**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a><span data-ttu-id="7402b-134">Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, actualización de julio 2017</span><span class="sxs-lookup"><span data-stu-id="7402b-134">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update</span></span> 
+<span data-ttu-id="7402b-135">Si Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (actualización de julio de 2017) se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Gestión de gastos**.</span><span class="sxs-lookup"><span data-stu-id="7402b-135">If Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace.</span></span> <span data-ttu-id="7402b-136">Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span><span class="sxs-lookup"><span data-stu-id="7402b-136">For instructions, see [Publish a mobile workspace](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Requisitos previos si usa Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior
-Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior para su organización, el administrador del sistema debe cumplir los requisitos previos siguientes. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="7402b-137">Requisitos previos si usa Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior</span><span class="sxs-lookup"><span data-stu-id="7402b-137">Prerequisites if you use Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="7402b-138">Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior para su organización, el administrador del sistema debe cumplir los requisitos previos siguientes.</span><span class="sxs-lookup"><span data-stu-id="7402b-138">If Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Requisito previo</th>
-<th>Función</th>
-<th>Descripción</th>
+<th><span data-ttu-id="7402b-139">Requisito previo</span><span class="sxs-lookup"><span data-stu-id="7402b-139">Prerequisite</span></span></th>
+<th><span data-ttu-id="7402b-140">Función</span><span class="sxs-lookup"><span data-stu-id="7402b-140">Role</span></span></th>
+<th><span data-ttu-id="7402b-141">Descripción</span><span class="sxs-lookup"><span data-stu-id="7402b-141">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Implementar 4019015 KB.</td>
-<td>Administrador del sistema</td>
-<td>KB 4019015 es una actualización o una revisión de metadatos X++ que contiene el espacio de trabajo móvil <strong>Gestión de gastos</strong>. Para implementar KB 4019015, el administrador del sistema debe seguir estos pasos.
+<td><span data-ttu-id="7402b-142">Implementar 4019015 KB.</span><span class="sxs-lookup"><span data-stu-id="7402b-142">Implement KB 4019015.</span></span></td>
+<td><span data-ttu-id="7402b-143">Administrador del sistema</span><span class="sxs-lookup"><span data-stu-id="7402b-143">System administrator</span></span></td>
+<td><span data-ttu-id="7402b-144">KB 4019015 es una actualización o una revisión de metadatos X++ que contiene el espacio de trabajo móvil <strong>Gestión de gastos</strong>.</span><span class="sxs-lookup"><span data-stu-id="7402b-144">KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace.</span></span> <span data-ttu-id="7402b-145">Para implementar KB 4019015, el administrador del sistema debe seguir estos pasos.</span><span class="sxs-lookup"><span data-stu-id="7402b-145">To implement KB 4019015, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Descargar la revisión de metadatos en Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar la revisión de metadatos</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Crear un paquete desplegable</a> que contenga los modelos <strong>ApplicationSuite</strong> y <strong>ExpenseMobile</strong> y luego cargar el paquete desplegable en LCS.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Aplicar el paquete implementable</a>.</li>
+<li><span data-ttu-id="7402b-146"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Descargar la revisión de metadatos en Microsoft Dynamics Lifecycle Services (LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="7402b-146"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="7402b-147"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar la revisión de metadatos</a>.</span><span class="sxs-lookup"><span data-stu-id="7402b-147"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="7402b-148"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Crear un paquete desplegable</a> que contenga los modelos <strong>ApplicationSuite</strong> y <strong>ExpenseMobile</strong> y luego cargar el paquete desplegable en LCS.</span><span class="sxs-lookup"><span data-stu-id="7402b-148"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="7402b-149"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Aplicar el paquete implementable</a>.</span><span class="sxs-lookup"><span data-stu-id="7402b-149"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Publique el espacio de trabajo móvil de <strong>gestión de gastos</strong>.</td>
-<td>Administrador del sistema</td>
-<td>Consulte <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar un espacio de trabajo móvil</a>.</td>
+<td><span data-ttu-id="7402b-150">Publique el espacio de trabajo móvil de <strong>gestión de gastos</strong>.</span><span class="sxs-lookup"><span data-stu-id="7402b-150">Publish the <strong>Expense management</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="7402b-151">Administrador del sistema</span><span class="sxs-lookup"><span data-stu-id="7402b-151">System administrator</span></span></td>
+<td><span data-ttu-id="7402b-152">Consulte <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar un espacio de trabajo móvil</a>.</span><span class="sxs-lookup"><span data-stu-id="7402b-152">See <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Descargue e instale la aplicación móvil Dynamics 365 for Operations
-Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a><span data-ttu-id="7402b-153">Descargue e instale la aplicación móvil Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="7402b-153">Download and install the Dynamics 365 for Operations mobile app</span></span>
+<span data-ttu-id="7402b-154">Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:</span><span class="sxs-lookup"><span data-stu-id="7402b-154">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
-- [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
-- [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
+- [<span data-ttu-id="7402b-155">Para teléfonos Android</span><span class="sxs-lookup"><span data-stu-id="7402b-155">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+- [<span data-ttu-id="7402b-156">Para iPhones</span><span class="sxs-lookup"><span data-stu-id="7402b-156">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Iniciar sesión en la aplicación móvil
-1. Inicie la aplicación en su dispositivo móvil.
-2. Escriba la URL de Dynamics 365.
-4. La primera vez que se inicie sesión, se le solicitará su nombre de usuario y contraseña. Escriba sus credenciales.
-5. Tras iniciar sesión, se mostrarán los espacios de trabajo disponibles para su empresa. Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, tendrá que actualizar la lista de espacios de trabajo móviles.
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="7402b-157">Iniciar sesión en la aplicación móvil</span><span class="sxs-lookup"><span data-stu-id="7402b-157">Sign in to the mobile app</span></span>
+1. <span data-ttu-id="7402b-158">Inicie la aplicación en su dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="7402b-158">Start the app on your mobile device.</span></span>
+2. <span data-ttu-id="7402b-159">Escriba la URL de Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="7402b-159">Enter your Dynamics 365 URL.</span></span>
+4. <span data-ttu-id="7402b-160">La primera vez que se inicie sesión, se le solicitará su nombre de usuario y contraseña.</span><span class="sxs-lookup"><span data-stu-id="7402b-160">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="7402b-161">Escriba sus credenciales.</span><span class="sxs-lookup"><span data-stu-id="7402b-161">Enter your credentials.</span></span>
+5. <span data-ttu-id="7402b-162">Tras iniciar sesión, se mostrarán los espacios de trabajo disponibles para su empresa.</span><span class="sxs-lookup"><span data-stu-id="7402b-162">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="7402b-163">Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, tendrá que actualizar la lista de espacios de trabajo móviles.</span><span class="sxs-lookup"><span data-stu-id="7402b-163">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
 
-[![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+<span data-ttu-id="7402b-164">[![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="7402b-164">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Obtener un recibo mediante el espacio de trabajo móvil de gestión de gastos
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="7402b-165">Obtener un recibo mediante el espacio de trabajo móvil de gestión de gastos</span><span class="sxs-lookup"><span data-stu-id="7402b-165">Capture a receipt by using the Expense management mobile workspace</span></span>
 
-1. En su dispositivo móvil, abra el espacio de trabajo **Gestión de gastos**.
-2. Seleccione **Capturar recibo**.
-3. Seleccione **Sacar una foto** o **Seleccionar imagen**.
-4. Siga uno de estos pasos:
+1. <span data-ttu-id="7402b-166">En su dispositivo móvil, abra el espacio de trabajo **Gestión de gastos**.</span><span class="sxs-lookup"><span data-stu-id="7402b-166">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="7402b-167">Seleccione **Capturar recibo**.</span><span class="sxs-lookup"><span data-stu-id="7402b-167">Select **Capture receipt**.</span></span>
+3. <span data-ttu-id="7402b-168">Seleccione **Sacar una foto** o **Seleccionar imagen**.</span><span class="sxs-lookup"><span data-stu-id="7402b-168">Select **Take photo** or **Choose image**.</span></span>
+4. <span data-ttu-id="7402b-169">Siga uno de estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-169">Follow one of these steps:</span></span>
 
-    - Si seleccionó **Sacar una foto**, siga estos pasos:
+    - <span data-ttu-id="7402b-170">Si seleccionó **Sacar una foto**, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-170">If you selected **Take photo**, follow these steps:</span></span>
 
-        1. El sistema lo llevará a la cámara del dispositivo móvil, para que pueda realizar una foto del recibo. Cuando haya terminado de realizar una foto, seleccione **Aceptar** para aceptar la foto.
-        2. Opcional: Especifique un nombre para la foto, y escriba una nota.
+        1. <span data-ttu-id="7402b-171">El sistema lo llevará a la cámara del dispositivo móvil, para que pueda realizar una foto del recibo.</span><span class="sxs-lookup"><span data-stu-id="7402b-171">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="7402b-172">Cuando haya terminado de realizar una foto, seleccione **Aceptar** para aceptar la foto.</span><span class="sxs-lookup"><span data-stu-id="7402b-172">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+        2. <span data-ttu-id="7402b-173">Opcional: Especifique un nombre para la foto, y escriba una nota.</span><span class="sxs-lookup"><span data-stu-id="7402b-173">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-    - Si seleccionó **Seleccionar imagen**, siga estos pasos:
+    - <span data-ttu-id="7402b-174">Si seleccionó **Seleccionar imagen**, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-174">If you selected **Choose image**, follow these steps:</span></span>
 
-        1. Seleccione una imagen en la lista.
-        2. Opcional: Especifique un nombre para la imagen y escriba una nota.
+        1. <span data-ttu-id="7402b-175">Seleccione una imagen en la lista.</span><span class="sxs-lookup"><span data-stu-id="7402b-175">Select an image in the list.</span></span>
+        2. <span data-ttu-id="7402b-176">Opcional: Especifique un nombre para la imagen y escriba una nota.</span><span class="sxs-lookup"><span data-stu-id="7402b-176">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-5. Seleccione **Listo**.
+5. <span data-ttu-id="7402b-177">Seleccione **Listo**.</span><span class="sxs-lookup"><span data-stu-id="7402b-177">Select **Done**.</span></span>
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Especifique rápidamente los gastos usando el espacio de trabajo móvil de gestión de gastos
-1. En su dispositivo móvil, abra el espacio de trabajo **Gestión de gastos**.
-2. Seleccione **Entrada rápida del gasto**.
-3. Seleccione la categoría del gasto. Verá una lista de las categorías de gastos que se cargan en su aplicación para su uso sin conexión. Hay 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número. Para obtener más información, los desarrolladores deben ver [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si la categoría no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea. Busque por categoría de gastos, o cambie a buscar por tipo de gastos.
-4. Especifique la fecha de la transacción del gasto.
-5. Opcional: Especifique el comerciante del gasto.
-6. Especifique el importe del gasto.
-7. Seleccione la divisa del gasto. Verá una lista de los códigos de divisa que se cargan en su aplicación para su uso sin conexión. De forma predeterminada, hay 400 divisas cargadas, pero un desarrollador puede cambiar este número. Para obtener más información, los desarrolladores deben ver [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si la divisa no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea. Busque por divisa, o cambie a buscar por nombre.
-8. Seleccione **Sacar una foto** o **Seleccionar imagen**.
-9. Siga uno de estos pasos:
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="7402b-178">Especifique rápidamente los gastos usando el espacio de trabajo móvil de gestión de gastos</span><span class="sxs-lookup"><span data-stu-id="7402b-178">Quickly enter expenses by using the Expense management mobile workspace</span></span>
+1. <span data-ttu-id="7402b-179">En su dispositivo móvil, abra el espacio de trabajo **Gestión de gastos**.</span><span class="sxs-lookup"><span data-stu-id="7402b-179">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="7402b-180">Seleccione **Entrada rápida del gasto**.</span><span class="sxs-lookup"><span data-stu-id="7402b-180">Select **Quick expense entry**.</span></span>
+3. <span data-ttu-id="7402b-181">Seleccione la categoría del gasto.</span><span class="sxs-lookup"><span data-stu-id="7402b-181">Select the category for the expense.</span></span> <span data-ttu-id="7402b-182">Verá una lista de las categorías de gastos que se cargan en su aplicación para su uso sin conexión.</span><span class="sxs-lookup"><span data-stu-id="7402b-182">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="7402b-183">Hay 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número.</span><span class="sxs-lookup"><span data-stu-id="7402b-183">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="7402b-184">Para obtener más información, los desarrolladores deben ver [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="7402b-184">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="7402b-185">Si la categoría no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea.</span><span class="sxs-lookup"><span data-stu-id="7402b-185">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="7402b-186">Busque por categoría de gastos, o cambie a buscar por tipo de gastos.</span><span class="sxs-lookup"><span data-stu-id="7402b-186">Search by expense category, or switch to search by expense type.</span></span>
+4. <span data-ttu-id="7402b-187">Especifique la fecha de la transacción del gasto.</span><span class="sxs-lookup"><span data-stu-id="7402b-187">Enter the transaction date of the expense.</span></span>
+5. <span data-ttu-id="7402b-188">Opcional: Especifique el comerciante del gasto.</span><span class="sxs-lookup"><span data-stu-id="7402b-188">Optional: Enter the merchant for the expense.</span></span>
+6. <span data-ttu-id="7402b-189">Especifique el importe del gasto.</span><span class="sxs-lookup"><span data-stu-id="7402b-189">Enter the amount of the expense.</span></span>
+7. <span data-ttu-id="7402b-190">Seleccione la divisa del gasto.</span><span class="sxs-lookup"><span data-stu-id="7402b-190">Select the currency of the expense.</span></span> <span data-ttu-id="7402b-191">Verá una lista de los códigos de divisa que se cargan en su aplicación para su uso sin conexión.</span><span class="sxs-lookup"><span data-stu-id="7402b-191">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="7402b-192">De forma predeterminada, hay 400 divisas cargadas, pero un desarrollador puede cambiar este número.</span><span class="sxs-lookup"><span data-stu-id="7402b-192">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="7402b-193">Para obtener más información, los desarrolladores deben ver [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="7402b-193">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="7402b-194">Si la divisa no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea.</span><span class="sxs-lookup"><span data-stu-id="7402b-194">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="7402b-195">Busque por divisa, o cambie a buscar por nombre.</span><span class="sxs-lookup"><span data-stu-id="7402b-195">Search by currency, or switch to search by name.</span></span>
+8. <span data-ttu-id="7402b-196">Seleccione **Sacar una foto** o **Seleccionar imagen**.</span><span class="sxs-lookup"><span data-stu-id="7402b-196">Select **Take photo** or **Choose image**.</span></span>
+9. <span data-ttu-id="7402b-197">Siga uno de estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-197">Follow one of these steps:</span></span>
 
-    - Si seleccionó **Sacar foto**, el sistema lo llevará a la cámara del dispositivo móvil para que pueda realizar una foto del recibo. Cuando haya terminado de realizar una foto, seleccione **Aceptar** para aceptar la foto.
-    - Si seleccionó **Seleccionar imagen**, seleccione una imagen de la lista.
+    - <span data-ttu-id="7402b-198">Si seleccionó **Sacar foto**, el sistema lo llevará a la cámara del dispositivo móvil para que pueda realizar una foto del recibo.</span><span class="sxs-lookup"><span data-stu-id="7402b-198">If you selected **Take photo**, you're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="7402b-199">Cuando haya terminado de realizar una foto, seleccione **Aceptar** para aceptar la foto.</span><span class="sxs-lookup"><span data-stu-id="7402b-199">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+    - <span data-ttu-id="7402b-200">Si seleccionó **Seleccionar imagen**, seleccione una imagen de la lista.</span><span class="sxs-lookup"><span data-stu-id="7402b-200">If you selected **Choose image**, select an image in the list.</span></span>
 
-10. Seleccione **Listo**.
+10. <span data-ttu-id="7402b-201">Seleccione **Listo**.</span><span class="sxs-lookup"><span data-stu-id="7402b-201">Select **Done**.</span></span>
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Apruebe un informe de gastos mediante el espacio de trabajo móvil de gestión de gastos (si utiliza la actualización de julio de 2017)
-1. En su dispositivo móvil, abra el espacio de trabajo **Gestión de gastos**.
-2. **Aprobaciones de gastos** muestra el número de informes de gastos que se le han asignado para su aprobación. El número se actualiza aproximadamente cada 30 minutos. Seleccione **Aprobaciones de gastos**.
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="7402b-202">Apruebe un informe de gastos mediante el espacio de trabajo móvil de gestión de gastos (si utiliza la actualización de julio de 2017)</span><span class="sxs-lookup"><span data-stu-id="7402b-202">Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
+1. <span data-ttu-id="7402b-203">En su dispositivo móvil, abra el espacio de trabajo **Gestión de gastos**.</span><span class="sxs-lookup"><span data-stu-id="7402b-203">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="7402b-204">**Aprobaciones de gastos** muestra el número de informes de gastos que se le han asignado para su aprobación.</span><span class="sxs-lookup"><span data-stu-id="7402b-204">**Expense approvals** shows the number of expense reports that are assigned to you for approval.</span></span> <span data-ttu-id="7402b-205">El número se actualiza aproximadamente cada 30 minutos.</span><span class="sxs-lookup"><span data-stu-id="7402b-205">The number is updated approximately every 30 minutes.</span></span> <span data-ttu-id="7402b-206">Seleccione **Aprobaciones de gastos**.</span><span class="sxs-lookup"><span data-stu-id="7402b-206">Select **Expense approvals**.</span></span>
 
-    Se muestra la lista de informes de gastos que se le han asignado para su aprobación.
+    <span data-ttu-id="7402b-207">Se muestra la lista de informes de gastos que se le han asignado para su aprobación.</span><span class="sxs-lookup"><span data-stu-id="7402b-207">The list of expense reports that are assigned to you for approval is shown.</span></span>
     
-3. Seleccione un informe de gastos para ver sus detalles de gastos.
-4. Seleccione un gasto para ver sus detalles. La información que se muestra para un gasto incluye cualquier recibo, invitado y detalle.
-5. De nuevo en la página **Informe de gastos** , seleccione aprobar o rechazar el informe de gastos.
-6. Escriba un comentario para la acción de aprobación.
-7. Seleccione **Listo**.
+3. <span data-ttu-id="7402b-208">Seleccione un informe de gastos para ver sus detalles de gastos.</span><span class="sxs-lookup"><span data-stu-id="7402b-208">Select an expense report to view the expense details for it.</span></span>
+4. <span data-ttu-id="7402b-209">Seleccione un gasto para ver sus detalles.</span><span class="sxs-lookup"><span data-stu-id="7402b-209">Select an expense to view the details for it.</span></span> <span data-ttu-id="7402b-210">La información que se muestra para un gasto incluye cualquier recibo, invitado y detalle.</span><span class="sxs-lookup"><span data-stu-id="7402b-210">The information that is shown for an expense includes any receipt, guest, and itemization details.</span></span>
+5. <span data-ttu-id="7402b-211">De nuevo en la página **Informe de gastos** , seleccione aprobar o rechazar el informe de gastos.</span><span class="sxs-lookup"><span data-stu-id="7402b-211">Back on the **Expense report** page, select to approve or reject the expense report.</span></span>
+6. <span data-ttu-id="7402b-212">Escriba un comentario para la acción de aprobación.</span><span class="sxs-lookup"><span data-stu-id="7402b-212">Enter any comments for the approval action.</span></span>
+7. <span data-ttu-id="7402b-213">Seleccione **Listo**.</span><span class="sxs-lookup"><span data-stu-id="7402b-213">Select **Done**.</span></span>
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Cree un informe de gastos nuevo y envíelo para su aprobación usando el espacio de trabajo móvil de gestión de gastos (si utiliza la actualización de julio de 2017)
-1. En su dispositivo móvil, abra el espacio de trabajo **Gestión de gastos**.
-2. Seleccione **Entrada de gasto**.
-3. Seleccione **Nuevo informe**, o seleccione un informe de gastos existente en la lista.
-4. Para los nuevos informes de gastos, especifique el propósito y la información adicional que esté disponible. Esta información varía, en función de la manera en que está configurada la gestión de gastos para su empresa.
-5. Seleccione **Listo**.
-6. Para agregar gastos existentes, como transacciones de tarjeta de crédito, al informe de gastos, seleccione **Vincular**.
-7. Seleccione uno o varios gastos en la lista.
-8. Seleccione **Listo**.
-9. Para agregar un nuevo gasto al informe de gastos, seleccione **Gasto nuevo**.
-10. Seleccione la categoría del gasto. Verá una lista de las categorías de gastos que se cargan en su aplicación para su uso sin conexión. Hay 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número. Para obtener más información, los desarrolladores deben ver [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si la categoría no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea. Busque por categoría de gastos, o cambie a buscar por tipo de gastos.
-11. Opcional: Especifique el comerciante del gasto.
-12. Especifique la fecha de la transacción del gasto.
-13. Especifique el importe del gasto.
-14. Seleccione la divisa del gasto. Verá una lista de los códigos de divisa que se cargan en su aplicación para su uso sin conexión. De forma predeterminada, hay 400 divisas cargadas, pero un desarrollador puede cambiar este número. Para obtener más información, los desarrolladores deben ver [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si la divisa no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea. Busque por divisa, o cambie a buscar por nombre.
-15. Seleccione **Listo**.
-16. Para agregar más detalles al gasto, seleccione **Agregar más detalles**. Los campos disponibles dependen de la configuración de la gestión de gastos para su empresa.
-17. Si la política de empresa requiere un recibo para el gasto, seleccione **Recibos** y siga estos pasos:
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="7402b-214">Cree un informe de gastos nuevo y envíelo para su aprobación usando el espacio de trabajo móvil de gestión de gastos (si utiliza la actualización de julio de 2017)</span><span class="sxs-lookup"><span data-stu-id="7402b-214">Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
+1. <span data-ttu-id="7402b-215">En su dispositivo móvil, abra el espacio de trabajo **Gestión de gastos**.</span><span class="sxs-lookup"><span data-stu-id="7402b-215">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="7402b-216">Seleccione **Entrada de gasto**.</span><span class="sxs-lookup"><span data-stu-id="7402b-216">Select **Expense entry**.</span></span>
+3. <span data-ttu-id="7402b-217">Seleccione **Nuevo informe**, o seleccione un informe de gastos existente en la lista.</span><span class="sxs-lookup"><span data-stu-id="7402b-217">Select **New report**, or select an existing expense report in the list.</span></span>
+4. <span data-ttu-id="7402b-218">Para los nuevos informes de gastos, especifique el propósito y la información adicional que esté disponible.</span><span class="sxs-lookup"><span data-stu-id="7402b-218">For new expense reports, enter the purpose and any additional information that is available.</span></span> <span data-ttu-id="7402b-219">Esta información varía, en función de la manera en que está configurada la gestión de gastos para su empresa.</span><span class="sxs-lookup"><span data-stu-id="7402b-219">This information varies, depending on that way that expense management is configured for your company.</span></span>
+5. <span data-ttu-id="7402b-220">Seleccione **Listo**.</span><span class="sxs-lookup"><span data-stu-id="7402b-220">Select **Done**.</span></span>
+6. <span data-ttu-id="7402b-221">Para agregar gastos existentes, como transacciones de tarjeta de crédito, al informe de gastos, seleccione **Vincular**.</span><span class="sxs-lookup"><span data-stu-id="7402b-221">To add existing expenses, such as credit card transactions, to the expense report, select **Attach**.</span></span>
+7. <span data-ttu-id="7402b-222">Seleccione uno o varios gastos en la lista.</span><span class="sxs-lookup"><span data-stu-id="7402b-222">Select one or more expenses in the list.</span></span>
+8. <span data-ttu-id="7402b-223">Seleccione **Listo**.</span><span class="sxs-lookup"><span data-stu-id="7402b-223">Select **Done**.</span></span>
+9. <span data-ttu-id="7402b-224">Para agregar un nuevo gasto al informe de gastos, seleccione **Gasto nuevo**.</span><span class="sxs-lookup"><span data-stu-id="7402b-224">To add a new expense to the expense report, select **New expense**.</span></span>
+10. <span data-ttu-id="7402b-225">Seleccione la categoría del gasto.</span><span class="sxs-lookup"><span data-stu-id="7402b-225">Select the category for the expense.</span></span> <span data-ttu-id="7402b-226">Verá una lista de las categorías de gastos que se cargan en su aplicación para su uso sin conexión.</span><span class="sxs-lookup"><span data-stu-id="7402b-226">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="7402b-227">Hay 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número.</span><span class="sxs-lookup"><span data-stu-id="7402b-227">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="7402b-228">Para obtener más información, los desarrolladores deben ver [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="7402b-228">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="7402b-229">Si la categoría no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea.</span><span class="sxs-lookup"><span data-stu-id="7402b-229">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="7402b-230">Busque por categoría de gastos, o cambie a buscar por tipo de gastos.</span><span class="sxs-lookup"><span data-stu-id="7402b-230">Search by expense category, or switch to search by expense type.</span></span>
+11. <span data-ttu-id="7402b-231">Opcional: Especifique el comerciante del gasto.</span><span class="sxs-lookup"><span data-stu-id="7402b-231">Optional: Enter the merchant for the expense.</span></span>
+12. <span data-ttu-id="7402b-232">Especifique la fecha de la transacción del gasto.</span><span class="sxs-lookup"><span data-stu-id="7402b-232">Enter the transaction date of the expense.</span></span>
+13. <span data-ttu-id="7402b-233">Especifique el importe del gasto.</span><span class="sxs-lookup"><span data-stu-id="7402b-233">Enter the amount of the expense.</span></span>
+14. <span data-ttu-id="7402b-234">Seleccione la divisa del gasto.</span><span class="sxs-lookup"><span data-stu-id="7402b-234">Select the currency of the expense.</span></span> <span data-ttu-id="7402b-235">Verá una lista de los códigos de divisa que se cargan en su aplicación para su uso sin conexión.</span><span class="sxs-lookup"><span data-stu-id="7402b-235">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="7402b-236">De forma predeterminada, hay 400 divisas cargadas, pero un desarrollador puede cambiar este número.</span><span class="sxs-lookup"><span data-stu-id="7402b-236">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="7402b-237">Para obtener más información, los desarrolladores deben ver [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="7402b-237">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="7402b-238">Si la divisa no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea.</span><span class="sxs-lookup"><span data-stu-id="7402b-238">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="7402b-239">Busque por divisa, o cambie a buscar por nombre.</span><span class="sxs-lookup"><span data-stu-id="7402b-239">Search by currency, or switch to search by name.</span></span>
+15. <span data-ttu-id="7402b-240">Seleccione **Listo**.</span><span class="sxs-lookup"><span data-stu-id="7402b-240">Select **Done**.</span></span>
+16. <span data-ttu-id="7402b-241">Para agregar más detalles al gasto, seleccione **Agregar más detalles**.</span><span class="sxs-lookup"><span data-stu-id="7402b-241">To add more details to the expense, select **Add more details**.</span></span> <span data-ttu-id="7402b-242">Los campos disponibles dependen de la configuración de la gestión de gastos para su empresa.</span><span class="sxs-lookup"><span data-stu-id="7402b-242">The fields that are available depend on the configuration of expense management for your company.</span></span>
+17. <span data-ttu-id="7402b-243">Si la política de empresa requiere un recibo para el gasto, seleccione **Recibos** y siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-243">If company policy requires a receipt for the expense, select **Receipts**, and then follow these steps:</span></span>
 
-    1. Seleccione **Capturar recibo** o **Adjuntar recibo**.
-    2. Siga uno de estos pasos:
+    1. <span data-ttu-id="7402b-244">Seleccione **Capturar recibo** o **Adjuntar recibo**.</span><span class="sxs-lookup"><span data-stu-id="7402b-244">Select **Capture receipt** or **Attach receipt**.</span></span>
+    2. <span data-ttu-id="7402b-245">Siga uno de estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-245">Follow one of these steps:</span></span>
 
-        - Si seleccionó **Capturar recibo**, siga estos pasos:
+        - <span data-ttu-id="7402b-246">Si seleccionó **Capturar recibo**, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-246">If you selected **Capture receipt**, follow these steps:</span></span>
 
-            1. Seleccione **Sacar una foto** o **Seleccionar imagen**.
-            2. Siga uno de estos pasos:
+            1. <span data-ttu-id="7402b-247">Seleccione **Sacar una foto** o **Seleccionar imagen**.</span><span class="sxs-lookup"><span data-stu-id="7402b-247">Select **Take photo** or **Choose image**.</span></span>
+            2. <span data-ttu-id="7402b-248">Siga uno de estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-248">Follow one of these steps:</span></span>
 
-                - Si seleccionó **Sacar una foto**, siga estos pasos:
+                - <span data-ttu-id="7402b-249">Si seleccionó **Sacar una foto**, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-249">If you selected **Take photo**, follow these steps:</span></span>
 
-                    1. El sistema lo llevará a la cámara del dispositivo móvil, para que pueda realizar una foto del recibo. Cuando haya terminado de realizar una foto, seleccione **Aceptar** para aceptar la foto.
-                    2. Opcional: Especifique un nombre para la foto, y escriba una nota.
+                    1. <span data-ttu-id="7402b-250">El sistema lo llevará a la cámara del dispositivo móvil, para que pueda realizar una foto del recibo.</span><span class="sxs-lookup"><span data-stu-id="7402b-250">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="7402b-251">Cuando haya terminado de realizar una foto, seleccione **Aceptar** para aceptar la foto.</span><span class="sxs-lookup"><span data-stu-id="7402b-251">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+                    2. <span data-ttu-id="7402b-252">Opcional: Especifique un nombre para la foto, y escriba una nota.</span><span class="sxs-lookup"><span data-stu-id="7402b-252">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-                - Si seleccionó **Seleccionar imagen**, siga estos pasos:
+                - <span data-ttu-id="7402b-253">Si seleccionó **Seleccionar imagen**, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-253">If you selected **Choose image**, follow these steps:</span></span>
 
-                    1. Seleccione una imagen en la lista.
-                    2. Opcional: Especifique un nombre para la imagen y escriba una nota.
+                    1. <span data-ttu-id="7402b-254">Seleccione una imagen en la lista.</span><span class="sxs-lookup"><span data-stu-id="7402b-254">Select an image in the list.</span></span>
+                    2. <span data-ttu-id="7402b-255">Opcional: Especifique un nombre para la imagen y escriba una nota.</span><span class="sxs-lookup"><span data-stu-id="7402b-255">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-            3.  Seleccione **Listo**.
+            3.  <span data-ttu-id="7402b-256">Seleccione **Listo**.</span><span class="sxs-lookup"><span data-stu-id="7402b-256">Select **Done**.</span></span>
 
-        - Si seleccionó **Adjuntar recibo**, siga estos pasos:
+        - <span data-ttu-id="7402b-257">Si seleccionó **Adjuntar recibo**, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-257">If you selected **Attach receipt**, follow these steps:</span></span>
 
-            1.  Seleccione una o varias imágenes en la lista.
-            2.  Seleccione **Listo**.
+            1.  <span data-ttu-id="7402b-258">Seleccione una o varias imágenes en la lista.</span><span class="sxs-lookup"><span data-stu-id="7402b-258">Select one or more images in the list.</span></span>
+            2.  <span data-ttu-id="7402b-259">Seleccione **Listo**.</span><span class="sxs-lookup"><span data-stu-id="7402b-259">Select **Done**.</span></span>
 
-    3. Seleccione el botón **Atrás** para volver a los detalles del gasto.
+    3. <span data-ttu-id="7402b-260">Seleccione el botón **Atrás** para volver a los detalles del gasto.</span><span class="sxs-lookup"><span data-stu-id="7402b-260">Select the **Back** button to return to the expense details.</span></span>
 
-18. Si la política de empresa requiere invitados para el gasto, seleccione **Invitados** y siga estos pasos:
+18. <span data-ttu-id="7402b-261">Si la política de empresa requiere invitados para el gasto, seleccione **Invitados** y siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-261">If company policy requires guests for the expense, select **Guests**, and then follow these steps:</span></span>
 
-    1. Seleccione **Invitado**, **Invitados anteriores**, o **Compañeros**.
-    2. Siga uno de estos pasos:
+    1. <span data-ttu-id="7402b-262">Seleccione **Invitado**, **Invitados anteriores**, o **Compañeros**.</span><span class="sxs-lookup"><span data-stu-id="7402b-262">Select **Guest**, **Previous guests**, or **Coworkers**.</span></span>
+    2. <span data-ttu-id="7402b-263">Siga uno de estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-263">Follow one of these steps:</span></span>
 
-        - Si seleccionó **Invitado**, siga estos pasos:
+        - <span data-ttu-id="7402b-264">Si seleccionó **Invitado**, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-264">If you selected **Guest**, follow these steps:</span></span>
 
-            1. Introduzca el nombre del invitado.
-            2. Opcional: Especifique la organización o el país del invitado.
-            3. Opcional: Indique el cargo del invitado.
-            4. Seleccione **Listo**.
+            1. <span data-ttu-id="7402b-265">Introduzca el nombre del invitado.</span><span class="sxs-lookup"><span data-stu-id="7402b-265">Enter the name of the guest.</span></span>
+            2. <span data-ttu-id="7402b-266">Opcional: Especifique la organización o el país del invitado.</span><span class="sxs-lookup"><span data-stu-id="7402b-266">Optional: Enter the organization and/or country of the guest.</span></span>
+            3. <span data-ttu-id="7402b-267">Opcional: Indique el cargo del invitado.</span><span class="sxs-lookup"><span data-stu-id="7402b-267">Optional: Enter the title of the guest.</span></span>
+            4. <span data-ttu-id="7402b-268">Seleccione **Listo**.</span><span class="sxs-lookup"><span data-stu-id="7402b-268">Select **Done**.</span></span>
 
-        - Si seleccionó **Invitados anteriores**, siga estos pasos:
+        - <span data-ttu-id="7402b-269">Si seleccionó **Invitados anteriores**, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-269">If you selected **Previous guests**, follow these steps:</span></span>
 
-            1. Seleccione uno o varios invitados anteriores en la lista. Ve una lista de invitados anteriores que ha agregado a los informes de gastos anteriores que se cargan en su aplicación para usarlos sin conexión. Hay 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número. Para obtener más información, los desarrolladores deben ver [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si su invitado anterior no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea. Busque por su nombre, o cambie a la búsqueda por organización, país o cargo.
-            2. Seleccione **Listo**.
+            1. <span data-ttu-id="7402b-270">Seleccione uno o varios invitados anteriores en la lista.</span><span class="sxs-lookup"><span data-stu-id="7402b-270">Select one or more previous guests in the list.</span></span> <span data-ttu-id="7402b-271">Ve una lista de invitados anteriores que ha agregado a los informes de gastos anteriores que se cargan en su aplicación para usarlos sin conexión.</span><span class="sxs-lookup"><span data-stu-id="7402b-271">You see a list of previous guests that you've added to previous expense reports that are loaded into your app for offline use.</span></span> <span data-ttu-id="7402b-272">Hay 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número.</span><span class="sxs-lookup"><span data-stu-id="7402b-272">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="7402b-273">Para obtener más información, los desarrolladores deben ver [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="7402b-273">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="7402b-274">Si su invitado anterior no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea.</span><span class="sxs-lookup"><span data-stu-id="7402b-274">If your previous guest isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="7402b-275">Busque por su nombre, o cambie a la búsqueda por organización, país o cargo.</span><span class="sxs-lookup"><span data-stu-id="7402b-275">Search by name, or switch to search by organization, country, or title.</span></span>
+            2. <span data-ttu-id="7402b-276">Seleccione **Listo**.</span><span class="sxs-lookup"><span data-stu-id="7402b-276">Select **Done**.</span></span>
 
-        - Si seleccionó **Compañeros**, siga estos pasos:
+        - <span data-ttu-id="7402b-277">Si seleccionó **Compañeros**, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-277">If you selected **Coworkers**, follow these steps:</span></span>
 
-            1. Seleccione uno o varios compañeros en la lista. Verá una lista de los compañeros que están cargados en su aplicación para su uso sin conexión. Hay 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número. Para obtener más información, los desarrolladores deben ver [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si su compañero no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea. Busque por su nombre, o cambie a la búsqueda por empresa o cargo.
-            2. Seleccione **Listo**.
+            1. <span data-ttu-id="7402b-278">Seleccione uno o varios compañeros en la lista.</span><span class="sxs-lookup"><span data-stu-id="7402b-278">Select one or more coworkers in the list.</span></span> <span data-ttu-id="7402b-279">Verá una lista de los compañeros que están cargados en su aplicación para su uso sin conexión.</span><span class="sxs-lookup"><span data-stu-id="7402b-279">You see a list of coworkers that are loaded into your app for offline use.</span></span> <span data-ttu-id="7402b-280">Hay 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número.</span><span class="sxs-lookup"><span data-stu-id="7402b-280">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="7402b-281">Para obtener más información, los desarrolladores deben ver [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="7402b-281">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="7402b-282">Si su compañero no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea.</span><span class="sxs-lookup"><span data-stu-id="7402b-282">If your coworker isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="7402b-283">Busque por su nombre, o cambie a la búsqueda por empresa o cargo.</span><span class="sxs-lookup"><span data-stu-id="7402b-283">Search by name, or switch to search by company or title.</span></span>
+            2. <span data-ttu-id="7402b-284">Seleccione **Listo**.</span><span class="sxs-lookup"><span data-stu-id="7402b-284">Select **Done**.</span></span>
 
-    3. Seleccione el botón **Atrás** para volver a los detalles del gasto.
+    3. <span data-ttu-id="7402b-285">Seleccione el botón **Atrás** para volver a los detalles del gasto.</span><span class="sxs-lookup"><span data-stu-id="7402b-285">Select the **Back** button to return to the expense details.</span></span>
 
-19. Si la política de empresa requiere que el gasto se detalle, seleccione **Detallar** y siga estos pasos:
+19. <span data-ttu-id="7402b-286">Si la política de empresa requiere que el gasto se detalle, seleccione **Detallar** y siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="7402b-286">If company policy requires that the expense be itemized, select **Itemize**, and then follow these steps:</span></span>
 
-    1. Seleccione la primera fecha que quiera detallar.
-    2. Seleccione **Agregar detalle**.
-    3. Seleccione la subcategoría de detalle de gasto. Verá una lista de las subcategorías de gastos que se cargan en su aplicación para su uso sin conexión. Hay 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número. Para obtener más información, los desarrolladores deben ver [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si su subcategoría no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea. Busque por nombre de subcategoría de gastos.
-    4. Escriba el importe de la transacción para el detalle.
-    5. Edite la fecha de transacción si se requiere.
-    6. Seleccione **Listo**.
-    7. Repita los pasos anteriores hasta que haya terminado de agregar todos los detalles de la fecha seleccionada.
-    8. Para días adicionales, puede seleccionar **Copiar al siguiente día** para copiar los detalles en el día siguiente. De manera alternativa, puede seleccionar la fecha para detallar y agregar detalles tal y como lo hizo para la primera fecha.
-    9. Una vez que haya terminado de detallar el gasto, seleccione el botón **Atrás** para volver a los detalles del gasto.
+    1. <span data-ttu-id="7402b-287">Seleccione la primera fecha que quiera detallar.</span><span class="sxs-lookup"><span data-stu-id="7402b-287">Select the first date to itemize.</span></span>
+    2. <span data-ttu-id="7402b-288">Seleccione **Agregar detalle**.</span><span class="sxs-lookup"><span data-stu-id="7402b-288">Select **Add itemization**.</span></span>
+    3. <span data-ttu-id="7402b-289">Seleccione la subcategoría de detalle de gasto.</span><span class="sxs-lookup"><span data-stu-id="7402b-289">Select the subcategory for the expense itemization.</span></span> <span data-ttu-id="7402b-290">Verá una lista de las subcategorías de gastos que se cargan en su aplicación para su uso sin conexión.</span><span class="sxs-lookup"><span data-stu-id="7402b-290">You see a list of expense subcategories that are loaded into your app for offline use.</span></span> <span data-ttu-id="7402b-291">Hay 50 artículos cargados de forma predeterminada, pero un desarrollador puede cambiar este número.</span><span class="sxs-lookup"><span data-stu-id="7402b-291">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="7402b-292">Para obtener más información, los desarrolladores deben ver [Plataforma móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="7402b-292">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="7402b-293">Si su subcategoría no está en la lista, seleccione **Buscar** para realizar una búsqueda en línea.</span><span class="sxs-lookup"><span data-stu-id="7402b-293">If your subcategory isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="7402b-294">Busque por nombre de subcategoría de gastos.</span><span class="sxs-lookup"><span data-stu-id="7402b-294">Search by expense subcategory name.</span></span>
+    4. <span data-ttu-id="7402b-295">Escriba el importe de la transacción para el detalle.</span><span class="sxs-lookup"><span data-stu-id="7402b-295">Enter the transaction amount for the itemization.</span></span>
+    5. <span data-ttu-id="7402b-296">Edite la fecha de transacción si se requiere.</span><span class="sxs-lookup"><span data-stu-id="7402b-296">Edit the transaction date if it's required.</span></span>
+    6. <span data-ttu-id="7402b-297">Seleccione **Listo**.</span><span class="sxs-lookup"><span data-stu-id="7402b-297">Select **Done**.</span></span>
+    7. <span data-ttu-id="7402b-298">Repita los pasos anteriores hasta que haya terminado de agregar todos los detalles de la fecha seleccionada.</span><span class="sxs-lookup"><span data-stu-id="7402b-298">Repeat the preceding steps until you've finished adding all itemizations for the selected date.</span></span>
+    8. <span data-ttu-id="7402b-299">Para días adicionales, puede seleccionar **Copiar al siguiente día** para copiar los detalles en el día siguiente.</span><span class="sxs-lookup"><span data-stu-id="7402b-299">For additional days, you can select **Copy to next day** to copy the itemizations to the next day.</span></span> <span data-ttu-id="7402b-300">De manera alternativa, puede seleccionar la fecha para detallar y agregar detalles tal y como lo hizo para la primera fecha.</span><span class="sxs-lookup"><span data-stu-id="7402b-300">Alternatively, you can select the date to itemize and then add itemizations as you did for the first date.</span></span>
+    9. <span data-ttu-id="7402b-301">Una vez que haya terminado de detallar el gasto, seleccione el botón **Atrás** para volver a los detalles del gasto.</span><span class="sxs-lookup"><span data-stu-id="7402b-301">After you've finished itemizing the expense, select the **Back** button to return to the expense details.</span></span>
 
-20. Seleccione el botón **Atrás** para volver a la página **Informe de gastos**.
-21. Repita los pasos anteriores hasta que haya terminado de agregar todos los gastos.
-22. Seleccione **Enviar**.
-23. Escriba un comentario para el aprobador.
-24. Seleccione **Listo**.
+20. <span data-ttu-id="7402b-302">Seleccione el botón **Atrás** para volver a la página **Informe de gastos**.</span><span class="sxs-lookup"><span data-stu-id="7402b-302">Select the **Back** button to return to the **Expense report** page.</span></span>
+21. <span data-ttu-id="7402b-303">Repita los pasos anteriores hasta que haya terminado de agregar todos los gastos.</span><span class="sxs-lookup"><span data-stu-id="7402b-303">Repeat the preceding steps until you've finished adding all expenses.</span></span>
+22. <span data-ttu-id="7402b-304">Seleccione **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="7402b-304">Select **Submit**.</span></span>
+23. <span data-ttu-id="7402b-305">Escriba un comentario para el aprobador.</span><span class="sxs-lookup"><span data-stu-id="7402b-305">Enter any comments for the approver.</span></span>
+24. <span data-ttu-id="7402b-306">Seleccione **Listo**.</span><span class="sxs-lookup"><span data-stu-id="7402b-306">Select **Done**.</span></span>
 

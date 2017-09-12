@@ -18,321 +18,219 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
-ms.openlocfilehash: 77049ba4c9c39cd44f1919b672deaf700b91357d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
 ms.contentlocale: es-es
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="retail-peripherals-overview"></a>Descripción general de los periféricos para aplicaciones minoristas
+# <a name="retail-peripherals-overview"></a><span data-ttu-id="23f4c-104">Descripción general de los periféricos para aplicaciones minoristas</span><span class="sxs-lookup"><span data-stu-id="23f4c-104">Retail peripherals overview</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-En este tema explica los conceptos relacionados con los periféricos para aplicaciones minoristas. Describe las distintas maneras en que se pueden conectar los periféricos al punto de venta (PDV) y los componentes responsables de gestionar la conexión con el PDV.
+<span data-ttu-id="23f4c-105">En este tema explica los conceptos relacionados con los periféricos para aplicaciones minoristas.</span><span class="sxs-lookup"><span data-stu-id="23f4c-105">This topic explains the concepts that are related to retail peripherals.</span></span> <span data-ttu-id="23f4c-106">Describe las distintas maneras en que se pueden conectar los periféricos al punto de venta (PDV) y los componentes responsables de gestionar la conexión con el PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-106">It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</span></span>
 
-## <a name="concepts"></a>Conceptos
+## <a name="concepts"></a><span data-ttu-id="23f4c-107">Conceptos</span><span class="sxs-lookup"><span data-stu-id="23f4c-107">Concepts</span></span>
 
-### <a name="pos-registers"></a>Registros de PDV
+### <a name="pos-registers"></a><span data-ttu-id="23f4c-108">Registros de PDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-108">POS registers</span></span>
 
-Navegación: Haga clic en **Retail** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Registros**. El registro del punto de venta PDV es una entidad que se utiliza para definir las características de una instancia específica del PDV. Entre estas características se incluyen el perfil de hardware o la configuración de los periféricos comerciales que se utilizarán en el registro, el almacén al que está asignado el registro y la experiencia visual para el usuario que inicia sesión en ese registro.
+<span data-ttu-id="23f4c-109">Navegación: Haga clic en **Retail** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Registros**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-109">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="23f4c-110">El registro del punto de venta PDV es una entidad que se utiliza para definir las características de una instancia específica del PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-110">The point of sale (POS) register is an entity that is used to define the characteristics of a specific instance of the POS.</span></span> <span data-ttu-id="23f4c-111">Entre estas características se incluyen el perfil de hardware o la configuración de los periféricos comerciales que se utilizarán en el registro, el almacén al que está asignado el registro y la experiencia visual para el usuario que inicia sesión en ese registro.</span><span class="sxs-lookup"><span data-stu-id="23f4c-111">These characteristics include the hardware profile or setup for retail peripherals that will be used at the register, the store that the register is mapped to, and the visual experience for the user who signs in to that register.</span></span>
 
-### <a name="devices"></a>Dispositivos
+### <a name="devices"></a><span data-ttu-id="23f4c-112">Dispositivos</span><span class="sxs-lookup"><span data-stu-id="23f4c-112">Devices</span></span>
 
-Navegación: Haga clic en **Retail** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Dispositivos**. Un dispositivo es una entidad que representa una instancia física de un dispositivo que está asignado a un registro de PDV. Cuando se crea un dispositivo, se asigna a un registro de PDV. La entidad de dispositivo realiza un seguimiento de información acerca de cuándo se activa un registro de PDV, el tipo de cliente que se utiliza y el paquete de aplicación que se ha implementado en un dispositivo específico. Los dispositivos se pueden asignar a los tipos de aplicación siguientes: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.
+<span data-ttu-id="23f4c-113">Navegación: Haga clic en **Retail** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Dispositivos**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-113">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Devices**.</span></span> <span data-ttu-id="23f4c-114">Un dispositivo es una entidad que representa una instancia física de un dispositivo que está asignado a un registro de PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-114">A device is an entity that represents a physical instance of a device that is mapped to a POS register.</span></span> <span data-ttu-id="23f4c-115">Cuando se crea un dispositivo, se asigna a un registro de PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-115">When a device is created, it’s mapped to a POS register.</span></span> <span data-ttu-id="23f4c-116">La entidad de dispositivo realiza un seguimiento de información acerca de cuándo se activa un registro de PDV, el tipo de cliente que se utiliza y el paquete de aplicación que se ha implementado en un dispositivo específico.</span><span class="sxs-lookup"><span data-stu-id="23f4c-116">The device entity tracks information about when a POS register is activated, the type of client that is being used, and the application package that has been deployed to a specific device.</span></span> <span data-ttu-id="23f4c-117">Los dispositivos se pueden asignar a los tipos de aplicación siguientes: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-117">Devices can be mapped to the following application types: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</span></span>
 
-### <a name="retail-modern-pos"></a>Retail Modern POS
+### <a name="retail-modern-pos"></a><span data-ttu-id="23f4c-118">Retail Modern POS</span><span class="sxs-lookup"><span data-stu-id="23f4c-118">Retail Modern POS</span></span>
 
-Modern POS es el programa de PDV para Microsoft Windows. Se puede implementar en sistemas operativos Windows 10 (OSs).
+<span data-ttu-id="23f4c-119">Modern POS es el programa de PDV para Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="23f4c-119">Modern POS is the POS program for Microsoft Windows.</span></span> <span data-ttu-id="23f4c-120">Se puede implementar en sistemas operativos Windows 10 (OSs).</span><span class="sxs-lookup"><span data-stu-id="23f4c-120">It can be deployed on Windows 10 operating systems (OSs).</span></span>
 
-### <a name="cloud-pos"></a>PDV en la nube
+### <a name="cloud-pos"></a><span data-ttu-id="23f4c-121">PDV en la nube</span><span class="sxs-lookup"><span data-stu-id="23f4c-121">Cloud POS</span></span>
 
-Cloud POS es una versión basada en explorador del programa Modern POS al que se puede acceder a través de un explorador web.
+<span data-ttu-id="23f4c-122">Cloud POS es una versión basada en explorador del programa Modern POS al que se puede acceder a través de un explorador web.</span><span class="sxs-lookup"><span data-stu-id="23f4c-122">Cloud POS is a browser-based version of the Modern POS program that can be accessed in a web browser.</span></span>
 
-### <a name="modern-pos-for-ios"></a>Modern POS para iOS
+### <a name="modern-pos-for-ios"></a><span data-ttu-id="23f4c-123">Modern POS para iOS</span><span class="sxs-lookup"><span data-stu-id="23f4c-123">Modern POS for iOS</span></span>
 
-Modern POS para iOS es una versión basada en iOS del programa Modern POS que se puede implementar en dispositivos iOS.
+<span data-ttu-id="23f4c-124">Modern POS para iOS es una versión basada en iOS del programa Modern POS que se puede implementar en dispositivos iOS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-124">Modern POS for iOS is an iOS-based version of the Modern POS program that can be deployed on iOS devices.</span></span>
 
-### <a name="modern-pos-for-android"></a>Modern POS para Android
+### <a name="modern-pos-for-android"></a><span data-ttu-id="23f4c-125">Modern POS para Android</span><span class="sxs-lookup"><span data-stu-id="23f4c-125">Modern POS for Android</span></span>
 
-Modern POS para Android es una versión basada en Android del programa Modern POS que se puede implementar en dispositivos Android.
+<span data-ttu-id="23f4c-126">Modern POS para Android es una versión basada en Android del programa Modern POS que se puede implementar en dispositivos Android.</span><span class="sxs-lookup"><span data-stu-id="23f4c-126">Modern POS for Android is an Android-based version of the Modern POS program that can be deployed on Android devices.</span></span>
 
-### <a name="pos-peripherals"></a>Periféricos de PDV
+### <a name="pos-peripherals"></a><span data-ttu-id="23f4c-127">Periféricos de PDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-127">POS peripherals</span></span>
 
-Los periféricos de PDV son dispositivos que admiten explícitamente las funciones del PDV. Estos periféricos se suelen dividir en clases específicas. Para obtener más información sobre estas clases, consulte la sección sobre clases de dispositivos de este tema.
+<span data-ttu-id="23f4c-128">Los periféricos de PDV son dispositivos que admiten explícitamente las funciones del PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-128">POS peripherals are devices that are explicitly supported for POS functions.</span></span> <span data-ttu-id="23f4c-129">Estos periféricos se suelen dividir en clases específicas.</span><span class="sxs-lookup"><span data-stu-id="23f4c-129">These peripherals are typically divided into specific classes.</span></span> <span data-ttu-id="23f4c-130">Para obtener más información sobre estas clases, consulte la sección sobre clases de dispositivos de este tema.</span><span class="sxs-lookup"><span data-stu-id="23f4c-130">For more information about these classes, see the “Device classes” section of this topic.</span></span>
 
-### <a name="hardware-station"></a>Estación de hardware
+### <a name="hardware-station"></a><span data-ttu-id="23f4c-131">Estación de hardware</span><span class="sxs-lookup"><span data-stu-id="23f4c-131">Hardware station</span></span>
 
-Navegación: haga clic en **Retail** &gt; **Canales** &gt; **Tiendas** &gt; **Todas las tiendas minoristas**. Seleccione una tienda y, a continuación, haga clic en la ficha desplegable **Estaciones de hardware**. La configuración de la **Estación de hardware** es un valor a nivel de canal que se usa para definir las instancias donde se implementará la lógica periférica de Retail. Este valor a nivel de canal se usa para determinar las características de la estación de hardware. También se usa para mostrar las estaciones de hardware que están disponibles para una instancia de Modern POS en una tienda determinada. La estación de hardware se ha incluido en el programa Modern POS para Windows. La estación de hardware también se puede implementar independientemente como programa independiente de Microsoft Internet Information Services (IIS). En este caso, puede tener acceso a través de una red.
+<span data-ttu-id="23f4c-132">Navegación: haga clic en **Retail** &gt; **Canales** &gt; **Tiendas** &gt; **Todas las tiendas minoristas**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-132">Navigation: Click **Retail** &gt; **Channels** &gt; **Retail stores** &gt; **All retail stores**.</span></span> <span data-ttu-id="23f4c-133">Seleccione una tienda y, a continuación, haga clic en la ficha desplegable **Estaciones de hardware**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-133">Select a store, and then click the **Hardware stations** FastTab.</span></span> <span data-ttu-id="23f4c-134">La configuración de la **Estación de hardware** es un valor a nivel de canal que se usa para definir las instancias donde se implementará la lógica periférica de Retail.</span><span class="sxs-lookup"><span data-stu-id="23f4c-134">The **Hardware station** setting is a channel-level setting that is used to define instances where the retail peripheral logic will be deployed.</span></span> <span data-ttu-id="23f4c-135">Este valor a nivel de canal se usa para determinar las características de la estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-135">This setting at the channel level is used to determine characteristics of the hardware station.</span></span> <span data-ttu-id="23f4c-136">También se usa para mostrar las estaciones de hardware que están disponibles para una instancia de Modern POS en una tienda determinada.</span><span class="sxs-lookup"><span data-stu-id="23f4c-136">It's also used to list hardware stations that are available for a Modern POS instance in a given store.</span></span> <span data-ttu-id="23f4c-137">La estación de hardware se ha incluido en el programa Modern POS para Windows.</span><span class="sxs-lookup"><span data-stu-id="23f4c-137">The hardware station is built into the Modern POS program for Windows.</span></span> <span data-ttu-id="23f4c-138">La estación de hardware también se puede implementar independientemente como programa independiente de Microsoft Internet Information Services (IIS).</span><span class="sxs-lookup"><span data-stu-id="23f4c-138">The hardware station can also be deployed independently as a stand-alone Microsoft Internet Information Services (IIS) program.</span></span> <span data-ttu-id="23f4c-139">En este caso, puede tener acceso a través de una red.</span><span class="sxs-lookup"><span data-stu-id="23f4c-139">In this case, it can be accessed via a network.</span></span>
 
-### <a name="hardware-profile"></a>Perfil de hardware
+### <a name="hardware-profile"></a><span data-ttu-id="23f4c-140">Perfil de hardware</span><span class="sxs-lookup"><span data-stu-id="23f4c-140">Hardware profile</span></span>
 
-Navegación: haga clic en **Venta minorista** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Perfiles de PDV** &gt; **Perfiles de hardware**. El perfil de hardware es una lista de dispositivos que están configurados para un registro de PDV o una estación de hardware. El perfil de hardware se puede asignar directamente a un registro de PDV o a una estación de hardware.
+<span data-ttu-id="23f4c-141">Navegación: haga clic en **Venta minorista** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Perfiles de PDV** &gt; **Perfiles de hardware**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-141">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="23f4c-142">El perfil de hardware es una lista de dispositivos que están configurados para un registro de PDV o una estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-142">The hardware profile is a list of devices that are configured for a POS register or a hardware station.</span></span> <span data-ttu-id="23f4c-143">El perfil de hardware se puede asignar directamente a un registro de PDV o a una estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-143">The hardware profile can be mapped directly to a POS register or a hardware station.</span></span>
 
-## <a name="devices-classes"></a>Clases de dispositivos
-Los periféricos de PDV se suelen dividir en clases. Esta sección describe y ofrece una descripción general de los dispositivos que admite Modern POS.
+## <a name="devices-classes"></a><span data-ttu-id="23f4c-144">Clases de dispositivos</span><span class="sxs-lookup"><span data-stu-id="23f4c-144">Devices classes</span></span>
+<span data-ttu-id="23f4c-145">Los periféricos de PDV se suelen dividir en clases.</span><span class="sxs-lookup"><span data-stu-id="23f4c-145">POS peripherals are typically divided into classes.</span></span> <span data-ttu-id="23f4c-146">Esta sección describe y ofrece una descripción general de los dispositivos que admite Modern POS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-146">This section describes and gives an overview of the devices that Modern POS supports.</span></span>
 
-### <a name="printer"></a>Impresora
+### <a name="printer"></a><span data-ttu-id="23f4c-147">Impresora</span><span class="sxs-lookup"><span data-stu-id="23f4c-147">Printer</span></span>
 
-Las impresoras incluyen impresoras tradicionales de recibos de PDV e impresoras a toda página. Se ofrece compatibilidad a la impresora a través de las interfaces del controlador de la vinculación e incrustación de objetos para PDV de Retail (OPDV) y Microsoft Windows. Se pueden utilizar hasta dos impresoras al mismo tiempo. Esta funcionalidad admite las situaciones en las que los recibos de clientes por ventas al contado sin envío a domicilio se imprimen en impresoras de recibos, mientras que los pedidos de los clientes, que tienen más información, se imprimen en una impresora a toda página. Las impresoras de recibos se pueden conectar directamente con un equipo mediante USB, a una red mediante Ethernet o a través de Bluetooth.
+<span data-ttu-id="23f4c-148">Las impresoras incluyen impresoras tradicionales de recibos de PDV e impresoras a toda página.</span><span class="sxs-lookup"><span data-stu-id="23f4c-148">Printers include traditional POS receipt printers and full-page printers.</span></span> <span data-ttu-id="23f4c-149">Se ofrece compatibilidad a la impresora a través de las interfaces del controlador de la vinculación e incrustación de objetos para PDV de Retail (OPDV) y Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="23f4c-149">Printer are supported through Object Linking and Embedding for Retail POS (OPOS) and Microsoft Windows driver interfaces.</span></span> <span data-ttu-id="23f4c-150">Se pueden utilizar hasta dos impresoras al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-150">Up to two printers can be used at the same time.</span></span> <span data-ttu-id="23f4c-151">Esta funcionalidad admite las situaciones en las que los recibos de clientes por ventas al contado sin envío a domicilio se imprimen en impresoras de recibos, mientras que los pedidos de los clientes, que tienen más información, se imprimen en una impresora a toda página.</span><span class="sxs-lookup"><span data-stu-id="23f4c-151">This capability supports scenarios where cash-and-carry customer receipts are printed on receipt printers, whereas customer orders, which carry more information, are printed on a full-page printer.</span></span> <span data-ttu-id="23f4c-152">Las impresoras de recibos se pueden conectar directamente con un equipo mediante USB, a una red mediante Ethernet o a través de Bluetooth.</span><span class="sxs-lookup"><span data-stu-id="23f4c-152">Receipt printers can be connected directly to a computer via USB, connected to a network via Ethernet, or connected via Bluetooth.</span></span>
 
-### <a name="scanner"></a>Escáner
+### <a name="scanner"></a><span data-ttu-id="23f4c-153">Escáner</span><span class="sxs-lookup"><span data-stu-id="23f4c-153">Scanner</span></span>
 
-Se pueden utilizar hasta dos escáneres de código de barras al mismo tiempo. Esta capacidad admite escenarios donde se requiere un escáner con mayor movilidad para escanear artículos pesados o de mayor tamaño, mientras que se puede usar un escáner incrustado fijo para la mayoría de los elementos de tamaño normal para agilizar los plazos de salida. Se puede prestar compatibilidad a los escáneres a través de OPDV, la plataforma de Windows universal (UWP) o las de interfaces de cuña de teclado. Se puede usar USB o Bluetooth para conectar un escáner a un equipo.
+<span data-ttu-id="23f4c-154">Se pueden utilizar hasta dos escáneres de código de barras al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-154">Up to two bar code scanners can be used at the same time.</span></span> <span data-ttu-id="23f4c-155">Esta capacidad admite escenarios donde se requiere un escáner con mayor movilidad para escanear artículos pesados o de mayor tamaño, mientras que se puede usar un escáner incrustado fijo para la mayoría de los elementos de tamaño normal para agilizar los plazos de salida.</span><span class="sxs-lookup"><span data-stu-id="23f4c-155">This capability supports scenarios where a scanner that is more mobile is required in order to scan large or heavy items, whereas a fixed embedded scanner is used for most standard-sized items, to speed up checkout times.</span></span> <span data-ttu-id="23f4c-156">Se puede prestar compatibilidad a los escáneres a través de OPDV, la plataforma de Windows universal (UWP) o las de interfaces de cuña de teclado.</span><span class="sxs-lookup"><span data-stu-id="23f4c-156">Scanners can be supported through OPOS, Universal Windows Platform (UWP), or keyboard wedge interfaces.</span></span> <span data-ttu-id="23f4c-157">Se puede usar USB o Bluetooth para conectar un escáner a un equipo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-157">USB or Bluetooth can be used to connect a scanner to a computer.</span></span>
 
-### <a name="msr"></a>MSR
+### <a name="msr"></a><span data-ttu-id="23f4c-158">MSR</span><span class="sxs-lookup"><span data-stu-id="23f4c-158">MSR</span></span>
 
-Se puede configurar un lector de banda magnética (MSR) de USB mediante los controladores de OPDV. Si desea usar un MSR independiente para las transacciones de pago a través de transferencias electrónicas de fondos (EFT), el MSR se debe gestionar por un conector de pago. Los MSR independientes se pueden usar para datos de fidelización de clientes, inicio de sesión de empleados y especificación de tarjetas regalo, independientemente del conector de pago.
+<span data-ttu-id="23f4c-159">Se puede configurar un lector de banda magnética (MSR) de USB mediante los controladores de OPDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-159">One USB magnetic stripe reader (MSR) can be set up by using OPOS drivers.</span></span> <span data-ttu-id="23f4c-160">Si desea usar un MSR independiente para las transacciones de pago a través de transferencias electrónicas de fondos (EFT), el MSR se debe gestionar por un conector de pago.</span><span class="sxs-lookup"><span data-stu-id="23f4c-160">If you want to use a stand-alone MSR for electronic funds transfer (EFT) payment transactions, the MSR must be managed by a payment connector.</span></span> <span data-ttu-id="23f4c-161">Los MSR independientes se pueden usar para datos de fidelización de clientes, inicio de sesión de empleados y especificación de tarjetas regalo, independientemente del conector de pago.</span><span class="sxs-lookup"><span data-stu-id="23f4c-161">Stand-alone MSRs can be used for customer loyalty entry, employee sign-in, and gift card entry, independently of the payment connector.</span></span>
 
-### <a name="cash-drawer"></a>Caja registradora
+### <a name="cash-drawer"></a><span data-ttu-id="23f4c-162">Caja registradora</span><span class="sxs-lookup"><span data-stu-id="23f4c-162">Cash drawer</span></span>
 
-Dos cajas registradoras se admiten por perfil de hardware. Esta capacidad permite que dos turnos activos por el registro estén disponibles al mismo tiempo. En el caso de turnos compartidos o una caja registradora que usan varios dispositivos de PDV móviles al mismo tiempo, solo una caja registradora se permite por perfil de hardware. Las cajas registradores se pueden conectar directamente con un equipo mediante USB o a una impresora de recibos a través de una interfaz RJ12. En algunos casos, las cajas registradoras también se pueden conectar a través de Bluetooth.
+<span data-ttu-id="23f4c-163">Dos cajas registradoras se admiten por perfil de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-163">Two cash drawers can be supported per hardware profile.</span></span> <span data-ttu-id="23f4c-164">Esta capacidad permite que dos turnos activos por el registro estén disponibles al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-164">This capability enables two active shifts per register to be available at the same time.</span></span> <span data-ttu-id="23f4c-165">En el caso de turnos compartidos o una caja registradora que usan varios dispositivos de PDV móviles al mismo tiempo, solo una caja registradora se permite por perfil de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-165">In the case of a shared shift, or a cash drawer that is used by multiple mobile POS devices at the same time, only one cash drawer is allowed per hardware profile.</span></span> <span data-ttu-id="23f4c-166">Las cajas registradores se pueden conectar directamente con un equipo mediante USB o a una impresora de recibos a través de una interfaz RJ12.</span><span class="sxs-lookup"><span data-stu-id="23f4c-166">Cash drawers can be connected directly to a computer via USB, connected to a network, or connected to a receipt printer via an RJ12 interface.</span></span> <span data-ttu-id="23f4c-167">En algunos casos, las cajas registradoras también se pueden conectar a través de Bluetooth.</span><span class="sxs-lookup"><span data-stu-id="23f4c-167">In some cases, cash drawers can also be connected via Bluetooth.</span></span>
 
-### <a name="line-display"></a>Visualización de líneas
+### <a name="line-display"></a><span data-ttu-id="23f4c-168">Visualización de líneas</span><span class="sxs-lookup"><span data-stu-id="23f4c-168">Line display</span></span>
 
-Se usarán pantallas de línea para mostrar los productos, los saldos de transacciones y otra información útil para el cliente durante una transacción. Una pantalla de línea se puede conectar al equipo mediante USB con controladores de OPDV.
+<span data-ttu-id="23f4c-169">Se usarán pantallas de línea para mostrar los productos, los saldos de transacciones y otra información útil para el cliente durante una transacción.</span><span class="sxs-lookup"><span data-stu-id="23f4c-169">Line displays are used to show products, transaction balances, and other useful information to the customer during a transaction.</span></span> <span data-ttu-id="23f4c-170">Una pantalla de línea se puede conectar al equipo mediante USB con controladores de OPDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-170">One line display can be connected to the computer via USB by using OPOS drivers.</span></span>
 
-### <a name="signature-capture"></a>Captura de firma
+### <a name="signature-capture"></a><span data-ttu-id="23f4c-171">Captura de firma</span><span class="sxs-lookup"><span data-stu-id="23f4c-171">Signature capture</span></span>
 
-Los dispositivos de digitalizador de firmas se pueden conectar directamente con un equipo mediante USB mediante los conductores de OPDV. Cuando se configura la captura de la firma, se pedirá al cliente que firme en el dispositivo. Después de firmar, se muestra al cajero para la aceptación.
+<span data-ttu-id="23f4c-172">Los dispositivos de digitalizador de firmas se pueden conectar directamente con un equipo mediante USB mediante los conductores de OPDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-172">Signature capture devices can be connected directly to a computer via USB by using OPOS drivers.</span></span> <span data-ttu-id="23f4c-173">Cuando se configura la captura de la firma, se pedirá al cliente que firme en el dispositivo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-173">When signature capture is configured, the customer is prompted to sign on the device.</span></span> <span data-ttu-id="23f4c-174">Después de firmar, se muestra al cajero para la aceptación.</span><span class="sxs-lookup"><span data-stu-id="23f4c-174">After the signature is provided, it's shown to the cashier for acceptance.</span></span>
 
-### <a name="scale"></a>Escala
+### <a name="scale"></a><span data-ttu-id="23f4c-175">Escala</span><span class="sxs-lookup"><span data-stu-id="23f4c-175">Scale</span></span>
 
-Las balanzas se puede conectar al equipo mediante USB con controladores de OPDV. Cuando un producto que se marca como producto pesado se agrega a una transacción, el PDV lee el peso de la balanza, agrega al producto a la transacción y utiliza la cantidad ha proporcionado la balanza.
+<span data-ttu-id="23f4c-176">Las balanzas se puede conectar al equipo mediante USB con controladores de OPDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-176">Scales can be connected to the computer via USP by using OPOS drivers.</span></span> <span data-ttu-id="23f4c-177">Cuando un producto que se marca como producto pesado se agrega a una transacción, el PDV lee el peso de la balanza, agrega al producto a la transacción y utiliza la cantidad ha proporcionado la balanza.</span><span class="sxs-lookup"><span data-stu-id="23f4c-177">When a product that is marked as a “Weighed” product is added to a transaction, the POS reads the weight from the scale, adds the product to the transaction, and uses the quantity that the scale provided.</span></span>
 
-### <a name="pin-pad"></a>Terminal para ingreso de PIN
+### <a name="pin-pad"></a><span data-ttu-id="23f4c-178">Terminal para ingreso de PIN</span><span class="sxs-lookup"><span data-stu-id="23f4c-178">PIN pad</span></span>
 
-Las terminales para el ingreso del número de identificación personal (PIN) se admiten a través de OPDV, pero deben administrarse a través de un conector de pago.
+<span data-ttu-id="23f4c-179">Las terminales para el ingreso del número de identificación personal (PIN) se admiten a través de OPDV, pero deben administrarse a través de un conector de pago.</span><span class="sxs-lookup"><span data-stu-id="23f4c-179">Personal identification number (PIN) pads are supported through OPOS, but they must be managed via a payment connector.</span></span>
 
-### <a name="secondary-display"></a>Pantalla secundaria
+### <a name="secondary-display"></a><span data-ttu-id="23f4c-180">Pantalla secundaria</span><span class="sxs-lookup"><span data-stu-id="23f4c-180">Secondary display</span></span>
 
-Cuando se configura una pantalla secundaria, se utilizará el número 2 de pantalla de Windows para mostrar la información básica. El propósito de la pantalla secundaria es admitir la extensión de proveedor independiente de software (ISV); dado que no requiere instalación, la pantalla secundaria no se puede configurar y muestra contenido limitado.
+<span data-ttu-id="23f4c-181">Cuando se configura una pantalla secundaria, se utilizará el número 2 de pantalla de Windows para mostrar la información básica.</span><span class="sxs-lookup"><span data-stu-id="23f4c-181">When a secondary display is configured, the number 2 Windows display is used to show basic information.</span></span> <span data-ttu-id="23f4c-182">El propósito de la pantalla secundaria es admitir la extensión de proveedor independiente de software (ISV); dado que no requiere instalación, la pantalla secundaria no se puede configurar y muestra contenido limitado.</span><span class="sxs-lookup"><span data-stu-id="23f4c-182">The purpose of the secondary display is to support independent software vendor (ISV) extension, because out of the box, the secondary display isn't configurable and shows limited content.</span></span>
 
-### <a name="payment-device"></a>Dispositivo de pago
+### <a name="payment-device"></a><span data-ttu-id="23f4c-183">Dispositivo de pago</span><span class="sxs-lookup"><span data-stu-id="23f4c-183">Payment device</span></span>
 
-La compatibilidad con el dispositivo de pago se implementa a través del conector de pago. Los dispositivos de pago pueden realizar una o varias de las funciones que ofrecen otras clases de dispositivo. Por ejemplo, un dispositivo de pago puede funcionar como un lector de tarjetas/MSR, una pantalla de línea, un dispositivo de captura de firmas o una terminal de ingreso de PIN. La compatibilidad de los dispositivos de pago se implementa independientemente de la del dispositivo independiente que se ofrece para otros dispositivos que se incluyen en el perfil de hardware.
+<span data-ttu-id="23f4c-184">La compatibilidad con el dispositivo de pago se implementa a través del conector de pago.</span><span class="sxs-lookup"><span data-stu-id="23f4c-184">Payment device support is implemented through the payment connector.</span></span> <span data-ttu-id="23f4c-185">Los dispositivos de pago pueden realizar una o varias de las funciones que ofrecen otras clases de dispositivo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-185">Payment devices can perform one or many of the functions that other device classes provide.</span></span> <span data-ttu-id="23f4c-186">Por ejemplo, un dispositivo de pago puede funcionar como un lector de tarjetas/MSR, una pantalla de línea, un dispositivo de captura de firmas o una terminal de ingreso de PIN.</span><span class="sxs-lookup"><span data-stu-id="23f4c-186">For example, a payment device can function as an MSR/card reader, line display, signature capture device, or PIN pad.</span></span> <span data-ttu-id="23f4c-187">La compatibilidad de los dispositivos de pago se implementa independientemente de la del dispositivo independiente que se ofrece para otros dispositivos que se incluyen en el perfil de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-187">Support for payment devices is implemented independently of the stand-alone device support that is provided for other devices that are included in the hardware profile.</span></span>
 
-## <a name="supported-interfaces"></a>Interfaces admitidas
-### <a name="opos"></a>OPDV
+## <a name="supported-interfaces"></a><span data-ttu-id="23f4c-188">Interfaces admitidas</span><span class="sxs-lookup"><span data-stu-id="23f4c-188">Supported interfaces</span></span>
+### <a name="opos"></a><span data-ttu-id="23f4c-189">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-189">OPOS</span></span>
 
-Para ayudar a garantizar que se pueden utilizar la mayor variedad posible de dispositivos con Microsoft Dynamics 365 for Retail, la norma OLE del sector de PDV es la plataforma principal de dispositivos periféricos para aplicaciones minoristas que admite Microsoft Dynamics 365 for Retail. La norma OLE para PDV la creó National Retail Federation (NRF), la cual establece los protocolos de comunicación estándares del sector para los dispositivos periféricos para aplicaciones de comercio minorista. OPDV es una implementación ampliamente adoptada de norma OLE para PDV. Se desarrolló a mitad de los años 90 y se ha actualizado varias veces desde entonces. OPDV proporciona una arquitectura de controlador de dispositivos que habilita la integración fácil de hardware de PDV con los sistemas de PDV basados en Windows. Los controles de OPDV gestionan la comunicación entre el hardware compatible y el software de PDV. El control de OPDV consta de dos partes:
+<span data-ttu-id="23f4c-190">Para ayudar a garantizar que se pueden utilizar la mayor variedad posible de dispositivos con Microsoft Dynamics 365 for Retail, la norma OLE del sector de PDV es la plataforma principal de dispositivos periféricos para aplicaciones minoristas que admite Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="23f4c-190">To help guarantee that the largest range of devices can be used with Microsoft Dynamics 365 for Retail, the OLE for POS industry standard is the primary retail peripheral device platform that is supported in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="23f4c-191">La norma OLE para PDV la creó National Retail Federation (NRF), la cual establece los protocolos de comunicación estándares del sector para los dispositivos periféricos para aplicaciones de comercio minorista.</span><span class="sxs-lookup"><span data-stu-id="23f4c-191">The OLE for POS standard was produced by the National Retail Federation (NRF), which establishes industry-standard communication protocols for retail peripheral devices.</span></span> <span data-ttu-id="23f4c-192">OPDV es una implementación ampliamente adoptada de norma OLE para PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-192">OPOS is a widely adopted implementation of the OLE for POS standard.</span></span> <span data-ttu-id="23f4c-193">Se desarrolló a mitad de los años 90 y se ha actualizado varias veces desde entonces.</span><span class="sxs-lookup"><span data-stu-id="23f4c-193">It was developed in the mid-1990s and has been updated several times since then.</span></span> <span data-ttu-id="23f4c-194">OPDV proporciona una arquitectura de controlador de dispositivos que habilita la integración fácil de hardware de PDV con los sistemas de PDV basados en Windows.</span><span class="sxs-lookup"><span data-stu-id="23f4c-194">OPOS provides a device driver architecture that enables easy integration of POS hardware with Windows–based POS systems.</span></span> <span data-ttu-id="23f4c-195">Los controles de OPDV gestionan la comunicación entre el hardware compatible y el software de PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-195">OPOS controls handle communication between compatible hardware and the POS software.</span></span> <span data-ttu-id="23f4c-196">El control de OPDV consta de dos partes:</span><span class="sxs-lookup"><span data-stu-id="23f4c-196">An OPOS control consists of two parts:</span></span>
 
--   **Objeto de control**: el objeto de control para una clase de dispositivo (como pantallas de línea) ofrece la interfaz para el programa de software. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) proporciona un conjunto normalizado de objetos de control de OPDV denominados Common Control Objects (CCO). Los CCO se usan para probar el componente de PDV de Microsoft Dynamics 365 for Retail. Por lo tanto, las pruebas ayudan a garantizar que, si Microsoft Dynamics 365 for Retail admite una clase de dispositivo con OPDV, muchos tipos de dispositivo pueden ser compatible, siempre que el proveedor proporcione un objeto de servicio que se genere para OPDV. No es necesario probar explícitamente cada tipo de dispositivo.
--   **Objeto de servicio**: el objeto de servicio proporciona comunicación entre el objeto de control (CCO) y el dispositivo. Por lo general, el objeto de servicio para un dispositivo lo proporciona el fabricante del dispositivo. Sin embargo, en algunos casos, es posible que tenga que descargar el objeto de servicio de la página web del fabricante. Por ejemplo, un objeto de servicio más reciente puede estar disponible. Para encontrar la dirección de la página web del fabricante, vea la documentación de hardware.
+-   <span data-ttu-id="23f4c-197">**Objeto de control**: el objeto de control para una clase de dispositivo (como pantallas de línea) ofrece la interfaz para el programa de software.</span><span class="sxs-lookup"><span data-stu-id="23f4c-197">**Control object** – The control object for a device class (such as line displays) provides the interface for the software program.</span></span> <span data-ttu-id="23f4c-198">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) proporciona un conjunto normalizado de objetos de control de OPDV denominados Common Control Objects (CCO).</span><span class="sxs-lookup"><span data-stu-id="23f4c-198">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) provides a standardized set of OPOS control objects that are known as the common control objects (CCOs).</span></span> <span data-ttu-id="23f4c-199">Los CCO se usan para probar el componente de PDV de Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="23f4c-199">The CCOs are used to test the POS component of Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="23f4c-200">Por lo tanto, las pruebas ayudan a garantizar que, si Microsoft Dynamics 365 for Retail admite una clase de dispositivo con OPDV, muchos tipos de dispositivo pueden ser compatible, siempre que el proveedor proporcione un objeto de servicio que se genere para OPDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-200">Therefore, the testing helps guarantee that, if Microsoft Dynamics 365 for Retail supports a device class through OPOS, many device types can be supported, provided that the manufacturer provides a service object that is built for OPOS.</span></span> <span data-ttu-id="23f4c-201">No es necesario probar explícitamente cada tipo de dispositivo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-201">You don't have to explicitly test each device type.</span></span>
+-   <span data-ttu-id="23f4c-202">**Objeto de servicio**: el objeto de servicio proporciona comunicación entre el objeto de control (CCO) y el dispositivo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-202">**Service object** – The service object provides communication between the control object (CCO) and the device.</span></span> <span data-ttu-id="23f4c-203">Por lo general, el objeto de servicio para un dispositivo lo proporciona el fabricante del dispositivo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-203">Typically, the service object for a device is provided by the device manufacturer.</span></span> <span data-ttu-id="23f4c-204">Sin embargo, en algunos casos, es posible que tenga que descargar el objeto de servicio de la página web del fabricante.</span><span class="sxs-lookup"><span data-stu-id="23f4c-204">However, in some cases, you might have to download the service object from the manufacturer’s website.</span></span> <span data-ttu-id="23f4c-205">Por ejemplo, un objeto de servicio más reciente puede estar disponible.</span><span class="sxs-lookup"><span data-stu-id="23f4c-205">For example, a more recent service object might be available.</span></span> <span data-ttu-id="23f4c-206">Para encontrar la dirección de la página web del fabricante, vea la documentación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-206">To find the address of the manufacturer's website, see your hardware documentation.</span></span>
 
-[![Objeto de control y objeto de servicio](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) La compatibilidad para la implementación de OPDV de OLE para PDV ayuda a garantizar que, si los fabricantes de dispositivos y los editores de PDV implementan la norma correctamente, los sistemas de PDV y los dispositivos admitidos pueden trabajar conjuntamente, incluso si no se probaron antes conjuntamente. **Nota:** La compatibilidad de OPDV no garantiza que se admitan todos los dispositivos que tienen controladores de OPDV. Microsoft Dynamics 365 for Retail debe primero admitir ese tipo de dispositivo o clase con OPDV. Además, los objetos de servicio no siempre pueden actualizarse con la última versión del CCO. También debe tener en cuenta que, en general, la calidad de los objetos del servicio varía.
+<span data-ttu-id="23f4c-207">[![Objeto de control y objeto de servicio](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) La compatibilidad para la implementación de OPDV de OLE para PDV ayuda a garantizar que, si los fabricantes de dispositivos y los editores de PDV implementan la norma correctamente, los sistemas de PDV y los dispositivos admitidos pueden trabajar conjuntamente, incluso si no se probaron antes conjuntamente.</span><span class="sxs-lookup"><span data-stu-id="23f4c-207">[![Control object and service object](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Support for the OPOS implementation of OLE for POS helps guarantee that, if the device manufacturers and POS publishers implement the standard correctly, POS systems and supported devices can work together, even if they weren't previously tested together.</span></span> <span data-ttu-id="23f4c-208">**Nota:** La compatibilidad de OPDV no garantiza que se admitan todos los dispositivos que tienen controladores de OPDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-208">**Note:** OPOS support doesn't guarantee support for all devices that have OPOS drivers.</span></span> <span data-ttu-id="23f4c-209">Microsoft Dynamics 365 for Retail debe primero admitir ese tipo de dispositivo o clase con OPDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-209">Microsoft Dynamics 365 for Retail must first support that device type, or class, through OPOS.</span></span> <span data-ttu-id="23f4c-210">Además, los objetos de servicio no siempre pueden actualizarse con la última versión del CCO.</span><span class="sxs-lookup"><span data-stu-id="23f4c-210">In addition, service objects might not always be up to date with the latest version of the CCOs.</span></span> <span data-ttu-id="23f4c-211">También debe tener en cuenta que, en general, la calidad de los objetos del servicio varía.</span><span class="sxs-lookup"><span data-stu-id="23f4c-211">You should also be aware that, in general, the quality of service objects varies.</span></span>
 
-### <a name="windows"></a>Windows
+### <a name="windows"></a><span data-ttu-id="23f4c-212">Windows</span><span class="sxs-lookup"><span data-stu-id="23f4c-212">Windows</span></span>
 
-La impresión de recibos en el PDV se optimiza para OPDV. OPDV tiende a ser mucho más rápido que imprimir a través de Windows. Por tanto, es recomendable usar OPDV, especialmente en entornos minoristas donde se imprimen recibos de 40 columnas y los tiempos de transacción tienen que ser rápidos. Para la mayoría de los dispositivos, deberá utilizar controles de OPDV. Sin embargo, algunas impresoras de recibos de OPDV también admiten controladores de Windows. Si usa un controlador de Windows, puede tener acceso a las últimas fuentes y conectar en red una impresora para varios registros. Sin embargo, existen desventajas al utilizar los conductores de Windows. Algunos ejemplos estas desventajas son:
+<span data-ttu-id="23f4c-213">La impresión de recibos en el PDV se optimiza para OPDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-213">Receipt printing at the POS is optimized for OPOS.</span></span> <span data-ttu-id="23f4c-214">OPDV tiende a ser mucho más rápido que imprimir a través de Windows.</span><span class="sxs-lookup"><span data-stu-id="23f4c-214">OPOS tends to be much faster than printing through Windows.</span></span> <span data-ttu-id="23f4c-215">Por tanto, es recomendable usar OPDV, especialmente en entornos minoristas donde se imprimen recibos de 40 columnas y los tiempos de transacción tienen que ser rápidos.</span><span class="sxs-lookup"><span data-stu-id="23f4c-215">Therefore, it's a good idea to use OPOS, especially in retail environments where 40-column receipts are printed and transaction times must be fast.</span></span> <span data-ttu-id="23f4c-216">Para la mayoría de los dispositivos, deberá utilizar controles de OPDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-216">For most devices, you will use OPOS controls.</span></span> <span data-ttu-id="23f4c-217">Sin embargo, algunas impresoras de recibos de OPDV también admiten controladores de Windows.</span><span class="sxs-lookup"><span data-stu-id="23f4c-217">However, some OPOS receipt printers also support Windows drivers.</span></span> <span data-ttu-id="23f4c-218">Si usa un controlador de Windows, puede tener acceso a las últimas fuentes y conectar en red una impresora para varios registros.</span><span class="sxs-lookup"><span data-stu-id="23f4c-218">By using a Windows driver, you can access the latest fonts and network one printer for multiple registers.</span></span> <span data-ttu-id="23f4c-219">Sin embargo, existen desventajas al utilizar los conductores de Windows.</span><span class="sxs-lookup"><span data-stu-id="23f4c-219">However, there are drawbacks to using Windows drivers.</span></span> <span data-ttu-id="23f4c-220">Algunos ejemplos estas desventajas son:</span><span class="sxs-lookup"><span data-stu-id="23f4c-220">Here are some examples of these drawbacks:</span></span>
 
--   Cuando se usan los controladores de Windows, las imágenes se generan antes de la impresión. Por lo tanto, la impresión tiende a ser más lenta que en impresoras que usan controles de OPDV.
--   Los dispositivos conectados a través de la impresora ("cadena margarita") pueden no funcionar correctamente cuando se usan los controladores de Windows. Por ejemplo, la caja registradora puede que no se abra o la impresora de recibos puede que no funcione como espera.
--   OPDV también admite un conjunto más amplio de variables que son específicas de las impresoras de recibos en aplicaciones minoristas, como papel para cortar o impresión de resguardos.
+-   <span data-ttu-id="23f4c-221">Cuando se usan los controladores de Windows, las imágenes se generan antes de la impresión.</span><span class="sxs-lookup"><span data-stu-id="23f4c-221">When Windows drivers are used, images are rendered before printing occurs.</span></span> <span data-ttu-id="23f4c-222">Por lo tanto, la impresión tiende a ser más lenta que en impresoras que usan controles de OPDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-222">Therefore, printing tends to be slower than it is on printers that use OPOS controls.</span></span>
+-   <span data-ttu-id="23f4c-223">Los dispositivos conectados a través de la impresora ("cadena margarita") pueden no funcionar correctamente cuando se usan los controladores de Windows.</span><span class="sxs-lookup"><span data-stu-id="23f4c-223">Devices that are connected through the printer (“daisy-chained”) might not work correctly when Windows drivers are used.</span></span> <span data-ttu-id="23f4c-224">Por ejemplo, la caja registradora puede que no se abra o la impresora de recibos puede que no funcione como espera.</span><span class="sxs-lookup"><span data-stu-id="23f4c-224">For example, the cash drawer might not open, or the slip printer might not word as you expect.</span></span>
+-   <span data-ttu-id="23f4c-225">OPDV también admite un conjunto más amplio de variables que son específicas de las impresoras de recibos en aplicaciones minoristas, como papel para cortar o impresión de resguardos.</span><span class="sxs-lookup"><span data-stu-id="23f4c-225">OPOS also supports a more extensive set of variables that are specific to retail receipt printers, such as paper cutting or slip printing.</span></span>
 
-Si los controles de OPDV están disponibles para la impresora de Windows que usa, la impresora debe aún así funcionar correctamente con Microsoft Dynamics 365 for Retail.
+<span data-ttu-id="23f4c-226">Si los controles de OPDV están disponibles para la impresora de Windows que usa, la impresora debe aún así funcionar correctamente con Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="23f4c-226">If OPOS controls are available for the Windows printer that you're using, the printer should still work correctly with Microsoft Dynamics 365 for Retail.</span></span>
 
-### <a name="universal-windows-platform"></a>Plataforma de Windows universal
+### <a name="universal-windows-platform"></a><span data-ttu-id="23f4c-227">Plataforma de Windows universal</span><span class="sxs-lookup"><span data-stu-id="23f4c-227">Universal Windows Platform</span></span>
 
-UWP, en el caso de los periféricos para aplicaciones minoristas, está relacionada con la compatibilidad de Windows para dispositivos Plug and Play. Cuando un dispositivo Plug and Play se conecta con una versión del SO de Windows que admita ese tipo de dispositivo, no se requerirá ningún controlador para que el dispositivo se use como previsto. Por ejemplo, si Windows detecta un dispositivo altavoz de Bluetooth, el SO sabe que tiene el dispositivo es del tipo de clase **Altavoz**. Por lo tanto trata a ese dispositivo como un altavoz. No es necesaria configuración adicional. En el caso de los dispositivos de PDV, muchos dispositivos USB se pueden enchufar y Windows los reconocerá como Dispositivos de interfaz de usuario (HID). Sin embargo, es posible que no pueda determinar las capacidades que proporciona el dispositivo, ya que el dispositivo no especifica la clase o el tipo de dispositivo. En Windows 10, se han agregado clases de dispositivo para los escáneres de código de barras y los MSR. Por lo tanto, si un dispositivo se declara a Windows 10 como dispositivo de una de estas clases, Windows estará al tanto de los eventos del dispositivo en los momentos adecuados. Modern POS admite UWP, MSR y escáneres. Por lo tanto, cuando está listo para recibir datos desde uno de estos dispositivos y un dispositivo que pertenezca a una de estas clases se conecta, el dispositivo se podrá utilizar. Por ejemplo, si un escáner de códigos de barras de UWP se conecta a un equipo de Windows 10 y un inicio de sesión de código de barras se configura para Modern POS, el escáner de códigos de barras estará activo en la pantalla de inicio de sesión. No es necesaria configuración adicional. Las clases adicionales de dispositivos UWP de punto de servicio se están agregando a Windows. Estas clases incluyen clases para las cajas registradoras e impresoras de recibos. La compatibilidad para estas nuevas clases de dispositivo en Modern POS está pendiente.
+<span data-ttu-id="23f4c-228">UWP, en el caso de los periféricos para aplicaciones minoristas, está relacionada con la compatibilidad de Windows para dispositivos Plug and Play.</span><span class="sxs-lookup"><span data-stu-id="23f4c-228">UWP, in the case of retail peripherals, is related to Windows support for Plug and Play devices.</span></span> <span data-ttu-id="23f4c-229">Cuando un dispositivo Plug and Play se conecta con una versión del SO de Windows que admita ese tipo de dispositivo, no se requerirá ningún controlador para que el dispositivo se use como previsto.</span><span class="sxs-lookup"><span data-stu-id="23f4c-229">When a Plug and Play device is connected to a Windows OS version that supports that type of device, no driver is required for the device to be used as intended.</span></span> <span data-ttu-id="23f4c-230">Por ejemplo, si Windows detecta un dispositivo altavoz de Bluetooth, el SO sabe que tiene el dispositivo es del tipo de clase **Altavoz**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-230">For example, if Windows detects a Bluetooth speaker device, the OS knows that the device has the **Speaker** class type.</span></span> <span data-ttu-id="23f4c-231">Por lo tanto trata a ese dispositivo como un altavoz.</span><span class="sxs-lookup"><span data-stu-id="23f4c-231">Therefore, and it treats that device as a speaker.</span></span> <span data-ttu-id="23f4c-232">No es necesaria configuración adicional.</span><span class="sxs-lookup"><span data-stu-id="23f4c-232">No additional setup is required.</span></span> <span data-ttu-id="23f4c-233">En el caso de los dispositivos de PDV, muchos dispositivos USB se pueden enchufar y Windows los reconocerá como Dispositivos de interfaz de usuario (HID).</span><span class="sxs-lookup"><span data-stu-id="23f4c-233">In the case of POS devices, many USB devices can be plugged in, and Windows will recognize them as Human Interface Devices (HIDs).</span></span> <span data-ttu-id="23f4c-234">Sin embargo, es posible que no pueda determinar las capacidades que proporciona el dispositivo, ya que el dispositivo no especifica la clase o el tipo de dispositivo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-234">However, it might not be able to determine the capabilities that the device provides, because the device doesn't specify the class, or type, of device.</span></span> <span data-ttu-id="23f4c-235">En Windows 10, se han agregado clases de dispositivo para los escáneres de código de barras y los MSR.</span><span class="sxs-lookup"><span data-stu-id="23f4c-235">In Windows 10, device classes for bar code scanners and MSRs have been added.</span></span> <span data-ttu-id="23f4c-236">Por lo tanto, si un dispositivo se declara a Windows 10 como dispositivo de una de estas clases, Windows estará al tanto de los eventos del dispositivo en los momentos adecuados.</span><span class="sxs-lookup"><span data-stu-id="23f4c-236">Therefore, if a device declares itself to Windows 10 as a device of one of these classes, Windows will listen for events from the device at the appropriate times.</span></span> <span data-ttu-id="23f4c-237">Modern POS admite UWP, MSR y escáneres.</span><span class="sxs-lookup"><span data-stu-id="23f4c-237">Modern POS supports UWP MSRs and scanners.</span></span> <span data-ttu-id="23f4c-238">Por lo tanto, cuando está listo para recibir datos desde uno de estos dispositivos y un dispositivo que pertenezca a una de estas clases se conecta, el dispositivo se podrá utilizar.</span><span class="sxs-lookup"><span data-stu-id="23f4c-238">Therefore, when it's ready for input from one of these devices, and a device that belongs to one of these classes is connected, the device can be used.</span></span> <span data-ttu-id="23f4c-239">Por ejemplo, si un escáner de códigos de barras de UWP se conecta a un equipo de Windows 10 y un inicio de sesión de código de barras se configura para Modern POS, el escáner de códigos de barras estará activo en la pantalla de inicio de sesión.</span><span class="sxs-lookup"><span data-stu-id="23f4c-239">For example, if a UWP bar code scanner is plugged into a Windows 10 computer, and bar code sign-in is configured for Modern POS, the bar code scanner will become active on the sign-in screen.</span></span> <span data-ttu-id="23f4c-240">No es necesaria configuración adicional.</span><span class="sxs-lookup"><span data-stu-id="23f4c-240">No additional setup is required.</span></span> <span data-ttu-id="23f4c-241">Las clases adicionales de dispositivos UWP de punto de servicio se están agregando a Windows.</span><span class="sxs-lookup"><span data-stu-id="23f4c-241">Additional classes of point of service UWP devices are being added to Windows.</span></span> <span data-ttu-id="23f4c-242">Estas clases incluyen clases para las cajas registradoras e impresoras de recibos.</span><span class="sxs-lookup"><span data-stu-id="23f4c-242">These classes include classes for cash drawers and receipt printers.</span></span> <span data-ttu-id="23f4c-243">La compatibilidad para estas nuevas clases de dispositivo en Modern POS está pendiente.</span><span class="sxs-lookup"><span data-stu-id="23f4c-243">Support for these new device classes in Modern POS is pending.</span></span>
 
-### <a name="keyboard-wedge"></a>Cuña de teclado
+### <a name="keyboard-wedge"></a><span data-ttu-id="23f4c-244">Cuña de teclado</span><span class="sxs-lookup"><span data-stu-id="23f4c-244">Keyboard wedge</span></span>
 
-Los dispositivos de cuña de teclado envían datos al equipo como si los datos se escribieran en un teclado. Por lo tanto, de forma predeterminada, el campo que está activo en PDV recibirá los datos que se escanean o pasan por la banda. En algunos casos, este comportamiento puede producir el tipo incorrecto de datos que se digitalizarán en el campo incorrecto. Por ejemplo, un código de barras se puede escanear en un campo que se ha creado para la entrada de los datos de la tarjeta de crédito. En muchos casos, hay lógica en los PDV que determina si los datos que se escanean o se pasan por la banda es un una tarjeta de código de barras o una tarjeta que se ha pasado por la banda. De esta forma, los datos se gestionan correctamente. Sin embargo, cuando los dispositivos se configuran como OPDV en lugar de dispositivos de cuña de teclado, hay más control sobre cómo los datos de esos dispositivos se pueden utilizar, porque se tiene más información sobre el dispositivo que origina estos datos. Por ejemplo, los datos de un escáner de códigos de barras se reconoce automáticamente como código de barras y el registro asociado en la base de datos se encuentra más fácilmente y más rápidamente que si se usara una búsqueda de cadenas genérica, como en el caso de los dispositivos de cuña de teclado.
+<span data-ttu-id="23f4c-245">Los dispositivos de cuña de teclado envían datos al equipo como si los datos se escribieran en un teclado.</span><span class="sxs-lookup"><span data-stu-id="23f4c-245">Keyboard wedge devices send data to the computer as if that data were typed on a keyboard.</span></span> <span data-ttu-id="23f4c-246">Por lo tanto, de forma predeterminada, el campo que está activo en PDV recibirá los datos que se escanean o pasan por la banda.</span><span class="sxs-lookup"><span data-stu-id="23f4c-246">Therefore, by default, the field that is active at the POS will receive the data that is scanned or swiped.</span></span> <span data-ttu-id="23f4c-247">En algunos casos, este comportamiento puede producir el tipo incorrecto de datos que se digitalizarán en el campo incorrecto.</span><span class="sxs-lookup"><span data-stu-id="23f4c-247">In some cases, this behavior can cause the wrong type of data to be scanned into the wrong field.</span></span> <span data-ttu-id="23f4c-248">Por ejemplo, un código de barras se puede escanear en un campo que se ha creado para la entrada de los datos de la tarjeta de crédito.</span><span class="sxs-lookup"><span data-stu-id="23f4c-248">For example, a bar code might be scanned into a field that is intended for input of credit card data.</span></span> <span data-ttu-id="23f4c-249">En muchos casos, hay lógica en los PDV que determina si los datos que se escanean o se pasan por la banda es un una tarjeta de código de barras o una tarjeta que se ha pasado por la banda.</span><span class="sxs-lookup"><span data-stu-id="23f4c-249">In many cases, there is logic at the POS that determines whether the data that is scanned or swiped is a bar code or card swipe.</span></span> <span data-ttu-id="23f4c-250">De esta forma, los datos se gestionan correctamente.</span><span class="sxs-lookup"><span data-stu-id="23f4c-250">Therefore, the data is handled correctly.</span></span> <span data-ttu-id="23f4c-251">Sin embargo, cuando los dispositivos se configuran como OPDV en lugar de dispositivos de cuña de teclado, hay más control sobre cómo los datos de esos dispositivos se pueden utilizar, porque se tiene más información sobre el dispositivo que origina estos datos.</span><span class="sxs-lookup"><span data-stu-id="23f4c-251">However, when devices are set up as OPOS instead of keyboard wedge devices, there is more control over how the data from those devices can be consumed, because more is “known” about the device that the data originates from.</span></span> <span data-ttu-id="23f4c-252">Por ejemplo, los datos de un escáner de códigos de barras se reconoce automáticamente como código de barras y el registro asociado en la base de datos se encuentra más fácilmente y más rápidamente que si se usara una búsqueda de cadenas genérica, como en el caso de los dispositivos de cuña de teclado.</span><span class="sxs-lookup"><span data-stu-id="23f4c-252">For example, data from a bar code scanner is automatically recognized as a bar code, and the associated record in the database is found more easily and faster than if a generic string search were used, as in the case of keyboard wedge devices.</span></span>
 
-### <a name="native-printer"></a>Impresora nativa
+### <a name="native-printer"></a><span data-ttu-id="23f4c-253">Impresora nativa</span><span class="sxs-lookup"><span data-stu-id="23f4c-253">Native printer</span></span>
 
-Las impresoras nativas (o "Dispositivo" como se denomina en el perfil de hardware) se pueden configurar para que pregunten al usuario que seleccione una impresora que está configurada para el equipo. Cuando una impresora del tipo **Dispositivo** se configura, si Modern POS detecta un comando de impresión, se pedirá al usuario que seleccione una impresora en una lista. Este comportamiento se diferencia del comportamiento de los controladores de Windows, porque el tipo de impresora de **Windows** en el perfil de hardware no muestra una lista de impresoras. En su lugar, requiere que se proporcione una impresora con nombre en el campo **Nombre del dispositivo**.
+<span data-ttu-id="23f4c-254">Las impresoras nativas (o "Dispositivo" como se denomina en el perfil de hardware) se pueden configurar para que pregunten al usuario que seleccione una impresora que está configurada para el equipo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-254">Native (or "Device" as the type is named in the hardware profile) printers can be configured to prompt the user to select a printer that is configured for the computer.</span></span> <span data-ttu-id="23f4c-255">Cuando una impresora del tipo **Dispositivo** se configura, si Modern POS detecta un comando de impresión, se pedirá al usuario que seleccione una impresora en una lista.</span><span class="sxs-lookup"><span data-stu-id="23f4c-255">When a printer of the **Device** type is configured, if Modern POS encounters a print command, the user is prompted to select a printer in a list.</span></span> <span data-ttu-id="23f4c-256">Este comportamiento se diferencia del comportamiento de los controladores de Windows, porque el tipo de impresora de **Windows** en el perfil de hardware no muestra una lista de impresoras.</span><span class="sxs-lookup"><span data-stu-id="23f4c-256">This behavior differs from the behavior for Windows drivers, because the **Windows** printer type in the hardware profile doesn't show a list of printers.</span></span> <span data-ttu-id="23f4c-257">En su lugar, requiere que se proporcione una impresora con nombre en el campo **Nombre del dispositivo**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-257">Instead, it requires that a named printer be provided in the **Device name** field.</span></span>
 
-### <a name="windows"></a>Windows
+### <a name="windows"></a><span data-ttu-id="23f4c-258">Windows</span><span class="sxs-lookup"><span data-stu-id="23f4c-258">Windows</span></span>
 
-El tipo de dispositivo **Windows** se usa solo para impresoras. Cuando una impresora de Windows se configura en el perfil de hardware, se debe proporcionar el nombre específico de la impresora. Cuando Modern POS detecta eventos de impresión, si se configura una impresora de Windows, el evento se pasará a la impresora especificada de Windows. No se pedirá al usuario que seleccione una impresora.
+<span data-ttu-id="23f4c-259">El tipo de dispositivo **Windows** se usa solo para impresoras.</span><span class="sxs-lookup"><span data-stu-id="23f4c-259">The **Windows** device type is used for printers only.</span></span> <span data-ttu-id="23f4c-260">Cuando una impresora de Windows se configura en el perfil de hardware, se debe proporcionar el nombre específico de la impresora.</span><span class="sxs-lookup"><span data-stu-id="23f4c-260">When a Windows printer is configured in the hardware profile, the specific printer name must be provided.</span></span> <span data-ttu-id="23f4c-261">Cuando Modern POS detecta eventos de impresión, si se configura una impresora de Windows, el evento se pasará a la impresora especificada de Windows.</span><span class="sxs-lookup"><span data-stu-id="23f4c-261">When Modern POS encounters print events, if a Windows printer is configured, the event will be passed to the specified Windows printer.</span></span> <span data-ttu-id="23f4c-262">No se pedirá al usuario que seleccione una impresora.</span><span class="sxs-lookup"><span data-stu-id="23f4c-262">The user won't be prompted to select a printer.</span></span>
 
-### <a name="network"></a>Red
+### <a name="network"></a><span data-ttu-id="23f4c-263">Red</span><span class="sxs-lookup"><span data-stu-id="23f4c-263">Network</span></span>
 
-Las cajas registradoras, las impresoras de recibos y los terminales de pago gestionables a través de la red se pueden usar en una red, ya sea directamente a través de la estación de hardware de las comunicaciones entre procesos (IPC) que se genera en Modern POS para la aplicación de Windows o a través de la estación de hardware de IIS para otros clientes de Modern POS.
+<span data-ttu-id="23f4c-264">Las cajas registradoras, las impresoras de recibos y los terminales de pago gestionables a través de la red se pueden usar en una red, ya sea directamente a través de la estación de hardware de las comunicaciones entre procesos (IPC) que se genera en Modern POS para la aplicación de Windows o a través de la estación de hardware de IIS para otros clientes de Modern POS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-264">Network-addressable cash drawers, receipt printers, and payment terminals can be used over a network, either directly through the Interprocess Communications (IPC) hardware station that is built into the Modern POS for Windows application or through the IIS hardware station for other Modern POS clients.</span></span>
 
-## <a name="hardware-station-deployment-options"></a>Opciones de implementación de la estación de hardware
-### <a name="ipc-built-in"></a>IPC (integrado)
+## <a name="hardware-station-deployment-options"></a><span data-ttu-id="23f4c-265">Opciones de implementación de la estación de hardware</span><span class="sxs-lookup"><span data-stu-id="23f4c-265">Hardware station deployment options</span></span>
+### <a name="ipc-built-in"></a><span data-ttu-id="23f4c-266">IPC (integrado)</span><span class="sxs-lookup"><span data-stu-id="23f4c-266">IPC (built-in)</span></span>
 
-La estación de hardware de las comunicaciones entre procesos (IPC) se ha incluido en Modern POS para la aplicación de Windows. Para usar la estación de hardware de IPC, asigne un perfil de hardware a un registro que Modern POS para la aplicación de Windows. A continuación, cree una estación de hardware de tipo **Dedicado** para la tienda donde se usará el registro. Al iniciar Modern POS, la estación de hardware de IPC estará activa y periféricos de PDV que se han configurado estarán listos para usarse. Si no necesita temporalmente el hardware local por algún motivo, utilice la operación **Gestionar estaciones de hardware** para desactivar las capacidades de la estación de hardware. Modern POS también puede usar la estación de hardware de IPC para comunicarse directamente con los periféricos de la red.
+<span data-ttu-id="23f4c-267">La estación de hardware de las comunicaciones entre procesos (IPC) se ha incluido en Modern POS para la aplicación de Windows.</span><span class="sxs-lookup"><span data-stu-id="23f4c-267">The Interprocess Communications (IPC) hardware station is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="23f4c-268">Para usar la estación de hardware de IPC, asigne un perfil de hardware a un registro que Modern POS para la aplicación de Windows.</span><span class="sxs-lookup"><span data-stu-id="23f4c-268">To use the IPC hardware station, assign a hardware profile to a register that will use the Modern POS for Windows application.</span></span> <span data-ttu-id="23f4c-269">A continuación, cree una estación de hardware de tipo **Dedicado** para la tienda donde se usará el registro.</span><span class="sxs-lookup"><span data-stu-id="23f4c-269">Then create a hardware station of the **Dedicated** type for the store where the register will be used.</span></span> <span data-ttu-id="23f4c-270">Al iniciar Modern POS, la estación de hardware de IPC estará activa y periféricos de PDV que se han configurado estarán listos para usarse.</span><span class="sxs-lookup"><span data-stu-id="23f4c-270">When you start Modern POS, the IPC hardware station will be active, and the POS peripherals that have been configured will be ready to use.</span></span> <span data-ttu-id="23f4c-271">Si no necesita temporalmente el hardware local por algún motivo, utilice la operación **Gestionar estaciones de hardware** para desactivar las capacidades de la estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-271">If you temporarily don't require the local hardware for some reason, use the **Manage hardware stations** operation to turn off the hardware station capabilities.</span></span> <span data-ttu-id="23f4c-272">Modern POS también puede usar la estación de hardware de IPC para comunicarse directamente con los periféricos de la red.</span><span class="sxs-lookup"><span data-stu-id="23f4c-272">Modern POS can also use the IPC hardware station to communicate directly with network peripherals.</span></span>
 
-### <a name="iis"></a>IIS
+### <a name="iis"></a><span data-ttu-id="23f4c-273">IIS</span><span class="sxs-lookup"><span data-stu-id="23f4c-273">IIS</span></span>
 
-Puede usar IIS o la versión independiente de la estación de hardware de dos maneras. El descriptor “IIS” implica que la aplicación de PDV se conecta a la estación de hardware mediante Microsoft Internet Information Services. La aplicación de PDV se conecta a la estación de hardware de IIS a través de los servicios web que se ejecutan en un equipo donde los dispositivos se conectan. Cuando se usa IIS, periféricos para aplicaciones minoristas asociados a una estación de hardware se pueden usar por cualquier registro de PDV que esté en la misma red que la estación de hardware de IIS. Dado que solo Modern POS para Windows incluye compatibilidad integrada para periféricos para aplicaciones minoristas, el resto de aplicaciones de Modern POS deben usar la estación de hardware de IIS para comunicarse con los periféricos de PDV que se configuran en el perfil de hardware. Por lo tanto, cada instancia de la estación de hardware de IIS requiere un equipo que ejecute el servicio web y la aplicación que se comunica con los dispositivos. La estación de hardware de IIS se requiere para todas las aplicaciones de Modern POS que no sean de Windows.
+<span data-ttu-id="23f4c-274">Puede usar IIS o la versión independiente de la estación de hardware de dos maneras.</span><span class="sxs-lookup"><span data-stu-id="23f4c-274">You can use the IIS or stand-alone version of the hardware station in two ways.</span></span> <span data-ttu-id="23f4c-275">El descriptor “IIS” implica que la aplicación de PDV se conecta a la estación de hardware mediante Microsoft Internet Information Services.</span><span class="sxs-lookup"><span data-stu-id="23f4c-275">The descriptor “IIS” implies that the POS application connects to the hardware station via Microsoft Internet Information Services.</span></span> <span data-ttu-id="23f4c-276">La aplicación de PDV se conecta a la estación de hardware de IIS a través de los servicios web que se ejecutan en un equipo donde los dispositivos se conectan.</span><span class="sxs-lookup"><span data-stu-id="23f4c-276">The POS application connects to the IIS hardware station via web services that run on a computer where the devices are connected.</span></span> <span data-ttu-id="23f4c-277">Cuando se usa IIS, periféricos para aplicaciones minoristas asociados a una estación de hardware se pueden usar por cualquier registro de PDV que esté en la misma red que la estación de hardware de IIS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-277">When IIS is used, the retail peripherals that are connected to a hardware station can be used by any POS register that is on the same network as the IIS hardware station.</span></span> <span data-ttu-id="23f4c-278">Dado que solo Modern POS para Windows incluye compatibilidad integrada para periféricos para aplicaciones minoristas, el resto de aplicaciones de Modern POS deben usar la estación de hardware de IIS para comunicarse con los periféricos de PDV que se configuran en el perfil de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-278">Because only Modern POS for Windows includes built-in support for retail peripherals, all other Modern POS applications must use the IIS hardware station to communicate with POS peripherals that are configured in the hardware profile.</span></span> <span data-ttu-id="23f4c-279">Por lo tanto, cada instancia de la estación de hardware de IIS requiere un equipo que ejecute el servicio web y la aplicación que se comunica con los dispositivos.</span><span class="sxs-lookup"><span data-stu-id="23f4c-279">Therefore, each instance of the IIS hardware station requires a computer that runs the web service and application that communicates with the devices.</span></span> <span data-ttu-id="23f4c-280">La estación de hardware de IIS se requiere para todas las aplicaciones de Modern POS que no sean de Windows.</span><span class="sxs-lookup"><span data-stu-id="23f4c-280">The IIS hardware station is required for all non-Windows Modern POS applications.</span></span>
 
-#### <a name="dedicated"></a>Dedicado
+#### <a name="dedicated"></a><span data-ttu-id="23f4c-281">Dedicado</span><span class="sxs-lookup"><span data-stu-id="23f4c-281">Dedicated</span></span>
 
-Modern POS usa estaciones de hardware de tipo **Dedicado** para detectar que los periféricos se vinculan directamente con el equipo donde se usa la aplicación. Sin embargo, el tipo **Dedicado** también se puede usar para las estaciones de hardware de IIS. En un escenario tradicional y fijo de PDV que utilice la Cloud POS como la aplicación del PDV, se usa el tipo de estación de hardware **Dedicado** para las estaciones de hardware de IIS que se implementan en el mismo equipo que ejecuta la Cloud POS. Dese la perspectiva de los periféricos para aplicaciones minoristas, la estación de hardware IIS dedicada tiene mejor compatibilidad para este tipo de periféricos para escenarios tradicionales y fijos de PDV. Las emisoras dedicadas de hardware admiten todos los periféricos que se admitan en el perfil de hardware.
+<span data-ttu-id="23f4c-282">Modern POS usa estaciones de hardware de tipo **Dedicado** para detectar que los periféricos se vinculan directamente con el equipo donde se usa la aplicación.</span><span class="sxs-lookup"><span data-stu-id="23f4c-282">Modern POS uses hardware stations of the **Dedicated** type to detect that peripherals are directly connected to the computer where the app is being used.</span></span> <span data-ttu-id="23f4c-283">Sin embargo, el tipo **Dedicado** también se puede usar para las estaciones de hardware de IIS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-283">However, the **Dedicated** type can also be used for IIS hardware stations.</span></span> <span data-ttu-id="23f4c-284">En un escenario tradicional y fijo de PDV que utilice la Cloud POS como la aplicación del PDV, se usa el tipo de estación de hardware **Dedicado** para las estaciones de hardware de IIS que se implementan en el mismo equipo que ejecuta la Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-284">In a traditional, fixed POS scenario that uses Cloud POS as the POS application, the **Dedicated** hardware station type is used for IIS hardware stations that are deployed on the same computer that is running Cloud POS.</span></span> <span data-ttu-id="23f4c-285">Dese la perspectiva de los periféricos para aplicaciones minoristas, la estación de hardware IIS dedicada tiene mejor compatibilidad para este tipo de periféricos para escenarios tradicionales y fijos de PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-285">From a retail peripherals perspective, the dedicated IIS hardware station has better retail peripheral support for traditional, fixed POS scenarios.</span></span> <span data-ttu-id="23f4c-286">Las emisoras dedicadas de hardware admiten todos los periféricos que se admitan en el perfil de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-286">Dedicated hardware stations support all peripherals that are supported in the hardware profile.</span></span>
 
-#### <a name="shared"></a>Compartido
+#### <a name="shared"></a><span data-ttu-id="23f4c-287">Compartido</span><span class="sxs-lookup"><span data-stu-id="23f4c-287">Shared</span></span>
 
-Las estaciones compartidas de hardware se utilizan para su uso en múltiples dispositivos de PDV a lo largo del día. Las estaciones compartidas de hardware se optimizan para admitir solo cajas registradoras, impresoras de recibos y terminales de pago. No puede conectar directamente los escáneres de código de barras independientes, los MSR, pantallas las de línea, las balanzas u otros dispositivos. Si no, aparecerán conflictos cuando varios dispositivos PDV intentan demandar esos periféricos al mismo tiempo. Aquí se explica cómo se gestionan los conflictos de los dispositivos admitidos:
+<span data-ttu-id="23f4c-288">Las estaciones compartidas de hardware se utilizan para su uso en múltiples dispositivos de PDV a lo largo del día.</span><span class="sxs-lookup"><span data-stu-id="23f4c-288">Shared hardware stations are intended to be used by multiple POS devices through the course of the day.</span></span> <span data-ttu-id="23f4c-289">Las estaciones compartidas de hardware se optimizan para admitir solo cajas registradoras, impresoras de recibos y terminales de pago.</span><span class="sxs-lookup"><span data-stu-id="23f4c-289">Shared hardware stations are optimized to support only cash drawers, receipt printers, and payment terminals.</span></span> <span data-ttu-id="23f4c-290">No puede conectar directamente los escáneres de código de barras independientes, los MSR, pantallas las de línea, las balanzas u otros dispositivos.</span><span class="sxs-lookup"><span data-stu-id="23f4c-290">You can't directly connect stand-alone bar code scanners, MSRs, line displays, scales, or other devices.</span></span> <span data-ttu-id="23f4c-291">Si no, aparecerán conflictos cuando varios dispositivos PDV intentan demandar esos periféricos al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-291">Otherwise, conflicts will occur when multiple POS devices try to claim those peripherals at the same time.</span></span> <span data-ttu-id="23f4c-292">Aquí se explica cómo se gestionan los conflictos de los dispositivos admitidos:</span><span class="sxs-lookup"><span data-stu-id="23f4c-292">Here is how conflicts are managed for supported devices:</span></span>
 
--   **La caja registradora** la caja registradora se abre mediante un evento que se envía al dispositivo. El único problema que puede ocurrir cuando se llama a la caja registradora es que ya esté abierta. En el caso de las estaciones de hardware compartidas, la caja registradora se debe establecerse en **Compartida** en el perfil de hardware. Este valor impide que los PDV comprueben si la caja registradora ya está abierta cuando envían comandos para abrirla.
--   **Impresora de recibos**: si se envían dos comandos de impresión de recibos a la estación de hardware al mismo tiempo, uno de los siguientes comandos se puede perder, en función del dispositivo. Algunos dispositivos tienen memoria interna o agrupaciones que pueden evitar este problema. Si un comando de impresión no se realiza correctamente, el cajero recibe un mensaje de error y puede reintentar el comando de impresión desde el PDV.
--   **Termina de pago**: si un cajero intenta realizar una transacción en un terminal de pago que ya se está usando, un mensaje notifica al cajero que se está utilizando el terminal y se solicita al cajero que lo intente de nuevo más adelante. Normalmente, los cajeros pueden ver que un terminal ya se está usando y esperarán hasta que se complete la otra transacción antes de intentarlo de nuevo.
+-   <span data-ttu-id="23f4c-293">**La caja registradora** la caja registradora se abre mediante un evento que se envía al dispositivo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-293">**Cash drawer** – The cash drawer is opened via an event that is sent to the device.</span></span> <span data-ttu-id="23f4c-294">El único problema que puede ocurrir cuando se llama a la caja registradora es que ya esté abierta.</span><span class="sxs-lookup"><span data-stu-id="23f4c-294">The only issue that can occur when a cash drawer is called occurs if the cash drawer is already open.</span></span> <span data-ttu-id="23f4c-295">En el caso de las estaciones de hardware compartidas, la caja registradora se debe establecerse en **Compartida** en el perfil de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-295">In the case of shared hardware stations, the cash drawer should be set to **Shared** in the hardware profile.</span></span> <span data-ttu-id="23f4c-296">Este valor impide que los PDV comprueben si la caja registradora ya está abierta cuando envían comandos para abrirla.</span><span class="sxs-lookup"><span data-stu-id="23f4c-296">This setting prevents the POS from checking whether the cash drawer is already open when it sends open commands.</span></span>
+-   <span data-ttu-id="23f4c-297">**Impresora de recibos**: si se envían dos comandos de impresión de recibos a la estación de hardware al mismo tiempo, uno de los siguientes comandos se puede perder, en función del dispositivo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-297">**Receipt printer** – If two receipt printing commands are sent to the hardware station at the same time, one of the commands can be lost, depending on the device.</span></span> <span data-ttu-id="23f4c-298">Algunos dispositivos tienen memoria interna o agrupaciones que pueden evitar este problema.</span><span class="sxs-lookup"><span data-stu-id="23f4c-298">Some devices have internal memory or pooling that can prevent this issue.</span></span> <span data-ttu-id="23f4c-299">Si un comando de impresión no se realiza correctamente, el cajero recibe un mensaje de error y puede reintentar el comando de impresión desde el PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-299">If a print command isn't successful, the cashier receives an error message and can retry the print command from the POS.</span></span>
+-   <span data-ttu-id="23f4c-300">**Termina de pago**: si un cajero intenta realizar una transacción en un terminal de pago que ya se está usando, un mensaje notifica al cajero que se está utilizando el terminal y se solicita al cajero que lo intente de nuevo más adelante.</span><span class="sxs-lookup"><span data-stu-id="23f4c-300">**Payment terminal** – If a cashier tries to tender a transaction on a payment terminal that is already being used, a message notifies the cashier that the terminal is being used and asks the cashier to try again later.</span></span> <span data-ttu-id="23f4c-301">Normalmente, los cajeros pueden ver que un terminal ya se está usando y esperarán hasta que se complete la otra transacción antes de intentarlo de nuevo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-301">Usually, cashiers can see that a terminal is already being used and will wait until the other transaction is completed before they try to tender again.</span></span>
 
-La validación está prevista para que una versión futura detecte si los dispositivos no admitidos se configuran para un perfil de hardware que está asignado a una estación de hardware compartida. Si se detectan dispositivos no admitidos, el usuario recibirá un mensaje que indica que los dispositivos no son compatibles para estaciones de hardware compartidas. En el caso de las estaciones compartidas de hardware, la opción **Seleccionar en pago** está establecida en **Sí** a nivel del registro. A continuación se pide que el usuario del PDV seleccione una emisora de hardware cuando se selecciona una forma e pago para una transacción en el PDV. Cuando la estación de hardware solo se selecciona en el momento de la forma de pago, la selección de estación de hardware se agrega directamente al flujo de trabajo de PDV para los escenarios móviles. Como prestación adicional, no se utilizará la pantalla de línea en la terminal de pago para los escenarios compartidos. Si la terminal de pago se usa como pantalla de línea, se podría bloquear a otros usuarios a la hora de usar la terminal hasta que la transacción se complete. En escenarios para aplicaciones móviles, se pueden agregar líneas a transacciones durante un período más largo. Por lo tanto, se requiera la opción **Seleccionar en pago** para garantizar la disponibilidad óptima del dispositivo.
+<span data-ttu-id="23f4c-302">La validación está prevista para que una versión futura detecte si los dispositivos no admitidos se configuran para un perfil de hardware que está asignado a una estación de hardware compartida.</span><span class="sxs-lookup"><span data-stu-id="23f4c-302">Validation is planned for a future release, to detect whether unsupported devices are set up for a hardware profile that is mapped to a shared hardware station.</span></span> <span data-ttu-id="23f4c-303">Si se detectan dispositivos no admitidos, el usuario recibirá un mensaje que indica que los dispositivos no son compatibles para estaciones de hardware compartidas.</span><span class="sxs-lookup"><span data-stu-id="23f4c-303">If any unsupported devices are detected, the user will receive a message that states that the devices aren't supported for shared hardware stations.</span></span> <span data-ttu-id="23f4c-304">En el caso de las estaciones compartidas de hardware, la opción **Seleccionar en pago** está establecida en **Sí** a nivel del registro.</span><span class="sxs-lookup"><span data-stu-id="23f4c-304">In the case of shared hardware stations, the **Select upon tendering** option is set to **Yes** at the register level.</span></span> <span data-ttu-id="23f4c-305">A continuación se pide que el usuario del PDV seleccione una emisora de hardware cuando se selecciona una forma e pago para una transacción en el PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-305">The POS user is then prompted to select a hardware station when a tender is selected for a transaction at the POS.</span></span> <span data-ttu-id="23f4c-306">Cuando la estación de hardware solo se selecciona en el momento de la forma de pago, la selección de estación de hardware se agrega directamente al flujo de trabajo de PDV para los escenarios móviles.</span><span class="sxs-lookup"><span data-stu-id="23f4c-306">When the hardware station is selected only at the time of tender, the hardware station selection is added directly to the POS workflow for mobile scenarios.</span></span> <span data-ttu-id="23f4c-307">Como prestación adicional, no se utilizará la pantalla de línea en la terminal de pago para los escenarios compartidos.</span><span class="sxs-lookup"><span data-stu-id="23f4c-307">As an additional benefit, the line display on the payment terminal isn't used for shared scenarios.</span></span> <span data-ttu-id="23f4c-308">Si la terminal de pago se usa como pantalla de línea, se podría bloquear a otros usuarios a la hora de usar la terminal hasta que la transacción se complete.</span><span class="sxs-lookup"><span data-stu-id="23f4c-308">If the payment terminal is used as a line display, other users might be blocked from using that terminal until the transaction is completed.</span></span> <span data-ttu-id="23f4c-309">En escenarios para aplicaciones móviles, se pueden agregar líneas a transacciones durante un período más largo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-309">In mobile scenarios, lines might be added to a transaction over a longer period.</span></span> <span data-ttu-id="23f4c-310">Por lo tanto, se requiera la opción **Seleccionar en pago** para garantizar la disponibilidad óptima del dispositivo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-310">Therefore, the **Select upon tendering** option is required in order to ensure optimum device availability.</span></span>
 
-### <a name="network-peripherals"></a>Periféricos de red
+### <a name="network-peripherals"></a><span data-ttu-id="23f4c-311">Periféricos de red</span><span class="sxs-lookup"><span data-stu-id="23f4c-311">Network peripherals</span></span>
 
-La designación de la red para los dispositivos en el perfil de hardware habilita las cajas registradoras, las impresoras de recibos y los terminales de pago para que se conecten mediante una conexión de red.
+<span data-ttu-id="23f4c-312">La designación de la red para los dispositivos en el perfil de hardware habilita las cajas registradoras, las impresoras de recibos y los terminales de pago para que se conecten mediante una conexión de red.</span><span class="sxs-lookup"><span data-stu-id="23f4c-312">The network designation for devices in the hardware profile enables cash drawers, receipt printers, and payment terminals to be connected via a network connection.</span></span>
 
-#### <a name="modern-pos-for-windows"></a>Modern POS para Windows
+#### <a name="modern-pos-for-windows"></a><span data-ttu-id="23f4c-313">Modern POS para Windows</span><span class="sxs-lookup"><span data-stu-id="23f4c-313">Modern POS for Windows</span></span>
 
-Puede especificar direcciones IP para periféricos de red en dos ubicaciones. Si el cliente de Modern POS para Windows utiliza un único conjunto de periféricos de red, debe establecer el conjunto de direcciones IP para dichos dispositivos mediante la opción **Configuración de IP** en el Panel de acciones para el propio registro. En el caso de los dispositivos de red que se van a compartir entre registros de PDV, se puede asignar directamente un perfil de hardware que tenga dispositivos de red asignados, a una estación de hardware compartida. Para asignar direcciones IP, seleccione la estación de hardware en la página **Tiendas minoristas** y, a continuación utilice la opción **Configuración de IP** en **Estaciones de hardware** para especificar los dispositivos de red asignados a esa estación de hardware. Para las estaciones de hardware que solo tienen dispositivos de red, no es necesario implementar la propia estación de hardware. En este caso, la estación de hardware se requiere solo para agrupar los dispositivos que se pueden gestionar en red de forma conceptual según su ubicación en la tienda minorista.
+<span data-ttu-id="23f4c-314">Puede especificar direcciones IP para periféricos de red en dos ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="23f4c-314">You can specify IP addresses for network peripherals in two places.</span></span> <span data-ttu-id="23f4c-315">Si el cliente de Modern POS para Windows utiliza un único conjunto de periféricos de red, debe establecer el conjunto de direcciones IP para dichos dispositivos mediante la opción **Configuración de IP** en el Panel de acciones para el propio registro.</span><span class="sxs-lookup"><span data-stu-id="23f4c-315">If the Modern POS Windows client is using a single set of network peripherals, you should set the IP addresses for those devices by using the **IP configuration** option on the Action Pane for the register itself.</span></span> <span data-ttu-id="23f4c-316">En el caso de los dispositivos de red que se van a compartir entre registros de PDV, se puede asignar directamente un perfil de hardware que tenga dispositivos de red asignados, a una estación de hardware compartida.</span><span class="sxs-lookup"><span data-stu-id="23f4c-316">In the case of network devices that will be shared among POS registers, a hardware profile that has network devices assigned to it can be mapped directly to a shared hardware station.</span></span> <span data-ttu-id="23f4c-317">Para asignar direcciones IP, seleccione la estación de hardware en la página **Tiendas minoristas** y, a continuación utilice la opción **Configuración de IP** en **Estaciones de hardware** para especificar los dispositivos de red asignados a esa estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-317">To assign IP addresses, select that hardware station on the **Retail stores** page, and then use the **IP configuration** option in the **Hardware stations** section to specify the network devices that are assigned to that hardware station.</span></span> <span data-ttu-id="23f4c-318">Para las estaciones de hardware que solo tienen dispositivos de red, no es necesario implementar la propia estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-318">For hardware stations that have only network devices, you don't have to deploy the hardware station itself.</span></span> <span data-ttu-id="23f4c-319">En este caso, la estación de hardware se requiere solo para agrupar los dispositivos que se pueden gestionar en red de forma conceptual según su ubicación en la tienda minorista.</span><span class="sxs-lookup"><span data-stu-id="23f4c-319">In this case, the hardware station is required only in order to conceptually group network-addressable devices according to their location in the retail store.</span></span>
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Cloud POS, Modern POS para iOS y Modern POS para Android
+#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a><span data-ttu-id="23f4c-320">Cloud POS, Modern POS para iOS y Modern POS para Android</span><span class="sxs-lookup"><span data-stu-id="23f4c-320">Cloud POS, Modern POS for iOS, and Modern POS for Android</span></span>
 
-La lógica que controla los periféricos físicamente conectados y que se pueden gestionar en red se encuentran en la estación de hardware. Por lo tanto, para todos los clientes de PDV excepto para Modern POS para Windows, una estación de hardware de IIS debe implementarse y estar activa para permitir al PDV comunicarse con los periféricos, independientemente de si los periféricos están físicamente conectados con una estación de hardware o se gestionan a través de la red.
+<span data-ttu-id="23f4c-321">La lógica que controla los periféricos físicamente conectados y que se pueden gestionar en red se encuentran en la estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-321">The logic that drives physically connected and network-addressable peripherals is contained in the hardware station.</span></span> <span data-ttu-id="23f4c-322">Por lo tanto, para todos los clientes de PDV excepto para Modern POS para Windows, una estación de hardware de IIS debe implementarse y estar activa para permitir al PDV comunicarse con los periféricos, independientemente de si los periféricos están físicamente conectados con una estación de hardware o se gestionan a través de la red.</span><span class="sxs-lookup"><span data-stu-id="23f4c-322">Therefore, for all POS clients except Modern POS for Windows, an IIS hardware station must be deployed and active to enable the POS to communicate with peripherals, regardless of whether those peripherals are physically connected to a hardware station or addressed over the network.</span></span>
 
-## <a name="setup-and-configuration"></a>Establecimiento y configuración
-### <a name="hardware-station-installation"></a>Instalación de la estación de hardware
+## <a name="setup-and-configuration"></a><span data-ttu-id="23f4c-323">Establecimiento y configuración</span><span class="sxs-lookup"><span data-stu-id="23f4c-323">Setup and configuration</span></span>
+### <a name="hardware-station-installation"></a><span data-ttu-id="23f4c-324">Instalación de la estación de hardware</span><span class="sxs-lookup"><span data-stu-id="23f4c-324">Hardware station installation</span></span>
 
-Para más información, vea [Instalación y configuración de la estación de hardware para Retail](retail-hardware-station-configuration-installation.md).
+<span data-ttu-id="23f4c-325">Para más información, vea [Instalación y configuración de la estación de hardware para Retail](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="23f4c-325">For information, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
 
-### <a name="modern-pos-for-windows-setup-and-configuration"></a>Establecimiento y configuración de Modern POS para Windows
+### <a name="modern-pos-for-windows-setup-and-configuration"></a><span data-ttu-id="23f4c-326">Establecimiento y configuración de Modern POS para Windows</span><span class="sxs-lookup"><span data-stu-id="23f4c-326">Modern POS for Windows setup and configuration</span></span>
 
-Para más información, vea [Instalación y configuración de Modern POS para Retail](retail-modern-pos-device-activation.md).
+<span data-ttu-id="23f4c-327">Para más información, vea [Instalación y configuración de Modern POS para Retail](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="23f4c-327">For information, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
 
-### <a name="opos-device-setup-and-configuration"></a>Establecimiento y configuración del dispositivo de OPDV
+### <a name="opos-device-setup-and-configuration"></a><span data-ttu-id="23f4c-328">Establecimiento y configuración del dispositivo de OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-328">OPOS device setup and configuration</span></span>
 
-Para obtener más información sobre los componentes de OPDV, consulte la sección "Interfaces admitidas" de este documento. Normalmente, los controladores de OPDV los suministra el fabricante del dispositivo. Cuando un controlador de dispositivo de OPDV está instalado, agrega una clave al Registro de Windows en una de las siguientes ubicaciones:
+<span data-ttu-id="23f4c-329">Para obtener más información sobre los componentes de OPDV, consulte la sección "Interfaces admitidas" de este documento.</span><span class="sxs-lookup"><span data-stu-id="23f4c-329">For more information about OPOS components, see the "Supported interfaces" section of this document.</span></span> <span data-ttu-id="23f4c-330">Normalmente, los controladores de OPDV los suministra el fabricante del dispositivo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-330">Typically, OPOS drivers are provided by the device manufacturer.</span></span> <span data-ttu-id="23f4c-331">Cuando un controlador de dispositivo de OPDV está instalado, agrega una clave al Registro de Windows en una de las siguientes ubicaciones:</span><span class="sxs-lookup"><span data-stu-id="23f4c-331">When an OPOS device driver is installed, it adds a key to the Windows registry in one of the following locations:</span></span>
 
--   **Sistema de 32 bits:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **Sistema de 64 bits:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   <span data-ttu-id="23f4c-332">**Sistema de 32 bits:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="23f4c-332">**32-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span></span>
+-   <span data-ttu-id="23f4c-333">**Sistema de 64 bits:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="23f4c-333">**64-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span></span>
 
-Dentro de la ubicación del registro de ServiceOPOS, los dispositivos configurados se organizan según la clase de dispositivo de OPDV. Se guardan controladores de múltiples dispositivos.
+<span data-ttu-id="23f4c-334">Dentro de la ubicación del registro de ServiceOPOS, los dispositivos configurados se organizan según la clase de dispositivo de OPDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-334">Within the ServiceOPOS registry location, configured devices are organized according to the OPOS device class.</span></span> <span data-ttu-id="23f4c-335">Se guardan controladores de múltiples dispositivos.</span><span class="sxs-lookup"><span data-stu-id="23f4c-335">Multiple device drivers are saved.</span></span>
 
-## <a name="supported-scenarios-by-hardware-station-type"></a>Escenarios compatibles según el tipo de estación de hardware
-### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a>Soporte del cliente: estación de hardware de IPC frente a estación de hardware de IIS
+## <a name="supported-scenarios-by-hardware-station-type"></a><span data-ttu-id="23f4c-336">Escenarios compatibles según el tipo de estación de hardware</span><span class="sxs-lookup"><span data-stu-id="23f4c-336">Supported scenarios by hardware station type</span></span>
+### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a><span data-ttu-id="23f4c-337">Soporte del cliente: estación de hardware de IPC frente a estación de hardware de IIS</span><span class="sxs-lookup"><span data-stu-id="23f4c-337">Client support – IPC hardware station vs. IIS hardware station</span></span>
 
-En la tabla siguiente se muestran las topologías y los escenarios de implementación que se admiten.
+<span data-ttu-id="23f4c-338">En la tabla siguiente se muestran las topologías y los escenarios de implementación que se admiten.</span><span class="sxs-lookup"><span data-stu-id="23f4c-338">The following table shows the topologies and deployment scenarios that are supported.</span></span>
 
-| Cliente      | Estación de hardware de IPC | Estación de hardware de IIS |
+| <span data-ttu-id="23f4c-339">Cliente</span><span class="sxs-lookup"><span data-stu-id="23f4c-339">Client</span></span>      | <span data-ttu-id="23f4c-340">Estación de hardware de IPC</span><span class="sxs-lookup"><span data-stu-id="23f4c-340">IPC hardware station</span></span> | <span data-ttu-id="23f4c-341">Estación de hardware de IIS</span><span class="sxs-lookup"><span data-stu-id="23f4c-341">IIS hardware station</span></span> |
 |-------------|----------------------|----------------------|
-| Aplicación de Windows | Sí                  | Sí                  |
-| PDV en la nube   | No                   | Sí                  |
-| Android     | No                   | Sí                  |
-| iOS         | No                   | Sí                  |
+| <span data-ttu-id="23f4c-342">Aplicación de Windows</span><span class="sxs-lookup"><span data-stu-id="23f4c-342">Windows app</span></span> | <span data-ttu-id="23f4c-343">Sí</span><span class="sxs-lookup"><span data-stu-id="23f4c-343">Yes</span></span>                  | <span data-ttu-id="23f4c-344">Sí</span><span class="sxs-lookup"><span data-stu-id="23f4c-344">Yes</span></span>                  |
+| <span data-ttu-id="23f4c-345">PDV en la nube</span><span class="sxs-lookup"><span data-stu-id="23f4c-345">Cloud POS</span></span>   | <span data-ttu-id="23f4c-346">No</span><span class="sxs-lookup"><span data-stu-id="23f4c-346">No</span></span>                   | <span data-ttu-id="23f4c-347">Sí</span><span class="sxs-lookup"><span data-stu-id="23f4c-347">Yes</span></span>                  |
+| <span data-ttu-id="23f4c-348">Android</span><span class="sxs-lookup"><span data-stu-id="23f4c-348">Android</span></span>     | <span data-ttu-id="23f4c-349">No</span><span class="sxs-lookup"><span data-stu-id="23f4c-349">No</span></span>                   | <span data-ttu-id="23f4c-350">Sí</span><span class="sxs-lookup"><span data-stu-id="23f4c-350">Yes</span></span>                  |
+| <span data-ttu-id="23f4c-351">iOS</span><span class="sxs-lookup"><span data-stu-id="23f4c-351">iOS</span></span>         | <span data-ttu-id="23f4c-352">No</span><span class="sxs-lookup"><span data-stu-id="23f4c-352">No</span></span>                   | <span data-ttu-id="23f4c-353">Sí</span><span class="sxs-lookup"><span data-stu-id="23f4c-353">Yes</span></span>                  |
 
-### <a name="network-peripherals"></a>Periféricos de red
+### <a name="network-peripherals"></a><span data-ttu-id="23f4c-354">Periféricos de red</span><span class="sxs-lookup"><span data-stu-id="23f4c-354">Network peripherals</span></span>
 
-Los periféricos de red se admiten directamente a través de la estación de hardware que se integra en la aplicación Modern POS para Windows. Para todos los demás clientes, debe implementar una estación de hardware de IIS.
+<span data-ttu-id="23f4c-355">Los periféricos de red se admiten directamente a través de la estación de hardware que se integra en la aplicación Modern POS para Windows.</span><span class="sxs-lookup"><span data-stu-id="23f4c-355">Network peripherals can be supported directly through the hardware station that is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="23f4c-356">Para todos los demás clientes, debe implementar una estación de hardware de IIS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-356">For all other clients, you must deploy an IIS hardware station.</span></span>
 
-| Cliente      | Estación de hardware de IPC | Estación de hardware de IIS |
+| <span data-ttu-id="23f4c-357">Cliente</span><span class="sxs-lookup"><span data-stu-id="23f4c-357">Client</span></span>      | <span data-ttu-id="23f4c-358">Estación de hardware de IPC</span><span class="sxs-lookup"><span data-stu-id="23f4c-358">IPC hardware station</span></span> | <span data-ttu-id="23f4c-359">Estación de hardware de IIS</span><span class="sxs-lookup"><span data-stu-id="23f4c-359">IIS hardware station</span></span> |
 |-------------|----------------------|----------------------|
-| Aplicación de Windows | Sí                  | Sí                  |
-| PDV en la nube   | No                   | Sí                  |
-| Android     | No                   | Sí                  |
-| iOS         | No                   | Sí                  |
+| <span data-ttu-id="23f4c-360">Aplicación de Windows</span><span class="sxs-lookup"><span data-stu-id="23f4c-360">Windows app</span></span> | <span data-ttu-id="23f4c-361">Sí</span><span class="sxs-lookup"><span data-stu-id="23f4c-361">Yes</span></span>                  | <span data-ttu-id="23f4c-362">Sí</span><span class="sxs-lookup"><span data-stu-id="23f4c-362">Yes</span></span>                  |
+| <span data-ttu-id="23f4c-363">PDV en la nube</span><span class="sxs-lookup"><span data-stu-id="23f4c-363">Cloud POS</span></span>   | <span data-ttu-id="23f4c-364">No</span><span class="sxs-lookup"><span data-stu-id="23f4c-364">No</span></span>                   | <span data-ttu-id="23f4c-365">Sí</span><span class="sxs-lookup"><span data-stu-id="23f4c-365">Yes</span></span>                  |
+| <span data-ttu-id="23f4c-366">Android</span><span class="sxs-lookup"><span data-stu-id="23f4c-366">Android</span></span>     | <span data-ttu-id="23f4c-367">No</span><span class="sxs-lookup"><span data-stu-id="23f4c-367">No</span></span>                   | <span data-ttu-id="23f4c-368">Sí</span><span class="sxs-lookup"><span data-stu-id="23f4c-368">Yes</span></span>                  |
+| <span data-ttu-id="23f4c-369">iOS</span><span class="sxs-lookup"><span data-stu-id="23f4c-369">iOS</span></span>         | <span data-ttu-id="23f4c-370">No</span><span class="sxs-lookup"><span data-stu-id="23f4c-370">No</span></span>                   | <span data-ttu-id="23f4c-371">Sí</span><span class="sxs-lookup"><span data-stu-id="23f4c-371">Yes</span></span>                  |
 
-## <a name="supported-device-types-by-hardware-station-type"></a>Tipos de dispositivo compatibles según el tipo de estación de hardware
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS para Windows con una estación de hardware de IPC (integrado)
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Clase de dispositivo admitido</th>
-<th>Interfaces admitidas</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Impresora</td>
-<td><ul>
-<li>OPDV</li>
-<li>Controlador de Windows</li>
-<li>Dispositivo</li>
-<li>Red</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Impresora 2</td>
-<td><ul>
-<li>OPDV</li>
-<li>Controlador de Windows</li>
-<li>Dispositivo</li>
-<li>Red</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Visualización de líneas</td>
-<td>OPDV</td>
-</tr>
-<tr class="even">
-<td>Dos visualizaciones</td>
-<td>Controlador de Windows</td>
-</tr>
-<tr class="odd">
-<td>MSR</td>
-<td><ul>
-<li>OPDV</li>
-<li>UWP (No se requiere configuración).</li>
-<li>Cuña de teclado (no se requiere ninguna configuración).</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Librador</td>
-<td><ul>
-<li>OPDV</li>
-<li><strong>Nota sobre la red:</strong> solo se puede configurar una caja registradora si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Cajón 2</td>
-<td><ul>
-<li>OPDV</li>
-<li><strong>Nota sobre la red:</strong> solo se puede configurar una caja registradora si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Escáner</td>
-<td><ul>
-<li>OPDV</li>
-<li>UWP (No se requiere configuración).</li>
-<li>Cuña de teclado (no se requiere ninguna configuración).</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Escáner 2</td>
-<td><ul>
-<li>OPDV</li>
-<li>UWP (No se requiere configuración).</li>
-<li>Cuña de teclado (no se requiere ninguna configuración).</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Escala</td>
-<td>OPDV</td>
-</tr>
-<tr class="odd">
-<td>Terminal para ingreso de PIN</td>
-<td>OPDV (el soporte se proporciona con personalización del conector de pago.)</td>
-</tr>
-<tr class="even">
-<td>Captura de firma</td>
-<td>OPDV</td>
-</tr>
-<tr class="odd">
-<td>Terminal de pago </td>
-<td><ul>
-<li>Compatibilidad con el dispositivo personalizado</li>
-<li>Red (para obtener más información, consulte la documentación sobre el conector de pago).</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>Todos los clientes de Modern POS que tienen una estación de hardware de IIS dedicada
-
-**Nota:** Cuando la emisora de hardware de IIS es "dedicada", una relación unívoca entre el cliente de PDV y la estación de hardware.
+## <a name="supported-device-types-by-hardware-station-type"></a><span data-ttu-id="23f4c-372">Tipos de dispositivo compatibles según el tipo de estación de hardware</span><span class="sxs-lookup"><span data-stu-id="23f4c-372">Supported device types by hardware station type</span></span>
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="23f4c-373">Modern POS para Windows con una estación de hardware de IPC (integrado)</span><span class="sxs-lookup"><span data-stu-id="23f4c-373">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
 
 <table>
 <colgroup>
@@ -341,82 +239,100 @@ Los periféricos de red se admiten directamente a través de la estación de har
 </colgroup>
 <thead>
 <tr class="header">
-<th>Clase de dispositivo admitido</th>
-<th>Interfaces admitidas</th>
+<th><span data-ttu-id="23f4c-374">Clase de dispositivo admitido</span><span class="sxs-lookup"><span data-stu-id="23f4c-374">Supported device class</span></span></th>
+<th><span data-ttu-id="23f4c-375">Interfaces admitidas</span><span class="sxs-lookup"><span data-stu-id="23f4c-375">Supported interfaces</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Impresora</td>
+<td><span data-ttu-id="23f4c-376">Impresora</span><span class="sxs-lookup"><span data-stu-id="23f4c-376">Printer</span></span></td>
 <td><ul>
-<li>OPDV</li>
-<li><strong>Nota sobre el controlador de Windows :</strong> para las impresoras de Windows en red, el usuario de la estación de hardware debe tener permiso para tener acceso a la impresora.</li>
-<li>Red</li>
+<li><span data-ttu-id="23f4c-377">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-377">OPOS</span></span></li>
+<li><span data-ttu-id="23f4c-378">Controlador de Windows</span><span class="sxs-lookup"><span data-stu-id="23f4c-378">Windows driver</span></span></li>
+<li><span data-ttu-id="23f4c-379">Dispositivo</span><span class="sxs-lookup"><span data-stu-id="23f4c-379">Device</span></span></li>
+<li><span data-ttu-id="23f4c-380">Red</span><span class="sxs-lookup"><span data-stu-id="23f4c-380">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Impresora 2</td>
+<td><span data-ttu-id="23f4c-381">Impresora 2</span><span class="sxs-lookup"><span data-stu-id="23f4c-381">Printer 2</span></span></td>
 <td><ul>
-<li>OPDV</li>
-<li>Controlador de Windows</li>
-<li>Red</li>
+<li><span data-ttu-id="23f4c-382">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-382">OPOS</span></span></li>
+<li><span data-ttu-id="23f4c-383">Controlador de Windows</span><span class="sxs-lookup"><span data-stu-id="23f4c-383">Windows driver</span></span></li>
+<li><span data-ttu-id="23f4c-384">Dispositivo</span><span class="sxs-lookup"><span data-stu-id="23f4c-384">Device</span></span></li>
+<li><span data-ttu-id="23f4c-385">Red</span><span class="sxs-lookup"><span data-stu-id="23f4c-385">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Visualización de líneas</td>
-<td>OPDV</td>
+<td><span data-ttu-id="23f4c-386">Visualización de líneas</span><span class="sxs-lookup"><span data-stu-id="23f4c-386">Line display</span></span></td>
+<td><span data-ttu-id="23f4c-387">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-387">OPOS</span></span></td>
 </tr>
 <tr class="even">
-<td>MSR</td>
-<td>OPDV</td>
+<td><span data-ttu-id="23f4c-388">Dos visualizaciones</span><span class="sxs-lookup"><span data-stu-id="23f4c-388">Dual display</span></span></td>
+<td><span data-ttu-id="23f4c-389">Controlador de Windows</span><span class="sxs-lookup"><span data-stu-id="23f4c-389">Windows driver</span></span></td>
 </tr>
 <tr class="odd">
-<td>Librador</td>
+<td><span data-ttu-id="23f4c-390">MSR</span><span class="sxs-lookup"><span data-stu-id="23f4c-390">MSR</span></span></td>
 <td><ul>
-<li>OPDV</li>
-<li><strong>Nota sobre la red:</strong> solo se puede configurar una caja registradora por perfil de hardware si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</li>
+<li><span data-ttu-id="23f4c-391">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-391">OPOS</span></span></li>
+<li><span data-ttu-id="23f4c-392">UWP (No se requiere configuración).</span><span class="sxs-lookup"><span data-stu-id="23f4c-392">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="23f4c-393">Cuña de teclado (no se requiere ninguna configuración).</span><span class="sxs-lookup"><span data-stu-id="23f4c-393">Keyboard wedge (No setup is required.)</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Cajón 2</td>
+<td><span data-ttu-id="23f4c-394">Librador</span><span class="sxs-lookup"><span data-stu-id="23f4c-394">Drawer</span></span></td>
 <td><ul>
-<li>OPDV</li>
-<li>Red</li>
+<li><span data-ttu-id="23f4c-395">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-395">OPOS</span></span></li>
+<li><span data-ttu-id="23f4c-396"><strong>Nota sobre la red:</strong> solo se puede configurar una caja registradora si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</span><span class="sxs-lookup"><span data-stu-id="23f4c-396">Network <strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Escáner</td>
-<td>OPDV</td>
-</tr>
-<tr class="even">
-<td>Escáner 2</td>
-<td>OPDV</td>
-</tr>
-<tr class="odd">
-<td>Escala</td>
-<td>OPDV</td>
-</tr>
-<tr class="even">
-<td>Terminal para ingreso de PIN</td>
-<td>OPDV (el soporte se proporciona con personalización del conector de pago.)</td>
-</tr>
-<tr class="odd">
-<td>Sig. capturar</td>
-<td>OPDV</td>
-</tr>
-<tr class="even">
-<td>Terminal de pago </td>
+<td><span data-ttu-id="23f4c-397">Cajón 2</span><span class="sxs-lookup"><span data-stu-id="23f4c-397">Drawer 2</span></span></td>
 <td><ul>
-<li>Compatibilidad con el dispositivo personalizado</li>
-<li>Red (para obtener más información, consulte la documentación sobre el conector de pago).</li>
+<li><span data-ttu-id="23f4c-398">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-398">OPOS</span></span></li>
+<li><span data-ttu-id="23f4c-399"><strong>Nota sobre la red:</strong> solo se puede configurar una caja registradora si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</span><span class="sxs-lookup"><span data-stu-id="23f4c-399">Network <strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="23f4c-400">Escáner</span><span class="sxs-lookup"><span data-stu-id="23f4c-400">Scanner</span></span></td>
+<td><ul>
+<li><span data-ttu-id="23f4c-401">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-401">OPOS</span></span></li>
+<li><span data-ttu-id="23f4c-402">UWP (No se requiere configuración).</span><span class="sxs-lookup"><span data-stu-id="23f4c-402">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="23f4c-403">Cuña de teclado (no se requiere ninguna configuración).</span><span class="sxs-lookup"><span data-stu-id="23f4c-403">Keyboard wedge (No setup is required.)</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="23f4c-404">Escáner 2</span><span class="sxs-lookup"><span data-stu-id="23f4c-404">Scanner 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="23f4c-405">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-405">OPOS</span></span></li>
+<li><span data-ttu-id="23f4c-406">UWP (No se requiere configuración).</span><span class="sxs-lookup"><span data-stu-id="23f4c-406">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="23f4c-407">Cuña de teclado (no se requiere ninguna configuración).</span><span class="sxs-lookup"><span data-stu-id="23f4c-407">Keyboard wedge (No setup is required.)</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="23f4c-408">Escala</span><span class="sxs-lookup"><span data-stu-id="23f4c-408">Scale</span></span></td>
+<td><span data-ttu-id="23f4c-409">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-409">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="23f4c-410">Terminal para ingreso de PIN</span><span class="sxs-lookup"><span data-stu-id="23f4c-410">PIN pad</span></span></td>
+<td><span data-ttu-id="23f4c-411">OPDV (el soporte se proporciona con personalización del conector de pago.)</span><span class="sxs-lookup"><span data-stu-id="23f4c-411">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="23f4c-412">Captura de firma</span><span class="sxs-lookup"><span data-stu-id="23f4c-412">Signature capture</span></span></td>
+<td><span data-ttu-id="23f4c-413">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-413">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="23f4c-414">Terminal de pago </span><span class="sxs-lookup"><span data-stu-id="23f4c-414">Payment terminal</span></span></td>
+<td><ul>
+<li><span data-ttu-id="23f4c-415">Compatibilidad con el dispositivo personalizado</span><span class="sxs-lookup"><span data-stu-id="23f4c-415">Custom device support</span></span></li>
+<li><span data-ttu-id="23f4c-416">Red (para obtener más información, consulte la documentación sobre el conector de pago).</span><span class="sxs-lookup"><span data-stu-id="23f4c-416">Network (For more information, see the payment connector documentation.)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Todos los clientes de Modern POS que tienen una estación de hardware de IIS compartida
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="23f4c-417">Todos los clientes de Modern POS que tienen una estación de hardware de IIS dedicada</span><span class="sxs-lookup"><span data-stu-id="23f4c-417">All Modern POS clients that have a dedicated IIS hardware station</span></span>
 
-**Nota:** Cuando la estación de hardware de IIS es "compartida”, varios dispositivos pueden usar la estación de hardware al mismo tiempo. Para este escenario, debe usar solamente los dispositivos que se muestran en la tabla siguiente. Si intenta compartir los dispositivos que no se enumeran aquí, como los escáneres de código de barras y los MSR, aparecerán errores cuando varios dispositivos intenten demandar el mismo periférico. En el futuro, tal configuración se impedirá explícitamente.
+<span data-ttu-id="23f4c-418">**Nota:** Cuando la emisora de hardware de IIS es "dedicada", una relación unívoca entre el cliente de PDV y la estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-418">**Note:** When the IIS hardware station is “dedicated,” there is a one-to-one relationship between the POS client and the hardware station.</span></span>
 
 <table>
 <colgroup>
@@ -425,386 +341,470 @@ Los periféricos de red se admiten directamente a través de la estación de har
 </colgroup>
 <thead>
 <tr class="header">
-<th>Clase de dispositivo admitido</th>
-<th>Interfaces admitidas</th>
+<th><span data-ttu-id="23f4c-419">Clase de dispositivo admitido</span><span class="sxs-lookup"><span data-stu-id="23f4c-419">Supported device class</span></span></th>
+<th><span data-ttu-id="23f4c-420">Interfaces admitidas</span><span class="sxs-lookup"><span data-stu-id="23f4c-420">Supported interfaces</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Impresora</td>
+<td><span data-ttu-id="23f4c-421">Impresora</span><span class="sxs-lookup"><span data-stu-id="23f4c-421">Printer</span></span></td>
 <td><ul>
-<li>OPDV</li>
-<li><strong>Nota sobre el controlador de Windows :</strong> para las impresoras de Windows en red, el usuario de la estación de hardware debe tener permiso para tener acceso a la impresora.</li>
-<li>Red</li>
+<li><span data-ttu-id="23f4c-422">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-422">OPOS</span></span></li>
+<li><span data-ttu-id="23f4c-423"><strong>Nota sobre el controlador de Windows :</strong> para las impresoras de Windows en red, el usuario de la estación de hardware debe tener permiso para tener acceso a la impresora.</span><span class="sxs-lookup"><span data-stu-id="23f4c-423">Windows driver <strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></li>
+<li><span data-ttu-id="23f4c-424">Red</span><span class="sxs-lookup"><span data-stu-id="23f4c-424">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Impresora 2</td>
+<td><span data-ttu-id="23f4c-425">Impresora 2</span><span class="sxs-lookup"><span data-stu-id="23f4c-425">Printer 2</span></span></td>
 <td><ul>
-<li>OPDV</li>
-<li>Controlador de Windows</li>
-<li>Red</li>
+<li><span data-ttu-id="23f4c-426">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-426">OPOS</span></span></li>
+<li><span data-ttu-id="23f4c-427">Controlador de Windows</span><span class="sxs-lookup"><span data-stu-id="23f4c-427">Windows driver</span></span></li>
+<li><span data-ttu-id="23f4c-428">Red</span><span class="sxs-lookup"><span data-stu-id="23f4c-428">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Librador</td>
+<td><span data-ttu-id="23f4c-429">Visualización de líneas</span><span class="sxs-lookup"><span data-stu-id="23f4c-429">Line display</span></span></td>
+<td><span data-ttu-id="23f4c-430">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-430">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="23f4c-431">MSR</span><span class="sxs-lookup"><span data-stu-id="23f4c-431">MSR</span></span></td>
+<td><span data-ttu-id="23f4c-432">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-432">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="23f4c-433">Librador</span><span class="sxs-lookup"><span data-stu-id="23f4c-433">Drawer</span></span></td>
 <td><ul>
-<li>OPDV</li>
-<li><strong>Nota sobre la red:</strong> solo se puede configurar una caja registradora por perfil de hardware si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</li>
+<li><span data-ttu-id="23f4c-434">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-434">OPOS</span></span></li>
+<li><span data-ttu-id="23f4c-435"><strong>Nota sobre la red:</strong> solo se puede configurar una caja registradora por perfil de hardware si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</span><span class="sxs-lookup"><span data-stu-id="23f4c-435">Network <strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Cajón 2</td>
+<td><span data-ttu-id="23f4c-436">Cajón 2</span><span class="sxs-lookup"><span data-stu-id="23f4c-436">Drawer 2</span></span></td>
 <td><ul>
-<li>OPDV</li>
-<li>Red</li>
+<li><span data-ttu-id="23f4c-437">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-437">OPOS</span></span></li>
+<li><span data-ttu-id="23f4c-438">Red</span><span class="sxs-lookup"><span data-stu-id="23f4c-438">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Terminal de pago </td>
+<td><span data-ttu-id="23f4c-439">Escáner</span><span class="sxs-lookup"><span data-stu-id="23f4c-439">Scanner</span></span></td>
+<td><span data-ttu-id="23f4c-440">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-440">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="23f4c-441">Escáner 2</span><span class="sxs-lookup"><span data-stu-id="23f4c-441">Scanner 2</span></span></td>
+<td><span data-ttu-id="23f4c-442">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-442">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="23f4c-443">Escala</span><span class="sxs-lookup"><span data-stu-id="23f4c-443">Scale</span></span></td>
+<td><span data-ttu-id="23f4c-444">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-444">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="23f4c-445">Terminal para ingreso de PIN</span><span class="sxs-lookup"><span data-stu-id="23f4c-445">PIN pad</span></span></td>
+<td><span data-ttu-id="23f4c-446">OPDV (el soporte se proporciona con personalización del conector de pago.)</span><span class="sxs-lookup"><span data-stu-id="23f4c-446">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="23f4c-447">Sig.</span><span class="sxs-lookup"><span data-stu-id="23f4c-447">Sig.</span></span> <span data-ttu-id="23f4c-448">capturar</span><span class="sxs-lookup"><span data-stu-id="23f4c-448">capture</span></span></td>
+<td><span data-ttu-id="23f4c-449">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-449">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="23f4c-450">Terminal de pago </span><span class="sxs-lookup"><span data-stu-id="23f4c-450">Payment terminal</span></span></td>
 <td><ul>
-<li>Compatibilidad con el dispositivo personalizado</li>
-<li>Red (para obtener más información, consulte la documentación sobre el conector de pago).</li>
+<li><span data-ttu-id="23f4c-451">Compatibilidad con el dispositivo personalizado</span><span class="sxs-lookup"><span data-stu-id="23f4c-451">Custom device support</span></span></li>
+<li><span data-ttu-id="23f4c-452">Red (para obtener más información, consulte la documentación sobre el conector de pago).</span><span class="sxs-lookup"><span data-stu-id="23f4c-452">Network (For more information, see the payment connector documentation.)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="configuration-for-supported-scenarios"></a>Configuración para los escenarios admitidos
-Para obtener más información sobre cómo crear perfiles de hardware, consulte [Definir y mantener clientes de canal, incluso los registros y las estaciones de hardware](define-maintain-channel-clients-registers-hw-stations.md). **Nota:** Para Microsoft Dynamics 365 for Retail versión 1611, el perfil de la emisora de hardware ya no se usa. Los atributos que configuró anteriormente en el perfil de la estación de hardware son ahora parte de la propia estación de hardware.
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="23f4c-453">Todos los clientes de Modern POS que tienen una estación de hardware de IIS compartida</span><span class="sxs-lookup"><span data-stu-id="23f4c-453">All Modern POS clients that have a shared IIS hardware station</span></span>
 
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS para Windows con una estación de hardware de IPC (integrado)
+<span data-ttu-id="23f4c-454">**Nota:** Cuando la estación de hardware de IIS es "compartida”, varios dispositivos pueden usar la estación de hardware al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-454">**Note:** When the IIS hardware station is “shared,” multiple devices can use the hardware station at the same time.</span></span> <span data-ttu-id="23f4c-455">Para este escenario, debe usar solamente los dispositivos que se muestran en la tabla siguiente.</span><span class="sxs-lookup"><span data-stu-id="23f4c-455">For this scenario, you should use only the devices that are listed in the following table.</span></span> <span data-ttu-id="23f4c-456">Si intenta compartir los dispositivos que no se enumeran aquí, como los escáneres de código de barras y los MSR, aparecerán errores cuando varios dispositivos intenten demandar el mismo periférico.</span><span class="sxs-lookup"><span data-stu-id="23f4c-456">If you try to share devices that aren't listed here, such as bar code scanners and MSRs, errors will occur when multiple devices try to claim the same peripheral.</span></span> <span data-ttu-id="23f4c-457">En el futuro, tal configuración se impedirá explícitamente.</span><span class="sxs-lookup"><span data-stu-id="23f4c-457">In the future, such a configuration will be explicitly prevented.</span></span>
 
-Esta configuración es la más típica para los registros tradicionales y fijos de PDV. Para este escenario, la información del perfil de hardware se asigna directamente al mismo registro. El número de terminal de EFT se debe establecer en el registro propiamente dicho. Para establecer esta configuración, siga estos pasos.
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="23f4c-458">Clase de dispositivo admitido</span><span class="sxs-lookup"><span data-stu-id="23f4c-458">Supported device class</span></span></th>
+<th><span data-ttu-id="23f4c-459">Interfaces admitidas</span><span class="sxs-lookup"><span data-stu-id="23f4c-459">Supported interfaces</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="23f4c-460">Impresora</span><span class="sxs-lookup"><span data-stu-id="23f4c-460">Printer</span></span></td>
+<td><ul>
+<li><span data-ttu-id="23f4c-461">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-461">OPOS</span></span></li>
+<li><span data-ttu-id="23f4c-462"><strong>Nota sobre el controlador de Windows :</strong> para las impresoras de Windows en red, el usuario de la estación de hardware debe tener permiso para tener acceso a la impresora.</span><span class="sxs-lookup"><span data-stu-id="23f4c-462">Windows driver <strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></li>
+<li><span data-ttu-id="23f4c-463">Red</span><span class="sxs-lookup"><span data-stu-id="23f4c-463">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="23f4c-464">Impresora 2</span><span class="sxs-lookup"><span data-stu-id="23f4c-464">Printer 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="23f4c-465">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-465">OPOS</span></span></li>
+<li><span data-ttu-id="23f4c-466">Controlador de Windows</span><span class="sxs-lookup"><span data-stu-id="23f4c-466">Windows driver</span></span></li>
+<li><span data-ttu-id="23f4c-467">Red</span><span class="sxs-lookup"><span data-stu-id="23f4c-467">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="23f4c-468">Librador</span><span class="sxs-lookup"><span data-stu-id="23f4c-468">Drawer</span></span></td>
+<td><ul>
+<li><span data-ttu-id="23f4c-469">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-469">OPOS</span></span></li>
+<li><span data-ttu-id="23f4c-470"><strong>Nota sobre la red:</strong> solo se puede configurar una caja registradora por perfil de hardware si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</span><span class="sxs-lookup"><span data-stu-id="23f4c-470">Network <strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="23f4c-471">Cajón 2</span><span class="sxs-lookup"><span data-stu-id="23f4c-471">Drawer 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="23f4c-472">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-472">OPOS</span></span></li>
+<li><span data-ttu-id="23f4c-473">Red</span><span class="sxs-lookup"><span data-stu-id="23f4c-473">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="23f4c-474">Terminal de pago </span><span class="sxs-lookup"><span data-stu-id="23f4c-474">Payment terminal</span></span></td>
+<td><ul>
+<li><span data-ttu-id="23f4c-475">Compatibilidad con el dispositivo personalizado</span><span class="sxs-lookup"><span data-stu-id="23f4c-475">Custom device support</span></span></li>
+<li><span data-ttu-id="23f4c-476">Red (para obtener más información, consulte la documentación sobre el conector de pago).</span><span class="sxs-lookup"><span data-stu-id="23f4c-476">Network (For more information, see the payment connector documentation.)</span></span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
-1.  Cree un perfil de hardware donde se configuren todos los periféricos necesarios.
-2.  Asigne el perfil de hardware a un registro de PDV.
-3.  Cree una estación de hardware de tipo **Dedicado** para la tienda minorista donde se usará el registro de PDV. La descripción es opcional. **Nota:** No es necesario establecer ninguna otra propiedad en la estación de hardware. El resto de la información requerida, como el perfil de hardware, vendrá del mismo registro.
-4.  Haga clic en **Venta minorista** &gt; **TI de venta minorista** &gt; **Programación de distribución**.
-5.  Seleccione la programación de la distribución **1090** para sincronizar el nuevo perfil de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
-6.  Seleccione la programación de la distribución **1040** para sincronizar la nueva estación de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
-7.  Instalar y activar Modern POS para Windows.
-8.  Iniciar Modern POS para Windows y comience a utilizar los dispositivos periféricos conectados.
+## <a name="configuration-for-supported-scenarios"></a><span data-ttu-id="23f4c-477">Configuración para los escenarios admitidos</span><span class="sxs-lookup"><span data-stu-id="23f4c-477">Configuration for supported scenarios</span></span>
+<span data-ttu-id="23f4c-478">Para obtener más información sobre cómo crear perfiles de hardware, consulte [Definir y mantener clientes de canal, incluso los registros y las estaciones de hardware](define-maintain-channel-clients-registers-hw-stations.md).</span><span class="sxs-lookup"><span data-stu-id="23f4c-478">For more information about how to create hardware profiles, see [Define and maintain channel clients, including registers and hardware stations](define-maintain-channel-clients-registers-hw-stations.md).</span></span> <span data-ttu-id="23f4c-479">**Nota:** Para Microsoft Dynamics 365 for Retail versión 1611, el perfil de la emisora de hardware ya no se usa.</span><span class="sxs-lookup"><span data-stu-id="23f4c-479">**Note:** For Microsoft Dynamics 365 for Retail version 1611, the hardware station profile is no longer used.</span></span> <span data-ttu-id="23f4c-480">Los atributos que configuró anteriormente en el perfil de la estación de hardware son ahora parte de la propia estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-480">Attributes that you previously set up in the hardware station profile are now part of the hardware station itself.</span></span>
 
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>Todos los clientes de Modern POS que tienen una estación de hardware de IIS dedicada
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="23f4c-481">Modern POS para Windows con una estación de hardware de IPC (integrado)</span><span class="sxs-lookup"><span data-stu-id="23f4c-481">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
 
-Esta configuración se puede utilizar para todos los clientes de Modern POS que tengan una emisora de hardware que se usará exclusivamente por un registro de PDV. Para establecer esta configuración, siga estos pasos.
+<span data-ttu-id="23f4c-482">Esta configuración es la más típica para los registros tradicionales y fijos de PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-482">This configuration is the most typical configuration for traditional, fixed POS registers.</span></span> <span data-ttu-id="23f4c-483">Para este escenario, la información del perfil de hardware se asigna directamente al mismo registro.</span><span class="sxs-lookup"><span data-stu-id="23f4c-483">For this scenario, the hardware profile information is mapped directly to the register itself.</span></span> <span data-ttu-id="23f4c-484">El número de terminal de EFT se debe establecer en el registro propiamente dicho.</span><span class="sxs-lookup"><span data-stu-id="23f4c-484">The EFT terminal number should also be set on the register itself.</span></span> <span data-ttu-id="23f4c-485">Para establecer esta configuración, siga estos pasos.</span><span class="sxs-lookup"><span data-stu-id="23f4c-485">To set up this configuration, follow these steps.</span></span>
 
-1.  Cree un perfil de hardware donde se configuren todos los periféricos necesarios.
-2.  Cree una estación de hardware de tipo **Dedicado** para la tienda minorista donde se usará el registro de PDV.
-3.  En la estación dedicada de hardware, establezca las siguientes propiedades:
-    -   **Nombre del host:** el nombre del equipo host donde la estación de hardware se ejecutará. **Nota:** Cloud POS puede resolver **localhost** para determinar el equipo local donde se ejecuta Cloud POS. Sin embargo, el certificado necesario para emparejar Cloud POS con la estación de hardware también debe tener “Localhost” como nombre del equipo. Para evitar problemas, se recomienda que anote una instancia de cada estación dedicada de hardware para la tienda, según convenga. Para cada estación de hardware, el nombre de host debe ser el nombre de equipo específico donde la estación de hardware será implementada.
-    -   **Puerto**: el puerto que se va a utilizar para que la estación de hardware se comunique con el cliente de Modern POS.
-    -   **Perfil de hardware**: si el perfil de hardware no se proporciona en la propia emisora de hardware, el perfil de hardware asignado al registro se usará.
-    -   **Número de PDV de EFT:** El identificador de la terminal de EFT para usar cuando se envían autorizaciones de EFT. Este identificador lo proporciona el procesador de tarjetas de crédito.
-    -   **Nombre del paquete**: el paquete de la estación de hardware para utilizar cuando se implementa la estación de hardware.
+1.  <span data-ttu-id="23f4c-486">Cree un perfil de hardware donde se configuren todos los periféricos necesarios.</span><span class="sxs-lookup"><span data-stu-id="23f4c-486">Create a hardware profile where all the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="23f4c-487">Asigne el perfil de hardware a un registro de PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-487">Map the hardware profile to the POS register.</span></span>
+3.  <span data-ttu-id="23f4c-488">Cree una estación de hardware de tipo **Dedicado** para la tienda minorista donde se usará el registro de PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-488">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span> <span data-ttu-id="23f4c-489">La descripción es opcional.</span><span class="sxs-lookup"><span data-stu-id="23f4c-489">A description is optional.</span></span> <span data-ttu-id="23f4c-490">**Nota:** No es necesario establecer ninguna otra propiedad en la estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-490">**Note:** You don't have to set any other properties on the hardware station.</span></span> <span data-ttu-id="23f4c-491">El resto de la información requerida, como el perfil de hardware, vendrá del mismo registro.</span><span class="sxs-lookup"><span data-stu-id="23f4c-491">All other required information, such as the hardware profile, will come from the register itself.</span></span>
+4.  <span data-ttu-id="23f4c-492">Haga clic en **Venta minorista** &gt; **TI de venta minorista** &gt; **Programación de distribución**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-492">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5.  <span data-ttu-id="23f4c-493">Seleccione la programación de la distribución **1090** para sincronizar el nuevo perfil de hardware en la tienda.</span><span class="sxs-lookup"><span data-stu-id="23f4c-493">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="23f4c-494">Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-494">Click **Run now** to sync changes to the POS.</span></span>
+6.  <span data-ttu-id="23f4c-495">Seleccione la programación de la distribución **1040** para sincronizar la nueva estación de hardware en la tienda.</span><span class="sxs-lookup"><span data-stu-id="23f4c-495">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="23f4c-496">Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-496">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="23f4c-497">Instalar y activar Modern POS para Windows.</span><span class="sxs-lookup"><span data-stu-id="23f4c-497">Install and activate Modern POS for Windows.</span></span>
+8.  <span data-ttu-id="23f4c-498">Iniciar Modern POS para Windows y comience a utilizar los dispositivos periféricos conectados.</span><span class="sxs-lookup"><span data-stu-id="23f4c-498">Start Modern POS for Windows, and begin to use the connected peripheral devices.</span></span>
 
-4.  Haga clic en **Venta minorista** &gt; **TI de venta minorista** &gt; **Programación de distribución**.
-5.  Seleccione la programación de la distribución **1090** para sincronizar el nuevo perfil de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
-6.  Seleccione la programación de la distribución **1040** para sincronizar la nueva estación de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
-7.  Instale la estación de hardware. Para obtener más información sobre cómo instalar la estación de hardware, consulte [Configuración e instalación de la estación de hardware de Retail](retail-hardware-station-configuration-installation.md).
-8.  Instalar y activar Modern POS. Para obtener más información sobre cómo instalar PDV, consulte [Configuración e instalación de Modern POS de Retail](retail-modern-pos-device-activation.md).
-9.  Inicie sesión en Modern POS y seleccione **Realizar operaciones no relacionadas con la caja registradora**.
-10. Inicie la operación **Administrar estaciones de hardware**.
-11. Haga clic en **Administrar**.
-12. En la página de gestión de la estación de hardware, defina la opción para activar la estación de hardware.
-13. Seleccione la estación de hardware para utilizar, y haga clic en **Emparejar**.
-14. Después de emparejar la emisora de hardware, haga clic **Cerrar**.
-15. En la página de selección de estación de hardware, haga clic en la estación de hardware recientemente seleccionada para activarla.
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="23f4c-499">Todos los clientes de Modern POS que tienen una estación de hardware de IIS dedicada</span><span class="sxs-lookup"><span data-stu-id="23f4c-499">All Modern POS clients that have a dedicated IIS hardware station</span></span>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Todos los clientes de Modern POS que tienen una estación de hardware de IIS compartida
+<span data-ttu-id="23f4c-500">Esta configuración se puede utilizar para todos los clientes de Modern POS que tengan una emisora de hardware que se usará exclusivamente por un registro de PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-500">This configuration can be used for all Modern POS clients that have a hardware station that is used exclusively by one POS register.</span></span> <span data-ttu-id="23f4c-501">Para establecer esta configuración, siga estos pasos.</span><span class="sxs-lookup"><span data-stu-id="23f4c-501">To set up this configuration, follow these steps.</span></span>
 
-Esta configuración se puede utilizar para todos los clientes de Modern POS que comparten las estaciones de hardware con otros dispositivos. Para establecer esta configuración, siga estos pasos.
+1.  <span data-ttu-id="23f4c-502">Cree un perfil de hardware donde se configuren todos los periféricos necesarios.</span><span class="sxs-lookup"><span data-stu-id="23f4c-502">Create a hardware profile where all the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="23f4c-503">Cree una estación de hardware de tipo **Dedicado** para la tienda minorista donde se usará el registro de PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-503">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span>
+3.  <span data-ttu-id="23f4c-504">En la estación dedicada de hardware, establezca las siguientes propiedades:</span><span class="sxs-lookup"><span data-stu-id="23f4c-504">On the dedicated hardware station, set the following properties:</span></span>
+    -   <span data-ttu-id="23f4c-505">**Nombre del host:** el nombre del equipo host donde la estación de hardware se ejecutará.</span><span class="sxs-lookup"><span data-stu-id="23f4c-505">**Host name** – The name of the host computer where the hardware station will run.</span></span> <span data-ttu-id="23f4c-506">**Nota:** Cloud POS puede resolver **localhost** para determinar el equipo local donde se ejecuta Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-506">**Note:** Cloud POS can resolve **localhost** to determine the local computer where Cloud POS is running.</span></span> <span data-ttu-id="23f4c-507">Sin embargo, el certificado necesario para emparejar Cloud POS con la estación de hardware también debe tener “Localhost” como nombre del equipo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-507">However, the certificate that is required in order to pair Cloud POS with the hardware station must also have "Localhost" as the computer name.</span></span> <span data-ttu-id="23f4c-508">Para evitar problemas, se recomienda que anote una instancia de cada estación dedicada de hardware para la tienda, según convenga.</span><span class="sxs-lookup"><span data-stu-id="23f4c-508">To avoid issues, we recommend that you list an instance of each dedicated hardware station for the store, as required.</span></span> <span data-ttu-id="23f4c-509">Para cada estación de hardware, el nombre de host debe ser el nombre de equipo específico donde la estación de hardware será implementada.</span><span class="sxs-lookup"><span data-stu-id="23f4c-509">For each hardware station, the host name should be the specific computer name where the hardware station will be deployed.</span></span>
+    -   <span data-ttu-id="23f4c-510">**Puerto**: el puerto que se va a utilizar para que la estación de hardware se comunique con el cliente de Modern POS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-510">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    -   <span data-ttu-id="23f4c-511">**Perfil de hardware**: si el perfil de hardware no se proporciona en la propia emisora de hardware, el perfil de hardware asignado al registro se usará.</span><span class="sxs-lookup"><span data-stu-id="23f4c-511">**Hardware profile** – If the hardware profile isn't provided on the hardware station itself, the hardware profile that is assigned to the register will be used.</span></span>
+    -   <span data-ttu-id="23f4c-512">**Número de PDV de EFT:** El identificador de la terminal de EFT para usar cuando se envían autorizaciones de EFT.</span><span class="sxs-lookup"><span data-stu-id="23f4c-512">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="23f4c-513">Este identificador lo proporciona el procesador de tarjetas de crédito.</span><span class="sxs-lookup"><span data-stu-id="23f4c-513">This ID is provided by the credit card processor.</span></span>
+    -   <span data-ttu-id="23f4c-514">**Nombre del paquete**: el paquete de la estación de hardware para utilizar cuando se implementa la estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-514">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
 
-1.  Cree un perfil de hardware donde se configuren los periféricos necesarios.
-2.  Cree una estación de hardware de tipo **Compartido** para la tienda minorista donde se usará el registro de PDV.
-3.  En la estación compartida de hardware, establezca las siguientes propiedades:
-    -   **Nombre del host:** el nombre del equipo host donde la estación de hardware se ejecutará.
-    -   **Descripción**: el texto que va a ayudar a identificar la estación de hardware, por ejemplo o **Devoluciones** o **Parte delantera de tienda**.
-    -   **Puerto**: el puerto que se va a utilizar para que la estación de hardware se comunique con el cliente de Modern POS.
-    -   **Perfil de hardware**: para las estaciones compartidas de hardware, cada estación de hardware debe tener un perfil de hardware. Los perfiles de hardware se pueden compartir entre varias estaciones de hardware, pero se deben asignar a cada estación de hardware. Además, se recomienda que use turnos compartidos cuando varios dispositivos usen la misma estación de hardware compartida. Para establecer un turno compartido, haga clic en **Venta minorista** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Perfiles de PDV** &gt; **Perfiles de hardware**. Para cada perfil de hardware compartido, seleccione la caja registradora y establezca la opción **Caja registradora de turno compartido** en **Sí**.
-    -   **Número de PDV de EFT:** El identificador de la terminal de EFT para usar cuando se envían autorizaciones de EFT. Este identificador lo proporciona el procesador de tarjetas de crédito.
-    -   **Nombre del paquete**: el paquete de la estación de hardware para utilizar cuando se implementa la estación de hardware.
+4.  <span data-ttu-id="23f4c-515">Haga clic en **Venta minorista** &gt; **TI de venta minorista** &gt; **Programación de distribución**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-515">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5.  <span data-ttu-id="23f4c-516">Seleccione la programación de la distribución **1090** para sincronizar el nuevo perfil de hardware en la tienda.</span><span class="sxs-lookup"><span data-stu-id="23f4c-516">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="23f4c-517">Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-517">Click **Run now** to sync changes to the POS.</span></span>
+6.  <span data-ttu-id="23f4c-518">Seleccione la programación de la distribución **1040** para sincronizar la nueva estación de hardware en la tienda.</span><span class="sxs-lookup"><span data-stu-id="23f4c-518">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="23f4c-519">Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-519">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="23f4c-520">Instale la estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-520">Install the hardware station.</span></span> <span data-ttu-id="23f4c-521">Para obtener más información sobre cómo instalar la estación de hardware, consulte [Configuración e instalación de la estación de hardware de Retail](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="23f4c-521">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+8.  <span data-ttu-id="23f4c-522">Instalar y activar Modern POS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-522">Install and activate Modern POS.</span></span> <span data-ttu-id="23f4c-523">Para obtener más información sobre cómo instalar PDV, consulte [Configuración e instalación de Modern POS de Retail](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="23f4c-523">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+9.  <span data-ttu-id="23f4c-524">Inicie sesión en Modern POS y seleccione **Realizar operaciones no relacionadas con la caja registradora**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-524">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+10. <span data-ttu-id="23f4c-525">Inicie la operación **Administrar estaciones de hardware**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-525">Start the **Manage hardware stations** operation.</span></span>
+11. <span data-ttu-id="23f4c-526">Haga clic en **Administrar**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-526">Click **Manage**.</span></span>
+12. <span data-ttu-id="23f4c-527">En la página de gestión de la estación de hardware, defina la opción para activar la estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-527">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+13. <span data-ttu-id="23f4c-528">Seleccione la estación de hardware para utilizar, y haga clic en **Emparejar**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-528">Select the hardware station to use, and then click **Pair**.</span></span>
+14. <span data-ttu-id="23f4c-529">Después de emparejar la emisora de hardware, haga clic **Cerrar**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-529">After the hardware station is paired, click **Close**.</span></span>
+15. <span data-ttu-id="23f4c-530">En la página de selección de estación de hardware, haga clic en la estación de hardware recientemente seleccionada para activarla.</span><span class="sxs-lookup"><span data-stu-id="23f4c-530">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span>
 
-4.  Repita los pasos 2 y 3 para cada estación de hardware adicional que sea necesaria en la tienda.
-5.  Haga clic en **Venta minorista** &gt; **TI de venta minorista** &gt; **Programación de distribución**.
-6.  Seleccione la programación de la distribución **1090** para sincronizar el nuevo perfil de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
-7.  Seleccione la programación de la distribución **1040** para sincronizar la nueva estación de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
-8.  Instale la estación de hardware en cada equipo del host que haya configurado en los pasos 2 y 3. Para obtener más información sobre cómo instalar la estación de hardware, consulte [Configuración e instalación de la estación de hardware de Retail](retail-hardware-station-configuration-installation.md).
-9.  Instalar y activar Modern POS. Para obtener más información sobre cómo instalar PDV, consulte [Configuración e instalación de Modern POS de Retail](retail-modern-pos-device-activation.md).
-10. Inicie sesión en Modern POS y seleccione **Realizar operaciones no relacionadas con la caja registradora**.
-11. Inicie la operación **Administrar estaciones de hardware**.
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="23f4c-531">Todos los clientes de Modern POS que tienen una estación de hardware de IIS compartida</span><span class="sxs-lookup"><span data-stu-id="23f4c-531">All Modern POS clients that have a shared IIS hardware station</span></span>
 
-12. Haga clic en **Administrar**.
-13. En la página de gestión de la estación de hardware, defina la opción para activar la estación de hardware.
-14. Seleccione la estación de hardware para utilizar, y haga clic en **Emparejar**.
-15. Repita el paso 14 para cada estación de hardware que utilizará Modern POS.
-16. Después emparejar todas las estaciones de hardware necesarias, haga clic en **Cerrar**.
-17. En la página de selección de estación de hardware, haga clic en la estación de hardware recientemente seleccionada para activarla. **Nota**: si los dispositivos utilizan a menudo distintas estaciones de hardware, recomendamos que configure Modern POS para solicitar a los cajeros que seleccionen una estación de hardware al iniciar el proceso de forma de pago. Haga clic en **Venta minorista** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Registros**. Seleccione el registro y, después, establezca la opción **Seleccionar en pago** en **Sí**. Use la programación de distribución **1090** para sincronizar los cambios con la base de datos de canal.
+<span data-ttu-id="23f4c-532">Esta configuración se puede utilizar para todos los clientes de Modern POS que comparten las estaciones de hardware con otros dispositivos.</span><span class="sxs-lookup"><span data-stu-id="23f4c-532">This configuration can be used for all Modern POS clients that share hardware stations with other devices.</span></span> <span data-ttu-id="23f4c-533">Para establecer esta configuración, siga estos pasos.</span><span class="sxs-lookup"><span data-stu-id="23f4c-533">To set up this configuration, follow these steps.</span></span>
 
-## <a name="extensibility"></a>Extensibilidad
-Para obtener información sobre los escenarios de extensibilidad para la estación de hardware, consulte [Extensibilidad de la estación de hardware](dev-itpro/hardware-station-extensibility.md).
+1.  <span data-ttu-id="23f4c-534">Cree un perfil de hardware donde se configuren los periféricos necesarios.</span><span class="sxs-lookup"><span data-stu-id="23f4c-534">Create a hardware profile where the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="23f4c-535">Cree una estación de hardware de tipo **Compartido** para la tienda minorista donde se usará el registro de PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-535">Create a hardware station of the **Shared** type for the retail store where the POS register will be used.</span></span>
+3.  <span data-ttu-id="23f4c-536">En la estación compartida de hardware, establezca las siguientes propiedades:</span><span class="sxs-lookup"><span data-stu-id="23f4c-536">On the shared hardware station, set the following properties:</span></span>
+    -   <span data-ttu-id="23f4c-537">**Nombre del host:** el nombre del equipo host donde la estación de hardware se ejecutará.</span><span class="sxs-lookup"><span data-stu-id="23f4c-537">**Host name** – The name of the host computer where the hardware station will run.</span></span>
+    -   <span data-ttu-id="23f4c-538">**Descripción**: el texto que va a ayudar a identificar la estación de hardware, por ejemplo o **Devoluciones** o **Parte delantera de tienda**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-538">**Description** – Text that will help identify the hardware station, such as **Returns** or **Front of store**.</span></span>
+    -   <span data-ttu-id="23f4c-539">**Puerto**: el puerto que se va a utilizar para que la estación de hardware se comunique con el cliente de Modern POS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-539">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    -   <span data-ttu-id="23f4c-540">**Perfil de hardware**: para las estaciones compartidas de hardware, cada estación de hardware debe tener un perfil de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-540">**Hardware profile** – For shared hardware stations, each hardware station should have a hardware profile.</span></span> <span data-ttu-id="23f4c-541">Los perfiles de hardware se pueden compartir entre varias estaciones de hardware, pero se deben asignar a cada estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-541">Hardware profiles can be shared among hardware stations, but they must be mapped to each hardware station.</span></span> <span data-ttu-id="23f4c-542">Además, se recomienda que use turnos compartidos cuando varios dispositivos usen la misma estación de hardware compartida.</span><span class="sxs-lookup"><span data-stu-id="23f4c-542">In addition, we recommend that you use shared shifts when multiple devices use the same shared hardware station.</span></span> <span data-ttu-id="23f4c-543">Para establecer un turno compartido, haga clic en **Venta minorista** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Perfiles de PDV** &gt; **Perfiles de hardware**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-543">To set up a shared shift, click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="23f4c-544">Para cada perfil de hardware compartido, seleccione la caja registradora y establezca la opción **Caja registradora de turno compartido** en **Sí**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-544">For each shared hardware profile, select the cash drawer, and set the **Shared shift drawer** option to **Yes**.</span></span>
+    -   <span data-ttu-id="23f4c-545">**Número de PDV de EFT:** El identificador de la terminal de EFT para usar cuando se envían autorizaciones de EFT.</span><span class="sxs-lookup"><span data-stu-id="23f4c-545">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="23f4c-546">Este identificador lo proporciona el procesador de tarjetas de crédito.</span><span class="sxs-lookup"><span data-stu-id="23f4c-546">This ID is provided by the credit card processor.</span></span>
+    -   <span data-ttu-id="23f4c-547">**Nombre del paquete**: el paquete de la estación de hardware para utilizar cuando se implementa la estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-547">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
 
-## <a name="security"></a>Seguridad
-Según las normas actuales de seguridad, los valores siguientes se deben usar en un entorno de producción: **Nota**: el instalador de la estación de hardware hará estas modificaciones al registro automáticamente como parte de la instalación de autoservicio.
+4.  <span data-ttu-id="23f4c-548">Repita los pasos 2 y 3 para cada estación de hardware adicional que sea necesaria en la tienda.</span><span class="sxs-lookup"><span data-stu-id="23f4c-548">Repeat steps 2 and 3 for each additional hardware station that is required in the store.</span></span>
+5.  <span data-ttu-id="23f4c-549">Haga clic en **Venta minorista** &gt; **TI de venta minorista** &gt; **Programación de distribución**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-549">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+6.  <span data-ttu-id="23f4c-550">Seleccione la programación de la distribución **1090** para sincronizar el nuevo perfil de hardware en la tienda.</span><span class="sxs-lookup"><span data-stu-id="23f4c-550">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="23f4c-551">Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-551">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="23f4c-552">Seleccione la programación de la distribución **1040** para sincronizar la nueva estación de hardware en la tienda.</span><span class="sxs-lookup"><span data-stu-id="23f4c-552">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="23f4c-553">Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-553">Click **Run now** to sync changes to the POS.</span></span>
+8.  <span data-ttu-id="23f4c-554">Instale la estación de hardware en cada equipo del host que haya configurado en los pasos 2 y 3.</span><span class="sxs-lookup"><span data-stu-id="23f4c-554">Install the hardware station on each host computer that you set up in steps 2 and 3.</span></span> <span data-ttu-id="23f4c-555">Para obtener más información sobre cómo instalar la estación de hardware, consulte [Configuración e instalación de la estación de hardware de Retail](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="23f4c-555">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+9.  <span data-ttu-id="23f4c-556">Instalar y activar Modern POS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-556">Install and activate Modern POS.</span></span> <span data-ttu-id="23f4c-557">Para obtener más información sobre cómo instalar PDV, consulte [Configuración e instalación de Modern POS de Retail](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="23f4c-557">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+10. <span data-ttu-id="23f4c-558">Inicie sesión en Modern POS y seleccione **Realizar operaciones no relacionadas con la caja registradora**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-558">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+11. <span data-ttu-id="23f4c-559">Inicie la operación **Administrar estaciones de hardware**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-559">Start the **Manage hardware stations** operation.</span></span>
 
--   La capa de sockets seguros (SSL) debería deshabilitarse.
--   Únicamente la versión 1.2 de la seguridad de la capa de transporte (TLS) (o la versión más reciente) debe estar habilitada y en uso. **Nota**: de forma predeterminada, SSL y todas las versiones de TLS, excepto TLS 1.2, están deshabilitadas. Para editar o habilitar estos valores, siga estos pasos:
-    1.  Presione la tecla del logotipo de Windows +R para abrir una ventana **Ejecutar**.
-    2.  En el campo **Abrir**, escriba **Regedit** y a continuación, haga clic en **Aceptar**.
-    3.  Si aparece un cuadro de mensaje de **Control de cuentas de usuario**, haga clic en **Sí**.
-    4.  En la ventana del **Editor de Registro**, vaya a **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Se han especificado las teclas siguientes automáticamente para permitir solo TLS 1.2:
-        -   TLS 1.2Server:Enabled=1
-        -   TLS 1.2Server:DisabledByDefault=0
-        -   TLS 1.2Client:Enabled=1
-        -   TLS 1.2Client:DisabledByDefault=0
-        -   TLS 1.1Server:Enabled=0
-        -   TLS 1.1Client:Enabled=0
-        -   TLS 1.0Server:Enabled=0
-        -   TLS 1.0Client:Enabled=0
-        -   SSL 3.0Server:Enabled=0
-        -   SSL 3.0Client:Enabled=0
-        -   SSL 2.0Server:Enabled=0
-        -   SSL 2.0Client:Enabled=0
--   No deben abrirse otros puertos de red adicionales, a menos que se necesiten por motivos conocidos y especificados.
--   El uso compartido de recursos entre orígenes se debe deshabilitar y especificar los orígenes permitidos que se aceptan.
--   Solo se deben usar entidades emisoras de certificados de confianza para recopilar los certificados que se usarán en los equipos que ejecutan la estación de hardware.
+12. <span data-ttu-id="23f4c-560">Haga clic en **Administrar**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-560">Click **Manage**.</span></span>
+13. <span data-ttu-id="23f4c-561">En la página de gestión de la estación de hardware, defina la opción para activar la estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-561">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+14. <span data-ttu-id="23f4c-562">Seleccione la estación de hardware para utilizar, y haga clic en **Emparejar**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-562">Select the hardware station to use, and then click **Pair**.</span></span>
+15. <span data-ttu-id="23f4c-563">Repita el paso 14 para cada estación de hardware que utilizará Modern POS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-563">Repeat step 14 for each hardware station that Modern POS will use.</span></span>
+16. <span data-ttu-id="23f4c-564">Después emparejar todas las estaciones de hardware necesarias, haga clic en **Cerrar**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-564">After all the required hardware stations are paired, click **Close**.</span></span>
+17. <span data-ttu-id="23f4c-565">En la página de selección de estación de hardware, haga clic en la estación de hardware recientemente seleccionada para activarla.</span><span class="sxs-lookup"><span data-stu-id="23f4c-565">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span> <span data-ttu-id="23f4c-566">**Nota**: si los dispositivos utilizan a menudo distintas estaciones de hardware, recomendamos que configure Modern POS para solicitar a los cajeros que seleccionen una estación de hardware al iniciar el proceso de forma de pago.</span><span class="sxs-lookup"><span data-stu-id="23f4c-566">**Note:** If devices often use different hardware stations, we recommend that you configure Modern POS to prompt cashiers to select a hardware station when they begin the tender process.</span></span> <span data-ttu-id="23f4c-567">Haga clic en **Venta minorista** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Registros**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-567">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="23f4c-568">Seleccione el registro y, después, establezca la opción **Seleccionar en pago** en **Sí**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-568">Select the register, and then set the **Select upon tender** option to **Yes**.</span></span> <span data-ttu-id="23f4c-569">Use la programación de distribución **1090** para sincronizar los cambios con la base de datos de canal.</span><span class="sxs-lookup"><span data-stu-id="23f4c-569">Use the **1090** distribution schedule to sync changes to the channel database.</span></span>
 
-**Nota:** Es muy importante que consulte las instrucciones de seguridad de IIS y los requisitos del sector para tarjetas (PCI).
+## <a name="extensibility"></a><span data-ttu-id="23f4c-570">Extensibilidad</span><span class="sxs-lookup"><span data-stu-id="23f4c-570">Extensibility</span></span>
+<span data-ttu-id="23f4c-571">Para obtener información sobre los escenarios de extensibilidad para la estación de hardware, consulte [Extensibilidad de la estación de hardware](dev-itpro/hardware-station-extensibility.md).</span><span class="sxs-lookup"><span data-stu-id="23f4c-571">For information about extensibility scenarios for the hardware station, see [Hardware Station extensibility](dev-itpro/hardware-station-extensibility.md).</span></span>
 
-## <a name="peripheral-simulator"></a>Simulador periférico
-Para obtener más información, consulte [Simulador de periféricos para aplicaciones minoristas](dev-itpro/retail-peripheral-simulator.md).
+## <a name="security"></a><span data-ttu-id="23f4c-572">Seguridad</span><span class="sxs-lookup"><span data-stu-id="23f4c-572">Security</span></span>
+<span data-ttu-id="23f4c-573">Según las normas actuales de seguridad, los valores siguientes se deben usar en un entorno de producción: **Nota**: el instalador de la estación de hardware hará estas modificaciones al registro automáticamente como parte de la instalación de autoservicio.</span><span class="sxs-lookup"><span data-stu-id="23f4c-573">According to current security standards, the following settings should be used in a production environment: **Note:** The hardware station installer will automatically make these registry edits as part of the installation through self-service.</span></span>
 
-## <a name="microsofttested-peripheral-devices"></a>Dispositivos periféricos probados por Microsoft
-### <a name="ipc-built-in-hardware-station"></a>Estación de hardware de IPC (integrada)
+-   <span data-ttu-id="23f4c-574">La capa de sockets seguros (SSL) debería deshabilitarse.</span><span class="sxs-lookup"><span data-stu-id="23f4c-574">Secure Sockets Layer (SSL) should be disabled.</span></span>
+-   <span data-ttu-id="23f4c-575">Únicamente la versión 1.2 de la seguridad de la capa de transporte (TLS) (o la versión más reciente) debe estar habilitada y en uso.</span><span class="sxs-lookup"><span data-stu-id="23f4c-575">Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</span></span> <span data-ttu-id="23f4c-576">**Nota**: de forma predeterminada, SSL y todas las versiones de TLS, excepto TLS 1.2, están deshabilitadas.</span><span class="sxs-lookup"><span data-stu-id="23f4c-576">**Note:** By default, SSL and all version of TLS except TLS 1.2 are disabled.</span></span> <span data-ttu-id="23f4c-577">Para editar o habilitar estos valores, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="23f4c-577">To edit or enable these values, follow these steps:</span></span>
+    1.  <span data-ttu-id="23f4c-578">Presione la tecla del logotipo de Windows +R para abrir una ventana **Ejecutar**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-578">Press the Windows logo key+R to open a **Run** window.</span></span>
+    2.  <span data-ttu-id="23f4c-579">En el campo **Abrir**, escriba **Regedit** y a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-579">In the **Open** field, type **Regedit**, and then click **OK**.</span></span>
+    3.  <span data-ttu-id="23f4c-580">Si aparece un cuadro de mensaje de **Control de cuentas de usuario**, haga clic en **Sí**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-580">If a **User Account Control** message box appears, click **Yes**.</span></span>
+    4.  <span data-ttu-id="23f4c-581">En la ventana del **Editor de Registro**, vaya a **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-581">In the **Registry Editor** window, navigate to **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span></span> <span data-ttu-id="23f4c-582">Se han especificado las teclas siguientes automáticamente para permitir solo TLS 1.2:</span><span class="sxs-lookup"><span data-stu-id="23f4c-582">The following keys have been automatically entered to allow for TLS 1.2 only:</span></span>
+        -   <span data-ttu-id="23f4c-583">TLS 1.2Server:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="23f4c-583">TLS 1.2Server:Enabled=1</span></span>
+        -   <span data-ttu-id="23f4c-584">TLS 1.2Server:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="23f4c-584">TLS 1.2Server:DisabledByDefault=0</span></span>
+        -   <span data-ttu-id="23f4c-585">TLS 1.2Client:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="23f4c-585">TLS 1.2Client:Enabled=1</span></span>
+        -   <span data-ttu-id="23f4c-586">TLS 1.2Client:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="23f4c-586">TLS 1.2Client:DisabledByDefault=0</span></span>
+        -   <span data-ttu-id="23f4c-587">TLS 1.1Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="23f4c-587">TLS 1.1Server:Enabled=0</span></span>
+        -   <span data-ttu-id="23f4c-588">TLS 1.1Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="23f4c-588">TLS 1.1Client:Enabled=0</span></span>
+        -   <span data-ttu-id="23f4c-589">TLS 1.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="23f4c-589">TLS 1.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="23f4c-590">TLS 1.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="23f4c-590">TLS 1.0Client:Enabled=0</span></span>
+        -   <span data-ttu-id="23f4c-591">SSL 3.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="23f4c-591">SSL 3.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="23f4c-592">SSL 3.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="23f4c-592">SSL 3.0Client:Enabled=0</span></span>
+        -   <span data-ttu-id="23f4c-593">SSL 2.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="23f4c-593">SSL 2.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="23f4c-594">SSL 2.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="23f4c-594">SSL 2.0Client:Enabled=0</span></span>
+-   <span data-ttu-id="23f4c-595">No deben abrirse otros puertos de red adicionales, a menos que se necesiten por motivos conocidos y especificados.</span><span class="sxs-lookup"><span data-stu-id="23f4c-595">No additional network ports should be open, unless they are required for known, specified reasons.</span></span>
+-   <span data-ttu-id="23f4c-596">El uso compartido de recursos entre orígenes se debe deshabilitar y especificar los orígenes permitidos que se aceptan.</span><span class="sxs-lookup"><span data-stu-id="23f4c-596">Cross-origin resource sharing must be disabled and must specify the allowed origins that are accepted.</span></span>
+-   <span data-ttu-id="23f4c-597">Solo se deben usar entidades emisoras de certificados de confianza para recopilar los certificados que se usarán en los equipos que ejecutan la estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-597">Only trusted certificate authorities should be used to obtain certificates that will be used on computers that run the hardware station.</span></span>
 
-Los siguientes periféricos se probaron mediante la estación de hardware de IPC que se integra en Modern POS para Windows.
+<span data-ttu-id="23f4c-598">**Nota:** Es muy importante que consulte las instrucciones de seguridad de IIS y los requisitos del sector para tarjetas (PCI).</span><span class="sxs-lookup"><span data-stu-id="23f4c-598">**Note:** It’s very important that you review security guidelines for IIS and the Payment Card Industry (PCI) requirements.</span></span>
 
-#### <a name="printer"></a>Impresora
+## <a name="peripheral-simulator"></a><span data-ttu-id="23f4c-599">Simulador periférico</span><span class="sxs-lookup"><span data-stu-id="23f4c-599">Peripheral simulator</span></span>
+<span data-ttu-id="23f4c-600">Para obtener más información, consulte [Simulador de periféricos para aplicaciones minoristas](dev-itpro/retail-peripheral-simulator.md).</span><span class="sxs-lookup"><span data-stu-id="23f4c-600">For information, see [Retail peripheral simulator](dev-itpro/retail-peripheral-simulator.md).</span></span>
 
-| Fabricante | Modelo    | Interfaz | Comentarios                |
+## <a name="microsofttested-peripheral-devices"></a><span data-ttu-id="23f4c-601">Dispositivos periféricos probados por Microsoft</span><span class="sxs-lookup"><span data-stu-id="23f4c-601">Microsofttested peripheral devices</span></span>
+### <a name="ipc-built-in-hardware-station"></a><span data-ttu-id="23f4c-602">Estación de hardware de IPC (integrada)</span><span class="sxs-lookup"><span data-stu-id="23f4c-602">IPC (built-in) hardware station</span></span>
+
+<span data-ttu-id="23f4c-603">Los siguientes periféricos se probaron mediante la estación de hardware de IPC que se integra en Modern POS para Windows.</span><span class="sxs-lookup"><span data-stu-id="23f4c-603">The following peripherals were tested by using the IPC hardware station that is built into Modern POS for Windows.</span></span>
+
+#### <a name="printer"></a><span data-ttu-id="23f4c-604">Impresora</span><span class="sxs-lookup"><span data-stu-id="23f4c-604">Printer</span></span>
+
+| <span data-ttu-id="23f4c-605">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-605">Manufacturer</span></span> | <span data-ttu-id="23f4c-606">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-606">Model</span></span>    | <span data-ttu-id="23f4c-607">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-607">Interface</span></span> | <span data-ttu-id="23f4c-608">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-608">Comments</span></span>                |
 |--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPDV      |                         |
-| Epson        | TM-T88V  | OPDV      |                         |
-| Star         | TSP650II | OPDV      |                         |
-| Star         | TSP650II | Personalizar    | Conectado a través de la red   |
-| Star         | mPOP     | OPDV      | Conectado mediante Bluetooth |
-| HP           | F7M67AA  | OPDV      | Con tecnología USB             |
+| <span data-ttu-id="23f4c-609">Epson</span><span class="sxs-lookup"><span data-stu-id="23f4c-609">Epson</span></span>        | <span data-ttu-id="23f4c-610">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="23f4c-610">Tm-T88IV</span></span> | <span data-ttu-id="23f4c-611">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-611">OPOS</span></span>      |                         |
+| <span data-ttu-id="23f4c-612">Epson</span><span class="sxs-lookup"><span data-stu-id="23f4c-612">Epson</span></span>        | <span data-ttu-id="23f4c-613">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="23f4c-613">TM-T88V</span></span>  | <span data-ttu-id="23f4c-614">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-614">OPOS</span></span>      |                         |
+| <span data-ttu-id="23f4c-615">Star</span><span class="sxs-lookup"><span data-stu-id="23f4c-615">Star</span></span>         | <span data-ttu-id="23f4c-616">TSP650II</span><span class="sxs-lookup"><span data-stu-id="23f4c-616">TSP650II</span></span> | <span data-ttu-id="23f4c-617">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-617">OPOS</span></span>      |                         |
+| <span data-ttu-id="23f4c-618">Star</span><span class="sxs-lookup"><span data-stu-id="23f4c-618">Star</span></span>         | <span data-ttu-id="23f4c-619">TSP650II</span><span class="sxs-lookup"><span data-stu-id="23f4c-619">TSP650II</span></span> | <span data-ttu-id="23f4c-620">Personalizar</span><span class="sxs-lookup"><span data-stu-id="23f4c-620">Custom</span></span>    | <span data-ttu-id="23f4c-621">Conectado a través de la red</span><span class="sxs-lookup"><span data-stu-id="23f4c-621">Connected via network</span></span>   |
+| <span data-ttu-id="23f4c-622">Star</span><span class="sxs-lookup"><span data-stu-id="23f4c-622">Star</span></span>         | <span data-ttu-id="23f4c-623">mPOP</span><span class="sxs-lookup"><span data-stu-id="23f4c-623">mPOP</span></span>     | <span data-ttu-id="23f4c-624">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-624">OPOS</span></span>      | <span data-ttu-id="23f4c-625">Conectado mediante Bluetooth</span><span class="sxs-lookup"><span data-stu-id="23f4c-625">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="23f4c-626">HP</span><span class="sxs-lookup"><span data-stu-id="23f4c-626">HP</span></span>           | <span data-ttu-id="23f4c-627">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="23f4c-627">F7M67AA</span></span>  | <span data-ttu-id="23f4c-628">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-628">OPOS</span></span>      | <span data-ttu-id="23f4c-629">Con tecnología USB</span><span class="sxs-lookup"><span data-stu-id="23f4c-629">Powered USB</span></span>             |
 
-#### <a name="bar-code-scanner"></a>Escáner de códigos de barras
+#### <a name="bar-code-scanner"></a><span data-ttu-id="23f4c-630">Escáner de códigos de barras</span><span class="sxs-lookup"><span data-stu-id="23f4c-630">Bar code scanner</span></span>
 
-| Fabricante  | Modelo         | Interfaz | Comentarios |
+| <span data-ttu-id="23f4c-631">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-631">Manufacturer</span></span>  | <span data-ttu-id="23f4c-632">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-632">Model</span></span>         | <span data-ttu-id="23f4c-633">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-633">Interface</span></span> | <span data-ttu-id="23f4c-634">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-634">Comments</span></span> |
 |---------------|---------------|-----------|----------|
-| Motorola      | DS9208        | OPDV      |          |
-| Honeywell     | 1900          | UWP       |          |
-| Símbolo        | LS2208        | OPDV      |          |
-| HP integrado | E1L07AA       | OPDV      |          |
-| Datalogic     | Magellan 8400 | OPDV      |          |
+| <span data-ttu-id="23f4c-635">Motorola</span><span class="sxs-lookup"><span data-stu-id="23f4c-635">Motorola</span></span>      | <span data-ttu-id="23f4c-636">DS9208</span><span class="sxs-lookup"><span data-stu-id="23f4c-636">DS9208</span></span>        | <span data-ttu-id="23f4c-637">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-637">OPOS</span></span>      |          |
+| <span data-ttu-id="23f4c-638">Honeywell</span><span class="sxs-lookup"><span data-stu-id="23f4c-638">Honeywell</span></span>     | <span data-ttu-id="23f4c-639">1900</span><span class="sxs-lookup"><span data-stu-id="23f4c-639">1900</span></span>          | <span data-ttu-id="23f4c-640">UWP</span><span class="sxs-lookup"><span data-stu-id="23f4c-640">UWP</span></span>       |          |
+| <span data-ttu-id="23f4c-641">Símbolo</span><span class="sxs-lookup"><span data-stu-id="23f4c-641">Symbol</span></span>        | <span data-ttu-id="23f4c-642">LS2208</span><span class="sxs-lookup"><span data-stu-id="23f4c-642">LS2208</span></span>        | <span data-ttu-id="23f4c-643">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-643">OPOS</span></span>      |          |
+| <span data-ttu-id="23f4c-644">HP integrado</span><span class="sxs-lookup"><span data-stu-id="23f4c-644">HP Integrated</span></span> | <span data-ttu-id="23f4c-645">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="23f4c-645">E1L07AA</span></span>       | <span data-ttu-id="23f4c-646">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-646">OPOS</span></span>      |          |
+| <span data-ttu-id="23f4c-647">Datalogic</span><span class="sxs-lookup"><span data-stu-id="23f4c-647">Datalogic</span></span>     | <span data-ttu-id="23f4c-648">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="23f4c-648">Magellan 8400</span></span> | <span data-ttu-id="23f4c-649">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-649">OPOS</span></span>      |          |
 
-#### <a name="pin-pad"></a>Terminal para ingreso de PIN
+#### <a name="pin-pad"></a><span data-ttu-id="23f4c-650">Terminal para ingreso de PIN</span><span class="sxs-lookup"><span data-stu-id="23f4c-650">PIN pad</span></span>
 
-| Fabricante | Modelo  | Interfaz | Comentarios                                        |
+| <span data-ttu-id="23f4c-651">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-651">Manufacturer</span></span> | <span data-ttu-id="23f4c-652">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-652">Model</span></span>  | <span data-ttu-id="23f4c-653">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-653">Interface</span></span> | <span data-ttu-id="23f4c-654">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-654">Comments</span></span>                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPDV      | Requiere personalización del conector de pago |
+| <span data-ttu-id="23f4c-655">VeriFone</span><span class="sxs-lookup"><span data-stu-id="23f4c-655">VeriFone</span></span>     | <span data-ttu-id="23f4c-656">1000SE</span><span class="sxs-lookup"><span data-stu-id="23f4c-656">1000SE</span></span> | <span data-ttu-id="23f4c-657">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-657">OPOS</span></span>      | <span data-ttu-id="23f4c-658">Requiere personalización del conector de pago</span><span class="sxs-lookup"><span data-stu-id="23f4c-658">Requires customization of the payment connector</span></span> |
 
-#### <a name="payment-terminal"></a>Terminal de pago 
+#### <a name="payment-terminal"></a><span data-ttu-id="23f4c-659">Terminal de pago </span><span class="sxs-lookup"><span data-stu-id="23f4c-659">Payment terminal</span></span>
 
-| Fabricante | Modelo | Interfaz | Comentarios                                                                       |
+| <span data-ttu-id="23f4c-660">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-660">Manufacturer</span></span> | <span data-ttu-id="23f4c-661">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-661">Model</span></span> | <span data-ttu-id="23f4c-662">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-662">Interface</span></span> | <span data-ttu-id="23f4c-663">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-663">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Personalizar    | Requiere personalización del conector de pago                                |
-| VeriFone     | MX925 | Personalizar    | Requiere personalización del conector de pago; conectado a través de la red y USB |
-| VeriFone     | MX915 | Personalizar    | Requiere personalización del conector de pago; conectado a través de la red y USB |
+| <span data-ttu-id="23f4c-664">Equinox</span><span class="sxs-lookup"><span data-stu-id="23f4c-664">Equinox</span></span>      | <span data-ttu-id="23f4c-665">L5300</span><span class="sxs-lookup"><span data-stu-id="23f4c-665">L5300</span></span> | <span data-ttu-id="23f4c-666">Personalizar</span><span class="sxs-lookup"><span data-stu-id="23f4c-666">Custom</span></span>    | <span data-ttu-id="23f4c-667">Requiere personalización del conector de pago</span><span class="sxs-lookup"><span data-stu-id="23f4c-667">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="23f4c-668">VeriFone</span><span class="sxs-lookup"><span data-stu-id="23f4c-668">VeriFone</span></span>     | <span data-ttu-id="23f4c-669">MX925</span><span class="sxs-lookup"><span data-stu-id="23f4c-669">MX925</span></span> | <span data-ttu-id="23f4c-670">Personalizar</span><span class="sxs-lookup"><span data-stu-id="23f4c-670">Custom</span></span>    | <span data-ttu-id="23f4c-671">Requiere personalización del conector de pago; conectado a través de la red y USB</span><span class="sxs-lookup"><span data-stu-id="23f4c-671">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="23f4c-672">VeriFone</span><span class="sxs-lookup"><span data-stu-id="23f4c-672">VeriFone</span></span>     | <span data-ttu-id="23f4c-673">MX915</span><span class="sxs-lookup"><span data-stu-id="23f4c-673">MX915</span></span> | <span data-ttu-id="23f4c-674">Personalizar</span><span class="sxs-lookup"><span data-stu-id="23f4c-674">Custom</span></span>    | <span data-ttu-id="23f4c-675">Requiere personalización del conector de pago; conectado a través de la red y USB</span><span class="sxs-lookup"><span data-stu-id="23f4c-675">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Caja registradora
+#### <a name="cash-drawer"></a><span data-ttu-id="23f4c-676">Caja registradora</span><span class="sxs-lookup"><span data-stu-id="23f4c-676">Cash drawer</span></span>
 
-| Fabricante | Modelo     | Interfaz | Comentarios                |
+| <span data-ttu-id="23f4c-677">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-677">Manufacturer</span></span> | <span data-ttu-id="23f4c-678">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-678">Model</span></span>     | <span data-ttu-id="23f4c-679">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-679">Interface</span></span> | <span data-ttu-id="23f4c-680">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-680">Comments</span></span>                |
 |--------------|-----------|-----------|-------------------------|
-| Star         | mPOP      | OPDV      | Conectado mediante Bluetooth |
-| APG          | Atwood    | Personalizar    | Conectado a través de la red   |
-| Star         | SMD2-1317 | OPDV      |                         |
-| HP           | QT457AA   | OPDV      |                         |
+| <span data-ttu-id="23f4c-681">Star</span><span class="sxs-lookup"><span data-stu-id="23f4c-681">Star</span></span>         | <span data-ttu-id="23f4c-682">mPOP</span><span class="sxs-lookup"><span data-stu-id="23f4c-682">mPOP</span></span>      | <span data-ttu-id="23f4c-683">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-683">OPOS</span></span>      | <span data-ttu-id="23f4c-684">Conectado mediante Bluetooth</span><span class="sxs-lookup"><span data-stu-id="23f4c-684">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="23f4c-685">APG</span><span class="sxs-lookup"><span data-stu-id="23f4c-685">APG</span></span>          | <span data-ttu-id="23f4c-686">Atwood</span><span class="sxs-lookup"><span data-stu-id="23f4c-686">Atwood</span></span>    | <span data-ttu-id="23f4c-687">Personalizar</span><span class="sxs-lookup"><span data-stu-id="23f4c-687">Custom</span></span>    | <span data-ttu-id="23f4c-688">Conectado a través de la red</span><span class="sxs-lookup"><span data-stu-id="23f4c-688">Connected via network</span></span>   |
+| <span data-ttu-id="23f4c-689">Star</span><span class="sxs-lookup"><span data-stu-id="23f4c-689">Star</span></span>         | <span data-ttu-id="23f4c-690">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="23f4c-690">SMD2-1317</span></span> | <span data-ttu-id="23f4c-691">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-691">OPOS</span></span>      |                         |
+| <span data-ttu-id="23f4c-692">HP</span><span class="sxs-lookup"><span data-stu-id="23f4c-692">HP</span></span>           | <span data-ttu-id="23f4c-693">QT457AA</span><span class="sxs-lookup"><span data-stu-id="23f4c-693">QT457AA</span></span>   | <span data-ttu-id="23f4c-694">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-694">OPOS</span></span>      |                         |
 
-#### <a name="line-display"></a>Visualización de líneas
+#### <a name="line-display"></a><span data-ttu-id="23f4c-695">Visualización de líneas</span><span class="sxs-lookup"><span data-stu-id="23f4c-695">Line display</span></span>
 
-| Fabricante  | Modelo   | Interfaz | Comentarios |
+| <span data-ttu-id="23f4c-696">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-696">Manufacturer</span></span>  | <span data-ttu-id="23f4c-697">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-697">Model</span></span>   | <span data-ttu-id="23f4c-698">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-698">Interface</span></span> | <span data-ttu-id="23f4c-699">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-699">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| HP integrado | G6U79AA | OPDV      |          |
-| Epson         | M58DC   | OPDV      |          |
+| <span data-ttu-id="23f4c-700">HP integrado</span><span class="sxs-lookup"><span data-stu-id="23f4c-700">HP integrated</span></span> | <span data-ttu-id="23f4c-701">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="23f4c-701">G6U79AA</span></span> | <span data-ttu-id="23f4c-702">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-702">OPOS</span></span>      |          |
+| <span data-ttu-id="23f4c-703">Epson</span><span class="sxs-lookup"><span data-stu-id="23f4c-703">Epson</span></span>         | <span data-ttu-id="23f4c-704">M58DC</span><span class="sxs-lookup"><span data-stu-id="23f4c-704">M58DC</span></span>   | <span data-ttu-id="23f4c-705">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-705">OPOS</span></span>      |          |
 
-#### <a name="signature-capture"></a>Captura de firma
+#### <a name="signature-capture"></a><span data-ttu-id="23f4c-706">Captura de firma</span><span class="sxs-lookup"><span data-stu-id="23f4c-706">Signature capture</span></span>
 
-| Fabricante | Modelo  | Interfaz | Comentarios |
+| <span data-ttu-id="23f4c-707">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-707">Manufacturer</span></span> | <span data-ttu-id="23f4c-708">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-708">Model</span></span>  | <span data-ttu-id="23f4c-709">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-709">Interface</span></span> | <span data-ttu-id="23f4c-710">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-710">Comments</span></span> |
 |--------------|--------|-----------|----------|
-| Scriptel     | ST1550 | OPDV      |          |
+| <span data-ttu-id="23f4c-711">Scriptel</span><span class="sxs-lookup"><span data-stu-id="23f4c-711">Scriptel</span></span>     | <span data-ttu-id="23f4c-712">ST1550</span><span class="sxs-lookup"><span data-stu-id="23f4c-712">ST1550</span></span> | <span data-ttu-id="23f4c-713">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-713">OPOS</span></span>      |          |
 
-#### <a name="scale"></a>Escala
+#### <a name="scale"></a><span data-ttu-id="23f4c-714">Escala</span><span class="sxs-lookup"><span data-stu-id="23f4c-714">Scale</span></span>
 
-| Fabricante | Modelo         | Interfaz | Comentarios |
+| <span data-ttu-id="23f4c-715">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-715">Manufacturer</span></span> | <span data-ttu-id="23f4c-716">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-716">Model</span></span>         | <span data-ttu-id="23f4c-717">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-717">Interface</span></span> | <span data-ttu-id="23f4c-718">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-718">Comments</span></span> |
 |--------------|---------------|-----------|----------|
-| Datalogic    | Magellan 8400 | OPDV      |          |
+| <span data-ttu-id="23f4c-719">Datalogic</span><span class="sxs-lookup"><span data-stu-id="23f4c-719">Datalogic</span></span>    | <span data-ttu-id="23f4c-720">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="23f4c-720">Magellan 8400</span></span> | <span data-ttu-id="23f4c-721">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-721">OPOS</span></span>      |          |
 
-#### <a name="msr"></a>MSR
+#### <a name="msr"></a><span data-ttu-id="23f4c-722">MSR</span><span class="sxs-lookup"><span data-stu-id="23f4c-722">MSR</span></span>
 
-| Fabricante | Modelo       | Interfaz | Comentarios |
+| <span data-ttu-id="23f4c-723">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-723">Manufacturer</span></span> | <span data-ttu-id="23f4c-724">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-724">Model</span></span>       | <span data-ttu-id="23f4c-725">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-725">Interface</span></span> | <span data-ttu-id="23f4c-726">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-726">Comments</span></span> |
 |--------------|-------------|-----------|----------|
-| Magtek       | 21073075    | UWP       |          |
-| Magtek       | 21073062    | OPDV      |          |
-| HP           | IDRA-334133 | OPDV      |          |
+| <span data-ttu-id="23f4c-727">Magtek</span><span class="sxs-lookup"><span data-stu-id="23f4c-727">Magtek</span></span>       | <span data-ttu-id="23f4c-728">21073075</span><span class="sxs-lookup"><span data-stu-id="23f4c-728">21073075</span></span>    | <span data-ttu-id="23f4c-729">UWP</span><span class="sxs-lookup"><span data-stu-id="23f4c-729">UWP</span></span>       |          |
+| <span data-ttu-id="23f4c-730">Magtek</span><span class="sxs-lookup"><span data-stu-id="23f4c-730">Magtek</span></span>       | <span data-ttu-id="23f4c-731">21073062</span><span class="sxs-lookup"><span data-stu-id="23f4c-731">21073062</span></span>    | <span data-ttu-id="23f4c-732">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-732">OPOS</span></span>      |          |
+| <span data-ttu-id="23f4c-733">HP</span><span class="sxs-lookup"><span data-stu-id="23f4c-733">HP</span></span>           | <span data-ttu-id="23f4c-734">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="23f4c-734">IDRA-334133</span></span> | <span data-ttu-id="23f4c-735">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-735">OPOS</span></span>      |          |
 
-### <a name="dedicated-iis-hardware-station"></a>Estación de hardware IIS conectada
+### <a name="dedicated-iis-hardware-station"></a><span data-ttu-id="23f4c-736">Estación de hardware IIS conectada</span><span class="sxs-lookup"><span data-stu-id="23f4c-736">Dedicated IIS hardware station</span></span>
 
-Los siguientes se periféricos se probaron mediante una estación de hardware IIS dedicada (no compartida) junto con Modern POS para Windows y Cloud POS.
+<span data-ttu-id="23f4c-737">Los siguientes se periféricos se probaron mediante una estación de hardware IIS dedicada (no compartida) junto con Modern POS para Windows y Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-737">The following peripherals were tested by using a dedicated (not shared) IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span>
 
-#### <a name="printer"></a>Impresora
+#### <a name="printer"></a><span data-ttu-id="23f4c-738">Impresora</span><span class="sxs-lookup"><span data-stu-id="23f4c-738">Printer</span></span>
 
-| Fabricante | Modelo    | Interfaz | Comentarios                  |
+| <span data-ttu-id="23f4c-739">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-739">Manufacturer</span></span> | <span data-ttu-id="23f4c-740">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-740">Model</span></span>    | <span data-ttu-id="23f4c-741">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-741">Interface</span></span> | <span data-ttu-id="23f4c-742">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-742">Comments</span></span>                  |
 |--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPDV      |                           |
-| Epson        | TM-T88V  | OPDV      |                           |
-| Star         | TSP650II | OPDV      |                           |
-| Star         | TSP650II | Personalizar    | Conectado a través de la red     |
-| Star         | TSP100   | OPDV      | Requiere controladores para TSP650II |
-| HP           | F7M67AA  | OPDV      | Con tecnología USB               |
+| <span data-ttu-id="23f4c-743">Epson</span><span class="sxs-lookup"><span data-stu-id="23f4c-743">Epson</span></span>        | <span data-ttu-id="23f4c-744">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="23f4c-744">Tm-T88IV</span></span> | <span data-ttu-id="23f4c-745">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-745">OPOS</span></span>      |                           |
+| <span data-ttu-id="23f4c-746">Epson</span><span class="sxs-lookup"><span data-stu-id="23f4c-746">Epson</span></span>        | <span data-ttu-id="23f4c-747">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="23f4c-747">TM-T88V</span></span>  | <span data-ttu-id="23f4c-748">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-748">OPOS</span></span>      |                           |
+| <span data-ttu-id="23f4c-749">Star</span><span class="sxs-lookup"><span data-stu-id="23f4c-749">Star</span></span>         | <span data-ttu-id="23f4c-750">TSP650II</span><span class="sxs-lookup"><span data-stu-id="23f4c-750">TSP650II</span></span> | <span data-ttu-id="23f4c-751">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-751">OPOS</span></span>      |                           |
+| <span data-ttu-id="23f4c-752">Star</span><span class="sxs-lookup"><span data-stu-id="23f4c-752">Star</span></span>         | <span data-ttu-id="23f4c-753">TSP650II</span><span class="sxs-lookup"><span data-stu-id="23f4c-753">TSP650II</span></span> | <span data-ttu-id="23f4c-754">Personalizar</span><span class="sxs-lookup"><span data-stu-id="23f4c-754">Custom</span></span>    | <span data-ttu-id="23f4c-755">Conectado a través de la red</span><span class="sxs-lookup"><span data-stu-id="23f4c-755">Connected via network</span></span>     |
+| <span data-ttu-id="23f4c-756">Star</span><span class="sxs-lookup"><span data-stu-id="23f4c-756">Star</span></span>         | <span data-ttu-id="23f4c-757">TSP100</span><span class="sxs-lookup"><span data-stu-id="23f4c-757">TSP100</span></span>   | <span data-ttu-id="23f4c-758">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-758">OPOS</span></span>      | <span data-ttu-id="23f4c-759">Requiere controladores para TSP650II</span><span class="sxs-lookup"><span data-stu-id="23f4c-759">Requires TSP650II drivers</span></span> |
+| <span data-ttu-id="23f4c-760">HP</span><span class="sxs-lookup"><span data-stu-id="23f4c-760">HP</span></span>           | <span data-ttu-id="23f4c-761">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="23f4c-761">F7M67AA</span></span>  | <span data-ttu-id="23f4c-762">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-762">OPOS</span></span>      | <span data-ttu-id="23f4c-763">Con tecnología USB</span><span class="sxs-lookup"><span data-stu-id="23f4c-763">Powered USB</span></span>               |
 
-#### <a name="bar-code-scanner"></a>Escáner de códigos de barras
+#### <a name="bar-code-scanner"></a><span data-ttu-id="23f4c-764">Escáner de códigos de barras</span><span class="sxs-lookup"><span data-stu-id="23f4c-764">Bar code scanner</span></span>
 
-| Fabricante  | Modelo   | Interfaz | Comentarios |
+| <span data-ttu-id="23f4c-765">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-765">Manufacturer</span></span>  | <span data-ttu-id="23f4c-766">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-766">Model</span></span>   | <span data-ttu-id="23f4c-767">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-767">Interface</span></span> | <span data-ttu-id="23f4c-768">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-768">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| Motorola      | DS9208  | OPDV      |          |
-| Símbolo        | LS2208  | OPDV      |          |
-| HP integrado | E1L07AA | OPDV      |          |
+| <span data-ttu-id="23f4c-769">Motorola</span><span class="sxs-lookup"><span data-stu-id="23f4c-769">Motorola</span></span>      | <span data-ttu-id="23f4c-770">DS9208</span><span class="sxs-lookup"><span data-stu-id="23f4c-770">DS9208</span></span>  | <span data-ttu-id="23f4c-771">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-771">OPOS</span></span>      |          |
+| <span data-ttu-id="23f4c-772">Símbolo</span><span class="sxs-lookup"><span data-stu-id="23f4c-772">Symbol</span></span>        | <span data-ttu-id="23f4c-773">LS2208</span><span class="sxs-lookup"><span data-stu-id="23f4c-773">LS2208</span></span>  | <span data-ttu-id="23f4c-774">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-774">OPOS</span></span>      |          |
+| <span data-ttu-id="23f4c-775">HP integrado</span><span class="sxs-lookup"><span data-stu-id="23f4c-775">HP Integrated</span></span> | <span data-ttu-id="23f4c-776">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="23f4c-776">E1L07AA</span></span> | <span data-ttu-id="23f4c-777">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-777">OPOS</span></span>      |          |
 
-#### <a name="pin-pad"></a>Terminal para ingreso de PIN
+#### <a name="pin-pad"></a><span data-ttu-id="23f4c-778">Terminal para ingreso de PIN</span><span class="sxs-lookup"><span data-stu-id="23f4c-778">PIN pad</span></span>
 
-| Fabricante | Modelo  | Interfaz | Comentarios                                        |
+| <span data-ttu-id="23f4c-779">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-779">Manufacturer</span></span> | <span data-ttu-id="23f4c-780">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-780">Model</span></span>  | <span data-ttu-id="23f4c-781">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-781">Interface</span></span> | <span data-ttu-id="23f4c-782">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-782">Comments</span></span>                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPDV      | Requiere personalización del conector de pago |
+| <span data-ttu-id="23f4c-783">VeriFone</span><span class="sxs-lookup"><span data-stu-id="23f4c-783">VeriFone</span></span>     | <span data-ttu-id="23f4c-784">1000SE</span><span class="sxs-lookup"><span data-stu-id="23f4c-784">1000SE</span></span> | <span data-ttu-id="23f4c-785">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-785">OPOS</span></span>      | <span data-ttu-id="23f4c-786">Requiere personalización del conector de pago</span><span class="sxs-lookup"><span data-stu-id="23f4c-786">Requires customization of the payment connector</span></span> |
 
-#### <a name="payment-terminal"></a>Terminal de pago 
+#### <a name="payment-terminal"></a><span data-ttu-id="23f4c-787">Terminal de pago </span><span class="sxs-lookup"><span data-stu-id="23f4c-787">Payment terminal</span></span>
 
-| Fabricante | Modelo | Interfaz | Comentarios                                                                       |
+| <span data-ttu-id="23f4c-788">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-788">Manufacturer</span></span> | <span data-ttu-id="23f4c-789">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-789">Model</span></span> | <span data-ttu-id="23f4c-790">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-790">Interface</span></span> | <span data-ttu-id="23f4c-791">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-791">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Personalizar    | Requiere personalización del conector de pago                                |
-| VeriFone     | MX925 | Personalizar    | Requiere personalización del conector de pago; conectado a través de la red y USB |
-| VeriFone     | MX915 | Personalizar    | Requiere personalización del conector de pago; conectado a través de la red y USB |
+| <span data-ttu-id="23f4c-792">Equinox</span><span class="sxs-lookup"><span data-stu-id="23f4c-792">Equinox</span></span>      | <span data-ttu-id="23f4c-793">L5300</span><span class="sxs-lookup"><span data-stu-id="23f4c-793">L5300</span></span> | <span data-ttu-id="23f4c-794">Personalizar</span><span class="sxs-lookup"><span data-stu-id="23f4c-794">Custom</span></span>    | <span data-ttu-id="23f4c-795">Requiere personalización del conector de pago</span><span class="sxs-lookup"><span data-stu-id="23f4c-795">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="23f4c-796">VeriFone</span><span class="sxs-lookup"><span data-stu-id="23f4c-796">VeriFone</span></span>     | <span data-ttu-id="23f4c-797">MX925</span><span class="sxs-lookup"><span data-stu-id="23f4c-797">MX925</span></span> | <span data-ttu-id="23f4c-798">Personalizar</span><span class="sxs-lookup"><span data-stu-id="23f4c-798">Custom</span></span>    | <span data-ttu-id="23f4c-799">Requiere personalización del conector de pago; conectado a través de la red y USB</span><span class="sxs-lookup"><span data-stu-id="23f4c-799">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="23f4c-800">VeriFone</span><span class="sxs-lookup"><span data-stu-id="23f4c-800">VeriFone</span></span>     | <span data-ttu-id="23f4c-801">MX915</span><span class="sxs-lookup"><span data-stu-id="23f4c-801">MX915</span></span> | <span data-ttu-id="23f4c-802">Personalizar</span><span class="sxs-lookup"><span data-stu-id="23f4c-802">Custom</span></span>    | <span data-ttu-id="23f4c-803">Requiere personalización del conector de pago; conectado a través de la red y USB</span><span class="sxs-lookup"><span data-stu-id="23f4c-803">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Caja registradora
+#### <a name="cash-drawer"></a><span data-ttu-id="23f4c-804">Caja registradora</span><span class="sxs-lookup"><span data-stu-id="23f4c-804">Cash drawer</span></span>
 
-| Fabricante | Modelo     | Interfaz | Comentarios              |
+| <span data-ttu-id="23f4c-805">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-805">Manufacturer</span></span> | <span data-ttu-id="23f4c-806">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-806">Model</span></span>     | <span data-ttu-id="23f4c-807">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-807">Interface</span></span> | <span data-ttu-id="23f4c-808">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-808">Comments</span></span>              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | Personalizar    | Conectado a través de la red |
-| Star         | SMD2-1317 | OPDV      |                       |
-| HP           | QT457AA   | OPDV      |                       |
+| <span data-ttu-id="23f4c-809">APG</span><span class="sxs-lookup"><span data-stu-id="23f4c-809">APG</span></span>          | <span data-ttu-id="23f4c-810">Atwood</span><span class="sxs-lookup"><span data-stu-id="23f4c-810">Atwood</span></span>    | <span data-ttu-id="23f4c-811">Personalizar</span><span class="sxs-lookup"><span data-stu-id="23f4c-811">Custom</span></span>    | <span data-ttu-id="23f4c-812">Conectado a través de la red</span><span class="sxs-lookup"><span data-stu-id="23f4c-812">Connected via network</span></span> |
+| <span data-ttu-id="23f4c-813">Star</span><span class="sxs-lookup"><span data-stu-id="23f4c-813">Star</span></span>         | <span data-ttu-id="23f4c-814">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="23f4c-814">SMD2-1317</span></span> | <span data-ttu-id="23f4c-815">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-815">OPOS</span></span>      |                       |
+| <span data-ttu-id="23f4c-816">HP</span><span class="sxs-lookup"><span data-stu-id="23f4c-816">HP</span></span>           | <span data-ttu-id="23f4c-817">QT457AA</span><span class="sxs-lookup"><span data-stu-id="23f4c-817">QT457AA</span></span>   | <span data-ttu-id="23f4c-818">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-818">OPOS</span></span>      |                       |
 
-#### <a name="line-display"></a>Visualización de líneas
+#### <a name="line-display"></a><span data-ttu-id="23f4c-819">Visualización de líneas</span><span class="sxs-lookup"><span data-stu-id="23f4c-819">Line display</span></span>
 
-| Fabricante  | Modelo   | Interfaz | Comentarios |
+| <span data-ttu-id="23f4c-820">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-820">Manufacturer</span></span>  | <span data-ttu-id="23f4c-821">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-821">Model</span></span>   | <span data-ttu-id="23f4c-822">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-822">Interface</span></span> | <span data-ttu-id="23f4c-823">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-823">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| HP integrado | G6U79AA | OPDV      |          |
-| Epson         | M58DC   | OPDV      |          |
+| <span data-ttu-id="23f4c-824">HP integrado</span><span class="sxs-lookup"><span data-stu-id="23f4c-824">HP integrated</span></span> | <span data-ttu-id="23f4c-825">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="23f4c-825">G6U79AA</span></span> | <span data-ttu-id="23f4c-826">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-826">OPOS</span></span>      |          |
+| <span data-ttu-id="23f4c-827">Epson</span><span class="sxs-lookup"><span data-stu-id="23f4c-827">Epson</span></span>         | <span data-ttu-id="23f4c-828">M58DC</span><span class="sxs-lookup"><span data-stu-id="23f4c-828">M58DC</span></span>   | <span data-ttu-id="23f4c-829">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-829">OPOS</span></span>      |          |
 
-#### <a name="signature-capture"></a>Captura de firma
+#### <a name="signature-capture"></a><span data-ttu-id="23f4c-830">Captura de firma</span><span class="sxs-lookup"><span data-stu-id="23f4c-830">Signature capture</span></span>
 
-| Fabricante | Modelo  | Interfaz | Comentarios |
+| <span data-ttu-id="23f4c-831">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-831">Manufacturer</span></span> | <span data-ttu-id="23f4c-832">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-832">Model</span></span>  | <span data-ttu-id="23f4c-833">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-833">Interface</span></span> | <span data-ttu-id="23f4c-834">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-834">Comments</span></span> |
 |--------------|--------|-----------|----------|
-| Scriptel     | ST1550 | OPDV      |          |
+| <span data-ttu-id="23f4c-835">Scriptel</span><span class="sxs-lookup"><span data-stu-id="23f4c-835">Scriptel</span></span>     | <span data-ttu-id="23f4c-836">ST1550</span><span class="sxs-lookup"><span data-stu-id="23f4c-836">ST1550</span></span> | <span data-ttu-id="23f4c-837">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-837">OPOS</span></span>      |          |
 
-#### <a name="scale"></a>Escala
+#### <a name="scale"></a><span data-ttu-id="23f4c-838">Escala</span><span class="sxs-lookup"><span data-stu-id="23f4c-838">Scale</span></span>
 
-| Fabricante | Modelo         | Interfaz | Comentarios |
+| <span data-ttu-id="23f4c-839">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-839">Manufacturer</span></span> | <span data-ttu-id="23f4c-840">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-840">Model</span></span>         | <span data-ttu-id="23f4c-841">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-841">Interface</span></span> | <span data-ttu-id="23f4c-842">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-842">Comments</span></span> |
 |--------------|---------------|-----------|----------|
-| Datalogic    | Magellan 8400 | OPDV      |          |
+| <span data-ttu-id="23f4c-843">Datalogic</span><span class="sxs-lookup"><span data-stu-id="23f4c-843">Datalogic</span></span>    | <span data-ttu-id="23f4c-844">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="23f4c-844">Magellan 8400</span></span> | <span data-ttu-id="23f4c-845">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-845">OPOS</span></span>      |          |
 
-#### <a name="msr"></a>MSR
+#### <a name="msr"></a><span data-ttu-id="23f4c-846">MSR</span><span class="sxs-lookup"><span data-stu-id="23f4c-846">MSR</span></span>
 
-| Fabricante | Modelo       | Interfaz | Comentarios |
+| <span data-ttu-id="23f4c-847">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-847">Manufacturer</span></span> | <span data-ttu-id="23f4c-848">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-848">Model</span></span>       | <span data-ttu-id="23f4c-849">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-849">Interface</span></span> | <span data-ttu-id="23f4c-850">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-850">Comments</span></span> |
 |--------------|-------------|-----------|----------|
-| Magtek       | 21073075    | UWP       |          |
-| Magtek       | 21073062    | OPDV      |          |
-| HP           | IDRA-334133 | OPDV      |          |
+| <span data-ttu-id="23f4c-851">Magtek</span><span class="sxs-lookup"><span data-stu-id="23f4c-851">Magtek</span></span>       | <span data-ttu-id="23f4c-852">21073075</span><span class="sxs-lookup"><span data-stu-id="23f4c-852">21073075</span></span>    | <span data-ttu-id="23f4c-853">UWP</span><span class="sxs-lookup"><span data-stu-id="23f4c-853">UWP</span></span>       |          |
+| <span data-ttu-id="23f4c-854">Magtek</span><span class="sxs-lookup"><span data-stu-id="23f4c-854">Magtek</span></span>       | <span data-ttu-id="23f4c-855">21073062</span><span class="sxs-lookup"><span data-stu-id="23f4c-855">21073062</span></span>    | <span data-ttu-id="23f4c-856">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-856">OPOS</span></span>      |          |
+| <span data-ttu-id="23f4c-857">HP</span><span class="sxs-lookup"><span data-stu-id="23f4c-857">HP</span></span>           | <span data-ttu-id="23f4c-858">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="23f4c-858">IDRA-334133</span></span> | <span data-ttu-id="23f4c-859">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-859">OPOS</span></span>      |          |
 
-### <a name="shared-iis-hardware-station"></a>Estación de hardware IIS compartida
+### <a name="shared-iis-hardware-station"></a><span data-ttu-id="23f4c-860">Estación de hardware IIS compartida</span><span class="sxs-lookup"><span data-stu-id="23f4c-860">Shared IIS hardware station</span></span>
 
-Los siguientes se periféricos se probaron mediante una estación de hardware IIS compartida junto con Modern POS para Windows y Cloud POS. **Nota:** Únicamente se admite una impresora, un terminal de pago y una caja registradora.
+<span data-ttu-id="23f4c-861">Los siguientes se periféricos se probaron mediante una estación de hardware IIS compartida junto con Modern POS para Windows y Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-861">The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span> <span data-ttu-id="23f4c-862">**Nota:** Únicamente se admite una impresora, un terminal de pago y una caja registradora.</span><span class="sxs-lookup"><span data-stu-id="23f4c-862">**Note:** Only a printer, payment terminal, and cash drawer are supported.</span></span>
 
-#### <a name="printer"></a>Impresora
+#### <a name="printer"></a><span data-ttu-id="23f4c-863">Impresora</span><span class="sxs-lookup"><span data-stu-id="23f4c-863">Printer</span></span>
 
-| Fabricante | Modelo    | Interfaz | Comentarios                  |
+| <span data-ttu-id="23f4c-864">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-864">Manufacturer</span></span> | <span data-ttu-id="23f4c-865">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-865">Model</span></span>    | <span data-ttu-id="23f4c-866">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-866">Interface</span></span> | <span data-ttu-id="23f4c-867">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-867">Comments</span></span>                  |
 |--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPDV      |                           |
-| Epson        | TM-T88V  | OPDV      |                           |
-| Star         | TSP650II | OPDV      |                           |
-| Star         | TSP650II | Personalizar    | Conectado a través de la red     |
-| Star         | TSP100   | OPDV      | Requiere controladores para TSP650II |
-| HP           | F7M67AA  | OPDV      | Con tecnología USB               |
+| <span data-ttu-id="23f4c-868">Epson</span><span class="sxs-lookup"><span data-stu-id="23f4c-868">Epson</span></span>        | <span data-ttu-id="23f4c-869">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="23f4c-869">Tm-T88IV</span></span> | <span data-ttu-id="23f4c-870">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-870">OPOS</span></span>      |                           |
+| <span data-ttu-id="23f4c-871">Epson</span><span class="sxs-lookup"><span data-stu-id="23f4c-871">Epson</span></span>        | <span data-ttu-id="23f4c-872">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="23f4c-872">TM-T88V</span></span>  | <span data-ttu-id="23f4c-873">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-873">OPOS</span></span>      |                           |
+| <span data-ttu-id="23f4c-874">Star</span><span class="sxs-lookup"><span data-stu-id="23f4c-874">Star</span></span>         | <span data-ttu-id="23f4c-875">TSP650II</span><span class="sxs-lookup"><span data-stu-id="23f4c-875">TSP650II</span></span> | <span data-ttu-id="23f4c-876">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-876">OPOS</span></span>      |                           |
+| <span data-ttu-id="23f4c-877">Star</span><span class="sxs-lookup"><span data-stu-id="23f4c-877">Star</span></span>         | <span data-ttu-id="23f4c-878">TSP650II</span><span class="sxs-lookup"><span data-stu-id="23f4c-878">TSP650II</span></span> | <span data-ttu-id="23f4c-879">Personalizar</span><span class="sxs-lookup"><span data-stu-id="23f4c-879">Custom</span></span>    | <span data-ttu-id="23f4c-880">Conectado a través de la red</span><span class="sxs-lookup"><span data-stu-id="23f4c-880">Connected via network</span></span>     |
+| <span data-ttu-id="23f4c-881">Star</span><span class="sxs-lookup"><span data-stu-id="23f4c-881">Star</span></span>         | <span data-ttu-id="23f4c-882">TSP100</span><span class="sxs-lookup"><span data-stu-id="23f4c-882">TSP100</span></span>   | <span data-ttu-id="23f4c-883">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-883">OPOS</span></span>      | <span data-ttu-id="23f4c-884">Requiere controladores para TSP650II</span><span class="sxs-lookup"><span data-stu-id="23f4c-884">Requires TSP650II drivers</span></span> |
+| <span data-ttu-id="23f4c-885">HP</span><span class="sxs-lookup"><span data-stu-id="23f4c-885">HP</span></span>           | <span data-ttu-id="23f4c-886">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="23f4c-886">F7M67AA</span></span>  | <span data-ttu-id="23f4c-887">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-887">OPOS</span></span>      | <span data-ttu-id="23f4c-888">Con tecnología USB</span><span class="sxs-lookup"><span data-stu-id="23f4c-888">Powered USB</span></span>               |
 
-#### <a name="payment-terminal"></a>Terminal de pago 
+#### <a name="payment-terminal"></a><span data-ttu-id="23f4c-889">Terminal de pago </span><span class="sxs-lookup"><span data-stu-id="23f4c-889">Payment terminal</span></span>
 
-| Fabricante | Modelo | Interfaz | Comentarios                                                                       |
+| <span data-ttu-id="23f4c-890">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-890">Manufacturer</span></span> | <span data-ttu-id="23f4c-891">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-891">Model</span></span> | <span data-ttu-id="23f4c-892">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-892">Interface</span></span> | <span data-ttu-id="23f4c-893">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-893">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| VeriFone     | MX925 | Personalizar    | Requiere personalización del conector de pago; conectado a través de la red y USB |
-| VeriFone     | MX915 | Personalizar    | Requiere personalización del conector de pago; conectado a través de la red y USB |
+| <span data-ttu-id="23f4c-894">VeriFone</span><span class="sxs-lookup"><span data-stu-id="23f4c-894">VeriFone</span></span>     | <span data-ttu-id="23f4c-895">MX925</span><span class="sxs-lookup"><span data-stu-id="23f4c-895">MX925</span></span> | <span data-ttu-id="23f4c-896">Personalizar</span><span class="sxs-lookup"><span data-stu-id="23f4c-896">Custom</span></span>    | <span data-ttu-id="23f4c-897">Requiere personalización del conector de pago; conectado a través de la red y USB</span><span class="sxs-lookup"><span data-stu-id="23f4c-897">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="23f4c-898">VeriFone</span><span class="sxs-lookup"><span data-stu-id="23f4c-898">VeriFone</span></span>     | <span data-ttu-id="23f4c-899">MX915</span><span class="sxs-lookup"><span data-stu-id="23f4c-899">MX915</span></span> | <span data-ttu-id="23f4c-900">Personalizar</span><span class="sxs-lookup"><span data-stu-id="23f4c-900">Custom</span></span>    | <span data-ttu-id="23f4c-901">Requiere personalización del conector de pago; conectado a través de la red y USB</span><span class="sxs-lookup"><span data-stu-id="23f4c-901">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Caja registradora
+#### <a name="cash-drawer"></a><span data-ttu-id="23f4c-902">Caja registradora</span><span class="sxs-lookup"><span data-stu-id="23f4c-902">Cash drawer</span></span>
 
-| Fabricante | Modelo     | Interfaz | Comentarios              |
+| <span data-ttu-id="23f4c-903">Fabricante</span><span class="sxs-lookup"><span data-stu-id="23f4c-903">Manufacturer</span></span> | <span data-ttu-id="23f4c-904">Modelo</span><span class="sxs-lookup"><span data-stu-id="23f4c-904">Model</span></span>     | <span data-ttu-id="23f4c-905">Interfaz</span><span class="sxs-lookup"><span data-stu-id="23f4c-905">Interface</span></span> | <span data-ttu-id="23f4c-906">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23f4c-906">Comments</span></span>              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | Personalizar    | Conectado a través de la red |
-| Star         | SMD2-1317 | OPDV      |                       |
-| HP           | QT457AA   | OPDV      |                       |
+| <span data-ttu-id="23f4c-907">APG</span><span class="sxs-lookup"><span data-stu-id="23f4c-907">APG</span></span>          | <span data-ttu-id="23f4c-908">Atwood</span><span class="sxs-lookup"><span data-stu-id="23f4c-908">Atwood</span></span>    | <span data-ttu-id="23f4c-909">Personalizar</span><span class="sxs-lookup"><span data-stu-id="23f4c-909">Custom</span></span>    | <span data-ttu-id="23f4c-910">Conectado a través de la red</span><span class="sxs-lookup"><span data-stu-id="23f4c-910">Connected via network</span></span> |
+| <span data-ttu-id="23f4c-911">Star</span><span class="sxs-lookup"><span data-stu-id="23f4c-911">Star</span></span>         | <span data-ttu-id="23f4c-912">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="23f4c-912">SMD2-1317</span></span> | <span data-ttu-id="23f4c-913">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-913">OPOS</span></span>      |                       |
+| <span data-ttu-id="23f4c-914">HP</span><span class="sxs-lookup"><span data-stu-id="23f4c-914">HP</span></span>           | <span data-ttu-id="23f4c-915">QT457AA</span><span class="sxs-lookup"><span data-stu-id="23f4c-915">QT457AA</span></span>   | <span data-ttu-id="23f4c-916">OPDV</span><span class="sxs-lookup"><span data-stu-id="23f4c-916">OPOS</span></span>      |                       |
 
-## <a name="troubleshooting"></a>Solución de problemas
-### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>Modern POS puede detectar la estación de hardware en su lista para su selección, pero no puede completar el emparejamiento
+## <a name="troubleshooting"></a><span data-ttu-id="23f4c-917">Solución de problemas</span><span class="sxs-lookup"><span data-stu-id="23f4c-917">Troubleshooting</span></span>
+### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a><span data-ttu-id="23f4c-918">Modern POS puede detectar la estación de hardware en su lista para su selección, pero no puede completar el emparejamiento</span><span class="sxs-lookup"><span data-stu-id="23f4c-918">Modern POS can detect the hardware station in its list for selection, but it can’t complete the pairing</span></span>
 
-**Solución:** compruebe la siguiente lista de posibles fallos:
+<span data-ttu-id="23f4c-919">**Solución:** compruebe la siguiente lista de posibles fallos:</span><span class="sxs-lookup"><span data-stu-id="23f4c-919">**Solution:** Verify the following list of potential failure points:</span></span>
 
--   El equipo que está ejecutando Modern POS confía en el certificado que se usa en el equipo que ejecute la estación de hardware.
-    -   Para comprobar esta configuración, en un explorador web, vaya a la dirección URL siguiente: https://&lt;Nombre del equipo&gt;:&lt;Número de puerto&gt;/HardwareStation/ping.
-    -   Esta dirección URL utiliza un ping para comprobar que se puede acceder al equipo y el explorador indica si el certificado es de confianza. (Por ejemplo, en Internet Explorer, un icono de bloqueo aparece en la barra de direcciones. Al hacer clic en este icono, Internet Explorer comprueba si se confía en el certificado actualmente. Es posible instalar el certificado en el equipo local viendo los detalles del certificado que se aparece.)
--   En el equipo que ejecute la estación de hardware, el puerto que usará en la estación de hardware se abre en el firewall.
--   La estación de hardware ha instalado correctamente la información de la cuenta de comerciante a través de la herramienta para instalar la información de comerciante que se ejecuta cuanto termina el instalador de la estación de hardware.
+-   <span data-ttu-id="23f4c-920">El equipo que está ejecutando Modern POS confía en el certificado que se usa en el equipo que ejecute la estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-920">The computer that is running Modern POS trusts the certificate that is used on the computer that runs the hardware station.</span></span>
+    -   <span data-ttu-id="23f4c-921">Para comprobar esta configuración, en un explorador web, vaya a la dirección URL siguiente: https://&lt;Nombre del equipo&gt;:&lt;Número de puerto&gt;/HardwareStation/ping.</span><span class="sxs-lookup"><span data-stu-id="23f4c-921">To verify this setup, in a web browser, go to the following URL: https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping.</span></span>
+    -   <span data-ttu-id="23f4c-922">Esta dirección URL utiliza un ping para comprobar que se puede acceder al equipo y el explorador indica si el certificado es de confianza.</span><span class="sxs-lookup"><span data-stu-id="23f4c-922">This URL uses a ping to verify that the computer can be accessed, and the browser indicates whether the certificate is trusted.</span></span> <span data-ttu-id="23f4c-923">(Por ejemplo, en Internet Explorer, un icono de bloqueo aparece en la barra de direcciones.</span><span class="sxs-lookup"><span data-stu-id="23f4c-923">(For example, in Internet Explorer, a lock icon appears in the address bar.</span></span> <span data-ttu-id="23f4c-924">Al hacer clic en este icono, Internet Explorer comprueba si se confía en el certificado actualmente.</span><span class="sxs-lookup"><span data-stu-id="23f4c-924">When you click this icon, Internet Explorer verifies whether the certificate is currently trusted.</span></span> <span data-ttu-id="23f4c-925">Es posible instalar el certificado en el equipo local viendo los detalles del certificado que se aparece.)</span><span class="sxs-lookup"><span data-stu-id="23f4c-925">You can install the certificate on the local computer by viewing the details of the certificate that is shown.)</span></span>
+-   <span data-ttu-id="23f4c-926">En el equipo que ejecute la estación de hardware, el puerto que usará en la estación de hardware se abre en el firewall.</span><span class="sxs-lookup"><span data-stu-id="23f4c-926">On the computer that runs the hardware station, the port that will be used by the hardware station is opened in the firewall.</span></span>
+-   <span data-ttu-id="23f4c-927">La estación de hardware ha instalado correctamente la información de la cuenta de comerciante a través de la herramienta para instalar la información de comerciante que se ejecuta cuanto termina el instalador de la estación de hardware.</span><span class="sxs-lookup"><span data-stu-id="23f4c-927">The hardware station has correctly installed merchant account information through the Install merchant information tool that runs at the end of the hardware station installer.</span></span>
 
-### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>Modern POS no puede detectar la estación de hardware en su lista de selección
+### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a><span data-ttu-id="23f4c-928">Modern POS no puede detectar la estación de hardware en su lista de selección</span><span class="sxs-lookup"><span data-stu-id="23f4c-928">Modern POS can’t detect the hardware station in its list for selection</span></span>
 
-**Solución:** cualquiera de los factores siguientes puede producir este problema:
+<span data-ttu-id="23f4c-929">**Solución:** cualquiera de los factores siguientes puede producir este problema:</span><span class="sxs-lookup"><span data-stu-id="23f4c-929">**Solution:** Either of the following factors can cause this issue:</span></span>
 
--   La estación de hardware no se ha configurado correctamente en la sede central. Siga los pasos anteriores en este tema para comprobar que el perfil de la estación de hardware y la estación de hardware se especificaron correctamente.
--   Los trabajos no se han ejecutado para actualizar la configuración del canal. En este caso, ejecute el trabajo 1070 para la configuración del canal.
+-   <span data-ttu-id="23f4c-930">La estación de hardware no se ha configurado correctamente en la sede central.</span><span class="sxs-lookup"><span data-stu-id="23f4c-930">The hardware station hasn’t been set up correctly in headquarters.</span></span> <span data-ttu-id="23f4c-931">Siga los pasos anteriores en este tema para comprobar que el perfil de la estación de hardware y la estación de hardware se especificaron correctamente.</span><span class="sxs-lookup"><span data-stu-id="23f4c-931">Use the steps earlier in this topic to verify that the hardware station profile and the hardware station are correctly entered.</span></span>
+-   <span data-ttu-id="23f4c-932">Los trabajos no se han ejecutado para actualizar la configuración del canal.</span><span class="sxs-lookup"><span data-stu-id="23f4c-932">The jobs haven’t been run to update the channel configuration.</span></span> <span data-ttu-id="23f4c-933">En este caso, ejecute el trabajo 1070 para la configuración del canal.</span><span class="sxs-lookup"><span data-stu-id="23f4c-933">In this case, run the 1070 job for channel configuration.</span></span>
 
-### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>Modern POS no refleja nuevos parámetros de la caja registradora
+### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a><span data-ttu-id="23f4c-934">Modern POS no refleja nuevos parámetros de la caja registradora</span><span class="sxs-lookup"><span data-stu-id="23f4c-934">Modern POS doesn't reflect new cash drawer settings</span></span>
 
-**Solución**: cierre el lote actual. Los cambios en la caja registradora no se actualizan para Modern POS hasta que el lote actual esté cerrado.
+<span data-ttu-id="23f4c-935">**Solución**: cierre el lote actual.</span><span class="sxs-lookup"><span data-stu-id="23f4c-935">**Solution:** Close the current batch.</span></span> <span data-ttu-id="23f4c-936">Los cambios en la caja registradora no se actualizan para Modern POS hasta que el lote actual esté cerrado.</span><span class="sxs-lookup"><span data-stu-id="23f4c-936">Changes to the cash drawer aren't updated to Modern POS until the current batch is closed.</span></span>
 
-### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a>Modern POS está notificando un problema con un periférico para aplicaciones minoristas
+### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a><span data-ttu-id="23f4c-937">Modern POS está notificando un problema con un periférico para aplicaciones minoristas</span><span class="sxs-lookup"><span data-stu-id="23f4c-937">Modern POS is reporting an issue with a retail peripheral</span></span>
 
-**Solución:** aquí se exponen algunas causas típica para este problema:
+<span data-ttu-id="23f4c-938">**Solución:** aquí se exponen algunas causas típica para este problema:</span><span class="sxs-lookup"><span data-stu-id="23f4c-938">**Solution:** Here are some typical causes of this issue:</span></span>
 
--   Asegúrese de que están cerradas otras utilidades de configuración del controlador del dispositivo. Si estas utilidades están abiertas, puede que eviten que Modern POS o la estación de hardware demanden el dispositivo.
--   Si el periférico para aplicaciones minoristas se comparte con varios dispositivos de PDV, asegúrese de que pertenezca a una de las categorías siguientes:
-    -   Caja registradora
-    -   Impresora de recibos
-    -   Terminal de pago 
+-   <span data-ttu-id="23f4c-939">Asegúrese de que están cerradas otras utilidades de configuración del controlador del dispositivo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-939">Make sure that other device driver configuration utilities are closed.</span></span> <span data-ttu-id="23f4c-940">Si estas utilidades están abiertas, puede que eviten que Modern POS o la estación de hardware demanden el dispositivo.</span><span class="sxs-lookup"><span data-stu-id="23f4c-940">If these utilities are open, they might prevent Modern POS or the hardware station from claiming the device.</span></span>
+-   <span data-ttu-id="23f4c-941">Si el periférico para aplicaciones minoristas se comparte con varios dispositivos de PDV, asegúrese de que pertenezca a una de las categorías siguientes:</span><span class="sxs-lookup"><span data-stu-id="23f4c-941">If the retail peripheral is shared with multiple POS devices, make sure that it belongs to one of the following categories:</span></span>
+    -   <span data-ttu-id="23f4c-942">Caja registradora</span><span class="sxs-lookup"><span data-stu-id="23f4c-942">Cash drawer</span></span>
+    -   <span data-ttu-id="23f4c-943">Impresora de recibos</span><span class="sxs-lookup"><span data-stu-id="23f4c-943">Receipt printer</span></span>
+    -   <span data-ttu-id="23f4c-944">Terminal de pago </span><span class="sxs-lookup"><span data-stu-id="23f4c-944">Payment terminal</span></span>
 
-    Si el periférico no pertenece a una de estas categorías, la estación de hardware no está diseñada para habilitar que el periférico se comparta entre varios dispositivos de PDV.
--   A veces, los controladores de dispositivos pueden hacer que Common Control Objects (CCO) dejen de funcionar correctamente. Si un dispositivo se ha instalado recientemente, pero no funciona correctamente u observa otros problemas, muchas veces se puede resolver el problema reinstalando los CCO. Para descargar CCO, visite <http://monroecs.com/oposccos_current.htm>.
--   Si realiza cambios de periféricos frecuentes durante las pruebas o la solución de problemas, puede que tenga que restablecer IIS en lugar de esperar a que la memoria caché se actualice. Para resetear IIS, siga estos pasos:
-    1.  En el menú **Inicio**, escriba **CMD**.
-    2.  En los resultados de la búsqueda, haga clic con el botón secundario en el **Símbolo del sistema** y haga clic en **Ejecutar como administrador**.
-    3.  En la ventana del **Símbolo del sistema**, escriba **iisreset /Restart** y presione Entrar.
-    4.  Una vez que haya reiniciado IIS, reinicie Modern POS.
--   Cuando realiza cambios frecuentes en los dispositivos periféricos, si además también inicia y sale con frecuencia del cliente de PDV, el proceso de dllhost de una sesión anterior de PDV puede interferir con la sesión actual. En este caso, puede que no se pueda usar un dispositivo hasta que se cierre que el host de la biblioteca de vínculos dinámicos (DLL) que administra la sesión anterior. Para cerrar el host de DLL, siga estos pasos:
-    1.  En el menú **Inicio**, escriba **Administrador de tareas**.
-    2.  En los resultados de la búsqueda, haga clic en **Administrador de tareas**.
-    3.  En Administrador de tareas, en la ficha **Detalles**, haga clic en el encabezado de columna que indica **Nombre** para ordenar la tabla alfabéticamente por nombre.
-    4.  Baje hasta encontrar dllhost.exe.
-    5.  Seleccione cada host DLL, y haga clic en **Finalizar tarea**.
-    6.  Una vez que se haya cerrado los host de DLL, reinicie Modern POS.
+    <span data-ttu-id="23f4c-945">Si el periférico no pertenece a una de estas categorías, la estación de hardware no está diseñada para habilitar que el periférico se comparta entre varios dispositivos de PDV.</span><span class="sxs-lookup"><span data-stu-id="23f4c-945">If the peripheral doesn't belong to one of these categories, the hardware station isn't designed to enable the peripheral to be shared among multiple POS devices.</span></span>
+-   <span data-ttu-id="23f4c-946">A veces, los controladores de dispositivos pueden hacer que Common Control Objects (CCO) dejen de funcionar correctamente.</span><span class="sxs-lookup"><span data-stu-id="23f4c-946">Sometimes, device drivers can cause the common control objects (CCOs) to stop working correctly.</span></span> <span data-ttu-id="23f4c-947">Si un dispositivo se ha instalado recientemente, pero no funciona correctamente u observa otros problemas, muchas veces se puede resolver el problema reinstalando los CCO.</span><span class="sxs-lookup"><span data-stu-id="23f4c-947">If a device has recently been installed, but it isn't working properly or you notice other issues, you can often resolve the issue by reinstalling the CCOs.</span></span> <span data-ttu-id="23f4c-948">Para descargar CCO, visite <http://monroecs.com/oposccos_current.htm>.</span><span class="sxs-lookup"><span data-stu-id="23f4c-948">To download the CCOs, visit <http://monroecs.com/oposccos_current.htm>.</span></span>
+-   <span data-ttu-id="23f4c-949">Si realiza cambios de periféricos frecuentes durante las pruebas o la solución de problemas, puede que tenga que restablecer IIS en lugar de esperar a que la memoria caché se actualice.</span><span class="sxs-lookup"><span data-stu-id="23f4c-949">If you make frequent peripheral changes during testing or troubleshooting, you might have to reset IIS instead of waiting for the cache to refresh itself.</span></span> <span data-ttu-id="23f4c-950">Para resetear IIS, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="23f4c-950">To reset IIS, follow these steps:</span></span>
+    1.  <span data-ttu-id="23f4c-951">En el menú **Inicio**, escriba **CMD**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-951">From the **Start** menu, type **CMD**.</span></span>
+    2.  <span data-ttu-id="23f4c-952">En los resultados de la búsqueda, haga clic con el botón secundario en el **Símbolo del sistema** y haga clic en **Ejecutar como administrador**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-952">In the search results, right-click **Command prompt**, and then click **Run as administrator**.</span></span>
+    3.  <span data-ttu-id="23f4c-953">En la ventana del **Símbolo del sistema**, escriba **iisreset /Restart** y presione Entrar.</span><span class="sxs-lookup"><span data-stu-id="23f4c-953">In the **Command prompt** window, type **iisreset /Restart** and then press Enter.</span></span>
+    4.  <span data-ttu-id="23f4c-954">Una vez que haya reiniciado IIS, reinicie Modern POS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-954">After IIS has restarted, restart Modern POS.</span></span>
+-   <span data-ttu-id="23f4c-955">Cuando realiza cambios frecuentes en los dispositivos periféricos, si además también inicia y sale con frecuencia del cliente de PDV, el proceso de dllhost de una sesión anterior de PDV puede interferir con la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="23f4c-955">While you're making frequent changes to peripheral devices, if you also frequently start and exit the POS client, the dllhost process from a previous POS session can interfere with the current session.</span></span> <span data-ttu-id="23f4c-956">En este caso, puede que no se pueda usar un dispositivo hasta que se cierre que el host de la biblioteca de vínculos dinámicos (DLL) que administra la sesión anterior.</span><span class="sxs-lookup"><span data-stu-id="23f4c-956">In this case, a device might not be usable until you close the dynamic-link library (DLL) host that is managing the previous session.</span></span> <span data-ttu-id="23f4c-957">Para cerrar el host de DLL, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="23f4c-957">To close the DLL host, follow these steps:</span></span>
+    1.  <span data-ttu-id="23f4c-958">En el menú **Inicio**, escriba **Administrador de tareas**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-958">From the **Start** menu, type **Task manager**.</span></span>
+    2.  <span data-ttu-id="23f4c-959">En los resultados de la búsqueda, haga clic en **Administrador de tareas**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-959">In the search results, click **Task manager**.</span></span>
+    3.  <span data-ttu-id="23f4c-960">En Administrador de tareas, en la ficha **Detalles**, haga clic en el encabezado de columna que indica **Nombre** para ordenar la tabla alfabéticamente por nombre.</span><span class="sxs-lookup"><span data-stu-id="23f4c-960">In Task manager, on the **Details** tab, click the column header that is labeled **Name** to sort the table alphabetically by name.</span></span>
+    4.  <span data-ttu-id="23f4c-961">Baje hasta encontrar dllhost.exe.</span><span class="sxs-lookup"><span data-stu-id="23f4c-961">Scroll down until you find dllhost.exe.</span></span>
+    5.  <span data-ttu-id="23f4c-962">Seleccione cada host DLL, y haga clic en **Finalizar tarea**.</span><span class="sxs-lookup"><span data-stu-id="23f4c-962">Select each DLL host, and then click **End task**.</span></span>
+    6.  <span data-ttu-id="23f4c-963">Una vez que se haya cerrado los host de DLL, reinicie Modern POS.</span><span class="sxs-lookup"><span data-stu-id="23f4c-963">After the DLL hosts have been closed, restart Modern POS.</span></span>
 
 
-<a name="see-also"></a>Consulte también
+<a name="see-also"></a><span data-ttu-id="23f4c-964">Consulte también</span><span class="sxs-lookup"><span data-stu-id="23f4c-964">See also</span></span>
 --------
 
-[Simulador periférico para aplicaciones minoristas](dev-itpro/retail-peripheral-simulator.md)
+[<span data-ttu-id="23f4c-965">Simulador periférico para aplicaciones minoristas</span><span class="sxs-lookup"><span data-stu-id="23f4c-965">Retail peripheral simulator</span></span>](dev-itpro/retail-peripheral-simulator.md)
 
 
 

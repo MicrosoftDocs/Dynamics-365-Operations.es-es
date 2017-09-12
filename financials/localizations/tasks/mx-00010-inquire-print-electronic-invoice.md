@@ -16,30 +16,30 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 00db30022aa718bbcf68d59367a2d661d545653c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6f96d5902d5d7b9119c8d449312fca43e4432563
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="inquire-and-print-an-electronic-invoice-mexico"></a>Consultar e imprimir una factura electrónica (México)
+# <a name="inquire-and-print-an-electronic-invoice-mexico"></a><span data-ttu-id="3f0aa-103">Consultar e imprimir una factura electrónica (México)</span><span class="sxs-lookup"><span data-stu-id="3f0aa-103">Inquire and print an electronic invoice (Mexico)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Use el formulario CFDI: facturas electrónicas para ver, exportar, enviar por correo electrónico o imprimir una factura electrónica de CFDI ya generada según la solicitud de un cliente. La factura electrónica impresa de CFDI incluye un código de barras bidimensional de acuerdo con el formato de código QR (código de respuesta rápida) descrito por el estándar ISO/IEC18004. Esta tarea se completó con los datos de demostración de la empresa MXMF.
+<span data-ttu-id="3f0aa-104">Use el formulario CFDI: facturas electrónicas para ver, exportar, enviar por correo electrónico o imprimir una factura electrónica de CFDI ya generada según la solicitud de un cliente.</span><span class="sxs-lookup"><span data-stu-id="3f0aa-104">Use the CFDI – Electronic invoices form to view, email, export, or print an already-generated CFDI electronic invoice based on a customer’s request.</span></span> <span data-ttu-id="3f0aa-105">La factura electrónica impresa de CFDI incluye un código de barras bidimensional de acuerdo con el formato de código QR (código de respuesta rápida) descrito por el estándar ISO/IEC18004.</span><span class="sxs-lookup"><span data-stu-id="3f0aa-105">The printed CFDI electronic invoice includes two-dimensional bar code in accordance with the format of QR Code (Quick Response Code) that is described in the standard ISO/IEC18004.</span></span> <span data-ttu-id="3f0aa-106">Esta tarea se completó con los datos de demostración de la empresa MXMF.</span><span class="sxs-lookup"><span data-stu-id="3f0aa-106">This task was completed using the MXMF demo data company.</span></span>
 
-1. Vaya a Clientes > Consultas e informes > CFDI (facturas electrónicas).
-2. En la lista, haga clic en el vínculo de la fila seleccionada.
-    * Podrá ver algunos detalles de la factura electrónica de CFDI como UUID y estado.  
-3. En el panel de acciones, haga clic en Funciones.
-4. Haga clic en archivo XML.
-5. Cierre la página.
-6. En el panel de acciones, haga clic en Funciones.
-7. Haga clic en Exportar XML.
-    * Se le solicitará que descargue el archivo en una ubicación concreta.  
-8. En el panel de acciones, haga clic en Funciones.
-9. Haga clic en Enviar correo electrónico.
-10. Cierre la página.
-11. Actualice la página.
+1. <span data-ttu-id="3f0aa-107">Vaya a Clientes > Consultas e informes > CFDI (facturas electrónicas).</span><span class="sxs-lookup"><span data-stu-id="3f0aa-107">Go to Accounts receivable > Inquiries and reports > CFDI (electronic invoices).</span></span>
+2. <span data-ttu-id="3f0aa-108">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="3f0aa-108">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="3f0aa-109">Podrá ver algunos detalles de la factura electrónica de CFDI como UUID y estado.</span><span class="sxs-lookup"><span data-stu-id="3f0aa-109">You will be able to see some details of the CFDI electronic invoice as UUID and status.</span></span>  
+3. <span data-ttu-id="3f0aa-110">En el panel de acciones, haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="3f0aa-110">On the Action Pane, click Functions.</span></span>
+4. <span data-ttu-id="3f0aa-111">Haga clic en archivo XML.</span><span class="sxs-lookup"><span data-stu-id="3f0aa-111">Click View XML file.</span></span>
+5. <span data-ttu-id="3f0aa-112">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="3f0aa-112">Close the page.</span></span>
+6. <span data-ttu-id="3f0aa-113">En el panel de acciones, haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="3f0aa-113">On the Action Pane, click Functions.</span></span>
+7. <span data-ttu-id="3f0aa-114">Haga clic en Exportar XML.</span><span class="sxs-lookup"><span data-stu-id="3f0aa-114">Click Export XML.</span></span>
+    * <span data-ttu-id="3f0aa-115">Se le solicitará que descargue el archivo en una ubicación concreta.</span><span class="sxs-lookup"><span data-stu-id="3f0aa-115">You will prompted to download the file to a specific location.</span></span>  
+8. <span data-ttu-id="3f0aa-116">En el panel de acciones, haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="3f0aa-116">On the Action Pane, click Functions.</span></span>
+9. <span data-ttu-id="3f0aa-117">Haga clic en Enviar correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="3f0aa-117">Click Send e-mail.</span></span>
+10. <span data-ttu-id="3f0aa-118">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="3f0aa-118">Close the page.</span></span>
+11. <span data-ttu-id="3f0aa-119">Actualice la página.</span><span class="sxs-lookup"><span data-stu-id="3f0aa-119">Refresh the page.</span></span>
 
 

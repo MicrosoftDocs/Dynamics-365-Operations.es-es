@@ -16,40 +16,40 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 01fbf4964dfcecab272204db9c3f5068ca1879cb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 9b2300a593c9e153ee598fa72e29907c82f2b79e
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Registrar la recepción de mercancías en el pedido de compra
+# <a name="record-the-receipt-of-goods-on-the-purchase-order"></a><span data-ttu-id="2cbbd-103">Registrar la recepción de mercancías en el pedido de compra</span><span class="sxs-lookup"><span data-stu-id="2cbbd-103">Record the receipt of goods on the purchase order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento le muestra cómo registrar la recepción de mercancías directamente en un pedido de compra. También es posible registrar la recepción de productos en el almacén y, a continuación, registrarla después en el pedido de compra. Esta tarea se realiza normalmente por un agente de compras o un coordinador de Proveedores. El ejemplo mostrado en esta guía se puede utilizar en la empresa de datos de demostración USMF. El ejemplo incluye pasos para crear un pedido de compra sencillo para que pueda reproducir el procedimiento como guía de tareas. Si estuviera utilizando el procedimiento en sus propios datos, empezaría en la subtarea Registrar recepción de mercancías.
+<span data-ttu-id="2cbbd-104">Este procedimiento le muestra cómo registrar la recepción de mercancías directamente en un pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-104">This procedure shows you how to record receipt of goods directly on a purchase order.</span></span> <span data-ttu-id="2cbbd-105">También es posible registrar la recepción de productos en el almacén y, a continuación, registrarla después en el pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-105">It’s also possible to register product receipt in the warehouse, and then later record it on the purchase order.</span></span> <span data-ttu-id="2cbbd-106">Esta tarea se realiza normalmente por un agente de compras o un coordinador de Proveedores.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-106">This task is typically done by a purchasing agent or an accounts payable coordinator.</span></span> <span data-ttu-id="2cbbd-107">El ejemplo mostrado en esta guía se puede utilizar en la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-107">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="2cbbd-108">El ejemplo incluye pasos para crear un pedido de compra sencillo para que pueda reproducir el procedimiento como guía de tareas.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-108">The example includes steps to create a simple purchase order so that you can play the procedure as a task guide.</span></span> <span data-ttu-id="2cbbd-109">Si estuviera utilizando el procedimiento en sus propios datos, empezaría en la subtarea Registrar recepción de mercancías.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-109">If you were using the procedure on your own data, you would start at the Record receipt of goods subtask.</span></span>
 
 
-## <a name="prepare-a-new-purchase-order-for-receipt-of-goods"></a>Preparar un nuevo pedido de compra para la recepción de mercancías
-1. Vaya a Adquisición y abastecimiento > Pedidos de compra > Todos los pedidos de compra.
-2. Haga clic en Nuevo.
-3. En el campo Cuenta de proveedor, escriba "US-101".
-4. Haga clic en Aceptar
-5. En el campo Número de artículo, especifique M0001.
-6. En el campo Cantidad, especifique 5.
-7. En el panel de acciones, haga clic en Compra.
-8. Haga clic en Confirmar.
+## <a name="prepare-a-new-purchase-order-for-receipt-of-goods"></a><span data-ttu-id="2cbbd-110">Preparar un nuevo pedido de compra para la recepción de mercancías</span><span class="sxs-lookup"><span data-stu-id="2cbbd-110">Prepare a new purchase order for receipt of goods</span></span>
+1. <span data-ttu-id="2cbbd-111">Vaya a Adquisición y abastecimiento > Pedidos de compra > Todos los pedidos de compra.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-111">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="2cbbd-112">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-112">Click New.</span></span>
+3. <span data-ttu-id="2cbbd-113">En el campo Cuenta de proveedor, escriba "US-101".</span><span class="sxs-lookup"><span data-stu-id="2cbbd-113">In the Vendor account field, enter US-101.</span></span>
+4. <span data-ttu-id="2cbbd-114">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="2cbbd-114">Click OK.</span></span>
+5. <span data-ttu-id="2cbbd-115">En el campo Número de artículo, especifique M0001.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-115">In the Item number field, enter M0001.</span></span>
+6. <span data-ttu-id="2cbbd-116">En el campo Cantidad, especifique 5.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-116">In the Quantity field, enter 5.</span></span>
+7. <span data-ttu-id="2cbbd-117">En el panel de acciones, haga clic en Compra.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-117">On the Action Pane, click Purchase.</span></span>
+8. <span data-ttu-id="2cbbd-118">Haga clic en Confirmar.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-118">Click Confirm.</span></span>
 
-## <a name="record-receipt-of-goods"></a>Registrar recepción de mercancías
-1. En el panel de acciones, haga clic en Recibir.
-2. Haga clic en Recepción de producto.
-    * El campo Cantidad le permite seleccionar diferentes opciones para la cantidad que desea recibir. Por ejemplo, si se ha registrado una cantidad anteriormente en el almacén, puede seleccionar Cantidad registrada.  Para este ejemplo, utilice el valor Cantidad pedida.   
-3. En el campo Recepción de producto, escriba cualquier valor.
-    * Este campo se utiliza para especificar una referencia que se usará como asiento para el diario de recepción de productos.  
-4. Expanda la sección Líneas.
-5. Establezca el valor de cantidad en '4'.
-    * Aquí puede especificar manualmente la cantidad que se está recibiendo para cada línea del pedido.  
-6. Contraiga la sección Líneas.
-7. Haga clic en Aceptar
-    * Las mercancías se han registrado ahora como recibidas en el pedido de compra y se ha creado un diario de recepción de producto como documento para reflejar esto. Puede utilizar la acción Recepción de producto para revisar los diarios creados con el pedido de compra y ver qué se ha recibido y cuándo.  
+## <a name="record-receipt-of-goods"></a><span data-ttu-id="2cbbd-119">Registrar recepción de mercancías</span><span class="sxs-lookup"><span data-stu-id="2cbbd-119">Record receipt of goods</span></span>
+1. <span data-ttu-id="2cbbd-120">En el panel de acciones, haga clic en Recibir.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-120">On the Action Pane, click Receive.</span></span>
+2. <span data-ttu-id="2cbbd-121">Haga clic en Recepción de producto.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-121">Click Product receipt.</span></span>
+    * <span data-ttu-id="2cbbd-122">El campo Cantidad le permite seleccionar diferentes opciones para la cantidad que desea recibir.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-122">The Quantity field allows you to select different options for the quantity that you want to receive.</span></span> <span data-ttu-id="2cbbd-123">Por ejemplo, si se ha registrado una cantidad anteriormente en el almacén, puede seleccionar Cantidad registrada.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-123">For example, if a quantity has previously been registered in the warehouse, you can select Registered quantity.</span></span>  <span data-ttu-id="2cbbd-124">Para este ejemplo, utilice el valor Cantidad pedida.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-124">For this example, use the value Ordered quantity.</span></span>   
+3. <span data-ttu-id="2cbbd-125">En el campo Recepción de producto, escriba cualquier valor.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-125">In the Product receipt field, type any value.</span></span>
+    * <span data-ttu-id="2cbbd-126">Este campo se utiliza para especificar una referencia que se usará como asiento para el diario de recepción de productos.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-126">This field is used to enter a reference that will be used as voucher for the product receipt journal.</span></span>  
+4. <span data-ttu-id="2cbbd-127">Expanda la sección Líneas.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-127">Expand the Lines section.</span></span>
+5. <span data-ttu-id="2cbbd-128">Establezca el valor de cantidad en '4'.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-128">Set Quantity to '4'.</span></span>
+    * <span data-ttu-id="2cbbd-129">Aquí puede especificar manualmente la cantidad que se está recibiendo para cada línea del pedido.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-129">Here you are able to manually specify the quantity that is being received for each line on the order.</span></span>  
+6. <span data-ttu-id="2cbbd-130">Contraiga la sección Líneas.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-130">Collapse the Lines section.</span></span>
+7. <span data-ttu-id="2cbbd-131">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="2cbbd-131">Click OK.</span></span>
+    * <span data-ttu-id="2cbbd-132">Las mercancías se han registrado ahora como recibidas en el pedido de compra y se ha creado un diario de recepción de producto como documento para reflejar esto.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-132">The goods have now been recorded as received on the purchase order, and a product receipt journal has been created as document to reflect this.</span></span> <span data-ttu-id="2cbbd-133">Puede utilizar la acción Recepción de producto para revisar los diarios creados con el pedido de compra y ver qué se ha recibido y cuándo.</span><span class="sxs-lookup"><span data-stu-id="2cbbd-133">You can use the Product receipt action to review the journals created with the purchase order, and see what was received, and when.</span></span>  
 
 

@@ -18,68 +18,68 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1cb7ef4b1b08caff39f0693eef6743bbe5d3892e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6323a2bf40a853edff4b3cef31eea7e95542a92e
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="balance-sheet-financial-reports"></a>Informes financieros de balance de situación
+# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="58bd3-104">Informes financieros de balance de situación</span><span class="sxs-lookup"><span data-stu-id="58bd3-104">Balance sheet financial reports</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-En este artículo se describen los informes predeterminados para los balances de situación. También se describen los componentes de estos informes. 
+<span data-ttu-id="58bd3-105">En este artículo se describen los informes predeterminados para los balances de situación.</span><span class="sxs-lookup"><span data-stu-id="58bd3-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="58bd3-106">También se describen los componentes de estos informes.</span><span class="sxs-lookup"><span data-stu-id="58bd3-106">It also describes the building blocks that are associated with these reports.</span></span> 
 
-<a name="default-balance-sheet-reports"></a>Informes de balance de situación predeterminados
+<a name="default-balance-sheet-reports"></a><span data-ttu-id="58bd3-107">Informes de balance de situación predeterminados</span><span class="sxs-lookup"><span data-stu-id="58bd3-107">Default balance sheet reports</span></span>
 -----------------------------
 
-Hay dos informes de balance de situación predeterminados. En un informe, se apilan las secciones. En el otro, las secciones se encuentran en paralelo.
+<span data-ttu-id="58bd3-108">Hay dos informes de balance de situación predeterminados.</span><span class="sxs-lookup"><span data-stu-id="58bd3-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="58bd3-109">En un informe, se apilan las secciones.</span><span class="sxs-lookup"><span data-stu-id="58bd3-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="58bd3-110">En el otro, las secciones se encuentran en paralelo.</span><span class="sxs-lookup"><span data-stu-id="58bd3-110">On the other report, the sections are side by side.</span></span>
 
-| Informe predeterminado                       | Qué hace                                                                                                                           |
+| <span data-ttu-id="58bd3-111">Informe predeterminado</span><span class="sxs-lookup"><span data-stu-id="58bd3-111">Default report</span></span>                       | <span data-ttu-id="58bd3-112">Qué hace</span><span class="sxs-lookup"><span data-stu-id="58bd3-112">What it does</span></span>                                                                                                                           |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| Balance de situación - predeterminado              | Ofrece una visión de la posición financiera de la organización para el año.                                                                 |
-| Balance de situación en paralelo – predeterminado | Ofrece una visión de la posición financiera de la organización para el año. Los activos y el pasivo y los recursos propios de los accionistas se encuentran en paralelo. |
+| <span data-ttu-id="58bd3-113">Balance de situación - predeterminado</span><span class="sxs-lookup"><span data-stu-id="58bd3-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="58bd3-114">Ofrece una visión de la posición financiera de la organización para el año.</span><span class="sxs-lookup"><span data-stu-id="58bd3-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
+| <span data-ttu-id="58bd3-115">Balance de situación en paralelo – predeterminado</span><span class="sxs-lookup"><span data-stu-id="58bd3-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="58bd3-116">Ofrece una visión de la posición financiera de la organización para el año.</span><span class="sxs-lookup"><span data-stu-id="58bd3-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="58bd3-117">Los activos y el pasivo y los recursos propios de los accionistas se encuentran en paralelo.</span><span class="sxs-lookup"><span data-stu-id="58bd3-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
 
-## <a name="building-blocks"></a>Bloques de creación
-Los informes financieros del balance de situación usan los siguientes bloques de creación.
+## <a name="building-blocks"></a><span data-ttu-id="58bd3-118">Bloques de creación</span><span class="sxs-lookup"><span data-stu-id="58bd3-118">Building blocks</span></span>
+<span data-ttu-id="58bd3-119">Los informes financieros del balance de situación usan los siguientes bloques de creación.</span><span class="sxs-lookup"><span data-stu-id="58bd3-119">The balance sheet financial reports use the following building blocks.</span></span>
 
-| Informe predeterminado                       | Definición de filas                       | Definición de columnas             |
+| <span data-ttu-id="58bd3-120">Informe predeterminado</span><span class="sxs-lookup"><span data-stu-id="58bd3-120">Default report</span></span>                       | <span data-ttu-id="58bd3-121">Definición de filas</span><span class="sxs-lookup"><span data-stu-id="58bd3-121">Row definition</span></span>                       | <span data-ttu-id="58bd3-122">Definición de columnas</span><span class="sxs-lookup"><span data-stu-id="58bd3-122">Column definition</span></span>             |
 |--------------------------------------|--------------------------------------|-------------------------------|
-| Balance de situación - predeterminado              | Balance de situación - predeterminado              | Anual y desviación - predeterminado    |
-| Balance de situación en paralelo – predeterminado | Balance de situación en paralelo – predeterminado | Columna de año hasta la fecha - predeterminado |
+| <span data-ttu-id="58bd3-123">Balance de situación - predeterminado</span><span class="sxs-lookup"><span data-stu-id="58bd3-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="58bd3-124">Balance de situación - predeterminado</span><span class="sxs-lookup"><span data-stu-id="58bd3-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="58bd3-125">Anual y desviación - predeterminado</span><span class="sxs-lookup"><span data-stu-id="58bd3-125">YTD and Variance - Default</span></span>    |
+| <span data-ttu-id="58bd3-126">Balance de situación en paralelo – predeterminado</span><span class="sxs-lookup"><span data-stu-id="58bd3-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="58bd3-127">Balance de situación en paralelo – predeterminado</span><span class="sxs-lookup"><span data-stu-id="58bd3-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="58bd3-128">Columna de año hasta la fecha - predeterminado</span><span class="sxs-lookup"><span data-stu-id="58bd3-128">Year to Date Column - Default</span></span> |
 
-### <a name="row-definition"></a>Definición de filas
+### <a name="row-definition"></a><span data-ttu-id="58bd3-129">Definición de filas</span><span class="sxs-lookup"><span data-stu-id="58bd3-129">Row definition</span></span>
 
-Las definiciones de filas para ambos informes de balance de situación contienen secciones para cada parte de un balance de situación tradicional. El informe en paralelo incluye un salto de la columna, de modo que el pasivo y los recursos propios del propietario aparezcan junto a los activos. La dimensión Categoría de cuenta principal se usa para crear ambas definiciones de filas. Por tanto, cualquier persona puede generar los informes sin tener que realizar ninguna modificación.
+<span data-ttu-id="58bd3-130">Las definiciones de filas para ambos informes de balance de situación contienen secciones para cada parte de un balance de situación tradicional.</span><span class="sxs-lookup"><span data-stu-id="58bd3-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="58bd3-131">El informe en paralelo incluye un salto de la columna, de modo que el pasivo y los recursos propios del propietario aparezcan junto a los activos.</span><span class="sxs-lookup"><span data-stu-id="58bd3-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="58bd3-132">La dimensión Categoría de cuenta principal se usa para crear ambas definiciones de filas.</span><span class="sxs-lookup"><span data-stu-id="58bd3-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="58bd3-133">Por tanto, cualquier persona puede generar los informes sin tener que realizar ninguna modificación.</span><span class="sxs-lookup"><span data-stu-id="58bd3-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
 
-### <a name="column-definition"></a>Definición de columnas
+### <a name="column-definition"></a><span data-ttu-id="58bd3-134">Definición de columnas</span><span class="sxs-lookup"><span data-stu-id="58bd3-134">Column definition</span></span>
 
-Las definiciones de columnas contienen diversos tipos de columnas para proporcionar distintos niveles de detalle y datos financieros.
+<span data-ttu-id="58bd3-135">Las definiciones de columnas contienen diversos tipos de columnas para proporcionar distintos niveles de detalle y datos financieros.</span><span class="sxs-lookup"><span data-stu-id="58bd3-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   **Anual y desviación - tipos de columna predeterminadas:**
-    -   **DESC** : la descripción de la definición de filas.
-    -   **FD**: datos financieros de año hasta la fecha para el año actual
-    -   **FD**: datos financieros de año hasta la fecha para el año pasado
-    -   **CALC**: la desviación de restar el último año del actual
+-   <span data-ttu-id="58bd3-136">**Anual y desviación - tipos de columna predeterminadas:**</span><span class="sxs-lookup"><span data-stu-id="58bd3-136">**YTD and Variance – Default column types:**</span></span>
+    -   <span data-ttu-id="58bd3-137">**DESC** : la descripción de la definición de filas.</span><span class="sxs-lookup"><span data-stu-id="58bd3-137">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="58bd3-138">**FD**: datos financieros de año hasta la fecha para el año actual</span><span class="sxs-lookup"><span data-stu-id="58bd3-138">**FD** – Year-to-date financial data for the current year</span></span>
+    -   <span data-ttu-id="58bd3-139">**FD**: datos financieros de año hasta la fecha para el año pasado</span><span class="sxs-lookup"><span data-stu-id="58bd3-139">**FD** – Year-to-date financial data for the last year</span></span>
+    -   <span data-ttu-id="58bd3-140">**CALC**: la desviación de restar el último año del actual</span><span class="sxs-lookup"><span data-stu-id="58bd3-140">**CALC** – The variance from subtracting last year from this year</span></span>
 
 <!-- -->
 
--   **Columna de año hasta la fecha - predeterminado:**
-    -   **DESC** : la descripción de la definición de filas.
-    -   **FD**: datos financieros de año hasta la fecha para el año actual
+-   <span data-ttu-id="58bd3-141">**Columna de año hasta la fecha - predeterminado:**</span><span class="sxs-lookup"><span data-stu-id="58bd3-141">**Year to Date Column – Default:**</span></span>
+    -   <span data-ttu-id="58bd3-142">**DESC** : la descripción de la definición de filas.</span><span class="sxs-lookup"><span data-stu-id="58bd3-142">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="58bd3-143">**FD**: datos financieros de año hasta la fecha para el año actual</span><span class="sxs-lookup"><span data-stu-id="58bd3-143">**FD** – Year-to-date financial data for the current year</span></span>
 
  
 
-<a name="see-also"></a>Consulte también
+<a name="see-also"></a><span data-ttu-id="58bd3-144">Consulte también</span><span class="sxs-lookup"><span data-stu-id="58bd3-144">See also</span></span>
 --------
 
-[Informes financieros](financial-reporting-getting-started.md)
+[<span data-ttu-id="58bd3-145">Informes financieros</span><span class="sxs-lookup"><span data-stu-id="58bd3-145">Financial reporting</span></span>](financial-reporting-getting-started.md)
 
-[Ver informes financieros](view-financial-reports.md)
+[<span data-ttu-id="58bd3-146">Ver informes financieros</span><span class="sxs-lookup"><span data-stu-id="58bd3-146">View financial reports</span></span>](view-financial-reports.md)
 
-[Blog de informes financieros de Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[<span data-ttu-id="58bd3-147">Blog de informes financieros de Dynamics</span><span class="sxs-lookup"><span data-stu-id="58bd3-147">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

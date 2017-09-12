@@ -19,44 +19,44 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: ea35bdd54c476fc5a3d329f7ca0dcf014c417e7a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 84a9e0b3936adcf2ed99fddca77dd57dfedeb050
 ms.contentlocale: es-es
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="assess-customer-and-product-profitability"></a>Evaluar rentabilidad de clientes y productos
+# <a name="assess-customer-and-product-profitability"></a><span data-ttu-id="30bbe-103">Evaluar rentabilidad de clientes y productos</span><span class="sxs-lookup"><span data-stu-id="30bbe-103">Assess customer and product profitability</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Este artículo explica cómo puede usar los análisis en memoria y en tiempo real para tener acceso, explorar y obtener información acerca de los clientes y de la rentabilidad de productos desde sus datos de Microsoft Dynamics 365 for Retail. 
+<span data-ttu-id="30bbe-104">Este artículo explica cómo puede usar los análisis en memoria y en tiempo real para tener acceso, explorar y obtener información acerca de los clientes y de la rentabilidad de productos desde sus datos de Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="30bbe-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about customers and product profitability from your Microsoft Dynamics 365 for Retail data.</span></span> 
 
-Como parte de Dynamics 365 for Retail, los usuarios pueden estudiar la rentabilidad de los clientes principales (10 a 100) en distintos niveles de la jerarquía organizativa, en función de uno de los criterios siguientes:
+<span data-ttu-id="30bbe-105">Como parte de Dynamics 365 for Retail, los usuarios pueden estudiar la rentabilidad de los clientes principales (10 a 100) en distintos niveles de la jerarquía organizativa, en función de uno de los criterios siguientes:</span><span class="sxs-lookup"><span data-stu-id="30bbe-105">As part of Dynamics 365 for Retail, users can study profitability for the top customers (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
 
--   Importe de venta
--   Cantidad
--   Margen de beneficio bruto
--   Porcentaje de margen
+-   <span data-ttu-id="30bbe-106">Importe de venta</span><span class="sxs-lookup"><span data-stu-id="30bbe-106">Sales amount</span></span>
+-   <span data-ttu-id="30bbe-107">Cantidad</span><span class="sxs-lookup"><span data-stu-id="30bbe-107">Quantity</span></span>
+-   <span data-ttu-id="30bbe-108">Margen de beneficio bruto</span><span class="sxs-lookup"><span data-stu-id="30bbe-108">Gross profit margin</span></span>
+-   <span data-ttu-id="30bbe-109">Porcentaje de margen</span><span class="sxs-lookup"><span data-stu-id="30bbe-109">Margin percentage</span></span>
 
-Para esta evaluación, puede usar el informe listo para usar **Clientes principales**, que puede abrir desde cualquiera de las siguientes ubicaciones:
+<span data-ttu-id="30bbe-110">Para esta evaluación, puede usar el informe listo para usar **Clientes principales**, que puede abrir desde cualquiera de las siguientes ubicaciones:</span><span class="sxs-lookup"><span data-stu-id="30bbe-110">For this assessment, you can use the out-of-box **Top customers** report, which you can open from any of the following locations:</span></span>
 
--   Espacio de trabajo **Gestión de tienda de venta minorista** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de mejores clientes**
--   Sección **Consultas e informes** &gt; **Retail** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de mejores clientes**
+-   <span data-ttu-id="30bbe-111">Espacio de trabajo **Gestión de tienda de venta minorista** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de mejores clientes**</span><span class="sxs-lookup"><span data-stu-id="30bbe-111">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top customers report**</span></span>
+-   <span data-ttu-id="30bbe-112">Sección **Consultas e informes** &gt; **Retail** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de mejores clientes**</span><span class="sxs-lookup"><span data-stu-id="30bbe-112">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top customers report**</span></span>
 
-Igualmente, los usuarios pueden estudiar la rentabilidad de los peroductos (10 a 100) en distintos niveles de la jerarquía organizativa, en función de uno de los criterios siguientes:
+<span data-ttu-id="30bbe-113">Igualmente, los usuarios pueden estudiar la rentabilidad de los peroductos (10 a 100) en distintos niveles de la jerarquía organizativa, en función de uno de los criterios siguientes:</span><span class="sxs-lookup"><span data-stu-id="30bbe-113">Likewise, users can study profitability for the top products (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
 
--   Importe de venta
--   Cantidad
--   Margen de beneficio bruto
--   Porcentaje de margen
+-   <span data-ttu-id="30bbe-114">Importe de venta</span><span class="sxs-lookup"><span data-stu-id="30bbe-114">Sales amount</span></span>
+-   <span data-ttu-id="30bbe-115">Cantidad</span><span class="sxs-lookup"><span data-stu-id="30bbe-115">Quantity</span></span>
+-   <span data-ttu-id="30bbe-116">Margen de beneficio bruto</span><span class="sxs-lookup"><span data-stu-id="30bbe-116">Gross profit margin</span></span>
+-   <span data-ttu-id="30bbe-117">Porcentaje de margen</span><span class="sxs-lookup"><span data-stu-id="30bbe-117">Margin percentage</span></span>
 
-Para esta evaluación, puede usar el informe listo para usar **Productos principales** report, which you can open from any of the following locations:
+<span data-ttu-id="30bbe-118">Para esta evaluación, puede usar el informe listo para usar **Productos principales** report, which you can open from any of the following locations:</span><span class="sxs-lookup"><span data-stu-id="30bbe-118">For this assessment, you can use the out-of-box **Top products** report, which you can open from any of the following locations:</span></span>
 
--   Espacio de trabajo **Gestión de tienda de venta minorista** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de productos principales**
--   Espacio de trabajo **Gestión de producto y categoría** &gt; **Retail** &gt; **Productos y categorías** &gt; **Gestión de tienda de venta** &gt; **Informes** &gt; **Informe de productos principales**
--   Sección **Consultas e informes** &gt; **Retail** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de productos principales**
+-   <span data-ttu-id="30bbe-119">Espacio de trabajo **Gestión de tienda de venta minorista** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de productos principales**</span><span class="sxs-lookup"><span data-stu-id="30bbe-119">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+-   <span data-ttu-id="30bbe-120">Espacio de trabajo **Gestión de producto y categoría** &gt; **Retail** &gt; **Productos y categorías** &gt; **Gestión de tienda de venta** &gt; **Informes** &gt; **Informe de productos principales**</span><span class="sxs-lookup"><span data-stu-id="30bbe-120">**Category and product management** workspace &gt; **Retail** &gt; **Products and categories** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+-   <span data-ttu-id="30bbe-121">Sección **Consultas e informes** &gt; **Retail** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de productos principales**</span><span class="sxs-lookup"><span data-stu-id="30bbe-121">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**</span></span>
 
 
 

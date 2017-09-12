@@ -16,72 +16,72 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: c6077b8a34ba4a11df014912d8b4c2b3749bc04d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ae1de653354d891e99fb41fa4b10e6910f458cf4
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a>Modificar un formato al aplicar de nuevo una plantilla de Microsoft Excel para informes electrónicos (ER)
+# <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a><span data-ttu-id="d785a-103">Modificar un formato al aplicar de nuevo una plantilla de Microsoft Excel para informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="d785a-103">Modify a format by reapplying a Microsoft Excel template for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Para completar estos pasos en este procedimiento, primero debe completar el procedimiento - Diseñar una configuración de ER para generar informes en formato OPENXML”.
+<span data-ttu-id="d785a-104">Para completar estos pasos en este procedimiento, primero debe completar el procedimiento - Diseñar una configuración de ER para generar informes en formato OPENXML”.</span><span class="sxs-lookup"><span data-stu-id="d785a-104">To complete the steps in this procedure, you must first complete the procedure, ER - Design a configuration for generating reports in OPENXML format.</span></span>
 
-Este procedimiento explica cómo modificar una configuración de formado del informe electrónico (ER) aplicando de nuevo una plantilla de Microsoft Excel que ha sido modifficada. En este procedimiento, importará una plantilla modificade de Excel a la configuración de formato ER que ha sido creado por la empresa de ejemplo, Litware, Inc. y después generar documentos electrónicos. Este procedimiento se ha creado para los usuarios con los roles de Administrador del sistema o Desarrollador de informes electrónicos asignados. Estos pasos se pueden completar mediante el conjunto de datos de GBSI. Antes de empezar, descargue y guarde el archivo, SampleVendPaymWsReport2.xlsx, que se muestra en el tema de Ayuda, modifique el formato electrónico del informe reaplicando una plantilla de Excel (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template/).
+<span data-ttu-id="d785a-105">Este procedimiento explica cómo modificar una configuración de formado del informe electrónico (ER) aplicando de nuevo una plantilla de Microsoft Excel que ha sido modifficada.</span><span class="sxs-lookup"><span data-stu-id="d785a-105">This procedure explains how to modify an Electronic reporting (ER) format configuration by reapplying a Microsoft Excel template that has been modified.</span></span> <span data-ttu-id="d785a-106">En este procedimiento, importará una plantilla modificade de Excel a la configuración de formato ER que ha sido creado por la empresa de ejemplo, Litware, Inc. y después generar documentos electrónicos.</span><span class="sxs-lookup"><span data-stu-id="d785a-106">In this procedure, you will import a modified Excel template into ER format configurations that have been created for the sample company, Litware, Inc., and then generate electronic documents.</span></span> <span data-ttu-id="d785a-107">Este procedimiento se ha creado para los usuarios con los roles de Administrador del sistema o Desarrollador de informes electrónicos asignados.</span><span class="sxs-lookup"><span data-stu-id="d785a-107">This procedure is intended for users who have the system administrator or electronic reporting developer role.</span></span> <span data-ttu-id="d785a-108">Estos pasos se pueden completar mediante el conjunto de datos de GBSI.</span><span class="sxs-lookup"><span data-stu-id="d785a-108">These steps can be completed by using the GBSI dataset.</span></span> <span data-ttu-id="d785a-109">Antes de empezar, descargue y guarde el archivo, SampleVendPaymWsReport2.xlsx, que se muestra en el tema de Ayuda, modifique el formato electrónico del informe reaplicando una plantilla de Excel (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template/).</span><span class="sxs-lookup"><span data-stu-id="d785a-109">Before you begin, download and save the file, SampleVendPaymWsReport2.xlsx, which is listed in the Help topic, Modify Electronic reporting format by reapplying an Excel template (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template/).</span></span>
 
-1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
-    * Asegúrese de que el proveedor de configuración de la empresa de ejemplo “Litware, Inc.” está disponible y marcado como Activo. Si no ve a este proveedor de configuración, complete los pasos del procedimiento "Creación de un proveedor de configuración y marcarlo como activo".  
+1. <span data-ttu-id="d785a-110">Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="d785a-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="d785a-111">Asegúrese de que el proveedor de configuración de la empresa de ejemplo “Litware, Inc.” está disponible y marcado como Activo.</span><span class="sxs-lookup"><span data-stu-id="d785a-111">Make sure that the configuration provider for the sample company, Litware, Inc., is available and marked as Active.</span></span> <span data-ttu-id="d785a-112">Si no ve a este proveedor de configuración, complete los pasos del procedimiento "Creación de un proveedor de configuración y marcarlo como activo".</span><span class="sxs-lookup"><span data-stu-id="d785a-112">If you don’t see this configuration provider, complete the steps in the procedure, Create a configuration provider and mark it as active.</span></span>  
 
-## <a name="select-the-er-format"></a>Seleccionar formato del ER
-1. Haga clic en Configuraciones de informes.
-2. En el árbol, expanda "Modelo de pago".
-3. En el árbol, seleccione "Modelo de pago\Informe de hoja de cálculo de muestra".
-4. Haga clic en Archivos adjuntos.
-    * Tenga en cuenta que el archivo de Excel SampleVendPaymWsReport.xlsx se usa actualmente como plantilla para el procesamiento del diario de pagos.   
-5. Haga clic en Abrir.
-    * Haga clic en Abrir para explorar el diseño de la plantilla de Excel.  
-    * Revisar la plantilla. Tenga en cuenta que actualmente incluye los detalles siguientes para cada línea de pago: número de cuenta de proveedor, nombre del proveedor, banco, número de ruta, número de cuenta, débito, crédito y divisa. Para este ejemplo, deseamos ampliar esta lista agregando los detalles acerca de la fecha de pago.   
-6. Cierre la página.
+## <a name="select-the-er-format"></a><span data-ttu-id="d785a-113">Seleccionar formato del ER</span><span class="sxs-lookup"><span data-stu-id="d785a-113">Select the ER format</span></span>
+1. <span data-ttu-id="d785a-114">Haga clic en Configuraciones de informes.</span><span class="sxs-lookup"><span data-stu-id="d785a-114">Click Reporting configurations.</span></span>
+2. <span data-ttu-id="d785a-115">En el árbol, expanda "Modelo de pago".</span><span class="sxs-lookup"><span data-stu-id="d785a-115">In the tree, expand 'Payment model'.</span></span>
+3. <span data-ttu-id="d785a-116">En el árbol, seleccione "Modelo de pago\Informe de hoja de cálculo de muestra".</span><span class="sxs-lookup"><span data-stu-id="d785a-116">In the tree, select 'Payment model\Sample worksheet report'.</span></span>
+4. <span data-ttu-id="d785a-117">Haga clic en Archivos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="d785a-117">Click Attachments.</span></span>
+    * <span data-ttu-id="d785a-118">Tenga en cuenta que el archivo de Excel SampleVendPaymWsReport.xlsx se usa actualmente como plantilla para el procesamiento del diario de pagos.</span><span class="sxs-lookup"><span data-stu-id="d785a-118">Note that the SampleVendPaymWsReport.xlsx Excel file is currently used as a template for payment journal processing.</span></span>   
+5. <span data-ttu-id="d785a-119">Haga clic en Abrir.</span><span class="sxs-lookup"><span data-stu-id="d785a-119">Click Open.</span></span>
+    * <span data-ttu-id="d785a-120">Haga clic en Abrir para explorar el diseño de la plantilla de Excel.</span><span class="sxs-lookup"><span data-stu-id="d785a-120">Click Open to explore the layout of the Excel template.</span></span>  
+    * <span data-ttu-id="d785a-121">Revisar la plantilla.</span><span class="sxs-lookup"><span data-stu-id="d785a-121">Review the template.</span></span> <span data-ttu-id="d785a-122">Tenga en cuenta que actualmente incluye los detalles siguientes para cada línea de pago: número de cuenta de proveedor, nombre del proveedor, banco, número de ruta, número de cuenta, débito, crédito y divisa.</span><span class="sxs-lookup"><span data-stu-id="d785a-122">Note that it currently includes the following details for each payment line: vendor account number, vendor name, bank, routing number, account number, debit, credit, and currency.</span></span> <span data-ttu-id="d785a-123">Para este ejemplo, deseamos ampliar esta lista agregando los detalles acerca de la fecha de pago.</span><span class="sxs-lookup"><span data-stu-id="d785a-123">For this example, we want to extend this list by adding details about the payment date.</span></span>   
+6. <span data-ttu-id="d785a-124">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="d785a-124">Close the page.</span></span>
 
-## <a name="reapply-a-new-excel-template-to-er-format"></a>Volver a aplicar una nueva plantilla de Excel al formato del ER
-1. Haga clic en Diseñador.
-    * Abra la versión de borrador del formato de ER para su edición.  
-2. En el panel de acciones, haga clic en Importar.
-3. Haga clic en Actualización desde Excel.
-    * Haga clic en la “Actualizar plantilla" y seleccione el archivo SampleVendPaymWsReport2.xlsx.  
-    * Haga clic Actualizar plantilla y busque el archivo descargado anteriormente SampleVendPaymWsReport2.xlsx.  
-4. Haga clic en Aceptar
-    * Se aplica la plantilla de SampleVendPaymWsReport2.xlsx. La estructura del formato del ER se sincroniza con el contenido de la plantilla, cuyos artículos se agregan al formato del ER. Cualquier elemento existente en el formato del ER que no se incluyan en la plantilla se quita de la definición del formato.  
-5. En el árbol, seleccione "Excel".
-    * Tenga en cuenta que el campo Plantilla ahora contiene una referencia a la nueva plantilla.   
-6. Haga clic en Archivos adjuntos.
-7. Haga clic en Abrir.
-    * Haga clic en Abrir para explorar el diseño de la plantilla de Excel modificada.  
-    * Revisar la plantilla. Tenga en cuenta que ahora incluye una línea para la fecha de pago.   
-8. Cierre la página.
-9. En el árbol, expanda "Excel".
-10. En el árbol, expanda 'Excel\PaymLines'.
-11. En el árbol, seleccione "Excel\LíneasPago\FechaPago".
-    * Tenga en cuenta que el formato del ER ahora contiene un elemento más. Se han agregado una celda, PaymDate, a la plantilla de Excel.  
-12. Haga clic en la ficha Asignación.
-13. En el árbol , expanda "modelo".
-14. En el árbol, expanda modelo\Pagos.
-15. En el árbol, seleccione modelo\Pagos\Fecha de la transacción(TransactionDate).
-16. Haga clic en Enlazar.
-    * Especifique qué datos se agregan a la nueva celda en el tiempo de ejecución.  
-17. Haga clic en Guardar.
-18. Cierre la página.
+## <a name="reapply-a-new-excel-template-to-er-format"></a><span data-ttu-id="d785a-125">Volver a aplicar una nueva plantilla de Excel al formato del ER</span><span class="sxs-lookup"><span data-stu-id="d785a-125">Reapply a new Excel template to ER format</span></span>
+1. <span data-ttu-id="d785a-126">Haga clic en Diseñador.</span><span class="sxs-lookup"><span data-stu-id="d785a-126">Click Designer.</span></span>
+    * <span data-ttu-id="d785a-127">Abra la versión de borrador del formato de ER para su edición.</span><span class="sxs-lookup"><span data-stu-id="d785a-127">Open the draft version of the selected ER format for editing.</span></span>  
+2. <span data-ttu-id="d785a-128">En el panel de acciones, haga clic en Importar.</span><span class="sxs-lookup"><span data-stu-id="d785a-128">On the Action Pane, click Import.</span></span>
+3. <span data-ttu-id="d785a-129">Haga clic en Actualización desde Excel.</span><span class="sxs-lookup"><span data-stu-id="d785a-129">Click Update from Excel.</span></span>
+    * <span data-ttu-id="d785a-130">Haga clic en la “Actualizar plantilla" y seleccione el archivo SampleVendPaymWsReport2.xlsx.</span><span class="sxs-lookup"><span data-stu-id="d785a-130">Click ‘Update template’, and then select the file, SampleVendPaymWsReport2.xlsx.</span></span>  
+    * <span data-ttu-id="d785a-131">Haga clic Actualizar plantilla y busque el archivo descargado anteriormente SampleVendPaymWsReport2.xlsx.</span><span class="sxs-lookup"><span data-stu-id="d785a-131">Click Update template and browse to get the downloaded earlier SampleVendPaymWsReport2.xlsx file.</span></span>  
+4. <span data-ttu-id="d785a-132">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="d785a-132">Click OK.</span></span>
+    * <span data-ttu-id="d785a-133">Se aplica la plantilla de SampleVendPaymWsReport2.xlsx.</span><span class="sxs-lookup"><span data-stu-id="d785a-133">The SampleVendPaymWsReport2.xlsx template is applied.</span></span> <span data-ttu-id="d785a-134">La estructura del formato del ER se sincroniza con el contenido de la plantilla, cuyos artículos se agregan al formato del ER.</span><span class="sxs-lookup"><span data-stu-id="d785a-134">The structure of the ER format is synchronized with the content of the template, whose elements are added to the ER format.</span></span> <span data-ttu-id="d785a-135">Cualquier elemento existente en el formato del ER que no se incluyan en la plantilla se quita de la definición del formato.</span><span class="sxs-lookup"><span data-stu-id="d785a-135">Any existing elements in the ER format that aren’t included in the template are removed from the format definition.</span></span>  
+5. <span data-ttu-id="d785a-136">En el árbol, seleccione "Excel".</span><span class="sxs-lookup"><span data-stu-id="d785a-136">In the tree, select 'Excel'.</span></span>
+    * <span data-ttu-id="d785a-137">Tenga en cuenta que el campo Plantilla ahora contiene una referencia a la nueva plantilla.</span><span class="sxs-lookup"><span data-stu-id="d785a-137">Note that the Template field now contains a reference to the new template.</span></span>   
+6. <span data-ttu-id="d785a-138">Haga clic en Archivos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="d785a-138">Click Attachments.</span></span>
+7. <span data-ttu-id="d785a-139">Haga clic en Abrir.</span><span class="sxs-lookup"><span data-stu-id="d785a-139">Click Open.</span></span>
+    * <span data-ttu-id="d785a-140">Haga clic en Abrir para explorar el diseño de la plantilla de Excel modificada.</span><span class="sxs-lookup"><span data-stu-id="d785a-140">Click Open to explore the layout of the modified Excel template.</span></span>  
+    * <span data-ttu-id="d785a-141">Revisar la plantilla.</span><span class="sxs-lookup"><span data-stu-id="d785a-141">Review the template.</span></span> <span data-ttu-id="d785a-142">Tenga en cuenta que ahora incluye una línea para la fecha de pago.</span><span class="sxs-lookup"><span data-stu-id="d785a-142">Note that it now contains a line for the payment date.</span></span>   
+8. <span data-ttu-id="d785a-143">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="d785a-143">Close the page.</span></span>
+9. <span data-ttu-id="d785a-144">En el árbol, expanda "Excel".</span><span class="sxs-lookup"><span data-stu-id="d785a-144">In the tree, expand 'Excel'.</span></span>
+10. <span data-ttu-id="d785a-145">En el árbol, expanda 'Excel\PaymLines'.</span><span class="sxs-lookup"><span data-stu-id="d785a-145">In the tree, expand 'Excel\PaymLines'.</span></span>
+11. <span data-ttu-id="d785a-146">En el árbol, seleccione "Excel\LíneasPago\FechaPago".</span><span class="sxs-lookup"><span data-stu-id="d785a-146">In the tree, select 'Excel\PaymLines\PaymDate'.</span></span>
+    * <span data-ttu-id="d785a-147">Tenga en cuenta que el formato del ER ahora contiene un elemento más.</span><span class="sxs-lookup"><span data-stu-id="d785a-147">Note that the ER format now contains one more item.</span></span> <span data-ttu-id="d785a-148">Se han agregado una celda, PaymDate, a la plantilla de Excel.</span><span class="sxs-lookup"><span data-stu-id="d785a-148">A cell, PaymDate, has been added to the Excel template.</span></span>  
+12. <span data-ttu-id="d785a-149">Haga clic en la ficha Asignación.</span><span class="sxs-lookup"><span data-stu-id="d785a-149">Click the Mapping tab.</span></span>
+13. <span data-ttu-id="d785a-150">En el árbol , expanda "modelo".</span><span class="sxs-lookup"><span data-stu-id="d785a-150">In the tree, expand 'model'.</span></span>
+14. <span data-ttu-id="d785a-151">En el árbol, expanda modelo\Pagos.</span><span class="sxs-lookup"><span data-stu-id="d785a-151">In the tree, expand 'model\Payments'.</span></span>
+15. <span data-ttu-id="d785a-152">En el árbol, seleccione modelo\Pagos\Fecha de la transacción(TransactionDate).</span><span class="sxs-lookup"><span data-stu-id="d785a-152">In the tree, select 'model\Payments\Transaction date(TransactionDate)'.</span></span>
+16. <span data-ttu-id="d785a-153">Haga clic en Enlazar.</span><span class="sxs-lookup"><span data-stu-id="d785a-153">Click Bind.</span></span>
+    * <span data-ttu-id="d785a-154">Especifique qué datos se agregan a la nueva celda en el tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="d785a-154">Specify what data is added to the new cell at runtime.</span></span>  
+17. <span data-ttu-id="d785a-155">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="d785a-155">Click Save.</span></span>
+18. <span data-ttu-id="d785a-156">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="d785a-156">Close the page.</span></span>
 
-## <a name="enable-the-modified-draft-version-of-the-er-format-for-use-in-payment-journal-processing"></a>Habilitar la versión de borrador modificada del formato del ER para su uso en el procesamiento del diario de pagos
-1. En el panel de acciones, haga clic en Configuraciones.
-2. Haga clic en Parámetros de usuario.
-3. Seleccione Sí en el campo Parámetros de ejecución.
-4. Haga clic en Aceptar
-5. Haga clic en Editar.
-6. Seleccione Sí en el campo Borrador de ejecución.
+## <a name="enable-the-modified-draft-version-of-the-er-format-for-use-in-payment-journal-processing"></a><span data-ttu-id="d785a-157">Habilitar la versión de borrador modificada del formato del ER para su uso en el procesamiento del diario de pagos</span><span class="sxs-lookup"><span data-stu-id="d785a-157">Enable the modified draft version of the ER format for use in payment journal processing</span></span>
+1. <span data-ttu-id="d785a-158">En el panel de acciones, haga clic en Configuraciones.</span><span class="sxs-lookup"><span data-stu-id="d785a-158">On the Action Pane, click Configurations.</span></span>
+2. <span data-ttu-id="d785a-159">Haga clic en Parámetros de usuario.</span><span class="sxs-lookup"><span data-stu-id="d785a-159">Click User parameters.</span></span>
+3. <span data-ttu-id="d785a-160">Seleccione Sí en el campo Parámetros de ejecución.</span><span class="sxs-lookup"><span data-stu-id="d785a-160">Select Yes in the Run settings field.</span></span>
+4. <span data-ttu-id="d785a-161">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="d785a-161">Click OK.</span></span>
+5. <span data-ttu-id="d785a-162">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="d785a-162">Click Edit.</span></span>
+6. <span data-ttu-id="d785a-163">Seleccione Sí en el campo Borrador de ejecución.</span><span class="sxs-lookup"><span data-stu-id="d785a-163">Select Yes in the Run Draft field.</span></span>
 
-## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Usar la versión de borrador modificada del formato del ER para el procesamiento del diario de pagos
-    * Revise la hoja de cálculo creada, incluido el nuevo detalle de líneas de pago – fecha de pago.  
+## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a><span data-ttu-id="d785a-164">Usar la versión de borrador modificada del formato del ER para el procesamiento del diario de pagos</span><span class="sxs-lookup"><span data-stu-id="d785a-164">Use the modified draft version of the ER format for payment journal processing</span></span>
+    * <span data-ttu-id="d785a-165">Revise la hoja de cálculo creada, incluido el nuevo detalle de líneas de pago – fecha de pago.</span><span class="sxs-lookup"><span data-stu-id="d785a-165">Review the created worksheet, including new detail of payment lines – payment date.</span></span>  
 
 

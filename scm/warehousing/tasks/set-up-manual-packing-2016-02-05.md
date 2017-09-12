@@ -23,75 +23,75 @@ ms.contentlocale: es-es
 ms.lasthandoff: 07/28/2017
 
 ---
-# <a name="set-up-manual-packing-february--may-2016-only"></a>Configurar el embalaje manual (febrero y mayo de 2016 únicamente)
+# <a name="set-up-manual-packing-february--may-2016-only"></a><span data-ttu-id="55641-103">Configurar el embalaje manual (febrero y mayo de 2016 únicamente)</span><span class="sxs-lookup"><span data-stu-id="55641-103">Set up manual packing (February & May 2016 only)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-El proceso de embalaje le permite validar y empaquetar productos en contenedores. En este proceso, los trabajadores de almacén seleccionan productos de las ubicaciones de almacenamiento y las mueven a una estación de embalaje donde comprueban los tipos y las cantidades de artículos, y los asignan a los contenedores adecuados. Cuando un contenedor se empaqueta por completo, pueden cerrarlo y moverlo a los muelles de salida, y los productos estarán listos para enviarse. Este procedimiento usa la empresa de demostración USMF. Este procedimiento es únicamente para las versiones de febrero de 2016 y mayo de 2016 de Dynamics 365 for Operations.
+<span data-ttu-id="55641-104">El proceso de embalaje le permite validar y empaquetar productos en contenedores.</span><span class="sxs-lookup"><span data-stu-id="55641-104">The packing process allows you to validate and pack products into containers.</span></span> <span data-ttu-id="55641-105">En este proceso, los trabajadores de almacén seleccionan productos de las ubicaciones de almacenamiento y las mueven a una estación de embalaje donde comprueban los tipos y las cantidades de artículos, y los asignan a los contenedores adecuados.</span><span class="sxs-lookup"><span data-stu-id="55641-105">In this process, warehouse workers pick products from the storage locations and move them to a packing station where they check the item quantities and types, and assign them to appropriate containers.</span></span> <span data-ttu-id="55641-106">Cuando un contenedor se empaqueta por completo, pueden cerrarlo y moverlo a los muelles de salida, y los productos estarán listos para enviarse.</span><span class="sxs-lookup"><span data-stu-id="55641-106">When a container is fully packed, they can close it and move it to the outbound docks, and the products are ready to ship.</span></span> <span data-ttu-id="55641-107">Este procedimiento usa la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="55641-107">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="55641-108">Este procedimiento es únicamente para las versiones de febrero de 2016 y mayo de 2016 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="55641-108">This procedure is for the February 2016 & May 2016 versions of Dynamics 365 for Operations only.</span></span>
 
 
-## <a name="set-up-location-profiles"></a>Configurar perfiles de ubicación
-1. Vaya a Gestión de almacenes > Configurar > Almacén > Perfiles de ubicación.
-2. Haga clic en Nuevo.
-    * El perfil de la ubicación se usa para las instalaciones de embalaje y contiene información y reglas para una ubicación.  
-3. En el campo Id. de perfil de ubicación, escriba un valor.
-4. En el campo Nombre, escriba un valor.
-5. En el campo Formato de ubicación, especifique o seleccione un valor.
-6. En el campo Tipo de ubicación, especifique o seleccione un valor.
-7. Seleccione Sí en el campo Permitir artículos combinados.
-8. Seleccione Sí en el campo Permitir estados de inventario combinados.
-9. Seleccione Sí en el campo Anular reglas para días de lote.
-10. Cierre la página.
+## <a name="set-up-location-profiles"></a><span data-ttu-id="55641-109">Configurar perfiles de ubicación</span><span class="sxs-lookup"><span data-stu-id="55641-109">Set up location profiles</span></span>
+1. <span data-ttu-id="55641-110">Vaya a Gestión de almacenes > Configurar > Almacén > Perfiles de ubicación.</span><span class="sxs-lookup"><span data-stu-id="55641-110">Go to Warehouse management > Setup > Warehouse > Location profiles.</span></span>
+2. <span data-ttu-id="55641-111">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="55641-111">Click New.</span></span>
+    * <span data-ttu-id="55641-112">El perfil de la ubicación se usa para las instalaciones de embalaje y contiene información y reglas para una ubicación.</span><span class="sxs-lookup"><span data-stu-id="55641-112">The location profile is used for packing stations and contains information and rules for a location.</span></span>  
+3. <span data-ttu-id="55641-113">En el campo Id. de perfil de ubicación, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="55641-113">In the Location profile ID field, type a value.</span></span>
+4. <span data-ttu-id="55641-114">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="55641-114">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="55641-115">En el campo Formato de ubicación, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="55641-115">In the Location format field, enter or select a value.</span></span>
+6. <span data-ttu-id="55641-116">En el campo Tipo de ubicación, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="55641-116">In the Location type field, enter or select a value.</span></span>
+7. <span data-ttu-id="55641-117">Seleccione Sí en el campo Permitir artículos combinados.</span><span class="sxs-lookup"><span data-stu-id="55641-117">Select Yes in the Allow mixed items field.</span></span>
+8. <span data-ttu-id="55641-118">Seleccione Sí en el campo Permitir estados de inventario combinados.</span><span class="sxs-lookup"><span data-stu-id="55641-118">Select Yes in the Allow mixed  inventory statuses field.</span></span>
+9. <span data-ttu-id="55641-119">Seleccione Sí en el campo Anular reglas para días de lote.</span><span class="sxs-lookup"><span data-stu-id="55641-119">Select Yes in the Override rules for batch days field.</span></span>
+10. <span data-ttu-id="55641-120">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="55641-120">Close the page.</span></span>
 
-## <a name="set-up-warehouse-management-parameters"></a>Configurar parámetros de gestión de almacenes 
-1. Vaya a Gestión de almacenes > Configurar > Parámetros de gestión de inventario y almacenes.
-2. Haga clic en la ficha Embalaje.
-3. En el campo Id. de perfil para la ubicación de embalaje, especifique o seleccione un valor.
-    * Seleccione el perfil de ubicación que desea usar para embalaje.  
-4. Cierre la página.
+## <a name="set-up-warehouse-management-parameters"></a><span data-ttu-id="55641-121">Configurar parámetros de gestión de almacenes</span><span class="sxs-lookup"><span data-stu-id="55641-121">Set up warehouse management parameters</span></span> 
+1. <span data-ttu-id="55641-122">Vaya a Gestión de almacenes > Configurar > Parámetros de gestión de inventario y almacenes.</span><span class="sxs-lookup"><span data-stu-id="55641-122">Go to Warehouse management > Setup > Warehouse management parameters.</span></span>
+2. <span data-ttu-id="55641-123">Haga clic en la ficha Embalaje.</span><span class="sxs-lookup"><span data-stu-id="55641-123">Click the Packing tab.</span></span>
+3. <span data-ttu-id="55641-124">En el campo Id. de perfil para la ubicación de embalaje, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="55641-124">In the Profile ID for packing location field, enter or select a value.</span></span>
+    * <span data-ttu-id="55641-125">Seleccione el perfil de ubicación que desea usar para embalaje.</span><span class="sxs-lookup"><span data-stu-id="55641-125">Select the location profile that you want to use for packing.</span></span>  
+4. <span data-ttu-id="55641-126">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="55641-126">Close the page.</span></span>
 
-## <a name="set-up-container-types"></a>Configurar tipos de contenedor
-1. Vaya a Administración de almacenes > Configurar > Contenedores > Tipos de contenedor.
-2. Haga clic en Nuevo.
-    * Se pueden definir los tipos de contenedores que se usarán. Puede especificar las dimensiones físicas del contenedor, incluida la tara, el peso máximo, el volumen máximo, la longitud máxima, el ancho y el peso.  Los atributos son campos personalizados que le permiten agregar dimensiones adicionales en el tipo de contenedor.     
-3. En el campo Código de tipo de contenedor, escriba un valor.
-4. En el campo Descripción, escriba un valor.
-5. En el campo Tara, escriba un número.
-6. Escriba un número en el campo Peso máximo.
-7. En el campo Volumen, escriba un número.
-8. En el campo Longitud, especifique un número.
-9. En el campo Ancho, escriba un número.
-10. En el campo Alto, escriba un número.
-11. Haga clic en Guardar.
-12. Cierre la página.
+## <a name="set-up-container-types"></a><span data-ttu-id="55641-127">Configurar tipos de contenedor</span><span class="sxs-lookup"><span data-stu-id="55641-127">Set up container types</span></span>
+1. <span data-ttu-id="55641-128">Vaya a Administración de almacenes > Configurar > Contenedores > Tipos de contenedor.</span><span class="sxs-lookup"><span data-stu-id="55641-128">Go to Warehouse management > Setup > Containers > Container types.</span></span>
+2. <span data-ttu-id="55641-129">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="55641-129">Click New.</span></span>
+    * <span data-ttu-id="55641-130">Se pueden definir los tipos de contenedores que se usarán.</span><span class="sxs-lookup"><span data-stu-id="55641-130">You can define the types of containers to use.</span></span> <span data-ttu-id="55641-131">Puede especificar las dimensiones físicas del contenedor, incluida la tara, el peso máximo, el volumen máximo, la longitud máxima, el ancho y el peso.</span><span class="sxs-lookup"><span data-stu-id="55641-131">You can specify the physical dimensions of the container, including tare weight, maximum weight, maximum volume, length, width, and weight.</span></span>  <span data-ttu-id="55641-132">Los atributos son campos personalizados que le permiten agregar dimensiones adicionales en el tipo de contenedor.</span><span class="sxs-lookup"><span data-stu-id="55641-132">The Attributes are customized fields that allow you to add extra dimensions on the container type.</span></span>     
+3. <span data-ttu-id="55641-133">En el campo Código de tipo de contenedor, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="55641-133">In the Container type code field, type a value.</span></span>
+4. <span data-ttu-id="55641-134">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="55641-134">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="55641-135">En el campo Tara, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="55641-135">In the Tare weight field, enter a number.</span></span>
+6. <span data-ttu-id="55641-136">Escriba un número en el campo Peso máximo.</span><span class="sxs-lookup"><span data-stu-id="55641-136">In the Maximum weight field, enter a number.</span></span>
+7. <span data-ttu-id="55641-137">En el campo Volumen, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="55641-137">In the Volume field, enter a number.</span></span>
+8. <span data-ttu-id="55641-138">En el campo Longitud, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="55641-138">In the Length field, enter a number.</span></span>
+9. <span data-ttu-id="55641-139">En el campo Ancho, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="55641-139">In the Width field, enter a number.</span></span>
+10. <span data-ttu-id="55641-140">En el campo Alto, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="55641-140">In the Height field, enter a number.</span></span>
+11. <span data-ttu-id="55641-141">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="55641-141">Click Save.</span></span>
+12. <span data-ttu-id="55641-142">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="55641-142">Close the page.</span></span>
 
-## <a name="set-up-packing-profiles"></a>Configurar perfiles de embalaje
-1. Vaya a Gestión de almacenes > Configurar > Embalaje > Perfiles de embalaje.
-2. Haga clic en Nuevo.
-3. En el campo Id. del perfil de empaquetado, escriba un valor.
-4. En el campo Descripción, escriba un valor.
-5. En el campo Id. de perfil de cierre de contenedor, especifique o seleccione un valor.
-    * Un id. de perfil de cierre de contenedor es opcional y es el perfil del contenedor de cierre predeterminado para este perfil de embalaje.  
-6. En el campo Modo del id. de contenedor, seleccione una opción.
-    * Esta opción determina si se generará automáticamente un id. de contenedor cuando se cree un o contenedor o si se creará un id. de contenedor manualmente.  
-7. En el campo Tipo de contenedor, especifique o seleccione un valor.
-    * El tipo de contenedor se usará de forma predeterminada cuando se cree un nuevo contenedor.  
-8. Active la casilla Crear contenedor automáticamente al cerrar el contenedor.
-9. Haga clic en Guardar.
-10. Cierre la página.
+## <a name="set-up-packing-profiles"></a><span data-ttu-id="55641-143">Configurar perfiles de embalaje</span><span class="sxs-lookup"><span data-stu-id="55641-143">Set up packing profiles</span></span>
+1. <span data-ttu-id="55641-144">Vaya a Gestión de almacenes > Configurar > Embalaje > Perfiles de embalaje.</span><span class="sxs-lookup"><span data-stu-id="55641-144">Go to Warehouse management > Setup > Packing > Packing profiles.</span></span>
+2. <span data-ttu-id="55641-145">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="55641-145">Click New.</span></span>
+3. <span data-ttu-id="55641-146">En el campo Id. del perfil de empaquetado, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="55641-146">In the Packing profile ID field, type a value.</span></span>
+4. <span data-ttu-id="55641-147">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="55641-147">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="55641-148">En el campo Id. de perfil de cierre de contenedor, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="55641-148">In the Container closing profile ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="55641-149">Un id. de perfil de cierre de contenedor es opcional y es el perfil del contenedor de cierre predeterminado para este perfil de embalaje.</span><span class="sxs-lookup"><span data-stu-id="55641-149">A container closing profile ID is optional and is the default close container profile for this packing profile.</span></span>  
+6. <span data-ttu-id="55641-150">En el campo Modo del id. de contenedor, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="55641-150">In the Container ID mode field, select an option.</span></span>
+    * <span data-ttu-id="55641-151">Esta opción determina si se generará automáticamente un id. de contenedor cuando se cree un o contenedor o si se creará un id. de contenedor manualmente.</span><span class="sxs-lookup"><span data-stu-id="55641-151">This option determines whether a container ID will be automatically generated when a container is created or if a container ID will be created manually.</span></span>  
+7. <span data-ttu-id="55641-152">En el campo Tipo de contenedor, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="55641-152">In the Container type field, enter or select a value.</span></span>
+    * <span data-ttu-id="55641-153">El tipo de contenedor se usará de forma predeterminada cuando se cree un nuevo contenedor.</span><span class="sxs-lookup"><span data-stu-id="55641-153">The container type will be used by default when a new container is created.</span></span>  
+8. <span data-ttu-id="55641-154">Active la casilla Crear contenedor automáticamente al cerrar el contenedor.</span><span class="sxs-lookup"><span data-stu-id="55641-154">Select the Autocreate container at container close check box.</span></span>
+9. <span data-ttu-id="55641-155">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="55641-155">Click Save.</span></span>
+10. <span data-ttu-id="55641-156">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="55641-156">Close the page.</span></span>
 
-## <a name="set-up-container-closing-profiles"></a>Configurar perfiles de cierre de contenedor
-1. Vaya a Administración de almacenes > Configurar > Contenedores > Perfiles de cierre de contenedor.
-    * Los perfiles de cierre del contenedor definen qué sucede cuando se cierra un contenedor. Puede configurar varios perfiles de contenedor de cierre.       
-2. Haga clic en Nuevo.
-3. En el campo Id. de perfil de cierre de contenedor, escriba un valor.
-4. En el campo Descripción, escriba un valor.
-5. En el campo Manifiesto en, seleccione una opción.
-    * Especifique si se producirán manifiestos al cerrar contenedores de cierre o al confirmar el envío. Tenga en cuenta que los manifiestos requieren Administración de transporte. Los manifiestos se deben implementar en los motores de transporte para que funcionen.  
-6. En el campo Almacén, especifique o seleccione un valor.
-7. En el campo Ubicación predeterminada del envío final, especifique o seleccione un valor.
-    * Esta será la ubicación a la que se moverán los productos después de que se cierren los contenedores. Esta ubicación debe tener un perfil de ubicación definido en Parámetros de almacén.  
-8. En el campo Unidad de peso, especifique o seleccione un valor.
-9. Haga clic en Guardar.
+## <a name="set-up-container-closing-profiles"></a><span data-ttu-id="55641-157">Configurar perfiles de cierre de contenedor</span><span class="sxs-lookup"><span data-stu-id="55641-157">Set up container closing profiles</span></span>
+1. <span data-ttu-id="55641-158">Vaya a Administración de almacenes > Configurar > Contenedores > Perfiles de cierre de contenedor.</span><span class="sxs-lookup"><span data-stu-id="55641-158">Go to Warehouse management > Setup > Containers > Container closing profiles.</span></span>
+    * <span data-ttu-id="55641-159">Los perfiles de cierre del contenedor definen qué sucede cuando se cierra un contenedor.</span><span class="sxs-lookup"><span data-stu-id="55641-159">Container closing profiles define what happens when a container is closed.</span></span> <span data-ttu-id="55641-160">Puede configurar varios perfiles de contenedor de cierre.</span><span class="sxs-lookup"><span data-stu-id="55641-160">You can set up multiple close container profiles.</span></span>       
+2. <span data-ttu-id="55641-161">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="55641-161">Click New.</span></span>
+3. <span data-ttu-id="55641-162">En el campo Id. de perfil de cierre de contenedor, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="55641-162">In the Container closing profile ID field, type a value.</span></span>
+4. <span data-ttu-id="55641-163">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="55641-163">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="55641-164">En el campo Manifiesto en, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="55641-164">In the Manifest at field, select an option.</span></span>
+    * <span data-ttu-id="55641-165">Especifique si se producirán manifiestos al cerrar contenedores de cierre o al confirmar el envío.</span><span class="sxs-lookup"><span data-stu-id="55641-165">Specify whether manifesting will occur when closing containers or when confirming the shipment.</span></span> <span data-ttu-id="55641-166">Tenga en cuenta que los manifiestos requieren Administración de transporte.</span><span class="sxs-lookup"><span data-stu-id="55641-166">Note that manifesting requires Transportation management.</span></span> <span data-ttu-id="55641-167">Los manifiestos se deben implementar en los motores de transporte para que funcionen.</span><span class="sxs-lookup"><span data-stu-id="55641-167">Manifesting must be implemented in the transportation engines in order for it work.</span></span>  
+6. <span data-ttu-id="55641-168">En el campo Almacén, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="55641-168">In the Warehouse field, enter or select a value.</span></span>
+7. <span data-ttu-id="55641-169">En el campo Ubicación predeterminada del envío final, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="55641-169">In the Default location for final shipment field, enter or select a value.</span></span>
+    * <span data-ttu-id="55641-170">Esta será la ubicación a la que se moverán los productos después de que se cierren los contenedores.</span><span class="sxs-lookup"><span data-stu-id="55641-170">This will be location to which products will be moved after the containers are closed.</span></span> <span data-ttu-id="55641-171">Esta ubicación debe tener un perfil de ubicación definido en Parámetros de almacén.</span><span class="sxs-lookup"><span data-stu-id="55641-171">This location must have a location profile defined on Warehouse parameters.</span></span>  
+8. <span data-ttu-id="55641-172">En el campo Unidad de peso, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="55641-172">In the Weight unit field, enter or select a value.</span></span>
+9. <span data-ttu-id="55641-173">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="55641-173">Click Save.</span></span>
 
 

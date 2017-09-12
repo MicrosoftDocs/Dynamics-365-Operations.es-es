@@ -16,41 +16,41 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 0bb995a95529be4d69fd9e82a2bb1fe473feb7f9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 85b6d502f8dea32602d2fd5edc223a9660b863ad
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="view-a-related-intercompany-voucher-from-a-journal"></a>Ver un asiento de empresas vinculadas relacionado de un diario
+# <a name="view-a-related-intercompany-voucher-from-a-journal"></a><span data-ttu-id="b1497-103">Ver un asiento de empresas vinculadas relacionado de un diario</span><span class="sxs-lookup"><span data-stu-id="b1497-103">View a related intercompany voucher from a journal</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-La ventana relacionada con asientos muestra el asiento de la empresa de contrapartida al registrar una transacción de empresas vinculadas del diario general.
+<span data-ttu-id="b1497-104">La ventana relacionada con asientos muestra el asiento de la empresa de contrapartida al registrar una transacción de empresas vinculadas del diario general.</span><span class="sxs-lookup"><span data-stu-id="b1497-104">The related voucher window shows the voucher from the offset company when posting an intercompany transaction from the general journal.</span></span>
 
 
-## <a name="post-an-intercompany-journal"></a>Registrar un diario de empresas vinculadas
-1. Vaya a Diarios generales.
-2. Haga clic en Nuevo.
-3. En la lista, marque la fila seleccionada.
-4. En el campo Nombre, especifique o seleccione el nombre de diario de empresas vinculadas.
-5. Haga clic en Líneas.
-6. En la lista, marque la fila seleccionada.
-7. En el campo Cuenta, especifique los valores deseados.
-8. En el campo Descripción, especifique o seleccione un valor.
-9. En el campo Descripción, escriba un valor.
-10. Cierre la página.
-11. En el campo Débito, escriba un número.
-12. En el campo Empresa de contrapartida, escriba o seleccione la empresa de contrapartida.
-13. En el campo Empresa de contrapartida, especifique o seleccione un valor.
-14. Cierre la página.
-15. En el campo Cuenta de contrapartida, especifique los valores deseados.
-16. Haga clic en Registrar.
+## <a name="post-an-intercompany-journal"></a><span data-ttu-id="b1497-105">Registrar un diario de empresas vinculadas</span><span class="sxs-lookup"><span data-stu-id="b1497-105">Post an intercompany journal</span></span>
+1. <span data-ttu-id="b1497-106">Vaya a Diarios generales.</span><span class="sxs-lookup"><span data-stu-id="b1497-106">Go to General journals.</span></span>
+2. <span data-ttu-id="b1497-107">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="b1497-107">Click New.</span></span>
+3. <span data-ttu-id="b1497-108">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="b1497-108">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="b1497-109">En el campo Nombre, especifique o seleccione el nombre de diario de empresas vinculadas.</span><span class="sxs-lookup"><span data-stu-id="b1497-109">In the Name field, enter or select the intercompany journal name.</span></span>
+5. <span data-ttu-id="b1497-110">Haga clic en Líneas.</span><span class="sxs-lookup"><span data-stu-id="b1497-110">Click Lines.</span></span>
+6. <span data-ttu-id="b1497-111">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="b1497-111">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="b1497-112">En el campo Cuenta, especifique los valores deseados.</span><span class="sxs-lookup"><span data-stu-id="b1497-112">In the Account field, specify the desired values.</span></span>
+8. <span data-ttu-id="b1497-113">En el campo Descripción, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="b1497-113">In the Description field, enter or select a value.</span></span>
+9. <span data-ttu-id="b1497-114">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="b1497-114">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="b1497-115">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="b1497-115">Close the page.</span></span>
+11. <span data-ttu-id="b1497-116">En el campo Débito, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="b1497-116">In the Debit field, enter a number.</span></span>
+12. <span data-ttu-id="b1497-117">En el campo Empresa de contrapartida, escriba o seleccione la empresa de contrapartida.</span><span class="sxs-lookup"><span data-stu-id="b1497-117">In the Offset company field, type or select the offset company.</span></span>
+13. <span data-ttu-id="b1497-118">En el campo Empresa de contrapartida, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="b1497-118">In the Offset company field, enter or select a value.</span></span>
+14. <span data-ttu-id="b1497-119">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="b1497-119">Close the page.</span></span>
+15. <span data-ttu-id="b1497-120">En el campo Cuenta de contrapartida, especifique los valores deseados.</span><span class="sxs-lookup"><span data-stu-id="b1497-120">In the Offset account field, specify the desired values.</span></span>
+16. <span data-ttu-id="b1497-121">Haga clic en Registrar.</span><span class="sxs-lookup"><span data-stu-id="b1497-121">Click Post.</span></span>
 
-## <a name="view-related-intercompany-voucher"></a>Ver asiento de empresas vinculadas relacionadas
-1. Haga clic en Asiento.
-2. Haga clic en Asientos relacionados.
-3. En la lista, marque la fila seleccionada.
-4. Haga clic en Asiento.
+## <a name="view-related-intercompany-voucher"></a><span data-ttu-id="b1497-122">Ver asiento de empresas vinculadas relacionadas</span><span class="sxs-lookup"><span data-stu-id="b1497-122">View related intercompany voucher</span></span>
+1. <span data-ttu-id="b1497-123">Haga clic en Asiento.</span><span class="sxs-lookup"><span data-stu-id="b1497-123">Click Voucher.</span></span>
+2. <span data-ttu-id="b1497-124">Haga clic en Asientos relacionados.</span><span class="sxs-lookup"><span data-stu-id="b1497-124">Click Related vouchers.</span></span>
+3. <span data-ttu-id="b1497-125">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="b1497-125">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="b1497-126">Haga clic en Asiento.</span><span class="sxs-lookup"><span data-stu-id="b1497-126">Click Voucher.</span></span>
 
 

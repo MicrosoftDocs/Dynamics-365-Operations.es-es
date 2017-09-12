@@ -16,52 +16,52 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7382c5ddc5d0972c8756b64ca7cc4e62073c367e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e9c9811b348d81cd735c5b75ca48e0a56a8d52be
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-free-text-invoice-template"></a>Crear una plantilla de factura de servicios
+# <a name="create-a-free-text-invoice-template"></a><span data-ttu-id="0e6a3-103">Crear una plantilla de factura de servicios</span><span class="sxs-lookup"><span data-stu-id="0e6a3-103">Create a free text invoice template</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Esta grabación usa la empresa de demostración USMF. El registro se va a utilizar para el usuario responsable de gestionar y de procesar facturas de cuentas por cobrar.
+<span data-ttu-id="0e6a3-104">Esta grabación usa la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-104">This recording uses the USMF demo company.</span></span> <span data-ttu-id="0e6a3-105">El registro se va a utilizar para el usuario responsable de gestionar y de procesar facturas de cuentas por cobrar.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-105">The recording is intended for the user who is responsible for managing and processing A/R invoices.</span></span>
 
-1. Vaya a Clientes > Facturas > Facturas periódicas > Plantillas de factura de texto libre.
-    * Use este formulario para crear plantillas de factura de texto sin formato que pueden incluir líneas de facturas, gastos, una plantilla de distribución contable e información de cuenta contable.  
-2. Haga clic en Nuevo para crear una plantilla de texto libre nueva.
-3. En el campo Nombre de plantilla, escriba un valor.
-    * Nombre de plantilla identifica de forma exclusiva una plantilla de factura de texto libre. Dos plantillas no pueden tener el mismo nombre de plantilla.  
-4. En el campo Descripción, escriba una descripción de la plantilla.
-5. Expanda la ficha Líneas de factura.
-6. En el campo Descripción, escriba una descripción de la línea de factura.
-7. En el campo Cuenta principal, seleccione una cuenta de ingresos.
-    * Puede seleccionar la cuenta de transacción de compensación de un crédito de cliente por el importe total de la factura en la página Perfiles de contabilización del cliente.  
-8. En el campo Grupo de impuestos, haga clic en el botón desplegable para abrir la búsqueda.
-    * El grupo de impuestos para la línea de factura actual es el grupo de impuestos predeterminado para la cuenta del cliente.  
-9. En la lista, haga clic en el vínculo de la fila seleccionada.
-10. En el campo Grupo de impuestos del artículo, seleccione el grupo de impuestos de artículo para la línea de factura actual.
-11. En la lista, haga clic en el vínculo de la fila seleccionada.
-12. En el campo Precio unitario, escriba o vea el precio por unidad para la línea de factura.
-    * Este importe se multiplica por el valor del campo Cantidad para determinar el importe de la línea de factura.  
-13. Agregue una línea nueva a la plantilla de factura de texto libre.
-14. En el campo Descripción, escriba una descripción de la línea de factura.
-15. En el campo Cuenta principal, seleccione una cuenta de ingresos.
-    * Puede seleccionar la cuenta de transacción de compensación de un crédito de cliente por el importe total de la factura en la página Perfiles de contabilización del cliente.  
-16. En el campo Grupo de impuestos, haga clic en el botón desplegable para abrir la búsqueda.
-    * El grupo de impuestos para la línea de factura actual es el grupo de impuestos predeterminado para la cuenta del cliente.  
-17. En la lista, haga clic en el vínculo de la fila seleccionada.
-18. En el campo Grupo de impuestos de artículos, haga clic en el botón desplegable para abrir la búsqueda.
-    * El grupo de impuestos de artículo para la línea de factura actual.  
-19. En la lista, haga clic en el vínculo de la fila seleccionada.
-20. Especificación o visualización del número unidades para la línea de factura
-    * Este número se multiplica por el valor del campo Precio unitario para determinar el importe de la línea de factura.  
-21. Permite especificar o ver el precio unitario para la línea de factura. 
-    * Este importe se multiplica por el valor del campo Cantidad para determinar el importe de la línea de factura.  
-22. Vea y modifique las distribuciones contables para una línea individual y cualquier línea secundaria.
-    * Las distribuciones contables definen cómo se contabilizará un importe; por ejemplo, cómo se contabilizarán los ingresos, impuestos o gastos en una factura de texto libre.  
-23. Actualice las distribuciones contables para la línea de factura seleccionada.
-24. Haga clic en Cerrar.
+1. <span data-ttu-id="0e6a3-106">Vaya a Clientes > Facturas > Facturas periódicas > Plantillas de factura de texto libre.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-106">Go to Accounts receivable > Invoices > Recurring invoices > Free text invoice templates.</span></span>
+    * <span data-ttu-id="0e6a3-107">Use este formulario para crear plantillas de factura de texto sin formato que pueden incluir líneas de facturas, gastos, una plantilla de distribución contable e información de cuenta contable.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-107">Use this form to create free text invoice templates that can include invoice lines, charges, an accounting distribution template, and ledger account information.</span></span>  
+2. <span data-ttu-id="0e6a3-108">Haga clic en Nuevo para crear una plantilla de texto libre nueva.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-108">Click 'New' to create a new free text invoice template.</span></span>
+3. <span data-ttu-id="0e6a3-109">En el campo Nombre de plantilla, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-109">In the Template name field, type a value.</span></span>
+    * <span data-ttu-id="0e6a3-110">Nombre de plantilla identifica de forma exclusiva una plantilla de factura de texto libre.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-110">‘Template name’ uniquely identifies a free text invoice template.</span></span> <span data-ttu-id="0e6a3-111">Dos plantillas no pueden tener el mismo nombre de plantilla.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-111">No two templates can have the same ‘Template name’.</span></span>  
+4. <span data-ttu-id="0e6a3-112">En el campo Descripción, escriba una descripción de la plantilla.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-112">In the Description field, enter a description of the template.</span></span>
+5. <span data-ttu-id="0e6a3-113">Expanda la ficha Líneas de factura.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-113">Expand the Invoice lines tab.</span></span>
+6. <span data-ttu-id="0e6a3-114">En el campo Descripción, escriba una descripción de la línea de factura.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-114">In the Description field, enter a description of the invoice line.</span></span>
+7. <span data-ttu-id="0e6a3-115">En el campo Cuenta principal, seleccione una cuenta de ingresos.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-115">In the Main account field, select a revenue account.</span></span>
+    * <span data-ttu-id="0e6a3-116">Puede seleccionar la cuenta de transacción de compensación de un crédito de cliente por el importe total de la factura en la página Perfiles de contabilización del cliente.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-116">You can select the offset transaction account of a customer credit for the total invoice amount in the Customer posting profiles page.</span></span>  
+8. <span data-ttu-id="0e6a3-117">En el campo Grupo de impuestos, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-117">In the Sales tax group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="0e6a3-118">El grupo de impuestos para la línea de factura actual es el grupo de impuestos predeterminado para la cuenta del cliente.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-118">The sales tax group for the current invoice line is the default sales tax group for the customer account.</span></span>  
+9. <span data-ttu-id="0e6a3-119">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-119">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="0e6a3-120">En el campo Grupo de impuestos del artículo, seleccione el grupo de impuestos de artículo para la línea de factura actual.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-120">In the Item tax group field, select the item sales tax group for the current invoice line.</span></span>
+11. <span data-ttu-id="0e6a3-121">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-121">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="0e6a3-122">En el campo Precio unitario, escriba o vea el precio por unidad para la línea de factura.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-122">In the Unit price field, enter or view the price per unit for the invoice line</span></span>
+    * <span data-ttu-id="0e6a3-123">Este importe se multiplica por el valor del campo Cantidad para determinar el importe de la línea de factura.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-123">This amount is multiplied by the Quantity field to determine the invoice line amount.</span></span>  
+13. <span data-ttu-id="0e6a3-124">Agregue una línea nueva a la plantilla de factura de texto libre.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-124">Add a new line to free text invoice template.</span></span>
+14. <span data-ttu-id="0e6a3-125">En el campo Descripción, escriba una descripción de la línea de factura.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-125">In the Description field, enter a description of the invoice line.</span></span>
+15. <span data-ttu-id="0e6a3-126">En el campo Cuenta principal, seleccione una cuenta de ingresos.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-126">In the Main account field, select a revenue account.</span></span>
+    * <span data-ttu-id="0e6a3-127">Puede seleccionar la cuenta de transacción de compensación de un crédito de cliente por el importe total de la factura en la página Perfiles de contabilización del cliente.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-127">You can select the offset transaction account of a customer credit for the total invoice amount in the Customer posting profiles page.</span></span>  
+16. <span data-ttu-id="0e6a3-128">En el campo Grupo de impuestos, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-128">In the Sales tax group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="0e6a3-129">El grupo de impuestos para la línea de factura actual es el grupo de impuestos predeterminado para la cuenta del cliente.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-129">The sales tax group for the current invoice line is the default sales tax group for the customer account.</span></span>  
+17. <span data-ttu-id="0e6a3-130">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-130">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="0e6a3-131">En el campo Grupo de impuestos de artículos, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-131">In the Item sales tax group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="0e6a3-132">El grupo de impuestos de artículo para la línea de factura actual.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-132">The item sales tax group for the current invoice line.</span></span>  
+19. <span data-ttu-id="0e6a3-133">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-133">In the list, click the link in the selected row.</span></span>
+20. <span data-ttu-id="0e6a3-134">Especificación o visualización del número unidades para la línea de factura</span><span class="sxs-lookup"><span data-stu-id="0e6a3-134">Enter or view the number of units for the invoice line</span></span>
+    * <span data-ttu-id="0e6a3-135">Este número se multiplica por el valor del campo Precio unitario para determinar el importe de la línea de factura.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-135">This number is multiplied by the value in the Unit price field to determine the invoice line amount.</span></span>  
+21. <span data-ttu-id="0e6a3-136">Permite especificar o ver el precio unitario para la línea de factura.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-136">Enter or view the price per unit for the invoice line.</span></span> 
+    * <span data-ttu-id="0e6a3-137">Este importe se multiplica por el valor del campo Cantidad para determinar el importe de la línea de factura.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-137">This amount is multiplied by the value in the Quantity field to determine the invoice line amount.</span></span>  
+22. <span data-ttu-id="0e6a3-138">Vea y modifique las distribuciones contables para una línea individual y cualquier línea secundaria.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-138">View and modify the accounting distributions for an individual line and any child lines.</span></span>
+    * <span data-ttu-id="0e6a3-139">Las distribuciones contables definen cómo se contabilizará un importe; por ejemplo, cómo se contabilizarán los ingresos, impuestos o gastos en una factura de texto libre.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-139">Accounting distributions define how an amount will be accounted for, such as how the revenue, tax, or charges will be accounted for on a free text invoice.</span></span>  
+23. <span data-ttu-id="0e6a3-140">Actualice las distribuciones contables para la línea de factura seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-140">Update the accounting distributions for the selected invoice line.</span></span>
+24. <span data-ttu-id="0e6a3-141">Haga clic en Cerrar.</span><span class="sxs-lookup"><span data-stu-id="0e6a3-141">Click Close.</span></span>
 
 

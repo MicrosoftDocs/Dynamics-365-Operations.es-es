@@ -16,40 +16,40 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 16c2af862a73047a2e6ebdc056275392fa8a0d93
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7cc90bc86cd489b124a806c480632dd53ba47f3f
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>Creación y exportación de pagos de proveedor mediante el formato de pago de ISO20022
+# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a><span data-ttu-id="591e9-103">Creación y exportación de pagos de proveedor mediante el formato de pago de ISO20022</span><span class="sxs-lookup"><span data-stu-id="591e9-103">Create and export vendor payments using ISO20022 payment format</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo crear líneas de pago en el diario de pago de proveedor y generar un archivo de pago de proveedor utilizando el ejemplo ISO2022 Transferencia de crédito. 
+<span data-ttu-id="591e9-104">Este procedimiento muestra cómo crear líneas de pago en el diario de pago de proveedor y generar un archivo de pago de proveedor utilizando el ejemplo ISO2022 Transferencia de crédito.</span><span class="sxs-lookup"><span data-stu-id="591e9-104">This procedure shows how to create payment lines in the vendor payment journal and generate a vendor payment file using ISO2022 Credit transfer example.</span></span> 
 
-La empresa de datos de demostración utilizada para crear este procedimiento es DEMF.
+<span data-ttu-id="591e9-105">La empresa de datos de demostración utilizada para crear este procedimiento es DEMF.</span><span class="sxs-lookup"><span data-stu-id="591e9-105">The demo data company used to create this procedure is DEMF.</span></span>
 
-Este es el quinto procedimiento, de cinco, que muestra el proceso de pago del proveedor mediante las configuraciones de informes electrónicos. Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
+<span data-ttu-id="591e9-106">Este es el quinto procedimiento, de cinco, que muestra el proceso de pago del proveedor mediante las configuraciones de informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="591e9-106">This is the fifth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="591e9-107">Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="591e9-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="create-payment-lines"></a>Creación de líneas de pago
-1. Vaya a Proveedores > Pagos > Diario de pagos.
-2. Haga clic en Nuevo.
-3. En la lista, marque la fila seleccionada.
-4. En el campo Nombre, especifique o seleccione un valor.
-5. Haga clic en Líneas.
-6. Haga clic en Propuesta de pago.
-7. Haga clic en Crear propuesta de pago.
-8. Expanda la sección Registros que incluir.
-9. Haga clic en Filtro.
-10. En la lista, seleccione la fila para la tabla Proveedores y el campo Cuenta de proveedor.
-11. En el campo Criterios, especifique o seleccione un valor.
-    * Puede aplicar cualquier criterio para seleccionar transacciones de proveedor para pagar, por ejemplo, use DE-001 como cuenta de proveedor.  
-12. Haga clic en Aceptar
-13. Haga clic en Aceptar
-14. Haga clic en Crear pagos.
+## <a name="create-payment-lines"></a><span data-ttu-id="591e9-108">Creación de líneas de pago</span><span class="sxs-lookup"><span data-stu-id="591e9-108">Create payment lines</span></span>
+1. <span data-ttu-id="591e9-109">Vaya a Proveedores > Pagos > Diario de pagos.</span><span class="sxs-lookup"><span data-stu-id="591e9-109">Go to Accounts payable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="591e9-110">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="591e9-110">Click New.</span></span>
+3. <span data-ttu-id="591e9-111">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="591e9-111">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="591e9-112">En el campo Nombre, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="591e9-112">In the Name field, enter or select a value.</span></span>
+5. <span data-ttu-id="591e9-113">Haga clic en Líneas.</span><span class="sxs-lookup"><span data-stu-id="591e9-113">Click Lines.</span></span>
+6. <span data-ttu-id="591e9-114">Haga clic en Propuesta de pago.</span><span class="sxs-lookup"><span data-stu-id="591e9-114">Click Payment proposal.</span></span>
+7. <span data-ttu-id="591e9-115">Haga clic en Crear propuesta de pago.</span><span class="sxs-lookup"><span data-stu-id="591e9-115">Click Create payment proposal.</span></span>
+8. <span data-ttu-id="591e9-116">Expanda la sección Registros que incluir.</span><span class="sxs-lookup"><span data-stu-id="591e9-116">Expand the Records to include section.</span></span>
+9. <span data-ttu-id="591e9-117">Haga clic en Filtro.</span><span class="sxs-lookup"><span data-stu-id="591e9-117">Click Filter.</span></span>
+10. <span data-ttu-id="591e9-118">En la lista, seleccione la fila para la tabla Proveedores y el campo Cuenta de proveedor.</span><span class="sxs-lookup"><span data-stu-id="591e9-118">In the list, select the row for Vendors table and Vendor account field.</span></span>
+11. <span data-ttu-id="591e9-119">En el campo Criterios, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="591e9-119">In the Criteria field, enter or select a value.</span></span>
+    * <span data-ttu-id="591e9-120">Puede aplicar cualquier criterio para seleccionar transacciones de proveedor para pagar, por ejemplo, use DE-001 como cuenta de proveedor.</span><span class="sxs-lookup"><span data-stu-id="591e9-120">You can apply any criteria for selecting vendor transactions to pay, for this example use DE-001 as a vendor account.</span></span>  
+12. <span data-ttu-id="591e9-121">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="591e9-121">Click OK.</span></span>
+13. <span data-ttu-id="591e9-122">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="591e9-122">Click OK.</span></span>
+14. <span data-ttu-id="591e9-123">Haga clic en Crear pagos.</span><span class="sxs-lookup"><span data-stu-id="591e9-123">Click Create payments.</span></span>
 
-## <a name="generate-an-iso20022-payment-file"></a>Generación de un archivo de pago ISO20022
+## <a name="generate-an-iso20022-payment-file"></a><span data-ttu-id="591e9-124">Generación de un archivo de pago ISO20022</span><span class="sxs-lookup"><span data-stu-id="591e9-124">Generate an ISO20022 payment file</span></span>
 
 

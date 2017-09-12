@@ -16,57 +16,57 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 6e1d7a54055829a1e9215a44f8eba346291f6717
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 09eaf28b0f4ed93d602f84688369614c17502d95
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="run-format-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>Ejecutar el formato para usar archivos de administración de documentos en las salidas de formato para informes electrónicos (ER)
+# <a name="run-format-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a><span data-ttu-id="6e492-103">Ejecutar el formato para usar archivos de administración de documentos en las salidas de formato para informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="6e492-103">Run format to use Document Management files in format outputs for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-En los pasos siguientes se explica cómo un usuario asignado al administrador del sistema, o a un rol de desarrollador de informes electrónicos, puede configurar un formato de informe electrónico (ER) para usar archivos de gestión de documentos (adjuntos) en formato ER. Estos pasos se pueden llevar a cabo en la empresa DEMF.
+<span data-ttu-id="6e492-104">En los pasos siguientes se explica cómo un usuario asignado al administrador del sistema, o a un rol de desarrollador de informes electrónicos, puede configurar un formato de informe electrónico (ER) para usar archivos de gestión de documentos (adjuntos) en formato ER.</span><span class="sxs-lookup"><span data-stu-id="6e492-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="6e492-105">Estos pasos se pueden llevar a cabo en la empresa DEMF.</span><span class="sxs-lookup"><span data-stu-id="6e492-105">These steps can be performed in the DEMF company.</span></span>
 
-Para completar estos pasos, primero debe completar los pasos en el procedimiento "ER Uso de archivos de gestión de documentos en formatos de salida (Parte 3: crear formato)”.
+<span data-ttu-id="6e492-106">Para completar estos pasos, primero debe completar los pasos en el procedimiento "ER Uso de archivos de gestión de documentos en formatos de salida (Parte 3: crear formato)”.</span><span class="sxs-lookup"><span data-stu-id="6e492-106">To complete these steps, you must first complete the steps in the “ER Use Document Management files in format outputs (Part 3: Create format)” procedure.</span></span>
 
-Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
+<span data-ttu-id="6e492-107">Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="6e492-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="add-necessary-attachments-for-sales-order-of-a-single-invoice"></a>Agregue los adjuntos necesarios para el pedido de ventas de una única factura
-1. Vaya a Clientes > Facturas > Facturas de cliente abiertas.
-2. Use el filtro rápido para buscar registros. Por ejemplo, filtre el campo Factura con un valor de "CIV-000148".
-    * CIV-000148  
-3. Haga clic para seguir el enlace de la factura seleccionada.
-    * CIV-000148  
-4. Haga clic para seguir el enlace en el campo Pedido de compra.
-    * 000148  
-5. En las Líneas o el campo de cabecera, seleccione la opción de Cabecera.
-    * Seleccione el Encabezado para indicar que éste será el destino para agregar los adjuntos.  
-6. Haga clic en Vincular.
-    * Agregue algunos archivos como adjuntos para este pedido de ventas. Use los archivos de los tipos de documento admitidos por la gestión de documentos (con las extensiones de archivo DOCX, DPF, XML, JPG., etc.). Examinar y seleccionar los archivos que se adjuntarán y que serán procesados con la factura relacionada en el mensaje electrónico de ER.  
-7. Haga clic en Nuevo.
-8. Haga clic en Archivo.
-9. Haga clic en Nuevo.
-10. Haga clic en Archivo.
-11. Cierre la página.
-12. Cierre la página.
-13. Cierre la página.
-14. Cierre la página.
+## <a name="add-necessary-attachments-for-sales-order-of-a-single-invoice"></a><span data-ttu-id="6e492-108">Agregue los adjuntos necesarios para el pedido de ventas de una única factura</span><span class="sxs-lookup"><span data-stu-id="6e492-108">Add necessary attachments for sales order of a single invoice</span></span>
+1. <span data-ttu-id="6e492-109">Vaya a Clientes > Facturas > Facturas de cliente abiertas.</span><span class="sxs-lookup"><span data-stu-id="6e492-109">Go to Accounts receivable > Invoices > Open customer invoices.</span></span>
+2. <span data-ttu-id="6e492-110">Use el filtro rápido para buscar registros.</span><span class="sxs-lookup"><span data-stu-id="6e492-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="6e492-111">Por ejemplo, filtre el campo Factura con un valor de "CIV-000148".</span><span class="sxs-lookup"><span data-stu-id="6e492-111">For example, filter on the Invoice field with a value of 'CIV-000148'.</span></span>
+    * <span data-ttu-id="6e492-112">CIV-000148</span><span class="sxs-lookup"><span data-stu-id="6e492-112">CIV-000148</span></span>  
+3. <span data-ttu-id="6e492-113">Haga clic para seguir el enlace de la factura seleccionada.</span><span class="sxs-lookup"><span data-stu-id="6e492-113">Click to follow the selected invoice’s link.</span></span>
+    * <span data-ttu-id="6e492-114">CIV-000148</span><span class="sxs-lookup"><span data-stu-id="6e492-114">CIV-000148</span></span>  
+4. <span data-ttu-id="6e492-115">Haga clic para seguir el enlace en el campo Pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="6e492-115">Click to follow the link in the Sales order field.</span></span>
+    * <span data-ttu-id="6e492-116">000148</span><span class="sxs-lookup"><span data-stu-id="6e492-116">000148</span></span>  
+5. <span data-ttu-id="6e492-117">En las Líneas o el campo de cabecera, seleccione la opción de Cabecera.</span><span class="sxs-lookup"><span data-stu-id="6e492-117">In the Lines or header field, select the option of Header.</span></span>
+    * <span data-ttu-id="6e492-118">Seleccione el Encabezado para indicar que éste será el destino para agregar los adjuntos.</span><span class="sxs-lookup"><span data-stu-id="6e492-118">Select Header to indicate that this will be the target for adding attachments.</span></span>  
+6. <span data-ttu-id="6e492-119">Haga clic en Vincular.</span><span class="sxs-lookup"><span data-stu-id="6e492-119">Click Attach.</span></span>
+    * <span data-ttu-id="6e492-120">Agregue algunos archivos como adjuntos para este pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="6e492-120">Add a few files as attachments for this sales order.</span></span> <span data-ttu-id="6e492-121">Use los archivos de los tipos de documento admitidos por la gestión de documentos (con las extensiones de archivo DOCX, DPF, XML, JPG., etc.).</span><span class="sxs-lookup"><span data-stu-id="6e492-121">Use the files of the document types that are supported by the Document Management (with file extensions DOCX, DPF, XML, JPG, etc.).</span></span> <span data-ttu-id="6e492-122">Examinar y seleccionar los archivos que se adjuntarán y que serán procesados con la factura relacionada en el mensaje electrónico de ER.</span><span class="sxs-lookup"><span data-stu-id="6e492-122">Browse and select files to be attached and further processed with the related invoice in the ER electronic message.</span></span>  
+7. <span data-ttu-id="6e492-123">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="6e492-123">Click New.</span></span>
+8. <span data-ttu-id="6e492-124">Haga clic en Archivo.</span><span class="sxs-lookup"><span data-stu-id="6e492-124">Click File.</span></span>
+9. <span data-ttu-id="6e492-125">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="6e492-125">Click New.</span></span>
+10. <span data-ttu-id="6e492-126">Haga clic en Archivo.</span><span class="sxs-lookup"><span data-stu-id="6e492-126">Click File.</span></span>
+11. <span data-ttu-id="6e492-127">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="6e492-127">Close the page.</span></span>
+12. <span data-ttu-id="6e492-128">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="6e492-128">Close the page.</span></span>
+13. <span data-ttu-id="6e492-129">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="6e492-129">Close the page.</span></span>
+14. <span data-ttu-id="6e492-130">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="6e492-130">Close the page.</span></span>
 
-## <a name="run-the-designed-report-for-the-selected-invoice"></a>Ejecute el informe diseñado para la factura seleccionada
-1. Vaya a Administración de la organización > Informes electrónicos > Configuraciones.
-2. En el árbol, expanda el “Modelo de factura del cliente”.
-3. En el árbol, expanda el “Modelo de factura de cliente\Modelo de factura de cliente (cliente)”.
-4. En el árbol, seleccione “Modelo de factura de cliente\Modelo de factura de cliente (importación)\Mensaje de ejemplo de factura electrónica”.
-5. Haga clic en Ejecutar.
-6. Expanda los Registros para incluir la sección ().
-7. Haga clic en Filtro.
-8. Seleccione la fila del diario de facturas de Cliente y el campo de Pedido de ventas.
-9. En campo Criterios, introduzca '000148'.
-    * En los criterios del campo “Pedido de ventas”, introduzca el número de pedido 000148.  
-10. Haga clic en Aceptar
-11. Haga clic en Aceptar
-    * Revise la salida generada. Tenga en cuenta que se ha creado un nodo XML por cada adjunto. El contenido del adjunto se rellena al archivo de salida XML en formato de texto MIME (base64).  
+## <a name="run-the-designed-report-for-the-selected-invoice"></a><span data-ttu-id="6e492-131">Ejecute el informe diseñado para la factura seleccionada</span><span class="sxs-lookup"><span data-stu-id="6e492-131">Run the designed report for the selected invoice</span></span>
+1. <span data-ttu-id="6e492-132">Vaya a Administración de la organización > Informes electrónicos > Configuraciones.</span><span class="sxs-lookup"><span data-stu-id="6e492-132">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="6e492-133">En el árbol, expanda el “Modelo de factura del cliente”.</span><span class="sxs-lookup"><span data-stu-id="6e492-133">In the tree, expand 'Customer invoice model'.</span></span>
+3. <span data-ttu-id="6e492-134">En el árbol, expanda el “Modelo de factura de cliente\Modelo de factura de cliente (cliente)”.</span><span class="sxs-lookup"><span data-stu-id="6e492-134">In the tree, expand 'Customer invoice model\Customer invoice model (custom)'.</span></span>
+4. <span data-ttu-id="6e492-135">En el árbol, seleccione “Modelo de factura de cliente\Modelo de factura de cliente (importación)\Mensaje de ejemplo de factura electrónica”.</span><span class="sxs-lookup"><span data-stu-id="6e492-135">In the tree, select 'Customer invoice model\Customer invoice model (custom)\Electronic invoice sample message'.</span></span>
+5. <span data-ttu-id="6e492-136">Haga clic en Ejecutar.</span><span class="sxs-lookup"><span data-stu-id="6e492-136">Click Run.</span></span>
+6. <span data-ttu-id="6e492-137">Expanda los Registros para incluir la sección ().</span><span class="sxs-lookup"><span data-stu-id="6e492-137">Expand the Records to include () section.</span></span>
+7. <span data-ttu-id="6e492-138">Haga clic en Filtro.</span><span class="sxs-lookup"><span data-stu-id="6e492-138">Click Filter.</span></span>
+8. <span data-ttu-id="6e492-139">Seleccione la fila del diario de facturas de Cliente y el campo de Pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="6e492-139">Select the row of the Customer invoice journal and the Sales order field.</span></span>
+9. <span data-ttu-id="6e492-140">En campo Criterios, introduzca '000148'.</span><span class="sxs-lookup"><span data-stu-id="6e492-140">In the Criteria field, type '000148'.</span></span>
+    * <span data-ttu-id="6e492-141">En los criterios del campo “Pedido de ventas”, introduzca el número de pedido 000148.</span><span class="sxs-lookup"><span data-stu-id="6e492-141">In the criteria “Sales order” field, type the order number 000148.</span></span>  
+10. <span data-ttu-id="6e492-142">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="6e492-142">Click OK.</span></span>
+11. <span data-ttu-id="6e492-143">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="6e492-143">Click OK.</span></span>
+    * <span data-ttu-id="6e492-144">Revise la salida generada.</span><span class="sxs-lookup"><span data-stu-id="6e492-144">Review the generated output.</span></span> <span data-ttu-id="6e492-145">Tenga en cuenta que se ha creado un nodo XML por cada adjunto.</span><span class="sxs-lookup"><span data-stu-id="6e492-145">Note that for each attachment a single XML node has been created.</span></span> <span data-ttu-id="6e492-146">El contenido del adjunto se rellena al archivo de salida XML en formato de texto MIME (base64).</span><span class="sxs-lookup"><span data-stu-id="6e492-146">The attachment’s content is populated to the XML output in MIME (base64) text format.</span></span>  
 
 

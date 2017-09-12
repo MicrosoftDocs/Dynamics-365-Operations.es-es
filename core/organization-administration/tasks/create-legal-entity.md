@@ -16,45 +16,45 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e07adb5f77681c7901662ae94b6d916008ac3c6d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 89d3babc4447ca7398521b93634db7ecb6cfb5de
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-legal-entity"></a>Crear una entidad jurídica
+# <a name="create-a-legal-entity"></a><span data-ttu-id="9edc7-103">Crear una entidad jurídica</span><span class="sxs-lookup"><span data-stu-id="9edc7-103">Create a legal entity</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Una entidad jurídica es una organización identificada mediante el registro en una autoridad jurídica. Las entidades jurídicas pueden realizar contratos y tienen la obligación de preparar declaraciones para dar a conocer su rendimiento. El siguiente procedimiento explica cómo crear una entidad jurídica. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
+<span data-ttu-id="9edc7-104">Una entidad jurídica es una organización identificada mediante el registro en una autoridad jurídica.</span><span class="sxs-lookup"><span data-stu-id="9edc7-104">A legal entity is an organization that is identified through registration with a legal authority.</span></span> <span data-ttu-id="9edc7-105">Las entidades jurídicas pueden realizar contratos y tienen la obligación de preparar declaraciones para dar a conocer su rendimiento.</span><span class="sxs-lookup"><span data-stu-id="9edc7-105">Legal entities can enter into contracts and are required to prepare statements that report on their performance.</span></span> <span data-ttu-id="9edc7-106">El siguiente procedimiento explica cómo crear una entidad jurídica.</span><span class="sxs-lookup"><span data-stu-id="9edc7-106">The following procedure explains how to create a legal entity.</span></span> <span data-ttu-id="9edc7-107">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="9edc7-107">The demo data company used to create this procedure is USMF.</span></span>
 
-1. Vaya a Administración de la organización > Organizaciones > Entidades jurídicas.
-2. Haga clic en Nuevo.
-3. En el campo Nombre, escriba un valor.
-4. En el campo Empresa, escriba un valor.
-5. En el campo País o región, especifique o seleccione un valor.
-6. Haga clic en Aceptar
-    * En la sección general, proporcione la siguiente información general sobre la entidad jurídica: Especifique un nombre de búsqueda, si se requiere un nombre de búsqueda. Un nombre de búsqueda es un nombre alternativo que puede usarse para buscar esta entidad jurídica. Seleccione si la entidad jurídica se usa como una empresa de consolidación. Seleccione si la entidad jurídica se usa como una empresa de eliminación.  
-7. Expanda la sección Direcciones.
-    * En la sección Direcciones, especifique información de la dirección, como la calle y el número, el código postal y la ciudad.  
-8. Expanda la sección Información de contacto.
-    * En la sección Información de contacto, especifique información sobre los métodos de comunicación, como direcciones de correo electrónico, URL y números de teléfono.  
-9. Expanda la sección Informes estatutarios.
-    * En la sección Informes estatutarios, especifique los números de registro que se usan para informes estatutarios.  
-10. Expanda la sección Números de registro.
-    * En la sección Números de registro, especifique cualquier información requerida por la entidad jurídica.  
-11. Expanda la sección Información de cuenta bancaria.
-    * En la sección Información de cuenta bancaria, especifique las cuentas bancarias y los números de enrutamiento para la entidad jurídica.  
-12. Expanda la sección Comercio exterior y logística.
-    * En la sección Comercio exterior y logística, especifique la información de envío para la entidad jurídica.  
-13. Expanda la sección Secuencias numéricas.
-    * En la sección Secuencias numéricas, se pueden ver las secuencias numéricas asociadas a la entidad jurídica.  
-14. Expanda la sección Imágenes.
-    * En la sección Imágenes, vea o cambie el logotipo y/o la imagen del panel asociada a la entidad jurídica.  
-15. Expanda la sección Registro de impuestos.
-    * En la sección Registro de impuestos, especifique los números de registro que se usan para hacer declaraciones a las autoridades fiscales.  
-16. Expanda la sección IRPF.
-    * En la sección IRPF, especifique la información de IRPF de la entidad jurídica.  
-17. Haga clic en Guardar.
+1. <span data-ttu-id="9edc7-108">Vaya a Administración de la organización > Organizaciones > Entidades jurídicas.</span><span class="sxs-lookup"><span data-stu-id="9edc7-108">Go to Organization administration > Organizations > Legal entities.</span></span>
+2. <span data-ttu-id="9edc7-109">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="9edc7-109">Click New.</span></span>
+3. <span data-ttu-id="9edc7-110">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="9edc7-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="9edc7-111">En el campo Empresa, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="9edc7-111">In the Company field, type a value.</span></span>
+5. <span data-ttu-id="9edc7-112">En el campo País o región, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="9edc7-112">In the Country/region field, enter or select a value.</span></span>
+6. <span data-ttu-id="9edc7-113">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="9edc7-113">Click OK.</span></span>
+    * <span data-ttu-id="9edc7-114">En la sección general, proporcione la siguiente información general sobre la entidad jurídica: Especifique un nombre de búsqueda, si se requiere un nombre de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="9edc7-114">In the General section, provide the following general information about the legal entity: Enter a search name, if a search name is required.</span></span> <span data-ttu-id="9edc7-115">Un nombre de búsqueda es un nombre alternativo que puede usarse para buscar esta entidad jurídica.</span><span class="sxs-lookup"><span data-stu-id="9edc7-115">A search name is an alternate name that can be used to search for this legal entity.</span></span> <span data-ttu-id="9edc7-116">Seleccione si la entidad jurídica se usa como una empresa de consolidación.</span><span class="sxs-lookup"><span data-stu-id="9edc7-116">Select whether this legal entity is being used as a consolidation company.</span></span> <span data-ttu-id="9edc7-117">Seleccione si la entidad jurídica se usa como una empresa de eliminación.</span><span class="sxs-lookup"><span data-stu-id="9edc7-117">Select whether this legal entity is being used as an elimination company.</span></span>  
+7. <span data-ttu-id="9edc7-118">Expanda la sección Direcciones.</span><span class="sxs-lookup"><span data-stu-id="9edc7-118">Expand the Addresses section.</span></span>
+    * <span data-ttu-id="9edc7-119">En la sección Direcciones, especifique información de la dirección, como la calle y el número, el código postal y la ciudad.</span><span class="sxs-lookup"><span data-stu-id="9edc7-119">In the Addresses section, enter address information, such as the street name and number, postal code, and city.</span></span>  
+8. <span data-ttu-id="9edc7-120">Expanda la sección Información de contacto.</span><span class="sxs-lookup"><span data-stu-id="9edc7-120">Expand the Contact information section.</span></span>
+    * <span data-ttu-id="9edc7-121">En la sección Información de contacto, especifique información sobre los métodos de comunicación, como direcciones de correo electrónico, URL y números de teléfono.</span><span class="sxs-lookup"><span data-stu-id="9edc7-121">In the Contact information section, enter information about methods of communication, such as email addresses, URLs, and telephone numbers.</span></span>  
+9. <span data-ttu-id="9edc7-122">Expanda la sección Informes estatutarios.</span><span class="sxs-lookup"><span data-stu-id="9edc7-122">Expand the Statutory reporting section.</span></span>
+    * <span data-ttu-id="9edc7-123">En la sección Informes estatutarios, especifique los números de registro que se usan para informes estatutarios.</span><span class="sxs-lookup"><span data-stu-id="9edc7-123">In the Statutory reporting section, enter the registration numbers that are used for statutory reporting.</span></span>  
+10. <span data-ttu-id="9edc7-124">Expanda la sección Números de registro.</span><span class="sxs-lookup"><span data-stu-id="9edc7-124">Expand the Registration numbers section.</span></span>
+    * <span data-ttu-id="9edc7-125">En la sección Números de registro, especifique cualquier información requerida por la entidad jurídica.</span><span class="sxs-lookup"><span data-stu-id="9edc7-125">In the Registration numbers section, enter any information required by the legal entity.</span></span>  
+11. <span data-ttu-id="9edc7-126">Expanda la sección Información de cuenta bancaria.</span><span class="sxs-lookup"><span data-stu-id="9edc7-126">Expand the Bank account information section.</span></span>
+    * <span data-ttu-id="9edc7-127">En la sección Información de cuenta bancaria, especifique las cuentas bancarias y los números de enrutamiento para la entidad jurídica.</span><span class="sxs-lookup"><span data-stu-id="9edc7-127">In the Bank account information section, enter bank accounts and routing numbers for the legal entity.</span></span>  
+12. <span data-ttu-id="9edc7-128">Expanda la sección Comercio exterior y logística.</span><span class="sxs-lookup"><span data-stu-id="9edc7-128">Expand the Foreign trade and logistics section.</span></span>
+    * <span data-ttu-id="9edc7-129">En la sección Comercio exterior y logística, especifique la información de envío para la entidad jurídica.</span><span class="sxs-lookup"><span data-stu-id="9edc7-129">In the Foreign trade and logistics section, enter shipping information for the legal entity.</span></span>  
+13. <span data-ttu-id="9edc7-130">Expanda la sección Secuencias numéricas.</span><span class="sxs-lookup"><span data-stu-id="9edc7-130">Expand the Number sequences section.</span></span>
+    * <span data-ttu-id="9edc7-131">En la sección Secuencias numéricas, se pueden ver las secuencias numéricas asociadas a la entidad jurídica.</span><span class="sxs-lookup"><span data-stu-id="9edc7-131">In the Number sequences section, you can view the number sequences that are associated with the legal entity.</span></span>  
+14. <span data-ttu-id="9edc7-132">Expanda la sección Imágenes.</span><span class="sxs-lookup"><span data-stu-id="9edc7-132">Expand the Images section.</span></span>
+    * <span data-ttu-id="9edc7-133">En la sección Imágenes, vea o cambie el logotipo y/o la imagen del panel asociada a la entidad jurídica.</span><span class="sxs-lookup"><span data-stu-id="9edc7-133">In the Images section, view or change the logo and/or dashboard image that are associated with the legal entity.</span></span>  
+15. <span data-ttu-id="9edc7-134">Expanda la sección Registro de impuestos.</span><span class="sxs-lookup"><span data-stu-id="9edc7-134">Expand the Tax registration section.</span></span>
+    * <span data-ttu-id="9edc7-135">En la sección Registro de impuestos, especifique los números de registro que se usan para hacer declaraciones a las autoridades fiscales.</span><span class="sxs-lookup"><span data-stu-id="9edc7-135">In the Tax registration section, enter the registration numbers that are used to report to tax authorities.</span></span>  
+16. <span data-ttu-id="9edc7-136">Expanda la sección IRPF.</span><span class="sxs-lookup"><span data-stu-id="9edc7-136">Expand the Tax 1099 section.</span></span>
+    * <span data-ttu-id="9edc7-137">En la sección IRPF, especifique la información de IRPF de la entidad jurídica.</span><span class="sxs-lookup"><span data-stu-id="9edc7-137">In the Tax 1099 section, enter 1099 information for the legal entity.</span></span>  
+17. <span data-ttu-id="9edc7-138">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="9edc7-138">Click Save.</span></span>
 
 

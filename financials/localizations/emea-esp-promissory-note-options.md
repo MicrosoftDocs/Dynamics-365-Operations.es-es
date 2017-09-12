@@ -17,38 +17,38 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 3cc7e7b8ff32df87e080476016015a740df2a39a
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 1abd63f392e7f3b3f4ba8dfc04af5d49a8ceb991
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="spanish-promissory-note-options"></a>Opciones de pagaré español
+# <a name="spanish-promissory-note-options"></a><span data-ttu-id="5cce2-103">Opciones de pagaré español</span><span class="sxs-lookup"><span data-stu-id="5cce2-103">Spanish promissory note options</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este tema describe opciones y cambios en la funcionalidad básica de pagarés implementada en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition para las entidades jurídicas en España.
+<span data-ttu-id="5cce2-104">Este tema describe opciones y cambios en la funcionalidad básica de pagarés implementada en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition para las entidades jurídicas en España.</span><span class="sxs-lookup"><span data-stu-id="5cce2-104">This topic describes options and changes for the basic promissory note functionality that is implemented in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition for legal entities in Spain.</span></span>
 
-Para las entidades jurídicas en España, la funcionalidad de pagaré tiene opciones adicionales:
+<span data-ttu-id="5cce2-105">Para las entidades jurídicas en España, la funcionalidad de pagaré tiene opciones adicionales:</span><span class="sxs-lookup"><span data-stu-id="5cce2-105">For legal entities in Spain, the promissory note functionality has additional options:</span></span>
 
--   Validación de los diarios de pagarés
--   Fechas en los diarios de pagarés
--   Confirmación de facturas
+-   <span data-ttu-id="5cce2-106">Validación de los diarios de pagarés</span><span class="sxs-lookup"><span data-stu-id="5cce2-106">Validation for promissory notes journals</span></span>
+-   <span data-ttu-id="5cce2-107">Fechas en los diarios de pagarés</span><span class="sxs-lookup"><span data-stu-id="5cce2-107">Dates in promissory notes journals</span></span>
+-   <span data-ttu-id="5cce2-108">Confirmación de facturas</span><span class="sxs-lookup"><span data-stu-id="5cce2-108">Invoice confirmation</span></span>
 
-## <a name="accounts-payable-parameters-for-spanish-promissory-notes"></a>Parámetros de proveedor para pagarés españoles
-Para configurar los parámetros de los pagarés para las entidades jurídicas en España, vaya a **Parámetros de proveedores** &gt; **Pagarés ES**.
+## <a name="accounts-payable-parameters-for-spanish-promissory-notes"></a><span data-ttu-id="5cce2-109">Parámetros de proveedor para pagarés españoles</span><span class="sxs-lookup"><span data-stu-id="5cce2-109">Accounts payable parameters for Spanish promissory notes</span></span>
+<span data-ttu-id="5cce2-110">Para configurar los parámetros de los pagarés para las entidades jurídicas en España, vaya a **Parámetros de proveedores** &gt; **Pagarés ES**.</span><span class="sxs-lookup"><span data-stu-id="5cce2-110">To set up parameters for promissory notes for legal entities in Spain, go to **Accounts payable parameters** &gt; **Promissory notes ES**.</span></span>
 
-## <a name="validation-for-promissory-notes-journals"></a>Validación de los diarios de pagarés
-Si el parámetro **Validación del diario de pagarés** se establece en **Sí**, el número de identificación fiscal del proveedor se valida al agregar líneas y rellenarlas en un diario de liquidación de pagarés. Si este parámetro está establecido en **No**, y está activado **Nacional + estados miembros de la UE** en el campo **Requisito de NIF**, el número de identificación fiscal (NIF) no se valida.
+## <a name="validation-for-promissory-notes-journals"></a><span data-ttu-id="5cce2-111">Validación de los diarios de pagarés</span><span class="sxs-lookup"><span data-stu-id="5cce2-111">Validation for promissory notes journals</span></span>
+<span data-ttu-id="5cce2-112">Si el parámetro **Validación del diario de pagarés** se establece en **Sí**, el número de identificación fiscal del proveedor se valida al agregar líneas y rellenarlas en un diario de liquidación de pagarés.</span><span class="sxs-lookup"><span data-stu-id="5cce2-112">If the **Validation on promissory notes journal** parameter is set to **Yes**, the vendor's tax exempt number is validated when lines are added and fulfilled in a Promissory note settlement journal.</span></span> <span data-ttu-id="5cce2-113">Si este parámetro está establecido en **No**, y está activado **Nacional + estados miembros de la UE** en el campo **Requisito de NIF**, el número de identificación fiscal (NIF) no se valida.</span><span class="sxs-lookup"><span data-stu-id="5cce2-113">If this parameter is set to **No**, and if **Domestic + EU member states** is selected in the **Tax exempt number requirement** field, the tax exempt number isn't validated.</span></span>
 
-## <a name="dates-in-promissory-notes-journals"></a>Fechas en los diarios de pagarés
-Si el parámetro **Tratamiento de datos (diarios de pagarés)** está establecido en **Sí**, el campo **Fecha mínima** se vacía al crear propuestas de pagos para Diarios de creación de pagarés y Diarios de remesa. Por tanto, se usa la fecha de vencimiento como la fecha de transacción, aunque la fecha de vencimiento sea anterior a la del sistema. Si el parámetro **Tratamiento de datos (diarios de pagarés)** se establece en **No**, la fecha del sistema es la fecha predeterminada en el campo **Fecha mínima**.
+## <a name="dates-in-promissory-notes-journals"></a><span data-ttu-id="5cce2-114">Fechas en los diarios de pagarés</span><span class="sxs-lookup"><span data-stu-id="5cce2-114">Dates in promissory notes journals</span></span>
+<span data-ttu-id="5cce2-115">Si el parámetro **Tratamiento de datos (diarios de pagarés)** está establecido en **Sí**, el campo **Fecha mínima** se vacía al crear propuestas de pagos para Diarios de creación de pagarés y Diarios de remesa.</span><span class="sxs-lookup"><span data-stu-id="5cce2-115">If the **Date treatment (promissory notes journal)** parameter is set to **Yes**, the **Minimum date** field is cleared when you create payment proposals for Draw promissory note journals and Remittance journals.</span></span> <span data-ttu-id="5cce2-116">Por tanto, se usa la fecha de vencimiento como la fecha de transacción, aunque la fecha de vencimiento sea anterior a la del sistema.</span><span class="sxs-lookup"><span data-stu-id="5cce2-116">Therefore, the due date is used as the transaction date, even if the due date is before the system date.</span></span> <span data-ttu-id="5cce2-117">Si el parámetro **Tratamiento de datos (diarios de pagarés)** se establece en **No**, la fecha del sistema es la fecha predeterminada en el campo **Fecha mínima**.</span><span class="sxs-lookup"><span data-stu-id="5cce2-117">If the **Date treatment (promissory notes journal)** parameter is set to **No**, the system date is the default date in the **Minimum date** field.</span></span>
 
-## <a name="invoice-confirmation"></a>Confirmación de facturas
-Si el parámetro **Confirmando tratamiento de facturas** se establece en **Sí**, se crea una línea independiente para cada número de factura al crear propuestas de pago para diarios de remesa y diarios de liquidación de pagarés. Se crean líneas independientes, sea cual sea la selección en el campo **Periodo** para el método de pago. Cada importe de factura puede comprobarse en el diario de remesas. Si el parámetro **Confirmando tratamiento de facturas** se establece en **No**, las líneas de diario pueden incluir importes para varias facturas, en función de la selección del campo **Período**.
+## <a name="invoice-confirmation"></a><span data-ttu-id="5cce2-118">Confirmación de facturas</span><span class="sxs-lookup"><span data-stu-id="5cce2-118">Invoice confirmation</span></span>
+<span data-ttu-id="5cce2-119">Si el parámetro **Confirmando tratamiento de facturas** se establece en **Sí**, se crea una línea independiente para cada número de factura al crear propuestas de pago para diarios de remesa y diarios de liquidación de pagarés.</span><span class="sxs-lookup"><span data-stu-id="5cce2-119">If the **Confirming invoices treatment** parameter is set to **Yes**, a separate line is created for each invoice number when you create payment proposals for Remittance journals and Settle promissory note journals.</span></span> <span data-ttu-id="5cce2-120">Se crean líneas independientes, sea cual sea la selección en el campo **Periodo** para el método de pago.</span><span class="sxs-lookup"><span data-stu-id="5cce2-120">Separate lines are created, regardless of the selection in the **Period** field for the method of payment.</span></span> <span data-ttu-id="5cce2-121">Cada importe de factura puede comprobarse en el diario de remesas.</span><span class="sxs-lookup"><span data-stu-id="5cce2-121">Each invoice amount can be verified in the Remittance journal.</span></span> <span data-ttu-id="5cce2-122">Si el parámetro **Confirmando tratamiento de facturas** se establece en **No**, las líneas de diario pueden incluir importes para varias facturas, en función de la selección del campo **Período**.</span><span class="sxs-lookup"><span data-stu-id="5cce2-122">If the **Confirming invoices treatment** parameter is set to **No**, journal lines can include amounts for multiple invoices, depending on the selection in the **Period** field.</span></span>
 
 
 

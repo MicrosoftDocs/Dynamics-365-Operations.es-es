@@ -16,28 +16,28 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 47f01a241d3b2e6ab591d7ce2e2814efd4995e53
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f2d10ac3a1e9ade3779f110c99f678f64efbf770
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="specify-the-rfc-registration-id-for-mexican-bank-accounts"></a>Especificar la identificación del registro de RFC para las cuentas bancarias mejicanas
+# <a name="specify-the-rfc-registration-id-for-mexican-bank-accounts"></a><span data-ttu-id="6827b-103">Especificar la identificación del registro de RFC para las cuentas bancarias mejicanas</span><span class="sxs-lookup"><span data-stu-id="6827b-103">Specify the RFC registration ID for Mexican bank accounts</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Esta tarea le guía por la creación de la cuenta bancaria para México y la asignación del id. de registro de impuestos de RFC. Esta tarea usa la empresa de demostración MXMF.
+<span data-ttu-id="6827b-104">Esta tarea le guía por la creación de la cuenta bancaria para México y la asignación del id. de registro de impuestos de RFC.</span><span class="sxs-lookup"><span data-stu-id="6827b-104">This task walks you through creating the Bank account for Mexico and assigning the RFC tax registration ID.</span></span> <span data-ttu-id="6827b-105">Esta tarea usa la empresa de demostración MXMF.</span><span class="sxs-lookup"><span data-stu-id="6827b-105">This task uses the MXMF demo company data.</span></span>
 
-1. Vaya a Gestión de efectivo y bancos > Cuentas bancarias.
-2. Haga clic en Nuevo.
-3. En el campo Cuenta bancaria, escriba un valor.
-4. En el campo Número de ruta, especifique el número de ruta.
-    * Este campo se usa para identificar el código bancario mexicano para extractos electrónicos de cuentas contables.  La lista de códigos bancarios está disponible en el sitio del gobierno.  
-5. En el campo Número de cuenta bancaria, escriba un valor.
-6. seleccione una cuenta principal
-7. Expanda o contraiga la sección Identificación adicional.
-8. En el campo Número de RFC, escriba el número de RFC de 12 caracteres del banco.
-    * El número de Registro Federal del Contribuyentes (RFC) es el número de identificación fiscal asignado por las autoridades fiscales a una persona o una corporación. Los identificadores de registro de impuestos se validan según el formato especificado por las autoridades fiscales de México.  
-9. Haga clic en Guardar.
+1. <span data-ttu-id="6827b-106">Vaya a Gestión de efectivo y bancos > Cuentas bancarias.</span><span class="sxs-lookup"><span data-stu-id="6827b-106">Go to Cash and bank management > Bank accounts.</span></span>
+2. <span data-ttu-id="6827b-107">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="6827b-107">Click New.</span></span>
+3. <span data-ttu-id="6827b-108">En el campo Cuenta bancaria, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="6827b-108">In the Bank account field, type a value.</span></span>
+4. <span data-ttu-id="6827b-109">En el campo Número de ruta, especifique el número de ruta.</span><span class="sxs-lookup"><span data-stu-id="6827b-109">In the Routing number field, enter the routing number.</span></span>
+    * <span data-ttu-id="6827b-110">Este campo se usa para identificar el código bancario mexicano para extractos electrónicos de cuentas contables.</span><span class="sxs-lookup"><span data-stu-id="6827b-110">This field is used to identify the Mexican bank code for electronic ledger accounting statements.</span></span>  <span data-ttu-id="6827b-111">La lista de códigos bancarios está disponible en el sitio del gobierno.</span><span class="sxs-lookup"><span data-stu-id="6827b-111">The list of banks codes is available in the government site.</span></span>  
+5. <span data-ttu-id="6827b-112">En el campo Número de cuenta bancaria, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="6827b-112">In the Bank account number field, type a value.</span></span>
+6. <span data-ttu-id="6827b-113">seleccione una cuenta principal</span><span class="sxs-lookup"><span data-stu-id="6827b-113">select a main account</span></span>
+7. <span data-ttu-id="6827b-114">Expanda o contraiga la sección Identificación adicional.</span><span class="sxs-lookup"><span data-stu-id="6827b-114">Expand or collapse the Additional identification section.</span></span>
+8. <span data-ttu-id="6827b-115">En el campo Número de RFC, escriba el número de RFC de 12 caracteres del banco.</span><span class="sxs-lookup"><span data-stu-id="6827b-115">In the RFC number field, enter the 12-character RFC number of the bank.</span></span>
+    * <span data-ttu-id="6827b-116">El número de Registro Federal del Contribuyentes (RFC) es el número de identificación fiscal asignado por las autoridades fiscales a una persona o una corporación.</span><span class="sxs-lookup"><span data-stu-id="6827b-116">Federal Registration for Taxpayers (RFC) number  is the tax identification number assigned by tax authorities to a person or a corporation.</span></span> <span data-ttu-id="6827b-117">Los identificadores de registro de impuestos se validan según el formato especificado por las autoridades fiscales de México.</span><span class="sxs-lookup"><span data-stu-id="6827b-117">Tax registration IDs are validated according to the format specified by tax authorities in Mexico.</span></span>  
+9. <span data-ttu-id="6827b-118">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="6827b-118">Click Save.</span></span>
 
 

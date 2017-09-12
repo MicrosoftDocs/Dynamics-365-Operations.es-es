@@ -17,33 +17,33 @@ ms.assetid: 4985e308-7824-41fc-83fd-fd0bdae888e3
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a06b821bd8e23abb8af5e7e7ef93acc85e87386a
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 362be960743945398d633d20c62c6aec52e2218f
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="reuse-product-configurations"></a>Volver a utilizar configuraciones de producto
+# <a name="reuse-product-configurations"></a><span data-ttu-id="a9736-105">Volver a utilizar configuraciones de producto</span><span class="sxs-lookup"><span data-stu-id="a9736-105">Reuse product configurations</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Puede especificar que desee volver a usar automáticamente una configuración existente para un producto. A continuación, cuando un usuario completa una sesión de configuración, el sistema comprueba si ya existe una configuración que coincide con las selecciones del usuario. Si se encuentra una configuración que coincide, se vuelven a usar el id. de configuración, la lista de materiales (L. MAT) correspondiente y la ruta.
+<span data-ttu-id="a9736-106">Puede especificar que desee volver a usar automáticamente una configuración existente para un producto.</span><span class="sxs-lookup"><span data-stu-id="a9736-106">You can specify that you want to automatically reuse an existing configuration for a product.</span></span> <span data-ttu-id="a9736-107">A continuación, cuando un usuario completa una sesión de configuración, el sistema comprueba si ya existe una configuración que coincide con las selecciones del usuario.</span><span class="sxs-lookup"><span data-stu-id="a9736-107">Then, when a user has completed a configuration session, the system verifies whether a configuration that matches the user’s selections already exists.</span></span> <span data-ttu-id="a9736-108">Si se encuentra una configuración que coincide, se vuelven a usar el id. de configuración, la lista de materiales (L. MAT) correspondiente y la ruta.</span><span class="sxs-lookup"><span data-stu-id="a9736-108">If a matching configuration is found, the configuration ID, corresponding bill of materials (BOM), and route are reused.</span></span>
 
-<a name="requirements-for-reusing-configurations"></a>Requisitos para volver a usar las configuraciones
+<a name="requirements-for-reusing-configurations"></a><span data-ttu-id="a9736-109">Requisitos para volver a usar las configuraciones</span><span class="sxs-lookup"><span data-stu-id="a9736-109">Requirements for reusing configurations</span></span>
 ---------------------------------------
 
-Para habilitar las configuraciones que se reutilizarán, debe especificar la siguiente información para componentes y atributos en la página de **Detalles del modelo de configuración de productos**:
+<span data-ttu-id="a9736-110">Para habilitar las configuraciones que se reutilizarán, debe especificar la siguiente información para componentes y atributos en la página de **Detalles del modelo de configuración de productos**:</span><span class="sxs-lookup"><span data-stu-id="a9736-110">To enable configurations to be reused, you must specify the following information for the components and attributes on the **Product configuration model details** page:</span></span>
 
--   **Componentes y subcomponentes**: en la ficha desplegable **General** del campo **Reutilizar configuraciones** seleccione **Sí**.
--   **Atributos**: en la ficha desplegable **Atributos**, seleccione la opción **Incluir en la reutilización**. La opción se muestra solo cuando el componente relacionado se habilita para un nuevo uso. Si no selecciona ningún atributo para un nuevo uso, la configuración siempre se vuelve a usar, independientemente de las selecciones del usuario durante una sesión de configuración. Los atributos de valor de la configuración existente deben coincidir con las selecciones del usuario. Por ejemplo, si el usuario selecciona como color el **Azul** durante una sesión de configuración, el sistema comprueba si una configuración existente del componente tiene el color azul.
+-   <span data-ttu-id="a9736-111">**Componentes y subcomponentes**: en la ficha desplegable **General** del campo **Reutilizar configuraciones** seleccione **Sí**.</span><span class="sxs-lookup"><span data-stu-id="a9736-111">**Components and subcomponents** – On the **General** FastTab, in the **Reuse configurations** field, select **Yes**.</span></span>
+-   <span data-ttu-id="a9736-112">**Atributos**: en la ficha desplegable **Atributos**, seleccione la opción **Incluir en la reutilización**.</span><span class="sxs-lookup"><span data-stu-id="a9736-112">**Attributes** – On the **Attributes** FastTab, select the **Include in reuse** option.</span></span> <span data-ttu-id="a9736-113">La opción se muestra solo cuando el componente relacionado se habilita para un nuevo uso.</span><span class="sxs-lookup"><span data-stu-id="a9736-113">This option appears only when the related component is enabled for reuse.</span></span> <span data-ttu-id="a9736-114">Si no selecciona ningún atributo para un nuevo uso, la configuración siempre se vuelve a usar, independientemente de las selecciones del usuario durante una sesión de configuración.</span><span class="sxs-lookup"><span data-stu-id="a9736-114">If you don't select any attributes for reuse, the configuration is always reused, regardless of the user’s selections during a configuration session.</span></span> <span data-ttu-id="a9736-115">Los atributos de valor de la configuración existente deben coincidir con las selecciones del usuario.</span><span class="sxs-lookup"><span data-stu-id="a9736-115">The attribute values in the existing configuration must match the user’s selections.</span></span> <span data-ttu-id="a9736-116">Por ejemplo, si el usuario selecciona como color el **Azul** durante una sesión de configuración, el sistema comprueba si una configuración existente del componente tiene el color azul.</span><span class="sxs-lookup"><span data-stu-id="a9736-116">For example, if the user selects **Blue** as the color during a configuration session, the system verifies whether an existing configuration of the component has the color blue.</span></span>
 
-## <a name="resetting-configuration-reuse"></a>Restablecer la reutilización de la configuración
-Cuando restablece la reutilización de la configuración, las configuraciones anteriormente creadas ya no se tienen en cuenta. Es posible que desee restablecer la reutilización de la configuración si se ha cambiado el BOM o la ruta pero no se modificaron ningún atributo relacionado. Se restablece la reutilización de la configuración en la ficha desplegable **General** del componente.
+## <a name="resetting-configuration-reuse"></a><span data-ttu-id="a9736-117">Restablecer la reutilización de la configuración</span><span class="sxs-lookup"><span data-stu-id="a9736-117">Resetting configuration reuse</span></span>
+<span data-ttu-id="a9736-118">Cuando restablece la reutilización de la configuración, las configuraciones anteriormente creadas ya no se tienen en cuenta.</span><span class="sxs-lookup"><span data-stu-id="a9736-118">When you reset configuration reuse, previously created configurations are no longer considered.</span></span> <span data-ttu-id="a9736-119">Es posible que desee restablecer la reutilización de la configuración si se ha cambiado el BOM o la ruta pero no se modificaron ningún atributo relacionado.</span><span class="sxs-lookup"><span data-stu-id="a9736-119">You might want to reset configuration reuse if the BOM or route was changed, but no related attributes were changed.</span></span> <span data-ttu-id="a9736-120">Se restablece la reutilización de la configuración en la ficha desplegable **General** del componente.</span><span class="sxs-lookup"><span data-stu-id="a9736-120">You reset configuration reuse on the **General** FastTab for the component.</span></span>
 
 
 

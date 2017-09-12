@@ -17,64 +17,64 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: d3ab4ee1a8ab74226b784496b56f26d26ed04ed8
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a2b8534231c5fa50b1e0f709e09d318bb8202a43
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Asociación de un índice de combustible con un transportista como cargo adicional
+# <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a><span data-ttu-id="992db-103">Asociación de un índice de combustible con un transportista como cargo adicional</span><span class="sxs-lookup"><span data-stu-id="992db-103">Associate a fuel index with a carrier as an accessorial charge</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo crear una asignación de cargos adicionales, un cargo adicional de transportista y cargos adicionales maestros por recargo por combustible, y cómo asociar un índice de combustible de transportista con un transportista. Es necesario haber configurado un índice de combustible de transportista antes de ejecutar este procedimiento. Puede usar el procedimiento "Configuración de un índice de combustible de transportista". Estas tareas de configuración las realiza normalmente el administrador de logística. Los datos de demostración utilizados para crear este procedimiento son los de la empresa USMF.
+<span data-ttu-id="992db-104">Este procedimiento muestra cómo crear una asignación de cargos adicionales, un cargo adicional de transportista y cargos adicionales maestros por recargo por combustible, y cómo asociar un índice de combustible de transportista con un transportista.</span><span class="sxs-lookup"><span data-stu-id="992db-104">This guide shows how to create an accessorial assignment, carrier accessorial charge, accessorial master for fuel surcharge, and associate a carrier fuel index with a carrier.</span></span> <span data-ttu-id="992db-105">Es necesario haber configurado un índice de combustible de transportista antes de ejecutar este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="992db-105">You need to have set up a carrier fuel index before you run this guide.</span></span> <span data-ttu-id="992db-106">Puede usar el procedimiento "Configuración de un índice de combustible de transportista".</span><span class="sxs-lookup"><span data-stu-id="992db-106">You can use the “Set up a carrier fuel index” guide to do this.</span></span> <span data-ttu-id="992db-107">Estas tareas de configuración las realiza normalmente el administrador de logística.</span><span class="sxs-lookup"><span data-stu-id="992db-107">These setup tasks are typically done by a Logistics manager.</span></span> <span data-ttu-id="992db-108">Los datos de demostración utilizados para crear este procedimiento son los de la empresa USMF.</span><span class="sxs-lookup"><span data-stu-id="992db-108">The demo data used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-an-accessorial-master"></a>Creación de un cargo maestro adicional
-1. Vaya a Administración de transporte > Configuración > Clasificación > Cargos adicionales maestros.
-2. Haga clic en Nuevo.
-3. En el campo Cargos adicionales maestros, escriba un valor.
-4. En el campo Nombre, escriba un valor.
-5. Haga clic en Guardar.
+## <a name="create-an-accessorial-master"></a><span data-ttu-id="992db-109">Creación de un cargo maestro adicional</span><span class="sxs-lookup"><span data-stu-id="992db-109">Create an accessorial master</span></span>
+1. <span data-ttu-id="992db-110">Vaya a Administración de transporte > Configuración > Clasificación > Cargos adicionales maestros.</span><span class="sxs-lookup"><span data-stu-id="992db-110">Go to Transportation management > Setup > Rating > Accessorial masters.</span></span>
+2. <span data-ttu-id="992db-111">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="992db-111">Click New.</span></span>
+3. <span data-ttu-id="992db-112">En el campo Cargos adicionales maestros, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="992db-112">In the Accessorial master field, type a value.</span></span>
+4. <span data-ttu-id="992db-113">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="992db-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="992db-114">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="992db-114">Click Save.</span></span>
 
-## <a name="create-a-carrier-accessorial-charge"></a>Creación de un cargo adicional de transportista
-1. Vaya a Administración de transporte > Configuración > Clasificación > Cargos adicionales del transportista.
-2. Haga clic en Nuevo.
-3. En el campo Id. de cargos adicionales del transportista, escriba un valor.
-4. En el campo Transportista de envío, haga clic en el botón desplegable para abrir la búsqueda.
-5. En la lista, busque y seleccione el registro deseado.
-    * En este ejemplo, elija el transportista por camión.  
-6. En la lista, haga clic en el vínculo de la fila seleccionada.
-7. En el campo Servicio de transportista, haga clic en el botón desplegable para abrir la búsqueda.
-8. En la lista, haga clic en el vínculo de la fila seleccionada.
-9. En el campo Cargos adicionales maestros, haga clic en el botón desplegable para abrir la búsqueda.
-10. En la lista, busque y seleccione el registro deseado.
-    * En este ejemplo, elija los cargos adicionales maestros recién creados.  
-11. Haga clic en Guardar.
+## <a name="create-a-carrier-accessorial-charge"></a><span data-ttu-id="992db-115">Creación de un cargo adicional de transportista</span><span class="sxs-lookup"><span data-stu-id="992db-115">Create a carrier accessorial charge</span></span>
+1. <span data-ttu-id="992db-116">Vaya a Administración de transporte > Configuración > Clasificación > Cargos adicionales del transportista.</span><span class="sxs-lookup"><span data-stu-id="992db-116">Go to Transportation management > Setup > Rating > Carrier accessorial charges.</span></span>
+2. <span data-ttu-id="992db-117">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="992db-117">Click New.</span></span>
+3. <span data-ttu-id="992db-118">En el campo Id. de cargos adicionales del transportista, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="992db-118">In the Carrier accessorial ID field, type a value.</span></span>
+4. <span data-ttu-id="992db-119">En el campo Transportista de envío, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="992db-119">In the Shipping carrier field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="992db-120">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="992db-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="992db-121">En este ejemplo, elija el transportista por camión.</span><span class="sxs-lookup"><span data-stu-id="992db-121">In this example, choose Truck Carrier.</span></span>  
+6. <span data-ttu-id="992db-122">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="992db-122">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="992db-123">En el campo Servicio de transportista, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="992db-123">In the Carrier service field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="992db-124">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="992db-124">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="992db-125">En el campo Cargos adicionales maestros, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="992db-125">In the Accessorial master field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="992db-126">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="992db-126">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="992db-127">En este ejemplo, elija los cargos adicionales maestros recién creados.</span><span class="sxs-lookup"><span data-stu-id="992db-127">In this example, choose the newly created Accessorial master.</span></span>  
+11. <span data-ttu-id="992db-128">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="992db-128">Click Save.</span></span>
 
-## <a name="create-an-accessorial-assignment"></a>Creación de una asignación de cargos adicionales
-1. Haga clic en Asignaciones de cargos adicionales.
-2. Haga clic en Nuevo.
-3. En el campo Nombre, escriba un valor.
-4. Expanda la sección Criterios.
-    * En los criterios puede elegir aplicar siempre un suplemento por combustible o, para este ejemplo, elija que se aplique solo dentro de determinada región.  
-5. En el campo Valor inicial de código postal, escriba un valor.
-6. En el campo Valor final de código postal, escriba un valor.
-7. Expanda la sección Cálculo.
-    * En la sección de cálculo, puede especificar la manera de calcular el recargo por combustible. Este cálculo depende de la unidad adicional que haya elegido como base para el cálculo.  
-8. En el campo Tipo de tasas de cargos adicionales, seleccione Suplemento por combustible.
-9. En el campo Unidad adicional, seleccione Kilometraje.
-10. En el campo Región, haga clic en el botón desplegable para abrir la búsqueda.
-11. En la lista, haga clic en el vínculo de la fila seleccionada.
-12. Haga clic en Guardar.
+## <a name="create-an-accessorial-assignment"></a><span data-ttu-id="992db-129">Creación de una asignación de cargos adicionales</span><span class="sxs-lookup"><span data-stu-id="992db-129">Create an accessorial assignment</span></span>
+1. <span data-ttu-id="992db-130">Haga clic en Asignaciones de cargos adicionales.</span><span class="sxs-lookup"><span data-stu-id="992db-130">Click Accessorial assignments.</span></span>
+2. <span data-ttu-id="992db-131">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="992db-131">Click New.</span></span>
+3. <span data-ttu-id="992db-132">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="992db-132">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="992db-133">Expanda la sección Criterios.</span><span class="sxs-lookup"><span data-stu-id="992db-133">Toggle the expansion of the Criteria section.</span></span>
+    * <span data-ttu-id="992db-134">En los criterios puede elegir aplicar siempre un suplemento por combustible o, para este ejemplo, elija que se aplique solo dentro de determinada región.</span><span class="sxs-lookup"><span data-stu-id="992db-134">In the criteria, you can choose to always apply the fuel surcharge or for this example choose that it only applies within a certain region.</span></span>  
+5. <span data-ttu-id="992db-135">En el campo Valor inicial de código postal, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="992db-135">In the ZIP/postal code from field, type a value.</span></span>
+6. <span data-ttu-id="992db-136">En el campo Valor final de código postal, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="992db-136">In the ZIP/postal code to field, type a value.</span></span>
+7. <span data-ttu-id="992db-137">Expanda la sección Cálculo.</span><span class="sxs-lookup"><span data-stu-id="992db-137">Toggle the expansion of the Calculation section.</span></span>
+    * <span data-ttu-id="992db-138">En la sección de cálculo, puede especificar la manera de calcular el recargo por combustible.</span><span class="sxs-lookup"><span data-stu-id="992db-138">In the calculation section you can specify how to calculate the fuel surcharge.</span></span> <span data-ttu-id="992db-139">Este cálculo depende de la unidad adicional que haya elegido como base para el cálculo.</span><span class="sxs-lookup"><span data-stu-id="992db-139">This calculation depends on the Accessorial unit that you chose as the base for your calculation.</span></span>  
+8. <span data-ttu-id="992db-140">En el campo Tipo de tasas de cargos adicionales, seleccione Suplemento por combustible.</span><span class="sxs-lookup"><span data-stu-id="992db-140">In the Accessorial fee type field, select 'Fuel surcharge'.</span></span>
+9. <span data-ttu-id="992db-141">En el campo Unidad adicional, seleccione Kilometraje.</span><span class="sxs-lookup"><span data-stu-id="992db-141">In the Accessorial unit field, select 'Mileage'.</span></span>
+10. <span data-ttu-id="992db-142">En el campo Región, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="992db-142">In the Region field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="992db-143">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="992db-143">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="992db-144">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="992db-144">Click Save.</span></span>
 
-## <a name="update-the-carrier-rating-profile"></a>Actualización del perfil de clasificación de transportista
-1. Vaya a Administración de transporte > Configuración > Transportistas > Transportistas de envío.
-2. En la lista, busque y seleccione el registro deseado.
-3. Expanda la sección Perfiles de clasificación.
-4. Haga clic en Editar.
-5. En el campo Índice de combustible del transportista, haga clic en el botón desplegable para abrir la búsqueda.
-6. En la lista, haga clic en el vínculo de la fila seleccionada.
-7. Haga clic en Guardar.
+## <a name="update-the-carrier-rating-profile"></a><span data-ttu-id="992db-145">Actualización del perfil de clasificación de transportista</span><span class="sxs-lookup"><span data-stu-id="992db-145">Update the carrier rating profile</span></span>
+1. <span data-ttu-id="992db-146">Vaya a Administración de transporte > Configuración > Transportistas > Transportistas de envío.</span><span class="sxs-lookup"><span data-stu-id="992db-146">Go to Transportation management > Setup > Carriers > Shipping carriers.</span></span>
+2. <span data-ttu-id="992db-147">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="992db-147">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="992db-148">Expanda la sección Perfiles de clasificación.</span><span class="sxs-lookup"><span data-stu-id="992db-148">Toggle the expansion of the Rating profiles section.</span></span>
+4. <span data-ttu-id="992db-149">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="992db-149">Click Edit.</span></span>
+5. <span data-ttu-id="992db-150">En el campo Índice de combustible del transportista, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="992db-150">In the Carrier fuel index field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="992db-151">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="992db-151">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="992db-152">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="992db-152">Click Save.</span></span>
 
 

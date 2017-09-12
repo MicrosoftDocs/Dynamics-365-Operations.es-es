@@ -16,27 +16,27 @@ ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 76ae3b1f479733f7e3a738fd43e52134bda7069a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1ff7de584631563939104c87b00fdc26bdb1a3cb
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="enable-users-to-receive-workflow-related-email-messages"></a>Permitir a los usuarios que reciban mensajes de correo electrónico relacionados con el flujo de trabajo
+# <a name="enable-users-to-receive-workflow-related-email-messages"></a><span data-ttu-id="ac70a-103">Permitir a los usuarios que reciban mensajes de correo electrónico relacionados con el flujo de trabajo</span><span class="sxs-lookup"><span data-stu-id="ac70a-103">Enable users to receive workflow-related email messages</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Usted puede configurar el sistema para enviar mensajes de correo electrónico a los usuarios cuando se produzcan eventos relacionados con el flujo de trabajo. Por ejemplo, los mensajes de correo electrónico se pueden enviar a los usuarios cuando se les asignan documentos para su aprobación. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
+<span data-ttu-id="ac70a-104">Usted puede configurar el sistema para enviar mensajes de correo electrónico a los usuarios cuando se produzcan eventos relacionados con el flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="ac70a-104">You can configure the system to send email messages to users when workflow-related events occur.</span></span> <span data-ttu-id="ac70a-105">Por ejemplo, los mensajes de correo electrónico se pueden enviar a los usuarios cuando se les asignan documentos para su aprobación.</span><span class="sxs-lookup"><span data-stu-id="ac70a-105">For example, email messages can be sent to users when documents are assigned to them for approval.</span></span> <span data-ttu-id="ac70a-106">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="ac70a-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. Vaya a Administración del sistema > Usuarios > Usuarios.
-2. En la lista, busque y seleccione el registro deseado.
-3. Haga clic en Opciones de usuario.
-4. Haga clic en la pestaña Flujo de trabajo.
-    * Asegúrese de que la sección Notificaciones está expandida.     En la sección Notificaciones, puede especificar la manera en que desea que se notifique al usuario acerca de los eventos relacionados con el flujo de trabajo.  
-5. En la línea-artículo del campo tipo de notificación del flujo de trabajo, seleccione una opción.
-    * Agrupado: las notificaciones de elementos de línea se agrupan en una solo mensaje de correo electrónico.    Individual: se envía un mensaje de correo electrónico para cada artículo de línea.  
-    * Si desea que el usuario reciba notificaciones en el cliente, active la casilla de verificación Enviar notificaciones por correo electrónico.  
-6. Haga clic en Guardar.
-7. Cierre la página.
+1. <span data-ttu-id="ac70a-107">Vaya a Administración del sistema > Usuarios > Usuarios.</span><span class="sxs-lookup"><span data-stu-id="ac70a-107">Go to System administration > Users > Users.</span></span>
+2. <span data-ttu-id="ac70a-108">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="ac70a-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="ac70a-109">Haga clic en Opciones de usuario.</span><span class="sxs-lookup"><span data-stu-id="ac70a-109">Click User options.</span></span>
+4. <span data-ttu-id="ac70a-110">Haga clic en la pestaña Flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="ac70a-110">Click the Workflow tab.</span></span>
+    * <span data-ttu-id="ac70a-111">Asegúrese de que la sección Notificaciones está expandida.</span><span class="sxs-lookup"><span data-stu-id="ac70a-111">Make sure that the Notifications section is expanded.</span></span>     <span data-ttu-id="ac70a-112">En la sección Notificaciones, puede especificar la manera en que desea que se notifique al usuario acerca de los eventos relacionados con el flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="ac70a-112">In the Notifications section, you can specify how you want the user to be notified about workflow-related events.</span></span>  
+5. <span data-ttu-id="ac70a-113">En la línea-artículo del campo tipo de notificación del flujo de trabajo, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="ac70a-113">In the Line-item workflow notification type field, select an option.</span></span>
+    * <span data-ttu-id="ac70a-114">Agrupado: las notificaciones de elementos de línea se agrupan en una solo mensaje de correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="ac70a-114">Grouped – Notifications for line items are grouped into a single email message.</span></span>    <span data-ttu-id="ac70a-115">Individual: se envía un mensaje de correo electrónico para cada artículo de línea.</span><span class="sxs-lookup"><span data-stu-id="ac70a-115">Individual – An email message is sent for each line item.</span></span>  
+    * <span data-ttu-id="ac70a-116">Si desea que el usuario reciba notificaciones en el cliente, active la casilla de verificación Enviar notificaciones por correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="ac70a-116">If you want the user to receive notifications in the client, select the Send notifications in email check box.</span></span>  
+6. <span data-ttu-id="ac70a-117">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="ac70a-117">Click Save.</span></span>
+7. <span data-ttu-id="ac70a-118">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="ac70a-118">Close the page.</span></span>
 
 

@@ -19,54 +19,54 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f5f090eb406488ecfcd502c2cc6e3a63ca16111a
+ms.sourcegitcommit: 97d374230cc6e833b9f585de000e1252f2a78b9d
+ms.openlocfilehash: 17738e794f18fddc7320b1b40ef55376fba0de24
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/30/2017
 
 ---
 
-# <a name="pos-hardware-peripherals"></a>Periféricos de hardware de PDV
+# <a name="pos-hardware-peripherals"></a><span data-ttu-id="a926a-103">Periféricos de hardware de PDV</span><span class="sxs-lookup"><span data-stu-id="a926a-103">POS hardware peripherals</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-El punto de venta (POS) moderno al por menor y el PDV en la Nube pueden usar una gran variedad de hardware periférico del PDV, con múltiples interfaces y opciones de implementación para alcanzar los distintos escenarios empresariales de un distribuidor. 
+<span data-ttu-id="a926a-104">El punto de venta (POS) moderno al por menor y el PDV en la Nube pueden usar una gran variedad de hardware periférico del PDV, con múltiples interfaces y opciones de implementación para alcanzar los distintos escenarios empresariales de un distribuidor.</span><span class="sxs-lookup"><span data-stu-id="a926a-104">Retail Modern point of sale (POS) and Cloud POS can utilize a wide range of POS hardware peripherals, with multiple interfaces and deployment options to achieve a retailer’s various business scenarios.</span></span> 
 
-Para admitir la selección más amplia de dispositivos de distintos fabricantes y modelos, el PDV usa interfaces estándar tales como OLE para PDV al por menor (OPOS), controladores de dispositivo de Windows y las interfaces del programa de aplicación del punto de servicio de Windows (API). Normalmente, el PDV funcionará en estos dispositivos siempre que se proporcione el controlador adecuado. Sin embargo, dado que la implementación de los estándares de cada fabricante y del programador de software puede variar, a menudo hay diferencias en cuanto a las habilidades o comportamientos admitidos.
+<span data-ttu-id="a926a-105">Para admitir la selección más amplia de dispositivos de distintos fabricantes y modelos, el PDV usa interfaces estándar tales como OLE para PDV al por menor (OPOS), controladores de dispositivo de Windows y las interfaces del programa de aplicación del punto de servicio de Windows (API).</span><span class="sxs-lookup"><span data-stu-id="a926a-105">To support the widest selection of devices across manufactures and models, POS utilizes standard interfaces such as OLE for Retail POS (OPOS), Windows device drivers, and Windows point of service application program interfaces (APIs).</span></span> <span data-ttu-id="a926a-106">Normalmente, el PDV funcionará en estos dispositivos siempre que se proporcione el controlador adecuado.</span><span class="sxs-lookup"><span data-stu-id="a926a-106">Generally, POS will work on these devices provided that the appropriate driver is supplied.</span></span> <span data-ttu-id="a926a-107">Sin embargo, dado que la implementación de los estándares de cada fabricante y del programador de software puede variar, a menudo hay diferencias en cuanto a las habilidades o comportamientos admitidos.</span><span class="sxs-lookup"><span data-stu-id="a926a-107">However, because each manufacturer and software developer’s implementation of these standards can vary, there are often differences in supported capabilities or behaviors.</span></span>
 
-La siguiente lista incluye los modelos de dispositivo de cada clase que se han sido probados internamente por Microsoft.
+<span data-ttu-id="a926a-108">La siguiente lista incluye los modelos de dispositivo de cada clase que se han sido probados internamente por Microsoft.</span><span class="sxs-lookup"><span data-stu-id="a926a-108">The following list includes device models, in each class, that have been tested internally by Microsoft.</span></span>
 
-**Dispositivos OPDV**
+<span data-ttu-id="a926a-109">**Dispositivos OPDV**</span><span class="sxs-lookup"><span data-stu-id="a926a-109">**OPOS devices**</span></span>
 
--   Código de barras – Motorola DS9208
--   MSR – HP IDRA-334133, Magtek PN - 21073062
--   LineDisplay – Epson M58DC
--   Pinpad – Verifone 1000SE
--   Tableta de firmas – Scriptel ST1550
--   Impresora – EPSON TM-T88IV, TMT88V
--   Cajas registradora – Star SMD2-1317BK44
--   Báscula – Datalogic Magellan 8400
+-   <span data-ttu-id="a926a-110">Código de barras – Motorola DS9208</span><span class="sxs-lookup"><span data-stu-id="a926a-110">Barcode – Motorola DS9208</span></span>
+-   <span data-ttu-id="a926a-111">MSR – HP IDRA-334133, Magtek PN - 21073062</span><span class="sxs-lookup"><span data-stu-id="a926a-111">MSR – HP IDRA-334133, Magtek PN - 21073062</span></span>
+-   <span data-ttu-id="a926a-112">LineDisplay – Epson M58DC</span><span class="sxs-lookup"><span data-stu-id="a926a-112">LineDisplay – Epson M58DC</span></span>
+-   <span data-ttu-id="a926a-113">Pinpad – Verifone 1000SE</span><span class="sxs-lookup"><span data-stu-id="a926a-113">Pinpad – Verifone 1000SE</span></span>
+-   <span data-ttu-id="a926a-114">Tableta de firmas – Scriptel ST1550</span><span class="sxs-lookup"><span data-stu-id="a926a-114">Signature pad – Scriptel ST1550</span></span>
+-   <span data-ttu-id="a926a-115">Impresora – EPSON TM-T88IV, TMT88V</span><span class="sxs-lookup"><span data-stu-id="a926a-115">Printer – EPSON TM-T88IV, TMT88V</span></span>
+-   <span data-ttu-id="a926a-116">Cajas registradora – Star SMD2-1317BK44</span><span class="sxs-lookup"><span data-stu-id="a926a-116">Cash drawer – Star SMD2-1317BK44</span></span>
+-   <span data-ttu-id="a926a-117">Báscula – Datalogic Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="a926a-117">Scale – Datalogic Magellan 8400</span></span>
 
-**Teclado con lector MSR**
+<span data-ttu-id="a926a-118">**Teclado con lector MSR**</span><span class="sxs-lookup"><span data-stu-id="a926a-118">**Keyboard wedge MSR**</span></span>
 
--   Magtek USB
+-   <span data-ttu-id="a926a-119">Magtek USB</span><span class="sxs-lookup"><span data-stu-id="a926a-119">Magtek USB</span></span>
 
-**Terminal de pago**
+<span data-ttu-id="a926a-120">**Terminal de pago**</span><span class="sxs-lookup"><span data-stu-id="a926a-120">**Payment terminal**</span></span>
 
--   Equinox L3500
--   Verifone MX925
+-   <span data-ttu-id="a926a-121">Equinox L3500</span><span class="sxs-lookup"><span data-stu-id="a926a-121">Equinox L3500</span></span>
+-   <span data-ttu-id="a926a-122">Verifone MX925</span><span class="sxs-lookup"><span data-stu-id="a926a-122">Verifone MX925</span></span>
 
-**Dispositivos de red**
+<span data-ttu-id="a926a-123">**Dispositivos de red**</span><span class="sxs-lookup"><span data-stu-id="a926a-123">**Network devices**</span></span>
 
--   Impresora – Star TSP650II
--   Cajas registradoras – APG Atwood
--   Terminal de pago – MX915, MX925
+-   <span data-ttu-id="a926a-124">Impresora – Star TSP650II</span><span class="sxs-lookup"><span data-stu-id="a926a-124">Printer – Star TSP650II</span></span>
+-   <span data-ttu-id="a926a-125">Cajas registradoras – APG Atwood</span><span class="sxs-lookup"><span data-stu-id="a926a-125">Cash drawer – APG Atwood</span></span>
+-   <span data-ttu-id="a926a-126">Terminal de pago – MX915, MX925</span><span class="sxs-lookup"><span data-stu-id="a926a-126">Payment terminal – MX915, MX925</span></span>
 
-**PDV modernos de IPC directo solo**
+<span data-ttu-id="a926a-127">**PDV modernos de IPC directo solo**</span><span class="sxs-lookup"><span data-stu-id="a926a-127">**MPOS direct IPC only**</span></span>
 
--   Código de barras – Honeywell 1900, HP LS2208
--   MSR – Magtek PN - 21073075
+-   <span data-ttu-id="a926a-128">Código de barras – Honeywell 1900, HP LS2208</span><span class="sxs-lookup"><span data-stu-id="a926a-128">Barcode – Honeywell 1900, HP LS2208</span></span>
+-   <span data-ttu-id="a926a-129">MSR – Magtek PN - 21073075</span><span class="sxs-lookup"><span data-stu-id="a926a-129">MSR – Magtek PN - 21073075</span></span>
 
 
 

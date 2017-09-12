@@ -16,52 +16,52 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 9f7407ca1d42eb24b5a6df90f659bc850ced414b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 194d811da09c746167bd9489ce39ae6a6f810ec0
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a>Creación de un pedido parcial de compra al crear el pedido de compra
+# <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a><span data-ttu-id="d9c24-103">Creación de un pedido parcial de compra al crear el pedido de compra</span><span class="sxs-lookup"><span data-stu-id="d9c24-103">Create a purchase release order when creating the purchase order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo usar un acuerdo de compra cuando se crea un pedido de compra. El acuerdo de compra se tiene que aplicar en el momento de crear el pedido de compra, ya que hay condiciones generales que se deben copiar al encabezado del pedido de compra. Esta tarea la realizará normalmente el agente de compras. Como requisito previo para este procedimiento, debe tener un acuerdo de compra en vigor con un compromiso de cantidad de productos para un proveedor y para artículos. El mismo procedimiento puede usarse si tiene un acuerdo de compra con otros tipos de compromisos. Puede ejecutar esta guía en la empresa de datos de demostración USMF. Si está usando USMF, puede ejecutar el procedimiento "Creación de un acuerdo de compra" primero para establecer las condiciones previas necesarias para este procedimiento.
+<span data-ttu-id="d9c24-104">Este procedimiento muestra cómo usar un acuerdo de compra cuando se crea un pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="d9c24-104">This procedure shows how to use a purchase agreement when you create a purchase order.</span></span> <span data-ttu-id="d9c24-105">El acuerdo de compra se tiene que aplicar en el momento de crear el pedido de compra, ya que hay condiciones generales que se deben copiar al encabezado del pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="d9c24-105">The purchase agreement has to be applied when you create the purchase order because there are general terms that should be copied to the purchase order header.</span></span> <span data-ttu-id="d9c24-106">Esta tarea la realizará normalmente el agente de compras.</span><span class="sxs-lookup"><span data-stu-id="d9c24-106">Typically this task would be carried out by a purchasing agent.</span></span> <span data-ttu-id="d9c24-107">Como requisito previo para este procedimiento, debe tener un acuerdo de compra en vigor con un compromiso de cantidad de productos para un proveedor y para artículos.</span><span class="sxs-lookup"><span data-stu-id="d9c24-107">As a prerequisite for this guide, you must have an effective purchase agreement with a product quantity commitment for a vendor and items.</span></span> <span data-ttu-id="d9c24-108">El mismo procedimiento puede usarse si tiene un acuerdo de compra con otros tipos de compromisos.</span><span class="sxs-lookup"><span data-stu-id="d9c24-108">The same procedure can be used if you have a purchase agreement with other types of commitments.</span></span> <span data-ttu-id="d9c24-109">Puede ejecutar esta guía en la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="d9c24-109">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="d9c24-110">Si está usando USMF, puede ejecutar el procedimiento "Creación de un acuerdo de compra" primero para establecer las condiciones previas necesarias para este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="d9c24-110">If you’re using USMF, you can run the “Create a purchase agreement” guide first to set up the necessary preconditions for this guide.</span></span>
 
 
-## <a name="create-a-purchase-order"></a>Crear un pedido de compra
-1. Apertura del espacio de trabajo de preparación del pedido de compra
-2. Haga clic en Nuevo pedido de compra.
-3. En el campo Cuenta de proveedor, haga clic en el botón desplegable para abrir la búsqueda.
-4. En la lista, busque y seleccione el registro deseado.
-5. En la lista, haga clic en el vínculo de la fila seleccionada.
-6. Expanda la sección General.
-7. En el campo Acuerdo de compra, haga clic en el botón desplegable para abrir la búsqueda.
-    * Todos los acuerdos disponibles para el proveedor se muestran aquí. Localice el acuerdo en vigor que desee utilizar.  
-8. En la lista, haga clic en el vínculo de la fila seleccionada.
-9. Haga clic en Sí.
-10. Haga clic en Aceptar
+## <a name="create-a-purchase-order"></a><span data-ttu-id="d9c24-111">Crear un pedido de compra</span><span class="sxs-lookup"><span data-stu-id="d9c24-111">Create a purchase order</span></span>
+1. <span data-ttu-id="d9c24-112">Apertura del espacio de trabajo de preparación del pedido de compra</span><span class="sxs-lookup"><span data-stu-id="d9c24-112">Open the purchase order preparation workspace.</span></span>
+2. <span data-ttu-id="d9c24-113">Haga clic en Nuevo pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="d9c24-113">Click New purchase order.</span></span>
+3. <span data-ttu-id="d9c24-114">En el campo Cuenta de proveedor, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="d9c24-114">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="d9c24-115">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="d9c24-115">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="d9c24-116">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="d9c24-116">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="d9c24-117">Expanda la sección General.</span><span class="sxs-lookup"><span data-stu-id="d9c24-117">Toggle the expansion of the General section.</span></span>
+7. <span data-ttu-id="d9c24-118">En el campo Acuerdo de compra, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="d9c24-118">In the Purchase agreement field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="d9c24-119">Todos los acuerdos disponibles para el proveedor se muestran aquí.</span><span class="sxs-lookup"><span data-stu-id="d9c24-119">All available agreements for the vendor are listed here.</span></span> <span data-ttu-id="d9c24-120">Localice el acuerdo en vigor que desee utilizar.</span><span class="sxs-lookup"><span data-stu-id="d9c24-120">Find the effective agreement that you want to use.</span></span>  
+8. <span data-ttu-id="d9c24-121">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="d9c24-121">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="d9c24-122">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="d9c24-122">Click Yes.</span></span>
+10. <span data-ttu-id="d9c24-123">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="d9c24-123">Click OK.</span></span>
 
-## <a name="add-a-line"></a>Adición de una línea
-1. En el campo Código de artículo, escriba un valor.
-    * Si hay dimensiones de inventario o de ubicación específicas en el compromiso, debe especificar los mismos valores en la línea de pedido de compra para poder usar el acuerdo.  
-2. En el campo Sitio, haga clic en el botón desplegable para abrir la búsqueda.
-    * El sitio puede ya haberse cumplimentado con el valor predeterminado del pedido, o del proveedor. En tal caso, omita este paso.  
-3. En la lista, busque y seleccione el registro deseado.
-4. En la lista, haga clic en el vínculo de la fila seleccionada.
-5. En el campo Cantidad, especifique un número.
-    * Verifique que el precio se haya copiado del compromiso.  
+## <a name="add-a-line"></a><span data-ttu-id="d9c24-124">Adición de una línea</span><span class="sxs-lookup"><span data-stu-id="d9c24-124">Add a line</span></span>
+1. <span data-ttu-id="d9c24-125">En el campo Código de artículo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="d9c24-125">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="d9c24-126">Si hay dimensiones de inventario o de ubicación específicas en el compromiso, debe especificar los mismos valores en la línea de pedido de compra para poder usar el acuerdo.</span><span class="sxs-lookup"><span data-stu-id="d9c24-126">If there are specific inventory or location dimensions on the commitment you must enter the same values on the purchase order line to make use of the agreement.</span></span>  
+2. <span data-ttu-id="d9c24-127">En el campo Sitio, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="d9c24-127">In the Site field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="d9c24-128">El sitio puede ya haberse cumplimentado con el valor predeterminado del pedido, o del proveedor.</span><span class="sxs-lookup"><span data-stu-id="d9c24-128">The site may already be populated with the default value from the order, or from the vendor.</span></span> <span data-ttu-id="d9c24-129">En tal caso, omita este paso.</span><span class="sxs-lookup"><span data-stu-id="d9c24-129">If this is the case, skip this step.</span></span>  
+3. <span data-ttu-id="d9c24-130">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="d9c24-130">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="d9c24-131">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="d9c24-131">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="d9c24-132">En el campo Cantidad, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="d9c24-132">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="d9c24-133">Verifique que el precio se haya copiado del compromiso.</span><span class="sxs-lookup"><span data-stu-id="d9c24-133">Validate that the price is copied from the commitment.</span></span>  
 
-## <a name="look-up-the-commitment"></a>Búsqueda del compromiso
-1. Haga clic en Actualizar línea.
-2. Haga clic en Adjunto.
-    * Aquí puede obtener los detalles del acuerdo de compra. Por ejemplo, puede ver el precio y si el precio y el descuento son fijos, lo que significa que, si cambia precios o descuentos en el pedido de compra a un valor diferente que en el compromiso, el sistema quitará el vínculo de modo que la línea de pedido de compra no satisfaga el compromiso. También puede ver si está seleccionada la opción Máximo aplicado, lo que significa que la cantidad en el compromiso no puede sobrepasarse sumando todas las compras que satisfacen el compromiso.  
-3. Cierre la página.
+## <a name="look-up-the-commitment"></a><span data-ttu-id="d9c24-134">Búsqueda del compromiso</span><span class="sxs-lookup"><span data-stu-id="d9c24-134">Look up the commitment</span></span>
+1. <span data-ttu-id="d9c24-135">Haga clic en Actualizar línea.</span><span class="sxs-lookup"><span data-stu-id="d9c24-135">Click Update line.</span></span>
+2. <span data-ttu-id="d9c24-136">Haga clic en Adjunto.</span><span class="sxs-lookup"><span data-stu-id="d9c24-136">Click Attached.</span></span>
+    * <span data-ttu-id="d9c24-137">Aquí puede obtener los detalles del acuerdo de compra.</span><span class="sxs-lookup"><span data-stu-id="d9c24-137">Here you can get details for the purchase agreement.</span></span> <span data-ttu-id="d9c24-138">Por ejemplo, puede ver el precio y si el precio y el descuento son fijos, lo que significa que, si cambia precios o descuentos en el pedido de compra a un valor diferente que en el compromiso, el sistema quitará el vínculo de modo que la línea de pedido de compra no satisfaga el compromiso.</span><span class="sxs-lookup"><span data-stu-id="d9c24-138">For example, you can see the price and whether the price and discount are fixed, which means that if you change price or discount on the purchase order to a different value than on the commitment, the system will remove the link so the purchase order line does not fulfill the commitment.</span></span> <span data-ttu-id="d9c24-139">También puede ver si está seleccionada la opción Máximo aplicado, lo que significa que la cantidad en el compromiso no puede sobrepasarse sumando todas las compras que satisfacen el compromiso.</span><span class="sxs-lookup"><span data-stu-id="d9c24-139">You can also see if the Max is enforced option is selected, which means that the quantity on the commitment cannot be exceeded by summing all of the purchases that fulfill the commitment.</span></span>  
+3. <span data-ttu-id="d9c24-140">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="d9c24-140">Close the page.</span></span>
 
-## <a name="look-up-the-purchase-agreement"></a>Búsqueda del acuerdo de compra
-1. En el panel de acciones, haga clic en General.
-2. Haga clic en Acuerdo de compra.
-3. Cierre la página.
-4. Cierre la página.
+## <a name="look-up-the-purchase-agreement"></a><span data-ttu-id="d9c24-141">Búsqueda del acuerdo de compra</span><span class="sxs-lookup"><span data-stu-id="d9c24-141">Look up the purchase agreement</span></span>
+1. <span data-ttu-id="d9c24-142">En el panel de acciones, haga clic en General.</span><span class="sxs-lookup"><span data-stu-id="d9c24-142">On the Action Pane, click General.</span></span>
+2. <span data-ttu-id="d9c24-143">Haga clic en Acuerdo de compra.</span><span class="sxs-lookup"><span data-stu-id="d9c24-143">Click Purchase agreement.</span></span>
+3. <span data-ttu-id="d9c24-144">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="d9c24-144">Close the page.</span></span>
+4. <span data-ttu-id="d9c24-145">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="d9c24-145">Close the page.</span></span>
 
 

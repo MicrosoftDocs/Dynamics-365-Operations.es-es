@@ -16,129 +16,129 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: be601efd857a0d57210680adcb0b0a1f17ca2f27
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: cbd9c5e3c4b5966e12f0219b321a548730adcd06
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-the-dependency-of-configurations-from-othcomponents-for-electronic-reporting-er"></a>Definir la dependencia de las configuraciones de otros componentes para informes electrónicos (ER)
+# <a name="define-the-dependency-of-configurations-from-othcomponents-for-electronic-reporting-er"></a><span data-ttu-id="656e2-103">Definir la dependencia de las configuraciones de otros componentes para informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="656e2-103">Define the dependency of configurations from othcomponents for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Para completar estos pasos, primero debe completar los pasos de la guía de tareas, "ER: Administrar las configuraciones de asignación de modelos" y debe tener acceso a Microsoft Dynamics Lifecycle Services (LCS).
+<span data-ttu-id="656e2-104">Para completar estos pasos, primero debe completar los pasos de la guía de tareas, "ER: Administrar las configuraciones de asignación de modelos" y debe tener acceso a Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="656e2-104">To complete these steps, you must first complete the steps in the task guide, ER Manage model mapping configurations, and you must have access to Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-Este procedimiento muestra cómo diseñar una configuración de informes electrónicos (ER) y especificar su dependencia desde otros componentes de software, de modo que pueda ayudar a garantizar que la configuración se ha descargado correctamente a una versión específica de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. En este ejemplo, usted creará las configuraciones de ER necesarias para la empresa de ejemplo, Litware, Inc. 
+<span data-ttu-id="656e2-105">Este procedimiento muestra cómo diseñar una configuración de informes electrónicos (ER) y especificar su dependencia desde otros componentes de software, de modo que pueda ayudar a garantizar que la configuración se ha descargado correctamente a una versión específica de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="656e2-105">This procedure shows how to design an Electronic reporting (ER) configuration and specify its dependency from other software components, so that you can help guarantee that the configuration is correctly downloaded to a specific version of Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="656e2-106">En este ejemplo, usted creará las configuraciones de ER necesarias para la empresa de ejemplo, Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="656e2-106">In this example, you will create required ER configurations for the sample company Litware, Inc.</span></span> 
 
-Este procedimiento se ha creado para los usuarios con los roles de Administrador del sistema o Desarrollador de informes electrónicos asignados. Los pasos se pueden realizar con cualquier empresa, porque las configuraciones de informes electrónicos se comparten entre todas las empresas. 
+<span data-ttu-id="656e2-107">Este procedimiento se ha creado para los usuarios con los roles de Administrador del sistema o Desarrollador de informes electrónicos asignados.</span><span class="sxs-lookup"><span data-stu-id="656e2-107">This procedure is intended for users who have the System administrator or Electronic reporting developer role assigned to them.</span></span> <span data-ttu-id="656e2-108">Los pasos se pueden realizar con cualquier empresa, porque las configuraciones de informes electrónicos se comparten entre todas las empresas.</span><span class="sxs-lookup"><span data-stu-id="656e2-108">The steps can be performed in any company, because ER configurations are shared among companies.</span></span> 
 
-1. Vaya a Administración de la organización > Informes electrónicos > Configuraciones.
-    * Asegúrese de que el árbol de las configuraciones contenga la configuración "Modelo de datos de ejemplo" y los elementos subordinados. De lo contrario, siga los pasos de la guía de tareas, "ER: Administrar las configuraciones de asignación de modelos" y después vuelva a empezar esta guía.   
+1. <span data-ttu-id="656e2-109">Vaya a Administración de la organización > Informes electrónicos > Configuraciones.</span><span class="sxs-lookup"><span data-stu-id="656e2-109">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+    * <span data-ttu-id="656e2-110">Asegúrese de que el árbol de las configuraciones contenga la configuración "Modelo de datos de ejemplo" y los elementos subordinados.</span><span class="sxs-lookup"><span data-stu-id="656e2-110">Make sure that the configurations tree contains the ‘Sample data model’ configuration and subordinate items.</span></span> <span data-ttu-id="656e2-111">De lo contrario, siga los pasos de la guía de tareas, "ER: Administrar las configuraciones de asignación de modelos" y después vuelva a empezar esta guía.</span><span class="sxs-lookup"><span data-stu-id="656e2-111">Otherwise, complete the steps in the task guide, ER Manage model mapping configurations, and then start this guide again.</span></span>   
 
-## <a name="define-the-dependency-of-er-configurations-from-other-components"></a>Definir la dependencia de las configuraciones de ER a partir de otros componentes
-1. En el árbol, expanda "Modelo de datos de ejemplo".
-2. En el árbol, seleccione "Muestra modelo de datos\Muestra asingación".
-    * Seleccionamos la versión de borrador de la configuración de la asignación del modelo "Asignación de ejemplo". Ahora definiremos la dependencia de otros componentes de software. Este paso se considera un requisito previo para controlar la descarga desde la versión de esta configuración de un repositorio de ER y cualquier uso futuro de esta versión.   
-3. Expanda la sección Requisitos previos.
-    * Tenga en cuenta que el grupo de los requisitos previos "Implementaciones" se ha agregado automáticamente a esta página. Este grupo contiene el componente de requisitos previos necesario para la configuración del modelo de datos y tiene activado el indicador de Implementación. Este indicador indica que la configuración "Asignación de ejemplo" se considerada la implementación del modelo de datos "Modelo de datos de ejemplo". Este componente forzará al ER que descargue la configuración de asignación "Asignación de ejemplo" desde un repositorio de ER cada vez que descargue la configuración del modelo "Modelo de datos de ejemplo".   
-4. Haga clic en Editar.
-    * Una única dependencia de la versión actual de una configuración de un componente de software se puede especificar mediante la definición del tipo de componente, y bien la versión del componente o un intervalo de versiones de componentes.  
-    * Las dependencias deseadas se pueden agrupar juntas. Cuando se selecciona el tipo de agrupación "Todos de", la condición de la dependencia de este grupo se considera satisfecha cuando se satisfaga cada condición de la dependencia de este grupo y grupo subordinado. Cuando se selecciona el tipo de agrupación "Uno de", la condición de la dependencia de este grupo se considera satisfecha cuando se satisfaga al menso una condición de la dependencia de este grupo y grupo subordinado.   
-5. Haga clic en Nuevo.
-6. Seleccionar el componente de requisito previo de producto.
-7. Seleccione Microsoft Dynamics 365 for Operations (1611).
-8. En el campo versión, escriba "[7.1.1541.3036,8)".
-    * [7.1.1541.3036,8)  
-    * Las dependencias que introduzca serán evaluadas cuando esta configuración se descargue de cualquier ER almacenada. Esta versión de configuración se descargará del ER almacenado cuando la versión 1 de la configuración "Muestra modelo de datos” esté ya en el lugar o se haya descargado por adelantado. Si ha descargado por adelantado, debe completarse en Finance and Operations, cuya versión debe ser 7.1.1541.3036 o posterior, pero no debe superar la versión 8.   
-9. Haga clic en Guardar.
-10. Cierre la página.
-11. Haga clic en Cambiar estado.
-12. Haga clic en Completar.
-13. Haga clic en Aceptar
-14. En el árbol, seleccione "Muestra modelo de datos\Asignación de Muestra (alternativa)".
-15. Haga clic en Editar.
-16. Haga clic en Nuevo.
-17. Seleccionar el componente de requisito previo de producto.
-18. Seleccione Microsoft Dynamics AX 7.0 RTW.
-19. En el campo versión, escriba "[7.0.1265.3015,7.1)".
-    * [7.0.1265.3015,7.1)  
-    * Las dependencias que introduzca serán evaluadas cuando la configuración se descargue de cualquier ER almacenado. Esta versión de configuración se descargará del ER almacenado cuando la versión 1 de la configuración "Muestra modelo de datos” esté ya en el lugar o se haya descargado por adelantado. Si ha descargado por adelantado, debe completarse en Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, cuya versión debe ser 7.0.1265.3015 o posterior, pero no debe ser inferión a la versión 1.   
-20. Haga clic en Guardar.
-21. Cierre la página.
-22. Haga clic en Cambiar estado.
-23. Haga clic en Completar.
-24. Haga clic en Aceptar
+## <a name="define-the-dependency-of-er-configurations-from-other-components"></a><span data-ttu-id="656e2-112">Definir la dependencia de las configuraciones de ER a partir de otros componentes</span><span class="sxs-lookup"><span data-stu-id="656e2-112">Define the dependency of ER configurations from other components</span></span>
+1. <span data-ttu-id="656e2-113">En el árbol, expanda "Modelo de datos de ejemplo".</span><span class="sxs-lookup"><span data-stu-id="656e2-113">In the tree, expand 'Sample data model'.</span></span>
+2. <span data-ttu-id="656e2-114">En el árbol, seleccione "Muestra modelo de datos\Muestra asingación".</span><span class="sxs-lookup"><span data-stu-id="656e2-114">In the tree, select 'Sample data model\Sample mapping'.</span></span>
+    * <span data-ttu-id="656e2-115">Seleccionamos la versión de borrador de la configuración de la asignación del modelo "Asignación de ejemplo".</span><span class="sxs-lookup"><span data-stu-id="656e2-115">We selected the draft version of the ‘Sample mapping’ model mapping configuration.</span></span> <span data-ttu-id="656e2-116">Ahora definiremos la dependencia de otros componentes de software.</span><span class="sxs-lookup"><span data-stu-id="656e2-116">We will now define its dependency from other software components.</span></span> <span data-ttu-id="656e2-117">Este paso se considera un requisito previo para controlar la descarga desde la versión de esta configuración de un repositorio de ER y cualquier uso futuro de esta versión.</span><span class="sxs-lookup"><span data-stu-id="656e2-117">This step is considered a prerequisite for controlling the download of this configuration’s version from an ER repository and any further use of this version.</span></span>   
+3. <span data-ttu-id="656e2-118">Expanda la sección Requisitos previos.</span><span class="sxs-lookup"><span data-stu-id="656e2-118">Expand the Prerequisites section.</span></span>
+    * <span data-ttu-id="656e2-119">Tenga en cuenta que el grupo de los requisitos previos "Implementaciones" se ha agregado automáticamente a esta página.</span><span class="sxs-lookup"><span data-stu-id="656e2-119">Note that the ‘Implementations’ prerequisites group has been added automatically at this stage.</span></span> <span data-ttu-id="656e2-120">Este grupo contiene el componente de requisitos previos necesario para la configuración del modelo de datos y tiene activado el indicador de Implementación.</span><span class="sxs-lookup"><span data-stu-id="656e2-120">This group contains the prerequisite component that refers to the data model configuration and has the Implementation flag turned on.</span></span> <span data-ttu-id="656e2-121">Este indicador indica que la configuración "Asignación de ejemplo" se considerada la implementación del modelo de datos "Modelo de datos de ejemplo".</span><span class="sxs-lookup"><span data-stu-id="656e2-121">This flag indicates that the ‘Sample mapping’ mapping configuration is considered the implementation of the ‘Sample data model’ data model.</span></span> <span data-ttu-id="656e2-122">Este componente forzará al ER que descargue la configuración de asignación "Asignación de ejemplo" desde un repositorio de ER cada vez que descargue la configuración del modelo "Modelo de datos de ejemplo".</span><span class="sxs-lookup"><span data-stu-id="656e2-122">This component will force ER to download the ‘Sample mapping’ mapping configuration from an ER repository whenever the ‘Sample data model’ model configuration is downloaded.</span></span>   
+4. <span data-ttu-id="656e2-123">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="656e2-123">Click Edit.</span></span>
+    * <span data-ttu-id="656e2-124">Una única dependencia de la versión actual de una configuración de un componente de software se puede especificar mediante la definición del tipo de componente, y bien la versión del componente o un intervalo de versiones de componentes.</span><span class="sxs-lookup"><span data-stu-id="656e2-124">A single dependency of the current version of a configuration from a software component can be specified by using the definition of the component’s type, and either the component version or a range of component versions.</span></span>  
+    * <span data-ttu-id="656e2-125">Las dependencias deseadas se pueden agrupar juntas.</span><span class="sxs-lookup"><span data-stu-id="656e2-125">Desired dependencies can be grouped together.</span></span> <span data-ttu-id="656e2-126">Cuando se selecciona el tipo de agrupación "Todos de", la condición de la dependencia de este grupo se considera satisfecha cuando se satisfaga cada condición de la dependencia de este grupo y grupo subordinado.</span><span class="sxs-lookup"><span data-stu-id="656e2-126">When the ‘All of’ grouping type is selected, the dependency condition of this group is considered satisfied when each dependency condition from this group and subordinate group is satisfied.</span></span> <span data-ttu-id="656e2-127">Cuando se selecciona el tipo de agrupación "Uno de", la condición de la dependencia de este grupo se considera satisfecha cuando se satisfaga al menso una condición de la dependencia de este grupo y grupo subordinado.</span><span class="sxs-lookup"><span data-stu-id="656e2-127">When the ‘One of’ grouping type is selected, the dependency condition of this group is considered satisfied when at least one dependency condition from this group is satisfied.</span></span>   
+5. <span data-ttu-id="656e2-128">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="656e2-128">Click New.</span></span>
+6. <span data-ttu-id="656e2-129">Seleccionar el componente de requisito previo de producto.</span><span class="sxs-lookup"><span data-stu-id="656e2-129">Select Product prerequisite component.</span></span>
+7. <span data-ttu-id="656e2-130">Seleccione Microsoft Dynamics 365 for Operations (1611).</span><span class="sxs-lookup"><span data-stu-id="656e2-130">Select Microsoft Dynamics 365 for Operations (1611).</span></span>
+8. <span data-ttu-id="656e2-131">En el campo versión, escriba "[7.1.1541.3036,8)".</span><span class="sxs-lookup"><span data-stu-id="656e2-131">In the Version field, type '[7.1.1541.3036,8)'.</span></span>
+    * <span data-ttu-id="656e2-132">[7.1.1541.3036,8)</span><span class="sxs-lookup"><span data-stu-id="656e2-132">[7.1.1541.3036,8)</span></span>  
+    * <span data-ttu-id="656e2-133">Las dependencias que introduzca serán evaluadas cuando esta configuración se descargue de cualquier ER almacenada.</span><span class="sxs-lookup"><span data-stu-id="656e2-133">Dependencies that you enter will be evaluated when this configuration is downloaded from any ER repository.</span></span> <span data-ttu-id="656e2-134">Esta versión de configuración se descargará del ER almacenado cuando la versión 1 de la configuración "Muestra modelo de datos” esté ya en el lugar o se haya descargado por adelantado.</span><span class="sxs-lookup"><span data-stu-id="656e2-134">This configuration version will be downloaded from the ER repository when version 1 of the ‘Sample data model’ configuration is either already in place or downloaded in advance.</span></span> <span data-ttu-id="656e2-135">Si ha descargado por adelantado, debe completarse en Finance and Operations, cuya versión debe ser 7.1.1541.3036 o posterior, pero no debe superar la versión 8.</span><span class="sxs-lookup"><span data-stu-id="656e2-135">If it’s downloaded in advance, it must be completed in Finance and Operations, the version of which must be 7.1.1541.3036 or later, but must not exceed major version 8.</span></span>   
+9. <span data-ttu-id="656e2-136">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="656e2-136">Click Save.</span></span>
+10. <span data-ttu-id="656e2-137">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="656e2-137">Close the page.</span></span>
+11. <span data-ttu-id="656e2-138">Haga clic en Cambiar estado.</span><span class="sxs-lookup"><span data-stu-id="656e2-138">Click Change status.</span></span>
+12. <span data-ttu-id="656e2-139">Haga clic en Completar.</span><span class="sxs-lookup"><span data-stu-id="656e2-139">Click Complete.</span></span>
+13. <span data-ttu-id="656e2-140">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="656e2-140">Click OK.</span></span>
+14. <span data-ttu-id="656e2-141">En el árbol, seleccione "Muestra modelo de datos\Asignación de Muestra (alternativa)".</span><span class="sxs-lookup"><span data-stu-id="656e2-141">In the tree, select 'Sample data model\Sample mapping (alternative)'.</span></span>
+15. <span data-ttu-id="656e2-142">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="656e2-142">Click Edit.</span></span>
+16. <span data-ttu-id="656e2-143">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="656e2-143">Click New.</span></span>
+17. <span data-ttu-id="656e2-144">Seleccionar el componente de requisito previo de producto.</span><span class="sxs-lookup"><span data-stu-id="656e2-144">Select Product prerequisite component.</span></span>
+18. <span data-ttu-id="656e2-145">Seleccione Microsoft Dynamics AX 7.0 RTW.</span><span class="sxs-lookup"><span data-stu-id="656e2-145">Select Microsoft Dynamics AX 7.0 RTW.</span></span>
+19. <span data-ttu-id="656e2-146">En el campo versión, escriba "[7.0.1265.3015,7.1)".</span><span class="sxs-lookup"><span data-stu-id="656e2-146">In the Version field, type '[7.0.1265.3015,7.1)'.</span></span>
+    * <span data-ttu-id="656e2-147">[7.0.1265.3015,7.1)</span><span class="sxs-lookup"><span data-stu-id="656e2-147">[7.0.1265.3015,7.1)</span></span>  
+    * <span data-ttu-id="656e2-148">Las dependencias que introduzca serán evaluadas cuando la configuración se descargue de cualquier ER almacenado.</span><span class="sxs-lookup"><span data-stu-id="656e2-148">Dependencies will be evaluated when the configuration is downloaded from any ER repository.</span></span> <span data-ttu-id="656e2-149">Esta versión de configuración se descargará del ER almacenado cuando la versión 1 de la configuración "Muestra modelo de datos” esté ya en el lugar o se haya descargado por adelantado.</span><span class="sxs-lookup"><span data-stu-id="656e2-149">This configuration version will be downloaded from the ER repository when version 1 of the ‘Sample data model’ configuration is either already in place or downloaded in advance.</span></span> <span data-ttu-id="656e2-150">Si ha descargado por adelantado, debe completarse en Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, cuya versión debe ser 7.0.1265.3015 o posterior, pero no debe ser inferión a la versión 1.</span><span class="sxs-lookup"><span data-stu-id="656e2-150">If it’s downloaded in advance, it must be completed in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, the version of which must be 7.0.1265.3015 or later, but must not exceed minor version 1.</span></span>   
+20. <span data-ttu-id="656e2-151">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="656e2-151">Click Save.</span></span>
+21. <span data-ttu-id="656e2-152">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="656e2-152">Close the page.</span></span>
+22. <span data-ttu-id="656e2-153">Haga clic en Cambiar estado.</span><span class="sxs-lookup"><span data-stu-id="656e2-153">Click Change status.</span></span>
+23. <span data-ttu-id="656e2-154">Haga clic en Completar.</span><span class="sxs-lookup"><span data-stu-id="656e2-154">Click Complete.</span></span>
+24. <span data-ttu-id="656e2-155">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="656e2-155">Click OK.</span></span>
 
-## <a name="configure-the-er-repository"></a>Configurar el repositorio de ER
-1. Cierre la página.
-2. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
-    * Abra la lista de repositorios de ER para el proveedor de ER actual, Litware, Inc.  
-3. En la lista, marque la fila seleccionada.
-4. Haga clic en Repositorios.
-5. Haga clic en Mostrar filtros.
-6. Introduzca un valor de filtro de "LCS" en el campo "Nombre de tipo" mediante el operador de filtro "contiene".
-    * Si el repositorio de LCS ya está registrado para el proveedor de ER actual, puede omitir los pasos restantes en esta subtarea. Si el repositorio de LCS no está ya registrado, complete los pasos restantes.   
-7. Haga clic en Agregar para abrir el cuadro desplegable.
-8. En el campo Repositorio de configuración, escriba "LCS".
-9. Haga clic en Crear repositorio.
-10. En el campo Proyecto, especifique o seleccione un valor.
-    * Seleccione el proyecto deseado de LCS en la búsqueda del campo “Proyecto”.  
-11. Haga clic en Aceptar
-12. Cierre la página.
+## <a name="configure-the-er-repository"></a><span data-ttu-id="656e2-156">Configurar el repositorio de ER</span><span class="sxs-lookup"><span data-stu-id="656e2-156">Configure the ER repository</span></span>
+1. <span data-ttu-id="656e2-157">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="656e2-157">Close the page.</span></span>
+2. <span data-ttu-id="656e2-158">Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="656e2-158">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="656e2-159">Abra la lista de repositorios de ER para el proveedor de ER actual, Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="656e2-159">Open the list of ER repositories for the current ER provider, Litware, Inc.</span></span>  
+3. <span data-ttu-id="656e2-160">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="656e2-160">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="656e2-161">Haga clic en Repositorios.</span><span class="sxs-lookup"><span data-stu-id="656e2-161">Click Repositories.</span></span>
+5. <span data-ttu-id="656e2-162">Haga clic en Mostrar filtros.</span><span class="sxs-lookup"><span data-stu-id="656e2-162">Click Show filters.</span></span>
+6. <span data-ttu-id="656e2-163">Introduzca un valor de filtro de "LCS" en el campo "Nombre de tipo" mediante el operador de filtro "contiene".</span><span class="sxs-lookup"><span data-stu-id="656e2-163">Enter a filter value of "LCS" on the "Type name" field using the "contains" filter operator.</span></span>
+    * <span data-ttu-id="656e2-164">Si el repositorio de LCS ya está registrado para el proveedor de ER actual, puede omitir los pasos restantes en esta subtarea.</span><span class="sxs-lookup"><span data-stu-id="656e2-164">If the LCS repository is already registered for the current ER provider, you can skip the remaining steps in this sub-task.</span></span> <span data-ttu-id="656e2-165">Si el repositorio de LCS no está ya registrado, complete los pasos restantes.</span><span class="sxs-lookup"><span data-stu-id="656e2-165">If the LCS repository isn’t already registered, complete the remaining steps.</span></span>   
+7. <span data-ttu-id="656e2-166">Haga clic en Agregar para abrir el cuadro desplegable.</span><span class="sxs-lookup"><span data-stu-id="656e2-166">Click Add to open the drop dialog.</span></span>
+8. <span data-ttu-id="656e2-167">En el campo Repositorio de configuración, escriba "LCS".</span><span class="sxs-lookup"><span data-stu-id="656e2-167">In the Configuration repository type field, enter 'LCS'.</span></span>
+9. <span data-ttu-id="656e2-168">Haga clic en Crear repositorio.</span><span class="sxs-lookup"><span data-stu-id="656e2-168">Click Create repository.</span></span>
+10. <span data-ttu-id="656e2-169">En el campo Proyecto, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="656e2-169">In the Project field, enter or select a value.</span></span>
+    * <span data-ttu-id="656e2-170">Seleccione el proyecto deseado de LCS en la búsqueda del campo “Proyecto”.</span><span class="sxs-lookup"><span data-stu-id="656e2-170">Select the desired LCS project from the lookup of the ‘Project’ field.</span></span>  
+11. <span data-ttu-id="656e2-171">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="656e2-171">Click OK.</span></span>
+12. <span data-ttu-id="656e2-172">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="656e2-172">Close the page.</span></span>
 
-## <a name="upload-configurations-to-lcs"></a>Cargar las configuraciones en LCS
-1. Haga clic en Configuraciones de informes.
-2. En el árbol, seleccione "Modelo de datos de ejemplo".
-3. Seleccione la versión completada de esta configuración.
-4. Haga clic en Cambiar estado.
-5. Haga clic en Compartir.
-6. Haga clic en Aceptar
-    * La versión 1 de esta configuración de modelo se ha cargado en LCS mediante el proyecto de LCS para el repositorio de ER que se ha configurado previamente.   
-7. En el árbol, expanda "Modelo de datos de ejemplo".
-8. En el árbol, seleccione "Muestra modelo de datos\Muestra asingación".
-9. Seleccione la versión completada de esta configuración.
-10. Haga clic en Cambiar estado.
-11. Haga clic en Compartir.
-12. Haga clic en Aceptar
-    * La versión 1.1 de esta configuración de asignación de modelo se ha cargado en LCS mediante el proyecto de LCS para el repositorio de ER que se ha configurado previamente.   
-13. En el árbol, seleccione "Muestra modelo de datos\Asignación de Muestra (alternativa)".
-14. Seleccione la versión completada de esta configuración.
-15. Haga clic en Cambiar estado.
-16. Haga clic en Compartir.
-17. Haga clic en Aceptar
-    * La versión 1.1 de esta configuración de asignación de modelo se ha cargado en LCS mediante el proyecto de LCS para el repositorio de ER que se ha configurado previamente.   
+## <a name="upload-configurations-to-lcs"></a><span data-ttu-id="656e2-173">Cargar las configuraciones en LCS</span><span class="sxs-lookup"><span data-stu-id="656e2-173">Upload configurations to LCS</span></span>
+1. <span data-ttu-id="656e2-174">Haga clic en Configuraciones de informes.</span><span class="sxs-lookup"><span data-stu-id="656e2-174">Click Reporting configurations.</span></span>
+2. <span data-ttu-id="656e2-175">En el árbol, seleccione "Modelo de datos de ejemplo".</span><span class="sxs-lookup"><span data-stu-id="656e2-175">In the tree, select 'Sample data model'.</span></span>
+3. <span data-ttu-id="656e2-176">Seleccione la versión completada de esta configuración.</span><span class="sxs-lookup"><span data-stu-id="656e2-176">Select the completed version of this configuration.</span></span>
+4. <span data-ttu-id="656e2-177">Haga clic en Cambiar estado.</span><span class="sxs-lookup"><span data-stu-id="656e2-177">Click Change status.</span></span>
+5. <span data-ttu-id="656e2-178">Haga clic en Compartir.</span><span class="sxs-lookup"><span data-stu-id="656e2-178">Click Share.</span></span>
+6. <span data-ttu-id="656e2-179">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="656e2-179">Click OK.</span></span>
+    * <span data-ttu-id="656e2-180">La versión 1 de esta configuración de modelo se ha cargado en LCS mediante el proyecto de LCS para el repositorio de ER que se ha configurado previamente.</span><span class="sxs-lookup"><span data-stu-id="656e2-180">Version 1 of this model configuration has been uploaded to LCS by using the LCS project for the ER repository that was previously configured.</span></span>   
+7. <span data-ttu-id="656e2-181">En el árbol, expanda "Modelo de datos de ejemplo".</span><span class="sxs-lookup"><span data-stu-id="656e2-181">In the tree, expand 'Sample data model'.</span></span>
+8. <span data-ttu-id="656e2-182">En el árbol, seleccione "Muestra modelo de datos\Muestra asingación".</span><span class="sxs-lookup"><span data-stu-id="656e2-182">In the tree, select 'Sample data model\Sample mapping'.</span></span>
+9. <span data-ttu-id="656e2-183">Seleccione la versión completada de esta configuración.</span><span class="sxs-lookup"><span data-stu-id="656e2-183">Select the completed version of this configuration.</span></span>
+10. <span data-ttu-id="656e2-184">Haga clic en Cambiar estado.</span><span class="sxs-lookup"><span data-stu-id="656e2-184">Click Change status.</span></span>
+11. <span data-ttu-id="656e2-185">Haga clic en Compartir.</span><span class="sxs-lookup"><span data-stu-id="656e2-185">Click Share.</span></span>
+12. <span data-ttu-id="656e2-186">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="656e2-186">Click OK.</span></span>
+    * <span data-ttu-id="656e2-187">La versión 1.1 de esta configuración de asignación de modelo se ha cargado en LCS mediante el proyecto de LCS para el repositorio de ER que se ha configurado previamente.</span><span class="sxs-lookup"><span data-stu-id="656e2-187">Version 1.1 of this model mapping configuration has been uploaded to LCS by using the LCS project for the ER repository that was previously configured.</span></span>   
+13. <span data-ttu-id="656e2-188">En el árbol, seleccione "Muestra modelo de datos\Asignación de Muestra (alternativa)".</span><span class="sxs-lookup"><span data-stu-id="656e2-188">In the tree, select 'Sample data model\Sample mapping (alternative)'.</span></span>
+14. <span data-ttu-id="656e2-189">Seleccione la versión completada de esta configuración.</span><span class="sxs-lookup"><span data-stu-id="656e2-189">Select the completed version of this configuration.</span></span>
+15. <span data-ttu-id="656e2-190">Haga clic en Cambiar estado.</span><span class="sxs-lookup"><span data-stu-id="656e2-190">Click Change status.</span></span>
+16. <span data-ttu-id="656e2-191">Haga clic en Compartir.</span><span class="sxs-lookup"><span data-stu-id="656e2-191">Click Share.</span></span>
+17. <span data-ttu-id="656e2-192">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="656e2-192">Click OK.</span></span>
+    * <span data-ttu-id="656e2-193">La versión 1.1 de esta configuración de asignación de modelo se ha cargado en LCS mediante el proyecto de LCS para el repositorio de ER que se ha configurado previamente.</span><span class="sxs-lookup"><span data-stu-id="656e2-193">Version 1.1 of this model mapping configuration has been uploaded to LCS by using the LCS project for the ER repository that was previously configured.</span></span>   
 
-## <a name="evaluate-er-configuration-dependencies"></a>Evaluar las dependencias de la configuración del ER
-    * Eliminaremos las configuraciones creadas del sistema y las descargaremos de nuevo en el repositorio de LCS.  
-1. En el árbol, seleccione "Muestra modelo de datos\Muestra asingación".
-2. Haga clic Eliminar.
-3. Haga clic en Sí.
-4. En el árbol, seleccione "Muestra modelo de datos\Asignación de Muestra (alternativa)".
-5. Haga clic Eliminar.
-6. Haga clic en Sí.
-7. En el árbol, seleccione "Muestra modelo de datos\Muestra formato".
-8. Haga clic Eliminar.
-9. Haga clic en Sí.
-10. En el árbol, seleccione "Modelo de datos de ejemplo".
-11. Haga clic Eliminar.
-12. Haga clic en Sí.
-13. Cierre la página.
-    * Abra la lista de repositorios de ER para el proveedor de ER actual, Litware, Inc.  
-14. Haga clic en Repositorios.
-15. Haga clic en Mostrar filtros.
-16. Introduzca un valor de filtro de "LCS" en el campo "Nombre de tipo" mediante el operador de filtro "contiene".
-17. Haga clic en Abrir.
-18. En el árbol, seleccione "Modelo de datos de ejemplo".
-    * Tenga en cuenta que puede ver una evaluación de si las condiciones necesarias de requisitos previos se han satisfecho para cada versión de la configuración de ER para el repositorio actual. Para ver esta evaluación, haga clic en Comprobar requisitos previos.   
-19. Haga clic en comprobar requisitos previos.
-20. Haga clic en Importar.
-21. Haga clic en Sí.
-22. Cierre la página.
-23. Cierre la página.
-24. Cierre la página.
-25. Vaya a Administración de la organización > Informes electrónicos > Configuraciones.
-26. En el árbol, expanda "Modelo de datos de ejemplo".
-    * Tenga en cuenta que la configuración de asignación "Asignación de ejemplo” se ha descargado junto con la configuración seleccionada del modelo de datos. Los dos archivos se descargan conjuntamente porque la asignación “Asignación de ejemplo” se ha definido como implementación del modelo de datos seleccionado, y es aplicable para Finance and Operations. La configuración de "Asignación de ejemplo (alternativa)” no se ha descargado porque la condición para la versión de la aplicación requerida no se cumplió.   
-    * Si inicia sesión en Dynamics 365 for Finance and Operations, Enterprise edition, registra el mismo proveedor, accede al mismo proyecto de LCS y descarga la misma configuración del modelo de datos, la configuración de asignación de muestra (alternativa)” se descargará, mientras que la configuración "Asignación de Muestra” se omitirá.  
+## <a name="evaluate-er-configuration-dependencies"></a><span data-ttu-id="656e2-194">Evaluar las dependencias de la configuración del ER</span><span class="sxs-lookup"><span data-stu-id="656e2-194">Evaluate ER configuration dependencies</span></span>
+    * <span data-ttu-id="656e2-195">Eliminaremos las configuraciones creadas del sistema y las descargaremos de nuevo en el repositorio de LCS.</span><span class="sxs-lookup"><span data-stu-id="656e2-195">We will delete created configurations from the system and download them back from the LCS repository.</span></span>  
+1. <span data-ttu-id="656e2-196">En el árbol, seleccione "Muestra modelo de datos\Muestra asingación".</span><span class="sxs-lookup"><span data-stu-id="656e2-196">In the tree, select 'Sample data model\Sample mapping'.</span></span>
+2. <span data-ttu-id="656e2-197">Haga clic Eliminar.</span><span class="sxs-lookup"><span data-stu-id="656e2-197">Click Delete.</span></span>
+3. <span data-ttu-id="656e2-198">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="656e2-198">Click Yes.</span></span>
+4. <span data-ttu-id="656e2-199">En el árbol, seleccione "Muestra modelo de datos\Asignación de Muestra (alternativa)".</span><span class="sxs-lookup"><span data-stu-id="656e2-199">In the tree, select 'Sample data model\Sample mapping (alternative)'.</span></span>
+5. <span data-ttu-id="656e2-200">Haga clic Eliminar.</span><span class="sxs-lookup"><span data-stu-id="656e2-200">Click Delete.</span></span>
+6. <span data-ttu-id="656e2-201">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="656e2-201">Click Yes.</span></span>
+7. <span data-ttu-id="656e2-202">En el árbol, seleccione "Muestra modelo de datos\Muestra formato".</span><span class="sxs-lookup"><span data-stu-id="656e2-202">In the tree, select 'Sample data model\Sample format'.</span></span>
+8. <span data-ttu-id="656e2-203">Haga clic Eliminar.</span><span class="sxs-lookup"><span data-stu-id="656e2-203">Click Delete.</span></span>
+9. <span data-ttu-id="656e2-204">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="656e2-204">Click Yes.</span></span>
+10. <span data-ttu-id="656e2-205">En el árbol, seleccione "Modelo de datos de ejemplo".</span><span class="sxs-lookup"><span data-stu-id="656e2-205">In the tree, select 'Sample data model'.</span></span>
+11. <span data-ttu-id="656e2-206">Haga clic Eliminar.</span><span class="sxs-lookup"><span data-stu-id="656e2-206">Click Delete.</span></span>
+12. <span data-ttu-id="656e2-207">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="656e2-207">Click Yes.</span></span>
+13. <span data-ttu-id="656e2-208">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="656e2-208">Close the page.</span></span>
+    * <span data-ttu-id="656e2-209">Abra la lista de repositorios de ER para el proveedor de ER actual, Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="656e2-209">Open the list of ER repositories for the current ER provider, Litware, Inc.</span></span>  
+14. <span data-ttu-id="656e2-210">Haga clic en Repositorios.</span><span class="sxs-lookup"><span data-stu-id="656e2-210">Click Repositories.</span></span>
+15. <span data-ttu-id="656e2-211">Haga clic en Mostrar filtros.</span><span class="sxs-lookup"><span data-stu-id="656e2-211">Click Show filters.</span></span>
+16. <span data-ttu-id="656e2-212">Introduzca un valor de filtro de "LCS" en el campo "Nombre de tipo" mediante el operador de filtro "contiene".</span><span class="sxs-lookup"><span data-stu-id="656e2-212">Enter a filter value of "LCS" on the "Type name" field using the "contains" filter operator.</span></span>
+17. <span data-ttu-id="656e2-213">Haga clic en Abrir.</span><span class="sxs-lookup"><span data-stu-id="656e2-213">Click Open.</span></span>
+18. <span data-ttu-id="656e2-214">En el árbol, seleccione "Modelo de datos de ejemplo".</span><span class="sxs-lookup"><span data-stu-id="656e2-214">In the tree, select 'Sample data model'.</span></span>
+    * <span data-ttu-id="656e2-215">Tenga en cuenta que puede ver una evaluación de si las condiciones necesarias de requisitos previos se han satisfecho para cada versión de la configuración de ER para el repositorio actual.</span><span class="sxs-lookup"><span data-stu-id="656e2-215">Note that you can view an evaluation of whether prerequisite conditions have been satisfied for each version of the ER configurations for the current repository.</span></span> <span data-ttu-id="656e2-216">Para ver esta evaluación, haga clic en Comprobar requisitos previos.</span><span class="sxs-lookup"><span data-stu-id="656e2-216">To view this evaluation, click Check prerequisites.</span></span>   
+19. <span data-ttu-id="656e2-217">Haga clic en comprobar requisitos previos.</span><span class="sxs-lookup"><span data-stu-id="656e2-217">Click Check prerequisites.</span></span>
+20. <span data-ttu-id="656e2-218">Haga clic en Importar.</span><span class="sxs-lookup"><span data-stu-id="656e2-218">Click Import.</span></span>
+21. <span data-ttu-id="656e2-219">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="656e2-219">Click Yes.</span></span>
+22. <span data-ttu-id="656e2-220">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="656e2-220">Close the page.</span></span>
+23. <span data-ttu-id="656e2-221">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="656e2-221">Close the page.</span></span>
+24. <span data-ttu-id="656e2-222">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="656e2-222">Close the page.</span></span>
+25. <span data-ttu-id="656e2-223">Vaya a Administración de la organización > Informes electrónicos > Configuraciones.</span><span class="sxs-lookup"><span data-stu-id="656e2-223">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+26. <span data-ttu-id="656e2-224">En el árbol, expanda "Modelo de datos de ejemplo".</span><span class="sxs-lookup"><span data-stu-id="656e2-224">In the tree, expand 'Sample data model'.</span></span>
+    * <span data-ttu-id="656e2-225">Tenga en cuenta que la configuración de asignación "Asignación de ejemplo” se ha descargado junto con la configuración seleccionada del modelo de datos.</span><span class="sxs-lookup"><span data-stu-id="656e2-225">Note that the model ‘Sample mapping’ mapping configuration has been downloaded together with the selected data model configuration.</span></span> <span data-ttu-id="656e2-226">Los dos archivos se descargan conjuntamente porque la asignación “Asignación de ejemplo” se ha definido como implementación del modelo de datos seleccionado, y es aplicable para Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="656e2-226">The two files are downloaded together because ‘Sample mapping’ has been defined as implementing the selected data model, and because it’s applicable for Finance and Operations.</span></span> <span data-ttu-id="656e2-227">La configuración de "Asignación de ejemplo (alternativa)” no se ha descargado porque la condición para la versión de la aplicación requerida no se cumplió.</span><span class="sxs-lookup"><span data-stu-id="656e2-227">The ‘Sample mapping (alternative)’ configuration hasn’t been downloaded because the condition for the required application version isn’t satisfied.</span></span>   
+    * <span data-ttu-id="656e2-228">Si inicia sesión en Dynamics 365 for Finance and Operations, Enterprise edition, registra el mismo proveedor, accede al mismo proyecto de LCS y descarga la misma configuración del modelo de datos, la configuración de asignación de muestra (alternativa)” se descargará, mientras que la configuración "Asignación de Muestra” se omitirá.</span><span class="sxs-lookup"><span data-stu-id="656e2-228">If you sign in to Dynamics 365 for Finance and Operations, Enterprise edition, register the same provider, access the same LCS project, and download the same data model configuration, the ‘Sample mapping (alternative)’ configuration will download, whereas the ‘Sample mapping’ configuration will be skipped.</span></span>  
 
 

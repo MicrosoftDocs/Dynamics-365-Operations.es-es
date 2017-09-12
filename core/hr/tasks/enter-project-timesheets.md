@@ -17,49 +17,49 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: fbbcbadc2ab777ae615ef13db6d6ecdb9e5d37a6
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1f88fbbacde9c0bd2b3499df5682a717d0b804ab
 ms.contentlocale: es-es
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="enter-project-timesheets"></a>Especificar hojas de horas de proyectos
+# <a name="enter-project-timesheets"></a><span data-ttu-id="f4d6b-103">Especificar hojas de horas de proyectos</span><span class="sxs-lookup"><span data-stu-id="f4d6b-103">Enter project timesheets</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento le permite crear una hoja de horas a partir de un formulario en blanco. La nueva hoja de horas se puede basar en la información de una hoja de horas anterior, o en las asignaciones de proyecto y actividad de la página Mis favoritos. De forma predeterminada, la página de lista Todas las hojas de horas muestra todas las hojas de horas del período actual. Puede usar la lista desplegable para el campo Mostrar campo en la página Mis hojas de horas para filtrar la lista de la hoja de horas por período de tiempo o proyecto, o a para ver las hojas de horas que se crearon en nombre de otros trabajadores. La empresa de datos de demostración utilizada para crear este procedimiento es USSI. Para iniciar este procedimiento, vaya a Gestión de proyectos y contabilidad > Hojas de horas > Mis hojas de horas
+<span data-ttu-id="f4d6b-104">Este procedimiento le permite crear una hoja de horas a partir de un formulario en blanco.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-104">This procedure lets you create a timesheet by using an empty timesheet form.</span></span> <span data-ttu-id="f4d6b-105">La nueva hoja de horas se puede basar en la información de una hoja de horas anterior, o en las asignaciones de proyecto y actividad de la página Mis favoritos.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-105">The new timesheet can be based on information from a previous timesheet, or from project and activity assignments in the My favourites page.</span></span> <span data-ttu-id="f4d6b-106">De forma predeterminada, la página de lista Todas las hojas de horas muestra todas las hojas de horas del período actual.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-106">By default, the All timesheets list page displays all your timesheets for the current period.</span></span> <span data-ttu-id="f4d6b-107">Puede usar la lista desplegable para el campo Mostrar campo en la página Mis hojas de horas para filtrar la lista de la hoja de horas por período de tiempo o proyecto, o a para ver las hojas de horas que se crearon en nombre de otros trabajadores.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-107">You can use the drop-down list for the Show field in the My timesheets page to filter the timesheet list by time period or project, or to view timesheets that were created on behalf of other workers.</span></span> <span data-ttu-id="f4d6b-108">La empresa de datos de demostración utilizada para crear este procedimiento es USSI.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-108">The demo data company used to create this procedure is USSI.</span></span> <span data-ttu-id="f4d6b-109">Para iniciar este procedimiento, vaya a Gestión de proyectos y contabilidad > Hojas de horas > Mis hojas de horas</span><span class="sxs-lookup"><span data-stu-id="f4d6b-109">To begin this procedure, go to Project management and accounting > Timesheets >My timesheets</span></span>
 
-1. Para especificar una nueva hoja de horas, haga clic en Nuevo.
-    * La lista desplegable Recurso muestra el trabajador asignado al usuario actual, de forma predeterminada.  
-    * Si se designa el usuario como delegado, este mostrará los nombres de modo que un usuario puede especificar una hoja de horas en su nombre.  
-2. En el campo Fecha, escriba una fecha.
-    * Si se selecciona esta opción, se crearán nuevas líneas en hoja de horas con la configuración de la hoja de horas que se configuró como favorita.  
-3. Haga clic en Aceptar
-4. Haga clic en Nueva línea.
-5. En la lista, marque la fila seleccionada.
-    * El campo Entidad jurídica muestra la Entidad jurídica de manera predeterminada.   
-6. En el campo Proyecto, haga clic en el botón desplegable para abrir la búsqueda.
-7. En la lista, busque y seleccione el registro deseado.
-8. En la lista, haga clic en el vínculo de la fila seleccionada.
-9. En el campo Actividad, haga clic en el botón desplegable para abrir la búsqueda.
-10. En la lista, busque y seleccione el registro deseado.
-11. En la lista, haga clic en el vínculo de la fila seleccionada.
-12. En el campo Categoría, haga clic en el botón desplegable para abrir la búsqueda.
-13. En la lista, busque y seleccione el registro deseado.
-14. En la lista, haga clic en el vínculo de la fila seleccionada.
-15. Indicar la cantidad de horas trabajadas cada día.
-    * Las horas se deben especificar en formato decimal.  Por ejemplo, si ha trabajado durante dos horas y quince minutos, escriba 2,25.   
-16. Indicar la cantidad de horas trabajadas cada día.
-    * Las horas se deben especificar en formato decimal.  Por ejemplo, si ha trabajado durante dos horas y quince minutos, escriba 2,25.   
-17. Indicar la cantidad de horas trabajadas cada día.
-    * Las horas se deben especificar en formato decimal.  Por ejemplo, si ha trabajado durante dos horas y quince minutos, escriba 2,25.   
-18. Indicar la cantidad de horas trabajadas cada día.
-    * Las horas se deben especificar en formato decimal.  Por ejemplo, si ha trabajado durante dos horas y quince minutos, escriba 2,25.   
-19. Indicar la cantidad de horas trabajadas cada día.
-    * Las horas se deben especificar en formato decimal.  Por ejemplo, si ha trabajado durante dos horas y quince minutos, escriba 2,25.   
-    * En los detalles de línea, están disponibles las siguientes opciones:  o agregar información acerca de impuestos y dimensiones financieras.  o    Agregar comentarios acerca de la línea de la hoja de horas.  
-20. Haga clic en Flujo de trabajo para abrir el cuadro de diálogo.
-21. Haga clic en Enviar.
-22. Haga clic en Enviar.
+1. <span data-ttu-id="f4d6b-110">Para especificar una nueva hoja de horas, haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-110">To enter a new timesheet, click New.</span></span>
+    * <span data-ttu-id="f4d6b-111">La lista desplegable Recurso muestra el trabajador asignado al usuario actual, de forma predeterminada.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-111">The Resource drop-down list shows the worker assigned to the current user, by default.</span></span>  
+    * <span data-ttu-id="f4d6b-112">Si se designa el usuario como delegado, este mostrará los nombres de modo que un usuario puede especificar una hoja de horas en su nombre.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-112">If the user is designated as a delegate, this will list the names so that a user can enter a timesheet on their behalf.</span></span>  
+2. <span data-ttu-id="f4d6b-113">En el campo Fecha, escriba una fecha.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-113">In the Date field, enter a date.</span></span>
+    * <span data-ttu-id="f4d6b-114">Si se selecciona esta opción, se crearán nuevas líneas en hoja de horas con la configuración de la hoja de horas que se configuró como favorita.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-114">If this option is selected, new timesheet lines will be created by using the timesheet settings that were configured as favourites.</span></span>  
+3. <span data-ttu-id="f4d6b-115">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="f4d6b-115">Click OK.</span></span>
+4. <span data-ttu-id="f4d6b-116">Haga clic en Nueva línea.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-116">Click New line.</span></span>
+5. <span data-ttu-id="f4d6b-117">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-117">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="f4d6b-118">El campo Entidad jurídica muestra la Entidad jurídica de manera predeterminada.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-118">The Legal Entity field displays the current Legal entity by default.</span></span>   
+6. <span data-ttu-id="f4d6b-119">En el campo Proyecto, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-119">In the Project field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="f4d6b-120">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-120">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="f4d6b-121">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-121">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="f4d6b-122">En el campo Actividad, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-122">In the Activity field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="f4d6b-123">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-123">In the list, find and select the desired record.</span></span>
+11. <span data-ttu-id="f4d6b-124">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-124">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="f4d6b-125">En el campo Categoría, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-125">In the Category field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="f4d6b-126">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-126">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="f4d6b-127">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-127">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="f4d6b-128">Indicar la cantidad de horas trabajadas cada día.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-128">Enter the number of hours worked each day.</span></span>
+    * <span data-ttu-id="f4d6b-129">Las horas se deben especificar en formato decimal.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-129">Hours should be entered in a decimal format.</span></span>  <span data-ttu-id="f4d6b-130">Por ejemplo, si ha trabajado durante dos horas y quince minutos, escriba 2,25.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-130">For example, if you worked for two hours and fifteen minutes, enter 2.25.</span></span>   
+16. <span data-ttu-id="f4d6b-131">Indicar la cantidad de horas trabajadas cada día.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-131">Enter the number of hours worked each day.</span></span>
+    * <span data-ttu-id="f4d6b-132">Las horas se deben especificar en formato decimal.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-132">Hours should be entered in a decimal format.</span></span>  <span data-ttu-id="f4d6b-133">Por ejemplo, si ha trabajado durante dos horas y quince minutos, escriba 2,25.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-133">For example, if you worked for two hours and fifteen minutes, enter 2.25.</span></span>   
+17. <span data-ttu-id="f4d6b-134">Indicar la cantidad de horas trabajadas cada día.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-134">Enter the number of hours worked each day.</span></span>
+    * <span data-ttu-id="f4d6b-135">Las horas se deben especificar en formato decimal.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-135">Hours should be entered in a decimal format.</span></span>  <span data-ttu-id="f4d6b-136">Por ejemplo, si ha trabajado durante dos horas y quince minutos, escriba 2,25.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-136">For example, if you worked for two hours and fifteen minutes, enter 2.25.</span></span>   
+18. <span data-ttu-id="f4d6b-137">Indicar la cantidad de horas trabajadas cada día.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-137">Enter the number of hours worked each day.</span></span>
+    * <span data-ttu-id="f4d6b-138">Las horas se deben especificar en formato decimal.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-138">Hours should be entered in a decimal format.</span></span>  <span data-ttu-id="f4d6b-139">Por ejemplo, si ha trabajado durante dos horas y quince minutos, escriba 2,25.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-139">For example, if you worked for two hours and fifteen minutes, enter 2.25.</span></span>   
+19. <span data-ttu-id="f4d6b-140">Indicar la cantidad de horas trabajadas cada día.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-140">Enter the number of hours worked each day.</span></span>
+    * <span data-ttu-id="f4d6b-141">Las horas se deben especificar en formato decimal.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-141">Hours should be entered in a decimal format.</span></span>  <span data-ttu-id="f4d6b-142">Por ejemplo, si ha trabajado durante dos horas y quince minutos, escriba 2,25.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-142">For example, if you worked for two hours and fifteen minutes, enter 2.25.</span></span>   
+    * <span data-ttu-id="f4d6b-143">En los detalles de línea, están disponibles las siguientes opciones:  o agregar información acerca de impuestos y dimensiones financieras.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-143">In Line details, the following options are available:  o  Add information about taxes and financial dimensions.</span></span>  <span data-ttu-id="f4d6b-144">o    Agregar comentarios acerca de la línea de la hoja de horas.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-144">o    Add comments about the timesheet line.</span></span>  
+20. <span data-ttu-id="f4d6b-145">Haga clic en Flujo de trabajo para abrir el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-145">Click Workflow to open the drop dialog.</span></span>
+21. <span data-ttu-id="f4d6b-146">Haga clic en Enviar.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-146">Click Submit.</span></span>
+22. <span data-ttu-id="f4d6b-147">Haga clic en Enviar.</span><span class="sxs-lookup"><span data-stu-id="f4d6b-147">Click Submit.</span></span>
 
 

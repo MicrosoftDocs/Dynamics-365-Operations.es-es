@@ -17,51 +17,51 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 3cd2ff6f410e3817f3e23a651b7a2febf38b072b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 58b3c9cd265b97a814541315e4ba8378010eb2b2
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-production-flow-version"></a>Crear una versión de flujo de producción
+# <a name="create-a-production-flow-version"></a><span data-ttu-id="5b47d-103">Crear una versión de flujo de producción</span><span class="sxs-lookup"><span data-stu-id="5b47d-103">Create a production flow version</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento se centra en crear una nueva versión de flujo de producción. Para este procedimiento, deben definirse los parámetros de producción de lean manufacturing y las unidades de medida para la clase de tiempo. Debe definir también un flujo de valor y un grupo de producción. Para obtener más información acerca de los flujos de producción y las actividades de lean manufacturing (producción ajustada), consulte la documentación al respecto de Microsoft Dynamics AX. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
+<span data-ttu-id="5b47d-104">Este procedimiento se centra en crear una nueva versión de flujo de producción.</span><span class="sxs-lookup"><span data-stu-id="5b47d-104">This procedure focuses on creating a new production flow version.</span></span> <span data-ttu-id="5b47d-105">Para este procedimiento, deben definirse los parámetros de producción de lean manufacturing y las unidades de medida para la clase de tiempo.</span><span class="sxs-lookup"><span data-stu-id="5b47d-105">For this procedure, the production parameters for lean manufacturing and the units of measurement for class time must be defined.</span></span> <span data-ttu-id="5b47d-106">Debe definir también un flujo de valor y un grupo de producción.</span><span class="sxs-lookup"><span data-stu-id="5b47d-106">You also need to define a value stream and a production group.</span></span> <span data-ttu-id="5b47d-107">Para obtener más información acerca de los flujos de producción y las actividades de lean manufacturing (producción ajustada), consulte la documentación al respecto de Microsoft Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="5b47d-107">To learn more about production flows and activities in lean manufacturing, see the white papers on Lean manufacturing for Microsoft Dynamics AX.</span></span> <span data-ttu-id="5b47d-108">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="5b47d-108">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-production-flow"></a>Crear flujos de producción
-1. Vaya a Control de producción > Configuración > Flujo de producción lean > Flujos de producción.
-2. Haga clic en Nuevo.
-3. En el campo Nombre, escriba un valor.
-4. En el campo Descripción, escriba un valor.
-5. En el campo Nombre, haga clic en el botón desplegable para abrir la búsqueda.
-6. En la lista, haga clic en el vínculo de la fila seleccionada.
-    * Seleccione una unidad operativa de tipo Flujo de valor. Un flujo de valor es una unidad operativa que abarca todas las actividades y los flujos del flujo de valor. En esta fase, las unidades operativas se limitan a una entidad jurídica y no tienen más funcionalidad.  
-7. En el campo Grupo de producción, haga clic en el botón desplegable para abrir la búsqueda.
-8. En la lista, haga clic en el vínculo de la fila seleccionada.
-    * Seleccione un grupo de producción para el flujo de producción. Los grupos de producción permiten definir las cuentas de trabajo en curso, material y mano de obra para un proceso de producción. Para asociar el contexto de contabilidad a un flujo de producción, debe seleccionarse un grupo de producción.  
-9. Haga clic en Guardar.
+## <a name="create-a-production-flow"></a><span data-ttu-id="5b47d-109">Crear flujos de producción</span><span class="sxs-lookup"><span data-stu-id="5b47d-109">Create a production flow</span></span>
+1. <span data-ttu-id="5b47d-110">Vaya a Control de producción > Configuración > Flujo de producción lean > Flujos de producción.</span><span class="sxs-lookup"><span data-stu-id="5b47d-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="5b47d-111">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="5b47d-111">Click New.</span></span>
+3. <span data-ttu-id="5b47d-112">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="5b47d-112">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="5b47d-113">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="5b47d-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="5b47d-114">En el campo Nombre, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="5b47d-114">In the Name field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="5b47d-115">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="5b47d-115">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="5b47d-116">Seleccione una unidad operativa de tipo Flujo de valor.</span><span class="sxs-lookup"><span data-stu-id="5b47d-116">Select an operating unit of type value stream.</span></span> <span data-ttu-id="5b47d-117">Un flujo de valor es una unidad operativa que abarca todas las actividades y los flujos del flujo de valor.</span><span class="sxs-lookup"><span data-stu-id="5b47d-117">A value stream is an operating unit that spans all activities and flows of the value stream.</span></span> <span data-ttu-id="5b47d-118">En esta fase, las unidades operativas se limitan a una entidad jurídica y no tienen más funcionalidad.</span><span class="sxs-lookup"><span data-stu-id="5b47d-118">At this stage, operating units are limited to a legal entity and have no further functionality.</span></span>  
+7. <span data-ttu-id="5b47d-119">En el campo Grupo de producción, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="5b47d-119">In the Production group field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="5b47d-120">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="5b47d-120">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="5b47d-121">Seleccione un grupo de producción para el flujo de producción.</span><span class="sxs-lookup"><span data-stu-id="5b47d-121">Select a production group for the production flow.</span></span> <span data-ttu-id="5b47d-122">Los grupos de producción permiten definir las cuentas de trabajo en curso, material y mano de obra para un proceso de producción.</span><span class="sxs-lookup"><span data-stu-id="5b47d-122">Production groups allow the definition of material, labour, and WIP accounts for a production process.</span></span> <span data-ttu-id="5b47d-123">Para asociar el contexto de contabilidad a un flujo de producción, debe seleccionarse un grupo de producción.</span><span class="sxs-lookup"><span data-stu-id="5b47d-123">To associate the accounting context to a production flow, a production group must be selected.</span></span>  
+9. <span data-ttu-id="5b47d-124">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="5b47d-124">Click Save.</span></span>
 
-## <a name="create-a-production-flow-version"></a>Crear una versión de flujo de producción
-1. Haga clic en Agregar.
-2. En el campo Fecha de vencimiento, especifique una fecha y una hora.
-    * Si procede, defina una fecha de vencimiento para la versión. Puede actualizarla en un cualquier momento, incluso las versiones activas. Puede utilizarla para planificar la finalización de una versión.  
-3. Haga clic en Aceptar
-4. En la lista, marque la fila seleccionada.
-5. En el campo Unidad, escriba un valor.
-6. Resuelva los cambios en la unidad de producción.
-7. En campo Ritmo de producción promedio, escriba un número.
-    * Defina el ritmo de producción promedio de la versión. Para el control de producción de la versión de flujo de producción, defina un ritmo de producción promedio objetivo. El ritmo de producción se define como cantidad por período de tiempo. En el ejemplo, el ritmo de producción es 0,2 horas por 10 piezas. Por un horario de trabajo de 8 horas, esto se corresponde con una capacidad de rendimiento diario de 400 piezas.  
-8. En el campo Cantidad por ciclo, especifique un número.
-    * Defina la cantidad por el ciclo relacionado con el ritmo de producción promedio.  
-9. Expanda la sección Detalles de versión.
-10. En campo Ritmo de producción mínimo, escriba un número.
-    * Defina el ritmo de producción mínimo. El ritmo de producción mínimo debe ser inferior o igual al ritmo de producción promedio.  
-11. En campo Ritmo de producción máximo, escriba un número.
-    * El ritmo de producción máximo debe ser superior o igual al ritmo de producción promedio.  
-12. Escriba un número en el campo Período para tiempo de ciclo real (días).
-    * Escriba un número de días en el período para tiempo de ciclo real. El período para el tiempo de ciclo real es el número de días que los trabajos se agregan a partir del minuto real y hacia atrás, para calcular el tiempo de ciclo real. El valor se puede cambiar en cualquier momento y solo se usa para calcular los tiempos de ciclo reales.  
-13. Haga clic en Guardar.
+## <a name="create-a-production-flow-version"></a><span data-ttu-id="5b47d-125">Crear una versión de flujo de producción</span><span class="sxs-lookup"><span data-stu-id="5b47d-125">Create a production flow version</span></span>
+1. <span data-ttu-id="5b47d-126">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="5b47d-126">Click Add.</span></span>
+2. <span data-ttu-id="5b47d-127">En el campo Fecha de vencimiento, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="5b47d-127">In the Expiration date field, enter a date and time.</span></span>
+    * <span data-ttu-id="5b47d-128">Si procede, defina una fecha de vencimiento para la versión.</span><span class="sxs-lookup"><span data-stu-id="5b47d-128">If required, define an Expiration date for the version.</span></span> <span data-ttu-id="5b47d-129">Puede actualizarla en un cualquier momento, incluso las versiones activas.</span><span class="sxs-lookup"><span data-stu-id="5b47d-129">You can update it at any given time, even for active versions.</span></span> <span data-ttu-id="5b47d-130">Puede utilizarla para planificar la finalización de una versión.</span><span class="sxs-lookup"><span data-stu-id="5b47d-130">You can use it to plan to phase out a version.</span></span>  
+3. <span data-ttu-id="5b47d-131">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="5b47d-131">Click OK.</span></span>
+4. <span data-ttu-id="5b47d-132">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="5b47d-132">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="5b47d-133">En el campo Unidad, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="5b47d-133">In the Unit field, type a value.</span></span>
+6. <span data-ttu-id="5b47d-134">Resuelva los cambios en la unidad de producción.</span><span class="sxs-lookup"><span data-stu-id="5b47d-134">ResolveChanges the Takt unit.</span></span>
+7. <span data-ttu-id="5b47d-135">En campo Ritmo de producción promedio, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="5b47d-135">In the Average takt time field, enter a number.</span></span>
+    * <span data-ttu-id="5b47d-136">Defina el ritmo de producción promedio de la versión.</span><span class="sxs-lookup"><span data-stu-id="5b47d-136">Define the Average takt time of the version.</span></span> <span data-ttu-id="5b47d-137">Para el control de producción de la versión de flujo de producción, defina un ritmo de producción promedio objetivo.</span><span class="sxs-lookup"><span data-stu-id="5b47d-137">For the takt control of the production flow version, define a targeted average takt time.</span></span> <span data-ttu-id="5b47d-138">El ritmo de producción se define como cantidad por período de tiempo.</span><span class="sxs-lookup"><span data-stu-id="5b47d-138">The takt is defined as quantity per time period.</span></span> <span data-ttu-id="5b47d-139">En el ejemplo, el ritmo de producción es 0,2 horas por 10 piezas.</span><span class="sxs-lookup"><span data-stu-id="5b47d-139">In the example, the takt time is 0.2 hours per 10 pieces.</span></span> <span data-ttu-id="5b47d-140">Por un horario de trabajo de 8 horas, esto se corresponde con una capacidad de rendimiento diario de 400 piezas.</span><span class="sxs-lookup"><span data-stu-id="5b47d-140">For a working time of 8 hours, this corresponds to a daily throughput capacity of 400 pieces.</span></span>  
+8. <span data-ttu-id="5b47d-141">En el campo Cantidad por ciclo, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="5b47d-141">In the Quantity per cycle field, enter a number.</span></span>
+    * <span data-ttu-id="5b47d-142">Defina la cantidad por el ciclo relacionado con el ritmo de producción promedio.</span><span class="sxs-lookup"><span data-stu-id="5b47d-142">Define the quantity per cycle related to the Average takt time.</span></span>  
+9. <span data-ttu-id="5b47d-143">Expanda la sección Detalles de versión.</span><span class="sxs-lookup"><span data-stu-id="5b47d-143">Toggle the expansion of the Version details section.</span></span>
+10. <span data-ttu-id="5b47d-144">En campo Ritmo de producción mínimo, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="5b47d-144">In the Minimum takt time field, enter a number.</span></span>
+    * <span data-ttu-id="5b47d-145">Defina el ritmo de producción mínimo.</span><span class="sxs-lookup"><span data-stu-id="5b47d-145">Define the minimum takt time.</span></span> <span data-ttu-id="5b47d-146">El ritmo de producción mínimo debe ser inferior o igual al ritmo de producción promedio.</span><span class="sxs-lookup"><span data-stu-id="5b47d-146">The minimum takt time must be less than or equal to the average takt time.</span></span>  
+11. <span data-ttu-id="5b47d-147">En campo Ritmo de producción máximo, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="5b47d-147">In the Maximum takt time field, enter a number.</span></span>
+    * <span data-ttu-id="5b47d-148">El ritmo de producción máximo debe ser superior o igual al ritmo de producción promedio.</span><span class="sxs-lookup"><span data-stu-id="5b47d-148">The maximum takt time must be higher than or equal to the Average takt time.</span></span>  
+12. <span data-ttu-id="5b47d-149">Escriba un número en el campo Período para tiempo de ciclo real (días).</span><span class="sxs-lookup"><span data-stu-id="5b47d-149">In the Period for actual cycle time (days) field, enter a number.</span></span>
+    * <span data-ttu-id="5b47d-150">Escriba un número de días en el período para tiempo de ciclo real.</span><span class="sxs-lookup"><span data-stu-id="5b47d-150">Enter the number of days in the Period for actual cycle time.</span></span> <span data-ttu-id="5b47d-151">El período para el tiempo de ciclo real es el número de días que los trabajos se agregan a partir del minuto real y hacia atrás, para calcular el tiempo de ciclo real.</span><span class="sxs-lookup"><span data-stu-id="5b47d-151">The period for actual cycle time is the number of days that jobs are aggregated from the actual minute backwards to calculate the actual cycle time.</span></span> <span data-ttu-id="5b47d-152">El valor se puede cambiar en cualquier momento y solo se usa para calcular los tiempos de ciclo reales.</span><span class="sxs-lookup"><span data-stu-id="5b47d-152">The value can be changed at any time and is only used for the calculation of the actual cycle times.</span></span>  
+13. <span data-ttu-id="5b47d-153">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="5b47d-153">Click Save.</span></span>
 
 

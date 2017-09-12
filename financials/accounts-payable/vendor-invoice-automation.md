@@ -15,217 +15,217 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 172d952c79347e7dd563cfda70729750fa0ddde9
-ms.openlocfilehash: c47ca406e2c8be98f26f1c78d6f5e0a3f66690a5
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: cd9be16ee30a62235f20f23f9cd50fb954cfe8a4
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="vendor-invoice-automation"></a>Automatización de factura de proveedor
+# <a name="vendor-invoice-automation"></a><span data-ttu-id="43710-103">Automatización de factura de proveedor</span><span class="sxs-lookup"><span data-stu-id="43710-103">Vendor invoice automation</span></span>
 
-Este tema explica las funciones disponibles para la automatización completa de las facturas de proveedor, incluso las facturas que incluyen adjuntos.
+<span data-ttu-id="43710-104">Este tema explica las funciones disponibles para la automatización completa de las facturas de proveedor, incluso las facturas que incluyen adjuntos.</span><span class="sxs-lookup"><span data-stu-id="43710-104">This topic explains the features that are available for end-to-end automation of vendor invoices, even invoices that include attachments.</span></span>
 
-Las organizaciones que desean para agilizar los procesos de proveedores (AP) con frecuencia identifican el procesamiento de facturas como una de las principales áreas de proceso que deben aumentar su eficacia. En muchos casos, estas organizaciones delegan el procesamiento de las facturas de papel en un proveedor de servicios de reconocimiento de caracteres ópticos (OCR) de terceros. A continuación reciben metadatos de la factura que se pueden leer automáticamente junto con una imagen digitalizada de cada factura. Para contribuir a la automatización, se incorpora una solución de recta final para habilitar el consumo de estos artefactos en el sistema de facturación. Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ahora habilita desde el principio esta automatización de "recta final" a través de una solución de automatización de facturas.
+<span data-ttu-id="43710-105">Las organizaciones que desean para agilizar los procesos de proveedores (AP) con frecuencia identifican el procesamiento de facturas como una de las principales áreas de proceso que deben aumentar su eficacia.</span><span class="sxs-lookup"><span data-stu-id="43710-105">Organizations that want to streamline their Accounts payable (AP) processes often identify invoice processing as one of the top process areas that should be more efficient.</span></span> <span data-ttu-id="43710-106">En muchos casos, estas organizaciones delegan el procesamiento de las facturas de papel en un proveedor de servicios de reconocimiento de caracteres ópticos (OCR) de terceros.</span><span class="sxs-lookup"><span data-stu-id="43710-106">In many cases, these organizations offload the processing of paper invoices to a third-party optical character recognition (OCR) service provider.</span></span> <span data-ttu-id="43710-107">A continuación reciben metadatos de la factura que se pueden leer automáticamente junto con una imagen digitalizada de cada factura.</span><span class="sxs-lookup"><span data-stu-id="43710-107">They then receive machine-readable invoice metadata together with a scanned image of each invoice.</span></span> <span data-ttu-id="43710-108">Para contribuir a la automatización, se incorpora una solución de recta final para habilitar el consumo de estos artefactos en el sistema de facturación.</span><span class="sxs-lookup"><span data-stu-id="43710-108">To help with automation, a “last mile” solution is then built to enable consumption of these artifacts in the invoicing system.</span></span> <span data-ttu-id="43710-109">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ahora habilita desde el principio esta automatización de "recta final" a través de una solución de automatización de facturas.</span><span class="sxs-lookup"><span data-stu-id="43710-109">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition now enables this “last mile” automation out of the box, through an invoice automation solution.</span></span>
 
-## <a name="solution-context"></a>Contexto de la solución
+## <a name="solution-context"></a><span data-ttu-id="43710-110">Contexto de la solución</span><span class="sxs-lookup"><span data-stu-id="43710-110">Solution context</span></span>
 
-La solución de automatización de facturas ofrece una interfaz estándar que puede aceptar los metadatos de las facturas para el encabezado de la factura y las líneas de factura, así como los adjuntos aplicables a la factura. Cualquier sistema externo que pueda generar artefactos que cumplan con esta interfaz podrá enviar la información a Finance and Operations para e procesamiento automático de facturas y adjuntos.
+<span data-ttu-id="43710-111">La solución de automatización de facturas ofrece una interfaz estándar que puede aceptar los metadatos de las facturas para el encabezado de la factura y las líneas de factura, así como los adjuntos aplicables a la factura.</span><span class="sxs-lookup"><span data-stu-id="43710-111">The invoice automation solution enables a standard interface that can accept invoice metadata for the invoice header and invoice lines, and also attachments that are applicable to the invoice.</span></span> <span data-ttu-id="43710-112">Cualquier sistema externo que pueda generar artefactos que cumplan con esta interfaz podrá enviar la información a Finance and Operations para e procesamiento automático de facturas y adjuntos.</span><span class="sxs-lookup"><span data-stu-id="43710-112">Any external system that can generate artifacts that comply with this interface will be able to send the feed into Finance and Operations for automatic processing of invoices and attachments.</span></span>
 
-La ilustración siguiente muestra un escenario de integración de ejemplo en el que Contoso colaboró con un proveedor de servicios de OCR para el procesamiento de facturas de proveedor. Los proveedores de Contoso envían las facturas al proveedor de servicios por correo electrónico. Con el procesamiento de OCR, el proveedor de servicios genera metadatos de facturas (encabezado y/o líneas) y una imagen digitalizada de la factura. A continuación, un nivel de integración transforma estas artefactos de modo que se puedan consumir en Finance and Operations.
+<span data-ttu-id="43710-113">La ilustración siguiente muestra un escenario de integración de ejemplo en el que Contoso colaboró con un proveedor de servicios de OCR para el procesamiento de facturas de proveedor.</span><span class="sxs-lookup"><span data-stu-id="43710-113">The following illustration shows a sample integration scenario where Contoso has partnered with an OCR service provider for vendor invoice processing.</span></span> <span data-ttu-id="43710-114">Los proveedores de Contoso envían las facturas al proveedor de servicios por correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="43710-114">Contoso’s vendors send invoices to the service provider by email.</span></span> <span data-ttu-id="43710-115">Con el procesamiento de OCR, el proveedor de servicios genera metadatos de facturas (encabezado y/o líneas) y una imagen digitalizada de la factura.</span><span class="sxs-lookup"><span data-stu-id="43710-115">Through OCR processing, the service provider generates invoice metadata (header and/or lines) and a scanned image of the invoice.</span></span> <span data-ttu-id="43710-116">A continuación, un nivel de integración transforma estas artefactos de modo que se puedan consumir en Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="43710-116">An integration layer then transforms these artifacts so that Finance and Operations can consume them.</span></span>
 
 ![Escenario de integración de ejemplo](media/vendor_invoice_automation_01.png)
 
-Se permiten varias variaciones del escenario ejemplo anterior si se necesita la integración de facturas. La migración de datos es otro caso de uso en el que esta interfaz se puede usar para crear facturas y adjuntos en Finance and Operations.
+<span data-ttu-id="43710-118">Se permiten varias variaciones del escenario ejemplo anterior si se necesita la integración de facturas.</span><span class="sxs-lookup"><span data-stu-id="43710-118">Several variations of the preceding scenario are possible if invoice integration is required.</span></span> <span data-ttu-id="43710-119">La migración de datos es otro caso de uso en el que esta interfaz se puede usar para crear facturas y adjuntos en Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="43710-119">Data migration is another use case where this interface can be used to create invoices and attachments in Finance and Operations.</span></span>
 
-### <a name="solution-components"></a>Componentes de la solución
+### <a name="solution-components"></a><span data-ttu-id="43710-120">Componentes de la solución</span><span class="sxs-lookup"><span data-stu-id="43710-120">Solution components</span></span>
 
-La superficie de la solución consiste en los siguientes componentes:
+<span data-ttu-id="43710-121">La superficie de la solución consiste en los siguientes componentes:</span><span class="sxs-lookup"><span data-stu-id="43710-121">The solution footprint consists of the following components:</span></span>
 
-+ Entidades de datos del encabezado de factura, las líneas de factura y los adjuntos de la factura
-+ Procesamiento de excepciones para las facturas
-+ Visualizador de adjuntos en paralelo en las facturas
++ <span data-ttu-id="43710-122">Entidades de datos del encabezado de factura, las líneas de factura y los adjuntos de la factura</span><span class="sxs-lookup"><span data-stu-id="43710-122">Data entities for the invoice header, invoice lines, and invoice attachments</span></span>
++ <span data-ttu-id="43710-123">Procesamiento de excepciones para las facturas</span><span class="sxs-lookup"><span data-stu-id="43710-123">Exception processing for invoices</span></span>
++ <span data-ttu-id="43710-124">Visualizador de adjuntos en paralelo en las facturas</span><span class="sxs-lookup"><span data-stu-id="43710-124">A side-by-side attachment viewer in invoices</span></span>
 
-El resto de este tema proporciona descripciones detalladas de estos componentes de la solución.
+<span data-ttu-id="43710-125">El resto de este tema proporciona descripciones detalladas de estos componentes de la solución.</span><span class="sxs-lookup"><span data-stu-id="43710-125">The rest of this topic provides detailed descriptions of these solution components.</span></span>
 
-## <a name="data-entities"></a>Entidades de datos
+## <a name="data-entities"></a><span data-ttu-id="43710-126">Entidades de datos</span><span class="sxs-lookup"><span data-stu-id="43710-126">Data entities</span></span>
 
-Un paquete de datos es la unidad de trabajo que debe enviarse a Finance and Operations para que se puedan crear encabezados de factura, líneas de factura y adjuntos de la factura. Se usarán las siguientes entidades de datos para los artefactos que componen el paquete de datos:
+<span data-ttu-id="43710-127">Un paquete de datos es la unidad de trabajo que debe enviarse a Finance and Operations para que se puedan crear encabezados de factura, líneas de factura y adjuntos de la factura.</span><span class="sxs-lookup"><span data-stu-id="43710-127">A data package is the unit of work that must be sent to Finance and Operations, so that invoice headers, invoice lines, and invoice attachments can be created.</span></span> <span data-ttu-id="43710-128">Se usarán las siguientes entidades de datos para los artefactos que componen el paquete de datos:</span><span class="sxs-lookup"><span data-stu-id="43710-128">The following data entities are used for the artifacts that make up the data package:</span></span>
 
-+ Encabezado de factura de proveedor
-+ Línea de factura de proveedor
-+ Datos adjuntos de documento de factura de proveedor
++ <span data-ttu-id="43710-129">Encabezado de factura de proveedor</span><span class="sxs-lookup"><span data-stu-id="43710-129">Vendor invoice header</span></span>
++ <span data-ttu-id="43710-130">Línea de factura de proveedor</span><span class="sxs-lookup"><span data-stu-id="43710-130">Vendor invoice line</span></span>
++ <span data-ttu-id="43710-131">Datos adjuntos de documento de factura de proveedor</span><span class="sxs-lookup"><span data-stu-id="43710-131">Vendor invoice document attachment</span></span>
 
-Los adjuntos del documento de la factura de proveedor son una nueva entidad de datos que se introduce como parte de esta función. Se ha modificado la entidad del encabezado de la factura de proveedor para que admita adjuntos. No se ha modificado la entidad de la línea de factura de proveedor para esta función.
+<span data-ttu-id="43710-132">Los adjuntos del documento de la factura de proveedor son una nueva entidad de datos que se introduce como parte de esta función.</span><span class="sxs-lookup"><span data-stu-id="43710-132">Vendor invoice document attachment is a new data entity that is introduced as part of this feature.</span></span> <span data-ttu-id="43710-133">Se ha modificado la entidad del encabezado de la factura de proveedor para que admita adjuntos.</span><span class="sxs-lookup"><span data-stu-id="43710-133">The Vendor invoice header entity has been modified so that it supports attachments.</span></span> <span data-ttu-id="43710-134">No se ha modificado la entidad de la línea de factura de proveedor para esta función.</span><span class="sxs-lookup"><span data-stu-id="43710-134">The Vendor invoice line entity hasn’t been modified for this feature.</span></span>
 
-Este tema no ofrece una definición detallada de un paquete de datos. Tampoco explica cómo crear los paquetes de los datos. Para obtener esta información, consulte [Marco de entidades y paquetes de datos](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
+<span data-ttu-id="43710-135">Este tema no ofrece una definición detallada de un paquete de datos.</span><span class="sxs-lookup"><span data-stu-id="43710-135">This topic doesn’t give a detailed definition of a data package.</span></span> <span data-ttu-id="43710-136">Tampoco explica cómo crear los paquetes de los datos.</span><span class="sxs-lookup"><span data-stu-id="43710-136">It also doesn’t explain how to create data packages.</span></span> <span data-ttu-id="43710-137">Para obtener esta información, consulte [Marco de entidades y paquetes de datos](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages).</span><span class="sxs-lookup"><span data-stu-id="43710-137">For this information, see [Data entities and packages framework](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages).</span></span>
 
-Para generar rápidamente los datos de prueba que incluyen facturas y adjuntos, siga estos pasos.
+<span data-ttu-id="43710-138">Para generar rápidamente los datos de prueba que incluyen facturas y adjuntos, siga estos pasos.</span><span class="sxs-lookup"><span data-stu-id="43710-138">To quickly generate test data that includes invoices and attachments, follow these steps.</span></span>
 
-1. Inicie sesión en su instancia de Finance and Operations.
-1. Vaya a **Proveedores** > **Facturas** > **Facturas de proveedor pendientes**.
-1. Cree las facturas que tengan líneas y adjuntos.
+1. <span data-ttu-id="43710-139">Inicie sesión en su instancia de Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="43710-139">Sign in to your Finance and Operations instance.</span></span>
+1. <span data-ttu-id="43710-140">Vaya a **Proveedores** > **Facturas** > **Facturas de proveedor pendientes**.</span><span class="sxs-lookup"><span data-stu-id="43710-140">Go to **Accounts payables** > **Invoices** > **Pending vendor invoices**.</span></span>
+1. <span data-ttu-id="43710-141">Cree las facturas que tengan líneas y adjuntos.</span><span class="sxs-lookup"><span data-stu-id="43710-141">Create invoices that have lines and attachments.</span></span>
 
     > [!NOTE]
-    > Los adjuntos se deben ser adjuntos de encabezados. Actualmente, la entidad de adjuntos de documentos de facturas de proveedor no admite adjuntos de líneas.
+    > <span data-ttu-id="43710-142">Los adjuntos se deben ser adjuntos de encabezados.</span><span class="sxs-lookup"><span data-stu-id="43710-142">The attachments must be header attachments.</span></span> <span data-ttu-id="43710-143">Actualmente, la entidad de adjuntos de documentos de facturas de proveedor no admite adjuntos de líneas.</span><span class="sxs-lookup"><span data-stu-id="43710-143">Currently, the Vendor invoice document attachment entity doesn’t support line attachments.</span></span>
 
-1. Abra el espacio trabajo **Administración de datos** .
-1. Cree un trabajo de exportación que incluya el encabezado de la factura de proveedor, la línea de la factura de proveedor y las entidades de adjuntos de documentos de la factura de proveedor.
-1. Exporte los datos
-1. Descargue los datos exportados como paquete. Ahora puede usar el paquete para importar datos en las instancias de destino con fines de prueba.
+1. <span data-ttu-id="43710-144">Abra el espacio trabajo **Administración de datos** .</span><span class="sxs-lookup"><span data-stu-id="43710-144">Open the **Data management** workspace.</span></span>
+1. <span data-ttu-id="43710-145">Cree un trabajo de exportación que incluya el encabezado de la factura de proveedor, la línea de la factura de proveedor y las entidades de adjuntos de documentos de la factura de proveedor.</span><span class="sxs-lookup"><span data-stu-id="43710-145">Create an export job that includes the Vendor invoice header, Vendor invoice line, and Vendor invoice document attachment entities.</span></span>
+1. <span data-ttu-id="43710-146">Exporte los datos</span><span class="sxs-lookup"><span data-stu-id="43710-146">Export the data.</span></span>
+1. <span data-ttu-id="43710-147">Descargue los datos exportados como paquete.</span><span class="sxs-lookup"><span data-stu-id="43710-147">Download the exported data as a package.</span></span> <span data-ttu-id="43710-148">Ahora puede usar el paquete para importar datos en las instancias de destino con fines de prueba.</span><span class="sxs-lookup"><span data-stu-id="43710-148">You can now use the package to import data into target instances for testing purposes.</span></span>
 
-### <a name="determining-the-legal-entity-for-an-invoice"></a>Determinar la entidad jurídica de una factura
+### <a name="determining-the-legal-entity-for-an-invoice"></a><span data-ttu-id="43710-149">Determinar la entidad jurídica de una factura</span><span class="sxs-lookup"><span data-stu-id="43710-149">Determining the legal entity for an invoice</span></span>
 
-Las facturas que se importan mediante los paquetes de datos se pueden asociar a la entidad jurídica a la que pertenecen de dos maneras:
+<span data-ttu-id="43710-150">Las facturas que se importan mediante los paquetes de datos se pueden asociar a la entidad jurídica a la que pertenecen de dos maneras:</span><span class="sxs-lookup"><span data-stu-id="43710-150">Invoices that are imported via data packages can be associated with the legal entity that they belong to in two ways:</span></span>
 
-+ El trabajo de importación que procesa las facturas las importa en la misma empresa en la que se ha programado el trabajo en el espacio de trabajo **Administración de datos** . Es decir, la empresa del trabajo determina la empresa a la que pertenece la factura.
-+ Cuando el paquete de datos que contiene las facturas se envía a Finance and Operations, el autor de llamada (es decir, la aplicación de integración que se ejecuta fuera de Finance and Operations) pueden explícitamente mencionar el identificador de empresa en la solicitud HTTP. En este caso, el contexto de la empresa en el que el trabajo de procesamiento ejecuta en Finance and Operations se anula, y las facturas se importan en la empresa transmitida con la solicitud HTTP.
++ <span data-ttu-id="43710-151">El trabajo de importación que procesa las facturas las importa en la misma empresa en la que se ha programado el trabajo en el espacio de trabajo **Administración de datos** .</span><span class="sxs-lookup"><span data-stu-id="43710-151">The import job that processes the invoice imports it into the same company in which the job was scheduled in the **Data management** workspace.</span></span> <span data-ttu-id="43710-152">Es decir, la empresa del trabajo determina la empresa a la que pertenece la factura.</span><span class="sxs-lookup"><span data-stu-id="43710-152">In other words, the company of the job determines the company that the invoice belongs to.</span></span>
++ <span data-ttu-id="43710-153">Cuando el paquete de datos que contiene las facturas se envía a Finance and Operations, el autor de llamada (es decir, la aplicación de integración que se ejecuta fuera de Finance and Operations) pueden explícitamente mencionar el identificador de empresa en la solicitud HTTP.</span><span class="sxs-lookup"><span data-stu-id="43710-153">When the data package that contains invoices is sent to Finance and Operations, the caller (that is, the integration application that runs outside of Finance and Operations) can explicitly mention the company ID in the HTTP request.</span></span> <span data-ttu-id="43710-154">En este caso, el contexto de la empresa en el que el trabajo de procesamiento ejecuta en Finance and Operations se anula, y las facturas se importan en la empresa transmitida con la solicitud HTTP.</span><span class="sxs-lookup"><span data-stu-id="43710-154">In this case, the company context in which the processing job runs in Finance and Operations is overridden, and the invoices are imported into the company that was passed via the HTTP request.</span></span>
 
 > [!NOTE]
-> Este comportamiento es el comportamiento estándar de gestión de datos. Aquí se explica, en el contexto de las facturas, solo para que sea más completo.
+> <span data-ttu-id="43710-155">Este comportamiento es el comportamiento estándar de gestión de datos.</span><span class="sxs-lookup"><span data-stu-id="43710-155">This behavior is standard data management behavior.</span></span> <span data-ttu-id="43710-156">Aquí se explica, en el contexto de las facturas, solo para que sea más completo.</span><span class="sxs-lookup"><span data-stu-id="43710-156">It’s explained here, in the context of invoices, just for the sake of completeness.</span></span>
 
-## <a name="exception-processing"></a>Procesamiento de excepciones
+## <a name="exception-processing"></a><span data-ttu-id="43710-157">Procesamiento de excepciones</span><span class="sxs-lookup"><span data-stu-id="43710-157">Exception processing</span></span>
 
-En las situaciones en las que las facturas de proveedor se introducen en Finance and Operations a través de la integración, debe haber una forma sencilla de que un miembro del equipo de los proveedores procese las excepciones o facturas que han fallado, y que cree facturas pendientes fuera de facturas que han fallado. Este procesamiento de excepciones para las facturas de proveedor es ahora parte de Finance and Operations.
+<span data-ttu-id="43710-158">En las situaciones en las que las facturas de proveedor se introducen en Finance and Operations a través de la integración, debe haber una forma sencilla de que un miembro del equipo de los proveedores procese las excepciones o facturas que han fallado, y que cree facturas pendientes fuera de facturas que han fallado.</span><span class="sxs-lookup"><span data-stu-id="43710-158">In scenarios where vendor invoices come into Finance and Operations via integration, there must be an easy way for an Accounts payable team member to process exceptions or failed invoices, and to create pending invoices out of failed invoices.</span></span> <span data-ttu-id="43710-159">Este procesamiento de excepciones para las facturas de proveedor es ahora parte de Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="43710-159">This exception processing for vendor invoices is now part of Finance and Operations.</span></span>
 
-### <a name="exceptions-list-page"></a>Página de lista de excepciones
+### <a name="exceptions-list-page"></a><span data-ttu-id="43710-160">Página de lista de excepciones</span><span class="sxs-lookup"><span data-stu-id="43710-160">Exceptions list page</span></span>
 
-La nueva página de lista para las excepciones de facturas está disponible en **Proveedores** > **Facturas** > **Errores de importación** > **Facturas de proveedor que no se han importado**. Esta página muestra todos los registros de encabezado de facturas de proveedor de la tabla de ensayo de la entidad de los datos de encabezado de facturas de proveedor. Tenga en cuenta que puede ver los mismos registros del espacio de trabajo **Administración de datos** , donde también puede efectuar las mismas acciones que se proporcionan en la función de control de excepciones. Sin embargo, la interfaz de usuario que ofrece la función de control de excepciones está optimizada para un usuario funcional.
+<span data-ttu-id="43710-161">La nueva página de lista para las excepciones de facturas está disponible en **Proveedores** > **Facturas** > **Errores de importación** > **Facturas de proveedor que no se han importado**.</span><span class="sxs-lookup"><span data-stu-id="43710-161">The new list page for invoice exceptions is available at **Accounts payable** > **Invoices** > **Import failures** > **Vendor invoices that failed to import**.</span></span> <span data-ttu-id="43710-162">Esta página muestra todos los registros de encabezado de facturas de proveedor de la tabla de ensayo de la entidad de los datos de encabezado de facturas de proveedor.</span><span class="sxs-lookup"><span data-stu-id="43710-162">This page shows all the vendor invoice header records from the staging table of the Vendor invoice header data entity.</span></span> <span data-ttu-id="43710-163">Tenga en cuenta que puede ver los mismos registros del espacio de trabajo **Administración de datos** , donde también puede efectuar las mismas acciones que se proporcionan en la función de control de excepciones.</span><span class="sxs-lookup"><span data-stu-id="43710-163">Note that you can view the same records from the **Data management** workspace, where you can also perform the same actions that are provided in the exception handling feature.</span></span> <span data-ttu-id="43710-164">Sin embargo, la interfaz de usuario que ofrece la función de control de excepciones está optimizada para un usuario funcional.</span><span class="sxs-lookup"><span data-stu-id="43710-164">However, the UI that the exception handling feature provides is optimized for a functional user.</span></span>
 
 ![Página de lista de excepciones](media/vendor_invoice_automation_02.png)
 
-Esta página de lista incluye los siguientes campos que se incluyen en la incorporación de la información:
+<span data-ttu-id="43710-166">Esta página de lista incluye los siguientes campos que se incluyen en la incorporación de la información:</span><span class="sxs-lookup"><span data-stu-id="43710-166">This list page includes the following fields that come in via the feed:</span></span>
 
-+ **Empresa** – La empresa a la que pertenece la factura
-+ **Mensaje de error** - El mensaje de error que el marco de gestión de datos emite para explicar por qué la factura no ha podido ser creada
-+ **Número** – El número de la factura
-+ **Cuenta de facturación**
-+ **Nombre** – El nombre del proveedor
-+ **Cuenta del proveedor**
-+ **Pedido de compra** – El número de pedido de compra de la factura
-+ **Fecha de registro**
-+ **Fecha de la factura**
-+ **Descripción de factura**
-+ **Divisa**
-+ **Registro**
-+ **Referencia de la línea** El identificador que procede del sistema externo
++ <span data-ttu-id="43710-167">**Empresa** – La empresa a la que pertenece la factura</span><span class="sxs-lookup"><span data-stu-id="43710-167">**Company** – The company that the invoice belongs to</span></span>
++ <span data-ttu-id="43710-168">**Mensaje de error** - El mensaje de error que el marco de gestión de datos emite para explicar por qué la factura no ha podido ser creada</span><span class="sxs-lookup"><span data-stu-id="43710-168">**Error message** – The error message that the data management framework issues to explain why the invoice could not be created</span></span>
++ <span data-ttu-id="43710-169">**Número** – El número de la factura</span><span class="sxs-lookup"><span data-stu-id="43710-169">**Number** – The invoice number</span></span>
++ <span data-ttu-id="43710-170">**Cuenta de facturación**</span><span class="sxs-lookup"><span data-stu-id="43710-170">**Invoice account**</span></span>
++ <span data-ttu-id="43710-171">**Nombre** – El nombre del proveedor</span><span class="sxs-lookup"><span data-stu-id="43710-171">**Name** – The vendor’s name</span></span>
++ <span data-ttu-id="43710-172">**Cuenta del proveedor**</span><span class="sxs-lookup"><span data-stu-id="43710-172">**Vendor account**</span></span>
++ <span data-ttu-id="43710-173">**Pedido de compra** – El número de pedido de compra de la factura</span><span class="sxs-lookup"><span data-stu-id="43710-173">**Purchase order** – The purchase order (PO) number for the invoice</span></span>
++ <span data-ttu-id="43710-174">**Fecha de registro**</span><span class="sxs-lookup"><span data-stu-id="43710-174">**Posting date**</span></span>
++ <span data-ttu-id="43710-175">**Fecha de la factura**</span><span class="sxs-lookup"><span data-stu-id="43710-175">**Invoice date**</span></span>
++ <span data-ttu-id="43710-176">**Descripción de factura**</span><span class="sxs-lookup"><span data-stu-id="43710-176">**Invoice description**</span></span>
++ <span data-ttu-id="43710-177">**Divisa**</span><span class="sxs-lookup"><span data-stu-id="43710-177">**Currency**</span></span>
++ <span data-ttu-id="43710-178">**Registro**</span><span class="sxs-lookup"><span data-stu-id="43710-178">**Log**</span></span>
++ <span data-ttu-id="43710-179">**Referencia de la línea** El identificador que procede del sistema externo</span><span class="sxs-lookup"><span data-stu-id="43710-179">**Line reference** – The identifier that comes from the external system</span></span>
 
     > [!NOTE]
-    > La referencia de la línea no es el identificador de la factura.
+    > <span data-ttu-id="43710-180">La referencia de la línea no es el identificador de la factura.</span><span class="sxs-lookup"><span data-stu-id="43710-180">The line reference isn’t the invoice ID.</span></span>
 
-Esta página de lista también tiene un panel de vista previa que se puede utilizar de las siguientes formas:
+<span data-ttu-id="43710-181">Esta página de lista también tiene un panel de vista previa que se puede utilizar de las siguientes formas:</span><span class="sxs-lookup"><span data-stu-id="43710-181">This list page also has a preview pane that you can used in the following ways:</span></span>
 
-+ Permite ver el mensaje de error completo, de modo que no tiene que expandir la columna **Mensaje de error** en la cuadrícula.
-+ Permite ver la lista completa de adjuntos de la factura, si factura tiene adjuntos.
++ <span data-ttu-id="43710-182">Permite ver el mensaje de error completo, de modo que no tiene que expandir la columna **Mensaje de error** en la cuadrícula.</span><span class="sxs-lookup"><span data-stu-id="43710-182">View the whole error message, so that you don’t have to expand the **Error message** column in the grid.</span></span>
++ <span data-ttu-id="43710-183">Permite ver la lista completa de adjuntos de la factura, si factura tiene adjuntos.</span><span class="sxs-lookup"><span data-stu-id="43710-183">View the whole list of attachments for the invoice, if any attachments came with the invoice.</span></span>
 
-La página de lista admite las siguientes acciones:
+<span data-ttu-id="43710-184">La página de lista admite las siguientes acciones:</span><span class="sxs-lookup"><span data-stu-id="43710-184">The list page supports the following actions:</span></span>
 
-+ **Editar** - Abre el registro de excepciones en modo de edición, para que pueda corregir los problemas.
-+ **Opciones** - Ofrece acceso a las opciones estándar que están disponibles en las páginas de lista. Puede usar la opción **Agregar al espacio de trabajo** para anclar la página de lista de excepciones en su espacio de trabajo como una lista o mosaico.
++ <span data-ttu-id="43710-185">**Editar** - Abre el registro de excepciones en modo de edición, para que pueda corregir los problemas.</span><span class="sxs-lookup"><span data-stu-id="43710-185">**Edit** – Open the exception record in edit mode, so that you can fix the issues.</span></span>
++ <span data-ttu-id="43710-186">**Opciones** - Ofrece acceso a las opciones estándar que están disponibles en las páginas de lista.</span><span class="sxs-lookup"><span data-stu-id="43710-186">**Options** – Access the standard options that are available on list pages.</span></span> <span data-ttu-id="43710-187">Puede usar la opción **Agregar al espacio de trabajo** para anclar la página de lista de excepciones en su espacio de trabajo como una lista o mosaico.</span><span class="sxs-lookup"><span data-stu-id="43710-187">You can use the **Add to workspace** option to pin the exceptions list page to your workspace as a list or tile.</span></span>
 
-### <a name="exception-details-page"></a>Página de detalles de excepciones
+### <a name="exception-details-page"></a><span data-ttu-id="43710-188">Página de detalles de excepciones</span><span class="sxs-lookup"><span data-stu-id="43710-188">Exception details page</span></span>
 
-Al iniciar el modo de edición, aparece la página de detalles de excepciones de la factura que tiene problemas. Si hay adjuntos, la factura y los adjuntos predeterminados aparecen de forma simultánea en la página de detalles de la excepción.
+<span data-ttu-id="43710-189">Al iniciar el modo de edición, aparece la página de detalles de excepciones de la factura que tiene problemas.</span><span class="sxs-lookup"><span data-stu-id="43710-189">When you start edit mode, the exception details page for the invoice that has issues appears.</span></span> <span data-ttu-id="43710-190">Si hay adjuntos, la factura y los adjuntos predeterminados aparecen de forma simultánea en la página de detalles de la excepción.</span><span class="sxs-lookup"><span data-stu-id="43710-190">If there are any attachments, the invoice and the default attachment appear side by side on the exception details page.</span></span>
 
 ![Página de detalles de excepciones](media/vendor_invoice_automation_03.png)
 
-En la ilustración anterior, no había ninguna línea para el encabezado de factura de proveedor entrante. Por lo tanto, la sección líneas está vacía.
+<span data-ttu-id="43710-192">En la ilustración anterior, no había ninguna línea para el encabezado de factura de proveedor entrante.</span><span class="sxs-lookup"><span data-stu-id="43710-192">In the preceding illustration, there weren’t any lines for the vendor invoice header that came in.</span></span> <span data-ttu-id="43710-193">Por lo tanto, la sección líneas está vacía.</span><span class="sxs-lookup"><span data-stu-id="43710-193">Therefore, the lines section is empty.</span></span>
 
-La página de detalles de excepciones admite la operación siguiente:
+<span data-ttu-id="43710-194">La página de detalles de excepciones admite la operación siguiente:</span><span class="sxs-lookup"><span data-stu-id="43710-194">The exception details page supports the following operation:</span></span>
 
-+ **Crear factura pendiente** - Después de corregir los problemas en la factura como parte del procesamiento de excepciones, puede hacer clic en este botón para crear la factura pendiente. La creación de facturas pendientes se produce en segundo plano (como operación asincrónica).
++ <span data-ttu-id="43710-195">**Crear factura pendiente** - Después de corregir los problemas en la factura como parte del procesamiento de excepciones, puede hacer clic en este botón para crear la factura pendiente.</span><span class="sxs-lookup"><span data-stu-id="43710-195">**Create pending invoice** – After you’ve fixed the issues on the invoice as part of exception processing, you can click this button to create the pending invoice.</span></span> <span data-ttu-id="43710-196">La creación de facturas pendientes se produce en segundo plano (como operación asincrónica).</span><span class="sxs-lookup"><span data-stu-id="43710-196">The creation of pending invoices occurs in the background (as an asynchronous operation).</span></span>
 
-### <a name="shared-service-vs-organization-based-exception-processing"></a>Procesamiento de servicio compartido versus procesamiento de excepciones basado en la organización
+### <a name="shared-service-vs-organization-based-exception-processing"></a><span data-ttu-id="43710-197">Procesamiento de servicio compartido versus procesamiento de excepciones basado en la organización</span><span class="sxs-lookup"><span data-stu-id="43710-197">Shared service vs. organization-based exception processing</span></span>
 
-La página de lista de excepciones admite las construcciones estándar de seguridad que admite el área de trabajo **Administración de datos** para el procesamiento de los registros de ensayo. El trabajo de importación de la factura se puede asegurar de las siguientes formas:
+<span data-ttu-id="43710-198">La página de lista de excepciones admite las construcciones estándar de seguridad que admite el área de trabajo **Administración de datos** para el procesamiento de los registros de ensayo.</span><span class="sxs-lookup"><span data-stu-id="43710-198">The exceptions list page supports the standard security constructs that the **Data management** workspace supports for the processing of staging records.</span></span> <span data-ttu-id="43710-199">El trabajo de importación de la factura se puede asegurar de las siguientes formas:</span><span class="sxs-lookup"><span data-stu-id="43710-199">The invoice import job can be secured in the following ways:</span></span>
 
-+ Por rol de usuario
-+ Por usuario
-+ Por entidad jurídica
++ <span data-ttu-id="43710-200">Por rol de usuario</span><span class="sxs-lookup"><span data-stu-id="43710-200">By user role</span></span>
++ <span data-ttu-id="43710-201">Por usuario</span><span class="sxs-lookup"><span data-stu-id="43710-201">By user</span></span>
++ <span data-ttu-id="43710-202">Por entidad jurídica</span><span class="sxs-lookup"><span data-stu-id="43710-202">By legal entity</span></span>
 
 ![Importe el trabajo que está asegurado por el de usuario y la entidad jurídica](media/vendor_invoice_automation_04.png)
 
-Si la seguridad se ha configuro para el trabajo de importación de facturas, la página de lista de excepciones seguirá estos valores. Los usuarios podrán ver solo los registros de excepciones de factura que les permita ver esta configuración.
+<span data-ttu-id="43710-204">Si la seguridad se ha configuro para el trabajo de importación de facturas, la página de lista de excepciones seguirá estos valores.</span><span class="sxs-lookup"><span data-stu-id="43710-204">If security is configured for the invoice import job, the exceptions list page honors those settings.</span></span> <span data-ttu-id="43710-205">Los usuarios podrán ver solo los registros de excepciones de factura que les permita ver esta configuración.</span><span class="sxs-lookup"><span data-stu-id="43710-205">Users will be able to see only the invoice exception records that this setup allows them to see.</span></span>
 
-Por ejemplo, Contoso ha decidido procesar las excepciones de facturas por entidad jurídica. Por lo tanto, la seguridad está configura en el trabajo de importación de la factura de tal manera que un usuario de la entidad jurídica A puede ver solo las excepciones de factura en la entidad jurídica A, mientras que un usuario de la entidad jurídica B puede ver únicamente las excepciones de factura en la entidad jurídica B. Esta configuración permite la segregación de controles para administrar las excepciones de la factura.
+<span data-ttu-id="43710-206">Por ejemplo, Contoso ha decidido procesar las excepciones de facturas por entidad jurídica.</span><span class="sxs-lookup"><span data-stu-id="43710-206">For example, Contoso has decided to process invoice exceptions by legal entity.</span></span> <span data-ttu-id="43710-207">Por lo tanto, la seguridad está configura en el trabajo de importación de la factura de tal manera que un usuario de la entidad jurídica A puede ver solo las excepciones de factura en la entidad jurídica A, mientras que un usuario de la entidad jurídica B puede ver únicamente las excepciones de factura en la entidad jurídica B. Esta configuración permite la segregación de controles para administrar las excepciones de la factura.</span><span class="sxs-lookup"><span data-stu-id="43710-207">Therefore, security is configured on the invoice import job in such a way that a user in legal entity A can see only invoice exceptions in legal entity A, whereas a user in legal entity B can see only invoice exceptions in legal entity B. This setup enables segregation of duties for the management of invoice exceptions.</span></span>
 
-Contoso también podría decidir no aplicar ninguna seguridad, de modo que los mismos usuarios puedan procesar las excepciones de factura para todas las entidades jurídicas. Esta configuración permite un escenario de servicios compartidos para la administración de excepciones de factura.
+<span data-ttu-id="43710-208">Contoso también podría decidir no aplicar ninguna seguridad, de modo que los mismos usuarios puedan procesar las excepciones de factura para todas las entidades jurídicas.</span><span class="sxs-lookup"><span data-stu-id="43710-208">Contoso could also decide not to enforce any security, so that the same users can process invoice exceptions for all legal entities.</span></span> <span data-ttu-id="43710-209">Esta configuración permite un escenario de servicios compartidos para la administración de excepciones de factura.</span><span class="sxs-lookup"><span data-stu-id="43710-209">This setup enables a shared services scenario for the management of invoice exceptions.</span></span>
 
-## <a name="side-by-side-attachment-viewer"></a>Visualizador de adjuntos en paralelo
+## <a name="side-by-side-attachment-viewer"></a><span data-ttu-id="43710-210">Visualizador de adjuntos en paralelo</span><span class="sxs-lookup"><span data-stu-id="43710-210">Side-by-side attachment viewer</span></span>
 
-Para ayudar a ver fácilmente los adjuntos de las facturas de proveedor, las siguientes páginas que se utilizan en el proceso de facturación proporcionan ahora un visualizador de adjuntos:
+<span data-ttu-id="43710-211">Para ayudar a ver fácilmente los adjuntos de las facturas de proveedor, las siguientes páginas que se utilizan en el proceso de facturación proporcionan ahora un visualizador de adjuntos:</span><span class="sxs-lookup"><span data-stu-id="43710-211">To help you easily view the attachments for vendor invoices, the following pages that are used in the invoicing process now provide an attachment viewer:</span></span>
 
-+ **Control de excepciones**
-+ Página **Facturas de proveedor pendientes** (también disponibles en el proceso de revisión de facturas)
-+ Página de consultas **Diario de facturas** (para las facturas registradas)
++ <span data-ttu-id="43710-212">**Control de excepciones**</span><span class="sxs-lookup"><span data-stu-id="43710-212">**Exception handling**</span></span>
++ <span data-ttu-id="43710-213">Página **Facturas de proveedor pendientes** (también disponibles en el proceso de revisión de facturas)</span><span class="sxs-lookup"><span data-stu-id="43710-213">**Pending vendor invoices** page (also available in the invoice review process)</span></span>
++ <span data-ttu-id="43710-214">Página de consultas **Diario de facturas** (para las facturas registradas)</span><span class="sxs-lookup"><span data-stu-id="43710-214">**Invoice journal** inquiry page (for posted invoices)</span></span>
 
-A continuación se indica la funcionalidad principal que proporciona el visualizador de adjuntos:
+<span data-ttu-id="43710-215">A continuación se indica la funcionalidad principal que proporciona el visualizador de adjuntos:</span><span class="sxs-lookup"><span data-stu-id="43710-215">Here is the main functionality that the attachment viewer provides:</span></span>
 
-+ Ver todos los tipos de adjuntos que admite la administración de documentos (archivos, imágenes, direcciones URL y notas).
-+ Ver los archivos TIFF de varias páginas.
-+ Realizar las siguientes acciones en los archivos de imagen:
-  + Resaltar partes de la imagen.
-  + Bloquear partes de la imagen.
-  + Agregar anotaciones a la imagen.
-  + Aumentar o reducir la imagen.
-  + Panorámica de imagen.
-  + Deshacer y rehacer acciones.
-  + Adaptar la imagen al tamaño.
-
-> [!NOTE]
-> Estas acciones están disponibles solo para los archivos de imagen (JPEG, TIFF, PNG, etc.). Los cambios que realice a una imagen mediante estas acciones se guardan en el archivo de imagen. Actualmente, el visualizador de adjuntos no incluye capacidades de versiones o de auditoría.
-
-### <a name="default-attachment"></a>Adjunto predeterminado
-
-Si una factura de proveedor tiene más de un adjunto, puede establecer uno de los documentos como adjunto predeterminado en la página **Adjuntos** . La opción **Adjuntos predeterminados** es una nueva opción que se ha agregado como parte de esta función. Esta opción también se expone en la entidad de datos de adjuntos de documentos de la factura de proveedor. Por lo tanto, los adjuntos predeterminados se pueden definir con integraciones.
-
-Sólo un documento se puede definir como adjunto predeterminado. Una vez que define un documento como adjunto predeterminado, se muestran automáticamente en el visualizador de adjuntos cuando se abre la factura. Si no define ningún documento como adjunto predeterminado, el visualizador no muestra automáticamente ningún adjunto cuando se abre la factura.
-
-### <a name="showhide-invoice-attachments"></a>Mostrar/ocultar adjuntos de la factura
-
-Un nuevo botón que está disponible en las páginas de consulta **Procesamiento de excepciones**, **Factura pendiente** y **Diario de facturas** permite mostrar u ocultar el visualizador de adjuntos.
-
-### <a name="security"></a>Seguridad
-
-Las siguientes acciones en el visualizador de adjuntos se controlan mediante seguridad basada en roles:
-
-+ Resaltar
-+ Bloque
-+ Anotación
-
-### <a name="pending-vendor-invoices-page"></a>Página de facturas de proveedor pendientes
-
-Los privilegios siguientes ofrecen acceso de solo lectura o lectura/escritura al visualizador de adjuntos para las acciones de resaltar, bloquear y anotar:
-
-+ **Mantener la imagen de la factura de proveedor** - Este privilegio proporciona acceso de lectura/escritura.
-+ **Ver la imagen de la factura de proveedor** - Este privilegio proporciona acceso de solo lectura.
-
-Las siguientes tareas proporcionan acceso de solo lectura o acceso de lectura/escritura al visualizador de adjuntos para dichas acciones:
-
-+ **Mantener facturas de proveedor** - El privilegio de mantener imagen de la factura de proveedor se asigna a este derecho.
-+ **Consultar acerca del estado de las facturas de proveedor** - El privilegio de ver imagen de la factura de proveedor se asigna a este derecho.
-
-Los siguientes roles proporcionan acceso de solo lectura o acceso de lectura/escritura al visualizador de adjuntos para dichas acciones:
-
-+ **Funcionario de proveedores** y **Administrador de los proveedores** - El derecho de mantener las facturas de proveedor se asigna a estos roles.
-+ **Funcionario de proveedores**, **Administrador de los proveedores**, **Funcionario de pagos centralizados de proveedores**, y **Funcionario de pagos de proveedores** - El derecho de consulta sobre el estado de la factura de proveedor se asigna a estos roles.
-
-### <a name="invoice-exception-details-page"></a>Página de detalles de excepciones de factura
-
-Los privilegios siguientes ofrecen acceso de solo lectura o lectura/escritura al visualizador de adjuntos para las acciones de resaltar, bloquear y anotar.
++ <span data-ttu-id="43710-216">Ver todos los tipos de adjuntos que admite la administración de documentos (archivos, imágenes, direcciones URL y notas).</span><span class="sxs-lookup"><span data-stu-id="43710-216">View all attachment types that Document management supports (files, images, URLs, and notes).</span></span>
++ <span data-ttu-id="43710-217">Ver los archivos TIFF de varias páginas.</span><span class="sxs-lookup"><span data-stu-id="43710-217">View multi-page TIFF files.</span></span>
++ <span data-ttu-id="43710-218">Realizar las siguientes acciones en los archivos de imagen:</span><span class="sxs-lookup"><span data-stu-id="43710-218">Perform the following actions on image files:</span></span>
+  + <span data-ttu-id="43710-219">Resaltar partes de la imagen.</span><span class="sxs-lookup"><span data-stu-id="43710-219">Highlight parts of the image.</span></span>
+  + <span data-ttu-id="43710-220">Bloquear partes de la imagen.</span><span class="sxs-lookup"><span data-stu-id="43710-220">Block parts of the image.</span></span>
+  + <span data-ttu-id="43710-221">Agregar anotaciones a la imagen.</span><span class="sxs-lookup"><span data-stu-id="43710-221">Add annotations to the image.</span></span>
+  + <span data-ttu-id="43710-222">Aumentar o reducir la imagen.</span><span class="sxs-lookup"><span data-stu-id="43710-222">Zoom in and out on the image.</span></span>
+  + <span data-ttu-id="43710-223">Panorámica de imagen.</span><span class="sxs-lookup"><span data-stu-id="43710-223">Pan the image.</span></span>
+  + <span data-ttu-id="43710-224">Deshacer y rehacer acciones.</span><span class="sxs-lookup"><span data-stu-id="43710-224">Undo and redo actions.</span></span>
+  + <span data-ttu-id="43710-225">Adaptar la imagen al tamaño.</span><span class="sxs-lookup"><span data-stu-id="43710-225">Fit the image to size.</span></span>
 
 > [!NOTE]
-> Desde el principio, los roles mencionados en esta sección proporcionan acceso de solo lectura a las imágenes de la factura en el visualizador de adjuntos. Si un rol también debe tener acceso de escritura a las imágenes, puede conceder acceso de escritura a dicho rol mediante el privilegio y el derecho que se describe aquí.
+> <span data-ttu-id="43710-226">Estas acciones están disponibles solo para los archivos de imagen (JPEG, TIFF, PNG, etc.).</span><span class="sxs-lookup"><span data-stu-id="43710-226">These actions are available only for image files (JPEG, TIFF, PNG, and so on).</span></span> <span data-ttu-id="43710-227">Los cambios que realice a una imagen mediante estas acciones se guardan en el archivo de imagen.</span><span class="sxs-lookup"><span data-stu-id="43710-227">Any changes that you make to an image by using these actions are saved to the image file.</span></span> <span data-ttu-id="43710-228">Actualmente, el visualizador de adjuntos no incluye capacidades de versiones o de auditoría.</span><span class="sxs-lookup"><span data-stu-id="43710-228">Currently, the attachment viewer doesn’t include versioning or auditing capabilities.</span></span>
 
-+ **Mantener imagen de entidad de encabezado de facturas de proveedor** - Este privilegio proporciona acceso de lectura/escritura a las imágenes de la factura en el visualizador de adjuntos.
-+ **Ver imagen de entidad de encabezado de facturas de proveedor** - Este privilegio proporciona acceso de solo lectura a la imagen de la factura en el visualizador de adjuntos.
+### <a name="default-attachment"></a><span data-ttu-id="43710-229">Adjunto predeterminado</span><span class="sxs-lookup"><span data-stu-id="43710-229">Default attachment</span></span>
 
-Los siguientes derechos proporcionan acceso de solo lectura al visualizador de adjuntos para dichas acciones:
+<span data-ttu-id="43710-230">Si una factura de proveedor tiene más de un adjunto, puede establecer uno de los documentos como adjunto predeterminado en la página **Adjuntos** .</span><span class="sxs-lookup"><span data-stu-id="43710-230">If a vendor invoice has more than one attachment, you can set one of the documents as the default attachment on the **Attachments** page.</span></span> <span data-ttu-id="43710-231">La opción **Adjuntos predeterminados** es una nueva opción que se ha agregado como parte de esta función.</span><span class="sxs-lookup"><span data-stu-id="43710-231">The **Is default attachment** option is a new option that was added as part of this feature.</span></span> <span data-ttu-id="43710-232">Esta opción también se expone en la entidad de datos de adjuntos de documentos de la factura de proveedor.</span><span class="sxs-lookup"><span data-stu-id="43710-232">This option is also exposed in the Vendor invoice document attachment data entity.</span></span> <span data-ttu-id="43710-233">Por lo tanto, los adjuntos predeterminados se pueden definir con integraciones.</span><span class="sxs-lookup"><span data-stu-id="43710-233">Therefore, the default attachment can be set through integrations.</span></span>
 
-+ **Mantener facturas de proveedor** - El privilegio de mantener imagen de entidad de encabezado de facturas de proveedor se asigna a este derecho.
+<span data-ttu-id="43710-234">Sólo un documento se puede definir como adjunto predeterminado.</span><span class="sxs-lookup"><span data-stu-id="43710-234">Only one document can be set as the default attachment.</span></span> <span data-ttu-id="43710-235">Una vez que define un documento como adjunto predeterminado, se muestran automáticamente en el visualizador de adjuntos cuando se abre la factura.</span><span class="sxs-lookup"><span data-stu-id="43710-235">After you set a document as the default attachment, it’s automatically shown in the attachment viewer when the invoice is opened.</span></span> <span data-ttu-id="43710-236">Si no define ningún documento como adjunto predeterminado, el visualizador no muestra automáticamente ningún adjunto cuando se abre la factura.</span><span class="sxs-lookup"><span data-stu-id="43710-236">If you don’t set any document as the default attachment, the viewer doesn’t automatically show any attachment when the invoice is opened.</span></span>
 
-Los siguientes roles proporcionan acceso de solo lectura al visualizador de adjuntos para dichas acciones:
+### <a name="showhide-invoice-attachments"></a><span data-ttu-id="43710-237">Mostrar/ocultar adjuntos de la factura</span><span class="sxs-lookup"><span data-stu-id="43710-237">Show/hide invoice attachments</span></span>
 
-+ **Funcionario de proveedores** y **Administrador de los proveedores** - El derecho de mantener las facturas de proveedor se asigna a estos roles.
+<span data-ttu-id="43710-238">Un nuevo botón que está disponible en las páginas de consulta **Procesamiento de excepciones**, **Factura pendiente** y **Diario de facturas** permite mostrar u ocultar el visualizador de adjuntos.</span><span class="sxs-lookup"><span data-stu-id="43710-238">A new button that is available on the **Exception processing**, **Pending invoice**, and **Invoice journal** inquiry pages lets you show or hide the attachment viewer.</span></span>
 
-De forma predeterminada, si el rol de usuario proporciona derechos de edición en cualquier página, el usuario también tendrá derechos de edición en el visualizador de datos adjuntos para las acciones de resaltar, bloquear y anotar. Sin embargo, si hay escenarios donde un rol específico debe tener derechos de edición en la página pero no en el visualizador de adjuntos, los privilegios necesarios la lista anterior se pueden utilizar para satisfacer este caso.
+### <a name="security"></a><span data-ttu-id="43710-239">Seguridad</span><span class="sxs-lookup"><span data-stu-id="43710-239">Security</span></span>
+
+<span data-ttu-id="43710-240">Las siguientes acciones en el visualizador de adjuntos se controlan mediante seguridad basada en roles:</span><span class="sxs-lookup"><span data-stu-id="43710-240">The following actions in the attachment viewer are controlled via role-based security:</span></span>
+
++ <span data-ttu-id="43710-241">Resaltar</span><span class="sxs-lookup"><span data-stu-id="43710-241">Highlighting</span></span>
++ <span data-ttu-id="43710-242">Bloque</span><span class="sxs-lookup"><span data-stu-id="43710-242">Block</span></span>
++ <span data-ttu-id="43710-243">Anotación</span><span class="sxs-lookup"><span data-stu-id="43710-243">Annotation</span></span>
+
+### <a name="pending-vendor-invoices-page"></a><span data-ttu-id="43710-244">Página de facturas de proveedor pendientes</span><span class="sxs-lookup"><span data-stu-id="43710-244">Pending vendor invoices page</span></span>
+
+<span data-ttu-id="43710-245">Los privilegios siguientes ofrecen acceso de solo lectura o lectura/escritura al visualizador de adjuntos para las acciones de resaltar, bloquear y anotar:</span><span class="sxs-lookup"><span data-stu-id="43710-245">The following privileges provide ready-only access or read/write access to the attachment viewer for the highlighting, block, and annotation actions:</span></span>
+
++ <span data-ttu-id="43710-246">**Mantener la imagen de la factura de proveedor** - Este privilegio proporciona acceso de lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="43710-246">**Maintain vendor invoice image** – This privilege provides read/write access.</span></span>
++ <span data-ttu-id="43710-247">**Ver la imagen de la factura de proveedor** - Este privilegio proporciona acceso de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="43710-247">**View vendor invoice image** – This privilege provides read-only access.</span></span>
+
+<span data-ttu-id="43710-248">Las siguientes tareas proporcionan acceso de solo lectura o acceso de lectura/escritura al visualizador de adjuntos para dichas acciones:</span><span class="sxs-lookup"><span data-stu-id="43710-248">The following duties provide read-only access or read/write access to the attachment viewer for those actions:</span></span>
+
++ <span data-ttu-id="43710-249">**Mantener facturas de proveedor** - El privilegio de mantener imagen de la factura de proveedor se asigna a este derecho.</span><span class="sxs-lookup"><span data-stu-id="43710-249">**Maintain vendor invoices** – The Maintain vendor invoice image privilege is assigned to this duty.</span></span>
++ <span data-ttu-id="43710-250">**Consultar acerca del estado de las facturas de proveedor** - El privilegio de ver imagen de la factura de proveedor se asigna a este derecho.</span><span class="sxs-lookup"><span data-stu-id="43710-250">**Inquire into vendor invoice status** – The View vendor invoice image privilege is assigned to this duty.</span></span>
+
+<span data-ttu-id="43710-251">Los siguientes roles proporcionan acceso de solo lectura o acceso de lectura/escritura al visualizador de adjuntos para dichas acciones:</span><span class="sxs-lookup"><span data-stu-id="43710-251">The following roles provide read-only access or read/write access to the attachment viewer for those actions:</span></span>
+
++ <span data-ttu-id="43710-252">**Funcionario de proveedores** y **Administrador de los proveedores** - El derecho de mantener las facturas de proveedor se asigna a estos roles.</span><span class="sxs-lookup"><span data-stu-id="43710-252">**Accounts payable clerk** and **Accounts payable manager** – The Maintain vendor invoices duty is assigned to these roles.</span></span>
++ <span data-ttu-id="43710-253">**Funcionario de proveedores**, **Administrador de los proveedores**, **Funcionario de pagos centralizados de proveedores**, y **Funcionario de pagos de proveedores** - El derecho de consulta sobre el estado de la factura de proveedor se asigna a estos roles.</span><span class="sxs-lookup"><span data-stu-id="43710-253">**Accounts payable clerk**, **Accounts payable manager**, **Accounts payable centralized payments clerk**, and **Accounts payable payments clerk** – The Inquire into vendor invoice status duty is assigned to these roles.</span></span>
+
+### <a name="invoice-exception-details-page"></a><span data-ttu-id="43710-254">Página de detalles de excepciones de factura</span><span class="sxs-lookup"><span data-stu-id="43710-254">Invoice exception details page</span></span>
+
+<span data-ttu-id="43710-255">Los privilegios siguientes ofrecen acceso de solo lectura o lectura/escritura al visualizador de adjuntos para las acciones de resaltar, bloquear y anotar.</span><span class="sxs-lookup"><span data-stu-id="43710-255">The following privileges provide ready-only access or read/write access to the attachment viewer for the highlighting, block, and annotation actions.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="43710-256">Desde el principio, los roles mencionados en esta sección proporcionan acceso de solo lectura a las imágenes de la factura en el visualizador de adjuntos.</span><span class="sxs-lookup"><span data-stu-id="43710-256">Out of the box, the roles that are mentioned in this section provide read-only access to the invoice images in the attachment viewer.</span></span> <span data-ttu-id="43710-257">Si un rol también debe tener acceso de escritura a las imágenes, puede conceder acceso de escritura a dicho rol mediante el privilegio y el derecho que se describe aquí.</span><span class="sxs-lookup"><span data-stu-id="43710-257">If a role must also have write access to the images, you can grant write access to that role by using the privilege and duty that are described here.</span></span>
+
++ <span data-ttu-id="43710-258">**Mantener imagen de entidad de encabezado de facturas de proveedor** - Este privilegio proporciona acceso de lectura/escritura a las imágenes de la factura en el visualizador de adjuntos.</span><span class="sxs-lookup"><span data-stu-id="43710-258">**Maintain vendor invoice header entity image** – This privilege provides read/write access to the invoice images in the attachment viewer.</span></span>
++ <span data-ttu-id="43710-259">**Ver imagen de entidad de encabezado de facturas de proveedor** - Este privilegio proporciona acceso de solo lectura a la imagen de la factura en el visualizador de adjuntos.</span><span class="sxs-lookup"><span data-stu-id="43710-259">**View vendor invoice header entity image** – This privilege provides read-only view to the invoice image in the attachment viewer.</span></span>
+
+<span data-ttu-id="43710-260">Los siguientes derechos proporcionan acceso de solo lectura al visualizador de adjuntos para dichas acciones:</span><span class="sxs-lookup"><span data-stu-id="43710-260">The following duties provide read-only access to the attachment viewer for those actions:</span></span>
+
++ <span data-ttu-id="43710-261">**Mantener facturas de proveedor** - El privilegio de mantener imagen de entidad de encabezado de facturas de proveedor se asigna a este derecho.</span><span class="sxs-lookup"><span data-stu-id="43710-261">**Maintain vendor invoices** – The Maintain vendor invoice header entity image privilege is assigned to this duty.</span></span>
+
+<span data-ttu-id="43710-262">Los siguientes roles proporcionan acceso de solo lectura al visualizador de adjuntos para dichas acciones:</span><span class="sxs-lookup"><span data-stu-id="43710-262">The following roles provide read-only access to the attachment viewer for those actions:</span></span>
+
++ <span data-ttu-id="43710-263">**Funcionario de proveedores** y **Administrador de los proveedores** - El derecho de mantener las facturas de proveedor se asigna a estos roles.</span><span class="sxs-lookup"><span data-stu-id="43710-263">**Accounts payable clerk** and **Accounts payable manager** – The Maintain vendor invoices duty is assigned to these roles.</span></span>
+
+<span data-ttu-id="43710-264">De forma predeterminada, si el rol de usuario proporciona derechos de edición en cualquier página, el usuario también tendrá derechos de edición en el visualizador de datos adjuntos para las acciones de resaltar, bloquear y anotar.</span><span class="sxs-lookup"><span data-stu-id="43710-264">By default, if the user role provides edit rights on any page, the user will also have edit rights on the attachments viewer for the highlighting, block, and annotation actions.</span></span> <span data-ttu-id="43710-265">Sin embargo, si hay escenarios donde un rol específico debe tener derechos de edición en la página pero no en el visualizador de adjuntos, los privilegios necesarios la lista anterior se pueden utilizar para satisfacer este caso.</span><span class="sxs-lookup"><span data-stu-id="43710-265">However, if there are scenarios where a specific role should have edit rights on the page but not on the attachment viewer, the appropriate privileges from the preceding list can be used to satisfy the use case.</span></span>
 

@@ -16,32 +16,32 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 52d502a53deb6defa619af4ca8cdc3158e086bae
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 71c0175178203006e297466c4a37cd3e6319b6ea
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="import-iso20022-credit-transfer-configuration"></a>Importación de la configuración de transferencia de crédito ISO20022
+# <a name="import-iso20022-credit-transfer-configuration"></a><span data-ttu-id="80379-103">Importación de la configuración de transferencia de crédito ISO20022</span><span class="sxs-lookup"><span data-stu-id="80379-103">Import ISO20022 credit transfer configuration</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo importar una configuración de informes electrónicos de pagos de proveedor. El formato alemán de transferencia de crédito ISO 20022 se usa como ejemplo. Este procedimiento se puede utilizar para otro formato de informes electrónicos disponibles. 
+<span data-ttu-id="80379-104">Este procedimiento muestra cómo importar una configuración de informes electrónicos de pagos de proveedor.</span><span class="sxs-lookup"><span data-stu-id="80379-104">This procedure shows how to import a vendor payment electronic reporting configuration.</span></span> <span data-ttu-id="80379-105">El formato alemán de transferencia de crédito ISO 20022 se usa como ejemplo.</span><span class="sxs-lookup"><span data-stu-id="80379-105">The German ISO 20022 credit transfer format is used as an example.</span></span> <span data-ttu-id="80379-106">Este procedimiento se puede utilizar para otro formato de informes electrónicos disponibles.</span><span class="sxs-lookup"><span data-stu-id="80379-106">This procedure can be used for other available electronic reporting format.</span></span> 
 
-Esta tarea se creó con la empresa de datos de demostración DEMF pero puede usar cualquier empresa de datos de demostración para completar esta tarea.
+<span data-ttu-id="80379-107">Esta tarea se creó con la empresa de datos de demostración DEMF pero puede usar cualquier empresa de datos de demostración para completar esta tarea.</span><span class="sxs-lookup"><span data-stu-id="80379-107">This task was created using the demo data company DEMF but you can use any demo data company to complete this task.</span></span>
 
-Esta es la primera de cinco tareas que conjuntamente muestran el proceso de pago del proveedor mediante las configuraciones de informes electrónicos. Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
+<span data-ttu-id="80379-108">Esta es la primera de cinco tareas que conjuntamente muestran el proceso de pago del proveedor mediante las configuraciones de informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="80379-108">This is the first of five tasks, that together illustrate the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="80379-109">Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="80379-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
-1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
-2. En la lista de proveedores de configuración disponibles, seleccione Microsoft
-3. Haga clic en Definir como activo.
-4. Haga clic en Repositorios.
-5. Haga clic en Abrir.
-6. Haga clic en Mostrar filtros.
-7. Aplique los siguientes filtros: especifique un valor de filtro de "Transferencia de crédito ISO20022 (DE)" en el campo "Nombre de configuración" mediante el operador de filtro "empieza por".
-    * De forma alternativa, puede buscar la configuración en la lista, seleccionarla y trasladarla a la tarea de importación.  
-8. Haga clic en Importar.
-    * Si el botón Importar no está disponible, es que la configuración ya se ha importado.  
-9. Haga clic en Sí.
+1. <span data-ttu-id="80379-110">Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="80379-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="80379-111">En la lista de proveedores de configuración disponibles, seleccione Microsoft</span><span class="sxs-lookup"><span data-stu-id="80379-111">In the list of available configuration providers, select Microsoft.</span></span>
+3. <span data-ttu-id="80379-112">Haga clic en Definir como activo.</span><span class="sxs-lookup"><span data-stu-id="80379-112">Click Set active.</span></span>
+4. <span data-ttu-id="80379-113">Haga clic en Repositorios.</span><span class="sxs-lookup"><span data-stu-id="80379-113">Click Repositories.</span></span>
+5. <span data-ttu-id="80379-114">Haga clic en Abrir.</span><span class="sxs-lookup"><span data-stu-id="80379-114">Click Open.</span></span>
+6. <span data-ttu-id="80379-115">Haga clic en Mostrar filtros.</span><span class="sxs-lookup"><span data-stu-id="80379-115">Click Show filters.</span></span>
+7. <span data-ttu-id="80379-116">Aplique los siguientes filtros: especifique un valor de filtro de "Transferencia de crédito ISO20022 (DE)" en el campo "Nombre de configuración" mediante el operador de filtro "empieza por".</span><span class="sxs-lookup"><span data-stu-id="80379-116">Apply the following filters: Enter a filter value of "ISO20022 Credit transfer (DE)" on the "Configuration name" field using the "begins with" filter operator</span></span>
+    * <span data-ttu-id="80379-117">De forma alternativa, puede buscar la configuración en la lista, seleccionarla y trasladarla a la tarea de importación.</span><span class="sxs-lookup"><span data-stu-id="80379-117">Alternatively, you can find the configuration in the list, select it, and then move it to the Import task.</span></span>  
+8. <span data-ttu-id="80379-118">Haga clic en Importar.</span><span class="sxs-lookup"><span data-stu-id="80379-118">Click Import.</span></span>
+    * <span data-ttu-id="80379-119">Si el botón Importar no está disponible, es que la configuración ya se ha importado.</span><span class="sxs-lookup"><span data-stu-id="80379-119">If the Import button is not available, it means that the configuration has  already been imported.</span></span>  
+9. <span data-ttu-id="80379-120">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="80379-120">Click Yes.</span></span>
 
 

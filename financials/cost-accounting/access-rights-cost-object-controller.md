@@ -17,7 +17,7 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
@@ -27,84 +27,84 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-## <a name="access-rights-of-a-cost-object-controller"></a>Derechos de acceso de un controlador de objeto de coste
+## <a name="access-rights-of-a-cost-object-controller"></a><span data-ttu-id="f0930-103">Derechos de acceso de un controlador de objeto de coste</span><span class="sxs-lookup"><span data-stu-id="f0930-103">Access rights of a cost object controller</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-El área de trabajo **Control de costes** es un punto central donde los administradores pueden ver el rendimiento de los objetos de coste. Este espacio de trabajo permite a los administradores consumir datos de contabilidad de costes aunque no sean contables de costes. Por razones de seguridad, los administradores deben poder ver únicamente los datos de la contabilidad de costes relacionados con los objetos de coste específicos de los que sean responsables.
+<span data-ttu-id="f0930-104">El área de trabajo **Control de costes** es un punto central donde los administradores pueden ver el rendimiento de los objetos de coste.</span><span class="sxs-lookup"><span data-stu-id="f0930-104">The **Cost control** workspace is a central point where managers can view the performance of their cost objects.</span></span> <span data-ttu-id="f0930-105">Este espacio de trabajo permite a los administradores consumir datos de contabilidad de costes aunque no sean contables de costes.</span><span class="sxs-lookup"><span data-stu-id="f0930-105">This workspace lets managers consume Cost accounting data even though they aren't cost accountants.</span></span> <span data-ttu-id="f0930-106">Por razones de seguridad, los administradores deben poder ver únicamente los datos de la contabilidad de costes relacionados con los objetos de coste específicos de los que sean responsables.</span><span class="sxs-lookup"><span data-stu-id="f0930-106">For security reasons, managers should be allowed to see only the Cost accounting data that is related to the specific cost objects that they are responsible for.</span></span>
 
-Existen cuatro roles únicos en contabilidad de costes.
+<span data-ttu-id="f0930-107">Existen cuatro roles únicos en contabilidad de costes.</span><span class="sxs-lookup"><span data-stu-id="f0930-107">There are four unique roles in Cost accounting.</span></span>
 
-| Nombre de rol               | Licencia      |
+| <span data-ttu-id="f0930-108">Nombre de rol</span><span class="sxs-lookup"><span data-stu-id="f0930-108">Role name</span></span>               | <span data-ttu-id="f0930-109">Licencia</span><span class="sxs-lookup"><span data-stu-id="f0930-109">License</span></span>      |
 |-------------------------|--------------|
-| Administrador de contabilidad de costes | Actividad     |
-| Contable de costes         | Operations   |
-| Contable de costes   | Operations   |
-| Controlador de objeto de coste  | Miembros del equipo |
+| <span data-ttu-id="f0930-110">Administrador de contabilidad de costes</span><span class="sxs-lookup"><span data-stu-id="f0930-110">Cost accounting manager</span></span> | <span data-ttu-id="f0930-111">Actividad</span><span class="sxs-lookup"><span data-stu-id="f0930-111">Activity</span></span>     |
+| <span data-ttu-id="f0930-112">Contable de costes</span><span class="sxs-lookup"><span data-stu-id="f0930-112">Cost accountant</span></span>         | <span data-ttu-id="f0930-113">Operations</span><span class="sxs-lookup"><span data-stu-id="f0930-113">Operations</span></span>   |
+| <span data-ttu-id="f0930-114">Contable de costes</span><span class="sxs-lookup"><span data-stu-id="f0930-114">Cost accountant clerk</span></span>   | <span data-ttu-id="f0930-115">Operations</span><span class="sxs-lookup"><span data-stu-id="f0930-115">Operations</span></span>   |
+| <span data-ttu-id="f0930-116">Controlador de objeto de coste</span><span class="sxs-lookup"><span data-stu-id="f0930-116">Cost object controller</span></span>  | <span data-ttu-id="f0930-117">Miembros del equipo</span><span class="sxs-lookup"><span data-stu-id="f0930-117">Team members</span></span> |
 
-Este tema explica cómo asignar el rol **Controlador de objeto de coste** a un administrador.
+<span data-ttu-id="f0930-118">Este tema explica cómo asignar el rol **Controlador de objeto de coste** a un administrador.</span><span class="sxs-lookup"><span data-stu-id="f0930-118">This topic explains how to assign the **Cost object controller** role to a manager.</span></span>
 
-Cuando el rol **Controlador de objeto de coste** se asigna a un administrador, este puede realizar las siguientes tareas:
+<span data-ttu-id="f0930-119">Cuando el rol **Controlador de objeto de coste** se asigna a un administrador, este puede realizar las siguientes tareas:</span><span class="sxs-lookup"><span data-stu-id="f0930-119">When the **Cost object controller** role is assigned to a manager, the manager can perform the following tasks:</span></span>
 
-- Acceder al espacio de trabajo **Control de costes** (en el cliente).
+- <span data-ttu-id="f0930-120">Acceder al espacio de trabajo **Control de costes** (en el cliente).</span><span class="sxs-lookup"><span data-stu-id="f0930-120">Access the **Cost control** workspace (in the client).</span></span>
 
-    - Explorar y tener acceso de vista a las páginas que admiten exploración.
+    - <span data-ttu-id="f0930-121">Explorar y tener acceso de vista a las páginas que admiten exploración.</span><span class="sxs-lookup"><span data-stu-id="f0930-121">Drill through and have view access to the pages that support the drill-through experience.</span></span>
 
-- Acceder al espacio de trabajo **Control de costes** (en el la aplicación móvil).
+- <span data-ttu-id="f0930-122">Acceder al espacio de trabajo **Control de costes** (en el la aplicación móvil).</span><span class="sxs-lookup"><span data-stu-id="f0930-122">Access the **Cost control** workspace (in the mobile application).</span></span>
 
 > [!NOTE]
-> El rol **Controlador de objeto de coste** no controla a qué objetos de coste puede el usuario acceder y ver sus datos. La seguridad de filas se proporciona mediante jerarquías de dimensión y la jerarquía de listas de acceso.
+> <span data-ttu-id="f0930-123">El rol **Controlador de objeto de coste** no controla a qué objetos de coste puede el usuario acceder y ver sus datos.</span><span class="sxs-lookup"><span data-stu-id="f0930-123">The **Cost object controller** role doesn't control which cost objects the user can access and view data for.</span></span> <span data-ttu-id="f0930-124">La seguridad de filas se proporciona mediante jerarquías de dimensión y la jerarquía de listas de acceso.</span><span class="sxs-lookup"><span data-stu-id="f0930-124">Row-level security is provided via dimension hierarchies and the Access list hierarchy.</span></span>
 
-## <a name="grant-access-rights"></a>Conceder derechos de acceso
-El siguiente ejemplo muestra cómo puede ser el aspecto de las jerarquías de dimensión.
+## <a name="grant-access-rights"></a><span data-ttu-id="f0930-125">Conceder derechos de acceso</span><span class="sxs-lookup"><span data-stu-id="f0930-125">Grant access rights</span></span>
+<span data-ttu-id="f0930-126">El siguiente ejemplo muestra cómo puede ser el aspecto de las jerarquías de dimensión.</span><span class="sxs-lookup"><span data-stu-id="f0930-126">The following example shows what a dimension hierarchy can look like.</span></span>
 
-**Detalles de jerarquía de dimensión**
+<span data-ttu-id="f0930-127">**Detalles de jerarquía de dimensión**</span><span class="sxs-lookup"><span data-stu-id="f0930-127">**Dimension hierarchy details**</span></span>
 
-| Nombre de jerarquía de dimensión | Dimensión    | Nombre de tipo de jerarquía de dimensión      | Jerarquía de listas de acceso |
+| <span data-ttu-id="f0930-128">Nombre de jerarquía de dimensión</span><span class="sxs-lookup"><span data-stu-id="f0930-128">Dimension hierarchy name</span></span> | <span data-ttu-id="f0930-129">Dimensión</span><span class="sxs-lookup"><span data-stu-id="f0930-129">Dimension</span></span>    | <span data-ttu-id="f0930-130">Nombre de tipo de jerarquía de dimensión</span><span class="sxs-lookup"><span data-stu-id="f0930-130">Dimension hierarchy type name</span></span>      | <span data-ttu-id="f0930-131">Jerarquía de listas de acceso</span><span class="sxs-lookup"><span data-stu-id="f0930-131">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organización             | Centros de coste | Jerarquía de clasificación de dimensiones | **Sí**               |
+| <span data-ttu-id="f0930-132">Organización</span><span class="sxs-lookup"><span data-stu-id="f0930-132">Organization</span></span>             | <span data-ttu-id="f0930-133">Centros de coste</span><span class="sxs-lookup"><span data-stu-id="f0930-133">Cost centers</span></span> | <span data-ttu-id="f0930-134">Jerarquía de clasificación de dimensiones</span><span class="sxs-lookup"><span data-stu-id="f0930-134">Dimension classification hierarchy</span></span> | <span data-ttu-id="f0930-135">**Sí**</span><span class="sxs-lookup"><span data-stu-id="f0930-135">**Yes**</span></span>               |
 
-Puede usar el FastTab **Usuarios** en el diseñador de jerarquías para insertar uno o más Id. de usuarios en cada nodo.
+<span data-ttu-id="f0930-136">Puede usar el FastTab **Usuarios** en el diseñador de jerarquías para insertar uno o más Id. de usuarios en cada nodo.</span><span class="sxs-lookup"><span data-stu-id="f0930-136">You can use the **Users** FastTab in the hierarchy designer to insert one or more user IDs on each node.</span></span>
 
-|                                   | Usuarios            | Intervalos de miembros de dimensión   |                         |
+|                                   | <span data-ttu-id="f0930-137">Usuarios</span><span class="sxs-lookup"><span data-stu-id="f0930-137">Users</span></span>            | <span data-ttu-id="f0930-138">Intervalos de miembros de dimensión</span><span class="sxs-lookup"><span data-stu-id="f0930-138">Dimension member ranges</span></span>   |                         |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **Nodos**                         | **Id. de usuario**      | **Desde miembro de dimensión** | **Hasta miembro de dimensión** |
-| Organización                      | Benjamin, Claire |                           |                         |
-| &nbsp;&nbsp;Administrador                 | Abril            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Finanzas   | Alicia           | CC002                     | CC003                   |
-|                                   |                  | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;RR. HH.        | Arnie            | CC001                     | CC001                   |
-| &nbsp;&nbsp;Producción            | David            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Empaquetado | Ellen            | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Ensamblado  | Chris            | CC006                     | CC006                   |
+| <span data-ttu-id="f0930-139">**Nodos**</span><span class="sxs-lookup"><span data-stu-id="f0930-139">**Nodes**</span></span>                         | <span data-ttu-id="f0930-140">**Id. de usuario**</span><span class="sxs-lookup"><span data-stu-id="f0930-140">**User ID**</span></span>      | <span data-ttu-id="f0930-141">**Desde miembro de dimensión**</span><span class="sxs-lookup"><span data-stu-id="f0930-141">**From dimension member**</span></span> | <span data-ttu-id="f0930-142">**Hasta miembro de dimensión**</span><span class="sxs-lookup"><span data-stu-id="f0930-142">**To dimension member**</span></span> |
+| <span data-ttu-id="f0930-143">Organización</span><span class="sxs-lookup"><span data-stu-id="f0930-143">Organization</span></span>                      | <span data-ttu-id="f0930-144">Benjamin, Claire</span><span class="sxs-lookup"><span data-stu-id="f0930-144">Benjamin, Claire</span></span> |                           |                         |
+| <span data-ttu-id="f0930-145">&nbsp;&nbsp;Administrador</span><span class="sxs-lookup"><span data-stu-id="f0930-145">&nbsp;&nbsp;Admin</span></span>                 | <span data-ttu-id="f0930-146">Abril</span><span class="sxs-lookup"><span data-stu-id="f0930-146">April</span></span>            |                           |                         |
+| <span data-ttu-id="f0930-147">&nbsp;&nbsp;&nbsp;&nbsp;Finanzas</span><span class="sxs-lookup"><span data-stu-id="f0930-147">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="f0930-148">Alicia</span><span class="sxs-lookup"><span data-stu-id="f0930-148">Alicia</span></span>           | <span data-ttu-id="f0930-149">CC002</span><span class="sxs-lookup"><span data-stu-id="f0930-149">CC002</span></span>                     | <span data-ttu-id="f0930-150">CC003</span><span class="sxs-lookup"><span data-stu-id="f0930-150">CC003</span></span>                   |
+|                                   |                  | <span data-ttu-id="f0930-151">CC007</span><span class="sxs-lookup"><span data-stu-id="f0930-151">CC007</span></span>                     | <span data-ttu-id="f0930-152">CC007</span><span class="sxs-lookup"><span data-stu-id="f0930-152">CC007</span></span>                   |
+| <span data-ttu-id="f0930-153">&nbsp;&nbsp;&nbsp;&nbsp;RR. HH.</span><span class="sxs-lookup"><span data-stu-id="f0930-153">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="f0930-154">Arnie</span><span class="sxs-lookup"><span data-stu-id="f0930-154">Arnie</span></span>            | <span data-ttu-id="f0930-155">CC001</span><span class="sxs-lookup"><span data-stu-id="f0930-155">CC001</span></span>                     | <span data-ttu-id="f0930-156">CC001</span><span class="sxs-lookup"><span data-stu-id="f0930-156">CC001</span></span>                   |
+| <span data-ttu-id="f0930-157">&nbsp;&nbsp;Producción</span><span class="sxs-lookup"><span data-stu-id="f0930-157">&nbsp;&nbsp;Production</span></span>            | <span data-ttu-id="f0930-158">David</span><span class="sxs-lookup"><span data-stu-id="f0930-158">David</span></span>            |                           |                         |
+| <span data-ttu-id="f0930-159">&nbsp;&nbsp;&nbsp;&nbsp;Empaquetado</span><span class="sxs-lookup"><span data-stu-id="f0930-159">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="f0930-160">Ellen</span><span class="sxs-lookup"><span data-stu-id="f0930-160">Ellen</span></span>            | <span data-ttu-id="f0930-161">CC005</span><span class="sxs-lookup"><span data-stu-id="f0930-161">CC005</span></span>                     | <span data-ttu-id="f0930-162">CC005</span><span class="sxs-lookup"><span data-stu-id="f0930-162">CC005</span></span>                   |
+| <span data-ttu-id="f0930-163">&nbsp;&nbsp;&nbsp;&nbsp;Ensamblado</span><span class="sxs-lookup"><span data-stu-id="f0930-163">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="f0930-164">Chris</span><span class="sxs-lookup"><span data-stu-id="f0930-164">Chris</span></span>            | <span data-ttu-id="f0930-165">CC006</span><span class="sxs-lookup"><span data-stu-id="f0930-165">CC006</span></span>                     | <span data-ttu-id="f0930-166">CC006</span><span class="sxs-lookup"><span data-stu-id="f0930-166">CC006</span></span>                   |
 
 > [!NOTE]
-> Los contables de coste debe asignarse al nivel superior de la jerarquía, de modo que puedan ver todas las entradas de contabilidad de costes.
+> <span data-ttu-id="f0930-167">Los contables de coste debe asignarse al nivel superior de la jerarquía, de modo que puedan ver todas las entradas de contabilidad de costes.</span><span class="sxs-lookup"><span data-stu-id="f0930-167">Cost accountants should be assigned to the top level of the hierarchy, so that they can see all entries in Cost accounting.</span></span>
 
-Antes de que se puedan aplicar la jerarquía de listas de acceso y sus configuraciones de seguridad, debe establecer la opción **Habilitar acceso de visualización para los miembros de dimensión de objeto de coste** en **Sí** en la pestaña **General** de la página **Parámetros de la contabilidad de costes** (**Contabilidad de costes** > **Configuración** > **Parámetros**).
+<span data-ttu-id="f0930-168">Antes de que se puedan aplicar la jerarquía de listas de acceso y sus configuraciones de seguridad, debe establecer la opción **Habilitar acceso de visualización para los miembros de dimensión de objeto de coste** en **Sí** en la pestaña **General** de la página **Parámetros de la contabilidad de costes** (**Contabilidad de costes** > **Configuración** > **Parámetros**).</span><span class="sxs-lookup"><span data-stu-id="f0930-168">Before the Access list hierarchy and its security settings can be applied, the **Enable view access for cost object dimension members** option must be set to **Yes** on the **General** tab of the **Cost accounting parameters** page (**Cost accounting** > **Setup** > **Parameters**).</span></span>
 
-Los valores para la jerarquía de listas de acceso se utilizan para controlar los datos que se muestran en siguientes áreas:
+<span data-ttu-id="f0930-169">Los valores para la jerarquía de listas de acceso se utilizan para controlar los datos que se muestran en siguientes áreas:</span><span class="sxs-lookup"><span data-stu-id="f0930-169">The settings for the Access list hierarchy are used to control the data that is shown in following areas:</span></span>
 
-- Espacio de trabajo **Control de costes** (en el cliente):
+- <span data-ttu-id="f0930-170">Espacio de trabajo **Control de costes** (en el cliente):</span><span class="sxs-lookup"><span data-stu-id="f0930-170">**Cost control** workspace (in the client):</span></span>
 
-    - Datos en las páginas para las que se usan para la obtención de detalles
+    - <span data-ttu-id="f0930-171">Datos en las páginas para las que se usan para la obtención de detalles</span><span class="sxs-lookup"><span data-stu-id="f0930-171">Data on the pages that are used for drill-through</span></span>
 
-- Espacio de trabajo **Control de costes** (en el la aplicación móvil):
+- <span data-ttu-id="f0930-172">Espacio de trabajo **Control de costes** (en el la aplicación móvil):</span><span class="sxs-lookup"><span data-stu-id="f0930-172">**Cost control** workspace (in the mobile application):</span></span>
 
-    - Saldos en tarjetas
+    - <span data-ttu-id="f0930-173">Saldos en tarjetas</span><span class="sxs-lookup"><span data-stu-id="f0930-173">Balances in cards</span></span>
 
-- Microsoft Power BI:
+- <span data-ttu-id="f0930-174">Microsoft Power BI:</span><span class="sxs-lookup"><span data-stu-id="f0930-174">Microsoft Power BI:</span></span>
 
-    - Datos que se muestran en las visualizaciones de Power BI
-    - Visualizaciones de datos de Power BI que se insertan en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (cliente)
+    - <span data-ttu-id="f0930-175">Datos que se muestran en las visualizaciones de Power BI</span><span class="sxs-lookup"><span data-stu-id="f0930-175">Data that is shown in Power BI visualizations</span></span>
+    - <span data-ttu-id="f0930-176">Visualizaciones de datos de Power BI que se insertan en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (cliente)</span><span class="sxs-lookup"><span data-stu-id="f0930-176">Data Power BI visualizations that are embedded in the Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, client</span></span>
 
 > [!IMPORTANT]
-> - Antes de que la jerarquía de listas de acceso pueda afectar a los datos de Power BI, se deben emparejar la jerarquía de listas de acceso y la seguridad en Power BI. Para obtener más información, consulte [Configurar la seguridad del paquete del contenido de contabilidad de costes](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
-> - Este tema muestra los requisitos previos que deben estar presentes antes de poder usar el espacio de trabajo **Control de costes**.
+> - <span data-ttu-id="f0930-177">Antes de que la jerarquía de listas de acceso pueda afectar a los datos de Power BI, se deben emparejar la jerarquía de listas de acceso y la seguridad en Power BI.</span><span class="sxs-lookup"><span data-stu-id="f0930-177">Before the Access list hierarchy can affect data in Power BI, the Access list hierarchy and row-level security in Power BI must be paired.</span></span> <span data-ttu-id="f0930-178">Para obtener más información, consulte [Configurar la seguridad del paquete del contenido de contabilidad de costes](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span><span class="sxs-lookup"><span data-stu-id="f0930-178">For more information, see [Set up security for Cost accounting content pack](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span></span>
+> - <span data-ttu-id="f0930-179">Este tema muestra los requisitos previos que deben estar presentes antes de poder usar el espacio de trabajo **Control de costes**.</span><span class="sxs-lookup"><span data-stu-id="f0930-179">This topic shows the prerequisites that must be in place before you can use the **Cost control** workspace.</span></span>
 
-Consulte también
+<span data-ttu-id="f0930-180">Consulte también</span><span class="sxs-lookup"><span data-stu-id="f0930-180">See also</span></span>
 
-- [Espacio de trabajo de control de costes](cost-control-workspace.md)
-- [Jerarquía de dimensiones](dimension-hierarchy.md)
-- [Configurar la seguridad del paquete contenido de contabilidad de costes](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+- [<span data-ttu-id="f0930-181">Espacio de trabajo de control de costes</span><span class="sxs-lookup"><span data-stu-id="f0930-181">Cost control workspace</span></span>](cost-control-workspace.md)
+- [<span data-ttu-id="f0930-182">Jerarquía de dimensiones</span><span class="sxs-lookup"><span data-stu-id="f0930-182">Dimension hierarchy</span></span>](dimension-hierarchy.md)
+- [<span data-ttu-id="f0930-183">Configurar la seguridad del paquete contenido de contabilidad de costes</span><span class="sxs-lookup"><span data-stu-id="f0930-183">Set up security for Cost accounting content pack</span></span>](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
 

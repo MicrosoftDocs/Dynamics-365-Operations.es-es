@@ -16,54 +16,54 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: c871421254be6b0e9443fdf596932776d64428ae
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 4e0e43962bea3ff1c3adafa73da4ce3862963a51
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="establish-customer-payment-terms"></a>Establecer condiciones de pago de cliente
+# <a name="establish-customer-payment-terms"></a><span data-ttu-id="a665a-103">Establecer condiciones de pago de cliente</span><span class="sxs-lookup"><span data-stu-id="a665a-103">Establish customer payment terms</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento define una configuración de descuento por pronto pago y fecha de vencimiento. Esta guía de la tarea usa la empresa de demostración USMF.
+<span data-ttu-id="a665a-104">Este procedimiento define una configuración de descuento por pronto pago y fecha de vencimiento.</span><span class="sxs-lookup"><span data-stu-id="a665a-104">This procedure defines a cash discount and due date setup.</span></span> <span data-ttu-id="a665a-105">Esta guía de la tarea usa la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="a665a-105">This task guide uses the USMF demo company.</span></span>
 
-1. Vaya a Clientes > Configuración de pagos > Días de pago.
-    * La configuración de los términos de pago se comparte para clientes y proveedores. Si los define en un módulo, estarán disponibles en el otro módulo también. Para esta guía de la tarea, configuraré todos los términos de pago en clientes.  
-2. Haga clic en Nuevo.
-    * Cree un día de pago si sus condiciones de pago requieren un día concreto de la semana (lunes, martes, etc.) o de una fecha específica del mes (5, 10, etc.).  
-3. En el campo de día de pago, especifique un identificador para el día de pago en el campo de día de pago.
-4. En el campo Descripción, especifique una descripción del día de pago.
-5. En el campo Semana/Mes, seleccione la semana o el mes.
-    * Si desea especificar un día de la semana, por ejemplo, lunes, seleccione Semana. Si desea especificar una fecha del mes, por ejemplo, 10, seleccione Mes. Para este ejemplo, seleccione Mes.  
-6. En el campo Día del mes, escriba una fecha.
-    * La fecha se debe especificar como un número, por ejemplo, “10”, y no como “10°”.  
-7. Haga clic en Guardar.
-8. Cierre la página.
-9. Vaya a Clientes > Configuración de pagos > Condiciones de pago.
-10. Haga clic en Nuevo.
-    * Las condiciones de pago se usan para definir cómo se calcularán las fechas de vencimiento. La configuración de fecha de descuento por pronto pago se define en una página independiente.  
-11. En el campo Condiciones de pago, especifique un Id. en el campo de condiciones de pago.
-12. En el campo Descripción, escriba una descripción.
-13. Seleccione un método de pago, por ejemplo, Contra reembolso, Neto, Mes actual, etc.
-    * El método de pago se usa para definir el inicio de cómo se calculará la fecha de vencimiento.  Por ejemplo, Neto se usa si la fecha de vencimiento siempre es un número fijo de meses o de días después de la fecha de la factura. Se puede usar contra reembolso cuando se requiere el pago al facturar, por lo que no calcularía una fecha de vencimiento. Seleccione el mes actual para esta guía de la tarea.  
-14. Seleccione un día de pago si un día concreto de la semana o la fecha se incluye en el cálculo.
-    * En función de sus condiciones de pago, puede especificar una cantidad en meses o días. O puede usar Programación de pagos o Día de pago para “agregarlo” al final del método de pago. Si la fecha de vencimiento siempre es el día 10 del mes próximo, seleccione el día de pago 10.  
-15. Haga clic en Guardar.
-16. Cierre la página.
-17. Vaya a Clientes > Configuración de pagos > Descuentos por pronto pago.
-18. Haga clic en Nuevo.
-    * Esta página se usa para definir cómo se calculará la fecha de descuento por pronto pago.  
-19. En el campo del descuento por pronto pago, escriba una identificación en el campo del descuento por pronto pago.
-20. En el campo Descripción, escriba una descripción.
-21. Si un descuento por pronto pago con niveles está disponible, seleccione el siguiente código de descuento que es relevante después de este nuevo descuento por pronto pago.
-22. Especifique el número de días utilizados para calcular la fecha de descuento por pronto pago.
-    * Si ha seleccionado Neto, el número de días se agregará a la fecha de factura para calcular la fecha de descuento por pronto pago.  
-23. Especifique el porcentaje del descuento por pronto pago.
-24. Especifique la cuenta principal en la que se registrará el descuento por pronto pago para las facturas de cliente.
-25. En el campo Cuentas de contrapartida para descuentos, seleccione una opción.
-    * Si selecciona “Cuentas en las líneas de factura”, el descuento por pronto pago se registrará en la misma cuenta principal de activos/gastos en las líneas de la factura de proveedor. Si selecciona “Usar cuenta principal para las facturas de proveedor” el descuento por pronto pago se registrará en la cuenta principal que se define en “Cuenta principal para las facturas de proveedor”. En este ejemplo, seleccione “Usar cuenta principal para las facturas de proveedor”.  
-26. Especifique la cuenta principal en la que se registrará el descuento por pronto pago para las facturas de proveedor.
-27. Haga clic en Guardar.
+1. <span data-ttu-id="a665a-106">Vaya a Clientes > Configuración de pagos > Días de pago.</span><span class="sxs-lookup"><span data-stu-id="a665a-106">Go to Accounts receivable > Payments setup > Payment days.</span></span>
+    * <span data-ttu-id="a665a-107">La configuración de los términos de pago se comparte para clientes y proveedores.</span><span class="sxs-lookup"><span data-stu-id="a665a-107">The setup for the Terms of payment is shared for Accounts receivable and Accounts payable.</span></span> <span data-ttu-id="a665a-108">Si los define en un módulo, estarán disponibles en el otro módulo también.</span><span class="sxs-lookup"><span data-stu-id="a665a-108">If you define it in module, it will be available in the other module also.</span></span> <span data-ttu-id="a665a-109">Para esta guía de la tarea, configuraré todos los términos de pago en clientes.</span><span class="sxs-lookup"><span data-stu-id="a665a-109">For this task guide, I set up all the terms of payment under Accounts receivable.</span></span>  
+2. <span data-ttu-id="a665a-110">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="a665a-110">Click New.</span></span>
+    * <span data-ttu-id="a665a-111">Cree un día de pago si sus condiciones de pago requieren un día concreto de la semana (lunes, martes, etc.) o de una fecha específica del mes (5, 10, etc.).</span><span class="sxs-lookup"><span data-stu-id="a665a-111">Create a payment day if your terms of payment require a specific day of the week (Monday, Tuesday, etc) or a specific date of the month (5th, 10th, etc).</span></span>  
+3. <span data-ttu-id="a665a-112">En el campo de día de pago, especifique un identificador para el día de pago en el campo de día de pago.</span><span class="sxs-lookup"><span data-stu-id="a665a-112">In the Payment day field, enter an ID for the Payment day in the payment day field.</span></span>
+4. <span data-ttu-id="a665a-113">En el campo Descripción, especifique una descripción del día de pago.</span><span class="sxs-lookup"><span data-stu-id="a665a-113">In the Description field, enter a description of the payment day.</span></span>
+5. <span data-ttu-id="a665a-114">En el campo Semana/Mes, seleccione la semana o el mes.</span><span class="sxs-lookup"><span data-stu-id="a665a-114">In the Week/Month field, select either Week or Month.</span></span>
+    * <span data-ttu-id="a665a-115">Si desea especificar un día de la semana, por ejemplo, lunes, seleccione Semana.</span><span class="sxs-lookup"><span data-stu-id="a665a-115">If you want to enter a day of the week, such as Monday, select Week.</span></span> <span data-ttu-id="a665a-116">Si desea especificar una fecha del mes, por ejemplo, 10, seleccione Mes.</span><span class="sxs-lookup"><span data-stu-id="a665a-116">If you want to enter a date in the month, such as the 10th, select Month.</span></span> <span data-ttu-id="a665a-117">Para este ejemplo, seleccione Mes.</span><span class="sxs-lookup"><span data-stu-id="a665a-117">Select Month for this example.</span></span>  
+6. <span data-ttu-id="a665a-118">En el campo Día del mes, escriba una fecha.</span><span class="sxs-lookup"><span data-stu-id="a665a-118">In the Day of month field, enter a date.</span></span>
+    * <span data-ttu-id="a665a-119">La fecha se debe especificar como un número, por ejemplo, “10”, y no como “10°”.</span><span class="sxs-lookup"><span data-stu-id="a665a-119">The date should be entered as a number, such as '10', and not as '10th'.</span></span>  
+7. <span data-ttu-id="a665a-120">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="a665a-120">Click Save.</span></span>
+8. <span data-ttu-id="a665a-121">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="a665a-121">Close the page.</span></span>
+9. <span data-ttu-id="a665a-122">Vaya a Clientes > Configuración de pagos > Condiciones de pago.</span><span class="sxs-lookup"><span data-stu-id="a665a-122">Go to Accounts receivable > Payments setup > Terms of payment.</span></span>
+10. <span data-ttu-id="a665a-123">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="a665a-123">Click New.</span></span>
+    * <span data-ttu-id="a665a-124">Las condiciones de pago se usan para definir cómo se calcularán las fechas de vencimiento.</span><span class="sxs-lookup"><span data-stu-id="a665a-124">Terms of payment is used to define how the due dates will be calculated.</span></span> <span data-ttu-id="a665a-125">La configuración de fecha de descuento por pronto pago se define en una página independiente.</span><span class="sxs-lookup"><span data-stu-id="a665a-125">The cash discount date setup is defined in a separate page.</span></span>  
+11. <span data-ttu-id="a665a-126">En el campo Condiciones de pago, especifique un Id. en el campo de condiciones de pago.</span><span class="sxs-lookup"><span data-stu-id="a665a-126">In the Terms of payment field, enter an ID in the Terms of payment field.</span></span>
+12. <span data-ttu-id="a665a-127">En el campo Descripción, escriba una descripción.</span><span class="sxs-lookup"><span data-stu-id="a665a-127">In the Description field, enter a description.</span></span>
+13. <span data-ttu-id="a665a-128">Seleccione un método de pago, por ejemplo, Contra reembolso, Neto, Mes actual, etc.</span><span class="sxs-lookup"><span data-stu-id="a665a-128">Select a Payment method such as COD, Net, Current month, etc.</span></span>
+    * <span data-ttu-id="a665a-129">El método de pago se usa para definir el inicio de cómo se calculará la fecha de vencimiento.</span><span class="sxs-lookup"><span data-stu-id="a665a-129">The Payment method is used to define the start of how the due will be calculated.</span></span>  <span data-ttu-id="a665a-130">Por ejemplo, Neto se usa si la fecha de vencimiento siempre es un número fijo de meses o de días después de la fecha de la factura.</span><span class="sxs-lookup"><span data-stu-id="a665a-130">For example, Net is used if the due date is always a set number of months or days after the invoice date.</span></span> <span data-ttu-id="a665a-131">Se puede usar contra reembolso cuando se requiere el pago al facturar, por lo que no calcularía una fecha de vencimiento.</span><span class="sxs-lookup"><span data-stu-id="a665a-131">COD can be used to when payment is required upon invoice, so a due date wouldn't be calculated.</span></span> <span data-ttu-id="a665a-132">Seleccione el mes actual para esta guía de la tarea.</span><span class="sxs-lookup"><span data-stu-id="a665a-132">Select Current month for this task guide.</span></span>  
+14. <span data-ttu-id="a665a-133">Seleccione un día de pago si un día concreto de la semana o la fecha se incluye en el cálculo.</span><span class="sxs-lookup"><span data-stu-id="a665a-133">Select a Payment day if a specific day of the  week or date are included in the calculation.</span></span>
+    * <span data-ttu-id="a665a-134">En función de sus condiciones de pago, puede especificar una cantidad en meses o días.</span><span class="sxs-lookup"><span data-stu-id="a665a-134">Depending on your terms of payment, you may enter a quantity in Months or Days.</span></span> <span data-ttu-id="a665a-135">O puede usar Programación de pagos o Día de pago para “agregarlo” al final del método de pago.</span><span class="sxs-lookup"><span data-stu-id="a665a-135">Or you can use the Payment schedule or Payment day to 'add' to the end of the Payment method.</span></span> <span data-ttu-id="a665a-136">Si la fecha de vencimiento siempre es el día 10 del mes próximo, seleccione el día de pago 10.</span><span class="sxs-lookup"><span data-stu-id="a665a-136">If the due date will always be the 10th of the next month, select a Payment day of the 10th.</span></span>  
+15. <span data-ttu-id="a665a-137">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="a665a-137">Click Save.</span></span>
+16. <span data-ttu-id="a665a-138">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="a665a-138">Close the page.</span></span>
+17. <span data-ttu-id="a665a-139">Vaya a Clientes > Configuración de pagos > Descuentos por pronto pago.</span><span class="sxs-lookup"><span data-stu-id="a665a-139">Go to Accounts receivable > Payments setup > Cash discounts.</span></span>
+18. <span data-ttu-id="a665a-140">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="a665a-140">Click New.</span></span>
+    * <span data-ttu-id="a665a-141">Esta página se usa para definir cómo se calculará la fecha de descuento por pronto pago.</span><span class="sxs-lookup"><span data-stu-id="a665a-141">This page is used to define how the cash discount date will be calculated.</span></span>  
+19. <span data-ttu-id="a665a-142">En el campo del descuento por pronto pago, escriba una identificación en el campo del descuento por pronto pago.</span><span class="sxs-lookup"><span data-stu-id="a665a-142">In the Cash discount field, enter an ID in the Cash discount field.</span></span>
+20. <span data-ttu-id="a665a-143">En el campo Descripción, escriba una descripción.</span><span class="sxs-lookup"><span data-stu-id="a665a-143">In the Description field, enter a description.</span></span>
+21. <span data-ttu-id="a665a-144">Si un descuento por pronto pago con niveles está disponible, seleccione el siguiente código de descuento que es relevante después de este nuevo descuento por pronto pago.</span><span class="sxs-lookup"><span data-stu-id="a665a-144">If a tiered cash discount is available, select the Next discount code that is relevant after this new cash discount.</span></span>
+22. <span data-ttu-id="a665a-145">Especifique el número de días utilizados para calcular la fecha de descuento por pronto pago.</span><span class="sxs-lookup"><span data-stu-id="a665a-145">Enter the number of days used to calculate the cash dicount date.</span></span>
+    * <span data-ttu-id="a665a-146">Si ha seleccionado Neto, el número de días se agregará a la fecha de factura para calcular la fecha de descuento por pronto pago.</span><span class="sxs-lookup"><span data-stu-id="a665a-146">If Net principle is selected, the number of days will be added to the invoice date to calculate the cash discount date.</span></span>  
+23. <span data-ttu-id="a665a-147">Especifique el porcentaje del descuento por pronto pago.</span><span class="sxs-lookup"><span data-stu-id="a665a-147">Enter the percentage of the cash discount.</span></span>
+24. <span data-ttu-id="a665a-148">Especifique la cuenta principal en la que se registrará el descuento por pronto pago para las facturas de cliente.</span><span class="sxs-lookup"><span data-stu-id="a665a-148">Enter the main account to which the cash discount will post for customer invoices.</span></span>
+25. <span data-ttu-id="a665a-149">En el campo Cuentas de contrapartida para descuentos, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="a665a-149">In the Discount offset accounts field, select an option.</span></span>
+    * <span data-ttu-id="a665a-150">Si selecciona “Cuentas en las líneas de factura”, el descuento por pronto pago se registrará en la misma cuenta principal de activos/gastos en las líneas de la factura de proveedor.</span><span class="sxs-lookup"><span data-stu-id="a665a-150">If you select 'Accounts on the invoice lines', the cash discount will post to the same asset/expense main account on the lines of the vendor invoice.</span></span> <span data-ttu-id="a665a-151">Si selecciona “Usar cuenta principal para las facturas de proveedor” el descuento por pronto pago se registrará en la cuenta principal que se define en “Cuenta principal para las facturas de proveedor”.</span><span class="sxs-lookup"><span data-stu-id="a665a-151">If you select 'Use main account for vendor invoices', the cash discount will post to the main account you define in the 'Main account for vendor invoices'.</span></span> <span data-ttu-id="a665a-152">En este ejemplo, seleccione “Usar cuenta principal para las facturas de proveedor”.</span><span class="sxs-lookup"><span data-stu-id="a665a-152">For this example, select 'Use main account for vendor invoices.'</span></span>  
+26. <span data-ttu-id="a665a-153">Especifique la cuenta principal en la que se registrará el descuento por pronto pago para las facturas de proveedor.</span><span class="sxs-lookup"><span data-stu-id="a665a-153">Enter the main account to which the cash discount will post for vendor invoices.</span></span>
+27. <span data-ttu-id="a665a-154">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="a665a-154">Click Save.</span></span>
 
 

@@ -16,62 +16,62 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 5c569b6e58507e3b7707e4a56b22d2d60660f144
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 412a8c7acca06fc1be073019f91144e2a3f1c94b
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-order-from-a-sales-order"></a>Crear un pedido de compra desde un pedido de ventas
+# <a name="create-a-purchase-order-from-a-sales-order"></a><span data-ttu-id="e18c2-103">Crear un pedido de compra desde un pedido de ventas</span><span class="sxs-lookup"><span data-stu-id="e18c2-103">Create a purchase order from a sales order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo crear un pedido de compra basado en un pedido de ventas. Las cantidades del producto del pedido de compra se designan a continuación para satisfacer la demanda del pedido de ventas de origen. La satisfacción de la demanda de ventas de esta manera es una alternativa a un método más completo y optimizado de la planificación de requisitos de distribución. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.
+<span data-ttu-id="e18c2-104">Este procedimiento muestra cómo crear un pedido de compra basado en un pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="e18c2-104">This procedure shows you how to create a purchase order that is based on a sales order.</span></span> <span data-ttu-id="e18c2-105">Las cantidades del producto del pedido de compra se designan a continuación para satisfacer la demanda del pedido de ventas de origen.</span><span class="sxs-lookup"><span data-stu-id="e18c2-105">The product's quantities on the purchase order are then designated to fulfill the demand of the originating sales order.</span></span> <span data-ttu-id="e18c2-106">La satisfacción de la demanda de ventas de esta manera es una alternativa a un método más completo y optimizado de la planificación de requisitos de distribución.</span><span class="sxs-lookup"><span data-stu-id="e18c2-106">Fulfilling sales demand this way is an alternative to a more comprehensive and optimized method of Distribution Requirements Planning.</span></span> <span data-ttu-id="e18c2-107">Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.</span><span class="sxs-lookup"><span data-stu-id="e18c2-107">You can run this procedure in demo data company USMF or on your own data.</span></span>
 
 
-## <a name="create-a-purchase-order-from-a-sales-order"></a>Crear un pedido de compra desde un pedido de ventas
-1. Vaya a Ventas y marketing > Pedidos de ventas > Todos los pedidos de ventas.
-2. Haga clic en Nuevo.
-3. En el campo Cuenta de cliente, haga clic en el botón desplegable para abrir la búsqueda.
-4. En la lista, busque y seleccione el registro deseado.
-5. Haga clic en Aceptar
-6. En el campo Código de artículo, haga clic en el botón desplegable para abrir la búsqueda.
-7. En la lista, busque y seleccione el registro deseado.
-    * Si está usando USMF, podría seleccionar D0001.  
-8. En el campo Cantidad, especifique un número.
-9. Haga clic en Agregar línea.
-10. En el campo Código de artículo, haga clic en el botón desplegable para abrir la búsqueda.
-11. En la lista, busque y seleccione el registro deseado.
-    * Si está usando USMF, podría seleccionar T0020.  
-12. En la lista, haga clic en el vínculo de la fila seleccionada.
-13. En el campo Cantidad, especifique un número.
-14. Haga clic en Guardar.
-15. En el panel de acciones, haga clic en Pedido de ventas.
-16. Haga clic en Pedido de compra.
-    * La página Crear pedido de compra muestra todas las líneas de pedidos de ventas abiertas que se han copiado del pedido de ventas. Puede revisar los detalles del pedido y, si es necesario, modificar los detalles seleccionados como condiciones de precios y cantidad de compra antes de crear las compras.  
-17. Seleccione la opción Incluir todos.
-    * Si desea generar una pedidos de compra solo para un subconjunto de las líneas de pedidos de ventas, selecciónelas de manera individual.  
-    * El campo Cuenta de proveedor puede o no rellenarse con un número de proveedor. Si el proveedor predeterminado está configurado para el producto (en la cobertura de artículo asociada), este proveedor se copiará en la línea. De lo contrario, debe especificar un proveedor manualmente.  En esta guía, independientemente de si el campo Cuenta de proveedor ya contiene un valor o no, los siguientes pasos le indican que seleccione un nuevo proveedor que sea diferente para cada línea.  
-18. En el campo Cuenta de proveedor, haga clic en el botón desplegable para abrir la búsqueda.
-19. En la lista, busque y seleccione el registro deseado.
-20. En la lista, haga clic en el vínculo de la fila seleccionada.
-21. Seleccione la segunda línea del pedido.
-22. En el campo Cuenta de proveedor, haga clic en el botón desplegable para abrir la búsqueda.
-23. En la lista, busque y seleccione el registro deseado.
-24. En la lista, haga clic en el vínculo de la fila seleccionada.
-25. Haga clic en Validar.
-26. Haga clic en Aceptar
-    * El mensaje informa de que se han creado uno o varios pedidos de compra. El sistema genera un pedido de compra independiente para cada proveedor que ha especificado para las líneas de pedido de ventas. Esto significa que si el mismo proveedor va a proporcionar varias líneas de pedidos de ventas, se generará un único pedido de compra con varias líneas.  
+## <a name="create-a-purchase-order-from-a-sales-order"></a><span data-ttu-id="e18c2-108">Crear un pedido de compra desde un pedido de ventas</span><span class="sxs-lookup"><span data-stu-id="e18c2-108">Create a purchase order from a sales order</span></span>
+1. <span data-ttu-id="e18c2-109">Vaya a Ventas y marketing > Pedidos de ventas > Todos los pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="e18c2-109">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="e18c2-110">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="e18c2-110">Click New.</span></span>
+3. <span data-ttu-id="e18c2-111">En el campo Cuenta de cliente, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e18c2-111">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="e18c2-112">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="e18c2-112">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="e18c2-113">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="e18c2-113">Click OK.</span></span>
+6. <span data-ttu-id="e18c2-114">En el campo Código de artículo, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e18c2-114">In the Item number field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="e18c2-115">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="e18c2-115">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="e18c2-116">Si está usando USMF, podría seleccionar D0001.</span><span class="sxs-lookup"><span data-stu-id="e18c2-116">If you're using USMF, you could select D0001.</span></span>  
+8. <span data-ttu-id="e18c2-117">En el campo Cantidad, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="e18c2-117">In the Quantity field, enter a number.</span></span>
+9. <span data-ttu-id="e18c2-118">Haga clic en Agregar línea.</span><span class="sxs-lookup"><span data-stu-id="e18c2-118">Click Add line.</span></span>
+10. <span data-ttu-id="e18c2-119">En el campo Código de artículo, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e18c2-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="e18c2-120">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="e18c2-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="e18c2-121">Si está usando USMF, podría seleccionar T0020.</span><span class="sxs-lookup"><span data-stu-id="e18c2-121">If you're using USMF, you could select T0020.</span></span>  
+12. <span data-ttu-id="e18c2-122">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="e18c2-122">In the list, click the link in the selected row.</span></span>
+13. <span data-ttu-id="e18c2-123">En el campo Cantidad, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="e18c2-123">In the Quantity field, enter a number.</span></span>
+14. <span data-ttu-id="e18c2-124">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="e18c2-124">Click Save.</span></span>
+15. <span data-ttu-id="e18c2-125">En el panel de acciones, haga clic en Pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="e18c2-125">On the Action Pane, click Sales order.</span></span>
+16. <span data-ttu-id="e18c2-126">Haga clic en Pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="e18c2-126">Click Purchase order.</span></span>
+    * <span data-ttu-id="e18c2-127">La página Crear pedido de compra muestra todas las líneas de pedidos de ventas abiertas que se han copiado del pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="e18c2-127">The Create purchase order page lists all the open sales order lines which have been copied from the sales order.</span></span> <span data-ttu-id="e18c2-128">Puede revisar los detalles del pedido y, si es necesario, modificar los detalles seleccionados como condiciones de precios y cantidad de compra antes de crear las compras.</span><span class="sxs-lookup"><span data-stu-id="e18c2-128">You can review the order details, and if required, you can modify selected details such purchase quantity and pricing terms, before you create the purchases.</span></span>  
+17. <span data-ttu-id="e18c2-129">Seleccione la opción Incluir todos.</span><span class="sxs-lookup"><span data-stu-id="e18c2-129">Select the Include all option.</span></span>
+    * <span data-ttu-id="e18c2-130">Si desea generar una pedidos de compra solo para un subconjunto de las líneas de pedidos de ventas, selecciónelas de manera individual.</span><span class="sxs-lookup"><span data-stu-id="e18c2-130">If you want to generate purchase orders for only a subset of the sales order lines, select these individually.</span></span>  
+    * <span data-ttu-id="e18c2-131">El campo Cuenta de proveedor puede o no rellenarse con un número de proveedor.</span><span class="sxs-lookup"><span data-stu-id="e18c2-131">The Vendor account field may or may not already be populated with a vendor number.</span></span> <span data-ttu-id="e18c2-132">Si el proveedor predeterminado está configurado para el producto (en la cobertura de artículo asociada), este proveedor se copiará en la línea.</span><span class="sxs-lookup"><span data-stu-id="e18c2-132">If the default vendor is set up for the product (on the associated Item coverage) then this vendor will be copied  to the line.</span></span> <span data-ttu-id="e18c2-133">De lo contrario, debe especificar un proveedor manualmente.</span><span class="sxs-lookup"><span data-stu-id="e18c2-133">Otherwise, you must enter a vendor manually.</span></span>  <span data-ttu-id="e18c2-134">En esta guía, independientemente de si el campo Cuenta de proveedor ya contiene un valor o no, los siguientes pasos le indican que seleccione un nuevo proveedor que sea diferente para cada línea.</span><span class="sxs-lookup"><span data-stu-id="e18c2-134">In this guide, regardless of whether the Vendor account field already contains a value or not, the following steps instruct you to select a new vendor which is different for each line.</span></span>  
+18. <span data-ttu-id="e18c2-135">En el campo Cuenta de proveedor, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e18c2-135">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="e18c2-136">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="e18c2-136">In the list, find and select the desired record.</span></span>
+20. <span data-ttu-id="e18c2-137">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="e18c2-137">In the list, click the link in the selected row.</span></span>
+21. <span data-ttu-id="e18c2-138">Seleccione la segunda línea del pedido.</span><span class="sxs-lookup"><span data-stu-id="e18c2-138">Select the second order line.</span></span>
+22. <span data-ttu-id="e18c2-139">En el campo Cuenta de proveedor, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e18c2-139">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+23. <span data-ttu-id="e18c2-140">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="e18c2-140">In the list, find and select the desired record.</span></span>
+24. <span data-ttu-id="e18c2-141">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="e18c2-141">In the list, click the link in the selected row.</span></span>
+25. <span data-ttu-id="e18c2-142">Haga clic en Validar.</span><span class="sxs-lookup"><span data-stu-id="e18c2-142">Click Validate.</span></span>
+26. <span data-ttu-id="e18c2-143">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="e18c2-143">Click OK.</span></span>
+    * <span data-ttu-id="e18c2-144">El mensaje informa de que se han creado uno o varios pedidos de compra.</span><span class="sxs-lookup"><span data-stu-id="e18c2-144">The message informs you that one or more purchase orders have been created.</span></span> <span data-ttu-id="e18c2-145">El sistema genera un pedido de compra independiente para cada proveedor que ha especificado para las líneas de pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="e18c2-145">The system generates a separate purchase order for each vendor that you specified for the sales order lines.</span></span> <span data-ttu-id="e18c2-146">Esto significa que si el mismo proveedor va a proporcionar varias líneas de pedidos de ventas, se generará un único pedido de compra con varias líneas.</span><span class="sxs-lookup"><span data-stu-id="e18c2-146">This means that if several sales order lines are to be supplied by the same vendor, a single purchase order with multiple lines will be generated.</span></span>  
 
-## <a name="review-purchase-orders-created-from-sales-orders"></a>Revisar los pedidos de compra creados a partir de pedidos de ventas
-1. En el panel de acciones, haga clic en General.
-2. Haga clic en Pedidos relacionados.
-    * La página Pedidos relacionados muestra todos los pedidos que se crearon del pedido de ventas. En este ejemplo, hay dos pedidos de compra generados para dos proveedores diferentes respectivamente.  
-3. Haga clic para seguir el vínculo en el campo Pedido de compra.
-    * Cada línea de pedido de compra se asocia con la línea de pedido de ventas que condujo a la compra. La relación con el pedido de ventas se indica en la ficha Producto de la ficha desplegable Detalles de línea, en los campos Tipo de referencia, Número de referencia y Lote de referencia.  
-4. Expanda o contraiga la sección Detalles de línea.
-5. Haga clic en la ficha Producto.
-    * El Lote de referencia garantiza que los costes de la compra actual se carguen en el pedido de ventas vinculado.  
-    * Par navegar hasta el pedido de ventas de origen, abra el vínculo del campo Número de referencia.  
+## <a name="review-purchase-orders-created-from-sales-orders"></a><span data-ttu-id="e18c2-147">Revisar los pedidos de compra creados a partir de pedidos de ventas</span><span class="sxs-lookup"><span data-stu-id="e18c2-147">Review purchase orders created from sales orders</span></span>
+1. <span data-ttu-id="e18c2-148">En el panel de acciones, haga clic en General.</span><span class="sxs-lookup"><span data-stu-id="e18c2-148">On the Action Pane, click General.</span></span>
+2. <span data-ttu-id="e18c2-149">Haga clic en Pedidos relacionados.</span><span class="sxs-lookup"><span data-stu-id="e18c2-149">Click Related orders.</span></span>
+    * <span data-ttu-id="e18c2-150">La página Pedidos relacionados muestra todos los pedidos que se crearon del pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="e18c2-150">The Related orders page lists all the orders that were created from the sales order.</span></span> <span data-ttu-id="e18c2-151">En este ejemplo, hay dos pedidos de compra generados para dos proveedores diferentes respectivamente.</span><span class="sxs-lookup"><span data-stu-id="e18c2-151">In this example, there are two purchase orders generated for two different vendors respectively.</span></span>  
+3. <span data-ttu-id="e18c2-152">Haga clic para seguir el vínculo en el campo Pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="e18c2-152">Click to follow the link in the Purchase order field.</span></span>
+    * <span data-ttu-id="e18c2-153">Cada línea de pedido de compra se asocia con la línea de pedido de ventas que condujo a la compra.</span><span class="sxs-lookup"><span data-stu-id="e18c2-153">Each purchase order line is associated with the sales order line that led to the purchase.</span></span> <span data-ttu-id="e18c2-154">La relación con el pedido de ventas se indica en la ficha Producto de la ficha desplegable Detalles de línea, en los campos Tipo de referencia, Número de referencia y Lote de referencia.</span><span class="sxs-lookup"><span data-stu-id="e18c2-154">The relation to the sales order is indicated on the Product tab in the Line details FastTab, in the Reference type, Reference number, and Reference lot fields.</span></span>  
+4. <span data-ttu-id="e18c2-155">Expanda o contraiga la sección Detalles de línea.</span><span class="sxs-lookup"><span data-stu-id="e18c2-155">Expand or collapse the Line details section.</span></span>
+5. <span data-ttu-id="e18c2-156">Haga clic en la ficha Producto.</span><span class="sxs-lookup"><span data-stu-id="e18c2-156">Click the Product tab.</span></span>
+    * <span data-ttu-id="e18c2-157">El Lote de referencia garantiza que los costes de la compra actual se carguen en el pedido de ventas vinculado.</span><span class="sxs-lookup"><span data-stu-id="e18c2-157">The Reference lot guarantees that the costs from the current purchase are charged on the attached sales order.</span></span>  
+    * <span data-ttu-id="e18c2-158">Par navegar hasta el pedido de ventas de origen, abra el vínculo del campo Número de referencia.</span><span class="sxs-lookup"><span data-stu-id="e18c2-158">You can navigate to the originating sales order by opening the link in the Reference number field.</span></span>  
 
 

@@ -20,37 +20,37 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d45cc1e69696fbc22078d0f1cd7f089fd322b440
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 04f61141497570577520fe9146fbd1464f31062e
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="master-planning-and-multisite-functionality"></a>Planificación maestra y funcionalidad multisitio
+# <a name="master-planning-and-multisite-functionality"></a><span data-ttu-id="41e43-103">Planificación maestra y funcionalidad multisitio</span><span class="sxs-lookup"><span data-stu-id="41e43-103">Master planning and multisite functionality</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-La planificación maestra tiene en cuenta la configuración del sitio y las dimensiones de inventario de almacén. 
+<span data-ttu-id="41e43-104">La planificación maestra tiene en cuenta la configuración del sitio y las dimensiones de inventario de almacén.</span><span class="sxs-lookup"><span data-stu-id="41e43-104">Master planning takes the settings of the site and warehouse inventory dimensions into account.</span></span> 
 
-La dimensión de sitio es obligatoria, y también puede establecer la dimensión de almacén como obligatoria.
+<span data-ttu-id="41e43-105">La dimensión de sitio es obligatoria, y también puede establecer la dimensión de almacén como obligatoria.</span><span class="sxs-lookup"><span data-stu-id="41e43-105">The site dimension is mandatory, and you can set the warehouse dimension to be mandatory.</span></span>
 
-Si una dimensión es obligatoria, se debe especificar un valor de dimensión en todas las transacciones de inventario. Por lo tanto, durante la planificación maestra, se conocen el sitio y el almacén para la demanda inicial. La dimensión de sitio también es coherente de modo que, durante la expansión de la demanda de bajo nivel, el valor del sitio no cambia.
+<span data-ttu-id="41e43-106">Si una dimensión es obligatoria, se debe especificar un valor de dimensión en todas las transacciones de inventario.</span><span class="sxs-lookup"><span data-stu-id="41e43-106">When a dimension is mandatory, a dimension value must be entered on all inventory transactions.</span></span> <span data-ttu-id="41e43-107">Por lo tanto, durante la planificación maestra, se conocen el sitio y el almacén para la demanda inicial.</span><span class="sxs-lookup"><span data-stu-id="41e43-107">Therefore, during master planning, the site and the warehouse for the initial demand are known.</span></span> <span data-ttu-id="41e43-108">La dimensión de sitio también es coherente de modo que, durante la expansión de la demanda de bajo nivel, el valor del sitio no cambia.</span><span class="sxs-lookup"><span data-stu-id="41e43-108">The site dimension is also consistent so that during the explosion of lower-level demand, the site value does not change.</span></span>
 
-Si el almacén no se configura como obligatorio, es posible que no se conozca a partir de la demanda inicial. El sistema de planificación deberá determinar qué almacén utilizar en función de la configuración definiaa para el artículo, los almacenes individuales y los detalles de la línea de pedido.
+<span data-ttu-id="41e43-109">Si el almacén no se configura como obligatorio, es posible que no se conozca a partir de la demanda inicial.</span><span class="sxs-lookup"><span data-stu-id="41e43-109">When the warehouse is not set to mandatory, it may not be known from the initial demand.</span></span> <span data-ttu-id="41e43-110">El sistema de planificación deberá determinar qué almacén utilizar en función de la configuración definiaa para el artículo, los almacenes individuales y los detalles de la línea de pedido.</span><span class="sxs-lookup"><span data-stu-id="41e43-110">The planning engine must determine which warehouse to use based on the settings that are defined for the item, individual warehouses, and the details of the order line.</span></span>
 
-En los siguientes temas se describe el funcionamiento del motor de planificación, cuando hay diferentes configuraciones definidas, para determinar el almacén que hay que utilizar.
+<span data-ttu-id="41e43-111">En los siguientes temas se describe el funcionamiento del motor de planificación, cuando hay diferentes configuraciones definidas, para determinar el almacén que hay que utilizar.</span><span class="sxs-lookup"><span data-stu-id="41e43-111">The following topics describe how the planning engine works, when different settings are defined, to determine the warehouse to use.</span></span>
 
-[Planificación maestra: cobertura de sitios y almacenes, almacén obligatorio](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="41e43-112">Planificación maestra: cobertura de sitios y almacenes, almacén obligatorio</span><span class="sxs-lookup"><span data-stu-id="41e43-112">Master planning - site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Planificación maestra: cobertura de sitios y almacenes, almacén obligatorio](master-plan-site-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="41e43-113">Planificación maestra: cobertura de sitios y almacenes, almacén obligatorio</span><span class="sxs-lookup"><span data-stu-id="41e43-113">Master planning - site coverage, warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
 
-[Planificación maestra: cobertura de sitios y almacenes, almacén no obligatorio](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="41e43-114">Planificación maestra: cobertura de sitios y almacenes, almacén no obligatorio</span><span class="sxs-lookup"><span data-stu-id="41e43-114">Master planning - site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[Planificación maestra: cobertura de sitios y almacenes, almacén no obligatorio](master-plan-site-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="41e43-115">Planificación maestra: cobertura de sitios y almacenes, almacén no obligatorio</span><span class="sxs-lookup"><span data-stu-id="41e43-115">Master planning - site coverage, warehouse not mandatory</span></span>](master-plan-site-coverage-warehouse-not-mandatory.md)
 
-[Planificación maestra: cómo se establece la versión de la lista de materiales](master-plan-bom-version-determined.md)
+[<span data-ttu-id="41e43-116">Planificación maestra: cómo se establece la versión de la lista de materiales</span><span class="sxs-lookup"><span data-stu-id="41e43-116">Master planning - How the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
 
 
 

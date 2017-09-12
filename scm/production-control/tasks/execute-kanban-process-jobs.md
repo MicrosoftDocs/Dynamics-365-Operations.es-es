@@ -17,43 +17,43 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 50b5048a5f9277c47444fa69d2c8cc8e36ba7dcd
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 752eab976f740606154d416678ba2381641697df
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="execute-kanban-process-jobs"></a>Ejecutar trabajos de proceso kanban
+# <a name="execute-kanban-process-jobs"></a><span data-ttu-id="01b6a-103">Ejecutar trabajos de proceso kanban</span><span class="sxs-lookup"><span data-stu-id="01b6a-103">Execute kanban process jobs</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento se centra en la ejecución de trabajos de procesos kanban. El primer trabajo se completa con la cantidad prevista y no tiene errores. El segundo trabajo se completa con errores. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento va destinado al operario de la máquina.
+<span data-ttu-id="01b6a-104">Este procedimiento se centra en la ejecución de trabajos de procesos kanban.</span><span class="sxs-lookup"><span data-stu-id="01b6a-104">This procedure focuses on executing kanban process jobs.</span></span> <span data-ttu-id="01b6a-105">El primer trabajo se completa con la cantidad prevista y no tiene errores.</span><span class="sxs-lookup"><span data-stu-id="01b6a-105">The first job is completed with the expected quantity and has no errors.</span></span> <span data-ttu-id="01b6a-106">El segundo trabajo se completa con errores.</span><span class="sxs-lookup"><span data-stu-id="01b6a-106">The second job is completed with errors.</span></span> <span data-ttu-id="01b6a-107">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="01b6a-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="01b6a-108">Este procedimiento va destinado al operario de la máquina.</span><span class="sxs-lookup"><span data-stu-id="01b6a-108">This procedure is intended for the machine operator.</span></span>
 
 
-## <a name="select-a-kanban-job"></a>Seleccionar un trabajo kanban
-1. Vaya a Control de producción > Kanban > Tablero kanban para trabajos de proceso.
-2. En el campo Celda de trabajo, haga clic en el botón desplegable para abrir la búsqueda.
-3. Haga clic en la fila con el grupo de recursos 1250. Esto filtra la lista Trabajos para mostrar únicamente los trabajos para la celda de trabajo 1250.
-    * Marque la fila que tiene el estado de trabajo Planificado.  
+## <a name="select-a-kanban-job"></a><span data-ttu-id="01b6a-109">Seleccionar un trabajo kanban</span><span class="sxs-lookup"><span data-stu-id="01b6a-109">Select a kanban job</span></span>
+1. <span data-ttu-id="01b6a-110">Vaya a Control de producción > Kanban > Tablero kanban para trabajos de proceso.</span><span class="sxs-lookup"><span data-stu-id="01b6a-110">Go to Production control > Kanban > Kanban board for process jobs.</span></span>
+2. <span data-ttu-id="01b6a-111">En el campo Celda de trabajo, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="01b6a-111">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="01b6a-112">Haga clic en la fila con el grupo de recursos 1250.</span><span class="sxs-lookup"><span data-stu-id="01b6a-112">Click the row with resource group 1250.</span></span> <span data-ttu-id="01b6a-113">Esto filtra la lista Trabajos para mostrar únicamente los trabajos para la celda de trabajo 1250.</span><span class="sxs-lookup"><span data-stu-id="01b6a-113">This filters the Jobs list to display only the jobs for work cell 1250.</span></span>
+    * <span data-ttu-id="01b6a-114">Marque la fila que tiene el estado de trabajo Planificado.</span><span class="sxs-lookup"><span data-stu-id="01b6a-114">Mark the row that has the Planned job status.</span></span>  
 
-## <a name="complete-a-job-with-expected-quantity"></a>Completar un trabajo con cantidad prevista
-1. Expanda o contraiga la sección Detalles.
-    * En esta sección se muestra información importante sobre el número de la tarjeta, el número de artículo, la cantidad solicitada y el nombre de la actividad.  
-2. Expanda o contraiga la sección Instrucciones de producción.
-    * En esta sección se muestran las instrucciones de producción para la actividad. Las instrucciones pueden ser texto, imágenes, dibujos y otros documentos.  
-3. Haga clic en Inicio.
-    * Seleccione un trabajo que no esté completado. Utilice iconos de estado en el campo Estado del trabajo para ver el estado del trabajo.      
-4. Haga clic en Completar.
-    * El trabajo se completa con la calidad prevista.  
+## <a name="complete-a-job-with-expected-quantity"></a><span data-ttu-id="01b6a-115">Completar un trabajo con cantidad prevista</span><span class="sxs-lookup"><span data-stu-id="01b6a-115">Complete a job with expected quantity</span></span>
+1. <span data-ttu-id="01b6a-116">Expanda o contraiga la sección Detalles.</span><span class="sxs-lookup"><span data-stu-id="01b6a-116">Expand or collapse the Details section.</span></span>
+    * <span data-ttu-id="01b6a-117">En esta sección se muestra información importante sobre el número de la tarjeta, el número de artículo, la cantidad solicitada y el nombre de la actividad.</span><span class="sxs-lookup"><span data-stu-id="01b6a-117">This section displays important information about card number, item number, quantity ordered, and activity name.</span></span>  
+2. <span data-ttu-id="01b6a-118">Expanda o contraiga la sección Instrucciones de producción.</span><span class="sxs-lookup"><span data-stu-id="01b6a-118">Expand or collapse the Production instructions section.</span></span>
+    * <span data-ttu-id="01b6a-119">En esta sección se muestran las instrucciones de producción para la actividad.</span><span class="sxs-lookup"><span data-stu-id="01b6a-119">This section displays production instructions for the activity.</span></span> <span data-ttu-id="01b6a-120">Las instrucciones pueden ser texto, imágenes, dibujos y otros documentos.</span><span class="sxs-lookup"><span data-stu-id="01b6a-120">The instructions can be text, pictures, drawings, and other documents.</span></span>  
+3. <span data-ttu-id="01b6a-121">Haga clic en Inicio.</span><span class="sxs-lookup"><span data-stu-id="01b6a-121">Click Start.</span></span>
+    * <span data-ttu-id="01b6a-122">Seleccione un trabajo que no esté completado.</span><span class="sxs-lookup"><span data-stu-id="01b6a-122">Select a job that is not completed.</span></span> <span data-ttu-id="01b6a-123">Utilice iconos de estado en el campo Estado del trabajo para ver el estado del trabajo.</span><span class="sxs-lookup"><span data-stu-id="01b6a-123">Use status icons in the Job status field to view job status.</span></span>      
+4. <span data-ttu-id="01b6a-124">Haga clic en Completar.</span><span class="sxs-lookup"><span data-stu-id="01b6a-124">Click Complete.</span></span>
+    * <span data-ttu-id="01b6a-125">El trabajo se completa con la calidad prevista.</span><span class="sxs-lookup"><span data-stu-id="01b6a-125">The job is completed with the expected quality.</span></span>  
 
-## <a name="complete-a-job-with-errors"></a>Completar un trabajo con errores
-1. Haga clic en Inicio.
-    * Cuando se complete un trabajo, el siguiente trabajo de la lista se selecciona automáticamente. Este es el motivo por el cual no es necesario seleccionar un trabajo antes de hacer clic en Inicio.  
-2. En el panel de acciones, haga clic en Fabricación.
-3. Haga clic en Completar (detalles).
-4. En la lista, marque la fila seleccionada.
-5. En el campo Cantidad con errores, especifique un número.
-6. En el campo Cantidad sin errores, especifique un número.
-7. Haga clic en Aceptar
+## <a name="complete-a-job-with-errors"></a><span data-ttu-id="01b6a-126">Completar un trabajo con errores</span><span class="sxs-lookup"><span data-stu-id="01b6a-126">Complete a job with errors</span></span>
+1. <span data-ttu-id="01b6a-127">Haga clic en Inicio.</span><span class="sxs-lookup"><span data-stu-id="01b6a-127">Click Start.</span></span>
+    * <span data-ttu-id="01b6a-128">Cuando se complete un trabajo, el siguiente trabajo de la lista se selecciona automáticamente.</span><span class="sxs-lookup"><span data-stu-id="01b6a-128">When a job is completed, the next job on the list is selected automatically.</span></span> <span data-ttu-id="01b6a-129">Este es el motivo por el cual no es necesario seleccionar un trabajo antes de hacer clic en Inicio.</span><span class="sxs-lookup"><span data-stu-id="01b6a-129">This is why you don't need to select a job before you click Start.</span></span>  
+2. <span data-ttu-id="01b6a-130">En el panel de acciones, haga clic en Fabricación.</span><span class="sxs-lookup"><span data-stu-id="01b6a-130">On the Action Pane, click Manufacture.</span></span>
+3. <span data-ttu-id="01b6a-131">Haga clic en Completar (detalles).</span><span class="sxs-lookup"><span data-stu-id="01b6a-131">Click Complete (details).</span></span>
+4. <span data-ttu-id="01b6a-132">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="01b6a-132">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="01b6a-133">En el campo Cantidad con errores, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="01b6a-133">In the Error quantity field, enter a number.</span></span>
+6. <span data-ttu-id="01b6a-134">En el campo Cantidad sin errores, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="01b6a-134">In the Good quantity field, enter a number.</span></span>
+7. <span data-ttu-id="01b6a-135">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="01b6a-135">Click OK.</span></span>
 
 

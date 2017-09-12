@@ -16,46 +16,46 @@ ms.custom: 213984
 ms.assetid: 44cac104-c36c-4371-a992-9178b3fd65e9
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 701a8b2b94fecedcddada46ad6438448254c8e77
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 84ae84a567e5f45bc0b20538d04917c6feb21336
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="delivery-schedules"></a>Programaciones de entrega
+# <a name="delivery-schedules"></a><span data-ttu-id="9730d-103">Programaciones de entrega</span><span class="sxs-lookup"><span data-stu-id="9730d-103">Delivery schedules</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Las programaciones de entrega le permiten realizar el seguimiento de cantidad de la línea de pedido cuando está usando entregas para un pedido de ventas único, un presupuesto de ventas o un pedido de compra.
+<span data-ttu-id="9730d-104">Las programaciones de entrega le permiten realizar el seguimiento de cantidad de la línea de pedido cuando está usando entregas para un pedido de ventas único, un presupuesto de ventas o un pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="9730d-104">Delivery schedules allow you to track order line quantity when you are using multiple deliveries for a single sales order, sales quotation, or purchase order.</span></span>
 
-Use una programación de entrega cuando la cantidad total de una línea de pedido o presupuesto debe entregarse en varios envíos. Los envíos individuales se representan por medio las líneas de entrega. Dos o más líneas de entrega constituyen una programación de entrega. Las líneas de entrega pueden tener diferentes fechas de entrega, cantidades, modos de entrega y dimensiones de almacenamiento, como sitio y almacén.  
+<span data-ttu-id="9730d-105">Use una programación de entrega cuando la cantidad total de una línea de pedido o presupuesto debe entregarse en varios envíos.</span><span class="sxs-lookup"><span data-stu-id="9730d-105">Use a delivery schedule when the total quantity on an order or quotation line must be delivered in multiple shipments.</span></span> <span data-ttu-id="9730d-106">Los envíos individuales se representan por medio las líneas de entrega.</span><span class="sxs-lookup"><span data-stu-id="9730d-106">Individual shipments are represented by delivery lines.</span></span> <span data-ttu-id="9730d-107">Dos o más líneas de entrega constituyen una programación de entrega.</span><span class="sxs-lookup"><span data-stu-id="9730d-107">Two or more delivery lines make up one delivery schedule.</span></span> <span data-ttu-id="9730d-108">Las líneas de entrega pueden tener diferentes fechas de entrega, cantidades, modos de entrega y dimensiones de almacenamiento, como sitio y almacén.</span><span class="sxs-lookup"><span data-stu-id="9730d-108">The delivery lines can have different delivery dates, quantities, modes of delivery, and storage dimensions, such as site and warehouse.</span></span>  
 
-**Ejemplo de una programación de entrega**
+<span data-ttu-id="9730d-109">**Ejemplo de una programación de entrega**</span><span class="sxs-lookup"><span data-stu-id="9730d-109">**Example of a delivery schedule**</span></span>
 
 |                                   |                                          |
 |-----------------------------------|------------------------------------------|
-| Pedido total (línea de pedido original) | 600 sillas                               |
-| Programación de entrega solicitada       | 100 sillas por mes                     |
-| Plazo de entrega solicitado | 6 meses, el primer día de cada mes |
+| <span data-ttu-id="9730d-110">Pedido total (línea de pedido original)</span><span class="sxs-lookup"><span data-stu-id="9730d-110">Total order (original order line)</span></span> | <span data-ttu-id="9730d-111">600 sillas</span><span class="sxs-lookup"><span data-stu-id="9730d-111">600 chairs</span></span>                               |
+| <span data-ttu-id="9730d-112">Programación de entrega solicitada</span><span class="sxs-lookup"><span data-stu-id="9730d-112">Requested delivery schedule</span></span>       | <span data-ttu-id="9730d-113">100 sillas por mes</span><span class="sxs-lookup"><span data-stu-id="9730d-113">100 chairs per month</span></span>                     |
+| <span data-ttu-id="9730d-114">Plazo de entrega solicitado</span><span class="sxs-lookup"><span data-stu-id="9730d-114">Requested time frame for delivery</span></span> | <span data-ttu-id="9730d-115">6 meses, el primer día de cada mes</span><span class="sxs-lookup"><span data-stu-id="9730d-115">6 months, on the first day of each month</span></span> |
 
-En este escenario, el cliente solicita una entrega de 600 sillas en lotes de 100 sillas durante un período de seis meses. Para realizar un seguimiento de los requisitos de entrega, se crea una programación de entrega. En la página de programación de entrega, cree seis líneas de entrega distintas. Cada línea de entrega contiene 100 sillas e indica la fecha de entrega de esas 100 sillas. En este caso, cada línea se compensará el primer día del mes durante seis meses consecutivos.  
+<span data-ttu-id="9730d-116">En este escenario, el cliente solicita una entrega de 600 sillas en lotes de 100 sillas durante un período de seis meses.</span><span class="sxs-lookup"><span data-stu-id="9730d-116">In this scenario, the customer requests delivery of 600 chairs in batches of 100 chairs over a period of six months.</span></span> <span data-ttu-id="9730d-117">Para realizar un seguimiento de los requisitos de entrega, se crea una programación de entrega.</span><span class="sxs-lookup"><span data-stu-id="9730d-117">To keep track of the delivery requirements, you create a delivery schedule.</span></span> <span data-ttu-id="9730d-118">En la página de programación de entrega, cree seis líneas de entrega distintas.</span><span class="sxs-lookup"><span data-stu-id="9730d-118">On the delivery schedule page, you create six separate delivery lines.</span></span> <span data-ttu-id="9730d-119">Cada línea de entrega contiene 100 sillas e indica la fecha de entrega de esas 100 sillas.</span><span class="sxs-lookup"><span data-stu-id="9730d-119">Each delivery line contains 100 chairs and indicates the delivery date for those 100 chairs.</span></span> <span data-ttu-id="9730d-120">En este caso, cada línea se compensará el primer día del mes durante seis meses consecutivos.</span><span class="sxs-lookup"><span data-stu-id="9730d-120">In this case, each line is offset on the first of the month for six consecutive months.</span></span>  
 
-Una vez que haya creado la programación de entrega, el tipo de la línea de pedido original se convierte automáticamente en **Línea de pedido con varias entregas**. Una línea de este tipo se denomina línea comercial y está marcada mediante un icono. La línea de entrega está marcada con otro icono. Si cambia una cantidad en una línea de entrega, la línea comercial se actualiza a la cantidad total de la programación de entrega. Si un acuerdo comercial ha definido un descuento total para el pedido, la programación de entrega garantiza que se pueda aplicar al pedido el descuento de pedido total, incluso cuando el pedido se divide en entregas distintas.  
+<span data-ttu-id="9730d-121">Una vez que haya creado la programación de entrega, el tipo de la línea de pedido original se convierte automáticamente en **Línea de pedido con varias entregas**.</span><span class="sxs-lookup"><span data-stu-id="9730d-121">When you create a delivery schedule, the type of the original order line is automatically changed to **Order line with multiple deliveries**.</span></span> <span data-ttu-id="9730d-122">Una línea de este tipo se denomina línea comercial y está marcada mediante un icono.</span><span class="sxs-lookup"><span data-stu-id="9730d-122">A line of this type is referred to as a commercial line and is marked by an icon.</span></span> <span data-ttu-id="9730d-123">La línea de entrega está marcada con otro icono.</span><span class="sxs-lookup"><span data-stu-id="9730d-123">The delivery line is marked by a different icon.</span></span> <span data-ttu-id="9730d-124">Si cambia una cantidad en una línea de entrega, la línea comercial se actualiza a la cantidad total de la programación de entrega.</span><span class="sxs-lookup"><span data-stu-id="9730d-124">If you change a quantity on a delivery line, the commercial line is updated to the total quantity of the delivery schedule.</span></span> <span data-ttu-id="9730d-125">Si un acuerdo comercial ha definido un descuento total para el pedido, la programación de entrega garantiza que se pueda aplicar al pedido el descuento de pedido total, incluso cuando el pedido se divide en entregas distintas.</span><span class="sxs-lookup"><span data-stu-id="9730d-125">If a trade agreement has defined a total discount for the order, the delivery schedule ensures that your order is eligible for the total order discount, even when the order is split into separate deliveries.</span></span>  
 
-Los pedidos que tengan una programación de entrega se procesan con las líneas de entrega. El proceso incluye el registro de albaranes, recepciones de producto y facturación.  
+<span data-ttu-id="9730d-126">Los pedidos que tengan una programación de entrega se procesan con las líneas de entrega.</span><span class="sxs-lookup"><span data-stu-id="9730d-126">Orders that have a delivery schedule are processed against the delivery lines.</span></span> <span data-ttu-id="9730d-127">El proceso incluye el registro de albaranes, recepciones de producto y facturación.</span><span class="sxs-lookup"><span data-stu-id="9730d-127">Processing includes the posting of packing slips, product receipts, and invoicing.</span></span>  
 
-Las impresiones de documentos de pedidos y de presupuestos con una programación de entrega solo muestran las líneas de entrega. No muestran las líneas originales (líneas comerciales). **Nota:** Además, solo se muestran las líneas de entrega cuando realiza estas acciones:
+<span data-ttu-id="9730d-128">Las impresiones de documentos de pedidos y de presupuestos con una programación de entrega solo muestran las líneas de entrega.</span><span class="sxs-lookup"><span data-stu-id="9730d-128">Document printouts of orders and quotations that have a delivery schedule show only the delivery lines.</span></span> <span data-ttu-id="9730d-129">No muestran las líneas originales (líneas comerciales).</span><span class="sxs-lookup"><span data-stu-id="9730d-129">They don't show the original lines (commercial lines).</span></span> <span data-ttu-id="9730d-130">**Nota:** Además, solo se muestran las líneas de entrega cuando realiza estas acciones:</span><span class="sxs-lookup"><span data-stu-id="9730d-130">**Note:** In addition, only the delivery lines are shown when you perform these actions:</span></span>
 
--   Registrar
--   Copiar páginas
--   Examinar informes y páginas de lista
+-   <span data-ttu-id="9730d-131">Registrar</span><span class="sxs-lookup"><span data-stu-id="9730d-131">Post</span></span>
+-   <span data-ttu-id="9730d-132">Copiar páginas</span><span class="sxs-lookup"><span data-stu-id="9730d-132">Copy pages</span></span>
+-   <span data-ttu-id="9730d-133">Examinar informes y páginas de lista</span><span class="sxs-lookup"><span data-stu-id="9730d-133">Browse list pages and reports</span></span>
 
-Cuando confirma los presupuestos de ventas, los pedidos de ventas resultantes muestran la programación de entrega completa, incluso las líneas de pedido con múltiples entregas. Además, la programación de entrega completa se muestra en todas las páginas principales, como pedidos de ventas, presupuestos de ventas y pedidos de compra.
+<span data-ttu-id="9730d-134">Cuando confirma los presupuestos de ventas, los pedidos de ventas resultantes muestran la programación de entrega completa, incluso las líneas de pedido con múltiples entregas.</span><span class="sxs-lookup"><span data-stu-id="9730d-134">When you confirm sales quotations, the resulting sales orders show the whole delivery schedule, even the order lines that have multiple deliveries.</span></span> <span data-ttu-id="9730d-135">Además, la programación de entrega completa se muestra en todas las páginas principales, como pedidos de ventas, presupuestos de ventas y pedidos de compra.</span><span class="sxs-lookup"><span data-stu-id="9730d-135">In addition, the whole delivery schedule is shown on all the major pages, such as sales orders, sales quotations, and purchase orders.</span></span>
 
 
 

@@ -16,29 +16,29 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: c4dcc0a086095029aec24eda0b89a7f6a2063bf3
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3a6aa136018e586fd66e77c0f2af3a9f321f822f
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="view-posted-sales-tax-transactions"></a>Ver transacciones de impuestos registradas
+# <a name="view-posted-sales-tax-transactions"></a><span data-ttu-id="4e60e-103">Ver transacciones de impuestos registradas</span><span class="sxs-lookup"><span data-stu-id="4e60e-103">View posted sales tax transactions</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Puede ver las transacciones de impuestos registradas desde varias páginas en función de lo que necesite ver. Esta tarea usa la empresa de demostración USMF.
+<span data-ttu-id="4e60e-104">Puede ver las transacciones de impuestos registradas desde varias páginas en función de lo que necesite ver.</span><span class="sxs-lookup"><span data-stu-id="4e60e-104">You can view posted sales tax transactions from various page depending on what you need to view.</span></span> <span data-ttu-id="4e60e-105">Esta tarea usa la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="4e60e-105">This task uses the USMF demo company.</span></span>
 
-1. Vaya a Impuestos > Consultas e informes > Consultas de impuestos > Impuestos registrados.
-2. Haga clic en Mostrar filtros.
-3. Cierre la página.
-4. Vaya a Impuestos > Impuestos indirectos > Impuestos > Períodos de liquidación de impuestos.
-5. Expanda la sección Intervalos de período.
-6. Seleccione el intervalo que le interese.
-7. Visualice las transacciones de impuestos registradas para el intervalo del período de liquidación seleccionado.
-8. También puede filtrar la lista de transacciones de impuestos registradas.
-9. Cierre la página.
-10. Vaya a Impuestos > Impuestos indirectos > Impuestos > Códigos de impuestos.
-11. En el panel de acciones, haga clic en Código de impuestos.
-12. Haga clic en Impuestos registrados.
+1. <span data-ttu-id="4e60e-106">Vaya a Impuestos > Consultas e informes > Consultas de impuestos > Impuestos registrados.</span><span class="sxs-lookup"><span data-stu-id="4e60e-106">Go to Tax > Inquiries and reports > Sales tax inquiries > Posted sales tax.</span></span>
+2. <span data-ttu-id="4e60e-107">Haga clic en Mostrar filtros.</span><span class="sxs-lookup"><span data-stu-id="4e60e-107">Click Show filters.</span></span>
+3. <span data-ttu-id="4e60e-108">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="4e60e-108">Close the page.</span></span>
+4. <span data-ttu-id="4e60e-109">Vaya a Impuestos > Impuestos indirectos > Impuestos > Períodos de liquidación de impuestos.</span><span class="sxs-lookup"><span data-stu-id="4e60e-109">Go to Tax > Indirect taxes > Sales tax > Sales tax settlement periods.</span></span>
+5. <span data-ttu-id="4e60e-110">Expanda la sección Intervalos de período.</span><span class="sxs-lookup"><span data-stu-id="4e60e-110">Expand the Period intervals section.</span></span>
+6. <span data-ttu-id="4e60e-111">Seleccione el intervalo que le interese.</span><span class="sxs-lookup"><span data-stu-id="4e60e-111">Select the interval you are interested in.</span></span>
+7. <span data-ttu-id="4e60e-112">Visualice las transacciones de impuestos registradas para el intervalo del período de liquidación seleccionado.</span><span class="sxs-lookup"><span data-stu-id="4e60e-112">Display posted sales tax transactions for the selected settlement period interval.</span></span>
+8. <span data-ttu-id="4e60e-113">También puede filtrar la lista de transacciones de impuestos registradas.</span><span class="sxs-lookup"><span data-stu-id="4e60e-113">You can further filter the list of posted sales tax transactions.</span></span>
+9. <span data-ttu-id="4e60e-114">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="4e60e-114">Close the page.</span></span>
+10. <span data-ttu-id="4e60e-115">Vaya a Impuestos > Impuestos indirectos > Impuestos > Códigos de impuestos.</span><span class="sxs-lookup"><span data-stu-id="4e60e-115">Go to Tax > Indirect taxes > Sales tax > Sales tax codes.</span></span>
+11. <span data-ttu-id="4e60e-116">En el panel de acciones, haga clic en Código de impuestos.</span><span class="sxs-lookup"><span data-stu-id="4e60e-116">On the Action Pane, click Sales tax code.</span></span>
+12. <span data-ttu-id="4e60e-117">Haga clic en Impuestos registrados.</span><span class="sxs-lookup"><span data-stu-id="4e60e-117">Click Posted sales tax.</span></span>
 
 

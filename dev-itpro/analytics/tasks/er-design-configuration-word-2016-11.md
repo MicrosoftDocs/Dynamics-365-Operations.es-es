@@ -16,87 +16,87 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 5adf1d6e6314ac7ea4084cfb3fcde8b83168c7ae
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 950133ad73fd609938a64c3df16c34439ab860c1
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Diseñar una configuración para generar informes con formato Microsoft Word para informes electrónicos (ER)
+# <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a><span data-ttu-id="b4abc-103">Diseñar una configuración para generar informes con formato Microsoft Word para informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="b4abc-103">Design a configuration for generating reports in Microsoft Word format for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-En los pasos siguientes se explica cómo un usuario con rol de administrador del Sistema o de desarrollador de informes electrónicos, puede configurar formatos de informes electrónicos (ER) para generar archivos de informes en Microsoft Word. Estos pasos se pueden llevar a cabo en la empresa GBSI.
+<span data-ttu-id="b4abc-104">En los pasos siguientes se explica cómo un usuario con rol de administrador del Sistema o de desarrollador de informes electrónicos, puede configurar formatos de informes electrónicos (ER) para generar archivos de informes en Microsoft Word.</span><span class="sxs-lookup"><span data-stu-id="b4abc-104">The following steps explain how a user in either the System administrator or Electronic reporting developer role can configure an Electronic reporting (ER) formats to generate reports as Microsoft Word files.</span></span> <span data-ttu-id="b4abc-105">Estos pasos se pueden llevar a cabo en la empresa GBSI.</span><span class="sxs-lookup"><span data-stu-id="b4abc-105">These steps can be performed in the GBSI company.</span></span>
 
-Para completar estos pasos, primero debe completar los pasos en la guía de tarea "Crear una configuración de ER para generar informes en formato OPENXML”. Previamente deberá descargar y guardar también las plantillas siguientes localmente para el informe de ejemplo:
+<span data-ttu-id="b4abc-106">Para completar estos pasos, primero debe completar los pasos en la guía de tarea "Crear una configuración de ER para generar informes en formato OPENXML”.</span><span class="sxs-lookup"><span data-stu-id="b4abc-106">To complete these steps, you must first complete the steps in the “Create an ER configuration for generating reports in OPENXML format” task guide.</span></span> <span data-ttu-id="b4abc-107">Previamente deberá descargar y guardar también las plantillas siguientes localmente para el informe de ejemplo:</span><span class="sxs-lookup"><span data-stu-id="b4abc-107">In advance, you must also download and save the following templates locally for the sample report:</span></span>
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx
+<span data-ttu-id="b4abc-108">http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx</span><span class="sxs-lookup"><span data-stu-id="b4abc-108">http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx</span></span>
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx
+<span data-ttu-id="b4abc-109">http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx</span><span class="sxs-lookup"><span data-stu-id="b4abc-109">http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx</span></span>
 
-Este procedimiento es para una función que se ha añadido en la versión 1611 de Microsoft Dynamics 365 for Operations.
+<span data-ttu-id="b4abc-110">Este procedimiento es para una función que se ha añadido en la versión 1611 de Microsoft Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="b4abc-110">This procedure is for a feature that was added in Microsoft Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="select-the-existing-er-report-configuration"></a>Seleccione la configuración existente del informe ER
-1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
-    * Asegúrese de que el proveedor de la configuración "Litware, Inc." está seleccionado como activo.  
-2. Haga clic en Configuraciones de informes.
-    * Reutilizaremos la configuración actual de ER que se ha diseñado originalmente para generar la salida de informes en formato de OPENXML.  
-3. En el árbol, expanda "Modelo de pago".
-4. En el árbol, seleccione "Modelo de pago\Informe de hoja de cálculo de muestra".
-5. Haga clic en Diseñador.
+## <a name="select-the-existing-er-report-configuration"></a><span data-ttu-id="b4abc-111">Seleccione la configuración existente del informe ER</span><span class="sxs-lookup"><span data-stu-id="b4abc-111">Select the existing ER report configuration</span></span>
+1. <span data-ttu-id="b4abc-112">Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="b4abc-112">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="b4abc-113">Asegúrese de que el proveedor de la configuración "Litware, Inc."</span><span class="sxs-lookup"><span data-stu-id="b4abc-113">Make sure that the configuration provider ‘Litware, Inc.’</span></span> <span data-ttu-id="b4abc-114">está seleccionado como activo.</span><span class="sxs-lookup"><span data-stu-id="b4abc-114">is selected as active.</span></span>  
+2. <span data-ttu-id="b4abc-115">Haga clic en Configuraciones de informes.</span><span class="sxs-lookup"><span data-stu-id="b4abc-115">Click Reporting configurations.</span></span>
+    * <span data-ttu-id="b4abc-116">Reutilizaremos la configuración actual de ER que se ha diseñado originalmente para generar la salida de informes en formato de OPENXML.</span><span class="sxs-lookup"><span data-stu-id="b4abc-116">We will re-use the existing ER configuration that has been originally designed to generate the report output in OPENXML format.</span></span>  
+3. <span data-ttu-id="b4abc-117">En el árbol, expanda "Modelo de pago".</span><span class="sxs-lookup"><span data-stu-id="b4abc-117">In the tree, expand 'Payment model'.</span></span>
+4. <span data-ttu-id="b4abc-118">En el árbol, seleccione "Modelo de pago\Informe de hoja de cálculo de muestra".</span><span class="sxs-lookup"><span data-stu-id="b4abc-118">In the tree, select 'Payment model\Sample worksheet report'.</span></span>
+5. <span data-ttu-id="b4abc-119">Haga clic en Diseñador.</span><span class="sxs-lookup"><span data-stu-id="b4abc-119">Click Designer.</span></span>
 
-## <a name="replace-the-excel-template-with-the-word-template"></a>Sustituya la plantilla de Excel con la plantilla de Word
-    * Actualmente, el documento de Excel se utiliza como plantilla para producir un resultado en formato de OPENXML. Importaremos la plantilla del informe en formato de Word.  
-1. Haga clic en Archivos adjuntos.
-    * Sustituya la plantilla de Excel actual con la plantilla de Word que ha descargado anteriormente, SampleVendPaymDocReport.docx. Tenga en cuenta que esta plantilla solo contiene el diseño del documento que deseamos generar como ER de salida.  
-2. Haga clic Eliminar.
-3. Haga clic en Sí.
-4. Haga clic en Nuevo.
-5. Haga clic en Archivo.
-6. Haga clic en Examinar. Desplácese y seleccione SampleVendPaymDocReport.docx que ha descargado anteriormente. Haga clic en Aceptar
-    * Seleccione la plantilla que ha descargado en el paso anterior.  
-7. En el campo Plantilla, especifique o seleccione un valor.
+## <a name="replace-the-excel-template-with-the-word-template"></a><span data-ttu-id="b4abc-120">Sustituya la plantilla de Excel con la plantilla de Word</span><span class="sxs-lookup"><span data-stu-id="b4abc-120">Replace the Excel template with the Word template</span></span>
+    * <span data-ttu-id="b4abc-121">Actualmente, el documento de Excel se utiliza como plantilla para producir un resultado en formato de OPENXML.</span><span class="sxs-lookup"><span data-stu-id="b4abc-121">Currently, the Excel document is used as a template to generate the output in OPENXML format.</span></span> <span data-ttu-id="b4abc-122">Importaremos la plantilla del informe en formato de Word.</span><span class="sxs-lookup"><span data-stu-id="b4abc-122">We will import the report’s template in Word format.</span></span>  
+1. <span data-ttu-id="b4abc-123">Haga clic en Archivos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="b4abc-123">Click Attachments.</span></span>
+    * <span data-ttu-id="b4abc-124">Sustituya la plantilla de Excel actual con la plantilla de Word que ha descargado anteriormente, SampleVendPaymDocReport.docx.</span><span class="sxs-lookup"><span data-stu-id="b4abc-124">Replace the existing Excel template with the Word template that you downloaded earlier, SampleVendPaymDocReport.docx.</span></span> <span data-ttu-id="b4abc-125">Tenga en cuenta que esta plantilla solo contiene el diseño del documento que deseamos generar como ER de salida.</span><span class="sxs-lookup"><span data-stu-id="b4abc-125">Note, this template only contains the layout of the document we want to generate as ER output.</span></span>  
+2. <span data-ttu-id="b4abc-126">Haga clic Eliminar.</span><span class="sxs-lookup"><span data-stu-id="b4abc-126">Click Delete.</span></span>
+3. <span data-ttu-id="b4abc-127">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="b4abc-127">Click Yes.</span></span>
+4. <span data-ttu-id="b4abc-128">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="b4abc-128">Click New.</span></span>
+5. <span data-ttu-id="b4abc-129">Haga clic en Archivo.</span><span class="sxs-lookup"><span data-stu-id="b4abc-129">Click File.</span></span>
+6. <span data-ttu-id="b4abc-130">Haga clic en Examinar.</span><span class="sxs-lookup"><span data-stu-id="b4abc-130">Click Browse.</span></span> <span data-ttu-id="b4abc-131">Desplácese y seleccione SampleVendPaymDocReport.docx que ha descargado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="b4abc-131">Navigate to and select SampleVendPaymDocReport.docx that you previously downloaded.</span></span> <span data-ttu-id="b4abc-132">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="b4abc-132">Click OK.</span></span>
+    * <span data-ttu-id="b4abc-133">Seleccione la plantilla que ha descargado en el paso anterior.</span><span class="sxs-lookup"><span data-stu-id="b4abc-133">Select the template that you downloaded in the previous step.</span></span>  
+7. <span data-ttu-id="b4abc-134">En el campo Plantilla, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="b4abc-134">In the Template field, enter or select a value.</span></span>
 
-## <a name="extend-the-word-template-by-adding-a-custom-xml-part"></a>Aumente la plantilla de Word agregando una parte del XML personalizado
-1. Haga clic en Guardar.
-    * Además de almacenar cambios de configuración, la acción Guardar también actualiza la plantilla de Word adjunta. La estructura del formato diseñado se traslada al documento de Word adjunto como una nueva parte del XML personalizado con el nombre “Informe”. Tenga en cuenta que la plantilla de Word adjunta no sólo contiene el diseño del documento que deseamos para generar como salida de ER, sino que también contiene la estructura de datos que el ER rellenará en esta plantilla en el tiempo de ejecución.  
-2. Haga clic en Archivos adjuntos.
-    * Ahora necesita vincular los elementos de la parte XML personalizada del “Informe” a las partes del documento en Word.  
-    * Si está familiarizado con los documentos de Word que se pueden diseñar como formularios que contienen los controles de contenido limitados con elementos de partes de XML personalizado: reproduzca todos los pasos de la subtarea siguiente para crear tal documento. Para obtener más información, consulte este enlace https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. Si no, omita todos los pasos de la subtarea siguiente.  
+## <a name="extend-the-word-template-by-adding-a-custom-xml-part"></a><span data-ttu-id="b4abc-135">Aumente la plantilla de Word agregando una parte del XML personalizado</span><span class="sxs-lookup"><span data-stu-id="b4abc-135">Extend the Word template by adding a custom XML part</span></span>
+1. <span data-ttu-id="b4abc-136">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="b4abc-136">Click Save.</span></span>
+    * <span data-ttu-id="b4abc-137">Además de almacenar cambios de configuración, la acción Guardar también actualiza la plantilla de Word adjunta.</span><span class="sxs-lookup"><span data-stu-id="b4abc-137">In addition to storing configuration changes, the Save action also updates the attached Word template.</span></span> <span data-ttu-id="b4abc-138">La estructura del formato diseñado se traslada al documento de Word adjunto como una nueva parte del XML personalizado con el nombre “Informe”.</span><span class="sxs-lookup"><span data-stu-id="b4abc-138">The structure of the designed format is ported to the attached Word document as a new custom XML part with the name ‘Report’.</span></span> <span data-ttu-id="b4abc-139">Tenga en cuenta que la plantilla de Word adjunta no sólo contiene el diseño del documento que deseamos para generar como salida de ER, sino que también contiene la estructura de datos que el ER rellenará en esta plantilla en el tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="b4abc-139">Note that the attached Word template contains not only the layout of the document we want to generate as ER output, it also contains the structure of data that ER will populate into this template at runtime.</span></span>  
+2. <span data-ttu-id="b4abc-140">Haga clic en Archivos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="b4abc-140">Click Attachments.</span></span>
+    * <span data-ttu-id="b4abc-141">Ahora necesita vincular los elementos de la parte XML personalizada del “Informe” a las partes del documento en Word.</span><span class="sxs-lookup"><span data-stu-id="b4abc-141">Now you need to bind the elements of the custom XML part ‘Report’ to the Word document parts.</span></span>  
+    * <span data-ttu-id="b4abc-142">Si está familiarizado con los documentos de Word que se pueden diseñar como formularios que contienen los controles de contenido limitados con elementos de partes de XML personalizado: reproduzca todos los pasos de la subtarea siguiente para crear tal documento.</span><span class="sxs-lookup"><span data-stu-id="b4abc-142">If you're familiar with Word documents that can be designed as forms containing content controls that are bounded with elements of custom XML parts – play all steps of the next sub-task to create such a document.</span></span> <span data-ttu-id="b4abc-143">Para obtener más información, consulte este enlace https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US.</span><span class="sxs-lookup"><span data-stu-id="b4abc-143">For more details, see this link https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US.</span></span> <span data-ttu-id="b4abc-144">Si no, omita todos los pasos de la subtarea siguiente.</span><span class="sxs-lookup"><span data-stu-id="b4abc-144">Otherwise, skip all the steps in the next sub-task.</span></span>  
 
-## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>Consiga Word con la parte XML personalizada para realizar vínculos de datos
-    * Abra este documento de Word y haga lo siguiente: Abra la pestaña Desarrollador de Word (personalizar la cinta de opciones si aún no está habilitada).  - Seleccione el panel de asignación XML.  - Seleccione el elemento XML personalizado del “Informe” en la búsqueda.  - Haga la asignación de los artículos de la parte XML seleccionada y de los controles de contenido del documento de Word.  - Guarde el documento de Word actualizado en una unidad local.  
+## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a><span data-ttu-id="b4abc-145">Consiga Word con la parte XML personalizada para realizar vínculos de datos</span><span class="sxs-lookup"><span data-stu-id="b4abc-145">Get Word with custom XML part to do data bindings</span></span>
+    * <span data-ttu-id="b4abc-146">Abra este documento de Word y haga lo siguiente: Abra la pestaña Desarrollador de Word (personalizar la cinta de opciones si aún no está habilitada).</span><span class="sxs-lookup"><span data-stu-id="b4abc-146">Open this document in Word and do the following:  - Open the Word Developer tab (customize the ribbon if it is not enabled yet).</span></span>  <span data-ttu-id="b4abc-147">- Seleccione el panel de asignación XML.</span><span class="sxs-lookup"><span data-stu-id="b4abc-147">- Select XML mapping pane.</span></span>  <span data-ttu-id="b4abc-148">- Seleccione el elemento XML personalizado del “Informe” en la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="b4abc-148">- Select the ‘Report’ custom XML part in the lookup.</span></span>  <span data-ttu-id="b4abc-149">- Haga la asignación de los artículos de la parte XML seleccionada y de los controles de contenido del documento de Word.</span><span class="sxs-lookup"><span data-stu-id="b4abc-149">- Do mapping of the elements of the selected custom XML part and content controls of the Word document.</span></span>  <span data-ttu-id="b4abc-150">- Guarde el documento de Word actualizado en una unidad local.</span><span class="sxs-lookup"><span data-stu-id="b4abc-150">- Save the updated Word document on a local drive.</span></span>  
 
-## <a name="upload-the-word-template-with-custom-xml-part-bounded-to-content-controls"></a>Cargue la plantilla de Word con la parte XML personalizada para limitada a los controles de contenido
-1. Haga clic Eliminar.
-2. Haga clic en Sí.
-    * Agregar una plantilla nueva. Si ha completado los pasos de la subtarea anterior, seleccione el documento de Word que ha preparado y guardado en una unidad local. Si no, seleccione la plantilla de MS Word SampleVendPaymDocReportBounded.docx que había descargado anteriormente.  
-3. Haga clic en Nuevo.
-4. Haga clic en Archivo.
-5. Haga clic en Examinar. Desplácese y seleccione el SampleVendPaymDocReportBounded.docx que ha descargado anteriormente. Haga clic en Aceptar
-6. En el campo Plantilla, seleccione el documento que ha descargado en el paso anterior.
-7. Haga clic en Guardar.
-8. Cierre la página.
+## <a name="upload-the-word-template-with-custom-xml-part-bounded-to-content-controls"></a><span data-ttu-id="b4abc-151">Cargue la plantilla de Word con la parte XML personalizada para limitada a los controles de contenido</span><span class="sxs-lookup"><span data-stu-id="b4abc-151">Upload the Word template with custom XML part bounded to content controls</span></span>
+1. <span data-ttu-id="b4abc-152">Haga clic Eliminar.</span><span class="sxs-lookup"><span data-stu-id="b4abc-152">Click Delete.</span></span>
+2. <span data-ttu-id="b4abc-153">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="b4abc-153">Click Yes.</span></span>
+    * <span data-ttu-id="b4abc-154">Agregar una plantilla nueva.</span><span class="sxs-lookup"><span data-stu-id="b4abc-154">Add a new template.</span></span> <span data-ttu-id="b4abc-155">Si ha completado los pasos de la subtarea anterior, seleccione el documento de Word que ha preparado y guardado en una unidad local.</span><span class="sxs-lookup"><span data-stu-id="b4abc-155">If you competed the steps in the previous subtask, select the Word document that you prepared and saved locally.</span></span> <span data-ttu-id="b4abc-156">Si no, seleccione la plantilla de MS Word SampleVendPaymDocReportBounded.docx que había descargado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="b4abc-156">Otherwise, select the SampleVendPaymDocReportBounded.docx MS Word template that you downloaded earlier.</span></span>  
+3. <span data-ttu-id="b4abc-157">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="b4abc-157">Click New.</span></span>
+4. <span data-ttu-id="b4abc-158">Haga clic en Archivo.</span><span class="sxs-lookup"><span data-stu-id="b4abc-158">Click File.</span></span>
+5. <span data-ttu-id="b4abc-159">Haga clic en Examinar.</span><span class="sxs-lookup"><span data-stu-id="b4abc-159">Click Browse.</span></span> <span data-ttu-id="b4abc-160">Desplácese y seleccione el SampleVendPaymDocReportBounded.docx que ha descargado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="b4abc-160">Navigate to and select SampleVendPaymDocReportBounded.docx that you previously downloaded.</span></span> <span data-ttu-id="b4abc-161">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="b4abc-161">Click OK.</span></span>
+6. <span data-ttu-id="b4abc-162">En el campo Plantilla, seleccione el documento que ha descargado en el paso anterior.</span><span class="sxs-lookup"><span data-stu-id="b4abc-162">In the Template field, select the document that you downloaded in the previous step.</span></span>
+7. <span data-ttu-id="b4abc-163">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="b4abc-163">Click Save.</span></span>
+8. <span data-ttu-id="b4abc-164">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="b4abc-164">Close the page.</span></span>
 
-## <a name="execute-the-format-to-create-word-output"></a>Ejecute el formato para crear una salida en Word
-1. En el panel de acciones, haga clic en Configuraciones.
-2. Haga clic en Parámetros de usuario.
-3. Seleccione Sí en el campo Parámetros de ejecución.
-4. Haga clic en Aceptar
-5. Haga clic en Editar.
-6. Seleccione Sí en el campo Borrador de ejecución.
-7. Haga clic en Guardar.
-8. Cierre la página.
-9. Cierre la página.
-10. Vaya a Proveedores > Pagos > Diario de pagos.
-11. Haga clic en Líneas.
-12. En la lista, active o desactive todas las filas.
-13. Haga clic en Estado de pago.
-14. Haga clic en Ninguna.
-15. Haga clic en Generar pagos.
-16. Haga clic en Aceptar
-17. Haga clic en Aceptar
-    * Analice la salida generada. Tenga en cuenta que la salida creada se presenta en formato de Word y contiene los detalles de los pagos procesados.  
+## <a name="execute-the-format-to-create-word-output"></a><span data-ttu-id="b4abc-165">Ejecute el formato para crear una salida en Word</span><span class="sxs-lookup"><span data-stu-id="b4abc-165">Execute the format to create Word output</span></span>
+1. <span data-ttu-id="b4abc-166">En el panel de acciones, haga clic en Configuraciones.</span><span class="sxs-lookup"><span data-stu-id="b4abc-166">On the Action Pane, click Configurations.</span></span>
+2. <span data-ttu-id="b4abc-167">Haga clic en Parámetros de usuario.</span><span class="sxs-lookup"><span data-stu-id="b4abc-167">Click User parameters.</span></span>
+3. <span data-ttu-id="b4abc-168">Seleccione Sí en el campo Parámetros de ejecución.</span><span class="sxs-lookup"><span data-stu-id="b4abc-168">Select Yes in the Run settings field.</span></span>
+4. <span data-ttu-id="b4abc-169">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="b4abc-169">Click OK.</span></span>
+5. <span data-ttu-id="b4abc-170">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="b4abc-170">Click Edit.</span></span>
+6. <span data-ttu-id="b4abc-171">Seleccione Sí en el campo Borrador de ejecución.</span><span class="sxs-lookup"><span data-stu-id="b4abc-171">Select Yes in the Run Draft field.</span></span>
+7. <span data-ttu-id="b4abc-172">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="b4abc-172">Click Save.</span></span>
+8. <span data-ttu-id="b4abc-173">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="b4abc-173">Close the page.</span></span>
+9. <span data-ttu-id="b4abc-174">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="b4abc-174">Close the page.</span></span>
+10. <span data-ttu-id="b4abc-175">Vaya a Proveedores > Pagos > Diario de pagos.</span><span class="sxs-lookup"><span data-stu-id="b4abc-175">Go to Accounts payable > Payments > Payment journal.</span></span>
+11. <span data-ttu-id="b4abc-176">Haga clic en Líneas.</span><span class="sxs-lookup"><span data-stu-id="b4abc-176">Click Lines.</span></span>
+12. <span data-ttu-id="b4abc-177">En la lista, active o desactive todas las filas.</span><span class="sxs-lookup"><span data-stu-id="b4abc-177">In the list, mark or unmark all rows.</span></span>
+13. <span data-ttu-id="b4abc-178">Haga clic en Estado de pago.</span><span class="sxs-lookup"><span data-stu-id="b4abc-178">Click Payment status.</span></span>
+14. <span data-ttu-id="b4abc-179">Haga clic en Ninguna.</span><span class="sxs-lookup"><span data-stu-id="b4abc-179">Click None.</span></span>
+15. <span data-ttu-id="b4abc-180">Haga clic en Generar pagos.</span><span class="sxs-lookup"><span data-stu-id="b4abc-180">Click Generate payments.</span></span>
+16. <span data-ttu-id="b4abc-181">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="b4abc-181">Click OK.</span></span>
+17. <span data-ttu-id="b4abc-182">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="b4abc-182">Click OK.</span></span>
+    * <span data-ttu-id="b4abc-183">Analice la salida generada.</span><span class="sxs-lookup"><span data-stu-id="b4abc-183">Analyze the generated output.</span></span> <span data-ttu-id="b4abc-184">Tenga en cuenta que la salida creada se presenta en formato de Word y contiene los detalles de los pagos procesados.</span><span class="sxs-lookup"><span data-stu-id="b4abc-184">Note that the created output is presented in Word format and contains the details of the processed payments.</span></span>  
 
 

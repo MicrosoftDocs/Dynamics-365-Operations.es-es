@@ -16,34 +16,34 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 6ee0d3a2793c5f8cb448049f36920a5fae83585d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6d72678db60254801c6c899f4d405f1c59de8d65
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-scoring-method-for-rfqs"></a>Crear un método de puntuación para solicitudes de presupuesto
+# <a name="create-a-scoring-method-for-rfqs"></a><span data-ttu-id="69fe1-103">Crear un método de puntuación para solicitudes de presupuesto</span><span class="sxs-lookup"><span data-stu-id="69fe1-103">Create a scoring method for RFQs</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo crear un método de puntuación. Un método de puntuación es un conjunto de criterios que se pueden utilizar para comparar ofertas que se envían en respuesta a una solicitud de presupuesto. Por ejemplo, puede que desee evaluar el rendimiento de un proveedor anterior, o calificar si la empresa es respetuosa con el medio ambiente o un buen colaborador, o puede que desee comparar ofertas en función del precio. El método de puntuación se puede asociar a un tipo de solicitud como el método de puntuación predeterminado para solicitudes de presupuesto de ese tipo. Estas tareas las realizará normalmente el director de compras. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.
+<span data-ttu-id="69fe1-104">Este procedimiento muestra cómo crear un método de puntuación.</span><span class="sxs-lookup"><span data-stu-id="69fe1-104">This procedure shows you how to create a scoring method.</span></span> <span data-ttu-id="69fe1-105">Un método de puntuación es un conjunto de criterios que se pueden utilizar para comparar ofertas que se envían en respuesta a una solicitud de presupuesto.</span><span class="sxs-lookup"><span data-stu-id="69fe1-105">A scoring method is a set of criteria that can be used to compare bids that are sent in reply to a request for quotation (RFQ).</span></span> <span data-ttu-id="69fe1-106">Por ejemplo, puede que desee evaluar el rendimiento de un proveedor anterior, o calificar si la empresa es respetuosa con el medio ambiente o un buen colaborador, o puede que desee comparar ofertas en función del precio.</span><span class="sxs-lookup"><span data-stu-id="69fe1-106">For example, you might want to rate a vendor on past performance, or rate whether the company is environmentally friendly or a good collaborator, or you might want to compare bids based on price.</span></span> <span data-ttu-id="69fe1-107">El método de puntuación se puede asociar a un tipo de solicitud como el método de puntuación predeterminado para solicitudes de presupuesto de ese tipo.</span><span class="sxs-lookup"><span data-stu-id="69fe1-107">The scoring method can be associated with a solicitation type as the default scoring method for RFQs of that type.</span></span> <span data-ttu-id="69fe1-108">Estas tareas las realizará normalmente el director de compras.</span><span class="sxs-lookup"><span data-stu-id="69fe1-108">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="69fe1-109">Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.</span><span class="sxs-lookup"><span data-stu-id="69fe1-109">You can use this procedure in demo data company USMF or on your own data.</span></span>
 
-1. Vaya a Adquisición y abastecimiento > Configuración > Solicitud de presupuesto > Método de puntuación.
-2. Haga clic en Nuevo.
-3. En el campo Nombre, escriba un valor.
-4. En el campo Descripción, escriba un valor.
-5. Haga clic en Guardar.
-6. Haga clic en Nuevo.
-7. En el campo Nombre, escriba un valor.
-8. En el campo Descripción, escriba un valor.
-    * Esta descripción se muestra junto con el nombre del método de puntuación cuando hay un método de puntuación seleccionado para una solicitud de presupuesto.  
-9. En el campo Inicio de intervalo, escriba un número.
-    * El rango limita qué puede introducir el profesional de compras como puntuación. Cuando hay varios criterios de puntuación en una solicitud de presupuesto, las puntuaciones que se han introducido se agregan a cada uno y la suma se hace disponible para permitir la comparación de las ofertas.  
-10. En el campo Fin de intervalo, escriba un número.
-11. Haga clic en Nuevo.
-12. En el campo Nombre, escriba un valor.
-13. En el campo Descripción, escriba un valor.
-14. En el campo Inicio de intervalo, escriba un número.
-15. En el campo Fin de intervalo, escriba un número.
+1. <span data-ttu-id="69fe1-110">Vaya a Adquisición y abastecimiento > Configuración > Solicitud de presupuesto > Método de puntuación.</span><span class="sxs-lookup"><span data-stu-id="69fe1-110">Go to Procurement and sourcing > Setup > Request for quotation > Scoring method.</span></span>
+2. <span data-ttu-id="69fe1-111">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="69fe1-111">Click New.</span></span>
+3. <span data-ttu-id="69fe1-112">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="69fe1-112">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="69fe1-113">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="69fe1-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="69fe1-114">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="69fe1-114">Click Save.</span></span>
+6. <span data-ttu-id="69fe1-115">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="69fe1-115">Click New.</span></span>
+7. <span data-ttu-id="69fe1-116">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="69fe1-116">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="69fe1-117">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="69fe1-117">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="69fe1-118">Esta descripción se muestra junto con el nombre del método de puntuación cuando hay un método de puntuación seleccionado para una solicitud de presupuesto.</span><span class="sxs-lookup"><span data-stu-id="69fe1-118">This description is shown along with the scoring method name when a scoring method is selected for an RFQ.</span></span>  
+9. <span data-ttu-id="69fe1-119">En el campo Inicio de intervalo, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="69fe1-119">In the Range from field, enter a number.</span></span>
+    * <span data-ttu-id="69fe1-120">El rango limita qué puede introducir el profesional de compras como puntuación.</span><span class="sxs-lookup"><span data-stu-id="69fe1-120">The range limits what the procurement professional can enter as a score.</span></span> <span data-ttu-id="69fe1-121">Cuando hay varios criterios de puntuación en una solicitud de presupuesto, las puntuaciones que se han introducido se agregan a cada uno y la suma se hace disponible para permitir la comparación de las ofertas.</span><span class="sxs-lookup"><span data-stu-id="69fe1-121">When there are multiple scoring criteria on an RFQ, the scores that have been entered are added to each other and the sum is made available to allow the bids to be compared.</span></span>  
+10. <span data-ttu-id="69fe1-122">En el campo Fin de intervalo, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="69fe1-122">In the Range to field, enter a number.</span></span>
+11. <span data-ttu-id="69fe1-123">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="69fe1-123">Click New.</span></span>
+12. <span data-ttu-id="69fe1-124">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="69fe1-124">In the Name field, type a value.</span></span>
+13. <span data-ttu-id="69fe1-125">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="69fe1-125">In the Description field, type a value.</span></span>
+14. <span data-ttu-id="69fe1-126">En el campo Inicio de intervalo, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="69fe1-126">In the Range from field, enter a number.</span></span>
+15. <span data-ttu-id="69fe1-127">En el campo Fin de intervalo, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="69fe1-127">In the Range to field, enter a number.</span></span>
 
 

@@ -15,45 +15,45 @@ ms.custom: 195833
 ms.assetid: 3237347e-71d5-4569-bc9a-0d0fc9410b78
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2781a0344f1de5caf0031d7c3d5b88678be153a4
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: d888bf4285a27369b197ed66e5975cc806c640d3
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="configure-a-line-item-workflow"></a>Configuración de un flujo de trabajo de elementos
+# <a name="configure-a-line-item-workflow"></a><span data-ttu-id="7a90c-103">Configuración de un flujo de trabajo de elementos</span><span class="sxs-lookup"><span data-stu-id="7a90c-103">Configure a line-item workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este tema explica cómo configurar un elemento de flujo de trabajo de elementos.
+<span data-ttu-id="7a90c-104">Este tema explica cómo configurar un elemento de flujo de trabajo de elementos.</span><span class="sxs-lookup"><span data-stu-id="7a90c-104">This topic explains how to configure a line-item workflow element.</span></span>
 
-Para configurar un elemento de flujo de trabajo de elementos, en el editor de flujo de trabajo, haga clic con el botón derecho en el elemento y, a continuación, haga clic en **Propiedades** para abrir la página de **Propiedades**. A continuación use los siguientes procedimientos para configurar las propiedades del elemento de flujo de trabajo de elementos.
+<span data-ttu-id="7a90c-105">Para configurar un elemento de flujo de trabajo de elementos, en el editor de flujo de trabajo, haga clic con el botón derecho en el elemento y, a continuación, haga clic en **Propiedades** para abrir la página de **Propiedades**.</span><span class="sxs-lookup"><span data-stu-id="7a90c-105">To configure a line-item workflow element, in the workflow editor, right-click the element, and then click **Properties** to open the **Properties** page.</span></span> <span data-ttu-id="7a90c-106">A continuación use los siguientes procedimientos para configurar las propiedades del elemento de flujo de trabajo de elementos.</span><span class="sxs-lookup"><span data-stu-id="7a90c-106">Then use the following procedures to configure the properties of the line-item workflow element.</span></span>
 
-## <a name="name-the-lineitem-workflow-element"></a>Asignación de un nombre al elemento de flujo de trabajo de artículo de línea
-Siga estos pasos para asignar un nombre al elemento de flujo de trabajo de elementos.
+## <a name="name-the-lineitem-workflow-element"></a><span data-ttu-id="7a90c-107">Asignación de un nombre al elemento de flujo de trabajo de artículo de línea</span><span class="sxs-lookup"><span data-stu-id="7a90c-107">Name the lineitem workflow element</span></span>
+<span data-ttu-id="7a90c-108">Siga estos pasos para asignar un nombre al elemento de flujo de trabajo de elementos.</span><span class="sxs-lookup"><span data-stu-id="7a90c-108">Follow these steps to enter a name for the line-item workflow element.</span></span>
 
-1.  En el panel izquierdo, haga clic en **Configuración básica**.
-2.  En el campo **Nombre**, escriba un nombre único para el elemento de flujo de trabajo de elementos.
+1.  <span data-ttu-id="7a90c-109">En el panel izquierdo, haga clic en **Configuración básica**.</span><span class="sxs-lookup"><span data-stu-id="7a90c-109">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="7a90c-110">En el campo **Nombre**, escriba un nombre único para el elemento de flujo de trabajo de elementos.</span><span class="sxs-lookup"><span data-stu-id="7a90c-110">In the **Name** field, enter a unique name for the line-item workflow element.</span></span>
 
-## <a name="specify-whether-the-same-workflow-is-used-to-process-all-line-items"></a>Especificación de si todos los elementos de línea se procesan con el mismo flujo de trabajo
-Siga estos pasos para especificar si el mismo flujo de trabajo se usa para procesar todos los elementos de línea de un documento.
+## <a name="specify-whether-the-same-workflow-is-used-to-process-all-line-items"></a><span data-ttu-id="7a90c-111">Especificación de si todos los elementos de línea se procesan con el mismo flujo de trabajo</span><span class="sxs-lookup"><span data-stu-id="7a90c-111">Specify whether the same workflow is used to process all line items</span></span>
+<span data-ttu-id="7a90c-112">Siga estos pasos para especificar si el mismo flujo de trabajo se usa para procesar todos los elementos de línea de un documento.</span><span class="sxs-lookup"><span data-stu-id="7a90c-112">Follow these steps to specify whether the same workflow is used to process all the line items on a document.</span></span>
 
-1.  En el panel izquierdo, haga clic en **Configuración básica**.
-2.  Si el mismo flujo de trabajo procesa todos los artículos de línea de un documento, haga clic en **Invocar un solo flujo de trabajo para todos los artículos de línea**. A continuación, seleccione el flujo de trabajo que se va a usar para procesar los elementos de línea.
-3.  Si un flujo de trabajo específico procesa los elementos de línea que cumplen un conjunto de condiciones concreto, haga clic en **Invocar un flujo de trabajo para cada artículo de línea**. A continuación, siga estos pasos para definir el conjunto de condiciones:
-    1.  Haga clic en **Agregar**.
-    2.  En la tabla, seleccione la condición.
-    3.  En la pestaña **Nombre de condición**, escriba un nombre para el conjunto de condiciones que está definiendo.
-    4.  Haga clic en **Agregar condición** para escribir una condición.
-    5.  Escriba condiciones adicionales que sean necesarias.
-    6.  Para comprobar que el conjunto de condiciones definido se ha configurado correctamente, haga clic en **Probar**. En la página **Probar condición de flujo de trabajo**, en el área **Validar condición**, seleccione un registro y haga clic en **Probar**. El sistema evalúa el registro seleccionado para determinar si reúne las condiciones definidas. Haga clic en **Aceptar** o en **Cancelar** para regresar a la página **Propiedades**.
+1.  <span data-ttu-id="7a90c-113">En el panel izquierdo, haga clic en **Configuración básica**.</span><span class="sxs-lookup"><span data-stu-id="7a90c-113">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="7a90c-114">Si el mismo flujo de trabajo procesa todos los artículos de línea de un documento, haga clic en **Invocar un solo flujo de trabajo para todos los artículos de línea**.</span><span class="sxs-lookup"><span data-stu-id="7a90c-114">If the same workflow should process all the line items on a document, click **Invoke a single workflow for all line-items**.</span></span> <span data-ttu-id="7a90c-115">A continuación, seleccione el flujo de trabajo que se va a usar para procesar los elementos de línea.</span><span class="sxs-lookup"><span data-stu-id="7a90c-115">Then select the workflow to use to process the line items.</span></span>
+3.  <span data-ttu-id="7a90c-116">Si un flujo de trabajo específico procesa los elementos de línea que cumplen un conjunto de condiciones concreto, haga clic en **Invocar un flujo de trabajo para cada artículo de línea**.</span><span class="sxs-lookup"><span data-stu-id="7a90c-116">If a specific workflow should process line items that meet a specific set of conditions, click **Invoke a workflow for each line-item**.</span></span> <span data-ttu-id="7a90c-117">A continuación, siga estos pasos para definir el conjunto de condiciones:</span><span class="sxs-lookup"><span data-stu-id="7a90c-117">Then follow these steps to define the set of conditions:</span></span>
+    1.  <span data-ttu-id="7a90c-118">Haga clic en **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="7a90c-118">Click **Add**.</span></span>
+    2.  <span data-ttu-id="7a90c-119">En la tabla, seleccione la condición.</span><span class="sxs-lookup"><span data-stu-id="7a90c-119">Select the condition in the table.</span></span>
+    3.  <span data-ttu-id="7a90c-120">En la pestaña **Nombre de condición**, escriba un nombre para el conjunto de condiciones que está definiendo.</span><span class="sxs-lookup"><span data-stu-id="7a90c-120">On the **Condition name** tab, enter a name for the set of conditions that you're defining.</span></span>
+    4.  <span data-ttu-id="7a90c-121">Haga clic en **Agregar condición** para escribir una condición.</span><span class="sxs-lookup"><span data-stu-id="7a90c-121">Click **Add condition** to enter a condition.</span></span>
+    5.  <span data-ttu-id="7a90c-122">Escriba condiciones adicionales que sean necesarias.</span><span class="sxs-lookup"><span data-stu-id="7a90c-122">Enter any additional conditions that are required.</span></span>
+    6.  <span data-ttu-id="7a90c-123">Para comprobar que el conjunto de condiciones definido se ha configurado correctamente, haga clic en **Probar**.</span><span class="sxs-lookup"><span data-stu-id="7a90c-123">To verify that the set of conditions that you entered is configured correctly, click **Test**.</span></span> <span data-ttu-id="7a90c-124">En la página **Probar condición de flujo de trabajo**, en el área **Validar condición**, seleccione un registro y haga clic en **Probar**.</span><span class="sxs-lookup"><span data-stu-id="7a90c-124">On the **Test workflow condition** page, in the **Validate condition** area, select a record, and then click **Test**.</span></span> <span data-ttu-id="7a90c-125">El sistema evalúa el registro seleccionado para determinar si reúne las condiciones definidas.</span><span class="sxs-lookup"><span data-stu-id="7a90c-125">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span> <span data-ttu-id="7a90c-126">Haga clic en **Aceptar** o en **Cancelar** para regresar a la página **Propiedades**.</span><span class="sxs-lookup"><span data-stu-id="7a90c-126">Click **OK** or **Cancel** to return to the **Properties** page.</span></span>
 
-    En la pestaña **Flujo de trabajo**, seleccione el flujo de trabajo para procesar los elementos de línea que cumplan con el conjunto de condiciones definido.
+    <span data-ttu-id="7a90c-127">En la pestaña **Flujo de trabajo**, seleccione el flujo de trabajo para procesar los elementos de línea que cumplan con el conjunto de condiciones definido.</span><span class="sxs-lookup"><span data-stu-id="7a90c-127">On the **Workflow** tab, select the workflow select the workflow to use to process line items that meet the set of conditions that you defined.</span></span>
 
 
 

@@ -17,38 +17,38 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 1b95b797d5e2b9dbf6e325e71705727b87c5e10e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 9824971eb2a970f6136df9cc2c5feffc038b8f09
 ms.contentlocale: es-es
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-project-resource-information"></a>Configurar información de recursos de proyecto
+# <a name="set-up-project-resource-information"></a><span data-ttu-id="3e327-103">Configurar información de recursos de proyecto</span><span class="sxs-lookup"><span data-stu-id="3e327-103">Set up project resource information</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo configurar un recurso de proyecto. Esta tarea usa el conjunto de datos USMF.
+<span data-ttu-id="3e327-104">Este procedimiento muestra cómo configurar un recurso de proyecto.</span><span class="sxs-lookup"><span data-stu-id="3e327-104">This procedure shows how to set up a project resource.</span></span> <span data-ttu-id="3e327-105">Esta tarea usa el conjunto de datos USMF.</span><span class="sxs-lookup"><span data-stu-id="3e327-105">This task uses the USMF data set.</span></span>
 
-1. Vaya a Administración de proyectos y contabilidad > Recursos del proyecto > Lista de recursos.
-2. Haga clic en Nuevo recurso.
-3. En el campo Trabajador, especifique o seleccione un valor.
-4. En el campo Calendario, especifique o seleccione un valor.
-5. En el campo Código de periodo, especifique o seleccione un valor.
-6. Haga clic en Crear.
-7. Haga clic en Precios de coste.
-8. Haga clic en Precio de coste: hora.
-9. Haga clic en Nuevo.
-10. En el campo Fecha de vigencia, especifique una fecha.
-11. En el campo Precio de coste, escriba un número.
-12. Haga clic en Guardar.
-13. Cierre la página.
-14. Haga clic en Precios de ventas.
-15. Haga clic en Precio de ventas: hora.
-16. Haga clic en Nuevo.
-17. En el campo Fecha de vigencia, especifique una fecha.
-18. Escriba un número en el campo Precio.
-19. En el campo Válido para, seleccione una opción.
-20. Haga clic en Guardar.
-21. Cierre la página.
+1. <span data-ttu-id="3e327-106">Vaya a Administración de proyectos y contabilidad > Recursos del proyecto > Lista de recursos.</span><span class="sxs-lookup"><span data-stu-id="3e327-106">Go to Project management and accounting > Project resources > Resources list.</span></span>
+2. <span data-ttu-id="3e327-107">Haga clic en Nuevo recurso.</span><span class="sxs-lookup"><span data-stu-id="3e327-107">Click New resource.</span></span>
+3. <span data-ttu-id="3e327-108">En el campo Trabajador, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="3e327-108">In the Worker field, enter or select a value.</span></span>
+4. <span data-ttu-id="3e327-109">En el campo Calendario, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="3e327-109">In the Calendar field, enter or select a value.</span></span>
+5. <span data-ttu-id="3e327-110">En el campo Código de periodo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="3e327-110">In the Period code field, enter or select a value.</span></span>
+6. <span data-ttu-id="3e327-111">Haga clic en Crear.</span><span class="sxs-lookup"><span data-stu-id="3e327-111">Click Create.</span></span>
+7. <span data-ttu-id="3e327-112">Haga clic en Precios de coste.</span><span class="sxs-lookup"><span data-stu-id="3e327-112">Click Cost prices.</span></span>
+8. <span data-ttu-id="3e327-113">Haga clic en Precio de coste: hora.</span><span class="sxs-lookup"><span data-stu-id="3e327-113">Click Cost price - hour.</span></span>
+9. <span data-ttu-id="3e327-114">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="3e327-114">Click New.</span></span>
+10. <span data-ttu-id="3e327-115">En el campo Fecha de vigencia, especifique una fecha.</span><span class="sxs-lookup"><span data-stu-id="3e327-115">In the Effective date field, enter a date.</span></span>
+11. <span data-ttu-id="3e327-116">En el campo Precio de coste, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="3e327-116">In the Cost price field, enter a number.</span></span>
+12. <span data-ttu-id="3e327-117">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="3e327-117">Click Save.</span></span>
+13. <span data-ttu-id="3e327-118">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="3e327-118">Close the page.</span></span>
+14. <span data-ttu-id="3e327-119">Haga clic en Precios de ventas.</span><span class="sxs-lookup"><span data-stu-id="3e327-119">Click Sales prices.</span></span>
+15. <span data-ttu-id="3e327-120">Haga clic en Precio de ventas: hora.</span><span class="sxs-lookup"><span data-stu-id="3e327-120">Click Sales price - hour.</span></span>
+16. <span data-ttu-id="3e327-121">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="3e327-121">Click New.</span></span>
+17. <span data-ttu-id="3e327-122">En el campo Fecha de vigencia, especifique una fecha.</span><span class="sxs-lookup"><span data-stu-id="3e327-122">In the Effective date field, enter a date.</span></span>
+18. <span data-ttu-id="3e327-123">Escriba un número en el campo Precio.</span><span class="sxs-lookup"><span data-stu-id="3e327-123">In the Pricing field, enter a number.</span></span>
+19. <span data-ttu-id="3e327-124">En el campo Válido para, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="3e327-124">In the Valid for field, select an option.</span></span>
+20. <span data-ttu-id="3e327-125">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="3e327-125">Click Save.</span></span>
+21. <span data-ttu-id="3e327-126">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="3e327-126">Close the page.</span></span>
 
 

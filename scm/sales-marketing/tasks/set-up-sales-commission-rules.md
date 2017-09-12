@@ -22,79 +22,79 @@ ms.contentlocale: es-es
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="set-up-sales-commission-rules"></a>Configurar reglas de comisión de ventas
+# <a name="set-up-sales-commission-rules"></a><span data-ttu-id="e0224-103">Configurar reglas de comisión de ventas</span><span class="sxs-lookup"><span data-stu-id="e0224-103">Set up sales commission rules</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo configurar y habilitar el seguimiento y el cálculo de las comisiones de ventas. El procedimiento muestra cómo crear grupos de comisión tanto de clientes como de artículos, y después cómo vincular un producto y cliente seleccionado a los grupos respectivos. A continuación esos grupos se usan en la configuración del cálculo de la comisión para crear una combinación de cliente, artículo y representantes de ventas que se debe conciliar con el pedido de ventas para dar derecho a los vendedores a una comisión. La creación de grupos de comisión de clientes y artículos es opcional, ya que el cálculo de la comisión también se puede realizar para un cliente y/o artículo individual. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.
+<span data-ttu-id="e0224-104">Este procedimiento muestra cómo configurar y habilitar el seguimiento y el cálculo de las comisiones de ventas.</span><span class="sxs-lookup"><span data-stu-id="e0224-104">This procedure shows you how to set up and enable sales commission calculation and tracking.</span></span> <span data-ttu-id="e0224-105">El procedimiento muestra cómo crear grupos de comisión tanto de clientes como de artículos, y después cómo vincular un producto y cliente seleccionado a los grupos respectivos.</span><span class="sxs-lookup"><span data-stu-id="e0224-105">The procedure shows how to create both customer and item commission groups, and then how to link a selected customer and product to the respective groups.</span></span> <span data-ttu-id="e0224-106">A continuación esos grupos se usan en la configuración del cálculo de la comisión para crear una combinación de cliente, artículo y representantes de ventas que se debe conciliar con el pedido de ventas para dar derecho a los vendedores a una comisión.</span><span class="sxs-lookup"><span data-stu-id="e0224-106">Those groups are then used in the commission calculation setup to create a customer, item, and sales representatives combination that must be matched by the sales order to entitle the sales people to a commission.</span></span> <span data-ttu-id="e0224-107">La creación de grupos de comisión de clientes y artículos es opcional, ya que el cálculo de la comisión también se puede realizar para un cliente y/o artículo individual.</span><span class="sxs-lookup"><span data-stu-id="e0224-107">Creating customer and item commission groups are optional, as the calculation of commission can also be done for an individual customer and/or item.</span></span> <span data-ttu-id="e0224-108">Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.</span><span class="sxs-lookup"><span data-stu-id="e0224-108">You can run this procedure in demo data company USMF or on your own data.</span></span>
 
 
-## <a name="set-up-commission-groups-and-commission-rates"></a>Configurar grupos de comisiones y tasas de comisión
-1. Vaya a Ventas y marketing > Comisiones > Grupos de clientes para comisión.
-2. Haga clic en Nuevo.
-3. En el campo Grupo, escriba un valor.
-4. En el campo Nombre, escriba un valor.
-5. Haga clic en Guardar.
-6. Cierre la página.
-7. Vaya a Ventas y marketing > Comisiones > Grupos de artículos.
-8. Haga clic en Nuevo.
-9. En el campo Grupo, escriba un valor.
-10. En el campo Nombre, escriba un valor.
-11. Cierre la página.
-12. Vaya a Ventas y marketing > Comisiones > Grupos de ventas.
-    * Un grupo de ventas de la comisión especifica los empleados de los roles de representante de ventas que son aptos recibir una comisión cuando un cliente asociado al grupo de ventas pertinente compra determinados artículos.  
-    * En la empresa de datos de demostración USMF, hay un grupo de ventas denominado “Representantes de ventas EE. UU.”.  
-13. En el panel de acciones, haga clic en General.
-14. Haga clic en Comercial.
-    * El rep. de ventas La página muestra una lista de los vendedores de la empresa asociados a un grupo de comisión específico. Puede asignar múltiples representantes de ventas al mismo grupo y definir su parte respectiva de la cuota de comisión total como valor de porcentaje. La parte de la comisión total entre todos los empleados no debe superar 100.  
-15. En la lista, marque la fila seleccionada.
-16. Haga clic en Editar.
-17. Establezca la proporción de comisión en "50".
-18. Haga clic en Nuevo.
-19. En el campo Nombre, haga clic en el botón desplegable para abrir la búsqueda.
-20. Use el filtro rápido para buscar registros. Por ejemplo, filtrar en el campo Nombre con un valor de “Susan Burk”.
-21. Haga clic en Seleccionar.
-22. Establezca la proporción de comisión en "50".
-23. Haga clic en Guardar.
-24. Vaya a Ventas y marketing > Comisiones > Cálculo de comisiones.
-    * En la página Cálculo de comisiones defina el índice de comisión que el empleado debe recibir para una transacción de ventas cuando contiene la combinación preestablecida de cliente y producto. Como parte de la configuración de la tasa de comisión, debe especificar la base del cálculo de la comisión y si debe incluir o excluir descuentos. También puede especificar un período de validez para cuándo la tasa de comisión está activa.  
-25. Haga clic en Nuevo.
-26. En el campo Código de artículo, seleccione "Grupo".
-27. En el campo Relación de artículos, haga clic en el botón desplegable para abrir la búsqueda.
-28. En la lista, busque y seleccione el grupo que ha creado anteriormente.
-29. En la lista, haga clic en el vínculo de la fila seleccionada.
-30. Seleccione "Grupo" en el campo Código de cliente.
-31. En el campo Relación con clientes, haga clic en el botón desplegable para abrir la búsqueda.
-32. En la lista, seleccione el grupo que ha configurado anteriormente.
-33. El rep. de ventas En el campo relación , haga clic en el botón desplegable para abrir la búsqueda.
-34. En la lista, busque y seleccione el registro deseado.
-    * Mantenga la opción “Antes dto. línea”.  
-    * Mantenga la opción "Ingresos" como la base para el cálculo del valor de la comisión.    
-35. En el campo Porcentaje de comisión, especifique un número.
-36. Haga clic en Guardar.
+## <a name="set-up-commission-groups-and-commission-rates"></a><span data-ttu-id="e0224-109">Configurar grupos de comisiones y tasas de comisión</span><span class="sxs-lookup"><span data-stu-id="e0224-109">Set up commission groups and commission rates</span></span>
+1. <span data-ttu-id="e0224-110">Vaya a Ventas y marketing > Comisiones > Grupos de clientes para comisión.</span><span class="sxs-lookup"><span data-stu-id="e0224-110">Go to Sales and marketing > Commissions > Customer groups for commission.</span></span>
+2. <span data-ttu-id="e0224-111">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="e0224-111">Click New.</span></span>
+3. <span data-ttu-id="e0224-112">En el campo Grupo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="e0224-112">In the Group field, type a value.</span></span>
+4. <span data-ttu-id="e0224-113">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="e0224-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="e0224-114">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="e0224-114">Click Save.</span></span>
+6. <span data-ttu-id="e0224-115">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="e0224-115">Close the page.</span></span>
+7. <span data-ttu-id="e0224-116">Vaya a Ventas y marketing > Comisiones > Grupos de artículos.</span><span class="sxs-lookup"><span data-stu-id="e0224-116">Go to Sales and marketing > Commissions > Item groups.</span></span>
+8. <span data-ttu-id="e0224-117">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="e0224-117">Click New.</span></span>
+9. <span data-ttu-id="e0224-118">En el campo Grupo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="e0224-118">In the Group field, type a value.</span></span>
+10. <span data-ttu-id="e0224-119">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="e0224-119">In the Name field, type a value.</span></span>
+11. <span data-ttu-id="e0224-120">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="e0224-120">Close the page.</span></span>
+12. <span data-ttu-id="e0224-121">Vaya a Ventas y marketing > Comisiones > Grupos de ventas.</span><span class="sxs-lookup"><span data-stu-id="e0224-121">Go to Sales and marketing > Commissions > Sales groups.</span></span>
+    * <span data-ttu-id="e0224-122">Un grupo de ventas de la comisión especifica los empleados de los roles de representante de ventas que son aptos recibir una comisión cuando un cliente asociado al grupo de ventas pertinente compra determinados artículos.</span><span class="sxs-lookup"><span data-stu-id="e0224-122">A Commission sales group specifies the employees in sales representative roles who are eligible to receive a commission when a customer associated with the relevant sales group buys certain items.</span></span>  
+    * <span data-ttu-id="e0224-123">En la empresa de datos de demostración USMF, hay un grupo de ventas denominado “Representantes de ventas EE. UU.”.</span><span class="sxs-lookup"><span data-stu-id="e0224-123">In the USMF demo data company, there is a sales group called "Sales reps US."</span></span>  
+13. <span data-ttu-id="e0224-124">En el panel de acciones, haga clic en General.</span><span class="sxs-lookup"><span data-stu-id="e0224-124">On the Action Pane, click General.</span></span>
+14. <span data-ttu-id="e0224-125">Haga clic en Comercial.</span><span class="sxs-lookup"><span data-stu-id="e0224-125">Click Sales rep..</span></span>
+    * <span data-ttu-id="e0224-126">El rep. de ventas</span><span class="sxs-lookup"><span data-stu-id="e0224-126">The Sales rep.</span></span> <span data-ttu-id="e0224-127">La página muestra una lista de los vendedores de la empresa asociados a un grupo de comisión específico.</span><span class="sxs-lookup"><span data-stu-id="e0224-127">page displays a list of the company's sales people who are associated with a specific commission group.</span></span> <span data-ttu-id="e0224-128">Puede asignar múltiples representantes de ventas al mismo grupo y definir su parte respectiva de la cuota de comisión total como valor de porcentaje.</span><span class="sxs-lookup"><span data-stu-id="e0224-128">You can assign multiple sales representatives to the same group and define their respective share of the total commission fee as a percentage value.</span></span> <span data-ttu-id="e0224-129">La parte de la comisión total entre todos los empleados no debe superar 100.</span><span class="sxs-lookup"><span data-stu-id="e0224-129">The total commission share across all employees must not exceed 100.</span></span>  
+15. <span data-ttu-id="e0224-130">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="e0224-130">In the list, mark the selected row.</span></span>
+16. <span data-ttu-id="e0224-131">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="e0224-131">Click Edit.</span></span>
+17. <span data-ttu-id="e0224-132">Establezca la proporción de comisión en "50".</span><span class="sxs-lookup"><span data-stu-id="e0224-132">Set Commission share to '50'.</span></span>
+18. <span data-ttu-id="e0224-133">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="e0224-133">Click New.</span></span>
+19. <span data-ttu-id="e0224-134">En el campo Nombre, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e0224-134">In the Name field, click the drop-down button to open the lookup.</span></span>
+20. <span data-ttu-id="e0224-135">Use el filtro rápido para buscar registros.</span><span class="sxs-lookup"><span data-stu-id="e0224-135">Use the Quick Filter to find records.</span></span> <span data-ttu-id="e0224-136">Por ejemplo, filtrar en el campo Nombre con un valor de “Susan Burk”.</span><span class="sxs-lookup"><span data-stu-id="e0224-136">For example, filter on the Name field with a value of 'Susan Burk'.</span></span>
+21. <span data-ttu-id="e0224-137">Haga clic en Seleccionar.</span><span class="sxs-lookup"><span data-stu-id="e0224-137">Click Select.</span></span>
+22. <span data-ttu-id="e0224-138">Establezca la proporción de comisión en "50".</span><span class="sxs-lookup"><span data-stu-id="e0224-138">Set Commission share to '50'.</span></span>
+23. <span data-ttu-id="e0224-139">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="e0224-139">Click Save.</span></span>
+24. <span data-ttu-id="e0224-140">Vaya a Ventas y marketing > Comisiones > Cálculo de comisiones.</span><span class="sxs-lookup"><span data-stu-id="e0224-140">Go to Sales and marketing > Commissions > Commission calculation.</span></span>
+    * <span data-ttu-id="e0224-141">En la página Cálculo de comisiones defina el índice de comisión que el empleado debe recibir para una transacción de ventas cuando contiene la combinación preestablecida de cliente y producto.</span><span class="sxs-lookup"><span data-stu-id="e0224-141">In the Commission calculation page you define the commission rate that the employee is to receive for a sales transaction when it contains the pre-set combination of customer and product.</span></span> <span data-ttu-id="e0224-142">Como parte de la configuración de la tasa de comisión, debe especificar la base del cálculo de la comisión y si debe incluir o excluir descuentos.</span><span class="sxs-lookup"><span data-stu-id="e0224-142">As part of the commission rate setup, you must specify the commission calculation basis and whether it should include or exclude discounts.</span></span> <span data-ttu-id="e0224-143">También puede especificar un período de validez para cuándo la tasa de comisión está activa.</span><span class="sxs-lookup"><span data-stu-id="e0224-143">You can also enter a validity period for when the commission rate is active.</span></span>  
+25. <span data-ttu-id="e0224-144">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="e0224-144">Click New.</span></span>
+26. <span data-ttu-id="e0224-145">En el campo Código de artículo, seleccione "Grupo".</span><span class="sxs-lookup"><span data-stu-id="e0224-145">In the Item code field, select 'Group'.</span></span>
+27. <span data-ttu-id="e0224-146">En el campo Relación de artículos, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e0224-146">In the Item relation field, click the drop-down button to open the lookup.</span></span>
+28. <span data-ttu-id="e0224-147">En la lista, busque y seleccione el grupo que ha creado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="e0224-147">In the list, find and select the group that you created earlier.</span></span>
+29. <span data-ttu-id="e0224-148">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="e0224-148">In the list, click the link in the selected row.</span></span>
+30. <span data-ttu-id="e0224-149">Seleccione "Grupo" en el campo Código de cliente.</span><span class="sxs-lookup"><span data-stu-id="e0224-149">In the Customer code field, select 'Group'.</span></span>
+31. <span data-ttu-id="e0224-150">En el campo Relación con clientes, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e0224-150">In the Customer relation field, click the drop-down button to open the lookup.</span></span>
+32. <span data-ttu-id="e0224-151">En la lista, seleccione el grupo que ha configurado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="e0224-151">In the list, select the group that you set up earlier.</span></span>
+33. <span data-ttu-id="e0224-152">El rep. de ventas</span><span class="sxs-lookup"><span data-stu-id="e0224-152">In the Sales rep.</span></span> <span data-ttu-id="e0224-153">En el campo relación , haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e0224-153">relation field, click the drop-down button to open the lookup.</span></span>
+34. <span data-ttu-id="e0224-154">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="e0224-154">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="e0224-155">Mantenga la opción “Antes dto. línea”.</span><span class="sxs-lookup"><span data-stu-id="e0224-155">Keep the "Before line discount" option.</span></span>  
+    * <span data-ttu-id="e0224-156">Mantenga la opción "Ingresos" como la base para el cálculo del valor de la comisión.</span><span class="sxs-lookup"><span data-stu-id="e0224-156">Keep the "Revenue" option as the basis for commission value calculation.</span></span>    
+35. <span data-ttu-id="e0224-157">En el campo Porcentaje de comisión, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="e0224-157">In the Commission percentage field, enter a number.</span></span>
+36. <span data-ttu-id="e0224-158">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="e0224-158">Click Save.</span></span>
 
-## <a name="setting-up-commission-posting"></a>Configuración de registro de comisión
-1. Vaya a Ventas y marketing > Comisiones > Registro de la comisión.
-    * Las cuotas de comisión se deben pagar a los empleados y se deben configurar por tanto para garantizar el registro financiero correcto en las cuentas adecuadas de la Contabilidad general. Esto se realiza en la página Registro de la comisión. Revise la configuración que está disponible para la empresa actual. Normalmente, los importes de comisión se registran en una cuenta de gastos dedicada y se compensan en una cuenta de proveedores dedicada. Si no dispone de la configuración de reglas de registro de comisión, el sistema no podrá completar la facturación de un pedido de ventas que tenga comisiones aptas.  
-2. Cierre la página.
+## <a name="setting-up-commission-posting"></a><span data-ttu-id="e0224-159">Configuración de registro de comisión</span><span class="sxs-lookup"><span data-stu-id="e0224-159">Setting up commission posting</span></span>
+1. <span data-ttu-id="e0224-160">Vaya a Ventas y marketing > Comisiones > Registro de la comisión.</span><span class="sxs-lookup"><span data-stu-id="e0224-160">Go to Sales and marketing > Commissions > Commission posting.</span></span>
+    * <span data-ttu-id="e0224-161">Las cuotas de comisión se deben pagar a los empleados y se deben configurar por tanto para garantizar el registro financiero correcto en las cuentas adecuadas de la Contabilidad general.</span><span class="sxs-lookup"><span data-stu-id="e0224-161">Commission fees are payable to the employees and must therefore be set up to ensure correct financial posting to the appropriate accounts in the General ledger.</span></span> <span data-ttu-id="e0224-162">Esto se realiza en la página Registro de la comisión.</span><span class="sxs-lookup"><span data-stu-id="e0224-162">This is done in the Commission posting page.</span></span> <span data-ttu-id="e0224-163">Revise la configuración que está disponible para la empresa actual.</span><span class="sxs-lookup"><span data-stu-id="e0224-163">Review the setup that is available for the current company.</span></span> <span data-ttu-id="e0224-164">Normalmente, los importes de comisión se registran en una cuenta de gastos dedicada y se compensan en una cuenta de proveedores dedicada.</span><span class="sxs-lookup"><span data-stu-id="e0224-164">Typically, the commission amounts are posted to a dedicated expense account and are offset to a dedicated payable account.</span></span> <span data-ttu-id="e0224-165">Si no dispone de la configuración de reglas de registro de comisión, el sistema no podrá completar la facturación de un pedido de ventas que tenga comisiones aptas.</span><span class="sxs-lookup"><span data-stu-id="e0224-165">If you don't have the commission posting rules set up, the system will fail to complete invoicing of a sales order which has eligible commissions.</span></span>  
+2. <span data-ttu-id="e0224-166">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="e0224-166">Close the page.</span></span>
 
-## <a name="assign-a-commission-group-to-a-customer-and-a-product"></a>Asignar un grupo de la comisión a un cliente y a un producto
-1. Vaya a Ventas y marketing > Clientes > Todos los clientes.
-2. En la lista, busque y seleccione el registro deseado.
-3. En la lista, haga clic en el vínculo de la fila seleccionada.
-4. Haga clic en Editar.
-5. Expanda la sección Valores predeterminados del pedido de ventas.
-6. En el campo Grupo de comisión, haga clic en el botón desplegable para abrir la búsqueda.
-7. En la lista, seleccione el grupo que ha creado anteriormente.
-8. En el campo Grupo de ventas, haga clic en el botón desplegable para abrir la búsqueda.
-9. En la lista, busque y seleccione el registro deseado.
-10. Haga clic en Guardar.
-11. Vaya a Gestión de información de productos > Productos > Productos emitidos.
-12. Use el filtro rápido para buscar registros. Por ejemplo, filtre por el campo Número de artículo con un valor de "T0020".
-13. En la lista, haga clic en el vínculo de la fila seleccionada.
-14. Haga clic en Editar.
-15. Expanda la sección Vender.
-16. En el campo Grupo de comisión, haga clic en el botón desplegable para abrir la búsqueda.
-17. En la lista, seleccione el grupo de comisión que ha creado anteriormente.
+## <a name="assign-a-commission-group-to-a-customer-and-a-product"></a><span data-ttu-id="e0224-167">Asignar un grupo de la comisión a un cliente y a un producto</span><span class="sxs-lookup"><span data-stu-id="e0224-167">Assign a commission group to a customer and a product</span></span>
+1. <span data-ttu-id="e0224-168">Vaya a Ventas y marketing > Clientes > Todos los clientes.</span><span class="sxs-lookup"><span data-stu-id="e0224-168">Go to Sales and marketing > Customers > All customers.</span></span>
+2. <span data-ttu-id="e0224-169">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="e0224-169">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="e0224-170">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="e0224-170">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="e0224-171">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="e0224-171">Click Edit.</span></span>
+5. <span data-ttu-id="e0224-172">Expanda la sección Valores predeterminados del pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="e0224-172">Expand the Sales order defaults section.</span></span>
+6. <span data-ttu-id="e0224-173">En el campo Grupo de comisión, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e0224-173">In the Commission group field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="e0224-174">En la lista, seleccione el grupo que ha creado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="e0224-174">In the list, select the group that you created earlier.</span></span>
+8. <span data-ttu-id="e0224-175">En el campo Grupo de ventas, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e0224-175">In the Sales group field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="e0224-176">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="e0224-176">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="e0224-177">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="e0224-177">Click Save.</span></span>
+11. <span data-ttu-id="e0224-178">Vaya a Gestión de información de productos > Productos > Productos emitidos.</span><span class="sxs-lookup"><span data-stu-id="e0224-178">Go to Product information management > Products > Released products.</span></span>
+12. <span data-ttu-id="e0224-179">Use el filtro rápido para buscar registros.</span><span class="sxs-lookup"><span data-stu-id="e0224-179">Use the Quick Filter to find records.</span></span> <span data-ttu-id="e0224-180">Por ejemplo, filtre por el campo Número de artículo con un valor de "T0020".</span><span class="sxs-lookup"><span data-stu-id="e0224-180">For example, filter on the Item number field with a value of 'T0020 '.</span></span>
+13. <span data-ttu-id="e0224-181">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="e0224-181">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="e0224-182">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="e0224-182">Click Edit.</span></span>
+15. <span data-ttu-id="e0224-183">Expanda la sección Vender.</span><span class="sxs-lookup"><span data-stu-id="e0224-183">Expand the Sell section.</span></span>
+16. <span data-ttu-id="e0224-184">En el campo Grupo de comisión, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e0224-184">In the Commission group field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="e0224-185">En la lista, seleccione el grupo de comisión que ha creado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="e0224-185">In the list, select the commission group that you created earlier.</span></span>
 
 

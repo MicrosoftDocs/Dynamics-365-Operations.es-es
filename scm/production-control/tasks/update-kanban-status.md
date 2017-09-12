@@ -17,34 +17,34 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: caf7dead2da14e1ff76e205e7477b1eb11a2ca52
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3c2b5a5fbfc5bd83cc68ffafaa243dac9244c003
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="update-kanban-status"></a>Actualizar estado de trabajos kanban
+# <a name="update-kanban-status"></a><span data-ttu-id="da6f9-103">Actualizar estado de trabajos kanban</span><span class="sxs-lookup"><span data-stu-id="da6f9-103">Update kanban status</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cuando un kanban se vacía por error o se debe vaciar un kanban recibido, es necesario actualizar el estado del kanban. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento se va a utilizar para el supervisor de planta.
+<span data-ttu-id="da6f9-104">Cuando un kanban se vacía por error o se debe vaciar un kanban recibido, es necesario actualizar el estado del kanban.</span><span class="sxs-lookup"><span data-stu-id="da6f9-104">When a kanban is emptied by mistake or a received kanban needs to be emptied, you need to update kanban status.</span></span> <span data-ttu-id="da6f9-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="da6f9-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="da6f9-106">Este procedimiento se va a utilizar para el supervisor de planta.</span><span class="sxs-lookup"><span data-stu-id="da6f9-106">This procedure is intended for the shop supervisor.</span></span>
 
 
-## <a name="find-the-kanban"></a>Encuentre el kanban.
-1. Vaya a Control de producción > Kanban > Kanbans.
-2. Abra el filtro de columna Estado de la unidad de administración de material.
-3. Haga clic en Borrar.
-    * Esto restablece los filtros.  
-4. Use el filtro rápido para buscar registros. Por ejemplo, filtre por el campo Número de tarjeta con un valor de "000149".
+## <a name="find-the-kanban"></a><span data-ttu-id="da6f9-107">Encuentre el kanban.</span><span class="sxs-lookup"><span data-stu-id="da6f9-107">Find the kanban.</span></span>
+1. <span data-ttu-id="da6f9-108">Vaya a Control de producción > Kanban > Kanbans.</span><span class="sxs-lookup"><span data-stu-id="da6f9-108">Go to Production control > Kanban > Kanbans.</span></span>
+2. <span data-ttu-id="da6f9-109">Abra el filtro de columna Estado de la unidad de administración de material.</span><span class="sxs-lookup"><span data-stu-id="da6f9-109">Open Handling unit status column filter.</span></span>
+3. <span data-ttu-id="da6f9-110">Haga clic en Borrar.</span><span class="sxs-lookup"><span data-stu-id="da6f9-110">Click Clear.</span></span>
+    * <span data-ttu-id="da6f9-111">Esto restablece los filtros.</span><span class="sxs-lookup"><span data-stu-id="da6f9-111">This resets the filters.</span></span>  
+4. <span data-ttu-id="da6f9-112">Use el filtro rápido para buscar registros.</span><span class="sxs-lookup"><span data-stu-id="da6f9-112">Use the Quick Filter to find records.</span></span> <span data-ttu-id="da6f9-113">Por ejemplo, filtre por el campo Número de tarjeta con un valor de "000149".</span><span class="sxs-lookup"><span data-stu-id="da6f9-113">For example, filter on the Card number field with a value of '000149'.</span></span>
 
-## <a name="change-emptied-status-to-received-status"></a>Cambiar el estado vaciado al estado recibido
-1. Haga clic en Unidad de gestión de material invertida.
-2. Haga clic en Aceptar
-    * Observe que el estado de la Unidad de gestión de material es Recibido.  
+## <a name="change-emptied-status-to-received-status"></a><span data-ttu-id="da6f9-114">Cambiar el estado vaciado al estado recibido</span><span class="sxs-lookup"><span data-stu-id="da6f9-114">Change emptied status to received status</span></span>
+1. <span data-ttu-id="da6f9-115">Haga clic en Unidad de gestión de material invertida.</span><span class="sxs-lookup"><span data-stu-id="da6f9-115">Click Reverse empty handling unit.</span></span>
+2. <span data-ttu-id="da6f9-116">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="da6f9-116">Click OK.</span></span>
+    * <span data-ttu-id="da6f9-117">Observe que el estado de la Unidad de gestión de material es Recibido.</span><span class="sxs-lookup"><span data-stu-id="da6f9-117">Notice that the Handling unit status is Received.</span></span>  
 
-## <a name="change-received-status-to-emptied-status"></a>Cambiar el estado recibido al estado vaciado
-1. Haga clic en Vaciar kanban.
-2. En la lista, marque la fila seleccionada.
-    * Observe que el estado de la Unidad de gestión de material es Vaciado.  
+## <a name="change-received-status-to-emptied-status"></a><span data-ttu-id="da6f9-118">Cambiar el estado recibido al estado vaciado</span><span class="sxs-lookup"><span data-stu-id="da6f9-118">Change received status to emptied status</span></span>
+1. <span data-ttu-id="da6f9-119">Haga clic en Vaciar kanban.</span><span class="sxs-lookup"><span data-stu-id="da6f9-119">Click Empty kanban.</span></span>
+2. <span data-ttu-id="da6f9-120">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="da6f9-120">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="da6f9-121">Observe que el estado de la Unidad de gestión de material es Vaciado.</span><span class="sxs-lookup"><span data-stu-id="da6f9-121">Notice that the Handling unit status is Emptied.</span></span>  
 
 

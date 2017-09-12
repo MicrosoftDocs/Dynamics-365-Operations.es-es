@@ -17,53 +17,53 @@ ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: e948525d4c7873fdc5101136ee37cd117268f4dd
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 9ba616550120e273429e348ea9cddf7c9e8baee4
 ms.contentlocale: es-es
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="generate-and-run-out-of-box-reports"></a>Generar y ejecutar informes listos para usar
+# <a name="generate-and-run-out-of-box-reports"></a><span data-ttu-id="123f4-103">Generar y ejecutar informes listos para usar</span><span class="sxs-lookup"><span data-stu-id="123f4-103">Generate and run out-of-box reports</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Use esta guía de tareas para ejecutar informes listos para usar en la sede de diferentes áreas de trabajo e informes de Consultas y ventas que se encuentran en Venta minorista y comercio.
+<span data-ttu-id="123f4-104">Use esta guía de tareas para ejecutar informes listos para usar en la sede de diferentes áreas de trabajo e informes de Consultas y ventas que se encuentran en Venta minorista y comercio.</span><span class="sxs-lookup"><span data-stu-id="123f4-104">Use this task guide to run out of box reports in headquarters from different workspaces and Inquiries & Sales reports located under Retail & Commerce.</span></span>
 
 
 
-La empresa de datos de prueba utilizada para crear este registro es USRT. Este registro está pensado para el rol de administrador del sistema.
+<span data-ttu-id="123f4-105">La empresa de datos de prueba utilizada para crear este registro es USRT.</span><span class="sxs-lookup"><span data-stu-id="123f4-105">The demo data company used to create this recording is USRT.</span></span> <span data-ttu-id="123f4-106">Este registro está pensado para el rol de administrador del sistema.</span><span class="sxs-lookup"><span data-stu-id="123f4-106">This recording is intended for the System administrator role.</span></span>
 
 
-## <a name="launch-reports-from-workspaces"></a>Iniciar informes desde áreas de trabajo
-1. Vaya a Venta minorista y comercio > Productos y categorías > Administración de categorías y productos.
-2. Haga clic en la flecha para expandir o contraer la sección Informes.
-3. Haga clic en Informe de productos principales.
-4. En el campo Fecha inicial, escriba una fecha.
-5. Especifique una fecha en el campo Fecha final.
-6. En el campo Canal, haga clic en el botón desplegable para abrir la búsqueda.
-7. En el árbol, seleccione "Contoso Retail\Contoso Retail USA\Central\Houston".
-    * Muestra la jerarquía organizativa comercial predeterminada para la finalidad de Informes comerciales.   Vaya a Administración de la organización >Organizaciones > Propósitos de jerarquía organizativa y elija Informes comerciales y en Jerarquías asignadas, compruebe el nombre de la jerarquía para la que se comprueba la columna Predeterminada.      Como parte de los datos de demostración (usados para este registro de tarea) observaría que Tiendas por región es la jerarquía organizativa predeterminada para la finalidad de Informes comerciales.     
-8. Haga clic en Aceptar
-9. En el campo Ver, seleccione una opción.
-10. En el campo Por, seleccione una opción.
-11. Haga clic en Aceptar
+## <a name="launch-reports-from-workspaces"></a><span data-ttu-id="123f4-107">Iniciar informes desde áreas de trabajo</span><span class="sxs-lookup"><span data-stu-id="123f4-107">Launch reports from workspaces</span></span>
+1. <span data-ttu-id="123f4-108">Vaya a Venta minorista y comercio > Productos y categorías > Administración de categorías y productos.</span><span class="sxs-lookup"><span data-stu-id="123f4-108">Go to Retail and commerce > Products and categories > Category and product management.</span></span>
+2. <span data-ttu-id="123f4-109">Haga clic en la flecha para expandir o contraer la sección Informes.</span><span class="sxs-lookup"><span data-stu-id="123f4-109">Click the arrow to expand or collapse the Reports section.</span></span>
+3. <span data-ttu-id="123f4-110">Haga clic en Informe de productos principales.</span><span class="sxs-lookup"><span data-stu-id="123f4-110">Click Top products report.</span></span>
+4. <span data-ttu-id="123f4-111">En el campo Fecha inicial, escriba una fecha.</span><span class="sxs-lookup"><span data-stu-id="123f4-111">In the From date field, enter a date.</span></span>
+5. <span data-ttu-id="123f4-112">Especifique una fecha en el campo Fecha final.</span><span class="sxs-lookup"><span data-stu-id="123f4-112">In the To date field, enter a date.</span></span>
+6. <span data-ttu-id="123f4-113">En el campo Canal, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="123f4-113">In the Channel field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="123f4-114">En el árbol, seleccione "Contoso Retail\Contoso Retail USA\Central\Houston".</span><span class="sxs-lookup"><span data-stu-id="123f4-114">In the tree, select 'Contoso Retail\Contoso Retail USA\Central\Houston'.</span></span>
+    * <span data-ttu-id="123f4-115">Muestra la jerarquía organizativa comercial predeterminada para la finalidad de Informes comerciales.</span><span class="sxs-lookup"><span data-stu-id="123f4-115">This shows the default retail organization hierarchy for Retail reporting purpose.</span></span>   <span data-ttu-id="123f4-116">Vaya a Administración de la organización >Organizaciones > Propósitos de jerarquía organizativa y elija Informes comerciales y en Jerarquías asignadas, compruebe el nombre de la jerarquía para la que se comprueba la columna Predeterminada.</span><span class="sxs-lookup"><span data-stu-id="123f4-116">Go to Organization administration >Organizations >Organization hierarchy purposes and choose Retail reporting and under Assigned hierarchies, check the hierarchy name for which Default column is checked.</span></span>      <span data-ttu-id="123f4-117">Como parte de los datos de demostración (usados para este registro de tarea) observaría que Tiendas por región es la jerarquía organizativa predeterminada para la finalidad de Informes comerciales.</span><span class="sxs-lookup"><span data-stu-id="123f4-117">As part of demo data (used for this task recording) you would notice, Retail Stores by Region, is the default organization hierarchy for the Retail reporting purpose.</span></span>     
+8. <span data-ttu-id="123f4-118">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="123f4-118">Click OK.</span></span>
+9. <span data-ttu-id="123f4-119">En el campo Ver, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="123f4-119">In the View field, select an option.</span></span>
+10. <span data-ttu-id="123f4-120">En el campo Por, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="123f4-120">In the By field, select an option.</span></span>
+11. <span data-ttu-id="123f4-121">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="123f4-121">Click OK.</span></span>
 
-## <a name="launch-reports-from-the-inquiries-and-sales-reports-located-under-retail--commerce-app-link"></a>Inicie informes desde las consultas y los informes de ventas que se encuentran bajo el vínculo Venta minorista y comercio.
-1. Vaya a Venta minorista y comercio > Consultas e informes > Informes de ventas > Informe de ventas por categoría.
-2. En el campo Fecha inicial, escriba una fecha.
-3. Especifique una fecha en el campo Fecha final.
-4. En el campo Canal, haga clic en el botón desplegable para abrir la búsqueda.
-5. En el árbol, seleccione "Contoso Retail\Contoso Retail USA\West\Seattle".
-    * Muestra la jerarquía organizativa comercial predeterminada para la finalidad de Informes comerciales.   Vaya a Administración de la organización >Organizaciones > Propósitos de jerarquía organizativa y elija Informes comerciales y en Jerarquías asignadas, compruebe el nombre de la jerarquía para la que se comprueba la columna Predeterminada.      Como parte de los datos de demostración (usados para este registro de tarea) observaría que Tiendas por región es la jerarquía organizativa predeterminada para la finalidad de Informes comerciales.     
-6. Haga clic en Aceptar
-7. Haga clic en Aceptar
+## <a name="launch-reports-from-the-inquiries-and-sales-reports-located-under-retail--commerce-app-link"></a><span data-ttu-id="123f4-122">Inicie informes desde las consultas y los informes de ventas que se encuentran bajo el vínculo Venta minorista y comercio.</span><span class="sxs-lookup"><span data-stu-id="123f4-122">Launch reports from the inquiries and sales reports located under Retail & Commerce app link.</span></span>
+1. <span data-ttu-id="123f4-123">Vaya a Venta minorista y comercio > Consultas e informes > Informes de ventas > Informe de ventas por categoría.</span><span class="sxs-lookup"><span data-stu-id="123f4-123">Go to Retail and commerce > Inquiries and reports > Sales reports > Category sales report.</span></span>
+2. <span data-ttu-id="123f4-124">En el campo Fecha inicial, escriba una fecha.</span><span class="sxs-lookup"><span data-stu-id="123f4-124">In the From date field, enter a date.</span></span>
+3. <span data-ttu-id="123f4-125">Especifique una fecha en el campo Fecha final.</span><span class="sxs-lookup"><span data-stu-id="123f4-125">In the To date field, enter a date.</span></span>
+4. <span data-ttu-id="123f4-126">En el campo Canal, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="123f4-126">In the Channel field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="123f4-127">En el árbol, seleccione "Contoso Retail\Contoso Retail USA\West\Seattle".</span><span class="sxs-lookup"><span data-stu-id="123f4-127">In the tree, select 'Contoso Retail\Contoso Retail USA\West\Seattle'.</span></span>
+    * <span data-ttu-id="123f4-128">Muestra la jerarquía organizativa comercial predeterminada para la finalidad de Informes comerciales.</span><span class="sxs-lookup"><span data-stu-id="123f4-128">This shows the default retail organization hierarchy for Retail reporting purpose.</span></span>   <span data-ttu-id="123f4-129">Vaya a Administración de la organización >Organizaciones > Propósitos de jerarquía organizativa y elija Informes comerciales y en Jerarquías asignadas, compruebe el nombre de la jerarquía para la que se comprueba la columna Predeterminada.</span><span class="sxs-lookup"><span data-stu-id="123f4-129">Go to Organization administration >Organizations >Organization hierarchy purposes and choose Retail reporting and under Assigned hierarchies, check the hierarchy name for which Default column is checked.</span></span>      <span data-ttu-id="123f4-130">Como parte de los datos de demostración (usados para este registro de tarea) observaría que Tiendas por región es la jerarquía organizativa predeterminada para la finalidad de Informes comerciales.</span><span class="sxs-lookup"><span data-stu-id="123f4-130">As part of demo data (used for this task recording) you would notice, Retail Stores by Region, is the default organization hierarchy for the Retail reporting purpose.</span></span>     
+6. <span data-ttu-id="123f4-131">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="123f4-131">Click OK.</span></span>
+7. <span data-ttu-id="123f4-132">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="123f4-132">Click OK.</span></span>
 
-## <a name="export-an-hq-reports"></a>Exportar informes de sede
-1. Vaya a Venta minorista y comercio > Consultas e informes > Informes de ventas > Informe de ventas de la organización.
-2. En el campo Fecha inicial, escriba una fecha.
-3. Especifique una fecha en el campo Fecha final.
-4. Haga clic en Aceptar
-5. Haga clic en Exportar.
-6. Haga clic en PDF.
+## <a name="export-an-hq-reports"></a><span data-ttu-id="123f4-133">Exportar informes de sede</span><span class="sxs-lookup"><span data-stu-id="123f4-133">Export an HQ reports</span></span>
+1. <span data-ttu-id="123f4-134">Vaya a Venta minorista y comercio > Consultas e informes > Informes de ventas > Informe de ventas de la organización.</span><span class="sxs-lookup"><span data-stu-id="123f4-134">Go to Retail and commerce > Inquiries and reports > Sales reports > Organization sales report.</span></span>
+2. <span data-ttu-id="123f4-135">En el campo Fecha inicial, escriba una fecha.</span><span class="sxs-lookup"><span data-stu-id="123f4-135">In the From date field, enter a date.</span></span>
+3. <span data-ttu-id="123f4-136">Especifique una fecha en el campo Fecha final.</span><span class="sxs-lookup"><span data-stu-id="123f4-136">In the To date field, enter a date.</span></span>
+4. <span data-ttu-id="123f4-137">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="123f4-137">Click OK.</span></span>
+5. <span data-ttu-id="123f4-138">Haga clic en Exportar.</span><span class="sxs-lookup"><span data-stu-id="123f4-138">Click Export.</span></span>
+6. <span data-ttu-id="123f4-139">Haga clic en PDF.</span><span class="sxs-lookup"><span data-stu-id="123f4-139">Click PDF.</span></span>
 
 

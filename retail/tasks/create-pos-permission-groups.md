@@ -17,41 +17,41 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: b0c930e3722d1d0b1fff8efad7a785a153436b6d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e924dc59c3e4cb9b6979014852512453dd3d70db
 ms.contentlocale: es-es
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-pos-permission-groups"></a>Creación de grupos de permisos de PDV
+# <a name="create-pos-permission-groups"></a><span data-ttu-id="4d4ac-103">Creación de grupos de permisos de PDV</span><span class="sxs-lookup"><span data-stu-id="4d4ac-103">Create POS permission groups</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Este procedimiento mostrará cómo crear un grupo de permisos de PDV. La empresa de datos de prueba utilizada para crear esta tarea es USRT. Esta tarea está pensada para el rol de encargado de operaciones comerciales.
+<span data-ttu-id="4d4ac-104">Este procedimiento mostrará cómo crear un grupo de permisos de PDV.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-104">This procedure will show how to create a POS permission group.</span></span> <span data-ttu-id="4d4ac-105">La empresa de datos de prueba utilizada para crear esta tarea es USRT.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="4d4ac-106">Esta tarea está pensada para el rol de encargado de operaciones comerciales.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-106">This task is intended for the Retail operations manager role.</span></span>
 
-1. Vaya a Grupos de permisos.
-2. Haga clic en Nuevo.
-3. En el campo Id. de grupo de permisos de PDV, escriba un valor.
-4. En el campo Descripción, escriba un valor.
-5. Seleccione Sí en el campo Ver entradas de reloj de tiempo.
-    * Ahora puede habilitar o deshabilitar varios permisos para el grupo de permisos de PDV. Para algún permiso puede establecer un valor que se usará para evaluar si el usuario del PDV puede realizar la acción.  Esta guía de tareas permite algunos permisos que se pueden dar a un cajero.  
-6. Seleccione Sí en el campo Permitir creación de pedidos.
-7. Seleccione Sí en el campo Permitir edición de pedidos.
-8. Seleccione Sí en el campo Permitir recuperación de pedidos.
-9. Seleccione Sí en el campo Permitir cambio de contraseña.
-10. Seleccione Sí en el campo Permitir cierre en ciego.
-11. Haga clic en Guardar.
-    * Una vez se guarden los cambios necesita ejecutar la programación de distribución del personal para aplicar los cambios en canales comerciales.  
-12. Cierre la página.
-13. Vaya a Trabajos.
-    * A continuación asignaremos el grupo de permisos de PDV a un trabajo.  
-14. En la lista, busque y seleccione el registro deseado.
-15. En la lista, haga clic en el vínculo de la fila seleccionada.
-16. Haga clic en Editar.
-17. Expanda la sección Clasificación de trabajos.
-18. En el campo Grupo de permisos de PDV, especifique o seleccione un valor.
-    * Todos los trabajadores de puestos para este trabajo usarán los parámetros de este grupo de permisos de PDV a menos que los permisos de PDV de los trabajadores se hayan anulada en su nivel del puesto.  
-19. Haga clic en Guardar.
-    * Una vez se guarden los cambios necesita ejecutar la programación de distribución del personal para aplicar los cambios en canales comerciales.  
+1. <span data-ttu-id="4d4ac-107">Vaya a Grupos de permisos.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-107">Go to Permission groups.</span></span>
+2. <span data-ttu-id="4d4ac-108">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-108">Click New.</span></span>
+3. <span data-ttu-id="4d4ac-109">En el campo Id. de grupo de permisos de PDV, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-109">In the POS permission group ID field, type a value.</span></span>
+4. <span data-ttu-id="4d4ac-110">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="4d4ac-111">Seleccione Sí en el campo Ver entradas de reloj de tiempo.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-111">Select Yes in the View time clock entries field.</span></span>
+    * <span data-ttu-id="4d4ac-112">Ahora puede habilitar o deshabilitar varios permisos para el grupo de permisos de PDV.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-112">You can now enable or disable various permissions for your POS Permission group.</span></span> <span data-ttu-id="4d4ac-113">Para algún permiso puede establecer un valor que se usará para evaluar si el usuario del PDV puede realizar la acción.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-113">For some permission you can set a value that will be used to evaluate if the POS user can perform the action.</span></span>  <span data-ttu-id="4d4ac-114">Esta guía de tareas permite algunos permisos que se pueden dar a un cajero.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-114">This task guide enables a few permission that might be given to a cashier.</span></span>  
+6. <span data-ttu-id="4d4ac-115">Seleccione Sí en el campo Permitir creación de pedidos.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-115">Select Yes in the Allow create order field.</span></span>
+7. <span data-ttu-id="4d4ac-116">Seleccione Sí en el campo Permitir edición de pedidos.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-116">Select Yes in the Allow edit order field.</span></span>
+8. <span data-ttu-id="4d4ac-117">Seleccione Sí en el campo Permitir recuperación de pedidos.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-117">Select Yes in the Allow retrieve order field.</span></span>
+9. <span data-ttu-id="4d4ac-118">Seleccione Sí en el campo Permitir cambio de contraseña.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-118">Select Yes in the Allow password change field.</span></span>
+10. <span data-ttu-id="4d4ac-119">Seleccione Sí en el campo Permitir cierre en ciego.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-119">Select Yes in the Allow blind close field.</span></span>
+11. <span data-ttu-id="4d4ac-120">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-120">Click Save.</span></span>
+    * <span data-ttu-id="4d4ac-121">Una vez se guarden los cambios necesita ejecutar la programación de distribución del personal para aplicar los cambios en canales comerciales.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-121">After your changes are saved you need to run the Staff distribution schedule to push the changes to retail channels.</span></span>  
+12. <span data-ttu-id="4d4ac-122">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-122">Close the page.</span></span>
+13. <span data-ttu-id="4d4ac-123">Vaya a Trabajos.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-123">Go to Jobs.</span></span>
+    * <span data-ttu-id="4d4ac-124">A continuación asignaremos el grupo de permisos de PDV a un trabajo.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-124">Next we will assign the POS permission group to a Job.</span></span>  
+14. <span data-ttu-id="4d4ac-125">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-125">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="4d4ac-126">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-126">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="4d4ac-127">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-127">Click Edit.</span></span>
+17. <span data-ttu-id="4d4ac-128">Expanda la sección Clasificación de trabajos.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-128">Expand the Job classification section.</span></span>
+18. <span data-ttu-id="4d4ac-129">En el campo Grupo de permisos de PDV, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-129">In the POS permission group field, enter or select a value.</span></span>
+    * <span data-ttu-id="4d4ac-130">Todos los trabajadores de puestos para este trabajo usarán los parámetros de este grupo de permisos de PDV a menos que los permisos de PDV de los trabajadores se hayan anulada en su nivel del puesto.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-130">All Workers in Positions for this Job will use this POS permission group’s settings unless the workers POS permissions have been overridden at their Position level.</span></span>  
+19. <span data-ttu-id="4d4ac-131">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-131">Click Save.</span></span>
+    * <span data-ttu-id="4d4ac-132">Una vez se guarden los cambios necesita ejecutar la programación de distribución del personal para aplicar los cambios en canales comerciales.</span><span class="sxs-lookup"><span data-stu-id="4d4ac-132">After your changes are saved you need to run the Staff distribution schedule to push the changes to retail channels.</span></span>  
 
 

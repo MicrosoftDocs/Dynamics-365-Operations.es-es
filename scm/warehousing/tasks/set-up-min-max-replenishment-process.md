@@ -17,133 +17,133 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 01a0c42c43a23234e0e355193f8dd7e8ee116f71
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 02af5d1beb2d4eb6a7162b47c42854725fbdbec2
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-min-max-replenishment-process"></a>Configurar un proceso de reabastecimiento mínimo-máximo
+# <a name="set-up-a-min-max-replenishment-process"></a><span data-ttu-id="81514-103">Configurar un proceso de reabastecimiento mínimo-máximo</span><span class="sxs-lookup"><span data-stu-id="81514-103">Set up a min-max replenishment process</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento le muestra cómo configurar un nuevo proceso de reabastecimiento que usa la estrategia de reabastecimiento mínima/máxima. Cuando el inventario se encuentran por debajo del nivel mínimo, el trabajo se creará para reabastecer la ubicación. El procedimiento también muestra cómo usar ubicaciones de picking fijas para permitir la reposición incluso si el inventario se encuentra por debajo del nivel mínimo, y cómo habilitar el proceso de reabastecimiento para ejecutarse con regularidad mediante un trabajo por lotes. Estas tareas las realizará normalmente el director del almacén. Puede ejecutar este procedimiento en la empresa de datos de demostración USMF con los valores del ejemplo en las notas o puede ejecutarlo en sus propios datos. Si está usando sus propios datos, asegúrese de que tiene un almacén que está habilitado para los procesos de Administración de almacenes.
+<span data-ttu-id="81514-104">Este procedimiento le muestra cómo configurar un nuevo proceso de reabastecimiento que usa la estrategia de reabastecimiento mínima/máxima.</span><span class="sxs-lookup"><span data-stu-id="81514-104">This procedure shows you how to set up a new replenishment process which uses the minimum/maximum replenishment strategy.</span></span> <span data-ttu-id="81514-105">Cuando el inventario se encuentran por debajo del nivel mínimo, el trabajo se creará para reabastecer la ubicación.</span><span class="sxs-lookup"><span data-stu-id="81514-105">When inventory falls below the minimum level, work will be created to replenish the location.</span></span> <span data-ttu-id="81514-106">El procedimiento también muestra cómo usar ubicaciones de picking fijas para permitir la reposición incluso si el inventario se encuentra por debajo del nivel mínimo, y cómo habilitar el proceso de reabastecimiento para ejecutarse con regularidad mediante un trabajo por lotes.</span><span class="sxs-lookup"><span data-stu-id="81514-106">The procedure also shows how to use fixed picking locations to allow restocking even if inventory falls below the minimum level, and how to enable the replenishment process to run regularly using a batch job.</span></span> <span data-ttu-id="81514-107">Estas tareas las realizará normalmente el director del almacén.</span><span class="sxs-lookup"><span data-stu-id="81514-107">These tasks would typically be carried out by a warehouse manager.</span></span> <span data-ttu-id="81514-108">Puede ejecutar este procedimiento en la empresa de datos de demostración USMF con los valores del ejemplo en las notas o puede ejecutarlo en sus propios datos.</span><span class="sxs-lookup"><span data-stu-id="81514-108">You can run this procedure in the USMF demo data company using the example values in the notes, or can run it on your own data.</span></span> <span data-ttu-id="81514-109">Si está usando sus propios datos, asegúrese de que tiene un almacén que está habilitado para los procesos de Administración de almacenes.</span><span class="sxs-lookup"><span data-stu-id="81514-109">If you’re using your own data, make sure that you have a warehouse that’s enabled for Warehouse management processes.</span></span>
 
 
-## <a name="create-a-fixed-picking-location"></a>Crear una ubicación de picking fija
-1. Vaya a Gestión de almacenes > Configurar > Almacén > Ubicaciones fijas.
-    * Esta es una tarea opcional para el reabastecimiento mínimo-máximo, pero si usa la ubicación de picking fija, esto permite que se reabastezcan las existencias incluso si caen por debajo del nivel mínimo, ya que el sistema puede determinar qué artículos se deben reabastecer, incluso si no queda ninguno.  
-2. Haga clic en Nuevo.
-3. En el campo Número de artículo, especifique o seleccione un valor.
-    * Si está usando USMF, puede seleccionar el artículo A0001.  
-4. En el campo Sitio, especifique o seleccione un valor.
-    * Si está usando USMF, puede seleccionar el sitio 2.  
-5. En el campo Almacén, especifique o seleccione un valor.
-    * Si está usando USMF, puede seleccionar el almacén 24.  
-6. En el campo Ubicación, especifique o seleccione un valor.
-    * Si está usando USMF, puede seleccionar CP-003.  
-7. Cierre la página.
+## <a name="create-a-fixed-picking-location"></a><span data-ttu-id="81514-110">Crear una ubicación de picking fija</span><span class="sxs-lookup"><span data-stu-id="81514-110">Create a fixed picking location</span></span>
+1. <span data-ttu-id="81514-111">Vaya a Gestión de almacenes > Configurar > Almacén > Ubicaciones fijas.</span><span class="sxs-lookup"><span data-stu-id="81514-111">Go to Warehouse management > Setup > Warehouse > Fixed locations.</span></span>
+    * <span data-ttu-id="81514-112">Esta es una tarea opcional para el reabastecimiento mínimo-máximo, pero si usa la ubicación de picking fija, esto permite que se reabastezcan las existencias incluso si caen por debajo del nivel mínimo, ya que el sistema puede determinar qué artículos se deben reabastecer, incluso si no queda ninguno.</span><span class="sxs-lookup"><span data-stu-id="81514-112">This is an optional task for min-max replenishment, but if you use fixed picking location, this allows stock to be replenished even if it falls below the minimum level, because the system can determine which items need to be replenished, even if there aren't any left.</span></span>  
+2. <span data-ttu-id="81514-113">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="81514-113">Click New.</span></span>
+3. <span data-ttu-id="81514-114">En el campo Número de artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-114">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="81514-115">Si está usando USMF, puede seleccionar el artículo A0001.</span><span class="sxs-lookup"><span data-stu-id="81514-115">If you’re using USMF, you can select item A0001.</span></span>  
+4. <span data-ttu-id="81514-116">En el campo Sitio, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-116">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="81514-117">Si está usando USMF, puede seleccionar el sitio 2.</span><span class="sxs-lookup"><span data-stu-id="81514-117">If you’re using USMF, you can select site 2.</span></span>  
+5. <span data-ttu-id="81514-118">En el campo Almacén, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-118">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="81514-119">Si está usando USMF, puede seleccionar el almacén 24.</span><span class="sxs-lookup"><span data-stu-id="81514-119">If you’re using USMF, you can select warehouse 24.</span></span>  
+6. <span data-ttu-id="81514-120">En el campo Ubicación, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-120">In the Location field, enter or select a value.</span></span>
+    * <span data-ttu-id="81514-121">Si está usando USMF, puede seleccionar CP-003.</span><span class="sxs-lookup"><span data-stu-id="81514-121">If you’re using USMF, you can select CP-003.</span></span>  
+7. <span data-ttu-id="81514-122">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="81514-122">Close the page.</span></span>
 
-## <a name="create-a-replenishment-location-directive"></a>Crear una directiva de ubicación de reabastecimiento
-1. Vaya a Gestión de almacenes > Configurar > Directivas de ubicación.
-    * Los directorios de ubicación se usan para determinar de dónde se deben seleccionar los artículos en el proceso de reabastecimiento.  
-2. En el campo Tipo de pedido de trabajo, seleccione "Reabastecimiento".
-3. Haga clic en Nuevo.
-4. En el campo Nombre, escriba un valor.
-5. En el campo Tipo de trabajo, seleccione "Seleccionar".
-6. En el campo Sitio, especifique o seleccione un valor.
-    * Si está usando USMF, puede seleccionar el sitio 2.  
-7. En el campo Almacén, especifique o seleccione un valor.
-    * Si está usando USMF, puede seleccionar el almacén 24.  
-8. Haga clic en Guardar.
-9. Haga clic en Nuevo.
-10. En la lista, marque la fila seleccionada.
-11. En el campo Cantidad final, especifique un número.
-    * Por ejemplo, puede establecerlo en 9999.  
-12. Active la casilla Permitir división.
-    * Si selecciona esta opción, el proceso de creación de trabajo permitirá dividir cantidades de línea de trabajo entre múltiples ubicaciones.  
-13. Haga clic en Guardar.
-14. Haga clic en Nuevo.
-15. En la lista, marque la fila seleccionada.
-16. En el campo Nombre, escriba un valor.
-17. Haga clic en Guardar.
-18. Haga clic en Editar consulta.
-    * Puede editar esta consulta para agregar restricciones desde las que se puede seleccionar el inventario en el proceso de reabastecimiento. Por ejemplo, podría ser que el inventario solo se debe usar desde el área de almacenaje del almacén.  
-19. Haga clic en Aceptar
-20. Cierre la página.
+## <a name="create-a-replenishment-location-directive"></a><span data-ttu-id="81514-123">Crear una directiva de ubicación de reabastecimiento</span><span class="sxs-lookup"><span data-stu-id="81514-123">Create a replenishment location directive</span></span>
+1. <span data-ttu-id="81514-124">Vaya a Gestión de almacenes > Configurar > Directivas de ubicación.</span><span class="sxs-lookup"><span data-stu-id="81514-124">Go to Warehouse management > Setup > Location directives.</span></span>
+    * <span data-ttu-id="81514-125">Los directorios de ubicación se usan para determinar de dónde se deben seleccionar los artículos en el proceso de reabastecimiento.</span><span class="sxs-lookup"><span data-stu-id="81514-125">Location directives are used to determine where items should be picked from in the replenishment process.</span></span>  
+2. <span data-ttu-id="81514-126">En el campo Tipo de pedido de trabajo, seleccione "Reabastecimiento".</span><span class="sxs-lookup"><span data-stu-id="81514-126">In the Work order type field, select 'Replenishment'.</span></span>
+3. <span data-ttu-id="81514-127">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="81514-127">Click New.</span></span>
+4. <span data-ttu-id="81514-128">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-128">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="81514-129">En el campo Tipo de trabajo, seleccione "Seleccionar".</span><span class="sxs-lookup"><span data-stu-id="81514-129">In the Work type field, select 'Pick'.</span></span>
+6. <span data-ttu-id="81514-130">En el campo Sitio, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-130">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="81514-131">Si está usando USMF, puede seleccionar el sitio 2.</span><span class="sxs-lookup"><span data-stu-id="81514-131">If you’re using USMF, you can select site 2.</span></span>  
+7. <span data-ttu-id="81514-132">En el campo Almacén, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-132">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="81514-133">Si está usando USMF, puede seleccionar el almacén 24.</span><span class="sxs-lookup"><span data-stu-id="81514-133">If you’re using USMF, you can select warehouse 24.</span></span>  
+8. <span data-ttu-id="81514-134">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="81514-134">Click Save.</span></span>
+9. <span data-ttu-id="81514-135">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="81514-135">Click New.</span></span>
+10. <span data-ttu-id="81514-136">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="81514-136">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="81514-137">En el campo Cantidad final, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="81514-137">In the To quantity field, enter a number.</span></span>
+    * <span data-ttu-id="81514-138">Por ejemplo, puede establecerlo en 9999.</span><span class="sxs-lookup"><span data-stu-id="81514-138">For example, you can set it to 9999.</span></span>  
+12. <span data-ttu-id="81514-139">Active la casilla Permitir división.</span><span class="sxs-lookup"><span data-stu-id="81514-139">Select the Allow split check box.</span></span>
+    * <span data-ttu-id="81514-140">Si selecciona esta opción, el proceso de creación de trabajo permitirá dividir cantidades de línea de trabajo entre múltiples ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="81514-140">If you select this option, the work creation process will allow work line quantities to be split across multiple locations.</span></span>  
+13. <span data-ttu-id="81514-141">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="81514-141">Click Save.</span></span>
+14. <span data-ttu-id="81514-142">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="81514-142">Click New.</span></span>
+15. <span data-ttu-id="81514-143">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="81514-143">In the list, mark the selected row.</span></span>
+16. <span data-ttu-id="81514-144">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-144">In the Name field, type a value.</span></span>
+17. <span data-ttu-id="81514-145">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="81514-145">Click Save.</span></span>
+18. <span data-ttu-id="81514-146">Haga clic en Editar consulta.</span><span class="sxs-lookup"><span data-stu-id="81514-146">Click Edit query.</span></span>
+    * <span data-ttu-id="81514-147">Puede editar esta consulta para agregar restricciones desde las que se puede seleccionar el inventario en el proceso de reabastecimiento.</span><span class="sxs-lookup"><span data-stu-id="81514-147">You can edit this query to add restrictions where inventory can be selected from in the replenishment process.</span></span> <span data-ttu-id="81514-148">Por ejemplo, podría ser que el inventario solo se debe usar desde el área de almacenaje del almacén.</span><span class="sxs-lookup"><span data-stu-id="81514-148">For example, it could be that inventory should only be used from the Bulk area of the warehouse.</span></span>  
+19. <span data-ttu-id="81514-149">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="81514-149">Click OK.</span></span>
+20. <span data-ttu-id="81514-150">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="81514-150">Close the page.</span></span>
 
-## <a name="create-a-replenishment-work-template"></a>Crear una plantilla de trabajo de reabastecimiento
-1. Vaya a Gestión de almacenes > Configurar > Trabajo > Plantillas de trabajo.
-    * La plantilla de trabajo se usa para guiar al sistema respecto a cómo se debe crear el trabajo de reabastecimiento mínimo o máximo. Como mínimo, debe haber una línea de plantilla de trabajo para un picking y una colocación. La plantilla de trabajo dirá que no es válida hasta que no se haya completado toda la información necesaria.  
-2. En el campo Tipo de pedido de trabajo, seleccione "Reabastecimiento".
-3. Haga clic en Nuevo.
-4. En el campo Plantilla de trabajo, escriba un valor.
-5. Haga clic en Guardar.
-6. Haga clic en Nuevo.
-7. En el campo Tipo de trabajo, seleccione "Seleccionar".
-8. En el campo Identificador de la clase de trabajo, especifique o seleccione un valor.
-    * Esto se debe ser una clase de trabajo relacionada con el reabastecimiento. Si utiliza USMF, seleccione Reabastecer.  
-9. Haga clic en Nuevo.
-10. En la lista, marque la fila seleccionada.
-11. En el campo Tipo de trabajo, seleccione Colocar.
-12. En el campo Identificador de la clase de trabajo, especifique o seleccione un valor.
-13. Haga clic en Guardar.
-14. Cierre la página.
+## <a name="create-a-replenishment-work-template"></a><span data-ttu-id="81514-151">Crear una plantilla de trabajo de reabastecimiento</span><span class="sxs-lookup"><span data-stu-id="81514-151">Create a replenishment work template</span></span>
+1. <span data-ttu-id="81514-152">Vaya a Gestión de almacenes > Configurar > Trabajo > Plantillas de trabajo.</span><span class="sxs-lookup"><span data-stu-id="81514-152">Go to Warehouse management > Setup > Work > Work templates.</span></span>
+    * <span data-ttu-id="81514-153">La plantilla de trabajo se usa para guiar al sistema respecto a cómo se debe crear el trabajo de reabastecimiento mínimo o máximo.</span><span class="sxs-lookup"><span data-stu-id="81514-153">The work template is use to guide the system as to how the min/max replenishment work must be created.</span></span> <span data-ttu-id="81514-154">Como mínimo, debe haber una línea de plantilla de trabajo para un picking y una colocación.</span><span class="sxs-lookup"><span data-stu-id="81514-154">As a minimum, there must be a work template line for a pick and a put.</span></span> <span data-ttu-id="81514-155">La plantilla de trabajo dirá que no es válida hasta que no se haya completado toda la información necesaria.</span><span class="sxs-lookup"><span data-stu-id="81514-155">The work template will say that it’s Invalid until all the necessary information has been filled in.</span></span>  
+2. <span data-ttu-id="81514-156">En el campo Tipo de pedido de trabajo, seleccione "Reabastecimiento".</span><span class="sxs-lookup"><span data-stu-id="81514-156">In the Work order type field, select 'Replenishment'.</span></span>
+3. <span data-ttu-id="81514-157">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="81514-157">Click New.</span></span>
+4. <span data-ttu-id="81514-158">En el campo Plantilla de trabajo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-158">In the Work template field, type a value.</span></span>
+5. <span data-ttu-id="81514-159">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="81514-159">Click Save.</span></span>
+6. <span data-ttu-id="81514-160">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="81514-160">Click New.</span></span>
+7. <span data-ttu-id="81514-161">En el campo Tipo de trabajo, seleccione "Seleccionar".</span><span class="sxs-lookup"><span data-stu-id="81514-161">In the Work type field, select 'Pick'.</span></span>
+8. <span data-ttu-id="81514-162">En el campo Identificador de la clase de trabajo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-162">In the Work class ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="81514-163">Esto se debe ser una clase de trabajo relacionada con el reabastecimiento.</span><span class="sxs-lookup"><span data-stu-id="81514-163">This should be a work class related to replenishment.</span></span> <span data-ttu-id="81514-164">Si utiliza USMF, seleccione Reabastecer.</span><span class="sxs-lookup"><span data-stu-id="81514-164">If you’re using USMF, select Replenish.</span></span>  
+9. <span data-ttu-id="81514-165">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="81514-165">Click New.</span></span>
+10. <span data-ttu-id="81514-166">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="81514-166">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="81514-167">En el campo Tipo de trabajo, seleccione Colocar.</span><span class="sxs-lookup"><span data-stu-id="81514-167">In the Work type field, select 'Put'.</span></span>
+12. <span data-ttu-id="81514-168">En el campo Identificador de la clase de trabajo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-168">In the Work class ID field, enter or select a value.</span></span>
+13. <span data-ttu-id="81514-169">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="81514-169">Click Save.</span></span>
+14. <span data-ttu-id="81514-170">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="81514-170">Close the page.</span></span>
 
-## <a name="create-a-new-replenishment-template"></a>Crear una nueva plantilla de reabastecimiento
-1. Vaya a Administración de almacenes > Configurar > Reabastecimiento > Plantillas de reabastecimiento.
-    * La plantilla de reabastecimiento se usa para definir los artículos y las cantidades, y la ubicación para reabastecimiento.  
-2. Haga clic en Nuevo.
-3. En el campo Plantilla de reabastecimiento, escriba un valor.
-    * Asigne un nombre a la plantilla para indicar que es para reabastecimiento mínimo o máximo.  
-4. En el campo Descripción, escriba un valor.
-5. Active la casilla Permitir demanda de oleadas para usar cantidades sin reservar.
-    * Si selecciona esta opción, permite que el reabastecimiento de demanda de oleadas consuma las cantidades relacionadas con el reabastecimiento mínimo o máximo. Por ejemplo, esto podría ser útil si no se procesa inmediatamente el trabajo de reabastecimiento mínimo o máximo, para evitar que se cree el trabajo de reabastecimiento de demanda innecesario.  
-6. Haga clic en Nuevo.
-7. En el campo Número de secuencia, especifique un número.
-8. En el campo Descripción, escriba un valor.
-9. En la lista, marque la fila seleccionada.
-10. En el campo Unidad de reabastecimiento, especifique o seleccione un valor.
-    * Por ejemplo, seleccione uds. Esta configuración es obligatoria. Permite especificar otra unidad de medida para el trabajo de reabastecimiento en comparación con la unidad especificada para los niveles de existencias mínimo y máximo en esta plantilla.  
-11. En el campo Plantilla de trabajo, especifique o seleccione un valor.
-    * Elija la plantilla de trabajo que ha creado anteriormente.  
-12. En el campo Cantidad mínima, escriba un número.
-    * Seleccione la cantidad mínima que debe desencandenar el reabastecimiento. Por ejemplo, establezca esto en 50. Es posible dejar este valor establecido en cero, si está reaprovisionando una ubicación fija y la opción Reabastecer solo ubicaciones fijas vacías se establece en Sí. También recomendamos que seleccione la opción Reabastecer solo ubicaciones fijas por motivos de rendimiento.  
-13. En el campo Cantidad máxima, escriba un número.
-    * Por ejemplo, establezca esto en 100.  
-14. En el campo Unidad, especifique o seleccione un valor.
-    * Asigne la unidad para las cantidades mínima y máxima. Por ejemplo, establezca esto en uds.  
-15. Active la casilla Reabastecer solo ubicaciones fijas vacías.
-    * Active esta casilla para reabastecer ubicaciones fijas cuando estén vacías. De lo contrario, solo se reabastecerán las ubicaciones en las que existe una cantidad disponible.  
-16. Active la casilla Reabastecer solo ubicaciones fijas.
-17. Haga clic en Seleccionar productos.
-    * Este es el lugar para definir qué productos se deben reabastecer. Si se selecciona la opción de ubicaciones de picking fijas, también debe definir las ubicaciones en esta consulta. Hay disponibles consultas específicas de variantes además de consultas específicas de productos.  
-18. Seleccione la fila Artículos.
-19. En el campo Criterios, escriba un valor.
-    * Seleccione los artículos que se deben reabastecer en las ubicaciones fijas. Por ejemplo, escriba A* para seleccionar todos los números de artículo que comienzan por A.  
-20. Haga clic en Agregar.
-    * Agregue la entidad de ubicación (a menos que ya existe) para poder restringir el trabajo de reabastecimiento a las ubicaciones de picking fijas dentro de un área específica del almacén.  
-21. En la lista, marque la fila seleccionada.
-22. Establezca el campo Tabla en Ubicaciones.
-23. En el campo Campo, seleccione Id. de perfil de ubicación.
-24. En el campo Criterios, especifique o seleccione un valor.
-25. Haga clic en Aceptar
-26. Cierre la página.
+## <a name="create-a-new-replenishment-template"></a><span data-ttu-id="81514-171">Crear una nueva plantilla de reabastecimiento</span><span class="sxs-lookup"><span data-stu-id="81514-171">Create a new replenishment template</span></span>
+1. <span data-ttu-id="81514-172">Vaya a Administración de almacenes > Configurar > Reabastecimiento > Plantillas de reabastecimiento.</span><span class="sxs-lookup"><span data-stu-id="81514-172">Go to Warehouse management > Setup > Replenishment > Replenishment templates.</span></span>
+    * <span data-ttu-id="81514-173">La plantilla de reabastecimiento se usa para definir los artículos y las cantidades, y la ubicación para reabastecimiento.</span><span class="sxs-lookup"><span data-stu-id="81514-173">The replenishment template is used to define the items and quantities, and the location to replenish.</span></span>  
+2. <span data-ttu-id="81514-174">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="81514-174">Click New.</span></span>
+3. <span data-ttu-id="81514-175">En el campo Plantilla de reabastecimiento, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-175">In the Replenish template field, type a value.</span></span>
+    * <span data-ttu-id="81514-176">Asigne un nombre a la plantilla para indicar que es para reabastecimiento mínimo o máximo.</span><span class="sxs-lookup"><span data-stu-id="81514-176">Give the template a name to indicate that it’s for min/max replenishment.</span></span>  
+4. <span data-ttu-id="81514-177">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-177">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="81514-178">Active la casilla Permitir demanda de oleadas para usar cantidades sin reservar.</span><span class="sxs-lookup"><span data-stu-id="81514-178">Select the Allow wave demand to use unreserved quantities check box.</span></span>
+    * <span data-ttu-id="81514-179">Si selecciona esta opción, permite que el reabastecimiento de demanda de oleadas consuma las cantidades relacionadas con el reabastecimiento mínimo o máximo.</span><span class="sxs-lookup"><span data-stu-id="81514-179">If you select this option, it enables wave demand replenishment to consume quantities that are related to min/max replenishment.</span></span> <span data-ttu-id="81514-180">Por ejemplo, esto podría ser útil si no se procesa inmediatamente el trabajo de reabastecimiento mínimo o máximo, para evitar que se cree el trabajo de reabastecimiento de demanda innecesario.</span><span class="sxs-lookup"><span data-stu-id="81514-180">For example, this might be useful if the min/max replenishment work isn’t processed immediately, to avoid unnecessary demand replenishment work from being created.</span></span>  
+6. <span data-ttu-id="81514-181">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="81514-181">Click New.</span></span>
+7. <span data-ttu-id="81514-182">En el campo Número de secuencia, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="81514-182">In the Sequence number field, enter a number.</span></span>
+8. <span data-ttu-id="81514-183">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-183">In the Description field, type a value.</span></span>
+9. <span data-ttu-id="81514-184">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="81514-184">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="81514-185">En el campo Unidad de reabastecimiento, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-185">In the Replenishment unit field, enter or select a value.</span></span>
+    * <span data-ttu-id="81514-186">Por ejemplo, seleccione uds.</span><span class="sxs-lookup"><span data-stu-id="81514-186">For example, select pcs.</span></span> <span data-ttu-id="81514-187">Esta configuración es obligatoria.</span><span class="sxs-lookup"><span data-stu-id="81514-187">This setting is mandatory.</span></span> <span data-ttu-id="81514-188">Permite especificar otra unidad de medida para el trabajo de reabastecimiento en comparación con la unidad especificada para los niveles de existencias mínimo y máximo en esta plantilla.</span><span class="sxs-lookup"><span data-stu-id="81514-188">It allows you to specify a different unit of measurement for replenishment work compared to the unit specified for the minimum and maximum stock levels in this template.</span></span>  
+11. <span data-ttu-id="81514-189">En el campo Plantilla de trabajo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-189">In the Work template field, enter or select a value.</span></span>
+    * <span data-ttu-id="81514-190">Elija la plantilla de trabajo que ha creado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="81514-190">Choose the work template that you created earlier.</span></span>  
+12. <span data-ttu-id="81514-191">En el campo Cantidad mínima, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="81514-191">In the Minimum quantity field, enter a number.</span></span>
+    * <span data-ttu-id="81514-192">Seleccione la cantidad mínima que debe desencandenar el reabastecimiento.</span><span class="sxs-lookup"><span data-stu-id="81514-192">Select the minimum quantity that should trigger the replenishment.</span></span> <span data-ttu-id="81514-193">Por ejemplo, establezca esto en 50.</span><span class="sxs-lookup"><span data-stu-id="81514-193">For example, set this to 50.</span></span> <span data-ttu-id="81514-194">Es posible dejar este valor establecido en cero, si está reaprovisionando una ubicación fija y la opción Reabastecer solo ubicaciones fijas vacías se establece en Sí.</span><span class="sxs-lookup"><span data-stu-id="81514-194">It is possible to leave this set to zero, if you’re replenishing a fixed location and the Replenish empty fixed locations option is set to Yes.</span></span> <span data-ttu-id="81514-195">También recomendamos que seleccione la opción Reabastecer solo ubicaciones fijas por motivos de rendimiento.</span><span class="sxs-lookup"><span data-stu-id="81514-195">We also recommend that you select the Replenish only fixed locations option for performance reasons.</span></span>  
+13. <span data-ttu-id="81514-196">En el campo Cantidad máxima, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="81514-196">In the Maximum quantity field, enter a number.</span></span>
+    * <span data-ttu-id="81514-197">Por ejemplo, establezca esto en 100.</span><span class="sxs-lookup"><span data-stu-id="81514-197">For example, set this to 100.</span></span>  
+14. <span data-ttu-id="81514-198">En el campo Unidad, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-198">In the Unit field, enter or select a value.</span></span>
+    * <span data-ttu-id="81514-199">Asigne la unidad para las cantidades mínima y máxima.</span><span class="sxs-lookup"><span data-stu-id="81514-199">Assign the unit for the minimum and maximum quantities.</span></span> <span data-ttu-id="81514-200">Por ejemplo, establezca esto en uds.</span><span class="sxs-lookup"><span data-stu-id="81514-200">For example, set this to pcs.</span></span>  
+15. <span data-ttu-id="81514-201">Active la casilla Reabastecer solo ubicaciones fijas vacías.</span><span class="sxs-lookup"><span data-stu-id="81514-201">Select the Replenish empty fixed locations check box.</span></span>
+    * <span data-ttu-id="81514-202">Active esta casilla para reabastecer ubicaciones fijas cuando estén vacías.</span><span class="sxs-lookup"><span data-stu-id="81514-202">Select this check box to replenish fixed locations when they are empty.</span></span> <span data-ttu-id="81514-203">De lo contrario, solo se reabastecerán las ubicaciones en las que existe una cantidad disponible.</span><span class="sxs-lookup"><span data-stu-id="81514-203">Otherwise, only the locations where there is a quantity on hand will be replenished.</span></span>  
+16. <span data-ttu-id="81514-204">Active la casilla Reabastecer solo ubicaciones fijas.</span><span class="sxs-lookup"><span data-stu-id="81514-204">Select the Replenish only fixed locations check box.</span></span>
+17. <span data-ttu-id="81514-205">Haga clic en Seleccionar productos.</span><span class="sxs-lookup"><span data-stu-id="81514-205">Click Select products.</span></span>
+    * <span data-ttu-id="81514-206">Este es el lugar para definir qué productos se deben reabastecer.</span><span class="sxs-lookup"><span data-stu-id="81514-206">This is the place to define which products should be replenished.</span></span> <span data-ttu-id="81514-207">Si se selecciona la opción de ubicaciones de picking fijas, también debe definir las ubicaciones en esta consulta.</span><span class="sxs-lookup"><span data-stu-id="81514-207">If the Fixed picking locations option is selected, you also need to define the locations in this query.</span></span> <span data-ttu-id="81514-208">Hay disponibles consultas específicas de variantes además de consultas específicas de productos.</span><span class="sxs-lookup"><span data-stu-id="81514-208">Variant-specific queries are available as well product-specific queries.</span></span>  
+18. <span data-ttu-id="81514-209">Seleccione la fila Artículos.</span><span class="sxs-lookup"><span data-stu-id="81514-209">Select the Items row.</span></span>
+19. <span data-ttu-id="81514-210">En el campo Criterios, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-210">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="81514-211">Seleccione los artículos que se deben reabastecer en las ubicaciones fijas.</span><span class="sxs-lookup"><span data-stu-id="81514-211">Select the items that should be replenished at the fixed locations.</span></span> <span data-ttu-id="81514-212">Por ejemplo, escriba A* para seleccionar todos los números de artículo que comienzan por A.</span><span class="sxs-lookup"><span data-stu-id="81514-212">For example, type A* to select all item numbers beginning with A.</span></span>  
+20. <span data-ttu-id="81514-213">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="81514-213">Click Add.</span></span>
+    * <span data-ttu-id="81514-214">Agregue la entidad de ubicación (a menos que ya existe) para poder restringir el trabajo de reabastecimiento a las ubicaciones de picking fijas dentro de un área específica del almacén.</span><span class="sxs-lookup"><span data-stu-id="81514-214">Add the Location entity (unless it already exists) to be able to restrict the replenishment work to the fixed picking locations within a specific area of the warehouse.</span></span>  
+21. <span data-ttu-id="81514-215">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="81514-215">In the list, mark the selected row.</span></span>
+22. <span data-ttu-id="81514-216">Establezca el campo Tabla en Ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="81514-216">Set the Table field to Locations.</span></span>
+23. <span data-ttu-id="81514-217">En el campo Campo, seleccione Id. de perfil de ubicación.</span><span class="sxs-lookup"><span data-stu-id="81514-217">In the Field field, select Location profile ID.</span></span>
+24. <span data-ttu-id="81514-218">En el campo Criterios, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-218">In the Criteria field, enter or select a value.</span></span>
+25. <span data-ttu-id="81514-219">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="81514-219">Click OK.</span></span>
+26. <span data-ttu-id="81514-220">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="81514-220">Close the page.</span></span>
 
-## <a name="set-the-replenishment-process-to-run-as-a-batch-job"></a>Establecer el proceso de reabastecimiento para que se ejecute como un proceso por lotes
-1. Vaya a Administración de almacenes > Reabastecimiento > Reabastecimientos.
-    * La página Reabastecimientos le permite configurar el reabastecimiento para que se ejecute como un trabajo por lotes, o para requerir que se inicie manualmente.  
-2. Haga clic en Filtro.
-3. En la lista, marque la fila seleccionada.
-4. En el campo Criterios, especifique o seleccione un valor.
-5. Haga clic en Aceptar
-6. Expanda la sección Ejecutar en segundo plano.
-7. Establezca la opción Procesamiento por lotes en Sí.
-8. Haga clic en Periodicidad.
-9. Seleccione la opción No hay fecha final.
-10. Establezca el patrón de repetición.
-    * Por ejemplo, seleccione Días.  
-11. Haga clic en Aceptar
-12. Haga clic en Aceptar
+## <a name="set-the-replenishment-process-to-run-as-a-batch-job"></a><span data-ttu-id="81514-221">Establecer el proceso de reabastecimiento para que se ejecute como un proceso por lotes</span><span class="sxs-lookup"><span data-stu-id="81514-221">Set the replenishment process to run as a batch job</span></span>
+1. <span data-ttu-id="81514-222">Vaya a Administración de almacenes > Reabastecimiento > Reabastecimientos.</span><span class="sxs-lookup"><span data-stu-id="81514-222">Go to Warehouse management > Replenishment > Replenishments.</span></span>
+    * <span data-ttu-id="81514-223">La página Reabastecimientos le permite configurar el reabastecimiento para que se ejecute como un trabajo por lotes, o para requerir que se inicie manualmente.</span><span class="sxs-lookup"><span data-stu-id="81514-223">The Replenishments page allows you to set up replenishment to run as a batch job, or to require that it’s started manually.</span></span>  
+2. <span data-ttu-id="81514-224">Haga clic en Filtro.</span><span class="sxs-lookup"><span data-stu-id="81514-224">Click Filter.</span></span>
+3. <span data-ttu-id="81514-225">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="81514-225">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="81514-226">En el campo Criterios, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="81514-226">In the Criteria field, enter or select a value.</span></span>
+5. <span data-ttu-id="81514-227">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="81514-227">Click OK.</span></span>
+6. <span data-ttu-id="81514-228">Expanda la sección Ejecutar en segundo plano.</span><span class="sxs-lookup"><span data-stu-id="81514-228">Expand the Run in the background section.</span></span>
+7. <span data-ttu-id="81514-229">Establezca la opción Procesamiento por lotes en Sí.</span><span class="sxs-lookup"><span data-stu-id="81514-229">Set the Batch processing option to Yes.</span></span>
+8. <span data-ttu-id="81514-230">Haga clic en Periodicidad.</span><span class="sxs-lookup"><span data-stu-id="81514-230">Click Recurrence.</span></span>
+9. <span data-ttu-id="81514-231">Seleccione la opción No hay fecha final.</span><span class="sxs-lookup"><span data-stu-id="81514-231">Select the No end date option.</span></span>
+10. <span data-ttu-id="81514-232">Establezca el patrón de repetición.</span><span class="sxs-lookup"><span data-stu-id="81514-232">Set the Recurrance pattern.</span></span>
+    * <span data-ttu-id="81514-233">Por ejemplo, seleccione Días.</span><span class="sxs-lookup"><span data-stu-id="81514-233">For example, select Days.</span></span>  
+11. <span data-ttu-id="81514-234">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="81514-234">Click OK.</span></span>
+12. <span data-ttu-id="81514-235">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="81514-235">Click OK.</span></span>
 
 

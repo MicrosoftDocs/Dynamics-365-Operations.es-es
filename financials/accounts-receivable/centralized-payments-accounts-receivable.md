@@ -19,285 +19,285 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c5a09eedd1dd12b7f5343953b16f9f0b210213d7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6327d9cab1651d22cd411f718f6e3a2f8733e13e
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="centralized-payments-for-accounts-receivable"></a>Pagos centralizados para Clientes
+# <a name="centralized-payments-for-accounts-receivable"></a><span data-ttu-id="73545-105">Pagos centralizados para Clientes</span><span class="sxs-lookup"><span data-stu-id="73545-105">Centralized payments for Accounts receivable</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica única que controle todos los pagos. Por lo tanto, no tiene que especificarse la misma transacción en varias entidades jurídicas. Este artículo proporciona ejemplos que muestran cómo el registro para pagos centralizados se gestiona en distintos escenarios.
+<span data-ttu-id="73545-106">Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica única que controle todos los pagos.</span><span class="sxs-lookup"><span data-stu-id="73545-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="73545-107">Por lo tanto, no tiene que especificarse la misma transacción en varias entidades jurídicas.</span><span class="sxs-lookup"><span data-stu-id="73545-107">Therefore, the same transaction doesn't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="73545-108">Este artículo proporciona ejemplos que muestran cómo el registro para pagos centralizados se gestiona en distintos escenarios.</span><span class="sxs-lookup"><span data-stu-id="73545-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 
-Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica que controle todos los pagos. Por lo tanto, no tiene que especificarse la misma transacción en varias entidades jurídicas. Además, la organización ahorra tiempo, ya que los procesos para las propuestas de pago, las liquidaciones y la edición de transacciones abiertas y cerradas para pagos centralizados se simplifican. 
+<span data-ttu-id="73545-109">Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica que controle todos los pagos.</span><span class="sxs-lookup"><span data-stu-id="73545-109">Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments.</span></span> <span data-ttu-id="73545-110">Por lo tanto, no tiene que especificarse la misma transacción en varias entidades jurídicas.</span><span class="sxs-lookup"><span data-stu-id="73545-110">Therefore, the same transaction doesn't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="73545-111">Además, la organización ahorra tiempo, ya que los procesos para las propuestas de pago, las liquidaciones y la edición de transacciones abiertas y cerradas para pagos centralizados se simplifican.</span><span class="sxs-lookup"><span data-stu-id="73545-111">Additionally, the organization saves time, because the processes for payment proposals, settlements, and editing open and closed transactions for centralized payments are streamlined.</span></span> 
 
-En una organización de pagos centralizados, existen muchas entidades jurídicas para las operaciones y cada entidad jurídica operativa administra su propia información de facturas de clientes. Los pagos de las entidades jurídicas operativas se reciben desde una única entidad jurídica denominada entidad jurídica del pago. Durante el proceso de liquidación, se generan las transacciones vencidas en el intervalo de fechas aplicable. Puede especificar la entidad jurídica de la organización que recibe las transacciones de pérdidas o de beneficios realizados y cómo se administrarán las transacciones de descuento por pronto pago relacionadas con los pagos centralizados. 
+<span data-ttu-id="73545-112">En una organización de pagos centralizados, existen muchas entidades jurídicas para las operaciones y cada entidad jurídica operativa administra su propia información de facturas de clientes.</span><span class="sxs-lookup"><span data-stu-id="73545-112">In a centralized payment organization, there are many legal entities for operations, and each operating legal entity manages its own invoices receivable information.</span></span> <span data-ttu-id="73545-113">Los pagos de las entidades jurídicas operativas se reciben desde una única entidad jurídica denominada entidad jurídica del pago.</span><span class="sxs-lookup"><span data-stu-id="73545-113">Payments for all the operating legal entities are received by a single legal entity, which is known as the legal entity of the payment.</span></span> <span data-ttu-id="73545-114">Durante el proceso de liquidación, se generan las transacciones vencidas en el intervalo de fechas aplicable.</span><span class="sxs-lookup"><span data-stu-id="73545-114">During the settlement process, the applicable due-to and due-from transactions are generated.</span></span> <span data-ttu-id="73545-115">Puede especificar la entidad jurídica de la organización que recibe las transacciones de pérdidas o de beneficios realizados y cómo se administrarán las transacciones de descuento por pronto pago relacionadas con los pagos centralizados.</span><span class="sxs-lookup"><span data-stu-id="73545-115">You can specify which legal entity in the organization receives the realized gain or realized loss transactions, and how cash discount transactions that are related to a centralized payment are handled.</span></span> 
 
-En los siguientes ejemplos se muestra cómo se gestionan los registros en distintas situaciones. Se usa la siguiente configuración en todos los ejemplos:
+<span data-ttu-id="73545-116">En los siguientes ejemplos se muestra cómo se gestionan los registros en distintas situaciones.</span><span class="sxs-lookup"><span data-stu-id="73545-116">The following examples illustrate how posting is handled in various scenarios.</span></span> <span data-ttu-id="73545-117">Se usa la siguiente configuración en todos los ejemplos:</span><span class="sxs-lookup"><span data-stu-id="73545-117">The following configuration is assumed for all these examples:</span></span>
 
--   Las entidades jurídicas son Fabrikam, Fabrikam Este y Fabrikam Oeste. Los pagos de cliente se especifican en Fabrikam.
--   El campo **Registrar descuento por pronto pago** en la página **Contabilidad de empresas vinculadas** está establecido en **Entidad jurídica de la factura**.
--   El campo **Registrar pérdida o ganancia por cambio de divisa** en la página **Contabilidad de empresas vinculadas** está establecido en **Entidad jurídica del pago**.
--   Customer Northwind Traders se ha configurado como cliente en cada entidad jurídica. Los clientes de las distintas entidades jurídicas se identifican como el mismo cliente, ya que comparten el mismo identificador de libreta de direcciones global.
+-   <span data-ttu-id="73545-118">Las entidades jurídicas son Fabrikam, Fabrikam Este y Fabrikam Oeste.</span><span class="sxs-lookup"><span data-stu-id="73545-118">The legal entities are Fabrikam, Fabrikam East, and Fabrikam West.</span></span> <span data-ttu-id="73545-119">Los pagos de cliente se especifican en Fabrikam.</span><span class="sxs-lookup"><span data-stu-id="73545-119">Customer payments are entered into Fabrikam.</span></span>
+-   <span data-ttu-id="73545-120">El campo **Registrar descuento por pronto pago** en la página **Contabilidad de empresas vinculadas** está establecido en **Entidad jurídica de la factura**.</span><span class="sxs-lookup"><span data-stu-id="73545-120">The **Post cash discount** field on the **Intercompany accounting** page is set to **Legal entity of the invoice**.</span></span>
+-   <span data-ttu-id="73545-121">El campo **Registrar pérdida o ganancia por cambio de divisa** en la página **Contabilidad de empresas vinculadas** está establecido en **Entidad jurídica del pago**.</span><span class="sxs-lookup"><span data-stu-id="73545-121">The **Post currency exchange gain or loss** field on the **Intercompany accounting** page is set to **Legal entity of the payment**.</span></span>
+-   <span data-ttu-id="73545-122">Customer Northwind Traders se ha configurado como cliente en cada entidad jurídica.</span><span class="sxs-lookup"><span data-stu-id="73545-122">Customer Northwind Traders is set up as a customer in each legal entity.</span></span> <span data-ttu-id="73545-123">Los clientes de las distintas entidades jurídicas se identifican como el mismo cliente, ya que comparten el mismo identificador de libreta de direcciones global.</span><span class="sxs-lookup"><span data-stu-id="73545-123">The customers from the various legal entities are identified as the same customer because they share the same global address book ID.</span></span>
 
-| Id. de libreta de direcciones | Cuenta de cliente | Nombre              | Entidad jurídica  |
+| <span data-ttu-id="73545-124">Id. de libreta de direcciones</span><span class="sxs-lookup"><span data-stu-id="73545-124">Address book ID</span></span> | <span data-ttu-id="73545-125">Cuenta de cliente</span><span class="sxs-lookup"><span data-stu-id="73545-125">Customer account</span></span> | <span data-ttu-id="73545-126">Nombre</span><span class="sxs-lookup"><span data-stu-id="73545-126">Name</span></span>              | <span data-ttu-id="73545-127">Entidad jurídica</span><span class="sxs-lookup"><span data-stu-id="73545-127">Legal entity</span></span>  |
 |-----------------|------------------|-------------------|---------------|
-| 4050            | 4000             | Northwind Traders | Fabrikam      |
-| 4050            | 4000             | Northwind Traders | Fabrikam Este |
-| 4050            | 10000            | Northwind Traders | Fabrikam Oeste |
+| <span data-ttu-id="73545-128">4050</span><span class="sxs-lookup"><span data-stu-id="73545-128">4050</span></span>            | <span data-ttu-id="73545-129">4000</span><span class="sxs-lookup"><span data-stu-id="73545-129">4000</span></span>             | <span data-ttu-id="73545-130">Northwind Traders</span><span class="sxs-lookup"><span data-stu-id="73545-130">Northwind Traders</span></span> | <span data-ttu-id="73545-131">Fabrikam</span><span class="sxs-lookup"><span data-stu-id="73545-131">Fabrikam</span></span>      |
+| <span data-ttu-id="73545-132">4050</span><span class="sxs-lookup"><span data-stu-id="73545-132">4050</span></span>            | <span data-ttu-id="73545-133">4000</span><span class="sxs-lookup"><span data-stu-id="73545-133">4000</span></span>             | <span data-ttu-id="73545-134">Northwind Traders</span><span class="sxs-lookup"><span data-stu-id="73545-134">Northwind Traders</span></span> | <span data-ttu-id="73545-135">Fabrikam Este</span><span class="sxs-lookup"><span data-stu-id="73545-135">Fabrikam East</span></span> |
+| <span data-ttu-id="73545-136">4050</span><span class="sxs-lookup"><span data-stu-id="73545-136">4050</span></span>            | <span data-ttu-id="73545-137">10000</span><span class="sxs-lookup"><span data-stu-id="73545-137">10000</span></span>            | <span data-ttu-id="73545-138">Northwind Traders</span><span class="sxs-lookup"><span data-stu-id="73545-138">Northwind Traders</span></span> | <span data-ttu-id="73545-139">Fabrikam Oeste</span><span class="sxs-lookup"><span data-stu-id="73545-139">Fabrikam West</span></span> |
 
-## <a name="example-1-customer-payment-of-invoice-from-another-legal-entity"></a>Ejemplo 1: pago de cliente de factura de otra entidad jurídica
-Fabrikam recibe un pago de 600,00 de la cuenta de cliente 4000 de Fabrikam, Northwind Traders. El pago se liquida con una factura abierta de la cuenta de cliente 4000 de Fabrikam Este.
+## <a name="example-1-customer-payment-of-invoice-from-another-legal-entity"></a><span data-ttu-id="73545-140">Ejemplo 1: pago de cliente de factura de otra entidad jurídica</span><span class="sxs-lookup"><span data-stu-id="73545-140">Example 1: Customer payment of invoice from another legal entity</span></span>
+<span data-ttu-id="73545-141">Fabrikam recibe un pago de 600,00 de la cuenta de cliente 4000 de Fabrikam, Northwind Traders.</span><span class="sxs-lookup"><span data-stu-id="73545-141">Fabrikam receives a payment of 600.00 for Fabrikam customer account 4000, Northwind Traders.</span></span> <span data-ttu-id="73545-142">El pago se liquida con una factura abierta de la cuenta de cliente 4000 de Fabrikam Este.</span><span class="sxs-lookup"><span data-stu-id="73545-142">The payment is settled with an open invoice for customer account 4000 in Fabrikam East.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-customer-4000"></a>Se registra la factura del cliente 4000 en Fabrikam Este
+### <a name="invoice-is-posted-in-fabrikam-east-for-customer-4000"></a><span data-ttu-id="73545-143">Se registra la factura del cliente 4000 en Fabrikam Este</span><span class="sxs-lookup"><span data-stu-id="73545-143">Invoice is posted in Fabrikam East for customer 4000</span></span>
 
-| Cuenta                             | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-144">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-144">Account</span></span>                             | <span data-ttu-id="73545-145">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-145">Debit amount</span></span> | <span data-ttu-id="73545-146">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-146">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Clientes (Fabrikam Este) | 600,00       |               |
-| Ventas (Fabrikam Este)               |              | 600,00        |
+| <span data-ttu-id="73545-147">Clientes (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-147">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="73545-148">600,00</span><span class="sxs-lookup"><span data-stu-id="73545-148">600.00</span></span>       |               |
+| <span data-ttu-id="73545-149">Ventas (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-149">Sales (Fabrikam East)</span></span>               |              | <span data-ttu-id="73545-150">600,00</span><span class="sxs-lookup"><span data-stu-id="73545-150">600.00</span></span>        |
 
-### <a name="payment-is-received-and-posted-in-fabrikam-for-customer-4000"></a>Se recibe y registra el pago del cliente 4000 en Fabrikam
+### <a name="payment-is-received-and-posted-in-fabrikam-for-customer-4000"></a><span data-ttu-id="73545-151">Se recibe y registra el pago del cliente 4000 en Fabrikam</span><span class="sxs-lookup"><span data-stu-id="73545-151">Payment is received and posted in Fabrikam for customer 4000</span></span>
 
-| Cuenta                        | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-152">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-152">Account</span></span>                        | <span data-ttu-id="73545-153">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-153">Debit amount</span></span> | <span data-ttu-id="73545-154">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-154">Credit amount</span></span> |
 |--------------------------------|--------------|---------------|
-| Efectivo (Fabrikam)                | 600,00       |               |
-| Clientes (Fabrikam) |              | 600,00        |
+| <span data-ttu-id="73545-155">Efectivo (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-155">Cash (Fabrikam)</span></span>                | <span data-ttu-id="73545-156">600,00</span><span class="sxs-lookup"><span data-stu-id="73545-156">600.00</span></span>       |               |
+| <span data-ttu-id="73545-157">Clientes (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-157">Accounts receivable (Fabrikam)</span></span> |              | <span data-ttu-id="73545-158">600,00</span><span class="sxs-lookup"><span data-stu-id="73545-158">600.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Se liquida el pago de Fabrikam con la factura de Fabrikam Este
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="73545-159">Se liquida el pago de Fabrikam con la factura de Fabrikam Este</span><span class="sxs-lookup"><span data-stu-id="73545-159">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Registro de Fabrikam**
+<span data-ttu-id="73545-160">**Registro de Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="73545-160">**Fabrikam posting**</span></span>
 
-| Cuenta                         | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-161">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-161">Account</span></span>                         | <span data-ttu-id="73545-162">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-162">Debit amount</span></span> | <span data-ttu-id="73545-163">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-163">Credit amount</span></span> |
 |---------------------------------|--------------|---------------|
-| Clientes (Fabrikam)  | 600,00       |               |
-| Importe debido a Fabrikam Este (Fabrikam) |              | 600,00        |
+| <span data-ttu-id="73545-164">Clientes (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-164">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="73545-165">600,00</span><span class="sxs-lookup"><span data-stu-id="73545-165">600.00</span></span>       |               |
+| <span data-ttu-id="73545-166">Importe debido a Fabrikam Este (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-166">Due to Fabrikam East (Fabrikam)</span></span> |              | <span data-ttu-id="73545-167">600,00</span><span class="sxs-lookup"><span data-stu-id="73545-167">600.00</span></span>        |
 
-**Registro de Fabrikam Este**
+<span data-ttu-id="73545-168">**Registro de Fabrikam Este**</span><span class="sxs-lookup"><span data-stu-id="73545-168">**Fabrikam East posting**</span></span>
 
-| Cuenta                             | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-169">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-169">Account</span></span>                             | <span data-ttu-id="73545-170">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-170">Debit amount</span></span> | <span data-ttu-id="73545-171">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-171">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Importe debido de Fabrikam (Fabrikam Este)   | 600,00       |               |
-| Clientes (Fabrikam Este) |              | 600,00        |
+| <span data-ttu-id="73545-172">Importe debido de Fabrikam (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-172">Due from Fabrikam (Fabrikam East)</span></span>   | <span data-ttu-id="73545-173">600,00</span><span class="sxs-lookup"><span data-stu-id="73545-173">600.00</span></span>       |               |
+| <span data-ttu-id="73545-174">Clientes (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-174">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="73545-175">600,00</span><span class="sxs-lookup"><span data-stu-id="73545-175">600.00</span></span>        |
 
-## <a name="example-2-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>Ejemplo 2: pago de cliente de factura de otra entidad jurídica con descuento por pronto pago
-Fabrikam recibe un pago de 580,00 del cliente 4000 de Fabrikam, Northwind Traders. Fabrikam Este tiene una factura abierta para el cliente 4000. La factura tiene un descuento por pronto pago de 20,00. El pago se liquida con las facturas abiertas de Fabrikam Este. El descuento por pronto pago se registra en la entidad jurídica de la factura: Fabrikam Este.
+## <a name="example-2-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a><span data-ttu-id="73545-176">Ejemplo 2: pago de cliente de factura de otra entidad jurídica con descuento por pronto pago</span><span class="sxs-lookup"><span data-stu-id="73545-176">Example 2: Customer payment of invoice from another legal entity with cash discount</span></span>
+<span data-ttu-id="73545-177">Fabrikam recibe un pago de 580,00 del cliente 4000 de Fabrikam, Northwind Traders.</span><span class="sxs-lookup"><span data-stu-id="73545-177">Fabrikam receives a payment of 580.00 for Fabrikam customer 4000, Northwind Traders.</span></span> <span data-ttu-id="73545-178">Fabrikam Este tiene una factura abierta para el cliente 4000.</span><span class="sxs-lookup"><span data-stu-id="73545-178">Fabrikam East has an open invoice for customer 4000.</span></span> <span data-ttu-id="73545-179">La factura tiene un descuento por pronto pago de 20,00.</span><span class="sxs-lookup"><span data-stu-id="73545-179">The invoice has a 20.00 cash discount available.</span></span> <span data-ttu-id="73545-180">El pago se liquida con las facturas abiertas de Fabrikam Este.</span><span class="sxs-lookup"><span data-stu-id="73545-180">The payment is settled with the open Fabrikam East invoices.</span></span> <span data-ttu-id="73545-181">El descuento por pronto pago se registra en la entidad jurídica de la factura: Fabrikam Este.</span><span class="sxs-lookup"><span data-stu-id="73545-181">The cash discount is posted to the legal entity of the invoice, Fabrikam East.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>Se registra la factura del cliente 4000 de Fabrikam Este en Fabrikam Este
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a><span data-ttu-id="73545-182">Se registra la factura del cliente 4000 de Fabrikam Este en Fabrikam Este</span><span class="sxs-lookup"><span data-stu-id="73545-182">Invoice is posted in Fabrikam East for Fabrikam East customer 4000</span></span>
 
-| Cuenta                             | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-183">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-183">Account</span></span>                             | <span data-ttu-id="73545-184">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-184">Debit amount</span></span> | <span data-ttu-id="73545-185">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-185">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Clientes (Fabrikam Este) | 600,00       |               |
-| Ventas (Fabrikam Este)               |              | 600,00        |
+| <span data-ttu-id="73545-186">Clientes (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-186">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="73545-187">600,00</span><span class="sxs-lookup"><span data-stu-id="73545-187">600.00</span></span>       |               |
+| <span data-ttu-id="73545-188">Ventas (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-188">Sales (Fabrikam East)</span></span>               |              | <span data-ttu-id="73545-189">600,00</span><span class="sxs-lookup"><span data-stu-id="73545-189">600.00</span></span>        |
 
-### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>Se recibe y registra el pago del cliente 4000 de Fabrikam en Fabrikam
+### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a><span data-ttu-id="73545-190">Se recibe y registra el pago del cliente 4000 de Fabrikam en Fabrikam</span><span class="sxs-lookup"><span data-stu-id="73545-190">Payment is received and posted in Fabrikam for Fabrikam customer 4000</span></span>
 
-| Cuenta                        | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-191">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-191">Account</span></span>                        | <span data-ttu-id="73545-192">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-192">Debit amount</span></span> | <span data-ttu-id="73545-193">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-193">Credit amount</span></span> |
 |--------------------------------|--------------|---------------|
-| Efectivo (Fabrikam)                | 600,00       |               |
-| Clientes (Fabrikam) |              | 600,00        |
+| <span data-ttu-id="73545-194">Efectivo (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-194">Cash (Fabrikam)</span></span>                | <span data-ttu-id="73545-195">600,00</span><span class="sxs-lookup"><span data-stu-id="73545-195">600.00</span></span>       |               |
+| <span data-ttu-id="73545-196">Clientes (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-196">Accounts receivable (Fabrikam)</span></span> |              | <span data-ttu-id="73545-197">600,00</span><span class="sxs-lookup"><span data-stu-id="73545-197">600.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Se liquida el pago de Fabrikam con la factura de Fabrikam Este
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="73545-198">Se liquida el pago de Fabrikam con la factura de Fabrikam Este</span><span class="sxs-lookup"><span data-stu-id="73545-198">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Registro de Fabrikam**
+<span data-ttu-id="73545-199">**Registro de Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="73545-199">**Fabrikam posting**</span></span>
 
-| Cuenta                         | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-200">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-200">Account</span></span>                         | <span data-ttu-id="73545-201">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-201">Debit amount</span></span> | <span data-ttu-id="73545-202">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-202">Credit amount</span></span> |
 |---------------------------------|--------------|---------------|
-| Clientes (Fabrikam)  | 580,00       |               |
-| Importe debido a Fabrikam Este (Fabrikam) |              | 580,00        |
+| <span data-ttu-id="73545-203">Clientes (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-203">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="73545-204">580,00</span><span class="sxs-lookup"><span data-stu-id="73545-204">580.00</span></span>       |               |
+| <span data-ttu-id="73545-205">Importe debido a Fabrikam Este (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-205">Due to Fabrikam East (Fabrikam)</span></span> |              | <span data-ttu-id="73545-206">580,00</span><span class="sxs-lookup"><span data-stu-id="73545-206">580.00</span></span>        |
 
-**Registro de Fabrikam Este**
+<span data-ttu-id="73545-207">**Registro de Fabrikam Este**</span><span class="sxs-lookup"><span data-stu-id="73545-207">**Fabrikam East posting**</span></span>
 
-| Cuenta                             | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-208">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-208">Account</span></span>                             | <span data-ttu-id="73545-209">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-209">Debit amount</span></span> | <span data-ttu-id="73545-210">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-210">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Importe debido de Fabrikam (Fabrikam Este)   | 580,00       |               |
-| Clientes (Fabrikam Este) |              | 580,00        |
-| Descuento por pronto pago (Fabrikam Este)       | 20,00        |               |
-| Clientes (Fabrikam Este) |              | 20,00         |
+| <span data-ttu-id="73545-211">Importe debido de Fabrikam (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-211">Due from Fabrikam (Fabrikam East)</span></span>   | <span data-ttu-id="73545-212">580,00</span><span class="sxs-lookup"><span data-stu-id="73545-212">580.00</span></span>       |               |
+| <span data-ttu-id="73545-213">Clientes (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-213">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="73545-214">580,00</span><span class="sxs-lookup"><span data-stu-id="73545-214">580.00</span></span>        |
+| <span data-ttu-id="73545-215">Descuento por pronto pago (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-215">Cash discount (Fabrikam East)</span></span>       | <span data-ttu-id="73545-216">20,00</span><span class="sxs-lookup"><span data-stu-id="73545-216">20.00</span></span>        |               |
+| <span data-ttu-id="73545-217">Clientes (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-217">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="73545-218">20,00</span><span class="sxs-lookup"><span data-stu-id="73545-218">20.00</span></span>         |
 
-## <a name="example-3-customer-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-gain"></a>Ejemplo 3: pago de factura de cliente de otra entidad jurídica con ganancias realizadas por tipo de cambio
-Fabrikam recibe un pago de 600,00 euros (EUR) del cliente 4000 de Fabrikam, Northwind Traders. El pago se liquida con una factura abierta del cliente 4000 de Fabrikam Este. Se genera una transacción de ganancias en el tipo de cambio de divisa durante el proceso de liquidación.
+## <a name="example-3-customer-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-gain"></a><span data-ttu-id="73545-219">Ejemplo 3: pago de factura de cliente de otra entidad jurídica con ganancias realizadas por tipo de cambio</span><span class="sxs-lookup"><span data-stu-id="73545-219">Example 3: Customer payment of invoice from another legal entity with realized exchange rate gain</span></span>
+<span data-ttu-id="73545-220">Fabrikam recibe un pago de 600,00 euros (EUR) del cliente 4000 de Fabrikam, Northwind Traders.</span><span class="sxs-lookup"><span data-stu-id="73545-220">Fabrikam receives a payment of 600.00 euros (EUR) for Fabrikam customer 4000, Northwind Traders.</span></span> <span data-ttu-id="73545-221">El pago se liquida con una factura abierta del cliente 4000 de Fabrikam Este.</span><span class="sxs-lookup"><span data-stu-id="73545-221">The payment is settled with an open invoice for customer 4000 in Fabrikam East.</span></span> <span data-ttu-id="73545-222">Se genera una transacción de ganancias en el tipo de cambio de divisa durante el proceso de liquidación.</span><span class="sxs-lookup"><span data-stu-id="73545-222">A currency exchange gain transaction is generated during the settlement process.</span></span>
 
--   Tipo de cambio de euros (EUR) a dólares estadounidenses (USD) en la fecha de factura: 1,2062
--   Tipo de cambio de euros a dólares USD en la fecha de pago: 1,2277
+-   <span data-ttu-id="73545-223">Tipo de cambio de euros (EUR) a dólares estadounidenses (USD) en la fecha de factura: 1,2062</span><span class="sxs-lookup"><span data-stu-id="73545-223">Exchange rate for EUR to U.S. dollars (USD) as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="73545-224">Tipo de cambio de euros a dólares USD en la fecha de pago: 1,2277</span><span class="sxs-lookup"><span data-stu-id="73545-224">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>Se registra la factura del cliente 4000 de Fabrikam Este en Fabrikam Este
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a><span data-ttu-id="73545-225">Se registra la factura del cliente 4000 de Fabrikam Este en Fabrikam Este</span><span class="sxs-lookup"><span data-stu-id="73545-225">Invoice is posted in Fabrikam East for Fabrikam East customer 4000</span></span>
 
-| Cuenta                             | Importe de débito            | Importe de crédito           |
+| <span data-ttu-id="73545-226">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-226">Account</span></span>                             | <span data-ttu-id="73545-227">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-227">Debit amount</span></span>            | <span data-ttu-id="73545-228">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-228">Credit amount</span></span>           |
 |-------------------------------------|-------------------------|-------------------------|
-| Clientes (Fabrikam Este) | 600,00 EUR / 723,72 dólares USD |                         |
-| Ventas (Fabrikam Este)               |                         | 600,00 EUR / 723,72 dólares USD |
+| <span data-ttu-id="73545-229">Clientes (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-229">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="73545-230">600,00 EUR / 723,72 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-230">600.00 EUR / 723.72 USD</span></span> |                         |
+| <span data-ttu-id="73545-231">Ventas (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-231">Sales (Fabrikam East)</span></span>               |                         | <span data-ttu-id="73545-232">600,00 EUR / 723,72 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-232">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>Se recibe y registra el pago del cliente 4000 de Fabrikam en Fabrikam
+### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a><span data-ttu-id="73545-233">Se recibe y registra el pago del cliente 4000 de Fabrikam en Fabrikam</span><span class="sxs-lookup"><span data-stu-id="73545-233">Payment is received and posted in Fabrikam for Fabrikam customer 4000</span></span>
 
-| Cuenta                        | Importe de débito            | Importe de crédito           |
+| <span data-ttu-id="73545-234">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-234">Account</span></span>                        | <span data-ttu-id="73545-235">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-235">Debit amount</span></span>            | <span data-ttu-id="73545-236">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-236">Credit amount</span></span>           |
 |--------------------------------|-------------------------|-------------------------|
-| Efectivo (Fabrikam)                | 600,00 EUR / 736,62 dólares USD |                         |
-| Clientes (Fabrikam) |                         | 600,00 EUR / 736,62 dólares USD |
+| <span data-ttu-id="73545-237">Efectivo (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-237">Cash (Fabrikam)</span></span>                | <span data-ttu-id="73545-238">600,00 EUR / 736,62 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-238">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="73545-239">Clientes (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-239">Accounts receivable (Fabrikam)</span></span> |                         | <span data-ttu-id="73545-240">600,00 EUR / 736,62 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-240">600.00 EUR / 736.62 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Se liquida el pago de Fabrikam con la factura de Fabrikam Este
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="73545-241">Se liquida el pago de Fabrikam con la factura de Fabrikam Este</span><span class="sxs-lookup"><span data-stu-id="73545-241">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Registro de Fabrikam**
+<span data-ttu-id="73545-242">**Registro de Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="73545-242">**Fabrikam posting**</span></span>
 
-| Cuenta                         | Importe de débito            | Importe de crédito           |
+| <span data-ttu-id="73545-243">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-243">Account</span></span>                         | <span data-ttu-id="73545-244">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-244">Debit amount</span></span>            | <span data-ttu-id="73545-245">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-245">Credit amount</span></span>           |
 |---------------------------------|-------------------------|-------------------------|
-| Clientes (Fabrikam)  | 600,00 EUR / 736,62 dólares USD |                         |
-| Importe debido a Fabrikam Este (Fabrikam) |                         | 600,00 EUR / 736,62 dólares USD |
-| Importe debido a Fabrikam Este (Fabrikam) | 0,00 EUR / 12,90 dólares USD    |                         |
-| Ganancia realizada (Fabrikam)        |                         | 0,00 EUR / 12,90 dólares USD    |
+| <span data-ttu-id="73545-246">Clientes (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-246">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="73545-247">600,00 EUR / 736,62 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-247">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="73545-248">Importe debido a Fabrikam Este (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-248">Due to Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="73545-249">600,00 EUR / 736,62 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-249">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="73545-250">Importe debido a Fabrikam Este (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-250">Due to Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="73545-251">0,00 EUR / 12,90 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-251">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="73545-252">Ganancia realizada (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-252">Realized gain (Fabrikam)</span></span>        |                         | <span data-ttu-id="73545-253">0,00 EUR / 12,90 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-253">0.00 EUR / 12.90 USD</span></span>    |
 
-**Registro de Fabrikam Este**
+<span data-ttu-id="73545-254">**Registro de Fabrikam Este**</span><span class="sxs-lookup"><span data-stu-id="73545-254">**Fabrikam East posting**</span></span>
 
-| Cuenta                             | Importe de débito            | Importe de crédito           |
+| <span data-ttu-id="73545-255">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-255">Account</span></span>                             | <span data-ttu-id="73545-256">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-256">Debit amount</span></span>            | <span data-ttu-id="73545-257">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-257">Credit amount</span></span>           |
 |-------------------------------------|-------------------------|-------------------------|
-| Importe debido de Fabrikam (Fabrikam Este)   | 600,00 EUR / 736,62 dólares USD |                         |
-| Clientes (Fabrikam Este) |                         | 600,00 EUR / 736,62 dólares USD |
-| Clientes (Fabrikam Este) | 0,00 EUR / 12,90 dólares USD    |                         |
-| Importe debido de Fabrikam (Fabrikam Este)   |                         | 0,00 EUR / 12,90 dólares USD    |
+| <span data-ttu-id="73545-258">Importe debido de Fabrikam (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-258">Due from Fabrikam (Fabrikam East)</span></span>   | <span data-ttu-id="73545-259">600,00 EUR / 736,62 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-259">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="73545-260">Clientes (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-260">Accounts receivable (Fabrikam East)</span></span> |                         | <span data-ttu-id="73545-261">600,00 EUR / 736,62 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-261">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="73545-262">Clientes (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-262">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="73545-263">0,00 EUR / 12,90 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-263">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="73545-264">Importe debido de Fabrikam (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-264">Due from Fabrikam (Fabrikam East)</span></span>   |                         | <span data-ttu-id="73545-265">0,00 EUR / 12,90 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-265">0.00 EUR / 12.90 USD</span></span>    |
 
-## <a name="example-4-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-gain"></a>Ejemplo 4: pago de cliente de factura de otra entidad jurídica con descuento por pronto pago y ganancia realizada por tipo de cambio
-Fabrikam registra un pago del cliente 4000 de Fabrikam, Northwind Traders, de una factura abierta de Fabrikam Este. La factura tiene un descuento por pronto pago y se genera una transacción de impuestos. El pago se liquida con una factura abierta de Fabrikam Este. Se genera una transacción de ganancias en el tipo de cambio de divisa durante el proceso de liquidación. El descuento por pronto pago se registra en la entidad jurídica de la factura (Fabrikam Este) y la ganancia por cambio de divisa se registra en la entidad jurídica del pago (Fabrikam).
+## <a name="example-4-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-gain"></a><span data-ttu-id="73545-266">Ejemplo 4: pago de cliente de factura de otra entidad jurídica con descuento por pronto pago y ganancia realizada por tipo de cambio</span><span class="sxs-lookup"><span data-stu-id="73545-266">Example 4: Customer payment of invoice from another legal entity with cash discount and realized exchange rate gain</span></span>
+<span data-ttu-id="73545-267">Fabrikam registra un pago del cliente 4000 de Fabrikam, Northwind Traders, de una factura abierta de Fabrikam Este.</span><span class="sxs-lookup"><span data-stu-id="73545-267">Fabrikam posts a payment for Fabrikam customer 4000, Northwind Traders, for an open invoice in Fabrikam East.</span></span> <span data-ttu-id="73545-268">La factura tiene un descuento por pronto pago y se genera una transacción de impuestos.</span><span class="sxs-lookup"><span data-stu-id="73545-268">The invoice has a cash discount available, and a sales tax transaction is generated.</span></span> <span data-ttu-id="73545-269">El pago se liquida con una factura abierta de Fabrikam Este.</span><span class="sxs-lookup"><span data-stu-id="73545-269">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="73545-270">Se genera una transacción de ganancias en el tipo de cambio de divisa durante el proceso de liquidación.</span><span class="sxs-lookup"><span data-stu-id="73545-270">A currency exchange gain transaction is generated during the settlement process.</span></span> <span data-ttu-id="73545-271">El descuento por pronto pago se registra en la entidad jurídica de la factura (Fabrikam Este) y la ganancia por cambio de divisa se registra en la entidad jurídica del pago (Fabrikam).</span><span class="sxs-lookup"><span data-stu-id="73545-271">The cash discount is posted to the legal entity of the invoice (Fabrikam East), and the currency exchange gain is posted to the legal entity of the payment (Fabrikam).</span></span>
 
--   Tipo de cambio de euros a dólares USD en la fecha de factura: 1,2062
--   Tipo de cambio de euros a dólares USD en la fecha de pago: 1,2277
+-   <span data-ttu-id="73545-272">Tipo de cambio de euros a dólares USD en la fecha de factura: 1,2062</span><span class="sxs-lookup"><span data-stu-id="73545-272">Exchange rate for EUR to USD as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="73545-273">Tipo de cambio de euros a dólares USD en la fecha de pago: 1,2277</span><span class="sxs-lookup"><span data-stu-id="73545-273">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="free-text-invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-customer-4000"></a>Se registra una factura de servicios y se genera una transacción de impuestos en Fabrikam Este para el cliente 4000
+### <a name="free-text-invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-customer-4000"></a><span data-ttu-id="73545-274">Se registra una factura de servicios y se genera una transacción de impuestos en Fabrikam Este para el cliente 4000</span><span class="sxs-lookup"><span data-stu-id="73545-274">Free text invoice is posted and a tax transaction is generated in Fabrikam East for customer 4000</span></span>
 
-| Cuenta                             | Importe de débito            | Importe de crédito           |
+| <span data-ttu-id="73545-275">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-275">Account</span></span>                             | <span data-ttu-id="73545-276">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-276">Debit amount</span></span>            | <span data-ttu-id="73545-277">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-277">Credit amount</span></span>           |
 |-------------------------------------|-------------------------|-------------------------|
-| Clientes (Fabrikam Este) | 638,22 EUR / 769,82 dólares USD |                         |
-| Ventas (Fabrikam Este)               |                         | 600,00 EUR / 723,72 dólares USD |
-| Impuestos (Fabrikam Este)           |                         | 38,22 EUR / 46,10 dólares USD   |
+| <span data-ttu-id="73545-278">Clientes (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-278">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="73545-279">638,22 EUR / 769,82 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-279">638.22 EUR / 769.82 USD</span></span> |                         |
+| <span data-ttu-id="73545-280">Ventas (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-280">Sales (Fabrikam East)</span></span>               |                         | <span data-ttu-id="73545-281">600,00 EUR / 723,72 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-281">600.00 EUR / 723.72 USD</span></span> |
+| <span data-ttu-id="73545-282">Impuestos (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-282">Sales tax (Fabrikam East)</span></span>           |                         | <span data-ttu-id="73545-283">38,22 EUR / 46,10 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-283">38.22 EUR / 46.10 USD</span></span>   |
 
-### <a name="payment-is-received-and-posted-in-fabrikam-for-customer-4000"></a>Se recibe y registra el pago del cliente 4000 en Fabrikam
+### <a name="payment-is-received-and-posted-in-fabrikam-for-customer-4000"></a><span data-ttu-id="73545-284">Se recibe y registra el pago del cliente 4000 en Fabrikam</span><span class="sxs-lookup"><span data-stu-id="73545-284">Payment is received and posted in Fabrikam for customer 4000</span></span>
 
-| Cuenta                        | Importe de débito            | Importe de crédito           |
+| <span data-ttu-id="73545-285">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-285">Account</span></span>                        | <span data-ttu-id="73545-286">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-286">Debit amount</span></span>            | <span data-ttu-id="73545-287">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-287">Credit amount</span></span>           |
 |--------------------------------|-------------------------|-------------------------|
-| Efectivo (Fabrikam)                | 626,22 EUR / 768,81 dólares USD |                         |
-| Clientes (Fabrikam) |                         | 626,22 EUR / 768,81 dólares USD |
+| <span data-ttu-id="73545-288">Efectivo (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-288">Cash (Fabrikam)</span></span>                | <span data-ttu-id="73545-289">626,22 EUR / 768,81 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-289">626.22 EUR / 768.81 USD</span></span> |                         |
+| <span data-ttu-id="73545-290">Clientes (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-290">Accounts receivable (Fabrikam)</span></span> |                         | <span data-ttu-id="73545-291">626,22 EUR / 768,81 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-291">626.22 EUR / 768.81 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Se liquida el pago de Fabrikam con una factura de Fabrikam Este
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="73545-292">Se liquida el pago de Fabrikam con una factura de Fabrikam Este</span><span class="sxs-lookup"><span data-stu-id="73545-292">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Registro de Fabrikam**
+<span data-ttu-id="73545-293">**Registro de Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="73545-293">**Fabrikam posting**</span></span>
 
-| Cuenta                         | Importe de débito            | Importe de crédito           |
+| <span data-ttu-id="73545-294">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-294">Account</span></span>                         | <span data-ttu-id="73545-295">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-295">Debit amount</span></span>            | <span data-ttu-id="73545-296">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-296">Credit amount</span></span>           |
 |---------------------------------|-------------------------|-------------------------|
-| Clientes (Fabrikam)  | 626,22 EUR / 768,81 dólares USD |                         |
-| Importe debido a Fabrikam Este (Fabrikam) |                         | 626,22 EUR / 768,81 dólares USD |
-| Importe debido a Fabrikam Este (Fabrikam) | 0,00 EUR / 13,46 dólares USD    |                         |
-| Ganancia realizada (Fabrikam)        |                         | 0,00 EUR / 13,46 dólares USD    |
+| <span data-ttu-id="73545-297">Clientes (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-297">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="73545-298">626,22 EUR / 768,81 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-298">626.22 EUR / 768.81 USD</span></span> |                         |
+| <span data-ttu-id="73545-299">Importe debido a Fabrikam Este (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-299">Due to Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="73545-300">626,22 EUR / 768,81 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-300">626.22 EUR / 768.81 USD</span></span> |
+| <span data-ttu-id="73545-301">Importe debido a Fabrikam Este (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-301">Due to Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="73545-302">0,00 EUR / 13,46 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-302">0.00 EUR / 13.46 USD</span></span>    |                         |
+| <span data-ttu-id="73545-303">Ganancia realizada (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-303">Realized gain (Fabrikam)</span></span>        |                         | <span data-ttu-id="73545-304">0,00 EUR / 13,46 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-304">0.00 EUR / 13.46 USD</span></span>    |
 
-**Registro de Fabrikam Este**
+<span data-ttu-id="73545-305">**Registro de Fabrikam Este**</span><span class="sxs-lookup"><span data-stu-id="73545-305">**Fabrikam East posting**</span></span>
 
-| Cuenta                             | Importe de débito            | Importe de crédito           |
+| <span data-ttu-id="73545-306">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-306">Account</span></span>                             | <span data-ttu-id="73545-307">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-307">Debit amount</span></span>            | <span data-ttu-id="73545-308">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-308">Credit amount</span></span>           |
 |-------------------------------------|-------------------------|-------------------------|
-| Importe debido de Fabrikam (Fabrikam Este)   | 626,22 EUR / 768,81 dólares USD |                         |
-| Clientes (Fabrikam Este) |                         | 626,22 EUR / 768,81 dólares USD |
-| Clientes (Fabrikam Este)  | 0,00 EUR / 13,46 dólares USD    |                         |
-| Importe debido de Fabrikam (Fabrikam Este)   |                         | 0,00 EUR / 13,46 dólares USD    |
-| Descuento por pronto pago (Fabrikam Este)       | 12,00 EUR / 14,47 dólares USD   |                         |
-| Clientes (Fabrikam Este) |                         | 12,00 EUR / 14,47 dólares USD   |
+| <span data-ttu-id="73545-309">Importe debido de Fabrikam (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-309">Due from Fabrikam (Fabrikam East)</span></span>   | <span data-ttu-id="73545-310">626,22 EUR / 768,81 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-310">626.22 EUR / 768.81 USD</span></span> |                         |
+| <span data-ttu-id="73545-311">Clientes (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-311">Accounts receivable (Fabrikam East)</span></span> |                         | <span data-ttu-id="73545-312">626,22 EUR / 768,81 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-312">626.22 EUR / 768.81 USD</span></span> |
+| <span data-ttu-id="73545-313">Clientes (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-313">Accounts receivable (Fabrikam East</span></span>  | <span data-ttu-id="73545-314">0,00 EUR / 13,46 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-314">0.00 EUR / 13.46 USD</span></span>    |                         |
+| <span data-ttu-id="73545-315">Importe debido de Fabrikam (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-315">Due from Fabrikam (Fabrikam East)</span></span>   |                         | <span data-ttu-id="73545-316">0,00 EUR / 13,46 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-316">0.00 EUR / 13.46 USD</span></span>    |
+| <span data-ttu-id="73545-317">Descuento por pronto pago (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-317">Cash discount (Fabrikam East)</span></span>       | <span data-ttu-id="73545-318">12,00 EUR / 14,47 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-318">12.00 EUR / 14.47 USD</span></span>   |                         |
+| <span data-ttu-id="73545-319">Clientes (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-319">Accounts receivable (Fabrikam East)</span></span> |                         | <span data-ttu-id="73545-320">12,00 EUR / 14,47 dólares USD</span><span class="sxs-lookup"><span data-stu-id="73545-320">12.00 EUR / 14.47 USD</span></span>   |
 
-## <a name="example-5-customer-credit-note-with-primary-payment"></a>Ejemplo 5: Nota de abono de cliente con pago principal
-Fabrikam recibe un pago de 75,00 del cliente 4000, Northwind Traders. El pago se liquida con una factura abierta del cliente 10000 de Fabrikam Oeste y una nota de abono abierta del cliente 4000 de Fabrikam Este. Se selecciona el pago como pago principal en la página **Liquidar transacciones**.
+## <a name="example-5-customer-credit-note-with-primary-payment"></a><span data-ttu-id="73545-321">Ejemplo 5: Nota de abono de cliente con pago principal</span><span class="sxs-lookup"><span data-stu-id="73545-321">Example 5: Customer credit note with primary payment</span></span>
+<span data-ttu-id="73545-322">Fabrikam recibe un pago de 75,00 del cliente 4000, Northwind Traders.</span><span class="sxs-lookup"><span data-stu-id="73545-322">Fabrikam receives a payment of 75.00 from customer 4000, Northwind Traders.</span></span> <span data-ttu-id="73545-323">El pago se liquida con una factura abierta del cliente 10000 de Fabrikam Oeste y una nota de abono abierta del cliente 4000 de Fabrikam Este.</span><span class="sxs-lookup"><span data-stu-id="73545-323">The payment is settled with an open invoice for Fabrikam West customer 10000 and an open credit note for Fabrikam East customer 4000.</span></span> <span data-ttu-id="73545-324">Se selecciona el pago como pago principal en la página **Liquidar transacciones**.</span><span class="sxs-lookup"><span data-stu-id="73545-324">The payment is selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Se registra la factura del cliente 10000 en Fabrikam Oeste
+### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a><span data-ttu-id="73545-325">Se registra la factura del cliente 10000 en Fabrikam Oeste</span><span class="sxs-lookup"><span data-stu-id="73545-325">Invoice is posted to Fabrikam West for customer 10000</span></span>
 
-| Cuenta                             | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-326">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-326">Account</span></span>                             | <span data-ttu-id="73545-327">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-327">Debit amount</span></span> | <span data-ttu-id="73545-328">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-328">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Clientes (Fabrikam Oeste) | 100,00       |               |
-| Ventas (Fabrikam Oeste)               |              | 100,00        |
+| <span data-ttu-id="73545-329">Clientes (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="73545-329">Accounts receivable (Fabrikam West)</span></span> | <span data-ttu-id="73545-330">100,00</span><span class="sxs-lookup"><span data-stu-id="73545-330">100.00</span></span>       |               |
+| <span data-ttu-id="73545-331">Ventas (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="73545-331">Sales (Fabrikam West)</span></span>               |              | <span data-ttu-id="73545-332">100,00</span><span class="sxs-lookup"><span data-stu-id="73545-332">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-customer-4000"></a>Se registra la nota de abono del cliente 4000 en Fabrikam Este
+### <a name="credit-note-is-posted-to-fabrikam-east-for-customer-4000"></a><span data-ttu-id="73545-333">Se registra la nota de abono del cliente 4000 en Fabrikam Este</span><span class="sxs-lookup"><span data-stu-id="73545-333">Credit note is posted to Fabrikam East for customer 4000</span></span>
 
-| Cuenta                             | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-334">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-334">Account</span></span>                             | <span data-ttu-id="73545-335">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-335">Debit amount</span></span> | <span data-ttu-id="73545-336">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-336">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Devolución de ventas (Fabrikam Este)       | 25,00        |               |
-| Clientes (Fabrikam Este) |              | 25,00         |
+| <span data-ttu-id="73545-337">Devolución de ventas (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-337">Sales returns (Fabrikam East)</span></span>       | <span data-ttu-id="73545-338">25,00</span><span class="sxs-lookup"><span data-stu-id="73545-338">25.00</span></span>        |               |
+| <span data-ttu-id="73545-339">Clientes (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-339">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="73545-340">25,00</span><span class="sxs-lookup"><span data-stu-id="73545-340">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-customer-4000"></a>Se registra el pago del cliente 4000 en Fabrikam
+### <a name="payment-is-posted-to-fabrikam-for-customer-4000"></a><span data-ttu-id="73545-341">Se registra el pago del cliente 4000 en Fabrikam</span><span class="sxs-lookup"><span data-stu-id="73545-341">Payment is posted to Fabrikam for customer 4000</span></span>
 
-| Cuenta                        | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-342">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-342">Account</span></span>                        | <span data-ttu-id="73545-343">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-343">Debit amount</span></span> | <span data-ttu-id="73545-344">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-344">Credit amount</span></span> |
 |--------------------------------|--------------|---------------|
-| Efectivo (Fabrikam)                | 75,00        |               |
-| Clientes (Fabrikam) |              | 75,00         |
+| <span data-ttu-id="73545-345">Efectivo (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-345">Cash (Fabrikam)</span></span>                | <span data-ttu-id="73545-346">75,00</span><span class="sxs-lookup"><span data-stu-id="73545-346">75.00</span></span>        |               |
+| <span data-ttu-id="73545-347">Clientes (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-347">Accounts receivable (Fabrikam)</span></span> |              | <span data-ttu-id="73545-348">75,00</span><span class="sxs-lookup"><span data-stu-id="73545-348">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Se liquida el pago de Fabrikam con la factura de Fabrikam Oeste y la nota de abono de Fabrikam Este
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="73545-349">Se liquida el pago de Fabrikam con la factura de Fabrikam Oeste y la nota de abono de Fabrikam Este</span><span class="sxs-lookup"><span data-stu-id="73545-349">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Registro de Fabrikam**
+<span data-ttu-id="73545-350">**Registro de Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="73545-350">**Fabrikam posting**</span></span>
 
-| Cuenta                           | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-351">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-351">Account</span></span>                           | <span data-ttu-id="73545-352">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-352">Debit amount</span></span> | <span data-ttu-id="73545-353">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-353">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Importe debido de Fabrikam Este (Fabrikam) | 25,00        |               |
-| Clientes (Fabrikam)    |              | 25,00         |
-| Clientes (Fabrikam)    | 100,00       |               |
-| Importe debido a Fabrikam Oeste (Fabrikam)   |              | 100,00        |
+| <span data-ttu-id="73545-354">Importe debido de Fabrikam Este (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-354">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="73545-355">25,00</span><span class="sxs-lookup"><span data-stu-id="73545-355">25.00</span></span>        |               |
+| <span data-ttu-id="73545-356">Clientes (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-356">Accounts receivable (Fabrikam)</span></span>    |              | <span data-ttu-id="73545-357">25,00</span><span class="sxs-lookup"><span data-stu-id="73545-357">25.00</span></span>         |
+| <span data-ttu-id="73545-358">Clientes (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-358">Accounts receivable (Fabrikam)</span></span>    | <span data-ttu-id="73545-359">100,00</span><span class="sxs-lookup"><span data-stu-id="73545-359">100.00</span></span>       |               |
+| <span data-ttu-id="73545-360">Importe debido a Fabrikam Oeste (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-360">Due to Fabrikam West (Fabrikam)</span></span>   |              | <span data-ttu-id="73545-361">100,00</span><span class="sxs-lookup"><span data-stu-id="73545-361">100.00</span></span>        |
 
-**Registro de Fabrikam Este**
+<span data-ttu-id="73545-362">**Registro de Fabrikam Este**</span><span class="sxs-lookup"><span data-stu-id="73545-362">**Fabrikam East posting**</span></span>
 
-| Cuenta                             | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-363">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-363">Account</span></span>                             | <span data-ttu-id="73545-364">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-364">Debit amount</span></span> | <span data-ttu-id="73545-365">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-365">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Clientes (Fabrikam Este) | 25,00        |               |
-| Importe debido a Fabrikam (Fabrikam Este)     |              | 25,00         |
+| <span data-ttu-id="73545-366">Clientes (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-366">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="73545-367">25,00</span><span class="sxs-lookup"><span data-stu-id="73545-367">25.00</span></span>        |               |
+| <span data-ttu-id="73545-368">Importe debido a Fabrikam (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-368">Due to Fabrikam (Fabrikam East)</span></span>     |              | <span data-ttu-id="73545-369">25,00</span><span class="sxs-lookup"><span data-stu-id="73545-369">25.00</span></span>         |
 
-**Registro de Fabrikam Oeste**
+<span data-ttu-id="73545-370">**Registro de Fabrikam Oeste**</span><span class="sxs-lookup"><span data-stu-id="73545-370">**Fabrikam West posting**</span></span>
 
-| Cuenta                             | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-371">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-371">Account</span></span>                             | <span data-ttu-id="73545-372">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-372">Debit amount</span></span> | <span data-ttu-id="73545-373">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-373">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Importe debido de Fabrikam (Fabrikam Oeste)   | 100,00       |               |
-| Clientes (Fabrikam Oeste) |              | 100,00        |
+| <span data-ttu-id="73545-374">Importe debido de Fabrikam (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="73545-374">Due from Fabrikam (Fabrikam West)</span></span>   | <span data-ttu-id="73545-375">100,00</span><span class="sxs-lookup"><span data-stu-id="73545-375">100.00</span></span>       |               |
+| <span data-ttu-id="73545-376">Clientes (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="73545-376">Accounts receivable (Fabrikam West)</span></span> |              | <span data-ttu-id="73545-377">100,00</span><span class="sxs-lookup"><span data-stu-id="73545-377">100.00</span></span>        |
 
-## <a name="example-6-customer-credit-note-without-primary-payment"></a>Ejemplo 6: Nota de abono de cliente sin pago principal
-Fabrikam recibe un pago de 75,00 del cliente 4000, Northwind Traders. El pago se liquida con una factura abierta del cliente 10000 de Fabrikam Oeste y una nota de abono abierta del cliente 4000 de Fabrikam Este. No se selecciona el pago como pago principal en la página **Liquidar transacciones**.
+## <a name="example-6-customer-credit-note-without-primary-payment"></a><span data-ttu-id="73545-378">Ejemplo 6: Nota de abono de cliente sin pago principal</span><span class="sxs-lookup"><span data-stu-id="73545-378">Example 6: Customer credit note without primary payment</span></span>
+<span data-ttu-id="73545-379">Fabrikam recibe un pago de 75,00 del cliente 4000, Northwind Traders.</span><span class="sxs-lookup"><span data-stu-id="73545-379">Fabrikam receives a payment of 75.00 from customer 4000, Northwind Traders.</span></span> <span data-ttu-id="73545-380">El pago se liquida con una factura abierta del cliente 10000 de Fabrikam Oeste y una nota de abono abierta del cliente 4000 de Fabrikam Este.</span><span class="sxs-lookup"><span data-stu-id="73545-380">The payment is settled with an open invoice for Fabrikam West customer 10000 and an open credit note for Fabrikam East customer 4000.</span></span> <span data-ttu-id="73545-381">No se selecciona el pago como pago principal en la página **Liquidar transacciones**.</span><span class="sxs-lookup"><span data-stu-id="73545-381">The payment isn't selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Se registra la factura del cliente 10000 en Fabrikam Oeste
+### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a><span data-ttu-id="73545-382">Se registra la factura del cliente 10000 en Fabrikam Oeste</span><span class="sxs-lookup"><span data-stu-id="73545-382">Invoice is posted to Fabrikam West for customer 10000</span></span>
 
-| Cuenta                             | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-383">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-383">Account</span></span>                             | <span data-ttu-id="73545-384">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-384">Debit amount</span></span> | <span data-ttu-id="73545-385">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-385">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Clientes (Fabrikam Oeste) | 100,00       |               |
-| Ventas (Fabrikam Oeste)               |              | 100,00        |
+| <span data-ttu-id="73545-386">Clientes (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="73545-386">Accounts receivable (Fabrikam West)</span></span> | <span data-ttu-id="73545-387">100,00</span><span class="sxs-lookup"><span data-stu-id="73545-387">100.00</span></span>       |               |
+| <span data-ttu-id="73545-388">Ventas (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="73545-388">Sales (Fabrikam West)</span></span>               |              | <span data-ttu-id="73545-389">100,00</span><span class="sxs-lookup"><span data-stu-id="73545-389">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-customer-4000"></a>Se registra la nota de abono del cliente 4000 en Fabrikam Este
+### <a name="credit-note-is-posted-to-fabrikam-east-for-customer-4000"></a><span data-ttu-id="73545-390">Se registra la nota de abono del cliente 4000 en Fabrikam Este</span><span class="sxs-lookup"><span data-stu-id="73545-390">Credit note is posted to Fabrikam East for customer 4000</span></span>
 
-| Cuenta                             | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-391">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-391">Account</span></span>                             | <span data-ttu-id="73545-392">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-392">Debit amount</span></span> | <span data-ttu-id="73545-393">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-393">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Devolución de ventas (Fabrikam Este)       | 25,00        |               |
-| Clientes (Fabrikam Este) |              | 25,00         |
+| <span data-ttu-id="73545-394">Devolución de ventas (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-394">Sales returns (Fabrikam East)</span></span>       | <span data-ttu-id="73545-395">25,00</span><span class="sxs-lookup"><span data-stu-id="73545-395">25.00</span></span>        |               |
+| <span data-ttu-id="73545-396">Clientes (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-396">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="73545-397">25,00</span><span class="sxs-lookup"><span data-stu-id="73545-397">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-customer-4000"></a>Se registra el pago del cliente 4000 en Fabrikam
+### <a name="payment-is-posted-to-fabrikam-for-customer-4000"></a><span data-ttu-id="73545-398">Se registra el pago del cliente 4000 en Fabrikam</span><span class="sxs-lookup"><span data-stu-id="73545-398">Payment is posted to Fabrikam for customer 4000</span></span>
 
-| Cuenta                        | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-399">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-399">Account</span></span>                        | <span data-ttu-id="73545-400">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-400">Debit amount</span></span> | <span data-ttu-id="73545-401">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-401">Credit amount</span></span> |
 |--------------------------------|--------------|---------------|
-| Efectivo (Fabrikam)                | 75,00        |               |
-| Clientes (Fabrikam) |              | 75,00         |
+| <span data-ttu-id="73545-402">Efectivo (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-402">Cash (Fabrikam)</span></span>                | <span data-ttu-id="73545-403">75,00</span><span class="sxs-lookup"><span data-stu-id="73545-403">75.00</span></span>        |               |
+| <span data-ttu-id="73545-404">Clientes (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-404">Accounts receivable (Fabrikam)</span></span> |              | <span data-ttu-id="73545-405">75,00</span><span class="sxs-lookup"><span data-stu-id="73545-405">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Se liquida el pago de Fabrikam con la factura de Fabrikam Oeste y la nota de abono de Fabrikam Este
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="73545-406">Se liquida el pago de Fabrikam con la factura de Fabrikam Oeste y la nota de abono de Fabrikam Este</span><span class="sxs-lookup"><span data-stu-id="73545-406">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Registro de Fabrikam**
+<span data-ttu-id="73545-407">**Registro de Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="73545-407">**Fabrikam posting**</span></span>
 
-| Cuenta                         | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-408">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-408">Account</span></span>                         | <span data-ttu-id="73545-409">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-409">Debit amount</span></span> | <span data-ttu-id="73545-410">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-410">Credit amount</span></span> |
 |---------------------------------|--------------|---------------|
-| Clientes (Fabrikam)  | 75,00        |               |
-| Importe debido a Fabrikam Oeste (Fabrikam) |              | 75,00         |
+| <span data-ttu-id="73545-411">Clientes (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-411">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="73545-412">75,00</span><span class="sxs-lookup"><span data-stu-id="73545-412">75.00</span></span>        |               |
+| <span data-ttu-id="73545-413">Importe debido a Fabrikam Oeste (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="73545-413">Due to Fabrikam West (Fabrikam)</span></span> |              | <span data-ttu-id="73545-414">75,00</span><span class="sxs-lookup"><span data-stu-id="73545-414">75.00</span></span>         |
 
-**Registro de Fabrikam Este**
+<span data-ttu-id="73545-415">**Registro de Fabrikam Este**</span><span class="sxs-lookup"><span data-stu-id="73545-415">**Fabrikam East posting**</span></span>
 
-| Cuenta                              | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-416">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-416">Account</span></span>                              | <span data-ttu-id="73545-417">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-417">Debit amount</span></span> | <span data-ttu-id="73545-418">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-418">Credit amount</span></span> |
 |--------------------------------------|--------------|---------------|
-| Clientes (Fabrikam Este)  | 25,00        |               |
-| Importe debido a Fabrikam Oeste (Fabrikam Este) |              | 25,00         |
+| <span data-ttu-id="73545-419">Clientes (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-419">Accounts receivable (Fabrikam East)</span></span>  | <span data-ttu-id="73545-420">25,00</span><span class="sxs-lookup"><span data-stu-id="73545-420">25.00</span></span>        |               |
+| <span data-ttu-id="73545-421">Importe debido a Fabrikam Oeste (Fabrikam Este)</span><span class="sxs-lookup"><span data-stu-id="73545-421">Due to Fabrikam West (Fabrikam East)</span></span> |              | <span data-ttu-id="73545-422">25,00</span><span class="sxs-lookup"><span data-stu-id="73545-422">25.00</span></span>         |
 
-**Registro de Fabrikam Oeste**
+<span data-ttu-id="73545-423">**Registro de Fabrikam Oeste**</span><span class="sxs-lookup"><span data-stu-id="73545-423">**Fabrikam West posting**</span></span>
 
-| Cuenta                                | Importe de débito | Importe de crédito |
+| <span data-ttu-id="73545-424">Cuenta</span><span class="sxs-lookup"><span data-stu-id="73545-424">Account</span></span>                                | <span data-ttu-id="73545-425">Importe de débito</span><span class="sxs-lookup"><span data-stu-id="73545-425">Debit amount</span></span> | <span data-ttu-id="73545-426">Importe de crédito</span><span class="sxs-lookup"><span data-stu-id="73545-426">Credit amount</span></span> |
 |----------------------------------------|--------------|---------------|
-| Importe debido de Fabrikam (Fabrikam Oeste)      | 75,00        |               |
-| Clientes (Fabrikam Oeste)    |              | 75,00         |
-| Importe debido de Fabrikam Este (Fabrikam Oeste) | 25,00        |               |
-| Clientes (Fabrikam Oeste)    |              | 25,00         |
+| <span data-ttu-id="73545-427">Importe debido de Fabrikam (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="73545-427">Due from Fabrikam (Fabrikam West)</span></span>      | <span data-ttu-id="73545-428">75,00</span><span class="sxs-lookup"><span data-stu-id="73545-428">75.00</span></span>        |               |
+| <span data-ttu-id="73545-429">Clientes (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="73545-429">Accounts receivable (Fabrikam West)</span></span>    |              | <span data-ttu-id="73545-430">75,00</span><span class="sxs-lookup"><span data-stu-id="73545-430">75.00</span></span>         |
+| <span data-ttu-id="73545-431">Importe debido de Fabrikam Este (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="73545-431">Due from Fabrikam East (Fabrikam West)</span></span> | <span data-ttu-id="73545-432">25,00</span><span class="sxs-lookup"><span data-stu-id="73545-432">25.00</span></span>        |               |
+| <span data-ttu-id="73545-433">Clientes (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="73545-433">Accounts receivable (Fabrikam West)</span></span>    |              | <span data-ttu-id="73545-434">25,00</span><span class="sxs-lookup"><span data-stu-id="73545-434">25.00</span></span>         |
 
 
 

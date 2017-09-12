@@ -24,34 +24,34 @@ ms.contentlocale: es-es
 ms.lasthandoff: 08/04/2017
 
 ---
-# <a name="on-premises-deployment-landing-page"></a>Página de aterrizaje de implementación local
+# <a name="on-premises-deployment-landing-page"></a><span data-ttu-id="69244-103">Página de aterrizaje de implementación local</span><span class="sxs-lookup"><span data-stu-id="69244-103">On-premises deployment landing page</span></span>
 
-Puede implementar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (local). Cuando selecciona un tipo de implementación local, los requisitos del sistema, el tamaño de hardware y la funcionalidad difieren de una implementación en la nube. Este tema proporciona vínculos al contenido que contienen información específica para implementaciones locales.
+<span data-ttu-id="69244-104">Puede implementar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (local).</span><span class="sxs-lookup"><span data-stu-id="69244-104">You can deploy Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (on-premises).</span></span> <span data-ttu-id="69244-105">Cuando selecciona un tipo de implementación local, los requisitos del sistema, el tamaño de hardware y la funcionalidad difieren de una implementación en la nube.</span><span class="sxs-lookup"><span data-stu-id="69244-105">When you choose an on-premises deployment type, the system requirements, hardware sizing, and functionality differ from a cloud deployment.</span></span> <span data-ttu-id="69244-106">Este tema proporciona vínculos al contenido que contienen información específica para implementaciones locales.</span><span class="sxs-lookup"><span data-stu-id="69244-106">This topic provides links to content that contains information specific to on-premises deployments.</span></span>
 
-**Nota:** Dynamics 365 for Operations (local) se está cambiando de nombre actualmente. Verá Dynamics 365 for Operations (local) al que se hace referencia en las comunicaciones y guías de autorización. El nombre del producto que verá cuando lo implemente es Dynamics 365 for Finance and Operations, Enterprise Edition. Estos dos nombres hacen referencia al mismo producto.
+<span data-ttu-id="69244-107">**Nota:** Dynamics 365 for Operations (local) se está cambiando de nombre actualmente.</span><span class="sxs-lookup"><span data-stu-id="69244-107">**Note:** Dynamics 365 for Operations (on-premises) is currently being renamed.</span></span> <span data-ttu-id="69244-108">Verá Dynamics 365 for Operations (local) al que se hace referencia en las comunicaciones y guías de autorización.</span><span class="sxs-lookup"><span data-stu-id="69244-108">You will see Dynamics 365 for Operations (on-premises) referenced throughout communications and licensing guides.</span></span> <span data-ttu-id="69244-109">El nombre del producto que verá cuando lo implemente es Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="69244-109">The in-product name that you will see when deploying the product is Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="69244-110">Estos dos nombres hacen referencia al mismo producto.</span><span class="sxs-lookup"><span data-stu-id="69244-110">Both of these names refer to the same product.</span></span>
 
-## <a name="get-started"></a>Introducción
-- [Visión general de Dynamics 365 for Finance and Operations, Enterprise Edition (local)](on-premises-overview.md)
-- [Requisitos del sistema para implementaciones locales](../get-started/system-requirements-on-prem.md)
-- [Tamaño del hardware para entornos locales](../get-started/hardware-sizing-on-premises-environments.md)
-- [Política de servicio en línea y ciclo de vida de software local](../migration-upgrade/versions-update-policy.md)
-- [Comprar Dynamics 365 for Finance and Operations, Enterprise Edition (local)](../get-started/purchase-on-premises.md)
+## <a name="get-started"></a><span data-ttu-id="69244-111">Introducción</span><span class="sxs-lookup"><span data-stu-id="69244-111">Get started</span></span>
+- [<span data-ttu-id="69244-112">Visión general de Dynamics 365 for Finance and Operations, Enterprise Edition (local)</span><span class="sxs-lookup"><span data-stu-id="69244-112">Dynamics 365 for Finance and Operations, Enterprise edition (on-premises) overview</span></span>](on-premises-overview.md)
+- [<span data-ttu-id="69244-113">Requisitos del sistema para implementaciones locales</span><span class="sxs-lookup"><span data-stu-id="69244-113">System requirements for on-premises deployments</span></span>](../get-started/system-requirements-on-prem.md)
+- [<span data-ttu-id="69244-114">Tamaño del hardware para entornos locales</span><span class="sxs-lookup"><span data-stu-id="69244-114">Hardware sizing for on-premises environments</span></span>](../get-started/hardware-sizing-on-premises-environments.md)
+- [<span data-ttu-id="69244-115">Política de servicio en línea y ciclo de vida de software local</span><span class="sxs-lookup"><span data-stu-id="69244-115">Online service and on-premises software lifecycle policy</span></span>](../migration-upgrade/versions-update-policy.md)
+- [<span data-ttu-id="69244-116">Comprar Dynamics 365 for Finance and Operations, Enterprise Edition (local)</span><span class="sxs-lookup"><span data-stu-id="69244-116">Purchase Dynamics 365 for Finance and Operations, Enterprise edition (on-premises)</span></span>](../get-started/purchase-on-premises.md)
 
-## <a name="onboard"></a>Incorporar
-- [Crear un proyecto local en Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Configurar e implementar entornos locales](setup-deploy-on-premises-environments.md)
-- [Configurar SQL Server Reporting Services para una implementación local](../analytics/configure-ssrs-on-premises.md)
-- [Desarrollar e implementar modelos personalizados para entornos locales](develop-deploy-custom-models-on-premises.md)
+## <a name="onboard"></a><span data-ttu-id="69244-117">Incorporar</span><span class="sxs-lookup"><span data-stu-id="69244-117">Onboard</span></span>
+- [<span data-ttu-id="69244-118">Crear un proyecto local en Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="69244-118">Create an on-premises project in Lifecycle Services</span></span>](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
+- [<span data-ttu-id="69244-119">Configurar e implementar entornos locales</span><span class="sxs-lookup"><span data-stu-id="69244-119">Set up and deploy on-premises environments</span></span>](setup-deploy-on-premises-environments.md)
+- [<span data-ttu-id="69244-120">Configurar SQL Server Reporting Services para una implementación local</span><span class="sxs-lookup"><span data-stu-id="69244-120">Configure SQL Server Reporting Services for an on-premises deployment</span></span>](../analytics/configure-ssrs-on-premises.md)
+- [<span data-ttu-id="69244-121">Desarrollar e implementar modelos personalizados para entornos locales</span><span class="sxs-lookup"><span data-stu-id="69244-121">Develop and deploy custom models to on-premises environments</span></span>](develop-deploy-custom-models-on-premises.md)
 
-## <a name="work-in-your-on-premises-deployment"></a>Trabaje en su implementación local
-- [Configurar la gestión de documentos](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management)
-- [Importar configuraciones de informes electrónicos](../analytics/electronic-reporting-import-ger-configurations.md)
-- [Funcionalidades de generación, publicación e impresión de documentos en implementaciones locales](../analytics/printing-capabilities-on-premises.md)
-- [Configuración del soporte técnico](../lifecycle-services/support-experience.md)
-- [Solución de problemas de la conexión a Internet del cliente](../user-interface/client-disconnected.md)
+## <a name="work-in-your-on-premises-deployment"></a><span data-ttu-id="69244-122">Trabaje en su implementación local</span><span class="sxs-lookup"><span data-stu-id="69244-122">Work in your on-premises deployment</span></span>
+- [<span data-ttu-id="69244-123">Configurar la gestión de documentos</span><span class="sxs-lookup"><span data-stu-id="69244-123">Configure document management</span></span>](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management)
+- [<span data-ttu-id="69244-124">Importar configuraciones de informes electrónicos</span><span class="sxs-lookup"><span data-stu-id="69244-124">Import Electronic reporting configurations</span></span>](../analytics/electronic-reporting-import-ger-configurations.md)
+- [<span data-ttu-id="69244-125">Funcionalidades de generación, publicación e impresión de documentos en implementaciones locales</span><span class="sxs-lookup"><span data-stu-id="69244-125">Document generation, publishing, and printing capabilities in on-premises deployments</span></span>](../analytics/printing-capabilities-on-premises.md)
+- [<span data-ttu-id="69244-126">Configuración del soporte técnico</span><span class="sxs-lookup"><span data-stu-id="69244-126">Set up technical support</span></span>](../lifecycle-services/support-experience.md)
+- [<span data-ttu-id="69244-127">Solución de problemas de la conexión a Internet del cliente</span><span class="sxs-lookup"><span data-stu-id="69244-127">Client Internet connection troubleshooting</span></span>](../user-interface/client-disconnected.md)
 
-## <a name="other-resources"></a>Otros recursos
-- [Características no implementadas en implementaciones locales](../get-started/features-not-implemented-on-prem.md)
-- [Características en desuso](../migration-upgrade/deprecated-features.md)
+## <a name="other-resources"></a><span data-ttu-id="69244-128">Otros recursos</span><span class="sxs-lookup"><span data-stu-id="69244-128">Other resources</span></span>
+- [<span data-ttu-id="69244-129">Características no implementadas en implementaciones locales</span><span class="sxs-lookup"><span data-stu-id="69244-129">Features not implemented in on-premises deployments</span></span>](../get-started/features-not-implemented-on-prem.md)
+- [<span data-ttu-id="69244-130">Características en desuso</span><span class="sxs-lookup"><span data-stu-id="69244-130">Deprecated features</span></span>](../migration-upgrade/deprecated-features.md)
  
 

@@ -17,58 +17,58 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 61b795d52d4d2586db7f42a976790ee8608e179b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 97f0c4d8fe06ab2fc252b9543cb688306214c79f
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-automatic-freight-reconciliation"></a>Configurar la conciliación automática de flete
+# <a name="set-up-automatic-freight-reconciliation"></a><span data-ttu-id="8977c-103">Configurar la conciliación automática de flete</span><span class="sxs-lookup"><span data-stu-id="8977c-103">Set up automatic freight reconciliation</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo configurar los datos para la conciliación automática de flete. Este proceso normalmente lo realiza el director del almacén. Puede utilizar este procedimiento en la empresa de datos de demostración USMF.
+<span data-ttu-id="8977c-104">Este procedimiento muestra cómo configurar los datos para la conciliación automática de flete.</span><span class="sxs-lookup"><span data-stu-id="8977c-104">This procedure shows how to set up data for automatic freight reconciliation.</span></span> <span data-ttu-id="8977c-105">Este proceso normalmente lo realiza el director del almacén.</span><span class="sxs-lookup"><span data-stu-id="8977c-105">This is typically done by a warehouse manager.</span></span> <span data-ttu-id="8977c-106">Puede utilizar este procedimiento en la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="8977c-106">You can use this procedure in demo data company USMF.</span></span>
 
 
-## <a name="set-up-the-freight-bill-type"></a>Configurar el tipo de albarán de flete
-1. Ir a Administración de transporte > Configuración > Conciliación de transporte > Tipo de albarán de transporte.
-    * El tipo de albarán de flete define cómo deben conciliarse las cuentas de flete y las facturas del transportista.  
-2. Haga clic en Nuevo.
-3. En el campo Tipo de alabarán de flete, escriba un valor.
-4. En el campo Ensamblado de motores, escriba "Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer".
-    * Esta es la biblioteca de códigos estándar del motor que coincide con la gestión de transporte.  
-5. En el campo Tipo de motor, escriba "Microsoft.Dynamics.Ax.Tms.dll".
-    * Esta es la clase del motor estándar que coincide con la gestión de transporte.  
-6. Haga clic en Nuevo.
-7. En el campo Descripción, elija el valor que se debe coincidir con el albarán de flete y la factura de transportista.  
-8. Seleccione Sí en el campo Correspondencia requerida.
-    * Si configura este campo en Sí esto significa que el valor seleccionado en el campo Descripción debe coincidir con el albarán de flete y la factura de transportista. Si configura en No, el campo puede quedar en blanco en uno de ellos.  
-9. Haga clic en Guardar.
+## <a name="set-up-the-freight-bill-type"></a><span data-ttu-id="8977c-107">Configurar el tipo de albarán de flete</span><span class="sxs-lookup"><span data-stu-id="8977c-107">Set up the freight bill type</span></span>
+1. <span data-ttu-id="8977c-108">Ir a Administración de transporte > Configuración > Conciliación de transporte > Tipo de albarán de transporte.</span><span class="sxs-lookup"><span data-stu-id="8977c-108">Go to Transportation management > Setup > Freight reconciliation > Freight bill type.</span></span>
+    * <span data-ttu-id="8977c-109">El tipo de albarán de flete define cómo deben conciliarse las cuentas de flete y las facturas del transportista.</span><span class="sxs-lookup"><span data-stu-id="8977c-109">The freight bill type defines how freight bills and carrier invoices  should be matched.</span></span>  
+2. <span data-ttu-id="8977c-110">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8977c-110">Click New.</span></span>
+3. <span data-ttu-id="8977c-111">En el campo Tipo de alabarán de flete, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="8977c-111">In the Freight bill type field, type a value.</span></span>
+4. <span data-ttu-id="8977c-112">En el campo Ensamblado de motores, escriba "Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer".</span><span class="sxs-lookup"><span data-stu-id="8977c-112">In the Engine assembly field, type 'Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer'.</span></span>
+    * <span data-ttu-id="8977c-113">Esta es la biblioteca de códigos estándar del motor que coincide con la gestión de transporte.</span><span class="sxs-lookup"><span data-stu-id="8977c-113">This is the standard Transportation management matching engine code library.</span></span>  
+5. <span data-ttu-id="8977c-114">En el campo Tipo de motor, escriba "Microsoft.Dynamics.Ax.Tms.dll".</span><span class="sxs-lookup"><span data-stu-id="8977c-114">In the Engine class field, type 'Microsoft.Dynamics.Ax.Tms.dll'.</span></span>
+    * <span data-ttu-id="8977c-115">Esta es la clase del motor estándar que coincide con la gestión de transporte.</span><span class="sxs-lookup"><span data-stu-id="8977c-115">This is the standard Transportation management matching engine class.</span></span>  
+6. <span data-ttu-id="8977c-116">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8977c-116">Click New.</span></span>
+7. <span data-ttu-id="8977c-117">En el campo Descripción, elija el valor que se debe coincidir con el albarán de flete y la factura de transportista.</span><span class="sxs-lookup"><span data-stu-id="8977c-117">In the Description field, choose the value that should match on the freight bill and the carrier invoice.</span></span>  
+8. <span data-ttu-id="8977c-118">Seleccione Sí en el campo Correspondencia requerida.</span><span class="sxs-lookup"><span data-stu-id="8977c-118">In the Match required field, select 'Yes'.</span></span>
+    * <span data-ttu-id="8977c-119">Si configura este campo en Sí esto significa que el valor seleccionado en el campo Descripción debe coincidir con el albarán de flete y la factura de transportista.</span><span class="sxs-lookup"><span data-stu-id="8977c-119">If you set this field to Yes this means that the value selected in the Description field needs to match on both the freight bill and the carrier invoice.</span></span> <span data-ttu-id="8977c-120">Si configura en No, el campo puede quedar en blanco en uno de ellos.</span><span class="sxs-lookup"><span data-stu-id="8977c-120">If you set it to No, the field can be blank on one of these.</span></span>  
+9. <span data-ttu-id="8977c-121">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="8977c-121">Click Save.</span></span>
 
-## <a name="set-up-the-freight-bill-type-assignment"></a>Configurar la asignación de tipo de albarán de flete
-1. Cierre la página.
-2. Ir a Administración de transporte > Configuración > Conciliación de transporte > Asignación de tipos de albarán de transporte.
-    * La asignación del tipo de albarán de flete se utiliza para especificar el tipo de albarán de flete que se usa para un transportista determinado.   
-3. Haga clic en Nuevo.
-4. En el campo Modo, especifique o seleccione un valor.
-5. En el campo Transportista de envío, especifique o seleccione un valor.
-6. En el campo Tipo de albarán de flete, seleccione el tipo de albarán de flete que creó anteriormente.
-7. Cierre la página.
+## <a name="set-up-the-freight-bill-type-assignment"></a><span data-ttu-id="8977c-122">Configurar la asignación de tipo de albarán de flete</span><span class="sxs-lookup"><span data-stu-id="8977c-122">Set up the freight bill type assignment</span></span>
+1. <span data-ttu-id="8977c-123">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="8977c-123">Close the page.</span></span>
+2. <span data-ttu-id="8977c-124">Ir a Administración de transporte > Configuración > Conciliación de transporte > Asignación de tipos de albarán de transporte.</span><span class="sxs-lookup"><span data-stu-id="8977c-124">Go to Transportation management > Setup > Freight reconciliation > Freight bill type assignments.</span></span>
+    * <span data-ttu-id="8977c-125">La asignación del tipo de albarán de flete se utiliza para especificar el tipo de albarán de flete que se usa para un transportista determinado.</span><span class="sxs-lookup"><span data-stu-id="8977c-125">The freight bill type assignment is used to specify which freight bill type is used for a particular carrier.</span></span>   
+3. <span data-ttu-id="8977c-126">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8977c-126">Click New.</span></span>
+4. <span data-ttu-id="8977c-127">En el campo Modo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="8977c-127">In the Mode field, enter or select a value.</span></span>
+5. <span data-ttu-id="8977c-128">En el campo Transportista de envío, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="8977c-128">In the Shipping carrier field, enter or select a value.</span></span>
+6. <span data-ttu-id="8977c-129">En el campo Tipo de albarán de flete, seleccione el tipo de albarán de flete que creó anteriormente.</span><span class="sxs-lookup"><span data-stu-id="8977c-129">In the Freight bill type field, select the freight bill type that you created earlier.</span></span>
+7. <span data-ttu-id="8977c-130">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="8977c-130">Close the page.</span></span>
 
-## <a name="set-up-the-audit-master"></a>Configurar el maestro de auditoría
-1. Ir a Administración de transporte > Configuración > Conciliación de transporte > Director de auditoría.
-    * El maestro de auditoría define los límites de tolerancia para la conciliación automática de flete. Especifica en cuánto pueden variar los importes monetarios en el albarán de flete y la factura de transportista y que se permita la conciliación. También define cómo gestionar discrepancias.  
-2. Haga clic en Nuevo.
-3. En el campo Id. de maestro de auditoría, especifique un valor.
-4. En el campo Transportista de envío, seleccione el mismo transportista de envío que seleccionó anteriormente.
-5. En el campo Tipo de albarán de flete, seleccione el tipo de albarán de flete que creó anteriormente.
-6. Expanda la sección Tolerancia.
-7. Especifique un número en el campo Nivel de tolerancia mínimo.
-8. Especifique un número en el campo Nivel de tolerancia máximo.
-9. Expanda la sección Resultado.
-10. En el campo Código de motivo de sobrepago, especifique o seleccione un valor.
-    * Si los importes monetarios difieren en el albarán de flete y la factura de transportista, los códigos de motivo de sobrepago y de pago insuficiente especifican las cuentas donde debe registrarse la diferencia, siempre que la diferencia se encuentre dentro de los niveles de tolerancia.  
-11. En el campo Código de motivo de pago insuficiente, especifique o seleccione un valor.
-12. Cierre la página.
+## <a name="set-up-the-audit-master"></a><span data-ttu-id="8977c-131">Configurar el maestro de auditoría</span><span class="sxs-lookup"><span data-stu-id="8977c-131">Set up the audit master</span></span>
+1. <span data-ttu-id="8977c-132">Ir a Administración de transporte > Configuración > Conciliación de transporte > Director de auditoría.</span><span class="sxs-lookup"><span data-stu-id="8977c-132">Go to Transportation management > Setup > Freight reconciliation > Audit master.</span></span>
+    * <span data-ttu-id="8977c-133">El maestro de auditoría define los límites de tolerancia para la conciliación automática de flete.</span><span class="sxs-lookup"><span data-stu-id="8977c-133">The audit master defines the tolerance limits for automatic freight reconciliation.</span></span> <span data-ttu-id="8977c-134">Especifica en cuánto pueden variar los importes monetarios en el albarán de flete y la factura de transportista y que se permita la conciliación.</span><span class="sxs-lookup"><span data-stu-id="8977c-134">It specifies by how much the monetary amounts on the freight bill and the carrier invoice can differ and still allow reconciliation to occur.</span></span> <span data-ttu-id="8977c-135">También define cómo gestionar discrepancias.</span><span class="sxs-lookup"><span data-stu-id="8977c-135">It also defines how to handle discrepancies.</span></span>  
+2. <span data-ttu-id="8977c-136">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8977c-136">Click New.</span></span>
+3. <span data-ttu-id="8977c-137">En el campo Id. de maestro de auditoría, especifique un valor.</span><span class="sxs-lookup"><span data-stu-id="8977c-137">In the Audit master ID field, type a value.</span></span>
+4. <span data-ttu-id="8977c-138">En el campo Transportista de envío, seleccione el mismo transportista de envío que seleccionó anteriormente.</span><span class="sxs-lookup"><span data-stu-id="8977c-138">In the Shipping carrier  field, select the same shipping carrier as you did earlier.</span></span>
+5. <span data-ttu-id="8977c-139">En el campo Tipo de albarán de flete, seleccione el tipo de albarán de flete que creó anteriormente.</span><span class="sxs-lookup"><span data-stu-id="8977c-139">In the Freight bill type field, select the freight bill type that you created earlier.</span></span>
+6. <span data-ttu-id="8977c-140">Expanda la sección Tolerancia.</span><span class="sxs-lookup"><span data-stu-id="8977c-140">Expand the Tolerance section.</span></span>
+7. <span data-ttu-id="8977c-141">Especifique un número en el campo Nivel de tolerancia mínimo.</span><span class="sxs-lookup"><span data-stu-id="8977c-141">In the Minimum tolerance level field, enter a number.</span></span>
+8. <span data-ttu-id="8977c-142">Especifique un número en el campo Nivel de tolerancia máximo.</span><span class="sxs-lookup"><span data-stu-id="8977c-142">In the Maximum tolerance level field, enter a number.</span></span>
+9. <span data-ttu-id="8977c-143">Expanda la sección Resultado.</span><span class="sxs-lookup"><span data-stu-id="8977c-143">Expand the Result section.</span></span>
+10. <span data-ttu-id="8977c-144">En el campo Código de motivo de sobrepago, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="8977c-144">In the Overpayment reason code field, enter or select a value.</span></span>
+    * <span data-ttu-id="8977c-145">Si los importes monetarios difieren en el albarán de flete y la factura de transportista, los códigos de motivo de sobrepago y de pago insuficiente especifican las cuentas donde debe registrarse la diferencia, siempre que la diferencia se encuentre dentro de los niveles de tolerancia.</span><span class="sxs-lookup"><span data-stu-id="8977c-145">If the monetary amounts differ on the freight bill and the carrier invoice, the overpayment and underpayment reason codes specify the accounts that the difference should be registered on, as long as the difference is within the tolerance levels.</span></span>  
+11. <span data-ttu-id="8977c-146">En el campo Código de motivo de pago insuficiente, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="8977c-146">In the Underpayment reason code field, enter or select a value.</span></span>
+12. <span data-ttu-id="8977c-147">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="8977c-147">Close the page.</span></span>
 
 

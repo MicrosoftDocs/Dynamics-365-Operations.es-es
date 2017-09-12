@@ -19,129 +19,129 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a0edbad63c51d111d7c8985aa7fdf7312da6149d
-ms.openlocfilehash: 1a05c6c12d4b6d98886e418aadcc0bdb2c2fc8ef
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 88535eeda32e0fd176959437f014691db048ef46
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="sales-orders-mobile-workspace"></a>Espacio de trabajo móvil de pedidos de ventas
+# <a name="sales-orders-mobile-workspace"></a><span data-ttu-id="393c4-104">Espacio de trabajo móvil de pedidos de ventas</span><span class="sxs-lookup"><span data-stu-id="393c4-104">Sales orders mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Este tema proporciona información sobre el espacio de trabajo móvil **Pedidos de ventas**. Este espacio de trabajo le permitirá estar informado sobre los pedidos de ventas en cualquier momento y cualquier lugar. 
+<span data-ttu-id="393c4-105">Este tema proporciona información sobre el espacio de trabajo móvil **Pedidos de ventas**.</span><span class="sxs-lookup"><span data-stu-id="393c4-105">This topic provides information about the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="393c4-106">Este espacio de trabajo le permitirá estar informado sobre los pedidos de ventas en cualquier momento y cualquier lugar.</span><span class="sxs-lookup"><span data-stu-id="393c4-106">This workspace helps you stay up to date about your sales orders anywhere and anytime.</span></span> 
 
-Este espacio de trabajo móvil se debe usar con la aplicación móvil Microsoft Dynamics 365 for Unified Operations.
+<span data-ttu-id="393c4-107">Este espacio de trabajo móvil se debe usar con la aplicación móvil Microsoft Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="393c4-107">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
-## <a name="overview"></a>Información general
-El espacio de trabajo móvil **Pedidos de ventas** le permite ver información detallada sobre cada pedido de ventas. Esta información incluye el estado del pedido, la información de contacto para el cliente, y la información de contacto del creador del pedido. El espacio de trabajo móvil **Pedidos de ventas** proporciona una vista inmediata de los pedidos de ventas. Puede ver todos los pedidos de ventas, o ver los pedidos de ventas por cliente o ver la información sobre un pedido de ventas concreto. 
+## <a name="overview"></a><span data-ttu-id="393c4-108">Información general</span><span class="sxs-lookup"><span data-stu-id="393c4-108">Overview</span></span>
+<span data-ttu-id="393c4-109">El espacio de trabajo móvil **Pedidos de ventas** le permite ver información detallada sobre cada pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="393c4-109">The **Sales orders** mobile workspace lets you view detailed information about each sales order.</span></span> <span data-ttu-id="393c4-110">Esta información incluye el estado del pedido, la información de contacto para el cliente, y la información de contacto del creador del pedido.</span><span class="sxs-lookup"><span data-stu-id="393c4-110">This information includes the status of the order, contact information for the customer, and contact information for the order taker.</span></span> <span data-ttu-id="393c4-111">El espacio de trabajo móvil **Pedidos de ventas** proporciona una vista inmediata de los pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="393c4-111">The **Sales orders** mobile workspace provides an instant view of sales orders.</span></span> <span data-ttu-id="393c4-112">Puede ver todos los pedidos de ventas, o ver los pedidos de ventas por cliente o ver la información sobre un pedido de ventas concreto.</span><span class="sxs-lookup"><span data-stu-id="393c4-112">You can view all sales orders, view sales orders by customer, or view information about a specific sales order.</span></span> 
 
-El espacio de trabajo móvil proporciona dos perspectivas que le ayudarán a analizar en detalle los pedidos de ventas.
+<span data-ttu-id="393c4-113">El espacio de trabajo móvil proporciona dos perspectivas que le ayudarán a analizar en detalle los pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="393c4-113">The mobile workspace provides two views to help you analyze sale orders in depth.</span></span>
 
-### <a name="view-all-sales-orders"></a>Ver todos los pedidos de ventas
-Esta vista muestra todos los pedidos de ventas.
+### <a name="view-all-sales-orders"></a><span data-ttu-id="393c4-114">Ver todos los pedidos de ventas</span><span class="sxs-lookup"><span data-stu-id="393c4-114">View all sales orders</span></span>
+<span data-ttu-id="393c4-115">Esta vista muestra todos los pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="393c4-115">This view lists all sales orders.</span></span>
 
--   Utilice uno de los filtros siguientes para seleccionar los pedidos de ventas que desea ver:
+-   <span data-ttu-id="393c4-116">Utilice uno de los filtros siguientes para seleccionar los pedidos de ventas que desea ver:</span><span class="sxs-lookup"><span data-stu-id="393c4-116">Use one of the following filters to select the sales orders to view:</span></span>
 
-    -   Buscar por pedido de ventas
-    -   Buscar por cuenta de cliente
-    -   Buscar por nombre del cliente
-    -   Buscar por estado
-    -   Buscar por estado de liberación
-    -   Buscar por fecha y hora de creación
+    -   <span data-ttu-id="393c4-117">Buscar por pedido de ventas</span><span class="sxs-lookup"><span data-stu-id="393c4-117">Search by sales order</span></span>
+    -   <span data-ttu-id="393c4-118">Buscar por cuenta de cliente</span><span class="sxs-lookup"><span data-stu-id="393c4-118">Search by customer account</span></span>
+    -   <span data-ttu-id="393c4-119">Buscar por nombre del cliente</span><span class="sxs-lookup"><span data-stu-id="393c4-119">Search by customer name</span></span>
+    -   <span data-ttu-id="393c4-120">Buscar por estado</span><span class="sxs-lookup"><span data-stu-id="393c4-120">Search by status</span></span>
+    -   <span data-ttu-id="393c4-121">Buscar por estado de liberación</span><span class="sxs-lookup"><span data-stu-id="393c4-121">Search by release status</span></span>
+    -   <span data-ttu-id="393c4-122">Buscar por fecha y hora de creación</span><span class="sxs-lookup"><span data-stu-id="393c4-122">Search by created date and time</span></span>
     
--   Tras seleccionar los pedidos de ventas, puede ver los detalles de pedidos específicos. Concretamente, puede ver la siguiente información:
+-   <span data-ttu-id="393c4-123">Tras seleccionar los pedidos de ventas, puede ver los detalles de pedidos específicos.</span><span class="sxs-lookup"><span data-stu-id="393c4-123">After you select sales orders, you can view the details of specific orders.</span></span> <span data-ttu-id="393c4-124">Concretamente, puede ver la siguiente información:</span><span class="sxs-lookup"><span data-stu-id="393c4-124">Specifically, you can view the following information:</span></span>
 
-    -   Información del nombre y la dirección del cliente
-    -   Diversas fechas del pedido de ventas, como la fecha de envío solicitada y la fecha de envío confirmada
-    -   Información de contacto del creador del pedido
-    -   Información de contacto del cliente
-    -   Líneas de pedido
-    -   Envíos que muestran cómo y cuándo se envió un pedido de ventas
+    -   <span data-ttu-id="393c4-125">Información del nombre y la dirección del cliente</span><span class="sxs-lookup"><span data-stu-id="393c4-125">Customer name and address information</span></span>
+    -   <span data-ttu-id="393c4-126">Diversas fechas del pedido de ventas, como la fecha de envío solicitada y la fecha de envío confirmada</span><span class="sxs-lookup"><span data-stu-id="393c4-126">Various dates for the sales order, such as the requested ship date and the confirmed ship date</span></span>
+    -   <span data-ttu-id="393c4-127">Información de contacto del creador del pedido</span><span class="sxs-lookup"><span data-stu-id="393c4-127">Contact information for the order taker</span></span>
+    -   <span data-ttu-id="393c4-128">Información de contacto del cliente</span><span class="sxs-lookup"><span data-stu-id="393c4-128">Customer contact information</span></span>
+    -   <span data-ttu-id="393c4-129">Líneas de pedido</span><span class="sxs-lookup"><span data-stu-id="393c4-129">Order lines</span></span>
+    -   <span data-ttu-id="393c4-130">Envíos que muestran cómo y cuándo se envió un pedido de ventas</span><span class="sxs-lookup"><span data-stu-id="393c4-130">Shipments that show how and when a sales order was shipped</span></span>
 
-### <a name="view-orders-for-a-customer"></a>Ver los pedidos de un cliente
-Esta vista muestra pedidos de ventas por cliente.
+### <a name="view-orders-for-a-customer"></a><span data-ttu-id="393c4-131">Ver los pedidos de un cliente</span><span class="sxs-lookup"><span data-stu-id="393c4-131">View orders for a customer</span></span>
+<span data-ttu-id="393c4-132">Esta vista muestra pedidos de ventas por cliente.</span><span class="sxs-lookup"><span data-stu-id="393c4-132">This view lists sales orders by customer.</span></span>
 
--   Utilice uno de los filtros siguientes para ver los pedidos de un cliente:
+-   <span data-ttu-id="393c4-133">Utilice uno de los filtros siguientes para ver los pedidos de un cliente:</span><span class="sxs-lookup"><span data-stu-id="393c4-133">Use one of the following filters to view orders for a customer:</span></span>
 
-    -   Buscar por nombre
-    -   Buscar por cuenta
+    -   <span data-ttu-id="393c4-134">Buscar por nombre</span><span class="sxs-lookup"><span data-stu-id="393c4-134">Search by name</span></span>
+    -   <span data-ttu-id="393c4-135">Buscar por cuenta</span><span class="sxs-lookup"><span data-stu-id="393c4-135">Search by account</span></span>
 
--   Tras seleccionar un cliente, puede ver la información siguiente:
+-   <span data-ttu-id="393c4-136">Tras seleccionar un cliente, puede ver la información siguiente:</span><span class="sxs-lookup"><span data-stu-id="393c4-136">After you select a customer, you can view the following information:</span></span>
 
-    -   Nombre y grupo del cliente
-    -   Información de contacto del cliente
-    -   Pedidos de ventas del cliente y detalles sobre estos pedidos de ventas:
+    -   <span data-ttu-id="393c4-137">Nombre y grupo del cliente</span><span class="sxs-lookup"><span data-stu-id="393c4-137">Customer name and group</span></span>
+    -   <span data-ttu-id="393c4-138">Información de contacto del cliente</span><span class="sxs-lookup"><span data-stu-id="393c4-138">Customer contact information</span></span>
+    -   <span data-ttu-id="393c4-139">Pedidos de ventas del cliente y detalles sobre estos pedidos de ventas:</span><span class="sxs-lookup"><span data-stu-id="393c4-139">Customer sales orders and details about those sales orders:</span></span>
     
-        -   Información del nombre y la dirección del cliente
-        -   Diversas fechas del pedido de ventas
-        -   Información de contacto del creador del pedido
-        -   Información de contacto del cliente
-        -   Líneas de pedido
-        -   Envíos que muestran cómo y cuándo se envió un pedido de ventas
+        -   <span data-ttu-id="393c4-140">Información del nombre y la dirección del cliente</span><span class="sxs-lookup"><span data-stu-id="393c4-140">Customer name and address information</span></span>
+        -   <span data-ttu-id="393c4-141">Diversas fechas del pedido de ventas</span><span class="sxs-lookup"><span data-stu-id="393c4-141">Various sales order dates</span></span>
+        -   <span data-ttu-id="393c4-142">Información de contacto del creador del pedido</span><span class="sxs-lookup"><span data-stu-id="393c4-142">Contact information for the order taker</span></span>
+        -   <span data-ttu-id="393c4-143">Información de contacto del cliente</span><span class="sxs-lookup"><span data-stu-id="393c4-143">Customer contact information</span></span>
+        -   <span data-ttu-id="393c4-144">Líneas de pedido</span><span class="sxs-lookup"><span data-stu-id="393c4-144">Order lines</span></span>
+        -   <span data-ttu-id="393c4-145">Envíos que muestran cómo y cuándo se envió un pedido de ventas</span><span class="sxs-lookup"><span data-stu-id="393c4-145">Shipments that show how and when a sales order was shipped</span></span>
 
-## <a name="prerequisites"></a>Requisitos previos
-Los requisitos previos varían, en función de la versión de Microsoft Dynamics 365 que se ha implementado para su organización.
+## <a name="prerequisites"></a><span data-ttu-id="393c4-146">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="393c4-146">Prerequisites</span></span>
+<span data-ttu-id="393c4-147">Los requisitos previos varían, en función de la versión de Microsoft Dynamics 365 que se ha implementado para su organización.</span><span class="sxs-lookup"><span data-stu-id="393c4-147">The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, actualización de julio 2017 
-Si la actualización de julio de 2017 de Dynamics 365 for Finance and Operations, Enterprise Edition se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Pedidos de ventas**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a><span data-ttu-id="393c4-148">Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, actualización de julio 2017</span><span class="sxs-lookup"><span data-stu-id="393c4-148">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update</span></span> 
+<span data-ttu-id="393c4-149">Si la actualización de julio de 2017 de Dynamics 365 for Finance and Operations, Enterprise Edition se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Pedidos de ventas**.</span><span class="sxs-lookup"><span data-stu-id="393c4-149">If the Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update has been deployed for your organization, the system administrator must publish the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="393c4-150">Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span><span class="sxs-lookup"><span data-stu-id="393c4-150">For instructions, see [Publish a mobile workspace](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span></span>
 
-### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Requisitos si usa Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior
-Si se ha implementado Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior en su organización, el administrador del sistema debe cumplir los requisitos siguientes. 
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="393c4-151">Requisitos si usa Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior</span><span class="sxs-lookup"><span data-stu-id="393c4-151">Prerequisites if you use Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="393c4-152">Si se ha implementado Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior en su organización, el administrador del sistema debe cumplir los requisitos siguientes.</span><span class="sxs-lookup"><span data-stu-id="393c4-152">If Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Requisito previo</th>
-<th>Función</th>
-<th>Descripción</th>
+<th><span data-ttu-id="393c4-153">Requisito previo</span><span class="sxs-lookup"><span data-stu-id="393c4-153">Prerequisite</span></span></th>
+<th><span data-ttu-id="393c4-154">Función</span><span class="sxs-lookup"><span data-stu-id="393c4-154">Role</span></span></th>
+<th><span data-ttu-id="393c4-155">Descripción</span><span class="sxs-lookup"><span data-stu-id="393c4-155">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Implementar 4013633 KB.</td>
-<td>Administrador del sistema</td>
+<td><span data-ttu-id="393c4-156">Implementar 4013633 KB.</span><span class="sxs-lookup"><span data-stu-id="393c4-156">Implement KB 4013633.</span></span></td>
+<td><span data-ttu-id="393c4-157">Administrador del sistema</span><span class="sxs-lookup"><span data-stu-id="393c4-157">System administrator</span></span></td>
 
-<td>KB 4013633 es una sustitución de actualización o de metadatos X++ que contiene el espacio de trabajo móvil <strong>Pedidos de ventas</strong>. Para implementar KB 4013633, el administrador del sistema debe seguir estos pasos.
+<td><span data-ttu-id="393c4-158">KB 4013633 es una sustitución de actualización o de metadatos X++ que contiene el espacio de trabajo móvil <strong>Pedidos de ventas</strong>.</span><span class="sxs-lookup"><span data-stu-id="393c4-158">KB 4013633 is an X++ update or metadata hotfix that contains the <strong>Sales orders</strong> mobile workspace.</span></span> <span data-ttu-id="393c4-159">Para implementar KB 4013633, el administrador del sistema debe seguir estos pasos.</span><span class="sxs-lookup"><span data-stu-id="393c4-159">To implement KB 4013633, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Descargar la revisión de metadatos en Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar la revisión de metadatos</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Crear un paquete desplegable</a> que contenga el modelo <strong>SCMMobile</strong> y luego cargar el paquete desplegable en LCS.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Aplicar el paquete implementable</a>.</li>
+<li><span data-ttu-id="393c4-160"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Descargar la revisión de metadatos en Microsoft Dynamics Lifecycle Services (LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="393c4-160"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="393c4-161"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar la revisión de metadatos</a>.</span><span class="sxs-lookup"><span data-stu-id="393c4-161"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="393c4-162"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Crear un paquete desplegable</a> que contenga el modelo <strong>SCMMobile</strong> y luego cargar el paquete desplegable en LCS.</span><span class="sxs-lookup"><span data-stu-id="393c4-162"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>SCMMobile</strong> model, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="393c4-163"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Aplicar el paquete implementable</a>.</span><span class="sxs-lookup"><span data-stu-id="393c4-163"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 
 </ol></td>
 </tr>
 <tr class="even">
-<td>Publique el espacio de trabajo móvil <strong>Pedidos de ventas</strong>.</td>
-<td>Administrador del sistema</td>
-<td>Consulte <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar un espacio de trabajo móvil</a>.</td>
+<td><span data-ttu-id="393c4-164">Publique el espacio de trabajo móvil <strong>Pedidos de ventas</strong>.</span><span class="sxs-lookup"><span data-stu-id="393c4-164">Publish the <strong>Sales orders</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="393c4-165">Administrador del sistema</span><span class="sxs-lookup"><span data-stu-id="393c4-165">System administrator</span></span></td>
+<td><span data-ttu-id="393c4-166">Consulte <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar un espacio de trabajo móvil</a>.</span><span class="sxs-lookup"><span data-stu-id="393c4-166">See <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
-Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="393c4-167">Descargar e instalar la aplicación móvil</span><span class="sxs-lookup"><span data-stu-id="393c4-167">Download and install the mobile app</span></span>
+<span data-ttu-id="393c4-168">Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:</span><span class="sxs-lookup"><span data-stu-id="393c4-168">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
--   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
--   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [<span data-ttu-id="393c4-169">Para teléfonos Android</span><span class="sxs-lookup"><span data-stu-id="393c4-169">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="393c4-170">Para iPhones</span><span class="sxs-lookup"><span data-stu-id="393c4-170">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Iniciar sesión en la aplicación móvil
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="393c4-171">Iniciar sesión en la aplicación móvil</span><span class="sxs-lookup"><span data-stu-id="393c4-171">Sign in to the mobile app</span></span>
 
-1.  Inicie la aplicación en su dispositivo móvil.
-2.  Escriba la URL de Dynamics 365.
-3.  La primera vez que se inicie sesión, se le solicitará su nombre de usuario y contraseña. Escriba sus credenciales.
-4.  Tras iniciar sesión, se mostrarán los espacios de trabajo disponibles para su empresa. Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, tendrá que actualizar la lista de espacios de trabajo móviles.
+1.  <span data-ttu-id="393c4-172">Inicie la aplicación en su dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="393c4-172">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="393c4-173">Escriba la URL de Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="393c4-173">Enter your Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="393c4-174">La primera vez que se inicie sesión, se le solicitará su nombre de usuario y contraseña.</span><span class="sxs-lookup"><span data-stu-id="393c4-174">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="393c4-175">Escriba sus credenciales.</span><span class="sxs-lookup"><span data-stu-id="393c4-175">Enter your credentials.</span></span>
+4.  <span data-ttu-id="393c4-176">Tras iniciar sesión, se mostrarán los espacios de trabajo disponibles para su empresa.</span><span class="sxs-lookup"><span data-stu-id="393c4-176">After you sign in, the available workspaces for your company is shown.</span></span> <span data-ttu-id="393c4-177">Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, tendrá que actualizar la lista de espacios de trabajo móviles.</span><span class="sxs-lookup"><span data-stu-id="393c4-177">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-[![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+<span data-ttu-id="393c4-178">[![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="393c4-178">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a>Visualización de información acerca de los pedidos de ventas para un cliente mediante el espacio de trabajo móvil Pedidos de ventas
+## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a><span data-ttu-id="393c4-179">Visualización de información acerca de los pedidos de ventas para un cliente mediante el espacio de trabajo móvil Pedidos de ventas</span><span class="sxs-lookup"><span data-stu-id="393c4-179">View information about sales orders for a customer by using the Sales order mobile workspace</span></span>
 
-1.  En el dispositivo móvil, seleccione el espacio de trabajo **Pedidos de ventas**.
-2.  Seleccione **Ver los pedidos de un cliente**
-3.  Utilice la información de la cuenta o el nombre del cliente para buscar el cliente.
-4.  Seleccione el cliente.
-5.  Seleccione **Información de contacto** o **Pedidos de ventas**. Si selecciona **Pedidos de ventas**, se mostrará la lista de pedidos de ventas del cliente.
-6.  Seleccione **Pedido de ventas**. Ahora puede ver información sobre las líneas del pedido de ventas, información sobre los envíos, información de contacto del cliente e información de contacto del creador del pedido.
+1.  <span data-ttu-id="393c4-180">En el dispositivo móvil, seleccione el espacio de trabajo **Pedidos de ventas**.</span><span class="sxs-lookup"><span data-stu-id="393c4-180">On your mobile device, select the **Sales orders** workspace.</span></span>
+2.  <span data-ttu-id="393c4-181">Seleccione **Ver los pedidos de un cliente**</span><span class="sxs-lookup"><span data-stu-id="393c4-181">Select **View orders for a customer**.</span></span>
+3.  <span data-ttu-id="393c4-182">Utilice la información de la cuenta o el nombre del cliente para buscar el cliente.</span><span class="sxs-lookup"><span data-stu-id="393c4-182">Use account or customer name information to find the customer.</span></span>
+4.  <span data-ttu-id="393c4-183">Seleccione el cliente.</span><span class="sxs-lookup"><span data-stu-id="393c4-183">Select the customer.</span></span>
+5.  <span data-ttu-id="393c4-184">Seleccione **Información de contacto** o **Pedidos de ventas**.</span><span class="sxs-lookup"><span data-stu-id="393c4-184">Select **Contact information** or **Sales orders**.</span></span> <span data-ttu-id="393c4-185">Si selecciona **Pedidos de ventas**, se mostrará la lista de pedidos de ventas del cliente.</span><span class="sxs-lookup"><span data-stu-id="393c4-185">If you select **Sales orders**, a list of sales orders for the customer is shown.</span></span>
+6.  <span data-ttu-id="393c4-186">Seleccione **Pedido de ventas**.</span><span class="sxs-lookup"><span data-stu-id="393c4-186">Select **Sales order**.</span></span> <span data-ttu-id="393c4-187">Ahora puede ver información sobre las líneas del pedido de ventas, información sobre los envíos, información de contacto del cliente e información de contacto del creador del pedido.</span><span class="sxs-lookup"><span data-stu-id="393c4-187">You can now view information about sales order lines, information about shipments, customer contact information, and contact information for the order taker.</span></span>
 

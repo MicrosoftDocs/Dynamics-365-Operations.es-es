@@ -16,29 +16,29 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: a40da4263e7e770ce84a269ceaf60a8ca3f5382a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e3863ef8d5d334c6d12e77e61d50043e5d053464
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-sales-tax-reporting-codes"></a>Configurar códigos de notificación de impuestos
+# <a name="set-up-sales-tax-reporting-codes"></a><span data-ttu-id="0fff8-103">Configurar códigos de notificación de impuestos</span><span class="sxs-lookup"><span data-stu-id="0fff8-103">Set up sales tax reporting codes</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Los códigos de notificación de impuestos hacen referencia a un número de campo en un informe de impuestos. Se usan en diseños de informe específicos de país y en el pago de impuestos por informe de código para imprimir los importes de impuestos para un período de liquidación resumido por código de notificación. Una vez creados los códigos de notificación de impuestos, puede hacer referencia a ellos en las fichas desplegables- Configuración del informe de la página Código de impuestos. 
+<span data-ttu-id="0fff8-104">Los códigos de notificación de impuestos hacen referencia a un número de campo en un informe de impuestos.</span><span class="sxs-lookup"><span data-stu-id="0fff8-104">The Sales tax reporting codes refer to a field number on a sales tax report.</span></span> <span data-ttu-id="0fff8-105">Se usan en diseños de informe específicos de país y en el pago de impuestos por informe de código para imprimir los importes de impuestos para un período de liquidación resumido por código de notificación.</span><span class="sxs-lookup"><span data-stu-id="0fff8-105">They are used on country specific report layouts and the Sales tax payment by code report to print sales tax amounts for a settlement period summarized per reporting code.</span></span> <span data-ttu-id="0fff8-106">Una vez creados los códigos de notificación de impuestos, puede hacer referencia a ellos en las fichas desplegables- Configuración del informe de la página Código de impuestos.</span><span class="sxs-lookup"><span data-stu-id="0fff8-106">After you create Sales tax reporting codes, you can refer to them on the Report setup FastTabs in the Sales tax code page.</span></span> 
 
-Esta grabación usa la empresa de demostración DEMF.
+<span data-ttu-id="0fff8-107">Esta grabación usa la empresa de demostración DEMF.</span><span class="sxs-lookup"><span data-stu-id="0fff8-107">This recording uses the DEMF demo company.</span></span>
 
 
 
-1. Vaya a Impuestos > Configuración > Impuestos > Códigos de notificación de impuestos.
-2. Haga clic en Nuevo.
-3. Seleccione el diseño del informe al que pertenece el código de notificación.
-    * Este diseño se usa para filtrar los códigos de notificación disponibles para un código de impuestos. Cada código de impuestos corresponde a un período de liquidación que pertenece a una autoridad fiscal que usa un diseño de informe.  
-4. Especifique un número que haga referencia a un campo del informe de impuestos.
-5. En el campo de texto del informe, escriba una descripción para mostrar en los informes.
-6. En el campo Descripción breve, escriba una descripción para fines internos.
-7. Haga clic en Guardar.
+1. <span data-ttu-id="0fff8-108">Vaya a Impuestos > Configuración > Impuestos > Códigos de notificación de impuestos.</span><span class="sxs-lookup"><span data-stu-id="0fff8-108">Go to Tax > Setup > Sales tax > Sales tax reporting codes.</span></span>
+2. <span data-ttu-id="0fff8-109">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="0fff8-109">Click New.</span></span>
+3. <span data-ttu-id="0fff8-110">Seleccione el diseño del informe al que pertenece el código de notificación.</span><span class="sxs-lookup"><span data-stu-id="0fff8-110">Select the report layout that the reporting code belongs to.</span></span>
+    * <span data-ttu-id="0fff8-111">Este diseño se usa para filtrar los códigos de notificación disponibles para un código de impuestos.</span><span class="sxs-lookup"><span data-stu-id="0fff8-111">This layout is used to filter the available reporting codes for a Sales tax code.</span></span> <span data-ttu-id="0fff8-112">Cada código de impuestos corresponde a un período de liquidación que pertenece a una autoridad fiscal que usa un diseño de informe.</span><span class="sxs-lookup"><span data-stu-id="0fff8-112">Each Sales tax code belongs to a settlement period which belongs to a Sales tax authority which uses a Report layout.</span></span>  
+4. <span data-ttu-id="0fff8-113">Especifique un número que haga referencia a un campo del informe de impuestos.</span><span class="sxs-lookup"><span data-stu-id="0fff8-113">Enter a number that refers to a field on a sales tax report.</span></span>
+5. <span data-ttu-id="0fff8-114">En el campo de texto del informe, escriba una descripción para mostrar en los informes.</span><span class="sxs-lookup"><span data-stu-id="0fff8-114">In the Report text field, enter a description to display on reports.</span></span>
+6. <span data-ttu-id="0fff8-115">En el campo Descripción breve, escriba una descripción para fines internos.</span><span class="sxs-lookup"><span data-stu-id="0fff8-115">In the Brief description field, enter a description for internal purposes.</span></span>
+7. <span data-ttu-id="0fff8-116">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="0fff8-116">Click Save.</span></span>
 
 

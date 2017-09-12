@@ -16,37 +16,37 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: bfc25580448bde8d29b0f392283057e010f180b6
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 367772604bf6a3e1e0825144135da7dc12680619
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Calcular y ajustar los impuestos en una factura de proveedor
+# <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a><span data-ttu-id="1315a-103">Calcular y ajustar los impuestos en una factura de proveedor</span><span class="sxs-lookup"><span data-stu-id="1315a-103">Calculate and adjust sales tax on a vendor invoice</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Si el documento de origen inicial muestra diferentes importes de impuestos según los calcula, puede ajustar dichos importes antes del registro. Esta tarea usa la empresa de demostración DEMF.
+<span data-ttu-id="1315a-104">Si el documento de origen inicial muestra diferentes importes de impuestos según los calcula, puede ajustar dichos importes antes del registro.</span><span class="sxs-lookup"><span data-stu-id="1315a-104">If the original source document displays different tax amounts as calculated, you can adjust those amounts before posting.</span></span> <span data-ttu-id="1315a-105">Esta tarea usa la empresa de demostración DEMF.</span><span class="sxs-lookup"><span data-stu-id="1315a-105">This task uses the DEMF demo company.</span></span>
 
-1. Vaya a Proveedores > Facturas > Diario de facturas.
-2. Haga clic en Nuevo.
-3. En la lista, marque la fila seleccionada.
-4. En el campo Nombre, haga clic en el botón desplegable para abrir la búsqueda.
-5. En la lista, haga clic en el vínculo de la fila seleccionada.
-6. Haga clic en Líneas.
-7. En la lista, marque la fila seleccionada.
-8. En el campo Cuenta, especifique los valores deseados.
-9. En el campo Factura, escriba un valor.
-10. En el campo Crédito, escriba un número.
-11. En el campo Cuenta de contrapartida, especifique los valores deseados.
-12. Haga clic en Impuestos.
-13. En el campo Importe total real de impuestos, escriba un número.
-14. Haga clic en Aceptar
-15. Haga clic en Guardar.
-16. Haga clic en Impuestos.
-17. En la ficha Ajuste, los importes de impuestos se pueden ajustar por código de impuestos.
-18. Haga clic en Restablecer importes reales a partir de los importes calculados.
-19. Haga clic en Aceptar
-20. Haga clic en Guardar.
+1. <span data-ttu-id="1315a-106">Vaya a Proveedores > Facturas > Diario de facturas.</span><span class="sxs-lookup"><span data-stu-id="1315a-106">Go to Accounts payable > Invoices > Invoice journal.</span></span>
+2. <span data-ttu-id="1315a-107">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="1315a-107">Click New.</span></span>
+3. <span data-ttu-id="1315a-108">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="1315a-108">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="1315a-109">En el campo Nombre, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="1315a-109">In the Name field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="1315a-110">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="1315a-110">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="1315a-111">Haga clic en Líneas.</span><span class="sxs-lookup"><span data-stu-id="1315a-111">Click Lines.</span></span>
+7. <span data-ttu-id="1315a-112">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="1315a-112">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="1315a-113">En el campo Cuenta, especifique los valores deseados.</span><span class="sxs-lookup"><span data-stu-id="1315a-113">In the Account field, specify the desired values.</span></span>
+9. <span data-ttu-id="1315a-114">En el campo Factura, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="1315a-114">In the Invoice field, type a value.</span></span>
+10. <span data-ttu-id="1315a-115">En el campo Crédito, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="1315a-115">In the Credit field, enter a number.</span></span>
+11. <span data-ttu-id="1315a-116">En el campo Cuenta de contrapartida, especifique los valores deseados.</span><span class="sxs-lookup"><span data-stu-id="1315a-116">In the Offset account field, specify the desired values.</span></span>
+12. <span data-ttu-id="1315a-117">Haga clic en Impuestos.</span><span class="sxs-lookup"><span data-stu-id="1315a-117">Click Sales tax.</span></span>
+13. <span data-ttu-id="1315a-118">En el campo Importe total real de impuestos, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="1315a-118">In the Total actual sales tax amount field, enter a number.</span></span>
+14. <span data-ttu-id="1315a-119">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="1315a-119">Click OK.</span></span>
+15. <span data-ttu-id="1315a-120">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="1315a-120">Click Save.</span></span>
+16. <span data-ttu-id="1315a-121">Haga clic en Impuestos.</span><span class="sxs-lookup"><span data-stu-id="1315a-121">Click Sales tax.</span></span>
+17. <span data-ttu-id="1315a-122">En la ficha Ajuste, los importes de impuestos se pueden ajustar por código de impuestos.</span><span class="sxs-lookup"><span data-stu-id="1315a-122">On the Adjustment tab, the sales tax amounts can be adjusted per sales tax code.</span></span>
+18. <span data-ttu-id="1315a-123">Haga clic en Restablecer importes reales a partir de los importes calculados.</span><span class="sxs-lookup"><span data-stu-id="1315a-123">Click Reset actual from calculated amounts.</span></span>
+19. <span data-ttu-id="1315a-124">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="1315a-124">Click OK.</span></span>
+20. <span data-ttu-id="1315a-125">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="1315a-125">Click Save.</span></span>
 
 

@@ -17,34 +17,34 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: a22db527d9ab80da9e3592eeef30b4675a3c39c8
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 75b91ea330258a5b57e9e58cb32539d57e458f28
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="end-a-production-order"></a>Finalizar un pedido de producción
+# <a name="end-a-production-order"></a><span data-ttu-id="1663e-103">Finalizar un pedido de producción</span><span class="sxs-lookup"><span data-stu-id="1663e-103">End a production order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo terminar un pedido de producción. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este es el último procedimiento de siete que explica el ciclo de vida del pedido de producción.
+<span data-ttu-id="1663e-104">Este procedimiento muestra cómo terminar un pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="1663e-104">This procedure shows how to end a production order.</span></span> <span data-ttu-id="1663e-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="1663e-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="1663e-106">Este es el último procedimiento de siete que explica el ciclo de vida del pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="1663e-106">This is the final procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="end-a-production-order"></a>Finalizar un pedido de producción
-1. Vaya a Control de producción > Pedidos de producción > Todos los pedidos de producción.
-    * Seleccione un pedido de producción con estado Notificado como terminado.  
-2. En el panel de acciones, haga clic en Pedido de producción.
-3. Haga clic en Fin.
-    * En esta página, puede confirmar que desea finalizar el pedido de producción.  
-4. Haga clic en la pestaña General.
-5. En el campo Fecha, escriba una fecha.
-6. En el campo Método de valoración del residuo, seleccione Asignación.
-    * Cuando selecciona el método Asignación, los costes de los materiales desechados se agregan a los productos terminados.  
-7. Haga clic en Aceptar
+## <a name="end-a-production-order"></a><span data-ttu-id="1663e-107">Finalizar un pedido de producción</span><span class="sxs-lookup"><span data-stu-id="1663e-107">End a production order</span></span>
+1. <span data-ttu-id="1663e-108">Vaya a Control de producción > Pedidos de producción > Todos los pedidos de producción.</span><span class="sxs-lookup"><span data-stu-id="1663e-108">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="1663e-109">Seleccione un pedido de producción con estado Notificado como terminado.</span><span class="sxs-lookup"><span data-stu-id="1663e-109">Select a production order that has the status Reported as finished.</span></span>  
+2. <span data-ttu-id="1663e-110">En el panel de acciones, haga clic en Pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="1663e-110">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="1663e-111">Haga clic en Fin.</span><span class="sxs-lookup"><span data-stu-id="1663e-111">Click End.</span></span>
+    * <span data-ttu-id="1663e-112">En esta página, puede confirmar que desea finalizar el pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="1663e-112">On this page, you can confirm that you want to end the production order.</span></span>  
+4. <span data-ttu-id="1663e-113">Haga clic en la pestaña General.</span><span class="sxs-lookup"><span data-stu-id="1663e-113">Click the General tab.</span></span>
+5. <span data-ttu-id="1663e-114">En el campo Fecha, escriba una fecha.</span><span class="sxs-lookup"><span data-stu-id="1663e-114">In the Date field, enter a date.</span></span>
+6. <span data-ttu-id="1663e-115">En el campo Método de valoración del residuo, seleccione Asignación.</span><span class="sxs-lookup"><span data-stu-id="1663e-115">In the Scrap method field, select 'Allocation'.</span></span>
+    * <span data-ttu-id="1663e-116">Cuando selecciona el método Asignación, los costes de los materiales desechados se agregan a los productos terminados.</span><span class="sxs-lookup"><span data-stu-id="1663e-116">When you select the Allocation method, costs from the scrapped materials are added to the finished goods.</span></span>  
+7. <span data-ttu-id="1663e-117">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="1663e-117">Click OK.</span></span>
 
-## <a name="validate-calculation-results"></a>Validación de resultados de cálculo
-1. En el panel de acciones, haga clic en Gestionar costes.
-2. Haga clic en Ver comparación del coste.
-    * Una vez finalizado el pedido de producción, puede comparar el precio de coste estimado con el precio de coste real para obtener una visión general de las desviaciones de producción.  
+## <a name="validate-calculation-results"></a><span data-ttu-id="1663e-118">Validación de resultados de cálculo</span><span class="sxs-lookup"><span data-stu-id="1663e-118">Validate calculation results</span></span>
+1. <span data-ttu-id="1663e-119">En el panel de acciones, haga clic en Gestionar costes.</span><span class="sxs-lookup"><span data-stu-id="1663e-119">On the Action Pane, click Manage costs.</span></span>
+2. <span data-ttu-id="1663e-120">Haga clic en Ver comparación del coste.</span><span class="sxs-lookup"><span data-stu-id="1663e-120">Click View cost comparison.</span></span>
+    * <span data-ttu-id="1663e-121">Una vez finalizado el pedido de producción, puede comparar el precio de coste estimado con el precio de coste real para obtener una visión general de las desviaciones de producción.</span><span class="sxs-lookup"><span data-stu-id="1663e-121">After you have ended the production order, you can compare the estimated cost price against the realized cost price to get an overview of the production variances.</span></span>  
 
 

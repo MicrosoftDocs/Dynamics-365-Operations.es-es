@@ -16,79 +16,79 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 36f76f0edfba95c8810540ba6ae04ab4823a7ff2
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 2ef0348c0b3a051de6cbb725efbd8e30e7968bd3
 ms.contentlocale: es-es
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="produce-mexican-electronic-ledger-accounting-report-version-11"></a>Producir el informe electrónico de contabilidad de libro mayor del producto mexicano versión 1.1
+# <a name="produce-mexican-electronic-ledger-accounting-report-version-11"></a><span data-ttu-id="6c3d0-103">Producir el informe electrónico de contabilidad de libro mayor del producto mexicano versión 1.1</span><span class="sxs-lookup"><span data-stu-id="6c3d0-103">Produce Mexican electronic ledger accounting report version 1.1</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Esta tarea le muestra todos los pasos necesarios para configurar la generación de archivos XML electrónicos de cuenta contable mediante la herramienta de informes electrónicos. Puede importar desde el centro de recursos de AX el modelo y los formatos de archivos XML para generar los extractos. 
+<span data-ttu-id="6c3d0-104">Esta tarea le muestra todos los pasos necesarios para configurar la generación de archivos XML electrónicos de cuenta contable mediante la herramienta de informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-104">This task walks through all necessary steps to configure the generation of electronic ledger accounting XML files by using the Electronic Reporting tool.</span></span> <span data-ttu-id="6c3d0-105">Puede importar desde el centro de recursos de AX el modelo y los formatos de archivos XML para generar los extractos.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-105">You can import from the AX resource center the model and formats of XML files to generate the statements.</span></span> 
 
 
-## <a name="import-a-configuration-including-xml-formats"></a>Importación de una configuración con formatos XML
-1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
-2. En la lista Proveedores de configuración, haga clic en Definir como activo en el cuadro de proveedor de Microsoft.
-    * Si el proveedor de Microsoft ya es el proveedor activo, puede omitir este paso.  
-3. En la lista Proveedores de configuración, haga clic en el vínculo Repositorios en el cuadro de proveedor de Microsoft.
-4. Haga clic en Agregar para abrir el cuadro desplegable.
-5. Haga clic en Crear un repositorio.
-6. En el campo Nombre, escriba un valor.
-7. En el campo Descripción, escriba un valor.
-8. Haga clic en Aceptar
-9. En la lista, seleccione la configuración que acaba de crear.
-10. En el panel de acciones, haga clic en Abrir.
-11. En el árbol, seleccione Modelo electrónico de cuenta contable MX.
-12. Haga clic en Importar.
-13. Haga clic en Sí.
-14. En el árbol, seleccione Modelo electrónico de cuenta contable MX\Libro mayor auxiliar XML MX.
-15. Haga clic en Importar.
-16. Haga clic en Sí.
-17. En el árbol, seleccione Modelo electrónico de cuenta contable MX\Plan contable XML MX.
-18. Haga clic en Importar.
-19. Haga clic en Sí.
-20. En el árbol, seleccione Modelo electrónico de cuenta contable MX\Diarios XML MX.
-21. Haga clic en Importar.
-22. Haga clic en Sí.
-23. En el árbol, seleccione Modelo electrónico de cuenta contable MX\Saldo de comprobación XML MX.
-24. Haga clic en Importar.
-25. Haga clic en Sí.
-26. Cierre la página.
-27. Cierre la página.
-28. Haga clic en el cuadro Configuraciones.
-29. En el árbol, seleccione Modelo electrónico de cuenta contable MX.
-30. En el árbol, expanda "En el árbol, expanda "Modelo electrónico de cuenta contable MX".
-    * Podrá ver los cuatro (4) formatos XML que importó anteriormente.  
+## <a name="import-a-configuration-including-xml-formats"></a><span data-ttu-id="6c3d0-106">Importación de una configuración con formatos XML</span><span class="sxs-lookup"><span data-stu-id="6c3d0-106">Import a configuration including XML formats</span></span>
+1. <span data-ttu-id="6c3d0-107">Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-107">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="6c3d0-108">En la lista Proveedores de configuración, haga clic en Definir como activo en el cuadro de proveedor de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-108">In the Configuration providers list, click Set active on the Microsoft provider box.</span></span>
+    * <span data-ttu-id="6c3d0-109">Si el proveedor de Microsoft ya es el proveedor activo, puede omitir este paso.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-109">If the Microsoft provider is already the active provider, you can skip this step.</span></span>  
+3. <span data-ttu-id="6c3d0-110">En la lista Proveedores de configuración, haga clic en el vínculo Repositorios en el cuadro de proveedor de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-110">In the Configuration providers list, click the Repositories link on the Microsoft provider box.</span></span>
+4. <span data-ttu-id="6c3d0-111">Haga clic en Agregar para abrir el cuadro desplegable.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-111">Click Add to open the drop dialog.</span></span>
+5. <span data-ttu-id="6c3d0-112">Haga clic en Crear un repositorio.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-112">Click Create a repository.</span></span>
+6. <span data-ttu-id="6c3d0-113">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-113">In the Name field, type a value.</span></span>
+7. <span data-ttu-id="6c3d0-114">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-114">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="6c3d0-115">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="6c3d0-115">Click OK.</span></span>
+9. <span data-ttu-id="6c3d0-116">En la lista, seleccione la configuración que acaba de crear.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-116">In the list, select the configuration that you just created.</span></span>
+10. <span data-ttu-id="6c3d0-117">En el panel de acciones, haga clic en Abrir.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-117">On the action pane, click Open.</span></span>
+11. <span data-ttu-id="6c3d0-118">En el árbol, seleccione Modelo electrónico de cuenta contable MX.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-118">In the tree, select 'Electronic ledger accounting model MX'.</span></span>
+12. <span data-ttu-id="6c3d0-119">Haga clic en Importar.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-119">Click Import.</span></span>
+13. <span data-ttu-id="6c3d0-120">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-120">Click Yes.</span></span>
+14. <span data-ttu-id="6c3d0-121">En el árbol, seleccione Modelo electrónico de cuenta contable MX\Libro mayor auxiliar XML MX.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-121">In the tree, select 'Electronic ledger accounting model MX\Auxiliary Ledger XML MX'.</span></span>
+15. <span data-ttu-id="6c3d0-122">Haga clic en Importar.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-122">Click Import.</span></span>
+16. <span data-ttu-id="6c3d0-123">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-123">Click Yes.</span></span>
+17. <span data-ttu-id="6c3d0-124">En el árbol, seleccione Modelo electrónico de cuenta contable MX\Plan contable XML MX.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-124">In the tree, select 'Electronic ledger accounting model MX\Chart of Account XML MX'.</span></span>
+18. <span data-ttu-id="6c3d0-125">Haga clic en Importar.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-125">Click Import.</span></span>
+19. <span data-ttu-id="6c3d0-126">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-126">Click Yes.</span></span>
+20. <span data-ttu-id="6c3d0-127">En el árbol, seleccione Modelo electrónico de cuenta contable MX\Diarios XML MX.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-127">In the tree, select 'Electronic ledger accounting model MX\Journals XML MX'.</span></span>
+21. <span data-ttu-id="6c3d0-128">Haga clic en Importar.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-128">Click Import.</span></span>
+22. <span data-ttu-id="6c3d0-129">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-129">Click Yes.</span></span>
+23. <span data-ttu-id="6c3d0-130">En el árbol, seleccione Modelo electrónico de cuenta contable MX\Saldo de comprobación XML MX.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-130">In the tree, select 'Electronic ledger accounting model MX\Trial Balance XML MX'.</span></span>
+24. <span data-ttu-id="6c3d0-131">Haga clic en Importar.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-131">Click Import.</span></span>
+25. <span data-ttu-id="6c3d0-132">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-132">Click Yes.</span></span>
+26. <span data-ttu-id="6c3d0-133">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-133">Close the page.</span></span>
+27. <span data-ttu-id="6c3d0-134">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-134">Close the page.</span></span>
+28. <span data-ttu-id="6c3d0-135">Haga clic en el cuadro Configuraciones.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-135">Click the Configurations box.</span></span>
+29. <span data-ttu-id="6c3d0-136">En el árbol, seleccione Modelo electrónico de cuenta contable MX.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-136">In the tree, select 'Electronic ledger accounting model MX'.</span></span>
+30. <span data-ttu-id="6c3d0-137">En el árbol, expanda "En el árbol, expanda "Modelo electrónico de cuenta contable MX".</span><span class="sxs-lookup"><span data-stu-id="6c3d0-137">In the tree, expand 'In the treem expand 'Electronic ledger accoutning model MX''.</span></span>
+    * <span data-ttu-id="6c3d0-138">Podrá ver los cuatro (4) formatos XML que importó anteriormente.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-138">You will be able to see the four (4) XML formats that you previously imported.</span></span>  
 
-## <a name="configure-general-ledger-parameters-for-electronic-reporting-mapping"></a>Configuración de parámetros de contabilidad general para asignar informes electrónicos
-1. Vaya a Contabilidad general > Configuración de contabilidad > Parámetros de Contabilidad general.
-2. En el campo Saldo de comprobación, haga clic en el botón desplegable para abrir la búsqueda.
-3. En la lista, seleccione el formato XML de saldo de comprobación.
-4. En la lista, haga clic en el vínculo de la fila seleccionada.
-5. En el campo Libro mayor auxiliar, haga clic en el botón desplegable para abrir la búsqueda.
-6. En la lista, seleccione el formato XML de libro mayor auxiliar.
-7. En el campo Movimientos contables, haga clic en el botón desplegable para abrir la búsqueda.
-8. En la lista, seleccione el formato XML para diarios.
-9. En la lista, haga clic en el vínculo de la fila seleccionada.
-10. En el campo Plan contable, haga clic en el botón desplegable para abrir la búsqueda.
-11. En la lista, seleccione el formato XML para plan de cuentas.
-12. Haga clic en Guardar.
+## <a name="configure-general-ledger-parameters-for-electronic-reporting-mapping"></a><span data-ttu-id="6c3d0-139">Configuración de parámetros de contabilidad general para asignar informes electrónicos</span><span class="sxs-lookup"><span data-stu-id="6c3d0-139">Configure general ledger parameters for electronic reporting mapping</span></span>
+1. <span data-ttu-id="6c3d0-140">Vaya a Contabilidad general > Configuración de contabilidad > Parámetros de Contabilidad general.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-140">Go to General ledger > Ledger setup > General ledger parameters.</span></span>
+2. <span data-ttu-id="6c3d0-141">En el campo Saldo de comprobación, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-141">In the Trial balance field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="6c3d0-142">En la lista, seleccione el formato XML de saldo de comprobación.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-142">In the list, select the Trial Balance XML format</span></span>
+4. <span data-ttu-id="6c3d0-143">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-143">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="6c3d0-144">En el campo Libro mayor auxiliar, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-144">In the Auxiliary ledger field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="6c3d0-145">En la lista, seleccione el formato XML de libro mayor auxiliar.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-145">In the list, selecy the Auxiliary ledger XML format</span></span>
+7. <span data-ttu-id="6c3d0-146">En el campo Movimientos contables, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-146">In the Ledger entries field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="6c3d0-147">En la lista, seleccione el formato XML para diarios.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-147">In the list, select the Journal XML format</span></span>
+9. <span data-ttu-id="6c3d0-148">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-148">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="6c3d0-149">En el campo Plan contable, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-149">In the Chart of accounts field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="6c3d0-150">En la lista, seleccione el formato XML para plan de cuentas.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-150">In the list, select the Chart of Account XML format.</span></span>
+12. <span data-ttu-id="6c3d0-151">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-151">Click Save.</span></span>
 
-## <a name="generate-xml-files"></a>Generación de archivos XML
-1. Vaya Contabilidad general > Consultas e informes > Informes de contabilidad > Extracto electrónico de cuenta contable.
-2. En el campo Grupo de cuentas de consolidación de SAT, haga clic en el botón desplegable para abrir la búsqueda.
-3. En la lista, busque y seleccione el registro deseado.
-4. En la lista, haga clic en el vínculo de la fila seleccionada.
-5. En el campo Período, especifique una fecha.
-6. Active o desactive la opción Saldo de comprobación.
-    * Esta opción genera los archivos XML del plan contable y el saldo de comprobación.  
-7. Active o desactive la casilla Movimientos contables.
-8. Active o desactive la casilla Libro mayor auxiliar.
-9. En el campo Tipo de solicitud, seleccione una opción.
-10. En el campo Número de pedido, escriba un valor.
-11. Haga clic en Aceptar
+## <a name="generate-xml-files"></a><span data-ttu-id="6c3d0-152">Generación de archivos XML</span><span class="sxs-lookup"><span data-stu-id="6c3d0-152">Generate XML files</span></span>
+1. <span data-ttu-id="6c3d0-153">Vaya Contabilidad general > Consultas e informes > Informes de contabilidad > Extracto electrónico de cuenta contable.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-153">Go to General ledger > Inquiries and reports > Ledger reports > Electronic ledger accounting statement.</span></span>
+2. <span data-ttu-id="6c3d0-154">En el campo Grupo de cuentas de consolidación de SAT, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-154">In the SAT consolidation account group field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="6c3d0-155">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-155">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="6c3d0-156">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-156">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="6c3d0-157">En el campo Período, especifique una fecha.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-157">In the Period field, enter a date.</span></span>
+6. <span data-ttu-id="6c3d0-158">Active o desactive la opción Saldo de comprobación.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-158">Check or uncheck the Trial Balance opcion</span></span>
+    * <span data-ttu-id="6c3d0-159">Esta opción genera los archivos XML del plan contable y el saldo de comprobación.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-159">This option generates the Chart of Account and Trial Balance XML files.</span></span>  
+7. <span data-ttu-id="6c3d0-160">Active o desactive la casilla Movimientos contables.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-160">Select or clear the Ledger entries check box.</span></span>
+8. <span data-ttu-id="6c3d0-161">Active o desactive la casilla Libro mayor auxiliar.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-161">Select or clear the Auxiliary ledger check box.</span></span>
+9. <span data-ttu-id="6c3d0-162">En el campo Tipo de solicitud, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-162">In the Request type field, select an option.</span></span>
+10. <span data-ttu-id="6c3d0-163">En el campo Número de pedido, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="6c3d0-163">In the Order number field, type a value.</span></span>
+11. <span data-ttu-id="6c3d0-164">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="6c3d0-164">Click OK.</span></span>
 
 

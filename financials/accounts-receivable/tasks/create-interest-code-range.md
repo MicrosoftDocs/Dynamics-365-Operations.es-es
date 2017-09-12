@@ -16,39 +16,39 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: fef4db5a3e109aa197d28cc4bbc582c03cf26c15
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 05ca41dd5d660e9f0ef72ee5bd49d800645081a5
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-an-interest-code-with-a-range"></a>Crear un código de interés con un intervalo
+# <a name="create-an-interest-code-with-a-range"></a><span data-ttu-id="fffb6-103">Crear un código de interés con un intervalo</span><span class="sxs-lookup"><span data-stu-id="fffb6-103">Create an interest code with a range</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Los códigos de interés se pueden configurar para calcular diferentes importes de interés basados en un intervalo de valores. Este procedimiento le mostrará cómo agregar un código de interés y agregarle un intervalo.
+<span data-ttu-id="fffb6-104">Los códigos de interés se pueden configurar para calcular diferentes importes de interés basados en un intervalo de valores.</span><span class="sxs-lookup"><span data-stu-id="fffb6-104">Interest codes can be set up to calculate different interest amounts based on a range of values.</span></span> <span data-ttu-id="fffb6-105">Este procedimiento le mostrará cómo agregar un código de interés y agregarle un intervalo.</span><span class="sxs-lookup"><span data-stu-id="fffb6-105">This procedure will show you how to add an interest code and add a range to it.</span></span>
 
-1. Vaya a Crédito y cobros > Interés > Configurar códigos de interés.
-2. Haga clic en Nuevo.
-3. En el campo Código del interés, especifique el nombre del código de interés.
-4. En el campo Descripción, especifique una descripción para el código de interés.
-5. Seleccione Mes.
-6. Expanda la sección Ganancias.
-7. Expanda las ganancias por sección de divisa.
-8. En el campo Cuenta de registro de libro mayor, especifique los valores deseados.
-9. En campo Interés por intervalo, seleccione "Meses".
-10. Haga clic en Agregar.
-11. En el campo Descripción, especifique una descripción para esta divisa e intervalo.
-12. Haga clic en Guardar.
-13. Haga clic en Intervalos.
-14. Haga clic en Nuevo.
-15. Especifique el Valor inicial como 0 y especifique el porcentaje de interés al mes que se usará para calcular el interés. Para nuestro ejemplo, es 1,5.
-16. Haga clic en Nuevo.
-17. Especifique el siguiente Valor inicial como 4, que es el primer mes en que calculará un nuevo importe de interés.
-18. Especifique el porcentaje de interés al mes que se usará para calcular el interés que empieza el mes 4. Para este ejemplo, es 2.0.
-19. Haga clic en Nuevo.
-20. Especifique el siguiente Valor inicial como 7, que es el siguiente mes en que calculará un nuevo importe de interés.
-21. Especifique el porcentaje de interés al mes que se usará para calcular el interés que empieza el mes 7. Para este ejemplo, es 2.5.
-22. Haga clic en Cerrar para completar la configuración.
+1. <span data-ttu-id="fffb6-106">Vaya a Crédito y cobros > Interés > Configurar códigos de interés.</span><span class="sxs-lookup"><span data-stu-id="fffb6-106">Go to Credit and collections > Interest > Set up interest codes.</span></span>
+2. <span data-ttu-id="fffb6-107">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="fffb6-107">Click New.</span></span>
+3. <span data-ttu-id="fffb6-108">En el campo Código del interés, especifique el nombre del código de interés.</span><span class="sxs-lookup"><span data-stu-id="fffb6-108">In the Interest code field, enter the name of the interest code.</span></span>
+4. <span data-ttu-id="fffb6-109">En el campo Descripción, especifique una descripción para el código de interés.</span><span class="sxs-lookup"><span data-stu-id="fffb6-109">In the Description field, enter a description for the interest code.</span></span>
+5. <span data-ttu-id="fffb6-110">Seleccione Mes.</span><span class="sxs-lookup"><span data-stu-id="fffb6-110">Select Month.</span></span>
+6. <span data-ttu-id="fffb6-111">Expanda la sección Ganancias.</span><span class="sxs-lookup"><span data-stu-id="fffb6-111">Expand the Earnings section.</span></span>
+7. <span data-ttu-id="fffb6-112">Expanda las ganancias por sección de divisa.</span><span class="sxs-lookup"><span data-stu-id="fffb6-112">Expand the Earnings by currency section.</span></span>
+8. <span data-ttu-id="fffb6-113">En el campo Cuenta de registro de libro mayor, especifique los valores deseados.</span><span class="sxs-lookup"><span data-stu-id="fffb6-113">In the Ledger posting account field, specify the desired values.</span></span>
+9. <span data-ttu-id="fffb6-114">En campo Interés por intervalo, seleccione "Meses".</span><span class="sxs-lookup"><span data-stu-id="fffb6-114">In the Interest by range field, select 'Months'.</span></span>
+10. <span data-ttu-id="fffb6-115">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="fffb6-115">Click Add.</span></span>
+11. <span data-ttu-id="fffb6-116">En el campo Descripción, especifique una descripción para esta divisa e intervalo.</span><span class="sxs-lookup"><span data-stu-id="fffb6-116">In the Description field, enter a description for this currency and range.</span></span>
+12. <span data-ttu-id="fffb6-117">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="fffb6-117">Click Save.</span></span>
+13. <span data-ttu-id="fffb6-118">Haga clic en Intervalos.</span><span class="sxs-lookup"><span data-stu-id="fffb6-118">Click Ranges.</span></span>
+14. <span data-ttu-id="fffb6-119">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="fffb6-119">Click New.</span></span>
+15. <span data-ttu-id="fffb6-120">Especifique el Valor inicial como 0 y especifique el porcentaje de interés al mes que se usará para calcular el interés.</span><span class="sxs-lookup"><span data-stu-id="fffb6-120">Enter the From value as 0 and then enter the interest percent per month that will be used to calculate the interest.</span></span> <span data-ttu-id="fffb6-121">Para nuestro ejemplo, es 1,5.</span><span class="sxs-lookup"><span data-stu-id="fffb6-121">For our example, it is 1.5.</span></span>
+16. <span data-ttu-id="fffb6-122">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="fffb6-122">Click New.</span></span>
+17. <span data-ttu-id="fffb6-123">Especifique el siguiente Valor inicial como 4, que es el primer mes en que calculará un nuevo importe de interés.</span><span class="sxs-lookup"><span data-stu-id="fffb6-123">Enter the next From value as 4, which is the first month that you will be calculating a new interest amount.</span></span>
+18. <span data-ttu-id="fffb6-124">Especifique el porcentaje de interés al mes que se usará para calcular el interés que empieza el mes 4.</span><span class="sxs-lookup"><span data-stu-id="fffb6-124">Enter the interest percent per month that will be used to calculate the interest starting in month 4.</span></span> <span data-ttu-id="fffb6-125">Para este ejemplo, es 2.0.</span><span class="sxs-lookup"><span data-stu-id="fffb6-125">For this example, it is 2.0.</span></span>
+19. <span data-ttu-id="fffb6-126">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="fffb6-126">Click New.</span></span>
+20. <span data-ttu-id="fffb6-127">Especifique el siguiente Valor inicial como 7, que es el siguiente mes en que calculará un nuevo importe de interés.</span><span class="sxs-lookup"><span data-stu-id="fffb6-127">Enter the next From value as 7, which is the next month that you will be calculating a new interest amount.</span></span>
+21. <span data-ttu-id="fffb6-128">Especifique el porcentaje de interés al mes que se usará para calcular el interés que empieza el mes 7.</span><span class="sxs-lookup"><span data-stu-id="fffb6-128">Enter the interest percent per month that will be used to calculate the interest starting in month 7.</span></span> <span data-ttu-id="fffb6-129">Para este ejemplo, es 2.5.</span><span class="sxs-lookup"><span data-stu-id="fffb6-129">For this example, it is 2.5.</span></span>
+22. <span data-ttu-id="fffb6-130">Haga clic en Cerrar para completar la configuración.</span><span class="sxs-lookup"><span data-stu-id="fffb6-130">Click Close to complete the setup.</span></span>
 
 

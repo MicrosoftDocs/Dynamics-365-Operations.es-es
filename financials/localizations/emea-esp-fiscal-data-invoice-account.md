@@ -17,58 +17,58 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9c3e11f87006f37f997232125f00cbd295c9accd
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 217873ffbfa86687f53b2c0c85c9d5581ee3c19b
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="use-fiscal-data-from-the-invoice-account"></a>Usar datos fiscales de la cuenta de factura
+# <a name="use-fiscal-data-from-the-invoice-account"></a><span data-ttu-id="13ccb-104">Usar datos fiscales de la cuenta de factura</span><span class="sxs-lookup"><span data-stu-id="13ccb-104">Use fiscal data from the invoice account</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Para las entidades jurídicas en España, la funcionalidad Usar datos fiscales de cuenta de factura permite la actualización automática de datos fiscales de los pedidos de ventas, las facturas de texto sin formato y los pedidos de compra, en función de la información de la cuenta de facturación. Este tema proporciona información sobre la funcionalidad Usar datos fiscales de cuenta de factura y explica cómo configurarla.
+<span data-ttu-id="13ccb-105">Para las entidades jurídicas en España, la funcionalidad Usar datos fiscales de cuenta de factura permite la actualización automática de datos fiscales de los pedidos de ventas, las facturas de texto sin formato y los pedidos de compra, en función de la información de la cuenta de facturación.</span><span class="sxs-lookup"><span data-stu-id="13ccb-105">For legal entities in Spain, the Use fiscal data from invoice account functionality enables fiscal data on sales orders, free text invoices, and purchase orders to be updated automatically, based on information from the invoice account.</span></span> <span data-ttu-id="13ccb-106">Este tema proporciona información sobre la funcionalidad Usar datos fiscales de cuenta de factura y explica cómo configurarla.</span><span class="sxs-lookup"><span data-stu-id="13ccb-106">This topic provides information about the Use fiscal data from invoice account functionality and explains how to set it up.</span></span>
 
-Para las entidades jurídicas en España, la funcionalidad Usar datos fiscales de cuenta de factura permite la actualización automática de datos fiscales de los pedidos de ventas, las facturas de texto sin formato y los pedidos de compra, en función de la información de la cuenta de facturación. Los datos fiscales que actualizan incluye el nombre del cliente o proveedor, la dirección y la información fiscal. La funcionalidad Usar datos fiscales de cuenta de factura afecta a los siguientes módulos:
+<span data-ttu-id="13ccb-107">Para las entidades jurídicas en España, la funcionalidad Usar datos fiscales de cuenta de factura permite la actualización automática de datos fiscales de los pedidos de ventas, las facturas de texto sin formato y los pedidos de compra, en función de la información de la cuenta de facturación.</span><span class="sxs-lookup"><span data-stu-id="13ccb-107">For legal entities in Spain, the Use fiscal data from invoice account functionality enables fiscal data on sales orders, free text invoices, and purchase orders to be updated automatically, based on information from the invoice account.</span></span> <span data-ttu-id="13ccb-108">Los datos fiscales que actualizan incluye el nombre del cliente o proveedor, la dirección y la información fiscal.</span><span class="sxs-lookup"><span data-stu-id="13ccb-108">The fiscal data that is updated includes the customer or vendor name, address, and tax information.</span></span> <span data-ttu-id="13ccb-109">La funcionalidad Usar datos fiscales de cuenta de factura afecta a los siguientes módulos:</span><span class="sxs-lookup"><span data-stu-id="13ccb-109">The Use fiscal data from invoice account functionality affects the following modules:</span></span>
 
--   Proveedores'Página de cambio **Cuenta de facturación**' 
--   Adquisición y abastecimiento
--   Clientes
--   Ventas y marketing
+-   <span data-ttu-id="13ccb-110">Proveedores'Página de cambio **Cuenta de facturación**' </span><span class="sxs-lookup"><span data-stu-id="13ccb-110">Accounts payable'**Invoice account** change page'</span></span>
+-   <span data-ttu-id="13ccb-111">Adquisición y abastecimiento</span><span class="sxs-lookup"><span data-stu-id="13ccb-111">Procurement and sourcing</span></span>
+-   <span data-ttu-id="13ccb-112">Clientes</span><span class="sxs-lookup"><span data-stu-id="13ccb-112">Accounts receivable</span></span>
+-   <span data-ttu-id="13ccb-113">Ventas y marketing</span><span class="sxs-lookup"><span data-stu-id="13ccb-113">Sales and marketing</span></span>
 
-## <a name="accounts-payable-and-procurement-and-sourcing"></a>Proveedores y Adquisición y abastecimiento
-Para gestionar la oportunidad de actualización automática de datos fiscales en cambio de cuenta de facturación del módulo Proveedores, debe configurar un parámetro Usar datos fiscales de cuenta de factura en la ficha Factura de la página Proveedores &gt; Configurar &gt; Proveedores &gt; parámetros. Están disponibles las siguientes opciones:
+## <a name="accounts-payable-and-procurement-and-sourcing"></a><span data-ttu-id="13ccb-114">Proveedores y Adquisición y abastecimiento</span><span class="sxs-lookup"><span data-stu-id="13ccb-114">Accounts payable and Procurement and sourcing</span></span>
+<span data-ttu-id="13ccb-115">Para gestionar la oportunidad de actualización automática de datos fiscales en cambio de cuenta de facturación del módulo Proveedores, debe configurar un parámetro Usar datos fiscales de cuenta de factura en la ficha Factura de la página Proveedores &gt; Configurar &gt; Proveedores &gt; parámetros.</span><span class="sxs-lookup"><span data-stu-id="13ccb-115">To manage the opportunity of fiscal data automatic update on Invoice account change in the Accounts payable module you need to set up a parameter Use fiscal data from invoice account on Invoice tab of the Account payable &gt; Setup &gt; Account payable &gt; parameters page.</span></span> <span data-ttu-id="13ccb-116">Están disponibles las siguientes opciones:</span><span class="sxs-lookup"><span data-stu-id="13ccb-116">The following options are available:</span></span>
 
--   **Nunca**: la información se acualiza desde la cuenta del proveedor.
--   **Siempre**: la información se acualiza desde la cuenta de facturación.
--   **Preguntar**: Se le pide al usuario que especifique si la información debe actualizarse desde la cuenta de facturación o la del proveedor.
+-   <span data-ttu-id="13ccb-117">**Nunca**: la información se acualiza desde la cuenta del proveedor.</span><span class="sxs-lookup"><span data-stu-id="13ccb-117">**Never** – Information is updated from the vendor account.</span></span>
+-   <span data-ttu-id="13ccb-118">**Siempre**: la información se acualiza desde la cuenta de facturación.</span><span class="sxs-lookup"><span data-stu-id="13ccb-118">**Always** – Information is updated from the invoice account.</span></span>
+-   <span data-ttu-id="13ccb-119">**Preguntar**: Se le pide al usuario que especifique si la información debe actualizarse desde la cuenta de facturación o la del proveedor.</span><span class="sxs-lookup"><span data-stu-id="13ccb-119">**Ask** – The user is prompted to specify whether information should be updated from the invoice account or the vendor account.</span></span>
 
-Cuando se define el parámetro **Usar datos fiscales de cuenta de factura**, pueden actualizarse tres campos de una orden de compra en función del valor del parámetro. Cuando se modifica el campo **Cuenta de facturación**, los campos siguientes se actualizan con la información de la cuenta de facturación:
+<span data-ttu-id="13ccb-120">Cuando se define el parámetro **Usar datos fiscales de cuenta de factura**, pueden actualizarse tres campos de una orden de compra en función del valor del parámetro.</span><span class="sxs-lookup"><span data-stu-id="13ccb-120">When the **Use fiscal data from invoice account** parameter is set, three fields on a purchase order may be updated according the value of the parameter.</span></span> <span data-ttu-id="13ccb-121">Cuando se modifica el campo **Cuenta de facturación**, los campos siguientes se actualizan con la información de la cuenta de facturación:</span><span class="sxs-lookup"><span data-stu-id="13ccb-121">When the **Invoice account** field is changed, the following fields are updated with information from the invoice account:</span></span>
 
--   Nombre
--   Grupo de impuestos sobre las ventas
--   Exención fiscal
+-   <span data-ttu-id="13ccb-122">Nombre</span><span class="sxs-lookup"><span data-stu-id="13ccb-122">Name</span></span>
+-   <span data-ttu-id="13ccb-123">Grupo de impuestos sobre las ventas</span><span class="sxs-lookup"><span data-stu-id="13ccb-123">Sales tax group</span></span>
+-   <span data-ttu-id="13ccb-124">Exención fiscal</span><span class="sxs-lookup"><span data-stu-id="13ccb-124">Tax exemption</span></span>
 
-## <a name="accounts-receivable-and-sales-and-marketing"></a>Clientes, ventas y marketing
-Para gestionar la oportunidad de actualización automática de datos fiscales en cambio de **Cuenta de facturación** del módulo **Proveedores**, debe configurar un parámetro "**Usar datos fiscales de cuenta de factura**" en la ficha desplegable **Factura** de la ficha **Actualizaciones** en la página **Clientes** &gt; **Configurar** &gt; **Proveedores** **parámetros**. Están disponibles las siguientes opciones:
+## <a name="accounts-receivable-and-sales-and-marketing"></a><span data-ttu-id="13ccb-125">Clientes, ventas y marketing</span><span class="sxs-lookup"><span data-stu-id="13ccb-125">Accounts receivable and Sales and marketing</span></span>
+<span data-ttu-id="13ccb-126">Para gestionar la oportunidad de actualización automática de datos fiscales en cambio de **Cuenta de facturación** del módulo **Proveedores**, debe configurar un parámetro "**Usar datos fiscales de cuenta de factura**" en la ficha desplegable **Factura** de la ficha **Actualizaciones** en la página **Clientes** &gt; **Configurar** &gt; **Proveedores** **parámetros**.</span><span class="sxs-lookup"><span data-stu-id="13ccb-126">To manage the opportunity of fiscal data automatic update on **Invoice account** change in the **Accounts receivable** module you need to set up a parameter “**Use fiscal data from invoice account**” on the **Invoice** fasttab of the **Updates** tab of the **Account receivable** &gt; **Setup** &gt; **Account receivable** **parameters** page.</span></span> <span data-ttu-id="13ccb-127">Están disponibles las siguientes opciones:</span><span class="sxs-lookup"><span data-stu-id="13ccb-127">The following options are available:</span></span>
 
--   **Nunca**: la información se acualiza desde la cuenta del cliente.
--   **Siempre**: la información se acualiza desde la cuenta de facturación.
--   **Preguntar**: Se le pide al usuario que especifique si la información debe actualizarse desde la cuenta de facturación o la del cliente.
+-   <span data-ttu-id="13ccb-128">**Nunca**: la información se acualiza desde la cuenta del cliente.</span><span class="sxs-lookup"><span data-stu-id="13ccb-128">**Never** – Information is updated from the customer account.</span></span>
+-   <span data-ttu-id="13ccb-129">**Siempre**: la información se acualiza desde la cuenta de facturación.</span><span class="sxs-lookup"><span data-stu-id="13ccb-129">**Always** – Information is updated from the invoice account.</span></span>
+-   <span data-ttu-id="13ccb-130">**Preguntar**: Se le pide al usuario que especifique si la información debe actualizarse desde la cuenta de facturación o la del cliente.</span><span class="sxs-lookup"><span data-stu-id="13ccb-130">**Ask** – The user is prompted to specify whether information should be updated from the invoice account or the customer account.</span></span>
 
-Cuando se establece el parámetro **Usar datos fiscales de cuenta de factura**, es posible actualizar los documentos siguientes desde Clientes:
+<span data-ttu-id="13ccb-131">Cuando se establece el parámetro **Usar datos fiscales de cuenta de factura**, es posible actualizar los documentos siguientes desde Clientes:</span><span class="sxs-lookup"><span data-stu-id="13ccb-131">When the **Use fiscal data from invoice account** parameter is set, the following documents from Accounts receivable can be updated:</span></span>
 
--   Pedidos de ventas
--   Facturas de servicios
+-   <span data-ttu-id="13ccb-132">Pedidos de ventas</span><span class="sxs-lookup"><span data-stu-id="13ccb-132">Sales orders</span></span>
+-   <span data-ttu-id="13ccb-133">Facturas de servicios</span><span class="sxs-lookup"><span data-stu-id="13ccb-133">Free text invoices</span></span>
 
-Cuando se modifica el campo **Cuenta de facturación**, los campos siguientes pueden actualizarse con la información de la cuenta de facturación:
+<span data-ttu-id="13ccb-134">Cuando se modifica el campo **Cuenta de facturación**, los campos siguientes pueden actualizarse con la información de la cuenta de facturación:</span><span class="sxs-lookup"><span data-stu-id="13ccb-134">When the **Invoice account** field is changed, the following fields can be updated with information from the invoice account:</span></span>
 
--   Nombre
--   Grupo de impuestos sobre las ventas
--   Exención fiscal
+-   <span data-ttu-id="13ccb-135">Nombre</span><span class="sxs-lookup"><span data-stu-id="13ccb-135">Name</span></span>
+-   <span data-ttu-id="13ccb-136">Grupo de impuestos sobre las ventas</span><span class="sxs-lookup"><span data-stu-id="13ccb-136">Sales tax group</span></span>
+-   <span data-ttu-id="13ccb-137">Exención fiscal</span><span class="sxs-lookup"><span data-stu-id="13ccb-137">Tax exemption</span></span>
 
 
 

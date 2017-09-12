@@ -17,62 +17,62 @@ ms.assetid: 128340e1-c573-48e6-b835-6c350d8dd0fb
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: a0eeb5a57f9b82150150752c64e89c2c91856889
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 07ed503b7c441cb594e8e96ddcd9a81c0745a963
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="physical-and-financial-updates"></a>Actualizaciones físicas y financieras
+# <a name="physical-and-financial-updates"></a><span data-ttu-id="e9f16-103">Actualizaciones físicas y financieras</span><span class="sxs-lookup"><span data-stu-id="e9f16-103">Physical and financial updates</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-En este tema se proporciona un resumen de qué tipos de transacciones aumentan y reducen las cantidades de inventario. 
+<span data-ttu-id="e9f16-104">En este tema se proporciona un resumen de qué tipos de transacciones aumentan y reducen las cantidades de inventario.</span><span class="sxs-lookup"><span data-stu-id="e9f16-104">This topic provides an overview of which types of transactions increase or decrease inventory quantities.</span></span> 
 
-Las transacciones de inventario se pueden actualizar físicamente y financieramente en Microsoft Dynamics 365 for Finance and Operations. Algunos tipos de transacciones financieras y físicas aumentan las cantidades de inventario, mientras que otros reducen la cantidad.
+<span data-ttu-id="e9f16-105">Las transacciones de inventario se pueden actualizar físicamente y financieramente en Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e9f16-105">Inventory transactions can be physically updated and financially updated in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="e9f16-106">Algunos tipos de transacciones financieras y físicas aumentan las cantidades de inventario, mientras que otros reducen la cantidad.</span><span class="sxs-lookup"><span data-stu-id="e9f16-106">Some types of physical and financial transactions increase inventory quantities, whereas others decrease the quantity.</span></span>
 
-## <a name="physical-increases"></a>Incrementos físicos
-Cuando se registra una transacción física, el estado del registro de la transacción es **Recibido**. Las siguientes transacciones se consideran incrementos físicos:
+## <a name="physical-increases"></a><span data-ttu-id="e9f16-107">Incrementos físicos</span><span class="sxs-lookup"><span data-stu-id="e9f16-107">Physical increases</span></span>
+<span data-ttu-id="e9f16-108">Cuando se registra una transacción física, el estado del registro de la transacción es **Recibido**.</span><span class="sxs-lookup"><span data-stu-id="e9f16-108">When a physical transaction is posted, the status of the transaction record is **Received**.</span></span> <span data-ttu-id="e9f16-109">Las siguientes transacciones se consideran incrementos físicos:</span><span class="sxs-lookup"><span data-stu-id="e9f16-109">The following transactions are considered physical increases:</span></span>
 
--   Recibo del pedido de compra
--   Devolución en albarán del pedido de ventas
--   Notificación de un pedido de producción como terminado
--   Por producto en una lista de selección de pedidos de producción
+-   <span data-ttu-id="e9f16-110">Recibo del pedido de compra</span><span class="sxs-lookup"><span data-stu-id="e9f16-110">Purchase order receipt</span></span>
+-   <span data-ttu-id="e9f16-111">Devolución en albarán del pedido de ventas</span><span class="sxs-lookup"><span data-stu-id="e9f16-111">Sales order packing slip return</span></span>
+-   <span data-ttu-id="e9f16-112">Notificación de un pedido de producción como terminado</span><span class="sxs-lookup"><span data-stu-id="e9f16-112">Reporting a production order as finished</span></span>
+-   <span data-ttu-id="e9f16-113">Por producto en una lista de selección de pedidos de producción</span><span class="sxs-lookup"><span data-stu-id="e9f16-113">By-product on a production order picking list</span></span>
 
-## <a name="financial-increases"></a>Incrementos financieros
-Cuando se registra una transacción de recepción financiera, el estado del registro de la transacción que aumenta la cantidad es **Comprado**. Las siguientes transacciones se consideran incrementos financieros:
+## <a name="financial-increases"></a><span data-ttu-id="e9f16-114">Incrementos financieros</span><span class="sxs-lookup"><span data-stu-id="e9f16-114">Financial increases</span></span>
+<span data-ttu-id="e9f16-115">Cuando se registra una transacción de recepción financiera, el estado del registro de la transacción que aumenta la cantidad es **Comprado**.</span><span class="sxs-lookup"><span data-stu-id="e9f16-115">When a financial receipt transaction is posted, the status of the transaction record that increases the quantity is **Purchased**.</span></span> <span data-ttu-id="e9f16-116">Las siguientes transacciones se consideran incrementos financieros:</span><span class="sxs-lookup"><span data-stu-id="e9f16-116">The following transactions are considered financial increases:</span></span>
 
--   Factura de proveedor
--   Factura del pedido de ventas para una devolución
--   Gestión de costes del pedido de producción
--   Diarios de inventario de cantidad positiva, como movimiento, pérdidas y ganancias, recuento, lista de materiales y transferencia
+-   <span data-ttu-id="e9f16-117">Factura de proveedor</span><span class="sxs-lookup"><span data-stu-id="e9f16-117">Vendor invoice</span></span>
+-   <span data-ttu-id="e9f16-118">Factura del pedido de ventas para una devolución</span><span class="sxs-lookup"><span data-stu-id="e9f16-118">Sales order invoice for a return</span></span>
+-   <span data-ttu-id="e9f16-119">Gestión de costes del pedido de producción</span><span class="sxs-lookup"><span data-stu-id="e9f16-119">Production order costing</span></span>
+-   <span data-ttu-id="e9f16-120">Diarios de inventario de cantidad positiva, como movimiento, pérdidas y ganancias, recuento, lista de materiales y transferencia</span><span class="sxs-lookup"><span data-stu-id="e9f16-120">Positive quantity inventory journals, such as movement, profit and loss, counting, bill of materials, and transfer</span></span>
 
-## <a name="transactions-that-increase-quantity"></a>Transacciones que aumentan la cantidad.
-Las transacciones que aumentan la cantidad se registran en el precio de coste promedio móvil. Finance and Operations calcula un precio de coste promedio móvil basado en el coste de cada una de las transacciones para cada dimensión de inventario de la que se efectúa un seguimiento financiero. Para obtener información acerca del precio de coste promedio móvil, consulte [Precio de coste promedio móvil](running-average-cost-price.md).
+## <a name="transactions-that-increase-quantity"></a><span data-ttu-id="e9f16-121">Transacciones que aumentan la cantidad.</span><span class="sxs-lookup"><span data-stu-id="e9f16-121">Transactions that increase quantity</span></span>
+<span data-ttu-id="e9f16-122">Las transacciones que aumentan la cantidad se registran en el precio de coste promedio móvil.</span><span class="sxs-lookup"><span data-stu-id="e9f16-122">Transactions that increase quantity are posted at the running average cost price.</span></span> <span data-ttu-id="e9f16-123">Finance and Operations calcula un precio de coste promedio móvil basado en el coste de cada una de las transacciones para cada dimensión de inventario de la que se efectúa un seguimiento financiero.</span><span class="sxs-lookup"><span data-stu-id="e9f16-123">Finance and Operations calculates a running average cost price that is based on the cost of each of these transactions for each inventory dimension that is being tracked financially.</span></span> <span data-ttu-id="e9f16-124">Para obtener información acerca del precio de coste promedio móvil, consulte [Precio de coste promedio móvil](running-average-cost-price.md).</span><span class="sxs-lookup"><span data-stu-id="e9f16-124">For information about running average cost prices, see [Running average cost price](running-average-cost-price.md).</span></span>
 
-## <a name="transactions-that-decrease-quantity"></a>Transacciones que reducen la cantidad
-Finance and Operations utiliza el precio de coste promedio móvil cuando se registra una transacción que reduce la cantidad, independientemente de qué modelo de inventario está asociado a ese inventario. La transacción que reduce la cantidad no debe haberse marcado para otra transacción antes de registrarse. Si el inventario físico disponible llega a ser negativo, Finance and Operations utiliza el coste de inventario definido para el artículo en la página **Artículo**. **Nota**: si la funcionalidad multisitio está activada, este coste será en su lugar el coste de inventario definido para un sitio en la página **Configuración predeterminada de pedido**.
+## <a name="transactions-that-decrease-quantity"></a><span data-ttu-id="e9f16-125">Transacciones que reducen la cantidad</span><span class="sxs-lookup"><span data-stu-id="e9f16-125">Transactions that decrease quantity</span></span>
+<span data-ttu-id="e9f16-126">Finance and Operations utiliza el precio de coste promedio móvil cuando se registra una transacción que reduce la cantidad, independientemente de qué modelo de inventario está asociado a ese inventario.</span><span class="sxs-lookup"><span data-stu-id="e9f16-126">Finance and Operations uses the calculated running average cost price when a transaction that decreases quantity is posted, regardless of the inventory model that is associated with that inventory.</span></span> <span data-ttu-id="e9f16-127">La transacción que reduce la cantidad no debe haberse marcado para otra transacción antes de registrarse.</span><span class="sxs-lookup"><span data-stu-id="e9f16-127">The transaction that decreases quantity must not have been marked to another transaction before it was posted.</span></span> <span data-ttu-id="e9f16-128">Si el inventario físico disponible llega a ser negativo, Finance and Operations utiliza el coste de inventario definido para el artículo en la página **Artículo**.</span><span class="sxs-lookup"><span data-stu-id="e9f16-128">If the physical on-hand inventory becomes negative, Finance and Operations uses the inventory cost that is defined for the item on the **Item** page.</span></span> <span data-ttu-id="e9f16-129">**Nota**: si la funcionalidad multisitio está activada, este coste será en su lugar el coste de inventario definido para un sitio en la página **Configuración predeterminada de pedido**.</span><span class="sxs-lookup"><span data-stu-id="e9f16-129">**Note:** If multisite functionality is enabled, this cost will instead be the inventory cost that is defined for a site on the **Default order settings** page.</span></span>
 
-## <a name="physical-issues-vs-financial-issues"></a>Emisiones físicas frente a emisiones financieras
-Cuando se registra una transacción de emisión física, el estado del registro de la transacción es **Deducido**. Las siguientes transacciones se consideran emisiones físicas:
+## <a name="physical-issues-vs-financial-issues"></a><span data-ttu-id="e9f16-130">Emisiones físicas frente a emisiones financieras</span><span class="sxs-lookup"><span data-stu-id="e9f16-130">Physical issues vs. financial issues</span></span>
+<span data-ttu-id="e9f16-131">Cuando se registra una transacción de emisión física, el estado del registro de la transacción es **Deducido**.</span><span class="sxs-lookup"><span data-stu-id="e9f16-131">When a physical issue transaction is posted, the status of the transaction record is **Deducted**.</span></span> <span data-ttu-id="e9f16-132">Las siguientes transacciones se consideran emisiones físicas:</span><span class="sxs-lookup"><span data-stu-id="e9f16-132">The following transactions are considered physical issues:</span></span>
 
--   Diario de listas de selección de órdenes de producción
--   Albarán del pedido de ventas
--   Devolución del albarán de pedido de compra
+-   <span data-ttu-id="e9f16-133">Diario de listas de selección de órdenes de producción</span><span class="sxs-lookup"><span data-stu-id="e9f16-133">Production order picking list journal</span></span>
+-   <span data-ttu-id="e9f16-134">Albarán del pedido de ventas</span><span class="sxs-lookup"><span data-stu-id="e9f16-134">Sales order packing slip</span></span>
+-   <span data-ttu-id="e9f16-135">Devolución del albarán de pedido de compra</span><span class="sxs-lookup"><span data-stu-id="e9f16-135">Purchase order packing slip return</span></span>
 
-Cuando se registra una transacción financiera, el estado del registro de la transacción es **Vendido**. Las siguientes transacciones se consideran emisiones financieras:
+<span data-ttu-id="e9f16-136">Cuando se registra una transacción financiera, el estado del registro de la transacción es **Vendido**.</span><span class="sxs-lookup"><span data-stu-id="e9f16-136">When a financial transaction is posted, the status of the transaction record is **Sold**.</span></span> <span data-ttu-id="e9f16-137">Las siguientes transacciones se consideran emisiones financieras:</span><span class="sxs-lookup"><span data-stu-id="e9f16-137">The following transactions are considered financial issues:</span></span>
 
--   Finalización de un pedido de producción
--   Factura del pedido de ventas
--   Devolución de facturas de proveedor
--   Diarios de inventario de cantidad negativa, como movimiento, pérdidas y ganancias, recuento, lista de materiales y transferencia
+-   <span data-ttu-id="e9f16-138">Finalización de un pedido de producción</span><span class="sxs-lookup"><span data-stu-id="e9f16-138">Ending a production order</span></span>
+-   <span data-ttu-id="e9f16-139">Factura del pedido de ventas</span><span class="sxs-lookup"><span data-stu-id="e9f16-139">Sales order invoice</span></span>
+-   <span data-ttu-id="e9f16-140">Devolución de facturas de proveedor</span><span class="sxs-lookup"><span data-stu-id="e9f16-140">Vendor invoice return</span></span>
+-   <span data-ttu-id="e9f16-141">Diarios de inventario de cantidad negativa, como movimiento, pérdidas y ganancias, recuento, lista de materiales y transferencia</span><span class="sxs-lookup"><span data-stu-id="e9f16-141">Negative quantity inventory journals, such as movement, profit and loss, counting, bill of materials, and transfer</span></span>
 
-Las transacciones que reducen la cantidad se registran en el precio de coste promedio móvil. De este modo, el procedimiento de cierre de inventario es necesario para liquidar las transacciones de emisión con las transacciones de recepción en función del modelo de inventario asignado a cada artículo.
+<span data-ttu-id="e9f16-142">Las transacciones que reducen la cantidad se registran en el precio de coste promedio móvil.</span><span class="sxs-lookup"><span data-stu-id="e9f16-142">Transactions that decrease quantity are posted at the running average cost price.</span></span> <span data-ttu-id="e9f16-143">De este modo, el procedimiento de cierre de inventario es necesario para liquidar las transacciones de emisión con las transacciones de recepción en función del modelo de inventario asignado a cada artículo.</span><span class="sxs-lookup"><span data-stu-id="e9f16-143">Therefore, the inventory close procedure is required in order to settle issue transactions to receipt transactions, based on the inventory model that is assigned to each item.</span></span>
 
 
 
