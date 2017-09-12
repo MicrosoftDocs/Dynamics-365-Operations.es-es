@@ -1,7 +1,7 @@
---- 
+---
 title: "Configurar un perfil de visión general de recepción de artículos"
 description: "Esta tarea se centra en la configuración de un perfil general de llegadas."
-author: BibiSp
+author: perlynne
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ Esta tarea se centra en la configuración de un perfil general de llegadas. El p
     * Seleccione líneas de recepción de pedidos de transferencia.  
 17. Haga clic en Guardar.
 18. Cierre la página.
-
 

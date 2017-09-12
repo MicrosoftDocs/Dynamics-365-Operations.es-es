@@ -1,7 +1,7 @@
 ---
 title: Combinar lotes de inventario
 description: "Este artículo proporciona información sobre la consolidación de dos o más lotes de inventario en un lote combinado."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
@@ -31,7 +31,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo proporciona información sobre la consolidación de dos o más lotes de inventario en un lote combinado. 
+Este artículo proporciona información sobre la consolidación de dos o más lotes de inventario en un lote combinado.
 
 Cuando se combinan los lotes, los cálculos pueden ayudar a optimizar las características y los atributos de lote del lote combinado. Después de seleccionar los lotes de origen, puede revisar y cambiar el lote combinado antes de registrarlo. También puede transferir la combinación de lotes a un diario de inventario para su aprobación. El inventario luego se puede reservar o registrar directamente desde ese diario de inventario. Cuando se registra un lote combinado, el inventario se ajusta para los lotes de origen y el lote combinado.
 
@@ -142,7 +142,4 @@ Puede aprobar el diario de inventario para la combinación de lotes de la págin
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>¿Por qué no puedo ver la información de peso capturado en el diario de inventario después de combinar un artículo de peso capturado?
 Puede combinar lotes de artículos con peso capturado de la misma forma que con el resto de artículos. Sin embargo, la información de peso capturado no aparece en el diario de inventario. Se recomienda comprobar la información de peso capturado antes de transferir la combinación de lotes al diario de inventario.
-
-
-
 

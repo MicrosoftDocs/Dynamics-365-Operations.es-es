@@ -1,4 +1,4 @@
---- 
+---
 title: "Creación de un nuevo diseño de almacén"
 description: "Este procedimiento le muestra cómo configurar la información sobre las ubicaciones de un almacén."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -49,7 +49,7 @@ Este procedimiento le muestra cómo configurar la información sobre las ubicaci
 7. Alterne la expansión de la sección Nombres de ubicación.
     * Las opciones de esta sección definen el formato predeterminado para los nombres de ubicación. En nuestro ejemplo, incluiremos el número de pasillo, el número de la estantería y el número de balda.  
 8. Establezca la opción Incluir pasillo en Sí.
-9. Establezca la opción Incluir estantería en Sí. 
+9. Establezca la opción Incluir estantería en Sí.
 10. En el campo Formato, escriba una valor para la estantería.
     * Por ejemplo: -##  
 11. Establezca la opción Incluir balda en Sí.
@@ -74,5 +74,4 @@ Este procedimiento le muestra cómo configurar la información sobre las ubicaci
 14. Haga clic en Finalizar.
 15. Cierre la página.
 16. Actualice la página.
-
 

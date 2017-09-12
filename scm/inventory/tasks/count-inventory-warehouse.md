@@ -1,4 +1,4 @@
---- 
+---
 title: "Recuento de inventario en un almacén"
 description: "Este procedimiento muestra el proceso para crear y registrar un diario de recuento de inventario para contar un artículo específico en una ubicación del almacén."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -68,5 +68,4 @@ Este procedimiento muestra el proceso para crear y registrar un diario de recuen
 1. Haga clic en Inventario.
 2. Haga clic en Transacciones.
     * Aquí puede ver las transacciones relacionadas que se creará al registrar el diario de recuento de inventario.   
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Inicializar los niveles de existencias en el almacén"
 description: "Este procedimiento muestra cómo obtener el inventario disponible actualizado manualmente mediante un diario de movimientos de inventario."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ Este procedimiento muestra cómo obtener el inventario disponible actualizado ma
 24. Haga clic en Aceptar
 25. Cierre la página.
 26. Cierre la página.
-
 

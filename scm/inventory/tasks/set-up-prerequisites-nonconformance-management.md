@@ -1,4 +1,4 @@
---- 
+---
 title: "Configurar requisitos previo para la gestión"
 description: "Use este procedimiento para habilitar procesos de gestión de disconformidades."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -101,5 +101,4 @@ Use este procedimiento para habilitar procesos de gestión de disconformidades. 
 3. En el campo Zona de cuarentena, escriba un valor.
 4. En el campo Descripción, escriba un valor.
 5. Cierre la página.
-
 

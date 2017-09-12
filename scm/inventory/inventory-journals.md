@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -33,7 +33,7 @@ ms.lasthandoff: 07/27/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Este artículo describe cómo puede usar diarios de inventario para registrar diversos tipos de transacciones de inventario físico. 
+Este artículo describe cómo puede usar diarios de inventario para registrar diversos tipos de transacciones de inventario físico.
 
 Los diarios de inventario en Microsoft Dynamics 365 for Finance and Operations se usan para registrar transacciones de inventario físico de distintos tipos, como el registro de emisiones y recepciones, los movimientos de inventario, la creación de listas de materiales (BOM) y la conciliación del inventario físico. Todos estos diarios de inventario se usan en forma similar, pero se dividen en diferentes tipos.
 
@@ -95,7 +95,4 @@ Sólo se puede tener acceso a una línea de diario un usuario por vez. Si varios
 
 ## <a name="posting-journal-lines"></a>Registro de líneas de diario
 Puede registrar las líneas de diario que crea en cualquier momento hasta que haya bloqueado un artículo de transacciones adicionales. Los datos que introduzca en un diario permanecen en ese diario incluso si cierra el diario sin registrar las líneas.
-
-
-
 

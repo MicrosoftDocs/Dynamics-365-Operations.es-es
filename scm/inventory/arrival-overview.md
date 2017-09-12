@@ -1,7 +1,7 @@
 ---
 title: "Visión general de llegadas"
 description: "Este tema proporciona información acerca de la función de visión general de llegadas. La página de la visión general de llegadas forma parte de esta característica y proporciona una visión general de todos los artículos que se espera que se reciban como artículos entrantes."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
@@ -37,9 +37,9 @@ Este tema proporciona información acerca de la función de visión general de l
 La página **Visión general de llegadas** proporciona una visión general de todos los artículos entrantes esperados. También muestra las llegadas que pueden ser inicializadas según la información general. Este tema se centra en el proceso de recepción.
 
 ## <a name="business-scenario"></a>Escenario empresarial
-Considere el escenario siguiente en los procesos de entrada. 
+Considere el escenario siguiente en los procesos de entrada.
 
-[![Escenario empresarial](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png) 
+[![Escenario empresarial](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy, empleado de recepción, desea saber qué se espera que sea recibido en el día actual. En la página **Visión general de llegadas** , Sammy puede obtener una visión general de las tareas actuales, y obtener una estimación somera de cantidades, volumen, peso, diversos tipos de pedido, y así sucesivamente. Más adelante, una entrega llega a uno de los muelles de llegada, y Sammy recibe una lista de entrega. En la página **Visión general de llegadas**, puede realizar las siguientes tareas:
 
@@ -69,7 +69,7 @@ Para este ejemplo, el campo **Nombre de perfil de visión general de llegadas** 
 
 Para crear automáticamente los diarios de recepción de la página **Visión general de llegadas** , debe definir la información adecuada en el grupo de campos **Diario** en la ficha desplegable **Opciones de llegada** .
 
--   Debe especificar un nombre de diario para crear un nuevo diario. 
+-   Debe especificar un nombre de diario para crear un nuevo diario.
 
 [![Especificar un nombre de diario](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
@@ -123,7 +123,4 @@ Una vez que se hayan registrado todas las mercancías, el responsable del almac�
 
 ## <a name="summary"></a>Resumen
 La página **Visión general de llegadas** puede ayudar al responsable del almacén y a los trabajadores de almacén a obtener una visión general del trabajo previsto que se debe hacer como parte de un proceso de entrada. La página se puede usar también para iniciar el proceso de recepción de artículos, para ayudar a garantizar que se realiza un seguimiento de los artículos en la primera entrada en el almacén.
-
-
-
 

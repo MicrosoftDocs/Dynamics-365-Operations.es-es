@@ -1,4 +1,4 @@
---- 
+---
 title: "Corrección de información de seguimiento de inventario"
 description: "Este procedimiento le muestra el proceso de crear y registrar un diario de transferencia de inventario para corregir la información de seguimiento de inventario."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ Este procedimiento le muestra el proceso de crear y registrar un diario de trans
 1. Haga clic en Inventario.
 2. Haga clic en Transacciones.
     * Aquí puede ver las transacciones creadas al registrar el diario.   
-
 

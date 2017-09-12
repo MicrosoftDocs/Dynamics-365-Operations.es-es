@@ -1,4 +1,4 @@
---- 
+---
 title: "Supervisar el inventario de entrega mediante la colaboración de proveedores"
 description: "Este procedimiento muestra cómo utilizar la colaboración del proveedor para ver la información sobre el nivel de existencias del producto que ha incluido en la entrega a un cliente."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -41,5 +41,4 @@ Este procedimiento muestra cómo utilizar la colaboración del proveedor para ve
 ## <a name="view-on-hand-inventory"></a>Ver el inventario disponible
 1. Ir a Colaboración de proveedor > Inventario de envío > Inventario de envío disponible.
     * La página Inventario de entrega disponible muestra las existencias que posee en el almacén del cliente. Puede mostrar dimensiones adicionales, como el sitio y el almacén, haciendo clic en la ficha Mostrar dimensiones.   
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Definición de procesos de recuento de inventario"
 description: "Este procedimiento le muestra la configuración de procesos de recuento de inventario básicos creando un grupo de recuento y un diario de recuento."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -84,5 +84,4 @@ Este procedimiento le muestra la configuración de procesos de recuento de inven
 7. Seleccione un grupo de recuento en la lista.
     * Aquí puede seleccionar un grupo de recuento específico que se debe aplicar al artículo del almacén específico seleccionado. Cuando el recuento se realice en ese almacén, esta directiva de recuento anulará la directiva de recuento general para el artículo.  
 8. Haga clic en Guardar.
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: Crear y procesar una conformidad
 description: "Sírvase de este procedimiento para gestionar los casos de disconformidad, en función de un pedido de calidad existente."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Sírvase de este procedimiento para gestionar los casos de disconformidad, en función de un pedido de calidad existente. Puede ejecutar esta grabación en la empresa de demostración USMF, y puede utilizar los valores sugeridos. Normalmente, este procedimiento lo realiza un empleado de control de calidad.  Como requisito previo, ejecute la grabación de tarea "Inspección de la calidad de las mercancías". Para procesar la aprobación de un caso de disconformidad, el usuario que ejecuta la grabación de la tarea debe tener un valor "Nombre" asignado en la página Usuarios. Para usar las notas de documento, el usuario también debe tener activada la gestión de documentos en las opciones de usuario. 
+Sírvase de este procedimiento para gestionar los casos de disconformidad, en función de un pedido de calidad existente. Puede ejecutar esta grabación en la empresa de demostración USMF, y puede utilizar los valores sugeridos. Normalmente, este procedimiento lo realiza un empleado de control de calidad.  Como requisito previo, ejecute la grabación de tarea "Inspección de la calidad de las mercancías". Para procesar la aprobación de un caso de disconformidad, el usuario que ejecuta la grabación de la tarea debe tener un valor "Nombre" asignado en la página Usuarios. Para usar las notas de documento, el usuario también debe tener activada la gestión de documentos en las opciones de usuario.
 
 
 ## <a name="select-a-quality-order"></a>Selección de un pedido de calidad
@@ -78,5 +78,4 @@ Sírvase de este procedimiento para gestionar los casos de disconformidad, en fu
 3. Haga clic en Sí.
 4. Cierre la página.
 5. Cierre la página.
-
 

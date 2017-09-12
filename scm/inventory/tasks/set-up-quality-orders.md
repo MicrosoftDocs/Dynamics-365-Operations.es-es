@@ -1,4 +1,4 @@
---- 
+---
 title: "Configuración de pedidos de calidad"
 description: "Este procedimiento le muestra cómo habilitar un proceso de administración de calidad donde el inventario entrante se debe examinar inmediatamente después del registro de llegada."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -142,5 +142,4 @@ Este procedimiento le muestra cómo habilitar un proceso de administración de c
 15. En la lista, busque y seleccione el registro deseado.
 16. Haga clic en Guardar.
 17. Cierre la página.
-
 

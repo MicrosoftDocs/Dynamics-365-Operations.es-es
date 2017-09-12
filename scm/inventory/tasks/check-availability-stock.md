@@ -1,4 +1,4 @@
---- 
+---
 title: Comprobar la disponibilidad de existencias
 description: "Este procedimiento le muestra cómo comprobar el inventario disponible y el inventario físico disponible para un número de artículo concreto."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ Este procedimiento le muestra cómo comprobar el inventario disponible y el inve
 4. Haga clic en Mostrar dimensiones.
 5. Haga clic en Aceptar
 6. Cierre la página.
-
 

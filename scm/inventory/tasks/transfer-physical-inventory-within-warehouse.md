@@ -1,4 +1,4 @@
---- 
+---
 title: "Transferencia del inventario físico en el almacén"
 description: "Este procedimiento le muestra el proceso para crear y enviar un diario de transferencia de inventario para registrar el movimiento de un artículo desde una ubicación de un almacén a otra."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ Este procedimiento le muestra el proceso para crear y enviar un diario de transf
 1. Haga clic en Inventario.
 2. Haga clic en Transacciones.
     * Aquí puede ver las transacciones creadas al registrar el diario.  
-
 

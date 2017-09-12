@@ -1,4 +1,4 @@
---- 
+---
 title: "Creación y mantenimiento de un bloqueo del inventario"
 description: "Este procedimiento muestra cómo impedir que se reserve inventario disponible físico a través de otros documentos de origen de salida mediante el bloqueo de inventario."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -34,7 +34,7 @@ Este procedimiento muestra cómo impedir que se reserve inventario disponible f�
 1. Vaya a Gestión del inventario > Tareas periódicas > Bloqueo del inventario.
 2. Haga clic en Nuevo.
 3. En el campo Código de artículo, haga clic en el botón desplegable para abrir la búsqueda.
-4. En la lista, seleccione el artículo que desee elegir. 
+4. En la lista, seleccione el artículo que desee elegir.
     * Seleccione un número de artículo con inventario disponible físico que desee bloquear. Si está usando USMF, puede seleccionar el artículo M9201.  
 5. En el campo Cantidad, especifique un número.
     * Si está usando el artículo M9201, es necesario seleccionar un valor inferior a 200.  
@@ -55,5 +55,4 @@ Este procedimiento muestra cómo impedir que se reserve inventario disponible f�
 1. Haga clic Eliminar.
 2. Haga clic en Sí.
 3. Cierre la página.
-
 

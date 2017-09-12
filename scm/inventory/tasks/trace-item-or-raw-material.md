@@ -1,4 +1,4 @@
---- 
+---
 title: "Realizar el seguimiento de un artículo o una materia prima"
 description: "Este procedimiento muestra cómo usar el seguimiento de artículos para identificar dónde se han usado los artículos o las materias primas o dónde se están usando."
 author: pjacobse
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -54,5 +54,4 @@ Este procedimiento muestra cómo usar el seguimiento de artículos para identifi
 8. En el panel de acciones, haga clic en Seguimiento.
 9. Haga clic en Pedidos de ventas no enviados.
 10. Cierre la página.
-
 

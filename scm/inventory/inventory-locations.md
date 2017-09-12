@@ -1,7 +1,7 @@
 ---
 title: Ubicaciones del inventario
 description: "Las ubicaciones de inventario se usan con el almacenamiento básico (WMS I) para determinar dónde se almacenan los artículos y dónde se seleccionan los artículos desde un almacén de WMS I."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,14 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSLocation
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2134
 ms.assetid: 69bf6922-4151-447f-b678-4ba95637f54c
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -40,7 +40,6 @@ El término ubicación hace referencia al lugar en el que se almacenan los artí
 
 Para cada ubicación, también se puede especificar el lugar en el que se inserta el artículo. De forma predeterminada, coinciden. Los artículos normalmente se insertan y extraen de la misma parte una ubicación, aunque no siempre. Por ejemplo, los artículos almacenados en estanterías de almacenamiento se insertan desde un pasillo y se extraen desde otro. La entrada principal la proporciona el nombre de la ubicación, que normalmente se determina por sus coordenadas: almacén, pasillo, estantería, balda y hueco. Este nombre o id. se puede especificar manualmente o generarse desde las coordenadas de la ubicación (por ejemplo, 01-02-03-4 para el pasillo 1, la estantería 2, la balda 3 y el hueco 4 en la página Ubicaciones de inventario).
 Propiedades de ubicación
--------------------
 
 Una ubicación tiene las siguientes características:
 -   Tamaño (alto, ancho, profundidad y, por tanto, volumen)
@@ -54,12 +53,12 @@ Use códigos de ordenación para optimizar la gestión de líneas de selección,
 
 ## <a name="blocked-locations"></a>Ubicaciones bloqueadas
 Ocasionalmente, quizás desee indicar que una ubicación está bloqueada durante un período de tiempo, por ejemplo, para permitir las reparaciones. En otras ocasiones, es posible desee indicar el bloqueo de solo la entrada o solo la salida.
-Estructura en árbol
---------------
+
+## <a name="tree-structure"></a>Estructura en árbol
 
 En la página Ubicaciones de inventario, puede ver la configuración de almacén en una estructura en árbol basada en las coordenadas de ubicaciones de inventario, en un formato de representación definido.
-Mantener las ubicaciones de inventario mediante el formulario de almacén
----------------------------------------------------
+
+## <a name="maintain-inventory-locations-via-the-warehouse-form"></a>Mantener las ubicaciones de inventario mediante el formulario de almacén
 
 Es posible copiar las ubicaciones de un almacén a otro y crear ubicaciones a través de un asistente. Antes de ejecutar el asistente debe asegurarse de haber definido los nombres de la ubicación predeterminada en la página Almacén.
 
@@ -69,7 +68,4 @@ Es posible copiar las ubicaciones de un almacén a otro y crear ubicaciones a tr
 --------
 
 [Creación de un nuevo diseño de almacén (Guía de tareas)](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-new-warehouse-layout)
-
-
-
 

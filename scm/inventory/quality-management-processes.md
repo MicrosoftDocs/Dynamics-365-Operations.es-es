@@ -1,7 +1,7 @@
 ---
 title: "Procesos de gestión de calidad"
 description: "Este artículo proporciona información acerca del proceso de gestión de calidad para los productos no conformes. Describe cómo puede usar la funcionalidad de control de calidad, cómo definir y mantener disconformidades y cómo administrar las correcciones."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11574
 ms.assetid: 5ac8a059-5cb4-4cb5-ba14-b944bd08dae9
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -56,7 +56,7 @@ Las pruebas de productos generalmente reciben el nombre de control de calidad y 
 -   Registre los resultados de las pruebas en un pedido de calidad, valide los resultados de las pruebas con respecto al nivel de calidad aceptable (AQL) e imprima un certificado de análisis en el que se muestren los resultados de las pruebas.
 
 ## <a name="nonconformance"></a>No conformidad
-Una disconformidad describe un artículo que tiene un problema de calidad. El proceso de disconformidad le permite crear un pedido de disconformidad que describa la cantidad de material disconforme, el origen del problema, el tipo de problema y notas aclaratorias. Puede definir una clasificación de tipos de problemas para que el análisis del material de disconformidad resulte más fácil. También puede imprimir una etiqueta de disconformidad y un informe de disconformidad para guiar la disposición del material de disconformidad. Por ejemplo, la etiqueta y el informe pueden indicar una condición **No utilizable** o **Uso restringido**. 
+Una disconformidad describe un artículo que tiene un problema de calidad. El proceso de disconformidad le permite crear un pedido de disconformidad que describa la cantidad de material disconforme, el origen del problema, el tipo de problema y notas aclaratorias. Puede definir una clasificación de tipos de problemas para que el análisis del material de disconformidad resulte más fácil. También puede imprimir una etiqueta de disconformidad y un informe de disconformidad para guiar la disposición del material de disconformidad. Por ejemplo, la etiqueta y el informe pueden indicar una condición **No utilizable** o **Uso restringido**.
 
 La tabla siguiente muestra los seis tipos de disconformidad predeterminados y describe la información que se debe registrar para cada tipo.
 
@@ -69,23 +69,23 @@ La tabla siguiente muestra los seis tipos de disconformidad predeterminados y de
 | Interno              | El número de pedido de calidad o un número de lote de una transacción de pedido de calidad. Por ejemplo, la disconformidad podría estar relacionada con las pruebas efectuadas como parte del pedido de calidad o con la preocupación del empleado acerca de la calidad del producto.     |
 | Producción de coproductos | Una disconformidad de pedido de producción de coproductos relacionada con pedidos de producción de lote.                                                                                                                                                    |
 
-Las disconformidades se asocian a un tipo de problema. Los tipos de problema se definen en la página **Tipos de problemas**, donde se especifica qué tipos de problema se pueden asociar con cada tipo de disconformidad. Por ejemplo, los tipos de problemas de disconformidad del tipo **Solicitud de servicio** podrían reflejar una clasificación de quejas del cliente, mientras que los tipos de problemas de disconformidad del tipo **Interno** podrían representar una clasificación de códigos de defecto. 
+Las disconformidades se asocian a un tipo de problema. Los tipos de problema se definen en la página **Tipos de problemas**, donde se especifica qué tipos de problema se pueden asociar con cada tipo de disconformidad. Por ejemplo, los tipos de problemas de disconformidad del tipo **Solicitud de servicio** podrían reflejar una clasificación de quejas del cliente, mientras que los tipos de problemas de disconformidad del tipo **Interno** podrían representar una clasificación de códigos de defecto.
 
-A la hora de crear una nueva disconformidad, debe seleccionar el tipo de disconformidad y el tipo de problema. El estado de aprobación inicial es **Nuevo**, que representa una solicitud de acción. El siguiente paso es cambiar el estado de aprobación a **Aprobado** o **Rechazado**) para indicar que se actuará o no acerca del campo de disconformidad. También puede cerrar un caso de disconformidad (seleccionando una casilla aparte) para indicar que se ha terminado, o reabrirlo para indicar que es necesario seguir analizando el caso. 
+A la hora de crear una nueva disconformidad, debe seleccionar el tipo de disconformidad y el tipo de problema. El estado de aprobación inicial es **Nuevo**, que representa una solicitud de acción. El siguiente paso es cambiar el estado de aprobación a **Aprobado** o **Rechazado**) para indicar que se actuará o no acerca del campo de disconformidad. También puede cerrar un caso de disconformidad (seleccionando una casilla aparte) para indicar que se ha terminado, o reabrirlo para indicar que es necesario seguir analizando el caso.
 
-Puede incluir comentarios en un caso de disconformidad adjuntando un documento. Conviene definir un tipo de documento exclusivo para los casos de disconformidad mediante la página **Tipo de documento**. Puede usar la página **Configuración del informe** para definir si los comentarios para este tipo de documento se deben imprimir en el informe y la etiqueta de disconformidad. El informe y la etiqueta de conformidad pueden ayudar con la disposición de material. Se pueden generar informes y etiquetas de manera selectiva en función de ciertos criterios de selección asociados a un caso de disconformidad. Estos criterios incluyen el número de caso de disconformidad, el artículo, el cliente, el proveedor y el estado. 
+Puede incluir comentarios en un caso de disconformidad adjuntando un documento. Conviene definir un tipo de documento exclusivo para los casos de disconformidad mediante la página **Tipo de documento**. Puede usar la página **Configuración del informe** para definir si los comentarios para este tipo de documento se deben imprimir en el informe y la etiqueta de disconformidad. El informe y la etiqueta de conformidad pueden ayudar con la disposición de material. Se pueden generar informes y etiquetas de manera selectiva en función de ciertos criterios de selección asociados a un caso de disconformidad. Estos criterios incluyen el número de caso de disconformidad, el artículo, el cliente, el proveedor y el estado.
 
 El informe de disconformidad muestra el número de disconformidad, el artículo y el tipo de problema. En función de la directiva de configuración del informe, el informe también puede mostrar notas relacionadas sobre el caso de disconformidad. La etiqueta de disconformidad muestra información parecida, e incluye también la zona de cuarentena y el tipo (como **Uso restringido** o **No utilizable**) que se ha asignado al caso de disconformidad para ayudar a guiar la disposición del material defectuoso.
 
 ## <a name="approved-nonconformance"></a>Disconformidad aprobada
-Opcionalmente, se pueden definir una o más operaciones relacionadas para una no conformidad aprobada. Una operación relacionada describe el trabajo que se debe efectuar, y contiene una lista predefinida de operaciones de calidad definidas por el usuario y texto descriptivo del motivo del trabajo. Una vez definida una operación, se pueden definir los gastos varios, los artículos y las horas de trabajo que se requieren para efectuar el trabajo. Los costes calculados se muestran para la operación relacionada y los costes totales calculados se muestran para la no conformidad. Los costes calculados y los detalles subyacentes (acerca de artículos, horas de trabajo y gastos varios) representan información de referencia y solo se usan en la función de control de calidad. 
+Opcionalmente, se pueden definir una o más operaciones relacionadas para una no conformidad aprobada. Una operación relacionada describe el trabajo que se debe efectuar, y contiene una lista predefinida de operaciones de calidad definidas por el usuario y texto descriptivo del motivo del trabajo. Una vez definida una operación, se pueden definir los gastos varios, los artículos y las horas de trabajo que se requieren para efectuar el trabajo. Los costes calculados se muestran para la operación relacionada y los costes totales calculados se muestran para la no conformidad. Los costes calculados y los detalles subyacentes (acerca de artículos, horas de trabajo y gastos varios) representan información de referencia y solo se usan en la función de control de calidad.
 
-También es posible crear un pedido de calidad a partir de un caso de disconformidad realizando primero una consulta de pedidos de calidad y, a continuación, creando el nuevo pedido de calidad. Por ejemplo, un pedido de calidad puede identificar la necesidad de probar (o volver a probar) el material defectuoso. El nuevo pedido de calidad creado muestra el vínculo a la no conformidad de origen. 
+También es posible crear un pedido de calidad a partir de un caso de disconformidad realizando primero una consulta de pedidos de calidad y, a continuación, creando el nuevo pedido de calidad. Por ejemplo, un pedido de calidad puede identificar la necesidad de probar (o volver a probar) el material defectuoso. El nuevo pedido de calidad creado muestra el vínculo a la no conformidad de origen.
 
 Opcionalmente, puede vincular un caso de disconformidad a otro y crear uno nuevo a partir de otro existente. Por ejemplo, el vínculo puede reflejar la interconexión entre problemas de calidad.
 
 ## <a name="correction-handling"></a>Gestión de correcciones
-La página **Correcciones** permite crear una lista de casos de disconformidad que se deben corregir. Cada elemento de corrección está asociado al tipo de diagnóstico que hizo que se descubriera el problema. La página **Correcciones** también contiene información relativa a quién debe realizar la acción correctiva y cuándo. Puede describir los detalles del problema y de la acción correctiva requerida adjuntando un documento a la corrección. Después de gestionar o corregir el caso de disconformidad, se "cierra" el elemento de corrección seleccionando la opción **Finalizado**. También puede indicar que la solución ha sido una solución a corto plazo. 
+La página **Correcciones** permite crear una lista de casos de disconformidad que se deben corregir. Cada elemento de corrección está asociado al tipo de diagnóstico que hizo que se descubriera el problema. La página **Correcciones** también contiene información relativa a quién debe realizar la acción correctiva y cuándo. Puede describir los detalles del problema y de la acción correctiva requerida adjuntando un documento a la corrección. Después de gestionar o corregir el caso de disconformidad, se "cierra" el elemento de corrección seleccionando la opción **Finalizado**. También puede indicar que la solución ha sido una solución a corto plazo.
 
 Conviene definir un tipo de documento exclusivo para las correcciones mediante la página **Tipo de documento**. Después podrá usar la página **Configuración del informe** para definir si los comentarios para este tipo de documento se deben imprimir en el informe de corrección. El informe de corrección impreso muestra información acerca del caso de disconformidad y las notas relacionadas. El informe también incluye información sobre la corrección, como el tipo de diagnóstico y las notas de corrección relacionadas.
 
@@ -103,7 +103,4 @@ Conviene definir un tipo de documento exclusivo para las correcciones mediante l
 [Configuración de pedidos de calidad (Guía de tareas)](/dynamics365/unified-operations/supply-chain/inventory/tasks/set-up-quality-orders)
 
 [Inspección de la calidad de las mercancías (Guía de tareas)](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
-
-
-
 

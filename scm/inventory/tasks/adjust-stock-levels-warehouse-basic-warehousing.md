@@ -1,4 +1,4 @@
---- 
+---
 title: "Ajuste de niveles de existencias en el almacén (almacenaje básico)"
 description: "Este procedimiento muestra el proceso para crear y registrar un diario de ajuste de inventario para ajustar niveles de existencias de productos en el almacén."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ Este procedimiento muestra el proceso para crear y registrar un diario de ajuste
 4. Haga clic en Aceptar
 5. Cierre el formulario.
 6. Cierre la página.
-
 

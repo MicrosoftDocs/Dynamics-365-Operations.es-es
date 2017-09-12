@@ -1,4 +1,4 @@
---- 
+---
 title: "Inspeccionar la calidad de las mercancías"
 description: "Este procedimiento muestra cómo procesar un pedido de calidad."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -55,5 +55,4 @@ Este procedimiento muestra cómo procesar un pedido de calidad. Puede ejecutar e
 4. Haga clic en Seleccionar.
 5. Haga clic en Aceptar
 6. Cierre la página.
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: Crear un pedido de reabastecimiento de entrega
 description: "Este procedimiento muestra cómo crear un pedido de reabastecimiento de entrega donde puede seguir la entrega prevista de un proveedor en su inventario de entrega."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -60,7 +60,7 @@ Este procedimiento muestra cómo crear un pedido de reabastecimiento de entrega 
 ## <a name="receive-items"></a>Recibir artículos
 1. Haga clic en Recepción de producto.
 2. En el campo Recepción de producto externa, escriba un valor.
-3. En el campo Cantidad, escriba un número que sea inferior al número que se muestra aquí. 
+3. En el campo Cantidad, escriba un número que sea inferior al número que se muestra aquí.
 4. Haga clic en Aceptar
 
 ## <a name="check-the-on-hand-inventory"></a>Compruebe el inventario disponible
@@ -70,5 +70,4 @@ Este procedimiento muestra cómo crear un pedido de reabastecimiento de entrega 
     * Los artículos que se han recibido como inventario de entrega propiedad del proveedor están disponibles. La cantidad restante en el pedido de reabastecimiento de entrega se muestra en el campo Pedido en total.  
 4. Cierre la página.
 5. Haga clic en Cerrar.
-
 
