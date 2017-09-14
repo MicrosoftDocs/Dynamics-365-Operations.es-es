@@ -1,7 +1,7 @@
 --- 
 title: Crear variantes de productos predefinidas
 description: "Este procedimiento le guía por la creación de variantes de productos para un producto maestro mediante las combinaciones de dimensiones de productos."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 10/27/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis

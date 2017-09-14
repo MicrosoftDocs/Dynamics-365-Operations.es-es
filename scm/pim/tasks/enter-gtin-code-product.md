@@ -1,7 +1,7 @@
 --- 
 title: "Especificar el código GTIN de un producto"
 description: "Los códigos GTIN los asigna la organización GS1."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 09/26/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
