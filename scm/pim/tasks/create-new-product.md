@@ -1,7 +1,7 @@
 --- 
 title: Crear un nuevo producto
 description: "Esta tarea muestra cómo crear un nuevo producto compartido."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 06/08/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
-ms.openlocfilehash: d9307abf5e9543c8a2c880330c4430f5e4c5b340
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: 56ce5d965952d0cb41278915e4631ae9d920f5f9
 ms.contentlocale: es-es
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/14/2017
 
 ---
 # <a name="create-a-new-product"></a><span data-ttu-id="92673-103">Crear un nuevo producto</span><span class="sxs-lookup"><span data-stu-id="92673-103">Create a new product</span></span>
