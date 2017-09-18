@@ -1,7 +1,7 @@
 ---
 title: "Cálculo de costes generales"
 description: "Este tema describe los procesos típicos para calcular y asignar costes generales."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
@@ -24,7 +24,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: c040a50d9962d7a900fbef285ea1f1baea124033
 ms.contentlocale: es-es
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

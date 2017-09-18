@@ -1,7 +1,7 @@
 ---
 title: Definir los derechos de acceso de un controlador de objeto de coste
 description: "Este tema proporciona información sobre los derechos de acceso para los controladores de objeto de coste."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
