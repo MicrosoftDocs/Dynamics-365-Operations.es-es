@@ -1,0 +1,2 @@
+> [!NOTE]
+> <span data-ttu-id="71faf-101">No aceptaremos modificaciones de este tema porque se genera a partir de un proceso empresarial en Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="71faf-101">We will not be accepting edits to this topic, because it is generated from a business process in Lifecycle Services.</span></span>
