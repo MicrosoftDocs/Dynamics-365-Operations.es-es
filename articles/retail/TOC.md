@@ -1,5 +1,8 @@
 # [Esto es Dynamics 365 for Retail](index.md)
 
+# Introducción
+## [Novedades y cambios](get-started/whats-new.md)
+
 # Pagos
 ## [Métodos de pago](payment-methods.md)
 ## [Configuración, autorización y captura de tarjetas de crédito](../financials/accounts-receivable/credit-card-authorizations.md)
@@ -175,6 +178,7 @@
 #### [Activación de dispositivos de Retail POS](dev-itpro/retail-device-activation.md)
 #### [Proteger Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
 ### [Instalación y configuración de Retail Hardware Station](retail-hardware-station-configuration-installation.md)
+### [Implementación masiva de componentes de autoservicio de Retail](dev-itpro/retail-mass-deployment.md)
 ### [Diagnóstico y solución de problemas de eventos de componentes de Retail](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
 ### [Aplicar un paquete implementable](../dev-itpro/deployment/apply-deployable-package-system.md)
 
