@@ -16,36 +16,36 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 31c8e2ba87ef8c17a3147e1159104585258d4164
 ms.contentlocale: es-es
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="create-a-batch-job"></a><span data-ttu-id="ff261-103">Crear un trabajo por lotes</span><span class="sxs-lookup"><span data-stu-id="ff261-103">Create a batch job</span></span>
+# <a name="create-a-batch-job"></a><span data-ttu-id="89093-103">Crear un trabajo por lotes</span><span class="sxs-lookup"><span data-stu-id="89093-103">Create a batch job</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ff261-104">Un trabajo por lotes es un grupo de tareas enviadas a una instancia de Application Object Server (AOS) para su procesamiento automático.</span><span class="sxs-lookup"><span data-stu-id="ff261-104">A batch job is a group of tasks that are submitted to an Application Object Server (AOS) instance for automatic processing.</span></span> <span data-ttu-id="ff261-105">Los trabajos por lotes se ejecutan mediante las credenciales de seguridad del usuario que creó el trabajo.</span><span class="sxs-lookup"><span data-stu-id="ff261-105">Batch jobs are run by using the security credentials of the user who created the job.</span></span> <span data-ttu-id="ff261-106">Realice el procedimiento siguiente para crear un trabajo por lotes.</span><span class="sxs-lookup"><span data-stu-id="ff261-106">Use the following procedure to create a batch job.</span></span> <span data-ttu-id="ff261-107">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="ff261-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="89093-104">Un trabajo por lotes es un grupo de tareas enviadas a una instancia de Application Object Server (AOS) para su procesamiento automático.</span><span class="sxs-lookup"><span data-stu-id="89093-104">A batch job is a group of tasks that are submitted to an Application Object Server (AOS) instance for automatic processing.</span></span> <span data-ttu-id="89093-105">Los trabajos por lotes se ejecutan mediante las credenciales de seguridad del usuario que creó el trabajo.</span><span class="sxs-lookup"><span data-stu-id="89093-105">Batch jobs are run by using the security credentials of the user who created the job.</span></span> <span data-ttu-id="89093-106">Realice el procedimiento siguiente para crear un trabajo por lotes.</span><span class="sxs-lookup"><span data-stu-id="89093-106">Use the following procedure to create a batch job.</span></span> <span data-ttu-id="89093-107">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="89093-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-the-batch-job"></a><span data-ttu-id="ff261-108">Crear el trabajo por lotes</span><span class="sxs-lookup"><span data-stu-id="ff261-108">Create the batch job</span></span>
-1. <span data-ttu-id="ff261-109">Vaya Administración del sistema > Consultas > Trabajos por lotes.</span><span class="sxs-lookup"><span data-stu-id="ff261-109">Go to System administration > Inquiries > Batch jobs.</span></span>
-2. <span data-ttu-id="ff261-110">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="ff261-110">Click New.</span></span>
-3. <span data-ttu-id="ff261-111">En el campo Descripción del trabajo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="ff261-111">In the Job description field, type a value.</span></span>
-4. <span data-ttu-id="ff261-112">En el campo Fecha/hora de inicio programada, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="ff261-112">In the Scheduled start date/time field, enter a date and time.</span></span>
-5. <span data-ttu-id="ff261-113">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="ff261-113">Click Save.</span></span>
+## <a name="create-the-batch-job"></a><span data-ttu-id="89093-108">Crear el trabajo por lotes</span><span class="sxs-lookup"><span data-stu-id="89093-108">Create the batch job</span></span>
+1. <span data-ttu-id="89093-109">Vaya Administración del sistema > Consultas > Trabajos por lotes.</span><span class="sxs-lookup"><span data-stu-id="89093-109">Go to System administration > Inquiries > Batch jobs.</span></span>
+2. <span data-ttu-id="89093-110">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="89093-110">Click New.</span></span>
+3. <span data-ttu-id="89093-111">En el campo Descripción del trabajo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="89093-111">In the Job description field, type a value.</span></span>
+4. <span data-ttu-id="89093-112">En el campo Fecha/hora de inicio programada, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="89093-112">In the Scheduled start date/time field, enter a date and time.</span></span>
+5. <span data-ttu-id="89093-113">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="89093-113">Click Save.</span></span>
 
-## <a name="create-a-recurrence"></a><span data-ttu-id="ff261-114">Crear una periodicidad</span><span class="sxs-lookup"><span data-stu-id="ff261-114">Create a recurrence</span></span>
-1. <span data-ttu-id="ff261-115">En el panel de acciones, haga clic en Trabajo por lotes.</span><span class="sxs-lookup"><span data-stu-id="ff261-115">On the Action Pane, click Batch job.</span></span>
-2. <span data-ttu-id="ff261-116">Haga clic en Periodicidad.</span><span class="sxs-lookup"><span data-stu-id="ff261-116">Click Recurrence.</span></span>
-    * <span data-ttu-id="ff261-117">Utilice estas opciones para especificar un intervalo y un patrón para la periodicidad.</span><span class="sxs-lookup"><span data-stu-id="ff261-117">Use these options to enter a range and pattern for the recurrence.</span></span>  
-3. <span data-ttu-id="ff261-118">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="ff261-118">Click OK.</span></span>
+## <a name="create-a-recurrence"></a><span data-ttu-id="89093-114">Crear una periodicidad</span><span class="sxs-lookup"><span data-stu-id="89093-114">Create a recurrence</span></span>
+1. <span data-ttu-id="89093-115">En el panel de acciones, haga clic en Trabajo por lotes.</span><span class="sxs-lookup"><span data-stu-id="89093-115">On the Action Pane, click Batch job.</span></span>
+2. <span data-ttu-id="89093-116">Haga clic en Periodicidad.</span><span class="sxs-lookup"><span data-stu-id="89093-116">Click Recurrence.</span></span>
+    * <span data-ttu-id="89093-117">Utilice estas opciones para especificar un intervalo y un patrón para la periodicidad.</span><span class="sxs-lookup"><span data-stu-id="89093-117">Use these options to enter a range and pattern for the recurrence.</span></span>  
+3. <span data-ttu-id="89093-118">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="89093-118">Click OK.</span></span>
 
-## <a name="add-alerts"></a><span data-ttu-id="ff261-119">Agregar alertas</span><span class="sxs-lookup"><span data-stu-id="ff261-119">Add alerts</span></span>
-1. <span data-ttu-id="ff261-120">En el panel de acciones, haga clic en Trabajo por lotes.</span><span class="sxs-lookup"><span data-stu-id="ff261-120">On the Action Pane, click Batch job.</span></span>
-2. <span data-ttu-id="ff261-121">Haga clic en Alertas.</span><span class="sxs-lookup"><span data-stu-id="ff261-121">Click Alerts.</span></span>
-    * <span data-ttu-id="ff261-122">Indique si desea que se envíen mensajes de alerta cuando finalice el trabajo por lotes, tenga un error o se cancele.</span><span class="sxs-lookup"><span data-stu-id="ff261-122">Indicate if you want alert messages sent when the batch job ends, has an error, or is canceled.</span></span> <span data-ttu-id="ff261-123">A continuación, especifique si desea que las alertas se muestren como mensajes emergentes.</span><span class="sxs-lookup"><span data-stu-id="ff261-123">Then specify if you want the alerts to be displayed as pop-up messages.</span></span>   
-3. <span data-ttu-id="ff261-124">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="ff261-124">Click OK.</span></span>
+## <a name="add-alerts"></a><span data-ttu-id="89093-119">Agregar alertas</span><span class="sxs-lookup"><span data-stu-id="89093-119">Add alerts</span></span>
+1. <span data-ttu-id="89093-120">En el panel de acciones, haga clic en Trabajo por lotes.</span><span class="sxs-lookup"><span data-stu-id="89093-120">On the Action Pane, click Batch job.</span></span>
+2. <span data-ttu-id="89093-121">Haga clic en Alertas.</span><span class="sxs-lookup"><span data-stu-id="89093-121">Click Alerts.</span></span>
+    * <span data-ttu-id="89093-122">Indique si desea que se envíen mensajes de alerta cuando finalice el trabajo por lotes, tenga un error o se cancele.</span><span class="sxs-lookup"><span data-stu-id="89093-122">Indicate if you want alert messages sent when the batch job ends, has an error, or is canceled.</span></span> <span data-ttu-id="89093-123">A continuación, especifique si desea que las alertas se muestren como mensajes emergentes.</span><span class="sxs-lookup"><span data-stu-id="89093-123">Then specify if you want the alerts to be displayed as pop-up messages.</span></span>   
+3. <span data-ttu-id="89093-124">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="89093-124">Click OK.</span></span>
 
 

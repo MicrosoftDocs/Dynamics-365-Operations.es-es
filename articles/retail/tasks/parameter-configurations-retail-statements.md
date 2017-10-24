@@ -17,29 +17,29 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 731a3ec06efa103ba663df83240c77dfe78bb7cd
 ms.contentlocale: es-es
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="parameter-configurations-for-retail-statements"></a><span data-ttu-id="dc102-103">Configuración de parámetros para los extractos de Retail</span><span class="sxs-lookup"><span data-stu-id="dc102-103">Parameter configurations for Retail statements</span></span>
+# <a name="parameter-configurations-for-retail-statements"></a><span data-ttu-id="fc652-103">Configuración de parámetros para los extractos de Retail</span><span class="sxs-lookup"><span data-stu-id="fc652-103">Parameter configurations for Retail statements</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="dc102-104">Este procedimiento muestra las configuraciones para los Parámetros comerciales que afectan la manera en que se crean y se registran los extractos comerciales.</span><span class="sxs-lookup"><span data-stu-id="dc102-104">This procedure demonstrates configurations for Retail parameters that affect how Retail statements get created and posted.</span></span> <span data-ttu-id="dc102-105">Este procedimiento usa la empresa de prueba USRT.</span><span class="sxs-lookup"><span data-stu-id="dc102-105">This procedure uses the USRT demo company.</span></span>
+<span data-ttu-id="fc652-104">Este procedimiento muestra las configuraciones para los Parámetros comerciales que afectan la manera en que se crean y se registran los extractos comerciales.</span><span class="sxs-lookup"><span data-stu-id="fc652-104">This procedure demonstrates configurations for Retail parameters that affect how Retail statements get created and posted.</span></span> <span data-ttu-id="fc652-105">Este procedimiento usa la empresa de prueba USRT.</span><span class="sxs-lookup"><span data-stu-id="fc652-105">This procedure uses the USRT demo company.</span></span>
 
-1. <span data-ttu-id="dc102-106">Vaya a Venta minorista y comercio > Configuración de sede minorista > Parámetros > Parámetros comerciales.</span><span class="sxs-lookup"><span data-stu-id="dc102-106">Go to Retail and commerce > Headquarters setup  > Parameters > Retail parameters.</span></span>
-2. <span data-ttu-id="dc102-107">Haga clic en la ficha Registro.</span><span class="sxs-lookup"><span data-stu-id="dc102-107">Click the Posting tab.</span></span>
-    * <span data-ttu-id="dc102-108">Seleccione "Sí" si desea registrar los importes de descuento periódicos de manera específica.</span><span class="sxs-lookup"><span data-stu-id="dc102-108">Select "Yes" if you want to post the periodic discount amounts specifically.</span></span>  
-    * <span data-ttu-id="dc102-109">Seleccione “Estándar” para usar cuentas predeterminadas, o seleccione “Periódico” si desea definir qué cuenta se usará para cada descuento periódico.</span><span class="sxs-lookup"><span data-stu-id="dc102-109">Select "Standard" to use default accounts, or select "Periodic" if you want to define which account to use for each periodic discount.</span></span>  
-    * <span data-ttu-id="dc102-110">Seleccione “Resumen” si se deben agregar las líneas de inventario siempre que sea posible.</span><span class="sxs-lookup"><span data-stu-id="dc102-110">Select "Summary" if inventory lines should get aggregated whenever possible.</span></span>  
-    * <span data-ttu-id="dc102-111">Seleccione “Sí” si Facturas y pagos se deben liquidar automáticamente como parte del proceso de contabilización de extractos.</span><span class="sxs-lookup"><span data-stu-id="dc102-111">Select "Yes" if Invoices and Payments should get automatically settled as part of the Statement posting process.</span></span>  
-    * <span data-ttu-id="dc102-112">Seleccione “Sí” si se deben agregar transacciones de ingresos seguros.</span><span class="sxs-lookup"><span data-stu-id="dc102-112">Select "Yes" if Safe drop transactions should get aggregated.</span></span>  
-    * <span data-ttu-id="dc102-113">Seleccione “Sí” si se deben agregar transacciones de ingreso bancario.</span><span class="sxs-lookup"><span data-stu-id="dc102-113">Select "Yes" if Bank drop transactions should get aggregated.</span></span>  
-    * <span data-ttu-id="dc102-114">Seleccione "Sí" para activar la agregación para la contabilización de extractos.</span><span class="sxs-lookup"><span data-stu-id="dc102-114">Select "Yes" to turn aggregation on for Statement posting.</span></span>  
-    * <span data-ttu-id="dc102-115">Seleccione "Sí" para crear y procesar pedidos en paralelo cuando se registran extractos.</span><span class="sxs-lookup"><span data-stu-id="dc102-115">Select "Yes" to create and process orders in parallel when statements are posted.</span></span>  
-    * <span data-ttu-id="dc102-116">Especifique los pedidos máximos que se procesarán en cada tarea de trabajo por lotes.</span><span class="sxs-lookup"><span data-stu-id="dc102-116">Enter the maximum orders to be processed in each batch job task.</span></span>  
-3. <span data-ttu-id="dc102-117">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="dc102-117">Click Save.</span></span>
+1. <span data-ttu-id="fc652-106">Vaya a Venta minorista y comercio > Configuración de sede minorista > Parámetros > Parámetros comerciales.</span><span class="sxs-lookup"><span data-stu-id="fc652-106">Go to Retail and commerce > Headquarters setup  > Parameters > Retail parameters.</span></span>
+2. <span data-ttu-id="fc652-107">Haga clic en la ficha Registro.</span><span class="sxs-lookup"><span data-stu-id="fc652-107">Click the Posting tab.</span></span>
+    * <span data-ttu-id="fc652-108">Seleccione "Sí" si desea registrar los importes de descuento periódicos de manera específica.</span><span class="sxs-lookup"><span data-stu-id="fc652-108">Select "Yes" if you want to post the periodic discount amounts specifically.</span></span>  
+    * <span data-ttu-id="fc652-109">Seleccione “Estándar” para usar cuentas predeterminadas, o seleccione “Periódico” si desea definir qué cuenta se usará para cada descuento periódico.</span><span class="sxs-lookup"><span data-stu-id="fc652-109">Select "Standard" to use default accounts, or select "Periodic" if you want to define which account to use for each periodic discount.</span></span>  
+    * <span data-ttu-id="fc652-110">Seleccione “Resumen” si se deben agregar las líneas de inventario siempre que sea posible.</span><span class="sxs-lookup"><span data-stu-id="fc652-110">Select "Summary" if inventory lines should get aggregated whenever possible.</span></span>  
+    * <span data-ttu-id="fc652-111">Seleccione “Sí” si Facturas y pagos se deben liquidar automáticamente como parte del proceso de contabilización de extractos.</span><span class="sxs-lookup"><span data-stu-id="fc652-111">Select "Yes" if Invoices and Payments should get automatically settled as part of the Statement posting process.</span></span>  
+    * <span data-ttu-id="fc652-112">Seleccione “Sí” si se deben agregar transacciones de ingresos seguros.</span><span class="sxs-lookup"><span data-stu-id="fc652-112">Select "Yes" if Safe drop transactions should get aggregated.</span></span>  
+    * <span data-ttu-id="fc652-113">Seleccione “Sí” si se deben agregar transacciones de ingreso bancario.</span><span class="sxs-lookup"><span data-stu-id="fc652-113">Select "Yes" if Bank drop transactions should get aggregated.</span></span>  
+    * <span data-ttu-id="fc652-114">Seleccione "Sí" para activar la agregación para la contabilización de extractos.</span><span class="sxs-lookup"><span data-stu-id="fc652-114">Select "Yes" to turn aggregation on for Statement posting.</span></span>  
+    * <span data-ttu-id="fc652-115">Seleccione "Sí" para crear y procesar pedidos en paralelo cuando se registran extractos.</span><span class="sxs-lookup"><span data-stu-id="fc652-115">Select "Yes" to create and process orders in parallel when statements are posted.</span></span>  
+    * <span data-ttu-id="fc652-116">Especifique los pedidos máximos que se procesarán en cada tarea de trabajo por lotes.</span><span class="sxs-lookup"><span data-stu-id="fc652-116">Enter the maximum orders to be processed in each batch job task.</span></span>  
+3. <span data-ttu-id="fc652-117">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="fc652-117">Click Save.</span></span>
 
 

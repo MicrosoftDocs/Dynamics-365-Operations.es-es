@@ -16,34 +16,34 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 24c7721a1e5467e98e6c4d245f1d8e24a973f5aa
 ms.contentlocale: es-es
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a><span data-ttu-id="cc6ed-103">Cancelar un activo fijo mediante una factura de servicios</span><span class="sxs-lookup"><span data-stu-id="cc6ed-103">Dispose of a fixed asset using a free text invoice</span></span>
+# <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a><span data-ttu-id="5cdcd-103">Cancelar un activo fijo mediante una factura de servicios</span><span class="sxs-lookup"><span data-stu-id="5cdcd-103">Dispose of a fixed asset using a free text invoice</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="cc6ed-104">Este procedimiento muestra cómo adquirir un activo fijo mediante la propuesta de adquisición del diario de activos fijos.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-104">This procedure shows how to acquire a fixed asset using the acquisition proposal in the Fixed assets journal.</span></span> <span data-ttu-id="cc6ed-105">Usa el rol de contable y los datos de prueba de la entidad jurídica USMF.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-105">It uses the accountant role and demo data for the USMF legal entity.</span></span>
+<span data-ttu-id="5cdcd-104">Este procedimiento muestra cómo adquirir un activo fijo mediante la propuesta de adquisición del diario de activos fijos.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-104">This procedure shows how to acquire a fixed asset using the acquisition proposal in the Fixed assets journal.</span></span> <span data-ttu-id="5cdcd-105">Usa el rol de contable y los datos de prueba de la entidad jurídica USMF.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-105">It uses the accountant role and demo data for the USMF legal entity.</span></span>
 
-1. <span data-ttu-id="cc6ed-106">Vaya a Activos fijos > Movimientos de diario > Diario de activos fijos.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-106">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
-2. <span data-ttu-id="cc6ed-107">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-107">Click New.</span></span>
-3. <span data-ttu-id="cc6ed-108">En el campo Nombre, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-108">In the Name field, enter or select a value.</span></span>
-4. <span data-ttu-id="cc6ed-109">Haga clic en Líneas.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-109">Click Lines.</span></span>
-5. <span data-ttu-id="cc6ed-110">Haga clic en Propuestas.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-110">Click Proposals.</span></span>
-6. <span data-ttu-id="cc6ed-111">Haga clic en Propuesta de adquisición.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-111">Click Acquisition proposal.</span></span>
-7. <span data-ttu-id="cc6ed-112">Haga clic en Filtro.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-112">Click Filter.</span></span>
-8. <span data-ttu-id="cc6ed-113">Haga clic en Restablecer para borrar los valores anteriores.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-113">Click Reset to clear out previous values.</span></span>
-9. <span data-ttu-id="cc6ed-114">Seleccione la fila Número de activo fijo.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-114">Select the Fixed asset number row.</span></span>
-10. <span data-ttu-id="cc6ed-115">En el campo Criterios, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-115">In the Criteria field, enter or select a value.</span></span>
-    * <span data-ttu-id="cc6ed-116">Establezca los criterios restantes para los activos fijos que desea adquirir con esta propuesta.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-116">Set the remaining criteria for the fixed assets that you want to acquire with this proposal.</span></span>  
-11. <span data-ttu-id="cc6ed-117">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="cc6ed-117">Click OK.</span></span>
-12. <span data-ttu-id="cc6ed-118">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="cc6ed-118">Click OK.</span></span>
-    * <span data-ttu-id="cc6ed-119">Compruebe las líneas de transacción creadas.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-119">Verify the transaction lines created.</span></span>  
-    * <span data-ttu-id="cc6ed-120">Solo los activos fijos con la fecha de adquisición y el precio de adquisición establecidos en el libro se incluirán en la propuesta de adquisición.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-120">Only fixed assets with the acquisition date and acquisition price set on the book will be included in the acquisition proposal.</span></span>  
-13. <span data-ttu-id="cc6ed-121">Haga clic en la pestaña Libros.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-121">Click the Books tab.</span></span>
-14. <span data-ttu-id="cc6ed-122">Haga clic en Registrar.</span><span class="sxs-lookup"><span data-stu-id="cc6ed-122">Click Post.</span></span>
+1. <span data-ttu-id="5cdcd-106">Vaya a Activos fijos > Movimientos de diario > Diario de activos fijos.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-106">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
+2. <span data-ttu-id="5cdcd-107">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-107">Click New.</span></span>
+3. <span data-ttu-id="5cdcd-108">En el campo Nombre, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-108">In the Name field, enter or select a value.</span></span>
+4. <span data-ttu-id="5cdcd-109">Haga clic en Líneas.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-109">Click Lines.</span></span>
+5. <span data-ttu-id="5cdcd-110">Haga clic en Propuestas.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-110">Click Proposals.</span></span>
+6. <span data-ttu-id="5cdcd-111">Haga clic en Propuesta de adquisición.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-111">Click Acquisition proposal.</span></span>
+7. <span data-ttu-id="5cdcd-112">Haga clic en Filtro.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-112">Click Filter.</span></span>
+8. <span data-ttu-id="5cdcd-113">Haga clic en Restablecer para borrar los valores anteriores.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-113">Click Reset to clear out previous values.</span></span>
+9. <span data-ttu-id="5cdcd-114">Seleccione la fila Número de activo fijo.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-114">Select the Fixed asset number row.</span></span>
+10. <span data-ttu-id="5cdcd-115">En el campo Criterios, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-115">In the Criteria field, enter or select a value.</span></span>
+    * <span data-ttu-id="5cdcd-116">Establezca los criterios restantes para los activos fijos que desea adquirir con esta propuesta.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-116">Set the remaining criteria for the fixed assets that you want to acquire with this proposal.</span></span>  
+11. <span data-ttu-id="5cdcd-117">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="5cdcd-117">Click OK.</span></span>
+12. <span data-ttu-id="5cdcd-118">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="5cdcd-118">Click OK.</span></span>
+    * <span data-ttu-id="5cdcd-119">Compruebe las líneas de transacción creadas.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-119">Verify the transaction lines created.</span></span>  
+    * <span data-ttu-id="5cdcd-120">Solo los activos fijos con la fecha de adquisición y el precio de adquisición establecidos en el libro se incluirán en la propuesta de adquisición.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-120">Only fixed assets with the acquisition date and acquisition price set on the book will be included in the acquisition proposal.</span></span>  
+13. <span data-ttu-id="5cdcd-121">Haga clic en la pestaña Libros.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-121">Click the Books tab.</span></span>
+14. <span data-ttu-id="5cdcd-122">Haga clic en Registrar.</span><span class="sxs-lookup"><span data-stu-id="5cdcd-122">Click Post.</span></span>
 
 

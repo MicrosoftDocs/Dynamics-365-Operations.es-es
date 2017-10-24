@@ -17,33 +17,33 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 8f608a38dd28a77e2a33e5c23cf35b5a9e6a8c38
 ms.contentlocale: es-es
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="set-up-an-appointment-for-a-load"></a><span data-ttu-id="10226-103">Configurar una cita para una carga</span><span class="sxs-lookup"><span data-stu-id="10226-103">Set up an appointment for a load</span></span>
+# <a name="set-up-an-appointment-for-a-load"></a><span data-ttu-id="69816-103">Configurar una cita para una carga</span><span class="sxs-lookup"><span data-stu-id="69816-103">Set up an appointment for a load</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="10226-104">Este procedimiento muestra cómo configurar y planificar una cita de muelle para una carga.</span><span class="sxs-lookup"><span data-stu-id="10226-104">This procedure shows how to set up and plan a dock appointment for a load.</span></span> <span data-ttu-id="10226-105">Esto lo hace normalmente el coordinador de transporte.</span><span class="sxs-lookup"><span data-stu-id="10226-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="10226-106">Puede utilizar este procedimiento en la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="10226-106">You can use this procedure in the USMF demo data company.</span></span>
+<span data-ttu-id="69816-104">Este procedimiento muestra cómo configurar y planificar una cita de muelle para una carga.</span><span class="sxs-lookup"><span data-stu-id="69816-104">This procedure shows how to set up and plan a dock appointment for a load.</span></span> <span data-ttu-id="69816-105">Esto lo hace normalmente el coordinador de transporte.</span><span class="sxs-lookup"><span data-stu-id="69816-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="69816-106">Puede utilizar este procedimiento en la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="69816-106">You can use this procedure in the USMF demo data company.</span></span>
 
 
-## <a name="select-the-load"></a><span data-ttu-id="10226-107">Seleccione la carga.</span><span class="sxs-lookup"><span data-stu-id="10226-107">Select the load</span></span>
-1. <span data-ttu-id="10226-108">Vaya a Administración de transporte > Planificación > Área de trabajo de planificación de la carga.</span><span class="sxs-lookup"><span data-stu-id="10226-108">Go to Transportation management > Planning > Load planning workbench.</span></span>
-2. <span data-ttu-id="10226-109">Desactive la casilla Ocultar enviado y recibido.</span><span class="sxs-lookup"><span data-stu-id="10226-109">Clear the Hide shipped and received check box.</span></span>
-3. <span data-ttu-id="10226-110">En la lista, seleccione la carga que tiene el estado Enviado.</span><span class="sxs-lookup"><span data-stu-id="10226-110">In the list, select the load that has a status of Shipped.</span></span>
-4. <span data-ttu-id="10226-111">Haga clic en Transporte.</span><span class="sxs-lookup"><span data-stu-id="10226-111">Click Transportation.</span></span>
-5. <span data-ttu-id="10226-112">Haga clic en Programación de citas.</span><span class="sxs-lookup"><span data-stu-id="10226-112">Click Appointment scheduling.</span></span>
+## <a name="select-the-load"></a><span data-ttu-id="69816-107">Seleccione la carga.</span><span class="sxs-lookup"><span data-stu-id="69816-107">Select the load</span></span>
+1. <span data-ttu-id="69816-108">Vaya a Administración de transporte > Planificación > Área de trabajo de planificación de la carga.</span><span class="sxs-lookup"><span data-stu-id="69816-108">Go to Transportation management > Planning > Load planning workbench.</span></span>
+2. <span data-ttu-id="69816-109">Desactive la casilla Ocultar enviado y recibido.</span><span class="sxs-lookup"><span data-stu-id="69816-109">Clear the Hide shipped and received check box.</span></span>
+3. <span data-ttu-id="69816-110">En la lista, seleccione la carga que tiene el estado Enviado.</span><span class="sxs-lookup"><span data-stu-id="69816-110">In the list, select the load that has a status of Shipped.</span></span>
+4. <span data-ttu-id="69816-111">Haga clic en Transporte.</span><span class="sxs-lookup"><span data-stu-id="69816-111">Click Transportation.</span></span>
+5. <span data-ttu-id="69816-112">Haga clic en Programación de citas.</span><span class="sxs-lookup"><span data-stu-id="69816-112">Click Appointment scheduling.</span></span>
 
-## <a name="create-an-appointment"></a><span data-ttu-id="10226-113">Crear una cita</span><span class="sxs-lookup"><span data-stu-id="10226-113">Create an appointment</span></span>
-1. <span data-ttu-id="10226-114">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="10226-114">Click New.</span></span>
-2. <span data-ttu-id="10226-115">En el campo Regla de cita, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="10226-115">In the Appointment rule field, enter or select a value.</span></span>
-3. <span data-ttu-id="10226-116">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="10226-116">Click Save.</span></span>
-4. <span data-ttu-id="10226-117">Haga clic en Actualizar estado.</span><span class="sxs-lookup"><span data-stu-id="10226-117">Click Update status.</span></span>
-5. <span data-ttu-id="10226-118">Haga clic en En firme.</span><span class="sxs-lookup"><span data-stu-id="10226-118">Click Firm.</span></span>
-6. <span data-ttu-id="10226-119">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="10226-119">Click Save.</span></span>
-7. <span data-ttu-id="10226-120">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="10226-120">Close the page.</span></span>
+## <a name="create-an-appointment"></a><span data-ttu-id="69816-113">Crear una cita</span><span class="sxs-lookup"><span data-stu-id="69816-113">Create an appointment</span></span>
+1. <span data-ttu-id="69816-114">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="69816-114">Click New.</span></span>
+2. <span data-ttu-id="69816-115">En el campo Regla de cita, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="69816-115">In the Appointment rule field, enter or select a value.</span></span>
+3. <span data-ttu-id="69816-116">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="69816-116">Click Save.</span></span>
+4. <span data-ttu-id="69816-117">Haga clic en Actualizar estado.</span><span class="sxs-lookup"><span data-stu-id="69816-117">Click Update status.</span></span>
+5. <span data-ttu-id="69816-118">Haga clic en En firme.</span><span class="sxs-lookup"><span data-stu-id="69816-118">Click Firm.</span></span>
+6. <span data-ttu-id="69816-119">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="69816-119">Click Save.</span></span>
+7. <span data-ttu-id="69816-120">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="69816-120">Close the page.</span></span>
 
 

@@ -16,24 +16,24 @@ ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: b39b0f0acf0a0fcdc472ba0bbfc3b15451c7a274
 ms.contentlocale: es-es
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="set-a-users-preferred-time-zone"></a><span data-ttu-id="af5f1-103">Definir la zona horaria preferida de un usuario</span><span class="sxs-lookup"><span data-stu-id="af5f1-103">Set a user's preferred time zone</span></span>
+# <a name="set-a-users-preferred-time-zone"></a><span data-ttu-id="1f5e4-103">Definir la zona horaria preferida de un usuario</span><span class="sxs-lookup"><span data-stu-id="1f5e4-103">Set a user's preferred time zone</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="af5f1-104">El siguiente procedimiento explica el modo de un usuario en el rol de Administrador del sistema puede definir la zona horaria para un usuario.</span><span class="sxs-lookup"><span data-stu-id="af5f1-104">The following procedure explains how a user in the System Administrator role can set the time zone for a user.</span></span>
+<span data-ttu-id="1f5e4-104">El siguiente procedimiento explica el modo de un usuario en el rol de Administrador del sistema puede definir la zona horaria para un usuario.</span><span class="sxs-lookup"><span data-stu-id="1f5e4-104">The following procedure explains how a user in the System Administrator role can set the time zone for a user.</span></span>
 
-1. <span data-ttu-id="af5f1-105">Vaya a Administración del sistema > Usuarios > Usuarios.</span><span class="sxs-lookup"><span data-stu-id="af5f1-105">Go to System administration > Users > Users.</span></span>
-2. <span data-ttu-id="af5f1-106">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="af5f1-106">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="af5f1-107">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="af5f1-107">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="af5f1-108">Haga clic en Opciones de usuario.</span><span class="sxs-lookup"><span data-stu-id="af5f1-108">Click User options.</span></span>
-5. <span data-ttu-id="af5f1-109">Haga clic en la ficha Preferencias.</span><span class="sxs-lookup"><span data-stu-id="af5f1-109">Click the Preferences tab.</span></span>
-6. <span data-ttu-id="af5f1-110">En el campo Zona horaria, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="af5f1-110">In the Time zone field, select an option.</span></span>
-7. <span data-ttu-id="af5f1-111">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="af5f1-111">Click Save.</span></span>
+1. <span data-ttu-id="1f5e4-105">Vaya a Administración del sistema > Usuarios > Usuarios.</span><span class="sxs-lookup"><span data-stu-id="1f5e4-105">Go to System administration > Users > Users.</span></span>
+2. <span data-ttu-id="1f5e4-106">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="1f5e4-106">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="1f5e4-107">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="1f5e4-107">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="1f5e4-108">Haga clic en Opciones de usuario.</span><span class="sxs-lookup"><span data-stu-id="1f5e4-108">Click User options.</span></span>
+5. <span data-ttu-id="1f5e4-109">Haga clic en la ficha Preferencias.</span><span class="sxs-lookup"><span data-stu-id="1f5e4-109">Click the Preferences tab.</span></span>
+6. <span data-ttu-id="1f5e4-110">En el campo Zona horaria, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="1f5e4-110">In the Time zone field, select an option.</span></span>
+7. <span data-ttu-id="1f5e4-111">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="1f5e4-111">Click Save.</span></span>
 
 
