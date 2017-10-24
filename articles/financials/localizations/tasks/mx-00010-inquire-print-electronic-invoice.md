@@ -16,10 +16,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 00db30022aa718bbcf68d59367a2d661d545653c
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6f96d5902d5d7b9119c8d449312fca43e4432563
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="inquire-and-print-an-electronic-invoice-mexico"></a>Consultar e imprimir una factura electrónica (México)

@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 06a75889e62cbba6e47a8543cf663868df5ae2e3
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -68,8 +68,8 @@ Una dimensión es una intersección de datos y de valores. Puede agrupar datos y
 | Opción                | Descripción                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Dimensión             | El modelo que identifica la dimensión que se agrega a la definición de filas. Este modelo contiene una Y comercial (&) o el signo de número (\#) para cada puesto de las dimensiones. Normalmente, use todos los signos & para la dimensión de la cuenta principal y todos los signos de número para otras dimensiones. |
-| Inicio del intervalo de la dimensión | El primer valor que agregará esta dimensión a la definición de filas.                                                                                                                                                                                                                 |
-| Fin del intervalo de la dimensión   | El último valor que agregará esta dimensión a la definición de filas.                                                                                                                                                                                                                  |
+| Inicio de intervalo de dimensión | El primer valor de esta dimensión que se va a agregar a la definición de fila.                                                                                                                                                                                                                 |
+| Fin de intervalo de dimensión   | El último valor que agregará esta dimensión a la definición de filas.                                                                                                                                                                                                                  |
 
 Para agregar dimensiones a una definición de fila, siga estos pasos.
 
@@ -121,23 +121,23 @@ Puede crear y modificar estilos de fuente para el informe. A continuación, pued
 <td>Crear un estilo de fuente</td>
 <td><ol>
 <li>En el diseñador de informes, en el menú <strong>Formato </strong>, haga clic en <strong>Estilos y formato</strong>.</li>
-<li>En el cuadro de diálogo <strong>Estilos y formato</strong>, haga clic en <strong>Nuevo</strong> y especifique un nombre único para el nuevo estilo.</li>
-<li>Realice las selecciones de fuente y haga clic en <strong>Aceptar</strong>.</li>
+<li>En el cuadro de diálogo <strong>Estilos y formato</strong>, haga clic en <strong>Nuevo</strong> y especifique un nombre único para el estilo nuevo.</li>
+<li>Seleccione las fuentes y haga clic en <strong>Aceptar</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Modificar un estilo de fuente</td>
 <td><ol>
 <li>En el diseñador de informes, en el menú <strong>Formato </strong>, haga clic en <strong>Estilos y formato</strong>.</li>
-<li>En el cuadro de diálogo <strong>Estilos y formato</strong>, seleccione un estilo para modificar y luego haga clic en <strong>Modificar</strong>.</li>
-<li>Realice las selecciones de fuente y haga clic en <strong>Aceptar</strong>.</li>
+<li>En el cuadro de diálogo <strong>Estilos y formato</strong>, seleccione un estilo para modificar y haga clic en <strong>Modificar</strong>.</li>
+<li>Seleccione las fuentes y haga clic en <strong>Aceptar</strong>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Aplicar un estilo de fuente</td>
 <td><ol>
 <li>En el diseñador de informes, e una definición o definición de columna, o en encabezados y pies de página, seleccione una o más celdas.</li>
-<li>En la lista de <strong>Estilo</strong> en la barra de herramientas, seleccione un estilo de fuente.</li>
+<li>En la lista <strong>Estilo</strong> de la barra de herramientas, seleccione un estilo de fuente.</li>
 </ol></td>
 </tr>
 </tbody>
@@ -164,7 +164,7 @@ Para facilitar ver las columnas en las que está trabajando en la definición de
 ### <a name="hide-columns-in-the-view-pane"></a>Ocultar columnas en el panel de vista
 
 1.  En el diseñador de informes, abra la definición de filas para modificarla.
-2.  Seleccione la columna o las columnas que desea minimizar.
+2.  Seleccione las columnas que desea minimizar.
 3.  Haga clic con el botón secundario y, a continuación, haga clic en **Ocultar**.
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>Mostrar todas las columnas ocultas en el panel de vista

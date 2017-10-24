@@ -16,13 +16,13 @@ ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 331f3480b8454dac7da12be169ba017f36cefa06
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 4708ff4427fe507fee7e1ce1ca226289ddf648cc
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,13 +33,13 @@ ms.lasthandoff: 05/25/2017
 
 Este artículo proporciona información acerca de las definiciones de organigrama. Una definición de organigrama es un componente de informe, o bloque de creación, que ayuda a definir la estructura y jerarquía de la organización.
 
-Los informes financieros admiten los informes flexibles, de manera que pueda realizar con facilidad cambios a su estructura comercial. Los informes se generan a partir de diversos componentes o bloques de creación. Uno de estos bloques de creación es una definición de árbol de informes. Una definición de árbol de informes ayuda a definir la estructura y la jerarquía de la organización. Es una estructura jerárquica dimensional que se basa en las relaciones dimensionales de los datos financieros. Proporciona información en el nivel de la unidad de informes y en un nivel de resumen para todas las unidades del árbol. Las definiciones de organigramas se pueden combinar con las definiciones de columnas y las definiciones de informes para crear un grupo de bloques de creación que pueda ser usado por varias empresas. Se usa una unidad organizacional para cada organigrama. Una unidad de notificación puede ser un departamento individual de los datos financieros, o puede ser una unidad de resumen de alto nivel que combina la información de otras unidades de notificación. Para obtener una definición del informe que incluya un organigrama, se genera un informe para cada unidad de notificación y para el nivel de resumen. Todos estos informes usan las definiciones de filas y de columnas especificadas en la definición del informe, a menos que la definición del informe especifique que se debe usar el organigrama de la definición de filas. Las definiciones de filas y columnas son componentes importantes en el diseño y la funcionalidad de informes financieros. Los organigramas aumentan el poder de los componentes y son compatibles con los informes flexible cuando la estructura comercial cambia. Los informes financieros que no se basan en organigramas usan solo algunas de las capacidades de los informes financieros. Puede usar varias definiciones de organigramas junto con las mismas definiciones de filas y de columnas para ver los datos de su organización de distintas maneras.
+Los informes financieros admiten los informes flexibles, de manera que pueda realizar con facilidad cambios a su estructura comercial. Los informes se generan a partir de diversos componentes o bloques de creación. Uno de estos bloques de creación es una definición de árbol de informes. Una definición de árbol de informes ayuda a definir la estructura y la jerarquía de la organización. Es una estructura jerárquica dimensional que se basa en las relaciones dimensionales de los datos financieros. Proporciona información en el nivel de la unidad de informes y en un nivel de resumen para todas las unidades del árbol. Las definiciones de organigramas se pueden combinar con las definiciones de columnas y las definiciones de informes para crear un grupo de bloques de creación que pueda ser usado por varias empresas. Se usa una unidad organizacional para cada organigrama. Una unidad organizacional puede ser un departamento individual de los datos financieros, o puede ser una unidad de resumen de nivel superior que combina la información de otras unidades organizacionales. Para obtener una definición del informe que incluya un organigrama, se genera un informe para cada unidad de notificación y para el nivel de resumen. Todos estos informes usan las definiciones de filas y de columnas especificadas en la definición del informe, a menos que la definición del informe especifique que se debe usar el organigrama de la definición de filas. Las definiciones de filas y columnas son componentes importantes en el diseño y la funcionalidad de informes financieros. Los organigramas aumentan el poder de los componentes y son compatibles con los informes flexible cuando la estructura comercial cambia. Los informes financieros que no se basan en organigramas usan solo algunas de las capacidades de los informes financieros. Puede usar varias definiciones de organigramas junto con las mismas definiciones de filas y de columnas para ver los datos de su organización de distintas maneras.
 
 ## <a name="reporting-tree-best-practices"></a>Prácticas recomendadas para organigramas
 Antes de crear un organigrama, tenga en cuenta las siguientes prácticas recomendadas:
 
 -   Primero determine qué informar dimensiones de informes requiere su entidad jurídica o empresa.
--   Tenga en cuenta cómo ha configurado la estructura y luego realice un organigrama de su empresa. El organigrama le ayudará a visualizar el modo de agrupar las unidades de notificación en uno o más organigramas.
+-   Tenga en cuenta cómo ha configurado la estructura y luego realice un organigrama de su empresa. El gráfico de la organización le ayudará a visualizar cómo agrupar las unidades organizacionales en uno o varios organigramas.
 -   Comience con el nivel de detalle más bajo disponible, como los departamentos y los proyectos que se definen en los datos financieros. Agregue tantos cuadros al nivel de detalle como sea necesario, para mostrar divisiones o regiones de alto nivel. Cada cuadro representa una unidad de notificación potencial en cualquier organigrama que cree.
 -   También debe considerar el mejor modo de crear sus organigramas. Puede usar un proceso automatizado de creación para generar un organigrama, o puede crear un organigrama manualmente. Es importante que comprenda ambos métodos antes de diseñar los organigramas.
 -   Puede usar las unidades de notificación que se definen en su sistema de datos financieros para agregar unidades de notificación a la definición del organigrama.
@@ -52,13 +52,13 @@ Una definición del organigrama contiene las columnas que se describen en la tab
 
 | Columna del organigrama | Descripción|
 |---|---|
-| Compañía               | El nombre de la empresa para el organigrama. El valor **@ANY**, que normalmente se asigna solo al nivel de resumen, permite que el organigrama se use para todas las empresas. Todas las ramas secundarias tienen una empresa asignada a ellas.|
+| Compañía               | El nombre de la empresa para el organigrama. El valor **@ANY**, que normalmente se asigna solo al nivel de resumen, permite que el organigrama se use para todas las empresas. Todas las ramas secundarias tienen una compañía asignada.|
 | Nombre de la unidad             | El código que identifica esta unidad de notificación en el organigrama gráfico. Asegúrese de establecer un sistema de codificación único que sea coherente y que vaya a ser fácil de comprender para los usuarios. |
 | Descripción de la unidad      | El título de la unidad de notificación aparece en el encabezado o el pie de página del informe si especifica **UnitDesc** como código en la pestaña **Encabezados y pies de página** de la definición del informe. El título aparece en la descripción de la fila del informe si especifica **UnitDesc** en la celda **Descripción** de la definición de la fila|
 | Dimensiones            | Una unidad de notificación que recaba información directamente de los datos financieros. Define la colocación y las longitudes lógicas para la cuenta y los segmentos relacionados. Cada fila de unidad organizacional debe tener una dimensión en esta columna. También puede colocar una dimensión en una fila de unidad de resumen (por ejemplo, para los gastos que están relacionados directamente con esa unidad). Si especifica una dimensión en una fila de resumen de unidad, las cuentas que se usan en unidades principales no se deben usar en unidades secundarias. De lo contrario, se pueden duplicar los importes.|
-| Definiciones de las filas       | El nombre de la definición de filas para la unidad de notificación. La misma definición de filas se usa para cada unidad del organigrama. Al generar un informe, esta definición de filas se utiliza para cada unidad organizacional. La definición de fila puede incluir varios vínculos de dimensiones financieras. Si se especifica una definición de fila en el organigrama, active la casilla **Usar definición de fila del organigrama** de la pestaña **Informe** de la definición del informe.|
-| Vínculo de filas              | El vínculo de fila que se va a usar para la unidad de notificación. Los vínculos de fila se definen para que la definición de filas identifique las dimensiones financieras a las que vincularla.|
-| Vínculo externo         | El vínculo de fila que se va a usar para esta unidad de notificación. Los vínculos de fila se definen para que la definición de filas identifique el informe al que vincularla.|
+| Definiciones de las filas       | El nombre de la definición de filas para la unidad de notificación. Se usa la misma definición de fila para todas las unidades del organigrama. Cuando se genera un informe, esta definición de fila se usa para todas las unidades organizacionales. La definición de fila puede incluir varios vínculos de dimensiones financieras. Si se especifica una definición de fila en el organigrama, active la casilla **Usar definición de fila del organigrama** de la pestaña **Informe** de la definición del informe.|
+| Vínculo de fila              | Vínculo de fila que se va a usar para la unidad organizacional. Los vínculos de fila se especifican para la definición de fila para identificar las dimensiones financieras con las que se crearán vínculos.|
+| Vínculo externo         | Vínculo de fila que se va a usar para esta unidad organizacional. Los vínculos de fila se definen para que la definición de filas identifique el informe al que vincularla.|
 | Archivo externo         | La ruta de acceso al archivo de la hoja de cálculo de informes financieros del que extraer datos.|
 | Opciones de página          | Esta columna controla si se suprimen los detalles de la unidad organizacional cuando se ve o se imprime el informe.|
 | % de distribución              | El porcentaje de la unidad organizacional que se debe asignar a la unidad principal. El porcentaje especificado en esta columna solo se aplica a cada fila de la definición de filas antes de que el valor de la fila se agregue al informe principal. Por ejemplo, si se debe dividir una unidad secundaria uniformemente entre dos departamentos, los importes en cada fila se multiplican por el 50 por ciento antes de que el valor se agregue al informe del departamento. Una unidad organizacional no puede tener dos unidades principales. Para asignar los importes de una unidad organizacional a las unidades biparentales, cree otra unidad organizacional que tenga la misma dimensión para distribuir el 50 por ciento adicional. Especifique porcentajes enteros sin una coma decimal. Por ejemplo, **25** representa la asignación del 25 por ciento al elemento primario. Si incluye una coma decimal (**,25**), se asigna el porcentaje del 0,25% al elemento primario. Para usar un porcentaje inferior al 1 por ciento, use la opción **Permitir distribución de &lt;1%** en la definición del importe. Esta opción está en la pestaña **Opciones adicionales** en el cuadro de diálogo **Configuración de informes**. A este cuadro de diálogo se obtiene acceso desde el botón **Otra** en la pestaña **Configuración** de la definición del informe. |
@@ -138,8 +138,8 @@ Una entrada de texto adicional es una cadena de texto estática de hasta 255 car
 
 ### <a name="remove-additional-text-from-a-reporting-unit"></a>Quitar el texto adicional de una unidad de notificación
 
-1.  En el diseñador de informes, abra la definición del organigrama para modificarla.
-2.  Haga doble clic en la celda de **Texto adicional** para la fila de la unidad organizacional.
+1.  En el Diseñador de informes, abra la definición de organigrama que desee modificar.
+2.  Haga doble clic en la celda **Texto adicional** de la fila de la unidad organizacional.
 3.  En el cuadro de diálogo **Texto adicional**, seleccione la entrada que quiere quitar y, a continuación, haga clic en **Borrar**. De forma alternativa, haga clic con el botón secundario en la entrada y, a continuación, seleccione **Cortar**.
 4.  Haga clic en **Aceptar**.
 
@@ -148,7 +148,7 @@ Una entrada de texto adicional es una cadena de texto estática de hasta 255 car
 Puede evitar que determinados usuarios y grupos tengan acceso a una unidad de notificación. También puede definir restricciones para que se aplique a unidades organizacionales secundarias de la unidad organizacional.
 
 1.  En el diseñador de informes, abra la definición del organigrama para modificarla.
-2.  Haga doble clic en la celda **Seguridad de la unidad** para la fila de unidad de notificación a la que restringir acceso.
+2.  Haga doble clic en la celda **Seguridad de unidad** de la fila de la unidad organizacional de la que desee restringir el acceso.
 3.  En el cuadro de diálogo **Seguridad de la unidad**, haga clic en **Usuarios y grupos**.
 4.  Seleccione los usuarios o grupos que deberían tener acceso a la unidad organizacional y, a continuación, haga clic en **Aceptar**.
 5.  Para restringir el acceso a unidades de notificación secundarias, active la casilla **Agregar seguridad a unidades organizacionales secundarias**.

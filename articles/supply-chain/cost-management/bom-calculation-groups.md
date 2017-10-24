@@ -1,7 +1,7 @@
 ---
 title: "Grupos para cálculos de lista de materiales"
 description: "Este artículo proporciona información acerca de los grupos de cálculo para listas de materiales y de cómo configurarlos. Para ejecutar un cálculo de L. MAT, debe configurar los grupos de cálculo y asignarlos a artículos individuales o establecer un grupo de cálculo predeterminado. La configuración del cálculo del grupo de cálculo se utiliza a continuación como valores predeterminados en la página Cálculo de L. MAT en el momento del cálculo de L. MAT."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 63e1b7dc-c2c5-41b0-81ed-e3e02d1b39e0
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3372c22d6ed90e7669f1335fdd3366b8e167ad27
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c91f7ac3ded942afd5e359b59cee2ff58256622f
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,13 +72,21 @@ La casilla **Detener la expansión** se utiliza para indicar cuándo se debe tra
 
 ### <a name="warnings"></a>Avisos
 
-En la ficha desplegable **Advertencias**, se seleccionan las opciones de los mensajes de advertencia que los usuarios deben recibir cuando realizan cálculos de L. MAT. Por ejemplo, si activa la casilla **No hay L. MAT**, el usuario recibe una advertencia si no se encuentra ninguna versión de L. MAT activa para uno de los componentes o el producto principal para el que se ejecuta el cálculo de L. MAT. Si activa la casilla **No hay ruta**, el usuario recibe una advertencia si no se encuentra ninguna versión de ruta activa. Si utiliza recursos en sus rutas y operaciones, puede indicar al sistema que compruebe dichos recursos. A continuación, si no se encuentra un recurso en todas las líneas de la ruta activa, el usuario recibe una advertencia. También puede verificar y comprobar para el consumo. El consumo es la cantidad en una ruta determinada. Normalmente, representa la cantidad de tiempo necesaria para realizar una operación específica durante un proceso de producción. Puede comprobar si un artículo no tiene ningún precio de coste. Si no hay ningún precio de coste activo para un elemento, no se agrega ningún coste en el cálculo de L. MAT. También puede comprobar y verificar el vencimiento del precio de coste. Por ejemplo, escriba **60** para indicar que el precio de coste de unidad se debe volver a evaluar después de 60 días. Si se alcanza este límite, el sistema genera una advertencia. Por ejemplo, se introdujo un precio de coste para un artículo en enero de este año. Si ahora es agosto, lo que supone más de 60 días tras la introducción del precio de coste, el usuario recibe una advertencia cuando se ejecuta el cálculo de L. MAT. Puede especificar un porcentaje en el campo **Margen de contribución mínima**. Este valor indica el punto en el que no se cumple el margen de contribución mínima. Si no se cumple el margen de contribución para un componente concreto, el usuario recibe una advertencia. Por tanto, este campo ayuda a garantizar que no debilita los costes y la rotación adicional que se pueden requerir sus artículos.
-Configuración predeterminada en los parámetros de gestión de almacenes
---------------------------------------------------------------
+En la ficha desplegable **Advertencias**, se seleccionan las opciones de los mensajes de advertencia que los usuarios deben recibir cuando realizan cálculos de L. MAT. 
 
-Dado que se requieren grupos de cálculo para poder ejecutar cálculos, debe configurar un grupo de cálculo predeterminado en los parámetros de Gestión de inventarios. Esta configuración permite a las empresas tener una configuración estándar de grupo de costes y ganancias para todos los artículos. A continuación, si un artículo concreto tiene requisitos de cálculo especiales, el usuario puede asignar a un grupo de cálculo diferente a ese artículo. Normalmente, puede establecer grupos de cálculo en artículos del componente de la L. MAT en lugar de los artículos de la L. MAT. Sin embargo, cuando se muestran mensajes de advertencia, se pueden aplicar grupos de cálculo. Un grupo de cálculo que está asignado a artículos reemplaza el valor predeterminado que se configura en los parámetros de Gestión de inventarios. Puede configurar el parámetro predeterminado en **Gestión de costes** &gt; **Configuración de directivas de contabilidad de inventario** &gt; **Parámetros** &gt; **Contabilidad de inventario** &gt; **Grupo de cálculo**. Al establecer una configuración de grupo de configuración predeterminado, también puede configurar las condiciones de las advertencias que les aparecen a los usuarios durante el proceso de cálculo de L. MAT, si los componentes seleccionados pueden provocar errores de cálculo.
-Ver mensajes de advertencia en la página Completado
-------------------------------------------
+Por ejemplo, si activa la casilla **No hay L. MAT**, el usuario recibe una advertencia si no se encuentra ninguna versión de L. MAT activa para uno de los componentes o el producto principal para el que se ejecuta el cálculo de L. MAT. Si activa la casilla **No hay ruta**, el usuario recibe una advertencia si no se encuentra ninguna versión de ruta activa. Si utiliza recursos en sus rutas y operaciones, puede indicar al sistema que compruebe dichos recursos. A continuación, si no se encuentra un recurso en todas las líneas de la ruta activa, el usuario recibe una advertencia. 
+
+También puede verificar y comprobar para el consumo. El consumo es la cantidad en una ruta determinada. Normalmente, representa la cantidad de tiempo necesaria para realizar una operación específica durante un proceso de producción. Puede comprobar si un artículo no tiene ningún precio de coste. Si no hay ningún precio de coste activo para un elemento, no se agrega ningún coste en el cálculo de L. MAT. 
+
+También puede comprobar y verificar el vencimiento del precio de coste. Por ejemplo, escriba **60** para indicar que el precio de coste de unidad se debe volver a evaluar después de 60 días. Si se alcanza este límite, el sistema genera una advertencia. Por ejemplo, se introdujo un precio de coste para un artículo en enero de este año. Si ahora es agosto, lo que supone más de 60 días tras la introducción del precio de coste, el usuario recibe una advertencia cuando se ejecuta el cálculo de L. MAT. Puede especificar un porcentaje en el campo **Margen de contribución mínima**. Este valor indica el punto en el que no se cumple el margen de contribución mínima. Si no se cumple el margen de contribución para un componente concreto, el usuario recibe una advertencia. Por tanto, este campo ayuda a garantizar que no debilita los costes y la rotación adicional que se pueden requerir sus artículos.
+
+### <a name="default-setup-in-inventory-and-warehouse-management-parameters"></a>Configuración predeterminada en los parámetros de gestión de almacenes
+
+Dado que se requieren grupos de cálculo para poder ejecutar cálculos, debe configurar un grupo de cálculo predeterminado en los parámetros de Gestión de inventarios. Esta configuración permite a las empresas tener una configuración estándar de grupo de costes y ganancias para todos los artículos. A continuación, si un artículo concreto tiene requisitos de cálculo especiales, el usuario puede asignar a un grupo de cálculo diferente a ese artículo. Normalmente, puede establecer grupos de cálculo en artículos del componente de la L. MAT en lugar de los artículos de la L. MAT. Sin embargo, cuando se muestran mensajes de advertencia, se pueden aplicar grupos de cálculo. Un grupo de cálculo que está asignado a artículos reemplaza el valor predeterminado que se configura en los parámetros de Gestión de inventarios. 
+
+Puede configurar el parámetro predeterminado en **Gestión de costes** &gt; **Configuración de directivas de contabilidad de inventario** &gt; **Parámetros** &gt; **Contabilidad de inventario** &gt; **Grupo de cálculo**. Al establecer una configuración de grupo de configuración predeterminado, también puede configurar las condiciones de las advertencias que les aparecen a los usuarios durante el proceso de cálculo de L. MAT, si los componentes seleccionados pueden provocar errores de cálculo.
+
+### <a name="view-warning-messages-on-the-complete-page"></a>Ver mensajes de advertencia en la página Completado
 
 Un cálculo de L. MAT genera mensajes de advertencia. Puede ver las advertencias acerca de un artículo seleccionado. Por ejemplo, en Ventas y marketing, cree un nuevo pedido de ventas para el artículo D0001. A continuación, en la línea de pedido de ventas, en el menú **Actualizar línea**, haga clic en **Calcular basándose en L. MAT/fórmula** para ver los detalles de cálculos y las advertencias. También puede ver los resultados de cálculos de L. MAT en la página **Completado**. Para los mensajes de advertencia, solo se aplican dos condiciones de advertencia a los artículos fabricados, y cuatro condiciones de advertencia a todos los artículos:
 -   Indica que el artículo fabricado no tiene una L. MAT. activa.

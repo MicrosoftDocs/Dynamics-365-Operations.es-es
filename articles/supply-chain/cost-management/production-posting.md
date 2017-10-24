@@ -1,7 +1,7 @@
 ---
 title: "Registro de la producción"
 description: "Este artículo proporciona información sobre los distintos tipos de registros en el proceso de producción."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 0917fe64-f643-46ae-98ff-5013b266a067
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f1d46b7eba42640de09d85fbc18969ee2a85f280
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: f965fd7fc4386665befedd89f33c6d32401c9132
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Este artículo proporciona información sobre los distintos tipos de registros e
 Las actividades de registro de producción siguen a los procesos de producción que se describen en las siguientes secciones.
 
 ## <a name="material-consumption"></a>Lista de selección
-Los materiales se registran como consumidos durante la producción cuando se registra el diario de lista de selección de producción. Este proceso genera transacciones de emisión que reducen el inventario disponible. En los parámetros de producción, puede especificar si el valor de las materias primas en proceso (trabajo en curso) se deben registrar en el libro mayor. El valor de las materias primas en curso se registra después en una cuenta dedicada de la lista de selección y en una cuenta de contrapartida de lista de selección dedicada.
+Los materiales se registran como consumidos durante la producción cuando se registra el diario de lista de selección de producción. Este proceso genera transacciones de emisión que reducen el inventario disponible. En los parámetros de producción, puede especificar si el valor de las materias primas en proceso (trabajo en curso \[WIP\]) se deben registrar en el libro mayor. El valor de las materias primas en curso se registra después en una cuenta dedicada de la lista de selección y en una cuenta de contrapartida de lista de selección dedicada.
 
 ## <a name="time-consumption"></a>Consumo de tiempo
 El tiempo que los trabajadores invierten en trabajos de producción se registra en el diario de tarjeta de ruta o en el diario de tarjeta de trabajo. Cuando se registran estos diarios, se procesa un registro contable en una cuenta dedicada para recursos en curso (trabajo en curso). Este registro representa el valor de tiempo invertido en el pedido de producción. Después de que el pedido de producción se registre como terminado, se liquidarán las cuentas de trabajo en curso.

@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: es-es
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -63,7 +63,7 @@ Las personalizaciones explícitas son aquellas personalizaciones que se realizan
 
 Personalizará un elemento en la página de esta manera si desea simplemente cambiar la etiqueta del elemento, ocultar el elemento para que no aparezca en la página (esto no cambia ningún dato, simplemente no muestra la información), incluir la información de la sección de resumen de la ficha desplegable (si el elemento no se encuentra en una ficha Desplegable), omitir el campo al tabular o hacer que los datos no se puedan cambiar marcándolo como “No editar”. 
 
-Cuando desee mover u ocultar elementos o realizar varios cambios, puede usar la barra de herramientas de personalización, disponible en la ventana de propiedad de los elementos seleccionando **Personalizar este formulario**. La barra de herramientas de personalización también está disponible en el panel de acciones del formulario, en el grupo de la personalización de la pestaña **Opciones**. Seleccione **Personaliar este formulario** y verá la barra de herramientas de la personalización. 
+Cuando desee mover u ocultar elementos o realizar varios cambios, puede usar la barra de herramientas de personalización, disponible en la ventana de propiedad de los elementos seleccionando **Personalizar este formulario**. La barra de herramientas de personalización también está disponible en el panel de acciones del formulario, en el grupo de personalización de la pestaña **Opciones**. Seleccione **Personalizar este formulario** y verá la barra de herramientas de personalización. 
 
 [![Barra de herramientas de la personalización](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
@@ -90,7 +90,7 @@ Elija el botón **Cerrar** para cerrar la barra de herramientas y devolver la p�
 Con la barra de herramientas de la personalización, guardar es implícito. Sus personalizaciones surtirán efecto inmediatamente a medida que las hace y no hay necesidad de hacer clic en el botón **Guardar**. En algunos casos, verá un icono de candado junto a un elemento cuando selecciona una herramienta. Esto quiere decir que para que la página funcione correctamente, no puede modificar las propiedades relacionadas con la herramienta seleccionada. Cuando se abre la barra de herramientas de la personalización, la página pasará a ser no interactiva. No puede escribir datos o expandir y contraer secciones.
 
 ## <a name="explicit-personalization-adding-a-tile-or-list-to-a-workspace"></a>Personalización explícita: agregar un mosaico o lista a un espacio de trabajo
-Algunas páginas con listas tendrán una característica adicional de personalización disponible dentro de su Panel de acciones, en el grupo de la personalización de la pestaña opciones. Seleccione **Agregar al espacio de trabajo** para abrir la lista desplegable que proporciona la capacidad de mostrar la información de la lista actual (filtrada y clasificada o predeterminado) en un espacio de trabajo como una lista o mosaico de resumen (que se pueda usar para mostrar el número de elementos de la lista). 
+Algunas páginas con listas tendrán una característica adicional de personalización disponible dentro del panel de acciones, en el grupo de personalización de la pestaña Opciones. Seleccione **Agregar al área de trabajo** para abrir la lista desplegable que le proporcionará la capacidad de mostrar información en la lista actual (filtrada y clasificada o predeterminada) en un área de trabajo, como una lista o icono de resumen (que se puede usar para mostrar el número de artículos en la lista). 
 
 [![Agregar al espacio de trabajo](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png) 
 

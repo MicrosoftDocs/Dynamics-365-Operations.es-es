@@ -16,13 +16,13 @@ ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 40ae4e0774c5752d697baba6c8add8aaf44fbb6d
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: eb09c0bb28c2ba8e7b890854c444cec80fe8277c
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ En este artículo se describe la información que se requiere para cada celda de
 
 # <a name="specify-a-row-code-in-a-row-definition"></a>Especifique un código de fila en una definición de filas
 
-En las definiciones de filas, los números o las etiquetas en la celda **Código de la fila** identifican cada línea en la definición de filas. Puede especificar el código de la fila para hacer referencia a datos en los cálculos y los totales.
+En las definiciones de filas, los números o las etiquetas en la celda **Código de la fila** identifican cada línea en la definición de filas. Puede especificar el código de fila para hacer referencia a los datos en los cálculos y totales.
 
 ### <a name="row-code-requirements"></a>Requisitos de código de fila
 
@@ -68,7 +68,7 @@ Los siguientes ejemplos son códigos válidos de fila:
 ## <a name="add-a-description"></a>Agregar una descripción
 La celda de la descripción ofrece una visión general de los datos financieros en la fila del informe, como “ingresos” o “ingresos netos.” El texto en la celda **Descripción** aparece en el informe exactamente como se ha especificado en la definición de filas. 
 > [!NOTE]
-> La anchura de la columna de la descripción del informe se establece en la definición de la columna. Si el texto en la columna de **Descripción** en la definición de filas es largo, compruebe la anchura de la columna **DESC**. Cuando se usa el cuadro de diálogo **Insertar filas desde**, los valores en la columna **Descripción** son los valores de segmento o los valores de dimensión de los datos financieros. Puede insertar filas para agregar texto descriptivo, como un título de sección o un total de sección, y para agregar formato, como una línea antes de una fila de total. Si el informe incluye un organigrama, puede incluir el texto adicional que está definido para las unidades de notificación en el organigrama. También puede limitar el texto adicional a una unidad de notificación específica.
+> La anchura de la columna de la descripción del informe se establece en la definición de la columna. Si el texto en la columna de **Descripción** en la definición de filas es largo, compruebe la anchura de la columna **DESC**. Cuando se usa el cuadro de diálogo **Insertar filas desde**, los valores en la columna **Descripción** son los valores de segmento o los valores de dimensión de los datos financieros. Puede insertar filas para agregar texto descriptivo, tal como un encabezado de sección o un total de sección, y para agregar formato, por ejemplo una línea antes de una fila de total. Si el informe incluye un organigrama, puede incluir el texto adicional que está definido para las unidades de notificación en el organigrama. También puede limitar el texto adicional a una unidad de notificación específica.
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>Agregar la descripción de una línea en un informe
 
@@ -112,12 +112,12 @@ La celda **Código de formato** ofrece una selección de opciones preformateadas
     | ---                           | Subrayado simple                   | Pone una única línea debajo de todas las columnas de importe en el informe.                                                                                                                                                     |
     | ===                           | Subrayado doble                   | Pone dos líneas debajo de todas las columnas de importe en el informe.                                                                                                                                                     |
     | LINE1                         | Línea fina                          | Dibuja una única línea fina en la página.                                                                                                                                                                      |
-    | LINE2                         | Línea gruesa                         | Dibuja una única línea gruesa en la página.                                                                                                                                                                     |
-    | LINE3                         | Línea de puntos                        | Dibuja una única línea de puntos en la página.                                                                                                                                                                    |
+    | LIN2                         | Línea gruesa                         | Dibuja una línea gruesa única a lo largo de la página.                                                                                                                                                                     |
+    | LIN3                         | Línea de puntos                        | Dibuja una única línea de puntos en la página.                                                                                                                                                                    |
     | LINE4                         | Línea gruesa y línea fina           | Dibuja una línea doble en la página. La línea superior es gruesa y la de abajo es fina.                                                                                                                       |
     | LINE5                         | Línea fina y línea gruesa           | Dibuja una línea doble en la página. La línea superior es fina y la de abajo es gruesa.                                                                                                                       |
     | BXB BXC                       | Fila encajonada                          | Dibuja una caja alrededor de las filas del informe que empiezan por la fila **BXB** y acaban por la fila **BXC**.                                                                                                               |
-    | REM                           | Comentario                             | Identifica una fila que es una fila de comentarios y no se debe imprimir en el informe. Por ejemplo, una fila de observación puede explicar sus técnicas de formato.                                                            |
+    | NOT                           | Comentario                             | Identifica una fila que es una fila de comentario y no debería imprimirse en el informe. Por ejemplo, una fila de comentario podría explicar técnicas de formato.                                                            |
     | SORT ASORT SORTDESC ASORTDESC | Ordenar                               | Ordena gastos o ingresos, ordena un informe de desviación del presupuesto real por desviación mayor u ordena las descripciones de fila alfabéticamente.                                                                   |
 
 ## <a name="specify-related-formulasrowsunits"></a>Especificar fórmulas, filas o unidades relacionadas
@@ -133,7 +133,7 @@ La celda **Fórmulas, filas o unidades relacionadas** tiene varios objetivos. En
 
 Use una fórmula de totales de fila para agregar o restar importes en otras filas. Una fórmula para crear un total de fila puede incluir los operadores + y - para combinar códigos e intervalos de fila individuales. Los intervalos se indican con dos puntos (:). La fórmula puede contener hasta 1.024 caracteres. Aquí hay un ejemplo de una fórmula estándar de balance: 400+420+430+450+460LIABILITIES+EQUITY520:546520:546-LIABILITIES
 
-### <a name="components-of-a-row-total-formula"></a>Componentes de una fórmula total de la fila
+### <a name="components-of-a-row-total-formula"></a>Componentes de una fórmula de total de fila
 
 Cuando se crea una fórmula total de la fila, se deben usar códigos de fila para especificar las filas que se agregan o se restan en la definición de filas actual, y se deben usar operadores para especificar cómo se combinan las filas. Las filas del total y las filas de importe se pueden usar en cualquier combinación. **Nota:** se excluyen todas las filas del total que se encuentran en un intervalo. Para crear un total general, puede especificar el intervalo de filas. Si la primera fila de un intervalo es una fila del total, esa fila se incluye en el nuevo total. La siguiente tabla describe cómo se usan los operadores en fórmulas de total de las filas.
 
@@ -145,7 +145,7 @@ Cuando se crea una fórmula total de la fila, se deben usar códigos de fila par
 
 ### <a name="create-a-row-total"></a>Crear un total de fila
 
-1.  En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
+1.  En el Diseñador de informes, haga clic en **Definiciones de filas** y abra la definición de fila que desee modificar.
 2.  Haga doble clic en la celda **Código de formato** en la definición de filas y seleccione **TOT**.
 3.  En la celda **Fórmulas, filas o unidades relacionadas**, especifique la fórmula total.
 
@@ -177,7 +177,7 @@ Una o varias filas de base se definen en la definición de filas y luego la defi
 -   Las filas de **CBR** no se imprimirán en el informe completado.
 -   El código de formato de **CBR** y su código de fila relacionado se colocan encima de la fila o la sección que muestra los cálculos relacionados.
 
-En una definición de columna, el tipo de columna **CALC** indica una columna que especifique una fórmula en la fila **Fórmula**. Esta fórmula trabaja con los datos para esta columna del informe y usa la palabra clave de Baserow para basar los cálculos en los códigos de formato de **CBR** de la fila. En la definición de filas, el código de formato **CBR** define la fila base de las columnas que calculan un porcentaje o se multiplican por la fila de base de cada fila en el informe. Puede tener varios códigos de formato **CBR** en el formato de fila, por ejemplo uno para las ventas netas, uno para las ventas brutas y otro para los gastos totales. Normalmente, el código de formato **CBR** se usa para crear un porcentaje para cuentas que se comparan con una línea de totales. Una fila de base se usa para todos los nuevos cálculos hasta que se defina otra fila de base. Debe definir un código de formato **CBR** inicial y un código de formato **CBR** final. Por ejemplo, para determinar los gastos como porcentaje de ventas netas, puede dividir el valor de cada fila de gastos entre el valor de la fila de ventas netas. En este caso, la fila de ventas netas es la fila base. Puede definir una definición de columna que notifica resultados actuales y del ejercicio a fecha, junto con un porcentaje de la base de cada resultado, como se muestra en el ejemplo que se incluye a continuación. Comience con un informe detallado de ingresos.
+En una definición de columna, el tipo de columna **CALC** indica una columna que especifica una fórmula en la fila **Fórmula**. Esta fórmula trabaja con los datos para esta columna del informe y usa la palabra clave de Baserow para basar los cálculos en los códigos de formato de **CBR** de la fila. En la definición de filas, el código de formato **CBR** define la fila base de las columnas que calculan un porcentaje o se multiplican por la fila de base de cada fila en el informe. Puede tener varios códigos de formato **CBR** en el formato de fila, por ejemplo uno para las ventas netas, uno para las ventas brutas y otro para los gastos totales. Normalmente, el código de formato **CBR** se usa para crear un porcentaje para cuentas que se comparan con una línea de totales. Una fila de base se usa para todos los nuevos cálculos hasta que se defina otra fila de base. Debe definir un código de formato **CBR** inicial y un código de formato **CBR** final. Por ejemplo, para determinar los gastos como porcentaje de ventas netas, puede dividir el valor de cada fila de gastos entre el valor de la fila de ventas netas. En este caso, la fila de ventas netas es la fila base. Puede definir una definición de columna que notifica resultados actuales y del ejercicio a fecha, junto con un porcentaje de la base de cada resultado, como se muestra en el ejemplo que se incluye a continuación. Comience con un informe detallado de ingresos.
 
 ### <a name="select-the-base-row-in-a-row-definition-for-a-column-calculation"></a>Seleccione la fila base en una definición de filas para un cálculo de la columna
 
@@ -197,7 +197,7 @@ En una definición de columna, el tipo de columna **CALC** indica una columna qu
 En el siguiente ejemplo de una definición de fila, la fila 100 muestra que la fila base para los cálculos es la fila 280. [![Ejemplo del cálculo de la fila base.](./media/cbrrowdefinition.png)](./media/cbrrowdefinition.png) En el siguiente ejemplo de una definición de columna, los cálculos usan el código de formato **CBR**. El cálculo en la columna C divide el valor de la columna B del informe entre el valor de la fila 280 de la columna B. La anulación de formato en la columna B imprime el resultado del cálculo como porcentaje. Del mismo modo, cada importe en la columna E es el importe en la columna D como un porcentaje de ventas netas. [![Ejemplo de definición de columnas.](./media/cbrcolumndefinition2.png)](./media/cbrcolumndefinition2.png) En el ejemplo siguiente se muestra un informe que se puede generar en función de los cálculos anteriores. [![Ejemplo de informe basado en los cálculos del ejemplo anterior.](./media/cbrreport-1024x272.png)](./media/cbrreport.png)
 
 ## <a name="select-a-sorting-code-for-a-row-definition"></a>Seleccione un código de ordenación para una definición de fila
-Los códigos de ordenación ordenan cuentas o valores, ordenan un informe de desviación del presupuesto real por desviación mayor y ordenan las descripciones de fila alfabéticamente. Los siguientes códigos de ordenación están disponibles:
+Los códigos de ordenación ordenan cuentas o valores, ordenan un informe de desviación del presupuesto real por desviación mayor y ordenan las descripciones de fila alfabéticamente. Están disponibles los siguientes códigos de ordenación:
 
 -   **SORT**: ordena el informe en orden ascendente, en función de los valores en la columna especificada.
 -   **ASORT**: ordena el informe en orden ascendente, en función del valor absoluto de los valores en la columna especificada. Es decir, el signo de cada valor se omite cuando se ordenan los valores. Este código de formato secuencia los valores por la magnitud de la desviación, independientemente de si la desviación es positiva o negativa.
@@ -217,17 +217,17 @@ Los códigos de ordenación ordenan cuentas o valores, ordenan un informe de des
 
 En el siguiente ejemplo, los valores de la columna D del informe se ordenarán en orden ascendente desde la fila 160 hasta la 490. Además, los valores absolutos en la columna G del informe se ordenarán en orden descendente desde la fila 610 hasta la 940.
 
-| Código de fila | Descripción                                         | Código de formato | Fórmulas, filas o unidades relacionadas | Saldo de comprobación | Restricción de columna | Vínculo a dimensiones financieras |
+| Código de fila | Descripción                                         | Código de formato | Fórmulas, filas o unidades relacionadas | Saldo normal | Restricción de columnas | Vínculo a dimensiones financieras |
 |----------|-----------------------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
 | 100      | Clasificado por la desviación mensual en orden ascendente       | DES         |                             |                |                    |                              |
-| 130      |                                                     | SORT        | 160:490                     |                | D                  |                              |
+| 130      |                                                     | ORD        | 160:490                     |                | D                  |                              |
 | 160      | Ventas                                               |             |                             | C              |                    | 4100                         |
 | 190      | Devoluciones de ventas                                       |             |                             |                |                    | 4110                         |
 |          | ...                                                 |             |                             |                |                    |                              |
-| 490      | Ingresos de interés                                     |             |                             | C              |                    | 7000                         |
+| 490      | Ingresos por intereses                                     |             |                             | C              |                    | 7000                         |
 | 520      |                                                     | DES         |                             |                |                    |                              |
-| 550      | Clasificado por la desviación del ejercicio a fecha en orden descendente | DES         |                             |                |                    |                              |
-| 580      |                                                     | ASORTDESC   | 610:940                     |                | G (Verde)                  |                              |
+| 550      | Ordenado por la varianza absoluta del año hasta la fecha en orden descendente | DES         |                             |                |                    |                              |
+| 580      |                                                     | ORDESCABS   | 610:940                     |                | G                  |                              |
 | 610      | Ventas                                               |             |                             | C              |                    | 4100                         |
 | 640      | Devoluciones de ventas                                       |             |                             |                |                    | 4110                         |
 |          | ...                                                 |             |                             |                |                    |                              |
@@ -270,9 +270,9 @@ La celda **Anulación de formato** especifica el formato que se usa para la fila
 
 ### <a name="currency-formatting"></a>Formato de divisa
 
-El formato de divisa se aplica a un importe fiscal e incluye el símbolo de la divisa. Están disponibles las siguientes opciones:
+El formato de divisa se aplica a un importe fiscal e incluye el símbolo de la divisa. Las opciones siguientes están disponibles:
 
--   **Símbolo de la divisa**: el símbolo de la divisa para el informe. Este valor anula la configuración **Opciones regionales** para la información de la empresa.
+-   **Símbolo de divisa**: el símbolo de divisa del informe. Este valor anula la configuración **Opciones regionales** para la información de la empresa.
 -   **Números negativos**: los números negativos pueden tener un signo menos (-), pueden aparecer entre paréntesis o pueden tener un triángulo (∆).
 -   **Decimales**: el número de dígitos a mostrar después del separador decimal.
 -   **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. 
@@ -365,7 +365,7 @@ Puede limitar una fila a un código existente del libro. La definición de la co
 > [!NOTE]
 > La restricción del código del libro para una fila anula las restricciones del código del libro en la definición de columna para dicha fila.
 
-### <a name="account-and-transaction-attributes"></a>Atributos de cuentas y de transacciones
+### <a name="account-and-transaction-attributes"></a>Atributos de cuenta y transacción
 
 Algunos sistemas contables admiten atributos de cuentas y atributos de transacción en los datos financieros. Estos atributos actúan como segmentos virtuales de la cuenta y pueden contener información adicional sobre la cuenta o la transacción. Esta información adicional podría ser identificadores de la cuenta, identificadores de lote, códigos postales u otro atributos. Si su sistema contable admite atributos, puede usar atributos de cuenta o atributos de transacción como modificadores de la fila en la definición de filas. Para obtener información sobre cómo anular la información de la fila, consulte la sección “Anulación de la definición de la columna” mendionada anteriormente en este artículo.
 
@@ -384,8 +384,8 @@ La celda **Vincular a las dimensiones financieras** contiene vínculos a los dat
 ### <a name="specify-a-dimension-or-range"></a>Especificar una dimensión o un intervalo
 
 1.  En el diseñador de informes, abra la definición de filas para modificarla.
-2.  Haga doble clic en una celda en la columna **Víncular a las dimensiones financieras**.
-3.  En el cuadro de diálogo **Dimensiones**, haga doble clic en una celda bajo el nombre de la dimensión.
+2.  Haga doble clic en una celda de la columna **Vínculo a dimensiones financieras**.
+3.  En el cuadro de diálogo **Dimensiones**, haga doble clic en una celda situada bajo el nombre de la dimensión.
 4.  En el cuadro de diálogo para la dimensión, seleccione **Individual o intervalo**.
 5.  En el campo **Desde**, escriba la dimensión de inicio o haga clic en ![Examinar](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Examinar") para buscar las dimensiones disponibles. Para especificar un intervalo de dimensiones, escriba la dimensión final en el campo **Hasta**.
 6.  Haga clic en **Aceptar** para cerrar el cuadro de diálogo de la dimensión. El cuadro de diálogo **Dimensiones** muestra la dimensión o el intervalo actualizados.
@@ -464,7 +464,7 @@ En la tabla siguiente se describen los campos del cuadro de diálogo **Dimension
 | Cuentas totales   | En el campo **Nombre**, escriba o busque una dimensión de las cuentas de balance. El campo **Fórmula** se rellena con la fórmula en la celda **Vínculo a las dimensiones financieras** para esta cuenta de balance en la definición del informe.                                                                       |
 
 ## <a name="add-dimension-value-sets-in-a-row-definition"></a>Agregar conjuntos de valores de dimensión en una definición de filas
-Un conjunto de valores de dimensión es un grupo con nombre de valores de dimensión. Un conjunto de valores de dimensión puede contener valores en una sola dimensión únicamente, pero puede usar un valor de dimensión establecido en las definiciones de varias filas, definiciones de columna, definiciones de organigrama y definiciones de informe. También puede combinar conjuntos de valores de dimensión en una definición del informe. Cuando un cambio en los datos financieros requiere que cambie el conjunto de valores de dimensión, puede actualizar la definición del conjunto de valores de dimensión, y esa actualización se aplicará a todas las áreas que usan el conjunto de valores de dimensión. Por ejemplo, si se indica a menudo un intervalo de valores para vincular a los datos financieros, como los valores de 5100 a 5600, puede asignar este intervalo a un conjunto de cuentas que se denomina Ventas. Tras crear un conjunto de valores de dimensión, puede seleccionar ese conjunto como su vínculo de datos financiera. Como otro ejemplo, si el intervalo de valores de 5100 a 5600 se asigna a las ventas y 4175 se asigna a los descuentos, puede determinar las ventas totales restando descuentos de ventas. Esta operación se indica como **(5100:5600)-4175**.
+Un conjunto de valores de dimensión es un grupo con nombre de valores de dimensión. Un conjunto de valores de dimensión puede contener valores en una sola dimensión únicamente, pero puede usar un valor de dimensión establecido en las definiciones de varias filas, definiciones de columna, definiciones de organigrama y definiciones de informe. También puede combinar conjuntos de valores de dimensión en una definición del informe. Cuando un cambio en los datos financieros requiere que cambie el conjunto de valores de dimensión, puede actualizar la definición del conjunto de valores de dimensión, y esa actualización se aplicará a todas las áreas que usan el conjunto de valores de dimensión. Por ejemplo, si se indica a menudo un intervalo de valores para vincular a los datos financieros, como los valores de 5100 a 5600, puede asignar este intervalo a un conjunto de cuentas que se denomina Ventas. Una vez creado el grupo de valores de dimensión, puede seleccionarlo como vínculo a datos financieros. En otro ejemplo, si el intervalo de valores de 5100 a 5600 asignado a Ventas y 4175 se asigna a Descuentos, puede determinar las ventas totales si resta Descuentos de Ventas. Esta operación se indica como **(5100:5600)-4175**.
 
 ### <a name="create-a-set-of-dimension-values"></a>Crear un conjunto de valores de dimensión
 
@@ -476,11 +476,11 @@ Un conjunto de valores de dimensión es un grupo con nombre de valores de dimens
 6.  En el cuadro de diálogo **Cuenta**, seleccione el nombre de la cuenta en la lista, o busque la entrada en el campo **Buscar**. A continuación, haga clic en **Aceptar**.
 7.  Repita los pasos 5 a 6 en la columna **Hasta** para diseñar una fórmula para dicho operador.
 8.  Cuando la fórmula se completa, haga clic en **Aceptar**.
-9.  En el cuadro de diálogo **Gestionar los conjuntos de dimensiones**, haga clic en **Cerrar**.
+9.  En el cuadro de diálogo **Administrar grupos de dimensiones**, haga clic en **Cerrar**.
 
-### <a name="update-a-set-of-dimension-values"></a>Actualizar un conjunto de valores de dimensión
+### <a name="update-a-set-of-dimension-values"></a>Actualizar un grupo de valores de dimensión
 
-1.  En el diseñador de informes, abra la definición de la fila, la columna o el organigrama para modificarlas.
+1.  En el Diseñador de informes, abra la definición de fila, columna u organigrama que desee modificar.
 2.  En el menú **Editar**, haga clic en **Administrar los conjuntos de valores de dimensión**.
 3.  En el cuadro de diálogo **Gestionar conjuntos de valores de dimensión**, en el campo **Dimensión**, seleccione el tipo de dimensión.
 4.  En la lista, seleccione el conjunto de valores de dimensión para actualizarlo, y haga clic en **Modificar**.
@@ -498,9 +498,9 @@ Un conjunto de valores de dimensión es un grupo con nombre de valores de dimens
 4.  En la lista, elija el conjunto que quiere copiar y haga clic en **Guardar como**.
 5.  Especifique un nombre nuevo para el conjunto copiado y después haga clic en **Aceptar**.
 
-### <a name="delete-a-dimension-set"></a>Eliminar un conjunto de dimensiones
+### <a name="delete-a-dimension-set"></a>Eliminar un grupo de dimensiones
 
-1.  En el diseñador de informes, abra la definición de la fila, la columna o el organigrama para modificarlas.
+1.  En el Diseñador de informes, abra la definición de fila, columna u organigrama que desee modificar.
 2.  En el menú **Editar**, haga clic en **Administrar los conjuntos de valores de dimensión**.
 3.  En el cuadro de diálogo **Gestionar conjuntos de valores de dimensión**, en el campo **Dimensión**, seleccione el tipo de dimensión.
 4.  Seleccione el conjunto que desee eliminar y, a continuación, haga clic en **Eliminar**. Haga clic en **Sí** para eliminar permanentemente el conjunto de valores de dimensión.

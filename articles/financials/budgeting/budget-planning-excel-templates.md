@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -133,7 +133,7 @@ Haga clic en la flecha para un menú adicional. Seleccione **Bloquear**.
 
 Sí, la mayoría de las capacidades estándar de Excel funcionarán en las plantillas de plan presupuestario. Recomendamos usar la codificación de color para que los usuarios distingan entre las columnas de solo lectura y las editables. El formato condicional se puede usar para resaltar las áreas problemáticas del presupuesto. Los totales de las columnas se pueden mostrar con facilidad mediante las fórmulas estándar de Excel sobre la tabla.
 
-También puede crear y usar las tablas dinámicas y gráficos para agrupaciones adicionales y visualizaciones de los datos presupuestarios. En la ficha **Datos**, en el grupo **Conexiones**, haga clic en **Actualizar todo** y, a continuación, en **Propiedades de conexión**. Haga clic ne la ficha **Uso**. En **Actualización**, seleccione la casilla de verificación **Actualizar datos al abrir el archivo**. 
+También puede crear y usar las tablas dinámicas y gráficos para agrupaciones adicionales y visualizaciones de los datos presupuestarios. En la ficha **Datos**, en el grupo **Conexiones**, haga clic en **Actualizar todo** y, a continuación, en **Propiedades de conexión**. Haga clic en la pestaña **Uso**. En **Actualización**, seleccione la casilla **Actualizar datos al abrir el archivo**. 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
 

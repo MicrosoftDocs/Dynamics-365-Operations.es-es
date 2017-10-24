@@ -1,7 +1,7 @@
 ---
 title: Moviendo mensaje
 description: 
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0018f5df3d0d2882c300b6458bfb8adfba84e2ad
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 A continuación se indican requisitos previos para usar el coste de media móvil como método de gestión de costes.
 1.  En la página **Grupos de modelos de artículo**, configure un grupo de modelos de artículos con Media móvil seleccionado en el campo **Modelo de inventario**. **Nota:** De forma predeterminada, cuando se selecciona Media móvil, también se seleccionan los campos **Registrar inventario físico** y **Registrar inventario financiero**. 
 
-2.  En la página **Registro**, asigne cuentas a las cuentas **Diferencia de precios para la media móvil** y **Revalorización de costes para la media móvil** en la ficha **Inventario**. La cuenta **Diferencia de precios para la media móvil** se usa cuando el coste se ha contabilizado proporcionalmente. Esto ocurre debido a una diferencia de coste entre un recibo de compra y la factura de compra y a una diferencia entre la cantidad de inventario original y la cantidad disponible actual. Use la cuenta **Revalorización de costes para la media móvil** cuando quiera ajustar el coste de media móvil de un producto a un nuevo precio unitario.
+2.  En la página **Registro**, asigne cuentas a las cuentas **Diferencia de precios para la media móvil** y **Revalorización de costes para la media móvil** en la pestaña **Inventario**. Use la cuenta **Diferencia de precios para la media móvil** cuando el coste se contabilice como gasto de forma proporcional. Esto ocurre debido a una diferencia de coste entre un recibo de compra y la factura de compra y a una diferencia entre la cantidad de inventario original y la cantidad disponible actual. Use la cuenta **Revalorización de costes para la media móvil** cuando quiera ajustar el coste de media móvil de un producto a un nuevo precio unitario.
 3.  En la página **Productos emitidos**, asigne el grupo de modelos de producto de media móvil al producto. **Nota:** El proceso de cierre de inventario solo cierra el período contable. No afecta a los productos que tienen asignada la media móvil como grupo de modelos de producto.
 
 ## <a name="convert-to-the-moving-average-costing-method"></a>Conversión al método de gestión de costes de media móvil

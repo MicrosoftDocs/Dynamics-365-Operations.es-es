@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9c0ae4ed27578301573bead17ff2175bb9042036
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -131,7 +130,7 @@ La función **Copiar al escenario** proporciona esta característica. Tenga en c
 
 ### <a name="modifying-forecast-positions"></a>Modificar puestos de previsión
 
-Los cambios realizados en los puestos de previsión se limitan a dichos puestos de previsión. Los cambios no afectan a los registros de puestos en recursos humanos. La mayoría de los cambios también se limita al puesto de previsión que se está editando. Es decir, los cambios son específicos al proceso de planificación presupuestaria y al escenario del plan de presupuesto que tienen asignados. Las excepciones son los cambios en los campos que se comparten para el puesto en los procesos y las situaciones. Estos campos incluyen los campos de las fichas **General** y **Dimensiones financieras**. Cuando se modifican estos campos, los nuevos valores se aplican al puesto en todas las situaciones de planificación presupuestaria. Por lo tanto, estos campos permiten rápidamente actualizar todas sus versiones.
+Los cambios realizados en los puestos de previsión se limitan a dichos puestos de previsión. Los cambios no afectan a los registros de puestos en recursos humanos. La mayoría de los cambios también se limita al puesto de previsión que se está editando. Es decir, los cambios son específicos al proceso de planificación presupuestaria y al escenario del plan de presupuesto que tienen asignados. Las excepciones son los cambios en los campos que se comparten para el puesto en los procesos y las situaciones. Estos campos incluyen los campos en la pestaña **General** y la pestaña **Dimensiones financieras**. Cuando se cambian estos campos, los nuevos valores se aplican a la posición en todos los escenarios de planificación de presupuesto. Por lo tanto, estos campos permiten rápidamente actualizar todas sus versiones.
 
 #### <a name="budget-cost-elements"></a>Elementos de coste presupuestario
 

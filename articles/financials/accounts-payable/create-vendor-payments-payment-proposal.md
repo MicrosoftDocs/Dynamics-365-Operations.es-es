@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: aac70abc25c45ef4479425cdb648f4450d5db2dc
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e8afadb83ac60f51ba7a9bcdd0fd184058ba1ef9
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ Este tema proporciona una visión general de las opciones de propuesta de pago e
 
 Las empresas a menudo usan propuestas de pago para crear pagos de proveedor, ya que se puede usar la consulta asociada a la propuesta de pago para seleccionar rápidamente facturas de proveedor para realizar el pago, en función de la fecha de vencimiento, el descuento por pronto pago y otros criterios. 
 
-La consulta de la propuesta de pago contiene diferentes fichas, cada una con varias opciones para seleccionar facturas que pagar. La pestaña **Parámetro** incluye las opciones que usan la mayoría de las organizaciones. En la pestaña desplegable **Registros que incluir**, puede especificar qué facturas o proveedores incluir en el pago definiendo intervalos para diversas características. Por ejemplo, si desea pagar solo un intervalo específico de proveedores, puede definir un filtro para el intervalo de proveedores. Esta función a menudo se usa para seleccionar facturas para un método de pago determinado. Por ejemplo, si define un filtro donde **Método de pago** es **Cheque**, solo se seleccionan para pagarse las facturas que tengan esa forma de pago, siempre que también se cumplan otros criterios especificados en la consulta. La ficha **Parámetros avanzados** incluye opciones adicionales, algunas de las cuales pueden no ser relevantes para su organización. Por ejemplo, esta ficha contiene las opciones para pagar facturas de pagos centralizados.
+La consulta de la propuesta de pago contiene diferentes fichas, cada una con varias opciones para seleccionar facturas que pagar. La pestaña **Parámetro** incluye las opciones que usan la mayoría de las organizaciones. En la pestaña desplegable **Registros que incluir**, puede especificar qué facturas o proveedores incluir en el pago definiendo intervalos para diversas características. Por ejemplo, si desea pagar solo un intervalo específico de proveedores, puede definir un filtro para el intervalo de proveedores. Esta función a menudo se usa para seleccionar facturas para un método de pago determinado. Por ejemplo, si define un filtro donde **Método de pago** = **Cheque**, solo se seleccionan para pagarse las facturas que tengan esa forma de pago, siempre que también se cumplan otros criterios especificados en la consulta. La ficha **Parámetros avanzados** incluye opciones adicionales, algunas de las cuales pueden no ser relevantes para su organización. Por ejemplo, esta ficha contiene las opciones para pagar facturas de pagos centralizados.
 
 ## <a name="parameters"></a>Parámetros
 -   **Seleccionar facturas por**: las facturas dentro del intervalo de fechas especificado por los campos **Fecha inicial** y **Fecha final** se pueden seleccionar por fecha de vencimiento, fecha de descuento por pronto pago o ambas. Si usa la fecha de descuento por pronto pago, el sistema busca primero facturas con una fecha de descuento por pronto pago entre la fecha inicial y la fecha final. El sistema a continuación determina si la factura puede optar al descuento por pronto pago mediante la fecha de la sesión para asegurarse de que la fecha de descuento por pronto pago no haya pasado ya.

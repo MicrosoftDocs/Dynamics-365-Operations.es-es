@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: YuyuScheller
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 74a3033ffbdba2efc6c5ecd6c55019898751a146
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 111ebf578e455408c5b6168e5a7af705f3624d78
 ms.contentlocale: es-es
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -209,7 +209,7 @@ Puede usar la entidad de datos de medidas estadísticas importada para importar 
 | Fecha contable | Miembro de dimensión | Magnitud | Identificador de origen |
 |-----------------|------------------|-----------|-------------------|
 | 31-01-2017      | CC001            | 2,450.00  | Electricidad       |
-| 31-01-2017      | CC002            | 4,100.00  | Electricidad       |
+| 31/1/17      | CC002            | 4,100.00  | Electricidad       |
 | 31-01-2017      | CC003            | 15.000,00 | Electricidad       |
 
 Una vez se hayan procesado los datos de origen de la medida estadística, las entradas siguientes se crearán en la contabilidad de costes.
@@ -218,8 +218,8 @@ Una vez se hayan procesado los datos de origen de la medida estadística, las en
 
 | Objeto de coste |    | Fecha contable | Miembro de dimensión estadística |    Descripción          | Magnitud |
 |-------------|----|-----------------|------------------------------|-------------------------|-----------|
-| CC001       | RR. HH. | 31-01-2017      | Electricidad                  | Consumo de electricidad | 2,450.00  |
-| CC002       | FI | 31-01-2017      | Electricidad                  | Consumo de electricidad | 4,100.00  |
+| CC001       | RR. HH. | 31/1/17      | Electricidad                  | Consumo de electricidad | 2,450.00  |
+| CC002       | FI | 31/1/17      | Electricidad                  | Consumo de electricidad | 4,100.00  |
 | CC003       | TI | 31-01-2017      | Electricidad                  | Consumo de electricidad | 15.000,00 |
 
 A continuación se muestra un ejemplo de una regla de distribución de costes cuando la base de asignación de miembro de la dimensión predefinida de electricidad se asigna a la base de asignación que contiene.
@@ -319,8 +319,8 @@ La base de asignación de miembro de la dimensión predefinida de electricidad y
 
 | Objeto de coste | Nombre | Fecha contable | Miembro de dimensión estadística | Descripción             | Magnitud |
 |-------------|------|-----------------|------------------------------|-------------------------|-----------|
-| CC001       | RR. HH.   | 31-01-2017      | Electricidad                  | Consumo de electricidad | 2,450.00  |
-| CC002       | FI   | 31-01-2017      | Electricidad                  | Consumo de electricidad | 4,100.00  |
+| CC001       | RR. HH.   | 31/1/17      | Electricidad                  | Consumo de electricidad | 2,450.00  |
+| CC002       | FI   | 31/1/17      | Electricidad                  | Consumo de electricidad | 4,100.00  |
 | CC003       | TI   | 31-01-2017      | Electricidad                  | Consumo de electricidad | 15.000,00 |
 
 Si la cuota fija se debe expandir ahora de forma uniforme sobre los objetos que consumen la electricidad, tiene dos opciones para asignar los costes:

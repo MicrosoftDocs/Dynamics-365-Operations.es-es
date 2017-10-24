@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 0bbf8f979aeb8b861164e345f9e46bb396f370ce
 ms.contentlocale: es-es
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +41,7 @@ Debe seleccionar una programación de cierre en la parte superior del espacio de
 
 ### <a name="summary-tiles"></a>Iconos de resumen
 
-Los iconos de **Resumen** proporcionan una visión general del proceso y los indicadores le ayudan a controlar el proceso de cierre. Puede ver las tareas vencidas, restantes del día actual, las tareas que vencen hoy pero que están bloqueadas debido a dependencias, y todas las tareas restantes del proceso. Esta información se muestra para todas las empresas incluidas en la programación de cierre seleccionada.
+Los iconos de **Resumen** le ofrecen una visión general del proceso y los indicadores le ayudarán a realizar el seguimiento del proceso de cierre. Puede ver las tareas vencidas, las restantes del día, las tareas que vencen hoy pero que está bloqueadas debido a las dependencias y todas las tareas restantes del proceso. Esta información se muestra para todas las empresas incluidas en la programación de cierre seleccionada.
 
 ### <a name="tasks-and-status-section"></a>Sección Tareas y estados
 
@@ -82,7 +81,7 @@ Las áreas de tareas se usan para agrupar las tareas de cierre en áreas lógica
 
 ### <a name="calendars"></a>Calendarios
 
-Crear y editar calendarios de cierre financiero usando la ficha Calendarios.  Aquí es donde se definirán los días laborables para los procesos de cierre, y se usará para programar tareas de cierre.  Cree un calendario nuevo e indique los días laborables que se utilizarán para la programación de tarea.  Es lo mejor para crear un calendario para un período largo de tiempo, como un año o varios años, ya que se puede editar después de su creación.  Después de crear el calendario, haga clic en el botón Editar para actualizar el calendario en días específicos, como festivos.  Las siguientes tareas de cierre se programarán los días en que el valor de Control se haya establecido en Abierto.  Si las siguientes tareas de cierre no se deben programar en un día concreto, ese día debe tener el valor de Control establecido en Cerrado.
+Para crear y editar calendarios de cierre financiero use la pestaña Calendario. En esta pestaña, defina los días laborables para procesos de cierre y úsela también para programar tareas de cierre de programación.  Cree un calendario nuevo e indique los días laborables que se utilizarán para la programación de tarea.  Es lo mejor para crear un calendario para un período largo de tiempo, como un año o varios años, ya que se puede editar después de su creación.  Después de crear el calendario, haga clic en el botón Editar para actualizar el calendario en días específicos, como festivos.  Las siguientes tareas de cierre se programarán los días en que el valor de Control se haya establecido en Abierto.  Si las siguientes tareas de cierre no se deben programar en un día concreto, ese día debe tener el valor de Control establecido en Cerrado.
 
 ### <a name="templates"></a>Plantillas
 
