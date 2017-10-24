@@ -16,13 +16,13 @@ ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: aaacf596f2ea1107a53647d779e9d2b6c37ab530
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -48,7 +48,7 @@ La siguiente información describe cómo configurar las transacciones de adquisi
     -   El libro de contabilidad: MV 1, capa de registro actual
     -   El libro con fines tributarios: MV 2, capa de registro de impuestos
 
-2.  En el MV 1, haga clic en la ficha de Libros derivados. Seleccione MV 2 en el campo Modelo de valor y Adquisición en el campo Tipo de transacción.
+2.  En el MV 1, haga clic en la ficha de libros derivados y seleccione MV 2 en el campo Libro y Adquisición en el campo Tipo de transacción.
 
 A continuación, los libros se podrán vincular a activos fijos concretos. 
 

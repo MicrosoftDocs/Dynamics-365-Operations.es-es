@@ -16,13 +16,13 @@ ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 86b527b72ef0c9af71e70fe280bcdfe3992a36b1
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 96090a3ae15294d98d6207c8eb4a1e58429ca9eb
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Este artículo proporciona información acerca de las definiciones de informes. Una definición del informe es un componente de informe (o un bloque de creación) que utiliza una definición de filas, una definición de columnas y una definición opcional del organigrama para crear un informe. Una definición de informe también proporciona opciones y ajustes para personalizar un informe. 
 
-Una definición del informe es un componente de informe (o un bloque de creación) que utiliza una definición de filas, una definición de columnas y una definición opcional del organigrama para crear un informe. Una definición de informe también proporciona opciones y configuración adicionales que puede usar para personalizar un informe. Después de definir definiciones de filas y de columnas, debe combinarlas en una definición del informe. En este momento, también define otros aspectos de las definiciones, como el nivel de detalle y la fecha del informe. Después, puede guardar y generar un informe. Los informes financieros ofrecen los niveles de detalle siguientes:
+Una definición del informe es un componente de informe (o un bloque de creación) que utiliza una definición de filas, una definición de columnas y una definición opcional del organigrama para crear un informe. Una definición de informe también proporciona opciones y valores de configuración que puede usar para personalizar un informe. Después de definir definiciones de filas y de columnas, debe combinarlas en una definición del informe. En este momento, también define otros aspectos de las definiciones, como el nivel de detalle y la fecha del informe. Después, puede guardar y generar un informe. Los informes financieros ofrecen los niveles de detalle siguientes:
 
 -   Financiero
 -   Financiero y contable
@@ -55,7 +55,7 @@ La siguiente tabla describe las pestañas en una definición del informe y cómo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tabulación</th>
+<th>Pestaña</th>
 <th>Descripción</th>
 </tr>
 </thead>

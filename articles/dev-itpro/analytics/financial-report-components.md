@@ -16,13 +16,13 @@ ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 5c09b1fc061f95cd78e9f18c2bdf846fdbfc7cf1
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 074a2f377c16d47e95343dae3ebec6cbba4d5050
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -71,7 +71,7 @@ Los bloques de creación son las definiciones de la filas, las definiciones de l
 ### <a name="create-a-building-block-group"></a>Crear un grupo de bloques de creación
 
 1.  En el diseñador de informes, en el menú **Empresa**, haga clic en **Grupos de bloques de creación**.
-2.  En el cuadro de diálogo **Grupos de bloque de creación**, haga clic en **Nuevo**.
+2.  En el cuadro de diálogo **Grupos de bloques de creación**, haga clic en **Nuevo**.
 3.  Escriba un nombre y una descripción únicos para el grupo de bloques de creación. Cada campo puede contener un máximo de 256 caracteres. (Este número incluye espacios).
 4.  Haga clic en **Aceptar** para crear el nuevo grupo de bloques de creación.
 
@@ -79,7 +79,7 @@ Los bloques de creación son las definiciones de la filas, las definiciones de l
 
 Después de crear un grupo de bloques, debe asignarlo al menos a una empresa. Luego puede crear las definiciones del informe, fila, columna y organigrama y guardarlas en el grupo de bloques de creación. Debe cerrar todos los bloques de creación antes de comenzar el siguiente procedimiento.
 1.  En el diseñador de informes, en el menú **Empresa**, haga clic en **Empresas**.
-2.  En el cuadro de diálogo **Empresas**, seleccione la empresa a la que asignar un grupo de bloques de creación.
+2.  En el cuadro de diálogo **Compañías**, seleccione la compañía a la que desee asignar un grupo de bloques de creación.
 3.  Haga clic en **Modificar**.
 4.  En el cuadro de diálogo **Modificar empresa**, en el campo **Grupo de bloques de creación**, seleccione el grupo de bloques de creación que desea asignar a la empresa, o haga clic en **Nuevo** para crear un nuevo grupo de bloques de creación.
 5.  Haga clic en **Aceptar** para asignar el nuevo grupo de bloques de creación.
@@ -96,7 +96,7 @@ Tras la creación y el uso de un grupo de bloques de creación, puede ver todos 
 ### <a name="save-a-building-block-group-under-a-new-name"></a>Guardar un grupo de bloques de creación con un nuevo nombre
 
 Puede guardar un grupo de bloques de creación existente con un nuevo nombre. Después puede modificar el nuevo grupo de bloques de creación sin cambiar el grupo de bloques de creación original.
-1.  En el diseñador de informes, en el menú **Empresa**, haga clic en **Grupos de bloques de creación**.
+1.  En el Diseñador de Informes, en el menú **Compañía**, haga clic en **Grupos de bloques de creación**.
 2.  En el cuadro de diálogo **Grupos de bloques de creación**, seleccione el grupo de bloques de creación que desea guardar con un nuevo nombre.
 3.  Haga clic en **Guardar como**.
 4.  Escriba un nombre y una descripción nuevos para el grupo de bloques de creación.
@@ -104,12 +104,12 @@ Puede guardar un grupo de bloques de creación existente con un nuevo nombre. De
 
 ### <a name="export-a-building-block-group"></a> Exportar un grupo de bloques de creación
 
-Puede exportar un grupo de bloques de creación o bloques de creación de informes específicos en un grupo de bloques de creación. Puede utilizar el grupo de bloque de creación exportado como una copia de seguridad. También puede copiar los datos exportados entre los grupos de bloques de creación o las instalaciones de Finance and Operations. El diseñador de informes incluye los conjuntos de dimensiones y los estilos de fuente a los que se hace referencia junto con el grupo de bloques de creación.
+Puede exportar un grupo de bloques de creación o bloques de creación de informe a un grupo de bloques de creación. Puede usar el grupo de bloques de creación exportado como copia de seguridad. También puede copiar los datos exportados entre los grupos de bloques de creación o las instalaciones de Finance and Operations. El diseñador de informes incluye los conjuntos de dimensiones y los estilos de fuente a los que se hace referencia junto con el grupo de bloques de creación.
 1.  En el diseñador de informes, en el menú **Empresa**, haga clic en **Grupos de bloques de creación**.
-2.  En el cuadro de diálogo **Grupos de bloques de creación**, seleccione el grupo de bloques de creación que desea exportar y luego haga clic en **Exportar**.
+2.  En el cuadro de diálogo **Grupos de bloques de creación**, seleccione el grupo de bloques de creación que se va a exportar y, a continuación, haga clic en **Exportar**.
 3.  En el cuadro de diálogo **Exportar**, seleccione las definiciones del informe que desea exportar:
     -   Para exportar todas las definiciones de informes y los loques de creación asociados, haga clic en **Seleccionar todo**.
-    -   Para exportar informes, filas, columnas, organigramas o conjuntos de dimensiones específicos, haga clic en la pestaña apropiada y, a continuación, seleccione los artículos que se exportarán. Mantenga presionada la tecla CTRL para seleccionar varios elementos de una pestaña. **Nota**: Cuando selecciona informes para exportar, se seleccionan las filas, columnas, organigramas y conjuntos de dimensión asociados.
+    -   Para exportar informes, filas, columnas, organigramas o conjuntos de dimensiones específicos, haga clic en la pestaña apropiada y, a continuación, seleccione los artículos que se exportarán. Mantenga presionada la tecla Ctrl para seleccionar varios artículos en una pestaña. **Nota:** al seleccionar los informes para exportar, las filas, columnas, árboles y conjuntos de dimensiones asociados se seleccionan también.
 
 4.  Cuando haya terminado de seleccionar artículos para exportar, haga clic en **Exportar**.
 5.  En el cuadro de diálogo **Guardar como**, seleccione una ubicación a la que desea exportar el grupo de bloques de creación.
@@ -120,8 +120,8 @@ Puede exportar un grupo de bloques de creación o bloques de creación de inform
 
 Puede importar un grupo de bloques de creación en un grupo de bloques de creación existente o puede crear un nuevo grupo de bloques de creación para los datos. Todos los grupos de bloques de creación conservan sus referencias de empresa y estilos de fuente originales e incluyen los conjuntos de dimensiones pertinentes.
 1.  En el diseñador de informes, en el menú **Empresa**, haga clic en **Grupos de bloques de creación**.
-2.  En el cuadro de diálogo **Grupos de bloques de creación**, seleccione el grupo de bloques de creación al que desea importar un grupo de bloques de creación y luego haga clic en **Importar**.
-3.  En el cuadro de diálogo **Abrir**, seleccione el grupo de bloques de creación que desea importar y luego haga clic en **Abrir**.
+2.  En el cuadro de diálogo **Grupos de bloques de creación**, seleccione el grupo en el que desea importar un grupo de bloques de creación y haga clic en **Importar**.
+3.  En el cuadro de diálogo **Abrir**, seleccione el grupo de bloques de creación que se debe importar y haga clic en **Abrir**.
 4.  En el cuadro de diálogo **Importar**, seleccione las definiciones del informe que desea importar:
     -   Para importar todas las definiciones de informes y los bloques de creación asociados, haga clic en **Seleccionar todo**.
     -   Para importar informes, filas, columnas, organigramas o conjuntos de dimensiones específicos, seleccione los informes, filas, columnas, orgnaigramas o conjuntos de dimensiones que desea importar.
@@ -130,9 +130,9 @@ Puede importar un grupo de bloques de creación en un grupo de bloques de creaci
 
 ### <a name="undo-a-checkout-of-a-building-block"></a>Deshacer una desprotección de un bloque de creación
 
-Cuando abre un bloque de creación, otros usuarios tienen acceso de solo lectura a ese bloque de creación. A veces, los usuarios se olvidan de cerrar un bloque de creación o apagan el sistema sin cerrar el bloque de creación. Por tanto, el bloque de creación permanece desprotegido y ningún otro usuario puede abrirlo. En estos casos, un administrador de informes financieros puede usar el cuadro de diálogo **Elementos desprotegidos** para proteger los bloques de creación que los usuarios hayan dejado desprotegidos. **Nota**: Debe tener el rol de administrador para proteger los bloques de creación con el cuadro de diálogo **Elementos desprotegidos**.
+Cuando abre un bloque de creación, otros usuarios tienen acceso de solo lectura a ese bloque de creación. A veces, los usuarios se olvidan de cerrar un bloque de creación o apagan el sistema sin cerrar el bloque de creación. Por tanto, el bloque de creación permanece desprotegido y ningún otro usuario puede abrirlo. En estos casos, un administrador de informe financiero puede utilizar el cuadro de diálogo **Elementos desprotegidos** en los bloques de creación que los usuarios hayan dejado sin proteger. **Nota:** debe tener el rol de administrador para proteger los bloques de creación mediante el cuadro de diálogo **Elementos desprotegidos**.
 1.  En el diseñador de informes, en el menú **Herramientas**, haga clic en **Elementos desprotegidos**.
-2.  En el cuadro de diálogo **Elementos desprotegidos**, seleccione **Mostrar elementos de todos los usuarios**. La lista se actualizará para mostrar todos los bloques de creación que están desprotegidos y a los usuarios que los han desprotegido.
+2.  En el cuadro **Elementos desprotegidos**, active la casilla **Mostrar elementos de todos los usuarios**. La lista se actualiza para mostrar todos los bloques de creación desprotegidos y los usuarios que los hayan desprotegido.
 3.  Seleccione un bloque de creación y haga clic en **Deshacer desprotección**.
 4.  Haga clic en **Sí** para proteger el bloque de creación.
 

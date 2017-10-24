@@ -15,13 +15,13 @@ ms.custom: 195583
 ms.assetid: 836ddd01-cc34-45c3-a4b0-20647357dbc6
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 138cf8d60f5a6e1ec1e46837a516e981c8ff4c19
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 4d57e47fe7f38a43ecfdfbdd701d7e6a7d7800d6
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -61,7 +61,7 @@ Configure los elementos que arrastró al lienzo. Para obtener más información 
 -   [Configuración de una tarea manual](configure-manual-task-workflow.md)
 -   [Configuración de una tarea automatizada](configure-automated-task-workflow.md)
 -   [Configuración de un proceso de aprobación](configure-approval-process-workflow.md)
--   [Configuración de un paso de aprobación](configure-approval-step-workflow.md)
+-   [Configurar un paso de aprobación](configure-approval-step-workflow.md)
 -   [Configuración de una decisión manual](configure-manual-decision-workflow.md)
 -   [Configuración de una decisión condicional](configure-conditional-decision-workflow.md)
 -   [Configuración de una actividad paralela](configure-parallel-activity-workflow.md)

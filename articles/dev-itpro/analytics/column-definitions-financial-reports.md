@@ -16,13 +16,13 @@ ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: d976988a599f65de9957c53a2d149576a1a11d83
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 924177f4974358d2283dfd46306d663c27ccd87b
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -57,8 +57,8 @@ Una definición de columna puede contener de dos a 255 columnas.
 
 ### <a name="delete-a-column-from-a-column-definition"></a>Eliminar una columna de una definición de columna
 
-1.  En el diseñador del informes, haga clic en **Definiciones de columnas** y después abra la definición de columna para modificarla.
-2.  Seleccione la columna que desea eliminar.
+1.  En el Diseñador de informes, haga clic en **Definiciones de columnas** y abra la definición de columna que desee modificar.
+2.  Seleccione la columna que se debe eliminar.
 3.  En el menú **Editar**, haga clic en **Eliminar columna**.
 
 ## <a name="contents-of-a-column-definition"></a>Contenido de una definición de columna
@@ -71,7 +71,7 @@ Una definición de columna incluye la información siguiente:
 
 Esta información aparece en las siguientes áreas en la definición de la columna:
 
--   El área de los encabezados de la definición de la columna contiene el texto y el formato de encabezado que aparece en el informe. Un encabezado se puede aplicar a una columna única de datos, puede abarcar varias columnas o se puede aplicar a las columnas en función condicional. La definición de la columna puede incluir tantas filas de cabecera de la columna como sea necesario. **Nota:** Los encabezados de columna se aplican a cada columna de datos del informe. Los encabezados de informes se aplican a todo el informe. Defina los encabezados de informes en la pestaña **Encabezados y pies de página** de la definición del informe.
+-   El área de los encabezados de la definición de la columna contiene el texto y el formato de encabezado que aparece en el informe. Un encabezado puede aplicarse a una sola columna de datos, puede extenderse en varias columnas o puede aplicarse a columnas de manera condicional. La definición de columna puede incluir el número de filas de encabezado de columna según sea necesario. **Nota:** Los encabezados de columna se aplican a cada columna de datos del informe. Los encabezados de informes se aplican a todo el informe. Defina los encabezados de informes en la pestaña **Encabezados y pies de página** de la definición del informe.
 -   Las filas de detalle de la columna son las filas debajo de las filas de encabezado en la definición de la columna. Las filas de detalle de la columna definen la información que se incluyen en el informe. En la siguiente tabla se muestran y describen las filas de detalle de la columna.
 
     | Nombre de la fila de detalle de la columna                                                | Descripción                                                                                            |
@@ -182,7 +182,7 @@ El diseñador de informes puede generar automáticamente encabezados de columna,
 
 ### <a name="create-a-conditional-spanning-header"></a>Crear un encabezado de extensión condicional
 
-Los encabezados de extensión condicionales pueden incluir varias columnas que se basan en datos específicos del período. Por ejemplo, si tiene un informe de presupuesto para el ejercicio y desea mostrar los presupuestos reales de pasados meses junto con los presupuestos proyectados de los meses futuros, puede usar un encabezado de extensión condicional para actualizar automáticamente el encabezado del informe. Tenga en cuenta las siguientes situaciones cuando se crea un encabezado de extensión condicional:
+Los encabezados de extensión condicionales pueden incluir varias columnas que se basan en datos específicos del período. Por ejemplo, si tiene un informe de presupuesto para el ejercicio y desea mostrar los presupuestos reales de pasados meses junto con los presupuestos proyectados de los meses futuros, puede usar un encabezado de extensión condicional para actualizar automáticamente el encabezado del informe. Tenga en cuenta las situaciones siguientes al crear un encabezado de expansión condicional:
 
 -   Cualquier condición de detención (campo **Extensión hasta**) que coincida antes de que comience una condición de inicio (campo **Extensión desde**). Por ejemplo, la columna B tiene la condición de la extensión definida como BASE+1 a BASE, BASE se encuentra en la columna C, y BASE+1 se encuentra en la columna D. En este caso, la condición de detención en la columna C se ignora, y la impresión del encabezado comienza en la columna D.
 -   Si especifica los encabezados de columna que se superponen, se superponen cuando se imprimen en el informe. Se genera el informe, pero la advertencia siguiente aparece en el campo **Estado de la cola del informe**: “Los encabezados de columna que usan Base se entrecruzan con otros encabezados de columna y pueden provocar texto entrecruzado.” Por ejemplo, la definición de cabecera en la columna B es B a BASE+1, y la definición de cabecera en la columna D es BASE+1 a F. En este caso, los encabezados se imprimen uno encima de otro y son ilegibles. Siempre que BASE se use en una definición **Extensión desde/Extensión hasta**, asegúrese de ver el informe que se genera, para ver si los encabezados se superponen.
@@ -209,10 +209,10 @@ Fátima está creando un informe para una previsión de seis meses dinámica. El
 | Encabezado 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
 | Encabezado 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
 | Tipo de columna         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
-| Código de libro/Atributo |      | REAL        | BUDGET2012    | REAL        | BUDGET2012    | REAL        | BUDGET2012    | REAL        | BUDGET2012    | REAL        | BUDGET2012    | REAL        | BUDGET2012    |
-| Ejercicio         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
-| Periodo              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
-| Período de cobertura     |      | PERIÓDICO      | PERIÓDICO      | PERIÓDICO      | PERIÓDICO      | PERIÓDICO      | PERIÓDICO      | PERIÓDICO      | PERIÓDICO      | PERIÓDICO      | PERIÓDICO      | PERIÓDICO      | PERIÓDICO      |
+| Código de libro/Atributo |      | REAL        | PRESUPUESTO2012    | REAL        | PRESUPUESTO2012    | REAL        | PRESUPUESTO2012    | REAL        | PRESUPUESTO2012    | REAL        | PRESUPUESTO2012    | REAL        | PRESUPUESTO2012    |
+| Año fiscal         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
+| Período              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
+| Períodos cubiertos     |      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      |
 | Ancho de columna        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Control de impresión       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
@@ -282,10 +282,10 @@ La celda **Espacios adicionales antes de la columna** especifica la anchura del 
 
 La celda **Anulación de formato o de divisa** especifica el formato de decimal, divisa e importes de porcentaje de la columna. Este formato reemplaza el formato que se especifica en la definición del informe o valores predeterminados del sistema.
 
-#### <a name="assign-a-format-currency-override-to-a-report-column"></a>Asignar una anulación del formato de la divisa a una columna del informe
+#### <a name="assign-a-format-currency-override-to-a-report-column"></a>Asignar un reemplazo de divisa de formato a una columna de informe
 
-1.  En el diseñador de informes, abra la definición de la columna para modificarla.
-2.  Haga doble clic en la celda **Anulación de formato o de divisa** en un importe de la columna.
+1.  En el Diseñador de informes, abra la definición de columna que desee modificar.
+2.  Haga doble clic en una celda **Reemplazo de formato o de divisa** en una columna de importe.
 3.  En el cuadro de diálogo **Anulación de formato**, seleccione las opciones de formato.
 
 ### <a name="add-a-print-control-code"></a>Agregar un código de control de impresión
@@ -317,10 +317,10 @@ La celda **Control de impresión** puede contener los códigos que ajustan la vi
 
 #### <a name="add-print-control-codes-to-a-report-column"></a>Agregar los códigos de control de impresión a una columna del informe
 
-1.  En el diseñador de informes, abra la definición de la columna para modificarla.
+1.  En el Diseñador de informes, abra la definición de columna que desee modificar.
 2.  Haga doble clic en la celda **Control de impresión**.
 3.  En el cuadro de diálogo **Control de impresión** seleccione un código de la lista **Seleccionar las opciones de control de impresión**. Para seleccionar más de un código, mantenga presionada la tecla Ctrl mientras selecciona los códigos.
-4.  Seleccione una opción en el campo **Opciones de impresión condicional**. De forma predeterminada, **(ninguno)** está seleccionado. Solo puede seleccionar un código de impresión condicional cada vez.
+4.  Seleccione una opción en el campo **Opciones de impresión condicional**. De forma predeterminada, la opción **(ninguno)** está seleccionada. Solo puede seleccionar un código de impresión condicional cada vez.
 5.  Haga clic en **Aceptar**.
 
 > [!TIP]
@@ -349,12 +349,12 @@ El tipo de información que cada columna en un informe incluye se especifica con
     <tbody>
     <tr class="odd">
     <td>FD</td>
-    <td>Visualizar datos financieros o datos de una hoja de cálculo de Excel al usar una columna de <strong>Vínculo a las dimensiones financieras</strong> o <strong>Vínculo a la hoja de cálculo</strong> en la definición de filas. Cuando selecciona el tipo de columna <strong>FD</strong>, los parámetros predeterminados se especifican automáticamente para las filas siguientes: <ul>
-    <li><strong>Código de libro/Categoría de atributo:</strong> REAL</li>
-    <li><strong>Código de libro/Categoría de atributo:</strong> REAL</li>
-    <li><strong>Ejercicio:</strong> BASE</li>
+    <td>Muestra datos financieros o de una hoja de cálculo de Excel cuando usa una columna <strong>Vínculo a dimensiones financieras</strong> o <strong>Vínculo a hoja de cálculo</strong> en la definición de fila. Si selecciona el tipo de columna <strong>FD</strong>, se especifica automáticamente la configuración predeterminada para las filas siguientes: <ul>
+    <li><strong>Código del libro/Categoría de atributo:</strong> REAL</li>
+    <li><strong>Código del libro/Categoría de atributo:</strong> REAL</li>
+    <li><strong>Año fiscal:</strong> BASE</li>
     <li><strong>Período:</strong> BASE</li>
-    <li><strong>Períodos cubiertos:</strong> PERIÓDICO</li>
+    <li><strong>Períodos cubiertos:</strong> PERIODIC</li>
     <li><strong>Ancho de columna:</strong> 14</li>
     </ul>
 Es posible cambiar estos ajustes predeterminados.</td>
@@ -373,27 +373,27 @@ Es posible cambiar estos ajustes predeterminados.</td>
     </tr>
     <tr class="odd">
     <td>ACCT (Códigos de cuenta)</td>
-    <td>Mostrar los valores de dimensión o los valores del segmento de datos financieros que se aplican a cada fila. Para los informes de la cuenta y el detalle de transacción, se imprime la cuenta calificada completa (por ejemplo, <strong>110140-070-0101</strong>). Si los intervalos se han especificado en la columna <strong>Vínculo a las dimensiones financieras</strong> en una definición de fila asociada, el intervalo se incluye en corchetes y se tratará como un único valor (por ejemplo, <strong>[110140:110700]-070-[0101:0200]</strong>). Para informes financieros e informes de alto nivel que son una combinación de varias cuentas, el vínculo de datos financieros de la definición de filas se imprime (por ejemplo, <strong>1100:1200</strong>).</td>
+    <td>Mostrar los valores de dimensión o los valores del segmento de datos financieros que se aplican a cada fila. Para los informes detallados de cuentas y transacciones, se imprimirá la cuenta completa (por ejemplo, <strong>110140-070-0101</strong>). Si se especificaron intervalos en la columna <strong>Vínculo a dimensiones financieras</strong> de una definición de fila asociada, el intervalo se encierra en corchetes y se trata como un solo valor (por ejemplo, <strong>[110140:110700]-070-[0101:0200]</strong>). Para los informes financieros y de alto nivel que son una combinación de varias cuentas, se imprime el vínculo de datos financieros de la definición de fila (por ejemplo, <strong>1100:1200</strong>).</td>
     </tr>
     <tr class="even">
     <td>RELLENO</td>
-    <td>Rellene la celda con un carácter que se va a incluir entre comillas simples. Si no especifica un carácter, la columna está vacía. Por ejemplo, para rellenar una columna con puntos suspensivos (...), escriba <strong>RELLENAR</strong> <strong>'.'</strong>.</td>
+    <td>Rellene la celda con un carácter que se va a incluir entre comillas simples. Si no especifica un carácter, la columna está vacía. Por ejemplo, para rellenar una columna con puntos suspensivos (...), escriba. <strong>RELLENAR</strong> <strong>'.'</strong>.</td>
     </tr>
     <tr class="odd">
     <td>PÁGINA</td>
-    <td>Insertar un salto de página vertical en el informe. Las columnas que están a la derecha de la columna <strong>PÁGINA</strong> aparecen en una página diferente.</td>
+    <td>Insertar un salto de página vertical en el informe. Las columnas que están a la derecha de la columna <strong>PAG</strong> aparecen en una página diferente.</td>
     </tr>
     <tr class="even">
     <td>WKS</td>
-    <td>Visualizar datos que se tiran de una hoja de cálculo de Excel. Cuando selecciona el tipo de columna <strong>WKS</strong>, los parámetros predeterminados se especifican automáticamente para las filas siguientes: <ul>
-    <li><strong>Ejercicio:</strong> PERIÓDICO</li>
+    <td>Visualizar datos que se tiran de una hoja de cálculo de Excel. Si selecciona el tipo de columna <strong>HOJ</strong>, se especifica automáticamente la configuración predeterminada para las filas siguientes: <ul>
+    <li><strong>Año fiscal:</strong> PERIODIC</li>
     <li><strong>Período:</strong> BASE</li>
     </ul>
 Es posible cambiar estos ajustes predeterminados.</td>
     </tr>
     <tr class="odd">
     <td>ATTR</td>
-    <td>Si su sistema contable admite atributos, se muestra una cuenta o un atributo de la transacción en la columna. Un atributo, que se debe aplicar a una única cuenta completa, extrae información de transacciones o de la cuenta subyacente de los datos financieros. Los atributos a nivel de cuenta muestran datos de la cuenta y los atributos a nivel de transacción muestran los datos que se produjeron en el momento en que se registró la transacción. Si selecciona <strong>ATTR</strong> como el tipo de columna, especifique la categoría de atributo en la fila <strong>Código del libro/categoría del atributo</strong> de detalle de la definición de la columna.</td>
+    <td>Si su sistema contable admite atributos, se muestra una cuenta o un atributo de la transacción en la columna. Un atributo, que se debe aplicar a una única cuenta completa, extrae información de transacciones o de la cuenta subyacente de los datos financieros. Los atributos de nivel de cuenta muestran los datos de la cuenta y los atributos de nivel de transacción muestran los datos que se produjeron en el momento de registrar la transacción. Si selecciona <strong>ATR</strong> como tipo de columna, especifique la categoría de atributo en la fila de detalle <strong>Categoría de código del libro o atributo</strong> de la definición de columna.</td>
     </tr>
     </tbody>
     </table>
@@ -435,9 +435,9 @@ La celda **Período** identifica los períodos fiscales que la columna debe incl
 
 Puede ir más allá de los límites del ejercicio en cualquiera de las especificaciones de período, y puede mezclar años en un intervalo de períodos. Poor ejemplo, se especifican los períodos como **BASE-5** (para representar los últimos seis períodos) y se ejecuta un informe que tenga un período de base de 2. En este caso, el informe muestra los datos para los dos primeros períodos del ejercicio especificado y los cuatro últimos períodos del ejercicio anterior.
 
-### <a name="specify-the-periods-for-an-fd-column"></a>Especifique los períodos para una columna de FD
+### <a name="specify-the-periods-for-an-fd-column"></a>Especificar los períodos de una columna FD
 
-1.  En el diseñador de informes, abra la definición de la columna para modificarla.
+1.  En el Diseñador de informes, abra la definición de columna que desee modificar.
 2.  En la columna **FD**, haga doble clic en la celda en la fila **Período**, y seleccione una opción en la lista.
 3.  En la barra de fórmula encima del panel de navegación, o en la celda **Período**, complete la fórmula. Sustituya cualquier signo de número (\#) por el valor adecuado.
 
@@ -464,8 +464,8 @@ Los atributos son valores de los datos que definen más aún una cuenta o una tr
 #### <a name="apply-an-attribute-filter-for-an-fd-column-on-a-report"></a>Aplicar un filtro de atributos para una columna de FD en un informe
 
 1.  En el diseñador de informes, abra la definición de la columna para modificarla.
-2.  Haga doble clic en la celda **Filtro del atributo** para una columna **FD**.
-3.  En el cuadro de diálogo **Filtro del atributo**, haga doble clic en una celda en la columna **Atributo** y seleccione el tipo de filtro.
+2.  Haga doble clic en la celda **Filtro de atributos** de una columna **FD**.
+3.  En el cuadro de diálogo **Filtro de atributos**, haga doble clic en la celda de la columna **Atributo** y seleccione el tipo de filtro.
 4.  Para limitar más los resultados, especifique un intervalo en las columnas **Desde** y **Hasta**. La celda **Desde** debe contener un valor.
 5.  Haga clic en **Aceptar**.
 
@@ -473,13 +473,13 @@ Los atributos son valores de los datos que definen más aún una cuenta o una tr
 
 En el ejemplo siguiente se muestra parte de una descripción de la columna que tiene un atributo de la cuenta en la fila **Código del libro/categoría del atributo**. El filtro de atributos para esta columna especifica el intervalo de valores para incluir en el informe.
 
-|                              | A    | mil millones                    |
+|                              | A    | B                    |
 |------------------------------|------|----------------------|
 | Tipo de columna                  | DESC | FD                   |
-| Código de libro/Categoría de atributo |      | REAL               |
-| Ejercicio                  |      | BASE                 |
-| Periodo                       |      | 1:BASE               |
-| Período de cobertura              |      | PERIÓDICO             |
+| Código del libro/Categoría de atributo |      | REAL               |
+| Año fiscal                  |      | BASE                 |
+| Período                       |      | 1:BASE               |
+| Períodos cubiertos              |      | PERIÓDICO             |
 | ...                          |      |                      |
 | Ancho de columna                 | 30   |                      |
 | ...                          |      |                      |
@@ -487,7 +487,7 @@ En el ejemplo siguiente se muestra parte de una descripción de la columna que t
 
 ### <a name="dimension-filter-in-a-column-definition"></a>El filtro de la dimensión en una definición de la columna
 
-Un filtro de la dimensión se usa para restringir la columna **FD** a los valores de dimensión específicos. El filtro puede incluir una dimensión única, un intervalo de dimensiones o a un grupo de dimensiones. El filtro también puede incluir sistemas del valor de dimensión. Dado que los valores de dimensión pueden variar, un sistema basado en la dimensión..\financial-dimensions\ no tiene que corresponder con una duración exacta. El filtro se aplica, independientemente de si el informe incluye un organigrama. Puede usar un carácter comodín (\* o ?) en cualquier puesto. Cuando especifique varias cuentas, ponga una coma entre las cuentas, como en el ejemplo siguiente: +Cuenta=\[1200\], +Cuenta=\[1100\], Departamento=\[01?\] Para recibir todos los departamentos para una cuenta específica, puede excluir la dimensión de departamento del filtro de la dimensión. Por ejemplo, los dos filtros siguientes de la dimensión se gestionan de la misma manera:
+Un filtro de la dimensión se usa para restringir la columna **FD** a los valores de dimensión específicos. El filtro puede incluir una sola dimensión, un intervalo de dimensiones o un grupo de dimensiones. El filtro también puede incluir sistemas del valor de dimensión. Dado que los valores de dimensión pueden variar, un sistema basado en la dimensión..\financial-dimensions\ no tiene que corresponder con una duración exacta. El filtro se aplica, independientemente de si el informe incluye un organigrama. Puede usar un carácter comodín (\* o ?) en cualquier puesto. Cuando especifique varias cuentas, ponga una coma entre las cuentas, como en el ejemplo siguiente: +Cuenta=\[1200\], +Cuenta=\[1100\], Departamento=\[01?\] Para recibir todos los departamentos para una cuenta específica, puede excluir la dimensión de departamento del filtro de la dimensión. Por ejemplo, los dos filtros siguientes de la dimensión se gestionan de la misma manera:
 
 -   +Cuenta=\[1100\],Departamento
 -   +Cuenta=\[1100\]

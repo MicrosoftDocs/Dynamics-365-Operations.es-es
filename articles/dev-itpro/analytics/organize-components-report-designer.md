@@ -16,13 +16,13 @@ ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a8739f426c401aacbab56179bad429a231060f57
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fade9e2acdb94daa6a908d949c578fd7ed439882
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -53,7 +53,7 @@ Puede agrupar definiciones de informes para generar varios informes al mismo tie
 
 1.  En el diseñador de informes, en el panel de navegación, haga clic en **Grupos de informes**.
 2.  En el menú **Archivo**, haga clic en **Nuevo** &gt; **Definición de grupo de informes** para abrir un nuevo grupo de informe en la ventana del visor. De forma alternativa, haga clic en el botón **Grupo de informes** ![Grupo de informes](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Grupo de informes") de la barra de herramientas.
-3.  Haga clic en la pestaña **Grupo de informes**. Para reemplazar la información sobre las definiciones de informes individuales para la generación de este informe, active la casilla **Eliminar la configuación de empresa, detalles y fecha de las definiciones de informes individuales**. La información sobre el nombre de la empresa, el nivel de detalle, la configuración provisional y la fecha se especifica automáticamente, pero puede realizar actualizaciones.
+3.  Haga clic en la pestaña **Grupo de informes**. Para reemplazar la información sobre las definiciones de informes individuales para la generación de este informe, active la casilla **Eliminar la configuración de empresa, detalles y fecha de las definiciones de informes individuales**. La información sobre el nombre de la empresa, el nivel de detalle, la configuración provisional y la fecha se especifica automáticamente, pero puede realizar actualizaciones.
 4.  Para generar varios informes que muestren las divisas de notificación, active la casilla **Incluir todas las divisas de notificación**. A continuación, para obtener acceso a varias vistas, haga clic en el botón **Divisa** en el visor de la web al ver el informe.
 5.  En el campo **Informes en grupo**, haga clic en **Agregar** para seleccionar los informes que se incluirán en el grupo de informes. Para seleccionar varios informes en el cuadro de diálogo **Agregar**, mantenga presionada la tecla Ctrl mientras selecciona los informes. Cuando haya finalizado de seleccionar informes, haga clic en **Aceptar**.
 6.  Haga clic en **Archivo** &gt; **Guardar** para guardar el nuevo grupo de informes.
@@ -106,7 +106,7 @@ En la tabla siguiente se describen los controles de la pestaña **Grupo de infor
 <td>Nivel de detalle</td>
 <td>Especifique el nivel de detalle que incluyen los informes.
 <ul>
-<li><strong>Financiero</strong>: un informe resumido de alto nivel. No puede explorar en profundidad las cuentas y dimensiones, salvo las cuentas y dimensiones que se han agregado a través de un organigrama.</li>
+<li><strong>Financiero</strong>: informe de resumen de alto nivel. No puede explorar en profundidad las cuentas y dimensiones, salvo las cuentas y dimensiones que se han agregado a través de un organigrama.</li>
 <li><strong>Financiero y contable</strong>: un informe que contiene un resumen de alto nivel y detalles de la cuenta.</li>
 <li><strong>Financiero, contable y de transacciones</strong>: un informe que contiene un resumen de alto nivel y detalles de transacciones.</li>
 </ul></td>
@@ -115,14 +115,14 @@ En la tabla siguiente se describen los controles de la pestaña **Grupo de infor
 <td>Provisional</td>
 <td>Especifique los tipos de actividad que incluyen los informes.
 <ul>
-<li><strong>Solo actividades registradas</strong>: incluya únicamente las transacciones y los saldos que se registran en sus datos financieros.</li>
-<li><strong>Actividades registradas y no registradas</strong>: incluya todas las transacciones y los saldos introducidos y registrados en sus datos financieros.</li>
-<li><strong>Solo actividades no registradas</strong>: incluya únicamente las transacciones que se introducen, pero que aún no se han registrado, en sus datos financieros.</li>
+<li><strong>Solo actividad registrada:</strong> incluye solo las transacciones y los saldos registrados en los datos financieros.</li>
+<li><strong>Actividad registrada y sin registrar:</strong> incluye todas las transacciones y saldos especificados y registrados en sus datos financieros.</li>
+<li><strong>Solo actividad no registrada:</strong> incluye solo las transacciones especificadas, pero todavía no registradas, en los datos financieros.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Incluir todas las divisas de notificación</td>
-<td>Las divisas de notificación adicionales que se configuran en el sistema de Microsoft Dynamics ERP, aparecen aquí. Active esta casilla para generar informes adicionales en las divisas que se indican. Para ver estos informes en el visor de la web, haga clic en el botón <strong>Divisa</strong> y, a continuación, seleccione una divisa.</td>
+<td>Las divisas de notificación adicionales que se configuran en el sistema de Microsoft Dynamics ERP, aparecen aquí. Active esta casilla para generar informes adicionales en las divisas que se indican. Para ver estos informes en el Visor web, haga clic en el botón <strong>Divisa</strong> y, a continuación, seleccione una divisa.</td>
 </tr>
 <tr class="even">
 <td>Información sobre fechas que no ha sido guardada con la definición del informe</td>
@@ -144,8 +144,8 @@ Solo la configuración del período de base predeterminado se guarda con la defi
 <td>Informes en grupo</td>
 <td>Agregar, eliminar y reordenar informes en el grupo de informes.
 <ul>
-<li>Para agregar definiciones de informes al grupo de informes, haga doble clic en el grupo de informes para abrirlo y, a continuación, haga clic en <strong>Agregar</strong>. Seleccione los informes que desee incluir en el grupo de informes y, a continuación, haga clic en <strong>Aceptar</strong>.</li>
-<li>Para quitar un informe del grupo de informes, selecciónelo y haga clic en <strong>Quitar</strong>.</li>
+<li>Para agregar definiciones de informe al grupo de informes, haga doble clic en el grupo de informes para abrirlo y luego haga clic en <strong>Agregar</strong>. Seleccione los informes que se deben incluir en el grupo de informes y haga clic en <strong>Aceptar</strong>.</li>
+<li>Para quitar un informe del grupo de informes, seleccione el informe deseado y haga clic en <strong>Quitar</strong>.</li>
 <li>Para modificar el orden en que se generan los informes, seleccione un informe en la lista y, a continuación, haga clic en <strong>Mover hacia arriba</strong> o <strong>Mover hacia abajo</strong>.</li>
 </ul></td>
 </tr>

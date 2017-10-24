@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: cd024f2bc06fca9c21ea41fbed44efbc519cee94
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9b9bb0acc6f0dc1722c916f133eed766ffdd4cc8
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -62,7 +61,7 @@ A menudo, en Finance and Operations, debe conocer la ubicación y el contexto de
 -   Separador de menú (si el botón está dentro de un grupo con nombre dentro de un botón de menú)
 -   Grupo o separador o en la página (por ejemplo, el nombre de una ficha Desplegable)
 
-Por ejemplo, si escribió **bebé** en el campo **búsqueda de acciones** y ahora está examinando la lista de los resultados. La primera entrada destaca un botón que se llama **Totales**. También aparece una ruta de botón **Pedido de ventas** &gt; **Visualización**. La parte de **Pedido de ventas** de la ruta corresponde a la pestaña **Pedido de ventas** en el panel de acciones y y la parte de **Visualización** de la ruta corresponde al grupo **Visualización** en esa pestaña. De igual manera, la ruta del botón **Descuento total** (**Vender** &gt; **Calcular**) le informa de que este botón está ubicado en el grupo **Calcular** en la pestaña **Vender** del panel de acciones. Por lo tanto, esta información le ayuda a entender exactamente qué botón se activará con la búsqueda de acciones (si selecciona ese botón en la lista de resultados). 
+Por ejemplo, si escribió **bebé** en el campo **búsqueda de acciones** y ahora está examinando la lista de los resultados. La primera entrada destaca un botón que se llama **Totales**. También aparece una ruta de botón **Pedido de ventas** &gt; **Visualización**. La parte de **Pedido de ventas** de la ruta de acceso corresponde a la pestaña **Pedido de ventas** del panel Acciones, y la parte **Vista** de la ruta de acceso corresponde al grupo **Vista** de esa pestaña. Igualmente, la ruta de acceso del botón **Descuento total** (**Vender** &gt; **Calcular**) le informa que el botón se ubicó en el grupo **Calcular** de la pestaña **Vender** del panel Acciones. Por lo tanto, esta información le ayuda a entender exactamente qué botón se activará con la búsqueda de acciones (si selecciona ese botón en la lista de resultados). 
 
 [![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png) 
 

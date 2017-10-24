@@ -15,13 +15,13 @@ ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: d8565ec692036d7a9411cb8663d7293d3ab91a44
 ms.contentlocale: es-es
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -104,7 +104,7 @@ A continuación, en la página **Definir reglas de control presupuestario**, deb
 
 ### <a name="select-main-accounts"></a>Seleccionar cuentas principales
 
-Si la opción **Cuenta principal** no está seleccionada como dimensión de control presupuestario en la página **Definir parámetros**, pero se están gestionando los gastos específicos, puede seleccionar esos gastos en la pestaña **Seleccionar cuentas principales**. Si se selecciona la opción **Cuenta principal** como dimensión de control presupuestario, no se requieren entradas.  
+Si la opción **Cuenta principal** no está seleccionada como dimensión de control presupuestario en la página **Definir parámetros**, pero se están gestionando los gastos específicos, puede seleccionar esos gastos en la pestaña **Seleccionar cuentas principales**. Si la **cuenta principal** se selecciona como una dimensión de control presupuestario, no es necesaria ninguna entrada.  
 
 ### <a name="define-budget-groups"></a>Definir grupos presupuestarios
 
@@ -116,7 +116,7 @@ Si se deben suprimir los mensajes de advertencia de control presupuestario para 
 
 ### <a name="activate-budget-control"></a>Activar control presupuestario
 
-Una vez se haya configurado el control presupuestario, puede activarlo en la pestaña **Activar control presupuestario**. La versión de borrador entrará entonces en vigor.
+Una vez se haya configurado el control presupuestario, puede activarlo en la pestaña **Activar control presupuestario**. La versión de borrador será efectiva.
 > [!Important]
 > Una vez el control presupuestario esté activado y activo, y una vez se registren las transacciones, no se debe desactivar a mediados de año. Cuando se desactiva el control presupuestario, no se registran las actividades para fines de control presupuestario y ya no se realizan las comprobaciones presupuestarias. Por tanto, es posible que los documentos que ya se han registrado no reflejen correctamente saldos o importes de liberación en consultas e informes relacionados con el control presupuestario. Entre estos se incluyen las estadísticas de control presupuestario para cualquier documento y diario descendente o de ajuste. 
 

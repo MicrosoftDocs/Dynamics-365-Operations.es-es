@@ -16,10 +16,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 36f76f0edfba95c8810540ba6ae04ab4823a7ff2
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 2ef0348c0b3a051de6cbb725efbd8e30e7968bd3
 ms.contentlocale: es-es
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="produce-mexican-electronic-ledger-accounting-report-version-11"></a>Producir el informe electrónico de contabilidad de libro mayor del producto mexicano versión 1.1

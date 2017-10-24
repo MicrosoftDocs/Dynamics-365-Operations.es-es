@@ -16,13 +16,13 @@ ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fb5c39a65ea59acda05b0828f84bfaea4ad75062
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -52,7 +52,7 @@ El contenido de **gestión de costes** en Microsoft Power BI está destinado a l
 El origen de datos principal para CostAggregatedCostStatementEntryEntity es la tabla CostStatementCache. Esta tabla se gestiona a través del marco de caché del conjunto de datos. De forma predeterminada, la tabla se actualiza cada 24 horas, pero puede habilitar actualizaciones manuales en la configuración de la caché de datos. Puede realizar entonces una actualización manual en el área de trabajo **Gestión de costes** o **Análisis de coste**. Una vez ejecutada la actualización de CostStatementCache, debe actualizar la conexión de OData en Power BI.com para ver los datos actualizados en el sitio. Las medidas de desviación (compra, producción) en este contenido de Power BI pertenecen a solo los artículos que se han evaluado por el método de inventario de coste estándar. La desviación de producción se calcula como la diferencia entre el coste activo y el coste realizado. Se calcula la desviación de producción cuando el pedido de producción tiene el estado **Finalizado**. Para obtener más información sobre los tipos de desviación de producción y cómo cada tipo se calcula, consulte [Acerca del análisis de desviaciones de un pedido de producción completado](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
-El contenido de **gestión de costes** en Power BI está disponible en PowerBI.com. Para obtener más información sobre cómo conectar y cargar los datos de Microsoft Dynamics 365 for Finance and Operations, consulte [Acceso al contenido de Power BI en PowerBI.com](power-bi-home-page.md).
+El contenido de Power BI de **Costes de gestión** está disponible en PowerBI.com. Para obtener más información sobre cómo conectar y cargar sus datos de Microsoft Dynamics 365 for Finance and Operations, consulte [Obtener acceso al contenido de Power BI de PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
 El contenido incluye un conjunto de páginas de informe. Cada página consta de un conjunto de métricas que se visualizan como gráficos, mosaicos y tablas. La tabla siguiente proporciona una visión general de las visualizaciones en el contenido de **gestión de costes** en Power BI.

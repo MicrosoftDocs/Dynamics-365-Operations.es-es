@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
+ms.sourcegitcommit: 9036b7f9863871915f9ad39d76bf027ae4c2f4bf
+ms.openlocfilehash: aee8db8ddaeac135ed1f9d8b1b8a621609c6d358
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 10/05/2017
 
 ---
 
@@ -34,9 +34,9 @@ Este tema describe cómo los agentes de compras pueden colaborar con los proveed
 
 El módulo de **Colaboración del proveedor** se indica para los proveedores que no tienen integración de Intercambio de datos electrónicos (EDI) con Microsoft Dynamics 365 for Finance and Operations. Permite a los proveedores trabajar con información sobre el pedido de compra, la factura y el inventario de envío. Este tema describe cómo puede colaborar con los proveedores externos que usan la interfaz de colaboración de proveedor para trabajar con PO y el inventario de envío. También explica cómo permitir a un proveedor específico utilizar la colaboración de proveedor, y cómo definir la información que verán todos los proveedores cuando respondan a un PO. Para obtener más información sobre lo que pueden hacer los proveedores externos en la interfaz de colaboración de proveedor, consulte [Colaboración de proveedor con los clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
-Para obtener más información sobre cómo los proveedores pueden utilizar la colaboración del proveedor en los procesos de facturación, consulte [Área de trabajo de facturación de colaboración de proveedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Para obtener información sobre cómo suministrar nuevos usuarios de colaboración de proveedor, consulte [Gestionar usuarios de colaboración del proveedor](manage-vendor-collaboration-users.md).
+Para obtener más información sobre cómo los proveedores pueden utilizar la colaboración del proveedor en los procesos de facturación, consulte [Área de trabajo de facturación de colaboración de proveedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Para obtener información sobre cómo suministrar nuevos usuarios de colaboración de proveedor, consulte [Gestionar usuarios de colaboración del proveedor](manage-vendor-collaboration-users.md).
 
-Para obtener más información sobre cómo los proveedores pueden utilizar la colaboración del proveedor en los procesos de facturación, consulte [Área de trabajo de facturación de colaboración de proveedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
+Para obtener más información sobre cómo los proveedores pueden utilizar la colaboración del proveedor en los procesos de facturación, consulte [Área de trabajo de facturación de colaboración de proveedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). 
 
 Para obtener información sobre cómo suministrar nuevos usuarios de colaboración de proveedor, consulte [Gestionar usuarios de colaboración del proveedor](manage-vendor-collaboration-users.md).
 
@@ -131,7 +131,7 @@ Para cambiar un PO que ya ha sido respondido, debe enviar una nueva versión del
 
 ### <a name="cancelling-a-po"></a>Cancelar un PO
 
-Al cancelar un PO, el estado se cambia a **Aprobado**. Debe enviar de nuevo la OC al proveedor a través del portal de proveedores de modo que el proveedor pueda confirmar o rechazar la cancelación. Cuando se confirme la cancelación, el PO aparece en la lista de PO confirmados del proveedor como **Cancelado**.
+Al cancelar un PO, el estado se cambia a **Aprobado**. Debe enviar el pedido de compra al proveedor de modo que pueda confirmar o rechazar la cancelación. Cuando se confirme la cancelación, el PO aparece en la lista de PO confirmados del proveedor como **Cancelado**.
 
 ### <a name="adding-attachments-to-a-po"></a>Añadir datos adjuntos a un PO
 

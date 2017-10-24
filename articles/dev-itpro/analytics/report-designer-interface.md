@@ -16,13 +16,13 @@ ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: aad8f2617d94e9abc77dafe96cb95f7e191873bd
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1fd7231ad204a0764d601e9b64bf2150255c6f78
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -85,7 +85,7 @@ El menú **Editar** está disponible para los usuarios que tienen el rol de **Di
 | Insertar las unidades de informe de dimensiones | Abrir el cuadro de diálogo **Insertar unidades de informe de dimensiones**, donde puede seleccionar los valores de dimensión para incluir en la definición del organigrama. Este comando está disponible desde una definición del organigrama. |
 | Importar jerarquía del conjunto de dimensiones         | Abrir el cuadro de diálogo **Jerarquía del conjunto de dimensiones**, donde puede importar una jerarquía del conjunto de dimensiones de los datos financieros. Este comando está disponible desde una definición de organigrama para un ..\financial-dimensions\sistema basado en dimensiones.  |
 | Insertar unidad de informe                  | Insertar una fila en blanco en la definición del organigrama. Este comando está disponible desde una definición del organigrama.                                                                                                |
-| Eliminar unidad de informe                  | Eliminar la fila seleccionada de la unidad de informe de la definición del organigrama. Este comando está disponible desde una definición del organigrama.                                                                             |
+| Eliminar unidad de informe                  | Eliminar la fila seleccionada de la unidad de informe de la definición del organigrama. Este comando está disponible desde una definición de organigrama.                                                                             |
 
 ### <a name="view-menu"></a>Menú Ver
 
@@ -96,7 +96,7 @@ El menú **Visualización** está disponible para todos los usuarios e incluye l
 | Panel de exploración | Mostrar u ocultar el panel de navegación.                                      |
 | Barras de herramientas        | Seleccionar las barra de herramientas que son visibles.                                  |
 | Barra de estado      | Mostrar u ocultar la información del estado en la ventana **Diseñador de informes**. |
-| Página de bienvenida    | Abra la página **Bienvenido**.                                             |
+| Página principal    | Abre la **Página principal**.                                             |
 
 ### <a name="format-menu"></a>Menú Formato
 

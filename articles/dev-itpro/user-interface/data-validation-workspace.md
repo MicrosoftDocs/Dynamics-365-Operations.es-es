@@ -14,11 +14,11 @@ ms.search.scope:
 ms.assetid: 
 ms.search.region: Global
 ms.author: bking
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: e105c4b171979a03c20718c1fa9d558c921cd704
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 447fd87cb2f71147d7a9f6476f4ed9e12d75640a
 ms.contentlocale: es-es
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Debe seleccionar un proyecto de validación de datos en la parte superior del es
 
 ### <a name="summary-tiles"></a>Iconos de resumen
 
-Los iconos de **Resumen** proporcionan una visión general del proceso y los indicadores para ayudarle a controlar la validación de datos. Puede ver todas las tareas restantes, las tareas completadas, las tareas en curso y las tareas no comenzadas para el proceso. Esta información se muestra para todas las empresas incluidas en el proyecto de validación de datos.
+Los iconos de **Resumen** proporcionan una visión general del proceso y los indicadores le permiten realizar un seguimiento del proceso de validación de datos. Puede ver todas las tareas restantes, las tareas completadas, las tareas en curso y las tareas que no comenzaron en el proceso. Esta información se muestra para todas las empresas incluidas en el proyecto de validación de datos.
 
 ### <a name="tasks-and-status-section"></a>Sección Tareas y estados
 
