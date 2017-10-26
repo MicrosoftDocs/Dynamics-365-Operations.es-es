@@ -16,13 +16,13 @@ ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: bc14ab554a298d09bb852e96503b4cd3f4b36d3c
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 49dfae79fe3914bcac9447d4fe3959128ff434ec
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ Este artículo proporciona información general acerca las transferencias de cr�
 
 ## <a name="what-is-a-credit-transfer-message"></a>¿Qué es un mensaje de transferencia de crédito?
 El mensaje de transferencia de crédito es una solicitud que la parte que inicia (la empresa) envía para mover fondos de su propia cuenta a un acreedor. Hay muchas implementaciones específicas del país/región y del banco de los mensajes de transferencia de crédito. Algunos de ellas se utilizan dentro de un país o región, y algunas se están convirtiendo en estándares. El estándar global ISO 20022 y sus mensajes de inicio, como la transferencia de crédito, están bien establecidos. La ilustración siguiente muestra las relaciones y el alcance de los mensajes seleccionados de transferencia de crédito. 
-![Transferencia de crédito](./media/credit-transfer.jpg) Mensajes de transferencia de crédito\[/leyenda\] 
+![Transferencia de crédito](./media/credit-transfer.jpg) Mensajes de transferencia de crédito 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>¿Qué son los pagos ISO 20022 y SEPA?
 La Zona única de Pagos en Euros (SEPA) lo establece la Comisión Europea y dicta que todos los pagos electrónicos se consideran como nacionales, independientemente del país o región donde se encuentren el individuo, la empresa o la organización y el banco. No hay diferencia entre los pagos nacionales y transfronterizos. SEPA incluye a los 28 estados miembros de la Unión Europea (UE), además de Islandia, Liechtenstein, Noruega, Suiza, Mónaco y San Marino. SEPA ayuda a formar un mercado único para las transacciones de pago en el Área Económica Europea (AEE). En última instancia, se espera que SEPA reduzca el número de formatos de pago con los que deben trabajar los bancos, las empresas y las personas. La Comisión Europea estableció la base jurídica para pagos SEPA a través de la Directiva sobre servicios de pago (PSD). El Consejo de Pagos Europeo (EPC) admite SEPA con las siguientes actividades:
@@ -59,7 +59,7 @@ El formato de pago de transferencia de crédito de los países europeos se imple
 Debe ir siempre a la biblioteca de activos compartidos de Microsoft Dynamics Lifecycle Services (LCS) y ver la lista más actualizada de archivos disponibles que tienen un tipo de activo de **configuración de GER**. La siguiente sección, “¿Qué tengo que configurar? ”, proporciona un vínculo al tema que explica cómo crear un repositorio de LCS para revisar las configuraciones disponibles e importar las configuraciones seleccionadas.
 
 ## <a name="what-do-i-have-to-set-up"></a>¿Qué tengo que configurar?
--   Para poder crear archivos de transferencia de crédito, se debe importar al menos una configuración de transferencia de crédito activa a las configuraciones de ER. Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+-   Para poder crear archivos de transferencia de crédito, se debe importar al menos una configuración de transferencia de crédito activa a las configuraciones de ER. Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 -   Al configurar los métodos de pago Proveedores, seleccione la casilla **Informes electrónicos genéricos** y seleccione el formato de transferencia de crédito adecuado (por ejemplo, **Transferencia de crédito (AT) ISO 20022**) como configuración del formato de exportación.
 -   También debe configurar la entidad jurídica y la información de cuenta bancaria en Finance and Operations.
 -   Los números de cuenta bancaria, IBAN, y a veces los códigos SWIFT (BIC) u otros id. se requieren para efectuar pagos de transferencia de crédito válidos. Por lo tanto, debe configurarlos para la cuenta bancaria del proveedor y la cuenta bancaria de la organización que está solicitando la transferencia.

@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 95d1d3a34728aab38f77635ae68bea16b08f6587
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 0b1ec4f11672c5c2f9a6f4d072637dfd22246f77
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -110,7 +110,7 @@ Para usar uno de los revisores de gastos que ha configurado en un flujo de traba
 <a name="see-also"></a>Consulte también
 --------
 
-[Creación de un pedido para consumo (Guía de tareas)](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-requisition-consumption)
+[Creación de un pedido para consumo (Guía de tareas)](tasks/create-requisition-consumption.md)
 
 [Definición de flujos de trabajo de procesos empresariales para solicitudes de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 

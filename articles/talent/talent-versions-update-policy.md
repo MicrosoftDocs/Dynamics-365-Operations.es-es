@@ -19,10 +19,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
-ms.openlocfilehash: 157cb807a5a5e61b022b3186dfbe67b95c2408ec
+ms.sourcegitcommit: fc8102d945faf9ad533f57ec1a45b0e0dc344963
+ms.openlocfilehash: c5942ecb80047628c863deb878c0959727ab57bb
 ms.contentlocale: es-es
-ms.lasthandoff: 08/01/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -57,7 +57,7 @@ Requisitos de red
 
 ## <a name="supported-microsoft-office-applications"></a>Aplicaciones de Microsoft Office compatibles
 
-*   Para ejecutar los complementos de Microsoft Excel y Word, es necesario tener instalado Microsoft Office 2016 para Windows o Mac. Para obtener más información acerca de los requisitos de la versión, consulte [solucionador de problemas de integración de Office] (https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting “solucionador de problemas de integración de Offeice”).
+*   Para ejecutar los complementos de Microsoft Excel y Word, es necesario tener instalado Microsoft Office 2016 para Windows o Mac. Para obtener más información acerca de los requisitos de la versión, consulte [solucionador de problemas de integración de Office] (../dev-itpro/office-integration/office-integration-troubleshooting.md “solucionador de problemas de integración de Office”).
 *   Para ver los documentos que se generan mediante la funcionalidad de exportación a Excel o exportación a Word, debe tener instalado Microsoft Office 2007 o una versión posterior.
 
 ## <a name="update-policy"></a>Directiva de actualización

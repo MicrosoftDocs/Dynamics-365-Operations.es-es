@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6119f1c85b68e6ed5dce01a266c4e681dfc4cd30
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 06/13/2017
 
 Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los PO y supervisar el inventario de envío en Finance and Operations.
 
-Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los clientes en Microsoft Finance and Operations. Incluye información acerca de cómo supervisar y responder a los pedidos de compra, y cómo controlar el inventario de envío. También es posible usar la colaboración de proveedor para trabajar con las facturas. Para obtener más información, consulte [Espacio de trabajo de facturación de colaboración de proveedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los clientes en Microsoft Finance and Operations. Incluye información acerca de cómo supervisar y responder a los pedidos de compra, y cómo controlar el inventario de envío. También es posible usar la colaboración de proveedor para trabajar con las facturas. Para obtener más información, consulte [Espacio de trabajo de facturación de colaboración de proveedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 ## <a name="working-with-purchase-orders"></a>Trabajar con pedidos de compra
 El área de trabajo de la **Confirmación del pedido de compra** le permite responder a los PO que se le han enviado para que los revise. También le permite ver información sobre pedidos de compra que están esperando una acción por parte del cliente, y los que han sido confirmados pero siguen abiertos. Existen tres listas en el espacio de trabajo de **Confirmación de pedido de compra**:
