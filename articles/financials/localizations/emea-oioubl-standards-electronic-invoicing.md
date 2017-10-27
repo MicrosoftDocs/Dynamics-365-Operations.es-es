@@ -15,13 +15,13 @@ ms.custom: 10274
 ms.search.region: Austria, Denmark, Italy, Norway, Spain, France, Belgium, Netherlands
 ms.search.industry: 
 ms.author: mrolecki
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: c944fd20273623ce3f7d03a24546addbe987084e
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: d41f4d454bc3a763ca6658babde6c3a6a44be73d
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -45,7 +45,7 @@ Los formatos específicos de país siguientes de facturas electrónicas están d
 -   FacturaE v.3.2.1 para España
 -   FatturaPA v.1.2 para Italia
 
-La facturación electrónica se basa en [informes electrónicos](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting). Existe un modelo de datos **Modelo de factura de cliente** y varias configuraciones de formato de informes electrónicos específicas para países creadas para Austria (AT), Dinamarca (DK), Italia (IT), Noruega (NO), España (ES), Francia (FR), Bélgica (BE) y Países Bajos (NL).
+La facturación electrónica se basa en [informes electrónicos](../../dev-itpro/analytics/general-electronic-reporting.md). Existe un modelo de datos **Modelo de factura de cliente** y varias configuraciones de formato de informes electrónicos específicas para países creadas para Austria (AT), Dinamarca (DK), Italia (IT), Noruega (NO), España (ES), Francia (FR), Bélgica (BE) y Países Bajos (NL).
 
 -   Factura de ventas de OIOUBL - para AT, DK, y NO
 -   Nota de abono de OIOUBL - para AT, DK, y NO
@@ -71,7 +71,7 @@ La facturación electrónica se basa en [informes electrónicos](/dynamics365/un
 Las facturas electrónicas y las notas de abono que genera incluyen la información requerida, como el número EAN (número europeo de artículo), la persona de contacto, el número de la cuenta de dimensión y la información de la dirección del cliente. Se aplican reglas de validación cuando se generan facturas, de modo que puede verificar que se haya especificado la información correcta. El conjunto de información necesaria puede ser diferente de un país a otro. Como los requisitos, al igual que los formatos y los países admitidos, están sujetos a cambios, debe ir siempre a la biblioteca de activos compartidos de Microsoft Dynamics Lifecycle Services (LCS) y ver la lista más actualizada de archivos disponibles que tienen un tipo de activo de **configuración de GER**.
 
 ## <a name="additional-information"></a>Información adicional
-Para obtener más información acerca de cómo configurar facturas electrónicas, puede reproducir las siguientes [Guías de la tarea](/dynamics365/unified-operations/dev-itpro/get-started/help-overview#task-guides) en el panel de la Ayuda:
+Para obtener más información acerca de cómo configurar facturas electrónicas, puede reproducir las siguientes [Guías de la tarea](../../fin-and-ops/get-started/help-overview.md#task-guides) en el panel de la Ayuda:
 
  - Configurar la facturación electrónica OIOUBL
  - Importar configuraciones de facturación electrónica OIOUBL

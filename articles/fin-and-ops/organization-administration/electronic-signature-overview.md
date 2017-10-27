@@ -19,10 +19,10 @@ ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 9bc4dba3c31e82da2285ef5e339ace634fbd6fde
+ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
+ms.openlocfilehash: 069af29012f75aa1a15ba9df86fe1fc9e04eaf41
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -45,7 +45,7 @@ Las firmas electrónicas son un requisito de cumplimiento de directivas para det
 ## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Firmas electrónicas en Dynamics 365 for Finance and Operations
 En Finance and Operations, puede usar firmas electrónicas para procesos empresariales críticos. Algunos procesos llevan integrada la capacidad de firma electrónica. También puede crear requisitos de firma personalizados para cualquier tabla o campo de la base de datos. 
 
-Las firmas electrónicas han integrado la funcionalidad de la firma digital. Cada usuario que firma documentos debe obtener un certificado criptográfico válido. Cuando se firma un documento, se valida la clave privada que está asociada al certificado. Finance and Operations almacena la información de firma electrónica en un registro para proporcionar una traza de auditoría. Para configurar las firmas electrónicas, consulte [Configuración de firmas electrónicas (Guía de tareas)](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures).
+Las firmas electrónicas han integrado la funcionalidad de la firma digital. Cada usuario que firma documentos debe obtener un certificado criptográfico válido. Cuando se firma un documento, se valida la clave privada que está asociada al certificado. Finance and Operations almacena la información de firma electrónica en un registro para proporcionar una traza de auditoría. Para configurar las firmas electrónicas, consulte [Configuración de firmas electrónicas (Guía de tareas)](tasks/set-up-electronic-signatures.md).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Usuarios que requieren el acceso a las firmas electrónicas
 Existen tres tipos de usuarios que necesitan normalmente acceso de seguridad a las firmas electrónicas: administradores de firma electrónica, firmantes y auditores de firma electrónica.

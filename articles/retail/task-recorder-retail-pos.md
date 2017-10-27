@@ -18,11 +18,11 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 007a7e8a34f3f5a2d0d18eb3955822a8fd8bdd0a
+ms.translationtype: HT
+ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
+ms.openlocfilehash: 9a1e3f08eeda93adeac4509edad244754770db65
 ms.contentlocale: es-es
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -126,7 +126,7 @@ El texto que especifica en el campo **Texto** aparecerá *por encima* el texto d
 El texto que especifique en el campo **Notas** aparecerá *por debajo* del texto del paso en la Guía de tareas. Para leer el texto de la nota, el usuario debe expandir el texto del paso en la ventana emergente. Esta ubicación es adecuada para el material de lectura opcional u otra información que puede ser útil para el usuario, pero que el usuario no necesita para completar la acción.
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Ayuda en Retail Modern POS y Cloud POS
-Para mostrar sus propias grabaciones de tareas personalizadas en el panel de la Ayuda del sistema PDV moderno y el PDV en la nube de venta minorista para que se puedan reproducir como guías de tareas o ver como texto, debe guardar sus grabaciones de tareas en su propia biblioteca de BPM y después actualizar los parámetros del sistema de Ayuda para que señalen a la biblioteca de BPM. Para obtener más información, consulte [Conexión con el sistema de Ayuda](/dynamics365/unified-operations/dev-itpro/get-started/help-connect). La Ayuda del sistema PDV moderno y el PDV en la nube de venta minorista realiza búsquedas en tiempo real en LCS. Busca en todas las bibliotecas de BPM seleccionadas en los parámetros del sistema de Ayuda de Microsoft Dynamics 365 for Retail y muestra los resultados relevantes. Para acceder al menú **Ayuda**, haga clic en el botón **Ayuda** (signo de interrogación) en la parte superior de la pantalla. A continuación, escriba en el cuadro de búsqueda el nombre del proceso y haga clic en el botón de búsqueda. 
+Para mostrar sus propias grabaciones de tareas personalizadas en el panel de la Ayuda del sistema PDV moderno y el PDV en la nube de venta minorista para que se puedan reproducir como guías de tareas o ver como texto, debe guardar sus grabaciones de tareas en su propia biblioteca de BPM y después actualizar los parámetros del sistema de Ayuda para que señalen a la biblioteca de BPM. Para obtener más información, consulte [Conexión con el sistema de Ayuda](../fin-and-ops/get-started/help-connect.md). La Ayuda del sistema PDV moderno y el PDV en la nube de venta minorista realiza búsquedas en tiempo real en LCS. Busca en todas las bibliotecas de BPM seleccionadas en los parámetros del sistema de Ayuda de Microsoft Dynamics 365 for Retail y muestra los resultados relevantes. Para acceder al menú **Ayuda**, haga clic en el botón **Ayuda** (signo de interrogación) en la parte superior de la pantalla. A continuación, escriba en el cuadro de búsqueda el nombre del proceso y haga clic en el botón de búsqueda. 
 
 [![Botón Ayuda](./media/help.jpg)](./media/help.jpg) 
 

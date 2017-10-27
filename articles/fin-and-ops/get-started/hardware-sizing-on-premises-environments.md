@@ -15,18 +15,18 @@ ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
 ms.author: chwolf
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 4a1cab8c126ad063a52827421d2ea1104d0c7287
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 5be9b195754d6c8315342c83451128092f64a241
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Tamaño del hardware para entornos locales
-Antes de comenzar el proceso de dimensionamiento de hardware e infraestructura para un entorno local, familiarícese con los [Requisitos del sistema](../get-started/system-requirements.md) y las [Instrucciones de configuración e implementación](../deployment/setup-deploy-on-premises-environments.md) para obtener una comprensión sólida de la infraestructura subyacente. 
+Antes de comenzar el proceso de dimensionamiento de hardware e infraestructura para un entorno local, familiarícese con los [Requisitos del sistema](system-requirements.md) y las [Instrucciones de configuración e implementación](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) para obtener una comprensión sólida de la infraestructura subyacente. 
 
   **Nota:** preste mucha atención a las prácticas recomendadas de configuración del sistema para un rendimiento óptimo. 
 
@@ -89,7 +89,7 @@ Para comprender los requisitos de dimensionamiento, tiene que conocer el volumen
 Le recomendamos que utilice siempre el SQL Server en un clúster o una configuración de replicación. El segundo nodo de SQL debe tener el mismo número de núcleos que el nodo principal. 
 
 ### <a name="active-directory-federation-services-ad-fs"></a>Servicios de federación de Active Directory (AD FS)
-Para el dimensionamiento de los AD FS, consulte [Documentación de la capacidad del servidor de los AD FS](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
+Para el dimensionamiento de los AD FS, consulte [Documentación de la capacidad del servidor de los AD FS](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
 Hay una [hoja de cálculo de dimensionamiento](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) disponible para planificar el número de instancias en su implementación.
 

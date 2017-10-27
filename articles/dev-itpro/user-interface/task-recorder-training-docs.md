@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
-ms.openlocfilehash: d5e4857081134808b194d3248dd8739f83b57d6e
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: 297fe730a432e05e1ab490be4802c37f9402b0a7
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -116,14 +116,14 @@ Puede descargar y editar las grabaciones de tareas de Microsoft para usarlas par
 11. Elija cómo desea guardar la grabación de tareas.
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Incluir las grabaciones de tareas en el panel de la Ayuda
-Para mostrar sus propias grabaciones de tareas personalizadas en el panel de la Ayuda para que se puedan reproducir como guías de tareas o ver como texto, debe guardar sus grabaciones de tareas en su propia biblioteca de BPM y después actualizar los parámetros del sistema de Ayuda para que señalen a la biblioteca de BPM. Para obtener más información, consulte [Conexión del sistema de Ayuda](../get-started/help-connect.md)
+Para mostrar sus propias grabaciones de tareas personalizadas en el panel de la Ayuda para que se puedan reproducir como guías de tareas o ver como texto, debe guardar sus grabaciones de tareas en su propia biblioteca de BPM y después actualizar los parámetros del sistema de Ayuda para que señalen a la biblioteca de BPM. Para obtener más información, consulte [Conexión del sistema de Ayuda](../../fin-and-ops/get-started/help-connect.md)
 
 <a name="see-also"></a>Consulte también
 --------
 
-[Visión general de la ayuda](..\get-started\help-overview.md)
+[Visión general de la ayuda](../../fin-and-ops/get-started/help-overview.md)
 
-[Ayuda sobre Connect](..\get-started\help-connect.md)
+[Ayuda sobre Connect](../../fin-and-ops/get-started/help-connect.md)
 
 [Grabador de tareas](task-recorder.md)
 

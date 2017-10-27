@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 64d915a5e039ba242f6d5ae5f43c8e09d6ca282e
 ms.contentlocale: es-es
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +77,7 @@ En el siguiente ejemplo, la sede corporativa calcula los importes de línea base
 
 En la página **Jerarquía organizativa**, puede designar una jerarquía organizativa como jerarquía de planificación presupuestaria para cada proceso de planificación presupuestaria. La jerarquía de planificación presupuestaria no tiene que coincidir con la jerarquía organizativa estándar que se usa para otros propósitos. Dado que esta jerarquía se usa para agregar y distribuir datos, puede que desee que tenga otra estructura. En el esquema de ejemplo, los departamentos de ventas se encuentran en un nivel de sede que incluye departamentos de finanzas y presupuesto. Esta estructura se diferencia probablemente de la estructura que se usa para gestionar operaciones para los departamentos de ventas. Solo una jerarquía de organización se puede asignar a cada proceso de planificación presupuestaria. 
 
-Para obtener más información acerca de las jerarquías organizativas, consulte [Organizaciones y las jerarquías organizativas](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies).
+Para obtener más información acerca de las jerarquías organizativas, consulte [Organizaciones y las jerarquías organizativas](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Seguridad de usuario
 

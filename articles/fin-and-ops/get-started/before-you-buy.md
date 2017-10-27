@@ -14,13 +14,13 @@ ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 21761
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 831550256176df6fa8542b9985eba1b9b1282fcb
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 75e2a31f1c0e82c6f0dcf92309d7673243e1bdc9
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ Puede probar Dynamics 365 for Finance and Operations durante 30 días con una si
 
 ## <a name="step-two-choose-a-deployment-option"></a>Paso dos: Elegir una opción de implementación
 Ahora puede implementar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition en la nube o localmente. Las implementaciones en la nube ofrecen un servicio de ERP que Microsoft administra por completo, mientras que las implementaciones locales se implementan localmente en el centro de datos de un cliente.
-Para obtener más información, consulte [Opciones de implementación](/dynamics365/unified-operations/dev-itpro/deployment/choose-deployment-type). 
+Para obtener más información, consulte [Opciones de implementación](../../dev-itpro/deployment/choose-deployment-type.md). 
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>Paso tres: Comprar y gestionar una suscripción
 Para explorar opciones de suscripción, vaya a la página de precios de [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing). Esta página incluye varios planes diferentes para que se adapten a las necesidades de su organización.
@@ -51,8 +51,8 @@ Hay dos maneras de comprar una suscripción para una implementación local
 Si su organización tiene 250 o más usuarios de Dynamics 365, puede estar interesado en un [Contrato de licencias por volumen](https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy.aspx) 
 
 En licencias por volumen, Finance and Operations está disponible mediante:
-- Contrato Enterprise
-- Suscripción a Contrato Enterprise
+- Enterprise Agreement
+- Suscripción a Enterprise Agreement
 - Inscripción en Education Solutions (según las condiciones del contrato Campus y School)
 - Contrato de productos y servicios de Microsoft (MPSA)
 
@@ -60,7 +60,7 @@ En licencias por volumen, Finance and Operations está disponible mediante:
 Un proveedor de soluciones en nube de Microsoft puede trabajar estrechamente con usted para comprender las necesidades de su empresa u organización. [Use el portal del centro de partners de Microsoft para encontrar un partner que se adapte a sus necesidades](https://partnercenter.microsoft.com/en-us/partner/home). 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Comprar a través de un partner de Dynamics (local)
-Debe trabajar con un socio para comprar Finance and Operations localmente. Para obtener más información, consulte [Comprar Dynamics 365 for Finance and Operations, Enterprise Edition (local)](/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises)
+Debe trabajar con un socio para comprar Finance and Operations localmente. Para obtener más información, consulte [Comprar Dynamics 365 for Finance and Operations, Enterprise Edition (local)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Elija su opción de soporte
 Microsoft ofrece un soporte flexible y líder en el sector, servicios y recursos que permiten a los usuarios abordar rápidamente cuestiones técnicas y maximizar el rendimiento del capital invertido de Dynamics 365. Elija un plan que mejor cumpla sus requisitos empresariales. 

@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 1d19276331a4278f44ad14292ed434c49b74d727
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: f596f84463f46fc37b14b77bd335b9ed8a62eea9
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -39,7 +39,7 @@ Dado que el contenido de **Análisis de la contabilidad de costes** resalta las 
 
 El contenido de **Análisis de la contabilidad de costes** permite a los contables de coste analizar cómo el coste fluye por los objetos de coste de toda la organización. 
 
-Para obtener más información acerca de la contabilidad de costes, consulte [la página principal de la contabilidad de costes](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page). 
+Para obtener más información acerca de la contabilidad de costes, consulte [la página principal de la contabilidad de costes](../../financials/cost-accounting/cost-accounting-home-page.md). 
 
 Si define la seguridad de nivel de acceso en contabilidad de costes y la combina con seguridad de nivel fila en Power BI, puede conceder a todos los propietarios de objetos de coste acceso al contenido de **Análisis de la contabilidad de costes** en Power BI. Después todos los datos de las vistas se filtrarán en función del nivel de acceso que se controla en contabilidad de costes. Para obtener más información acerca de la seguridad de nivel de acceso y seguridad de nivel fila, consulte la [configuración de seguridad del contenido de la contabilidad de costes de Power BI](setup-security-cost-accounting-content-pack.md).
 

@@ -16,10 +16,10 @@ ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
-ms.openlocfilehash: 90e21bb939bd96a3420decb5f9bc07c017c3e946
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: fcab30f03aebf7dbe76d5b3b64260f726f291fb8
 ms.contentlocale: es-es
-ms.lasthandoff: 07/31/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -118,7 +118,7 @@ Al importar una configuración del formato de LCS, se importa el árbol entero d
  - **Pain.002** este formato se usará junto con la asignación modelo de pago al destino ISO20022 para importar el archivo pain.002 en el diario de transferencias de los pagos de proveedor
  - **Camt.054** este formato se usará junto con la asignación modelo de pago al destino ISO20022 para importar el archivo Camt.054 en el diario de transferencias de los pagos de proveedor La misma configuración del formato se usará en la funcionalidad de importación de los pagos de clientes, pero la asignación diferente se usará en la asignación modelo de pago al destino ISO20022.
 
-Para obtener más información acerca de las informes electrónicos, consulte [Información general de informes electrónicos](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+Para obtener más información acerca de las informes electrónicos, consulte [Información general de informes electrónicos](../../dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 - [Creación y exportación de pagos de proveedor mediante el formato de pago de ISO20022](./tasks/create-export-vendor-payments-iso20022-payment-format.md)

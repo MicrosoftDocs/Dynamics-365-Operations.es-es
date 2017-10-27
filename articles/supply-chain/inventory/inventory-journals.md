@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d549f38b9278eed222a1318c51962b248149c569
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6dfb82acb5dafd365d878949b35d4fe6ff58793d
 ms.contentlocale: es-es
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +78,7 @@ Los diarios de entrada de producción funcionan como los diarios de recepción d
 
 ### <a name="counting"></a>Recuento
 
-Los diarios de recuento le permiten corregir el inventario disponible actual que se registra para los artículos o grupos de artículos, y después registrar la cuenta física real, de manera que pueda realizar los ajustes necesarios para conciliar las diferencias. Puede asociar las directivas de recuento con los grupos de recuento para ayudar a agrupar los artículos que tienen diferentes características para poder incluir los artículos en un diario de recuento. Por ejemplo, puede configurar los grupos de recuento para contar artículos que tienen una frecuencia concreta o para contar artículos cuando las existencias se encuentren en un nivel determinado. Para obtener información sobre cómo definir los grupos de recuento, vea [Definición de procesos de recuento de inventario (guía de tareas)](/dynamics365/unified-operations/supply-chain/inventory/tasks/define-inventory-counting-processes).
+Los diarios de recuento le permiten corregir el inventario disponible actual que se registra para los artículos o grupos de artículos, y después registrar la cuenta física real, de manera que pueda realizar los ajustes necesarios para conciliar las diferencias. Puede asociar las directivas de recuento con los grupos de recuento para ayudar a agrupar los artículos que tienen diferentes características para poder incluir los artículos en un diario de recuento. Por ejemplo, puede configurar los grupos de recuento para contar artículos que tienen una frecuencia concreta o para contar artículos cuando las existencias se encuentren en un nivel determinado. Para obtener información sobre cómo definir los grupos de recuento, vea [Definición de procesos de recuento de inventario (guía de tareas)](tasks/define-inventory-counting-processes.md).
 
 ### <a name="tag-counting"></a>Recuento de etiquetas
 

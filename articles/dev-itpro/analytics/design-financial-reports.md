@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: d1fbcefd80f1c48fafbbcb6315406856eaae68a0
 ms.contentlocale: es-es
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -50,7 +49,7 @@ Para este ejercicio, generará y explorará un informe predeterminado existente.
 4.  Vaya a **Informes financieros** en **Consultas e informes** en Contabilidad general.
 5.  Seleccione la fila para el informe denominado **Detalle de contabilidad general – predeterminado**.
 6.  Seleccione **Editar**. Nota: Se le pedirá que descargue el diseñador de informes con un solo clic y que inicie sesión. Use sus credenciales para iniciar sesión.
-7.  Cambie el año base a 2012 y seleccione **Generar**. Cuando se genera un informe desde el diseñador de informes, se abrirá en una pestaña nueva del explorador. Puede explorador el informe en la nueva pestaña del explorador o ir a su pestaña del explorador original y abrir el informe desde allí seleccionándolo en la lista **Informes financieros**.
+7.  Cambie el año base a 2012 y seleccione **Generar**. Cuando un informe se genera en el diseñador de informes, se abrirá en una nueva pestaña del explorador. Podrá leer el informe en una nueva pestaña del explorador o puede ir a la pestaña original del explorador y abrir el informe desde ahí; para ello, seleccione la lista **Informes financieros**.
 8.  En el informe abierto, seleccione uno de los importes para explorar el detalle de la cuenta para el informe.
 9.  Una vez en el detalle de la cuenta, seleccione una cuenta con datos y realice la acción **Obtener detalles de nivel de transacción de informe**. En el nivel de la transacción del informe, puede ver las propiedades (atributos) que están incluidos en el diseño del informe. En función de la transacción y de la cuenta, se pueden mostrar algunos o todos los atributos.
 10. Cierre el nivel de transacción del informe.
@@ -183,8 +182,8 @@ En este ejercicio, creará un informe nuevo. El informe es un informe de ingreso
 18. **Guarde** sus cambios y **genere**. Una vez que el informe complete la generación y se abra, puede explorar el informe.
 
 ## <a name="additional-resources"></a>Recursos adicionales
-[Informes financieros](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
-[Ver informes financieros](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
+[Informes financieros](../../financials/general-ledger/financial-reporting-getting-started.md) 
+[Ver informes financieros](../../financials/general-ledger/view-financial-reports.md) 
 [Blog de Dynamics Financial Reporting](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

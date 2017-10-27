@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: fbf5337ac41ceae6e911c056db5226c8ed1cefb0
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 1cf09af8de2a312ce17cd88ccc4d8c5c2c051927
 ms.contentlocale: es-es
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,7 +72,7 @@ A veces, es posible que desee dividir la cantidad que ha solicitado, de manera q
 Los cargos se pueden agregar automáticamente a las líneas de pedido de compra si se han configurado cargos automáticos para el proveedor o el grupo de cargos del proveedor, y para el artículo o el grupo de cargos del artículo. Sin embargo, por lo general, los cargos se agregan manualmente en el nivel de línea de pedido. Para agregar un cargo, abra la página **Mantener gastos** con la acción **Mantener gastos** del menú **Operaciones financieras** de la vista **Líneas**. La ventaja de agregar cargos directamente en el nivel de línea de pedido es que el cargo se puede asignar como coste de inventario. Para configurar códigos de cargos a coste de producto de cuenta, utilice la opción de débito **Artículo**. Estos tipos de cargos deben asignarse desde el encabezado del pedido de compra a las líneas para se pueda confirmar el pedido. Por ejemplo, puede que desee asignar cargos basados en la cantidad de cada línea. La categoría de cargo también afecta a cómo se contabilizan los cargos. Por ejemplo, los gastos fijos especifican un importe fijo y los gastos de porcentaje se calculan como un porcentaje del importe neto de la línea de pedido. Se pueden asignar pedidos de compra a una carga y la carga podría incluir una estimación de los gastos previsto para el coste de transporte. Puede asignar este gasto de la carga de nuevo a las líneas de pedido de compra.
 
 ## <a name="purchase-order-actions"></a>Acciones del pedido de compra
-Una vez haya agregado el encabezado y las líneas al pedido de compra, a menudo debe completar pasos adicionales para que el pedido esté listo para su confirmación. Dado que hay muchas opciones disponibles, es posible que le resulte útil usar [Búsqueda de acción](/dynamics365/unified-operations/fin-and-ops/get-started/action-search) para encontrar el elemento de menú relevante.  
+Una vez haya agregado el encabezado y las líneas al pedido de compra, a menudo debe completar pasos adicionales para que el pedido esté listo para su confirmación. Dado que hay muchas opciones disponibles, es posible que le resulte útil usar [Búsqueda de acción](../../fin-and-ops/get-started/action-search.md) para encontrar el elemento de menú relevante.  
 
 Puede configurar los productos del pedido para que tengan artículos adicionales. Los artículos adicionales son productos que deben comprarse o que se pueden comprar junto con otros productos. Los productos adicionales se pueden agregar de manera gratuita como productos complementarios, o puede decidir si desea agregarlos al pedido o no. Puede revisar los artículos adicionales después de cada línea de pedido que se agrega. Sin embargo, probablemente encontrará más adecuado revisar y agregar artículos adicionales pertinentes para todas las líneas de pedido con la página **Artículos adicionales**, que puede abrir en el panel de acciones.  
 
@@ -96,7 +96,7 @@ Es posible que deba retrasar la finalización de un pedido de compra. Por ejempl
 
 [Recepción de producto frente a pedidos de compra](product-receipt-against-purchase-orders.md)
 
-[Visión general de facturas de proveedores](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+[Visión general de facturas de proveedores](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 
