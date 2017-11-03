@@ -1,7 +1,7 @@
 ---
 title: "Configuración de informes electrónicos para proporcionar datos a Power BI"
 description: "Este tema explica cómo puede usar su configuración de informes electrónicos (ER) para organizar la transferencia de datos de la instancia de Finance and Operations a los servicios de Power BI. Como ejemplo, este tema utiliza transacciones Intrastat como datos empresariales que se deben transferir. La vista de mapa de Power BI usa estos datos de transacción de Intrastat para mostrar una visión para el análisis de actividades de importación/exportación de la empresa en el informe de Power BI."
-author: kfend
+author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global

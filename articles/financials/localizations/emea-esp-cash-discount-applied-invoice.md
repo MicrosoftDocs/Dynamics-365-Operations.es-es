@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerParameters
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 261474
 ms.search.region: Spain
 ms.author: v-elgolu
