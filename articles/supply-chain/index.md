@@ -1,16 +1,16 @@
 ---
 title: "Página de inicio de gestión de la cadena de suministro"
-description: "Esta página proporciona recursos que le ayudarán a usar de un modo más eficaz Microsoft Dynamics 365 for Finance and Operations - Gestión de la cadena de suministro."
+description: "En este tema, se proporciona una lista de temas de ayuda y otros recursos para las características de administración de la cadena de suministro de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 07/20/2017
+ms.date: 11/02/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: 6cef449562ba75b03b10b4fe27a436ecff3a6691
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0ca879fc4b0a43cd3af1e45c78a48f1c942a9a6a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](includes/banner.md)]
 
-Esta página proporciona recursos que le ayudarán a usar de un modo más eficaz Microsoft Dynamics 365 for Finance and Operations - Gestión de la cadena de suministro. 
+En este tema, se proporciona una lista de temas de ayuda y otros recursos para las características de administración de la cadena de suministro de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
 
 ## <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 Vaya a <a href="https://roadmap.dynamics.com/">Guía básica de Dynamics 365</a> para ver qué nuevas características hemos lanzado y qué nuevas características esta en desarrollo. 
@@ -41,7 +41,7 @@ Seleccione un área de características para obtener más información al respec
 
 - [Contabilidad de costes](../financials/cost-accounting/cost-accounting-home-page.md)
 - [Gestión de costes](cost-management/costing-sheets.md)  
-- [Gestión del inventario](inventory/consignment.md)
+- [Gestión del inventario](inventory/inventory-home-page.md)
 - [Planificación maestra](master-planning/introduction-demand-forecasting.md)
 - [Adquisición y abastecimiento](procurement/procurement-sourcing-overview.md)
 - [Gestión de información de productos](pim/product-information.md)
