@@ -1,9 +1,9 @@
 ---
 title: "Planificación modo mezcla: combinar abastecimiento producción ajustada, proceso y discreto"
-description: "Este artículo proporciona información acerca de la planificación modo mezcla. En la planificación modo mezcla, puede modelar la cadena de suministros en función del flujo de materiales. Microsoft Dynamics 365 for Finance and Operations garantiza que el flujo de materiales siga sus modelos, independientemente de la directiva de suministro seleccionada (kanbans, pedidos de producción, pedidos de compra, pedidos de lote o pedidos de transferencia)."
+description: "Este tema proporciona información acerca de la planificación modo mezcla."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 09ced68ffe8ff300a04beb65fdf8527e63456f04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo proporciona información acerca de la planificación modo mezcla. En la planificación modo mezcla, puede modelar la cadena de suministros en función del flujo de materiales. Microsoft Dynamics 365 for Finance and Operations garantiza que el flujo de materiales siga sus modelos, independientemente de la directiva de suministro seleccionada (kanbans, pedidos de producción, pedidos de compra, pedidos de lote o pedidos de transferencia). 
+Este tema proporciona información acerca de la planificación modo mezcla. En la planificación modo mezcla, puede modelar la cadena de suministros en función del flujo de materiales. Microsoft Dynamics 365 for Finance and Operations garantiza que el flujo de materiales siga sus modelos, independientemente de la directiva de suministro seleccionada (kanbans, pedidos de producción, pedidos de compra, pedidos de lote o pedidos de transferencia). 
 
 Puede seleccionar la estrategia completa para suministrar un producto, independientemente de la estructura de producto.  
 
@@ -59,7 +59,7 @@ Normalmente, los kanbans no se crean para fechas futuras, ya que un kanban tiene
 
 La misma lógica está presente para el resto de los tipos de directivas de suministro. Por lo tanto, la planificación a largo plazo de los materiales se basa en la misma lógica que espera ejecutar con los pedidos reales después de a aprobación de la producción y el suministro.
 
-## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Directiva de suministros cruzados de la asignación de los materiales: consumo de recursos de L. MAT.
+## <a name="materials-allocation-cross-supply-policy--resource-consumption-on-boms"></a>Directiva de suministros cruzados de la asignación de los materiales: consumo de recursos de L. MAT.
 El consumo de recursos es una funcionalidad importante. El consumo de recursos permite seleccionar dinámicamente un almacén para seleccionar materiales, en función de la directiva de suministros (tipo de pedido), y también hace que el mantenimiento de datos base sea más fácil.  
 
 El consumo de recursos requiere que el almacén en el que se seleccionan los materiales se asigne en base a la forma en que se suministra el producto. Es decir, en el tiempo de ejecución, el sistema encuentra los recursos que se usarán para la fabricación. Swgún estos recursos, el sistema encuentra el almacén de selección.  

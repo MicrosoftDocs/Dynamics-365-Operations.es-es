@@ -1,9 +1,9 @@
 ---
 title: Moviendo mensaje
-description: 
+description: "La media móvil es un método de gestión de costes perpetuo que se basa en el principio de promedio, en que los costes de emisiones de inventario no cambian cuando cambia el coste de compra. La diferencia se capitaliza y se basa en un cálculo proporcional. El importe restante se anota como gasto."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,8 +31,12 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
+La media móvil es un método de gestión de costes perpetuo que se basa en el principio de promedio, en que los costes de emisiones de inventario no cambian cuando cambia el coste de compra. La diferencia se capitaliza y se basa en un cálculo proporcional. El importe restante se anota como gasto. 
+
+Si usa la media móvil, no se admiten las liquidaciones ni el marcado de inventario. El cierre de inventario no afecta a los productos que tienen media móvil, como el grupo de modelos de inventario, y no genera liquidaciones entre transacciones.
 
 A continuación se indican requisitos previos para usar el coste de media móvil como método de gestión de costes.
+
 1.  En la página **Grupos de modelos de artículo**, configure un grupo de modelos de artículos con Media móvil seleccionado en el campo **Modelo de inventario**. **Nota:** De forma predeterminada, cuando se selecciona Media móvil, también se seleccionan los campos **Registrar inventario físico** y **Registrar inventario financiero**. 
 
 2.  En la página **Registro**, asigne cuentas a las cuentas **Diferencia de precios para la media móvil** y **Revalorización de costes para la media móvil** en la pestaña **Inventario**. Use la cuenta **Diferencia de precios para la media móvil** cuando el coste se contabilice como gasto de forma proporcional. Esto ocurre debido a una diferencia de coste entre un recibo de compra y la factura de compra y a una diferencia entre la cantidad de inventario original y la cantidad disponible actual. Use la cuenta **Revalorización de costes para la media móvil** cuando quiera ajustar el coste de media móvil de un producto a un nuevo precio unitario.

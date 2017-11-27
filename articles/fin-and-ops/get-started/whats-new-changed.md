@@ -3,7 +3,7 @@ title: Novedades y cambios
 description: "Esta página señala los temas que pueden ayudarle a obtener información acerca de las nuevas características de las versiones más recientes de Microsoft Dynamics 365 for Finance and Operations."
 author: josaw1
 manager: AnnBe
-ms.date: 09/12/2017
+ms.date: 10/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 1a75ad433bcca5fcb041391e0c09883449755094
-ms.openlocfilehash: e92a42ca34d42504ce9d7c3ba7c326429d97a089
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1ffe0480c1607925093bf823d75289d87995a17f
 ms.contentlocale: es-es
-ms.lasthandoff: 10/02/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -58,25 +58,7 @@ Para obtener información sobre cómo actualizar a la versión más reciente, ve
 </thead>
 <tbody>
 <tr class="even">
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
-<td>Actualización 3 de la aplicación</td>
-<td>7.2.11792.62370</td>
-<td>2017 de septiembre</td>
-<td><a href="https://fix.lcs.dynamics.com/Issue/Resolved?kb=4043284&bugId=3857197&qc=a454835bf86493b0a878eed878045540ba632d897fabdc0b13c60f58292c7a84">Actualización 3 de la aplicación KB 4043284 para Dynamics 365 for Operations (parte binaria)</a></td>
-</tr>
-<tr class="even">
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
-<td>Actualización 2 de la aplicación</td>
-<td>7.2.11792.62192</td>
-<td>2017 de septiembre</td>
-<td><a href="https://fix.lcs.dynamics.com/Issue/Resolved?kb=4039142&bugId=3850590&qc=204b1f37a96118e0538a6cad6c91a398019308d0a6b558b86e1ebe35d8fb73c8">Actualización 2 de la aplicación KB 4039142 (binaria)</a></td>
-</tr>
-<tr class="even">
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
-<td>Actualización 1 de la aplicación</td>
-<td>7.2.11792.62089</td>
-<td>Julio de 2017</td>
-<td><a href="https://fix.lcs.dynamics.com/Issue/Resolved?kb=4035749&bugId=3845890&qc=204b1f37a96118e0538a6cad6c91a398019308d0a6b558b86e1ebe35d8fb73c8">Actualización 1 de la aplicación KB 4035749 de Dynamics 365 for Finance and Operations, Enterprise Edition (binaria)</a></td>
+
 </tr>
 <tr class="even">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
@@ -128,6 +110,13 @@ Para obtener información sobre cómo actualizar a la versión más reciente, ve
 <th>Más información</th>
 </tr>
 </thead>
+<tbody>
+<tr class="odd">
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
+<td>Actualización de la plataforma 11</td>
+<td>7.0.4679.35176</td>
+<td>Octubre de 2017</td>
+<td><a href="whats-new-platform-update-11.md">Novedades o cambios en Dynamics 365 for Finance and Operations, Enterprise Edition actualización de la plataforma 11 (octubre de 2017)</a></td>
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>

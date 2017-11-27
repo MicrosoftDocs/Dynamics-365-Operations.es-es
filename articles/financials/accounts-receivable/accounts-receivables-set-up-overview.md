@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbe32e248727912073631f1dfb8ee0a49cbf0a5e
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 7563c749d0d2b5747f1b7886def82ba7191499b1
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/15/2017
 
 ---
 
@@ -36,9 +36,8 @@ Configure Clientes y Crédito y cobros para controlar todas las facturas y los p
 Puede configurar los grupos de clientes, clientes, perfiles de registro, varias opciones de pago, notas de interés, cartas de cobro, comisiones, parámetros relativos a los clientes, gastos, entregas y destinos, letras de cambio, así como otros tipos de informaciones de Clientes y créditos y cobros.
 En la tabla siguiente se muestran las páginas que admiten la configuración y el mantenimiento de Clientes y créditos y cobros. Las entradas de la tabla están organizadas por tarea y, a continuación, alfabéticamente por nombre de página.
 
-| ![Nota](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Nota")**Nota**          |
-|--------------------------------------------------------------------------------------------------|
-| Algunas páginas de la tabla siguiente requieren información o configuración de parámetros para poder explorarlas. |
+> [!NOTE]
+> No puede navegar a algunas páginas en la siguiente tabla a menos que se hayan introducido datos o ajustes de parámetros en otras páginas.
 
 | Tarea                                                 | Nombre de página                            | Uso                                                                                                                                                                                                                                                                             |
 |------------------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -3,7 +3,7 @@ title: "Gestión de proyectos y contabilidad"
 description: "La funcionalidad de gestión de proyectos y contabilidad se puede usar en varias industrias para proporcionar un servicio, producir un producto o lograr un resultado."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cd30c9278c58f8e0ca9b50f67a999708bd64c0a2
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -228,7 +228,7 @@ La tabla siguiente describe los métodos para calcular el coste para completar u
 <tbody>
 <tr class="odd">
 <td>Coste total – Real</td>
-<td>Los costes estimados se deben especificar manualmente. Cuando se complete la columna <strong>Coste total</strong> o <strong>Cantidad total</strong> en la página <strong>Estimación de coste </strong>, los costes reales se restan de los totales especificados por el usuario. El resultado es el coste para completar el proyecto. Normalmente, no se realiza un seguimiento del progreso de costes basado en, por ejemplo, el número de comidas y de estancias de hotel que se registran en cada período. En su lugar, suele basarse en una comparación con el importe total de las horas estimadas. Este planteamiento no necesita un modelo de previsión y el coste o la cantidad total se puede cambiar manualmente. Cuando se especifica un valor en la columna <strong>Coste total</strong> o <strong>Cantidad total</strong>, Finance and Operations compara este valor con las transacciones reales que se han registrado en el período y, a continuación, disminuye el valor de la columna <strong>Cantidad para completar</strong> o <strong>Coste para completar</strong>.</td>
+<td>Los costes estimados se deben especificar manualmente. Cuando se complete la columna <strong>Coste total</strong> o <strong>Cantidad total</strong> en la página <strong>Estimación de coste </strong>, los costes reales se restan de los totales especificados por el usuario. El resultado es el coste para completar el proyecto. Normalmente, el seguimiento del progreso de los costes no se basa, por ejemplo, el número de comidas y estancias de hotel se registran en cada período. En su lugar, suele basarse en una comparación con el importe total de las horas estimadas. Este planteamiento no necesita un modelo de previsión y el coste o la cantidad total se puede cambiar manualmente. Cuando se especifica un valor en la columna <strong>Coste total</strong> o <strong>Cantidad total</strong>, Finance and Operations compara este valor con las transacciones reales que se han registrado en el período y, a continuación, disminuye el valor de la columna <strong>Cantidad para completar</strong> o <strong>Coste para completar</strong>.</td>
 </tr>
 <tr class="even">
 <td>Presupuesto total - Real</td>
@@ -247,7 +247,7 @@ Finance and Operations no disminuye automáticamente las estimaciones previstas.
 </tr>
 <tr class="even">
 <td>Como estimación anterior</td>
-<td>Se aplica el mismo método de estimación que se usó en el período anterior. Este método requiere un modelo de previsión si el período anterior requirió un modelo de previsión.</td>
+<td>Se aplica el mismo método de estimación que se usó en el período anterior. Este método necesitará un modelo de previsión si el período anterior así lo requería.</td>
 </tr>
 <tr class="odd">
 <td>Establecer coste para completar en cero</td>

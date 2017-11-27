@@ -1,9 +1,9 @@
 ---
 title: "Nomenclatura de los nombres y los números de variante de los productos"
-description: "En este tema se describe cómo se puede configurar una nomenclatura de número de producto para reemplazar el formato fijo [Número de producto maestro - Configuración - Tamaño - Color - Estilo]. La nueva nomenclatura tiene el formato destinado que incluye el número de producto maestro, las dimensiones de producto activo y los delimitadores de texto de su elección. También puede crear una nomenclatura para los nombres de producto. Por último, también puede crear una nomenclatura para identificar configuraciones creadas por el configurador de producto basado en restricciones. Estas nomenclaturas pueden contener atributos de su elección."
+description: "En este tema se describe cómo se puede configurar una nomenclatura de número de producto para reemplazar el formato fijo [Número de producto maestro - Configuración - Tamaño - Color - Estilo]."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 4ebebc1d287908dbe8ac7557c34fc6693c88bfae
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 067e14d8a0ab9cb5b703c1d2596dab3e20487336
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -68,7 +68,7 @@ Una camiseta (TS1234) se genera en tres tamaños (S, M, L), cuatro colores (Rojo
 
 En este caso, el número de variante de producto para una camiseta de tipo polo, talla pequeña y color rojo sería TS1234-Rojo-Pequeña-Polo.
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Configuraciones de nomenclatura basada en restricciones
+## <a name="nomenclature-of-constraint-based-configurations"></a>Configuraciones de nomenclatura basada en restricciones
 Para configuraciones basadas en restricciones puede crear una nomenclatura dedicada para la dimensión de producto de configuración. Puede seleccionar los segmentos siguientes en página **Nomenclatura de producto**:
 
 -   Valor de secuencia numérica
@@ -92,7 +92,7 @@ Va a crear una nomenclatura de configuración con los segmentos siguientes:
 
 En este caso, el identificador de configuración para el material de madera que tiene una longitud de 78 será MaderaAAA78.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Configuraciones de nomenclatura basadas en dimensiones
+## <a name="nomenclature-of-dimension-based-configurations"></a>Configuraciones de nomenclatura basadas en dimensiones
 Para configuraciones basadas en dimensiones puede crear una nomenclatura dedicada para la dimensión de producto de configuración. Puede seleccionar los segmentos siguientes en página **Nomenclatura de producto**:
 
 -   Valor de secuencia numérica

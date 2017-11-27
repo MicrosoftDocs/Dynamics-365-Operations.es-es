@@ -3,7 +3,7 @@ title: "Conciliación de facturas y pedidos de compra de empresas vinculadas"
 description: "La entidad jurídica de compra que está involucrada en una transacción de negocios entre empresas vinculadas puede estar configurada para usar la conciliación de facturas de proveedores. En este caso, los requisitos de registro para el negocio entre empresas vinculadas y la conciliación de facturas de proveedores deben ser cumplidos antes de que las facturas de proveedor de empresas vinculadas se puedan registrar."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: affdffd5e73958788ed2a5a4959eea71024140ab
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -52,7 +52,7 @@ Los importes netos para la factura de proveedor de empresas vinculadas y la fact
 2.  En Fabrikan Sales, registra la recepción de artículos y el albarán. El estado de ICSO888 cambia a Entregado. El estado de ICPO222 cambia a Recibido.
 3.  En Fabrikan Sales, actualiza una factura para ICSO888. El precio unitario es 0,45, y se actualizan 100 artículos.
 4.  Crea una factura para ICPO222 en Fabrikam Purchase. Modifica el precio unitario accidentalmente de 45,00 a 54,00. Se muestra un icono que indica que el precio excede la tolerancia de precio permitida de 2 por ciento.
-5.  En la página Detalles de coincidencia de factura, seleccione la opción para aprobar el registro con discrepancias de conciliación. En la página Factura de proveedor, haga clic en Aceptar. Si la factura de proveedor no era una factura de proveedor de empresas vinculadas, el registro se realizará correctamente. Sin embargo, dado que está trabajando con una factura de proveedor de empresas vinculadas, el registro no se finaliza correctamente. Para el negocio entre empresas vinculadas, los totales de la factura del pedido de ventas de empresas vinculadas deben ser iguales a los totales de la factura del pedido de compra de empresas vinculadas correspondiente. Para solucionar este problema, debe corregir el precio neto de la factura cambiando el precio neto de nuevo al importe predeterminado, 45,00.
+5.  En la página Detalles de coincidencia de factura, seleccione la opción para aprobar el registro con discrepancias de conciliación. En la página Patrón de periodicidad, haga clic en Aceptar. Si la factura de proveedor no era una factura de proveedor de empresas vinculadas, el registro se realizará correctamente. Sin embargo, dado que está trabajando con una factura de proveedor de empresas vinculadas, el registro no se finaliza correctamente. Para el negocio entre empresas vinculadas, los totales de la factura del pedido de ventas de empresas vinculadas deben ser iguales a los totales de la factura del pedido de compra de empresas vinculadas correspondiente. Para solucionar este problema, debe corregir el precio neto de la factura cambiando el precio neto de nuevo al importe predeterminado, 45,00.
 
 ## <a name="example-quantity-matching-with-intercompany-trade"></a>Ejemplo: conciliación de cantidades con negocio entre empresas vinculadas
 Las cantidades de los pedidos de compra y los pedidos de ventas de empresas vinculadas deben ser equivalentes. Este requisito anula la aprobación aplicable a la conciliación de facturas. En el ejemplo que se muestra a continuación se utiliza la siguiente configuración adicional para negocios de empresas vinculadas:

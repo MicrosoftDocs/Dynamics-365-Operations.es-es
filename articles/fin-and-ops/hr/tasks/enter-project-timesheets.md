@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1f88fbbacde9c0bd2b3499df5682a717d0b804ab
+ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
+ms.openlocfilehash: 17195b28ebe828423b4e5bb862f5c2e9884471ce
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="enter-project-timesheets"></a>Especificar hojas de horas de proyectos
@@ -33,7 +33,7 @@ Este procedimiento le permite crear una hoja de horas a partir de un formulario 
     * La lista desplegable Recurso muestra el trabajador asignado al usuario actual, de forma predeterminada.  
     * Si se designa el usuario como delegado, este mostrará los nombres de modo que un usuario puede especificar una hoja de horas en su nombre.  
 2. En el campo Fecha, escriba una fecha.
-    * Si se selecciona esta opción, se crearán nuevas líneas en hoja de horas con la configuración de la hoja de horas que se configuró como favorita.  
+    * Si se selecciona esta opción, se crearán las nuevas líneas de hoja de horas con la configuración de la hoja de horas que se configuró como favorita.  
 3. Haga clic en Aceptar
 4. Haga clic en Nueva línea.
 5. En la lista, marque la fila seleccionada.

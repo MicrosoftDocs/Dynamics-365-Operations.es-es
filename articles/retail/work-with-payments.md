@@ -3,7 +3,7 @@ title: "Métodos de pago en un centro de llamadas"
 description: "En este tema se tratan los diferentes métodos de pago que puede utilizar en un centro de llamadas de Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 93cff4454139524911a98fc28bccd6aeb5b49d4a
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 321d03d154c224b55ffedbe55a2d5952c2b29d9a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -37,7 +37,7 @@ Los métodos de pago que se usan en otros canales, como efectivo, cheques, tarje
 
 |                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Atributo**             | En el campo **Tipo de canje**, especifique el tipo de canje previsto del vale como porcentaje y seleccione si el vale se puede usar como un vale de uso único, si se volverá a emitir o si es específico para un cliente.                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Atributo**             | En el campo **Tipo de canje**, especifique el tipo de canje previsto del vale como porcentaje y seleccione si el vale se puede usar una vez, si se volverá a emitir o si es específico para un cliente.                                                                                                                                                                                                                                                                                                                                                                                       |
 | **Válido**                 | En los campos **Fecha inicial** y **Fecha final**, especifique las fechas para la primera y última fecha de validez del vale.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Reglas de inclusión o exclusión** | En los campos **Catálogos** y **Artículos**, seleccione si se incluyen o excluyen catálogos o artículos del vale. Si selecciona **Incluir** o **Excluir**, haga clic en **Configurar**, seleccione **Incluir o excluir catálogos** o **Incluir o excluir productos** y escriba información sobre el catálogo o el artículo. Si selecciona **Ninguno** en estos campos, se incluyen todos los catálogos o artículos en el vale.                                                                                                                                                                                                                          |
 | **Varios**         | Si no se puede utilizar este vale junto con otros descuentos, active la casilla **Exclusivo**. A continuación, en el campo **Origen**, seleccione dónde se puede usar el vale. En este vale es un vale del fabricante, active la casilla **Vale de fabricante**.                                                                                                                                                                                                                                                                                                                                                                |

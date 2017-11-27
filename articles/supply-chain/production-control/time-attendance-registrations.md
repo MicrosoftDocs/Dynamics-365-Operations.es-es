@@ -1,9 +1,9 @@
 ---
 title: Registro de Tiempo y asistencia
-description: "Los trabajadores del registro de horas pueden especificar distintos tipos de registros de horas, por ejemplo entrada, salida, registro de actividades indirectas y registro de ausencia. Este artículo describe registros, su cálculo, aprobación y uso del flujo de trabajo para agregar la estructura y la aprobación automatizada al proceso de aprobación de hojas de horas."
+description: "Los trabajadores del registro de horas pueden especificar distintos tipos de registros de horas, por ejemplo entrada, salida, registro de actividades indirectas y registro de ausencia. Este tema describe registros, su cálculo, aprobación y uso del flujo de trabajo para agregar la estructura y la aprobación automatizada al proceso de aprobación de hojas de horas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 83603b1f8d20c18b7f10cd7224d491b558ee1b8b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 29040d0c96183898672bc405364ec59707bff53a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Los trabajadores del registro de horas pueden especificar distintos tipos de registros de horas, por ejemplo entrada, salida, registro de actividades indirectas y registro de ausencia. Este artículo describe registros, su cálculo, aprobación y uso del flujo de trabajo para agregar la estructura y la aprobación automatizada al proceso de aprobación de hojas de horas. 
+Los trabajadores del registro de horas pueden especificar distintos tipos de registros de horas, por ejemplo entrada, salida, registro de actividades indirectas y registro de ausencia. Este tema describe registros, su cálculo, aprobación y uso del flujo de trabajo para agregar la estructura y la aprobación automatizada al proceso de aprobación de hojas de horas. 
 
 <a name="registrations"></a>Registros
 -------------
@@ -66,7 +66,7 @@ Tras la configuración, los trabajadores pueden especificar distintos tipos de r
 -   Actividades indirectas, que son actividades no productivas en las que un trabajador puede participar durante un día laborable. Algunos ejemplos de estas actividades son reuniones o la limpieza del espacio de trabajo.
 -   Horas extra, que se pueden registrar como horas extra u horario flexible.
 
-## <a name="adding-clockout-registrations"></a>Agregar registros de hora de salida
+## <a name="adding-clock-out-registrations"></a>Agregar registros de hora de salida
 Si un trabajador olvida registrar su hora de salida al final de la jornada, el registro que falta se puede agregar ejecutando un trabajo por lotes. El sistema comparará la hora de entrada y salida según el perfil asociado el trabajador, e insertará automáticamente el registro de hora de salida que falta para que coincida con la hora final del perfil. Ambos registros, el de hora de entrada y el de hora de salida, son fundamentales para el cálculo y la aprobación subsiguientes de registros de hora para poder transferirse a la nómina.
 
 ## <a name="calculating-registrations"></a>Cálculo de registros

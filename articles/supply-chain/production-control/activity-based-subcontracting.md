@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 000bfcf5c3daea75fc257374dd471c62e94fbc16
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 59b41b31931a128898ee70a583bfb9c515f90abc
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -85,7 +85,7 @@ Una actividad de transferencia se configura como actividad subcontratada en func
 -   **Destinatario** – La actividad se subcontrata si la transferencia al almacén se gestiona a través de un proveedor (según se define con una propiedad del almacén). Todos los acuerdos de compra seleccionados para los servicios deben tener el mismo identificador de proveedor que el almacén.
 -   **Transportista** – La actividad se subcontrata a cualquier proveedor que proporcione el servicio. Para ser válido, un transportista debe crearse para la gestión del almacén y debe tener una cuenta de proveedor asignada.
 
-Con respecto a actividades de proceso, debe configurar un servicio predeterminado para las actividades de transferencia subcontratadas en la ficha desplegable de las **Condiciones de servicio** de la página de detalles de la **actividad**.
+Con respecto a actividades de proceso, debe configurar un servicio predeterminado para las actividades de transferencia subcontratadas en la ficha desplegable de las **Condiciones de servicio** de la página de **detalles** de la **actividad**.
 
 ## <a name="service-quantity-calculation"></a>Cálculo de cantidad de servicio
 Todo el proceso de compra se basa en una referencia de artículo para un servicio. Esta referencia del artículo se mide en una unidad de medida de un servicio. Los servicios generalmente se miden por el número de servicios (unidades) o por el tiempo. Para calcular la cantidad de servicio, en función de la finalización registrada de trabajos kanban, puede usar los métodos siguientes:

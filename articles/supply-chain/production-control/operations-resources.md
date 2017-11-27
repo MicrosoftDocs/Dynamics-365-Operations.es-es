@@ -3,7 +3,7 @@ title: Recursos de Operations
 description: "Los recursos de operaciones realizan las actividades de un proyecto o de un proceso de producción. Pueden ser de distintos tipos y tener diferentes capacidades."
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a333c4d9c0e614c513bf3e1a02b943b186fb1e5
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ Se asignan recursos de operaciones a las actividades cuando se programa un proye
 
 -   **Capacidad**: permite especificar la capacidad del recurso de operaciones por hora en términos de unidad de medida de la capacidad.
 -   **Capacidad de lotes**: permite especificar el número máximo de piezas que el recurso de operaciones puede procesar en cada ejecución.
--   **Porcentaje de eficacia**: especifique la eficacia que espera del recurso de operaciones. El porcentaje de eficacia ajusta el rendimiento del recurso de operaciones y afecta al tiempo reservado para el recurso. Los plazos para las operaciones que usan el recurso de operaciones también se ajustan según corresponda. A continuación se indica la fórmula que se usa para el cálculo: Tiempo de programación = Tiempo × 100 ÷ Porcentaje de eficiencia En esta fórmula, *Tiempo* incluye el tiempo de ejecución y el tiempo de configuración.
+-   **Porcentaje de eficacia**: especifique la eficacia que espera del recurso de operaciones. El porcentaje de eficacia ajusta el rendimiento del recurso de operaciones y afecta al tiempo reservado para el recurso. Los plazos para las operaciones que usan el recurso de operaciones también se ajustan según corresponda. A continuación se indica la fórmula utilizada para el cálculo: Tiempo de programación = Tiempo x 100 ÷ Porcentaje de eficacia. *Tiempo* incluye el tiempo de ejecución y el tiempo de preparación.
 -   **Porcentaje de programación de operaciones**: especifique el porcentaje máximo de capacidad del recurso de operaciones que desea utilizar en la programación de operaciones. Para proporcionar flexibilidad en la capacidad durante la programación del trabajo, debe establecer este porcentaje en un valor inferior al 100 por cien.
 -   **Capacidad limitada**: establezca esta opción en **Sí** si el recurso de operaciones debe programarse en función de la capacidad real disponible y si deben tenerse en cuenta las reservas de capacidad existentes. Si esta opción se establece en **No**, se supone que el recurso de operaciones tiene capacidad infinita y, por lo tanto, el recurso puede estar reservado en exceso.
 -   **Propiedad limitada**: permite establecer esta opción en **Sí** si desea que el recurso de operaciones se programe en función de la capacidad real disponible en cuanto a las propiedades de programación de horas de trabajo necesarias.

@@ -3,7 +3,7 @@ title: Prospect to cash
 description: "Este tema proporciona una visión general de la solución Prospect to cash entre Dynamics 365 for Sales y Dynamics 365 for Finance and Operations, Enterprise Edition y Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: 
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 47e70cb1291e390b42b7feff844b2aca141f09b7
-ms.openlocfilehash: a5f1ecd5f8b46287839439a963e571531ae161a7
+ms.sourcegitcommit: 674d2e1f2c5cdbccf43618a9083ca01abed0735a
+ms.openlocfilehash: 2accf77c5241adff7ad1648737dde451153fde46
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -42,25 +42,39 @@ Esta solución proporciona integración en las siguientes áreas:
 -   [Crear pedidos de ventas en Finance and Operations y sincronizarlos con Sales](sales-order-template-mapping.md)
 -   [Crear facturas de ventas en Finance and Operations y sincronizarlas con Sales](sales-invoice-template-mapping.md)
 
+Esta solución proporciona sincronización directa en las siguientes áreas:
+
+-   [Mantener cuentas en Sales y sincronizarlas directamente de Sales a Finance and Operations](accounts-template-mapping-direct.md)
+-   [Mantener productos en Finance and Operations y sincronizarlos directamente con Sales](products-template-mapping-direct.md)
+-   [Mantener contactos en Sales y sincronizarlos directamente con contactos o clientes de Finance and Operations](contacts-template-mapping-direct.md)
+-   [Sincronizar directamente encabezados y líneas de presupuesto de ventas de Sales con Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
+-   [Crear pedidos de ventas en Finance and Operations y sincronizarlos directamente con Sales](sales-order-template-mapping-direct.md)
+-  [Sincronizar encabezados y líneas de pedido de ventas directamente entre Sales y Finance and Operations](sales-order-template-mapping-between-sales-fin.md)
+-   [Sincronizar pedidos de ventas directamente entre Sales y Finance and Operations](sales-order-template-mapping-direct-two-ways.md)
+-   [Crear facturas de ventas en Finance and Operations y sincronizarlos directamente con Sales](sales-invoice-template-mapping-direct.md)
+
+
 ## <a name="system-requirements-for-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Requisitos del sistema para Dynamics 365 for Finance and Operations, Enterprise Edition
 
 Para usar la solución Prospect to cash, debe instalar lo siguiente:
 
 - Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (Julio de 2017) con la actualización de plataforma 8 (aplicación 7.2.11792.56024 con la plataforma 7.0.4565.16212)
 
-- Dos revisiones de Dynamics 365 for Finance and Operations, Enterprise Edition, (julio de 2017).
+- Revisiones de Dynamics 365 for Finance and Operations, Enterprise Edition, (julio de 2017).
+        
+    -  [KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160) - Esta revisión habilita soporte para la sincronización de pedidos de ventas con la característica de integración de datos de Sales a Finance and Operations, junto con otras mejoras.
 
     -  [KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2): esta revisión le permite sincronizar la línea de pedidos de ventas con la característica de integración de datos, de Finance and Operations a Sales.
         
     -  [KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2): esta revisión le permite sincronizar los pedidos de ventas con la característica de integración de datos, de Finance and Operations a Sales.
-    
-**Nota**: solo debe instalar KB4036524 porque la instalación incluye los cambios de KB4036461.
+
+**Nota**: solo debe instalar KB4045570 porque la instalación incluye los cambios de las otras KB.
  
 ## <a name="system-requirements-for-dynamics-365-for-sales"></a>Requisitos del sistema para Dynamics 365 for Sales
 
 Para usar la solución Prospect to cash, debe instalar lo siguiente:
 
-- Dynamics 365 for Sales, versión 1612 (8.2.1.207) (DB 8.2.1.207) en línea o posterior.
+- Dynamics 365 for Sales, versión 1612 (8.2.1.207) (DB 8.2.1.207) en línea.
 - Solución Prospect to cash para Dynamics 365 for Sales, versión 1.14.0.0 (v14) o posterior.
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Instalar la solución Prospect to cash para Sales

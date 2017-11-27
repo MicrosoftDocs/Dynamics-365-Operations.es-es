@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 01bb8999e5d9c0e16f133a621ebfe1d102565f2f
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 2986d218318951b7e46cb5dfafcbd17f2d513755
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/15/2017
 
 ---
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 09/29/2017
 
 Este tema proporciona información acerca de la generación de un informe financiero. 
 
-Para generar un informe, abra la definición del informe y haga clic en el botón Generar en la barra de herramientas. La ventana Estado de la cola del informe abrirá e indicará la ubicación del informe en la cola. De forma predeterminada, el informe generado se abrirá en el visor de la web.
-| ![Nota](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Nota")**Nota**        |
-|------------------------------------------------------------------------------------------------|
-| Puede generar informes únicamente en las carpetas y ubicaciones en las que tiene permiso de acceso. |
+Para generar un informe, abra la definición del informe y haga clic en el botón Generar en la barra de herramientas. La ventana Estado de la cola del informe abrirá e indicará la ubicación del informe en la cola. De forma predeterminada, el informe generado se abrirá en el Visor web.
+
+> [!NOTE]
+> Puede generar informes únicamente en las carpetas y ubicaciones en las que tiene permiso de acceso.
 
 En la siguiente tabla se explican las opciones disponibles para generar informes.
 
@@ -50,10 +50,11 @@ Al generar un informe, se usan las opciones que ha especificado en la pestaña D
 ## <a name="schedule-report-generation"></a> Generación del informe de la programación
 Muchas empresas tienen un conjunto básico de informes que se ejecutan en intervalos programados para alinearlos con sus procesos de negocio. Puede programar un informe para que se genere con regularidad, por ejemplo diaria, semanal, mensual o anualmente. Esto puede realizarse en un solo informe o en un grupo de informes que incluye varias compañías. Deberá especificar las credenciales para cada una de las compañías especificadas, tales como las de una definición de organigrama. Si las credenciales no son válidas, el informe mostrará solo la información a la que tiene permiso de acceso, como la empresa en la que ha iniciado sesión en este momento. La información de salida se lee primero en el grupo de informes y luego en los informes individuales.
 
-A medida que se crean y se guardan las programaciones del informe, se muestran en el panel de navegación en Programaciones del informe. Puede crear carpetas para organizar los informes. Si un informe en una programación no se ejecuta, el resto de los informes seguirán ejecutándose.
-| ![Importante](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Importante")**Importante**                                                                                                           |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Para crear, modificar y eliminar las programaciones de informes, debe tener el rol de diseñador o de administrador. Cuando se ejecuta un informe, se usan las credenciales del usuario que creó la programaciónpara generar el informe. |
+A medida que se crean y se guardan las programaciones del informe, se muestran en el panel de navegación en Programaciones del informe. Puede crear carpetas para organizar los informes. Si un informe único de una programación no se ejecuta, se seguirán ejecutando los demás informes.
+
+> [!IMPORTANT]
+> Para crear, modificar y eliminar programaciones de informe, deberá tener el rol Diseñador o Administrador. Cuando se ejecuta un informe, se usan las credenciales del usuario que creó la programaciónpara generar el informe.
+
 
 ### <a name="create-a-report-schedule"></a>Crear una programación del informe
 
@@ -99,15 +100,16 @@ Para continuar, haga clic en el botón Permisos en el cuadro Programación de in
 ## <a name="missing-account-analysis-feature"></a>Característica que falta de análisis de la cuenta
 Puede buscar las dimensiones y las cuentas financieras que podrían faltar en las definiciones de filas, informando definiciones de organigramas y definiciones del informe en un grupo de bloques de creación. Esto es útil cuando crea o se actualiza varias cuentas o bloques de creación durante un período de tiempo corto, y desea comprobar que toda la nueva información se incluye en los informes.
 
-Las cuentas que faltan se determinan mediante los valores más bajos y más altos de la definición de filas o de la definición del organigrama, y después muestra una lista de cuentas que no están en la definición de filas o en la definición del organigrama, sino en los datos financieros. Si una cuenta que falta es superior o inferior a los valores en la definición de filas, esa cuenta no se incluye en la lista de cuentas que faltan.
-| ![Sugerencia](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Sugerencia")**Sugerencia**                                             |
-|----------------------------------------------------------------------------------------------------------------------------------|
-| Para fines de validación, este proceso debe ser ejecutado antes de generar informes mensuales y al crear nuevos bloques de creación. |
+Las cuentas que faltan se determinan mediante los valores más bajos y más altos de la definición de filas o de la definición del organigrama, y después muestra una lista de cuentas que no están en la definición de filas o en la definición del organigrama, sino en los datos financieros. Si una cuenta que falta es mayor o menor que los valores de la definición de fila, dicha cuenta no se incluye en la lista de cuentas que faltan.
+
+> [!TIP]
+> Por motivos de validación, este proceso debería ejecutarse antes de generar los informes mensuales y cuando se crean bloques de creación nuevos.
 
 No suelen faltar cuentas en los informes que tiene intervalos de valores. Si es posible, use los intervalos en el bloque de creación para incluir nuevas cuentas cuando se crean. Si una definición del informe se establece como empresa @ANY, puede iniciar sesión en una empresa específica y ejecutar un análisis de cuentas que faltan para esa empresa.
-| ![Nota](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Nota")**Nota**                                                                                           |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Si se ha agregado una nueva empresa, debe agregar la nueva empresa a los organigramas en cualquier informe existente o la empresa no estará incluida en el análisis de cuentas que faltan. |
+
+> [!NOTE]
+> Si se ha agregado una nueva empresa, debe agregar la nueva empresa a los organigramas en cualquier informe existente o la empresa no estará incluida en el análisis de cuentas que faltan.
+
 
 ### <a name="run-missing-account-analysis"></a>Ejecutar análisis de cuentas que faltan
 
@@ -117,11 +119,11 @@ No suelen faltar cuentas en los informes que tiene intervalos de valores. Si es 
 4.  En el campo Agrupar por, seleccione una opción para ordenar los resultados. Puede ordenar los resultados según el bloque de creación afectado u ordenar los resultados por conjuntos de dimensiones y valores.
 5.  Revise los resultados que se muestran. Cuando selecciona un elemento en el panel superior, el panel inferior muestra información adicional acerca de la excepción. Esto incluye las dimensiones, los valores y los informes relacionados.
 6.  Para abrir el elemento afectado, haga clic en el icono asociado que se muestra en el panel de la lista, o haga clic con el botón secundario en el elemento y seleccione Abrir. Para seleccionar varios elementos, mantenga presionada la tecla Ctrl mientras selecciona los elementos en el panel inferior.
-7.  Si se devuelven algunos valores, bloques de creación o informes que no deberían estar incluidos en el análisis, haga clic con el botón secundario en el elemento y seleccione Excluir o active la casilla Excluir unto al elemento para quitar el elemento de la lista. Los artículos excluidos no se incluyen al actualizar la lista. Para seleccionar varios elementos, mantenga presionada la tecla Ctrl mientras selecciona los elementos en el panel inferior. Para ver todos los elementos, incluidos los resultados que haya seleccionado anteriormente para excluir de análisis, active la casilla Muestra los bloques de creación y los valores excluidos y, a continuación, haga clic en Actualizar.
-8.  Haga clic en Actualizar para actualizar las excepciones tratadas. Haga clic en Sí para realizar una actualización completa de todos los resultados o haga clic en No para realizar una actualización parcial.
-    | ![Nota](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Nota")**Nota**                    |
-    |------------------------------------------------------------------------------------------------------------|
-    | El formulario se actualiza automáticamente cuando se abre, a menos que el formulario se haya abierto en los 15 últimos minutos. |
+7.  Si se devuelven algunos valores, bloques de creación o informes que no deberían estar incluidos en el análisis, haga clic con el botón secundario en el elemento y seleccione Excluir o active la casilla Excluir unto al elemento para quitar el elemento de la lista. Los artículos excluidos no se incluyen al actualizar la lista. Para seleccionar varios elementos, mantenga presionada la tecla Ctrl a medida que selecciona los elementos en el panel inferior. Para ver todos los elementos, incluidos los resultados seleccionados anteriormente para su exclusión del análisis, active la casilla Mostrar bloques de creación y valores excluidos y haga clic en Actualizar.
+8.  Haga clic en Actualizar para actualizar las excepciones tratadas. Haga clic en Sí para realizar una actualización completa de todos los resultados o en No para realizar una actualización parcial de los elementos tratados.
+
+    > [!NOTE]
+    > El formulario se actualiza automáticamente al abrirse, a menos que el formulario se haya abierto en los últimos 15 minutos.
 
 9.  Cuando los problemas estén resueltos, haga clic en Aceptar para cerrar el cuadro de diálogo.
 

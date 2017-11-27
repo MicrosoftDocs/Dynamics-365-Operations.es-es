@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e8afadb83ac60f51ba7a9bcdd0fd184058ba1ef9
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 454a370e73e6e0d33f0aeb1ca2b3f9d6d9f8cb98
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -56,7 +56,7 @@ La consulta de la propuesta de pago contiene diferentes fichas, cada una con var
 -   **Divisa de pago**: este campo especifica la divisa en la que se crean todos los pagos. Si no se ha definido ninguna divisa, cada factura se paga en la divisa de la factura.
 -   **Día de pago**: especifique el día de la semana en el que se debe efectuar el pago. Este campo solo se usa si el método de pago se configura para sumar las facturas por pagar en un día concreto de la semana.
 -   **Tipo de cuenta de contrapartida** y **Cuenta de contrapartida**: establezca estos campos para definir un tipo de cuenta específico (como **Libro mayor** o **Banco**) y una cuenta de contrapartida (como una cuenta bancaria concreta). El método de pago para la factura define el tipo de cuenta de contrapartida predeterminada como cuenta de contrapartida, si bien puede usar estos campos para reemplazar los valores predeterminados.
--   **Filtros adicionales**: en la ficha desplegable **Registros que incluir** puede definir más intervalos como criterios. Por ejemplo, si desea pagar solo a un intervalo específico de proveedores, puede definir un filtro para el intervalo de proveedores. Esta función a menudo se usa para seleccionar facturas para un método de pago determinado. Por ejemplo, si define un filtro donde **Método de pago** es **Cheque**, solo se seleccionan para pagarse las facturas que tengan esa forma de pago, siempre que también se cumplan otros criterios especificados en la consulta.
+-   **Filtros adicionales**: en la ficha desplegable **Registros que incluir** puede definir más intervalos como criterios. Por ejemplo, si desea pagar solo a un intervalo específico de proveedores, puede definir un filtro para el intervalo de proveedores. Esta función a menudo se usa para seleccionar facturas para un método de pago determinado. Por ejemplo, si define un filtro donde **Método de pago** = **Cheque**, solo se seleccionan para pagarse las facturas que tengan esa forma de pago, siempre que también se cumplan otros criterios especificados en la consulta.
 
 ## <a name="scenarios"></a>Situaciones
 | Proveedor | Factura | Fecha de factura | Importe de factura | Fecha de vencimiento | Fecha del descuento por pronto pago | Importe de descuento por pronto pago |

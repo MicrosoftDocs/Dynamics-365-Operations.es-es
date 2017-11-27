@@ -1,7 +1,7 @@
 ---
 title: "Cálculos de L. MAT"
 description: "La acumulación de costes y los cálculos del precio de venta se conocen como cálculos de lista de materiales (L. MAT) y se inician desde la página Cálculos. Este tema proporciona información sobre los cálculos de L.MAT."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, SalesQuotationTable, SalesTable, SMAServiceOrderTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: b1bcf11a8f6fc4921e8659fe1d00c093e3ad5b74
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: ad00a3b5e41892aaa705fd8eafa52cc199e1d806
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -87,7 +87,7 @@ Cuando se usa un método de marcado según coste, el precio de venta del artícu
 -   **Cálculo de la L. MAT para un artículo y versión de costes específica**: el cálculo de la L. MAT genera un registro de precio de venta pendiente en la versión de gestión de costes. Este registro de precio de venta ofrece el punto de partida para ver los detalles de cálculo (por ejemplo, en la página **Calcular coste del artículo**). El registro de precio de venta actúa principalmente como información de referencia y no se usa como base para un precio de ventas en los pedidos de ventas.
 -   **Cálculo de L. MAT específico**: se usa una variación de la página **Cálculo de L. MAT** en el contexto de un pedido de venta, presupuesto de ventas o un artículo de línea de pedido de servicio. Un cálculo de L. MAT específico de pedido no genera un registro dentro de una versión de gestión de costes. En su lugar, genera un registro de cálculo que aparece en la página **Resultados del cálculo de la L. MAT**. Este registro de cálculo ofrece el punto de partida para ver los detalles de cálculo (por ejemplo, en la página **Calcular coste del artículo**). La información acerca de un registro de cálculo seleccionado puede transferirse al artículo de línea de origen. Por ejemplo, el precio de ventas calculado se puede transferir a un artículo de línea de pedido de ventas.
 
-## <a name="orderspecific-bom-calculations"></a>Cálculos de L. MAT específicos para pedidos
+## <a name="order-specific-bom-calculations"></a>Cálculos de L. MAT específicos para pedidos
 Un cálculo de la lista de materiales (L. MAT.) específico para pedidos representa una variación de un cálculo de L. MAT. para un artículo fabricado. El cálculo de L. MAT. específico del pedido se realiza en el contexto de un pedido de ventas, presupuesto de ventas o artículo de línea de pedido de servicio. Un cálculo MAT específico de pedido genera un registro de cálculo que aparece en la página **Resultados del cálculo de L. MAT** . El registro de cálculo incluye un peso calculado, un coste calculado que se basa en los registros de costes activos, así como en un precio de ventas calculado. El registro de cálculo que cada cálculo de L. MAT específico para pedidos genera en la página **Resultados del cálculo de L. MAT**, que se identifica de forma exclusiva por un número de cálculo. Los resultados de un registro de cálculo se pueden transferir, si lo desea, al artículo de línea de origen. Un cálculo de L. MAT. específico para pedidos se diferencia de dos formas de un cálculo de L. MAT. para un artículo fabricado:
 
 -   Un cálculo de L. MAT específico para pedido no genera un registro de coste de artículo dentro de una versión de gestión de costes. Por lo tanto, las directivas de cálculo de L. MAT no se aplican cuando se crea un registro de costes de artículos, o cuando se sobrescribe un registro de coste.

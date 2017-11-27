@@ -3,7 +3,7 @@ title: "Gestionar el trabajo de subcontratación en la producción"
 description: "Este tema explica cómo las operaciones subcontratadas se administran en Microsoft Dynamics 365 for Finance and Operations. Es decir, explica cómo las operaciones de producción asignadas a un recurso son administradas por un proveedor."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: e1c29f597b190bd36b6fc64b16913ecdd02daf75
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 
 Este tema explica cómo las operaciones subcontratadas se administran en Microsoft Dynamics 365 for Finance and Operations. Es decir, explica cómo las operaciones de producción asignadas a un recurso son administradas por un proveedor.
 
-En [procesos de producción](production-process-overview.md), el trabajo se puede realizar por los recursos propiedad o administrados por los proveedores. Normalmente, se usan los recursos del proveedor para compensar el exceso de la demanda periódico que supera la capacidad disponible de los recursos propios de una empresa. El proveedor también puede proporcionar [capacidades de recursos](resource-capabilities.md)específicas o recursos a un precio más bajo.  
+En [procesos de producción](production-process-overview.md), el trabajo se puede realizar por los recursos propiedad o administrados por los proveedores. Normalmente, se usan los recursos del proveedor para compensar el exceso de la demanda periódico que supera la capacidad disponible de los recursos propios de una empresa. El proveedor también puede proporcionar [capacidades de recursos](resource-capabilities.md) específicas o recursos a un precio más bajo.  
 
 En función de los recursos del proveedor que se usan en un proceso de producción, una [ruta](routes-operations.md) a menudo tiene requisitos logísticos adicionales, ya que el material y los productos semiterminados se deben transportar primero al sitio de proveedor. A continuación, se debe transportar el resultado de la operación subcontratada a la ubicación que se asigna para la siguiente operación o a un almacén de productos terminados.  
 
@@ -68,7 +68,7 @@ Si se usa esta configuración, se crea un pedido de compra para el producto de s
 Un pedido de producción puede tener muchas operaciones, y cada operación se puede asignar a un proveedor diferente. Por lo tanto, un pedido de producción de principio a fin puede activar varios pedidos de compra.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Subcontratación de actividades de flujo de producción
-La solución [lean manufacturing](lean-manufacturing-overview.md)modela el trabajo de subcontratación como un servicio relacionado con una actividad de un [flujo de producción](tasks/create-production-flow-version.md) (tema de la Guía de tareas). Por tanto, a este tipo de subcontratación se lo denomina también [subcontratación basada en actividades.](activity-based-subcontracting.md) Se han introducido un tipo especial de grupo de costes que se denomina **Subcontratación directa** y los servicios de subcontratación ya no son parte de una lista de materiales de productos terminados. Cuando usa la lean manufacturing, todas las actividades se definen por kanbans que pueden estar relacionadas con una o varias actividades del flujo de producción. Hasta ahora, esa explicación es similar a la de los pedidos de producción. Sin embargo, mientras que los pedidos de producción deben finalizar siempre con un producto terminado, puede crear kanbans para suministrar un producto semiterminado. No tiene que especificar un nuevo producto y nivel de lista de materiales.  
+La solución [lean manufacturing](lean-manufacturing-overview.md) modela el trabajo de subcontratación como un servicio relacionado con una actividad de un [flujo de producción](tasks/create-production-flow-version.md) (tema de la Guía de tareas). Por tanto, a este tipo de subcontratación se lo denomina también [subcontratación basada en actividades.](activity-based-subcontracting.md) Se han introducido un tipo especial de grupo de costes que se denomina **Subcontratación directa** y los servicios de subcontratación ya no son parte de una lista de materiales de productos terminados. Cuando usa la lean manufacturing, todas las actividades se definen por kanbans que pueden estar relacionadas con una o varias actividades del flujo de producción. Hasta ahora, esa explicación es similar a la de los pedidos de producción. Sin embargo, mientras que los pedidos de producción deben finalizar siempre con un producto terminado, puede crear kanbans para suministrar un producto semiterminado. No tiene que especificar un nuevo producto y nivel de lista de materiales.  
 
 Dado que las reglas kanban pueden ser muy dinámicas, se pueden modelar distintas variantes de suministro para el mismo producto de un flujo de producción. Cuando utilice la subcontratación lean, el flujo de material y el flujo financiero se separarán estrictamente. Todo el flujo de material se representa con actividades de kanban. Los pedidos de compra para los productos de servicio y los registros de recepción de dichos servicios se pueden automatizar, en función del estado de los trabajos kanban, en el flujo de producción. Los trabajos kanban se pueden iniciar y completar incluso antes de que se creen los pedidos de compra. Los documentos de subcontratación (pedido de compra y recepción de compra de servicio) se pueden agregar por período y servicio. Por lo tanto, se puede mantener un número reducido de documentos y líneas de compra, incluso en las operaciones muy repetitivas en las que los proveedores proporcionen servicios subcontratados en un flujo unitario.
 

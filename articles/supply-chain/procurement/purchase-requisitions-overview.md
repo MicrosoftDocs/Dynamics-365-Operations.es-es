@@ -1,9 +1,9 @@
 ---
 title: "Visión general de solicitud de compra"
-description: "Este artículo describe el flujo de trabajo de solicitudes de compra y los diferentes estados que puede tener una solicitud de compra."
+description: Este tema describe el flujo de trabajo de solicitudes de compra y los diferentes estados que puede tener una solicitud de compra.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 6fb8bbc7340650341618f3a9613f4234ef1e9c04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b96a89bcabdaa3e3a3be3786dda15f9725f5a50d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo describe el flujo de trabajo de solicitudes de compra y los diferentes estados que puede tener una solicitud de compra.
+Este tema describe el flujo de trabajo de solicitudes de compra y los diferentes estados que puede tener una solicitud de compra.
 
 En función de la configuración de la organización, podrá crear solicitudes de compra de productos que su organización usa. Una solicitud de compra es un documento interno que autoriza al departamento de compras a comprar artículos o servicios.  
 
@@ -70,7 +70,7 @@ El estado general de una solicitud de compra lo determina el estado de las líne
 <tr class="odd">
 <td>Borrador</td>
 <td>Borrador</td>
-<td>La solicitud de compra y la línea de solicitud de compra se han creado, pero aún no se han enviado a revisión. Las solicitudes de compra y las líneas de solicitud de compra que tengan un estado <strong>Borrador</strong> se pueden modificar. Una solicitud de compra o una línea de solicitud de compra también tiene un estado <strong>Borrador</strong> si se ha recuperado pero no se ha vuelto a enviar a revisión.<strong>Nota:</strong> puede enviar o recuperar una solicitud de compra en el nivel de documento. Sin embargo, no puede enviar o recuperar una única línea de solicitud de compra.</td>
+<td>La solicitud de compra y la línea de solicitud de compra se han creado, pero aún no se han enviado a revisión. Las solicitudes de compra y las líneas de solicitud de compra que tienen el estado <strong>Borrador</strong> se pueden modificar. Una solicitud de compra o una línea de solicitud de compra también tiene el estado <strong>Borrador</strong> si se han recuperado, pero no se ha reenviado a revisión. <strong>Nota:</strong> Solo puede enviar o recuperar una solicitud de compra a nivel de documento. Sin embargo, no puede enviar o recuperar una única línea de solicitud de compra.</td>
 </tr>
 <tr class="even">
 <td>En revisión</td>
@@ -111,7 +111,7 @@ Si reenvía una línea de solicitud de compra que se ha rechazado, el proceso de
 <tr class="odd">
 <td>Cancelado</td>
 <td>Cancelado</td>
-<td>La solicitud de compra y todas las líneas de solicitud de compra se han cancelado.<strong>Nota:</strong> si ha ya no requiere un artículo que esté en una línea de solicitud de compra, debe cancelar la línea de solicitud de compra si se ha aprobado. Solo se pueden cancelar las líneas de las solicitudes de compra que se han aprobado. Si se están revisando las líneas de solicitud de compra, la solicitud de compra tendrá también el estado <strong>En revisión</strong>. En este caso, puede recuperar la solicitud de compra y eliminar la línea de solicitud de compra correspondiente.</td>
+<td>La solicitud de compra y todas las líneas de solicitud de compra se han cancelado. <strong>Nota:</strong> Si ya no necesita un artículo que se encuentra en una línea de solicitud de compra, debe cancelar la línea de solicitud de compra si se ha aprobado. Solo se pueden cancelar las líneas de las solicitudes de compra que se han aprobado. Si se están revisando las líneas de solicitud de compra, la solicitud de compra tendrá también el estado <strong>En revisión</strong>. En este caso, puede recuperar la solicitud de compra y eliminar la línea de solicitud de compra correspondiente.</td>
 </tr>
 <tr class="even">
 <td>Cerrado</td>

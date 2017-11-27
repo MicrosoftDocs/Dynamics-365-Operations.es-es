@@ -1,9 +1,9 @@
 ---
-title: "Método Asignación de coste total"
-description: "Este artículo proporciona directrices para usar la asignación de coste total (TCA). TCA es un método para calcular el coste entre el producto de fórmula principal para un pedido de lote y los coproductos que se definen para la fórmula."
+title: "Método de asignación de coste total"
+description: "Este tema proporciona directrices para usar la asignación de coste total (TCA). TCA es un método para calcular el coste entre el producto de fórmula principal para un pedido de lote y los coproductos que se definen para la fórmula."
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 83852
 ms.assetid: 7c14c3e5-9476-4a79-a210-e77fc91cc7fc
 ms.search.region: Global
@@ -20,19 +20,19 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b070aaeecacdee7af08d8136dc4232449b8f988b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 4f3d75411e8c99365f1aba8214c78e93b4741871
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="total-cost-allocation-method"></a>Método Asignación de coste total
+# <a name="total-cost-allocation-method"></a>Método de asignación de coste total
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo proporciona directrices para usar la asignación de coste total (TCA). TCA es un método para calcular el coste entre el producto de fórmula principal para un pedido de lote y los coproductos que se definen para la fórmula.
+Este tema proporciona directrices para usar la asignación de coste total (TCA). TCA es un método para calcular el coste entre el producto de fórmula principal para un pedido de lote y los coproductos que se definen para la fórmula.
 
 La asignación de coste total (TCA) es un método para calcular el coste entre el producto de fórmula principal para un pedido de lote y los coproductos que se definen para la fórmula. Este método es dinámico. Calcula el coste como media ponderada entre las cantidades que se notifican como terminadas del producto de fórmula y los coproductos. Cuando se usa el TCA, no es necesario revisar las asignaciones de costes para cada pedido de lote. Si no se usa el TCA, el cálculo de la fórmula usa la funcionalidad existente.
 

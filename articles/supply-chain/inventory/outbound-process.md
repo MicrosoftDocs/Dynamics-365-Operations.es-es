@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9c09a7bd314bb9005eb0b6c69d7cccad1c30cfdb
-ms.openlocfilehash: 7b395cab2184f8f9f3f50a7a595c6ed782645323
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1b8b17b719713097d77a117cca53eff6886ff1c7
 ms.contentlocale: es-es
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ Vaya a **Gestión del inventario** \> **Configuración** \> **Parámetros de ges
 
 [![Opción para completar el pedido de inventario de salida](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 
-A veces no se pueden seleccionar algunos de los artículos del inventario como parte del proceso de la lista de selección. Por ejemplo, esta situación podría ocurrir si un trabajador del almacén reduce las cantidades de las líneas de selección y procesa la lista de selección. Si la opción **Completar pedido de inventario de salida** se establece en **Sí**, las cantidades sin seleccionar que quedan vuelven al nivel de pedido. Si la opción se establece en **No**, las cantidades sin seleccionar que quedan se mantienen como una cantidad de pedido de salida abierta. En este caso, las cantidades quedan libres en el almacén y deben agregarse a una nueva lista de selección como parte de la funcionalidad **Abrir pedidos de salida**.
+Cuando el trabajador de almacén reduce las cantidades de la lista de selección, las cantidades correspondientes del pedido de inventario se quitarán del envío. Cuando la lista de selección se actualiza en un momento dado, las cantidades restantes vuelven al pedido si la opción **Completar pedido de inventario de salida** se establece en **Sí**. Si la opción **Completar pedido de inventario de salida** se establece en **No**, las cantidades restantes se conservan como cantidad de pedido de salida abierta y se deben agregar a una nueva lista de selección como parte de la funcionalidad **Abrir pedidos de salida**. 
 
 [![Comando para abrir los pedidos de salida en el menú Funciones](./media/open-output-order.png)](./media/open-output-order.png)
 
