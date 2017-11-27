@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: 358f5bf6194f5dd3f1639425e6633aa1a855bdc1
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 449643cc34e67388210e0b4e9d04d615d2420610
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/15/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent facilita muchas tareas rutinarias de conservación de registros y automatiza distintos procesos relacionados con la dotación de personal para la organización. Estos procesos incluyen la conservación de empleados, la administración de prestaciones, la formación, las evaluaciones de desempeño y la administración de cambios. También proporciona un marco de trabajo para que el personal de recursos humanos administre las áreas de supervisión.
+Microsoft Dynamics 365 for Talent simplifica muchas tareas rutinarias de mantenimiento de registros y automatiza un gran número de procesos relacionados con la dotación de personal para la organización. Estos procesos incluyen la conservación de empleados, la administración de prestaciones, la formación, las evaluaciones de desempeño y la administración de cambios. También proporciona un marco de trabajo para que el personal de recursos humanos administre las áreas de supervisión.
 
 Puede usar Talent para completar estas tareas:
 
@@ -53,7 +53,7 @@ Durante el trabajo con Talent, decidirá cómo estructurar su organización util
 -   [Organizar los recursos mediante departamentos, trabajos y puestos](departments-jobs-positions.md)
 -   [Configurar parámetros de recursos humanos específicos de la empresa](set-up-company-specific-hr-parameters.md)
 -   [Configurar parámetros de recursos humanos en entidades jurídicas](set-up-hr-parameters-across-legal-entities.md) 
--   [Preguntas más frecuentes sobre acciones del personal](personnel-actions-faq.md)
+-   [Preguntas frecuentes sobre acciones del personal](personnel-actions-faq.md)
 -   [Visión general de bajas y ausencias](leave-absence-overview.md)
 
 ## <a name="staffing-your-organization"></a>Dotación de personal para la organización

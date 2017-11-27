@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b53f95a55e66f7df4f7b3b85dd0dee2047019439
-ms.openlocfilehash: f0f601b2cf66daf0d7d3175bc78938e13aa6cd19
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 35b574e24e721e80ca1469878697aba4c1699dff
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 Microsoft Dynamics 365 for Retail es una solución comercial integral que ofrece un comercio unificado en todos los canales. Abarca ventas, movilidad, inteligencia y productividad para ayudar a minoristas y trabajadores a alcanzar más objetivos a través del enfoque "primero móvil, primero en la nube". Retail ofrece una amplia compatibilidad que le permite controlar una gran variedad de procesos empresariales, como la comercialización, el inventario y la administración de canales. También proporciona experiencias de cliente inmersivas en todos los puntos de contacto.
 
 > [!NOTE] 
-> Dynamics 365 for Retail está estrechamente relacionado con Dynamics 365 for Finance and Operations, edición Enterprise y Dynamics 365 for Talent. Puede que los tres productos tengan la misma funcionalidad. Por consiguiente, en los temas que esencialmente se relacionan con Retail, el nombre del producto será Microsoft Dynamics 365 for Retail; en los temas que se relacionan con el producto básico (Finance and Operations), el nombre del producto será Microsoft Dynamics 365 for Finance and Operations, edición Enterprise; en los temas que se relacionan con recursos humanos, el nombre del producto será Dynamics 365 for Talent. 
+> Dynamics 365 for Retail está estrechamente relacionado con Dynamics 365 for Finance and Operations, Enterprise Edition y Dynamics 365 for Talent. Puede que los tres productos tengan la misma funcionalidad. Por consiguiente, en los temas que esencialmente se relacionan con Retail, el nombre del producto será Microsoft Dynamics 365 for Retail; en los temas que se relacionan con el producto básico (Finance and Operations), el nombre del producto será Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition; en los temas que se relacionan con recursos humanos, el nombre del producto será Dynamics 365 for Talent. 
 
 En el panel de la izquierda, seleccione un área funcional para obtener más información acerca de ella.
 
@@ -48,7 +48,7 @@ Además, los clientes tienen varias opciones para conseguir lo que desean, cuand
 ## <a name="hardware-and-peripherals"></a>Hardware y periféricos
 El punto de venta moderno (MPOS) de Retail y Cloud POS pueden usar una gran variedad de periféricos de hardware. Tanto MPOS como Cloud POS ofrecen varias interfaces y opciones de implementación para poder adaptarse a distintos escenarios comerciales.
 
-El simulador de periféricos de Retail incluye un simulador de periféricos virtual y un simulador de POS. El simulador de periféricos virtual admite, principalmente, las pruebas para escenarios que suelen requerir dispositivos periféricos de PDV físicos. El simulador de POS permite probar la compatibilidad de dispositivos periféricos físicos con Retail sin tener que implementar el cliente de POS.
+El simulador de periféricos de Retail incluye un simulador de periféricos virtual y un simulador de POS. El simulador de periféricos virtual admite, principalmente, las pruebas para escenarios que suelen requerir dispositivos periféricos de POS físicos. El simulador de POS permite probar la compatibilidad de dispositivos periféricos físicos con Retail sin tener que implementar el cliente de POS.
 
 ## <a name="intelligence"></a>Inteligencia
 Los análisis avanzados ofrecen el potencial del aprendizaje automático a los retos comerciales y permiten extraer información predictiva, optimizada y personalizada que favorece el crecimiento y la rentabilidad. Retail permite presentar informes visuales en cualquier dispositivo, en línea o sin conexión. También puede ayudar a los clientes a identificar los productos y servicios que satisfacen sus necesidades antes de la compra.
@@ -59,12 +59,12 @@ Retail permite supervisar el rendimiento del margen y las ventas en tiempo real 
 ## <a name="merchandising"></a>Comercialización
 Para poder ofrecer productos para la venta en sus canales comerciales, debe crear y configurar los productos en Retail. Puede crear los productos, definir sus atributos y propiedades y asignar los productos a las jerarquías de categorías comerciales. Para que los productos estén disponibles para los canales comerciales y agregarlos a una selección activa, deberá lanzarlos para las entidades jurídicas en las que estén disponibles.
 
-Puede realizar ajustes de precios en los productos y configurar los descuentos que se aplican a un artículo de línea o a una transacción en el PDV, en un pedido de ventas del centro de llamadas o en un pedido en línea.
+Puede realizar ajustes de precios en los productos y configurar los descuentos que se aplican a un artículo de línea o a una transacción en el POS, en un pedido de ventas del centro de llamadas o en un pedido en línea.
 
-## <a name="store-operations-and-pos"></a>Operaciones de tienda y PDV
-MPOS es una aplicación de PDV para equipos, tabletas y teléfonos. El personal de ventas puede procesar las transacciones de venta y los pedidos de los clientes, además de realizar actividades de relación con el cliente, operaciones diarias y gestión de inventarios en dispositivos móviles en cualquier lugar de la tienda, o bien desde cajas registradoras instaladas en PC. Cloud POS es un PDV basado en explorador que se puede iniciar desde cualquier explorador estándar.
+## <a name="store-operations-and-pos"></a>Operaciones de tienda y POS
+MPOS es una aplicación de POS para equipos, tabletas y teléfonos. El personal de ventas puede procesar las transacciones de venta y los pedidos de los clientes, además de realizar actividades de relación con el cliente, operaciones diarias y gestión de inventarios en dispositivos móviles en cualquier lugar de la tienda, o bien desde cajas registradoras instaladas en PC. Cloud POS es un POS basado en explorador que se puede iniciar desde cualquier explorador estándar.
 
-Deberá configurar varios componentes para definir las relaciones entre una tienda, las cajas registradoras de PDV de la tienda y los periféricos comerciales que esas cajas registradoras utilizan para procesar transacciones. También definirá las características de una instancia específica del PDV. Estas características incluyen el perfil de hardware o la configuración de los periféricos comerciales que se utilizarán en la caja registradora, la tienda a la que se asigna la caja registradora y la experiencia visual para el usuario que inicia sesión en esa caja registradora, así como las funciones habilitadas en ella. También definirá si la caja registradora puede funcionar desconectada o fuera de línea.
+Deberá configurar varios componentes para definir las relaciones entre una tienda, las cajas registradoras de POS de la tienda y los periféricos comerciales que esas cajas registradoras utilizan para procesar transacciones. También definirá las características de una instancia específica del POS. Estas características incluyen el perfil de hardware o la configuración de los periféricos comerciales que se utilizarán en la caja registradora, la tienda a la que se asigna la caja registradora y la experiencia visual para el usuario que inicia sesión en esa caja registradora, así como las funciones habilitadas en ella. También definirá si la caja registradora puede funcionar desconectada o fuera de línea.
 
 ## <a name="customize-and-administer-retail-environments"></a>Personalizar y gestionar los entornos de Retail
 Si se le ha pedido que personalice su entorno o si es responsable de implementar y mantener el sistema, consulte el contenido del desarrollador y del administrador del sistema específico para Retail, además del contenido más general.
@@ -74,7 +74,7 @@ Si se le ha pedido que personalice su entorno o si es responsable de implementar
 
 ## <a name="additional-resources"></a>Recursos adicionales
 ### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
-Consulte [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) (Guía básica de Microsoft Dynamics 365) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo.
+Consulte la [Guía básica de Microsoft Dynamics 365](https://roadmap.dynamics.com/) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo.
 
 ### <a name="blogs"></a>Blogs
 Puede encontrar opiniones, noticias y otra información sobre Retail y otras soluciones en el blog [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog).

@@ -18,10 +18,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 741166608de504512cc0ad48cb7cd4b2d50b6c80
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: fd7ac1f57f46634ba6b62edd5eb07f534b08cb90
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -124,7 +124,7 @@ En los temas siguientes se proporciona información acerca de las liquidaciones.
 
 #### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
-Consulte [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) (Guía básica de Microsoft Dynamics 365) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo. 
+Consulte la [Guía básica de Microsoft Dynamics 365](https://roadmap.dynamics.com/) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo. 
 
 #### <a name="blogs"></a>Blogs
 

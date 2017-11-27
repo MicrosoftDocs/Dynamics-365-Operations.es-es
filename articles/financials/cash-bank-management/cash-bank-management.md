@@ -3,14 +3,14 @@ title: "Página principal de gestión de efectivo y bancos"
 description: "Puede usar la Gestión de efectivo y bancos para mantener las cuentas bancarias de la entidad jurídica y los instrumentos financieros asociados a dichas cuentas bancarias."
 author: twheeloc
 manager: AnnBe
-ms.date: 08/21/2017
+ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 82a2be9d6058a1c3394bb8269774772793333541
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8b060d8ef5bd7e7358df666c5e17cc5d9aac944a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -86,11 +86,11 @@ Entre estos instrumentos se encuentran resguardos de depósito, cheques, letras 
 
 #### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
-Consulte [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) (Guía básica de Microsoft Dynamics 365) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo. 
+Consulte la [Guía básica de Microsoft Dynamics 365](https://roadmap.dynamics.com/) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo. 
 
 #### <a name="blogs"></a>Blogs
 
-Puede encontrar opiniones, noticias y otra información sobre Gestión de efectivo y bancos y otras soluciones en el[blog Microsoft Dynamics 365] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Puede encontrar opiniones, noticias y otra información sobre Gestión de efectivo y bancos y otras soluciones en el [blog de Microsoft Dynamics 365] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
 Hay muchas publicaciones sobre Gestión de efectivo y bancos en el [blog del equipo del producto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Aunque la mayoría de ellos se escribieron para la versión anterior de Gestión de efectivo y bancos, aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son también similares.
 
