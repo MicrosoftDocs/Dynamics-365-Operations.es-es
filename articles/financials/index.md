@@ -25,22 +25,22 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="financial-management-home-page"></a>Página principal de administración financiera
+# <a name="financial-management-home-page"></a><span data-ttu-id="cdebd-103">Página principal de administración financiera</span><span class="sxs-lookup"><span data-stu-id="cdebd-103">Financial management home page</span></span>
 
 [!include[banner](includes/banner.md)]
 
-En este tema, se proporciona una lista de temas de ayuda y otros recursos para las características de administración financiera de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+<span data-ttu-id="cdebd-104">En este tema, se proporciona una lista de temas de ayuda y otros recursos para las características de administración financiera de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="cdebd-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
 
-Seleccione un área de características para obtener más información al respecto.
-- [Proveedores](accounts-payable\accounts-payable.md) 
-- [Clientes](accounts-receivable\accounts-receivable.md) 
-- [Gestión de efectivo y bancos](cash-bank-management\cash-bank-management.md)
-- [Contabilidad de costes](cost-accounting\cost-accounting-home-page.md)
-- [Activos fijos](fixed-assets\fixed-assets.md)
-- [Contabilidad general](general-ledger\general-ledger.md) 
-- [Administración de proyectos](project-management\overview-project-management-accounting.md)
-- [Sector público](public-sector\public-sector-functionality.md) 
-- [Gestión presupuestaria](budgeting\budgeting-overview.md) 
+<span data-ttu-id="cdebd-105">Seleccione un área de características para obtener más información al respecto.</span><span class="sxs-lookup"><span data-stu-id="cdebd-105">Select a feature area to learn more about it.</span></span>
+- [<span data-ttu-id="cdebd-106">Proveedores</span><span class="sxs-lookup"><span data-stu-id="cdebd-106">Accounts payable</span></span>](accounts-payable\accounts-payable.md) 
+- [<span data-ttu-id="cdebd-107">Clientes</span><span class="sxs-lookup"><span data-stu-id="cdebd-107">Accounts receivable</span></span>](accounts-receivable\accounts-receivable.md) 
+- [<span data-ttu-id="cdebd-108">Gestión de efectivo y bancos</span><span class="sxs-lookup"><span data-stu-id="cdebd-108">Cash and bank management</span></span>](cash-bank-management\cash-bank-management.md)
+- [<span data-ttu-id="cdebd-109">Contabilidad de costes</span><span class="sxs-lookup"><span data-stu-id="cdebd-109">Cost accounting</span></span>](cost-accounting\cost-accounting-home-page.md)
+- [<span data-ttu-id="cdebd-110">Activos fijos</span><span class="sxs-lookup"><span data-stu-id="cdebd-110">Fixed assets</span></span>](fixed-assets\fixed-assets.md)
+- [<span data-ttu-id="cdebd-111">Contabilidad general</span><span class="sxs-lookup"><span data-stu-id="cdebd-111">General ledger</span></span>](general-ledger\general-ledger.md) 
+- [<span data-ttu-id="cdebd-112">Administración de proyectos</span><span class="sxs-lookup"><span data-stu-id="cdebd-112">Project management</span></span>](project-management\overview-project-management-accounting.md)
+- [<span data-ttu-id="cdebd-113">Sector público</span><span class="sxs-lookup"><span data-stu-id="cdebd-113">Public sector</span></span>](public-sector\public-sector-functionality.md) 
+- [<span data-ttu-id="cdebd-114">Gestión presupuestaria</span><span class="sxs-lookup"><span data-stu-id="cdebd-114">Budgeting</span></span>](budgeting\budgeting-overview.md) 
 
 
 

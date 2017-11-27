@@ -18,89 +18,89 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cd36663eddbd54a11b7f7c127631d249fb63227b
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 449643cc34e67388210e0b4e9d04d615d2420610
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/15/2017
 
 ---
 
-# <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Esto es Microsoft Dynamics 365 for Talent
+# <a name="welcome-to-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="38cf3-104">Esto es Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="38cf3-104">Welcome to Microsoft Dynamics 365 for Talent</span></span>
 
 [!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent facilita muchas tareas rutinarias de conservación de registros y automatiza distintos procesos relacionados con la dotación de personal para la organización. Estos procesos incluyen la conservación de empleados, la administración de prestaciones, la formación, las evaluaciones de desempeño y la administración de cambios. También proporciona un marco de trabajo para que el personal de recursos humanos administre las áreas de supervisión.
+<span data-ttu-id="38cf3-105">Microsoft Dynamics 365 for Talent simplifica muchas tareas rutinarias de mantenimiento de registros y automatiza un gran número de procesos relacionados con la dotación de personal para la organización.</span><span class="sxs-lookup"><span data-stu-id="38cf3-105">Microsoft Dynamics 365 for Talent streamlines many routine recordkeeping tasks and automates a number of processes related to staffing your organization.</span></span> <span data-ttu-id="38cf3-106">Estos procesos incluyen la conservación de empleados, la administración de prestaciones, la formación, las evaluaciones de desempeño y la administración de cambios.</span><span class="sxs-lookup"><span data-stu-id="38cf3-106">These processes include employee retention, benefits administration, training, performance reviews, and change management.</span></span> <span data-ttu-id="38cf3-107">También proporciona un marco de trabajo para que el personal de recursos humanos administre las áreas de supervisión.</span><span class="sxs-lookup"><span data-stu-id="38cf3-107">It also provides a framework for human resources staff to manage areas of oversight.</span></span>
 
-Puede usar Talent para completar estas tareas:
+<span data-ttu-id="38cf3-108">Puede usar Talent para completar estas tareas:</span><span class="sxs-lookup"><span data-stu-id="38cf3-108">You can use Talent to complete these tasks:</span></span>
 
-+ Administrar estructuras organizativas.
-+ Mantener la información completa del trabajador desde la contratación hasta la jubilación.
-+ Definir y administrar planes de prestaciones, contratar a trabajadores, asignar cobertura a dependientes y designar beneficiarios.
-+ Crear y supervisar directivas de ausencia.
-+ Implementar y supervisar la gestión de horas basada en perfiles y generar información de sueldo para exportar a un sistema de nóminas.
-+ Gestionar competencias del trabajador.
-+ Revisar objetivos de los trabajadores de rendimiento e implementación.
-+ Configurar, proporcionar y analizar cursos, incluidos los programas, las sesiones y las trayectorias.
++ <span data-ttu-id="38cf3-109">Administrar estructuras organizativas.</span><span class="sxs-lookup"><span data-stu-id="38cf3-109">Administer organizational structures.</span></span>
++ <span data-ttu-id="38cf3-110">Mantener la información completa del trabajador desde la contratación hasta la jubilación.</span><span class="sxs-lookup"><span data-stu-id="38cf3-110">Maintain comprehensive worker information from hire to retire.</span></span>
++ <span data-ttu-id="38cf3-111">Definir y administrar planes de prestaciones, contratar a trabajadores, asignar cobertura a dependientes y designar beneficiarios.</span><span class="sxs-lookup"><span data-stu-id="38cf3-111">Define and administer benefit plans, enroll workers, assign dependent coverage, and designate beneficiaries.</span></span>
++ <span data-ttu-id="38cf3-112">Crear y supervisar directivas de ausencia.</span><span class="sxs-lookup"><span data-stu-id="38cf3-112">Establish and monitor absence policies.</span></span>
++ <span data-ttu-id="38cf3-113">Implementar y supervisar la gestión de horas basada en perfiles y generar información de sueldo para exportar a un sistema de nóminas.</span><span class="sxs-lookup"><span data-stu-id="38cf3-113">Implement and track profile-based time management and generate pay information to export to a payroll system.</span></span>
++ <span data-ttu-id="38cf3-114">Gestionar competencias del trabajador.</span><span class="sxs-lookup"><span data-stu-id="38cf3-114">Manage worker competencies.</span></span>
++ <span data-ttu-id="38cf3-115">Revisar objetivos de los trabajadores de rendimiento e implementación.</span><span class="sxs-lookup"><span data-stu-id="38cf3-115">Review performance and implement worker goals.</span></span>
++ <span data-ttu-id="38cf3-116">Configurar, proporcionar y analizar cursos, incluidos los programas, las sesiones y las trayectorias.</span><span class="sxs-lookup"><span data-stu-id="38cf3-116">Set up, deliver, and analyze training courses that include agendas, sessions, and tracks.</span></span>
 
 > [!NOTE] 
-> Dynamics 365 for Talent está estrechamente vinculado con Recursos humanos en Dynamics 365 for Finance and Operations, Enterprise Edition. Puede que ambos productos tengan la misma funcionalidad. Como resultado, en los temas relacionados principalmente con Recursos humanos, el nombre del producto será Dynamics 365 for Finance and Operations, Enterprise Edition. En los temas relacionados principalmente con Talent, el nombre del producto será Dynamics 365 for Talent. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
+> <span data-ttu-id="38cf3-117">Dynamics 365 for Talent está estrechamente vinculado con Recursos humanos en Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="38cf3-117">Dynamics 365 for Talent is closely related to Human resources in Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="38cf3-118">Puede que ambos productos tengan la misma funcionalidad.</span><span class="sxs-lookup"><span data-stu-id="38cf3-118">The same functionality may appear in both products.</span></span> <span data-ttu-id="38cf3-119">Como resultado, en los temas relacionados principalmente con Recursos humanos, el nombre del producto será Dynamics 365 for Finance and Operations, Enterprise Edition. En los temas relacionados principalmente con Talent, el nombre del producto será Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="38cf3-119">As a result, in topics that are primarily related Human resources, the product name will be Dynamics 365 for Finance and Operations, Enterprise Edition; in topics that are primarily related to Talent, the product name will be Dynamics 365 for Talent.</span></span> <span data-ttu-id="38cf3-120">Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.</span><span class="sxs-lookup"><span data-stu-id="38cf3-120">Topics that are written for one product may apply to the same functionality in a related product.</span></span>
 
-<a name="develop-a-strategy-for-managing-your-human-resources"></a>Desarrollar una estrategia para administrar sus recursos humanos
+<a name="develop-a-strategy-for-managing-your-human-resources"></a><span data-ttu-id="38cf3-121">Desarrollar una estrategia para administrar sus recursos humanos</span><span class="sxs-lookup"><span data-stu-id="38cf3-121">Develop a strategy for managing your human resources</span></span>
 ---------------------------------------------------------
 
-Durante el trabajo con Talent, decidirá cómo estructurar su organización utilizando elementos como departamentos, trabajos y puestos. Estos son los elementos fundamentales que configurará. Se asignan empleados individuales a puestos asociados a trabajos.
+<span data-ttu-id="38cf3-122">Durante el trabajo con Talent, decidirá cómo estructurar su organización utilizando elementos como departamentos, trabajos y puestos.</span><span class="sxs-lookup"><span data-stu-id="38cf3-122">As you work with Talent, you'll decide how to structure your organization, using elements, such as departments, jobs, and positions.</span></span> <span data-ttu-id="38cf3-123">Estos son los elementos fundamentales que configurará.</span><span class="sxs-lookup"><span data-stu-id="38cf3-123">These are among the foundational elements that you'll configure.</span></span> <span data-ttu-id="38cf3-124">Se asignan empleados individuales a puestos asociados a trabajos.</span><span class="sxs-lookup"><span data-stu-id="38cf3-124">Individual employees are assigned to positions which are associated with jobs.</span></span>
 
--   [Organizar los recursos mediante departamentos, trabajos y puestos](departments-jobs-positions.md)
--   [Configurar parámetros de recursos humanos específicos de la empresa](set-up-company-specific-hr-parameters.md)
--   [Configurar parámetros de recursos humanos en entidades jurídicas](set-up-hr-parameters-across-legal-entities.md) 
--   [Preguntas más frecuentes sobre acciones del personal](personnel-actions-faq.md)
--   [Visión general de bajas y ausencias](leave-absence-overview.md)
+-   [<span data-ttu-id="38cf3-125">Organizar los recursos mediante departamentos, trabajos y puestos</span><span class="sxs-lookup"><span data-stu-id="38cf3-125">Organize your workforce using departments, jobs, and positions</span></span>](departments-jobs-positions.md)
+-   [<span data-ttu-id="38cf3-126">Configurar parámetros de recursos humanos específicos de la empresa</span><span class="sxs-lookup"><span data-stu-id="38cf3-126">Set up company-specific HR parameters</span></span>](set-up-company-specific-hr-parameters.md)
+-   [<span data-ttu-id="38cf3-127">Configurar parámetros de recursos humanos en entidades jurídicas</span><span class="sxs-lookup"><span data-stu-id="38cf3-127">Set up HR parameters across legal entities</span></span>](set-up-hr-parameters-across-legal-entities.md) 
+-   [<span data-ttu-id="38cf3-128">Preguntas frecuentes sobre acciones del personal</span><span class="sxs-lookup"><span data-stu-id="38cf3-128">Personnel actions FAQ</span></span>](personnel-actions-faq.md)
+-   [<span data-ttu-id="38cf3-129">Visión general de bajas y ausencias</span><span class="sxs-lookup"><span data-stu-id="38cf3-129">Leave and absence overview</span></span>](leave-absence-overview.md)
 
-## <a name="staffing-your-organization"></a>Dotación de personal para la organización
+## <a name="staffing-your-organization"></a><span data-ttu-id="38cf3-130">Dotación de personal para la organización</span><span class="sxs-lookup"><span data-stu-id="38cf3-130">Staffing your organization</span></span>
 
-Dynamics 365 for Talent incluye la aplicación Attract, que puede ayudarle a identificar, entrevistar y contratar candidatos que reúnan las aptitudes que su organización necesita. A medida que pasa del reclutamiento a la contratación, la aplicación Onboard puede ayudarle a traer a su nuevo empleado a la organización estableciendo expectativas precisas, proporcionando información que necesita para comenzar, conectándole con colegas y preparándole para el éxito en su nuevo rol.  
+<span data-ttu-id="38cf3-131">Dynamics 365 for Talent incluye la aplicación Attract, que puede ayudarle a identificar, entrevistar y contratar candidatos que reúnan las aptitudes que su organización necesita.</span><span class="sxs-lookup"><span data-stu-id="38cf3-131">Dynamics 365 for Talent includes the Attract app, which can help you identify, interview, and hire candidates that hold the skills your organization needs.</span></span> <span data-ttu-id="38cf3-132">A medida que pasa del reclutamiento a la contratación, la aplicación Onboard puede ayudarle a traer a su nuevo empleado a la organización estableciendo expectativas precisas, proporcionando información que necesita para comenzar, conectándole con colegas y preparándole para el éxito en su nuevo rol.</span><span class="sxs-lookup"><span data-stu-id="38cf3-132">As you move from recruiting through hiring, the Onboard app can help you bring your new employee into your organization by setting accurate expectations, providing information they need to get started, connecting them with colleagues, and set them up for success in their new role.</span></span>  
 
-- [Visión general de Attract](attract-overview.md)
-- [Visión general de Onboard](create-onboarding-experience.md)
+- [<span data-ttu-id="38cf3-133">Visión general de Attract</span><span class="sxs-lookup"><span data-stu-id="38cf3-133">Attract overview</span></span>](attract-overview.md)
+- [<span data-ttu-id="38cf3-134">Visión general de Onboard</span><span class="sxs-lookup"><span data-stu-id="38cf3-134">Onboard overview</span></span>](create-onboarding-experience.md)
 
-## <a name="retain-and-motivate-employees"></a>Conservar y motivar a los empleados
+## <a name="retain-and-motivate-employees"></a><span data-ttu-id="38cf3-135">Conservar y motivar a los empleados</span><span class="sxs-lookup"><span data-stu-id="38cf3-135">Retain and motivate employees</span></span>
 
-Puede configurar planes para administrar la compensación de forma eficaz y equitativa, así como para administrar artículos, como ordenadores o teléfonos, que la organización presta a sus empleados. Puede crear planes de compensación fija y variable, así como definir reglas que apliquen el plan de compensación para satisfacer los criterios de dicho plan.
+<span data-ttu-id="38cf3-136">Puede configurar planes para administrar la compensación de forma eficaz y equitativa, así como para administrar artículos, como ordenadores o teléfonos, que la organización presta a sus empleados.</span><span class="sxs-lookup"><span data-stu-id="38cf3-136">You can set up plans to effectively and equitably manage compensation, as well as manage items, such as computers or phones, that your organization lends to its employees.</span></span> <span data-ttu-id="38cf3-137">Puede crear planes de compensación fija y variable, así como definir reglas que apliquen el plan de compensación para satisfacer los criterios de dicho plan.</span><span class="sxs-lookup"><span data-stu-id="38cf3-137">You can create fixed and variable compensation plans, as well as define rules that apply the compensation plan to meet the criteria for that plan.</span></span>
 
--   [Planes de compensación](compensation-plans.md)
--   [Procesar compensaciones](process-compensation.md)
--   [Crear planes de compensación fija](create-fixed-compensation-plans.md)
--   [Crear planes de compensación variable](create-variable-compensation-plans.md)
+-   [<span data-ttu-id="38cf3-138">Planes de compensación</span><span class="sxs-lookup"><span data-stu-id="38cf3-138">Compensation plans</span></span>](compensation-plans.md)
+-   [<span data-ttu-id="38cf3-139">Procesar compensaciones</span><span class="sxs-lookup"><span data-stu-id="38cf3-139">Process compensation</span></span>](process-compensation.md)
+-   [<span data-ttu-id="38cf3-140">Crear planes de compensación fija</span><span class="sxs-lookup"><span data-stu-id="38cf3-140">Create fixed compensation plans</span></span>](create-fixed-compensation-plans.md)
+-   [<span data-ttu-id="38cf3-141">Crear planes de compensación variable</span><span class="sxs-lookup"><span data-stu-id="38cf3-141">Create variable compensation plans</span></span>](create-variable-compensation-plans.md)
 
-## <a name="develop-and-train-employees"></a>Desarrollar y formar a empleados
+## <a name="develop-and-train-employees"></a><span data-ttu-id="38cf3-142">Desarrollar y formar a empleados</span><span class="sxs-lookup"><span data-stu-id="38cf3-142">Develop and train employees</span></span>
 
-Para ayudar a que sus empleados alcancen sus objetivos profesionales al mismo tiempo que satisfacen las necesidades críticas del negocio, puede establecer metas, crear revisiones de rendimiento y realizar un seguimiento de opiniones. Para ayudar a los empleados a desarrollar sus capacidades, también puede configurar instructores, tipos de curso, cursos, descripciones de curso, programas, trayectorias y sesiones antes de asignar a un instructor a un curso, o registrar a alguien para un curso.. Los instructores deben existir como trabajadores, candidatos, o contactos.
+<span data-ttu-id="38cf3-143">Para ayudar a que sus empleados alcancen sus objetivos profesionales al mismo tiempo que satisfacen las necesidades críticas del negocio, puede establecer metas, crear revisiones de rendimiento y realizar un seguimiento de opiniones. Para ayudar a los empleados a desarrollar sus capacidades, también puede configurar instructores, tipos de curso, cursos, descripciones de curso, programas, trayectorias y sesiones antes de asignar a un instructor a un curso, o registrar a alguien para un curso..</span><span class="sxs-lookup"><span data-stu-id="38cf3-143">To help your employees reach their career objectives while delivering critical business needs you can set up goals, create performance reviews and track feedback To help employees develop needed skills, you can also set up instructors, course types, courses, course descriptions, agendas, tracks, and sessions before you assign an instructor to a course, or register someone for a course.</span></span> <span data-ttu-id="38cf3-144">Los instructores deben existir como trabajadores, candidatos, o contactos.</span><span class="sxs-lookup"><span data-stu-id="38cf3-144">Instructors must already exist as workers, applicants, or contacts.</span></span>
 
--   [Gestión del rendimiento](performance-management-overview.md)
--   [Alineación de las aptitudes de los recursos y las necesidades empresariales](skills.md)
--   [Administración de la formación con cursos](courses.md)
+-   [<span data-ttu-id="38cf3-145">Gestión del rendimiento</span><span class="sxs-lookup"><span data-stu-id="38cf3-145">Performance management</span></span>](performance-management-overview.md)
+-   [<span data-ttu-id="38cf3-146">Alineación de las aptitudes de los recursos y las necesidades empresariales</span><span class="sxs-lookup"><span data-stu-id="38cf3-146">Align workforce skills and business needs</span></span>](skills.md)
+-   [<span data-ttu-id="38cf3-147">Administración de la formación con cursos</span><span class="sxs-lookup"><span data-stu-id="38cf3-147">Administer training through courses</span></span>](courses.md)
 
-## <a name="create-and-maintain-benefits"></a>Crear y mantener prestaciones
+## <a name="create-and-maintain-benefits"></a><span data-ttu-id="38cf3-148">Crear y mantener prestaciones</span><span class="sxs-lookup"><span data-stu-id="38cf3-148">Create and maintain benefits</span></span>
 
-Además de compensar al personal con sueldos, salarios y bonificaciones, puede desarrollar programas de prestaciones como seguro médico y planes de jubilación. También puede administrar prestaciones, como programas de préstamos, en los que la empresa presta artículos, como ordenadores o teléfonos, a sus empleados.
+<span data-ttu-id="38cf3-149">Además de compensar al personal con sueldos, salarios y bonificaciones, puede desarrollar programas de prestaciones como seguro médico y planes de jubilación.</span><span class="sxs-lookup"><span data-stu-id="38cf3-149">In addition to compensating your staff with wages, salaries, and bonuses, you can develop benefit programs such as health insurance and retirement plans.</span></span> <span data-ttu-id="38cf3-150">También puede administrar prestaciones, como programas de préstamos, en los que la empresa presta artículos, como ordenadores o teléfonos, a sus empleados.</span><span class="sxs-lookup"><span data-stu-id="38cf3-150">You can also manage benefits such as loan programs, in which your company lends items, such as computers or phones, to its employees.</span></span>
 
--   [Gestionar un programa de prestaciones](manage-benefit-program.md)
--   [Directivas de idoneidad para prestaciones](benefit-eligibility-policies.md)
--   [Administración de artículos prestados a trabajadores](loan-items.md)
+-   [<span data-ttu-id="38cf3-151">Gestionar un programa de prestaciones</span><span class="sxs-lookup"><span data-stu-id="38cf3-151">Manage a benefit program</span></span>](manage-benefit-program.md)
+-   [<span data-ttu-id="38cf3-152">Directivas de idoneidad para prestaciones</span><span class="sxs-lookup"><span data-stu-id="38cf3-152">Benefit eligibility policies</span></span>](benefit-eligibility-policies.md)
+-   [<span data-ttu-id="38cf3-153">Administración de artículos prestados a trabajadores</span><span class="sxs-lookup"><span data-stu-id="38cf3-153">Manage items lent to workers</span></span>](loan-items.md)
 
-## <a name="maintain-workplace-safety-and-compliance"></a>Mantener el cumplimiento de normas y la seguridad en el lugar de trabajo
+## <a name="maintain-workplace-safety-and-compliance"></a><span data-ttu-id="38cf3-154">Mantener el cumplimiento de normas y la seguridad en el lugar de trabajo</span><span class="sxs-lookup"><span data-stu-id="38cf3-154">Maintain workplace safety and compliance</span></span>
 
-Talent puede ayudarle a proteger un entorno de trabajo en cumplimiento de las leyes aplicables, incluida la Ley para Personas con Discapacidades (ADA) de Estados Unidos y las leyes de Inmigración y naturalización, entre otras. Por ejemplo, puede gestionar los requisitos físicos para trabajos específicos, así como las solicitudes de trayectoria para alojamientos que pueden ayudar a la organización a optimizar las aptitudes de los recursos.
+<span data-ttu-id="38cf3-155">Talent puede ayudarle a proteger un entorno de trabajo en cumplimiento de las leyes aplicables, incluida la Ley para Personas con Discapacidades (ADA) de Estados Unidos y las leyes de Inmigración y naturalización, entre otras.</span><span class="sxs-lookup"><span data-stu-id="38cf3-155">Talent can help you maintain a safe work environment that’s in compliance with applicable laws, including the Americans with Disabilities Act and immigration and naturalization laws, among others.</span></span> <span data-ttu-id="38cf3-156">Por ejemplo, puede gestionar los requisitos físicos para trabajos específicos, así como las solicitudes de trayectoria para alojamientos que pueden ayudar a la organización a optimizar las aptitudes de los recursos.</span><span class="sxs-lookup"><span data-stu-id="38cf3-156">For example, you can manage the physical requirements for specific jobs, as well as track requests for accommodations that can help your organization optimize the skills of its workforce.</span></span>
 
--   [Comprobación de empleo del formulario I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
--   [Cumplimiento de la Ley para Personas con Discapacidades de Estados Unidos (ADA)](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
+-   [<span data-ttu-id="38cf3-157">Comprobación de empleo del formulario I-9</span><span class="sxs-lookup"><span data-stu-id="38cf3-157">Form I-9 employment verification</span></span>](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
+-   [<span data-ttu-id="38cf3-158">Cumplimiento de la Ley para Personas con Discapacidades de Estados Unidos (ADA)</span><span class="sxs-lookup"><span data-stu-id="38cf3-158">Comply with the Americans with Disabilities Act</span></span>](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
 
-## <a name="gather-information-using-questionnaires"></a>Recopilar información mediante cuestionarios
+## <a name="gather-information-using-questionnaires"></a><span data-ttu-id="38cf3-159">Recopilar información mediante cuestionarios</span><span class="sxs-lookup"><span data-stu-id="38cf3-159">Gather information using questionnaires</span></span>
 
-Puede diseñar y administrar cuestionarios para recopilar información que se usa para diversos objetivos. La característica Cuestionario permite diseñar y crear cuestionarios. Cuando un cuestionario está listo, lo distribuye de manera amplia o a un conjunto específico de encuestados para que lo completen. Después de que los encuestados proporcionen sus respuestas, puede revisar y analizar los resultados.
+<span data-ttu-id="38cf3-160">Puede diseñar y administrar cuestionarios para recopilar información que se usa para diversos objetivos.</span><span class="sxs-lookup"><span data-stu-id="38cf3-160">You can design and administer questionnaires to gather information that’s used for a variety of purposes.</span></span> <span data-ttu-id="38cf3-161">La característica Cuestionario permite diseñar y crear cuestionarios.</span><span class="sxs-lookup"><span data-stu-id="38cf3-161">The Questionnaire feature lets you design and create questionnaires.</span></span> <span data-ttu-id="38cf3-162">Cuando un cuestionario está listo, lo distribuye de manera amplia o a un conjunto específico de encuestados para que lo completen.</span><span class="sxs-lookup"><span data-stu-id="38cf3-162">When a questionnaire is ready, you distribute it broadly or to a specific set of respondents to complete.</span></span> <span data-ttu-id="38cf3-163">Después de que los encuestados proporcionen sus respuestas, puede revisar y analizar los resultados.</span><span class="sxs-lookup"><span data-stu-id="38cf3-163">After the respondents provide their answers, you can review and analyze the results.</span></span>
 
--   [Cuestionarios](questionnaires.md)
--   [Diseñar un cuestionario](design-questionnaires.md)
--   [Distribuir y completar un cuestionario](distribute-questionnaires.md)
--   [Ver y evaluar los resultados de un cuestionario](evaluate-questionnaire-results.md)
+-   [<span data-ttu-id="38cf3-164">Cuestionarios</span><span class="sxs-lookup"><span data-stu-id="38cf3-164">Questionnaires</span></span>](questionnaires.md)
+-   [<span data-ttu-id="38cf3-165">Diseñar un cuestionario</span><span class="sxs-lookup"><span data-stu-id="38cf3-165">Design a questionnaire</span></span>](design-questionnaires.md)
+-   [<span data-ttu-id="38cf3-166">Distribuir y completar un cuestionario</span><span class="sxs-lookup"><span data-stu-id="38cf3-166">Distribute and complete a questionnaire</span></span>](distribute-questionnaires.md)
+-   [<span data-ttu-id="38cf3-167">Ver y evaluar los resultados de un cuestionario</span><span class="sxs-lookup"><span data-stu-id="38cf3-167">View and evaluate the results of a questionnaire</span></span>](evaluate-questionnaire-results.md)
 
