@@ -3,7 +3,7 @@ title: Materiales y cuotas de embalaje
 description: "Las cuotas de material de embalaje se pagan en algunos intervalos para una empresa de reciclaje. Se debe pagar un importe por unidad de peso para cada material del que consta una unidad de embalaje. Las cuotas de material de embalaje se calculan y se notifican, pero no se registra ninguna transacción contable ya que las cuentas no se contemplan como impuestos que se deban pagar a una autoridad."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2194
 ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5d7cd7b3d60e9c265a766695b53d8d27ee2a8d0a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -56,7 +56,7 @@ Al crear una línea de pedidos de ventas, se realiza una comprobación para ver 
 ## <a name="packing-units-on-purchase-order-lines"></a>Unidades de embalaje en las líneas de pedido de compra
 El sistema no crea transacciones de materiales de embalaje para una línea de pedido de compra. Las transacciones para las líneas de pedido de compra facturadas se crean manualmente en la página **Transacciones de material de embalaje**.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Configurar números de licencia de cuota de material de embalaje del cliente
+## <a name="set-up-customer-packaging-material-fee-license-numbers"></a>Configurar números de licencia de cuota de material de embalaje del cliente
 Si los clientes pagan las cuotas de material de embalaje, especifique los números de licencia de cuota de material de embalaje de los clientes en la página **Clientes**. Si se ha asignado un número de licencia a un cliente, las cuotas de material de embalaje se calculan automáticamente al facturar los pedidos de ventas. Tras la facturación, se desactiva la casilla de verificación **Calcular cuota** de la página **Transacciones de material de embalaje**, ya que no necesita calcular e imprimir un informe. Puede imprimir los pesos del material de embalaje en la factura e informar a los clientes de que paguen las cuotas. 
 
 Si la empresa paga las cuotas del material de embalaje, no especifique los números de licencia del cliente. Tras la facturación, la casilla **Calcular cuota** se activará en la página **Transacciones de material de embalaje**. Esto indica que las cuotas se calculan cuando se crea el informe. Puede imprimir los pesos en la factura e indicar que la empresa paga las cuotas.

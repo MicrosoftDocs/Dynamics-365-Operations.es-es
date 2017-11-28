@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d602e07548d22bcdee3f375c3c327c0e8963c3b4
+ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
+ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Diseñar una configuración para generar informes con formato Microsoft Word para informes electrónicos (ER)
@@ -30,9 +30,9 @@ En los pasos siguientes se explica cómo un usuario con rol de administrador del
 
 Para completar estos pasos, primero debe completar los pasos en la guía de tarea "Crear una configuración de ER para generar informes en formato OPENXML”. Previamente deberá descargar y guardar también las plantillas siguientes localmente para el informe de ejemplo:
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx
+[Plantilla de informe de pago](https://go.microsoft.com/fwlink/?linkid=862266)
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx
+[Plantilla enlazada de informe de pago](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Este procedimiento es para una función que se ha añadido en la versión 1611 de Microsoft Dynamics 365 for Operations.
 
@@ -49,7 +49,7 @@ Este procedimiento es para una función que se ha añadido en la versión 1611 d
 ## <a name="replace-the-excel-template-with-the-word-template"></a>Sustituya la plantilla de Excel con la plantilla de Word
     * Actualmente, el documento de Excel se utiliza como plantilla para producir un resultado en formato de OPENXML. Importaremos la plantilla del informe en formato de Word.  
 1. Haga clic en Archivos adjuntos.
-    * Sustituya la plantilla de Excel actual con la plantilla de Word que ha descargado anteriormente, SampleVendPaymDocReport.docx. Tenga en cuenta que esta plantilla solo contiene el diseño del documento que deseamos generar como ER de salida.  
+    * Sustituya la plantilla de Excel actual con la plantilla de Word que ha descargado anteriormente, Plantilla de informe de pago. Tenga en cuenta que esta plantilla solo contiene el diseño del documento que deseamos generar como ER de salida.  
 2. Haga clic Eliminar.
 3. Haga clic en Sí.
 4. Haga clic en Nuevo.

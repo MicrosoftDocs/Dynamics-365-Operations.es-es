@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 04def14ddf9b079005bf11acbcaf64b21aa80fdb
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 09789957839097ba2898544102af908c198090c7
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-openxml-format-for-electronic-reporting-er"></a>Diseñar una configuración para generar informes con formato OpenXML para informes electrónicos (ER)
@@ -34,8 +34,7 @@ En este ejemplo, creará una configuración para la empresa de demostración, Li
 
 
 
-Para completar estos pasos, primero debe completar los pasos del procedimiento Creación y activación de un proveedor de configuraciones. También debe tener un archivo Excel que se importará el crear la plantilla. A este archivo se puede obtener acceso desde: https://msdynamics.blob.core.windows.net/media/2016/04/SampleVendPaymWsReport.xlsx
-
+Para completar estos pasos, primero debe completar los pasos del procedimiento Creación y activación de un proveedor de configuraciones. También debe descargar y guardar el archivo de Microsoft Excel, [Plantilla de informe de pago](https://go.microsoft.com/fwlink/?linkid=862266). 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Cargar la configuración del modelo de datos de pagos
 1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.

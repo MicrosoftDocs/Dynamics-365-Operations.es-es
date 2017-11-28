@@ -3,7 +3,7 @@ title: "Visión general de llegadas"
 description: "Este tema proporciona información acerca de la función de visión general de llegadas. La página de la visión general de llegadas forma parte de esta característica y proporciona una visión general de todos los artículos que se espera que se reciban como artículos entrantes."
 author: perlynne
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d9ebc0ea12de0c97718b565b77d99c3a1fcd6f21
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 9c174dc7bf61ffab0d20c7685a29007e0b6e2e7e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -104,7 +104,7 @@ Sammy puede ver la siguiente información:
 
 ### <a name="update-journals"></a>Actualizar diarios
 
-Para registrar una o más líneas de pedido que deben ser procesadas, Sammy puede seleccionar las líneas en la cuadrícula de visión general o en la cuadrícula de líneas y a continuación hacer clic en **Diarios** &gt; **Mostrar llegadas a partir de recepciones**. Se mostrarán los encabezados de la recepción de artículos que coincidan con las líneas. Para actualizar la recepción de productos del pedido de compra, Sammy puede tener acceso a los encabezados del diario de recepción de artículos que están listos para la actualización. Para obtener acceso a estas cabeceras del diario de llegadas de artículos, hace clic en **Diarios** &gt; **Diarios listos para recepción de productos**. Se muestran todas las líneas de encabezado que están listas para la actualización de la recepción de productos en el intervalo especificado de almacenes. (Las líneas de encabezado que se muestran no están relacionadas con el intervalo de días).
+Para registrar una o más líneas de pedido que deben ser procesadas, Sammy puede seleccionar las líneas en la cuadrícula de visión general o en la cuadrícula de líneas y a continuación hacer clic en **Diarios** &gt; **Mostrar llegadas a partir de recepciones**. Se mostrarán los encabezados de la recepción de artículos que coincidan con las líneas. Para actualizar la recepción de productos del pedido de compra para los artículos registrados, Sammy puede tener acceso a los encabezados del diario de recepción de artículos que están listos para la actualización. Para obtener acceso a estas cabeceras del diario de llegadas de artículos, hace clic en **Diarios** &gt; **Diarios listos para recepción de productos**. Se muestran todas las líneas de encabezado que están listas para la actualización de la recepción de productos en el intervalo especificado de almacenes. (Las líneas de encabezado que se muestran no están relacionadas con el intervalo de días).
 
 ### <a name="start-an-arrival-registration"></a>Iniciar un registro de llegada
 

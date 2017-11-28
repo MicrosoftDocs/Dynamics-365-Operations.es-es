@@ -1,9 +1,9 @@
 ---
 title: "Preguntas más frecuentes sobre cálculos para modelos de configuración de productos"
-description: "En este artículo se describen los cálculos para los modelos de configuración de productos y se explica cómo utilizar los cálculos junto con las restricciones."
+description: "En este tema se describen los cálculos para los modelos de configuración de productos y se explica cómo utilizar los cálculos junto con las restricciones."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fea4e139d32c780769bafe08d603b828d366550c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 0763e5a02e7a14b6ef369103aa25e435559abe19
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-En este artículo se describen los cálculos para los modelos de configuración de productos y se explica cómo utilizar los cálculos junto con las restricciones.
+En este tema se describen los cálculos para los modelos de configuración de productos y se explica cómo utilizar los cálculos junto con las restricciones.
 
 Se pueden usar cálculos para operaciones aritméticas o lógicas. Complementan restricciones de expresión en modelos de configuración de productos. Puede definir cálculos en la página **Detalles del modelo de configuración de productos basados en restricciones** y después crear expresiones para los cálculos en el editor de expresiones. Para obtener más información, consulte Crear cálculos.
 
@@ -75,7 +75,7 @@ Los cálculos se producen cuando un valor se ha proporcionado para todos los atr
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>¿Se puede sobrescribir el valor que se calcula para el atributo de destino?
 Puede sobrescribir el valor que se calcula para el atributo de destino, a menos que el atributo de destino se establezca como oculto o de solo lectura.
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>¿Cómo se establece un atributo de destino como oculto o de solo lectura?
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>¿Cómo se establece un atributo de destino como oculto o de solo lectura?
 Para establecer un atributo como oculto o de solo lectura, siga estos pasos.
 
 1.  Haga clic en **Gestión de información de productos** &gt; **Común** &gt; **Modelos de configuración del producto**.

@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c222f0d17be6eea0f776f5460c793b82d8b3e0ab
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 6b896c28f475a8f827a1db1b6dd684b6ec64e872
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/15/2017
 
 ---
 
@@ -138,7 +138,7 @@ Puede ver si se puede usar un producto emitido como componente o subcomponente e
 </tr>
 <tr class="odd">
 <td>Requisitos de usuario</td>
-<td>Los requisitos de usuario representa una abstracción entre los requisitos de usuario y los componentes y los atributos específicos. No es posible asignar un requisito de usuario a un artículo. Por ejemplo, un cliente compra un sistema de centro de entretenimiento. El representante de ventas podría preguntar el tamaño de la sala donde el cliente piensa instalar el sistema, a fin de determinar cuántos vatios se requieren. En este ejemplo, el tamaño de la sala puede ser un requisito de usuario que ayude a determinar el valor de atributo adecuado para un componente específico. Puede ocultar los requisitos de usuario de modo que no se muestren al usuario durante una sesión de configuración. También se ocultan los atributos, los subcomponentes y los requisitos de usuario que están relacionados con el requisito de usuario. Puede escribir una condición para controlar si se puede ocultar un requisito de usuario. Debe escribir la condición con la sintaxis del lenguaje de modelado de optimización (OML).</td>
+<td>Los requisitos de usuario representa una abstracción entre los requisitos de usuario y los componentes y los atributos específicos. No es posible asignar un requisito de usuario a un artículo. Por ejemplo, un cliente compra un sistema de centro de entretenimiento. El representante de ventas podría preguntar el tamaño de la sala donde el cliente piensa instalar el sistema, a fin de determinar cuántos vatios se requieren. En este ejemplo, el tamaño de la sala puede ser un requisito de usuario que ayuda a determinar el valor de atributo adecuado para un componente específico. Puede ocultar los requisitos de usuario para que no le aparezcan al usuario durante una sesión de configuración. También se ocultan los atributos, los subcomponentes y los requisitos de usuario que están relacionados con el requisito de usuario. Puede escribir una condición para controlar si se puede ocultar un requisito de usuario. Debe escribir la condición con la sintaxis del lenguaje de modelado de optimización (OML).</td>
 </tr>
 <tr class="even">
 <td>Líneas de L. MAT</td>

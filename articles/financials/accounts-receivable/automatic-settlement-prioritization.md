@@ -1,9 +1,9 @@
 ---
 title: "Liquidación y priorización automáticas"
-description: "Este artículo describe cómo se liquidan las transacciones si selecciona Liquidación automática en la página Parámetros de clientes. También explica cómo se puede usar la liquidación automática junto con la prioridad de pago."
+description: "Este tema describe cómo se liquidan las transacciones si selecciona Liquidación automática en la página Parámetros de clientes. También explica cómo se puede usar la liquidación automática junto con la prioridad de pago."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a0f87aca78f1263f1f6ce65e2629b91312716cb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo describe cómo se liquidan las transacciones si selecciona Liquidación automática en la página Parámetros de clientes. También explica cómo se puede usar la liquidación automática junto con la prioridad de pago.
+Este tema describe cómo se liquidan las transacciones si selecciona Liquidación automática en la página Parámetros de clientes. También explica cómo se puede usar la liquidación automática junto con la prioridad de pago.
 
 Tiene dos opciones al liquidar pagos con facturas y otras transacciones. También puede seleccionar manualmente las transacciones para liquidar, o Microsoft Dynamics 365 for Finance and Operations puede seleccionarlas automáticamente mediante la funcionalidad de liquidación automática. También puede personalizar cómo se procesan las liquidaciones automáticas mediante la opción **Priorizar liquidación**. Todas estas opciones son parte de los parámetros de liquidación que se definen en la página **Parámetros de clientes**. La forma en que las transacciones se liquidan automáticamente puede variar en función del método que se usa para la liquidación automática. Están disponibles los siguientes métodos:
 
@@ -50,7 +50,7 @@ Los ejemplos de liquidaciones que se proporcionan más adelante en este artícul
 | Factura 3     | 15 de octubre  | 500,00 | 2% 14/Net 30        | 29 de octubre         |                                                                                                                                                                                               |
 | Nota de interés | 15 de octubre  | 7,00   |                     |                    | Esta nota de interés es para la factura 1 y la factura 2. El importe se calcula como un interés del 2 por ciento sobre importes que han vencido hace 30 días o más. Por ejemplo, 0,02 × (100,00 + 250,00) = 7,00. |
 
-## <a name="userdefined-settlement-priority"></a>Prioridad de liquidación definida por el usuario
+## <a name="user-defined-settlement-priority"></a>Prioridad de liquidación definida por el usuario
 Si establece **Usar la prioridad para las liquidaciones automáticas** en **Sí** en la página **Parámetros de clientes**, se usa la prioridad de liquidación que defina en la página **Prioridad de liquidación** cuando las transacciones se seleccionan para la liquidación automática. En este ejemplo, se define la prioridad de liquidación siguiente:
 
 1.  Tipo de transacción

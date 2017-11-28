@@ -1,17 +1,17 @@
 ---
 title: Componentes de los informes financieros
 description: "En este artículo se describe cómo se utilizan los componentes o bloques de creación, de las definiciones de informe en los informes financieros. Estos bloques de creación incluyen definiciones de filas, definiciones de columnas y definiciones de organigramas. El artículo explica cómo organizar y bloquear bloques de creación y cómo trabajar con grupos de bloques de creación."
-author: ShylaThompson
+author: aolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 074a2f377c16d47e95343dae3ebec6cbba4d5050
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 7b283b8550bd7e5eff969d45c761d0a54d93a33e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-En este artículo se describe cómo se utilizan los componentes o bloques de creación, de las definiciones de informe en los informes financieros. Estos bloques de creación incluyen definiciones de filas, definiciones de columnas y definiciones de organigramas. El artículo explica cómo organizar y bloquear bloques de creación y cómo trabajar con grupos de bloques de creación. 
+En este artículo se describe cómo se utilizan los componentes o bloques de creación, de las definiciones de informe en los informes financieros. Estos bloques de creación incluyen definiciones de filas, definiciones de columnas y definiciones de organigramas. El artículo se explica cómo organizar y bloquear bloques de creación. 
 
-La filosofía de diseño del diseñador de informes financieros es desglosar la información en el componente o el bloque de creación de menor tamaño y, a continuación, combinar y hacer coincidir los componentes según sea necesario. Por tanto, el formato del informe es independiente de los datos financieros y puede cambiar el diseño de un informe sin modificar los datos financieros en el sistema de Microsoft Dynamics ERP. Mediante este método de bloque de creación, puede combinar el texto, importes y cálculos para producir los informes que necesite. Además, esta flexibilidad promueve la creatividad, facilitando la visualización de sus operaciones de distintas maneras. Los bloques de creación individuales de una definición del informe son similares a una hoja de cálculo tridimensional, pero son más avanzados. Una definición del informe especifica la definición de filas, la definición de columnas y la definición opcional del organigrama que se debe usar para el informe. También incluye información sobre dónde almacenar el informe que se genera y cómo darle formato. Para una mejor reutilización y uso compartido, puede crear un grupo de bloques de creación, que es una recopilación de definiciones de informes, definiciones de filas, definiciones de columnas, definiciones de organigramas y conjuntos de dimensiones existentes asociados a una empresa.
+La filosofía de diseño del diseñador de informes financieros es desglosar la información en el componente o el bloque de creación de menor tamaño y, a continuación, combinar y hacer coincidir los componentes según sea necesario. Por tanto, el formato del informe es independiente de los datos financieros y puede cambiar el diseño de un informe sin modificar los datos financieros en el sistema de Microsoft Dynamics ERP. Mediante este método de bloque de creación, puede combinar el texto, importes y cálculos para producir los informes que necesite. Además, esta flexibilidad promueve la creatividad, facilitando la visualización de sus operaciones de distintas maneras. Los bloques de creación individuales de una definición del informe son similares a una hoja de cálculo tridimensional, pero son más avanzados. Una definición del informe especifica la definición de filas, la definición de columnas y la definición opcional del organigrama que se debe usar para el informe. También incluye información sobre dónde almacenar el informe que se genera y cómo darle formato. 
 
-## <a name="building-blocks-of-a-report"></a> Bloques de creación de un informe
-| Bloque de creación            | Descripción                                                                                                                                                                                                                                                                              | Para obtener más información                                                                                                 |
-|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+## <a name="building-blocks-of-a-report"></a>Bloques de creación de un informe
+| Bloque de creación            | Descripción                     | Para obtener más información                                    |
+|---------------------------|---------------------------------|---------------------------------------------------------|
 | Definición de filas            | Una definición de fila define las líneas descriptivas (por ejemplo, sueldos o ventas) en un informe. También se muestran los valores o las dimensiones de segmentos que contienen los valores para cada elemento de línea e incluye el formato y los cálculos de la fila.                                                    | [Definiciones de filas](row-definitions-financial-reporting.md)                       |
 | Definición de columnas         | Una definición de columna define el período que se usará al extraer datos de las dimensiones financieras. También incluye el formato y los cálculos de la columna.                                                                                                                                 | [Definiciones de columna](column-definitions-financial-reports.md)         |
 | Definiciones de los organigramas | Una definición del organigrama es similar a un gráfico organizativo. Contiene unidades de informes individuales que representan cada cuadro del gráfico. Las unidades pueden ser departamentos individuales de los datos financieros o unidades de un nivel más alto que resumen datos de otras unidades de informes. | [Definiciones de los organigramas](financial-reporting-tree-definitions.md) |
@@ -67,44 +67,20 @@ Para abrir un bloque de creación bloqueado, abra el bloque de creación y haga 
 
 ## <a name="building-block-groups"></a>Grupos de bloque de creación
 
-Los bloques de creación son las definiciones de la filas, las definiciones de las columnas, las definiciones de los organigramas y las definiciones de los informes que se crean para un informe. Los grupos de bloques de creación son colecciones de las definiciones y los conjuntos de dimensiones asociados a una empresa. Los grupos de bloques de creación pueden ser específicos de la empresa, o varias empresas pueden compartir el mismo conjunto de bloques de creación. Si algunas de las empresas tienen un plan de cuentas diferente, puede que desee usar un grupo de bloques de creación diferente para cada empresa. También puede que desee darle nombre a todos sus bloques de creación individuales para reflejar con qué empresa son compatibles.
-### <a name="create-a-building-block-group"></a>Crear un grupo de bloques de creación
+Los bloques de creación son las definiciones de la filas, las definiciones de las columnas, las definiciones de los organigramas y las definiciones de los informes que se crean para un informe. Los grupos de bloques de creación son colecciones de las definiciones y de los conjuntos de dimensiones. 
 
-1.  En el diseñador de informes, en el menú **Empresa**, haga clic en **Grupos de bloques de creación**.
-2.  En el cuadro de diálogo **Grupos de bloques de creación**, haga clic en **Nuevo**.
-3.  Escriba un nombre y una descripción únicos para el grupo de bloques de creación. Cada campo puede contener un máximo de 256 caracteres. (Este número incluye espacios).
-4.  Haga clic en **Aceptar** para crear el nuevo grupo de bloques de creación.
 
-### <a name="assign-a-building-block-group"></a>Asigne un grupo de bloques de creación
+### <a name="view-a-building-block-group"></a>Ver un grupo de bloques de creación
 
-Después de crear un grupo de bloques, debe asignarlo al menos a una empresa. Luego puede crear las definiciones del informe, fila, columna y organigrama y guardarlas en el grupo de bloques de creación. Debe cerrar todos los bloques de creación antes de comenzar el siguiente procedimiento.
-1.  En el diseñador de informes, en el menú **Empresa**, haga clic en **Empresas**.
-2.  En el cuadro de diálogo **Compañías**, seleccione la compañía a la que desee asignar un grupo de bloques de creación.
-3.  Haga clic en **Modificar**.
-4.  En el cuadro de diálogo **Modificar empresa**, en el campo **Grupo de bloques de creación**, seleccione el grupo de bloques de creación que desea asignar a la empresa, o haga clic en **Nuevo** para crear un nuevo grupo de bloques de creación.
-5.  Haga clic en **Aceptar** para asignar el nuevo grupo de bloques de creación.
-6.  Haga clic en **Cerrar** para cerrar el cuadro **Empresas**. El grupo de bloques de creación que seleccionó estará ahora asignado a la empresa. Ahora todas las nuevas definiciones de filas, las definiciones de columnas, etc. que se creen formarán parte del grupo de bloques de creación que está asignado a esta empresa. También puede importar un archivo o informe .tdbx de otro sistema.
-
-### <a name="view-a-building-block-group"></a> Visualizar un grupo de bloques de creación
-
-Tras la creación y el uso de un grupo de bloques de creación, puede ver todos los bloques de creación que tiene asignados. También puede exportar o importar un grupo de bloques de creación y realizar un mantenimiento adicional en los grupos de bloques de creación.
-1.  En el diseñador de informes, en el menú **Empresa**, haga clic en **Grupos de bloques de creación**.
+Puede ver todos los bloques de creación asignados a un grupo de bloques de creación. También puede exportar o importar un grupo de bloques de creación.
+1.  En el Diseñador de Informes, en el menú **Compañía**, haga clic en **Grupos de bloques de creación**.
 2.  En el cuadro de diálogo **Grupos de bloques de creación**, seleccione el bloque de creación que desea ver.
 3.  Haga clic en **Ver** para abrir el cuadro de diálogo **Ver grupo de bloques de creación**, donde puede ver el contenido del grupo de bloques de creación.
 4.  Haga clic en **Cerrar** para cerrar los cuadros de diálogo.
 
-### <a name="save-a-building-block-group-under-a-new-name"></a>Guardar un grupo de bloques de creación con un nuevo nombre
+### <a name="export-a-building-block-group"></a>Exportar un grupo de bloques de creación
 
-Puede guardar un grupo de bloques de creación existente con un nuevo nombre. Después puede modificar el nuevo grupo de bloques de creación sin cambiar el grupo de bloques de creación original.
-1.  En el Diseñador de Informes, en el menú **Compañía**, haga clic en **Grupos de bloques de creación**.
-2.  En el cuadro de diálogo **Grupos de bloques de creación**, seleccione el grupo de bloques de creación que desea guardar con un nuevo nombre.
-3.  Haga clic en **Guardar como**.
-4.  Escriba un nombre y una descripción nuevos para el grupo de bloques de creación.
-5.  Haga clic en **Aceptar**. El nuevo grupo de bloques de creación aparece en el cuadro de diálogo **Grupos de bloques de creación**.
-
-### <a name="export-a-building-block-group"></a> Exportar un grupo de bloques de creación
-
-Puede exportar un grupo de bloques de creación o bloques de creación de informe a un grupo de bloques de creación. Puede usar el grupo de bloques de creación exportado como copia de seguridad. También puede copiar los datos exportados entre los grupos de bloques de creación o las instalaciones de Finance and Operations. El diseñador de informes incluye los conjuntos de dimensiones y los estilos de fuente a los que se hace referencia junto con el grupo de bloques de creación.
+Puede exportar un grupo de bloques de creación o bloques de creación de informe a un grupo de bloques de creación. Puede usar el grupo de bloques de creación exportado como copia de seguridad. También puede copiar los datos exportados entre instalaciones de Finance and Operations. El diseñador de informes incluye los conjuntos de dimensiones y los estilos de fuente a los que se hace referencia junto con el grupo de bloques de creación.
 1.  En el diseñador de informes, en el menú **Empresa**, haga clic en **Grupos de bloques de creación**.
 2.  En el cuadro de diálogo **Grupos de bloques de creación**, seleccione el grupo de bloques de creación que se va a exportar y, a continuación, haga clic en **Exportar**.
 3.  En el cuadro de diálogo **Exportar**, seleccione las definiciones del informe que desea exportar:
@@ -118,7 +94,7 @@ Puede exportar un grupo de bloques de creación o bloques de creación de inform
 
 ### <a name="import-a-building-block-group"></a> Importar un grupo de bloques de creación
 
-Puede importar un grupo de bloques de creación en un grupo de bloques de creación existente o puede crear un nuevo grupo de bloques de creación para los datos. Todos los grupos de bloques de creación conservan sus referencias de empresa y estilos de fuente originales e incluyen los conjuntos de dimensiones pertinentes.
+Puede importar un grupo de bloques de creación en un grupo de bloques de creación existente. Todos los grupos de bloques de creación conservan sus referencias de empresa y estilos de fuente originales e incluyen los conjuntos de dimensiones pertinentes.
 1.  En el diseñador de informes, en el menú **Empresa**, haga clic en **Grupos de bloques de creación**.
 2.  En el cuadro de diálogo **Grupos de bloques de creación**, seleccione el grupo en el que desea importar un grupo de bloques de creación y haga clic en **Importar**.
 3.  En el cuadro de diálogo **Abrir**, seleccione el grupo de bloques de creación que se debe importar y haga clic en **Abrir**.

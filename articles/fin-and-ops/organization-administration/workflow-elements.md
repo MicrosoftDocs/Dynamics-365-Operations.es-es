@@ -1,27 +1,27 @@
 ---
 title: Elementos del flujo de trabajo
-description: "Este artículo describe los diversos elementos que componen un flujo de trabajo."
+description: Este tema describe los diversos elementos que componen un flujo de trabajo.
 author: sericks007
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 56441
 ms.assetid: de740262-6ffd-42b9-a325-540eae5cec94
 ms.search.region: Global
-ms.author: tjvass
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 255777651a45b899850fc870c9da288f65df702c
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 15cac09a97305c1b467cbb97da2d4b8a864ccbc7
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -30,9 +30,9 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo describe los diversos elementos que componen un flujo de trabajo.
+Este tema describe los diversos elementos que componen un flujo de trabajo.
 
-Un flujo de trabajo está compuesto de elementos. Las secciones que siguen describen cada tipo de elemento.
+Un flujo de trabajo está compuesto por elementos. Las secciones que siguen describen cada tipo de elemento.
 
 ## <a name="tasks"></a>Tareas
 Una *tarea* es una unidad de trabajo que se debe llevar a cabo. A un flujo de trabajo se le pueden agregar dos tipos de tareas: tareas manuales o tareas automatizadas.
@@ -59,7 +59,7 @@ Un *proceso de aprobación* es un proceso que consta de pasos individuales. En c
 -   Solicitar que se realice un cambio en el documento.
 -   Asignar el documento a otro usuario para que lo apruebe.
 
-## <a name="lineitem-workflow-elements"></a>Elementos de flujo de trabajo de artículos de línea
+## <a name="line-item-workflow-elements"></a>Elementos de flujo de trabajo de elementos
 Se puede crear un flujo de trabajo para procesar documentos o los artículos de línea de un documento. Por ejemplo, ha creado un flujo de trabajo de aprobación para las hojas de horas (Nos referiremos a este flujo de trabajo por el nombre de *flujo de trabajo de documento*). Puede agregar un *flujo de trabajo de artículos de línea* a dicho flujo de trabajo de documento. Cuando se ejecuta el artículo de cada línea en el documento, este se envía para su procesamiento. Quizás desee que el mismo flujo de trabajo de elementos procese todos los artículos de línea o, por lo contrario, tal vez prefiera que distintos flujos de trabajo de elementos procesen cada artículo de línea diferente. Imaginemos que un empleado ha enviado una hoja de horas que se asemeja a la siguiente ilustración.
 
 ![Flujo de trabajo con artículos de línea](./media/workflow_lineitemworkflow.gif) 
@@ -70,7 +70,7 @@ En esta situación, podría crear los siguientes flujos de trabajo de elementos:
 -   **Flujo de trabajo de elementos 2**: este flujo de trabajo se usa para procesar los artículos de línea cuando el id. de proyecto es 2222.
 -   **Flujo de trabajo de elementos 3**: este flujo de trabajo se usa para procesar los artículos de línea cuando el id. de proyecto es 3333.
 
-## <a name="flowcontrol-elements"></a>Elementos de control de flujo
+## <a name="flow-control-elements"></a>Elementos de control de flujo
 Los siguientes elementos permiten diseñar flujos de trabajo con ramas alternativas o ramas que se ejecutan al mismo tiempo.
 
 ### <a name="manual-decision"></a>Decisión manual

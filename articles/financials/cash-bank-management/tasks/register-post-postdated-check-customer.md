@@ -3,7 +3,7 @@ title: Registrar un cheque con pago diferido para un cliente
 description: Puede registrar detalles de un cheque con fecha futura recibido de un cliente.
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1610036815349f625a67d5dd67260114d42fff97
+ms.sourcegitcommit: 621ad64c06a6cebff90e888ac89bba922052cf35
+ms.openlocfilehash: f75dea40d0cc77c851569608f18229339ed30af9
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Registrar un cheque con pago diferido para un cliente
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Puede registrar detalles de un cheque con fecha futura recibido de un cliente. También puede registrar los cheques con fecha futura y generar transacciones financieras.   Realice las tareas siguientes antes de registrar y emitir un cheque con fecha futura de un cliente:   • Configure cheques con fecha futura en la página Gestión de efectivo y bancos • Configure una forma de pago para los cheques con fecha futura   El rol para este procedimiento es Tesorero. Este procedimiento usa la empresa de demostración USMF.
+Puede registrar detalles de un cheque con fecha futura recibido de un cliente. También puede registrar los cheques con fecha futura y generar transacciones financieras.   Realice las tareas siguientes antes de registrar un cheque con fecha futura de un cliente:   • Configure cheques con fecha futura en la página Gestión de efectivo y bancos • Configure una forma de pago para los cheques con fecha futura   El rol para este procedimiento es Tesorero. Este procedimiento usa la empresa de demostración USMF.
 
 1. Vaya a Clientes > Pagos > Diario de pagos.
 2. Haga clic en Nuevo.

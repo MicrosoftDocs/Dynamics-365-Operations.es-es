@@ -1,7 +1,7 @@
 ---
 title: "Diseñador de fórmulas en los informes electrónicos"
-description: "Este tema explica cómo usar el diseñador de fórmula en Informes electrónicos (ER). Cuando diseña un formato para un documento electrónico específico en ER, puede usar fórmulas del tipo de Microsoft Excel para que la transformación de datos cumpla los requisitos para el cumplimiento y el formato de ese documento. Se admiten diversos tipos de funciones: texto, fecha y hora, lógica matemática, información, conversión de tipo de datos y otras (funciones específicas de dominio empresarial)."
-author: kfend
+description: "Este tema explica cómo usar el diseñador de fórmula en Informes electrónicos (ER)."
+author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 37c860599ad555846d11711e9f3cfb29c599131e
-ms.openlocfilehash: 7704b0545f4264be1f844ed6ad9e4b44df0c4ef8
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 58bef33642d83def841eaa8334ea6f942063e0b3
 ms.contentlocale: es-es
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -593,11 +593,12 @@ Esta es la fórmula que se puede diseñar: FORMAT (CONCATENATE (@&quot;SYS70894&
 <td>GETENUMVALUEBYNAME (ruta del origen de datos de enumeración, texto de etiqueta del valor de enumeración)</td>
 <td>Devuelve un valor de un origen de datos de enumeración especificado por el texto especificado de esta etiqueta de enumeración.</td>
 <td>El siguiente ejemplo muestra la enumeración ReportDirection introducida en un modelo de datos. Tenga en cuenta que las etiquetas se definen por valores de enumeración.
-<a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> Los siguientes ejemplos muestran:
+<a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>  
+<p>Los siguientes ejemplos muestran:</p>
 <ul><li>Enumeración de modelo <strong>ReportDirection</strong> insertada en un informe como origen de datos <strong>$Direction</strong></li>
 <li>La expresión del ER <strong>$IsArrivals</strong> diseñada para usar la enumeración de modelo como parámetro de esta función. El valor de esta expresión es <strong>TRUE</strong>.
-
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></li></ul></td>
+</li></ul>
+<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></td>
 </tr>
 </tbody>
 </table>

@@ -3,7 +3,7 @@ title: "Creación o modificación de una jerarquía de informes"
 description: "Utilice este procedimiento para crear una jerarquía de informes para los informes de la organización."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/28/2017
+ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f593c59660abcf5b0d5771ddd9daced6ec5fbfb4
+ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
+ms.openlocfilehash: 995f61bd82ac08d057b41a6db735b6695aa34c33
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Creación o modificación de una jerarquía de informes
@@ -74,7 +74,7 @@ Utilice este procedimiento para crear una jerarquía de informes para los inform
 40. En el campo Desde miembro de dimensión, especifique o seleccione un valor.
     * Seleccione el miembro de dimensión que se corresponde con el nodo.  
 41. Haga clic en Guardar.
-42. En el árbol, seleccione “Organización USP2\Director general\Director general centros de coste".
+42. En el árbol, seleccione 'Organización USP2\Director general\Director general centros de coste'.
 43. Haga clic en Nuevo.
 44. En el campo Nombre de nodo, escriba "Ferias de muestras".
 45. Haga clic en Guardar.

@@ -1,9 +1,9 @@
 ---
 title: "Visión general de recomendaciones de productos personalizados"
-description: "En Dynamics 365 for Retail, las recomendaciones de productos se pueden visualizar en el dispositivo de punto de venta (PDV). Las recomendaciones son artículos que pueden interesar al cliente en función de su historial de compra, los artículos de su lista de deseos y los artículos que compraron otros clientes en línea y en tiendas de físicas. Para minoristas con grandes catálogos, las recomendaciones ayudan al cliente con el descubrimiento de productos. Al mostrar productos orientados a los intereses y hábitos de compra de un cliente, las recomendaciones de productos pueden ayudar a los minoristas con las ventas verticales y cruzadas, y a mejorar la retención de clientes. En Dynamics 365 for Retail, las recomendaciones de productos son impulsadas por servicios cognitivos y el aprendizaje automático de Microsoft Azure."
+description: "Este tema tiene información sobre las recomendaciones de productos de Dynamics 365 for Retail que se pueden mostrar en el dispositivo de punto de venta (PDV)."
 author: ashishmsft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,10 +19,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d727718442f94a2a78a3864741e93439d7c36473
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 942d6225a46b108ea39d3b8e4376b644c128ae6d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/15/2017
 
 ---
 
@@ -66,8 +66,9 @@ Las recomendaciones de productos se habilitan para los siguientes escenarios de 
 Para configurar las recomendaciones de productos, tiene que hacer lo siguiente.
 
 1.  Asegúrese de que ha seleccionado la **Entidad jurídica** correcta.
-2.  Vaya a **Almacén de entidades**, seleccione **Ventas minoristas** y luego haga clic en **Actualizar**. Esto utilizará los datos de demostración (o sus datos) de su base de datos operativa y los moverá al almacén de entidades.
+2.  Vaya a **Almacén de entidades**, seleccione **Ventas minoristas** y, a continuación haga clic en **Actualizar**. Esto utilizará los datos de demostración (o sus datos) de la base de datos operativa y los moverá al almacén de entidades.
 3.  Opcional: para mostrar recomendaciones en la pantalla de transacción, vaya a **Diseño de pantalla**, elija su diseño de pantalla, inicie el **Diseñador de pantalla** y quite el control de **recomendaciones** cuando sea necesario.
+
 4.  Vaya a **Parámetros de ventas al por menor** seleccione **Aprendizaje automático** y seleccione **Sí** en **Habilitar recomendaciones de PDV**.
 5.  Para ver recomendaciones sobre el PDV, ejecute el trabajo de configuración global **1110**. Para reflejar los cambios realizados en el diseñador de pantalla del PVD, ejecute el trabajo de configuración de canal **1070**.
 

@@ -3,7 +3,7 @@ title: "Alienación de las aptitudes de los recursos con las necesidades empresa
 description: "Puede realizar un seguimiento de las aptitudes que los trabajadores, los candidatos o las personas de contacto tienen o deben tener para cumplir adecuadamente con sus funciones. También puede especificar las aptitudes necesarias para un puesto concreto."
 author: kherr75
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2b76064049daccdcdff04c9f2fdde9a8b9c9e8e0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: e9e66d3c6309c195e076fd86c31aa0adade97394
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -51,7 +51,7 @@ Cuando se incluye información acerca de un trabajo, se pueden especificar las a
 Puede especificar aptitudes objetivo o aptitudes reales para trabajadores, candidatos o contactos. Una aptitud objetivo es una aptitud una persona tiene previsto lograr. Una aptitud real es una aptitud que una persona tiene actualmente.
 
 ## <a name="skill-mapping-and-skill-mapping-profiles"></a> Distribución de habilidades y perfiles de distribución de habilidades
-Puede crear una búsqueda de distribución de aptitudes para encontrar un trabajador, un candidato o una persona de contacto cualificada para realizar un tipo específico de tarea. Las búsquedas de distribución de aptitudes realizan búsquedas de aptitudes, formación, certificados, puestos de confianza y experiencia en proyectos, y devuelven los resultados que coincidan con los criterios especificados.  Por ejemplo, puede ser útil saber qué trabajadores de su organización tienen determinados certificados.
+Puede crear una búsqueda de distribución de aptitudes para encontrar un trabajador, un candidato o una persona de contacto cualificada para realizar un tipo específico de tarea. Las búsquedas de distribución de aptitudes realizan búsquedas de aptitudes, formación, certificados, puestos de confianza y experiencia en proyectos, y devuelven resultados que coincidan con los criterios especificados.  Por ejemplo, puede ser útil saber qué trabajadores de su organización tienen determinados certificados.
 
 Los perfiles de distribución de aptitudes le permiten buscar empleados o candidatos actuales con cualificaciones que se correspondan directamente con sus necesidades empresariales.  Por ejemplo, podría crear un perfil de distribución de aptitudes para una vacante en su organización. Al crear un perfil para un determinado trabajo y copiar las aptitudes, la formación y los certificados de dicho trabajo al perfil, puede buscar rápidamente trabajadores, candidatos y personas de contacto que coincidan con uno o más de los criterios especificados en el perfil y ver una lista de los candidatos cuyas habilidades coincidan más con las aptitudes necesarias para el trabajo.
 

@@ -3,7 +3,7 @@ title: "Créditos y cobros en Clientes"
 description: "La información de los cobros de clientes se gestiona en una vista central con la página Cobros de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Los administradores de crédito y cobros pueden usar esta vista central para gestionar los cobros. Los agentes de cobros pueden comenzar el proceso de cobro por las listas de clientes que se generan mediante criterios de cobro predefinidos o por la página Clientes."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 62f659d6e4529adce10e6eb2699dfc84a7329143
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a071d3151fbcc9e29bd138b096b34b88bc405a4f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -69,7 +69,7 @@ En las siguientes páginas de lista, se le ayuda a organizar la información de 
 -   Casos de cobros: en las columnas de la página de lista, se muestra información de los casos que tengan una categoría de caso cuyo tipo de caso sea Cobros.
 
 > [!NOTE]
-> Es necesario crear una instantánea de vencimientos antes de que pueda visualizar información en estas páginas de lista. La información se muestra solo para aquellos clientes para los que se ha creado una instantánea de vencimientos. Los registros que se muestran en la página de lista se pueden filtrar más, como sigue:
+> Es necesario crear una instantánea de vencimientos antes de que pueda visualizar información en estas páginas de lista. Sólo se muestra información para aquellos clientes para los que se haya creado una instantánea de vencimientos. Los registros que se muestran en la página de lista pueden estar más filtrados, por ejemplo:
 <li>De forma predeterminada, un usuario de Finance and Operations tiene acceso a todos los clientes que dispongan de una instantánea de vencimientos.</li>
 <li>Si existen secciones de clientes, es necesario configurar un usuario como agente de cobros para que pueda usar las secciones para filtrar información de páginas de listas de cobros. El acceso a esta información está limitado a los clientes incluidos en la sección de clientes seleccionada.</li>
 <li>Si un usuario está configurado como agente de cobros, sólo estarán disponibles en la página de lista las secciones seleccionadas para dicho agente de cobros. Si se ha seleccionado Permitir que el agente vea todas las secciones de clientes en la página Agente de cobros para el agente de cobros, todas las secciones quedan disponibles para dicho agente.</li>

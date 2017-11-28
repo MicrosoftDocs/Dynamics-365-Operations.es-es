@@ -3,7 +3,7 @@ title: "Visión general de pagos de proveedor"
 description: "Este procedimiento le mostrará los distintos métodos usados para crear pagos de proveedor, incluido cómo usar una propuesta de pago o especificar manualmente un pago único."
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 020d147744df24b2065e66e5fc68ed5d5479127b
+ms.sourcegitcommit: cafd499e849570cae7b7f58bf2d487a7ac0093e6
+ms.openlocfilehash: e9a94231f755ff23bb442d62e90daff8f2d1f4fb
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 # <a name="vendor-payment-overview"></a>Visión general de pagos de proveedor

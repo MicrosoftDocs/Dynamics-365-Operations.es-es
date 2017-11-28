@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 924177f4974358d2283dfd46306d663c27ccd87b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8c877a4ad6d4c29607159da52bf1cedae1476f92
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -431,7 +431,7 @@ La celda **Período** identifica los períodos fiscales que la columna debe incl
 | BASE-\#:BASE+\# | Use varios períodos, a partir de varios períodos anteriores al período de base hasta varios períodos después del período de la base. Por ejemplo, para usar los tres períodos previos, el período de la base y los siguientes dos períodos, escriba **BASE-3:BASE+2**. |
 | 1:BASE          | Use varios períodos, a partir del primer período hasta el período de base.                                                                                                                                                                 |
 | \#              | Use siempre un número específico del período. No se recomienda que use esta opción, ya que reduce la flexibilidad de la definición de la columna.                                                                                       |
-| \#                                      : \#           | Use siempre un intervalo específico de períodos. No se recomienda que use esta opción, ya que reduce la flexibilidad de la definición de la columna.                                                                                    |
+| \#:\#           | Use siempre un intervalo específico de períodos. No se recomienda que use esta opción, ya que reduce la flexibilidad de la definición de la columna.                                                                                    |
 
 Puede ir más allá de los límites del ejercicio en cualquiera de las especificaciones de período, y puede mezclar años en un intervalo de períodos. Poor ejemplo, se especifican los períodos como **BASE-5** (para representar los últimos seis períodos) y se ejecuta un informe que tenga un período de base de 2. En este caso, el informe muestra los datos para los dos primeros períodos del ejercicio especificado y los cuatro últimos períodos del ejercicio anterior.
 

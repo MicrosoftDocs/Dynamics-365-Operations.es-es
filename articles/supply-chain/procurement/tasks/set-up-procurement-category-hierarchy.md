@@ -3,7 +3,7 @@ title: "Configurar una jerarquía de categorías de compras"
 description: "Este procedimiento muestra cómo crear nuevos nodos en una jerarquía de categorías de compras y cómo configurar una categoría de compras para usarla en un proceso de compra."
 author: mkirknel
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/06/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9897b1184e8159b20a45d4cedbba56baef31a3c
+ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
+ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Configurar una jerarquía de categorías de compras
@@ -30,7 +30,7 @@ Este procedimiento muestra cómo crear nuevos nodos en una jerarquía de categor
 
 
 ## <a name="add-a-new-procurement-category"></a>Adición de una nueva categoría de compras
-1. Vaya a Adquisición y abastecimiento > .. > Categorías de adquisición.
+1. Vaya a Adquisición y abastecimiento > Categorías de compras.
 2. Haga clic en Editar jerarquía de categoría.
     * La jerarquía de la categoría de compras actual se muestra en el lado izquierdo de la página. Va a modificar la jerarquía.  
 3. Haga clic en Nodo de categoría nueva.
@@ -42,7 +42,7 @@ Este procedimiento muestra cómo crear nuevos nodos en una jerarquía de categor
 7. Haga clic en Guardar.
 
 ## <a name="add-products-to-your-new-procurement-category"></a>Adición de productos a su nueva categoría de compra
-1. Vaya a Adquisición y abastecimiento > .. > Categorías de adquisición.
+1. Vaya a Adquisición y abastecimiento > Categorías de compras.
     * Seleccione el nodo que acaba de agregar. Si está ejecutando este procedimiento como guía de tarea, puede que tenga que desbloquear la guía de tarea para seleccionar el nodo.  
 2. Expanda la sección Productos.
 3. Haga clic en Agregar para asociar productos con la categoría de adquisición.

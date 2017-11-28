@@ -17,10 +17,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 184f38347e2525f3efef9b0d55003a94a75380d4
+ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
+ms.openlocfilehash: c7148bd807ef29b0dd89204a0fbe9b8480095aba
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registro de artículos habilitados para almacenamiento básico mediante un diario de recepción de artículos
@@ -34,7 +34,7 @@ Este procedimiento muestra cómo registrar artículos mediante el diario de rece
 1. Vaya a Gestión del inventario > Movimientos de diario > Recepción de artículos > Recepción de artículos.
 2. Haga clic en Nuevo.
 3. En el campo Nombre, escriba un valor.
-    * Si está usando USMF, puede escribir WHS. Si está usando otros datos, el diario cuyo nombre elija tiene que tener las siguientes propiedades: Comprobar ubicación de picking debe estar definida en No, y Gestión de cuarentena debe estar definida en No.  
+    * Si está usando USMF, puede escribir WHS. Si está usando otros datos, el diario cuyo nombre elija tiene que tener las siguientes propiedades: comprobar ubicación de picking debe estar definido en No, y Gestión de cuarentena debe estar definido en No.  
 4. En el campo Albarán, escriba un valor.
     * Esta es el identificador del albarán emitido por el proveedor. Agregue un número único.  
 5. En el campo Número, seleccione el pedido de compra.

@@ -1,9 +1,9 @@
 ---
 title: "Depreciación con amortización degresiva del 175%"
-description: "Este artículo le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 175%."
+description: "Este tema le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 175%."
 author: saraschi2
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 318e111f784157666c2853bcd6d5b3af2c9ffdc5
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a61e743898e3e65c0012a7aeb9837e55e9143d01
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 175%.
+Este tema le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 175%.
 
 Al configurar un método de depreciación de activos fijos y seleccionar el valor **Depreciación degresiva del 175%** en el campo **Método** de la página **Métodos de depreciación**, los activos fijos que se asignan al método de depreciación se deprecian por el mismo porcentaje en cada período de depreciación. 
 

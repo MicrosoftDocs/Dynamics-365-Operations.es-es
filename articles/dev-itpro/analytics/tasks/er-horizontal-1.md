@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 0cd1de95630d0f7c40c3b9948015892623a93686
+ms.sourcegitcommit: 1ccf3b2d81066fce80fe14428fab24020ab85496
+ms.openlocfilehash: b921b5ff51f951112031fe8b1bc2faa90cf29a28
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/07/2017
 
 ---
 # <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a>Designar un formato para usar intervalos horizontalmente ensanchables para añadir de forma dinámica columnas en informes de Excel para informes electrónicos (ER)
@@ -36,7 +36,8 @@ Para completar estos pasos, primero debe completar estas tres guías de tarea:
 
 "ER Usar dimensiones financieras como origen de datos (Parte 2: Asignación de modelo)"
 
-También debe descargar y guardar una copia local de la plantilla con un informe de ejemplo que se encuentra aquí: http://msdynamics.blob.core.windows.net/media/2016/09/SampleFinDimWsReport.xlsx
+También debe descargar y guardar una copia local de la plantilla con un informe de ejemplo que se encuentra aquí, [https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266). 
+
 
 Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
 

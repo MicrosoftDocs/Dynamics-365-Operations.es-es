@@ -1,16 +1,16 @@
 ---
 title: "Visión general de la ayuda"
-description: "Este artículo proporciona una visión general de los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations. También se explica cómo puede proporcionar la formación y la documentación personalizadas a su organización."
+description: "Este tema proporciona una visión general de los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations. También se explica cómo puede proporcionar la formación y la documentación personalizadas a su organización."
 author: margoc
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
@@ -18,18 +18,18 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
-ms.openlocfilehash: 2df27a23d31ecde99bb31b4f8a19295c331cae09
+ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
+ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/11/2017
 
 ---
 
-# <a name="help-overview"></a>Visión general de la ayuda
+# <a name="help-system-overview"></a>Visión general del sistema de ayuda
 
 [!include[banner](../includes/banner.md)]
 
-Este artículo proporciona una visión general de los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations. También se explica cómo puede proporcionar la formación y la documentación personalizadas a su organización. 
+Este tema proporciona una visión general de los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations. También se explica cómo puede proporcionar la formación y la documentación personalizadas a su organización. 
 
 > [!NOTE] 
 > Los siguientes productos están estrechamente relacionados: Dynamics 365 for Finance and Operations, Enterprise Edition; Dynamics 365 for Retail; y Dynamics 365 for Talent. Puede que los tres productos tengan la misma funcionalidad. Como resultado, en los temas relativos principalmente a Retail, el nombre de producto será 365 Dynamics for Retail, en los temas relativos principalmente a Talent, el nombre de producto será Dynamics 365 Talent y en los temas relativos principalmente al producto básico, el nombre del producto será Dynamics 365 for Finance and Operations. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
@@ -69,16 +69,17 @@ Recibimos muchas preguntas sobre cómo realizar búsquedas en nuestro contenido.
 
 También puede encontrar nuestro contenido con cualquier motor de búsqueda. Para obtener los mejores resultados, recomendamos utilizar una búsqueda en sitio con el parámetro site:docs.microsoft.com dynamics 365 “término buscado”.  
 
-![Búsqueda en sitio](./media/site-search-1.png)
-
-![Resultados de la búsqueda en sitio](./media/site-search-results-2.png)
-
 ### <a name="the-docsmicrosoftcom-table-of-contents"></a>La tabla de contenido docs.microsoft.com
-Todos los productos comparten una sola tabla de contenido en el sitio de los documentos, que permite a los clientes ver el contexto del tema en el que están. También le permite usar el control de filtro para buscar temas que quiera.
+Finance and Operations, Retail y Talent comparten una sola tabla de contenido en el sitio de los documentos, que permite a los clientes ver el contexto del tema en el que están. También le permite usar el control de filtro situado sobre la tabla de contenidos para buscar temas que quiera.
 
-### <a name="how-can-i-contribute"></a>¿Cómo puedo contribuir? 
+### <a name="follow-a-topic"></a>Seguir un tema
+Para realizar el seguimiento de un tema, haga clic en el botón +Seguir bajo el cuadro de comentarios. Deberá iniciar sesión para realizar un seguimiento del tema. Consulte [Déjenos un comentario](#leave-us-a-comment) para obtener más detalles.  
 
-Déjenos aquí un comentario 
+### <a name="give-feedback"></a>Proporcionar retroalimentación 
+Nos encantan los comentarios de los clientes. Puede comentar o sugerir cambios en nuestro contenido con GitHub.
+
+##### <a name="leave-us-a-comment"></a>Déjenos aquí un comentario 
+Si tiene opiniones o preguntas sobre un tema, déjenos un comentario en la parte inferior de la página.  
 
 1 Haga click en **Comentarios** para ir a los comentarios en la parte inferior de la página.
 
@@ -96,6 +97,19 @@ O
 A la derecha, escriba una dirección de correo electrónico y una nueva contraseña para crear una cuenta nueva para el sitio. 
 
 ![Opciones de inicio de sesión](./media/signin-options.png)
+
+
+##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Sugerir un cambio o aportar contenido con GitHub
+Para sugerir un cambio, deberá disponer de una cuenta de GitHub, y firmar un contrato de licencia de colaborador.  Tras enviar una solicitud de extracción, revisaremos los cambios propuestos. En caso necesario, los discutiremos internamente y, a continuación le informaremos.  
+
+Para ponerse en marcha, haga clic en el botón **Editar** (lápiz) en un tema, o vaya a nuestro repositorio en https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
+
+Para obtener más información, consulte nuestra guía de nuestro para colaboradores: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
+
+
+> [!NOTE]
+> Aceptaremos sólo contribuciones a nuestros repositorios en inglés en este momento.  
+> No aceptamos los problemas notificados con GitHub. Asegúrese de utilizar una solicitud de extracción para sugerencias de contenido. Los comentarios sobre productos y características se gestionan a través del portal de ideas de Dynamics 365: https://ideas.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Guías de tareas
@@ -196,9 +210,4 @@ En la tabla siguiente aparecen las listas de nuestras páginas web. Nuestros sit
 [Guías de tareas nuevas o actualizadas (agosto de 2016)](new-updated-task-guides-available-august-2016.md)
 [Guías de tareas nuevas o actualizadas (mayo de 2016)](new-updated-task-guides-available-may-2016.md)
 [Nuevas guías de tareas (febrero de 2016)](new-task-guides-available-february-2016.md)
-
-
-
-
-
 

@@ -3,7 +3,7 @@ title: "Secuenciar trabajos de producción para fabricación en procesos"
 description: "Este procedimiento usa productos de pintura como ejemplo para mostrar cómo establecer la secuencia de los pedidos planificados según la prioridad de color y tamaño de paquete."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a25a4575ca1600b07b2dac5949c8775bcd162650
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 87e35de4744a0728cd41192b4afc750b575a1324
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Secuenciar trabajos de producción para fabricación en procesos
@@ -68,6 +68,6 @@ Este procedimiento usa productos de pintura como ejemplo para mostrar cómo esta
     * Seleccione MasterPlan.  
 7. En la lista, haga clic en el vínculo de la fila seleccionada.
 8. Use un filtro rápido para filtrar por el campo Código de artículo con el valor 'P300'.
-    * Observe que los pedidos se establecen ahora en secuencia según la prioridad de color y tamaño y los pedidos planificados empiezan en la primera fecha de pedido y fecha de entrega. Valide la columna Fecha del pedido o la Fecha inicial en el cuadro desplegable Detalles de programación.  
+    * Observe que los pedidos se establecen ahora en secuencia según la prioridad de color y tamaño y los pedidos planificados empiezan en la primera fecha de pedido y fecha de entrega. Valide la columna Fecha del pedido o la Fecha inicial en el cuadro informativo Detalles de programación.  
 
 

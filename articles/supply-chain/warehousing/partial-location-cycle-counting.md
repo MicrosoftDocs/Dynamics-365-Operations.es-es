@@ -3,7 +3,7 @@ title: "Recuento cíclico de ubicaciones parcial"
 description: "Los planes de recuento cíclico dirigen las operaciones de recuento. Puede solicitar que solo los productos específicos y las variantes de producto entren en el recuento en lugar de todos los inventarios disponibles en una ubicación."
 author: perlynne
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 626b2f9f35b94124168adb7bb09c75a086d38a97
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0e0f9d81f4d5943a89d8ac87776e05acb32cb8d9
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -54,7 +54,7 @@ Para este ejemplo, solo se debe contar el número de artículo A0001 en el almac
 
 1.  Se crea una plantilla de trabajo nueva para el recuento cíclico. La opción **Saltos de línea de trabajo** se usa para agrupar líneas de trabajo de recuento para el número de artículo. Por lo tanto, el trabajo de recuento cíclico que se crea tendrá líneas por número de artículo. También puede agrupar las líneas por número de variante del producto.
 2.  Un nuevo plan de recuento cíclico se crea que hace referencia a la plantilla de trabajo recién creada. El plan de recuento cíclico incluye todas las ubicaciones en el almacén 61 (consulta **Seleccionar ubicaciones**) que se retienen en inventario para el número de artículo A0001. La selección de productos específicos se define en la sección **Selecciones producto de recuento cíclico**.
-3.  Puede seleccionar productos para los planes de recuento cíclico si establece el campo **Ubicaciones vacías** en **Excluir vacío**. Cuando el plan de recuento cíclico se procesa, el trabajo de recuento cíclico parcial para el artículo A0001 se crea. El proceso de recuento real se puede realizar mediante un elemento de menú del dispositivo móvil para el recuento cíclico dirigido.
+3.  Puede seleccionar productos para sus planes de recuento cíclico estableciendo el campo **Ubicaciones vacías** **Excluir vacío**. Cuando el plan de recuento cíclico se procesa, se crea el trabajo de recuento cíclico parcial para el número de artículo A0001. El proceso de recuento real se puede realizar mediante un elemento de menú del dispositivo móvil para el recuento cíclico dirigido.
 
 
 

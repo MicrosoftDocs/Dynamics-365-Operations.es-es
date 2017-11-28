@@ -1,9 +1,9 @@
 ---
 title: "Visión general del proceso de producción"
-description: "Este artículo ofrece una visión general de los procesos de producción. Describe las distintas etapas de pedidos de producción, de pedidos de lote y de kanbans, desde la creación de pedidos al cierre del período financiero."
+description: "Este tema ofrece una visión general de los procesos de producción. Describe las distintas etapas de pedidos de producción, de pedidos de lote y de kanbans, desde la creación de pedidos al cierre del período financiero."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e50e64057d19d0e1fbf5645c2abc31fbd19ea43a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo ofrece una visión general de los procesos de producción. Describe las distintas etapas de pedidos de producción, de pedidos de lote y de kanbans, desde la creación de pedidos al cierre del período financiero. 
+Este tema ofrece una visión general de los procesos de producción. Describe las distintas etapas de pedidos de producción, de pedidos de lote y de kanbans, desde la creación de pedidos al cierre del período financiero. 
 
 La producción de productos, un proceso también conocido como el ciclo de vida de producción, sigue los pasos específicos necesarios para completar la fabricación de un artículo. El ciclo de vida comienza con la creación del pedido de producción, el pedido de lote o kanban. Finaliza con un artículo manufacturado terminado listo para el cliente o para otra fase de producción. Cada paso del ciclo de vida requiere diferentes tipos de información para terminar el proceso. Cuando termina cada paso, el pedido de producción, el pedido de lote o el kanban refleja esto cambiando el estado de producción. Distintos tipos de productos requieren diferentes procesos de fabricación.  
 

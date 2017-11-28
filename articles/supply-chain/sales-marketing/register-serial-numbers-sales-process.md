@@ -1,9 +1,9 @@
 ---
 title: "Registro de números de serie en el proceso de ventas"
-description: "Este artículo explica cómo puede registrar los números de serie en albaranes o facturas durante el proceso de ventas. Esta funcionalidad es útil si una empresa desea capturar los números de serie para propósitos de servicio y de garantía, pero no tiene que mantener los números de serie en el inventario desde recepción a emisión."
+description: "Este tema explica cómo puede registrar los números de serie en albaranes o facturas durante el proceso de ventas. Esta funcionalidad es útil si una empresa desea capturar los números de serie para propósitos de servicio y de garantía, pero no tiene que mantener los números de serie en el inventario desde recepción a emisión."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9b8f66d4b62b43b3a62af8d39631e7cd7f688a11
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 23683ff3b232d485d0e4386963b3dcf37cd96c6f
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
-Este artículo explica cómo puede registrar los números de serie en albaranes o facturas durante el proceso de ventas. Esta funcionalidad es útil si una empresa desea capturar los números de serie para propósitos de servicio y de garantía, pero no tiene que mantener los números de serie en el inventario desde recepción a emisión.
+Este tema explica cómo puede registrar los números de serie en albaranes o facturas durante el proceso de ventas. Esta funcionalidad es útil si una empresa desea capturar los números de serie para propósitos de servicio y de garantía, pero no tiene que mantener los números de serie en el inventario desde recepción a emisión.
 
 Muchas empresas solo desean capturar los números de serie para propósitos de servicio y de garantía, y no tienen que mantener los números de serie en el inventario desde recepción a emisión. En estos casos, Microsoft Dynamics 365 for Finance and Operations le permite registrar los números de serie en los albaranes o facturas al vender productos. Si más adelante los productos se devuelven, puede realizar un seguimiento de cada producto en una factura para determinar si vendió el producto, y si las obligaciones de servicio o de garantía son válidas.
 ¿Hay algún requisito previo?

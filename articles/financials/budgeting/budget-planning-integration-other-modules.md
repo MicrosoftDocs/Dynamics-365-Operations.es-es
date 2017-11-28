@@ -3,14 +3,14 @@ title: "Integración de planificación presupuestaria con otros módulos"
 description: "Se pueden generar planes presupuestarios desde diversos recursos diferentes. Los elementos básicos del proceso periódico son iguales para todos los recursos."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 64443
 ms.assetid: f9a94db5-906c-404a-9ca5-91528d67c490
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 311a5cbd3768d8ecc7e7430717369193e60c3e57
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 7663453ddf87bcb43d2f19ebec3c9bda90eda884
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -59,7 +59,7 @@ Para cada proceso de generación, hay tres acciones disponibles:
 
 Para todos los procesos, la pestaña **Origen** la ficha le permite filtrar los datos mediante el botón **Filtro**. De forma predeterminada, los campos específicos se agregan al filtro para cada proceso. Por ejemplo, para el proceso **Generar el plan presupuestario desde contabilidad general**, las categoría **Cuenta contable** y **Cuenta principal** están disponibles y aparecen en la página de la generación. Cualquier campo que agregue al filtro también se agrega a la página, junto con los criterios que se agreguen.
 
-### <a name="target"></a>Objetivo
+### <a name="target"></a>Destino
 
 La opción **Histórico** en la pestaña **Destino** le permite usar las fechas de los datos de origen como la fecha de vigencia en el plan presupuestario. Normalmente, la fecha de vigencia debe situarse dentro del ciclo presupuestario del plan. Cuando establece la opción **Histórico** en **Sí**, la fecha (incluso el año) del origen se utiliza, de manera que pueda usar los últimos datos como base para la comparación. No puede modificar datos históricos en el plan presupuestario, y el plan se establece en un estado del flujo de trabajo aprobado. Sin embargo, puede restablecer el estado si otros escenarios en el plan requieren cambios.
 

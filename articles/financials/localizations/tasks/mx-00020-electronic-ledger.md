@@ -3,7 +3,7 @@ title: "Producir el informe electrónico de contabilidad de libro mayor del prod
 description: "Esta tarea le muestra todos los pasos necesarios para configurar la generación de archivos XML electrónicos de cuenta contable mediante la herramienta de informes electrónicos."
 author: sndray
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/31/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2ef0348c0b3a051de6cbb725efbd8e30e7968bd3
+ms.sourcegitcommit: 632b04848cdb6d71e7e7dbd6c6bc710d0577950a
+ms.openlocfilehash: e7b9cf1ff7fbc81a7fd55b640d2e1dc45a096e87
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="produce-mexican-electronic-ledger-accounting-report-version-11"></a>Producir el informe electrónico de contabilidad de libro mayor del producto mexicano versión 1.1
@@ -83,7 +83,7 @@ Esta tarea le muestra todos los pasos necesarios para configurar la generación 
 3. En la lista, busque y seleccione el registro deseado.
 4. En la lista, haga clic en el vínculo de la fila seleccionada.
 5. En el campo Período, especifique una fecha.
-6. Active o desactive la opción Saldo de comprobación.
+6. Active o desactive la opción Saldo de comprobación
     * Esta opción genera los archivos XML del plan contable y el saldo de comprobación.  
 7. Active o desactive la casilla Movimientos contables.
 8. Active o desactive la casilla Libro mayor auxiliar.

@@ -1,9 +1,9 @@
 ---
 title: "Media ponderada con valor físico y marcado"
-description: 
+description: "La media ponderada es un modelo de inventario que se basa en el principio de media ponderada, donde las emisiones de inventario se tasan en el valor medio de los artículos recibidos en inventario durante el período de cierre de inventario, más cualquier inventario disponible del período anterior."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c9db625e5af77b8f5d1569e35ce2d4c20e5be646
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
-
+La media ponderada es un modelo de inventario que se basa en el principio de media ponderada, donde las emisiones de inventario se tasan en el valor medio de los artículos recibidos en inventario durante el período de cierre de inventario, más cualquier inventario disponible del período anterior.
 
 Cuando se ejecuta un cierre de inventario, todas las recepciones se liquidan contra una emisión virtual, que mantiene la cantidad recibida total y el valor. Esta emisión virtual tiene una recepción virtual correspondiente a partir de la cual se liquidan las emisiones. De este modo, todas las emisiones obtienen el mismo coste medio. La emisión y recepción virtual puede verse como una transferencia virtual, llamada “transferencia de cierre de inventario de media ponderada”.
 

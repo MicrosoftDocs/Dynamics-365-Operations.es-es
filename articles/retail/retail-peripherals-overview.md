@@ -1,9 +1,8 @@
 ---
 title: "Descripción general de los periféricos para aplicaciones minoristas"
-description: "En este tema explica los conceptos relacionados con los periféricos para aplicaciones minoristas. Describe las distintas maneras en que se pueden conectar los periféricos al punto de venta (PDV) y los componentes responsables de gestionar la conexión con el PDV."
-author: rubencdelgado
+description: "En este tema explica los conceptos relacionados con los periféricos para aplicaciones minoristas."
 manager: AnnBe
-ms.date: 06/19/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -18,14 +17,14 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 347100651302bb97806783d00559f2396d031fcc
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
-# <a name="retail-peripherals-overview"></a>Descripción general de los periféricos para aplicaciones minoristas
+# <a name="retail-peripherals-overview"></a>Descripción general de los periféricos de venta al por menor
 
 [!include[banner](includes/banner.md)]
 
@@ -575,7 +574,7 @@ Según las normas actuales de seguridad, los valores siguientes se deben usar en
 ## <a name="peripheral-simulator"></a>Simulador periférico
 Para obtener más información, consulte [Simulador de periféricos para aplicaciones minoristas](dev-itpro/retail-peripheral-simulator.md).
 
-## <a name="microsofttested-peripheral-devices"></a>Dispositivos periféricos probados por Microsoft
+## <a name="microsoft-tested-peripheral-devices"></a>Dispositivos periféricos probados por Microsoft
 ### <a name="ipc-built-in-hardware-station"></a>Estación de hardware de IPC (integrada)
 
 Los siguientes periféricos se probaron mediante la estación de hardware de IPC que se integra en Modern POS para Windows.

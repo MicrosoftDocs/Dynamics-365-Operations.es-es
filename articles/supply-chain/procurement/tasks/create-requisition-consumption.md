@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 07fe007005fcbbac1beecadb14dbd752376a0bd4
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 55ef4b1757a6f3c28c8575412d66488fda8608a5
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="create-a-requisition-for-consumption"></a>Creación de una solicitud para consumo
@@ -46,12 +46,12 @@ Este procedimiento le muestra el proceso para crear un pedido o solicitud. Le mu
 
 ## <a name="add-a-line-to-the-requisition"></a>Adición de una línea a la solicitud
 1. Haga clic en Agregar línea.
-    * Existen dos formas de agregar líneas a la solicitud de compra. Si ya sabe cuál es el número de producto o ya sabe que está solicitando un producto que no están en el catálogo de productos, puede agregar la línea directamente con "Agregar línea". La otra manera es usar "Agregar productos" allí donde se pueden usar las funciones de búsqueda y filtrado para buscar artículos en el catálogo de productos.    
+    * Existen dos formas de agregar líneas a la solicitud de compra. Si sabe ya cuál es el número de producto o que está solicitando un producto que no están en el catálogo de productos, puede agregar la línea directamente con Agregar línea. La otra manera es usar Agregar productos allí donde se pueden usar las funciones de búsqueda y filtrado para buscar artículos en el catálogo de productos.    
 2. Haga clic en la fila que acaba de crear.
     * El solicitante es el trabajador que ha solicitado el pedido o solicitud.   
     * De forma predeterminada, la persona que prepara la solicitud es el trabajador que la ha solicitado. Tiene que habérsele concedido permiso para preparar una línea de pedido en nombre de otro trabajador. Si dispone de estos permisos, entonces los otros trabajadores aparecerán en esta búsqueda.  
 3. En el campo Código de artículo, escriba un valor.
-    * Los artículos disponibles están limitados según la directiva de acceso a categorías y el catálogo de compras para la entidad jurídica de compra.   
+    * Los artículos disponibles se limitan según la directiva de acceso a categorías y el catálogo de compras para la entidad jurídica de compra.   
 4. En el campo Cantidad, especifique un número.
 
 ## <a name="add-more-products-to-the-requisition"></a>Adición de más productos a la solicitud

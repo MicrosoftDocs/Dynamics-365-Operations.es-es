@@ -1,9 +1,9 @@
 ---
 title: Previsiones y presupuestos del proyecto
-description: 
+description: Microsoft Dynamics 365 for Finance and Operations proporciona previsiones y presupuestos de proyecto para gestionar y controlar los proyectos.
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 23501
 ms.assetid: 4e6d1384-19a2-4232-b3f3-d2590c218bd7
 ms.search.region: Global
@@ -19,18 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 32dd89d92a496d6601d1983dbc3c8e7e579ee0b3
+ms.sourcegitcommit: 31abc719a8df7507e74b3bf6823306ba52261bc3
+ms.openlocfilehash: ebb3574b3f5c40b5512c0352c83520558f63879a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
 # <a name="project-forecasts-and-budgets"></a>Previsiones y presupuestos del proyecto
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition proporciona dos formas de gestionar y controlar los proyectos: las previsiones y los presupuestos de proyecto. 
@@ -41,16 +39,16 @@ Tanto las previsiones como los presupuestos de proyecto usan modelos de previsi�
 
 Cada método tiene sus propias ventajas. Debe considerar los siguientes puntos antes de seleccionar un método para su organización.
 
-|                           |                                                                                                                                                                                                                                                         |                                                                                                                                                                         |
-|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                           | **Previsión de proyecto**                                                                                                                                                                                                                                 | **Presupuesto de proyecto**                                                                                                                                                   |
+|                           |                                          |                                                    |
+|---------------------------|------------------------------------------|----------------------------------------------------|
+|                           | **Previsión de proyecto**                  | **Presupuesto de proyecto**                              |
 | **Asignación por períodos**     | No puede asignar explícitamente transacciones durante un período fiscal. Por el contrario, la previsión y el control de la previsión se basan en la duración del proyecto. Dado que las previsiones se basan en una fecha concreta, debe inferir el período desde la fecha. | Puede asignar las transacciones a la totalidad del proyecto o a un período fiscal. Si asigna a un período, puede transferir los importes no usados al siguiente período fiscal. |
 | **Visualización de las transacciones**  | Puede ver las transacciones en los formularios de previsión, donde se muestran las previsiones de toda la empresa y para todos los proyectos, independientemente de la jerarquía. Para centrarse en un proyecto concreto, debe filtrar los datos.                                       | Puede ver las transacciones presupuestadas para una única jerarquía de proyecto. Por lo tanto, puede ver los detalles de la transacción para un proyecto principal o sus subproyectos.                 |
-| **Variables de la transacción** | Cuando introduce las transacciones de previsión, puede usar todos los atributos que existen para una transacción real. Esto permite obtener una previsión más detallada. Por ejemplo, puede especificar los detalles de cantidad, trabajadores, artículos o propiedades de línea.         | Cuando introduce detalles presupuestarios, solo puede usar importes, categorías y actividades.                                                                                    |
-| **Seguridad**              | La previsión se basa en transacciones que se introducen en los formularios de previsión y no implica ningún mecanismo de control de procesos. Cualquier trabajador con permisos para un formulario de previsión puede revisar la información sin aprobación.                                        | La gestión presupuestaria utiliza el sistema de flujos de trabajo, lo que habilita la administración de cambios y permite mantener un historial de las revisiones.                                                       |
-| **Tipos de entrada**           | Las entradas de transacciones de previsión se basan en el número de unidades y en el coste y los precios de las unidades de ventas.                                                                                                                                                       | Los detalles presupuestarios se basan en los importes, que se dividen entre costes e ingresos.                                                                                        |
-| **Modelos de previsión**       | Ya que todas las previsiones deben estar asociadas a un modelo, puede crear varios modelos de previsión y también establecer submodelos.                                                                                                                               | La gestión presupuestaria de proyectos limita los modelos de previsión que se usan para la gestión presupuestaria. Una menor cantidad de modelos de previsión puede ayudar a aumentar la coherencia en las proyecciones.                           |
-| **Saturaciones de costes**         | Solo puede permitir o rechazar la entrada de las transacciones que provocarían una saturación de costes.                                                                                                                                                                | La gestión presupuestaria de proyectos proporciona a los usuarios opciones de control adicionales. Puede permitir las advertencias y las saturaciones.                                                                   |
+| **Variables de la transacción** | Cuando introduce las transacciones de previsión, puede usar todos los atributos que existen para una transacción real. Esto permite obtener una previsión más detallada. Por ejemplo, puede especificar los detalles de cantidad, trabajadores, artículos o propiedades de línea.         | Cuando introduce detalles presupuestarios, solo puede usar importes, categorías y actividades.                    |
+| **Seguridad**              | La previsión se basa en transacciones que se introducen en los formularios de previsión y no implica ningún mecanismo de control de procesos. Cualquier trabajador con permisos para un formulario de previsión puede revisar la información sin aprobación.                                        | La gestión presupuestaria utiliza el sistema de flujos de trabajo, lo que habilita la administración de cambios y permite mantener un historial de las revisiones.         |
+| **Tipos de entrada**           | Las entradas de transacciones de previsión se basan en el número de unidades y en el coste y los precios de las unidades de ventas.  | Los detalles presupuestarios se basan en los importes, que se dividen entre costes e ingresos.                                          |
+| **Modelos de previsión**       | Ya que todas las previsiones deben estar asociadas a un modelo, puede crear varios modelos de previsión y también establecer submodelos.           | La gestión presupuestaria de proyectos limita los modelos de previsión que se usan para la gestión presupuestaria. Una menor cantidad de modelos de previsión puede ayudar a aumentar la coherencia en las proyecciones.                           |
+| **Saturaciones de costes**         | Solo puede permitir o rechazar la entrada de las transacciones que provocarían una saturación de costes.   | La gestión presupuestaria de proyectos proporciona a los usuarios opciones de control adicionales. Puede permitir las advertencias y las saturaciones.                    |
 | **Control**               | El control de previsión se realiza mediante la reducción de previsión. Los importes reales se restan de los saldos de transacciones de previsión sin trazas de auditoría. Esto puede dificultar el seguimiento de la ubicación en que se realizaron las transacciones reales.                   | En el control presupuestario de proyectos, los importes reales se restan de los importes del presupuesto restante. Esto permite realizar trazas de auditoría más claras.                                   |
 
 ## <a name="project-forecasts"></a>Previsiones de proyectos
