@@ -2,6 +2,8 @@
 
 # [Introducción](talent-get-started.md)
 ## [Requisitos del sistema y directiva de actualización](talent-versions-update-policy.md)
+## [Aprovisionar Microsoft Dynamics 365 for Talent](provisioning-talent.md)
+## [Ampliar la funcionalidad de Talent](extend-talent-functionality.md)
 
 # [Desarrollar una estrategia de recursos humanos](departments-jobs-positions.md)
 ## [Configurar componentes de un trabajo](create-job.md)
