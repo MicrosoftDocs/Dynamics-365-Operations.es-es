@@ -3,7 +3,7 @@ title: "Espacio de trabajo de cierre del período financiero"
 description: "Este artículo proporciona una visión general del espacio de trabajo de cierre del período financiero y la configuración asociada."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5dbefc953c0f1608b6f5b5676850a0e9aba36cc
+ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
+ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/29/2017
 
 ---
 
@@ -91,7 +91,8 @@ Puede asignar una tarea en la plantilla a una o más empresas en las que se apli
 
 El elemento de menú **Vínculo de tarea** está asociado al esfuerzo de trabajo de la tarea y se puede usar para ir directamente a la página asociada desde el vínculo de la tarea en el espacio de trabajo. Por ejemplo, se puede vincular una tarea cerrada para ejecutar el proceso de revalorización de divisa para los proveedores a la página **Revalorización de divisa extranjera** asociada en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. También puede vincular a una dirección URL externa. 
 
-> [Sugerencia] Si desea vincular un informe específico del Management Reporter a una tarea de cierre del período financiero, puede usar la dirección URL del informe. Para obtener acceso a la dirección URL del informe, abra el informe en el diseñador de informes y, a continuación, haga clic en **Archivo** &gt; **Ver informe** para abrir el informe en un explorador web. A continuación, puede copiar la dirección URL en la barra de dirección del explorador y pegarla en el campo **Vínculo de tareas** **URL**. 
+> [!TIP]
+> Si desea vincular un informe específico del Management Reporter a una tarea de cierre del período financiero, puede usar la dirección URL del informe. Para obtener acceso a la dirección URL del informe, abra el informe en el diseñador de informes y, a continuación, haga clic en **Archivo** &gt; **Ver informe** para abrir el informe en un explorador web. A continuación, puede copiar la dirección URL en la barra de dirección del explorador y pegarla en el campo **Vínculo de tareas** **URL**. 
 
 Puede definir dependencias entre tareas en la plantilla. Si se ha configurado una tarea para que dependa de una o más tareas, esa tarea no se podrá marcar como completada hasta que se hayan completado todas las dependencias. 
 

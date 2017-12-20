@@ -3,7 +3,7 @@ title: Contenido de Power BI de CFO
 description: Este tema describe el contenido de Microsoft Power BI de CFO.
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e08277850d36804e3d4508b87547d2c819e2faf3
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ Este tema describe el contenido de Microsoft Power BI de **visión general de CF
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 
-Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julio de 2017), los informes de contenido de Power BI de **visión general de CFO** aparecen en el espacio de trabajo **visión general de CFO**.
+Los informes del contenido de Power BI **Visión general de CFO** se muestran en el espacio de trabajo **Visión general de director financiero (CFO)**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
 El contenido de Power BI de **visión general de CFO** es un compuesto de informes de diversos contenidos de Power BI, así como los saldos real y presupuestarios de la contabilidad general. Por lo tanto, este contenido de Power BI ofrece al director financiero (CFO) una visión general de la organización.

@@ -3,7 +3,7 @@ title: "Contenido de Power BI sobre rendimiento del almacén"
 description: "Este tema describe lo que se incluye en el contenido de rendimiento del almacén en Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d30a14e78e35c94b9f8945d2fcc973f921698953
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ Los directores de almacén pueden usar el contenido de Power BI **Rendimiento de
 -   **Exactitud de inventario de la ubicación**: la precisión del inventario es inteligencia empresarial (BI) interna del almacén. Es muy importante que determine el grado de exactitud de sus recuentos en general. Sin embargo, también es importante que determine su grado de precisión cuando almacena artículos en las ubicaciones correctas, y que resalte los datos de las discrepancias, de modo que pueda encontrar mejores puestos para los artículos o iniciar un recuento total de artículos específicos. (Actualmente, la nueva funcionalidad de recuento basada en artículos se entrega como sustitución). Si utiliza este contenido de Power BI para determinar la corrección de los datos de inventario disponibles por ubicación, también puede identificar los robos en las tiendas. También puede determinar si algunas ubicaciones tienen cantidades disponibles que difieren de los datos de (ERP) de planificación de recursos empresariales. Estas ubicaciones pueden ser demasiado grandes, o puede que no sea posible contarlas. O bien, parte de la colocación física puede ser incorrecta, por lo que puede que sea difícil conservar un único tipo de artículo en sincronización con los datos disponibles.
 
 ## <a name="accessing-the-power-bi-content-pack"></a>Acceso al pack de contenido de Power BI
-Si está usando Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julio de 2017), el contenido de Power BI **Rendimiento del almacén** se muestra en la página **Rendimiento del almacén** (**Gestión del almacén** > **Consultas e informes** > **Análisis de rendimiento del almacén** > **Rendimiento del almacén**). 
+El contenido de Power BI **Rendimiento de almacén** se muestra en la página **Rendimiento de almacén** (**Gestión de almacenes** > **Consultas e informes** > **Análisis del rendimiento de almacén** > **Rendimiento de almacén**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
 El contenido de Power BI **Rendimiento de almacén** incluye un informe. Este informe consta de un conjunto de métricas que se visualizan, como gráficos, mosaicos y tablas. La tabla siguiente proporciona una visión general de las visualizaciones del contenido de **rendimiento de almacén** en Power BI.

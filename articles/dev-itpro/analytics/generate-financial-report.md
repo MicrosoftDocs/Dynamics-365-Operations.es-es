@@ -1,16 +1,16 @@
 ---
 title: Generar un informe financiero
 description: "Este tema proporciona información acerca de la generación de un informe financiero."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: 2986d218318951b7e46cb5dfafcbd17f2d513755
+ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
+ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
 ms.contentlocale: es-es
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -40,15 +40,31 @@ Para generar un informe, abra la definición del informe y haga clic en el botó
 
 En la siguiente tabla se explican las opciones disponibles para generar informes.
 
-| Opción                                                                                | Para obtener más información |
-|---------------------------------------------------------------------------------------|----------------------|
-| Configurar una programación para generar un informe o a un grupo de informes automáticamente              |                      |
-| Revisar cuentas o datos que faltan en un informe y validar la precisión de un informe |                      |
+| Opción                                                                                | 
+|---------------------------------------------------------------------------------------|
+| Configurar una programación para generar un informe o a un grupo de informes automáticamente              |   
+| Revisar cuentas o datos que faltan en un informe y validar la precisión de un informe |   
 
 Al generar un informe, se usan las opciones que ha especificado en la pestaña Definición del informe . La pestaña Salida y distribución permite especificar una ubicación de la biblioteca del informe, lo cual proporciona una manera fácil de compartir el informe.
 
-## <a name="schedule-report-generation"></a> Generación del informe de la programación
-Muchas empresas tienen un conjunto básico de informes que se ejecutan en intervalos programados para alinearlos con sus procesos de negocio. Puede programar un informe para que se genere con regularidad, por ejemplo diaria, semanal, mensual o anualmente. Esto puede realizarse en un solo informe o en un grupo de informes que incluye varias compañías. Deberá especificar las credenciales para cada una de las compañías especificadas, tales como las de una definición de organigrama. Si las credenciales no son válidas, el informe mostrará solo la información a la que tiene permiso de acceso, como la empresa en la que ha iniciado sesión en este momento. La información de salida se lee primero en el grupo de informes y luego en los informes individuales.
+## <a name="generate-a-financial-report"></a>Generar un informe financiero
+
+Para generar un informe financiero con Microsoft Dynamics 365 for Finance and Operations, vaya a **Contabilidad general** > **Consultas e informes** > **Informes financieros**. 
+ - Seleccione un informe para generarlo y haga clic en **Generar**. 
+ - Rellene el campo **Fecha del informe** y haga clic en **Aceptar**.
+ 
+ Una vez que se haya generado el informe, el informe estará disponible para verlo en la sección **Informes**.
+ Puede seleccionar **Ver** o **Eliminar** el informe.
+ 
+ 
+Para generar un informe usando **Diseñador de informes**, abra la definición del informe y haga clic en el botón Generar en la barra de herramientas. La ventana Estado de la cola del informe abrirá e indicará la ubicación del informe en la cola. De forma predeterminada, el informe generado se abrirá en el Visor web.
+
+> [!NOTE]
+> Puede generar informes únicamente en las carpetas y ubicaciones en las que tiene permiso de acceso.
+
+
+## <a name="schedule-report-generation"></a>Programar la generación de informes
+Muchas compañías cuentan con un conjunto base de informes que se ejecutan en intervalos programados para la alineación con sus procesos empresariales. Puede programar un informe para que se genere con regularidad, por ejemplo diaria, semanal, mensual o anualmente. Esto puede realizarse en un solo informe o en un grupo de informes que incluye varias compañías. Deberá especificar las credenciales para cada una de las compañías especificadas, tales como las de una definición de organigrama. Si las credenciales no son válidas, el informe mostrará solo la información a la que tiene permiso de acceso, como la empresa en la que ha iniciado sesión en este momento. La información de salida se lee primero en el grupo de informes y luego en los informes individuales.
 
 A medida que se crean y se guardan las programaciones del informe, se muestran en el panel de navegación en Programaciones del informe. Puede crear carpetas para organizar los informes. Si un informe único de una programación no se ejecuta, se seguirán ejecutando los demás informes.
 

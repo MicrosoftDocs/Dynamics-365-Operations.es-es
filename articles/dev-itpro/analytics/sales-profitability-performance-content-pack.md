@@ -3,7 +3,7 @@ title: Contenido de Power BI sobre rendimiento de la rentabilidad y las ventas
 description: "Este tema describe lo que se incluye en el contenido de Power BI sobre Rendimiento de ventas y rentabilidad. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3692b9be0fb93e0e2de743775a54bb9c9dbf5809
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: c065eb2f19bbbd553e070f06c29f73114e3efad5
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ La rentabilidad se pueda analizar mediante los siguientes procedimientos:
 -   Rentabilidad del cliente (por ingreso comparado con margen bruto)
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
-Si está usando Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julio de 2017), el contenido de Power BI sobre **Rendimiento de ventas y rentabilidad** se muestra en la página **Rendimiento de ventas y rentabilidad** (**Ventas y marketing** > **Consultas e informes** > **Análisis de rendimiento de ventas** > **Rendimiento de ventas y rentabilidad**). 
+El contenido de Power BI **Rendimiento de ventas y rentabilidad** se muestra en la página **Rendimiento de ventas y rentabilidad** (**Ventas y marketing** > **Consultas e informes** > **Análisis de rendimiento de ventas** > **Rendimiento de ventas y rentabilidad**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
 El contenido de Power BI sobre **Rendimiento de ventas y rentabilidad** incluye un informe compuesto por un conjunto de métricas. Estas métricas se visualizan como gráficos, mosaicos y tablas. La tabla siguiente proporciona información general de las visualizaciones del contenido.

@@ -1,6 +1,6 @@
 ---
 title: "Sincronización de pedidos de ventas directamente entre Sales y Finance and Operations"
-description: "En este tema se describen las plantillas y las tareas subyacentes que se usan para ejecutar una sincronización bidireccional de encabezados y líneas de pedidos de ventas directamente entre Microsoft Dynamics 365 for Sales y Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: En este tema se describen las plantillas y las tareas subyacentes que se usan para ejecutar sincronizaciones de pedidos de ventas directamente entre Microsoft Dynamics 365 for Sales y Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/31/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 568c33a63efdc58a179dadcb617634dcf533fd4b
-ms.openlocfilehash: c31d65328250539fbe172f220272eec9d8b59bbf
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
 ms.contentlocale: es-es
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 11/13/2017
 
 [!include[banner](../includes/banner.md)]
 
-En este tema se describen las plantillas y las tareas subyacentes que se usan para ejecutar una sincronización bidireccional de encabezados y líneas de pedidos de ventas directamente entre Microsoft Dynamics 365 for Sales y Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+En este tema se describen las plantillas y las tareas subyacentes que se usan para ejecutar sincronizaciones de pedidos de ventas directamente entre Microsoft Dynamics 365 for Sales y Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
 
 Para obtener acceso a las plantillas disponibles, abra [Centro de gestión de PowerApps](https://preview.admin.powerapps.com/dataintegration). Seleccione **Proyectos**y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.
 
-Las plantillas y las tareas subyacentes siguientes se usan para ejecutar una sincronización bidireccional de encabezados y líneas del pedido de ventas directamente entre Sales y Finance and Operations:
+Las plantillas y las tareas subyacentes siguientes se usan para ejecutar sincronizaciones de pedidos de ventas directamente entre Sales y Finance and Operations:
 
 - **Nombres de las plantillas en la integración de datos:** 
 
