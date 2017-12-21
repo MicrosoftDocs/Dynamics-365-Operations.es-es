@@ -1,15 +1,15 @@
 ---
 title: Informes financieros for Finance and Operations
 description: "Los informes financieros para Finance and Operations permiten a los profesionales financieros y empresariales crear, mantener, implementar y ver resultados financieros. Se mueve más allá de las restricciones tradicionales de informes para ayudarle a diseñar con eficacia diversos tipos de informes."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Operations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d1e1ec9fff9f1a41fd8a219c9fbbf8a26ad3d7b6
+ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
+ms.openlocfilehash: b23883c1f66cda8a719db64a2f50e00605f6bfe9
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -33,6 +33,17 @@ ms.lasthandoff: 11/03/2017
 Los informes financieros para Finance and Operations permiten a los profesionales financieros y empresariales crear, mantener, implementar y ver resultados financieros. Se mueve más allá de las restricciones tradicionales de informes para ayudarle a diseñar con eficacia diversos tipos de informes.
 
 Los informes financieros incluyen la compatibilidad de dimensiones. Por lo tanto, las dimensiones o los segmentos de cuenta están disponibles inmediatamente. No se requieren pasos de configuración o herramientas adicionales.
+
+## <a name="financial-reporting-setup"></a>Configuración de informes financieros
+La página **Configuración de informes financieros** tiene una lista de todas las dimensiones financieras del sistema. **Contabilidad general** > **Configuración de contabilidad** > **Configuración de informes financieros**. 
+
+La página **Configuración de informes financieros** tiene dos secciones que determinan los datos que especifica en el informe financiero:
+
+•   **Ficha Dimensiones** Como todas las empresas utilizan diferentes dimensiones y estructuras contables, no es posible determinar el orden en el que los usuarios desean ver todas las dimensiones financieras en los informes. Esta página le permite establecer el orden en que desea que aparezcan las dimensiones financieras cuando crea y ve un informe en informes financieros.
+
+•   **Ficha de atributos**: puede seleccionar si desea la capacidad para usar **Proveedores** y **Clientes** como atributos para filtrar y diseñar el informe. Informar sobre proveedores y escritores solo tendrá valor si no especifica varios proveedores o clientes en un asiento único cuando registra transacciones. Si elige proveedor o cliente agregará más tiempo a la integración.
+
+
 
 ## <a name="financial-reporting-components"></a>Componentes de informes financieros
 Los siguientes componentes de los informes financieros facilitan la creación, la visualización y la programación de informes.

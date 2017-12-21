@@ -3,7 +3,7 @@ title: "Espacio de trabajo móvil de gestión de gastos"
 description: "Este tema proporciona información acerca del espacio de trabajo móvil de gestión de gastos. Este espacio de trabajo permite a los usuarios capturar y cargar un recibo, de modo que puedan adjuntarlo a un informe de gastos posteriormente. Los usuarios también pueden crear rápidamente una línea de gastos mediante un recibo vinculado, y crear y gestionar sus informes de gastos."
 author: KimANelson
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4880c74047f53704f5f4d8efb19b6f8c6b04d479
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: bbbe37330e16a079b817dfe04f4a47f046263e88
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -46,7 +46,7 @@ En concreto, el espacio de trabajo móvil **Gestión de gastos** permite a los u
 - Cargar un archivo como un recibo capturado. Entonces puede vincular ese archivo a un informe de gastos más tarde.
 - Crear una nueva línea de gastos mediante un recibo vinculado. Puede agregar el artículo de línea a un informe de gastos más tarde, y enviarlo para su aprobación y reembolso.
 
-Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julio de 2017), también puede utilizar las características siguientes:
+Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, también puede utilizar las características siguientes:
 
 - Crear un nuevo informe de gastos.
 - Vincular transacciones de tarjeta de crédito y otros gastos anteriormente creados a un informe de gastos.
@@ -60,8 +60,8 @@ Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
 ## <a name="prerequisites"></a>Requisitos previos
 Los requisitos previos varían en función de la versión de Microsoft Dynamics 365 que se haya implementado para su organización.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, (julio 2017) 
-Si Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julio de 2017) se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Gestión de gastos**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
+Si Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Gestión de gastos**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Requisitos previos si usa Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior
 Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior para su organización, el administrador del sistema debe cumplir los requisitos previos siguientes. 

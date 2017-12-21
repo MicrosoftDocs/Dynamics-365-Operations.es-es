@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ef58898a6822224e44873afdd7c55800215c37a0
+ms.sourcegitcommit: ff0d19a2d712ccb17762803e2fe4ab2ed5aa024e
+ms.openlocfilehash: bd5f055ef816f050ed99390c455a613d46dd6323
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/06/2017
 
 ---
 
@@ -74,7 +74,7 @@ En la **directiva de tránsito directa**, define qué tipos de documentos son de
 ### <a name="cross-docking-policy-name-transfer-order"></a>Nombre de la directiva de tránsito directo: Pedido de transferencia
 
 -   Número de secuencia: 10
--   Tipo de pedido de trabajo: Problema de transferencia
+ -   Tipo de pedido de trabajo: Problema de transferencia
 -   La demanda de tránsito directo precisa una ubicación: Falso
 -   Estrategia de tránsito directo: Fecha y hora
 
@@ -102,10 +102,9 @@ Después de que un producto se notifica como terminado en la línea de producci�
 6.  Cree un pedido de transferencia. Cree el pedido de transferencia para el número de artículo L0101. Cantidad = 20.
 7.  Libere el pedido de transferencia bancaria de área de trabajo de planificación de la carga. En la pestaña **Envío**, seleccione el elemento de menú para el área de trabajo de planificación de la carga y en el menú **Liberar** de la línea de carga, seleccione **Liberar a almacén**. Ahora existe una línea de oleada abierta de tipo **Emisión de transferencia** para el pedido de transferencia.
 8.  Cree un pedido de producción. Vaya a la página de lista **Pedido de producción** y cree un pedido de producción para el producto L0101. Cantidad = 20. Estime e inicie el pedido de producción. Tenga en cuenta que el campo **Registrar ahora la lista de selección** sigue en **No**.
-9.  Notifique como terminado desde el dispositivo móvil. Vaya al portar del dispositivo móvil y seleccione el elemento de menú **Notificar como terminado y poner en ubicación**. Notifique ahora como terminado L0101 desde el dispositivo de mano. Tenga en cuenta que la ubicación de colocación es **BAYDOOR**. Esta ubicación se encuentra de la directiva de ubicación **Emisión de transferencia** para el tipo de pedido de trabajo **Colocar** . Tenga también en cuenta que el trabajo del tipo **Emisión de transferencia** se ha creado y completado. Vaya a los detalles de trabajo del pedido de transferencia para comprobar el trabajo.
-10. Ahora intente iniciar 20 piezas más en el pedido de producción y después intente notificar 20 c/u como terminadas usando el dispositivo de mano. Esta vez, la ubicación **LP-001** se sugiere como ubicación de colocación. Esta ubicación se encuentra en la directiva de ubicación para **Ubicación de bienes terminados**. Se usa esta directiva de ubicación porque no existen oportunidades para el tránsito directo. El pedido de transferencia para LP-001 se completó totalmente por la primera actividad de tránsito directo.
-
-El trabajo del tipo **Ubicación de bienes terminados** se creó y procesó.
+9.  Notifique como terminado desde el dispositivo móvil. Vaya al portar del dispositivo móvil y seleccione el elemento de menú **Notificar como terminado y poner en ubicación**. Notifique ahora como terminado L0101 desde el dispositivo de mano. Cantidad = 10. Tenga en cuenta que la ubicación de colocación es **BAYDOOR**. Esta ubicación se encuentra de la directiva de ubicación **Emisión de transferencia** para el tipo de pedido de trabajo **Colocar** . Tenga también en cuenta que el trabajo del tipo **Emisión de transferencia** se ha creado y completado. Vaya a los detalles de trabajo del pedido de transferencia para comprobar el trabajo.
+10. Ahora informe de las 10 piezas adicionales del dispositivo móvil. Tenga en cuenta que de nuevo la ubicación de colocación es **BAYDOOR**. Tenga también en cuenta que se ha creado un nuevo tipo de trabajo **Emisión de transferencia** para las 10 piezas.
+11. Ahora intente iniciar 20 piezas más en el pedido de producción y después intente notificar 20 c/u como terminadas usando el dispositivo de mano. Esta vez, la ubicación **LP-001** se sugiere como ubicación de colocación. Esta ubicación se encuentra en la directiva de ubicación para **Ubicación de bienes terminados**. Se usa esta directiva de ubicación porque no existen oportunidades para el tránsito directo. Las dos actividades de tránsito directo de los pasos 9 y 10 completaron totalmente el pedido de transferencia para LP-001. Observe que el trabajo del tipo **Ubicación de bienes terminados** se creó y procesó.
 
 #### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>Situación 2: Tránsito directo desde producción a los pedidos de transferencia con una programación de citas
 
@@ -123,7 +122,7 @@ Después de que un producto se notifica como terminado en la línea de producci�
 
 ### <a name="additional-information"></a>Información adicional
 
--   La situación de tránsito directo se admite para artículos controlados de lote y serie, con las dimensiones de lote y número de serie definidas anteriormente y la ubicación de más abajo en la jerarquía de la reserva.
+-   La situación de tránsito directo se admite para artículos controlados de lote y serie, con las dimensiones de lote y número de serie definidas anteriormente y la ubicación de más abajo en la jerarquía de la reserva. 
 
 
 

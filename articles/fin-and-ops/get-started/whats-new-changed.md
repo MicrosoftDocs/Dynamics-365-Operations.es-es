@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1ffe0480c1607925093bf823d75289d87995a17f
+ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
+ms.openlocfilehash: 7c99869b70d8b564da859ce2b19ccfff927141b2
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -112,6 +112,12 @@ Para obtener información sobre cómo actualizar a la versión más reciente, ve
 </thead>
 <tbody>
 <tr class="odd">
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
+<td>Actualización de la plataforma 12</td>
+<td>7.0.4709</td>
+<td>noviembre de 2017</td>
+<td><a href="whats-new-platform-update-12.md">Novedades o cambios en Dynamics 365 for Finance and Operations, Enterprise Edition actualización de la plataforma 12 (noviembre de 2017)</a></td>
+<tbody><tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Actualización de la plataforma 11</td>
 <td>7.0.4679.35176</td>

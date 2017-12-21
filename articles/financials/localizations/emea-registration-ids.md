@@ -3,7 +3,7 @@ title: Id. de registro
 description: "Este tema proporciona información acerca de la configuración y el uso de Id. de registro."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e85e1ef9bb27e3644264c898feb3a484c5b3ec3f
+ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
+ms.openlocfilehash: e908d4ec41263ed4230ea5e70fa08db793abedc6
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 
@@ -98,6 +98,12 @@ La tabla siguiente muestra una lista de los tipos de registro admitidos en Finan
 | OGRN                                                          | Federación Rusa| OGRN (tipo legislativo OGRN en AX 2012 R3) |
 | SNILS                                                         | Federación Rusa| SNILS (tipo legislativo en SNILS AX 2012 R3)|
 | CIFTS                                                         | Federación Rusa| CIFTS (tipo legislativo CIFTS en AX 2012 R3)|
+| Pasaporte                                                      | España             | Pasaporte|
+| Documento de identificación oficial                              | España             | Documento de identificación oficial|
+| Certificado de residencia                                         | España             | Certificado de residencia|
+| Otro documento de identificación                                 | España             | Otro documento de identificación|
+| Sin censurar                                                  | España             | No disponible en AX 2012 R3|
+
 
 Para obtener más información acerca del procesamiento de los id. de registro, incluidos requisitos previos necesarios, consulte las grabaciones de tareas para el identificador de IVA en Lifecycle Services (LCS):
 

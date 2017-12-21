@@ -3,7 +3,7 @@ title: "Métodos abreviados de teclado"
 description: "Los siguientes métodos abreviados de teclado se aplican en todo Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: jasongre
 manager: AnnBe
-ms.date: 09/12/2017
+ms.date: 10/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 39ffbe81c0cc9ecb3f91f791442bfd27231a0516
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -34,10 +34,14 @@ Los siguientes métodos abreviados de teclado se aplican en todo Dynamics 365 fo
 
 **Nota**: los métodos abreviados de teclado aquí descritos se refieren al diseño del teclado de Estados Unidos. Es posible que las teclas de otros diseños de teclados no se correspondan exactamente con las teclas de un teclado de Estados Unidos.
 
+## <a name="finding-a-shorcut"></a>Encontrar un acceso directo
+A partir de la actualización de plataforma 11, los usuarios pueden detectar accesos directos actualmente disponibles directamente desde la interfaz de usuario. Simplemente haga clic con el botón secundario en un control y seleccione **Ver los accesos directos**. Esto abrirá un cuadro de diálogo que muestra los accesos directos que puede usar en función de donde se encuentre en la página. 
+
+
 ## <a name="action-shortcuts"></a>Métodos abreviados de acción
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
-| **Para realizar esta tarea**                                    | **Presione**                        |
+| **Acción**                                    | **Presione**                        |
 | Búsqueda de acción abierta                                | Ctrl+’ o Alt+Q                  |
 | Ir al panel de acciones estándar                  | Alt+M,A o Ctrl+F6               |
 | Abrir una ficha en el panel de acciones o un menú           | Intro o Espacio o Alt+Flecha abajo |
@@ -48,13 +52,14 @@ Los siguientes métodos abreviados de teclado se aplican en todo Dynamics 365 fo
 | Ejecutar el botón predeterminado en un formulario/cuadro de diálogo   | Alt+Intro                        |
 | Hacer clic en un botón o un icono                            | Intro o Espacio                   |
 | Ver información actualizada de un icono de recuento         | Alt+Fecha arriba                     |
+| Ver los métodos abreviados disponibles actualmente                | Alt+Mayús+K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Métodos abreviados de selección de fecha
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Acción**                        | **Presione**                                 |
 | Abrir el seleccionador de fecha                  | Alt+Flecha abajo                            |
-| Moverse entre fechas en el seleccionador de fecha | Ctrl+Teclas de dirección                               |
+| Moverse entre fechas en el seleccionador de fecha | Ctrl+Teclas de dirección                           |
 | Ir al grupo mes siguiente/anterior       | Re Pág / Av Pág                       |
 | Ir al grupo año siguiente/anterior        | Ctrl+Mayús+Av Pág / Ctrl+Mayús+Re Pág |
 | Mover a hoy                         | Ctrl+Inicio                                 |
@@ -65,6 +70,7 @@ Los siguientes métodos abreviados de teclado se aplican en todo Dynamics 365 fo
 ## <a name="factbox-shortcuts"></a>Métodos abreviados de cuadro informativo
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
+| **Acción**                                                                  | **Presione**                                 |
 | Abrir el panel del cuadro informativo (o mover el enfoque al panel de cuadro informativo si ya está abierto) | Alt+M,B o Ctrl+F2                        |
 | Cerrar el panel del cuadro informativo (con el enfoque en el panel del cuadro informativo)                         | Esc                                       |
 | Pasar al cuadro informativo siguiente/anterior (con el enfoque en el panel del cuadro informativo)              | Alt+Mayús+Flecha abajo / Alt+Mayús+Flecha arriba |

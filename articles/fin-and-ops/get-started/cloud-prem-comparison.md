@@ -3,7 +3,7 @@ title: "Comparación de características locales y la nube"
 description: "En este tema se muestran qué características se admiten en la nube y en local."
 author: robinarh
 manager: AnnBe
-ms.date: 07/13/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,13 +15,13 @@ ms.custom: 89563
 ms.assetid: 
 ms.search.region: Global
 ms.author: robinr
-ms.search.validFrom: 2017-07-13
+ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: efe06929db414475f6457dfe49ff1791a3d609d5
+ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
+ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
 ms.contentlocale: es-es
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -59,6 +59,9 @@ Las tablas siguientes muestran las áreas del producto. El soporte en la nube y 
 | | Integración con PowerBI.com| Sí | N.º |
 | | Espacios de trabajo analíticos | Sí | N.º |
 | | Proceso empresarial inteligente: recomendaciones| Sí | N.º |
+| | Creación de informes de Power BI con OData mediante el escritorio de Power BI o herramientas de Excel PowerQuery | Sí | N.º |
+| | SQL Server Reporting Services (SSRS) admite el escalado  | Sí | N.º |
+| | La telemetría se transfiere a la nube | Sí | N.º |
 | Gestión del inventario| | Sí | Sí |
 | Servicios de Lifecycle| | Sí | Sí |
 | | Procesos empresariales configurables | Sí | N.º |
@@ -86,7 +89,7 @@ Las tablas siguientes muestran las áreas del producto. El soporte en la nube y 
 | Administración de transporte| | Sí | Sí |
 | Colaboración de proveedor| | Sí | Sí|
 | Gestión de almacenes| | Sí | Sí |
-| | Aplicación móvil del almacén| Sí | N.º |
+| | Aplicación móvil del almacén| Sí | Sí |
 | | Informes de Power BI de almacenes| Sí | N.º |
 | Cliente web | | Sí | Sí |
 | | Grabador de tareas: guarde o cargue grabaciones de tareas desde la biblioteca de BPM| Sí | N.º |
@@ -103,6 +106,7 @@ Las tablas siguientes muestran las áreas del producto. El soporte en la nube y 
 | Compatibilidad de la plataforma  || Sí | Sí |
 | Servicio | | Sí | Sí |
 | | Entornos de servicio | Sí | N.º |
+| Trace Parser y PerfTimer | | Sí | N.º |
 | Actualizar | | Sí | Sí |
 | | Actualizar | Sí | N.º |
 | | Actualización y soporte para versiones anteriores | Sí | N.º |
@@ -121,6 +125,8 @@ Las tablas siguientes muestran las áreas del producto. El soporte en la nube y 
 |---|---|---|---|
 | Todas las áreas de Talent | Todas las características de Talent | Sí | N.º |
 
+## <a name="see-also"></a>Consulte también
 
+- [Características no implementadas en implementaciones locales](features-not-implemented-on-prem.md)
 
 
