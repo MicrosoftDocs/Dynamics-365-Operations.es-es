@@ -3,7 +3,7 @@ title: Usar el complemento de Excel
 description: "Este tema explica cómo abrir los datos de la entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Microsoft Dynamics Office para Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/27/2017
+ms.date: 11/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bf2607596993d01abaf5e8a66f14f8c091791d4a
-ms.openlocfilehash: b4151ca929d0dbe073c1a8444cf63a90ac74e20c
+ms.sourcegitcommit: 9b1f25f3630ad5126edd20c5508b83a9811a65f8
+ms.openlocfilehash: dd986d8f82c42c4e229e6e60bdfe8d15a273e149
 ms.contentlocale: es-es
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 11/07/2017
 
 ---
 
@@ -104,6 +104,18 @@ Puede usar al diseñador para ajustar las columnas que se agregan automáticamen
 
 4. Para aplicar los cambios al origen de datos, seleccione **Actualizar**. Seleccione **Listo** para salir del diseñador.
 5. Si ha agregado un campo (columna), seleccione **Actualizar** para extraer un conjunto de datos actualizado.
+
+## <a name="copy-environment-data"></a>Copiar datos de entorno
+
+Los datos que se leen en el libro de un entorno se pueden copiar en otro entorno. Sin embargo, no puede simplemente modificar la dirección URL de conexión, ya que la caché de datos del libro continuará tratando los datos como datos existentes. En su lugar, debe usar la funcionalidad Copiar datos de entorno para publicar los datos en un nuevo entorno como nuevos datos.
+
+1. Seleccione el botón **Opciones** (el símbolo de engranaje) y, a continuación, en la ficha desplegable **Conector de datos** , seleccione **Copiar datos de entorno**. 
+2. Especifique la dirección URL del servidor del nuevo entorno. 
+3. Seleccione **Aceptar** y, a continuación **Sí** para confirmar la acción. El complemento de Excel se reinicia y se conecta al nuevo entorno. Los datos existente en el libro se tratan como nuevos datos.
+
+    Después de reiniciar el complemento de Excel, un cuadro de mensaje indica que el libro se encuentra en Modo de copia de entorno.
+
+4. Para copiar los datos al nuevo entorno como nuevos datos, seleccione **Publicar**. Para cancelar la operación de copia de entorno y revisar los datos existentes en el nuevo entorno, seleccione **Actualización**.
 
 ## <a name="troubleshooting"></a>Solución de problemas
 Existen problemas que se pueden resolver con unos sencillos pasos.
