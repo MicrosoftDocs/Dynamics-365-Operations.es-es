@@ -3,7 +3,7 @@ title: Previsiones de flujo de efectivo
 description: "Este tema proporciona una visión general del proceso de previsión de flujo de efectivo. También explica cómo la previsión de flujo de efectivo se integra con otros módulos del sistema."
 author: saraschi
 manager: AnnBe
-ms.date: 05/15/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: sarasch
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75b47611f1c73a3fb771e63dc1dd12cadf8c4b32
+ms.sourcegitcommit: 263bfe858f2ca5f7fe2f7426565938899d98130f
+ms.openlocfilehash: 203f28c9c2d179e2173f65472b05019dc69af45a
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/11/2018
 
 ---
 
