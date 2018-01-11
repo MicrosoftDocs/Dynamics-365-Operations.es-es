@@ -3,7 +3,7 @@ title: "Visión general de Gestión presupuestaria"
 description: "Casi todas las empresas que utilizan la funcionalidad de Financials en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, tendrán que poder crear informes de valores presupuestados frente a reales. En este artículo se explica la configuración mínima necesaria para crear presupuestos en Finance and Operations, Enterprise Edition, o cargarlos desde un programa de terceros."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

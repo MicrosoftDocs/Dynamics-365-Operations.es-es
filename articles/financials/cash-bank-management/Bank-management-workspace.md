@@ -3,7 +3,7 @@ title: "Espacio de trabajo para la gestión bancaria"
 description: "Este tema proporciona información acerca del espacio de trabajo Gestión bancaria. Este espacio de trabajo muestra la información relacionada con las cuentas bancarias de la empresa e incluye una vista resumida y una página de análisis. La vista resumida muestra las fichas del resumen, la información de cuentas bancarias, un gráfico de saldos e información relacionada. La página de análisis utiliza las capacidades de Microsoft Power BI para mostrar las representaciones visuales relacionados con los saldos de la cuenta bancaria."
 author: saraschi2
 manager: AnnBe
-ms.date: 05/25/2017
+ms.date: 01/18/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

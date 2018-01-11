@@ -3,7 +3,7 @@ title: "Solución de problemas de la importación de archivos de extractos banca
 description: "Es importante que el archivo de extracto bancario del banco coincida con el diseño admitido por Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Debido a los estrictos estándares para extractos bancarios, la mayoría de las integraciones funcionarán correctamente. Sin embargo, a veces, el archivo de extracto no se puede importar o tiene resultados incorrectos. Normalmente, estos problemas son originados por pequeñas diferencias en el archivo de extracto bancario. En este artículo se explica cómo corregir estas diferencias y resolver los problemas."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Visión general de la planificación presupuestaria"
 description: "En este artículo se introduce la plantificación presupuestaria y contiene información que le ayudará a configurar la planificación presupuestaria y los procesos de planificación presupuestaria."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
