@@ -3,7 +3,7 @@ title: "Espacio de trabajo de validación de datos"
 description: "El espacio de trabajo de la lista de comprobación de la validación de datos le permite realizar un seguimiento de los procesos de validación de datos de distintas empresas, áreas y personas. La lista de comprobación se puede usar durante una nueva implementación, después de una actualización o después de una migración."
 author: bking
 manager: AnnBe
-ms.date: 05/11/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
