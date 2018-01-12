@@ -3,7 +3,7 @@ title: "Plantillas de planificación presupuestaria para Excel"
 description: "Este tema describe cómo crear plantillas de Microsoft Excel que se puedan utilizar con planes presupuestarios."
 author: ryansandness
 manager: AnnBe
-ms.date: 07/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

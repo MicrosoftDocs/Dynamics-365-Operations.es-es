@@ -3,7 +3,7 @@ title: "Parámetros de gestión de gastos"
 description: "Los siguientes parámetros controlan el comportamiento en Gestión de gastos."
 author: KimANelson
 manager: AnnBe
-ms.date: 06/23/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

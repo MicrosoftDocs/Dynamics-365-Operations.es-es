@@ -3,7 +3,7 @@ title: "Establecer tipos de interés para un código de interés"
 description: "Los códigos de interés contienen la configuración que determina si se carga el interés y cómo se calcula en las cuentas vencidas."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

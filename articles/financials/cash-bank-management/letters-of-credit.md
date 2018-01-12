@@ -3,7 +3,7 @@ title: "Carta de crédito"
 description: "Los créditos documentarios son documentos bancarios que se suelen usar para la compra y la venta de bienes entre fronteras internacionales."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
