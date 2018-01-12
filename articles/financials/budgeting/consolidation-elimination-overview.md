@@ -3,14 +3,14 @@ title: "Visión general de consolidación y eliminación"
 description: "En este artículo se proporciona información general sobre el proceso de consolidación y eliminación. Incluye respuestas a algunas preguntas frecuentes."
 author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerConsolidate
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 13151
 ms.assetid: 9d8f55cb-b2cf-4e01-89cf-0e21f5c8ae1f
