@@ -3,14 +3,14 @@ title: "Importar y mantener transacciones de tarjeta de crédito"
 description: "En este tema se explica cómo importar y mantener transacciones de tarjeta de crédito relacionadas con los gastos. Puede configurar estas transacciones para importarlas automáticamente en una programación recurrente o bien, puede importar manualmente las transacciones cada vez si fuera necesario."
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e640c9e44add5599be4a2e381b4ffd81f212889c
+ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
+ms.openlocfilehash: 3af32fbe435d92e7ca45b757414c325e6d389ac1
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
