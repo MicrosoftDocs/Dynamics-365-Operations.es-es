@@ -3,14 +3,14 @@ title: "Reglas de eliminación"
 description: "Este tema proporciona información acerca de las reglas de eliminación y las diversas opciones para informar sobre eliminaciones."
 author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerEliminationRule
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
+ms.openlocfilehash: 2a0897bd80a508474be384e8086ca47dd9de7efb
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
@@ -140,7 +140,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="67da6-182">Una vez que haya definido los fundamentos, puede definir las reglas de procesamiento reales haciendo clic en **Líneas**.</span><span class="sxs-lookup"><span data-stu-id="67da6-182">After you have defined the basics, you can define the actual processing rules by clicking **Lines**.</span></span> <span data-ttu-id="67da6-183">Hay dos opciones para las eliminaciones, eliminar el importe neto de cambio o definir un importe fijo.</span><span class="sxs-lookup"><span data-stu-id="67da6-183">There are two options for eliminations, eliminating the net change amount or defining a fixed amount.</span></span> 
 
-<span data-ttu-id="67da6-184">Seleccione la cuenta de origen.</span><span class="sxs-lookup"><span data-stu-id="67da6-184">Select your source account.</span></span> <span data-ttu-id="67da6-185">Puede usar un asterisco (\*) como comodín.</span><span class="sxs-lookup"><span data-stu-id="67da6-185">You can use an asterisk (\*) as a wild card.</span></span> <span data-ttu-id="67da6-186">Por ejemplo, 1\* seleccionará todas las cuentas que empiecen por 1 como origen de datos para la asignación.</span><span class="sxs-lookup"><span data-stu-id="67da6-186">For example, 1\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
+<span data-ttu-id="67da6-184">Seleccione la cuenta de origen.</span><span class="sxs-lookup"><span data-stu-id="67da6-184">Select your source account.</span></span> <span data-ttu-id="67da6-185">Puede usar un asterisco (\\*) como comodín.</span><span class="sxs-lookup"><span data-stu-id="67da6-185">You can use an asterisk (\\*) as a wild card.</span></span> <span data-ttu-id="67da6-186">Por ejemplo, 1\\* seleccionará todas las cuentas que empiecen por 1 como origen de datos para la asignación.</span><span class="sxs-lookup"><span data-stu-id="67da6-186">For example, 1\\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
 
 <span data-ttu-id="67da6-187">Una vez que haya seleccionado las cuentas de origen, la **Especificación de la cuenta** determina la cuenta de la empresa de destino que se utiliza.</span><span class="sxs-lookup"><span data-stu-id="67da6-187">After you have selected your source accounts, the **Account specification** determines the account from the destination company that is used.</span></span> <span data-ttu-id="67da6-188">Seleccione **Origen** si desea usar la misma cuenta principal definida en la cuenta de **Origen**.</span><span class="sxs-lookup"><span data-stu-id="67da6-188">Select **Source** if you want to use the same main account defined in the **Source** account.</span></span> <span data-ttu-id="67da6-189">Si selecciona **Definido por el usuario**, deberá especificar una cuenta de destino.</span><span class="sxs-lookup"><span data-stu-id="67da6-189">If you select **User defined**, then you must specify a destination account.</span></span> 
 
