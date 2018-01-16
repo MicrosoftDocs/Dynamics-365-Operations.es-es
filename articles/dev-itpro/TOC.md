@@ -2,6 +2,7 @@
 # [Requisitos del sistema para implementaciones en la nube](../fin-and-ops/get-started/system-requirements.md)
 # [Requisitos del sistema para implementaciones locales](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [Datos de demostración](../fin-and-ops/get-started/demo-data.md)
+## [Generar datos de demostración con paquetes](data-entities/generate-demo-data-packages.md)
 
 
 # [Desarrollar y personalizar mediante Visual Studio](dev-tools/developer-home-page.md)
@@ -362,6 +363,7 @@
 ### [OData](data-entities/odata.md)
 ### [Servicio personalizados](data-entities/custom-services.md)
 ### [Integraciones periódicas](data-entities/recurring-integrations.md)
+### [Usar utilidades de prueba de servicio de terceros con los servicios](data-entities/third-party-service-test.md)
 
 ## Desarrollo para la integración
 ### [Integración de datos mediante entidades de datos](data-entities/data-management-integration-data-entity.md)
@@ -396,6 +398,7 @@
 ### [Paquetes de datos de configuración](data-entities/configuration-data-packages.md)
 ### [Copiar datos de configuración entre empresas](data-entities/copy-configuration.md)
 ### [Plantillas de datos de configuración](data-entities/configuration-data-templates.md)
+### [Plantillas de datos con varias hojas de cálculo](data-entities/excel-template-multiple.md)
 ### [Realizar un seguimiento de los cambios en una entidad](data-entities/entity-change-track.md)
 
 ## Entidades de datos estándar
@@ -501,12 +504,15 @@
 
 ## [Implementación local](deployment/on-premises-deployment-landing-page.md)
 ### [Visión general de Local](deployment/on-premises-overview.md)
+### [Planificación de la implementación local](deployment/plan-onprem-deployment.md)
 ### [Tamaño del hardware](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [Crear un proyecto local](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Configurar e implementar entornos locales](deployment/setup-deploy-on-premises-environments.md)
 ### [Desarrollar e implementar modelos personalizados para entornos locales](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Aplicar actualizaciones a una implementación local](deployment/apply-updates-on-premises.md)
 ### [Reimplementar una implementación local](deployment/redeploy-on-prem.md)
+### [Actualizar el agente local](lifecycle-services/update-local-agent.md)
+### [Reconfigurar el entorno](lifecycle-services/reconfigure-environment.md)
 ### [Solucionar problemas de Dynamics 365 for Finance and Operations, Enterprise Edition (local)](deployment/troubleshoot-on-prem.md)
 
 ## Implementación de código personalizado

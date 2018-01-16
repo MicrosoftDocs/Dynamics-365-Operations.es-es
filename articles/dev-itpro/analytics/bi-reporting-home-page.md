@@ -3,7 +3,7 @@ title: Intelligence
 description: "En este tema se tratan los recursos que puede usar para obtener más información sobre Business Intelligence y las herramientas de informes disponibles en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: sericks007
 manager: AnnBe
-ms.date: 09/07/2017
+ms.date: 12/18/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 335d38e0fb5e47136b87bac5bfa9d2fd2923def6
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -48,7 +48,6 @@ Los usuarios pueden interactuar con los datos tocando o haciendo clic en los ele
  - [Power BI insertado en espacios de trabajo](embed-power-bi-workspaces.md)
  - [Integración de Power BI Embedded](power-bi-embedded-integration.md)
  - [Agregar análisis a espacios de trabajo mediante Power BI Embedded](add-analytics-tab-workspaces.md)
- - [Publicar aplicaciones analíticas en Power BI](publish-apps-powerbi.md)
  - [Ayudar a proteger los espacios de trabajo e informes de análisis mediante Power BI Embedded](secure-analytical-workspaces.md)
  - [Contenido de Power BI para Finance and Operations](power-bi-home-page.md)
 
@@ -59,7 +58,7 @@ Las soluciones de informes se suelen usar para capturar y comunicar los detalles
 
 Para obtener más información, consulte los siguientes temas:
 
-- [Visión general de Reporting Services de documentos](document-reporting-services.md)
+- [Visión general de Document Reporting Services](document-reporting-services.md)
 - [Impresión en las solicitudes de Finance and Operations](print-documents.md)
 - [Instalación del Agente de ruta de documentos para habilitar los dispositivos de impresora de red](install-document-routing-agent.md)
 
@@ -88,10 +87,7 @@ Para obtener más información, consulte los siguientes temas:
 ## <a name="technical-reference-reports"></a>Informes de referencia técnicos
 En los siguientes informes se proporciona información de referencia sobre los objetos de Finance and Operations:
 
-- [Informe de entidades de datos agregados](aggregate-data-entities-report.md)
-- [Informe de medidas agregadas](aggregate-measurements-report.md)
 - [Informe de entidades de datos](../data-entities/data-entities-report.md)
-- [Informe de indicadores clave de rendimiento (KPI)](key-performance-indicators-report.md)
 - [Informe de códigos de licencia y claves de configuración](../sysadmin/license-codes-configuration-keys-report.md)
 - [Informe de SQL Server Reporting Services](SSRS-report.md)
 - [Informe de tipos de flujo de trabajo](../../fin-and-ops/organization-administration/workflow-types-report.md)

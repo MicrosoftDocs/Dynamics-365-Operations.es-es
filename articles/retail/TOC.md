@@ -44,6 +44,7 @@
 ## [Tiempo y asistencia en Retail](retail-time-attendance.md)
 
 # Modern Point of Sale (MPOS) y Cloud POS
+## [Elegir entre Modern POS y Cloud POS](MPOS-or-CPOS.md)
 ## [Operaciones de POS](POS-operations.md)
 ## [Diseños de pantalla de datos de demostración en MPOS/CPOS](demo-data.md)
 ## Periféricos de hardware
@@ -76,6 +77,11 @@
 ### [Configurar plantillas de recibo](receipt-templates-printing.md) 
 ### [Enviar recibos por correo electrónico desde MPOS](email-receipts.md)
 ## [Grabador de tareas y ayuda para POS](task-recorder-retail-pos.md)
+
+# Cumplimiento de pedido
+## [Visión general de cumplimiento de pedido de tienda](Order-fulfillment-overview.md)
+## [Configurar cumplimiento en la tienda](Order-fulfillment-POS-setup.md)
+## [Habilitar notificaciones en el punto de venta](Notifications-POS.md)
 
 # Supervisión y análisis
 ## [Supervisar las ventas y el rendimiento de margen](monitor-sales-margin-performance.md)
@@ -258,8 +264,10 @@
 ### [Agregar controles personalizados a las páginas de transacción de Retail Modern POS](dev-itpro/pos-custom-transaction.md)
 ### [Agregar columnas personalizadas a una cuadrícula de transacción de POS](dev-itpro/pos-custom-transaction-column.md)
 ### [Llamar a una operación o API de POS desde una extensión de POS](dev-itpro/pos-api-extension.md)
-### [Extender vistas existentes de POS para agregar columnas personalizadas y botones de barra de aplicación](dev-itpro/pos-view-extension.md)
 ### [Desencadenadores e impresión de Retail Modern POS](dev-itpro/pos-trigger-printing.md)
+### [Agregar un control personalizado a una vista basada en diseñador sin pantalla de Retail Modern POS](dev-itpro/pos-control-non-screen.md)
+### [Generar el proxy de Retail para POS y e-Commerce](dev-itpro/pos-generate-retail-proxy.md)
+### [Pasos de configuración para desarrolladores de Retail que trabajan en equipos de desarrollo hospedados en la nube](dev-itpro/cloud-dev-box.md)
 
-## Tiempo de ejecución de comercio
+## Entorno de tiempo de ejecución Commerce
 ### [Extensión de fidelidad](dev-itpro/retail-sdk/loyalty-extension-sample.md)
