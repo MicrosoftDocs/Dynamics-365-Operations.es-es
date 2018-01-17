@@ -16,14 +16,14 @@ ms.custom:
 ms.assetid: 
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: YuyuScheller
+ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d183654ada9cdca23cf906f250988a967ffcf1f6
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: d55e9a520b1f895d130f24834626429e19b4b939
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -255,10 +255,10 @@ ms.lasthandoff: 11/03/2017
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|----------|
 | <span data-ttu-id="07735-340">Coste fijo</span><span class="sxs-lookup"><span data-stu-id="07735-340">Fixed cost</span></span>                            | <span data-ttu-id="07735-341">Organización</span><span class="sxs-lookup"><span data-stu-id="07735-341">Organization</span></span>                         | <span data-ttu-id="07735-342">100,00</span><span class="sxs-lookup"><span data-stu-id="07735-342">100.00</span></span>           | <span data-ttu-id="07735-343">0,00</span><span class="sxs-lookup"><span data-stu-id="07735-343">0.00</span></span>         | <span data-ttu-id="07735-344">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="07735-344">1/1/2017</span></span>   | <span data-ttu-id="07735-345">Nunca</span><span class="sxs-lookup"><span data-stu-id="07735-345">Never</span></span>    |
 | <span data-ttu-id="07735-346">10001</span><span class="sxs-lookup"><span data-stu-id="07735-346">10001</span></span>                                 | <span data-ttu-id="07735-347">Organización</span><span class="sxs-lookup"><span data-stu-id="07735-347">Organization</span></span>                         | <span data-ttu-id="07735-348">0,00</span><span class="sxs-lookup"><span data-stu-id="07735-348">0.00</span></span>             | <span data-ttu-id="07735-349">150,00</span><span class="sxs-lookup"><span data-stu-id="07735-349">150.00</span></span>       | <span data-ttu-id="07735-350">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="07735-350">1/1/2017</span></span>   | <span data-ttu-id="07735-351">Nunca</span><span class="sxs-lookup"><span data-stu-id="07735-351">Never</span></span>    |
-| <span data-ttu-id="07735-352">10001 (\*)</span><span class="sxs-lookup"><span data-stu-id="07735-352">10001 (\*)</span></span>                             | <span data-ttu-id="07735-353">Finanzas</span><span class="sxs-lookup"><span data-stu-id="07735-353">Finance</span></span>                              |                  | <span data-ttu-id="07735-354">50,00</span><span class="sxs-lookup"><span data-stu-id="07735-354">50.00</span></span>        | <span data-ttu-id="07735-355">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="07735-355">1/1/2017</span></span>   | <span data-ttu-id="07735-356">Nunca</span><span class="sxs-lookup"><span data-stu-id="07735-356">Never</span></span>    |
+| <span data-ttu-id="07735-352">10001 (\\*)</span><span class="sxs-lookup"><span data-stu-id="07735-352">10001 (\\*)</span></span>                             | <span data-ttu-id="07735-353">Finanzas</span><span class="sxs-lookup"><span data-stu-id="07735-353">Finance</span></span>                              |                  | <span data-ttu-id="07735-354">50,00</span><span class="sxs-lookup"><span data-stu-id="07735-354">50.00</span></span>        | <span data-ttu-id="07735-355">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="07735-355">1/1/2017</span></span>   | <span data-ttu-id="07735-356">Nunca</span><span class="sxs-lookup"><span data-stu-id="07735-356">Never</span></span>    |
 | <span data-ttu-id="07735-357">Comportamiento de costes o coste variable (\*\*)</span><span class="sxs-lookup"><span data-stu-id="07735-357">Cost behavior or Variable cost (\*\*)</span></span>   | <span data-ttu-id="07735-358">Organización</span><span class="sxs-lookup"><span data-stu-id="07735-358">Organization</span></span>                         | <span data-ttu-id="07735-359">0,00</span><span class="sxs-lookup"><span data-stu-id="07735-359">0.00</span></span>             | <span data-ttu-id="07735-360">0,00</span><span class="sxs-lookup"><span data-stu-id="07735-360">0.00</span></span>         | <span data-ttu-id="07735-361">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="07735-361">1/1/2017</span></span>   | <span data-ttu-id="07735-362">Nunca</span><span class="sxs-lookup"><span data-stu-id="07735-362">Never</span></span>    |
 
-<span data-ttu-id="07735-363">\* El nodo de coste variable no es necesario.</span><span class="sxs-lookup"><span data-stu-id="07735-363">\* The variable cost node isn't required.</span></span> <span data-ttu-id="07735-364">Si un coste no se clasifica como coste fijo, debe ser un coste variable.</span><span class="sxs-lookup"><span data-stu-id="07735-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
+<span data-ttu-id="07735-363">\\* El nodo de coste variable no es necesario.</span><span class="sxs-lookup"><span data-stu-id="07735-363">\\* The variable cost node isn't required.</span></span> <span data-ttu-id="07735-364">Si un coste no se clasifica como coste fijo, debe ser un coste variable.</span><span class="sxs-lookup"><span data-stu-id="07735-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
 
 <span data-ttu-id="07735-365">\*\* Una regla detallada se crea para la combinación de miembro de elemento de coste 10001 y todos los miembros de objeto de coste que se agregan en el nivel de la jerarquía de las finanzas (CC002, CC003, CC007).</span><span class="sxs-lookup"><span data-stu-id="07735-365">\*\* A detailed rule is created for the combination of cost element member 10001 and all cost object members that are aggregated under the Finance hierarchy level (CC002, CC003, CC007).</span></span>
 
