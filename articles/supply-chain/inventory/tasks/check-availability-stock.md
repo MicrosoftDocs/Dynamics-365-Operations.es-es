@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: es-es
 ms.lasthandoff: 09/29/2017
 
 ---
-# Comprobar la disponibilidad de existencias
+# <a name="check-the-availability-of-stock"></a>Comprobar la disponibilidad de existencias
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo comprobar el inventario disponible y el inventario físico disponible para un número de artículo concreto. También se muestra cómo obtener la información de suministro relacionada con un artículo. El inventario físico disponible es el inventario disponible que se tiene a mano, es decir, se ha comprado, recibido y registrado. El inventario disponible incluye el inventario disponible que se tiene a mano, pero también el inventario pedido y que se espera pero aún no se ha recibido o registrado. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos. Si está usando USMF, puede utilizar los valores del ejemplo mostrados. Estas tareas las realizará normalmente un trabajador del almacén.
 
 
-## Comprobar el inventario disponible de un artículo
+## <a name="check-on-hand-inventory-for-an-item"></a>Comprobar el inventario disponible de un artículo
 1. Vaya a Gestión de inventario > Consultas e informes > Inventario disponible.
 2. Seleccione la fila Número de artículo.
     * Para consultar el inventario disponible por número de artículo, seleccione la fila donde Tabla está establecido en Inventario disponible y Campo está establecido en Número de artículo.  
@@ -49,7 +49,7 @@ Este procedimiento le muestra cómo comprobar el inventario disponible y el inve
 11. Cierre la página.
 12. Cierre la página.
 
-## Comprobar el inventario físico disponible
+## <a name="check-physical-on-hand-inventory"></a>Comprobar el inventario físico disponible
 1. Vaya a Gestión de almacén > Consultas e informes > Inventario físico disponible.
 2. En el campo Código de artículo, escriba un valor.
     * Puede utilizar los campos Sitio y Almacén para filtrar la lista de artículos.  
@@ -59,7 +59,7 @@ Este procedimiento le muestra cómo comprobar el inventario disponible y el inve
 5. Haga clic en Aceptar
 6. Cierre la página.
 
-## Comprobar el inventario disponible por ubicación
+## <a name="check-on-hand-inventory-by-location"></a>Comprobar el inventario disponible por ubicación
 1. Vaya a Gestión de almacén > Consultas e informes > Inventario disponible por ubicación.
 2. En el campo Almacén, escriba un valor.
     * Si utiliza a la empresa de datos de prueba USMF, puede usar “51".  

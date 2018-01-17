@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: es-es
 ms.lasthandoff: 09/29/2017
 
 ---
-# Ajuste de niveles de existencias en el almacén (almacenaje básico)
+# <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Ajuste de niveles de existencias en el almacén (almacenaje básico)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra el proceso para crear y registrar un diario de ajuste de inventario para ajustar niveles de existencias de productos en el almacén. Antes de comenzar, necesita tener configurado un nombre de diario de inventario para los ajustes de inventario. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos. Estas tareas las realizará normalmente el empleado del almacén.
 
 
-## Creación de un diario de ajuste de inventario
+## <a name="create-an-inventory-adjustment-journal"></a>Creación de un diario de ajuste de inventario
 1. Vaya a Gestión del inventario > Movimientos de diario > Artículos > Ajuste de inventario.
 2. Haga clic en Nuevo.
 3. En el campo Nombre, haga clic en el botón desplegable para abrir la búsqueda.
@@ -38,7 +38,7 @@ Este procedimiento muestra el proceso para crear y registrar un diario de ajuste
     * Algunos otros campos se rellenarán según la configuración del nombre de diario de ajuste de inventario que seleccione.  
 5. Haga clic en Aceptar
 
-## Creación de líneas de diario
+## <a name="create-journal-lines"></a>Creación de líneas de diario
 1. Haga clic en Nuevo.
 2. En la lista, marque el campo con el número de artículo.
 3. En el campo Número de artículo, seleccione un artículo. Si utiliza los datos de la empresa de demostración USMF, escriba "D0001".
@@ -50,7 +50,7 @@ Este procedimiento muestra el proceso para crear y registrar un diario de ajuste
 8. En el campo Cantidad, especifique un número.
     * El campo de precio de coste especifica el coste por unidad para recepciones de inventario. Si no se especifica el coste del número de artículo, o si deseara cambiarlo manualmente, lo haría aquí.  
 
-## Validación y registro del diario de ajuste de inventario
+## <a name="validate-and-post-the-inventory-adjustment-journal"></a>Validación y registro del diario de ajuste de inventario
 1. Haga clic en Validar.
 2. Haga clic en Aceptar
 3. Haga clic en Registrar.
