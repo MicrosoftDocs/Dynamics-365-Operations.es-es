@@ -3,7 +3,7 @@ title: "Contenido de Power BI sobre rendimiento del almacén"
 description: "Este tema describe lo que se incluye en el contenido de rendimiento del almacén en Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
 author: Mirzaab
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: e5a900000286b5f076c377f7b1a9a260cc40621a
 ms.contentlocale: es-es
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -76,15 +76,6 @@ El contenido de Power BI **Rendimiento de almacén** incluye un informe. Este in
 | Rendimiento del envío        | Enviado por producto                       | El porcentaje que se envía pronto, puntualmente o tarde indicado por artículo o grupo de artículos.                                                                                                                                                                                                                                                                                                                                   |
 | Rendimiento del envío        | Enviado por cliente                      | El porcentaje que se envía pronto, puntualmente o tarde indicado por cliente o grupo de clientes.                                                                                                                                                                                                                                                                                                                           |
 | Rendimiento del envío        | Enviado por sitio/almacén              | El porcentaje que se envía pronto, puntualmente o tarde indicado por sitio o almacén.                                                                                                                                                                                                                                                                                                                                    |
-## <a name="extending-the-power-bi-content"></a>Ampliar el contenido de Power BI
-Mediante los paquetes de contenido disponibles en Microsoft Dynamics Lifecycle Services (LCS), puede ofrecer análisis muy buenos a las personas que no inician sesión en Microsoft Dynamics 365. Puede modificar estos paquetes de contenido para que incluyan otros informes o representaciones visuales y, a continuación, publicar los paquetes de contenidos en el inquilino de Power BI.com para su análisis. 
-
-Puede encontrar el contenido de Power BI **Rendimiento del almacén** en la biblioteca de activos compartidos de LCS. Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-Asegúrese de descargar el contenido **Rendimiento del almacén** que se aplica a la versión de Dynamics 365 que esté usando.
-
-> [!NOTE]
-> Si utiliza Microsoft Dynamics 365 for Operations, versión 1611, KB 4011327 es un requisito para este contenido de Power BI. Tras iniciar sesión en LCS, puede acceder a KB en https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Comprensión del modelo de datos y los cálculos
 Los datos siguientes se usan para rellenar las páginas de informes en el contenido de Power BI **Rendimiento del almacén**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md). 

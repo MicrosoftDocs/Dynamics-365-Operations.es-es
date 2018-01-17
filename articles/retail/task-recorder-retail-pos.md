@@ -19,10 +19,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a527136f77b65ef5a43576291e38cb168dbbd322
+ms.sourcegitcommit: e66208ccceb4c248c2704bb7358d77447e032205
+ms.openlocfilehash: 43360ea18ccc0fc4622f6da70ff10f2aca8b56c8
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -98,10 +98,10 @@ Para reanudar la sesión de grabación tras una pausa, haga clic en **Continuar*
 
 ### <a name="capture-screenshots"></a>Capturar pantallas
 
-El Grabador de tareas puede realizar capturas de pantalla de la interfaz de usuario del sistema PDV moderno de venta minorista durante la grabación de un proceso empresarial. El Grabador de tareas utiliza las capturas de pantalla si descarga la grabación como un documento de Word. Para activar la característica de captura de pantalla, establezca la opción **Capturar pantallas** en **Sí**. 
+El Grabador de tareas puede realizar capturas de pantalla de la interfaz de usuario del sistema PDV moderno de venta minorista durante la grabación de un proceso empresarial. Para activar la característica de captura de pantalla, establezca la opción **Capturar pantalla** en **Sí** y a continuación realice el registro. Una vez que el registro se complete, haga click en **Detener** y descargue el documento de Word. El documento contendrá los pasos con capturas de pantalla relevantes.
 
 #### <a name="note"></a>Billete
-> La funcionalidad de captura de pantalla no se ofrece en Cloud POS.
+> La funcionalidad de captura de pantalla no se admite en Modern POS.
 
 ### <a name="start-task-and-end-task"></a>Iniciar tarea y finalizar tarea
 

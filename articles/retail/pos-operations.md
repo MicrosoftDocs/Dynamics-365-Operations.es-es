@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 02d777da3b97706f9e63478a1978ac9b230a591e
+ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
+ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -104,6 +104,7 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 521 | Saldo de puntos de tarjeta de fidelización | Muestra el saldo de puntos para la tarjeta de fidelización especificada. | Sí | Sí | N.º | N.º | N.º |
 | 914 | Minimizar ventana PDV | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | N.º |
 | 1000 | Categoría abierta | Realice una operación “sin venta” y abra la caja registradora seleccionada actualmente. | Sí | Sí | Sí | Sí | N.º |
+| 928 | Cumplimiento de pedido | Esta operación permite a los usuarios seleccionar, empaquetar, envíar, o que volver a llamar los pedidos para recogida en el almacén. | Sí | Sí | Sí | N.º | N.º |
 | 129 | Anular impuestos de producto de línea | Reemplaza el impuesto del artículo de línea seleccionado y usa un impuesto especificado distinto. | Sí | Sí | N.º | Sí | N.º |
 | 130 | Anular impuestos de producto de línea de la lista | Reemplaza el impuesto del artículo de línea seleccionado por otro que el usuario selecciona de una lista. | Sí | Sí | N.º | Sí | N.º |
 | 127 | Anular impuesto de transacción | Sustituya los impuestos de la transacción y utilice unos impuestos especificados distintos. | Sí | Sí | N.º | Sí | N.º |

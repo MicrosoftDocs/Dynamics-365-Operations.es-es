@@ -3,7 +3,7 @@ title: Vuelva a establecer el data mart de informes financieros
 description: "Este tema describe cómo restablecer el data mart de informes financieros."
 author: aolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: aloson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0786d3377b914791106ef30455d676e5ab2ae03d
-ms.openlocfilehash: c708fa18b8676d8ff57c26b3176a36d86df29387
+ms.sourcegitcommit: 5b956dcc5a4a93033396ae0ffcf8b7aeba2cf3f2
+ms.openlocfilehash: a07e8b5bae2c4f71e9212cd2f8080d2481769818
 ms.contentlocale: es-es
-ms.lasthandoff: 12/07/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ Este tema explica cómo restablecer el data mart de informes financieros para la
 - Microsoft Dynamics 365 for Finance and Operations Financial Reporting versión 7.0.10000.4 y posteriores
 - Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (localmente)
 
-Para obtener Finance and Operations Financial reporting versión 7.2.6.0, puede descargar el KB 4052514 de <https://support.microsoft.com/en-us/help/4052514>.
+Para obtener informes financieros de Finance and Operations versión 7.2.6.0, puede descargar el KB 4052514 de <https://fix.lcs.dynamics.com/Issue/Resolved?kb=4052514>.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-7260-and-later"></a>Restablecer el data mart de informes financieros de Finance and Operations Financial reporting versión 7.2.6.0 y versiones posteriores
 
@@ -55,7 +55,7 @@ El reinicio de data mart se debe realizar únicamente cuando el volumen de proce
 
 Para restablecer el data mart, en el Diseñador de informes, en el menú **Herramientas** , seleccione **Restablecer data mart**. El cuadro de diálogo que aparece tiene dos secciones: **Estadísticas** y **Restablecer**.
 
-[![Cuadro de diálogo Restablecer el data mart](./media/Statistics.png)](./media/Statistics.png)
+[![Cuadro de diálogo Restablecer el data mart](./media/Reset-72.jpg)](./media/Reset-72.jpg)
 
 ##### <a name="integration-attempts"></a>Intentos de integración
 
@@ -83,8 +83,10 @@ Si determina que un reinicio de data mart es necesario, seleccione la casilla de
 - **Restablecer base de datos**: la base de datos Finance and Operations se restauró, pero la base de datos del data mart de Financial reporting no se restauró.
 - **Otros**: está restableciendo el data mart por otro motivo. Si le preocupa que haya un problema, póngase en contacto con Soporte para identificarlo.
 
+[![Restablecer data mart](./media/Integration.png)](./media/Integration.png)
+
 > [!NOTE]
-> Compruebe que todas las tareas existentes hayan terminado de integrarse antes de completar los pasos. Puede ver el estado de la integración seleccionando &gt; **Herramientas** **Estado de integración**.
+> Compruebe que todas las tareas de restablecimiento de data mart hayan completado una carga inicial antes de comenzar un reinicio. Puede confirmar esto buscando un valor en la columna final del tiempo de ejecución seleccionando &gt; **Herramientas** **Estado de integración**.
 
 #### <a name="clear-users-and-companies"></a>Borrar usuarios y empresas
 
@@ -94,7 +96,10 @@ Cuando esté listo para iniciar el proceso de restablecimiento, seleccione **Ace
 
 Si desea revisar el estado de la integración, seleccione &gt; **Herramientas** **Estado de integración** para ver la última vez que la integración se ejecutó y el estado.
 
-[![Permite ver el estado de la integración.](./media/Integration.png)](./media/Integration.png)
+[![Permite ver el estado de la integración.](./media/New-integration.PNG)](./media/New-integration.PNG)
+
+> [!NOTE]
+> Se acaba el reinicio cuando todas las asignaciones muestran que el estado de RanToCompletion y la ventana del estado de la integración indica "integración completa" en la esquina inferior izquierda.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-70100004-and-later"></a>Restablecer el data mart de informes financieros de Finance and Operations Financial reporting versión 7.0.10000.4 y versiones posteriores
 
@@ -142,7 +147,9 @@ Los servicios de Microsoft Windows siguientes tendrán conexiones abiertas con l
 
 #### <a name="download-the-latest-minorversiondataupgradezip-package"></a>Descargue el último paquete de MinorVersionDataUpgrade.zip
 
-Descargue el último paquete de MinorVersionDataUpgrade.zip. Para obtener instrucciones acerca de cómo encontrar y descargar la versión correcta de embalaje de la actualización de datos, vea[Descarga del paquete desplegable de la última actualización de datos](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages). No se requiere una actualización para descargar el paquete de MinorVersionDataUpgrade.zip. Por tanto, solo tiene que seguir los pasos de la sección “Descarga de paquete desplegable de la última actualización de datos” de este tema. Puede omitir el resto de pasos del tema.
+Descargue el último paquete de MinorVersionDataUpgrade.zip. Para obtener instrucciones acerca de cómo encontrar y descargar la versión correcta de embalaje de la actualización de datos, vea[Descarga del paquete desplegable de la última actualización de datos](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). 
+
+No se requiere una actualización para descargar el paquete de MinorVersionDataUpgrade.zip. Por tanto, solo tiene que seguir los pasos de la sección “Descarga de paquete desplegable de la última actualización de datos” de este tema. Puede omitir el resto de pasos del tema.
 
 #### <a name="run-scripts-against-the-finance-and-operations-database"></a>Ejecute las secuencias de comandos en la base de datos de Finance and Operations
 

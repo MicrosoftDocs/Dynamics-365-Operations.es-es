@@ -49,7 +49,7 @@ Para buscar la versión más reciente para cada explorador web, vaya al sitio we
 > * El editor de flujo de trabajo se inicia como aplicación ClickOnce. Solo Microsoft Edge y Internet Explorer (en una versión compatible de Microsoft Windows) admiten aplicaciones ClickOnce. La aplicación ClickOnce del editor de flujo de trabajo requiere un sistema operativo compatible de 64 bits.
 > * Para obtener una vista previa de los archivos PDF, se recomienda que use exploradores modernos como Microsoft Edge (la última versión disponible para el público) en Windows 10, o Google Chrome (la última versión disponible para el público) en tabletas con Windows 10, Windows 8.1, Windows 8, Windows 7, o Google Nexus 10.
 Requisitos de red
-> * Dynamics 365 for Talent está diseñado para redes con latencia de 250-300 milisegundos (ms) o menos. Esta es la latencia de un cliente de explorador al centro de datos de Microsoft Azure que aloja Dynamics 365 for Talent. Se recomienda que pruebe latencia de red en [www.azurespeed.com] (http://www.azurespeed.com “Azure Latency Test").
+> * Dynamics 365 for Talent está diseñado para redes con latencia de 250-300 milisegundos (ms) o menos. Esta es la latencia de un cliente de explorador al centro de datos de Microsoft Azure que aloja Dynamics 365 for Talent. Se recomienda que pruebe latencia de red en [www.azurespeed.com] (http://www.azurespeed.com "Prueba de latencia de Azure").
 > * Los requisitos del ancho de banda para Dynamics 365 for Talent dependen de su caso. La mayoría de las situaciones habituales requieren un ancho de banda de más de 50 kilobytes por segundo (Kbps).
 
 > [!WARNING]
@@ -57,12 +57,12 @@ Requisitos de red
 
 ## <a name="supported-microsoft-office-applications"></a>Aplicaciones de Microsoft Office compatibles
 
-*   Para ejecutar los complementos de Microsoft Excel y Word, es necesario tener instalado Microsoft Office 2016 para Windows o Mac. Para obtener más información acerca de los requisitos de la versión, consulte [solucionador de problemas de integración de Office] (../dev-itpro/office-integration/office-integration-troubleshooting.md “solucionador de problemas de integración de Office”).
+*   Para ejecutar los complementos de Microsoft Excel y Word, es necesario tener instalado Microsoft Office 2016 para Windows o Mac. Para obtener más información acerca de los requisitos de la versión, consulte [solucionador de problemas de integración de Office] (../dev-itpro/office-integration/office-integration-troubleshooting.md "solucionador de problemas de integración de Office").
 *   Para ver los documentos que se generan mediante la funcionalidad de exportación a Excel o exportación a Word, debe tener instalado Microsoft Office 2007 o una versión posterior.
 
 ## <a name="update-policy"></a>Directiva de actualización
 
 El Microsoft Dynamics 365 for Talent se mantiene como oferta en la nube. Las actualizaciones de las Dynamics 365 for Talent son contínuas y se aplican automáticamente por Microsoft.
 
-Las actualizaciones se lanzan en una cadencia regular, las actualizaciones se crearán a todos los entornos.  Dynamics 365 for Talent es admitido por la directiva [Microsoft Support Lifecycle policy] (https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy “Soporte técnico del ciclo de vida de Microsoft”), que proporciona directrices coherentes fiables y disponibilidad de asistencia técnica.
+Las actualizaciones se lanzan en una cadencia regular, las actualizaciones se crearán a todos los entornos.  Dynamics 365 for Talent es admitido por la directiva [Soporte técnico del ciclo de vida de Microsoft] (https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Soporte técnico del ciclo de vida de Microsoft"), que proporciona directrices coherentes fiables y disponibilidad de asistencia técnica.
 
