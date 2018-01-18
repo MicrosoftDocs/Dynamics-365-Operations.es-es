@@ -1,9 +1,9 @@
 ---
 title: Contenido en Power BI de Desarrollo de empleados
-description: "Este tema describe el contenido en Power BI de Desarrollo de empleados. Explica cómo obtener acceso a los informes y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
+description: Este tema describe el contenido en Power BI de Desarrollo de empleados.
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: f8ba7a968a1a5b376bac52106671607247f061d9
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 99ae772f3a7fe9ad274a46398a577ad96f18e251
 ms.contentlocale: es-es
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -27,11 +27,7 @@ ms.lasthandoff: 12/01/2017
 
 [!include[banner](../includes/banner.md)]
 
-Este tema describe el contenido en Microsoft Power BI de **Desarrollo de empleados**. Explica cómo obtener acceso a los informes y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
-
-## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
-
-El paquete de contenido **Desarrollo de empleados** se encuentra en la biblioteca de activos compartidos de Microsoft Dynamics Lifecycle Services (LCS). Para obtener información sobre cómo descargar el paquete de contenido y conectarlo a sus datos, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md).
+Este tema describe el contenido en Microsoft Power BI de **Desarrollo de empleados**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
 Los informes incluidos en el contenido de Power BI de **Desarrollo de empleados** tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.
@@ -74,5 +70,4 @@ Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e 
 | Rendimiento              | Calificación, descripción y modelo de calificación                                                                      | Empleado actual, puesto actual, tendencia del empleado, aptitud preferida del trabajo, asignación de puesto anterior, tendencia del puesto, empleado cesado |
 |  Aptitud                   | Aptitudes, tipo de aptitud y calificación                                                                              | Análisis de aptitudes de empleados, aptitud preferida del trabajo |                                                                                                                        
 
-Estas entidades se usaban para crear medidas calculadas en el modelo de datos. Estas medidas calculadas se utilizan para calcular los indicadores de rendimiento clave (KPI) y los informes que se utilizan en el contenido de Power BI. Si desea incluir cálculos adicionales en sus informes y en el panel de información, puede descargar y modificar el archivo .pbix en LCS. Este archivo es el modelo de datos predeterminado usado para crear el contenido de Power BI. Una vez que haya realizado las modificaciones, puede crear un panel de información y paquete de contenido organizativo que contienen la información que ha agregado.
 

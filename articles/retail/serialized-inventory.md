@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9eb962e903ac9ee359134cae35ebd399e23cc4e1
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 83c2ce79f5bef058f55af0ecf498b207efc0507a
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -41,4 +41,5 @@ Según la configuración de Retail headquarters, los productos se pueden clasifi
     
 - **Los números de serie no son necesarios para realizar pedidos de cliente**: los pedidos de cliente se pueden realizar en una tienda y cerrar en otra. Un cajero que realiza un pedido de cliente no tiene por qué proporcionar el número de serie. Este número se proporciona durante el paso de selección o de recogida. Sin embargo, se debe proporcionar el número de serie de todos los artículos de línea en los cuales se seleccionó el tipo de entrega **Ejecutar**. Si no, la transacción no se podrá completar.    
 - **Los productos serializados no se agregan en la pantalla de la transacción**: la configuración **Productos agregados** del grupo de campo **Terminal** en la página **Perfil de funcionalidad** le permite agregar los mismos productos no serializados en la pantalla de la transacción. Cuando se agregan los mismos productos, estos son fáciles de ver en la cuadrícula de la transacción. Sin embargo, ya que los números de serie suelen ser únicos y como los ayudantes de ventas no tienen que escribir los números de serie hasta que no finaliza la transacción, la configuración **Productos agregados** no se aplica a los productos serializados. Así pues, los productos serializados no se agregarán en la pantalla de la transacción si la opción de configuración **Productos agregados** está seleccionada.
+- **Capacidad de buscar los diarios según el número de serie** - Los diarios se pueden buscar ahora por los números de serie. Para ello, abra la operación "Diarios" y presione el botón de "Búsqueda avanzada" en la barra de la aplicación. Mediante el botón "Agregar filtro", se puede aplicar un filtro para buscar números de serie también.
 

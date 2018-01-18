@@ -3,11 +3,12 @@ title: "Grupos de cuentas de consolidación y cuentas de consolidación adiciona
 description: "Este tema proporciona información sobre grupos de cuentas de consolidación y cuentas de consolidación adicionales y explica cómo se utilizan en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerConsolidateAccountGroup
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

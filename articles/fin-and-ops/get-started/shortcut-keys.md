@@ -3,7 +3,7 @@ title: "Métodos abreviados de teclado"
 description: "Los siguientes métodos abreviados de teclado se aplican en todo Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: jasongre
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 12/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
 ms.contentlocale: es-es
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ Los siguientes métodos abreviados de teclado se aplican en todo Dynamics 365 fo
 
 **Nota**: los métodos abreviados de teclado aquí descritos se refieren al diseño del teclado de Estados Unidos. Es posible que las teclas de otros diseños de teclados no se correspondan exactamente con las teclas de un teclado de Estados Unidos.
 
-## <a name="finding-a-shorcut"></a>Encontrar un acceso directo
+## <a name="finding-a-shortcut"></a>Encontrar un acceso directo
 A partir de la actualización de plataforma 11, los usuarios pueden detectar accesos directos actualmente disponibles directamente desde la interfaz de usuario. Simplemente haga clic con el botón secundario en un control y seleccione **Ver los accesos directos**. Esto abrirá un cuadro de diálogo que muestra los accesos directos que puede usar en función de donde se encuentre en la página. 
 
 
@@ -143,6 +143,9 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Ir al primer registro                                                                                               | Ctrl+Inicio                       |
 | Ir al último registro                                                                                                | Ctrl+Fin                        |
 | Ejecutar la acción predeterminada en una cuadrícula<br><br>**Nota:** este método abreviado se habilita cuando el enfoque está en una celda que contenga un hipervínculo y en todas las celdas de esa columna que tengan hipervínculos.                 | Intro                           |
+| Alternar el enfoque entre la fila seleccionada y la fila de encabezado                                                               | Alt+Mayús+ H                     |
+| Haga la columna actual mayor o menor (con el enfoque en la fila de encabezado)                                                  | Flecha derecha / flecha izquierda        |
+| Abra la cuadrícula de filtro para la columna actual (con el enfoque en la fila de encabezado)                                              | Intro                           |
 
 ## <a name="input-control-shortcuts"></a>Métodos abreviados de control de entrada de datos
 |                                                                              |                               |

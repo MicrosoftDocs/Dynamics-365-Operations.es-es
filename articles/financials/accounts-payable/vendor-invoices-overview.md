@@ -3,11 +3,12 @@ title: "Visión general de facturas de proveedores"
 description: "Este artículo ofrece información general relativa a facturas de proveedor. Las facturas de proveedor son solicitudes de pago para productos y servicios que se han recibido. Las facturas de proveedor pueden representar una cuenta para servicios en curso ose pueden basar en pedidos de compra para artículos y servicios específicos."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5ff988d669f8a2328530425482f6e045cf4537c7
+ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
+ms.openlocfilehash: 8368d67efb8483ab6f447fbfcbfda45c1aa14f8d
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 

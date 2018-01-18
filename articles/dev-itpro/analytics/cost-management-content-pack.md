@@ -1,9 +1,9 @@
 ---
 title: "Contenido de gestión de costes en Power BI"
-description: "Este tema describe lo que se incluye en el contenido de gestión de costes en Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
+description: "Este tema describe lo que se incluye en el contenido de gestión de costes en Power BI."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f509852f15b9518d0a01be1f89d4f07c76caf341
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -31,9 +31,9 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tema describe lo que se incluye en el contenido de gestión de costes en Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este tema describe lo que se incluye en el contenido de gestión de costes en Power BI. 
 
-# <a name="overview"></a>Visión general
+# <a name="overview"></a>Información general
 
 El contenido de **gestión de costes** en Microsoft Power BI está destinado a los contables de inventario o a los individuos de la organización responsables del inventario. El contenido de **gestión de costes** en Power BI proporciona información administrativa de inventario y de inventario del trabajo en curso y explica cómo el coste fluye por categoría en el tiempo. La información se puede usar como suplemento detallado del informe financiero.
 
@@ -51,8 +51,6 @@ El contenido de **gestión de costes** en Microsoft Power BI está destinado a l
 
 El origen de datos principal para CostAggregatedCostStatementEntryEntity es la tabla CostStatementCache. Esta tabla se gestiona a través del marco de caché del conjunto de datos. De forma predeterminada, la tabla se actualiza cada 24 horas, pero puede habilitar actualizaciones manuales en la configuración de la caché de datos. Puede realizar entonces una actualización manual en el área de trabajo **Gestión de costes** o **Análisis de coste**. Una vez ejecutada la actualización de CostStatementCache, debe actualizar la conexión de OData en Power BI.com para ver los datos actualizados en el sitio. Las medidas de desviación (compra, producción) en este contenido de Power BI pertenecen a solo los artículos que se han evaluado por el método de inventario de coste estándar. La desviación de producción se calcula como la diferencia entre el coste activo y el coste realizado. Se calcula la desviación de producción cuando el pedido de producción tiene el estado **Finalizado**. Para obtener más información sobre los tipos de desviación de producción y cómo cada tipo se calcula, consulte [Acerca del análisis de desviaciones de un pedido de producción completado](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
-## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
-El contenido de Power BI de **Costes de gestión** está disponible en PowerBI.com. Para obtener más información sobre cómo conectar y cargar sus datos de Microsoft Dynamics 365 for Finance and Operations, consulte [Obtener acceso al contenido de Power BI de PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
 El contenido incluye un conjunto de páginas de informe. Cada página consta de un conjunto de métricas que se visualizan como gráficos, mosaicos y tablas. La tabla siguiente proporciona una visión general de las visualizaciones en el contenido de **gestión de costes** en Power BI.
@@ -136,13 +134,6 @@ Las dimensiones clave siguientes se utilizan como filtros para cortar las medida
 | Libros mayores          | Divisa, nombre, descripción                  |
 | Sitios            | Identificador, nombre, país, ciudad                      |
 
-## <a name="additional-resources"></a>Recursos adicionales
-Estos son algunos vínculos útiles relacionados con las entidades y la creación de contenido de Power BI:
-
--   [Entidades de datos](..\data-entities\data-entities.md)
--   [Creación de paquetes de contenido organizativo](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Modelado de datos con Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Adición de iconos de Power BI a espacios de trabajo](configure-power-bi-integration.md)
 
 
 

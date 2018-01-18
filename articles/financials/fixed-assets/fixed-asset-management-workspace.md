@@ -3,11 +3,12 @@ title: "Espacio de trabajo de administración de activos fijos"
 description: "Este tema proporciona información acerca del espacio de trabajo Activo fijo. Este espacio de trabajo muestra la información relacionada con los activos fijos que se especifican en el sistema. Incluye una vista resumida y una vista de análisis."
 author: saraschi
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

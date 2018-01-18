@@ -3,7 +3,7 @@ title: "Implementación local"
 description: "Este tema proporciona información y vínculos al contenido acerca de implementaciones locales."
 author: kfend
 manager: AnnBe
-ms.date: 06/24/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 855967a9aacd4881315c5d5fefa06b909cd4cb59
-ms.openlocfilehash: 69151ed1c0a0a06e72bbdc8b33eb2fc68e9cc8eb
+ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
+ms.openlocfilehash: 697f5a43124aace645e0cc8c6df98a4f986ab852
 ms.contentlocale: es-es
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 12/20/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Página de aterrizaje de implementación local
@@ -32,6 +32,7 @@ Puede implementar Microsoft Dynamics 365 for Finance and Operations, Enterprise 
 
 ## <a name="get-started"></a>Introducción
 - [Visión general de Dynamics 365 for Finance and Operations, Enterprise Edition (local)](on-premises-overview.md)
+- [Planear implementaciones locales](plan-onprem-deployment.md)
 - [Requisitos del sistema para implementaciones locales](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Tamaño del hardware para entornos locales](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Política de servicio en línea y ciclo de vida de software local](../migration-upgrade/versions-update-policy.md)
@@ -41,6 +42,7 @@ Puede implementar Microsoft Dynamics 365 for Finance and Operations, Enterprise 
 ## <a name="onboard"></a>Incorporar
 - [Crear un proyecto local en Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
 - [Configurar e implementar entornos locales](setup-deploy-on-premises-environments.md)
+- [Instalación de dispositivos de impresora de red en entornos locales](../analytics/install-network-printer-onprem.md)
 - [Configurar SQL Server Reporting Services para una implementación local](../analytics/configure-ssrs-on-premises.md)
 - [Desarrollar e implementar modelos personalizados para entornos locales](develop-deploy-custom-models-on-premises.md)
 
@@ -54,6 +56,7 @@ Puede implementar Microsoft Dynamics 365 for Finance and Operations, Enterprise 
 - [Reimplementar una implementación local](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Otros recursos
+- [Solucionar problemas de Dynamics 365 for Finance and Operations, Enterprise Edition (local)](troubleshoot-on-prem.md)
 - [Características no implementadas en implementaciones locales](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Características en desuso](../migration-upgrade/deprecated-features.md)
 - [Política del ciclo de vida del software y lista de versiones](../migration-upgrade/versions-update-policy.md)

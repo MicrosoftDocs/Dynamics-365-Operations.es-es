@@ -1,9 +1,9 @@
 ---
 title: Contenido de Power BI sobre rendimiento financiero
-description: "Este tema describe el contenido en Power BI de rendimiento financiero. Describe el panel de información y los informes incluidos y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
+description: Este tema describe el contenido en Power BI de rendimiento financiero.
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
 ms.contentlocale: es-es
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,21 +30,6 @@ ms.lasthandoff: 12/01/2017
 [!include[banner](../includes/banner.md)]
 
 Este tema describe el contenido en Microsoft Power BI de **Rendimiento financiero**. Describe el panel de información y los informes incluidos y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
-
-## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
-
-Puede obtener acceso a Power BI de **Rendimiento financiero** en Microsoft Dynamics Lifecycle Services (LCS) y PowerBI.com.
-
-### <a name="available-from-lcs"></a>Disponible desde LCS
-El contenido en Power BI de **Rendimiento financiero** que está disponible en el CD admite las siguientes versiones:
-
-- Microsoft Dynamics 365 for Finance and Operations, versiones Enterprise Edition
-- Microsoft Dynamics 365 for Operations (versión 1611) 
-
-El contenido de Power BI se encuentra en la biblioteca de activos compartidos de LCS. Para obtener información sobre cómo descargar el paquete de contenido e implementarlo en su organización, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-### <a name="available-from-powerbicom"></a>Disponible en PowerBI.com
-El contenido en Power BI de **Rendimiento financiero** que está disponible en PowerBI.com admite Microsoft Dynamics AX versión 7.0 y 7.0.1. Para obtener más información sobre cómo conectar y cargar los datos de Dynamics AX, consulte [Acceso al contenido de Power BI en PowerBI.com](power-bi-home-page.md).
 
 ## <a name="main-account-setup"></a>Configuración de la cuenta principal
 Debido a que las organizaciones quieren que los ingresos aparezcan como cantidades positivas en los informes, la configuración de las cuentas principales es importante. Para que esas cuentas principales aparezcan como importes positivos, el tipo de cuenta principal debe definirse como **Pasivo** o **Ingreso**. Al utilizar estos tipos de cuentas, los informes de Power BI invertirán los signos y mostrarán los importes como positivos.
@@ -101,5 +86,5 @@ Las siguientes entidades se usaban como la base del contenido en Power BI de **R
 - Libros mayores
 - Planes contables:
 
-Estas entidades se usaban para crear medidas calculadas en el modelo de datos. La medidas calculadas se utilizan para calcular los indicadores de rendimiento clave (KPI) y los informes que se utilizan en el contenido. De forma predeterminada, el contenido incluye datos de los tres últimos años y un año futuro. Para incluir cálculos adicionales sobre sus informes y panel de información, puede modificar el [libro de Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Este libro es el modelo de datos predeterminado usado para crear el contenido. Una vez que haya terminado de realizar las modificaciones, puede crear un panel de información y paquete de contenido organizativo que contienen la información que ha agregado.
+Estas entidades se usaban para crear medidas calculadas en el modelo de datos. La medidas calculadas se utilizan para calcular los indicadores de rendimiento clave (KPI) y los informes que se utilizan en el contenido. De forma predeterminada, el contenido incluye datos de los tres últimos años y un año futuro. Para incluir cálculos adicionales sobre sus informes y panel de información, puede modificar el [libro de Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Este libro es el modelo de datos predeterminado usado para crear el contenido. 
 

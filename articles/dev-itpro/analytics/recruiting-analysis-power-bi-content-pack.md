@@ -3,11 +3,12 @@ title: "Contenido de Power BI para contratación"
 description: "Este tema describe el contenido en Power BI sobre Contratación. Explica cómo obtener acceso a los informes y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 22138ab34243aa5f8c74f785ce3aaf68b27b9622
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 0d6bc8584d202810ed14367d36d113d9b109ea7a
 ms.contentlocale: es-es
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -66,5 +67,5 @@ En la tabla siguiente se muestran las entidades en las que se basaba el contenid
 | Proyecto de contratación  | Descripción del proyecto, estado del proyecto y vacantes                | Candidato, candidato empleado, candidato finalizado |
 | Candidato finalizado | Candidatos cesados, motivo, rendimiento y fecha de cese | Empresa, contrapartida del calendario, fecha, ubicación geográfica, rendimiento, grupo demográfico, empleo, medios, proyecto de contratación, nombre del candidato |
 
-Estas entidades se usaban para crear medidas calculadas. Estas medidas calculadas se utilizan para calcular los indicadores de rendimiento clave (KPI) y los informes que se utilizan en el contenido. Si desea incluir cálculos adicionales en sus informes y en el panel de información, puede descargar y modificar el archivo Recruiting.pbix de Microsoft Dynamics Lifecycle Services (LCS). Este archivo es el modelo de datos predeterminado usado para crear el contenido. Una vez que haya realizado las modificaciones, puede crear un panel de información y paquete de contenido organizativo que contienen la información que ha agregado.
+
 

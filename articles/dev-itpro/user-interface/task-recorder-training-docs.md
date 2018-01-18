@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: robinr
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b744a895bbd494212c4c388362dd7290207af938
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ed3f8260cace494170bf1d4db80c3bcb9a1a086e
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 Este tema explica qué son el Grabador de tareas y las guías de tareas, cómo crear grabaciones de tareas y cómo personalizar las guías de tareas de Microsoft e incluirlas en la Ayuda.
 
 > [!IMPORTANT]
-> No puede crear guías de tareas personalizadas para Dynamics 365 for Talent. El sistema de Ayuda para Talent se conecta automáticamente a las guías de tareas para el producto. 
+> Puede registrar sus propias guías de tareas para Dynamics 365 for Talent pero no podrá salvarlas en una biblioteca del modelador de procesos empresariales (BPM) o abrirlas desde el panel de Ayuda en este momento. Puede salvarlas localmente o en una ubicación de red y, a continuación, abrirlas y volver a verlas utilizando el Grabador de tareas. 
 
 <a name="learn-about-task-recorder"></a>Información sobre el grabador de tareas
 -------------------------
@@ -42,7 +42,7 @@ El Grabador de tareas es una herramienta que puede usar para grabar las acciones
 
 -   **Las grabaciones de tareas se pueden reproducir como guías de tareas.** Las guías de tareas son una parte integral de la experiencia de la Ayuda. Una guía de tareas es una experiencia controlada, dirigida e interactiva a través de los pasos de un proceso empresarial. Al usuario se le indica que complete cada paso mediante un aviso móvil (o "burbuja"), que se animará a través de la IU y señalará al elemento de la IU con el que debe interactuar el usuario. La “burbuja” también proporciona información sobre cómo interactuar con el elemento, como "Haga clic aquí" o "En este campo, escriba un valor". Se ejecuta una guía de tareas con el conjunto de datos actual del usuario y los datos especificados se guardan en el entorno del usuario.
 -   **Las registros de tarea se pueden mostrar como pasos de procedimientos en el panel de la Ayuda.** Puede usar el panel de la Ayuda para buscar y mostrar grabaciones de tareas. Puede obtener acceso al panel de la Ayuda haciendo clic en el icono **?** de la barra de navegación superior o puede usar la combinación de teclas de método abreviado, **Ctrl+Mayús+?**. Solo puede leer los pasos de una grabación de tareas en el panel de la Ayuda o puede optar por reproducir la grabación como guía de tareas para que le guíe por la IU.
--   **Los registros de tareas se pueden guardar en BPM.** Puede guardar su grabación de tareas en una línea de una jerarquía en una biblioteca de Modelador de procesos empresariales (BPM) en Lifecycle Services (LCS). Se generará una lista de pasos y un diagrama de flujo de proceso empresarial desde la grabación. Las grabaciones de tareas que se han guardado en una biblioteca de BPM se pueden mostrar como Ayuda.
+-   **Los registros de tareas se pueden guardar en BPM.** Puede guardar su grabación de tareas en una línea de una jerarquía en una biblioteca del BPM en Lifecycle Services (LCS). Se generará una lista de pasos y un diagrama de flujo de proceso empresarial desde la grabación. Las grabaciones de tareas que se han guardado en una biblioteca de BPM se pueden mostrar como Ayuda.
 -   **Las grabaciones de tareas se pueden guardar como documentos de Word.** Esto le permite producir con facilidad guías de formación imprimibles.
 
 Puede crear sus propias grabaciones de tareas, reproducir grabaciones de tareas proporcionadas por Microsoft o modificar grabaciones de tareas proporcionadas por Microsoft para reflejar su configuración. Para obtener más información sobre el Grabador de tareas, consulte [Grabador de tareas](task-recorder.md).

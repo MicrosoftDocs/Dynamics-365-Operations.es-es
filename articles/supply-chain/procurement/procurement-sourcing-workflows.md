@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3bf244786e308ebcaee27a16fae378f41086f963
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ce9bc42751cf0f537a0ddb5069aca7c9779a6bb1
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -44,10 +44,11 @@ Los siguientes tipos de flujo de trabajo están disponibles para Adquisición y 
 |                                  |                                                               |
 |----------------------------------|---------------------------------------------------------------|
 | **Tipo**                         | **Use este tipo para**                                          |
-| Revisión de solicitudes de compra      | Crear flujos de trabajo de revisión para solicitudes de compra.            |
-| Revisión de líneas de solicitud de compra | Crear flujos de trabajo de revisión para líneas de solicitudes de compra.       |
+| Revisión de solicitudes de compra      | Crear flujos de trabajo de aprobación y revisión para solicitudes de compra.            |
+| Revisión de líneas de solicitud de compra | Crear flujos de trabajo de aprobación y revisión para líneas de solicitudes de compra.       |
 | Flujo de trabajo del pedido de compra          | Crear flujos de trabajo de aprobación y revisión para pedidos de compra.     |
 | Flujo de trabajo de línea del pedido de compra     | Crear flujos de trabajo de aprobación y revisión para líneas de pedidos de compra. |
+| Flujo de trabajo de solicitud de adición de proveedor  | Cree su revisión y flujos de trabajo de aprobación para agregar nuevos proveedores mediante solicitudes de proveedor. |
 
 ## <a name="creating-a-workflow"></a>Creación de un flujo de trabajo
 Para crear un flujo de trabajo, vaya a Adquisición y abastecimiento &gt; Configuración &gt; Flujos de trabajo de adquisición y abastecimiento, y cree un nuevo flujo de trabajo seleccionando el tipo de flujo de trabajo que desee crear.  
@@ -75,6 +76,6 @@ Puede asignar un paso de aprobación a los siguientes grupos de participantes.
 
 [Flujo de trabajo de solicitudes de compra](purchase-requisitions-workflow.md)
 
-
+[Incorporación de proveedores](vendor-onboarding.md)
 
 

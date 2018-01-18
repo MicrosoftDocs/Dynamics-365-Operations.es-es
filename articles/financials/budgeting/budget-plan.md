@@ -3,11 +3,12 @@ title: "Planificación presupuestaria"
 description: "El objetivo de este laboratorio es proporcionar una vista guiada de las actualizaciones de la funcionalidad de Microsoft Dynamics 365 for Finance and Operations, Entreprise Edition en el área de planificación presupuestaria. El objetivo de este laboratorio es presentar un ejemplo de configuración rápida del módulo de planificación presupuestaria y mostrar cómo se puede llevar a cabo la planificación presupuestaria con esta configuración.  Este laboratorio se centrará de manera específica en las siguientes tareas o procesos empresariales -    - Creación de una jerarquía organizativa para planificación presupuestaria y configuración de la seguridad del usuario   - Definición de escenarios de planes presupuestarios, columnas de planes presupuestarios   - Creación y activación del proceso de planificación presupuestaria   - Creación de documentos de plan presupuestaria insertando datos reales desde contabilidad general   - Uso de asignaciones para ajustar datos de documentos de plan presupuestario   - Edición de datos de documentos de plan presupuestario en Excel"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

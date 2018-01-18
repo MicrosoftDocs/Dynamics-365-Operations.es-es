@@ -1,13 +1,14 @@
 ---
 title: "Revalorización de divisa en una empresa de consolidación"
 description: "En este tema se describe cómo revalorizar la divisa en una empresa de consolidación."
-author: rschloma
+author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerExchAdjHist
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

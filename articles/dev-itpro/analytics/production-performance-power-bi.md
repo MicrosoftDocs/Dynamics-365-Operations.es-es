@@ -3,7 +3,7 @@ title: "Contenido en Power BI sobre rendimiento de la producción"
 description: "Este tema describe lo que se incluye en el contenido de Power BI sobre Rendimiento de la producción. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
 author: AndersGirke
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
 ms.contentlocale: es-es
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -59,15 +59,6 @@ La tabla siguiente proporciona información general de las visualizaciones que s
 | Tendencia de defectos por recurso                  | Tasa de defectos (ppm) por cantidad procesada | |
 | Desviaciones de producción para gestión de costes de órdenes de producción | <ul><li>Desviación de producción por fecha y tipo de grupo de costes</li><li>Desviación de producción por ubicación y tipo de grupo de costes</li><li>10 primeros productos con desviación de producción desfavorable</li><li>10 primeros con desviación de producción desfavorable por recurso</li></ul> | <ul><li>Coste realizado</li><li>Desviación de producción</li><li>Porcentaje de desviación de producción</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>Ampliar el contenido de Power BI
-Mediante los paquetes de contenido disponibles en Microsoft Dynamics Lifecycle Services (LCS), puede ofrecer análisis muy buenos a las personas que no inician sesión en Microsoft Dynamics 365. Puede modificar estos paquetes de contenido para que incluyan otros informes o representaciones visuales y, a continuación, publicar los paquetes de contenidos en el inquilino de Power BI.com para su análisis.
-
-Puede encontrar el contenido de Power BI sobre **Rendimiento de la producción** en la biblioteca de activos compartidos de LCS. Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](power-bi-content-microsoft-partners.md). Para ver una demostración que muestra cómo implementar el contenido de Power BI, consulte [Contenido de Power BI de Microsoft y sus socios en Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office Mix).
-
-Asegúrese de descargar el contenido sobre **Rendimiento de la producción** que se aplica a la versión de Dynamics 365 que esté usando.
-
-> [!NOTE]
-> Si utiliza Microsoft Dynamics 365 for Operations, versión 1611, KB 4011327 es un requisito para este contenido de Power BI. Tras iniciar sesión en LCS, puede acceder a KB en https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 
@@ -139,12 +130,5 @@ Las tabla siguiente muestra las dimensiones clave que se utilizan como filtros p
 | Recursos                 | Identificador de recurso, nombre de recurso, tipo de recurso y grupo de recursos |
 | Productos                  | Número de producto, nombre de producto, identificador de artículo y grupo de artículos         |
 
-## <a name="additional-resources"></a>Recursos adicionales
 
-Estos son algunos vínculos útiles relacionados con las entidades y la creación de contenido de Power BI:
-
-- [Entidades de datos](../data-entities/data-entities.md)
-- [Creación de paquetes de contenido organizativo](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
-- [Modelado de datos con Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
-- [Adición de iconos de Power BI a espacios de trabajo](configure-power-bi-integration.md)
 
