@@ -10,17 +10,17 @@ ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations
+ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 329da4ebe56a3f975ad65474068e3548c23405b4
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: f41f19ef5610de3b9b9f0ad30e7f0546173f8fbc
 ms.contentlocale: es-es
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 # <a name="configure-and-run-a-job-to-calculate-statements"></a><span data-ttu-id="15c31-103">Configurar y ejecutar un trabajo para calcular extractos</span><span class="sxs-lookup"><span data-stu-id="15c31-103">Configure and run a job to calculate statements</span></span>

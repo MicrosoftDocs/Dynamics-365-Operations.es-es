@@ -10,16 +10,16 @@ ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations
+ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: b2741885418de5c2a2c9ed97e5c6146c824857df
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: af77aea3ae1310390bd9ce060d78c8b915724263
 ms.contentlocale: es-es
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a><span data-ttu-id="74dc1-103">Definición del canal del centro de llamadas y de los atributos del canal</span><span class="sxs-lookup"><span data-stu-id="74dc1-103">Define call center channel and channel attributes</span></span>
