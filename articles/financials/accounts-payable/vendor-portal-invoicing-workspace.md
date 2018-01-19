@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -47,10 +48,12 @@ Las fichas de **Resumen** ofrecen una visión general de las facturas para el pr
 -   Las facturas pagadas son aquellas que se han pagado por completo en Finance and Operations.
 
 Si hace clic en una ficha, abrirá una vista filtrada de la página **Lista de facturas**.
+
 ### <a name="tabular-lists"></a>Listas tabulares
 
 En la sección **Listas tabulares**, el estado de la facturación se desglosa de forma similar a las fichas del resumen: Borrador y Enviado, listas no aprobadas. Cuando se encuentre en estado de Borrador, una factura se puede enviar al flujo de trabajo o eliminarse. La última lista tabular es una opción para buscar facturas. Puede filtrar según busca para permitir búsquedas más rápidas.
-Página de la lista de todas las facturas de proveedor
+
+<a name="all-vendor-invoices-list-page"></a>Página de la lista de todas las facturas de proveedor
 -----------------------------
 
 Puede ver todas las facturas de proveedor registradas y sin registrar en la página de la lista de **Facturas de colaboración de proveedore**. Puede usar dicha página para ver el estado del pago de las facturas. Los estados del pago incluyen No registradas, Sin pagar, Pagadas parcialemente y Pagadas completamente.
