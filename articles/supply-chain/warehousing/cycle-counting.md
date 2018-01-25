@@ -137,7 +137,7 @@ Se produce una diferencia de recuento cíclico en los siguientes escenarios si l
 
 Puede ajustar diferencias en el valor de recuento y aceptar a continuación el valor de recuento en la página **Revisión pendiente del trabajo de recuento cíclico**. Puede comprobar el recuento modificado de la cantidad del artículo en la página **Inventario disponible por ubicación**. El valor de recuento se rechaza si no se puede aprobar la diferencia.
 
-# <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 [Configurar dispositivos móviles para el trabajo de almacén](configure-mobile-devices-warehouse.md)
 
 

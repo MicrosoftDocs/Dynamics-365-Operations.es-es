@@ -98,7 +98,7 @@ Los siguientes componentes de los informes financieros facilitan la creación, l
 </tbody>
 </table>
 
-#<a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 [Generar un informe financiero](generate-financial-report.md)
 
 

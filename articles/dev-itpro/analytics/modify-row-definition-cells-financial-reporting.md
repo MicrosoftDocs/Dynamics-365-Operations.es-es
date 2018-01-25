@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 En este artículo se describe la información que se requiere para cada celda de una definición de fila en un informe financiero y se explica cómo escribir esa información. 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a>Especifique un código de fila en una definición de filas
+## <a name="specify-a-row-code-in-a-row-definition"></a>Especifique un código de fila en una definición de filas
 
 En las definiciones de filas, los números o las etiquetas en la celda **Código de la fila** identifican cada línea en la definición de filas. Puede especificar el código de fila para hacer referencia a los datos en los cálculos y totales.
 
@@ -506,8 +506,7 @@ Un conjunto de valores de dimensión es un grupo con nombre de valores de dimens
 4.  Seleccione el conjunto que desee eliminar y, a continuación, haga clic en **Eliminar**. Haga clic en **Sí** para eliminar permanentemente el conjunto de valores de dimensión.
 
 
-<a name="see-also"></a>Consulte también
---------
+## <a name="see-also"></a>Consulte también
 
 [Informes financieros](financial-reporting-intro.md)
 

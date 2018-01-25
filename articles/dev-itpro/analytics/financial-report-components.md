@@ -112,7 +112,7 @@ Cuando abre un bloque de creación, otros usuarios tienen acceso de solo lectura
 3.  Seleccione un bloque de creación y haga clic en **Deshacer desprotección**.
 4.  Haga clic en **Sí** para proteger el bloque de creación.
 
-# <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Informes financieros](financial-reporting-intro.md)
 

@@ -53,10 +53,9 @@ Julia usa la siguiente plantilla de Excel para preparar el presupuesto:
 
 [![Plantilla de Excel](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
 
-<a name="exercise-1-configuration"></a>Ejercicio 1: Configuración
-=========================
+## <a name="exercise-1-configuration"></a>Ejercicio 1: Configuración
 
-## <a name="task-1-create-organizational-hierarchy"></a>**Tarea 1: Crear una jerarquía organizativa**
+### <a name="task-1-create-organizational-hierarchy"></a>**Tarea 1: Crear una jerarquía organizativa**
 Como todo el proceso presupuestario se produce en el departamento de finanzas, Julie necesita crear una jerarquía organizativa muy simple, que conste solo del departamento de finanzas. 1.1. Navegue hasta las jerarquías organizativas (Administración de la organización &gt; Organizaciones &gt; Jerarquías organizativas) y haga clic en el botón Nuevo
 
 ![Jerarquía de la organización](./media/screenshot3.png) 
@@ -85,7 +84,7 @@ Como todo el proceso presupuestario se produce en el departamento de finanzas, J
 
 [![Fecha de vigencia](./media/screenshot9.png)](./media/screenshot9.png)
 
-## <a name="task-2-configure-user-security"></a>Tarea 2: Configurar seguridad de usuario
+### <a name="task-2-configure-user-security"></a>Tarea 2: Configurar seguridad de usuario
 La planificación presupuestaria usa directivas especiales de seguridad para configurar el acceso a los datos de planes presupuestarios. Julia necesita darse acceso a los planes presupuestarios de finanzas a ella misma. 
 
 2.1. Pase al contexto de entidad jurídica de DEMF. 
@@ -109,7 +108,7 @@ La planificación presupuestaria usa directivas especiales de seguridad para con
 
 [![Otorgar acceso](./media/screenshot14.png)](./media/screenshot14.png)
 
-## <a name="task-3-create-scenarios"></a>Tarea 3: Crear escenarios
+### <a name="task-3-create-scenarios"></a>Tarea 3: Crear escenarios
 3.1. Navegue hasta Gestión presupuestaria&gt;Configurar &gt; Planificación presupuestaria &gt; Configuración de planificación presupuestaria. En la página Situaciones observe los escenarios que vamos a usar más en este laboratorio: Reales del año anterior y Presupuestado. 
 
 *Nota: Puede crear nuevos escenarios para este ejercicio si lo desea y usarlos en su lugar.* 
@@ -118,7 +117,7 @@ La planificación presupuestaria usa directivas especiales de seguridad para con
 
 *Nota: como Julia no está usando el proceso de aprobación formal para la preparación del presupuesto, omitiremos la configuración de etapas Flujos de trabajo, Etapas y Flujo de trabajo en este laboratorio y usaremos la configuración existente para el flujo de trabajo Aprobación automática. Consulte el apéndice para esta configuración de flujo de trabajo.*
 
-## <a name="task-4-create-budget-plan-columns"></a>Tarea 4: Crear columnas del plan presupuestario
+### <a name="task-4-create-budget-plan-columns"></a>Tarea 4: Crear columnas del plan presupuestario
 Las columnas del plan presupuestario son las columnas monetarias o basadas en cantidad que se pueden usar en el diseño del documento de plan presupuestario. En nuestro ejemplo necesitamos crear una columna para Reales del año anterior y 12 columnas para representar cada mes en un año presupuestado. Para crear columnas, basta con hacer clic en el botón Agregar y rellenar los valores o mediante Entidad de datos. En este laboratorio usaremos Entidad de datos para rellenar los valores. 
 
 4.1. En Gestión presupuestaria&gt;Configurar &gt; Planificación presupuestaria &gt; Configuración de planificación presupuestaria, abra la página Columnas. Haga clic en el botón de Office de la esquina superior derecha del formulario y seleccione Columnas (sin filtrar). 
@@ -151,7 +150,7 @@ Las columnas del plan presupuestario son las columnas monetarias o basadas en ca
 
 [![Actualización](./media/screenshot23.png)](./media/screenshot23.png)
 
-## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Tarea 5: Crear plantillas y diseños de documentos de plan presupuestario
+### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Tarea 5: Crear plantillas y diseños de documentos de plan presupuestario
 El diseño define el aspecto que tendrá la cuadrícula de líneas de documento del plan presupuestario cuando el usuario abra el documento del plan presupuestario. También es posible cambiar el diseño para el documento del plan presupuestario para ver los mismos datos en distintos ángulos. Ahora, como tiene columnas definidas para usarlas con nuestro documento de plan presupuestario, Julia necesita crear un diseño de documento de plan presupuestario, que sería similar a la tabla de Excel que usa para crear datos de presupuesto (consulte la sección Visión general del escenario en este laboratorio) 
 
 5.1. En Gestión presupuestaria&gt;Configurar &gt; Planificación presupuestaria &gt; Configuración de planificación presupuestaria, abra la página Diseños. Cree un nuevo diseño de la entrada de presupuesto mensual:
@@ -171,7 +170,7 @@ En función de la definición del diseño del plan presupuestario, podemos crear
 
 5.3. &lt; Paso opcional&gt; Modifique la plantilla de Excel para que sea más sencilla para el usuario; agregue fórmulas totales, campos de encabezado, formato, etc. Guarde los cambios y cambie el archivo en el diseño del plan presupuestario haciendo clic en Diseño &gt; Cargar [![Cargar](./media/screenshot26.png)](./media/screenshot26.png)
 
-## <a name="task-6-create-a-budget-planning-process"></a>Tarea 6: Crear un proceso de planificación presupuestaria
+### <a name="task-6-create-a-budget-planning-process"></a>Tarea 6: Crear un proceso de planificación presupuestaria
 Julia necesita crear y activar un nuevo proceso de planificación presupuestaria combinando toda la configuración anterior para empezar a introducir planes presupuestarios. El proceso de planificación presupuestaria define qué organizaciones presupuestarias, flujo de trabajo, diseños y plantillas se usarán para crear planes presupuestarios. 
 
 6.1. Navegue hasta Gestión presupuestaria &gt; Configuración &gt; Planificación presupuestaria &gt; Proceso de planificación presupuestaria y cree un registro nuevo.
@@ -192,10 +191,9 @@ Julia necesita crear y activar un nuevo proceso de planificación presupuestaria
 
 [![Activar](./media/screenshot28.png)](./media/screenshot28.png)
 
-<a name="exercise-2-process-simulation"></a>Ejercicio 2: Simulación del proceso
-==============================
+## <a name="exercise-2-process-simulation"></a>Ejercicio 2: Simulación del proceso
 
-## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>Tarea 7: Generar datos iniciales para el plan presupuestario desde Contabilidad general
+### <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>Tarea 7: Generar datos iniciales para el plan presupuestario desde Contabilidad general
 7.1. Navegue hasta Gestión presupuestaria &gt; Periódico &gt; Generar plan presupuestario a partir de contabilidad general. Rellene los parámetros de proceso periódicos y haga clic en el botón Generar. 
 
 [![Generar](./media/screenshot29.png)](./media/screenshot29.png) 
@@ -208,7 +206,7 @@ Julia necesita crear y activar un nuevo proceso de planificación presupuestaria
 
 [![Visualización del plan presupuestario](./media/screenshot31.png)](./media/screenshot31.png)
 
-## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>Tarea 8: Crear presupuesto de año actual en función de los valores reales del año anterior
+### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>Tarea 8: Crear presupuesto de año actual en función de los valores reales del año anterior
 Los métodos de asignación se pueden usar en el plan presupuestario para copiar información con facilidad para planes presupuestarios desde un escenario a otro/distribuirlos entre períodos/asignarlos a dimensiones. Usaremos asignaciones para crear el presupuesto del año actual a partir de los valores reales del año anterior. 
 
 8.1. Seleccione todas las líneas de la cuadrícula de documento del plan presupuestario y haga clic en el botón para asignar presupuesto 
@@ -223,7 +221,7 @@ Los importes reales del año anterior se copiarán en el presupuesto del año ac
 
 [![Curva de ventas](./media/screenshot34.png)](./media/screenshot34.png)
 
-## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>Tarea 9: Ajustar documento de plan presupuestario con Excel y finalizar el documento
+### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>Tarea 9: Ajustar documento de plan presupuestario con Excel y finalizar el documento
 9.1. Haga clic en el botón de hoja de cálculo para abrir el contenido del documento en Excel
 
 [![Excel](./media/screenshot35.png)](./media/screenshot35.png)
@@ -238,8 +236,7 @@ Los importes reales del año anterior se copiarán en el presupuesto del año ac
 
 Una vez que se completa el flujo de trabajo, la etapa de documento de documento de plan presupuestario cambia a Aprobado. [![Aprobado](./media/screenshot38.png)](./media/screenshot38.png)
 
-<a name="appendix"></a>Apéndice
-========
+## <a name="appendix"></a>Apéndice
 
 ### <a name="auto-approve-workflow-configuration"></a>Aprobar automáticamente la configuración del flujo de trabajo
 
