@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dacc072ab5c070010d86302fa08a3066125b23a6
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: b49450a7deab94c62e173f730007bc40de23b267
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -34,9 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="82579-104">Este tema describe cómo cambiar la configuración del idioma en el PDV moderno de venta minorista (MPOS) y el PDV de la nube.</span><span class="sxs-lookup"><span data-stu-id="82579-104">This topic describes how to change language settings in Retail Modern POS (MPOS) and Cloud POS.</span></span>
 
-<a name="overview"></a><span data-ttu-id="82579-105">Visión general</span><span class="sxs-lookup"><span data-stu-id="82579-105">Overview</span></span>
-========
-
+## <a name="overview"></a><span data-ttu-id="82579-105">Visión general</span><span class="sxs-lookup"><span data-stu-id="82579-105">Overview</span></span>
 <span data-ttu-id="82579-106">Tanto el PDV moderno de venta minorista (MPOS) como el PDV de la nube admiten entornos en los que la configuración del idioma y las traducciones pueden variar entre los ajustes del usuario y los de la tienda.</span><span class="sxs-lookup"><span data-stu-id="82579-106">Retail Modern POS (MPOS) and Cloud POS support environments where language settings and translations can vary between the store and user settings.</span></span> <span data-ttu-id="82579-107">Por ejemplo, la tienda podría estar situada en una región donde el inglés es más común para sus clientes, pero algunos trabajadores prefieren usar la aplicación con traducciones al francés.</span><span class="sxs-lookup"><span data-stu-id="82579-107">For example, the store could be located in a region where English is most common for their customers, but some workers prefer to use the application with French translations.</span></span>
 
 ## <a name="data-language"></a><span data-ttu-id="82579-108">Idioma de los datos</span><span class="sxs-lookup"><span data-stu-id="82579-108">Data language</span></span>

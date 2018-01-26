@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 49b63216cc306553b2d3b7141f57f3c0581e1d5a
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: f3ed894445c44da6de9062da5c9399e867952d43
 ms.contentlocale: es-es
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/19/2018
 
 <span data-ttu-id="39f3b-104">En este artículo se describe la información que se requiere para cada celda de una definición de fila en un informe financiero y se explica cómo escribir esa información.</span><span class="sxs-lookup"><span data-stu-id="39f3b-104">This article describes the information that is required for each cell in a row definition on a financial report and explains how to enter that information.</span></span> 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a><span data-ttu-id="39f3b-105">Especifique un código de fila en una definición de filas</span><span class="sxs-lookup"><span data-stu-id="39f3b-105">Specify a row code in a row definition</span></span>
+## <a name="specify-a-row-code-in-a-row-definition"></a><span data-ttu-id="39f3b-105">Especifique un código de fila en una definición de filas</span><span class="sxs-lookup"><span data-stu-id="39f3b-105">Specify a row code in a row definition</span></span>
 
 <span data-ttu-id="39f3b-106">En las definiciones de filas, los números o las etiquetas en la celda **Código de la fila** identifican cada línea en la definición de filas.</span><span class="sxs-lookup"><span data-stu-id="39f3b-106">In row definitions, the numbers or labels in the **Row Code** cell identify each line in the row definition.</span></span> <span data-ttu-id="39f3b-107">Puede especificar el código de fila para hacer referencia a los datos en los cálculos y totales.</span><span class="sxs-lookup"><span data-stu-id="39f3b-107">You can specify the row code to refer to data in calculations and totals.</span></span>
 
@@ -506,8 +506,7 @@ ms.lasthandoff: 01/19/2018
 4.  <span data-ttu-id="39f3b-709">Seleccione el conjunto que desee eliminar y, a continuación, haga clic en **Eliminar**.</span><span class="sxs-lookup"><span data-stu-id="39f3b-709">Select the set to delete, and then click **Delete**.</span></span> <span data-ttu-id="39f3b-710">Haga clic en **Sí** para eliminar permanentemente el conjunto de valores de dimensión.</span><span class="sxs-lookup"><span data-stu-id="39f3b-710">Click **Yes** to permanently delete the dimension value set.</span></span>
 
 
-<a name="see-also"></a><span data-ttu-id="39f3b-711">Consulte también</span><span class="sxs-lookup"><span data-stu-id="39f3b-711">See also</span></span>
---------
+## <a name="see-also"></a><span data-ttu-id="39f3b-711">Consulte también</span><span class="sxs-lookup"><span data-stu-id="39f3b-711">See also</span></span>
 
 [<span data-ttu-id="39f3b-712">Informes financieros</span><span class="sxs-lookup"><span data-stu-id="39f3b-712">Financial reporting</span></span>](financial-reporting-intro.md)
 

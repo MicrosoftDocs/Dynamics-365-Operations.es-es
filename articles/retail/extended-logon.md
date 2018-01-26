@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 7547ff6dcea546100a11f20e8e8f7f7fcab82cee
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: d369b760047a18c82dd89f3452d94b9c62ba8841
 ms.contentlocale: es-es
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -34,8 +34,7 @@ ms.lasthandoff: 01/18/2018
 
 <span data-ttu-id="779c6-104">En este tema se abordan las opciones de configuración de inicio de sesión extendido para PDV en la nube y Retail Modern POS (MPOS).</span><span class="sxs-lookup"><span data-stu-id="779c6-104">This topic covers your options for setting up extended logon for Cloud POS and Retail Modern POS (MPOS).</span></span>
 
-<a name="setting-up-extended-logon"></a><span data-ttu-id="779c6-105">Configuración del inicio de sesión extendido</span><span class="sxs-lookup"><span data-stu-id="779c6-105">Setting up extended logon</span></span>
-=========================
+## <a name="setting-up-extended-logon"></a><span data-ttu-id="779c6-105">Configuración del inicio de sesión extendido</span><span class="sxs-lookup"><span data-stu-id="779c6-105">Setting up extended logon</span></span>
 
 <span data-ttu-id="779c6-106">Puede encontrar la configuración de las máscaras de código de barras en **Retail** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Perfiles del PDV** &gt; **Perfiles de funcionalidad**.</span><span class="sxs-lookup"><span data-stu-id="779c6-106">You can find the setup for bar code masks at **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Functionality profiles**.</span></span> <span data-ttu-id="779c6-107">La ficha desplegable **Funciones** incluye las siguientes opciones que están relacionadas con el inicio de sesión extendido.</span><span class="sxs-lookup"><span data-stu-id="779c6-107">The **Functions** FastTab includes the following options that are related to extended logon.</span></span>
 
@@ -55,23 +54,19 @@ ms.lasthandoff: 01/18/2018
 
 <span data-ttu-id="779c6-116">Cuando se activa la opción **El inicio de sesión de tarjeta del personal necesita contraseña**, el inicio de sesión de tarjeta del personal selecciona únicamente el trabajador al que se la asignado el inicio de sesión extendido que se presenta.</span><span class="sxs-lookup"><span data-stu-id="779c6-116">When the **Staff card logon requires password** option is enabled, the staff card logon selects only the worker who is assigned to the extended logon that is presented.</span></span> <span data-ttu-id="779c6-117">Los trabajadores aún tienen que especificar su contraseña cuando se activa esta opción.</span><span class="sxs-lookup"><span data-stu-id="779c6-117">Workers must still enter their password when this option is enabled.</span></span>
 
-<a name="assigning-an-extended-logon"></a><span data-ttu-id="779c6-118">Asignación de un inicio de sesión extendido</span><span class="sxs-lookup"><span data-stu-id="779c6-118">Assigning an extended logon</span></span>
-===========================
+## <a name="assigning-an-extended-logon"></a><span data-ttu-id="779c6-118">Asignación de un inicio de sesión extendido</span><span class="sxs-lookup"><span data-stu-id="779c6-118">Assigning an extended logon</span></span>
 
 <span data-ttu-id="779c6-119">De forma predeterminada, solo los directores pueden asignar el inicio de sesión extendido a los trabajadores.</span><span class="sxs-lookup"><span data-stu-id="779c6-119">By default, only managers can assign extended logon to workers.</span></span> <span data-ttu-id="779c6-120">Para asignar el inicio de sesión extendido, vaya a **Inicio de sesión extendido** en PDV.</span><span class="sxs-lookup"><span data-stu-id="779c6-120">To assign extended logon, go to **Extended log on** in POS.</span></span> <span data-ttu-id="779c6-121">A continuación, busque un trabajador introduciendo su id. de operador en el campo de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="779c6-121">Then search for a worker by entering his or her operator ID in the search field.</span></span> <span data-ttu-id="779c6-122">Seleccione el trabajador y, a continuación, haga clic en la pestaña **Asignar**.</span><span class="sxs-lookup"><span data-stu-id="779c6-122">Select the worker, and then click **Assign**.</span></span> <span data-ttu-id="779c6-123">En la siguiente página, pase o o escanee el inicio de sesión que desee asignar al trabajador.</span><span class="sxs-lookup"><span data-stu-id="779c6-123">On the next page, swipe or scan the extended logon to assign to the worker.</span></span> <span data-ttu-id="779c6-124">Si se lee correctamente, el botón **Aceptar** estará disponible.</span><span class="sxs-lookup"><span data-stu-id="779c6-124">If the swipe or scan is successfully read, the **OK** button becomes available.</span></span> <span data-ttu-id="779c6-125">Haga clic en **Aceptar** para guardar el inicio de sesión extendido para dicho trabajador.</span><span class="sxs-lookup"><span data-stu-id="779c6-125">Click **OK** to save the extended logon for that worker.</span></span>
 
-<a name="deleting-an-extended-logon"></a><span data-ttu-id="779c6-126">Eliminación de un inicio de sesión extendido</span><span class="sxs-lookup"><span data-stu-id="779c6-126">Deleting an extended logon</span></span>
-==========================
+## <a name="deleting-an-extended-logon"></a><span data-ttu-id="779c6-126">Eliminación de un inicio de sesión extendido</span><span class="sxs-lookup"><span data-stu-id="779c6-126">Deleting an extended logon</span></span>
 
 <span data-ttu-id="779c6-127">Para eliminar el inicio de sesión extendido que se asigna a un trabajador, busque el trabajador mediante la operación **Inicio de sesión extendido**.</span><span class="sxs-lookup"><span data-stu-id="779c6-127">To delete the extended logon that is assigned to a worker, search for the worker by using the **Extended log on** operation.</span></span> <span data-ttu-id="779c6-128">Seleccione el trabajador y, a continuación, haga clic en **Anular asignación**.</span><span class="sxs-lookup"><span data-stu-id="779c6-128">Select the worker, and then click **Unassign**.</span></span> <span data-ttu-id="779c6-129">Se eliminarán todas las credenciales de inicio de sesión extendidas asociadas con dicho trabajador.</span><span class="sxs-lookup"><span data-stu-id="779c6-129">All extended logon credentials that are associated with that worker are removed.</span></span>
 
-<a name="extending-extended-logon"></a><span data-ttu-id="779c6-130">Extensión de inicio de sesión extendido</span><span class="sxs-lookup"><span data-stu-id="779c6-130">Extending extended logon</span></span>
-========================
+## <a name="extending-extended-logon"></a><span data-ttu-id="779c6-130">Extensión de inicio de sesión extendido</span><span class="sxs-lookup"><span data-stu-id="779c6-130">Extending extended logon</span></span>
 
 <span data-ttu-id="779c6-131">El servicio del inicio de sesión puede ser extendido para admitir dispositivos de inicio de sesión extendidos adicionales, como escáneres de la palma.</span><span class="sxs-lookup"><span data-stu-id="779c6-131">The logon service can be extended to support additional extended logon devices, such as palm scanners.</span></span> <span data-ttu-id="779c6-132">Para obtener más información, consulte la documentación de extensibilidad del PDV.</span><span class="sxs-lookup"><span data-stu-id="779c6-132">For more information, see the POS extensibility documentation.</span></span>
 
-<a name="using-extended-logon"></a><span data-ttu-id="779c6-133">Uso del inicio de sesión extendido</span><span class="sxs-lookup"><span data-stu-id="779c6-133">Using extended logon</span></span>
-====================
+## <a name="using-extended-logon"></a><span data-ttu-id="779c6-133">Uso del inicio de sesión extendido</span><span class="sxs-lookup"><span data-stu-id="779c6-133">Using extended logon</span></span>
 
 <span data-ttu-id="779c6-134">Cuando se configura el inicio de sesión extendido, y se le ha asignado a un trabajador un código de barras o una cinta magnética, el trabajador sólo tiene que pasar o escanear su tarjeta mientras se abre la página de inicio de sesión del PDV.</span><span class="sxs-lookup"><span data-stu-id="779c6-134">When extended logon is configured, and a worker has been assigned a bar code or magnetic stripe, the worker just has to swipe or scan his or her card while the POS logon page is displayed.</span></span> <span data-ttu-id="779c6-135">Si una contraseña también es necesaria para que el inicio de sesión pueda continuar, se le pedirá al trabajador que especifique su contraseña.</span><span class="sxs-lookup"><span data-stu-id="779c6-135">If a password is also required before logon can proceed, the worker is prompted to enter his or her password.</span></span>
 
