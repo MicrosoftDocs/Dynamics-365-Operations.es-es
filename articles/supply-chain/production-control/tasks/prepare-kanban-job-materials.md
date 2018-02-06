@@ -1,4 +1,4 @@
---- 
+---
 title: "Preparación de un trabajo kanban de proceso cuando los materiales están disponibles para la celda de trabajo"
 description: "Esta tarea se centra en la preparación de un trabajo kanban de proceso cuando todos los materiales están disponibles para la celda de trabajo."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -40,5 +40,4 @@ Esta tarea se centra en la preparación de un trabajo kanban de proceso cuando t
     * Si se seleccionan varios trabajos, la lista de selección mostrará la suma de todos los artículos necesarios para los trabajos seleccionados.  
 6. Haga clic en Preparar.
     * El proceso de preparación está ahora terminado. La casilla de verificación seleccionada para todas las filas de la lista de selección indica que el estado de suministro es el de seleccionado.  
-
 

@@ -69,4 +69,3 @@ Este procedimiento le muestra cómo asignar los roles correctos a la cuenta de u
 6. En el campo Unidad de producción, puede establecer el filtro predeterminado para el trabajador. Esto asegurará que solo se muestran los trabajos de producción para la unidad de producción seleccionada cuando el trabajador inicia sesión en el dispositivo.
 7. Cierre la página.
 
-

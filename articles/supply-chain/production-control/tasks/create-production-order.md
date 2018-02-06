@@ -1,4 +1,4 @@
---- 
+---
 title: "Crear un pedido de producción"
 description: "Este procedimiento muestra cómo crear un pedido de producción."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -69,5 +69,4 @@ Este procedimiento muestra cómo crear un pedido de producción. La empresa de d
     * El cambio del tiempo de proceso afecta al consumo de ruta estimado y al coste del pedido de producción.  
 6. Haga clic en Guardar.
 7. Cierre la página.
-
 

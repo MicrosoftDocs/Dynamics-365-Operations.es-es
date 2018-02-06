@@ -1,4 +1,4 @@
---- 
+---
 title: "Iniciar un pedido de producción"
 description: "Este procedimiento muestra cómo iniciar un pedido de producción en la planta."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -70,5 +70,4 @@ Este procedimiento muestra cómo iniciar un pedido de producción en la planta. 
 7. Haga clic en Registrar.
 8. Haga clic en Aceptar
     * En el diario de tarjeta de ruta se registra el tiempo empleado en las operaciones individuales. También se puede informar de la cantidad de errores y aciertos.  
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Programar un pedido de producción"
 description: "Este procedimiento muestra cómo programar un pedido de producción."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -53,5 +53,4 @@ Este procedimiento muestra cómo programar un pedido de producción. La empresa 
     * La página Carga de capacidad muestra la capacidad reservada mediante la programación de trabajos, el número total de horas actualmente reservadas en el recurso y el número de horas que siguen disponibles para la programación de trabajos en el recurso.  
 6. Cierre la página.
 7. Cierre la página.
-
 

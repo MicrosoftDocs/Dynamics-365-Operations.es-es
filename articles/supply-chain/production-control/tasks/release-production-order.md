@@ -1,4 +1,4 @@
---- 
+---
 title: "Publicar un pedido de producción"
 description: "Este procedimiento muestra cómo liberar un pedido de producción."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: johanho
@@ -39,5 +39,4 @@ Este procedimiento muestra cómo liberar un pedido de producción. La empresa de
 5. Haga clic en la casilla Imprimir tarjeta de ruta.
 6. Haga clic en Aceptar
 7. Cierre la página.
-
 

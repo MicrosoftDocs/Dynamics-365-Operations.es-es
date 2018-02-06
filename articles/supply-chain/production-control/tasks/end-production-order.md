@@ -1,4 +1,4 @@
---- 
+---
 title: "Finalizar un pedido de producción"
 description: "Este procedimiento muestra cómo terminar un pedido de producción."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -46,5 +46,4 @@ Este procedimiento muestra cómo terminar un pedido de producción. La empresa d
 1. En el panel de acciones, haga clic en Gestionar costes.
 2. Haga clic en Ver comparación del coste.
     * Una vez finalizado el pedido de producción, puede comparar el precio de coste estimado con el precio de coste real para obtener una visión general de las desviaciones de producción.  
-
 
