@@ -1,4 +1,4 @@
---- 
+---
 title: "Finalizar un pedido de producción"
 description: "Este procedimiento muestra cómo terminar un pedido de producción."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -17,10 +17,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 75b91ea330258a5b57e9e58cb32539d57e458f28
+ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
+ms.openlocfilehash: 1cc586f804a072ca5499c73ecdf7d37778cbf067
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 # <a name="end-a-production-order"></a><span data-ttu-id="7079f-103">Finalizar un pedido de producción</span><span class="sxs-lookup"><span data-stu-id="7079f-103">End a production order</span></span>
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 1. <span data-ttu-id="7079f-119">En el panel de acciones, haga clic en Gestionar costes.</span><span class="sxs-lookup"><span data-stu-id="7079f-119">On the Action Pane, click Manage costs.</span></span>
 2. <span data-ttu-id="7079f-120">Haga clic en Ver comparación del coste.</span><span class="sxs-lookup"><span data-stu-id="7079f-120">Click View cost comparison.</span></span>
     * <span data-ttu-id="7079f-121">Una vez finalizado el pedido de producción, puede comparar el precio de coste estimado con el precio de coste real para obtener una visión general de las desviaciones de producción.</span><span class="sxs-lookup"><span data-stu-id="7079f-121">After you have ended the production order, you can compare the estimated cost price against the realized cost price to get an overview of the production variances.</span></span>  
-
 
