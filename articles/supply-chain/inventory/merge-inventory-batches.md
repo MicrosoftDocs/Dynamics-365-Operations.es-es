@@ -1,7 +1,7 @@
 ---
 title: Combinar lotes de inventario
 description: "Este artículo proporciona información sobre la consolidación de dos o más lotes de inventario en un lote combinado."
-author: perlynne
+author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

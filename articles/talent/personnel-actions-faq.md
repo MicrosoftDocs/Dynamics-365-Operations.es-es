@@ -1,7 +1,7 @@
 ---
 title: Acciones del personal [Preguntas frecuentes]
 description: "Este tema contiene respuestas a preguntas que puede que tenga si su organización usa acciones de personal. Las acciones de personal son pasos adicionales que debe completar cuando realice ciertas tareas relacionadas con el personal."
-author: shielas
+author: ShielaSogge
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Componentes de los informes financieros
 description: "En este artículo se describe cómo se utilizan los componentes o bloques de creación, de las definiciones de informe en los informes financieros. Estos bloques de creación incluyen definiciones de filas, definiciones de columnas y definiciones de organigramas. El artículo explica cómo organizar y bloquear bloques de creación y cómo trabajar con grupos de bloques de creación."
-author: aolson
+author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article

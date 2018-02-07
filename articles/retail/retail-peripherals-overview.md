@@ -1,6 +1,7 @@
 ---
 title: "Descripción general de los periféricos para aplicaciones minoristas"
 description: "En este tema explica los conceptos relacionados con los periféricos para aplicaciones minoristas."
+author: rubencdelgado
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article
