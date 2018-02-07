@@ -1,6 +1,7 @@
 ---
 title: "Descripción general de los periféricos para aplicaciones minoristas"
 description: "En este tema explica los conceptos relacionados con los periféricos para aplicaciones minoristas."
+author: rubencdelgado
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article
@@ -18,10 +19,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 7573a81916a60c18ae6ca4a2fdfc60bc2e641319
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: ba9c828efc39d45a78500d30295e5d1d6c770c99
 ms.contentlocale: es-es
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 
