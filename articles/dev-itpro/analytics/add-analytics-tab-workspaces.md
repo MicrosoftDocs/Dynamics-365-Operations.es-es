@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application user, IT Pro
 ms.reviewer: robinr
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
@@ -30,14 +30,14 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > Esta función se admite en Dynamics 365 for Finance and Operations (versión 7.2 y posteriores).
 
-# <a name="introduction"></a>Introducción
+## <a name="introduction"></a>Introducción
 Este tema muestra cómo insertar un informe de Microsoft Power BI en la ficha **Análisis** de un espacio de trabajo. Para el ejemplo que se da aquí, extenderemos el espacio de trabajo **Administración de reserva** en la aplicación de administración de flota para insertar un espacio de trabajo analítico en una pestaña **Análisis** .
 
-# <a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a>Requisitos previos
 + Obtenga acceso a un entorno del desarrollador de software que ejecute la actualización de plataforma 8 o posterior.
 + Informe analítico (archivo .pbix) que se ha creado usando Microsoft Power BI Desktop, y que tiene un modelo de datos originario de la base de datos del almacén de entidades.
 
-# <a name="overview"></a>Información general
+## <a name="overview"></a>Información general
 Si extiende un espacio de trabajo de la aplicación existente o presenta un nuevo espacio de trabajo propio, puede usar las visualizaciones analíticas incrustadas para entregar visualizaciones profundas e interactivas de los datos de la empresa. El proceso para agregar una ficha de espacio de trabajo analítico tiene cuatro pasos.
 
 1. Agregue un archivo .pbix como recurso de Dynamics 365.
@@ -48,7 +48,7 @@ Si extiende un espacio de trabajo de la aplicación existente o presenta un nuev
 > [!NOTE]
 > Para obtener más información sobre cómo crear informes analíticos, consulte [Introducción a Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Esta página es muy buena para obtener información que ayude a crear soluciones de informes analíticos interesantes.
 
-# <a name="add-a-pbix-file-as-a-resource"></a>Agregue un archivo .pbix como recurso
+## <a name="add-a-pbix-file-as-a-resource"></a>Agregue un archivo .pbix como recurso
 Antes de empezar, debe crear u obtener el informe de Power BI que insertará en el espacio de trabajo. Para obtener más información sobre cómo crear informes analíticos, consulte [Introducción a Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
  
 Siga estos pasos para agregar un archivo .pbix como artefacto del proyecto de Visual Studio.
@@ -66,7 +66,7 @@ Siga estos pasos para agregar un archivo .pbix como artefacto del proyecto de Vi
   
 Ahora que ha agregado el archivo .pbix como recurso de Dynamics 365, puede insertar los informes en los espacios de trabajo y agregar vínculos directos mediante elementos de menú.
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a>Agregar un control de la ficha a un espacio de trabajo de la aplicación
+## <a name="add-a-tab-control-to-an-application-workspace"></a>Agregar un control de la ficha a un espacio de trabajo de la aplicación
 En este ejemplo, extenderemos el espacio de trabajo **Administración de reserva** en el modelo de administración de flota agregando la pestaña **Análisis** a la definición del formulario **FMClerkWorkspace** .
  
 La ilustración siguiente muestra qué parece el formulario **FMClerkWorkspace** en el diseñador en Microsoft Visual Studio.
@@ -105,7 +105,7 @@ Ahora que ha agregado los controles de formulario que se usarán para insertar e
  
 Ha terminado la tarea de ampliar la definición del formulario de solicitud. Para obtener más información sobre cómo usar extensiones para personalizaciones, consulte [Personalización: superposiciones y extensiones](../extensibility/customization-overlayering-extensions.md).
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Agregue la lógica de negocios X++ para insertar un control del visor
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Agregue la lógica de negocios X++ para insertar un control del visor
 Siga estos pasos para agregar la lógica de negocios que inicializa el control del visor de informes que está insertado en el espacio de trabajo **Administración de reserva**.
 
 1. Abra el diseñador de formularios **FMClerkWorkspace** para ampliar la definición de diseño.
@@ -151,12 +151,12 @@ Ha terminado la tarea de agregar la lógica de negocios para inicializar el cont
 > [!NOTE]
 > Puede obtener acceso a la vista operativa existente mediante las fichas del espacio de trabajo de debajo del título de la página.
 
-# <a name="reference"></a>Referencia
+## <a name="reference"></a>Referencia
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a>Método de PBIReportHelper.initializeReportControl
+### <a name="pbireporthelperinitializereportcontrol-method"></a>Método de PBIReportHelper.initializeReportControl
 Esta sección proporciona información sobre la clase de auxiliar que se utiliza para insertar un informe de Power BI (recurso .pbix) en un control de grupo del formulario.
 
-### <a name="syntax"></a>Sintaxis
+#### <a name="syntax"></a>Sintaxis
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a>Parámetros
+#### <a name="parameters"></a>Parámetros
 
 | Nombre | Descripción |
 |---|---|

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -59,9 +60,9 @@ Para este ejemplo, FRSI debe ser un cliente de la entidad jurídica USSI y USSI 
 
 1.  Configure FRSI como un cliente en la entidad jurídica USSI y USSI como un proveedor en la entidad jurídica FRSI. Existen tres puntos de entrada para los pasos necesarios para esta tarea.
     | Paso | Punto de entrada                                                                       | Descripción   |
-    |------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | A    | En USSI, haga clic en **Clientes** &gt; **Clientes** &gt; **Todos los clientes**. | Crear un nuevo registro de cliente para FRSI y seleccione el grupo de clientes.                                                                                                                                                                                                                           |
-    | mil millones    | En FRSI, haga clic en **Proveedores** &gt; **Proveedores** &gt; **Todos los proveedores**.        | Crear un nuevo registro de proveedor para USSI y seleccione el grupo de proveedores.                                                                                                                                                                                                                               |
+    |------|-----------------------------------------------------------------------------------|------------------|
+    | A    | En USSI, haga clic en **Clientes** &gt; **Clientes** &gt; **Todos los clientes**. | Crear un nuevo registro de cliente para FRSI y seleccione el grupo de clientes.                                                                                  |
+    | mil millones    | En FRSI, haga clic en **Proveedores** &gt; **Proveedores** &gt; **Todos los proveedores**.        | Crear un nuevo registro de proveedor para USSI y seleccione el grupo de proveedores.                                                                                    |
     | C    | En FRSI, abra el registro de proveedor que acaba de crear.                            | En el panel de acciones, en la pestaña **General**, en el grupo **Configurar**, haga clic en **Empresas vinculadas**. En la página **Empresas vinculadas**, en la pestaña **Relación comercial**, establezca el control deslizante **Activo** en **Sí**. En el campo **Empresa cliente** , seleccione el registro del cliente que creó en el paso A. |
 
 2.  Haga clic en **Gestión de proyectos y contabilidad** &gt; **Configuración** &gt; **Parámetros de contabilidad de gestión de proyectos** y, a continuación, haga clic en la pestaña **Empresas vinculadas**. La forma en que se configuran los parámetros depende de si usted es la entidad jurídica que recibe el préstamo o la entidad jurídica que otorga el préstamo.

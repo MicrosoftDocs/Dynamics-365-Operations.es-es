@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Esta característica forma parte de una versión de destino y solo está disponible para los usuarios que han optado por participar en el programa de beneficios de actualización automática continua (CAAP). Esta característica se incluirá en una próxima versión de disponibilidad general. Para obtener más información acerca de las versiones estándar y de destino, consulte [Versiones estándar y de destino de la plataforma](../../fin-and-ops/get-started/public-preview-releases.md).

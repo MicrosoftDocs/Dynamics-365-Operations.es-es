@@ -1,7 +1,7 @@
 ---
 title: "Métodos de pago"
 description: "Al configurar el sistema, se deben configurar todos los tipos de pago que acepte un minorista. Este artículo describe los tipos de pago que puede configurar y describe el proceso para configurarlos."
-author: MargoC
+author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

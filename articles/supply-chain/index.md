@@ -3,7 +3,7 @@ title: "Página de inicio de gestión de la cadena de suministro"
 description: "En este tema, se proporciona una lista de temas de ayuda y otros recursos para las características de administración de la cadena de suministro de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/10/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 98008b494f675209949afd961e3cd06dfdc9ec9a
-ms.openlocfilehash: 81a5d21233f12e7c26f0cce6a6c05fefde2ca7dd
+ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
+ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
 ms.contentlocale: es-es
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/22/2018
 
 ---
 
@@ -52,7 +52,10 @@ Seleccione un área de características para obtener más información al respec
 
 ## <a name="videos"></a>Vídeos
 
-### <a name="get-started"></a>Introducción  
+Estos vídeos breves le ayudarán a descubrir las nuevas características incluidas en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (diciembre de 2017).
+
+-  [Integración de cliente potencial a cliente](https://youtu.be/AVV9x5x-XCg) 
+-  [Asesor de optimización](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 
 Estos vídeos breves le ayudarán a descubrir las nuevas características incluidas en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julio de 2017).
 
@@ -62,8 +65,7 @@ Estos vídeos breves le ayudarán a descubrir las nuevas características inclui
 -  [Aprobar pedidos de compra en dispositivos móviles](https://youtu.be/gZ-gOlJe7H8)
 -  [Programación visual con el gráfico de Gantt para pedidos de producción y lote](https://youtu.be/BtbuShkGj4I)
 
-### <a name="tech-conference-recordings"></a>Grabaciones de conferencias técnicas
-La mayoría de estas grabaciones describen la funcionalidad de los productos de la versión anterior de Finance and Operations, pero aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son similares. 
+Estas grabaciones de conferencia técnica describen la funcionalidad de los productos de la versión anterior de Finance and Operations, pero aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son similares. 
 
 -  <a href="https://youtu.be/zotrj3SbCl4">Configurador de productos en Microsoft Dynamics AX</a>
 -  <a href="https://youtu.be/7v8BPmEs9Dg">Planificación maestra: trucos y sugerencias para solucionar problemas de rendimiento</a>

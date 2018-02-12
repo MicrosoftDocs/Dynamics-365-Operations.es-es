@@ -114,6 +114,7 @@
 #### [Personalización: superposiciones y extensiones](extensibility/customization-overlayering-extensions.md)
 ### Novedades
 #### [La extensibilidad cambia en julio de 2017](extensibility/changes-july-2017.md)
+#### [Cambios de extensibilidad en Dynamics 365 for Finance and Operations, Enterprise Edition 7.3](extensibility/extensibility-changes-73.md)
 ### Conceptos fundamentales
 #### [Personalizaciones intrusivas](extensibility/intrusive-customizations.md)
 #### [Extensiones de clase](extensibility/class-extensions.md)
@@ -138,6 +139,11 @@
 #### [Modificar las propiedades de un control de formulario](extensibility/modify-control-properties.md)
 #### [Cambiar una etiqueta](extensibility/change-label.md)
 #### [Extender el ámbito de secuencia numérica](extensibility/extend-number-sequence-scope.md)
+#### [Agregar una nueva dimensión de inventario](extensibility/inventory-dimensions.md)
+#### [Cambios de extensibilidad de precios y descuentos](extensibility/pricing-app73.md)
+#### [Extensión de asignación de tabla](extensibility/map-extensions.md)
+#### [Extensión de asignaciones de tabla usadas como interfaces](extensibility/maps-as-interfaces.md)
+#### [Extensión de asignaciones de tabla para control de versiones](extensibility/maps-with-versioning.md)
 
 
 
@@ -523,16 +529,16 @@
 
 # [Actualización y migración](migration-upgrade/upgrade-home-page.md)
 ## [Actualizar de AX 2012 a Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
-### [Analizar: usar la herramienta de analizador de actualización para planificar la actualización](migration-upgrade/upgrade-analyzer-tool.md)
-### [Analizar: usar el servicio de actualización de código para calcular el esfuerzo que implica actualizar el código](migration-upgrade/analyze-code-upgrade.md)
-### [Analizar: implementar un entorno de espacio aislado](migration-upgrade/analysis-sandbox.md)
-### [Actualizar: actualización de datos en un entorno de desarrollo](migration-upgrade/data-upgrade-2012.md)
-### [Actualizar: tareas de actualización de datos de AX 2012](migration-upgrade/prepare-data-upgrade.md)
-### [Actualizar: actualización de datos en un entorno aislado](migration-upgrade/upgrade-data-sandbox.md)
-### [Validar: prueba de transferencia](migration-upgrade/upgrade-cutover-testing.md)
-### [Validar: tareas para realizar tras la actualización](migration-upgrade/app-validation-process.md)
-### [Validar: prueba de funcionamiento](migration-upgrade/upgrade-functional-validation.md)
-### [Validar: prepararse para el lanzamiento](migration-upgrade/upgrade-go-live-prep.md)
+### [Actualización de AX 2012: usar la herramienta de analizador de actualización para planificarla](migration-upgrade/upgrade-analyzer-tool.md)
+### [Actualización de AX 2012: usar el servicio de actualización de código para calcular el esfuerzo](migration-upgrade/analyze-code-upgrade.md)
+### [Actualización de AX 2012: implementar un entorno de espacio aislado](migration-upgrade/analysis-sandbox.md)
+### [Actualización de AX 2012: actualización de datos en un entorno de desarrollo](migration-upgrade/data-upgrade-2012.md)
+### [Actualización de AX 2012: tareas de actualización de datos de AX 2012](migration-upgrade/prepare-data-upgrade.md)
+### [Actualización de AX 2012: actualización de datos en un entorno aislado](migration-upgrade/upgrade-data-sandbox.md)
+### [Actualización de AX 2012: prueba de la transferencia de sistema](migration-upgrade/upgrade-cutover-testing.md)
+### [Actualización de AX 2012: tareas tras la actualización](migration-upgrade/app-validation-process.md)
+### [Actualización de AX 2012: pruebas funcionales](migration-upgrade/upgrade-functional-validation.md)
+### [Actualización de AX 2012: preparación para la publicación](migration-upgrade/upgrade-go-live-prep.md)
 
 
 ### Cambios que afectan a la actualización desde AX 2012
@@ -590,6 +596,8 @@
 ## [Procesamiento por lotes](sysadmin/batch-processing-overview.md)
 ### [Visión general de servidor de procesos por lotes](sysadmin/batch-server-overview.md)
 ### [Crear un trabajo por lotes](sysadmin/tasks/create-batch-job.md)
+
+## [Crear reglas para el asesor de optimización](sysadmin/optimization-advisor.md)
 
 # Lifecycle Services
 ## [Visión general de Lifecycle Services](lifecycle-services/lcs.md)

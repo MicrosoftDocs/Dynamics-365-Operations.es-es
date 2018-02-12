@@ -1,4 +1,4 @@
---- 
+---
 title: "Habilitar el proceso de nómina para tiempo y asistencia"
 description: "Este procedimiento muestra cómo habilitar el proceso de nóminas para tiempo y asistencia."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -68,5 +68,4 @@ Este procedimiento muestra cómo habilitar el proceso de nóminas para tiempo y 
 6. Expanda la sección Registro de horas.
 7. Haga clic en Editar.
 8. En el campo Acuerdo de sueldo, especifique o seleccione un valor.
-
 

@@ -34,9 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 Este tema describe cómo cambiar la configuración del idioma en el PDV moderno de venta minorista (MPOS) y el PDV de la nube.
 
-<a name="overview"></a>Visión general
-========
-
+## <a name="overview"></a>Visión general
 Tanto el PDV moderno de venta minorista (MPOS) como el PDV de la nube admiten entornos en los que la configuración del idioma y las traducciones pueden variar entre los ajustes del usuario y los de la tienda. Por ejemplo, la tienda podría estar situada en una región donde el inglés es más común para sus clientes, pero algunos trabajadores prefieren usar la aplicación con traducciones al francés.
 
 ## <a name="data-language"></a>Idioma de los datos

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -43,7 +44,7 @@ Puede asignar, o distribuir, importes monetarios a una o varias cuentas o combin
 
 [![Proceso empresarial](./media/GL-process.PNG)](./media/GL-process.PNG)
 
-# <a name="sales-tax"></a>Impuestos
+## <a name="sales-tax"></a>Impuestos
 Las empresas cobran y pagan impuestos a diversas autoridades fiscales. Las reglas y los porcentajes varían en función del país o región, la comunidad autónoma, la provincia y la ciudad.
 Además, las reglas se deben actualizar periódicamente cuando las autoridades fiscales cambien sus requisitos. Los códigos de impuestos contienen información básica acerca de cuánto cobra y paga a las autoridades. Al configurar códigos de impuestos, define los importes o porcentajes que se deben cobrar. También define los distintos métodos que permiten aplicar dichos importes o porcentajes a los importes de la transacción. En los temas de esta sección se proporciona información sobre la configuración de códigos de impuestos para los métodos y los porcentajes que requieren las autoridades fiscales.
 
@@ -52,13 +53,13 @@ Además, las reglas se deben actualizar periódicamente cuando las autoridades f
  - [Pagos de impuestos y reglas de redondeo](round-sales-tax-payments.md)
 
 
-### <a name="additional-resources"></a>Recursos adicionales
+## <a name="additional-resources"></a>Recursos adicionales
 
-#### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
+### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
 Consulte [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) (Guía básica de Microsoft Dynamics 365) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo. 
 
-#### <a name="blogs"></a>Blogs
+### <a name="blogs"></a>Blogs
 
 Puede encontrar opiniones, noticias y otra información sobre Proveedores y otras soluciones en el [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
@@ -66,10 +67,10 @@ Hay muchas publicaciones sobre el libro de contabilidad general en el [blog del 
 
 El [blog de la comunidad Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de MBS Operations.
 
-#### <a name="task-guides"></a>Guías de tareas
+### <a name="task-guides"></a>Guías de tareas
 Hay ayuda adicional disponible como guías de tareas en Finance and Operations. Para tener acceso a las guías de tareas, haga clic en el botón Ayuda en cualquier página.
 
-#### <a name="videos"></a>Vídeos
+### <a name="videos"></a>Vídeos
 
 Consulte los vídeos de procedimientos que se encuentran ahora disponibles en el [canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 

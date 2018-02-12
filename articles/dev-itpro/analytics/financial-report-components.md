@@ -1,7 +1,7 @@
 ---
 title: Componentes de los informes financieros
 description: "En este artículo se describe cómo se utilizan los componentes o bloques de creación, de las definiciones de informe en los informes financieros. Estos bloques de creación incluyen definiciones de filas, definiciones de columnas y definiciones de organigramas. El artículo explica cómo organizar y bloquear bloques de creación y cómo trabajar con grupos de bloques de creación."
-author: aolson
+author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
@@ -112,7 +112,7 @@ Cuando abre un bloque de creación, otros usuarios tienen acceso de solo lectura
 3.  Seleccione un bloque de creación y haga clic en **Deshacer desprotección**.
 4.  Haga clic en **Sí** para proteger el bloque de creación.
 
-# <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Informes financieros](financial-reporting-intro.md)
 

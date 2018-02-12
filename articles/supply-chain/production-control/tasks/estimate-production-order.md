@@ -1,4 +1,4 @@
---- 
+---
 title: "Calcular un pedido de producción"
 description: "Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -42,5 +42,4 @@ Puede ejecutar este procedimiento con los datos de la empresa de demostración U
 1. En el panel de acciones, haga clic en Gestionar costes.
 2. Haga clic en Ver detalles de cálculo.
     * Esta página muestra el análisis de costes. Por ejemplo, puede ver el precio de coste total por unidad para el producto terminado en la primera fila. Las filas posteriores contienen costes según la lista de materiales, la ruta de producción y los costes indirectos.  
-
 

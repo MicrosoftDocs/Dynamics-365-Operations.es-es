@@ -1,7 +1,7 @@
 --- 
 title: "Liberar un producto o un producto maestro a otras entidades jurídicas"
 description: "Este procedimiento le muestra cómo liberar un producto o a un producto maestro en una o más entidades jurídicas."
-author: josaw1
+author: BibiSp
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process

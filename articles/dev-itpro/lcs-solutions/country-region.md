@@ -8,6 +8,7 @@ ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
-ms.openlocfilehash: 9322b970eea9ab5ac01ae8461285b4dbcc1624a3
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
 ms.contentlocale: es-es
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
@@ -110,7 +111,7 @@ Las siguientes secciones muestran una lista de recursos por país o región.
 -   [Importar y comprobar documentos NF-e XML y archivos DANFE](../../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
 -   [Importar documentos fiscales](../../financials/localizations/latam-bra-import-fiscal-documents.md)
 -   [Diarios generados durante el proceso de devolución de pago electrónico](../../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md)
--   [Proceso Nota Fiscal Electrónica (NF-e)](../../financials/localizations/latam-bra-nf-e-process.md)
+-   [Proceso (NF-e)](../../financials/localizations/latam-bra-nf-e-process.md)
 -   [Parámetros para las entidades jurídicas](../../financials/localizations/latam-bra-legal-entity-parameters.md)
 -   [Procesar remesas de pago electrónico para Brasil](../../financials/localizations/latam-bra-process-electronic-payment-remittances.md)
 -   [Documento fiscal complementario de compra](../../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md)
@@ -275,6 +276,8 @@ Las siguientes secciones muestran una lista de recursos por país o región.
 
 ### <a name="norway"></a>Noruega
 
+-   [Cajas registradoras para Noruega](../../retail/localizations/emea-nor-cash-registers.md)
+-   [Directrices de implementación de cajas registradoras para Noruega](../../retail/localizations/emea-nor-loc-deployment-guidelines.md)
 -   [Formato de importaciones netas](../../financials/localizations/emea-nor-nets-import-format.md)
 -   [Extracto de IVA](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
 
