@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetRevaluationGroup, AssetBookTable
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,10 +18,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8b84ea1bdd218aa8a68e52507b661642a7dc4ba9
+ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
+ms.openlocfilehash: 123206cad51a328bfea00dc114fa6829314128aa
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/14/2018
 
 ---
 
@@ -60,7 +61,7 @@ ms.lasthandoff: 11/03/2017
 </tr>
 <tr class="odd">
 <td><span data-ttu-id="e6c33-123"><strong>Factor</strong></span><span class="sxs-lookup"><span data-stu-id="e6c33-123"><strong>Factor</strong></span></span></td>
-<td><span data-ttu-id="e6c33-124">Especificar el factor y el precio de adquisición que determina la propuesta de revalorización del activo fijo.</span><span class="sxs-lookup"><span data-stu-id="e6c33-124">Enter the factor and the acquisition price that determines the revaluation proposal for the fixed asset.</span></span> <span data-ttu-id="e6c33-125">Por ejemplo, supongamos que el importe de la adquisición es de 100.000.</span><span class="sxs-lookup"><span data-stu-id="e6c33-125">For example, suppose the acquisition amount was 100,000.</span></span> <span data-ttu-id="e6c33-126">Con la ecuación <em>Importe de la adquisición - (importe de adquisición * factor)</em>, la siguiente tabla muestra el resultado de distintos factores.</span><span class="sxs-lookup"><span data-stu-id="e6c33-126">Using the equation <em>Acquisition amount - (Acquisition amount * factor),</em> the following table displays the result of different factors.</span></span>
+<td><span data-ttu-id="e6c33-124">Especificar el factor y el precio de adquisición que determina la propuesta de revalorización del activo fijo.</span><span class="sxs-lookup"><span data-stu-id="e6c33-124">Enter the factor and the acquisition price that determines the revaluation proposal for the fixed asset.</span></span> <span data-ttu-id="e6c33-125">Por ejemplo, supongamos que el importe de la adquisición es de 100.000.</span><span class="sxs-lookup"><span data-stu-id="e6c33-125">For example, suppose the acquisition amount was 100,000.</span></span> <span data-ttu-id="e6c33-126">Con la ecuación <em>Importe de la adquisición - (importe de adquisición \* factor)</em>, la siguiente tabla muestra el resultado de distintos factores.</span><span class="sxs-lookup"><span data-stu-id="e6c33-126">Using the equation <em>Acquisition amount - (Acquisition amount \* factor),</em> the following table displays the result of different factors.</span></span>
 <table>
 <tbody>
 <tr class="odd">
@@ -70,17 +71,17 @@ ms.lasthandoff: 11/03/2017
 </tr>
 <tr class="even">
 <td><span data-ttu-id="e6c33-130">1</span><span class="sxs-lookup"><span data-stu-id="e6c33-130">1</span></span></td>
-<td><span data-ttu-id="e6c33-131">100.000 - (100.000 * 1)</span><span class="sxs-lookup"><span data-stu-id="e6c33-131">100,000 - (100,000 * 1)</span></span></td>
+<td><span data-ttu-id="e6c33-131">100.000 - (100.000 \* 1)</span><span class="sxs-lookup"><span data-stu-id="e6c33-131">100,000 - (100,000 \* 1)</span></span></td>
 <td><span data-ttu-id="e6c33-132">Sin transacción</span><span class="sxs-lookup"><span data-stu-id="e6c33-132">No transaction</span></span></td>
 </tr>
 <tr class="odd">
 <td><span data-ttu-id="e6c33-133">10</span><span class="sxs-lookup"><span data-stu-id="e6c33-133">10</span></span></td>
-<td><span data-ttu-id="e6c33-134">100.000 - (100.000 * 10)</span><span class="sxs-lookup"><span data-stu-id="e6c33-134">100,000 - (100,000 * 10)</span></span></td>
+<td><span data-ttu-id="e6c33-134">100.000 - (100.000 \* 10)</span><span class="sxs-lookup"><span data-stu-id="e6c33-134">100,000 - (100,000 \* 10)</span></span></td>
 <td><span data-ttu-id="e6c33-135">Débito 900.000</span><span class="sxs-lookup"><span data-stu-id="e6c33-135">900,000 Debit</span></span></td>
 </tr>
 <tr class="even">
 <td><span data-ttu-id="e6c33-136">0.5</span><span class="sxs-lookup"><span data-stu-id="e6c33-136">0.5</span></span></td>
-<td><span data-ttu-id="e6c33-137">100.000 - (100.000 * 0,5)</span><span class="sxs-lookup"><span data-stu-id="e6c33-137">100,000 - (100,000 * 0.5)</span></span></td>
+<td><span data-ttu-id="e6c33-137">100.000 - (100.000 \* 0,5)</span><span class="sxs-lookup"><span data-stu-id="e6c33-137">100,000 - (100,000 \* 0.5)</span></span></td>
 <td><span data-ttu-id="e6c33-138">Crédito 50.000</span><span class="sxs-lookup"><span data-stu-id="e6c33-138">50,000 Credit</span></span></td>
 </tr>
 </tbody>
