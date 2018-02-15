@@ -1,6 +1,6 @@
 ---
 title: "Impuesto condicional para pagarés o letras de cambio protestados"
-description: "Para las entidades jurídicas en España, si un pago de pagaré para un proveedor o un pago de letra de cambio para un cliente se liquida contra una factura que incluye impuestos condicionales, y se protesta el acuerdo, la cancelación del impuesto se registra con un comprobante relacionado con el asiento de la cancelación del acuerdo."
+description: "Este tema proporciona información acerca de los pagarés o letras de cambio para las entidades jurídicas en España."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2017
@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BankBillOfExchangeTable, BankPromissoryNoteTable
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,10 +18,10 @@ ms.author: v-elgolu
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3478ccfe1e03e23395e6dfa687e9cb43b3e2eda3
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: c95353eb4c580da08214770fa556ae0bf12c61de
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 

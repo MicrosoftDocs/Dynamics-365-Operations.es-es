@@ -1,9 +1,9 @@
 --- 
-title: "Crear informes en formatos de Microsoft Office con imágenes insertadas para informes electrónicos (ER) (Parte 1)"
-description: "En los pasos siguientes se explica cómo un usuario con rol de \"Administrador de sistema\" o \"Desarrollador de informes electrónicos\" puede diseñar configuraciones de informe electrónico (ER) para generar documentos electrónicos en formatos de MS Office (Excel y Word) que contienen imágenes incrustadas."
+title: "Configuraciones de diseño para generar informes en formatos de Microsoft Office con imágenes insertadas para informes electrónicos (ER) (Parte 1)"
+description: "Los pasos de este tema proporcionan información sobre cómo diseñar las configuraciones de informes electrónicos (ER) que generen documentos electrónicos en formatos de Microsoft Office (Excel y Word) que contienen imágenes incrustadas."
 author: NickSelin
 manager: AnnBe
-ms.date: 06/13/2017
+ms.date: 01/23/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,108 +16,79 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: f610fe4b7f265c4fc38db89938d5c208b4f7661a
+ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
+ms.openlocfilehash: 844d8de1d5a1958457eaab1d434bef015f92e33c
 ms.contentlocale: es-es
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 01/23/2018
 
 ---
-# <a name="make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er--part-1"></a>Crear informes en formatos de Microsoft Office con imágenes insertadas para informes electrónicos (ER) (Parte 1) 
+# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er-part-1"></a>Configuraciones de diseño para generar informes en formatos de Microsoft Office con imágenes insertadas para informes electrónicos (ER) (Parte 1) 
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-En los pasos siguientes se explica cómo un usuario con rol de "Administrador de sistema" o "Desarrollador de informes electrónicos" puede diseñar configuraciones de informe electrónico (ER) para generar documentos electrónicos en formatos de MS Office (Excel y Word) que contienen imágenes incrustadas.
+Para completar los pasos de este procedimiento, primero complete el procedimiento, "ER: Crear un proveedor de configuraciones y marcarlo como activo". Este procedimiento explica cómo diseñar las configuraciones de informes electrónicos (ER) para generar documentos de Microsoft Excel o Word que contienen imágenes incrustadas. En este procedimiento, creará las configuraciones de ER necesarias para la empresa de ejemplo, Litware, Inc. Estos pasos se pueden completar mediante el conjunto de datos de USMF. Este procedimiento se ha creado para los usuarios con los roles Administrador del sistema o Desarrollador de informes electrónicos asignados. Antes de empezar, descargue y guarde los archivos que aparecen en el tema de Ayuda [Insertar imágenes y formas en documentos empresariales que se generan mediante la herramienta de informes electrónicos](../electronic-reporting-embed-images-shapes.md). Los archivos son: modelo Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png y Cheque template Word.docx.
 
-En este ejemplo, usará configuraciones de ER creadas para una empresa de ejemplo "Litware, Inc".  Para completar estos pasos, primero debe completar los pasos de la guía de tareas "ER crea informes en los formatos de MS Office con imágenes incrustadas (Parte 2: Revisar configuraciones)”. Estos pasos se pueden llevar a cabo en la empresa "USMF".
+## <a name="verify-prerequisites"></a>Comprobar los requisitos previos  
+ 1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.  
+ 2. Asegúrese de que el proveedor de configuración de la empresa de ejemplo “Litware, Inc.” está disponible y marcado como Activo. Si no ve a este proveedor de configuración, complete los pasos del procedimiento "Creación de un proveedor de configuración y marcarlo como activo".   
+ 3. Haga clic en Configuraciones de informes.  
+ 
+## <a name="add-a-new-er-model-configuration"></a>Añada una nueva configuración para el modelo ER  
+ 1. En lugar de crear un nuevo modelo, puede cargar el archivo de configuración del modelo de ER (modelo para cheques.xml) que se guardó anteriormente. Este archivo contiene el modelo de datos de ejemplo para los cheques de pago y la asignación de modelo de datos a los componentes de datos de la aplicación Dynamics 365 for Operations.   
+ 2. En las versiones de ficha desplegable, haga clic en Exchange.   
+ 3. Haga clic en Cargar desde un archivo XML.  
+ 4. Haga clic en Examinar, y seleccione el modelo para cheques.xml.   
+ 5. Haga clic en Aceptar  
+ 6. El modelo cargado se utilizará como origen de datos de la información para generar documentos que contengan imágenes en Excel y Word.  
 
+## <a name="add-a-new-er-format-configuration"></a>Añada una nueva configuración para el formato de ER  
+ 1. En lugar de crear un nuevo formato, puede cargar el archivo de configuración del formato de ER (formato de impresión de cheques .xml) que guardó anteriormente. Este archivo contiene el diseño de ejemplo de formato para imprimir cheques utilizando el formulario preimpreso y la asignación de este formato al modelo de datos “modelo para cheques”.   
+ 2. Haga clic en Intercambiar.  
+ 3. Haga clic en Cargar desde un archivo XML.  
+ 4. Haga clic en Examinar y seleccione el archivo Cheques printing format.xml.   
+ 5. Haga clic en Aceptar  
+ 6. En el árbol, expanda "Modelo para cheques".  
+ 7. En el árbol, seleccione "Modelo para cheques\Formato de impresión de cheques".  
+ 8. El formato cargado se utilizará para generar documentos que contengan imágenes en Excel y Word.   
 
-## <a name="run-format-with-initial-model-mapping"></a>Ejecutar formato con asignación de modelo inicial
-1. Vaya a Gestión de efectivo y de banco > Cuentas bancarias > Cuentas bancarias.
-2. Use un filtro rápido para filtrar por el campo Cuenta bancaria, por el valor ''USMF OPER".
-3. En el panel de acciones, haga clic en Configurar.
-4. Haga clic en Comprobar.
-5. Haga clic en Imprimir prueba.
-    * Ejecute el formato para probar.  
-6. Seleccione Sí en el campo Formato de cheque negociable.
-7. Haga clic en Aceptar
-    * Revise el resultado creado. Tenga en cuenta que el logotipo de la empresa se mostrará en el informe junto con la firma de la persona autorizada. La imagen de firma se obtiene en el campo del tipo de datos “Contenedor” del registro de diseño de cheques que está asociado a la cuenta bancaria seleccionada.  
-8. Expanda la sección Copias.
-9. Haga clic en Editar.
-10. En el campo de marca de agua, introduzca "Imprimir marca de agua como Anulada".
-    * Cambie la configuración del diseño de la marca de agua para mostrar el texto de la marca de agua en la generación de documentos en un elemento de forma de Excel.  
-11. Haga clic en Imprimir prueba.
-12. Haga clic en Aceptar
-    * Revise el resultado creado. Tenga en cuenta que la marca de agua se mostrará en el informe creado de acuerdo a la opción de selección.  
-13. Cierre la página.
-14. En el panel Acción, haga clic en Administrar pagos.
-15. Haga clic en Cheques.
-16. Haga clic en Mostrar filtros.
-17. Aplique los filtros siguientes: escriba un valor de filtro de "381","385","389" en el campo "Número de cheque” con el operador de filtro “es uno de”.
-18. En la lista, marque todas las filas.
-19. Haga clic en Imprimir copia de cheque.
-    * Ejecute el formato para reimprimir los cheques seleccionados.  
-    * Revise el resultado creado. Observe que se han vuelto a imprimir los cheques seleccionados. El logotipo de la empresa y las etiquetas no se imprimen ya que se muestran en el formulario preimpreso.  
+## <a name="configure-er-user-parameters"></a>Configurar los parámetros de usuario de ER  
+ 1. En el panel de acciones, haga clic en Configuraciones.  
+ 2. Haga clic en Parámetros de usuario.  
+ 3. Seleccione Sí en el campo Parámetros de ejecución.  
+  Desconecte el indicador de ejecución de borrador para iniciar la versión de borrador del formato seleccionado en lugar del completado.  
+ 4. Haga clic en Aceptar  
 
-## <a name="modify-the-mapping-of-the-imported-data-model"></a>Modificar la asignación del modelo de datos importado
-1. Cierre la página.
-2. Cierre la página.
-3. Vaya a Administración de la organización > Informes electrónicos > Configuraciones.
-4. En el árbol, seleccione "Modelo para cheques".
-5. Haga clic en Diseñador.
-6. Haga clic en Asignar modelo a origen de datos.
-7. Haga clic en Diseñador.
-    * Cambiaremos el enlace del elemento de la firma del modelo de datos para obtener la imagen de firma a partir del archivo que se ha adjuntado al registro del diseño de cheques que está asociado a la cuenta bancaria seleccionada.  
-8. Desactive Mostrar detalles.
-9. En el árbol, expanda "Diseño".
-10. En el árbol, expanda "Diseño\firma".
-11. En el árbol, seleccione "diseño\firma\imagen = cuentadecheque."<Relaciones".DiseñoChequeBancario.Firma1Bmp'.
-12. En el árbol, expanda "cuentadecheque".
-13. En el árbol, expanda "cuentadecheque\<Relaciones".
-14. En el árbol, expanda "cuentadecheque\<Relaciones\DiseñodeChequeBancario".
-15. En el árbol, expanda "cuentadecheque\<Relaciones\DiseñodeChequeBancario\<Relaciones".
-16. En el árbol, expanda "cuentadecheque\<Relaciones\DiseñodeChequeBancario\<Relaciones\<Documentos'.
-17. En el árbol, seleccione 'cuentadecheque\<Relaciones\DiseñodeChequeBancario\<Relaciones\<Documentos\obtenerContenidodeArchivocomoContenedor()'.
-18. Haga clic en Enlazar.
-19. Haga clic en Guardar.
-20. Cierre la página.
-21. Cierre la página.
-22. Cierre la página.
-23. Cierre la página.
-
-## <a name="run-format-using-the-adjusted-model-mapping"></a>Ejecutar formato con la asignación de modelo ajustado
-1. Vaya a Gestión de efectivo y de banco > Cuentas bancarias > Cuentas bancarias.
-2. Use el filtro rápido para buscar registros. Por ejemplo, filtre por el campo Cuenta bancaria, con un valor de 'USMF OPER'.
-3. En el panel de acciones, haga clic en Configurar.
-4. Haga clic en Comprobar.
-5. Haga clic en Imprimir prueba.
-6. Haga clic en Aceptar
-    * Revise el resultado creado. Tenga en cuenta que la imagen de los datos adjuntos de la gestión de documentos se muestra como la firma de una persona autorizada.  
-
-## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>Use el documento de MS Word como plantilla en el formato importado
-1. Cierre la página.
-2. Cierre la página.
-3. Vaya a Administración de la organización > Informes electrónicos > Configuraciones.
-4. En el árbol, expanda "Modelo para cheques".
-5. En el árbol, seleccione "Modelo para cheques\Formato de impresión de cheques".
-6. Haga clic en Diseñador.
-7. Haga clic en Archivos adjuntos.
-8. Haga clic Eliminar.
-9. Haga clic en Sí.
-10. Haga clic en Nuevo.
-11. Haga clic en Archivo.
-    * Haga clic en Examinar y seleccione el archivo “Cheque template Word.docx" descargado previamente.  
-12. Cierre la página.
-13. En el campo Plantilla, especifique o seleccione un valor.
-14. Haga clic en Guardar.
-15. Cierre la página.
-16. Haga clic en Editar.
-17. Seleccione Sí en el campo Borrador de ejecución.
-18. Cierre la página.
-19. Vaya a Gestión de efectivo y de banco > Cuentas bancarias > Cuentas bancarias.
-20. Use un filtro rápido para filtrar por el campo Cuenta bancaria, por el valor ''USMF OPER".
-21. Haga clic en Comprobar.
-22. Haga clic en Imprimir prueba.
-23. Haga clic en Aceptar
-    * Revise el resultado creado. Tenga en cuenta que el resultado se ha generado como documento de MS Word con las imágenes incrustadas que presentan el logotipo de la empresa, la firma de una persona autorizada y el texto seleccionado de la marca de agua.  
-
+## <a name="configure-cash--bank-management-parameters"></a>Configure los parámetros de administración de efectivo y bancos  
+ 1. Vaya a Gestión de efectivo y de banco > Cuentas bancarias > Cuentas bancarias.  
+ 2. Use un filtro rápido para filtrar por el campo Cuenta bancaria, por el valor ''USMF OPER".  
+ 3. En el panel de acciones, haga clic en Configurar.  
+ 4. Haga clic en Comprobar.  
+ 5. Expanda la sección Configuración.  
+ 6. Haga clic en Editar.  
+ 7. Seleccione Sí en el campo Logotipo de la empresa.  
+ 8. Haga clic en Logotipo de la empresa.  
+ 9. Haga clic en Cambiar.  
+ 10. Haga clic Examinar y seleccione el archivo que ha descargado anteriormente, Company logo.png.   
+ 11. Haga clic en Guardar.  
+ 12. Cierre la página.  
+ 13. Expanda la sección Firma.  
+ 14. Seleccione Sí en el campo Imprimir la primera firma.  
+ 15. Haga clic en Cambiar.  
+ 16. Haga clic Examinar y seleccione el archivo que ha descargado anteriormente, Signature image.png.   
+ 17. Expanda la sección Copias.  
+ 18. En el campo Marca de agua, seleccione una opción.  
+ 19. Seleccione Sí en el campo Formato de exportación electrónica genérica.  
+ 20. Seleccione la configuración "Cheques printing form".  
+ 21. Ahora el formato seleccionado de ER se usará para imprimir los cheques.  
+ 22. Haga clic en Vincular.  
+ 23. Haga clic en Nuevo.  
+ 24. Haga clic en Archivo.  
+ 25. Haga clic Examinar y seleccione el archivo que ha descargado anteriormente, Signature image 2.png.   
+ 26. Cierre la página.  
+ 27. Cierre la página.  
+ 28. Cierre la página.  
+ 29. Vaya a Gestión de efectivo y bancos > Configurar > Parámetros de gestión de efectivo y bancos.  
+ 30. Seleccione Sí en el campo Permitir la creación de validaciones de cuenta en cuentas bancarias inactivas:.  
+ 31. Haga clic en Guardar.  
+ 32. Cierre la página.  
 

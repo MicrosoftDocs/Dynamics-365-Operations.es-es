@@ -3,14 +3,14 @@ title: Planificar su plan de cuentas
 description: "Este artículo proporciona información que le ayudará a planificar el plan de cuenta para su organización."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 01/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 038886f0a6e1c133a33ee34725eb20352e64341a
+ms.sourcegitcommit: ad55dd57483de4351c8501c5e226180fc73606aa
+ms.openlocfilehash: 3d2cdeaf2fdeb2f587f82c97249886fb8db49154
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/11/2018
 
 ---
 
@@ -45,12 +45,12 @@ Estos son algunos de los factores que se deben tener en cuenta la hora de planif
 -   Los requisitos de informes de la entidad jurídica
 -   El grado de especificación necesario, para las organizaciones externas y para la propia.
 
-Cree el plan de cuentas en la página **Plan de cuentas**. Las cuentas principales se pueden crear desde la página **Plan de cuentas** o la página **Cuentas principales**. Sus cuentas principales no deben usar ninguno de los caracteres especiales que se usan como delimitadores en los planes de cuentas. Si hay un carácter especial igual al delimitador del plan de cuentas, puede haber inestabilidad o puede ser necesario usar siempre búsquedas o elementos emergentes al especificar las combinaciones de las combinaciones y las cuentas. Para obtener más información, consulte [Crear una cuenta principal](tasks/create-account-structures.md).
+Cree el plan de cuentas en la página **Plan de cuentas**. Las cuentas principales se pueden crear desde la página **Plan de cuentas** o la página **Cuentas principales**. Sus cuentas principales no deben usar ninguno de los caracteres especiales que se usan como delimitadores en los planes de cuentas. Si hay un carácter especial igual al delimitador del plan de cuentas, puede haber inestabilidad o puede ser necesario usar siempre búsquedas o elementos emergentes al especificar las combinaciones de las combinaciones y las cuentas. Para obtener más información, consulte [Crear una cuenta principal](tasks/create-main-account.md).
 
 
 Conviene vincular cuentas principales a categorías de cuenta principal, de modo que pueda aprovecharse la ventaja de usar los informes financieros predeterminados sin tener que realizar ninguna modificación. Por lo tanto, puede diseñar y mantener más rápida y fácilmente los informes. 
 
-Use la página **Configurar estructuras contables** para crear estructuras contables. Las estructuras contables definen combinaciones válidas. Las combinaciones, junto con las cuentas principales, forman el plan contable.  Para obtener más información, consulte [Crear una estructura contable](tasks/create-main-account.md).
+Use la página **Configurar estructuras contables** para crear estructuras contables. Las estructuras contables definen combinaciones válidas. Las combinaciones, junto con las cuentas principales, forman el plan contable.  Para obtener más información, consulte [Crear una estructura contable](tasks/create-account-structures.md).
 
 **Anulaciones de entidad jurídica** 
 

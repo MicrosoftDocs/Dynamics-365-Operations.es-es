@@ -6,19 +6,22 @@ manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
-ms.search.scope: 
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
+ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: bb4d8fae432eca7fe9163dcb0763fff5c8d465f0
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 2fa843aee8927a1cb4f642c31d6f5683098d3c74
 ms.contentlocale: es-es
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -49,9 +52,9 @@ A nivel de almacén, una opción de configuración está disponible para determi
 
 De manera predeterminada, las líneas de pedido asignadas a un almacén se marcan como **Aceptado**. Esto significa que se asume que se cumplirán desde el almacén asignado y que no estarán sujetas a más asignaciones. En algunos casos, los minoristas pueden querer aceptar pedidos manualmente antes de que se puedan cumplir. Por ejemplo, si un almacén está corto de personal y no puede cumplir pedidos, un encargado de almacén aceptará sólo tantos pedidos para procesar como sienta que se puedan procesar adecuadamente en un día determinado. Hasta que un pedido sea aceptado, puede ser reasignado por back office a otro almacén. De esta manera, la aceptación de pedidos también proporciona una forma de indicar que el pedido se ha confirmado por un almacén y que se cumplirá. 
 
-Las líneas de pedido para la recogida del almacén se marcan siempre como **Pendiente** y no están sujetas a aceptación.
+Las líneas de pedido para la recogida del almacén se marcan como **Pendiente** y no están sujetas a aceptación.
 
-Para activar la aceptación manual de las líneas de pedido, desplácese a **Retail** > **Canales** > **Almacenes al por menor** > **Todos los almacenes al por menor**. Seleccione el almacén y haga clic en el identificador del almacén para ver los detalles del almacén. Haga clic en **Editar**. En la ficha desplegable **General**, busque el subtítulo **Cumplimiento del pedido** y modifique **Aceptación manual** de **No** a **Sí**. 
+Para activar la aceptación manual de líneas de pedido, desplácese a **Retail** > **Canales** > **Almacenes al por menor** > **Todos los almacenes al por menor**. Seleccione el almacén y haga clic en el identificador del almacén para ver los detalles del almacén. Haga clic en **Editar**. En la ficha desplegable **General**, busque el subtítulo **Cumplimiento del pedido** y modifique **Aceptación manual** de **No** a **Sí**. 
 
 ### <a name="enable-reject-order-line-capability"></a>Habilitar la capacidad de rechazar una la línea de pedido
 
@@ -114,7 +117,7 @@ De forma predeterminada, los pedidos tendrán estado **Aceptado**. El estado del
 
 **Empaquetar** - La opción de embalaje admite dos acciones: **Imprimir albarán** imprimirá un albarán para las líneas seleccionadas y **Marcar como empaquetado** marcará las líneas como empaquetadas y marcará las líneas como entregadas en back-office. Sólo las líneas de pedido que pertenecen al mismo pedido y tienen el mismo modo de entrega se pueden empaquetar al mismo tiempo. Los formatos de albarán se controlan como parte de formatos de recibo. Para obtener más información sobre cómo configurar formatos de recibo, consulte [Plantillas e impresión de recibos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/receipt-templates-printing).
 
-**Envíar** - La acción de envío marca las líneas seleccionadas como **Entregado** en back-office. Después de que la línea se haya enviado completamente, no aparecerá en la vista de cumplimiento del almacén.
+**Envíar** - La acción de envío marca las líneas seleccionadas como **Entregado** en back-office. Después de que la línea se haya enviado completamente, no aparecerá en la vista de cumplimiento de pedidos.
 
 **Recogida** - La acción de recogida agregar líneas a la vista de la transacción para la recogida. Si hay otras líneas en el pedido que no se están actualmente siendo recogidas, se agregarán a la vista de la transacción con la cantidad cero. Después de que la línea se haya recogido completamente, no aparecerá en la vista de cumplimiento de pedido. 
 

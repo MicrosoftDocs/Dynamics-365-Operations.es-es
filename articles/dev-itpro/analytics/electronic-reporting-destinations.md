@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 211442c7bd0d3079a5eb4f6d01944c0eddf533af
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: cbe0374ff21ff39ed2bbc8d647bd933ced9dcff6
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -52,7 +52,7 @@ Después de haber creado una referencia, puede crear un destino de archivo para 
 
 [![Crear un archivo de destino](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-**Nota:** Puede crear un destino de archivo para cada componente de salida del mismo formato, como una carpeta o un archivo que está seleccionado en el campo **Nombre de archivo**. A continuación, puede habilitar y deshabilitar destinos individuales para el destino de archivo en el cuadro de diálogo **Configuración de destino**. El botón **Configuración** se utiliza para controlar todos los destinos para un destino de archivo seleccionado. En el cuadro de diálogo **Configuración de destino**, puede controlar por separado cada destino estableciendo la opción **Habilitado** para él.
+> ![NOTA] Puede crear un destino de archivo para cada componente de salida del mismo formato, como una carpeta o un archivo que está seleccionado en el campo **Nombre de archivo**. A continuación, puede habilitar y deshabilitar destinos individuales para el destino de archivo en el cuadro de diálogo **Configuración de destino**. El botón **Configuración** se utiliza para controlar todos los destinos para un destino de archivo seleccionado. En el cuadro de diálogo **Configuración de destino**, puede controlar por separado cada destino estableciendo la opción **Habilitado** para él.
 
 [![Cuadro de diálogo Configuración de destino](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
 
@@ -131,7 +131,7 @@ Se utilizan dos tipos de privilegios y deberes para destinos de ER. Un tipo cont
 | PaymAccountsPayablePaymentsClerk    | Funcionario de pagos de proveedores            | ERFormatDestinationRuntimeConfigure | Configurar destino de formato de informes electrónicos durante el tiempo de ejecución |
 | PaymAccountsReceivablePaymentsClerk | Funcionario de pagos de clientes         | ERFormatDestinationRuntimeConfigure | Configurar destino de formato de informes electrónicos durante el tiempo de ejecución |
 
-**Nota:** Se utilizan dos privilegios en las tareas anteriores. Estos privilegios tienen los mismos nombres que los deberes correspondientes: **ERFormatDestinationConfigure** y **ERFormatDestinationRuntimeConfigure**.
+> ![NOTA] Se utilizan dos privilegios en las tareas anteriores. Estos privilegios tienen los mismos nombres que los deberes correspondientes: **ERFormatDestinationConfigure** y **ERFormatDestinationRuntimeConfigure**.
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 ### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>He importado configuraciones electrónicas y las veo en la página Configuraciones de informes electrónicos. Pero, ¿por qué no las veo en la página Destinos de informes electrónicos?
@@ -154,7 +154,7 @@ La fórmula es específica de la configuración de ER. Por ejemplo, si utiliza l
 
 El requisito previo es que el formato debe estar disponible en las configuraciones de ER. Si tiene su formato, abra la página **Destino de informes electrónicos** y cree una nueva referencia a esta configuración. A continuación, debe tener cuatro destinos de archivos, uno para cada componente de salida. Crear el primer destino de archivo, asígnele un nombre como **Carpeta** y seleccione un nombre de archivo que represente una carpeta en su configuración. A continuación, haga clic en **Configuración** y asegúrese de que todos los destinos están deshabilitados. Para este destino de archivo, no se creará la carpeta. De forma predeterminada, debido a las dependencias jerárquicas entre archivos y carpetas principales, los archivos se comportarán de la misma manera. En otras palabras, no se enviará a ningún lugar. Para anular ese comportamiento predeterminado, debe crear tres destinos de archivos más, uno para cada archivo. En la configuración de destino de cada uno, debe habilitar el destino al que se debe enviar el archivo.
 
-# <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Visión general de los informes electrónicos](general-electronic-reporting.md)
 

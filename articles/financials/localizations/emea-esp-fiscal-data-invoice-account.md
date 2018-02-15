@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustParameters, VendParameters
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,10 +18,10 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d49c053b6c773c7680f4a4fb20057384c6fea001
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: f39e4d8e2e808337184c8fe9af6f8aad00f27d0e
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
@@ -39,7 +40,7 @@ Para las entidades jurídicas en España, la funcionalidad Usar datos fiscales d
 -   Ventas y marketing
 
 ## <a name="accounts-payable-and-procurement-and-sourcing"></a>Proveedores y Adquisición y abastecimiento
-Para gestionar la oportunidad de actualización automática de datos fiscales en cambio de cuenta de facturación del módulo Proveedores, debe configurar un parámetro Usar datos fiscales de cuenta de factura en la ficha Factura de la página Proveedores &gt; Configurar &gt; Proveedores &gt; parámetros. Están disponibles las siguientes opciones:
+Para gestionar la oportunidad de actualización automática de datos fiscales en cambio de cuenta de facturación del módulo Proveedores, debe configurar un parámetro Usar datos fiscales de cuenta de factura en la ficha Factura de la página **Parámetros de proveedores**. Las opciones siguientes están disponibles:
 
 -   **Nunca**: la información se acualiza desde la cuenta del proveedor.
 -   **Siempre**: la información se acualiza desde la cuenta de facturación.
@@ -52,7 +53,7 @@ Cuando se define el parámetro **Usar datos fiscales de cuenta de factura**, pue
 -   Exención fiscal
 
 ## <a name="accounts-receivable-and-sales-and-marketing"></a>Clientes, ventas y marketing
-Para gestionar la oportunidad de actualización automática de datos fiscales en cambio de **Cuenta de facturación** del módulo **Proveedores**, debe configurar un parámetro "**Usar datos fiscales de cuenta de factura**" en la ficha desplegable **Factura** de la ficha **Actualizaciones** en la página **Clientes** &gt; **Configurar** &gt; **Proveedores** **parámetros**. Están disponibles las siguientes opciones:
+Para gestionar la oportunidad de actualización automática de datos fiscales en cambio de **Cuenta de facturación** del módulo **Proveedores**, debe configurar un parámetro "**Usar datos fiscales de cuenta de factura**" en la ficha desplegable **Factura** de la ficha **Actualizaciones** en la página **Parámetros de cliente**. Las opciones siguientes están disponibles:
 
 -   **Nunca**: la información se acualiza desde la cuenta del cliente.
 -   **Siempre**: la información se acualiza desde la cuenta de facturación.
