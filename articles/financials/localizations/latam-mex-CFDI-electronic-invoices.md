@@ -19,10 +19,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 14a8d86509cb69f4af226310c6d0e8025482e47e
+ms.sourcegitcommit: 46e2f11e13bce74f36363c60d749196cbf2ee6b5
+ms.openlocfilehash: 9ba72208bd6f5318ebc87563725135d151642a08
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/03/2018
 
 ---
 
@@ -30,6 +30,7 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
+La factura electrónica en México requiere el formato Comprobantes fiscales digitales por internet (CFDI). 
 
 Este artículo proporciona información acerca de las facturas electrónicas que su organización puede enviar a la autoridad fiscal mexicana (SAT). Describe el método aprobado actualmente para enviar facturas electrónicas (CFDI), los requisitos para usarlas y la información que incluyen.
 
@@ -92,6 +93,7 @@ Según se indica en detalle en el documento de ámbito de localización para Mé
 - [Crear y registrar una factura de cliente como factura electrónica mediante el método CFDI.](./tasks/mx-00010-e-invoicing-cfdi.md)
 - [Visualizar, enviar por correo electrónico, exportar o imprimir una factura electrónica CFDI ya generada según la solicitud de un cliente.](./tasks/mx-00010-inquire-print-electronic-invoice.md)
 - [Cancelación de una factura electrónica CFDI](./tasks/mx-00010-cancel-electronic-invoice.md)
+- [Versión CFDI 3.3](latam-mex-cfdi-3-3.md)
 
 
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
-ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 221ce80cb7520f372f38859aa392b1d559448c81
 ms.contentlocale: es-es
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -74,6 +75,11 @@ Finance and Operations, Retail y Talent comparten una sola tabla de contenido en
 
 ### <a name="follow-a-topic"></a>Seguir un tema
 Para realizar el seguimiento de un tema, haga clic en el botón +Seguir bajo el cuadro de comentarios. Deberá iniciar sesión para realizar un seguimiento del tema. Consulte [Déjenos un comentario](#leave-us-a-comment) para obtener más detalles.  
+
+### <a name="use-an-rss-feed"></a>Use una fuente RSS
+Para suscribirse a una fuente RSS de todas las actualizaciones del contenido de Unified Operations, utilice el siguiente enlace de un explorador que admita fuentes RSS, como Internet Explorer, o un gestor de fuentes RSS: 
+
+[Fuente RSS](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="give-feedback"></a>Proporcionar retroalimentación 
 Nos encantan los comentarios de los clientes. Puede comentar o sugerir cambios en nuestro contenido con GitHub.

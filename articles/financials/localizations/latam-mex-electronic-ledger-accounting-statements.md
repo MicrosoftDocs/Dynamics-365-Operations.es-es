@@ -3,7 +3,7 @@ title: "Extractos electrónicos de cuenta contable"
 description: "Este artículo explica cómo configurar y generar la versión 1.1 de los archivos XML de contabilidad general que todas las empresas de México debe presentar a las autoridades fiscales mexicanas (SAT) de manera mensual."
 author: sndray
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bb30a40cf5b389efd74bed413b3cc2c354f3846e
+ms.sourcegitcommit: 46e2f11e13bce74f36363c60d749196cbf2ee6b5
+ms.openlocfilehash: 67d300bf9dcf08864b652e0e92d45b0c0dcc0ca6
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/03/2018
 
 ---
 
@@ -182,7 +182,9 @@ Haga clic en **Contabilidad general** &gt; **Consulta e informes** &gt; **Inform
 </table>
 
 
+## <a name="additional-resources"></a>Recursos adicionales
 
+- [Versión CFDI 3.3](latam-mex-cfdi-3-3.md)
 
 
 

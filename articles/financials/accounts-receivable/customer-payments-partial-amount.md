@@ -3,11 +3,12 @@ title: Pagos de cliente para un importe parcial
 description: "A veces, los clientes realizan un pago inferior al importe de la factura. Este artículo describe las diferentes opciones para gestionar esta situación. Las opciones disponibles dependen de la configuración y de los requisitos empresariales."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymEntry
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c2ba17b97bf7a00ff111e72314e98f5af7aaed80
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 6b7494a05392cbee70e6d5883bae0295e8b55ac9
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/18/2018
 
 ---
 
@@ -41,7 +42,7 @@ Los clientes pueden realizar un pago parcial porque no dispongan de efectivo dis
 Puede ofrecer a los clientes un descuento por pronto pago al pagar una factura antes de la fecha de vencimiento. Por ejemplo, introduce una factura de 100,00 que especifica un descuento por pronto pago del 2% si se paga en 10 días. La fecha de vencimiento es 30 días. Si recibe un pago de 98,00 en 10 días, especificará el pago de 98,00. Entonces, si la factura está marcada para liquidación, el descuento por pronto pago se realiza automáticamente.
 
 ## <a name="partial-payments-with-cash-discounts"></a>Pagos parciales con descuentos por pronto pago
-Cuando los clientes realizan un pago parcial, pueden planear realizar otro pago parcial adicional para liquidar por completo la factura. Para obtener un descuento por pronto pago para un pago parcial, debe establecer la opción **Calcular descuento por pronto pago** para pagos parciales en **Sí** en la página **Parámetros de clientes**. 
+Cuando los clientes realizan un pago parcial, pueden planear realizar otro pago parcial adicional para liquidar por completo la factura. Para obtener un descuento por pronto pago para un pago parcial, debe establecer la opción **Calcular descuento por pronto pago para pagos parciales** en **Sí** en la página **Parámetros de clientes**. 
 
 Por ejemplo, ofrece un descuento por pronto pago del 2% si la factura se paga en menos de 10 días tras su emisión. Se registra una factura de 100,00. Si recibe un pago de 49,00 en 10 días, especificará un crédito de 49,00 en un diario de pagos. Al liquidar el pago parcial en la página **Liquidar transacciones**, **1,00** aparece en el campo **Importe de descuento por pronto pago para aplicar**. El importe del descuento se registra en una cuenta de descuento por pronto pago. 
 
