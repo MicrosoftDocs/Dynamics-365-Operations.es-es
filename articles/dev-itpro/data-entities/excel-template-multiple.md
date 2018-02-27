@@ -27,6 +27,8 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="excel-templates-with-multiple-worksheets"></a>Plantillas de Excel con varias hojas de cálculo
 
+[!include[banner](../includes/banner.md)]
+
 La administración de datos en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition admite las plantillas basadas en Microsoft Excel para entidades de datos. Estas plantillas pueden contener una o varias hojas de cálculo. Las plantillas con varias hojas de cálculo se utilizan a menudo cuando es conveniente administrar datos en un solo archivo e importarlos a múltiples entidades de datos. Un ejemplo serían sitios y almacenes.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Cargar un archivo una vez y asígnarlo a todas las entidades
