@@ -62,7 +62,7 @@ Los siguientes pasos describen el proceso para crear un campo personalizado y co
 10.   Haga clic en **Insertar** para insertar los campos marcados en la región seleccionada del formulario. 
 11.   **Opcional:** habilite el modo **Mover** de la barra de herramientas de personalización para mover los campos nuevos a su ubicación deseada en la región seleccionada. Consulte [Personalizar la experiencia del usuario](personalize-user-experience.md) para obtener más información sobre cómo usar las diversas capacidades de personalización para optimizar un formulario para su uso personal.  
 
-### <a name="sharing-custom-fields-with-other-users"></a>Compartir campos personalizados con otros usuarios
+## <a name="sharing-custom-fields-with-other-users"></a>Compartir campos personalizados con otros usuarios
 Después de crear un campo personalizado y exponerlo en un formulario, puede que desee proporcionar esta vista de página actualizada que incluye el nuevo campo a otros usuarios en el sistema. Esto se puede realizar de dos formas distintas mediante las capacidades de personalización de producto:
 
 -   La ruta recomendada es a través del administrador del sistema, que puede insertar una personalización a todos los usuarios o un subconjunto de usuarios. Consulte [Personalizar la experiencia del usuario](personalize-user-experience.md) para obtener más detalles. 
