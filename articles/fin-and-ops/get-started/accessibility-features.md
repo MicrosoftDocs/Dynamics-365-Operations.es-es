@@ -25,6 +25,8 @@ ms.lasthandoff: 01/23/2018
 
 # <a name="accessibility-features"></a>Características de accesibilidad
 
+[!include[banner](../includes/banner.md)]
+
 Este tema describe la funcionalidad diseñada para ayudar a que los usuarios que tienen varias discapacidades usen Dynamics 365 for Finance and Operations, Enterprise Edition, Dynamics 365 for Retail y Dynamics 365 for Talent. Por ejemplo, hay características para las personas que usan tecnologías de ayuda a la visión como Microsoft Windows Narrator.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Narrator y acceso solo de teclado
