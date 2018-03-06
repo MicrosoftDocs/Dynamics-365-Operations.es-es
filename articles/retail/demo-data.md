@@ -29,6 +29,8 @@ ms.lasthandoff: 10/17/2017
 
 # <a name="demo-data-screen-layouts-in-mposcpos"></a>Diseños de pantalla de datos de demostración en MPOS/CPOS
 
+[!include[banner](includes/banner.md)]
+
 Este tema proporciona información sobre los diseños de pantalla que se incluyen con el conjunto de datos de demostración para las experiencias de punto de venta (PDV) en Microsoft Dynamics 365 for Retail.
 
 ## <a name="overview"></a>Información general
