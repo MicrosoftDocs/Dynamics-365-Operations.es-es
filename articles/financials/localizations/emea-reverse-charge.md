@@ -16,14 +16,17 @@ ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1019b0f60673e158de1257ba7f5efe77e3a4aaa5
+ms.sourcegitcommit: 6ce0b7b35264c05555d8b3a18e70484202a289d6
+ms.openlocfilehash: 64a9381224ebe9dfeac8a3fab0211937a8df733c
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="reverse-charge-vat"></a><span data-ttu-id="e32bf-103">Cargo invertido</span><span class="sxs-lookup"><span data-stu-id="e32bf-103">Reverse charge VAT</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 <span data-ttu-id="e32bf-104">Este tema describe un enfoque genérico para configurar el impuesto sobre el valor añadido (VAT) de cargo invertido para países europeos.</span><span class="sxs-lookup"><span data-stu-id="e32bf-104">This topic describes a generic approach for setting up the reverse charge value-added tax (VAT) for European countries.</span></span>
 
 <span data-ttu-id="e32bf-105">El cargo invertido es un esquema de impuestos que transfiere la responsabilidad de la contabilidad y notificación del IVA del vendedor al comprador de mercancías o servicios.</span><span class="sxs-lookup"><span data-stu-id="e32bf-105">Reverse Charge is a tax schema that moves the responsibility for the accounting and reporting of VAT from the seller to the buyer of goods and/or services.</span></span> <span data-ttu-id="e32bf-106">Por lo tanto, los destinatarios de mercancías o servicios informan el IVA diferido(en el rol de un vendedor) y el IVA soportado (en el rol de un comprador) en su declaración del IVA.</span><span class="sxs-lookup"><span data-stu-id="e32bf-106">Therefore, recipients of goods and/or services report both the output VAT (in the role of a seller) and the input VAT (in the role of a purchaser) in their VAT statement.</span></span>
