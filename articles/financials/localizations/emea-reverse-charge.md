@@ -24,6 +24,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="reverse-charge-vat"></a>Cargo invertido
+
+[!include[banner](../includes/banner.md)]
+
 Este tema describe un enfoque genérico para configurar el impuesto sobre el valor añadido (VAT) de cargo invertido para países europeos.
 
 El cargo invertido es un esquema de impuestos que transfiere la responsabilidad de la contabilidad y notificación del IVA del vendedor al comprador de mercancías o servicios. Por lo tanto, los destinatarios de mercancías o servicios informan el IVA diferido(en el rol de un vendedor) y el IVA soportado (en el rol de un comprador) en su declaración del IVA.
