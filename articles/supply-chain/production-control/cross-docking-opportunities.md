@@ -28,6 +28,8 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Tránsito directo desde pedidos de producción a muelles de salida
 
+[!include[banner](../includes/banner.md)]
+
 Este tema describe cómo se administra el proceso de material de tránsito directo que se le notifica como terminado desde una línea de producción a un muelle de salida de transporte.
 
 <a name="introduction"></a>Introducción

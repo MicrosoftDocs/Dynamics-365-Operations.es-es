@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a>Generar documentos electrónicos y actualizar los datos de las aplicaciones mediante la herramienta de informes electrónicos
 
+[!include[banner](../includes/banner.md)]
+
 Puede diseñar los formatos de informes electrónicos (ER) que se pueden usar en la aplicación Finance and Operations para generar documentos electrónicos salientes. También puede diseñar formatos de ER que analizan los documentos electrónicos entrantes y usan el contenido en esos documentos para actualizar los datos de la aplicación. 
 
 Con esta funcionalidad, un único formato de ER se puede usar para generar documentos electrónicos salientes y actualizar los datos de la aplicación. Esta función también se puede en las situaciones siguientes:

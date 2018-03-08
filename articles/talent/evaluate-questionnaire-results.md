@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Ver y evaluar los resultados de un cuestionario
 
+[!include[banner](includes/banner.md)]
+
 En este tema se explica cómo se pueden ver y evaluar los resultados de los cuestionarios que los encuestados completan. 
 
 Después de que los encuestados completen un cuestionario, puede ver y evaluar los resultados del mismo de las maneras siguientes:

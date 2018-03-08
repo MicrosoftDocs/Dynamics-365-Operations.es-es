@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="register-material-consumption-using-a-mobile-device"></a>Registrar el material de consumo mediante un dispositivo móvil
+
+[!include[banner](../includes/banner.md)]
+
 Este tema describe un flujo de trabajo que habilita el registro de consumo de materias primas en la producción mediante un dispositivo de mano.
 
 <a name="introduction"></a>Introducción

@@ -25,6 +25,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="expense-management-parameters"></a>Parámetros de gestión de gastos
+
+[!include[banner](../includes/banner.md)]
+
 -----------------------------
 
 Los parámetros controlan el comportamiento general en Gestión de gastos.

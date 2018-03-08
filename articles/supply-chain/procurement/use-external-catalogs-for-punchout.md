@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: PurchTable, PurchVendorPortalRequests
+ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: bis
 ms.search.scope: Core, Operations
@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>Usar catálogos externos para la adquisición electrónica de marcaje de salida
+
+[!include[banner](../includes/banner.md)]
+
 Mediante los catálogos externos para la adquisición electrónica de marcaje de salida, no tiene que mantener información sobre los productos de los proveedores en sus propios datos maestros. En su lugar, el carro de la compra en la página web de un proveedor se convierte en las líneas de la solicitud con la información correcta de producto. 
 
 Debe evitar mantener las descripciones y los precios de los productos de los proveedores en sus propios datos de producto maestro. Es mejor usar catálogos externos para la adquisición electrónica de marcaje de salida. A continuación, cuando los empleados creen solicitudes, pueden consultar el sitio del catálogo externo del proveedor (es decir, salir del sistema y dirigirse al sitio del proveedor). Los productos que se agregan al carro de la compra en la página web del proveedor se pueden convertir a continuación en líneas de solicitud. Por lo tanto, se recopila la información de producto correcta: identificador, nombre, precio y demás datos del producto.

@@ -27,6 +27,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="websearchax-retired"></a>WebSearchAX se retiró
 
+[!include[banner](../includes/banner.md)]
+
 Tuvimos que retirar la página WebSearchAX. Se recomienda que use búsqueda de sitios desde su motor de búsqueda favorito para sustituirla.  Por ejemplo: 
 
 site:technet.microsoft.com dynamics ax 2012 "término de búsqueda"

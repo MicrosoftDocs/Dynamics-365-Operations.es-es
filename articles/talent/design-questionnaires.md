@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="design-a-questionnaire"></a>Diseñar un cuestionario
 
+[!include[banner](includes/banner.md)]
+
 En este tema se describe el proceso de creación de un cuestionario. El primer paso es diseñar el cuestionario. Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas. 
 
 Un cuestionario de cuidado diseño puede ayudarle a aumentar la calidad de los datos recopilados. Con un cuidado diseño, puede seleccionar mejor las opciones adecuadas para un cuestionario en el momento adecuado. Los siguientes puntos pueden ayudarle a planificar un cuestionario efectivo:

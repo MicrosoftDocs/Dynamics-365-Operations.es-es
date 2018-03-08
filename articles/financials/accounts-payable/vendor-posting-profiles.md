@@ -54,10 +54,6 @@ Especifique las cuentas contables que se utilizan en el registro de las transacc
 Si desea que todas las transacciones de proveedores tengan el mismo perfil de contabilización, configure solo un perfil de contabilización con valor Todas en el campo Código de cuenta. Especifique los valores siguientes para configurar su perfil de contabilización:
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Campo</th>

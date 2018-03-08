@@ -26,6 +26,8 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="credit-and-collections-management-power-bi-content"></a>Contenido en Power BI de Administración de créditos y cobros
 
+[!include[banner](../includes/banner.md)]
+
 Este tema describe lo que se incluye en el contenido en Microsoft Power BI de **Administración de créditos y cobros**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="overview"></a>Información general
