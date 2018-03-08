@@ -28,6 +28,8 @@ ms.lasthandoff: 01/19/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Información general de la búsqueda de productos y clientes en un punto de venta
 
+[!include[banner](includes/banner.md)]
+
 El punto de venta moderno (MPDV) y el punto de venta (CPDV) en la nube proporcionan funcionalidades de búsqueda fáciles de usar que permiten que los empleados de las tiendas busquen rápidamente los productos y clientes que necesiten. La barra de búsqueda siempre se muestra en la parte superior del MPDV y el CPDV, de modo que los empleados pueden buscar rápidamente productos y clientes.
 
 Los empleados pueden buscar productos en los surtidos y los catálogos asociados a su propia tienda, y en los surtidos y catálogos asociados a otra tienda de la empresa. Así pues, los cajeros pueden vender y devolver productos que estén fuera del surtido de su tienda. Del mismo modo, los empleados pueden buscar clientes que estén asociados con la tienda actual o con cualquier otra tienda de la empresa. Además, los empleados pueden buscar clientes que estén relacionados con diferentes empresas de la organización principal.

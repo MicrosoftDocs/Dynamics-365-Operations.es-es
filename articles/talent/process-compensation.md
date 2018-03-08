@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="process-compensation"></a>Procesar compensaciones
+
+[!include[banner](includes/banner.md)]
+
 El procesamiento de compensación le permite calcular los nuevos importes de compensación básicos para sus empleados en función de los ajustes de recursos propios, los objetivos de aumento por mérito y el rendimiento. Este tema cubre el flujo básico de procesamiento de compensación para los planes de compensación fija sin tener en cuenta el rendimiento de un empleado.
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a>Planifique los nuevos importes y presupuestos de la compensación

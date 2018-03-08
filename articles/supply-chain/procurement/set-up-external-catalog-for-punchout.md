@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Configurar un catálogo externo para la adquisición electrónica de marcaje de salida
 
+[!include[banner](../includes/banner.md)]
+
 Usando el catálogo externo, puede asegurarse de que la información del producto y de precios que procese posteriormente en Dynamics 365 for Finance and Operations, Edición Enterprise de julio de 2017 sea precisa y actualizada. La solicitud puede aprobarse y convertirse en un pedido de compra y se puede presentar el pedido al proveedor.
 
 Cuando el catálogo externo se configura y un empleado está preparando una solicitud, habrá una opción para redirigir a un sitio externo, el catálogo externo, y devolver la cesta de la compra que se creó en el sitio externo. Esta comunicación se basa en el protocolo cXML y tiene que configurarse entre los sistemas de la organización que compra y la que vende.

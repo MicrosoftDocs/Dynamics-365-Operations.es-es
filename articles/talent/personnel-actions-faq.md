@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="personnel-actions-faq"></a>Acciones del personal [Preguntas frecuentes]
+
+[!include[banner](includes/banner.md)]
+
 Este tema contiene respuestas a preguntas que puede que tenga si su organización usa acciones de personal. Las acciones de personal son pasos adicionales que debe completar cuando realice ciertas tareas relacionadas con el personal. Son ejemplos de tareas que requerirán acciones de personal crear nuevos puestos, modificar los valores de puestos existentes, contratar a trabajadores nuevos, transferir trabajadores, cambiar la compensación del trabajador, cambiar las asignaciones del puesto o despedir a trabajadores.
 
 **Nota:** las acciones de personal solo están disponibles si los campos **Activar acciones del personal** y **Activar acciones de puestos** se han establecido en **Sí** en la pestaña **Acciones de personal** de la página **Parámetros compartidos de Recursos Humanos**. 
