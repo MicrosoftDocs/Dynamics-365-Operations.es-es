@@ -19,13 +19,15 @@ ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: dcaf0e58afe01a530ef567bfdb3b8e2506da9742
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: e59ccde58adb7fae2504d37f8a0bc76110a3348b
 ms.contentlocale: es-es
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 # <a name="leave-and-absence-management-overview"></a><span data-ttu-id="36683-103">Visión general de la gestión de permisos y ausencias</span><span class="sxs-lookup"><span data-stu-id="36683-103">Leave and absence management overview</span></span>
+
+[!include[banner](includes/banner.md)]
 
 <span data-ttu-id="36683-104">El módulo de **Gestión de permisos y ausencias** proporciona un marco flexible para definir el proceso de la gestión de ausencias.</span><span class="sxs-lookup"><span data-stu-id="36683-104">The **Leave and absence management** module offers a flexible framework for defining the absence management process.</span></span> <span data-ttu-id="36683-105">Los planes de permisos y ausencias se pueden crear para determinar cómo los empleados acumulan o se les concede tiempo libre.</span><span class="sxs-lookup"><span data-stu-id="36683-105">Leave and absence plans can be created to determine how employees accrue or are granted time off.</span></span> <span data-ttu-id="36683-106">Después de que los empleados estén inscritos en un plan, pueden enviar solicitudes de tiempo de reposo para aprobación por parte de los administradores.</span><span class="sxs-lookup"><span data-stu-id="36683-106">After employees are enrolled in a plan, they can submit time-off requests for approval by managers.</span></span> <span data-ttu-id="36683-107">El seguimiento de ausencias permite tanto a los administradores de primer nivel como a los administradores de Recursos humanos (HR) ver quién está tomando tiempo libre y cuánto tiempo le queda a cada empleado.</span><span class="sxs-lookup"><span data-stu-id="36683-107">Leave tracking lets both first-level managers and Human Resources (HR) managers see who is taking time off and how much time off each employee still has.</span></span>  
 

@@ -19,14 +19,17 @@ ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 418ee6136a5a02d343828d8eb33b1e37325e2918
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 82b3076eba0d374c80e37572233cf7ba440cc65a
 ms.contentlocale: es-es
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 # <a name="sell-and-return-products-outside-of-an-assortment"></a><span data-ttu-id="fb3ec-103">Vender y devolver productos fuera de un surtido</span><span class="sxs-lookup"><span data-stu-id="fb3ec-103">Sell and return products outside of an assortment</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="fb3ec-104">Un escenario común para cualquier minorista es vender productos a sus clientes o aceptar devoluciones de sus clientes aunque no contienen productos concretos en su tienda (es decir los productos no se sirven a la tienda).</span><span class="sxs-lookup"><span data-stu-id="fb3ec-104">A common scenario for any retailer is to sell products to their customers or accept returns from their customers even if they don’t carry the specific products in their store (in other words, the products are not assorted to the store).</span></span>
 <span data-ttu-id="fb3ec-105">Aquí hay algunas situaciones habituales:</span><span class="sxs-lookup"><span data-stu-id="fb3ec-105">Here are some typical scenarios:</span></span>
 

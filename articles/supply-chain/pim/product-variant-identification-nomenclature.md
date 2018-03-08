@@ -20,14 +20,16 @@ ms.author: roxanad
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 4180fda5d26f68d5371f21f7a552245a9b8bc1a0
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 6a620f2a0105d578d419d3aac816c7d78fbf3e46
 ms.contentlocale: es-es
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a><span data-ttu-id="2e579-103">Nomenclatura de los nombres y los números de variante de los productos</span><span class="sxs-lookup"><span data-stu-id="2e579-103">Nomenclature of product variant numbers and names</span></span>
+
+[!include[banner](../includes/banner.md)]
 
 <span data-ttu-id="2e579-104">En este tema se describe cómo se puede configurar una nomenclatura de número de producto para reemplazar el formato fijo [Número de producto maestro - Configuración - Tamaño - Color - Estilo].</span><span class="sxs-lookup"><span data-stu-id="2e579-104">This topic describes how you can set up a product number nomenclature to replace the fixed [Product master number - Configuration - Size - Color - Style] format.</span></span> <span data-ttu-id="2e579-105">La nueva nomenclatura tiene el formato destinado que incluye el número de producto maestro, las dimensiones de producto activo y los delimitadores de texto de su elección.</span><span class="sxs-lookup"><span data-stu-id="2e579-105">The new nomenclature has a targeted format that includes the product master number, active product dimensions, and text delimiters of your choice.</span></span> <span data-ttu-id="2e579-106">También puede crear una nomenclatura para los nombres de producto.</span><span class="sxs-lookup"><span data-stu-id="2e579-106">You can also create a nomenclature for product names.</span></span> <span data-ttu-id="2e579-107">Por último, también puede crear una nomenclatura para identificar configuraciones creadas por el configurador de producto basado en restricciones.</span><span class="sxs-lookup"><span data-stu-id="2e579-107">Finally, you can build a nomenclature to identify configurations that are created by the constraint-based product configurator.</span></span> <span data-ttu-id="2e579-108">Estas nomenclaturas pueden contener atributos de su elección.</span><span class="sxs-lookup"><span data-stu-id="2e579-108">These nomenclatures can contain attributes of your choice.</span></span>
 

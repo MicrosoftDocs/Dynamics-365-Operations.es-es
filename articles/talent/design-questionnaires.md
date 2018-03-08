@@ -19,14 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 9887a3fb0bea162774c9d3ef8203145ecdf28ac7
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 506c4db7cd37fd85b3e132e7900eafdc4385fa5a
 ms.contentlocale: es-es
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 # <a name="design-a-questionnaire"></a><span data-ttu-id="5fcc3-105">Diseñar un cuestionario</span><span class="sxs-lookup"><span data-stu-id="5fcc3-105">Design a questionnaire</span></span>
+
+[!include[banner](includes/banner.md)]
 
 <span data-ttu-id="5fcc3-106">En este tema se describe el proceso de creación de un cuestionario.</span><span class="sxs-lookup"><span data-stu-id="5fcc3-106">This topic describes the process for creating a questionnaire.</span></span> <span data-ttu-id="5fcc3-107">El primer paso es diseñar el cuestionario.</span><span class="sxs-lookup"><span data-stu-id="5fcc3-107">The first step is to design the questionnaire.</span></span> <span data-ttu-id="5fcc3-108">Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas.</span><span class="sxs-lookup"><span data-stu-id="5fcc3-108">When you design a questionnaire, you not only write the questions and answers, but also create the structure that enables answers to be recorded and tabulated.</span></span> 
 
