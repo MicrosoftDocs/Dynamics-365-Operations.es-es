@@ -14,7 +14,6 @@
 #### [Versiones estándar y de destino de la plataforma](get-started/public-preview-releases.md)
 
 #### Comprar Finance and Operations
-##### [Microsoft FastTrack para Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
 ##### [Comprar Finance and Operations (local)](get-started/purchase-on-premises.md)
 
 ### [Novedades y cambios](get-started/whats-new-changed.md)
@@ -72,17 +71,31 @@
 ##### [Crear documentación o formación](../dev-itpro/user-interface/task-recorder-training-docs.md)
 #### [Glosario](get-started/glossary.md)
 
-## Conformidad
+## [Comprender el ciclo de vida de la implementación](imp-lifecycle/implementation-lifecycle.md)
+### [Microsoft FastTrack para Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
+### [Incorporación](imp-lifecycle/onboard.md) 
+### [Preparando para la publicación](imp-lifecycle/prepare-go-live.md)
+### [Preguntas frecuentes sobre la publicación](imp-lifecycle/go-live-faq.md)
+
+## Cumplimiento
 ### [Reglas de directivas de auditoría](../financials/general-ledger/audit-policy-rules.md)
 ### [Infracciones y casos de directivas de auditoría](../financials/general-ledger/audit-policy-violations-cases.md)
 
-## Gestión de costes
-### Coste predeterminado
+## [Gestión de costes](../supply-chain/cost-management/cost-management-home-page.md)
+### [Coste estándar](../supply-chain/cost-management/prerequisites-standard-costs.md)
+#### [Visión general de conversión de costes estándar](../supply-chain/cost-management/standard-cost-conversion-overview.md)
+#### [Requisito previo para la conversión de costes estándar](../supply-chain/cost-management/prerequisites-standard-cost-conversion.md)
+#### [Gestionar actualización de coste estándar](../supply-chain/cost-management/manage-standard-cost-updates.md)
+#### [Restricciones a las versiones de gestión de costes para costes estándar.](../supply-chain/cost-management/restrictions-costing-versions-standard-costs.md)
+#### [Cálculos de L. MAT. con coste estándar.](../supply-chain/cost-management/information-used-bom-calculations-standard-costs.md)
+#### [Actualizar coste estándar en un entorno de fabricación](../supply-chain/cost-management/update-standard-costs-manufacturing-environment.md)
+#### [Actualizar coste estándar para un nuevo artículo fabricado](../supply-chain/cost-management/update-standard-costs-new-manufactured-item.md)
+#### [Actualizar coste estándar en un entorno de no fabricación](../supply-chain/cost-management/update-standard-costs-non-manufacturing-environment.md)
+#### [Preparar el mantenimiento de los costes estándar de artículos fabricados](../supply-chain/cost-management/prepare-maintain-standard-costs-manufactured-items.md)
+### [Coste predeterminado](../supply-chain/cost-management/costing-versions.md)
 #### [Hoja de gestión de costes](../supply-chain/cost-management/costing-sheets.md)
-#### [Versión de gestión de costes](../supply-chain/cost-management/costing-versions.md)
 #### [Simular un cambio de coste mediante una versión de gestión de coste para costes planificados](../supply-chain/cost-management/simulate-cost-changes-costing-version-planned-costs.md)
-### Costes de inventario
-#### [Ajuste del valor de coste de inventario disponible](../supply-chain/cost-management/adjust-hand-inventory-cost-values.md)
+### [Contabilidad de inventario](../supply-chain/cost-management/fifo-physical-value-marking.md)
 #### [Objeto de coste](../supply-chain/cost-management/cost-object.md)
 #### [Ver saldo de objeto de coste (guía de tareas)](../supply-chain/cost-management/tasks/view-cost-object-balance.md)
 #### [Ver el extracto de inventario y KPI por el objeto de coste (guía de tareas)](../supply-chain/cost-management/tasks/view-inventory-statement-kpi-cost-object.md)
@@ -92,7 +105,6 @@
 #### [FIFO con valor físico y marcado](../supply-chain/cost-management/fifo-physical-value-marking.md)
 #### [Incluir valor físico en coste](../supply-chain/cost-management/include-physical-value.md)
 #### [Valor de objeto de inventario](../supply-chain/cost-management/physical-quantity.md)
-#### [Cierre de inventario](../supply-chain/cost-management/inventory-close.md)
 #### [Fecha LIFO con valor físico y marcado](../supply-chain/cost-management/lifo-date-physical-value-marking.md)
 #### [LIFO con valor físico y marcado](../supply-chain/cost-management/lifo-physical-value-marking.md)
 #### [Media móvil](../supply-chain/cost-management/moving-average.md)
@@ -101,19 +113,12 @@
 #### [Seguimiento del coste promedio móvil por dimensión de inventario](../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md)
 #### [Fecha de media ponderada](../supply-chain/cost-management/weighted-average-date.md)
 #### [Media ponderada con valor físico y marcado](../supply-chain/cost-management/weighted-average-physical-value-marking.md)
-### Costes de fabricación
-#### [Amortizar los costes constantes para un artículo fabricado](../supply-chain/cost-management/amortize-constant-costs-manufactured-item.md)
-#### [Contabilización previa de los costes](../supply-chain/cost-management/backflush-costing.md)
+#### [Cierre de inventario](../supply-chain/cost-management/inventory-close.md)
+#### [Ajuste del valor de coste de inventario disponible](../supply-chain/cost-management/adjust-hand-inventory-cost-values.md)
+### [Contabilidad de fabricación](../supply-chain/cost-management/production-order-cost-analysis.md)
 #### [Cálculos de L. MAT.](../supply-chain/cost-management/bom-calculations.md)
 #### [Grupo de cálculo de L. MAT.](../supply-chain/cost-management/bom-calculation-groups.md)
-#### Cálculos de L. MAT. mediante la hoja de gestión de costes (reproducir las guías de tareas en orden)
-##### [Crear un producto terminado (febrero de 2016 únicamente)](../supply-chain/cost-management/tasks/create-finished-product-2016-02.md)
-##### [Crear un producto semiterminado (febrero de 2016 únicamente)](../supply-chain/cost-management/tasks/create-semi-finished-product-2016-02.md)
-##### [Crear materias primas (febrero de 2016 únicamente)](../supply-chain/cost-management/tasks/create-raw-materials-2016-02.md)
-##### [Crear L. MAT. (febrero de 2016 únicamente)](../supply-chain/cost-management/tasks/create-boms-2016-02.md)
-##### [Crear rutas (febrero de 2016 únicamente)](../supply-chain/cost-management/tasks/create-routes-2016-02.md)
-##### [Calcular una L. MAT. mediante una estructura de un solo nivel (solo febrero de 2016)](../supply-chain/cost-management/tasks/calculate-bom-single-level-structure-2016-02.md)
-##### [Calcular una L. MAT. mediante una estructura multinivel (solo febrero de 2016)](../supply-chain/cost-management/tasks/calculate-bom-multilevel-structure-2016-02.md)
+#### [Contabilización previa de los costes](../supply-chain/cost-management/backflush-costing.md)
 #### [Orígenes comunes de desviación de producción](../supply-chain/cost-management/common-sources-of-production-variances.md)
 #### [Categoría de costes utilizadas en las rutas de producción](../supply-chain/cost-management/cost-categories-used-production-routings.md)
 #### [Categorías de coste usadas en el control de producción y en la contabilidad de la administración de proyectos](../supply-chain/cost-management/cost-categories-used-production-control-project-management-accounting.md)
@@ -125,19 +130,8 @@
 #### [Registro de la producción](../supply-chain/cost-management/production-posting.md)
 #### [Configurar un producto que puede fabricarse o suministrarse](../supply-chain/cost-management/manufactured-items-treated-as-purchased-items.md)
 #### [Método de asignación de costes total](../supply-chain/cost-management/methodology-total-cost-allocation.md)
-### Coste estándar
-#### [Requisitos previos de los costes estándar](../supply-chain/cost-management/prerequisites-standard-costs.md)
-#### [Visión general de conversión de costes estándares](../supply-chain/cost-management/standard-cost-conversion-overview.md)
-#### [Requisito previo para la conversión de coste estándar](../supply-chain/cost-management/prerequisites-standard-cost-conversion.md)
-#### [Gestionar actualización de coste estándar](../supply-chain/cost-management/manage-standard-cost-updates.md)
-#### [Restricciones a las versiones de gestión de costes para costes estándar.](../supply-chain/cost-management/restrictions-costing-versions-standard-costs.md)
-#### [Cálculos de L. MAT. con coste estándar.](../supply-chain/cost-management/information-used-bom-calculations-standard-costs.md)
-#### [Actualizar coste estándar en un entorno de fabricación](../supply-chain/cost-management/update-standard-costs-manufacturing-environment.md)
-#### [Actualizar coste estándar para un nuevo artículo fabricado](../supply-chain/cost-management/update-standard-costs-new-manufactured-item.md)
-#### [Actualizar coste estándar en un entorno de no fabricación](../supply-chain/cost-management/update-standard-costs-non-manufacturing-environment.md)
-#### [Preparar el mantenimiento de los costes estándar de artículos fabricados](../supply-chain/cost-management/prepare-maintain-standard-costs-manufactured-items.md)
-### Paquete de contenido de Power BI
-#### [Paquete de contenido gestión de costes](../dev-itpro/analytics/cost-management-content-pack.md)
+#### [Amortizar los costes constantes para un artículo fabricado](../supply-chain/cost-management/amortize-constant-costs-manufactured-item.md)
+### [Paquete de contenido de Power BI para administración de costes](../dev-itpro/analytics/cost-management-content-pack.md)
 
 ## Integración de datos
 ### [Patrones de integración](../dev-itpro/data-entities/integration-overview.md)
@@ -167,13 +161,6 @@
 ###### [Sincronizar pedidos de ventas directamente de Sales a Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
 ###### [Sincronizar pedidos de ventas entre Sales y Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ###### [Sincronizar factura de ventas directamente de Sales a Finance and Operations](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
-###### [Mantener cuentas en Sales y sincronizarlas con Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
-###### [Mantener contactos en Sales y sincronizarlas con Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
-###### [Mantener productos en Finance and Operations y sincronizarlos con Sales](../supply-chain/sales-marketing/products-template-mapping.md)
-###### [Crear presupuestos de ventas en Sales y sincronizarlos con Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-###### [Crear pedidos de ventas en Finance and Operations y sincronizarlos con Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-###### [Crear facturas de ventas en Finance and Operations y sincronizarlos con Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
-
 
 
 #### [Consumir servicios web externos](../dev-itpro/data-entities/consume-external-web-service.md)
@@ -372,9 +359,9 @@
 
 #### Pagos y liquidaciones
 ##### [Usar un pago de cliente para liquidar varias facturas que abarcan varios períodos de descuento](../financials/accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-##### [Pagos centralizados para Clientes](../financials/accounts-receivable/centralized-payments-accounts-receivable.md)
-##### [Establecer un pago parcial de cliente o un pago final antes del descuento](../financials/accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md) 
-##### [Liquidar un pago de cliente parcial antes de la fecha de descuento con un pago final después de la fecha de descuento](../financials/accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+##### [Pagos centralizados para clientes](../financials/accounts-receivable/centralized-payments-accounts-receivable.md)
+##### [Establecer un pago parcial o un pago final de cliente antes del descuento](../financials/accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md) 
+##### [Liquidar un pago parcial de cliente antes de la fecha de descuento con un pago final después de la fecha de descuento](../financials/accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
 ##### [Liquidar un pago de cliente parcial con descuentos en notas de abono de proveedor](../financials/accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 ##### [Liquidar un pago de cliente parcial con varios períodos de descuento](../financials/accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
 ##### [Reembolsar a clientes](../financials/accounts-receivable/reimburse-customers.md)
@@ -626,16 +613,23 @@
 ##### [Configurar el perfil básico de integración de impuestos para China](../financials/localizations/tasks/set-up-basic-tax-integration-profile-china.md)
 ##### [Configurar los asientos chinos](../financials/localizations/tasks/set-up-chinese-vouchers.md)
 ##### [Configurar la asignación de amortización de activos fijos](../financials/localizations/tasks/fixed-asset-depreciation-allocation.md)
-##### [Establecer créditos y débitos negativos ](../financials/localizations/apac-chn-negative-debits-credits.md)
+##### [Establecer créditos y débitos negativos](../financials/localizations/apac-chn-negative-debits-credits.md)
 ##### [Registro de operaciones del usuario por la regla de trabajo de China](../financials/localizations/tasks/user-operation-log-china-working-rule.md)
 ##### [Preguntas frecuentes de facturas de cliente de IVA](../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
 
 #### India
 
 ##### [Activos fijos](../financials/localizations/apac-ind-fixed-assets.md)
+###### [Transferencia de elementos principales al activo fijo](../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
+###### [Vincular un calendario basado en días a un libro de activos fijos](../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
+###### [Configurar parámetros para calcular la depreciación](../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
+###### [Configurar depreciación de grupo de activos para libros de amortización](../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
+###### [Crear un grupo de modelos de inventario para elementos principales](../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
+###### [Mover cálculo de depreciación para activos fijos de la India](../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
+###### [Definir el tipo de movimiento y de sector para los libros y adjuntarlo al activo fijo](../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
 ##### [Visión general del motor de impuestos](../financials/general-ledger/tax-engine.md)
 ##### [Integración del motor de impuestos](../financials/general-ledger/tax-engine-integration.md)
-##### [Preguntas más frecuentes de los umbrales de impuestos](../financials/localizations/apac-ind-tax-thresholds.md)
+##### [Preguntas frecuentes sobre los umbrales de impuestos](../financials/localizations/apac-ind-tax-thresholds.md)
 ##### [Ampliación del motor de impuestos](../financials/general-ledger/extend-tax-engine-configurations.md)
 
 #### Japón
@@ -930,13 +924,15 @@
 #### España
 ##### [Aplicar descuentos por pronto pago en la factura](../financials/localizations/emea-esp-cash-discount-applied-invoice.md)
 ##### [Opciones de letras de cambio](../financials/localizations/emea-esp-bill-of-exchange-options.md)
-##### [Impuesto no realizado](../financials/localizations/emea-esp-conditional-sales-tax.md)
+##### [Impuesto condicional](../financials/localizations/emea-esp-conditional-sales-tax.md)
+##### [Factura rectificativa](../financials/localizations/tasks/emea-esp-credit-invoicing.md)
 ##### [Cuenta de factura de datos fiscales](../financials/localizations/emea-esp-fiscal-data-invoice-account.md)
 ##### [Revalorización de grupos de activos fijos](../financials/localizations/emea-esp-fixed-asset-group-revaluation.md)
 ##### [IVA intracomunitario](../financials/localizations/emea-esp-intra-community-vat.md)
 ##### [Clientes plantilla](../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md)
 ##### [Imprimir cheques con diseño español](../financials/localizations/emea-esp-print-checks-with-spanish-layout.md)
 ##### [Opciones de pagaré](../financials/localizations/emea-esp-promissory-note-options.md)
+##### [Informe 340](../financials/localizations/emea-esp-report-340.md)
 ##### [Ciclos de compra y venta](../financials/localizations/emea-esp-sales-purchase-cycle.md)
 ##### [Entradas especiales y hojas de apertura](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### Suecia
@@ -1526,56 +1522,39 @@
 
 
 
-## [Producción](../supply-chain/production-control/production-process-overview.md)
-### [Visión general del proceso de producción](../supply-chain/production-control/production-process-overview.md)
+## [Control de producción](../supply-chain/production-control/production-process-overview.md)
 ### [Planificación en modo mixto: combinar el abastecimiento de lean manufacturing, fabricación discreta y fabricación en procesos](../supply-chain/production-control/mixed-mode-plan.md)
 ### [Gestionar el trabajo de subcontratación en la producción](../supply-chain/production-control/manage-subcontract-work-production.md)
+
 ### Fabricación discreta
 #### Mantener datos maestros de producción
 ##### [Requisitos de configuración de producción](../supply-chain/production-control/production-set-up-requirements.md)
 ##### [Listas de materiales y fórmulas](../supply-chain/production-control/bill-of-material-bom.md)
 ##### [Funcionalidad del diseñador de L. MAT.](../supply-chain/production-control/bom-designer-functionality.md)
 ##### [Cálculos de L. MAT.](../supply-chain/cost-management/bom-calculations.md)
+##### [Gestionar la unidad de medida (guía de tareas)](../supply-chain/pim/tasks/manage-unit-measure.md)
 ##### [Parámetros de producción en ejecución de fabricación](../supply-chain/production-control/production-parameters-manufacturing-execution.md)
 ##### [Recursos de operaciones](../supply-chain/production-control/operations-resources.md)
+##### [Crear un recurso de operaciones (guía de tareas)](../supply-chain/production-control/tasks/create-operations-resource.md)
 ##### [Capacidades de recursos](../supply-chain/production-control/resource-capabilities.md)
+##### [Definir capacidades de recursos (guía de tareas)](../supply-chain/production-control/tasks/define-resource-capabilities.md)
 ##### [Rutas y operaciones.](../supply-chain/production-control/routes-operations.md)
 ##### [Directivas de trabajo de almacén](../supply-chain/warehousing/warehouse-work-policies.md)
-#### Programar operaciones de producción
-##### [Programación de operaciones](../supply-chain/production-control/operations-scheduling.md)
-##### [Programación de trabajos](../supply-chain/production-control/job-scheduling.md)
-##### [Gráfico de Gantt para la programación de trabajos](../supply-chain/production-control/visual-scheduling-production.md)
-##### [Opciones de programación de las operaciones](../supply-chain/production-control/operation-scheduling-options.md)
-#### Operar trabajos de producción
-##### [Crear pedidos de producción](../supply-chain/production-control/create-production-orders.md)
-##### [Liberar pedidos de producción](../supply-chain/production-control/release-production-orders.md)
-##### [Visibilidad de excepciones de materiales](../supply-chain/production-control/improved-visibility-into-material-exceptions.md)
-##### [Liberar L. MAT y líneas de fórmula al almacén](../supply-chain/production-control/releasing-bom-and-formula-lines-to-warehouse.md)
-#####[Invertir el estado de un pedido de producción](../supply-chain/production-control/reverse-production-order-status.md)
-##### [Registrar el material de consumo mediante un dispositivo móvil](../supply-chain/production-control/register-material-consumption-hand-held-device.md)
-##### [Controlar el consumo de materias primas mediante principios de vaciado](../supply-chain/production-control/flushing-principles.md) 
-##### [Tránsito directo desde pedidos de producción a muelles de salida](../supply-chain/production-control/cross-docking-opportunities.md)
-##### [Establecer la ubicación de salida de producción para los bienes terminados](../supply-chain/production-control/production-output-location.md)
-##### [Notificar pedidos de producción como terminados](../supply-chain/production-control/report-production-orders-as-finished.md)
-##### [Informar de que las L. MAT. han terminado](../supply-chain/production-control/report-boms-as-finished.md)
-##### [Sustitución material en la fabricación](../supply-chain/production-control/substitute-items-bom-lines.md)
-##### [Registro para ejecución de fabricación](../supply-chain/production-control/registration-manufacturing-execution.md)
-##### [Comentarios de producción](../supply-chain/production-control/production-feedback.md)
-##### [Registro de tiempo y asistencia](../supply-chain/production-control/time-attendance-registrations.md)
-##### [Registro de ausencia en Tiempo y asistencia](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
-#### Gestionar operaciones financieras en producción
-##### [Asignar tiempo a trabajos en una agrupación de trabajos](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
-##### [Calcular el consumo de materiales](../supply-chain/production-control/consumption.md)
-##### [Registro de la producción](../supply-chain/cost-management/production-posting.md)
-#### Tareas discretas de fabricación
+##### [Crear propiedades de programación de horarios de trabajo (guía de tareas)](../supply-chain/production-control/tasks/create-working-time-scheduling-properties.md)
+##### [Crear plantillas de horario de trabajo (guía de tareas)](../supply-chain/production-control/tasks/create-working-time-templates.md)
 ##### [Definir grupo de recursos para la fabricación discreta (guía de tareas)](../supply-chain/production-control/tasks/define-discrete-manufacturing-resource-group.md)
 ##### [Agregar una actividad existente a una versión del flujo de producción (guía de tareas)](../supply-chain/production-control/tasks/add-existing-activity-production-flow-version.md)
 ##### [Desactivar una versión del flujo de producción (guía de tareas)](../supply-chain/production-control/tasks/deactivate-production-flow-version.md)
 ##### [Definir una fecha de vencimiento para una versión del flujo de producción (guía de tareas)](../supply-chain/production-control/tasks/define-expiry-date-production-flow-version.md)
 ##### [Definir modelos de flujo de producción (guía de tareas)](../supply-chain/production-control/tasks/define-production-flow-models.md)
-##### [Crear propiedades de programación de horarios de trabajo (guía de tareas)](../supply-chain/production-control/tasks/create-working-time-scheduling-properties.md)
-##### [Crear plantillas de horario de trabajo (guía de tareas)](../supply-chain/production-control/tasks/create-working-time-templates.md)
-##### Gestionar el ciclo de vida del pedido de producción
+#### Programar operaciones de producción
+##### [Programación de operaciones](../supply-chain/production-control/operations-scheduling.md)
+##### [Programación de trabajos](../supply-chain/production-control/job-scheduling.md)
+##### [Gráfico de Gantt para la programación de trabajos](../supply-chain/production-control/visual-scheduling-production.md)
+##### [Opciones de programación de las operaciones](../supply-chain/production-control/operation-scheduling-options.md)
+##### [Programar un pedido de producción con programación de operaciones y trabajo (guía de tareas)](../supply-chain/production-control/tasks/schedule-production-order-operations-job-scheduling.md)
+#### Operar trabajos de producción
+##### [Gestionar el ciclo de vida del pedido de producción](../supply-chain/production-control/create-production-orders.md)
 ###### [Crear un pedido de producción (guía de tareas)](../supply-chain/production-control/tasks/create-production-order.md)
 ###### [Estimar un pedido de producción (guía de tareas)](../supply-chain/production-control/tasks/estimate-production-order.md)
 ###### [Programar un pedido de producción (guía de tareas)](../supply-chain/production-control/tasks/schedule-production-order.md)
@@ -1583,41 +1562,57 @@
 ###### [Iniciar un pedido de producción (guía de tareas)](../supply-chain/production-control/tasks/start-production-order.md)
 ###### [Notificar un pedido de producción como terminado (guía de tareas)](../supply-chain/production-control/tasks/report-production-order-finished.md)
 ###### [Finalizar un pedido de producción (guía de tareas)](../supply-chain/production-control/tasks/end-production-order.md)
-###### [Programar un pedido de producción con programación de operaciones y trabajo (guía de tareas)](../supply-chain/production-control/tasks/schedule-production-order-operations-job-scheduling.md)
-##### [Crear un recurso de operaciones (guía de tareas)](../supply-chain/production-control/tasks/create-operations-resource.md)
-##### [Definir capacidades de recursos (guía de tareas)](../supply-chain/production-control/tasks/define-resource-capabilities.md)
-##### [Habilitar el proceso de nómina para tiempo y asistencia (guía de tareas)](../supply-chain/production-control/tasks/payroll-process-time-attendance.md)
+##### [Liberar pedidos de producción](../supply-chain/production-control/release-production-orders.md)
+##### [Visibilidad de excepciones de materiales](../supply-chain/production-control/improved-visibility-into-material-exceptions.md)
+##### [Liberar L. MAT y líneas de fórmula al almacén](../supply-chain/production-control/releasing-bom-and-formula-lines-to-warehouse.md)
+##### [Invertir el estado de un pedido de producción](../supply-chain/production-control/reverse-production-order-status.md)
+##### [Registrar el material de consumo mediante un dispositivo móvil](../supply-chain/production-control/register-material-consumption-hand-held-device.md)
+##### [Controlar el consumo de materias primas mediante principios de vaciado](../supply-chain/production-control/flushing-principles.md) 
+##### [Tránsito directo desde pedidos de producción a muelles de salida](../supply-chain/production-control/cross-docking-opportunities.md)
+##### [Establecer la ubicación de salida de producción para los bienes terminados](../supply-chain/production-control/production-output-location.md)
+##### [Notificar pedidos de producción como terminados](../supply-chain/production-control/report-production-orders-as-finished.md)
+##### [Notificar L. MAT. como terminadas](../supply-chain/production-control/report-boms-as-finished.md)
 ##### [Notificar como terminado a una ubicación controlada por matrícula (guía de tareas)](../supply-chain/production-control/tasks/report-finished-non-license-plate-controlled-location-2016-11.md)
 ##### [Notificar progreso en un dispositivo móvil de trabajo (guía de tareas)](../supply-chain/production-control/tasks/report-progress-mobile-job-device.md)
 ##### [Usar el diario de existencias de seguridad para actualizar la cobertura mínima (guía de tareas)](../supply-chain/production-control/tasks/use-safety-stock-journal-update-minimum-coverage.md)
+##### [Sustitución material en la fabricación](../supply-chain/production-control/substitute-items-bom-lines.md)
+##### [Registro para ejecución de fabricación](../supply-chain/production-control/registration-manufacturing-execution.md)
+##### [Comentarios de producción](../supply-chain/production-control/production-feedback.md)
+##### [Registro de tiempo y asistencia](../supply-chain/production-control/time-attendance-registrations.md)
+##### [Registro de ausencia en Tiempo y asistencia](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [Habilitar el proceso de nómina para tiempo y asistencia (guía de tareas)](../supply-chain/production-control/tasks/payroll-process-time-attendance.md)
 ##### [Configurar un trabajador mediante el dispositivo móvil de trabajo (guía de tareas)](../supply-chain/production-control/tasks/worker-mobile-job-device.md)
-##### [Gestionar la unidad de medida (guía de tareas)](../supply-chain/pim/tasks/manage-unit-measure.md)
+#### Gestionar operaciones financieras en producción
+##### [Asignar tiempo a trabajos en una agrupación de trabajos](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
+##### [Calcular el consumo de materiales](../supply-chain/production-control/consumption.md)
+##### [Registro de la producción](../supply-chain/cost-management/production-posting.md)
 
-### Lean manufacturing 
+### Lean manufacturing (producción ajustada) 
 #### [Visión general de lean manufacturing](../supply-chain/production-control/lean-manufacturing-overview.md)
 #### [Subcontratación basada en actividad](../supply-chain/production-control/activity-based-subcontracting.md)
+
 #### Mantener datos maestros de producción
 ##### [Modelar una organización eficiente](../supply-chain/production-control/lean-manufacturing-modeling-lean-organization.md)
 ##### [Recursos de operaciones](../supply-chain/production-control/operations-resources.md)
+##### [Definir las celdas de trabajo de lean manufacturing (guía de tareas)](../supply-chain/production-control/tasks/define-lean-manufacturing-work-cells.md)
+##### [Definir los grupos de programación lean (guía de tareas)](../supply-chain/production-control/tasks/define-lean-schedule-groups.md)
+
 #### Programación de trabajos kanban
 ##### [Programación visual para lean manufacturing](../supply-chain/production-control/visual-scheduling-lean-manufacturing.md)
 ##### [Programación de trabajo kanban para lean manufacturing](../supply-chain/production-control/lean-manufacturing-kanban-job-scheduling.md)
 ##### [Programación de trabajos](../supply-chain/production-control/job-scheduling.md)
+
 #### Operar trabajos kanban
 ##### [Compatibilidad del tablero de transferencia kanban para escáneres de códigos de barras](../supply-chain/production-control/kanban-transfer-board-support-barcode-scanner.md)
 ##### [Comentarios de producción](../supply-chain/production-control/production-feedback.md)
-#### Tareas de lean manufacturing
-##### [Definir las celdas de trabajo de lean manufacturing (guía de tareas)](../supply-chain/production-control/tasks/define-lean-manufacturing-work-cells.md)
-##### [Definir los grupos de lean manufacturing (guía de tareas)](../supply-chain/production-control/tasks/define-lean-schedule-groups.md)
-##### Flujos de producción y actividades de lean manufacturing 
-###### [Crear una versión del flujo de producción (guías de tareas)](../supply-chain/production-control/tasks/create-production-flow-version.md)
-###### [Crear actividades de proceso para lean manufacturing (guía de tareas)](../supply-chain/production-control/tasks/create-process-activities-lean-manufacturing.md)
-###### [Crear actividades de transferencia para lean manufacturing (guía de tareas)](../supply-chain/production-control/tasks/create-transfer-activities-lean-manufacturing.md)
-###### [Validar un flujo de producción y una versión (guía de tareas)](../supply-chain/production-control/tasks/validate-production-flow-version.md)
-###### [Activar una versión del flujo de producción (guía de tareas)](../supply-chain/production-control/tasks/activate-production-flow-version.md)
-###### [Crear relación de actividad: sucesor (guía de tareas)](../supply-chain/production-control/tasks/create-activity-relation-successor.md)
-###### [Agregar un predecesor a una actividad de flujo de producción (guía de tareas)](../supply-chain/production-control/tasks/add-predecessor-production-flow-activity.md)
-###### [Crear una secuencia de valores (guía de tareas)](../supply-chain/production-control/tasks/create-value-stream.md)
+##### [Crear una versión del flujo de producción (guías de tareas)](../supply-chain/production-control/tasks/create-production-flow-version.md)
+##### [Crear actividades de proceso para lean manufacturing (guía de tareas)](../supply-chain/production-control/tasks/create-process-activities-lean-manufacturing.md)
+##### [Crear actividades de transferencia para lean manufacturing (guía de tareas)](../supply-chain/production-control/tasks/create-transfer-activities-lean-manufacturing.md)
+##### [Validar un flujo de producción y una versión (guía de tareas)](../supply-chain/production-control/tasks/validate-production-flow-version.md)
+##### [Activar una versión del flujo de producción (guía de tareas)](../supply-chain/production-control/tasks/activate-production-flow-version.md)
+##### [Crear relación de actividad: sucesor (guía de tareas)](../supply-chain/production-control/tasks/create-activity-relation-successor.md)
+##### [Agregar un predecesor a una actividad de flujo de producción (guía de tareas)](../supply-chain/production-control/tasks/add-predecessor-production-flow-activity.md)
+##### [Crear una secuencia de valores (guía de tareas)](../supply-chain/production-control/tasks/create-value-stream.md)
 ##### [Diagrama de árbol lean de pedidos de ventas (guía de tareas)](../supply-chain/production-control/tasks/lean-pegging-sales-orders.md)
 ##### [Crear una celda de trabajo subcontratado para lean manufacturing (guía de tareas)](../supply-chain/production-control/tasks/create-subcontracted-work-cell-lean-manufacturing.md)
 ##### [Agregar una directiva de cálculo de cantidad kanban a una regla kanban (guía de tareas)](../supply-chain/production-control/tasks/add-kanban-quantity-calculation-policy-kanban-rule.md)
@@ -1649,6 +1644,10 @@
 ##### [Recursos de operaciones](../supply-chain/production-control/operations-resources.md)
 ##### [Capacidades de recursos](../supply-chain/production-control/resource-capabilities.md)
 ##### [Atributos de lote](../supply-chain/production-control/batch-attributes.md)
+##### [Copiar una fórmula (guías de tareas)](../supply-chain/production-control/tasks/copy-formula.md)
+##### [Crear una fórmula copiando una fórmula existente (guía de tareas)](../supply-chain/production-control/tasks/create-formula-copying-existing-formula.md)
+##### [Copiar coproductos de una versión de fórmula existente (guía de tareas)](../supply-chain/production-control/tasks/copy-co-products-existing-formula-version.md)
+##### [Crear una fórmula copiando una fórmula existente (guía de tareas)](../supply-chain/production-control/tasks/create-formula-copying-existing-formula.md)
 ##### [Parámetros de producción en ejecución de fabricación](../supply-chain/production-control/production-parameters-manufacturing-execution.md)
 ##### [Requisitos de configuración de producción](../supply-chain/production-control/production-set-up-requirements.md)
 #### Programar operaciones de producción
@@ -1657,6 +1656,8 @@
 ##### [Programación de trabajos](../supply-chain/production-control/job-scheduling.md)
 #### Operar trabajos de producción
 ##### [Pedidos de lote consolidados](../supply-chain/production-control/consolidated-batch-orders.md)
+##### [Ciclo de vida de pedidos de lote desde la creación hasta el inicio (guía de tareas)](../supply-chain/production-control/tasks/batch-order-lifecycle-start.md)
+##### [Secuenciar trabajos de producción para fabricación en procesos (guía de tareas)](../supply-chain/production-control/tasks/sequence-production-jobs-process-manufacturing.md)
 ##### [Sustitución material en la fabricación](../supply-chain/production-control/substitute-items-bom-lines.md)
 ##### [Registro para ejecución de fabricación](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [Comentarios de producción](../supply-chain/production-control/production-feedback.md)
@@ -1665,19 +1666,9 @@
 ##### [Asignar tiempo a trabajos en una agrupación de trabajos](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [Calcular el consumo de materiales](../supply-chain/production-control/consumption.md)
 ##### [Registro de la producción](../supply-chain/cost-management/production-posting.md)
-#### Tareas de fabricación en procesos
-##### [Copiar una fórmula (guías de tareas)](../supply-chain/production-control/tasks/copy-formula.md)
-##### [Crear una fórmula copiando una fórmula existente (guía de tareas)](../supply-chain/production-control/tasks/create-formula-copying-existing-formula.md)
-##### [Copiar coproductos de una versión de fórmula existente (guía de tareas)](../supply-chain/production-control/tasks/copy-co-products-existing-formula-version.md)
-##### [Crear una fórmula copiando una fórmula existente (guía de tareas)](../supply-chain/production-control/tasks/create-formula-copying-existing-formula.md)
-##### [Ciclo de vida de pedidos de lote desde la creación hasta el inicio (guía de tareas)](../supply-chain/production-control/tasks/batch-order-lifecycle-start.md)
-##### [Secuenciar trabajos de producción para fabricación en procesos (guía de tareas)](../supply-chain/production-control/tasks/sequence-production-jobs-process-manufacturing.md)
-
-
-
 
 ## [Gestión de información de productos](../supply-chain/pim/product-information.md)
-### [Información de productos](../supply-chain/pim/product-information.md)
+### Información del producto
 #### [Crear una jerarquía de clasificación de productos (guía de tareas)](../supply-chain/pim/tasks/create-hierarchy-product-classification.md)
 #### [Clasificar un producto mediante jerarquías de categorías (guía de tareas)](../supply-chain/pim/tasks/classify-product-category-hierarchies.md)
 #### [Nomenclatura de número de producto](../supply-chain/pim/product-variant-identification-nomenclature.md)
@@ -1686,10 +1677,16 @@
 #### [Crear un nuevo producto (Guía de tareas)](../supply-chain/pim/tasks/create-new-product.md)
 #### [Crear un producto maestro (Guía de tareas)](../supply-chain/pim/tasks/create-product-master.md)
 #### [Crear variantes de productos predefinidas (Guía de tareas)](../supply-chain/pim/tasks/create-predefined-product-variants.md)
-#### [Crear un producto liberado para una sola empresa (Guía de tareas)](../supply-chain/pim/tasks/create-released-product-single-company.md)
+#### [Crear un producto liberado para una sola empresa (guía de tareas)](../supply-chain/pim/tasks/create-released-product-single-company.md)
 #### [Estado de ciclo de vida de producto](../supply-chain/pim/product-lifecycle.md)
-#### [Crear un código de barras para un producto (Guía de tareas)](../supply-chain/pim/tasks/create-bar-code-product.md)
-#### [Especificar el código GTIN de un producto (Guía de tareas)](../supply-chain/pim/tasks/enter-gtin-code-product.md)
+##### [Crear un estado nuevo de ciclo de vida de producto (guía de tareas)](../supply-chain/pim/tasks/new-product-lifecycle-state.md)
+##### [Crear un estado predeterminado de ciclo de vida de producto (guía de tareas)](../supply-chain/pim/tasks/default-product-lifecycle-state.md)
+##### [Asignar un estado de ciclo de vida de producto a un producto maestro liberado (guía de tareas)](../supply-chain/pim/tasks/product-lifecycle-state-released-product-master.md)
+##### [Asignar un estado de ciclo de vida de producto a un producto liberado (guía de tareas)](../supply-chain/pim/tasks/product-lifecycle-state-released-product.md)
+##### [Buscar variantes de producto obsoletas (guía de tareas)](../supply-chain/pim/tasks/obsolete-product-variants.md)
+##### [Excluir productos de la planificación maestra (guía de tareas)](../supply-chain/pim/tasks/exclude-products-master-planning.md)
+#### [Crear un código de barras para un producto (guía de tareas)](../supply-chain/pim/tasks/create-bar-code-product.md)
+#### [Especificar el código GTIN de un producto (guía de tareas)](../supply-chain/pim/tasks/enter-gtin-code-product.md)
 #### [Crear atributos de lote para un producto (Guía de tareas)](../supply-chain/pim/tasks/create-batch-attributes-product.md)
 #### [Agregar una imagen a un producto (Guía de tareas)](../supply-chain/pim/tasks/add-image-product.md)
 #### [Preguntas frecuentes sobre la traducción de la información de producto](../supply-chain/pim/translations-product-related-information.md)
@@ -1703,7 +1700,8 @@
 #### [Crear criterios de selección de precios de venta (Guía de tareas)](../supply-chain/pim/tasks/create-sales-price-selection-criteria.md)
 #### [Configurar precios basados en atributos para productos configurables (guía de tareas)](../supply-chain/pim/tasks/set-up-attribute-based-pricing-configurable-products.md)
 #### [Cálculos de L. MAT.](../supply-chain/cost-management/bom-calculations.md)
-### [Modelos de configuración del producto](../supply-chain/pim/build-product-configuration-model.md)
+
+### [Configuración del producto](../supply-chain/pim/build-product-configuration-model.md)
 #### [Crear configuraciones basadas en dimensiones](../supply-chain/pim/dimension-based-product-configuration.md) 
 ##### [Dimensión de producto](../supply-chain/pim/product-dimensions.md)
 ##### [Crear un producto maestro basado en dimensiones (guía de tareas)](../supply-chain/pim/tasks/create-dimension-based-product-master.md)
