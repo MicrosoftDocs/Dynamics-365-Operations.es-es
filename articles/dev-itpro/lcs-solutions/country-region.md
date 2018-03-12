@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
+ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
+ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
 ms.contentlocale: es-es
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -215,8 +215,23 @@ Las siguientes secciones muestran una lista de recursos por país o región.
 ### <a name="hungary"></a>Hungría
 
 -   [Métodos de depreciación para activos fijos](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
--   [HU - Mover un activo fijo a un inventario](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+-   [Mover un activo fijo a un inventario](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
 -   [Activos fijos de bajo coste](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+
+### <a name="india"></a>India
+
+- [Activos fijos](../../financials/localizations/apac-ind-fixed-assets.md)
+    - [Transferencia de elementos principales al activo fijo](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
+    - [Vincular un calendario basado en días a un libro de activos fijos](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
+    - [Configurar parámetros para calcular la depreciación](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
+    - [Configurar depreciación de grupo de activos para libros de amortización](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
+    - [Crear un grupo de modelos de inventario para elementos principales](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
+    - [Mover cálculo de depreciación para activos fijos de la India](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
+    - [Definir el tipo de movimiento y de sector para los libros y adjuntarlo al activo fijo](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
+- [Visión general del motor de impuestos](../../financials/general-ledger/tax-engine.md)
+    - [Integración del motor de impuestos](../../financials/general-ledger/tax-engine-integration.md)
+    - [Preguntas frecuentes sobre los umbrales de impuestos](../../financials/localizations/apac-ind-tax-thresholds.md)
+    - [Ampliación del motor de impuestos](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
 ### <a name="italy"></a>Italia
 

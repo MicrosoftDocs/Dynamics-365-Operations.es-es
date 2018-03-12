@@ -9,7 +9,7 @@
 ## [Pila de aplicación y arquitectura de servidor](dev-tools/application-stack-server-architecture.md)
 ## [Obtener una copia de evaluación](dev-tools/get-evaluation-copy.md)
 ## [Registrarse para una suscripción](dev-tools/sign-up-preview-subscription.md)
-## [Acceder a instancias](dev-tools/access-instances.md)
+## [Implementar un entorno de desarrollo y acceder a dicho entorno](dev-tools/access-instances.md)
 ## [Requisitos de sistema de desarrollo](dev-tools/development-system-requirements.md)
 ## Aplicación de ejemplo de administración de flota
 ### [Aplicación de ejemplo de administración de flota](dev-tools/fleet-management-sample.md)
@@ -32,7 +32,7 @@
 ### [Proyectos en Dynamics 365 for Finance and Operations, Enterprise Edition](dev-tools/projects.md)
 ### [Complementos de herramientas para Visual Studio](dev-tools/developer-tools-add-ins.md)
 ### [Desactivar la personalización de modelos y dejar de utilizar la funcionalidad](dev-tools/lock-models.md)
-### [Actualizar las herramientas de desarrollo Visual Studio](dev-tools/update-development-tools.md)
+### [Actualizar las herramientas de desarrollo de Visual Studio](dev-tools/update-development-tools.md)
 ## Lenguaje de programación X++
 ### [X++ y características del depurador ](dev-tools/new-x-debugger-features.md)
 ### [Depurar X++ con una copia de una base de datos de producción](dev-tools/debug-x-issue-against-copy-of-production.md)
@@ -360,7 +360,7 @@
 #### [Tipo ValueMetadata](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
 # Integración de datos
-## [Patrones de integración](data-entities/integration-overview.md)
+## [Elegir una estrategia de integración de datos (importación o exportación)](data-entities/integration-overview.md)
 
 ## API de integración de datos
 ### [API de paquete de administración de datos](data-entities/data-management-api.md)
@@ -381,12 +381,12 @@
 
 ### [Integración de datos mediante Common Data Service](data-entities/data-integration-cds.md) 
 #### [Configurar un escenario de cliente potencial a cliente](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Sincronizar productos de Finance and Operations con productos de Sales](../supply-chain/sales-marketing/products-template-mapping.md)
-##### [Sincronizar cuentas de Sales con clientes de Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
-##### [Sincronizar contactos de Sales con contactos o clientes de Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
-##### [Sincronizar encabezados y líneas de presupuesto de ventas de Sales con Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-##### [Sincronizar encabezados y líneas de pedido de ventas de Finance and Operations en Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-##### [Sincronizar encabezados y líneas de factura de Finance and Operations en Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [Sincronizar productos de Finance and Operations con productos de Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [Sincronizar cuentas de Sales con clientes de Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [Sincronizar contactos de Sales con contactos o clientes de Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [Sincronizar encabezados y líneas de presupuesto de ventas de Sales con Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Sincronizar encabezados y líneas de pedido de ventas de Finance and Operations en Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Sincronizar encabezados y líneas de factura de Finance and Operations en Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Sincronizar cuentas directamente desde Sales con clientes de Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Sincronizar productos directamente desde Finance and Operations con productos de Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Sincronizar contactos directamente desde Sales con contactos o clientes de Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
@@ -452,6 +452,8 @@
 
 ## [Usar su propia base de datos](analytics/export-entities-to-your-own-database.md)
 
+## [Recursos para responder a una solicitud de datos de RGPD](gdpr/gdpr-home-page.md)
+
 # [Página principal de entrega continua](dev-tools/continuous-delivery-home-page.md)
 ## [Preguntas frecuentes sobre desarrollo y entrega continua](dev-tools/continuous-delivery-faq.md)
 ## [Excluir paquetes de prueba de la salida de compilación](dev-tools/exclude-test-packages.md)
@@ -515,6 +517,7 @@
 ### [Crear un proyecto local](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Configurar e implementar entornos locales](deployment/setup-deploy-on-premises-environments.md)
 ### [Desarrollar e implementar modelos personalizados para entornos locales](deployment/develop-deploy-custom-models-on-premises.md)
+### [Configurar un proxy inverso para su entorno local](deployment/onprem-reverseproxy.md)
 ### [Aplicar actualizaciones a una implementación local](deployment/apply-updates-on-premises.md)
 ### [Reimplementar una implementación local](deployment/redeploy-on-prem.md)
 ### [Actualizar el agente local](lifecycle-services/update-local-agent.md)
@@ -527,7 +530,7 @@
 ### [Instalar un paquete implementable](deployment/install-deployable-package.md)
 ### [Solucionar problemas de aplicación de paquete](deployment/deployable-package-troubleshooting.md)
 
-# [Actualización y migración](migration-upgrade/upgrade-home-page.md)
+# [Cambios a versión superior, actualizaciones y sustituciones](migration-upgrade/upgrade-home-page.md)
 ## [Actualizar de AX 2012 a Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
 ### [Actualización de AX 2012: usar la herramienta de analizador de actualización para planificarla](migration-upgrade/upgrade-analyzer-tool.md)
 ### [Actualización de AX 2012: usar el servicio de actualización de código para calcular el esfuerzo](migration-upgrade/analyze-code-upgrade.md)
@@ -555,8 +558,7 @@
 ### [Dividir los modelos](dev-tools/model-split.md)
 ### [Usar delegados para solucionar las dependencias entre modelos](migration-upgrade/delegates-migration.md)
 
-
-## Cambiar a una actualización reciente
+## Cambiar a una actualización reciente (nube)
 ### [Proceso para cambiar a la actualización más reciente](migration-upgrade/upgrade-latest-update.md)
 ### [Directiva de ciclo de vida](migration-upgrade/versions-update-policy.md)
 ### [Aplicar la actualización de plataforma más reciente al entorno](migration-upgrade/upgrade-latest-platform-update.md)
@@ -564,13 +566,17 @@
 ### [Actualizar un entorno de espacio aislado](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Actualizar datos en entornos de desarrollo o demostración](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Actualizar las herramientas de desarrollo](dev-tools/update-development-tools.md)
+
+## Cambiar a una actualización reciente (local)
 ### [Aplicar actualizaciones a una implementación local](deployment/apply-updates-on-premises.md)
 ### [Reimplementar una implementación local](deployment/redeploy-on-prem.md)
 
-## Revisiones y mantenimiento
+## Revisiones
 ### [Descargar revisiones de Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
+### [Aplicar actualizaciones a un entorno de nube](deployment/apply-deployable-package-system.md)
 ### [Instalar una revisión de metadatos](migration-upgrade/install-metadata-hotfix-package.md)
 ### [Aplicar parche a Reporting Services en un entorno de un solo equipo](migration-upgrade/patch-reporting-service-environment.md)
+### [Actualizar las herramientas de desarrollo de Visual Studio](dev-tools/update-development-tools.md)
 
 ## Ceses de uso
 ### [API en desuso](migration-upgrade/deprecated-apis.md)
