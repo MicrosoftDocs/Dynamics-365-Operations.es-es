@@ -3,7 +3,7 @@ title: "Documentación de Microsoft Dynamics 365 for Finance and Operations, Ent
 description: "Documentación de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2017
+ms.date: 03/02/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
-ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
+ms.sourcegitcommit: 7142c6bcb6e98929afdb8bb982a17efc7223ab12
+ms.openlocfilehash: 0d12082a2b10ae8e83217c5451627239e6ec640b
 ms.contentlocale: es-es
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -43,15 +43,19 @@ Mucho de este contenido también se aplica a los productos relacionados: Microso
 <h3><a href="get-started/before-you-buy.md">Antes de comprar</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Registrarse para una suscripción de vista previa</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Elegir una opción de implementación</a></p>
-  <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
-  <p><a href="get-started/purchase-on-premises.md">Comprar Finance and Operations (local)</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Comprar Finance and Operations (local)</a></p>
 
+<h3><a href="imp-lifecycle/implementation-lifecycle.md">Ciclo de vida de la implementación</a></h3>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack para Dynamics 365</a></p>
+<p><a href="imp-lifecycle/onboard.md">Incorporación de un proyecto</a></p>
+<p><a href="imp-lifecycle/prepare-go-live.md">Preparación para la publicación</a></p>
+  
 <h3><a href="../financials/index.md">Administración financiera</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Proveedores</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Clientes</a></p>
 <p><a href="../financials/budgeting/budgeting-overview.md">Gestión presupuestaria</a></p>
 <p><a href="../financials/cash-bank-management/cash-bank-management.md">Gestión de efectivo y bancos</a></p>
-<p><a href="../financials/general-ledger/audit-policy-rules.md">Conformidad</a></p>
+<p><a href="../financials/general-ledger/audit-policy-rules.md">Cumplimiento</a></p>
 <p><a href="../financials/cost-accounting/cost-accounting-home-page.md">Contabilidad de costes</a></p>
 <p><a href="../financials/fixed-assets/fixed-assets.md">Activos fijos</a></p>
 <p><a href="../financials/general-ledger/general-ledger.md">Contabilidad general</a></p>
@@ -99,7 +103,8 @@ Mucho de este contenido también se aplica a los productos relacionados: Microso
 <p><a href="get-started/demo-data.md">Datos de demostración</a></p>
 
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Administración</h3>
-<p><a href="../dev-itpro/deployment/choose-deployment-type.md">Implementación</a></p>
+<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Implementación en la nube</a></p>
+<p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Implementación local</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Actualización</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Servicio</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Marco de administración de datos</a></p>

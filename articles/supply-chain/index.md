@@ -1,9 +1,9 @@
 ---
 title: "Página de inicio de gestión de la cadena de suministro"
-description: "En este tema, se proporciona una lista de temas de ayuda y otros recursos para las características de administración de la cadena de suministro de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "En esta página se proporciona una lista de temas de ayuda y otros recursos para las características de administración de la cadena de suministro de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 02/15/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
-ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
+ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
+ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
 ms.contentlocale: es-es
-ms.lasthandoff: 01/22/2018
+ms.lasthandoff: 02/21/2018
 
 ---
 
@@ -40,7 +40,7 @@ Vaya a <a href="https://roadmap.dynamics.com/">Guía básica de Dynamics 365</a>
 Seleccione un área de características para obtener más información al respecto.
 
 - [Contabilidad de costes](../financials/cost-accounting/cost-accounting-home-page.md)
-- [Gestión de costes](cost-management/costing-sheets.md)  
+- [Gestión de costes](cost-management/cost-management-home-page.md)  
 - [Gestión del inventario](inventory/inventory-home-page.md)
 - [Planificación maestra](master-planning/master-planning-home-page.md)
 - [Adquisición y abastecimiento](procurement/procurement-sourcing-overview.md)
@@ -56,6 +56,7 @@ Estos vídeos breves le ayudarán a descubrir las nuevas características inclui
 
 -  [Integración de cliente potencial a cliente](https://youtu.be/AVV9x5x-XCg) 
 -  [Asesor de optimización](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [Usar plantilla de almacén para copiar configuración](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 Estos vídeos breves le ayudarán a descubrir las nuevas características incluidas en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julio de 2017).
 
@@ -67,17 +68,36 @@ Estos vídeos breves le ayudarán a descubrir las nuevas características inclui
 
 Estas grabaciones de conferencia técnica describen la funcionalidad de los productos de la versión anterior de Finance and Operations, pero aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son similares. 
 
--  <a href="https://youtu.be/zotrj3SbCl4">Configurador de productos en Microsoft Dynamics AX</a>
--  <a href="https://youtu.be/7v8BPmEs9Dg">Planificación maestra: trucos y sugerencias para solucionar problemas de rendimiento</a>
--  <a href="https://youtu.be/RLXybx20B5o">! ¡Ayuda ¡La planificación maestra es lenta!</a>
--  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Procesamiento de avisos de envío por adelantado entrantes en Administración de almacenes</a> 
--  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">Saque el máximo partido al sistema de administración de almacenes</a>
--  <a href="https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s">Administración avanzada de almacenes de R3: procesamiento de entrada y reabastecimiento mínimo/máximo</a>
--  <a href="https://youtu.be/Og0gLlVp7jA">Administración avanzada de almacenes de R3: vida cotidiana, procesamiento de salida y reabastecimiento de la demanda</a>
--  <a href="https://youtu.be/5w1MngVchBA">Etiquetas en la nueva administración de almacenes de Microsoft Dynamics AX 2012 R3</a>
--  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3: Administración avanzada de almacenes - Vida cotidiana de la fabricación en procesos</a>
--  <a href="https://youtu.be/y1jrd3A_k70">Subcontratación de operaciones y actividades en la fabricación</a>
--  <a href="https://youtu.be/jgmTgJIgEFQ">Administración de transporte (TMS) en la nueva solución Microsoft Dynamics AX</a>
+**Gestión de costes**
+
+-  [Visión general de la gestión de costes](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+
+**Planificación maestra**
+
+-  [Extender la funcionalidad de previsión de la demanda](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+-  [Planificación maestra: trucos y sugerencias para solucionar problemas de rendimiento](https://youtu.be/7v8BPmEs9Dg)
+-  [Necesito ayuda: quiero que MRP funcione más rápido](https://youtu.be/RLXybx20B5o)
+
+**Gestión de información de productos**
+
+-  [Configurador de productos en Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
+
+**Gestión de almacenes** 
+
+-  [Procesamiento de avisos de envío por adelantado entrantes en Administración de almacenes](https://mix.office.com/watch/wpf78tr7rjuh)  
+-  [Sacar el máximo partido al sistema de administración de almacenes](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+-  [Administración avanzada de almacenes de R3: procesamiento de entrada y reabastecimiento mínimo/máximo](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+-  [Administración avanzada de almacenes de R3: vida cotidiana, procesamiento de salida y reabastecimiento de la demanda](https://youtu.be/Og0gLlVp7jA)
+-  [Etiquetas en la nueva administración de almacenes de Microsoft Dynamics AX 2012 R3](https://youtu.be/5w1MngVchBA)
+-  [Dynamics AX 2012 R3: Administración avanzada de almacenes - Vida cotidiana de la fabricación en procesos](https://www.youtube.com/embed/QUxXUrN-7n4)
+
+**Control de producción**
+
+-  [Subcontratación de operaciones y actividades en la fabricación](https://youtu.be/y1jrd3A_k70)
+
+**Administración de transporte**
+
+-  [Administración de transporte (TMS) en la nueva solución Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Blogs
 Hay muchos temas sobre la gestión de la cadena de suministro y la fabricación en el <a href="https://blogs.msdn.microsoft.com/axmfg/">blog del equipo de I+D de Dynamics AX Manufacturing</a> y en el <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">blog del equipo de I+D de la Administración de cadenas de suministros en Dynamics AX</a>. La mayoría de ellos se crearon para la versión anterior de Finance and Operations, pero aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son similares. 

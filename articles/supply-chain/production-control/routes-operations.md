@@ -1,7 +1,7 @@
 ---
 title: Rutas y operaciones.
 description: "Este tema proporciona información acerca de las rutas y las operaciones."
-author: YuyuScheller
+author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
