@@ -3,7 +3,7 @@ title: Financial Insights
 description: "Financial Insights utiliza Microsoft Power BI para reunir los indicadores clave de rendimiento financieros (KPI), los gráficos y los informes financieros."
 author: kweekley
 manager: AnnBe
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 3da5344ec6edec0af28aa21d45af962307231e67
+ms.sourcegitcommit: d527df21e791978b41527c01c2e6b68b393861ac
+ms.openlocfilehash: 90dc6214f1eb31440a3ec78a58c6a07394245cd2
 ms.contentlocale: es-es
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/28/2018
 
 ---
 
@@ -102,10 +102,15 @@ Actualmente, los datos en informes incrustados de Power BI no pueden limitarse a
 | Ver información financiera entre empresas   | •   En Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, este derecho no se asigna a un rol. • En la siguiente versión, este derecho se asignará al rol del director financiero. | •    Este derecho proporciona acceso al elemento del menú para el espacio de trabajo de la visión general de director financiero (CFO). •    De forma predeterminada, la empresa activa se usa como filtro. Sin embargo, puede agregar todas las entidades jurídicas, independientemente de si el usuario tiene acceso a otras entidades jurídicas.             |
 
 
-## <a name="how-financial-statements-work"></a>Cómo funcionan los informes financieros
+## <a name="financial-reporting-vs-finanical-insights"></a>Informe financiero frente Finanical Insights
 Aunque **Financial Insights** contiene informes financieros, no es una sustitución del informe financiero en Finance and Operations. Los informes financieros predeterminados en **Financial Insights** tienen un alcance limitado y no incluyen todos los tipos de informes financieros. El informe financiero sigue siendo la herramienta principal para diseñar, crear y generar informes financieros estatutarios.
 
-Además de los elementos visuales del espacio de trabajo original **Visión general de director financiero (CFO)**, ahora están disponibles nuevos KPI, gráficos e informes financieros. Están disponibles los siguientes informes financieros:
+El siguiente gráfico de comparación ayudará a diferenciar las dos opciones:
+
+|                                         | **Informe financiero**                            | **Financial Insights**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Edita informes predeterminados**                | Sí                                                | No                                 | | **Crea nuevos informes**                  | Sí                                                | No                                 | | **Imprime informes**                       | Sí                                                | No                                 | | **Se exporta a Excel**                     | Sí          | Limitado Exporta datos en bruto a Excel, no un informe formateado       | | **Admite jerarquía de informes/jerarquía de organización**   | Sí                               | No                                 | | **Informa sobre datos del subdiario contable**       | Sí Limitado a un único proveedor, cliente    | Sí Proveedor, cliente, grupos de proveedor/cliente, direcciones de proveedor/cliente, etc.  | | **Divisa de notificación**      | Sí Divisa de contabilidad y traduce a divisa de notificación       | No Solo divisa de contabilidad      | | **Seguridad**                | Sí Se adhiere a Finance and Operations y la seguridad del organigrama | Limitado Visualiza informes para todas las empresas (independientemente de la seguridad def Finance and Operations) o solo empresa activa | | **Admite diferentes planes de cuentas y ejercicios** | Sí                   | No                   | | **informa sobre datos externos**                              | No                   | No                                   | | **Admite consolidaciones**                               | Sí                          | Limitado Puede informar sobre múltiples empresas pero utiliza solo divisa de contabilidad                                     |
+
+
+Además de la interfaz de usuario en el espacio de trabajo original **Visión general de director financiero (CFO)**, ahora están disponibles nuevos KPI, gráficos e informes financieros. Están disponibles los siguientes informes financieros:
 
 •   Saldo de comprobación
 
@@ -113,7 +118,7 @@ Además de los elementos visuales del espacio de trabajo original **Visión gene
 
 •   Informe de ingresos por región
 
-•   Informe de ingresos real freten a presupuesto
+•   Informe de ingresos real frente a presupuesto
 
 •   Informe de ingresos con desviaciones
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,16 +17,17 @@ ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 599440449f1e8c8dcc3762ce9f6da7a37beb358f
+ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
+ms.openlocfilehash: 1492e4d8220a3d515145d97ef8dad048727d97c8
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/14/2018
 
 ---
 
 # <a name="import-iso20022-files"></a>Importar archivos ISO20022
 
-## <a name="overview"></a>Información general
+[!include[banner](../includes/banner.md)]
+
 Puede importar archivos de pago que tienen los siguientes formatos:
 
  - **Aviso de crédito ISO20022 camt.054**: se importan pagos entrantes de un archivo en este formato al diario de pagos de cliente.
@@ -40,7 +42,7 @@ Debe completar los requisitos previos siguientes para importar mensajes de notif
 4. En la página **Cuentas bancarias**, configure cuentas bancarias de entidades jurídicas especificando la siguiente información: IBAN o número de cuenta bancaria, y código SWIFT o número de ruta, divisa y dirección.
 
     > [!NOTE]
-    > Si tiene previsto usar la conciliación bancaria avanzada, en la ficha desplegable **Conciliación**, establezca la opción **Conciliación bancaria avanzada** en **Sí**. Si pretende conciliar pagos importados sin registrar, establezca la opción **Usar extractos bancarios como confirmación de pagos electrónicos** en **Sí**.
+        > Si tiene previsto usar la conciliación bancaria avanzada, en la ficha desplegable **Conciliación**, establezca la opción **Conciliación bancaria avanzada** en **Sí**. Si pretende conciliar pagos importados sin registrar, establezca la opción **Usar extractos bancarios como confirmación de pagos electrónicos** en **Sí**.
 
 5. Opcional: En la página **Asignación de código de transacción**, configure la asignación entre los códigos de transacción bancaria en los tipos de archivo y de transacción bancaria.
 6. Si el archivo contiene gastos de transacción que desea registrar junto con el pago de entrada, cree una cuota de pago en la página **Cuota de pago del cliente**. A continuación, en la página **Formas de pago**, asocie la cuota de pago con la cuenta bancaria en la configuración de cuota de pago.
@@ -53,9 +55,7 @@ Debe completar los requisitos previos siguientes para importar mensajes de notif
 ## <a name="import-the-camt054-credit-advice-file-into-the-customer-payment-journal"></a>Importación del archivo de aviso de crédito camt.054 al diario de pagos de cliente
 1. En la página **Líneas de diario de pago del cliente** , haga clic en **Funciones** > **Pagos de importación**.
 2. Seleccione el método de pago que tenga la configuración necesaria para el formato ISO20022 camt.054.
-3. Especifique los parámetros exigidos y la ruta del archivo y, a continuación, haga clic en **Aceptar**.
-
-El archivo se importa.
+3. Especifique los parámetros exigidos y la ruta del archivo y, a continuación, haga clic en **Aceptar**. El archivo se importa.
 
 ## <a name="prerequisites-for-importing-files-in-the-pain002-status-return-and-camt054-debit-advice-formats-into-the-ap-payment-transfer-journal"></a>Requisitos previos para importar archivos en los formatos de aviso de débito camt.054 y devolución de estado pain.002 al diario de transferencia de pagos de proveedores.
 Debe completar los requisitos previos siguientes para importar mensajes del banco en los siguientes formatos ISO20022 a la página **Transferencia de pago de proveedor**: mensajes de devolución de estado pain.002.001.003 y aviso de débito camt.054.001.002.

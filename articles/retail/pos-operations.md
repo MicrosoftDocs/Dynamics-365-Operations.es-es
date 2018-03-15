@@ -1,5 +1,5 @@
 ---
-title: Operaciones de PDV
+title: "Operaciones de PDV, en línea y sin conexión"
 description: "Este tema ofrece información sobre las operaciones de punto de venta (PDV) en Microsoft Dynamics 365 for Retail. Especifica en qué parte de la aplicación pueden invocarse las operaciones y si están disponibles en modo sin conexión."
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,17 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
-ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
+ms.sourcegitcommit: edfed83d4703c081d857faad0771dc1010be41b4
+ms.openlocfilehash: edd6dd23066eca782b8fd510dabab612241e480a
 ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 
-# <a name="pos-operations"></a>Operaciones de PDV
+# <a name="pos-operations-online-and-offline"></a>Operaciones de PDV, en línea y sin conexión
+
+[!include[banner](includes/banner.md)]
+
 La mayoría de las acciones que el usuario realiza en el punto de venta (PDV) se consideran operaciones. Las operaciones se configuran y administran en la oficina administrativa de Microsoft Dynamics 365 for Retail. Se pueden agregar muchas operaciones a los botones de la cuadrícula de botones de PDV. Los usuarios pueden seleccionar los botones para invocar las operaciones y para realizar su función. Otras operaciones son parte de la aplicación principal de PDV, y se invocan desde los botones de pantalla o como parte de otros flujos de trabajo o procesos.
 
 En la tabla siguiente se proporcionan los detalles de las operaciones disponibles en Retail Modern POS y Cloud POS para Dynamics 365 for Retail. La tabla también especifica en qué parte de la aplicación pueden invocarse las operaciones y si están disponibles cuando el PDV está en modo sin conexión.

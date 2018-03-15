@@ -18,14 +18,16 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ec6cb212766dd90fa9db7719a2119419ecb935c7
-ms.openlocfilehash: e0aa0e576f88fd497472aa4141704a66d51605c3
+ms.sourcegitcommit: 997b6843fb729ed204e4e8ec5369c5a380efc25e
+ms.openlocfilehash: fb36f6ce81c5e781e3c98132f18ecbd84d0d4089
 ms.contentlocale: es-es
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/12/2018
 
 ---
 
 # <a name="store-order-fulfillment"></a>Cumplimiento de pedido de almacén
+
+[!include[banner](includes/banner.md)]
 
 Muchos minoristas quisieran optimizar el cumplimiento de pedidos habilitando almacenes para atender pedidos. El cumplimiento de pedidos a nivel del almacén puede facilitar las escenarios de sobreabastecimiento para un almacén específico, o puede ser necesario desde un punto de vista logístico en caso de que tenga un almacén de capacidad adicional o se encuentre dentro de una distancia más cercana de envío al cliente. Para dirigir esta necesidad, una operación unificada de cumplimiento de pedido está disponible en el punto de venta.
 
@@ -56,7 +58,7 @@ Las líneas se pueden seleccionar mediante la función **Seleccionar** en el pan
 
 ## <a name="line-details"></a>Detalles de línea
 
-Los detalles de la línea se pueden mostrar mediante los detalles de la línea del menú flotante. Cuando se usa este menú, se proporcionan dos pestañas para mostrar información adicional para la línea seleccionada. La primera pestaña, **Detalles de la línea** muestra los detalles para la propia línea, como cantidad pedida y restante. Se proporcionan detalles adicionales, incluida la cantidad seleccionada, empaquetado y facturado, así como el modo y la dirección de entrega. La pestaña **Detalles de pedido** proporciona la información del encabezado del pedido del cliente, incluidos el identificador del cliente, el número de pedido, el total de pedido, y el balance.
+Los detalles de la línea se pueden mostrar mediante los detalles de la línea del menú flotante. Cuando se usa este menú, se proporcionan tres pestañas para mostrar información adicional para la línea seleccionada. La primera pestaña, **Detalles de la línea** muestra los detalles para la propia línea, como cantidad pedida y restante. Se proporcionan detalles adicionales, incluida la cantidad seleccionada, empaquetado y facturado, así como el modo y la dirección de entrega. La pestaña **Detalles de pedido** proporciona la información del encabezado del pedido del cliente, incluidos el identificador del cliente, el número de pedido, el total de pedido, y el balance. La pestaña **Inventario** muestra información de la línea seleccionada en cuanto a inventario disponible físico, inventario reservado e inventario pedido.
 
 Si se seleccionan varias líneas, el menú flotante de los detalles de la línea del pedido sólo indicará que varias líneas están seleccionadas. Para mostrar los detalles para una única línea, desactive líneas hasta que quede sólo una. 
 

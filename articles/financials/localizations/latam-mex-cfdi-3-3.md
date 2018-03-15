@@ -16,10 +16,10 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2017-12-01
 ms.translationtype: HT
-ms.sourcegitcommit: 40bfc3f1f7c5fe1eec788d252cbe7be7d1c7536f
-ms.openlocfilehash: 2c4c2fdac13a2520d91d6fdc83c5b034df175177
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 49e56b953b14aaf1c71caf2ab935e917f97fc4c5
 ms.contentlocale: es-es
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -228,7 +228,7 @@ Use la funcionalidad para asientos del diario de anticipos para emitir un antici
 ## <a name="step-2-issue-a-cfdi-invoice-together-with-details-of-the-advance-payment-that-was-applied"></a>Paso 2: Emitir una factura CFDI junto con los detalles del anticipo que se aplicó
 
 1. Cree una transacción de factura de ventas.
-2. Antes de registrar la factura, puede establecer el anticipo que creó en el [Paso 1: Emitir un anticipo de CFDI](#step-1-issuing-cfdi-for-advance-payment). Para liquidar el anticipo, utilice la opción **Liquidación de transacción abierta** .
+2. Antes de registrar la factura, puede establecer el anticipo que creó en el [Paso 1: Emitir un anticipo de CFDI](#step-1-issue-a-cfdi-advance-payment). Para liquidar el anticipo, utilice la opción **Liquidación de transacción abierta** .
 3. En la página **Registrar**, puede verificar la factura CFDI a la que se hace referencia. La factura se crea automáticamente y el tipo de relación (**cTipoRelacion**) se establece en **07**.
 4. Registre la factura de ventas.
 
@@ -237,7 +237,7 @@ Use la funcionalidad para asientos del diario de anticipos para emitir un antici
 
 ## <a name="step-3-issue-a-cfdi-advance-payment-reverse"></a>Paso 3: Emitir una inversión de anticipo de CFDI
 
-Una vez que la empresa emite una factura CFDI por el importe total de la operación, debe enviar una inversión de anticipo de CFDI (Egreso) para el anticipo que se liquidó. Esta inversión de anticipo de CFDI se genera automáticamente cuando recibe la aprobación de la factura CFDI que generó en el [Paso 2: Emitir una factura CFDI junto con los detalles del anticipo que se aplicó](#step-2-issuing-cfdi-invoice-with-advance-application).
+Una vez que la empresa emite una factura CFDI por el importe total de la operación, debe enviar una inversión de anticipo de CFDI (Egreso) para el anticipo que se liquidó. Esta inversión de anticipo de CFDI se genera automáticamente cuando recibe la aprobación de la factura CFDI que generó en el [Paso 2: Emitir una factura CFDI junto con los detalles del anticipo que se aplicó](#step-2-issue-a-cfdi-invoice-together-with-details-of-the-advance-payment-that-was-applied).
 
 En función de la solicitud de un cliente, puede usar la consulta de la factura electrónica CFDI para ver, enviar por correo electrónico, exportar o imprimir un complemento de pago de CFDI que se generó anteriormente. Selecione **Clientes** &gt; **Consultas e informes** &gt; **CFDI (facturas electrónicas)** y, a continuación, seleccione la pestaña **Pago**. La factura electrónica CFDI impresa incluye un código de barras bidimensional de acuerdo con el formato para códigos QR que se describe en la norma 18004 ISO/IEC.
 

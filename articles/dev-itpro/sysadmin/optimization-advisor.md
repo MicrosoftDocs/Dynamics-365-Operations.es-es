@@ -3,7 +3,7 @@ title: "Cree reglas para el asesor de optimización"
 description: "Este tema describe cómo agregar nuevas reglas al asesor de optimización."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 01/23/2018
+ms.date: 02/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core (Operations, Core)
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
-ms.openlocfilehash: 88739298405343a36ae5bc11f51c666c414e7157
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: e64d4fc1a7425d38d728b11e503d3e7289312495
 ms.contentlocale: es-es
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -170,6 +170,9 @@ En función de los detalles de la regla, es posible realizar una acción automá
 
 **securityMenuItem** devuelve el nombre de un elemento de menú de acción de modo que la regla solo está visible para los usuarios que pueden acceder al elemento de menú de acción. La seguridad puede requerir que las reglas y oportunidades específicas estén accesibles solo para usuarios autorizados. En el ejemplo, solo los usuarios con acceso a **PurchRFQCaseTitleAction** pueden ver la oportunidad. Tenga en cuenta que este elemento de menú de acción se creó para este ejemplo, y se agregó como punto de entrada para el privilegio de seguridad **PurchRFQCaseTableMaintain**. 
 
+> [!NOTE]
+> El elemento de menú debe ser un elemento de menú de acción para que la seguridad funcione correctamente. Otros tipos de elementos de menú, como **Elementos del menú de visualización**, no funcionarán correctamente.
+
 ```
 public MenuName securityMenuItem() 
 { 
@@ -192,6 +195,65 @@ class ScanNewRulesJob
 ```
 
 La regla se mostrará en el formulario **Regla de validación de diagnósticos**, disponible en **Administración del sistema** > **Tareas periódicas** > **Mantener regla de validación de diagnósticos**. Para que sea evaluada, vaya a **Administración del sistema** > **Tareas periódicas** > **Programación de la regla de validación de diagnósticos**, seleccione la frecuencia de la regla, como **Diaria**. Haga clic en **Aceptar**. Vaya a **Administración del sistema** > **Asesor de optimización** para ver la nueva oportunidad. 
+
+El siguiente ejemplo es un fragmento de código con el esqueleto de una regla, incluidos todos los métodos y atributos necesarios. Le ayuda a iniciarse con la escritura de nuevas reglas. Las etiquetas y los elementos de menú de acción que se usan en el ejemplo se utilizan solo para efectos de demostración.
+
+```
+[DiagnosticsRuleAttribute]
+public final class SkeletonSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule
+{
+    [DiagnosticsRuleSubscription(DiagnosticsArea::SCM,
+                                 "@SkeletonRuleLabels:SkeletonRuleTitle", // Label with the title of the rule
+                                 DiagnosticsRunFrequency::Monthly,
+                                 "@SkeletonRuleLabels:SkeletonRuleDescription")] // Label with a description of the rule
+    public str opportunityTitle()
+    {
+        // Return a label with the title of the opportunity
+        return "@SkeletonRuleLabels:SkeletonOpportunityTitle";
+    }
+
+    public str opportunityDetails(SelfHealingOpportunity _opportunity)
+    {
+        str details = "";
+
+        // Use _opportunity.data to provide details on the opportunity
+
+        return details;
+    }
+
+    protected List evaluate()
+    {
+        List results = new List(Types::Record);
+
+        // Write here the core logic of the rule
+
+        // When creating an opportunity, use:
+        //     * this.getOpportunityForCompany() for company specific opportunities
+        //     * this.getOpportunityAcrossCompanies() for cross-company opportunities
+
+        return results;
+    }
+
+    public boolean providesHealingAction()
+    {
+        return true;
+    }
+
+    protected void performAction(SelfHealingOpportunity _opportunity)
+    {
+        // Place here the code that performs the healing action
+
+        // To open a form, use the following:
+        // new MenuFunction(menuItemDisplayStr(SkeletonRuleDisplayMenuItem), MenuItemType::Display).run();
+    }
+
+    public MenuName securityMenuItem()
+    {
+        return menuItemActionStr(SkeletonRuleActionMenuItem);
+    }
+
+}
+```
 
 Para obtener más información, observe el breve vídeo de YouTube:
 

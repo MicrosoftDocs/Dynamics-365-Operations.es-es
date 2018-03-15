@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 87ade03ec2ba78c4d7f5832bfa6dc1b7eabd8d94
+ms.sourcegitcommit: a05fec7b79003d5b98470d85644d70bd1dbac285
+ms.openlocfilehash: 9e0c61505a8af864d7ff38655e7e896c4f6ccb65
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 
@@ -93,6 +93,11 @@ Puede descargar un archivo zip para el paquete de datos. Este archivo contiene t
 5. Seleccione **Importar**. En el vista **Ampliado**, puede usar la opción **Filtro** para obtener rápidamente una visión general de problemas que podrían producirse durante la importación.
 
 El registro **Ejecución de la vista** proporciona información detallada acerca de cada entidad de datos que se importe. Puede usar la vista de datos provisional para obtener rápidamente los datos de destino. De esta manera, puede ver cómo se muestran los datos importados en las páginas relacionadas en la aplicación. Al utilizar las plantillas de datos predeterminadas, la secuencia de importación para cada entidad de datos funciona de la forma predefinida, para ayudar a garantizar que todos los datos dependiente se importen primero. Si las entidades personalizadas de los datos son parte del proyecto, debe asegurarse de que se ha definido la secuencia correcta. Para obtener más información, consulte [Plantillas de datos de configuración](../../dev-itpro/data-entities/configuration-data-templates.md).
+
+Para obtener más información acerca de cómo usar la plantilla del almacén para copiar la configuración de un almacén de una empresa a una nueva empresa dentro de la misma instancia, vea este vídeo de 3 minutos en YouTube.
+
+> [!Video https://www.youtube.com/embed/K2WIfFlqJYs]
+
 
 ## <a name="related-topic"></a>Tema relacionado
 

@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5737d9c52727077d34c6f5553c9788bf07032914
-ms.openlocfilehash: 0521f0b443efb761e7d3f63182728dd836dbf8a0
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: 0f83735ec42e945c5e0abf8d72b83936e076e60e
 ms.contentlocale: es-es
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 02/27/2018
 
 ---
 
@@ -33,7 +33,9 @@ ms.lasthandoff: 01/15/2018
 
 
 > [!NOTE]
-> Este tema describe cómo configurar el almacenamiento para implementaciones en la nube. Si busca cómo configurar el almacenamiento para implementaciones locales, consulte [Almacenamiento para implementaciones locales](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/warehousing-for-on-premise-deployments).
+
+> Este tema describe cómo configurar el almacenamiento para implementaciones en la nube. Si busca cómo configurar el almacenamiento para implementaciones locales, consulte [Almacenamiento para implementaciones locales](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+
 
 Este tema describe cómo instalar y configurar Microsoft Dynamics 365 for Finance and Operations - Warehousing.
 
@@ -44,7 +46,7 @@ La aplicación está disponible para los sistemas operativos Android y Windows. 
 
 | Plataforma                    | Versión                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Android                     | 4.4, 5.0, 6.0                                                                                                                                                               |
+| Android                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
 | Windows (UWP)               | Windows 10 (todas las versiones)                                                                                                                                                   |
 | Finance and Operations | Microsoft Dynamics 365 for Operations, versión 1611 <br>– O bien – <br>La versión 7.0/7.0.1 de Microsoft Dynamics AX y la plataforma de Microsoft Dynamics AX actualización 2 con la revisión KB 3210014 |
 
@@ -93,7 +95,7 @@ Debe configurar la aplicación en el dispositivo para conectarse al servidor Fin
     + **Id. de cliente de Azure Active Directory** - El identificador secreto de cliente se obtiene en el paso 9 en "Crear una aplicación de servicio Web en Active Directory". 
     + **Secreto de cliente de Azure Active Directory** - El secreto de cliente se obtiene en el paso 11 en "Crear una aplicación de servicio Web en Active Directory". 
     + **Recurso de Azure Active Directory** - El recurso del directorio Azure AD representa la URL raíz de Finance and Operations. **Nota**: No termine este campo con un carácter de barra diagonal (/). 
-    + **Inquilino de Azure Active Directory**- El inquilino del directorio Azure AD empleado con el servidor de Finance and Operations: https://login.windows.net/your-AD-tenant-ID. Por ejemplo: https://login.windows.net/contosooperations.onmicrosoft.com.
+    + **Inquilino de Azure Active Directory**: el inquilino del directorio Azure AD empleado con el servidor de Finance and Operations: `https://login.windows.net/your-AD-tenant-ID`. Por ejemplo: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Nota**: No termine este campo con un carácter de barra diagonal (/). 
     + **Empresa** - Especifique la entidad jurídica en Finance and Operations a la que desea que se conecte la aplicación. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Seleccione el botón **Atrás** en la esquina superior izquierda de la aplicación. La aplicación se conectará ahora a su servidor Finance and Operations y aparecerá la pantalla de inicio de sesión del trabajador de almacén. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
@@ -103,7 +105,7 @@ En caso de un dispositivo perdido o defectuoso, debe quitar el acceso a Finance 
 
 1.  En Finance and Operations, vaya a **Administración del sistema** &gt; **Configuración** &gt; **Aplicaciones de Azure Active Directory**.
 2.  Elimine la línea correspondiente al dispositivo del que desea eliminar el acceso. Recuerde el **Id. del cliente** empleado para el dispositivo eliminado, lo necesitará más adelante.
-3.  Inicie sesión en el portal de Azure en <https://portal.azure.com>.
+3.  Inicie sesión en el portal Azure en <https://portal.azure.com>.
 4.  Haga clic en el icono de **Active Directory** en el menú izquierdo y asegúrese de que se encuentra en el directorio correcto.
 5.  En la lista, haga clic en **Registros de aplicación** y, a continuación, haga clic en la aplicación que desea configurar. La página **Valores** aparecerá con la información de configuración.
 6.  Asegúrese de que el **Id. del cliente** de la aplicación es el mismo que en el paso 2 de esta sección.

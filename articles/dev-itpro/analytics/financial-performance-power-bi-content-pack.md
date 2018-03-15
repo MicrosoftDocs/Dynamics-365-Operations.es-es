@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
-ms.openlocfilehash: 53d0654608e99aa85a5911d76397fbc7fadbf26e
+ms.sourcegitcommit: 7b5c4428c8610a7b2d4cf1a28287ba2bb1f9c2ea
+ms.openlocfilehash: b7cb5f2096f0be5211024fc6ecbfaa61d6c48c9a
 ms.contentlocale: es-es
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 02/06/2018
 
 ---
 
@@ -29,7 +29,8 @@ ms.lasthandoff: 02/02/2018
 
 [!include[banner](../includes/banner.md)]
 
-> [Nota] Este paquete de contenido se ha dejado de utilizar como documentado en [Paquetes de contenido de Power BI publicados en PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+> [!Note]
+> Este paquete de contenido se ha dejado de utilizar como documentado en [Paquetes de contenido de Power BI publicados en PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
 
 Este tema describe el contenido en Microsoft Power BI de **Rendimiento financiero**. Describe el panel de información y los informes incluidos y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
