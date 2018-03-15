@@ -3,7 +3,7 @@ title: "Características en desuso"
 description: "Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen."
 author: sericks007
 manager: AnnBe
-ms.date: 11/28/2017
+ms.date: 02/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: addd8c62ba034b47d8abbec29fa8682deb9698b1
+ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
+ms.openlocfilehash: 03b79816ffea649cf226408ed4660c3419103a7a
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -40,6 +40,17 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 > Desde Dynamics 365 for Finance and Operations, Enterprise Edition, versión de julio de 2017 con la plataforma actualiza 8, indican el tipo de implementaciones para cada características quitada u obsoleta. Todas las versiones anteriores de la lista de este tema admitían implementaciones de la nube únicamente.
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 con acutlización 12 de la plataforma
+
+### <a name="personalized-product-recommendations"></a>Recomendaciones de productos personalizados 
+A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendaciones personalizadas de productos en un dispositivo de punto de venta (PDV). Para obtener más información, consulte [Recomendaciones personalizadas de productos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Estamos retirando la versión actual del servicio de recomendación de productos ya que rediseñamos esta función con un algoritmo mejor y capacidades más nuevas orientadas a la venta minorista.  |
+| **¿Reemplazado por otra característica?**   | N. º Sin embargo, después de la primavera de 2018, tenemos previsto volver a traer esta función para utilizar un nuevo servicio de recomendación.   |
+| **Áreas de producto afectadas**         | Recomendaciones de productos personalizados en PDV.                                                    |
+| **Opción de implementación**              | Todas                                                                                      |
+| **Estado**                         |Se quitó el 15 de febrero de 2018. Esto afecta a los clientes que ejecutan Dynamics 365 for Operations 1611 y posteriores.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Ampliación de la lista de funciones de Informes electrónicos (ER)
 La posibilidad de especificar las funciones personalizadas que se utilizarán en el generador de expresiones de ER (para obtener más información, consulte [Extiende la lista de funciones electrónicas de informes](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) no se admite más. Debido a los cambios de ER API, API para llamar funciones integradas del generador de expresiones de ER se han hecho interno y ya no se puede extender.
@@ -132,6 +143,19 @@ Los usuarios pueden descargar esto del portal gubernamental.
 | **Opción de implementación**                       | Todos los módulos                                                                    |
 | **Estado**                                  | En desuso: No se ha establecido una fecha de eliminación para esta función.  |    
 
+
+## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
+
+### <a name="personalized-product-recommendations"></a>Recomendaciones de productos personalizados 
+A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendaciones personalizadas de productos en un dispositivo de punto de venta (PDV). Para obtener más información, consulte [Recomendaciones personalizadas de productos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Estamos retirando la versión actual del servicio de recomendación de productos ya que rediseñamos esta función con un algoritmo mejor y capacidades más nuevas orientadas a la venta minorista.  |
+| **¿Reemplazado por otra característica?**   | N. º Sin embargo, después de la primavera de 2018, tenemos previsto volver a traer esta función para utilizar un nuevo servicio de recomendación.   |
+| **Áreas de producto afectadas**         | Recomendaciones de productos personalizados en PDV.                                                    |
+| **Opción de implementación**              | Todas                                                                                      |
+| **Estado**                         |Se quitó el 15 de febrero de 2018. Esto afecta a los clientes que ejecutan Dynamics 365 for Retail 7.2 y posteriores. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise Edition julio 2017 con acutlización 8 de la plataforma

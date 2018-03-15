@@ -18,14 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 6aec3532a36a2c1e67ee0c189e45a352ad7670f6
+ms.sourcegitcommit: a1e539c283800035327196520f6438904c94126d
+ms.openlocfilehash: 0affc07293c886c4c65f99259eb19f1998f277f6
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/04/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Liberar las líneas de LM y fórmula al almacén
+
+[!include[banner](../includes/banner.md)]
 
 En este tema se describe el proceso para liberar la materia prima para las líneas de lista de materiales (LM) y las líneas de fórmula al almacén. Cuando libera una LM o una línea de fórmula al almacén, primero el sistema determina si los materiales están disponibles ya en la ubicación de entrada de producción de la planta donde el material será consumido para el proceso de producción.
 
@@ -40,6 +42,9 @@ El método que se usa para liberar LM y las líneas de fórmula se controal con 
 
 - **Liberar LM y las líneas de fórmula como parte de liberación de la producción o del pedido de lote** En este método, la LM y las líneas de fórmula para una producción o un pedido de lote se liberan como parte del proceso de liberación del pedido. Normalmente, durante la liberación de un peidod o lote producción, los trabajos de producción se liberan a los trabajadores de la planta y se imprimen los documentos de producción. Durante este proceso, el estado del pedido también cambia a **Liberado**.
 - **Liberar LM y las líneas de fórmula mediante un trabajo por lotes o como interacción manual** En este método, la LM y las líneas de fórmula se pueden liberar sólo con el trabajo por lotes **Liberación automática de LM y líneas de fórmula** o como interacción manual. Para liberar manualmente la LM y las líneas de fórmula, en la página de lista del pedido de producción o la página de detalles del pedido de producción, en el panel de acciones, seleccione **Liberar a almacén**.
+
+Para una demostración rápida de cómo liberar L. MAT. y las líneas de fórmula a la producción mediante un trabajo por lotes, vea este breve vídeo de YouTube:
+[!Video https://www.youtube.com/embed/8urAJn50dQ8]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Liberar la LM y las líneas de fórmula mediante un trabajo por lotes
 
@@ -79,6 +84,9 @@ Para controlar las operaciones a las que liberarse el material debe , use la pá
 La ilustración siguiente muestra un pedido de producción que tiene dos operaciones, 10 y 20. En este ejemplo, si se limita la liberación a la operación 10, solo el material M9203 será liberado.
 
 ![Ejemplo de liberación del material por el número de operación](media/two-operations.PNG)
+
+Para una demostración rápida de cómo liberar el material en proporción a la cantidad de producto terminado, vea este breve vídeo de YouTube:
+[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Liberación de material en proporción a la cantidad de producto terminado
 

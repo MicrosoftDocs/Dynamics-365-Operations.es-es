@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7bcc8464d34c35423e86c963c6b493fc09db4472
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: fc0e71e2ffc2adbaed598f788141b651fbcc616a
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -48,7 +48,7 @@ Para buscar la versión más reciente para cada explorador web, vaya al sitio we
 > * El editor de flujo de trabajo se inicia como aplicación ClickOnce. Solo Microsoft Edge y Internet Explorer (en una versión compatible de Microsoft Windows) admiten aplicaciones ClickOnce. La aplicación ClickOnce del editor de flujo de trabajo requiere un sistema operativo compatible de 64 bits.
 > * Para obtener una vista previa de los archivos PDF, se recomienda que use exploradores modernos como Microsoft Edge (la última versión disponible para el público) en Windows 10, o Google Chrome (la última versión disponible para el público) en tabletas con Windows 10, Windows 8.1, Windows 8, Windows 7, o Google Nexus 10.
 Requisitos de red
-> * Dynamics 365 for Talent está diseñado para redes con latencia de 250-300 milisegundos (ms) o menos. Esta es la latencia de un cliente de explorador al centro de datos de Microsoft Azure que aloja Dynamics 365 for Talent. Se recomienda que pruebe latencia de red en [www.azurespeed.com] (http://www.azurespeed.com "Prueba de latencia de Azure").
+> * Dynamics 365 for Talent está diseñado para redes con latencia de 250-300 milisegundos (ms) o menos. Esta es la latencia de un cliente de explorador al centro de datos de Microsoft Azure que aloja Dynamics 365 for Talent. Se recomienda que pruebe la latencia de red en [www.azurespeed.com] (http://www.azurespeed.com "Prueba de latencia de Azure").
 > * Los requisitos del ancho de banda para Dynamics 365 for Talent dependen de su caso. La mayoría de las situaciones habituales requieren un ancho de banda de más de 50 kilobytes por segundo (Kbps).
 
 > [!WARNING]
@@ -56,7 +56,7 @@ Requisitos de red
 
 ## <a name="supported-microsoft-office-applications"></a>Aplicaciones de Microsoft Office compatibles
 
-*   Para ejecutar los complementos de Microsoft Excel y Word, es necesario tener instalado Microsoft Office 2016 para Windows o Mac. Para obtener más información acerca de los requisitos de la versión, consulte [solucionador de problemas de integración de Office] (../dev-itpro/office-integration/office-integration-troubleshooting.md "solucionador de problemas de integración de Office").
+*   Para ejecutar los complementos de Microsoft Excel y Word, es necesario tener instalado Microsoft Office 2016 para Windows o Mac. Para obtener más información acerca de los requisitos de la versión, consulte la [Solución de problemas de la integración de Office] (../dev-itpro/office-integration/office-integration-troubleshooting.md "Solución de problemas de la integración de Office").
 *   Para ver los documentos que se generan mediante la funcionalidad de exportación a Excel o exportación a Word, debe tener instalado Microsoft Office 2007 o una versión posterior.
 
 ## <a name="update-policy"></a>Directiva de actualización

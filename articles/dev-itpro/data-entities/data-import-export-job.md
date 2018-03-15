@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 40bfc3f1f7c5fe1eec788d252cbe7be7d1c7536f
-ms.openlocfilehash: 3bd6eaa0518bd4752704836c04457dccd486d692
+ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
+ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
 ms.contentlocale: es-es
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/13/2018
 
 ---
 
@@ -50,6 +50,9 @@ Aquí tiene los pasos que debe realizar para importar o exportar datos.
 6. Limpie las tablas de almacenamiento provisional.
 
 En las secciones restantes de este tema se proporcionan más detalles acerca de cada paso del proceso.
+
+> [!NOTE]
+> Para actualizar el formulario de importación y exportación de datos para ver el último progreso, utilice el icono de actualización del formulario. No se recomienda la actualización del nivel del explorador porque interrumpirá cualquier trabajo de importación o exportación que no se ejecute en lote.
 
 ## <a name="create-an-import-or-export-job"></a>Crear un trabajo de importación o exportación
 Un trabajo de importación o exportación de datos puede ejecutarse una o varias veces.

@@ -1,6 +1,6 @@
 ---
-title: Buscar los productos y variantes de producto durante la entrada de pedidos
-description: "Utilice el campo <strong>Número de artículo</strong> para buscar los productos y las variantes del producto cuando cree una línea de pedido de ventas o de pedido de compras manualmente.  Esto le permite buscar rápidamente variantes de producto cuando solo dispone de la cadena de configuración o de una de las dimensiones del producto."
+title: Permite buscar los productos y variantes de producto durante la entrada de pedidos
+description: "Utilice el campo <strong>Número de artículo </strong>para buscar los productos y las variantes del producto cuando cree una línea de pedido de ventas o de pedido de compras manualmente.  Esto le permite buscar rápidamente variantes de producto cuando solo dispone de la cadena de configuración o de una de las dimensiones del producto."
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a834cb513d95c0244a29e1f9ec196020698c5983
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 08715b4c31c42dfa23d72b1035a1e7cc737c13a2
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
