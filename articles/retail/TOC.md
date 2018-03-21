@@ -39,8 +39,9 @@
 # Configuración y gestión de canal
 ## [Inicializar datos semilla en un entorno de Retail](enable-configure-retail-functionality.md)
 ## [Definir los canales comerciales](define-maintain-retail-channels.md)
+## [Administración de surtidos.](assortments.md)
 ## [Visión general de la tienda en línea](online-stores.md)
-## [Instalar y configurar una estación de hardware de Retail](retail-hardware-station-configuration-installation.md)
+## [Instalar y configurar una Retail hardware station](retail-hardware-station-configuration-installation.md)
 ## [Tiempo y asistencia en Retail](retail-time-attendance.md)
 
 # Modern Point of Sale (MPOS) y Cloud POS
@@ -53,8 +54,9 @@
 ### [Simulador periférico de Retail](dev-itpro/retail-peripheral-simulator.md)
 ### [Definir y mantener clientes de canal, registradoras y estaciones de hardware](define-maintain-channel-clients-registers-hw-stations.md)
 ## Diseño de pantalla
-### [Configurar diseños de pantalla para el POS](pos-screen-layouts.md)
-### [Instalar el diseñador de estructura del Retail POS](install-pos-layout-designer.md)
+### [Configurar diseños de pantalla para POS](pos-screen-layouts.md)
+### [Instalar el diseñador de Retail POS](install-pos-layout-designer.md)
+### [Elegir configuración de notificación](Notifications-POS.md)
 ### [Configuración de idioma del usuario y aplicación de POS](pos-application-user-language-settings.md)
 ### [Configurar imágenes de MPOS](set-up-manage-images-retail-mpos.md)
 ## [Visión general de códigos de información](info-codes-retail.md) 
@@ -99,9 +101,10 @@
 
 # Productos y comercialización
 ## [Información general del producto](../supply-chain/pim/product-information.md)
-## [Jerarquías de Retail](retail-hierarchies.md)
+## [Jerarquías comerciales](retail-hierarchies.md)
+## [Visión general de atributos y grupos de atributos](attribute-attributegroups-lifecycle.md)
 ## [Crear y gestionar atributos](create-manage-attributes.md)
-## [Configurar productos comerciales](set-up-retail-products.md)
+## [Configurar productos de Retail](set-up-retail-products.md)
 ## [Dimensiones de producto](../supply-chain/pim/product-dimensions.md)
 ## [Configuración de códigos de barras](set-up-bar-codes.md)
 ## [Configuración de máscaras de código de barras](set-up-bar-code-masks.md)
@@ -129,12 +132,22 @@
 
 # Recursos humanos
 ## [Organizar los recursos mediante departamentos, trabajos y puestos](../talent/departments-jobs-positions.md)
-## [Configuración de los componentes de un trabajo](../talent/create-job.md)
+## [Configurar los componentes de un trabajo](../talent/create-job.md)
+
+# Características normativas y de localización
+## India
+### [Integración de GST para cajas registradoras para la India](localizations/apac-ind-cash-registers.md)
+### [Directrices de implementación de cajas registradoras para la India](localizations/apac-ind-loc-deployment-guidelines.md)
+## Noruega
+### [Cajas registradoras para Noruega](localizations/emea-nor-cash-registers.md)
+### [Directrices de implementación de cajas registradoras para Noruega](localizations/emea-nor-loc-deployment-guidelines.md)
+## Suecia
+### [Cajas registradoras para Suecia](localizations/emea-swe-cash-registers.md)
 
 # Tareas de Retail
 ## [Crear un producto](../supply-chain/pim/tasks/create-product.md)
 ## [Configurar productos vinculados](../supply-chain/pim/tasks/configure-linked-products.md)
-## [Liberar un producto o un producto maestro a otras entidades jurídicas](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
+## [Lanzar un producto o un producto maestro para entidades jurídicas](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
 ## [Precio base y acuerdos comerciales](tasks/base-price-trade-agreements.md)
 ## [Reglas de precios de categoría para crear acuerdos comerciales](tasks/category-pricing-rules-trade-agreements.md)
 ## [Configurar el procesamiento de tarjeta de crédito](tasks/configure-credit-card-processing.md)
@@ -247,14 +260,10 @@
 ### [Crear un instalador de Windows para un conector de pago](dev-itpro/create-windows-installer-payment-connector.md)
 
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
-### [Integrar el Retail SDK con el sistema de compilación continua](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
-### [Ejemplos de extensibilidad del Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [Cajas registradoras para Suecia](localizations/emea-swe-cash-registers.md)
-### [Muestra de integración de Retail POS con unidades de control para Suecia](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [Cajas registradoras para Noruega](localizations/emea-nor-cash-registers.md)
-### [Directrices de implementación de cajas registradoras para Noruega](localizations/emea-nor-loc-deployment-guidelines.md)
-### [Paquetes del Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
-### [Ejemplos del Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+### [Integrar el SDK de Retail con el sistema de compilación continua](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
+### [Ejemplos de extensibilidad de SDK de Retail](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
+### [Paquetes de SDK de Retail](dev-itpro/retail-sdk/retail-sdk-packaging.md)
+### [Ejemplos de SDK de Retail ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Extensiones de base de datos de canal](dev-itpro/channel-db-extensions.md)
 ### [Extensibilidad de CDX](dev-itpro/cdx-extensibility.md)
 ### [Atributos de pedido](dev-itpro/order-attributes.md)
