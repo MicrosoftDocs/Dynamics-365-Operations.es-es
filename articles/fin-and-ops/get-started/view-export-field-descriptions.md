@@ -1,7 +1,7 @@
 ---
 title: Ver y exportar descripciones de campos
 description: "En este artículo se describe cómo ver las descripciones de campos y cómo utilizar la página Descripciones de campos para exportar las descripciones."
-author: YuyuScheller
+author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.scope: Core, Operations
 ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
-ms.author: yuyus
+ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6426f208a51ffbf72c6faa8cb281aba2984052d7
+ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
+ms.openlocfilehash: cfe5126841905248d0ab04ed9a718098c11bbd22
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -77,7 +77,7 @@ ms.lasthandoff: 11/03/2017
     -   <span data-ttu-id="899ac-142">Si hay más de una coincidencia exacta, no se muestran descripciones.</span><span class="sxs-lookup"><span data-stu-id="899ac-142">If there is more than one exact match, no descriptions are shown.</span></span> <span data-ttu-id="899ac-143">Debe abrir la lista desplegable y seleccionar la página que desea.</span><span class="sxs-lookup"><span data-stu-id="899ac-143">You must open the drop-down list and select the page that you want.</span></span>
     -   <span data-ttu-id="899ac-144">Si el nombre que ha escrito forma parte del nombre de otra página, vea las descripciones de la página.</span><span class="sxs-lookup"><span data-stu-id="899ac-144">If the name that you typed is part of the name of another page, you see the descriptions for your page.</span></span> <span data-ttu-id="899ac-145">Sin embargo, si abre la lista desplegable, consulte las páginas adicionales que contienen ese nombre.</span><span class="sxs-lookup"><span data-stu-id="899ac-145">However, if you open the drop-down list, you see additional pages that contain that name.</span></span>
 
-<span data-ttu-id="899ac-146">Por ejemplo, no se muestran descripciones al escribir **Recuento** en el campo ****Seleccionar una página***.</span><span class="sxs-lookup"><span data-stu-id="899ac-146">For example, no descriptions are shown when you type **Counting** in the ****Select a page**** field.</span></span> <span data-ttu-id="899ac-147">Abre la lista desplegable y ve que hay dos páginas con el nombre **Recuento**, así como varias páginas que contienen la palabra "Recuento" en el nombre.</span><span class="sxs-lookup"><span data-stu-id="899ac-147">You open the drop-down list, and see that there are two pages that have the name **Counting** and several pages that contain the word "Counting" in the name.</span></span> <span data-ttu-id="899ac-148">Si selecciona la página que tiene el nombre AOT **InventJournalCount**, se muestran las descripciones de campo de esa página.</span><span class="sxs-lookup"><span data-stu-id="899ac-148">If you select the page that has the AOT name **InventJournalCount**, the field descriptions are shown for that page.</span></span> <span data-ttu-id="899ac-149">Sin embargo, si vuelve a abrir la lista desplegable, verá que, ahora, la lista contiene todas las páginas que tienen "InventJournalCount" como parte de su nombre de AOT.</span><span class="sxs-lookup"><span data-stu-id="899ac-149">However, if you open the drop-down list again, you will see that the list now contains all pages that have "InventJournalCount" as part of their AOT name.</span></span>
+<span data-ttu-id="899ac-146">Por ejemplo, no se muestran descripciones al escribir **Recuento** en el campo \*\*\*\*Seleccionar una página\*\*\*.</span><span class="sxs-lookup"><span data-stu-id="899ac-146">For example, no descriptions are shown when you type **Counting** in the ****Select a page**** field.</span></span> <span data-ttu-id="899ac-147">Abre la lista desplegable y ve que hay dos páginas con el nombre **Recuento**, así como varias páginas que contienen la palabra "Recuento" en el nombre.</span><span class="sxs-lookup"><span data-stu-id="899ac-147">You open the drop-down list, and see that there are two pages that have the name **Counting** and several pages that contain the word "Counting" in the name.</span></span> <span data-ttu-id="899ac-148">Si selecciona la página que tiene el nombre AOT **InventJournalCount**, se muestran las descripciones de campo de esa página.</span><span class="sxs-lookup"><span data-stu-id="899ac-148">If you select the page that has the AOT name **InventJournalCount**, the field descriptions are shown for that page.</span></span> <span data-ttu-id="899ac-149">Sin embargo, si vuelve a abrir la lista desplegable, verá que, ahora, la lista contiene todas las páginas que tienen "InventJournalCount" como parte de su nombre de AOT.</span><span class="sxs-lookup"><span data-stu-id="899ac-149">However, if you open the drop-down list again, you will see that the list now contains all pages that have "InventJournalCount" as part of their AOT name.</span></span>
 
 ## <a name="troubleshooting"></a><span data-ttu-id="899ac-150">Solución de problemas</span><span class="sxs-lookup"><span data-stu-id="899ac-150">Troubleshooting</span></span>
 <span data-ttu-id="899ac-151">En esta sección se proporciona información que le ayudará a solucionar los problemas que puedan surgir al utilizar las descripciones de campos.</span><span class="sxs-lookup"><span data-stu-id="899ac-151">This section provides information to help you troubleshoot issues that you might encounter when you use field descriptions.</span></span>
