@@ -1,9 +1,9 @@
 ---
-title: Muestra notificaciones de pedidos en punto de venta
-description: "En este tema se describe cómo habilitar notificaciones del pedido en el punto de venta y el marco de las notificaciones, que se pueden extender a otras operaciones."
+title: Mostrar notificaciones de pedidos en el punto de venta
+description: "En este tema se describe cómo habilitar notificaciones de pedidos en el punto de venta y el marco de las notificaciones. Finalmente, los desarrolladores podrán ampliar estas notificaciones a operaciones además de operaciones de cumplimiento de pedido."
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 03/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -18,49 +18,58 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a1206aea3f78246951581c1dc6338e39a0942ea2
+ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
+ms.openlocfilehash: a55af4c26d74cc392d3c53aacb66e0a8bc97abf2
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/13/2018
 
 ---
 
-# <a name="display-notifications-in-point-of-sale"></a>Muestra notificaciones en punto de venta
+# <a name="show-order-notifications-in-the-point-of-sale"></a>Mostrar notificaciones de pedidos en el punto de venta
 
 [!include[banner](includes/banner.md)]
 
-En el entorno de ventas al por menor moderno de hoy, a los socios del almacén se les asignan distintas tareas, como ayudar a clientes, especificar transacciones, realizar recuentos de existencias, y recibir los pedidos en almacén. El cliente de punto de venta (PDV) autoriza a los socios para hacer estas tareas y muchas más, todas en una única aplicación. Con varias tareas a realizar durante un día, los socios podrían necesitar que se les notifique cuando algo requiera su asistencia. El marco de notificación de PDV soluciona el problema permitiendo a los minoristas configurar notificaciones basados en roles. Con Dynamics 365 for Retail con la actualización de la aplicación 5, estas notificaciones solo se pueden configurar para las operaciones de PDV.
+En el entorno de ventas al por menor moderno, a los socios del almacén se les asignan distintas tareas, como ayudar a clientes, especificar transacciones, hacer recuentos de existencias y recibir los pedidos en almacén. El cliente de punto de venta (PDV) proporciona una única aplicación en la que los socios pueden realizar todas estas tareas y muchas otras. Puesto que deben realizar varias tareas durante el día, es posible que tenga que notificarse a los socios cuando algo requiera su asistencia. El marco de notificación de PDV ayuda a permitir que los minoristas configuren notificaciones basadas en roles. En Microsoft Dynamics 365 for Retail con la actualización 5 de la aplicación, estas notificaciones solo se pueden configurar para las operaciones de PDV.
 
-Actualmente, el sistema proporciona la capacidad para mostrar las notificaciones para la operación cumplimiento de pedido, no obstante, el marco se ha diseñado para ser extensible, de modo que en el futuro, los programadores puedan escribir un controlador de la notificación para cualquier operación y mostrar las notificaciones en PDV.  
+Actualmente, el sistema solo puede mostrar notificaciones para operaciones de cumplimiento de pedido. Sin embargo, puesto que el marco se ha diseñado para que sea extensible, los desarrolladores finalmente podrán escribir un controlador de notificaciones para cualquier operación y mostrar las notificaciones de esa operación en el PDV.
 
 ## <a name="enable-notifications-for-order-fulfillment-operations"></a>Habilitar notificaciones para las operaciones de cumplimiento de pedido
 
-Para habilitar las notificaciones de las operaciones de cumplimiento de pedido, consulte a los siguientes pasos:
+Para habilitar las notificaciones de las operaciones de cumplimiento de pedido, siga estos pasos.
 
- - Ir a la página **Operaciones** (**Retail** > **Configuración del canal** > **Configuración de PDV** > **PDV** > **Operaciones**).
- - Busque la operación de cumplimiento de pedido y seleccione la casilla de verificación **Habilitar las notificaciones** para esta operación. Esto le indica al marco de notificación que escuche el controlador para la operación de cumplimiento de pedido. Si implementan el controlador, las notificaciones se mostrarán en PDV, si no, las notificaciones no se mostrarán para esta operación.
-- Vaya a los permisos de PDV asociados a los trabajadores y en el ficha desplegable **Notificaciones** agregue la operación de cumplimiento de pedido con la “orden de visualización” como 1. Cuando hay más de una notificación configurada, se utiliza la orden de visualización para organizar la notificación de arriba a abajo con 1 en la parte superior. Sólo aquellas operaciones se pueden agregar a las que se ha seleccionado la casilla de verificación **Notificaciones de permiso**. Además, las notificaciones se mostrarán únicamente para las operaciones que se han agregado aquí y a sólo a los trabajadores para los que las operaciones se han agregado a los permisos correspondientes de PDV. 
+1. Vaya a **Venta minorista** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **PDV** &gt; **Operaciones**.
+2. Busque la operación **Cumplimiento de pedido** y seleccione la casilla **Habilitar notificaciones** para que especifique que el marco de notificación debe escuchar al controlador para esta operación. Si se implementa el controlador, las notificaciones para esta operación se mostrarán en el PDV.
+3. En la pestaña Retail, vaya a **Ventas al por menor** &gt; **Empleados** &gt; **Trabajadores** &gt; y abra los permisos de PDV asociados al trabajador. Expanda la pestaña desplegable **Notificaciones**, agregue la operación **Cumplimiento de pedido** y establezca el campo **Orden de visualización** en **1**. Si se configura más de una notificación, este campo se utiliza para organizar las notificaciones. Las notificaciones que tienen un valor **Orden de visualización** más bajo aparecen encima de las notificaciones que tienen un valor más alto. Las notificaciones que tienen un valor **Orden de visualización** de **1** se encuentran en la parte superior.
+
+    Las notificaciones solo se muestran para las operaciones que se agregan en la pestaña desplegable **Notificaciones**, y puede agregar operaciones solo si se ha seleccionado la casilla **Habilitar notificaciones** para dichas operaciones en la página **Operaciones de PDV**. Además, las notificaciones para una operación se muestran a los trabajadores solo si la operación se agrega a los permisos de PDV para esos trabajadores.
+
+    > [!NOTE]
+    > Las notificaciones se pueden anular en el nivel de usuario. Abra el registro del trabajador, seleccione **Permisos de PDV**y, a continuación, edite la suscripción de notificación del usuario.
+
+4. Vaya a **Venta al por menor** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Perfiles de PDV** &gt; **Perfiles de funcionalidad**. En el campo **Intervalo de la notificación**, especifique con qué frecuencia deben extraerse las notificaciones. Para algunas notificaciones, el PDV debe realizar llamadas en tiempo real a la aplicación de la oficina administrativa. Estas llamadas consumen la capacidad de cálculo de la aplicación de su oficina administrativa. Por lo tanto, al configurar el intervalo de la notificación, debe tener en cuenta sus requisitos empresariales y el impacto de las llamadas en tiempo real a la aplicación de la oficina administrativa. Un valor de **0** (cero) desactiva las notificaciones.
+5. Vaya a **Retail** &gt; **TI de Retail** &gt; **Programación de distribución**. Seleccione la programación **1060** (**Personal**) para sincronizar la configuración de la suscripción de la notificación y, a continuación, seleccione **Ejecutar ahora**. A continuación, seleccione la programación **1070** (**Configuración de canal**) para sincronizar el intervalo del permiso y seleccione **Ejecutar ahora**.
+
+## <a name="view-notifications-in-the-pos"></a>Ver notificaciones en el PDV
+
+Una vez que complete los pasos anteriores, los trabajadores podrán ver las notificaciones en el PDV. Para ver notificaciones, presione el icono de notificaciones en la esquina superior derecha del PDV. Aparece una centro de notificaciones y muestra las notificaciones para la operación de cumplimiento de pedido. El centro de notificaciones debe mostrar ahora los siguientes grupos en la operación de cumplimiento de pedido:
+
+- **Recogida del almacén**: este grupo muestra el recuento de los pedidos que tengan un modo de entrega **Recogida** y que estén programados para su recogida desde el almacén actual. Puede presionar el número en el grupo para abrir la página **Cumplimiento de pedido**. En este caso, la página se filtrará de modo que muestre solo los pedidos activos que están configurados para su recogida desde el almacén actual.
+- **Envío desde el almacén**: este grupo muestra el recuento de pedidos que tengan el modo de entrega **Envío** y que estén programados para su envío desde el almacén actual. Puede presionar el número en el grupo para abrir la página **Cumplimiento de pedido**. En este caso, la página se filtrará de modo que muestre solo los pedidos activos que están configurados para su envío desde el almacén actual.
+
+Cuando se asignan nuevos pedidos al almacén para el cumplimiento, el icono de la notificación cambia para indicar que hay nuevas notificaciones, y se actualiza el recuento de los grupos correspondientes. Aún así, los grupos se actualizan a intervalos regulares, sin embargo, los usuarios de PDV pueden actualizar manualmente los grupos en cualquier momento seleccionando el botón **Actualizar** al lado del grupo. Por último, si un grupo tiene un nuevo artículo que el trabajador actual no ha visto, el grupo muestra un símbolo de ráfaga para indicar nuevo contenido.
+
+## <a name="enable-live-content-on-pos-buttons"></a>Habilitar contenido en vivo en los botones de PDV
+
+Los botones de PDV pueden mostrar ahora un recuento para ayudar a los trabajadores a determinar con facilidad qué tareas requieren su asistencia inmediata. Para mostrar este número en un botón de PDV, debe completar la configuración de notificación que se describe anteriormente en este tema (es decir, debe habilitar las notificaciones para una operación, configurar un intervalo de notificaciones y actualizar el grupo de permisos de PDV para el trabajador). Además, debe abrir el diseñador de cuadrícula de botones, ver las propiedades del botón y seleccione la casilla **Habilitar contenido en vivo**. En el campo **Alineación de contenido**, puede seleccionar si el recuento aparece en la esquina superior derecha del botón (**Superior derecha**) o en el centro (**Centro**).
 
 > [!NOTE]
-> Las notificaciones se pueden anular en el nivel de usuario desplazándose al registro del trabajador y seleccionando **Permisos de PDV** y después editando la suscripción de la notificación de ese usuario.
+> El contenido en vivo se puede habilitar para las operaciones solo si se ha seleccionado la casilla **Habilitar notificaciones** en la página **Operaciones de PDV**, como se describe anteriormente en este tema.
 
- - Ir a la página **Perfil de funcionalidad** (**Retail** > **Configuración del canal** > **Configuración de PDV** > **Perfiles de PDV** > **Perfiles de funcionalidad**). Actualice la propiedad **Intervalo de la notificación**, para establecer el intervalo en minutos en los que las notificaciones deben ser extraidas. Es recomendable establecer este valor a 10 minutos para evitar la comunicación innecesaria con Headquarters. Establecer el intervalo de la notificación en “0 " apagará las notificaciones.  
+La siguiente ilustración muestra la configuración de contenido en vivo en el diseñador de cuadrícula de botones.
 
- - Vaya a Retail **Retail** > **TI de Retail** > **Programación de distribución**. Seleccione la programación “1060-Staff” para sincronizar los ajustes de la suscripción de la notificación y después haga click en **Ejecutar ahora**. A continuación, sincronice el intervalo de permiso seleccionando la "configuración 1070-Channel" y después haga click en **Ejecutar ahora**. 
+![Configuración de contenido en vivo en el diseñador de cuadrícula de botones](./media/ButtonGridDesigner.png "Configuración de contenido en vivo en el diseñador de cuadrícula de botones")
 
-## <a name="view-notifications-in-pos"></a>Ver notificaciones en PDV
+La siguiente ilustración muestra el efecto de seleccionar **Superior derecha** frente **Centro** en el campo **Alineación de contenido** para los botones de varios tamaños.
 
-Una vez completados los pasos anteriores, los trabajadores, para los que se configurar notificaciones, pueden ver las notificaciones en PDV. Para ver las notificaciones, haga clic en el icono de notificaciones en la barra de título de PDV. Esto muestra un centro de notificaciones con las notificaciones de la operación de cumplimiento. El centro de notificaciones se debe presentar a los siguientes grupos dentro de la operación de cumplimiento: 
-
-- **Pedidos pendientes** - Este grupo muestra el recuento de los pedidos que se encuentran en estado pendiente, como pedidos que necesitan ser aceptados por un trabajador de PDV, teniendo los permisos necesarios para el almacén. Si hace clic en el número en el grupo abrirá la página **Cumplimiento del pedido** filtrado para mostrar sólo los pedidos pendientes asignados al almacén para cumplimiento. Si los pedidos se aceptan automáticamente para el almacén, el recuento para este grupo será cero.
-
-- **Recogida del almacén** - Este grupo muestra el recuento de los pedidos que tengan el modo de entrega **Recogida** y la recogida se programa de almacén actual. Si hace clic en el número en el grupo se abrirá la página **Cumplimiento del pedido** filtrado para mostrar sólo los pedidos activos que están preparados para ser recogidos del almacen actual.
-
-- **Envío desde el almacén** - Este grupo muestra el recuento de los pedidos que tengan el modo de entrega **Envío** y el envío se programa desde almacén actual. Si hace clic en el número en el grupo se abrirá la página **Cumplimiento del pedido** filtrado para mostrar sólo los pedidos activos que están preparados para ser enviados desde el almacen actual.
-
-Cuando hay nuevos pedidos asignadas al almacén para el cumplimiento, el icono de la notificación cambiará para indicar las nuevas notificaciones y el recuento de los grupos correspondientes se actualizará. El usuario también puede hacer clic en el icono de actualización, junto al nombre de la operación, para actualizar inmediatamente el recuento de los grupos. El recuento también se actualizará en el intervalo predefinido. Cualquier grupo con un nuevo artículo, que no está en cuenta el trabajador actual, mostrará un icono de ráfaga que indica que este grupo tiene un nuevo artículo. Si hace clic en los mosaicos dentro de las notificaciones se abrirá la operación específica para la que está configurada esa notificación. En las situaciones anteriores, hacer clic en las notificaciones abrirá la página **Cumplimiento del pedido** y pasará los parámetros adecuados: pedidos pendientes, recogida de almacén y envío desde el almacén. 
-
-> [!NOTE]
-> Se permitirán notificaciones de pedidos pendientes en una próxima actualización en Dynamics 365 for Retail. 
-
+![Contenido en vivo en botones de PDV](./media/ButtonsWithLiveContent.png "Contenido en vivo en botones de PDV")
 

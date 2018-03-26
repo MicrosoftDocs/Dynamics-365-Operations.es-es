@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6e83f46df30d13a8bffa5c2b0bd05f456b67e6ec
+ms.sourcegitcommit: 80374d6dce8aa5d5f2e5afc0656b42236ac974ec
+ms.openlocfilehash: 036e8079bd976087514a074529dd4593c5a2b0a5
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -62,12 +62,12 @@ Cuando se envía una solicitud se añade a la lista **Solicitudes de usuario de 
 Para poder solicitar el aprovisionamiento de un nuevo usuario, esa persona debe figurar como contacto para una o más cuentas de proveedor. Para crear una solicitud de nuevo usuario de colaboración de proveedor:
 
 1.  En la página **Todos los contactos**, haga clic en **Suministrar un usuario de proveedor**.
-2.  Escriba una dirección de correo electrónico para el usuario. El usuario utilizará esta dirección para acceder a Finance and Operations. Si la dirección de correo electrónico pertenece a un dominio registrado como usuario de Microsoft Azure, la dirección de correo electrónico tiene que ser una cuenta existente de Azure Active Directory (ADD) para que el proceso de provisión finalice correctamente. Si la dirección de correo electrónico no pertenece a un dominio registrado con Microsoft Azure, se creará una cuenta ADD como parte del proceso de provisión y el nuevo usuario recibirá una invitación mediante un mensaje de correo. Las direcciones de correo electrónico de consumidor con dominios como @hotmail.com, @gmail.com o @comcast.net no pueden usarse para registrar a un usuario de Finance and Operations.
+2.  Escriba una dirección de correo electrónico para el usuario. El usuario utilizará esta dirección para acceder a Finance and Operations. Si la dirección de correo electrónico pertenece a un dominio registrado como usuario de Microsoft Azure, la dirección de correo electrónico tiene que ser una cuenta existente de Azure Active Directory (AAD) para que el proceso de provisión finalice correctamente. Si la dirección de correo electrónico no pertenece a un dominio registrado con Microsoft Azure, se creará una cuenta ADD como parte del proceso de provisión y el nuevo usuario recibirá una invitación mediante un mensaje de correo. Las direcciones de correo electrónico de consumidor con dominios como @hotmail.com, @gmail.com o @comcast.net no pueden usarse para registrar a un usuario de Finance and Operations.
 3.  Configure la opción **Acceso de colaboración de proveedor permitido** a **Sí** para todas las entidades jurídicas para las que el usuario necesita acceso.
 4.  En la sección **Asignar roles de usuario**, seleccione la casilla **Asignar** para los roles de seguridad que debe tener el nuevo usuario.
 5.  Haga clic en **Enviar**.
 
-Cuando se envíe la solicitud de usuario proveedor, el campo **Acceso a la colaboración de proveedor permitido** se establece en **Sí** para la cuenta de proveedor seleccionada y se inicia un flujo de trabajo de solicitud del usuario. Como parte del flujo de trabajo, se crea un nuevo usuario en Finance and Operations, y se asignan los roles de seguridad. Además, el servicio Azure B2B que inicia la interacción con el portal Azure se activa y se asocia a una cuenta nueva o existente de AAD con la cuenta de usuario de Finance and Operations.
+Cuando se envíe la solicitud de usuario proveedor, el campo **Acceso a la colaboración de proveedor permitido** se establece en **Sí** para la cuenta de proveedor seleccionada y se inicia un flujo de trabajo de solicitud del usuario. Como parte del flujo de trabajo, se crea un nuevo usuario en Finance and Operations, y se asignan los roles de seguridad. Además, el servicio Azure B2B que inicia la interacción con el portal Azure se activa y se asocia a una cuenta nueva o existente de AAD con la cuenta de usuario de Finance and Operations. Para obtener más información, consulte [¿Qué es la colaboración B2B de Azure AD?](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Desactivar un usuario
 
