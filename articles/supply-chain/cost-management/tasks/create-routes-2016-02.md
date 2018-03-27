@@ -1,7 +1,7 @@
 --- 
 title: "Crear rutas (febrero de 2016 únicamente)"
 description: "Esta tarea se centra en la creación de rutas de producción para un producto terminado y para un producto semiterminado."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
-ms.openlocfilehash: a1da6a38e9e70efdbbd04e85318f208c82ab39ed
+ms.sourcegitcommit: 6949c729f474e5ea4aea8ad1cca6ae127cf4d652
+ms.openlocfilehash: e3df21705c5b417a4541ba2e76528be63f1f531d
 ms.contentlocale: es-es
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 03/27/2018
 
 ---
 # <a name="create-routes-february-2016-only"></a><span data-ttu-id="e952f-103">Crear rutas (febrero de 2016 únicamente)</span><span class="sxs-lookup"><span data-stu-id="e952f-103">Create routes (February 2016 only)</span></span>
