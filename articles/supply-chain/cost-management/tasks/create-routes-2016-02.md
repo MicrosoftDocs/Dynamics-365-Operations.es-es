@@ -1,7 +1,7 @@
 --- 
 title: "Crear rutas (febrero de 2016 únicamente)"
 description: "Esta tarea se centra en la creación de rutas de producción para un producto terminado y para un producto semiterminado."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
