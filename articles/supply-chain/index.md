@@ -1,6 +1,6 @@
 ---
 title: "Página de inicio de gestión de la cadena de suministro"
-description: "En esta página se proporciona una lista de temas de ayuda y otros recursos para las características de administración de la cadena de suministro de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "En esta página se proporciona una lista de temas de ayuda y otros recursos para las características de administración de la cadena de suministro de Microsoft Dynamics 365 for Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 02/15/2018
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
 ms.contentlocale: es-es
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,10 +30,10 @@ ms.lasthandoff: 02/21/2018
 
 [!include[banner](includes/banner.md)]
 
-En este tema, se proporciona una lista de temas de ayuda y otros recursos para las características de administración de la cadena de suministro de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+En este tema se proporciona una lista de temas de ayuda y otros recursos para las características de administración de la cadena de suministro de Microsoft Dynamics 365 for Finance and Operations. 
 
 ## <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
-Vaya a <a href="https://roadmap.dynamics.com/">Guía básica de Dynamics 365</a> para ver qué nuevas características hemos lanzado y qué nuevas características esta en desarrollo. 
+Vaya a <a href="https://roadmap.dynamics.com/">Guía básica de Dynamics 365</a> para ver las nuevas características que hemos lanzado y las que están en desarrollo. 
 
 ## <a name="core-concepts-and-tasks"></a>Conceptos básicos y tareas
 
@@ -106,7 +106,7 @@ Hay muchos temas sobre la gestión de la cadena de suministro y la fabricación 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Laboratorios prácticos de contabilidad de costes</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing: programación de trabajos kanban y CTP (capaz de comprometer)</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Cálculo de L. MAT. con una hoja de gestión de costes</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Movilidad en el almacén facilitada por Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Movilidad en el almacén facilitada por Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>Cursos de eLearning
 Para obtener más información sobre los cursos de Microsoft Dynamics 365 for Finance and Operations, visite el <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Portal de aprendizaje de Microsoft Dynamics</a>. (requiere cuenta de CustomerSource) 
