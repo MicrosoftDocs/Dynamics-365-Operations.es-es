@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 199a8961f782816c71e47f9e76e097c069fbf686
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
 ms.contentlocale: es-es
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -43,7 +43,7 @@ Puede usar Talent para completar estas tareas:
 + Configurar, proporcionar y analizar cursos, incluidos los programas, las sesiones y las trayectorias.
 
 > [!NOTE] 
-> Dynamics 365 for Talent está estrechamente vinculado con Recursos humanos en Dynamics 365 for Finance and Operations, Enterprise Edition. Puede que ambos productos tengan la misma funcionalidad. Como resultado, en los temas relacionados principalmente con Recursos humanos, el nombre del producto será Dynamics 365 for Finance and Operations, Enterprise Edition. En los temas relacionados principalmente con Talent, el nombre del producto será Dynamics 365 for Talent. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
+> Dynamics 365 for Talent está estrechamente vinculado con Recursos humanos en Dynamics 365 for Finance and Operations. Puede que ambos productos tengan la misma funcionalidad. Como resultado, en los temas relacionados principalmente con Recursos humanos, el nombre del producto será Dynamics 365 for Finance and Operations. En los temas relacionados principalmente con Talent, el nombre del producto será Dynamics 365 for Talent. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Desarrollar una estrategia para administrar sus recursos humanos
 ---------------------------------------------------------

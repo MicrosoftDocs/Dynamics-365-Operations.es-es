@@ -1,7 +1,7 @@
 # [Desarrollo y administración para Dynamics 365 for Finance and Operations](index.md)
-# [Requisitos del sistema para implementaciones en la nube](../fin-and-ops/get-started/system-requirements.md)
-# [Requisitos del sistema para implementaciones locales](../fin-and-ops/get-started/system-requirements-on-prem.md)
-# [Datos de demostración](../fin-and-ops/get-started/demo-data.md)
+# [Requisitos del sistema para implementaciones en la nube](../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json)
+# [Requisitos del sistema para implementaciones locales](../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json)
+# [Datos de demostración](../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json)
 ## [Generar datos de demostración con paquetes](data-entities/generate-demo-data-packages.md)
 
 
@@ -29,7 +29,7 @@
 ### [Importar y exportar un modelo](dev-tools/models-export-import.md)
 ### [Búsqueda de metadatos en Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [Modelos](dev-tools/models.md)
-### [Proyectos en Dynamics 365 for Finance and Operations, Enterprise Edition](dev-tools/projects.md)
+### [Proyectos en Dynamics 365 for Finance and Operations](dev-tools/projects.md)
 ### [Complementos de herramientas para Visual Studio](dev-tools/developer-tools-add-ins.md)
 ### [Desactivar la personalización de modelos y dejar de utilizar la funcionalidad](dev-tools/lock-models.md)
 ### [Actualizar las herramientas de desarrollo de Visual Studio](dev-tools/update-development-tools.md)
@@ -113,8 +113,8 @@
 #### [Personalizar elementos de modelos mediante extensiones (tutorial)](extensibility/customize-model-elements-extensions.md)
 #### [Personalización: superposiciones y extensiones](extensibility/customization-overlayering-extensions.md)
 ### Novedades
-#### [La extensibilidad cambia en julio de 2017](extensibility/changes-july-2017.md)
-#### [Cambios de extensibilidad en Dynamics 365 for Finance and Operations, Enterprise Edition 7.3](extensibility/extensibility-changes-73.md)
+#### [Cambios de extensibilidad de julio de 2017](extensibility/changes-july-2017.md)
+#### [Cambios de extensibilidad de la versión 7.3](extensibility/extensibility-changes-73.md)
 ### Conceptos fundamentales
 #### [Personalizaciones intrusivas](extensibility/intrusive-customizations.md)
 #### [Extensiones de clase](extensibility/class-extensions.md)
@@ -168,11 +168,11 @@
 ### [Navegación por las compilaciones](user-interface/build-navigation.md)
 ### [Crear un espacio de trabajo](user-interface/build-workspace.md)
 ## Formularios
-### [Navegación en Dynamics 365 for Finance and Operations, Enterprise Edition](user-interface/page-navigation.md)
-### [Diseño en Dynamics 365 for Finance and Operations, Enterprise Edition](user-interface/page-layout.md)
+### [Navegación en Dynamics 365 for Finance and Operations](user-interface/page-navigation.md)
+### [Diseño en Dynamics 365 for Finance and Operations](user-interface/page-layout.md)
 ### [Fuente de símbolo](user-interface/symbol-font.md)
 ### [Formularios de prueba con patrones personalizados](user-interface/testing-forms-custom-patterns.md)
-### [Crear y use las vínculos profundos](user-interface/create-deep-links.md)
+### [Crear y usar vínculos profundos](user-interface/create-deep-links.md)
 ### [Accesibilidad en formularios, productos y controles](user-interface/enable-accessibility.md)
 ### [Ayuda de Personalizar campo](user-interface/customize-field-help.md)
 ## Controles
@@ -489,12 +489,12 @@
 
 ## Implementación en la nube
 ### [Incorporación de Azure Resource Manager](deployment/arm-onboarding.md)
-### [Azure ExpressRoute y Dynamics 365 for Finance and Operations, Enterprise Edition](deployment/expressroute.md)
+### [Azure ExpressRoute y Dynamics 365 for Finance and Operations](deployment/expressroute.md)
 
 ## [Implementación local](deployment/on-premises-deployment-landing-page.md)
 ### [Visión general de Local](deployment/on-premises-overview.md)
 ### [Planificación de la implementación local](deployment/plan-onprem-deployment.md)
-### [Tamaño del hardware](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
+### [Tamaño del hardware](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json)
 ### [Crear un proyecto local](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Configurar e implementar entornos locales](deployment/setup-deploy-on-premises-environments.md)
 #### [Implementar los entornos locales con la Platform update 12](deployment/setup-deploy-on-premises-pu12.md)
@@ -507,7 +507,7 @@
 ### [Actualizar el agente local](lifecycle-services/update-local-agent.md)
 ### [Reconfigurar el entorno](lifecycle-services/reconfigure-environment.md)
 ### [Conexión a Internet de los clientes](user-interface/client-disconnected.md)
-### [Solucionar problemas de Dynamics 365 for Finance and Operations, Enterprise Edition (local)](deployment/troubleshoot-on-prem.md)
+### [Solucionar problemas de Dynamics 365 for Finance and Operations (local)](deployment/troubleshoot-on-prem.md)
 
 ## Implementación de código personalizado
 ### [Crear un paquete implementable](deployment/create-apply-deployable-package.md)
@@ -527,7 +527,7 @@
 ### [Actualización de AX 2012: tareas tras la actualización](migration-upgrade/app-validation-process.md)
 ### [Actualización de AX 2012: pruebas funcionales](migration-upgrade/upgrade-functional-validation.md)
 ### [Actualización de AX 2012: preparación para la publicación](migration-upgrade/upgrade-go-live-prep.md)
-
+### [Actualización de AX 2012 - Publicación](migration-upgrade/2012-upgrade-cutover.md)
 
 ### Cambios que afectan a la actualización desde AX 2012
 #### [Actualización de revalorización de divisa y asiento único ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
@@ -588,7 +588,9 @@
 ### [Visión general de servidor de procesos por lotes](sysadmin/batch-server-overview.md)
 ### [Crear un trabajo por lotes](sysadmin/tasks/create-batch-job.md)
 
-## [Crear reglas para el asesor de optimización](sysadmin/optimization-advisor.md)
+##  [Visión general de aviso de optimización](sysadmin/optimization-advisor-overview.md)
+### [Crear reglas para el asesor de optimización](sysadmin/create-rules-optimization-advisor.md)
+
 
 # Lifecycle Services
 ## [Visión general de Lifecycle Services](lifecycle-services/lcs.md)
@@ -700,11 +702,11 @@
 ## [Exportar una copia de una base de datos para restaurarla más adelante](database/copy-operations-database.md)
 ## [Solicitar una actualización de base de datos de espacio aislado](database/database-refresh.md)
 
-# Soporte
-## [Obtener soporte técnico para Dynamics 365 for Finance and Operations, Enterprise Edition y Lifecycle Services](lifecycle-services/lcs-support.md)
+# Compatibilidad
+## [Obtener soporte técnico para Dynamics 365 for Finance and Operations y Lifecycle Services](lifecycle-services/lcs-support.md)
 ## [Registrar un vale de soporte técnico Premier](lifecycle-services/premier-support.md)
 ## [Enviar una solicitud al equipo de ingeniería de servicios de Dynamics](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [Configurar el soporte técnico para Dynamics 365 for Finance and Operations, Enterprise Edition](lifecycle-services/support-experience.md) 
+## [Configurar el soporte técnico para Dynamics 365 for Finance and Operations](lifecycle-services/support-experience.md) 
 ## [Preguntas frecuentes sobre el plazo del mantenimiento planificado](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Operaciones en la nube y mantenimiento](lifecycle-services/cloud-operations-servicing.md)
 ## [Gestionar las experiencias de compatibilidad con Finance and Operations](lifecycle-services/cloud-powered-support-lcs.md)

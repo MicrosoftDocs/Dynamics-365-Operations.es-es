@@ -1,6 +1,6 @@
 ---
 title: Intelligence
-description: "En este tema se tratan los recursos que puede usar para obtener más información sobre Business Intelligence y las herramientas de informes disponibles en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "En este tema se tratan los recursos que puede usar para obtener más información sobre Business Intelligence y las herramientas de informes disponibles en Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
 ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 12/18/2017
 
 [!include[banner](../includes/banner.md)]
 
-En este tema se tratan los recursos que puede usar para obtener más información sobre Business Intelligence (BI) y las herramientas de informes disponibles en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+En este tema se tratan los recursos que puede usar para obtener más información sobre Business Intelligence (BI) y las herramientas de informes disponibles en Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="get-started"></a>Introducción
 - [Acceso a información e informes](information-access-reporting.md)
