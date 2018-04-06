@@ -20,10 +20,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d933910faa726ea279a3371f6c8a3eca9bc9dfee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ El reabastecimiento de la demanda se admite para los pedidos de ventas, pedidos 
 ## <a name="minmax-replenishment"></a>Reabastecimiento mínimo/máximo
 En el reabastecimiento mínimo/máximo, las existencias se reabastecen para que se encuentren entre los límites mínimo y máximo que se han establecido. Normalmente, este proceso se produce una vez al día para ayudar a garantizar que todas las ubicaciones de selección se rellenan hasta el nivel máximo antes de que se inicie la selección. 
 
-Los importes mínimo y máximo se establecen en una plantilla de reabastecimiento. Muchos de los demás valores de la plantilla son similares a la configuración de las plantillas que se utilizan en el reabastecimiento de la demanda de oleada. La plantilla debe contener una línea para cada artículo y ubicación. Cuando ejecute el reabastecimiento mediante el trabajo por lotes, Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, evalúa si el reabastecimiento es necesario mediante la secuencia en la que se organizan las líneas. 
+Los importes mínimo y máximo se establecen en una plantilla de reabastecimiento. Muchos de los demás valores de la plantilla son similares a la configuración de las plantillas que se utilizan en el reabastecimiento de la demanda de oleada. La plantilla debe contener una línea para cada artículo y ubicación. Cuando ejecuta el reabastecimiento mediante el trabajo por lotes, Microsoft Dynamics 365 for Finance and Operations evalúa si el reabastecimiento es necesario mediante la secuencia en la que se organizan las líneas. 
 
 Tenga en cuenta que la estrategia de reabastecimiento mínima/máxima no puede reabastecer una ubicación vacía a menos que la ubicación se establezca como la ubicación fija para el artículo. Si la ubicación que debe reabastecerse no es una ubicación fija, el sistema no puede determinar qué artículo debe reabastecerse. Por tanto, se requiere al menos alguna cantidad disponible para que se produzca el reabastecimiento.
 

@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d183654ada9cdca23cf906f250988a967ffcf1f6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -156,7 +156,7 @@ La jerarquía de dimensión para la directiva se puede configurar como se muestr
 |&nbsp;&nbsp;Coste variable | 40001                     | 40010                   |
 
 > [!NOTE]
-> En **Intervalos de miembros de dimensión**, un nodo puede contener 1:_n_ intervalos de miembro de dimensión. Puede insertar los identificadores de miembro de dimensión que aún no existen como miembros de dimensión. Este enfoque hace que la jerarquía sea resistente para el futuro.  
+> En **Intervalos de miembros de dimensión**, un nodo puede contener 1: intervalos de miembros de dimensión _n_. Puede insertar los identificadores de miembro de dimensión que aún no existen como miembros de dimensión. Este enfoque hace que la jerarquía sea resistente para el futuro.  
 
 ### <a name="copy-a-hierarchy"></a>Copiar una jerarquía
 
@@ -329,7 +329,7 @@ Los valores para la jerarquía de listas de acceso se utilizan para controlar lo
 - Power BI:
 
     - Datos que se muestran en las visualizaciones de Power BI
-    - Visualizaciones de datos de Power BI que se insertan en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (cliente)
+    - Visualizaciones de datos de Power BI que se insertan en Microsoft Dynamics 365 for Finance and Operations (cliente)
 
 > [!NOTE] 
 > - Antes de que la jerarquía de listas de acceso pueda afectar a los datos de Power BI, se deben emparejar la jerarquía de listas de acceso y la seguridad en Power BI. Para obtener más información, consulte [Configurar la seguridad del paquete del contenido de contabilidad de costes](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

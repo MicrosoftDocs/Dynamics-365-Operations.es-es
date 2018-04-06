@@ -16,10 +16,10 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: daded9d8ef48456cbd3f97a7bae5fa75885ce9d1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ En la sección **Tareas y estado**, se mostrará el estado del proyecto total de
 La última ficha es para la lista de tareas detallada. Esta lista muestra la lista de tareas completa.
 Puede filtrar la lista de tareas de varias maneras. Haga clic en **Editar tarea** para cambiar el estado de una tarea o para asignar una tarea. Haga clic en **Datos adjuntos** para ver los datos adjuntos para una tarea.
 
-El nombre de tarea es un hipervínculo a la página Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition o a otra página web donde el usuario debe ir para completar el trabajo. Puede establecer este hipervínculo mediante el campo **Nombre del elemento de menú** al editar o crear una tarea en el formulario **Configurar el proyecto de validación de datos**.
+El nombre de tarea es un hipervínculo a la página Microsoft Dynamics 365 for Finance and Operations o a otra página web donde el usuario debe ir para completar el trabajo. Puede establecer este hipervínculo mediante el campo **Nombre del elemento de menú** al editar o crear una tarea en el formulario **Configurar el proyecto de validación de datos**.
 
 Puede adjuntar archivos, notas, imágenes, y las direcciones URL a una tarea mediante la acción **Archivos adjuntos**. Por ejemplo, puede vincular un archivo de informe que se imprimió para una tarea. Un icono aparece en la columna **Archivos adjuntos** para la tarea si hay un archivo adjunto.
 

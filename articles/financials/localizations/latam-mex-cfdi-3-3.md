@@ -16,10 +16,10 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2017-12-01
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 49e56b953b14aaf1c71caf2ab935e917f97fc4c5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1d4e6e879a241ceb684461f40544d9fc09b623b0
 ms.contentlocale: es-es
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -48,7 +48,7 @@ Los siguientes cambios se introducen en la versión 3.3 del diseño Comprobante 
 <thead>
 <tr>
 <th>Catálogo SAT</th>
-<th>Asignación de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</th>
+<th>Asignación de Microsoft Dynamics 365 for Finance and Operations</th>
 </tr>
 </thead>
 <tbody>

@@ -1,6 +1,6 @@
 --- 
 title: "Diseñar una configuración para importar datos desde un archivo externo en formato CSV (ER)"
-description: "Use este procedimiento para diseñar configuraciones de informes electrónicos (ER) para importar datos a Dynamics 365 for Finance and Operations , Enterprise Edition, desde un archivo externo en formato CSV."
+description: "Use este procedimiento para diseñar configuraciones de informes electrónicos (ER) para importar datos a Dynamics 365 for Finance and Operations, desde un archivo externo en formato CSV."
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -16,24 +16,24 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 5c1766992531ee272ea156bc33c4c0ea8dfac27a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f6bfa9f7c0638b0eaacf1a49bcd7d84ffab3acbf
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>Diseñar una configuración para importar datos desde un archivo externo en formato CSV (ER)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Use este procedimiento para diseñar configuraciones de informes electrónicos (ER) para importar datos a Dynamics 365 for Finance and Operations , Enterprise Edition, desde un archivo externo en formato CSV. En este procedimiento, creará las configuraciones necesarias de ER para la empresa del ejemplo, Litware, Inc. Para completar estos pasos, primero debe completar los pasos en el procedimiento, "ER crea un proveedor de la configuración y marcarlo como activo". 
+Use este procedimiento para diseñar configuraciones de informes electrónicos (ER) para importar datos a Dynamics 365 for Finance and Operations, desde un archivo externo en formato CSV. En este procedimiento, creará las configuraciones necesarias de ER para la empresa del ejemplo, Litware, Inc. Para completar estos pasos, primero debe completar los pasos en el procedimiento, "ER crea un proveedor de la configuración y marcarlo como activo". 
 
 Este procedimiento se ha creado para los usuarios con los roles Administrador del sistema o Desarrollador de informes electrónicos asignados. Estos pasos se pueden completar mediante el conjunto de datos de USMF. 
 
 También debe descargar y guardar los siguientes archivos localmente: (https://go.microsoft.com/fwlink/?linkid=862266): 1099model.xml, 1099formatcsv.xml, 1099entriescsv.csv.
 
 1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
-    * Puede configurar un proceso para importar archivos externos en formato XML, TXT o CSV a las tablas en la aplicación Dynamics 365 for Finance and Operations, Enterprise Edition. En primer lugar, debe crear un modelo de datos abstracto para representar los datos importados, desde un punto de vista de la empresa; se crea una configuración del modelo de datos de ER para esto. A continuación, defina una estructura del archivo importado que se asigne al modelo de datos diseñado como forma de ir a los datos de puerto desde el archivo al modelo de datos abstracto; una configuración del formato de ER se crea para esto. A continuación, la configuración del modelo de datos de ER debe ampliarse con una asignación de modelos nueva que describa cómo se utilizan los datos del archivo importado y los datos persistentes del modelo de datos abstracto para actualizar las tablas de aplicación o las entidades de datos.  
+    * Puede configurar un proceso para importar archivos externos en formato XML, TXT o CSV a las tablas en la aplicación Dynamics 365 for Finance and Operations. En primer lugar, debe crear un modelo de datos abstracto para representar los datos importados, desde un punto de vista de la empresa; se crea una configuración del modelo de datos de ER para esto. A continuación, defina una estructura del archivo importado que se asigne al modelo de datos diseñado como forma de ir a los datos de puerto desde el archivo al modelo de datos abstracto; una configuración del formato de ER se crea para esto. A continuación, la configuración del modelo de datos de ER debe ampliarse con una asignación de modelos nueva que describa cómo se utilizan los datos del archivo importado y los datos persistentes del modelo de datos abstracto para actualizar las tablas de aplicación o las entidades de datos.  
     * Los pasos siguientes muestran cómo las transacciones de los proveedores con seguimiento externo se importan desde el archivo CSV externo para su uso posterior en el acuerdo del proveedor para los formularios 1099.   
     * Compruebe que el proveedor de configuración de la empresa de ejemplo, Litware, Inc., está disponible y marcado como activo. Si no ve a este proveedor de configuración, primero debe completar los pasos del procedimiento "Creación de un proveedor de configuración y marcarlo como activo".  
 2. Haga clic en Configuraciones de informes.

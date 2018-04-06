@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4dbcfd31030db8e40f89f86a76cdc666ac433749
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 
 En este tema se proporciona información acerca de los recursos de proyectos.
 
-Un desafío para los directores de proyecto y los directores de recursos durante la fase de planificación de proyecto es la asignación de recursos, donde deben determinar y reservar el recurso correcto para trabajar en un proyecto. En Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, las capacidades de recursos para proyectos le permiten definir roles que se tratan como recursos temporales que se pueden reservar para un compromiso específico o como parte del compromiso. Este tipo de recursos permite a los directores de proyecto y a los directores de recursos completar las siguientes tareas:
+Un desafío para los directores de proyecto y los directores de recursos durante la fase de planificación de proyecto es la asignación de recursos, donde deben determinar y reservar el recurso correcto para trabajar en un proyecto. En Microsoft Dynamics 365 for Finance and Operations, las capacidades de recursos para proyectos le permiten definir roles que se tratan como recursos temporales que se pueden reservar para un compromiso específico o parte del compromiso. Este tipo de recursos permite a los directores de proyecto y a los directores de recursos completar las siguientes tareas:
 
 - Definir un rol que contenga las competencias necesarias para que sea sencillo asignar recursos.
 - Usar roles para definir una programación de compromisos que se base en recursos reservados.

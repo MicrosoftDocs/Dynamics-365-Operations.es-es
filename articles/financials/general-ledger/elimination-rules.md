@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -132,7 +132,7 @@ Su entidad jurídica, entidad jurídica A, vende widgets a otra entidad jurídic
 Todas estas transacciones crean transacciones de empresas vinculadas a las cuentas de destinatario de pago y remitente de pago. Además, estas transacciones podrían incluir importes de marcado y desmarcado de precios cuando el importe de la venta de empresas vinculadas no es igual al coste de los bienes vendidos.
 
 ## <a name="set-up-elimination-rules"></a>Configurar reglas de eliminación
-Al configurar reglas de eliminación de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, le recomendamos que cree una dimensión financiera específicamente para la eliminación. La mayoría de clientes lo denominan Socio comercial o algo similar. Si decide no utilizar una dimensión financiera, asegúrese de tener cuentas principales que sean específicas únicamente para las transacciones de empresas vinculadas. 
+Al configurar reglas de eliminación de Microsoft Dynamics 365 for Finance and Operations, le recomendamos que cree una dimensión financiera específicamente para la eliminación. La mayoría de clientes lo denominan Socio comercial o algo similar. Si decide no utilizar una dimensión financiera, asegúrese de tener cuentas principales que sean específicas únicamente para las transacciones de empresas vinculadas. 
 
 La configuración de eliminaciones se encuentra en el área de Configuración del módulo de Consolidaciones. Tras introducir una descripción para la regla, debe seleccionar la empresa a la que registrará el diario de eliminaciones. Esta debe ser una empresa que tengan la opción **Usar para el proceso de eliminación financiera** seleccionada en la configuración de la entidad jurídica. 
 

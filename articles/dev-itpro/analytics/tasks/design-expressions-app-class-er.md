@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: b0a1dba5afbd7beba45149340f637223f6ecedcf
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 631fa7bae808856efb8b95700fd2a85e6d5f8725
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>Diseñe expresiones para abrir métodos de clase de aplicación (ER)
@@ -34,7 +34,7 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 
 1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
     * Compruebe que el proveedor de configuración de la empresa de ejemplo, Litware, Inc., está disponible y marcado como activo. Si no ve a este proveedor de configuración, primero debe completar los pasos del procedimiento "Creación de un proveedor de configuración y marcarlo como activo".   
-    * Supongamos que está diseñando un proceso para analizar los extractos bancarios de entrada para una actualización de los datos de la aplicación. Recibirá los extractos bancarios entrantes como archivos TXT que incluyen los códigos de IBAN. Como parte del proceso de importación del extracto bancario, debe validar la corrección de los códigos de este IBAN mediante la lógica que esté ya disponible en Dynamics 365 for Finance and Operations, Enterprise Edition.   
+    * Supongamos que está diseñando un proceso para analizar los extractos bancarios de entrada para una actualización de los datos de la aplicación. Recibirá los extractos bancarios entrantes como archivos TXT que incluyen los códigos de IBAN. Como parte del proceso de importación del extracto bancario, debe validar la corrección de los códigos de este IBAN mediante la lógica que esté ya disponible en Dynamics 365 for Finance and Operations.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Importe una nueva configuración para el modelo ER
 1. En la lista, busque y seleccione el registro deseado.

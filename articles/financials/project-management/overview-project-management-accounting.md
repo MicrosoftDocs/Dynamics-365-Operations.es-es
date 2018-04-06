@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ Un proyecto es un grupo de actividades diseñado para proporcionar un servicio, 
 ## <a name="projects-across-industries"></a>Proyectos entre sectores
 La funcionalidad de contabilidad y administración de proyectos se puede usar en varios sectores, como se muestra en la siguiente ilustración. [![Proyectos entre sectores](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-En un centro de llamadas, se puede usar un ticket para describir el conjunto de acciones que se requieren para resolver una llamada. Las empresas de asesoría, como las agencias de publicidad o las organizaciones de asesoría técnica o de administración, hacen referencia a sus actividades como proyectos. En marketing, una campaña representa un conjunto de trabajos que se deben entregar. En la fabricación basada en proyectos, un pedido de producción está relacionado con el trabajo diverso que se debe realizar para producir algunos bienes terminados. Cualquiera que sea el nombre que se use para ellos, estos proyectos constan de recursos, programaciones y costes, y la funcionalidad de contabilidad y administración de proyectos de Microsoft Dynamics 365 Finance and Operations, Enterprise Edition puede ayudar con la planificación, la ejecución y el análisis de estos proyectos.
+En un centro de llamadas, se puede usar un ticket para describir el conjunto de acciones que se requieren para resolver una llamada. Las empresas de asesoría, como las agencias de publicidad o las organizaciones de asesoría técnica o de administración, hacen referencia a sus actividades como proyectos. En marketing, una campaña representa un conjunto de trabajos que se deben entregar. En la fabricación basada en proyectos, un pedido de producción está relacionado con el trabajo diverso que se debe realizar para producir algunos bienes terminados. Cualquiera que sea el nombre que se use para ellos, estos proyectos constan de recursos, programaciones y costes, y la funcionalidad de contabilidad y administración de proyectos de Microsoft Dynamics 365 for Finance and Operations puede ayudar con la planificación, la ejecución y el análisis de estos proyectos.
 
 ## <a name="project-phases"></a>Fases del proyecto
 Aunque el siguiente flujo de proceso está dirigido hacia los proyectos externos, o los proyectos que se completan para uno o más clientes, la funcionalidad también se aplica a proyectos internos, de solo coste. 

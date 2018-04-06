@@ -1,6 +1,6 @@
 ---
 title: "Colaboración de proveedor con los clientes"
-description: "Este tema describe cómo puede usar la colaboración del proveedor en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, para trabajar con los pedidos de compra y supervisar el inventario de entrega."
+description: "Este tema describe cómo puede usar la colaboración del proveedor en Microsoft Dynamics 365 for Finance and Operations, para trabajar con los pedidos de compra y supervisar el inventario de entrega."
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 7646b2e01ea1f9cdca58b9971c3dea21b99525e2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4252112272e2f86c2c18dc399a713bf652e4228e
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/14/2017
 
 [!include[banner](../includes/banner.md)]
 
-Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los clientes en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Los proveedores pueden completar una serie de procesos empresariales de las áreas de trabajo siguientes:
+Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los clientes en Microsoft Dynamics 365 for Finance and Operations. Los proveedores pueden completar una serie de procesos empresariales de las áreas de trabajo siguientes:
 
 - **Confirmación de pedidos de compra** Controle y respuesta a los pedidos de compra (PO).
 - **Oferta del proveedor**: Ver solicitudes de presupuesto y responder a ellas especificando propuestas.

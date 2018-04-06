@@ -1,6 +1,6 @@
 ---
 title: Bloqueo del inventario
-description: "En este artículo se proporciona una visión general del bloqueo del inventario, que forma parte del proceso de inspección de calidad en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Puede usar el bloqueo del inventario para evitar que los artículos se procesen o se consuman."
+description: "En este artículo se proporciona una visión general del bloqueo del inventario, que forma parte del proceso de inspección de calidad en Microsoft Dynamics 365 for Finance and Operations. Puede usar el bloqueo del inventario para evitar que los artículos se procesen o se consuman."
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: eb8040531ec0c2b9c13fc927e5330772ad11ee1d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 0567cdad6f9f27097f534381655e5b468884bed8
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-En este artículo se proporciona una visión general del bloqueo del inventario, que forma parte del proceso de inspección de calidad en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Puede usar el bloqueo del inventario para evitar que los artículos se procesen o se consuman.
+En este artículo se proporciona una visión general del bloqueo del inventario, que forma parte del proceso de inspección de calidad en Microsoft Dynamics 365 for Finance and Operations. Puede usar el bloqueo del inventario para evitar que los artículos se procesen o se consuman.
 
 Puede bloquear artículos de inventario de las siguientes formas:
 -   Manualmente
@@ -64,7 +64,7 @@ Puede especificar qué estados de inventario son estados de bloqueo mediante el 
 <a name="see-also"></a>Consulte también
 --------
 
-[Crear y mantener un bloqueo de inventario (Guía de tareas)](tasks/create-maintain-inventory-blocking.md)
+[Creación y mantenimiento de un bloqueo del inventario](tasks/create-maintain-inventory-blocking.md)
 
 [Procesos de gestión de calidad](quality-management-processes.md)
 

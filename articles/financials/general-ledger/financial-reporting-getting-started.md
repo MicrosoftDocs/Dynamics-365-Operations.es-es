@@ -1,6 +1,6 @@
 ---
 title: Informes financieros
-description: "Este tema describe cómo acceder a los informes financieros en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition y cómo usar las capacidades de informes financieros. Incluye una descripción de los informes financieros predeterminados proporcionados."
+description: "Este tema describe cómo acceder a los informes financieros en Microsoft Dynamics 365 for Finance and Operations y cómo usar las capacidades de informes financieros. Incluye una descripción de los informes financieros predeterminados proporcionados."
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e73f2bd29a6d715863f04bdad03fe9c279ebe0b1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 5de1f5b40af076173dd0b38c6f6110f83c04528a
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tema describe cómo acceder a los informes financieros en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition y cómo usar las capacidades de informes financieros. Incluye una descripción de los informes financieros predeterminados proporcionados.
+Este tema describe cómo acceder a los informes financieros en Microsoft Dynamics 365 for Finance and Operations y cómo usar las capacidades de informes financieros. Incluye una descripción de los informes financieros predeterminados proporcionados.
 
 <a name="accessing-financial-reporting"></a>Acceso a informes financieros
 -----------------------------

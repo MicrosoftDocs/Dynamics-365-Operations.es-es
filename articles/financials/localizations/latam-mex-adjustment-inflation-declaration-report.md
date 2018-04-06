@@ -1,6 +1,6 @@
 ---
 title: "Informe de la declaración de inflación de ajuste"
-description: "Los usuarios de Microsoft Dynamics 365 Finance and for Operations Enterprise Edition pueden procesar ajustes de inflación mediante coeficientes de INPC, distintos métodos (como saldos de apertura, saldo, saldo mensual y fecha de transacción) y diversas dimensiones."
+description: "Los usuarios de Microsoft Dynamics 365 for Finance and Operations pueden procesar ajustes de inflación mediante coeficientes de INPC, distintos métodos (como saldos de apertura, saldo, saldo mensual y fecha de transacción) y diversas dimensiones."
 author: sndray
 manager: AnnBe
 ms.date: 10/31/2017
@@ -19,10 +19,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 49782b5d66bf51ab99ed3fbb60c6e7dfb3193f2d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3ba948f9739aba1dd50bb53585523fccf53ad40c
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 

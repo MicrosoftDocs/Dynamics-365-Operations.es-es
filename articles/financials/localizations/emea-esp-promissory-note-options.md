@@ -1,6 +1,6 @@
 ---
 title: "Opciones de pagaré español"
-description: "Este tema describe opciones y cambios en la funcionalidad básica de pagarés implementada en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition para las entidades jurídicas en España."
+description: "Este tema describe opciones y cambios en la funcionalidad básica de pagarés implementada en Microsoft Dynamics 365 for Finance and Operations para las entidades jurídicas en España."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,10 +18,10 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: adf90eaddefef554984aa97268be710b1e1d41e3
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c9c759270ae17e4ea2162e2fd6ec8bb493ddca57
 ms.contentlocale: es-es
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/14/2018
 [!include[banner](../includes/banner.md)]
 
 
-Este tema describe opciones y cambios en la funcionalidad básica de pagarés implementada en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition para las entidades jurídicas en España.
+Este tema describe opciones y cambios en la funcionalidad básica de pagarés implementada en Microsoft Dynamics 365 for Finance and Operations para las entidades jurídicas en España.
 
 Para las entidades jurídicas en España, la funcionalidad de pagaré tiene opciones adicionales:
 

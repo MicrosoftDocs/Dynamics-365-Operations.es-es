@@ -1,6 +1,6 @@
 ---
 title: "Métodos abreviados de teclado"
-description: "Los siguientes métodos abreviados de teclado se aplican en todo Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Los siguientes métodos abreviados de teclado se aplican en todo Dynamics 365 for Finance and Operations."
 author: jasongre
 manager: AnnBe
 ms.date: 12/12/2017
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/14/2017
 [!include[banner](../includes/banner.md)]
 
 
-Los siguientes métodos abreviados de teclado se aplican en todo Dynamics 365 for Finance and Operations, Enterprise Edition. 
+Los siguientes métodos abreviados de teclado se aplican en todo Dynamics 365 for Finance and Operations. 
 
 **Nota**: los métodos abreviados de teclado aquí descritos se refieren al diseño del teclado de Estados Unidos. Es posible que las teclas de otros diseños de teclados no se correspondan exactamente con las teclas de un teclado de Estados Unidos.
 
@@ -74,7 +74,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Abrir el panel del cuadro informativo (o mover el enfoque al panel de cuadro informativo si ya está abierto) | Alt+M,B o Ctrl+F2                        |
 | Cerrar el panel del cuadro informativo (con el enfoque en el panel del cuadro informativo)                         | Esc                                       |
 | Pasar al cuadro informativo siguiente/anterior (con el enfoque en el panel del cuadro informativo)              | Alt+Mayús+Flecha abajo / Alt+Mayús+Flecha arriba |
-| Pasar al &lt;n&gt;-ésimo cuadro informativo (con el enfoque en el panel del cuadro informativo)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Pasar al cuadro informativo &lt;n&gt; (con el enfoque en el panel del cuadro informativo)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Expandir un cuadro informativo (con el enfoque en el encabezado del cuadro informativo)                             | Espacio o Intro                            |
 | Contraer el cuadro informativo actual                                                    | Alt+0                                     |
 
@@ -115,9 +115,9 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | **Acción**                                      | **Presione**                                    |
 | Ir al campo siguiente/anterior.                     | Tabulador / Mayús+Tab                              |
 | Ir a la ficha siguiente/anterior                       | Alt+Mayús+Fecha derecha / Alt+Mayús+Flecha izquierda |
-| Ir a la &lt;n&gt;-ésima pestaña                         | Alt+Mayús+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Ir a la ficha &lt;n&gt;                         | Alt+Mayús+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Ir a la ficha desplegable siguiente/anterior                   | Alt+Mayús+Flecha abajo / Alt+Mayús+Flecha arriba    |
-| Ir a la &lt;n&gt;-ésima ficha desplegable                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Ir a la ficha desplegable &lt;n&gt;                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
 | Ir a la siguiente hoja o a la anterior (pestaña vertical)      | Alt+Mayús+Fecha derecha / Alt+Mayús+Flecha izquierda |
 | Ir a la hoja número &lt;n&gt; (pestaña vertical)        | Alt+Mayús+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Expandir una lista desplegable (con el enfoque en el encabezado de la ficha desplegable) | Espacio o Intro                               |

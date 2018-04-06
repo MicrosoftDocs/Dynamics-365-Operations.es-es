@@ -1,6 +1,6 @@
 ---
 title: Antes de comprar
-description: "Orientación gradual que se usará cuando esté considerando adquirir Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "Orientación gradual que se usará cuando esté considerando adquirir Dynamics 365 for Finance and Operations."
 author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
@@ -17,10 +17,10 @@ ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
-ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 160313ac375feb875982bfdbbd850db7f2d8be35
 ms.contentlocale: es-es
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -28,13 +28,13 @@ ms.lasthandoff: 01/31/2018
 
 [!include[banner](../includes/banner.md)]
 
-¿Es la primera vez que usa Dynamics 365 for Finance and Operations, Enterprise Edition? Hemos creado una orientación gradual independientemente de si está evaluando Finance and Operations o si está preparado para comprar.
+Novedades en Dynamics 365 for Finance and Operations Hemos creado una orientación gradual independientemente de si está evaluando Finance and Operations o si está preparado para comprar.
 
 ## <a name="step-one--try-out-finance-and-operations-free-for-30-days"></a>Paso uno: Probar Finance and Operations durante un período de prueba gratuito de 30 días
 Puede probar Dynamics 365 for Finance and Operations durante 30 días con una simple suscripción por correo electrónico. La versión de prueba de Finance and Operations incluye una guía de tareas de introducción que proporciona instrucciones detalladas que le permiten ver escenarios específicos en acción. El producto está disponible para explorar y hacer uso de escenarios, pero no se puede personalizar. Los datos de prueba se incluyen para facilitar el uso del producto y para que la experiencia sea más significativa. Un correo electrónico de aviso se enviará 3 días antes de la caducidad de la prueba. Obtenga los detalles en [www.microsoft.com/en-us/dynamics365/operations](https://www.microsoft.com/en-us/dynamics365/operations).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Paso dos: Elegir una opción de implementación
-Ahora puede implementar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition en la nube o localmente. Las implementaciones en la nube ofrecen un servicio de ERP que Microsoft administra por completo, mientras que las implementaciones locales se implementan localmente en el centro de datos de un cliente.
+Ahora puede implementar Microsoft Dynamics 365 for Finance and Operations en la nube o localmente. Las implementaciones en la nube ofrecen un servicio de ERP que Microsoft administra por completo, mientras que las implementaciones locales se implementan localmente en el centro de datos de un cliente.
 
 Deben tomarse las siguientes consideraciones cuando elija tomar cuando elija local como opción de implementación:
 - Normativas y necesidades de cumplimiento que no están disponibles en [certificaciones de la nube](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
@@ -43,7 +43,7 @@ Deben tomarse las siguientes consideraciones cuando elija tomar cuando elija loc
 - [Requisitos mínimos de la infraestructura](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
-> Las implementaciones locales de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, no se admiten en ninguna infraestructura de nube pública, incluida Azure. 
+> Las implementaciones locales de Microsoft Dynamics 365 for Finance and Operations no se admiten en ninguna infraestructura de nube pública, incluida Azure. 
 
 Para obtener más información, consulte [Opciones de implementación](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -70,7 +70,7 @@ En licencias por volumen, Finance and Operations está disponible mediante:
 Un proveedor de soluciones en nube de Microsoft puede trabajar estrechamente con usted para comprender las necesidades de su empresa u organización. [Use el portal del centro de partners de Microsoft para encontrar un partner que se adapte a sus necesidades](https://partnercenter.microsoft.com/en-us/partner/home). 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Comprar a través de un partner de Dynamics (local)
-Debe trabajar con un socio para comprar Finance and Operations localmente. Para obtener más información, consulte [Comprar Dynamics 365 for Finance and Operations, Enterprise Edition (local)](purchase-on-premises.md)
+Debe trabajar con un socio para comprar Finance and Operations localmente. Para obtener más información, consulte [Comprar Dynamics 365 for Finance and Operations (local)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Elija su opción de soporte
 Microsoft ofrece un soporte flexible y líder en el sector, servicios y recursos que permiten a los usuarios abordar rápidamente cuestiones técnicas y maximizar el rendimiento del capital invertido de Dynamics 365. Elija un plan que mejor cumpla sus requisitos empresariales. 

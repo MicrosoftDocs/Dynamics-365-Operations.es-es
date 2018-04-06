@@ -16,10 +16,10 @@ ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 03179fdfd23e26250af92eb70d2ede710bd7007f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6c95c2779d996f489679c8dda4cda462ba0a05ac
 ms.contentlocale: es-es
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -49,7 +49,7 @@ Para poder usar este espacio de trabajo móvil, antes debe satisfacer los siguie
 </thead>
 <tbody>
 <tr class="odd">
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition debe haberse implementando en la organización.</td>
+<td>Microsoft Dynamics 365 for Finance and Operations debe haberse implementando en la organización.</td>
 <td>Administrador del sistema</td>
 <td>Consulte <a href="../deployment/deploy-demo-environment.md">Implementar un entorno de demostración</a>.
 </td>

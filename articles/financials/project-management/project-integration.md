@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a72963f755f8eddb19b8526d2938eff039ab7df2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
 ms.contentlocale: es-es
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/17/2018
 Planificar y mantener la programación de un proyecto puede ser complejo, por lo que los gestores de proyectos deben utilizar herramientas que los ayuden a gestionar esta tarea. La integración con el cliente de Microsoft Project proporciona soporte para abrir y gestionar una estructura de descomposición del trabajo del proyecto. El gestor de proyectos puede volver publicar cualquier cambio en la estructura de descomposición del trabajo del proyecto de Finance and Operations.
 
 > [!NOTE]
-> Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, actualización de julio, debe instalar KB 4054797 y 4055884.
+> Si utiliza Microsoft Dynamics 365 for Finance and Operations, actualización de julio, debe instalar KB 4054797 y 4055884.
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>Configurar el complemento del cliente de Microsoft Project
 Para habilitar la integración con el cliente de Microsoft Project, se requiere la instalación de un complemento de Microsoft Dynamics 365 en la aplicación del cliente de Microsoft Project del usuario. Para ello, abra el **Espacio de trabajo de gestión de proyectos**.

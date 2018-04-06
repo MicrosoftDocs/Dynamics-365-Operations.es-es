@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: da3099a07e3084bf49d03e0f4d421aebe9b39940
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c8ea45ece05f006f1649c79fcdee427a0bc4b0b5
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -65,7 +65,7 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
 1.  Sammy, trabajador en el departamento de recepción de Fabrikam, recibe la cantidad total de máquinas que se envían de Contoso. Éste especifica una cantidad de 5 en una recepción de producto. Dado que el pedido de compra se ha recibido completamente, el estado del pedido de compra cambia a Recibido.
 2.  April, el coordinador de proveedores en Fabrikam, especifique y comprueba la factura que se produce por Contoso. Comprueba la siguiente información:
     -   Para los artículos que requieren triple conciliación, la cantidad de la línea de factura coincide con la cantidad que se ha recibido. La cantidad recibida se indica en la recepción de producto que se asigna a la factura.
-    -   Para los artículos que requieren doble o triple conciliación, los precios en la línea de factura se encuentran dentro de las tolerancias que se definen en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Esto incluye los siguientes tipos de conciliación de precio:
+    -   Para los artículos que requieren doble o triple conciliación, los precios en la línea de factura se encuentran dentro de las tolerancias que se definen en Microsoft Dynamics 365 for Finance and Operations. Esto incluye los siguientes tipos de conciliación de precio:
         -   Conciliación de precio neto unitario – el precio unitario neto de la línea de factura coincide con el precio unitario neto de la línea de pedido de compra, dentro del porcentaje de tolerancia. En este ejemplo, la tolerancia de precio unitario neto es el +8%.
         -   Conciliación de totales de precios: la desviación entre el importe neto de las líneas de facturas y el importe neto de las líneas de pedidos de compra deben estar dentro de los porcentajes de tolerancia permitidos. En este ejemplo, los totales de precio coincidentes tolerancia son los +15%.
 

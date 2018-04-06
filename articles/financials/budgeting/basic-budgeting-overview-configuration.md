@@ -1,6 +1,6 @@
 ---
 title: "Visión general de Gestión presupuestaria"
-description: "Casi todas las empresas que utilizan la funcionalidad de Financials en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, tendrán que poder crear informes de valores presupuestados frente a reales. En este artículo se explica la configuración mínima necesaria para crear presupuestos en Finance and Operations, Enterprise Edition, o cargarlos desde un programa de terceros."
+description: "Casi todas las empresas que utilizan la funcionalidad de Financials en Microsoft Dynamics 365 for for Finance and Operations tendrán que poder crear informes de valores presupuestados frente a reales. En este artículo se explica la configuración mínima necesaria para crear presupuestos en Finance and Operations o cargarlos desde un programa de terceros."
 author: twheeloc
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8e8b3a7e801e98929c4ba1b9fefe341abd91dbd4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Casi todas las empresas que utilizan la funcionalidad de Financials en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, tendrán que poder crear informes de valores presupuestados frente a reales. En este artículo se explica la configuración mínima necesaria para crear presupuestos en Finance and Operations o cargarlos desde un programa de terceros.
+Casi todas las empresas que utilizan la funcionalidad de Financials en Microsoft Dynamics 365 for for Finance and Operations tendrán que poder crear informes de valores presupuestados frente a reales. En este artículo se explica la configuración mínima necesaria para crear presupuestos en Finance and Operations o cargarlos desde un programa de terceros.
 
 <a name="overview"></a>Información general
 --------
@@ -42,7 +42,7 @@ Hay varios métodos para crear asientos de registro presupuestario en Finance a
 
 -   Especificar manualmente la información del documento en la página **Asientos de registro presupuestario**.
 -   Use la plantilla de Microsoft Excel que puede abrir haciendo clic en el botón **Abrir en Excel** en la página **Asientos de registro presupuestario**.
--   Use la entidad de datos **Asientos contables presupuestarios** en la gestión de datos para importar asientos de registro presupuestario. Debe considerar usar este método y activar el parámetro **Procesamiento** **basado **en conjuntos cuando tiene que importar muchos asientos contables presupuestarios en el sistema.
+-   Use la entidad de datos **Asientos contables presupuestarios** en la gestión de datos para importar asientos de registro presupuestario. Debe considerar usar este método y activar el parámetro **Procesamiento** **basado** en conjuntos cuando tiene que importar muchos asientos contables presupuestarios en el sistema.
 -   Si la empresa usa la funcionalidad de planificación presupuestaria para preparar datos de presupuesto, puede usar el proceso periódico **Generar el asiento de registro presupuestario**.
 
 El asiento de registro presupuestario se considera completado cuando se han actualizado los saldos presupuestarios. En la página **Asientos de registro presupuestario**, haga clic en **Actualizar saldos presupuestarios** para un asiento de registro presupuestario seleccionado o varios asientos. Tras actualizar los saldos presupuestarios, el estado del asiento de registro presupuestario cambia a **Completado**. El asiento de registro presupuestario completado no se puede abrir de nuevo para editar. Por lo tanto, si los datos presupuestarios se deben ajustar, debe crear un nuevo asiento de registro presupuestario en lugar de corregir los datos en el asiento de registro presupuestario completado.
@@ -54,7 +54,7 @@ A continuación, si hay directivas que rigen la aprobación de asientos de regis
 
 En la página **Dimensiones de la gestión presupuestaria**, debe seleccionar las dimensiones financieras que se usan para la gestión presupuestaria, en función de las dimensiones que se usan en el plan contable. Se pueden seleccionar todas las dimensiones financieras o un subconjunto para la gestión presupuestaria.
 
-Defina un *modelo presupuestario *que corresponde a todos o a algunos presupuestos. Puede usar un único modelo presupuestario para todos los asientos de registro presupuestario. Como alternativa, puede crear modelos independientes basados en el tipo de presupuesto, la ubicación geográfica o algún otro modo en que un presupuesto puede ser clasificado. 
+Defina un *modelo presupuestario* que corresponde a todos o a algunos presupuestos. Puede usar un único modelo presupuestario para todos los asientos de registro presupuestario. Como alternativa, puede crear modelos independientes basados en el tipo de presupuesto, la ubicación geográfica o algún otro modo en que un presupuesto puede ser clasificado. 
 
 > [!NOTE] 
 > Si se usa el control presupuestario, solo puede asociar un modelo presupuestario a un intervalo de tiempo del ciclo presupuestario concreto. 

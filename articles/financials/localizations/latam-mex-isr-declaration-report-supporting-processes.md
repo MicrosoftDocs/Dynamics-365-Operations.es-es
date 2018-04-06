@@ -19,10 +19,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 68ba03866eeb88669ab6083c8087f0a1c5c60015
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e71009c113f00a1c198a64069a0e3c34dad49e0f
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -42,7 +42,7 @@ Debe presentar el informe de la declaración de IRS para cada mes el día diecis
 Por ejemplo, los pagos de ISR provisionales para enero de 2014 se pagan y se presentan en febrero de 2014; los pagos de febrero se pagan y se presentan en marzo, etc. Los contribuyentes deben usar el año natural para archivar los impuestos. Al final del año, los contribuyentes también deben enviar la declaración anual, que muestra el cálculo final del impuesto.
 
 ## <a name="prerequisites"></a>Requisitos previos
-Antes de generar el informe de ISR, puede usar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, para configurar la categoría del concepto y para definir los índices de ISR que se deben aplicar en el informe. El informe de ISR se basa en las transacciones de diario generales.
+Antes de generar el informe de ISR, puede usar Microsoft Dynamics 365 for Finance and Operations para configurar la categoría del concepto y para definir los índices de ISR que se deben aplicar en el informe. El informe de ISR se basa en las transacciones de diario generales.
 
 ### <a name="concepts"></a>Conceptos
 

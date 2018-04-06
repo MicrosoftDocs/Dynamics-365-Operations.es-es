@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 96df6bbfe5c9e158b616230c2b061762a5edda08
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -62,7 +62,7 @@ La plantilla de Excel contendrá todos los elementos del diseño de documento de
 [![Ejemplo ](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Para evitar posibles problemas con la visualización y edición de los datos del plan presupuestario con Excel, el mismo usuario se debe registrar en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition y el conector de datos del complemento de Office para Microsoft Dynamics.
+> Para evitar posibles problemas con la visualización y edición de los datos del plan presupuestario con Excel, el mismo usuario se debe registrar en Microsoft Dynamics 365 for Finance and Operations y el conector de datos del complemento de Office para Microsoft Dynamics.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Agregar un encabezado a la plantilla de documento de plan presupuestario
 Para agregar información de encabezado, seleccione la fila superior en el archivo de Excel e inserte las filas vacías. Haga clic en **Diseño** en el **Conector de datos** para agregar campos de cabecera al archivo de Excel.

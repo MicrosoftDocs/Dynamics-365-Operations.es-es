@@ -1,6 +1,6 @@
 ---
 title: "Estándares compatibles para la facturación electrónica en Europa"
-description: "Este tema explica el nivel de cobertura que existe para la facturación electrónica en Microsoft Dynamics 365 for Finance and Operations, Enterprise edition en región europea."
+description: "Este tema explica el nivel de cobertura que existe para la facturación electrónica en Microsoft Dynamics 365 for Finance and Operations en la región europea."
 author: mrolecki
 manager: AnnBe
 ms.date: 07/11/2017
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6bd2ba463f8e8891bf6ddbf5b29037cc46d6f423
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 354b9fd50dbd628b91fd4d77c4cb323ddc36428f
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 

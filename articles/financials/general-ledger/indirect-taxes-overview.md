@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1eb30ccbaa51bf794c7b3ea2be3fe749fb8ff88d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 02d28aef2316d7cfe5ad4eb45272dc1a22c96789
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -74,7 +74,7 @@ En cada transacción (líneas de documentos de ventas/compras, etc.), debe espec
 En cada transacción, para buscar los impuestos calculados, abra la página **Transacción de impuestos**. Puede buscar los impuestos para una línea de documento o para todo el documento. Para determinados documentos (por ejemplo, factura de proveedor y diarios generales), puede ajustar los impuestos calculados si el documento original muestra importes irregulares.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Liquidación de impuestos y generación de informes
-Los impuestos se deben notificar y pagar a las autoridades fiscales en intervalos regulados (mensuales, trimestrales, etc.). Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition proporciona funciones que le permiten liquidar cuentas de impuestos para el intervalo y compensar los saldos con la cuenta de liquidación de impuestos, como se especifica en los grupos de registro. Puede obtener acceso a esta función en la página **Liquidar y registrar impuestos**. Debe especificar el período de liquidación de impuestos para el que se deben liquidar los impuestos. 
+Los impuestos se deben notificar y pagar a las autoridades fiscales en intervalos regulados (mensuales, trimestrales, etc.). Microsoft Dynamics 365 for Finance and Operations proporciona funciones que le permiten liquidar cuentas de impuestos para el intervalo y compensar los saldos con la cuenta de liquidación de impuestos, como se especifica en los grupos de registro. Puede obtener acceso a esta función en la página **Liquidar y registrar impuestos**. Debe especificar el período de liquidación de impuestos para el que se deben liquidar los impuestos. 
 
 Después de que se hayan pagado los impuestos, el saldo de la cuenta de liquidación de impuestos se debe equilibrar con la cuenta bancaria. Si la autoridad fiscal que está especificada en el período de liquidación de impuestos está relacionada con una cuenta de proveedor, el saldo de los impuestos se registra como factura de proveedor abierta y se puede incluir en la propuesta de pago normal.
 

@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa11f1775017dd9bada61340b4bed70ea66a4137
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -96,7 +96,7 @@ Se usa el elemento de coste de la ganancia que se seleccionó en el grupo de com
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Crear puestos de previsión para puestos existentes
 
-Para la planificación de manera más precisa del presupuesto, puede crear puestos de previsión con los detalles de puestos existentes en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, independientemente de si el puesto existe o no actualmente. 
+Para la planificación presupuestaria de manera más precisa, puede crear puestos de previsión con los detalles de puestos existentes en Microsoft Dynamics 365 for Finance and Operations, independientemente de si el puesto existe o no actualmente. 
 
 La función **Agregar puestos existentes** muestra todas las posiciones para una organización. Al configurar la fecha **A partir de**, puede cambiar la lista de puestos de modo que contenga los puestos que existían en una fecha en el pasado o, normalmente, en el futuro (por ejemplo, el inicio del ciclo presupuestario siguiente). Seleccione una situación del proceso de planificación presupuestaria y el plan de presupuesto, seleccione puestos en la lista, y haga clic en **Aceptar** para crear los puestos de previsión para los puestos seleccionados. Tenga en cuenta que puede crear un puesto de previsión para cada puesto existente en un proceso y una situación de planificación presupuestaria. Sin embargo, puede crear versiones adicionales asignando distintas situaciones del plan de presupuesto. 
 

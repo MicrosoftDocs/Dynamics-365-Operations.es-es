@@ -1,6 +1,6 @@
 ---
 title: "Importación de archivos ISO20022"
-description: "Este tema explica cómo importar archivos de pago de formatos camt.054 y pain.002 ISO 20022 a Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "Este tema explica cómo importar archivos de pago de formatos camt.054 y pain.002 ISO 20022 a Microsoft Dynamics 365 for Finance and Operations."
 author: neserovleo
 manager: AnnBe
 ms.date: 07/27/2017
@@ -17,10 +17,10 @@ ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: 1492e4d8220a3d515145d97ef8dad048727d97c8
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f55e8fbc4d13f84686298cb8dbcebb4baf134cf3
 ms.contentlocale: es-es
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 

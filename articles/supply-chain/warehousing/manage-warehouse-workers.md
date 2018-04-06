@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 97f70bf2f122ee06900a1a9b930d29aab5ce4b25
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 211ced007e7729265621a05c2162a228eb0023c2
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo describe cómo puede usar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition para ayudar a controlar y a supervisar el trabajo que han realizado los empleados en los almacenes.
+Este artículo describe cómo puede usar Microsoft Dynamics 365 for Finance and Operations para ayudar a controlar y a supervisar el trabajo que han realizado los empleados en los almacenes.
 
 Si usa la funcionalidad de gestión de almacenes, todas las operaciones de trabajador de almacén se conocen como *trabajo*. Trabajo como seleccionar, mover y recuento de inventario disponible se registra con los dispositivos móviles. Antes de que un trabajador de almacén pueda realizar el trabajo, debe estar asociado a un trabajador en recursos humanos. Cada cuenta de **Trabajador** puede tener varios usuarios de trabajo de almacén asociados. Dichos usuarios de trabajo pueden trabajar en varios almacenes y pueden tener distintos niveles de acceso a los distintos menús del dispositivo móvil. Puede pensar en los usuarios de trabajo de almacén como varios inicios de sesión para el trabajador seleccionado. Cada usuario de trabajo tiene un almacén predeterminado y los flujos de trabajo específicos son expuestos por los elementos de menú que están disponibles para dicho usuario de trabajo. 
 

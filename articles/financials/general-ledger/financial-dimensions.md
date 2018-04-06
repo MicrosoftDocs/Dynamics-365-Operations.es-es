@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 274a5e696bfde4f5e27bc186fadbab69f5fc655d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3e9f00fdc32feda0a62f71a92e503a677dce35cc
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -35,7 +35,7 @@ Use la página **Dimensiones financieras** para crear las dimensiones financiera
 
 Una vez creadas las dimensiones financieras, use la página **Valores de la dimensión financiera** para asignar propiedades adicionales a cada dimensión financiera. 
 
-Puede usar dimensiones financieras para representar las entidades jurídicas. No es necesario crear las entidades jurídicas en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. No obstante, las dimensiones financieras no están diseñadas para abordar los requisitos operativos o empresariales de las entidades jurídicas. La funcionalidad de contabilidad de interunidad de Finance and Operations está diseñada para tratar solo los asientos contables creados por cada transacción. 
+Puede usar dimensiones financieras para representar las entidades jurídicas. No es necesario crear las entidades jurídicas en Microsoft Dynamics 365 for Finance and Operations. No obstante, las dimensiones financieras no están diseñadas para abordar los requisitos operativos o empresariales de las entidades jurídicas. La funcionalidad de contabilidad de interunidad de Finance and Operations está diseñada para tratar solo los asientos contables creados por cada transacción. 
 
 Antes de configurar dimensiones financieras como entidades jurídicas, evalúe sus procesos empresariales en las áreas siguientes para determinar si esta configuración funcionará para su organización:
 

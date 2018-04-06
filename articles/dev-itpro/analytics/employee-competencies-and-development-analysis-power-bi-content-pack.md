@@ -1,6 +1,6 @@
 ---
-title: Contenido de Power BI sobre competencias y desarrollo de empleados
-description: En este tema se describe Finance and Operations, contenido de Power BI sobre competencias y desarrollo de empleados
+title: Contenido de Power BI sobre competencias y desarrollo de los empleados
+description: En este tema se describe Finance and Operations; el contenido de Power BI sobre competencias y desarrollo de empleados
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -18,19 +18,19 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 99fa6e396989e6e204d84cc776f627c7c4baf1d1
+ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
+ms.openlocfilehash: 0769596c5ebaed1f5698d596d66d6f0334d5fcc2
 ms.contentlocale: es-es
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
-# <a name="employee-competencies-and-development-power-bi-content"></a>Contenido de Power BI sobre competencias y desarrollo de empleados
+# <a name="employee-competencies-and-development-power-bi-content"></a>Contenido de Power BI sobre competencias y desarrollo de los empleados
 
 [!include[banner](../includes/banner.md)]
 
 
-En este tema se describe Finance and Operations, contenido de Power BI sobre competencias y desarrollo de empleados 
+En este tema se describe Finance and Operations; el contenido de Power BI sobre competencias y desarrollo de empleados 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Informes que se incluyen en el paquete de contenido
 Tras la conexión del paquete de contenido con sus datos de Finance and Operations, los informes muestran los datos de su organización. Si nunca antes ha utilizado Microsoft Power BI, consulte [Aprendizaje dirigido para Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) para obtener más información acerca de la aplicación. Los informes incluidos en el paquete de contenido tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.

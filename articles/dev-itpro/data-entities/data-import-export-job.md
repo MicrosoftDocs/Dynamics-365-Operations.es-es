@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
-ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
 ms.contentlocale: es-es
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 02/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-Para crear y administrar trabajos de importación y exportación de datos en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, debe usar el espacio de trabajo **Administración de datos**. De forma predeterminada, el proceso de importación y exportación de datos crea una tabla de almacenamiento provisional para cada entidad en la base de datos de destino. Las tablas de almacenamiento provisional le permiten verificar, limpiar o convertir datos antes de moverlos de sitio.
+Para crear y administrar trabajos de importación y exportación de datos en Microsoft Dynamics 365 for Finance and Operations debe usar el espacio de trabajo **Administración de datos**. De forma predeterminada, el proceso de importación y exportación de datos crea una tabla de almacenamiento provisional para cada entidad en la base de datos de destino. Las tablas de almacenamiento provisional le permiten verificar, limpiar o convertir datos antes de moverlos de sitio.
 
 > [!NOTE]
 > Este tema asumen que está familiarizado con las [entidades de datos](data-entities.md).
@@ -66,7 +66,7 @@ Puede agregar entidades específicas a un trabajo de importación o exportación
 ### <a name="set-the-data-format-for-the-job"></a>Establecer el formato de datos del trabajo
 Al seleccionar una entidad, debe seleccionar el formato de los datos que se exportarán o importarán. Puede definir los formatos mediante el icono **Configuración de orígenes de datos**. Muchas empresas comienzan usando los formatos que se incluyen de forma predeterminada en el conjunto de datos de prueba. A continuación le proporcionamos una lista de algunos de estos formatos:
 
-- AX (para los datos que se deben importar o exportar en el mismo formato que se usa en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition)
+- AX (para los datos que se deben importar o exportar en el mismo formato que se usa en Microsoft Dynamics 365 for Finance and Operations)
 - ColonSeparated
 - CSV
 - Excel
