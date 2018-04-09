@@ -1,6 +1,6 @@
 ---
 title: "Configuración del proceso de conciliación bancaria avanzada"
-description: "Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.  En este artículo se explicará la configuración de los procesos de conciliación."
+description: "La conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations.  En este artículo se explicará la configuración de los procesos de conciliación."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aec219f545e880407b9a7d62b2dda4a607ac6bdd
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.  En este artículo se explicará la configuración de los procesos de conciliación.  
+La conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations.  En este artículo se explicará la configuración de los procesos de conciliación.  
 
 Varias partes deben estar configuradas antes de utilizar la funcionalidad avanzada de conciliación bancaria. Para obtener más información sobre la configuración de la importación del extracto bancario, consulte [Configurar el proceso de importación de extractos bancarios](set-up-advanced-bank-reconciliation-import-process.md).  Los requisitos para la configuración del proceso de conciliación se detallan a continuación.
 

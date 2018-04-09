@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 946584d8afa8937afc7a26835e05b0eecebaad35
-ms.openlocfilehash: 67558889dea03738a665d8f1e2f30833b96c4656
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
 ms.contentlocale: es-es
-ms.lasthandoff: 12/23/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ Este tema explica cómo usar el diseñador de fórmula en Informes electrónicos
 
 Los ER admiten el diseñador de fórmulas. Por tanto, en el momento del diseño, puede configurar las expresiones que se pueden usar para las siguientes tareas en tiempo de ejecución:
 
-- Transforme datos recibidos de una base de datos de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, y que se deben introducir en un modelo de datos de ER que se ha diseñado para ser un origen de datos para formatos de ER. (Por ejemplo, estas transformaciones pueden incluir el filtrado, la agrupación y la conversión de tipos de datos.)
+- Transforme datos recibidos de una base de datos de Microsoft Dynamics 365 for Finance and Operations, que se deben introducir en un modelo de datos de ER que se ha diseñado para ser un origen de datos para formatos de ER. (Por ejemplo, estas transformaciones pueden incluir el filtrado, la agrupación y la conversión de tipos de datos.)
 - Formatee los datos que deben enviarse a un documento electrónico de generación de acuerdo con el diseño y las condiciones de un formato de ER específico. (Por ejemplo, el formato puede realizarse de acuerdo con el idioma o la cultura solicitada, o la codificación).
 - Controle el proceso de creación de documentos electrónicos. (Por ejemplo, las expresiones pueden habilitar o deshabilitar la salida de elementos específicos del formato, en función de datos de procesamiento. También pueden interrumpir el proceso de creación del documento o enviar mensajes a los usuarios.)
 
@@ -540,7 +540,7 @@ La expresión <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> también de
 </tr>
 <tr class="even">
 <td>FORMAT (cadena 1, cadena 2 [, cadena 3, …])</td>
-<td>Devuelve la cadena especificada después de que se haya formateado sustituyendo cualquier aparición de <strong>%N</strong> con el argumento <em>n</em>-ésimo. Los argumentos son cadenas. Si no se proporciona un argumento para un parámetro, el parámetro se devuelve como <strong>&quot;%N&quot;</strong> en la cadena. Para los valores del tipo <strong>real</strong>, la conversión de la cadena se limita a dos decimales.</td>
+<td>Devuelve la cadena especificada después de que se haya formateado sustituyendo cualquier aparición de <strong>%N</strong> con el argumento <em>n</em>ésimo. Los argumentos son cadenas. Si no se proporciona un argumento para un parámetro, el parámetro se devuelve como <strong>&quot;%N&quot;</strong> en la cadena. Para los valores del tipo <strong>real</strong>, la conversión de la cadena se limita a dos decimales.</td>
 <td>En la siguiente ilustración, el origen de datos <strong>PaymentModel</strong> devuelve la lista de registros de clientes mediante el componente <strong>Cliente</strong> y el valor de la fecha de procesamiento mediante el campo <strong>ProcessingDate</strong>.
 <p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
 <p>En el formato ER diseñado para generar un archivo electrónico para los clientes seleccionados, <strong>PaymentModel</strong> se selecciona como origen de datos y controla el flujo de proceso. Se genera una excepción para informar al usuario cuando se detiene un cliente seleccionado para la fecha en la que se procesa el informe. La fórmula que está diseñada para este tipo de control de proceso puede usar los recursos siguientes:</p>

@@ -19,10 +19,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 46e2f11e13bce74f36363c60d749196cbf2ee6b5
-ms.openlocfilehash: 9ba72208bd6f5318ebc87563725135d151642a08
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 66a012b0d5590e4ed891ab26effc22f08cf78928
 ms.contentlocale: es-es
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ La factura electrónica en México requiere el formato Comprobantes fiscales dig
 
 Este artículo proporciona información acerca de las facturas electrónicas que su organización puede enviar a la autoridad fiscal mexicana (SAT). Describe el método aprobado actualmente para enviar facturas electrónicas (CFDI), los requisitos para usarlas y la información que incluyen.
 
-Una factura electrónica es un recibo de impuestos digital aceptado legalmente que la organización envía a la autoridad fiscal mexicana (Servicio de Administración Tributaria \[SAT\]). Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition ayuda a garantizar que las facturas electrónicas que su organización genera son seguras, confidenciales, auténticas y legalmente aceptables. También puede asegurarse de que los estándares internacionales se aplican a las facturas electrónicas. Puede generar una factura electrónica para los siguientes documentos al registrar una transacción:
+Una factura electrónica es un recibo de impuestos digital aceptado legalmente que la organización envía a la autoridad fiscal mexicana (Servicio de Administración Tributaria \[SAT\]). Microsoft Dynamics 365 for Finance and Operations ayuda a garantizar que las facturas electrónicas que su organización genera son seguras, confidenciales, auténticas y legalmente aceptables. También puede asegurarse de que los estándares internacionales se aplican a las facturas electrónicas. Puede generar una factura electrónica para los siguientes documentos al registrar una transacción:
 
 -   Pedido de ventas
 -   Factura de servicios

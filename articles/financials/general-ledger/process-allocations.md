@@ -1,6 +1,6 @@
 ---
 title: Procesar asignaciones
-description: "Este artículo proporciona información sobre las asignaciones, las opciones para procesarlas en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition y cómo se pueden usar en la planificación presupuestaria. Las asignaciones se usan para distribuir importes en varias combinaciones de cuenta contable. Ayudan a garantizar que los gastos o ingresos se cargan en objeto adecuado en contabilidad."
+description: "Este artículo proporciona información sobre las asignaciones, las opciones para procesarlas en Microsoft Dynamics 365 for Finance and Operations y cómo se pueden usar en la planificación presupuestaria. Las asignaciones se usan para distribuir importes en varias combinaciones de cuenta contable. Ayudan a garantizar que los gastos o ingresos se cargan en objeto adecuado en contabilidad."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cb12e24fcb8e8c91f90b91e2fdb3039dd1735ca3
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 26e7f607e070ac6c09a92d7809d65bac34d51f0b
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo proporciona información sobre las asignaciones, las opciones para procesarlas en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition y cómo se pueden usar en la planificación presupuestaria. Las asignaciones se usan para distribuir importes en varias combinaciones de cuenta contable. Ayudan a garantizar que los gastos o ingresos se cargan en objeto adecuado en contabilidad.
+Este artículo proporciona información sobre las asignaciones, las opciones para procesarlas en Microsoft Dynamics 365 for Finance and Operations y cómo se pueden usar en la planificación presupuestaria. Las asignaciones se usan para distribuir importes en varias combinaciones de cuenta contable. Ayudan a garantizar que los gastos o ingresos se cargan en objeto adecuado en contabilidad.
 
 Microsoft Dynamics 365 for Finance and Operations proporciona las siguientes capacidades para admitir este proceso:
 

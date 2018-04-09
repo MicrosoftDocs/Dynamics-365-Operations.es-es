@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: 5e67be5687388d399e2f702d8070cd960cbe7939
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/03/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Los configuración de pedido predeterminada en Microsoft Dynamics 365 for Finance and Operations, Enterpise Edition define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido. La configuración de pedido predeterminada se usa al crear pedidos de compra, pedidos de ventas, pedidos de transferencia, diarios de inventario y para generar pedidos planificados mediante planificación principal. La configuración de pedido predeterminada puede ser específica del artículo, del sitio, de la variante del producto o de la dimensión de producto.
+Los configuración de pedido predeterminada en Microsoft Dynamics 365 for Finance and Operations define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido. La configuración de pedido predeterminada se usa al crear pedidos de compra, pedidos de ventas, pedidos de transferencia, diarios de inventario y para generar pedidos planificados mediante planificación principal. La configuración de pedido predeterminada puede ser específica del artículo, del sitio, de la variante del producto o de la dimensión de producto.
 
 La configuración predeterminada del pedido se puede definir en la página **Configuración predeterminada de pedido**. Para abrir esta página, vaya a **Gestión de información de productos** &gt; **Productos** &gt; **Productos emitidos** &gt; **Seleccionar un producto emitido** &gt; en Panel de acción **Plan** o **Gestionar inventario** &gt; **Configuración de pedido** &gt; **Configuración predeterminada de pedido**.
 

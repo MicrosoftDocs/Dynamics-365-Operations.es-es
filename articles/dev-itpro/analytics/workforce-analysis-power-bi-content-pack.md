@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 8ff4eb80eeb47a72fc1ac91ddc4bdfccebc4c0c6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 17b42ae7e177a42b732654f2952ec5fe35acb1a9
 ms.contentlocale: es-es
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -35,7 +35,7 @@ Este tema describe el contenido en Microsoft Power BI de **métricas de recursos
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 El contenido en Power BI de **métricas de recursos** se muestra en el espacio de trabajo **Administración de personal** si usa uno de estos productos:
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
+- Microsoft Dynamics 365 for Finance and Operations 
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI

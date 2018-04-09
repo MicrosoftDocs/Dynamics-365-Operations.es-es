@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: ed3f8260cace494170bf1d4db80c3bcb9a1a086e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9550faec1bbbdc233631e149c09b8e4faf25f5ff
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -85,7 +85,7 @@ Así es como se muestra la anotación del notas en la “burbuja” de la guía 
 
 [![screen4](./media/screen4.png)](./media/screen4.png)
 
--   **Paso de la información**: estas anotaciones se crean haciendo clic con el botón secundario en un control o en cualquier lugar de un formulario &lt; **Grabador de tareas** &lt; **Agregar paso de información. **Los pasos de información aparecen como paso numerado en cualquier punto en el que lo inserta, aunque no se haya grabado ninguna acción en la IU. Puede agregar un paso de información de nivel de formulario o un paso de información asociado con un control. Cuando un paso de información está asociado a un formulario, la "burbuja" de la guía de tareas aparecerá en algún lugar del formulario, sin puntero, cuando se reproduzca la guía de tareas. Cuando un paso de información está asociado a un control, la "burbuja" de la guía de tareas señalará al control cuando se reproduzca la guía de tareas. En el panel de la Ayuda, aparecerá una anotación del paso de la información como paso numerado siempre que escriba texto. Use los pasos de información para preparar al usuario para los pasos siguientes, para describir los pasos que se deben dar fuera de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, para hacer referencia a otras grabaciones (aunque no puede crear hipervínculos en anotaciones).
+-   **Paso de la información**: estas anotaciones se crean haciendo clic con el botón secundario en un control o en cualquier lugar de un formulario &lt; **Grabador de tareas** &lt; **Agregar paso de información. **Los pasos de información aparecen como paso numerado en cualquier punto en el que lo inserta, aunque no se haya grabado ninguna acción en la IU. Puede agregar un paso de información de nivel de formulario o un paso de información asociado con un control. Cuando un paso de información está asociado a un formulario, la "burbuja" de la guía de tareas aparecerá en algún lugar del formulario, sin puntero, cuando se reproduzca la guía de tareas. Cuando un paso de información está asociado a un control, la "burbuja" de la guía de tareas señalará al control cuando se reproduzca la guía de tareas. En el panel de la Ayuda, aparecerá una anotación del paso de la información como paso numerado siempre que escriba texto. Use los pasos de información para preparar al usuario para los pasos siguientes, para describir los pasos que se deben dar fuera de Microsoft Dynamics 365 for Finance and Operations, para hacer referencia a otras grabaciones (aunque no puede crear hipervínculos en anotaciones).
 
 **Determine el tiempo para realizar la grabación**
 

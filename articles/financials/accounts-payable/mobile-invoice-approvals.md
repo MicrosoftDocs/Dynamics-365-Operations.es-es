@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c579db5a922d81a2781ec2011e148db54fac288d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 98e32298d1c8285437adf3df9820a71e7a0d7f6c
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Las capacidades móviles de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, permiten a un usuario empresarial diseñar experiencias móviles. Para situaciones avanzadas, la plataforma también permite a los desarrolladores ampliar las capacidades como desean. La forma más eficaz de aprender algunos de los conceptos nuevos sobre capacidades móviles es pasar por el proceso de diseño de algunos escenarios. Este tema está pensando para proporcionar un método práctico de diseñar escenarios móviles con las aprobaciones de facturas de proveedores para aplicaciones móviles como un caso de uso. Este tema le ayudará a diseñar otras variaciones de los escenarios y se puede aplicar a otros escenarios que no están relacionados con las facturas de proveedores.
+Las capacidades móviles de Microsoft Dynamics 365 for Finance and Operations permiten a un usuario empresarial diseñar experiencias móviles. Para situaciones avanzadas, la plataforma también permite a los desarrolladores ampliar las capacidades como desean. La forma más eficaz de aprender algunos de los conceptos nuevos sobre capacidades móviles es pasar por el proceso de diseño de algunos escenarios. Este tema está pensando para proporcionar un método práctico de diseñar escenarios móviles con las aprobaciones de facturas de proveedores para aplicaciones móviles como un caso de uso. Este tema le ayudará a diseñar otras variaciones de los escenarios y se puede aplicar a otros escenarios que no están relacionados con las facturas de proveedores.
 
 <a name="prerequisites"></a>Requisitos previos
 -------------

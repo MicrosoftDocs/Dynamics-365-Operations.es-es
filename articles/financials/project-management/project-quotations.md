@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1212a46cc937b9ccc6ebfa9cc4b89b931f144130
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c7de1d7e57a2a32c339bc576f929958b9de91fcc
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Este artículo presenta el concepto de presupuestos de proyecto, que puede usar para realizar una oferta atractiva a un cliente como el primer paso de la fase de proyecto. Un presupuesto de proyecto puede incluir los artículos y los servicios que se van a presupuestar, la información básica de contacto, los acuerdos comerciales especiales y los descuentos, así como posibles impuestos y suplementos. 
 
-La habilidad para realizar un seguimiento, revisar y controlar el proceso de presupuestos y pedidos de proyecto es una parte importante de la gestión del proyecto. Varias herramientas de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition pueden ayudarle con estas tareas. Por ejemplo, la de corrección de las definiciones de datos de referencia (tipos y origen de presupuestos, así como pronóstico y probabilidad), le ayudan a analizar el proceso. Puede usar estas herramientas para categorizar las razones por las que un presupuesto de proyecto ha sido un éxito o no, y para determinar el valor posible de un presupuesto. 
+La habilidad para realizar un seguimiento, revisar y controlar el proceso de presupuestos y pedidos de proyecto es una parte importante de la gestión del proyecto. Varias herramientas de Microsoft Dynamics 365 for Finance and Operations pueden ayudarle con estas tareas. Por ejemplo, la de corrección de las definiciones de datos de referencia (tipos y origen de presupuestos, así como pronóstico y probabilidad), le ayudan a analizar el proceso. Puede usar estas herramientas para categorizar las razones por las que un presupuesto de proyecto ha sido un éxito o no, y para determinar el valor posible de un presupuesto. 
 
 En un presupuesto de proyecto, puede especificar los servicios, la información básica de contacto, los acuerdos comerciales especiales y los descuentos, así como los impuestos y suplementos estimados para un proyecto. También puede seleccionar las actividades o las tareas de un proyecto, y crear una jerarquía de tareas y subtareas. Para cada actividad, puede especificar detalles acerca de los tiempos y la duración de la actividad, así como de las aptitudes y la experiencia que necesitan los trabajadores que la realizan. 
 

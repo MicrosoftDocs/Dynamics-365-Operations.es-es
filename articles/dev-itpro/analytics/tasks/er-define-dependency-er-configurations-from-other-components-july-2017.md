@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7de5fbcaa9f287752e3ae4834eb48d622d263579
-ms.openlocfilehash: 890f035a291dbec936594ceeabc5de284d160ad4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a1ccd440353e986d296de370506fb1951331e2cf
 ms.contentlocale: es-es
-ms.lasthandoff: 10/25/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components-for-electronic-reporting-er"></a>Definir la dependencia de las configuraciones de otros componentes para informes electrónicos (ER)
@@ -28,7 +28,7 @@ ms.lasthandoff: 10/25/2017
 
 Para completar estos pasos, primero debe completar los pasos de la guía de tareas, "ER: Administrar las configuraciones de asignación de modelos" y debe tener acceso a Microsoft Dynamics Lifecycle Services (LCS).
 
-Este procedimiento muestra cómo diseñar una configuración de informes electrónicos (ER) y especificar su dependencia desde otros componentes de software, de modo que pueda ayudar a garantizar que la configuración se ha descargado correctamente a una versión específica de Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. En este ejemplo, usted creará las configuraciones de ER necesarias para la empresa de ejemplo, Litware, Inc. 
+Este procedimiento muestra cómo diseñar una configuración de informes electrónicos (ER) y especificar su dependencia desde otros componentes de software, de modo que pueda ayudar a garantizar que la configuración se ha descargado correctamente a una versión específica de Microsoft Dynamics 365 for Finance and Operations. En este ejemplo, usted creará las configuraciones de ER necesarias para la empresa de ejemplo, Litware, Inc. 
 
 Este procedimiento se ha creado para los usuarios con los roles de Administrador del sistema o Desarrollador de informes electrónicos asignados. Los pasos se pueden realizar con cualquier empresa, porque las configuraciones de informes electrónicos se comparten entre todas las empresas. 
 

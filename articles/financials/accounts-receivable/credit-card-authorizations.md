@@ -1,6 +1,6 @@
 ---
 title: "Configuración, autorización y captura de tarjetas de crédito"
-description: "Este artículo proporciona una visión general de la autorización de tarjeta de crédito en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Incluye información acerca de cómo configurar un servicio de pago, agregar una tarjeta de crédito a un pedido de ventas y anular una autorización."
+description: "Este artículo proporciona una visión general de la autorización de tarjeta de crédito en Microsoft Dynamics 365 for Finance and Operations. Incluye información acerca de cómo configurar un servicio de pago, agregar una tarjeta de crédito a un pedido de ventas y anular una autorización."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 40d636cac477871f094286d29edc32cd5616ad44
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4a6354563fdebff901498f1cd6caed3aedae668b
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Este artículo proporciona una visión general de la autorización de tarjeta de crédito en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Incluye información acerca de cómo configurar un servicio de pago, agregar una tarjeta de crédito a un pedido de ventas y anular una autorización.
+Este artículo proporciona una visión general de la autorización de tarjeta de crédito en Microsoft Dynamics 365 for Finance and Operations. Incluye información acerca de cómo configurar un servicio de pago, agregar una tarjeta de crédito a un pedido de ventas y anular una autorización.
 
 <a name="setting-up-the-credit-card-payment-service"></a>Configuración del servicio de pago con tarjeta de crédito
 ------------------------------------------

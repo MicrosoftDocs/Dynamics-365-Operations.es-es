@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 83e8dc76350e0d40a392e9a04ddca5b4b45d0da0
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a0c900dc208736f1823be50e8522061406c9f126
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-El control de las directivas de trabajo de almacén en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition si el trabajo del almacén se crea mediante procesos de almacén en la fabricación, en función de tipo de pedido del trabajo, la ubicación de inventario y el producto.
+Las directivas de trabajo de almacén en Microsoft Dynamics 365 for Finance and Operations controlan si el trabajo del almacén se crea mediante procesos de almacén en la fabricación, en función de tipo de pedido del trabajo, la ubicación de inventario y el producto.
 
 Esta directiva de trabajo controla si el trabajo del almacén se ha creado para los procesos de almacén en la fabricación. Puede configurar la directiva de trabajo mediante una combinación de **tipos de pedido de trabajo**, la **ubicación del inventario**, y un **producto**. Por ejemplo, se ha informado a la ubicación de salida 001 que el producto L0101 ha finalizado. El producto terminado se consume más adelante en otro pedido de producción en la ubicación de salida 001. En este caso, puede configurar una directiva de trabajo para evitar que el trabajo para productos terminados se deseche por haberse creado cuando se informa a la ubicación de salida 001 que el producto L0101 ha finalizado. La directiva de trabajo es una entidad individual que puede ser descrita mediante la siguiente información:
 

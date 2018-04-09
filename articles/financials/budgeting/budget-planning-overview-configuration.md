@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d904a2fe9411da1fd1a4e5810f7dcea782f1c2f7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ En este artículo se introduce la plantificación presupuestaria y contiene info
 
 La planificación presupuestaria se realiza cuando se preparan los presupuestos que una organización implementará. Una organización puede configurar la planificación presupuestaria y, a continuación, configurar procesos de planificación presupuestaria para cumplir sus directivas, procedimientos y requisitos para la preparación de presupuestos. 
 
-Cuando comprenda los conceptos y la terminología que se usan en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, le será más sencillo implementar la planificación presupuestaria en su organización.
+Cuando comprenda los conceptos y la terminología que se usan en Microsoft Dynamics 365 for Finance and Operations, le será más sencillo implementar la planificación presupuestaria en su organización.
 
 ### <a name="key-terms"></a>Términos clave
 

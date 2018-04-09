@@ -19,10 +19,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 6fde46c35d5efbb72ad97628d7d5a3f9eeba7c8e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
 ms.contentlocale: es-es
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/13/2018
 
 [!include[banner](includes/banner.md)]
 
-*Atributos* proporciona una forma de describir adicionalmente un producto y sus características a través de campos definidos por el usuario (como **Tamaño de la memoria**, **Capacidad del disco duro**, **Cumple con Energy Star**, etc.). En Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, los atributos se pueden asociar con las distintas entidades minoristas, como categorías de productos y canales de venta minorista, y se pueden definir valores predeterminados. A continuación, los productos heredan los atributos y los valores predeterminados para dichos atributos cuando se asocian a las categorías de productos o canales de venta minorista. Los valores predeterminados se pueden anular en el nivel de producto individual, en el nivel del canal de venta minorista o en un catálogo de venta minorista.
+*Atributos* proporciona una forma de describir adicionalmente un producto y sus características a través de campos definidos por el usuario (como **Tamaño de la memoria**, **Capacidad del disco duro**, **Cumple con Energy Star**, etc.). En Microsoft Dynamics 365 for Finance and Operations, los atributos se pueden asociar con las distintas entidades de Retail, como categorías de productos y canales de venta minorista, y se pueden definir valores predeterminados. A continuación, los productos heredan los atributos y los valores predeterminados para dichos atributos cuando se asocian a las categorías de productos o canales de venta minorista. Los valores predeterminados se pueden anular en el nivel de producto individual, en el nivel del canal de venta minorista o en un catálogo de venta minorista.
  
 Por ejemplo, un producto de televisión típico puede tener los siguientes atributos.
 

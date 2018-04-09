@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c858cc24cbba961024a67a2477d7271f64f9a0d4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c8e24234cfa54dcbbf3638c31ced7fb83881bb9f
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -41,7 +41,7 @@ En las situaciones de producción que se basan en pedidos de producción, el mat
 
 Para reducir el plazo de entrega y el exceso de inventario entre los centros de trabajo que causa la producción de lote, la lean manufacturing coloca el reabastecimiento de kanban y los supermercados en el reabastecimiento del almacén y la fabricación. Normalmente, estas características interrumpen normalmente la producción de ciclos parcialmente independientes de kanban. El reabastecimiento de un kanban para un producto semiterminado ya no se activa por un pedido para un producto terminado. 
 
-Para restablecer el contexto de producción y de coste para las distintas situaciones de kanban que se proponen en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition los flujos de producción basados en actividad que se han introducido como la espina dorsal de lean manufacturing. Todas las reglas kanban hacen referencia a esta estructura predefinida. El modelo basado en actividades admite la configuración de un intervalo más amplio de situaciones que las versiones anteriores de lean manufacturing para Dynamics AX admitido. Sin embargo, este modelo no agrega complejidad para los trabajadores de planta, porque todas las situaciones usan la mismo interfaz de usuario basada en actividades.
+Para restablecer el contexto de producción y de coste para las distintas situaciones de kanban que se proponen en Microsoft Dynamics 365 for Finance and Operations, se han introducido flujos de producción basados en la actividad para que actúen como la espina dorsal de lean manufacturing. Todas las reglas kanban hacen referencia a esta estructura predefinida. El modelo basado en actividades admite la configuración de un intervalo más amplio de situaciones que las versiones anteriores de lean manufacturing para Dynamics AX admitido. Sin embargo, este modelo no agrega complejidad para los trabajadores de planta, porque todas las situaciones usan la mismo interfaz de usuario basada en actividades.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Productos semiterminados (no a niveles de L. MAT)
 La lean manufacturing para Dynamics AX integra kanbans para los productos a los que se le ha realizado un inventario y productos semiterminados en un único período, y por tanto ofrece una experiencia unificada de usuario para todos los casos. Debido a la arquitectura, ya no se tienen que introducir los niveles adicionales de L. MAT para permitir que se usen los kanbans para productos semiterminados. Esta arquitectura también ayuda a reducir las transacciones de inventario al mínimo.

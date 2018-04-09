@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 2c37f0253454a23d90904dd6b000b955146ad121
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2892feff0ab8845515543af1a71d8f9642113726
 ms.contentlocale: es-es
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/08/2018
 
 [!include[banner](../includes/banner.md)]
 
-Usando el catálogo externo, puede asegurarse de que la información del producto y de precios que procese posteriormente en Dynamics 365 for Finance and Operations, Edición Enterprise de julio de 2017 sea precisa y actualizada. La solicitud puede aprobarse y convertirse en un pedido de compra y se puede presentar el pedido al proveedor.
+Usando el catálogo externo, puede asegurarse de que la información del producto y de precios que procese posteriormente en Dynamics 365 for Finance and Operations, de julio de 2017 sea precisa y actualizada. La solicitud puede aprobarse y convertirse en un pedido de compra y se puede presentar el pedido al proveedor.
 
 Cuando el catálogo externo se configura y un empleado está preparando una solicitud, habrá una opción para redirigir a un sitio externo, el catálogo externo, y devolver la cesta de la compra que se creó en el sitio externo. Esta comunicación se basa en el protocolo cXML y tiene que configurarse entre los sistemas de la organización que compra y la que vende.
 
@@ -85,7 +85,7 @@ A continuación verá una descripción de las etiquetas que se incluyen en la pl
 
 Un elemento extrínseco es información adicional, como un nombre de usuario basado en un usuario que marca la salida. Se establece el elemento extrínseco cuando se realiza el marcaje y puede enviarse en el mensaje de configuración de la solicitud.
 Su proveedor puede tener un requisito para recibir un elemento extrínseco en la solicitud de configuración. En ese caso, debe agregar el elemento extrínseco a la lista de elementos extrínsecos en la sección **Formato de mensaje** de la página **Catálogo externo**. Especifique un nombre para el elemento extrínseco que el proveedor pueda reconocer y asignar a un valor. Las opciones de valores son: nombre de usuario, correo electrónico del usuario o valor aleatorio.
-Para obtener más información acerca del protocolo de cXML, consulte: http://cxml.org/
+Para obtener más información acerca del protocolo cXML, vea: http://cxml.org/.
 
 ## <a name="post-back-message"></a>Mensaje de confirmación
 El mensaje de confirmación es el mensaje que se recibe del proveedor cuando el usuario completa la compra en el sitio externo y vuelve a Finance and Operations. Los mensajes de confirmación no se pueden configurar. Los mensajes se basan en la definición del protocolo cXML. A continuación se indica la información que puede formar parte del mensaje de confirmación que se recibe en una línea de solicitud:

@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 42ab7beb8a269cd37fd9100385bd302e4945c1e0
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b86363004b8702d1a654f2a1da49bba82fc8ff2a
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -46,7 +46,7 @@ Puede crear una solicitud de presupuesto desde pedidos planificados, desde una s
 
 Tras preparar el caso de solicitud de presupuesto y agregar proveedores, seleccione **Enviar** en el caso de solicitud de presupuesto. Se crea un diario de solicitud de presupuesto para cada proveedor al que se envía una solicitud de presupuesto. Puede configurar los parámetros de gestión de impresión para la acción de envío para imprimir un informe para cada proveedor en un archivo o enviar un informe a la dirección de correo electrónico de cada proveedor. Además, el diario de solicitud de presupuesto para cada proveedor se puede usar para generar un informe que se puede enviar o volver a enviar al proveedor más adelante. También puede configurar la acción de envío para generar una hoja de respuesta que el proveedor pueda completar.
 
-Este tema cubre el proceso para gestionar solicitudes de presupuesto cuando la colaboración del proveedor no se utiliza. Si el sistema está configurado para la colaboración del proveedor, los proveedores pueden introducir propuestas directamente en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Para obtener más información, consulte [Colaboración de proveedor con clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).
+Este tema cubre el proceso para gestionar solicitudes de presupuesto cuando la colaboración del proveedor no se utiliza. Si el sistema está configurado para la colaboración del proveedor, los proveedores pueden introducir propuestas directamente en Microsoft Dynamics 365 for Finance and Operations. Para obtener más información, consulte [Colaboración de proveedor con clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).
  
 Si debe enmendar una solicitud de presupuesto después de enviarla, puede volver a enviar la solicitud de presupuesto a los proveedores cuando haya terminado mediante los dos acciones de modificación: Crear y finalizar.
 

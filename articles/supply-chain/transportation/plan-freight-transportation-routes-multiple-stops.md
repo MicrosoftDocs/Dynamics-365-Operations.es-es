@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fea84bc0f40a1a25ce0cc252b6bb58fad2a2a501
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artículo describe los distintos elementos que utiliza para planificar rutas de transporte en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+Este artículo describe los distintos elementos que utiliza para planificar rutas de transporte en Microsoft Dynamics 365 for Finance and Operations.
 
 Puede utilizar planes y guías de ruta para rutas de transporte complejas con varias paradas. Si se va a utilizar la misma ruta con regularidad, puede configurar una ruta programada.
 

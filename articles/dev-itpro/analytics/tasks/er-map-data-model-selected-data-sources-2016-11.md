@@ -1,6 +1,6 @@
 --- 
 title: "Asignar un modelo de datos para seleccionar orígenes de datos para informes electrónicos (ER)"
-description: "En los pasos siguientes se explica cómo un usuario con rol de Administrador del Sistema o Desarrollador de Informes Electrónicos puede asignar un modelo de datos de Informes Electrónicos (ER) a los orígenes de datos seleccionados de Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "En los pasos siguientes se explica cómo un usuario con rol de Administrador del Sistema o Desarrollador de Informes Electrónicos puede asignar un modelo de datos de Informes Electrónicos (ER) a los orígenes de datos seleccionados de Dynamics 365 for Finance and Operations, Enterprise edition (noviembre de 2016)."
 author: NickSelin
 manager: AnnBe
 ms.date: 01/16/2017
@@ -16,17 +16,17 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 96974d7c1597db4ac31168be40cecbc7e12d6edd
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 13b7fe7f7bfe24bd275428e931993aa46ecb9945
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a>Asignar un modelo de datos para seleccionar orígenes de datos para informes electrónicos (ER)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-En los pasos siguientes se explica cómo un usuario con rol de Administrador del Sistema o Desarrollador de Informes Electrónicos puede asignar un modelo de datos de Informes Electrónicos (ER) a los orígenes de datos seleccionados de Dynamics 365 for Finance and Operations, Enterprise edition. Esta asignación de modelo se usará posteriormente como origen de datos en una configuración de formato que se usará para gestionar documentos de pago electrónico. En este ejemplo, asignará un modelo de datos de la empresa de demostración Litware, Inc. a los orígenes de datos. Para completar estos pasos, primero debe completar los pasos del procedimiento "Selección de orígenes de datos para asignar modelos".
+En los pasos siguientes se explica cómo un usuario con rol de Administrador del Sistema o Desarrollador de Informes Electrónicos puede asignar un modelo de datos de Informes Electrónicos (ER) a los orígenes de datos seleccionados de Dynamics 365 for Finance and Operations. Esta asignación de modelo se usará posteriormente como origen de datos en una configuración de formato que se usará para gestionar documentos de pago electrónico. En este ejemplo, asignará un modelo de datos de la empresa de demostración Litware, Inc. a los orígenes de datos. Para completar estos pasos, primero debe completar los pasos del procedimiento "Selección de orígenes de datos para asignar modelos".
 
 
 ## <a name="open-er-configurations-tree"></a>Apertura del árbol de configuraciones de informes electrónicos

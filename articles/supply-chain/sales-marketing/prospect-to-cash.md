@@ -1,6 +1,6 @@
 ---
 title: Prospect to cash
-description: "Este tema proporciona una visión general de la solución Prospect to cash entre Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition y Microsoft Dynamics 365 for Sales."
+description: "Este tema proporciona una visión general de la solución Prospect to cash entre Microsoft Dynamics 365 for Finance and Operations y Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 02/08/2018
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: e342c67f53828c77f77d99a2c3f909a23ced8989
-ms.openlocfilehash: 5d9bc41c92258f9856088b04ec5af123c8e915e5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 025be8b44726194e6fc219816c40d2a15a7349df
 ms.contentlocale: es-es
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-La solución Prospect to cash proporciona una sincronización directa en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition y Microsoft Dynamics 365 for Sales. Las plantillas de Prospect to cash disponibles con la característica de integración de datos permiten el flujo de datos de cuentas, contactos, productos, presupuestos de ventas, pedidos de ventas y facturas de ventas entre Finance and Operations y Sales. A medida que los datos fluyen entre Finance and Operations y Sales, puede realizar ventas y actividades de marketing en Sales y controlar el cumplimiento de pedidos mediante la gestión de inventario en Finance and Operations. 
+La solución Prospect to cash proporciona una sincronización directa en Microsoft Dynamics 365 for Finance and Operations y Microsoft Dynamics 365 for Sales. Las plantillas de Prospect to cash disponibles con la característica de integración de datos permiten el flujo de datos de cuentas, contactos, productos, presupuestos de ventas, pedidos de ventas y facturas de ventas entre Finance and Operations y Sales. A medida que los datos fluyen entre Finance and Operations y Sales, puede realizar ventas y actividades de marketing en Sales y controlar el cumplimiento de pedidos mediante la gestión de inventario en Finance and Operations. 
 
 Para obtener más información sobre la integración Prospect to cash, observe el breve vídeo de YouTube:
 

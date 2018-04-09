@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 2c8570984e44499d8cc5d45ab38da43f461c61e9
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 532834b377cfb8eda4902c387a850314302b22d8
 ms.contentlocale: es-es
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ Este tema describe el contenido en Microsoft Power BI de **Prestaciones**. Expli
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 El contenido en Power BI de **Prestaciones** se muestra en el espacio de trabajo **Administración de beneficios** si usa uno de los siguientes productos:
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
+- Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI

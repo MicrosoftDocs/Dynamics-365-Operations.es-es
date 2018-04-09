@@ -1,6 +1,6 @@
 ---
 title: "Solución de problemas de la importación de archivos de extractos bancarios"
-description: "Es importante que el archivo de extracto bancario del banco coincida con el diseño admitido por Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Debido a los estrictos estándares para extractos bancarios, la mayoría de las integraciones funcionarán correctamente. Sin embargo, a veces, el archivo de extracto no se puede importar o tiene resultados incorrectos. Normalmente, estos problemas son originados por pequeñas diferencias en el archivo de extracto bancario. En este artículo se explica cómo corregir estas diferencias y resolver los problemas."
+description: "Es importante que el archivo de extracto bancario del banco coincida con el diseño admitido por Microsoft Dynamics 365 for Finance and Operations. Debido a los estrictos estándares para extractos bancarios, la mayoría de las integraciones funcionarán correctamente. Sin embargo, a veces, el archivo de extracto no se puede importar o tiene resultados incorrectos. Normalmente, estos problemas son originados por pequeñas diferencias en el archivo de extracto bancario. En este artículo se explica cómo corregir estas diferencias y resolver los problemas."
 author: twheeloc
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4feb77bf0031494dfd456c23c632a264c96f0e43
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c408f30c783d58766ab93b13c589079c3ef375de
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Es importante que el archivo de extracto bancario del banco coincida con el diseño admitido por Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Debido a los estrictos estándares para extractos bancarios, la mayoría de las integraciones funcionarán correctamente. Sin embargo, a veces, el archivo de extracto no se puede importar o tiene resultados incorrectos. Normalmente, estos problemas son originados por pequeñas diferencias en el archivo de extracto bancario. En este artículo se explica cómo corregir estas diferencias y resolver los problemas.
+Es importante que el archivo de extracto bancario del banco coincida con el diseño admitido por Microsoft Dynamics 365 for Finance and Operations. Debido a los estrictos estándares para extractos bancarios, la mayoría de las integraciones funcionarán correctamente. Sin embargo, a veces, el archivo de extracto no se puede importar o tiene resultados incorrectos. Normalmente, estos problemas son originados por pequeñas diferencias en el archivo de extracto bancario. En este artículo se explica cómo corregir estas diferencias y resolver los problemas.
 
 <a name="what-is-the-error"></a>¿Qué es el error?
 ------------------
@@ -64,7 +64,7 @@ Los archivos BAI2 y MT940 son archivos basados en texto y requieren un ajuste pa
 
 ### <a name="debug-the-xslt"></a>Depurar XSLT
 
-Para obtener más información, consulte <https://msdn.microsoft.com/en-us/library/ms255605.aspx>.
+Para obtener más información, vea <https://msdn.microsoft.com/en-us/library/ms255605.aspx>.
 
 1.  Inicie Microsoft Visual Studio.
 2.  Crear una aplicación de consola.
@@ -92,7 +92,7 @@ A veces, los débitos se pueden importar como créditos y los créditos se puede
 -   Plantilla GetCreditDebitIndicator de MT940XML-to-Reconcilation.xslt
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Ejemplos de diseños técnicos y formatos de extracto bancario
-En la tabla siguiente se muestran ejemplos de las definiciones de diseño técnico para los archivos de importación de conciliación bancaria avanzados y tres archivos de ejemplo de extracto bancario relacionados. Puede descargar los archivos de ejemplo y los diseños técnicos desde: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+En la tabla siguiente se muestran ejemplos de las definiciones de diseño técnico para los archivos de importación de conciliación bancaria avanzados y tres archivos de ejemplo de extracto bancario relacionados. Puede descargar los archivos de ejemplo y los diseños técnicos aquí: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 
 | Definición de diseño técnico                             | Archivo de ejemplo de extracto bancario          |

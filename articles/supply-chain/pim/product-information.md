@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ef108fb7be65b91c531db750018f00f7fdd67da1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -58,7 +58,7 @@ Un producto se define principalmente con un número de producto, un nombre y una
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Distribución, exportación e importación de datos de producto
 
-La definición de un producto se puede crear en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. También se puede importar de la gestión del ciclo de vida del producto (PLM), de la gestión de datos del producto (PDM) o de sistemas de gestión de la información del producto (PIM). Cuando se usa más de una instancia de Finance and Operations, una instancia se suele usar como el maestro de los datos del producto para el resto de las instancias. Este enfoque es compatible con un gran conjunto de entidades de datos que habilitan la exportación e importación de datos de definición de productos desde una instancia a otra.
+La definición de un producto se puede crear en Microsoft Dynamics 365 for Finance and Operations. También se puede importar de la gestión del ciclo de vida del producto (PLM), de la gestión de datos del producto (PDM) o de sistemas de gestión de la información del producto (PIM). Cuando se usa más de una instancia de Finance and Operations, una instancia se suele usar como el maestro de los datos del producto para el resto de las instancias. Este enfoque es compatible con un gran conjunto de entidades de datos que habilitan la exportación e importación de datos de definición de productos desde una instancia a otra.
 
 Para apoyar la distribución de los datos de productos a varias instancias, Finance and Operations le permite usar Common Data Service. Las definiciones de producto se pueden exportar de una instancia de Finance and Operations a Common Data Service. A continuación las definiciones de producto se pueden utilizar para aprovisionar aplicaciones empresariales, como Microsoft Dynamics 365 for Sales, con datos de productos.
 

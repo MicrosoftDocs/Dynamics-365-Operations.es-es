@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
-ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
 ms.contentlocale: es-es
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -89,7 +89,7 @@ Use una plantilla de cierre financiero para definir todas las tareas que forman 
 
 Puede asignar una tarea en la plantilla a una o más empresas en las que se aplica esa tarea. Si se asigna otra persona para completar ese esfuerzo de trabajo en cada empresa, es posible que resulte útil crear varias tareas para el mismo esfuerzo del trabajo. Cree una tarea para cada empresa. 
 
-El elemento de menú **Vínculo de tarea** está asociado al esfuerzo de trabajo de la tarea y se puede usar para ir directamente a la página asociada desde el vínculo de la tarea en el espacio de trabajo. Por ejemplo, se puede vincular una tarea cerrada para ejecutar el proceso de revalorización de divisa para los proveedores a la página **Revalorización de divisa extranjera** asociada en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. También puede vincular a una dirección URL externa. 
+El elemento de menú **Vínculo de tarea** está asociado al esfuerzo de trabajo de la tarea y se puede usar para ir directamente a la página asociada desde el vínculo de la tarea en el espacio de trabajo. Por ejemplo, se puede vincular una tarea de cierre para ejecutar el proceso de revalorización de divisa para los proveedores a la página **Revalorización de divisa extranjera** asociada en Microsoft Dynamics 365 for Finance and Operations. También puede vincular a una dirección URL externa. 
 
 > [!TIP]
 > Si desea vincular un informe específico del Management Reporter a una tarea de cierre del período financiero, puede usar la dirección URL del informe. Para obtener acceso a la dirección URL del informe, abra el informe en el diseñador de informes y, a continuación, haga clic en **Archivo** &gt; **Ver informe** para abrir el informe en un explorador web. A continuación, puede copiar la dirección URL en la barra de dirección del explorador y pegarla en el campo **Vínculo de tareas** **URL**. 

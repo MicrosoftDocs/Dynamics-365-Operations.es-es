@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 4ffdc5dd54f8a069676f62c8b43f2892764dc046
-ms.openlocfilehash: 88640007ec54ed0c566e163e3dd701faeebc50ce
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
 ms.contentlocale: es-es
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,8 +31,8 @@ ms.lasthandoff: 03/05/2018
 
 En este tema se muestra si cada característica está disponible en estos productos:
 
-+ Dynamics 365 for Finance and Operations, Enterprise Edition (nube)
-+ Dynamics 365 for Finance and Operations, Enterprise Edition (local)
++ Dynamics 365 for Finance and Operations (nube)
++ Dynamics 365 for Finance and Operations (local)
 
 Las tablas siguientes muestran las áreas del producto. El soporte en la nube y local se muestra en la característica como un conjunto. Si las características específicas difieren de la totalidad del área, se indican en una línea aparte de la columna Característica.
 

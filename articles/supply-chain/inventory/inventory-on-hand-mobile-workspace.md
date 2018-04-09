@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: c54f6f12e47ae0a185a7918517c7fd601f457fa4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 735a25d625774892ff71d4799932f15c258dfbfa
 ms.contentlocale: es-es
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -59,8 +59,8 @@ El espacio de trabajo móvil proporciona específicamente estas características
 ## <a name="prerequisites"></a>Requisitos previos
 Los requisitos previos varían, en función de la versión de Microsoft Dynamics 365 que se ha implementado para su organización.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
-Si Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo del móvil **Inventario disponible**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations 
+Si Microsoft Dynamics 365 for Finance and Operations se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Inventario disponible**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Requisitos previos si usa Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior
 Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior para su organización, el administrador del sistema debe cumplir los requisitos previos siguientes. 

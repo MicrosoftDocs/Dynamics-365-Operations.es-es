@@ -1,6 +1,6 @@
 ---
 title: Sincronizar directamente productos de Finance and Operations con productos de Sales
-description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar productos de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, a Microsoft Dynamics 365 for Sales.
+description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar productos de Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2017
@@ -20,21 +20,21 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: def88c291538e3ef278c51e4b87462782e222de2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
 ms.contentlocale: es-es
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>Sincronizar directamente productos de Finance and Operations con productos de Sales
+# <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>Sincronizar productos directamente desde Finance and Operations con productos de Sales
 
 [!include[banner](../includes/banner.md)]
 
 > [!NOTE]
 > Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos de Dynamics 365](/common-data-service/entity-reference/dynamics-365-integration).
 
-En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar directamente productos de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, a Microsoft Dynamics 365 for Sales.
+En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar productos directamente de Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flujo de datos en Prospect to cash
 

@@ -1,6 +1,6 @@
 ---
 title: "Créditos y cobros en Clientes"
-description: "La información de los cobros de clientes se gestiona en una vista central con la página Cobros de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Los administradores de crédito y cobros pueden usar esta vista central para gestionar los cobros. Los agentes de cobros pueden comenzar el proceso de cobro por las listas de clientes que se generan mediante criterios de cobro predefinidos o por la página Clientes."
+description: "La información de los cobros de clientes se gestiona en una vista central con la página Cobros de Microsoft Dynamics 365 for Finance and Operations. Los administradores de crédito y cobros pueden usar esta vista central para gestionar los cobros. Los agentes de cobros pueden comenzar el proceso de cobro por las listas de clientes que se generan mediante criterios de cobro predefinidos o por la página Clientes."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a071d3151fbcc9e29bd138b096b34b88bc405a4f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 23fc1a160cf25255a1677ca0e501c374746b6e34
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 

@@ -18,10 +18,10 @@ ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
-ms.openlocfilehash: e908d4ec41263ed4230ea5e70fa08db793abedc6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 978c6c6f2a3de803f252e93040d2d7eb2bc4a793
 ms.contentlocale: es-es
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ La categoría del registro es un identificador de registro de país/región apro
 |-----------------------|----------------|
 | Tipo de registro     | El tipo de registro en un país/región particular.|
 | Restringido a         | La clase de restricción que se aplica al tipo de registro de impuestos: Ninguno, persona, organización.|
-| Categoría de registro | El identificador único de registro aprobado para usar en el país. La lista completa que se admite en las categorías de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition se muestra a continuación. |
+| Categoría de registro | El identificador único de registro aprobado para usar en el país. La lista completa que se admite en las categorías de Microsoft Dynamics 365 for Finance and Operations se muestra a continuación. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Especificar el identificador del registro de los registros de la libreta de direcciones global
 

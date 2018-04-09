@@ -1,6 +1,6 @@
 ---
 title: "Configurar el proceso de importación avanzada de conciliación bancaria"
-description: "La función Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios."
+description: "La característica Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d7bb0fc5abedcce973632434a5cc174449cdc22
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-La función Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios. 
+La característica Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios. 
 
 La configuración de la importación del extracto bancario varía en función del formato de su extracto bancario electrónico. Finance and Operations admite de serie tres formatos de extractos bancarios: ISO20022, MT940 y BAI2.
 
@@ -49,7 +49,7 @@ Para los tres formatos, debe tener archivos que traduzcan la instrucción bancar
 | BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Ejemplos de diseños técnicos y formatos de extracto bancario
-A continuación se presentan ejemplos de diseño técnico de archivo de importación de conciliación bancaria avanzado y tres archivos de ejemplo de extracto bancario relacionados: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+A continuación se presentan ejemplos de diseño técnico de archivo de importación de conciliación bancaria avanzada y tres archivos de ejemplo de extracto bancario relacionados: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 | Definición de diseño técnico                             | Archivo de ejemplo de extracto bancario          |
 |---------------------------------------------------------|--------------------------------------|

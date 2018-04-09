@@ -17,10 +17,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 34dc8d762db4a4802e52188ebda298db234ee376
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 551f3d5fc52fac725fcc9fedc37dc1c85fac5a26
 ms.contentlocale: es-es
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="vendor-invoice-automation"></a>Automatización de factura de proveedor
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/05/2018
 
 Este tema explica las funciones disponibles para la automatización completa de las facturas de proveedor, incluso las facturas que incluyen adjuntos.
 
-Las organizaciones que desean para agilizar los procesos de proveedores (AP) con frecuencia identifican el procesamiento de facturas como una de las principales áreas de proceso que deben aumentar su eficacia. En muchos casos, estas organizaciones delegan el procesamiento de las facturas de papel en un proveedor de servicios de reconocimiento de caracteres ópticos (OCR) de terceros. A continuación reciben metadatos de la factura que se pueden leer automáticamente junto con una imagen digitalizada de cada factura. Para contribuir a la automatización, se incorpora una solución de recta final para habilitar el consumo de estos artefactos en el sistema de facturación. Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ahora habilita desde el principio esta automatización de "recta final" a través de una solución de automatización de facturas.
+Las organizaciones que desean para agilizar los procesos de proveedores (AP) con frecuencia identifican el procesamiento de facturas como una de las principales áreas de proceso que deben aumentar su eficacia. En muchos casos, estas organizaciones delegan el procesamiento de las facturas de papel en un proveedor de servicios de reconocimiento de caracteres ópticos (OCR) de terceros. A continuación reciben metadatos de la factura que se pueden leer automáticamente junto con una imagen digitalizada de cada factura. Para contribuir a la automatización, se incorpora una solución de recta final para habilitar el consumo de estos artefactos en el sistema de facturación. Microsoft Dynamics 365 for Finance and Operations ahora habilita desde el principio esta automatización de "recta final" a través de una solución de automatización de facturas.
 
 ## <a name="solution-context"></a>Contexto de la solución
 

@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b033f6197e61a6030e12081a9e4f1d820bac458f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ El administrador presupuestario crea una plantilla del plan presupuestario en Mi
 
 1.  Haga clic en **Diseño** en el complemento de Microsoft Dynamics Office una vez que haya iniciado sesión.
 2.  Para obtener información del encabezado, utilice el botón **Agregar campos**.
-3.  Seleccione el origen de datos de entidad de BudgetPlanJustification y haga clic en **Siguiente**. **Nota:** Esta entidad es necesaria para cualquier documento de justificación. Se pueden utilizar otras entidades, pero la nueva carga en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition fallará si no se incluye esta entidad.
+3.  Seleccione el origen de datos de entidad de BudgetPlanJustification y haga clic en **Siguiente**. **Nota:** Esta entidad es necesaria para cualquier documento de justificación. Se pueden utilizar otras entidades, pero la nueva carga en Microsoft Dynamics 365 for Finance and Operations fallará si no se incluye esta entidad.
 4.  Agregue las etiquetas y los valores BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter y DocumentNumber en el documento de Word. **Nota:** Si es necesario, puede usar sus propias etiquetas personalizadas en lugar de las etiquetas estándar.
 5.  Haga clic en **Hecho** para completar la sección de encabezado.
 6.  Para el detalle de nivel de línea de los importes del plan presupuestario, haga clic en **Agregar tabla**.

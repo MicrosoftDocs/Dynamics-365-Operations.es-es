@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 962b3084c5340813d1697cab680621350510d4b9
+ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
+ms.openlocfilehash: aaa8bdedc31ee03e96a0f7a5e78f25f888913e71
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -91,6 +91,6 @@ Se mantienen las tareas de trabajo mediante la página **Tareas de trabajo**. En
 ## <a name="areas-of-responsibility"></a>Áreas de responsabilidad
 Use las áreas de responsabilidad para indicar los roles de trabajo, los procesos y los productos de los que sería responsable un trabajador en un puesto para dicho trabajo. Un ejemplo de área de responsabilidad para un trabajo denominado "Contable" podría ser "Informes financieros del producto A". Las áreas de responsabilidad se mantienen mediante la página **Áreas de responsabilidad** que puede encontrar mediante la función de búsqueda. En la página **Áreas de responsabilidad**, especifique un nombre y una descripción para la responsabilidad. En el campo **Nota** puede especificar información adicional opcionalmente. Las notas se pueden actualizar para un trabajo específico sin cambiar las notas que ha especificado aquí.
 
-
-
+## <a name="steps-for-creating-a-job"></a>Pasos para crear un trabajo
+Consulte la sección [Definir nuevos trabajos](../fin-and-ops/hr/tasks/define-new-jobs.md) para informarse del procedimiento detallado para crear un nuevo trabajo. 
 

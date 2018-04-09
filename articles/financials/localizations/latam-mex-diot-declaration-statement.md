@@ -19,10 +19,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f3ded7bc3aff1f4f1cc4c3e645c5642c6f656709
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c871d8ef414f23d8e3a343ec48cdd79c1fa7e2e2
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 En este tema se proporciona información acerca del informe de declaración DIOT para México.
 
-El informe de la declaración DIOT (declaración informativa de operaciones con proveedores) se usa para informar de transacciones de proveedores a las autoridades fiscales mexicanas (Servicio de Administración Tributaria \[SAT\]). Puede que tenga que hacerlo si está sujeto a impuestos sobre el valor añadido (IVA). El informe de la declaración DIOT es un archivo de texto. Puede generar este archivo en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition y, a continuación, importarlo en la herramienta de validación y entrega del gobierno. Los informes consolidados y detallados también se generan para fines de control. El informe incluye transacciones que se generaron de los pedidos de compra, los diarios de registro de facturas, los diarios de aprobación de facturas y los diarios de facturas. También incluye las transacciones de proveedor que se generaron del módulo **Proyecto**. Además, puede incluir transacciones abiertas o transacciones liquidadas.
+El informe de la declaración DIOT (declaración informativa de operaciones con proveedores) se usa para informar de transacciones de proveedores a las autoridades fiscales mexicanas (Servicio de Administración Tributaria \[SAT\]). Puede que tenga que hacerlo si está sujeto a impuestos sobre el valor añadido (IVA). El informe de la declaración DIOT es un archivo de texto. Puede generar este archivo en Microsoft Dynamics 365 for Finance and Operations y, a continuación, importarlo en la herramienta de validación y entrega del gobierno. Los informes consolidados y detallados también se generan para fines de control. El informe incluye transacciones que se generaron de los pedidos de compra, los diarios de registro de facturas, los diarios de aprobación de facturas y los diarios de facturas. También incluye las transacciones de proveedor que se generaron del módulo **Proyecto**. Además, puede incluir transacciones abiertas o transacciones liquidadas.
 
 ## <a name="prerequisites"></a>Requisitos previos
 Debe completar la configuración siguiente para poder generar el archivo de texto de DIOT o informes relacionados:

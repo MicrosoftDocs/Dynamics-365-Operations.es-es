@@ -1,6 +1,6 @@
 ---
 title: "Página principal de administración de la organización"
-description: "En este tema se indican recursos que le ayudarán a usar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, en una organización."
+description: "En este tema se indican recursos que le ayudarán a usar Microsoft Dynamics 365 for Finance and Operations en una organización."
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f1cff2388b02ff6dfd52a39b7f3ea90f10807096
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-En este tema se detalla contenido que ayudará a los usuarios avanzados y a los administradores a configurar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Gracias a este contenido será posible configurar el sistema de su organización y negocio para que funcione de forma rápida y efectiva.
+En este tema se detalla el contenido que ayudará a los usuarios avanzados y a los administradores a configurar Microsoft Dynamics 365 for Finance and Operations. Gracias a este contenido será posible configurar el sistema de su organización y negocio para que funcione de forma rápida y efectiva.
 
 La mayor parte del contenido que se detalla aquí se aplica a características del módulo **Administración de organización** . Sin embargo, existen un par de tareas, como la creación y el uso de una plantilla de registro, que se pueden realizar en cualquier módulo y así permitirle perfeccionar el funcionamiento de su organización. 
 

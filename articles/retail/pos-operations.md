@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 82c2fab72923cfec135e207dfe194fda7d16e8e9
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
 ms.contentlocale: es-es
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -41,6 +41,8 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 - **Cuadrícula de botones** – La operación se puede asignar a los botones de las cuadrículas de botones de PDV, que son parte de un diseño de pantalla de PDV.
 - **Pantalla de transacción** – La operación se pueden invocar desde las cuadrículas de botones de PDV que se configuran en la pantalla de transacción de PDV.
 - **Pantalla de bienvenida** – La operación se pueden invocar desde las cuadrículas de botones de PDV que se configuran en la pantalla de bienvenida de PDV.
+
+Nota: Las operaciones que se muestran a continuación se aplican a la última versión de Dynamics 365 for Retail. Algunas operaciones pueden haber cambiado o puede que no estén disponibles en versiones anteriores.
 
 | ID. | Operación | Descripción | Cuadrícula de botones | Pantalla de transacción | Pantalla de bienvenida | Disponible sin conexión | Específico de configuración regional |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|
@@ -105,6 +107,7 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 703 | Bloquear caja registradora | Bloquee la caja registradora actual, para que no se pueda usar, pero no cierre la sesión del usuario actual. | N.º | N.º | N.º | Sí | N.º |
 | 701 | Cerrar sesión | Cierre la sesión del usuario actual de la caja registradora. | Sí | Sí | Sí | Sí | N.º |
 | 521 | Saldo de puntos de tarjeta de fidelización | Muestra el saldo de puntos para la tarjeta de fidelización especificada. | Sí | Sí | N.º | N.º | N.º |
+| 918 | Administrar cambios | Muestre una lista de turnos activos, suspendidos y cerrados en ciego. | Sí | Sí | Sí | N.º | N.º |
 | 914 | Minimizar ventana PDV | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | N.º |
 | 1000 | Categoría abierta | Realice una operación “sin venta” y abra la caja registradora seleccionada actualmente. | Sí | Sí | Sí | Sí | N.º |
 | 928 | Cumplimiento de pedido | Esta operación permite a los usuarios seleccionar, empaquetar, envíar, o que volver a llamar los pedidos para recogida en el almacén. | Sí | Sí | Sí | N.º | N.º |
@@ -162,7 +165,6 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 638 | Establecer representante de ventas en línea | Esta operación permite al usuario seleccionar uno de los grupos de ventas aptas de la comisión elegibles (representantes de ventas) para la línea seleccionada actualmente. | Sí | Sí | N.º | Sí | N.º |
 | 630 | Enviar todos los productos | Establezca el modo de cumplimiento como **Envío** para todos los artículos de línea. | Sí | Sí | N.º | Sí\* | N.º |
 | 629 | Enviar productos seleccionados | Establezca el modo de cumplimiento como **Envío** para las líneas seleccionadas. | Sí | Sí | N.º | Sí\* | N.º |
-| 918 | Mostrar turnos cerrados en ciego | Muestre una lista de turnos que se han cerrado en ciego. | Sí | Sí | Sí | N.º | N.º |
 | 115 | Mostrar diario | Muestra el diario de la tienda. Puede ver transacciones, volver a imprimir recibos y recibos de regalo y recuperar para devolución. | Sí | Sí | Sí | Sí\*\* | N.º |
 | 802 | Recuento de existencias | Esta operación permite al usuario crear o modificar los diarios de recuento de existencias para el inventario físico o los recuentos cíclicos. | Sí | Sí | Sí | N.º | N.º |
 | 401 | Submenú | Esta operación lleva al usuario a otra cuadrícula de botones vinculada. | Sí | Sí | Sí | Sí | N.º |

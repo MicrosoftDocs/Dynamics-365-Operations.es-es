@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 31abc719a8df7507e74b3bf6823306ba52261bc3
-ms.openlocfilehash: ebb3574b3f5c40b5512c0352c83520558f63879a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e31a013d6bf33b92b02bd9645a19380ba07f4a05
 ms.contentlocale: es-es
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/10/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition proporciona dos formas de gestionar y controlar los proyectos: las previsiones y los presupuestos de proyecto. 
+Microsoft Dynamics 365 for Finance and Operations proporciona dos formas de gestionar y controlar los proyectos: previsiones de proyecto y presupuestos de proyecto. 
 
 Puede usar la previsión si su organización tiene una perspectiva operativa y se centra en los ingresos y costes derivados de transacciones específicas. Puede usar la gestión presupuestaria si su organización se centra en mayor medida en los importes financieros. 
 

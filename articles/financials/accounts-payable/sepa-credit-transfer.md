@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1335d95c8bf02d5c571d37d78eca0ee7eae32bad
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3b6ded5e5accbbdba708c8b31119429e72bd58f5
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -53,7 +53,7 @@ El EPC, que consta de bancos europeos, desarrolla marcos técnicos y comerciales
 La transferencia de crédito SEPA es un pago de una empresa o un individuo a otra empresa o individuo. Los pagos deben realizarse en euros y deben incluir el número internacional de cuenta bancaria (IBAN) y el código identificador del banco (BIC) para ambas partes. (El Bic también se conoce como el código Society for Worldwide Interbank Financial Telecommunication \[SWIFT\]). Además, los costes de transacción se deben compartir entre las dos partes. Las transferencias de crédito que se producen entre partes deben usar archivos XML que cumplen los estándares de procesamiento de pago ISO 20022 y el formato XML, según lo especificado por el EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>¿Cómo se implementa una transferencia de crédito?
-El formato de pago de transferencia de crédito de los países europeos se implementa mediante la funcionalidad Informes electrónicos (ER) y Formas de pago en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Algunos formatos de transferencia de crédito que se usan en otras regiones siguen utilizando el antiguo marco de pago. Entre otros muchos formatos, hay doce formatos de archivo de transferencia de crédito ISO 20022 disponibles. Estos formatos de exportación se adaptan al estándar de SEPA XML ISO 20022. Se utilizan para generar las transferencias de pago que no son en Euros para los países o las regiones donde se usan y los pagos en Euros como se especifica en la versión 8.2 del reglamento del esquema de transferencia de crédito SEPA que EPC emite. Para poder implementar las transferencias de crédito, debe ponerse en contacto con su banco para obtener el software que se requiere para cargar archivos de banca electrónica. Usará ese software para transferir archivos XML que contienen pedidos de pagos al banco.
+El formato de pago de transferencia de crédito de los países europeos se implementa mediante la funcionalidad Informes electrónicos (ER) y Formas de pago en Microsoft Dynamics 365 for Finance and Operations. Algunos formatos de transferencia de crédito que se usan en otras regiones siguen utilizando el antiguo marco de pago. Entre otros muchos formatos, hay doce formatos de archivo de transferencia de crédito ISO 20022 disponibles. Estos formatos de exportación se adaptan al estándar de SEPA XML ISO 20022. Se utilizan para generar las transferencias de pago que no son en Euros para los países o las regiones donde se usan y los pagos en Euros como se especifica en la versión 8.2 del reglamento del esquema de transferencia de crédito SEPA que EPC emite. Para poder implementar las transferencias de crédito, debe ponerse en contacto con su banco para obtener el software que se requiere para cargar archivos de banca electrónica. Usará ese software para transferir archivos XML que contienen pedidos de pagos al banco.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>¿Qué formatos de transferencia de crédito se admiten actualmente en Finance and Operations?
 Debe ir siempre a la biblioteca de activos compartidos de Microsoft Dynamics Lifecycle Services (LCS) y ver la lista más actualizada de archivos disponibles que tienen un tipo de activo de **configuración de GER**. La siguiente sección, “¿Qué tengo que configurar? ”, proporciona un vínculo al tema que explica cómo crear un repositorio de LCS para revisar las configuraciones disponibles e importar las configuraciones seleccionadas.
