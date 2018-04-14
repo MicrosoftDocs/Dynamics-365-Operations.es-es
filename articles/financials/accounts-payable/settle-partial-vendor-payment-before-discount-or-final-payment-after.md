@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidar un pago de proveedor parcial antes de la fecha de descuento con un pago final después de la fecha de descuento
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo le guía por un escenario donde se realizan múltiples pagos parciales, algunos dentro del período del descuento por pronto pago y otros fuera del período de descuento por pronto pago.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
 

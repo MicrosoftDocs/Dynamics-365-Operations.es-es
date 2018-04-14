@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Configurar y crear perfiles de depreciación
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Los métodos de depreciación determinan el tipo y la frecuencia de la depreciación de un activo.   Esta grabación usa la empresa de prueba USMF y el rol de contable.
 

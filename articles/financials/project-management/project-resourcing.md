@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-resourcing"></a>Recursos del proyecto
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se proporciona información acerca de los recursos de proyectos.
 

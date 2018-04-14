@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="adjust-project-transactions"></a>Ajustar transacciones de proyecto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guía de tareas muestra cómo ajustar una transacción en un proyecto. Sin embargo, puede ajustar las transacciones de proyecto de una en una o seleccionar de una lista de todas las transacciones de proyecto. Esta tarea la completa normalmente el supervisor del proyecto. Esta guía de tareas usa el conjunto de datos USSI.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>Definir y mantener clientes de canal, registradoras y estaciones de hardware
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tema trata de cómo conectar periféricos a su Retail POS.
 

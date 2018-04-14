@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>Crear un método de puntuación para solicitudes de presupuesto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear un método de puntuación. Un método de puntuación es un conjunto de criterios que se pueden utilizar para comparar ofertas que se envían en respuesta a una solicitud de presupuesto. Por ejemplo, puede que desee evaluar el rendimiento de un proveedor anterior, o calificar si la empresa es respetuosa con el medio ambiente o un buen colaborador, o puede que desee comparar ofertas en función del precio. El método de puntuación se puede asociar a un tipo de solicitud como el método de puntuación predeterminado para solicitudes de presupuesto de ese tipo. Estas tareas las realizará normalmente el director de compras. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.
 

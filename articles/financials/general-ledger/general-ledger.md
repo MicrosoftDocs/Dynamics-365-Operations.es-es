@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="general-ledger"></a>Contabilidad general 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Use Contabilidad general para definir y gestionar los registros financieros de la entidad jurídica. La contabilidad general es un registro de entradas de débito y de crédito. Estas entradas se clasifican usando las cuentas indicadas en un gráfico de cuentas. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Definición del proceso de compensación y el cálculo de resultados
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Los procesos de compensación se usan para determinar nuevas concesiones e importes de compensación para los empleados inscritos en planes de compensación variable y fija. Los procesos de compensación se pueden ejecutar varias veces para realizar análisis hipotéticos, para comprobar que todos los cambios y la configuración son correctos. Este procedimiento creará un proceso de compensación, ejecutará el proceso y verá los resultados. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="batch-order-lifecycle-from-create-to-start"></a>Ciclo de vida de pedidos de lote desde la creación hasta el inicio
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le lleva por la primera parte del ciclo de vida de un pedido de lote.
 

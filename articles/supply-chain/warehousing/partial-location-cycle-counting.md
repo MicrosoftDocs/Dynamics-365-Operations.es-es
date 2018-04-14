@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="partial-location-cycle-counting"></a>Recuento cíclico de ubicaciones parcial
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Los planes de recuento cíclico dirigen las operaciones de recuento. Puede solicitar que solo los productos específicos y las variantes de producto entren en el recuento en lugar de todos los inventarios disponibles en una ubicación.
 

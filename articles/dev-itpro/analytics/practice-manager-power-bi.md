@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="practice-manager-power-bi-content"></a>Contenido de Power BI para Director de práctica
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se describe lo que se incluye en el contenido de Microsoft Power BI para **Director de práctica**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
@@ -118,7 +118,9 @@ En las secciones siguientes se describen las medidas de agregado que se utilizan
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entidad: ProjectAccountingCube\_TotalEstimatedCosts 
 **Origen de datos:** ProjTable
 
-| Medida agregada clave       | Campo               | Descripción |
-|---------------------------------|---------------------|-------------|
+
+|    Medida agregada clave    |        Campo        |                                          Descripción                                           |
+|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
 | Coste de la actividad planificada completada | Sum(TotalCostPrice) | Precio de coste total en las estimaciones de todos los tipos de transacciones de proyecto que cuentan con tareas completadas. |
+
 

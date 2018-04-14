@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="position-budgeting-troubleshooting"></a>Solución de problemas de presupuesto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo proporciona respuestas a preguntas que puede que tenga cuando configure el presupuesto de puesto. Responde a preguntas frecuentes acerca de cómo crear elementos de costes presupuestarios, grupos de compensación y cuadrículas de compensación. 
 

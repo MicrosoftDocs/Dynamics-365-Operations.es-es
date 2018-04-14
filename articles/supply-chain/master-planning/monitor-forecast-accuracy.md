@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="monitor-forecast-accuracy"></a>Supervisión de la precisión de previsión
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo describe los tipos de precisión de previsión que Microsoft Dynamics 365 for Finance and Operations calcula, y se explica cómo puede ver los valores de precisos.
 

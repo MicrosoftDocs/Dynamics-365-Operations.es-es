@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>Cálculo de sugerencias de cantidades kanban
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento se centra en la optimización del tamaño y las cantidades kanban para una regla kanban calculando la cantidad kanban. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento va destinado al administrador del flujo de valor. Es indispensable haber completado el procedimiento Adición de una directiva de cálculo de cantidad kanban a una regla kanban.
 

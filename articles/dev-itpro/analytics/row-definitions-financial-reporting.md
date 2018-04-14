@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="row-definitions-in-financial-report-designer"></a>Definiciones de filas en el diseñador de informes financieros
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Una definición de fila es un componente de informe, o bloque de creación, que especifica el contenido de cada fila de un informe financiero. Una definición de fila se puede combinar con las definiciones de columnas, definiciones de organigramas y definiciones de informes para crear un grupo de bloques de creación que puedan usar varias empresas.
 

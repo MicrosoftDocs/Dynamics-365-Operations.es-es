@@ -23,7 +23,7 @@ ms.lasthandoff: 03/12/2018
 ---
 
 # <a name="assortment-management"></a>Administración de surtidos.
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Información general
 Microsoft Dynamics 365 for Retail proporciona *surtidos* que le permiten gestionar la disponibilidad de productos mediante canales. Los surtidos determinan qué productos están disponibles en tiendas específicas y durante un período concreto.

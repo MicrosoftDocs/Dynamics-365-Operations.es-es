@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Revalorización de divisa extranjera para Contabilidad general
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema proporciona una visión general de los siguientes pasos para el proceso de revalorización de divisa extranjera de la contabilidad general: configuración, ejecución del proceso, cálculo para el proceso y cómo invertir las transacciones de revalorización, en caso necesario. 
 

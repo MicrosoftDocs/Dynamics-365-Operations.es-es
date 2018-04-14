@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cash-discounts"></a>Descuentos por pronto pago
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Los descuentos por pronto pago se configuran y se comparten para Proveedores y Clientes.  El descuento por pronto pago disponible se puede definir en la factura de cliente o la factura de proveedor, y se tomará si la factura se paga dentro de la fecha de descuento por pronto pago. 
 
@@ -65,6 +64,7 @@ La divisa de contabilidad de su entidad jurídica es el euro y se especifican lo
 -   1 de marzo = 80
 
 El 15 de febrero se registra una factura de 1000 dólares con términos de descuento por pronto pago de 20D2%. El importe en la divisa de contabilidad de la factura es de 1100 euros. Se liquida un pago de 980 dólares con la factura el día 1 de marzo. El importe del descuento por pronto pago es de 20 dólares. El importe en la divisa de contabilidad del pago es de 784 euros. El importe en la divisa de contabilidad del descuento por pronto pago se calcula mediante el tipo de cambio del 1 de marzo: 20 \* 80 / 100 = 16 EUR.
+
 | **Nota**                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Si está seleccionada la opción Calcular descuento por pronto pago para pagos parciales en la página Parámetros de clientes o Parámetros de proveedores, se usa el tipo de cambio que esté en vigor en la fecha de cada pago parcial. |

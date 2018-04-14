@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-value-stream"></a>Crear un flujo de valor
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Los flujos de valor son unidades operativas, que agrupan uno o varios flujos de producción. Para definir un flujo de producción, debe definir primero un flujo de valor.
 

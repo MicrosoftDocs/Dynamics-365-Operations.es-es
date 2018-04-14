@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-manual-task-in-a-workflow"></a>Configuración de una tarea manual en un flujo de trabajo
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema explica cómo configurar las propiedades para una tarea manual.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-fixed-compensation-plans"></a>Actualizar planes de compensación fija
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 La compensación fija hace referencia al sueldo o salario bruto regular de un empleado. En este tema se describen los componentes que deben configurarse para poder crear un plan de compensación fija e inscribir a empleados.
 

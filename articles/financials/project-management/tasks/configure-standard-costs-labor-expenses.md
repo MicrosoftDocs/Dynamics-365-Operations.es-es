@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Configuración de los costes estándar para el trabajo y los gastos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo configurar los costes estándar del trabajo y los gastos de un proyecto. Esta tarea usa el conjunto de datos USSI.
 

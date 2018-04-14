@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-withholding-tax"></a>Configurar retención de impuestos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 La retención de impuestos es un impuesto sobre los proveedores que no crea transacciones de impuestos. La retención de impuestos calculada sobre los pagos de proveedor es un pasivo. Por lo tanto, tan solo las cuentas de balance de situación o las cuentas de pasivos son cuentas validas para el registro de la retención de impuestos. Esta guía de la tarea demuestra cómo configurar la retención de impuestos.
 

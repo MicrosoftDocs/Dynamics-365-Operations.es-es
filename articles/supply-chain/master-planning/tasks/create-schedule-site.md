@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-schedule-for-a-site"></a>Crear una programación para un sitio
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo programar los pedidos de producción que no se han iniciado aún para un sitio.  Se usa la empresa de datos de demostración USMF para completar este procedimiento.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-wave-processing"></a>Configurar procesamiento de oleadas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 En esta guía se describe cómo configurar los criterios que determinan qué trabajo se genera para un almacén cuando se procesa una oleada y si las oleadas se procesan manual o automáticamente. Especifique los criterios configurando consultas y plantillas de oleada que hagan coincidir una oleada con las líneas emitidas en pedidos de ventas, pedidos de producción o pedidos kanban. El procesamiento de oleadas se usa en almacenes que usan la funcionalidad del módulo Administración de almacenes, y no los que usan la funcionalidad del módulo Gestión del inventario. Puede ejecutar este procedimiento en la empresa USMF de los datos de prueba.
 

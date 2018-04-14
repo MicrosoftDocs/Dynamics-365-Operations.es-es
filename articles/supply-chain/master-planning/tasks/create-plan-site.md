@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-plan-for-a-site"></a>Crear un plan para un sitio
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 El planificador de producción calcula los requisitos de materiales y capacidad para la producción de un artículo específico. Una vez creadas las sugerencias de abastecimiento, encuentra los pedidos en el sitio para el que está planificando y pone en firme los pedidos, empezando por los urgentes. Los pedidos más urgentes son los que se deben poner en firme en la fecha actual. Use la empresa de datos de demostración USMF para llevar a cabo estas tareas.
 

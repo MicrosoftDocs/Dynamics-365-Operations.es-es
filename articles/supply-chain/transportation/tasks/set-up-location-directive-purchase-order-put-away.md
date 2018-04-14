@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Configurar una directiva de ubicación para apartar un pedido de trabajo
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo configurar una directiva de ubicación sencilla. El ejemplo que se muestra crea una directiva de ubicación que se usará para determinar dónde colocar los artículos recibidos para un pedido de compra. Puede reproducir esta guía de tarea con los datos mencionados usando para ello la empresa de demostración USMF. Condiciones previas: necesita crear un código de disposición. En este procedimiento usamos un código de disposición llamado Relabel. Si está creando una directiva de ubicación en sus propios datos, debe haber configurado la gestión de almacenes avanzada para su almacén y sus artículos.  Este procedimiento va destinado al encargado de almacén.
 

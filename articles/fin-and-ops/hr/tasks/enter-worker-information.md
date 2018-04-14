@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-worker-information"></a>Especificar información de trabajadores
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Una vez que la persona encargada de contratación crea un proyecto de contratación masiva y genera los puestos, el siguiente paso es especificar la información de trabajador para las personas empleadas. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Los datos de demostración contienen un proyecto de contratación masiva. Para iniciar este procedimiento, vaya a Recursos humanos > Contratación > Proyectos de contratación masiva.
 

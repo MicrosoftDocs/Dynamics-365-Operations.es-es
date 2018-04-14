@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>Preguntas más frecuentes sobre traducciones relacionadas con el producto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se describe cómo administrar las traducciones para los productos, los valores de la dimensión del producto y los atributos del producto. 
 
@@ -95,8 +94,7 @@ Un cliente desea comprar algunas camisetas pequeñas, rojas y el nombre de la ca
 <tbody>
 <tr class="odd">
 <td>Para configurar el idioma preferido de un cliente, siga estos pasos:
-<ol>  
-<li>Haga clic en <strong>Ventas y marketing</strong> &gt; <strong>Clientes</strong> &gt; <strong>comunes</strong> &gt; <strong>Todos</strong> <strong>los clientes</strong>.</li>
+<ol><br/><li>Haga clic en <strong>Ventas y marketing</strong> &gt; <strong>Clientes</strong> &gt; <strong>comunes</strong> &gt; <strong>Todos</strong> <strong>los clientes</strong>.</li>
 <li>Haga doble clic en una cuenta de cliente para abrir la página de <strong>Clientes</strong>. En la ficha <strong>General</strong>, en el campo <strong>Idioma</strong>, seleccione el <strong>idioma</strong>.</li>
 </ol></td>
 </tr>

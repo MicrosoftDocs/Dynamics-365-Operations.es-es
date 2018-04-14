@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="optimization-advisor-overview"></a>Visión general de aviso de optimización
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema describe cómo puede usar el asesor de optimización para ayudar a garantizar la configuración óptima de Microsoft Dynamics 365 Finance and Operations.
 

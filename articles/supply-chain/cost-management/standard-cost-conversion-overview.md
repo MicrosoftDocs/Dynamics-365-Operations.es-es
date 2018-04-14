@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="standard-cost-conversion-overview"></a>Visión general de conversión de costes estándares
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo proporciona una visión general del proceso para ayudarle a configurar y a ejecutar una conversión de coste estándar. Los pasos mostrados están pensados para completarse una vez se hayan completado los requisitos previos para una conversión de coste estándar. 
 

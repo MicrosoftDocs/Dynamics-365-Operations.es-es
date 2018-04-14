@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="piece-picking-confirmation"></a>Confirmación de picking de pieza
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 El picking de pieza le permite confirmar cada pieza de inventario con picking o trabajo de recuento en un dispositivo móvil. Para las selecciones, puede confirmar la cantidad de trabajo que se procesará hasta la cantidad especificada en el trabajo que desea seleccionar. Para el trabajo de recuento, puede digitalizar el inventario que está contando y hacer un seguimiento de la cantidad total.
 
@@ -46,8 +46,10 @@ El picking de piezas funciona para todos los trabajos de recuento y para la sele
 
 Las siguientes opciones están disponibles para la selección cuando el tipo de trabajo es selección o el recuento.
 
-| Opción        | Descripción   | 
-| ------------- | ------------- |
-| Confirmación de picking de pieza   | Disponible para los tipos de trabajo selección y recuento. La confirmación de producto se selecciona automáticamente. Permite confirmar cada pieza de inventario desde el dispositivo móvil. | 
-| Número máximo de piezas     | Disponible para el trabajo de selección si la confirmación de picking de piezas está habilitada. Establece un límite en el número de piezas que debe confirmar. |  
+
+|           Opción           |                                                                            Descripción                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Confirmación de picking de pieza | Disponible para los tipos de trabajo selección y recuento. La confirmación de producto se selecciona automáticamente. Permite confirmar cada pieza de inventario desde el dispositivo móvil. |
+|  Número máximo de piezas  |                   Disponible para el trabajo de selección si la confirmación de picking de piezas está habilitada. Establece un límite en el número de piezas que debe confirmar.                   |
+
 

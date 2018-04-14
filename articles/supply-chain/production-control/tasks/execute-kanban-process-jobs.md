@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="execute-kanban-process-jobs"></a>Ejecutar trabajos de proceso kanban
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento se centra en la ejecución de trabajos de procesos kanban. El primer trabajo se completa con la cantidad prevista y no tiene errores. El segundo trabajo se completa con errores. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento va destinado al operario de la máquina.
 

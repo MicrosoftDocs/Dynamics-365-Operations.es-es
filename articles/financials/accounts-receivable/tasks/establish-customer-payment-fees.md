@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="establish-customer-payment-fees"></a>Establecer cuotas de pago de cliente
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Creación de cuotas de pago para pagos de clientes.
 

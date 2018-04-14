@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-and-manage-a-benefits-program"></a>Definir y gestionar un programa de prestaciones
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Los Recursos humanos ofrecen una serie de herramientas que se pueden usar para configurar y mantener prestaciones, deducciones y los planes de compensación de los trabajadores que una organización ofrece o procesa para sus trabajadores. En este tema se ofrece información acerca de cómo configurar y gestionar prestaciones.
 

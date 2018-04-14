@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-date-for-the-session"></a>Cambiar la fecha de una sesión
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 De forma predeterminada, se utiliza la fecha actual al especificar y registrar entradas del diario y documentos de origen. Puede cambiar la fecha que se usa para la sesión actual. Utilice esta función para atrasar la fecha de las entradas del diario o de los documentos de origen, en caso necesario.
 

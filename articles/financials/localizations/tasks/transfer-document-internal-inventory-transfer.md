@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a>Generar un documento de transferencia para una transferencia de inventario interna
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear documentos de transferencia para movimiento de mercancías dentro de una empresa. Este procedimiento sólo está disponible para entidades jurídicas con dirección principal en Lituania. Este procedimiento se ha creado con los datos de demostración de la empresa DEMF, con una dirección principal en Lituania. Antes de completar este procedimiento, deberá completar el procedimiento de “Configuración de los documentos de transferencia de mercancías dentro de una empresa”. Este procedimiento está dirigido a contables de inventario. Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
 

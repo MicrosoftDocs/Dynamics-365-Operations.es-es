@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Secuenciar trabajos de producción para fabricación en procesos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento usa productos de pintura como ejemplo para mostrar cómo establecer la secuencia de los pedidos planificados según la prioridad de color y tamaño de paquete. La empresa de datos de prueba utilizada para crear este procedimiento es USPI. Este procedimiento se va a utilizar para el planificador de producción.
 

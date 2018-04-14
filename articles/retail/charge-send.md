@@ -28,7 +28,7 @@ ms.lasthandoff: 03/06/2018
 
 # <a name="ship-an-order-from-a-different-store"></a>Enviar un pedido de otra tienda
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Con la característica de envío Cargo de Dynamics 365 for Retail, los pedidos del cliente se pueden realizar en una tienda y enviar desde otra tienda. Los pedidos de clientes en el cliente de punto de venta (PDV) admiten varias opciones de cumplimiento. Algunos ejemplos de opciones de cumplimiento:
 -   Recogida en la misma tienda en otra fecha.

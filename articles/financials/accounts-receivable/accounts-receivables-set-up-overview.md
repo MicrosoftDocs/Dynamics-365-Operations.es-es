@@ -28,8 +28,7 @@ ms.lasthandoff: 11/15/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Configurar Clientes y créditos y cobros
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Configure Clientes y Crédito y cobros para controlar todas las facturas y los pagos entrantes de clientes.
 
@@ -107,7 +106,7 @@ En la tabla siguiente se muestran las páginas que admiten la configuración y e
 |                                                      | Información de NSF.                     | Configure la información de NSF sobre la cuenta bancaria que se usará cuando un pago se marque como una transacción NSF en la página de cobros.                                                                                                                                              |
 |                                                      | Información del vendedor              | Configure la dirección de correo electrónico para los vendedores. Estas direcciones aparecerán en la página de cobros y puede usarlas para enviar correo electrónico a un vendedor desde esa página.                                                                                                                |
 
- 
+
 Para obtener más información, consulte [Credito y cobros en clientes](collections-credit-accounts-receivable.md).
 
 

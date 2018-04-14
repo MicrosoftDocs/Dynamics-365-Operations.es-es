@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="product-receipt-against-purchase-orders"></a>Recepción de producto frente a pedidos de compra
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Este artículo describe las distintas opciones para registrar productos como recibidos.
 

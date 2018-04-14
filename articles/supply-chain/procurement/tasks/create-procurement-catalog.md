@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-procurement-catalog"></a>Crear un catálogo de compras
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guía le muestra cómo crear un catálogo de compras. Esta tarea la llevaría a cabo normalmente un profesional de compras. También obtendrá información acerca de cómo los empleados pueden utilizar el catálogo al crear una solicitud. Para que pueda crear un catálogo, debe haber una jerarquía de categoría de compras en su sistema. La jerarquía es hereda por el nuevo catálogo, junto con todos los productos que se encuentran en la jerarquía. Puede usar esta guía en la empresa de datos de demostración USMF donde la jerarquía de categoría de compras está disponible, así como los ejemplos usados en los pasos de procedimiento.
 

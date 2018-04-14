@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-application-inbox-records"></a>Aprobar registros de la bandeja de entrada de solicitudes
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo revisar solicitudes recibidas a través de las páginas de autoservicio para empleados. Además de revisar las solicitudes, las puede aprobar desde los registros de bandeja de entrada que seleccione. Los registros de bandeja de entrada de solicitudes representan las solicitudes de empleo enviadas a la empresa para su estudio. Cuando se apruebe un registro, se creará un registro de candidato para la persona que envió la solicitud. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

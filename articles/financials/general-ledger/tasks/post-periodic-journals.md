@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="post-periodic-journals"></a>Registrar diarios periódicos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Los diarios periódicos a veces que se denominan diarios periódicos dado que el importe, el texto y otra información se repiten cada vez que se recupera el diario periódico. Al crear el diario periódico, se especifica el intervalo del período para la periodicidad, como días o meses. Esta guía de la tarea creará un diario periódico con una periodicidad mensual.
 

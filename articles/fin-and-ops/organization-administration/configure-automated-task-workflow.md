@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-automated-task-in-a-workflow"></a>Configuración de una tarea automatizada en un flujo de trabajo
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema explica cómo configurar las propiedades de una tarea automatizada.
 

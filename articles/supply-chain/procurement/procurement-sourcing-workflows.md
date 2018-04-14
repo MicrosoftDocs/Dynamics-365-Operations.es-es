@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="procurement-and-sourcing-workflows"></a>Flujos de trabajo de adquisición y abastecimiento
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Algunas organizaciones requieren que las solicitudes de compra y los pedidos de compra los apruebe un usuario distinto a la persona que especificó la transacción. Para configurar un proceso de aprobación, puede crear un flujo de trabajo.
 

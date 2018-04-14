@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-store-performance"></a>Analizar el rendimiento de la tienda
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este artículo explica cómo puede usar los análisis en memoria y en tiempo real para tener acceso, explorar y obtener información acerca del rendimiento de la tienda, en función de sus datos de Microsoft Dynamics 365 for Retail. 
 

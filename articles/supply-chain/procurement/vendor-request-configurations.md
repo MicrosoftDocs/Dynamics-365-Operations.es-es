@@ -25,7 +25,7 @@ ms.lasthandoff: 02/08/2018
 ---
 
 # <a name="vendor-request-configurations"></a>Configuraciones de solicitud de proveedor
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Para completar una solicitud del proveedor, una persona de contacto del proveedor debe completar el asistente de registro del proveedor potencial.
 
@@ -39,12 +39,12 @@ De forma predeterminada, hay una configuración del proveedor disponible en el f
 
 No es posible selecionar el país/regiones para la configuración predeterminada, por lo que la sección **Países o regiones** no se puede cambiar.
 
-1.  Haga click en **Adquisición y abastecimiento** > **Configuración** > **Proveedores** y, a continuación haga click en **Configuraciones de la solicitud del proveedor**.
-2.  Haga clic en la pestaña **Campos** para establecer el estado de los campos mencionados.
--   Oculto (no visible)
--   Se muestra (visible pero no obligatorio)
--   Necesario (visible y obligatorio)
-3.  Haga clic en la pestaña **Contenido** para especificar si el texto se va a mostrar en el asistente y si debe haber una confirmación que el usuario del proveedor potencial deba aceptar antes de ir al paso siguiente del asistente. Se solicitará la aceptación de los términos y condiciones para que el usuario pueda continuar.
+1. Haga click en **Adquisición y abastecimiento** > **Configuración** > **Proveedores** y, a continuación haga click en **Configuraciones de la solicitud del proveedor**.
+2. Haga clic en la pestaña **Campos** para establecer el estado de los campos mencionados.
+3. Oculto (no visible)
+4. Se muestra (visible pero no obligatorio)
+5. Necesario (visible y obligatorio)
+6. Haga clic en la pestaña **Contenido** para especificar si el texto se va a mostrar en el asistente y si debe haber una confirmación que el usuario del proveedor potencial deba aceptar antes de ir al paso siguiente del asistente. Se solicitará la aceptación de los términos y condiciones para que el usuario pueda continuar.
 
 También puede introducir un mensaje de confirmación que se mostrará cuando concluya el asistente y puede agregar uno o varios cuestionarios.
 

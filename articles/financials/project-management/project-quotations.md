@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-quotations"></a>Presupuestos de proyecto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo presenta el concepto de presupuestos de proyecto, que puede usar para realizar una oferta atractiva a un cliente como el primer paso de la fase de proyecto. Un presupuesto de proyecto puede incluir los artículos y los servicios que se van a presupuestar, la información básica de contacto, los acuerdos comerciales especiales y los descuentos, así como posibles impuestos y suplementos. 
 

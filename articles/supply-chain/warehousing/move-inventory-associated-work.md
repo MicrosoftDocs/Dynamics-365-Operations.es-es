@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>Movimiento de inventario con trabajo asociado en Gestión de almacenes
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Si usa el movimiento de inventario, puede decidir que trabajadores de almacén podrán mover el inventario reservado. Este formulario proporciona una flexibilidad en los almacenes regulados donde puede decidir no permitir que un trabajador elija una nueva ubicación de picking para seleccionar trabajo que ya se creó. También permite que un administrador de almacén controle qué capacidades deben algunos trabajadores menos experimentados.
 

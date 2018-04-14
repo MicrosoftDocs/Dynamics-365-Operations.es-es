@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-and-bank-management-home-page"></a>Página principal de gestión de efectivo y bancos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Puede usar la Gestión de efectivo y bancos para mantener las cuentas bancarias de la entidad jurídica y los instrumentos financieros asociados a dichas cuentas bancarias. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Agregar dimensiones financieras al espacio de trabajo del CFO
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema explica cómo agregar dimensiones financieras al área de trabajo de CFO (Director financiero), para que se puedan usar en el libro mayor y los informes presupuestarios. El área de trabajo del director financiero tiene una pestaña **Visión general** y una pestaña **Datos financieros**. Los informes de estas dos pestañas se basan en dos medidas: LedgerActivityMeasure y BudgetActivityMeasure. En Microsoft Dynamics 365 for Finance and Operations,Enterprise Edition (julio de 2017), existe una relación entre las dos medidas y la entidad de DimensionCombinationEntity. Por lo tanto, puede seleccionar las dimensiones.
 

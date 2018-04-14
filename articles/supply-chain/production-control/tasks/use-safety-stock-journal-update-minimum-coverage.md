@@ -23,21 +23,21 @@ ms.contentlocale: es-es
 ms.lasthandoff: 09/29/2017
 
 ---
-# Usar el diario de existencias de seguridad para actualizar la cobertura mínima
+# <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Usar el diario de existencias de seguridad para actualizar la cobertura mínima
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo calcular las propuestas de cobertura mínima basadas en transacciones históricas y, a continuación, actualizar la cobertura del artículo con las propuestas. Esto se hace usando el diario de existencias de seguridad. La empresa de datos de prueba utilizada para crear esta tarea es USMF. Esta tarea está pensada para el planificador de producción, para ayudar a mantener una cobertura mínima.
 
 
-## Puede crear un nuevo nombre de diario de existencias de seguridad.
+## <a name="create-a-new-safety-stock-journal-name"></a>Puede crear un nuevo nombre de diario de existencias de seguridad.
 1. Vaya a Nombres de diario de existencias de seguridad.
 2. Haga clic en Nuevo.
 3. En el campo Nombre, escriba "Material".
 4. En el campo Descripción, escriba "Material".
 5. Cierre la página.
 
-## Crear un diario de existencias de seguridad
+## <a name="create-a-safety-stock-journal"></a>Crear un diario de existencias de seguridad
 1. Vaya a Cálculo de existencias de seguridad.
 2. Haga clic en Nuevo.
 3. En el campo Nombre, especifique o seleccione un valor.
@@ -50,7 +50,7 @@ Este procedimiento muestra cómo calcular las propuestas de cobertura mínima ba
 7. Haga clic en Aceptar
     * Esto creará líneas para las dimensiones que tienen transacciones de inventario.  
 
-## Calcular propuesta
+## <a name="calculate-proposal"></a>Calcular propuesta
 1. Haga clic en Calcular propuesta.
 2. Seleccione la opción Usar el promedio de emisión durante el plazo.
 3. Establezca el factor de multiplicación en "10".
@@ -58,7 +58,7 @@ Este procedimiento muestra cómo calcular las propuestas de cobertura mínima ba
 4. Haga clic en Aceptar
     * Desplácese hacia abajo para encontrar M0002 y M0003. Vea la columna Cantidad mínima calculada.   
 
-## Actualizar cantidad mínima
+## <a name="update-minimum-quantity"></a>Actualizar cantidad mínima
 1. En el campo Nueva cantidad mínima, escriba un número.
     * Actualice la Nueva cantidad mínima para que coincida con el valor de la Cantidad mínima calculada. Si el mínimo calculado es cero, puede escribir el valor futuro deseado. Por ejemplo, usted puede especificar la Cantidad mínima calculada en este campo para M0002 que tiene el almacén 12.  
 2. En la lista, busque y seleccione el registro deseado.
@@ -66,7 +66,7 @@ Este procedimiento muestra cómo calcular las propuestas de cobertura mínima ba
 3. En el campo Nueva cantidad mínima, escriba un número.
     * Actualice la Nueva cantidad mínima para que coincida con el valor de la Cantidad mínima calculada. Si el mínimo calculado es cero, puede escribir el valor futuro deseado.  
 
-## Publicar la nueva cantidad mínima y validar el resultado
+## <a name="post-the-new-minimum-quantity-and-validate-the-result"></a>Publicar la nueva cantidad mínima y validar el resultado
 1. Haga clic en Registrar.
 2. Haga clic en Aceptar
 3. Haga clic para seguir el vínculo en el campo Número de artículo.

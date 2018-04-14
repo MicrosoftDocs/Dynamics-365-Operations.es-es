@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="expense-management"></a>Gestión de gastos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Use la opción de gestión de gastos para crear un flujo de trabajo integrado en el que se puede almacenar información relativa a la forma de pago, importar transacciones de tarjetas de crédito y supervisar el importe de los gastos incurridos por los empleados en la empresa. También se pueden definir directivas de gastos y automatizar el reembolso de los gastos en viajes. 
 

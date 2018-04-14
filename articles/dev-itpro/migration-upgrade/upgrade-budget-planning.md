@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="upgrade-budget-planning"></a>Actualización de la planificación presupuestaria
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Existen diferencias significativas en el presupuesto planificado con Microsoft Dynamics AX 2012 y con Microsoft Dynamics 365 for Finance and Operations. Algunas funciones no se actualizaron y por tanto requieren una reconfiguración. Este tema explica qué debe volver a configurarse y también describe las nuevas características que deben tenerse en cuenta una vez que la actualización se haya completado.  
 
@@ -70,26 +69,27 @@ Para ayudarlo a determinar cómo configurar el sistema actualizado, el siguiente
 
 ### <a name="define-columns-and-layouts"></a>Definición de columnas y diseños
 
-1.  En la página **Configuración de planificación de presupuesto**, haga clic en la pestaña **Columnas**. Como parte de la actualización, las nuevas columnas se crean automáticamente en función de las líneas del plan del presupuesto. Las columnas ahora usan fechas dinámicas, donde la hora y el año se compensan desde el ejercicio que se define en el proceso de planificación presupuestaria. **Nota:** Por motivos de rendimiento durante la actualización, se presupone que todos los ciclos presupuestarios representan años naturales y no ejercicios. Si utiliza ejercicios, debe hacer ediciones para asignar correctamente las columnas al ejercicio. Por ejemplo, los elementos siguientes existían en AX 2012:
-    -   Situaciones del plan presupuestario: reales, línea base, solicitud de presupuesto, presupuesto aprobado
-    -   Líneas del plan presupuestario para todas las situaciones en 2017, y valores reales para 2017 y 2016
+1. En la página **Configuración de planificación de presupuesto**, haga clic en la pestaña **Columnas**. Como parte de la actualización, las nuevas columnas se crean automáticamente en función de las líneas del plan del presupuesto. Las columnas ahora usan fechas dinámicas, donde la hora y el año se compensan desde el ejercicio que se define en el proceso de planificación presupuestaria. **Nota:** Por motivos de rendimiento durante la actualización, se presupone que todos los ciclos presupuestarios representan años naturales y no ejercicios. Si utiliza ejercicios, debe hacer ediciones para asignar correctamente las columnas al ejercicio. Por ejemplo, los elementos siguientes existían en AX 2012:
+   -   Situaciones del plan presupuestario: reales, línea base, solicitud de presupuesto, presupuesto aprobado
+   -   Líneas del plan presupuestario para todas las situaciones en 2017, y valores reales para 2017 y 2016
 
-    Las columnas siguientes se crearán en Finance and Operations:
-    | Nombre de columna    | Situación del plan presupuestario | Período de tiempo de columna | Contrapartida anual |
-    |----------------|----------------------|--------------------|-------------|
-    | Escenario enero 1 | Reales              | 1                  | 0           |
-    | Escenario enero 2 | Línea base             | 1                  | 0           |
-    | Escenario enero 3 | Solicitud de presupuesto       | 1                  | 0           |
-    | Escenario enero 4 | Presupuesto aprobado      | 1                  | 0           |
-    | Escenario enero 5 | Reales              | 1                  | -1          |
-    | Escenario febrero 1 | Reales              | 1                  | 0           |
-    | ...            | ...                  | ...                | ...         |
+   Las columnas siguientes se crearán en Finance and Operations:
 
-    En este ejemplo, se crea una columna denominada **Escenario enero 1** para los datos de transacción más recientes del plan presupuestario que se encuentran en las transacciones que existen en enero. Una columna similar se crea para cada escenario que tenga datos. Una vez que existan columnas para todos los períodos de ese mismo año, se crean columnas para los años anteriores.
-2.  Cambie los nombres y descripciones de las columnas, y cualquier otro detalle, manualmente en el cliente o haciendo actualizaciones masivas con el complemento de Excel que selecciona la entidad de datos de las columnas del plan presupuestario. Todos los filtros que anteriormente se establecían para campos de la matriz ahora se establecen dentro de las columnas.
-3.  Cree un diseño de plan presupuestario nuevo. Un diseño apunta a varias columnas para definir la vista que aparece en Excel y el cliente. El diseño primero requiere que especifique un conjunto de dimensiones contables para determinar qué dimensiones financieras se pueden especificar. Después de especificar el conjunto de dimensiones, haga clic en **Descripciones** para seleccionar las descripciones de dimensiones que se incluirán en el diseño.
-4.  En la ficha desplegable **Elementos de diseño**, haga clic en **Agregar** para agregar metadatos para cada fila, como una divisa, un comentario, o una clase de presupuesto que determine las filas de ingresos frente a las de gastos. A continuación, agregue columnas para el período de tiempo, además de situaciones adecuadas para esta etapa y ciclo presupuestarios. Puede realizar estos cambios manualmente en el cliente o con el complemento de Excel que selecciona la entidad de los datos de los elementos de diseño del plan presupuestario.
-5.  Para cada elemento de diseño, seleccione si la columna debe ser editable, y si la columna debe mostrarse también en el libro de Excel para este diseño. **Nota:** Para nuestros planes históricos, puede que desee tener un diseño que muestre 12 columnas mensuales para todas las situaciones del plan presupuestario para dicho proceso.
+   | Nombre de columna    | Situación del plan presupuestario | Período de tiempo de columna | Contrapartida anual |
+   |----------------|----------------------|--------------------|-------------|
+   | Escenario enero 1 | Reales              | 1                  | 0           |
+   | Escenario enero 2 | Línea base             | 1                  | 0           |
+   | Escenario enero 3 | Solicitud de presupuesto       | 1                  | 0           |
+   | Escenario enero 4 | Presupuesto aprobado      | 1                  | 0           |
+   | Escenario enero 5 | Reales              | 1                  | -1          |
+   | Escenario febrero 1 | Reales              | 1                  | 0           |
+   | ...            | ...                  | ...                | ...         |
+
+   En este ejemplo, se crea una columna denominada **Escenario enero 1** para los datos de transacción más recientes del plan presupuestario que se encuentran en las transacciones que existen en enero. Una columna similar se crea para cada escenario que tenga datos. Una vez que existan columnas para todos los períodos de ese mismo año, se crean columnas para los años anteriores.
+2. Cambie los nombres y descripciones de las columnas, y cualquier otro detalle, manualmente en el cliente o haciendo actualizaciones masivas con el complemento de Excel que selecciona la entidad de datos de las columnas del plan presupuestario. Todos los filtros que anteriormente se establecían para campos de la matriz ahora se establecen dentro de las columnas.
+3. Cree un diseño de plan presupuestario nuevo. Un diseño apunta a varias columnas para definir la vista que aparece en Excel y el cliente. El diseño primero requiere que especifique un conjunto de dimensiones contables para determinar qué dimensiones financieras se pueden especificar. Después de especificar el conjunto de dimensiones, haga clic en **Descripciones** para seleccionar las descripciones de dimensiones que se incluirán en el diseño.
+4. En la ficha desplegable **Elementos de diseño**, haga clic en **Agregar** para agregar metadatos para cada fila, como una divisa, un comentario, o una clase de presupuesto que determine las filas de ingresos frente a las de gastos. A continuación, agregue columnas para el período de tiempo, además de situaciones adecuadas para esta etapa y ciclo presupuestarios. Puede realizar estos cambios manualmente en el cliente o con el complemento de Excel que selecciona la entidad de los datos de los elementos de diseño del plan presupuestario.
+5. Para cada elemento de diseño, seleccione si la columna debe ser editable, y si la columna debe mostrarse también en el libro de Excel para este diseño. **Nota:** Para nuestros planes históricos, puede que desee tener un diseño que muestre 12 columnas mensuales para todas las situaciones del plan presupuestario para dicho proceso.
 
 ### <a name="update-budget-planning-processes-to-use-the-appropriate-layout-for-each-budget-stage"></a>Actualice los procesos de planificación presupuestaria para que usen el diseño adecuado para cada etapa del presupuesto
 

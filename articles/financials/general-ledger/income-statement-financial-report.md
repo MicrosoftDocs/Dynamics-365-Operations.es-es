@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="income-statement-financial-report"></a>Informe financiero de informe de ingresos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se describen los informes predeterminados para las declaraciones de ingresos. También se describen los componentes asociados con este informe. 
 
@@ -60,7 +59,7 @@ Las definiciones de columnas contienen diversos tipos de columnas para proporcio
     -   **FD**: datos financieros para el período actual
     -   **FD**: datos financieros para el año hasta la fecha
 
- 
+
 
 <a name="see-also"></a>Consulte también
 --------

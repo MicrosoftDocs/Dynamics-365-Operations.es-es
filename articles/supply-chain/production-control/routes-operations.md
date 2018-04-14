@@ -29,8 +29,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="routes-and-operations"></a>Rutas y operaciones.
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema proporciona información acerca de las rutas y las operaciones. Una ruta define el proceso para producir un producto o una variante del producto. Describe cada paso (operación) en el proceso de producción y el orden en que estos pasos se deben realizar. Para cada etapa, la ruta también define los recursos de operaciones necesarios, el tiempo de configuración necesaria y el tiempo de ejecución, y cómo el coste se debe calcular.
 

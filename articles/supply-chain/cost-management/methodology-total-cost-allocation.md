@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="total-cost-allocation-method"></a>Método de asignación de coste total
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema proporciona directrices para usar la asignación de coste total (TCA). TCA es un método para calcular el coste entre el producto de fórmula principal para un pedido de lote y los coproductos que se definen para la fórmula.
 

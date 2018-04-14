@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-device"></a>Crear y asociar un dispositivo
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento le guía por la creación de un nuevo dispositivo y su asociación a un registro. Se supone que el registro ya está creado.  Esta tarea usa la empresa USRT en los datos de demostración. Esta tarea está pensada para los roles de administradores, profesional de TI o TI comercial, y administrador de tienda.
 

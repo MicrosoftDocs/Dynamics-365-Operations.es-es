@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-schedule-groups"></a>Definir grupos de programación lean
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Los grupos de programación lean se definen para agrupar y distinguir productos en la programación kanban. La agrupación se puede realizar como asociación genérica por empresa o de manera específica para una celda de trabajo. Cada grupo tiene un código de color asignado para indicación visual en la página de lista de programación kanban. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

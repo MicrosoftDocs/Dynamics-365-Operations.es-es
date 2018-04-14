@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="access-rights-of-a-cost-object-controller"></a>Derechos de acceso de un controlador de objeto de coste
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 El área de trabajo **Control de costes** es un punto central donde los administradores pueden ver el rendimiento de los objetos de coste. Este espacio de trabajo permite a los administradores consumir datos de contabilidad de costes aunque no sean contables de costes. Por razones de seguridad, los administradores deben poder ver únicamente los datos de la contabilidad de costes relacionados con los objetos de coste específicos de los que sean responsables.
 

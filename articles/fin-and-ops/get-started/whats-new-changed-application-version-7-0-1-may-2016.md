@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Novedades o cambios en la versión de la aplicación Dynamics AX 7.0.1 (mayo de 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo describe las características que son nuevas o que se han cambiado en la versión de la aplicación Microsoft Dynamics AX 7.0.1. Esta versión se publicó en mayo de 2016 y tiene un número de compilación de 7.0.1265.23014.
 
@@ -44,12 +43,14 @@ Este artículo describe las características que son nuevas o que se han cambiad
 | Configure los destinos de ER para que el resultado de salida de un formato se dirija a un destino específico: archivo o correo electrónico (carpeta de Microsoft SharePoint o Almacenamiento de Microsoft Azure). | Anteriormente, cuando ejecutaba una configuración de ER, aparecería un cuadro de mensaje que requería la acción de usuario para guardar o abrir un archivo. Ahora puede preconfigurar un destino para cada configuración de formato y para cada componente de salida (una carpeta o un archivo) por separado. Los usuarios que tienen derechos de acceso adecuados también pueden modificar la configuración de destino en tiempo de ejecución. |
 
 ## <a name="pos--microsoft-dynamics-ax-retail"></a>PDV - Microsoft Dynamics AX Retail
+
 |                                |                                                                                                                                                                                         |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **¿Qué se puede hacer?**           | **¿Por qué esto es importante?**                                                                                                                                                              |
 | Utilice el explorador de Google Chrome. | Los minoristas pueden iniciar ahora PDV en la nube desde el explorador de Chrome y pueden probar toda la funcionalidad que está disponible en la versión de Internet Explorer y Microsoft Edge de PDV en la nube. |
 
 ## <a name="financial-reporting"></a>Informes financieros
+
 |                                                                     |                                                                                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **¿Qué se puede hacer?**                                                | **¿Por qué esto es importante?**                                                                                                                                                                                                                                                                                         |
@@ -57,12 +58,14 @@ Este artículo describe las características que son nuevas o que se han cambiad
 | Ya no se pueden seleccionar opciones del diseñador de informes que no son válidas. | Varias opciones del diseñador de informes que se utilizaban en las versiones del mercado de Management Reporter no se aplican a esta versión de Dynamics AX. Estas opciones estaban relacionados con el diseño de informes financieros, salida y vinculación. Estas opciones se han quitado del diseñador de informes financieros para evitar errores de usuario. |
 
 ## <a name="financial-management"></a>Administración financiera
+
 |                                                            |                                                                  |
 |------------------------------------------------------------|------------------------------------------------------------------|
 | **¿Qué se puede hacer?**                                       | **¿Por qué esto es importante?**                                       |
 | Generar archivos de pago positivos para los pagos de proveedores. | Los archivos positivos de pago se pueden generar para ayudar a evitar fraude de cheques. |
 
 ## <a name="warehouse-and-production"></a>Almacén y producción
+
 |                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **¿Qué se puede hacer?**                                                                                                                                                                                                                                                                                                                                                                    | **¿Por qué esto es importante?**                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -72,7 +75,7 @@ Este artículo describe las características que son nuevas o que se han cambiad
 | Los pedidos de producción con estructuras circulares en el primer nivel de sus listas de materiales se excluyen del cálculo del nivel de L. MAT para la planificación de recursos materiales.                                                                                                                                                                                                                                     | No es posible asignar niveles de L. MAT correctos a las variantes de producto para los pedidos de producción que causan circularidad en la jerarquía de L. MAT.                                                                                                                                                                                                                                                                                                  |
 | Calcular los distintos niveles de L. MAT. para la planificación de recursos y el cálculo de costes: • Para la planificación de recursos materiales, los niveles de L. MAT se calculan en la nueva tabla **ReqItemLevel**. Los pedidos de producción finalizados se omiten en el cálculo. • Para el cálculo de costes de producción, los niveles de L. MAT se calculan en la **InventTable**. Los pedidos de producción finalizados se incluyen en el cálculo. | • Cuando se ejecuta la planificación de recursos materiales, por ejemplo, la expansión y la programación de la planificación maestra, solo se tienen que volver a calcular los niveles de la lista de materiales utilizados para la planificación de recursos de materiales. En otras palabras, no hay ninguna necesidad de calcular niveles de lista de materiales utilizados para el cálculo de gestión de costes de producción. • Al ejecutar operaciones de gestión de costes, por ejemplo, el cierre de inventario, solo se tienen que volver a calcular los niveles de lista de materiales para el cálculo de gestión de costes de producción. |
 
- 
+
 
 <a name="see-also"></a>Consulte también
 --------

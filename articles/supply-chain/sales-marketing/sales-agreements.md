@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-agreements"></a>Acuerdos de venta
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema proporciona información sobre los acuerdos de ventas. Un acuerdo de venta es un contrato que compromete al cliente a comprar productos en una cantidad específica o por un importe determinado durante un período de tiempo, a cambio de precios especiales y descuentos.
 

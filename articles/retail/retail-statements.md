@@ -29,7 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="retail-statements"></a>Extractos comerciales
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 En Microsoft Dynamics 365 for Retail, el proceso de registro de extractos se utiliza para contabilizar las transacciones que se producen en el punto de venta (POS) o PDV moderno (MPOS) de la nube. El proceso de registro de extractos usa la programación de distribución para extraer un conjunto de transacciones de PDV en el cliente de la central (HQ). Los parámetros definidos en las páginas **Parámetros de ventas al por menor** y **Tiendas** se usan para seleccionar las transacciones que se extraen en extractos individuales.  
 

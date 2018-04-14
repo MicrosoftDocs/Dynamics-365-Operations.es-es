@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Ver transacciones de impuestos registradas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Puede ver las transacciones de impuestos registradas desde varias páginas en función de lo que necesite ver. Esta tarea usa la empresa de demostración USMF.
 

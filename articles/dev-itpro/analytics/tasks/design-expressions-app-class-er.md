@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>Diseñe expresiones para abrir métodos de clase de aplicación (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guía proporciona información acerca de cómo volver a usar la lógica de aplicación existente en las configuraciones de informes electrónicos (ER) llamando a los métodos necesarios de clases de aplicación en expresiones de ER. Los valores de los argumentos para llamar a clases se pueden definir de forma dinámica en tiempo de ejecución: por ejemplo, en función de la información en el documento de análisis para proteger su corrección. En esta guía, creará las configuraciones de ER necesarias para la empresa de muestra, Litware, Inc. Este procedimiento se crea para los usuarios con el rol asignado de Administrador del sistema o de Desarrollador de informes electrónicos. 
 

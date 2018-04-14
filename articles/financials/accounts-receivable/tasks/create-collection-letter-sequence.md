@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-collection-letter-sequence"></a>Crear una secuencia de cartas de cobro
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Use esta guía de tarea para crear una secuencia de cartas de cobro. Esta tarea usa la empresa de demostración USMF.
 

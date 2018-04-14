@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="loan-items-to-a-worker"></a>Artículos de préstamo para un trabajador
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo prestar un artículo a un trabajador y registrar el trabajador que devuelve un artículo. Los trabajadores también pueden pedir artículos en préstamo a través de las páginas Autoservicio para empleados. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

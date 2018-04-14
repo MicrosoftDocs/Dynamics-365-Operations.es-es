@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-agreement"></a>Crear un acuerdo de compra
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le guía por el proceso de creación de un acuerdo de compra. Esto normalmente lo haría el director de compras. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Es necesario haber configurado clasificaciones de acuerdo de compra antes de comenzar. Una vez que haya creado un acuerdo, podrá usarlo cuando cree un pedido de compra; esto copiará las condiciones del acuerdo de compra al encabezado y a cualquier línea del pedido a la que afecte el acuerdo.
 

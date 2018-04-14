@@ -28,8 +28,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="set-up-training-courses"></a>Configuración de cursos de formación.
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Los administradores y directores de Recursos humanos pueden usar las características de los cursos para mantener información sobre la formación que se ofrece a los trabajadores.
 
@@ -81,15 +80,15 @@ En la tabla siguiente se muestran los tres tipos de configuración para los curs
 
 ## <a name="course-tasks"></a>Tareas del curso
 Para cada curso, puede realizar las tareas siguientes:
--   Registrar participantes.
--   Especificar una fecha límite del registro.
--   Definir el número mínimo y máximo de participantes.
--   Asignar una ubicación y un aula para el curso.
--   Recomendar hoteles a los participantes en el curso.
--   Crear una descripción del curso que puede anunciar en Autoservicio para empleados.
+- Registrar participantes.
+- Especificar una fecha límite del registro.
+- Definir el número mínimo y máximo de participantes.
+- Asignar una ubicación y un aula para el curso.
+- Recomendar hoteles a los participantes en el curso.
+- Crear una descripción del curso que puede anunciar en Autoservicio para empleados.
 
   >**Nota** Solo puede eliminar un curso solo si nadie se ha registrado. 
-    
+
 ## <a name="course-statuses"></a>Estados del curso
 En la tabla siguiente se muestran los estados posibles del curso y las acciones que puede realizar cuando el curso tiene un estado concreto.
 

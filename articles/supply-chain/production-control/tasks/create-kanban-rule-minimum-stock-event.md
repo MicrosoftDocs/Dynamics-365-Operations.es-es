@@ -23,14 +23,14 @@ ms.contentlocale: es-es
 ms.lasthandoff: 09/29/2017
 
 ---
-# Crear una regla kanban con un evento de existencias mínimas
+# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a>Crear una regla kanban con un evento de existencias mínimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento se centra en la configuración necesaria para crear una regla kanban usando un evento de existencias mínimas para garantizar que un producto específico siempre está disponible en una ubicación específica. Una regla kanban se crea para transferir material a la ubicación cuando el nivel de inventario cae por debajo de 200 piezas. Al ejecutar el procesamiento de eventos de pedidos, se crean los kanbans necesarios. La empresa de datos de prueba utilizada para crear esta tarea es USMF. Esta tarea está pensada para el ingeniero de procesos o el administrador de flujo de valor, conforme preparan la producción de un producto nuevo o modificado en un entorno de producción ajustada.
 
 
-## Crear una nueva regla kanban
+## <a name="create-a-new-kanban-rule"></a>Crear una nueva regla kanban
 1. Vaya a Gestión de información de productos > Producción ajustada > Reglas kanban.
 2. Haga clic en Nuevo.
 3. En el campo Tipo, seleccione "Retirada".
@@ -46,7 +46,7 @@ Este procedimiento se centra en la configuración necesaria para crear una regla
 9. En el campo Evento de reabastecimiento de existencias, seleccione "Lote".
     * Esto crea kanbans para satisfacer las necesidades de material en la ubicación relacionada durante el procesamiento de evento de pedido.  
 
-## Establecer la cantidad mínima para el artículo
+## <a name="set-the-minimum-quantity-for-the-item"></a>Establecer la cantidad mínima para el artículo
 1. Haga clic para seguir el vínculo en el campo Producto.
 2. Haga clic para seguir el vínculo en el campo Número de artículo.
 3. Expanda el cuadro informativo Imagen del producto.
@@ -58,7 +58,7 @@ Este procedimiento se centra en la configuración necesaria para crear una regla
     * Establezca el almacén en 12.  
 9. Establezca el mínimo en “200".
 
-## Ejecutar el trabajo de creación de eventos por lotes
+## <a name="run-the-batch-event-creation-job"></a>Ejecutar el trabajo de creación de eventos por lotes
 1. Vaya a Control de producción > Tareas periódicas > Procesamiento por lotes de trabajo kanban > Procesamiento de evento de pedido.
 2. Haga clic en Aceptar
 3. Vaya a Gestión de información de productos > Producción ajustada > Reglas kanban.

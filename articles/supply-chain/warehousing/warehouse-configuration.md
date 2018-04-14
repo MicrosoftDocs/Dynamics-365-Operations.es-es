@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="warehouse-configuration"></a>Configuración de almacén
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo explica cómo configurar un almacén. Incluye información acerca de cómo habilitar un diseño de almacén y procesos de almacén.
 

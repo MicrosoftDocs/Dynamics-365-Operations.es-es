@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="view-an-expense-report"></a>Visualización de un informe de gastos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Al ejecutar una consulta para ver transacciones en Contabilidad general o Adquisición y abastecimiento, la consulta podría devolver demasiada información. Por lo tanto, es posible que desee limitar la búsqueda. Para obtener la información que requiere, puede explorar en profundidad una transacción para ver el informe de gastos en el que apareció.
 

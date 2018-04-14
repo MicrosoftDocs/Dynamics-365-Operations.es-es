@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-feedback"></a>Comentarios de producción
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo proporciona información acerca de los comentarios de producción, lo que ofrece a los trabajadores realimentación sobre los trabajos de producción. El artículo incluye información sobre las distintas maneras en que se puede actualizar la realimentación de producción.
 

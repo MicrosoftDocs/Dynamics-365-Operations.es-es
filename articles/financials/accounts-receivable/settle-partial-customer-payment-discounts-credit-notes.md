@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Liquidar un pago de cliente parcial con descuentos en notas de abono de proveedor
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo le guía por un escenario en el que se aplica un descuento por pronto pago en una nota de abono cuando la factura original también tenía un descuento por pronto pago. 
 

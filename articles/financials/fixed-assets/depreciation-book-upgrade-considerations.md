@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>Visión general de la actualización del libro amortización
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En versiones anteriores, había dos conceptos de la evaluación para activos fijos: modelos de valor y libros de depreciación. En Microsoft Dynamics 365 for Operations (1611), la función del modelo de valor y la del libro de amortización se han combinado en un solo concepto que se conoce como libro. Este tema proporciona algunas cosas a tener en cuenta para la actualización. 
 

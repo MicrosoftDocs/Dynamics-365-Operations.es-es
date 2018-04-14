@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-product"></a>Crear un producto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo crear un nuevo producto en la jerarquía de productos comerciales. La empresa de datos de prueba utilizada para crear esta tarea es USRT y esta tarea está pensada para el encargado de comercialización y el diseñador de productos.
 

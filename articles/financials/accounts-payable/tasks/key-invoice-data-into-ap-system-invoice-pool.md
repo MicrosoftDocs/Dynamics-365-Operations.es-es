@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Introducir datos de factura en el sistema de proveedores mediante un grupo de facturas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guía de la tarea le mostrará cómo usar el registro de facturas para crear facturas.  A continuación use el grupo de facturas para que coincida con la factura de un pedido de compra y para finalizar el gasto en la página de la factura de proveedor.
 

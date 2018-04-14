@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Configurar secuencias numéricas de manera individual
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Las secuencias numéricas se usan para generar identificadores únicos y legibles para los registros de datos maestros y los registros de transacciones que los necesitan. El registro de datos maestros o de transacciones que necesita un identificador se denomina referencia. Para poder crear nuevos registros para una referencia, debe configurar una secuencia numérica y asociarla a la referencia. Puede configurar todas las secuencias de números necesarias al mismo tiempo usando el asistente Configurar secuencias numéricas, o bien crear o modificar secuencias numéricas individuales usando la página Secuencias numéricas.
 

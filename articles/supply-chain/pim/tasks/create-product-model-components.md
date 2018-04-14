@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-product-model-components"></a>Crear componentes de modelo de producto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Los modelos de configuración de productos basados en restricciones usan componentes como bloques de creación para establecer la estructura de modelo de producto. Para que se pueda crear un modelo de producto, se deben crear componentes. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pos-application-and-user-language-settings"></a>Configuración de idioma del usuario y aplicación del PDV
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tema describe cómo cambiar la configuración del idioma en el PDV moderno de venta minorista (MPOS) y el PDV de la nube.
 

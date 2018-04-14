@@ -28,8 +28,7 @@ ms.lasthandoff: 02/05/2018
 
 # <a name="warehouse-mobile-device-display-settings"></a>Configuración de visualización del dispositivo móvil del almacén
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo describe cómo configurar el aspecto de una visualización del dispositivo móvil y cómo asignar teclas de método abreviado a controles, como botones. 
 

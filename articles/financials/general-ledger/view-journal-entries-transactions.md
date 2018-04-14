@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-journal-entries-and-transactions"></a>Ver movimientos del diario y transacciones
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo explica las distintas maneras en las que puede ver entradas del diario y transacciones. 
 
@@ -55,7 +54,7 @@ Además de los informes financieros, puede usar los siguientes informes de conta
 -   **Origen de la transacción**: este informe de transacciones muestra la cuenta por diario, y por divisa de transacción, contabilidad e informes. También muestra cada línea del diario que se usaba como contrapartida.
 
 
-##<a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 - [Saldos de cuentas de contabilidad](general-ledger-account-balances.md) 
 - [Explorador de origen de contabilidad](..\accounts-payable\accounting-source-explorer.md)
 - [Informes financieros](financial-reporting-getting-started.md)

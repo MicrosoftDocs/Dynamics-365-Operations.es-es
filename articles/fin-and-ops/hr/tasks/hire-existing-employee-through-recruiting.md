@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-an-existing-employee-through-recruiting"></a>Contratar a un empleado existente a través de la contratación
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 A veces las vacantes se pueden ocupar por candidatos que ya son empleados de la organización. Este procedimiento le muestra los pasos para contratar a un empleado existente a través del proceso de contratación. En este procedimiento, ya hay configurado un proyecto de contratación, y un empleado existente ha enviado ya una solicitud para el proyecto de contratación. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

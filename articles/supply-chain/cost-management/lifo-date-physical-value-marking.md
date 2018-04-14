@@ -29,10 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-date-with-physical-value-and-marking"></a>Fecha LIFO con valor físico y marcado
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 El método de valoración contable de fecha LIFO (Último en entrar, primero en salir) es un modelo de inventario. Las emisiones del inventario se liquidan contra las últimas recepciones del inventario según la fecha de transacción de inventario. Mediante la fecha LIFO, si no existe ninguna recepción antes de la emisión, ésta se liquida frente a cualquier recepción que ocurra después de la fecha de la emisión. Varias emisiones en una misma fecha se pueden liquidar en el orden de última emisión, última recepción. 
 
@@ -66,16 +65,16 @@ La ilustración siguiente muestra los efectos del modelo de inventario de fecha 
 
 **Clave del diagrama**
 
--   Las transacciones de inventario se representan por medio de flechas verticales.
--   Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
--   Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
--   Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Quantity@Unitprice.
--   Los valores de transacciones de inventario entre paréntesis indican que la transacción de inventario se ha registrado físicamente en el inventario.
--   Los valores de transacciones de inventario que no van entre paréntesis indican que la transacción de inventario se ha registrado financieramente en el inventario.
--   Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
--   Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican el orden de los registros de transacciones de inventario en la línea de tiempo.
--   Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta *Cierre de inventario*.
--   Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de rayas que van en sentido diagonal desde las recepciones a las emisiones.
+- Las transacciones de inventario se representan por medio de flechas verticales.
+- Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
+- Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
+- Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Quantity@Unitprice.
+- Los valores de transacciones de inventario entre paréntesis indican que la transacción de inventario se ha registrado físicamente en el inventario.
+- Los valores de transacciones de inventario que no van entre paréntesis indican que la transacción de inventario se ha registrado financieramente en el inventario.
+- Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
+- Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican el orden de los registros de transacciones de inventario en la línea de tiempo.
+- Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta *Cierre de inventario*.
+- Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de rayas que van en sentido diagonal desde las recepciones a las emisiones.
 
 ## <a name="lifo-date-with-the-include-physical-value-option"></a>Fecha LIFO con la opción Incluir valor físico
 Puede activar la casilla **Incluir valor físico** para un artículo en la página **Grupos de modelos de artículo**. En este caso, el sistema usará transacciones de recepción tanto físicas como financieras para calcular el precio de coste promedio móvil. Cuando proceda, el sistema realizará también ajustes en la transacción de emisión actualizada físicamente. Si se ha desactivado la casilla **Incluir valor físico**, el cierre de inventario que usa el modelo de inventario de fecha LIFO realizará únicamente las liquidaciones de las transacciones actualizadas financieramente. 
@@ -101,16 +100,16 @@ La ilustración siguiente muestra los efectos del modelo de inventario LIFO cuan
 
 **Clave del diagrama**
 
--   Las transacciones de inventario se representan por medio de flechas verticales.
--   Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
--   Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
--   Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Quantity@Unitprice.
--   Los valores de transacciones de inventario entre paréntesis indican que la transacción de inventario se ha registrado físicamente en el inventario.
--   Los valores de transacciones de inventario que no van entre paréntesis indican que la transacción de inventario se ha registrado financieramente en el inventario.
--   Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
--   Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican el orden de los registros de transacciones de inventario en la línea de tiempo.
--   Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta *Cierre de inventario*.
--   Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de rayas que van en sentido diagonal desde las recepciones a las emisiones.
+- Las transacciones de inventario se representan por medio de flechas verticales.
+- Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
+- Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
+- Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Quantity@Unitprice.
+- Los valores de transacciones de inventario entre paréntesis indican que la transacción de inventario se ha registrado físicamente en el inventario.
+- Los valores de transacciones de inventario que no van entre paréntesis indican que la transacción de inventario se ha registrado financieramente en el inventario.
+- Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
+- Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican el orden de los registros de transacciones de inventario en la línea de tiempo.
+- Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta *Cierre de inventario*.
+- Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de rayas que van en sentido diagonal desde las recepciones a las emisiones.
 
 ## <a name="lifo-date-with-marking"></a>Fecha LIFO con marcado
 La marcación es un proceso que permite vincular, o marcar, una transacción de emisión con una transacción de recepción. La marcación se puede efectuar con anterioridad o con posterioridad al registro de una transacción. Puede utilizar la marcación cuando desee asegurarse del coste exacto del inventario cuando se registra una transacción o cuando se efectúa el cierre de inventario. 
@@ -147,16 +146,16 @@ La siguiente ilustración muestra el efecto que se deriva de seleccionar el mode
 
 **Clave del diagrama**
 
--   Las transacciones de inventario se representan por medio de flechas verticales.
--   Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
--   Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
--   Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Quantity@Unitprice.
--   Los valores de transacciones de inventario entre paréntesis indican que la transacción de inventario se ha registrado físicamente en el inventario.
--   Los valores de transacciones de inventario que no van entre paréntesis indican que la transacción de inventario se ha registrado financieramente en el inventario.
--   Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
--   Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican el orden de los registros de transacciones de inventario en la línea de tiempo.
--   Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta *Cierre de inventario*.
--   Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de rayas que van en sentido diagonal desde las recepciones a las emisiones.
+- Las transacciones de inventario se representan por medio de flechas verticales.
+- Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
+- Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
+- Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Quantity@Unitprice.
+- Los valores de transacciones de inventario entre paréntesis indican que la transacción de inventario se ha registrado físicamente en el inventario.
+- Los valores de transacciones de inventario que no van entre paréntesis indican que la transacción de inventario se ha registrado financieramente en el inventario.
+- Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
+- Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican el orden de los registros de transacciones de inventario en la línea de tiempo.
+- Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta *Cierre de inventario*.
+- Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de rayas que van en sentido diagonal desde las recepciones a las emisiones.
 
 
 

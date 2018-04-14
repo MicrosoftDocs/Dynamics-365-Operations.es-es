@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-closed-ended-question"></a>Crear una pregunta cerrada
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Las preguntas cerradas le permiten proporcionar opciones entre las que el encuestado puede elegir. Primero, necesita crear el grupo de respuestas con las respuestas y luego crear la pregunta que usará el grupo de respuestas. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

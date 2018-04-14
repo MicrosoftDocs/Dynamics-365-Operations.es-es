@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Mantener la información de lesiones y enfermedades del empleado
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Se recomienda completar primero la guía de tareas "Configuración de lesión o enfermedad", puesto que aquí se usa parte de la información de configuración. 
 

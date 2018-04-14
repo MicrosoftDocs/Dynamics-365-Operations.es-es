@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personnel-actions-faq"></a>Acciones del personal [Preguntas frecuentes]
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tema contiene respuestas a preguntas que puede que tenga si su organización usa acciones de personal. Las acciones de personal son pasos adicionales que debe completar cuando realice ciertas tareas relacionadas con el personal. Son ejemplos de tareas que requerirán acciones de personal crear nuevos puestos, modificar los valores de puestos existentes, contratar a trabajadores nuevos, transferir trabajadores, cambiar la compensación del trabajador, cambiar las asignaciones del puesto o despedir a trabajadores.
 
@@ -64,9 +64,9 @@ Abra cualquiera de las páginas de lista de la acción de personal y seleccione 
 Si una solicitud de acción de personal falla, siga estos pasos para solucionar el error y volver a enviar la solicitud:
 
 > 1. En el **Panel de acciones**, haga clic en el botón **Texto de error** para ver el texto del mensaje que describe el problema.
-
+> 
 > 2. En el **Panel de acciones**, haga clic en **Reactivar** para cargar la información más reciente y establecer el estado de la acción de personal de nuevo a **Borrador**.
-
+> 
 > 3. Resuelva el error y haga clic en **Completo** o **Enviar**.
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>¿Qué sucede a una acción de personal que use el flujo de trabajo cuando se completa la aprobación final?

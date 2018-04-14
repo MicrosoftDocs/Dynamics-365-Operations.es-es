@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-setup-requirements"></a>Requisitos de configuración de producción
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo proporciona información acerca de los requisitos de configuración para poder trabajar con el Control de producción. 
 

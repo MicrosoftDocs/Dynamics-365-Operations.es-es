@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Configurar grupos de impuestos y grupos de impuestos de artículos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta grabación de tarea le guía por la configuración de los impuestos y los grupos de impuestos de artículos. Los códigos de impuestos son grupos de códigos de impuestos vinculados a clientes y proveedores. También están vinculados a cuentas contables de transacciones que no están registradas con un proveedor o cliente determinado.  Los grupos de impuestos de artículos son grupos de códigos de impuestos vinculados a los recursos como productos.  Los impuestos que se aplican a una transacción concreta se determinan a través de los códigos de impuestos incluidos en el grupo de impuestos y en el grupo de impuestos de artículos de la transacción.  Los impuestos puede calcularse solo si se selecciona un grupo de impuestos y un grupo de impuestos de artículos para cada transacción para la que se deben calcular o registrar impuestos.  
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="build-a-product-configuration-model"></a>Crear un modelo de configuración de productos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La necesidad de configurar los productos para cumplir los requisitos especiales se está convirtiendo en la regla en lugar de la excepción, en las relaciones interempresariales y de banca B2C.
 

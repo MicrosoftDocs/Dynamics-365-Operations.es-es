@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-repeat-purchase-order"></a>Creación de pedido de repetición de compra
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo crear un pedido de compra de repetición copiando líneas de un documento de pedido de compra anterior en un pedido de compra nuevo o en un pedido de compra existente. Hay dos métodos para crear pedidos de repetición. Puede utilizar las acciones disponibles en el nivel del documento en el Panel de acciones o utilizar las acciones de detalles de línea. Las acciones del nivel del documento están pensadas principalmente para crear un nuevo pedido de compra agregando líneas e información de encabezado de otro pedido, mientras que la acción de detalles de línea es principalmente para agregar líneas a una orden existente. El ejemplo mostrado en esta guía se puede utilizar en la empresa de datos de demostración USMF. Esta tarea la realizaría normalmente un agente de compras.
 

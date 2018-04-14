@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settlement-overview"></a>Descripción de la liquidación
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se proporciona información general sobre el proceso de liquidación. Describe los tipos de transacciones que se pueden liquidar, cuándo y cómo se pueden liquidar las transacciones y los resultados del proceso de liquidación.
 

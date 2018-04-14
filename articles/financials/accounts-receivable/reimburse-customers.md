@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reimburse-customers"></a>Reembolsar a clientes
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se explica cómo crear transacciones de reembolso de un grupo de clientes. Si un cliente tiene un saldo de crédito, puede reembolsar al cliente por el importe del saldo. 
 

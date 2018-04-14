@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Crear un pedido de reabastecimiento de entrega
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear un pedido de reabastecimiento de entrega donde puede seguir la entrega prevista de un proveedor en su inventario de entrega. También muestra cómo registrar una recepción de productos para registrar el inventario de entrega como inventario disponible propiedad del proveedor. Este procedimiento normalmente lo haría un profesional de compras. Puede usar esta guía en la empresa de datos de demostración USMF. Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
 

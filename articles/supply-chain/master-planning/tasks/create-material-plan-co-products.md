@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Creación de un plan de materiales para coproductos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 El planificador de producción planifica los requisitos de material para los artículos que son coproductos de la fórmula. La empresa de datos de demostración utilizada para crear este procedimiento es USP2.
 

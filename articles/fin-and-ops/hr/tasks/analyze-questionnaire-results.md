@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="analyze-questionnaire-results"></a>Analizar resultados de cuestionario
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Las estadísticas de cuestionario se pueden usar para calcular promedios, totales y porcentajes basados en un sistema de datos demográficos. Para iniciar este procedimiento, vaya a Cuestionario > Ver y analizar resultados > Estadísticas de los cuestionarios. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

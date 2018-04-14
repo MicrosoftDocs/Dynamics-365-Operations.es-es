@@ -27,8 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="fixed-asset-revaluation-groups"></a>Grupos de revalorización de activos fijos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema proporciona información acerca de la revalorización de activos fijos para España.
 

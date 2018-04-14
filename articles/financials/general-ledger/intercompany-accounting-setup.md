@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="intercompany-accounting-setup"></a>Configurar la contabilidad de empresas vinculadas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema explica cómo configurar la contabilidad de empresas vinculadas de manera que pueda usar los diarios de empresas vinculadas para las asignaciones de contabilidad y los diarios financieros, como diarios, diarios de facturas de proveedor y diarios de pagos.
 

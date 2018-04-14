@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="batch-and-license-plate-confirmation"></a>Confirmación de lote y matrícula
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 La confirmación de lote le permite confirmar que se eligió el lote correcto en el dispositivo móvil. En la selección inicial del trabajo solo para los artículos superiores al lote, donde superior al lote indica que el lote supera a la ubicación en la jerarquía de la búsqueda, debe comprobar que el lote elegido se corresponde con el lote en la línea del trabajo. 
 

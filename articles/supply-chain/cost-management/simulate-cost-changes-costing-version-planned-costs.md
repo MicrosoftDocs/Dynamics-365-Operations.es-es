@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Simular cambios de coste mediante una versión de gestión de costes para costes planificados
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo explica cómo puede simular los efectos de los cambios de coste en los costes calculados de un artículo fabricado con una versión de gestión de costes independiente para los costes planificados.
 

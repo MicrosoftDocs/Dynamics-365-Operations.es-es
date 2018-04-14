@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Configuración de un formato de resguardo de pago para facturas de proyecto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Las empresas suelen adjuntar resguardos de pago impresos a las facturas para ofrecer asistencia a los clientes y proporcionar una referencia de pago para su registro y liquidación. El resguardo de pago se puede usar para facturas de proyecto o texto sin formato, cartas de cobro, notas de interés y extractos de cuenta, además de las facturas de ventas y facturas de servicios. Para procesar resguardos de pago, configure en primer lugar los formatos de datos adjuntos del resguardo de pago y el número de identificación de un acreedor.
 

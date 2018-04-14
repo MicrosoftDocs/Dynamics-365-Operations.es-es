@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-holds"></a>Retenciones de pedido
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tema describe los pedidos en espera usando Dynamics 365 for Retail.
 

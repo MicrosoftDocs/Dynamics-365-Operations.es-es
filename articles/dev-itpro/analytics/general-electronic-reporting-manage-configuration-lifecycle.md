@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>Administrar el ciclo de vida de las configuraciones de la notificación electrónica
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución de Microsoft Dynamics 365 for Finance and Operations.
 

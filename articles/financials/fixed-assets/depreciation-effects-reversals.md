@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Efectos de depreciación con inversiones
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se describen las implicaciones potenciales de invertir una transacción de activo fijo. 
 

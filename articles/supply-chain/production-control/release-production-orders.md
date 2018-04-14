@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="release-production-orders"></a>Liberar pedidos de producción
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Un pedido de producción liberado es una orden que se ha autorizado para producción. El término Liberado se usa para describir un estado en el ciclo de vida del pedido de producción, donde el pedido de producción está disponible para la ejecución en la planta de producción y para procesos de almacén. 
 

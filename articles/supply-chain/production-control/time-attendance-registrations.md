@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="time-and-attendance-registration"></a>Registro de Tiempo y asistencia
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Los trabajadores del registro de horas pueden especificar distintos tipos de registros de horas, por ejemplo entrada, salida, registro de actividades indirectas y registro de ausencia. Este tema describe registros, su cálculo, aprobación y uso del flujo de trabajo para agregar la estructura y la aprobación automatizada al proceso de aprobación de hojas de horas. 
 
@@ -95,7 +94,7 @@ Puede configurar un proceso de aprobación de flujo de trabajo para aprobar auto
 | Total de días de tiempo y asistencia            | El flujo de trabajo valida los registros en relación, por ejemplo, con el número previsto de horas de trabajo diarias. |                                                                                                                                                                                                                                                       |
 | Registros de diario de tiempo y asistencia. | El flujo de trabajo valida cada tipo de registro en relación con la fecha de registro.                           | Tiempo y asistencia • Hora de entrada • Hora de salida • Ausencia • Descanso • Código de cambio • Proyecto • Actividad del proyecto • Trabajos de producción de actividades indirectas • Cola anterior • Configuración • Proceso • Superponer • Transporte • Cola posterior • Iniciar ayudante • Detener ayudante |
 
- 
+
 
 ## <a name="transferring-approved-registrations"></a>Transferencia de registros aprobados
 Tras aprobar los registros, podrá transferirlos a un trabajo de nómina periódico. Un registro transferido se registra en una actividad o trabajo asociado, por ejemplo, a un pedido de producción o proyecto. Las transacciones de nóminas se generan para cada trabajador en función de los registros.  

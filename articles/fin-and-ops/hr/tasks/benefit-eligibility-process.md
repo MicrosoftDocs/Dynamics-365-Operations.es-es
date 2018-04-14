@@ -24,7 +24,7 @@ ms.lasthandoff: 02/15/2018
 ---
 # <a name="benefit-eligibility-process"></a>Proceso de idoneidad para prestación
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo funciona el proceso de idoneidad de la prestación. Cuando se complete el proceso, podrá ver los resultados. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

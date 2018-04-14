@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="spanish-promissory-note-options"></a>Opciones de pagaré español
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema describe opciones y cambios en la funcionalidad básica de pagarés implementada en Microsoft Dynamics 365 for Finance and Operations para las entidades jurídicas en España.
 

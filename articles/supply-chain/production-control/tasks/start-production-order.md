@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="start-a-production-order"></a>Iniciar un pedido de producción
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo iniciar un pedido de producción en la planta. En este proceso se informa del consumo de tiempo y materiales. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este es el quinto procedimiento de siete que explica el ciclo de vida del pedido de producción.
 

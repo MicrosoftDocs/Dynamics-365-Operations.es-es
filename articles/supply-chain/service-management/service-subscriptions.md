@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-subscriptions"></a>Suscripciones de servicio
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Las suscripciones se basan en un proyecto de tiempo y de materiales. Puede crear suscripciones desde un proyecto, en la página **Suscripciones de servicio**, o mediante un grupo de suscripciones de servicio.
 

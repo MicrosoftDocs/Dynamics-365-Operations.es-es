@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-email-templates"></a>Gestionar plantillas de correo electrónico
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Puede transferir información de la base de datos de su organización a los marcadores en un documento nuevo y usarla en plantillas que le ayuden a comunicarse eficazmente con los candidatos. Para ello, cree una plantilla con texto estándar y algunos marcadores en los que se vayan a insertar datos del sistema. Por ejemplo, puede insertar la dirección y la información de contacto para un candidato en un documento de Microsoft Word que pueda usar para comunicarse con él o ella. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

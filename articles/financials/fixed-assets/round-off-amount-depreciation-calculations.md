@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="round-off-amount-for-depreciation-calculations"></a>Importe de redondeo para cálculos de depreciación
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo describe el campo Depreciación de redondeo que se encuentra en las páginas de Configuración del libro.
 

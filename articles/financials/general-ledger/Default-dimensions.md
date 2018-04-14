@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-dimensions-and-posting"></a>Dimensiones financieras y registro 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Cuando planifique y configure su plan contable, debe ver cómo funcionarán conjuntamente los distintos componentes cuando se registre un documento o un diario. Estos componentes incluyen las estructuras contables, reglas avanzadas, y saldo y las dimensiones fijas. Este tema explica cuál es cada componente y cómo los componentes funcionan juntos.
 

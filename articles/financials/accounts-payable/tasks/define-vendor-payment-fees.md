@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-vendor-payment-fees"></a>Definir cuotas de pagos a proveedores
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Configuración de cuotas de pago para proveedores. Esta tarea usa la empresa de demostración USMF.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="record-templates"></a>Plantillas de registro
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo presenta el concepto de las plantillas de registro y explica cómo se pueden usar para crear registros que comparten información.
 

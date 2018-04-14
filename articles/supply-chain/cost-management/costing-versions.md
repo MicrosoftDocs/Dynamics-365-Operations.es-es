@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="costing-versions"></a>Versiones de gestión de costes
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo proporciona información acerca de las versiones de gestión de costes, cómo mantenerlas y los tipos de datos que se pueden incluir en ellas. El propósito principal de una versión de gestión de costes es contener los registros de costes acerca de los artículos, las categorías de coste y las fórmulas de cálculo de los costes indirectos.
 

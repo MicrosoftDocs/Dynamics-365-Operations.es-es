@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Definir celdas de trabajo de lean manufacturing (producción ajustada)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Una celda de trabajo es una forma específica de grupos de recursos que pueden usarse en actividades de proceso de lean manufacturing. Las celdas de trabajo tienen ubicaciones de entrada y salida y una definición de capacidad basada en un modelo de flujo de producción. Para obtener más información acerca de los conceptos básicos de las celdas de trabajo de lean manufacturing y de cálculos de capacidad, consulte las notas del producto sobre lean manufacturing. La empresa de datos de demostración usada para crear este procedimiento es USMF.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="main-account-types"></a>Tipos de cuentas principales
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Los tipos de cuenta principal determinan cómo se usa una cuenta principal en el plan contable.
 

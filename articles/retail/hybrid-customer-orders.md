@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="hybrid-customer-orders"></a>Pedidos de cliente híbridos
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Un pedido híbrido de cliente es pedido único que contiene al mismo tiempo productos que el cliente puede llevarse y otros que pueden recogerse o enviarse después.
 

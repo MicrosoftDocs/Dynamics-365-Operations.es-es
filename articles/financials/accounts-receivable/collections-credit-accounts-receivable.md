@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Créditos y cobros en Clientes
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La información de los cobros de clientes se gestiona en una vista central con la página Cobros de Finance and Operations. Los administradores de crédito y cobros pueden usar esta vista central para gestionar los cobros. Los agentes de cobros pueden comenzar el proceso de cobro por las listas de clientes que se generan mediante criterios de cobro predefinidos o por la página Clientes.
 
@@ -70,9 +69,9 @@ En las siguientes páginas de lista, se le ayuda a organizar la información de 
 
 > [!NOTE]
 > Es necesario crear una instantánea de vencimientos antes de que pueda visualizar información en estas páginas de lista. Sólo se muestra información para aquellos clientes para los que se haya creado una instantánea de vencimientos. Los registros que se muestran en la página de lista pueden estar más filtrados, por ejemplo:
-<li>De forma predeterminada, un usuario de Finance and Operations tiene acceso a todos los clientes que dispongan de una instantánea de vencimientos.</li>
-<li>Si existen secciones de clientes, es necesario configurar un usuario como agente de cobros para que pueda usar las secciones para filtrar información de páginas de listas de cobros. El acceso a esta información está limitado a los clientes incluidos en la sección de clientes seleccionada.</li>
-<li>Si un usuario está configurado como agente de cobros, sólo estarán disponibles en la página de lista las secciones seleccionadas para dicho agente de cobros. Si se ha seleccionado Permitir que el agente vea todas las secciones de clientes en la página Agente de cobros para el agente de cobros, todas las secciones quedan disponibles para dicho agente.</li>
+> <li>De forma predeterminada, un usuario de Finance and Operations tiene acceso a todos los clientes que dispongan de una instantánea de vencimientos.</li>
+> <li>Si existen secciones de clientes, es necesario configurar un usuario como agente de cobros para que pueda usar las secciones para filtrar información de páginas de listas de cobros. El acceso a esta información está limitado a los clientes incluidos en la sección de clientes seleccionada.</li>
+> <li>Si un usuario está configurado como agente de cobros, sólo estarán disponibles en la página de lista las secciones seleccionadas para dicho agente de cobros. Si se ha seleccionado Permitir que el agente vea todas las secciones de clientes en la página Agente de cobros para el agente de cobros, todas las secciones quedan disponibles para dicho agente.</li>
 
 
 ## <a name="collections-page"></a> Página Cobros

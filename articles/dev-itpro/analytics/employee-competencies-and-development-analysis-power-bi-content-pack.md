@@ -27,8 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="employee-competencies-and-development-power-bi-content"></a>Contenido de Power BI sobre competencias y desarrollo de los empleados
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se describe Finance and Operations; el contenido de Power BI sobre competencias y desarrollo de empleados 
 

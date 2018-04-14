@@ -27,8 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="special-entries-and-opening-sheets"></a>Entradas especiales y hojas de apertura
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Las entidades jurídicas de España pueden registrar entradas especiales como entradas de apertura para el período actual, mientras adaptan sus cuentas a los cambios de las reglas de contabilidad.
 

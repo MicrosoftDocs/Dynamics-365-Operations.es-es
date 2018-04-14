@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-order-cost-analysis"></a>Análisis del coste del pedido de producción
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo proporciona información acerca del análisis de costes que puede realizar para pedidos de producción finalizados y actuales. Puede analizar los costes estimados y reales mediante la página Cálculo de precios o el informe Estimaciones y gestión de costes. Puede ver la información acerca de los costes y la cantidad estimados y reales para cada artículo de componente, la operación de enrutamiento y el coste indirecto.
 

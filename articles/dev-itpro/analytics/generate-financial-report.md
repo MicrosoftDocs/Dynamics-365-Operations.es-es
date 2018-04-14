@@ -28,8 +28,7 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="generate-a-financial-report"></a>Generar un informe financiero
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema proporciona información acerca de la generación de un informe financiero. 
 
@@ -50,13 +49,13 @@ Al generar un informe, se usan las opciones que ha especificado en la pestaña D
 ## <a name="generate-a-financial-report"></a>Generar un informe financiero
 
 Para generar un informe financiero con Microsoft Dynamics 365 for Finance and Operations, vaya a **Contabilidad general** > **Consultas e informes** > **Informes financieros**. 
- - Seleccione un informe para generarlo y haga clic en **Generar**. 
- - Rellene el campo **Fecha del informe** y haga clic en **Aceptar**.
- 
- Una vez que se haya generado el informe, el informe estará disponible para verlo en la sección **Informes**.
- Puede seleccionar **Ver** o **Eliminar** el informe.
- 
- 
+- Seleccione un informe para generarlo y haga clic en **Generar**. 
+- Rellene el campo **Fecha del informe** y haga clic en **Aceptar**.
+
+  Una vez que se haya generado el informe, el informe estará disponible para verlo en la sección **Informes**.
+  Puede seleccionar **Ver** o **Eliminar** el informe.
+
+
 Para generar un informe usando **Diseñador de informes**, abra la definición del informe y haga clic en el botón Generar en la barra de herramientas. La ventana Estado de la cola del informe abrirá e indicará la ubicación del informe en la cola. De forma predeterminada, el informe generado se abrirá en el Visor web.
 
 > [!NOTE]
@@ -159,7 +158,7 @@ Cuando se ejecuta un análisis de cuentas que faltan, los métodos abreviados de
 | Abrir la definición del informe seleccionado  | Ctrl+R                     |
 | Abrir la definición de fila seleccionada     | Ctrl+O                     |
 
- 
+
 <a name="see-also"></a>Consulte también
 --------
 

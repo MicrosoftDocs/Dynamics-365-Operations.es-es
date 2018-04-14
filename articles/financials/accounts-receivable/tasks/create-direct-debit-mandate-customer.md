@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-direct-debit-mandate-for-a-customer"></a>Crear una orden de domiciliación bancaria para un cliente
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guía de tarea muestra cómo crear una orden de domiciliación bancaria y cómo usarla en una factura.
 

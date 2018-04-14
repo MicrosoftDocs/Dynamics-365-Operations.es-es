@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Inscribir y quitar prestaciones para trabajadores
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo se puede inscribir un único trabajador en una o más prestaciones, así como varios trabajadores se pueden inscribir en una prestación. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

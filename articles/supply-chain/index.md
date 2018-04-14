@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="supply-chain-management-home-page"></a>Página de inicio de gestión de la cadena de suministro
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 En este tema se proporciona una lista de temas de ayuda y otros recursos para las características de administración de la cadena de suministro de Microsoft Dynamics 365 for Finance and Operations. 
 

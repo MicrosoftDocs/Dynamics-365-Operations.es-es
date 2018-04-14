@@ -29,7 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatura de los nombres y los números de variante de los productos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se describe cómo se puede configurar una nomenclatura de número de producto para reemplazar el formato fijo [Número de producto maestro - Configuración - Tamaño - Color - Estilo]. La nueva nomenclatura tiene el formato destinado que incluye el número de producto maestro, las dimensiones de producto activo y los delimitadores de texto de su elección. También puede crear una nomenclatura para los nombres de producto. Por último, también puede crear una nomenclatura para identificar configuraciones creadas por el configurador de producto basado en restricciones. Estas nomenclaturas pueden contener atributos de su elección.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="compensation-power-bi-content"></a>Contenido de Power BI de compensaciones
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema describe el contenido de Microsoft Power BI de **Compensaciones**. Explica cómo obtener acceso a los informes y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 

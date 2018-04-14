@@ -24,7 +24,7 @@ ms.lasthandoff: 03/09/2018
 ---
 # <a name="use-a-model-mapping-configuration-for-aggregate-calculations-at-the-database-leveler"></a>Utilice la configuración de asignación de modelo para cálculos agregados en el nivel de la base de datos (ER) 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento proporciona información acerca de cómo diseñar una nueva configuración de asignación de modelo de informes electrónicos (ER) y utilizar las funciones de ER integradas para realizar cálculos agregados eficientes. En este procedimiento, creará una configuración para la empresa de ejemplo Litware, Inc. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="questionnaires"></a>Cuestionarios
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 En este tema se proporciona información general acerca de los cuestionarios, además de vínculos a información más detallada. Un cuestionario es un conjunto de preguntas que se utiliza para recopilar información con varios objetivos. Puede diseñar, crear, distribuir y completar cuestionarios y, a continuación, analizar los resultados. 
 

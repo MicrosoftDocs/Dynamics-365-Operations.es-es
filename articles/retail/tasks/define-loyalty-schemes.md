@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="define-loyalty-schemes"></a>Definir esquemas de fidelización comercial
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo definir un esquema de fidelización. Los esquemas de fidelización son reglas de canje y obtención de recompensas para un programa de fidelización. Este procedimiento usa la empresa de datos de demostración USRT.
 

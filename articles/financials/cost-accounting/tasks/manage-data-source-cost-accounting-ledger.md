@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Gestionar un origen de datos para el libro mayor de contabilidad de costes
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimiento para gestionar el origen de datos de la contabilidad general para un libro mayor de contabilidad de costes. Para completar esta tarea, asegúrese de que reproduce las guías de tareas “Crear un libro mayor de contabilidad de costes“ y “Definir unidades de control de costes". Este registro usa la empresa USP2 con los datos para demostración.
 

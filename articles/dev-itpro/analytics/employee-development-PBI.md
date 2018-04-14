@@ -25,7 +25,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="employee-development-power-bi-content"></a>Contenido en Power BI de Desarrollo de empleados
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema describe el contenido en Microsoft Power BI de **Desarrollo de empleados**.
 
@@ -45,6 +45,7 @@ Los informes incluidos en el contenido de Power BI de **Desarrollo de empleados*
 Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e iconos al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
+
 | Entidad                   | Contenido                                                                                                   | Relaciones con otras entidades |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | Contrapartida del calendario          | Desplazamientos del calendario para dividir informes                                                                          | Asignación de puesto anterior, tenencia de puestos, tendencia de empleado, empleado cesado 

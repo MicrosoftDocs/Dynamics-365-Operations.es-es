@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-object-values"></a>Valores de objeto de inventario
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo proporciona información sobre cómo se calculan los valores de un objeto de inventario. 
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-entries"></a>Entradas de costes
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo proporciona información acerca de las entradas de coste y de cuándo se crean. Una entrada de coste es un registro que registra la cantidad y el coste de un evento dado.
 

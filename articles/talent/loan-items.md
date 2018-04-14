@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-items-lent-to-workers"></a>Administración de artículos prestados a trabajadores
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Los artículos de préstamo son registros que ayudan a los gerentes a realizar un seguimiento de los artículos físicos que su empresa presta a los trabajadores. 
 
@@ -51,7 +50,7 @@ Los gerentes pueden ver los artículos prestados para sus informes directos. Tam
 
 Si un elemento se daña o se extravía, introduzca un registro de devolución ficticio. A continuación, elimine el artículo o manténgalo en la visión general y cambie la descripción para indicar que el artículo no está disponible.
 
- 
+
 <a name="see-also"></a>Consulte también
 --------
 

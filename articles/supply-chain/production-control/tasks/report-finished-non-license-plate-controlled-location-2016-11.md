@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="report-as-finished-to-a-plate-controlled-location"></a>Notificar como terminado a una ubicación controlada por matrícula 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guía de tareas muestra un ejemplo de notificación como finalizado en una ubicación que no está controlada mediante matrículas de entidad de almacén. Una directiva aplicable de trabajo es el requisito previo para esta tarea. Una guía de tareas anterior mostraba la configuración de la directiva de trabajo. Esta guía de tareas requiere la aplicación Dynamics AX 7.0.1 o versiones posteriores.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-resources"></a>Recursos de Operations
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Los recursos de operaciones realizan las actividades de un proyecto o de un proceso de producción. Pueden ser de distintos tipos y tener diferentes capacidades. 
 

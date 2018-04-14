@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-order-cost-estimation"></a>Estimación del coste del pedido de producción
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo proporciona información acerca de la estimación de costes de producción. La estimación de costes de producción proporciona los costes de consumo de capacidad y material previsto de producir un artículo en la cantidad del pedido de producción planificado. 
 

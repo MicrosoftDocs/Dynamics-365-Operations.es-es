@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="nonconformance-management"></a>Gestión de disconformidad
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo describe la configuración básica necesaria para usar disconformidades. Se requiere configuración adicional si desea usar pedidos de calidad.
 

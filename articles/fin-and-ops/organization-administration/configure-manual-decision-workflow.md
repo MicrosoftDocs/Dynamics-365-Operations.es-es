@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a>Configuración de una decisión manual en un flujo de trabajo
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema explica cómo configurar las propiedades de una decisión manual.
 
@@ -252,73 +251,74 @@ Siga estos pasos para especificar a quién se debe asignar una decisión manual.
 ## <a name="specify-what-happens-when-a-decision-is-overdue"></a>Especificación de la acción que se realiza cuando vence una decisión
 Si un usuario no toma la decisión en el tiempo asignado, la decisión se considera vencida. Las decisiones vencidas se pueden remitir a una instancia superior, o asignar a otro usuario de forma automática. Si la decisión ha vencido, siga estos pasos para remitirla a una instancia superior.
 
-1.  En el panel izquierdo, haga clic en **Remisión a una instancia superior**.
-2.  Active la casilla de verificación **Usar ruta de remisión a una instancia superior** para crear una ruta de remisión a una instancia superior. De manera automática, el sistema asigna la decisión a los usuarios que forman parte de la ruta de remisión a una instancia superior. La siguiente tabla, por ejemplo, representa una ruta de remisión a una instancia superior.
-    | Secuencia | Ruta de remisión a una instancia superior            |
-    |----------|----------------------------|
-    | 1        | Asignar a rol: Donna           |
-    | 2        | Asignar a rol: Erin            |
-    | 3        | Acción final: \[Elección 1\] |
+1. En el panel izquierdo, haga clic en **Remisión a una instancia superior**.
+2. Active la casilla de verificación **Usar ruta de remisión a una instancia superior** para crear una ruta de remisión a una instancia superior. De manera automática, el sistema asigna la decisión a los usuarios que forman parte de la ruta de remisión a una instancia superior. La siguiente tabla, por ejemplo, representa una ruta de remisión a una instancia superior.
 
-    En este ejemplo, el sistema asigna la decisión vencida a Donna. Si Donna no toma la decisión en el tiempo asignado, el sistema la asigna a Erin. Si Erin no toma la decisión en el tiempo asignado, el sistema selecciona la **\[Elección 1\]** como decisión.
-3.  Para agregar un usuario a la ruta de remisión a una instancia superior, haga clic en **Agregar remisión a una instancia superior**. Seleccione una de las opciones de la siguiente tabla y, a continuación, siga los pasos adicionales correspondientes a esa opción antes de realizar el paso 4.
-    <table>
-    <colgroup>
-    <col width="33%" />
-    <col width="33%" />
-    <col width="33%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Opción</th>
-    <th>Usuarios a los que se remite la decisión</th>
-    <th>Pasos adicionales</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Jerarquía</td>
-    <td>Usuarios de una jerarquía organizativa específica</td>
-    <td><ol>
-    <li>Tras seleccionar <strong>Jerarquía</strong>, en la pestaña <strong>Selección de jerarquía</strong>, en la lista <strong>Tipo de jerarquía</strong>, seleccione el tipo de jerarquía al que desea remitir a una instancia superior la decisión.</li>
-    <li>El sistema debe recuperar un intervalo de nombres de usuario de la jerarquía. Dichos nombres representan a los usuarios a los que se puede remitir la decisión para una instancia superior. Siga estos pasos para especificar el punto de inicio y de finalización del intervalo de nombres de usuario que el sistema recupera: <ol>
-    <li>Para especificar el punto de inicio, seleccione una persona en la lista <strong>Comenzar desde</strong>.</li>
-    <li>Para especificar el punto de finalización, haga clic en <strong>Agregar condición</strong>. A continuación, especifique una condición que determine en qué parte de la jerarquía el sistema dejará de recuperar nombres.</li>
-    </ol></li>
-    <li>En la pestaña <strong>Opciones de jerarquía</strong>, especifique a qué usuarios del intervalo se debe remitir la decisión para una instancia superior: <ul>
-    <li><strong>Asignar a todos los usuarios recuperados</strong>: la decisión se remite para una instancia superior a todos los usuarios del intervalo.</li>
-    <li><strong>Asignar sólo al último usuario recuperado</strong>: la decisión se remite para una instancia superior únicamente al último usuario del intervalo.</li>
-    <li><strong>Excluir usuarios con la siguiente condición</strong>: la decisión no se remite para una instancia superior a ninguno de los usuarios del intervalo que cumplen con una condición determinada. Haga clic en <strong>Agregar condición</strong> para especificar la condición.</li>
-    </ul></li>
-    </ol></td>
-    </tr>
-    <tr class="even">
-    <td>Usuario del flujo de trabajo</td>
-    <td>Usuarios del flujo de trabajo actual</td>
-    <td><ul>
-    <li>Tras seleccionar <strong>Usuario del flujo de trabajo</strong>, en la pestaña <strong>Usuario del flujo de trabajo</strong>, en la pestaña <strong>Usuario del flujo de trabajo</strong>, seleccione un usuario que participe en el flujo de trabajo.</li>
-    </ul></td>
-    </tr>
-    <tr class="odd">
-    <td>Usuario</td>
-    <td>Usuarios específicos de Finance and Operations</td>
-    <td><ol>
-    <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Finance and Operations. Seleccione aquellos a los que desea remitir la decisión para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
-    </ol></td>
-    </tr>
-    </tbody>
-    </table>
+   | Secuencia | Ruta de remisión a una instancia superior            |
+   |----------|----------------------------|
+   | 1        | Asignar a rol: Donna           |
+   | 2        | Asignar a rol: Erin            |
+   | 3        | Acción final: \[Elección 1\] |
 
-4.  En la pestaña **Límite de tiempo**, en el campo **Duración**, especifique el tiempo del que dispone el usuario para tomar la decisión. Seleccione una de las siguientes opciones:
-    -   **Horas**: escriba la cantidad de horas de las que dispone el usuario para tomar la decisión. A continuación, seleccione el calendario que usa la organización y escriba la información pertinente acerca de la semana laboral de la organización.
-    -   **Días**: escriba la cantidad de días de los que dispone el usuario para tomar la decisión. A continuación, seleccione el calendario que usa la organización y escriba la información pertinente acerca de la semana laboral de la organización.
-    -   **Semanas**: escriba la cantidad de semanas de las que dispone el usuario para tomar la decisión.
-    -   **Meses**: seleccione el día y la semana antes de los cuales el usuario debe tomar la decisión. Por ejemplo, tal vez desee que el usuario haya tomado la decisión antes del viernes de la tercera semana del mes.
-    -   **Años**: seleccione el día, la semana y el mes en los que vence el plazo para tomar la decisión. Por ejemplo, tal vez desee que el usuario haya tomado la decisión antes del viernes de la tercera semana de diciembre.
+   En este ejemplo, el sistema asigna la decisión vencida a Donna. Si Donna no toma la decisión en el tiempo asignado, el sistema la asigna a Erin. Si Erin no toma la decisión en el tiempo asignado, el sistema selecciona la **\[Elección 1\]** como decisión.
+3. Para agregar un usuario a la ruta de remisión a una instancia superior, haga clic en **Agregar remisión a una instancia superior**. Seleccione una de las opciones de la siguiente tabla y, a continuación, siga los pasos adicionales correspondientes a esa opción antes de realizar el paso 4.
+   <table>
+   <colgroup>
+   <col width="33%" />
+   <col width="33%" />
+   <col width="33%" />
+   </colgroup>
+   <thead>
+   <tr class="header">
+   <th>Opción</th>
+   <th>Usuarios a los que se remite la decisión</th>
+   <th>Pasos adicionales</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr class="odd">
+   <td>Jerarquía</td>
+   <td>Usuarios de una jerarquía organizativa específica</td>
+   <td><ol>
+   <li>Tras seleccionar <strong>Jerarquía</strong>, en la pestaña <strong>Selección de jerarquía</strong>, en la lista <strong>Tipo de jerarquía</strong>, seleccione el tipo de jerarquía al que desea remitir a una instancia superior la decisión.</li>
+   <li>El sistema debe recuperar un intervalo de nombres de usuario de la jerarquía. Dichos nombres representan a los usuarios a los que se puede remitir la decisión para una instancia superior. Siga estos pasos para especificar el punto de inicio y de finalización del intervalo de nombres de usuario que el sistema recupera: <ol>
+   <li>Para especificar el punto de inicio, seleccione una persona en la lista <strong>Comenzar desde</strong>.</li>
+   <li>Para especificar el punto de finalización, haga clic en <strong>Agregar condición</strong>. A continuación, especifique una condición que determine en qué parte de la jerarquía el sistema dejará de recuperar nombres.</li>
+   </ol></li>
+   <li>En la pestaña <strong>Opciones de jerarquía</strong>, especifique a qué usuarios del intervalo se debe remitir la decisión para una instancia superior: <ul>
+   <li><strong>Asignar a todos los usuarios recuperados</strong>: la decisión se remite para una instancia superior a todos los usuarios del intervalo.</li>
+   <li><strong>Asignar sólo al último usuario recuperado</strong>: la decisión se remite para una instancia superior únicamente al último usuario del intervalo.</li>
+   <li><strong>Excluir usuarios con la siguiente condición</strong>: la decisión no se remite para una instancia superior a ninguno de los usuarios del intervalo que cumplen con una condición determinada. Haga clic en <strong>Agregar condición</strong> para especificar la condición.</li>
+   </ul></li>
+   </ol></td>
+   </tr>
+   <tr class="even">
+   <td>Usuario del flujo de trabajo</td>
+   <td>Usuarios del flujo de trabajo actual</td>
+   <td><ul>
+   <li>Tras seleccionar <strong>Usuario del flujo de trabajo</strong>, en la pestaña <strong>Usuario del flujo de trabajo</strong>, en la pestaña <strong>Usuario del flujo de trabajo</strong>, seleccione un usuario que participe en el flujo de trabajo.</li>
+   </ul></td>
+   </tr>
+   <tr class="odd">
+   <td>Usuario</td>
+   <td>Usuarios específicos de Finance and Operations</td>
+   <td><ol>
+   <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
+   <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Finance and Operations. Seleccione aquellos a los que desea remitir la decisión para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+   </ol></td>
+   </tr>
+   </tbody>
+   </table>
 
-5.  Repita los pasos 3 a 4 por cada usuario que se debe agregar a la ruta de remisión a una instancia superior. El orden de los usuarios se puede modificar.
-6.  Si los usuarios de la ruta de remisión a una instancia superior no toman la decisión en el tiempo asignado, lo hace el sistema. Para especificar la opción que el sistema selecciona, seleccione la fila **Acción** y, a continuación, en la pestaña **Finalizar acción**, seleccione una opción.
+4. En la pestaña **Límite de tiempo**, en el campo **Duración**, especifique el tiempo del que dispone el usuario para tomar la decisión. Seleccione una de las siguientes opciones:
+   -   **Horas**: escriba la cantidad de horas de las que dispone el usuario para tomar la decisión. A continuación, seleccione el calendario que usa la organización y escriba la información pertinente acerca de la semana laboral de la organización.
+   -   **Días**: escriba la cantidad de días de los que dispone el usuario para tomar la decisión. A continuación, seleccione el calendario que usa la organización y escriba la información pertinente acerca de la semana laboral de la organización.
+   -   **Semanas**: escriba la cantidad de semanas de las que dispone el usuario para tomar la decisión.
+   -   **Meses**: seleccione el día y la semana antes de los cuales el usuario debe tomar la decisión. Por ejemplo, tal vez desee que el usuario haya tomado la decisión antes del viernes de la tercera semana del mes.
+   -   **Años**: seleccione el día, la semana y el mes en los que vence el plazo para tomar la decisión. Por ejemplo, tal vez desee que el usuario haya tomado la decisión antes del viernes de la tercera semana de diciembre.
+
+5. Repita los pasos 3 a 4 por cada usuario que se debe agregar a la ruta de remisión a una instancia superior. El orden de los usuarios se puede modificar.
+6. Si los usuarios de la ruta de remisión a una instancia superior no toman la decisión en el tiempo asignado, lo hace el sistema. Para especificar la opción que el sistema selecciona, seleccione la fila **Acción** y, a continuación, en la pestaña **Finalizar acción**, seleccione una opción.
 
 ## <a name="set-a-time-limit"></a>Definición de un límite de tiempo
 Siga estos pasos si la decisión se debe tomar en un plazo específico. **Nota:** Las opciones que seleccione en este procedimiento anulan las opciones elegidas en las áreas **Asignación** y **Remisión a una instancia superior** de la página.

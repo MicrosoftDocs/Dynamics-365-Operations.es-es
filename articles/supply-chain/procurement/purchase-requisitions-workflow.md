@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-requisition-workflow"></a>Flujo de trabajo de solicitudes de compra
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 El proceso del flujo de trabajo mueve las solicitudes de compra por el proceso de revisión, desde un estado inicial de Borrador a un estado final de Aprobado. Cuando se envía una solicitud de compra a revisión, se inicia el proceso del flujo de trabajo. Cuando se aprueba una solicitud de compra, se puede generar un pedido de compra para las líneas de la solicitud de compra y enviarlo al proveedor para su cumplimiento.
 

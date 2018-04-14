@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Registrar la recepción de mercancías en el pedido de compra
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo registrar la recepción de mercancías directamente en un pedido de compra. También es posible registrar la recepción de productos en el almacén y, a continuación, registrarla después en el pedido de compra. Esta tarea se realiza normalmente por un agente de compras o un coordinador de Proveedores. El ejemplo mostrado en esta guía se puede utilizar en la empresa de datos de demostración USMF. El ejemplo incluye pasos para crear un pedido de compra sencillo para que pueda reproducir el procedimiento como guía de tareas. Si estuviera utilizando el procedimiento en sus propios datos, empezaría en la subtarea Registrar recepción de mercancías.
 

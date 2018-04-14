@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Distribuciones contables y asientos del subdiario contable para las facturas de proveedor
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Las distribuciones contables se usan para definir cómo un importe se justificará, por ejemplo, cómo se justificarán los gastos, impuestos o cargos en la factura de un proveedor. Cada importe que se debe justificar cuando se registre en el diario la factura de proveedor tendrá una o varias distribuciones contables. 
 
@@ -231,7 +230,7 @@ Cuando se especifica una factura de proveedor, cada importe se distribuirá del 
 </tbody>
 </table>
 
- 
+
 <a name="distributing-taxes"></a>Distribución de impuestos
 ------------------
 

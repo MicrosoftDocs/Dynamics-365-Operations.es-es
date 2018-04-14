@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="benefit-eligibility-policies"></a>Directivas de idoneidad para beneficio
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tema proporciona información acerca de las directivas de idoneidad de prestación, que le ayudan a definir quién es apto para las prestaciones específicas.
 

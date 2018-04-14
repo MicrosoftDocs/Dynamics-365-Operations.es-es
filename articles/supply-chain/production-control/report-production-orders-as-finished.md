@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-production-orders-as-finished"></a>Notificar pedidos de producción como terminados
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Notificar como terminado es una etapa de producción. En esta etapa se notifica un producto terminado y se mueve del pedido de producción al inventario.
 

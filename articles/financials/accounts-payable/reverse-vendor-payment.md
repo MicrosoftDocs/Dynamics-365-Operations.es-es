@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reverse-a-vendor-payment"></a>Inversión de un pago de proveedor
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo describe las diferencias entre la inversión, la eliminación, la anulación y el rechazo de un pago. Además, explica los dos métodos para invertir una comprobación de proveedor. 
 

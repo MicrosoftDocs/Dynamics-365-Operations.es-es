@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>Página principal de la gestión de costes
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 La [gestión de costes](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) le permite trabajar con la evaluación y la contabilidad de materias primas, productos semiterminados, productos terminados y de activos en curso. Es el proceso de definir, gestionar e informar de la [contabilidad de inventario](cost-object.md) y la [contabilidad de fabricación](bom-calculations.md).
 

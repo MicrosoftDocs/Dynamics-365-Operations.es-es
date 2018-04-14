@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="explosion-of-a-bom-version"></a>Expansión de una versión de lista de materiales
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se explica un escenario de planificación maestra que implica la expansión de una versión de la lista de materiales (L. MAT.).
 

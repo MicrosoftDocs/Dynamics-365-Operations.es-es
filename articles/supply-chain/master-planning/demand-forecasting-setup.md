@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="demand-forecasting-setup"></a>Configuración de la previsión de la demanda
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se describen las tareas de configuración que debe realizar antes de poder usar la previsión de la demanda.  
 

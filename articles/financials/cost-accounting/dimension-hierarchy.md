@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="dimension-hierarchy"></a>Jerarquía de dimensiones
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema proporciona información sobre las jerarquías de dimensiones. Use una jerarquía de dimensiones para definir la estructura del informe, las directivas de coste y configurar la seguridad en la contabilidad de costes.  
 

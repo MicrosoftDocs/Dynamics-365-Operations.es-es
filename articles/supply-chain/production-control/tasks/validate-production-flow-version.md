@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="validate-a-production-flow-and-version"></a>Validar un flujo de producción y una versión
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear un nuevo flujo de producción y una primera versión de lean manufacturing. Requisitos previos: deben definirse los parámetros de producción de lean manufacturing y las unidades de medida para la clase de tiempo. Debe definir un flujo de valor y un grupo de producción. Consulte las notas del producto sobre lean manufacturing para familiarizarse con los conceptos de flujos de producción y actividades. Este procedimiento hace referencia a la entidad jurídica USMF en los datos de demostración. Sin embargo, si se supone que se configura la entidad jurídica para lean manufacturing, se pueden usar otras entidades jurídicas.
 

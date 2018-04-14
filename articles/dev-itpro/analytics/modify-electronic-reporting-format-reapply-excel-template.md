@@ -27,7 +27,7 @@ ms.lasthandoff: 02/27/2018
 ---
 # <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a>Modificar un formato de informe electrónico al aplicar de nuevo una plantilla de Microsoft Excel
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 La herramienta de informes electrónicos (ER) se usa para generar documentos empresariales en formato electrónico. Para generar un documento empresarial, debe crear un formato de ER, y luego usar el diseñador de ER para definir el diseño de documento empresarial y especificar los datos que se deben incluir en él. A continuación puede ejecutar el formato de ER para generar el documento empresarial.
 

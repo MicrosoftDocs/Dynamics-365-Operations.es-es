@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="workflow-overview"></a>Visión general del flujo de trabajo
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema describe el sistema de flujo de trabajo en Microsoft Dynamics 365 for Finance and Operations.
 

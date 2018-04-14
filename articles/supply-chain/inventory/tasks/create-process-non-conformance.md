@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-process-a-conformance"></a>Crear y procesar una conformidad
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Sírvase de este procedimiento para gestionar los casos de disconformidad, en función de un pedido de calidad existente. Puede ejecutar esta grabación en la empresa de demostración USMF, y puede utilizar los valores sugeridos. Normalmente, este procedimiento lo realiza un empleado de control de calidad.  Como requisito previo, ejecute la grabación de tarea "Inspección de la calidad de las mercancías". Para procesar la aprobación de un caso de disconformidad, el usuario que ejecuta la grabación de la tarea debe tener un valor "Nombre" asignado en la página Usuarios. Para usar las notas de documento, el usuario también debe tener activada la gestión de documentos en las opciones de usuario.
 

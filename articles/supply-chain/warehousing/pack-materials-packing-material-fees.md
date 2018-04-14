@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="packing-materials-and-fees"></a>Materiales y cuotas de embalaje
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Las cuotas de material de embalaje se pagan en algunos intervalos para una empresa de reciclaje. Se debe pagar un importe por unidad de peso para cada material del que consta una unidad de embalaje. Las cuotas de material de embalaje se calculan y se notifican, pero no se registra ninguna transacción contable ya que las cuentas no se contemplan como impuestos que se deban pagar a una autoridad.
 
@@ -63,7 +62,7 @@ Si la empresa paga las cuotas del material de embalaje, no especifique los núme
 
 ## <a name="print-packaging-material-weights-on-invoices"></a>Imprimir pesos de material de embalaje en las facturas
 Puede imprimir los pesos de material de embalaje en la factura e indicar quién paga las cuotas de material de embalaje. Los pesos se resumen por código de embalaje.
- 
+
 
 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Asociación de un índice de combustible con un transportista como cargo adicional
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear una asignación de cargos adicionales, un cargo adicional de transportista y cargos adicionales maestros por recargo por combustible, y cómo asociar un índice de combustible de transportista con un transportista. Es necesario haber configurado un índice de combustible de transportista antes de ejecutar este procedimiento. Puede usar el procedimiento "Configuración de un índice de combustible de transportista". Estas tareas de configuración las realiza normalmente el administrador de logística. Los datos de demostración utilizados para crear este procedimiento son los de la empresa USMF.
 

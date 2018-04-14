@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="absence-registration-in-time-and-attendance"></a>Registro de ausencia en Tiempo y asistencia
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema describe los conceptos para ausencia y explica cómo gestionar ausencia en Tiempo y asistencia.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Configuración de grupos de contabilidad para impuestos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Los impuestos se calculan y registran en las cuentas principales que se especifican en los grupos de registro. Los grupos de registro se asocian a cada código de impuestos. Puede establecer grupos de registro individuales para cada código de impuestos, usar un grupo de registro para todos los códigos de impuestos o bien asignar varios grupos de registro a los códigos de impuestos. Esta grabación usa la empresa de demostración DEMF. 
 

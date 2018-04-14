@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-new-jobs"></a>Definir nuevos trabajos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarea se centra en la creación de un nuevo trabajo. Se completará con entrada manual y copia de la funcionalidad de la plantilla. La empresa de datos de prueba utilizada para crear esta tarea es USMF. Esta tarea se va a utilizar para el especialista de recursos humanos.
 

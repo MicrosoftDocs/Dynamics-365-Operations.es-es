@@ -24,7 +24,7 @@ ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-a-finished-product-february-2016-only"></a>Crear un producto terminado (febrero de 2016 únicamente)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarea se centra en crear un producto terminado. Es la primera tarea en las series de cálculo BOM. La empresa de datos de prueba utilizada para crear esta tarea es USMF.
 

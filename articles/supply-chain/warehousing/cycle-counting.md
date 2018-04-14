@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cycle-counting"></a>Recuento cíclico
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo describe cómo puede usar el recuento cíclico con la solución de almacenamiento que está disponible en Gestión de almacenes. Este artículo no se aplica a la solución de almacenamiento que está disponible en Gestión de inventarios.
 

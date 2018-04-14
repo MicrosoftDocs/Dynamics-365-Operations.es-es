@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Prácticas recomendadas para importar asientos mediante la entidad Diario general
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema ofrece sugerencias para importar datos en el Diario general mediante la entidad Diario general.  
 

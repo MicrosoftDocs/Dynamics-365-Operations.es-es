@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="material-substitution-in-manufacturing"></a>Sustitución material en la fabricación
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema describe cómo sustituir materiales durante el proceso de producción. 
 

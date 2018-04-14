@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="connect-the-help-system"></a>Conexión del sistema de ayuda
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se describen los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations. Ofrece una visión general de cómo conectar estos componentes y un resumen de cómo crear una ayuda personalizada. 
 
@@ -42,7 +41,7 @@ En la ilustración siguiente se muestran las partes del sistema de Ayuda de Micr
 ## <a name="connecting-the-help-system"></a>Conexión con el sistema de Ayuda
 > [!NOTE]
 > La pestaña **Guías de tareas** no está actualmente disponible en Microsoft Dynamics 365 for Talent y Microsoft Dynamics 365 for Retail, Estamos trabajando actualmente para permitir esta funcionalidad en una versión futura. Las Guías de tareas para la Introducción a Talent seguirán disponibles para cubrir las funcionalidades básicas. La ayuda de procedimientos también está disponible en el sitio de docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) para Retail y Talent.
- 
+
 
 Con el formulario **Parámetros del sistema**, los administradores del sistema conectan las piezas del sistema de Ayuda para una implementación. [![Formulario de parámetros del sistema con configuración de la Ayuda](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) En la página **Parámetros del sistema**, siga estos pasos:
 

@@ -28,12 +28,12 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Publicar líneas de diario y documentos de Excel
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se explica cómo introducir y publicar las líneas para diarios generales desde Microsoft Excel. Incluye información sobre las distintas plantillas que se pueden utilizar, dependiendo del tipo de transacciones que esté introduciendo.
 
 Los usuarios pueden introducir y publicar líneas de diarios financieros desde Microsoft Excel. Después de que un usuario cree un diario, el botón **Abrir líneas en Excel** muestra las plantillas disponibles. Las plantillas están diseñadas para admitir determinados escenarios; sin embargo, no todas las combinaciones de tipo de cuenta se admiten en el diario. La tabla siguiente muestra las plantillas disponibles y los tipos de cuentas que admiten.
+
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | **Plantilla**             | **Tipos de cuenta admitidos**                                                                                             | **Cómo acceder a la plantilla**                                                          |

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Liberar las líneas de LM y fórmula al almacén
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se describe el proceso para liberar la materia prima para las líneas de lista de materiales (LM) y las líneas de fórmula al almacén. Cuando libera una LM o una línea de fórmula al almacén, primero el sistema determina si los materiales están disponibles ya en la ubicación de entrada de producción de la planta donde el material será consumido para el proceso de producción.
 
@@ -44,7 +44,7 @@ El método que se usa para liberar LM y las líneas de fórmula se controal con 
 - **Liberar LM y las líneas de fórmula mediante un trabajo por lotes o como interacción manual** En este método, la LM y las líneas de fórmula se pueden liberar sólo con el trabajo por lotes **Liberación automática de LM y líneas de fórmula** o como interacción manual. Para liberar manualmente la LM y las líneas de fórmula, en la página de lista del pedido de producción o la página de detalles del pedido de producción, en el panel de acciones, seleccione **Liberar a almacén**.
 
 Para una demostración rápida de cómo liberar L. MAT. y las líneas de fórmula a la producción mediante un trabajo por lotes, vea este breve vídeo de YouTube:
-[!Video https://www.youtube.com/embed/8urAJn50dQ8]
+[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Liberar la LM y las líneas de fórmula mediante un trabajo por lotes
 
@@ -86,7 +86,7 @@ La ilustración siguiente muestra un pedido de producción que tiene dos operaci
 ![Ejemplo de liberación del material por el número de operación](media/two-operations.PNG)
 
 Para una demostración rápida de cómo liberar el material en proporción a la cantidad de producto terminado, vea este breve vídeo de YouTube:
-[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
+[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Liberación de material en proporción a la cantidad de producto terminado
 

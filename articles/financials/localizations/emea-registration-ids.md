@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="registration-ids"></a>Id. de registro
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema proporciona información acerca de la configuración y el uso de Id. de registro.
 

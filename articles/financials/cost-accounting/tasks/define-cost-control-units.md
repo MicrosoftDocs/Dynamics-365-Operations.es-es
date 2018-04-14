@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-cost-control-units"></a>Definir unidades de control de costes
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo definir unidades de control de costes en la libro mayor de la contabilidad de costes. Seleccione la dimensión de objeto de costes para la que desea controlar costes en el libro mayor. Los miembros de la dimensión de objeto de coste se transforman en objetos de coste de las unidades de control de costes. La empresa de datos de demostración utilizada para crear este procedimiento es USP2.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>Planificación de su jerarquía organizativa
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Antes de configurar las organizaciones y las jerarquías organizativas en Microsoft Dynamics 365 for Finance and Operations, asegúrese de tener previsto cómo se modelará la empresa. El modelo organizativo tiene un importante efecto en la implementación de Finance and Operations y en los procesos empresariales. 
 
@@ -158,7 +157,7 @@ Si las leyes y las prácticas de contabilidad difieren los países o regiones do
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Si la organización se ha modelado como unidad operativa 
 Si las leyes y las prácticas de contabilidad son las mismas entre los países o regiones donde se encuentran las organizaciones, puede utilizar un único conjunto de procedimientos de fin de año. Esto significa que puede modelar las organizaciones como unidades operativas. Todas las unidades operativas deben usar el mismo procedimiento de cierre de fin de año. 
-   
+
 ### <a name="number-sequences"></a>Secuencias numéricas
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Si la organización se ha modelado como entidad jurídica
 Las secuencias numéricas para algunas referencias se pueden configurar por entidad jurídica. Algunas secuencias numéricas se pueden compartir. 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/04/2017
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>Crear una lista de materiales para un producto maestro basado en dimensiones
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Para este procedimiento, debe tener completado las 4 guías anteriores de esta secuencia de ocho registros. Los primeros 4 registros configuraron datos necesarios para completar este procedimiento. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Esta tarea la gestiona normalmente el diseñador de productos.
 

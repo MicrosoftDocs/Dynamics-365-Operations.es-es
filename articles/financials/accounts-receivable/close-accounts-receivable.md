@@ -27,10 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="close-accounts-receivable"></a>Cerrar Clientes
 
-[!include[banner](../includes/banner.md)]
-
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La tabla siguiente muestra las páginas que admiten el proceso empresarial de cierre de Clientes.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Definir la zona horaria preferida de un usuario
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 El siguiente procedimiento explica el modo de un usuario en el rol de Administrador del sistema puede definir la zona horaria para un usuario.
 

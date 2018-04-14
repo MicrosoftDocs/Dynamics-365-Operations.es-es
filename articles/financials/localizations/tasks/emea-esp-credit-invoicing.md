@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-corrective-invoice-spain"></a>Crear una factura correctiva (España)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le guía por la manera de crear una factura de corrección. Este procedimiento se ha creado con los datos de demostración de la empresa DEMF y con una dirección principal en España.
 

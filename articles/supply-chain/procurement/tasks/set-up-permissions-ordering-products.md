@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Configurar permisos para pedir productos en nombre de otro usuario
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo conceder a los trabajadores permiso para preparar solicitudes de la compra en nombre de otros trabajadores. Es decir, un “preparador” de una solicitud de compra puede crear una solicitud para otro “solicitante.” El procedimiento también muestra cómo conceder permisos a un trabajador para que pida los artículos y los servicios en diferentes entidades jurídicas o unidades operativas. Normalmente, estas tareas las realiza el administrador de compras. Puede utilizar este procedimiento en los datos para la empresa de demostración USMF o en sus propios datos.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Registrar un cheque con pago diferido para un cliente
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Puede registrar detalles de un cheque con fecha futura recibido de un cliente. También puede registrar los cheques con fecha futura y generar transacciones financieras.   Realice las tareas siguientes antes de registrar un cheque con fecha futura de un cliente:   • Configure cheques con fecha futura en la página Gestión de efectivo y bancos • Configure una forma de pago para los cheques con fecha futura   El rol para este procedimiento es Tesorero. Este procedimiento usa la empresa de demostración USMF.
 

@@ -29,15 +29,14 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="product-lifecycle-state"></a>Estado de ciclo de vida de producto 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 El estado del ciclo de vida de un producto documenta el estado de ciclo de vida de un producto liberado o una variante del producto. Los estados del ciclo de vida de un producto están definidos por el usuario, normalmente administrador de producto o administrador de datos de producto maestro. Los procesos empresariales específicos, como planificación maestra, pueden verse afectados por una estado de ciclo de vida específico.   
- 
+
 Un producto liberado o una variante del producto se puede asociar con un estado de ciclo de vida del producto que documente en qué estado del ciclo de vida está un producto o una variante específica actualmente. Puede definir cualquier número de estados del ciclo de vida del producto asignando un nombre y una descripción al estado. Puede seleccionar un estado de ciclo de vida como el estado predeterminada para nuevos productos liberados. Las variantes del producto liberado heredan su estado del ciclo de vida del producto de su producto maestro liberado en el momento de la creación. Al cambiar el estado del ciclo de vida en un producto maestro liberado, puede elegir actualizar todas las variantes existentes que tengan el mismo estado original.  
 
 ## <a name="create-a-new-product-lifecycle-state"></a>Crear un nuevo estado de ciclo de vida de producto 
- 
+
 - Para crear un nuevo estado del ciclo de vida de un producto, reproduzca o lea la guía de tareas **Crear un nuevo estado del ciclo de vida de producto**. 
 
 -  Para crear un estado del ciclo de vida de un producto predeterminado, reproduzca o lea la guía de tareas **Crear un estado del ciclo de vida de producto predeterminado**.   
@@ -73,7 +72,7 @@ Para obtener información detallada sobre cómo usar el estado de ciclo de vida 
 
 > [!NOTE]
 > Por motivos de rendimiento, se recomienda asociar todos los productos liberados o variantes del producto obsoletos, especialmente al trabajar con variantes de la configuración de productos no reutilizables , con un estado del ciclo de vida del producto que se desactive para la planificación maestra.  
- 
+
 ## <a name="default-migration-import-and-export"></a>Migración, exportación e importación predeterminados 
 
 Las entidades de datos no admiten los estados del ciclo de vida del producto y el estado del ciclo de vida no se puede establecer en un estado variable a través de las entidades de datos del producto liberado.
@@ -81,18 +80,18 @@ Las entidades de datos no admiten los estados del ciclo de vida del producto y e
 -  En la migración de las versiones anteriores, el estado del ciclo de vida de todos los productos y las variantes de producto estarán en blanco.  
 -  Al importar los productos liberados a través de una entidad de datos, se aplicará estado del ciclo de vida predeterminado en la creación.  
 -  Al importar variantes de producto liberado a través de una entidad de datos, se importará el estado del ciclo de vida del producto del producto maestro liberado.   
- 
+
 ## <a name="find-obsolete-products-and-products-variants"></a>Busque los productos y las variantes de productos obsoletos 
- 
+
 Puede ejecutar un análisis de simulación para encontrar los productos liberados o las variantes de producto obsoletos y actualice su estado del ciclo de vida de producto. Para encontrar porductos obsoletos, reproduzca o lea la guía de tareas **Buscar productos liberados o las variantes de producto obsoletos y asignar un estado del ciclo de vida de producto**. Esta guía de tareas muestra cómo encontrar los productos liberados obsoletos o las variantes de producto y cómo asociar un estado de ciclo de vida del producto a los productos obsoleto. También muestra cómo ver los resultados de la simulación y evalua la cantidad de productos y variantes de producto se asociarán con un estado del ciclo de vida del nuevo producto al ejecutar la actualización sin la simulación.  
- 
+
 Al ejecutar el análisis en modo de simulación, los productos y las variantes de producto identificados como obsoletos se muestran en un formulario específico, donde se pueden revisar fácilmente. Las búsquedas de análisis para transacciones y datos maestros específicos para identificar los productos que no tienen ninguna demanda dentro de un período variable y ningún dato maestro que pueda resultar en demanda. Los nuevos productos liberados en un período variable se pueden excluir del análisis. Cuando la simulación de análisis devuelve el resultado esperado, el usuario puede ejecutar el análisis y establecer un estado del ciclo de vida del producto a todos los productos identificados como obsoletos por el análisis.  
- 
+
 > [!NOTE]
 > Tenga en cuenta que todos los análisis y actualizaciones se deben hacer dentro de la misma entidad jurídica.  
- 
+
 ## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a>Criterios para seleccionar y actualizar productos liberados o variantes del producto 
- 
+
 Use los siguientes criterios para seleccionar y actualizar los productos liberados o variantes del producto: 
 
 -    El estado del ciclo de vida de producto del producto o la variante del producto debe ser diferente deñ nuevo estado deseado. 

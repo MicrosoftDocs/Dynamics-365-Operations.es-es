@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deliver-an-employee-benefits-program"></a>Proporcionar un programa de prestaciones de empleado
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarea mostrará cómo crear elementos de la prestación que se usarán al crear una nueva prestación. La empresa de datos de prueba utilizada para crear esta tarea es USMF. Esta tarea está pensada para un director de compensaciones y prestaciones.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="maintain-planned-orders"></a>Mantener pedidos planificados
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se proporciona información sobre el modo de administrar pedidos planificados. Describe cómo puede actualizar el estado de los pedidos planificados, ponerlos en firme y filtrar por pedidos planificados que tengan el mismo estado que un pedido planificado seleccionado.
 

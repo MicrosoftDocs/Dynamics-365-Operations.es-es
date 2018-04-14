@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Directiva de acumulación de costes y cálculo de costes generales 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 La contabilidad de costes permite obtener detalles sobre cómo en el flujo de costes está relacionado con los productos y los servicios que se entregan en una organización. Para ver la transparencia de los costes, es esencial lograr una asignación de costes entre los objetos de coste basada en una base de asignación adecuada. De forma predeterminada, la asignación de costes se consigue para el elemento de costes principal, lo que se desea en algunos casos, pero tiene ciertas implicaciones que deben considerarse.
 

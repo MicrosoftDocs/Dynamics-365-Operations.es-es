@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-an-eu-sales-list-report"></a>Generar informe de lista de ventas de la UE
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le guía por la generación del informe de la lista de ventas de la UE. Esto incluye la transferencia de las transacciones comerciales intracomunitarias a la lista de ventas de la UE y la ejecución del informe. Este procedimiento también incluye la creación de una transacción comercial intracomunitaria para fines de demostración. Para obtener más información acerca de los informes de la lista de ventas de la UE, incluidos requisitos previos necesarios, remítase a la Ayuda de Dynamics 365 for Finance and Operations.
 

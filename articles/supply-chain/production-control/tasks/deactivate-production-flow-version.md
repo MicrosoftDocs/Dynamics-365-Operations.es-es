@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deactivate-a-production-flow-version"></a>Desactivar una versión de flujo de producción
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Cuando ya no se necesita una versión del flujo de producción activa, se puede desactivar. Debe usar esta opción únicamente si todas las reglas kanban y las actividades han terminado y no están activadas de nuevo. Tenga en cuenta que la fecha de caducidad de todas las reglas kanban relacionadas con esta versión del flujo de producción se actualizarán con la fecha y hora actuales. 
 

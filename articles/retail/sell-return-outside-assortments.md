@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="sell-and-return-products-outside-of-an-assortment"></a>Vender y devolver productos fuera de un surtido
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Un escenario común para cualquier minorista es vender productos a sus clientes o aceptar devoluciones de sus clientes aunque no contienen productos concretos en su tienda (es decir los productos no se sirven a la tienda).
 Aquí hay algunas situaciones habituales:

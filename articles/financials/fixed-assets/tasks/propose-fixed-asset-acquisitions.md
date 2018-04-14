@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>Proponer adquisiciones de activos fijos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo adquirir un activo fijo mediante la propuesta de adquisición del diario de activos fijos. Usa el rol de contable y los datos de prueba de la entidad jurídica USMF.
 

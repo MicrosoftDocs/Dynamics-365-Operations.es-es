@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>Cartas de crédito y remesas documentarias
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo proporciona información general acerca de las cartas de crédito y los cobros. Ambos tipos de documentos bancarios se usan a menudo para la compra y la venta de bienes entre fronteras internacionales.
 

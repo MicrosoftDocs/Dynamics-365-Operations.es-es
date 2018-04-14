@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="design-a-configuration-for-generating-reports-in-openxml-format-for-electronic-reporting-er"></a>Diseñar una configuración para generar informes con formato OpenXML para informes electrónicos (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 En los pasos siguientes se explica cómo un usuario con rol de administrador del sistema o desarrollador de informes electrónicos puede crear una nueva configuración de informes electrónicos que contenga una plantilla para generar documentos electrónicos en formato OPENXML. Esta configuración se usará para procesar los pagos de proveedor.
 

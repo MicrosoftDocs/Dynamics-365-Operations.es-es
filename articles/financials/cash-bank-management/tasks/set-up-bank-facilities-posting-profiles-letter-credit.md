@@ -24,7 +24,7 @@ ms.lasthandoff: 10/27/2017
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letter-of-credit"></a>Configuración de créditos bancarios y perfiles de contabilización para créditos documentarios
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo crear un perfil de registro e instalaciones bancarias, necesario para procesar cartas de crédito. 
 

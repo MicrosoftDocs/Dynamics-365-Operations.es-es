@@ -26,7 +26,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="report-340"></a>Informe 340
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 El informe 340 reemplazó dos informes anteriores (las estatutarias Libretas de ventas y las estatutarias Libretas de compras) que todas las empresas españolas enviaban como copias impresas a las autoridades fiscales españolas. El nuevo informe se puede cargar en la página web de las autoridades fiscales o se puede enviar mediante un paquete de software que está disponible de forma gratuita por parte de las autoridades fiscales.
 
@@ -76,20 +76,20 @@ El informe 340 incluye las siguientes entradas:
 7. Seleccione **Aceptar** para volver a la página **Informes de IVA españoles**. El sistema introduce la información de la página **Lista de IVA español** en la página **Informes de IVA españoles**. No puede modificar los valores de los campos **Período de liquidación**, **Método de numeración** y **Desde fecha** en la página **Informes de IVA españoles**.
 8. En la pestaña **General**, siga estos pasos:
 
-    1. En el campo **Tipo de presentación**, seleccione el tipo de medio para va a usar para exportar el archivo:
+   1. En el campo **Tipo de presentación**, seleccione el tipo de medio para va a usar para exportar el archivo:
 
-         - **Telemático**: cargue el informe en el sitio web de las autoridades fiscales o envíe el informe mediante el software gratuito provisto por las autoridades fiscales.
+      - **Telemático**: cargue el informe en el sitio web de las autoridades fiscales o envíe el informe mediante el software gratuito provisto por las autoridades fiscales.
         - **CD-R**: envía el informe a las autoridades fiscales en un CD-ROM.
         - **Informe**
 
         > [!NOTE]
         > Seleccione **Telemático** o **CD-R**. Si selecciona **Informe**, recibe un mensaje de error.
 
-    2. Establezca la opción **Notificado** en **Sí** para generar el informe final.
-    3. En el campo **Persona de contacto**, introduzca el nombre de la persona de contacto.
-    4. En el campo **Teléfono**, introduzca el número de teléfono de la persona de contacto.
-    5. En el campo **Documento**, introduzca el número de documento de cuatro dígitos. Si introduce un número que contiene menos de cuatro dígitos, se agregan ceros iniciales para crear un número de cuatro dígitos. Por ejemplo, si especifica **1**, el sistema convierte automáticamente el valor **0001** y guarda el nuevo valor.
-    6. En el campo **Electrónico**, introduzca el código electrónico de 16 dígitos. Este número es obligatorio y lo proporciona las autoridades fiscales.
+   2. Establezca la opción **Notificado** en **Sí** para generar el informe final.
+   3. En el campo **Persona de contacto**, introduzca el nombre de la persona de contacto.
+   4. En el campo **Teléfono**, introduzca el número de teléfono de la persona de contacto.
+   5. En el campo **Documento**, introduzca el número de documento de cuatro dígitos. Si introduce un número que contiene menos de cuatro dígitos, se agregan ceros iniciales para crear un número de cuatro dígitos. Por ejemplo, si especifica **1**, el sistema convierte automáticamente el valor **0001** y guarda el nuevo valor.
+   6. En el campo **Electrónico**, introduzca el código electrónico de 16 dígitos. Este número es obligatorio y lo proporciona las autoridades fiscales.
 
 9. Seleccione el botón **Totales** para abrir la página **Totales** . En esta página, puede ver los siguientes valores:
 

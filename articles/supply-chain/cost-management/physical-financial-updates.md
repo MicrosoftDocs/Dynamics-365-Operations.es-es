@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="physical-and-financial-updates"></a>Actualizaciones físicas y financieras
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se proporciona un resumen de qué tipos de transacciones aumentan y reducen las cantidades de inventario. 
 

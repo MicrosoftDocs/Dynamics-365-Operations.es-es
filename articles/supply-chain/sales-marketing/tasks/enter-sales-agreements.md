@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 ---
 # <a name="enter-sales-agreements"></a>Especificar los acuerdos de ventas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo crear un acuerdo de venta que compromete uno de los clientes a comprar un producto en una cantidad acordada durante un período de tiempo a cambio de descuentos especiales. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.
 

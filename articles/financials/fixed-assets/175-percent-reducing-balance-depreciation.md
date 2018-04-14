@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="175-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 175%
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 175%.
 
@@ -68,6 +67,7 @@ Si selecciona **Fiscal** como año de depreciación, aparecen las siguientes opc
 -   **Período fiscal** calcula el importe total de depreciación para el ejercicio. Este importe se acumula en los períodos fiscales definidos en la página **Calendarios fiscales**.
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>Ejemplo de depreciación con amortización degresiva del 175%
+
 |                                |        |
 |--------------------------------|--------|
 | Coste de adquisición               | 11.000 |

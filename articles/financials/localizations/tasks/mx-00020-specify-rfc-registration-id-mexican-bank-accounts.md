@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="specify-the-rfc-registration-id-for-mexican-bank-accounts"></a>Especificar la identificación del registro de RFC para las cuentas bancarias mejicanas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarea le guía por la creación de la cuenta bancaria para México y la asignación del id. de registro de impuestos de RFC. Esta tarea usa la empresa de demostración MXMF.
 

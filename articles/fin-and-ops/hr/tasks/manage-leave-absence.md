@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-leave-of-absence"></a>Administrar excedencias
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento recorre la creación de registros de baja de empleados. Puede realizar un seguimiento del tiempo de baja por motivos que incluyen actividades médicas, educativas o parentales. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

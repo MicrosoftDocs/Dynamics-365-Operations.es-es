@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-flow-forecasting"></a>Previsiones de flujo de efectivo
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Puede usar las herramientas para la previsión del flujo de efectivo para analizar el flujo de efectivo que va a entrar y los requisitos de divisa para estimar la futura necesidad de efectivo de la compañía. Para obtener una previsión fiable del flujo de efectivo, debe completar las tareas siguientes:
 

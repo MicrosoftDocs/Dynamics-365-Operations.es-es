@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Configurar directivas para jerarquías de categorías de compras
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimiento para configurar las reglas para solicitar productos en una categoría. Las reglas se definen para una directiva de compras específica. La regla de acceso de categorías controla a qué categorías de compras tendrán acceso los empleados al crear una solicitud. Cuando se está creando una solicitud, la directiva de compra y regla de acceso de categoría que se deben aplicar se determinan por la entidad jurídica y la unidad operativa a las que pertenece el empleado. Puede utilizar este procedimiento en la empresa de datos de demostración USMF. Esta tarea la realizará normalmente un director de compras.
 

@@ -28,14 +28,14 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prepayment-invoices-vs-prepayments"></a>Facturas de anticipo frente a anticipos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema describe y contrasta los dos métodos que las organizaciones pueden usar para los pagos anticipados (anticipos). En un método, crea una factura de anticipo asociada a un pedido de compra. En el otro método, crea asientos del diario de anticipos creando entradas de diario y marcándolas como asientos del diario de anticipos.
 
 Las organizaciones pueden emitir anticipos o pagos por adelantado a proveedores por bienes o servicios antes de que estos se satisfagan. Se pueden usar dos métodos para emitir anticipos a los proveedores. Para minimizar el riesgo, puede realizar un seguimiento de los anticipos definiéndolos en pedidos de compra. Para este método, debe crear una factura en anticipo asociada a un pedido de compra. Este método se denomina facturación en anticipo. Las organizaciones que no deseen seguir los pagos por adelantado o anticipos tan de cerca o que no reciben una factura en anticipo del proveedor pueden usar asientos del diario de anticipos en lugar del método de factura en anticipo. Para crear asientos del diario de anticipos, cree entradas de diario y márquelas como asientos del diario de anticipos. Para este método no podrá realizar un seguimiento de los anticipos entregados a un proveedor en relación con los pedidos de compra. Sin embargo, puede marcar un prepago registrado para su liquidación con respecto a un pedido de compra.
 
 ## <a name="when-to-use-prepayment-invoicing-vs-prepayments"></a>Cuándo usar facturas en anticipo frente a anticipos
+
 | Factura en anticipo                                                                | Pagos por adelantado                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Defina un valor de anticipo en el pedido de compra.                                    | No se define un valor de anticipo en el pedido de compra.                    |

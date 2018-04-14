@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a>Elegir entre Modern POS y Cloud POS
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tema proporciona a los implementadores antecedentes, sugerencias, y directrices adicionales para los factores que deben tener en cuenta al implementar Microsoft Dynamics 365 for Retail. Revisando y siguiendo esta orientación como parte del proceso de implementación, los implementadores podrán evitar problemas que podrían afectar a la satisfacción del usuario o al rendimiento.
 
@@ -92,8 +92,8 @@ Tenga en cuenta la siguiente información cuando planee su implementación de PD
 
     A menos que la conectividad para un dispositivo dado sea muy de confianza y resistente, o a menos que una determinada cantidad de tiempo de inactividad sea aceptable para el minorista, se recomienda una de las siguientes opciones:
 
-    - Usar MPOS en Windows y habilitar el modo sin conexión.
-    - Implementar una RSSU local.
+  - Usar MPOS en Windows y habilitar el modo sin conexión.
+  - Implementar una RSSU local.
 
     Estas dos opciones no se excluyen mutuamente. En la topología más fiable, los minoristas pueden implementar una RSSU local para reducir la dependencia de conectividad de Internet o la disponibilidad de Azure y también pueden implementar registros de PDV donde el modo sin conexión está habilitado si hay un problema con el servidor local o la red.
 

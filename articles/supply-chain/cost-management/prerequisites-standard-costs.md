@@ -29,8 +29,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="prerequisites-for-standard-costs"></a>Requisitos previos de los costes estándar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema describe los pasos básicos para el uso de costes estándar. Los pasos posteriores dependen de las operaciones de la empresa. Por ejemplo, los pasos difieren para un entorno de no fabricación, un entorno de fabricación que no usa enrutamientos y un entorno de fabricación que usa enrutamiento. 
 

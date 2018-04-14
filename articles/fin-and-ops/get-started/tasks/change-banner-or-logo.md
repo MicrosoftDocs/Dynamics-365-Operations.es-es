@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-banner-or-logo"></a>Cambiar el encabezado o el logotipo
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 El procedimiento siguiente muestra los pasos que los administradores del sistema pueden usar para actualizar la imagen del banner o del logotipo que se muestra para una entidad jurídica. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

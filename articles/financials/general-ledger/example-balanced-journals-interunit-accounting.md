@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="balanced-journals-for-interunit-accounting"></a>Diarios equilibrados para la contabilidad interunidad
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo muestra cómo se compensa automáticamente un diario cuando se selecciona una dimensión financiera de equilibrio en la página Libro mayor. 
 

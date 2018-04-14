@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-company-specific-hr-parameters"></a>Configuración de los parámetros de recursos humanos específicos de la empresa
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 La configuración de algunos parámetros de Recursos Humanos (RR. HH.) se comparten entre empresas, mientras que la configuración de otros parámetros son específicos de la empresa. Este artículo explica cómo configurar parámetros de RR. HH. específicos de la empresa.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Configurar y gestionar imágenes del PDV moderno minorista
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este artículo explica los pasos para realizar la configuración y la gestión de imágenes para las distintas entidades que aparecen en Retail Modern POS (MPOS).
 
@@ -141,7 +140,7 @@ Las imágenes de los productos que se deben usar en modo sin conexión pueden co
 6.  Mientras MPOS se encuentra en el modo en línea, ejecute el trabajo del catálogo en el HQ, para asegurarse de que los datos se envían al menos una vez a la base de datos sin conexión.
 7.  Configure MPOS en modo sin conexión. Debería ver la imagen que cargó para el producto específico en el HQ. [![sin conexión1](./media/offline1.png)](./media/offline1.png)
 
- 
+
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>Configurar imagénes del catálogo, la categoría, el empleado y el cliente para que aparezcan en el modo sin conexión para MPOS
 

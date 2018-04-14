@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-scheduling"></a>Programación de operaciones
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema proporciona información acerca de la programación de las operaciones. Puede usar la programación de operaciones para proporcionar una estimación general del tiempo extra del proceso de producción.
 

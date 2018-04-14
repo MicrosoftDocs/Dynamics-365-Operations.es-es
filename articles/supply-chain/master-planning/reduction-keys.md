@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduction-keys"></a>Claves de reducción
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo proporciona ejemplos que muestran cómo configurar una clave de reducción. Incluye información sobre los distintos ajustes de la clave de reducción y los resultados de cada uno. Puede usar una clave de reducción para definir cómo reducir los requisitos de previsión.
 
@@ -39,17 +38,19 @@ Este artículo proporciona ejemplos que muestran cómo configurar una clave de r
 
 Este ejemplo muestra cómo reduce una clave de reducción los requisitos de previsión de la demanda en función de los porcentajes y los períodos definidos por la clave de reducción.
 
-1.  En la página **Claves de reducción**, configure las siguientes líneas.
-    | Cambio | Unidad  | Porcentaje |
-    |--------|-------|---------|
-    | 1      | Mes | 100     |
-    | 2      | Mes | 75      |
-    | 3      | Mes | 50      |
-    | 4      | Mes | 25      |
+1. En la página **Claves de reducción**, configure las siguientes líneas.
 
-2.  Vincule la clave de reducción al grupo de cobertura del artículo.
-3.  En la página **Planes maestros**, en el campo **Principio de reducción**, seleccione **Porcentaje - clave de reducción**.
-4.  Cree una previsión de la demanda de 1000 piezas por mes.
+   | Cambio | Unidad  | Porcentaje |
+   |--------|-------|---------|
+   |   1    | Mes |   100   |
+   |   2    | Mes |   75    |
+   |   3    | Mes |   50    |
+   |   4    | Mes |   25    |
+
+
+2. Vincule la clave de reducción al grupo de cobertura del artículo.
+3. En la página **Planes maestros**, en el campo **Principio de reducción**, seleccione **Porcentaje - clave de reducción**.
+4. Cree una previsión de la demanda de 1000 piezas por mes.
 
 Si ejecuta la programación de previsión el 1 de enero, los requisitos de previsión de la demanda se consumen de acuerdo con los porcentajes configurados en la página **Claves de reducción**: las siguientes cantidades de requisitos se transfieren al plan maestro.
 
@@ -88,20 +89,21 @@ Si utiliza la misma previsión de la demanda de 1000 piezas por mes, se transfie
 ## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Ejemplo 3: Principio de reducción de previsión del período dinámico de transacciones
 En la mayoría de los casos, se configuran los sistemas de modo que las transacciones reduzcan la previsión de la demanda dentro de períodos específicos de previsión: semanas, meses, y así sucesivamente. Estos períodos se definen en la clave de reducción. No obstante, el tiempo entre dos líneas de previsión de la demanda también puede *implicar* a un período.
 
-1.  Cree una previsión de la demanda para las fechas y las cantidades siguientes.
-    | Fecha       | Previsión de la demanda |
-    |------------|-----------------|
-    | 1 de enero  | 1.000           |
-    | 5 de enero  | 500             |
-    | 12 de enero | 1.000           |
+1. Cree una previsión de la demanda para las fechas y las cantidades siguientes.
 
-    En esta previsión, no hay un período claro entre las fechas de previsión: entre la primera y la segunda fecha hay un lapso de cuatro días, y entre la segunda y la tercera fecha hay un lapso de siete días. Estos distintos lapsos son períodos dinámicos.
-2.  Cree líneas de pedidos de venta como sigue.
-    | Fecha                             | Cantidad de pedido de ventas |
-    |----------------------------------|----------------------|
-    | 15 de diciembre en el año anterior | 500                  |
-    | 3 de enero                        | 100                  |
-    | 10 de enero                       | 200                  |
+   | Fecha       | Previsión de la demanda |
+   |------------|-----------------|
+   | 1 de enero  | 1.000           |
+   | 5 de enero  | 500             |
+   | 12 de enero | 1.000           |
+
+   En esta previsión, no hay un período claro entre las fechas de previsión: entre la primera y la segunda fecha hay un lapso de cuatro días, y entre la segunda y la tercera fecha hay un lapso de siete días. Estos distintos lapsos son períodos dinámicos.
+2. Cree líneas de pedidos de venta como sigue.
+   | Fecha                             | Cantidad de pedido de ventas |
+   |----------------------------------|----------------------|
+   | 15 de diciembre en el año anterior | 500                  |
+   | 3 de enero                        | 100                  |
+   | 10 de enero                       | 200                  |
 
 La previsión se reducirá como sigue:
 

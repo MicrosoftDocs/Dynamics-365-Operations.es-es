@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>Configurar y procesar facturas periódicas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo explica cómo configurar y procesar las facturas periódicas. Puede usar facturas periódicas si debe factura a los clientes por el mismo importe periódicamente.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="help-system-overview"></a>Visión general del sistema de ayuda
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema proporciona una visión general de los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations. También se explica cómo puede proporcionar la formación y la documentación personalizadas a su organización. 
 

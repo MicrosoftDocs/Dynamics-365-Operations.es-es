@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="factor-depreciation"></a>Depreciación de factor
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo ofrece una visión general del método de depreciación de factor.
 

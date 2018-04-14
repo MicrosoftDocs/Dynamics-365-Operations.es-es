@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Ajuste de niveles de existencias en el almacén (almacenaje básico)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra el proceso para crear y registrar un diario de ajuste de inventario para ajustar niveles de existencias de productos en el almacén. Antes de comenzar, necesita tener configurado un nombre de diario de inventario para los ajustes de inventario. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos. Estas tareas las realizará normalmente el empleado del almacén.
 

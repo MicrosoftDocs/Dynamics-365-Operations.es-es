@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="quarantine-orders"></a>Órdenes de cuarentena
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema describe cómo se usan los pedidos de cuarentena para bloquear el inventario.
 

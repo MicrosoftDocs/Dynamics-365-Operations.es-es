@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Configurar una plantilla de trabajo para pedidos de compra
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento se centra en la configuración de una plantilla de trabajo simple que se debe usar al ubicar los artículos recibidos. Las plantillas de trabajo determinan el sistema de instrucciones presentadas al trabajador del almacén en un dispositivo móvil al mover artículos desde el área de recepción. Puede utilizar este procedimiento con los datos mencionados en la empresa de datos de demostración USMF. Antes de comenzar esta guía, cree un id. de grupo de trabajo. En este ejemplo, se usa un id. grupo de trabajo denominado Entrada. Este procedimiento va destinado al encargado de almacén.
 

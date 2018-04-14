@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="trial-balance-financial-reports"></a>Informes financieros de saldo de comprobación
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se describen los informes predeterminados para los saldos de comprobación. También se describen los componentes asociados a estos informes y cómo puede modificar los informes para que se adapten a sus requisitos empresariales. 
 
@@ -99,7 +98,7 @@ Cada informe de saldo de comprobación usa otra definición de columna. Estas de
     -   **FD**: los datos financieros que solo contienen débitos para el año pasado
     -   **FD**: los datos financieros que solo contienen créditos para el año pasado
 
- 
+
 
 <a name="see-also"></a>Consulte también
 --------

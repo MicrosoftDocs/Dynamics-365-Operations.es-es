@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Revalorización de divisa extranjera para clientes y proveedores
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Las fluctuaciones en los tipos de cambio hacen que el valor teórico (valor en los libros) de las transacciones abiertas en divisas extranjeras varíen con el tiempo. Este artículo proporciona información acerca del proceso de revalorización de divisa extranjera que ejecuta para actualizar el valor de las transacciones de proveedores y clientes abiertas. 
 

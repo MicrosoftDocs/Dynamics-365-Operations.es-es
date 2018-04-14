@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidar un pago de cliente parcial antes de la fecha de descuento con un pago final después de la fecha de descuento
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se aborda el efecto de liquidar pagos de las facturas para los clientes. El escenario se centra en los efectos del subdiario, no en la Contabilidad general.
 

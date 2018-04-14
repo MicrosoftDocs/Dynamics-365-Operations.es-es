@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="monitor-a-master-planning-run"></a>Supervisar una ejecución de planificación maestra
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 El planificador de producción desea ver si una ejecución de planificación maestra está en curso. Use la empresa de datos de demostración USMF para completar este procedimiento.
 
