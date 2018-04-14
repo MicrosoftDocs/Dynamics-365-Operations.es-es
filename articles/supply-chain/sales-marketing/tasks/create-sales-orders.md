@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4ccd2c4ace41f07dce14498031e3cc29ecb61b1c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1afd58e209e050bc766e6bc76a5f12dafc9bdf95
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-sales-orders"></a><span data-ttu-id="472f5-103">Crear pedidos de ventas</span><span class="sxs-lookup"><span data-stu-id="472f5-103">Create sales orders</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="472f5-104">Este procedimiento muestra cómo crear un pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="472f5-104">This procedure shows you how to create a sales order.</span></span> <span data-ttu-id="472f5-105">Puede utilizar el procedimiento en la empresa USMF de los datos de prueba.</span><span class="sxs-lookup"><span data-stu-id="472f5-105">You can use the procedure in demo data company USMF.</span></span> <span data-ttu-id="472f5-106">Normalmente los pedidos de ventas los crea un procesador del pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="472f5-106">Sales orders are typically created by a sales order processor.</span></span> 
 

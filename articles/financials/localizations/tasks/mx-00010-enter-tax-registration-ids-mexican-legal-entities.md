@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e132a0d7f8c4d8f84c0863d4b3185d58bfe5cd00
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f92cc4ecc8eec08e23c888d97944853a6db56c7c
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-tax-registration-ids-for-mexican-legal-entities"></a><span data-ttu-id="7ec43-103">Especificar los identificadores de registro de impuestos para las entidades jurídicas mexicanas</span><span class="sxs-lookup"><span data-stu-id="7ec43-103">Enter tax registration IDs for Mexican legal entities</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7ec43-104">Los documentos financieros jurídicos, como declaraciones de impuestos o facturas electrónicas enviadas a las autoridades fiscales en México, deben contener distintos tipos de identificadores de registro de impuestos u otra información relacionada.</span><span class="sxs-lookup"><span data-stu-id="7ec43-104">Legal financial documents such as tax declarations or electronic invoices submitted to the tax authorities in Mexico must contain different types of tax registration IDs and other related information.</span></span> <span data-ttu-id="7ec43-105">Esta guía detalla todos los pasos necesarios para completar la información sobre identificadores de registro en entidades jurídicas mexicanas.</span><span class="sxs-lookup"><span data-stu-id="7ec43-105">This guide details all necessary steps to complete the information about registration IDs in Mexican legal entities.</span></span>
 

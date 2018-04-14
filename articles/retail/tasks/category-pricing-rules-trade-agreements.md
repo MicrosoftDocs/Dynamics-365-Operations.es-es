@@ -17,15 +17,15 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 133ca34a0e85454dc40d4e1d36fbe8278019c7e4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ee5c9ef3dcfa45ce515427cbabc8a2b8de9a9fa7
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a><span data-ttu-id="67cc7-103">Reglas de precios de categoría para crear acuerdos comerciales</span><span class="sxs-lookup"><span data-stu-id="67cc7-103">Category pricing rules to create trade agreements</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="67cc7-104">Este procedimiento muestra cómo crear acuerdos comerciales de precios de venta con una regla de precios de categoría.</span><span class="sxs-lookup"><span data-stu-id="67cc7-104">This procedure demonstrates how to create sales price trade agreements using a category pricing rule.</span></span> <span data-ttu-id="67cc7-105">La empresa de datos de prueba utilizada para crear esta tarea es USRT.</span><span class="sxs-lookup"><span data-stu-id="67cc7-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="67cc7-106">Esta tarea está pensada para el rol Encargado de comercialización.</span><span class="sxs-lookup"><span data-stu-id="67cc7-106">This task is intended for the Retail merchandising manager role.</span></span>
 

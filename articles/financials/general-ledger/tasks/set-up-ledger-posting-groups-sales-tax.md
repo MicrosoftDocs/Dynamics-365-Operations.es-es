@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: e50fc2b6b8f4cd91e9a5593297fff2e9a6ef5525
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e326acd4a7f681b02ee4846d36e94559ce6dbdfa
 ms.contentlocale: es-es
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a><span data-ttu-id="20da7-103">Configuración de grupos de contabilidad para impuestos</span><span class="sxs-lookup"><span data-stu-id="20da7-103">Set up ledger posting groups for sales tax</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="20da7-104">Los impuestos se calculan y registran en las cuentas principales que se especifican en los grupos de registro.</span><span class="sxs-lookup"><span data-stu-id="20da7-104">Sales tax is calculated and posted to main accounts that are specified in the Ledger posting groups.</span></span> <span data-ttu-id="20da7-105">Los grupos de registro se asocian a cada código de impuestos.</span><span class="sxs-lookup"><span data-stu-id="20da7-105">Ledger posting groups are attached to each sales tax code.</span></span> <span data-ttu-id="20da7-106">Puede establecer grupos de registro individuales para cada código de impuestos, usar un grupo de registro para todos los códigos de impuestos o bien asignar varios grupos de registro a los códigos de impuestos.</span><span class="sxs-lookup"><span data-stu-id="20da7-106">You can set up individual ledger posting groups for each sales tax code, use one ledger posting group for all sales tax codes or assign multiple ledger posting groups to the sales tax codes.</span></span> <span data-ttu-id="20da7-107">Esta grabación usa la empresa de demostración DEMF.</span><span class="sxs-lookup"><span data-stu-id="20da7-107">This recording uses the DEMF demo company.</span></span> 
 

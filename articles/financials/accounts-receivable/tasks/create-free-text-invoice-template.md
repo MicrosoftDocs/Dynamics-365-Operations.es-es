@@ -16,15 +16,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e9c9811b348d81cd735c5b75ca48e0a56a8d52be
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d785922d1c6775d95ad5697eb6a872434e59c8e4
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-free-text-invoice-template"></a><span data-ttu-id="ee5d3-103">Crear una plantilla de factura de servicios</span><span class="sxs-lookup"><span data-stu-id="ee5d3-103">Create a free text invoice template</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ee5d3-104">Esta grabación usa la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="ee5d3-104">This recording uses the USMF demo company.</span></span> <span data-ttu-id="ee5d3-105">El registro se va a utilizar para el usuario responsable de gestionar y de procesar facturas de cuentas por cobrar.</span><span class="sxs-lookup"><span data-stu-id="ee5d3-105">The recording is intended for the user who is responsible for managing and processing A/R invoices.</span></span>
 

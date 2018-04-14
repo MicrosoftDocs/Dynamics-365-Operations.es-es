@@ -16,15 +16,15 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f9cdb0a7de0199363279c53e817c98085b31fe6b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5a95f63efe3d78dc371cacdc09734490a601b1b8
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-cycle-counting"></a><span data-ttu-id="38f61-103">Definir el recuento cíclico</span><span class="sxs-lookup"><span data-stu-id="38f61-103">Define cycle counting</span></span> 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="38f61-104">La cuenta de ciclo es un proceso de almacén que puede usar para revisar artículos de inventario disponibles.</span><span class="sxs-lookup"><span data-stu-id="38f61-104">Cycle counting is a warehouse process that you can use to audit on-hand inventory items.</span></span> <span data-ttu-id="38f61-105">Esta grabación de tarea muestra cómo configurar el valor predeterminado de prioridad de trabajo de recuento; cómo habilitar un elemento de menú de dispositivo móvil para procesar operaciones de selección y recuento; cómo habilitar un activador de umbral de recuento cuando una ubicación quede vacía; cómo habilitar un plan de recuento cíclico para un artículo específico dentro de un almacén concreto.</span><span class="sxs-lookup"><span data-stu-id="38f61-105">This task recording shows how to set up the default counting work priority, enable a mobile device menu item to process both picking and counting operations, enable a counting threshold trigger when a location becomes empty, and enable a cycle counting plan for a specific item in a specific warehouse.</span></span> <span data-ttu-id="38f61-106">Normalmente, estas tareas las realiza el administrador de almacén.</span><span class="sxs-lookup"><span data-stu-id="38f61-106">Typically, these tasks are performed by a warehouse manager.</span></span> <span data-ttu-id="38f61-107">Puede explorar este procedimiento en los datos de la empresa de demostración USMF o utilizar sus propios datos.</span><span class="sxs-lookup"><span data-stu-id="38f61-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
 

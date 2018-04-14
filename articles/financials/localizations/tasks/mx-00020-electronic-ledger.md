@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 632b04848cdb6d71e7e7dbd6c6bc710d0577950a
-ms.openlocfilehash: e7b9cf1ff7fbc81a7fd55b640d2e1dc45a096e87
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3804e79910ab11e22464daee4e268ba540f559bd
 ms.contentlocale: es-es
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="produce-mexican-electronic-ledger-accounting-report-version-11"></a><span data-ttu-id="defc9-103">Producir el informe electrónico de contabilidad de libro mayor del producto mexicano versión 1.1</span><span class="sxs-lookup"><span data-stu-id="defc9-103">Produce Mexican electronic ledger accounting report version 1.1</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="defc9-104">Esta tarea le muestra todos los pasos necesarios para configurar la generación de archivos XML electrónicos de cuenta contable mediante la herramienta de informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="defc9-104">This task walks through all necessary steps to configure the generation of electronic ledger accounting XML files by using the Electronic Reporting tool.</span></span> <span data-ttu-id="defc9-105">Puede importar desde el centro de recursos de AX el modelo y los formatos de archivos XML para generar los extractos.</span><span class="sxs-lookup"><span data-stu-id="defc9-105">You can import from the AX resource center the model and formats of XML files to generate the statements.</span></span> 
 

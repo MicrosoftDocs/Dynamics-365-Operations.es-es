@@ -18,16 +18,16 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 1ac73b50c6051ba7d3b96ae49cb7e33cf436ba9e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5ab58a7e977b5a23825c60a53c8064c831bae512
 ms.contentlocale: es-es
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="store-order-fulfillment"></a><span data-ttu-id="c74cf-103">Cumplimiento de pedido de almacén</span><span class="sxs-lookup"><span data-stu-id="c74cf-103">Store order fulfillment</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="c74cf-104">Muchos minoristas quisieran optimizar el cumplimiento de pedidos habilitando almacenes para atender pedidos.</span><span class="sxs-lookup"><span data-stu-id="c74cf-104">Many retailers would like to optimize order fulfillment by enabling stores to fill orders.</span></span> <span data-ttu-id="c74cf-105">El cumplimiento de pedidos a nivel del almacén puede facilitar las escenarios de sobreabastecimiento para un almacén específico, o puede ser necesario desde un punto de vista logístico en caso de que tenga un almacén de capacidad adicional o se encuentre dentro de una distancia más cercana de envío al cliente.</span><span class="sxs-lookup"><span data-stu-id="c74cf-105">Order fulfillment at the store level can help to ease overstock scenarios for a specific store, or may be needed from a logistical standpoint in cases where a store has extra capacity or is located within closer shipping distance to the customer.</span></span> <span data-ttu-id="c74cf-106">Para dirigir esta necesidad, una operación unificada de cumplimiento de pedido está disponible en el punto de venta.</span><span class="sxs-lookup"><span data-stu-id="c74cf-106">To address this need, a unified order fulfillment operation is available at the point of sale.</span></span>
 

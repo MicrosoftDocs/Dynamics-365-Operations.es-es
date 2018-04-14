@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: aa5c7f6758c312fd6e7dfe4e0ba1528b8d564d7a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 103d925a301e62c52faacd7bbaf100d27901728d
 ms.contentlocale: es-es
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-dimension-based-configurations"></a><span data-ttu-id="0953d-103">Crear configuraciones basadas en dimensiones</span><span class="sxs-lookup"><span data-stu-id="0953d-103">Create dimension-based configurations</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0953d-104">Este procedimiento muestra cómo definir una configuración para un producto basado en dimensiones.</span><span class="sxs-lookup"><span data-stu-id="0953d-104">This procedure shows how to define a configuration for a dimension-based product.</span></span> <span data-ttu-id="0953d-105">Este es el último procedimiento de la serie que explica cómo crear combinaciones para la configuración basada en dimensiones.</span><span class="sxs-lookup"><span data-stu-id="0953d-105">This is the last procedure in the series that explains how to build combinations for dimension-based configuration.</span></span> <span data-ttu-id="0953d-106">La ejecución de este procedimiento depende de los datos creados en los siete registros anteriores.</span><span class="sxs-lookup"><span data-stu-id="0953d-106">The execution of this procedure is dependent on the data created in the previous seven recordings.</span></span> <span data-ttu-id="0953d-107">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="0953d-107">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 83945932d56abf6bf44476e5647f8ae7abdc3602
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3ee04497653b21600cd42fa9c90e7876e613acee
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a><span data-ttu-id="f4aa5-103">Aprobar proveedores para categorías de compras específicas</span><span class="sxs-lookup"><span data-stu-id="f4aa5-103">Approve vendors for specific procurement categories</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f4aa5-104">Cuando se crea una solicitud de compra, puede haber un requisito para seleccionar un proveedor aprobado o preferido, en función de cómo se configuran las directivas de compras.</span><span class="sxs-lookup"><span data-stu-id="f4aa5-104">When a purchase requisition is created, there may be a requirement to select an approved or preferred vendor, depending on how the purchasing policies are set up.</span></span> <span data-ttu-id="f4aa5-105">Este procedimiento le muestra cómo especificar que un proveedor está aprobado o preferido para una categoría de compras específica.</span><span class="sxs-lookup"><span data-stu-id="f4aa5-105">This procedure shows you how to specify that a vendor is approved or preferred for a specific procurement category.</span></span> <span data-ttu-id="f4aa5-106">Esta tarea la lleva a cabo normalmente un profesional de compras.</span><span class="sxs-lookup"><span data-stu-id="f4aa5-106">This task would usually be carried out by a procurement professional.</span></span> <span data-ttu-id="f4aa5-107">Puede utilizar este procedimiento en la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="f4aa5-107">You can use this procedure in demo data company USMF.</span></span>
 

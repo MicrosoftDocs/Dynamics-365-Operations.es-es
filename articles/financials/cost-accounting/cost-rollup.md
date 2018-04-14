@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: bce608594e2eb0e7769e7dfa2e254e29385000b6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 90a947d4564c8ad97b415b556986c3f815674aa4
 ms.contentlocale: es-es
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a><span data-ttu-id="dacbb-103">Directiva de acumulación de costes y cálculo de costes generales</span><span class="sxs-lookup"><span data-stu-id="dacbb-103">Cost rollup policy and overhead calculation</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="dacbb-104">La contabilidad de costes permite obtener detalles sobre cómo en el flujo de costes está relacionado con los productos y los servicios que se entregan en una organización.</span><span class="sxs-lookup"><span data-stu-id="dacbb-104">Cost accounting lets you gain insight into how the cost flow relates to the products and services that are delivered within an organization.</span></span> <span data-ttu-id="dacbb-105">Para ver la transparencia de los costes, es esencial lograr una asignación de costes entre los objetos de coste basada en una base de asignación adecuada.</span><span class="sxs-lookup"><span data-stu-id="dacbb-105">To see the cost transparency, it's crucial to achieve cost allocation between cost objects based on an appropriate allocation basis.</span></span> <span data-ttu-id="dacbb-106">De forma predeterminada, la asignación de costes se consigue para el elemento de costes principal, lo que se desea en algunos casos, pero tiene ciertas implicaciones que deben considerarse.</span><span class="sxs-lookup"><span data-stu-id="dacbb-106">By default, the cost allocation is achieved for the primary cost element, which is desired in some situations, but it has a few implications that should be considered.</span></span>
 

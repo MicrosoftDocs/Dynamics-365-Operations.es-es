@@ -19,16 +19,16 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 9a5e06d01449492818decff23c45ba5c808a102d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 861230dd08de570c451c8495bad91f9a4aef3691
 ms.contentlocale: es-es
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="intercompany-expenses"></a><span data-ttu-id="f449c-104">Gastos de empresas vinculadas</span><span class="sxs-lookup"><span data-stu-id="f449c-104">Intercompany expenses</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f449c-105">Un trabajador que sea empleado en una entidad jurídica de una organización podría realizar trabajos para otra entidad jurídica de la misma organización.</span><span class="sxs-lookup"><span data-stu-id="f449c-105">A worker who is employed by one legal entity in an organization might perform work for another legal entity in the same organization.</span></span> <span data-ttu-id="f449c-106">En esta situación, puede usar la característica de gastos de empresas vinculadas para asignar los gastos del trabajador a la entidad jurídica para la que se realizó el trabajo.</span><span class="sxs-lookup"><span data-stu-id="f449c-106">In this situation, you can use the intercompany expense feature to assign the worker’s expenses to the legal entity for which the work was performed.</span></span> <span data-ttu-id="f449c-107">La entidad jurídica que emplea al trabajador se denomina entidad jurídica que presta el trabajador.</span><span class="sxs-lookup"><span data-stu-id="f449c-107">The legal entity that employs the worker is called the loaning legal entity.</span></span> <span data-ttu-id="f449c-108">La entidad jurídica para la que el trabajador genera gastos se llama la entidad jurídica prestataria.</span><span class="sxs-lookup"><span data-stu-id="f449c-108">The legal entity for which the worker incurs expenses is called the borrowing legal entity.</span></span> 
 

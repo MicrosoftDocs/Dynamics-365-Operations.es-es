@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 13b7fe7f7bfe24bd275428e931993aa46ecb9945
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 326e535c9c01812a399da932c414a73ad0ee3bc6
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a><span data-ttu-id="d9f30-103">Asignar un modelo de datos para seleccionar orígenes de datos para informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="d9f30-103">Map a data model to selected data sources for electronic reporting (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d9f30-104">En los pasos siguientes se explica cómo un usuario con rol de Administrador del Sistema o Desarrollador de Informes Electrónicos puede asignar un modelo de datos de Informes Electrónicos (ER) a los orígenes de datos seleccionados de Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="d9f30-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can map an Electronic reporting (ER) data model to selected Dynamics 365 for Finance and Operations data sources.</span></span> <span data-ttu-id="d9f30-105">Esta asignación de modelo se usará posteriormente como origen de datos en una configuración de formato que se usará para gestionar documentos de pago electrónico.</span><span class="sxs-lookup"><span data-stu-id="d9f30-105">This model mapping will later be used as a data source in a format configuration that will be used to manage electronic payment documents.</span></span> <span data-ttu-id="d9f30-106">En este ejemplo, asignará un modelo de datos de la empresa de demostración Litware, Inc. a los orígenes de datos.</span><span class="sxs-lookup"><span data-stu-id="d9f30-106">In this example, you map a data model for sample company, Litware, Inc. to data sources.</span></span> <span data-ttu-id="d9f30-107">Para completar estos pasos, primero debe completar los pasos del procedimiento "Selección de orígenes de datos para asignar modelos".</span><span class="sxs-lookup"><span data-stu-id="d9f30-107">To complete these steps, you must first complete the steps in the “Select data sources for model mapping” procedure.</span></span>
 

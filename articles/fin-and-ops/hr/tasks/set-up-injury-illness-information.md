@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 15d4fce4e07030826a7c131ae323a4067471b38e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: afb045ba29ef720e6b1ec03511dc812be4e4c2de
 ms.contentlocale: es-es
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-injury-and-illness-information"></a><span data-ttu-id="aef90-103">Configurar información sobre lesiones y enfermedades</span><span class="sxs-lookup"><span data-stu-id="aef90-103">Set up injury and illness information</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="aef90-104">Los empleadores deben saber cuándo sus empleados sufren lesiones o se enferman a causa de los riesgos implícitos en el lugar de trabajo.</span><span class="sxs-lookup"><span data-stu-id="aef90-104">Employers need to know when their employees suffer injuries or illness resulting from hazards in the workplace.</span></span> <span data-ttu-id="aef90-105">Puede usar la página de lesiones y enfermedades para configurar la información que facilita la notificación de lesiones o enfermedades en el lugar de trabajo.</span><span class="sxs-lookup"><span data-stu-id="aef90-105">You can use the injury and illness page to set up information that facilitates reporting work-place injuries or illnesses.</span></span> <span data-ttu-id="aef90-106">Puede configurar tipos de lesiones y enfermedades, incluidos los tipos de tratamientos, costes y resultados.</span><span class="sxs-lookup"><span data-stu-id="aef90-106">You can set up types of injuries and illnesses, including types of treatments, costs, and outcomes.</span></span> <span data-ttu-id="aef90-107">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="aef90-107">The demo data company used to create this procedure is USMF.</span></span>
 

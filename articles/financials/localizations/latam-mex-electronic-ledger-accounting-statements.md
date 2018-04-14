@@ -19,17 +19,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 46e2f11e13bce74f36363c60d749196cbf2ee6b5
-ms.openlocfilehash: 67d300bf9dcf08864b652e0e92d45b0c0dcc0ca6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 36dd536628c10ab41921929c27f4921fedfa5312
 ms.contentlocale: es-es
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="electronic-ledger-accounting-statements"></a><span data-ttu-id="4dfc1-103">Extractos electrónicos de cuenta contable</span><span class="sxs-lookup"><span data-stu-id="4dfc1-103">Electronic ledger accounting statements</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4dfc1-104">Este artículo explica cómo configurar y generar la versión 1.1 de los archivos XML de contabilidad general que todas las empresas de México debe presentar a las autoridades fiscales mexicanas (SAT) de manera mensual.</span><span class="sxs-lookup"><span data-stu-id="4dfc1-104">This article explains how to set up and generate the general ledger XML files version 1.1 that all companies in Mexico are required to report to the Mexican tax authorities (SAT) on a monthly basis.</span></span>
 
@@ -57,26 +56,26 @@ ms.lasthandoff: 01/03/2018
 8.  <span data-ttu-id="4dfc1-127">Asignación de método de pago SAT.</span><span class="sxs-lookup"><span data-stu-id="4dfc1-127">Assign SAT method of payments.</span></span>
 9.  <span data-ttu-id="4dfc1-128">Asigne código de banco SAT en el campo número de ruta.</span><span class="sxs-lookup"><span data-stu-id="4dfc1-128">Assign SAT bank code in routing number field.</span></span>
 
- 
+
 
 ### <a name="chart-of-accounts"></a><span data-ttu-id="4dfc1-129">Plan contable</span><span class="sxs-lookup"><span data-stu-id="4dfc1-129">Chart of accounts</span></span>
 
 <span data-ttu-id="4dfc1-130">Por requisitos del gobierno, el archivo XML Plan contable debe incluir información específica que debe configurar por adelantado para evitar incoherencias cuando se genera y se valida el archivo XML.</span><span class="sxs-lookup"><span data-stu-id="4dfc1-130">Per government requirements, the Chart of account XML file must include specific information that you must configure in advance to prevent inconsistencies when the XML file is generated and validated.</span></span> <span data-ttu-id="4dfc1-131">Establezca los siguientes parámetros para configurar esta información:</span><span class="sxs-lookup"><span data-stu-id="4dfc1-131">Set the following parameters to configure this information:</span></span>
 
--   <span data-ttu-id="4dfc1-132">**Cuenta principal primaria:** la etiqueta **&lt;SubCtaDe&gt;** del archivo XML se usa para especificar la cuenta del nivel anterior.</span><span class="sxs-lookup"><span data-stu-id="4dfc1-132">**Parent main account:** The **&lt;SubCtaDe&gt;** tag in the XML file is used to specify the account of the previous level.</span></span> <span data-ttu-id="4dfc1-133">En este caso, usamos un campo de país o región de **Cuenta principal** en la configuración del plan de cuentas.</span><span class="sxs-lookup"><span data-stu-id="4dfc1-133">In this case, we use a **Parent account** country/region field in the configuration of the chart of accounts.</span></span>
--   <span data-ttu-id="4dfc1-134">**Nivel de cuenta:** la etiqueta **&lt;Nivel&gt;** del archivo XML se usa para especificar el nivel del grupo de cuentas del gobierno.</span><span class="sxs-lookup"><span data-stu-id="4dfc1-134">**Account level:** The **&lt;Nivel&gt;** tag in the XML file is used to specify the level of the government account group.</span></span> <span data-ttu-id="4dfc1-135">Localizamos la funcionalidad del campo **Grupo de cuentas de consolidación** en **Cuentas de consolidación adicionales** para especificar el nivel del grupo de cuentas del gobierno.</span><span class="sxs-lookup"><span data-stu-id="4dfc1-135">We localized the functionality of the **Consolidation account group** field under **Additional consolidation accounts** to specify the level of the government account group.</span></span>
--   <span data-ttu-id="4dfc1-136">**Indicador de débito o crédito:** la etiqueta **&lt;Natur&gt;** del archivo XML se usa para especificar el indicador de débito y crédito de la cuenta principal.</span><span class="sxs-lookup"><span data-stu-id="4dfc1-136">**Debit and Credit indicator:** The **&lt;Natur&gt;** tag in the XML file is used to specify the debit and credit indicator of the main account.</span></span> <span data-ttu-id="4dfc1-137">Se han definido las siguientes reglas:</span><span class="sxs-lookup"><span data-stu-id="4dfc1-137">The following rules have been defined:</span></span>
-    -   <span data-ttu-id="4dfc1-138">**Débito D**</span><span class="sxs-lookup"><span data-stu-id="4dfc1-138">**D-Debit**</span></span>
-        -   <span data-ttu-id="4dfc1-139">Tipo de cuenta principal = Coste, Activo</span><span class="sxs-lookup"><span data-stu-id="4dfc1-139">Main Account type = Cost, Asset</span></span>
-        -   <span data-ttu-id="4dfc1-140">Tipo de cuenta principal: Si Pérdidas/ganancias y Propuesta Debe/Haber = Débito</span><span class="sxs-lookup"><span data-stu-id="4dfc1-140">Main Account type:  If Profit & Loss and DB/CR proposal = Debit</span></span>
-        -   <span data-ttu-id="4dfc1-141">Tipo de cuenta principal: Si Saldo y Propuesta Debe/Haber = Débito</span><span class="sxs-lookup"><span data-stu-id="4dfc1-141">Main Account type: If Balance and DB/CR proposal = Debit</span></span>
-        -   <span data-ttu-id="4dfc1-142">Tipo de cuenta principal: Si Pérdidas/ganancias y Propuesta Debe/Haber = En blanco</span><span class="sxs-lookup"><span data-stu-id="4dfc1-142">Main Account type: If Profit & Loss and DB/CR proposal = Blank</span></span>
-        -   <span data-ttu-id="4dfc1-143">Tipo de cuenta principal: Si Saldo y Propuesta Debe/Haber = En blanco</span><span class="sxs-lookup"><span data-stu-id="4dfc1-143">Main Account type: If Balance and DB/CR proposal = Blank</span></span>
-    -    <span data-ttu-id="4dfc1-144">**Crédito A**</span><span class="sxs-lookup"><span data-stu-id="4dfc1-144">**A-Credit**</span></span>
-        -   <span data-ttu-id="4dfc1-145">Tipo de cuenta: Ingresos, Pasivo</span><span class="sxs-lookup"><span data-stu-id="4dfc1-145">Account type : Revenue, Liability</span></span>
-        -   <span data-ttu-id="4dfc1-146">Tipo de cuenta AX: Si Pérdidas/ganancias y Propuesta Debe/Haber = Crédito</span><span class="sxs-lookup"><span data-stu-id="4dfc1-146">Account type AX: If Profit & Loss and DB/CR proposal = Credit</span></span>
-        -   <span data-ttu-id="4dfc1-147">Tipo de cuenta AX: Si Saldo y Propuesta Debe/Haber = Crédito</span><span class="sxs-lookup"><span data-stu-id="4dfc1-147">Account type AX: If Balance and DB/CR proposal = Credit</span></span>
--   <span data-ttu-id="4dfc1-148">**Importe de totales en todos los niveles:** Configure el valor de **Totales** en el plan de cuentas para habilitar la generación de un archivo XML Saldo de comprobación mensual que incluye los importes de los totales relacionados en todos los niveles de la jerarquía.</span><span class="sxs-lookup"><span data-stu-id="4dfc1-148">**Totals amount in all levels:** Configure the **Totals** value in the chart of accounts to enable generation of a Monthly Trial Balance XML file that includes the related totals amounts in all levels of the hierarchy.</span></span>
+- <span data-ttu-id="4dfc1-132">**Cuenta principal primaria:** la etiqueta **&lt;SubCtaDe&gt;** del archivo XML se usa para especificar la cuenta del nivel anterior.</span><span class="sxs-lookup"><span data-stu-id="4dfc1-132">**Parent main account:** The **&lt;SubCtaDe&gt;** tag in the XML file is used to specify the account of the previous level.</span></span> <span data-ttu-id="4dfc1-133">En este caso, usamos un campo de país o región de **Cuenta principal** en la configuración del plan de cuentas.</span><span class="sxs-lookup"><span data-stu-id="4dfc1-133">In this case, we use a **Parent account** country/region field in the configuration of the chart of accounts.</span></span>
+- <span data-ttu-id="4dfc1-134">**Nivel de cuenta:** la etiqueta **&lt;Nivel&gt;** del archivo XML se usa para especificar el nivel del grupo de cuentas del gobierno.</span><span class="sxs-lookup"><span data-stu-id="4dfc1-134">**Account level:** The **&lt;Nivel&gt;** tag in the XML file is used to specify the level of the government account group.</span></span> <span data-ttu-id="4dfc1-135">Localizamos la funcionalidad del campo **Grupo de cuentas de consolidación** en **Cuentas de consolidación adicionales** para especificar el nivel del grupo de cuentas del gobierno.</span><span class="sxs-lookup"><span data-stu-id="4dfc1-135">We localized the functionality of the **Consolidation account group** field under **Additional consolidation accounts** to specify the level of the government account group.</span></span>
+- <span data-ttu-id="4dfc1-136">**Indicador de débito o crédito:** la etiqueta **&lt;Natur&gt;** del archivo XML se usa para especificar el indicador de débito y crédito de la cuenta principal.</span><span class="sxs-lookup"><span data-stu-id="4dfc1-136">**Debit and Credit indicator:** The **&lt;Natur&gt;** tag in the XML file is used to specify the debit and credit indicator of the main account.</span></span> <span data-ttu-id="4dfc1-137">Se han definido las siguientes reglas:</span><span class="sxs-lookup"><span data-stu-id="4dfc1-137">The following rules have been defined:</span></span>
+  - <span data-ttu-id="4dfc1-138">**Débito D**</span><span class="sxs-lookup"><span data-stu-id="4dfc1-138">**D-Debit**</span></span>
+    -   <span data-ttu-id="4dfc1-139">Tipo de cuenta principal = Coste, Activo</span><span class="sxs-lookup"><span data-stu-id="4dfc1-139">Main Account type = Cost, Asset</span></span>
+    -   <span data-ttu-id="4dfc1-140">Tipo de cuenta principal: Si Pérdidas/ganancias y Propuesta Debe/Haber = Débito</span><span class="sxs-lookup"><span data-stu-id="4dfc1-140">Main Account type:  If Profit & Loss and DB/CR proposal = Debit</span></span>
+    -   <span data-ttu-id="4dfc1-141">Tipo de cuenta principal: Si Saldo y Propuesta Debe/Haber = Débito</span><span class="sxs-lookup"><span data-stu-id="4dfc1-141">Main Account type: If Balance and DB/CR proposal = Debit</span></span>
+    -   <span data-ttu-id="4dfc1-142">Tipo de cuenta principal: Si Pérdidas/ganancias y Propuesta Debe/Haber = En blanco</span><span class="sxs-lookup"><span data-stu-id="4dfc1-142">Main Account type: If Profit & Loss and DB/CR proposal = Blank</span></span>
+    -   <span data-ttu-id="4dfc1-143">Tipo de cuenta principal: Si Saldo y Propuesta Debe/Haber = En blanco</span><span class="sxs-lookup"><span data-stu-id="4dfc1-143">Main Account type: If Balance and DB/CR proposal = Blank</span></span>
+  - <span data-ttu-id="4dfc1-144">**Crédito A**</span><span class="sxs-lookup"><span data-stu-id="4dfc1-144">**A-Credit**</span></span>
+    -   <span data-ttu-id="4dfc1-145">Tipo de cuenta: Ingresos, Pasivo</span><span class="sxs-lookup"><span data-stu-id="4dfc1-145">Account type : Revenue, Liability</span></span>
+    -   <span data-ttu-id="4dfc1-146">Tipo de cuenta AX: Si Pérdidas/ganancias y Propuesta Debe/Haber = Crédito</span><span class="sxs-lookup"><span data-stu-id="4dfc1-146">Account type AX: If Profit & Loss and DB/CR proposal = Credit</span></span>
+    -   <span data-ttu-id="4dfc1-147">Tipo de cuenta AX: Si Saldo y Propuesta Debe/Haber = Crédito</span><span class="sxs-lookup"><span data-stu-id="4dfc1-147">Account type AX: If Balance and DB/CR proposal = Credit</span></span>
+- <span data-ttu-id="4dfc1-148">**Importe de totales en todos los niveles:** Configure el valor de **Totales** en el plan de cuentas para habilitar la generación de un archivo XML Saldo de comprobación mensual que incluye los importes de los totales relacionados en todos los niveles de la jerarquía.</span><span class="sxs-lookup"><span data-stu-id="4dfc1-148">**Totals amount in all levels:** Configure the **Totals** value in the chart of accounts to enable generation of a Monthly Trial Balance XML file that includes the related totals amounts in all levels of the hierarchy.</span></span>
 
 ### <a name="sat-account-group"></a><span data-ttu-id="4dfc1-149">Grupo de cuentas SAT</span><span class="sxs-lookup"><span data-stu-id="4dfc1-149">SAT account group</span></span>
 

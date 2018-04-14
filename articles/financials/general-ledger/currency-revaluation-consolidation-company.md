@@ -19,19 +19,16 @@ ms.author: hminzner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 06490f14ed01c3061b20a0e6977746e9fd2a6ffa
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2330939ddd7ccf4555cf1eff1e264c51f779c4eb
 ms.contentlocale: es-es
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a><span data-ttu-id="a623a-103">Revalorización de divisa en una empresa de consolidación</span><span class="sxs-lookup"><span data-stu-id="a623a-103">Currency revaluation in a consolidation company</span></span>
 
-[!include[banner](../includes/banner.md)]
-
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a623a-104">Cuando se consolidan datos desde una divisa de contabilidad a otra, debe seguir ejecutando la revalorización de divisa si hay un cambio en tipos de cambio, para revalorizar los saldos de cuenta correctamente.</span><span class="sxs-lookup"><span data-stu-id="a623a-104">When you consolidate data from one accounting currency to another, you must still run currency revaluation if there is a change in exchange rates, so that your account balances  are correctly revalued.</span></span> <span data-ttu-id="a623a-105">Al consolidar por primera vez los datos, use la pestaña **Traducción de divisas** para seleccionar los tipos de cambio iniciales para su traducción durante el proceso de consolidación.</span><span class="sxs-lookup"><span data-stu-id="a623a-105">When you originally consolidate the data, use the **Currency translation** tab to select the initial exchange rates to for translation during the consolidation process.</span></span> <span data-ttu-id="a623a-106">Después de que se introduzcan un nuevo tipo de cambio (por ejemplo, el mes próximo), debe revalorizar los saldos de cuenta.</span><span class="sxs-lookup"><span data-stu-id="a623a-106">After a new exchange rate is entered (for example, in the next month), you must revalue the account balances.</span></span> <span data-ttu-id="a623a-107">Después se actualizarán los beneficios no realizados o las pérdidas, en función de la fecha y los nuevos tipo de cambio.</span><span class="sxs-lookup"><span data-stu-id="a623a-107">The unrealized gains or losses are then updated accordingly, based on the new exchange rate and date.</span></span> <span data-ttu-id="a623a-108">En el ejemplo siguiente se muestran los asientos contables que se crean durante el proceso.</span><span class="sxs-lookup"><span data-stu-id="a623a-108">The following example illustrates the accounting entries that are created during the process.</span></span>
 
@@ -52,6 +49,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="a623a-126">11/10/2015</span><span class="sxs-lookup"><span data-stu-id="a623a-126">10/11/2015</span></span> | <span data-ttu-id="a623a-127">130100: clientes</span><span class="sxs-lookup"><span data-stu-id="a623a-127">130100 – Accounts Receivable</span></span> | <span data-ttu-id="a623a-128">USD</span><span class="sxs-lookup"><span data-stu-id="a623a-128">USD</span></span>      | <span data-ttu-id="a623a-129">-500</span><span class="sxs-lookup"><span data-stu-id="a623a-129">-500</span></span>   |
 
 ## <a name="exchange-rates"></a><span data-ttu-id="a623a-130">Tipos de cambio</span><span class="sxs-lookup"><span data-stu-id="a623a-130">Exchange rates</span></span>
+
 | <span data-ttu-id="a623a-131">Desde divisa</span><span class="sxs-lookup"><span data-stu-id="a623a-131">From currency</span></span> | <span data-ttu-id="a623a-132">A divisa</span><span class="sxs-lookup"><span data-stu-id="a623a-132">To currency</span></span> | <span data-ttu-id="a623a-133">Fecha inicial</span><span class="sxs-lookup"><span data-stu-id="a623a-133">Start date</span></span> | <span data-ttu-id="a623a-134">Tipo de cambio</span><span class="sxs-lookup"><span data-stu-id="a623a-134">Exchange rate</span></span> |
 |---------------|-------------|------------|---------------|
 | <span data-ttu-id="a623a-135">EUR</span><span class="sxs-lookup"><span data-stu-id="a623a-135">EUR</span></span>           | <span data-ttu-id="a623a-136">USD</span><span class="sxs-lookup"><span data-stu-id="a623a-136">USD</span></span>         | <span data-ttu-id="a623a-137">1/10/2015</span><span class="sxs-lookup"><span data-stu-id="a623a-137">10/1/2015</span></span>  | <span data-ttu-id="a623a-138">200</span><span class="sxs-lookup"><span data-stu-id="a623a-138">200</span></span>           |

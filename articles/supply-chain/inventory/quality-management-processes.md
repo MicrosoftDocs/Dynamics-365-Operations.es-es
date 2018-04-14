@@ -19,17 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 180a72b6876036d68f4a3abf2e8d523aaba9acf7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 04e022f7f8e33e49101a058cf62fe0ed8715efdf
 ms.contentlocale: es-es
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="quality-management-processes"></a><span data-ttu-id="a6f0d-104">Procesos de gestión de calidad</span><span class="sxs-lookup"><span data-stu-id="a6f0d-104">Quality management processes</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a6f0d-105">Este artículo proporciona información acerca del proceso de gestión de calidad para los productos no conformes.</span><span class="sxs-lookup"><span data-stu-id="a6f0d-105">This article provides information about the quality management process for nonconforming products.</span></span> <span data-ttu-id="a6f0d-106">Describe cómo puede usar la funcionalidad de control de calidad, cómo definir y mantener disconformidades y cómo administrar las correcciones.</span><span class="sxs-lookup"><span data-stu-id="a6f0d-106">It describes how you can use quality control functionality, how to define and maintain nonconformances, and how to handle corrections.</span></span>
 

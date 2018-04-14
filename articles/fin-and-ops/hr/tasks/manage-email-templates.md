@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1eeaf1675b6653ab2c8c04d05ec1bff3cd0bb18d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 67817a3db1aa7d90fd64509b707f075b22010dcb
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="manage-email-templates"></a><span data-ttu-id="8b41e-103">Gestionar plantillas de correo electrónico</span><span class="sxs-lookup"><span data-stu-id="8b41e-103">Manage email templates</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8b41e-104">Puede transferir información de la base de datos de su organización a los marcadores en un documento nuevo y usarla en plantillas que le ayuden a comunicarse eficazmente con los candidatos.</span><span class="sxs-lookup"><span data-stu-id="8b41e-104">You can transfer information from your organization’s database to the bookmarks in a new document and use it in templates that help you communicate efficiently with applicants and candidates.</span></span> <span data-ttu-id="8b41e-105">Para ello, cree una plantilla con texto estándar y algunos marcadores en los que se vayan a insertar datos del sistema.</span><span class="sxs-lookup"><span data-stu-id="8b41e-105">To do this, you create a template that contains standard text and some bookmarks where the system data should be inserted.</span></span> <span data-ttu-id="8b41e-106">Por ejemplo, puede insertar la dirección y la información de contacto para un candidato en un documento de Microsoft Word que pueda usar para comunicarse con él o ella.</span><span class="sxs-lookup"><span data-stu-id="8b41e-106">For example, you can insert address and contact information for an applicant into a Microsoft Word document that you can use when communicating with that applicant.</span></span> <span data-ttu-id="8b41e-107">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="8b41e-107">The demo data company used to create this procedure is USMF.</span></span>
 

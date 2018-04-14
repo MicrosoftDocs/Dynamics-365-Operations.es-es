@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 59fa33dbbf2b5e0d5fd2f7975c1ace71cdd383bd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e65e3d335c8c05b360e96847b29c7c123f5dfa31
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-value-stream"></a><span data-ttu-id="b4530-103">Crear un flujo de valor</span><span class="sxs-lookup"><span data-stu-id="b4530-103">Create a value stream</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b4530-104">Los flujos de valor son unidades operativas, que agrupan uno o varios flujos de producción.</span><span class="sxs-lookup"><span data-stu-id="b4530-104">Value streams are operating units, that group one or multiple production flows.</span></span> <span data-ttu-id="b4530-105">Para definir un flujo de producción, debe definir primero un flujo de valor.</span><span class="sxs-lookup"><span data-stu-id="b4530-105">To define a production flow, you first must define a value stream.</span></span>
 

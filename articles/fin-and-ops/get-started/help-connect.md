@@ -19,17 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c0942b66859da3659be49b19986bfd146ac43130
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2deb2aea7dce889a655fbd5dec5ec928e0f10bb8
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="connect-the-help-system"></a><span data-ttu-id="46e26-103">Conexión del sistema de ayuda</span><span class="sxs-lookup"><span data-stu-id="46e26-103">Connect the Help system</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="46e26-104">En este tema se describen los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="46e26-104">This topic describes the components of the Help system for Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="46e26-105">Ofrece una visión general de cómo conectar estos componentes y un resumen de cómo crear una ayuda personalizada.</span><span class="sxs-lookup"><span data-stu-id="46e26-105">It provides an overview of how to connect these components and a summary of how to create custom help.</span></span> 
 
@@ -42,7 +41,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="connecting-the-help-system"></a><span data-ttu-id="46e26-111">Conexión con el sistema de Ayuda</span><span class="sxs-lookup"><span data-stu-id="46e26-111">Connecting the Help system</span></span>
 > [!NOTE]
 > <span data-ttu-id="46e26-112">La pestaña **Guías de tareas** no está actualmente disponible en Microsoft Dynamics 365 for Talent y Microsoft Dynamics 365 for Retail,</span><span class="sxs-lookup"><span data-stu-id="46e26-112">The **Task guides** tab is currently not available in Microsoft Dynamics 365 for Talent and Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="46e26-113">Estamos trabajando actualmente para permitir esta funcionalidad en una versión futura.</span><span class="sxs-lookup"><span data-stu-id="46e26-113">We are currently working to enable this functionality in a future release.</span></span> <span data-ttu-id="46e26-114">Las Guías de tareas para la Introducción a Talent seguirán disponibles para cubrir las funcionalidades básicas.</span><span class="sxs-lookup"><span data-stu-id="46e26-114">The Task guides in the Getting Started experience in Talent remain available to cover basic functionality.</span></span> <span data-ttu-id="46e26-115">La ayuda de procedimientos también está disponible en el sitio de docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) para Retail y Talent.</span><span class="sxs-lookup"><span data-stu-id="46e26-115">Procedural help is also available on the docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) for both Retail and Talent.</span></span>
- 
+
 
 <span data-ttu-id="46e26-116">Con el formulario **Parámetros del sistema**, los administradores del sistema conectan las piezas del sistema de Ayuda para una implementación.</span><span class="sxs-lookup"><span data-stu-id="46e26-116">Using the **System Parameters** page, system administrators connect the pieces of the Help system for an implementation.</span></span> <span data-ttu-id="46e26-117">[![Formulario de parámetros del sistema con configuración de la Ayuda](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) En la página **Parámetros del sistema**, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="46e26-117">[![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) On the **System parameters** page, follow these steps:</span></span>
 

@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 88ee2f9b825027e2e2f6986dfd59382fefb9819d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c08e86d9dd77798fa09bdcfc3c67944a54535df5
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-parameters-for-an-electronic-invoice-mexico"></a><span data-ttu-id="efbc2-103">Configurar parámetros para una factura electrónica (México)</span><span class="sxs-lookup"><span data-stu-id="efbc2-103">Set parameters for an electronic invoice (Mexico)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="efbc2-104">Este procedimiento muestra cómo configurar una factura electrónica y la cuenta de PAC para obtener la aprobación y el sello digital.</span><span class="sxs-lookup"><span data-stu-id="efbc2-104">This procedure walks you through setting up an electronic invoice and the PAC account to get the approval and the digital stamp.</span></span> <span data-ttu-id="efbc2-105">Este procedimiento solo se puede completar con entidades jurídicas con dirección principal en México.</span><span class="sxs-lookup"><span data-stu-id="efbc2-105">This procedure can only be completed for a legal entity with a primary address in Mexico.</span></span> <span data-ttu-id="efbc2-106">Este procedimiento se creó con los datos de demostración de la empresa MXMF.</span><span class="sxs-lookup"><span data-stu-id="efbc2-106">This procedure was created using the demo data company MXMF.</span></span> <span data-ttu-id="efbc2-107">Los certificados que se utilizan para cifrar el mensaje XML deben haberse instalado anteriormente, y el archivo XSD de esquema se debe haber copiado en la aplicación también antes de comenzar este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="efbc2-107">The certificates used to encrypt the XML message must be previously installed and the schema XSD file must be copied in the application as well before to start this procedure.</span></span>
 

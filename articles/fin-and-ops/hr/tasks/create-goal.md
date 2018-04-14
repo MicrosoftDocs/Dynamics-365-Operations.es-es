@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 81707760e3ee3bc212706fb0857ed087455b0a9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8a01506d94a12642cae1c8331f473afb76bcf2b6
 ms.contentlocale: es-es
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-goal"></a><span data-ttu-id="c0dd3-103">Crear un objetivo</span><span class="sxs-lookup"><span data-stu-id="c0dd3-103">Create a goal</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c0dd3-104">Puede crear objetivos, agregar actividades a los objetivos, realizar el seguimiento de medidas y vincular los objetivos a una revisión.</span><span class="sxs-lookup"><span data-stu-id="c0dd3-104">You can create goals, add activities to goals, track measurements, and link the goals to a review.</span></span> <span data-ttu-id="c0dd3-105">Este procedimiento se creó con los datos de demostración de la empresa USMF.</span><span class="sxs-lookup"><span data-stu-id="c0dd3-105">This procedure was created using the USMF demo data company.</span></span> <span data-ttu-id="c0dd3-106">Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="c0dd3-106">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

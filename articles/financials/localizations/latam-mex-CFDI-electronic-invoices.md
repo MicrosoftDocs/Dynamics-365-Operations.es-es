@@ -19,16 +19,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 66a012b0d5590e4ed891ab26effc22f08cf78928
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 13121e153c62265e8bc167dc2327562f31d185bc
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="electronic-invoices-cfdi"></a><span data-ttu-id="8e67e-104">Facturas electrónicas (CFDI)</span><span class="sxs-lookup"><span data-stu-id="8e67e-104">Electronic invoices (CFDI)</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8e67e-105">La factura electrónica en México requiere el formato Comprobantes fiscales digitales por internet (CFDI).</span><span class="sxs-lookup"><span data-stu-id="8e67e-105">Electronic billing in Mexico requires the Comprobantes fiscales digitales por internet (CFDI) format.</span></span> 
 

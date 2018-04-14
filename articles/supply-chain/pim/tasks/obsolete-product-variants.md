@@ -16,15 +16,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d445ea2f2362f146a1e3e7bcf747898dc2cc89ba
-ms.openlocfilehash: 3a59f988de5290d1d69d013b762f87d0cce10e39
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 402f387ac58d550037fbae2011b176c09f45185a
 ms.contentlocale: es-es
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="find-obsolete-product-variants"></a><span data-ttu-id="66b5f-103">Buscar variantes de producto obsoletas</span><span class="sxs-lookup"><span data-stu-id="66b5f-103">Find obsolete product variants</span></span> 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="66b5f-104">Este procedimiento muestra cómo encontrar los productos liberados obsoletos o las variantes de producto y cómo asociar un estado de ciclo de vida del producto a los productos obsoletos.</span><span class="sxs-lookup"><span data-stu-id="66b5f-104">This procedure shows how to find obsolete released products or product variants and how to associate a product lifecycle state to the obsolete products.</span></span> <span data-ttu-id="66b5f-105">Requisito previo: Es necesario definir el menos un estado de ciclo de vida del producto que esté inactivo para realizar la planificación antes de que se pueda reproducir esta guía de la tarea.</span><span class="sxs-lookup"><span data-stu-id="66b5f-105">Prerequisite: You need to define at least one product lifecycle state that is inactive for planning before you can play this task guide.</span></span>
 

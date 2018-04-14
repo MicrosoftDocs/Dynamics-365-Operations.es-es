@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3c493ab60952e60e6816ebdc3decb1ebe670806f
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-accounting-terminology"></a><span data-ttu-id="8ad62-103">Terminología de contabilidad de costes</span><span class="sxs-lookup"><span data-stu-id="8ad62-103">Cost accounting terminology</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8ad62-104">Este tema define los términos clave que se utilizan en la Contabilidad de costes.</span><span class="sxs-lookup"><span data-stu-id="8ad62-104">This topic defines the key terms that are used in Cost accounting.</span></span>
 
@@ -150,14 +149,14 @@ ms.lasthandoff: 03/26/2018
 |  + |  <span data-ttu-id="8ad62-241">Adición</span><span class="sxs-lookup"><span data-stu-id="8ad62-241">Addition</span></span> |
 |  <span data-ttu-id="8ad62-242">–</span><span class="sxs-lookup"><span data-stu-id="8ad62-242">–</span></span> |  <span data-ttu-id="8ad62-243">Resta</span><span class="sxs-lookup"><span data-stu-id="8ad62-243">Subtraction</span></span> |
 | *  | <span data-ttu-id="8ad62-244">Multiplicación</span><span class="sxs-lookup"><span data-stu-id="8ad62-244">Multiplication</span></span>  |
-    
+
 <span data-ttu-id="8ad62-245">No se admiten las instrucciones tradicionales SI.</span><span class="sxs-lookup"><span data-stu-id="8ad62-245">Traditional IF statements are not supported.</span></span> <span data-ttu-id="8ad62-246">Sin embargo, puede crear instrucciones y validarlas si son verdaderas.</span><span class="sxs-lookup"><span data-stu-id="8ad62-246">However, you can create statements and validate whether they are true.</span></span>
 
 |  <span data-ttu-id="8ad62-247">**Validación del informe**</span><span class="sxs-lookup"><span data-stu-id="8ad62-247">**Statement  Validation**</span></span> | <span data-ttu-id="8ad62-248">**Resultado**</span><span class="sxs-lookup"><span data-stu-id="8ad62-248">**Result**</span></span>  |
 |---|---|
 |  <span data-ttu-id="8ad62-249">a > b</span><span class="sxs-lookup"><span data-stu-id="8ad62-249">a > b</span></span>| <span data-ttu-id="8ad62-250">VERDADERO</span><span class="sxs-lookup"><span data-stu-id="8ad62-250">True</span></span>  |
 |  <span data-ttu-id="8ad62-251">a > b</span><span class="sxs-lookup"><span data-stu-id="8ad62-251">a > b</span></span> |  <span data-ttu-id="8ad62-252">FALSO</span><span class="sxs-lookup"><span data-stu-id="8ad62-252">False</span></span> |
-    
+
 <span data-ttu-id="8ad62-253">**Costes generales**</span><span class="sxs-lookup"><span data-stu-id="8ad62-253">**Overhead cost**</span></span>
 
 <span data-ttu-id="8ad62-254">Los costes generales hacen referencia a los gastos en curso de operar un negocio.</span><span class="sxs-lookup"><span data-stu-id="8ad62-254">Overhead costs refer to the ongoing expenses of operating a business.</span></span> <span data-ttu-id="8ad62-255">Existen costes que no pueden vincularse directamente a actividades empresariales específicas.</span><span class="sxs-lookup"><span data-stu-id="8ad62-255">They are the costs that can’t be linked directly to specific business activities.</span></span> <span data-ttu-id="8ad62-256">Algunos ejemplos de costes generales son:</span><span class="sxs-lookup"><span data-stu-id="8ad62-256">Here are some examples of overhead costs:</span></span>

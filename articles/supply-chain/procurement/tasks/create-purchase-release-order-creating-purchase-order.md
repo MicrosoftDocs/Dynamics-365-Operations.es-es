@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 194d811da09c746167bd9489ce39ae6a6f810ec0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bc133306fccd747f15e6a0c6eb347d04a80df0fb
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a><span data-ttu-id="4c3d5-103">Creación de un pedido parcial de compra al crear el pedido de compra</span><span class="sxs-lookup"><span data-stu-id="4c3d5-103">Create a purchase release order when creating the purchase order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4c3d5-104">Este procedimiento muestra cómo usar un acuerdo de compra cuando se crea un pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="4c3d5-104">This procedure shows how to use a purchase agreement when you create a purchase order.</span></span> <span data-ttu-id="4c3d5-105">El acuerdo de compra se tiene que aplicar en el momento de crear el pedido de compra, ya que hay condiciones generales que se deben copiar al encabezado del pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="4c3d5-105">The purchase agreement has to be applied when you create the purchase order because there are general terms that should be copied to the purchase order header.</span></span> <span data-ttu-id="4c3d5-106">Esta tarea la realizará normalmente el agente de compras.</span><span class="sxs-lookup"><span data-stu-id="4c3d5-106">Typically this task would be carried out by a purchasing agent.</span></span> <span data-ttu-id="4c3d5-107">Como requisito previo para este procedimiento, debe tener un acuerdo de compra en vigor con un compromiso de cantidad de productos para un proveedor y para artículos.</span><span class="sxs-lookup"><span data-stu-id="4c3d5-107">As a prerequisite for this guide, you must have an effective purchase agreement with a product quantity commitment for a vendor and items.</span></span> <span data-ttu-id="4c3d5-108">El mismo procedimiento puede usarse si tiene un acuerdo de compra con otros tipos de compromisos.</span><span class="sxs-lookup"><span data-stu-id="4c3d5-108">The same procedure can be used if you have a purchase agreement with other types of commitments.</span></span> <span data-ttu-id="4c3d5-109">Puede ejecutar esta guía en la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="4c3d5-109">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="4c3d5-110">Si está usando USMF, puede ejecutar el procedimiento "Creación de un acuerdo de compra" primero para establecer las condiciones previas necesarias para este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="4c3d5-110">If you’re using USMF, you can run the “Create a purchase agreement” guide first to set up the necessary preconditions for this guide.</span></span>
 

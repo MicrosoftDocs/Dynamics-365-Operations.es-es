@@ -17,15 +17,15 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: d2642d922fc1fa03644be8195a8c9dd3edfc3483
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a3875f02a01687b35d26fbc2807e8b11432e9adc
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="use-a-continuity-program"></a><span data-ttu-id="0fd48-103">Usar un programa de continuidad</span><span class="sxs-lookup"><span data-stu-id="0fd48-103">Use a continuity program</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0fd48-104">Este procedimiento muestra el proceso de venta de un programa de continuidad y el procesamiento de pedidos de ventas relacionados.</span><span class="sxs-lookup"><span data-stu-id="0fd48-104">This procedure walks through selling a continuity program and processing related sales orders.</span></span> <span data-ttu-id="0fd48-105">Para completar este procedimiento, el usuario tiene que configurarse como un usuario del centro de llamadas.</span><span class="sxs-lookup"><span data-stu-id="0fd48-105">To complete this procedure, the user has to be set up as a call center user.</span></span> <span data-ttu-id="0fd48-106">Este procedimiento usa la empresa de datos de demostración USRT.</span><span class="sxs-lookup"><span data-stu-id="0fd48-106">This procedure uses the USRT demo data company.</span></span>
 

@@ -18,17 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 445c639dc56a5d240f4e35353276ef893f2137da
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a><span data-ttu-id="21c3e-103">Métodos abreviados de teclado</span><span class="sxs-lookup"><span data-stu-id="21c3e-103">Keyboard shortcuts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="21c3e-104">Los siguientes métodos abreviados de teclado se aplican en todo Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="21c3e-104">The following keyboard shortcuts apply across Dynamics 365 for Finance and Operations.</span></span> 
 
@@ -39,6 +38,7 @@ ms.lasthandoff: 03/26/2018
 
 
 ## <a name="action-shortcuts"></a><span data-ttu-id="21c3e-111">Métodos abreviados de acción</span><span class="sxs-lookup"><span data-stu-id="21c3e-111">Action shortcuts</span></span>
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | <span data-ttu-id="21c3e-112">**Acción**</span><span class="sxs-lookup"><span data-stu-id="21c3e-112">**To do this**</span></span>                                    | <span data-ttu-id="21c3e-113">**Presione**</span><span class="sxs-lookup"><span data-stu-id="21c3e-113">**Press**</span></span>                        |
@@ -55,6 +55,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="21c3e-134">Ver los métodos abreviados disponibles actualmente</span><span class="sxs-lookup"><span data-stu-id="21c3e-134">View currently available shortcuts</span></span>                | <span data-ttu-id="21c3e-135">Alt+Mayús+K</span><span class="sxs-lookup"><span data-stu-id="21c3e-135">Alt+Shift+K</span></span>                      |                              
 
 ## <a name="date-picker-shortcuts"></a><span data-ttu-id="21c3e-136">Métodos abreviados de selección de fecha</span><span class="sxs-lookup"><span data-stu-id="21c3e-136">Date picker shortcuts</span></span>
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | <span data-ttu-id="21c3e-137">**Acción**</span><span class="sxs-lookup"><span data-stu-id="21c3e-137">**To do this**</span></span>                        | <span data-ttu-id="21c3e-138">**Presione**</span><span class="sxs-lookup"><span data-stu-id="21c3e-138">**Press**</span></span>                                 |
@@ -68,6 +69,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="21c3e-153">Escoger "Nunca" (o la fecha máxima)</span><span class="sxs-lookup"><span data-stu-id="21c3e-153">Pick Never (or the max date)</span></span>          | <span data-ttu-id="21c3e-154">N</span><span class="sxs-lookup"><span data-stu-id="21c3e-154">N</span></span>                                         |
 
 ## <a name="factbox-shortcuts"></a><span data-ttu-id="21c3e-155">Métodos abreviados de cuadro informativo</span><span class="sxs-lookup"><span data-stu-id="21c3e-155">FactBox shortcuts</span></span>
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | <span data-ttu-id="21c3e-156">**Acción**</span><span class="sxs-lookup"><span data-stu-id="21c3e-156">**To do this**</span></span>                                                                  | <span data-ttu-id="21c3e-157">**Presione**</span><span class="sxs-lookup"><span data-stu-id="21c3e-157">**Press**</span></span>                                 |
@@ -79,6 +81,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="21c3e-168">Contraer el cuadro informativo actual</span><span class="sxs-lookup"><span data-stu-id="21c3e-168">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="21c3e-169">Alt+0</span><span class="sxs-lookup"><span data-stu-id="21c3e-169">Alt+0</span></span>                                     |
 
 ## <a name="filtering-shortcuts"></a><span data-ttu-id="21c3e-170">Métodos abreviados de filtrado</span><span class="sxs-lookup"><span data-stu-id="21c3e-170">Filtering shortcuts</span></span>
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | <span data-ttu-id="21c3e-171">**Para realizar esta tarea**</span><span class="sxs-lookup"><span data-stu-id="21c3e-171">**To do this**</span></span>                     | <span data-ttu-id="21c3e-172">**Presionar**</span><span class="sxs-lookup"><span data-stu-id="21c3e-172">**Press**</span></span>                |
@@ -89,6 +92,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="21c3e-181">Abrir el sistema de orden/filtrado avanzado</span><span class="sxs-lookup"><span data-stu-id="21c3e-181">Open advanced filtering/sort</span></span>                                      | <span data-ttu-id="21c3e-182">Ctrl+Mayús+F3</span><span class="sxs-lookup"><span data-stu-id="21c3e-182">Ctrl+Shift+F3</span></span>            | 
 
 ## <a name="form-shortcuts"></a><span data-ttu-id="21c3e-183">Métodos abreviado de formulario</span><span class="sxs-lookup"><span data-stu-id="21c3e-183">Form shortcuts</span></span>
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | <span data-ttu-id="21c3e-184">**Para realizar esta tarea**</span><span class="sxs-lookup"><span data-stu-id="21c3e-184">**To do this**</span></span>                                      | <span data-ttu-id="21c3e-185">**Presionar**</span><span class="sxs-lookup"><span data-stu-id="21c3e-185">**Press**</span></span>         |
@@ -110,6 +114,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="21c3e-216">Cerrar el formulario ignorando cualquier cambio no guardado</span><span class="sxs-lookup"><span data-stu-id="21c3e-216">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="21c3e-217">Alt+Mayús+Q</span><span class="sxs-lookup"><span data-stu-id="21c3e-217">Alt+Shift+Q</span></span>       |
 
 ## <a name="form-navigation-shortcuts"></a><span data-ttu-id="21c3e-218">Métodos abreviados de navegación en formularios</span><span class="sxs-lookup"><span data-stu-id="21c3e-218">Form navigation shortcuts</span></span>
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | <span data-ttu-id="21c3e-219">**Acción**</span><span class="sxs-lookup"><span data-stu-id="21c3e-219">**To do this**</span></span>                                      | <span data-ttu-id="21c3e-220">**Presione**</span><span class="sxs-lookup"><span data-stu-id="21c3e-220">**Press**</span></span>                                    |
@@ -128,6 +133,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="21c3e-245">Cambiar a la vista de líneas</span><span class="sxs-lookup"><span data-stu-id="21c3e-245">Switch to lines view</span></span>                                | <span data-ttu-id="21c3e-246">Ctrl+Mayús+L</span><span class="sxs-lookup"><span data-stu-id="21c3e-246">Ctrl+Shift+L</span></span>                                 |
 
 ## <a name="grid-shortcuts"></a><span data-ttu-id="21c3e-247">Métodos abreviado de cuadrícula</span><span class="sxs-lookup"><span data-stu-id="21c3e-247">Grid shortcuts</span></span>
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | <span data-ttu-id="21c3e-248">**Acción**</span><span class="sxs-lookup"><span data-stu-id="21c3e-248">**To do this**</span></span>                                                                                                         | <span data-ttu-id="21c3e-249">**Presione**</span><span class="sxs-lookup"><span data-stu-id="21c3e-249">**Press**</span></span>                       |
@@ -148,6 +154,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="21c3e-283">Abra la cuadrícula de filtro para la columna actual (con el enfoque en la fila de encabezado)</span><span class="sxs-lookup"><span data-stu-id="21c3e-283">Open grid filtering for the current column (with focus in the header row)</span></span>                                              | <span data-ttu-id="21c3e-284">Intro</span><span class="sxs-lookup"><span data-stu-id="21c3e-284">Enter</span></span>                           |
 
 ## <a name="input-control-shortcuts"></a><span data-ttu-id="21c3e-285">Métodos abreviados de control de entrada de datos</span><span class="sxs-lookup"><span data-stu-id="21c3e-285">Input control shortcuts</span></span>
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | <span data-ttu-id="21c3e-286">**Acción**</span><span class="sxs-lookup"><span data-stu-id="21c3e-286">**To do this**</span></span>                                                               | <span data-ttu-id="21c3e-287">**Presione**</span><span class="sxs-lookup"><span data-stu-id="21c3e-287">**Press**</span></span>                     |
@@ -163,6 +170,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="21c3e-306">Cambiar el enfoque entre el área de texto y la barra de herramientas en un control del editor HTML</span><span class="sxs-lookup"><span data-stu-id="21c3e-306">Switch focus between the text area and the toolbar in an HTML editor control</span></span> | <span data-ttu-id="21c3e-307">F6</span><span class="sxs-lookup"><span data-stu-id="21c3e-307">F6</span></span>                            |
 
 ## <a name="messaging-shortcuts"></a><span data-ttu-id="21c3e-308">Métodos abreviados en mensajes</span><span class="sxs-lookup"><span data-stu-id="21c3e-308">Messaging shortcuts</span></span>
+
 |                          |               |
 |--------------------------|---------------|
 | <span data-ttu-id="21c3e-309">**Acción**</span><span class="sxs-lookup"><span data-stu-id="21c3e-309">**To do this**</span></span>           | <span data-ttu-id="21c3e-310">**Presione**</span><span class="sxs-lookup"><span data-stu-id="21c3e-310">**Press**</span></span>     |
@@ -170,6 +178,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="21c3e-313">Ir a la barra de mensajes</span><span class="sxs-lookup"><span data-stu-id="21c3e-313">Go to the Message Bar</span></span>    | <span data-ttu-id="21c3e-314">Ctrl+F7</span><span class="sxs-lookup"><span data-stu-id="21c3e-314">Ctrl+F7</span></span>       |
 
 ## <a name="navigation-shortcuts"></a><span data-ttu-id="21c3e-315">Métodos abreviados de navegación</span><span class="sxs-lookup"><span data-stu-id="21c3e-315">Navigation shortcuts</span></span>
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | <span data-ttu-id="21c3e-316">**Acción**</span><span class="sxs-lookup"><span data-stu-id="21c3e-316">**To do this**</span></span>                                                                | <span data-ttu-id="21c3e-317">**Presione**</span><span class="sxs-lookup"><span data-stu-id="21c3e-317">**Press**</span></span>                  |
@@ -191,6 +200,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="21c3e-348">Ir al panel del cuadro informativo (puede incluirse la opción de abrirlo)</span><span class="sxs-lookup"><span data-stu-id="21c3e-348">Move to the FactBox pane (which may include opening it)</span></span>                       | <span data-ttu-id="21c3e-349">Alt+M,B o Ctrl+F2</span><span class="sxs-lookup"><span data-stu-id="21c3e-349">Alt+M,B or Ctrl+F2</span></span>         |
 
 ## <a name="personalization-shortcuts"></a><span data-ttu-id="21c3e-350">Personalizar los métodos abreviados</span><span class="sxs-lookup"><span data-stu-id="21c3e-350">Personalization shortcuts</span></span>
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | <span data-ttu-id="21c3e-351">**Acción**</span><span class="sxs-lookup"><span data-stu-id="21c3e-351">**To do this**</span></span>                                                                                                         | <span data-ttu-id="21c3e-352">**Presione**</span><span class="sxs-lookup"><span data-stu-id="21c3e-352">**Press**</span></span>                           |
@@ -219,6 +229,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="21c3e-397">Salir del modo de personalización (cuando se está en modo de personalización)</span><span class="sxs-lookup"><span data-stu-id="21c3e-397">Exit personalization mode (when in personalization mode)</span></span>                                                               | <span data-ttu-id="21c3e-398">Esc</span><span class="sxs-lookup"><span data-stu-id="21c3e-398">Esc</span></span>                                 |
 
 ## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="21c3e-399">Métodos abreviados de entrada segmentados</span><span class="sxs-lookup"><span data-stu-id="21c3e-399">Segmented entry shortcuts</span></span>
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | <span data-ttu-id="21c3e-400">**Acción**</span><span class="sxs-lookup"><span data-stu-id="21c3e-400">**To do this**</span></span>                                                                                                          | <span data-ttu-id="21c3e-401">**Presione**</span><span class="sxs-lookup"><span data-stu-id="21c3e-401">**Press**</span></span>                        |

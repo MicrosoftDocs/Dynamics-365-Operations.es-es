@@ -18,16 +18,16 @@ ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 39578744654215795f43fec8dcc70c264b66fb0b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8724f33176b4ff7730cd9d15e825bab794a10ac6
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-controlling-mobile-workspace"></a><span data-ttu-id="af848-104">Espacio de trabajo móvil de control de costes</span><span class="sxs-lookup"><span data-stu-id="af848-104">Cost controlling mobile workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="af848-105">Este tema proporciona información sobre del espacio de trabajo móvil de **Control de costes**.</span><span class="sxs-lookup"><span data-stu-id="af848-105">This topic provides information about the **Cost controlling** mobile workspace.</span></span> <span data-ttu-id="af848-106">Este espacio de trabajo permite a los administradores de un centro de coste ver información acerca del rendimiento del centro de coste en cualquier momento y cualquier lugar.</span><span class="sxs-lookup"><span data-stu-id="af848-106">This workspace lets cost center managers view information about cost center performance anytime and anywhere.</span></span>
 

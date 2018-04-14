@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5c5fbe1791161b8d06cd1539b1717ba8690a8e05
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 21efce9bb38aa5fc93d51bf34c1fe41e89513552
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-and-process-recurring-invoices"></a><span data-ttu-id="09d91-104">Configurar y procesar facturas periódicas</span><span class="sxs-lookup"><span data-stu-id="09d91-104">Set up and process recurring invoices</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="09d91-105">Este artículo explica cómo configurar y procesar las facturas periódicas.</span><span class="sxs-lookup"><span data-stu-id="09d91-105">This article explains how to set up and process recurring invoices.</span></span> <span data-ttu-id="09d91-106">Puede usar facturas periódicas si debe factura a los clientes por el mismo importe periódicamente.</span><span class="sxs-lookup"><span data-stu-id="09d91-106">You can use recurring invoices if you must invoice customers for the same amount on a regular basis.</span></span>
 

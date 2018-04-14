@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dbc195da36d31e01400fe66a1c02ea49609400eb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: aa7a6cc48b4c02872666e7f43ca38d999ad820d9
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a><span data-ttu-id="82faa-103">Realización de ajustes manuales en la previsión de línea base</span><span class="sxs-lookup"><span data-stu-id="82faa-103">Make manual adjustments to the baseline forecast</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="82faa-104">Este tema explica cómo puede realizar ajustes manuales a una previsión de línea base y ver los detalles de la previsión.</span><span class="sxs-lookup"><span data-stu-id="82faa-104">This topic explains how you can make manual adjustments to a baseline forecast and view details of the forecast.</span></span> 
 

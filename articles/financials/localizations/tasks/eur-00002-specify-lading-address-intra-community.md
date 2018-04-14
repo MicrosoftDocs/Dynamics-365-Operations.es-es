@@ -16,15 +16,15 @@ ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fc54b59f6cf8aec8d489955c57cbcf34c4e6be0a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ee2c57d9e42d50823c9f77ebd0f13deec2f4342e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="specify-a-lading-address-for-an-intra-community-transaction"></a><span data-ttu-id="50f26-103">Especificar una dirección de embarque para una transacción intracomunitaria</span><span class="sxs-lookup"><span data-stu-id="50f26-103">Specify a lading address for an intra-community transaction</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="50f26-104">Este procedimiento muestra cómo especificar una dirección de embarque para una transacción de comercio intracomunitario.</span><span class="sxs-lookup"><span data-stu-id="50f26-104">This procedure shows how to specify a lading address for an intra-community trade transaction.</span></span> <span data-ttu-id="50f26-105">Por ejemplo, una empresa de Alemania pide artículos de un proveedor con una dirección empresarial alemana.</span><span class="sxs-lookup"><span data-stu-id="50f26-105">For example, a Germany company orders items from a vendor with a German business address.</span></span> <span data-ttu-id="50f26-106">Este proveedor tiene un almacén en Italia y envía artículos desde ahí.</span><span class="sxs-lookup"><span data-stu-id="50f26-106">This vendor has a warehouse in Italy and ships the items from there.</span></span> <span data-ttu-id="50f26-107">Esta entrega se debe notificar en Intrastat.</span><span class="sxs-lookup"><span data-stu-id="50f26-107">This delivery must be reported in the Intrastat.</span></span> <span data-ttu-id="50f26-108">El mismo comportamiento es válido para las devoluciones del cliente.</span><span class="sxs-lookup"><span data-stu-id="50f26-108">The same behavior is valid for customer returns.</span></span>
 <span data-ttu-id="50f26-109">Este procedimiento se aplica a todos los países o regiones europeos.</span><span class="sxs-lookup"><span data-stu-id="50f26-109">This procedure applies to all European countries/regions.</span></span> <span data-ttu-id="50f26-110">Esta tarea se ha creado con los datos de demostración de la empresa DEMF y con una dirección principal en Alemania.</span><span class="sxs-lookup"><span data-stu-id="50f26-110">The task was created using the demo data company DEMF with a primary address in Germany.</span></span> <span data-ttu-id="50f26-111">Para poder completar este procedimiento, debe configurar los informes Intrastat.</span><span class="sxs-lookup"><span data-stu-id="50f26-111">Before you can complete this procedure, you must configure Intrastat reporting.</span></span> <span data-ttu-id="50f26-112">Este procedimiento está pensado para contables.</span><span class="sxs-lookup"><span data-stu-id="50f26-112">This procedure is intended for accountants.</span></span> <span data-ttu-id="50f26-113">Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="50f26-113">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>

@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2f1f11a7f1340d408374e658ae616ffa99f3c911
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d69eb1f9da44c02a96e0e7c353d700382f87c24b
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="settlement-overview"></a><span data-ttu-id="e1bda-104">Descripción de la liquidación</span><span class="sxs-lookup"><span data-stu-id="e1bda-104">Settlement overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e1bda-105">En este artículo se proporciona información general sobre el proceso de liquidación.</span><span class="sxs-lookup"><span data-stu-id="e1bda-105">This article provides general information about the settlement process.</span></span> <span data-ttu-id="e1bda-106">Describe los tipos de transacciones que se pueden liquidar, cuándo y cómo se pueden liquidar las transacciones y los resultados del proceso de liquidación.</span><span class="sxs-lookup"><span data-stu-id="e1bda-106">It describes the types of transactions that can be settled, when and how transactions can be settled, and the results of the settlement process.</span></span>
 

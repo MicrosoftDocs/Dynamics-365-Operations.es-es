@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 10b3f4bdbe559ffa39c67a2f4a8e04f62bf56733
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a><span data-ttu-id="522cb-105">Miembros de dimensiones estadísticas y plantillas de proveedor de medidas estadísticas</span><span class="sxs-lookup"><span data-stu-id="522cb-105">Statistical dimension members and statistical measure provider templates</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="522cb-106">Una dimensión estadística y sus miembros se usan para registrar y controlar entradas no monetarias en la contabilidad de costes.</span><span class="sxs-lookup"><span data-stu-id="522cb-106">A statistical dimension and its members are used to register and control non-monetary entries in Cost accounting.</span></span> <span data-ttu-id="522cb-107">Los miembros de dimensión estadística se pueden utilizar con dos propósitos:</span><span class="sxs-lookup"><span data-stu-id="522cb-107">Statistical dimension members can be used for two purposes:</span></span>
 

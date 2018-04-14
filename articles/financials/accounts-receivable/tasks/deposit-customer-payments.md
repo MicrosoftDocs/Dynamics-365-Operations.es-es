@@ -16,15 +16,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dbf21bd5df70cd80e4fe3f2f5d699aa82b62423b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 73f5e34054bee5c7b81ca6d4b3e4b3d2339a6b86
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="deposit-customer-payments"></a><span data-ttu-id="6080d-103">Depositar pagos de cliente</span><span class="sxs-lookup"><span data-stu-id="6080d-103">Deposit customer payments</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6080d-104">Pagos de cliente en depósito.</span><span class="sxs-lookup"><span data-stu-id="6080d-104">Deposit customer payments.</span></span> <span data-ttu-id="6080d-105">Esta tarea usa la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="6080d-105">This task uses the USMF demo company.</span></span>
 

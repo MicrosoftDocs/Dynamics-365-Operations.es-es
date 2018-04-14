@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d3d5324a6a70539a2b2ba5bb208a546934a7782f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8eecd5c87e19e36eabf5350bc71d55c4a94f37ba
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-product"></a><span data-ttu-id="1400d-103">Crear un producto</span><span class="sxs-lookup"><span data-stu-id="1400d-103">Create a product</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1400d-104">Este procedimiento le muestra cómo crear un nuevo producto en la jerarquía de productos comerciales.</span><span class="sxs-lookup"><span data-stu-id="1400d-104">This procedure walks through creating a new product in the retail product hierarchy.</span></span> <span data-ttu-id="1400d-105">La empresa de datos de prueba utilizada para crear esta tarea es USRT y esta tarea está pensada para el encargado de comercialización y el diseñador de productos.</span><span class="sxs-lookup"><span data-stu-id="1400d-105">The demo data company used to create this task is USRT, and this task is intended for the Merchandising Manager and Product Designer.</span></span>
 

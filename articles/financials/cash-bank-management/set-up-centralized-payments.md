@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2e309655bbc1d0fe7a088062b90fab34c642ab29
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fd6f32e266dcbd78c464e42da50a347bea39fcfc
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-centralized-payments"></a><span data-ttu-id="65364-103">Configurar pagos centralizados</span><span class="sxs-lookup"><span data-stu-id="65364-103">Set up centralized payments</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="65364-104">Siga estos pasos para preparar el procesamiento de pagos de una entidad jurídica en nombre de otras entidades jurídicas de la organización.</span><span class="sxs-lookup"><span data-stu-id="65364-104">Follow these steps to prepare to process payments in one legal entity on behalf of other legal entities in your organization.</span></span> <span data-ttu-id="65364-105">Antes de comenzar, se deberán completar los siguientes procedimientos de configuración:</span><span class="sxs-lookup"><span data-stu-id="65364-105">Before you begin, the following setup must be completed:</span></span>
 

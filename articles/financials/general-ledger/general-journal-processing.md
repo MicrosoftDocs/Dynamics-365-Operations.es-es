@@ -19,17 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: eb46613f805999753c2ab73ffb91a6fdae04c68e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 038833752f5e96055fc1449a473705ecd937b5a4
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="general-journal-processing"></a><span data-ttu-id="a05eb-103">Procesamiento de diarios generales</span><span class="sxs-lookup"><span data-stu-id="a05eb-103">General journal processing</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a05eb-104">Este artículo describe las capacidades en Microsoft Dynamics 365 for Finance and Operations que pueden facilitar el proceso del diario general y que también pueden ayudar a garantizar que se capturan los datos correctos y que no se pone en peligro el control interno.</span><span class="sxs-lookup"><span data-stu-id="a05eb-104">This articles describes capabilities in Microsoft Dynamics 365 for Finance and Operations that can help make general journal processing easier, and that can also help guarantee that correct data is captured and internal control isn't compromised.</span></span>  
 

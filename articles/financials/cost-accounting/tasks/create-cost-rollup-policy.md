@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 42656cbf445fd3f79844884d7d35243c5b051a4a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 165d12efe1e3caf436a7573936e94203bad88330
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-cost-rollup-policy"></a><span data-ttu-id="a51d9-103">Crear una directiva de acumulación de costes</span><span class="sxs-lookup"><span data-stu-id="a51d9-103">Create a cost rollup policy</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a51d9-104">Este procedimiento muestra cómo crear una directiva de acumulación de costes y crea reglas para la directiva.</span><span class="sxs-lookup"><span data-stu-id="a51d9-104">This procedure shows how to create a cost rollup policy and create rules for the policy.</span></span> <span data-ttu-id="a51d9-105">Los datos de demostración utilizados para crear este procedimiento son los de la empresa USP2.</span><span class="sxs-lookup"><span data-stu-id="a51d9-105">The demo data used to create this procedure is USP2.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: b02cbd9931821c69d8b42f796cdebd2aff6f2ddd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 26fb7dc7113411bb5117476ddfa02ae9d81cf287
 ms.contentlocale: es-es
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-configuration-routes"></a><span data-ttu-id="a5ff1-103">Definir rutas de configuración</span><span class="sxs-lookup"><span data-stu-id="a5ff1-103">Define configuration routes</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a5ff1-104">Este procedimiento se centra en la definición de una ruta de configuración que determine la secuencia en la que se mostrarán los grupos de configuración.</span><span class="sxs-lookup"><span data-stu-id="a5ff1-104">This procedure focuses on defining a configuration route that determines the sequence in which the configuration groups will be presented.</span></span> <span data-ttu-id="a5ff1-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="a5ff1-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="a5ff1-106">Este es el sexto procedimiento de ocho que explica cómo crear combinaciones para la configuración basada en dimensiones.</span><span class="sxs-lookup"><span data-stu-id="a5ff1-106">This is the sixth procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 

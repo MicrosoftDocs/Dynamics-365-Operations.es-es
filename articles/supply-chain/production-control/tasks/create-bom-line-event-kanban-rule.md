@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 452cc5cf6060b71f91ad43e39e756dc23d759448
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a84927f0abdbe822f71db9088217c8ac4143fba6
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-bom-line-event-kanban-rule"></a><span data-ttu-id="0fe6f-103">Crear una regla kanban de eventos de línea de L. MAT.</span><span class="sxs-lookup"><span data-stu-id="0fe6f-103">Create a BOM line event kanban rule</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0fe6f-104">Esta tarea se centra en la configuración necesaria para crear una regla kanban de evento para asegurar el suministro de las líneas de L. MAT de producción en un entorno mixto de producción lean y clásico.</span><span class="sxs-lookup"><span data-stu-id="0fe6f-104">This task focuses on the setup needed to create an event kanban rule to ensure supply for production BOM lines in a mixed lean and classic production environment.</span></span> <span data-ttu-id="0fe6f-105">La empresa de datos de prueba utilizada para crear esta tarea es USMF.</span><span class="sxs-lookup"><span data-stu-id="0fe6f-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="0fe6f-106">Esta tarea está pensada para el ingeniero de procesos o el administrador de flujo de valor, ya que preparan la producción de un producto nuevo o modificado.</span><span class="sxs-lookup"><span data-stu-id="0fe6f-106">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product.</span></span>
 

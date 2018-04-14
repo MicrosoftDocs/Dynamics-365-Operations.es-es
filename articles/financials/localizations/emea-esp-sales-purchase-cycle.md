@@ -18,17 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: cf24ad58cc396fefc4bf761e5792d128128c2146
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 32bf7064b964e1ba57dff7a574df37ffe36fac78
 ms.contentlocale: es-es
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-and-purchase-cycles-for-spain"></a><span data-ttu-id="a85ca-103">Ventas y ciclos de compra para España</span><span class="sxs-lookup"><span data-stu-id="a85ca-103">Sales and purchase cycles for Spain</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a85ca-104">Este tema describe cómo configurar los ciclos de pedido de ventas o de compra para un proveedor o un cliente para las entidades jurídicas en España.</span><span class="sxs-lookup"><span data-stu-id="a85ca-104">This topic describes how to set up sales order or purchase order cycles for a vendor or customer for legal entities in Spain.</span></span>  
 

@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 3b6f70a1a16f18cf3fc6c2f246854e876363eebf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec30fc5e4d3289264da0e40dc981c597c04f4c15
 ms.contentlocale: es-es
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="manage-leave-of-absence"></a><span data-ttu-id="c8d76-103">Administrar excedencias</span><span class="sxs-lookup"><span data-stu-id="c8d76-103">Manage leave of absence</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c8d76-104">Este procedimiento recorre la creación de registros de baja de empleados.</span><span class="sxs-lookup"><span data-stu-id="c8d76-104">This procedure walks through the creation of employee leave records.</span></span> <span data-ttu-id="c8d76-105">Puede realizar un seguimiento del tiempo de baja por motivos que incluyen actividades médicas, educativas o parentales.</span><span class="sxs-lookup"><span data-stu-id="c8d76-105">You can track leave time for reasons that include medical, educational, or parental activities.</span></span> <span data-ttu-id="c8d76-106">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="c8d76-106">The demo data company used to create this procedure is USMF.</span></span>
 

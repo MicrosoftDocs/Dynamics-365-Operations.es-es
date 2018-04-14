@@ -19,17 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ebabff4d467df54b2e79485ba3a16344435140e6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3bab4b9981f58c133e8c5ed693e6ed345248809d
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="letters-of-credit-and-import-collections"></a><span data-ttu-id="177eb-104">Cartas de crédito y remesas documentarias</span><span class="sxs-lookup"><span data-stu-id="177eb-104">Letters of credit and import collections</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="177eb-105">Este artículo proporciona información general acerca de las cartas de crédito y los cobros.</span><span class="sxs-lookup"><span data-stu-id="177eb-105">This article provides general information about letters of credit and import collections.</span></span> <span data-ttu-id="177eb-106">Ambos tipos de documentos bancarios se usan a menudo para la compra y la venta de bienes entre fronteras internacionales.</span><span class="sxs-lookup"><span data-stu-id="177eb-106">Both types of bank document are often used for the purchase and sale of goods across international borders.</span></span>
 

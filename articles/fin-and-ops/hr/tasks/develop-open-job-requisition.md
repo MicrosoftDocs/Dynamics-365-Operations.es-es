@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0eb5ec731655e2f023d941724a10d1cf12f8e558
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 403e1d3d4c599050f118ab019288784d7782ac2b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="develop-and-open-a-job-requisition"></a><span data-ttu-id="280e5-103">Desarrollar y abrir una solicitud de trabajo</span><span class="sxs-lookup"><span data-stu-id="280e5-103">Develop and open a job requisition</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="280e5-104">Los proyectos de contratación ayudan a gestionar el proceso de contratación.</span><span class="sxs-lookup"><span data-stu-id="280e5-104">Recruitment projects help manage the recruiting process.</span></span> <span data-ttu-id="280e5-105">Se puede configurar la información de cada proyecto de contratación, como el trabajo para el que se está contratando personal, el nombre de la persona a cargo de la contratación, el estado del proyecto y el departamento en el cual se realizará el trabajo en cuestión.</span><span class="sxs-lookup"><span data-stu-id="280e5-105">For each recruitment project, you can set up information, such as the job that recruiting is for, the name of the recruiter, the status of the project and the department that the job will be located in.</span></span> <span data-ttu-id="280e5-106">Tras crear un proyecto de contratación, puede escribir un anuncio de trabajo para el proyecto, publicarlo en las páginas de autoservicio del empleado, asociar solicitudes de empleo con el proyecto y realizar un seguimiento de las actividades del proyecto.</span><span class="sxs-lookup"><span data-stu-id="280e5-106">After creating a recruitment project, you can write a job advertisement for the project, publish the ad on Employee self-service pages, associate applications for employment with the project, and track activities for that project.</span></span> <span data-ttu-id="280e5-107">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="280e5-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="280e5-108">Para iniciar el procedimiento, vaya a Recursos humanos > Contratación > Proyectos de contratación > Proyectos de contratación</span><span class="sxs-lookup"><span data-stu-id="280e5-108">To begin the procedure, go to Human resources > Recruitment > Recruitment projects > Recruitment projects</span></span>
 

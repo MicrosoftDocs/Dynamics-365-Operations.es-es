@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: b4cddb3427e3e94d9db9a095a8e8c60bdeb9cc95
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6562e4776e8d15258921f174fdc3cd30f4ac18e0
 ms.contentlocale: es-es
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a><span data-ttu-id="152f9-103">Configurar precios basados en atributos para productos configurables</span><span class="sxs-lookup"><span data-stu-id="152f9-103">Set up attribute-based pricing for configurable products</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="152f9-104">Este procedimiento muestra cómo configurar unos precios en función del atributo.</span><span class="sxs-lookup"><span data-stu-id="152f9-104">This procedure shows how to set up attribute-based pricing.</span></span> <span data-ttu-id="152f9-105">Como requisito previo, debe tener un modelo de configuración de productos con uno o más componentes y atributos.</span><span class="sxs-lookup"><span data-stu-id="152f9-105">As a prerequisite, you must have a product configuration model that has one or more components and attributes.</span></span> <span data-ttu-id="152f9-106">Este ejemplo usa el modelo de producto Altavoz de gama alta en los datos de demostración de la empresa USMF.</span><span class="sxs-lookup"><span data-stu-id="152f9-106">This example uses the High End Speaker product model in the USMF demo data company.</span></span> <span data-ttu-id="152f9-107">Normalmente, un responsable de productos utiliza este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="152f9-107">Typically, a product manager uses this procedure.</span></span>
 

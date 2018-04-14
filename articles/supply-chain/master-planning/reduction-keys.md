@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 506ca3aac7ad271ca7472f3b74627e94d97a74ee
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6ca65d3c12abd64bef23954b45f73af1bf62f9f3
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reduction-keys"></a><span data-ttu-id="638eb-105">Claves de reducción</span><span class="sxs-lookup"><span data-stu-id="638eb-105">Reduction keys</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="638eb-106">Este artículo proporciona ejemplos que muestran cómo configurar una clave de reducción.</span><span class="sxs-lookup"><span data-stu-id="638eb-106">This articles provides examples that show how to set up a reduction key.</span></span> <span data-ttu-id="638eb-107">Incluye información sobre los distintos ajustes de la clave de reducción y los resultados de cada uno.</span><span class="sxs-lookup"><span data-stu-id="638eb-107">It includes information about the various reduction key settings and the results of each.</span></span> <span data-ttu-id="638eb-108">Puede usar una clave de reducción para definir cómo reducir los requisitos de previsión.</span><span class="sxs-lookup"><span data-stu-id="638eb-108">You can use a reduction key to define how to reduce forecast requirements.</span></span>
 
@@ -39,17 +38,19 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="638eb-110">Este ejemplo muestra cómo reduce una clave de reducción los requisitos de previsión de la demanda en función de los porcentajes y los períodos definidos por la clave de reducción.</span><span class="sxs-lookup"><span data-stu-id="638eb-110">This example shows how a reduction key reduces demand forecast requirements according to the percentages and periods that are defined by the reduction key.</span></span>
 
-1.  <span data-ttu-id="638eb-111">En la página **Claves de reducción**, configure las siguientes líneas.</span><span class="sxs-lookup"><span data-stu-id="638eb-111">On the **Reduction keys** page, set up the following lines.</span></span>
-    | <span data-ttu-id="638eb-112">Cambio</span><span class="sxs-lookup"><span data-stu-id="638eb-112">Change</span></span> | <span data-ttu-id="638eb-113">Unidad</span><span class="sxs-lookup"><span data-stu-id="638eb-113">Unit</span></span>  | <span data-ttu-id="638eb-114">Porcentaje</span><span class="sxs-lookup"><span data-stu-id="638eb-114">Percent</span></span> |
-    |--------|-------|---------|
-    | <span data-ttu-id="638eb-115">1</span><span class="sxs-lookup"><span data-stu-id="638eb-115">1</span></span>      | <span data-ttu-id="638eb-116">Mes</span><span class="sxs-lookup"><span data-stu-id="638eb-116">Month</span></span> | <span data-ttu-id="638eb-117">100</span><span class="sxs-lookup"><span data-stu-id="638eb-117">100</span></span>     |
-    | <span data-ttu-id="638eb-118">2</span><span class="sxs-lookup"><span data-stu-id="638eb-118">2</span></span>      | <span data-ttu-id="638eb-119">Mes</span><span class="sxs-lookup"><span data-stu-id="638eb-119">Month</span></span> | <span data-ttu-id="638eb-120">75</span><span class="sxs-lookup"><span data-stu-id="638eb-120">75</span></span>      |
-    | <span data-ttu-id="638eb-121">3</span><span class="sxs-lookup"><span data-stu-id="638eb-121">3</span></span>      | <span data-ttu-id="638eb-122">Mes</span><span class="sxs-lookup"><span data-stu-id="638eb-122">Month</span></span> | <span data-ttu-id="638eb-123">50</span><span class="sxs-lookup"><span data-stu-id="638eb-123">50</span></span>      |
-    | <span data-ttu-id="638eb-124">4</span><span class="sxs-lookup"><span data-stu-id="638eb-124">4</span></span>      | <span data-ttu-id="638eb-125">Mes</span><span class="sxs-lookup"><span data-stu-id="638eb-125">Month</span></span> | <span data-ttu-id="638eb-126">25</span><span class="sxs-lookup"><span data-stu-id="638eb-126">25</span></span>      |
+1. <span data-ttu-id="638eb-111">En la página **Claves de reducción**, configure las siguientes líneas.</span><span class="sxs-lookup"><span data-stu-id="638eb-111">On the **Reduction keys** page, set up the following lines.</span></span>
 
-2.  <span data-ttu-id="638eb-127">Vincule la clave de reducción al grupo de cobertura del artículo.</span><span class="sxs-lookup"><span data-stu-id="638eb-127">Link the reduction key to the item's coverage group.</span></span>
-3.  <span data-ttu-id="638eb-128">En la página **Planes maestros**, en el campo **Principio de reducción**, seleccione **Porcentaje - clave de reducción**.</span><span class="sxs-lookup"><span data-stu-id="638eb-128">On the **Master plans** page, in the **Reduction principle** field, select **Percent - reduction key**.</span></span>
-4.  <span data-ttu-id="638eb-129">Cree una previsión de la demanda de 1000 piezas por mes.</span><span class="sxs-lookup"><span data-stu-id="638eb-129">Create a demand forecast of 1,000 pieces per month.</span></span>
+   | <span data-ttu-id="638eb-112">Cambio</span><span class="sxs-lookup"><span data-stu-id="638eb-112">Change</span></span> | <span data-ttu-id="638eb-113">Unidad</span><span class="sxs-lookup"><span data-stu-id="638eb-113">Unit</span></span>  | <span data-ttu-id="638eb-114">Porcentaje</span><span class="sxs-lookup"><span data-stu-id="638eb-114">Percent</span></span> |
+   |--------|-------|---------|
+   |   <span data-ttu-id="638eb-115">1</span><span class="sxs-lookup"><span data-stu-id="638eb-115">1</span></span>    | <span data-ttu-id="638eb-116">Mes</span><span class="sxs-lookup"><span data-stu-id="638eb-116">Month</span></span> |   <span data-ttu-id="638eb-117">100</span><span class="sxs-lookup"><span data-stu-id="638eb-117">100</span></span>   |
+   |   <span data-ttu-id="638eb-118">2</span><span class="sxs-lookup"><span data-stu-id="638eb-118">2</span></span>    | <span data-ttu-id="638eb-119">Mes</span><span class="sxs-lookup"><span data-stu-id="638eb-119">Month</span></span> |   <span data-ttu-id="638eb-120">75</span><span class="sxs-lookup"><span data-stu-id="638eb-120">75</span></span>    |
+   |   <span data-ttu-id="638eb-121">3</span><span class="sxs-lookup"><span data-stu-id="638eb-121">3</span></span>    | <span data-ttu-id="638eb-122">Mes</span><span class="sxs-lookup"><span data-stu-id="638eb-122">Month</span></span> |   <span data-ttu-id="638eb-123">50</span><span class="sxs-lookup"><span data-stu-id="638eb-123">50</span></span>    |
+   |   <span data-ttu-id="638eb-124">4</span><span class="sxs-lookup"><span data-stu-id="638eb-124">4</span></span>    | <span data-ttu-id="638eb-125">Mes</span><span class="sxs-lookup"><span data-stu-id="638eb-125">Month</span></span> |   <span data-ttu-id="638eb-126">25</span><span class="sxs-lookup"><span data-stu-id="638eb-126">25</span></span>    |
+
+
+2. <span data-ttu-id="638eb-127">Vincule la clave de reducción al grupo de cobertura del artículo.</span><span class="sxs-lookup"><span data-stu-id="638eb-127">Link the reduction key to the item's coverage group.</span></span>
+3. <span data-ttu-id="638eb-128">En la página **Planes maestros**, en el campo **Principio de reducción**, seleccione **Porcentaje - clave de reducción**.</span><span class="sxs-lookup"><span data-stu-id="638eb-128">On the **Master plans** page, in the **Reduction principle** field, select **Percent - reduction key**.</span></span>
+4. <span data-ttu-id="638eb-129">Cree una previsión de la demanda de 1000 piezas por mes.</span><span class="sxs-lookup"><span data-stu-id="638eb-129">Create a demand forecast of 1,000 pieces per month.</span></span>
 
 <span data-ttu-id="638eb-130">Si ejecuta la programación de previsión el 1 de enero, los requisitos de previsión de la demanda se consumen de acuerdo con los porcentajes configurados en la página **Claves de reducción**:</span><span class="sxs-lookup"><span data-stu-id="638eb-130">If you run forecast scheduling on January 1, the demand forecast requirements are consumed according to the percentages that you set up on the **Reduction keys** page.</span></span> <span data-ttu-id="638eb-131">las siguientes cantidades de requisitos se transfieren al plan maestro.</span><span class="sxs-lookup"><span data-stu-id="638eb-131">The following requirement quantities are transferred to the master plan.</span></span>
 
@@ -88,20 +89,21 @@ ms.lasthandoff: 11/03/2017
 ## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a><span data-ttu-id="638eb-171">Ejemplo 3: Principio de reducción de previsión del período dinámico de transacciones</span><span class="sxs-lookup"><span data-stu-id="638eb-171">Example 3: Transactions  dynamic period forecast reduction principle</span></span>
 <span data-ttu-id="638eb-172">En la mayoría de los casos, se configuran los sistemas de modo que las transacciones reduzcan la previsión de la demanda dentro de períodos específicos de previsión: semanas, meses, y así sucesivamente.</span><span class="sxs-lookup"><span data-stu-id="638eb-172">In most cases, systems are set up so that transactions reduce demand forecast within specific forecast periods: weeks, months, and so on.</span></span> <span data-ttu-id="638eb-173">Estos períodos se definen en la clave de reducción.</span><span class="sxs-lookup"><span data-stu-id="638eb-173">These periods are defined in the reduction key.</span></span> <span data-ttu-id="638eb-174">No obstante, el tiempo entre dos líneas de previsión de la demanda también puede *implicar* a un período.</span><span class="sxs-lookup"><span data-stu-id="638eb-174">However, the time between two demand forecast lines can also *imply* a period.</span></span>
 
-1.  <span data-ttu-id="638eb-175">Cree una previsión de la demanda para las fechas y las cantidades siguientes.</span><span class="sxs-lookup"><span data-stu-id="638eb-175">Create a demand forecast for the following dates and quantities.</span></span>
-    | <span data-ttu-id="638eb-176">Fecha</span><span class="sxs-lookup"><span data-stu-id="638eb-176">Date</span></span>       | <span data-ttu-id="638eb-177">Previsión de la demanda</span><span class="sxs-lookup"><span data-stu-id="638eb-177">Demand forecast</span></span> |
-    |------------|-----------------|
-    | <span data-ttu-id="638eb-178">1 de enero</span><span class="sxs-lookup"><span data-stu-id="638eb-178">January 1</span></span>  | <span data-ttu-id="638eb-179">1.000</span><span class="sxs-lookup"><span data-stu-id="638eb-179">1,000</span></span>           |
-    | <span data-ttu-id="638eb-180">5 de enero</span><span class="sxs-lookup"><span data-stu-id="638eb-180">January 5</span></span>  | <span data-ttu-id="638eb-181">500</span><span class="sxs-lookup"><span data-stu-id="638eb-181">500</span></span>             |
-    | <span data-ttu-id="638eb-182">12 de enero</span><span class="sxs-lookup"><span data-stu-id="638eb-182">January 12</span></span> | <span data-ttu-id="638eb-183">1.000</span><span class="sxs-lookup"><span data-stu-id="638eb-183">1,000</span></span>           |
+1. <span data-ttu-id="638eb-175">Cree una previsión de la demanda para las fechas y las cantidades siguientes.</span><span class="sxs-lookup"><span data-stu-id="638eb-175">Create a demand forecast for the following dates and quantities.</span></span>
 
-    <span data-ttu-id="638eb-184">En esta previsión, no hay un período claro entre las fechas de previsión: entre la primera y la segunda fecha hay un lapso de cuatro días, y entre la segunda y la tercera fecha hay un lapso de siete días.</span><span class="sxs-lookup"><span data-stu-id="638eb-184">In this forecast, there isn't a clear period between the forecast dates: between the first and second dates there is a four-day span, and between the second and third dates there is a seven-day span.</span></span> <span data-ttu-id="638eb-185">Estos distintos lapsos son períodos dinámicos.</span><span class="sxs-lookup"><span data-stu-id="638eb-185">These various spans are the dynamic periods.</span></span>
-2.  <span data-ttu-id="638eb-186">Cree líneas de pedidos de venta como sigue.</span><span class="sxs-lookup"><span data-stu-id="638eb-186">Create sales order lines as follows.</span></span>
-    | <span data-ttu-id="638eb-187">Fecha</span><span class="sxs-lookup"><span data-stu-id="638eb-187">Date</span></span>                             | <span data-ttu-id="638eb-188">Cantidad de pedido de ventas</span><span class="sxs-lookup"><span data-stu-id="638eb-188">Sales order quantity</span></span> |
-    |----------------------------------|----------------------|
-    | <span data-ttu-id="638eb-189">15 de diciembre en el año anterior</span><span class="sxs-lookup"><span data-stu-id="638eb-189">December 15 in the previous year</span></span> | <span data-ttu-id="638eb-190">500</span><span class="sxs-lookup"><span data-stu-id="638eb-190">500</span></span>                  |
-    | <span data-ttu-id="638eb-191">3 de enero</span><span class="sxs-lookup"><span data-stu-id="638eb-191">January 3</span></span>                        | <span data-ttu-id="638eb-192">100</span><span class="sxs-lookup"><span data-stu-id="638eb-192">100</span></span>                  |
-    | <span data-ttu-id="638eb-193">10 de enero</span><span class="sxs-lookup"><span data-stu-id="638eb-193">January 10</span></span>                       | <span data-ttu-id="638eb-194">200</span><span class="sxs-lookup"><span data-stu-id="638eb-194">200</span></span>                  |
+   | <span data-ttu-id="638eb-176">Fecha</span><span class="sxs-lookup"><span data-stu-id="638eb-176">Date</span></span>       | <span data-ttu-id="638eb-177">Previsión de la demanda</span><span class="sxs-lookup"><span data-stu-id="638eb-177">Demand forecast</span></span> |
+   |------------|-----------------|
+   | <span data-ttu-id="638eb-178">1 de enero</span><span class="sxs-lookup"><span data-stu-id="638eb-178">January 1</span></span>  | <span data-ttu-id="638eb-179">1.000</span><span class="sxs-lookup"><span data-stu-id="638eb-179">1,000</span></span>           |
+   | <span data-ttu-id="638eb-180">5 de enero</span><span class="sxs-lookup"><span data-stu-id="638eb-180">January 5</span></span>  | <span data-ttu-id="638eb-181">500</span><span class="sxs-lookup"><span data-stu-id="638eb-181">500</span></span>             |
+   | <span data-ttu-id="638eb-182">12 de enero</span><span class="sxs-lookup"><span data-stu-id="638eb-182">January 12</span></span> | <span data-ttu-id="638eb-183">1.000</span><span class="sxs-lookup"><span data-stu-id="638eb-183">1,000</span></span>           |
+
+   <span data-ttu-id="638eb-184">En esta previsión, no hay un período claro entre las fechas de previsión: entre la primera y la segunda fecha hay un lapso de cuatro días, y entre la segunda y la tercera fecha hay un lapso de siete días.</span><span class="sxs-lookup"><span data-stu-id="638eb-184">In this forecast, there isn't a clear period between the forecast dates: between the first and second dates there is a four-day span, and between the second and third dates there is a seven-day span.</span></span> <span data-ttu-id="638eb-185">Estos distintos lapsos son períodos dinámicos.</span><span class="sxs-lookup"><span data-stu-id="638eb-185">These various spans are the dynamic periods.</span></span>
+2. <span data-ttu-id="638eb-186">Cree líneas de pedidos de venta como sigue.</span><span class="sxs-lookup"><span data-stu-id="638eb-186">Create sales order lines as follows.</span></span>
+   | <span data-ttu-id="638eb-187">Fecha</span><span class="sxs-lookup"><span data-stu-id="638eb-187">Date</span></span>                             | <span data-ttu-id="638eb-188">Cantidad de pedido de ventas</span><span class="sxs-lookup"><span data-stu-id="638eb-188">Sales order quantity</span></span> |
+   |----------------------------------|----------------------|
+   | <span data-ttu-id="638eb-189">15 de diciembre en el año anterior</span><span class="sxs-lookup"><span data-stu-id="638eb-189">December 15 in the previous year</span></span> | <span data-ttu-id="638eb-190">500</span><span class="sxs-lookup"><span data-stu-id="638eb-190">500</span></span>                  |
+   | <span data-ttu-id="638eb-191">3 de enero</span><span class="sxs-lookup"><span data-stu-id="638eb-191">January 3</span></span>                        | <span data-ttu-id="638eb-192">100</span><span class="sxs-lookup"><span data-stu-id="638eb-192">100</span></span>                  |
+   | <span data-ttu-id="638eb-193">10 de enero</span><span class="sxs-lookup"><span data-stu-id="638eb-193">January 10</span></span>                       | <span data-ttu-id="638eb-194">200</span><span class="sxs-lookup"><span data-stu-id="638eb-194">200</span></span>                  |
 
 <span data-ttu-id="638eb-195">La previsión se reducirá como sigue:</span><span class="sxs-lookup"><span data-stu-id="638eb-195">The forecast will be reduced as follows:</span></span>
 

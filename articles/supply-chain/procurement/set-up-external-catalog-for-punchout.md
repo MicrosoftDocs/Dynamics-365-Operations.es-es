@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2892feff0ab8845515543af1a71d8f9642113726
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fec3811b6c0e3f740e68618a403281628c5eb468
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a><span data-ttu-id="e9896-103">Configurar un catálogo externo para la adquisición electrónica de marcaje de salida</span><span class="sxs-lookup"><span data-stu-id="e9896-103">Set up an external catalog for PunchOut eProcurement</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e9896-104">Usando el catálogo externo, puede asegurarse de que la información del producto y de precios que procese posteriormente en Dynamics 365 for Finance and Operations, de julio de 2017 sea precisa y actualizada.</span><span class="sxs-lookup"><span data-stu-id="e9896-104">By using the external catalog, you can ensure that the product and price information that you subsequently process in Dynamics 365 for Finance and Operations July 2017 is accurate and up to date.</span></span> <span data-ttu-id="e9896-105">La solicitud puede aprobarse y convertirse en un pedido de compra y se puede presentar el pedido al proveedor.</span><span class="sxs-lookup"><span data-stu-id="e9896-105">The requisition can then be approved and converted to a purchase order and an order can be placed at the vendor.</span></span>
 

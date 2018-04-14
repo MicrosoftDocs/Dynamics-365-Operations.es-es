@@ -16,15 +16,15 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5936196d4772c8fcfcc8a00767d17268f6609cde
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ed320111f3be9a496c54c1ff038179fdbbab5246
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-new-users"></a><span data-ttu-id="f5ff1-103">Crear nuevos usuarios</span><span class="sxs-lookup"><span data-stu-id="f5ff1-103">Create new users</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f5ff1-104">Los usuarios son empleados internos de la organización o clientes y proveedores externos que requieren acceso al sistema para llevar a cabo sus trabajos.</span><span class="sxs-lookup"><span data-stu-id="f5ff1-104">Users are internal employees of your organization, or external customers and vendors, who require access to the system to perform their jobs.</span></span> <span data-ttu-id="f5ff1-105">Los administradores del sistema pueden completar este procedimiento para agregar usuarios al sistema.</span><span class="sxs-lookup"><span data-stu-id="f5ff1-105">System administrators can complete this procedure to add users to the system.</span></span> <span data-ttu-id="f5ff1-106">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="f5ff1-106">The demo data company used to create this procedure is USMF.</span></span> 
 

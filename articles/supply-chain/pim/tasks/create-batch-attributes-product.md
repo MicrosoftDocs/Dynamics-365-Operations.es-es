@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5694ac4ec47b446c19681bfb5c6b07ff82f4575f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 601963a2fade42134cf3b0b65dba3d284cf5c950
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-batch-attributes-for-a-product"></a><span data-ttu-id="8864a-103">Crear atributos de lote para un producto</span><span class="sxs-lookup"><span data-stu-id="8864a-103">Create batch attributes for a product</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8864a-104">Este procedimiento muestra cómo crear un atributo de lote, asignar intervalos de valor predeterminados e incluir el atributo en un grupo.</span><span class="sxs-lookup"><span data-stu-id="8864a-104">This procedure shows how to create a batch attribute, assign default value ranges, and include the attribute in a group.</span></span> <span data-ttu-id="8864a-105">La empresa de datos de demostración utilizada para crear este procedimiento es la empresa USP2.</span><span class="sxs-lookup"><span data-stu-id="8864a-105">The demo data company used to create this procedure is the USP2 Company.</span></span>
 

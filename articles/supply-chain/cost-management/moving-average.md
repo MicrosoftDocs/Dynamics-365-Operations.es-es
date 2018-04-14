@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8ac8ebede5c333835b0974843a69e70e51028117
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="moving-average"></a><span data-ttu-id="4f28d-105">Moviendo mensaje</span><span class="sxs-lookup"><span data-stu-id="4f28d-105">Moving average</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4f28d-106">La media móvil es un método de gestión de costes perpetuo que se basa en el principio de promedio, en que los costes de emisiones de inventario no cambian cuando cambia el coste de compra.</span><span class="sxs-lookup"><span data-stu-id="4f28d-106">Moving average is a perpetual costing method based on the average principle, where the costs on inventory issues do not change when the purchase cost does.</span></span> <span data-ttu-id="4f28d-107">La diferencia se capitaliza y se basa en un cálculo proporcional.</span><span class="sxs-lookup"><span data-stu-id="4f28d-107">The difference is capitalized and is based on a proportional calculation.</span></span> <span data-ttu-id="4f28d-108">El importe restante se anota como gasto.</span><span class="sxs-lookup"><span data-stu-id="4f28d-108">The amount that remains is expensed.</span></span> 
 

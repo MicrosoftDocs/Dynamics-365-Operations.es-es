@@ -19,17 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: ce9bc42751cf0f537a0ddb5069aca7c9779a6bb1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 968f9f034fca32eaca4c7252c69bd048f1cef2ca
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="procurement-and-sourcing-workflows"></a><span data-ttu-id="e477d-104">Flujos de trabajo de adquisición y abastecimiento</span><span class="sxs-lookup"><span data-stu-id="e477d-104">Procurement and sourcing workflows</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e477d-105">Algunas organizaciones requieren que las solicitudes de compra y los pedidos de compra los apruebe un usuario distinto a la persona que especificó la transacción.</span><span class="sxs-lookup"><span data-stu-id="e477d-105">Some organizations require that purchase requisitions and purchase orders are approved by a user other than the person who entered the transaction.</span></span> <span data-ttu-id="e477d-106">Para configurar un proceso de aprobación, puede crear un flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="e477d-106">To set up an approval process, you can create a workflow.</span></span>
 

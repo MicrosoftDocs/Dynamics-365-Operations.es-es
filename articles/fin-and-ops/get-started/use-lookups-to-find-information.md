@@ -18,17 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 013901724864092571099835b2c71b297710ff03
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 517da2d492eb16399b5006fff9b372b24670e9ee
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-lookups-to-find-information"></a><span data-ttu-id="d5efa-105">Usar las búsquedas para encontrar la información</span><span class="sxs-lookup"><span data-stu-id="d5efa-105">Use lookups to find information</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d5efa-106">En Microsoft Dynamics 365 for Finance and Operations, muchos campos tienen búsquedas que pueden ayudarle a encontrar el valor correcto o deseado con facilidad.</span><span class="sxs-lookup"><span data-stu-id="d5efa-106">In Microsoft Dynamics 365 for Finance and Operations, many fields have lookups that can help you easily find the correct or desired value.</span></span> <span data-ttu-id="d5efa-107">Varias mejoras se han agregado a las búsquedas para que estos controles sean más utilizables y para que los usuarios sean más productivos.</span><span class="sxs-lookup"><span data-stu-id="d5efa-107">Several enhancements have been added to lookups that make these controls more usable and make users more productive.</span></span> <span data-ttu-id="d5efa-108">En este tema, aprenderá estas nuevas características de búsquedas y recibirá algunas sugerencias útiles para el uso óptimo de las búsquedas en el sistema.</span><span class="sxs-lookup"><span data-stu-id="d5efa-108">In this topic, you will learn about these new lookup features and will receive some helpful tips to get the optimal use out of lookups in the system.</span></span>  
 

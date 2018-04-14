@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 27ed15e6d9a376c4203e5446d056f221bd3eb730
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 165f29ceaabe4d09785e5f1edfe57db525264c15
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-purchase-order"></a><span data-ttu-id="4c7aa-103">Crear un pedido de compra</span><span class="sxs-lookup"><span data-stu-id="4c7aa-103">Create a purchase order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4c7aa-104">Este procedimiento muestra cómo crear un pedido de compra manualmente.</span><span class="sxs-lookup"><span data-stu-id="4c7aa-104">This procedure shows you how to create a purchase order manually.</span></span> <span data-ttu-id="4c7aa-105">Es más habitual que los pedidos de compra se crean automáticamente como resultado de la planificación maestra, de la entrega directa y de otros procesos.</span><span class="sxs-lookup"><span data-stu-id="4c7aa-105">It’s more typical for purchase orders to be created automatically as result of master planning, direct delivery, and other processes.</span></span> <span data-ttu-id="4c7aa-106">Los pedidos de compra normalmente se crean por un agente de compras.</span><span class="sxs-lookup"><span data-stu-id="4c7aa-106">Purchase orders are typically created by a purchasing agent.</span></span> <span data-ttu-id="4c7aa-107">El ejemplo que se muestra aquí se puede usar en la empresa de datos de demostración USMF mediante los valores que se sugieren en las notas para los distintos pasos.</span><span class="sxs-lookup"><span data-stu-id="4c7aa-107">The example shown here can be used in the USMF demo data company using the values that are suggested in the notes for various steps.</span></span>
 

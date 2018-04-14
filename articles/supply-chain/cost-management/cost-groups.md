@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f44099c2ce30d917838733af072721dd79148d27
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 750853de01213187b4df273087c53321abe25d5d
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-groups"></a><span data-ttu-id="3f251-104">Grupos de coste</span><span class="sxs-lookup"><span data-stu-id="3f251-104">Cost groups</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3f251-105">Los grupos de costes proporcionan la base para la segmentación y el análisis de contribuciones de coste en el coste calculado de un artículo fabricado como, por ejemplo, las contribuciones de coste de material, mano de obra y gastos generales.</span><span class="sxs-lookup"><span data-stu-id="3f251-105">Cost groups provide the basis for segmenting and analyzing cost contributions in a manufactured item’s calculated cost, such as the cost contributions for material, labor, and overhead.</span></span> <span data-ttu-id="3f251-106">La segmentación de grupos de costes tiene varios sinónimos dentro de los entornos de fabricación como, por ejemplo, desglose de costes, descomposición de costes o clasificación de costes.</span><span class="sxs-lookup"><span data-stu-id="3f251-106">Cost group segmentation has several synonyms within manufacturing environments, such as cost breakdown, cost decomposition, or cost classification.</span></span> 
 

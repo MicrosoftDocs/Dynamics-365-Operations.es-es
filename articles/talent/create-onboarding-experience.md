@@ -17,16 +17,16 @@ ms.author: tbisaacs
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 54caf2648766053ec5a662f48bd50a1ec9b8911a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8db1044d125820319827103182cc29808c60ee5c
 ms.contentlocale: es-es
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-an-engaging-onboarding-experience"></a><span data-ttu-id="c21c0-103">Crear una experiencia de incorporación interesante</span><span class="sxs-lookup"><span data-stu-id="c21c0-103">Create an engaging onboarding experience</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="c21c0-104">Gracias a una incorporación efectiva, los nuevos empleados pueden realizar sus tareas de manera más eficaz a la vez que van adquiriendo un sentido de pertenencia en su nuevo rol.</span><span class="sxs-lookup"><span data-stu-id="c21c0-104">When done effectively, onboarding helps new employees perform more effectively while also gaining a sense of belonging in their new role.</span></span> <span data-ttu-id="c21c0-105">El proceso de incorporación puede ayudar a los empleados a comprender su nuevo rol de manera rápida y fiable y les permite establecer relaciones duraderas que les permitirá alcanzar el éxito.</span><span class="sxs-lookup"><span data-stu-id="c21c0-105">Onboarding can help new employees understand their new role more quickly and accurately than they would have otherwise, and they get a head start on establishing relationships that can help them succeed.</span></span> <span data-ttu-id="c21c0-106">Recuerde que si el proceso de incorporación no se hace como es debido, es posible que los empleados nuevos se cuestionen el por qué se unieron a su organización.</span><span class="sxs-lookup"><span data-stu-id="c21c0-106">Alternatively, an ineffective onboarding experience might leave employees questioning their decision to join your organization.</span></span> <span data-ttu-id="c21c0-107">Un estudio que realizó Gartner en 2014, muestra que casi un tercio de los 1.005 encuestados que dejaron un trabajo en los seis primeros meses lo hicieron porque las instrucciones que les proporcionaron sus jefes no fueron concisas, su formación no fue eficaz o porque no pudieron relacionarse con sus compañeros o adaptarse al nuevo entorno.</span><span class="sxs-lookup"><span data-stu-id="c21c0-107">A study conducted by Gartner in 2014 found that nearly one third of the 1,005 respondents who quit a job within the first six months, did so because the guidelines they were given by their leadership weren't clear, their training wasn't effective, or because they didn't establish effective relationships in their new environment.</span></span>
 

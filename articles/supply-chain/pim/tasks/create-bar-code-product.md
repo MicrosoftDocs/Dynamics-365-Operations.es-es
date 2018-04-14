@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f53de983389dd8cbfb2c29af84539f1a73dc0a85
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6a55e25205bc7e996b6ab8c6915e2e86b758ee7a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-bar-code-for-a-product"></a><span data-ttu-id="026d1-103">Crear un código de barras para un producto</span><span class="sxs-lookup"><span data-stu-id="026d1-103">Create a bar code for a product</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="026d1-104">Este procedimiento muestra cómo crear manualmente un código de barras mediante el número de artículo M0001 como ejemplo.</span><span class="sxs-lookup"><span data-stu-id="026d1-104">This procedure shows how to manually create a bar code using the item number M0001 as an example.</span></span> <span data-ttu-id="026d1-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="026d1-105">The demo data company used to create this procedure is USMF.</span></span>
 

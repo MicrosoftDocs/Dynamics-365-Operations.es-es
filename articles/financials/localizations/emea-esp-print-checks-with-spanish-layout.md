@@ -18,16 +18,16 @@ ms.author: v-lenest
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: a6b40b6a25b1e1420cc6c6a36ace007b47883b1f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3656bd2664dff3e5e2e5ff7c3806738672a7bbdf
 ms.contentlocale: es-es
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="print-checks-by-using-the-spanish-layout"></a><span data-ttu-id="d6def-103">Imprimir cheques con diseño español</span><span class="sxs-lookup"><span data-stu-id="d6def-103">Print checks by using the Spanish layout</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d6def-104">Este tema proporciona información sobre cómo imprimir cheques de acuerdo con las normas que se requieren en España.</span><span class="sxs-lookup"><span data-stu-id="d6def-104">This topic provides information about how to print checks that follow the standards that are required in Spain.</span></span>
 

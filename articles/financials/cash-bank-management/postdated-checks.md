@@ -19,17 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 8fd721dc3166dcd981b749c673d3c625b4e5ae36
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad4212584b0f9062edbd5c13f4c75eaa03c853f7
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="postdated-checks"></a><span data-ttu-id="41156-105">Cheques con fecha futura</span><span class="sxs-lookup"><span data-stu-id="41156-105">Postdated checks</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="41156-106">Este artículo proporciona información acerca de la compatibilidad de los cheques posfechados en Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="41156-106">This article provides information about support for postdated checks in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="41156-107">Los cheques con fecha futura son cheques que se emiten con el fin de realizar y recibir pagos en una fecha futura.</span><span class="sxs-lookup"><span data-stu-id="41156-107">Postdated checks are checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="41156-108">Por tanto, no se puede cobrar el cheque hasta la fecha especificada.</span><span class="sxs-lookup"><span data-stu-id="41156-108">Therefore, the check can't be cashed until the specified date.</span></span>
 
@@ -76,14 +75,14 @@ ms.lasthandoff: 03/26/2018
 <td><span data-ttu-id="41156-132">Puede cancelar un cheque posfechado registrado en las situaciones siguientes: - El banco ha devuelto el cheque.</span><span class="sxs-lookup"><span data-stu-id="41156-132">You can cancel a posted postdated check in these situations: - The check is returned by the bank.</span></span>
 <span data-ttu-id="41156-133">- El cheque se ha aplicado a una factura incorrecta.</span><span class="sxs-lookup"><span data-stu-id="41156-133">- The check is applied to an incorrect invoice.</span></span>
 <span data-ttu-id="41156-134">- Se debe hacer un pago en efectivo en relación al cheque.</span><span class="sxs-lookup"><span data-stu-id="41156-134">- A cash payment is made against the check.</span></span>
-</td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="41156-135">Detener un pago de un cheque con pago diferido</span><span class="sxs-lookup"><span data-stu-id="41156-135">Stop payment for a postdated check</span></span></td>
-<td><span data-ttu-id="41156-136">Puede detener el pago de cheque posfechado que se emitió a un proveedor por motivos como fondos insuficientes, cambio de las condiciones del contrato con el proveedor, suministro de mercancías defectuosas por proveedor o devolución de mercancías al proveedor.</span><span class="sxs-lookup"><span data-stu-id="41156-136">You can stop payment on a postdated check that was issued to a vendor, for reasons such as not sufficient funds, changes in the terms of the agreement with the vendor, supply of defective goods by the vendor, or return of goods to the vendor.</span></span> <span data-ttu-id="41156-137">Puede detener el pago solo en los cheques que no ha compensado.</span><span class="sxs-lookup"><span data-stu-id="41156-137">You can stop payment only on checks that haven’t cleared.</span></span></td>
-</tr>
-</tbody>
-</table>
+  </td>
+  </tr>
+  <tr class="even">
+  <td><span data-ttu-id="41156-135">Detener un pago de un cheque con pago diferido</span><span class="sxs-lookup"><span data-stu-id="41156-135">Stop payment for a postdated check</span></span></td>
+  <td><span data-ttu-id="41156-136">Puede detener el pago de cheque posfechado que se emitió a un proveedor por motivos como fondos insuficientes, cambio de las condiciones del contrato con el proveedor, suministro de mercancías defectuosas por proveedor o devolución de mercancías al proveedor.</span><span class="sxs-lookup"><span data-stu-id="41156-136">You can stop payment on a postdated check that was issued to a vendor, for reasons such as not sufficient funds, changes in the terms of the agreement with the vendor, supply of defective goods by the vendor, or return of goods to the vendor.</span></span> <span data-ttu-id="41156-137">Puede detener el pago solo en los cheques que no ha compensado.</span><span class="sxs-lookup"><span data-stu-id="41156-137">You can stop payment only on checks that haven’t cleared.</span></span></td>
+  </tr>
+  </tbody>
+  </table>
 
 
 

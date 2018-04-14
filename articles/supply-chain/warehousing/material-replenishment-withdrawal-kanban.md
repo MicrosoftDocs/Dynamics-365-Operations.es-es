@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 011da8cd894cc044b6af8b740e49ed8d7c3c0c67
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2413c55a598e8ea8800aff2fca5244e6b204ffae
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="replenishment-with-withdrawal-kanbans"></a><span data-ttu-id="b3f4b-103">Reabastecimiento con kanbans de transporte</span><span class="sxs-lookup"><span data-stu-id="b3f4b-103">Replenishment with withdrawal kanbans</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b3f4b-104">Este tema describe cómo el kanban de transporte se usa para el reabastecimiento para las actividades de fabricación.</span><span class="sxs-lookup"><span data-stu-id="b3f4b-104">This topic describes how the withdrawal kanban is used for material replenishment for manufacturing activities.</span></span>
 

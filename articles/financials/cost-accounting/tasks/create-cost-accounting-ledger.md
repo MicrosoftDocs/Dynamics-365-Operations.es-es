@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ba8562f01ef440dd98db242550ee0e60db7acfc5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ba4d752304f2bd2e5b53dc3353bed3df34044d12
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-cost-accounting-ledger"></a><span data-ttu-id="7df94-103">Crear un libro mayor de contabilidad de costes</span><span class="sxs-lookup"><span data-stu-id="7df94-103">Create a cost accounting ledger</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7df94-104">Un libro mayor de contabilidad de costes representa la unidad de notificación global.</span><span class="sxs-lookup"><span data-stu-id="7df94-104">A cost accounting ledger represents the overall reporting unit.</span></span> <span data-ttu-id="7df94-105">Se define por una dimensión de elemento de coste, la dimensión estadística, el calendario fiscal y la divisa.</span><span class="sxs-lookup"><span data-stu-id="7df94-105">It is defined by a cost element dimension, statistical dimension, fiscal calendar, and currency.</span></span> <span data-ttu-id="7df94-106">Es agnóstico al concepto de entidades jurídicas.</span><span class="sxs-lookup"><span data-stu-id="7df94-106">It is agnostic to the concept of legal entities.</span></span> <span data-ttu-id="7df94-107">Una entidad jurídica y sus datos se pueden asociar a varios libros mayores de contabilidad de costes.</span><span class="sxs-lookup"><span data-stu-id="7df94-107">A legal entity and its data can be associated with many cost accounting ledgers.</span></span> <span data-ttu-id="7df94-108">Este registro usa la empresa USP2 con los datos para demostración.</span><span class="sxs-lookup"><span data-stu-id="7df94-108">This recording uses the USP2 demo data company.</span></span>
 

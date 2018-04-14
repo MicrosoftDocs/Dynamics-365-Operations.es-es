@@ -20,17 +20,16 @@ ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1ba80e48c8b3b5ed94b9e03302788099a1d31909
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4ea00653be087982134ecc5474512ef18a01ca22
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="payment-methods"></a><span data-ttu-id="216d6-104">Métodos de pago</span><span class="sxs-lookup"><span data-stu-id="216d6-104">Payment methods</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="216d6-105">Al configurar el sistema, se deben configurar todos los tipos de pago que acepte un minorista.</span><span class="sxs-lookup"><span data-stu-id="216d6-105">Each payment type that a retailer accepts must be configured when the system is set up.</span></span> <span data-ttu-id="216d6-106">Este artículo describe los tipos de pago que puede configurar y describe el proceso para configurarlos.</span><span class="sxs-lookup"><span data-stu-id="216d6-106">This article describes the payment types that you can set up and describes the process for setting them up.</span></span>
 

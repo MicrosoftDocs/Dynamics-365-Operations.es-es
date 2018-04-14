@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a1a7da48b45566217399bc1d01a9c6e87ad56ec8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1e30d9f8ee4c7d6aea2da33975cd7f353cdc62eb
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="fixed-asset-acquisition-posting-accounts"></a><span data-ttu-id="3fe7a-103">Cuentas de registro de adquisición de activos fijos</span><span class="sxs-lookup"><span data-stu-id="3fe7a-103">Fixed asset acquisition posting accounts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3fe7a-104">En este artículo se explica cómo configurar cuentas de registro de contabilidad general para adquirir activos.</span><span class="sxs-lookup"><span data-stu-id="3fe7a-104">This article explains how to set up general ledger posting accounts for acquiring assets.</span></span>
 

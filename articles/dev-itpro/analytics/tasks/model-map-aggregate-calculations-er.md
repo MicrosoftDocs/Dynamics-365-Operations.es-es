@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: 869a23b992f1d6dccf9327b66b3e4d611728efce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4b6533d1ba538bdc115a865f94212b84781e506e
 ms.contentlocale: es-es
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="use-a-model-mapping-configuration-for-aggregate-calculations-at-the-database-leveler"></a><span data-ttu-id="03e65-103">Utilice la configuración de asignación de modelo para cálculos agregados en el nivel de la base de datos (ER)</span><span class="sxs-lookup"><span data-stu-id="03e65-103">Use a model mapping configuration for aggregate calculations at the database level(ER)</span></span> 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="03e65-104">Este procedimiento proporciona información acerca de cómo diseñar una nueva configuración de asignación de modelo de informes electrónicos (ER) y utilizar las funciones de ER integradas para realizar cálculos agregados eficientes.</span><span class="sxs-lookup"><span data-stu-id="03e65-104">This procedure provides information about how to design a new Electronic reporting (ER) model mapping configuration and use built-in ER functions for efficient aggregate calculations.</span></span> <span data-ttu-id="03e65-105">En este procedimiento, creará una configuración para la empresa de ejemplo Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="03e65-105">In this procedure you will create a configuration for the sample company, Litware, Inc.</span></span> 
 

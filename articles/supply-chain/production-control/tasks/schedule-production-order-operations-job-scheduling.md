@@ -16,15 +16,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d4aac437876862e9f776264fc81f246c820bdf45
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c9fda708858adb3eeed9bf479936bc3539fb64a4
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a><span data-ttu-id="ac82c-103">Programar un pedido de producción con programación de operaciones y trabajo</span><span class="sxs-lookup"><span data-stu-id="ac82c-103">Schedule a production order with operations and job scheduling</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ac82c-104">Este procedimiento se centra en la programación de un pedido de producción con programación de operaciones y programación de trabajos.</span><span class="sxs-lookup"><span data-stu-id="ac82c-104">This procedure focuses on scheduling a production order with operations scheduling and job scheduling.</span></span> <span data-ttu-id="ac82c-105">No se crea ningún trabajo con la programación de tareas mientras que los trabajos se crean con programación de operaciones.</span><span class="sxs-lookup"><span data-stu-id="ac82c-105">No jobs are created with operations scheduling whereas jobs are created with job scheduling.</span></span> <span data-ttu-id="ac82c-106">La empresa de datos de prueba utilizada para crear esta tarea es USMF.</span><span class="sxs-lookup"><span data-stu-id="ac82c-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="ac82c-107">Este procedimiento está pensado para el director de producción, el planificador de producción o el supervisor de planta que trabaja en un entorno de fabricación discreto.</span><span class="sxs-lookup"><span data-stu-id="ac82c-107">This procedure is intended for the production manager, production planner, or shop floor supervisor working in a discrete manufacturing environment.</span></span>
 

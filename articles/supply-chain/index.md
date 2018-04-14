@@ -19,16 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0748747fedd009f7bffa93a6334902503189acba
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="supply-chain-management-home-page"></a><span data-ttu-id="e1eb9-103">Página de inicio de gestión de la cadena de suministro</span><span class="sxs-lookup"><span data-stu-id="e1eb9-103">Supply chain management home page</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="e1eb9-104">En este tema se proporciona una lista de temas de ayuda y otros recursos para las características de administración de la cadena de suministro de Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e1eb9-104">This topic provides a list of the help topics and other resources for the supply chain management features in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 

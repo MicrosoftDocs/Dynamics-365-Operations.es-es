@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 737784bd9bd87a72227978cb61e99d2b317088af
-ms.openlocfilehash: 1670cd41d3c4c17fcc91556cd56d18cc112668ed
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d7d66f8b498f7a55446b80245561b292cadfa9b4
 ms.contentlocale: es-es
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="determine-the-bom-version"></a><span data-ttu-id="2ddcb-103">Determinar la versión de L. MAT.</span><span class="sxs-lookup"><span data-stu-id="2ddcb-103">Determine the BOM version</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2ddcb-104">En una expansión de demanda, si un artículo tiene un tipo de pedido predeterminado de producción, el motor de planificación busca una versión de L. MAT válida en función del sitio.</span><span class="sxs-lookup"><span data-stu-id="2ddcb-104">During a demand explosion, if an item has a default order type of Production, the planning engine finds a valid BOM version based on the site.</span></span> 
 

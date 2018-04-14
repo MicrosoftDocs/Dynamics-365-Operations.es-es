@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 7431d6d1e090bf1dcab48de741b7d08a52209b76
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c94f731cbdd62d51a21a42e8fcc86c5711c0e965
 ms.contentlocale: es-es
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="deliver-an-employee-benefits-program"></a><span data-ttu-id="db1e7-103">Proporcionar un programa de prestaciones de empleado</span><span class="sxs-lookup"><span data-stu-id="db1e7-103">Deliver an employee benefits program</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="db1e7-104">Esta tarea mostrará cómo crear elementos de la prestación que se usarán al crear una nueva prestación.</span><span class="sxs-lookup"><span data-stu-id="db1e7-104">This task will show you how to create benefit elements which will be used when creating a new benefit.</span></span> <span data-ttu-id="db1e7-105">La empresa de datos de prueba utilizada para crear esta tarea es USMF.</span><span class="sxs-lookup"><span data-stu-id="db1e7-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="db1e7-106">Esta tarea está pensada para un director de compensaciones y prestaciones.</span><span class="sxs-lookup"><span data-stu-id="db1e7-106">This task is intended for a Compensation and Benefits manager.</span></span>
 

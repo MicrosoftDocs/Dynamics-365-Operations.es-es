@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2bfaf16cde329909c167d1ad402e08619bdcd5a2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 63c4147791a3b115f41638ab11a68c2dcf1c929a
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="build-a-product-configuration-model"></a><span data-ttu-id="9d95a-103">Crear un modelo de configuración de productos</span><span class="sxs-lookup"><span data-stu-id="9d95a-103">Build a product configuration model</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9d95a-104">La necesidad de configurar los productos para cumplir los requisitos especiales se está convirtiendo en la regla en lugar de la excepción, en las relaciones interempresariales y de banca B2C.</span><span class="sxs-lookup"><span data-stu-id="9d95a-104">The need to configure products to meet special requirements is becoming the rule rather than the exception, in both business-to-business and business-to-consumer relationships.</span></span>
 

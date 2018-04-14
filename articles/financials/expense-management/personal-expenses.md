@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 27698b02795b709a167235537d8b1ca871bdd371
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 11739c8b2979cf7ac9aad04e5be9903d6bc1837a
 ms.contentlocale: es-es
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personal-expenses-on-an-expense-report"></a><span data-ttu-id="06226-103">Gastos personales en un informe de gastos</span><span class="sxs-lookup"><span data-stu-id="06226-103">Personal expenses on an expense report</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="06226-104">Durante los viajes de negocios, puede que los trabajadores carguen gastos personales en su tarjeta de crédito corporativa.</span><span class="sxs-lookup"><span data-stu-id="06226-104">During business travel, workers might sometimes charge personal expenses to their corporate credit cards.</span></span> <span data-ttu-id="06226-105">Si no se define un proceso para gestionar los gastos personales, es posible que se interrumpa el proceso de aprobación del informe de gastos cuando los trabajadores envíen sus informes detallados de gastos.</span><span class="sxs-lookup"><span data-stu-id="06226-105">If you don't define a process for handling personal expenses, the approval process for expense reports might be disrupted when workers submit their itemized expense reports.</span></span> 
 

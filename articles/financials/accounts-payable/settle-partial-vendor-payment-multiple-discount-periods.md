@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d88630a62cfdebf0daf19d3bb6af7fcc6e877876
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 605f681a21b769189770d85e4ec938b6708c01b1
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a><span data-ttu-id="8c664-103">Liquidar un pago de proveedor parcial con varios períodos de descuento</span><span class="sxs-lookup"><span data-stu-id="8c664-103">Settle a partial vendor payment that has multiple discount periods</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8c664-104">Este artículo le guía por un escenario en el que se realizan varios pagos parciales a un proveedor que ofrece varios descuentos por pronto pago.</span><span class="sxs-lookup"><span data-stu-id="8c664-104">This article walks you through a scenario where multiple partial payments are made to a vendor that offers multiple cash discounts.</span></span> 
 

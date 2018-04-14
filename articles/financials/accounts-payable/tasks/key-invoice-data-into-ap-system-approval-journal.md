@@ -16,15 +16,15 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 604345d357e5019e334017b2b6d0413f40818acc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f83b5830fe06d924ebf1c528ca54a4df18253dac
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a><span data-ttu-id="ef8ef-103">Introducir datos de factura en el sistema de proveedores mediante un diario de aprobación</span><span class="sxs-lookup"><span data-stu-id="ef8ef-103">Key invoice data into accounts payable using an approval journal</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ef8ef-104">Esta guía de la tarea le mostrará cómo usar el registro de facturas para crear facturas y, después, utilizar el diario de aprobación para actualizar las cuentas de gastos.</span><span class="sxs-lookup"><span data-stu-id="ef8ef-104">This task guide will show you how to use the invoice register to create invoices and then use the approval journal to update the expense accounts.</span></span>
 

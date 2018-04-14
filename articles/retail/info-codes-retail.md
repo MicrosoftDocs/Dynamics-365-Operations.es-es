@@ -20,17 +20,16 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 0adfb1dcdaa1c57a3f8af0d874c081e19844d20a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3b1346917dc8482181acdb9dac31efbc5356dd24
 ms.contentlocale: es-es
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="info-codes"></a><span data-ttu-id="7c075-103">Códigos de información</span><span class="sxs-lookup"><span data-stu-id="7c075-103">Info codes</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="7c075-104">Este artículo proporciona información general acerca de códigos de información, grupos de códigos de información y acerca de cómo usarlos.</span><span class="sxs-lookup"><span data-stu-id="7c075-104">This article provides an overview about info codes, info code groups, and how to use them.</span></span>
 
@@ -52,7 +51,7 @@ ms.lasthandoff: 01/18/2018
 
 <span data-ttu-id="7c075-132">**Ejemplo 2: Vinculación de códigos de información a grupos de códigos de información**: cuando vende determinados productos, por ejemplo, dispositivos móviles, desea siempre recopilar un conjunto de información específica, como el número de teléfono, el identificador móvil (IMEI) y el número de serie.</span><span class="sxs-lookup"><span data-stu-id="7c075-132">**Example 2: Link info codes to info code groups** When you sell certain products, for example mobile devices, you always want to collect a specific set of information, such as telephone number, mobile equipment identifier (MEID), and serial number.</span></span> <span data-ttu-id="7c075-133">Sin embargo, también desea recopilar información distinta para una tableta en comparación con un teléfono móvil.</span><span class="sxs-lookup"><span data-stu-id="7c075-133">However, you also want to collect different information for a tablet versus a mobile phone.</span></span> <span data-ttu-id="7c075-134">Puede configurar un grupo del códigos de información que incluya los avisos para el número de teléfono, el IMEI y el número de serie, y después vincular el grupo de códigos de información a un código individual de información.</span><span class="sxs-lookup"><span data-stu-id="7c075-134">You can set up an info code group that includes prompts for the telephone number, MEID, and the serial number, and then link the info code group to an individual info code.</span></span> <span data-ttu-id="7c075-135">Cuando se activa el código de información específico del producto, el grupo de códigos de información puede activarse a continuación para permitirle recopilar los datos comunes sin tener que definir varios conjuntos de códigos de información vinculados para cada dispositivo.</span><span class="sxs-lookup"><span data-stu-id="7c075-135">When the product-specific info code is triggered, the info code group can be triggered next to enable you to collect the common data without having to define multiple sets of linked info codes for each device.</span></span>
 
- 
+
 
 
 

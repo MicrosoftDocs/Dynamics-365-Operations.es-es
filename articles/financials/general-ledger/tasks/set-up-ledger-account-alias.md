@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 134d7249abe7c97ee0e9604a86de4f1c98c0e9e1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ed79751e3e5753319935838235f3ae8664c3338d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-a-ledger-account-alias"></a><span data-ttu-id="7a56a-103">Configurar un alias de cuenta contable</span><span class="sxs-lookup"><span data-stu-id="7a56a-103">Set up a ledger account alias</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7a56a-104">Este procedimiento muestra cómo crear un alias de cuenta que proporcione un método abreviado para especificar un número de cuenta.</span><span class="sxs-lookup"><span data-stu-id="7a56a-104">This procedure shows how to create an account alias that provides a shortcut for entering an account number.</span></span> <span data-ttu-id="7a56a-105">Este procedimiento usa la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="7a56a-105">This procedure users demo data company USMF.</span></span>
 

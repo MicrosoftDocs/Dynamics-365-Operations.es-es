@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 89d3babc4447ca7398521b93634db7ecb6cfb5de
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b8f3961e17ba381a75de448c85335abb026c0c53
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-legal-entity"></a><span data-ttu-id="181da-103">Crear una entidad jurídica</span><span class="sxs-lookup"><span data-stu-id="181da-103">Create a legal entity</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="181da-104">Una entidad jurídica es una organización identificada mediante el registro en una autoridad jurídica.</span><span class="sxs-lookup"><span data-stu-id="181da-104">A legal entity is an organization that is identified through registration with a legal authority.</span></span> <span data-ttu-id="181da-105">Las entidades jurídicas pueden realizar contratos y tienen la obligación de preparar declaraciones para dar a conocer su rendimiento.</span><span class="sxs-lookup"><span data-stu-id="181da-105">Legal entities can enter into contracts and are required to prepare statements that report on their performance.</span></span> <span data-ttu-id="181da-106">El siguiente procedimiento explica cómo crear una entidad jurídica.</span><span class="sxs-lookup"><span data-stu-id="181da-106">The following procedure explains how to create a legal entity.</span></span> <span data-ttu-id="181da-107">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="181da-107">The demo data company used to create this procedure is USMF.</span></span>
 

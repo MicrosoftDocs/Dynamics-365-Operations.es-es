@@ -18,15 +18,15 @@ ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2ecfb759a59292ddbce484b3ae20368c486fedd9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bea198488da52de21aba0c33b4004b6ad7518fd3
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a><span data-ttu-id="13482-103">Configurar SQL Server Reporting Services para una implementación local</span><span class="sxs-lookup"><span data-stu-id="13482-103">Configure SQL Server Reporting Services for an on-premises deployment</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="13482-104">Use los pasos de este tema para configurar SQL Server Reporting Services (SSRS) para la implementación de su Microsoft Dynamics 365 for Finance and Operations (local).</span><span class="sxs-lookup"><span data-stu-id="13482-104">Use the steps in this topic to configure SQL Server Reporting Services (SSRS) for your Microsoft Dynamics 365 for Finance and Operations (on-premises) deployment.</span></span>
 
@@ -52,13 +52,13 @@ ms.lasthandoff: 03/26/2018
 
     <span data-ttu-id="13482-119">[![ficha de url de portal Web](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)</span><span class="sxs-lookup"><span data-stu-id="13482-119">[![web portal url tab](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)</span></span>
     
-  <span data-ttu-id="13482-120">Tras configurar el portal, la pestaña **Portal Web** coincidirá el siguiente gráfico.</span><span class="sxs-lookup"><span data-stu-id="13482-120">After the Portal is configured, the **Web Portal** tab will match the following graphic.</span></span>
+   <span data-ttu-id="13482-120">Tras configurar el portal, la pestaña **Portal Web** coincidirá el siguiente gráfico.</span><span class="sxs-lookup"><span data-stu-id="13482-120">After the Portal is configured, the **Web Portal** tab will match the following graphic.</span></span>
     <span data-ttu-id="13482-121">[![ficha de portal Web](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)</span><span class="sxs-lookup"><span data-stu-id="13482-121">[![web portal tab](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)</span></span>
     
 8. <span data-ttu-id="13482-122">Haga clic en la dirección URL de informes para ver el portal Web de SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="13482-122">Click the reports URL to view the SQL Server Reporting Services web portal.</span></span> 
-9.  <span data-ttu-id="13482-123">Cuando esté en el portal, cree una nueva carpeta denominada **Dynamics**.</span><span class="sxs-lookup"><span data-stu-id="13482-123">When you are in the portal, create a new folder named **Dynamics**.</span></span>
+9. <span data-ttu-id="13482-123">Cuando esté en el portal, cree una nueva carpeta denominada **Dynamics**.</span><span class="sxs-lookup"><span data-stu-id="13482-123">When you are in the portal, create a new folder named **Dynamics**.</span></span>
 
-    <span data-ttu-id="13482-124">[![carpeta dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span><span class="sxs-lookup"><span data-stu-id="13482-124">[![dynamics folder](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span></span>
+   <span data-ttu-id="13482-124">[![carpeta dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span><span class="sxs-lookup"><span data-stu-id="13482-124">[![dynamics folder](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span></span>
     
 10. <span data-ttu-id="13482-125">En **Administrador de configuración de Reporting Services**, haga clic en la pestaña **Configuración de correo electrónico** y compruebe que los valores coincidan con el siguiente gráfico.</span><span class="sxs-lookup"><span data-stu-id="13482-125">In the **Reporting Services Configuration Manager**, click the **E-mail Settings** tab and verify that the settings match the following graphic.</span></span>
 
@@ -68,15 +68,15 @@ ms.lasthandoff: 03/26/2018
 
     <span data-ttu-id="13482-128">[![Pestaña Cuenta de ejecución](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)</span><span class="sxs-lookup"><span data-stu-id="13482-128">[![execution account tab](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)</span></span>
     
-  <span data-ttu-id="13482-129">No cambie la configuración predeterminada en la pestaña **Claves de cifrado**. [![pestaña de claves de cifrado](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span><span class="sxs-lookup"><span data-stu-id="13482-129">Don’t change the default settings on the **Encryption Keys** tab. [![encryption keys tab](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span></span>
+    <span data-ttu-id="13482-129">No cambie la configuración predeterminada en la pestaña **Claves de cifrado**. [![pestaña de claves de cifrado](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span><span class="sxs-lookup"><span data-stu-id="13482-129">Don’t change the default settings on the **Encryption Keys** tab. [![encryption keys tab](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span></span>
     
 12. <span data-ttu-id="13482-130">Haga clic en la pestaña **Configuración de suscripción** y compruebe que los valores coincidan con el siguiente gráfico.</span><span class="sxs-lookup"><span data-stu-id="13482-130">Click the **Subscription Settings** tab, and verify that the settings match the following graphic.</span></span>
 
     <span data-ttu-id="13482-131">[![pestaña de configuración de suscripción](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)</span><span class="sxs-lookup"><span data-stu-id="13482-131">[![subscription settings tab](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)</span></span>
     
-  <span data-ttu-id="13482-132">No cambie la configuración predeterminada en la pestaña **Escala de implementación**. [![pestaña de escala de implementación](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span><span class="sxs-lookup"><span data-stu-id="13482-132">Don’t change the default settings on the **Scale-out Deployment** tab. [![scale-out deployment tab](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span></span>
+    <span data-ttu-id="13482-132">No cambie la configuración predeterminada en la pestaña **Escala de implementación**. [![pestaña de escala de implementación](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span><span class="sxs-lookup"><span data-stu-id="13482-132">Don’t change the default settings on the **Scale-out Deployment** tab. [![scale-out deployment tab](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span></span>
     
-  <span data-ttu-id="13482-133">No cambie la configuración predeterminada en la pestaña **Integración de Power BI**. [![pestaña de integración de power bi](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span><span class="sxs-lookup"><span data-stu-id="13482-133">Don’t change the default settings on the **Power BI Integration** tab. [![power bi integration tab](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span></span> 
+    <span data-ttu-id="13482-133">No cambie la configuración predeterminada en la pestaña **Integración de Power BI**. [![pestaña de integración de power bi](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span><span class="sxs-lookup"><span data-stu-id="13482-133">Don’t change the default settings on the **Power BI Integration** tab. [![power bi integration tab](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span></span> 
     
 13. <span data-ttu-id="13482-134">Haga clic en **Salir** para cerrar el **administrador de configuración de Reporting Services**.</span><span class="sxs-lookup"><span data-stu-id="13482-134">Click **Exit** to close the **Reporting Services Configuration Manager**.</span></span>
 

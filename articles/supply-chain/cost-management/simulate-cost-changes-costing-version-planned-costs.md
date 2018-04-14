@@ -20,17 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8d5b6354ee8c627014a6da675bb2a7b52db97348
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 75776df57e893e6810275d9321712d83a56e6e32
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a><span data-ttu-id="2d044-103">Simular cambios de coste mediante una versión de gestión de costes para costes planificados</span><span class="sxs-lookup"><span data-stu-id="2d044-103">Simulate cost changes by using a costing version for planned costs</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2d044-104">Este artículo explica cómo puede simular los efectos de los cambios de coste en los costes calculados de un artículo fabricado con una versión de gestión de costes independiente para los costes planificados.</span><span class="sxs-lookup"><span data-stu-id="2d044-104">This article explains how you can simulate the effects of cost changes on a manufactured item’s calculated costs by using a separate costing version for planned costs.</span></span>
 

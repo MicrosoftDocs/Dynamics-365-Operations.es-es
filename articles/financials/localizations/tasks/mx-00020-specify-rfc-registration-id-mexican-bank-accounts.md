@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f2d10ac3a1e9ade3779f110c99f678f64efbf770
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e85e040c34de16acc6a1d0daa39af6fdc82f30a1
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="specify-the-rfc-registration-id-for-mexican-bank-accounts"></a><span data-ttu-id="c89ab-103">Especificar la identificación del registro de RFC para las cuentas bancarias mejicanas</span><span class="sxs-lookup"><span data-stu-id="c89ab-103">Specify the RFC registration ID for Mexican bank accounts</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c89ab-104">Esta tarea le guía por la creación de la cuenta bancaria para México y la asignación del id. de registro de impuestos de RFC.</span><span class="sxs-lookup"><span data-stu-id="c89ab-104">This task walks you through creating the Bank account for Mexico and assigning the RFC tax registration ID.</span></span> <span data-ttu-id="c89ab-105">Esta tarea usa la empresa de demostración MXMF.</span><span class="sxs-lookup"><span data-stu-id="c89ab-105">This task uses the MXMF demo company data.</span></span>
 

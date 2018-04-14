@@ -16,15 +16,15 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cafd499e849570cae7b7f58bf2d487a7ac0093e6
-ms.openlocfilehash: e9a94231f755ff23bb442d62e90daff8f2d1f4fb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 707048bb0beb08c5cd8f97590195ef4f7d21c74f
 ms.contentlocale: es-es
-ms.lasthandoff: 10/30/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="vendor-payment-overview"></a><span data-ttu-id="ecdf6-103">Visión general de pagos de proveedor</span><span class="sxs-lookup"><span data-stu-id="ecdf6-103">Vendor payment overview</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ecdf6-104">Este procedimiento le mostrará los distintos métodos usados para crear pagos de proveedor, incluido cómo usar una propuesta de pago o especificar manualmente un pago único.</span><span class="sxs-lookup"><span data-stu-id="ecdf6-104">This task guide will walk you through various methods used to create vendor payments, including how to use a payment proposal or manually entering a one-off payment.</span></span> <span data-ttu-id="ecdf6-105">Este procedimiento usa la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="ecdf6-105">This procedure uses the USMF demo company.</span></span>
 

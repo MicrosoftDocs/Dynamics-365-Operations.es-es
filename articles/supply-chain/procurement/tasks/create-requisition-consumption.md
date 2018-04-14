@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7d8ca4e7eedea140f32e264c205b243027a06d03
-ms.openlocfilehash: d1ea95d0bc283297fcedaee730e1829850f07998
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bad86a4726ce69015f318d9af98992b36d34b29a
 ms.contentlocale: es-es
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-requisition-for-consumption"></a><span data-ttu-id="2181e-103">Creación de una solicitud para consumo</span><span class="sxs-lookup"><span data-stu-id="2181e-103">Create a requisition for consumption</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2181e-104">Este procedimiento le muestra el proceso para crear un pedido o solicitud.</span><span class="sxs-lookup"><span data-stu-id="2181e-104">This procedure walks you through the process of creating a requisition.</span></span> <span data-ttu-id="2181e-105">Le muestra diferentes formas de buscar productos en el catálogo de compras y cómo agregar un producto que no esté en el catálogo.</span><span class="sxs-lookup"><span data-stu-id="2181e-105">It shows you different ways to search for products in your procurement catalog and how to add a product that isn’t in your catalog.</span></span> <span data-ttu-id="2181e-106">Antes de comenzar este procedimiento, debe haber configurado una directiva de compra con Consumo como tipo predeterminado de solicitud.</span><span class="sxs-lookup"><span data-stu-id="2181e-106">Before you start this procedure, you must have a purchasing policy set up with Consumption as the default type of requisition.</span></span> <span data-ttu-id="2181e-107">Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos.</span><span class="sxs-lookup"><span data-stu-id="2181e-107">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="2181e-108">El procedimiento solo lo puede realizar un perfil de usuario configurado como trabajador.</span><span class="sxs-lookup"><span data-stu-id="2181e-108">The procedure can only be carried out by a user profile that is set up as worker.</span></span>  <span data-ttu-id="2181e-109">Esta tarea la realiza normalmente un empleado.</span><span class="sxs-lookup"><span data-stu-id="2181e-109">This task would normally be carried out by an employee.</span></span> <span data-ttu-id="2181e-110">El rol de seguridad Empleado le permitirá realiza las tareas o, si está usando USMF, podrá iniciar sesión como Alicia.</span><span class="sxs-lookup"><span data-stu-id="2181e-110">The Employee employ security role will allow you to carry out the tasks, or if you’re using USMF, you can log in as Alicia.</span></span>
 

@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b5f262318b4defb941f1216d0bfe06961f62bad4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6436a412f6b10040e1c7254a4912c839e610dede
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-data-allocation"></a><span data-ttu-id="9f36e-103">Asignación de datos de la planificación presupuestaria</span><span class="sxs-lookup"><span data-stu-id="9f36e-103">Budget planning data allocation</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9f36e-104">Este artículo describe los distintos métodos de asignación que están disponibles en Microsoft Dynamics 365 for Finance and Operations y cómo se pueden usar.</span><span class="sxs-lookup"><span data-stu-id="9f36e-104">This article describes the various allocation methods that are available in Microsoft Dynamics 365 for Finance and Operations and how they can be used.</span></span>  
 

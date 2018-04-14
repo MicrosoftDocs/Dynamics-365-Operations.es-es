@@ -17,15 +17,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 16c2cacaf70df5455c3ed49b8dcb5756e89f8cb8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f8190eaedf9aff7eda690542bb6b14e701d9a008
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016-only"></a><span data-ttu-id="aa250-103">Calcular una L. MAT. mediante una estructura multinivel (solo febrero de 2016)</span><span class="sxs-lookup"><span data-stu-id="aa250-103">Calculate a BOM by using a multilevel structure (February 2016 only)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="aa250-104">Este procedimiento muestra cómo calcular el coste de un producto terminado mediante la expansión multinivel basada en la hoja de Gestión de costes.</span><span class="sxs-lookup"><span data-stu-id="aa250-104">This procedure shows how to calculate the cost of a finished product by using multilevel explosion that is based in the Costing sheet.</span></span> <span data-ttu-id="aa250-105">Es la séptima tarea en las series de cálculo BOM.</span><span class="sxs-lookup"><span data-stu-id="aa250-105">It is the seventh task in the BOM calculation series.</span></span> <span data-ttu-id="aa250-106">La empresa de datos de prueba utilizada para crear esta tarea es USMF.</span><span class="sxs-lookup"><span data-stu-id="aa250-106">The demo data company used to create this task is USMF.</span></span>
 

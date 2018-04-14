@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c408f30c783d58766ab93b13c589079c3ef375de
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a5f53a76ebd0bd428f791ce8493e9f388eb8e2fa
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="bank-statement-file-import-troubleshooting"></a><span data-ttu-id="a1f88-107">Solución de problemas de la importación de archivos de extractos bancarios</span><span class="sxs-lookup"><span data-stu-id="a1f88-107">Bank statement file import troubleshooting</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a1f88-108">Es importante que el archivo de extracto bancario del banco coincida con el diseño admitido por Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a1f88-108">It's important that the bank statement file from the bank match the layout that Microsoft Dynamics 365 for Finance and Operations supports.</span></span> <span data-ttu-id="a1f88-109">Debido a los estrictos estándares para extractos bancarios, la mayoría de las integraciones funcionarán correctamente.</span><span class="sxs-lookup"><span data-stu-id="a1f88-109">Because of strict standards for bank statements, most integrations will work correctly.</span></span> <span data-ttu-id="a1f88-110">Sin embargo, a veces, el archivo de extracto no se puede importar o tiene resultados incorrectos.</span><span class="sxs-lookup"><span data-stu-id="a1f88-110">However, sometimes the statement file can't be imported or has incorrect results.</span></span> <span data-ttu-id="a1f88-111">Normalmente, estos problemas son originados por pequeñas diferencias en el archivo de extracto bancario.</span><span class="sxs-lookup"><span data-stu-id="a1f88-111">Typically, these issues are caused by small differences in the bank statement file.</span></span> <span data-ttu-id="a1f88-112">En este artículo se explica cómo corregir estas diferencias y resolver los problemas.</span><span class="sxs-lookup"><span data-stu-id="a1f88-112">This article explains how to fix these differences and resolve the issues.</span></span>
 

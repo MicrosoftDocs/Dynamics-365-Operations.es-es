@@ -19,17 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9c2f8fd846181c404492ff32907a3396beb90685
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 116087516d424ef83e888fee92344e98746e9505
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="warehouse-configuration"></a><span data-ttu-id="498e4-104">Configuración de almacén</span><span class="sxs-lookup"><span data-stu-id="498e4-104">Warehouse configuration</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="498e4-105">Este artículo explica cómo configurar un almacén.</span><span class="sxs-lookup"><span data-stu-id="498e4-105">This article explains how to configure a warehouse.</span></span> <span data-ttu-id="498e4-106">Incluye información acerca de cómo habilitar un diseño de almacén y procesos de almacén.</span><span class="sxs-lookup"><span data-stu-id="498e4-106">It includes information about how to enable a warehouse layout and warehouse processes.</span></span>
 

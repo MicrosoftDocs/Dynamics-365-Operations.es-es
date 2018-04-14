@@ -17,15 +17,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: f9de2f79c68fead5ede714ff05bba97118874aad
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 449c8411b06303a470aba279f85fb904ca1ad3c2
 ms.contentlocale: es-es
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a><span data-ttu-id="c40bc-103">Configurar un trabajador mediante el dispositivo móvil de trabajo</span><span class="sxs-lookup"><span data-stu-id="c40bc-103">Configure a worker using the mobile job device</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c40bc-104">Este procedimiento le muestra cómo asignar los roles correctos a la cuenta de usuario de un trabajador y, a continuación, habilitar al trabajador para que realice registros de planta.</span><span class="sxs-lookup"><span data-stu-id="c40bc-104">This procedure shows you how to assign the correct roles to the user account of a worker, and then enable the worker to do shop floor registrations.</span></span>
 

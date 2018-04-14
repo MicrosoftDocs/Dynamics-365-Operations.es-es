@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e5d4ee2fb1cd58107043939c3721fd857909f16b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9be828055c33c1c69dcdc12bfa7a0cc2bca947d3
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="registration-for-manufacturing-execution"></a><span data-ttu-id="f1173-103">Registro para ejecución de fabricación</span><span class="sxs-lookup"><span data-stu-id="f1173-103">Registration for manufacturing execution</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f1173-104">En este tema se describen los conceptos y los términos clave que necesita comprender para configurar y usar la ejecución de fabricación.</span><span class="sxs-lookup"><span data-stu-id="f1173-104">This topic describes key concepts and terms that you need to understand to configure and use manufacturing execution.</span></span> 
 

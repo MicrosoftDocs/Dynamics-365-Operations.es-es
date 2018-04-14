@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: b1868851d22f41d3278cd9574a48bdf062185012
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5109bc180cedfb21dfb8b2920d71d54812e7e6cf
 ms.contentlocale: es-es
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="piece-picking-confirmation"></a><span data-ttu-id="61fdd-103">Confirmación de picking de pieza</span><span class="sxs-lookup"><span data-stu-id="61fdd-103">Piece picking confirmation</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="61fdd-104">El picking de pieza le permite confirmar cada pieza de inventario con picking o trabajo de recuento en un dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="61fdd-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="61fdd-105">Para las selecciones, puede confirmar la cantidad de trabajo que se procesará hasta la cantidad especificada en el trabajo que desea seleccionar.</span><span class="sxs-lookup"><span data-stu-id="61fdd-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="61fdd-106">Para el trabajo de recuento, puede digitalizar el inventario que está contando y hacer un seguimiento de la cantidad total.</span><span class="sxs-lookup"><span data-stu-id="61fdd-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 
@@ -46,8 +46,10 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="61fdd-122">Las siguientes opciones están disponibles para la selección cuando el tipo de trabajo es selección o el recuento.</span><span class="sxs-lookup"><span data-stu-id="61fdd-122">The following options become available for selection when the work type is pick or counting.</span></span>
 
-| <span data-ttu-id="61fdd-123">Opción</span><span class="sxs-lookup"><span data-stu-id="61fdd-123">Option</span></span>        | <span data-ttu-id="61fdd-124">Descripción</span><span class="sxs-lookup"><span data-stu-id="61fdd-124">Description</span></span>   | 
-| ------------- | ------------- |
-| <span data-ttu-id="61fdd-125">Confirmación de picking de pieza</span><span class="sxs-lookup"><span data-stu-id="61fdd-125">Piece picking confirmation</span></span>   | <span data-ttu-id="61fdd-126">Disponible para los tipos de trabajo selección y recuento.</span><span class="sxs-lookup"><span data-stu-id="61fdd-126">Available for pick and counting work types.</span></span> <span data-ttu-id="61fdd-127">La confirmación de producto se selecciona automáticamente.</span><span class="sxs-lookup"><span data-stu-id="61fdd-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="61fdd-128">Permite confirmar cada pieza de inventario desde el dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="61fdd-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> | 
-| <span data-ttu-id="61fdd-129">Número máximo de piezas</span><span class="sxs-lookup"><span data-stu-id="61fdd-129">Maximum number of pieces</span></span>     | <span data-ttu-id="61fdd-130">Disponible para el trabajo de selección si la confirmación de picking de piezas está habilitada.</span><span class="sxs-lookup"><span data-stu-id="61fdd-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="61fdd-131">Establece un límite en el número de piezas que debe confirmar.</span><span class="sxs-lookup"><span data-stu-id="61fdd-131">Sets a limit to the number of pieces that you must confirm.</span></span> |  
+
+|           <span data-ttu-id="61fdd-123">Opción</span><span class="sxs-lookup"><span data-stu-id="61fdd-123">Option</span></span>           |                                                                            <span data-ttu-id="61fdd-124">Descripción</span><span class="sxs-lookup"><span data-stu-id="61fdd-124">Description</span></span>                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="61fdd-125">Confirmación de picking de pieza</span><span class="sxs-lookup"><span data-stu-id="61fdd-125">Piece picking confirmation</span></span> | <span data-ttu-id="61fdd-126">Disponible para los tipos de trabajo selección y recuento.</span><span class="sxs-lookup"><span data-stu-id="61fdd-126">Available for pick and counting work types.</span></span> <span data-ttu-id="61fdd-127">La confirmación de producto se selecciona automáticamente.</span><span class="sxs-lookup"><span data-stu-id="61fdd-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="61fdd-128">Permite confirmar cada pieza de inventario desde el dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="61fdd-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> |
+|  <span data-ttu-id="61fdd-129">Número máximo de piezas</span><span class="sxs-lookup"><span data-stu-id="61fdd-129">Maximum number of pieces</span></span>  |                   <span data-ttu-id="61fdd-130">Disponible para el trabajo de selección si la confirmación de picking de piezas está habilitada.</span><span class="sxs-lookup"><span data-stu-id="61fdd-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="61fdd-131">Establece un límite en el número de piezas que debe confirmar.</span><span class="sxs-lookup"><span data-stu-id="61fdd-131">Sets a limit to the number of pieces that you must confirm.</span></span>                   |
+
 

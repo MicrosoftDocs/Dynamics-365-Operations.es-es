@@ -20,17 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8162797256e221192dc3e1a12aa145e28d5bc0f5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d49bea9579a54d175cf21780a97d67f2c35982e8
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="job-scheduling"></a><span data-ttu-id="b6aea-104">Programación de trabajos</span><span class="sxs-lookup"><span data-stu-id="b6aea-104">Job scheduling</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b6aea-105">Este artículo proporciona información acerca de la programación de trabajos, que es un formulario más detallado de programación que la programación de operaciones.</span><span class="sxs-lookup"><span data-stu-id="b6aea-105">This article provides information about job scheduling, which is a more detailed form of scheduling than operations scheduling.</span></span> <span data-ttu-id="b6aea-106">Puede utilizar una programación de trabajos para programar trabajos o pedidos de tienda y controlar el entorno de fabricación.</span><span class="sxs-lookup"><span data-stu-id="b6aea-106">You can use job scheduling to schedule individual jobs or shop orders, and to control the manufacturing environment.</span></span>
 

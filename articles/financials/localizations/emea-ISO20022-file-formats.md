@@ -17,16 +17,16 @@ ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f55e8fbc4d13f84686298cb8dbcebb4baf134cf3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f094a5420e34a13ac654b01fb145728c7e9cca1c
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="import-iso20022-files"></a><span data-ttu-id="01cd9-103">Importar archivos ISO20022</span><span class="sxs-lookup"><span data-stu-id="01cd9-103">Import ISO20022 files</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="01cd9-104">Puede importar archivos de pago que tienen los siguientes formatos:</span><span class="sxs-lookup"><span data-stu-id="01cd9-104">You can import payment files that have the following formats:</span></span>
 
@@ -41,8 +41,8 @@ ms.lasthandoff: 03/26/2018
 3. <span data-ttu-id="01cd9-113">En la página **Cuenta bancaria de cliente**, configure un registro de cuenta bancaria del cliente especificando la siguiente información: IBAN o número de cuenta bancaria, y código SWIFT o número de ruta.</span><span class="sxs-lookup"><span data-stu-id="01cd9-113">On the **Customer bank account** page, set up a customer bank account record by entering the following information: IBAN or bank account number, and SWIFT code or routing number.</span></span>
 4. <span data-ttu-id="01cd9-114">En la página **Cuentas bancarias**, configure cuentas bancarias de entidades jurídicas especificando la siguiente información: IBAN o número de cuenta bancaria, y código SWIFT o número de ruta, divisa y dirección.</span><span class="sxs-lookup"><span data-stu-id="01cd9-114">On the **Bank accounts** page, set up legal entity bank accounts by entering the following information: IBAN or bank account number, SWIFT code or routing number, currency, and address.</span></span>
 
-    > [!NOTE]
-        > <span data-ttu-id="01cd9-115">Si tiene previsto usar la conciliación bancaria avanzada, en la ficha desplegable **Conciliación**, establezca la opción **Conciliación bancaria avanzada** en **Sí**.</span><span class="sxs-lookup"><span data-stu-id="01cd9-115">If you plan to use Advanced bank reconciliation, on the **Reconciliation** FastTab, set the **Advanced bank reconciliation** option to **Yes**.</span></span> <span data-ttu-id="01cd9-116">Si pretende conciliar pagos importados sin registrar, establezca la opción **Usar extractos bancarios como confirmación de pagos electrónicos** en **Sí**.</span><span class="sxs-lookup"><span data-stu-id="01cd9-116">If you plan to reconcile unposted imported payments, set the **Use bank statements as confirmation of electronic payments** option to **Yes**.</span></span>
+   > [!NOTE]
+   > <span data-ttu-id="01cd9-115">Si tiene previsto usar la conciliación bancaria avanzada, en la ficha desplegable **Conciliación**, establezca la opción **Conciliación bancaria avanzada** en **Sí**.</span><span class="sxs-lookup"><span data-stu-id="01cd9-115">If you plan to use Advanced bank reconciliation, on the **Reconciliation** FastTab, set the **Advanced bank reconciliation** option to **Yes**.</span></span> <span data-ttu-id="01cd9-116">Si pretende conciliar pagos importados sin registrar, establezca la opción **Usar extractos bancarios como confirmación de pagos electrónicos** en **Sí**.</span><span class="sxs-lookup"><span data-stu-id="01cd9-116">If you plan to reconcile unposted imported payments, set the **Use bank statements as confirmation of electronic payments** option to **Yes**.</span></span>
 
 5. <span data-ttu-id="01cd9-117">Opcional: En la página **Asignación de código de transacción**, configure la asignación entre los códigos de transacción bancaria en los tipos de archivo y de transacción bancaria.</span><span class="sxs-lookup"><span data-stu-id="01cd9-117">Optional: On the **Transaction code mapping** page, set up the mapping between bank transaction codes in the file and bank transaction types.</span></span>
 6. <span data-ttu-id="01cd9-118">Si el archivo contiene gastos de transacción que desea registrar junto con el pago de entrada, cree una cuota de pago en la página **Cuota de pago del cliente**.</span><span class="sxs-lookup"><span data-stu-id="01cd9-118">If the file contains transaction charges that you want to post together with the incoming payment, create a payment fee on the **Customer payment fee** page.</span></span> <span data-ttu-id="01cd9-119">A continuación, en la página **Formas de pago**, asocie la cuota de pago con la cuenta bancaria en la configuración de cuota de pago.</span><span class="sxs-lookup"><span data-stu-id="01cd9-119">Then, on the **Methods of payment** page, associate the payment fee with the bank account in the payment fee setup.</span></span>

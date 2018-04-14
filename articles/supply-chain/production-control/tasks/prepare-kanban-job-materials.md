@@ -17,15 +17,15 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: fdedab1bfccafb4f8592aea8ec421e3ba311a94a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4af670fd762be1afa283310bb26ba95a40de30d3
 ms.contentlocale: es-es
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a><span data-ttu-id="4dbee-103">Preparación de un trabajo kanban de proceso cuando los materiales están disponibles para la celda de trabajo</span><span class="sxs-lookup"><span data-stu-id="4dbee-103">Prepare a process kanban job when materials are available for the work cell</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4dbee-104">Esta tarea se centra en la preparación de un trabajo kanban de proceso cuando todos los materiales están disponibles para la celda de trabajo.</span><span class="sxs-lookup"><span data-stu-id="4dbee-104">This task focuses on preparing a process kanban job when all materials are available for the work cell.</span></span> <span data-ttu-id="4dbee-105">La empresa de datos de prueba utilizada para crear esta tarea es USMF.</span><span class="sxs-lookup"><span data-stu-id="4dbee-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="4dbee-106">Esta tarea va destinada al operario de la máquina.</span><span class="sxs-lookup"><span data-stu-id="4dbee-106">This task is intended for the machine operator.</span></span>
 

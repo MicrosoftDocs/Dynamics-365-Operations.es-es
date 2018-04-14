@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 59b41b31931a128898ee70a583bfb9c515f90abc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d10f62126b54db362408c120fb215be44a18f676
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="activity-based-subcontracting"></a><span data-ttu-id="5428a-103">Subcontratación basada en actividad</span><span class="sxs-lookup"><span data-stu-id="5428a-103">Activity-based subcontracting</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5428a-104">Este tema describe detalladamente cómo usar actividades subcontratadas en un flujo de producción para la lean manufacturing.</span><span class="sxs-lookup"><span data-stu-id="5428a-104">This topic describes, in detail, how to use subcontracted activities in a production flow for lean manufacturing.</span></span>
 

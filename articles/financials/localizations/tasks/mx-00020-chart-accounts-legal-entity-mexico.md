@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d7840dd78b947d789f01d91a72bb27d2570e923d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cdb20ba656914dadad1c082688cd43ba846ca7d9
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-the-chart-of-accounts-for-a-legal-entity-in-mexico"></a><span data-ttu-id="a9322-103">Configuración del plan de cuentas para una entidad jurídica en México</span><span class="sxs-lookup"><span data-stu-id="a9322-103">Set up the chart of accounts for a legal entity in Mexico</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a9322-104">Configure parámetros específicos en el plan contable para habilitar la generación de informes de contabilidad electrónicos para una entidad jurídica mexicana.</span><span class="sxs-lookup"><span data-stu-id="a9322-104">Set up specific parameters in the chart of accounts to allow the generation of electronic ledger accounting reports for a Mexican legal entity.</span></span> <span data-ttu-id="a9322-105">Esta tarea se creó con la empresa de datos de demostración MXMF.</span><span class="sxs-lookup"><span data-stu-id="a9322-105">This task was created using the MXMF demo data company.</span></span>
 

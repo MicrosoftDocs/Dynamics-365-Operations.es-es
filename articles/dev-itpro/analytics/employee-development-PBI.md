@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 4cf60021b96ab492c5d0b2535a117cb33ab13524
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
 ms.contentlocale: es-es
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="employee-development-power-bi-content"></a><span data-ttu-id="33699-103">Contenido en Power BI de Desarrollo de empleados</span><span class="sxs-lookup"><span data-stu-id="33699-103">Employee development Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="33699-104">Este tema describe el contenido en Microsoft Power BI de **Desarrollo de empleados**.</span><span class="sxs-lookup"><span data-stu-id="33699-104">This topic describes the **Employee development** Microsoft Power BI content.</span></span>
 
@@ -45,6 +45,7 @@ ms.lasthandoff: 01/31/2018
 <span data-ttu-id="33699-124">Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e iconos al panel de información.</span><span class="sxs-lookup"><span data-stu-id="33699-124">You can filter the charts and tiles on these reports, and pin the charts and tiles to the dashboard.</span></span> <span data-ttu-id="33699-125">Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span><span class="sxs-lookup"><span data-stu-id="33699-125">For more information about how to filter and pin in Power BI, see [Create and Configure A Dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span></span>
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="33699-126">Comprensión del modelo de datos y de las entidades</span><span class="sxs-lookup"><span data-stu-id="33699-126">Understanding the data model and entities</span></span>
+
 | <span data-ttu-id="33699-127">Entidad</span><span class="sxs-lookup"><span data-stu-id="33699-127">Entity</span></span>                   | <span data-ttu-id="33699-128">Contenido</span><span class="sxs-lookup"><span data-stu-id="33699-128">Contents</span></span>                                                                                                   | <span data-ttu-id="33699-129">Relaciones con otras entidades</span><span class="sxs-lookup"><span data-stu-id="33699-129">Relationships with other entities</span></span> |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | <span data-ttu-id="33699-130">Contrapartida del calendario</span><span class="sxs-lookup"><span data-stu-id="33699-130">Calendar Offset</span></span>          | <span data-ttu-id="33699-131">Desplazamientos del calendario para dividir informes</span><span class="sxs-lookup"><span data-stu-id="33699-131">Calendar offsets to slice reports</span></span>                                                                          | <span data-ttu-id="33699-132">Asignación de puesto anterior, tenencia de puestos, tendencia de empleado, empleado cesado</span><span class="sxs-lookup"><span data-stu-id="33699-132">Past Position Assignment, Position Trend, Employee Trend, Terminated Employee</span></span> 

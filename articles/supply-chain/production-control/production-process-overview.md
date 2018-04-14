@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c785b2eb787fa7327e336ea74c91177816d33a9c
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="production-process-overview"></a><span data-ttu-id="337d7-104">Visión general del proceso de producción</span><span class="sxs-lookup"><span data-stu-id="337d7-104">Production process overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="337d7-105">Este tema ofrece una visión general de los procesos de producción.</span><span class="sxs-lookup"><span data-stu-id="337d7-105">This topic gives an overview of the production processes.</span></span> <span data-ttu-id="337d7-106">Describe las distintas etapas de pedidos de producción, de pedidos de lote y de kanbans, desde la creación de pedidos al cierre del período financiero.</span><span class="sxs-lookup"><span data-stu-id="337d7-106">It describes the various stages of production orders, batch orders, and kanbans, from order creation to closing of the financial period.</span></span> 
 

@@ -18,17 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: f39e4d8e2e808337184c8fe9af6f8aad00f27d0e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 25aa70f8773d2012a6fa4298e568f6370006daa4
 ms.contentlocale: es-es
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-fiscal-data-from-the-invoice-account"></a><span data-ttu-id="64461-104">Usar datos fiscales de la cuenta de factura</span><span class="sxs-lookup"><span data-stu-id="64461-104">Use fiscal data from the invoice account</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="64461-105">Para las entidades jurídicas en España, la funcionalidad Usar datos fiscales de cuenta de factura permite la actualización automática de datos fiscales de los pedidos de ventas, las facturas de texto sin formato y los pedidos de compra, en función de la información de la cuenta de facturación.</span><span class="sxs-lookup"><span data-stu-id="64461-105">For legal entities in Spain, the Use fiscal data from invoice account functionality enables fiscal data on sales orders, free text invoices, and purchase orders to be updated automatically, based on information from the invoice account.</span></span> <span data-ttu-id="64461-106">Este tema proporciona información sobre la funcionalidad Usar datos fiscales de cuenta de factura y explica cómo configurarla.</span><span class="sxs-lookup"><span data-stu-id="64461-106">This topic provides information about the Use fiscal data from invoice account functionality and explains how to set it up.</span></span>
 

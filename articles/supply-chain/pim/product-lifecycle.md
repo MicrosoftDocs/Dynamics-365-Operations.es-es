@@ -20,24 +20,23 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
-ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8625e9c9b91acee52e2207d462f38286cafeb773
 ms.contentlocale: es-es
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-lifecycle-state"></a><span data-ttu-id="553fb-103">Estado de ciclo de vida de producto</span><span class="sxs-lookup"><span data-stu-id="553fb-103">Product lifecycle state</span></span> 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="553fb-104">El estado del ciclo de vida de un producto documenta el estado de ciclo de vida de un producto liberado o una variante del producto.</span><span class="sxs-lookup"><span data-stu-id="553fb-104">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="553fb-105">Los estados del ciclo de vida de un producto están definidos por el usuario, normalmente administrador de producto o administrador de datos de producto maestro.</span><span class="sxs-lookup"><span data-stu-id="553fb-105">Product lifecycle states are defined by the user, typically a product manager or a product master data manager.</span></span> <span data-ttu-id="553fb-106">Los procesos empresariales específicos, como planificación maestra, pueden verse afectados por una estado de ciclo de vida específico.</span><span class="sxs-lookup"><span data-stu-id="553fb-106">Specific business processes, such as master planning, can be affected by a specific lifecycle state.</span></span>   
- 
+
 <span data-ttu-id="553fb-107">Un producto liberado o una variante del producto se puede asociar con un estado de ciclo de vida del producto que documente en qué estado del ciclo de vida está un producto o una variante específica actualmente.</span><span class="sxs-lookup"><span data-stu-id="553fb-107">A released product or product variant can be associated with a product lifecycle state that documents in which lifecycle state a specific product or variant is currently in.</span></span> <span data-ttu-id="553fb-108">Puede definir cualquier número de estados del ciclo de vida del producto asignando un nombre y una descripción al estado.</span><span class="sxs-lookup"><span data-stu-id="553fb-108">You can define any number of product lifecycle states by assigning a state name and description.</span></span> <span data-ttu-id="553fb-109">Puede seleccionar un estado de ciclo de vida como el estado predeterminada para nuevos productos liberados.</span><span class="sxs-lookup"><span data-stu-id="553fb-109">You can select one lifecycle state as the default state for new released products.</span></span> <span data-ttu-id="553fb-110">Las variantes del producto liberado heredan su estado del ciclo de vida del producto de su producto maestro liberado en el momento de la creación.</span><span class="sxs-lookup"><span data-stu-id="553fb-110">Released product variants inherit their product lifecycle state from their released product master on creation.</span></span> <span data-ttu-id="553fb-111">Al cambiar el estado del ciclo de vida en un producto maestro liberado, puede elegir actualizar todas las variantes existentes que tengan el mismo estado original.</span><span class="sxs-lookup"><span data-stu-id="553fb-111">When changing the lifecycle state on a released product master, you can choose to update all existing variants that have the same original state.</span></span>  
 
 ## <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="553fb-112">Crear un nuevo estado de ciclo de vida de producto</span><span class="sxs-lookup"><span data-stu-id="553fb-112">Create a new product lifecycle state</span></span> 
- 
+
 - <span data-ttu-id="553fb-113">Para crear un nuevo estado del ciclo de vida de un producto, reproduzca o lea la guía de tareas **Crear un nuevo estado del ciclo de vida de producto**.</span><span class="sxs-lookup"><span data-stu-id="553fb-113">To create a new product lifecycle state, play or read the task guide **Create a new product lifecycle state**.</span></span> 
 
 -  <span data-ttu-id="553fb-114">Para crear un estado del ciclo de vida de un producto predeterminado, reproduzca o lea la guía de tareas **Crear un estado del ciclo de vida de producto predeterminado**.</span><span class="sxs-lookup"><span data-stu-id="553fb-114">To create a default product lifecycle state, play or read the task guide **Create a default product lifecycle state**.</span></span>   
@@ -73,7 +72,7 @@ ms.lasthandoff: 02/08/2018
 
 > [!NOTE]
 > <span data-ttu-id="553fb-134">Por motivos de rendimiento, se recomienda asociar todos los productos liberados o variantes del producto obsoletos, especialmente al trabajar con variantes de la configuración de productos no reutilizables , con un estado del ciclo de vida del producto que se desactive para la planificación maestra.</span><span class="sxs-lookup"><span data-stu-id="553fb-134">For performance reasons, it is highly recommended to associate all obsolete released products or product variants, especially when working with non-reusable product configuration variants, with a product lifecycle state that is deactivated for master planning.</span></span>  
- 
+
 ## <a name="default-migration-import-and-export"></a><span data-ttu-id="553fb-135">Migración, exportación e importación predeterminados</span><span class="sxs-lookup"><span data-stu-id="553fb-135">Default migration, import, and export</span></span> 
 
 <span data-ttu-id="553fb-136">Las entidades de datos no admiten los estados del ciclo de vida del producto y el estado del ciclo de vida no se puede establecer en un estado variable a través de las entidades de datos del producto liberado.</span><span class="sxs-lookup"><span data-stu-id="553fb-136">The product lifecycle states are not supported by data entities, and the lifecycle state cannot be set to a variable state through the released product data entities.</span></span>
@@ -81,18 +80,18 @@ ms.lasthandoff: 02/08/2018
 -  <span data-ttu-id="553fb-137">En la migración de las versiones anteriores, el estado del ciclo de vida de todos los productos y las variantes de producto estarán en blanco.</span><span class="sxs-lookup"><span data-stu-id="553fb-137">On migration from previous releases, the lifecycle state of all products and product variants will be blank.</span></span>  
 -  <span data-ttu-id="553fb-138">Al importar los productos liberados a través de una entidad de datos, se aplicará estado del ciclo de vida predeterminado en la creación.</span><span class="sxs-lookup"><span data-stu-id="553fb-138">When importing released products through a data entity, the default lifecycle state will be applied on creation.</span></span>  
 -  <span data-ttu-id="553fb-139">Al importar variantes de producto liberado a través de una entidad de datos, se importará el estado del ciclo de vida del producto del producto maestro liberado.</span><span class="sxs-lookup"><span data-stu-id="553fb-139">When importing released product variants through a data entity, the product lifecycle state of the released product master will be imported.</span></span>   
- 
+
 ## <a name="find-obsolete-products-and-products-variants"></a><span data-ttu-id="553fb-140">Busque los productos y las variantes de productos obsoletos</span><span class="sxs-lookup"><span data-stu-id="553fb-140">Find obsolete products and products variants</span></span> 
- 
+
 <span data-ttu-id="553fb-141">Puede ejecutar un análisis de simulación para encontrar los productos liberados o las variantes de producto obsoletos y actualice su estado del ciclo de vida de producto.</span><span class="sxs-lookup"><span data-stu-id="553fb-141">You can run a simulation analysis to find the obsolete released products or product variants and then update their product lifecycle status.</span></span> <span data-ttu-id="553fb-142">Para encontrar porductos obsoletos, reproduzca o lea la guía de tareas **Buscar productos liberados o las variantes de producto obsoletos y asignar un estado del ciclo de vida de producto**.</span><span class="sxs-lookup"><span data-stu-id="553fb-142">To find obsolete products, play and read the task guide **Find obsolete product variants and assign a product lifecycle state**.</span></span> <span data-ttu-id="553fb-143">Esta guía de tareas muestra cómo encontrar los productos liberados obsoletos o las variantes de producto y cómo asociar un estado de ciclo de vida del producto a los productos obsoleto.</span><span class="sxs-lookup"><span data-stu-id="553fb-143">This task guide shows how to find obsolete released products or product variants and how to associate a product lifecycle state to the obsolete products.</span></span> <span data-ttu-id="553fb-144">También muestra cómo ver los resultados de la simulación y evalua la cantidad de productos y variantes de producto se asociarán con un estado del ciclo de vida del nuevo producto al ejecutar la actualización sin la simulación.</span><span class="sxs-lookup"><span data-stu-id="553fb-144">It also shows hot to view the simulation results and assess how many products and product variants will be associated with a new product lifecycle state when running the update without simulation.</span></span>  
- 
+
 <span data-ttu-id="553fb-145">Al ejecutar el análisis en modo de simulación, los productos y las variantes de producto identificados como obsoletos se muestran en un formulario específico, donde se pueden revisar fácilmente.</span><span class="sxs-lookup"><span data-stu-id="553fb-145">By running the analysis in a simulation mode, the products and product variants identified as obsolete are displayed in a specific form, where they can easily be reviewed.</span></span> <span data-ttu-id="553fb-146">Las búsquedas de análisis para transacciones y datos maestros específicos para identificar los productos que no tienen ninguna demanda dentro de un período variable y ningún dato maestro que pueda resultar en demanda.</span><span class="sxs-lookup"><span data-stu-id="553fb-146">The analysis searches for transactions and specific master data to identify products that have no demand within a variable period and no master data that can result in demand.</span></span> <span data-ttu-id="553fb-147">Los nuevos productos liberados en un período variable se pueden excluir del análisis.</span><span class="sxs-lookup"><span data-stu-id="553fb-147">New released products within a variable period can be excluded from the analysis.</span></span> <span data-ttu-id="553fb-148">Cuando la simulación de análisis devuelve el resultado esperado, el usuario puede ejecutar el análisis y establecer un estado del ciclo de vida del producto a todos los productos identificados como obsoletos por el análisis.</span><span class="sxs-lookup"><span data-stu-id="553fb-148">When the analysis simulation returns the expected result, the user can run the analysis and set a new product lifecycle state to all products identified as obsolete by the analysis.</span></span>  
- 
+
 > [!NOTE]
 > <span data-ttu-id="553fb-149">Tenga en cuenta que todos los análisis y actualizaciones se deben hacer dentro de la misma entidad jurídica.</span><span class="sxs-lookup"><span data-stu-id="553fb-149">Note that all analysis and updates must be done within the same legal entity.</span></span>  
- 
+
 ## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a><span data-ttu-id="553fb-150">Criterios para seleccionar y actualizar productos liberados o variantes del producto</span><span class="sxs-lookup"><span data-stu-id="553fb-150">Criteria to select and update released products or product variants</span></span> 
- 
+
 <span data-ttu-id="553fb-151">Use los siguientes criterios para seleccionar y actualizar los productos liberados o variantes del producto:</span><span class="sxs-lookup"><span data-stu-id="553fb-151">Use the following criteria to select and update the released products and product variants:</span></span> 
 
 -    <span data-ttu-id="553fb-152">El estado del ciclo de vida de producto del producto o la variante del producto debe ser diferente deñ nuevo estado deseado.</span><span class="sxs-lookup"><span data-stu-id="553fb-152">The product lifecycle state of the product or product variant must be different from the new desired state.</span></span> 

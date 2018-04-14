@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6d72678db60254801c6c899f4d405f1c59de8d65
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 892b06210ca1af29c314edd68ccd656ead32d2ec
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a><span data-ttu-id="a939b-103">Crear un método de puntuación para solicitudes de presupuesto</span><span class="sxs-lookup"><span data-stu-id="a939b-103">Create a scoring method for RFQs</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a939b-104">Este procedimiento muestra cómo crear un método de puntuación.</span><span class="sxs-lookup"><span data-stu-id="a939b-104">This procedure shows you how to create a scoring method.</span></span> <span data-ttu-id="a939b-105">Un método de puntuación es un conjunto de criterios que se pueden utilizar para comparar ofertas que se envían en respuesta a una solicitud de presupuesto.</span><span class="sxs-lookup"><span data-stu-id="a939b-105">A scoring method is a set of criteria that can be used to compare bids that are sent in reply to a request for quotation (RFQ).</span></span> <span data-ttu-id="a939b-106">Por ejemplo, puede que desee evaluar el rendimiento de un proveedor anterior, o calificar si la empresa es respetuosa con el medio ambiente o un buen colaborador, o puede que desee comparar ofertas en función del precio.</span><span class="sxs-lookup"><span data-stu-id="a939b-106">For example, you might want to rate a vendor on past performance, or rate whether the company is environmentally friendly or a good collaborator, or you might want to compare bids based on price.</span></span> <span data-ttu-id="a939b-107">El método de puntuación se puede asociar a un tipo de solicitud como el método de puntuación predeterminado para solicitudes de presupuesto de ese tipo.</span><span class="sxs-lookup"><span data-stu-id="a939b-107">The scoring method can be associated with a solicitation type as the default scoring method for RFQs of that type.</span></span> <span data-ttu-id="a939b-108">Estas tareas las realizará normalmente el director de compras.</span><span class="sxs-lookup"><span data-stu-id="a939b-108">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="a939b-109">Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.</span><span class="sxs-lookup"><span data-stu-id="a939b-109">You can use this procedure in demo data company USMF or on your own data.</span></span>
 

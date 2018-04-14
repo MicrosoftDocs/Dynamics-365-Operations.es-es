@@ -18,16 +18,15 @@ ms.author: v-elgolu
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: c95353eb4c580da08214770fa556ae0bf12c61de
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: dcd26110e72552ce5a067e919d3c4cb2f8d8cfb1
 ms.contentlocale: es-es
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="conditional-sales-tax-for-protested-promissory-notes-or-bills-of-exchange"></a><span data-ttu-id="e358f-103">Impuesto condicional para pagarés o letras de cambio protestados</span><span class="sxs-lookup"><span data-stu-id="e358f-103">Conditional sales tax for protested promissory notes or bills of exchange</span></span>
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e358f-104">Para las entidades jurídicas en España, si un pago de pagaré para un proveedor o un pago de letra de cambio para un cliente se liquida contra una factura que incluye impuestos condicionales, y se protesta el acuerdo, la cancelación del impuesto se registra con un comprobante relacionado con el asiento de la cancelación del acuerdo.</span><span class="sxs-lookup"><span data-stu-id="e358f-104">For legal entities in Spain, if a promissory note payment for a vendor or a bill of exchange payment for a customer is settled against an invoice that includes conditional tax, and you protest the settlement, the cancellation of conditional tax is registered with a voucher that is related to the settlement cancellation voucher.</span></span>
 

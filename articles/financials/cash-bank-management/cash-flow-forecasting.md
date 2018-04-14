@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9aefc79897d0abcee14c05f33516181b3eb05e55
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c85cc9e5760f86489e1b2a27198e8c9cce25eda6
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cash-flow-forecasting"></a><span data-ttu-id="5e60e-104">Previsiones de flujo de efectivo</span><span class="sxs-lookup"><span data-stu-id="5e60e-104">Cash flow forecasting</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5e60e-105">Puede usar las herramientas para la previsión del flujo de efectivo para analizar el flujo de efectivo que va a entrar y los requisitos de divisa para estimar la futura necesidad de efectivo de la compañía.</span><span class="sxs-lookup"><span data-stu-id="5e60e-105">You can use the cash flow forecasting tools to analyze upcoming cash flow and currency requirements, so that you can estimate the company's future need for cash.</span></span> <span data-ttu-id="5e60e-106">Para obtener una previsión fiable del flujo de efectivo, debe completar las tareas siguientes:</span><span class="sxs-lookup"><span data-stu-id="5e60e-106">To obtain a forecast of the cash flow, you must complete the following tasks:</span></span>
 

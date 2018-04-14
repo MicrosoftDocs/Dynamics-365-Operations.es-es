@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 306e9ebca811c576b06de3aef697ed64cbe85180
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 53a847ce90b9e2118bb3eb9390e95613aa352cf0
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-linked-products"></a><span data-ttu-id="31521-103">Configurar productos vinculados</span><span class="sxs-lookup"><span data-stu-id="31521-103">Configure linked products</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="31521-104">Este procedimiento muestra la configuración de productos vinculados.</span><span class="sxs-lookup"><span data-stu-id="31521-104">This procedure walks through configuring linked products.</span></span> <span data-ttu-id="31521-105">Este procedimiento usa los datos de demostración USRT y supone que ambos productos ya se han creado y liberado.</span><span class="sxs-lookup"><span data-stu-id="31521-105">This procedure uses the USRT demo data, and assumes both products have already been created and released.</span></span>
 

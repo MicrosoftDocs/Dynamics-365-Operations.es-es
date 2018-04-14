@@ -19,19 +19,18 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b36b290026f384109ccd710a9979892dd5268307
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4c1e1a588e07b9f60880dcf1c34139c5c1ceba35
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a><span data-ttu-id="c829a-103">Métodos de cálculo de impuestos en el campo Origen</span><span class="sxs-lookup"><span data-stu-id="c829a-103">Sales tax calculation methods in the Origin field</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="c829a-104">Este artículo explica las opciones del campo Origen en la página de códigos de impuestos y cómo se calculan los impuestos en función de la opción seleccionada para un código de impuestos.</span><span class="sxs-lookup"><span data-stu-id="c829a-104">This article explains the options in the Origin field on the sales tax codes page and how sales tax is calculated based on the selected option for a sales tax code.</span></span>
 
@@ -53,11 +52,12 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="c829a-122">IMPUESTOS = 25 %, con el método de cálculo de porcentaje del importe bruto</span><span class="sxs-lookup"><span data-stu-id="c829a-122">SALESTAX = 25%, using the Percentage of gross amount calculation method</span></span>
 
 <span data-ttu-id="c829a-123">Si el importe neto es 10,00, entonces ARANCEL 1 es 1,00 (10,00 x 10 %) y ARANCEL 2 = 2,00 (10,00 x 20 %).</span><span class="sxs-lookup"><span data-stu-id="c829a-123">If the net amount is 10.00, then DUTY 1 is 1.00 (10.00 x 10%) and DUTY 2 = 2.00 (10.00 x 20%).</span></span> <span data-ttu-id="c829a-124">Los importes serían los siguientes: Importe bruto: Importe neto + Importe ARANCEL 1 + Importe ARANCEL 2 (10,00 + 1,00 + 2,00) = 13,00 IMPUESTOS = 13,00 x 25 % = 3,25 Total de ARANCELES e IMPUESTOS: 1,00 + 2,00 + 3,25 = 6,25 Importe total: 10,00 + 6,25 = 16,25</span><span class="sxs-lookup"><span data-stu-id="c829a-124">The amounts would be as follows: Gross amount: Net amount + DUTY 1 amount + DUTY 2 amount (10.00 + 1.00 + 2.00) = 13.00 SALESTAX = 13.00 x 25% = 3.25 Total DUTIES and SALESTAX: 1.00 + 2.00 + 3.25 = 6.25 Total amount: 10.00 + 6.25 = 16.25</span></span>
+
 | <span data-ttu-id="c829a-125">**Nota**</span><span class="sxs-lookup"><span data-stu-id="c829a-125">**Note**</span></span>                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="c829a-126">Solo un código de impuestos con origen = el porcentaje del importe bruto se puede usar para una transacción.</span><span class="sxs-lookup"><span data-stu-id="c829a-126">Only one tax code with Origin = Percentage of gross amount can be used for a transaction.</span></span> <span data-ttu-id="c829a-127">Si se determina más de un código de impuesto de este tipo para una transacción, se mostrará un error acerca de que los impuestos no se pueden calcular.</span><span class="sxs-lookup"><span data-stu-id="c829a-127">If more than one such tax code is determined for a transaction an error will be displayed that sales tax cannot be calculated.</span></span> |
 
- 
+
 <a name="percentage-of-sales-tax"></a><span data-ttu-id="c829a-128">Porcentaje de impuestos</span><span class="sxs-lookup"><span data-stu-id="c829a-128">Percentage of sales tax</span></span>
 -----------------------
 
@@ -70,6 +70,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="c829a-136">IMPUESTOS = 25 %, con el método de porcentaje del importe bruto</span><span class="sxs-lookup"><span data-stu-id="c829a-136">SALESTAX = 25%, using the Percentage of gross amount method</span></span>
 
 <span data-ttu-id="c829a-137">Importe neto: 10,00 ARANCEL 1: 10,00 x 10 % = 1,00 ARANCEL 2: 1,00 x 20 % = 0,20 Importe bruto: 10,00 + 1,00 + 0,20 = 11,20 IMPUESTOS: 11,20 x 25 % = 2,80 Total de ARANCELES e IMPUESTOS: 1,00 + 0,20 + 2,80 = 4,00 Importe total: 10,00 + 4,00 = 14,00</span><span class="sxs-lookup"><span data-stu-id="c829a-137">Net amount: 10.00 DUTY 1: 10.00 x 10% = 1.00 DUTY 2: 1.00 x 20% = 0.20 Gross amount: 10.00 + 1.00 + 0.20 = 11.20 SALESTAX: 11.20 x 25% = 2.80 Total DUTIES and SALESTAX: 1.00 + 0.20 + 2.80 = 4.00 Total amount: 10.00 + 4.00 = 14.00</span></span>
+
 | <span data-ttu-id="c829a-138">**Nota**</span><span class="sxs-lookup"><span data-stu-id="c829a-138">**Note**</span></span>                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="c829a-139">Los impuestos de varios niveles en los cálculos de los impuestos no son posibles.</span><span class="sxs-lookup"><span data-stu-id="c829a-139">Multilevel tax on tax calculations are not possible.</span></span> <span data-ttu-id="c829a-140">Los impuestos no se pueden calcular sobre un impuesto que ya se ha calculado sobre otro impuesto.</span><span class="sxs-lookup"><span data-stu-id="c829a-140">A tax cannot be calculated based on a tax which already is calculated based on another tax.</span></span> <span data-ttu-id="c829a-141">Los impuestos de un único nivel dentro de códigos de impuestos se pueden calcular en una transacción.</span><span class="sxs-lookup"><span data-stu-id="c829a-141">Multiple single level tax on tax codes can be calculated on a transaction.</span></span> |
@@ -79,6 +80,7 @@ ms.lasthandoff: 11/03/2017
 ### <a name="example"></a><span data-ttu-id="c829a-146">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="c829a-146">Example</span></span>
 
 <span data-ttu-id="c829a-147">El código de impuestos se configura como: 1,20 dólares por unidad = cuadro En una línea de factura de venta se venden 25 cajas de un artículo Los impuestos se calculan como 25 x 1,20 = 30,00</span><span class="sxs-lookup"><span data-stu-id="c829a-147">Sales tax code is set up as: USD 1.20 per unit = box On a sales invoice line 25 boxes of an item are sold Sales tax is calculated as 25 x 1.20 = 30.00</span></span>
+
 | <span data-ttu-id="c829a-148">**Nota**</span><span class="sxs-lookup"><span data-stu-id="c829a-148">**Note**</span></span>                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="c829a-149">Si la transacción se ha especificado en otra unidad distinta de la unidad especificada en el código de impuestos, se convierte automáticamente en función de las conversiones de unidades que se configuran en la página de conversiones de unidades.</span><span class="sxs-lookup"><span data-stu-id="c829a-149">If the transaction is entered in different unit than the unit specified on the sales tax code, it is converted automatically based on the unit conversions that are set up in the Unit conversions page.</span></span> |

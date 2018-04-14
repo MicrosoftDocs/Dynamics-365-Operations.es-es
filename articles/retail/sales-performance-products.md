@@ -20,17 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 82f47af39277e69a01ce9845dee5ff349b81d7dd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 928ddaaf5e5ff0cba31171f158989c96c54ed1e4
 ms.contentlocale: es-es
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="assess-sales-performance-by-product"></a><span data-ttu-id="11d5c-103">Evaluar la consecución de ventas por producto</span><span class="sxs-lookup"><span data-stu-id="11d5c-103">Assess sales performance by product</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="11d5c-104">Puede estudiar la rentabilidad de los 10 productos principales mediante Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="11d5c-104">You can study profitability for the top 10 products using Microsoft Dynamics 365 for Retail.</span></span> 
 

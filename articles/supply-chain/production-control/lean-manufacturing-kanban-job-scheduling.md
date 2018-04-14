@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6ac4c1afecb72d4007d830a9927bd3171ddd48ec
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c5373c8283f51ec8ad4ed8ed4134f6c5a0ca4fa4
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a><span data-ttu-id="29a55-103">Programación de trabajo kanban para lean manufacturing</span><span class="sxs-lookup"><span data-stu-id="29a55-103">Kanban job scheduling for lean manufacturing</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="29a55-104">Este artículo proporciona información acerca del control visual sobre la programación del trabajo kanban y las distintas maneras de programar trabajos kanban.</span><span class="sxs-lookup"><span data-stu-id="29a55-104">This article provides information about visual control over kanban job scheduling and various ways to schedule kanban jobs.</span></span>  
 

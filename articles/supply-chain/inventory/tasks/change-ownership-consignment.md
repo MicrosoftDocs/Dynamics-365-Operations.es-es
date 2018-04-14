@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f02e37a21e2417d46c5ad990e165c2eff5a70811
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e3058987dcd511c59a9eae1b79ef5d1b6d4b3d68
 ms.contentlocale: es-es
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a><span data-ttu-id="8f2ce-103">Cambiar la propiedad del inventario de entrega en base a la demanda de la producción</span><span class="sxs-lookup"><span data-stu-id="8f2ce-103">Change the ownership of consignment inventory based on production demand</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8f2ce-104">Este procedimiento muestra cómo cambiar el propietario del inventario de entrega del proveedor a su entidad jurídica cuando hay demanda del inventario en producción.</span><span class="sxs-lookup"><span data-stu-id="8f2ce-104">This procedure shows how to change the owner of consignment inventory from the vendor to your legal entity when there is demand for the inventory in production.</span></span> <span data-ttu-id="8f2ce-105">Este cambio de propiedad se hace creando y registrando un diario de cambio de propiedad del inventario.</span><span class="sxs-lookup"><span data-stu-id="8f2ce-105">This change of ownership is done by creating and posting an inventory ownership change journal.</span></span> <span data-ttu-id="8f2ce-106">Las líneas de diario de cambio de propiedad se pueden crear manualmente o, tal como se muestra en este registro, en función de la demanda existente de la producción.</span><span class="sxs-lookup"><span data-stu-id="8f2ce-106">The ownership change journal lines can be created manually or, as shown in this recording, based on existing production demand.</span></span> <span data-ttu-id="8f2ce-107">Normalmente, un supervisor de planta realiza esta tarea.</span><span class="sxs-lookup"><span data-stu-id="8f2ce-107">Typically, a shop floor supervisor performs this task.</span></span> <span data-ttu-id="8f2ce-108">Puede utilizar este procedimiento en la empresa de demostración USMF o en sus propios datos.</span><span class="sxs-lookup"><span data-stu-id="8f2ce-108">You can use this procedure in the USMF demo data company or on your own data.</span></span> <span data-ttu-id="8f2ce-109">Si utiliza sus propios datos, asegúrese de que tiene los requisitos previos siguientes: un nombre de diario de inventario que se ha configurado para el cambio de propiedad de inventario, artículos disponibles propiedad del proveedor registrados físicamente y una o más líneas de pedido de producción del material.</span><span class="sxs-lookup"><span data-stu-id="8f2ce-109">If you're using your own data, make sure that you have the following prerequisites: an inventory journal name that has been set up for inventory ownership change, physically recorded vendor-owned on-hand items, and one or more production order lines for the material.</span></span> <span data-ttu-id="8f2ce-110">Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="8f2ce-110">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

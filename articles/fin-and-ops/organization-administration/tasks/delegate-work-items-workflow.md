@@ -16,15 +16,15 @@ ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4765fec0cdce0e2f8859c979ff97d20aa6b20bfa
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cd3d09ed12fa4419881910884acefaf1bf5fa0d4
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="delegate-work-items-in-a-workflow"></a><span data-ttu-id="3c130-103">Delegación de elementos de trabajo de un flujo de trabajo</span><span class="sxs-lookup"><span data-stu-id="3c130-103">Delegate work items in a workflow</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3c130-104">Si tiene planeado ausentarse de la oficina o, por alguna otra razón, no va a poder encargarse de los elementos de trabajo, puede delegar, o volver a asignar, sus elementos de trabajo a otros usuarios.</span><span class="sxs-lookup"><span data-stu-id="3c130-104">If you plan to be out of the office or otherwise unavailable to act on work items, you can delegate, or reassign, your work items to other users.</span></span> <span data-ttu-id="3c130-105">este procedimiento le ayuda a configurar el sistema para delegar automáticamente los elementos de trabajo a otro usuario.</span><span class="sxs-lookup"><span data-stu-id="3c130-105">This procedure helps you configure the system to automatically delegate your work items to another user.</span></span>
 

@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f3891688542ac6d4f9afce026808c65992a592d4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3628e3f2d24bb41e83f544b20db4aff0e8e6deb7
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-tracing-for-explosion"></a><span data-ttu-id="6cc69-103">Usar seguimiento para expansiones</span><span class="sxs-lookup"><span data-stu-id="6cc69-103">Use tracing for explosion</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6cc69-104">Este artículo explica cómo puede usar el seguimiento para explorar las causas tras el resultado de una expansión de pedido.</span><span class="sxs-lookup"><span data-stu-id="6cc69-104">This article explains how you can use tracing to explore the causes behind the outcome of an order explosion.</span></span>
 

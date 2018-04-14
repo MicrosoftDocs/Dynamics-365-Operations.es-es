@@ -19,21 +19,21 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 034e25eea8a4db3126f7f33ae0712b6f30606651
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a><span data-ttu-id="10afd-104">Publicar líneas de diario y documentos de Excel</span><span class="sxs-lookup"><span data-stu-id="10afd-104">Publish journal lines and documents from Excel</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="10afd-105">En este tema se explica cómo introducir y publicar las líneas para diarios generales desde Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="10afd-105">This topic explains how to enter and publish lines for general journals from Microsoft Excel.</span></span> <span data-ttu-id="10afd-106">Incluye información sobre las distintas plantillas que se pueden utilizar, dependiendo del tipo de transacciones que esté introduciendo.</span><span class="sxs-lookup"><span data-stu-id="10afd-106">It includes information about the various templates that you can use, depending on the type of transactions that you're entering.</span></span>
 
 <span data-ttu-id="10afd-107">Los usuarios pueden introducir y publicar líneas de diarios financieros desde Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="10afd-107">Users can enter and publish lines for financial journals from Microsoft Excel.</span></span> <span data-ttu-id="10afd-108">Después de que un usuario cree un diario, el botón **Abrir líneas en Excel** muestra las plantillas disponibles.</span><span class="sxs-lookup"><span data-stu-id="10afd-108">After a user creates a journal, the **Open lines in Excel** button displays the templates that are available.</span></span> <span data-ttu-id="10afd-109">Las plantillas están diseñadas para admitir determinados escenarios; sin embargo, no todas las combinaciones de tipo de cuenta se admiten en el diario.</span><span class="sxs-lookup"><span data-stu-id="10afd-109">Templates are designed to support specific scenarios, however not every combination of account type is supported in the journal.</span></span> <span data-ttu-id="10afd-110">La tabla siguiente muestra las plantillas disponibles y los tipos de cuentas que admiten.</span><span class="sxs-lookup"><span data-stu-id="10afd-110">The following table shows the templates that are available and the account types which they support.</span></span>
+
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | <span data-ttu-id="10afd-111">**Plantilla**</span><span class="sxs-lookup"><span data-stu-id="10afd-111">**Template**</span></span>             | <span data-ttu-id="10afd-112">**Tipos de cuenta admitidos**</span><span class="sxs-lookup"><span data-stu-id="10afd-112">**Supported account types**</span></span>                                                                                             | <span data-ttu-id="10afd-113">**Cómo acceder a la plantilla**</span><span class="sxs-lookup"><span data-stu-id="10afd-113">**How to access the template**</span></span>                                                          |

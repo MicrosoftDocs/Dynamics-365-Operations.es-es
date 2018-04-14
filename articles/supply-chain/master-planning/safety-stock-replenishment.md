@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 61c0fde1af125188e1ad1198e00af760256d7cfd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a836ce76f635fd42b0613b2abf131315b19aa5fe
 ms.contentlocale: es-es
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="safety-stock-fulfillment-for-items"></a><span data-ttu-id="45ba8-103">Cumplimiento de existencias de seguridad para los artículos</span><span class="sxs-lookup"><span data-stu-id="45ba8-103">Safety stock fulfillment for items</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="45ba8-104">Las existencias de seguridad indican una cantidad adicional de un artículo que se mantiene en el inventario para reducir el riesgo de que el artículo se agote.</span><span class="sxs-lookup"><span data-stu-id="45ba8-104">Safety stock indicates an additional quantity of an item held in the inventory in order to reduce the risk that the item will be out of stock.</span></span> <span data-ttu-id="45ba8-105">Las existencias de seguridad se usan como existencias de reserva en caso de que vengan pedidos de ventas y el proveedor no pueda entregar los artículos adicionales para cumplir con la fecha de envío solicitada por el cliente.</span><span class="sxs-lookup"><span data-stu-id="45ba8-105">Safety stock is used as a buffer stock in case sales orders come in and the supplier is unable to deliver the additional items to meet the customer's requested ship date.</span></span> <span data-ttu-id="45ba8-106">Cuando se usan las existencias de seguridad para satisfacer un pedido de ventas, las existencias de seguridad se reducirán.</span><span class="sxs-lookup"><span data-stu-id="45ba8-106">When safety stock is used to fulfill a sales order, the safety stock will be reduced.</span></span> <span data-ttu-id="45ba8-107">Puede usar la planificación maestra para que el inventario vuelva automáticamente al nivel de seguridad.</span><span class="sxs-lookup"><span data-stu-id="45ba8-107">You can use Master planning to automatically bring the inventory back to the safety level.</span></span>    
 

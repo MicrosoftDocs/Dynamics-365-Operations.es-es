@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b35b8ea652ccb06c45b8091cc7f57e849e1a5915
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 931c12278853d87e6fddbb166b56c6079d40b142
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="150-percent-reducing-balance-depreciation"></a><span data-ttu-id="8095b-103">Depreciación con amortización degresiva del 150%</span><span class="sxs-lookup"><span data-stu-id="8095b-103">150 percent reducing balance depreciation</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8095b-104">Este artículo le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 150%.</span><span class="sxs-lookup"><span data-stu-id="8095b-104">This article gives an overview of the 150 percent reducing balance method of depreciation.</span></span>
 
@@ -68,6 +67,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="8095b-135">**Período fiscal** registra el importe total de depreciación calculado para el ejercicio.</span><span class="sxs-lookup"><span data-stu-id="8095b-135">**Fiscal period** posts the total amount of the depreciation that is calculated for the fiscal year.</span></span> <span data-ttu-id="8095b-136">Este importe se acumula en los períodos fiscales definidos en la página **Calendarios fiscales**.</span><span class="sxs-lookup"><span data-stu-id="8095b-136">This amount is accrued into the fiscal periods that are defined on the **Fiscal calendars** page.</span></span>
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a><span data-ttu-id="8095b-137">Ejemplo de depreciación degresiva del 150%</span><span class="sxs-lookup"><span data-stu-id="8095b-137">Example of 150% reducing balance depreciation</span></span>
+
 |                                |        |
 |--------------------------------|--------|
 | <span data-ttu-id="8095b-138">Coste de adquisición</span><span class="sxs-lookup"><span data-stu-id="8095b-138">Acquisition cost</span></span>               | <span data-ttu-id="8095b-139">11.000</span><span class="sxs-lookup"><span data-stu-id="8095b-139">11,000</span></span> |

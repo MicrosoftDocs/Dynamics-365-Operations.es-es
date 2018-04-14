@@ -16,15 +16,15 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7cc90bc86cd489b124a806c480632dd53ba47f3f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5787edc4a041e4b571c7ab6f056f4bd0a17cf2d7
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a><span data-ttu-id="4221c-103">Creación y exportación de pagos de proveedor mediante el formato de pago de ISO20022</span><span class="sxs-lookup"><span data-stu-id="4221c-103">Create and export vendor payments using ISO20022 payment format</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4221c-104">Este procedimiento muestra cómo crear líneas de pago en el diario de pago de proveedor y generar un archivo de pago de proveedor utilizando el ejemplo ISO2022 Transferencia de crédito.</span><span class="sxs-lookup"><span data-stu-id="4221c-104">This procedure shows how to create payment lines in the vendor payment journal and generate a vendor payment file using ISO2022 Credit transfer example.</span></span> 
 

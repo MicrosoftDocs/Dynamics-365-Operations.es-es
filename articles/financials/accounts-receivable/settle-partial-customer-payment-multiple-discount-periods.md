@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ac64ece82abe75f3cba437b1ec1af499fbbce8e4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e55622398a7453a6d049697ad01bcf64c50c553b
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a><span data-ttu-id="6d6c3-103">Liquidar un pago de cliente parcial con varios períodos de descuento</span><span class="sxs-lookup"><span data-stu-id="6d6c3-103">Settle a partial customer payment that has multiple discount periods</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6d6c3-104">En este artículo se muestra cómo se liquidan los pagos de clientes parciales cuando hay varios períodos de descuento.</span><span class="sxs-lookup"><span data-stu-id="6d6c3-104">This article shows how partial customer payments are settled when there are multiple discount periods.</span></span>
 

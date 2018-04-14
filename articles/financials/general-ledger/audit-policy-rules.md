@@ -19,17 +19,16 @@ ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 04217e162090720d2a48c96aa9356cea2dbfa230
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 273beb0acef51059b40f9842062ed4dbba770160
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="audit-policy-rules"></a><span data-ttu-id="4dbc4-106">Reglas de directivas de auditoría</span><span class="sxs-lookup"><span data-stu-id="4dbc4-106">Audit policy rules</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4dbc4-107">Puede usar directivas de auditoría para evaluar si ciertos informes de gastos, facturas de proveedor y pedidos de compra para asegurarse de que cumplan las reglas de directivas que ha creado.</span><span class="sxs-lookup"><span data-stu-id="4dbc4-107">You can use audit policies to evaluate expense reports, vendor invoices, and purchase orders to make sure that they comply with policy rules that you create.</span></span> <span data-ttu-id="4dbc4-108">Todas las reglas asociadas a una directiva de auditoría se ejecutan en el modo por lotes, de acuerdo con la programación que haya especificado.</span><span class="sxs-lookup"><span data-stu-id="4dbc4-108">All of the rules that are associated with an audit policy are run in batch mode, according to a schedule that you specify.</span></span>  <span data-ttu-id="4dbc4-109">Cada regla de directivas pertenece a un tipo de regla de directivas.</span><span class="sxs-lookup"><span data-stu-id="4dbc4-109">Each policy rule is an instance of a policy rule type.</span></span> <span data-ttu-id="4dbc4-110">Sólo puede haber una regla de directivas activa por cada tipo de regla de directivas.</span><span class="sxs-lookup"><span data-stu-id="4dbc4-110">For each policy rule type, only one policy rule can be active at a time.</span></span> 
 

@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 9cc66eccec146c9f8f562b5d4e4d21bb6b7c6457
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93f6cddd8d698dbc1a3539a156a762b8e6017aa6
 ms.contentlocale: es-es
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-compensation-process-and-calculate-results"></a><span data-ttu-id="a50ad-103">Definición del proceso de compensación y el cálculo de resultados</span><span class="sxs-lookup"><span data-stu-id="a50ad-103">Define compensation process and calculate results</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a50ad-104">Los procesos de compensación se usan para determinar nuevas concesiones e importes de compensación para los empleados inscritos en planes de compensación variable y fija.</span><span class="sxs-lookup"><span data-stu-id="a50ad-104">Compensation processes are used to determine new compensation amounts and awards for employees enrolled in fixed and variable compensation plans.</span></span> <span data-ttu-id="a50ad-105">Los procesos de compensación se pueden ejecutar varias veces para realizar análisis hipotéticos, para comprobar que todos los cambios y la configuración son correctos.</span><span class="sxs-lookup"><span data-stu-id="a50ad-105">Compensation processes can be run multiple times to perform "what-if" analysis, to verify all changes and settings are correct.</span></span> <span data-ttu-id="a50ad-106">Este procedimiento creará un proceso de compensación, ejecutará el proceso y verá los resultados.</span><span class="sxs-lookup"><span data-stu-id="a50ad-106">This procedure will create a compensation process, run the process, and view the results.</span></span> <span data-ttu-id="a50ad-107">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="a50ad-107">The demo data company used to create this procedure is USMF.</span></span>
 

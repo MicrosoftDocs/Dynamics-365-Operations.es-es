@@ -19,17 +19,16 @@ ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 698b938e515ff4755c2f111279cda244577ac9f3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4a0093f2275bafdb91a76adcca02bf3f2d1bffff
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="electronic-signature-overview"></a><span data-ttu-id="b0931-103">Visión general de la firma electrónica</span><span class="sxs-lookup"><span data-stu-id="b0931-103">Electronic signature overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b0931-104">En este artículo se proporciona una visión general de las firmas electrónicas y se describe cómo pueden usarse en Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="b0931-104">This article provides an overview of electronic signatures and describes how they can be used in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 50764f99be04d27e04047824f870e724336cb452
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a773675b858a196e795ad54cc534ef5eb98ef484
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a><span data-ttu-id="9ea1c-103">Configurar directivas para jerarquías de categorías de compras</span><span class="sxs-lookup"><span data-stu-id="9ea1c-103">Set up policies for procurement category hierarchies</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9ea1c-104">Use este procedimiento para configurar las reglas para solicitar productos en una categoría.</span><span class="sxs-lookup"><span data-stu-id="9ea1c-104">Use this procedure to set up rules for ordering products in a category.</span></span> <span data-ttu-id="9ea1c-105">Las reglas se definen para una directiva de compras específica.</span><span class="sxs-lookup"><span data-stu-id="9ea1c-105">The rules are defined for a specific purchasing policy.</span></span> <span data-ttu-id="9ea1c-106">La regla de acceso de categorías controla a qué categorías de compras tendrán acceso los empleados al crear una solicitud.</span><span class="sxs-lookup"><span data-stu-id="9ea1c-106">The category access rule controls which procurement categories employees have access to when they create a requisition.</span></span> <span data-ttu-id="9ea1c-107">Cuando se está creando una solicitud, la directiva de compra y regla de acceso de categoría que se deben aplicar se determinan por la entidad jurídica y la unidad operativa a las que pertenece el empleado.</span><span class="sxs-lookup"><span data-stu-id="9ea1c-107">When a requisition is being created, the purchasing policy and category access rule that should be applied are determined by the legal entity and the operational unit that the employee belongs to.</span></span> <span data-ttu-id="9ea1c-108">Puede utilizar este procedimiento en la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="9ea1c-108">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="9ea1c-109">Esta tarea la realizará normalmente un director de compras.</span><span class="sxs-lookup"><span data-stu-id="9ea1c-109">This task would typically be carried out by a purchasing manager.</span></span>
 

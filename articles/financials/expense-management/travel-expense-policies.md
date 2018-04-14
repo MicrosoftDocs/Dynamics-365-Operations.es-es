@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b2a28fe6acf03e52c292048a797ce997f58bcce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 73e4fc7c1d0273c51be57d9c3ab04dbfbd839327
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expense-policies"></a><span data-ttu-id="55daf-103">Directivas de gastos</span><span class="sxs-lookup"><span data-stu-id="55daf-103">Expense policies</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="55daf-104">Puede definir políticas que deben cumplir sus trabajadores al especificar y enviar informes de gastos y pedidos de viaje.</span><span class="sxs-lookup"><span data-stu-id="55daf-104">You can define policies that your workers must follow when entering and submitting expense reports and travel requisitions.</span></span>         
 <span data-ttu-id="55daf-105">Implantar políticas de gastos puede ayudarle a gestionar los gastos de manera eficiente.</span><span class="sxs-lookup"><span data-stu-id="55daf-105">Implementing expense policies can help you manage expenses effectively.</span></span>         
@@ -39,14 +39,14 @@ ms.lasthandoff: 03/26/2018
 <span data-ttu-id="55daf-111">Puede definir tres tipos de directivas:</span><span class="sxs-lookup"><span data-stu-id="55daf-111">You can define three types of policies:</span></span>         
         
 - <span data-ttu-id="55daf-112">Advertencia: permite que el trabajador envíe un informe de gastos o un pedido de viaje, pero el gasto se marcará para todos los aprobadores y para la creación de informes</span><span class="sxs-lookup"><span data-stu-id="55daf-112">Warning – Allows the worker to submit an expense report or travel requisition but the expense will be marked for all approvers and</span></span>        
-<span data-ttu-id="55daf-113">más adelante.</span><span class="sxs-lookup"><span data-stu-id="55daf-113">for later reporting.</span></span>        
+  <span data-ttu-id="55daf-113">más adelante.</span><span class="sxs-lookup"><span data-stu-id="55daf-113">for later reporting.</span></span>        
 
 - <span data-ttu-id="55daf-114">Error: requiere que el trabajador revise el gasto para cumplir con la directiva antes de enviar el informe de gastos o el pedido de viaje.</span><span class="sxs-lookup"><span data-stu-id="55daf-114">Error – Requires the worker to revise the expense to comply with the policy before submitting the expense report or travel requisition.</span></span>       
  
- - <span data-ttu-id="55daf-115">Justificación: requiere que el trabajador o un director especifique una justificación para exceder el importe de la directiva antes de enviar el informe de gastos o el pedido de viaje.</span><span class="sxs-lookup"><span data-stu-id="55daf-115">Justification – Requires the worker or a manager to enter a justification for exceeding the policy amount before submitting the expense report or travel requisition.</span></span>        
+  - <span data-ttu-id="55daf-115">Justificación: requiere que el trabajador o un director especifique una justificación para exceder el importe de la directiva antes de enviar el informe de gastos o el pedido de viaje.</span><span class="sxs-lookup"><span data-stu-id="55daf-115">Justification – Requires the worker or a manager to enter a justification for exceeding the policy amount before submitting the expense report or travel requisition.</span></span>        
  
- <span data-ttu-id="55daf-116">También puede configurar un intervalo de fechas para el que estarán vigentes las directivas de gastos.</span><span class="sxs-lookup"><span data-stu-id="55daf-116">You can also set up a date range for which expense policies are in effect.</span></span> <span data-ttu-id="55daf-117">Por ejemplo, las tarifas aéreas entre Dinamarca</span><span class="sxs-lookup"><span data-stu-id="55daf-117">For example, airline fares for flights between Denmark</span></span>      
- <span data-ttu-id="55daf-118">y Nueva York pueden resultar caras durante la época de vacaciones.</span><span class="sxs-lookup"><span data-stu-id="55daf-118">and New York City can be expensive during the peak holiday travel season.</span></span> <span data-ttu-id="55daf-119">Puede definir una regla de gastos que restrinja el</span><span class="sxs-lookup"><span data-stu-id="55daf-119">You can define a flight expense rule that restricts the</span></span>      
- <span data-ttu-id="55daf-120">coste de los vuelos a Nueva York a un límite de 5000 DKK y especificar que esta regla estará en vigor del 15 de marzo</span><span class="sxs-lookup"><span data-stu-id="55daf-120">cost of flights to New York City to a limit of DKK 5000, and you can specify that this rule be in effect between March 15 and</span></span>      
- <span data-ttu-id="55daf-121">al 15 de septiembre.</span><span class="sxs-lookup"><span data-stu-id="55daf-121">September 15.</span></span>
+  <span data-ttu-id="55daf-116">También puede configurar un intervalo de fechas para el que estarán vigentes las directivas de gastos.</span><span class="sxs-lookup"><span data-stu-id="55daf-116">You can also set up a date range for which expense policies are in effect.</span></span> <span data-ttu-id="55daf-117">Por ejemplo, las tarifas aéreas entre Dinamarca</span><span class="sxs-lookup"><span data-stu-id="55daf-117">For example, airline fares for flights between Denmark</span></span>      
+  <span data-ttu-id="55daf-118">y Nueva York pueden resultar caras durante la época de vacaciones.</span><span class="sxs-lookup"><span data-stu-id="55daf-118">and New York City can be expensive during the peak holiday travel season.</span></span> <span data-ttu-id="55daf-119">Puede definir una regla de gastos que restrinja el</span><span class="sxs-lookup"><span data-stu-id="55daf-119">You can define a flight expense rule that restricts the</span></span>      
+  <span data-ttu-id="55daf-120">coste de los vuelos a Nueva York a un límite de 5000 DKK y especificar que esta regla estará en vigor del 15 de marzo</span><span class="sxs-lookup"><span data-stu-id="55daf-120">cost of flights to New York City to a limit of DKK 5000, and you can specify that this rule be in effect between March 15 and</span></span>      
+  <span data-ttu-id="55daf-121">al 15 de septiembre.</span><span class="sxs-lookup"><span data-stu-id="55daf-121">September 15.</span></span>
 

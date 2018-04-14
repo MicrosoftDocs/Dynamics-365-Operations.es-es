@@ -16,15 +16,15 @@ ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 212f9fe8bc7807b9209523564ead716959875241
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c2900c8ead2e387eae3307bd2699d091b6558ac4
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="view-workflow-history"></a><span data-ttu-id="e312f-103">Ver historial del flujo de trabajo</span><span class="sxs-lookup"><span data-stu-id="e312f-103">View workflow history</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e312f-104">Siga estos pasos para ver el estado de un documento que envió al sistema de flujo de trabajo para que se lo procese y apruebe.</span><span class="sxs-lookup"><span data-stu-id="e312f-104">Use these steps to view the status of a document that was submitted to the workflow system for processing and approval.</span></span> <span data-ttu-id="e312f-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="e312f-105">The demo data company used to create this procedure is USMF.</span></span>
 

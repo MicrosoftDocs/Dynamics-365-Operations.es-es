@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ec2317f12142f726ad37e39fe11837847b0a5b04
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b541ed3151d63d095ff985c343f5b97bd57a0e14
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a><span data-ttu-id="dc87e-103">Liquidar un pago de proveedor parcial con descuentos en notas de abono de proveedor</span><span class="sxs-lookup"><span data-stu-id="dc87e-103">Settle a partial vendor payment that has discounts on vendor credit notes</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="dc87e-104">Este artículo le guía por un escenario donde se liquida una nota de crédito con una factura.</span><span class="sxs-lookup"><span data-stu-id="dc87e-104">This article walks you through a scenario where a credit memo is settled against an invoice.</span></span>
 

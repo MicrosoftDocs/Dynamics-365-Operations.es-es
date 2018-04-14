@@ -17,16 +17,16 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: d59a7aef90ecef0cd947b833f1cce1e2372f3033
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e80305625439d154a0872f2b8cc64376ba933d50
 ms.contentlocale: es-es
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="production-performance-power-bi-content"></a><span data-ttu-id="f1f3e-104">Contenido en Power BI sobre rendimiento de la producción</span><span class="sxs-lookup"><span data-stu-id="f1f3e-104">Production performance Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f1f3e-105">Este tema describe lo que se incluye en el contenido de Microsoft Power BI sobre **Rendimiento de la producción**.</span><span class="sxs-lookup"><span data-stu-id="f1f3e-105">This topic describes what is included in the **Production performance** Microsoft Power BI content.</span></span> <span data-ttu-id="f1f3e-106">Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.</span><span class="sxs-lookup"><span data-stu-id="f1f3e-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 

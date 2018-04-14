@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6f8d804133f8e9c6f47420d41df8d9430381e2fe
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 968f3473198de5aee0b32baf3a83839aeea73835
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a><span data-ttu-id="b3933-103">Crear una plantilla de registro para facilitar la entrada de datos</span><span class="sxs-lookup"><span data-stu-id="b3933-103">Create a record template to facilitate data entry</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b3933-104">Este procedimiento demuestra la creación de plantillas de registro para no tener que especificar los valores de campo que se utilizan a menudo explícitamente para cada registro nuevo.</span><span class="sxs-lookup"><span data-stu-id="b3933-104">This procedure demonstrates how to create a record template so that field values that are used often do not have to be entered explicitly for each new record.</span></span> <span data-ttu-id="b3933-105">En este procedimiento, usted creará un registro nuevo para los nuevos portátiles que deberán agregarse a sus activos fijos.</span><span class="sxs-lookup"><span data-stu-id="b3933-105">In this procedure, you’ll create a new record for new laptops that should be added to your fixed assets.</span></span> <span data-ttu-id="b3933-106">Este procedimiento usa la empresa de muestra USMF.</span><span class="sxs-lookup"><span data-stu-id="b3933-106">This procedure uses the USMF sample company.</span></span>
 

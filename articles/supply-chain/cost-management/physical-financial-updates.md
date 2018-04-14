@@ -20,17 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e62bdbfb7b88f66ea1f6e4d57b6150c8b0bffb04
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 08a04b3c80aaac25177f92b250e8dc287ae76c28
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="physical-and-financial-updates"></a><span data-ttu-id="0fec7-103">Actualizaciones físicas y financieras</span><span class="sxs-lookup"><span data-stu-id="0fec7-103">Physical and financial updates</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0fec7-104">En este tema se proporciona un resumen de qué tipos de transacciones aumentan y reducen las cantidades de inventario.</span><span class="sxs-lookup"><span data-stu-id="0fec7-104">This topic provides an overview of which types of transactions increase or decrease inventory quantities.</span></span> 
 

@@ -17,15 +17,15 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aa80e4b22d116c8f580c9aefe7c114cfe1d19cc8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 94b1bc306ecbc8bec6beac149001f202c77a9090
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-an-operations-resource"></a><span data-ttu-id="709f7-103">Crear un recurso de operaciones</span><span class="sxs-lookup"><span data-stu-id="709f7-103">Create an operations resource</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="709f7-104">Un recurso de operaciones realiza las actividades de un proyecto o de un proceso de producción.</span><span class="sxs-lookup"><span data-stu-id="709f7-104">An operations resource performs the activities of a project or a production process.</span></span> <span data-ttu-id="709f7-105">En este procedimiento se muestra cómo definir un recurso de operaciones.</span><span class="sxs-lookup"><span data-stu-id="709f7-105">This procedure shows you how to define an operations resource.</span></span> <span data-ttu-id="709f7-106">Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos.</span><span class="sxs-lookup"><span data-stu-id="709f7-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 

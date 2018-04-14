@@ -20,17 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: bec83606ec6482cba7231356910312c10e20cca2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9932248d095f11096fb5ea96324902ad1b9e5fb5
 ms.contentlocale: es-es
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-a-call-center-catalog"></a><span data-ttu-id="1834a-103">Creación de un catálogo de centro de llamadas</span><span class="sxs-lookup"><span data-stu-id="1834a-103">Create a call center catalog</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="1834a-104">Este artículo proporciona información general del proceso de crear un catálogo para un centro de llamadas.</span><span class="sxs-lookup"><span data-stu-id="1834a-104">This article provides an overview of the process for creating a catalog for a call center.</span></span> 
 

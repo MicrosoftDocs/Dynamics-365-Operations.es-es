@@ -19,19 +19,18 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 02d28aef2316d7cfe5ad4eb45272dc1a22c96789
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3f353e7dfb2d984f88936d863e3490895703fb99
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-tax-overview"></a><span data-ttu-id="b624c-104">Visión general de impuestos</span><span class="sxs-lookup"><span data-stu-id="b624c-104">Sales tax overview</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="b624c-105">Este tema proporciona una visión general del sistema de impuesto sobre las ventas.</span><span class="sxs-lookup"><span data-stu-id="b624c-105">This topic provides an overview of the sales tax system.</span></span> <span data-ttu-id="b624c-106">Explica los elementos de la configuración de los impuesto y de cómo funcionan juntos.</span><span class="sxs-lookup"><span data-stu-id="b624c-106">It explains the elements of the sales tax setup and how they work together.</span></span>
 

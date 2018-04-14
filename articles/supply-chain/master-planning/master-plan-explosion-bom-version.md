@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0f852c8d100c91d055e58c4594106aedf6fe5afb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bce6ffd0ee284f2a5e5b5fef0bdfa92e192b2f42
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="explosion-of-a-bom-version"></a><span data-ttu-id="32dd1-103">Expansión de una versión de lista de materiales</span><span class="sxs-lookup"><span data-stu-id="32dd1-103">Explosion of a BOM version</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="32dd1-104">En este artículo se explica un escenario de planificación maestra que implica la expansión de una versión de la lista de materiales (L. MAT.).</span><span class="sxs-lookup"><span data-stu-id="32dd1-104">This article explains a master planning scenario that involves explosion of a bill of materials (BOM) version.</span></span>
 

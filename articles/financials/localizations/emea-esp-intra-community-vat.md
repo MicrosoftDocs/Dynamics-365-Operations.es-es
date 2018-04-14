@@ -18,16 +18,15 @@ ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: 1b2b2245e6fac4c43fac8e5c280882480f3566a6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fddb20d27443e5949ee480cfcae33b8a6b358cbb
 ms.contentlocale: es-es
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="intra-community-vat-for-spain"></a><span data-ttu-id="1c59e-104">IVA intracomunitario para España</span><span class="sxs-lookup"><span data-stu-id="1c59e-104">Intra-community VAT for Spain</span></span>
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1c59e-105">Este tema proporciona información sobre la funcionalidad dedicada al impuesto sobre el valor añadido intracomunitario (IVA).</span><span class="sxs-lookup"><span data-stu-id="1c59e-105">This topic provides information about the functionality for intra-community value-added tax (VAT).</span></span> <span data-ttu-id="1c59e-106">Explica cómo se activa la funcionalidad, cómo se calculan e imprimen los importes de IVA intracomunitarios, y revisa los importes de IVA intracomunitarios que se han registrado.</span><span class="sxs-lookup"><span data-stu-id="1c59e-106">It explains how to turn on the functionality, calculate and print intra-community VAT amounts, and review intra-community VAT amounts that have been posted.</span></span>
 

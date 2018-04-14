@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 31787aa180639b934b837b98dc170070d33fd56f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 29b39ad74c064da88154a77299cedc9babe3786b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-accessorial-assignments"></a><span data-ttu-id="57825-103">Configurar asignaciones de cargos adicionales</span><span class="sxs-lookup"><span data-stu-id="57825-103">Set up accessorial assignments</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="57825-104">Este procedimiento muestra cómo configurar una asignación de cargos adicionales.</span><span class="sxs-lookup"><span data-stu-id="57825-104">This procedure shows how to set up an accessorial assignment.</span></span> <span data-ttu-id="57825-105">Esto lo hace normalmente el coordinador de transporte.</span><span class="sxs-lookup"><span data-stu-id="57825-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="57825-106">Antes de usar este procedimiento, debe ejecutar el procedimiento "Configuración de cargos adicionales del centro y cargos adicionales maestros".</span><span class="sxs-lookup"><span data-stu-id="57825-106">Before you use this guide you need to run the "Set up hub accessorial charges and accessorial masters" guide.</span></span>
 

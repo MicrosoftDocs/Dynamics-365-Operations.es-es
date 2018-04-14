@@ -18,17 +18,16 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b6ee0ceb9d773ad1f510a5d192a7094a37061808
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 477a67835ef6613810333c8e1a1345311783f8c9
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="file-formats-for-methods-of-payment"></a><span data-ttu-id="d09fb-103">Formatos de archivo para métodos de pago</span><span class="sxs-lookup"><span data-stu-id="d09fb-103">File formats for methods of payment</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d09fb-104">En este tema se describen los dos métodos para obtener los formatos de archivo que puede usar para los métodos de pago.</span><span class="sxs-lookup"><span data-stu-id="d09fb-104">This topic describes the two methods for getting file formats that you can use for methods of payment.</span></span>
 

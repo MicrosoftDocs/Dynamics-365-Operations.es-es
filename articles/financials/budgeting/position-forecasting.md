@@ -19,18 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4232deaa48fda7a388a1e57916975a6cea13cfe5
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="position-forecasting"></a><span data-ttu-id="b729f-104">Previsión de puestos</span><span class="sxs-lookup"><span data-stu-id="b729f-104">Position forecasting</span></span>
 
-[!include[banner](../includes/banner.md)]
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b729f-105">Los gastos relacionados con los trabajadores componen a menudo una proporción grande de los costes de una organización.</span><span class="sxs-lookup"><span data-stu-id="b729f-105">Expenses that are related to workers often make up a large proportion of an organization's costs.</span></span> <span data-ttu-id="b729f-106">La previsión de puestos le permite planificar esos gastos y los incluye en la planificación de presupuestos.</span><span class="sxs-lookup"><span data-stu-id="b729f-106">Position forecasting lets you plan those expenses and include them in the planning of budgets.</span></span>
 

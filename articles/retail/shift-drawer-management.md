@@ -20,17 +20,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4b39fafb7fb51ee26bd45fb28ce4b505a91de813
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="shift-and-cash-drawer-management"></a><span data-ttu-id="7950a-104">Gestión de turnos y caja registradora</span><span class="sxs-lookup"><span data-stu-id="7950a-104">Shift and cash drawer management</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="7950a-105">En este artículo se explica cómo configurar y utilizar los dos tipos de turnos de punto de venta (PDV) comerciales: independiente y compartido.</span><span class="sxs-lookup"><span data-stu-id="7950a-105">This article explains how to set up and use the two types of retail point of sale (POS) shifts -  shared and stand-alone.</span></span> <span data-ttu-id="7950a-106">Se pueden utilizar turnos compartidos por varios usuarios en varios lugares, mientras que los turnos independientes se pueden utilizar solo por un trabajador cada vez.</span><span class="sxs-lookup"><span data-stu-id="7950a-106">Shared shifts can be used by multiple users in multiple places, whereas stand-alone shifts can be used by only one worker at a time.</span></span>
 

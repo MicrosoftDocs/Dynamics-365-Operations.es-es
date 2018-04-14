@@ -16,15 +16,15 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1418f04d8fb4d05756ac7a5f4b92a1950037be1d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bfccbaab5b4d0b4d84d1bf344521b22b7a5e6efc
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a><span data-ttu-id="1b871-103">Definición del canal del centro de llamadas y de los atributos del canal</span><span class="sxs-lookup"><span data-stu-id="1b871-103">Define call center channel and channel attributes</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1b871-104">Este procedimiento le muestra cómo crear un nuevo canal de ventas minoristas y definir atributos de canal.</span><span class="sxs-lookup"><span data-stu-id="1b871-104">This procedure walks through creating a new retail channel and defining channel attributes.</span></span> <span data-ttu-id="1b871-105">La empresa de datos de prueba utilizada para crear esta tarea es USRT.</span><span class="sxs-lookup"><span data-stu-id="1b871-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="1b871-106">Este procedimiento se va a utilizar para el rol de TI de venta minorista.</span><span class="sxs-lookup"><span data-stu-id="1b871-106">This procedure is intended for the Retail IT role.</span></span>
 
