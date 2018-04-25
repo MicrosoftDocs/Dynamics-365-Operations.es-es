@@ -30,8 +30,8 @@
 ## [Visión general del centro de llamadas](call-center-functionality.md)
 ## [Catálogos de centros de llamadas](call-center-catalogs.md)
 ## [Creación de un catálogo de centro de llamadas](create-call-center-catalogs.md)
-## [Configurar avisos de fraude](set-up-fraud-alerts.md)
-## [Configurar opciones de procesamiento de pedidos](set-up-order-processing-options.md)
+## [Configurar alertas de fraude](set-up-fraud-alerts.md)
+## [Configurar un centro de llamadas](set-up-order-processing-options.md)
 ## [Configurar un programa de continuidad para un centro de llamadas](set-up-continuity-program.md)
 ## [Retenciones de pedido](work-with-order-holds.md)
 ## [Opciones de pago](work-with-payments.md)
@@ -48,9 +48,10 @@
 ## [Elegir entre Modern POS y Cloud POS](MPOS-or-CPOS.md)
 ## [Operaciones de POS, en línea y sin conexión](pos-operations.md)
 ## [Diseños de pantalla de datos de demostración en MPOS/CPOS](demo-data.md)
-## [Visión general de la búsqueda de productos y clientes en un punto de venta](POS-search-improvements.md)
+## [Información general de la búsqueda de productos y clientes en un punto de venta](POS-search-improvements.md)
+## [Búsqueda de inventario en el punto de venta](product-variants-POS.md)
 ## Periféricos de hardware
-### [Visión general de los periféricos de Retail](retail-peripherals-overview.md)
+### [Descripción general de los periféricos de Retail](retail-peripherals-overview.md)
 ### [Periféricos de hardware de POS probados por Microsoft](microsoft-tested-pos-hardware-peripherals.md)
 ### [Simulador periférico de Retail](dev-itpro/retail-peripheral-simulator.md)
 ### [Definir y mantener clientes de canal, registradoras y estaciones de hardware](define-maintain-channel-clients-registers-hw-stations.md)
@@ -95,7 +96,8 @@
 ## [Analizar el rendimiento de la tienda](store-performance-information.md)
 ## [Configurar análisis de RFM](set-up-rfm-analysis.md)
 
-# Descuentos y ajustes de precio
+# Descuentos y ajustes de precios
+## [Administración de precios de venta al por menor](price-management.md)
 ## [Ajustes de precios y descuentos](price-adjustments-discounts.md)
 ## [Determinar la combinación óptima de descuentos superpuestos](optimal-combination-overlapping-discounts.md)
 ## [Definición de descuentos específicos de un canal](define-channel-specific-discounts.md)
@@ -139,19 +141,23 @@
 ## [Configurar los componentes de un trabajo](../talent/create-job.md)
 
 # Características normativas y de localización
+## Francia
+### [Cajas registradoras para Francia](localizations/emea-fra-cash-registers.md)
+### [Directrices de implementación de cajas registradoras para Francia](localizations/emea-fra-deployment.md)
 ## India
-### [Integración de GST para cajas registradoras para la India](localizations/apac-ind-cash-registers.md)
+### [Integración de GST para cajas registradoras](localizations/apac-ind-cash-registers.md)
 ### [Directrices de implementación de cajas registradoras para la India](localizations/apac-ind-loc-deployment-guidelines.md)
 ## Noruega
 ### [Cajas registradoras para Noruega](localizations/emea-nor-cash-registers.md)
 ### [Directrices de implementación de cajas registradoras para Noruega](localizations/emea-nor-loc-deployment-guidelines.md)
 ## Suecia
 ### [Cajas registradoras para Suecia](localizations/emea-swe-cash-registers.md)
+### [Muestra de integración de Retail POS con unidades de control](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
 
 # Tareas de Retail
 ## [Crear un producto](../supply-chain/pim/tasks/create-product.md)
 ## [Configurar productos vinculados](../supply-chain/pim/tasks/configure-linked-products.md)
-## [Lanzar un producto o un producto maestro para entidades jurídicas](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
+## [Liberar un producto o un producto maestro a otras entidades jurídicas](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
 ## [Precio base y acuerdos comerciales](tasks/base-price-trade-agreements.md)
 ## [Reglas de precios de categoría para crear acuerdos comerciales](tasks/category-pricing-rules-trade-agreements.md)
 ## [Configurar el procesamiento de tarjeta de crédito](tasks/configure-credit-card-processing.md)
@@ -260,6 +266,7 @@
 ### [SDK de plataforma de comercio electrónico](dev-itpro/ecommerce-platform-sdk.md)
 
 ## Extensibilidad de conector de pago
+### [Integración del pago con un terminal de pago](dev-itpro/end-to-end-payment-extension.md)
 ### [Implementar un conector de pago y un dispositivo de pago (notas del producto)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ### [Implementar un conector de pago](dev-itpro/deploy-payment-connector.md)
 ### [Crear un instalador de Windows para un conector de pago](dev-itpro/create-windows-installer-payment-connector.md)
@@ -267,8 +274,9 @@
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [Integrar el SDK de Retail con el sistema de compilación continua](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Ejemplos de extensibilidad de SDK de Retail](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [Paquetes de SDK de Retail](dev-itpro/retail-sdk/retail-sdk-packaging.md)
+### [Paquetes del SDK de Retail](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Ejemplos de SDK de Retail ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+#### [Puntos de extensión de los albaranes](dev-itpro/extensions-shipping-carrier-integration.md)
 ### [Extensiones de base de datos de canal](dev-itpro/channel-db-extensions.md)
 ### [Extensibilidad de CDX](dev-itpro/cdx-extensibility.md)
 ### [Atributos de pedido](dev-itpro/order-attributes.md)

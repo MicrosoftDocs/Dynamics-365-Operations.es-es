@@ -1,3 +1,4 @@
+
 # [Dynamics 365 for Finance and Operations](index.md)
 
 ## Introducción
@@ -17,14 +18,16 @@
 ##### [Comprar Finance and Operations (local)](get-started/purchase-on-premises.md)
 
 ### [Novedades y cambios](get-started/whats-new-changed.md)
+#### [Directiva del ciclo de vida del software y nuevas soluciones de nube](../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json)
+#### [Directiva del ciclo de vida del software y nuevas soluciones locales](../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json)
 #### [Características quitadas u obsoletas](../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json)
 #### [Características de AX 2012 pospuestas](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Características no implementadas en implementaciones locales](get-started/features-not-implemented-on-prem.md)
-#### [Actualización 15 de la plataforma (marzo de 2018)](get-started/whats-new-platform-update-15.md)
-#### [Directiva de lanzamientos y ciclo de vida](../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json)
-#### [Implementaciones locales (marzo 2018)](get-started/whats-new-LBD-PU12-App72.md)
+#### [Finance and Operations 8.0 (abril 2018)](get-started/whats-new-changed-8-0-April-2018.md)
+#### [Platform update 15 (marzo de 2018)](get-started/whats-new-platform-update-15.md)
+#### [Implementaciones locales de 7.2 con la Platform update 12 (marzo de 2018)](get-started/whats-new-LBD-PU12-App72.md)
 #### [Finance and Operations, Enterprise Edition 7.3](get-started/whats-new-application-7.3-update.md)
-#### [Actualización 12 de la plataforma (noviembre de 2017)](get-started/whats-new-platform-update-12.md)
+#### [Platform update 12 (noviembre de 2017)](get-started/whats-new-platform-update-12.md)
 #### [Platform update 11 (octubre de 2017)](get-started/whats-new-platform-update-11.md)
 #### [Platform update 10 (agosto de 2017)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations, Enterprise Edition (julio de 2017)](get-started/whats-new-application-July-2017-update.md)
@@ -162,6 +165,10 @@
 ###### [Sincronizar encabezados y líneas de presupuesto de ventas directamente desde Sales a Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
 ###### [Sincronización de pedidos de ventas entre Sales y Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ###### [Sincronizar encabezados y líneas de factura de ventas directamente desde Finance and Operations en Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+##### [Configurar la integración con Field Service](../supply-chain/sales-marketing/field-service.md)
+###### [Sincronizar productos de Finance and Operations con productos de Field Service](../supply-chain/sales-marketing/field-service-product.md)
+###### [Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Finance and Operations](../supply-chain/sales-marketing/field-service-work-order.md)
+###### [Sincronizar facturas de acuerdos en Field Service con facturas de servicios en Finance and Operations](../supply-chain/sales-marketing/field-service-invoice.md)
 
 
 #### [Consumir servicios web externos](../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json)
@@ -198,6 +205,8 @@
 #### [Seguridad y entidades de datos](../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json)
 
 ### [Usar su propia base de datos](../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json)
+
+### [Automatización de tareas de datos](../dev-itpro/data-entities/data-task-automation.md)
 
 ## [Administración financiera](../financials/index.md)
 
@@ -754,6 +763,7 @@
 #### [Formatos de archivo para métodos de pago](../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
 #### [Integración de servicio fiscal (ESR)](../financials/localizations/emea-fiscal-service-integration.md)
 #### [Cancelación de activos fijos para Estonia y Lituania](../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+#### [Revalorización de divisa extranjera](../financials/localizations/emea-foreign-currency-revaluation.md)
 #### [Generar un documento de transferencia para una transferencia de inventario interna](../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md)
 #### [Generar una declaración intrastat de la UE](../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md)
 #### [Generar informe de lista de ventas de la UE](../financials/localizations/tasks/eur-00011-eu-sales-list-report.md)
@@ -809,18 +819,12 @@
 
 #### [Austria](../financials/localizations/austria.md)
 
-#### Bélgica
-##### [Extracto bancario CODA](../financials/localizations/emea-bel-coda-bank-statement-import.md)
-##### [Crear y transferir transacciones al BLWI](../financials/localizations/tasks/be-00011-create-transfer-blwi.md)
-##### [Declaración de impuestos de Intervat](../financials/localizations/emea-bel-intervat-tax-declaration.md)
-##### [Configuración de informes PRODCOM](../financials/localizations/emea-bel-prodcom-report.md)
-##### [Informes de conciliación](../financials/localizations/emea-bel-reconciliation-reports.md)
-##### [Configurar informes de balanza de pagos](../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md)
+#### [Bélgica](../financials/localizations/belgium.md)
 
 #### [República Checa](../financials/localizations/czech-republic.md)
 
 #### Dinamarca
-##### [Asignar un formato de pago del resguardo a una cuenta de cliente](../financials/localizations/tasks/assign-payment-slip-format-customer-account.md)
+##### [Asignar un formato al reguardo de pago para una cuenta de cliente](../financials/localizations/tasks/assign-payment-slip-format-customer-account.md)
 ##### [Crear y registrar una factura de cliente para un cliente del sector público](../financials/localizations/tasks/create-post-customer-invoice-public-sector-customer.md)
 ##### [Crear y registrar una factura de servicios para un cliente del sector público](../financials/localizations/tasks/create-post-free-text-invoice-public-sector-customer.md)
 ##### [Crear y registrar una factura de proyecto para un cliente del sector público](../financials/localizations/tasks/create-post-project-invoice-public-sector-customer.md)
@@ -833,6 +837,7 @@
 ##### [Configurar el formato del resguardo de pago](../financials/localizations/tasks/set-up-payment-slip-format.md)
 
 #### Estonia
+##### [Solicitudes de información personal](../financials/localizations/emea-est-personal-info.md)
 ##### [Extracto de IVA](../financials/localizations/emea-est-vat-statement-details.md)
 
 #### Francia
@@ -859,6 +864,9 @@
 ##### [Depreciación de RB/SL](../financials/localizations/emea-fra-rbsl-depreciation.md)
 ##### [Configurar el método de pago](../financials/localizations/tasks/fr-00004-setup-method-payment.md)
 ##### [Actualizar el método de pago en el cliente](../financials/localizations/tasks/fr-00004-update-method-payment-customer.md)
+##### Retail
+###### [Cajas registradoras](../retail/localizations/emea-fra-cash-registers.md)
+###### [Directrices de implementación para cajas registradoras](../retail/localizations/emea-fra-deployment.md)
 
 #### Alemania
 ##### [Depreciación de adquisición adicional](../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
@@ -876,7 +884,8 @@
 ##### [Cálculo del tipo de cambio](../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md)
 ##### [Métodos de depreciación para activos fijos](../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)
 ##### [Activos fijos de bajo coste](../financials/localizations/emea-hun-low-cost-fixed-assets.md)
-##### [Mover un activo fijo a un inventario](../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+##### [Mover un activo fijo al inventario](../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+##### [Documentos de reembolsos de impuestos](../financials/localizations/emea-hun-tax-reimbursement-docs.md)
 
 #### Islandia
 ##### [Crear una cuenta de proveedor y vincular la categoría de declaración de factura](../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md)
@@ -891,6 +900,7 @@
 ##### [Depreciación de activos fijos](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
 ##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [Verificación de fecha de albarán en facturas](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
+##### [Registrar e imprimir un albarán con los detalles de entrega de transporte](../financials/localizations/emea-ita-packing-slip.md)
 ##### [Libros de impuestos](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [Pago fraccionado para facturas emitidas a la administración pública](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
 ##### [Retención de impuestos](../financials/localizations/emea-ita-withholding-tax.md)
@@ -945,6 +955,7 @@
 ##### [Ciclos de compra y venta](../financials/localizations/emea-esp-sales-purchase-cycle.md)
 ##### [Entradas especiales y hojas de apertura](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### Suecia
+##### [Exportar información financiera para auditores de Suecia](../financials/localizations/emea-swe-sie-standard-report.md)
 ##### [Formatos de pago de importación](../financials/localizations/emea-swe-payment-formats-import.md)
 ##### [Cajas registradoras](../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json)
 #### Suiza
@@ -1218,8 +1229,9 @@
 #### [Visión general de Reporting Services de documentos](../dev-itpro/analytics/document-reporting-services.md?toc=/fin-and-ops/toc.json)
 #### [Configurar SSRS para una implementación local](../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json)
 #### [Impresión](../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json)
-##### [Instalación del Agente de ruta de documentos para habilitar los dispositivos de impresora de red](../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json)
-##### [Instalación de dispositivos de impresora de red en entornos locales](../dev-itpro/analytics/install-network-printer-onprem.md?toc=/fin-and-ops/toc.json)
+##### [Instalar el Agente de ruta de documentos para habilitar los dispositivos de impresora de red](../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json)
+##### [Actualizar el Agente de ruta de documentos](../dev-itpro/analytics/upgrade-document-routing-agent.md)
+##### [Instalar dispositivos de impresora de red en entornos locales](../dev-itpro/analytics/install-network-printer-onprem.md?toc=/fin-and-ops/toc.json)
 ##### [Funcionalidades de generación, publicación e impresión de documentos en implementaciones locales](../dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/fin-and-ops/toc.json)
 ##### [Ejecución del Agente de ruta de documentos como servicio de Windows](../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/fin-and-ops/toc.json)
 #### [Ayudar a evitar el tiempo de espera de informes de larga ejecución](../dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/fin-and-ops/toc.json)
@@ -1234,6 +1246,7 @@
 
 ### [Informes electrónicos](../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json)
 #### [Configurar el marco de informes electrónicos](../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json)
+#### [Crear una configuración](../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json)
 ##### [Crear un proveedor de configuración y marcarlo como activo para informes electrónicos](../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json)
 ##### [Diseñar un modelo de datos específico del dominio para informes electrónicos](../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json)
 ##### [Definir la asignación de modelo y seleccionar orígenes de datos para informes electrónicos](../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json)
@@ -1248,48 +1261,46 @@
 ##### [Configurar destinos de informes electrónicos](../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json)
 #### [Diseñar una configuración para generar informes con formato Microsoft Word para informes electrónicos](../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json)
 #### [Diseñar una configuración para generar informes con formato OpenXML para informes electrónicos](../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json)
-#### [Modificar un formato al aplicar de nuevo una plantilla de Microsoft Excel para informes electrónicos](../dev-itpro/analytics/tasks/er-modify-format-by-reapplying-microsoft-excel-template-july-2017.md?toc=/fin-and-ops/toc.json)
 #### [Modificar un formato de informe electrónico al aplicar de nuevo una plantilla de Microsoft Excel](../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json)
 #### [Seleccionar la definición de modelo de datos durante la creación del formato para informes electrónicos](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [Definir la dependencia de las configuraciones de otros componentes para informes electrónicos](../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [Diseñar el modelo de datos para usar dimensiones financieras como origen de datos para informes electrónicos](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json)
-##### [Asignar modelos para usar dimensiones financieras como origen de datos para informes electrónicos](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json)
-##### [Diseñar un informe para usar dimensiones financieras como origen de datos para informes electrónicos](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json)
-##### [Ejecutar un informe que use dimensiones financieras como origen de datos para informes electrónicos](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json)
-##### [Crear el formato de recuento y suma para informes electrónicos](../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json)
-##### [Configurar los cálculos para realizar recuentos y sumas para informes electrónicos](../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json)
-##### [Usar los cálculos para generar el resultado de recuentos y sumas para informes electrónicos](../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json)
-##### [Ejecutar el formato para realizar recuentos y sumas para informes electrónicos](../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json)
-##### [Generar un formato que permita usar intervalos horizontalmente ensanchables para agregar columnas de forma dinámica en Excel para informes electrónicos](../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json)
-##### [Ejecutar un formato que use intervalos horizontalmente ensanchables para agregar columnas de forma dinámica en Excel para informes electrónicos](../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json)
-##### [Preparar el modelo de datos para usar archivos de administración de documentos en las salidas de formato para informes electrónicos](../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json)
-##### [Ampliar el modelo de datos para usar archivos de administración de documentos en las salidas de formato para informes electrónicos](../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json)
-##### [Crear el formato para usar archivos de administración de documentos en las salidas de formato para informes electrónicos](../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json)
-##### [Ejecutar el formato para usar archivos de administración de documentos en las salidas de formato para informes electrónicos](../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json)
-##### [Modificar y ejecutar el formato para usar archivos de administración de documentos en las salidas de formato para informes electrónicos](../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json)
-##### [Diseñar configuraciones para generar informes en formatos de Microsoft Office con imágenes insertadas para informes electrónicos (ER) (Parte 1) ](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [Revisar las configuraciones para generar informes en formatos de Microsoft Office con imágenes insertadas para informes electrónicos](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json)
-##### [Generar informes en formatos de Microsoft Office con imágenes insertadas para informes electrónicos](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json)
+#### [Definir la dependencia de las configuraciones de otros componentes para informes electrónicos](../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [Diseñar el modelo de datos para usar dimensiones financieras como origen de datos](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json)
+##### [Asignar modelos de datos para usar dimensiones financieras como origen de datos](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json)
+##### [Diseñar informes para usar dimensiones financieras como origen de datos](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json)
+##### [Ejecutar informes para que usen dimensiones financieras como origen de datos](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json)
+##### [Crear el formato para realizar recuentos y sumas](../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json)
+##### [Configurar los cálculos para realizar recuentos y sumas](../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json)
+##### [Usar los cálculos para generar el resultado de recuentos y sumas](../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json)
+##### [Ejecutar el formato para realizar recuentos y sumas](../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json)
+##### [Generar un formato que permita usar intervalos horizontalmente ensanchables para agregar columnas de forma dinámica en informes de Excel](../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json)
+##### [Ejecutar formatos que usen intervalos horizontalmente ensanchables para agregar columnas de forma dinámica en informes de Excel](../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json)
+##### [Preparar modelos de datos para usar archivos de gestión documental en salidas de formato](../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json)
+##### [Ampliar modelos de datos para usar archivos de gestión documental en salidas de formato](../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json)
+##### [Crear el formato para usar archivos de administración de documentos en las salidas de formato](../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json)
+##### [Ejecutar el formato para usar archivos de administración de documentos en las salidas de formato](../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json)
+##### [Modificar y ejecutar el formato para usar archivos de administración de documentos en las salidas de formato](../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json)
+##### [Diseñar configuraciones para generar informes en los formatos de Microsoft Office con imágenes incrustadas](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [Revisar configuraciones para crear informes en los formatos de Microsoft Office con imágenes incrustadas](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json)
+##### [Generar informes en los formatos de Microsoft Office con imágenes incrustadas](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json)
 #### [Generar documentos electrónicos y actualizar los datos de las aplicaciones mediante la herramienta de informes electrónicos](../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json)
-##### [Importar configuraciones para generar documentos con actualización de datos de aplicaciones para informes electrónicos](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json)
-##### [Generar documentos con actualización de datos de aplicaciones para informes electrónicos](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json)
-##### [Modificar el modelo y la asignación para generar documentos con actualización de datos de aplicaciones para informes electrónicos](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json)
-##### [Modificar el formato para generar documentos con actualización de datos de aplicaciones para informes electrónicos](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json)
-##### [Generar documentos con actualización de datos de aplicaciones para informes electrónicos](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json)
-#### [Insertar imágenes y formas en documentos empresariales que se generan mediante la herramienta de informes electrónicos](../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json)
-#### [Cargar una configuración en Lifecycle Services para informes electrónicos](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json)
-##### [Importar una configuración de Lifecycle Services para informes electrónicos](../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+##### [Importar configuraciones para generar documentos con datos de la aplicación](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json)
+##### [Diseñar configuraciones para generar documentos con datos de la aplicación](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json)
+##### [Modificar el modelo y la asignación para generar documentos con datos de la aplicación](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json)
+##### [Modificar formatos para generar documentos con datos de la aplicación](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json)
+##### [Generar documentos con datos de la aplicación](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json)
+#### [Incrustar imágenes y formas en documentos empresariales que se generan mediante la herramienta de informes electrónicos](../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json)
 #### [Administrar el ciclo de vida de configuración](../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json)
-#### [Crear una configuración](../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json)
-#### [Descargar configuraciones de Lifecycle Services](../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json)
-#### [Ampliar funciones de informes electrónicos](../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json)
-##### [Administrar las configuraciones de asignación de modelo para informes electrónicos](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [Cargar una configuración en Lifecycle Services para informes electrónicos](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+##### [Importar una configuración de Lifecycle Services para informes electrónicos](../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+##### [Descargar configuraciones de Lifecycle Services](../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json)
+##### [Importar configuraciones de informes electrónicos](../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json)
+#### [Administrar las configuraciones de asignación de modelo para informes electrónicos](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json)
 ##### [Crear las configuraciones necesarias para importar datos de un archivo externo para informes electrónicos](../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json)
-#### [Importar configuraciones de informes electrónicos](../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json)
 #### [Analizar documentos de entrada para actualizar datos de aplicaciones](../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json)
 #### [Analizar documentos de entrada en formato CSV](../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json)
-
+##### [Ampliar funciones de informes electrónicos](../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json)
 ##### [Cambios de la API del marco de informes electrónicos para la actualización de la aplicación 7.3](../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json)
+
 
 ### Soluciones analíticas incrustadas
 #### [Power BI insertado en espacios de trabajo](../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/fin-and-ops/toc.json)
@@ -1450,7 +1461,8 @@
 #### [Configuraciones de solicitud de proveedor](../supply-chain/procurement/vendor-request-configurations.md)
 #### [Incorporación de proveedor](../supply-chain/procurement/vendor-onboarding.md)
 #### [Colaboración de proveedor con proveedores externos](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
-#### [Colaboración de proveedor con los clientes](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+#### [Colaboración de proveedor con clientes](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+#### [Importación de catálogos de proveedores](../supply-chain/procurement/vendor-catalogs-import.md)
 #### [Configurar un catálogo externo para la adquisición electrónica de marcaje de salida](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
 #### [Usar catálogos externos para la adquisición electrónica de marcaje de salida](../supply-chain/procurement/use-external-catalogs-for-punchout.md)
 #### [Espacio de trabajo móvil de colaboración de proveedor](../supply-chain/procurement/vendor-collaboration-mobile-workspace.md)
@@ -1598,16 +1610,18 @@
 ##### [Sustitución material en la fabricación](../supply-chain/production-control/substitute-items-bom-lines.md)
 ##### [Registro para ejecución de fabricación](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [Comentarios de producción](../supply-chain/production-control/production-feedback.md)
-##### [Registro de tiempo y asistencia](../supply-chain/production-control/time-attendance-registrations.md)
-##### [Registro de ausencia en Tiempo y asistencia](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 ##### [Habilitar el proceso de nómina para tiempo y asistencia](../supply-chain/production-control/tasks/payroll-process-time-attendance.md)
 ##### [Configurar un trabajador mediante el dispositivo móvil de trabajo](../supply-chain/production-control/tasks/worker-mobile-job-device.md)
 #### Gestionar operaciones financieras en producción
 ##### [Asignar tiempo a trabajos en una agrupación de trabajos](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [Calcular el consumo de materiales](../supply-chain/production-control/consumption.md)
 ##### [Registro de la producción](../supply-chain/cost-management/production-posting.md)
+#### [Registro de tiempo y asistencia](../supply-chain/production-control/time-attendance-registrations.md)
+##### [Paga basada en los registros](../supply-chain/production-control/pay-based-on-registrations.md)
+##### [Registro de ausencia en tiempo y asistencia](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [Grupos de horario flexible](../supply-chain/production-control/time-attendance-flex-groups.md)
 
-### Lean manufacturing (producción ajustada) 
+### Lean manufacturing 
 #### [Visión general de lean manufacturing](../supply-chain/production-control/lean-manufacturing-overview.md)
 #### [Subcontratación basada en actividad](../supply-chain/production-control/activity-based-subcontracting.md)
 
@@ -1836,17 +1850,19 @@
 #### [Movimiento de inventario con trabajo asociado en Gestión de almacenes](../supply-chain/warehousing/move-inventory-associated-work.md)
 #### [Gestionar trabajadores de almacén](../supply-chain/warehousing/manage-warehouse-workers.md)
 ### Picking y embalaje
+#### [Configurar picking de clústeres](../supply-chain/warehousing/set-up-cluster-picking.md)
 #### [Confirmación de lote y matrícula](../supply-chain/warehousing/batch-and-license-plate-confirmation.md)
-#### [Crear un elemento de menú del dispositivo móvil para la consolidación del número de matrícula](../supply-chain/warehousing/tasks/create-mobile-device-license-plate-consolidation.md)
+#### [Crear un artículo de menú del dispositivo móvil para la consolidación del número de matrícula](../supply-chain/warehousing/tasks/create-mobile-device-license-plate-consolidation.md)
 #### [Recepción de matrícula de entidad de almacén mixta](../supply-chain/warehousing/mixed-license-plate-receiving.md)
 #### [Configurar la visualización de lotes más antiguos del almacén en un dispositivo móvil](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
 #### [Seleccionar el lote más antiguo en un dispositivo móvil](../supply-chain/warehousing/pick-oldest-batch.md)
 #### [Digitalizar códigos de barras mediante una cámara en Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Confirmación de picking de pieza](../supply-chain/warehousing/piece-picking-confirmation.md)
-#### [Confirmación de producto para picking de clústeres](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
+#### [Envío parcial de una carga de transporte](../supply-chain/warehousing/partial-shipping-of-transport-loads.md)
 #### [Liberación por lotes de pedidos de transferencia parcialmente reservados](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
 #### [Materiales y cuotas de embalaje](../supply-chain/warehousing/pack-materials-packing-material-fees.md)
 ### Recuento de inventario
+#### [Códigos de motivo de recuento de inventario](../supply-chain/warehousing/reason-codes-for-counting-journals.md)
 #### [Bloquear el inventario](../supply-chain/inventory/inventory-blocking.md)
 #### [Recuento cíclico](../supply-chain/warehousing/cycle-counting.md)
 #### [Definir el recuento cíclico ](../supply-chain/warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md)
@@ -1857,6 +1873,7 @@
 #### [Estado de inventario](../supply-chain/inventory/inventory-statuses.md)
 #### [Recuento de etiquetas de inventario](../supply-chain/inventory/inventory-tag-counting.md)
 ### [Reabastecimiento](../supply-chain/warehousing/replenishment.md)
+#### [Reabastecimiento inmediato](../supply-chain/warehousing/immediate-replenishment.md)
 #### [Reabastecimiento con kanbans de transporte](../supply-chain/warehousing/material-replenishment-withdrawal-kanban.md)
 ### [Instalar y configurar la aplicación Warehousing ](../supply-chain/warehousing/install-configure-warehousing-app.md)
 #### [Configuración de nombres de campo en la aplicación Warehousing](../supply-chain/warehousing/configure-app-field-names-priorities-warehouse.md)
