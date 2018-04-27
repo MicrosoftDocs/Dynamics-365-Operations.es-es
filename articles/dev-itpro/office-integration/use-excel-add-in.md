@@ -3,7 +3,7 @@ title: Usar el complemento de Excel
 description: "Este tema explica cómo abrir los datos de la entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Microsoft Dynamics Office para Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/30/2017
+ms.date: 04/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,16 +18,16 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f3ed06dbbce21ac093107953d3a72d8ab086af2a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0e3e86820e0857b320d832c3bf3c94757667919
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-the-excel-add-in"></a>Usar el complemento de Excel
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema explica cómo abrir los datos de la entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Microsoft Dynamics Office para Excel. Para abrir los datos de la entidad, puede iniciar desde Excel o Microsoft Dynamics 365 for Finance and Operations.
 
@@ -35,6 +35,11 @@ Al abrir los datos de la entidad en Excel, puede ver y editar los datos de forma
 
 > [!NOTE]
 > Si su inquilino de Microsoft Azure Active Directory (Azure AD) está configurado para usar Servicios de federación de Active Directory (AD FS), debe asegurarse de que se haya aplicado la actualización de mayo de 2016 para Office, de modo que el complemento de Excel pueda registrarle correctamente.
+
+Para obtener más información sobre el uso del complemento de Excel, vea el breve vídeo [Crear una plantilla de Excel para patrones de encabezado y línea en Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
+
+> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
+
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Abrir los datos de la entidad en Excel en el inicio desde Finance and Operations
 1. En una página de Finance and Operations, seleccione **Abrir en Microsoft Office**.

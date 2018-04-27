@@ -18,29 +18,29 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 27c03f7bd61ee7d4cb1d01f04af2f1821e9988e1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
 ms.contentlocale: es-es
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a>Especificar saldos iniciales de nómina
 
-[!include[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 El tema se describen los pasos para especificar los saldos iniciales para los códigos de ganancias, las deducciones, las prestaciones y los impuestos. Esta información tiene valor para que los socios que transfieran los datos para una nueva implementación de nóminas desde otro sistema. Para prepararse para especificar los saldos iniciales de nóminas, comprobamos la siguiente información:
 
 > * Los registros de empleados se especificaron y están disponibles en el sistema
 > * Los siguientes datos se configuraron y asignaron a los empleados:
-
+> 
 > > * Ciclos y períodos de pago
 > > * Códigos de ganancia
 > > * Impuestos
 > > * Beneficios y deducciones
-
+> 
 > * La empresa debe haber elegido una fecha en la que saldos iniciales de nóminas se pueden configurar.
-
+> 
 > * La información recopilada se en todas las ganancias, las prestaciones/deducciones, las contribuciones de prestación, los impuestos del empleado y los impuestos del empresario y los importes del año hasta la fecha del sistema heredado.
 
 Cuando vaya a especificar saldos iniciales, considere cómo lo detallados que deben estar los datos. La mayoría de las empresas especifican un importe único, consolidado del año hasta la fecha. Sin embargo, si se necesita más información detallada, los saldos se pueden especificar en incrementos trimestrales. Decidir el nivel de detalle que sea necesario determina cuántos extractos de pago manuales se deben crear para cada trabajador. Para un solo importe del año hasta la fecha, solo una instrucción manual es necesaria para cada empleado. Para hacer esto utilice importes de año hasta la fecha desde el extracto de pago final del sistema anterior como el importe especificado en el nuevo sistema de nóminas.
@@ -128,22 +128,22 @@ Tras generar los extractos de pago con saldos iniciales, debe comprobar que los 
 
 4. Abre la pestaña **Deducciones por prestaciones** y especifique lo siguiente:
 
-| Campo                           | Valor            |
-|---------------------------------|------------------|
-| Beneficio                         | Importe de deducción |
-| 401K | Participar              | 3000.00          |
-| Dental | SubSp                  | 495,00           |
-| Gastos de atención del Dep | Participar | 2500.00          |
-| Visión | SupSp                  | 500,00           |
+|       Campo       |      Valor       |
+|-------------------|------------------|
+|      Prestación      | Importe de deducción |
+|       401K        |   Participar    |
+|      Dental       |      SubSp       |
+| Gastos de atención del Dep |   Participar    |
+|      Visión       |      SupSp       |
 
 5. En la pestaña **Contribuciones por prestaciones**, especifique lo siguiente:
 
-| Campo              | Valor               |
-|--------------------|---------------------|
-| Beneficio            | Importe de contribución |
-| 401K | Participar | 3000,00             |
-| Dental | SubSp     | 495,00              |
-| Visión | SubSp     | 500,00              |
+|  Campo  |        Valor        |
+|---------|---------------------|
+| Prestación | Importe de contribución |
+|  401K   |     Participar     |
+| Dental  |        SubSp        |
+| Visión  |        SubSp        |
 
 6. En la pestaña **Deducciones por impuestos**, especifique lo siguiente:
 
@@ -156,8 +156,8 @@ Tras generar los extractos de pago con saldos iniciales, debe comprobar que los 
 7. En la pestaña **Contribuciones por impuestos**, especifique lo siguiente:
 
 8. Haga clic en **Calcular**.
-> [!IMPORTANT] 
-> Valide los totales del extracto de pago que coincidan con el año hasta la fecha del sistema heredado para el trabajador. Es posible que desee retener la finalización en el paso siguiente para hacer una validación general de todos los extractos de pago en conjunto. Una vez hecha la validación pase por todos los extractos de pago y complételos.
+   > [!IMPORTANT] 
+   > Valide los totales del extracto de pago que coincidan con el año hasta la fecha del sistema heredado para el trabajador. Es posible que desee retener la finalización en el paso siguiente para hacer una validación general de todos los extractos de pago en conjunto. Una vez hecha la validación pase por todos los extractos de pago y complételos.
 
 El mismo proceso se puede realizar en incrementos trimestres si fuera necesario para todos los trimestres anteriores de cada año. Esto solo es necesario si el cliente necesita ver los datos por trimestre sin tener que volver al sistema heredado.
 

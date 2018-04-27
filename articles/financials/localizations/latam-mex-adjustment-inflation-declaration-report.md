@@ -19,17 +19,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3ba948f9739aba1dd50bb53585523fccf53ad40c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f84f91d67e88fed737cf7885500c96a79e3aef00
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="adjustment-inflation-declaration-report"></a>Informe de la declaración de inflación de ajuste
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Los usuarios de Finance and Operations pueden procesar ajustes de inflación mediante coeficientes de INPC, distintos métodos (como saldos de apertura, saldo, saldo mensual y fecha de transacción) y diversas dimensiones.
 
@@ -83,7 +82,7 @@ La tabla siguiente muestra la configuración que debe existir antes de comenzar 
 </table>
 
 ## <a name="start-the-adjustment-inflation-process"></a>Iniciar el proceso de inflación de ajuste
-Para iniciar el proceso, haga clic en **Contabilidad general** &gt; **Tareas de período** &gt; **Ajuste de inflación B-10**. Puede** **crear la entrada para un período específico e incluir las fechas inicial y final. El estado predeterminado para la entrada es **Abierto**. También puede incluir notas adicionales acerca del proceso de ajuste de inflación. Hay diversas maneras de ejecutar el proceso:
+Para iniciar el proceso, haga clic en <strong>Contabilidad general</strong> &gt; <strong>Tareas de período</strong> &gt; <strong>Ajuste de inflación B-10</strong>. Puede** <strong>crear la entrada de un período específico e incluir la fecha inicial y final. El estado predeterminado para la entrada es **Abierto</strong>. También puede incluir notas adicionales acerca del proceso de ajuste de inflación. Hay diversas maneras de ejecutar el proceso:
 
 -   **Simular**: antes de ejecutar el proceso de ajuste de inflación, puede ejecutar una simulación de los efectos generales de ejecutar el ajuste de inflación. Si se encuentran diferencias en el informe **Simulación**, puede cambiar solo los campos **Capa de registro** y **Notas** en la página **Ajuste por inflación B-10**. El proceso de simulación no registra las transacciones contables de ajuste de inflación. El proceso genera un informe que muestra las transacciones contables de ajuste de inflación generadas por el sistema.
 -   **Registrar**: puede registrar definitivamente el ajuste de inflación para generar los asientos de inflación de ajuste relacionados. También puede especificar la capa de registro donde se generan las transacciones. La entrada de inflación de ajuste tiene un estado de **Registrado**.

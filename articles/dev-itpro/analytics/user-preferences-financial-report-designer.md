@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cabaf8a579fcd9722e409630038167afb07ffc6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0307db3a49bcdb62146b815383f744c5b8e0fde
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="user-preferences-in-financial-report-designer"></a>Preferencias de usuario en el diseñador de informes financieros
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se explica cómo establecer preferencias de usuario para personalizar sus interacciones de usuario en el diseñador de informes financieros y controlar la experiencia de inicio de sesión inicial. También puede controlar cómo se muestran los informes individuales, la biblioteca de informes y las ubicaciones de archivo predeterminadas. 
 
@@ -63,7 +62,7 @@ En este artículo se explica cómo establecer preferencias de usuario para perso
 <td>Seleccione si desea recibir un mensaje de advertencia cuando sale de la aplicación. Este mensaje ayuda a garantizar que no sale del programa sin querer.</td>
 </tr>
 <tr class="odd">
-<td>Aplicar automáticamente subrayado de la celda en encabezados de columna</td>
+<td>Aplicar automáticamente el subrayado de celda en encabezados de columnas</td>
 <td>Seleccione si desea insertar un subrayado en la celda de un nuevo encabezado de columna.</td>
 </tr>
 <tr class="even">

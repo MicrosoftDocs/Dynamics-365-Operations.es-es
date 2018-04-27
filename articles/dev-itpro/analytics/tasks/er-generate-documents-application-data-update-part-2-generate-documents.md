@@ -1,5 +1,5 @@
 --- 
-title: "Generar documentos con actualización de datos de aplicaciones para informes electrónicos (ER)"
+title: "Diseñar configuraciones para generar documentos con datos de la aplicación"
 description: "Para completar los pasos de este procedimiento, primero debe completar el procedimiento, ER Generar documentos con la actualización de los datos de la aplicación (Parte 1: Configuraciones de importación)\"."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: c724ce3c39ed7097a5a842b44a095628dcdfa131
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad5508ea5807f505b29f2e60a1459c9c22552694
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Generar documentos con actualización de datos de aplicaciones para informes electrónicos (ER)
+# <a name="design-configurations-to-generate-documents-with-application-data"></a>Diseñar configuraciones para generar documentos con datos de la aplicación
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Para completar los pasos de este procedimiento, primero debe completar el procedimiento, "ER: Generar documentos con la actualización de los datos de la aplicación (Parte 1: Configuraciones de importación)".
 

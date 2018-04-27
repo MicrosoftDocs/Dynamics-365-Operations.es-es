@@ -16,16 +16,16 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: aa2bbfab4afa59c15e28526192cc07be13da11d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="my-team-mobile-workspace"></a>Espacio de trabajo móvil Mi equipo
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema proporciona información sobre del espacio de trabajo móvil **Mi equipo**. Este espacio de trabajo permite a los administradores ver su personal subordinado directo y ampliado. También pueden enviar elogios a otras personas en su cadena de subordinados.
 
@@ -58,7 +58,7 @@ Para poder usar este espacio de trabajo móvil, antes debe satisfacer los siguie
 </ul>
 </td>
 <td>Administrador del sistema</td>
-<td>Si no tiene Finance and Operations en su organización, consulte <a href="../deployment/deploy-demo-environment.md">Implementar un entorno de demostración</a>. Si no tiene Talent en su organización, el administrador del sistema puede obtener acceso a una versión de prueba en la <a href="https://www.microsoft.com/en-us/dynamics365/talent">página web de Talent</a>.
+<td>Si no tiene Finance and Operations en su organización, consulte <a href="../deployment/deploy-demo-environment.md">Implementar un entorno de demostración</a>. Si no tiene Talent en su organización, el administrador del sistema puede obtener acceso a una versión de prueba en la página web de <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent</a>.
 </td>
 </tr>
 <tr class="even">

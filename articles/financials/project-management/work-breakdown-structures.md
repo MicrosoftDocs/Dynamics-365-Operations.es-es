@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc2fa16a44b6421d56e9cb662cfaa26da5b1c5d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="work-breakdown-structures"></a>Estructuras de descomposición del trabajo
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Una estructura de descomposición del trabajo (WBS) es una descripción del trabajo que se realizará para un proyecto. Es una jerarquía de tareas que representa la comprensión del equipo del proyecto de la composición del trabajo, y del tamaño, coste y duración de cada componente o tarea. Una WBS tiene tres propósitos principales:
 
@@ -115,7 +115,7 @@ La estimación de la programación es normalmente el segundo paso en la creació
 
 La fecha inicial de una tarea de nodo hoja que no tenga predecesores se establece automáticamente en la fecha inicial de programación del proyecto. La duración de una tarea de nodo hoja se calcula siempre como el número de días laborables entre sus fechas de inicio y finales. 
 
-****Reglas de programación**** Cuando la ayuda de previsión automática está activada, se aplican las siguientes reglas a la programación de tareas para tareas de nodo hoja:
+*<strong><em>Reglas de programación</em></strong>* Cuando la ayuda de previsión automática está activada, se aplican las siguientes reglas a la programación de tareas para tareas de nodo hoja:
 
 -   Las fechas de inicio y final de una tarea deben ser días laborables, de acuerdo con el calendario de programación del proyecto.
 -   La fecha inicial de una tarea que tiene predecesoras se establece automáticamente a la última fecha final de todas sus predecesoras.

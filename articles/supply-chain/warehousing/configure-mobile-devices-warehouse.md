@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f711ef739e8b885f2f09586f34775e826b619c82
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0033461e7cd2601993c006aba2ec7c8f6ac0c89
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móviles para el trabajo de almacén
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil.
 
@@ -209,7 +208,7 @@ Además de los elementos de menú de la configuración para crear el trabajo del
 </thead>
 <tbody>
 <tr class="odd">
-<td>Ninguna</td>
+<td>Sin ordenar</td>
 <td>Este valor predeterminado no procesa trabajo.</td>
 </tr>
 <tr class="even">

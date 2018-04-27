@@ -3,7 +3,7 @@ title: Contenido de Power BI
 description: "Este tema enumera el contenido de Power BI que está disponible y le señala a los recursos donde puede obtener más información acerca de él."
 author: sericks007
 manager: AnnBe
-ms.date: 02/22/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
@@ -19,16 +19,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 99eece7b31034065694f8875c72eb2360088ec23
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2473fa408ae8884b8713198debfff489ff6e6c46
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="power-bi-content"></a>Contenido de Power BI
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema enumera el contenido de Microsoft Power BI que está disponible y le señala a los recursos donde puede obtener más información acerca de él.
 
@@ -41,6 +40,7 @@ Si utiliza Microsoft Dynamics 365 for Finance and Operations, el siguiente conte
 - [Contenido de Power BI de CFO](CFO-power-bi.md)
 - [Contenido de Power BI de compensaciones](compensation-power-bi.md)
 - [Contenido en Power BI sobre el análisis de la contabilidad de costes](cost-accounting-analysis-content-pack.md) 
+- [Contenido de gestión de costes en Power BI](cost-management-content-pack.md)    
 - [Contenido en Power BI de Administración de créditos y cobros](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Contenido en Power BI de desarrollo de empleados](employee-development-PBI.md) 
 - [Contenido de Financial Insights Power BI](financial-insights.md)

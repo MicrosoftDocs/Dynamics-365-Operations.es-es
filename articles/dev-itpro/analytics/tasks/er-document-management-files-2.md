@@ -1,5 +1,5 @@
 --- 
-title: "Ampliar el modelo de datos para usar archivos de administración de documentos en las salidas de formato para informes electrónicos (ER)"
+title: "Ampliar modelos de datos para usar archivos de gestión documental en salidas de formato"
 description: "En los pasos siguientes se explica cómo un usuario asignado al administrador del sistema o al rol de desarrollador de informes electrónicos, puede configurar un informe electrónico (ER) para usar los archivos de gestión de documentos (adjuntos) en formato ER."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ebbd442c9f69290dc995c05462ca70b554f7d9f2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bde8c612af22ba6bf4561732399fcf2cb1b5c9b3
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="extend-data-model-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>Ampliar el modelo de datos para usar archivos de administración de documentos en las salidas de formato para informes electrónicos (ER)
+# <a name="extend-data-model-to-use-document-management-files-in-format-outputs"></a>Ampliar modelos de datos para usar archivos de gestión documental en salidas de formato
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 En los pasos siguientes se explica cómo un usuario asignado al administrador del sistema o al rol de desarrollador de informes electrónicos, puede configurar un informe electrónico (ER) para usar los archivos de gestión de documentos (adjuntos) en formato ER. Estos pasos se pueden llevar a cabo en cualquier empresa.
 

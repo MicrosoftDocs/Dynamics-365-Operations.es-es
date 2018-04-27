@@ -19,16 +19,18 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f50e58d63a9db4d6a8b5390174e2c7b87970717d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6db51f9fa180f0b8ce203fd2812c562b0201afa8
 ms.contentlocale: es-es
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-integration-with-other-modules"></a>Integración de planificación presupuestaria con otros módulos
 
-[!include[banner](../includes/banner.md)] Se pueden generar planes presupuestarios desde diversos recursos diferentes. Los elementos básicos del proceso periódico son iguales para todos los recursos. 
+[!INCLUDE [banner](../includes/banner.md)]
+
+ Se pueden generar planes presupuestarios desde diversos recursos diferentes. Los elementos básicos del proceso periódico son iguales para todos los recursos. 
 
 
 
@@ -66,7 +68,7 @@ La opción **Histórico** en la pestaña **Destino** le permite usar las fechas 
 
 El campo **Agregar total por** en la parte superior de la página también determina la fecha que se usa. Este campo realiza un total de los importes y establece opcionalmente la fecha de vigencia al primer día del ejercicio o período fiscal. 
 
-Muchos de los campos de la pestaña **Destino** pasan a ser editables o de sólo lectura, en función de la acción que seleccione. Cuando cambia de crear un nuevo plan presupuestario a actualizar un plan existente, el campo **Nombre del plan presupuestario** pasa a estar disponible, y los campos relacionados con la selección de un plan existente están disponibles. En las pestañas **Destino** y **Origen**, el campo **Libro mayor** nunca está disponible porque el valor está determinado por el proceso seleccionado de planificación presupuestaria. 
+Muchos de los campos de la pestaña <strong>Destino</strong> pasan a ser editables o de sólo lectura, en función de la acción que seleccione. Cuando cambia de crear un nuevo plan presupuestario a actualizar un plan existente, el campo <strong>Nombre del plan presupuestario</strong> pasa a estar disponible, y los campos relacionados con la selección de un plan existente están disponibles. En las pestañas <strong>Destino</strong> y <strong>Origen **, el campo **Libro mayor</strong> nunca está disponible porque el valor está determinado por el proceso de planificación presupuestaria seleccionado. 
 
 El campo **Clase de presupuesto** permite establecer las líneas del plan presupuestario como transacciones de gastos o transacciones de ingresos. Normalmente, las transacciones de ingresos son créditos en una cuenta contable y por tanto se almacenan como importes negativos. Normalmente, estas transacciones también aparecen como importes negativos en el plan presupuestario. Sin embargo, si se agrega la clase de presupuesto como un campo en el diseño del plan, los ingresos aparecerán como importes positivos.
 
@@ -111,7 +113,7 @@ No existe el campo **Clase de presupuesto**, porque la clase de presupuesto (**G
 
 Puede usar los presupuestos de proyecto como un origen seleccionando el modelo de previsión que contiene los importes presupuestarios de proyecto. Recuerde que los presupuestos de proyecto crearán entradas de previsión de proyecto a medida que se aprueban.
 
-Para seleccionar sólo costes o ingresos para las líneas del plan presupuestario, use el filtro para seleccionar **Actualizaciones de presupuesto: tipo de importe = coste** seleccionar. Para seleccionar solo un tipo de previsión, use el filtro para seleccionar **Actualizaciones de presupuesto: tipo de transacción = *xxx***. 
+Para seleccionar sólo costes o ingresos para las líneas del plan presupuestario, use el filtro para seleccionar <strong>Actualizaciones de presupuesto: tipo de importe = coste</strong>seleccionar. Para seleccionar solo un tipo de previsión, use el filtro para seleccionar <strong>Actualizaciones de presupuesto: tipo de transacción = *xxx</strong>*. 
 
 Solo se puede usar un modelo de previsión para generar un escenario del plan presupuestario. Si ejecuta el proceso para un modelo de previsión y después realiza una actualización e intenta especificar otro modelo, el primer modelo se sobrescribirá si se aplica el mismo proyecto y cuentas contables. Para generar un escenario del plan presupuestario a partir de más de un modelo de previsión, genere en distintos escenarios del plan presupuestario y use las opciones de asignación para agregarlas conjuntamente en otro escenario. 
 

@@ -1,5 +1,5 @@
 --- 
-title: "Designar un formato para usar intervalos horizontalmente ensanchables para añadir de forma dinámica columnas en informes de Excel para informes electrónicos (ER)"
+title: "Diseñar un formato que permita usar intervalos horizontalmente ensanchables para agregar columnas de forma dinámica en informes de Excel"
 description: "En los pasos siguientes se explica cómo un usuario asignado al administrador del sistema o al rol de desarrollador de informes electrónicos, puede configurar un formato electrónico (ER) para generar informes mientras que los archivos de las hojas de cálculo de Excel (OPENXML) en los que las columnas necesarias se pueden crear de forma dinámica como intervalos horizontalmente ensanchables."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1ccf3b2d81066fce80fe14428fab24020ab85496
-ms.openlocfilehash: b921b5ff51f951112031fe8b1bc2faa90cf29a28
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d9c3cf17cd406a50a9f92e78991289f9139d7c73
 ms.contentlocale: es-es
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a>Designar un formato para usar intervalos horizontalmente ensanchables para añadir de forma dinámica columnas en informes de Excel para informes electrónicos (ER)
+# <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports"></a>Diseñar un formato que permita usar intervalos horizontalmente ensanchables para agregar columnas de forma dinámica en informes de Excel
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 En los pasos siguientes se explica cómo un usuario asignado al administrador del sistema o al rol de desarrollador de informes electrónicos, puede configurar un formato electrónico (ER) para generar informes mientras que los archivos de las hojas de cálculo de Excel (OPENXML) en los que las columnas necesarias se pueden crear de forma dinámica como intervalos horizontalmente ensanchables. Estos pasos se pueden llevar a cabo en cualquier empresa.
 
@@ -36,7 +36,7 @@ Para completar estos pasos, primero debe completar estas tres guías de tarea:
 
 "ER Usar dimensiones financieras como origen de datos (Parte 2: Asignación de modelo)"
 
-También debe descargar y guardar una copia local de la plantilla con un informe de ejemplo que se encuentra aquí, [https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266). 
+También debe descargar y guardar una copia local de la plantilla con un informe de ejemplo encontrado aquí, [https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266). 
 
 
 Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.

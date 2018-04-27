@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: d9b61e545067db592545d5fbce7b4315c51a8bf8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4cfd017fe10bbda6eda0e3a9a045e0832b08753
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer"></a>Diseñador de fórmula
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema explica cómo utilizar el diseñador de fórmulas para analizar y mantener fórmulas en una vista de árbol.
 
@@ -88,7 +88,7 @@ El filtro que se aplica para la fórmula y la ruta se muestra en el encabezado d
 </tr>
 <tr class="odd">
 <td>Cantidad inicial</td>
-<td>Filtre las versiones seleccionando una determinada de cantidad de origen. Si establece un valor, se podrán seleccionar fórmulas y versiones de ruta diferentes.</td>
+<td>Filtre las versiones seleccionando una determinada de cantidad &quot;de origen&quot;. Si establece un valor, se podrán seleccionar fórmulas y versiones de ruta diferentes.</td>
 </tr>
 <tr class="even">
 <td>Mostrar sólo válidas</td>
@@ -116,8 +116,10 @@ Use las funciones **Líneas de L. MAT.** o **Fórmula** para modificar las líne
 ## <a name="configuring-the-tree-view"></a>Configuración de la vista de árbol
 Haga clic en **Configurar** para personalizar la información que se muestra en el diseñador de fórmula.
 
-| Grupo de campos | Descripción |
-|-------------|-------------|
-| L. MAT         | Sírvase de las casillas de verificación para seleccionar los criterios que se ven en la estructura de árbol. El diseñador de fórmula muestra los criterios seleccionados en la parte inferior de ambas fichas. |
-| Ruta       | Sírvase de las casillas de verificación para seleccionar los criterios que se ven para las rutas. |
+
+| Grupo de campos |                                                                          Descripción                                                                          |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     L. MAT     | Sírvase de las casillas de verificación para seleccionar los criterios que se ven en la estructura de árbol. El diseñador de fórmula muestra los criterios seleccionados en la parte inferior de ambas fichas. |
+|    Ruta    |                                           Sírvase de las casillas de verificación para seleccionar los criterios que se ven para las rutas.                                           |
+
 

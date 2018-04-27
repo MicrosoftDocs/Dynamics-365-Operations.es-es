@@ -3,7 +3,7 @@ title: "Creación de pagos de proveedor mediante una propuesta de pago"
 description: "Este tema proporciona una visión general de las opciones de propuesta de pago e incluye algunos ejemplos que muestran cómo funcionan las propuestas de pago. Las propuestas de pago se usan a menudo para crear pagos de proveedor, ya que se puede usar la consulta para seleccionar rápidamente facturas de proveedor para realizar el pago, en función de los criterios como la fecha de vencimiento y el descuento por pronto pago."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 07/17/2017
+ms.date: 04/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 454a370e73e6e0d33f0aeb1ca2b3f9d6d9f8cb98
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1199329f7d669a291249e22e393842673a8907c3
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Creación de pagos de proveedor mediante una propuesta de pago
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema proporciona una visión general de las opciones de propuesta de pago e incluye algunos ejemplos que muestran cómo funcionan las propuestas de pago. Las propuestas de pago se usan a menudo para crear pagos de proveedor, ya que se puede usar la consulta para seleccionar rápidamente facturas de proveedor para realizar el pago, en función de los criterios como la fecha de vencimiento y el descuento por pronto pago. 
 
@@ -40,25 +39,26 @@ La consulta de la propuesta de pago contiene diferentes fichas, cada una con var
 ## <a name="parameters"></a>Parámetros
 -   **Seleccionar facturas por**: las facturas dentro del intervalo de fechas especificado por los campos **Fecha inicial** y **Fecha final** se pueden seleccionar por fecha de vencimiento, fecha de descuento por pronto pago o ambas. Si usa la fecha de descuento por pronto pago, el sistema busca primero facturas con una fecha de descuento por pronto pago entre la fecha inicial y la fecha final. El sistema a continuación determina si la factura puede optar al descuento por pronto pago mediante la fecha de la sesión para asegurarse de que la fecha de descuento por pronto pago no haya pasado ya.
 -   **Fecha inicial** y **Fecha final**: las facturas que tienen una fecha de vencimiento o una de descuento por pronto pago dentro del intervalo de fechas se selecciona para su pago.
--   **Fecha de pago**: Se utiliza únicamente cuando el campo **Período** de la forma de pago se establece en **Total**. Si se ha definido una fecha, todos los pagos se crean con esta fecha. El campo **Fecha de pago mínima** no se tiene en cuenta.
 -   **Fecha de pago mínima**: especifique la fecha de pago mínima. Por ejemplo, los campos **Fecha inicial** y **Fecha final** especifican un intervalo desde el 1 de septiembre al 10 de septiembre, y la fecha de pago mínima es el 5 de septiembre. En este caso, todas las facturas que tienen fecha de vencimiento del 1 de septiembre al 5 de septiembre tienen una fecha de pago del 5 de septiembre. Sin embargo, todas las facturas que tienen una fecha de vencimiento del 5 de septiembre al 10 de septiembre tienen una fecha de pago igual a la fecha de vencimiento de cada factura.
 -   **Límite del importe**: especifique el importe total máximo para todos los pagos.
 -   **Crear pagos sin vista previa de factura**: si esta opción se establece en **Sí**, los pagos se crean inmediatamente en la página **Pagos de proveedor**. La página **Propuesta de pago** no se tiene en cuenta. Así pues, los pagos se crean más rápidamente. Los pagos se pueden modificar desde la página **Pagos de proveedor**. Alternativamente, puede volver a la página **Propuesta de pago** mediante el botón **Editar facturas para pago seleccionado**.
 
 ## <a name="advanced-options"></a>Opciones avanzadas
--   **Comprobar saldo de proveedor**: si esta opción se establece en **Sí**, el sistema comprueba que un proveedor no tenga saldo de débito antes de pagar ninguna factura. Si un proveedor tiene un saldo de débito, no se creará ningún pago. Por ejemplo, el proveedor puede tener notas de abono o pagos registrados pero que no se han liquidado aún. En estos casos, no se debe pagar al proveedor. En su lugar, las notas de abono o los pagos se deben liquidar con las facturas pendientes.
--   **Eliminar los pagos negativos**: esta opción funciona de forma diferente en función de si los pagos se realizan para facturas individuales o para la suma de las facturas que cumplen los criterios de pago. Este comportamiento se define en la forma de pago.
--   **Pago para cada factura**: si la opción **Eliminar los pagos negativos** está establecida en **Sí**, y hay una factura y un pago sin liquidar para un proveedor, solo se selecciona la factura para su pago. El pago existente no se liquida con la factura. Si la opción **Eliminar los pagos negativos** está establecida en **No** y hay una factura y un pago sin liquidar, se seleccionan para su pago la factura y el pago. Se crea un pago para el pago y una devolución (pago negativo) para el pago.
--   **Pago para la suma de facturas**: si la opción **Eliminar los pagos negativos** está establecida en **Sí** y hay una factura y un pago sin liquidar para un proveedor, la factura y el pago sin liquidar se seleccionan para su pago, y los importes se agregan para producir el importe total de pago. La única excepción es cuando la suma resulta en una devolución. En este caso, no se selecciona ni la factura ni el pago. Si la opción **Eliminar los pagos negativos** está definida en **No** y hay una factura y un pago sin liquidar, la factura y el pago se seleccionan para su pago, y los importes se agregan para producir el importe total de pago.
--   **Imprimir solo informe**: defina esta opción en **Sí** para ver los resultados de la propuesta de pago en un informe, pero sin crear ningún pago.
--   **Incluir facturas de proveedor de otras entidades jurídicas**: si su organización tiene un proceso centralizado para el pago y la propuesta de pago debe incluir facturas de otras entidades jurídicas incluidas en los criterios de búsqueda, establezca esta opción en **Sí**.
--   **Proponer pagos de proveedor independientes por entidad jurídica**: si esta opción está establecida en **Sí**, se crea un pago aparte para cada entidad jurídica por proveedor. El proveedor en el pago es el proveedor de la factura de cada entidad jurídica. Si la opción está definida en **No** y el mismo proveedor tiene facturas que pagar en varias entidades jurídicas, se crea un pago para el importe total de las facturas seleccionadas. El proveedor en el pago es el proveedor en la entidad jurídica actual. Si la cuenta de proveedor no existe en la entidad jurídica actual, se usa la cuenta de proveedor de la primera factura que se debe pagar.
--   **Divisa de pago**: este campo especifica la divisa en la que se crean todos los pagos. Si no se ha definido ninguna divisa, cada factura se paga en la divisa de la factura.
--   **Día de pago**: especifique el día de la semana en el que se debe efectuar el pago. Este campo solo se usa si el método de pago se configura para sumar las facturas por pagar en un día concreto de la semana.
--   **Tipo de cuenta de contrapartida** y **Cuenta de contrapartida**: establezca estos campos para definir un tipo de cuenta específico (como **Libro mayor** o **Banco**) y una cuenta de contrapartida (como una cuenta bancaria concreta). El método de pago para la factura define el tipo de cuenta de contrapartida predeterminada como cuenta de contrapartida, si bien puede usar estos campos para reemplazar los valores predeterminados.
--   **Filtros adicionales**: en la ficha desplegable **Registros que incluir** puede definir más intervalos como criterios. Por ejemplo, si desea pagar solo a un intervalo específico de proveedores, puede definir un filtro para el intervalo de proveedores. Esta función a menudo se usa para seleccionar facturas para un método de pago determinado. Por ejemplo, si define un filtro donde **Método de pago** = **Cheque**, solo se seleccionan para pagarse las facturas que tengan esa forma de pago, siempre que también se cumplan otros criterios especificados en la consulta.
+- **Comprobar saldo de proveedor**: si esta opción se establece en **Sí**, el sistema comprueba que un proveedor no tenga saldo de débito antes de pagar ninguna factura. Si un proveedor tiene un saldo de débito, no se creará ningún pago. Por ejemplo, el proveedor puede tener notas de abono o pagos registrados pero que no se han liquidado aún. En estos casos, no se debe pagar al proveedor. En su lugar, las notas de abono o los pagos se deben liquidar con las facturas pendientes.
+- **Eliminar los pagos negativos**: esta opción funciona de forma diferente en función de si los pagos se realizan para facturas individuales o para la suma de las facturas que cumplen los criterios de pago. Este comportamiento se define en la forma de pago.
+- **Pago para cada factura**: si la opción **Eliminar los pagos negativos** está establecida en **Sí**, y hay una factura y un pago sin liquidar para un proveedor, solo se selecciona la factura para su pago. El pago existente no se liquida con la factura. Si la opción **Eliminar los pagos negativos** está establecida en **No** y hay una factura y un pago sin liquidar, se seleccionan para su pago la factura y el pago. Se crea un pago para el pago y una devolución (pago negativo) para el pago.
+- <strong>Pago para la suma de facturas</strong>: si la opción <strong>Eliminar los pagos negativos</strong> está establecida en <strong>Sí</strong> y hay una factura y un pago sin liquidar para un proveedor, la factura y el pago sin liquidar se seleccionan para su pago, y los importes se agregan para producir el importe total de pago. La única excepción es cuando la suma resulta en una devolución. En este caso, no se selecciona ni la factura ni el pago. Si la opción <strong>Eliminar los pagos negativos **está definida en **No</strong> y hay una factura y un pago sin liquidar, la factura y el pago se seleccionan para su pago y los importes se agregan para producir el importe total del pago.
+- **Imprimir solo informe**: defina esta opción en **Sí** para ver los resultados de la propuesta de pago en un informe, pero sin crear ningún pago.
+- **Incluir facturas de proveedor de otras entidades jurídicas**: si su organización tiene un proceso centralizado para el pago y la propuesta de pago debe incluir facturas de otras entidades jurídicas incluidas en los criterios de búsqueda, establezca esta opción en **Sí**.
+- **Proponer pagos de proveedor independientes por entidad jurídica**: si esta opción está establecida en **Sí**, se crea un pago aparte para cada entidad jurídica por proveedor. El proveedor en el pago es el proveedor de la factura de cada entidad jurídica. Si la opción está definida en **No** y el mismo proveedor tiene facturas que pagar en varias entidades jurídicas, se crea un pago para el importe total de las facturas seleccionadas. El proveedor en el pago es el proveedor en la entidad jurídica actual. Si la cuenta de proveedor no existe en la entidad jurídica actual, se usa la cuenta de proveedor de la primera factura que se debe pagar.
+- **Divisa de pago**: este campo especifica la divisa en la que se crean todos los pagos. Si no se ha definido ninguna divisa, cada factura se paga en la divisa de la factura.
+- **Día de pago**: especifique el día de la semana en el que se debe efectuar el pago. Este campo solo se usa si el método de pago se configura para sumar las facturas por pagar en un día concreto de la semana.
+- **Tipo de cuenta de contrapartida** y **Cuenta de contrapartida**: establezca estos campos para definir un tipo de cuenta específico (como **Libro mayor** o **Banco**) y una cuenta de contrapartida (como una cuenta bancaria concreta). El método de pago para la factura define el tipo de cuenta de contrapartida predeterminada como cuenta de contrapartida, si bien puede usar estos campos para reemplazar los valores predeterminados.
+- **Fecha de pago total**: Se utiliza únicamente cuando el campo **Periodo** de la forma de pago se establece en **Total**. Si se ha definido una fecha, todos los pagos se crean con esta fecha. El campo **Fecha de pago mínima** no se tiene en cuenta.
+- **Filtros adicionales**: en la ficha desplegable **Registros que incluir** puede definir más intervalos como criterios. Por ejemplo, si desea pagar solo a un intervalo específico de proveedores, puede definir un filtro para el intervalo de proveedores. Esta función a menudo se usa para seleccionar facturas para un método de pago determinado. Por ejemplo, si define un filtro donde **Método de pago** = **Cheque**, solo se seleccionan para pagarse las facturas que tengan esa forma de pago, siempre que también se cumplan otros criterios especificados en la consulta.
 
 ## <a name="scenarios"></a>Situaciones
+
 | Proveedor | Factura | Fecha de factura | Importe de factura | Fecha de vencimiento | Fecha del descuento por pronto pago | Importe de descuento por pronto pago |
 |--------|---------|--------------|----------------|----------|--------------------|----------------------|
 | 3050   | 1001    | 15 de junio      | 500,00         | 15 de julio  | 29 de junio            | 10,00                |

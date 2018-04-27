@@ -19,17 +19,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7e05361bf865e44ba6073198fba94d7102b1ed19
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b4e792cae66e38546b3bdfdfbd59a2e36d891c2
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-coupons-for-retail-sales"></a>Crear vales para ventas minoristas
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview-of-coupons"></a>Visión general de los vales
 
@@ -46,9 +45,12 @@ Para crear un vale, cree el descuento y el vale por separado. A continuación vi
 
 ### <a name="limited-use-coupons"></a>Vales de uso limitado
 
-Los vales se pueden configurar como vales de uso limitado. El límite de uso puede definirse por cliente o canal, o como límite global. Este límite se aplica cuando el código o el código de barras se introducen o escanean en el PDV o durante la entrada de pedidos de ventas. Un vale se registra como usado cuando se completa un pedido que tiene el vale asociado a él.
+Los vales se pueden configurar como vales de uso limitado. El límite de uso puede definirse por cliente o canal, o como límite global. Este límite se aplica cuando el código o el código de barras se introducen o escanean en el PDV o durante la entrada de pedidos de ventas.
 
 El límite se aplica por el código de vale. Por ejemplo, un cupón de un solo uso que tiene dos códigos de vale se puede utilizar dos veces: una vez por cada código de vale. Cada código de un vale se puede activar de forma independiente.
+
+> [!NOTE]
+> Una vez que un código de vale ha llegado a su límite de uso, el sistema *no* cambia automáticamente el estado del código de vale a "Usado". No obstante, el sistema no permite el uso adicional de un código de vale que ha llegado a su límite de uso. Si el estado de un código de vale se establece manualmente en cualquier otra cosa aparte de "Activo", entonces este código de vale no se puede utilizar en ningún canal.
 
 ## <a name="managing-coupons"></a>Administrar vales
 
@@ -68,8 +70,8 @@ Para poder configurar un vale, debe configurar el código de barras del vale y d
     > [!NOTE]
     > En ambas secuencias numéricas, debe establecer el campo **Ámbito** a **Empresa**. En la mayoría de los casos, debe generar automáticamente los dos números secuenciales.
 
-5.  En la página **Parámetros compartidos comerciales** , en la ficha **Códigos de barras**, seleccione el código de barras que ha creado anteriormente.
-6.  En la página **Parámetros de ventas al por menor**, en la ficha **Secuencias numéricas** , seleccione las secuencias numéricas que ha creado para el número de vale y el identificador del código de vale.
+5.  En la página **Parámetros comerciales**, en la pestaña **Códigos de barras**, seleccione el código de barras que ha creado anteriormente.
+6.  En la página **Parámetros compartidos comerciales**, en la pestaña **Secuencias numéricas**, seleccione las secuencias numéricas que ha creado para el número de vale y el identificador del código de vale.
 7.  Ahora puede abrir la página **Vales** y crear vales nuevos.
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>El efecto de las actualizaciones parciales en los vales

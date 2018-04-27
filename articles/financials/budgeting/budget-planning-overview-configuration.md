@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-overview"></a>Visión general de la planificación presupuestaria
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se introduce la plantificación presupuestaria y contiene información que le ayudará a configurar la planificación presupuestaria y los procesos de planificación presupuestaria.
 
@@ -116,18 +115,18 @@ En la planificación presupuestaria, puede asignar los importes o las cantidades
 
 Las programaciones de asignación asignan automáticamente líneas del plan presupuestario durante el procesamiento de flujo de trabajo. Puede realizar asignaciones mediante cualquiera de los métodos siguientes en la lista **Método de asignación**:
 
--   **Asignar en períodos**: use una clave de asignación de período para asignar las líneas del plan presupuestario desde el escenario del plan presupuestario de origen a través de los períodos del escenario de destino. **Nota**: Antes de poder asignar en períodos, debe configurar las claves de asignación por período en la página ****Categorías de asignación por períodos****.
--   **Asignar a dimensiones**: las líneas del plan presupuestario se asignan desde el escenario del plan presupuestario de origen a través de las dimensiones financieras del escenario de destino. **Nota**: Para poder asignar a las dimensiones, debe configurar condiciones de asignación del presupuesto en la página ****Condiciones de asignación del presupuesto****.
--   **Agregado**: las líneas del plan presupuestario se agregan desde el escenario del plan presupuestario de origen de los planes presupuestario asociados al escenario de destino del plan presupuestario principal.
--   **Distribuir**: las líneas del plan presupuestario se distribuyen desde el escenario del plan presupuestario de origen del plan presupuestario principal al escenario de destino de los planes presupuestarios asociados.
--   **Usar reglas de asignación contable**: las líneas del plan presupuestario se distribuyen del escenario del plan presupuestario de origen al escenario de destino, basándose en la regla de asignación contable seleccionada.
--   **Copiar del plan presupuestario**: puede seleccionar otro plan presupuestario para usarlo como el origen de la asignación.
+- <strong>Asignar en períodos</strong>: use una clave de asignación de período para asignar las líneas del plan presupuestario desde el escenario del plan presupuestario de origen a través de los períodos del escenario de destino. <strong>Nota:</strong> Antes de poder asignar en períodos, debe configurar las claves de asignación por período en la página *<strong><em>Categorías de asignación por períodos</em></strong>*.
+- <strong>Asignar a dimensiones</strong>: las líneas del plan presupuestario se asignan desde el escenario del plan presupuestario de origen a través de las dimensiones financieras del escenario de destino. <strong>Nota:</strong> Para poder asignar a las dimensiones, debe configurar condiciones de asignación del presupuesto en la página *<strong><em>Condiciones de asignación del presupuesto</em></strong>*.
+- **Agregado**: las líneas del plan presupuestario se agregan desde el escenario del plan presupuestario de origen de los planes presupuestario asociados al escenario de destino del plan presupuestario principal.
+- **Distribuir**: las líneas del plan presupuestario se distribuyen desde el escenario del plan presupuestario de origen del plan presupuestario principal al escenario de destino de los planes presupuestarios asociados.
+- **Usar reglas de asignación contable**: las líneas del plan presupuestario se distribuyen del escenario del plan presupuestario de origen al escenario de destino, basándose en la regla de asignación contable seleccionada.
+- **Copiar del plan presupuestario**: puede seleccionar otro plan presupuestario para usarlo como el origen de la asignación.
 
 ### <a name="stage-allocations"></a>Asignaciones de etapa
 
 Las asignaciones de etapa se usan para asignar automáticamente líneas del plan presupuestario durante el procesamiento del flujo de trabajo. Cuando se usan asignaciones de etapa, las líneas del plan presupuestario del escenario de destino se pueden crear y modificar sin intervención del preparador o del revisor del plan presupuestario.
 
-Cuando configura una asignación de etapa, asocia el flujo de trabajo y la etapa de planificación presupuestaria con la programación de asignación. El flujo de trabajo de planificación presupuestaria se debe asociar a un flujo de trabajo de gestión presupuestaria que use la tarea de flujo de trabajo automatizada ****Asignación de etapa de la planificación presupuestaria****. Cuando el flujo de trabajo alcanza la etapa especificada, la asignación se produce automáticamente. Esta tarea automatizada se puede usar para crear líneas de plan presupuestario en un nuevo escenario. 
+Cuando configura una asignación de etapa, asocia el flujo de trabajo y la etapa de planificación presupuestaria con la programación de asignación. El flujo de trabajo de planificación presupuestaria se debe asociar a un flujo de trabajo de gestión presupuestaria que use la tarea de flujo de trabajo automatizada *<strong><em>Asignación de etapa de la planificación presupuestaria</em></strong>*. Cuando el flujo de trabajo alcanza la etapa especificada, la asignación se produce automáticamente. Esta tarea automatizada se puede usar para crear líneas de plan presupuestario en un nuevo escenario. 
 
 En el esquema de ejemplo que aparece anteriormente en este artículo, se realiza una asignación para transferir importes de un plan presupuestario y escenario de la etapa de línea base de sedes a otro plan presupuestario y escenarios en la etapa de estimación del departamento de ventas. En la ilustración siguiente se muestra la sección relevante del esquema de ejemplo.
 

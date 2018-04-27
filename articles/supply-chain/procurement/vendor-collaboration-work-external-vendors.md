@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 76c2b078b583a1f8f2235eef15dbba514e57b0f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboración de proveedor con proveedores externos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 El módulo de **Colaboración del proveedor** se indica para los proveedores que no tienen integración de Intercambio de datos electrónicos (EDI) con Microsoft Dynamics 365 for Finance and Operations. Permite a los proveedores trabajar con pedidos de compra (PO), facturas, información de inventario de entrega, solicitudes de presupuesto (RFQ) y también las permite tener acceso a parte de los datos maestros de proveedores. Este tema explica cómo puede colaborar con los proveedores externos que usan la interfaz de colaboración de proveedor para trabajar con PO, solicitudes de presupuesto y el inventario de entrega. También explica cómo permitir a un proveedor específico utilizar la colaboración de proveedor y cómo definir la información que verán todos los proveedores cuando respondan a un PO.
 
@@ -116,7 +116,7 @@ El PO que se envió al proveedor y que se encuentra en estado de <strong>En revi
 <li>Sustituir un artículo.</li>
 </ul>
 El proveedor no puede cambiar la información de precios y gastos. Sin embargo, el proveedor puede sugerir estos cambios mediante notas.</td>
-<td>La respuesta del proveedor se registra como <strong>Aceptado con cambios</strong>, y el estado del PO se mantiene como <strong>En revisión externa</strong>. Los estados muestran los tipos de cambios que ha sugerido el proveedor. Para obtener más información sobre el consumo automático de los cambios, consulte la sección siguiente de este tema, sobre "actualizar el PO cuando un proveedor sugiere cambios". </td>
+<td>La respuesta del proveedor se registra como <strong>Aceptado con cambios</strong>, y el estado del PO se mantiene como <strong>En revisión externa</strong>. Los estados muestran los tipos de cambios que ha sugerido el proveedor. Para obtener más información sobre el consumo automático de los cambios, consulte la sección siguiente de este tema, sobre &quot;actualizar el PO cuando un proveedor sugiere cambios&quot;. </td>
 </tr>
 </tbody>
 </table>

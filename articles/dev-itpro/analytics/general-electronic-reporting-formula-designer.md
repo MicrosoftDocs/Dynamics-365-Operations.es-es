@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Diseñador de fórmulas en los informes electrónicos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema explica cómo usar el diseñador de fórmula en Informes electrónicos (ER). Cuando diseña un formato para un documento electrónico específico en ER, puede usar fórmulas para transformar datos de modo que cumplan los requisitos para el cumplimiento y el formato de ese documento. Estas fórmulas se asemejan a fórmulas en Microsoft Excel. Se admiten diversos tipos de funciones en las fórmulas: texto, fecha y hora, lógica matemática, información, conversión de tipo de datos y otras (funciones específicas de dominio empresarial).
 
@@ -313,12 +313,12 @@ Las siguientes tablas describen las funciones de manipulación de datos que pued
 <tr class="odd">
 <td>ORDERBY (lista [, expresión 1, expresión 2, …])</td>
 <td>Devuelve la lista especificada después de que se haya clasificado de acuerdo con los argumentos especificados. Estos argumentos se pueden definir como expresiones.</td>
-<td>Si <strong>Proveedor</strong> se configura como un origen de datos de ER que hace referencia a la tabla VendTable, <strong>ORDERBY (Vendors, Vendors.'name()')</strong> devuelve una lista de proveedores que se clasifica por nombre en orden ascendente.</td>
+<td>Si <strong>Proveedor</strong> se configura como un origen de datos de ER que hace referencia a la tabla VendTable, <strong>ORDERBY (Proveedores, nombre de proveedores()</strong> devuelve una lista de proveedores que se clasifica por nombre en orden ascendente.</td>
 </tr>
 <tr class="even">
 <td>REVERSE (lista)</td>
 <td>Devolver la lista especificada en orden de clasificación invertido.</td>
-<td>Cuando <strong>Proveedor </strong>se configura como origen de datos de ER que hace referencia a la tabla VendTable, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> devuelva la lista de proveedores que se clasifica por nombre en orden descendente.</td>
+<td>Cuando <strong>Proveedor</strong> se configura como origen de datos de ER que hace referencia a la tabla VendTable, <strong>REVERSE (ORDERBY (Proveedores, nombre de proveedores()) )</strong> devuelve la lista de proveedores que se clasifica por nombre en orden descendente.</td>
 </tr>
 <tr class="odd">
 <td>WHERE (lista, condición)</td>
@@ -341,7 +341,7 @@ Las siguientes tablas describen las funciones de manipulación de datos que pued
 </tr>
 <tr class="odd">
 <td>COUNT (lista)</td>
-<td>Devolver el número de registros de la lista especificada, si la lista no está vacía. En caso contrario, devuelva <strong>0</strong> (cero).</td>
+<td>Devuelva el número de registros de la lista especificada, si la lista no está vacía. En caso contrario, devuelva <strong>0</strong> (cero).</td>
 <td><strong>COUNT (SPLIT(&quot;abcd&quot; , 3))</strong> devuelve <strong>2</strong>, porque la función <strong>SPLIT</strong> crea una lista que consta de dos registros.</td>
 </tr>
 <tr class="even">
@@ -358,7 +358,7 @@ Las siguientes tablas describen las funciones de manipulación de datos que pued
 <li>Etiqueta</li>
 <li>Descripción</li>
 </ul>
-En el tiempo de ejecución, los campos de <strong>Etiqueta</strong> y <strong>Descripción</strong> devuelve valores que se basan en la configuración de idioma del formato.</td>
+En el tiempo de ejecución, los campos de <strong>Etiqueta</strong> y <strong>Descripción</strong> devuelven valores que se basan en la configuración de idioma del formato.</td>
 <td>En la siguiente ilustración, se introduce una enumeración en un modelo de datos.
 <p><a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="Enumeration in a model" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a></p>
 <p>La siguiente ilustración muestra estos detalles:</p>
@@ -384,18 +384,20 @@ Basado en la configuración de idioma de los elementos del formato del ARCHIVO p
 <li>Descripción</li>
 <li>Traducido</li>
 </ul>
-<p>En el tiempo de ejecución, los campos de <strong>Etiqueta</strong> y <strong>Descripción</strong> devuelve valores que se basan en la configuración de idioma del formato y el idioma especificado. El campo <strong>Traducido</strong> indica que el campo <strong>Etiqueta</strong> se ha traducido al idioma especificado.</td>
+<p>En el tiempo de ejecución, los campos de <strong>Etiqueta</strong> y <strong>Descripción</strong> devuelven valores que se basan en la configuración de idioma del formato y el idioma especificado. El campo <strong>Traducido</strong> indica que el campo <strong>Etiqueta</strong> se ha traducido al idioma especificado.</td>
 <td>Por ejemplo, utiliza el tipo de origen de datos <strong>Campo calculado</strong> para configurar los orígenes de datos <strong>enumType_de</strong> y <strong>enumType_deCH</strong> para la enumeración del modelo de datos <strong>enumType</strong>:
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-En este caso, puede usar la siguienteexpresión para obtener la etiqueta del valor de enumeración en alemán suizo, si esta traducción está disponible. Si la traducción en alemán suizo no está disponible, la etiqueta está en alemán: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.</td>
+En este caso, puede usar la siguienteexpresión para obtener la etiqueta del valor de enumeración en alemán suizo, si esta traducción está disponible. Si la traducción en alemán suizo no está disponible, la etiqueta está en alemán: <strong>Si (No (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.</td>
 </tr>
 <tr class="even">
 <td>STRINGJOIN (lista, nombre de campo, delimitador)</td>
 <td>Devuelve una cadena que consta de valores concatenados del campo especificado de la lista especificada. Los valores están separados por el delimitador especificado.</td>
-<td>Si introduce <strong>SPLIT(&quot;abc&quot; , 1)</strong> como un origen de datos (DS), la expresión <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> devuelve <strong>&quot;a:b:c&quot;</strong>.</td>
+
+<td>Si introduce <strong>SPLIT(&quot;abc&quot; , 1)</strong> como un origen de datos (DS), la expresión <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> devuelve <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>.</td>
+
 </tr>
 <tr class="odd">
 <td>SPLITLISTBYLIMIT (lista, valor límite, origen del límite)</td>
@@ -416,7 +418,7 @@ El límite no se aplica al último artículo de la lista original ya que el valo
 <tr class="even">
 <td>FILTRAR (lista, condición)</td>
 <td>Devuelve la lista especificada después de que se haya modificado la consulta para filtrar por la condición especificada. Esta función difiere de la función <strong>DONDE</strong>, ya que la condición especificada se aplica a cualquier origen de datos de ER del tipo <strong>Registros de la tabla</strong> a nivel de la base de datos. La lista y la condición se pueden definir mediante tablas y relaciones.</td>
-  <td>Si <strong>Proveedor</strong> se configura como origen de datos de ER que hace referencia a la tabla VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> devuelve una lista solo de proveedores que pertenece al grupo de proveedores 40. Si <strong>Proveedor</strong> se configura como origen de datos de ER que hace referencia a la tabla <strong>VendTable</strong> y al <strong>parmVendorBankGroup</strong> que está configurado como origen de datos de ER devuelve el valor en el tipo de datos de la cadena, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> devuelve una lista solo de cuentas de proveedores que pertenecen a un grupo bancario específico.</td>
+  <td>Si <strong>Proveedor</strong> se configura como origen de datos de ER que hace referencia a la tabla VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> devuelve una lista solo de proveedores que pertenece al grupo de proveedores 40. Si <strong>Proveedor</strong> se configura como origen de datos de ER que hace referencia a la tabla <strong>VendTable</strong> y al <strong>parmVendorBankGroup</strong> que está configurado como origen de datos de ER devuelve el valor en el tipo de datos de la cadena, <strong>FILTRO (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> devuelve una lista solo de cuentas de proveedores que pertenecen a un grupo bancario específico.</td>
 </tr>
 </tbody>
 </table>
@@ -553,7 +555,7 @@ La expresión <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> también de
 <li>La etiqueta SYS18389 de Finance and Operations tiene el siguiente texto:
 <ul>
 <li><strong>Para el idioma EN-US:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
-<li><strong>Para el idioma DE:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
+<li><strong>Para el idioma DE:</strong> &quot;Debitor &#39;%1&#39; wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Esta es la fórmula que se puede diseñar:</p>
@@ -561,7 +563,7 @@ La expresión <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> también de
 <p>Si se procesa un informe para el cliente <strong>Litware Retail</strong> el 17 de diciembre de 2015, en la cultura <strong>EN-US</strong> y el idioma <strong>EN-US</strong>, esta fórmula devuelve el siguiente texto, que puede presentarse como mensaje de excepción para el usuario:</p>
 <p>&quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Si el mismo informe se procesa para el cliente <strong>Litware Retail</strong> el 17 de diciembre de 2015, en la cultura <strong>DE</strong> y el idioma <strong>DE</strong>, esta fórmula devuelve el siguiente texto, que usa un formato de fecha diferente:</p>
-<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
+<p>&quot;Nichts zu drucken. Debitor &#39;Litware Retail&#39; wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE]<br>
 La sintaxis siguiente se aplica en las fórmulas de ER para las etiquetas:
 <ul>
@@ -578,7 +580,7 @@ La sintaxis siguiente se aplica en las fórmulas de ER para las etiquetas:
 <td>NUMERALSTOTEXT (número, idioma, divisa, indicador del nombre de la divisa de impresión, separadores decimales)</td>
 <td>Devuelve el número específico después de que se haya explicado (convertido) a cadenas de texto en el idioma especificado. El código de idioma es opcional. Cuando se define como una cadena vacía, en su lugar se utiliza el código de idioma para el contexto en ejecución. (El código de idioma del contexto en ejecución se define para una carpeta o un archivo que genera.) El código de divisa también es opcional. Cuando se define como una cadena vacía, se utiliza la divisa de la empresa.
 <blockquote>[!NOTE]<br>
-Los parámetros de indicador del nombre de la divisa de impresión y de puntos decimales se analizan solo para los códigos de idioma siguientes: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong>, and <strong>RU</strong>. Asimismo, el parámetro de indicador del nombre de la divisa de impesión se analiza solo para las empresas de Finance and Operations en el que el contexto del país o la región admite la declinación de nombres de divisa.</blockquote></td>
+Los parámetros de indicador del nombre de la divisa de impresión y de puntos decimales se analizan solo para los códigos de idioma siguientes: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong>, and <strong>RU</strong>. Asimismo, el parámetro de indicador del nombre de la divisa de impesión se analiza solo para las empresas de Finance and Operations en las que el contexto del país o la región admite la declinación de nombres de divisa.</blockquote></td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> devuelve <strong>&quot;Mil doscientos treinta y cuatro con 56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> devuelve <strong>&quot;Sto dwadzieścia&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> devuelve <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
 <tr class="odd">

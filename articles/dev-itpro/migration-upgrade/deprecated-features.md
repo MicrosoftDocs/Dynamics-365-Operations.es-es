@@ -3,7 +3,7 @@ title: "Características en desuso"
 description: "Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen."
 author: sericks007
 manager: AnnBe
-ms.date: 02/05/2018
+ms.date: 03/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 0618d71fdb4b29bfdacd6b9e1a8ed47e03abe00d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e629673c3a923ec74809e276ec39464bfacda124
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="removed-or-deprecated-features"></a>Características quitadas o en desuso
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema describe las características que se han quitado o que están en desuso de Microsoft Dynamics 365 for Finance and Operations.
 
@@ -37,7 +37,10 @@ Este tema describe las características que se han quitado o que están en desus
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
 > [!Note]
-> Desde Dynamics 365 for Finance and Operations, Enterprise Edition, versión de julio de 2017 con la plataforma actualiza 8, indican el tipo de implementaciones para cada características quitada u obsoleta. Todas las versiones anteriores de la lista de este tema admitían implementaciones de la nube únicamente.
+> Desde Dynamics 365 for Finance and Operations, versión de julio de 2017 con actualización de la plataforma 8, se indica el tipo de implementaciones para cada características quitada u obsoleta. Todas las versiones anteriores de la lista de este tema admitían implementaciones de la nube únicamente.
+
+## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 con acutlización 15 de la plataforma
+No se ha quitado ni se ha dejado de utilizar ninguna función con esta versión. La actualización de la plataforma 15 es acumulativa y contiene nuevas o mejoradas funciones de la actualización de la plataforma 13, la actualización de la plataforma 14 y la actualización de la plataforma 15.
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 con acutlización 12 de la plataforma
 
@@ -1033,10 +1036,11 @@ La aplicación para tabletas con Windows 8 ofrecía funcionalidad para la entrad
 
 ### <a name="x-financial-statements"></a>Informes financieros de X++
 
-|   |  |
-|------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Esta funcionalidad se ha reemplazado por otra característica.                                    |
-| **¿Reemplazado por otra característica?**   | Management Reporter (etiquetado **Informes financieros** en la versión actual de Dynamics AX) |
-| **Áreas de producto afectadas**         | Contabilidad general                                                                              |
-| **Estado**                         | Quitado a partir de Dynamics AX 2012                                                              |
+|                                                 |                                                                                                          |
+|-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| <strong>Motivo de la depreciación/eliminación</strong> |                         Esta funcionalidad se ha reemplazado por otra característica.                         |
+|  <strong>¿Reemplazado por otra característica?</strong>  | Management Reporter (etiquetado <strong>Informes financieros</strong> en la versión actual de Dynamics AX) |
+|     <strong>Áreas de producto afectadas</strong>     |                                              Contabilidad general                                              |
+|             <strong>Estado</strong>             |                                      Quitado a partir de Dynamics AX 2012                                      |
+
 

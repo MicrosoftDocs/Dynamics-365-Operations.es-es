@@ -18,17 +18,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7c713f3a1cb5aa4758a72a7cc42c73c57b602219
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2ee60f3d1155b89d342b94832fbdbe898a5063c6
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="intrastat"></a>intrastat
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo proporciona información acerca de los informes de Intrastat para comercio de bienes y, en algunos casos, servicios entre países y regiones de la Unión Europea (UE). Proporciona una visión general del proceso de informes y describe la configuración y los requisitos previos necesarios.
 
@@ -228,7 +227,7 @@ Use la página **Parámetros de comercio exterior** para configurar los parámet
 </tr>
 <tr class="even">
 <td>Información de contacto del agente</td>
-<td>Especifique el nombre del agente, la dirección, el número de identificación fiscal (NIF), el número de teléfono y el número de fax.</td>
+<td>Especifique el nombre del agente, la dirección, el número de identificación fiscal (NIF), el número de teléfono y el número de fax.</td>
 </tr>
 <tr class="odd">
 <td>Propiedades de país / región</td>
@@ -241,7 +240,7 @@ Use la página **Parámetros de comercio exterior** para configurar los parámet
 </tbody>
 </table>
 
- 
+
 
 
 

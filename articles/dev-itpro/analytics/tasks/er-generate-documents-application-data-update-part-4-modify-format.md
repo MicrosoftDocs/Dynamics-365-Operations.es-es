@@ -1,5 +1,5 @@
 --- 
-title: "Modificar el formato para generar documentos con actualización de datos de aplicaciones para informes electrónicos (ER)"
+title: "Modificar formatos para generar documentos con datos de la aplicación"
 description: "Para completar los pasos de este procedimiento, primero debe completar el procedimiento, \"ER Generar documentos con la actualización de datos de la aplicación (Parte 3: Modificar el modelo y la asignación)\"."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 47a1fe9cbfc80adbd5d375221912a2fa9787af19
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6c7455e4293993f297aeede4d9d6a50f25ca6c07
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="modify-format-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Modificar el formato para generar documentos con actualización de datos de aplicaciones para informes electrónicos (ER)
+# <a name="modify-format-to-generate-documents-with-application-data"></a>Modificar formatos para generar documentos con datos de la aplicación
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Para completar los pasos de este procedimiento, primero debe completar el procedimiento, "ER: Generar documentos con la actualización de los datos de la aplicación (Parte 3: Modificar el modelo y la asignación)".
 
@@ -111,9 +111,9 @@ Los pasos de este procedimiento explican cómo diseñar las configuraciones de l
 9. En el árbol, expanda "formato".
 10. En el árbol, expanda "formato\Declaración: elemento XML(Declaración)".
 11. En el árbol, expanda "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)".
-12. En el árbol, expanda "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..*(Elemento)".
-13. En el árbol, expanda "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..*(Elemento)\Dim3: Elemento XML 1..1 (Importe)".
-14. En el árbol, expanda "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..*(Elemento)\Dim4: Elemento XML 1..1 (Elemento)".
+12. En el árbol, expanda "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..* (Elemento)".
+13. En el árbol, expanda "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..* (Elemento)\Dim3: Elemento XML 1..1 (Importe)".
+14. En el árbol, expanda "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..* (Elemento)\Dim4: Elemento XML 1..1 (Elemento)".
 15. En el árbol, seleccione "Encabezado de archivo\Número de líneas".
 16. Haga clic en Editar.
 17. En el árbol, seleccione "Lista\COUNT".
@@ -121,7 +121,7 @@ Los pasos de este procedimiento explican cómo diseñar las configuraciones de l
 19. En el árbol, expanda "formato".
 20. En el árbol, expanda "formato\Declaración: elemento XML(Declaración)".
 21. En el árbol, expanda "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)".
-22. En el árbol, seleccione "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..*(Elemento)".
+22. En el árbol, seleccione "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..* (Elemento)".
 23. Haga clic en Agregar origen de datos.
 24. En el campo Fórmula, escriba "COUNT(format.Declaration.Data.Item)".
     * RECUENTO (formato.Declaración.Datos.Elemento)  
@@ -130,7 +130,7 @@ Los pasos de este procedimiento explican cómo diseñar las configuraciones de l
 27. En el árbol, seleccione "Encabezad de archivo\Nombre de archivo".
 28. En el árbol, seleccione "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Nombre de archivo: Cadena de elemento(Nombre de archivo)".
 29. Haga clic en Enlazar.
-30. En el árbol, seleccione "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..*(Elemento)\Dim4: Elemento XML 1..1 (elemento)\número: Cadena(número)".
+30. En el árbol, seleccione "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..* (Elemento)\Dim4: Elemento XML 1..1 (elemento)\número: Cadena(número)".
 31. En el árbol, seleccione "Encabezado de archivo\Líneas de archivo\Número de elemento".
 32. Haga clic en Enlazar.
 33. En el árbol, seleccione "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..*(Elemento)\Dim3: Elemento XML 1..1 (Importe)\valor: Numérico real(valor)".
@@ -140,7 +140,7 @@ Los pasos de este procedimiento explican cómo diseñar las configuraciones de l
 37. En el árbol, seleccione "Encabezado de archivo\Líneas de archivo\Id. de reg. de materiales".
 38. Haga clic en Enlazar.
 39. En el árbol, seleccione "Encabezado de archivo\Líneas de archivo".
-40. En el árbol, seleccione "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..*(Elemento)".
+40. En el árbol, seleccione "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..* (Elemento)".
 41. Haga clic en Enlazar.
 42. En el árbol, seleccione "Encabezado de archivo".
 43. En el árbol, seleccione "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)".

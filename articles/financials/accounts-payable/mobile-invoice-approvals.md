@@ -18,17 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 98e32298d1c8285437adf3df9820a71e7a0d7f6c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>Aprobaciones de factura móvil
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Las capacidades móviles de Microsoft Dynamics 365 for Finance and Operations permiten a un usuario empresarial diseñar experiencias móviles. Para situaciones avanzadas, la plataforma también permite a los desarrolladores ampliar las capacidades como desean. La forma más eficaz de aprender algunos de los conceptos nuevos sobre capacidades móviles es pasar por el proceso de diseño de algunos escenarios. Este tema está pensando para proporcionar un método práctico de diseñar escenarios móviles con las aprobaciones de facturas de proveedores para aplicaciones móviles como un caso de uso. Este tema le ayudará a diseñar otras variaciones de los escenarios y se puede aplicar a otros escenarios que no están relacionados con las facturas de proveedores.
 
@@ -127,7 +126,7 @@ Como orientación general, al trabajar con el diseñador para aplicaciones móvi
 ### <a name="create-the-workspace"></a>Crear el espacio de trabajo
 
 1.  En un explorador, abra Finance and Operations e inicie sesión.
-2.  Una vez que haya iniciado sesión, agregue **&mode=mobile** a la dirección URL como se muestra en el siguiente ejemplo, y actualice la página: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**
+2.  Una vez que haya iniciado sesión, agregue **&mode=mobile** a la dirección URL como se muestra en el siguiente ejemplo, y actualice la página: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard **&mode=mobile**
 3.  Haga clic en el botón **Configuración** (engranaje) en la parte superior derecha de la página y, a continuación, haga clic en **Aplicación móvil**. El diseñador para aplicaciones móviles de la aplicación debe aparecer igual que lo hace el Grabador de tareas.
 4.  Haga clic en **Agregar** para crear un nuevo espacio de trabajo. Para este ejemplo, asigne un nombre al espacio de trabajo **Mis aprobaciones**.
 5.  Escribir una descripción.
@@ -173,23 +172,23 @@ La primera página para aplicaciones móviles que debe diseñar es la lista de f
 
 Para diseñar la página de detalles de la factura para móvil, use la página **VendMobileInvoiceHeaderDetails** en Finance and Operations. Tenga en cuenta que, en función del número de facturas que tiene en el sistema, esta página muestra la factura más antigua (la factura que se creó primero). Para buscar una factura específica, utilice el filtro a la izquierda. Sin embargo, no se requiere una factura concreta para este ejemplo. Simplemente requerimos algunos datos de la factura para que podamos diseñar la página para dispositivos móviles. [![Página del flujo de trabajo](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  En la dirección URL de Finance and Operations, sustituya el nombre del elemento de menú con **VendMobileInvoiceHeaderDetails** para abrir el formulario
-2.  Abra el diseñador para aplicaciones móviles desde el botón **Configuración** (engranaje).
-3.  Haga clic en el botón **Editar** para iniciar el modo de edición en el espacio de trabajo.
-4.  Seleccione la página **Mis facturas de proveedor** que ha creado antes y haga clic en **Editar**.
-5.  En los la ficha **Campos**, haga clic en el encabezado de columna **Cuadrícula**.
-6.  Haga clic en **Propiedades** &gt; **Agregar página**. **Nota:** Al hacer clic en el encabezado de **Cuadrícula** y agregar una página, la relación con la página de detalles se establece automáticamente.
-7.  Especifique un título de la página, por ejemplo **Detalles de la factura** y una descripción como **Ver detalles de línea y encabezado de la factura**.
-8.  Haga clic en **Seleccionar campos**. Tenga en cuenta que el orden en que se agrega es el orden en que los campos se mostrarán al usuario final. La única forma de cambiar orden de los campos es volviendo a seleccionar todos los campos. 
-9.  Agregue los siguientes campos desde el encabezado, según los requisitos para esta situación:
-    - Nombre del proveedor
-    - Total de la factura
-    - Cuenta de facturación
-    - Número de factura
-    - Fecha de la factura
-    - Descripción de factura
-    - Fecha de vencimiento
-    - Divisa de la factura
+1. En la dirección URL de Finance and Operations, sustituya el nombre del elemento de menú con **VendMobileInvoiceHeaderDetails** para abrir el formulario
+2. Abra el diseñador para aplicaciones móviles desde el botón **Configuración** (engranaje).
+3. Haga clic en el botón **Editar** para iniciar el modo de edición en el espacio de trabajo.
+4. Seleccione la página <strong>Mis facturas de proveedor **que ha creado antes y haga clic en **Editar</strong>.
+5. En los la ficha **Campos**, haga clic en el encabezado de columna **Cuadrícula**.
+6. Haga clic en **Propiedades** &gt; **Agregar página**. **Nota:** Al hacer clic en el encabezado de **Cuadrícula** y agregar una página, la relación con la página de detalles se establece automáticamente.
+7. Especifique un título de la página, por ejemplo **Detalles de la factura** y una descripción como **Ver detalles de línea y encabezado de la factura**.
+8. Haga clic en **Seleccionar campos**. Tenga en cuenta que el orden en que se agrega es el orden en que los campos se mostrarán al usuario final. La única forma de cambiar orden de los campos es volviendo a seleccionar todos los campos. 
+9. Agregue los siguientes campos desde el encabezado, según los requisitos para esta situación:
+   - Nombre del proveedor
+   - Total de la factura
+   - Cuenta de facturación
+   - Número de factura
+   - Fecha de la factura
+   - Descripción de factura
+   - Fecha de vencimiento
+   - Divisa de la factura
 
 10. Agregue los siguientes campos en la cuadrícula de las líneas en la página:
     - Categoría de compras
@@ -199,7 +198,7 @@ Para diseñar la página de detalles de la factura para móvil, use la página *
     - Importe de la declaración de IRPF
 
 11. Después de agregar todos los campos de los dos pasos anteriores, haga clic en **Listo**. La página deben asemejarse a la siguiente ilustración.
-[![Página después de haber agregado campos](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Página después de haber agregado campos](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 12. Haga clic en **Listo** para salir del modo de edición.
 13. Haga clic en **Atrás** y, a continuación, **Listo** para salir del espacio de trabajo
 14. Haga clic en **Publicar espacio de trabajo** para guardar el trabajo
@@ -296,14 +295,14 @@ Para agregar acciones de flujo, use la página **VendMobileInvoiceHeaderDetails*
 
 ### <a name="vendor-invoice-attachments"></a>Datos adjuntos de la factura de proveedor
 
-1.  Haga clic en el botón **Configuración** (engranaje) en la parte superior derecha de la página y, a continuación, haga clic en **Aplicación móvil**
-2.  Haga clic en el botón **Editar** para iniciar el modo de edición en el espacio de trabajo.
-3.  Seleccione la página **Detalles de la factura** que ha creado antes y haga clic en **Editar**.
-4.  Establezca la opción **Administración de documentos** en **Sí** como se indica a continuación. **Nota:** Si no hay requisitos para mostrar los datos adjuntos en el dispositivo móvil, puede dejar esta opción establecida en **No**, que es la configuración predeterminada.
-![Administración de documentos](./media/docmanagement-216x300.png)
-6.  Haga clic en **Listo** para salir del modo de edición.
-7.  Haga clic en **Atrás** y, a continuación, **Listo** para salir del espacio de trabajo
-8.  Haga clic en **Publicar espacio de trabajo** para guardar el trabajo
+1. Haga clic en el botón **Configuración** (engranaje) en la parte superior derecha de la página y, a continuación, haga clic en **Aplicación móvil**
+2. Haga clic en el botón **Editar** para iniciar el modo de edición en el espacio de trabajo.
+3. Seleccione la página <strong>Detalles de la factura **que ha creado antes y haga clic en **Editar</strong>.
+4. Establezca la opción **Administración de documentos** en **Sí** como se indica a continuación. **Nota:** Si no hay requisitos para mostrar los datos adjuntos en el dispositivo móvil, puede dejar esta opción establecida en **No**, que es la configuración predeterminada.
+   ![Administración de documentos](./media/docmanagement-216x300.png)
+5. Haga clic en **Listo** para salir del modo de edición.
+6. Haga clic en **Atrás** y, a continuación, **Listo** para salir del espacio de trabajo
+7. Haga clic en **Publicar espacio de trabajo** para guardar el trabajo
 
 ### <a name="vendor-invoice-line-distributions"></a>Distribuciones de línea de la factura de proveedor
 

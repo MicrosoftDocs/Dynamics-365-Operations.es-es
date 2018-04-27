@@ -19,19 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bf7af869e44a60d07d66e83bfb55bd0cc7edfb91
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 90b24e8e00a78c122e0f7c712a694c9c62bd4824
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Cuentas de contrapartida predeterminadas para diarios de factura de proveedor y diarios de aprobación de facturas
 
-[!include[banner](../includes/banner.md)]
-
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Las cuentas de contrapartida predeterminadas se usan en las siguientes páginas de diario de facturas de proveedor:
 
@@ -72,7 +69,7 @@ Use la siguiente tabla para decidir dónde debe asignar cuentas predeterminadas 
 <td>Use esta opción si paga normalmente los mismos tipos de elementos de los mismos proveedores en el transcurso del tiempo.</td>
 </tr>
 <tr class="odd">
-<td><strong>Nombres de diarios</strong>: configure cuentas de contrapartida predeterminadas para los diarios en la página <strong>Nombres de diarios</strong>. Seleccione la opción <strong>Cuenta de contrapartida fija</strong>. Tenga en cuenta que no puede especificar cuentas de contrapartida predeterminadas en nombres de diario si el tipo de diario de los nombres es <strong>Registro de facturas</strong> o <strong>Aprobación</strong>.</td>
+<td><strong>Nombres de diarios</strong>: configure cuentas de contrapartida predeterminadas para los diarios en la página <strong>Nombres de diarios</strong>. Seleccione la opción <strong>Cuenta de contrapartida fija</strong>. Tenga en cuenta que no puede especificar cuentas de contrapartida predeterminadas en nombres de diario si el tipo de diario de los nombres de diario es <strong>Registro de facturas</strong> o <strong>Aprobación</strong>.</td>
 <td><ul>
 <li>Encabezado de diario que usa el nombre del diario</li>
 <li>Entradas del diario en diarios que usan el nombre del diario</li>
@@ -81,7 +78,7 @@ Use la siguiente tabla para decidir dónde debe asignar cuentas predeterminadas 
 <td>Use esta opción para configurar diarios para costes y gastos específicos que se cobran en cuentas específicas, independientemente de quién sea el proveedor o el grupo de proveedores del que forman parte.</td>
 </tr>
 <tr class="even">
-<td><strong>Nombres de diarios</strong>: configure cuentas de contrapartida predeterminadas para los diarios en la página <strong>Nombres de diarios</strong>. Anule la opción <strong>Cuenta de contrapartida fija</strong>. Tenga en cuenta que no puede especificar cuentas de contrapartida predeterminadas en nombres de diario si el tipo de diario de los nombres es <strong>Registro de facturas</strong> o <strong>Aprobación</strong>.</td>
+<td><strong>Nombres de diarios</strong>: configure cuentas de contrapartida predeterminadas para los diarios en la página <strong>Nombres de diarios</strong>. Anule la opción <strong>Cuenta de contrapartida fija</strong>. Tenga en cuenta que no puede especificar cuentas de contrapartida predeterminadas en nombres de diario si el tipo de diario de los nombres de diario es <strong>Registro de facturas</strong> o <strong>Aprobación</strong>.</td>
 <td><ul>
 <li>Cabecera de diario</li>
 <li>Entradas del diario en diarios que usan el nombre del diario</li>
@@ -90,7 +87,7 @@ Use la siguiente tabla para decidir dónde debe asignar cuentas predeterminadas 
 <td>Use esta opción para configurar las cuentas predeterminadas para utilizarlas si no se ha asignado una cuenta de contrapartida de proveedor predeterminada.</td>
 </tr>
 <tr class="odd">
-<td><strong>Cabecera de diario</strong>: configure una cuenta de contrapartida predeterminada para un diario para utilizarla como entrada predeterminada en las páginas de asiento de diario. Tenga en cuenta que no puede especificar cuentas de contrapartida predeterminadas en el encabezado de diario si el tipo de diario de los nombres es <strong>Registro de facturas</strong> o <strong>Aprobación</strong>.</td>
+<td><strong>Cabecera de diario</strong>: configure una cuenta de contrapartida predeterminada para un diario para utilizarla como entrada predeterminada en las páginas de asiento de diario. Tenga en cuenta que no puede especificar cuentas de contrapartida predeterminadas en el encabezado de diario si el tipo de diario de los nombres de diario es <strong>Registro de facturas</strong> o <strong>Aprobación</strong>.</td>
 <td>Entradas de diario en el diario</td>
 <td>La cuenta de contrapartida predeterminada para un diario se utiliza como entrada predeterminada en las páginas de asiento de diario.</td>
 <td>Use esta opción para ayudar a acelerar la entrada de datos si la mayoría de las entradas de un diario tiene la misma cuenta de contrapartida.</td>

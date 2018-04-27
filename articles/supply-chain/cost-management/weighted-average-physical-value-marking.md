@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>Media ponderada con valor físico y marcado
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 La media ponderada es un modelo de inventario que se basa en el principio de media ponderada, donde las emisiones de inventario se tasan en el valor medio de los artículos recibidos en inventario durante el período de cierre de inventario, más cualquier inventario disponible del período anterior.
 
@@ -74,16 +74,16 @@ En el diagrama siguiente se muestra esta serie de transacciones con los efectos 
 ![LD de media ponderada sin Incluir valor físico en coste](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Clave del diagrama**
--   Las transacciones de inventario se representan por medio de flechas verticales.
--   Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
--   Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
--   Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Quantity@Unitprice.
--   Los valores de transacciones de inventarios entre corchetes indican que la transacción de inventario se ha registrado físicamente en el inventario.
--   Los valores de transacciones de inventario que no van encerrados entre corchetes indican que la transacción de inventario se ha registrado financieramente en el inventario.
--   Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
--   Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican la secuencia de los registros de transacciones de inventario en la línea de tiempo.
--   Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta Cierre de inventario.
--   Las liquidaciones realizadas por el cierre de inventario se representan mediante flechas rojas de puntos en dirección diagonal desde una recepción hasta una emisión.
+- Las transacciones de inventario se representan por medio de flechas verticales.
+- Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
+- Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
+- Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Quantity@Unitprice.
+- Los valores de transacciones de inventarios entre corchetes indican que la transacción de inventario se ha registrado físicamente en el inventario.
+- Los valores de transacciones de inventario que no van encerrados entre corchetes indican que la transacción de inventario se ha registrado financieramente en el inventario.
+- Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
+- Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican la secuencia de los registros de transacciones de inventario en la línea de tiempo.
+- Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta Cierre de inventario.
+- Las liquidaciones realizadas por el cierre de inventario se representan mediante flechas rojas de puntos en dirección diagonal desde una recepción hasta una emisión.
 
 ## <a name="weighted-average-summarized-settlement-without-the-include-physical-value-option"></a>Liquidación resumida de media ponderada sin la opción Incluir valor físico en coste
 La media ponderada utiliza el principio de liquidación de que todas las recepciones dentro de un período de cierre se resumen en una transacción denominada cierre de inventario de media ponderada. Todas las recepciones del período se liquidarán con la emisión de la transacción de transferencia de inventario recién creada. Todas las emisiones del período se liquidarán contra la recepción de la nueva transacción de transferencia de inventario. Si el inventario disponible es positivo tras el cierre de inventario, se muestra un resumen de dicho inventario disponible y del valor del inventario en la nueva transacción de transferencia de inventario (recepción). Si el inventario disponible es negativo tras el cierre de inventario, el inventario disponible y el valor del inventario es la suma de las emisiones individuales que no se han liquidado totalmente. En la situación siguiente, se han registrado varias recepciones y una emisión actualizadas financieramente. 
@@ -108,18 +108,18 @@ En el diagrama siguiente se muestra esta serie de transacciones con los efectos 
 ![LR de media ponderada sin Incluir valor físico en coste](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Clave del diagrama**
--   Las transacciones de inventario se representan por medio de flechas verticales.
--   Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
--   Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
--   Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Quantity@Unitprice.
--   Los valores de transacciones de inventarios entre corchetes indican que la transacción de inventario se ha registrado físicamente en el inventario.
--   Los valores de transacciones de inventario que no van encerrados entre corchetes indican que la transacción de inventario se ha registrado financieramente en el inventario.
--   Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
--   Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican la secuencia de los registros de transacciones de inventario en la línea de tiempo.
--   Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta Cierre de inventario.
--   Las liquidaciones realizadas por el cierre de inventario se representan mediante flechas rojas de puntos en dirección diagonal desde una recepción hasta una emisión.
--   Las flechas rojas indican las transacciones de recepción que se están liquidando en la transacción de emisión creada por el sistema.
--   La flecha verde representa la transacción de recepción de contrapartida generada por el sistema a la que se liquida la transacción de emisión original registrada
+- Las transacciones de inventario se representan por medio de flechas verticales.
+- Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
+- Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
+- Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Quantity@Unitprice.
+- Los valores de transacciones de inventarios entre corchetes indican que la transacción de inventario se ha registrado físicamente en el inventario.
+- Los valores de transacciones de inventario que no van encerrados entre corchetes indican que la transacción de inventario se ha registrado financieramente en el inventario.
+- Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
+- Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican la secuencia de los registros de transacciones de inventario en la línea de tiempo.
+- Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta Cierre de inventario.
+- Las liquidaciones realizadas por el cierre de inventario se representan mediante flechas rojas de puntos en dirección diagonal desde una recepción hasta una emisión.
+- Las flechas rojas indican las transacciones de recepción que se están liquidando en la transacción de emisión creada por el sistema.
+- La flecha verde representa la transacción de recepción de contrapartida generada por el sistema a la que se liquida la transacción de emisión original registrada
 
 ## <a name="weighted-average-direct-settlement-with-the-include-physical-value-option"></a>Liquidación directa de media ponderada con la opción Incluir valor físico en coste
 El parámetro Incluir valor físico en coste funciona de manera diferente con el modelo de inventario de media ponderada que en las versiones anteriores del producto. Seleccione el cuadro Incluir valor físico en coste para un artículo en el formulario del grupo de modelos de artículo. A continuación, el sistema utilizará recepciones actualizadas físicamente para calcular el precio de coste estimado o el promedio móvil. Las emisiones se registrarán con el precio de coste estimado durante el período. Durante el cierre de inventario, en el cálculo de media ponderara sólo se tomarán en cuenta las recepciones actualizadas financieramente. Es recomendable realizar un cierre de inventario mensual cuando se usa el modelo de inventario de media ponderada. En este ejemplo de liquidación directa de media ponderada, el grupo de modelos de artículo está marcado para incluir el valor físico. 
@@ -137,16 +137,16 @@ En el diagrama siguiente se muestra esta serie de transacciones con los efectos 
 ![LD de media ponderada con Incluir valor físico en coste](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Clave del diagrama**
--   Las transacciones de inventario se representan por medio de flechas verticales.
--   Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
--   Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
--   Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Quantity@Unitprice.
--   Los valores de transacciones de inventarios entre corchetes indican que la transacción de inventario se ha registrado físicamente en el inventario.
--   Los valores de transacciones de inventario que no van encerrados entre corchetes indican que la transacción de inventario se ha registrado financieramente en el inventario.
--   Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
--   Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican la secuencia de los registros de transacciones de inventario en la línea de tiempo.
--   Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta Cierre de inventario.
--   Las liquidaciones realizadas por el cierre de inventario se representan mediante flechas rojas de puntos en dirección diagonal desde una recepción hasta una emisión.
+- Las transacciones de inventario se representan por medio de flechas verticales.
+- Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
+- Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
+- Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Quantity@Unitprice.
+- Los valores de transacciones de inventarios entre corchetes indican que la transacción de inventario se ha registrado físicamente en el inventario.
+- Los valores de transacciones de inventario que no van encerrados entre corchetes indican que la transacción de inventario se ha registrado financieramente en el inventario.
+- Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
+- Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican la secuencia de los registros de transacciones de inventario en la línea de tiempo.
+- Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta Cierre de inventario.
+- Las liquidaciones realizadas por el cierre de inventario se representan mediante flechas rojas de puntos en dirección diagonal desde una recepción hasta una emisión.
 
 ## <a name="weighted-average-summarized-settlement-with-the-include-physical-value-option"></a>Liquidación resumida de media ponderada con la opción Incluir valor físico en coste
 El parámetro Incluir valor físico en coste funciona de manera diferente con la media ponderada que en las versiones anteriores del programa. Seleccione el cuadro Incluir valor físico en coste para un artículo en la página del grupo de modelos de artículo. A continuación el sistema utilizará recepciones actualizadas físicamente para calcular el precio de coste estimado o el promedio móvil. Las emisiones se registrarán según este precio de coste estimado durante el período. Durante el cierre de inventario, en el cálculo de media ponderara sólo se tomarán en cuenta las recepciones actualizadas financieramente. Es recomendable realizar un cierre de inventario mensual cuando se usa el modelo de inventario de media ponderada. En este ejemplo de liquidación resumida de media ponderada, el modelo de inventario está marcado para incluir el valor físico en coste. 
@@ -170,18 +170,18 @@ En el diagrama siguiente se muestra esta serie de transacciones con los efectos 
 ![LR de media ponderada con Incluir valor físico en coste](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Clave del diagrama**
--   Las transacciones de inventario se representan por medio de flechas verticales.
--   Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
--   Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
--   Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Quantity@Unitprice.
--   Los valores de transacciones de inventarios entre corchetes indican que la transacción de inventario se ha registrado físicamente en el inventario.
--   Los valores de transacciones de inventario que no van encerrados entre corchetes indican que la transacción de inventario se ha registrado financieramente en el inventario.
--   Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
--   Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, 1a. Los identificadores indican la secuencia de los registros de transacciones de inventario en la línea de tiempo.
--   Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta Cierre de inventario.
--   Las liquidaciones realizadas por el cierre de inventario se representan mediante flechas rojas de puntos en dirección diagonal desde una recepción hasta una emisión.
--   Las flechas rojas indican las transacciones de recepción que se están liquidando en la transacción de emisión creada por el sistema.
--   La flecha verde representa la transacción de recepción de contrapartida generada por el sistema a la que se liquida la transacción de emisión original registrada.
+- Las transacciones de inventario se representan por medio de flechas verticales.
+- Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
+- Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
+- Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Quantity@Unitprice.
+- Los valores de transacciones de inventarios entre corchetes indican que la transacción de inventario se ha registrado físicamente en el inventario.
+- Los valores de transacciones de inventario que no van encerrados entre corchetes indican que la transacción de inventario se ha registrado financieramente en el inventario.
+- Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
+- Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, 1a. Los identificadores indican la secuencia de los registros de transacciones de inventario en la línea de tiempo.
+- Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta Cierre de inventario.
+- Las liquidaciones realizadas por el cierre de inventario se representan mediante flechas rojas de puntos en dirección diagonal desde una recepción hasta una emisión.
+- Las flechas rojas indican las transacciones de recepción que se están liquidando en la transacción de emisión creada por el sistema.
+- La flecha verde representa la transacción de recepción de contrapartida generada por el sistema a la que se liquida la transacción de emisión original registrada.
 
 ## <a name="weighted-average-with-marking"></a>Media ponderada con marcado
 La marcación es un proceso que permite vincular, o marcar, una transacción de emisión con una transacción de recepción. La marcación se puede efectuar con anterioridad o con posterioridad al registro de una transacción. Puede utilizar la marcación cuando desee asegurarse del coste exacto del inventario cuando se registra una transacción o cuando se efectúa el cierre de inventario. 
@@ -218,16 +218,16 @@ En el diagrama siguiente se muestra esta serie de transacciones con los efectos 
 ![Media ponderada con marcado](./media/weightedaveragewithmarking.gif) 
 
 **Clave del diagrama**
--   Las transacciones de inventario se representan por medio de flechas verticales.
--   Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
--   Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
--   Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Quantity@Unitprice.
--   Los valores de transacciones de inventarios entre corchetes indican que la transacción de inventario se ha registrado físicamente en el inventario.
--   Los valores de transacciones de inventario que no van encerrados entre corchetes indican que la transacción de inventario se ha registrado financieramente en el inventario.
--   Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
--   Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican la secuencia de los registros de transacciones de inventario en la línea de tiempo.
--   Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta Cierre de inventario.
--   Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de puntos que van en sentido diagonal desde las recepciones a las emisiones.
+- Las transacciones de inventario se representan por medio de flechas verticales.
+- Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
+- Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
+- Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Cantidad@"Unitprice".
+- Los valores de transacciones de inventarios entre corchetes indican que la transacción de inventario se ha registrado físicamente en el inventario.
+- Los valores de transacciones de inventario que no van encerrados entre corchetes indican que la transacción de inventario se ha registrado financieramente en el inventario.
+- Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
+- Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican la secuencia de los registros de transacciones de inventario en la línea de tiempo.
+- Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta Cierre de inventario.
+- Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de puntos que van en sentido diagonal desde las recepciones a las emisiones.
 
 
 

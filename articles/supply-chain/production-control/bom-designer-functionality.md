@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 41f629401731920a9cb6443ada8b1a34a70e8da9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b7d4530ecccf18d9370d84ff2b61be1514b80192
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="bom-designer-functionality"></a>Funcionalidad del diseñador de lista de materiales
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema describe cómo puede usar la página del diseñador de L. MAT para diseñar y trabajar con estructuras de árbol para las listas de materiales (L. MAT). Puede hacer clic Configurar para seleccionar distintas configuraciones y especificar qué información aparece en las líneas del árbol.
 
@@ -66,7 +65,7 @@ El filtro que se aplica para la lista de materiales y la ruta se muestra en el e
 <tbody>
 <tr class="odd">
 <td>Dimensiones de producto</td>
-<td>Si el producto terminado seleccionado es un producto maestro, puede definir las dimensiones de producto activas para la selección principal. <strong>Nota:</strong> Si abre el diseñador de L. MAT para un artículo que no sea un producto maestro, no se pueden seleccionar dimensiones de producto en el cuadro de diálogo <strong>Filtro</strong>.</td>
+<td>Si el producto terminado seleccionado es un producto maestro, puede definir las dimensiones de producto activas para la selección principal. <strong>Nota:</strong> Si abre el diseñador de L. MAT para un artículo que no sea un producto maestro, no se pueden seleccionar dimensiones del producto en el cuadro de diálogo <strong>Filtro</strong>.</td>
 </tr>
 <tr class="even">
 <td>Sitio</td>
@@ -98,7 +97,7 @@ El filtro que se aplica para la lista de materiales y la ruta se muestra en el e
 Al usar el diseñador de lista de materiales para revisar o editar las listas de materiales que constan de uno o varios niveles de fantasmas, la ruta asociada con el elemento superior normalmente abarca la jerarquía completa de la lista de materiales. Para simplificar la descripción, puede bloquear la ruta de nivel superior en la visualización haciendo clic en **Ver** &gt; **Bloquear ruta**. Para desbloquear la ruta, haga clic en **Ver** &gt; **Desbloquear ruta**.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>Adición y edición de listas de materiales y líneas de listas de materiales
-Use las funciones **Líneas de L. MAT.**o **L. MAT.** para modificar las líneas de la lista de materiales o la lista de materiales. Cuando selecciona un nodo del árbol, el tipo de nodo determina las funciones disponibles.
+Use las funciones **Líneas de L. MAT.** o **L. MAT.** para modificar las líneas de la lista de materiales o la lista de materiales. Cuando selecciona un nodo del árbol, el tipo de nodo determina las funciones disponibles.
 
 | Función                            | Descripción                                                                                               | Tipo de nodo y condiciones                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

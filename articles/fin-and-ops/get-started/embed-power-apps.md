@@ -3,7 +3,7 @@ title: Integrar PowerApps
 description: "Este tema describe cómo insertar PowerApps en el cliente de Finance and Operations para aumentar la funcionalidad de producto."
 author: jasongre
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,20 +16,24 @@ ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 0fd0b1e5f94e39455b3c0799c89eea5a59444ad7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 07224faabcf2b183d4c8da0ba4588c33ec140d03
 ms.contentlocale: es-es
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="embed-powerapps"></a>Integrar PowerApps
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
-En la actualización de plataforma 14, Microsoft Dynamics 365 for Finance and Operations admite la integración con Microsoft PowerApps, un servicio para que desarrolladores y usuarios no técnicos compilen las aplicaciones personalizadas de negocio de los dispositivos móviles, las tabletas, y la Web sin escribir código. Las PowerApps desarrolladas por el usuario, su organización, o el ecosistema más amplio se pueden insertar en el cliente de Finance and Operations para aumentar la funcionalidad de producto. Por ejemplo, puede que crear un PowerApp para complementar Finance and Operations con la información recuperada de otro sistema.  
+En la actualización de plataforma 14, Microsoft Dynamics 365 for Finance and Operations admite la integración con Microsoft PowerApps, un servicio para que desarrolladores y usuarios no técnicos compilen las aplicaciones personalizadas de negocio de los dispositivos móviles, las tabletas, y la Web sin escribir código. Las PowerApps desarrolladas por el usuario, su organización, o el ecosistema más amplio se pueden insertar en el cliente de Finance and Operations para aumentar la funcionalidad de producto. Por ejemplo, puede que crear un PowerApp para complementar Finance and Operations con la información recuperada de otro sistema. 
+
+Para obtener más información acerca de la integracón de PowerApps, vea el vídeo corto [Cómo integrar PowerApps en Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=x3qyA1bH-NY).
+
+> [!Video https://www.youtube.com/embed/x3qyA1bH-NY]
 
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a>Agregar un PowerApp incrustado a una página
 ### <a name="overview"></a>Información general

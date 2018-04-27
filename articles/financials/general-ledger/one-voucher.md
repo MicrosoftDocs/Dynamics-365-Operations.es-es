@@ -3,7 +3,7 @@ title: Un asiento
 description: "Un asiento para diarios financieros (diario, diario de activos fijos, diario de pago del proveedor, etc.) le permite especificar varias transacciones de subcontabilidad en el contexto de un asiento único."
 author: kweekley
 manager: AnnBe
-ms.date: 03/19/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 3831a6b5ec458495134b4b490d33a9acd76b6d2e
-ms.openlocfilehash: 76ea8470786bd50896400a65564d698d96119d6f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9f996131830f9bd4efd534143b3fb761c5ccc756
 ms.contentlocale: es-es
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="one-voucher"></a>Un asiento
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Esta funcionalidad estará disponible en Dynamics 365 for Finance and Operations versión 8.0, que estará disponible en el lanzamiento de la versión de primavera de 2018.   
@@ -38,9 +38,12 @@ ms.lasthandoff: 03/20/2018
 
 La funcionalidad existente para los diarios financieros (diario, diario de activos fijos, diario de pago del proveedor, etc.) le permite especificar varias transacciones de subcontabilidad en el contexto de un asiento único. Nos referimos a esta funcionalidad "un asiento.” Puede crear un asiento con uno de los siguientes métodos:
 
--   Configure el nombre de diario (**contabilidad general** \> **Configuración del diario** \>**Nombres de diario**) para que el campo **Nuevo asiento** esté establecido en **Solo un número de asiento**. Cada línea que agrega al diario ahora se incluye en el mismo asiento. Como cada línea se agrega al mismo asiento, el asiento se puede introducir como asiento multilínea, como una cuenta/cuenta de contrapartida en la misma línea o como una combinación.
+-   Configure el nombre de diario (**contabilidad general** \> **Configuración del diario** \>**Nombres de diario**) para que el campo **Nuevo asiento** esté establecido en **Solo un número de asiento**. * Cada línea que agrega al diario ahora se incluye en el mismo asiento. Como cada línea se agrega al mismo asiento, el asiento se puede introducir como asiento multilínea, como una cuenta/cuenta de contrapartida en la misma línea o como una combinación.
 
 [![Una línea](./media/same-line.png)](./media/same-line.png)
+ 
+> [!IMPORTANT] 
+> *  Tenga en cuenta que la definición de "un asiento" NO incluye los nombres de diario configurados como **Número de asiento** y sólo el usuario escribe un asiento que incluya solo tipos de cuenta contable.  En este documento "un asiento" significa que hay un asiento que contiene más de un proveedor, cliente, banco, activo fijo o proyecto. 
 
 -   Especifique un asiento multilínea donde no haya cuenta de contrapartida.
 
@@ -68,13 +71,16 @@ A continuación, genere el informe **Gastos por proveedor** en el espacio de tra
 
 Debido a los problemas mencionados previamente, la funcionalidad de Un asiento quedará obsoleta. Sin embargo, dado que hay espacios funcionales que dependen de esta funcionalidad, la funcionalidad no quedará obsoleta de una vez. En su lugar, utilizaremos la programación siguiente: 
 
--   **Versión de primavera 2018** La funcionalidad se desactivará de manera predeterminada a través de un parámetro de contabilidad general. Sin embargo, puede activar la funcionalidad si su organización tiene un escenario que caiga en los espacios del escenario empresarial que aparecen más adelante en este tema.
+- **Versión de primavera 2018** La funcionalidad se desactivará de manera predeterminada a través de un parámetro de contabilidad general. Sin embargo, puede activar la funcionalidad si su organización tiene un escenario que caiga en los espacios del escenario empresarial que aparecen más adelante en este tema.
 
-    -   Si un cliente tiene un escenario empresarial que no requiere Un asiento, no vuelva a activar la funcionalidad. No corregiremos los "errores“ en las áreas que se identificaron más adelante en este tema si esta funcionalidad se usa aunque exista otra solución.
+  -   Si un cliente tiene un escenario empresarial que no requiere Un asiento, no vuelva a activar la funcionalidad. No corregiremos los "errores“ en las áreas que se identificaron más adelante en este tema si esta funcionalidad se usa aunque exista otra solución.
 
-    -   Deje de usar un asiento para las integraciones en Microsoft Dynamics 365 Finance and Operations, a menos que la funcionalidad sea necesaria para una de las lagunas funcionales.
+  -   Deje de usar un asiento para las integraciones en Microsoft Dynamics 365 Finance and Operations, a menos que la funcionalidad sea necesaria para una de las lagunas funcionales.
 
--   **Versiones de otoño de 2018 y posteriores** Los espacios funcionales se rellenarán. Una vez que se rellenen espacios funcionales, la funcionalidad del asiento se desactivará permanentemente.
+- **Versiones de otoño de 2018 y posteriores** Los espacios funcionales se rellenarán. Una vez que se rellenen espacios funcionales, la funcionalidad del asiento se desactivará permanentemente.
+
+- > [!IMPORTANT]
+  > Tenga en cuenta que la opción **Número de asiento sólo** no se ha quitado de la configuración del nombre de diario.  Esta opción aún se admite cuando el asiento contiene solo tipos de cuenta contable.  Los clientes deben tener cuidado al utilizar este valor porque el asiento no se registrará si se usa **Número de asiento sólo** pero por otro lado especifica más de un cliente, proveedor, banco, activo fijo, o proyecto.  Además, los clientes pueden introducir una combinación de tipos de cuenta del subdiario contable, como un pago en un asiento único que contenga tipos de cuenta de proveedor o del banco.  
 
 <a name="why-use-one-voucher"></a>¿Por qué usar un asiento?
 ====================
@@ -102,13 +108,13 @@ Las situaciones siguientes se pueden realizar solo con la funcionalidad de asien
 
 >   Si una organización debe ver los asientos contables de un evento de negocio de forma conjunta, debe usar Un asiento. 
 
--   **Funciones específicas de un país o región**
+- **Funciones específicas de un país o región**
 
- -   La característica de (SAD) de Documento Único Administrativo para Polonia requiere actualmente que se use un asiento único. Hasta que una opción de agrupación esté disponible para esta función, debe continuar utilizando la funcionalidad de asiento único. Puede haber características específicas del país adicionales que requieran la funcionalidad de asiento.
+  -   La característica de (SAD) de Documento Único Administrativo para Polonia requiere actualmente que se use un asiento único. Hasta que una opción de agrupación esté disponible para esta función, debe continuar utilizando la funcionalidad de asiento único. Puede haber características específicas del país adicionales que requieran la funcionalidad de asiento.
 
--   **Diario de pagos de anticipo del cliente que tiene impuestos sobre las varias "líneas"**
+- **Diario de pagos de anticipo del cliente que tiene impuestos sobre las varias "líneas"**
 
- -   Un cliente realiza un anticipo para un pedido y las líneas del pedido tienen diferentes impuestos que se deben registrar para el anticipo. El anticipo de cliente es una transacción que simula las líneas de pedido, para poder registrar los impuestos adecuados para el importe de cada línea.
+  -   Un cliente realiza un anticipo para un pedido y las líneas del pedido tienen diferentes impuestos que se deben registrar para el anticipo. El anticipo de cliente es una transacción que simula las líneas de pedido, para poder registrar los impuestos adecuados para el importe de cada línea.
 
 En esta situación, los clientes del asiento único son el mismo cliente, porque la transacción simula las líneas de un pedido de cliente. El anticipo se debe especificar en un asiento único, ya que el cálculo de impuestos se debe crear en las “líneas” del pago único que realizó el cliente.
 

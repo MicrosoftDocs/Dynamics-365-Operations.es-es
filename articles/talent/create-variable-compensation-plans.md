@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4ced76315bb4667f84be532a703e7e9b134b829b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Cree planes de compensación variable
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 La compensación variable compone la paga irregular de un empleado, como bonificaciones o primas en acciones. Este artículo describe los componentes que se deben configurar para poder usar compensación variable e inscribir un empleado en un plan de compensación variable.
 
@@ -78,12 +77,12 @@ Cuando esté listo para inscribir a empleados en un plan de compensación variab
 
 **Nota:** Las reglas de idoneidad determinan la idoneidad tanto para planes de compensación fija como de compensación variable. Las reglas de idoneidad usan los siguientes campos de los registros de trabajo, puesto y empleado para determinar si un empleado es apto para un plan de compensación:
 
--   En la página **Trabajo**:
-    -   El campo **Trabajo**
-    -   Los campos **Función** y **Tipo de trabajo** de la pestaña **Clasificación de trabajo**
-    -   El campo **Nivel** de la pestaña **Compensación**
--   En la página **Puestos**: los campos **Departamento** y **Región de compensación**
--   En la página **Empleados**: la información acerca de los sindicatos que se asocia al empleado en **Información personal** &gt; **Sindicatos** de la pestaña ****Trabajador****
+- En la página **Trabajo**:
+  -   El campo **Trabajo**
+  -   Los campos **Función** y **Tipo de trabajo** de la pestaña **Clasificación de trabajo**
+  -   El campo **Nivel** de la pestaña **Compensación**
+- En la página **Puestos**: los campos **Departamento** y **Región de compensación**
+- En la página <strong>Empleados</strong>: la información acerca de los sindicatos que se asocia al empleado en <strong>Información personal</strong> &gt; <strong>Sindicatos</strong> en la pestaña *<strong><em>Trabajador</em></strong>*
 
 ### <a name="enable-enrollment-for-the-variable-compensation-plan"></a>Habilitar la inscripción para el plan de compensación variable
 

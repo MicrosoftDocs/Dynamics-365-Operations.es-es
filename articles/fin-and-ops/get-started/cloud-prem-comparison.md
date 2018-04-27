@@ -18,16 +18,16 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 911996f9d1854f027f5085725538bd87ba307c25
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Comparación de características locales y la nube
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se muestra si cada característica está disponible en estos productos:
 
@@ -51,7 +51,7 @@ Las tablas siguientes muestran las áreas del producto. El soporte en la nube y 
 | | Extensión diseñada según la configuración| Sí | N.º |
 | | Exportar datos a su propio almacén de datos| Sí | Sí |
 | | Habilitar la exportación de actualizaciones incrementales a una entidad de datos | Sí | N.º |
-| | Integraciones periódicas                 |Sí | N.º|
+| | Integraciones de datos                 |Sí | Sí|
 | Administración de documentos| | Sí| Sí |
 | Administración financiera|  | Sí | Sí |
 | Ayuda| | Sí | N.º |

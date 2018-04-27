@@ -19,17 +19,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 98f5696cd6a279bdf0f8d9026a74e5a9bccd2f13
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
 ms.contentlocale: es-es
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Seguimiento de artículos y materias primas en el inventario, la producción y las ventas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema se describe cómo puede usar el seguimiento de artículos para identificar dónde se han usado los artículos o las materias primas, dónde se están usando o dónde se usarán en los procesos de producción y ventas.
 
@@ -129,7 +128,7 @@ Después de haber ejecutado el seguimiento, puede usar las siguientes opciones d
 Si desea usar la opción **Nuevo regresivo** o **Nuevo progresivo**, debe usar la función de **Abrir en una nueva ventana** para que aparezca un nuevo seguimiento en una nueva ventana.
 
 ## <a name="can-i-save-the-trace-details"></a>¿Se pueden guardar los detalles de seguimiento?
-Puede guardar la información de la pestaña **Detalles** como archivo XML haciendo clic en **Exportar** debajo de la acción ****Seguimiento**** en el panel de acciones. Además de los detalles de seguimiento, el archivo XML incluye los criterios de seguimiento, el nodo principal y la cantidad disponible. La capacidad de guardar los detalles de un seguimiento es de utilidad si, por ejemplo, desea asociar información a un pedido de calidad o a otra documentación de cumplimiento. Puede especificar dónde se guarda el archivo. Para ver el archivo inmediatamente, seleccione la opción **Mostrar documento**. **Nota:** El archivo se guarda siempre, incluso si solo desea verlo. De forma predeterminada, el archivo XML se abre en una ventana del explorador. Sin embargo, puede hacer clic con el botón secundario en el archivo, seleccionar **Abrir con** y seleccionar el programa que se debe usar para visualizar el contenido.
+Puede guardar la información de la pestaña <strong>Detalles</strong> como archivo XML haciendo clic en <strong>Exportar</strong> debajo de la acción *<strong><em>Seguimiento</em></strong>* en el Panel de acciones. Además de los detalles de seguimiento, el archivo XML incluye los criterios de seguimiento, el nodo principal y la cantidad disponible. La capacidad de guardar los detalles de un seguimiento es de utilidad si, por ejemplo, desea asociar información a un pedido de calidad o a otra documentación de cumplimiento. Puede especificar dónde se guarda el archivo. Para ver el archivo inmediatamente, seleccione la opción <strong>Mostrar documento</strong>. <strong>Nota:</strong> El archivo se guarda siempre, incluso si solo desea verlo. De forma predeterminada, el archivo XML se abre en una ventana del explorador. Sin embargo, puede hacer clic con el botón secundario en el archivo, seleccionar <strong>Abrir con</strong> y seleccionar el programa que se debe usar para visualizar el contenido.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>¿Se puede calcular un saldo para un artículo o ingrediente concreto?
 Puede exportar la información de las páginas de resumen a Microsoft Excel. Abra la página relevante, haga clic en el icono **Abrir en Microsoft Office** y, a continuación, seleccione **Exportar a Microsoft Excel**. Esta funcionalidad es especialmente útil si desea calcular un saldo total para un artículo o ingrediente desde la página de **Resumen de transacciones**. En la página **Resumen de transacciones**, puede filtrar el artículo o ingrediente, y opcionalmente el lote y, a continuación, exportar la información a Excel. En Excel, puede aislar, por ejemplo, la cantidad disponible, la cantidad vendida y la cantidad que se usó en la producción.

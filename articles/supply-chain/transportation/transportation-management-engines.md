@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5472d69f6d0bb7a60fb417a0d1bdc3fbc6a5e18
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="transportation-management-engines"></a>Motores de administración del transporte
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Los motores de administración del transporte definen la lógica que se usa para generar y procesar tasas de transporte en Administración de transporte. 
 
@@ -47,7 +46,7 @@ En la siguiente tabla se muestran los motores de administración del transporte 
 | **Motor de zona**                  | Calcula la zona basada en la dirección actual y calcula el número de zonas que se deben cruzar para desplazarse de la dirección A a la dirección B.                                                                                                                                                                    |
 | **Tipo de albarán de flete**            | Estandariza la factura de flete y las líneas de albarán de flete y se usa para conciliar automáticamente albaranes de flete.                                                                                                                                                                                                                |
 
- 
+
 <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>¿Qué motores se deben configurar para clasificar un envío?
 ---------------------------------------------------
 
@@ -60,13 +59,13 @@ Un motor de administración del transporte necesita que configure los datos de i
 -   Datos de configuración simple.
 
 En la mayoría de los casos, puede hacer clic en el botón **Parámetros** de los formularios de configuración del motor de administración del transporte para configurar los datos de inicialización. **Ejemplo de la configuración de un motor de tarifas que hace referencia a un motor de cálculo de kilometraje** En el siguiente ejemplo se muestra la configuración necesaria para un motor de tarifas basado en tipo de motor .NET Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine y hace referencia a un motor de cálculo de kilometraje.
-| Parámetro             | Descripción                                                                                                                                                                                                                                                                                                                                                                      |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | El tipo de .NET que interpreta los datos de asignación base de la tasa para un esquema concreto. La sintaxis del valor del parámetro consta de dos segmentos delimitados por una barra vertical (|). El primer segmento contiene el nombre del ensamblado que define el tipo de asignador. El segundo segmento define el nombre completo del tipo de asignador. Esto incluye el espacio de nombres del tipo. |
-| *MileageEngineCode*   | Código del motor de cálculo de kilometraje que identifica el registro del motor de cálculo de kilometraje en la base de datos de Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                                             |
-| *ApportionmentEngine* | Código de motor genérico que identifica el motor de reparto en la base de datos de Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                                              |
 
- 
+|          Parámetro           |                                                                                  Descripción                                                                                  |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <em>RateBaseAssigner</em>   | El tipo de .NET que interpreta los datos de asignación base de la tasa para un esquema concreto. La sintaxis del valor del parámetro consta de dos segmentos delimitados por una barra vertical ( |
+|  <em>MileageEngineCode</em>  |                       Código del motor de cálculo de kilometraje que identifica el registro del motor de cálculo de kilometraje en la base de datos de Microsoft Dynamics 365 for Finance and Operations.                        |
+| <em>ApportionmentEngine</em> |                        Código de motor genérico que identifica el motor de reparto en la base de datos de Microsoft Dynamics 365 for Finance and Operations.                        |
+
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>¿Cómo se usan los metadatos en los motores de administración del transporte?
 ----------------------------------------------------------
 
@@ -77,6 +76,7 @@ Los datos que se usan al calcular tasas en Microsoft Dynamics 365 for Finance an
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>¿Todas las configuraciones de motores requieren metadatos?
 No, los motores de administración del transporte que se usan para recuperar los datos necesarios para el cálculo de tasas de sistemas externos no necesitan metadatos. Los datos de tasas para estos motores se pueden recuperar a partir de sistemas de transportistas externos, generalmente mediante un servicio web. Por ejemplo, puede usar un motor de cálculo de kilometraje que recupera datos directamente de Mapas de Bing de modo que no necesite metadatos para este motor.
+
 | **Nota**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Los motores de administración del transporte que se entregan con Finance and Operations se basan en datos recuperados de la aplicación. Los motores que se conectan a sistemas externos no se incluyen con Operaciones. Sin embargo, el modelo de extensibilidad basado en motores le permite crear extensiones mediante Visual Studio Tools de Microsoft Dynamics 365 for Finance and Operations. |

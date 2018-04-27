@@ -19,19 +19,20 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 84e00ef62a995d37878de6b2786dbc2ee2277070
-ms.openlocfilehash: 8a1ec5a3b19d1022232527f4960617bd985bc2b3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
 ms.contentlocale: es-es
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="batch-balancing"></a>Equilibrio por lotes
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
+En este tema se describe cómo se admite el proceso de equilibrio por lotes. 
 
-En este tema se describe cómo se admite el proceso de equilibrio por lotes.
+Ver [vídeo sobre equilibrio por lotes en Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
 
 En el proceso de equilibrio por lotes, la cantidad de ingredientes que va a utilizar en un lote de producción se calcula a partir de la concentración de ingredientes activos en lotes de producto seleccionados.
 
@@ -179,7 +180,7 @@ Después de que se hayan calculado las cantidades de los ingredientes, puede con
 
 -   Si un producto está habilitado para los procesos de gestión de almacenes, la línea de fórmula se libera al almacén según los principios para los procesos de gestión de almacenes. La línea de fórmula se libera en cantidades que coinciden con las cantidades equilibradas, y se libera para los lotes específicos que se seleccionan para los ingredientes activos.
 
->   [!NOTE]
+> [!NOTE]
 >   Las líneas de fórmula se pueden liberar al almacén solo como parte del proceso de equilibrio por lotes. Aunque haya otras opciones para liberar materiales para la producción al almacén, esas opciones no se pueden usar para las líneas de fórmula.
 
 -   Si un producto no está habilitado para los procesos de gestión de almacenes, se crea una lista de selección de producción para el producto cuando confirma y libera la fórmula.

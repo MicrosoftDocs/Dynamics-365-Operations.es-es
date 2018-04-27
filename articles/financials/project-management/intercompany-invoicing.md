@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7cd19340c913fcda3fb537162dfbae52b5c8e922
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3d4354316d0c37c6556c0ec3d27a3c62c5afb7b0
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="intercompany-invoicing"></a>Facturación de empresas vinculadas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo proporciona información y ejemplos acerca de la facturación de empresas vinculadas para los proyectos en Microsoft Dynamics 365 for Finance and Operations.
 
@@ -58,20 +57,22 @@ En este ejemplo, USSI es una entidad jurídica prestadora y sus recursos notific
 
 Para este ejemplo, FRSI debe ser un cliente de la entidad jurídica USSI y USSI debe ser un proveedor de la entidad jurídica FRSI. A continuación, puede configurar una relación entre empresas vinculadas entre las dos entidades jurídicas. En el siguiente procedimiento se muestra cómo configurar los parámetros para que ambas entidades jurídicas puedan participar en la facturación de empresas vinculadas.
 
-1.  Configure FRSI como un cliente en la entidad jurídica USSI y USSI como un proveedor en la entidad jurídica FRSI. Existen tres puntos de entrada para los pasos necesarios para esta tarea.
-    | Paso | Punto de entrada                                                                       | Descripción   |
-    |------|-----------------------------------------------------------------------------------|------------------|
-    | A    | En USSI, haga clic en **Clientes** &gt; **Clientes** &gt; **Todos los clientes**. | Crear un nuevo registro de cliente para FRSI y seleccione el grupo de clientes.                                                                                  |
-    | mil millones    | En FRSI, haga clic en **Proveedores** &gt; **Proveedores** &gt; **Todos los proveedores**.        | Crear un nuevo registro de proveedor para USSI y seleccione el grupo de proveedores.                                                                                    |
-    | C    | En FRSI, abra el registro de proveedor que acaba de crear.                            | En el panel de acciones, en la pestaña **General**, en el grupo **Configurar**, haga clic en **Empresas vinculadas**. En la página **Empresas vinculadas**, en la pestaña **Relación comercial**, establezca el control deslizante **Activo** en **Sí**. En el campo **Empresa cliente** , seleccione el registro del cliente que creó en el paso A. |
+1. Configure FRSI como un cliente en la entidad jurídica USSI y USSI como un proveedor en la entidad jurídica FRSI. Existen tres puntos de entrada para los pasos necesarios para esta tarea.
 
-2.  Haga clic en **Gestión de proyectos y contabilidad** &gt; **Configuración** &gt; **Parámetros de contabilidad de gestión de proyectos** y, a continuación, haga clic en la pestaña **Empresas vinculadas**. La forma en que se configuran los parámetros depende de si usted es la entidad jurídica que recibe el préstamo o la entidad jurídica que otorga el préstamo.
-    -   Si es la entidad jurídica prestataria, seleccione la categoría de compras que debe utilizarse para que coincida con las facturas de proveedor, que se generan automáticamente.
-    -   Si es la préstamo entidad prestadora, para cada entidad prestataria, seleccione una categoría de proyecto predeterminada para cada tipo de transacción. Las categorías del proyecto se utilizan para la configuración de impuestos cuando la categoría facturada en las transacciones entre empresas vinculadas solo existe en la entidad jurídica prestataria. Puede acumular ingresos para transacciones de empresas vinculadas. Esta acumulación se realiza cuando se registran las transacciones y, a continuación, se invierte cuando se registra la factura de empresas vinculadas.
+   | Paso |                                                       Punto de entrada                                                        |                                                                                                                                                                                               Descripción                                                                                                                                                                                               |
+   |------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |  A   | En USSI, haga clic en <strong>Clientes</strong> &gt; <strong>Clientes</strong> &gt; <strong>Todos los clientes</strong>. |                                                                                                                                                                  Crear un nuevo registro de cliente para FRSI y seleccione el grupo de clientes.                                                                                                                                                                  |
+   |  mil millones   |    En FRSI, haga clic en <strong>Proveedores</strong> &gt; <strong>Proveedores</strong> &gt; <strong>Todos los proveedores</strong>.     |                                                                                                                                                                    Crear un nuevo registro de proveedor para USSI y seleccione el grupo de proveedores.                                                                                                                                                                    |
+   |  C   |                                  En FRSI, abra el registro de proveedor que acaba de crear.                                  | En el panel de acciones, en la pestaña <strong>General</strong>, en el grupo <strong>Configurar</strong>, haga clic en <strong>Empresas vinculadas</strong>. En la página <strong>Empresas vinculadas</strong>, en la pestaña <strong>Relación comercial</strong>, establezca el control deslizante <strong>Activo</strong> en <strong>Sí</strong>. En el campo <strong>Empresa cliente</strong> , seleccione el registro del cliente que creó en el paso A. |
 
-3.  Haga clic en **Administración de proyectos y contabilidad** &gt; **Configurar** &gt; **Precios** &gt; **Precio de transferencia**.
-4.  Seleccione una moneda, el tipo de transacción y el modelo de precio de transferencia. La moneda que se usa en la factura es la moneda que se configura en el registro del cliente para la entidad jurídica prestataria en la entidad jurídica prestadora. La divisa se utiliza para conciliar entradas de la tabla de precios de transferencia.
-5.  Haga clic en **Contabilidad general** &gt; **Configuración del registro** &gt; **Contabilidad de empresas vinculadas** y configure una relación para USSI y FRSI.
+
+2. Haga clic en **Gestión de proyectos y contabilidad** &gt; **Configuración** &gt; **Parámetros de contabilidad de gestión de proyectos** y, a continuación, haga clic en la pestaña **Empresas vinculadas**. La forma en que se configuran los parámetros depende de si usted es la entidad jurídica que recibe el préstamo o la entidad jurídica que otorga el préstamo.
+   -   Si es la entidad jurídica prestataria, seleccione la categoría de compras que debe utilizarse para que coincida con las facturas de proveedor, que se generan automáticamente.
+   -   Si es la préstamo entidad prestadora, para cada entidad prestataria, seleccione una categoría de proyecto predeterminada para cada tipo de transacción. Las categorías del proyecto se utilizan para la configuración de impuestos cuando la categoría facturada en las transacciones entre empresas vinculadas solo existe en la entidad jurídica prestataria. Puede acumular ingresos para transacciones de empresas vinculadas. Esta acumulación se realiza cuando se registran las transacciones y, a continuación, se invierte cuando se registra la factura de empresas vinculadas.
+
+3. Haga clic en **Administración de proyectos y contabilidad** &gt; **Configurar** &gt; **Precios** &gt; **Precio de transferencia**.
+4. Seleccione una moneda, el tipo de transacción y el modelo de precio de transferencia. La moneda que se usa en la factura es la moneda que se configura en el registro del cliente para la entidad jurídica prestataria en la entidad jurídica prestadora. La divisa se utiliza para conciliar entradas de la tabla de precios de transferencia.
+5. Haga clic en **Contabilidad general** &gt; **Configuración del registro** &gt; **Contabilidad de empresas vinculadas** y configure una relación para USSI y FRSI.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>Ejemplo 2: crear y registrar una hoja de horas de empresas vinculadas
 USSI, la entidad jurídica prestadora, debe crear y registrar la hoja de horas para un proyecto desde FRSI, la entidad jurídica prestataria. Existen dos puntos de entrada para los pasos necesarios para esta tarea.

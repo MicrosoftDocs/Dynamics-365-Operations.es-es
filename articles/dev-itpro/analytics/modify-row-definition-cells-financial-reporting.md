@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: dd34fb71f7a5d31a075c6475c2fe6627193d891f
-ms.openlocfilehash: 6bb405937288b46f49420a1735c32b5b7c16248e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
 ms.contentlocale: es-es
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Modifique las celdas de definición de filas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se describe la información que se requiere para cada celda de una definición de fila en un informe financiero y se explica cómo escribir esa información. 
 
@@ -104,26 +103,26 @@ La celda **Código de formato** ofrece una selección de opciones preformateadas
 2.  Haga doble clic en la celda **Código del formato**.
 3.  Seleccione un código de formato en la lista. La tabla siguiente describe los códigos de formato y sus acciones.
 
-| **Código de formato**               | **Interpretación del código de formato** | **Acción**                                                                                                                                                                                                     |
-|-------------------------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| (Ninguno)                        |                                       | Borra la celda **Código de formato**.                                                                                                                                                                               |
-| TOT                           | Total                                 |  Identifica una fila que usa operadores matemáticos en la columna **Fórmulas, filas o unidades relacionadas**. Los totales incluyen operadores simples, como **+** o **-**.                                                     |
-| CAL                           | Cálculo                           | Identifica una fila que usa operadores matemáticos en la columna **Fórmulas, filas o unidades relacionadas**. Los cálculos contienen operadores complejos, como las instrucciones **+**, **-**, **\***, **/** y **IF/THEN/ELSE**. |
-| DES                           | Descripción                           | Identificar una línea de encabezado o una línea en blanco en un informe.                                                                                                                                                        |
-| LFT RGT CEN                   | Izquierda Derecha Centro                     |  Alínea el texto de la descripción de la fila en la página del informe, independientemente de la colocación del texto en la definición de la columna.                                                                                              |
-| CBR                           | Cambiar la fila de base                       | Identifica una fila que define la fila de base para los cálculos de la columna.                                                                                                                                               |
-| COLUMNA                        | Salto de columna                          | Inicia una nueva columna en el informe.                                                                                                                                                                             |
-| PÁGINA                          | Salto de página                            | Inicia una nueva página en el informe.                                                                                                                                                                               |
-| \---                          | Subrayado simple                      | Pone una única línea debajo de todas las columnas de importe en el informe.                                                                                                                                                     |
-|  ===                          | Subrayado doble                      | Pone dos líneas debajo de todas las columnas de importe en el informe.                                                                                                                                                     |
-| LINE1                         | Línea fina                             | Dibuja una única línea fina en la página.                                                                                                                                                                      |
-| LIN2                         | Línea gruesa                            | Dibuja una línea gruesa única a lo largo de la página.                                                                                                                                                                     |
-| LIN3                         | Línea de puntos                           | Dibuja una única línea de puntos en la página.                                                                                                                                                                    |
-| LINE4                         | Línea gruesa y línea fina              | Dibuja una línea doble en la página. La línea superior es gruesa y la de abajo es fina.                                                                                                                       |
-| LINE5                         | Línea fina y línea gruesa              | Dibuja una línea doble en la página. La línea superior es fina y la de abajo es gruesa.                                                                                                                       |
-| BXB BXC                       | Fila encajonada                             | Dibuja una caja alrededor de las filas del informe que empiezan por la fila **BXB** y acaban por la fila **BXC**.                                                                                                               |
-| NOT                           | Comentario                                | Identifica una fila que es una fila de comentario y no debería imprimirse en el informe. Por ejemplo, una fila de comentario podría explicar técnicas de formato.                                                            |
-| SORT ASORT SORTDESC ASORTDESC | Ordenar                                  | Ordena gastos o ingresos, ordena un informe de desviación del presupuesto real por desviación mayor u ordena las descripciones de fila alfabéticamente.                                                                   |
+| <strong>Código de formato</strong>  | <strong>Interpretación del código de formato</strong> |                                                                                                                             <strong>Acción</strong>                                                                                                                              |
+|-------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            (Ninguno)             |                                                    |                                                                                                                  Borra la celda <strong>Código del formato</strong>.                                                                                                                   |
+|              TOT              |                       Total                        |                                         Identifica una fila que usa operadores matemáticos en la columna <strong>Fórmulas, filas o unidades relacionadas</strong>. Los totales incluyen operadores simples, como <strong>+</strong> o <strong>-</strong>.                                         |
+|              CAL              |                    Cálculo                     | Identifica una fila que usa operadores matemáticos en la columna <strong>Fórmulas/Filas/Unidades relacionadas</strong>. Los cálculos contienen operadores complejos, como los informes <strong>+</strong>, <strong>-</strong>, <strong>\</strong<em>, **/</em><em> y **IF/THEN/ELSE</em>*. |
+|              DES              |                    Descripción                     |                                                                                                             Identificar una línea de encabezado o una línea en blanco en un informe.                                                                                                              |
+|          LFT RGT CEN          |                 Izquierda Derecha Centro                  |                                                                                 Alínea el texto de la descripción de la fila en la página del informe, independientemente de la colocación del texto en la definición de la columna.                                                                                 |
+|              CBR              |                  Cambiar la fila de base                   |                                                                                                         Identifica una fila que define la fila de base para los cálculos de la columna.                                                                                                         |
+|            COLUMNA             |                    Salto de columna                    |                                                                                                                        Inicia una nueva columna en el informe.                                                                                                                        |
+|             PÁGINA              |                     Salto de página                     |                                                                                                                         Inicia una nueva página en el informe.                                                                                                                         |
+|             \---              |                  Subrayado simple                  |                                                                                                            Pone una única línea debajo de todas las columnas de importe en el informe.                                                                                                            |
+|              ===              |                  Subrayado doble                  |                                                                                                            Pone dos líneas debajo de todas las columnas de importe en el informe.                                                                                                            |
+|             LINE1             |                     Línea fina                      |                                                                                                                    Dibuja una única línea fina en la página.                                                                                                                     |
+|             LIN2             |                     Línea gruesa                     |                                                                                                                    Dibuja una línea gruesa única a lo largo de la página.                                                                                                                    |
+|             LIN3             |                    Línea de puntos                     |                                                                                                                   Dibuja una única línea de puntos en la página.                                                                                                                    |
+|             LINE4             |              Línea gruesa y línea fina              |                                                                                             Dibuja una línea doble en la página. La línea superior es gruesa y la de abajo es fina.                                                                                             |
+|             LINE5             |              Línea fina y línea gruesa              |                                                                                             Dibuja una línea doble en la página. La línea superior es fina y la de abajo es gruesa.                                                                                             |
+|            BXB BXC            |                     Fila encajonada                      |                                                                            Dibuja un cuadro alrededor de las filas de informes que comienzan por la fila <strong>INICUA</strong> y terminan por la fila <strong>COMCUA</strong>.                                                                            |
+|              NOT              |                       Comentario                       |                                                               Identifica una fila que es una fila de comentario y no debería imprimirse en el informe. Por ejemplo, una fila de comentario podría explicar técnicas de formato.                                                                |
+| SORT ASORT SORTDESC ASORTDESC |                        Ordenar                        |                                                                   Ordena gastos o ingresos, ordena un informe de desviación del presupuesto real por desviación mayor u ordena las descripciones de fila alfabéticamente.                                                                   |
 
 ## <a name="specify-related-formulasrowsunits"></a>Especificar fórmulas, filas o unidades relacionadas
 La celda **Fórmulas, filas o unidades relacionadas** tiene varios objetivos. En función del tipo de fila, una celda de **Fórmulas, filas o unidades relacionadas** puede realizar una de las funciones siguientes:
@@ -211,12 +210,12 @@ Los códigos de ordenación ordenan cuentas o valores, ordenan un informe de des
 
 ### <a name="select-a-sorting-code"></a>Seleccionar un código de ordenación
 
-1.  En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
-2.  Haga doble clic en la celda **Código de formato** y seleccione un código de ordenación.
-3.  En la celda **Fórmulas, filas o unidades relacionadas**, especifique el intervalo de códigos de fila que desea ordenar. Para especificar un intervalo, especifique el primer código de fila, dos puntos (:) y, a continuación, el código de la última fila. Por ejemplo, escriba **160:490** para especificar que el intervalo es de la fila 160 a la fila 490.
-4.  En la celda **Restricción de columnas**, especifique la letra de la columna de informe para usar en la ordenación. 
-> [!Note] 
-> Incluya solo las filas de importe en un cálculo de ordenación.
+1. En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
+2. Haga doble clic en la celda **Código de formato** y seleccione un código de ordenación.
+3. En la celda **Fórmulas, filas o unidades relacionadas**, especifique el intervalo de códigos de fila que desea ordenar. Para especificar un intervalo, especifique el primer código de fila, dos puntos (:) y, a continuación, el código de la última fila. Por ejemplo, escriba **160:490** para especificar que el intervalo es de la fila 160 a la fila 490.
+4. En la celda **Restricción de columnas**, especifique la letra de la columna de informe para usar en la ordenación. 
+   > [!Note] 
+   > Incluya solo las filas de importe en un cálculo de ordenación.
 
 ### <a name="examples-of-ascending-and-descending-column-values"></a>Ejemplos de valores ascendentes y descendentes de columna
 
@@ -258,41 +257,41 @@ La celda **Anulación de formato** especifica el formato que se usa para la fila
 
 El formato de divisa se aplica a un importe fiscal e incluye el símbolo de la divisa. Las opciones siguientes están disponibles:
 
--   **Símbolo de divisa**: el símbolo de divisa del informe. Este valor anula la configuración **Opciones regionales** para la información de la empresa.
--   **Números negativos**: los números negativos pueden tener un signo menos (-), pueden aparecer entre paréntesis o pueden tener un triángulo (∆).
--   **Decimales**: el número de dígitos a mostrar después del separador decimal.
--   **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. 
-> [!Note] 
-> Si la impresión se elimina si no hay valores ni actividad de período, se eliminará este texto.
+- **Símbolo de divisa**: el símbolo de divisa del informe. Este valor anula la configuración **Opciones regionales** para la información de la empresa.
+- **Números negativos**: los números negativos pueden tener un signo menos (-), pueden aparecer entre paréntesis o pueden tener un triángulo (∆).
+- **Decimales**: el número de dígitos a mostrar después del separador decimal.
+- **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. 
+  > [!Note] 
+  > Si la impresión se elimina si no hay valores ni actividad de período, se eliminará este texto.
 
 ### <a name="numeric-formatting"></a>Formato numérico
 
 El formato numérico se aplica a cualquier importe y no incluye un símbolo de divisa. Están disponibles las siguientes opciones:
 
--   **Números negativos**: los números negativos pueden tener un signo menos (-), pueden aparecer entre paréntesis o pueden tener un triángulo (∆).
--   **Decimales**: el número de dígitos a mostrar después del separador decimal.
--   **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. 
-> [!Note] 
-> Si la impresión se elimina si no hay valores ni actividad de período, se eliminará este texto.
+- **Números negativos**: los números negativos pueden tener un signo menos (-), pueden aparecer entre paréntesis o pueden tener un triángulo (∆).
+- **Decimales**: el número de dígitos a mostrar después del separador decimal.
+- **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. 
+  > [!Note] 
+  > Si la impresión se elimina si no hay valores ni actividad de período, se eliminará este texto.
 
 ### <a name="percentage-formatting"></a>Formato de porcentaje
 
 El formato de porcentaje incluye el signo de porcentaje (%). Están disponibles las siguientes opciones:
 
--   **Números negativos**: los números negativos pueden tener un signo menos (-), pueden aparecer entre paréntesis o pueden tener un triángulo (∆).
--   **Decimales**: el número de dígitos a mostrar después del separador decimal.
--   **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. 
-> [!Note] 
-> Si la impresión se elimina si no hay valores ni actividad de período, se eliminará este texto.
+- **Números negativos**: los números negativos pueden tener un signo menos (-), pueden aparecer entre paréntesis o pueden tener un triángulo (∆).
+- **Decimales**: el número de dígitos a mostrar después del separador decimal.
+- **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. 
+  > [!Note] 
+  > Si la impresión se elimina si no hay valores ni actividad de período, se eliminará este texto.
 
 ### <a name="custom-formatting"></a>Formato personalizado
 
 Use la categoría de formato personalizado para crear una anulación de formato personalizado. Están disponibles las siguientes opciones:
 
--   **Tipo**: el formato personalizado.
--   **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. 
-> [!Note] 
-> Si la impresión se elimina si no hay valores ni actividad de período, se eliminará este texto.
+- **Tipo**: el formato personalizado.
+- **Texto de anulación del valor cero**: el texto a incluir en el informe cuando el importe es 0 (cero). Este texto aparece como la última línea en el área **Ejemplo**. 
+  > [!Note] 
+  > Si la impresión se elimina si no hay valores ni actividad de período, se eliminará este texto.
 
 El tipo debe representar el valor positivo y después el valor negativo. Normalmente, se especifica un formato similar que distinga valores negativos y positivos. Por ejemplo, para especificar que los valores negativos y positivos tienen dos decimales, pero los valores negativos aparecen entre paréntesis, escriba **0.00; (0.00)**. En la tabla siguiente se muestran los formatos personalizados que puede usar para controlar el formato de sus valores. Todos los ejemplos empiezan con el valor 1234.56.
 
@@ -387,7 +386,7 @@ De forma predeterminada, el diseñador de informes no imprime ninguna fila que n
 3.  En el menú **Archivo**, haga clic en **Guardar** para guardar los cambios.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Usar intervalos y caracteres comodín en una definición de filas
-Cuando se especifica un valor natural de segmento en el cuadro de diálogo **Dimensiones**, puede poner un carácter comodín (? o \*) en cualquier posición de un segmento. El diseñador de informes extrae todos los valores de las posiciones definidas sin tener en cuenta los caracteres comodín. Por ejemplo, la definición de filas solo contiene valores naturales de segmentos y los segmentos naturales tienen cuatro caracteres. Si escribe **6???** en una fila, le está pidiendo al diseñador de informes que incluya todas las cuentas con un valor natural de segmento que empiece por 6. Si escribe **6\***, se devuelven los mismos resultados, pero los resultados también incluyen valores de la variable anchura, como **60** y **600000**. El diseñador de informes reemplaza cada carácter comodín (?) por la gama completa de valores posibles, que incluyen letras y caracteres especiales. Por ejemplo, en el intervalo de **12?0** a **12?4**, el carácter comodín en **12?0** se reemplaza con el valor más bajo del conjunto de caracteres, y el carácter comodín en **12?4** se reemplazan con el valor más alto del conjunto de caracteres. 
+Cuando se especifica un valor natural de segmento en el cuadro de diálogo <strong>Dimensiones</strong>, puede poner un carácter comodín (? o \*) en cualquier posición de un segmento. El diseñador de informes extrae todos los valores de las posiciones definidas sin tener en cuenta los caracteres comodín. Por ejemplo, la definición de filas solo contiene valores naturales de segmentos y los segmentos naturales tienen cuatro caracteres. Si escribe <strong>6???</strong> en una fila, le está pidiendo al diseñador de informes que incluya todas las cuentas con un valor natural de segmento que empiece por 6. Si escribe <strong>6\</strong><em>, se devuelven los mismos resultados, pero los resultados también incluyen valores de la variable anchura, como **60</em>* y <strong>600000</strong>. El diseñador de informes reemplaza cada carácter comodín (?) por la gama completa de valores posibles, que incluyen letras y caracteres especiales. Por ejemplo, en el intervalo de <strong>12?0</strong> a <strong>12?4</strong>, el carácter comodín en <strong>12?0</strong> se reemplaza con el valor más bajo del conjunto de caracteres, y el carácter comodín en <strong>12?4</strong> se reemplazan con el valor más alto del conjunto de caracteres. 
 > [!Note] 
 > Debe evitar usar caracteres comodín para las cuentas de inicio y fin en intervalos. Si usa los caracteres comodín en la cuenta de inicio o la cuenta de fin, puede obtener resultados inesperados.
 
@@ -466,15 +465,15 @@ Un conjunto de valores de dimensión es un grupo con nombre de valores de dimens
 
 ### <a name="update-a-set-of-dimension-values"></a>Actualizar un grupo de valores de dimensión
 
-1.  En el Diseñador de informes, abra la definición de fila, columna u organigrama que desee modificar.
-2.  En el menú **Editar**, haga clic en **Administrar los conjuntos de valores de dimensión**.
-3.  En el cuadro de diálogo **Gestionar conjuntos de valores de dimensión**, en el campo **Dimensión**, seleccione el tipo de dimensión.
-4.  En la lista, seleccione el conjunto de valores de dimensión para actualizarlo, y haga clic en **Modificar**.
-5.  En el cuadro de diálogo **Modificar**, modifique los valores de la fórmula para incluir en el conjunto. 
-> [!Note] 
-> Si agrega nuevas cuentas o dimensiones, asegúrese de modificar los conjuntos existentes de valores de dimensión para incorporar los cambios.
-6.  Haga doble clic en la celda y seleccione el operador apropiado, la cuenta **Desde** y la cuenta **Hasta**.
-7.  Haga clic en **Aceptar** para cerrar el cuadro de diálogo **Modificar** y guardar los cambios.
+1. En el Diseñador de informes, abra la definición de fila, columna u organigrama que desee modificar.
+2. En el menú **Editar**, haga clic en **Administrar los conjuntos de valores de dimensión**.
+3. En el cuadro de diálogo **Gestionar conjuntos de valores de dimensión**, en el campo **Dimensión**, seleccione el tipo de dimensión.
+4. En la lista, seleccione el conjunto de valores de dimensión para actualizarlo, y haga clic en **Modificar**.
+5. En el cuadro de diálogo **Modificar**, modifique los valores de la fórmula para incluir en el conjunto. 
+   > [!Note] 
+   > Si agrega nuevas cuentas o dimensiones, asegúrese de modificar los conjuntos existentes de valores de dimensión para incorporar los cambios.
+6. Haga doble clic en la celda y seleccione el operador apropiado, la cuenta **Desde** y la cuenta **Hasta**.
+7. Haga clic en **Aceptar** para cerrar el cuadro de diálogo **Modificar** y guardar los cambios.
 
 ### <a name="copy-a-dimension-set"></a>Copiar un conjunto de dimensiones
 

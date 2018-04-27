@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7b5c4428c8610a7b2d4cf1a28287ba2bb1f9c2ea
-ms.openlocfilehash: b7cb5f2096f0be5211024fc6ecbfaa61d6c48c9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1fc3ab4f2a4b4604126ff72c570fc9d85e209f3c
 ms.contentlocale: es-es
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-performance-power-bi-content"></a>Contenido de Power BI sobre rendimiento financiero
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!Note]
 > Este paquete de contenido se ha dejado de utilizar como documentado en [Paquetes de contenido de Power BI publicados en PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
@@ -58,7 +58,7 @@ Cada icono viene respaldado por un informe auxiliar. Estos informes contienen ta
 
 | Informe                      | Información que el informe contiene |
 |-----------------------------|--------------------------------------|
-| Análisis de efectivo               | Efectivo por entidad jurídica, efectivo por trimestre, efectivo total y efectivo por cuenta<blockquote>[!NOTE]<br>El efectivo por la información del trimestre no incluye los saldos iniciales en el total del primer trimestre. Muestra el total de nuevas transacciones contabilizadas en cada trimestre.</blockquote> |
+| Análisis de efectivo               | Efectivo por entidad jurídica, efectivo por trimestre, efectivo total y efectivo por cuenta<br><br>**Nota:** El efectivo por la información del trimestre no incluye los saldos iniciales en el total del primer trimestre. Muestra el total de nuevas transacciones contabilizadas en cada trimestre.|
 | Análisis de índice actual      | Índice actual por entidad jurídica, índice actual por trimestre y saldos para activos actuales y pasivos actuales |
 | Análisis de índice rápido        | Índice rápido por entidad jurídica, índice rápido por trimestre y saldos para efectivo, clientes y pasivos actuales |
 | Análisis de coste de bienes vendidos | Coste de bienes vendidos (COGS) por entidad jurídica, COGS este año y el último año por trimestre, COGS para ventas por entidad jurídica, COGS total y COGS para porcentaje de ventas |
@@ -69,7 +69,7 @@ Cada icono viene respaldado por un informe auxiliar. Estos informes contienen ta
 | Análisis de ganancias           | Ganancias reales y de presupuesto antes de intereses e impuestos (IAII) por entidad jurídica, IAII este año y el año pasado, porcentaje de gastos para ingresos, y gastos reales y de presupuesto para ingresos |
 | Análisis de ingresos            | Ingresos totales, ingresos totales reales y de presupuesto por entidad jurídica, ingresos totales este año y el año pasado, varianza del presupuesto de ingresos por entidad jurídica e ingresos totales este y el último período |
 | Análisis de gastos            | Total de gastos, total de gastos reales frente a los de presupuesto por entidad jurídica, total de gastos reales y de presupuesto por trimestre, total de gastos por categoría de cuenta y coeficiente de gastos de explotación |
-| Análisis de ingresos facturados     | El total de clientes, total de clientes por entidad jurídica, total de clientes por trimestre y saldos de cuentas de clientes<blockquote>[!NOTE]<br>La información no incluye los saldos iniciales para las cuentas contables de los clientes. Muestra el total de las transacciones nuevas registradas en Clientes.</blockquote> |
+| Análisis de ingresos facturados     | El total de clientes, total de clientes por entidad jurídica, total de clientes por trimestre y saldos de cuentas de clientes<br><br>**Nota:** La información no incluye los saldos iniciales para las cuentas contables de los clientes. Muestra el total de las transacciones nuevas registradas en Clientes. |
 
 Los gráficos y los iconos en todos estos informes se pueden filtrar y anclar al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 

@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6cd1e3a1f6b5c979a4f60d97cc2203cdcd32bbbe
-ms.openlocfilehash: 6de88b82c9a663bfe6d2756fde6f1a7412a44b1e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
 ms.contentlocale: es-es
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pay-based-on-registrations"></a>Paga basada en los registros
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema explica en detalle cómo se calcula el sueldo en función de los registros del trabajador. Incluye los ejemplos que muestran cómo las diferentes combinaciones de opciones de configuración que están disponibles para el cálculo afectan al resultado. Estas son algunas de las áreas que se cubrirán:
 
@@ -446,7 +446,7 @@ Puede crear una ausencia planificada para los trabajadores en la página **Crear
 El trabajo se basa en una consulta. Por lo tanto, puede crear una ausencia planificada para varios trabajadores, como trabajadores que pertenecen al mismo grupo de cálculos. Si la ausencia planificada es para un único trabajador, el registro se puede especificar desde la página **Asistencia** o la página **Trabajadores con registro de horas** .
 
 - Para especificar un registro de ausencia de la página **Asistencia**, seleccione **Tiempo y asistencia** &gt; **Consultas e informes** &gt; **Asistencia** &gt; **Asistencia** y, a continuación, seleccione **Registro de ausencia**.
-- Para especificar un registro de ausencia de la página ****Trabajadores con registro de horas****, seleccione **Tiempo y asistencia** &gt; **Configuración** &gt; **Trabajadores con registro de horas** y, a continuación, en la pestaña **Tiempo**, en **Asignación de tiempo**, seleccione **Registros de ausencia**.
+- Para especificar un registro de ausencia de la página *<strong><em>Trabajadores con registro de horas</em></strong>*, seleccione <strong>Tiempo y asistencia</strong> &gt; <strong>Configuración</strong> &gt; <strong>Trabajadores con registro de horas</strong> y, a continuación, en la pestaña <strong>Tiempo</strong>, en <strong>Asignación de tiempo</strong>, seleccione <strong>Registros de ausencia</strong>.
 
 Puede usar el informe **Ausencias planificadas** para obtener una visión general de las ausencias planificadas para trabajadores. Para abrir este informe, seleccione **Tiempo y asistencia** &gt; **Consultas e informes** &gt; **Informes de ausencias** &gt; **Ausencias planificadas**.
 

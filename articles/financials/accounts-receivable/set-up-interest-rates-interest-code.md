@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7ae0bfdc157a7e2e5b9f871dae487a6f85e889b9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c0e80bae4716d2b12f515f38d3b641de24680571
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Establecer tipos de interés para un código de interés
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Los códigos de interés contienen la configuración que determina si se carga el interés y cómo se calcula en las cuentas vencidas.
 
@@ -47,17 +46,17 @@ Si utiliza un código de interés para calcular el interés, se creará una nota
 ## <a name="interest-rates-based-on-a-percentage"></a>Tipos de interés basados en porcentajes
 Puede configurar los tipos de interés que calculan un porcentaje concreto.
 
--   El importe del interés se aplica a todas las divisas.
--   Se pueden especificar límites de interés opcionales.
--   **Porcentaje** se selecciona** **en el campo **Calcular el interés en función de** en la página **Configurar códigos de interés**.
+- El importe del interés se aplica a todas las divisas.
+- Se pueden especificar límites de interés opcionales.
+- <strong>Porcentaje</strong> se selecciona** en el campo <strong>**Calcular el interés en función de</strong> en la página <strong>Configurar códigos de interés</strong>.
 
 Por ejemplo, para configurar un código de interés que evalúe el 5 por ciento de interés por cada dos meses que el pago de la factura supere la fecha de vencimiento de la transacción, escriba 2 en el campo **Calcular interés cada** y seleccione **Mes**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Tipos de interés basados en importes
 Puede configurar los tipos de interés que calculan un importe concreto por divisa.
--   Se especifica un importe de interés para cada divisa en el código de interés.
--   Se pueden especificar límites de interés opcionales.
--   **Importe** se selecciona en el campo **Calcular el interés en función de** en la página **Configurar códigos de interés**.
+- Se especifica un importe de interés para cada divisa en el código de interés.
+- Se pueden especificar límites de interés opcionales.
+- <strong>Importe **se selecciona en el campo **Calcular el interés en función de</strong> en la página <strong>Configurar códigos de interés</strong>.
 
 Por ejemplo, para configurar un código de interés que evalúe el interés de 25,00 por cada 20 días que el pago de la factura supere la fecha de vencimiento de la transacción, escriba 20 en el campo **Calcular interés cada** y seleccione **Día**.
 
@@ -84,7 +83,7 @@ Configure la información del intervalo de la siguiente manera:
 | 1,001          | 2                  |
 | 5,001          | 3                  |
 
- 
+
 ## <a name="example-2-interest-by-range--days"></a>Ejemplo 2: interés por intervalo = días
 --------------------------------------------------
 
@@ -105,7 +104,7 @@ Configure la información del intervalo de la siguiente manera:
 | 61             | 15                 |
 | 91             | 20                 |
 
- 
+
 ## <a name="example-3-interest-by-range--months"></a>Ejemplo 3: interés por intervalo = meses
 ----------------------------------------------------
 

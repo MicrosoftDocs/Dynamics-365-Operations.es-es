@@ -18,17 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 09addfd9e4a5c601970b5c8c24a3d39b041e07e6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: be69aff98b1a3a8304461af0f38760988ac28d42
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novedades o cambios en la versión 1611 de Dynamics 365 for Operations (noviembre de 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema describe las características que son nuevas o que se han cambiado en la versión 1611 de Microsoft Dynamics 365 for Operations.
 
@@ -113,6 +112,7 @@ Este tema describe las características que son nuevas o que se han cambiado en 
 </table>
 
 ## <a name="expense-management"></a>Gestión de gastos
+
 | Lo que puede hacer                                                            | Por qué es importante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Reasignar transacciones de tarjeta de crédito de empleados despedidos.                     | A veces, cuando se despide a un empleado, se deshabilita su cuenta de Active Directory Domain Services (AD DS) cuando se importan las transacciones de tarjeta de crédito activo que deben registrarse como gastos. Anteriormente, no se podía asignar un delegado para la entrada de gastos o adjuntar las transacciones de tarjeta de crédito a un informe de gastos. Ahora puede usar la página **Transacciones de tarjeta de crédito** para reasignar el empleado por cualquier transacción de tarjeta de crédito cuyo empleado ha sido despedido. Tras reasignar la transacción de tarjeta de crédito, dicha transacción se puede seleccionar para un informe de gastos y pagar mediante el proceso habitual para el reembolso del informe de gastos. |
@@ -225,6 +225,7 @@ Este tema describe las características que son nuevas o que se han cambiado en 
 </table>
 
 ## <a name="human-capital-management"></a>Gestión del capital humano
+
 | Lo que puede hacer                                                                                | Por qué es importante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Crear un diario de rendimiento.                                                                  | Antes de completar la revisión, normalmente se recopila información sobre las actividades o los eventos que contribuyeron al éxito como empleado durante el período de revisión. Puede añadir una entrada a su diario de rendimiento para documentar dichas actividades y eventos. También puede conectar las actividades y eventos a un objetivo o una evaluación de rendimiento para proporcionar más información al revisor.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -579,6 +580,7 @@ Los países siguientes también requieren la ubicación del minorista. La ubicac
 </table>
 
 ## <a name="planning-and-scheduling"></a>Planificación y programación
+
 | Lo que puede hacer                                                                                                                                                                                                      | Por qué es importante                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Establezca la configuración de pedido predeterminada para ventas y compras, en función de las dimensiones de producto activo en el producto principal. Por lo tanto, puede definir la configuración predeterminada de pedido para la referencia de almacén (SKU) o una SKU parcial. | Puede especificar la configuración predeterminada del pedido que se aplica a una dimensión de producto o una combinación de dimensiones de producto. **Ejemplo** Vende un producto que se denomina camiseta Polo. Este producto está disponible en dos colores: verde y azul. También está disponible en dos tallas: pequeña y mediana. El Color y la Talla son dimensiones de producto activo para la camiseta Polo. Puede bloquear las compras de todas las camisetas verdes Polo, independientemente de su talla. |
@@ -624,6 +626,7 @@ Los países siguientes también requieren la ubicación del minorista. La ubicac
 </table>
 
 ## <a name="project-management-and-accounting"></a>Gestión de proyectos y contabilidad
+
 | Lo que puede hacer                                                                                                           | Por qué es importante                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Use la última selección al registrar propuestas de factura en un lote.                                                            | Los contables de proyecto pueden configurar un trabajo por lotes para recoger automáticamente las propuestas de factura para registrar, si dichas ofertas cumplen los criterios que se especifican en el trabajo por lotes. Esta función mejora la automatización del registro de la factura, ya que el trabajo por lotes se puede ejecutar continuamente y recoge automáticamente las propuestas para el registro. |
