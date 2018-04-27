@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 0ec45fcf7cebf530b3a5889a857214b97b3fffbb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f4dc2c15d35d93d1563c866b20ad7f2bbb5c8457
 ms.contentlocale: es-es
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="transportation-management-overview"></a>Visión general de la administración de transporte
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema ofrece una visión general de la funcionalidad de Administración de transporte en Microsoft Dynamics 365 for Finance and Operations.
 
@@ -52,12 +51,12 @@ La Administración de transporte le permite usar el transporte de su empresa e i
 <td>Use la gestión de transporte para el transporte de entrada y/o salida.</td>
 </tr>
 <tr class="even">
-<td>La propia flota de la empresa está disponible para entrega o recogida, y los gastos de entrega se aplican a los clientes.</td>
+<td>La propia flota de la empresa está disponible para entrega o recogida, y los gastos de entrega se aplican a los clientes.</td>
 <td>Para los procesos de salida, puede usar la Administración de transporte para determinar los gastos de transporte y pasarlos a los clientes. Sin embargo, no es necesario el proceso de conciliación de facturas de transportista.</td>
 </tr>
 <tr class="odd">
 <td>La propia flota de la empresa está disponible para entrega o recogida, pero los gastos de entrega no se aplican a los clientes, ya que los precios de productos incluyen el transporte.</td>
-<td>No se requiere gran parte la funcionalidad de la gestión de transporte. Sin embargo, puede usar la Administración de transporte para determinar los índices de transporte y ajustar el precio de ventas en consecuencia.</td>
+<td>No se requiere gran parte la funcionalidad de la gestión de transporte. Sin embargo, puede usar la Administración de transporte para determinar los índices de transporte y ajustar el precio de ventas en consecuencia.</td>
 </tr>
 <tr class="even">
 <td>Otra entidad jurídica de la misma empresa proporciona el servicio de logística.</td>

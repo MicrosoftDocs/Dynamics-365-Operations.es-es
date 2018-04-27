@@ -3,12 +3,12 @@ title: "Página principal de la gestión de costes"
 description: "La gestión de costes le permite gestionar la evaluación y la contabilidad de materias primas, productos semiterminados, productos terminados y de activos en curso."
 author: AndersGirke
 manager: AnnBe
-ms.date: 02/14/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>Página principal de la gestión de costes
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 La [gestión de costes](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) le permite trabajar con la evaluación y la contabilidad de materias primas, productos semiterminados, productos terminados y de activos en curso. Es el proceso de definir, gestionar e informar de la [contabilidad de inventario](cost-object.md) y la [contabilidad de fabricación](bom-calculations.md).
 

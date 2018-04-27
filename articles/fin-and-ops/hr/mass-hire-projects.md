@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mass-hire-projects"></a>Proyectos de contratación masiva
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Los proyectos de contratación masiva permiten a los especialistas de recursos humanos crear varios puestos y contratar de forma eficaz a varios trabajadores para ellos.
 
@@ -94,7 +93,7 @@ En la página **Proyecto de contratación masiva**, haga clic en **Abrir proyect
 </tbody>
 </table>
 
- 
+
 
 
 

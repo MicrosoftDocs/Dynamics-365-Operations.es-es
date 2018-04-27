@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="schedule-a-production-order"></a>Programar un pedido de producción
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo programar un pedido de producción. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este es el tercer procedimiento de siete que explica el ciclo de vida del pedido de producción.
 

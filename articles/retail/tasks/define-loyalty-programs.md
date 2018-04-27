@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-programs"></a>Definir programas de fidelización
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo configurar un programa de fidelización con dos niveles de fidelización. Este procedimiento usa la empresa de datos de demostración USRT.
 

@@ -3,7 +3,7 @@
 # [Introducción](talent-get-started.md)
 ## [Requisitos del sistema y directiva de actualización](talent-versions-update-policy.md)
 ## [Aprovisionar Microsoft Dynamics 365 for Talent](provisioning-talent.md)
-## [Quitar un entorno de Talent](remove-test-environment.md)
+## [Quitar un entorno de Talent](remove-talent-environment.md)
 ## [Aprovisionar aplicaciones modulares de Microsoft Dynamics 365 for Talent](modular-app-tech-faq.md)
 ## [Ampliar la funcionalidad de Talent](extend-talent-functionality.md)
 
@@ -12,7 +12,8 @@
 ## [Crear un departamento y asociarlo a la jerarquía de departamento](create-department-add-department-hierarchy.md)
 ## [Configurar parámetros de recursos humanos en entidades jurídicas](set-up-hr-parameters-across-legal-entities.md)
 ## [Configurar parámetros de recursos humanos específicos de la empresa](set-up-company-specific-hr-parameters.md)
-## [Preguntas frecuentes sobre acciones del personal](personnel-actions-faq.md)
+## [Preguntas más frecuentes sobre acciones del personal](personnel-actions-faq.md)
+## [Formalizar procesos empresariales](formalize-business-processes.md)
 ## [Utilizar el flujo de trabajo para administrar la información sobre los empleados](workflow-manage-employee-information.md)
 ## [Visión general de bajas y ausencias](leave-absence-overview.md)
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Sincronizar encabezados y líneas de factura de ventas directamente desde Finance and Operations en Sales
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar encabezados y líneas de factura de ventas directamente de Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Sales.
 

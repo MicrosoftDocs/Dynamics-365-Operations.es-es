@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="install-the-retail-pos-layout-designer"></a>Instale el diseñador de estructura del PDV (punto de venta) al por menor
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Puede usar el diseñador de un solo clic para diseñar diferentes estructuras de PDV moderno de venta al por menor (MPOS) y PDV en la Nube, tanto en modo horizontal como vertical, para tiendas, registros, cajeros y directores.
 

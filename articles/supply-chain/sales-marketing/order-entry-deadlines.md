@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-entry-deadlines"></a>Fechas límite del pedido
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se proporciona información acerca de los plazos de la entrada de pedidos. Una fecha límite de entrada de pedido es una hora límite que determina si se trata un pedido de cliente (y se completa) como si se hubiera recibido en el día actual o al día siguiente.
 

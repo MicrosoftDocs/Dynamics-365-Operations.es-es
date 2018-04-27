@@ -29,8 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>Configurar análisis de RFM
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tema explica cómo configurar un análisis de novedad, frecuencia y monetario (RFM) de los clientes.
 
@@ -60,25 +59,25 @@ Si su organización usa una calificación global de la puntuación, las puntuaci
     - Si cada sección de la puntuación de RFM debe contener un recuento igual de clientes, seleccione la casilla **Distribución equitativa**. 
     - Seleccione la casilla **Agregar puntuación** para agregar las tres puntuaciones. Por ejemplo, esto daría al cliente una puntuación de RFM de 13 en lugar de 535. 
     - Selecione la casilla **Guardar historial** para requerir que el sistema guarde los datos estadísticos de los clientes para poder utilizarlos para calcular la puntuación de RFM.
-  
+
 5.  En la ficha desplegable **Recencia**, realice lo siguiente: 
     - En el campo **Divisiones**, especifique el número de divisiones o grupos, que se usarán para calcular la puntuación de recencia de los clientes. Por ejemplo, si tiene 100 clientes, una división de 5 significa que hay 20 clientes para cada cuenta. Los 20 clientes que han realizado compras más recientemente tienen una puntuación de recencia de 5. Los siguientes 20 clientes tienen una puntuación de recencia de 4, y así sucesivamente. Si tiene 50 clientes, 10 clientes tienen una puntuación de novedad de 5, 10 tienen una puntuación de novedad de 4, y así sucesivamente. 
     - En el campo **Prioridad**, seleccione qué peso dar al parámetro de recencia en relación con los otros parámetros cuando se calcula la puntuación de RFM para un cliente. Por ejemplo, puede configurar más valor de la puntuación de novedad que para la puntuación monetaria. 
     - En el campo **Multiplicador**, especifique el valor por el que multiplicar la puntuación de recencia. Si no escribe ningún valor, la puntuación no se multiplica. 
     - En el campo **Periodo**, seleccione el período de tiempo durante en el que se calcula la puntuación de recencia. Por ejemplo, por semana o por mes.
-   
+
 6.  En la ficha desplegable **Frecuencia**, realice los siguiente: 
     - En el campo **Divisiones**, especifique el número de divisiones o grupos, que se usarán para calcular la puntuación de frecuencia de los clientes. 
     - En el campo **Prioridad**, seleccione qué peso dar al parámetro de frecuencia en relación con los otros parámetros cuando se calcula la puntuación de RFM para un cliente. 
     - En el campo **Multiplicador**, especifique el valor por el que multiplicar la puntuación de frecuencia. Si no escribe ningún valor, la puntuación no se multiplica.
-   
+
 7.  En la ficha desplegable **Monetaria**, realice los siguiente: 
     - En el campo **Divisiones**, especifique el número de divisiones o grupos, que se usarán para calcular la puntuación monetaria de los clientes. 
     - En el campo **Prioridad**, seleccione qué peso dar al parámetro monetario en relación con los otros parámetros cuando se calcula la puntuación de RFM para un cliente. 
     - En el campo **Multiplicador**, especifique el valor por el que multiplicar la puntuación monetaria. Si no escribe ningún valor, la puntuación no se multiplica. 
     - En el campo **Bruto/neto**, seleccione si la puntuación monetaria del cliente debe calcularse usando el importe bruto o neto de la factura. 
     - Si los importes de devolución de un cliente deben restarse de un cálculo total de la factura del cliente, seleccione la casilla **Restar devoluciones**. 
- 
+
 ## <a name="view-a-customers-rfm-score"></a>Ver el índice de RFM de un cliente
 Use este procedimiento para ver el índice de RFM de un cliente. 
 

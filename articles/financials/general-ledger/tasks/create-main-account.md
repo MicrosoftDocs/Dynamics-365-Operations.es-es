@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-main-account"></a>Crear cuenta principal
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guía de tareas describe los pasos de la adición de una cuenta principal a un plan contable existente. Esta grabación usa la empresa de demostración USMF.  
 

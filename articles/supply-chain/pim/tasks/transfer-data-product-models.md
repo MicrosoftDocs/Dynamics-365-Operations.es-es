@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-data-for-product-models"></a>Transferir datos para modelos de producto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 La exportación de datos para un modelo de configuración de productos requiere que tenga el menos un modelo de producto disponible. Este procedimiento usa el modelo Altavoz superior en la empresa de demostración USMF para mostrarle cómo exportar datos para este modelo.
 

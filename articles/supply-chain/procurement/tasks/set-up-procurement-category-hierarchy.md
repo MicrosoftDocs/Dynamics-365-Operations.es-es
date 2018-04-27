@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Configurar una jerarquía de categorías de compras
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear nuevos nodos en una jerarquía de categorías de compras y cómo configurar una categoría de compras para usarla en un proceso de compra. Estas tareas las realizará normalmente el director de compras. Para poder comenzar este procedimiento, debe haber una jerarquía de categorías de tipo Adquisición. Si usa una empresa de datos de demostración, puede ejecutar este procedimiento en la empresa USMF.
 

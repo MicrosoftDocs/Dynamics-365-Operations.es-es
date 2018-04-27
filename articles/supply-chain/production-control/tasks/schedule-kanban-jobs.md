@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="schedule-kanban-jobs"></a>Programación de trabajos kanban
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento se centra en programar trabajos kanban de proceso para una celda de trabajo concreta. El procedimiento de preparación de un trabajo kanban de proceso cuando los materiales no están disponibles es requisito para poder crear este procedimiento. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Esta tarea está pensada para el supervisor de planta y el planificador de producción que trabajan con kanbans.
 

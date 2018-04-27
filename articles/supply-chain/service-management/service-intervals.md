@@ -28,8 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="service-intervals"></a>Intervalos de servicio
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 El intervalo de contrato de servicio indica la frecuencia con la que se crean líneas de pedido de servicio para líneas de contrato de servicio cuando se crean pedidos de servicio automáticamente.
 

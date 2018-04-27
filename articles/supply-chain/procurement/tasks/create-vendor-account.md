@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-vendor-account"></a>Crear una cuenta de proveedor
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear una cuenta de proveedor y agregar una dirección e información de contacto. El procedimiento no muestra cómo rellenar todos los campos para realizar compras o de uso financiero. Para obtener más información acerca de estos campos, lea las descripciones de los campos. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Las cuentas de proveedor las crean normalmente los profesionales de compras o el personal de cuentas de cliente.
 

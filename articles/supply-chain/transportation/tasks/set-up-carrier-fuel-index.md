@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-carrier-fuel-index"></a>Configuración de un índice de combustible de transportista
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guía muestra cómo crear una región de índice de combustible, un índice de combustible y un índice de combustible de transportista. La región de índice de combustible especifica a qué región se debe aplicar el índice de combustible, y el índice de combustible especifica un precio por combustible para un período de tiempo concreto. Para reflejar el cambio de precios de combustible en el tiempo, puede asociar varios índices de combustible con un transportista.  Estas tareas las realiza normalmente el coordinador de transporte. Puede utilizar este procedimiento con la empresa de datos de demostración USMF o utilizar sus propios datos.
 

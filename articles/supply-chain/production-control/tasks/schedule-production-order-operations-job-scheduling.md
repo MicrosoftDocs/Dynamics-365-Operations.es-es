@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>Programar un pedido de producción con programación de operaciones y trabajo
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento se centra en la programación de un pedido de producción con programación de operaciones y programación de trabajos. No se crea ningún trabajo con la programación de tareas mientras que los trabajos se crean con programación de operaciones. La empresa de datos de prueba utilizada para crear esta tarea es USMF. Este procedimiento está pensado para el director de producción, el planificador de producción o el supervisor de planta que trabaja en un entorno de fabricación discreto.
 

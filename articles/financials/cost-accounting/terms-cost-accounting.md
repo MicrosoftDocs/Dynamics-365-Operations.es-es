@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-accounting-terminology"></a>Terminología de contabilidad de costes
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema define los términos clave que se utilizan en la Contabilidad de costes.
 
@@ -150,14 +149,14 @@ Las bases de asignación de fórmulas le permiten definir fórmulas avanzadas pa
 |  + |  Adición |
 |  – |  Resta |
 | *  | Multiplicación  |
-    
+
 No se admiten las instrucciones tradicionales SI. Sin embargo, puede crear instrucciones y validarlas si son verdaderas.
 
 |  **Validación del informe** | **Resultado**  |
 |---|---|
 |  a > b| VERDADERO  |
 |  a > b |  FALSO |
-    
+
 **Costes generales**
 
 Los costes generales hacen referencia a los gastos en curso de operar un negocio. Existen costes que no pueden vincularse directamente a actividades empresariales específicas. Algunos ejemplos de costes generales son:

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="ledger-journal-types"></a>Tipos de diarios contables
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se describen los tipos de diarios que se pueden configurar para los diarios financieros. Use la página **Nombres de diarios** para configurar diarios que puede usar en todo Microsoft Dynamics 365 for Finance and Operations.
 

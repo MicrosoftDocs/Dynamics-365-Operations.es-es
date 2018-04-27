@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Crear un contrato de crédito bancario para un crédito documentario
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarea le lleva por la creación de un contrato de instalaciones bancarias para procesar un crédito documentario. Es conveniente configurar los créditos bancarios y los perfiles de contabilización antes de realizar esta tarea.  Esta tarea usa la empresa de demostración "USMF".  
 

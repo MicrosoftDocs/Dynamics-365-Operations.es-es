@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Bases de asignación 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Una base de asignación es la base sobre la que la contabilidad de costes asigna costes generales. Una base de asignación puede ser una cantidad, como las horas de maquinaria que se usan, horas de kilovatio (kWh) consumidas o los metros cuadrado que se ocupan. Las bases de asignación se usan principalmente para asignar costes generales al inventario que va a producir. Por ejemplo, un departamento de TI asigna los gastos según el número de equipos que utilice cada departamento.
 
@@ -424,9 +424,11 @@ A continuación ofrecen más detalles de la fórmula para CC003 (TI):
 
 A continuación se muestra un ejemplo de una regla de distribución de costes cuando la base de asignación la fórmula de electricidad corregida se asigna a la base de asignación que contiene.
 
-| Objeto de coste |  Descripción  | Magnitud | Factor de asignación                |
-|-------------|----|-----------|----------------------------------|
-| CC001       | RR. HH. | 1,837.50  | (1 837,50 ÷ 18 162,50) × Importe  |
-| CC002       | FI | 3,075.00  | (3075,00 ÷ 18162,50) × Importe  |
-| CC003       | TI | 13,250.00 | (13 250,00 ÷ 18 162,50) × Importe |
+
+| Objeto de coste | Descripción | Magnitud |        Factor de asignación         |
+|-------------|-------------|-----------|----------------------------------|
+|    CC001    |     RR. HH.      | 1,837.50  | (1 837,50 ÷ 18 162,50) × Importe  |
+|    CC002    |     FI      | 3,075.00  | (3075,00 ÷ 18162,50) × Importe  |
+|    CC003    |     TI      | 13,250.00 | (13 250,00 ÷ 18 162,50) × Importe |
+
 

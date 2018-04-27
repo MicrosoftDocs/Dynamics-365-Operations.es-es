@@ -27,8 +27,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Configuración electrónica de informes para proporcionar datos a Power BI
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema explica cómo puede usar su configuración de informes electrónicos (ER) para organizar la transferencia de datos de la instancia de Finance and Operations a los servicios de Power BI. Como ejemplo, este tema utiliza transacciones Intrastat como datos empresariales que se deben transferir. La vista de mapa de Power BI usa estos datos de transacción de Intrastat para mostrar una visión para el análisis de actividades de importación/exportación de la empresa en el informe de Power BI.
 
@@ -118,9 +117,9 @@ Haga clic en el botón de **Ajustes** para el nuevo registro de destino. A conti
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Crear un informe de Power BI mediante el conjunto de datos nuevos
 1. Haga clic en el conjunto de datos de Power BI **Detalles de importación y exportación** que ha creado. 
 2. Configure la vista. Por ejemplo, seleccione la vista **Mapa lleno**, y configúrelo de la manera siguiente:
- -   Asignar el campo de conjunto de datos **CountryOrigin** al campo **Ubicación** de la vista del mapa.
- -   Asignar el campo de conjunto de datos **Cantidad** al campo **Saturación de color** de la vista del mapa.
- -   Agregar los campos de conjunto de datos de **Actividad** y **Año** a la recopilación de campos de **Filtros** de la vista de mapa.
+   -   Asignar el campo de conjunto de datos **CountryOrigin** al campo **Ubicación** de la vista del mapa.
+   -   Asignar el campo de conjunto de datos **Cantidad** al campo **Saturación de color** de la vista del mapa.
+   -   Agregar los campos de conjunto de datos de **Actividad** y **Año** a la recopilación de campos de **Filtros** de la vista de mapa.
 
 3. Guarde el informe de Power BI como **Informe de detalles de importación y exportación**. [![Informe de detalles de importación y exportación](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Tenga en cuenta que el mapa muestra los países/regiones mencionados en el archivo de Excel (Austria y Suiza en este ejemplo). Estos países/regiones se colorean para mostrar la proporción de importes facturados para cada uno. 
 4. Actualizar la lista de transacciones Intrastat. Se ha añadido la transacción de exportación que se ha originado desde Italia. [![Lista de transacciones Intrastat](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) 

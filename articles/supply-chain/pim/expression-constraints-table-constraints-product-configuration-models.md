@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3206e53c4f2659c6d9b9be64b01ac28cdd17bc88
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0235cf112b59ee86f77d26044e47eb9bff8f67db
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Restricciones de expresión y tabla en modelos de configuración de productos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se describe el uso de las restricciones de expresión y las restricciones de tabla. Las restricciones controlan los valores de atributo que puede seleccionar al configurar los productos para un pedido de ventas, un presupuesto de ventas, un pedido de compra o un pedido de producción. Puede usar las restricciones de expresión o las restricciones de tablas, en función de cómo prefiere crear las restricciones. 
 
@@ -204,23 +203,24 @@ En las tablas siguientes se enumeran los operadores y la notación de infijo que
 
 Los ejemplos en la siguiente tabla muestran cómo escribir una notación de infijo.
 
-| Notación de infijo    | Descripción                                                                                   |
+
+|  Notación de infijo   |                                          Descripción                                          |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| x + y + z         | Adición                                                                                      |
-| x \* y \* z       | Multiplicación                                                                                |
-| x - y             | La resta binaria se traduce de la misma forma que la adición binaria donde hay un segundo negativo. |
-| x ^ y ^ z         | Exponenciación con asociación a la derecha                                                   |
-| !x                | No booleano                                                                                   |
-| x -: y            | Implicación booleano                                                                           |
-| x | y | z         | Booleano o                                                                                    |
-| x & y & z         | Booleano y                                                                                   |
-| x == y == z       | Igualdad                                                                                      |
-| x != y != z       | Distinto                                                                                      |
-| x &lt; y &lt; z   | Menor que                                                                                     |
-| x &gt; y &gt; z   | Mayor que                                                                                  |
-| x &lt;= y &lt;= z | Inferior a o igual a                                                                         |
-| x &gt;= y &gt;= z | Superior a o igual a                                                                      |
-| (x)               | El paréntesis anula la prioridad predeterminada.                                                      |
+|     x + y + z     |                                           Adición                                            |
+|    x \* y \* z    |                                        Multiplicación                                         |
+|       x - y       | La resta binaria se traduce de la misma forma que la adición binaria donde hay un segundo negativo. |
+|     x ^ y ^ z     |                          Exponenciación con asociación a la derecha                          |
+|        !x         |                                          No booleano                                          |
+|      x -: y       |                                      Implicación booleano                                      |
+|         x         |                                               y                                               |
+|     x & y & z     |                                          Booleano y                                          |
+|    x == y == z    |                                           Igualdad                                            |
+|    x != y != z    |                                           Distinto                                            |
+|  x &lt; y &lt; z  |                                           Menor que                                           |
+|  x &gt; y &gt; z  |                                         Mayor que                                          |
+| x &lt;= y &lt;= z |                                     Inferior a o igual a                                     |
+| x &gt;= y &gt;= z |                                   Superior a o igual a                                    |
+|        (x)        |                           El paréntesis anula la prioridad predeterminada.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>¿Por qué las restricciones de expresión no se validan correctamente?
 No se pueden usar palabras clave reservadas como nombres del solucionador de atributos, componentes o subcomponentes en un modelo de configuración de productos. A continuación se muestra una lista de palabras clave reservadas que no se pueden usar:

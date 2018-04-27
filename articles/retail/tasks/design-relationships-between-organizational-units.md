@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-the-relationships-between-organizational-units"></a>Diseñar las relaciones entre unidades organizativas
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento le guía por el diseño de la relación entre las unidades organizativas. Debe crear un nuevo propósito de la organización antes de definir la relación o puede usar el propósito existente de la organización. La empresa de datos de prueba utilizada para completar este procedimiento es USRT. Esta tarea está pensada para el rol de administrador.
 

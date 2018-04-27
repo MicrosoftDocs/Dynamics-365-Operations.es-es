@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cash-discount-is-applied-in-the-invoice-parameter"></a>Parámetro El descuento por pronto pago se aplica a la factura
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se describe el descuento por pronto pago aplicado en el parámetro de factura para España.
 

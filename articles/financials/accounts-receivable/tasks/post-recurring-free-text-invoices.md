@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Generación y registro de facturas de servicios
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Las facturas recurrentes se utilizan para facturar a los clientes el mismo importe con regularidad. Esta grabación usa la empresa de demostración USMF. El registro se va a utilizar para la persona responsable de gestionar y de procesar facturas de cuentas por cobrar.
 

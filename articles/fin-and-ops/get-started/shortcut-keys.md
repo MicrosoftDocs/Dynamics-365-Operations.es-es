@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Los siguientes métodos abreviados de teclado se aplican en todo Dynamics 365 for Finance and Operations. 
 
@@ -39,6 +38,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 
 
 ## <a name="action-shortcuts"></a>Métodos abreviados de acción
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | **Acción**                                    | **Presione**                        |
@@ -55,6 +55,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Ver los métodos abreviados disponibles actualmente                | Alt+Mayús+K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Métodos abreviados de selección de fecha
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Acción**                        | **Presione**                                 |
@@ -68,6 +69,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Escoger "Nunca" (o la fecha máxima)          | N                                         |
 
 ## <a name="factbox-shortcuts"></a>Métodos abreviados de cuadro informativo
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | **Acción**                                                                  | **Presione**                                 |
@@ -79,6 +81,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Contraer el cuadro informativo actual                                                    | Alt+0                                     |
 
 ## <a name="filtering-shortcuts"></a>Métodos abreviados de filtrado
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | **Para realizar esta tarea**                     | **Presionar**                |
@@ -89,6 +92,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Abrir el sistema de orden/filtrado avanzado                                      | Ctrl+Mayús+F3            | 
 
 ## <a name="form-shortcuts"></a>Métodos abreviado de formulario
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | **Para realizar esta tarea**                                      | **Presionar**         |
@@ -110,6 +114,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Cerrar el formulario ignorando cualquier cambio no guardado       | Alt+Mayús+Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Métodos abreviados de navegación en formularios
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | **Acción**                                      | **Presione**                                    |
@@ -128,6 +133,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Cambiar a la vista de líneas                                | Ctrl+Mayús+L                                 |
 
 ## <a name="grid-shortcuts"></a>Métodos abreviado de cuadrícula
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | **Acción**                                                                                                         | **Presione**                       |
@@ -148,6 +154,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Abra la cuadrícula de filtro para la columna actual (con el enfoque en la fila de encabezado)                                              | Intro                           |
 
 ## <a name="input-control-shortcuts"></a>Métodos abreviados de control de entrada de datos
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | **Acción**                                                               | **Presione**                     |
@@ -163,6 +170,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Cambiar el enfoque entre el área de texto y la barra de herramientas en un control del editor HTML | F6                            |
 
 ## <a name="messaging-shortcuts"></a>Métodos abreviados en mensajes
+
 |                          |               |
 |--------------------------|---------------|
 | **Acción**           | **Presione**     |
@@ -170,6 +178,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Ir a la barra de mensajes    | Ctrl+F7       |
 
 ## <a name="navigation-shortcuts"></a>Métodos abreviados de navegación
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | **Acción**                                                                | **Presione**                  |
@@ -191,6 +200,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Ir al panel del cuadro informativo (puede incluirse la opción de abrirlo)                       | Alt+M,B o Ctrl+F2         |
 
 ## <a name="personalization-shortcuts"></a>Personalizar los métodos abreviados
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | **Acción**                                                                                                         | **Presione**                           |
@@ -219,6 +229,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Salir del modo de personalización (cuando se está en modo de personalización)                                                               | Esc                                 |
 
 ## <a name="segmented-entry-shortcuts"></a>Métodos abreviados de entrada segmentados
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | **Acción**                                                                                                          | **Presione**                        |

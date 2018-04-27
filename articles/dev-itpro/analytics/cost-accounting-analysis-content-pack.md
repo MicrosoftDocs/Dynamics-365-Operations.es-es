@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="cost-accounting-analysis-power-bi-content"></a>Contenido en Power BI sobre el análisis de la contabilidad de costes
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema describe lo que se incluye en el contenido de **análisis de contabilidad de costes** en Microsoft Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
@@ -111,18 +111,20 @@ Se usará la tabla siguiente para mostrar cómo se usan las medidas agregadas cl
 
 Las dimensiones clave siguientes se utilizan como filtros para cortar las medidas globales para lograr mayor granularidad y para proporcionar una visión analítica más profunda.
 
-| Entidad                             | Ejemplos de atributos                                                                                               |
+
+|               Entidad               |                                                Ejemplos de atributos                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Libros mayores de contabilidad de costes            | Libro mayor de contabilidad de costes                                                                                               |
-| Unidades de control de costes                 | Nombre de unidad de control de costes                                                                                               |
-| Dimensiones de elemento de coste            | Nombre de la dimensión de artículo de coste, Nombre de miembro de dimensión de artículo de coste, Descripción de miembro de dimensión de artículo de coste          |
-| Dimensiones de objeto de coste             | Nombre de la dimensión de objeto de coste, Nombre de miembro de dimensión de objeto de coste, Descripción de miembro de dimensión de objeto de coste              |
-| Dimensiones estadísticas             | Nombre de la dimensión estadística, Nombre de miembro de dimensión estadística, Descripción de miembro de dimensión estadística              |
-| Jerarquías de dimensiones de objeto de coste  | Nombre de la jerarquía de dimensiones de objeto de coste, nivel de la jerarquía de dimensiones de objeto de coste, árbol de la jerarquía de dimensiones de objeto de coste    |
+|      Libros mayores de contabilidad de costes       |                                                Libro mayor de contabilidad de costes                                                |
+|         Unidades de control de costes         |                                                Nombre de unidad de control de costes                                                |
+|      Dimensiones de elemento de coste       |     Nombre de la dimensión de artículo de coste, Nombre de miembro de dimensión de artículo de coste, Descripción de miembro de dimensión de artículo de coste      |
+|       Dimensiones de objeto de coste       |       Nombre de la dimensión de objeto de coste, Nombre de miembro de dimensión de objeto de coste, Descripción de miembro de dimensión de objeto de coste        |
+|       Dimensiones estadísticas       |       Nombre de la dimensión estadística, Nombre de miembro de dimensión estadística, Descripción de miembro de dimensión estadística        |
+| Jerarquías de dimensiones de objeto de coste  |  Nombre de la jerarquía de dimensiones de objeto de coste, nivel de la jerarquía de dimensiones de objeto de coste, árbol de la jerarquía de dimensiones de objeto de coste   |
 | Jerarquías de dimensión de elemento de coste | Nombre de la jerarquía de dimensiones de artículo de coste, nivel de la jerarquía de dimensiones de artículo de coste, árbol de la jerarquía de dimensiones de artículo de coste |
-| Jerarquías de dimensión estadística  | Nombre de la jerarquía de dimensiones estadísticas, nivel de la jerarquía de dimensiones estadísticas, árbol de la jerarquía de dimensiones estadísticas    |
-| Versiones de transacción               | Nombre de versión                                                                                                         |
-| Calendarios fiscales                   | Calendario, descripción del calendario                                                                                       |
-| Ejercicios                       | Año natural                                                                                                        |
-| Períodos fiscales                     | Período del año natural                                                                                                 |
+| Jerarquías de dimensión estadística  |  Nombre de la jerarquía de dimensiones estadísticas, nivel de la jerarquía de dimensiones estadísticas, árbol de la jerarquía de dimensiones estadísticas   |
+|        Versiones de transacción        |                                                     Nombre de versión                                                     |
+|          Calendarios fiscales          |                                            Calendario, descripción del calendario                                            |
+|            Ejercicios            |                                                    Año natural                                                     |
+|           Períodos fiscales           |                                                 Período del año natural                                                 |
+
 

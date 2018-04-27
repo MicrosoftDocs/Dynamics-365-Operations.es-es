@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="pos-improvements-for-serialized-products"></a>Mejoras en los PDV para productos serializados
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Información general 
 Según la configuración de Retail headquarters, los productos se pueden clasificar como serializados o no serializados. Cuando se serializan los productos, cada artículo se puede asignar un número único que le permite hacer un seguimiento de las garantías, los artículos y confirmar la propiedad. Aunque la capacidad para proporcionar los números de serie de los productos existía en los PDV modernos o en la nube, se han agregado algunas mejoras para que los cajeros puedan ahorrar tiempo y ser más productivos.  

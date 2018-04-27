@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="create-ledger-accrual-transactions"></a>Crear transacciones de provisiones de contabilidad
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guía de tareas describe los pasos de la generación de transacciones de acumulaciones contables basadas en los esquemas de acumulación
 

@@ -28,9 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="approve-and-confirm-purchase-orders"></a>confirmarAprobar y confirmar pedidos de compra.
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Este artículo describe los estados por los que pasa un pedido de compra una vez se ha creado y el efecto de habilitar la administración de cambios en los pedidos de compra.
 

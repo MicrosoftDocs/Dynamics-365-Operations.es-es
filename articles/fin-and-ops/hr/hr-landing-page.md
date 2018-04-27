@@ -26,7 +26,7 @@ ms.lasthandoff: 02/15/2018
 
 # <a name="welcome-to-human-resources"></a>Bienvenido a Recursos Humanos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Recursos humanos simplifica muchas tareas rutinarias de mantenimiento de registros y automatiza un gran número de procesos relacionados con la dotación de personal para la organización. También proporciona un marco de trabajo para que el personal de recursos humanos administre áreas de supervisión. Estas áreas incluyen la contratación y retención de empleados, la administración de prestaciones, la formación, las revisiones de rendimiento y la gestión de cambios.
 

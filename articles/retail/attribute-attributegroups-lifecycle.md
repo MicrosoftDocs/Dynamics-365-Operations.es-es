@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a>Atributos, grupos de atributos y sus asociaciones con diversas entidades minoristas en Finance and Operations
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 *Atributos* proporciona una forma de describir adicionalmente un producto y sus características a través de campos definidos por el usuario (como **Tamaño de la memoria**, **Capacidad del disco duro**, **Cumple con Energy Star**, etc.). En Microsoft Dynamics 365 for Finance and Operations, los atributos se pueden asociar con las distintas entidades de Retail, como categorías de productos y canales de venta minorista, y se pueden definir valores predeterminados. A continuación, los productos heredan los atributos y los valores predeterminados para dichos atributos cuando se asocian a las categorías de productos o canales de venta minorista. Los valores predeterminados se pueden anular en el nivel de producto individual, en el nivel del canal de venta minorista o en un catálogo de venta minorista.
  
@@ -227,13 +227,13 @@ Los valores predeterminados de atributos se pueden anular para productos individ
 5. En la pestaña desplegable **Productos**, seleccione el producto requerido y, a continuación, seleccione **Atributos** encima de la cuadrícula del producto.
 6. En las pestañas desplegables siguientes, actualice los valores de los atributos necesarios:
 
-    - Medios del producto compartido
-    - Atributos del producto compartido
-    - Canal de medios
-    - Atributos de producto del canal
+   - Medios del producto compartido
+   - Atributos del producto compartido
+   - Canal de medios
+   - Atributos de producto del canal
 
-    > [!NOTE]
-    > Si se crean medios del producto compartido y atributos del producto compartido en Finance and Operations, se aplican a todos los productos al por menor.
+     > [!NOTE]
+     > Si se crean medios del producto compartido y atributos del producto compartido en Finance and Operations, se aplican a todos los productos al por menor.
 
 ![Grupos de atributos del producto de catálogo](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ Los valores predeterminados de atributos se pueden anular para productos individ
 
 5. En las pestañas desplegables siguientes, actualice los valores de los atributos necesarios:
 
-    - Medios del producto compartido
-    - Atributos del producto compartido
-    - Canal de medios
-    - Atributos de producto del canal
+   - Medios del producto compartido
+   - Atributos del producto compartido
+   - Canal de medios
+   - Atributos de producto del canal
 
-    > [!NOTE]
-    > Si se crean medios del producto compartido y atributos del producto compartido en Finance and Operations, se aplican a todos los productos al por menor.
+     > [!NOTE]
+     > Si se crean medios del producto compartido y atributos del producto compartido en Finance and Operations, se aplican a todos los productos al por menor.
 

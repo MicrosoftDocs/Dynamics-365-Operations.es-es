@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="monitor-sales-and-margin-performance"></a>Supervisar las ventas y el rendimiento de margen
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Puede supervisar ventas y rendimiento de margen en tiempo real con Microsoft Dynamics 365 for Retail.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-design-financial-reports"></a>Ver y diseñar informes financieros
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se proporcionan ejercicios que le enseñarán a visualizar y crear informes financieros para Microsoft Dynamics 365 for Finance and Operations. El informe financiero consta de una experiencia de visualización en Finance and Operationsy un diseñador de informes con un solo clic que le permite crear y editar informes financieros.  
 

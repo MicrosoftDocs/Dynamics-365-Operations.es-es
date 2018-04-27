@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-screen-layouts-for-pos"></a>Configurar diseños de pantalla para el PDV
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tema proporciona información sobre los diseños de pantalla para las experiencias con Microsoft Dynamics 365 for Retail point of sale (POS).
 

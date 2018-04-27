@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>Página principal de planificación maestra
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Básicamente, la planificación maestra permite a las empresas determinar y establecer la necesidad futura de materias primas y la capacidad para cumplir los objetivos de la empresa. La planificación maestra evalúa lo siguiente: 
 
@@ -58,6 +57,7 @@ El siguiente mapa de aprendizaje muestra los conceptos y tareas principales que 
 [![Mapa de aprendizaje de la planificación maestra](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
 
 ## <a name="quick-links"></a>Vínculos rápidos
+
 |      |   |
 |------|---|
 |        [Planes maestros](master-plans.md)       |     [Generar un plan con restricciones](./tasks/constrained-plan.md)  |

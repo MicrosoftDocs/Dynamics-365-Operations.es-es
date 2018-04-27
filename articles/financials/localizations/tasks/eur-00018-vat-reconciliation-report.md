@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="vat-reconciliation-report"></a>Informe de conciliación del IVA
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo generar el informe de conciliación de impuestos que está disponible para entidades jurídicas islandesas y noruegas. Esta tarea se ha creado con los datos de demostración de la empresa DEMF y el país o región de una dirección principal de entidad jurídica actualizada para Noruega.
 

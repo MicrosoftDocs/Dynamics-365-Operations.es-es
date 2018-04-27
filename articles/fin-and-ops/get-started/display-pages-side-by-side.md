@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="display-pages-side-by-side-using-the-open-in-new-window-icon"></a>Visualizar páginas en paralelo con el icono Abrir en una ventana nueva
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo explica cómo mostrar páginas en paralelo en Microsoft Dynamics 365 for Finance and Operations.
 

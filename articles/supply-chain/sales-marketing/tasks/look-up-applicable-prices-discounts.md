@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Búsqueda de precios y descuentos aplicables
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo encontrar el precio y/o el descuento para un producto actualmente válido para un cliente concreto, sin crear un pedido de ventas. El procedimiento le guía por un ejemplo específico y, para poder seleccionar los valores necesarios, necesita seguir el ejemplo con la empresa de demostración USMF.
 

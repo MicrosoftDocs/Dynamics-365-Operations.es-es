@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-templates-for-excel"></a>Plantillas de planificación presupuestaria para Excel
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema describe cómo crear plantillas de Microsoft Excel que se puedan utilizar con planes presupuestarios.
 
@@ -42,11 +41,11 @@ Los documentos de plan presupuestario se pueden ver y editar mediante uno o vari
 1. Abra la **Lista de planes presupuestarios** (**Gestión presupuestaria** &gt; **Planes presupuestarios**). 
 2. Haga clic en **Nuevo** para crear un documento de plan presupuestario. 
 
-  [![Lista de planes presupuestarios](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![Lista de planes presupuestarios](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. Emplee la opción de línea **Agregar** para agregar líneas. Haga clic en **Diseños** para ver la configuración del diseño de documento de plan presupuestario. 
 
-  [![Agregar planes presupuestarios](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![Agregar planes presupuestarios](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 Puede revisar la configuración de diseño y ajustarla según sea necesario. 
 1. Vaya a **Plantilla** &gt; **Generar** para crear un archivo de Excel para este diseño. 

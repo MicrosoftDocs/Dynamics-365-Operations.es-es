@@ -28,14 +28,14 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="financial-report-components"></a>Componentes de los informes financieros
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se describe cómo se utilizan los componentes o bloques de creación, de las definiciones de informe en los informes financieros. Estos bloques de creación incluyen definiciones de filas, definiciones de columnas y definiciones de organigramas. El artículo se explica cómo organizar y bloquear bloques de creación. 
 
 La filosofía de diseño del diseñador de informes financieros es desglosar la información en el componente o el bloque de creación de menor tamaño y, a continuación, combinar y hacer coincidir los componentes según sea necesario. Por tanto, el formato del informe es independiente de los datos financieros y puede cambiar el diseño de un informe sin modificar los datos financieros en el sistema de Microsoft Dynamics ERP. Mediante este método de bloque de creación, puede combinar el texto, importes y cálculos para producir los informes que necesite. Además, esta flexibilidad promueve la creatividad, facilitando la visualización de sus operaciones de distintas maneras. Los bloques de creación individuales de una definición del informe son similares a una hoja de cálculo tridimensional, pero son más avanzados. Una definición del informe especifica la definición de filas, la definición de columnas y la definición opcional del organigrama que se debe usar para el informe. También incluye información sobre dónde almacenar el informe que se genera y cómo darle formato. 
 
 ## <a name="building-blocks-of-a-report"></a>Bloques de creación de un informe
+
 | Bloque de creación            | Descripción                     | Para obtener más información                                    |
 |---------------------------|---------------------------------|---------------------------------------------------------|
 | Definición de filas            | Una definición de fila define las líneas descriptivas (por ejemplo, sueldos o ventas) en un informe. También se muestran los valores o las dimensiones de segmentos que contienen los valores para cada elemento de línea e incluye el formato y los cálculos de la fila.                                                    | [Definiciones de filas](row-definitions-financial-reporting.md)                       |

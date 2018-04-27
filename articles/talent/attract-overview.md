@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="attract-overview"></a>Visión general de Attract
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Attract le proporciona las herramientas que le permitirán gestionar el proceso de contratación de nuevos talentos. Puede agregar candidatos en las vacantes y ver cómo van avanzando paso a paso hasta que se extiende la oferta o se rechaza la solicitud. En cada etapa, los candidatos realizan una variedad de actividades como llamadas supervisadas, evaluaciones o programación de entrevistas. Una vez hecha la solicitud, los candidatos reciben un correo que les invita a iniciar sesión en Attract; aquí pueden realizar un seguimiento del estado del trabajo, la solicitud, y realizar cualquier tarea que tengan asignada.
 

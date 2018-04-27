@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cfdi-layout-version-33"></a>Versión 3.3 del diseño CFDI
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="electronic-invoice-parameters"></a>Parámetros de facturas electrónicas
 

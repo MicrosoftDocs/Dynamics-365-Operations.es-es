@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-cost-accounting-ledger"></a>Crear un libro mayor de contabilidad de costes
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Un libro mayor de contabilidad de costes representa la unidad de notificación global. Se define por una dimensión de elemento de coste, la dimensión estadística, el calendario fiscal y la divisa. Es agnóstico al concepto de entidades jurídicas. Una entidad jurídica y sus datos se pueden asociar a varios libros mayores de contabilidad de costes. Este registro usa la empresa USP2 con los datos para demostración.
 

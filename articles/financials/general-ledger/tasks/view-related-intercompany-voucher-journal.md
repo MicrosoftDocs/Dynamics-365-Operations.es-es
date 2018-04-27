@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a>Ver un asiento de empresas vinculadas relacionado de un diario
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 La ventana relacionada con asientos muestra el asiento de la empresa de contrapartida al registrar una transacción de empresas vinculadas del diario general.
 

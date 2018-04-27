@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="file-formats-for-methods-of-payment"></a>Formatos de archivo para métodos de pago
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se describen los dos métodos para obtener los formatos de archivo que puede usar para los métodos de pago.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="new-task-guides-february-2016"></a>Nuevas guías de tareas (febrero de 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema enumera las guías de tareas que estaban publicadas en las bibliotecas de Microsoft BPM en febrero de 2016.  Las bibliotecas que se publicaron incluyen la biblioteca unificada APQC (febrero de 2016) para Microsoft Dynamics AX y la biblioteca de introducción (febrero de 2016).
 
@@ -50,8 +49,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Configurar la validación de conciliación de facturas de proveedores       | Global             |
 | Configurar directivas de factura de proveedor                            | Global             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a>Clientes
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Revisar información de cobros                              | Global             |
 | Configurar y generar información de vencimiento de clientes   | Global             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a>Gestión de efectivo y bancos
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Liquidar un cheque con pago diferido de un cliente                             | Global             |
 | Visión general del pago de proveedor                                              | Global             |
 
- 
 
+ 
 ### <a name="compliance"></a>Cumplimiento
 
 |                                            |                    |
@@ -108,8 +107,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | **Línea de BPM**                               | **País o región** |
 | Definir directivas de auditoría para documentos de origen | Global             |
 
- 
 
+ 
 ### <a name="cost-management"></a>Gestión de costes
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Ver estado actual de trabajo en curso en una orden de producción                       | Global             |
 | Ver el extracto de inventario y KPI por el objeto de coste                     | Global             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a>Funcionalidad por país/región
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | GB-00009 Crear una nota de abono en el descuento de la liquidación                                               | Reino Unido                  |
 | GB-00009 Configurar los parámetros para la nota de abono en el descuento por pronto pago                                   | Reino Unido                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a>Desarrollar visión y estrategia
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Realización de una pregunta según la respuesta a la pregunta anterior (preguntas condicionales) | Global             |
 | Puntuación de un cuestionario según el porcentaje                                                   | Global             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a>Informes electrónicos
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | CE Asignar modelo de datos a los orígenes de datos seleccionados      | Global             |
 | CE Seleccionar el proveedor del servicio                      | Global             |
 
- 
 
+ 
 ### <a name="expense-management"></a>Gestión de gastos
 
 |                              |                    |
@@ -298,8 +297,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | **Línea de BPM**                 | **País o región** |
 | Configurar la gestión de gastos | Global             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a>Activos fijos
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Dividir un activo fijo                                       | Global             |
 | Transferir un activo fijo                                    | Global             |
 
- 
 
+ 
 ### <a name="general-ledger"></a>Contabilidad general
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Ver movimientos del diario o transacciones                              | Global             |
 | Ver el asiento de empresas vinculadas relacionadas del diario                    | Global             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a>Gestión del capital humano
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Configuración de directivas de idoneidad de beneficio                             | Global             |
 | Configuración de tipos de documentos i9                                     | Global             |
 
- 
 
+ 
 ### <a name="inventory-management"></a>Gestión de inventarios
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Realizar el seguimiento de un artículo o una materia prima                                                     | Global             |
 | Transferencia del inventario físico en el almacén                                  | Global             |
 
- 
 
+ 
 ### <a name="manufacturing"></a>Fabricación
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Transferencia de materiales con trabajos kanban                            | Global             |
 | Validar flujo de producción y versión                          | Global             |
 
- 
 
+ 
 ### <a name="master-planning"></a>Planificación maestra
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Identificar materiales críticos y capacidad de distribuidor | Global             |
 | Modificación manual de una previsión de demanda                 | Global             |
 
- 
 
+ 
 ### <a name="organization-administration"></a>Administración de la organización
 
 |                                           |                    |
@@ -501,8 +500,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Configuración de firmas electrónicas              | Global             |
 | Configuración de secuencias numéricas mediante asistente | Global             |
 
- 
 
+ 
 ### <a name="planning"></a>Planificación
 
 |                        |                    |
@@ -510,8 +509,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | **Línea de BPM**           | **País o región** |
 | Determinar disponibilidad | Global             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a>Adquisición y abastecimiento
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Búsqueda de proveedores                                               | Global             |
 | Configurar una jerarquía de categorías de compras                          | Global             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a>Configuración e Información del producto
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Publicación de un ..\financial-dimensions\producto maestro basado en la dimensión              | Global             |
 | Transferir datos para los modelos de producto                      | Global             |
 
- 
 
+ 
 ### <a name="public-sector"></a>Sector público
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Configurar un fondo para el sector público                                                         | Global             |
 | Configurar clasificaciones de acuerdo de compra para el sector público                             | Global             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a>Retail y Commerce
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Ajustes de precios comerciales                                                                  | Global             |
 | Configuración de tiendas para los extractos minoristas                                                | Global             |
 
- 
 
+ 
 ### <a name="sales"></a>Ventas
 
 |                                            |                    |
@@ -642,8 +641,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Enviar pedidos como entregas directas           | Global             |
 | Enviar pedidos de ventas sin almacenamiento      | Global             |
 
- 
 
+ 
 ### <a name="sales-tax"></a>Impuestos
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Configurar retenciones de impuestos                             | Global             |
 | Ver transacciones de impuestos registradas                 | Global             |
 
- 
 
+ 
 ### <a name="security"></a>Seguridad
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Identificación y resolución de conflictos en segregación de controles | Global             |
 | Configuración de segregación de controles                            | Global             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a>Almacén y transporte
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que
 | Configuración de transportistas de envío                                                          | Global             |
 | Uso del área de trabajo de planificación de la carga y envíos para planificar cargas                       | Global             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a>Guías de tareas en la biblioteca de introducción (febrero de 2016)
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | **Línea de BPM**                                       | **País o región** |

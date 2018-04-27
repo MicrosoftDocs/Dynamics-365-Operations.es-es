@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-the-chart-of-accounts-for-a-legal-entity-in-mexico"></a>Configuración del plan de cuentas para una entidad jurídica en México
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Configure parámetros específicos en el plan contable para habilitar la generación de informes de contabilidad electrónicos para una entidad jurídica mexicana. Esta tarea se creó con la empresa de datos de demostración MXMF.
 

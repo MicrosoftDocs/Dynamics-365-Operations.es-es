@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0c900dc208736f1823be50e8522061406c9f126
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="warehouse-work-policies"></a>Directivas de trabajo de almacén
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Las directivas de trabajo de almacén en Microsoft Dynamics 365 for Finance and Operations controlan si el trabajo del almacén se crea mediante procesos de almacén en la fabricación, en función de tipo de pedido del trabajo, la ubicación de inventario y el producto.
 
@@ -68,14 +67,15 @@ Cuando desee configurar una directiva de trabajo del almacén para este escenari
 
 A continuación se muestra un ejemplo de una directiva de trabajo que puede configurar, en función de estas cuestiones.
 
-|                                         |                                                       |
-|-----------------------------------------|-------------------------------------------------------|
-|**Nombre de directiva de trabajo**<br>                 |**Tipos de pedido de trabajo**<br>                               |
-| Sin almacenaje 01     `                    |- Almacenaje de bienes terminados<br>                           |
-|                                         |**Ubicaciones**<br>                                      |
-|                                         |- O1   |                                               |
-|                                         |**Productos** <br>                                      |
-|                                         |- SC1                                                  |
+
+|                                       |                                       |
+|---------------------------------------|---------------------------------------|
+| <strong>Nombre de directiva de trabajo</strong><br> | <strong>Tipos de pedido de trabajo</strong><br> |
+|         Sin almacenaje 01     `          |     - Almacenaje de bienes terminados<br>      |
+|                                       |    <strong>Ubicaciones</strong><br>     |
+|                                       |                 - O1                  |
+|                                       |    <strong>Productos</strong> <br>     |
+|                                       |                 - SC1                 |
 
 Los siguientes procedimientos proporcionan instrucciones detalladas sobre cómo configurar la directiva de trabajo del almacén para esta situación. También describe un ejemplo de la configuración que muestra cómo informar de un pedido de producción que se ha completado a una ubicación no controlada por matrícula.
 
@@ -199,7 +199,7 @@ PASOS (25)
 <tr>
 <td></td>
 <td>10.</td>
-<td>Haga clic en la ficha General.</td>
+<td>Haga clic en la pestaña General.</td>
 </tr>
 <tr>
 <td></td>
@@ -219,7 +219,7 @@ PASOS (25)
 <tr>
 <td></td>
 <td>14.</td>
-<td>Haga clic en la ficha General.</td>
+<td>Haga clic en la pestaña General.</td>
 </tr>
 <tr>
 <td></td>

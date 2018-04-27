@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Configurar un alias de cuenta contable
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear un alias de cuenta que proporcione un método abreviado para especificar un número de cuenta. Este procedimiento usa la empresa de datos de demostración USMF.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="depreciation-methods-and-conventions"></a>Convenciones y métodos de depreciación
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo proporciona una visión general de las convenciones de depreciación y los métodos de depreciación que son compatibles con Microsoft Dynamics 365 for Finance and Operations.
 
@@ -62,7 +61,7 @@ Puede seleccionar entre los siguientes métodos de amortización.
 -   Depreciación degresiva del 150%
 -   Depreciación degresiva del 125%
 
- 
+
 
 
 

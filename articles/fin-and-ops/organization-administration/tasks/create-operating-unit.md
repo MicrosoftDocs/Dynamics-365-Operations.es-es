@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-operating-unit"></a>Creación de una unidad operativa
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Una unidad operativa es una organización que se usa para dividir el control de los recursos económicos y los procesos operativos de un negocio. Las personas de una unidad operativa tienen el deber de optimizar el uso de recursos escasos, mejorar los procesos y responder de su rendimiento. Los tipos de unidades operativas incluyen los centros de coste, las unidades de negocio, los flujos de valor y los departamentos. Realice el procedimiento siguiente para crear una unidad operativa. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

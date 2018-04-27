@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit"></a>Carta de crédito
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Los créditos documentarios son documentos bancarios que se suelen usar para la compra y la venta de bienes entre fronteras internacionales. 
 

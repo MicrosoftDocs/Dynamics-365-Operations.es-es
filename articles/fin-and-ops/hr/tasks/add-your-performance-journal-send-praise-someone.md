@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b898a5ab5ad2837ef1d9ef8ebf88aaa05f56b3a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Agregar a su diario de rendimiento y enviar elogio a alguien
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 El diario de rendimiento contiene información relacionada con cómo alcanzó sus objetivos o cuál fue su rendimiento durante un período. También puede elogiar las acciones de un compañero de trabajo del diario. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
 
@@ -42,7 +42,7 @@ El diario de rendimiento contiene información relacionada con cómo alcanzó su
 9. En el campo Palabras clave, escriba un valor.
 10. Haga clic en Agregar vínculo externo.
 11. En el campo Descripción, escriba "Envision".
-12. En el campo de la dirección de Internet, escriba https://www.microsoft.com/en/envision/default.
+12. En el campo Dirección de Internet, escriba "<https://www.microsoft.com/en/envision/default>".
 13. Haga clic en la leyenda debajo del botón Guardar denominado "Diario de rendimiento" para volver a la cuadrícula.
     * Puede agregar el diario o diarios seleccionados a un objetivo de modo que aparezca al abrir el objetivo. Se agregará un vínculo en la pestaña rápida Vínculos. Si agrega un diario a un objetivo y luego el objetivo a una revisión, el diario aparecerá en la revisión automáticamente.  
     * Puede agregar el diario o diarios seleccionados a una revisión de modo que aparezca al abrir la revisión.    Se agregará un vínculo en la ficha Vínculos rápidos.  

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurar ubicaciones en un almacén con WMS
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo configurar la ubicación para un nuevo almacén con WMS (un almacén que usa procesos avanzados de gestión de almacenes). El proceso normalmente lo realiza el director del almacén. Puede realizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Una condición previa es que tenga al menos un sitio configurado.
 

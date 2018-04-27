@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilidad sobre excepciones de material
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 En el espacio de trabajo **Gestión de planta de producción**, tres mosaicos proporcionan una mejor visibilidad en las excepciones para las materias primas para los pedidos de producción y los pedidos por lote:
 

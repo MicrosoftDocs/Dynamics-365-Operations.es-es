@@ -29,10 +29,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-dimensions"></a>Dimensiones de producto
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[Retail name](../includes/retail-name.md)]
-
+[!INCLUDE [Retail name](../includes/retail-name.md)]
 
 Hay cuatro dimensiones de producto: Color, Configuración, Tamaño y Estilo. Combina dimensiones de producto en grupos de dimensiones y asigna grupos de dimensiones a productos maestros. Las combinaciones de dimensiones de producto determinan la manera en que se definen las variantes de producto.
 
@@ -51,6 +50,7 @@ Los valores de las dimensiones del producto como tamaño, color y estilo se pued
 -   Haga clic en **Gestión de información de productos** &gt; **Productos emitidos**. Seleccione un producto maestro. En el **Panel de acciones**, haga clic en **Producto**. En el grupo **Producto maestro**, haga clic en **Dimensiones de producto**.
 
 El número de variantes que se pueden crear para un artículo está limitado por el número de posibles combinaciones de las dimensiones del producto.
+
 | **Sugerencia**                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Al utilizar un producto en, por ejemplo, una línea de pedido, seleccione las dimensiones del producto para identificar la variante del producto con la que desee trabajar. |

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Generar y ejecutar informes listos para usar
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Use esta guía de tareas para ejecutar informes listos para usar en la sede de diferentes áreas de trabajo e informes de Consultas y ventas que se encuentran en Venta minorista y comercio.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="200-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 200%
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 200%.
 
@@ -70,6 +69,7 @@ Si selecciona **Fiscal** como año de depreciación, aparecen las siguientes opc
 -   **Período fiscal** registra el importe total de depreciación calculado para el ejercicio. Este importe se acumula en los períodos fiscales definidos en la página **Calendarios fiscales**.
 
 ## <a name="example-of-200-reducing-balance-depreciation"></a>Ejemplo de depreciación degresiva del 200%
+
 |                                |        |
 |--------------------------------|--------|
 | Coste de adquisición               | 11.000 |

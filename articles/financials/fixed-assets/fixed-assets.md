@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-assets-home-page"></a>Página principal de activos fijos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Los activos fijos son artículos de valor, como edificios, vehículos, tierras y equipos, que posee una persona o una organización. 
 

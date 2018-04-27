@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: ProjTable
+ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 404f7d2b050aba1532cae0955a9579e1c2f174e3
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="project-management-and-accounting"></a>Gestión de proyectos y contabilidad
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La funcionalidad de gestión de proyectos y contabilidad se puede usar en varias industrias para proporcionar un servicio, producir un producto o lograr un resultado.  
 
@@ -83,6 +82,7 @@ Puede usar la previsión si su organización tiene una perspectiva operativa y s
 Puede crear seis tipos de proyectos en Microsoft Dynamics 365 for Finance and Operations. Cada tipo de proyecto se configura de manera diferente para costes y reconocimiento de ingresos. El tipo de proyecto que seleccione dependerá del objetivo del proyecto. En la tabla siguiente se describe el uso habitual de cada tipo de proyecto.
 
                                                                                                                                                                          |
+
 | Tipo de proyecto      | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Tiempo y material | En los proyectos de tiempo y material, se factura al cliente por todos los costes en los que incurra en un proyecto. Se incluyen los costes por horas, gastos, artículos y cuotas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -127,10 +127,10 @@ Un pedido de producción relacionado con el proyecto se puede vincular con un re
 
 Según las combinaciones de estos factores, utilice uno de los métodos siguientes:
 
--   **Artículo finalizado/vínculo al pedido**: vincule el proyecto a un pedido de ventas o un requisito de artículo. Al usar este método, se registrarán los costes reales del proyecto cuando se facture el pedido de ventas o cuando se actualice el albarán para el requisito de artículo. El coste se registrará como artículo finalizado.
--   **Artículo finalizado/sin vínculo al pedido**: no podrá registrar los costes reales hasta que el ciclo de producción para un artículo tenga el estado **Terminado**. El coste del artículo terminado se registra como transacción única.
--   **Artículo consumido/vínculo al pedido**: vincule el proyecto a un requisito de artículo. Mediante este método, se podrán ver los costes reales del proyecto cuando la producción tenga el estado **Iniciado** o se haya notificado como terminado. Los costes se registrarán como múltiples transacciones de artículo del proyecto para materias primas y horas consumidas para la producción. Cuando se actualice el albarán para el requisito de artículo, no se registrarán costes del proyecto. También puede definir el nivel de la jerarquía de la lista de materiales (L. MAT) en la que se siguen los proyectos de la producción.
--   ****Artículo consumido/sin vínculo al pedido**** – vincule el proyecto a un requisito de artículo. Mediante este método, se podrán ver los costes reales del proyecto cuando la producción tenga el estado **Iniciado** o se haya notificado como terminado. Los costes se registrarán como múltiples transacciones de artículo del proyecto para materias primas y horas consumidas para la producción. También puede definir el nivel de la jerarquía de la lista de materiales en la que se siguen los proyectos de la producción.
+- **Artículo finalizado/vínculo al pedido**: vincule el proyecto a un pedido de ventas o un requisito de artículo. Al usar este método, se registrarán los costes reales del proyecto cuando se facture el pedido de ventas o cuando se actualice el albarán para el requisito de artículo. El coste se registrará como artículo finalizado.
+- **Artículo finalizado/sin vínculo al pedido**: no podrá registrar los costes reales hasta que el ciclo de producción para un artículo tenga el estado **Terminado**. El coste del artículo terminado se registra como transacción única.
+- **Artículo consumido/vínculo al pedido**: vincule el proyecto a un requisito de artículo. Mediante este método, se podrán ver los costes reales del proyecto cuando la producción tenga el estado **Iniciado** o se haya notificado como terminado. Los costes se registrarán como múltiples transacciones de artículo del proyecto para materias primas y horas consumidas para la producción. Cuando se actualice el albarán para el requisito de artículo, no se registrarán costes del proyecto. También puede definir el nivel de la jerarquía de la lista de materiales (L. MAT) en la que se siguen los proyectos de la producción.
+- *<strong><em>Artículo consumido/sin vínculo al pedido</em></strong>* – vincule el proyecto a un requisito de artículo. Mediante este método, se podrán ver los costes reales del proyecto cuando la producción tenga el estado <strong>Iniciado</strong> o se haya notificado como terminado. Los costes se registrarán como múltiples transacciones de artículo del proyecto para materias primas y horas consumidas para la producción. También puede definir el nivel de la jerarquía de la lista de materiales en la que se siguen los proyectos de la producción.
 
 ### <a name="procure-products-and-services"></a>Adquirir productos y servicios
 
@@ -229,7 +229,7 @@ La tabla siguiente describe los métodos para calcular el coste para completar u
 <tbody>
 <tr class="odd">
 <td>Coste total – Real</td>
-<td>Los costes estimados se deben especificar manualmente. Cuando se complete la columna <strong>Coste total</strong> o <strong>Cantidad total</strong> en la página <strong>Estimación de coste </strong>, los costes reales se restan de los totales especificados por el usuario. El resultado es el coste para completar el proyecto. Normalmente, el seguimiento del progreso de los costes no se basa, por ejemplo, el número de comidas y estancias de hotel se registran en cada período. En su lugar, suele basarse en una comparación con el importe total de las horas estimadas. Este planteamiento no necesita un modelo de previsión y el coste o la cantidad total se puede cambiar manualmente. Cuando se especifica un valor en la columna <strong>Coste total</strong> o <strong>Cantidad total</strong>, Finance and Operations compara este valor con las transacciones reales que se han registrado en el período y, a continuación, disminuye el valor de la columna <strong>Cantidad para completar</strong> o <strong>Coste para completar</strong>.</td>
+<td>Los costes estimados se deben especificar manualmente. Cuando se complete la columna <strong>Coste total</strong> o <strong>Cantidad total</strong> en la página <strong>Estimación de coste </strong>, los costes reales se restan de los totales especificados por el usuario. El resultado es el coste para completar el proyecto. Normalmente, el progreso de los costes no se sigue en función, por ejemplo, del número de comidas y estancias de hotel que se registran en cada período. En su lugar, suele basarse en una comparación con el importe total de las horas estimadas. Este planteamiento no necesita un modelo de previsión y el coste o la cantidad total se puede cambiar manualmente. Cuando se especifica un valor en la columna <strong>Coste total</strong> o <strong>Cantidad total</strong>, Finance and Operations compara este valor con las transacciones reales que se han registrado en el período y, a continuación, disminuye el valor de la columna <strong>Cantidad para completar</strong> o <strong>Coste para completar</strong>.</td>
 </tr>
 <tr class="even">
 <td>Presupuesto total - Real</td>
@@ -239,9 +239,8 @@ La tabla siguiente describe los métodos para calcular el coste para completar u
 <li>Compare las transacciones de previsión con las transacciones reales.</li>
 <li>Mantenga, reduzca o actualice las estimaciones para el siguiente período.</li>
 </ol>
-Finance and Operations no disminuye automáticamente las estimaciones previstas. Por tanto, es buena idea mantener un modelo de previsión original en el proyecto de precio fijo para establecer una base para comparación una vez completado el proyecto. 
-> [!NOTE] Al seleccionar este método, use al menos dos modelos de previsión. Un modelo debe contener la previsión original. Para el otro modelo, debe copiar las transacciones de previsión de otro modelo. Este método solo es válido para proyectos de precios fijos e inversión.</td>
-> </tr>
+Finance and Operations no disminuye automáticamente las estimaciones previstas. Por tanto, es buena idea mantener un modelo de previsión original en el proyecto de precio fijo para establecer una base de comparación una vez completado el proyecto. &gt; [!NOTE] &gt; Al seleccionar este método, use al menos dos modelos de previsión. Un modelo debe contener la previsión original. Para el otro modelo, debe copiar las transacciones de previsión de otro modelo. Este método solo es válido para proyectos de precios fijos e inversión.</td>
+</tr>
 <tr class="odd">
 <td>Presupuesto restante</td>
 <td>Este método usa un modelo presupuestario restante hasta calcular al coste que completa el proyecto. Al utilizar este método, los costes reales y los importes previstos en el modelo presupuestario restante se agregan conjuntamente. El resultado es un coste total. Antes de utilizar este método, se debe configurar un modelo presupuestario restante para deducir las transacciones basadas en las transacciones reales registrados en el programa. En la página <strong>Modelos de previsión</strong>, asegúrese de que los campos están marcados en el grupo <strong>Reducción automática de previsiones</strong>. Normalmente, un presupuesto restante se copia de uno original. A medida que se especifiquen las transacciones, las transacciones del presupuesto restante se reducirán. Conforme progrese el proyecto, si se determina que el presupuesto restante se debe ajustar, carga transacciones de previsión de gastos al presupuesto restante. <strong>Nota:</strong> Este método solo puede aplicarse si el modelo de previsión está vinculado a la estimación.</td>

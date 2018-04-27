@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>Especificar el código GTIN de un producto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Los códigos GTIN los asigna la organización GS1. En este ejemplo, introducirá un código para el número de producto M0001 en la empresa de datos de demostración USMF.
 

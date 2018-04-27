@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-containerization"></a>Configurar lógica de creación de contenedores
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento describe cómo automatizar la creación de contenedores de cargas en Administración de almacenes. La creación de contenedores automatizada crea contenedores y el trabajo de picking para envíos cuando se procesa una oleada y las líneas de trabajo se pueden dividir en cantidades que se ajusten a los contenedores. Esto ayuda a los trabajadores de almacén a seleccionar los artículos directamente en el contenedor elegido. En comparación con el proceso de embalaje manual, las tareas como la creación de contenedores, la asignación de artículos y el cierre de contenedores se automatizan por el sistema. Este procedimiento usa la empresa de demostración USM y lo lleva a cabo un director de almacén.
 

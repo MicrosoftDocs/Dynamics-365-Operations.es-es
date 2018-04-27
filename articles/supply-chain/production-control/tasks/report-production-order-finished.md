@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="report-a-production-order-as-finished"></a>Notificar un pedido de producción como terminado
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo notificar un pedido de producción como terminado. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este es el sexto procedimiento de siete que explica el ciclo de vida del pedido de producción.
 

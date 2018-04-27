@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>Confirmación de producto para picking de clústeres
 El picking en clúster le permite elegir los artículos para varios pedidos al mismo tiempo. Cuando se aplica el picking en clúster, es esencial la confirmación del artículo para comprobar que los artículos se agregan a los clústeres. Puede comprobar los artículos del picking en clúster durante el proceso de picking en clúster.
@@ -37,7 +37,8 @@ La comprobación de artículos para trabajos de picking en clúster funcional de
 1.  En un elemento de menú del dispositivo móvil, abra el formulario de configuración para la confirmación del trabajo: **Gestión de almacenes** > **Gestión de almacenes** > **Configuración** > **Dispositivo móvil** > **Elementos de menú del dispositivo móvil**.
 2.  En el elemento de menú del dispositivo móvil, abra **Configuración de la confirmación de trabajo**.
 
-| Opción        | Descripción   | 
-| ------------- | ------------- |
-|Confirmación del producto | Permite que se compruebe cada pieza de inventario desde el dispositivo móvil cuando se escanea.|
+|        Opción        |                                    Descripción                                    |
+|----------------------|-----------------------------------------------------------------------------------|
+| Confirmación del producto | Permite que se compruebe cada pieza de inventario desde el dispositivo móvil cuando se escanea. |
+
 

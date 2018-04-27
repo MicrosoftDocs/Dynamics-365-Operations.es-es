@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>Creación de un presupuesto preliminar para el sector público
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Puede crear entradas de registro de presupuesto preliminar para un modelo presupuestario concreto y valores de dimensión. Después de que se apruebe el presupuesto real, puede crear entradas de registro presupuestarias original. Este procedimiento se ha creado con los datos de empresa de demostración PSUS en la partición del sector público.
 

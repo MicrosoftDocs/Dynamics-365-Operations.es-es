@@ -17,15 +17,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7265e119a8b59399db1fa35373a7b6aba52ba8e0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 325cf12345afcf531181f65a41d0e5262798c14f
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="onboard-vendors"></a>Incorporación de proveedores
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
 ---
 
 Los nuevos proveedores pueden incorporarse y registrarse como proveedores en Microsoft Dynamics 365 for Finance and Operations en función de la información obtenida de una persona que represente al proveedor.
@@ -164,13 +165,15 @@ Los distintos estados de una solicitud de registro del proveedor potencial ofrec
 
 Mediante la acción **Eliminar** en la solicitud de registro del proveedor potencial, puede quitar y limpiar la cadena de registros que se han creado y puede desactivar la cuenta de usuario. El resultado de la acción **Eliminar** varía, en función del estado de la solicitud de registro del proveedor potencial, como se muestra en la siguiente tabla.
 
-| Estado                   | Descripción del estado | Resultado de acción de la Eliminar |
-|--------------------------|--------------------|-----------------------------------|
-| Nueva                      | No se ha realizado ninguna acción en la solicitud. | La solicitud de registro del proveedor potencial ha sido eliminada. |
-| Solicitado por el usuario           | Cuando se selecciona **Invitar usuario**, el estado cambia a **Usuario solicitado** y una solicitud de usuario potencial se crea y se envía a un flujo de trabajo de solicitud de usuario. | No puede eliminar una solicitud de registro del proveedor potencial que tenga este estado, ya que el flujo de trabajo de la solicitud de usuario no ha terminado. |
-| Invitado por el usuario             | Se aprueba el flujo de trabajo de la solicitud de usuario y crea el usuario. | Se crea una solicitud para desactivar el usuario y se eliminará la solicitud de registro del proveedor potencial. |
-| Registro en curso | El nuevo usuario ha iniciado sesión y ha iniciado el asistente de registro del proveedor. | Se crea una solicitud para desactivar el usuario y se eliminan la solicitud de registro del proveedor potencial y los datos que se especificaron en el asistente de registro de proveedor. |
-| Solicitud de proveedor creada   | El asistente de registro del proveedor se ha completado. | Se crea una solicitud para desactivar el usuario y se eliminan la solicitud de registro del proveedor potencial, los datos que se especificaron en el asistente de registro del proveedor y la solicitud del proveedor.<blockquote>[!NOTE]<br>No puede usar la acción **Eliminar** cuando la solicitud del proveedor se encuentra en un proceso de revisión del flujo de trabajo.</blockquote> |
-| Aprobada                 | La solicitud del proveedor ha sido aprobada. | Se eliminan la solicitud de registro del proveedor potencial, los datos que se especificaron en el asistente de registro del proveedor y la solicitud del proveedor. |
-| Rechazado                 | La solicitud del proveedor ha sido rechazada. | Se eliminan la solicitud de registro del proveedor potencial, los datos que se especificaron en el asistente de registro del proveedor y la solicitud del proveedor. |
+
+|          Estado          |                                                                                     Descripción del estado                                                                                      |                                                                                                                                                            Resultado de acción de la Eliminar                                                                                                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|           Nueva            |                                                                         No se ha realizado ninguna acción en la solicitud.                                                                          |                                                                                                                                              La solicitud de registro del proveedor potencial ha sido eliminada.                                                                                                                                               |
+|      Solicitado por el usuario      | Cuando se selecciona <strong>Invitar usuario</strong>, el estado cambia a <strong>Usuario solicitado</strong> y una solicitud de usuario potencial se crea y se envía a un flujo de trabajo de solicitud de usuario. |                                                                                                          No puede eliminar una solicitud de registro del proveedor potencial que tenga este estado, ya que el flujo de trabajo de la solicitud de usuario no ha terminado.                                                                                                          |
+|       Invitado por el usuario       |                                                               Se aprueba el flujo de trabajo de la solicitud de usuario y crea el usuario.                                                               |                                                                                                                      Se crea una solicitud para desactivar el usuario y se eliminará la solicitud de registro del proveedor potencial.                                                                                                                      |
+| Registro en curso |                                                         El nuevo usuario ha iniciado sesión y ha iniciado el asistente de registro del proveedor.                                                          |                                                                                     Se crea una solicitud para desactivar el usuario y se eliminan la solicitud de registro del proveedor potencial y los datos que se especificaron en el asistente de registro de proveedor.                                                                                      |
+|  Solicitud de proveedor creada  |                                                                     El asistente de registro del proveedor se ha completado.                                                                      | Se crea una solicitud para desactivar el usuario y se eliminan la solicitud de registro del proveedor potencial, los datos que se especificaron en el asistente de registro del proveedor y la solicitud del proveedor.<blockquote>[!NOTE]<br>No puede usar la acción <strong>Eliminar</strong> cuando la solicitud del proveedor se encuentra en un proceso de revisión del flujo de trabajo.</blockquote> |
+|         Aprobada         |                                                                               La solicitud del proveedor ha sido aprobada.                                                                               |                                                                                                   Se eliminan la solicitud de registro del proveedor potencial, los datos que se especificaron en el asistente de registro del proveedor y la solicitud del proveedor.                                                                                                    |
+|         Rechazado         |                                                                               La solicitud del proveedor ha sido rechazada.                                                                               |                                                                                                   Se eliminan la solicitud de registro del proveedor potencial, los datos que se especificaron en el asistente de registro del proveedor y la solicitud del proveedor.                                                                                                    |
+
 

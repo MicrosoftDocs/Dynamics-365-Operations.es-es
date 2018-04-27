@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-free-text-invoice-template"></a>Crear una plantilla de factura de servicios
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta grabación usa la empresa de demostración USMF. El registro se va a utilizar para el usuario responsable de gestionar y de procesar facturas de cuentas por cobrar.
 

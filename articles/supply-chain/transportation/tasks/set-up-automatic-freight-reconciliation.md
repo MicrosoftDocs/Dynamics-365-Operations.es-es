@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Configurar la conciliación automática de flete
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo configurar los datos para la conciliación automática de flete. Este proceso normalmente lo realiza el director del almacén. Puede utilizar este procedimiento en la empresa de datos de demostración USMF.
 

@@ -115,6 +115,7 @@
 ### Novedades
 #### [Cambios de extensibilidad de julio de 2017](extensibility/changes-july-2017.md)
 #### [Cambios de extensibilidad de la versión 7.3](extensibility/extensibility-changes-73.md)
+#### [Cambios de extensibilidad de la versión 8.0](extensibility/changes-80.md)
 ### Conceptos fundamentales
 #### [Personalizaciones intrusivas](extensibility/intrusive-customizations.md)
 #### [Extensiones de clase](extensibility/class-extensions.md)
@@ -382,17 +383,18 @@
 
 ### [Integración de datos mediante Common Data Service](data-entities/data-integration-cds.md) 
 #### [Configurar un escenario de cliente potencial a cliente](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Sincronizar productos de Finance and Operations con productos de Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-##### [Sincronizar cuentas de Sales con clientes de Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-##### [Sincronizar contactos de Sales con contactos o clientes de Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Sincronizar encabezados y líneas de presupuesto de ventas de Sales con Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-##### [Sincronizar encabezados y líneas de pedido de ventas de Finance and Operations en Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-##### [Sincronizar encabezados y líneas de factura de Finance and Operations en Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Sincronizar cuentas directamente desde Sales con clientes de Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Sincronizar productos directamente desde Finance and Operations con productos de Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Sincronizar contactos directamente desde Sales con contactos o clientes de Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Sincronizar encabezados y líneas de pedido de ventas directamente desde Finance and Operations en Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+##### [Sincronizar encabezados y líneas de presupuesto de ventas directamente desde Sales a Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Sincronización de pedidos de ventas entre Sales y Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [Sincronizar encabezados y líneas de factura de ventas directamente desde Finance and Operations en Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+#### [Configurar la integración con Field Service](../supply-chain/sales-marketing/field-service.md)
+##### [Sincronizar productos de Finance and Operations con productos de Field Service](../supply-chain/sales-marketing/field-service-product.md)
+##### [Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Finance and Operations](../supply-chain/sales-marketing/field-service-work-order.md)
+##### [Sincronizar facturas de acuerdos en Field Service con facturas de servicios en Finance and Operations](../supply-chain/sales-marketing/field-service-invoice.md)
+
+
 
 ### [Consumir servicios web externos](data-entities/consume-external-web-service.md)
 
@@ -407,7 +409,9 @@
 ### [Plantillas de datos de configuración](data-entities/configuration-data-templates.md)
 ### [Plantillas de datos con varias hojas de cálculo](data-entities/excel-template-multiple.md)
 ### [Realizar un seguimiento de los cambios en una entidad](data-entities/entity-change-track.md)
+
 ### [Buscar información acerca de las entidades estándar de datos](data-entities/data-entities-report.md)
+
 
 ## [Trabajos de exportación e importación de datos](data-entities/data-import-export-job.md)
 
@@ -427,13 +431,18 @@
 
 ## [Usar su propia base de datos](analytics/export-entities-to-your-own-database.md)
 
+
+## [Automatización de tareas de datos](data-entities/data-task-automation.md)
+
 ## [Recursos para responder a una solicitud de datos de RGPD](gdpr/gdpr-home-page.md)
 ### [Guía de RGPD para Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-auditing-sensitive-data.md)
+### [Clasificaciones de activos](gdpr/gdpr-asset-classification-values.md)
 ### [Usar el informe de búsqueda de personas](gdpr/gdpr-person-search-report.md)
 ### [Ampliar el informe de búsqueda de personas](gdpr/gdpr-extend-person-search-report.md)
 ### [Administrar el acceso a datos confidenciales](gdpr/gdpr-auditing-sensitive-data.md)
 ### [Responder a una solicitud de datos personales con Talent](gdpr/respond-dsr-request-talent.md)
 ### [Responder a una solicitud de datos personales con Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
+
 
 # [Página principal de entrega continua](dev-tools/continuous-delivery-home-page.md)
 ## [Preguntas frecuentes sobre desarrollo y entrega continua](dev-tools/continuous-delivery-faq.md)
@@ -530,7 +539,8 @@
 ### [Actualización de AX 2012 - Publicación](migration-upgrade/2012-upgrade-cutover.md)
 
 ### Cambios que afectan a la actualización desde AX 2012
-#### [Actualización de revalorización de divisa y asiento único ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
+#### [El delimitador del plan de cuentas debe ser único](migration-upgrade/chart-accounts-delimiter-unique.md)
+#### [Actualización de revalorización de divisa y asiento único](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [Modelo de datos de programación de recursos del proyecto](migration-upgrade/data-model-changes-resource-management.md)
 #### [Cambios en el subsistema de flujo de trabajo](migration-upgrade/workflow-subsystem.md)
 #### [Motivos del cambio de cubos a modelos agregados](migration-upgrade/in-memory-real-time-aggregate-models.md)
@@ -568,7 +578,8 @@
 ### [Características en desuso](migration-upgrade/deprecated-features.md)
 
 # [Administración del sistema](sysadmin/system-administration-home-page.md)
-## [Preguntas frecuentes sobre las actualizaciones mensuales de la plataforma](sysadmin/faq-platform-monthly-updates.md)
+## [Preguntas más frecuentes sobre las actualizaciones mensuales de la plataforma](sysadmin/faq-platform-monthly-updates.md)
+## [Máquinas virtuales que no permiten al administrador acceder a las preguntas más frecuentes](sysadmin/VMs-no-admin-access.md)
 ## [Agregar vínculos a los términos legales y a la declaración de privacidad de la organización](sysadmin/legal-terms-privacy-statement.md)
 ## [Informe de códigos de licencia y claves de configuración](sysadmin/license-codes-configuration-keys-report.md)
 ## [Uso compartido de datos entre empresas](sysadmin/cross-company-data-sharing.md)
@@ -612,14 +623,17 @@
 ## [Tareas completadas en una biblioteca BPM](lifecycle-services/complete-tasks-bpm.md)
 ## [Usar diagramas de actividad](lifecycle-services/using-activity-diagrams.md)
 ## [Sincronizar una biblioteca BPM con Visual Studio Team Services (VSTS)](lifecycle-services/synchronize-bpm-vsts.md)
+## [Crear una prueba de habitación de aceptación mediante las guías de tareas y el BPM](lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
 ## [Diagramas de flujo del modelador de procesos empresariales](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Cargar procesos empresariales personalizados](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Supervisión y diagnóstico ](lifecycle-services/monitoring-diagnostics.md)
 ## [Reiniciar servicios del entorno](lifecycle-services/restart-environment-services.md)
 ## [Seguimiento de inicios de sesión de usuario](lifecycle-services/user-logins.md)
 ## [Biblioteca de activos](lifecycle-services/asset-library.md)
-## [Microsoft Dynamics 365: información general sobre el servicio de traducción](lifecycle-services/translation-service-overview.md)
+## [Microsoft Dynamics 365: visión general del servicio de traducción](lifecycle-services/translation-service-overview.md)
 ### [Microsoft Dynamics 365: manual del usuario del servicio de traducción](lifecycle-services/use-translation-service.md)
+### [Servicio de traducción de Microsoft Dynamics 365: traducción del archivo de documentación](lifecycle-services/use-translation-service-ua.md)
+### [Servicio de traducción de Microsoft Dynamics 365: memoria de traducción](lifecycle-services/use-translation-service-tm.md)
 
 ## Características de Dynamics AX 2012 Lifecycle Services
 ### Implementación

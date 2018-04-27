@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Configuración de un paso de aprobación en un flujo de trabajo
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema explica cómo configurar las propiedades de un paso de aprobación.
 
@@ -145,9 +144,9 @@ Siga estos pasos para especificar a quién se debe asignar el paso de aprobació
     Si el usuario no realiza ninguna acción en el documento en el tiempo asignado, el documento se considera vencido. Los documentos vencidos se remiten a una instancia superior en función de las opciones que se seleccionen en el área **Remisión a una instancia superior** de la página.
 4.  Si asignó el paso de aprobación a varios usuarios o a un grupo de usuarios, en la pestaña **Directiva de finalización**, seleccione una de las siguientes opciones:
     -   **Un único aprobador**: la acción que se aplica al documento la determina la primera persona que responde. Por ejemplo, supongamos que Sam ha enviado un informe de gastos por un total de 15.000 USD. En este momento, el informe de gastos está asignado a Sue, Jo y Bill. Si Sue es la primera persona que responde al documento, la acción que ella lleva a cabo se aplica al documento. Si Sue rechaza el documento, se lo rechaza y se lo vuelve a enviar a Sam. Si Sue aprueba el documento, se lo envía a Ann para que lo apruebe. 
-    
+
     ![Flujo de trabajo que tiene un proceso de aprobación](./media/workflow_multipleusersinstep.gif)
-    
+
     -   **Mayoría de aprobadores**: la acción que se aplica al documento se determina cuando responde la mayoría de los aprobadores. Por ejemplo, supongamos que Sam ha enviado un informe de gastos por un total de 15.000 USD. En este momento, el informe de gastos está asignado a Sue, Jo y Bill. Si Sue y Jo son las dos primeras aprobadoras en responder, la acción que ellas llevan a cabo se aplica al documento.
         -   Si Sue aprueba el documento pero Jo lo rechaza, el documento se rechaza y se vuelve a enviar a Sam.
         -   Si tanto Sue como Jo aprueban el documento, se lo envía a Ann para que lo apruebe.

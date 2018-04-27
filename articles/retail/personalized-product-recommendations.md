@@ -29,8 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personalized-product-recommendations-overview"></a>Visión general de recomendaciones de productos personalizados
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > Estamos retirando la versión actual del servicio de recomendación de productos ya que rediseñamos esta función con un algoritmo mejor y capacidades más nuevas orientadas a la venta minorista. Para obtener más información, consulte [Funciones retiradas u obsoletas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). Desplácese al inferior de la página si tiene problemas con las recomendaciones ya habilitadas del producto para su entorno. 
@@ -86,9 +85,9 @@ Al activar **Habilitar recomendaciones del permiso** y ejecutar los trabajos de 
 -   Las credenciales del modelo y el id. se ponen a disposición de CRT para que se puedan aplicar llamadas para recomendaciones de productos desde el PDV en la nube y el MPOS en modo en línea.
 
 > ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Solucionar problemas donde tiene recomendaciones de productos ya habilitadas 
->- Vaya **Parámetros de ventas al por menor** > **Aprendizaje automático** > **Deshabilitar recomendaciones de productos** y ejecute **Trabajo de configuración global [1110]**. Si no puede encontrar la pestaña **Aprendizaje automático**, póngase en contacto con el soporte de Dynamics. 
-
->- Si agregó el **Control de recomendaciones** a su pantalla de transacción mediante el **Diseñador de pantalla**, quítelo también. 
+> - Vaya **Parámetros de ventas al por menor** > **Aprendizaje automático** > **Deshabilitar recomendaciones de productos** y ejecute **Trabajo de configuración global [1110]**. Si no puede encontrar la pestaña **Aprendizaje automático**, póngase en contacto con el soporte de Dynamics. 
+> 
+> - Si agregó el **Control de recomendaciones** a su pantalla de transacción mediante el **Diseñador de pantalla**, quítelo también. 
 
 
 

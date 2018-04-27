@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Compatibilidad del tablero de transferencia kanban para escáneres de códigos de barras
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 El tablero de transferencia kanban admite la entrada del escáner desde un lector de códigos de barras de widget para seleccionar, iniciar, completar y vaciar un trabajo kanban.
 
@@ -38,6 +37,7 @@ El tablero de transferencia kanban admite la entrada del escáner desde un lecto
 ------------------
 
 En la ficha desplegable **Registro de escáner**, puede seleccionar el modo de registro, que controla la acción cuando se escanea un número de tarjeta kanban o se escribe manualmente el número en el campo de número de tarjeta kanban.
+
 | Establecer modo de registro | Descripción                                                                                     |
 |-----------------------|-------------------------------------------------------------------------------------------------|
 | Iniciar                 | Registra un trabajo de transferencia kanban como en curso.                                                 |

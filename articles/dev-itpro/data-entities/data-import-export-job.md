@@ -16,16 +16,16 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="data-import-and-export-jobs"></a>Trabajos de exportación e importación de datos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Para crear y administrar trabajos de importación y exportación de datos en Microsoft Dynamics 365 for Finance and Operations debe usar el espacio de trabajo **Administración de datos**. De forma predeterminada, el proceso de importación y exportación de datos crea una tabla de almacenamiento provisional para cada entidad en la base de datos de destino. Las tablas de almacenamiento provisional le permiten verificar, limpiar o convertir datos antes de moverlos de sitio.
 
@@ -64,13 +64,15 @@ Le recomendamos que se tome el tiempo necesario para seleccionar una categoría 
 Puede agregar entidades específicas a un trabajo de importación o exportación o seleccionar la plantilla que se aplicará. Las plantillas rellenan un trabajo con una lista de entidades. La opción **Aplicar la plantilla** solo está disponible después de nombrar el trabajo y guardarlo.
 
 ### <a name="set-the-data-format-for-the-job"></a>Establecer el formato de datos del trabajo
-Al seleccionar una entidad, debe seleccionar el formato de los datos que se exportarán o importarán. Puede definir los formatos mediante el icono **Configuración de orígenes de datos**. Muchas empresas comienzan usando los formatos que se incluyen de forma predeterminada en el conjunto de datos de prueba. A continuación le proporcionamos una lista de algunos de estos formatos:
+Al seleccionar una entidad, debe seleccionar el formato de los datos que se exportarán o importarán. Puede definir los formatos mediante el icono **Configuración de orígenes de datos**. Un formato de datos de origen es una combinación de **Tipo**, **Formato de archivo**, **Delimitador de la fila** y **Delimitador de columna**. También hay otros atributos, pero estos son los clave para comprender. En la tabla siguiente aparecen las combinaciones válidas.
 
-- AX (para los datos que se deben importar o exportar en el mismo formato que se usa en Microsoft Dynamics 365 for Finance and Operations)
-- ColonSeparated
-- CSV
-- Excel
-- Paquete
+| **Formato de archivo**        | **Delimitador de columna/fila**                   | **Estilo XML**             |
+|------------------------|--------------------------------------------|---------------------------|
+| Excel                  | Excel                                      | \-N/D-                     |
+| XML                    | \-N/D-                                      | Elemento-XML atributo-XML |
+| Delimitado, ancho fijo | Coma, punto y coma, tabulador, barra vertical, dos puntos | \-N/D-                     |
+
+
 
 ### <a name="sequence-the-entities"></a>Ordenar las entidades
 Puede ordenar las entidades en una plantilla de datos o en trabajos de importación y exportación. Cuando ejecute un trabajo que contenga más de una entidad de datos, asegúrese de que están correctamente ordenadas. Puede ordenar las entidades principales para trabajar con cualquier dependencia funcional que esté entre ellas. Si las entidades no tienen dependencias funcionales, pueden ser programadas en una la importación o exportación paralela.

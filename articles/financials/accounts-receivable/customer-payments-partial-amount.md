@@ -28,8 +28,7 @@ ms.lasthandoff: 01/18/2018
 
 # <a name="customer-payments-for-a-partial-amount"></a>Pagos de cliente para un importe parcial
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 A veces, los clientes realizan un pago inferior al importe de la factura. Este artículo describe las diferentes opciones para gestionar esta situación. Las opciones disponibles dependen de la configuración y de los requisitos empresariales.
 

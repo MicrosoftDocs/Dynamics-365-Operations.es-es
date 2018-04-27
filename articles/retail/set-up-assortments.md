@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-assortments"></a>Configuración de selecciones
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este artículo describe qué es una selección y explica cómo configurar selecciones en Microsoft Dynamics 365 for Retail.
 

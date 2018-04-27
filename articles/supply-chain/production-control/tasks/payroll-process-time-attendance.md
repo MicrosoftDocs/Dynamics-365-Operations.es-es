@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a>Habilitar el proceso de nómina para tiempo y asistencia
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo habilitar el proceso de nóminas para tiempo y asistencia. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

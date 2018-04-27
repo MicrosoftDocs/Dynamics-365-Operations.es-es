@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>Crear transacciones de impuestos en documentos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Los impuestos en los documentos se calculan si proporciona un grupo de impuestos y un grupo de impuestos de artículos en las líneas del documento. Los valores predeterminados provienen de los datos maestros pero se pueden cambiar manualmente en caso necesario. Los impuestos calculados se pueden comprobar en el nivel de línea y de documento. Esta tarea usa la empresa de demostración USMF.
 

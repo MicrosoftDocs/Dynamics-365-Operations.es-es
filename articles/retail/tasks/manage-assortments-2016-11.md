@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="manage-assortments"></a>Gestionar selecciones 
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento demuestra cómo crear y publicar un nuevo surtido de producto y utiliza los datos de demostración de la empresa USRT. Este procedimiento requiere la aplicación Dynamics AX 7.0.1 o na versión posterior, y la plataforma 7.1 de Dynamics AX.  
 

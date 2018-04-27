@@ -28,8 +28,7 @@ ms.lasthandoff: 01/03/2018
 
 # <a name="electronic-ledger-accounting-statements"></a>Extractos electrónicos de cuenta contable
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo explica cómo configurar y generar la versión 1.1 de los archivos XML de contabilidad general que todas las empresas de México debe presentar a las autoridades fiscales mexicanas (SAT) de manera mensual.
 
@@ -57,26 +56,26 @@ El siguiente proceso muestra los requisitos previos que se deben implementar ant
 8.  Asignación de método de pago SAT.
 9.  Asigne código de banco SAT en el campo número de ruta.
 
- 
+
 
 ### <a name="chart-of-accounts"></a>Plan contable
 
 Por requisitos del gobierno, el archivo XML Plan contable debe incluir información específica que debe configurar por adelantado para evitar incoherencias cuando se genera y se valida el archivo XML. Establezca los siguientes parámetros para configurar esta información:
 
--   **Cuenta principal primaria:** la etiqueta **&lt;SubCtaDe&gt;** del archivo XML se usa para especificar la cuenta del nivel anterior. En este caso, usamos un campo de país o región de **Cuenta principal** en la configuración del plan de cuentas.
--   **Nivel de cuenta:** la etiqueta **&lt;Nivel&gt;** del archivo XML se usa para especificar el nivel del grupo de cuentas del gobierno. Localizamos la funcionalidad del campo **Grupo de cuentas de consolidación** en **Cuentas de consolidación adicionales** para especificar el nivel del grupo de cuentas del gobierno.
--   **Indicador de débito o crédito:** la etiqueta **&lt;Natur&gt;** del archivo XML se usa para especificar el indicador de débito y crédito de la cuenta principal. Se han definido las siguientes reglas:
-    -   **Débito D**
-        -   Tipo de cuenta principal = Coste, Activo
-        -   Tipo de cuenta principal: Si Pérdidas/ganancias y Propuesta Debe/Haber = Débito
-        -   Tipo de cuenta principal: Si Saldo y Propuesta Debe/Haber = Débito
-        -   Tipo de cuenta principal: Si Pérdidas/ganancias y Propuesta Debe/Haber = En blanco
-        -   Tipo de cuenta principal: Si Saldo y Propuesta Debe/Haber = En blanco
-    -    **Crédito A**
-        -   Tipo de cuenta: Ingresos, Pasivo
-        -   Tipo de cuenta AX: Si Pérdidas/ganancias y Propuesta Debe/Haber = Crédito
-        -   Tipo de cuenta AX: Si Saldo y Propuesta Debe/Haber = Crédito
--   **Importe de totales en todos los niveles:** Configure el valor de **Totales** en el plan de cuentas para habilitar la generación de un archivo XML Saldo de comprobación mensual que incluye los importes de los totales relacionados en todos los niveles de la jerarquía.
+- **Cuenta principal primaria:** la etiqueta **&lt;SubCtaDe&gt;** del archivo XML se usa para especificar la cuenta del nivel anterior. En este caso, usamos un campo de país o región de **Cuenta principal** en la configuración del plan de cuentas.
+- **Nivel de cuenta:** la etiqueta **&lt;Nivel&gt;** del archivo XML se usa para especificar el nivel del grupo de cuentas del gobierno. Localizamos la funcionalidad del campo **Grupo de cuentas de consolidación** en **Cuentas de consolidación adicionales** para especificar el nivel del grupo de cuentas del gobierno.
+- **Indicador de débito o crédito:** la etiqueta **&lt;Natur&gt;** del archivo XML se usa para especificar el indicador de débito y crédito de la cuenta principal. Se han definido las siguientes reglas:
+  - **Débito D**
+    -   Tipo de cuenta principal = Coste, Activo
+    -   Tipo de cuenta principal: Si Pérdidas/ganancias y Propuesta Debe/Haber = Débito
+    -   Tipo de cuenta principal: Si Saldo y Propuesta Debe/Haber = Débito
+    -   Tipo de cuenta principal: Si Pérdidas/ganancias y Propuesta Debe/Haber = En blanco
+    -   Tipo de cuenta principal: Si Saldo y Propuesta Debe/Haber = En blanco
+  - **Crédito A**
+    -   Tipo de cuenta: Ingresos, Pasivo
+    -   Tipo de cuenta AX: Si Pérdidas/ganancias y Propuesta Debe/Haber = Crédito
+    -   Tipo de cuenta AX: Si Saldo y Propuesta Debe/Haber = Crédito
+- **Importe de totales en todos los niveles:** Configure el valor de **Totales** en el plan de cuentas para habilitar la generación de un archivo XML Saldo de comprobación mensual que incluye los importes de los totales relacionados en todos los niveles de la jerarquía.
 
 ### <a name="sat-account-group"></a>Grupo de cuentas SAT
 

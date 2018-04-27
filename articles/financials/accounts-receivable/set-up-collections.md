@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-credit-and-collections"></a>Configuración de crédito y cobros
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se explica cómo configurar la funcionalidad de cobros.
 
@@ -97,9 +96,9 @@ Si no se especifica un representante de ventas, se usará el vendedor principal 
 Para obtener más información, consulte los siguientes temas:
 
  - [Crear una secuencia de cartas de cobro](tasks/create-collection-letter-sequence.md)
- 
+
  - [Procesar cartas de cobro](tasks/process-collection-letters.md)
- 
+
  - [Revisar información de cobros](tasks/review-collections-information.md)
 
 

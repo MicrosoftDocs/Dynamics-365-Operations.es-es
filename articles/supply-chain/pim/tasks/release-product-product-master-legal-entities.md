@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Liberar un producto o un producto maestro a otras entidades jurídicas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo liberar un producto o a un producto maestro en una o más entidades jurídicas. La empresa de datos de prueba utilizada para crear esta tarea es USRT y la tarea está pensada para el encargado de comercialización y el diseñador de productos.
 

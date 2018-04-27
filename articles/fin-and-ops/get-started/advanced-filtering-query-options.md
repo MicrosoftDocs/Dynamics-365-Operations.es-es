@@ -19,17 +19,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1fe940d2d282a5b4468b3ba572626b5c87839e6d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4361311be0cf5c33c9b2fa4700b084a7b43f5b65
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-filtering-and-query-syntax"></a>Sintaxis de consulta y filtro avanzados
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo describe el filtrado y las opciones de consulta que están disponibles cuando usa el operador “coincide” en el cuadro de diálogo Ordenación o filtro avanzados.
 
@@ -68,7 +67,7 @@ Este artículo describe el filtrado y las opciones de consulta que están dispon
 <td><em>valor-inicial</em>..<em>valor-final</em> (dos puntos seguidos)</td>
 <td>Entre los dos valores que están separados por dos puntos seguidos</td>
 <td>Escriba el valor inicial, después los dos puntos y, por último, el valor final.</td>
-<td><strong>1..10</strong> encuentra todos los valores desde 1 hasta 10. No obstante, en un campo de cadena, <strong>A..C</strong> encuentra todos los valores que empiezan por &quot;A&quot; y &quot;B&quot; y los valores que son exactamente iguales a &quot;C&quot;. Por ejemplo, esta consulta no encontrará &quot;Ca&quot;. Para encontrar todos los valores de la &quot;A*&quot; a la &quot;C*&quot;, escriba <strong>A..D</strong>.</td>
+<td><strong>1..10</strong> encuentra todos los valores desde 1 hasta 10. No obstante, en un campo de cadena, <strong>A..C</strong> encuentra todos los valores que empiezan por &quot;A&quot; y &quot;B&quot; y los valores que son exactamente iguales a &quot;C&quot;. Por ejemplo, esta consulta no encontrará &quot;Ca&quot;. Para encontrar todos los valores de la &quot;A<em>&quot; a la &quot;C</em>&quot;, escriba <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>valor</em> (dos puntos seguidos)</td>
@@ -97,20 +96,20 @@ Este artículo describe el filtrado y las opciones de consulta que están dispon
 <tr class="even">
 <td><em>valor</em>* (asterisco)</td>
 <td>Que empieza por el valor que se especifica</td>
-<td>Escriba el valor inicial y, a continuación, un asterisco (<strong>*</strong>).</td>
-<td><strong>S*</strong> encuentra cualquier cadena que empiece por &quot;S&quot;, como &quot;Suecia&quot;, &quot;Sydney&quot; y &quot;San Francisco&quot;.</td>
+<td>Escriba el valor inicial y, a continuación, un asterisco (<strong><em></strong>).</td>
+<td><strong>S</em></strong> encuentra cualquier cadena que empiece por &quot;S&quot;, como &quot;Estocolmo&quot;, &quot;Sidney&quot; y &quot;San Francisco&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>valor</em> (asterisco)</td>
+<td><em><em>valor</em> (asterisco)</td>
 <td>Termina por el valor que se especifica</td>
 <td>Escriba un asterisco y, a continuación, el valor final.</td>
-<td><strong>*este</strong> encuentra cualquier cadena que termine por &quot;este&quot;, como &quot;Nordeste&quot; y &quot;Sudeste&quot;.</td>
+<td><strong></em>este</strong> encuentra cualquier cadena que termine por &quot;este&quot;, como &quot;Nordeste&quot; y &quot;Sudeste&quot;.</td>
 </tr>
 <tr class="even">
-<td>*<em>valor</em>* (asterisco)</td>
+<td><em><em>valor</em></em> (asterisco)</td>
 <td>Contiene el valor especificado</td>
 <td>Escriba un asterisco, a continuación un valor y, por último, otro asterisco.</td>
-<td><strong>*de*</strong> encuentra las cadenas que contengan &quot;de&quot; como &quot;Nordeste&quot; y &quot;Sudeste&quot;.</td>
+<td><strong><em>de</em></strong> encuentra las cadenas que contengan &quot;de&quot; como &quot;Nordeste&quot; y &quot;Sudeste&quot;.</td>
 </tr>
 <tr class="odd">
 <td>? (signo de interrogación)</td>
@@ -131,7 +130,7 @@ Este artículo describe el filtrado y las opciones de consulta que están dispon
 <td><strong><span class="code">(origen_de_datos.Nombre_de_campo != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
-<td>N</td>
+<td>T</td>
 <td>Fecha de hoy</td>
 <td>Escriba <strong>B</strong>.</td>
 <td><strong>B</strong> coincide con la fecha de hoy.</td>

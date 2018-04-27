@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6426f208a51ffbf72c6faa8cb281aba2984052d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Ver y exportar descripciones de campos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se describe cómo ver las descripciones de campos y cómo utilizar la página Descripciones de campos para exportar las descripciones.
 
@@ -77,7 +76,7 @@ Hay varias formas de buscar una página en el campo **Seleccionar una página**.
     -   Si hay más de una coincidencia exacta, no se muestran descripciones. Debe abrir la lista desplegable y seleccionar la página que desea.
     -   Si el nombre que ha escrito forma parte del nombre de otra página, vea las descripciones de la página. Sin embargo, si abre la lista desplegable, consulte las páginas adicionales que contienen ese nombre.
 
-Por ejemplo, no se muestran descripciones al escribir **Recuento** en el campo ****Seleccionar una página***. Abre la lista desplegable y ve que hay dos páginas con el nombre **Recuento**, así como varias páginas que contienen la palabra "Recuento" en el nombre. Si selecciona la página que tiene el nombre AOT **InventJournalCount**, se muestran las descripciones de campo de esa página. Sin embargo, si vuelve a abrir la lista desplegable, verá que, ahora, la lista contiene todas las páginas que tienen "InventJournalCount" como parte de su nombre de AOT.
+Por ejemplo, no se muestran descripciones al escribir <strong>Recuento</strong> en el campo *<strong><em>Seleccionar una página</em></strong>*. Abre la lista desplegable y ve que hay dos páginas con el nombre <strong>Recuento</strong>, así como varias páginas que contienen la palabra "Recuento" en el nombre. Si selecciona la página que tiene el nombre AOT <strong>InventJournalCount</strong>, se muestran las descripciones de campo de esa página. Sin embargo, si vuelve a abrir la lista desplegable, verá que, ahora, la lista contiene todas las páginas que tienen "InventJournalCount" como parte de su nombre de AOT.
 
 ## <a name="troubleshooting"></a>Solución de problemas
 En esta sección se proporciona información que le ayudará a solucionar los problemas que puedan surgir al utilizar las descripciones de campos.

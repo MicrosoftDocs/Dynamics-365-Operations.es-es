@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>Configurar SQL Server Reporting Services para una implementación local
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Use los pasos de este tema para configurar SQL Server Reporting Services (SSRS) para la implementación de su Microsoft Dynamics 365 for Finance and Operations (local).
 
@@ -52,13 +52,13 @@ Use los pasos de este tema para configurar SQL Server Reporting Services (SSRS) 
 
     [![ficha de url de portal Web](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
     
-  Tras configurar el portal, la pestaña **Portal Web** coincidirá el siguiente gráfico.
+   Tras configurar el portal, la pestaña **Portal Web** coincidirá el siguiente gráfico.
     [![ficha de portal Web](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)
     
 8. Haga clic en la dirección URL de informes para ver el portal Web de SQL Server Reporting Services. 
-9.  Cuando esté en el portal, cree una nueva carpeta denominada **Dynamics**.
+9. Cuando esté en el portal, cree una nueva carpeta denominada **Dynamics**.
 
-    [![carpeta dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
+   [![carpeta dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
     
 10. En **Administrador de configuración de Reporting Services**, haga clic en la pestaña **Configuración de correo electrónico** y compruebe que los valores coincidan con el siguiente gráfico.
 
@@ -68,15 +68,15 @@ Use los pasos de este tema para configurar SQL Server Reporting Services (SSRS) 
 
     [![Pestaña Cuenta de ejecución](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)
     
-  No cambie la configuración predeterminada en la pestaña **Claves de cifrado**. [![pestaña de claves de cifrado](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
+    No cambie la configuración predeterminada en la pestaña **Claves de cifrado**. [![pestaña de claves de cifrado](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
     
 12. Haga clic en la pestaña **Configuración de suscripción** y compruebe que los valores coincidan con el siguiente gráfico.
 
     [![pestaña de configuración de suscripción](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)
     
-  No cambie la configuración predeterminada en la pestaña **Escala de implementación**. [![pestaña de escala de implementación](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
+    No cambie la configuración predeterminada en la pestaña **Escala de implementación**. [![pestaña de escala de implementación](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
     
-  No cambie la configuración predeterminada en la pestaña **Integración de Power BI**. [![pestaña de integración de power bi](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
+    No cambie la configuración predeterminada en la pestaña **Integración de Power BI**. [![pestaña de integración de power bi](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
     
 13. Haga clic en **Salir** para cerrar el **administrador de configuración de Reporting Services**.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="create-an-engaging-onboarding-experience"></a>Crear una experiencia de incorporación interesante
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Gracias a una incorporación efectiva, los nuevos empleados pueden realizar sus tareas de manera más eficaz a la vez que van adquiriendo un sentido de pertenencia en su nuevo rol. El proceso de incorporación puede ayudar a los empleados a comprender su nuevo rol de manera rápida y fiable y les permite establecer relaciones duraderas que les permitirá alcanzar el éxito. Recuerde que si el proceso de incorporación no se hace como es debido, es posible que los empleados nuevos se cuestionen el por qué se unieron a su organización. Un estudio que realizó Gartner en 2014, muestra que casi un tercio de los 1.005 encuestados que dejaron un trabajo en los seis primeros meses lo hicieron porque las instrucciones que les proporcionaron sus jefes no fueron concisas, su formación no fue eficaz o porque no pudieron relacionarse con sus compañeros o adaptarse al nuevo entorno.
 

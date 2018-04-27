@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Configurar el proceso de importación avanzada de conciliación bancaria
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 La característica Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios. 
 
@@ -57,7 +56,7 @@ A continuación se presentan ejemplos de diseño técnico de archivo de importac
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
 
- 
+
 
 ## <a name="set-up-the-import-of-iso20022-bank-statements"></a>Configuración de la importación de los extractos bancarios ISO20022
 En primer lugar, debe definir el grupo de procesamiento del formato de extractos bancarios para los extractos bancarios ISO20022 mediante el marco de entidades de datos.

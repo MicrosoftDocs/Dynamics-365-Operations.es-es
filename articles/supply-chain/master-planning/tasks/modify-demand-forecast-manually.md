@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Modificación manual de una previsión de demanda
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo modificar la previsión de un artículo. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Esta grabación va destinada al planificador de producción. 
 

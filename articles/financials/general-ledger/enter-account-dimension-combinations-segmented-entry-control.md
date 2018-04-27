@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Especificar combinaciones de cuentas y dimensiones (control de entrada segmentada)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo describe cómo especificar combinaciones de cuenta y dimensión o cuentas contables. La experiencia de entrada suele denominarse control de entrada segmentado.
 
@@ -112,7 +111,7 @@ En la tabla siguiente se describen los métodos abreviados de teclado que se pue
 </tbody>
 </table>
 
- 
+
 
 
 

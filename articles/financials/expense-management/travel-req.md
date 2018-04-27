@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="travel-requisitions"></a>Solicitudes de viaje
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Un *pedido de viaje* es un documento de origen que enumera los gastos en los que se ha incurrido con el fin del viaje. Un pedido de viaje se envía para revisión y se puede usar para autorizar gastos.
 

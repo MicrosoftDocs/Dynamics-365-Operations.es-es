@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a>Procesar ajustes de puntos de recompensa de fidelización
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo buscar información de la tarjeta de fidelización y ajustar puntos de recompensa de fidelización. La empresa de datos de prueba utilizada para crear esta tarea es USRT. Esta tarea está pensada para el rol Encargado de operaciones comerciales o Director de servicio al cliente.
 

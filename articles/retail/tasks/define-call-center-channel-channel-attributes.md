@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a>Definición del canal del centro de llamadas y de los atributos del canal
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo crear un nuevo canal de ventas minoristas y definir atributos de canal. La empresa de datos de prueba utilizada para crear esta tarea es USRT. Este procedimiento se va a utilizar para el rol de TI de venta minorista.
 

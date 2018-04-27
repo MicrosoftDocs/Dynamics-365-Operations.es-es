@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reserve-inventory-quantities"></a>Reservar cantidades de inventario
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se describen las diferentes opciones de reserva de inventario disponibles.
 
@@ -50,6 +49,7 @@ Las directivas de reserva de inventario se establecen en la página de **Grupos 
 ### <a name="policies-on-the-item-model-groups-page"></a>Directivas en la página de los grupos de modelos de artículos
 
 La sección de **Directivas de inventario** contiene las siguientes directivas de reserva.
+
 |                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Directiva de las reservas**  | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -63,6 +63,7 @@ La sección de **Directivas de inventario** contiene las siguientes directivas d
 #### <a name="example-for-fifo-date-controlled-and-backward-from-ship-date"></a>Ejemplo de FIFO controlado mediante la fecha y Fecha de envío en orden inverso
 
 En este ejemplo, el inventario disponible para el número de artículo A existe para tres números de lote distintos.
+
 | código de artículo | Número de lote | Cantidad | Fecha             |
 |-------------|--------------|----------|------------------|
 | A           | 1000         | 5        | 2 de febrero de 2016 |

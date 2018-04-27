@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-cost-rollup-policy"></a>Crear una directiva de acumulación de costes
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear una directiva de acumulación de costes y crea reglas para la directiva. Los datos de demostración utilizados para crear este procedimiento son los de la empresa USP2.
 

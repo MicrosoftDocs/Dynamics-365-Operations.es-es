@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="import-iso20022-files"></a>Importar archivos ISO20022
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Puede importar archivos de pago que tienen los siguientes formatos:
 
@@ -41,8 +41,8 @@ Debe completar los requisitos previos siguientes para importar mensajes de notif
 3. En la página **Cuenta bancaria de cliente**, configure un registro de cuenta bancaria del cliente especificando la siguiente información: IBAN o número de cuenta bancaria, y código SWIFT o número de ruta.
 4. En la página **Cuentas bancarias**, configure cuentas bancarias de entidades jurídicas especificando la siguiente información: IBAN o número de cuenta bancaria, y código SWIFT o número de ruta, divisa y dirección.
 
-    > [!NOTE]
-        > Si tiene previsto usar la conciliación bancaria avanzada, en la ficha desplegable **Conciliación**, establezca la opción **Conciliación bancaria avanzada** en **Sí**. Si pretende conciliar pagos importados sin registrar, establezca la opción **Usar extractos bancarios como confirmación de pagos electrónicos** en **Sí**.
+   > [!NOTE]
+   > Si tiene previsto usar la conciliación bancaria avanzada, en la ficha desplegable **Conciliación**, establezca la opción **Conciliación bancaria avanzada** en **Sí**. Si pretende conciliar pagos importados sin registrar, establezca la opción **Usar extractos bancarios como confirmación de pagos electrónicos** en **Sí**.
 
 5. Opcional: En la página **Asignación de código de transacción**, configure la asignación entre los códigos de transacción bancaria en los tipos de archivo y de transacción bancaria.
 6. Si el archivo contiene gastos de transacción que desea registrar junto con el pago de entrada, cree una cuota de pago en la página **Cuota de pago del cliente**. A continuación, en la página **Formas de pago**, asocie la cuota de pago con la cuenta bancaria en la configuración de cuota de pago.

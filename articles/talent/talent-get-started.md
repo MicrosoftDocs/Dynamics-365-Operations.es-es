@@ -26,14 +26,14 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Introducción a Microsoft Dynamics 365 for Talent
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 En Microsoft Dynamics 365 for Talent es fácil modificar la interfaz de usuario y establecer opciones para hacer el software más intuitivo para sus necesidades. Este tema incluye vínculos a temas que ofrecen información sobre cómo adaptar la interfaz de usuario a sus preferencias. El tema también incluye vínculos a información que puede ayudarle a encontrar información en el sistema con eficiencia y fiabilidad. 
 
 > [!NOTE] 
 > Los siguientes productos están estrechamente relacionados: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail; y Dynamics 365 for Talent. Puede que los tres productos tengan la misma funcionalidad. Como resultado, en los temas relativos principalmente a Retail, el nombre de producto será 365 Dynamics for Retail, en los temas relativos principalmente a Talent, el nombre de producto será Dynamics 365 Talent y en los temas relativos principalmente al producto básico, el nombre del producto será Dynamics 365 for Finance and Operations. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
 
-### <a name="personalizing-talent"></a>Personalizar Talent 
+## <a name="personalizing-talent"></a>Personalizar Talent 
 Los temas siguientes muestran cómo configurar muchas características de Dynamics 365 for Talent que facilitan la realización de su trabajo a tiempo. 
 
 -   [Personalizar la experiencia del usuario](../fin-and-ops/get-started/personalize-user-experience.md) - Este tema explica las distintas formas en las que puede personalizar Talent y adaptar partes del producto para que se ajusten más a sus preferencias.
@@ -44,7 +44,7 @@ Los temas siguientes muestran cómo configurar muchas características de Dynami
 
 -   [Métodos abreviados de teclado](../fin-and-ops/get-started/shortcut-keys.md) - Este tema muestra métodos abreviados de teclado para la configuración de teclado de Estados Unidos. 
 
-### <a name="accessing-information"></a>Acceder a información
+## <a name="accessing-information"></a>Acceder a información
 En los temas siguientes se explica cómo utilizar búsquedas, así como las funciones de búsqueda y filtrado, para buscar rápidamente información. 
 
 -   [Utilizar búsquedas para encontrar información](../fin-and-ops/get-started/use-lookups-to-find-information.md) - Este tema muestra cómo las búsquedas pueden ayudarle a buscar rápidamente el valor correcto o deseado. El tema describe cómo funcionan las búsquedas e incluye sugerencias para ayudarle a optimizar el uso que usted haga de ellas.

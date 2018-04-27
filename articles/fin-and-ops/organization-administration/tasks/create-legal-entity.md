@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-legal-entity"></a>Crear una entidad jurídica
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Una entidad jurídica es una organización identificada mediante el registro en una autoridad jurídica. Las entidades jurídicas pueden realizar contratos y tienen la obligación de preparar declaraciones para dar a conocer su rendimiento. El siguiente procedimiento explica cómo crear una entidad jurídica. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

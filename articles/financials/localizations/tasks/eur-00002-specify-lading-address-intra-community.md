@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="specify-a-lading-address-for-an-intra-community-transaction"></a>Especificar una dirección de embarque para una transacción intracomunitaria
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo especificar una dirección de embarque para una transacción de comercio intracomunitario. Por ejemplo, una empresa de Alemania pide artículos de un proveedor con una dirección empresarial alemana. Este proveedor tiene un almacén en Italia y envía artículos desde ahí. Esta entrega se debe notificar en Intrastat. El mismo comportamiento es válido para las devoluciones del cliente.
 Este procedimiento se aplica a todos los países o regiones europeos. Esta tarea se ha creado con los datos de demostración de la empresa DEMF y con una dirección principal en Alemania. Para poder completar este procedimiento, debe configurar los informes Intrastat. Este procedimiento está pensado para contables. Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-channel-specific-discounts"></a>Definición de descuentos específicos de un canal
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Los minoristas establecen a menudo distintos descuentos en diferentes canales. Este tema revisa los conceptos que necesita conocer para crear un descuento para un canal específico. 
 
@@ -61,7 +60,7 @@ En el ejemplo siguiente se muestran las tareas implicadas en la configuración d
 4.  Después de crear el nuevo descuento **Vuelta al cole**, debe hacer clic en **Grupos de precios**, en la parte superior de la página **Descuento**. Se abre la página **Grupos de precios de descuento**. A continuación, haga clic en **Nuevo** y seleccione el grupo de precios **Houston-PG**.
 5.  Ahora puede habilitar el descuento y transferirlo al canal.
 
- 
+
 
 <a name="see-also"></a>Consulte también
 --------

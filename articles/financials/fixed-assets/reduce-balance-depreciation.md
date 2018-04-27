@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduce-balance-depreciation"></a>Reducción de depreciación de saldo
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo le ofrece una visión general del método de depreciación Depreciación degresiva.
 
@@ -80,7 +79,7 @@ A través del método de Saldo decreciente, el 30 por ciento de la base de depre
 | Año 2 | (7.000 - 1.000) \* 30% = 1.800            | (7.000 -1.800) = 5.200                |
 | Año 3 | (5.200 - 1.000) \* 30% = 1.260            | (5.200 - 1.260) = 3.940               |
 
- 
+
 -
 
 

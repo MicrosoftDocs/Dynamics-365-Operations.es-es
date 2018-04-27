@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Creación de un producto liberado para una sola empresa
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo crear un único producto liberado en el contexto de una sola unidad legal. Una vez creado el producto liberado, estará disponible inmediatamente solo en esta unidad. Puede examinar este procedimiento en la empresa de datos de demostración USMF. Esta tarea la lleva a cabo normalmente un diseñador de productos.
 

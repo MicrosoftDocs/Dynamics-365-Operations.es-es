@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a>Creación de dimensiones financieras para los registros de PDV y configuración de los valores de dimensión en los registros
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra la creación de dimensiones financieras para registros del punto de venta (PDV) y muestra cómo configurar valores de dimensión financiera en los registros. Este procedimiento no incluye otros pasos relacionados, como la creación de conjuntos de dimensiones y estructuras contables. Estas tareas se pueden encontrar en otros temas. Esta grabación usa la empresa de demostración USRT.
 

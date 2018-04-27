@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="postdated-checks"></a>Cheques con fecha futura
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artículo proporciona información acerca de la compatibilidad de los cheques posfechados en Microsoft Dynamics 365 for Finance and Operations. Los cheques con fecha futura son cheques que se emiten con el fin de realizar y recibir pagos en una fecha futura. Por tanto, no se puede cobrar el cheque hasta la fecha especificada.
 
@@ -76,14 +75,14 @@ Si ha perdido o dañado el cheque original a un proveedor o de un cliente, puede
 <td>Puede cancelar un cheque posfechado registrado en las situaciones siguientes: - El banco ha devuelto el cheque.
 - El cheque se ha aplicado a una factura incorrecta.
 - Se debe hacer un pago en efectivo en relación al cheque.
-</td>
-</tr>
-<tr class="even">
-<td>Detener un pago de un cheque con pago diferido</td>
-<td>Puede detener el pago de cheque posfechado que se emitió a un proveedor por motivos como fondos insuficientes, cambio de las condiciones del contrato con el proveedor, suministro de mercancías defectuosas por proveedor o devolución de mercancías al proveedor. Puede detener el pago solo en los cheques que no ha compensado.</td>
-</tr>
-</tbody>
-</table>
+  </td>
+  </tr>
+  <tr class="even">
+  <td>Detener un pago de un cheque con pago diferido</td>
+  <td>Puede detener el pago de cheque posfechado que se emitió a un proveedor por motivos como fondos insuficientes, cambio de las condiciones del contrato con el proveedor, suministro de mercancías defectuosas por proveedor o devolución de mercancías al proveedor. Puede detener el pago solo en los cheques que no ha compensado.</td>
+  </tr>
+  </tbody>
+  </table>
 
 
 

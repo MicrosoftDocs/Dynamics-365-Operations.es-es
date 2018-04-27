@@ -3,12 +3,12 @@ title: "Página principal de Contabilidad de costes"
 description: Este tema proporciona una lista de temas de ayuda y otros recursos disponibles para la Contabilidad de costes.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
+ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>Página principal de la contabilidad de costes
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Mapa de aprendizaje 
 
@@ -37,6 +37,7 @@ El siguiente mapa de aprendizaje muestra los conceptos y tareas principales que 
 [![Mapa de aprendizaje de la contabilidad de costes](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Vínculos rápidos
+
 |      |   |
 |------|---|
 |  [Configurar las entidades bases (eLearning)](https://mbspartner.microsoft.com/Home) (requiere cuenta de CustomerSource)  |[Crear dimensiones](cost-elements.md)  |

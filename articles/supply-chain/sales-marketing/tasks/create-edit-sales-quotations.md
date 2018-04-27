@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-and-edit-sales-quotations"></a>Crear y editar presupuestos de ventas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear y actualizar un presupuesto de ventas. Puede ejecutar este procedimiento en sus propios datos o en la empresa de demostración USMF.
 

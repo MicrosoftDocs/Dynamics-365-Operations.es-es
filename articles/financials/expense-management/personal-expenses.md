@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="personal-expenses-on-an-expense-report"></a>Gastos personales en un informe de gastos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Durante los viajes de negocios, puede que los trabajadores carguen gastos personales en su tarjeta de crédito corporativa. Si no se define un proceso para gestionar los gastos personales, es posible que se interrumpa el proceso de aprobación del informe de gastos cuando los trabajadores envíen sus informes detallados de gastos. 
 

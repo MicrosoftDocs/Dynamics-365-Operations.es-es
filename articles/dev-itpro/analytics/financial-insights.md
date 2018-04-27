@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 33a8bc78006ae9e7d5ca905a98886fd7af706604
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-insights"></a>Financial Insights
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Financial Insights** utiliza Microsoft Power BI para reunir los indicadores clave de rendimiento financieros (KPI), los gráficos y los informes financieros. Power BI está incrustado en Microsoft Dynamics 365 for Finance and Operations.
 El enfoque de **Financial Insights** es un informe analítico. Las personas de una organización pueden ver, investigar, entender y actuar. 
@@ -107,8 +107,20 @@ Aunque **Financial Insights** contiene informes financieros, no es una sustituci
 
 El siguiente gráfico de comparación ayudará a diferenciar las dos opciones:
 
-|                                         | **Informe financiero**                            | **Financial Insights**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Edita informes predeterminados**                | Sí                                                | No                                 | | **Crea nuevos informes**                  | Sí                                                | No                                 | | **Imprime informes**                       | Sí                                                | No                                 | | **Se exporta a Excel**                     | Sí          | Limitado Exporta datos en bruto a Excel, no un informe formateado       | | **Admite jerarquía de informes/jerarquía de organización**   | Sí                               | No                                 | | **Informa sobre datos del subdiario contable**       | Sí Limitado a un único proveedor, cliente    | Sí Proveedor, cliente, grupos de proveedor/cliente, direcciones de proveedor/cliente, etc.  | | **Divisa de notificación**      | Sí Divisa de contabilidad y traduce a divisa de notificación       | No Solo divisa de contabilidad      | | **Seguridad**                | Sí Se adhiere a Finance and Operations y la seguridad del organigrama | Limitado Visualiza informes para todas las empresas (independientemente de la seguridad def Finance and Operations) o solo empresa activa | | **Admite diferentes planes de cuentas y ejercicios** | Sí                   | No                   | | **informa sobre datos externos**                              | No                   | No                                   | | **Admite consolidaciones**                               | Sí                          | Limitado Puede informar sobre múltiples empresas pero utiliza solo divisa de contabilidad                                     |
 
+|                                                                       |               <strong>Informes financieros</strong>                |                                      <strong>Financial Insights</strong>                                      |
+|-----------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+|                 <strong>Editar informes predeterminados</strong>                 |                                Sí                                |                                                      N.º                                                       |
+|                  <strong>Crear nuevos informes</strong>                  |                                Sí                                |                                                      N.º                                                       |
+|                    <strong>Imprimir informes</strong>                     |                                Sí                                |                                                      N.º                                                       |
+|                   <strong>Exportar a Excel</strong>                    |                                Sí                                |                           Exportación limitada de datos sin procesar a Excel, no un informe formateado                           |
+|  <strong>Jerarquía de informes de soporte/jerarquía organizativa</strong>  |                                Sí                                |                                                      N.º                                                       |
+|               <strong>Informe en datos de subcontabilidad</strong>               |               Sí Limitado para un único proveedor, cliente                |                 Sí Proveedor, cliente, grupos de proveedores o de clientes, direcciones de proveedores o de clientes, etc.                 |
+|                  <strong>Divisa de notificación</strong>                  |    Sí La divisa de contabilidad de y traduce a la divisa de notificación    |                                          No Divisa de contabilidad solo                                          |
+|                       <strong>Seguridad</strong>                       | Sí se adhiere a Finance and Operations y al informe de seguridad del árbol | Vista limitada de informes para todas las empresas (independientemente de la seguridad de Finance and Operations) o solo la empresa activa |
+| <strong>Adnmite diferentes planes de cuentas y años fiscales</strong> |                                Sí                                |                                                      N.º                                                       |
+|               <strong>Informe de datos externos</strong>                |                                N.º                                 |                                                      N.º                                                       |
+|                <strong>Admite consolidaciones</strong>                |                                Sí                                |                   Limitado puede notificar en varias empresas pero solo usa divisa de contabilidad                   |
 
 Además de la interfaz de usuario en el espacio de trabajo original **Visión general de director financiero (CFO)**, ahora están disponibles nuevos KPI, gráficos e informes financieros. Están disponibles los siguientes informes financieros:
 

@@ -20,16 +20,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="replenishment"></a>Reabastecimiento
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este tema se describen las estrategias de reabastecimiento que están disponibles para los almacenes que utilizan la funcionalidad disponible en Gestión de almacenes. La información de este tema no se aplica a la solución de almacenamiento que está disponible en Gestión de inventarios.
 
@@ -67,13 +67,15 @@ El reabastecimiento de demanda de carga suma la demanda para varias cargas y cre
 En lugar de tener que aumentar la demanda al final del proceso de asignación y realizar un reabastecimiento según la cantidad añadida, puede aplicar la estrategia de reabastecimiento inmediato. Al usar esta estrategia, el inventario puede reabastecerse inmediatamente después que se produzca un error en una línea de directiva de la ubicación. Por lo tanto, puede configurar el reabastecimiento de modo que esté limitado a unidades específicas y para que así utilice las cantidades que se establecieron en ubicaciones específicas.
 
 ## <a name="replenishment-prerequisites"></a>Requisitos previos de reabastecimiento
-| Requisito previo            | Descripción |
-|-------------------------|-------------|
-| Artículo                    | El artículo se debe habilitar para procesos de administración de almacenes. |
-| Almacén               | El almacén se debe habilitar para procesos de administración de almacenes. Para habilitar un almacén para procesos de administración de almacenes, en la página **Almacenes**, seleccione el almacén y, a continuación, seleccione la opción **Usar procesos de gestión de almacenes**. |
-| Plantillas de reabastecimiento | Se debe configurar al menos una plantilla de reabastecimiento para el reabastecimiento mínimo/máximo, el reabastecimiento de la demanda de oleada o el reabastecimiento de la demanda de la carga. |
-| Ubicaciones               | Se deben crear ubicaciones y conectarse a un perfil de ubicación. |
-| Perfiles de ubicación       | Se requieren perfiles de ubicación para crear ubicaciones. |
-| Directivas de ubicación     | Las directivas de ubicación son necesarias para guiar el trabajo a las ubicaciones donde se requiere reabastecimiento y a las ubicaciones desde donde se suministra el inventario. |
-| Plantillas de trabajo          | Las plantillas de trabajo del tipo **Reabastecimiento** son necesarias para crear el trabajo de reabastecimiento para que el inventario se pueda mover a las ubicaciones deseadas. |
+
+|      Requisito previo       |                                                                                                                                Descripción                                                                                                                                 |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|          Artículo           |                                                                                                        El artículo se debe habilitar para procesos de administración de almacenes.                                                                                                        |
+|        Almacén        | El almacén se debe habilitar para procesos de administración de almacenes. Para habilitar un almacén para procesos de administración de almacenes, en la página <strong>Almacenes</strong>, seleccione el almacén y, a continuación, seleccione la opción <strong>Usar procesos de gestión de almacenes</strong>. |
+| Plantillas de reabastecimiento |                                                                   Se debe configurar al menos una plantilla de reabastecimiento para el reabastecimiento mínimo/máximo, el reabastecimiento de la demanda de oleada o el reabastecimiento de la demanda de la carga.                                                                   |
+|        Ubicaciones        |                                                                                                       Se deben crear ubicaciones y conectarse a un perfil de ubicación.                                                                                                       |
+|    Perfiles de ubicación    |                                                                                                        Se requieren perfiles de ubicación para crear ubicaciones.                                                                                                        |
+|   Directivas de ubicación   |                                                       Las directivas de ubicación son necesarias para guiar el trabajo a las ubicaciones donde se requiere reabastecimiento y a las ubicaciones desde donde se suministra el inventario.                                                        |
+|     Plantillas de trabajo      |                                                   Las plantillas de trabajo del tipo <strong>Reabastecimiento</strong> son necesarias para crear el trabajo de reabastecimiento para que el inventario se pueda mover a las ubicaciones deseadas.                                                    |
+
 

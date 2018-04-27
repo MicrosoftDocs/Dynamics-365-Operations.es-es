@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a>Asignar los componentes del formato creado a los elementos del modelo de datos para informes electrónicos (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 El procedimiento siguiente muestra cómo un usuario con rol de Administrador del sistema o de Desarrollador de informes electrónicos puede asignar elementos del modelo de datos a componentes de la configuración de informes electrónicos (ER) creada, lo que define un formato de documento electrónico para el dominio de pagos de la empresa. Este formato se utilizará después para generar documentos electrónicos para el procesamiento de pagos. En este ejemplo, usted creará una configuración de formato para la empresa de muestra "Litware, Inc". Estos pasos se pueden realizar con cualquier empresa, ya que las configuraciones de informes electrónicos se comparten en todas las empresas. Para finalizar estos pasos, primero debe completar los pasos en la guía de tareas "Creación de una configuración de formato".
 

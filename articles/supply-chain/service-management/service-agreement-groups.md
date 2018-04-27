@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreement-groups"></a>Grupos de acuerdos de servicio 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Los grupos de acuerdos de servicio son útiles para ordenar y filtrar acuerdos de servicio. Utilice los grupos de acuerdos de servicio para agrupar acuerdos de servicio en función, por ejemplo, del tamaño de la empresa, la ubicación geográfica o el tipo de sector. También puede utilizar los grupos de acuerdos para agrupar acuerdos en función del nivel de servicio ofrecido a un cliente.
 

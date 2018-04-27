@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-management-home-page"></a>Página principal de administración financiera
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tema proporciona una lista de los temas de ayuda y de otros recursos para las características de administración financiera en Microsoft Dynamics 365 for Finance and Operations. 
 

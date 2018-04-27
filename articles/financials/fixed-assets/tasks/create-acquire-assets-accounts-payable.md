@@ -24,7 +24,7 @@ ms.lasthandoff: 10/05/2017
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Crear y adquirir activos desde proveedores
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guía de la tarea le guiará por la creación y la adquisición de un activo fijo con el proceso de compra. Usa los roles de contable y responsable de proveedores y la empresa de prueba USMF.
 

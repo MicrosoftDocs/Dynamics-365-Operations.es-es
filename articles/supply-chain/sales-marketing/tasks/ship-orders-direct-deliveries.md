@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Enviar pedidos como entregas directas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 En este procedimiento se demuestra cómo crear una entrega directa para un pedido de ventas. La entrega directa se usa si desea enviar mercancías al cliente directamente desde el proveedor, en lugar de enviarlas a su propio almacén primero. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Para finalizar correctamente la segunda subtarea "Crear entregas directas desde el área de trabajo", asegúrese de que el artículo que elige en el pedido de ventas tiene un proveedor predeterminado especificado en la ficha desplegable Compra del productos maestro emitido.
 

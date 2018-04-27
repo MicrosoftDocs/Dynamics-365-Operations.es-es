@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 468227e40165fa37e9ce80d5f52ded8e9094e5d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a0a28ba5072d55b8133f5458f75befa752a3dcdf
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="production-parameters-in-manufacturing-execution"></a>Parámetros de producción en ejecución de fabricación
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tema proporciona información sobre cómo configurar los parámetros de producción en la ejecución de fabricación.
 
@@ -69,17 +69,17 @@ Para cada fase, el campo **Consumo automático de L. MAT** permite seleccionar u
 
 - **Principio de vaciado**: esta opción se usa en combinación con una opción definida en la lista de materiales en el módulo de **Producción**. Haga clic en **Control de producción** &gt; **Común** &gt; **Pedidos de producción** &gt; **Todos los pedidos de producción**. En la página **Todos los pedidos de producción**, seleccione un pedido de producción de la lista y, a continuación, en el panel de acciones, haga clic en **L. MAT**. En la página **L. MAT**, en la ficha **Configuración**, en el campo **Principio de vaciado**, seleccione una de las siguientes opciones:
 
-    - **Inicio**
-    - **Finalizar**
-    - **Manual**
-    - En blanco (no se ha seleccionado ninguna opción).
-    - **Disponible en la ubicación**
+  - **Inicio**
+  - **Finalizar**
+  - **Manual**
+  - En blanco (no se ha seleccionado ninguna opción).
+  - **Disponible en la ubicación**
 
     En la ejecución de fabricación, si se selecciona **Principio de vaciado** en el campo **Consumo automático de L. MAT** en la pestaña **Inicio** , todos los materiales que se establecen para **Inicio** en la L. MAT se deducen del inventario cuando se inicia la operación. La opción **Disponible en la ubicación** se usa para los productos que se habilitan para los procesos avanzados del almacén. Si selecciona este principio de vaciado, se vacían los materiales cuando el trabajo del almacén para selección de la materia prima se ha completado. El material también se vacía cuando una línea de la L. MAT que use este principio de vaciado se libera al almacén y el material está disponible en la ubicación de entrada de producción.
-    
+
     > [!NOTE]
     > Si el campo **Principio de vaciado** se establece en la pestaña **Inicio** en la ejecución de fabricación, debe seleccionar el mismo principio en la pestaña **Operaciones** o la pestaña **Notificar como terminado**. Este requisito le ayuda a garantizar que los materiales se deducen del inventario en listas de materiales que usan **Finalizar** como principio de vaciado en el pedido de producción. Si el mismo principio de vaciado no está seleccionado en la ficha **Operaciones** o la ficha **Notificar como terminado** , los materiales se pueden deducir del inventario dos veces.
- 
+
 - **Siempre**: si selecciona esta opción en una fase, los materiales siempre se deducirán del inventario en esa fase. Por ejemplo, los materiales para la producción se deducen cuando se inicia el pedido de producción. Este valor requiere que **Nunca** esté seleccionado en **Operaciones** y en las fichas **Notificar como terminado** . Este requisito ayuda a impedir que los artículos se deduzcan dos veces del inventario.
 - **Nunca**: si selecciona esta opción para una fase, ningún consumo de L. MAT aparece en esa fase. Por ejemplo, si selecciona **Nunca** en las tres fichas (**Inicio**, **Operaciones** y **Notificar como terminado**), los materiales deben deducirse manualmente del inventario.
 
@@ -146,11 +146,13 @@ En función de las selecciones descritas anteriormente en esta sección, los dia
 
 Puede usar la siguiente configuración si los materiales deberían deducirse siempre manualmente del inventario. En este caso, no se registran los diarios de listas de selección.
 
-| Ficha                | Campo                          | Configuración    |
-|--------------------|--------------------------------|------------|
-| Inicio              | Actualizar el inicio en línea           | **Estado** |
-| Inicio              | Consumo automático de L. MAT      | **Nunca**  |
-| Operations         | Consumo automático de L. MAT      | **Nunca**  |
-| Notificar como terminado | Consumo automático de L. MAT      | **Nunca**  |
-| Notificar como terminado | Actualizar el registro en línea terminado | **Estado** |
+
+|        Ficha         |             Campo              |         Configuración         |
+|--------------------|--------------------------------|-------------------------|
+|       Inicio        |      Actualizar el inicio en línea      | <strong>Estado</strong> |
+|       Inicio        |   Consumo automático de L. MAT    | <strong>Nunca</strong>  |
+|     Operations     |   Consumo automático de L. MAT    | <strong>Nunca</strong>  |
+| Notificar como terminado |   Consumo automático de L. MAT    | <strong>Nunca</strong>  |
+| Notificar como terminado | Actualizar el registro en línea terminado | <strong>Estado</strong> |
+
 

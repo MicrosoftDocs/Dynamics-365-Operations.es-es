@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-working-time-scheduling-properties"></a>Crear propiedades de programación de horarios de trabajo
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Las propiedades de previsión de horario de trabajo se usan para clasificar los intervalos de horario de trabajo y para definir la configuración que los operadores deben tener en cuenta. Este procedimiento muestra cómo definir una propiedad de previsión de horario de trabajo y los valores de propiedad asociados. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="use-a-continuity-program"></a>Usar un programa de continuidad
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento muestra el proceso de venta de un programa de continuidad y el procesamiento de pedidos de ventas relacionados. Para completar este procedimiento, el usuario tiene que configurarse como un usuario del centro de llamadas. Este procedimiento usa la empresa de datos de demostración USRT.
 

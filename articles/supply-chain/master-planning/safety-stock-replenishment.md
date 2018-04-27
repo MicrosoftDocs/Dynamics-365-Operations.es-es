@@ -29,8 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="safety-stock-fulfillment-for-items"></a>Cumplimiento de existencias de seguridad para los artículos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Las existencias de seguridad indican una cantidad adicional de un artículo que se mantiene en el inventario para reducir el riesgo de que el artículo se agote. Las existencias de seguridad se usan como existencias de reserva en caso de que vengan pedidos de ventas y el proveedor no pueda entregar los artículos adicionales para cumplir con la fecha de envío solicitada por el cliente. Cuando se usan las existencias de seguridad para satisfacer un pedido de ventas, las existencias de seguridad se reducirán. Puede usar la planificación maestra para que el inventario vuelva automáticamente al nivel de seguridad.    
 

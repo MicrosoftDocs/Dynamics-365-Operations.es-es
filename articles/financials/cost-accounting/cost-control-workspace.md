@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-control-overview"></a>Visión general del Control de costes 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 El espacio de trabajo **Control de costes** es un punto central donde los directores responsables de supervisar un objeto de coste o un conjunto de objetos de coste dentro de una dimensión o a través de dimensiones (por ejemplo, centros de coste y grupos de producto) pueden obtener acceso a los informes. Los informes del espacio de trabajo se gestionan plenamente por contables de coste, de modo que el diseño y los datos que se usan para informes sean coherentes a través de toda la organización.
 

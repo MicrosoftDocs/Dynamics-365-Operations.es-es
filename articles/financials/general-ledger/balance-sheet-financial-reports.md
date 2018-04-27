@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="balance-sheet-financial-reports"></a>Informes financieros de balance de situación
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 En este artículo se describen los informes predeterminados para los balances de situación. También se describen los componentes de estos informes. 
 
@@ -71,7 +70,7 @@ Las definiciones de columnas contienen diversos tipos de columnas para proporcio
     -   **DESC** : la descripción de la definición de filas.
     -   **FD**: datos financieros de año hasta la fecha para el año actual
 
- 
+
 
 <a name="see-also"></a>Consulte también
 --------

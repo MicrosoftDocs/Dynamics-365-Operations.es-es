@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-delivery-schedule"></a>Crear una programación de entrega
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 En este procedimiento se demuestra cómo crear una programación de entrega para un pedido de ventas. Se usa una programación de entrega cuando se solicita que una cantidad de un pedido o un presupuesto se entregue en varios envíos. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.
 

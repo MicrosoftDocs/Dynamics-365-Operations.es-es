@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="inquire-and-print-an-electronic-invoice-mexico"></a>Consultar e imprimir una factura electrónica (México)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Use el formulario CFDI: facturas electrónicas para ver, exportar, enviar por correo electrónico o imprimir una factura electrónica de CFDI ya generada según la solicitud de un cliente. La factura electrónica impresa de CFDI incluye un código de barras bidimensional de acuerdo con el formato de código QR (código de respuesta rápida) descrito por el estándar ISO/IEC18004. Esta tarea se completó con los datos de demostración de la empresa MXMF.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-online-channels-and-define-channel-attributes"></a>Creación de canales en línea y definición de los atributos del canal
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento le guía por la creación de un nuevo canal en línea y su adición a la jerarquía organizativa. Debe crear la jerarquía organizativa para poder crear un nuevo canal en línea. Este procedimiento usa la empresa de datos de demostración USRT.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Configurar un elemento de menú del dispositivo móvil para registrar los artículos recibidos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarea se centra en la configuración de un elemento de menú de dispositivo móvil. Este elemento de menú se usa para el registro de la recepción de los artículos pedidos mediante pedidos de compra. 
 

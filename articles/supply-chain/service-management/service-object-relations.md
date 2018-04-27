@@ -28,9 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-object-relations"></a>Relaciones de objetos de servicio 
 
-[!include[banner](../includes/banner.md)]
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Es posible crear relaciones de objeto de servicio entre un objeto de servicio y un acuerdo o pedido de servicio. Al crear una relación, se vincula un objeto de servicio al acuerdo o pedido de servicio.
 

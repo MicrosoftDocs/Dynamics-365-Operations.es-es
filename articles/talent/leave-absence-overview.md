@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="leave-and-absence-management-overview"></a>Visión general de la gestión de permisos y ausencias
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 El módulo de **Gestión de permisos y ausencias** proporciona un marco flexible para definir el proceso de la gestión de ausencias. Los planes de permisos y ausencias se pueden crear para determinar cómo los empleados acumulan o se les concede tiempo libre. Después de que los empleados estén inscritos en un plan, pueden enviar solicitudes de tiempo de reposo para aprobación por parte de los administradores. El seguimiento de ausencias permite tanto a los administradores de primer nivel como a los administradores de Recursos humanos (HR) ver quién está tomando tiempo libre y cuánto tiempo le queda a cada empleado.  
 
