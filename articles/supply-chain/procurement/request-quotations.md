@@ -57,8 +57,8 @@ Cuando reciba ofertas por correo electrónico, puede gestionarlas en la página 
 
 Si se requiere una segunda iteración de una respuesta de un proveedor, seleccione **Devolver** en la página **Solicitud de presupuesto**. La acción de devolución genera un diario nuevo y un informe que se imprimirá, archivará y enviará según la configuración de impresión.
 
-[!NOTE]
-Se ha cambiado el nombre de la página **Solicitud de presupuesto**. En versiones anteriores de Dynamics 365 for Finance and Operations, esta página se denomina **Respuesta de solicitud de presupuestos**.
+> [!NOTE]
+> Se ha cambiado el nombre de la página **Solicitud de presupuesto**. En versiones anteriores de Dynamics 365 for Finance and Operations, esta página se denomina **Respuesta de solicitud de presupuestos**.
 
 Si ha agregado criterios de puntuación a su caso de solicitud de presupuesto, la solicitud de presupuesto tendrá un panel de puntuación donde podrá especificar las puntuaciones. Las puntuaciones totales aparecerán en la solicitud de presupuesto y al comparar las respuestas en la página **Comparar respuestas** . En la página **Comparar respuestas**, también puede comparar otros datos de la respuesta, como el precio de la línea, la fecha de entrega y el precio total.
 
@@ -126,8 +126,8 @@ Si desea usar códigos de motivo en una oferta para indicar por qué se ha recha
 
 En la página **Configuración de formulario**, en Adquisición y abastecimiento, puede configurar el aspecto de los documentos de solicitud de presupuesto impresos o almacenados.
 
-[!NOTE]
-Para una configuración del sector público, debe utilizar el proceso de modificación para modificar una solicitud de presupuesto que ya se ha enviado. Cuando se envía una solicitud de presupuesto, los campos están bloqueados.
+> [!NOTE]
+> Para una configuración del sector público, debe utilizar el proceso de modificación para modificar una solicitud de presupuesto que ya se ha enviado. Cuando se envía una solicitud de presupuesto, los campos están bloqueados.
 Por lo tanto, para realizar cambios en la solicitud de presupuesto, debe seleccionar **Crear** para iniciar el proceso de modificación, según lo descrito anteriormente. El comportamiento del bloqueo se controla mediante la opción **Bloquear solicitud de presupuesto cuando se envía** en la página **Parámetros de adquisición y abastecimiento**. De forma predeterminada, este parámetro se establece en **Sí** y, para una configuración del sector público, este valor predeterminado no se puede cambiar. Por lo tanto, aunque el proceso de la modificación se puede gestionar manualmente en una configuración de sector no público, se debe usar para una configuración sector público.
 
 Al crear un caso de solicitud de presupuesto del tipo Pedido de compra y agregar un artículo de inventario a la solicitud de presupuesto, se genera una transacción de inventario con el estado de recepción **Recepción de presupuesto**. Solo las líneas del caso de solicitud de presupuesto con este estado se tienen en cuenta al usar un plan maestro para calcular suministros. Si desea que el plan maestro incluya líneas del caso de solicitud de presupuesto como recepción prevista, debe configurar este comportamiento en la configuración de planificación maestra.
