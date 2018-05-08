@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="customer-posting-profiles"></a>Perfiles de contabilización del cliente
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Los perfiles de contabilización del cliente controlan el registro de transacciones del cliente en la contabilidad general.
 

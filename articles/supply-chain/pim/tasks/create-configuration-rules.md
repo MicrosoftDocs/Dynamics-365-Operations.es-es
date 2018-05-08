@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-configuration-rules"></a>Crear reglas de configuración
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento crea reglas de configuración que se pueden usar para que la configuración basada en dimensiones aplique o impida combinaciones de líneas de lista de materiales. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este es el séptimo procedimiento de ocho que explica cómo crear combinaciones para la configuración basada en dimensiones.
 

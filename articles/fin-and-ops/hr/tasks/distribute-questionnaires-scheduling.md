@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Distribuir cuestionarios mediante la programación
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 La programación del cuestionario le permite planear y distribuir los cuestionarios a múltiples encuestados. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

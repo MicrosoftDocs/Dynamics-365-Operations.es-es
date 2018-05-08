@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-sales-trends-and-patterns"></a>Analizar patrones y tendencias de ventas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Puede estudiar patrones y tendencias de ventas en tiempo real en Microsoft Dynamics 365 for Retail.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-vendors-for-specific-products"></a>Aprobar proveedores para productos específicos
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo aprobar los proveedores para los productos específicos. Esto le permite controlar qué proveedores se pueden usar cuando el producto se agrega a un pedido de compra. Puede utilizar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos. Esta tarea la realizará normalmente un director de compras.
 

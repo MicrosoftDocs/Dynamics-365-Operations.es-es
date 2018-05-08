@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="set-up-a-call-center-channel"></a>Configurar un canal del centro de llamadas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Una empresa puede definir varios canales de centro de llamadas en Microsoft Dynamics 365 for Retail. Los canales de centro de llamadas se configuran en **Venta minorista** \> **Canales** \> **Centros de llamadas** \> **Todos los centros de llamadas**, y son específicos de una entidad jurídica.
 

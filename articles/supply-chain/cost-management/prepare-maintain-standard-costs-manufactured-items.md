@@ -30,7 +30,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Preparar el mantenimiento de los costes estándar de artículos fabricados
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema decribe los pasos para prepararse para el mantenimiento de costes de artículos fabricados. Los pasos para los artículos fabricados varían ligeramente de los pasos de los artículos adquiridos.
 

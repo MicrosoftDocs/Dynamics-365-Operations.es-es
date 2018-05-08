@@ -26,7 +26,7 @@ ms.lasthandoff: 04/13/2018
 # <a name="reverse-charge-vat"></a>Cargo invertido
 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 
 Este tema describe un enfoque genérico para configurar el impuesto sobre el valor añadido (IVA) de cargo invertido para Arabia Saudí y países europeos.

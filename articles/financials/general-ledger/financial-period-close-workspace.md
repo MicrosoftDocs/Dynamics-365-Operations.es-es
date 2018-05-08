@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-period-close-workspace"></a>Espacio de trabajo de cierre del período financiero
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo proporciona una visión general del espacio de trabajo de cierre del período financiero y la configuración asociada.
 

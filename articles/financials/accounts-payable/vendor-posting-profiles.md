@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="vendor-posting-profiles"></a>Perfiles de contabilización del proveedor
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Los perfiles de contabilización controlan el registro de transacciones de proveedores en la contabilidad general.
 

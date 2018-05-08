@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Asignar un presupuesto de proyecto o una revisión presupuestaria entre períodos
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
  Tras especificar un presupuesto de proyecto o una revisión presupuestaria del proyecto, y antes de enviarlo para su aprobación, puede asignar los importes a los períodos. Si se rechaza el presupuesto o la revisión presupuestaria, también puede asignar los importes antes de la reenviarlo. 
 

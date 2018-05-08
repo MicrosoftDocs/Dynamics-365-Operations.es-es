@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a>Crear las configuraciones necesarias para importar datos de un archivo externo para informes electrónicos (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 En los siguientes pasos se explica cómo un usuario con rol de administrador del sistema o desarrollador de informes electrónicos puede diseñar configuraciones de informes electrónicos (ER) para importar datos a la aplicación de Dynamics 365 for Finance and Operations, desde un archivo externo. En este ejemplo, creará las configuraciones necesarias de ER para la empresa del ejemplo, Litware, Inc. Para completar estos pasos, primero debe completar los pasos en la guía de la tarea, "ER crea un proveedor de la configuración y marcarlo como activo". Estos pasos se pueden completar mediante el conjunto de datos de USMF. También debe descargar y guardar los archivos siguientes localmente mediante vínculos desde el tema Visión general de los informes electrónicos (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 

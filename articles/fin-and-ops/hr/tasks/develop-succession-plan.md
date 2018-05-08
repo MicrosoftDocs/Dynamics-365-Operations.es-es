@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="develop-a-succession-plan"></a>Desarrollar un plan de sucesión
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 A medida que crece la organización y se considera la planificación de recursos, puede que desee buscar alguien que tenga aptitudes similares a las de otra persona.  La distribución de perfiles le permite analizar a los empleados existentes y a los candidatos para considerar si coinciden con el conjunto de aptitudes de un empleado valorado. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

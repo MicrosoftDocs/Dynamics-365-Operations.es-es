@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Cuentas de contrapartida predeterminadas para diarios de factura de proveedor y diarios de aprobación de facturas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Las cuentas de contrapartida predeterminadas se usan en las siguientes páginas de diario de facturas de proveedor:
 

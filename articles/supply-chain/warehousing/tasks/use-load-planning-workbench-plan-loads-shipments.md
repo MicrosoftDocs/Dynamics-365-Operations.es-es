@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Planificar cargas y envíos mediante el área de trabajo de planificación de la carga
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo usar el área de trabajo de planificación de cargas para crear una carga para un pedido de ventas. Es necesario crear primero el pedido de ventas. Este procedimiento forma parte del trabajo diario del coordinador de transporte. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

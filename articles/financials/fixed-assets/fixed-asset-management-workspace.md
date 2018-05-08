@@ -27,7 +27,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-asset-management-workspace"></a>Espacio de trabajo de administración de activos fijos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 El espacio de trabajo **Administración de activos fijos** muestra la información relacionada con los activos fijos que se especifican en el sistema. Este espacio de trabajo incluye una vista de resumen y una vista de análisis. La pestaña **Mi trabajo** muestra fichas del resumen, detalles de activos fijos e información relacionada sobre los activos fijos en la empresa actual. También puede agregar análisis a la sección de análisis de Power BI directamente en el espacio de trabajo. Las pestaña **Análisis de todas las empresas** usa las capacidades de Microsoft Power BI para mostrar las representaciones visuales relacionadas con los activos fijos en todas las empresas.
 

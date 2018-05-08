@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="trace-an-item-or-raw-material"></a>Realizar el seguimiento de un artículo o una materia prima
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo usar el seguimiento de artículos para identificar dónde se han usado los artículos o las materias primas o dónde se están usando. Con este procedimiento, puede identificar un artículo, realizar un seguimiento de él hasta el origen y después, hacia la producción y la venta del producto terminado. El proceso se puede usar para investigar los clientes y los pedidos de ventas afectados, entre otros. Este procedimiento usa la empresa de datos de demostración USP2.
 

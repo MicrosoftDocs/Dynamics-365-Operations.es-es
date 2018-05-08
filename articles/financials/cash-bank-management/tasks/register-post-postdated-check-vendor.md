@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Registrar un cheque con pago diferido para un proveedor
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Puede registrar detalles de un cheque posfechado antes de emitir el cheque a un proveedor utilizando un asiento del asiento de diario. También puede registrar los cheques con fecha futura y generar transacciones financieras. Antes de registrar y enviar un cheque posfechado de un proveedor, complete las siguiente tarea: 
 

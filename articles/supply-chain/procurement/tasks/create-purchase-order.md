@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order"></a>Crear un pedido de compra
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear un pedido de compra manualmente. Es más habitual que los pedidos de compra se crean automáticamente como resultado de la planificación maestra, de la entrega directa y de otros procesos. Los pedidos de compra normalmente se crean por un agente de compras. El ejemplo que se muestra aquí se puede usar en la empresa de datos de demostración USMF mediante los valores que se sugieren en las notas para los distintos pasos.
 

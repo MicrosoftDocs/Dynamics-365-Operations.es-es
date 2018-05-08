@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Planificación modo mezcla: combinar abastecimiento producción ajustada, proceso y discreto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema proporciona información acerca de la planificación modo mezcla. En la planificación modo mezcla, puede modelar la cadena de suministros en función del flujo de materiales. Microsoft Dynamics 365 for Finance and Operations garantiza que el flujo de materiales siga sus modelos, independientemente de la directiva de suministro seleccionada (kanbans, pedidos de producción, pedidos de compra, pedidos de lote o pedidos de transferencia). 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-rebates-for-payment"></a>Procesamiento de devoluciones para pago
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo convertir en notas de abono devoluciones de cliente aprobadas y procesadas. Puede ejecutar este procedimiento en la empresa de demostración USMF. La condición previa para este procedimiento es tener una o más reclamaciones de devolución con estado Marcar. Si está usando USMF, debe ejecutar el procedimiento "Generación y procesamiento de devoluciones de cliente" antes de comenzar este procedimiento.
 

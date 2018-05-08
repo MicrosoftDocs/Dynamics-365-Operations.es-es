@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-return-order"></a>Creación de pedido de devolución de compra
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo crear un pedido de devolución de compras con la acción Nota de abono para copiar líneas de un documento de factura de proveedor a un nuevo pedido de compra. También le muestra cómo confirmar el pedido y procesar el envío de las mercancías de vuelta al proveedor. El ejemplo mostrado en este procedimiento se puede utilizar en la empresa de datos de demostración USMF. Esta tarea la realizaría normalmente un agente de compras.
 

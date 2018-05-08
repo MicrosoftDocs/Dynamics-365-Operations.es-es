@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Asiento único con varios registros de cliente o proveedor
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema proporciona una visión general de lo que sucede cuando se registra un documento único con varios registros del cliente o del proveedor. Esta función se cancelará en futuras versiones de Microsoft Dynamics 365 for Finance and Operations, por eso no se recomienda el uso de este método de registro debido al impacto contable en el procesamiento del acuerdo. 
 

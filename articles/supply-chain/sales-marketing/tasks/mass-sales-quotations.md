@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="mass-create-sales-quotations"></a>Creación masiva de presupuestos de ventas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear de manera eficaz presupuestos que ofrecen un conjunto de productos o servicios que se deben enviar a varios clientes. Esta creación de presupuesto masiva se basa en las plantillas de presupuesto. Puede ejecutar este procedimiento en sus propios datos o en la empresa de demostración USMF.
 

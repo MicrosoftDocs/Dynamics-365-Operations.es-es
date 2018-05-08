@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="transportation-management-overview"></a>Visión general de la administración de transporte
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema ofrece una visión general de la funcionalidad de Administración de transporte en Microsoft Dynamics 365 for Finance and Operations.
 

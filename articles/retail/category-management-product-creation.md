@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="manage-retail-product-categories-and-products"></a>Gestionar las categorías de productos y productos de Retail
 
-[!INCLUDE [banner](./includes/banner.md)]
+[!include [banner](./includes/banner.md)]
 
 Este tema describe una forma mejorada de gestionar categorías de productos de Retail en Microsoft Dynamics 365 for Retail. Las mejoras permiten a los encargados de comercialización visualizar una estructura de propiedades del producto que se reparte entre la jerarquía del producto de Retail y los detalles del producto liberado.
 

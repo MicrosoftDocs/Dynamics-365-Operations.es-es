@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Crear un pedido de compra con una programación de entrega
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 En este procedimiento se demuestra cómo crear una programación de entrega para un pedido de compra. Se usa una programación de entrega cuando se solicita que se entregue una cantidad de un pedido o un diario en varios envíos. El ejemplo mostrado en esta guía se puede utilizar en la empresa de datos de demostración USMF. Este procedimiento normalmente lo haría un agente de compras.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-inventory-counting-processes"></a>Definición de procesos de recuento de inventario
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra la configuración de procesos de recuento de inventario básicos creando un grupo de recuento y un diario de recuento. También le muestra cómo habilitar directivas de recuento en el nivel de almacén y de artículo. Estas tareas las realizará normalmente el supervisor del almacén. Es requisito previo que haya productos emitidos y almacenes. Si usa una empresa de datos de demostración, puede ejecutar este procedimiento en la empresa USMF con cualquier artículo en existencias.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>Copiar coproductos de una versión de fórmula existente
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo copiar coproductos derivados de una versión de fórmula existente a otra versión de fórmula diferente para un producto liberado. Es un requisito previo que haya al menos una versión de fórmula asociada a coproductos. La empresa de datos de demostración USP2 se utiliza para crear este procedimiento.
 

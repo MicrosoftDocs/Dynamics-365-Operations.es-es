@@ -28,7 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Controlar el consumo de materias primas mediante principios de vaciado
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Los principios de vaciado reflejan las distintas estrategias de consumo de materias primas que se usan en los procesos de producción. El consumo es el proceso que deduce el material del inventario disponible y establece el valor de los materiales consumidos a **Trabajo en curso** para los pedidos de producción y los pedidos de lote. Las materias primas se consumen normalmente desde una ubicación configurada para el proceso que consume el material. Esta ubicación se conoce como la ubicación de entrada de producción.
 

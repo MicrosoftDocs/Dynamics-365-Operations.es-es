@@ -27,7 +27,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="compensation-and-benefits-power-bi-content"></a>Contenido de Power BI de compensaciones y de prestaciones
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En este tema se describe Finance and Operations: contenido en Power BI de Compensaciones y de prestaciones. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="fulfill-sales-agreements"></a>Cumplimiento de acuerdos de venta
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo satisfacer un acuerdo de venta asociando pedidos de ventas a él. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Antes de comenzar este guía, asegúrese de que tiene un acuerdo de venta vigente del tipo "Compromiso de valor de producto". Como alternativa, puede ejecutar la guía de tareas llamada "Crear o acuerdos de venta".  
 

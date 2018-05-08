@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-bar-code-support"></a>Compatibilidad con códigos de barras móviles
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dado que Android es un proyecto de origen abierto, cualquier proveedor de hardware para escáneres de códigos de barras de almacén puede crear un dispositivo para ejecutar el sistema operativo Android. Un dispositivo sólo es compatible con Android si puede ejecutar aplicaciones escritas para el entorno de ejecución de Android.
 Sin embargo, un proveedor de hardware puede modificar y crear superposiciones para la versión de Android que se ejecuta en su hardware. Microsoft no puede asumir responsabilidad alguna para garantizar que una aplicación móvil de escaneado de códigos de barras para Android es compatible con el hardware de escaneado de códigos de barras de un proveedor y la versión de Android en la que se ejecuta. 

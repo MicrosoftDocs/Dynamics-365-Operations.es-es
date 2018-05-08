@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Mantener plantillas predeterminadas de la dimensión financiera
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo configurar las plantillas predeterminadas de dimensión financiera. Las plantillas se pueden usar para distribuir importes rápidamente en documentos de origen.
 

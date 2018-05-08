@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-resource-capabilities"></a>Definir capacidades de recursos
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Las capacidades del recurso describen lo que pueden realizar los recursos de operaciones. Durante la programación, los requisitos de cada trabajo y la operación se asocian con las capacidades de recursos disponibles. Esta guía de la tarea le ayudará a crear una capacidad del recurso y asignarla a un recurso. La empresa de datos de prueba utilizada para crear esta tarea es USMF.
 

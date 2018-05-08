@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Crear una solicitud que utilice una solicitud de presupuesto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 En esta guía se muestra cómo agregar la información del precio y del vendedor a una solicitud de compra desde un proceso de solicitud de compra. El ejemplo mostrado en esta guía se puede utilizar en la empresa de datos de demostración USMF y debe haber iniciado sesión como administrador para completar todos los pasos. Las tareas de esta guía las realizarán normalmente profesionales de compras.
 

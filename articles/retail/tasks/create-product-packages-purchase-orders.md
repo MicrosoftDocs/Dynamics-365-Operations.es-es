@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-product-packages-for-purchase-orders"></a> Crear paquetes de producto para pedidos de compra
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento le guía por la creación de un paquete de producto y su uso en un pedido de compra. El pedido de compra se usará para crear un pedido para un conjunto predefinido de productos. Este procedimiento usa la empresa de datos de demostración USRT.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="distributions-on-an-expense-report"></a>Distribuciones en un informe de gastos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Al especificar gastos en un informe de gastos, puede distribuir el gasto entre varios proyectos, dimensiones financieras o cuentas de su organización.
 

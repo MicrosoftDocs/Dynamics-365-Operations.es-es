@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="set-up-service-intervals"></a>Configurar intervalos de servicio  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 El intervalo de servicio indica la frecuencia con la que se crean líneas de pedido de servicio para líneas de contrato de servicio cuando crea pedidos de servicio.
 

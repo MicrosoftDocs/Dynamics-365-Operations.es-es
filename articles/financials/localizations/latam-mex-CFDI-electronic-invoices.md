@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="electronic-invoices-cfdi"></a>Facturas electrónicas (CFDI)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La factura electrónica en México requiere el formato Comprobantes fiscales digitales por internet (CFDI). 
 

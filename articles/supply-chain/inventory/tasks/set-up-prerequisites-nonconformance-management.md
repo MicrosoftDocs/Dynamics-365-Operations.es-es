@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-prerequisites-for-management"></a>Configurar requisitos previo para la gestión
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimiento para habilitar procesos de gestión de disconformidades. Una no conformidad hace referencia a un procedimiento o artículo que tiene un problema de calidad, donde la información descriptiva incluye el origen y el tipo de problema. Este procedimiento usa la empresa de datos de demostración USMF. Este procedimiento lo realiza normalmente un gestor de calidad.
 

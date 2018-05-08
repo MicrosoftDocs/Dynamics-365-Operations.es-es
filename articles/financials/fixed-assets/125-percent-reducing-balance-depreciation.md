@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="125-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 125%
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 125%.
 

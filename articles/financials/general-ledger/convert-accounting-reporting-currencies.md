@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Conversión de divisas contables o de notificación
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Una empresa que debe cambiar la divisa de contabilidad o la divisa de notificación tiene dos opciones. La primera opción es crear una nueva empresa y comenzar de cero. La segunda opción es ejecutar el proceso de conversión de la divisa de contabilidad y de notificación. Este es un proceso muy prolongado que cambia todas las transacciones en el sistema. También se requiere configuración adicional para poder ejecutar el proceso.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-lookup-in-the-point-of-sale"></a>Búsqueda de inventario en el punto de venta 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 La búsqueda de inventario en el punto de venta (PDV) ayuda a los minoristas a lograr la excelencia operativa en tiempo real y obtener información conectando tiendas, el PDV y el back-office. Esta funcionalidad proporciona una vista precisa en tiempo real del inventario del producto en tiendas y centros de distribución. También ayuda a los minoristas a impulsar eficacias adicionales y ahorro de costes al mejorar la planificación del inventario en tiempo real.
 

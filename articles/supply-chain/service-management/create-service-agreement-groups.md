@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreement-groups"></a>Crear grupos de acuerdos de servicio 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Los grupos de acuerdos de servicio son útiles para ordenar y filtrar acuerdos de servicio.
 

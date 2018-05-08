@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-planning-and-multisite-functionality"></a>Planificación maestra y funcionalidad multisitio
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La planificación maestra tiene en cuenta la configuración del sitio y las dimensiones de inventario de almacén. 
 

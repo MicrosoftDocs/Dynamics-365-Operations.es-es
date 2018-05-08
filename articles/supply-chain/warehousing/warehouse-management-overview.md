@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="warehouse-management"></a>Gestión de almacenes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 El módulo de gestión de almacenes de Dynamics 365 for Finance and Operations le permite gestionar los procesos de almacén en la fabricación, la distribución y en las empresas al por menor. Este módulo tiene una gran variedad de características que le permitirán sacarle el máximo rendimiento a su instalación de almacén. La gestión de almacenes está completamente integrada con otros procesos empresariales en Finance and Operations, tales como el transporte, la fabricación, el control de calidad, las compras, las ventas, las transferencias y las devoluciones.
 

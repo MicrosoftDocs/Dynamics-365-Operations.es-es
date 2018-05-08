@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-electronic-signatures"></a>Configuración de firmas electrónicas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Sírvase de este procedimiento para configurar firmas electrónicas. Una firma electrónica confirma la identidad de una persona que va a comenzar o aprobar un proceso informático. La empresa de datos de demostración utilizada para crear este procedimiento es DAT.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letters-of-guarantee"></a>Configuración de créditos bancarios y perfiles de contabilización para cartas de garantía
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarea crea instalaciones bancarias y un perfil de contabilización necesario para procesar una carta de garantía.
 

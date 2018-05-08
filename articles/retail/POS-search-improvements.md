@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Visión general de la búsqueda de productos y clientes en un punto de venta
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 El punto de venta moderno (MPDV) y el punto de venta (CPDV) en cloud proporcionan funcionalidades de búsqueda fáciles de usar para los productos y clientes. Gracias a que la barra de búsqueda siempre se muestra en la parte superior de las ventanas de MPDV y el CPDV, los empleados pueden buscar rápidamente productos y clientes.
 

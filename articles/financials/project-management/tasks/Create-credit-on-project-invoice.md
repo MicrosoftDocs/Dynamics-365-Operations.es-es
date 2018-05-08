@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>Crear una nota de abono en facturas de proyecto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 1. Vaya a Gestión de proyectos y contabilidad > Proyectos > Todos los proyectos. 
 2. En la lista, busque y seleccione el registro deseado. 

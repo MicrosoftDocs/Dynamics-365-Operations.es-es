@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-materials-with-kanban-jobs-february-2016-only"></a>Transferir materiales con trabajos kanban (febrero de 2016 únicamente)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento se centra en la ejecución de un trabajo kanban de retirada para transferir materiales. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento va destinado al trabajador de almacén.
 

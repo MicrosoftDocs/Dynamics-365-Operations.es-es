@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="weighted-average-date"></a>Fecha de media ponderada
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 La fecha de media ponderada es un modelo de inventario basado en el principio de medias ponderadas. En el principio de medias ponderadas, las emisiones de inventario se valoran según el valor medio de los artículos que se reciben en el inventario para cada día del período de cierre de inventario. 
 

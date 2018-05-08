@@ -26,7 +26,7 @@ ms.lasthandoff: 02/14/2018
 ---
 
 # <a name="intra-community-vat-for-spain"></a>IVA intracomunitario para España
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema proporciona información sobre la funcionalidad dedicada al impuesto sobre el valor añadido intracomunitario (IVA). Explica cómo se activa la funcionalidad, cómo se calculan e imprimen los importes de IVA intracomunitarios, y revisa los importes de IVA intracomunitarios que se han registrado.
 

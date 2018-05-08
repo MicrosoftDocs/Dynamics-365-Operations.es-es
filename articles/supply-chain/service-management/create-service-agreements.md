@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreements"></a>Crear acuerdos de servicios
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema describe cómo utilizar funciones en los módulos Gestión de servicio y Gestión de proyectos y contabilidad para crear contratos de servicio.
 

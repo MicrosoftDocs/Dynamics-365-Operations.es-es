@@ -24,7 +24,7 @@ ms.lasthandoff: 10/25/2017
 ---
 # <a name="create-a-product-master"></a>Crear un producto maestro
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Cree un producto maestro para las variantes predefinidas. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento se ha pensado para el diseñador de producto.
 

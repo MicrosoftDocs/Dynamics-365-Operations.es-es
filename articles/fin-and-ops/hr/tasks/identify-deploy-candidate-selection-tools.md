@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Identificar e implementar herramientas de selección de candidatos
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Encontrar un grupo calificado de candidatos para cubrir vacantes puede ser difícil, especialmente cuando un puesto requiere un conjunto único de aptitudes.  Sin embargo, los candidatos con las aptitudes que necesita podrían ser ya empleados de su organización. Puede buscar un conjunto de aptitudes específico entre los empleados existentes o los nuevos candidatos. Esto permite a un reclutador reunir y filtrar rápidamente a los candidatos que han solicitado la vacante ahora o en el pasado, o encontrar a los candidatos potenciales del grupo existente de empleados. Utilice este registro de tareas para saber cómo la funcionalidad de distribución de perfiles puede ayudarle a encontrar a la persona adecuada para una vacante. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

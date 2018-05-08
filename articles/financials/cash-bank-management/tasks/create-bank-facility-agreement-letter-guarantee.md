@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Crear un contrato de crédito bancario para la carta de garantía
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarea crea un contrato de instalaciones bancarias para procesar una carta de garantía. Esta tarea usa la empresa de demostración USMF. 
 

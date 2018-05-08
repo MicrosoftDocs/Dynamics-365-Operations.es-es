@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="benefits-power-bi-content"></a>Contenido en Power BI de Prestaciones
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema describe el contenido en Microsoft Power BI de **Prestaciones**. Explica cómo obtener acceso a los informes incluidos y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 

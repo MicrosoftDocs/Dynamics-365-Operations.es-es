@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="review-collections-information"></a>Revisar información de cobros
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le guía por cómo revisar la información de cobros junto con diferentes opciones de configuración y transacciones de cobros. Este procedimiento usa la empresa de demostración USMF.
 

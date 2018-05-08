@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-quality-orders"></a>Configuración de pedidos de calidad
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo habilitar un proceso de administración de calidad donde el inventario entrante se debe examinar inmediatamente después del registro de llegada. El procedimiento lo realizará normalmente un gestor de calidad. El proceso incluye la creación de un grupo de calidad para definir los artículos que se van a muestrear y un grupo de pruebas para agrupar las pruebas que deben llevarse a cabo en los artículos del grupo de calidad. Puede ejecutar esta guía en la empresa de datos de demostración USMF.
 

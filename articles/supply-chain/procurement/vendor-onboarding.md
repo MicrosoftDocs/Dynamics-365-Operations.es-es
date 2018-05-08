@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 ---
 
 # <a name="onboard-vendors"></a>Incorporación de proveedores
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ---
 

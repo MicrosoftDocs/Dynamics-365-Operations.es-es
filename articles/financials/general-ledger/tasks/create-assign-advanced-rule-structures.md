@@ -24,7 +24,7 @@ ms.lasthandoff: 10/27/2017
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Crear y asignar estructuras de reglas avanzadas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guía de tareas describe los pasos de la creación y asignación de una estructura de regla avanzada a una estructura contable. Esta guía usa la empresa de demostración de USMF.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="removed-or-deprecated-features"></a>Características quitadas o en desuso
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema describe las características que se han quitado o que están en desuso de Microsoft Dynamics 365 for Finance and Operations.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="per-diem-rules"></a>Reglas de dietas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Las *dietas* son una retribución que se paga a los trabajadores que viajan por motivos de trabajo. En Gestión de gastos, puede crear reglas de dietas para distintas situaciones de viaje. Las tarifas de dietas se pueden basar en la época del año, el destino del viaje o ambos. Al crear una regla de dietas, puede especificar la retención de un porcentaje de la tarifa de dietas si el trabajador recibe comidas o servicios complementarios. También puede establecer un número mínimo o máximo de horas durante las que se puede aplicar la tarifa de dietas al viaje del trabajador.
 

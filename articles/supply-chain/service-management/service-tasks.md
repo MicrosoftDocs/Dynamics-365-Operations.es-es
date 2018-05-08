@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-tasks"></a>Tareas de servicio  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Utilice tareas de servicios para describir la tarea que hay que realizar durante un pedido de servicio.
 Tanto técnicos como clientes pueden ver esta información.

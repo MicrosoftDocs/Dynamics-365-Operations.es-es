@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-and-marketing"></a>Ventas y marketing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Puede usar Ventas y marketing para obtener, almacenar y usar distintos tipos de datos en el flujo de ventas. Estos datos incluyen la iniciativa de venta original, la acción de seguimiento futura y las ventas adicionales.
 

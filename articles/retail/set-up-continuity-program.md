@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-a-continuity-program-for-a-call-center"></a>Configurar un programa de continuidad para un centro de llamadas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 En este artículo se describe cómo configurar un programa de continuidad para un centro de llamadas.
 

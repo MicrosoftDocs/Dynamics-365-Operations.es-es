@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-purchasing-policies"></a>Crear directivas de compra
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo crear directivas de compra para alinearlas con sus procesos empresariales para compras. Para crear directivas de compra, es necesario configurar los parámetros de directiva de compra. Es posible crear, modificar y retirar una directiva de compras, pero no puede eliminar una directiva de compras. Este procedimiento lo realizará normalmente un director de compras. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.
 

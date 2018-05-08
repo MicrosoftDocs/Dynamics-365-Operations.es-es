@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Diseñar una configuración para generar informes con formato Microsoft Word para informes electrónicos (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 En los pasos siguientes se explica cómo un usuario con rol de administrador del Sistema o de desarrollador de informes electrónicos, puede configurar formatos de informes electrónicos (ER) para generar archivos de informes en Microsoft Word. Estos pasos se pueden llevar a cabo en la empresa GBSI.
 

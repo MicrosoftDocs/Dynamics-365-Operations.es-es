@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="diot-declaration-statement"></a>Informe de declaración DIOT
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En este tema se proporciona información acerca del informe de declaración DIOT para México.
 

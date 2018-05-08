@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a>Reglas de precios de categoría para crear acuerdos comerciales
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear acuerdos comerciales de precios de venta con una regla de precios de categoría. La empresa de datos de prueba utilizada para crear esta tarea es USRT. Esta tarea está pensada para el rol Encargado de comercialización.
 

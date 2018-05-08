@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a>Realizar autoservicio para descargar estación de hardware
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo descargar una estación de hardware predefinida. La empresa de datos de demostración utilizada para este procedimiento es USRT. Debe haber creado una nuevo perfil de estación de hardware y una nueva estación antes de comenzar esta tarea.
 

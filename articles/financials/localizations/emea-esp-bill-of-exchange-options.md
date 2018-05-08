@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="spanish-bill-of-exchange-options"></a>Opciones de letras de cambio españolas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema describe opciones y cambios específicos en el proceso de letra de cambio básico implementado en Microsoft Dynamics 365 for Finance and Operations para las entidades jurídicas en España.
 

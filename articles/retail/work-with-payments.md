@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="payment-methods-in-a-call-center"></a>Métodos de pago en un centro de llamadas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 En Microsoft Dynamics 365 for Retail, la configuración del canal de centro de llamadas incluye una configuración que se **Habilitar finalización de pedidos**. Esta configuración ayuda a garantizar que todos los pedidos que crean los usuarios del canal se liberan para su procesamiento solo si disponen de un pago por adelantado o un pago preautorizado que se encuentra dentro de las tolerancias aprobadas. Si está activada la configuración **Habilitar finalización de pedidos**, los usuarios de centro de llamadas pueden introducir pagos de pedidos de ventas para clientes mediante el uso de las funciones de procesamiento de pagos del Centro de llamadas. Si se desactiva la configuración, los usuarios de centro de llamadas no pueden utilizar las funciones de procesamiento de pagos del Centro de llamadas, pero aún pueden aplicar pagos por adelantado para pedidos de ventas mediante el uso de la función estándar Proveedor.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Información utilizada en los cálculos de L. MAT con costes estándar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Los cálculos de la lista de materiales (BOM) usan datos de varias fuentes para calcular los costes estándar de un artículo fabricado. Las fuentes incluyen información sobre los artículos, las enrutamiento de las cuentas, las fórmulas de cálculo de costes indirectos y la versión de gestión de costes.
 

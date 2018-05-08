@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Configuración de perfiles de registro de activos fijos
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guía de la tarea configurará los perfiles de contabilización de activos fijos.  Usa el rol de contable y los datos de prueba de la entidad jurídica USMF.  Los ejemplos proporcionados en esta guía de la tarea son para un perfil de contabilización básico, aunque se deben crear perfiles de contabilización para sus requisitos específicos de plan de cuentas y de informes financieros.
 

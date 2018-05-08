@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="release-a-dimension-based-product-master"></a>Liberar un producto maestro basado en dimensiones
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo emitir un producto maestro que se usará para las configuraciones basadas en dimensiones. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Es un requisito previo haber creado un producto maestro con la tecnología de configuración basada en dimensiones. Este es el segundo procedimiento de ocho que explica cómo crear combinaciones para la configuración basada en dimensiones.
 

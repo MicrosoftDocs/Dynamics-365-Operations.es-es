@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-mass-hire-project"></a>Crear un proyecto de contratación maestra
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra el proceso para configurar un proyecto de contratación masiva. La persona a cargo de la contratación puede usar proyectos de contratación masiva para crear fácilmente varios puestos y contratar a varios trabajadores para ellos. Para iniciar este procedimiento, vaya a Recursos humanos > Contratación > Proyectos de contratación masiva. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

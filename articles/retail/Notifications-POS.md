@@ -27,7 +27,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="show-order-notifications-in-the-point-of-sale"></a>Mostrar notificaciones de pedidos en el punto de venta
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 En el entorno de ventas al por menor moderno, a los socios del almacén se les asignan distintas tareas, como ayudar a clientes, especificar transacciones, hacer recuentos de existencias y recibir los pedidos en almacén. El cliente de punto de venta (PDV) proporciona una única aplicación en la que los socios pueden realizar todas estas tareas y muchas otras. Puesto que deben realizar varias tareas durante el día, es posible que tenga que notificarse a los socios cuando algo requiera su asistencia. El marco de notificación de PDV ayuda a permitir que los minoristas configuren notificaciones basadas en roles. En Microsoft Dynamics 365 for Retail con la actualización 5 de la aplicación, estas notificaciones solo se pueden configurar para las operaciones de PDV.
 

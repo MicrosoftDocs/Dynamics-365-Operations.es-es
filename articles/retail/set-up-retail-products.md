@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-retail-products"></a>Configurar productos comerciales
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 En este artículo se describe cómo configurar productos comerciales en Microsoft Dynamics 365 for Retail.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-close"></a>Cierre de inventario
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Como parte del proceso para liquidar transacciones de emisión con transacciones de recepción, también puede elegir actualizar la contabilidad general para reflejar los ajustes realizados.
 

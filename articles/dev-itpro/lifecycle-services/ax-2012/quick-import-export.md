@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Ejecutar la herramienta de transferencia de datos de prueba (beta) para Dynamics AX (AX 2012)
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 El propósito de la importación y exportación rápidas es permitirle importar y exportar con menos pasos.
 

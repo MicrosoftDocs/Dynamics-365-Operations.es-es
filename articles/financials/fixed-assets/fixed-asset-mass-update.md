@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-mass-update"></a>Actualización masiva de activos fijos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Si utiliza libros, puede modificar las convenciones de depreciación de grupos de activos que forman parte del mismo libro.
 

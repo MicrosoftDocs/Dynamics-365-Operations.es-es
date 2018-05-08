@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="intercompany-invoicing"></a>Facturación de empresas vinculadas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo proporciona información y ejemplos acerca de la facturación de empresas vinculadas para los proyectos en Microsoft Dynamics 365 for Finance and Operations.
 
