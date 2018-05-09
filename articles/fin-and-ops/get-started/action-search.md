@@ -18,16 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 80beefe142eb46d7c330a472ffa594a8a35a296b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6f623c5fc9b277933c4655101fe451c87a1e5224
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="action-search"></a><span data-ttu-id="9a280-104">Búsqueda de acción</span><span class="sxs-lookup"><span data-stu-id="9a280-104">Action search</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9a280-105">Este artículo describe la funcionalidad de búsqueda de acción en Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="9a280-105">This article describes the action search functionality in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="9a280-106">La búsqueda de acción le ayudará a encontrar y ejecutar acciones en una página.</span><span class="sxs-lookup"><span data-stu-id="9a280-106">Action search will help you find and run actions on a page.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 28906f4aae2f8d7d87746f82988d1ffe7658d536
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5599945d0e13add636ef320ea86f619754135c4a
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="organizational-training-power-bi-content"></a><span data-ttu-id="6cd9e-103">Contenido de Power BI sobre formación organizativa</span><span class="sxs-lookup"><span data-stu-id="6cd9e-103">Organizational training Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6cd9e-104">En este tema se describe Finance and Operations, contenido de Power BI sobre formación organizativa.</span><span class="sxs-lookup"><span data-stu-id="6cd9e-104">This topic describes the Finance and Operations - Organizational training Power BI content.</span></span> 
 

@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 861bdc5096375a6eddf710f0e323d42942f6c239
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 30779807f7bb198ac57a6c963c0181b5488654ad
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a><span data-ttu-id="eb8a2-103">Liberar un producto o un producto maestro a otras entidades jurídicas</span><span class="sxs-lookup"><span data-stu-id="eb8a2-103">Release a product/product master to legal entities</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="eb8a2-104">Este procedimiento le muestra cómo liberar un producto o a un producto maestro en una o más entidades jurídicas.</span><span class="sxs-lookup"><span data-stu-id="eb8a2-104">This procedure walks through how to release a product or product master into one or more legal entities.</span></span> <span data-ttu-id="eb8a2-105">La empresa de datos de prueba utilizada para crear esta tarea es USRT y la tarea está pensada para el encargado de comercialización y el diseñador de productos.</span><span class="sxs-lookup"><span data-stu-id="eb8a2-105">The demo data company used to create this task is USRT, and the task is intended for the Merchandising Manager and Product Designer.</span></span>
 

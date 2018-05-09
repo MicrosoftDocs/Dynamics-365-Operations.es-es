@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 87008b1d2f3c3e961e5818e5961471438e558cd0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7fb740435dc453ec6ea6e6901581c8f96c4e65d4
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-service-agreement-groups"></a><span data-ttu-id="e6845-103">Crear grupos de acuerdos de servicio</span><span class="sxs-lookup"><span data-stu-id="e6845-103">Create service agreement groups</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e6845-104">Los grupos de acuerdos de servicio son útiles para ordenar y filtrar acuerdos de servicio.</span><span class="sxs-lookup"><span data-stu-id="e6845-104">Service agreement groups are useful for sorting and filtering service agreements.</span></span>
 

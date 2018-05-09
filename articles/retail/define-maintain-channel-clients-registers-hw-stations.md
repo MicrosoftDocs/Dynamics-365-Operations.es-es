@@ -20,16 +20,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2bc302c83affbee4ce9d0ab8441cfca61d5d8335
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 85593f258542fbe86a61cceb34ae5cdaa9b8767f
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a><span data-ttu-id="e3e67-103">Definir y mantener clientes de canal, registradoras y estaciones de hardware</span><span class="sxs-lookup"><span data-stu-id="e3e67-103">Define and maintain channel clients, registers, and hardware stations</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="e3e67-104">Este tema trata de cómo conectar periféricos a su Retail POS.</span><span class="sxs-lookup"><span data-stu-id="e3e67-104">This topic covers how to connect peripherals to your Retail POS.</span></span>
 

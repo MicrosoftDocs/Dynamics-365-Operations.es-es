@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 23b17c577fd2e0dfa6183929c86ed1950db8c50b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d5eafc08f793dfa4dee2ee15b9fe580e645f8f7b
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="derived-books"></a><span data-ttu-id="9888f-103">Libros derivados</span><span class="sxs-lookup"><span data-stu-id="9888f-103">Derived books</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9888f-104">Este artículo proporciona información general de la función del libro derivado.</span><span class="sxs-lookup"><span data-stu-id="9888f-104">This article provides an overview of derived book functionality.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d57f3138f5a456c85550baf1eb18b4f99733a3d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f05020dfde0b985faf3a6b9dc72f94a6d87e7968
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="convert-accounting-or-reporting-currencies"></a><span data-ttu-id="0189d-103">Conversión de divisas contables o de notificación</span><span class="sxs-lookup"><span data-stu-id="0189d-103">Convert accounting or reporting currencies</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0189d-104">Una empresa que debe cambiar la divisa de contabilidad o la divisa de notificación tiene dos opciones.</span><span class="sxs-lookup"><span data-stu-id="0189d-104">A company that must change its accounting currency or reporting currency has two options.</span></span> <span data-ttu-id="0189d-105">La primera opción es crear una nueva empresa y comenzar de cero.</span><span class="sxs-lookup"><span data-stu-id="0189d-105">The first option is to create a new company and start fresh.</span></span> <span data-ttu-id="0189d-106">La segunda opción es ejecutar el proceso de conversión de la divisa de contabilidad y de notificación.</span><span class="sxs-lookup"><span data-stu-id="0189d-106">The second option is to run the accounting and reporting currency conversion process.</span></span> <span data-ttu-id="0189d-107">Este es un proceso muy prolongado que cambia todas las transacciones en el sistema.</span><span class="sxs-lookup"><span data-stu-id="0189d-107">This is a very long-running process that changes every transaction in the system.</span></span> <span data-ttu-id="0189d-108">También se requiere configuración adicional para poder ejecutar el proceso.</span><span class="sxs-lookup"><span data-stu-id="0189d-108">Some setup is also required before the process can be run.</span></span>
 

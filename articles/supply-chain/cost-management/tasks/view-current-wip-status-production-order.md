@@ -17,15 +17,15 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d5c631960fcb1db07df6e11ced617dada0b62c8a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 87c0a02263d635f43f42467eab25020a12268102
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a><span data-ttu-id="306cc-103">Ver estado actual de trabajo en curso en una orden de producción</span><span class="sxs-lookup"><span data-stu-id="306cc-103">View current WIP status on a production order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="306cc-104">Este procedimiento muestra cómo ver un informe de trabajo en curso en un pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="306cc-104">This procedure shows how to view WIP statement on a production order.</span></span> <span data-ttu-id="306cc-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="306cc-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="306cc-106">Este procedimiento se va a utilizar para el controlador de costes.</span><span class="sxs-lookup"><span data-stu-id="306cc-106">This procedure is intended for the cost controller.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6c443b96d94e0b5cee05e7bca36da0a2f045d1cc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 124dfc0263b12ba50b2ec7e914b4a402a94718ab
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-performance-power-bi-content"></a><span data-ttu-id="d0644-104">Contenido de Power BI sobre rendimiento del almacén</span><span class="sxs-lookup"><span data-stu-id="d0644-104">Warehouse performance Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d0644-105">Este tema describe lo que se incluye en el contenido de Microsoft Power BI **Rendimiento del almacén**.</span><span class="sxs-lookup"><span data-stu-id="d0644-105">This topic describes what's included in the **Warehouse performance** Microsoft Power BI content.</span></span> <span data-ttu-id="d0644-106">Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.</span><span class="sxs-lookup"><span data-stu-id="d0644-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 

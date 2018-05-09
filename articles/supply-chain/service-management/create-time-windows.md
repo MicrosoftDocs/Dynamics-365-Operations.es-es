@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1a5a23d61ba8f45c068e17d5f60899c0ca9b6315
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 43fd43356b977c8b3926d5712b63815a0a9e339c
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-time-windows"></a><span data-ttu-id="88218-103">Crear ventanas de plazo</span><span class="sxs-lookup"><span data-stu-id="88218-103">Create time windows</span></span>   
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="88218-104">Puede usar ventanas de plazo para optimizar la programación de líneas de pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="88218-104">You can use time windows to optimize the scheduling of service order lines.</span></span>
 

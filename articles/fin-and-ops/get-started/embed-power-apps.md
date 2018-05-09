@@ -16,18 +16,18 @@ ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 07224faabcf2b183d4c8da0ba4588c33ec140d03
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0754b4361f2fe940f6c6d4168ac44f234fd363f8
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="embed-powerapps"></a><span data-ttu-id="850c3-103">Integrar PowerApps</span><span class="sxs-lookup"><span data-stu-id="850c3-103">Embed PowerApps</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 <span data-ttu-id="850c3-104">En la actualización de plataforma 14, Microsoft Dynamics 365 for Finance and Operations admite la integración con Microsoft PowerApps, un servicio para que desarrolladores y usuarios no técnicos compilen las aplicaciones personalizadas de negocio de los dispositivos móviles, las tabletas, y la Web sin escribir código.</span><span class="sxs-lookup"><span data-stu-id="850c3-104">In Platform update 14, Microsoft Dynamics 365 for Finance and Operations supports integration with Microsoft PowerApps, a service for developers and non-technical users to build custom business apps for mobile devices, tablets, and the web without writing code.</span></span> <span data-ttu-id="850c3-105">Las PowerApps desarrolladas por el usuario, su organización, o el ecosistema más amplio se pueden insertar en el cliente de Finance and Operations para aumentar la funcionalidad de producto.</span><span class="sxs-lookup"><span data-stu-id="850c3-105">PowerApps developed by you, your organization, or the broader ecosystem can then be embedded in the Finance and Operations client to augment the product's functionality.</span></span> <span data-ttu-id="850c3-106">Por ejemplo, puede que crear un PowerApp para complementar Finance and Operations con la información recuperada de otro sistema.</span><span class="sxs-lookup"><span data-stu-id="850c3-106">For example, you might build a PowerApp to supplement Finance and Operations with information retrieved from another system.</span></span> 
 

@@ -16,15 +16,15 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: df0046a793dc342bf9f5250926d3da870605f804
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9b73ca0e447b89045ff06b1d48d6c1ddb6d011c5
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-corrective-invoice-spain"></a><span data-ttu-id="34568-103">Crear una factura correctiva (España)</span><span class="sxs-lookup"><span data-stu-id="34568-103">Create a corrective invoice (Spain)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="34568-104">Este procedimiento le guía por la manera de crear una factura de corrección.</span><span class="sxs-lookup"><span data-stu-id="34568-104">This procedure walks you through how to create a corrective invoice.</span></span> <span data-ttu-id="34568-105">Este procedimiento se ha creado con los datos de demostración de la empresa DEMF y con una dirección principal en España.</span><span class="sxs-lookup"><span data-stu-id="34568-105">This procedure was created using the demo data company DEMF with a primary address in Spain.</span></span>
 

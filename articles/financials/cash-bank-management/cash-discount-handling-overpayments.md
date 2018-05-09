@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 24bc45b1c0c91b9fb8e634f330a14cec5cc0f4ca
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: af38e156a37dce31498e361a97f187cceaa285f7
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="handling-cash-discounts-for-overpayments"></a><span data-ttu-id="1c0f8-103">Gestión de descuentos por pronto pago para sobrepagos</span><span class="sxs-lookup"><span data-stu-id="1c0f8-103">Handling cash discounts for overpayments</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1c0f8-104">Este artículo proporcionan escenarios que muestran cómo se gestiona un pago cuando el cliente recibe un descuento por pronto pago pero también paga en exceso.</span><span class="sxs-lookup"><span data-stu-id="1c0f8-104">This article provides scenarios that show how a payment is handled when the customer takes a cash discount but also overpays.</span></span> 
 

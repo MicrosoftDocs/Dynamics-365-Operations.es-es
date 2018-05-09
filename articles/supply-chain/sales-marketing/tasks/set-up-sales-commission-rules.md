@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ad1bd0babbf81e6296c59440cf679f131f9976c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7b2d44b8ee6751516621cbb11148c9a92bdf427a
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-sales-commission-rules"></a><span data-ttu-id="ae686-103">Configurar reglas de comisión de ventas</span><span class="sxs-lookup"><span data-stu-id="ae686-103">Set up sales commission rules</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ae686-104">Este procedimiento muestra cómo configurar y habilitar el seguimiento y el cálculo de las comisiones de ventas.</span><span class="sxs-lookup"><span data-stu-id="ae686-104">This procedure shows you how to set up and enable sales commission calculation and tracking.</span></span> <span data-ttu-id="ae686-105">El procedimiento muestra cómo crear grupos de comisión tanto de clientes como de artículos, y después cómo vincular un producto y cliente seleccionado a los grupos respectivos.</span><span class="sxs-lookup"><span data-stu-id="ae686-105">The procedure shows how to create both customer and item commission groups, and then how to link a selected customer and product to the respective groups.</span></span> <span data-ttu-id="ae686-106">A continuación esos grupos se usan en la configuración del cálculo de la comisión para crear una combinación de cliente, artículo y representantes de ventas que se debe conciliar con el pedido de ventas para dar derecho a los vendedores a una comisión.</span><span class="sxs-lookup"><span data-stu-id="ae686-106">Those groups are then used in the commission calculation setup to create a customer, item, and sales representatives combination that must be matched by the sales order to entitle the sales people to a commission.</span></span> <span data-ttu-id="ae686-107">La creación de grupos de comisión de clientes y artículos es opcional, ya que el cálculo de la comisión también se puede realizar para un cliente y/o artículo individual.</span><span class="sxs-lookup"><span data-stu-id="ae686-107">Creating customer and item commission groups are optional, as the calculation of commission can also be done for an individual customer and/or item.</span></span> <span data-ttu-id="ae686-108">Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.</span><span class="sxs-lookup"><span data-stu-id="ae686-108">You can run this procedure in demo data company USMF or on your own data.</span></span>
 

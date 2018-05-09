@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ae6f2358cb8e7d1f093f9fcbf60b0957e9e6a629
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1de2532f030335cf9d681a84484f35d3a424cd6a
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a><span data-ttu-id="abbab-103">Crear y adquirir activos desde proveedores</span><span class="sxs-lookup"><span data-stu-id="abbab-103">Create and acquire assets from accounts payable</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="abbab-104">Esta guía de la tarea le guiará por la creación y la adquisición de un activo fijo con el proceso de compra.</span><span class="sxs-lookup"><span data-stu-id="abbab-104">This task guide will walk through creation and acquisition of a fixed asset with the purchasing process.</span></span> <span data-ttu-id="abbab-105">Usa los roles de contable y responsable de proveedores y la empresa de prueba USMF.</span><span class="sxs-lookup"><span data-stu-id="abbab-105">It uses the Accountant and Accounts payable clerks and the demo company USMF.</span></span>
 

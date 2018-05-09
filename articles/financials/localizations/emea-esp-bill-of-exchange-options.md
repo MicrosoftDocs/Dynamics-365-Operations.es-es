@@ -18,16 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2fa0aebb40d3a465f7304aa441ebf63d23cfd246
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18a1d87406a9de4a78116398a2c2018feb87ff8c
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="spanish-bill-of-exchange-options"></a><span data-ttu-id="e0f5d-103">Opciones de letras de cambio españolas</span><span class="sxs-lookup"><span data-stu-id="e0f5d-103">Spanish bill of exchange options</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e0f5d-104">Este tema describe opciones y cambios específicos en el proceso de letra de cambio básico implementado en Microsoft Dynamics 365 for Finance and Operations para las entidades jurídicas en España.</span><span class="sxs-lookup"><span data-stu-id="e0f5d-104">This topic describes specific options and changes in basic bill of exchange process implemented in Microsoft Dynamics 365 for Finance and Operations for legal entities in Spain.</span></span>
 

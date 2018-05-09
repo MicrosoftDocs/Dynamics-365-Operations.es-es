@@ -16,16 +16,16 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2017-12-01
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 013bb4fc4b97182af43493d2f9c5fa4150854b07
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 149103c7e5fd579b230f49bf26ca4ac838c68431
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cfdi-layout-version-33"></a><span data-ttu-id="60888-103">Versión 3.3 del diseño CFDI</span><span class="sxs-lookup"><span data-stu-id="60888-103">CFDI layout version 3.3</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="electronic-invoice-parameters"></a><span data-ttu-id="60888-104">Parámetros de facturas electrónicas</span><span class="sxs-lookup"><span data-stu-id="60888-104">Electronic invoice parameters</span></span>
 

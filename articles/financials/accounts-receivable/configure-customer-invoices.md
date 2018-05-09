@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f08131e01fddb259d3bb537b1625ea2615a1e958
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 787c958f07bc3fbd442be8132b55de7f3e769cae
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-a-customer-invoice"></a><span data-ttu-id="4e2ba-103">Crear una factura de cliente</span><span class="sxs-lookup"><span data-stu-id="4e2ba-103">Create a customer invoice</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4e2ba-104">Una **factura de cliente para un pedido de ventas** es una factura en relación con una venta que una organización da a un cliente.</span><span class="sxs-lookup"><span data-stu-id="4e2ba-104">A **customer invoice for a sales order** is a bill that is related to a sale, and that an organization gives to a customer.</span></span> <span data-ttu-id="4e2ba-105">Este tipo de factura de cliente se crea basándose en un pedido de ventas, que incluye líneas de pedido y números de artículo.</span><span class="sxs-lookup"><span data-stu-id="4e2ba-105">This type of customer invoice is created based on a sales order, which includes order lines and item numbers.</span></span> <span data-ttu-id="4e2ba-106">Los números de artículos se especifican y se registran en el libro mayor.</span><span class="sxs-lookup"><span data-stu-id="4e2ba-106">Item numbers are specified and posted in the ledger.</span></span> <span data-ttu-id="4e2ba-107">Los asientos de subdiarios contables no están disponibles para facturas de cliente de pedidos de venta.</span><span class="sxs-lookup"><span data-stu-id="4e2ba-107">Subledger journal entries aren't available for a customer invoice for a sales order.</span></span> <span data-ttu-id="4e2ba-108">Para obtener más información, consulte [Crear facturas de pedido de ventas](tasks/create-sales-order-invoices.md).</span><span class="sxs-lookup"><span data-stu-id="4e2ba-108">For more information, see [Create sales order invoices](tasks/create-sales-order-invoices.md).</span></span>
 

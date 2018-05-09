@@ -18,16 +18,16 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 45e46e06e7c934f18f6d5406ddaafc3b09f3a98f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cfaf17a8279026bf9bc8b581afd07e4fdbd3f03a
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="excel-templates-with-multiple-worksheets"></a><span data-ttu-id="95b86-103">Plantillas de Excel con varias hojas de cálculo</span><span class="sxs-lookup"><span data-stu-id="95b86-103">Excel templates with multiple worksheets</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="95b86-104">La administración de datos en Microsoft Dynamics 365 for Finance and Operations admite las plantillas basadas en Microsoft Excel para entidades de datos.</span><span class="sxs-lookup"><span data-stu-id="95b86-104">Data management in Microsoft Dynamics 365 for Finance and Operations supports Microsoft Excel-based templates for data entities.</span></span> <span data-ttu-id="95b86-105">Estas plantillas pueden contener una o varias hojas de cálculo.</span><span class="sxs-lookup"><span data-stu-id="95b86-105">These templates can contain one or more worksheets.</span></span> <span data-ttu-id="95b86-106">Las plantillas con varias hojas de cálculo se utilizan a menudo cuando es conveniente administrar datos en un solo archivo e importarlos a múltiples entidades de datos.</span><span class="sxs-lookup"><span data-stu-id="95b86-106">Templates with multiple worksheets are often used when it is convenient to manage data in a single file and import it to multiple data entities.</span></span> <span data-ttu-id="95b86-107">Un ejemplo serían sitios y almacenes.</span><span class="sxs-lookup"><span data-stu-id="95b86-107">An example would be sites and warehouses.</span></span>
 

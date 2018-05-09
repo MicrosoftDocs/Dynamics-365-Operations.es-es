@@ -19,16 +19,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d2f40b8df610077447b1fa1b77afbd46b0a39e3f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 12db520aba59b5411dbbe6a4a4ffa88277bd946b
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="diot-declaration-statement"></a><span data-ttu-id="e6056-103">Informe de declaración DIOT</span><span class="sxs-lookup"><span data-stu-id="e6056-103">DIOT declaration statement</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e6056-104">En este tema se proporciona información acerca del informe de declaración DIOT para México.</span><span class="sxs-lookup"><span data-stu-id="e6056-104">This topic provides information about the DIOT declaration statement for Mexico.</span></span>
 

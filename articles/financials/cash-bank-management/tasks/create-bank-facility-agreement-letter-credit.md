@@ -16,15 +16,15 @@ ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 36ad4d552297020a92206674f4fbf12203ecf84c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c0a06c2c7a9c0cb12e0b451b49be5fb98a10eaca
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a><span data-ttu-id="f2b42-103">Crear un contrato de crédito bancario para un crédito documentario</span><span class="sxs-lookup"><span data-stu-id="f2b42-103">Create a bank facility agreement for a letter of credit</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f2b42-104">Esta tarea le lleva por la creación de un contrato de instalaciones bancarias para procesar un crédito documentario.</span><span class="sxs-lookup"><span data-stu-id="f2b42-104">This task walks through the creating a Bank facility agreement to process a Letter of credit.</span></span> <span data-ttu-id="f2b42-105">Es conveniente configurar los créditos bancarios y los perfiles de contabilización antes de realizar esta tarea.</span><span class="sxs-lookup"><span data-stu-id="f2b42-105">You will want to set up bank facilities and posting profiles before this task.</span></span>  <span data-ttu-id="f2b42-106">Esta tarea usa la empresa de demostración "USMF".</span><span class="sxs-lookup"><span data-stu-id="f2b42-106">This task uses the demo company 'USMF'.</span></span>  
 

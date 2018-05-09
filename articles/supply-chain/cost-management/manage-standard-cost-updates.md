@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b001d1010fe526458f2e0fce712a2b737e8b53bb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3e1d9831b84af96d34150544c660d59f9c720539
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="manage-standard-cost-updates"></a><span data-ttu-id="e3d18-103">Gestionar actualizaciones de coste estándar</span><span class="sxs-lookup"><span data-stu-id="e3d18-103">Manage standard cost updates</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e3d18-104">Las actualizaciones los datos de coste estándar se pueden gestionar con dos métodos diferentes: el método de una versión o el de dos versiones.</span><span class="sxs-lookup"><span data-stu-id="e3d18-104">Updates to standard cost data can be managed by using two different approaches - the one-version approach or the two-version approach.</span></span> 
 

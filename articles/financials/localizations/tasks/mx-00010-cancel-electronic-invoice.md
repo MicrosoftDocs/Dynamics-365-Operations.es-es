@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 08d876949bf7ec2ad517d80d52f41bba4c67711e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5495bc25ffb3e6eaf4230d2b34b15114e2864ab5
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="cancel-an-electronic-invoice-mexico"></a><span data-ttu-id="a2b2b-103">Cancelar una factura electrónica (México)</span><span class="sxs-lookup"><span data-stu-id="a2b2b-103">Cancel an electronic invoice (Mexico)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a2b2b-104">Puede cancelar una factura electrónica CFDI validada y certificada anteriormente por el PAC.</span><span class="sxs-lookup"><span data-stu-id="a2b2b-104">You can cancel a CFDI electronic invoice that was previously validated and certified by the PAC.</span></span> <span data-ttu-id="a2b2b-105">También puede cancelar una factura electrónica CFDI mediante el proceso manual.</span><span class="sxs-lookup"><span data-stu-id="a2b2b-105">You can also cancel a CFDI electronic invoice by using the manual process.</span></span>
 

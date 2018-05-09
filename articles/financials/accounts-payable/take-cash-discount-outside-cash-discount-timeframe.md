@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 351d759650ad0f0047ba8ffb6abf55c6bf354f5b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 29b49c8ad0b6e3778bb8776b5636f46faee7ad4e
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a><span data-ttu-id="7f1dd-103">Obtener un descuento por pronto pago fuera del período de descuento por pronto pago</span><span class="sxs-lookup"><span data-stu-id="7f1dd-103">Take a cash discount outside the cash discount period</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="7f1dd-104">Este artículo proporciona dos escenarios que muestran cómo se puede aplicar un descuento por pronto pago incluso si el pago se realiza fuera del período de descuento por pronto pago.</span><span class="sxs-lookup"><span data-stu-id="7f1dd-104">This article provides two scenarios that show how a cash discount can be taken even if the payment is made outside the cash discount period.</span></span>
 

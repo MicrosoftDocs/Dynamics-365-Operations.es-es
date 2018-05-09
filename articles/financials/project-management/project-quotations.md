@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 490c291c956f6e2bbe04a2de7a7a3798ad3f08d8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 963754897babd502a2a7fdec3324849286e3e818
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="project-quotations"></a><span data-ttu-id="78b59-104">Presupuestos de proyecto</span><span class="sxs-lookup"><span data-stu-id="78b59-104">Project quotations</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="78b59-105">Este artículo presenta el concepto de presupuestos de proyecto, que puede usar para realizar una oferta atractiva a un cliente como el primer paso de la fase de proyecto.</span><span class="sxs-lookup"><span data-stu-id="78b59-105">This article introduces the concept of project quotations, which you can use to make an attractive offer to a customer as the first step of the project phase.</span></span> <span data-ttu-id="78b59-106">Un presupuesto de proyecto puede incluir los artículos y los servicios que se van a presupuestar, la información básica de contacto, los acuerdos comerciales especiales y los descuentos, así como posibles impuestos y suplementos.</span><span class="sxs-lookup"><span data-stu-id="78b59-106">A project quotation might include the items and services that are quoted, basic contact information, special trade agreements and discounts, and possible taxes and surcharges.</span></span> 
 

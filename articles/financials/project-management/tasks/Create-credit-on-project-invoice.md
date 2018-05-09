@@ -17,15 +17,15 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4d93e71408c516a31a978e698a3c6788f8e1ce47
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2e89010939f2dcaf33140d9de3bf8ec0cddfc16f
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a><span data-ttu-id="eb4ce-103">Crear una nota de abono en facturas de proyecto</span><span class="sxs-lookup"><span data-stu-id="eb4ce-103">Create a credit note on project invoices</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 1. <span data-ttu-id="eb4ce-104">Vaya a Gestión de proyectos y contabilidad > Proyectos > Todos los proyectos.</span><span class="sxs-lookup"><span data-stu-id="eb4ce-104">Go to Project management and accounting > Projects > All projects.</span></span> 
 2. <span data-ttu-id="eb4ce-105">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="eb4ce-105">In the list, find and select the desired record.</span></span> 

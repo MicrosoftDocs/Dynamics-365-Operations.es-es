@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3806dafa6ca6ea8355db3d6a8c2432ad67cd69c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0de2bc15cf3f46271e4cf74c93b639070f6bcfec
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a><span data-ttu-id="61af0-104">Configurar el proceso de importación avanzada de conciliación bancaria</span><span class="sxs-lookup"><span data-stu-id="61af0-104">Set up the advanced bank reconciliation import process</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="61af0-105">La característica Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="61af0-105">The Advanced bank reconciliation feature lets you import electronic bank statements and automatically reconcile them with bank transactions in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="61af0-106">En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios.</span><span class="sxs-lookup"><span data-stu-id="61af0-106">This article explains how to set up the import functionality for your bank statements.</span></span> 
 

@@ -17,15 +17,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2bcc83c0a422ed1480f2ed41460fd710bc51ff3d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 037570ec496a59103f5f3c5c1fc4a47f536ed2b9
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="revert-kanban-job-status"></a><span data-ttu-id="7f970-103">Invertir estado del trabajo kanban</span><span class="sxs-lookup"><span data-stu-id="7f970-103">Revert kanban job status</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7f970-104">Este procedimiento se centra en la inversión de un estado de trabajo kanban incorrecto.</span><span class="sxs-lookup"><span data-stu-id="7f970-104">This procedure focuses on reverting an incorrect kanban job status.</span></span> <span data-ttu-id="7f970-105">Esto resulta útil en el caso de que el operador de máquina actualice el trabajo incorrecto o establezca el estado incorrecto por error.</span><span class="sxs-lookup"><span data-stu-id="7f970-105">This is useful in case the machine operator updates the wrong job, or sets the wrong status by mistake.</span></span> <span data-ttu-id="7f970-106">En este procedimiento, un trabajo kanban se registra como preparado por error y el estado se revierte.</span><span class="sxs-lookup"><span data-stu-id="7f970-106">In this procedure, a kanban job is registered as prepared by mistake, and the status is reverted.</span></span> <span data-ttu-id="7f970-107">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="7f970-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="7f970-108">Este procedimiento está pensado para el supervisor de planta o el operador de máquina que trabaja en una empresa de lean manufacturing.</span><span class="sxs-lookup"><span data-stu-id="7f970-108">This procedure is intended for the shop supervisor or machine operator working in a lean manufacturing company.</span></span>
 

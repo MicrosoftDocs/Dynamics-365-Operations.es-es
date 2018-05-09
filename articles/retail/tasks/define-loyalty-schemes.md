@@ -17,16 +17,16 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 203f952eb9cf346cf5e8c97f9dab874d536e2e24
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 362d6cf877c484c438641980d109b3bed4464b68
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="define-loyalty-schemes"></a><span data-ttu-id="f3f78-103">Definir esquemas de fidelización comercial</span><span class="sxs-lookup"><span data-stu-id="f3f78-103">Define loyalty schemes</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f3f78-104">Este procedimiento muestra cómo definir un esquema de fidelización.</span><span class="sxs-lookup"><span data-stu-id="f3f78-104">This procedure walks through how to define a loyalty scheme.</span></span> <span data-ttu-id="f3f78-105">Los esquemas de fidelización son reglas de canje y obtención de recompensas para un programa de fidelización.</span><span class="sxs-lookup"><span data-stu-id="f3f78-105">Loyalty schemes are reward earning and redeeming rules for a loyalty program.</span></span> <span data-ttu-id="f3f78-106">Este procedimiento usa la empresa de datos de demostración USRT.</span><span class="sxs-lookup"><span data-stu-id="f3f78-106">This procedure uses the USRT demo data company.</span></span>
 

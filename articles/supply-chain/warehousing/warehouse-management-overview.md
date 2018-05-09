@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d090a668988aeaeb8f1b779bc565d03a506a8f15
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a569d9264097d7a0b742bc7bf47c2504c58cdb4e
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="warehouse-management"></a><span data-ttu-id="2ef32-103">Gestión de almacenes</span><span class="sxs-lookup"><span data-stu-id="2ef32-103">Warehouse management</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="2ef32-104">El módulo de gestión de almacenes de Dynamics 365 for Finance and Operations le permite gestionar los procesos de almacén en la fabricación, la distribución y en las empresas al por menor.</span><span class="sxs-lookup"><span data-stu-id="2ef32-104">The Warehouse management module for Dynamics 365 for Finance and Operations lets you manage warehouse processes in manufacturing, distribution, and retail companies.</span></span> <span data-ttu-id="2ef32-105">Este módulo tiene una gran variedad de características que le permitirán sacarle el máximo rendimiento a su instalación de almacén.</span><span class="sxs-lookup"><span data-stu-id="2ef32-105">This module has a wide range of features to support the warehouse facility at an optimal level, at any time.</span></span> <span data-ttu-id="2ef32-106">La gestión de almacenes está completamente integrada con otros procesos empresariales en Finance and Operations, tales como el transporte, la fabricación, el control de calidad, las compras, las ventas, las transferencias y las devoluciones.</span><span class="sxs-lookup"><span data-stu-id="2ef32-106">Warehouse management is fully integrated with other business processes in Finance and Operations such as transportation, manufacturing, quality control, purchase, transfer, sales, and returns.</span></span>
 

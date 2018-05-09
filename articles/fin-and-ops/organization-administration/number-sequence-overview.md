@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58069d79f92ce015fe4b11b50fb3348722bca4f8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 13b47d755a122199608ece386f4f764ee580b2ed
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="number-sequences"></a><span data-ttu-id="1e967-103">Secuencias numéricas</span><span class="sxs-lookup"><span data-stu-id="1e967-103">Number sequences</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1e967-104">Las secuencias numéricas se usan para generar identificadores únicos y legibles para los registros de datos maestros y los registros de transacciones que necesitan identificadores.</span><span class="sxs-lookup"><span data-stu-id="1e967-104">Number sequences are used to generate readable, unique identifiers for master data records and transaction records that require identifiers.</span></span> <span data-ttu-id="1e967-105">El registro de datos maestros o de transacciones que necesita un identificador se denomina *referencia*.</span><span class="sxs-lookup"><span data-stu-id="1e967-105">A master data record or transaction record that requires an identifier is referred to as a *reference*.</span></span>
 

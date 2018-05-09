@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cc115532df0e340c555b405cf859010c054d87cf
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="transportation-management-engines"></a><span data-ttu-id="8d8af-103">Motores de administración del transporte</span><span class="sxs-lookup"><span data-stu-id="8d8af-103">Transportation management engines</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="8d8af-104">Los motores de administración del transporte definen la lógica que se usa para generar y procesar tasas de transporte en Administración de transporte.</span><span class="sxs-lookup"><span data-stu-id="8d8af-104">Transportation management engines define the logic that is used to generate and process transportation rates in Transportation management.</span></span> 
 

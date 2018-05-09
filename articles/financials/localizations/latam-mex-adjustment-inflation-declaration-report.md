@@ -19,16 +19,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f84f91d67e88fed737cf7885500c96a79e3aef00
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4b76dad8343b568d82914108695f20a122a92d33
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="adjustment-inflation-declaration-report"></a><span data-ttu-id="f8294-103">Informe de la declaración de inflación de ajuste</span><span class="sxs-lookup"><span data-stu-id="f8294-103">Adjustment inflation declaration report</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f8294-104">Los usuarios de Finance and Operations pueden procesar ajustes de inflación mediante coeficientes de INPC, distintos métodos (como saldos de apertura, saldo, saldo mensual y fecha de transacción) y diversas dimensiones.</span><span class="sxs-lookup"><span data-stu-id="f8294-104">Finance and Operations users can process inflation adjustments by using INPC rates, various methods (such as opening balance, balance, monthly balance, and transaction date), and various dimensions.</span></span>
 

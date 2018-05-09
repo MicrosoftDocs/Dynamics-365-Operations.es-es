@@ -19,16 +19,16 @@ ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c44beba51538184c062b53d643bda98de3d752b4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1558b5db36e194a94a829c0a09cc8aa50fbc545b
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="audit-policy-violations-and-cases"></a><span data-ttu-id="c3d8c-104">Infracciones y casos de directivas de auditoría</span><span class="sxs-lookup"><span data-stu-id="c3d8c-104">Audit policy violations and cases</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c3d8c-105">El artículo explica cómo se generan los casos de auditoría a partir de infracciones de reglas de directivas de auditoría.</span><span class="sxs-lookup"><span data-stu-id="c3d8c-105">The article explains how audit cases are generated from violations of audit policy rules.</span></span> <span data-ttu-id="c3d8c-106">También incluye información acerca de las distintas maneras en que las directivas de auditoría usan el intervalo de fechas de selección de documentos.</span><span class="sxs-lookup"><span data-stu-id="c3d8c-106">It also includes information about the various ways that audit policies use the document selection date range.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2b0e7816183cdfd6a3a26c9fb4cf51b17f133853
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 28595178111bc13fa6bbcb3b7d543c4675ecd805
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-element-dimensions"></a><span data-ttu-id="dbae9-103">Dimensiones de elemento de coste</span><span class="sxs-lookup"><span data-stu-id="dbae9-103">Cost element dimensions</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="dbae9-104">Como uno de los pilares básicos de la Contabilidad de costes, las dimensiones del elemento de coste se utilizan para clasificar y realizar un seguimiento de a dónde fluyen los costes.</span><span class="sxs-lookup"><span data-stu-id="dbae9-104">As one of the core pillars in Cost accounting, cost element dimensions are used to categorize and track where costs flow to.</span></span> 
 

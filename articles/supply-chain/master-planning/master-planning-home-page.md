@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 336356b5abe38b27fdfa5fe74d52a130e7b8d445
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5261589aaf7eded053bcc19bd1de101c86836b7d
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="master-planning-home-page"></a><span data-ttu-id="d5274-103">Página principal de planificación maestra</span><span class="sxs-lookup"><span data-stu-id="d5274-103">Master planning home page</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d5274-104">Básicamente, la planificación maestra permite a las empresas determinar y establecer la necesidad futura de materias primas y la capacidad para cumplir los objetivos de la empresa.</span><span class="sxs-lookup"><span data-stu-id="d5274-104">At its core, Master planning allows companies to determine and balance the future need for raw materials and capacity to meet company goals.</span></span> <span data-ttu-id="d5274-105">La planificación maestra evalúa lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="d5274-105">Master planning assesses the following:</span></span> 
 

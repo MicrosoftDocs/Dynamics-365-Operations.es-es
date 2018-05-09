@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 52d05dfe3eedd5735f47638a1fdec4e5855ca965
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fdbee2f67948d2b4f47d1ed999da78a6b82fe7ed
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-statuses"></a><span data-ttu-id="a7111-103">Estados de inventario</span><span class="sxs-lookup"><span data-stu-id="a7111-103">Inventory statuses</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a7111-104">Este artículo describe cómo puede usar los estados de inventario para clasificar y realizar un seguimiento del inventario.</span><span class="sxs-lookup"><span data-stu-id="a7111-104">This article describes how you can use inventory statuses to categorize and keep track of inventory.</span></span>
 

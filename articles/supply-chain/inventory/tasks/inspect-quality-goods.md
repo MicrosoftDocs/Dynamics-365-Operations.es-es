@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ab536047340bdebecb7c8317e20208c87a4776f7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3afa22d99f1915015b49964d9e22a6df15ecf6f9
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="inspect-the-quality-of-goods"></a><span data-ttu-id="65583-103">Inspeccionar la calidad de las mercancías</span><span class="sxs-lookup"><span data-stu-id="65583-103">Inspect the quality of goods</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="65583-104">Este procedimiento muestra cómo procesar un pedido de calidad.</span><span class="sxs-lookup"><span data-stu-id="65583-104">This procedure shows you how to process a quality order.</span></span> <span data-ttu-id="65583-105">Puede ejecutar esta guía en la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="65583-105">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="65583-106">Antes de comenzar este procedimiento de ejemplo, debe confirmar el pedido de compra "000016" y registrar una recepción de producto.</span><span class="sxs-lookup"><span data-stu-id="65583-106">Before you start this example procedure, you need to confirm purchase order “000016” and post a product receipt.</span></span> <span data-ttu-id="65583-107">Esto crea automáticamente un pedido de calidad.</span><span class="sxs-lookup"><span data-stu-id="65583-107">This will automatically create a quality order.</span></span> <span data-ttu-id="65583-108">Las inspecciones de calidad las lleva a cabo normalmente un empleado de control de calidad.</span><span class="sxs-lookup"><span data-stu-id="65583-108">Quality inspections are typically carried out by a quality clerk.</span></span>
 

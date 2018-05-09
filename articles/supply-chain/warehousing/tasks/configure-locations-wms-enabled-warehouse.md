@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fb48914491597f2eb7cc08db99ed548764213709
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7a920ae932cb38f70d06b33ccf688dc713fcb16c
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a><span data-ttu-id="57d87-103">Configurar ubicaciones en un almacén con WMS</span><span class="sxs-lookup"><span data-stu-id="57d87-103">Configure locations in a WMS-enabled warehouse</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="57d87-104">Este procedimiento le muestra cómo configurar la ubicación para un nuevo almacén con WMS (un almacén que usa procesos avanzados de gestión de almacenes).</span><span class="sxs-lookup"><span data-stu-id="57d87-104">This guide shows you how to configure the location setup for a new WMS-enabled warehouse (a warehouse that uses advanced warehouse management processes).</span></span> <span data-ttu-id="57d87-105">El proceso normalmente lo realiza el director del almacén.</span><span class="sxs-lookup"><span data-stu-id="57d87-105">The process is typically done by a warehouse manager.</span></span> <span data-ttu-id="57d87-106">Puede realizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.</span><span class="sxs-lookup"><span data-stu-id="57d87-106">You can run this guide in demo data company USMF or on your own data.</span></span> <span data-ttu-id="57d87-107">Una condición previa es que tenga al menos un sitio configurado.</span><span class="sxs-lookup"><span data-stu-id="57d87-107">A precondition is that you have at least one site configured.</span></span>
 

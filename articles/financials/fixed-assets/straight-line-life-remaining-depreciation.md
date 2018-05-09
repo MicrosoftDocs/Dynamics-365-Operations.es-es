@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9b49f8ae3a2afc236aef622438ae1a0b575600bf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 50f0b78807c1f434888e3bda57989e93076e1f72
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="straight-line-life-remaining-depreciation"></a><span data-ttu-id="8343c-103">Tiempo de vida restante de depreciación lineal</span><span class="sxs-lookup"><span data-stu-id="8343c-103">Straight line life remaining depreciation</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="8343c-104">Este artículo le ofrece una visión general del método de depreciación Tiempo de vida restante de depreciación lineal.</span><span class="sxs-lookup"><span data-stu-id="8343c-104">This article gives an overview of the Straight line life remaining method of depreciation.</span></span>
 

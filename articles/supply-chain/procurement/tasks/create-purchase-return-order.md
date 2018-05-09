@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bb24cf68912b994842f17df37d01c0046587a5eb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3f4bd0a7765a423fd515058a3615092bcabf1b6a
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-return-order"></a><span data-ttu-id="6b101-103">Creación de pedido de devolución de compra</span><span class="sxs-lookup"><span data-stu-id="6b101-103">Create a purchase return order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6b101-104">Este procedimiento le muestra cómo crear un pedido de devolución de compras con la acción Nota de abono para copiar líneas de un documento de factura de proveedor a un nuevo pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="6b101-104">This procedure shows you how to create a purchase return order by using the Credit note action to copy lines from a vendor invoice document to a new PO.</span></span> <span data-ttu-id="6b101-105">También le muestra cómo confirmar el pedido y procesar el envío de las mercancías de vuelta al proveedor.</span><span class="sxs-lookup"><span data-stu-id="6b101-105">It also shows you how to confirm the order and process shipment of the goods back to the vendor.</span></span> <span data-ttu-id="6b101-106">El ejemplo mostrado en este procedimiento se puede utilizar en la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="6b101-106">The example shown in this procedure can be used in the USMF demo data company.</span></span> <span data-ttu-id="6b101-107">Esta tarea la realizaría normalmente un agente de compras.</span><span class="sxs-lookup"><span data-stu-id="6b101-107">This task would typically be carried out by a purchasing agent.</span></span>
 

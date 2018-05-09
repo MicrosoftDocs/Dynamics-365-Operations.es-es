@@ -19,16 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2acb1f1bddb725edf47440b1860eed612edaf17f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a3726f7de1679fa3aaeda43a55b9ca14895f5ac4
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-dimensions-and-import-dimension-members"></a><span data-ttu-id="afceb-103">Crear dimensiones e importar miembros de dimensión</span><span class="sxs-lookup"><span data-stu-id="afceb-103">Create dimensions and import dimension members</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="afceb-104">La contabilidad de costes es un módulo independiente que requiere datos de otros módulos.</span><span class="sxs-lookup"><span data-stu-id="afceb-104">Cost accounting is an independent module that requires data from other modules.</span></span> <span data-ttu-id="afceb-105">Estos datos se categorizan en lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="afceb-105">This data is categorized into the following:</span></span>
 

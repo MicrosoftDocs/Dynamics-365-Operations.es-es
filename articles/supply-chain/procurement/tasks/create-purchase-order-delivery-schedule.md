@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d0e86c33580cbcafb16f508c2f6330d81422f12d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 91a548d8fb6c46920fcb5660ac94c732fe27249a
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a><span data-ttu-id="fcd0e-103">Crear un pedido de compra con una programación de entrega</span><span class="sxs-lookup"><span data-stu-id="fcd0e-103">Create a purchase order with a delivery schedule</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fcd0e-104">En este procedimiento se demuestra cómo crear una programación de entrega para un pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="fcd0e-104">This procedure demonstrates how to create a delivery schedule for a purchase order.</span></span> <span data-ttu-id="fcd0e-105">Se usa una programación de entrega cuando se solicita que se entregue una cantidad de un pedido o un diario en varios envíos.</span><span class="sxs-lookup"><span data-stu-id="fcd0e-105">A delivery schedule is used when a quantity on an order or a journal is requested to be delivered in multiple shipments.</span></span> <span data-ttu-id="fcd0e-106">El ejemplo mostrado en esta guía se puede utilizar en la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="fcd0e-106">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="fcd0e-107">Este procedimiento normalmente lo haría un agente de compras.</span><span class="sxs-lookup"><span data-stu-id="fcd0e-107">This procedure would typically be done by a purchasing agent.</span></span>
 

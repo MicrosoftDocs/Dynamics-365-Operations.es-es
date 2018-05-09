@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 56691376b639e20751b24e25343d8c71c631ad66
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 255cb8f530b1906409c54dc446872802214482e8
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="batch-attributes"></a><span data-ttu-id="c2595-105">Atributos de lote</span><span class="sxs-lookup"><span data-stu-id="c2595-105">Batch attributes</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c2595-106">Este tema proporciona información acerca de los atributos de lote.</span><span class="sxs-lookup"><span data-stu-id="c2595-106">This topic provides information about batch attributes.</span></span> <span data-ttu-id="c2595-107">Los atributos de lote son características de las materias primas y los productos terminados que componen los lotes de inventario.</span><span class="sxs-lookup"><span data-stu-id="c2595-107">Batch attributes are characteristics of raw materials and finished products that make up inventory batches.</span></span> <span data-ttu-id="c2595-108">El tema también explica cómo asignar atributos de lote y cómo puede buscar en ellos al reservar lotes.</span><span class="sxs-lookup"><span data-stu-id="c2595-108">The topic also explains how to assign batch attributes, and how you can search on them when you reserve batches.</span></span>
 

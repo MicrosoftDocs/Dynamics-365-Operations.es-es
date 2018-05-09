@@ -18,16 +18,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8ae5a02a5c984c9c87f85121e4f568d14ed39aca
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 180a1f61507f258709950409485371e73187ecfe
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fixed-asset-revaluation-groups"></a><span data-ttu-id="ea43c-103">Grupos de revalorización de activos fijos</span><span class="sxs-lookup"><span data-stu-id="ea43c-103">Fixed asset revaluation groups</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ea43c-104">Este tema proporciona información acerca de la revalorización de activos fijos para España.</span><span class="sxs-lookup"><span data-stu-id="ea43c-104">This topic provides information about fixed asset revaluation groups for Spain.</span></span>
 

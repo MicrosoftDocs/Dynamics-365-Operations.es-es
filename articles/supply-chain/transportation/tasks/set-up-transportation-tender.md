@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: eeb2489b857b84efe16f53e8d47deb4a5ffa279e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0af6137bf84401304f9b20f2e3da8ccd772f25f7
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-transportation-tender"></a><span data-ttu-id="1dd56-103">Configurar una forma de pago de transporte</span><span class="sxs-lookup"><span data-stu-id="1dd56-103">Set up a transportation tender</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1dd56-104">Este procedimiento muestra cómo configurar una forma de pago del transporte.</span><span class="sxs-lookup"><span data-stu-id="1dd56-104">This procedure shows how to set up a transportation tender.</span></span> <span data-ttu-id="1dd56-105">Esto lo hace normalmente el coordinador de transporte.</span><span class="sxs-lookup"><span data-stu-id="1dd56-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="1dd56-106">Puede utilizar este procedimiento en la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="1dd56-106">You can use this procedure in the USMF demo data company.</span></span>
 

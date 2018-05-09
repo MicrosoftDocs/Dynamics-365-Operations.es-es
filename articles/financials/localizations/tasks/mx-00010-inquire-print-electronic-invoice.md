@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 214bd8eecdbaadcb3268dcbefc40f1b35956b80f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8fa1c16063b938c15d4780cdc8f0ac4cf751ee97
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="inquire-and-print-an-electronic-invoice-mexico"></a><span data-ttu-id="f8857-103">Consultar e imprimir una factura electrónica (México)</span><span class="sxs-lookup"><span data-stu-id="f8857-103">Inquire and print an electronic invoice (Mexico)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f8857-104">Use el formulario CFDI: facturas electrónicas para ver, exportar, enviar por correo electrónico o imprimir una factura electrónica de CFDI ya generada según la solicitud de un cliente.</span><span class="sxs-lookup"><span data-stu-id="f8857-104">Use the CFDI – Electronic invoices form to view, email, export, or print an already-generated CFDI electronic invoice based on a customer’s request.</span></span> <span data-ttu-id="f8857-105">La factura electrónica impresa de CFDI incluye un código de barras bidimensional de acuerdo con el formato de código QR (código de respuesta rápida) descrito por el estándar ISO/IEC18004.</span><span class="sxs-lookup"><span data-stu-id="f8857-105">The printed CFDI electronic invoice includes two-dimensional bar code in accordance with the format of QR Code (Quick Response Code) that is described in the standard ISO/IEC18004.</span></span> <span data-ttu-id="f8857-106">Esta tarea se completó con los datos de demostración de la empresa MXMF.</span><span class="sxs-lookup"><span data-stu-id="f8857-106">This task was completed using the MXMF demo data company.</span></span>
 

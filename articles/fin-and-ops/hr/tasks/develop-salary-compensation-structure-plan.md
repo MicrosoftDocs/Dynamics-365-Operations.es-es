@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d2a4a0b2bf2d33530dedc7ce3974ee558d063878
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 48ca723cbbc6a13970ba4ab7b890ba333e469514
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a><span data-ttu-id="32a80-103">Desarrollar planes y estructura de salarios o compensaciones</span><span class="sxs-lookup"><span data-stu-id="32a80-103">Develop salary/compensation structure and plans</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="32a80-104">Esta guía de la tarea le lleva por el proceso de crear un plan de compensación fija y permitir que los empleados se inscriban en el plan a través de las reglas de idoneidad.</span><span class="sxs-lookup"><span data-stu-id="32a80-104">This task guide walks through the process of creating a Fixed compensation plan and enabling employees to be enrolled in the plan through eligibility rules.</span></span> <span data-ttu-id="32a80-105">La empresa de datos de prueba utilizada para crear esta tarea es USMF y la tarea está pensada para los directores de compensaciones y prestaciones.</span><span class="sxs-lookup"><span data-stu-id="32a80-105">The demo data company used to create this task is USMF and the task is intended for Compensation and Benefits Managers.</span></span>
 

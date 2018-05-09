@@ -19,16 +19,16 @@ ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1a02c435814e446c6ee5a25ed75e1359455b8f6f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 03e8908ecb78b4f72dae8426b0165f9350d5fe85
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-orders-mobile-workspace"></a><span data-ttu-id="88b1b-104">Espacio de trabajo móvil de pedidos de ventas</span><span class="sxs-lookup"><span data-stu-id="88b1b-104">Sales orders mobile workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="88b1b-105">Este tema proporciona información sobre el espacio de trabajo móvil **Pedidos de ventas**.</span><span class="sxs-lookup"><span data-stu-id="88b1b-105">This topic provides information about the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="88b1b-106">Este espacio de trabajo le permitirá estar informado sobre los pedidos de ventas en cualquier momento y cualquier lugar.</span><span class="sxs-lookup"><span data-stu-id="88b1b-106">This workspace helps you stay up to date about your sales orders anywhere and anytime.</span></span> 
 

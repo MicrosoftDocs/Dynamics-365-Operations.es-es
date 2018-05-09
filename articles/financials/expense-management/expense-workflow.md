@@ -19,16 +19,16 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 122231abdc45d7eb8adafe5c5900a6a48ab2511e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 21815fccc91961653189f844718712faf573d2d7
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="expense-workflow"></a><span data-ttu-id="73088-103">Flujo de trabajo de gastos</span><span class="sxs-lookup"><span data-stu-id="73088-103">Expense workflow</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="73088-104">Puede usar el sistema de flujo de trabajo en Microsoft Dynamics 365 for Finance and Operations para configurar un proceso de revisión de los informes de gastos en Gestión de gastos.</span><span class="sxs-lookup"><span data-stu-id="73088-104">You can use the workflow system in Microsoft Dynamics 365 for Finance and Operations, to set up a review process for expense reports in Expense management.</span></span> <span data-ttu-id="73088-105">Puede configurar un flujo de trabajo que use los siguientes criterios para determinar quién aprueba los informes de gastos:</span><span class="sxs-lookup"><span data-stu-id="73088-105">You can set up a workflow that uses the following criteria to determine who approves expense reports:</span></span>
 

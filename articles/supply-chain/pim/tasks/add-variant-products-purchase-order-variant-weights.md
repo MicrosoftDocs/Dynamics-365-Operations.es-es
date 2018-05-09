@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e50ae5db627cd5bdc33fcf809f8cdf26a5739a0a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 72d025f933f45fdcdade4bd615da7ba01accc61f
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a><span data-ttu-id="9a1e6-103">Agregar variantes de productos a pedidos de compra con variantes de peso</span><span class="sxs-lookup"><span data-stu-id="9a1e6-103">Add variant products to purchase orders using variant weights</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9a1e6-104">Este procedimiento le guía por los pasos para el uso de pesos de variante con el fin de rellenar automáticamente las líneas de pedido de compra para cada variante de un producto.</span><span class="sxs-lookup"><span data-stu-id="9a1e6-104">This procedure walks through the steps for using variant weights to auto populate purchase order lines for each variant of a product.</span></span> <span data-ttu-id="9a1e6-105">Al seleccionar la cantidad del producto que desea comprar, las líneas de pedido de compra se crean para todas las variantes del producto con las cantidades sugeridas basadas en los pesos configurados en las variantes de producto.</span><span class="sxs-lookup"><span data-stu-id="9a1e6-105">When you select the quantity of the product you want to purchase, purchase order lines are created for all the variants of the product with suggested quantities based on the weights configured on the product variants.</span></span> <span data-ttu-id="9a1e6-106">Este procedimiento no incluye pasos para configurar valores de peso en dimensiones de producto y variantes de producto.</span><span class="sxs-lookup"><span data-stu-id="9a1e6-106">This procedure doesn’t include steps to configure weight values on product dimensions and product variants.</span></span> <span data-ttu-id="9a1e6-107">Este procedimiento usa la empresa USRT en los datos de demostración.</span><span class="sxs-lookup"><span data-stu-id="9a1e6-107">This procedure uses the USRT company in demo data.</span></span>
 

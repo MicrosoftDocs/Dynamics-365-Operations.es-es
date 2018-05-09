@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bd100cc7e7d1aedacdfdf45d86617bf8a56a356e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5b5df06c9eb8eff6c3ca8310366d15bd71318eec
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="post-a-free-text-invoice-mexico"></a><span data-ttu-id="30385-103">Registrar una factura de texto libre (México)</span><span class="sxs-lookup"><span data-stu-id="30385-103">Post a free text invoice (Mexico)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="30385-104">Use el formulario Factura de texto libre para crear y registrar una factura de cliente como factura electrónica mediante el método CFDI.</span><span class="sxs-lookup"><span data-stu-id="30385-104">Use the Free text invoice form to create and post a customer invoice as an electronic invoice by using CFDI method.</span></span> <span data-ttu-id="30385-105">Debe haber iniciado sesión en una entidad jurídica mexicana.</span><span class="sxs-lookup"><span data-stu-id="30385-105">You must to be logged in a Mexican legal entity.</span></span> <span data-ttu-id="30385-106">Esta tarea se creó con los datos de la empresa de demostración MXMF.</span><span class="sxs-lookup"><span data-stu-id="30385-106">This task guide was created using the MXMF demo data company.</span></span>
 

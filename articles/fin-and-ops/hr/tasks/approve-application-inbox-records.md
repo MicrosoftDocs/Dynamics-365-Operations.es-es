@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3a9719082749f48c04c6c86394b8131a10ae6138
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ccd54805020e3399471d1b70c6a7be4bf3b86586
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="approve-application-inbox-records"></a><span data-ttu-id="4d780-103">Aprobar registros de la bandeja de entrada de solicitudes</span><span class="sxs-lookup"><span data-stu-id="4d780-103">Approve application inbox records</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4d780-104">Este procedimiento muestra cómo revisar solicitudes recibidas a través de las páginas de autoservicio para empleados.</span><span class="sxs-lookup"><span data-stu-id="4d780-104">This procedure shows how to review applications received through the Employee self-service pages.</span></span> <span data-ttu-id="4d780-105">Además de revisar las solicitudes, las puede aprobar desde los registros de bandeja de entrada que seleccione.</span><span class="sxs-lookup"><span data-stu-id="4d780-105">In addition to reviewing the applications, you can approve the application in box records that you select.</span></span> <span data-ttu-id="4d780-106">Los registros de bandeja de entrada de solicitudes representan las solicitudes de empleo enviadas a la empresa para su estudio.</span><span class="sxs-lookup"><span data-stu-id="4d780-106">Application inbox records represent employment applications that were submitted to the company for consideration.</span></span> <span data-ttu-id="4d780-107">Cuando se apruebe un registro, se creará un registro de candidato para la persona que envió la solicitud.</span><span class="sxs-lookup"><span data-stu-id="4d780-107">After approving a record, an applicant record will be created for the person who submitted the application.</span></span> <span data-ttu-id="4d780-108">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="4d780-108">The demo data company used to create this procedure is USMF.</span></span>
 

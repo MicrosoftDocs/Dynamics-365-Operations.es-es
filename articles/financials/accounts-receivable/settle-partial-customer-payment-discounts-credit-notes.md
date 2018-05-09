@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 174ac560bf375fe3aacfcb351a3d5b2ce91fba6a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5a042bfb551d8169c0de773c2fb46a2861e35ca6
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a><span data-ttu-id="9c742-103">Liquidar un pago de cliente parcial con descuentos en notas de abono de proveedor</span><span class="sxs-lookup"><span data-stu-id="9c742-103">Settle a partial customer payment that has discounts on credit notes</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9c742-104">Este artículo le guía por un escenario en el que se aplica un descuento por pronto pago en una nota de abono cuando la factura original también tenía un descuento por pronto pago.</span><span class="sxs-lookup"><span data-stu-id="9c742-104">This article walks you through a scenario where a cash discount is taken on a credit note when the original invoice also had a cash discount.</span></span> 
 

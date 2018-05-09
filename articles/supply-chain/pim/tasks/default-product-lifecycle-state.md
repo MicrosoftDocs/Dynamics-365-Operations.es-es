@@ -16,15 +16,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 099adbbb9cdb32e0db2daf13f83dc748b09fc61c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 775054fd2b886e08ff44991f9eed46710b16beab
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-default-product-lifecycle-state"></a><span data-ttu-id="2fc48-103">Crear un estado de ciclo de vida de producto predeterminado</span><span class="sxs-lookup"><span data-stu-id="2fc48-103">Create a default product lifecycle state</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2fc48-104">Este procedimiento muestra cómo crear un estado de ciclo de vida de producto predeterminado además de cómo asociar el estado predeterminado con los productos emitidos.</span><span class="sxs-lookup"><span data-stu-id="2fc48-104">This procedure shows how to create a default product lifecycle state as well as how to associate the default state with released products.</span></span>
 

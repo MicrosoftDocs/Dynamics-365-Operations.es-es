@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7e03e5fd1458df56cc6c4de0459135305b1ffc41
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 941b224aad9749a372b8b1176e7021985b024a4f
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a><span data-ttu-id="709c5-104">Modelo de valor de activos fijos y fusión del libro de amortización</span><span class="sxs-lookup"><span data-stu-id="709c5-104">Fixed asset value model and depreciation book merge</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="709c5-105">En versiones anteriores, había dos conceptos de la evaluación para activos fijos: modelos de valor y libros de depreciación.</span><span class="sxs-lookup"><span data-stu-id="709c5-105">In previous releases, there were two valuation concepts for fixed assets -  value models and depreciation books.</span></span> <span data-ttu-id="709c5-106">En Microsoft Dynamics 365 for Operations (1611), la función del modelo de valor y la del libro de amortización se han combinado en un solo concepto que se conoce como libro.</span><span class="sxs-lookup"><span data-stu-id="709c5-106">In the Microsoft Dynamics 365 for Operations (1611) release, the value model functionality and depreciation book functionality have been merged into a single concept that is known as a book.</span></span>
 

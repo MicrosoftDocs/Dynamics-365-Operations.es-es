@@ -19,16 +19,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5d06f8afd7b7c777062a1e114309154b956a2355
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 202c35194145c1d1f89749e139a0181856f16372
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="workforce-metrics-power-bi-content"></a><span data-ttu-id="a5c07-104">Contenido de BI sobre métricas de recursos</span><span class="sxs-lookup"><span data-stu-id="a5c07-104">Workforce metrics Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a5c07-105">Este tema describe el contenido en Microsoft Power BI de **métricas de recursos**.</span><span class="sxs-lookup"><span data-stu-id="a5c07-105">This topic describes the **Workforce metrics** Microsoft Power BI content.</span></span> <span data-ttu-id="a5c07-106">Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.</span><span class="sxs-lookup"><span data-stu-id="a5c07-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 

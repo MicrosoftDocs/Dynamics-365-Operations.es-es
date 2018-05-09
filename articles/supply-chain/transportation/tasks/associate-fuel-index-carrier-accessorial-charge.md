@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 101ebe4a2e177a5702a162297e1820598e56a6e5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b0336bcaa7062a9b24079d8491ce426041751ccf
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a><span data-ttu-id="0ba2b-103">Asociación de un índice de combustible con un transportista como cargo adicional</span><span class="sxs-lookup"><span data-stu-id="0ba2b-103">Associate a fuel index with a carrier as an accessorial charge</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0ba2b-104">Este procedimiento muestra cómo crear una asignación de cargos adicionales, un cargo adicional de transportista y cargos adicionales maestros por recargo por combustible, y cómo asociar un índice de combustible de transportista con un transportista.</span><span class="sxs-lookup"><span data-stu-id="0ba2b-104">This guide shows how to create an accessorial assignment, carrier accessorial charge, accessorial master for fuel surcharge, and associate a carrier fuel index with a carrier.</span></span> <span data-ttu-id="0ba2b-105">Es necesario haber configurado un índice de combustible de transportista antes de ejecutar este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="0ba2b-105">You need to have set up a carrier fuel index before you run this guide.</span></span> <span data-ttu-id="0ba2b-106">Puede usar el procedimiento "Configuración de un índice de combustible de transportista".</span><span class="sxs-lookup"><span data-stu-id="0ba2b-106">You can use the “Set up a carrier fuel index” guide to do this.</span></span> <span data-ttu-id="0ba2b-107">Estas tareas de configuración las realiza normalmente el administrador de logística.</span><span class="sxs-lookup"><span data-stu-id="0ba2b-107">These setup tasks are typically done by a Logistics manager.</span></span> <span data-ttu-id="0ba2b-108">Los datos de demostración utilizados para crear este procedimiento son los de la empresa USMF.</span><span class="sxs-lookup"><span data-stu-id="0ba2b-108">The demo data used to create this procedure is USMF.</span></span>
 

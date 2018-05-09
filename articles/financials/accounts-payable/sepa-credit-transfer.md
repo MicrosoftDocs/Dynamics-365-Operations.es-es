@@ -19,16 +19,16 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a2bf472d1850e1d97f5c51f66c215143ae646b5a
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sepa-credit-transfer-overview"></a><span data-ttu-id="655d5-105">Visión general de transferencias de crédito SEPA</span><span class="sxs-lookup"><span data-stu-id="655d5-105">SEPA credit transfer overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="655d5-106">Este artículo proporciona información general acerca las transferencias de crédito ISO 20022, que incluyen las transferencias de crédito de la Zona Única de Pagos en Euros (SEPA) y cualquier otro pago electrónico para proveedores.</span><span class="sxs-lookup"><span data-stu-id="655d5-106">This article provides general information about ISO 20022 credit transfers, which include Single Euro Payments Area (SEPA) credit transfers and any other electronic payments for vendors.</span></span> <span data-ttu-id="655d5-107">La transferencia de crédito SEPA es un tipo específico de pago (en euros) de una empresa o un individuo a otra empresa o individuo.</span><span class="sxs-lookup"><span data-stu-id="655d5-107">A SEPA credit transfer is a specific type of payment in euros from one company or individual to another company or individual.</span></span> <span data-ttu-id="655d5-108">El tema también explica cómo configurar y transmitir un archivo de pago de transferencia de crédito.</span><span class="sxs-lookup"><span data-stu-id="655d5-108">The topic also explains how to set up and transmit a credit transfer payment file.</span></span>
 

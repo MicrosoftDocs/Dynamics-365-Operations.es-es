@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 943239c7d57b4a438c405f1ad0551db29d7a8145
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e78427dacb0d2adfd0334115581d5a5a9cfd2921
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-rules-for-optimization-advisor"></a><span data-ttu-id="4512c-103">Cree reglas para el asesor de optimización</span><span class="sxs-lookup"><span data-stu-id="4512c-103">Create rules for Optimization advisor</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4512c-104">Este tema explica cómo crear nuevas reglas para el **asesor de optimización**.</span><span class="sxs-lookup"><span data-stu-id="4512c-104">This topic explains how to create new rules for **Optimization advisor**.</span></span> <span data-ttu-id="4512c-105">Por ejemplo, puede crear una nueva regla que identifique los casos de solicitud de presupuesto que tengan un título vacío.</span><span class="sxs-lookup"><span data-stu-id="4512c-105">For example, you can create a new rule that identifies which Request for Quotations (RFQ) cases have an empty title.</span></span> <span data-ttu-id="4512c-106">El uso de títulos en los casos hace que se puedan identificar y buscar con facilidad.</span><span class="sxs-lookup"><span data-stu-id="4512c-106">Using titles on cases makes them easily identifiable and searchable.</span></span> <span data-ttu-id="4512c-107">Aunque es bastante simple, este ejemplo muestra qué se puede lograr con reglas de optimización.</span><span class="sxs-lookup"><span data-stu-id="4512c-107">While quite simple, this example shows what can be achieved with optimization rules.</span></span> 
 

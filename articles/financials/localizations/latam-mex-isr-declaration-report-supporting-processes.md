@@ -19,16 +19,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3c501d50a6d9534b02a65e6174f36f313b0f9815
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b347eec8ccbf6ef366270fd2735bd2168435f09f
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="isr-declaration-report-and-supporting-processes-for-mexico"></a><span data-ttu-id="996eb-104">Informe de declaración de ISR y procesos auxiliares para México</span><span class="sxs-lookup"><span data-stu-id="996eb-104">ISR declaration report and supporting processes for Mexico</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="996eb-105">En México, todos los individuos o corporaciones deben presentar un informe de declaración mensual Impuesto sobre la renta (ISR).</span><span class="sxs-lookup"><span data-stu-id="996eb-105">In Mexico, all individuals or corporations must file a monthly Impuesto sobre la renta (ISR) declaration report.</span></span> <span data-ttu-id="996eb-106">Este tema proporciona información acerca de la generación de este informe financiero.</span><span class="sxs-lookup"><span data-stu-id="996eb-106">This topic provides information about generating this report.</span></span>
 

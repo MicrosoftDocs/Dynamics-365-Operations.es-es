@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1a32b49e7589113d518ef17a39eecc4c518b362d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d3de34eeef042cb3f283ee53579b199c6a4c9091
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="allocation-bases"></a><span data-ttu-id="c6668-104">Bases de asignación</span><span class="sxs-lookup"><span data-stu-id="c6668-104">Allocation bases</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c6668-105">Una base de asignación es la base sobre la que la contabilidad de costes asigna costes generales.</span><span class="sxs-lookup"><span data-stu-id="c6668-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="c6668-106">Una base de asignación puede ser una cantidad, como las horas de maquinaria que se usan, horas de kilovatio (kWh) consumidas o los metros cuadrado que se ocupan.</span><span class="sxs-lookup"><span data-stu-id="c6668-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="c6668-107">Las bases de asignación se usan principalmente para asignar costes generales al inventario que va a producir.</span><span class="sxs-lookup"><span data-stu-id="c6668-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="c6668-108">Por ejemplo, un departamento de TI asigna los gastos según el número de equipos que utilice cada departamento.</span><span class="sxs-lookup"><span data-stu-id="c6668-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 

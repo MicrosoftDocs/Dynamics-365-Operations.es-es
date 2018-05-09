@@ -16,15 +16,15 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e2d80ce02f45260aa364db68692ee19d813ade54
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 708a961ccafd149ce3cd6090c4f671bb6aadb77f
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letter-of-credit"></a><span data-ttu-id="473f7-103">Configuración de créditos bancarios y perfiles de contabilización para créditos documentarios</span><span class="sxs-lookup"><span data-stu-id="473f7-103">Set up bank facilities and posting profiles for letter of credit</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="473f7-104">Este procedimiento le muestra cómo crear un perfil de registro e instalaciones bancarias, necesario para procesar cartas de crédito.</span><span class="sxs-lookup"><span data-stu-id="473f7-104">This procedure walks through creating a Bank facility and posting profile required to process Letters of credit.</span></span> 
 

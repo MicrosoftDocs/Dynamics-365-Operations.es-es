@@ -17,16 +17,16 @@ ms.author: epodkolz
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4dc1075c8c0a4765e54ae6072cf200a8ff5b2c30
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6b6dd9e9794bd259dd4e26f0dd479105387a0c7b
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-340"></a><span data-ttu-id="4f636-103">Informe 340</span><span class="sxs-lookup"><span data-stu-id="4f636-103">Report 340</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4f636-104">El informe 340 reemplazó dos informes anteriores (las estatutarias Libretas de ventas y las estatutarias Libretas de compras) que todas las empresas españolas enviaban como copias impresas a las autoridades fiscales españolas.</span><span class="sxs-lookup"><span data-stu-id="4f636-104">Report 340 replaced two earlier reports (Sales Statutory Books and Purchases Statutory Books) that all Spanish companies submitted as hard copies to the Spanish tax authorities.</span></span> <span data-ttu-id="4f636-105">El nuevo informe se puede cargar en la página web de las autoridades fiscales o se puede enviar mediante un paquete de software que está disponible de forma gratuita por parte de las autoridades fiscales.</span><span class="sxs-lookup"><span data-stu-id="4f636-105">The new report can be uploaded to the tax authorities' website, or it can be submitted by using a software package that is available free of cost from the tax authorities.</span></span>
 

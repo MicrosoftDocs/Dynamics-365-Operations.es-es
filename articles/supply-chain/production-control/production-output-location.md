@@ -18,16 +18,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1235fe1db6663018c019322a7850cb428e3935d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ef820db6cdb2ce485ded0dbca9635af5c68403c6
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-output-location"></a><span data-ttu-id="00958-103">Ubicación de salida de producción</span><span class="sxs-lookup"><span data-stu-id="00958-103">Production output location</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="00958-104">Este tema describe la jerarquía que se usa para identificar la ubicación de salida de producción.</span><span class="sxs-lookup"><span data-stu-id="00958-104">This topic describes the hierarchy that is used to identify the production output location.</span></span>
 

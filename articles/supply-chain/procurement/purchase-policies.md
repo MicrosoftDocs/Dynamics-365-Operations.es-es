@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 32951ffe0f0ee49c668394eb006bbfba8d4d431d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d01ab455786b9288bc244a8645bc13a43b002146
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchasing-policies"></a><span data-ttu-id="5e84c-105">Directivas de compra</span><span class="sxs-lookup"><span data-stu-id="5e84c-105">Purchasing policies</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="5e84c-106">Este artículo proporciona información acerca de las directivas de compra.</span><span class="sxs-lookup"><span data-stu-id="5e84c-106">This article provides information about purchasing policies.</span></span> <span data-ttu-id="5e84c-107">Una directiva de compra es una colección de reglas que controlan el proceso de solicitud.</span><span class="sxs-lookup"><span data-stu-id="5e84c-107">A purchasing policy is a collection of rules that control the requisition process.</span></span> <span data-ttu-id="5e84c-108">Las directivas de compra ayudan a los administradores de compras a implementar su estrategia de compras creando una estructura de directiva que está de acuerdo con los requisitos de compras estratégicas de la organización.</span><span class="sxs-lookup"><span data-stu-id="5e84c-108">Purchasing policies help procurement administrators implement their procurement strategy by creating a policy structure that is aligned with the organization’s strategic purchasing requirements.</span></span>
 

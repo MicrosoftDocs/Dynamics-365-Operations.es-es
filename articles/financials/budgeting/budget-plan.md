@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c8af5d3343bf8376dfec5a41cd03e1325b10b978
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 510775079fc5193e243eb251396d79433ce37f4b
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-planning"></a><span data-ttu-id="cd80b-105">Planificación presupuestaria</span><span class="sxs-lookup"><span data-stu-id="cd80b-105">Budget planning</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="cd80b-106">El objetivo de este laboratorio es proporcionar una visita guiada de las actualizaciones de la funcionalidad de Microsoft Dynamics 365 for Finance and Operations en el área de planificación presupuestaria.</span><span class="sxs-lookup"><span data-stu-id="cd80b-106">The objective of this lab is to provide a guided view of Microsoft Dynamics 365 for Finance and Operations functionality updates in Budget planning area.</span></span> <span data-ttu-id="cd80b-107">El objetivo de este laboratorio es presentar un ejemplo de configuración rápida del módulo de planificación presupuestaria y mostrar cómo se puede llevar a cabo la planificación presupuestaria con esta configuración.</span><span class="sxs-lookup"><span data-stu-id="cd80b-107">The intent of this lab is to illustrate a quick configuration example of budget planning module and showcase how budget planning can be accomplished using this configuration.</span></span>  <span data-ttu-id="cd80b-108">Este laboratorio se centrará de manera específica en las siguientes tareas o procesos empresariales -    - Creación de una jerarquía organizativa para planificación presupuestaria y configuración de la seguridad del usuario   - Definición de escenarios de planes presupuestarios, columnas de planes presupuestarios   - Creación y activación del proceso de planificación presupuestaria   - Creación de documentos de plan presupuestaria insertando datos reales desde contabilidad general   - Uso de asignaciones para ajustar datos de documentos de plan presupuestario   - Edición de datos de documentos de plan presupuestario en Excel</span><span class="sxs-lookup"><span data-stu-id="cd80b-108">This lab will focus specifically on the following business processes or tasks -    - Creating organizational hierarchy for budget planning and configuring user security   - Defining budget plan scenarios, budget plan columns, layouts and Excel templates   - Creating and activating budget planning process   - Creating budget plan document by pulling in actuals from General ledger   - Using allocations to adjust budget plan document data   - Editing budget plan document data in Excel</span></span> 
 

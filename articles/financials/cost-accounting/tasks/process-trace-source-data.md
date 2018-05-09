@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 57884660fb9459c8cd918e5d1ba4df14efcf6db3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d7470c53c3fe48e4adb584847dbb3b7dc931e578
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="process-and-trace-source-data"></a><span data-ttu-id="71cd8-103">Procesar datos de origen y hacer un seguimiento</span><span class="sxs-lookup"><span data-stu-id="71cd8-103">Process and trace source data</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="71cd8-104">Todo el procesamiento de datos se ejecuta por trabajos.</span><span class="sxs-lookup"><span data-stu-id="71cd8-104">All data processing is run by jobs.</span></span> <span data-ttu-id="71cd8-105">Para cada trabajo y proveedor de datos, se crea un diario para documentar que se ejecutó el proceso y que las entradas se procesaran en el trabajo actual.</span><span class="sxs-lookup"><span data-stu-id="71cd8-105">For each job and data provider, a journal is created to document that the process has been run, and that the entries were processed in the current job.</span></span> <span data-ttu-id="71cd8-106">Use este procedimiento para configurar un origen de datos y después para realizar un seguimiento del origen de un asiento de coste específico.</span><span class="sxs-lookup"><span data-stu-id="71cd8-106">Use this procedure to set up a data source and then  trace the origin of a specific cost entry.</span></span> <span data-ttu-id="71cd8-107">Este registro usa la empresa USP2 con los datos para demostración.</span><span class="sxs-lookup"><span data-stu-id="71cd8-107">This recording uses the USP2 demo data company USP2.</span></span> <span data-ttu-id="71cd8-108">Para completar esta tarea, asegúrese de que reproduce las siguientes guías de tareas: “Crear un libro mayor de contabilidad de costes“, “Definir unidades de control de costes" y "Gestionar un origen de datos para el libro mayor de contabilidad de costes".</span><span class="sxs-lookup"><span data-stu-id="71cd8-108">Before you complete this task, make sure that you play the following task guides: "Create a cost accounting ledger," "Define cost control units," and "Manage data source for the cost accounting ledger."</span></span>
 

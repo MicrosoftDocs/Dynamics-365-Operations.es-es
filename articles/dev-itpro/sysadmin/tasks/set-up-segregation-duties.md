@@ -16,15 +16,15 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ea94570ca23761195ed93bbab6c51f5df02c28bb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e04109770de8352c3301e4cb950555c5d94f58f8
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-segregation-of-duties"></a><span data-ttu-id="3193b-103">Configuración de segregación de controles</span><span class="sxs-lookup"><span data-stu-id="3193b-103">Set up segregation of duties</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3193b-104">Puede configurar reglas para tareas diferentes que deban llevar a cabo diferentes usuarios.</span><span class="sxs-lookup"><span data-stu-id="3193b-104">You can set up rules to separate tasks that must be performed by different users.</span></span> <span data-ttu-id="3193b-105">Este concepto se denomina "segregación de controles".</span><span class="sxs-lookup"><span data-stu-id="3193b-105">This concept is named segregation of duties.</span></span> <span data-ttu-id="3193b-106">Por ejemplo, puede que no desee que sea la misma persona la que confirme la recepción de mercancías y procese el pago al proveedor.</span><span class="sxs-lookup"><span data-stu-id="3193b-106">For example, you might not want the same person both to acknowledge the receipt of goods and to process payment to the vendor.</span></span> <span data-ttu-id="3193b-107">La segregación de controles ayuda a reducir el riesgo de fraude, y también ayuda a detectar errores o irregularidades.</span><span class="sxs-lookup"><span data-stu-id="3193b-107">Segregation of duties helps you reduce the risk of fraud, and it also helps you detect errors or irregularities.</span></span> <span data-ttu-id="3193b-108">También puede usar la segregación de controles para aplicar directivas de control internas.</span><span class="sxs-lookup"><span data-stu-id="3193b-108">You can also use segregation of duties to enforce internal control policies.</span></span> <span data-ttu-id="3193b-109">Complete el siguiente procedimiento para crear una regla.</span><span class="sxs-lookup"><span data-stu-id="3193b-109">Complete the following procedure to create a rule.</span></span> <span data-ttu-id="3193b-110">Es necesario ser administrador del sistema para completar el procedimiento.</span><span class="sxs-lookup"><span data-stu-id="3193b-110">You must be a system administrator to complete the procedure.</span></span> <span data-ttu-id="3193b-111">La empresa de datos de demostración utilizada para crear este procedimiento es DAT.</span><span class="sxs-lookup"><span data-stu-id="3193b-111">The demo data company used to create this procedure is DAT.</span></span> 
 

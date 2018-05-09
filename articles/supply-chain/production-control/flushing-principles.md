@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 818d7d21605ada63a29a41d3bf20ed9cbf21a178
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 36707ec37d4756393d0c3c2cf071d87a78ebc6c5
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a><span data-ttu-id="3aae1-103">Controlar el consumo de materias primas mediante principios de vaciado</span><span class="sxs-lookup"><span data-stu-id="3aae1-103">Controlling raw material consumption by using flushing principles</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="3aae1-104">Los principios de vaciado reflejan las distintas estrategias de consumo de materias primas que se usan en los procesos de producción.</span><span class="sxs-lookup"><span data-stu-id="3aae1-104">The flushing principles reflect different consumption strategies for raw materials that are used in production processes.</span></span> <span data-ttu-id="3aae1-105">El consumo es el proceso que deduce el material del inventario disponible y establece el valor de los materiales consumidos a **Trabajo en curso** para los pedidos de producción y los pedidos de lote.</span><span class="sxs-lookup"><span data-stu-id="3aae1-105">Consumption is the process that deducts material from the on-hand inventory and sets the value of the consumed materials to **Work in progress** (WIP) for production orders and batch orders.</span></span> <span data-ttu-id="3aae1-106">Las materias primas se consumen normalmente desde una ubicación configurada para el proceso que consume el material.</span><span class="sxs-lookup"><span data-stu-id="3aae1-106">Raw materials are usually consumed from a location that is configured for the process that consumes the material.</span></span> <span data-ttu-id="3aae1-107">Esta ubicación se conoce como la ubicación de entrada de producción.</span><span class="sxs-lookup"><span data-stu-id="3aae1-107">This location is known as the production input location.</span></span>
 

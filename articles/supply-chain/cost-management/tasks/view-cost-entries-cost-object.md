@@ -17,15 +17,15 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e5183343ba1f3c1d63f0505decc3f398190d7b09
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fd93638a47e18c82a4c7d035648bd67f7cf5981a
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="view-cost-entries-for-a-cost-object"></a><span data-ttu-id="7118b-103">Ver entradas de costes de un objeto de coste</span><span class="sxs-lookup"><span data-stu-id="7118b-103">View cost entries for a cost object</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7118b-104">Este procedimiento muestra cómo ver las entradas de coste para un objeto de coste.</span><span class="sxs-lookup"><span data-stu-id="7118b-104">This procedure shows how to view cost entries for a cost object.</span></span> <span data-ttu-id="7118b-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="7118b-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="7118b-106">Este procedimiento se va a utilizar para el controlador de costes.</span><span class="sxs-lookup"><span data-stu-id="7118b-106">This procedure is intended for the cost controller.</span></span>
 

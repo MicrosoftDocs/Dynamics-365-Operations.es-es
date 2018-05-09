@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4f2dc9221b72600c928db9fd306038725c7af305
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 27fbf57ba7114ca773f2a80de51b36b4e63c6dd6
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a><span data-ttu-id="a80aa-103">Configurar la visualización de lotes más antiguos del almacén en un dispositivo móvil</span><span class="sxs-lookup"><span data-stu-id="a80aa-103">Configure Display older batches within warehouse on a mobile device</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a80aa-104">La configuración **Visualización de lotes más antiguos del almacén** permite mostrar una lista de ubicaciones con lotes más antiguos que la ubicación actual de la línea del trabajo.</span><span class="sxs-lookup"><span data-stu-id="a80aa-104">The **Display older batches within warehouse** configuration lets you display a list of locations with batches older than the current location of the work line.</span></span> <span data-ttu-id="a80aa-105">La lista de ubicaciones que aparece incluye información sobre los lotes más antiguos de la ubicación con la fecha de vencimiento y el inventario físico de cada lote.</span><span class="sxs-lookup"><span data-stu-id="a80aa-105">The list of locations that are displayed includes information about the older batches in the location with the expiration date and the physical inventory of each batch.</span></span> <span data-ttu-id="a80aa-106">Puede elegir seleccionar en una nueva ubicación o continuar seleccionando en la ubicación actual.</span><span class="sxs-lookup"><span data-stu-id="a80aa-106">You can choose to pick from a new location or to continue picking from the current location.</span></span> 
 - <span data-ttu-id="a80aa-107">Selección en una nueva ubicación - si selecciona una nueva ubicación para elegir, la línea del trabajo actual se actualizará para usar la nueva ubicación y el trabajo continuará como de costumbre con la nueva ubicación.</span><span class="sxs-lookup"><span data-stu-id="a80aa-107">Pick from a new location - If you select a new location to pick from, the  current work line will be updated to use the new location and work will continue as usual with the new location.</span></span> <span data-ttu-id="a80aa-108">Para que la nueva ubicación sea válida, debe tener cantidad suficiente disponible para toda la línea de trabajo.</span><span class="sxs-lookup"><span data-stu-id="a80aa-108">For the new location to be valid, it must have enough available quantity for the whole work line.</span></span> <span data-ttu-id="a80aa-109">Si la cantidad requerida no está disponible, la línea del trabajo no se actualizará, y la lista se mostrará.</span><span class="sxs-lookup"><span data-stu-id="a80aa-109">If the required quantity is not available, the work line will not be updated, and the list will display.</span></span> 

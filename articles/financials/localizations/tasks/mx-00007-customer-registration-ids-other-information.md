@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e1c4e50f30c8967383e6c13268c3dff311cf5e23
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6106f7b4173e2021c2e20f6f9df747921fb6d0fd
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="customer-registration-ids-and-other-information-mexico"></a><span data-ttu-id="439a4-103">Id. de registro de cliente y otra información (México)</span><span class="sxs-lookup"><span data-stu-id="439a4-103">Customer registration IDs and other information (Mexico)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="439a4-104">Este procedimiento le muestra cómo crear un cliente con la información fiscal y otra información relacionada utilizada en facturas electrónicas e informes jurídicos para México.</span><span class="sxs-lookup"><span data-stu-id="439a4-104">This procedure walks you through creating a customer with the fiscal information and other related information used in electronic invoices and legal reports for Mexico.</span></span> <span data-ttu-id="439a4-105">Este procedimiento se creó con los datos de demostración de la empresa MXMF.</span><span class="sxs-lookup"><span data-stu-id="439a4-105">This procedure was created using the demo data company MXMF.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58d8e57370fe43912ae0c79326c088a5ccfb0766
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e6062c5eb8d3882b8de24570996ed4d36c02ee37
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="special-entries-and-opening-sheets"></a><span data-ttu-id="f0187-103">Entradas especiales y hojas de apertura</span><span class="sxs-lookup"><span data-stu-id="f0187-103">Special entries and opening sheets</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f0187-104">Las entidades jurídicas de España pueden registrar entradas especiales como entradas de apertura para el período actual, mientras adaptan sus cuentas a los cambios de las reglas de contabilidad.</span><span class="sxs-lookup"><span data-stu-id="f0187-104">Legal entities in Spain can post special entries as opening entries for the current period, while adapting accounts to changes in accounting rules.</span></span>
 

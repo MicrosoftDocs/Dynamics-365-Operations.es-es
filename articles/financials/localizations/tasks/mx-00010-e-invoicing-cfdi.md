@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b06f5403d4d93cc61eba061f714a13ae4026c5e7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d6fe795b1013e0ae38c26bdb257e9a100e6b49a8
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="e-invoicing-cfdi-mexico"></a><span data-ttu-id="a4bff-103">E- Facturación CFDI (México)</span><span class="sxs-lookup"><span data-stu-id="a4bff-103">E-invoicing CFDI (Mexico)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a4bff-104">Esta tarea le muestra cómo crear y registrar una factura de cliente como una factura electrónica usando el método CFDI.</span><span class="sxs-lookup"><span data-stu-id="a4bff-104">This task walks you through creating and posting a customer invoice as an electronic invoice by using the CFDI method.</span></span> <span data-ttu-id="a4bff-105">Puede crear y registrar varios pedidos de ventas como facturas electrónicas y enviar los archivos .pdf y .xml como archivos adjuntos a los clientes.</span><span class="sxs-lookup"><span data-stu-id="a4bff-105">You can create and post multiple sales orders as electronic invoices and send the .pdf and .xml files as email attachments to customers.</span></span> <span data-ttu-id="a4bff-106">Esta tarea solo se puede completar si está registrado en una entidad jurídica con dirección principal en México.</span><span class="sxs-lookup"><span data-stu-id="a4bff-106">This task can only be completed if you are logged into a legal entity with a primary address in Mexico.</span></span> <span data-ttu-id="a4bff-107">Esta tarea usa la empresa de demostración MXMF.</span><span class="sxs-lookup"><span data-stu-id="a4bff-107">This task uses the MXMF demo company data.</span></span>
 

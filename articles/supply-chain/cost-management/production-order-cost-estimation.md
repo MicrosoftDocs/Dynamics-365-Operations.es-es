@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ef5a1b83ad0e6e0ef5c840913ce1a985dba69174
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fe938a0b728205da56aa006583c6be7a44537ff4
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-order-cost-estimation"></a><span data-ttu-id="2d81f-104">Estimación del coste del pedido de producción</span><span class="sxs-lookup"><span data-stu-id="2d81f-104">Production order cost estimation</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="2d81f-105">Este artículo proporciona información acerca de la estimación de costes de producción.</span><span class="sxs-lookup"><span data-stu-id="2d81f-105">This article provides information about production cost estimation.</span></span> <span data-ttu-id="2d81f-106">La estimación de costes de producción proporciona los costes de consumo de capacidad y material previsto de producir un artículo en la cantidad del pedido de producción planificado.</span><span class="sxs-lookup"><span data-stu-id="2d81f-106">Production cost estimation provides the projected material and capacity consumption costs of producing an item in the planned production order quantity.</span></span> 
 

@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 37010003ad638e068ed7650532da29c6dbc033cb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c3c048a18ee8150880ed9df139cd498f2ec52852
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a><span data-ttu-id="31cf8-103">Configurar un elemento de menú del dispositivo móvil para completar el trabajo en un pedido de compra</span><span class="sxs-lookup"><span data-stu-id="31cf8-103">Set up a mobile device menu item for completing work in a purchase order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="31cf8-104">Este procedimiento muestra cómo configurar un elemento de menú Dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="31cf8-104">This procedure shows how to set up a Mobile device menu item.</span></span> <span data-ttu-id="31cf8-105">En este ejemplo, el elemento de menú se usa para realizar el trabajo del tipo Pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="31cf8-105">In this example, the menu item is used for performing work of type Purchase order.</span></span> <span data-ttu-id="31cf8-106">La clase de trabajo asociado al elemento de menú determina qué valor es válido.</span><span class="sxs-lookup"><span data-stu-id="31cf8-106">The work class that’s associated with the menu item determines which work is valid.</span></span> <span data-ttu-id="31cf8-107">Puede usar esta guía en la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="31cf8-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="31cf8-108">Este procedimiento lo suele realizar un director de almacén.</span><span class="sxs-lookup"><span data-stu-id="31cf8-108">This procedure is typically carried out by a warehouse manager.</span></span>
 

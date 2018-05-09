@@ -16,15 +16,15 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1bd87a5c65fb01e0a277d7bd790e2b86686fbf55
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5bb66578ee6118eeffeb3a89b84077e56c4fff11
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-audit-policies-for-source-documents"></a><span data-ttu-id="b6a79-103">Definir directivas de auditoría para documentos de origen</span><span class="sxs-lookup"><span data-stu-id="b6a79-103">Define audit policies for source documents</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b6a79-104">En este procedimiento se muestra cómo configurar y ejecutar las reglas de directivas de auditoría.</span><span class="sxs-lookup"><span data-stu-id="b6a79-104">This procedure shows how to set up and run audit policy rules.</span></span> <span data-ttu-id="b6a79-105">En el ejemplo se usan informes de gastos con el tipo de gastos de hotel.</span><span class="sxs-lookup"><span data-stu-id="b6a79-105">The example uses expense reports with the hotel expense type.</span></span> <span data-ttu-id="b6a79-106">Este procedimiento usa la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="b6a79-106">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="b6a79-107">El rol de auditor contiene los permisos correctos para llevar a cabo estas tareas.</span><span class="sxs-lookup"><span data-stu-id="b6a79-107">The auditor role contains the correct permissions in order to perform these tasks.</span></span>
 

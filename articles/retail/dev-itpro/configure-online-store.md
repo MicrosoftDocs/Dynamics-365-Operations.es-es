@@ -18,16 +18,16 @@ ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 019c5a61b6d53bdffb3e8b48214defb49301d19d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5518dcf139c0c88dc52bb98797709cbcdb508cf8
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-an-online-store"></a><span data-ttu-id="2cd9d-103">Configurar una tienda en línea</span><span class="sxs-lookup"><span data-stu-id="2cd9d-103">Configure an online store</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="2cd9d-104">Este artículo proporciona vínculos a temas que le ayudarán a configurar y administrar de forma centralizada una tienda en línea.</span><span class="sxs-lookup"><span data-stu-id="2cd9d-104">This article provides links to topics that will help you centrally configure and manage an online store.</span></span>
 

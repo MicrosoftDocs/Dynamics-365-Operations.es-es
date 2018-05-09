@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 56e1e368484156e2e0720ad10026c8fd509c0b91
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a608eed443fe0df848433fda2b8868a4ffe166ab
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-assortments"></a><span data-ttu-id="b93ca-103">Configuración de selecciones</span><span class="sxs-lookup"><span data-stu-id="b93ca-103">Set up assortments</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="b93ca-104">Este artículo describe qué es una selección y explica cómo configurar selecciones en Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="b93ca-104">This article describes what an assortment is and explains how to set up assortments in Microsoft Dynamics 365 for Retail.</span></span>
 

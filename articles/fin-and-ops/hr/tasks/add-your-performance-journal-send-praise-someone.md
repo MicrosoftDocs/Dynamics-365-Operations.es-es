@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9b898a5ab5ad2837ef1d9ef8ebf88aaa05f56b3a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 24efc88414e33b421a7bed32c90d3aaf81af612c
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a><span data-ttu-id="921b4-103">Agregar a su diario de rendimiento y enviar elogio a alguien</span><span class="sxs-lookup"><span data-stu-id="921b4-103">Add to your performance journal and send praise to someone</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="921b4-104">El diario de rendimiento contiene información relacionada con cómo alcanzó sus objetivos o cuál fue su rendimiento durante un período.</span><span class="sxs-lookup"><span data-stu-id="921b4-104">The performance journal holds information that relates to how you met your goals or how you performed during a period.</span></span> <span data-ttu-id="921b4-105">También puede elogiar las acciones de un compañero de trabajo del diario.</span><span class="sxs-lookup"><span data-stu-id="921b4-105">You can also praise the actions of a co-worker from the journal.</span></span> <span data-ttu-id="921b4-106">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="921b4-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="921b4-107">Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="921b4-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 

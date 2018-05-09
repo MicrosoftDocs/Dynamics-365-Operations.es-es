@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 52497aa2c67e852b366a39058d4cbf7597f1bd4a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cfad9c5c02f5002f075e2de99eaf407b4c75f596
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="map-a-cost-element-dimension"></a><span data-ttu-id="df883-103">Asignar una dimensión de elemento de coste</span><span class="sxs-lookup"><span data-stu-id="df883-103">Map a cost element dimension</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="df883-104">Un controlador de costes puede utilizar este procedimiento para asignar una dimensión de elemento de coste a una dimensión de elemento de coste en la entidad jurídica de MXMF.</span><span class="sxs-lookup"><span data-stu-id="df883-104">A cost controller can use this procedure to map a cost element dimension to a cost element dimension in the MXMF legal entity.</span></span> <span data-ttu-id="df883-105">Este registro usa la empresa USP2 con los datos para demostración.</span><span class="sxs-lookup"><span data-stu-id="df883-105">This recording uses the USP2 demo data company.</span></span>
 

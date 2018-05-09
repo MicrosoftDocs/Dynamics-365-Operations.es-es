@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 91b862155d60f297a1278e44f58804ac385be64c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3ec4f8a998364998909171564135ab6133b301b9
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-mass-hire-project"></a><span data-ttu-id="24696-103">Crear un proyecto de contratación maestra</span><span class="sxs-lookup"><span data-stu-id="24696-103">Create a mass hire project</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="24696-104">Este procedimiento le muestra el proceso para configurar un proyecto de contratación masiva.</span><span class="sxs-lookup"><span data-stu-id="24696-104">This procedure walks through the process of setting up a mass hire project.</span></span> <span data-ttu-id="24696-105">La persona a cargo de la contratación puede usar proyectos de contratación masiva para crear fácilmente varios puestos y contratar a varios trabajadores para ellos.</span><span class="sxs-lookup"><span data-stu-id="24696-105">A recruiter can use mass hire projects to easily create multiple positions and hire a number of workers into those positions.</span></span> <span data-ttu-id="24696-106">Para iniciar este procedimiento, vaya a Recursos humanos > Contratación > Proyectos de contratación masiva.</span><span class="sxs-lookup"><span data-stu-id="24696-106">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span> <span data-ttu-id="24696-107">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="24696-107">The demo data company used to create this procedure is USMF.</span></span>
 

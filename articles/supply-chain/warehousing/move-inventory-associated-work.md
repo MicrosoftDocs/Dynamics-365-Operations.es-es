@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d81397ed30751f5b3dd7c46ffe6b27b8153c8f9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2889f04017bdd20be05174146ba88a24cbefacbb
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a><span data-ttu-id="26b4c-103">Movimiento de inventario con trabajo asociado en Gestión de almacenes</span><span class="sxs-lookup"><span data-stu-id="26b4c-103">Movement of inventory with associated work in Warehouse management</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="26b4c-104">Si usa el movimiento de inventario, puede decidir que trabajadores de almacén podrán mover el inventario reservado.</span><span class="sxs-lookup"><span data-stu-id="26b4c-104">Using movement of inventory, you can decide which warehouse workers are allowed to move reserved inventory.</span></span> <span data-ttu-id="26b4c-105">Este formulario proporciona una flexibilidad en los almacenes regulados donde puede decidir no permitir que un trabajador elija una nueva ubicación de picking para seleccionar trabajo que ya se creó.</span><span class="sxs-lookup"><span data-stu-id="26b4c-105">This provides a flexibility in regulated warehouses where you can decide to not allow a worker to choose a new pick location for pick work that is already created.</span></span> <span data-ttu-id="26b4c-106">También permite que un administrador de almacén controle qué capacidades deben algunos trabajadores menos experimentados.</span><span class="sxs-lookup"><span data-stu-id="26b4c-106">It also allows a warehouse manager to control which capabilities some less experienced workers should have.</span></span>
 

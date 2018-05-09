@@ -19,16 +19,16 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9bc89c1213f50fd27faa4135cf1601ccb5f39ac1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 631735cce4f5a71072bfa51572407b60c4df1863
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budgeting-home-page"></a><span data-ttu-id="eb00e-103">Página principal de Gestión presupuestaria</span><span class="sxs-lookup"><span data-stu-id="eb00e-103">Budgeting home page</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="eb00e-104">En este tema, se proporciona una visión general de los componentes de la funcionalidad de gestión presupuestaria, las herramientas de gestión presupuestaria y las funciones de informes de Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="eb00e-104">This topic provides an overview of the budgeting functionality components, budgeting tools, and reporting capabilities in Finance and Operations.</span></span> 
 

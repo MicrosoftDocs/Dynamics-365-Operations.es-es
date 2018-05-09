@@ -17,16 +17,16 @@ ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f094a5420e34a13ac654b01fb145728c7e9cca1c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d91e937c62d4d498e67d753e39676514835f4161
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="import-iso20022-files"></a><span data-ttu-id="01cd9-103">Importar archivos ISO20022</span><span class="sxs-lookup"><span data-stu-id="01cd9-103">Import ISO20022 files</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="01cd9-104">Puede importar archivos de pago que tienen los siguientes formatos:</span><span class="sxs-lookup"><span data-stu-id="01cd9-104">You can import payment files that have the following formats:</span></span>
 

@@ -20,16 +20,16 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8625e9c9b91acee52e2207d462f38286cafeb773
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bc5a560b25871e5b70cb436bd6dbcbf00d860f61
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="product-lifecycle-state"></a><span data-ttu-id="553fb-103">Estado de ciclo de vida de producto</span><span class="sxs-lookup"><span data-stu-id="553fb-103">Product lifecycle state</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="553fb-104">El estado del ciclo de vida de un producto documenta el estado de ciclo de vida de un producto liberado o una variante del producto.</span><span class="sxs-lookup"><span data-stu-id="553fb-104">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="553fb-105">Los estados del ciclo de vida de un producto están definidos por el usuario, normalmente administrador de producto o administrador de datos de producto maestro.</span><span class="sxs-lookup"><span data-stu-id="553fb-105">Product lifecycle states are defined by the user, typically a product manager or a product master data manager.</span></span> <span data-ttu-id="553fb-106">Los procesos empresariales específicos, como planificación maestra, pueden verse afectados por una estado de ciclo de vida específico.</span><span class="sxs-lookup"><span data-stu-id="553fb-106">Specific business processes, such as master planning, can be affected by a specific lifecycle state.</span></span>   
 

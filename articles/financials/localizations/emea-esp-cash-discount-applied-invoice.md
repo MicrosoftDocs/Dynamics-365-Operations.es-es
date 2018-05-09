@@ -18,16 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a8466bedf8c76e86bf83275dac55a17ee71d9f8a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bee69dc17f2baaae2a8c3717f13447c00ceef4d3
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cash-discount-is-applied-in-the-invoice-parameter"></a><span data-ttu-id="49e89-103">Parámetro El descuento por pronto pago se aplica a la factura</span><span class="sxs-lookup"><span data-stu-id="49e89-103">Cash discount is applied in the invoice parameter</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="49e89-104">En este tema se describe el descuento por pronto pago aplicado en el parámetro de factura para España.</span><span class="sxs-lookup"><span data-stu-id="49e89-104">This topic describes the Cash discount is applied in the invoice parameter for Spain.</span></span>
 
