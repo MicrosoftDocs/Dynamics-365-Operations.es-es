@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Los siguientes métodos abreviados de teclado se aplican en todo Dynamics 365 for Finance and Operations. 
 

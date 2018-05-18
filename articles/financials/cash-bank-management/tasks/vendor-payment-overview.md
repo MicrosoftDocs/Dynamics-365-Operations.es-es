@@ -24,7 +24,7 @@ ms.lasthandoff: 10/30/2017
 ---
 # <a name="vendor-payment-overview"></a>Visión general de pagos de proveedor
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le mostrará los distintos métodos usados para crear pagos de proveedor, incluido cómo usar una propuesta de pago o especificar manualmente un pago único. Este procedimiento usa la empresa de demostración USMF.
 

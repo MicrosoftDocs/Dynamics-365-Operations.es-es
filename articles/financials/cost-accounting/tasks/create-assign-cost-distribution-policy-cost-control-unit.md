@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a>Crear y asignar una directiva de distribución de costes a una unidad de control de costes
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Las reglas de distribución de costes se usan para distribuir los costes que se han contado financieramente en un centro de coste colectivo. El contable de costes se asegura de que el coste se distribuye en los centros de coste, en función de la base de asignación seleccionada. Una directiva y las reglas correspondientes se asignan a una unidad de control de costes. Esta guía de tareas utiliza un ejemplo para mostrar cómo crear una directiva de distribución de costes y las reglas correspondientes.
 

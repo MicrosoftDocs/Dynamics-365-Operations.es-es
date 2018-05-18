@@ -18,18 +18,18 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c925b2e996f51b8c5d5332217643c3155cfc03c0
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Características normativas y de localización
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations incluye funcionalidad para los países o regiones documentados en la [Guía internacional de disponibilidad del producto](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Esta función se activa según la dirección principal de la entidad jurídica activa. 
+Microsoft Dynamics 365 for Finance and Operations incluye funcionalidad para los países o regiones documentados en la [Guía internacional de disponibilidad del producto](http://download.microsoft.com/documents/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Esta función se activa según la dirección principal de la entidad jurídica activa. 
 
 Este tema incluye listas de recursos que pueden ayudarle a obtener más información acerca de soluciones, actualizaciones, alertas y funciones específicas de un país o una región. 
 
@@ -101,7 +101,7 @@ Las siguientes secciones muestran una lista de recursos por país o región.
 -   [Documentos fiscales de referencia](../../financials/localizations/latam-bra-referenced-fiscal-documents.md)
 -   [Documentos fiscales complementarios de ventas](../../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md)
 -   [Documento fiscal electrónico de servicios](../../financials/localizations/latam-bra-service-electronic-fiscal-document.md)
--   [Configurar, importar y comprobar DANFE y documentos XML de NF-e](../../financials/localizations/latam-bra-set-up-import-nfe.md)
+-   [Configurar, importar y comprobar DANFE y documentos NF-e XML](../../financials/localizations/latam-bra-set-up-import-nfe.md)
 -   [Atributos de los impuestos](../../financials/localizations/latam-bra-tax-attributes.md)
 -   [Pagos de impuestos](../../financials/localizations/latam-bra-tax-payments.md)
 -   [Impuestos](../../financials/localizations/latam-bra-calculate-taxes.md)
@@ -154,7 +154,7 @@ Las siguientes secciones muestran una lista de recursos por país o región.
 - [Configurar firmantes para formularios de impresión](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
 - [Contabilidad de la pérdida del valor residual](../../financials/localizations/emea-storno.md)
 - [Directivas de impuestos](../../financials/localizations/emea-tax-directives.md)
-- [Actualizar cómo se muestran los importes en los informes y documentos](../../financials/localizations/emea-amount-printing-forms.md) 
+- [Actualizar cómo se muestran los importes en los informes y los documentos](../../financials/localizations/emea-amount-printing-forms.md) 
 - [Tipos de cambio de IVA](../../financials/localizations/emea-vat-exchange-rate.md)
 - [Transacciones de registro del IVA para Europa del Este](../../financials/localizations/emea-vat-register-transactions.md)
 - [Informes de IVA](../../financials/localizations/emea-vat-reporting.md)

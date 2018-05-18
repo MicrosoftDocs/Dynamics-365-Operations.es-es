@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="fixed-asset-depreciation-conventions"></a>Convenciones de depreciación de activos fijos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Las convenciones de depreciación se usan para determinar cuándo y cómo la depreciación se calcula para tanto para el año en que se adquiere el activo fijo como para el año en que se cancela el activo fijo.
 

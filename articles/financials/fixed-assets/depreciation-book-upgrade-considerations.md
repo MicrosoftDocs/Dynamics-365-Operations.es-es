@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>Visión general de la actualización del libro amortización
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En versiones anteriores, había dos conceptos de la evaluación para activos fijos: modelos de valor y libros de depreciación. En Microsoft Dynamics 365 for Operations (1611), la función del modelo de valor y la del libro de amortización se han combinado en un solo concepto que se conoce como libro. Este tema proporciona algunas cosas a tener en cuenta para la actualización. 
 
@@ -62,17 +62,17 @@ Opción 2: **Secuencia numérica definida por el usuario existente**: esta opci�
 Los parámetros se encuentran al principio de la clase ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans. 
 
 *// Especifique un enfoque preferible de la asignación de los asientos* 
-*// verdadero, si desea usar un código de secuencia numérica existente* 
-*// falso, si piensa usar la secuencia numérica definida por el sistema (el valor predeterminado)* const boolean NumberSequenceUseExistingCode = falso;  
+ *// verdadero, si desea usar un código de secuencia numérica existente* 
+ *// falso, si piensa usar la secuencia numérica definida por el sistema (el valor predeterminado)* const boolean NumberSequenceUseExistingCode = falso;  
 
 *// Si se usa el enfoque de la secuencia numérica definida por el sistema, especifique los parámetros para la secuencia numérica.*
-*// Se creará una nueva secuencia numérica con estos parámetros.* str NumberSequenceDefaultCode de const = “;” FADBUpgr str NumberSequenceDefaultParameterPrefix de const = “;” FADBUpgr const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
+ *// Se creará una nueva secuencia numérica con estos parámetros.* str NumberSequenceDefaultCode de const = “;” FADBUpgr str NumberSequenceDefaultParameterPrefix de const = “;” FADBUpgr const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
 
 *// Si se usa el enfoque de la secuencia numérica existente, especifique el código de secuencia numérica existente* 
-*// La asignación de asiento irá fila por fila para las secuencias numéricas existentes.* const str NumberSequenceExistingCode = ''; *// Especifique el ámbito del código de secuencia numérica existente* 
-*// verdadero, si se comparte la secuencia numérica especificada* 
-*// falso, si la secuencia numérica especificada es por empresa* 
-*// La secuencia numérica predeterminada definida por el sistema se usará si no se encuentra un código de secuencia numérica con el ámbito especificado.* const boolean NumberSequenceExistingIsShared = verdadero; 
+ *// La asignación de asiento irá fila por fila para las secuencias numéricas existentes.* const str NumberSequenceExistingCode = ''; *// Especifique el ámbito del código de secuencia numérica existente* 
+ *// verdadero, si se comparte la secuencia numérica especificada* 
+ *// falso, si la secuencia numérica especificada es por empresa* 
+ *// La secuencia numérica predeterminada definida por el sistema se usará si no se encuentra un código de secuencia numérica con el ámbito especificado.* const boolean NumberSequenceExistingIsShared = verdadero; 
 
 Volver a crear el proyecto que contiene la clase después de que se hayan modificado las constantes. 
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Digitalice códigos de barras mediante una cámara en Dynamics 365 for Finance and Operations – Warehousing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema explica cómo configurar Dynamics 365 for Finance and Operations – Warehousing para digitalizar códigos de barras mediante una cámara en un dispositivo móvil. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-workflow"></a>Flujo de trabajo de gastos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Puede usar el sistema de flujo de trabajo en Microsoft Dynamics 365 for Finance and Operations para configurar un proceso de revisión de los informes de gastos en Gestión de gastos. Puede configurar un flujo de trabajo que use los siguientes criterios para determinar quién aprueba los informes de gastos:
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Asignar un nuevo nombre o modificar una etapa de proyecto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Las etapas de proyecto pueden servir como guía al ciclo de vida del proyecto. Puede definir las etapas del proyecto que desee incluir en sus proyectos en el área Etapa del proyecto de la página Parámetros de gestión de proyectos y contabilidad. Dynamics 365 for Finance and Operations ofrece cinco etapas de proyecto predefinidas y tres etapas definidas por el usuario. Puede actualizar el nombre de una etapa de proyecto que está usando para realizar el seguimiento del progreso de proyectos. También puede proporcionar nombres para nombres de estado definidos por el usuario. Esta tarea muestra cómo cambiar el nombre o modificar una etapa de proyecto.
 

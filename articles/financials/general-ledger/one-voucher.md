@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="one-voucher"></a>Un asiento
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Esta funcionalidad estará disponible en Dynamics 365 for Finance and Operations versión 8.0, que estará disponible en el lanzamiento de la versión de primavera de 2018.   

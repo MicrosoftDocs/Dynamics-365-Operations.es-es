@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="moving-average"></a>Moviendo mensaje
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La media móvil es un método de gestión de costes perpetuo que se basa en el principio de promedio, en que los costes de emisiones de inventario no cambian cuando cambia el coste de compra. La diferencia se capitaliza y se basa en un cálculo proporcional. El importe restante se anota como gasto. 
 

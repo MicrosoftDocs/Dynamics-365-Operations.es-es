@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Asignar tiempo a trabajos en una agrupación de trabajos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En la ejecución de fabricación se pueden agrupar trabajos. A continuación puede iniciar varios trabajos a la vez en la página Lista de trabajos.
 

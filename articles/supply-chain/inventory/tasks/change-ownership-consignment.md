@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Cambiar la propiedad del inventario de entrega en base a la demanda de la producción
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo cambiar el propietario del inventario de entrega del proveedor a su entidad jurídica cuando hay demanda del inventario en producción. Este cambio de propiedad se hace creando y registrando un diario de cambio de propiedad del inventario. Las líneas de diario de cambio de propiedad se pueden crear manualmente o, tal como se muestra en este registro, en función de la demanda existente de la producción. Normalmente, un supervisor de planta realiza esta tarea. Puede utilizar este procedimiento en la empresa de demostración USMF o en sus propios datos. Si utiliza sus propios datos, asegúrese de que tiene los requisitos previos siguientes: un nombre de diario de inventario que se ha configurado para el cambio de propiedad de inventario, artículos disponibles propiedad del proveedor registrados físicamente y una o más líneas de pedido de producción del material. Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-channel-attributes"></a>Definir atributos del canal
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Enriquezca el canal sumando atributos de canal y producto. Debe agregar el canal a la jerarquía predeterminada de la organización para poder definir los atributos.
 

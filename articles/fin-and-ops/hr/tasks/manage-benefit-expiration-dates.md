@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="manage-benefit-expiration-dates"></a>Administrar las fechas de vencimiento de prestación
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo puede ponerse fin a una prestación, o ampliarla, y administrar las fechas de inscripción de los trabajadores en la prestación. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

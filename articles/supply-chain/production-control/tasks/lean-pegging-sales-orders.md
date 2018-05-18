@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="lean-pegging-from-sales-orders"></a>Diagrama de árbol lean de pedidos de ventas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento se centra en validar el diagrama de árbol de una línea de ventas donde el artículo se produce con kanbans. Después de validar el diagrama de árbol, se planifican todos los trabajos kanban. Esto resulta útil para escenarios de pedidos donde el creador del pedido necesita asegurarse de que la producción puede comenzar inmediatamente. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento está pensado para el creador del pedido avanzado que trabaja en una empresa lean.
 

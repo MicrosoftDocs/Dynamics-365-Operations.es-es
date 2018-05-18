@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="produce-mexican-electronic-ledger-accounting-report-version-11"></a>Producir el informe electrónico de contabilidad de libro mayor del producto mexicano versión 1.1
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarea le muestra todos los pasos necesarios para configurar la generación de archivos XML electrónicos de cuenta contable mediante la herramienta de informes electrónicos. Puede importar desde el centro de recursos de AX el modelo y los formatos de archivos XML para generar los extractos. 
 

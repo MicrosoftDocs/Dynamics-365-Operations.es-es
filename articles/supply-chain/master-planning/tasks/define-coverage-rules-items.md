@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="define-coverage-rules-for-items"></a>Definir reglas de cobertura para los artículos
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento muestra cómo crear reglas de cobertura y anular opciones de cobertura para un artículo específico. También se muestra cómo especificar parámetros de inventario predeterminados.
 

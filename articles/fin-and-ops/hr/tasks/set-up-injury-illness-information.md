@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="set-up-injury-and-illness-information"></a>Configurar información sobre lesiones y enfermedades
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Los empleadores deben saber cuándo sus empleados sufren lesiones o se enferman a causa de los riesgos implícitos en el lugar de trabajo. Puede usar la página de lesiones y enfermedades para configurar la información que facilita la notificación de lesiones o enfermedades en el lugar de trabajo. Puede configurar tipos de lesiones y enfermedades, incluidos los tipos de tratamientos, costes y resultados. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 02/15/2018
 
 # <a name="performance-management-overview"></a>Visión general de la gestión del rendimiento
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 El proceso de gestión del rendimiento permite a los empleados documentar y comentar su rendimiento con el administrador. A su vez, los administradores pueden proporcionar comentarios de retroalimentación y orientación a los empleados.  
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="immediate-replenishment"></a>Reabastecimiento inmediato
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 El reabastecimiento inmediato le permite reabastecer el inventario de forma inmediata cuando una línea de directiva de la ubicación no puede asignar el inventario. El reabastecimiento se basa en una única línea en la configuración de la directiva de la ubicación. Si el inventario no está disponible en la unidad de medida que se especifica por dicha línea, el reabastecimiento de esa unidad de medida aparece inmediatamente.
 

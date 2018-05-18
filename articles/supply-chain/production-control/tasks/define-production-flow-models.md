@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-production-flow-models"></a>Definir modelos de flujo de producción
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Los modelos de flujo de producción describen cómo se calcula y mantienen la capacidad de celdas de trabajo de lean manufacturing. Por tanto, la definición de un modelo de flujo de producción es un requisito previo de la definición de las celdas de trabajo. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

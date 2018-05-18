@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-a-customer-invoice"></a>Crear una factura de cliente
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Una **factura de cliente para un pedido de ventas** es una factura en relación con una venta que una organización da a un cliente. Este tipo de factura de cliente se crea basándose en un pedido de ventas, que incluye líneas de pedido y números de artículo. Los números de artículos se especifican y se registran en el libro mayor. Los asientos de subdiarios contables no están disponibles para facturas de cliente de pedidos de venta. Para obtener más información, consulte [Crear facturas de pedido de ventas](tasks/create-sales-order-invoices.md).
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Registrar la entrada y salida del conductor para una cita
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo registrar la entrada y salida del conductor. Esto lo realiza normalmente un coordinador de transporte. Puede utilizar este procedimiento en la empresa de datos de demostración USMF. Antes de empezar, debe configurarse una cita para una carga. Para crear una cita, puede ejecutar el procedimiento "Configurar una cita para una carga" como requisito previo.
 

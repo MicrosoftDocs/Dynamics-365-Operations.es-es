@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-configuration-routes"></a>Definir rutas de configuración
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento se centra en la definición de una ruta de configuración que determine la secuencia en la que se mostrarán los grupos de configuración. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este es el sexto procedimiento de ocho que explica cómo crear combinaciones para la configuración basada en dimensiones.
 

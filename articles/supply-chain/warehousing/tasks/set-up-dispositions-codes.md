@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-dispositions-codes"></a>Configurar códigos de disposiciones
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento se centra en la configuración de un código de disposición que se puede utilizar en un dispositivo móvil para el proceso de recepción de pedidos de devolución. Los códigos de disposición son una recopilación de reglas que se pueden usar cuando se reciben artículos. Por ejemplo, cuando un usuario usa un dispositivo móvil para recibir artículos dañados, el usuario debe escanear un código de disposición para artículos dañados. El estado de inventario de las mercancías recibidas, la plantilla de trabajo y la directiva de la ubicación se pueden determinar a partir del código de disposición escaneado. Para el proceso de recepción de pedido de compra y el informe de pedido de producción como proceso finalizado, es opcional usar un código de disposición. Para el proceso de recepción de devolución de pedido de ventas, si los artículos se registran mediante un dispositivo móvil, el uso del código de disposición es obligatorio.  Este procedimiento se creó con los datos de demostración de la empresa USMF. Este procedimiento va destinado al encargado de almacén. 
 

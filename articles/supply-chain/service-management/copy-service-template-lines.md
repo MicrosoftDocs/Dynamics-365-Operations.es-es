@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="copy-service-templates-lines"></a>Copiar líneas de plantilla de servicio 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La información de la plantilla se puede copiar a un acuerdo de servicio o a un pedido de servicio.
 

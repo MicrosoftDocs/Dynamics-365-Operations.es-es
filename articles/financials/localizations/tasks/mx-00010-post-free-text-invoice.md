@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="post-a-free-text-invoice-mexico"></a>Registrar una factura de texto libre (México)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Use el formulario Factura de texto libre para crear y registrar una factura de cliente como factura electrónica mediante el método CFDI. Debe haber iniciado sesión en una entidad jurídica mexicana. Esta tarea se creó con los datos de la empresa de demostración MXMF.
 

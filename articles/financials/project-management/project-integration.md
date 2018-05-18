@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="microsoft-project-client-integration"></a>Integración con el cliente de Microsoft Project
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Planificar y mantener la programación de un proyecto puede ser complejo, por lo que los gestores de proyectos deben utilizar herramientas que los ayuden a gestionar esta tarea. La integración con el cliente de Microsoft Project proporciona soporte para abrir y gestionar una estructura de descomposición del trabajo del proyecto. El gestor de proyectos puede volver publicar cualquier cambio en la estructura de descomposición del trabajo del proyecto de Finance and Operations.
 

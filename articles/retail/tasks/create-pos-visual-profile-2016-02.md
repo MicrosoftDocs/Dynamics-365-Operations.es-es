@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-pos-visual-profile"></a>Crear un perfil visual de PDV 
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento muestra la creación de un nuevo perfil visual de punto de venta (PDV). En un perfil visual se incluye información básica que determina el aspecto de las cajas registradoras de PDV. Puede crear varios perfiles visuales y asignar perfiles específicos para ejecutarlos en cajas registradoras específicas. Este procedimiento usa la empresa de datos de demostración USRT.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-continuity-schedules"></a>Definir programaciones de continuidad
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Este tema explica la configuración de un programa de continuidad (conocido también como pedidos recurrentes). Este tema usa la empresa USRT en los datos de demostración.
 

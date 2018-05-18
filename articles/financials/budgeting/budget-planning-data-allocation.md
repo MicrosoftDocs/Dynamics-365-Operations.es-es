@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-data-allocation"></a>Asignación de datos de la planificación presupuestaria
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo describe los distintos métodos de asignación que están disponibles en Microsoft Dynamics 365 for Finance and Operations y cómo se pueden usar.  
 

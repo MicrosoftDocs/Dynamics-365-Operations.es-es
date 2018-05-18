@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-a-candidate-through-recruiting"></a>Contratar un candidato a través de la contratación
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento permite a la persona encargada de contratación contratar a un candidato que ha enviado una solicitud a través de un proyecto de contratación específico. Si contrata a un candidato a través de un proyecto de contratación, se creará un nuevo registro de trabajador con estado Empleado. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Para completar este procedimiento, navegue hasta Recursos humanos > Contratación > Solicitudes > Solicitudes. 
 

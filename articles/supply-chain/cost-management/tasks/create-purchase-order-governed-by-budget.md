@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>Crear un pedido de compra regido por el presupuesto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimiento para crear un pedido de compra que se compruebe para ver si hay presupuesto disponible. Este registro usa la empresa USMF con los datos para demostración.
 

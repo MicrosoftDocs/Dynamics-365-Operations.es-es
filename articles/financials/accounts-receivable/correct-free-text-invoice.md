@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="correct-a-free-text-invoice"></a>Corrección de una factura de servicios
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo explica cómo corregir una factura de servicios que se ha registrado y cómo reenviarla como factura corregida.
 

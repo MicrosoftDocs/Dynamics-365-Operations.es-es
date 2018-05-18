@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-postdated-checks"></a>Configuración de cheques con pago diferido
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 En este tema se explica cómo especificar si desea registrar entradas de diario para cheques con fecha futura y qué diarios de registro desea usar para liquidar entradas y pagos de proveedor. También puede especificar cuentas de compensación para cheques emitidos, cheques recibidos y retención de impuestos. Cheques con fecha futura que se emiten con el fin de realizar y recibir pagos en una fecha futura. Puede especificar si el cheque debe reflejarse en los libros financieros antes de la fecha de vencimiento.
 

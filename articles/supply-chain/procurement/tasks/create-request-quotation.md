@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-request-for-quotation"></a>Crear una solicitud de presupuesto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo crear una solicitud de presupuesto. Esto normalmente lo haría el agente de compras. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Es necesario haber configurado tipos de solicitud antes de comenzar. Una vez que haya completado esta tarea y haya creado y enviado una solicitud de presupuesto, podrá escribir las respuestas por proveedor, compararlas y conceder el contrato.
 

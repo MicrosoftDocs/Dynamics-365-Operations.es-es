@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="correct-inventory-tracking-information"></a>Corrección de información de seguimiento de inventario
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra el proceso de crear y registrar un diario de transferencia de inventario para corregir la información de seguimiento de inventario. En este ejemplo, actualizaremos la información de un artículo controlado por lote cambiando un lote registrado incorrectamente por otro lote. Puede revisar este procedimiento con los datos de prueba de la empresa USPI o utilizar sus propios datos. Si utiliza sus propios datos, debe tener un artículo habilitado para lotes y no debe estar controlado por ubicación. También necesita tener configurado un nombre de diario de inventario para las transferencias de inventario. Estas tareas las realizará normalmente el empleado del almacén.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Vista general de la liquidación para pagos centralizados
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica que controle todos los pagos. De esta forma, se elimina la necesidad de introducir la misma transacción en las diversas entidades jurídicas y se obtiene un importante ahorro de tiempo al racionalizar el proceso de propuestas de pago, el proceso de liquidación, la edición de transacciones abiertas y la edición de transacciones cerradas de los pagos centralizados. 
 

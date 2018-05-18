@@ -24,7 +24,7 @@ ms.lasthandoff: 11/20/2017
 ---
 # <a name="create-a-requisition-for-consumption"></a>Creación de una solicitud para consumo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra el proceso para crear un pedido o solicitud. Le muestra diferentes formas de buscar productos en el catálogo de compras y cómo agregar un producto que no esté en el catálogo. Antes de comenzar este procedimiento, debe haber configurado una directiva de compra con Consumo como tipo predeterminado de solicitud. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos. El procedimiento solo lo puede realizar un perfil de usuario configurado como trabajador.  Esta tarea la realiza normalmente un empleado. El rol de seguridad Empleado le permitirá realiza las tareas o, si está usando USMF, podrá iniciar sesión como Alicia.
 

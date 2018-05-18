@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="submit-and-approve-project-budget-revisions"></a>Enviar y aprobar revisiones de presupuestos de proyecto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento proporciona información acerca de cómo revisar un presupuesto de proyecto. Puede revisar un presupuesto de proyecto tantas veces como sea necesario, aunque no puede ver el importe de una revisión individual si el presupuesto se ha revisado más de una vez. 
 

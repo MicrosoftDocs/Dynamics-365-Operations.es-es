@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accruals-overview"></a>Visión general de Acumulaciones
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo describe acumulaciones y proporciona información acerca de cómo configurarlas y crear transacciones.
 

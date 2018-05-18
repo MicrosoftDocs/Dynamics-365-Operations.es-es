@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Bases de asignación 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Una base de asignación es la base sobre la que la contabilidad de costes asigna costes generales. Una base de asignación puede ser una cantidad, como las horas de maquinaria que se usan, horas de kilovatio (kWh) consumidas o los metros cuadrado que se ocupan. Las bases de asignación se usan principalmente para asignar costes generales al inventario que va a producir. Por ejemplo, un departamento de TI asigna los gastos según el número de equipos que utilice cada departamento.
 

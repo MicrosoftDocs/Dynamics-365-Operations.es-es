@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="use-a-record-template-to-create-a-new-record"></a>Usar una plantilla de registro para crear un nuevo registro
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo usar una plantilla de registro anteriormente definida para crear un registro nuevo. Para completar este procedimiento, primero debe completar el procedimiento “Crear una plantilla de registro para facilitar la entrada de datos”.
 

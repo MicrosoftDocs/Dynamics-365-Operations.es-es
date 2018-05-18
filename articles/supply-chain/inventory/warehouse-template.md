@@ -29,7 +29,7 @@ ms.lasthandoff: 02/06/2018
 
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Configurar un almacén mediante una plantilla de configuración de almacén
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema explica cómo configurar un almacén mediante una plantilla de configuración de almacén. Existen varias plantillas de configuración predefinidas que puede usar. Para obtener información sobre cómo usar estas plantillas, vea [Plantillas de datos de configuración](../../dev-itpro/data-entities/configuration-data-templates.md).
 

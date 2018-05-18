@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="manage-warehouse-workers"></a>Gestionar trabajadores de almacén
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo describe cómo puede usar Microsoft Dynamics 365 for Finance and Operations para ayudar a controlar y a supervisar el trabajo que han realizado los empleados en los almacenes.
 

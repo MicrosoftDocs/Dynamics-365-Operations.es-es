@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="split-a-fixed-asset"></a>Dividir un activo fijo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guía de la tarea va a dividir un porcentaje de un libro de activos a un nuevo libro de activos.  Usa el rol de contable y los datos de prueba de USMF.
 

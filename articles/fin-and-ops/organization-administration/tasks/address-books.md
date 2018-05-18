@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-address-books"></a>Configuración de libretas de direcciones
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimiento y las decisiones que tomó en el tema sobre planificación de la configuración de la libreta de direcciones global y libretas de direcciones adicionales para configurar libretas de direcciones adicionales para su organización.
 

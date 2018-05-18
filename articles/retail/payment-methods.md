@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="payment-methods"></a>Métodos de pago
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Al configurar el sistema, se deben configurar todos los tipos de pago que acepte un minorista. Este artículo describe los tipos de pago que puede configurar y describe el proceso para configurarlos.
 

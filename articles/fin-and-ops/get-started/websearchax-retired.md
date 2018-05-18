@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="websearchax-retired"></a>WebSearchAX se retiró
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Tuvimos que retirar la página WebSearchAX. Se recomienda que use búsqueda de sitios desde su motor de búsqueda favorito para sustituirla.  Por ejemplo: 
 

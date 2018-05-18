@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="my-team-mobile-workspace"></a>Espacio de trabajo móvil Mi equipo
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema proporciona información sobre del espacio de trabajo móvil **Mi equipo**. Este espacio de trabajo permite a los administradores ver su personal subordinado directo y ampliado. También pueden enviar elogios a otras personas en su cadena de subordinados.
 

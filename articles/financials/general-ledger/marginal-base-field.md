@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Índices de impuestos en función de la base marginal y los métodos de cálculo
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema explica cómo los valores de los campos Base marginal y Método de cálculo determinan los índices de impuestos en transacciones de compras y ventas.
 

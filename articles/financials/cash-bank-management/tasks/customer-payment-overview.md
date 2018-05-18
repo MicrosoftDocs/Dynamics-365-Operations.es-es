@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="customer-payment-overview"></a>Visión general de pagos de cliente
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guía de tareas le muestra los distintos métodos para introducir pagos de cliente. Esta tarea usa la empresa de demostración USMF.
 

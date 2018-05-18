@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-an-operations-resource"></a>Crear un recurso de operaciones
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Un recurso de operaciones realiza las actividades de un proyecto o de un proceso de producción. En este procedimiento se muestra cómo definir un recurso de operaciones. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos.
 

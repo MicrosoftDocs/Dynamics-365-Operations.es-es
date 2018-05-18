@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="estimate-a-production-order"></a>Calcular un pedido de producción
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. En ambos casos, debe tener un pedido de producción abierto con estado Creado. Este es el segundo procedimiento de siete que explica el ciclo de vida del pedido de producción.
 

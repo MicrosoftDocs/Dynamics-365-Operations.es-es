@@ -28,7 +28,7 @@ ms.lasthandoff: 11/15/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Configurar Clientes y créditos y cobros
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Configure Clientes y Crédito y cobros para controlar todas las facturas y los pagos entrantes de clientes.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="isr-declaration-report-and-supporting-processes-for-mexico"></a>Informe de declaración de ISR y procesos auxiliares para México
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En México, todos los individuos o corporaciones deben presentar un informe de declaración mensual Impuesto sobre la renta (ISR). Este tema proporciona información acerca de la generación de este informe financiero.
 

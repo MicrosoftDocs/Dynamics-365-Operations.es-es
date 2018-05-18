@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="one-time-customers"></a>Clientes plantilla
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema proporciona información sobre los clientes plantilla.  
 

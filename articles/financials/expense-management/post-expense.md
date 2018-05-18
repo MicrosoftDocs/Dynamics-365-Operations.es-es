@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="post-an-expense-report"></a>Registrar un informe de gastos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Una vez aprobado y transferido un informe de gastos al diario general, este puede registrarse en la contabilidad general. Al registrar un informe de gastos, se identifican los gastos que se puedan aplicar para la devolución del impuesto sobre el valor añadido (IVA). La tarea de comprobación y recuperación de pagos de IVA se asigna al empleado responsable de comprobar el informe de gastos.
 

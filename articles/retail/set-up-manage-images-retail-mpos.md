@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Configurar y gestionar imágenes del PDV moderno minorista
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este artículo explica los pasos para realizar la configuración y la gestión de imágenes para las distintas entidades que aparecen en Retail Modern POS (MPOS).
 

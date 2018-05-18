@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="create-a-service-template-group"></a>Crear un grupo de plantillas de servicio  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Puede usar grupos de plantillas de servicio para ordenar y filtrar plantillas de servicio.
 

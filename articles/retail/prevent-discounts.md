@@ -29,7 +29,7 @@ ms.lasthandoff: 10/24/2017
 
 # <a name="prevent-discounts-for-retail-products"></a>Evite descuentos de los productos al por menor
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Existen varios motivos por los que los minoristas pueden querer evitar que algunos de sus productos tengan descuentos, tanto por una promoción o durante la venta PDV.
 

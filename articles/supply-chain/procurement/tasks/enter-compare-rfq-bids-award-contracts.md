@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Especificar y comparar ofertas de la solicitud de presupuesto y conceder contratos
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra cómo especificar respuestas a una solicitud de presupuesto, puntuar y comparar ofertas y, a continuación, conceder la oferta a uno de los proveedores. Puede utilizar este procedimiento en la empresa de datos de demostración USMF. Antes de empezar, debe tener una solicitud de presupuesto con dos líneas que se ha enviado al menos a dos proveedores. Puede ejecutar el procedimiento "Crear una solicitud de presupuesto" como requisito previo para crear esto. Es necesario haber configurado criterios de puntuación para poder ejecutar este procedimiento.
 

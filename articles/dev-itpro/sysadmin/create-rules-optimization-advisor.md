@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-rules-for-optimization-advisor"></a>Cree reglas para el asesor de optimización
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema explica cómo crear nuevas reglas para el **asesor de optimización**. Por ejemplo, puede crear una nueva regla que identifique los casos de solicitud de presupuesto que tengan un título vacío. El uso de títulos en los casos hace que se puedan identificar y buscar con facilidad. Aunque es bastante simple, este ejemplo muestra qué se puede lograr con reglas de optimización. 
 

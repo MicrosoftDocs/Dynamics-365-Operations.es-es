@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>Registrar una factura de proveedor en el diario de facturas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guía de la tarea muestra cómo registrar facturas de proveedor que no están asociadas a ningún pedido de compra. Algunos ejemplos de este tipo de factura incluyen los gastos para suministros o servicios.  Esta grabación usa la empresa de demostración USMF.
 

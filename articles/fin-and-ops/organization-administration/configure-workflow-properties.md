@@ -27,7 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="configure-workflow-properties"></a>Configurar propiedades del flujo de trabajo
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema explica cómo configurar las diversas propiedades de un flujo de trabajo.
 

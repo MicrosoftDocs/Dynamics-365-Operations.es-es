@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="activity-based-subcontracting"></a>Subcontratación basada en actividad
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema describe detalladamente cómo usar actividades subcontratadas en un flujo de producción para la lean manufacturing.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a>Configurar un elemento de menú del dispositivo móvil para completar el trabajo en un pedido de compra
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo configurar un elemento de menú Dispositivo móvil. En este ejemplo, el elemento de menú se usa para realizar el trabajo del tipo Pedido de compra. La clase de trabajo asociado al elemento de menú determina qué valor es válido. Puede usar esta guía en la empresa de datos de demostración USMF. Este procedimiento lo suele realizar un director de almacén.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="on-premises-deployment-home-page"></a>Página de inicio de implementación local
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Puede implementar Microsoft Dynamics 365 for Finance and Operations (localmente). Cuando selecciona un tipo de implementación local, los requisitos del sistema, el tamaño de hardware y la funcionalidad difieren de una implementación en la nube. Este tema proporciona vínculos al contenido que contienen información específica para implementaciones locales.
 

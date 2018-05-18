@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="pay-based-on-registrations"></a>Paga basada en los registros
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema explica en detalle cómo se calcula el sueldo en función de los registros del trabajador. Incluye los ejemplos que muestran cómo las diferentes combinaciones de opciones de configuración que están disponibles para el cálculo afectan al resultado. Estas son algunas de las áreas que se cubrirán:
 

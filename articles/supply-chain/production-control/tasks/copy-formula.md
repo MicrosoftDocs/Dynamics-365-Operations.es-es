@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="copy-a-formula"></a>Copiar una fórmula
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento se centra en crear una fórmula que incluya los mismos ingredientes que una fórmula existente, con diferencias menores. Para crear las líneas de la fórmula puede usar la función Copiar para copiar una fórmula existente que tenga la mayoría de los ingredientes necesarios. Puede realizar los cambios oportunos en las líneas individuales de la nueva versión. Al usar la función Copiar no es necesario crear varias fórmulas casi idénticas. La empresa de datos de demostración utilizada para crear esta tarea es USP2.
 

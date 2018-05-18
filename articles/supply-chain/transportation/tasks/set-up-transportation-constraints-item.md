@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Configuración de las restricciones de transporte para un artículo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento configurará una restricción de transporte para evitar que un artículo seleccionado se transporte a través de un centro seleccionado. Esta tarea normalmente se llevaría a cabo por un coordinador de transporte. Puede utilizar este procedimiento en la empresa de demostración USMF o en sus propios datos.
 

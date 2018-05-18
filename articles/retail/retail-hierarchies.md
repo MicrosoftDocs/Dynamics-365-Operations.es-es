@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="retail-hierarchies"></a>Jerarquías comerciales
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este artículo describe jerarquías comerciales en Microsoft Dynamics 365 for Retail.
 

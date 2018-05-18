@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-performance-review"></a>Crear una evaluación del rendimiento
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear una revisión de rendimiento y describe el propósito de cada sección de la revisión. Este procedimiento se creó con los datos de demostración de la empresa USMF. Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
 

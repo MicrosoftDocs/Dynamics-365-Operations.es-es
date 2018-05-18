@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="set-up-positions"></a>Configurar puestos
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Los puestos son un aspecto importante del nivel inferior de una jerarquía organizativa. Un puesto es un caso individual de un trabajo. Por ejemplo, el puesto "Director de ventas (Este)" es uno de los puestos asociados al trabajo "Director de ventas". Un puesto existe en un departamento y sólo puede tener un trabajador asociado a ella. En esta tarea nos desplazaremos por los pasos necesarios para crear un puesto. Este procedimiento se va a utilizar para los especialistas de recursos humanos.
 

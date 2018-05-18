@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-rate-masters"></a>Configurar listas maestras de tasas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo configurar una tasa maestra. El administrador de logística configura normalmente tasas maestras, en función de los contratos firmados con los transportistas. En este caso, configurará una tasa maestra para una compañía aérea. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

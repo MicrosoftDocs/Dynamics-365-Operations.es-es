@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-main-account-categories"></a>Configurar categorías de cuenta principal
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Las categorías de cuenta principal se usan para los informes predeterminados en los informes financieros y en Power BI. Las categorías de cuenta principal que se crean de forma predeterminada se pueden cambiar de nombre pero no se pueden eliminar. Las categorías de cuentas adicionales se pueden crear y usar para fines de informes y análisis. Esta tarea usa la empresa de demostración USMF.
 

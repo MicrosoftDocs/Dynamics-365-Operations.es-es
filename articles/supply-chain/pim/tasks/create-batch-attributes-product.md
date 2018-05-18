@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-batch-attributes-for-a-product"></a>Crear atributos de lote para un producto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear un atributo de lote, asignar intervalos de valor predeterminados e incluir el atributo en un grupo. La empresa de datos de demostración utilizada para crear este procedimiento es la empresa USP2.
 

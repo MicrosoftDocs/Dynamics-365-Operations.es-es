@@ -28,7 +28,7 @@ ms.lasthandoff: 01/03/2018
 
 # <a name="electronic-ledger-accounting-statements"></a>Extractos electrónicos de cuenta contable
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo explica cómo configurar y generar la versión 1.1 de los archivos XML de contabilidad general que todas las empresas de México debe presentar a las autoridades fiscales mexicanas (SAT) de manera mensual.
 

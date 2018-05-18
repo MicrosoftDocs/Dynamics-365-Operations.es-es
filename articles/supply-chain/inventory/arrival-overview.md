@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="arrival-overview"></a>Visión general de llegadas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema proporciona información acerca de la función de visión general de llegadas. La página de la visión general de llegadas forma parte de esta característica y proporciona una visión general de todos los artículos que se espera que se reciban como artículos entrantes.
 

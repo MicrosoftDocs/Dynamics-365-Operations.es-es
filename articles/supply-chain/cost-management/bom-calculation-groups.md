@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations-groups"></a>Grupos de cálculo de lista de materiales
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo proporciona información acerca de los grupos de cálculo para listas de materiales y de cómo configurarlos. Para ejecutar un cálculo de L. MAT, debe configurar los grupos de cálculo y asignarlos a artículos individuales o establecer un grupo de cálculo predeterminado. La configuración del cálculo del grupo de cálculo se utiliza a continuación como valores predeterminados en la página Cálculo de L. MAT en el momento del cálculo de L. MAT. 
 

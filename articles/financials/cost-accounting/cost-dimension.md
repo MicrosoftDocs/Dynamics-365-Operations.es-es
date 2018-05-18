@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-dimensions-and-import-dimension-members"></a>Crear dimensiones e importar miembros de dimensión
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La contabilidad de costes es un módulo independiente que requiere datos de otros módulos. Estos datos se categorizan en lo siguiente:
 

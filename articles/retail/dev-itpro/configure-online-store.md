@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-online-store"></a>Configurar una tienda en línea
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo proporciona vínculos a temas que le ayudarán a configurar y administrar de forma centralizada una tienda en línea.
 

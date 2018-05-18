@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidar un pago de cliente parcial y el pago final completamente antes de la fecha de descuento
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo proporciona escenarios que muestran cómo registrar pagos parciales para un cliente y aplicar descuentos por pronto pago dentro del período del descuento por pronto pago.
 

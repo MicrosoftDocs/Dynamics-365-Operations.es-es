@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-a-call-center-catalog"></a>Creación de un catálogo de centro de llamadas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este artículo proporciona información general del proceso de crear un catálogo para un centro de llamadas. 
 

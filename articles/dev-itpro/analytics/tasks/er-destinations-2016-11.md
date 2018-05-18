@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-destinations-for-electronic-reporting-er"></a>Configurar destinos de informes electrónicos (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo configurar y usar diferentes destinos para componentes de salida de informes electrónicos, como una carpeta o un archivo. La empresa de datos de demostración utilizada para crear este procedimiento es DEMF. Alemania es el país o región de la dirección principal de la entidad jurídica. Sin embargo, puede usar cualquier entidad jurídica para este procedimiento. 
 

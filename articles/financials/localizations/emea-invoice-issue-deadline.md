@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="invoice-issue-deadline"></a>Fecha de límite de emisión de factura
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo explica cómo configurar parámetros para calcular las fechas límite para emitir facturas de cliente y facturas de proveedor en la Unión Europea (UE).
 

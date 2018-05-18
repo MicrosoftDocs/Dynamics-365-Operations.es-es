@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-vendor-payment-terms"></a>Definir condiciones de pagos a proveedores
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Configurar condiciones de pago para facturas de proveedor. Esta tarea usa la empresa de demostración USMF.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-depreciation-books"></a>Configurar libros de amortización 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guía de la tarea creará un nuevo libro de amortización y lo asociará a un grupo de activos fijos.  Usa el rol de contable y los datos de prueba de la entidad jurídica USMF.
 

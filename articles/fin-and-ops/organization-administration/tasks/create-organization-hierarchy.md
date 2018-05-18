@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-organization-hierarchy"></a>Crear una jerarquía organizativa
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Realice el procedimiento siguiente para crear una jerarquía organizativa. Puede usar jerarquías organizativas para ver e informar de su negocio de diferentes perspectivas. Por ejemplo, puede configurar una jerarquía para informes estatutarios, legales o de impuestos. A continuación, puede configurar otra jerarquía para elaborar información financiera que no sea legalmente necesaria pero que se use para informes internos. 
 

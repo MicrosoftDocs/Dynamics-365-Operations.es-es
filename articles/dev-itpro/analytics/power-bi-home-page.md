@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 ---
 
 # <a name="power-bi-content"></a>Contenido de Power BI
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema enumera el contenido de Microsoft Power BI que está disponible y le señala a los recursos donde puede obtener más información acerca de él.
 

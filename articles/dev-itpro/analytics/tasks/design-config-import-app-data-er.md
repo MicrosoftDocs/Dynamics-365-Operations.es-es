@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Configuraciones de diseño para analizar documentos de entrada para actualizaciones de datos de aplicaciones (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo diseñar las configuraciones de los informes electrónicos (ER) para analizar un documento electrónico entrante. En este procedimiento, importará las configuraciones de ER necesarias que se han creado para la empresa de ejemplo, Litware, Inc. y las usará para analizar documentos electrónicos entrantes. Para completar los pasos de este procedimiento, primero debe completar los pasos del procedimiento, "ER: Crear un proveedor de configuraciones y marcarlo como activo".
 

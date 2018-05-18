@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-standard-cost-updates"></a>Gestionar actualizaciones de coste estándar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Las actualizaciones los datos de coste estándar se pueden gestionar con dos métodos diferentes: el método de una versión o el de dos versiones. 
 

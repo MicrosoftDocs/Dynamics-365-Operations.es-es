@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="set-up-compensation-grids"></a>Configuración de cuadrículas de compensación
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Las cuadrículas de compensación se usan para definir y mantener las estructuras de pagos para los planes de compensación fija. Las cuadrículas de compensación se pueden compartir entre varios planes o copiarse al crear un nuevo plan de compensación.  Antes de crear una cuadrícula de compensación, los niveles y los puntos de referencia deben estar configurados. Este ejemplo creará un nuevo tipo de categoría de cuadrícula de compensación con los datos de demostración para los niveles y los puntos de referencia. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

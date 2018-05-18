@@ -28,7 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="procurement-and-sourcing-overview"></a>Vista general de adquisición y abastecimiento
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo ofrece una visión general de la funcionalidad que está disponible en el módulo Adquisición y abastecimiento.
 

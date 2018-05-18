@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-filtering-and-query-syntax"></a>Sintaxis de consulta y filtro avanzados
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo describe el filtrado y las opciones de consulta que están disponibles cuando usa el operador “coincide” en el cuadro de diálogo Ordenación o filtro avanzados.
 

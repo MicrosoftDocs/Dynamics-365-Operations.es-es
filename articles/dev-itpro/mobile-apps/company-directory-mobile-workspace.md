@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="company-directory-mobile-workspace"></a>Espacio de trabajo móvil del directorio de empresa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema proporciona información sobre del espacio de trabajo móvil **Directorio de empresa**. Este espacio de trabajo permite a los usuarios ver y contactar a otros empleados de su organización.
 

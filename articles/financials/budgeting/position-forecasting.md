@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="position-forecasting"></a>Previsión de puestos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Los gastos relacionados con los trabajadores componen a menudo una proporción grande de los costes de una organización. La previsión de puestos le permite planificar esos gastos y los incluye en la planificación de presupuestos.
 

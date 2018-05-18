@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="map-a-cost-element-dimension"></a>Asignar una dimensión de elemento de coste
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Un controlador de costes puede utilizar este procedimiento para asignar una dimensión de elemento de coste a una dimensión de elemento de coste en la entidad jurídica de MXMF. Este registro usa la empresa USP2 con los datos para demostración.
 

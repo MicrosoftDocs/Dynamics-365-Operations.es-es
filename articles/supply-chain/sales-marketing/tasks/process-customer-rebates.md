@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-process-customer-rebates"></a>Generar y procesar devoluciones de cliente
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo procesar devoluciones de cliente desde que se genera la reclamación hasta pasarlas como acumulaciones a Clientes. Se le guiará por un ejemplo específico para explicar cómo afectan las distintas condiciones en las líneas de devolución a los importes finales que se abonarán al cliente. Deberá usar la empresa de demostración USMF y realizar las tareas siguientes antes de comenzar el procedimiento: (1) Vaya a la página Parámetros de clientes, expanda la ficha Precios y, luego, en la ficha Detalles de precio, confirme que la opción Habilitar detalles de precio esté establecida en Sí. (2) Vaya a la página Acuerdos de devoluciones y seleccione el acuerdo de devolución de cliente: USMF-000001. Si el campo Aprobación del flujo de trabajo no está establecido en Aprobado, debe hacer clic en Validación en el panel de acciones para aprobarlo.
 

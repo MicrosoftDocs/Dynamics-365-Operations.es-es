@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO con valor físico y marcado
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 FIFO (primero en entrar, primero en salir) es un modelo de inventario en que las primeras recepciones adquiridas se emiten primero. Las emisiones actualizadas financieramente del inventario se liquidan contra las primeras recepciones actualizadas financieramente en el inventario, según la fecha financiera de la transacción de inventario. 
 

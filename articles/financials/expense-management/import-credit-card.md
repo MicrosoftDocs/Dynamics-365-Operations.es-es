@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="import-and-maintain-credit-card-transactions"></a>Importar y mantener transacciones de tarjeta de crédito
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Puede configurar las transacciones de la tarjeta de crédito relacionadas con gastos para que se importen de forma automática en una programación recurrente. Como alternativa, puede importar las transacciones de forma manual si fuera necesario. Las transacciones de tarjeta de crédito se importan a través de la entidad de datos de transacciones de tarjeta de crédito.
 

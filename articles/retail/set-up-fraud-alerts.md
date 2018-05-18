@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-fraud-alerts"></a>Configurar avisos de fraude
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este tema explica cómo configurar criterios y reglas para poner en espera pedidos de ventas potencialmente fraudulentos para revisión adicional. La funcionalidad de revisión de fraudes se usa para determinar la validez de la información en un pedido de ventas. Si la información del pedido de ventas parece para ser cuestionable en función de los criterios y las reglas contra el fraude de una organización, el pedido puede ser puesto en espera para revisión adicional a cargo de un gestor.
 

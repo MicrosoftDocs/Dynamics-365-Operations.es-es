@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-loan-items"></a>Crear artículos de préstamo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Los artículos en préstamo son registros que ayudan a realizar un seguimiento de los artículos físicos que su empresa presta a los trabajadores, como teléfonos u ordenadores. Cada artículo físico debe tener un artículo correspondiente de préstamo. Cada registro de los artículos de préstamo debe describir lo que se está prestando, la persona responsable del préstamo y el número de días que se puede prestar el artículo. Puede crear varios artículos en préstamo al mismo tiempo, como llaves, tarjetas de acceso o uniformes. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

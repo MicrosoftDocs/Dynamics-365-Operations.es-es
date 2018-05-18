@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Crear un código de barras para un producto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear manualmente un código de barras mediante el número de artículo M0001 como ejemplo. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

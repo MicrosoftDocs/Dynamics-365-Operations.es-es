@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>Crear y asignar una directiva de comportamiento de costes a una unidad de control de costes
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 El comportamiento del coste es la clasificación de los costes como fijos o variables. Una directiva y las reglas correspondientes tienen que asignarse a una unidad de control de costes para que la directiva entre en vigor. Use este procedimiento para crear una directiva y después asignar la directiva a una unidad de control de costes.
 

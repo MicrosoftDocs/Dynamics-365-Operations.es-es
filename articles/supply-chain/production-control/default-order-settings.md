@@ -29,9 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Configuración predeterminada de pedidos para dimensiones y variantes de producto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Los configuración de pedido predeterminada en Microsoft Dynamics 365 for Finance and Operations define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido. La configuración de pedido predeterminada se usa al crear pedidos de compra, pedidos de ventas, pedidos de transferencia, diarios de inventario y para generar pedidos planificados mediante planificación principal. La configuración de pedido predeterminada puede ser específica del artículo, del sitio, de la variante del producto o de la dimensión de producto.
 

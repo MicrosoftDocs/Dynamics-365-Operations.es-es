@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-new-departments"></a>Definir nuevos departamentos
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Los departamentos son unidades operativas que representan un área funcional de un negocio, como ventas o contabilidad. Muchas empresas tienen jerarquías organizativas que muestran los distintos departamentos dentro de un negocio. Este procedimiento le muestra el proceso de creación de departamentos y la adición de esos departamentos a la jerarquía departamental de una organización. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="enter-payroll-beginning-balances"></a>Especificar saldos iniciales de nómina
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 El tema se describen los pasos para especificar los saldos iniciales para los códigos de ganancias, las deducciones, las prestaciones y los impuestos. Esta información tiene valor para que los socios que transfieran los datos para una nueva implementación de nóminas desde otro sistema. Para prepararse para especificar los saldos iniciales de nóminas, comprobamos la siguiente información:
 

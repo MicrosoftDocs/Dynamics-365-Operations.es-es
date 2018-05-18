@@ -26,7 +26,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="report-340"></a>Informe 340
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 El informe 340 reemplazó dos informes anteriores (las estatutarias Libretas de ventas y las estatutarias Libretas de compras) que todas las empresas españolas enviaban como copias impresas a las autoridades fiscales españolas. El nuevo informe se puede cargar en la página web de las autoridades fiscales o se puede enviar mediante un paquete de software que está disponible de forma gratuita por parte de las autoridades fiscales.
 

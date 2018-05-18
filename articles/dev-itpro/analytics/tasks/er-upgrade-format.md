@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>Actualizar el formato adoptando una nueva versión de base de ese formato para informes electrónicos (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 En los pasos siguientes se explica cómo un usuario con rol de administrador del sistema o de desarrollador de informes electrónicos puede mantener una configuración de formato de informes electrónicos. Este procedimiento explica el modo en que se puede crear una versión personalizada de un formato en función del formato recibido de un proveedor de configuración. También explica cómo adoptar una nueva versión base de ese formato.
 

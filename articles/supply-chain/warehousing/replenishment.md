@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="replenishment"></a>Reabastecimiento
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En este tema se describen las estrategias de reabastecimiento que están disponibles para los almacenes que utilizan la funcionalidad disponible en Gestión de almacenes. La información de este tema no se aplica a la solución de almacenamiento que está disponible en Gestión de inventarios.
 

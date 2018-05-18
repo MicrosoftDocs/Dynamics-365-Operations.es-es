@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="project-management-and-accounting"></a>Gestión de proyectos y contabilidad
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La funcionalidad de gestión de proyectos y contabilidad se puede usar en varias industrias para proporcionar un servicio, producir un producto o lograr un resultado.  
 

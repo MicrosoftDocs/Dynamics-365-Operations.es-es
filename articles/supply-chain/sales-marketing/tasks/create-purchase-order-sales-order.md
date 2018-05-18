@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Crear un pedido de compra desde un pedido de ventas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear un pedido de compra basado en un pedido de ventas. Las cantidades del producto del pedido de compra se designan a continuación para satisfacer la demanda del pedido de ventas de origen. La satisfacción de la demanda de ventas de esta manera es una alternativa a un método más completo y optimizado de la planificación de requisitos de distribución. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.
 

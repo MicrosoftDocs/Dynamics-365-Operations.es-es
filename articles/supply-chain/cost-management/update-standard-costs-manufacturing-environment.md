@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>Actualizar costes estándar en un entorno de fabricación
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo proporciona orientación acerca de cómo actualizar los costes estándar en un entorno de no fabricación. 
 

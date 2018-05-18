@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Agregar a su diario de rendimiento y enviar elogio a alguien
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 El diario de rendimiento contiene información relacionada con cómo alcanzó sus objetivos o cuál fue su rendimiento durante un período. También puede elogiar las acciones de un compañero de trabajo del diario. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
 

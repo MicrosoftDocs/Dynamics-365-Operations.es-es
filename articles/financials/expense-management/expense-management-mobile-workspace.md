@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-management-mobile-workspace"></a>Espacio de trabajo móvil de gestión de gastos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema proporciona información acerca del espacio de trabajo móvil de **gestión de gastos**. Este espacio de trabajo permite a los usuarios capturar y cargar un recibo, de modo que puedan adjuntarlo a un informe de gastos posteriormente. Los usuarios también pueden crear rápidamente una línea de gastos mediante un recibo vinculado, y crear y gestionar sus informes de gastos. Además, los aprobadores pueden usar el espacio de trabajo móvil **Gestión de gastos** para ver los informes de gastos que se les asignan, y aprobar o rechazar los informes de gastos.
 

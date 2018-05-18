@@ -24,7 +24,7 @@ ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-raw-materials-february-2016-only"></a>Crear materias primas (febrero de 2016 únicamente)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarea tarea se centra en crear los componentes de productos terminados y semiterminados. Es la tercera tarea en las series de cálculo BOM. La empresa de datos de prueba utilizada para crear esta tarea es USMF.
 

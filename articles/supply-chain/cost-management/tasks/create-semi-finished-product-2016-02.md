@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-semi-finished-product-february-2016-only"></a>Crear un producto semiterminado (febrero de 2016 únicamente)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarea se centra en crear un producto semi-terminado. Es la segunda tarea en las series de cálculo BOM. La empresa de datos de prueba utilizada para crear esta tarea es USMF.
 
