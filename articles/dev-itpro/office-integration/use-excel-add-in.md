@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0b839a4b16095cf5d357b8405baf1a695b1bb955
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: d68ec828f031fcb031dfbaa5aed2020a779d1207
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -37,9 +37,6 @@ ms.lasthandoff: 05/08/2018
 > <span data-ttu-id="8de82-108">Si su inquilino de Microsoft Azure Active Directory (Azure AD) está configurado para usar Servicios de federación de Active Directory (AD FS), debe asegurarse de que se haya aplicado la actualización de mayo de 2016 para Office, de modo que el complemento de Excel pueda registrarle correctamente.</span><span class="sxs-lookup"><span data-stu-id="8de82-108">If your Microsoft Azure Active Directory (Azure AD) tenant is configured to use Active Directory Federation Services (AD FS), you must make sure that the May 2016 update for Office has been applied, so that the Excel add-in can correctly sign you in.</span></span>
 
 <span data-ttu-id="8de82-109">Para obtener más información sobre el uso del complemento de Excel, vea el breve vídeo [Crear una plantilla de Excel para patrones de encabezado y línea en Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).</span><span class="sxs-lookup"><span data-stu-id="8de82-109">To learn more about using the Excel add-in, watch the short [Create an Excel template for header and line patterns in Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI) video.</span></span>
-
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a><span data-ttu-id="8de82-110">Abrir los datos de la entidad en Excel en el inicio desde Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="8de82-110">Open entity data in Excel when you start from Finance and Operations</span></span>
 1. <span data-ttu-id="8de82-111">En una página de Finance and Operations, seleccione **Abrir en Microsoft Office**.</span><span class="sxs-lookup"><span data-stu-id="8de82-111">On a page in Finance and Operations, select **Open in Microsoft Office**.</span></span>
