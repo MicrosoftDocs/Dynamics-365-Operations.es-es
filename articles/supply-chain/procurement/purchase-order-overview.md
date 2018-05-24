@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ee9baefc95c24d23edca8438792c9648f77e1bdf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d01ef1c496c7c79795d9d740ee755e84434dfdf1
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-order-overview"></a>Visión general de pedidos de compra
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Este artículo proporciona información general acerca de los pedidos de compra (PC) y vínculos a artículos adicionales relacionados con las distintas etapas por las que pasa un pedido de compra.
 
@@ -82,7 +82,7 @@ El campo **Estado de aprobación** se utiliza cuando un pedido de compra pasa po
 -   **Confirmado**: este estado se asigna una vez se ha confirmado el pedido. Normalmente, este estado es el último estado de aprobación que se asigna a un pedido.
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Creación de pedido de compra](purchase-order-creation.md)

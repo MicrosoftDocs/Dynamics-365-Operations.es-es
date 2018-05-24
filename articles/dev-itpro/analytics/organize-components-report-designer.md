@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 850a40cc29f51521636c01f6ac1cfa54d3bd7798
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7207febc58dbab1df5551ae0f74ad74d9ced8e56
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="organize-report-components-in-report-designer"></a>Organizar los componentes del informe en el diseñador de informes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Una vez ha diseñado los bloques de creación y los informes generados, resulta útil organizar estos objetos para que los usuarios los encuentren más fácilmente. En este artículo se explica cómo organizar los informes existentes, los bloques de creación y los objetos en el diseñador de informes.
 
@@ -153,7 +153,7 @@ Solo la configuración del período de base predeterminado se guarda con la defi
 
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Informes financieros](financial-reporting-intro.md)

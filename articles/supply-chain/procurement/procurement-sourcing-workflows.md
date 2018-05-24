@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: ce9bc42751cf0f537a0ddb5069aca7c9779a6bb1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 75daeed0d0e979165d3669e83e98cf278d7fb736
 ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="procurement-and-sourcing-workflows"></a>Flujos de trabajo de adquisición y abastecimiento
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Algunas organizaciones requieren que las solicitudes de compra y los pedidos de compra los apruebe un usuario distinto a la persona que especificó la transacción. Para configurar un proceso de aprobación, puede crear un flujo de trabajo.
 
@@ -68,7 +68,7 @@ Puede asignar un paso de aprobación a los siguientes grupos de participantes.
 
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Definición de flujos de trabajo de procesos empresariales para solicitudes de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)

@@ -3,7 +3,7 @@ title: Funcionalidad del centro de llamadas
 description: "Este tema proporciona una visión general de la funcionalidad de ventas del centro de llamadas en Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 04/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,35 +20,43 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: 75dc09ffc84ef8ec48f50ea410974c99aabc212e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e85b65e116b32adca09e46252d7d3bbe5101e1cf
 ms.contentlocale: es-es
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="call-center-functionality"></a>Funcionalidad del centro de llamadas
+# <a name="call-center"></a>Centro de llamadas 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-Este artículo proporciona una visión general de la funcionalidad de ventas del centro de llamadas en Microsoft Dynamics 365 for Retail.
+En Dynamics 365 for Retail, un centro de llamadas es un tipo de canal minorista que se puede definir en la aplicación. La definición de un canal específico para sus entidades de centro de asistencia telefónica permite que el sistema vincule valores predeterminados específicos de datos y los valores predeterminados del procesamiento del pedido a los pedidos de ventas creados por un usuario del canal de centro de llamadas.
 
-Dynamics 365 for Retail también admite los centro de llamadas como tipo de canal comercial. En un centro de llamadas, los trabajadores realizan pedidos de clientes por teléfono y crean pedidos de ventas. La funcionalidad del centro de llamadas incluye características que diseñadas para facilitar la realización de pedidos por teléfono y la gestión del servicio al cliente en el proceso del pedido. Por ejemplo, los trabajadores de los centros de llamadas pueden especificar la información de pago directamente en el pedido de ventas y pueden ver un resumen detallado de gastos y de pagos antes de enviar el pedido. Los trabajadores tienen opciones para controlar precios, y pueden acceder a distintos datos sobre los clientes, productos y precios desde la página **Pedido de ventas**. Los centros de llamadas también tienen la funcionalidad mejorada para el seguimiento del historial y el estado del pedido de cliente. Cada centro de llamadas puede tener sus propios usuarios, métodos de pago, grupos de precios, dimensiones financieras y modos de entrega. Puede configurar estas opciones cuando crea el centro de llamadas. Además, puede usar la página **Centro de llamadas** para habilitar o deshabilitar los siguientes grupos de funcionalidades que son únicas a los centros de llamadas:
+Las características del centro de asistencia telefónica incluyen precio y promociones al por menor avanzados, catálogos, tarjetas regalo, programas de fidelidad, y vales. Se saca provecho de los pedidos de centro de asistencia telefónica en función de su aplicación de punto de venta (POS) para admitir escenarios de cumplimiento de pedidos transcanales.
 
--   **Finalización del pedido:** este grupo incluye características relacionadas con los pagos y la finalización del pedido en la página **Pedido de ventas**.
--   **Venta dirigida:** este grupo incluye características relacionadas con los códigos fuente, las secuencias de comandos las y solicitudes del catálogo.
+Es importante tener en cuenta que mientras que el módulo de centro de asistencia telefónica se utiliza en otras sectores que no son de ventas al por menor, la versión actual de la aplicación de centro de asistencia telefónica de Dynamics 365 for Retail no se ha optimizado para su uso en escenarios interempresariales (B2B) de procesamiento de pedidos o los escenarios donde los pedidos tengan una gran cantidad de líneas de ventas. Se recomienda que los usuarios que desean utilizar el centro de asistencia telefónica para el procesamiento del pedido fuera del procesamiento de transacciones típico de directo a consumidor, tomen el tiempo adecuado para probar y validar que la habilitación de la función del centro de asistencia telefónica va a cubrir las necesidades funcionales y de rendimiento.
 
-Cuando se activan estas funciones de la configuración del centro de llamadas, están disponibles en la página **Pedido de ventas** para los usuarios que estén asociados con el centro de llamadas. La mayoría de ellas requieren configuración adicional antes de que se puedan usar. Para que los usuarios puedan crear pedidos del centro de llamadas, debe agregar a dichos usuarios al centro de llamadas como usuarios del centro de llamadas. Este paso permite la configuración y la funcionalidad específicas al canal de centro de llamadas. A continuación se muestran algunos ejemplos de la funcionalidad que está disponible:
+Además de admitir la creación de pedidos, el módulo de centro de asistencia telefónica también proporciona una aplicación de servicio al cliente convivial que hace más fácil que los usuarios localicen cuentas de cliente y revisen todos los datos y atributos relacionados de pedido de cliente. La pantalla de servicio al cliente está diseñada para permitir que un usuario pueda obtener acceso rápidamente a los datos relacionados con el pedido que le permitirán atender la mayoría de consultas más habituales relacionadas con pedidos recibidos de clientes.
 
--   La venta dirigida proporciona opciones de configuración para que los scripts y las imágenes de los productos de venta por teléfono ayuden y dirijan a los vendedores mientras que toman pedidos.
--   Los pedidos no se pueden completar hasta que los vendedores hayan capturado al menos un método de pago.
--   Se pueden configurar reglas de sobreventa y venta cruzada para que los vendedores promocionen productos concretos para el cliente.
--   Los vendedores pueden capturar el código fuente para el catálogo del cual un cliente está realizando el pedido.
--   Los vendedores pueden agregar los vales de un minorista al pedido.
--   Los vendedores pueden vender programas de continuidad.
--   Los pedidos se pueden poner en espera manual o automáticamente, para indicar que es necesaria una investigación adicional antes de que el pedido pueda ser procesado.
+Esta página ofrece vínculos a la documentación pertinente relacionada con la configuración, y el uso funcional de las características del centro de asistencia telefónica de Dynamics 365 for Retail.
 
+## <a name="configure-the-call-center"></a>Configure el centro de llamadas
+[Configurar opciones de procesamiento de pedidos](set-up-order-processing-options.md)
 
+## <a name="configure-order-processing"></a>Configurar el procesamiento de pedidos
+[Configurar alertas de fraudes](set-up-fraud-alerts.md)
+[Bloqueos de pedidos manuales](work-with-order-holds.md)
 
+## <a name="configure-payment-processing"></a>Configurar procesamiento de pagos
+[Métodos de pago en un centro de llamadas](work-with-payments.md)
+
+## <a name="configure-direct-marketing"></a>Configurar marketing directo
+[Catálogos de centros de llamadas](call-center-catalogs.md)
+
+[Configurar análisis de RFM](set-up-rfm-analysis.md)
+
+## <a name="configure-continuity-programs"></a>Configurar programas de continuidad
+[Configurar un programa de continuidad para un centro de llamadas](set-up-continuity-program.md)
 
 

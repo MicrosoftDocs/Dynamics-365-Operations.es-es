@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4b70f1aee6b0b55a41dbfd33fcd1216579bb78c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 54a3409e7bd0f1c704cf9f7dd1d860100ec83d7f
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-reporting-for-finance-and-operations"></a>Informes financieros for Finance and Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Los informes financieros para Finance and Operations permiten a los profesionales financieros y empresariales crear, mantener, implementar y ver resultados financieros. Se mueve más allá de las restricciones tradicionales de informes para ayudarle a diseñar con eficacia diversos tipos de informes.
 
@@ -97,7 +97,7 @@ Los siguientes componentes de los informes financieros facilitan la creación, l
 </tbody>
 </table>
 
-## <a name="see-also"></a>Consulte también
+## <a name="additional-resources"></a>Recursos adicionales
 [Generar un informe financiero](generate-financial-report.md)
 
 

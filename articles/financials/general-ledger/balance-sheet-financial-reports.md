@@ -19,16 +19,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 493c54105b36e561edf6d5db95eaff442a812905
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1c92ccb37b62a39e5ab4808454f8c6f84560d917
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="balance-sheet-financial-reports"></a>Informes financieros de balance de situación
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En este artículo se describen los informes predeterminados para los balances de situación. También se describen los componentes de estos informes. 
 
@@ -72,7 +72,7 @@ Las definiciones de columnas contienen diversos tipos de columnas para proporcio
 
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Informes financieros](financial-reporting-getting-started.md)

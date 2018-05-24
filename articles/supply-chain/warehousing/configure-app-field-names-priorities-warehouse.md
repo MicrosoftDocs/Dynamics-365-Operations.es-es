@@ -20,16 +20,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2fbf9d84fa0fec32004936542003115cf580d91c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d029481d31a0064a193e2cb9eeaf79df28bfa159
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-app-field-names-in-warehousing-app"></a>Configuración de nombres de campo de aplicación en la aplicación de almacén
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema describe cómo definir y configurar nombres de campo y prioridades de la aplicación de almacén en Finance and Operations. 
 
@@ -140,7 +140,7 @@ En función de la configuración de la prioridad del campo de la aplicación de 
 
 Los metadatos restantes, por ejemplo, ubicación, no se muestran en la página de tareas, pero se mostrarán en una página de detalles. Para obtener más información y ver ejemplos de la interfaz de usuario, consulte el artículo del blog sobre [Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Instalación y configuración de Microsoft Dynamics 365 for Finance and Operations - Almacenamiento](install-configure-warehousing-app.md)

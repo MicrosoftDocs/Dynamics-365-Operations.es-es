@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3679ccf304a32385c162ba3663eba2300f028817
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5599135eebfcffdedaaadec86beb214c5c04cbaf
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-report-components"></a>Componentes de los informes financieros
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En este artículo se describe cómo se utilizan los componentes o bloques de creación, de las definiciones de informe en los informes financieros. Estos bloques de creación incluyen definiciones de filas, definiciones de columnas y definiciones de organigramas. El artículo se explica cómo organizar y bloquear bloques de creación. 
 
@@ -112,7 +112,7 @@ Cuando abre un bloque de creación, otros usuarios tienen acceso de solo lectura
 3.  Seleccione un bloque de creación y haga clic en **Deshacer desprotección**.
 4.  Haga clic en **Sí** para proteger el bloque de creación.
 
-## <a name="see-also"></a>Consulte también
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
 

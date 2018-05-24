@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Diseñador de fórmulas en los informes electrónicos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema explica cómo usar el diseñador de fórmula en Informes electrónicos (ER). Cuando diseña un formato para un documento electrónico específico en ER, puede usar fórmulas para transformar datos de modo que cumplan los requisitos para el cumplimiento y el formato de ese documento. Estas fórmulas se asemejan a fórmulas en Microsoft Excel. Se admiten diversos tipos de funciones en las fórmulas: texto, fecha y hora, lógica matemática, información, conversión de tipo de datos y otras (funciones específicas de dominio empresarial).
 
@@ -647,7 +647,7 @@ Los parámetros de indicador del nombre de la divisa de impresión y de puntos d
 
 ER le permite ampliar la lista de funciones que se usan en las expresiones de ER. Son necesarios algunos esfuerzos de ingeniería. Para obtener información detallada, vea [Ampliar la lista de funciones de informes electrónicos](general-electronic-reporting-formulas-list-extension.md).
 
-## <a name="see-also"></a>Consulte también
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de los informes electrónicos](general-electronic-reporting.md)
 

@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69766e1bf37955bfd4d7253c1b7881780d491d1c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 683d3de59a427df296bb0d3d644f0ec23b3a8e5e
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-designer-interface"></a>Interfaz del diseñador de informes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En este artículo se explica cómo navegar por el Diseñador de informes y cómo utilizar las diversas opciones para satisfacer sus requerimientos específicos. 
 
@@ -220,11 +220,11 @@ La barra de herramientas del diseñador de informes ofrece acceso rápido a los 
 | [![Botón Definición de la columna](./media/columnc130389.png)](./media/columnc130389.png)                 | Mostrar la definición de columnas que se asigna a la definición del informe activo.                                                                                                 |
 | [![Botón Definición del organigrama](./media/treec130389.png)](./media/treec130389.png)             | Mostrar la definición del organigrama que se asigna a la definición del informe activo.                                                                                         |
 | [![Botón Visor de informes](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Iniciar el visor de informes y mostrar la versión más reciente del informe generado. Este botón está disponible desde una definición del informe si ha generado al menos un informe. |
-| [![Botón Generar informe](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Generar un informe de la definición del informe activo. Este botón está disponible desde una definición del informe.                                                                      |
+| [![Botón Generar informe](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Genera un informe a partir de la definición de informe activa. Este botón está disponible desde una definición de informe.                                                                      |
 
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Informes financieros](financial-reporting-intro.md)

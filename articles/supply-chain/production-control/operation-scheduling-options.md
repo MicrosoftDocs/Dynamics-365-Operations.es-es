@@ -20,16 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 56eeb2b56261dc3e576192c0ede405996d82b2b7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 41d5d933a43f5cc4c84c33bdb0896c9d4a9a28cc
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="operations-scheduling-options"></a>Opciones de programación de las operaciones
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema describe las opciones de programación de las operaciones. Puede usar la programación de operaciones para proporcionar una estimación general del tiempo extra del proceso de producción.
 
@@ -45,7 +45,7 @@ Varias configuraciones determinan cómo se calculan los programas de producción
 
 La dirección de programación es indispensable en el proceso de programación. La producción se puede programar hacia adelante o hacia atrás a partir de cualquier fecha, en función de los requisitos de tiempo y programación.
 
--   **A partir de la fecha de programación:**puede programar la producción para que se inicie lo antes posible. La producción puede iniciarse hoy, mañana o en cualquier fecha concreta en el futuro. La producción está programada para comenzar lo antes posible y se planifica hacia adelante en el tiempo hasta la fecha final más próxima posible.
+-   **A partir de la fecha de programación:** puede programar la producción para que se inicie lo antes posible. La producción puede iniciarse hoy, mañana o en cualquier fecha concreta en el futuro. La producción está programada para comenzar lo antes posible y se planifica hacia adelante en el tiempo hasta la fecha final más próxima posible.
 -   **Programación regresiva**: puede programar la producción para que se inicie lo más tarde posible. El programa se basa en la fecha en que debe completarse la producción y cuenta hacia atrás hasta la última fecha posible en que puede iniciarse la producción sin que supere la fecha límite objetivo.
 
 Están disponibles las siguientes opciones:
@@ -128,7 +128,7 @@ Puede guardar los valores actuales como valores predeterminados. Existen dos opc
 -   Establecer como predeterminado para todos
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Programación de operaciones](operations-scheduling.md)

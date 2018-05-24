@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 974edd06460df4afe594b0a033a042b8c2763f7f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-setup"></a>Configuración de la previsión de la demanda
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En este tema se describen las tareas de configuración que debe realizar antes de poder usar la previsión de la demanda.  
 
@@ -78,7 +78,7 @@ Para crear predicciones de demanda, puede implementar su propio servicio mediant
 ## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>Configuración del servicio de aprendizaje automático de previsión de demanda de Finance and Operations
 Para ver los parámetros que se pueden configurar para el servicio de previsión de demanda de Finance and Operations, vaya a **Planificación maestra** &gt; **Configuración** &gt; **Previsión de demanda** &gt; **Parámetros de algoritmo de previsión**. La página **Parámetros de algoritmo de previsión** muestra los valores predeterminados para los parámetros. Puede sobrescribir estos parámetros en la página **Parámetros de previsión de demanda**. Use la pestaña **General** para sobrescribir los parámetros globalmente, o use la pestaña **Claves de asignación de artículos** para sobrescribir los parámetros por clave de asignación de artículo. Los parámetros que se sobrescriben para una clave de asignación de artículos afectan solo a la previsión de los artículos que están asociados con esa clave de asignación de artículos.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Introducción a la previsión de demanda](introduction-demand-forecasting.md)

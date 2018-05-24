@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 044a943eeba91f5dbebd4dcd70bc8152c4109037
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Directiva de acumulación de costes y cálculo de costes generales 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La contabilidad de costes permite obtener detalles sobre cómo en el flujo de costes está relacionado con los productos y los servicios que se entregan en una organización. Para ver la transparencia de los costes, es esencial lograr una asignación de costes entre los objetos de coste basada en una base de asignación adecuada. De forma predeterminada, la asignación de costes se consigue para el elemento de costes principal, lo que se desea en algunos casos, pero tiene ciertas implicaciones que deben considerarse.
 
@@ -109,7 +109,7 @@ Una vez que se procesen las entradas de contabilidad general, el saldo de la ent
 |                      | **Objeto de coste** |           |           |           | **Total**     |
 |----------------------|-----------------|-----------|-----------|-----------|---------------|
 | **Elemento de coste**     | **CC001**       | **CC002** | **CC003** | **CC004** |               |
-| **1001 Electricidad** | 100,00          | 200,000    | 6.000,00  | 2.000,00  | **8.300,00**  |
+| **1001 Electricidad** | 100,00          | 200,00    | 6.000,00  | 2.000,00  | **8.300,00**  |
 | **1002: Salarios**    | 10.000,00       | 10.000,00 | 8.000,00  | 6.500,00  | **34.500,00** |
 | **1003: Publicidad** | 0.00            | 4.000,00  | 0.00      | 0.00      | **4.000,00**  |
 |                      | 10.100,00       | 14.200,00 | 14.000,00 | 8.500,00  | **46.800,00** |
@@ -234,7 +234,7 @@ La página **Detalles de movimiento de diario de saldo de costes de objetos de c
 
 | Miembro de dimensión de elemento de coste | Descripción |  Importe   |
 |-------------------------------|-------------|-----------|
-| 1001                          | Electricidad | 200,000    |
+| 1001                          | Electricidad | 200,00    |
 | 1002                          | Salarios    | 10.000,00 |
 | 1003                          | Publicidad | 4.000,00  |
 | SC-CC001                      | RR. HH.          | 3.535,00  |
@@ -263,7 +263,7 @@ A continuación se muestra un ejemplo de un informe PowerPivot en Excel.
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002**      | **CC003**     | **CC004**     |               |
 | **Coste primario**            | **10.100,00**   | **14.200,00**  | **14.000,00** | **8.500,00**  | **46.800,00** |
-| &nbsp;&nbsp;&nbsp;&nbsp; 1001                            | 100,00          | 200,000         | 6.000,00      | 2.000,00      | **8.300,00**  |
+| &nbsp;&nbsp;&nbsp;&nbsp; 1001                            | 100,00          | 200,00         | 6.000,00      | 2.000,00      | **8.300,00**  |
 | &nbsp;&nbsp;&nbsp;&nbsp; 1002                            | 10.000,00       | 10.000,00      | 8.000,00      | 6.500,00      | **34.500,00** |
 |&nbsp;&nbsp;&nbsp;&nbsp; 1003                             | 0.00            | 4.000,00       | 0.00          | 0.00          | **4.000,00**  |
 |**Coste secundario**                            | **-10.100,00**  | **-14.200,00** | **17.082.75** | **7.217,25**  | **0,00**      |
@@ -297,7 +297,7 @@ La clara separación entre **Asignación de costes** y **Directivas de acumulaci
 
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="additional-resources"></a>Recursos adicionales
 -  [Dimensiones de objeto de coste](cost-objects.md)
 -  [Dimensiones de elemento de coste](cost-elements.md)
 -  [Jerarquías de dimensiones](dimension-hierarchy.md)

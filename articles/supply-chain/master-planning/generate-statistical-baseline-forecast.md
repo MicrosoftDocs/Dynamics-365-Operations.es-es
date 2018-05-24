@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c71d7632cfdafe48eee49c848982dfa85116df75
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-statistical-baseline-forecast"></a>Generar previsión estadística de línea base
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo proporciona información sobre los parámetros y los filtros que se usan en el cálculo de previsión de demanda. 
 
@@ -64,10 +64,10 @@ El grupo de planificación de empresas vinculadas, se pueden aplicar las claves 
 
 Si la previsión no se genera para un conjunto grande de artículos, sino, por ejemplo, para un artículo o una clave de asignación de artículos a la vez, para obtener un mejor rendimiento, puede activar la casilla **Usar modo de respuesta de la solicitud** en la pestaña **Planificación maestra - configuración - previsión de demanda** - **Parámetros de previsión de demanda - Aprendizaje de Azure Machine**.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Configuración de la previsión de la demanda](demand-forecasting-setup.md)
+[Configuración de previsión de demanda](demand-forecasting-setup.md)
 
 [Realización de ajustes manuales realizados en la previsión de línea base](manual-adjustments-baseline-forecast.md)
 

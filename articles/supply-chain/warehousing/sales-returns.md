@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e2125b3616310196b2c5ede0ddcaab24856ddc34
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d4da2ed8d61ffae3a4a4dc24793d82de22e86e59
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-returns"></a>Devoluciones de ventas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema ofrece información sobre los procesos para devolver pedidos. Incluye información sobre las devoluciones de clientes y su efecto en la gestión de costes y cantidades disponibles de inventario.
 
@@ -88,7 +88,7 @@ Después de finalizar la encabezado de devolución, puede crear líneas de devol
 -   Especifique manualmente los detalles del artículo, la cantidad, y otra información para cada línea de devolución.
 -   Cree una línea de devolución mediante la función **Buscar pedido de ventas**. Se recomienda usar esta función al crear un pedido de devolución. La función **Buscar pedido de ventas** establece una referencia desde la línea de devolución a la línea del pedido de ventas facturado y recupera los detalles de línea como número de artículo, la cantidad, el precio, el descuento y los valores de coste de la línea de ventas. La referencia ayuda a garantizar que, cuando el producto se devuelve a la empresa, se ha valorado según el mismo coste unitario al que se vendió. La referencia también valida que los pedidos de devolución no están creados para una cantidad que excede la cantidad a la que se vendió en la factura.
 
-**Nota:** Las líneas de devolución que tienen una referencia a un pedido de ventas se gestionan como correcciones o reversiones de la venta. Para obtener más información, consulte la sección sobre anotar asientos en el libro mayor más adelante en este tema.
+>[Nota] Las líneas de devolución que tienen una referencia a un pedido de ventas se gestionan como correcciones o reversiones de la venta. Para obtener más información, consulte la sección sobre anotar asientos en el libro mayor más adelante en este tema.
 
 ### <a name="charges"></a>Gastos
 
@@ -193,15 +193,26 @@ Durante el proceso de llegada, las devoluciones se integran con el proceso gener
 
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Identificar los productos de la lista de la Visión general de entradas
 
-La **Visión general de entradas** muestra todas las entradas planificadas. **Nota:** Las llegadas de pedidos de devolución se deben procesar por separado de otros tipos de transacciones de entrada. Una vez haya identificado un paquete de entrada en la página **Visión general de entradas** (por ejemplo, con el documento de RMA asociado), en el panel de acciones, haga clic en **Iniciar entrada** para crear y inicializar a un diario de entradas que coincida con la llegada.
+La **Visión general de entradas** muestra todas las entradas planificadas. 
+>[Nota] Las llegadas de pedidos de devolución se deben procesar por separado de otros tipos de transacciones de entrada. Una vez haya identificado un paquete de entrada en la página **Visión general de entradas** (por ejemplo, con el documento de RMA asociado), en el panel de acciones, haga clic en **Iniciar entrada** para crear y inicializar a un diario de entradas que coincida con la llegada.
 
 ### <a name="edit-the-arrival-journal"></a>Editar el diario de entradas
 
-Si establece la opción **Gestión de cuarentena** en **Sí**, puede crear un pedido de cuarentena para la línea de devolución. Si una línea se ha enviado a cuarentena para inspección, no puede especificar un código de disposición. **Nota:** Si establece la opción **Gestión de cuarentena** en **Sí** en el grupo de modelos de inventario de artículos, la opción **Gestión de cuarentena** en la página **Líneas de diario** se marcará para la línea del diario de entradas y no se podrá modificar. Si la línea se envía a cuarentena, debe especificar el almacén de cuarentena adecuado. Si la línea de entrada no se envía para inspección, el encargado de las llegadas en el almacén debe especificar el código de disposición directamente en la línea del diario de entradas y anotarlo en el diario de recepción. Si el mismo código de disposición no se va a asignar a toda la cantidad de la línea de devolución o si la cantidad total de la línea no se ha recibido, debe dividir la línea. Al dividir una línea del diario de entrada, también divide la línea de devolución (**SalesLine**) y crea un nuevo identificador del lote. Puede dividir la línea reduciendo la cantidad de la línea del diario de entradas. Cuando se registra el diario, se crea una nueva línea de devolución que tiene un estado **Esperado** para la cantidad restante. También puede dividir la línea si hace clic en **Funciones** &gt; **Dividir**.
+Si establece la opción **Gestión de cuarentena** en **Sí**, puede crear un pedido de cuarentena para la línea de devolución. Si una línea se ha enviado a cuarentena para inspección, no puede especificar un código de disposición. 
+ 
+Si establece la opción **Gestión de cuarentena** en **Sí** en el grupo de modelos de inventario de artículos, la opción **Gestión de cuarentena** en la página **Líneas de diario** se marcará para la línea del diario de entradas y no se podrá modificar. Si la línea se envía a cuarentena, debe especificar el almacén de cuarentena adecuado. 
+
+Si la línea de entrada no se envía para inspección, el encargado de las llegadas en el almacén debe especificar el código de disposición directamente en la línea del diario de entradas y anotarlo en el diario de recepción. Si el mismo código de disposición no se va a asignar a toda la cantidad de la línea de devolución o si la cantidad total de la línea no se ha recibido, debe dividir la línea. Al dividir una línea del diario de entrada, también divide la línea de devolución (**SalesLine**) y crea un nuevo identificador del lote. Puede dividir la línea reduciendo la cantidad de la línea del diario de entradas. Cuando se registra el diario, se crea una nueva línea de devolución que tiene un estado **Esperado** para la cantidad restante. También puede dividir la línea si hace clic en **Funciones** &gt; **Dividir**.
 
 ### <a name="process-the-quarantine-order"></a>Proceso de la orden de cuarentena
 
-Si los productos devueltos se envían para inspección en el almacén de cuarentena, cualquier procesamiento adicional se completa en una orden de cuarentena. Las órdenes de cuarentena se crean para cada línea de entrada que se envía a cuarentena. El código de disposición indica el resultado del proceso de inspección. Puede dividir un pedido de cuarentena, igual que puede dividir el diario de entrada. Si divide el pedido de cuarentena, puede producirse una división consecuente de la línea de devolución. Después de que se especifica el código de disposición, complete el pedido de cuarentena la función **Finalizar** o la función **Notificar como terminado**. Si selecciona **Notificar como finalizado**, se crea una nueva entrada en el almacén designado. A continuación, puede procesar esta llegada mediante la página **Visión general de las entradas**. Si la entras se origina desde un pedido de cuarentena, no podrá cambiar el código de disposición que se asigna durante la inspección. Si completa el orden de cuarentena mediante la función **Finalizar**, el lote se registra automáticamente. En ocasiones, un artículo se puede volver a enviar desde cuarentena al departamento de envíos y recepciones. Por ejemplo, el inspector de cuarentena es posible que no sepa dónde almacenar el artículo en el inventario. En este caso, es necesario actualizar el albarán para hacer el registro correctamente y actuar sobre el código de disposición que se especifica debido a la cuarentena. Se puede enviar la confirmación de recepción al cliente cuando se registra la línea de devolución. El informe **Confirmación de devolución** es similar al documento de pedido de devolución. El informe **Confirmación de devolución** no se registra en el diario ni de otro modo en el sistema, y no es un paso obligatorio en el proceso del pedido de devolución.
+Si los productos devueltos se envían para inspección en el almacén de cuarentena, cualquier procesamiento adicional se completa en una orden de cuarentena. Las órdenes de cuarentena se crean para cada línea de entrada que se envía a cuarentena. El código de disposición indica el resultado del proceso de inspección. 
+
+Puede dividir un pedido de cuarentena, igual que puede dividir el diario de entrada. Si divide el pedido de cuarentena, puede producirse una división consecuente de la línea de devolución. Después de que se especifica el código de disposición, complete el pedido de cuarentena la función **Finalizar** o la función **Notificar como terminado**. Si selecciona **Notificar como finalizado**, se crea una nueva entrada en el almacén designado. A continuación, puede procesar esta llegada mediante la página **Visión general de las entradas**. 
+
+Si la entras se origina desde un pedido de cuarentena, no podrá cambiar el código de disposición que se asigna durante la inspección. Si completa el orden de cuarentena mediante la función **Finalizar**, el lote se registra automáticamente. En ocasiones, un artículo se puede volver a enviar desde cuarentena al departamento de envíos y recepciones. Por ejemplo, el inspector de cuarentena es posible que no sepa dónde almacenar el artículo en el inventario. En este caso, es necesario actualizar el albarán para hacer el registro correctamente y actuar sobre el código de disposición que se especifica debido a la cuarentena. 
+
+Se puede enviar la confirmación de recepción al cliente cuando se registra la línea de devolución. El informe **Confirmación de devolución** es similar al documento de pedido de devolución. El informe **Confirmación de devolución** no se registra en el diario ni de otro modo en el sistema, y no es un paso obligatorio en el proceso del pedido de devolución.
 
 ## <a name="replace-a-product"></a>Sustituir un producto
 Existen dos métodos para gestionar la sustitución del producto:
@@ -223,7 +234,9 @@ Si envía un artículo de sustitución al cliente y utiliza la acción de dispos
 
 ![Proceso de sustitución cuando se usa un código de disposición](./media/SalesReturn05.png)
 
-El artículo de sustitución se entregará mediante un pedido de ventas independiente, el pedido de ventas de sustitución. Se crea este pedido de ventas cuando se genera el albarán para el pedido de devolución. El encabezado del pedido utiliza información del cliente a la que se hace referencia en el encabezado del pedido de devolución. La información de línea se obtiene de la información que se especifica en la página **Artículo de sustitución**. La página **Artículo de sustitución** se debe completar para las líneas con acciones de disposición que comienzan por la palabra “sustitución". Sin embargo, ni la cantidad ni la identidad del artículo de sustitución se valida o limita. Este comportamiento permite casos en los que el cliente desea recibir el mismo artículo, pero en una configuración o tamaño diferentes y también los casos en los que los clientes desean un artículo completamente diferente. De forma predeterminada, los artículos idénticos se especifican en la página **Artículo de sustitución**. Sin embargo, puede seleccionar un artículo diferente, siempre que la función se haya configurado. **Nota:** Puede editar y eliminar el pedido de ventas de sustitución después de que se haya creado.
+El artículo de sustitución se entregará mediante un pedido de ventas independiente, el pedido de ventas de sustitución. Se crea este pedido de ventas cuando se genera el albarán para el pedido de devolución. El encabezado del pedido utiliza información del cliente a la que se hace referencia en el encabezado del pedido de devolución. La información de línea se obtiene de la información que se especifica en la página **Artículo de sustitución**. La página **Artículo de sustitución** se debe completar para las líneas con acciones de disposición que comienzan por la palabra “sustitución". Sin embargo, ni la cantidad ni la identidad del artículo de sustitución se valida o limita. Este comportamiento permite casos en los que el cliente desea recibir el mismo artículo, pero en una configuración o tamaño diferentes y también los casos en los que los clientes desean un artículo completamente diferente. De forma predeterminada, los artículos idénticos se especifican en la página **Artículo de sustitución**. Sin embargo, puede seleccionar un artículo diferente, siempre que la función se haya configurado. 
+
+>[Nota] Puede editar y eliminar el pedido de ventas de sustitución después de que se haya creado.
 
 ## <a name="generate-a-packing-slip"></a>Generar un albarán
 Antes de recibir los artículos devueltos en el inventario, es preciso que actualice el albarán para el pedido al que pertenecen los artículos. Del mismo modo que el proceso de actualización de facturas es la actualización de la transacción financiera, el proceso de actualización de albaranes es la actualización física del registro de inventario. es decir, este proceso envía los cambios al inventario. En el caso de las devoluciones, los pasos que se asignan a la acción de disposición se implementan durante la actualización del albarán. Cuando se genera el albarán, se producen los eventos siguientes:
@@ -233,14 +246,19 @@ Antes de recibir los artículos devueltos en el inventario, es preciso que actua
 -   Los artículos que se han marcado con la acción de disposición **Devolver al cliente** se reciben y se entregan al cliente. Estos artículos no tienen efecto neto en el inventario.
 -   Se ha creado el reemplazo de pedido de ventas. Este pedido de ventas se basa en la información de la página **Artículo de sustitución**.
 
-Puede generar el albarán solo para las líneas de las que tengan el estado de devolución **Registrado** y solo para toda la cantidad en la línea de devolución. Si varias líneas del pedido de devolución tienen el estado **Registrado**, puede generar el albarán para un subconjunto de las líneas eliminando las otras líneas de la página **Registrar albarán**. Las devoluciones parciales se definen en términos de líneas de pedidos de devolución, no de envíos de pedidos de devolución. Por lo tanto, esto significa que si recibe la cantidad completa que se indica en una línea del pedido de devolución pero no recibe ninguna cantidad de las demás líneas del pedido de devolución, ésta no es una entrega parcial. Sin embargo, si en una línea del pedido de devolución se solicitan 10 unidades de un artículo que se va a devolver, pero se reciben sólo cuatro unidades, la entrega es una entrega parcial. Si no llegan todos los artículos de la devolución que se esperaban, puede apartar el envío y esperar a que llegue el resto de la cantidad a devolver. Como alternativa, puede registrar la cantidad parcial. Como parte del proceso de registro de albaranes, puede asociar el número de referencia del albarán de los documentos de envío del cliente también a las líneas de pedido. Esta asociación es opcional y tiene una finalidad informativa. No crea ninguna actualización transaccional. Por lo general, puede omitir el proceso de albarán y cambiar directamente a la facturación. En este caso, los pasos que se habrá efectuado durante la generación del albarán se completan durante la facturación.
+Puede generar el albarán solo para las líneas de las que tengan el estado de devolución **Registrado** y solo para toda la cantidad en la línea de devolución. Si varias líneas del pedido de devolución tienen el estado **Registrado**, puede generar el albarán para un subconjunto de las líneas eliminando las otras líneas de la página **Registrar albarán**. 
+
+Las devoluciones parciales se definen en términos de líneas de pedidos de devolución, no de envíos de pedidos de devolución. Por lo tanto, esto significa que si recibe la cantidad completa que se indica en una línea del pedido de devolución pero no recibe ninguna cantidad de las demás líneas del pedido de devolución, ésta no es una entrega parcial. Sin embargo, si en una línea del pedido de devolución se solicitan 10 unidades de un artículo que se va a devolver, pero se reciben sólo cuatro unidades, la entrega es una entrega parcial. Si no llegan todos los artículos de la devolución que se esperaban, puede apartar el envío y esperar a que llegue el resto de la cantidad a devolver. Como alternativa, puede registrar la cantidad parcial. Como parte del proceso de registro de albaranes, puede asociar el número de referencia del albarán de los documentos de envío del cliente también a las líneas de pedido. Esta asociación es opcional y tiene una finalidad informativa. No crea ninguna actualización transaccional. 
+
+Por lo general, puede omitir el proceso de albarán y cambiar directamente a la facturación. En este caso, los pasos que se habrá efectuado durante la generación del albarán se completan durante la facturación.
 
 ## <a name="generate-an-invoice"></a>Generar factura
 Aunque la página **Pedido de devolución** contenga la información y las acciones que se requieren para gestionar los aspectos logísticos especiales del pedido de devolución, debe usar la página **Pedido de ventas** para completar el proceso de facturación. Su organización podrá después facturar pedidos de devolución y pedidos de ventas a la vez y la misma persona puede completar el proceso de facturación, según convenga. Para ver el pedido de devolución de la página **Pedido de ventas**, haga clic en el vínculo para que el número de pedido de venta abra el pedido de ventas asociado. También puede encontrar el pedido de devolución en la página **Todos los pedidos de ventas**. Los pedidos de devolución son los pedidos de ventas que tienen un tipo de pedido de **Pedido devuelto**.
 
 ### <a name="credit-correction"></a>Corrección de crédito
 
-Como parte del proceso de facturación, compruebe los gastos varios son correctos. Para hacer que registros contables pasen a ser correcciones (Storno), piense en usar la opción **Corrección del crédito** en otra ficha **Otros** de la página **Registrando factura** al registrar la factura o la nota de abono. **Nota:** De forma predeterminada, la opción **Corrección de crédito** se activa la opción **Nota de abono como corrección** en la página **Parámetros de clientes** se ha habilitado. Sin embargo, se recomienda no registrar devoluciones con Storno.
+Como parte del proceso de facturación, compruebe los gastos varios son correctos. Para hacer que registros contables pasen a ser correcciones (Storno), piense en usar la opción **Corrección del crédito** en otra ficha **Otros** de la página **Registrando factura** al registrar la factura o la nota de abono. 
+>[Nota] De forma predeterminada, la opción **Corrección de crédito** se activa si la opción **Nota de abono como corrección** en la página **Parámetros de clientes** se ha habilitado. Sin embargo, se recomienda no registrar devoluciones con Storno.
 
 ## <a name="create-intercompany-return-orders"></a>Crear pedidos de devolución de empresas vinculadas
 Los pedidos de devolución se pueden completar entre dos empresas de la organización. Se admiten los siguientes escenarios:
@@ -294,7 +312,7 @@ El pedido de devolución no hace referencia una factura de cliente. Se abona el 
 
 ![Pedido de devolución no hace referencia a una factura del cliente](./media/SalesReturn09.png)  
 
-**Nota:** el precio del artículo maestro se usa como el valor predeterminado para el parámetro **Precio de coste de la devolución**. El precio predeterminado difiere del precio de coste en el momento de la emisión de inventario. Por lo tanto, la implicación que se ha incurrido en una pérdida de 3. Además, el pedido de devolución no incluye el descuento que se ha concedido al cliente en el pedido de ventas. Por lo tanto, aparece un crédito excesivo.
+>[Nota] el precio del artículo maestro se usa como el valor predeterminado para el parámetro **Precio de coste** de la devolución. El precio predeterminado difiere del precio de coste en el momento de la emisión de inventario. Por lo tanto, la implicación que se ha incurrido en una pérdida de 3. Además, el pedido de devolución no incluye el descuento que se ha concedido al cliente en el pedido de ventas. Por lo tanto, aparece un crédito excesivo.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>Ejemplo 2: La corrección de crédito se selecciona para el pedido de devolución
 
@@ -302,7 +320,7 @@ El ejemplo 2 es lo mismo que el ejemplo 1, se selecciona el parámetro **Correcc
 
 ![Pedido de devolución donde se selecciona la corrección del crédito ](./media/SalesReturn10.png)  
 
-**Nota:** Los registros contables se especifican como correcciones negativas.
+>[Nota] Los registros contables se especifican como correcciones negativas.
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>Ejemplo 3: La línea de pedido de devolución se crea mediante la función Buscar pedido de ventas
 
@@ -310,7 +328,7 @@ En este ejemplo, la línea de pedido de devolución se crea mediante la función
 
 ![Línea de pedido de devolución que se crea mediante Buscar pedido de ventas ](./media/SalesReturn11.png)  
 
-**Nota:** **Descuento** y **Precio de coste de la devolución** se han configurado correctamente. Por lo tanto, se produce una inversión exacta de la factura de cliente.
+>[Nota] **Descuento** y **Precio de coste de la devolución** se han configurado correctamente. Por lo tanto, se produce una inversión exacta de la factura de cliente.
 
 
 

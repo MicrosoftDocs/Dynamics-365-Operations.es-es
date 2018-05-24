@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c0942b66859da3659be49b19986bfd146ac43130
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1449d44149f328f780f02e798c5200595557474
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="connect-the-help-system"></a>Conexión del sistema de ayuda
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En este tema se describen los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations. Ofrece una visión general de cómo conectar estos componentes y un resumen de cómo crear una ayuda personalizada. 
 
@@ -72,7 +72,7 @@ Puede crear ayuda personalizada para su implementación de Finance and Operation
 
 Para socios, si promociona una biblioteca para que sea una biblioteca corporativa, e incluirla en una solución, esta estará disponible para sus clientes. También puede realizar una copia de la biblioteca global unificada APQC y, a continuación abrir su copia, abrir grabaciones de tareas desde allí, modificarlas y guardar las grabaciones con sus cambios. Para obtener más información, consulte el tema [Cómo crear una grabación de tareas para usarla como documentación o formación](../../dev-itpro/user-interface/task-recorder.md).
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Visión general de la ayuda](help-overview.md)

@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 88570a8dc9da6f6a2b4d3a9499e1ea406f681451
-ms.openlocfilehash: 4608f43a3db9308881d4737e49df949190e3ede2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18ae41c3c1b19edc2d56a7e3480890c8aea28054
 ms.contentlocale: es-es
-ms.lasthandoff: 04/14/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Definiciones de columna en los informes financieros
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo proporciona información acerca de las definiciones de columnas. Una definición de columna es un componente de informe, o bloque de creación, que define el contenido de las columnas de un informe. Como definiciones de filas, las definiciones de columna básicas se pueden usar en varios informes.
 
@@ -583,7 +583,7 @@ Puede crear una columna que muestre todos los valores en una columna especificad
 
 Puede dividir el importe en una columna por un número de períodos específico. Por ejemplo, la fórmula **B/Períodos** divide el valor de la columna B por el número de períodos en la columna B. Si el cálculo abarca varias columnas, especifique el número de períodos para usar en el cálculo. Por ejemplo, la fórmula **(B+C)/Períodos** suma los importes en la columna B y la columna C, y después divide el resultado por el valor de período.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Definiciones de filas en informes financieros](row-definitions-financial-reporting.md)

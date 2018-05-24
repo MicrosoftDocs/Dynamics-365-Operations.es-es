@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75508af6d6f746b56fc3df3b6b0d730f429161c5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18920dd3490b69e9668e2d023c5ca1cc094c8126
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quality-management-processes"></a>Procesos de gestión de calidad
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo proporciona información acerca del proceso de gestión de calidad para los productos no conformes. Describe cómo puede usar la funcionalidad de control de calidad, cómo definir y mantener disconformidades y cómo administrar las correcciones.
 
@@ -88,7 +88,7 @@ La página **Correcciones** permite crear una lista de casos de disconformidad q
 
 Conviene definir un tipo de documento exclusivo para las correcciones mediante la página **Tipo de documento**. Después podrá usar la página **Configuración del informe** para definir si los comentarios para este tipo de documento se deben imprimir en el informe de corrección. El informe de corrección impreso muestra información acerca del caso de disconformidad y las notas relacionadas. El informe también incluye información sobre la corrección, como el tipo de diagnóstico y las notas de corrección relacionadas.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Habilitación de administración de calidad](enable-quality-management.md)

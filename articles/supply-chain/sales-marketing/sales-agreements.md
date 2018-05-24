@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 21e9c53f39b0f4def0052bf7f04c77279bfc610b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4db47f445fe820e65389799ddcb6ea4a99949178
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-agreements"></a>Acuerdos de venta
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema proporciona información sobre los acuerdos de ventas. Un acuerdo de venta es un contrato que compromete al cliente a comprar productos en una cantidad específica o por un importe determinado durante un período de tiempo, a cambio de precios especiales y descuentos.
 
@@ -38,7 +38,7 @@ El período de validez de un acuerdo de venta se define en los campos **Fecha de
 
 Puede crear un pedido de ventas directamente desde un acuerdo de venta mediante la acción **Pedido parcial**. Como alternativa, puede seleccionar un acuerdo de venta en vigor cuando está tomando pedidos (consulte la sección “Aplicación de acuerdos de venta en el proceso de pedidos” de este artículo).  
 
-**Nota:** En versiones anteriores se hace referencia a los acuerdos de ventas, como pedidos marco de ventas.
+> [Nota] En versiones anteriores se hace referencia a los acuerdos de ventas, como pedidos marco de ventas.
 
 ## <a name="commitment-types"></a>Tipos de compromiso
 Cada línea de un acuerdo de venta expresa un compromiso para vender algo. Normalmente hay dos categorías de compromiso:

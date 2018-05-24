@@ -20,16 +20,16 @@ ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 4026fa937ddf88f006cdcd13a8eda10c326ada62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 95e7f5179ac88c0cd6b2336a914c2c527d37d57f
 ms.contentlocale: es-es
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="routes-and-operations"></a>Rutas y operaciones.
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema proporciona información acerca de las rutas y las operaciones. Una ruta define el proceso para producir un producto o una variante del producto. Describe cada paso (operación) en el proceso de producción y el orden en que estos pasos se deben realizar. Para cada etapa, la ruta también define los recursos de operaciones necesarios, el tiempo de configuración necesaria y el tiempo de ejecución, y cómo el coste se debe calcular.
 
@@ -230,7 +230,7 @@ Si no especifica un recurso de operaciones o un grupo de recursos como parte de 
 -   **Lote de recursos:** esta opción es básicamente la misma que la opción **Lote**. Sin embargo, el cálculo incluye el campo **Capacidad de lote** del recurso de operaciones. Por lo tanto, el tiempo depende de los recursos.
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Listas de materiales y fórmulas](bill-of-material-bom.md)

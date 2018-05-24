@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
+ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8a12627db93b131450015539bb92ea4780518ed3
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-process-overview"></a>Visión general del proceso de producción
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema ofrece una visión general de los procesos de producción. Describe las distintas etapas de pedidos de producción, de pedidos de lote y de kanbans, desde la creación de pedidos al cierre del período financiero. 
 
@@ -78,7 +78,7 @@ Se pueden dar los siguientes pasos en el ciclo de vida de producción para todos
 12. **Cierre de período**: algunos principios de contabilidad de costes, como media periódica, costes de contabilización previa, FIFO o LIFO, requieren actividades periódicas para cerrar el inventario o el período financiero. Normalmente, el sistema intenta informar de todo el material y los recurso consumidos, y también las correcciones del inventario y los residuos, antes de cerrar los períodos. Estos informes se realizan normalmente mediante los diarios de movimientos de inventario o los diarios de ajuste. El objetivo es evaluar el rendimiento económico de unidades operativas por período. En algunos casos, cuando se usan pedidos de producción duraderos que abarcan los períodos de informes financieros, los diarios de producción se usan para notificar sobre el progreso de producción y el consumo de recursos para el final del período.
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Comentarios de producción](production-feedback.md)

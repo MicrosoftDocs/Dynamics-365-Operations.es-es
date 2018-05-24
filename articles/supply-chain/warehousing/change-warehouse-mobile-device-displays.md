@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b16f4ea27f406f3d5d5957670bd32a73d2d55529
-ms.openlocfilehash: bb616f8102c67db3f8c3e872101d61657b6b64d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
 ms.contentlocale: es-es
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-mobile-device-display-settings"></a>Configuración de visualización del dispositivo móvil del almacén
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo describe cómo configurar el aspecto de una visualización del dispositivo móvil y cómo asignar teclas de método abreviado a controles, como botones. 
 
@@ -97,7 +97,7 @@ Cada subexpression requiere de uno a dos dígitos para el día y el mes, y de un
 
 Puede especificar más de una expresión en el mismo archivo. Cada expresión debe estar en una línea independiente. La primera expresión que coincida se usa para analizar la fecha.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Configuración de dispositivos móviles del trabajo de almacén](configure-mobile-devices-warehouse.md)

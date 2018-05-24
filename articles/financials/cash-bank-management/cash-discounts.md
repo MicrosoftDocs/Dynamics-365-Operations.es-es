@@ -19,25 +19,24 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9960af8c4961a42e7e829077da40bcbbf3bc71c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5ccf41d1184280d3c4a000db13847733fd2cf4d2
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cash-discounts"></a>Descuentos por pronto pago
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Los descuentos por pronto pago se configuran y se comparten para Proveedores y Clientes.  El descuento por pronto pago disponible se puede definir en la factura de cliente o la factura de proveedor, y se tomará si la factura se paga dentro de la fecha de descuento por pronto pago. 
 
-<a name="cash-discounts"></a>Descuentos por pronto pago
---------------
+## <a name="cash-discounts"></a>Descuentos por pronto pago
 
 Los descuentos por pronto pago para clientes o proveedores se pueden crear en la página Descuentos por pronto pago. También puede definir, mediante el campo Código de descuento siguiente, una serie de descuentos por pronto pago que se sucederán uno tras otro cuando venzan las fechas de descuento por pronto pago anteriores. Para obtener más información, consulte el apartado "Ejemplo: serie de descuentos por pronto pago" más adelante en este tema. Si la factura, la transacción de crédito (ya sea un pago o una nota de abono) o ambas se introducen en una divisa diferente a la divisa de contabilidad de la entidad jurídica, el descuento por pronto pago se calcula mediante el tipo de cambio basado en la fecha del pago o la nota de abono. Si la factura y el documento de crédito se especifican en entidades jurídicas diferentes y las divisas de contabilidad de dichas entidades jurídicas son diferentes, el tipo de cambio se toma de la entidad jurídica de la factura, a partir de la fecha del documento de crédito. Para obtener más información, consulte el apartado "Ejemplo: tipos de cambio para los descuentos por pronto pago" más adelante en este tema.
-Orden predeterminado de la cuenta principal del descuento por pronto pago
-----------------------------------------------
+
+## <a name="defaulting-order-of-cash-discount-main-account"></a>Orden predeterminado de la cuenta principal del descuento por pronto pago
 
 Si una factura se liquida a tiempo para obtener un descuento por pronto pago, el descuento por pronto pago se registra automáticamente en una cuenta principal de descuento para la siguiente prioridad predeterminada:
 1.  La cuenta principal especificada en el campo Cuenta alternativa de descuento por pronto pago en la página Liquidar transacciones abiertas del cliente o la página Liquidar transacciones abiertas del proveedor.
@@ -65,15 +64,7 @@ La divisa de contabilidad de su entidad jurídica es el euro y se especifican lo
 
 El 15 de febrero se registra una factura de 1000 dólares con términos de descuento por pronto pago de 20D2%. El importe en la divisa de contabilidad de la factura es de 1100 euros. Se liquida un pago de 980 dólares con la factura el día 1 de marzo. El importe del descuento por pronto pago es de 20 dólares. El importe en la divisa de contabilidad del pago es de 784 euros. El importe en la divisa de contabilidad del descuento por pronto pago se calcula mediante el tipo de cambio del 1 de marzo: 20 \* 80 / 100 = 16 EUR.
 
-| **Nota**                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Si está seleccionada la opción Calcular descuento por pronto pago para pagos parciales en la página Parámetros de clientes o Parámetros de proveedores, se usa el tipo de cambio que esté en vigor en la fecha de cada pago parcial. |
-
- 
-=
-
- 
-
-
+> [!NOTE]
+> Si está seleccionada la opción Calcular descuento por pronto pago para pagos parciales en la página Parámetros de clientes o Parámetros de proveedores, se usa el tipo de cambio que esté en vigor en la fecha de cada pago parcial. 
 
 

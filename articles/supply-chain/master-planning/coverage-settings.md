@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 591b1cd739bb3be61299f33f180ca7c264d21a35
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 858328ec60e0ffa5ca46a98b365fb0fc599ae1f0
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="coverage-settings"></a>Configuración de cobertura
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 La programación maestra utiliza la configuración de cobertura para calcular los requisitos de artículos. 
 
@@ -45,11 +45,11 @@ Puede especificar la configuración de cobertura de varios modos:
 
 <!-- -->
 
-- Especifique la configuración de cobertura para un grupo de dimensiones. Haga clic en <strong>Gestión de información de productos &gt; Común &gt; Productos emitidos</strong>. En la página <strong>Detalles de producto emitido **, en la ficha **General</strong>, en el grupo <strong>Administración</strong>, haga clic en el vínculo <strong>Grupo de dimensiones de almacenamiento</strong>. En la página <strong>Grupo de dimensiones de almacenamiento</strong>, seleccione el campo <strong>Plan de cobertura por dimensión</strong> para crear la configuración de cobertura para una dimensión en el grupo de dimensiones de almacenamiento. Todas las dimensiones de producto, como configuración, color, tamaño, estilo, deben tener el campo <strong>Plan de cobertura por dimensión</strong> seleccionado.
+- Especifique la configuración de cobertura para un grupo de dimensiones. Haga clic en **Gestión de información de productos &gt; Común &gt; Productos emitidos**. En la página **Detalles de producto emitido**, en la ficha **General**, en el grupo **Administración**, haga clic en el vínculo **Grupo de dimensiones de almacenamiento**. En la página **Grupo de dimensiones de almacenamiento**, seleccione el campo **Plan de cobertura por dimensión** para crear la configuración de cobertura para una dimensión en el grupo de dimensiones de almacenamiento. Todas las dimensiones de producto, como configuración, color, tamaño, estilo, deben tener el campo **Plan de cobertura por dimensión** seleccionado.
 
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Planes maestros](master-plans.md)

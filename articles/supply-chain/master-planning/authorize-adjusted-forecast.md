@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5ce38e94ae4c7b28b4e182018add7c046f685e46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 64838fd20349c21bf3c0a3b9a3c68d4f19f60745
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="authorize-an-adjusted-forecast"></a>Autorizar previsión de la demanda ajustada
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 No todos los datos de previsión se deben autorizar inmediatamente. Este artículo se explica cómo puede especificar el período para el que una previsión está autorizada. También explica cómo puede autorizar la previsión para empresas y modelos de previsión específicos.
 
@@ -43,7 +43,7 @@ Puede seleccionar las empresas y los modelos de previsión para autorizar la pro
 
 Es muy importante que entienda cómo funciona la casilla **Guardar los ajustes manuales realizados en la previsión de la demanda de la línea base**. Si ha realizado ajustes manuales a la previsión estadística de línea base, los valores ajustados están autorizados para su uso, incluso si esta casilla está desactivada. Sin embargo, los cambios se descartan después de la autorización. Por lo tanto, la próxima vez que se genera una previsión, esa previsión solo es una previsión estadística y no tiene invalidación manual, incluso si selecciona **Transferir ajustes manuales a la previsión de la demanda**. Por lo tanto, puede considerar la casilla **Guardar los ajustes manuales realizados en la previsión de la demanda de la línea base** un mecanismo que le permite conservar o descartar todos los cambios manuales.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Realización de ajustes manuales realizados en la previsión de línea base](manual-adjustments-baseline-forecast.md)

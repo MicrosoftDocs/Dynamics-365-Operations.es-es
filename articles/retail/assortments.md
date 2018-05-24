@@ -3,27 +3,28 @@ title: "Administración de surtidos."
 description: "En este tema se explican los conceptos básicos de administración de surtidos en Microsoft Dynamics 365 for Retail y se proporcionan consideraciones sobre implementaciones para el proyecto."
 author: jblucher
 manager: AnnBe
-ms.date: 3/12/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.translationtype: HT
-ms.sourcegitcommit: 44b0c4e39ac7410d27ce531c898bb8c423af334a
-ms.openlocfilehash: 303f86d6a57e039cb51700744697949845239b10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
 ms.contentlocale: es-es
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="assortment-management"></a>Administración de surtidos.
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Información general
 Microsoft Dynamics 365 for Retail proporciona *surtidos* que le permiten gestionar la disponibilidad de productos mediante canales. Los surtidos determinan qué productos están disponibles en tiendas específicas y durante un período concreto.
@@ -35,25 +36,25 @@ La combinación general de productos de un canal viene determinada por surtidos 
 ### <a name="basic-assortment-setup"></a>Configuración básica de surtido
 En el siguiente ejemplo, se configura un surtido único para cada tienda. En este caso, solo el producto 1 está disponible en la tienda 1, y solo el producto 2 está disponible en la tienda 2.
 
-![Cada producto está disponible en una tienda](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure1.png?raw=true "Cada producto está disponible en una tienda")
+![Cada producto está disponible en una tienda](./media/Managing-assortments-figure1.png)
 
 Para hace que el producto 2 esté disponible en la tienda 1, puede agregar el producto al surtido 1.
 
-![El producto 2 se agregó al surtido 1](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure2.png?raw=true "El producto 2 se agregó al surtido 1")
+![Producto 2 agregado productos a surtido 1](./media/Managing-assortments-figure2.png)
 
 Como alternativa, puede agregar la tienda 1 al surtido 2.
 
-![La tienda 1 se agregó al surtido 2](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure3.png?raw=true "La tienda 1 se agregó al surtido 2")
+![Tienda 1 agregada a surtido 2](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Jerarquías organizativas
 En situaciones en las que varios canales comparten los mismos surtidos de productos, puede configurar los surtidos mediante la jerarquía organizativa de surtidos de Retail. Cuando se agregan nodos de esta jerarquía, se incluirán todos los canales de ese nodo y sus nodos secundarios.
 
-![Jerarquía organizativa](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure4.png?raw=true "Jerarquía organizativa")
+![Jerarquía organizativa](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Categorías de productos
 De forma similar, en el lado de los productos, puede incluir grupos de productos mediante jerarquías de categorías de productos. Puede configurar surtidos incluyendo uno o más nodos de jerarquía de categoría. En este caso, el surtido incluirá todos los productos de ese nodo de categorías y sus nodos secundarios.
 
-![Categorías de productos](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure5.png?raw=true "Categorías de productos")
+![Categorías de productos](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Productos o categorías excluidos
 Además de incluir productos y categorías en surtidos, puede usar la opción Excluir para definir productos o categorías específicos que se deben excluir de los surtidos. En el siguiente ejemplo, desea incluir todos los productos en una categoría específica, excepto el producto 2. En este caso, no tiene que definir el surtido producto por producto o crear nodos de categorías adicionales. En su lugar, puede incluir solo la categoría pero excluir el producto.
@@ -61,7 +62,7 @@ Además de incluir productos y categorías en surtidos, puede usar la opción Ex
 > [!NOTE]
 > Si un producto se incluye y excluye en uno o más surtidos por definición, el producto siempre se considerará como excluido.
 
-![Producto excluido](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure6.png?raw=true "Producto excluido")
+![Producto excluido](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Productos globales y emitidos
 Los surtidos se definen a nivel global y pueden contener canales de varias entidades jurídicas. Los productos y las categorías que se incluyen en surtidos también se comparten entre entidades jurídicas. Sin embargo, un producto debe liberarse antes de que se pueda vender, pedir, contar o recibir en el canal (por ejemplo, en el punto de venta \[PDV\]). Por lo tanto, aunque dos tiendas en distintas entidades jurídicas pueden compartir un surtido que contenga los mismos productos, los productos están disponibles solo si se han liberado a dichas entidades jurídicas.

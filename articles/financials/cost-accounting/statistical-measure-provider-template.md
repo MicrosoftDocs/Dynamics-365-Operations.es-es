@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Miembros de dimensiones estadísticas y plantillas de proveedor de medidas estadísticas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Una dimensión estadística y sus miembros se usan para registrar y controlar entradas no monetarias en la contabilidad de costes. Los miembros de dimensión estadística se pueden utilizar con dos propósitos:
 
@@ -344,7 +344,7 @@ Si la base de asignación del miembro de dimensión predefinida de electricidad 
 | CC002       | FI | 4,100.00  | (4100 ÷ 21 550) × Importe  |
 | CC003       | TI | 15.000,00 | (15 000 ÷ 21 550) × Importe |
 
-## <a name="see-also"></a>Consulte también
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Bases de asignación](allocation-bases.md)
 

@@ -1,6 +1,6 @@
 ---
 title: "Creación de pagos de proveedor mediante una propuesta de pago"
-description: "Este tema proporciona una visión general de las opciones de propuesta de pago e incluye algunos ejemplos que muestran cómo funcionan las propuestas de pago. Las propuestas de pago se usan a menudo para crear pagos de proveedor, ya que se puede usar la consulta para seleccionar rápidamente facturas de proveedor para realizar el pago, en función de los criterios como la fecha de vencimiento y el descuento por pronto pago."
+description: "Este tema proporciona una visión general de las opciones de propuesta de pago e incluye algunos ejemplos que muestran cómo funcionan las propuestas de pago."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1199329f7d669a291249e22e393842673a8907c3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Creación de pagos de proveedor mediante una propuesta de pago
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema proporciona una visión general de las opciones de propuesta de pago e incluye algunos ejemplos que muestran cómo funcionan las propuestas de pago. Las propuestas de pago se usan a menudo para crear pagos de proveedor, ya que se puede usar la consulta para seleccionar rápidamente facturas de proveedor para realizar el pago, en función de los criterios como la fecha de vencimiento y el descuento por pronto pago. 
 
@@ -47,7 +47,7 @@ La consulta de la propuesta de pago contiene diferentes fichas, cada una con var
 - **Comprobar saldo de proveedor**: si esta opción se establece en **Sí**, el sistema comprueba que un proveedor no tenga saldo de débito antes de pagar ninguna factura. Si un proveedor tiene un saldo de débito, no se creará ningún pago. Por ejemplo, el proveedor puede tener notas de abono o pagos registrados pero que no se han liquidado aún. En estos casos, no se debe pagar al proveedor. En su lugar, las notas de abono o los pagos se deben liquidar con las facturas pendientes.
 - **Eliminar los pagos negativos**: esta opción funciona de forma diferente en función de si los pagos se realizan para facturas individuales o para la suma de las facturas que cumplen los criterios de pago. Este comportamiento se define en la forma de pago.
 - **Pago para cada factura**: si la opción **Eliminar los pagos negativos** está establecida en **Sí**, y hay una factura y un pago sin liquidar para un proveedor, solo se selecciona la factura para su pago. El pago existente no se liquida con la factura. Si la opción **Eliminar los pagos negativos** está establecida en **No** y hay una factura y un pago sin liquidar, se seleccionan para su pago la factura y el pago. Se crea un pago para el pago y una devolución (pago negativo) para el pago.
-- <strong>Pago para la suma de facturas</strong>: si la opción <strong>Eliminar los pagos negativos</strong> está establecida en <strong>Sí</strong> y hay una factura y un pago sin liquidar para un proveedor, la factura y el pago sin liquidar se seleccionan para su pago, y los importes se agregan para producir el importe total de pago. La única excepción es cuando la suma resulta en una devolución. En este caso, no se selecciona ni la factura ni el pago. Si la opción <strong>Eliminar los pagos negativos **está definida en **No</strong> y hay una factura y un pago sin liquidar, la factura y el pago se seleccionan para su pago y los importes se agregan para producir el importe total del pago.
+- **Pago para la suma de facturas**: si la opción **Eliminar los pagos negativos** está establecida en **Sí** y hay una factura y un pago sin liquidar para un proveedor, la factura y el pago sin liquidar se seleccionan para su pago, y los importes se agregan para producir el importe total de pago. La única excepción es cuando la suma resulta en una devolución. En este caso, no se selecciona ni la factura ni el pago. Si la opción **Eliminar los pagos negativos** está definida en **No** y hay una factura y un pago sin liquidar, la factura y el pago se seleccionan para su pago, y los importes se agregan para producir el importe total de pago.
 - **Imprimir solo informe**: defina esta opción en **Sí** para ver los resultados de la propuesta de pago en un informe, pero sin crear ningún pago.
 - **Incluir facturas de proveedor de otras entidades jurídicas**: si su organización tiene un proceso centralizado para el pago y la propuesta de pago debe incluir facturas de otras entidades jurídicas incluidas en los criterios de búsqueda, establezca esta opción en **Sí**.
 - **Proponer pagos de proveedor independientes por entidad jurídica**: si esta opción está establecida en **Sí**, se crea un pago aparte para cada entidad jurídica por proveedor. El proveedor en el pago es el proveedor de la factura de cada entidad jurídica. Si la opción está definida en **No** y el mismo proveedor tiene facturas que pagar en varias entidades jurídicas, se crea un pago para el importe total de las facturas seleccionadas. El proveedor en el pago es el proveedor en la entidad jurídica actual. Si la cuenta de proveedor no existe en la entidad jurídica actual, se usa la cuenta de proveedor de la primera factura que se debe pagar.
@@ -115,7 +115,8 @@ El control de dimensión permite controlar la agrupación de líneas generadas p
 -   El campo de **Control de dimensión** se activa sin definir más las dimensiones. La propuesta de pago se creará sin tener en cuenta las dimensiones. La transacción creada no hereda ninguna dimensión de la entrada aplicada.
 -   El campo de **Control de dimensión** se activa y se habilitan más dimensiones. Ahora puede definir cómo se copiarán las dimensiones en el diario. Por ejemplo: • Active la casilla de verificación de **BusinessUnit** para crear una propuesta de pago por unidad de negocio para el método de pago, • Active la casilla de verificación de **CostCenter** para crear una propuesta de pago por centro de coste para el método de pago.
 
-**Nota:** Si selecciona más de una dimensión, en la tercera opción se creará una propuesta de pago para la combinación de dimensiones.
+> [[!NOTE]
+> Si selecciona más de una dimensión, en la tercera opción se creará una propuesta de pago para la combinación de dimensiones.
 
 #### <a name="bank-account-selection"></a>Selección de cuenta bancaria
 

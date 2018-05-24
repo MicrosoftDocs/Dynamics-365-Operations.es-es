@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a61e743898e3e65c0012a7aeb9837e55e9143d01
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8f78eb06930eab26d300fba6fd28333a5ce39cf8
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="175-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 175%
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 175%.
 
@@ -57,7 +57,7 @@ Si selecciona **Calendario** como año de depreciación, aparecen las siguientes
 
 ### <a name="fiscal"></a>Fiscal
 
-Si selecciona **Fiscal** en el campo **Año de depreciación**, la depreciación decreciente del 175% se calcula en base al ejercicio fiscal del calendario fiscal especificado para el libro o para el calendario fiscal seleccionado en la página **Libro mayor**. Los calendarios fiscales se configuran en la página **Calendarios fiscales**. Para obtener más información, consulte [Calendarios fiscales, ejercicios y períodos.](..\budgeting\fiscal-calendars-fiscal-years-periods.md).
+Si selecciona **Fiscal** en el campo **Año de depreciación**, la depreciación decreciente del 175% se calcula en base al ejercicio fiscal del calendario fiscal especificado para el libro o para el calendario fiscal seleccionado en la página **Libro mayor**. Los calendarios fiscales se configuran en la página **Calendarios fiscales**. Para obtener más información, consulte [Calendarios fiscales, ejercicios y períodos.](../budgeting/fiscal-calendars-fiscal-years-periods.md).
 
 Por ejemplo, para el ejercicio del 1 de julio al 30 de junio, el cálculo de la depreciación comienza el 1 de julio. El ejercicio no puede ser superior ni inferior a los 12 meses. La depreciación se ajusta automáticamente para cada período y la extensión del siguiente ejercicio se determina mediante la configuración de los períodos de la página **Calendarios fiscales**. 
 

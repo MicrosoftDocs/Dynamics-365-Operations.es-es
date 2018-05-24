@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5d379b034c996cb0eff20a44960ba1e2701af81a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 942693ed3d2d54c6e973e5d3f86454b195f0fdee
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-requisition-overview"></a>Visión general de solicitud de compra
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema describe el flujo de trabajo de solicitudes de compra y los diferentes estados que puede tener una solicitud de compra.
 
@@ -192,7 +192,7 @@ Para consolidar las líneas de solicitud de compra aprobadas, siga estos pasos:
 5.  Cree pedidos de compra para las líneas de solicitud consolidadas o para las líneas de solicitud de compra en una oportunidad de consolidación.
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Creación de un pedido para consumo (Guía de tareas)](tasks/create-requisition-consumption.md)

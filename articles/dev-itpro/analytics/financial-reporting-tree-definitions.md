@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 78dd1b5e0a19690ffefdb03de495061ef51f2e16
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ec1286f1f3fb75cefd40f3982ec62d5ed078299c
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definiciones de organigramas en informes financieros
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo proporciona información acerca de las definiciones de organigrama. Una definición de organigrama es un componente de informe, o bloque de creación, que ayuda a definir la estructura y jerarquía de la organización.
 
@@ -206,7 +206,7 @@ Los ejemplos siguientes muestran información que se puede usar en una definici�
 
 [![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
-# <a name="see-also"></a>Consulte también
+# <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
 

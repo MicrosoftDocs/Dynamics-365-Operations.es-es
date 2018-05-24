@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: faccf695642d236dbf74a324ccecaf91f62638be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c227664da360f6f8d54b49f15e1b7160aa142ba9
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="product-receipt-against-purchase-orders"></a>Recepción de producto frente a pedidos de compra
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Este artículo describe las distintas opciones para registrar productos como recibidos.
 
@@ -61,7 +61,7 @@ Una vez que se ha procesado la recepción de producto en el pedido de compra, el
 
 Puede tener acceso a esta página desde el grupo de acción **Recibo** de la página **Pedido de compra**. La información en los diarios incluye detalles acerca de las cantidades, las fechas y las dimensiones.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Visión general de pedidos de compra](purchase-order-overview.md)

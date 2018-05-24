@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fc7194e7f95a6a99587a6f7e8ab8a30957bbbd90
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d5c3e02bf5bc17db7232ccbb56e4dfbc062795b4
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="questionnaires"></a>Cuestionarios
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 En este tema se proporciona información general acerca de los cuestionarios, además de vínculos a información más detallada. Un cuestionario es un conjunto de preguntas que se utiliza para recopilar información con varios objetivos. Puede diseñar, crear, distribuir y completar cuestionarios y, a continuación, analizar los resultados. 
 
@@ -50,7 +50,7 @@ En la siguiente tabla se proporcionan vínculos a información sobre cómo usar 
 
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Diseñar cuestionarios](design-questionnaires.md)

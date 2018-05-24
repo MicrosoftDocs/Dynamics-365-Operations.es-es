@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 338e58522f9b9fba3ce22b22488affbab24b1315
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Cree planes de compensación variable
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 La compensación variable compone la paga irregular de un empleado, como bonificaciones o primas en acciones. Este artículo describe los componentes que se deben configurar para poder usar compensación variable e inscribir un empleado en un plan de compensación variable.
 
@@ -100,7 +100,7 @@ Puede usar la ficha **Anulaciones** para anular los valores específicos para el
 
 **Anulación de unidades organizativas** se usa para basar la prima de un empleado en el rendimiento de uno o más departamentos. El porcentaje que se asigna entre todos los departamentos debe ascender al 100 por ciento. El rendimiento individual del empleado también se considera. Esta configuración se usa solo si la opción **Salario variable por rendimiento** está seleccionada al ejecutar el proceso de compensación.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Planes de compensación](compensation-plans.md)

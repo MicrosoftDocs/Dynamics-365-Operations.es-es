@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b8e4f306d2ee20323229b478c93c1c7eeaba50be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 29a46eb2ec36fdc7e52b148efdadd4401bc8bca2
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Novedades o cambios en la versión de la aplicación Dynamics AX 7.0.1 (mayo de 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo describe las características que son nuevas o que se han cambiado en la versión de la aplicación Microsoft Dynamics AX 7.0.1. Esta versión se publicó en mayo de 2016 y tiene un número de compilación de 7.0.1265.23014.
 
@@ -77,7 +77,7 @@ Este artículo describe las características que son nuevas o que se han cambiad
 
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Novedades y cambios](whats-new-changed.md)

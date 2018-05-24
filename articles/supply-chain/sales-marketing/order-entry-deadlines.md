@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 31308e64d4871a4d09540df16fdcd02cc83bd0be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4f3905f364ea67eab226323fd3450ebed30e4735
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="order-entry-deadlines"></a>Fechas límite del pedido
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En este artículo se proporciona información acerca de los plazos de la entrada de pedidos. Una fecha límite de entrada de pedido es una hora límite que determina si se trata un pedido de cliente (y se completa) como si se hubiera recibido en el día actual o al día siguiente.
 
@@ -103,7 +103,7 @@ En la siguiente tabla, se muestra cómo se convierten a hora MST las fechas lím
 
 **Nota**: si el ajuste de horario de verano está en vigor, las fechas límite de entrada de pedidos se ajustan como corresponda.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Programaciones de entrega](delivery-schedules.md)

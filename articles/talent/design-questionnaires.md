@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 506c4db7cd37fd85b3e132e7900eafdc4385fa5a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cc25f4fde93df03145baedafb9c6b093659594d0
 ms.contentlocale: es-es
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="design-a-questionnaire"></a>Diseñar un cuestionario
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 En este tema se describe el proceso de creación de un cuestionario. El primer paso es diseñar el cuestionario. Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas. 
 
@@ -230,7 +230,7 @@ Una entidad jurídica ofrece tanto artículos como servicios a sus clientes. Com
 
 De forma alternativa, configure un cuestionario de manera que un encuestado seleccione la respuesta A para la pregunta 1; la pregunta 2 es la siguiente en la secuencia de preguntas. Sin embargo, si el encuestado selecciona la respuesta B para la pregunta 1, la pregunta 5 será la siguiente.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Uso de cuestionarios](questionnaires.md)

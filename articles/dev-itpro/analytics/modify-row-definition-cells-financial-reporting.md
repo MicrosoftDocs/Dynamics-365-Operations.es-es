@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 23b8e0b51f63ecabc704a2fc5b3ebafe657b52f6
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Modifique las celdas de definición de filas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En este artículo se describe la información que se requiere para cada celda de una definición de fila en un informe financiero y se explica cómo escribir esa información. 
 
@@ -107,7 +107,7 @@ La celda **Código de formato** ofrece una selección de opciones preformateadas
 |-------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |            (Ninguno)             |                                                    |                                                                                                                  Borra la celda <strong>Código del formato</strong>.                                                                                                                   |
 |              TOT              |                       Total                        |                                         Identifica una fila que usa operadores matemáticos en la columna <strong>Fórmulas, filas o unidades relacionadas</strong>. Los totales incluyen operadores simples, como <strong>+</strong> o <strong>-</strong>.                                         |
-|              CAL              |                    Cálculo                     | Identifica una fila que usa operadores matemáticos en la columna <strong>Fórmulas/Filas/Unidades relacionadas</strong>. Los cálculos contienen operadores complejos, como los informes <strong>+</strong>, <strong>-</strong>, <strong>\</strong<em>, **/</em><em> y **IF/THEN/ELSE</em>*. |
+|              CAL              |                    Cálculo                     | Identifica una fila que usa operadores matemáticos en la columna <strong>Fórmulas/Filas/Unidades relacionadas</strong>. Los cálculos contienen operadores complejos, como los informes <strong>+</strong>, <strong>-</strong>, <strong>\</strong><em>, **/</em><em> y **IF/THEN/ELSE</em>*. |
 |              DES              |                    Descripción                     |                                                                                                             Identificar una línea de encabezado o una línea en blanco en un informe.                                                                                                              |
 |          LFT RGT CEN          |                 Izquierda Derecha Centro                  |                                                                                 Alínea el texto de la descripción de la fila en la página del informe, independientemente de la colocación del texto en la definición de la columna.                                                                                 |
 |              CBR              |                  Cambiar la fila de base                   |                                                                                                         Identifica una fila que define la fila de base para los cálculos de la columna.                                                                                                         |
@@ -488,10 +488,10 @@ Un conjunto de valores de dimensión es un grupo con nombre de valores de dimens
 1.  En el Diseñador de informes, abra la definición de fila, columna u organigrama que desee modificar.
 2.  En el menú **Editar**, haga clic en **Administrar los conjuntos de valores de dimensión**.
 3.  En el cuadro de diálogo **Gestionar conjuntos de valores de dimensión**, en el campo **Dimensión**, seleccione el tipo de dimensión.
-4.  Seleccione el conjunto que desee eliminar y, a continuación, haga clic en **Eliminar**. Haga clic en **Sí** para eliminar permanentemente el conjunto de valores de dimensión.
+4.  Seleccione el grupo que se debe eliminar y haga clic en **Eliminar**. Haga clic en **Sí** para eliminar permanentemente el grupo de valores de dimensión.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
 

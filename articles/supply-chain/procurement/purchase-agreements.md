@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a47c631b265262f78e0fb3d956a98a7c9e9f5172
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e4414ead4d2c767ecdd3e631035034b01de55b27
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-agreements"></a>Acuerdos de compra
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo proporciona información acerca de los acuerdos de compra. Un acuerdo de compra es un contrato que compromete a una organización a comprar una cantidad o un importe específico mediante varios pedidos de compra en el tiempo. A cambio de este compromiso, el comprador recibe precios y descuentos especiales. 
 
@@ -91,7 +91,7 @@ Si se crea un pedido de compra de empresas vinculadas que usa el acuerdo de comp
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Dimensiones financieras sobre acuerdos de compra
 Puede copiar dimensiones financieras en encabezados de documentos o líneas individuales de un acuerdo de compra. Si modifica las dimensiones en el encabezado del acuerdo o en la línea del acuerdo, el cambio no afecta a ninguno de los pedidos liberados, sino que se reflejará en los pedidos nuevos.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Creación de un acuerdo de compra (Guía de tareas)](tasks/create-purchase-agreement.md)

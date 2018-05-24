@@ -1,6 +1,6 @@
 ---
 title: Permite buscar los productos y variantes de producto durante la entrada de pedidos
-description: "Utilice el campo <strong>Número de artículo </strong>para buscar los productos y las variantes del producto cuando cree una línea de pedido de ventas o de pedido de compras manualmente.  Esto le permite buscar rápidamente variantes de producto cuando solo dispone de la cadena de configuración o de una de las dimensiones del producto."
+description: "Utilice el campo **Número de artículo** para buscar los productos y las variantes del producto cuando cree una línea de pedido de ventas o de pedido de compras manualmente. Esto le permite buscar rápidamente variantes de producto cuando solo dispone de la cadena de configuración o de una de las dimensiones del producto."
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,20 +20,20 @@ ms.author: conradv
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2441f7cbf95512677f62eb862be99af90f3c4b17
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d6a45d89ba20994c06a77c646fa5099fa34b3b2e
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Permite buscar los productos y variantes de producto durante la entrada de pedidos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [Retail name](../includes/retail-name.md)]
+[!include [Retail name](../includes/retail-name.md)]
 
-Utilice el campo <strong>Número de artículo </strong>para buscar los productos y las variantes del producto cuando cree una línea de pedido de ventas o de pedido de compras manualmente.  Esto le permite buscar rápidamente variantes de producto cuando solo dispone de la cadena de configuración o de una de las dimensiones del producto.
+Utilice el campo **Número de artículo** para buscar los productos y las variantes del producto cuando cree una línea de pedido de ventas o de pedido de compras manualmente.  Esto le permite buscar rápidamente variantes de producto cuando solo dispone de la cadena de configuración o de una de las dimensiones del producto.
 
 A veces, tener demasiado de algo no es lo mejor, y eso se cumple especialmente si vende varios productos que son similares e intenta recordar los números de artículo o los nombres de búsqueda del producto para encontrar el producto correcto para un pedido de ventas. Puede utilizar el campo **Número de artículo** en una línea de pedido de ventas o una línea de pedido de compra como campo de búsqueda. Puede especificar cualquier parte de un nombre de producto, un número o de una dimensión y obtener una búsqueda que muestra todos los artículos que coinciden con la palabra de búsqueda.
 
@@ -47,7 +47,7 @@ Al buscar productos o variantes de producto, es importante comprender cómo encu
 
 ### <a name="examples"></a>Ejemplo
 
-Los siguientes ejemplos usan productos y variantes de producto para mostrar cómo se administra la búsqueda en distintas situaciones. **Requisito previo:** En **Ventas y marketing &gt; Configuración &gt; Buscar &gt; Parámetros de búsqueda** &gt; **Tipo de búsqueda**, seleccione la opción **Coincidencia total**.
+Los siguientes ejemplos usan productos y variantes de producto para mostrar cómo se administra la búsqueda en distintas situaciones. **Requisito previo:**  En **Ventas y marketing &gt; Configuración &gt; Buscar &gt; Parámetros de búsqueda &gt; Tipo de búsqueda**, seleccione la opción **Coincidencia total**.
 
 | Tipo de producto     | Nombre del producto    | Mostrar número de producto | código de artículo | Configuración |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -72,7 +72,7 @@ Algunos ejemplos de identificadores de producto y de la variante del producto y 
 
 Vaya a la página **Ventas y marketing &gt; Configuración &gt; Buscar &gt; Criterios de búsqueda**. La página **Criterios de búsqueda** le permite definir los criterios para el cliente, el cliente potencial y la búsqueda de producto. Asegúrese de filtrar la página mediante el uso de criterios de búsqueda del producto. Puede hacerlo cambiando a **Producto** en el menú de la página.  
 
-Para agregar el número de producto a los criterios de búsqueda, haga clic en <strong>Nuevo</strong> en el menú de la página. Esto añadirá un nuevo registro en la cuadrícula <strong>Criterios de búsqueda</strong>. Abra la búsqueda de la columna <strong>Nombre de campo</strong> y elija <strong>DisplayProductNumber</strong>. Para añadir la configuración del producto a los criterios de búsqueda, cree un nuevo registro en la <strong>**cuadrícula Criterios de búsqueda y elija** configId</strong> en la columna <strong>Nombre de campo</strong>. De la misma manera, cree un registro con <strong>Nombre de campo</strong> <strong>InventColorId</strong> para la dimensión de color, <strong>InventSizeId</strong> para la dimensión de tamaño y <strong>InventStyleId</strong> para la dimensión del estilo.
+Para agregar el número de producto a los criterios de búsqueda, haga clic en **Nuevo** en el menú de la página. Esto añadirá un nuevo registro en la cuadrícula **Criterios de búsqueda**. Abra la búsqueda de la columna **Nombre de campo** y elija **DisplayProductNumber**. Para añadir la configuración del producto a los criterios de búsqueda, cree un nuevo registro en la cuadrícula **Criterios de búsqueda** y elija **configId** en la columna **Nombre de campo**. De la misma manera, cree un registro con **Nombre de campo** **InventColorId** para la dimensión de color, **InventSizeId** para la dimensión de tamaño y **InventStyleId** para la dimensión del estilo.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>Paso 2: Rellene la tabla de la base de datos usada para la búsqueda de producto
 

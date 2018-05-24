@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1176ce1fcd406cf363969e60ae388a83d7df210f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2985e58bd308295e1f698c391f57fc3d116835bd
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="standard-cost-conversion-overview"></a>Visión general de conversión de costes estándares
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo proporciona una visión general del proceso para ayudarle a configurar y a ejecutar una conversión de coste estándar. Los pasos mostrados están pensados para completarse una vez se hayan completado los requisitos previos para una conversión de coste estándar. 
 
@@ -96,7 +96,7 @@ El informe **Informe de análisis de desviación** le permite analizar la desvia
 -   Analizar los movimientos de inventario con fecha anterior Utilice el informe **Valor de inventario** para ver movimientos de inventario con fecha anterior que se hayan introducido después de la conversión. Las fechas desde y hasta del informe deben corresponder con la fecha de inicio de la transición y la fecha de conversión menos un día. Los criterios de selección de informe deben reflejar los artículos convertidos. El informe muestra los movimientos de inventario que se realizaron al coste estándar durante el período de transición.
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Requisitos previos para la conversión de costes estándar](prerequisites-standard-cost-conversion.md)

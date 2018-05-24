@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9c2f8fd846181c404492ff32907a3396beb90685
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-configuration"></a>Configuración de almacén
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo explica cómo configurar un almacén. Incluye información acerca de cómo habilitar un diseño de almacén y procesos de almacén.
 
@@ -112,7 +112,7 @@ Como el nombre sugiere, las directivas de ubicación se usan para dirigir las tr
 
 Para facilitar y agilizar la definición de las acciones asociadas con cada línea de directiva de ubicación, use una de las estrategias predefinidas. Por ejemplo, puede usar la estrategia **Ubicación vacía sin trabajo entrante** para buscar las ubicaciones libres de un almacén, o puede usar la estrategia **Reserva de lote de FEFO** para el picking de ventas salientes.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Configurar ubicaciones en un almacén con WMS (Guía de tareas)](tasks/configure-locations-wms-enabled-warehouse.md)

@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 60dd33f296a37f0010a948c410738ce5486b780e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d4c966badd87b80e203f475cc632f5388ad1d8e5
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="consolidation-and-elimination-overview"></a>Visión general de consolidación y eliminación
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En este artículo se proporciona información general sobre el proceso de consolidación y eliminación. Incluye respuestas a algunas preguntas frecuentes.
 
@@ -88,7 +88,7 @@ La opción **Informes financieros** es la solución. Las jerarquías organizativ
 Puede consolidar los datos con la opción **Exportación de saldos de compañía** para exportar desde una instancia y, a continuación, usar la opción **Consolidar con importación** en la otra instancia.
 
 
-Para obtener más información, consulte [Revalorización de divisa en una empresa de consolidación](..\general-ledger\currency-revaluation-consolidation-company.md).
+Para obtener más información, consulte [Revalorización de divisa en una empresa de consolidación](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
 

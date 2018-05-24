@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4fbcc83123ce11a8f9208226a67a01e43b255bab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ea1386bc06c0e91a2d1f23dd05794ca6ff99106a
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="row-definitions-in-financial-report-designer"></a>Definiciones de filas en el diseñador de informes financieros
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Una definición de fila es un componente de informe, o bloque de creación, que especifica el contenido de cada fila de un informe financiero. Una definición de fila se puede combinar con las definiciones de columnas, definiciones de organigramas y definiciones de informes para crear un grupo de bloques de creación que puedan usar varias empresas.
 
@@ -172,7 +172,7 @@ Para facilitar ver las columnas en las que está trabajando en la definición de
 2.  Haga clic con el botón secundario en la columna minimizada que desee mostrar y, a continuación, haga clic en **No ocultar**.
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Informes financieros](financial-reporting-intro.md)

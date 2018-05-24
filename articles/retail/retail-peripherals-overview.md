@@ -19,16 +19,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ba9c828efc39d45a78500d30295e5d1d6c770c99
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 77f475b0937672af268d6da938d5b2a1c9f6448b
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-peripherals-overview"></a>Descripción general de los periféricos de venta al por menor
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 En este tema explica los conceptos relacionados con los periféricos para aplicaciones minoristas. Describe las distintas maneras en que se pueden conectar los periféricos al punto de venta (PDV) y los componentes responsables de gestionar la conexión con el PDV.
 
@@ -786,7 +786,7 @@ Los siguientes se periféricos se probaron mediante una estación de hardware II
     -   Terminal de pago 
 
     Si el periférico no pertenece a una de estas categorías, la estación de hardware no está diseñada para habilitar que el periférico se comparta entre varios dispositivos de PDV.
--   A veces, los controladores de dispositivos pueden hacer que Common Control Objects (CCO) dejen de funcionar correctamente. Si un dispositivo se ha instalado recientemente, pero no funciona correctamente u observa otros problemas, muchas veces se puede resolver el problema reinstalando los CCO. Para descargar CCO, visite <http://monroecs.com/oposccos_current.htm>.
+-   A veces, los controladores de dispositivos pueden hacer que Common Control Objects (CCO) dejen de funcionar correctamente. Si un dispositivo se ha instalado recientemente, pero no funciona correctamente u observa otros problemas, muchas veces se puede resolver el problema reinstalando los CCO. Para descargar los CCO, visite <http://monroecs.com/oposccos_current.htm>.
 -   Si realiza cambios de periféricos frecuentes durante las pruebas o la solución de problemas, puede que tenga que restablecer IIS en lugar de esperar a que la memoria caché se actualice. Para resetear IIS, siga estos pasos:
     1.  En el menú **Inicio**, escriba **CMD**.
     2.  En los resultados de la búsqueda, haga clic con el botón secundario en el **Símbolo del sistema** y haga clic en **Ejecutar como administrador**.
@@ -801,10 +801,10 @@ Los siguientes se periféricos se probaron mediante una estación de hardware II
     6.  Una vez que se haya cerrado los host de DLL, reinicie Modern POS.
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Simulador periférico para aplicaciones minoristas](dev-itpro/retail-peripheral-simulator.md)
+[Simulador periférico de Retail](dev-itpro/retail-peripheral-simulator.md)
 
 
 

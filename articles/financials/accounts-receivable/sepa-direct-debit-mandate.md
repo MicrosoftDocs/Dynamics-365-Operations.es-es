@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5b9afeb24692010ca5de33156f372d86f167161e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 242d6d3d517ad5190b96ace36bd585a5769ae994
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-sepa-direct-debit-mandate"></a>Configurar orden de domiciliación bancaria SEPA
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Una domiciliación bancaria SEPA (Zona Única de Pagos en Euros) permite a un acreedor cobrar fondos de la cuenta bancaria de un cliente, siempre y cuando el cliente haya firmado una orden y se la haya entregado al acreedor. La orden que el cliente firma autoriza el acreedor a cobrar un pago y da instrucciones al banco del cliente para pagar el cobro. Este tema está organizado para mostrar el proceso de configuración de órdenes de domiciliación bancaria SEPA.
 
@@ -49,7 +49,7 @@ La tabla siguiente muestra los requisitos previos que deben cumplirse antes de c
 -   Opcional: si espera que cada uno de los clientes tenga varias órdenes, en el campo **Período**, seleccione **Factura**. Se crea un pago independiente para cada factura y cada pago usa la orden que se especifica para la factura.
 -   Seleccione la opción **Requerir orden** para crear pagos con órdenes de domiciliación bancaria. La opción **Requerir orden** solo está disponible si selecciona **Pago electrónico** en el campo **Tipo de pago**.
 
-Ver también
+Recursos adicionales
 
 [Resumen de domiciliación bancaria](sepa-direct-debit-overview.md) 
 

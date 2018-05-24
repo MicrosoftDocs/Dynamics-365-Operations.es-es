@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 92beae76b35da6e18d1d9b2621b48b9a46dfaad0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d2ead061fe39c3dcb54d697f246c2c826339b699
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Programación visual para lean manufacturing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema proporciona información acerca del tablero de programación kanban, que el planificador de producción puede usar para controlar y optimizar el plan de producción de trabajos kanban.
 
@@ -91,7 +91,7 @@ Puede abrir el tablero de programación kanban mediante el elemento de menú de 
 -   Página **Visualización de flujo de producción**
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Lean manufacturing: programación de trabajos kanban](lean-manufacturing-kanban-job-scheduling.md)

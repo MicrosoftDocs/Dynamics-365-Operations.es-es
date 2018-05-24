@@ -19,16 +19,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ca90b949a1a2b5af4a0fd78ddf80d5add2565b9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9310508082ff710cd040b74519044f5a90c23988
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="income-statement-financial-report"></a>Informe financiero de informe de ingresos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En este artículo se describen los informes predeterminados para las declaraciones de ingresos. También se describen los componentes asociados con este informe. 
 
@@ -61,7 +61,7 @@ Las definiciones de columnas contienen diversos tipos de columnas para proporcio
 
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Informes financieros](financial-reporting-getting-started.md)

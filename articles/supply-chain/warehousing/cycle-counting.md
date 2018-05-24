@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ddb035eaa496a7c84f117f0523d509eccdf58505
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9da40e90982d9d4aca38890ed121782f4236712d
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cycle-counting"></a>Recuento cíclico
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo describe cómo puede usar el recuento cíclico con la solución de almacenamiento que está disponible en Gestión de almacenes. Este artículo no se aplica a la solución de almacenamiento que está disponible en Gestión de inventarios.
 
@@ -136,7 +136,7 @@ Se produce una diferencia de recuento cíclico en los siguientes escenarios si l
 
 Puede ajustar diferencias en el valor de recuento y aceptar a continuación el valor de recuento en la página **Revisión pendiente del trabajo de recuento cíclico**. Puede comprobar el recuento modificado de la cantidad del artículo en la página **Inventario disponible por ubicación**. El valor de recuento se rechaza si no se puede aprobar la diferencia.
 
-## <a name="see-also"></a>Consulte también
+## <a name="additional-resources"></a>Recursos adicionales
 [Configurar dispositivos móviles para el trabajo de almacén](configure-mobile-devices-warehouse.md)
 
 
