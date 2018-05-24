@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c0e80bae4716d2b12f515f38d3b641de24680571
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1c19cb68df5be5245722da43f3ef9c2072873a34
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Establecer tipos de interés para un código de interés
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Los códigos de interés contienen la configuración que determina si se carga el interés y cómo se calcula en las cuentas vencidas.
 
@@ -56,7 +56,7 @@ Por ejemplo, para configurar un código de interés que evalúe el 5 por ciento 
 Puede configurar los tipos de interés que calculan un importe concreto por divisa.
 - Se especifica un importe de interés para cada divisa en el código de interés.
 - Se pueden especificar límites de interés opcionales.
-- <strong>Importe **se selecciona en el campo **Calcular el interés en función de</strong> en la página <strong>Configurar códigos de interés</strong>.
+- **Porcentaje** se selecciona en el campo **Calcular el interés en función de** en la página **Configurar códigos de interés**.
 
 Por ejemplo, para configurar un código de interés que evalúe el interés de 25,00 por cada 20 días que el pago de la factura supere la fecha de vencimiento de la transacción, escriba 20 en el campo **Calcular interés cada** y seleccione **Día**.
 

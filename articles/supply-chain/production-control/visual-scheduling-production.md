@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f7001158a498aa28028167a0f76ad610ec09b43c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c3726038d9782891988e16cb98cf04cf47b7e66c
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="gantt-chart-for-job-scheduling"></a>Gráfico de Gantt para la programación de trabajos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 El gráfico de Gantt está diseñado para permitir a los planificadores de producción controlar y optimizar el plan de producción. El gráfico de Gantt hace que el flujo de operaciones sea transparente y facilita el ajuste de la previsión de producción mientras tiene en cuenta la escasez de materiales o recursos. Esto ayuda a los planificadores a realizar el mejor uso de los recursos disponibles, minimizar el trabajo en curso y optimizar los tiempos de capacidad de proceso para pedidos de producción.
 
@@ -156,7 +156,7 @@ El gráfico de Gantt se puede abrir desde las siguientes páginas.
 |           <strong>Trabajo para completar</strong> (mostrado en el espacio de trabajo <strong>Gestión de planta de producción</strong>)            |                                                                                               Los <strong>trabajos para completar se muestran en el espacio de trabajo Gestión de planta de producción</strong>, donde se muestran trabajos de los pedidos de producción y lote que están en curso en los recursos seleccionados para el espacio de trabajo. En el elemento de menú <strong>Gráfico de Gantt</strong> puede abrir el gráfico de Gantt, en el que todos los trabajos seleccionados en la lista se cargarán en el gráfico.                                                                                               |
 | <strong>Pedidos de producción para liberar</strong> (abiertos desde el espacio de trabajo <strong>Gestión de planta de producción</strong>) |                                                                                                                                         La página Pedidos de producción para liberar se abre desde el espacio de trabajo <strong>Gestión de planta de producción</strong>. En esta página se muestran los pedidos de producción y lote programados pendientes de emisión. En esta página puede abrir el gráfico de Gantt para los pedidos de producción seleccionados.                                                                                                                                          |
 
-## <a name="see-also"></a>Consulte también  
+## <a name="additional-resources"></a>Recursos adicionales  
 [Programación visual con el gráfico de Gantt para pedidos de producción y lotes (vídeo)](https://youtu.be/BtbuShkGj4I)
 
 [Programación visual para producción (script de demostración)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)

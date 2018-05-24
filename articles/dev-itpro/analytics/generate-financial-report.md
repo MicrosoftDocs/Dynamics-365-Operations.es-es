@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 73d1a3316db7589d114c70a4dbf847dc67aa077b
 ms.contentlocale: es-es
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a>Generar un informe financiero
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tema proporciona información acerca de la generación de un informe financiero. 
 
@@ -155,16 +155,16 @@ Cuando se ejecuta un análisis de cuentas que faltan, los métodos abreviados de
 | Excluir el bloque de creación seleccionado  | Alt+X                      |
 | Excluir la definición de fila seleccionada  | Ctrl+B                     |
 | Excluir el valor de dimensión seleccionado | Ctrl+D                     |
-| Abrir la definición del informe seleccionado  | Ctrl+R                     |
+| Abrir la definición de informe seleccionada  | Ctrl+R                     |
 | Abrir la definición de fila seleccionada     | Ctrl+O                     |
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Informes financieros](financial-reporting-intro.md)
 
-[Interfaz del diseñador de informes](report-designer-interface.md)
+[Interfaz del Diseñador de informes](report-designer-interface.md)
 
 
 

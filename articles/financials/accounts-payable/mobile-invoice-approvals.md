@@ -18,16 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>Aprobaciones de factura móvil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Las capacidades móviles de Microsoft Dynamics 365 for Finance and Operations permiten a un usuario empresarial diseñar experiencias móviles. Para situaciones avanzadas, la plataforma también permite a los desarrolladores ampliar las capacidades como desean. La forma más eficaz de aprender algunos de los conceptos nuevos sobre capacidades móviles es pasar por el proceso de diseño de algunos escenarios. Este tema está pensando para proporcionar un método práctico de diseñar escenarios móviles con las aprobaciones de facturas de proveedores para aplicaciones móviles como un caso de uso. Este tema le ayudará a diseñar otras variaciones de los escenarios y se puede aplicar a otros escenarios que no están relacionados con las facturas de proveedores.
 
@@ -175,9 +175,9 @@ Para diseñar la página de detalles de la factura para móvil, use la página *
 1. En la dirección URL de Finance and Operations, sustituya el nombre del elemento de menú con **VendMobileInvoiceHeaderDetails** para abrir el formulario
 2. Abra el diseñador para aplicaciones móviles desde el botón **Configuración** (engranaje).
 3. Haga clic en el botón **Editar** para iniciar el modo de edición en el espacio de trabajo.
-4. Seleccione la página <strong>Mis facturas de proveedor **que ha creado antes y haga clic en **Editar</strong>.
+4. Seleccione la página **Mis facturas de proveedor** que ha creado antes y haga clic en **Editar**.
 5. En los la ficha **Campos**, haga clic en el encabezado de columna **Cuadrícula**.
-6. Haga clic en **Propiedades** &gt; **Agregar página**. **Nota:** Al hacer clic en el encabezado de **Cuadrícula** y agregar una página, la relación con la página de detalles se establece automáticamente.
+6. Haga clic en **Propiedades &gt; Agregar página**. **Nota:** Al hacer clic en el encabezado de **Cuadrícula** y agregar una página, la relación con la página de detalles se establece automáticamente.
 7. Especifique un título de la página, por ejemplo **Detalles de la factura** y una descripción como **Ver detalles de línea y encabezado de la factura**.
 8. Haga clic en **Seleccionar campos**. Tenga en cuenta que el orden en que se agrega es el orden en que los campos se mostrarán al usuario final. La única forma de cambiar orden de los campos es volviendo a seleccionar todos los campos. 
 9. Agregue los siguientes campos desde el encabezado, según los requisitos para esta situación:

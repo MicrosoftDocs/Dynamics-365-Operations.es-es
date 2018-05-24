@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 854240bef9d6193c8f0f608687b68e6842fe272c
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
 ms.contentlocale: es-es
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -230,7 +230,47 @@ La integración de pedidos de trabajo requiere que configure el origen de ventas
 6. Establezca el campo **Tipo de origen de ventas** a **Integración del pedido de trabajo**.
 7. Seleccione **Guardar**.
 
-### <a name="template-mapping-in-data-integration"></a>Asignación de la plantilla en la integración de datos
 
-(Próximamente)
+### <a name="setup-in-data-integration"></a>Configurar en integración de datos
+
+Asegúrse de que haya una **Tecla de integración** para **msdyn_workorders**
+1. Ir a integración de datos
+2. Seleccione la ficha **Conjunto de conexión**
+3. Seleccione el conjunto de conexión utilizado para la sincronización de pedidos de trabajo
+4. Seleccione la ficha **Tecla de integración**
+5. Busque msdyn_workorders y compruebe que se haya agregado la clave **msdyn_name (número de pedido del trabajo)**. Si no se muestra, agréguela haciendo clic en **Agregar clave** y en **Guardar** en la parte superior de la página
+
+## <a name="template-mapping-in-data-integration"></a>Asignación de la plantilla en la integración de datos
+
+Las siguientes ilustraciones muestran la asignación de plantilla en la integración de datos.
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderheader"></a>Pedidos de trabajo a los pedidos de ventas (de Field Service a Fin and Ops): WorkOrderHeader
+
+Filtro: (msdyn_systemstatus ne 690970005) y (msdyn_systemstatus ne 690970000) y (msdynce_hasexternallymaintainedproductsonly eq true)
+
+[![Asignación de la plantilla en la integración de datos](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineestimate"></a>Pedidos de trabajo a pedidos de ventas (de Field Service a Fin and Ops): WorkOrderServiceLineEstimate
+
+Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) and (msdyn_linestatus eq 690970000) y (msdynce_headersystemstatus ne 690970004)
+
+[![Asignación de la plantilla en la integración de datos](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineused"></a>Pedidos de trabajo a pedidos de ventas (de Field Service a Fin and Ops): WorkOrderServiceLineUsed
+
+Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) y ((msdyn_linestatus eq 690970001) o (msdynce_headersystemstatus eq 690970004))
+
+[![Asignación de la plantilla en la integración de datos](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineestimate"></a>Pedidos de trabajo a pedidos de ventas (de Field Service a Fin and Ops): WorkOrderProductLineEstimate
+
+Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) y (msdyn_linestatus eq 690970000) y (msdynce_headersystemstatus ne 690970004) y (msdyn_allocated eq true)
+
+[![Asignación de la plantilla en la integración de datos](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineused"></a>Pedidos de trabajo a pedidos de ventas (de Field Service a Fin and Ops): WorkOrderProductLineUsed
+
+Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) y ((msdyn_linestatus eq 690970001) o (msdynce_headersystemstatus eq 690970004) o (msdyn_allocated ne true))
+
+[![Asignación de la plantilla en la integración de datos](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 

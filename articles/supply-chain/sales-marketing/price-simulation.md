@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1db68ea5728cc417f0e70675d9074d5b054883da
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="price-simulation"></a>Simulación de precios
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo proporciona información acerca de la simulación de precios para los presupuestos. La simulación de precios le ayuda a evaluar el efecto de las deducciones en el precio de venta futuro durante el proceso de presupuesto, antes de confirmar un precio determinado.
 
@@ -36,7 +36,7 @@ Una simulación de precios para un presupuesto muestra un importe total nuevo, b
 
 Una simulación de precios no cambia el precio del presupuesto. Si la simulación de precios se aplica a todo el presupuesto, se trata como un descuento especial en el encabezado del presupuesto. Si la simulación de precios se aplica a artículos específicos, se trata como un descuento especial en las líneas de presupuesto. El precio unitario de venta de una línea de presupuesto que se crea no cambia cuando se aplique una simulación de precio. En cambio, se aplica un porcentaje de descuento que corresponda a la reducción de precios de la línea de presupuesto. Cuando se aplique una simulación de precios, el precio unitario y el porcentaje de descuento se transfieren a la línea de presupuesto o encabezado de presupuesto.  
 
-**Nota:** cuando se realice una simulación de precios, únicamente se usa la divisa de ventas para crear la simulación. No obstante, al visualizar los totales de presupuesto, verá una combinación de la divisa de empresa y la de ventas.  
+>\[Nota\]: cuando se realice una simulación de precios, únicamente se usa la divisa de ventas para crear la simulación. No obstante, al visualizar los totales de presupuesto, verá una combinación de la divisa de empresa y la de ventas.  
 
 Los artículos adicionales que se agregan a líneas de presupuesto pueden desencadenar descuentos de línea o descuentos multilínea. También podrían desencadenar descuentos totales que modifiquen los márgenes y coeficientes de contribución de las líneas de presupuesto y el descuento completo.  
 

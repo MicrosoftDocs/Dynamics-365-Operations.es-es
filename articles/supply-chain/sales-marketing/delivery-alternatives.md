@@ -20,23 +20,23 @@ ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58c083b2fa76e90d10ec8a197a4743a9e315db46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 855fdd0e57a7001628b715038785379d5a986789
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="delivery-alternatives"></a>Alternativas de entrega
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-Los creadores de pedidos de ventas pueden usar la página Alternativas de entrega para detectar opciones de cumplimiento del pedido alternativas.
+Los creadores de pedidos de ventas pueden usar la página **Alternativas de entrega** para detectar opciones de cumplimiento del pedido alternativas.
 
-En Microsoft Dynamics 365 for Operations versión 1611 (noviembre de 2016), los creadores de pedidos de ventas pueden usar la página **Alternativas de entrega** para detectar opciones de cumplimiento del pedido alternativas. El diseño de página rediseñado ofrece una mejor visión general de todas las opciones alternativas. También permite a los creadores de pedidos buscar oportunidades de cumplimiento más allá de la empresa actual. Pueden ahora ver oportunidades en empresas vinculadas y oportunidades de proveedores externos. Ordenando las opciones por fecha de entrega, los creadores del pedido de ventas pueden ver una lista inteligente de alternativas de la entrega. Además, los parámetros los ayudan a gestionar mejor las entregas sugeridas. Dado que el tiempo de transporte puede afectar a las fechas de entrega, los creadores del pedido de ventas pueden explorar las distintas opciones de transporte que los operadores ofrecen. Dado que se muestra información detallada para cada sugerencia, los creadores de pedidos pueden tomar decisiones informadas directamente desde la página **Alternativas de entrega** .
+El diseño de la página **Alternativas de entrega** ofrece una visión general de todas las opciones alternativas. También permite a los creadores de pedidos buscar oportunidades de cumplimiento más allá de la empresa actual. Pueden ahora ver oportunidades en empresas vinculadas y oportunidades de proveedores externos. Ordenando las opciones por fecha de entrega, los creadores del pedido de ventas pueden ver una lista inteligente de alternativas de la entrega. Además, los parámetros los ayudan a gestionar mejor las entregas sugeridas. Dado que el tiempo de transporte puede afectar a las fechas de entrega, los creadores del pedido de ventas pueden explorar las distintas opciones de transporte que los operadores ofrecen. Dado que se muestra información detallada para cada sugerencia, los creadores de pedidos pueden tomar decisiones informadas directamente desde la página **Alternativas de entrega** .
 
 ## <a name="open-the-delivery-alternatives-page"></a>Abrir la página de alternativas de entrega
-Puede abrir la página **Alternativas de** **entrega** desde la línea de pedido de ventas.
+Puede abrir la página **Alternativas de entrega** desde la línea de pedido de ventas.
 
 1.  Haga clic en **Productos y suministro** &gt; **Alternativas de entrega**.
 2.  Haga clic en **Detalles de línea** &gt; **Entrega** &gt; **Alternativas de la entrega.**
@@ -146,7 +146,7 @@ La información de esta ficha está relacionada con la línea alternativa de ent
 
 Esta ficha destaca el impacto de la alternativa seleccionada de entrega. Si hace clic en **Aceptar**, la línea de ventas se actualiza con los valores resaltados en las columnas SELECCIONADAS. Tenga en cuenta que, si la cantidad de la alternativa seleccionada de entrega es inferior a la cantidad de la línea de ventas, se crea una programación de entrega y la línea de pedido se divide en dos líneas: una línea para la cantidad seleccionada y una línea para la cantidad restante. También puede actualizar la línea comercial para que coincida con las líneas de la programación y afecte a los precios.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Compromisos de pedidos](delivery-dates-available-promise-calculations.md)

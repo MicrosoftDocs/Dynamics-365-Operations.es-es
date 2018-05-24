@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 6a620f2a0105d578d419d3aac816c7d78fbf3e46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3baf1d7313d8ff03ae5ece035b6f3641c0f1d707
 ms.contentlocale: es-es
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatura de los nombres y los números de variante de los productos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En este tema se describe cómo se puede configurar una nomenclatura de número de producto para reemplazar el formato fijo [Número de producto maestro - Configuración - Tamaño - Color - Estilo]. La nueva nomenclatura tiene el formato destinado que incluye el número de producto maestro, las dimensiones de producto activo y los delimitadores de texto de su elección. También puede crear una nomenclatura para los nombres de producto. Por último, también puede crear una nomenclatura para identificar configuraciones creadas por el configurador de producto basado en restricciones. Estas nomenclaturas pueden contener atributos de su elección.
 
@@ -192,10 +192,10 @@ En función de la nomenclatura, el sistema puede intentar asignar un número de 
 
 En uno de los pasos del proceso de configuración, el sistema sugiere un valor de configuración según la nomenclatura. En dicho paso, puede cambiar manualmente el valor de la configuración. Cuando guarde la configuración, el sistema comprobará si el valor de configuración es único. Si el valor que ha especificado no es único, recibirá un mensaje de error. Para poder guardar la configuración debe especificar un valor de configuración único.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Crear una nomenclatura del número de producto para las variantes de producto predefinidas](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
+[Crear una nomenclatura de números de producto para las variantes de producto predefinidas](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [Crear una nomenclatura del número de producto para las variantes de producto configuradas](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 

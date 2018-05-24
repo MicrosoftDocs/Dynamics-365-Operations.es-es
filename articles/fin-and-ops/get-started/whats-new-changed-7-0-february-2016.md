@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ab12a55e41cd32c2479eb46796de57926652942f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3ba9025aa5394b29bdba80e589c77fa4bd2bd47f
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novedades o cambios en Dynamics AX 7.0 (febrero de 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics AX 7.0. Esta versión contiene características tanto de plataforma como de aplicación y se publicó en febrero de 2016.
 
@@ -536,7 +536,7 @@ No se han agregado funciones nuevas.
 </tr>
 <tr class="odd">
 <td>(UE) Elabore informes de la cantidad de unidades adicionales para intrastat mediante la opción de conversión de unidades.</td>
-<td>El código de mercancía de intrastat tiene un campo de texto para identificar unidades adicionales y la tarjeta **Producto** tiene un campo para identificar la cantidad de unidades adicionales en kilogramos.</td>
+<td>El código de mercancía de intrastat tiene un campo de texto para identificar unidades adicionales y la tarjeta <strong>Producto</strong> tiene un campo para identificar la cantidad de unidades adicionales en kilogramos.</td>
 <td>Las unidades adicionales para el código de mercancía de intrastat se eligen de la lista de unidades. La cantidad de unidades adicionales se calcula a través de la configuración de la conversión de unidades.</td>
 <td>Esto unifica el enfoque del recálculo de las unidades de transacción a unidades adicionales.</td>
 </tr>
@@ -1081,7 +1081,7 @@ No se han agregado funciones nuevas.
 
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Novedades y cambios](whats-new-changed.md)

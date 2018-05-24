@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6db51f9fa180f0b8ce203fd2812c562b0201afa8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-planning-integration-with-other-modules"></a>Integración de planificación presupuestaria con otros módulos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Se pueden generar planes presupuestarios desde diversos recursos diferentes. Los elementos básicos del proceso periódico son iguales para todos los recursos. 
 
@@ -68,7 +68,7 @@ La opción **Histórico** en la pestaña **Destino** le permite usar las fechas 
 
 El campo **Agregar total por** en la parte superior de la página también determina la fecha que se usa. Este campo realiza un total de los importes y establece opcionalmente la fecha de vigencia al primer día del ejercicio o período fiscal. 
 
-Muchos de los campos de la pestaña <strong>Destino</strong> pasan a ser editables o de sólo lectura, en función de la acción que seleccione. Cuando cambia de crear un nuevo plan presupuestario a actualizar un plan existente, el campo <strong>Nombre del plan presupuestario</strong> pasa a estar disponible, y los campos relacionados con la selección de un plan existente están disponibles. En las pestañas <strong>Destino</strong> y <strong>Origen **, el campo **Libro mayor</strong> nunca está disponible porque el valor está determinado por el proceso de planificación presupuestaria seleccionado. 
+Muchos de los campos de la pestaña <strong>Destino</strong> pasan a ser editables o de sólo lectura, en función de la acción que seleccione. Cuando cambia de crear un nuevo plan presupuestario a actualizar un plan existente, el campo **Nombre del plan presupuestario** pasa a estar disponible, y los campos relacionados con la selección de un plan existente están disponibles. En las pestañas **Destino** y **Origen**, el campo **Libro mayor** nunca está disponible porque el valor está determinado por el proceso seleccionado de planificación presupuestaria. 
 
 El campo **Clase de presupuesto** permite establecer las líneas del plan presupuestario como transacciones de gastos o transacciones de ingresos. Normalmente, las transacciones de ingresos son créditos en una cuenta contable y por tanto se almacenan como importes negativos. Normalmente, estas transacciones también aparecen como importes negativos en el plan presupuestario. Sin embargo, si se agrega la clase de presupuesto como un campo en el diseño del plan, los ingresos aparecerán como importes positivos.
 

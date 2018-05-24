@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 0567cdad6f9f27097f534381655e5b468884bed8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b7c788f4b054c7d20df69459c31bb16994d8a9ec
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-blocking"></a>Bloqueo del inventario
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 En este artículo se proporciona una visión general del bloqueo del inventario, que forma parte del proceso de inspección de calidad en Microsoft Dynamics 365 for Finance and Operations. Puede usar el bloqueo del inventario para evitar que los artículos se procesen o se consuman.
 
@@ -60,12 +60,12 @@ Puede especificar qué estados de inventario son estados de bloqueo mediante el 
 
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Creación y mantenimiento de un bloqueo del inventario](tasks/create-maintain-inventory-blocking.md)
 
-[Procesos de gestión de calidad](quality-management-processes.md)
+[Procesos de administración de calidad](quality-management-processes.md)
 
 [Inspeccionar la calidad de las mercancías (Guía de tareas)](tasks/inspect-quality-goods.md)
 

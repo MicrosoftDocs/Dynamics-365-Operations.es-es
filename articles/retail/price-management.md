@@ -3,7 +3,7 @@ title: "Administración de precio de ventas minoristas"
 description: En este tema se describen los conceptos para crear y administrar precios de ventas en Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/27/2018
+ms.date: 04/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-retail
@@ -18,16 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a7e6babe1bfec60ece4f84a77bbd838faf7274e0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-sales-price-management"></a>Administración de precio de ventas minoristas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 En este tema se proporciona información sobre el proceso de crear y administrar precios de ventas en Microsoft Dynamics 365 for Retail. Se centra en los conceptos implicados en este proceso y en los efectos de las distintas opciones de configuración para los precios de venta.
 
@@ -198,32 +198,6 @@ Microsoft SQL Server Express se suele utilizar para las bases de datos de canale
 Al estabelcer precios de venta en Microsoft Dynamics 365, no especifica si el valor del precio que está configurando incluye o excluye impuestos. El valor es solo el precio. Sin embargo, la configuración **El pecio incluye impuestos** en los canales minoristas le permite configurar los canales minoristas para que incluyan o excluyan los impuestos de los precios. Esta configuración se establece en el canal y puede cambiar incluso en una sola empresa.
 
 Si trabaja con tipos de impuestos incluidos y exclusivos, es muy importante que configure los precios correctamente, ya que el importe total que el cliente paga cambiará si se cambia la configuración **El precio incluye impuestos** en el canal.
-
-### <a name="effect-of-the-price-includes-sales-tax-setting-on-financial-postings"></a>El efecto de la configuración El precio incluye impuestos en los registros financieros
-Todos los importes que se registran en la contabilidad general para las cuentas de ingresos y descuentos se ven afectados por la configuración **El precio incluye impuestos**. El siguiente ejemplo muestra cómo afecta esta configuración a los registros financieros.
-
-El ejemplo trata solo los registros de ventas, ya que la configuración **El precio incluye impuestos** no afecta a los registros de coste de inventario.
-
-#### <a name="example"></a>Ejemplo
-Para este ejemplo, se configuran importes de descuento para registrarlos por separado de los ingresos.
-
-Vende un producto de 100 $ con una tasa de impuestos del 10 por ciento y se aplica un descuento del 5 por ciento. Se utilizan las siguientes cuentas de los datos de demostración USRT:
-
-- **Ingresos:** 401100
-- **Descuento:** 403200
-- **Impuesto:** 202100
-
-**Caso 1: Exclusivo de impuesto (también conocido como impuestos)**
-
-- **Ingresos:** 100 $
-- **Descuento:** 5 $
-- **Impuesto:** 9,5 $ (= 10 por ciento de 95 $)
-
-**Caso 2: Inclusivo de impuesto (también conocido como impuesto sobre el valor añadido \[IVA\])**
-
-- **Ingresos:** 90 $
-- **Descuento:** 4,5 $ (= 5 por ciento de 90 $)
-- **Impuesto:** 10 $
 
 ## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Diferencias entre precios al por menor y precios no al por menor
 Un único motor de precios se utiliza para calcular precios al por menor en todos los canales: centro de llamadas, tienda y tiendas en línea. Esto ayuda a habilitar los escenarios de comercio unificados. 

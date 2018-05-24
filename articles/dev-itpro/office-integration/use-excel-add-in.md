@@ -38,9 +38,6 @@ Al abrir los datos de la entidad en Excel, puede ver y editar los datos de forma
 
 Para obtener más información sobre el uso del complemento de Excel, vea el breve vídeo [Crear una plantilla de Excel para patrones de encabezado y línea en Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
-
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Abrir los datos de la entidad en Excel en el inicio desde Finance and Operations
 1. En una página de Finance and Operations, seleccione **Abrir en Microsoft Office**.
 

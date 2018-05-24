@@ -20,16 +20,16 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8fdebf692bd3cd8500274cc73ca5b0591dba4140
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 30adfefd5ec70ddce348dab2481d518875e01ff2
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a>Instale el diseñador de estructura del PDV (punto de venta) al por menor
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Puede usar el diseñador de un solo clic para diseñar diferentes estructuras de PDV moderno de venta al por menor (MPOS) y PDV en la Nube, tanto en modo horizontal como vertical, para tiendas, registros, cajeros y directores.
 
@@ -51,7 +51,7 @@ La interfaz de diseño gráfico del PDV moderno (MPOS) o PDV en la Nube (Cloud P
 
 **Problema conocido:** El diseñador no funciona correctamente en los navegadores Google Chrome y Mozilla Firefox. Estamos trabajando para solucionar este problema.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Configurar, descargar, instalar y activar PDV moderno al por menor](retail-modern-pos-device-activation.md)

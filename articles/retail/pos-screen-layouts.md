@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad425ab0848ab04003b7378cb5c488650f01c441
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9082c156fde52aa0c822f8e4753de816f8cc0558
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-screen-layouts-for-pos"></a>Configurar diseños de pantalla para el PDV
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este tema proporciona información sobre los diseños de pantalla para las experiencias con Microsoft Dynamics 365 for Retail point of sale (POS).
 
@@ -89,12 +89,12 @@ Cada tamaño de diseño de un diseño de pantalla se debe configurar mediante el
 
 **Imagen**- El control de imagen se puede utilizar para mostrar el logotipo de la tienda u otra imagen de marca en la pantalla de la transacción. El control de imagen solo está disponible en los diseños completos. 
 
-**Productos recomendados** - Si está configurado para el entorno, el control de productos recomendados mostrará las sugerencias de productos del aprendizaje automático. El control de productos recomendados solo está disponible en los diseños completos de Dynamics 365 for Retail, versión 1611. **Control personalizado **- El control personalizado actúa como un marcador de posición en el diseño de pantalla para que los usuarios puedan reservar espacio para el contenido personalizado. El control personalizado solo está disponible en los diseños completos.
+**Productos recomendados** - Si está configurado para el entorno, el control de productos recomendados mostrará las sugerencias de productos del aprendizaje automático. El control de productos recomendados solo está disponible en los diseños completos de Dynamics 365 for Retail, versión 1611. **Control personalizado**- El control personalizado actúa como un marcador de posición en el diseño de pantalla para que los usuarios puedan reservar espacio para el contenido personalizado. El control personalizado solo está disponible en los diseños completos.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Instale el diseñador de estructura del PDV (punto de venta) al por menor](install-pos-layout-designer.md)
+[Instalar el diseñador de Retail POS](install-pos-layout-designer.md)
 
 
 

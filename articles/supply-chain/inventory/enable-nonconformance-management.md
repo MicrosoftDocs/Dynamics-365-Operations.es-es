@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 28037713a51a83f4b792adef8a26f02960fa6b07
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 93a7ed31dcad19a29a85352a2bf200915766036c
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nonconformance-management"></a>Gestión de disconformidad
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo describe la configuración básica necesaria para usar disconformidades. Se requiere configuración adicional si desea usar pedidos de calidad.
 
@@ -47,12 +47,12 @@ Para activar la gestión de disconformidades, siga estos pasos:
 6.  Defina las operaciones relacionadas que se asignarán a los casos de disconformidad. Use la página **Operaciones** para definir una clasificación del trabajo que se debe efectuar para un caso de disconformidad aprobado. Al asignar una operación relacionada a un caso de disconformidad, también se puede proporcionar información detallada acerca del material asociado, las horas de trabajo y los gastos varios requeridos para llevar a cabo la operación. Esta información se usa para calcular el coste estimado para la operación. La información detallada y los costes estimados sirven como referencia. Las operaciones relacionadas para la calidad son diferentes de las operaciones que se pueden definir para una ruta de producción.
 
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Creación y procesamiento de una disconformidad (guías de tareas)](tasks/create-process-non-conformance.md)
 
-[Procesos de gestión de calidad](quality-management-processes.md)
+[Procesos de administración de calidad](quality-management-processes.md)
 
 [Configurar requisitos previos para la gestión de no conformidades (guía de tareas)](tasks/set-up-prerequisites-nonconformance-management.md)
 

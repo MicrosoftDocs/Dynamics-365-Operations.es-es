@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 343e372ad9e29372649e975a5bee16e8913b66c8
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Aprovisionar Microsoft Dynamics 365 for Talent
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este tema recorre con usted el proceso de aprovisionar un nuevo entorno de producción para Microsoft Dynamics 365 for Talent. Este tema asume que ha comprado Talent a un proveedor de soluciones de nube (CSP) o mediante un contrato de arquitectura empresarial (EA). Si dispone de una licencia existente de Microsoft Dynamics 365 que ya incluye el plan de servicio de Talent y no puede realizar los pasos de este tema, póngase en contacto con soporte.
 
@@ -54,17 +54,18 @@ Después de crear un proyecto de LCS, puede aprovisionar Talent en un entorno.
     > Para ver entornos existentes o crear nuevos entornos, debe asignarse el administrador de inquilinos que aprovisiona Talent a la licencia de PowerApps P2. Si su organización no dispone de una licencia de PowerApps P2, puede obtener una de su CSP o en la [Página de precios para PowerApps](https://powerapps.microsoft.com/en-us/pricing/).
 
 4. Seleccione **Agregar**, y seleccione el entorno en el que se aprovisionará Talent.
-5. Seleccione **Sí** para aceptar los términos e iniciar la implementación.
+5. Seleccione la opción “Incluir datos de la demostración” si desea que el entorno incluya el mismo conjunto de datos de demostración utilizado en la experiencia de la prueba de conducción de Talent.  Esto es beneficioso para los entornos de demostración o de formación a largo plazo, y no se debe usar nunca en entornos de producción.  Tenga en cuenta que debe elegir esta opción durante la implementación inicial y no puede actualizar una implementación existente más adelante.
+6. Seleccione **Sí** para aceptar los términos e iniciar la implementación.
 
     Su nuevo entorno aparece en la lista de los entornos en el panel de navegación de la izquierda. Sin embargo, no puede empezar a usar el entorno hasta que el estado de la implementación se actualice a **Implementado**. Este proceso tarda normalmente solo algunos minutos. Si el proceso de abastecimiento es incorrecto, debe ponerse en contacto con el soporte técnico.
 
-6. Seleccione **Iniciar sesión en Talent** para usar el nuevo entorno.
+7. Seleccione **Iniciar sesión en Talent** para usar el nuevo entorno.
 
 > [!NOTE]
 > Si aún no ha dado la aprobación final a los requisitos finales, puede implementar una instancia de prueba de Talent en el proyecto. Puede utilizar esta instancia para probar su solución hasta que dé la aprobación final. Si usa su nuevo entorno para las pruebas, deberá repetir este procedimiento para crear un entorno de producción.
 
 > [!NOTE]
-> Los entornos de Talent que se aprovisionan a través de LCS no contienen datos de demostración configurados para las tareas de Recursos Humanos (RR. HH.) o que son específicos de Talent. Si necesita un entorno que contenga datos de demostración, le recomendamos que se registre para obtener una versión de prueba de 60 días del [entorno de prueba de Talent](https://dynamics.microsoft.com/en-us/talent/overview/). Aunque un entorno de prueba es propiedad del usuario que lo solicitó, se puede invitar a otros usuarios a través de la experiencia de administración del sistema para Core HR. Los entornos de prueba contienen datos ficticios que se pueden usar para explorar el programa de forma segura. No están destinados para su uso como entornos de producción. Tenga en cuenta que cuando el entorno de prueba caduca después de 60 días, todos los datos que contiene se eliminan y no se pueden recuperar. Puede registrarse para obtener un nuevo entorno de prueba una vez que caduque el entorno existente.
+> Dado que solo dos entornos de CD se permiten como parte de la suscripción de Talent, también puede considerar aprovechar los 60 días gratuitos [Entorno de prueba de Talent](https://dynamics.microsoft.com/en-us/talent/overview/). Aunque un entorno de prueba es propiedad del usuario que lo solicitó, se puede invitar a otros usuarios a través de la experiencia de administración del sistema para Core HR. Los entornos de prueba contienen datos ficticios que se pueden usar para explorar el programa de forma segura. No están destinados para su uso como entornos de producción. Tenga en cuenta que cuando un entorno de prueba caduca después de 60 días, todos los datos que contiene se eliminan y no se pueden recuperar. Puede registrarse para obtener un nuevo entorno de prueba una vez que caduque el entorno existente.
 
 ## <a name="select-a-powerapps-environment"></a>Seleccione un entorno de PowerApps
 
@@ -104,35 +105,29 @@ Complete las siguientes instrucciones para ejecutar la secuencia de comandos:
 
 1. Descargue el archivo de ProvisionCDSEnvironment.zip de la siguiente ubicación: [ProvisionCDSEnvironment scripts](https://go.microsoft.com/fwlink/?linkid=870436)  
 
-2. Descomprima el contenido completo del archivo ProvisionCDSEnviroinment.zip en una carpeta.
+2. En la carpeta de descargas, haga clic con el botón secundario en el archivo ProvisionCDSEnvironment.zip que se acaba de descargar y seleccione **Propiedades**.  Si hay una nota de seguridad en la parte inferior de diálogo que indica “este archivo vino de otro equipo y puede ser bloqueado para ayudar a proteger este equipo”, marque la casilla **Desbloquear** y, continuación, haga clic en **Aplicar** y luego en **Aceptar**.
 
-3. Ejecute el programa de Windows PowerShell o ISE de Windows PowerShell como administrador.
+3. Descomprima el contenido completo del archivo ProvisionCDSEnviroinment.zip en una carpeta que no sea la carpeta raíz.
 
-   Visite el tema [Establecer la Directiva de ejecución](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) para obtener más información acerca de cómo establecer la directiva de la ejecución para poder ejecutar secuencias de comandos.
+4. Ejecute el programa de Windows PowerShell o ISE de Windows PowerShell como administrador.
+
+   Visite el tema [Establecer la Directiva de ejecución](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) para obtener más información acerca de cómo establecer la directiva de la ejecución para poder ejecutar secuencias de comandos. Sugerimos que use el siguiente: “Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process”, pero asegúrse de seguir las directivas de seguridad de la empresa y de cerrar la ventana de PowerShell cuando haya terminado. 
   
-4. Dentro de PowerShell, navegue a la carpeta donde se descomprimió el archivo y ejecute el siguiente comando, reemplazando los valores tal como se indica a continuación:
+5. Dentro de PowerShell, navegue a la carpeta donde se descomprimió el archivo y ejecute el siguiente comando, reemplazando los valores tal como se indica a continuación:
  
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
     
    **MyNewEnvironment** debe reemplazarse con su nombre de entorno. Este nombre aparecerá en el CD y estará visible cuando los usuarios seleccionen el entorno de Talent que se utilizará. 
 
-   **YourLocation** debe reemplazarse con una de las regiones admitidas para Talent: unitedsates, Europa, Australia. 
+   **YourLocation** debe reemplazarse con una de las regiones admitidas para Talent: unitedstates, Europa, Australia. 
 
    **- Detallado** es opcional y proporcionará información detallada para enviar a soporte si se detectan problemas.
 
-5. Continúe con el proceso de aprovisionamiento.
+6. Continúe con el proceso de aprovisionamiento.
  
 
-
 ## <a name="grant-access-to-the-environment"></a>Conceda acceso al entorno
-De forma predeterminada, solo tiene acceso el administrador global que creó el entorno. Sin embargo, los usuarios de aplicaciones adicionales debe conceder acceso de forma explícita. Para conceder acceso, [agregue usuarios](../dev-itpro/sysadmin/tasks/create-new-users.md) y [asigne los roles adecuados a ellos](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md) en el entorno Core HR. También debe agregar estos usuarios al entorno de PowerApps para que puedan tener acceso a las aplicaciones Attract y Onboard. El procedimiento se describe aquí. Si necesita ayuda para completar los pasos, consulte la entrada de blog [Introducción del centro de administración de PowerApps](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/).
+De forma predeterminada, solo tiene acceso el administrador global que creó el entorno. Sin embargo, los usuarios de aplicaciones adicionales debe conceder acceso de forma explícita. Para conceder acceso, [agregue usuarios](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) y [asigne los roles adecuados a ellos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) en el entorno Core HR. El administrador global que implementó Talent también debe poner en las aplicaciones Attract y Onboard para completar la inicialización y para habilitar el acceso a otros usuarios inquilinos.  Hasta que esto ocurra, otros usuarios no podrán tener acceso a las aplicaciones Attract y Onboard y obtendrán errores de infracción de acceso.
 
-Este procedimiento es completado por el administrador global que implementó el entorno Talent.
-
-1. Abra el [Centro de administración de PowerApps](https://preview.admin.powerapps.com/environments).
-2. Seleccione los entornos adecuados.
-3. En la pestaña **Seguridad**, agregue los usuarios necesarios al rol del **Responsable del entorno**.
-
-    Tenga en cuenta que este paso final, en el que agrega manualmente usuarios al entorno de PowerApps, es temporal. Finalmente, se completará automáticamente cuando se agregan usuarios en Core HR.
 

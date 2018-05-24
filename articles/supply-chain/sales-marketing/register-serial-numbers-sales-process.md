@@ -20,24 +20,22 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 23683ff3b232d485d0e4386963b3dcf37cd96c6f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="register-serial-numbers-in-the-sales-process"></a>Registro de números de serie en el proceso de ventas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Este tema explica cómo puede registrar los números de serie en albaranes o facturas durante el proceso de ventas. Esta funcionalidad es útil si una empresa desea capturar los números de serie para propósitos de servicio y de garantía, pero no tiene que mantener los números de serie en el inventario desde recepción a emisión.
 
 Muchas empresas solo desean capturar los números de serie para propósitos de servicio y de garantía, y no tienen que mantener los números de serie en el inventario desde recepción a emisión. En estos casos, Microsoft Dynamics 365 for Finance and Operations le permite registrar los números de serie en los albaranes o facturas al vender productos. Si más adelante los productos se devuelven, puede realizar un seguimiento de cada producto en una factura para determinar si vendió el producto, y si las obligaciones de servicio o de garantía son válidas.
-¿Hay algún requisito previo?
-----------------------------
 
 Debe habilitar los números de serie del proceso de ventas seleccionando la opción **Activo en el proceso de ventas** en la página **Grupos de dimensiones de seguimiento**. Los eventos siguientes se producen a continuación en Microsoft Dynamics 365 for Finance and Operations:
 -   En la ficha desplegable **Números de serie**, la opción **Control de números de serie** está seleccionada. Si se selecciona esta opción, debe registrar un número de serie para cada artículo en el albarán o en la factura.
@@ -71,8 +69,8 @@ No, no puede ver los artículos serializados que tiene disponibles porque los n�
 
 ## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>¿Puedo registrar números de serie de los artículos con peso capturado?
 No, no puede registrar números de serie de los artículos con peso capturado durante el proceso de ventas. Además, si un producto se configura como artículo con peso capturado, no puede asignar el producto a un grupo de dimensiones de seguimiento configurado para usar números de serie solo durante el proceso de ventas.
-¿Puedo registrar números de serie en el PDV minorista?
-------------------------------------------------
+
+## <a name="can-i-register-serial-numbers-at-the-retail-pos"></a>¿Puedo registrar números de serie en el PDV minorista?
 
 Sí, el punto de venta minorista (PDV) solicitará al usuario que especifique un número de serie cuando venda un artículo asignado a un grupo de dimensiones de seguimiento configurado para usar números de serie solo durante el proceso de ventas.
 

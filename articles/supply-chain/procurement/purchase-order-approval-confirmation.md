@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1c7209c91f3821a77e9b127d767c78df403ff6cc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 475470fa87455e187e0a93148046cb1df634da1f
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="approve-and-confirm-purchase-orders"></a>confirmarAprobar y confirmar pedidos de compra.
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Este artículo describe los estados por los que pasa un pedido de compra una vez se ha creado y el efecto de habilitar la administración de cambios en los pedidos de compra.
 
@@ -75,7 +75,7 @@ Si se ha entregado parte de la cantidad pedida para una línea de pedido de comp
 
 Tras la confirmación de un pedido, ya no podrá eliminarlo. Sin embargo, puede cancelar la cantidad total o cualquier cantidad restante de un pedido, siempre que la cantidad no se haya recibido o facturado.
 
-<a name="see-also"></a>Consulte también
+<a name="additional-resources"></a>Recursos adicionales
 --------
 
 [Visión general de pedidos de compra](purchase-order-overview.md)

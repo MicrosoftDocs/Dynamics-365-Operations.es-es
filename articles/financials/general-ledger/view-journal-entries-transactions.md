@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 825dba31a7093e9d9460f5aab59a96507dafeb8a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9768154e117ca09ae84c6a9c82d43000752c2b34
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-journal-entries-and-transactions"></a>Ver movimientos del diario y transacciones
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artículo explica las distintas maneras en las que puede ver entradas del diario y transacciones. 
 
@@ -54,9 +54,9 @@ Además de los informes financieros, puede usar los siguientes informes de conta
 -   **Origen de la transacción**: este informe de transacciones muestra la cuenta por diario, y por divisa de transacción, contabilidad e informes. También muestra cada línea del diario que se usaba como contrapartida.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="additional-resources"></a>Recursos adicionales
 - [Saldos de cuentas de contabilidad](general-ledger-account-balances.md) 
-- [Explorador de origen de contabilidad](..\accounts-payable\accounting-source-explorer.md)
+- [Explorador de origen de contabilidad](../accounts-payable/accounting-source-explorer.md)
 - [Informes financieros](financial-reporting-getting-started.md)
 - [Ver entradas del diario](tasks/view-journal-entries-or-transactions.md)
 
