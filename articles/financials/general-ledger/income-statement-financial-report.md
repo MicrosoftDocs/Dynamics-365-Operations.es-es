@@ -19,56 +19,56 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 157eff2dfaaecd105d1f8c371adbea659d5b4662
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9310508082ff710cd040b74519044f5a90c23988
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="income-statement-financial-report"></a><span data-ttu-id="2de08-104">Informe financiero de informe de ingresos</span><span class="sxs-lookup"><span data-stu-id="2de08-104">Income statement financial report</span></span>
+# <a name="income-statement-financial-report"></a><span data-ttu-id="440dc-104">Informe financiero de informe de ingresos</span><span class="sxs-lookup"><span data-stu-id="440dc-104">Income statement financial report</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2de08-105">En este artículo se describen los informes predeterminados para las declaraciones de ingresos.</span><span class="sxs-lookup"><span data-stu-id="2de08-105">This article describes the default report for income statements.</span></span> <span data-ttu-id="2de08-106">También se describen los componentes asociados con este informe.</span><span class="sxs-lookup"><span data-stu-id="2de08-106">It also describes the building blocks that are associated with this report.</span></span> 
+<span data-ttu-id="440dc-105">En este artículo se describen los informes predeterminados para las declaraciones de ingresos.</span><span class="sxs-lookup"><span data-stu-id="440dc-105">This article describes the default report for income statements.</span></span> <span data-ttu-id="440dc-106">También se describen los componentes asociados con este informe.</span><span class="sxs-lookup"><span data-stu-id="440dc-106">It also describes the building blocks that are associated with this report.</span></span> 
 
-<a name="default-income-statement-report"></a><span data-ttu-id="2de08-107">Informe de ingresos predeterminado</span><span class="sxs-lookup"><span data-stu-id="2de08-107">Default income statement report</span></span>
+<a name="default-income-statement-report"></a><span data-ttu-id="440dc-107">Informe de ingresos predeterminado</span><span class="sxs-lookup"><span data-stu-id="440dc-107">Default income statement report</span></span>
 -------------------------------
 
-| <span data-ttu-id="2de08-108">Informe predeterminado</span><span class="sxs-lookup"><span data-stu-id="2de08-108">Default report</span></span>             | <span data-ttu-id="2de08-109">Qué hace</span><span class="sxs-lookup"><span data-stu-id="2de08-109">What it does</span></span>                                                                                              |
+| <span data-ttu-id="440dc-108">Informe predeterminado</span><span class="sxs-lookup"><span data-stu-id="440dc-108">Default report</span></span>             | <span data-ttu-id="440dc-109">Qué hace</span><span class="sxs-lookup"><span data-stu-id="440dc-109">What it does</span></span>                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="2de08-110">Informe de ingresos – predeterminado</span><span class="sxs-lookup"><span data-stu-id="2de08-110">Income Statement – Default</span></span> | <span data-ttu-id="2de08-111">Ofrece una vista de la rentabilidad de la organización para el período actual y también para el ejercicio hasta la fecha.</span><span class="sxs-lookup"><span data-stu-id="2de08-111">Provides a view of the organization’s profitability for the current period and also for the year to date.</span></span> |
+| <span data-ttu-id="440dc-110">Informe de ingresos – predeterminado</span><span class="sxs-lookup"><span data-stu-id="440dc-110">Income Statement – Default</span></span> | <span data-ttu-id="440dc-111">Ofrece una vista de la rentabilidad de la organización para el período actual y también para el ejercicio hasta la fecha.</span><span class="sxs-lookup"><span data-stu-id="440dc-111">Provides a view of the organization’s profitability for the current period and also for the year to date.</span></span> |
 
-## <a name="building-blocks"></a><span data-ttu-id="2de08-112">Bloques de creación</span><span class="sxs-lookup"><span data-stu-id="2de08-112">Building blocks</span></span>
-<span data-ttu-id="2de08-113">El informe financiero del informe de ingresos usa los siguientes bloques de creación.</span><span class="sxs-lookup"><span data-stu-id="2de08-113">The income statement financial report uses the following building blocks.</span></span>
+## <a name="building-blocks"></a><span data-ttu-id="440dc-112">Bloques de creación</span><span class="sxs-lookup"><span data-stu-id="440dc-112">Building blocks</span></span>
+<span data-ttu-id="440dc-113">El informe financiero del informe de ingresos usa los siguientes bloques de creación.</span><span class="sxs-lookup"><span data-stu-id="440dc-113">The income statement financial report uses the following building blocks.</span></span>
 
-| <span data-ttu-id="2de08-114">Informe predeterminado</span><span class="sxs-lookup"><span data-stu-id="2de08-114">Default report</span></span>             | <span data-ttu-id="2de08-115">Definición de filas</span><span class="sxs-lookup"><span data-stu-id="2de08-115">Row definition</span></span>                     | <span data-ttu-id="2de08-116">Definición de columnas</span><span class="sxs-lookup"><span data-stu-id="2de08-116">Column definition</span></span>          |
+| <span data-ttu-id="440dc-114">Informe predeterminado</span><span class="sxs-lookup"><span data-stu-id="440dc-114">Default report</span></span>             | <span data-ttu-id="440dc-115">Definición de filas</span><span class="sxs-lookup"><span data-stu-id="440dc-115">Row definition</span></span>                     | <span data-ttu-id="440dc-116">Definición de columnas</span><span class="sxs-lookup"><span data-stu-id="440dc-116">Column definition</span></span>          |
 |----------------------------|------------------------------------|----------------------------|
-| <span data-ttu-id="2de08-117">Informe de ingresos - predeterminado</span><span class="sxs-lookup"><span data-stu-id="2de08-117">Income Statement - Default</span></span> | <span data-ttu-id="2de08-118">Resumen de informe de ingresos - predeterminado</span><span class="sxs-lookup"><span data-stu-id="2de08-118">Summary Income Statement - Default</span></span> | <span data-ttu-id="2de08-119">Periódico y anual - predeterminado</span><span class="sxs-lookup"><span data-stu-id="2de08-119">Periodic and YTD - Default</span></span> |
+| <span data-ttu-id="440dc-117">Informe de ingresos - predeterminado</span><span class="sxs-lookup"><span data-stu-id="440dc-117">Income Statement - Default</span></span> | <span data-ttu-id="440dc-118">Resumen de informe de ingresos - predeterminado</span><span class="sxs-lookup"><span data-stu-id="440dc-118">Summary Income Statement - Default</span></span> | <span data-ttu-id="440dc-119">Periódico y anual - predeterminado</span><span class="sxs-lookup"><span data-stu-id="440dc-119">Periodic and YTD - Default</span></span> |
 
-### <a name="row-definition"></a><span data-ttu-id="2de08-120">Definición de filas</span><span class="sxs-lookup"><span data-stu-id="2de08-120">Row definition</span></span>
+### <a name="row-definition"></a><span data-ttu-id="440dc-120">Definición de filas</span><span class="sxs-lookup"><span data-stu-id="440dc-120">Row definition</span></span>
 
-<span data-ttu-id="2de08-121">La definición de filas, Resumen de informe de ingresos - predeterminado, contiene una sección para cada parte de un extracto tradicional de ingresos.</span><span class="sxs-lookup"><span data-stu-id="2de08-121">The row definition, Summary Income Statement – Default, contains a section for each part of a traditional income statement.</span></span> <span data-ttu-id="2de08-122">La dimensión Categoría de cuenta principal se usa para crear esta definición de filas.</span><span class="sxs-lookup"><span data-stu-id="2de08-122">The Main Account Category dimension is used to build this row definition.</span></span> <span data-ttu-id="2de08-123">Por tanto, cualquier persona puede generar el informe sin tener que realizar ninguna modificación.</span><span class="sxs-lookup"><span data-stu-id="2de08-123">Therefore, anyone can generate the report without having to make any modifications.</span></span>
+<span data-ttu-id="440dc-121">La definición de filas, Resumen de informe de ingresos - predeterminado, contiene una sección para cada parte de un extracto tradicional de ingresos.</span><span class="sxs-lookup"><span data-stu-id="440dc-121">The row definition, Summary Income Statement – Default, contains a section for each part of a traditional income statement.</span></span> <span data-ttu-id="440dc-122">La dimensión Categoría de cuenta principal se usa para crear esta definición de filas.</span><span class="sxs-lookup"><span data-stu-id="440dc-122">The Main Account Category dimension is used to build this row definition.</span></span> <span data-ttu-id="440dc-123">Por tanto, cualquier persona puede generar el informe sin tener que realizar ninguna modificación.</span><span class="sxs-lookup"><span data-stu-id="440dc-123">Therefore, anyone can generate the report without having to make any modifications.</span></span>
 
-### <a name="column-definition"></a><span data-ttu-id="2de08-124">Definición de columnas</span><span class="sxs-lookup"><span data-stu-id="2de08-124">Column Definition</span></span>
+### <a name="column-definition"></a><span data-ttu-id="440dc-124">Definición de columnas</span><span class="sxs-lookup"><span data-stu-id="440dc-124">Column Definition</span></span>
 
-<span data-ttu-id="2de08-125">Las definiciones de columnas contienen diversos tipos de columnas para proporcionar distintos niveles de detalle y datos financieros.</span><span class="sxs-lookup"><span data-stu-id="2de08-125">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
+<span data-ttu-id="440dc-125">Las definiciones de columnas contienen diversos tipos de columnas para proporcionar distintos niveles de detalle y datos financieros.</span><span class="sxs-lookup"><span data-stu-id="440dc-125">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   <span data-ttu-id="2de08-126">**Periódico y anual - tipos de columna predeterminadas:**</span><span class="sxs-lookup"><span data-stu-id="2de08-126">**Periodic and YTD – Default column types:**</span></span>
-    -   <span data-ttu-id="2de08-127">**DESC** : la descripción de la definición de filas.</span><span class="sxs-lookup"><span data-stu-id="2de08-127">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="2de08-128">**FD**: datos financieros para el período actual</span><span class="sxs-lookup"><span data-stu-id="2de08-128">**FD** – Financial data for the current period</span></span>
-    -   <span data-ttu-id="2de08-129">**FD**: datos financieros para el año hasta la fecha</span><span class="sxs-lookup"><span data-stu-id="2de08-129">**FD** – Financial data for the year to date</span></span>
+-   <span data-ttu-id="440dc-126">**Periódico y anual - tipos de columna predeterminadas:**</span><span class="sxs-lookup"><span data-stu-id="440dc-126">**Periodic and YTD – Default column types:**</span></span>
+    -   <span data-ttu-id="440dc-127">**DESC** : la descripción de la definición de filas.</span><span class="sxs-lookup"><span data-stu-id="440dc-127">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="440dc-128">**FD**: datos financieros para el período actual</span><span class="sxs-lookup"><span data-stu-id="440dc-128">**FD** – Financial data for the current period</span></span>
+    -   <span data-ttu-id="440dc-129">**FD**: datos financieros para el año hasta la fecha</span><span class="sxs-lookup"><span data-stu-id="440dc-129">**FD** – Financial data for the year to date</span></span>
 
 
 
-<a name="see-also"></a><span data-ttu-id="2de08-130">Consulte también</span><span class="sxs-lookup"><span data-stu-id="2de08-130">See also</span></span>
+<a name="additional-resources"></a><span data-ttu-id="440dc-130">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="440dc-130">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="2de08-131">Informes financieros</span><span class="sxs-lookup"><span data-stu-id="2de08-131">Financial reporting</span></span>](financial-reporting-getting-started.md)
+[<span data-ttu-id="440dc-131">Informes financieros</span><span class="sxs-lookup"><span data-stu-id="440dc-131">Financial reporting</span></span>](financial-reporting-getting-started.md)
 
-[<span data-ttu-id="2de08-132">Ver informes financieros</span><span class="sxs-lookup"><span data-stu-id="2de08-132">View financial reports</span></span>](view-financial-reports.md)
+[<span data-ttu-id="440dc-132">Ver informes financieros</span><span class="sxs-lookup"><span data-stu-id="440dc-132">View financial reports</span></span>](view-financial-reports.md)
 
-[<span data-ttu-id="2de08-133">Blog de informes financieros de Dynamics</span><span class="sxs-lookup"><span data-stu-id="2de08-133">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[<span data-ttu-id="440dc-133">Blog de informes financieros de Dynamics</span><span class="sxs-lookup"><span data-stu-id="440dc-133">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 
