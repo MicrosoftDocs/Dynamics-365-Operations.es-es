@@ -3,7 +3,7 @@ title: "Ejecución de lotes para alertas"
 description: "Este tema proporciona información general el proceso por lotes de las alertas de Microsoft Dynamics 365 for Finance and Operations."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -25,8 +25,6 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="batch-processing-for-alerts"></a>Procesamiento de lotes para alertas
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 Las alertas se procesan por la funcionalidad de procesamiento por lotes en Microsoft Dynamics 365 for Finance and Operations. Debe configurar el proceso por lotes para que se entreguen las alertas.
 
