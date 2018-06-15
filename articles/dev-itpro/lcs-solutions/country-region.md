@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c925b2e996f51b8c5d5332217643c3155cfc03c0
+ms.sourcegitcommit: 4c61cb81368251540e0015e155b1cc932bf7b948
+ms.openlocfilehash: 6360bbc8e5abd94cfd1c2853bc384598047eec39
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/16/2018
 
 ---
 
@@ -106,22 +106,9 @@ Las siguientes secciones muestran una lista de recursos por país o región.
 -   [Pagos de impuestos](../../financials/localizations/latam-bra-tax-payments.md)
 -   [Impuestos](../../financials/localizations/latam-bra-calculate-taxes.md)
 
-### <a name="china"></a>China
--   [Comparación de lista de materiales](../../financials/localizations/apac-chn-bom-comparison.md)
--   [Asientos para China](../../financials/localizations/apac-chn-vouchers.md)
--   [Configurar integración de impuestos](../../financials/localizations/apac-chn-tax-integration.md)
-    -   [Preguntas frecuentes de facturas de cliente de IVA](../../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
-    -   [Métodos de depreciación para activos fijos ](../../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md)
--   [Importar la entidad de datos de Impuesto Dorado chino](../../financials/localizations/apac-chn-import-golden-tax-data-entity.md)
--   [Modelo de coste medio mensual](../../financials/localizations/apac-chn-monthly-average-cost-model.md)
--   [Registrar cuentas principales de inventario por sitio](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
--   [Mostrar importes de débito y de crédito para cuentas contables](../../financials/localizations/apac-chn-negative-debits-credits.md)
-
+### <a name="chinafinancialslocalizationschinamd"></a>[China](../../financials/localizations/china.md)
 ### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[República Checa](../../financials/localizations/czech-republic.md)
-
-### <a name="estonia"></a>Estonia
--   [Detalles de declaración de IVA para Estonia](../../financials/localizations/emea-est-vat-statement-details.md)
--   [Cancelación de activos fijos](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+### <a name="estoniafinancialslocalizationsestoniamd"></a>[Estonia](../../financials/localizations/estonia.md)
 
 ### <a name="europe"></a>Europa
 - [Titulares de anticipo](../../financials/localizations/emea-advance-holders.md)
@@ -185,7 +172,7 @@ Las siguientes secciones muestran una lista de recursos por país o región.
 ### <a name="hungary"></a>Hungría
 
 -   [Métodos de depreciación para activos fijos](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
--   [Mover un activo fijo a un inventario](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+-   [Mover un activo fijo al inventario](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
 -   [Activos fijos de bajo coste](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
 
 ### <a name="india"></a>India
