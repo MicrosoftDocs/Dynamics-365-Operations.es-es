@@ -28,6 +28,7 @@ ms.lasthandoff: 05/08/2018
 
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Actualizar la gestión de almacenes de Microsoft Dynamics AX 2012 a Finance and Operations
 
+
 [!include [banner](../includes/banner.md)]
 
 Este tema proporciona una visión general del proceso de actualización de Microsoft Dynamics AX 2012 R3, que ejecuta el módulo WMSII, a Microsoft Dynamics 365 for Finance and Operations.
