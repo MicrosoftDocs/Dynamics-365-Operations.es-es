@@ -1,6 +1,6 @@
 ---
-title: intrastat
-description: "Este artículo proporciona información acerca de los informes de Intrastat para comercio de bienes y, en algunos casos, servicios entre países y regiones de la Unión Europea (UE). Proporciona una visión general del proceso de informes y describe la configuración y los requisitos previos necesarios."
+title: Intrastat
+description: "Este tema proporciona información acerca de los informes de Intrastat para comercio de bienes y, en algunos casos, servicios entre países y regiones de la Unión Europea (UE). Proporciona una visión general del proceso de informes y describe la configuración y los requisitos previos necesarios."
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2ee60f3d1155b89d342b94832fbdbe898a5063c6
+ms.sourcegitcommit: b4b3d8f7da4fbb107353a25ff177492a0744b4c1
+ms.openlocfilehash: 50eb50c636d70dbdc374e8cfc89438433fb1f1b0
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 
-# <a name="intrastat"></a>intrastat
+# <a name="intrastat"></a>Intrastat
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo proporciona información acerca de los informes de Intrastat para comercio de bienes y, en algunos casos, servicios entre países y regiones de la Unión Europea (UE). Proporciona una visión general del proceso de informes y describe la configuración y los requisitos previos necesarios.
+Este tema proporciona información acerca de los informes de Intrastat para comercio de bienes y, en algunos casos, servicios entre países y regiones de la Unión Europea (UE). Proporciona una visión general del proceso de informes y describe la configuración y los requisitos previos necesarios.
 
 Intrastat es el sistema de recopilación de información y generación de estadísticas sobre comercio de bienes entre países y regiones de la Unión Europea (UE). Siempre que un producto cruce la frontera de otro país o región de la UE. hace falta presentar un informe Intrastat. En varios países y regiones, los informes Intrastat también son obligatorios para los servicios. Los informes Intrastat pueden incluir elementos necesarios y opcionales. Los elementos siguientes son obligatorios: el número de IVA de la parte responsable de proporcionar información, el período de referencia, el flujo (recepción o distribución), el código de mercancía de ocho dígitos, el estado miembro socio (estado miembro de envío en recepción y el estado miembro de destino en distribución), el valor de las mercancías, la cantidad de las mercancías (masa neta y unidad suplementaria) y la naturaleza de la transacción. Los países y regiones también pueden recopilar elementos opcionales bajo distintas condiciones. Algunos elementos opcionales son el país o la región de origen, las condiciones de entrega, el modo de transporte, un código de mercancía más detallado que el CN8, la región de origen en distribución y la región de destino en llegadas, el procedimiento estadístico, el valor estadístico, una descripción de las mercancías y el puerto o el aeropuerto de carga y descarga.
 
@@ -223,6 +223,7 @@ Use la página **Parámetros de comercio exterior** para configurar los parámet
 </ul></li>
 <li><strong>Informes electrónicos</strong>: especifique referencias a configuraciones de informes electrónicos, de manera que pueda generar un archivo y un informe electrónico.</li>
 <li><strong>Jerarquía de códigos de mercancías</strong>: especifique la jerarquía de categorías del tipo <strong>Código de mercancía</strong> que representa el código de mercancía Intrastat CN8.</li>
+  <li> <strong>Tipo de cambio</strong> – De manera opcional, especifique un tipo de cambio que utilizará para notificar las transacciones de ventas y compras de intrastat en divisas extranjeras. Esto se utiliza si la tasa es diferente de la que se aplica al registrar la transacción.</li>  
 </ul></td>
 </tr>
 <tr class="even">
@@ -239,9 +240,5 @@ Use la página **Parámetros de comercio exterior** para configurar los parámet
 </tr>
 </tbody>
 </table>
-
-
-
-
 
 

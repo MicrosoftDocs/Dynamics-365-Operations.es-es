@@ -3,7 +3,7 @@ title: "Vídeos para Dynamics 365 for Finance and Operations"
 description: "Esta página muestra los vídeos de procedimientos y de charlas técnicas creadsa por Microsoft para Dynamics 365 for Finance and Operations que están disponibles en YouTube y en otros sitios."
 author: josaw1
 manager: AnnBe
-ms.date: 05/08/2018
+ms.date: 05/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1a7f95090f245af8a5520326954ce01747d71f17
+ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
+ms.openlocfilehash: 7783671baa66b9c8ab0bb2626555d5ccbfaa1fe9
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 
@@ -81,6 +81,9 @@ Los vídeos están enumerados por función. Desplácese hacia abajo para ver la 
 
 #### <a name="office-integration"></a>Integración con Office
 - [Crear una plantilla de Excel para patrones de encabezado y línea en Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
+
+#### <a name="organization-administration"></a>Administración de la organización
+- [Administración de documentos](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
 
 #### <a name="procurement-and-sourcing"></a>Adquisición y abastecimiento
 - [Aprobar pedidos de compra en dispositivos móviles](https://youtu.be/gZ-gOlJe7H8)

@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a05fec7b79003d5b98470d85644d70bd1dbac285
-ms.openlocfilehash: 9e0c61505a8af864d7ff38655e7e896c4f6ccb65
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: e952a2f988645ccff7617817262cbf0e90bfd8ab
 ms.contentlocale: es-es
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -94,10 +94,7 @@ Puede descargar un archivo zip para el paquete de datos. Este archivo contiene t
 
 El registro **Ejecución de la vista** proporciona información detallada acerca de cada entidad de datos que se importe. Puede usar la vista de datos provisional para obtener rápidamente los datos de destino. De esta manera, puede ver cómo se muestran los datos importados en las páginas relacionadas en la aplicación. Al utilizar las plantillas de datos predeterminadas, la secuencia de importación para cada entidad de datos funciona de la forma predefinida, para ayudar a garantizar que todos los datos dependiente se importen primero. Si las entidades personalizadas de los datos son parte del proyecto, debe asegurarse de que se ha definido la secuencia correcta. Para obtener más información, consulte [Plantillas de datos de configuración](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-Para obtener más información acerca de cómo usar la plantilla del almacén para copiar la configuración de un almacén de una empresa a una nueva empresa dentro de la misma instancia, vea este vídeo de 3 minutos en YouTube.
-
-> [!Video https://www.youtube.com/embed/K2WIfFlqJYs]
-
+Para obtener más información acerca de cómo usar una plantilla de almacén para copiar la configuración de un almacén de una empresa en una nueva empresa dentro de la misma instancia, vea este vídeo de 3 minutos en YouTube: [Usar una plantilla de almacén para copiar la configuración de Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Tema relacionado
 

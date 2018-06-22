@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: c935b0c14f09b0a3a738266e4c9c577c96f0ea77
+ms.sourcegitcommit: 65101b5f0030a25973a584b68ec9697506868294
+ms.openlocfilehash: 6b954d1eedb7c7af1c9a5eda92aa1dd6132a19fa
 ms.contentlocale: es-es
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/30/2018
 
 ---
 
@@ -162,6 +162,18 @@ A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendac
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise Edition julio 2017 con acutlización 8 de la plataforma
+
+### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Conversión de divisa para contabilidad y divisas de notificación
+
+La conversión de divisas para contabilidad y divisas de notificación se introdujo cuando se introdujo el euro.
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Uso y adición limitados de la funcionalidad Copiar entidad jurídica como sustitución.      |
+| **¿Reemplazado por otra característica?**   | No, pero las funciones Copiar entidad jurídica y Configuraciones se agregaron para facilitar el cambio a una empresa que tiene requisitos básicos cambiantes. |
+| **Áreas de producto afectadas**         | Administración financiera     |
+| **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función.   |
+
 
 ### <a name="warehouse-mobile-devices-portal"></a>Portal de dispositivos móviles de almacén
 
