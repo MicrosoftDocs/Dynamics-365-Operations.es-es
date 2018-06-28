@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fecdca72839ef8ce204b62db6e02e8fa809a30d5
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: 613fcf941576b9fb05f5c059699e4cc9c4cabe3e
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -94,7 +94,7 @@ Los informes financieros proporcionan 22 informes financieros predeterminados. C
 | Detalles de auditoría - predeterminado                                  | Vea información detallada de saldo para todas las cuentas. Este informe muestra los saldos de débito y crédito en la divisa de notificación y la divisa local, junto con la información de transacciones adicional, como el id. de usuario, el usuario que modificó los datos por última vez, la fecha de la última modificación y el id. de diario. |
 | Lista de saldos - predeterminado                                   | Vea información detallada de saldo para todas las cuentas. Este informe muestra los saldos de apertura y cierre, y los saldos de débito y crédito para el período actual y el año hasta la fecha, junto con la información de transacciones adicional, como el asiento.                                                                    |
 | Balance de situación - predeterminado                                   | Vea la posición financiera de la organización para el año.                                                                                                                                                                                                                                                             |
-| Balance de situación e informe de ingresos en paralelo - valor predeterminado | Ver la rentabilidad y posición financiera de la organización para el año de forma simultánea.                                                                                                                                                                                                                              |
+| Balance de situación e informe de ingresos en paralelo - predeterminado | Ver la rentabilidad y posición financiera de la organización para el año de forma simultánea.                                                                                                                                                                                                                              |
 | Flujo de efectivo - predeterminado                                       | Obtenga información del efectivo que entra y sale de la organización.                                                                                                                                                                                                                                   |
 | Revisión de JE y TB detallada – predeterminado                      | Vea el saldo de apertura y la información de la actividad para todas las cuentas.                                                                                                                                                                                                                                                      |
 | Saldo de comprobación detallado - predeterminado                         | Vea información de saldo para todas las cuentas que tengan saldos de débito y de crédito, y el neto de estos, junto con la fecha de transacción, el asiento y la descripción del diario.                                                                                                                                  |
@@ -117,12 +117,9 @@ Al hacer clic en el menú **Informes financieros**, se muestra la lista de infor
 ## <a name="creating-and-modifying-financial-reports"></a>Creación y modificación de informes financieros
 A partir de la lista de informes financieros, puede crear un nuevo informe o modificar un informe existente. Si dispone de los permisos adecuados, puede crear un nuevo informe financiero haciendo clic en **Nuevo** del panel de acciones. Se descarga un programa del diseñador de informes en el dispositivo. Una vez iniciado el diseñador de informes, puede crear el nuevo informe. Tras guardar el nuevo informe, aparece en la lista de informes financieros. En la lista se muestran solo los informes que se crearon para la empresa que está usando en Finance and Operations. Para obtener más información sobre el proceso de creación y modificación de informes financieros en Finance and Operations, consulte estos [artículos de blog](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) en el blog de informes financieros de Dynamics. **Nota:** El equipo en el que está descargando el cliente del diseñador de informes debe tener instalada la versión 4.6.2 del Microsoft .NET Framework. Esta versión de Microsoft .NET Framework puede descargarse e instalarse desde [aquí](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Si está usando Chrome, debe instalar una extensión ClickOnce para descargar el cliente del diseñador de informes. Si está ejecutando en modo ingógnito, asegúrese de que la extensión ClickOnce está activada para el modo incógnito. También puede modificar un informe que aparece en la lista de informes financieros. Cuando se seleccione el área alrededor del nombre del informe, haga clic en **Editar** en el Panel de acciones. Se inicia el programa del diseñador de informes.
 
-<a name="additional-resources"></a>Recursos adicionales
---------
-
-[Ver informes financieros](view-financial-reports.md)
-
-[Blog de informes financieros de Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+## <a name="additional-resources"></a>Recursos adicionales
+- [Ver informes financieros](view-financial-reports.md)
+- [Blog de informes financieros de Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

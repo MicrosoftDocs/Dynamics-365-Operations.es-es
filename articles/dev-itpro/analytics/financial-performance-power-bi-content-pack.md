@@ -1,6 +1,6 @@
 ---
-title: Contenido de Power BI sobre rendimiento financiero
-description: Este tema describe el contenido en Power BI de rendimiento financiero.
+title: "Solución PowerBI.com sobre rendimiento financiero"
+description: "Este tema describe la solución PowerBI.com sobre rendimiento financiero."
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
@@ -18,26 +18,26 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: d062937d8d1cb7d8e4f4cc055eb4514fa56b4eab
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: b70d470da2160670848d2dca9c97f6d7a2d6cf60
 ms.contentlocale: es-es
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>Contenido de Power BI sobre rendimiento financiero
+# <a name="financial-performance-powerbicom-solution"></a>Solución PowerBI.com sobre rendimiento financiero
 
 [!include [banner](../includes/banner.md)]
 
 > [!Note]
-> Este paquete de contenido se ha dejado de utilizar como documentado en [Paquetes de contenido de Power BI disponibles en AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> La solución PowerBI.com se ha dejado de utilizar como documentado en [Paquetes de contenido de Power BI disponibles en AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Este tema describe el contenido en Microsoft Power BI de **Rendimiento financiero**. Describe el panel de información y los informes incluidos y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este tema describe la solución PowerBI.com sobre **rendimiento financiero**. Describe el panel de información y los informes incluidos y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar la solución.
 
 ## <a name="main-account-setup"></a>Configuración de la cuenta principal
 Debido a que las organizaciones quieren que los ingresos aparezcan como cantidades positivas en los informes, la configuración de las cuentas principales es importante. Para que esas cuentas principales aparezcan como importes positivos, el tipo de cuenta principal debe definirse como **Pasivo** o **Ingreso**. Al utilizar estos tipos de cuentas, los informes de Power BI invertirán los signos y mostrarán los importes como positivos.
 
-## <a name="dashboard-and-reports-that-are-included-in-the-power-bi-content"></a>Panel de información e informes incluidos en el contenido de Power BI
+## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>Panel de información e informes incluidos en la solución PowerBI.com
 El panel contiene los iconos resumidos de los datos que se basan en los informes subyacentes. Cada icono contiene la información resumida del año actual en todas las empresas de una organización. Estos son algunos de estos iconos:
 
 - Efectivo
@@ -74,7 +74,7 @@ Cada icono viene respaldado por un informe auxiliar. Estos informes contienen ta
 Los gráficos y los iconos en todos estos informes se pueden filtrar y anclar al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
-Las siguientes entidades se usaban como la base del contenido en Power BI de **Rendimiento financiero**:
+Las siguientes entidades se usaban como la base de la solución PowerBI.com de **Rendimiento financiero**:
 
 **Entidades de datos agregados**
 

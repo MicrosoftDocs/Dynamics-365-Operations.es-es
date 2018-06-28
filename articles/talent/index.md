@@ -1,9 +1,9 @@
 ---
 title: Microsoft Dynamics 365 for Talent
 description: "Talent simplifica muchas tareas rutinarias de mantenimiento de registros y automatiza un gran número de procesos relacionados con la dotación de personal para la organización. Estos procesos incluyen la conservación de empleados, la administración de prestaciones, la formación, las evaluaciones de desempeño y la administración de cambios."
-author: rschloma
+author: josaw
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 06/04/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
+ms.sourcegitcommit: bde68c9167e18cae6be4988865123d20274753c0
+ms.openlocfilehash: 9bc09a822f78b9792c2afdb0d297809edea7551a
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/06/2018
 
 ---
 
@@ -42,6 +42,9 @@ Puede usar Talent para completar estas tareas:
 + Revisar objetivos de los trabajadores de rendimiento e implementación.
 + Configurar, proporcionar y analizar cursos, incluidos los programas, las sesiones y las trayectorias.
 
+Vea el vídeo para explorar Dynamics 365 for Talent [Introducción a Dynamics 365 for Talent.](https://www.youtube.com/watch?v=6rg2ByadbN0)
+
+
 > [!NOTE] 
 > Dynamics 365 for Talent está estrechamente vinculado con Recursos humanos en Dynamics 365 for Finance and Operations. Puede que ambos productos tengan la misma funcionalidad. Como resultado, en los temas relacionados principalmente con Recursos humanos, el nombre del producto será Dynamics 365 for Finance and Operations. En los temas relacionados principalmente con Talent, el nombre del producto será Dynamics 365 for Talent. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
 
@@ -53,8 +56,10 @@ Durante el trabajo con Talent, decidirá cómo estructurar su organización util
 -   [Organizar los recursos mediante departamentos, trabajos y puestos](departments-jobs-positions.md)
 -   [Configurar parámetros de recursos humanos específicos de la empresa](set-up-company-specific-hr-parameters.md)
 -   [Configurar parámetros de recursos humanos en entidades jurídicas](set-up-hr-parameters-across-legal-entities.md) 
--   [Preguntas frecuentes sobre acciones del personal](personnel-actions-faq.md)
+-   [Preguntas más frecuentes sobre acciones del personal](personnel-actions-faq.md)
 -   [Visión general de bajas y ausencias](leave-absence-overview.md)
+-   [Cómo utilizar Dynamics 365 for Talent: ausencias y bajas (vídeo)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
+-   [Cómo administrar personal en Dynamics 365 for Talent (vídeo)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
 ## <a name="staffing-your-organization"></a>Dotación de personal para la organización
 
@@ -71,14 +76,16 @@ Puede configurar planes para administrar la compensación de forma eficaz y equi
 -   [Procesar compensaciones](process-compensation.md)
 -   [Crear planes de compensación fija](create-fixed-compensation-plans.md)
 -   [Crear planes de compensación variable](create-variable-compensation-plans.md)
+-   [Cómo administrar compensaciones en Dynamics 365 for Talent (vídeo)](https://www.youtube.com/watch?v=lEw5oKopHDk)
 
 ## <a name="develop-and-train-employees"></a>Desarrollar y formar a empleados
 
-Para ayudar a que sus empleados alcancen sus objetivos profesionales al mismo tiempo que satisfacen las necesidades críticas del negocio, puede establecer metas, crear revisiones de rendimiento y realizar un seguimiento de opiniones. Para ayudar a los empleados a desarrollar sus capacidades, también puede configurar instructores, tipos de curso, cursos, descripciones de curso, programas, trayectorias y sesiones antes de asignar a un instructor a un curso, o registrar a alguien para un curso.. Los instructores deben existir como trabajadores, candidatos, o contactos.
+Para ayudar a que sus empleados alcancen sus objetivos profesionales al mismo tiempo que satisfacen las necesidades críticas del negocio, puede establecer metas, crear revisiones de rendimiento y realizar un seguimiento de opiniones. Para ayudar a los empleados a desarrollar sus capacidades, también puede configurar instructores, tipos de curso, cursos, descripciones de curso, programas, trayectorias y sesiones antes de asignar a un instructor a un curso, o registrar a alguien para un curso. Los instructores deben existir como trabajadores, candidatos, o contactos.
 
 -   [Gestión del rendimiento](performance-management-overview.md)
 -   [Alineación de las aptitudes de los recursos y las necesidades empresariales](skills.md)
 -   [Administración de la formación con cursos](courses.md)
+-   [Cómo administrar el desarrollo profesional de los empleados en Dynamics 365 for Talent (vídeo)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>Crear y mantener prestaciones
 
@@ -87,6 +94,7 @@ Además de compensar al personal con sueldos, salarios y bonificaciones, puede d
 -   [Gestionar un programa de prestaciones](manage-benefit-program.md)
 -   [Directivas de idoneidad para prestaciones](benefit-eligibility-policies.md)
 -   [Administración de artículos prestados a trabajadores](loan-items.md)
+-   [Cómo administrar prestaciones de los empleados en Dynamics 365 for Talent (vídeo)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Mantener el cumplimiento de normas y la seguridad en el lugar de trabajo
 

@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2e5dd8f852ac1a6c2997a50a60f03db6adfd218c
-ms.openlocfilehash: 5500bfc1cdd1949d301ae82fad5506dfdbeb59f3
+ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
+ms.openlocfilehash: 63e0a52919e12c1f497e6809244939c6047826a7
 ms.contentlocale: es-es
-ms.lasthandoff: 05/01/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 
@@ -72,8 +72,6 @@ Puede usar la configuración **Funciones de vista previa** del centro de gestió
     > Los trabajos que se registran son visibles solo para los clientes que se suscriben a uno o más productos de la lista de trabajos de LinkedIn. De lo contrario, los clientes ven un trabajo solo si lo buscan explícitamente. Hay un retraso cuando los trabajos se envían a LinkedIn. Un trabajo puede tardar algunas horas en aparecer después de que haya enviado publicado desde Attract.
 
 - **Aplicación de candidato** Los candidatos internos y externos podrán presentarse directamente desde la página de trabajo en el sitio de Proyectos profesionales.
-- **Evaluaciones** Como parte del proceso de contratación configurable ya sea para un trabajo específico o cuando se utiliza una plantilla de trabajo los usuarios ahora tienen acceso a un nuevo tipo de actividad **Evaluación**. Pueden usar el proyecto: aplicación "Gauge" en Talent para compilar evaluaciones básicas que pueden enviar a candidatos. Proyecto: "Gauge" también se incluye en la vista previa pública. Se agregarán proveedores adicionales en el futuro.
-- **Proyecto: “Gauge”** : Proyecto "Gauge" es una aplicación de Talent que permite a los usuarios crear evaluaciones o encuestas simples.
 - **Administración de la propuesta** – Los usuarios podrán crear cartas a partir de plantillas que incluyen marcadores de posición. A medida que los candidatos avanzan a la etapa de propuesta, los reclutadores y los administradores de contratación pueden usar la herramienta de oferta para preparar la propuesta formal de un candidato a través de plantillas, enviar la propuesta para la aprobación interna y, finalmente, enviar la oferta al candidato para la firma. Se agregarán muchas nuevas capacidades a la herramienta de la propuesta a medida que se avance, y la función de vista previa se actualizará con estas capacidades cuando estemos listos para lanzarlas al mercado para obtener una vista previa.
 
 ### <a name="core-hr"></a>Core HR
@@ -90,7 +88,7 @@ Independientemente de si los comentarios son positivos o negativos, deseamos que
     - [Atraer ideas](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
     - [Core HR](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
 
-No incluya los datos personales (información que podría identificarlo) en los envíos de comentarios o de revisión del producto. La información que se obtiene se puede analizar más, pero no se usará para responder a solicitudes, de acuerdo con las leyes aplicables de privacidad. La información personal obtenida por separado en estos programas está sujeta a la [Declaración de privacidad de Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
+No incluya los datos personales (información que podría identificarlo) en los envíos de comentarios o de revisión del producto. La información que se obtiene se puede analizar más, pero no se usará para responder a solicitudes, de acuerdo con las leyes aplicables de privacidad. La información personal obtenida por separado en estos programas está sujeta a la [Declaración de privacidad de Microsoft](https://privacy.microsoft.com/privacystatement).
 
 > [!TIP]
 > Marque este tema, y consúltelo a menudo para mantenerse actualizado sobre características nuevas de vista previa a medida que las lanzamos al mercado.
