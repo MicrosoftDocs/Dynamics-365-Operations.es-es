@@ -410,151 +410,6 @@
     - name: Administración financiera
       href: ../financials/index.md
       items:
-        - name: Contabilidad general
-          href: ../financials/general-ledger/general-ledger.md
-          items:
-            - name: Cuentas
-              items:
-                - name: Visión general de Acumulaciones
-                  href: ../financials/general-ledger/accruals-overview.md
-                - name: Reglas de eliminación
-                  href: ../financials/general-ledger/elimination-rules.md
-                - name: Combinaciones de cuentas y dimensiones
-                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: Diarios equilibrados para la contabilidad interunidad
-                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
-                - name: Definiciones de contabilización
-                  href: ../financials/general-ledger/posting-definitions.md
-                - name: 'Ejemplos de definición de contabilización  '
-                  href: ../financials/general-ledger/example-posting-definitions.md
-                - name: Saldos de cuentas de contabilidad
-                  href: ../financials/general-ledger/general-ledger-account-balances.md
-                - name: Definir dimensiones financieras
-                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
-                - name: Mantener plantillas predeterminadas de la dimensión financiera
-                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                - name: Crear estructuras contables
-                  href: ../financials/general-ledger/tasks/create-account-structures.md
-                - name: Crear esquemas de acumulación
-                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: Crear grupos de consolidación y cuentas de consolidación adicionales
-                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
-                - name: Tipos de cuentas principales
-                  href: ../financials/general-ledger/main-account-types.md
-                - name: Crear una cuenta principal
-                  href: ../financials/general-ledger/tasks/create-main-account.md
-                - name: Planificar su plan de cuentas
-                  href: ../financials/general-ledger/plan-chart-of-accounts.md
-                - name: Liquidar transacciones entre las cuentas contables
-                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
-                - name: Configurar un alias de cuenta contable
-                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
-                - name: Configurar categorías de cuenta principal
-                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
-                - name: Explorador de origen de contabilidad
-                  href: ../financials/accounts-payable/accounting-source-explorer.md
-                - name: Distribuciones contables
-                  href: ../financials/accounts-payable/accounting-distributions.md
-                - name: Procesar asignaciones
-                  href: ../financials/general-ledger/process-allocations.md
-                - name: Dimensiones financieras
-                  href: ../financials/general-ledger/financial-dimensions.md
-                - name: Conversión de divisas contables o de notificación
-                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
-                - name: Cuentas y grupo de cuentas de consolidación
-                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: Visión general de consolidación y eliminación
-                  href: ../financials/budgeting/consolidation-elimination-overview.md
-                - name: 'Calendarios fiscales, ejercicios y períodos'
-                  href: ../financials/general-ledger/configure-account-structures.md
-                - name: Configurar estructuras contables
-                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: Diarios y libros mayores
-              items:
-                - name: Procesamiento de diarios generales
-                  href: ../financials/general-ledger/general-journal-processing.md
-                - name: Registrar diarios periódicos
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: Procesar diario de asignaciones contables
-                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: Configurar la contabilidad de empresas vinculadas
-                  href: ../financials/general-ledger/intercompany-accounting-setup.md
-                - name: Reglas de asignación contable
-                  href: ../financials/general-ledger/ledger-allocation-rules.md
-                - name: Crear reglas avanzadas para diarios
-                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
-                - name: Crear y asignar estructuras de reglas avanzadas
-                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: Tipos de diarios contables
-                  href: ../financials/general-ledger/ledger-journal-types.md
-                - name: Crear y validar diarios
-                  href: ../financials/general-ledger/tasks/create-validate-journals.md
-                - name: Ver movimientos del diario o transacciones
-                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
-                - name: Ver un asiento de empresas vinculadas relacionado desde un diario
-                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: Crear un movimiento de diario mediante una plantilla
-                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
-                - name: Crear transacciones de provisiones de contabilidad
-                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: Publicar líneas de diario y documentos de Excel
-                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
-                - name: Ver movimientos del diario y transacciones
-                  href: ../financials/general-ledger/view-journal-entries-transactions.md
-                - name: Registrar en el diario movimientos de diario
-                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: Revalorización de divisa en una empresa de consolidación
-                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
-                - name: Revalorización de divisa extranjera para Contabilidad general
-                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Importar tipos de cambio de divisa
-                  href: ../financials/general-ledger/import-currency-exchange-rates.md
-            - name: Cierre de final del período
-              items:
-                - name: Cerrar la contabilidad general al final del período
-                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
-                - name: Espacio de trabajo de cierre del período financiero
-                  href: ../financials/general-ledger/financial-period-close-workspace.md
-                - name: Cierre de fin de año
-                  href: ../financials/general-ledger/year-end-close.md
-                - name: Cerrar el ejercicio
-                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
-                - name: Cierre masivo de período financiero
-                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
-            - name: Impuestos
-              items:
-                - name: Visión general de impuestos
-                  href: ../financials/general-ledger/indirect-taxes-overview.md
-                - name: Índices de impuestos en función de la base marginal y los métodos de cálculo
-                  href: ../financials/general-ledger/marginal-base-field.md
-                - name: Pagos de impuestos y reglas de redondeo
-                  href: ../financials/general-ledger/round-sales-tax-payments.md
-                - name: Métodos de cálculo de impuestos en el campo Origen
-                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: Importe completo y opciones de cálculo de intervalo para los códigos de impuestos
-                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: Calcular y ajustar los impuestos en una factura de proveedor
-                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: Crear un pago de impuestos
-                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
-                - name: Crear transacciones de impuestos en documentos
-                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: Configuración de grupos de contabilidad para impuestos
-                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: Configurar autoridades fiscales
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: Configurar códigos de impuestos
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: Configurar grupos de impuestos y grupos de impuestos de artículos
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: Configurar códigos de notificación de impuestos
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: Configurar períodos de liquidación de impuestos
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Configurar retención de impuestos
-                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
-                - name: Ver transacciones de impuestos registradas
-                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: Proveedores
           href: ../financials/accounts-payable/accounts-payable.md
           items:
@@ -662,7 +517,11 @@
               href: ../financials/accounts-receivable/sepa-direct-debit-mandate.md
             - name: 'Configuración, autorización y captura de tarjetas de crédito'
               href: ../financials/accounts-receivable/credit-card-authorizations.md
-            - name: Corrección de una factura de servicios
+            - name: Crear una factura de servicios
+              href: ../financials/accounts-receivable/create-free-text-invoice-new.md
+            - name: Crear una plantilla de factura de servicios
+              href: ../financials/accounts-receivable/create-free-text-invoice-template-new.md
+            - name: Corregir una factura de servicios
               href: ../financials/accounts-receivable/correct-free-text-invoice.md
             - name: Establecer tipos de interés para un código de interés
               href: ../financials/accounts-receivable/set-up-interest-rates-interest-code.md
@@ -682,12 +541,6 @@
                   href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
                 - name: Crear una secuencia de cartas de cobro
                   href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
-                - name: Crear una orden de domiciliación bancaria para un cliente
-                  href: ../financials/accounts-receivable/tasks/create-direct-debit-mandate-customer.md
-                - name: Crear una factura de servicios
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice.md
-                - name: Crear una plantilla de factura de servicios
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice-template.md
                 - name: Crear un código de interés con un intervalo
                   href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
                 - name: Crear facturas de pedidos de ventas
@@ -732,6 +585,31 @@
                   href: ../financials/accounts-receivable/reimburse-customers.md
                 - name: Pagos de cliente para un importe parcial
                   href: ../financials/accounts-receivable/customer-payments-partial-amount.md
+        - name: Gestión presupuestaria
+          href: ../financials/budgeting/budgeting-overview.md
+          items:
+            - name: 'Visión general de la planificación presupuestaria '
+              href: ../financials/budgeting/budget-planning-overview-configuration.md
+            - name: 'Visión general del control presupuestario '
+              href: ../financials/budgeting/budget-control-overview-configuration.md
+            - name: 'Visión general de Gestión presupuestaria  '
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: Previsión de puestos
+              href: ../financials/budgeting/position-forecasting.md
+            - name: Documentos de justificación de la planificación presupuestaria
+              href: ../financials/budgeting/budget-planning-justification-docs.md
+            - name: Creación de un presupuesto desde cuentas de transacción y cuentas totales
+              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: Plantillas de planificación presupuestaria para Excel
+              href: ../financials/budgeting/budget-planning-excel-templates.md
+            - name: Solución de problemas de presupuesto
+              href: ../financials/budgeting/position-budgeting-set-up-issues.md
+            - name: Planificación presupuestaria
+              href: ../financials/budgeting/budget-plan.md
+            - name: Asignación de datos de la planificación presupuestaria
+              href: ../financials/budgeting/budget-planning-data-allocation.md
+            - name: Integración de planificación presupuestaria con otros módulos
+              href: ../financials/budgeting/budget-planning-integration-other-modules.md
         - name: Gestión de efectivo y bancos
           href: ../financials/cash-bank-management/cash-bank-management.md
           items:
@@ -811,6 +689,112 @@
                   href: ../financials/cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Actualización de la entidad compuesta del diario del banco
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
+        - name: Contabilidad de costes
+          href: ../financials/cost-accounting/cost-accounting-home-page.md
+          items:
+            - name: Terminología de contabilidad de costes
+              href: ../financials/cost-accounting/terms-cost-accounting.md
+            - name: 'Calendarios fiscales, ejercicios y períodos'
+              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+            - name: Dimensiones financieras
+              href: ../financials/general-ledger/financial-dimensions.md
+            - name: Estructuras contables
+              href: ../financials/general-ledger/Default-dimensions.md
+            - name: Crear estructuras contables
+              href: ../financials/general-ledger/tasks/create-account-structures.md
+            - name: 'Visión general de Gestión presupuestaria '
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: Crear dimensiones e importar miembros de dimensión
+              href: ../financials/cost-accounting/cost-dimension.md
+            - name: Dimensiones de elemento de coste
+              href: ../financials/cost-accounting/cost-elements.md
+            - name: Crear elementos de coste
+              href: ../financials/cost-accounting/tasks/create-cost-elements.md
+            - name: Dimensiones de objeto de coste
+              href: ../financials/cost-accounting/cost-objects.md
+            - name: Crear objetos de coste
+              href: ../financials/cost-accounting/tasks/create-cost-objects.md
+            - name: Asignar miembros de dimensión de elemento de coste a un conjunto común de miembros de dimensión
+              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
+            - name: Asignar una dimensión de elemento de coste
+              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
+            - name: Jerarquía de dimensiones
+              href: ../financials/cost-accounting/dimension-hierarchy.md
+            - name: Creación o modificación de una jerarquía de informes
+              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
+            - name: Derechos de acceso de un controlador de objeto de coste
+              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
+            - name: Configurar los derechos de acceso para un controlador de objeto de coste
+              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
+            - name: Definir unidades de control de costes
+              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
+            - name: Crear un libro mayor de contabilidad de costes
+              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
+            - name: Miembros de dimensiones estadísticas y plantillas de proveedor de medidas estadísticas
+              href: ../financials/cost-accounting/statistical-measure-provider-template.md
+            - name: Bases de asignación
+              href: ../financials/cost-accounting/allocation-bases.md
+            - name: Crear y asignar una directiva de asignación de costes a una unidad de control de costes
+              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
+            - name: Crear y asignar una directiva de comportamiento de costes a una unidad de control de costes
+              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
+            - name: Crear y asignar una directiva de distribución de costes a una unidad de control de costes
+              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
+            - name: Crear una directiva de acumulación de costes
+              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
+            - name: Gestionar un origen de datos para el libro mayor de contabilidad de costes
+              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
+            - name: Procesar datos de origen y hacer un seguimiento
+              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
+            - name: Cálculo de costes generales
+              href: ../financials/cost-accounting/overhead-calculation.md
+            - name: Directiva de acumulación de costes y cálculo de costes generales
+              href: ../financials/cost-accounting/cost-rollup.md
+            - name: Configurar el espacio de trabajo de control de costes
+              href: ../financials/cost-accounting/cost-control-workspace.md
+            - name: Configurar los parámetros del espacio de trabajo de control de costes
+              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
+            - name: Comprender la seguridad de lista de acceso y RLS en Microsoft Power BI
+              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: Usar paquete de contenidos para informes de Microsoft Power BI
+              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: Usar un espacio de trabajo de control de costes para la aplicación móvil de Finance and Operations
+              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+        - name: Gestión de gastos
+          href: ../financials/expense-management/expense-management.md
+          items:
+            - name: Planificación de la gestión de gastos
+              href: ../financials/expense-management/plan-expense-management.md
+            - name: Parámetros de gestión de gastos
+              href: ../financials/expense-management/Expense-Management-Parameters.md
+            - name: Espacio de trabajo móvil de gestión de gastos
+              href: ../financials/expense-management/expense-management-mobile-workspace.md
+            - name: Configurar flujos de trabajo para gestión de gastos
+              href: ../financials/expense-management/expense-workflows.md
+            - name: Flujo de trabajo de gestión de gastos
+              href: ../financials/expense-management/expense-workflow.md
+            - name: Importar y mantener transacciones de tarjeta de crédito
+              href: ../financials/expense-management/import-credit-card.md
+            - name: Distribuciones en un informe de gastos
+              href: ../financials/expense-management/expense-report-distributions.md
+            - name: Gastos de empresas vinculadas
+              href: ../financials/expense-management/intercompany-expense.md
+            - name: Directivas de gastos
+              href: ../financials/expense-management/travel-expense-policies.md
+            - name: Visualización de un informe de gastos
+              href: ../financials/expense-management/view-expense-report.md
+            - name: Registrar un informe de gastos
+              href: ../financials/expense-management/post-expense.md
+            - name: Informes de gastos y varios aprobadores
+              href: ../financials/expense-management/expense-report-multiple-approvers.md
+            - name: Recuperación de IVA en Gestión de gastos
+              href: ../financials/expense-management/VAT-expense-report.md
+            - name: Reglas de dietas
+              href: ../financials/expense-management/per-diem.md
+            - name: Solicitudes de viaje
+              href: ../financials/expense-management/travel-req.md
+            - name: Gastos personales en un informe de gastos
+              href: ../financials/expense-management/personal-expenses.md
         - name: Activos fijos
           href: ../financials/fixed-assets/fixed-assets.md
           items:
@@ -916,158 +900,157 @@
                   href: ../financials/fixed-assets/tasks/split-fixed-asset.md
                 - name: Transferir un activo fijo
                   href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
-        - name: Gestión de gastos
-          href: ../financials/expense-management/expense-management.md
+        - name: Contabilidad general
+          href: ../financials/general-ledger/general-ledger.md
           items:
-            - name: Planificación de la gestión de gastos
-              href: ../financials/expense-management/plan-expense-management.md
-            - name: Parámetros de gestión de gastos
-              href: ../financials/expense-management/Expense-Management-Parameters.md
-            - name: Espacio de trabajo móvil de gestión de gastos
-              href: ../financials/expense-management/expense-management-mobile-workspace.md
-            - name: Configurar flujos de trabajo para gestión de gastos
-              href: ../financials/expense-management/expense-workflows.md
-            - name: Flujo de trabajo de gestión de gastos
-              href: ../financials/expense-management/expense-workflow.md
-            - name: Importar y mantener transacciones de tarjeta de crédito
-              href: ../financials/expense-management/import-credit-card.md
-            - name: Distribuciones en un informe de gastos
-              href: ../financials/expense-management/expense-report-distributions.md
-            - name: Gastos de empresas vinculadas
-              href: ../financials/expense-management/intercompany-expense.md
-            - name: Directivas de gastos
-              href: ../financials/expense-management/travel-expense-policies.md
-            - name: Visualización de un informe de gastos
-              href: ../financials/expense-management/view-expense-report.md
-            - name: Registrar un informe de gastos
-              href: ../financials/expense-management/post-expense.md
-            - name: Informes de gastos y varios aprobadores
-              href: ../financials/expense-management/expense-report-multiple-approvers.md
-            - name: Recuperación de IVA en Gestión de gastos
-              href: ../financials/expense-management/VAT-expense-report.md
-            - name: Reglas de dietas
-              href: ../financials/expense-management/per-diem.md
-            - name: Pedidos de viaje
-              href: ../financials/expense-management/travel-req.md
-            - name: Gastos personales en un informe de gastos
-              href: ../financials/expense-management/personal-expenses.md
-        - name: Gestión presupuestaria
-          href: ../financials/budgeting/budgeting-overview.md
-          items:
-            - name: 'Visión general de la planificación presupuestaria  '
-              href: ../financials/budgeting/budget-planning-overview-configuration.md
-            - name: 'Visión general del control presupuestario  '
-              href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: 'Visión general de Gestión presupuestaria  '
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: Previsión de puestos
-              href: ../financials/budgeting/position-forecasting.md
-            - name: Documentos de justificación de la planificación presupuestaria
-              href: ../financials/budgeting/budget-planning-justification-docs.md
-            - name: Creación de un presupuesto desde cuentas de transacción y cuentas totales
-              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
-            - name: Plantillas de planificación presupuestaria para Excel
-              href: ../financials/budgeting/budget-planning-excel-templates.md
-            - name: Solución de problemas de presupuesto
-              href: ../financials/budgeting/position-budgeting-set-up-issues.md
-            - name: Planificación presupuestaria
-              href: ../financials/budgeting/budget-plan.md
-            - name: Asignación de datos de la planificación presupuestaria
-              href: ../financials/budgeting/budget-planning-data-allocation.md
-            - name: Integración de planificación presupuestaria con otros módulos
-              href: ../financials/budgeting/budget-planning-integration-other-modules.md
-        - name: Notificación
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
-          items:
-            - name: Informes financieros de balance de situación
-              href: ../financials/general-ledger/balance-sheet-financial-reports.md
-            - name: Generar un informe financiero
-              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-            - name: Informe financiero de informe de ingresos
-              href: ../financials/general-ledger/income-statement-financial-report.md
-            - name: Informes financieros de saldo de comprobación
-              href: ../financials/general-ledger/trial-balance-financial-reports.md
-            - name: Ver informes financieros
-              href: ../financials/general-ledger/view-financial-reports.md
-            - name: Diseñador de informes
-              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: Contabilidad de costes
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
-          items:
-            - name: Terminología de contabilidad de costes
-              href: ../financials/cost-accounting/terms-cost-accounting.md
-            - name: 'Calendarios fiscales, ejercicios y períodos'
-              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: Dimensiones financieras
-              href: ../financials/general-ledger/financial-dimensions.md
-            - name: Estructuras contables
-              href: ../financials/general-ledger/Default-dimensions.md
-            - name: Crear estructuras contables
-              href: ../financials/general-ledger/tasks/create-account-structures.md
-            - name: 'Visión general de Gestión presupuestaria '
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: Crear dimensiones e importar miembros de dimensión
-              href: ../financials/cost-accounting/cost-dimension.md
-            - name: Dimensiones de elemento de coste
-              href: ../financials/cost-accounting/cost-elements.md
-            - name: Crear elementos de coste
-              href: ../financials/cost-accounting/tasks/create-cost-elements.md
-            - name: Dimensiones de objeto de coste
-              href: ../financials/cost-accounting/cost-objects.md
-            - name: Crear objetos de coste
-              href: ../financials/cost-accounting/tasks/create-cost-objects.md
-            - name: Asignar miembros de dimensión de elemento de coste a un conjunto común de miembros de dimensión
-              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
-            - name: Asignar una dimensión de elemento de coste
-              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
-            - name: Jerarquía de dimensiones
-              href: ../financials/cost-accounting/dimension-hierarchy.md
-            - name: Creación o modificación de una jerarquía de informes
-              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
-            - name: Derechos de acceso de un controlador de objeto de coste
-              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
-            - name: Configurar los derechos de acceso para un controlador de objeto de coste
-              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
-            - name: Definir unidades de control de costes
-              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
-            - name: Crear un libro mayor de contabilidad de costes
-              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
-            - name: Miembros de dimensiones estadísticas y plantillas de proveedor de medidas estadísticas
-              href: ../financials/cost-accounting/statistical-measure-provider-template.md
-            - name: Bases de asignación
-              href: ../financials/cost-accounting/allocation-bases.md
-            - name: Crear y asignar una directiva de asignación de costes a una unidad de control de costes
-              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
-            - name: Crear y asignar una directiva de comportamiento de costes a una unidad de control de costes
-              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
-            - name: Crear y asignar una directiva de distribución de costes a una unidad de control de costes
-              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
-            - name: Crear una directiva de acumulación de costes
-              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
-            - name: Gestionar un origen de datos para el libro mayor de contabilidad de costes
-              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
-            - name: Procesar datos de origen y hacer un seguimiento
-              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
-            - name: Cálculo de costes generales
-              href: ../financials/cost-accounting/overhead-calculation.md
-            - name: Directiva de acumulación de costes y cálculo de costes generales
-              href: ../financials/cost-accounting/cost-rollup.md
-            - name: Configurar el espacio de trabajo de control de costes
-              href: ../financials/cost-accounting/cost-control-workspace.md
-            - name: Configurar los parámetros del espacio de trabajo de control de costes
-              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
-            - name: Comprender la seguridad de lista de acceso y RLS en Microsoft Power BI
-              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: Usar paquete de contenidos para informes de Microsoft Power BI
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: Usar un espacio de trabajo de control de costes para la aplicación móvil de Finance and Operations
-              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+            - name: Cuentas
+              items:
+                - name: Visión general de acumulaciones
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: Reglas de eliminación
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: Combinaciones de cuentas y dimensiones
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: Diarios equilibrados para la contabilidad interunidad
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: Definiciones de contabilización
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: 'Ejemplos de definición de contabilización  '
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: Saldos de cuentas de contabilidad
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: Definir dimensiones financieras
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: Mantener plantillas predeterminadas de la dimensión financiera
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Crear estructuras contables
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: Crear esquemas de acumulación
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: Crear grupos de consolidación y cuentas de consolidación adicionales
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: Tipos de cuentas principales
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: Crear una cuenta principal
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: Planificar su plan de cuentas
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: Liquidar transacciones entre las cuentas contables
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: Configurar un alias de cuenta contable
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: Configurar categorías de cuenta principal
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: Explorador de origen de contabilidad
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: Distribuciones contables
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: Procesar asignaciones
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: Dimensiones financieras
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: Conversión de divisas contables o de notificación
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: Cuentas y grupo de cuentas de consolidación
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: Visión general de consolidación y eliminación
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: 'Calendarios fiscales, ejercicios y períodos'
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: Configurar estructuras contables
+                  href: ../financials/general-ledger/configure-account-structures.md
+            - name: Diarios y libros mayores
+              items:
+                - name: Procesamiento de diarios generales
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: Registrar diarios periódicos
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: Procesar diario de asignaciones contables
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: Configurar la contabilidad de empresas vinculadas
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: Reglas de asignación contable
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: Crear reglas avanzadas para diarios
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: Crear y asignar estructuras de reglas avanzadas
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: Tipos de diarios contables
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: Crear y validar diarios
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: Ver movimientos del diario o transacciones
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: Ver un asiento de empresas vinculadas relacionado desde un diario
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: Crear un movimiento de diario mediante una plantilla
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: Crear transacciones de provisiones de contabilidad
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Publicar líneas de diario y documentos de Excel
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: Ver movimientos del diario y transacciones
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: Registrar en el diario movimientos de diario
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: Revalorización de divisa en una empresa de consolidación
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: Revalorización de divisa extranjera para Contabilidad general
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: Importar tipos de cambio de divisa
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+            - name: Cierre de final del período
+              items:
+                - name: Cerrar la contabilidad general al final del período
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: Espacio de trabajo de cierre del período financiero
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: Cierre de fin de año
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: Cerrar el ejercicio
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: Cierre masivo de período financiero
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: Impuestos
+              items:
+                - name: Visión general de impuestos
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: Índices de impuestos en función de la base marginal y los métodos de cálculo
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: Pagos de impuestos y reglas de redondeo
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: Métodos de cálculo de impuestos en el campo Origen
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: Importe completo y opciones de cálculo de intervalo para los códigos de impuestos
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: Calcular y ajustar los impuestos en una factura de proveedor
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: Crear un pago de impuestos
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: Crear transacciones de impuestos en documentos
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: Configuración de grupos de contabilidad para impuestos
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: Configurar autoridades fiscales
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: Configurar códigos de impuestos
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: Configurar grupos de impuestos y grupos de impuestos de artículos
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: Configurar códigos de notificación de impuestos
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Configurar períodos de liquidación de impuestos
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: Configurar retención de impuestos
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: Ver transacciones de impuestos registradas
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: Sector público
           href: ../financials/public-sector/public-sector-functionality.md
           items:
             - name: Plan para la funcionalidad del sector público
               href: ../financials/public-sector/plan-public-sector-functionality.md
-            - name: Pagos de proveedores en el sector público
+            - name: Proveedores en el sector público
               href: ../financials/public-sector/accounts-payable-public-sector.md
               items:
                 - name: Códigos de pedido de compra en el sector público
@@ -1149,31 +1132,41 @@
                   href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
                 - name: Configurar clasificaciones de acuerdo de compra en el sector público
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
-    - name: Informes financieros
-      href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
-      items:
-        - name: Generar un informe financiero
-          href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-        - name: Componentes de los informes financieros
-          href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
-        - name: Diseñador de informes
-          href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: Preferencias de usuario
-          href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: Opciones de formato avanzadas
-          href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Organizar componentes de informes
-          href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: Definición de informes
-          href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
-        - name: Definición de filas
-          href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Definición de columnas
-          href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
-        - name: Modificar celdas de definición de filas
-          href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Restablecer el data mart de informes financieros después de restablecer una base de datos
-          href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: Informes financieros
+          href: ../financials/general-ledger/financial-reporting-getting-started.md
+          items:
+            - name: Visión general de informes financieros
+              href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
+            - name: Componentes de los informes financieros
+              href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
+            - name: Informes financieros de balance de situación
+              href: ../financials/general-ledger/balance-sheet-financial-reports.md
+            - name: Generar un informe financiero
+              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
+            - name: Informe financiero de informe de ingresos
+              href: ../financials/general-ledger/income-statement-financial-report.md
+            - name: Informes financieros de saldo de comprobación
+              href: ../financials/general-ledger/trial-balance-financial-reports.md
+            - name: Ver informes financieros
+              href: ../financials/general-ledger/view-financial-reports.md
+            - name: Diseñador de informes
+              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
+            - name: Preferencias de usuario
+              href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: Opciones de formato avanzadas
+              href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Organizar componentes de informes
+              href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: Definición de informes
+              href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
+            - name: Definición de filas
+              href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Definición de columnas
+              href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
+            - name: Modificar celdas de definición de filas
+              href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Restablecer el data mart de informes financieros después de restablecer una base de datos
+              href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
     - name: Características normativas y de localización
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -2376,7 +2369,7 @@
           items:
             - name: Valor real frente a presupuesto
               href: ../dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/fin-and-ops/toc.json
-            - name: Beneficios
+            - name: Prestaciones
               href: ../dev-itpro/analytics/benefits-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Visión general de efectivo
               href: ../financials/cash-bank-management/Cash-Overview-Power-BI-content.md
@@ -3994,5 +3987,3 @@
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-- name: Dynamics 365 for Talent
-  href: ../talent/toc.yml
