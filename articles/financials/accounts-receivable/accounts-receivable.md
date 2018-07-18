@@ -19,10 +19,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 49d6cab206725bb994d367bb8401481e7591d5fa
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: 9fcf106b03cd1abdd135681ceefbb7877f07c773
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -43,29 +43,18 @@ Puede crear facturas de cliente basadas en pedidos de ventas o albaranes. Tambi�
 
 Use Clientes para controlar todas las facturas y los pagos que reciba de los clientes. Puede configurar los grupos de clientes, perfiles de registro, notas de interés, cartas de cobro, comisiones, parámetros relativos a los clientes, cargos, entregas y destinos, letras de cambio, así como otros tipos de informaciones de clientes. 
 
-[Distribuciones contables y asientos del subdiario contable para las facturas de servicios](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+:::row::: :::column::: - [Las distribuciones contables y los asientos del subdiario contable para facturas de servicios](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+        - [Perfiles de contabilización del cliente](customer-posting-profiles.md)
+        - [Configuración, autorización y captura de tarjetas de crédito](credit-card-authorizations.md)
+        - [Crear una factura de cliente](configure-customer-invoices.md)
+        - [Configurar y procesar facturas periódicas](set-up-process-recurring-invoices.md)
+        - [Corregir una factura de servicios](correct-free-text-invoice.md) :::column-end::: :::column::: - [Configurar letras de cambio](set-up-bills-exchange.md)
+        - [Establecer tipos de interés para un código de interés](set-up-interest-rates-interest-code.md)
+        - [Condonar, restablecer o revertir cuotas de interés](waive-reinstate-reverse-interest-fees.md)
+        - [Visión general de las domiciliaciones bancarias SEPA](sepa-direct-debit-overview.md)
+        - [Configurar orden de domiciliación bancaria SEPA](sepa-direct-debit-mandate.md)
+        - [Cerrar clientes](close-accounts-receivable.md) :::column-end::: :::row-end:::
 
-[Perfiles de contabilización del cliente](customer-posting-profiles.md)
-
-[Configuración, autorización y captura de tarjetas de crédito](credit-card-authorizations.md)
-
-[Crear una factura de cliente](configure-customer-invoices.md)
-
-[Configurar y procesar facturas periódicas](set-up-process-recurring-invoices.md)
-
-[Corrección de una factura de servicios](correct-free-text-invoice.md)
-
-[Configurar letras de cambio](set-up-bills-exchange.md)
-
-[Establecer tipos de interés para un código de interés](set-up-interest-rates-interest-code.md)
-
-[Condonar, restablecer o revertir cuotas de interés](waive-reinstate-reverse-interest-fees.md)
-
-[Visión general de las domiciliaciones SEPA](sepa-direct-debit-overview.md)
-
-[Configurar orden de domiciliación bancaria SEPA](sepa-direct-debit-mandate.md)
-
-[Cerrar Clientes](close-accounts-receivable.md)
 
 ## <a name="set-up-credit-and-collections"></a>Configuración de crédito y cobros
 
@@ -81,21 +70,14 @@ La información de los cobros de clientes se gestiona en una vista central: la p
 
 Acepte diferentes tipos de pago de los clientes, como letras de cambio, efectivo, cheques, tarjetas de crédito y pagos electrónicos. 
 
-[Usar un pago de cliente para liquidar varias facturas que abarcan varios períodos de descuento](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+:::row::: :::column::: - [Usar un pago de cliente para liquidar varias facturas que abarcan varios períodos de descuento](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+        - [Pagos centralizados para Clientes](centralized-payments-accounts-receivable.md)
+        - [Liquidar un pago de cliente parcial y el pago final completamente antes de la fecha de descuento](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+        - [Liquidar un pago de cliente parcial antes de la fecha de descuento con un pago final después de la fecha de descuento](settle-partial-customer-payment-before-discount-or-final-payment-after.md) :::column-end::: :::column::: - [Liquidar un pago de cliente parcial con descuentos en notas de abono de proveedor](settle-partial-customer-payment-discounts-credit-notes.md)
+        - [Liquidar un pago de cliente parcial con varios períodos de descuento](settle-partial-customer-payment-multiple-discount-periods.md)
+        - [Reembolsar a clientes](reimburse-customers.md)
+        - [Pagos de cliente para un importe parcial](customer-payments-partial-amount.md) :::column-end::: :::row-end:::
 
-[Pagos centralizados para Clientes](centralized-payments-accounts-receivable.md)
-
-[Liquidar un pago de cliente parcial y el pago final completamente antes de la fecha de descuento](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-
-[Liquidar un pago de cliente parcial antes de la fecha de descuento con un pago final después de la fecha de descuento](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
-
-[Liquidar un pago de cliente parcial con descuentos en notas de abono de proveedor](settle-partial-customer-payment-discounts-credit-notes.md)
-
-[Liquidar un pago de cliente parcial con varios períodos de descuento](settle-partial-customer-payment-multiple-discount-periods.md)
-
-[Reembolsar a clientes](reimburse-customers.md)
-
-[Pagos de cliente para un importe parcial](customer-payments-partial-amount.md)
 
 ### <a name="additional-resources"></a>Recursos adicionales
 
