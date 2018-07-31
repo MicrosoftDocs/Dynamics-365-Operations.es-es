@@ -3,7 +3,7 @@ title: Sincronizar directamente productos de Finance and Operations con producto
 description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar productos de Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Sales.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 66506953790fd77c2105591d3211c76991eced08
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -78,7 +78,8 @@ La información **Mantenido externamente** ayuda a asegurarse que solo se sincro
 Los Productos mantenidos externamente se agregan automáticamente a la primera lista de precios válida con la misma divisa. Las listas de precios se organizan alfabéticamente por nombre. El precio de venta del producto de Finance and Operations se usa como precio en la lista de precios. Por tanto, debe haber una lista de precios existen en Sales para todas las divisas de ventas del producto en Finance and Operations. La divisa en los productos liberados para ventas se establece en la divisa de contabilidad de la entidad jurídica desde la que se exporta el producto.
 
 > [!NOTE]
-> La sincronización de productos no se realizará correctamente a menos que haya una lista de precios que tenga una divisa correspondiente.
+> - La sincronización de productos no se realizará correctamente a menos que haya una lista de precios que tenga una divisa correspondiente.
+> - Puede controlar la lista de precios utilizada con la integración mediante la asignación de pricelevelid.name [Lista de precios predeterminada (Nombre)] en el proyecto de integración de datos. La entrada tiene que estar en letras minúsculas. Por ejemplo, el valor predeterminado para una lista de precios en las Ventas denominada ‘Estándar’ sería: Campo de destino: pricelevelid.name [Lista de precios predeterminada (Nombre)] y tipo de asignación: [ { "transformType": "Default", "defaultValue": "standard" } ].
 
 ## <a name="preconditions-and-mapping-setup"></a>Condiciones previas y configuración de asignación
 

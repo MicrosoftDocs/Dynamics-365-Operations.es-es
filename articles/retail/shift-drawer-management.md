@@ -1,9 +1,9 @@
 ---
 title: "Gestión de turnos y caja registradora"
-description: "En este artículo se explica cómo configurar y utilizar los dos tipos de turnos de punto de venta (PDV) comerciales: independiente y compartido. Se pueden utilizar turnos compartidos por varios usuarios en varios lugares, mientras que los turnos independientes se pueden utilizar solo por un trabajador cada vez."
-author: rubencdelgado
+description: "Este tema explica cómo configurar y utilizar los turnos en el punto de venta (PDV) comercial."
+author: jblucher
 manager: AnnBe
-ms.date: 02/15/2018
+ms.date: 05/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
+ms.sourcegitcommit: da5519eb0746347905e3b3d3d81161850c429f57
+ms.openlocfilehash: f0856a3a36ff97773c0fadbe94fe680762c5206b
 ms.contentlocale: es-es
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/22/2018
 
 ---
 
@@ -31,127 +31,109 @@ ms.lasthandoff: 03/22/2018
 
 [!include [banner](includes/banner.md)]
 
-En este artículo se explica cómo configurar y utilizar los dos tipos de turnos de punto de venta (PDV) comerciales: independiente y compartido. Se pueden utilizar turnos compartidos por varios usuarios en varios lugares, mientras que los turnos independientes se pueden utilizar solo por un trabajador cada vez.
+Este tema explica cómo configurar y utilizar los turnos en el punto de venta (PDV) comercial. 
 
-Hay dos tipos de turnos de puntos de venta (PDV) comerciales: independientes y compartidos. Los turnos independientes solo pueden utilizarse por un trabajador cada vez. Los turnos compartidos se pueden utilizar por varios usuarios en varios lugares. Por tanto, crean de manera efectivamente un turno único para varios trabajadores de un almacén.
+En Microsoft Dynamics 365 for Retail, el término *turno* describe la recopilación de datos transaccionales de PDV y actividades entre dos puntos en el tiempo. Para cada turno, la suma de dinero prevista se compara con la suma que se cuenta y declara.
 
-## <a name="standalone-shifts"></a>Turnos independientes
-Los turnos independientes se utilizan en un escenario de PDV fijo tradicional, donde el efectivo se concilia de manera independiente para cada registro de PDV. Por ejemplo, en un entorno de supermercado, normalmente hay varios registrados de PDV fijos y se asigna un cajero a cada uno de ellos. En este caso, cada registro probablemente utiliza un turno independiente y el cajero es responsable de la caja registradora o del efectivo físico de ese registro. Un turno independiente abarca toda la actividad de ese registro durante el turno de trabajo del cajero. En las actividades se puede incluir el importe inicial que se deposita en la caja registradora, todas las eliminaciones y adiciones de operaciones de efectivo como ingresos bancarios y entrada flotante, y la declaración por forma de pago al final del turno.
+Normalmente, los turnos están abiertos al inicio del día laboral. En ese momento, un usuario declara el importe inicial que contiene la caja registradora. Las transacciones de venta se realizan durante todo el día. Finalmente, al final del día, se cuenta la caja y se declaran los importes de cierre. Se cierra el turno y se genera un informe Z. El informe Z indica si existe un superávit o déficit.
 
-### <a name="set-up-a-stand-alone-shift"></a>Configurar un turno independiente
+## <a name="typical-shift-scenarios"></a>Escenarios de turno típicos
+Retail proporciona varias opciones de configuración y operaciones de PDV para admitir una amplia gama de procesos empresariales al final del día para el PDV. Esta sección describe algunos escenarios de turno típicos.
 
-Se designa un turno independiente en el nivel de caja registradora. Este procedimiento explica cómo configurar un turno independiente en un registro de PDV.
+### <a name="fixed-till"></a>Caja registradora fija
+Tradicionalmente, este escenario se utilizado con más frecuencia. Todavía se utiliza ampliamente. En un turno con "caja registradora fija", el turno y la caja registradora se asocian a un registro específico. No se mueven de un registro a otro. Un turno con "caja registradora fija" puede ser utilizado por un usuario único o compartido entre varios usuarios. Los turnos con "caja registradora fija" no requieren ninguna configuración especial.
 
-1.  Haga clic en **Retail** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Perfiles de PDV** &gt; **Perfiles de hardware**.
-2.  Seleccione el perfil de hardware que se utilizará para el turno independiente.
-3.  En la ficha desplegable **Cajón**, confirme que la opción **Caja registradora de turno compartido** está establecida en **No**.
-4.  Haga clic en **Guardar**.
-5.  Haga clic en **Venta minorista** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Registros**.
-6.  Seleccione el registro que requiere un turno independiente y, a continuación, haga clic en **Editar**.
-7.  En el campo **Perfil de hardware**, seleccione el perfil de hardware que seleccionó en el paso 2.
-8.  Haga clic en **Guardar**.
-9.  Haga clic en **Venta minorista** &gt; **TI de venta minorista** &gt; **Programación de distribución**.
-10. Seleccione la programación de distribución **1090** y, a continuación, haga clic en **Ejecutar ahora** para sincronizar los cambios en el PDV.
+### <a name="floating-till"></a>Caja registradora flotante
+En un turno con "caja registradora flotante", el turno y la caja se pueden mover de un registro a otro. Aunque un registro puede tener solo un turno activo por caja registradora, los turnos pueden suspenderse y luego reanudarse más tarde o en un registro diferente.
 
-### <a name="use-a-stand-alone-shift"></a>Usar un turno independiente
+Por ejemplo, una tienda tiene dos registros. Cada registro se abre al principio del día cuando el cajero abre un nuevo turno y proporciona el importe inicial. Cuando un cajero está listo para tomarse un descanso, ese cajero suspende su turno y quita la parte superior de la caja registradora. Ese registro quedará entonces disponible para otros cajeros. Otro cajero puede iniciar sesión y abrir su propio turno en el registro. Una vez que ha acabado el primer descanso del cajero, ese cajero puede reanudar su turno cuando uno de los otros registros esté disponible. Los turnos con "caja registradora flotante" no requieren ninguna configuración o permiso especial.
 
-1.  Inicie sesión en el PDV.
-2.  Si no hay ningún turno abierto, seleccione **Abrir un turno nuevo**.
-3.  Vaya a la operación **Declarar importe inicial** y especifique el importe de efectivo que se agrega a la caja registradora para empezar el día de trabajo.
-4.  Realice algunas transacciones.
-5.  Al final del día, seleccione **Declarar forma de pago** para declarar el importe de efectivo que se mantiene en la caja registradora.
-6.  Especifique el importe de efectivo y, a continuación, haga clic en **Guardar** para guardar la declaración por forma de pago.
-7.  Seleccione **Cerrar turno** para cerrar el turno.
+### <a name="single-user"></a>Usuario único
+Muchos minoristas prefieren dejar solo un usuario por turno para ayudar a garantizar el nivel superior de contabilidad para el efectivo en la caja registradora. Si solo un usuario puede utilizar la caja registradora asociada a un turno, ese usuario será el único responsable de cualquier discrepancia. Si más de un usuario utiliza un turno, es difícil determinar quién cometió un error o quién podría estar intentando robar de la caja registradora.
 
-**Nota:** Hay otras operaciones disponibles durante el desplazamiento, en función de los procesos empresariales que están implementados. Las operaciones **Ingreso seguro**, **Ingreso bancario** y **Supresión de forma de pago** se pueden utilizar para quitar el dinero de la caja registradora durante el día o antes de cerrar el turno. Si hay poco dinero en la caja registradora, se puede utilizar la operación **Entrada flotante** para agregar efectivo a la caja registradora.
+### <a name="multiple-users"></a>Varios usuarios
+Algunos minoristas están dispuestos a sacrificar el nivel de contabilidad que proporcionan los turnos de usuario único y a permitir más de un usuario por turno. Este planteamiento es habitual cuando hay más usuarios que registros disponibles, y la necesidad de flexibilidad y velocidad supera la posibilidad de pérdidas. También es habitual cuando los administradores de tienda no tienen sus propios turnos pero, si es necesario, pueden usar los turnos de cualquiera de sus cajeros. Para iniciar sesión y usar un turno que abrió otro usuario, un usuario debe tener el permiso de PDV **Permitir varios inicios de sesión de turno**.
 
-## <a name="shared-shifts"></a>Turnos compartidos
-Se utiliza un turno compartido en un entorno donde varios cajeros comparten una caja registradora o varias cajas registradoras durante todo el día laborable. Normalmente, se utiliza un turno compartido en entornos de PDV móviles. En un entorno móvil, cada cajero no está asignado a una solo caja registradora ni es responsable de la misma. En su lugar, todos los cajeros deben poder presentar una venta y agregar efectivo a la caja registradora que se encuentre más cerca. En este escenario, las cajas registradoras que se comparten entre cajeros se incluyen en un turno compartido. Todas las cajas registradoras de un turno compartido se incluyen en el mismo turno para las actividades relacionadas con la administración de efectivo para ese turno. Por tanto, el importe inicial para el turno debe incluir la suma de todo el efectivo de todas las cajas registradoras que se incluyen en el turno compartido. Del mismo modo, la declaración por forma de pago será la suma de todo el efectivo de todas las cajas registradoras que se incluyen en el turno compartido. **Nota:** solo puede estar abierto un turno compartido cada vez en cada almacén. Los tunos compartidos e independientes se puede utilizar en el mismo almacén.
+### <a name="shared-shift"></a>Turno compartido
+Una configuración de "turno compartido" permite a los minoristas tener un turno único en múltiples registros, cajas registradoras y usuarios. Un turno compartido tiene un único importe inicial y un único importe de cierre que se resumen en todos los cajones de efectivo. Los turnos compartidos son los más habituales cuando se utilizan dispositivos móviles. En esta situación, no se reserva una caja registradora independiente para cada registro. En su lugar, todos los registros pueden compartir una caja registradora.
 
-### <a name="set-up-a-shared-shift"></a>Configuración de un turno compartido
+Para turnos compartidos que se utilizarán en una tienda, la caja registradora debe configurarse como una "caja registradora de turno compartido" en **Retail \> Configuración de canal \> Configuración de PDV \> Perfiles de PDV \> Perfiles de hardware \> Caja**. Asimismo, los usuarios deben tener uno o los dos permisos de turnos compartidos (Permitir administración de turnos compartidos y Permitir uso de turnos compartidos).
 
-1.  Haga clic en **Retail** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Perfiles de PDV** &gt; **Perfiles de hardware**.
-2.  Seleccione el perfil de hardware que se utilizará para el turno compartido.
-3.  En la ficha desplegable **Cajón**, establezca la opción **Caja registradora de turno compartido** en **Sí**.
-4.  Haga clic en **Guardar**.
-5.  Haga clic en **Venta minorista** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Registros**.
-6.  Seleccione el registro que requiere un turno compartido y, a continuación, haga clic en **Editar**.
-7.  En el campo **Perfil de hardware**, seleccione el perfil de hardware que seleccionó en el paso 2.
-8.  Haga clic en **Guardar**.
-9.  Haga clic en **Venta minorista** &gt; **TI de venta minorista** &gt; **Programación de distribución**.
-10. Seleccione la programación de distribución **1090** y, a continuación, haga clic en **Ejecutar ahora** para sincronizar los cambios en el PDV.
+> [!NOTE]
+> Solo puede estar abierto un turno compartido cada vez en cada tienda. Los tunos compartidos e independientes se puede utilizar en el mismo almacén.
 
-### <a name="use-a-shared-shift"></a>Usar un turno compartido
+## <a name="shift-and-drawer-operations"></a>Operaciones de turnos y caja registradora
+Se pueden realizar distintas operaciones para cambiar el estado de un turno, o para aumentar o reducir el importe de dinero en la caja registradora. Esta sección describe estas operaciones de turnos para Microsoft Dynamics 365 for Retail Modern POS y Cloud POS.
 
-1.  Inicie sesión en el PDV.
-2.  Si el PDV aún no está conectado a una estación de hardware, seleccione **Operación que no sea de categoría** y, a continuación, seleccione la operación **Seleccionar estación de hardware** para activar una estación de hardware para el turno compartido. Este paso solo es necesario la primera vez que se agrega un registro a un entorno de turno compartido.
-3.  Cierre sesión del PDV y, a continuación, vuelva a iniciar sesión.
-4.  Seleccione **Crear un turno nuevo**.
-5.  Seleccione **Declarar importe inicial**.
-6.  Escriba el importe inicial de todas las cajas registradoras del almacén que forman parte del turno compartido y, a continuación, haga clic en **Guardar**.
-    -   Para agregar parte del importe inicial a cada caja registradora posterior, utilice la operación **Seleccionar estación de hardware** para activar la estación de hardware.
-    -   Para agregar una caja registradora a un cajón de efectivo específico, utilice la operación **Abrir cajón**.
-    -   Continúe hasta que todos los cajones de efectivo del turno compartido tengan su parte del importe inicial.
+### <a name="open-shift"></a>Turno abierto
+El PDV requiere que los usuarios tengan un turno activo y abierto para realizar operaciones que producirán una transacción financiera como una venta, una devolución o un pedido de cliente.
 
-7.  Al final del día, abra cada caja registradora y extraiga el efectivo.
-8.  Una vez haya extraído el efectivo de la última caja registradora, cuente todo el efectivo de todas las cajas registradoras.
-9.  Utilice la operación **Declarar forma de pago** para declarar el importe total de efectivo de todas las cajas registradoras que se incluyen en el turno compartido.
-10. Utilice la operación **Cerrar turno** para cerrar el turno compartido.
+Cuando un usuario inicia sesión en el PDV, en primer lugar el sistema verifica que haya un turno activo disponible para ese usuario en el registro actual. Si un turno activo no está disponible, el usuario puede abrir un nuevo turno, reanudar un turno existente o iniciar sesión en modo de "sin caja", en función de la configuración del sistema y los permisos de los usuarios.
 
-## <a name="shift-operations"></a>Operaciones de turno
-Se pueden realizar distintas acciones para cambiar la estado de un turno o para aumentar o reducir el importe de dinero de la categoría. La sección siguiente describe estas operaciones de cambio para Dynamics 365 para Retail Modern POS y Cloud POS.
+### <a name="declare-start-amount"></a>Declarar importe inicial
+Esta operación es a menudo la primera operación que se realiza para un turno recién abierto. Para esta operación, los usuarios especifican el importe de efectivo de inicio en la caja del turno. Esta operación es importante porque el cálculo de superávit/déficit que se produce cuando se cierra un turno tiene en cuenta el importe inicial.
 
-**Turno abierto**
+### <a name="float-entry"></a>Entrada flotante
+Las *entradas flotantes* son transacciones no comerciales que se realizan en un turno activo para aumentar el importe de efectivo de la caja. Un ejemplo típico de una entrada flotante es una transacción para agregar el cambio adicional a la caja cuando se está acabando.
 
-PDV requiere que un usuario tenga un turno activo y abierto para realizar operaciones que darían lugar a una transacción financiera como una venta, una devolución o un pedido de cliente.  
+### <a name="tender-removal"></a>Supresión de forma de pago
+Las *supresiones de forma de pago* son transacciones no comerciales que se realizan en un turno activo para reducir el importe de efectivo de la caja. Esta operación es la que se usa con mayor frecuencia junto con una operación de entrada flotante en otro turno. Por ejemplo, puesto que el registro 1 se está quedando sin cambio, el usuario en el registro 2 realiza un supresión de forma de pago para reducir el importe de su caja. El usuario en el registro 1 realiza una entrada flotante para aumentar el importe de su caja.
 
-Al registrarse en POS, el sistema primero comprueba si el usuario tiene un turno activo disponible en el registro actual. Si no, el usuario puede elegir abrir un nuevo turno, para reanudar un turno existente o continuar iniciando sesión en modo de "sin caja", en función de la configuración del sistema y de sus permisos.
+### <a name="suspend-shift"></a>Suspender turno
+Los usuarios pueden suspender el turno activo para liberar el registro actual de otro usuario, o para mover el turno a otro registro (en este caso, el turno suele denominarse "caja registradora flotante").
 
-**Declarar importe inicial**
+La suspensión de un turno evita la ejecución de nuevas transacciones o cambios en el turno hasta que este se reanuda.
 
-Esta operación es a menudo la primera acción que se ejecutan en un turno recién abierto. Los usuarios especifican el importe de efectivo de inicio en la categoría del turno. Esto es importante porque el cálculo excesivo/insuficiente que se produce al cerrar un turno explica este importe.
+### <a name="resume-shift"></a>Reanudar turno
+Esta operación permite a los usuarios reanudar un cambio suspendido anteriormente en cualquier registro que todavía no tiene ningún cambio activo.
 
-**Entrada flotante**
+### <a name="tender-declaration"></a>Declaración por forma de pago
+Esta operación se realiza para especificar el importe monetario total que hay actualmente en la caja. Los usuarios suelen realizar con mucha frecuencia esta operación antes de cerrar un turno. El valor especificado se compara con la cantidad de turnos esperada para calcular el importe de superávit/déficit.
 
-Las entradas flotantes son transacciones no comerciales realizadas en un turno activo y aumentan el importe de efectivo de la caja. Un ejemplo común de una entrada flotante sería agregar el cambio adicional al librador cuando se está acabando.
+### <a name="safe-drop"></a>Ingreso en caja fuerte
+Los ingresos en caja fuerte se pueden realizar en cualquier momento de un turno activo. Esta operación quita dinero de la caja para que se pueda transferir a una ubicación más segura como una caja fuerte en una sala aparte. El importe total registrado para los ingresos en caja fuerte aún está incluido en los totales de cambio, aunque no es necesario contarlo como parte de la declaración por forma de pago.
 
-**Supresión de forma de pago**
+### <a name="bank-drop"></a>Ingreso bancario
+Al igual que los ingresos en caja fuerte, los ingresos bancarios se realizan en turnos activos. Esta operación quita dinero del turno para prepararse para el depósito bancario.
 
-Las supresiones de forma de pago son transacciones no comerciales realizadas en un turno activo para reducir el importe de efectivo de la categoría. Este es el que más se usa junto con una entrada flotante en otro turno. Por ejemplo, el registro 1 se está quedando sin cambio, por lo que el usuario en el registro 2 realiza un eliminación de forma de pago para reducir el importe de caja. El usuario del registro 1 efectuaría una entrada flotante para aumentar su importe.
+### <a name="blind-close-shift"></a>Turno cerrado en ciego
+*Los turnos cerrados en ciego* ya no están activos, pero no se han cerrado por completo. A diferencia de los turnos supendidos, los turnos cerrados en ciego no se pueden reanudar. Sin embargo, las operaciones como Declarar importe inicial y Declaración por forma de pago se pueden realizar posteriormente o desde un registro diferente.
 
-**Suspender turno**
+Los turnos cerrados en ciego se suelen usar para liberar un registro para un nuevo usuario o turno, sin tener que contabilizar completamente, conciliar y cerrar el turno primero.
 
-Los usuarios pueden suspender el turno activo para liberar el registro actual de otro usuario, o para mover el turno a otro registro (esto suele denominarse "caja registradora flotante"). 
+### <a name="close-shift"></a>Cerrar turno
+Esta operación calcula los totales de turno, los importes de superávit/déficit y, a continuación, termina un turno activo o cerrado en ciego. Dependiendo de los permisos del usuario, también se imprie un informe Z para el turno. Los turnos cerrados no se pueden reanudar ni modificar.
 
-Suspender el turno evita la ejecución de nuevas transacciones o cambios en el turno hasta que este se reanuda.
+### <a name="print-x"></a>Imprimir X
+Esta operación genera e imprime un informe X para el turno activo actual.
 
-**Reanudar turno**
+### <a name="reprint-z"></a>Volver a imprimir Z
+Esta operación vuelve a imprimir el último informe Z que el sistema generó cuando se cerró un turno.
 
-Esta operación permite que un usuario reanude un cambio suspendido anteriormente en un registro que todavía no tiene ningún cambio activo.
+### <a name="manage-shifts"></a>Administrar cambios
+Esta operación permite a los usuarios ver todos los turnos activos, suspendidos, y cerrados en ciego de la tienda. En función de los permisos, los usuarios pueden realizar los procedimientos de cierre finales como las operaciones de declaración por forma de pago y de cierre de turno para los turnos cerrados en ciego. Esta operación también permite a los usuarios ver y eliminar turnos no válidos en el caso poco probable de que los turnos queden en mal estado después de cambiar entre los modos sin conexión y conectado. Estos turnos no válidos no contienen información financiera ni datos transaccionales necesarios para la conciliación.
 
-**Declaración por forma de pago**
+## <a name="shift-and-drawer-permissions"></a>Permisos de turnos y caja registradora
+Los siguientes permisos de PDV afectan a lo que un usuario puede y no puede hacer en varios escenarios:
 
-La declaración por forma es la acción que el usuario lleva a cabo para especificar el importe de dinero total actualmente en el cajón, por lo general antes de cerrar el cambio. Este es el valor que se compara con el cambio esperado para calcular el importe en exceso/insuficiente.
+- **Permitir cierre en ciego**
+- **Permitir impresión de informes X**
+- **Permitir impresión de informe Z**
+- **Permitir declaración por forma de pago**
+- **Permitir declaración del capital flotante**
+- **Categoría abierta sin venta**
+- **Permitir varios inicios de sesión de turno** – Este permiso permite al usuario iniciar sesión y usar un turno que abrió otro usuario. Los usuarios que no tienen este permiso puede iniciar sesión y usar solo turnos que han abierto.
+- **Permitir administración de turnos compartidos** – Los usuarios deben tener este permiso para abrir o cerrar un turno compartido.
+- **Permitir uso de turnos compartidos** – Los usuarios deben tener este permiso para iniciar sesión y usar un turno compartido.
 
-**Ingreso en caja fuerte**
+## <a name="back-office-end-of-day-considerations"></a>Consideraciones de back-office al final del día
+La forma en que los turnos y la conciliación de la caja registradora se utilizan en el PDV difiere de la forma en que las datos de transacción se resumen durante el cálculo del extracto. Es importante que entienda esta diferencia. Dependiendo de su configuración y sus procesos empresariales, los datos del turno en el PDV (el informe Z) y un extracto calculado en la back-office puede proporcionarle resultados diferentes. Esta diferencia no implica necesariamente que los datos del turno o el extracto calculado sean incorrectos, o que exista un problema con los datos. Simplemente significa que los parámetros que se proporcionan pueden incluir transacciones adicionales o menos transacciones, o que las transacciones se han resumido de manera distinta.
 
-Los ingresos seguros se pueden realizar en cualquier momento de un turno activo. Esta operación quita dinero de la caja, para que se pueda transferir a una ubicación más segura como una caja fuerte en una sala aparte. El importe total registrado para los ingresos seguros aún está incluido en los totales de cambio, aunque no es necesario contarlo como parte de la declaración por forma de pago.
+Aunque cada minorista tiene distintos requisitos empresariales, le recomendamos que configure su sistema de la siguiente forma para evitar situaciones en las que se produzcan diferencias de este tipo:
 
-**Ingreso bancario**
+Vaya a **Retail \> Canales \> Tiendas \> Todas las tiendas minoristas \> Extracto/cierre**, y para cada tienda, establezca el campo **Método de extracto** y el campo **Método de cierre** en **Turno**.
 
-Al igual que los ingresos seguros, los ingresos bancarios también se realizan en turnos activos. Esta operación quita dinero del turno para prepararse para el depósito bancario.
+Esta configuración ayuda a garantizar que los extractos de back-office incluyan las mismas transacciones que los turnos en el PDV, y que los datos se resumen en ese turno.
 
-**Turno cerrado en ciego**
-
-Un turno cerrado a ciegas es un turno que ya no está activo pero que no se ha cerrado completamente. Los turnos cerrados a ciegas no se pueden reanudar como un turno suspendido, pero los procedimientos como por ejemplo importes iniciales declarados y las declaraciones de forma de pago se pueden realizar en otro momento o desde otro registro.
-
-Los turnos cerrados a ciegas se suelen usar para liberar un registro para un nuevo usuario o turno, sin tener que contabilizar completamente, conciliar y cerrar este turno primero. 
-
-**Cerrar turno**
-
-Esta operación calcula los totales de turno, los importes en exceso/insuficientes y, a continuación termina un turno activo o cerrado en ciego. Los turnos cerrado no se pueden reanudar ni modificar.  
-
-**Administrar cambios**
-
-Esta operación permite a los usuarios ver todos los turnos activos, suspendidos, y cerrados en ciego de la tienda. En función de los permisos, los usuarios pueden realizar los procedimientos de cierre finales como la declaración por forma de pago y cerrar los turnos para los turnos cerrados a ciegas. Esta operación también permitirá que los usuarios vean y eliminen turnos no válidos en el caso poco probable de que un turno quede en mal estado después de cambiar entre los modos sin conexión y conectado. Estos turnos no válidos no contienen información financiera ni datos transaccionales necesarios para la conciliación. 
+Para obtener más información sobre los métodos de extracto y de cierre, consulte [Almacenar configuraciones para los extractos de Retail](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
 
