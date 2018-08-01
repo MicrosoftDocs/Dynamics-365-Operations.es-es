@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 86b301833f3655f7172e2d38ddca4239be71760c
-ms.openlocfilehash: bcb4af426e5967643a1c438bb19495576ce51b63
+ms.sourcegitcommit: 4961ee7fcc56af0646e421c9e040e2129cc322c4
+ms.openlocfilehash: e6d6ede65764c0b35c9ce0985af0d9f2cd6653c0
 ms.contentlocale: es-es
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/12/2018
 
 ---
 
@@ -58,6 +58,8 @@ Como parte de las mejoras de la función de registro de extractos, se han inclui
 - **Deshabilitar recuento obligatorio**: si esta opción está establecida en **Sí**, el proceso de registro de un extracto continua, incluso si la diferencia entre el importe contado y el importe de transacción en el extracto está fuera del umbral definido en la ficha desplegable **Extracto** para tiendas.
 
 Además, se ha introducido el campo **Número máximo de extractos registrados en paralelo** en la ficha desplegable **Procesamiento por lotes** . Este campo define el número de tareas por lotes que se deben ejecutar al mismo tiempo. Actualmente hay que establecer manualmente el valor de este campo.
+
+Asimismo, con el nuevo proceso de registro, es necesario definir un **Producto de tarjeta regalo** en la ficha desplegable **Tarjeta regalo** de la pestaña **Registrar** de la página **Parámetros comerciales**. Esto ocurre incluso si la organización no utiliza tarjetas regalo. 
 
 Tenga en cuenta que todos los valores y parámetros asociados a los registros de extracto, y que se definen en las tiendas y en la página **Parámetros comerciales**, son aplicables a la función mejorada del registro de extractos.
 

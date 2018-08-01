@@ -1,16 +1,16 @@
 ---
 title: "Planificación presupuestaria"
-description: "El objetivo de este laboratorio es proporcionar una visita guiada de las actualizaciones de la funcionalidad de Microsoft Dynamics 365 for Finance and Operations en el área de planificación presupuestaria. El objetivo de este laboratorio es presentar un ejemplo de configuración rápida del módulo de planificación presupuestaria y mostrar cómo se puede llevar a cabo la planificación presupuestaria con esta configuración.  Este laboratorio se centrará de manera específica en las siguientes tareas o procesos empresariales -    - Creación de una jerarquía organizativa para planificación presupuestaria y configuración de la seguridad del usuario   - Definición de escenarios de planes presupuestarios, columnas de planes presupuestarios   - Creación y activación del proceso de planificación presupuestaria   - Creación de documentos de plan presupuestaria insertando datos reales desde contabilidad general   - Uso de asignaciones para ajustar datos de documentos de plan presupuestario   - Edición de datos de documentos de plan presupuestario en Excel"
-author: twheeloc
+description: "El objetivo de este laboratorio es proporcionar una visita guiada de las actualizaciones de la funcionalidad de Microsoft Dynamics 365 for Finance and Operations en el área de planificación presupuestaria. El objetivo de este laboratorio es presentar un ejemplo de configuración rápida del módulo de planificación presupuestaria y mostrar cómo se puede llevar a cabo la planificación presupuestaria con esta configuración."
+author: ShylaThompson
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 59781da7681ece1c0c013f59e0d1a5d7efc51c3a
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: ac2e98dbbd45becf06e28b6ea4eb9d0ec15e30f6
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -30,7 +30,13 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-El objetivo de este laboratorio es proporcionar una visita guiada de las actualizaciones de la funcionalidad de Microsoft Dynamics 365 for Finance and Operations en el área de planificación presupuestaria. El objetivo de este laboratorio es presentar un ejemplo de configuración rápida del módulo de planificación presupuestaria y mostrar cómo se puede llevar a cabo la planificación presupuestaria con esta configuración.  Este laboratorio se centrará de manera específica en las siguientes tareas o procesos empresariales -    - Creación de una jerarquía organizativa para planificación presupuestaria y configuración de la seguridad del usuario   - Definición de escenarios de planes presupuestarios, columnas de planes presupuestarios   - Creación y activación del proceso de planificación presupuestaria   - Creación de documentos de plan presupuestaria insertando datos reales desde contabilidad general   - Uso de asignaciones para ajustar datos de documentos de plan presupuestario   - Edición de datos de documentos de plan presupuestario en Excel 
+El objetivo de este laboratorio es proporcionar una visita guiada de las actualizaciones de la funcionalidad de Microsoft Dynamics 365 for Finance and Operations en el área de planificación presupuestaria. El objetivo de este laboratorio es presentar un ejemplo de configuración rápida del módulo de planificación presupuestaria y mostrar cómo se puede llevar a cabo la planificación presupuestaria con esta configuración.  Este laboratorio se centrará específicamente en los siguientes procesos empresariales o tareas:
+- Creación de una jerarquía organizativa para planificación presupuestaria y configuración de la seguridad del usuario
+- Definición de escenarios de planes presupuestarios, columnas de planes presupuestarios, diseños y plantillas de Excel
+- Creación y activación del proceso de planificación presupuestaria
+- Creación de documentos del plan presupuestario insertando datos reales desde contabilidad general
+- Uso de asignaciones para ajustar datos de documentos de plan presupuestario
+- Edición de datos de documentos de plan presupuestario en Excel 
 
 <a name="prerequisites"></a>Requisitos previos 
 ------------------
@@ -104,8 +110,6 @@ La planificación presupuestaria usa directivas especiales de seguridad para con
 2.5. Seleccione "Conceder acceso a organizaciones específicas". Seleccione la jerarquía organizativa creada en el primer paso. Seleccione el nodo Finanzas y haga clic en el botón Conceder con subordinados 
 
 ***Importante*** *Asegúrese de que se encuentra en el contexto de la entidad jurídica de DEMF cuando realice esta tarea, conforme se aplica la seguridad organizativa por entidad jurídica* 
-
-[![Otorgar acceso](./media/screenshot14.png)](./media/screenshot14.png)
 
 ### <a name="task-3-create-scenarios"></a>Tarea 3: Crear escenarios
 3.1. Navegue hasta Gestión presupuestaria&gt;Configurar &gt; Planificación presupuestaria &gt; Configuración de planificación presupuestaria. En la página Situaciones observe los escenarios que vamos a usar más en este laboratorio: Reales del año anterior y Presupuestado. 

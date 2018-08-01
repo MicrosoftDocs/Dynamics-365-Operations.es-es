@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4c61cb81368251540e0015e155b1cc932bf7b948
-ms.openlocfilehash: 6360bbc8e5abd94cfd1c2853bc384598047eec39
+ms.sourcegitcommit: 4485bd6442d186e5a6bac90e0a9041566e2e26d0
+ms.openlocfilehash: efa82abcd25101fc7be772c32e6c4fee7976d4bb
 ms.contentlocale: es-es
-ms.lasthandoff: 05/16/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 05/16/2018
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations incluye funcionalidad para los países o regiones documentados en la [Guía internacional de disponibilidad del producto](http://download.microsoft.com/documents/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Esta función se activa según la dirección principal de la entidad jurídica activa. 
+Microsoft Dynamics 365 for Finance and Operations incluye funcionalidad para los países o regiones documentados en la [Guía de disponibilidad de la localización y la traducción del producto](https://aka.ms/ax-availabilityguide). Esta función se activa según la dirección principal de la entidad jurídica activa. 
 
 Este tema incluye listas de recursos que pueden ayudarle a obtener más información acerca de soluciones, actualizaciones, alertas y funciones específicas de un país o una región. 
 

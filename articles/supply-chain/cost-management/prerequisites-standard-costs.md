@@ -20,10 +20,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e63f2b4289b640e601492425331ea8f3804d139a
-ms.openlocfilehash: 4f505a2de89863d1a12d415795fdfb82b3557bc0
+ms.sourcegitcommit: 338e0847ea91ee2582df0aab3e31a97c4f24113e
+ms.openlocfilehash: 016eec12c31398beede7fdddc4548ec196ebd704
 ms.contentlocale: es-es
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -51,7 +51,7 @@ Antes de definir las reglas de registro de artículos, utilice la página **Comb
 
 **4. Defina los parámetros de inventario relacionados con los costes estándar.** 
 
--  Utilice la pestaña **Lista de materiales** en la página **Parámetros del inventario** para definir los parámetros de control de costes relacionados con los costes estándar. 
+-  Utilice la pestaña **Contabilidad de inventario** en la página **Configuración de directivas de contabilidad de inventario > Parámetros** para definir los parámetros de control de costes relacionados con los costes estándar.
 
     -  En el campo **Análisis de costes**, seleccione **Ninguno** o **Sublibro de contabilidad**. Si selecciona **Sublibro de contabilidad**, el análisis de costes es un análisis de costes *activo* . El análisis de costes activo es fundamental para calcular, conservar y ver la segmentación de grupos de costes en la estructura de productos de múltiples niveles de los artículos de costes estándar. La activación del análisis de costes le permite notificar y analizar el inventario, el trabajo en proceso (WIP) y el coste de las mercancías vendidas (COGS) por grupo de costes en un solo nivel, en múltiples niveles o en un formato único. Cuando el análisis de costes es activo, si activa el cote del artículo fabricado, la segmentación de grupo de costes se almacenará en el registro de costes del artículo. 
 
