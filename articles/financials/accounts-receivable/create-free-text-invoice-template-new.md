@@ -3,7 +3,7 @@ title: Crear una plantilla de factura de servicios
 description: "Este procedimiento demuestra cómo crear una plantilla de la factura de servicios."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 05/29/2019
+ms.date: 05/29/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
