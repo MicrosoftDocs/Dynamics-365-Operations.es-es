@@ -1,7 +1,7 @@
 ---
 title: "Visión general de transferencias de crédito SEPA"
 description: "Este artículo proporciona información general acerca las transferencias de crédito ISO 20022, que incluyen las transferencias de crédito de la Zona Única de Pagos en Euros (SEPA) y cualquier otro pago electrónico para proveedores. La transferencia de crédito SEPA es un tipo específico de pago (en euros) de una empresa o un individuo a otra empresa o individuo. El tema también explica cómo configurar y transmitir un archivo de pago de transferencia de crédito."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

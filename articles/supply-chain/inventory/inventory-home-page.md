@@ -1,7 +1,7 @@
 ---
 title: "Página principal de gestión del inventario"
 description: "Este tema proporciona una visión general de gestión del inventario."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventParameters
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc

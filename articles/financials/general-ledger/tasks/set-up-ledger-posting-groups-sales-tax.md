@@ -1,7 +1,7 @@
 --- 
 title: "Configuración de grupos de contabilidad para impuestos"
 description: Los impuestos se calculan y registran en las cuentas principales que se especifican en los grupos de registro.
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: vstehman

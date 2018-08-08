@@ -1,7 +1,7 @@
 ---
 title: "Previsión de puestos"
 description: "Los gastos relacionados con los trabajadores componen a menudo una proporción grande de los costes de una organización. La previsión de puestos le permite planificar esos gastos y los incluye en la planificación de presupuestos."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmPositionForecast
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91

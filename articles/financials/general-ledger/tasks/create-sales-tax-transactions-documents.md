@@ -1,7 +1,7 @@
 --- 
 title: Crear transacciones de impuestos en documentos
 description: "Los impuestos en los documentos se calculan si proporciona un grupo de impuestos y un grupo de impuestos de artículos en las líneas del documento."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: vstehman

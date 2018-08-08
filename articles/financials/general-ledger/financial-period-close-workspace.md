@@ -1,7 +1,7 @@
 ---
 title: "Espacio de trabajo de cierre del período financiero"
 description: "Este artículo proporciona una visión general del espacio de trabajo de cierre del período financiero y la configuración asociada."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/29/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273

@@ -1,7 +1,7 @@
 ---
 title: Tipos de diarios contables
 description: "En este artículo se describen los tipos de diarios que se pueden configurar para los diarios financieros. Use la página **Nombres de diarios** para configurar diarios que puede usar en todo Microsoft Dynamics 365 for Finance and Operations."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalSetup
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
