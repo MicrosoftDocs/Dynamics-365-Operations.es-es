@@ -1,7 +1,7 @@
 --- 
 title: "Clasificar un producto mediante jerarquías de categorías"
 description: "Use las jerarquías de categoría para clasificar los productos para la exportación, la compra, la venta u otros objetivos."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 09/26/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -17,10 +17,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 98f6eaf3a3d4754a4443e7f5214f97ea87b6f435
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 59c74ff34fde9064c54f8e6e6c4717df83680fae
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a><span data-ttu-id="bc97e-103">Clasificar un producto mediante jerarquías de categorías</span><span class="sxs-lookup"><span data-stu-id="bc97e-103">Classify a product using category hierarchies</span></span>

@@ -1,7 +1,7 @@
 --- 
 title: Calcular y ajustar los impuestos en una factura de proveedor
 description: "Si el documento de origen inicial muestra diferentes importes de impuestos según los calcula, puede ajustar dichos importes antes del registro."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/10/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9fedb132f47c22d3445527c1efe97aa0f83cc1d1
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 1af9228e5efd2cd6e414eebf766bb3475b44a360
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a><span data-ttu-id="28466-103">Calcular y ajustar los impuestos en una factura de proveedor</span><span class="sxs-lookup"><span data-stu-id="28466-103">Calculate and adjust sales tax on a vendor invoice</span></span>

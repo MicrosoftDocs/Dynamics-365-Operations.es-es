@@ -1,7 +1,7 @@
 ---
 title: "Visión general de Gestión presupuestaria"
 description: "Casi todas las empresas que utilizan la funcionalidad de Financials en Microsoft Dynamics 365 for for Finance and Operations tendrán que poder crear informes de valores presupuestados frente a reales. En este artículo se explica la configuración mínima necesaria para crear presupuestos en Finance and Operations o cargarlos desde un programa de terceros."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e50c646154bf17594d1de78eedc55edd54cde1c5
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 01b7970119b9abb26570c19162e159dd05496168
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

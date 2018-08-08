@@ -1,7 +1,7 @@
 --- 
 title: Crear una lista de materiales para un producto maestro basado en dimensiones
 description: "Para este procedimiento, debe tener completado las 4 guías anteriores de esta secuencia de ocho registros."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3a3aeae7e8012282ec9e57314a128a60c1a80a68
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: d6d98b33d819fd7c68af7d0d5df8eaeb381853b1
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a><span data-ttu-id="b02ab-103">Crear una lista de materiales para un producto maestro basado en dimensiones</span><span class="sxs-lookup"><span data-stu-id="b02ab-103">Create a bill of materials for a dimension-based product master</span></span>

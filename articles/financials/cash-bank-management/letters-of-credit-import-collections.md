@@ -1,7 +1,7 @@
 ---
 title: "Cartas de crédito y remesas documentarias"
 description: "Este artículo proporciona información general acerca de las cartas de crédito y los cobros. Ambos tipos de documentos bancarios se usan a menudo para la compra y la venta de bienes entre fronteras internacionales."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BankLCImport
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 18321
 ms.assetid: 5c97ab81-632b-4043-a940-674bcb496c80
@@ -19,10 +19,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: effaffe8b5fbfc79713501973ece49db0517e30d
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 2b5deef65cc4af2fdfee6549660527007c3bed3a
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

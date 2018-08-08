@@ -1,7 +1,7 @@
 --- 
 title: Crear un producto
 description: "Este procedimiento le muestra cómo crear un nuevo producto en la jerarquía de productos comerciales."
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6eb0645d199beeb99a943b81c6a187b8a93c5710
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 83a54f4b076129aacf60d0b7262e3077998d8516
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-product"></a><span data-ttu-id="1400d-103">Crear un producto</span><span class="sxs-lookup"><span data-stu-id="1400d-103">Create a product</span></span>

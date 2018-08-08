@@ -1,7 +1,7 @@
 --- 
 title: "Crear reglas de configuración"
 description: "Este procedimiento crea reglas de configuración que se pueden usar para que la configuración basada en dimensiones aplique o impida combinaciones de líneas de lista de materiales."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0abe7a8ef1c8d4053b341f6c0117f400492a3808
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: af167013b9adb92c73d3bc7ef832b1f17129e678
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-configuration-rules"></a><span data-ttu-id="cc2d8-103">Crear reglas de configuración</span><span class="sxs-lookup"><span data-stu-id="cc2d8-103">Create configuration rules</span></span>

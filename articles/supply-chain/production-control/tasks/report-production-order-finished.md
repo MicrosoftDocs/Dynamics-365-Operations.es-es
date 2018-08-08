@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -17,10 +17,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a8aceb273f940b0c01c4ca0f45bd8a16968f6f4f
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 9c523350af46ffa1516ea42aa0328d4f24f57133
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="report-a-production-order-as-finished"></a><span data-ttu-id="6c88a-103">Notificar un pedido de producción como terminado</span><span class="sxs-lookup"><span data-stu-id="6c88a-103">Report a production order as finished</span></span>

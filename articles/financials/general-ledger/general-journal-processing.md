@@ -1,7 +1,7 @@
 ---
 title: Procesamiento de diarios generales
 description: "Este artículo describe las capacidades en Microsoft Dynamics 365 for Finance and Operations que pueden facilitar el proceso del diario general y que también pueden ayudar a garantizar que se capturan los datos correctos y que no se pone en peligro el control interno."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d3f34933e64babfe2f5a9a6018e1a18844a88d4c
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 82d08a76c0d52719330960b85b3cca9b1440406b
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

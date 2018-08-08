@@ -1,7 +1,7 @@
 --- 
 title: "Asignar una dimensión de elemento de coste"
 description: "Un controlador de costes puede utilizar este procedimiento para asignar una dimensión de elemento de coste a una dimensión de elemento de coste en la entidad jurídica de MXMF."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: cfad9c5c02f5002f075e2de99eaf407b4c75f596
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 52b9f6a5b71349d404fe9621b58f58aab843a71f
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="map-a-cost-element-dimension"></a><span data-ttu-id="df883-103">Asignar una dimensión de elemento de coste</span><span class="sxs-lookup"><span data-stu-id="df883-103">Map a cost element dimension</span></span>

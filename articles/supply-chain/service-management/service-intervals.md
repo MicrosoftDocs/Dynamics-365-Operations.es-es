@@ -1,7 +1,7 @@
 ---
 title: Intervalos de servicio
 description: "El intervalo de servicio indica la frecuencia con la que se crean líneas de pedido de servicio para líneas de contrato de servicio cuando crea pedidos de servicio."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 02/20/2018
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAAgreementTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 96443a8135a0a12ae23895c4ceac4da626fd96fa
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 10078cbd02209126e9655b823fcf844b692a4794
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

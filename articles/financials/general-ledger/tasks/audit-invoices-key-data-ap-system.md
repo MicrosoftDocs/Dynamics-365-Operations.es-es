@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: cba7a6519847945cd3e9e524b8871a1dad9984d4
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: c928edee086835479ab6d150b1dd86df1824226f
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a><span data-ttu-id="9647f-103">Auditar facturas y datos clave en sistema de proveedores</span><span class="sxs-lookup"><span data-stu-id="9647f-103">Audit invoices and key data in accounts payable</span></span>

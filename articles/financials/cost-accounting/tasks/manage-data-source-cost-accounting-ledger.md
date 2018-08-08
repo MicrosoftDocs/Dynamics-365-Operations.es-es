@@ -1,7 +1,7 @@
 --- 
 title: Gestionar un origen de datos para el libro mayor de contabilidad de costes
 description: Use este procedimiento para gestionar el origen de datos de la contabilidad general para un libro mayor de contabilidad de costes.
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3caafcb02f63975dce21417a4baaf1512cc84687
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: f53101d73bc69199fafb00de0fa1759d59ea4ce8
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a><span data-ttu-id="b9770-103">Gestionar un origen de datos para el libro mayor de contabilidad de costes</span><span class="sxs-lookup"><span data-stu-id="b9770-103">Manage a data source for the cost accounting ledger</span></span>

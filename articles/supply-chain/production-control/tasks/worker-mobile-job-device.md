@@ -1,7 +1,7 @@
 --- 
 title: "Configurar un trabajador mediante el dispositivo móvil de trabajo"
 description: "Este procedimiento le muestra cómo asignar los roles correctos a la cuenta de usuario de un trabajador y, a continuación, habilitar al trabajador para que realice registros de planta."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5322d77af470c25f0849cbbfbbfbc4a50a7e859b
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 3582561dbcf44a7260c0fc1aa4f11b3e5caffc1d
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a><span data-ttu-id="c40bc-103">Configurar un trabajador mediante el dispositivo móvil de trabajo</span><span class="sxs-lookup"><span data-stu-id="c40bc-103">Configure a worker using the mobile job device</span></span>

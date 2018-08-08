@@ -1,7 +1,7 @@
 ---
 title: Contratos de nivel de servicio
 description: "En un contrato de nivel de servicio, el cliente acuerda un tiempo de respuesta mínimo desde que la empresa de servicios registra el problema y hasta que se resuelve el problema."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAServicelevelagreement
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 63389ed348e9b1bebe00d9aaa9f78b97ac39317b
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: cffe3a7766502dd5d888a7a99a32150967911301
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
