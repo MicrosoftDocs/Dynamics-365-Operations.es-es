@@ -1,7 +1,7 @@
 ---
 title: Contenido de Power BI sobre rendimiento de la rentabilidad y las ventas
 description: "Este tema describe lo que se incluye en el contenido de Power BI sobre Rendimiento de ventas y rentabilidad. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article

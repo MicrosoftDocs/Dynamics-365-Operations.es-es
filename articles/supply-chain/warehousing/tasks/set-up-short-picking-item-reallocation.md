@@ -1,7 +1,7 @@
 --- 
 title: "Configuración de la reasignación de artículos para la selección corta"
 description: "Este procedimiento muestra cómo permitir que los trabajadores del almacén busquen rápidamente ubicaciones alternativas si no hay suficiente inventario en la ubicación a la que les han dirigido."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution

@@ -1,7 +1,7 @@
 ---
 title: "Adquisición de activos mediante compra"
 description: "Este tema describe la manera de configurar la integración entre Activos fijos y Proveedores para crear automáticamente activos fijos a partir de pedidos de compra o facturas de proveedor, o registrar automáticamente transacciones de adquisición o transacciones de ajuste de adquisición de activos fijos."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 3481
 ms.assetid: d4e73a3f-633b-48b2-b8db-7a4a59a4d7ec

@@ -1,7 +1,7 @@
 --- 
 title: Configurar procesamiento de oleadas
 description: "En esta guía se describe cómo configurar los criterios que determinan qué trabajo se genera para un almacén cuando se procesa una oleada y si las oleadas se procesan manual o automáticamente."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/07/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution

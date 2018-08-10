@@ -1,7 +1,7 @@
 ---
 title: "Visión general del control presupuestario"
 description: "Este artículo presenta el control presupuestario y proporciona información para ayudarle a configurar el control presupuestario en Microsoft Dynamics 365 for Finance and Operations de manera que pueda gestionar los recursos financieros."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetControlConfiguration
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5

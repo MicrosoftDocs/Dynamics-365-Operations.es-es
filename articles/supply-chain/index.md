@@ -1,7 +1,7 @@
 ---
 title: "Página de inicio de gestión de la cadena de suministro"
 description: "En esta página se proporciona una lista de temas de ayuda y otros recursos para las características de administración de la cadena de suministro de Microsoft Dynamics 365 for Finance and Operations."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: index-page
@@ -9,13 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: 
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT

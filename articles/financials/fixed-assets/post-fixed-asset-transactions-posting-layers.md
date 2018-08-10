@@ -1,7 +1,7 @@
 ---
 title: Registrar las transacciones de activos fijos para registrar capas
 description: "Este artículo ofrece una visión general de la funcionalidad de la capa de registro para las transacciones de activos fijos."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 3001
 ms.assetid: 7dabde57-0843-47c3-85ef-f36b6f472e30
