@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: af87f3f7c3fab9b6baecefbedcd855a764f31cbe
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -33,18 +33,18 @@ Este tema describe lo que se incluye en el contenido de **análisis de contabili
 
 ## <a name="overview"></a>Información general
 
-El contenido de **Análisis de la contabilidad de costes** en Power BI está destinado a los controladores de costes responsables de realizar el control de costes de una organización. Incluye medidas clave, como el coste, magnitud, el índice de coste por coste real, coste presupuestario, y coste presupuestario flexible. Usa datos de transacción del módulo **Contabilidad de costes** y proporciona una visión global de costes para la organización completa en una divisa de notificación. Los directores pueden filtrar los datos por objetos de coste para realizar el control de costes de sus unidades organizativas, incluso aunque la organización tenga varias entidades jurídicas. 
+El contenido de **Análisis de la contabilidad de costes** en Power BI está destinado a los controladores de costes responsables de realizar el control de costes de una organización. Incluye medidas clave, como el coste, magnitud, el índice de coste por coste real, coste presupuestario, y coste presupuestario flexible. Usa datos de transacción del módulo **Contabilidad de costes** y proporciona una visión global de costes para la organización completa en una divisa de notificación. Los directores pueden filtrar los datos por objetos de coste para realizar el control de costes de sus unidades organizativas, incluso aunque la organización tenga varias entidades jurídicas.
 
-Dado que el contenido de **Análisis de la contabilidad de costes** resalta las desviaciones entre los costes reales y los costes presupuestados, se puede notificar a los directores las tendencias positivas y negativas de sus unidades operativas. Los directores pueden explorar en profundidad las jerarquías de los elementos de coste o los elementos de coste individuales. De esta manera, los directores pueden conseguir información detallada sobre cómo se produjeron las variaciones de costes y, después, tomar medidas eficaces. 
+Dado que el contenido de **Análisis de la contabilidad de costes** resalta las desviaciones entre los costes reales y los costes presupuestados, se puede notificar a los directores las tendencias positivas y negativas de sus unidades operativas. Los directores pueden explorar en profundidad las jerarquías de los elementos de coste o los elementos de coste individuales. De esta manera, los directores pueden conseguir información detallada sobre cómo se produjeron las variaciones de costes y, después, tomar medidas eficaces.
 
-El contenido de **Análisis de la contabilidad de costes** permite a los contables de coste analizar cómo el coste fluye por los objetos de coste de toda la organización. 
+El contenido de **Análisis de la contabilidad de costes** permite a los contables de coste analizar cómo el coste fluye por los objetos de coste de toda la organización.
 
-Para obtener más información acerca de la contabilidad de costes, consulte [la página principal de la contabilidad de costes](../../financials/cost-accounting/cost-accounting-home-page.md). 
+Para obtener más información acerca de la contabilidad de costes, consulte [la página principal de la contabilidad de costes](../../financials/cost-accounting/cost-accounting-home-page.md).
 
 Si define la seguridad de nivel de acceso en contabilidad de costes y la combina con seguridad de nivel fila en Power BI, puede conceder a todos los propietarios de objetos de coste acceso al contenido de **Análisis de la contabilidad de costes** en Power BI. Después todos los datos de las vistas se filtrarán en función del nivel de acceso que se controla en contabilidad de costes. Para obtener más información acerca de la seguridad de nivel de acceso y seguridad de nivel fila, consulte la [configuración de seguridad del contenido de la contabilidad de costes de Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
-El contenido de **Análisis de la contabilidad de costes** de Power BI se encuentra en la biblioteca de activos compartidos en Microsoft Dynamics Lifecycle Services (LCS). Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/). 
+El contenido de **Análisis de la contabilidad de costes** de Power BI se encuentra en la biblioteca de activos compartidos en Microsoft Dynamics Lifecycle Services (LCS). Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte [Contenido de Power BI en LCS en Microsoft y sus socios](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 
 <!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
@@ -75,7 +75,7 @@ El contenido incluye un conjunto de páginas de informe. Cada página consta de 
 |                                  | Coste real por nombre de miembro de dimensión de objeto de coste y nombre de miembro de dimensión de artículo de coste                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
-Los datos siguientes se usan para rellenar las páginas de informes en el contenido de **Análisis de la contabilidad de costes** en Power BI. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md). 
+Los datos siguientes se usan para rellenar las páginas de informes en el contenido de **Análisis de la contabilidad de costes** en Power BI. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
 
 Las siguientes medidas agregadas clave se usan como la base del contenido.
 
@@ -113,20 +113,18 @@ Se usará la tabla siguiente para mostrar cómo se usan las medidas agregadas cl
 
 Las dimensiones clave siguientes se utilizan como filtros para cortar las medidas globales para lograr mayor granularidad y para proporcionar una visión analítica más profunda.
 
-
-|               Entidad               |                                                Ejemplos de atributos                                                |
+| Entidad                             | Ejemplos de atributos                                                                                               |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-|      Libros mayores de contabilidad de costes       |                                                Libro mayor de contabilidad de costes                                                |
-|         Unidades de control de costes         |                                                Nombre de unidad de control de costes                                                |
-|      Dimensiones de elemento de coste       |     Nombre de la dimensión de artículo de coste, Nombre de miembro de dimensión de artículo de coste, Descripción de miembro de dimensión de artículo de coste      |
-|       Dimensiones de objeto de coste       |       Nombre de la dimensión de objeto de coste, Nombre de miembro de dimensión de objeto de coste, Descripción de miembro de dimensión de objeto de coste        |
-|       Dimensiones estadísticas       |       Nombre de la dimensión estadística, Nombre de miembro de dimensión estadística, Descripción de miembro de dimensión estadística        |
-| Jerarquías de dimensiones de objeto de coste  |  Nombre de la jerarquía de dimensiones de objeto de coste, nivel de la jerarquía de dimensiones de objeto de coste, árbol de la jerarquía de dimensiones de objeto de coste   |
+| Libros mayores de contabilidad de costes            | Libro mayor de contabilidad de costes                                                                                               |
+| Unidades de control de costes                 | Nombre de unidad de control de costes                                                                                               |
+| Dimensiones de elemento de coste            | Nombre de la dimensión de artículo de coste, Nombre de miembro de dimensión de artículo de coste, Descripción de miembro de dimensión de artículo de coste          |
+| Dimensiones de objeto de coste             | Nombre de la dimensión de objeto de coste, Nombre de miembro de dimensión de objeto de coste, Descripción de miembro de dimensión de objeto de coste              |
+| Dimensiones estadísticas             | Nombre de la dimensión estadística, Nombre de miembro de dimensión estadística, Descripción de miembro de dimensión estadística              |
+| Jerarquías de dimensiones de objeto de coste  | Nombre de la jerarquía de dimensiones de objeto de coste, nivel de la jerarquía de dimensiones de objeto de coste, árbol de la jerarquía de dimensiones de objeto de coste    |
 | Jerarquías de dimensión de elemento de coste | Nombre de la jerarquía de dimensiones de artículo de coste, nivel de la jerarquía de dimensiones de artículo de coste, árbol de la jerarquía de dimensiones de artículo de coste |
-| Jerarquías de dimensión estadística  |  Nombre de la jerarquía de dimensiones estadísticas, nivel de la jerarquía de dimensiones estadísticas, árbol de la jerarquía de dimensiones estadísticas   |
-|        Versiones de transacción        |                                                     Nombre de versión                                                     |
-|          Calendarios fiscales          |                                            Calendario, descripción del calendario                                            |
-|            Ejercicios            |                                                    Año natural                                                     |
-|           Períodos fiscales           |                                                 Período del año natural                                                 |
-
+| Jerarquías de dimensión estadística  | Nombre de la jerarquía de dimensiones estadísticas, nivel de la jerarquía de dimensiones estadísticas, árbol de la jerarquía de dimensiones estadísticas    |
+| Versiones de transacción               | Nombre de versión                                                                                                         |
+| Calendarios fiscales                   | Calendario, descripción del calendario                                                                                       |
+| Ejercicios                       | Año natural                                                                                                        |
+| Períodos fiscales                     | Período del año natural                                                                                                 |
 

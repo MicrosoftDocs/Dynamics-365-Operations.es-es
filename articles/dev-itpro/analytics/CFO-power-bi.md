@@ -29,7 +29,6 @@ ms.lasthandoff: 02/23/2018
 
 Este tema describe el contenido de Microsoft Power BI de **visión general de CFO**. Este contenido de Power BI se aplica a aquellos que utilizan la versión 7.2 de Microsoft Dynamics 365 for Finance and Operations. Si utiliza la versión 7.3 o superior, consulte [Financial Insights](financial-insights.md).
 
-
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 
 Los informes del contenido de Power BI **Visión general de CFO** se muestran en el espacio de trabajo **Visión general de director financiero (CFO)**.
@@ -39,13 +38,11 @@ El contenido de Power BI de **visión general de CFO** es un compuesto de inform
 
 La tabla siguiente muestra el contenido de Power BI desde donde se copian los informes y los informes que se proporcionan en el espacio de trabajo **visión general de CFO**. Se proporcionan vínculos a la documentación para el diverso contenido de Power BI.
 
-| Contenido de Power BI que se incluye     | Informes |
-|---------------------------------------|---------|
+| Contenido de Power BI que se incluye | Informes |
+|-----------------------------------|---------|
 | [Rendimiento financiero](financial-performance-power-bi-content-pack.md) | <ul><li>Ingresos</li><li>Gastos</li><li>Ingresos netos</li><li>Margen bruto</li><li>Índice actual</li><li>Total proveedores</li><li>Total clientes</li><li>Gastos por categoría de cuenta</li><li>Gastos reales frente a gastos de presupuesto</li><li>Ingresos reales frente a ingresos de presupuesto</li></ul> |
 | [Visión general del efectivo](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md) | <ul><li>Previsión de flujo de efectivo</li><li>Saldo de cuenta bancaria</li><li>Saldo por divisa</li></ul> |
 | [Ventas y rentabilidad](sales-profitability-performance-content-pack.md) | <ul><li>Ingresos por región</li><li>10 clientes principales por ingresos</li><li>10 productos principales por ingresos</li></ul> |
 | [Administración de crédito y cobros](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Actividad de cliente vencida</li><li>Clientes sobre límite de crédito</li><li>Saldos vencidos</li></ul> |
 | [Análisis de gastos en compras](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Compras por mes/día</li><li>10 principales proveedores por compras</li><li>10 principales productos por compras</li></ul> |
-
-
 
