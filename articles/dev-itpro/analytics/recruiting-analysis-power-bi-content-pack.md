@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 63432fe5fe98b2c20ddbf9ebec6ac14b981f0106
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="352d6-105">Este tema describe el contenido en Microsoft Power BI sobre **Contratación**.</span><span class="sxs-lookup"><span data-stu-id="352d6-105">This topic describes the **Recruiting** Microsoft Power BI content.</span></span> <span data-ttu-id="352d6-106">Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.</span><span class="sxs-lookup"><span data-stu-id="352d6-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 
 ## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="352d6-107">Acceso al contenido de Power BI</span><span class="sxs-lookup"><span data-stu-id="352d6-107">Accessing the Power BI content</span></span>
-<span data-ttu-id="352d6-108">El contenido de Power BI **Contratación** se muestra en el área de trabajo **Administración de contratación**.</span><span class="sxs-lookup"><span data-stu-id="352d6-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span> 
+<span data-ttu-id="352d6-108">El contenido de Power BI **Contratación** se muestra en el área de trabajo **Administración de contratación**.</span><span class="sxs-lookup"><span data-stu-id="352d6-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span>
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a><span data-ttu-id="352d6-109">Informes y representaciones visuales en el espacio de trabajo de Administración de contratación</span><span class="sxs-lookup"><span data-stu-id="352d6-109">Reports and visuals in the Recruitment management workspace</span></span>
 <span data-ttu-id="352d6-110">El área de trabajo **Gestión de contratación** contiene la pestaña **Análisis**. Esta pestaña tiene el contenido de contrataciones incrustado de Power BI.</span><span class="sxs-lookup"><span data-stu-id="352d6-110">The **Recruitment management** workspace contains an **Analytics** tab. This tab contains the embedded Power BI content for recruiting.</span></span> <span data-ttu-id="352d6-111">El contenido consiste en una ficha de visión general y otras fichas con detalles.</span><span class="sxs-lookup"><span data-stu-id="352d6-111">The content consists of an overview tab and additional tabs that contain details.</span></span> <span data-ttu-id="352d6-112">En la tabla siguiente se describen los informes de cada ficha.</span><span class="sxs-lookup"><span data-stu-id="352d6-112">The following table describes the reports on each tab.</span></span>
@@ -66,6 +66,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="352d6-163">Rendimiento</span><span class="sxs-lookup"><span data-stu-id="352d6-163">Performance</span></span>          | <span data-ttu-id="352d6-164">Calificación, descripción y modelo de calificación</span><span class="sxs-lookup"><span data-stu-id="352d6-164">Rating, description, and rating model</span></span>                            | <span data-ttu-id="352d6-165">Candidato, candidato empleado, candidato finalizado</span><span class="sxs-lookup"><span data-stu-id="352d6-165">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="352d6-166">Proyecto de contratación</span><span class="sxs-lookup"><span data-stu-id="352d6-166">Recruitment Project</span></span>  | <span data-ttu-id="352d6-167">Descripción del proyecto, estado del proyecto y vacantes</span><span class="sxs-lookup"><span data-stu-id="352d6-167">Project description, project status, and openings</span></span>                | <span data-ttu-id="352d6-168">Candidato, candidato empleado, candidato finalizado</span><span class="sxs-lookup"><span data-stu-id="352d6-168">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="352d6-169">Candidato finalizado</span><span class="sxs-lookup"><span data-stu-id="352d6-169">Terminated Applicant</span></span> | <span data-ttu-id="352d6-170">Candidatos cesados, motivo, rendimiento y fecha de cese</span><span class="sxs-lookup"><span data-stu-id="352d6-170">Terminated applicants, reason, performance, and termination date</span></span> | <span data-ttu-id="352d6-171">Empresa, contrapartida del calendario, fecha, ubicación geográfica, rendimiento, grupo demográfico, empleo, medios, proyecto de contratación, nombre del candidato</span><span class="sxs-lookup"><span data-stu-id="352d6-171">Company, Calendar Offset, Date, Geographic Location, Performance, Demographics, Employment, Media, Recruitment Project, Applicant Name</span></span> |
-
-
 

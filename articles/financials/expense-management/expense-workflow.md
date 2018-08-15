@@ -1,7 +1,7 @@
 ---
 title: Flujo de trabajo de gastos
 description: "En este tema se explica cómo puede usar el sistema de flujo de trabajo en Microsoft Dynamics 365 for Finance and Operations para configurar un proceso de revisión de los informes de gastos en Gestión de gastos."
-author: saraschi2
+author: ShylaThompson
 manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
@@ -13,16 +13,14 @@ audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
-ms.search.validFrom:
-- month/year of release that feature was introduced in
-- in format yyyy-mm-dd
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: bd5b4ca2f7316b3e691ee5c11c6e47969370b95b
+ms.sourcegitcommit: 384c38f3e154495c882434d1c85cef63396cd897
+ms.openlocfilehash: 037a6ae00b7d559f79860901f0cb2ad6ddddd7aa
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 08/15/2018
 
 ---
 

@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6a0c1459da8770a8cc880a48483102494feb38bf
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: a4ea4606f9987bc08565d43a1f05243acf88883c
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -64,6 +64,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="908f4-162">Posición</span><span class="sxs-lookup"><span data-stu-id="908f4-162">Position</span></span>         | <span data-ttu-id="908f4-163">Puesto, título y equivalente a jornada completa</span><span class="sxs-lookup"><span data-stu-id="908f4-163">Position, title, and full-time equivalent (FTE)</span></span>                  | <span data-ttu-id="908f4-164">Programa del curso, asistentes al curso</span><span class="sxs-lookup"><span data-stu-id="908f4-164">Course Agenda, Course Attendees</span></span> |
 | <span data-ttu-id="908f4-165">Nombre de empleado</span><span class="sxs-lookup"><span data-stu-id="908f4-165">Employee Name</span></span>    | <span data-ttu-id="908f4-166">Nombre, apellido y nombre completo</span><span class="sxs-lookup"><span data-stu-id="908f4-166">First name, last name, and full name</span></span>                             | <span data-ttu-id="908f4-167">Asistentes al curso</span><span class="sxs-lookup"><span data-stu-id="908f4-167">Course Attendees</span></span> |
 | <span data-ttu-id="908f4-168">Puesto del empleado</span><span class="sxs-lookup"><span data-stu-id="908f4-168">Employee Title</span></span>   | <span data-ttu-id="908f4-169">Cargo y fecha de antigüedad</span><span class="sxs-lookup"><span data-stu-id="908f4-169">Title and seniority date</span></span>                                         | <span data-ttu-id="908f4-170">Asistentes al curso</span><span class="sxs-lookup"><span data-stu-id="908f4-170">Course Attendees</span></span> |
-
-
 
