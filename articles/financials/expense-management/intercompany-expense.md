@@ -1,7 +1,7 @@
 ---
 title: Gastos de empresas vinculadas
 description: "Un trabajador que sea empleado en una entidad jurídica de una organización podría realizar trabajos para otra entidad jurídica de la misma organización. En esta situación, puede usar la característica de gastos de empresas vinculadas para asignar los gastos del trabajador a la entidad jurídica para la que se realizó el trabajo."
-author: saraschi2
+author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
@@ -13,10 +13,8 @@ audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
-ms.search.validFrom:
-- month/year of release that feature was introduced in
-- in format yyyy-mm-dd
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
