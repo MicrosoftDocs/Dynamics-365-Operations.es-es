@@ -10,9 +10,9 @@
               href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/fin-and-ops/toc.json
             - name: Implementar un entorno de demostración
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
-            - name: Comparación de características locales y la nube
+            - name: Comparación de características locales y en la nube
               href: get-started/cloud-prem-comparison.md
-            - name: Elegir una opción de implementación
+            - name: Opciones de implementación
               href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
               items:
                 - name: Implementación en la nube
@@ -23,7 +23,7 @@
                   href: ../dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/fin-and-ops/toc.json
                 - name: Requisitos del sistema para implementaciones locales
                   href: get-started/system-requirements-on-prem.md
-                - name: Almacenamiento para implementaciones locales
+                - name: Configurar Warehousing para implementaciones locales
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
             - name: Versiones estándar y de destino de la plataforma
               href: get-started/public-preview-releases.md
@@ -44,11 +44,11 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Características no implementadas en implementaciones locales
               href: get-started/features-not-implemented-on-prem.md
-            - name: Finance and Operations 8.0 (abril 2018)
+            - name: Versión 8.0 de Finance and Operations (abril 2018)
               href: get-started/whats-new-changed-8-0-April-2018.md
             - name: Platform update 15 (marzo 2018)
               href: get-started/whats-new-platform-update-15.md
-            - name: Implementaciones locales de 7.2 con la Platform update 12 (marzo de 2018)
+            - name: 'Implementaciones locales de Finance and Operations, Enterprise Edition 7.2 con platform update 12 (marzo de 2018)'
               href: get-started/whats-new-LBD-PU12-App72.md
             - name: 'Finance and Operations, Enterprise Edition 7.3'
               href: get-started/whats-new-application-7.3-update.md
@@ -78,11 +78,11 @@
               href: get-started/whats-new-platform-update-3.md
             - name: Platform update 2 (agosto 2016)
               href: get-started/whats-new-platform-update-2.md
-            - name: "Versión 7.0.1 de aplicación Dynamics\_AX (mayo de 2016)"
+            - name: "Versión 7.0.1 de la aplicación Dynamics\_AX (mayo de 2016)"
               href: get-started/whats-new-changed-application-version-7-0-1-may-2016.md
             - name: Platform update 1 (mayo 2016)
               href: get-started/whats-new-changed-platform-version-7-1-may-2016.md
-            - name: Dynamics AX 7.0 (febrero de 2016)
+            - name: AX 7.0 (febrero de 2016)
               href: get-started/whats-new-changed-7-0-february-2016.md
             - name: Guías de tareas actualizadas
               items:
@@ -100,7 +100,7 @@
           items:
             - name: Características de accesibilidad
               href: get-started/accessibility-features.md
-            - name: Preguntas frecuentes sobre la interfaz de usuario del cliente
+            - name: Preguntas frecuentes para clientes
               href: get-started/client-faq.md
             - name: Búsqueda de acción
               href: get-started/action-search.md
@@ -108,33 +108,33 @@
               href: get-started/advanced-filtering-query-options.md
             - name: Configurar y filtrar espacios de trabajo
               href: get-started/configure-filter-workspaces.md
-            - name: Visualizar páginas en paralelo con el icono Abrir en una ventana nueva
+            - name: Mostrar páginas en paralelo con la función Abrir en una ventana nueva
               href: get-started/display-pages-side-by-side.md
             - name: Métodos abreviados de teclado
               href: get-started/shortcut-keys.md
-            - name: Cambiar el encabezado o el logotipo
+            - name: Cambiar los banners o las imágenes del logotipo para entidades jurídicas
               href: get-started/tasks/change-banner-or-logo.md
             - name: Búsqueda de navegación
               href: get-started/navigation-search.md
             - name: Personalizar la experiencia del usuario
               href: get-started/personalize-user-experience.md
-            - name: Campos personalizados
+            - name: Crear y trabajar con campos personalizados
               href: get-started/user-defined-fields.md
-            - name: Integrar PowerApps
+            - name: Integrar aplicaciones de PowerApps
               href: get-started/embed-power-apps.md
-            - name: Utilizar búsquedas para encontrar información
+            - name: Encontrar información mediante el uso de búsquedas
               href: get-started/use-lookups-to-find-information.md
             - name: Cambiar la fecha de una sesión
               href: organization-administration/tasks/change-date-session.md
             - name: Definir la zona horaria preferida de un usuario
               href: organization-administration/tasks/set-users-preferred-time-zone.md
-            - name: Comprender los Lifecycle Services
+            - name: Comprender Lifecycle Services
               href: ../dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json
         - name: Leer y ejecutar la documentación
           items:
-            - name: Visión general de la ayuda
+            - name: Sistema de ayuda
               href: get-started/help-overview.md
-            - name: Ayuda sobre Connect
+            - name: Conexión del sistema de ayuda
               href: get-started/help-connect.md
             - name: Ver y exportar descripciones de campos
               href: get-started/view-export-field-descriptions.md
@@ -146,32 +146,32 @@
                   href: ../dev-itpro/user-interface/task-recorder-training-docs.md?toc=/fin-and-ops/toc.json
             - name: Glosario
               href: get-started/glossary.md
-        - name: Vídeos para Dynamics 365 for Finance and Operations
+        - name: Vídeos de Finance and Operations
           href: get-started/videos.md
-    - name: Comprender el ciclo de vida de la implementación
+    - name: Administración del ciclo de vida de la implementación
       href: imp-lifecycle/implementation-lifecycle.md
       items:
         - name: Arquitectura de Finance and Operations
           href: imp-lifecycle/architecture-overview.md
-        - name: Microsoft FastTrack for Dynamics 365
+        - name: Microsoft FastTrack para Finance and Operations
           href: get-started/fasttrack-dynamics-365-overview.md
-        - name: Incorporación
+        - name: Incorporar un proyecto de implementación
           href: imp-lifecycle/onboard.md
-        - name: Preparar para la publicación
+        - name: Prepararse para la publicación
           href: imp-lifecycle/prepare-go-live.md
         - name: Preguntas frecuentes sobre la publicación
           href: imp-lifecycle/go-live-faq.md
         - name: Enviar una solicitud de servicio
           href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
-        - name: 'Preguntas frecuentes sobre suscripciones, proyectos de LCS e inquilinos de Azure Active Directory'
+        - name: 'Preguntas frecuentes sobre suscripciones, proyectos de LCS e inquilinos de Azure AD'
           href: get-started/subscription-overview.md
         - name: Mover entornos de un centro de datos a otro
           href: get-started/move-environments-data-center.md
         - name: Mover licencias entre tipos de contrato
           href: get-started/move-licenses-between-agreement-types.md
-        - name: Mover un proyecto de implementación de LCS a otro inquilino de Azure Active Directory
+        - name: Mover proyectos de implementación de LCS a distintos inquilinos de Azure AD
           href: get-started/move-lcs-implementation-project-tenant.md
-        - name: Implementar múltiples proyectos de LCS y entornos de producción en el mismo inquilino de Azure Active Directory
+        - name: Múltiples proyectos de LCS y entornos de producción en un inquilino de Azure AD
           href: get-started/implement-multiple-projects-aad-tenant.md
     - name: Conformidad
       items:
@@ -347,8 +347,23 @@
                       href: ../supply-chain/sales-marketing/field-service-work-order.md
                     - name: Sincronizar facturas de acuerdos en Field Service con facturas de servicios en Finance and Operations
                       href: ../supply-chain/sales-marketing/field-service-invoice.md
-            - name: Consumir servicios web externos
-              href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+                - name: Configurar la integración de Project Service Automation
+                  href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
+                  items:
+                    - name: Parámetros de integración de Project Service Automation
+                      href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
+                    - name: Sincronizar proyectos y contratos de proyecto
+                      href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Sincronizar tareas del proyecto
+                      href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
+                    - name: Sincronizar categorías de gastos de proyectos
+                      href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Sincronizar estimaciones del proyecto con las previsiones del proyecto
+                      href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Sincronizar valores reales del proyecto con el diario de integración del proyecto
+                      href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
+                - name: Consumir servicios web externos
+                  href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
     - name: Administración de datos
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -357,10 +372,10 @@
           items:
             - name: Proyectos de datos de configuración
               href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/fin-and-ops/toc.json
-            - name: Copiar datos de configuración entre empresas
+            - name: Copiar datos de configuración entre empresas o entidades jurídicas
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Paquetes de datos de configuración (la versión de julio de 2017 únicamente)
+                - name: Paquetes de datos de configuración (solo la versión de julio de 2017)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
             - name: Plantillas de datos de configuración
               href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/fin-and-ops/toc.json
@@ -383,7 +398,7 @@
               href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Propiedades de entidad de datos
               href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/fin-and-ops/toc.json
-            - name: Crear columnas de cálculo y campos virtuales
+            - name: Crear columnas calculadas y campos virtuales
               href: ../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/fin-and-ops/toc.json
             - name: Comportamiento entre empresas
               href: ../dev-itpro/data-entities/cross-company-behavior.md?toc=/fin-and-ops/toc.json
@@ -468,6 +483,8 @@
                   href: ../financials/cash-bank-management/configure-settlement.md
                 - name: Espacio de trabajo de pagos de proveedor
                   href: ../financials/accounts-payable/vendor-payments-workspace.md
+                - name: Especificar un tipo de cambio cruzado
+                  href: ../financials/accounts-payable/specify-cross-rate.md
                 - name: Definir cuotas de pagos a proveedores
                   href: ../financials/accounts-payable/tasks/define-vendor-payment-fees.md
                 - name: Definir condiciones de pagos a proveedores
@@ -588,11 +605,11 @@
         - name: Gestión presupuestaria
           href: ../financials/budgeting/budgeting-overview.md
           items:
-            - name: 'Visión general de la planificación presupuestaria '
+            - name: Visión general de la planificación presupuestaria
               href: ../financials/budgeting/budget-planning-overview-configuration.md
-            - name: 'Visión general del control presupuestario '
+            - name: Visión general del control presupuestario
               href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: 'Visión general de Gestión presupuestaria  '
+            - name: 'Visión general de Gestión presupuestaria '
               href: ../financials/budgeting/basic-budgeting-overview-configuration.md
             - name: Previsión de puestos
               href: ../financials/budgeting/position-forecasting.md
@@ -622,7 +639,7 @@
             - name: Descuentos por pronto pago para sobrepagos
               href: ../financials/cash-bank-management/cash-discount-handling-overpayments.md
             - name: Descripción de la liquidación
-              href: ../financials/cash-bank-management/settlement-overview-centralized-payments.md
+              href: ../financials/cash-bank-management/settlement-overview.md
             - name: Vista general de la liquidación para pagos centralizados
               href: ../financials/cash-bank-management/settlement-overview-centralized-payments.md
             - name: Carta de crédito
@@ -700,9 +717,11 @@
               href: ../financials/general-ledger/financial-dimensions.md
             - name: Estructuras contables
               href: ../financials/general-ledger/Default-dimensions.md
+            - name: Agregar dimensiones financieras al espacio de trabajo del CFO
+              href: ../financials/general-ledger/CFO-workspace.md
             - name: Crear estructuras contables
               href: ../financials/general-ledger/tasks/create-account-structures.md
-            - name: 'Visión general de Gestión presupuestaria '
+            - name: Visión general de gestión presupuestaria
               href: ../financials/budgeting/basic-budgeting-overview-configuration.md
             - name: Crear dimensiones e importar miembros de dimensión
               href: ../financials/cost-accounting/cost-dimension.md
@@ -824,12 +843,14 @@
               href: ../financials/fixed-assets/acquire-assets-procurement.md
             - name: Configuración e integración
               items:
-                - name: Configurar Activos fijos
+                - name: Configurar activos fijos
                   href: ../financials/fixed-assets/set-up-fixed-assets.md
                 - name: Integración de activos fijos
                   href: ../financials/fixed-assets/fixed-asset-integration.md
             - name: Métodos de depreciación
               items:
+                - name: Convenciones de depreciación
+                  href: ../financials/fixed-assets/Fixed-asset-depreciation-conventions.md
                 - name: Depreciación con amortización degresiva del 125%
                   href: ../financials/fixed-assets/125-percent-reducing-balance-depreciation.md
                 - name: Depreciación con amortización degresiva del 150%
@@ -886,7 +907,7 @@
                   href: ../financials/fixed-assets/tasks/reclassify-fixed-assets.md
                 - name: Configuración de la depreciación de bonificación
                   href: ../financials/fixed-assets/tasks/set-up-bonus-depreciation.md
-                - name: 'Configurar libros de amortización '
+                - name: Configurar libros de amortización
                   href: ../financials/fixed-assets/tasks/set-up-depreciation-books-2016-05.md
                 - name: Configurar y crear perfiles de depreciación
                   href: ../financials/fixed-assets/tasks/set-up-depreciation-profiles.md
@@ -915,7 +936,7 @@
                   href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
                 - name: Definiciones de contabilización
                   href: ../financials/general-ledger/posting-definitions.md
-                - name: 'Ejemplos de definición de contabilización  '
+                - name: 'Ejemplos de definición de contabilización '
                   href: ../financials/general-ledger/example-posting-definitions.md
                 - name: Saldos de cuentas de contabilidad
                   href: ../financials/general-ledger/general-ledger-account-balances.md
@@ -995,10 +1016,12 @@
                   href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
                 - name: Revalorización de divisa en una empresa de consolidación
                   href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
-                - name: Revalorización de divisa extranjera para Contabilidad general
+                - name: Revalorización de divisa extranjera para contabilidad general
                   href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Importar tipos de cambio de divisa
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: Un asiento
+                  href: ../financials/general-ledger/one-voucher.md
             - name: Cierre de final del período
               items:
                 - name: Cerrar la contabilidad general al final del período
@@ -1141,7 +1164,7 @@
               href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
             - name: Informes financieros de balance de situación
               href: ../financials/general-ledger/balance-sheet-financial-reports.md
-            - name: Generar un informe financiero
+            - name: Generar informes financieros
               href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
             - name: Informe financiero de informe de ingresos
               href: ../financials/general-ledger/income-statement-financial-report.md
@@ -1149,13 +1172,13 @@
               href: ../financials/general-ledger/trial-balance-financial-reports.md
             - name: Ver informes financieros
               href: ../financials/general-ledger/view-financial-reports.md
-            - name: Diseñador de informes
+            - name: Interfaz del diseñador de informes
               href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-            - name: Preferencias de usuario
+            - name: Preferencias de usuario en el diseñador de informes financieros
               href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
             - name: Opciones de formato avanzadas
               href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
-            - name: Organizar componentes de informes
+            - name: Organizar los componentes del informe en el diseñador de informes
               href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
             - name: Definición de informes
               href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
@@ -1165,7 +1188,7 @@
               href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
             - name: Modificar celdas de definición de filas
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
-            - name: Restablecer el data mart de informes financieros después de restablecer una base de datos
+            - name: Vuelva a establecer el data mart de informes financieros
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
     - name: Características normativas y de localización
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
@@ -1223,6 +1246,7 @@
                 - name: Preguntas frecuentes sobre facturas de cliente con IVA
                   href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
             - name: India
+              href: ../financials/localizations/india.md
               items:
                 - name: Activos fijos
                   href: ../financials/localizations/apac-ind-fixed-assets.md
@@ -1268,6 +1292,7 @@
                 - name: Preguntas frecuentes sobre los umbrales de impuestos
                   href: ../financials/localizations/apac-ind-tax-thresholds.md
             - name: Japón
+              href: ../financials/localizations/japan.md
               items:
                 - name: Adquirir un activo fijo y reclamar el subsidio de concesión del gobierno
                   href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
@@ -1426,6 +1451,7 @@
                 - name: Usar lista de desensamblaje para activos fijos
                   href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
             - name: Malasia
+              href: ../financials/localizations/malaysia.md
               items:
                 - name: Generar crédito de cliente para las ventas del proyecto
                   href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
@@ -1448,10 +1474,12 @@
                 - name: Configurar cláusulas de liberación de GST
                   href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
             - name: Singapur
+              href: ../financials/localizations/singapore.md
               items:
                 - name: Generar el informe GST-05
                   href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
             - name: Tailandia
+              href: ../financials/localizations/thailand.md
               items:
                 - name: Informes de tarjetas de existencias
                   href: ../financials/localizations/apac-tha-stock-card-reports.md
@@ -1619,7 +1647,7 @@
                   href: ../financials/localizations/emea-bel-intervat-tax-declaration.md
                 - name: Informes de conciliación
                   href: ../financials/localizations/emea-bel-reconciliation-reports.md
-                - name: 'Configurar informes de balanza de pagos  '
+                - name: 'Configurar informes de balanza de pagos '
                   href: ../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: Configurar y mantener PRODCOM
                   href: ../financials/localizations/emea-bel-prodcom-report.md
@@ -1744,7 +1772,7 @@
               items:
                 - name: Depreciación de adquisición adicional
                   href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
-                - name: 'Archivo de auditoría '
+                - name: Archivo de auditoría
                   href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
                   items:
                     - name: Personalizar la configuración del archivo de auditoría
@@ -1759,7 +1787,7 @@
                   href: ../financials/localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Informe de lista de diarios
                   href: ../financials/localizations/emea-deu-journal-list-report.md
-                - name: Configurar declaración de impuestos electrónica
+                - name: Configurar declaraciones de impuestos electrónicas
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: Hungría
               href: ../financials/localizations/hungary.md
@@ -1925,7 +1953,7 @@
             - name: Reino Unido
               href: ../financials/localizations/united-kingdom.md
               items:
-                - name: 'Esquema del sector de la construcción '
+                - name: Esquema del sector de la construcción
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
                 - name: Crear un crédito en el descuento de liquidación
                   href: ../financials/localizations/tasks/gb-00009-credit-note-settlement-discount.md
@@ -1942,7 +1970,10 @@
         - name: América Latina
           items:
             - name: Brasil
+              href: ../financials/localizations/brazil.md
               items:
+                - name: Ámbito de localización
+                  href: ../financials/localizations/latam-bra-scope.md
                 - name: Libros fiscales
                   href: ../financials/localizations/latam-bra-fiscal-books.md
                   items:
@@ -2032,7 +2063,7 @@
                       href: ../financials/localizations/latam-bra-tax-payments.md
                     - name: Impuesto en presupuestos de ventas
                       href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
-                    - name: 'Retención de impuestos  '
+                    - name: 'Retención de impuestos '
                       href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
                     - name: Retención de impuestos sobre los pagos de cliente
                       href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
@@ -2105,6 +2136,7 @@
                     - name: Activos fijos de PIS y COFINS
                       href: ../financials/localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
             - name: México
+              href: ../financials/localizations/mexico.md
               items:
                 - name: Ámbito de localización
                   href: ../financials/localizations/latam-mex-scope.md
@@ -2120,7 +2152,7 @@
                   href: ../financials/localizations/latam-mex-diot-declaration-statement.md
                 - name: Facturación electrónica de CFDI
                   href: ../financials/localizations/tasks/mx-00010-e-invoicing-cfdi.md
-                - name: 'Facturas electrónicas '
+                - name: Facturas electrónicas
                   href: ../financials/localizations/latam-mex-CFDI-electronic-invoices.md
                 - name: Extractos electrónicos de cuenta contable
                   href: ../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md
@@ -2140,17 +2172,19 @@
                   href: ../financials/localizations/tasks/mx-00006-sales-tax-code.md
                 - name: Configuración del plan de cuentas para una entidad jurídica en México
                   href: ../financials/localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
-                - name: Especificar la identificación del registro de RFC para las cuentas bancarias mejicanas
+                - name: Especificar la identificación del registro de RFC para las cuentas bancarias mexicanas
                   href: ../financials/localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Id. de registro de proveedores
                   href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
-        - name: Oriente Medio
+        - name: Arabia Saudí
+          href: ../financials/localizations/saudi-arabia.md
           items:
             - name: Impuestos
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: Informes Zakat para Arabia Saudí
               href: ../financials/localizations/emea-sau-zakat-reporting.md
-        - name: América del Norte
+        - name: Estados Unidos
+          href: ../financials/localizations/united-states.md
           items:
             - name: Informe 1099 de cierre de ejercicio en Estados Unidos
               href: ../financials/localizations/noam-usa-year-end-1099-reporting.md
@@ -2177,7 +2211,7 @@
               href: ../talent/workflow-manage-employee-information.md
         - name: Contratación
           items:
-            - name: Gestión de un proceso de contratación
+            - name: Gestionar procesos de contratación
               href: hr/manage-recruiting-process.md
             - name: Proyectos de contratación masiva
               href: hr/mass-hire-projects.md
@@ -2219,13 +2253,13 @@
               href: ../talent/evaluate-questionnaire-results.md
         - name: Seguridad y cumplimiento de normas en el lugar de trabajo (Estados Unidos)
           items:
-            - name: Formulario I-9 de comprobación de empleo
+            - name: Comprobación del formulario I-9
               href: hr/localizations/noam-usa-form-i-9-verification.md
-            - name: Formulario I-9 de comprobación de empleo
+            - name: Comprobar la idoneidad de empleo mediante el formulario I-9
               href: hr/localizations/tasks/employment-verification-i9-verification.md
-            - name: Configurar tipos de documentos I-9
+            - name: Configurar tipos de documentos del formulario I-9
               href: hr/localizations/tasks/set-up-i9-document-types.md
-            - name: Cumplimiento con ADA
+            - name: Cumplimiento de la Ley para Personas con Discapacidades de Estados Unidos (ADA)
               href: hr/localizations/noam-usa-comply-ada.md
             - name: Administrar ajustes del trabajador
               href: hr/localizations/tasks/manage-worker-accommodations.md
@@ -2238,44 +2272,50 @@
                   href: hr/localizations/noam-usa-worker-position-payroll-tasks.md
                 - name: Configurar ciclos y periodos de trabajo
                   href: hr/localizations/noam-usa-work-cycle-work-period-tasks.md
-                - name: 'Configurar planes de acumulación de prestaciones  '
+                - name: Configurar planes de acumulación de prestaciones
                   href: hr/localizations/noam-usa-benefit-accrual-plan-tasks.md
-                - name: Configurar prestaciones
+                - name: Configurar beneficios
                   href: hr/localizations/noam-usa-benefit-set-up-tasks.md
             - name: Frecuencias y ciclos
-            - name: Tareas de ciclo de pago y periodo de pago
+            - name: Configurar ciclos de pago y períodos de pago
               href: hr/localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md
-            - name: Tareas de frecuencia y cálculo de nóminas
+            - name: Configurar frecuencias de cálculo de nómina
               href: hr/localizations/noam-usa-payroll-calculation-frequencies-tasks.md
-            - name: Tareas de permisos y programación
+            - name: Configurar programaciones de trabajo y bajas
               href: hr/localizations/noam-usa-work-schedule-leave-tasks.md
             - name: Códigos e impuestos
               items:
-                - name: Tareas de grupo de código de ganancias y códigos de ganancias
+                - name: Configurar códigos de ganancias y grupos de códigos de ganancias
                   href: hr/localizations/noam-usa-earning-code-group-tasks.md
-                - name: Tareas de información sobre impuestos
+                - name: 'Configurar impuestos, regiones de impuestos, códigos de impuestos y grupos de impuestos'
                   href: hr/localizations/noam-usa-tax-information-tasks.md
+                - name: 'Preguntas más frecuentes sobre códigos de impuestos, grupos de impuestos y definiciones de contabilización'
+                  href: hr/localizations/noam-usa-tax-codes-tax-groups-definitions.md
+                - name: Especificar saldos iniciales de nómina
+                  href: hr/localizations/noam-usa-enter-beginning-balances.md
             - name: 'Embargos, recaudaciones de impuestos y bonificaciones'
               items:
                 - name: Configurar embargos y recaudaciones de impuestos
                   href: hr/localizations/noam-usa-garnishment-tax-levy-set-up-tasks.md
-                - name: Inscribir empleados en embargo judicial y recaudación de impuestos
+                - name: Inscribir empleados en embargos judiciales y recaudaciones de impuestos
                   href: hr/localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md
-                - name: 'Configurar ganancias de bonificación  '
+                - name: Configurar ganancias de bonificación
                   href: hr/localizations/noam-usa-premium-earning-setup-tasks.md
                 - name: 'Preguntas frecuentes sobre cuotas administrativas, recaudaciones de impuestos y embargos'
                   href: hr/localizations/noam-usa-garnishment-tax-levy-administrative-fees.md
-            - name: Seguimiento del tiempo para FMLA
+            - name: Seguimiento del tiempo para la Ley de Ausencia Familiar y Médica
               href: hr/localizations/noam-usa-track-time-for-fmla.md
             - name: Tareas de procesamiento de nóminas
               items:
-                - name: Generar ganancias
+                - name: Preguntas más frecuentes sobre ganancias y generación de ganancias
                   href: hr/localizations/noam-usa-earnings-generation-process.md
+                - name: Generar ganancias para trabajadores
+                  href: hr/localizations/noam-usa-generate-earnings.md
                 - name: Emitir pagos para los trabajadores
                   href: hr/localizations/noam-usa-issue-worker-payments.md
-                - name: Registrar nóminas y generar facturas de proveedores
+                - name: Registrar distribuciones de nóminas y generar facturas de proveedores
                   href: hr/localizations/noam-usa-post-payroll-generate-vendor-invoices.md
-                - name: Preguntas frecuentes sobre extractos de pago y generación de pagos
+                - name: Preguntas más frecuentes sobre extractos de pago y generación de pagos
                   href: hr/localizations/noam-usa-pay-statements-payment-generation-process.md
             - name: Completar el proceso de pago
               items:
@@ -2283,17 +2323,17 @@
                   href: hr/localizations/noam-usa-existing-payroll-payments.md
                 - name: Procesar ganancias existentes
                   href: hr/localizations/noam-usa-existing-earnings.md
-                - name: Procesar extractos de pago
+                - name: Generar y trabajar con extractos de pago
                   href: hr/localizations/noam-usa-pay-statements.md
             - name: Mantenimiento e informes
               items:
-                - name: Preguntas más frecuentes sobre nóminas y actualizaciones de datos
+                - name: Preguntas más frecuentes sobre actualizaciones de datos de nóminas
                   href: hr/localizations/noam-usa-payroll-data-updates.md
-                - name: Generar informes de nómina
+                - name: Informes estándar de nómina
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
         - name: Tareas de recursos humanos
           items:
-            - name: Agregar a su diario de rendimiento y enviar elogio a alguien
+            - name: Agregar información a su diario de rendimiento y enviar elogio
               href: hr/tasks/add-your-performance-journal-send-praise-someone.md
             - name: Analizar resultados de cuestionario
               href: hr/tasks/analyze-questionnaire-results.md
@@ -2301,25 +2341,25 @@
               href: hr/tasks/approve-application-inbox-records.md
             - name: Proceso de idoneidad para prestación
               href: hr/tasks/benefit-eligibility-process.md
-            - name: Crear un calendario y generar horarios de trabajo
+            - name: Crear calendarios y generar horarios de trabajo
               href: hr/tasks/create-calendar-working-times.md
-            - name: Crear una pregunta cerrada
+            - name: Crear preguntas cerradas
               href: hr/tasks/create-closed-ended-question.md
-            - name: Crear un objetivo
+            - name: Crear objetivos
               href: hr/tasks/create-goal.md
             - name: Crear artículos de préstamo
               href: hr/tasks/create-loan-items.md
-            - name: Crear un proyecto de contratación masiva
+            - name: Crear proyectos de contratación masiva
               href: hr/tasks/create-mass-hire-project.md
-            - name: Crear una nueva prestación
+            - name: Crear nuevos beneficios
               href: hr/tasks/create-new-benefit.md
-            - name: Crear una pregunta abierta
+            - name: Crear preguntas abiertas
               href: hr/tasks/create-open-ended-question.md
-            - name: Crear una evaluación del rendimiento
+            - name: Crear evaluaciones del rendimiento
               href: hr/tasks/create-performance-review.md
             - name: Definir reglas y directivas de idoneidad para prestaciones
               href: hr/tasks/define-benefit-eligibility-rules-policies.md
-            - name: Definición del proceso de compensación y el cálculo de resultados
+            - name: Definir procesos de compensación y el cálculo de resultados
               href: hr/tasks/define-compensation-process-calculate-results.md
             - name: Definir nuevos departamentos
               href: hr/tasks/define-new-departments.md
@@ -2327,47 +2367,47 @@
               href: hr/tasks/define-new-jobs.md
             - name: Proporcionar un programa de prestaciones de empleado
               href: hr/tasks/deliver-employee-benefits-program.md
-            - name: Desarrollar y abrir una solicitud de trabajo
+            - name: Desarrollar y abrir solicitudes de trabajo
               href: hr/tasks/develop-open-job-requisition.md
-            - name: Desarrollar planes y estructura de salarios o compensaciones
+            - name: Desarrollar planes y estructuras de salarios o compensaciones
               href: hr/tasks/develop-salary-compensation-structure-plan.md
             - name: Desarrollar un plan de sucesión
               href: hr/tasks/develop-succession-plan.md
             - name: Distribuir cuestionarios mediante la programación
               href: hr/tasks/distribute-questionnaires-scheduling.md
-            - name: Inscribir a un empleado en un plan de compensación fija
+            - name: Inscribir a empleados en un plan de compensación fija
               href: hr/tasks/enroll-employee-fixed-compensation-plan.md
-            - name: Inscribir a un empleado en un plan de compensación variable
+            - name: Inscribir a empleados en un plan de compensación variable
               href: hr/tasks/enroll-employee-variable-compensation-plan.md
-            - name: Inscribir y quitar prestaciones para trabajadores
+            - name: Inscribir a trabajadores en prestaciones y quitar prestaciones de trabajadores
               href: hr/tasks/enroll-remove-benefits-workers.md
-            - name: Especificar los datos del candidato y de la solicitud manualmente
+            - name: Introducir manualmente los datos del candidato y de la solicitud
               href: hr/tasks/enter-applicant-application-data-manually.md
-            - name: Especificar hojas de horas de proyectos
+            - name: Introducir hojas de horas de proyectos
               href: hr/tasks/enter-project-timesheets.md
-            - name: Especificar información de trabajadores
+            - name: Introducir información de trabajadores
               href: hr/tasks/enter-worker-information.md
-            - name: Contratar un candidato a través de la contratación
+            - name: Contratar a candidatos a través de la contratación
               href: hr/tasks/hire-candidate-through-recruiting.md
-            - name: Contratar a un empleado existente a través de la contratación
+            - name: Contratar a empleados existentes a través de la contratación
               href: hr/tasks/hire-existing-employee-through-recruiting.md
             - name: Identificar e implementar herramientas de selección de candidatos
               href: hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Artículos de préstamo para un trabajador
+            - name: Artículos de préstamo para trabajadores
               href: hr/tasks/loan-item-worker.md
             - name: Mantener la información de lesiones y enfermedades del empleado
               href: hr/tasks/maintain-employee-injury-illness-information.md
-            - name: Realizar una pregunta según la respuesta a la pregunta anterior
+            - name: Realizar preguntas según la respuesta a la pregunta anterior
               href: hr/tasks/make-question-dependent-answer-previous-question.md
-            - name: Administrar las fechas de vencimiento de prestación
+            - name: Administrar las fechas de vencimiento de la prestación
               href: hr/tasks/manage-benefit-expiration-dates.md
             - name: Gestionar plantillas de correo electrónico
               href: hr/tasks/manage-email-templates.md
             - name: Administrar excedencias
               href: hr/tasks/manage-leave-absence.md
-            - name: Modificar las relaciones jerárquicas para un puesto
+            - name: Modificar las relaciones jerárquicas para puestos
               href: hr/tasks/modify-reporting-relationships-position.md
-            - name: Configuración de cuadrículas de compensación
+            - name: Configurar de cuadrículas de compensación
               href: hr/tasks/set-up-compensation-grids.md
             - name: Configurar información sobre lesiones y enfermedades
               href: hr/tasks/set-up-injury-illness-information.md
@@ -2396,7 +2436,7 @@
             - name: Análisis de la contabilidad de costes
               href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Seguridad para el análisis de la contabilidad de costes
+                - name: Contenido de Power BI sobre configurar la seguridad para el análisis de la contabilidad de costes
                   href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Gestión de costes
               href: ../dev-itpro/analytics/cost-management-content-pack.md?toc=/fin-and-ops/toc.json
@@ -2424,7 +2464,7 @@
               href: ../dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Contratación
               href: ../dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: 'Rendimiento de canal comercial  '
+            - name: 'Rendimiento de canal comercial '
               href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/fin-and-ops/toc.json
             - name: Rendimiento de ventas y rentabilidad
               href: ../dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/fin-and-ops/toc.json
@@ -2436,168 +2476,170 @@
               href: ../dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
         - name: Impresión e informes de documentos
           items:
-            - name: Visión general de Reporting Services de documentos
+            - name: Visión general de Document Reporting Services
               href: ../dev-itpro/analytics/document-reporting-services.md?toc=/fin-and-ops/toc.json
-            - name: Configurar SSRS para una implementación local
+            - name: Configurar SSRS para implementaciones locales
               href: ../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json
             - name: Impresión
               href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Instalar el Agente de ruta de documentos para habilitar los dispositivos de impresora de red
+                - name: Instalar el agente de ruta de documentos para habilitar la impresión de red
                   href: ../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json
-                - name: Actualizar el Agente de ruta de documentos
+                - name: Actualizar el agente de ruta de documentos
                   href: ../dev-itpro/analytics/upgrade-document-routing-agent.md
                 - name: Instalar dispositivos de impresora de red en entornos locales
                   href: ../dev-itpro/analytics/install-network-printer-onprem.md?toc=/fin-and-ops/toc.json
-                - name: 'Funcionalidades de generación, publicación e impresión de documentos en implementaciones locales'
+                - name: 'Generación, publicación e impresión de documentos en implementaciones locales'
                   href: ../dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/fin-and-ops/toc.json
-                - name: Ejecución del Agente de ruta de documentos como servicio de Windows
+                - name: Ejecutar el agente de ruta de documentos como servicio de Windows
                   href: ../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/fin-and-ops/toc.json
             - name: Ayudar a evitar el tiempo de espera de informes de larga ejecución
               href: ../dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/fin-and-ops/toc.json
-            - name: Lista de informes SQL Server Reporting Services
+            - name: Informes disponibles de Microsoft SQL Server Reporting Services
               href: ../dev-itpro/analytics/SSRS-report.md?toc=/fin-and-ops/toc.json
             - name: Crear soluciones de informes
               href: ../dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/fin-and-ops/toc.json
             - name: Instalar plantillas de diseño de informe
               href: ../dev-itpro/analytics/install-modern-report-design-templates.md?toc=/fin-and-ops/toc.json
-            - name: Personalizar los informes de App Suite con extensiones
+            - name: Personalizar informes de App Suite mediante el uso de extensiones
               href: ../dev-itpro/analytics/customize-app-suite-reports-with-extensions.md?toc=/fin-and-ops/toc.json
             - name: Ampliar los conjuntos de datos de los informes de App Suite
               href: ../dev-itpro/analytics/expand-app-suite-report-data-sets.md?toc=/fin-and-ops/toc.json
-            - name: 'Ampliar los elementos del menú de informes '
+            - name: Extender elementos de menú del informe para redirigir navegaciones del usuario
               href: ../dev-itpro/analytics/extend-report-menu-items.md?toc=/fin-and-ops/toc.json
-            - name: 'Crear diseños personalizados para documentos comerciales '
+            - name: Crear diseños personalizados para documentos empresariales
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
         - name: Informes electrónicos
           href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
           items:
             - name: Configurar el marco de informes electrónicos
               href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
-            - name: Crear una configuración
+            - name: Crear configuraciones
               href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Crear un proveedor de configuración y marcarlo como activo para informes electrónicos
+                - name: Crear proveedores de configuración y marcarlos como activos
                   href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Diseñar un modelo de datos específico del dominio para informes electrónicos
+                - name: Diseñar modelos de datos específicos de dominio
                   href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Definir la asignación de modelo y seleccionar orígenes de datos para informes electrónicos
+                - name: Definir asignaciones del modelo y seleccionar orígenes de datos
                   href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Asignar un modelo de datos para seleccionar orígenes de datos para informes electrónicos
+                - name: Asignar modelos de datos a los orígenes de datos seleccionados
                   href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Crear una configuración de formato para informes electrónicos
+                - name: Crear configuraciones de formato
                   href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Asignar los componentes del formato creado a los elementos del modelo de datos para informes electrónicos
+                - name: Asignar los componentes de formatos a elementos de un modelo de datos
                   href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Generar documentos electrónicos para pagos mediante una configuración de formato para informes electrónicos
+                - name: Generar documentos electrónicos para pagos mediante configuraciones de formato
                   href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-                - name: Actualizar el formato adoptando una nueva versión de base de ese formato para informes electrónicos
+                - name: Actualizar los formatos adoptando nuevas versiones bases
                   href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
             - name: Diseñador de fórmulas en los informes electrónicos
               href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-            - name: Configurar informes electrónicos con Power BI
+            - name: Configurar informes electrónicos para proporcionar datos a Power BI
               href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
             - name: Destinos
               href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Configurar destinos de informes electrónicos
+                - name: Configurar destinos
                   href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Diseñar una configuración para generar informes con formato Microsoft Word para informes electrónicos
+            - name: Diseñar configuraciones para generar informes en formato Word
               href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Diseñar una configuración para generar informes con formato OpenXML para informes electrónicos
+            - name: Diseñar configuraciones para generar informes en formato OpenXML
               href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Modificar un formato de informe electrónico al aplicar de nuevo una plantilla de Microsoft Excel
+            - name: Modificar formatos de informes electrónicos al aplicar de nuevo plantillas de Excel
               href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: Seleccionar la definición de modelo de datos durante la creación del formato para informes electrónicos
+            - name: Seleccionar la definición del modelo de datos mientras se crean formatos
               href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-            - name: Definir la dependencia de las configuraciones de otros componentes para informes electrónicos
+            - name: Definir la dependencia de configuraciones en otros componentes
               href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Diseñar el modelo de datos para usar dimensiones financieras como origen de datos
+                - name: Diseñar modelos de datos para usar dimensiones financieras como orígenes de datos
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-                - name: Asignar modelos de datos para usar dimensiones financieras como origen de datos
+                - name: Asignar modelos para usar dimensiones financieras como orígenes de datos
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-                - name: Diseñar informes para usar dimensiones financieras como origen de datos
+                - name: Diseñar informes para usar dimensiones financieras como orígenes de datos
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-                - name: Ejecutar informes para que usen dimensiones financieras como origen de datos
+                - name: Ejecutar informes que utilicen dimensiones financieras como orígenes de datos
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-                - name: Crear el formato para realizar recuentos y sumas
+                - name: Crear formatos para realizar recuentos y sumas
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
                 - name: Configurar los cálculos para realizar recuentos y sumas
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
                 - name: Usar los cálculos para generar el resultado de recuentos y sumas
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-                - name: Ejecutar el formato para realizar recuentos y sumas
+                - name: Ejecutar formatos para realizar recuentos y sumas
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-                - name: Generar un formato que permita usar intervalos horizontalmente ensanchables para agregar columnas de forma dinámica en informes de Excel
+                - name: Diseñar formatos para agregar columnas de forma dinámica como intervalos horizontalmente ensanchables
                   href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-                - name: Ejecutar formatos que usen intervalos horizontalmente ensanchables para agregar columnas de forma dinámica en informes de Excel
+                - name: Ejecutar formatos para agregar columnas de forma dinámica como intervalos horizontalmente ensanchables
                   href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-                - name: Preparar modelos de datos para usar archivos de gestión documental en salidas de formato
+                - name: Preparar modelos de datos para usar archivos de gestión documental en salida
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-                - name: Ampliar modelos de datos para usar archivos de gestión documental en salidas de formato
+                - name: Extender modelos de datos para usar archivos de gestión documental en salida
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-                - name: Crear el formato para usar archivos de administración de documentos en las salidas de formato
+                - name: Crear formatos para usar archivos de administración de documentos en salida
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-                - name: Ejecutar el formato para usar archivos de administración de documentos en las salidas de formato
+                - name: Ejecutar formatos para usar archivos de administración de documentos en salida
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-                - name: Modificar y ejecutar el formato para usar archivos de administración de documentos en las salidas de formato
+                - name: Modificar y ejecutar formatos para usar archivos de administración de documentos en salida
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
-                - name: Diseñar configuraciones para generar informes en los formatos de Microsoft Office con imágenes incrustadas
+                - name: Diseñar configuraciones para generar informes en los formatos de Office con imágenes incrustadas
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
-                - name: Revisar configuraciones para crear informes en los formatos de Microsoft Office con imágenes incrustadas
+                - name: Revisar configuraciones para generar informes en los formatos de Office con imágenes incrustadas
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Generar informes en los formatos de Microsoft Office con imágenes incrustadas
+                - name: Generar informes en los formatos de Office con imágenes incrustadas
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
-            - name: Generar documentos electrónicos y actualizar los datos de las aplicaciones mediante la herramienta de informes electrónicos
+            - name: Generar documentos electrónicos y actualizar datos de aplicaciones
               href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
               items:
                 - name: Importar configuraciones para generar documentos con datos de la aplicación
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
                 - name: Diseñar configuraciones para generar documentos con datos de la aplicación
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-                - name: Modificar el modelo y la asignación para generar documentos con datos de la aplicación
+                - name: Modificar modelos y asignaciones para generar documentos con datos de la aplicación
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-                - name: Modificar formato para generar documentos con datos de la aplicación
+                - name: Modificar formatos para generar documentos con datos de la aplicación
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
                 - name: Generar documentos con datos de la aplicación
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
+            - name: Generar formularios de FTI imprimibles
+              href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
             - name: Generar informes agregando contenido como XML sin formato
               href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
             - name: Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base
               href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
             - name: Orígenes de datos entre empresas en informes electrónicos
               href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-            - name: Insertar imágenes y formas en documentos empresariales que se generan mediante la herramienta de informes electrónicos
+            - name: Insertar imágenes y formas en los documentos que genere
               href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
             - name: Administrar el ciclo de vida de configuración
               href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Cargar una configuración en Lifecycle Services para informes electrónicos
+                - name: Cargar configuraciones en Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Importar una configuración de Lifecycle Services para informes electrónicos
+                - name: Importar configuraciones de Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
                 - name: Descargar configuraciones de Lifecycle Services
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-                - name: Importar configuraciones de informes electrónicos
+                - name: Importar configuraciones
                   href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: Administrar las configuraciones de asignación de modelo para informes electrónicos
+            - name: Administrar configuraciones de asignación de modelo
               href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Crear las configuraciones necesarias para importar datos de un archivo externo para informes electrónicos
+                - name: Crear configuraciones para importar datos desde archivos externos
                   href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
                 - name: Configurar la importación de datos de SharePoint
                   href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: Analizar documentos de entrada en Microsoft Excel
+            - name: Analizar documentos de entrada en formato de Excel
               href: ../dev-itpro/analytics/parse-incoming-documents-excel.md?toc=/fin-and-ops/toc.json
             - name: Analizar documentos de entrada para actualizar datos de aplicación
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
             - name: Analizar documentos de entrada en formato CSV
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
-            - name: Dividir los archivos generados según su tamaño y la cantidad de contenido
+            - name: Dividir los archivos XML generados según su tamaño y la cantidad de contenido
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Ampliar funciones de informes electrónicos
+                - name: Ampliar la lista de funciones de informes electrónicos
                   href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
                 - name: Cambios en la API del marco de informes electrónicos para Application update 7.3
                   href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
@@ -2609,17 +2651,17 @@
               href: ../dev-itpro/analytics/power-bi-embedded-integration.md?toc=/fin-and-ops/toc.json
         - name: Opciones de personalización con PowerBI.com
           items:
-            - name: Integración de Power BI
+            - name: Características y servicios disponibles a través de la integración de Power BI
               href: ../dev-itpro/analytics/power-bi-integration.md?toc=/fin-and-ops/toc.json
             - name: Anclar informes de Power BI a espacios de trabajo
               href: ../dev-itpro/analytics/pin-power-bi-reports.md?toc=/fin-and-ops/toc.json
         - name: Herramientas para crear y ampliar soluciones
           items:
-            - name: 'Análisis, medidas agregadas, modelado de KPI'
+            - name: 'Análisis, medidas agregadas y modelado de KPI'
               href: ../dev-itpro/analytics/analytics.md?toc=/fin-and-ops/toc.json
             - name: Crear informes analíticos mediante Power BI Desktop
               href: ../dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/fin-and-ops/toc.json
-            - name: Modelado y datos agregados
+            - name: Datos agregados del modelo
               href: ../dev-itpro/analytics/model-aggregate-data.md?toc=/fin-and-ops/toc.json
             - name: Agregar dimensiones financieras a medidas agregadas
               href: ../dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/fin-and-ops/toc.json
@@ -2631,7 +2673,7 @@
           items:
             - name: Integración de Power BI con el almacén de entidades
               href: ../dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/fin-and-ops/toc.json
-            - name: Mantenimiento del almacén de entidades
+            - name: Resolver problemas después del mantenimiento del almacén de entidades
               href: ../dev-itpro/analytics/entity-store-maintenance.md
             - name: Configurar la integración de Power BI para espacios de trabajo
               href: ../dev-itpro/analytics/configure-power-bi-integration.md?toc=/fin-and-ops/toc.json
@@ -2801,12 +2843,12 @@
               href: ../supply-chain/master-planning/reduction-keys.md
             - name: Crear una previsión de línea base
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
-            - name: Modificación manual de una previsión de demanda
+            - name: Modificar manualmente una previsión de demanda
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Aplicación móvil
+    - name: Aplicación móvil de Dynamics 365 for Unified Operations
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
-        - name: Espacios de trabajo móviles
+        - name: Espacios de trabajo móviles disponibles
           href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
           items:
             - name: Directorio de empresa
@@ -2829,14 +2871,14 @@
               href: ../supply-chain/sales-marketing/sales-orders-mobile-workspace.md
             - name: Colaboración de proveedor
               href: ../supply-chain/procurement/vendor-collaboration-mobile-workspace.md
-        - name: Publicar un espacio de trabajo móvil
+        - name: Publicar espacios de trabajo móviles
           href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/fin-and-ops/toc.json
     - name: Integración con Office
       href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
       items:
-        - name: Tutorial de Integración con Office
+        - name: Tutorial de integración con Office
           href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/fin-and-ops/toc.json
-        - name: Usar el complemento de Excel
+        - name: Abrir datos de la entidad en Excel y actualizarlos mediante el complemento de Excel
           href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/fin-and-ops/toc.json
         - name: Crear experiencias de tipo Abrir en Excel
           href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/fin-and-ops/toc.json
@@ -2992,24 +3034,26 @@
         - name: Organizaciones y jerarquías organizativas
           href: organization-administration/organizations-organizational-hierarchies.md
           items:
-            - name: Planificación de su jerarquía organizativa
+            - name: Planificar su jerarquía organizativa
               href: organization-administration/plan-organizational-hierarchy.md
             - name: Crear una jerarquía organizativa
               href: organization-administration/tasks/create-organization-hierarchy.md
-            - name: Crear una entidad jurídica
+            - name: Crear entidades jurídicas
               href: organization-administration/tasks/create-legal-entity.md
-            - name: Crear una unidad operativa
+            - name: Crear unidades operativas
               href: organization-administration/tasks/create-operating-unit.md
         - name: Libreta de direcciones global
           href: organization-administration/overview-global-address-book.md
           items:
-            - name: Planificar cómo configurar la libreta de direcciones global
+            - name: Plan para la libreta de direcciones global y otras libretas de direcciones
               href: organization-administration/plan-configuration-global-address-book-additional-address-books.md
             - name: Configurar la libreta de direcciones global
               href: organization-administration/tasks/configure-global-address-book.md
             - name: Preguntas más frecuentes sobre Libretas de direcciones
               href: organization-administration/qa-address-books.md
-        - name: Flujo de trabajo
+            - name: Configurar libretas de direcciones
+              href: organization-administration/tasks/address-books.md
+        - name: Sistema de flujo de trabajo
           href: organization-administration/overview-workflow-system.md
           items:
             - name: Arquitectura del sistema de flujo de trabajo
@@ -3018,45 +3062,45 @@
               href: organization-administration/workflow-elements.md
             - name: Acciones de flujo de trabajo
               href: organization-administration/workflow-actions.md
-            - name: Crear un flujo de trabajo
+            - name: Crear flujos de trabajo
               href: organization-administration/create-workflow.md
               items:
                 - name: Configurar propiedades del flujo de trabajo
                   href: organization-administration/configure-workflow-properties.md
-                - name: Configuración de una tarea manual
+                - name: Configurar tareas manuales
                   href: organization-administration/configure-manual-task-workflow.md
-                - name: Configuración de una tarea automatizada
+                - name: Configurar tareas automatizadas
                   href: organization-administration/configure-automated-task-workflow.md
-                - name: Configurar un proceso de aprobación
+                - name: Configurar procesos de aprobación
                   href: organization-administration/configure-approval-process-workflow.md
-                - name: Configurar un paso de aprobación
+                - name: Configurar pasos de aprobación
                   href: organization-administration/configure-approval-step-workflow.md
-                - name: Configuración de una decisión manual
+                - name: Configurar decisiones manuales
                   href: organization-administration/configure-manual-decision-workflow.md
-                - name: Configuración de una decisión condicional
+                - name: Configurar decisiones condicionales
                   href: organization-administration/configure-conditional-decision-workflow.md
-                - name: Configuración de una actividad paralela
+                - name: Configurar actividades paralelas
                   href: organization-administration/configure-parallel-activity-workflow.md
-                - name: Configurar una rama paralela
+                - name: Configurar ramas paralelas
                   href: organization-administration/configure-parallel-branch-workflow.md
-                - name: Configuración de un flujo de trabajo de elementos
+                - name: Configurar flujos de trabajo de elementos
                   href: organization-administration/configure-line-item-workflow.md
-            - name: Configurar el trabajo por lotes de procesamiento de mensajes
+            - name: Configurar el trabajo por lotes de procesamiento de mensajes de flujo de trabajo como crítico
               href: organization-administration/workflow-batch-job-critical.md
             - name: Delegar elementos de trabajo de un flujo de trabajo
               href: organization-administration/tasks/delegate-work-items-workflow.md
-            - name: Ver el historial de flujo de trabajo
+            - name: Ver historial de flujo de trabajo
               href: organization-administration/tasks/view-workflow-history.md
-            - name: Permitir a los usuarios recibir mensajes de correo electrónico relacionados con el flujo de trabajo
+            - name: Configurar el sistema para enviar mensajes de correo electrónico relacionados con el flujo de trabajo a los usuarios
               href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
             - name: Informe de tipos de flujo de trabajo
               href: organization-administration/workflow-types-report.md
         - name: Alertas
           href: get-started/alerts-overview.md
           items:
-            - name: Crear alertas
+            - name: Crear reglas de alertas
               href: get-started/create-alerts.md
-            - name: Procesamiento por lotes para alertas
+            - name: Procesamiento por lotes de alertas
               href: get-started/alerts-managing.md
         - name: Firmas electrónicas
           href: organization-administration/electronic-signature-overview.md
@@ -3066,7 +3110,7 @@
         - name: Gestión de casos
           href: organization-administration/cases.md
           items:
-            - name: 'Configurar seguridad, procesos y categorías de casos'
+            - name: 'Planificar seguridad, procesos y categorías de casos'
               href: organization-administration/plan-case-management.md
         - name: Plantillas de registro
           href: organization-administration/record-templates.md
@@ -3792,7 +3836,7 @@
                       href: ../supply-chain/service-management/reverse-changes-in-a-dispatch-board.md
                     - name: Ver pedidos de servicio no distribuidos
                       href: ../supply-chain/service-management/view-undispatched-service-orders.md
-                    - name: 'Modificar una L. MAT. de servicio  '
+                    - name: 'Modificar una L. MAT. de servicio '
                       href: ../supply-chain/service-management/modify-service-bom.md
                 - name: Prestar servicios
                   items:
@@ -3893,7 +3937,7 @@
         - name: Directivas de trabajo de almacén
           href: ../supply-chain/warehousing/warehouse-work-policies.md
           items:
-            - name: 'Configurar directivas de trabajo de almacén  '
+            - name: 'Configurar directivas de trabajo de almacén '
               href: ../supply-chain/warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
             - name: Movimiento de inventario con trabajo asociado en Gestión de almacenes
               href: ../supply-chain/warehousing/move-inventory-associated-work.md
@@ -3935,11 +3979,11 @@
               href: ../supply-chain/inventory/inventory-blocking.md
             - name: Recuento cíclico
               href: ../supply-chain/warehousing/cycle-counting.md
-            - name: 'Definir el recuento cíclico  '
+            - name: 'Definir el recuento cíclico '
               href: ../supply-chain/warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
             - name: Recuento cíclico de ubicaciones parcial
               href: ../supply-chain/warehousing/partial-location-cycle-counting.md
-            - name: 'Definir proceso de recuento cíclico de ubicaciones parcial  '
+            - name: 'Definir proceso de recuento cíclico de ubicaciones parcial '
               href: ../supply-chain/warehousing/tasks/define-partial-location-cycle-counting-process-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017-update.md
             - name: Diario de inventario
               href: ../supply-chain/inventory/inventory-journals.md
@@ -3958,7 +4002,7 @@
               href: ../supply-chain/warehousing/material-replenishment-withdrawal-kanban.md
             - name: Configurar un proceso de reabastecimiento mínimo-máximo
               href: ../supply-chain/warehousing/tasks/set-up-min-max-replenishment-process.md
-        - name: 'Instalar y configurar la aplicación Warehousing  '
+        - name: 'Instalar y configurar la aplicación Warehousing '
           href: ../supply-chain/warehousing/install-configure-warehousing-app.md
           items:
             - name: Configuración de nombres de campo en la aplicación Warehousing

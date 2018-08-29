@@ -1,5 +1,5 @@
 ---
-title: "Periféricos de hardware de PDV"
+title: "Periféricos de hardware de punto de venta (PDV) probados por Microsoft"
 description: "El punto de venta (POS) moderno al por menor y el PDV en la Nube pueden usar una gran variedad de hardware periférico del PDV, con múltiples interfaces y opciones de implementación para alcanzar los distintos escenarios empresariales de un distribuidor."
 author: jblucher
 manager: AnnBe
@@ -19,53 +19,53 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 250ab6570e152ad57b4a590203e9321d89e7b5d1
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e4191f6765faf9de5cbf8acf16dbd54d6b478252
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="pos-hardware-peripherals"></a><span data-ttu-id="f1d23-103">Periféricos de hardware de PDV</span><span class="sxs-lookup"><span data-stu-id="f1d23-103">POS hardware peripherals</span></span>
+# <a name="microsoft-tested-point-of-sale-pos-hardware-peripherals"></a><span data-ttu-id="83436-103">Periféricos de hardware de punto de venta (PDV) probados por Microsoft</span><span class="sxs-lookup"><span data-stu-id="83436-103">Microsoft-tested point of sale (POS) hardware peripherals</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="f1d23-104">El punto de venta (POS) moderno al por menor y el PDV en la Nube pueden usar una gran variedad de hardware periférico del PDV, con múltiples interfaces y opciones de implementación para alcanzar los distintos escenarios empresariales de un distribuidor.</span><span class="sxs-lookup"><span data-stu-id="f1d23-104">Retail Modern point of sale (POS) and Cloud POS can utilize a wide range of POS hardware peripherals, with multiple interfaces and deployment options to achieve a retailer’s various business scenarios.</span></span> 
+<span data-ttu-id="83436-104">El punto de venta (POS) moderno al por menor y el PDV en la Nube pueden usar una gran variedad de hardware periférico del PDV, con múltiples interfaces y opciones de implementación para alcanzar los distintos escenarios empresariales de un distribuidor.</span><span class="sxs-lookup"><span data-stu-id="83436-104">Retail Modern point of sale (POS) and Cloud POS can utilize a wide range of POS hardware peripherals, with multiple interfaces and deployment options to achieve a retailer’s various business scenarios.</span></span> 
 
-<span data-ttu-id="f1d23-105">Para admitir la selección más amplia de dispositivos de distintos fabricantes y modelos, el PDV usa interfaces estándar tales como OLE para PDV al por menor (OPOS), controladores de dispositivo de Windows y las interfaces del programa de aplicación del punto de servicio de Windows (API).</span><span class="sxs-lookup"><span data-stu-id="f1d23-105">To support the widest selection of devices across manufactures and models, POS utilizes standard interfaces such as OLE for Retail POS (OPOS), Windows device drivers, and Windows point of service application program interfaces (APIs).</span></span> <span data-ttu-id="f1d23-106">Normalmente, el PDV funcionará en estos dispositivos siempre que se proporcione el controlador adecuado.</span><span class="sxs-lookup"><span data-stu-id="f1d23-106">Generally, POS will work on these devices provided that the appropriate driver is supplied.</span></span> <span data-ttu-id="f1d23-107">Sin embargo, dado que la implementación de los estándares de cada fabricante y del programador de software puede variar, a menudo hay diferencias en cuanto a las habilidades o comportamientos admitidos.</span><span class="sxs-lookup"><span data-stu-id="f1d23-107">However, because each manufacturer and software developer’s implementation of these standards can vary, there are often differences in supported capabilities or behaviors.</span></span>
+<span data-ttu-id="83436-105">Para admitir la selección más amplia de dispositivos de distintos fabricantes y modelos, el PDV usa interfaces estándar tales como OLE para PDV al por menor (OPOS), controladores de dispositivo de Windows y las interfaces del programa de aplicación del punto de servicio de Windows (API).</span><span class="sxs-lookup"><span data-stu-id="83436-105">To support the widest selection of devices across manufactures and models, POS utilizes standard interfaces such as OLE for Retail POS (OPOS), Windows device drivers, and Windows point of service application program interfaces (APIs).</span></span> <span data-ttu-id="83436-106">Normalmente, el PDV funcionará en estos dispositivos siempre que se proporcione el controlador adecuado.</span><span class="sxs-lookup"><span data-stu-id="83436-106">Generally, POS will work on these devices provided that the appropriate driver is supplied.</span></span> <span data-ttu-id="83436-107">Sin embargo, dado que la implementación de los estándares de cada fabricante y del programador de software puede variar, a menudo hay diferencias en cuanto a las habilidades o comportamientos admitidos.</span><span class="sxs-lookup"><span data-stu-id="83436-107">However, because each manufacturer and software developer’s implementation of these standards can vary, there are often differences in supported capabilities or behaviors.</span></span>
 
-<span data-ttu-id="f1d23-108">La siguiente lista incluye los modelos de dispositivo de cada clase que se han sido probados internamente por Microsoft.</span><span class="sxs-lookup"><span data-stu-id="f1d23-108">The following list includes device models, in each class, that have been tested internally by Microsoft.</span></span>
+<span data-ttu-id="83436-108">La siguiente lista incluye los modelos de dispositivo de cada clase que se han sido probados internamente por Microsoft.</span><span class="sxs-lookup"><span data-stu-id="83436-108">The following list includes device models, in each class, that have been tested internally by Microsoft.</span></span>
 
-<span data-ttu-id="f1d23-109">**Dispositivos OPDV**</span><span class="sxs-lookup"><span data-stu-id="f1d23-109">**OPOS devices**</span></span>
+<span data-ttu-id="83436-109">**Dispositivos OPDV**</span><span class="sxs-lookup"><span data-stu-id="83436-109">**OPOS devices**</span></span>
 
--   <span data-ttu-id="f1d23-110">Código de barras – Motorola DS9208</span><span class="sxs-lookup"><span data-stu-id="f1d23-110">Barcode – Motorola DS9208</span></span>
--   <span data-ttu-id="f1d23-111">MSR – HP IDRA-334133, Magtek PN - 21073062</span><span class="sxs-lookup"><span data-stu-id="f1d23-111">MSR – HP IDRA-334133, Magtek PN - 21073062</span></span>
--   <span data-ttu-id="f1d23-112">LineDisplay – Epson M58DC</span><span class="sxs-lookup"><span data-stu-id="f1d23-112">LineDisplay – Epson M58DC</span></span>
--   <span data-ttu-id="f1d23-113">Pinpad – Verifone 1000SE</span><span class="sxs-lookup"><span data-stu-id="f1d23-113">Pinpad – Verifone 1000SE</span></span>
--   <span data-ttu-id="f1d23-114">Tableta de firmas – Scriptel ST1550</span><span class="sxs-lookup"><span data-stu-id="f1d23-114">Signature pad – Scriptel ST1550</span></span>
--   <span data-ttu-id="f1d23-115">Impresora – EPSON TM-T88IV, TMT88V</span><span class="sxs-lookup"><span data-stu-id="f1d23-115">Printer – EPSON TM-T88IV, TMT88V</span></span>
--   <span data-ttu-id="f1d23-116">Cajas registradora – Star SMD2-1317BK44</span><span class="sxs-lookup"><span data-stu-id="f1d23-116">Cash drawer – Star SMD2-1317BK44</span></span>
--   <span data-ttu-id="f1d23-117">Báscula – Datalogic Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="f1d23-117">Scale – Datalogic Magellan 8400</span></span>
+-   <span data-ttu-id="83436-110">Código de barras – Motorola DS9208</span><span class="sxs-lookup"><span data-stu-id="83436-110">Barcode – Motorola DS9208</span></span>
+-   <span data-ttu-id="83436-111">MSR – HP IDRA-334133, Magtek PN - 21073062</span><span class="sxs-lookup"><span data-stu-id="83436-111">MSR – HP IDRA-334133, Magtek PN - 21073062</span></span>
+-   <span data-ttu-id="83436-112">LineDisplay – Epson M58DC</span><span class="sxs-lookup"><span data-stu-id="83436-112">LineDisplay – Epson M58DC</span></span>
+-   <span data-ttu-id="83436-113">Pinpad – Verifone 1000SE</span><span class="sxs-lookup"><span data-stu-id="83436-113">Pinpad – Verifone 1000SE</span></span>
+-   <span data-ttu-id="83436-114">Tableta de firmas – Scriptel ST1550</span><span class="sxs-lookup"><span data-stu-id="83436-114">Signature pad – Scriptel ST1550</span></span>
+-   <span data-ttu-id="83436-115">Impresora – EPSON TM-T88IV, TMT88V</span><span class="sxs-lookup"><span data-stu-id="83436-115">Printer – EPSON TM-T88IV, TMT88V</span></span>
+-   <span data-ttu-id="83436-116">Cajas registradora – Star SMD2-1317BK44</span><span class="sxs-lookup"><span data-stu-id="83436-116">Cash drawer – Star SMD2-1317BK44</span></span>
+-   <span data-ttu-id="83436-117">Báscula – Datalogic Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="83436-117">Scale – Datalogic Magellan 8400</span></span>
 
-<span data-ttu-id="f1d23-118">**Teclado con lector MSR**</span><span class="sxs-lookup"><span data-stu-id="f1d23-118">**Keyboard wedge MSR**</span></span>
+<span data-ttu-id="83436-118">**Teclado con lector MSR**</span><span class="sxs-lookup"><span data-stu-id="83436-118">**Keyboard wedge MSR**</span></span>
 
--   <span data-ttu-id="f1d23-119">Magtek USB</span><span class="sxs-lookup"><span data-stu-id="f1d23-119">Magtek USB</span></span>
+-   <span data-ttu-id="83436-119">Magtek USB</span><span class="sxs-lookup"><span data-stu-id="83436-119">Magtek USB</span></span>
 
-<span data-ttu-id="f1d23-120">**Terminal de pago**</span><span class="sxs-lookup"><span data-stu-id="f1d23-120">**Payment terminal**</span></span>
+<span data-ttu-id="83436-120">**Terminal de pago**</span><span class="sxs-lookup"><span data-stu-id="83436-120">**Payment terminal**</span></span>
 
--   <span data-ttu-id="f1d23-121">Equinox L3500</span><span class="sxs-lookup"><span data-stu-id="f1d23-121">Equinox L3500</span></span>
--   <span data-ttu-id="f1d23-122">Verifone MX925</span><span class="sxs-lookup"><span data-stu-id="f1d23-122">Verifone MX925</span></span>
+-   <span data-ttu-id="83436-121">Equinox L3500</span><span class="sxs-lookup"><span data-stu-id="83436-121">Equinox L3500</span></span>
+-   <span data-ttu-id="83436-122">Verifone MX925</span><span class="sxs-lookup"><span data-stu-id="83436-122">Verifone MX925</span></span>
 
-<span data-ttu-id="f1d23-123">**Dispositivos de red**</span><span class="sxs-lookup"><span data-stu-id="f1d23-123">**Network devices**</span></span>
+<span data-ttu-id="83436-123">**Dispositivos de red**</span><span class="sxs-lookup"><span data-stu-id="83436-123">**Network devices**</span></span>
 
--   <span data-ttu-id="f1d23-124">Impresora – Star TSP650II</span><span class="sxs-lookup"><span data-stu-id="f1d23-124">Printer – Star TSP650II</span></span>
--   <span data-ttu-id="f1d23-125">Cajas registradoras – APG Atwood</span><span class="sxs-lookup"><span data-stu-id="f1d23-125">Cash drawer – APG Atwood</span></span>
--   <span data-ttu-id="f1d23-126">Terminal de pago – MX915, MX925</span><span class="sxs-lookup"><span data-stu-id="f1d23-126">Payment terminal – MX915, MX925</span></span>
+-   <span data-ttu-id="83436-124">Impresora – Star TSP650II</span><span class="sxs-lookup"><span data-stu-id="83436-124">Printer – Star TSP650II</span></span>
+-   <span data-ttu-id="83436-125">Cajas registradoras – APG Atwood</span><span class="sxs-lookup"><span data-stu-id="83436-125">Cash drawer – APG Atwood</span></span>
+-   <span data-ttu-id="83436-126">Terminal de pago – MX915, MX925</span><span class="sxs-lookup"><span data-stu-id="83436-126">Payment terminal – MX915, MX925</span></span>
 
-<span data-ttu-id="f1d23-127">**PDV modernos de IPC directo solo**</span><span class="sxs-lookup"><span data-stu-id="f1d23-127">**MPOS direct IPC only**</span></span>
+<span data-ttu-id="83436-127">**PDV modernos de IPC directo solo**</span><span class="sxs-lookup"><span data-stu-id="83436-127">**MPOS direct IPC only**</span></span>
 
--   <span data-ttu-id="f1d23-128">Código de barras – Honeywell 1900, HP LS2208</span><span class="sxs-lookup"><span data-stu-id="f1d23-128">Barcode – Honeywell 1900, HP LS2208</span></span>
--   <span data-ttu-id="f1d23-129">MSR – Magtek PN - 21073075</span><span class="sxs-lookup"><span data-stu-id="f1d23-129">MSR – Magtek PN - 21073075</span></span>
+-   <span data-ttu-id="83436-128">Código de barras – Honeywell 1900, HP LS2208</span><span class="sxs-lookup"><span data-stu-id="83436-128">Barcode – Honeywell 1900, HP LS2208</span></span>
+-   <span data-ttu-id="83436-129">MSR – Magtek PN - 21073075</span><span class="sxs-lookup"><span data-stu-id="83436-129">MSR – Magtek PN - 21073075</span></span>
 
 
 

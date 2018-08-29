@@ -1,5 +1,5 @@
 --- 
-title: "Diseñar el modelo de datos para usar dimensiones financieras como origen de datos"
+title: "Diseñar modelos de datos para usar dimensiones financieras como orígenes de datos"
 description: "En los pasos siguientes se explica cómo un administrador del sistema o desarrollador de informes electrónicos puede configurar un modelo de informes electrónicos (ER) para que use las dimensiones financieras como origen de datos de informes ER."
 author: NickSelin
 manager: AnnBe
@@ -16,94 +16,94 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8b951546cb0cc0d0415f48c49e8b53c5f4720f9e
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9b33d78b60ca4e4813dd4b158febee2323cea476
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-data-model-to-use-financial-dimensions-as-a-data-source"></a><span data-ttu-id="21f3a-103">Diseñar el modelo de datos para usar dimensiones financieras como origen de datos</span><span class="sxs-lookup"><span data-stu-id="21f3a-103">Design data model to use financial dimensions as a data source</span></span> 
+# <a name="design-data-models-to-use-financial-dimensions-as-data-sources"></a><span data-ttu-id="11ae5-103">Diseñar modelos de datos para usar dimensiones financieras como orígenes de datos</span><span class="sxs-lookup"><span data-stu-id="11ae5-103">Design data models to use financial dimensions as data sources</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="21f3a-104">En los pasos siguientes se explica cómo un administrador del sistema o desarrollador de informes electrónicos puede configurar un modelo de informes electrónicos (ER) para que use las dimensiones financieras como origen de datos de informes ER.</span><span class="sxs-lookup"><span data-stu-id="21f3a-104">The following steps explain how either a system administrator or electronic reporting developer can configure an Electronic reporting (ER) model to use financial dimensions as a data source for ER reports.</span></span> <span data-ttu-id="21f3a-105">Estos pasos se pueden llevar a cabo en cualquier empresa.</span><span class="sxs-lookup"><span data-stu-id="21f3a-105">These steps can be performed in any company.</span></span>
+<span data-ttu-id="11ae5-104">En los pasos siguientes se explica cómo un administrador del sistema o desarrollador de informes electrónicos puede configurar un modelo de informes electrónicos (ER) para que use las dimensiones financieras como origen de datos de informes ER.</span><span class="sxs-lookup"><span data-stu-id="11ae5-104">The following steps explain how either a system administrator or electronic reporting developer can configure an Electronic reporting (ER) model to use financial dimensions as a data source for ER reports.</span></span> <span data-ttu-id="11ae5-105">Estos pasos se pueden llevar a cabo en cualquier empresa.</span><span class="sxs-lookup"><span data-stu-id="11ae5-105">These steps can be performed in any company.</span></span>
 
-<span data-ttu-id="21f3a-106">Para completar estos pasos, primero debe completar los pasos del procedimiento "Creación y activación de un proveedor de configuraciones".</span><span class="sxs-lookup"><span data-stu-id="21f3a-106">To complete these steps, you must first complete the steps in the procedure, “Create a configuration provider and mark it as active”.</span></span>
+<span data-ttu-id="11ae5-106">Para completar estos pasos, primero debe completar los pasos del procedimiento "Creación y activación de un proveedor de configuraciones".</span><span class="sxs-lookup"><span data-stu-id="11ae5-106">To complete these steps, you must first complete the steps in the procedure, “Create a configuration provider and mark it as active”.</span></span>
 
 
-## <a name="create-a-new-data-model"></a><span data-ttu-id="21f3a-107">Crear un nuevo modelo de datos</span><span class="sxs-lookup"><span data-stu-id="21f3a-107">Create a new data model</span></span>
-1. <span data-ttu-id="21f3a-108">Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="21f3a-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-    * <span data-ttu-id="21f3a-109">Asegúrese de que el proveedor “Litware, Inc.”</span><span class="sxs-lookup"><span data-stu-id="21f3a-109">Make sure that the “Litware, Inc.”</span></span> <span data-ttu-id="21f3a-110">está disponible y marcado como activo.</span><span class="sxs-lookup"><span data-stu-id="21f3a-110">provider is available and marked as active.</span></span>  
-2. <span data-ttu-id="21f3a-111">Haga clic en Configuraciones de informes.</span><span class="sxs-lookup"><span data-stu-id="21f3a-111">Click Reporting configurations.</span></span>
-3. <span data-ttu-id="21f3a-112">Haga clic en Crear configuración para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-112">Click Create configuration to open the drop dialog.</span></span>
-4. <span data-ttu-id="21f3a-113">En el campo Nombre, escriba "Modelo de ejemplo de las dimensiones financieras".</span><span class="sxs-lookup"><span data-stu-id="21f3a-113">In the Name field, type 'Financial dimensions sample model'.</span></span>
-5. <span data-ttu-id="21f3a-114">Haga clic en Crear configuración.</span><span class="sxs-lookup"><span data-stu-id="21f3a-114">Click Create configuration.</span></span>
-6. <span data-ttu-id="21f3a-115">Haga clic en Diseñador.</span><span class="sxs-lookup"><span data-stu-id="21f3a-115">Click Designer.</span></span>
-7. <span data-ttu-id="21f3a-116">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-116">Click New to open the drop dialog.</span></span>
-8. <span data-ttu-id="21f3a-117">En el campo Nombre, escriba "Entrada".</span><span class="sxs-lookup"><span data-stu-id="21f3a-117">In the Name field, type 'Entry'.</span></span>
-9. <span data-ttu-id="21f3a-118">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-118">Click Add.</span></span>
-10. <span data-ttu-id="21f3a-119">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-119">Click New to open the drop dialog.</span></span>
-11. <span data-ttu-id="21f3a-120">Escriba "Empresa" en el campo Nombre.</span><span class="sxs-lookup"><span data-stu-id="21f3a-120">In the Name field, type 'Company'.</span></span>
-12. <span data-ttu-id="21f3a-121">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-121">Click Add.</span></span>
-    * <span data-ttu-id="21f3a-122">Agregaremos nuestro modelo a una lista de registro nuevo.</span><span class="sxs-lookup"><span data-stu-id="21f3a-122">We will add to our model a new record list.</span></span> <span data-ttu-id="21f3a-123">Esta lista expondrá (para cualquier informe ER que utilice este modelo como origen de datos) los valores de dimensiones financieras seleccionadas.</span><span class="sxs-lookup"><span data-stu-id="21f3a-123">This list will expose (for any ER reports using this model as data source) the settings of selected financial dimensions.</span></span> <span data-ttu-id="21f3a-124">Cada dimensión financiera se mostrará en esta lista como registro con los campos adecuados que representan el valor de la dimensión.</span><span class="sxs-lookup"><span data-stu-id="21f3a-124">Each financial dimension will be presented in this list as a record with appropriate fields representing dimension’s setting.</span></span>  
-13. <span data-ttu-id="21f3a-125">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-125">Click New to open the drop dialog.</span></span>
-14. <span data-ttu-id="21f3a-126">En el campo Nombre, escriba "Configuración de dimensiones".</span><span class="sxs-lookup"><span data-stu-id="21f3a-126">In the Name field, type 'Dimensions setting'.</span></span>
-15. <span data-ttu-id="21f3a-127">En el campo Tipo de artículo, seleccione Lista de registros.</span><span class="sxs-lookup"><span data-stu-id="21f3a-127">In the Item type field, select 'Record list'.</span></span>
-16. <span data-ttu-id="21f3a-128">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-128">Click Add.</span></span>
-17. <span data-ttu-id="21f3a-129">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-129">Click New to open the drop dialog.</span></span>
-18. <span data-ttu-id="21f3a-130">En el campo Nombre, escriba "Código".</span><span class="sxs-lookup"><span data-stu-id="21f3a-130">In the Name field, type 'Code'.</span></span>
-19. <span data-ttu-id="21f3a-131">En el campo Tipo de artículo, seleccione Cadena.</span><span class="sxs-lookup"><span data-stu-id="21f3a-131">In the Item type field, select 'String'.</span></span>
-20. <span data-ttu-id="21f3a-132">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-132">Click Add.</span></span>
-21. <span data-ttu-id="21f3a-133">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-133">Click New to open the drop dialog.</span></span>
-22. <span data-ttu-id="21f3a-134">En el campo Nombre, escriba "Nombre".</span><span class="sxs-lookup"><span data-stu-id="21f3a-134">In the Name field, type 'Name'.</span></span>
-23. <span data-ttu-id="21f3a-135">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-135">Click Add.</span></span>
-24. <span data-ttu-id="21f3a-136">En el árbol, seleccione "Entrada".</span><span class="sxs-lookup"><span data-stu-id="21f3a-136">In the tree, select 'Entry'.</span></span>
-25. <span data-ttu-id="21f3a-137">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-137">Click New to open the drop dialog.</span></span>
-26. <span data-ttu-id="21f3a-138">En el campo Nombre, escriba "Diario".</span><span class="sxs-lookup"><span data-stu-id="21f3a-138">In the Name field, type 'Journal'.</span></span>
-27. <span data-ttu-id="21f3a-139">En el campo Tipo de artículo, seleccione Lista de registros.</span><span class="sxs-lookup"><span data-stu-id="21f3a-139">In the Item type field, select 'Record list'.</span></span>
-28. <span data-ttu-id="21f3a-140">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-140">Click Add.</span></span>
-29. <span data-ttu-id="21f3a-141">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-141">Click New to open the drop dialog.</span></span>
-30. <span data-ttu-id="21f3a-142">En el campo Nombre, escriba "Lote".</span><span class="sxs-lookup"><span data-stu-id="21f3a-142">In the Name field, type 'Batch'.</span></span>
-31. <span data-ttu-id="21f3a-143">En el campo Tipo de artículo, seleccione Cadena.</span><span class="sxs-lookup"><span data-stu-id="21f3a-143">In the Item type field, select 'String'.</span></span>
-32. <span data-ttu-id="21f3a-144">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-144">Click Add.</span></span>
-33. <span data-ttu-id="21f3a-145">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-145">Click New to open the drop dialog.</span></span>
-34. <span data-ttu-id="21f3a-146">En el campo Nombre, escriba "Transacción".</span><span class="sxs-lookup"><span data-stu-id="21f3a-146">In the Name field, type 'Transaction'.</span></span>
-35. <span data-ttu-id="21f3a-147">En el campo Tipo de artículo, seleccione Lista de registros.</span><span class="sxs-lookup"><span data-stu-id="21f3a-147">In the Item type field, select 'Record list'.</span></span>
-36. <span data-ttu-id="21f3a-148">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-148">Click Add.</span></span>
-37. <span data-ttu-id="21f3a-149">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-149">Click New to open the drop dialog.</span></span>
-38. <span data-ttu-id="21f3a-150">En el campo Nombre, escriba "Fecha".</span><span class="sxs-lookup"><span data-stu-id="21f3a-150">In the Name field, type 'Date'.</span></span>
-39. <span data-ttu-id="21f3a-151">En el campo Tipo de artículo, seleccione Fecha.</span><span class="sxs-lookup"><span data-stu-id="21f3a-151">In the Item type field, select 'Date'.</span></span>
-40. <span data-ttu-id="21f3a-152">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-152">Click Add.</span></span>
-41. <span data-ttu-id="21f3a-153">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-153">Click New to open the drop dialog.</span></span>
-42. <span data-ttu-id="21f3a-154">En el campo Nombre, escriba "Débito".</span><span class="sxs-lookup"><span data-stu-id="21f3a-154">In the Name field, type 'Debit'.</span></span>
-43. <span data-ttu-id="21f3a-155">En el campo Tipo de artículo, seleccione Real.</span><span class="sxs-lookup"><span data-stu-id="21f3a-155">In the Item type field, select 'Real'.</span></span>
-44. <span data-ttu-id="21f3a-156">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-156">Click Add.</span></span>
-45. <span data-ttu-id="21f3a-157">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-157">Click New to open the drop dialog.</span></span>
-46. <span data-ttu-id="21f3a-158">En el campo Nombre, escriba "Crédito".</span><span class="sxs-lookup"><span data-stu-id="21f3a-158">In the Name field, type 'Credit'.</span></span>
-47. <span data-ttu-id="21f3a-159">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-159">Click Add.</span></span>
-48. <span data-ttu-id="21f3a-160">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-160">Click New to open the drop dialog.</span></span>
-49. <span data-ttu-id="21f3a-161">En el campo Nombre, escriba "Divisa".</span><span class="sxs-lookup"><span data-stu-id="21f3a-161">In the Name field, type 'Currency'.</span></span>
-50. <span data-ttu-id="21f3a-162">En el campo Tipo de artículo, seleccione Cadena.</span><span class="sxs-lookup"><span data-stu-id="21f3a-162">In the Item type field, select 'String'.</span></span>
-51. <span data-ttu-id="21f3a-163">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-163">Click Add.</span></span>
-52. <span data-ttu-id="21f3a-164">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-164">Click New to open the drop dialog.</span></span>
-53. <span data-ttu-id="21f3a-165">En el campo Nombre, escriba "Asiento".</span><span class="sxs-lookup"><span data-stu-id="21f3a-165">In the Name field, type 'Voucher'.</span></span>
-54. <span data-ttu-id="21f3a-166">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-166">Click Add.</span></span>
-55. <span data-ttu-id="21f3a-167">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-167">Click New to open the drop dialog.</span></span>
-56. <span data-ttu-id="21f3a-168">En el campo Nombre, escriba "Datos de dimensiones".</span><span class="sxs-lookup"><span data-stu-id="21f3a-168">In the Name field, type 'Dimensions data'.</span></span>
-57. <span data-ttu-id="21f3a-169">En el campo Tipo de artículo, seleccione Lista de registros.</span><span class="sxs-lookup"><span data-stu-id="21f3a-169">In the Item type field, select 'Record list'.</span></span>
-58. <span data-ttu-id="21f3a-170">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-170">Click Add.</span></span>
-    * <span data-ttu-id="21f3a-171">Agregaremos a nuestro modelo a una lista de registro nuevo.</span><span class="sxs-lookup"><span data-stu-id="21f3a-171">We added to our model a new record list.</span></span> <span data-ttu-id="21f3a-172">Esta lista expondrá (para cualquier informe ER que utilice este modelo como origen de datos) los valores de las dimensiones financieras seleccionadas.</span><span class="sxs-lookup"><span data-stu-id="21f3a-172">This list will expose (for any ER reports using this model as data source) the values of selected financial dimensions.</span></span> <span data-ttu-id="21f3a-173">Cada dimensión financiera se mostrará en esta lista como registro con los campos adecuados que representan los valores de la dimensión.</span><span class="sxs-lookup"><span data-stu-id="21f3a-173">Each financial dimension will be presented in this list as a record with appropriate fields representing dimension’s values.</span></span> <span data-ttu-id="21f3a-174">El nombre de la dimensión también se mostrará en este registro como campo que se utilizará, si procede, para fines de selección.</span><span class="sxs-lookup"><span data-stu-id="21f3a-174">Dimension name will be also presented in this record as a field to be used, if needed, for selection purposes.</span></span>  
-59. <span data-ttu-id="21f3a-175">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-175">Click New to open the drop dialog.</span></span>
-60. <span data-ttu-id="21f3a-176">En el campo Nombre, escriba "Código".</span><span class="sxs-lookup"><span data-stu-id="21f3a-176">In the Name field, type 'Code'.</span></span>
-61. <span data-ttu-id="21f3a-177">En el campo Tipo de artículo, seleccione Cadena.</span><span class="sxs-lookup"><span data-stu-id="21f3a-177">In the Item type field, select 'String'.</span></span>
-62. <span data-ttu-id="21f3a-178">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-178">Click Add.</span></span>
-63. <span data-ttu-id="21f3a-179">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-179">Click New to open the drop dialog.</span></span>
-64. <span data-ttu-id="21f3a-180">En el campo Nombre, escriba "Descripción".</span><span class="sxs-lookup"><span data-stu-id="21f3a-180">In the Name field, type 'Description'.</span></span>
-65. <span data-ttu-id="21f3a-181">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-181">Click Add.</span></span>
-66. <span data-ttu-id="21f3a-182">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="21f3a-182">Click New to open the drop dialog.</span></span>
-67. <span data-ttu-id="21f3a-183">En el campo Nombre, escriba "Nombre".</span><span class="sxs-lookup"><span data-stu-id="21f3a-183">In the Name field, type 'Name'.</span></span>
-68. <span data-ttu-id="21f3a-184">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-184">Click Add.</span></span>
-69. <span data-ttu-id="21f3a-185">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="21f3a-185">Click Save.</span></span>
-70. <span data-ttu-id="21f3a-186">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="21f3a-186">Close the page.</span></span>
+## <a name="create-a-new-data-model"></a><span data-ttu-id="11ae5-107">Crear un nuevo modelo de datos</span><span class="sxs-lookup"><span data-stu-id="11ae5-107">Create a new data model</span></span>
+1. <span data-ttu-id="11ae5-108">Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="11ae5-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="11ae5-109">Asegúrese de que el proveedor “Litware, Inc.”</span><span class="sxs-lookup"><span data-stu-id="11ae5-109">Make sure that the “Litware, Inc.”</span></span> <span data-ttu-id="11ae5-110">está disponible y marcado como activo.</span><span class="sxs-lookup"><span data-stu-id="11ae5-110">provider is available and marked as active.</span></span>  
+2. <span data-ttu-id="11ae5-111">Haga clic en Configuraciones de informes.</span><span class="sxs-lookup"><span data-stu-id="11ae5-111">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="11ae5-112">Haga clic en Crear configuración para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-112">Click Create configuration to open the drop dialog.</span></span>
+4. <span data-ttu-id="11ae5-113">En el campo Nombre, escriba "Modelo de ejemplo de las dimensiones financieras".</span><span class="sxs-lookup"><span data-stu-id="11ae5-113">In the Name field, type 'Financial dimensions sample model'.</span></span>
+5. <span data-ttu-id="11ae5-114">Haga clic en Crear configuración.</span><span class="sxs-lookup"><span data-stu-id="11ae5-114">Click Create configuration.</span></span>
+6. <span data-ttu-id="11ae5-115">Haga clic en Diseñador.</span><span class="sxs-lookup"><span data-stu-id="11ae5-115">Click Designer.</span></span>
+7. <span data-ttu-id="11ae5-116">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-116">Click New to open the drop dialog.</span></span>
+8. <span data-ttu-id="11ae5-117">En el campo Nombre, escriba "Entrada".</span><span class="sxs-lookup"><span data-stu-id="11ae5-117">In the Name field, type 'Entry'.</span></span>
+9. <span data-ttu-id="11ae5-118">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-118">Click Add.</span></span>
+10. <span data-ttu-id="11ae5-119">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-119">Click New to open the drop dialog.</span></span>
+11. <span data-ttu-id="11ae5-120">Escriba "Empresa" en el campo Nombre.</span><span class="sxs-lookup"><span data-stu-id="11ae5-120">In the Name field, type 'Company'.</span></span>
+12. <span data-ttu-id="11ae5-121">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-121">Click Add.</span></span>
+    * <span data-ttu-id="11ae5-122">Agregaremos nuestro modelo a una lista de registro nuevo.</span><span class="sxs-lookup"><span data-stu-id="11ae5-122">We will add to our model a new record list.</span></span> <span data-ttu-id="11ae5-123">Esta lista expondrá (para cualquier informe ER que utilice este modelo como origen de datos) los valores de dimensiones financieras seleccionadas.</span><span class="sxs-lookup"><span data-stu-id="11ae5-123">This list will expose (for any ER reports using this model as data source) the settings of selected financial dimensions.</span></span> <span data-ttu-id="11ae5-124">Cada dimensión financiera se mostrará en esta lista como registro con los campos adecuados que representan el valor de la dimensión.</span><span class="sxs-lookup"><span data-stu-id="11ae5-124">Each financial dimension will be presented in this list as a record with appropriate fields representing dimension’s setting.</span></span>  
+13. <span data-ttu-id="11ae5-125">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-125">Click New to open the drop dialog.</span></span>
+14. <span data-ttu-id="11ae5-126">En el campo Nombre, escriba "Configuración de dimensiones".</span><span class="sxs-lookup"><span data-stu-id="11ae5-126">In the Name field, type 'Dimensions setting'.</span></span>
+15. <span data-ttu-id="11ae5-127">En el campo Tipo de artículo, seleccione Lista de registros.</span><span class="sxs-lookup"><span data-stu-id="11ae5-127">In the Item type field, select 'Record list'.</span></span>
+16. <span data-ttu-id="11ae5-128">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-128">Click Add.</span></span>
+17. <span data-ttu-id="11ae5-129">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-129">Click New to open the drop dialog.</span></span>
+18. <span data-ttu-id="11ae5-130">En el campo Nombre, escriba "Código".</span><span class="sxs-lookup"><span data-stu-id="11ae5-130">In the Name field, type 'Code'.</span></span>
+19. <span data-ttu-id="11ae5-131">En el campo Tipo de artículo, seleccione Cadena.</span><span class="sxs-lookup"><span data-stu-id="11ae5-131">In the Item type field, select 'String'.</span></span>
+20. <span data-ttu-id="11ae5-132">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-132">Click Add.</span></span>
+21. <span data-ttu-id="11ae5-133">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-133">Click New to open the drop dialog.</span></span>
+22. <span data-ttu-id="11ae5-134">En el campo Nombre, escriba "Nombre".</span><span class="sxs-lookup"><span data-stu-id="11ae5-134">In the Name field, type 'Name'.</span></span>
+23. <span data-ttu-id="11ae5-135">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-135">Click Add.</span></span>
+24. <span data-ttu-id="11ae5-136">En el árbol, seleccione "Entrada".</span><span class="sxs-lookup"><span data-stu-id="11ae5-136">In the tree, select 'Entry'.</span></span>
+25. <span data-ttu-id="11ae5-137">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-137">Click New to open the drop dialog.</span></span>
+26. <span data-ttu-id="11ae5-138">En el campo Nombre, escriba "Diario".</span><span class="sxs-lookup"><span data-stu-id="11ae5-138">In the Name field, type 'Journal'.</span></span>
+27. <span data-ttu-id="11ae5-139">En el campo Tipo de artículo, seleccione Lista de registros.</span><span class="sxs-lookup"><span data-stu-id="11ae5-139">In the Item type field, select 'Record list'.</span></span>
+28. <span data-ttu-id="11ae5-140">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-140">Click Add.</span></span>
+29. <span data-ttu-id="11ae5-141">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-141">Click New to open the drop dialog.</span></span>
+30. <span data-ttu-id="11ae5-142">En el campo Nombre, escriba "Lote".</span><span class="sxs-lookup"><span data-stu-id="11ae5-142">In the Name field, type 'Batch'.</span></span>
+31. <span data-ttu-id="11ae5-143">En el campo Tipo de artículo, seleccione Cadena.</span><span class="sxs-lookup"><span data-stu-id="11ae5-143">In the Item type field, select 'String'.</span></span>
+32. <span data-ttu-id="11ae5-144">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-144">Click Add.</span></span>
+33. <span data-ttu-id="11ae5-145">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-145">Click New to open the drop dialog.</span></span>
+34. <span data-ttu-id="11ae5-146">En el campo Nombre, escriba "Transacción".</span><span class="sxs-lookup"><span data-stu-id="11ae5-146">In the Name field, type 'Transaction'.</span></span>
+35. <span data-ttu-id="11ae5-147">En el campo Tipo de artículo, seleccione Lista de registros.</span><span class="sxs-lookup"><span data-stu-id="11ae5-147">In the Item type field, select 'Record list'.</span></span>
+36. <span data-ttu-id="11ae5-148">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-148">Click Add.</span></span>
+37. <span data-ttu-id="11ae5-149">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-149">Click New to open the drop dialog.</span></span>
+38. <span data-ttu-id="11ae5-150">En el campo Nombre, escriba "Fecha".</span><span class="sxs-lookup"><span data-stu-id="11ae5-150">In the Name field, type 'Date'.</span></span>
+39. <span data-ttu-id="11ae5-151">En el campo Tipo de artículo, seleccione Fecha.</span><span class="sxs-lookup"><span data-stu-id="11ae5-151">In the Item type field, select 'Date'.</span></span>
+40. <span data-ttu-id="11ae5-152">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-152">Click Add.</span></span>
+41. <span data-ttu-id="11ae5-153">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-153">Click New to open the drop dialog.</span></span>
+42. <span data-ttu-id="11ae5-154">En el campo Nombre, escriba "Débito".</span><span class="sxs-lookup"><span data-stu-id="11ae5-154">In the Name field, type 'Debit'.</span></span>
+43. <span data-ttu-id="11ae5-155">En el campo Tipo de artículo, seleccione Real.</span><span class="sxs-lookup"><span data-stu-id="11ae5-155">In the Item type field, select 'Real'.</span></span>
+44. <span data-ttu-id="11ae5-156">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-156">Click Add.</span></span>
+45. <span data-ttu-id="11ae5-157">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-157">Click New to open the drop dialog.</span></span>
+46. <span data-ttu-id="11ae5-158">En el campo Nombre, escriba "Crédito".</span><span class="sxs-lookup"><span data-stu-id="11ae5-158">In the Name field, type 'Credit'.</span></span>
+47. <span data-ttu-id="11ae5-159">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-159">Click Add.</span></span>
+48. <span data-ttu-id="11ae5-160">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-160">Click New to open the drop dialog.</span></span>
+49. <span data-ttu-id="11ae5-161">En el campo Nombre, escriba "Divisa".</span><span class="sxs-lookup"><span data-stu-id="11ae5-161">In the Name field, type 'Currency'.</span></span>
+50. <span data-ttu-id="11ae5-162">En el campo Tipo de artículo, seleccione Cadena.</span><span class="sxs-lookup"><span data-stu-id="11ae5-162">In the Item type field, select 'String'.</span></span>
+51. <span data-ttu-id="11ae5-163">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-163">Click Add.</span></span>
+52. <span data-ttu-id="11ae5-164">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-164">Click New to open the drop dialog.</span></span>
+53. <span data-ttu-id="11ae5-165">En el campo Nombre, escriba "Asiento".</span><span class="sxs-lookup"><span data-stu-id="11ae5-165">In the Name field, type 'Voucher'.</span></span>
+54. <span data-ttu-id="11ae5-166">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-166">Click Add.</span></span>
+55. <span data-ttu-id="11ae5-167">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-167">Click New to open the drop dialog.</span></span>
+56. <span data-ttu-id="11ae5-168">En el campo Nombre, escriba "Datos de dimensiones".</span><span class="sxs-lookup"><span data-stu-id="11ae5-168">In the Name field, type 'Dimensions data'.</span></span>
+57. <span data-ttu-id="11ae5-169">En el campo Tipo de artículo, seleccione Lista de registros.</span><span class="sxs-lookup"><span data-stu-id="11ae5-169">In the Item type field, select 'Record list'.</span></span>
+58. <span data-ttu-id="11ae5-170">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-170">Click Add.</span></span>
+    * <span data-ttu-id="11ae5-171">Agregaremos a nuestro modelo a una lista de registro nuevo.</span><span class="sxs-lookup"><span data-stu-id="11ae5-171">We added to our model a new record list.</span></span> <span data-ttu-id="11ae5-172">Esta lista expondrá (para cualquier informe ER que utilice este modelo como origen de datos) los valores de las dimensiones financieras seleccionadas.</span><span class="sxs-lookup"><span data-stu-id="11ae5-172">This list will expose (for any ER reports using this model as data source) the values of selected financial dimensions.</span></span> <span data-ttu-id="11ae5-173">Cada dimensión financiera se mostrará en esta lista como registro con los campos adecuados que representan los valores de la dimensión.</span><span class="sxs-lookup"><span data-stu-id="11ae5-173">Each financial dimension will be presented in this list as a record with appropriate fields representing dimension’s values.</span></span> <span data-ttu-id="11ae5-174">El nombre de la dimensión también se mostrará en este registro como campo que se utilizará, si procede, para fines de selección.</span><span class="sxs-lookup"><span data-stu-id="11ae5-174">Dimension name will be also presented in this record as a field to be used, if needed, for selection purposes.</span></span>  
+59. <span data-ttu-id="11ae5-175">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-175">Click New to open the drop dialog.</span></span>
+60. <span data-ttu-id="11ae5-176">En el campo Nombre, escriba "Código".</span><span class="sxs-lookup"><span data-stu-id="11ae5-176">In the Name field, type 'Code'.</span></span>
+61. <span data-ttu-id="11ae5-177">En el campo Tipo de artículo, seleccione Cadena.</span><span class="sxs-lookup"><span data-stu-id="11ae5-177">In the Item type field, select 'String'.</span></span>
+62. <span data-ttu-id="11ae5-178">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-178">Click Add.</span></span>
+63. <span data-ttu-id="11ae5-179">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-179">Click New to open the drop dialog.</span></span>
+64. <span data-ttu-id="11ae5-180">En el campo Nombre, escriba "Descripción".</span><span class="sxs-lookup"><span data-stu-id="11ae5-180">In the Name field, type 'Description'.</span></span>
+65. <span data-ttu-id="11ae5-181">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-181">Click Add.</span></span>
+66. <span data-ttu-id="11ae5-182">Haga clic en Nueva para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="11ae5-182">Click New to open the drop dialog.</span></span>
+67. <span data-ttu-id="11ae5-183">En el campo Nombre, escriba "Nombre".</span><span class="sxs-lookup"><span data-stu-id="11ae5-183">In the Name field, type 'Name'.</span></span>
+68. <span data-ttu-id="11ae5-184">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-184">Click Add.</span></span>
+69. <span data-ttu-id="11ae5-185">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="11ae5-185">Click Save.</span></span>
+70. <span data-ttu-id="11ae5-186">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="11ae5-186">Close the page.</span></span>
 
 

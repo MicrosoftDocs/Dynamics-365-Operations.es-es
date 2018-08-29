@@ -1,15 +1,15 @@
 ---
-title: Sincronizar las tareas de proyectos de Project Service Automation
-description: En este tema se describen la plantilla y la tarea subyacente que se usa para sincronizar directamente las tareas de proyectos de Microsoft Dynamics 365 for Project Service Automation a Dynamics 365 for Finance and Operations.
+title: Sincronizar las tareas de proyectos directamente desde Project Service Automation a Finance and Operations
+description: En este tema se describen la plantilla y la tarea subyacentes que se usan para sincronizar directamente las tareas de proyecto de Microsoft Dynamics 365 for Project Service Automation a Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
-ms.date: 04/02/2018
+ms.date: 07/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
@@ -18,66 +18,70 @@ ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
 ms.translationtype: HT
-ms.sourcegitcommit: 399b519ab0da4de405aeb06f3e7f4bf29a6c5cc3
-ms.openlocfilehash: 89df0d99d780441ad08cd6bff3e1fd203694eb8e
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 53e4eab0d455af4ac1e17754f31d46458db742c3
 ms.contentlocale: es-es
-ms.lasthandoff: 05/30/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="synchronize-project-tasks-from-project-service-automation-directly-to-project-activities-in-finance-and-operations"></a><span data-ttu-id="4f63b-103">Sincronizar las tareas de proyectos directamente desde Project Service Automation a actividades de proyectos de Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="4f63b-103">Synchronize project tasks from Project Service Automation directly to project activities in Finance and Operations</span></span>
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a><span data-ttu-id="027fc-103">Sincronizar las tareas de proyectos directamente desde Project Service Automation a Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="027fc-103">Synchronize project tasks directly from Project Service Automation to Finance and Operations</span></span>
 
-<span data-ttu-id="4f63b-104">En este tema se describen la plantilla y la tarea subyacente que se usa para sincronizar directamente las tareas de proyectos de Microsoft Dynamics 365 for Project Service Automation a Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4f63b-104">This topic describes the template and underlying task that is used to synchronize project tasks directly from Microsoft Dynamics 365 for Project Service Automation to Dynamics 365 for Finance and Operations.</span></span>
+[!include[banner](../includes/banner.md)]
+
+<span data-ttu-id="027fc-104">En este tema se describen la plantilla y la tarea subyacentes que se usan para sincronizar directamente las tareas de proyecto de Microsoft Dynamics 365 for Project Service Automation a Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="027fc-104">This topic describes the template and underlying task that are used to synchronize project tasks directly from Microsoft Dynamics 365 for Project Service Automation to Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="4f63b-105">La integración de tareas de proyectos, las categorías de la transacción de gastos, las estimaciones de hora, las estimaciones de gastos y el bloqueo de la función están disponibles en Dynamics 365 for Finance and Operations versión 8.0.</span><span class="sxs-lookup"><span data-stu-id="4f63b-105">Project tasks integration, expense transaction categories, hour estimates, expense estimates, and functionality locking is available in Dynamics 365 for Finance and Operations version 8.0.</span></span>
+> - <span data-ttu-id="027fc-105">La integración de tareas de proyectos, las categorías de la transacción de gastos, las estimaciones de hora, las estimaciones de gastos y el bloqueo de la función están disponibles en Microsoft Dynamics 365 for Finance and Operations versión 8.0.</span><span class="sxs-lookup"><span data-stu-id="027fc-105">Project task integration, expense transaction categories, hour estimates, expense estimates, and functionality locking are available in Microsoft Dynamics 365 for Finance and Operations version 8.0.</span></span>
+> - <span data-ttu-id="027fc-106">Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, después de instalar KB 4132657 y 4132660 KB, podrá usar plantillas para integrar tareas de proyecto, categorías de transacción de gastos, estimaciones de hora, estimaciones de gastos y valores reales, y para configurar el bloqueo de funcionalidad.</span><span class="sxs-lookup"><span data-stu-id="027fc-106">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, after you install KB 4132657 and KB 4132660, you will be able to use the templates to integrate project tasks, expense transaction categories, hour estimates, expense estimates, and actuals, and to configure functionality locking.</span></span> <span data-ttu-id="027fc-107">Si debe restablecer las distribuciones contables, se recomienda instalar también KB 4131710.</span><span class="sxs-lookup"><span data-stu-id="027fc-107">If you must reset the accounting distributions, we recommended that you also install KB 4131710.</span></span>
+> - <span data-ttu-id="027fc-108">La integración de los valores reales está disponible en Microsoft Dynamics 365 for Finance and Operations versión 8.01 o posterior.</span><span class="sxs-lookup"><span data-stu-id="027fc-108">Actuals integration is available in Microsoft Dynamics 365 for Finance and Operations version 8.0.1 or later.</span></span>
 
-## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a><span data-ttu-id="4f63b-106">Flujo de datos de Project Service Automation a Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="4f63b-106">Data flow for Project Service Automation to Finance and Operations</span></span>
+## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a><span data-ttu-id="027fc-109">Flujo de datos de Project Service Automation a Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="027fc-109">Data flow for Project Service Automation to Finance and Operations</span></span>
 
-<span data-ttu-id="4f63b-107">La integración de Project Service Automation con Finance and Operations usa la característica de integración de datos para sincronizar datos a través de las instancias de Project Service Automation y de Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4f63b-107">The Project Service Automation to Finance and Operations integration solution uses the Data integration feature to synchronize data across instances of Project Service Automation and Finance and Operations.</span></span> <span data-ttu-id="4f63b-108">La plantilla de integración disponible con la función de integración de datos habilita el flujo de datos sobre las tareas de proyecto desde Project Service Automation a Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4f63b-108">The integration template that is available with the Data integration feature enables the flow of data about project tasks from Project Service Automation to Finance and Operations.</span></span>
+<span data-ttu-id="027fc-110">La integración de Project Service Automation con Finance and Operations usa la característica de integración de datos para sincronizar datos a través de las instancias de Project Service Automation y de Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="027fc-110">The Project Service Automation to Finance and Operations integration solution uses the Data integration feature to synchronize data across instances of Project Service Automation and Finance and Operations.</span></span> <span data-ttu-id="027fc-111">La plantilla de integración disponible con la función de integración de datos habilita el flujo de datos sobre las tareas de proyecto desde Project Service Automation a Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="027fc-111">The integration template that is available with the Data integration feature enables the flow of data about project tasks from Project Service Automation to Finance and Operations.</span></span>
 
-<span data-ttu-id="4f63b-109">La ilustración siguiente muestra cómo se sincronizan los datos entre Project Service Automation y Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4f63b-109">The following illustration shows how the data is synchronized between Project Service Automation and Finance and Operations.</span></span>
+<span data-ttu-id="027fc-112">La ilustración siguiente muestra cómo se sincronizan los datos entre Project Service Automation y Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="027fc-112">The following illustration shows how the data is synchronized between Project Service Automation and Finance and Operations.</span></span>
 
-<span data-ttu-id="4f63b-110">[![Flujo de datos para la integración de Project Service Automation con Finance and Operations](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)</span><span class="sxs-lookup"><span data-stu-id="4f63b-110">[![Data flow for Project Service Automation integration with Finance and Operations](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)</span></span>
+<span data-ttu-id="027fc-113">[![Flujo de datos para la integración de Project Service Automation con Finance and Operations](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)</span><span class="sxs-lookup"><span data-stu-id="027fc-113">[![Data flow for Project Service Automation integration with Finance and Operations](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)</span></span>
 
-## <a name="template-and-task"></a><span data-ttu-id="4f63b-111">Plantilla y tarea</span><span class="sxs-lookup"><span data-stu-id="4f63b-111">Template and task</span></span>
+## <a name="template-and-task"></a><span data-ttu-id="027fc-114">Plantilla y tarea</span><span class="sxs-lookup"><span data-stu-id="027fc-114">Template and task</span></span>
 
-<span data-ttu-id="4f63b-112">Para obtener acceso a la plantilla, en el centro de administración de Microsoft PowerApps, seleccione **Proyectos** y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.</span><span class="sxs-lookup"><span data-stu-id="4f63b-112">To access the template, in the Microsoft PowerApps Admin Center, select **Projects**, and then, in the upper-right corner, select **New project** to select public templates.</span></span>
+<span data-ttu-id="027fc-115">Para obtener acceso a la plantilla, en el centro de administración de Microsoft PowerApps, seleccione **Proyectos** y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.</span><span class="sxs-lookup"><span data-stu-id="027fc-115">To access the template, in the Microsoft PowerApps admin center, select **Projects**, and then, in the upper-right corner, select **New project** to select public templates.</span></span>
 
-<span data-ttu-id="4f63b-113">La plantilla y la tarea subyacente siguientes se usan para sincronizar las tareas del proyecto desde Project Service Automation hasta Finance and Operations:</span><span class="sxs-lookup"><span data-stu-id="4f63b-113">The following template and underlying task is used to synchronize project tasks from Project Service Automation to Finance and Operations:</span></span>
+<span data-ttu-id="027fc-116">La plantilla y la tarea subyacente siguientes se usan para sincronizar las tareas del proyecto desde Project Service Automation a Finance and Operations:</span><span class="sxs-lookup"><span data-stu-id="027fc-116">The following template and underlying task are used to synchronize project tasks from Project Service Automation to Finance and Operations:</span></span>
 
-<span data-ttu-id="4f63b-114">-**Nombre de la plantilla en la integración de datos:** Tareas del proyecto (de PSA a Fin and Ops) -**Nombre de la tarea en el proyecto:** Tareas del proyecto</span><span class="sxs-lookup"><span data-stu-id="4f63b-114">-**Name of the template in Data integration:** Project tasks (PSA to Fin and Ops) -**Name of the task in the project:** Project tasks</span></span>
+- <span data-ttu-id="027fc-117">**Nombre de la plantilla en la integración de datos:** tareas del proyecto (PSA a Fin and Ops)</span><span class="sxs-lookup"><span data-stu-id="027fc-117">**Name of the template in Data integration:** Project tasks (PSA to Fin and Ops)</span></span>
+- <span data-ttu-id="027fc-118">**Nombre de la tarea en el proyecto:** tareas de proyecto</span><span class="sxs-lookup"><span data-stu-id="027fc-118">**Name of the task in the project:** Project tasks</span></span>
 
-<span data-ttu-id="4f63b-115">Antes de que se produzca la sincronización de tareas de proyectos, debe sincronizar los contratos de proyecto y los proyectos.</span><span class="sxs-lookup"><span data-stu-id="4f63b-115">Before synchronization of project tasks can occur, you must synchronize project contracts and projects.</span></span>
+<span data-ttu-id="027fc-119">Antes de que se produzca la sincronización de tareas de proyectos, debe sincronizar los contratos de proyecto y los proyectos.</span><span class="sxs-lookup"><span data-stu-id="027fc-119">Before synchronization of project tasks can occur, you must synchronize project contracts and projects.</span></span>
 
-## <a name="entity-set"></a><span data-ttu-id="4f63b-116">Conjunto de entidades</span><span class="sxs-lookup"><span data-stu-id="4f63b-116">Entity set</span></span>
+## <a name="entity-set"></a><span data-ttu-id="027fc-120">Conjunto de entidades</span><span class="sxs-lookup"><span data-stu-id="027fc-120">Entity set</span></span>
 
-|<span data-ttu-id="4f63b-117">Project Service Automation</span><span class="sxs-lookup"><span data-stu-id="4f63b-117">Project Service Automation</span></span>               | <span data-ttu-id="4f63b-118">Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="4f63b-118">Finance and Operations</span></span>                |
-|-----------------------------------------|---------------------------------------|
-| <span data-ttu-id="4f63b-119">Tareas de proyecto</span><span class="sxs-lookup"><span data-stu-id="4f63b-119">Project Tasks</span></span>                           | <span data-ttu-id="4f63b-120">Entidad de integración para tarea de proyecto.</span><span class="sxs-lookup"><span data-stu-id="4f63b-120">Integration entity for project task.</span></span>   |
+| <span data-ttu-id="027fc-121">Project Service Automation</span><span class="sxs-lookup"><span data-stu-id="027fc-121">Project Service Automation</span></span> | <span data-ttu-id="027fc-122">Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="027fc-122">Finance and Operations</span></span>              |
+|----------------------------|-------------------------------------|
+| <span data-ttu-id="027fc-123">Tareas de proyecto</span><span class="sxs-lookup"><span data-stu-id="027fc-123">Project Tasks</span></span>              | <span data-ttu-id="027fc-124">Entidad de integración para tarea de proyecto</span><span class="sxs-lookup"><span data-stu-id="027fc-124">Integration entity for project task</span></span> |
 
-## <a name="entity-flow"></a><span data-ttu-id="4f63b-121">Flujo de la entidad</span><span class="sxs-lookup"><span data-stu-id="4f63b-121">Entity flow</span></span>
+## <a name="entity-flow"></a><span data-ttu-id="027fc-125">Flujo de la entidad</span><span class="sxs-lookup"><span data-stu-id="027fc-125">Entity flow</span></span>
 
-<span data-ttu-id="4f63b-122">Las tareas de proyectos se administran en Project Service Automation y se sincronizan con Finance and Operations como actividades de proyectos.</span><span class="sxs-lookup"><span data-stu-id="4f63b-122">Project tasks are managed in Project Service Automation, and they are synchronized to Finance and Operations as project activities.</span></span>
+<span data-ttu-id="027fc-126">Las tareas de proyectos se administran en Project Service Automation y se sincronizan con Finance and Operations como actividades de proyectos.</span><span class="sxs-lookup"><span data-stu-id="027fc-126">Project tasks are managed in Project Service Automation, and they are synchronized to Finance and Operations as project activities.</span></span>
 
-## <a name="prerequisites-and-mapping-setup"></a><span data-ttu-id="4f63b-123">Condiciones previas y configuración de asignación</span><span class="sxs-lookup"><span data-stu-id="4f63b-123">Prerequisites and mapping setup</span></span>
+## <a name="prerequisites-and-mapping-setup"></a><span data-ttu-id="027fc-127">Condiciones previas y configuración de asignación</span><span class="sxs-lookup"><span data-stu-id="027fc-127">Prerequisites and mapping setup</span></span>
 
-<span data-ttu-id="4f63b-124">Antes de que se produzca la sincronización de tareas de proyectos, debe sincronizar los contratos de proyecto y los proyectos.</span><span class="sxs-lookup"><span data-stu-id="4f63b-124">Before synchronization of project tasks can occur, you must synchronize project contracts and projects.</span></span>
+<span data-ttu-id="027fc-128">Antes de que se produzca la sincronización de tareas de proyectos, debe sincronizar los contratos de proyecto y los proyectos.</span><span class="sxs-lookup"><span data-stu-id="027fc-128">Before synchronization of project tasks can occur, you must synchronize project contracts and projects.</span></span>
 
-## <a name="power-query"></a><span data-ttu-id="4f63b-125">Power Query</span><span class="sxs-lookup"><span data-stu-id="4f63b-125">Power Query</span></span>
+## <a name="power-query"></a><span data-ttu-id="027fc-129">Power Query</span><span class="sxs-lookup"><span data-stu-id="027fc-129">Power Query</span></span>
 
-<span data-ttu-id="4f63b-126">Debe usar Microsoft Power Query para filtrar los datos si se cumplen estas condiciones:</span><span class="sxs-lookup"><span data-stu-id="4f63b-126">You must use Microsoft Power Query to filter data if these conditions are met:</span></span>
+<span data-ttu-id="027fc-130">Debe usar Microsoft Power Query for Excel para filtrar los datos si se cumple esta condición:</span><span class="sxs-lookup"><span data-stu-id="027fc-130">You must use Microsoft Power Query for Excel to filter data if this condition is met:</span></span>
 
-- <span data-ttu-id="4f63b-127">Tiene registros específicos de recursos dentro de una tarea de proyecto.</span><span class="sxs-lookup"><span data-stu-id="4f63b-127">You have resource specific records within a project task.</span></span>
+- <span data-ttu-id="027fc-131">Tiene registros específicos de recursos en una tarea de proyecto.</span><span class="sxs-lookup"><span data-stu-id="027fc-131">You have resource-specific records in a project task.</span></span>
 
-<span data-ttu-id="4f63b-128">Si debe usar Power Query, siga estas instrucciones:</span><span class="sxs-lookup"><span data-stu-id="4f63b-128">If you must use Power Query, follow these guidelines:</span></span>
+<span data-ttu-id="027fc-132">Si debe usar Power Query, siga esta instrucción:</span><span class="sxs-lookup"><span data-stu-id="027fc-132">If you must use Power Query, follow this guideline:</span></span>
 
-- <span data-ttu-id="4f63b-129">La plantilla de las tareas de proyecto (PSA a Fin and Ops) tiene un filtro predeterminado para excluir registros específicos de recursos de dentro de una tarea de proyecto estableciendo el filtro de **IsLineTask** en **Falso**.</span><span class="sxs-lookup"><span data-stu-id="4f63b-129">The Project tasks (PSA to Fin and Ops) template has a default filter to exclude resource specific records from within a project task by setting the filter on the **IsLineTask** to **False**.</span></span> <span data-ttu-id="4f63b-130">Si crea su propia plantilla, debe agregar este filtro.</span><span class="sxs-lookup"><span data-stu-id="4f63b-130">If you create your own template, you must add this filter.</span></span>
+- <span data-ttu-id="027fc-133">La plantilla de las tareas de proyecto (PSA a Fin and Ops) tiene un filtro predeterminado que excluye registros específicos de recursos de una tarea de proyecto estableciendo el filtro de **IsLineTask** en **Falso**.</span><span class="sxs-lookup"><span data-stu-id="027fc-133">The Project tasks (PSA to Fin and Ops) template has a default filter that excludes resource-specific records from a project task by setting the filter on **IsLineTask** to **False**.</span></span> <span data-ttu-id="027fc-134">Si crea su propia plantilla, debe agregar este filtro.</span><span class="sxs-lookup"><span data-stu-id="027fc-134">If you create your own template, you must add this filter.</span></span>
 
-## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="4f63b-131">Asignación de la plantilla en la integración de datos</span><span class="sxs-lookup"><span data-stu-id="4f63b-131">Template mapping in Data integration</span></span>
+## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="027fc-135">Asignación de la plantilla en la integración de datos</span><span class="sxs-lookup"><span data-stu-id="027fc-135">Template mapping in Data integration</span></span>
 
-<span data-ttu-id="4f63b-132">La siguiente ilustración muestra un ejemplo de las asignaciones de tarea de plantilla en integración de datos.</span><span class="sxs-lookup"><span data-stu-id="4f63b-132">The following illustration shows an example of the template task mappings in Data integration.</span></span> <span data-ttu-id="4f63b-133">La asignación muestra la información de campo que se sincronizará de Project Service Automation a Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4f63b-133">The mapping shows the field information that will be synchronized from Project Service Automation to Finance and Operations.</span></span>
+<span data-ttu-id="027fc-136">La siguiente ilustración muestra un ejemplo de las asignaciones de tarea de plantilla en integración de datos.</span><span class="sxs-lookup"><span data-stu-id="027fc-136">The following illustration shows an example of the template task mappings in Data integration.</span></span> <span data-ttu-id="027fc-137">La asignación muestra la información de campo que se sincronizará de Project Service Automation a Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="027fc-137">The mapping shows the field information that will be synchronized from Project Service Automation to Finance and Operations.</span></span>
 
-<span data-ttu-id="4f63b-134">[![Asignación de la plantilla](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)</span><span class="sxs-lookup"><span data-stu-id="4f63b-134">[![Template mapping](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)</span></span>
-
+<span data-ttu-id="027fc-138">[![Asignación de la plantilla](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)</span><span class="sxs-lookup"><span data-stu-id="027fc-138">[![Template mapping](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)</span></span>
 

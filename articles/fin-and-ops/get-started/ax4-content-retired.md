@@ -1,5 +1,5 @@
 ---
-title: Contenido de Microsoft Dynamics AX 4.0 retirado
+title: Contenido de AX 4.0 que se ha retirado
 description: El contenido de Dynamics AX 4.0 en TechNet y MSDN se ha retirado.
 author: margoc
 manager: AnnBe
@@ -18,19 +18,19 @@ ms.author: margoc
 ms.search.validFrom: 2018-04-10
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: 495e4af2a372b3af23fdca6d22341039ee5351af
-ms.openlocfilehash: 127021cc61624894cfdb4c8fb49917c582e94181
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: eb240a75c758037de9eb1fde55b0bfde00a16dd7
 ms.contentlocale: es-es
-ms.lasthandoff: 04/10/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="microsoft-dynamics-ax-40-content-retired"></a><span data-ttu-id="ea338-103">Contenido de Microsoft Dynamics AX 4.0 retirado</span><span class="sxs-lookup"><span data-stu-id="ea338-103">Microsoft Dynamics AX 4.0 content retired</span></span>
+# <a name="ax-40-content-that-has-been-retired"></a><span data-ttu-id="5fe91-103">Contenido de AX 4.0 que se ha retirado</span><span class="sxs-lookup"><span data-stu-id="5fe91-103">AX 4.0 content that has been retired</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="ea338-104">El contenido de Microsoft Dynamics AX 4.0 se ha retirado de TechNet y MSDN .</span><span class="sxs-lookup"><span data-stu-id="ea338-104">The Microsoft Dynamics AX 4.0 content has been retired from TechNet and MSDN.</span></span> <span data-ttu-id="ea338-105">Para obtener más información, consulte:</span><span class="sxs-lookup"><span data-stu-id="ea338-105">For more information, see:</span></span> 
+<span data-ttu-id="5fe91-104">El contenido de Microsoft Dynamics AX 4.0 se ha retirado de TechNet y MSDN .</span><span class="sxs-lookup"><span data-stu-id="5fe91-104">The Microsoft Dynamics AX 4.0 content has been retired from TechNet and MSDN.</span></span> <span data-ttu-id="5fe91-105">Para obtener más información, consulte:</span><span class="sxs-lookup"><span data-stu-id="5fe91-105">For more information, see:</span></span> 
 
-- [<span data-ttu-id="ea338-106">Directiva de ciclo de vida de Microsoft</span><span class="sxs-lookup"><span data-stu-id="ea338-106">Microsoft Lifecycle Policy</span></span>](https://support.microsoft.com/en-us/lifecycle/search?alpha=Microsoft%20Dynamics%20AX%204.0) 
-- [<span data-ttu-id="ea338-107">Rutas de actualización compatibles con Dynamics AX 2012</span><span class="sxs-lookup"><span data-stu-id="ea338-107">Supported upgrade paths to Dynamics AX 2012</span></span>](https://technet.microsoft.com/en-us/library/dd362093.aspx) 
+- [<span data-ttu-id="5fe91-106">Directiva de ciclo de vida de Microsoft</span><span class="sxs-lookup"><span data-stu-id="5fe91-106">Microsoft Lifecycle Policy</span></span>](https://support.microsoft.com/en-us/lifecycle/search?alpha=Microsoft%20Dynamics%20AX%204.0) 
+- [<span data-ttu-id="5fe91-107">Rutas de actualización compatibles con Dynamics AX 2012</span><span class="sxs-lookup"><span data-stu-id="5fe91-107">Supported upgrade paths to Dynamics AX 2012</span></span>](https://technet.microsoft.com/en-us/library/dd362093.aspx) 
 
