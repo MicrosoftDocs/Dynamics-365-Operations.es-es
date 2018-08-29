@@ -1,5 +1,5 @@
 --- 
-title: Inscribir y quitar prestaciones para trabajadores
+title: Inscribir trabajadores en prestaciones y quitar prestaciones para trabajadores
 description: "Este procedimiento muestra cómo se puede inscribir un único trabajador en una o más prestaciones, así como varios trabajadores se pueden inscribir en una prestación."
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 844582904f7d3c14f6d5aa425a3c9d8234c01568
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: b0feb25ee2faa7392c475ae9477a5ad66af25f04
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="enroll-and-remove-benefits-from-workers"></a>Inscribir y quitar prestaciones para trabajadores
+# <a name="enroll-workers-in-benefits-and-remove-benefits-from-workers"></a>Inscribir trabajadores en prestaciones y quitar prestaciones para trabajadores
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

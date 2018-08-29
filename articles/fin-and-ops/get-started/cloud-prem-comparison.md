@@ -1,5 +1,5 @@
 ---
-title: "Comparación de características locales y la nube"
+title: "Comparación de las características en la nube y locales"
 description: "En este tema se muestran qué características se admiten en la nube y en local."
 author: robinarh
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 7bb152334b3b06c86dff024d0e99aea9bb452deb
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 4354b9d55cc84f7c74020d95617c406dc5fb225c
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="cloud-and-on-premises-feature-comparison"></a>Comparación de características locales y la nube
+# <a name="comparison-of-cloud-and-on-premises-features"></a>Comparación de las características en la nube y locales
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "Visión general de la gestión del rendimiento"
+title: "Gestión del rendimiento"
 description: "El proceso de gestión del rendimiento permite a los empleados documentar y comentar su rendimiento con el administrador. A su vez, los administradores pueden proporcionar comentarios de retroalimentación y orientación a los empleados."
 author: mikefalkner
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 426e0f8096a65b2233cf04663c38335ee6e9bb2d
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: e7621b4c1358d1ecd6ff1c9ce2f1de08766a4bf6
 ms.contentlocale: es-es
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="performance-management-overview"></a>Visión general de la gestión del rendimiento
+# <a name="performance-management"></a>Gestión del rendimiento
 
 [!include [banner](includes/banner.md)]
 

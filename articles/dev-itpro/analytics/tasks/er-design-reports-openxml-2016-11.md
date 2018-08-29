@@ -1,5 +1,5 @@
 --- 
-title: "Diseñar una configuración para generar informes con formato OpenXML para informes electrónicos (ER)"
+title: "Diseñar configuraciones de ER para generar informes en formato OpenXML"
 description: "En los pasos siguientes se explica cómo un usuario con rol de administrador del sistema o desarrollador de informes electrónicos puede crear una nueva configuración de informes electrónicos que contenga una plantilla para generar documentos electrónicos en formato OPENXML."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
-ms.openlocfilehash: 09789957839097ba2898544102af908c198090c7
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: b42cfe36c57a9526e585bbad0fcd31ff60b90397
 ms.contentlocale: es-es
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-a-configuration-for-generating-reports-in-openxml-format-for-electronic-reporting-er"></a>Diseñar una configuración para generar informes con formato OpenXML para informes electrónicos (ER)
+# <a name="design-er-configurations-to-generate-reports-in-openxml-format"></a>Diseñar configuraciones de ER para generar informes en formato OpenXML
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

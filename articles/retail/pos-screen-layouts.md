@@ -1,5 +1,5 @@
 ---
-title: "Configurar diseños de pantalla para POS"
+title: "Diseños de pantalla para el punto de venta (POS)"
 description: "Este tema proporciona información sobre los diseños de pantalla para experiencias con Microsoft Dynamics 365 for Retail point of sale (POS)."
 author: jblucher
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: e6d5cb4c5744f843ea2b877103f55f327d371eee
-ms.openlocfilehash: e8606c149db4e821bed02d28c607546ec6ce6956
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
 ms.contentlocale: es-es
-ms.lasthandoff: 06/23/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="configure-screen-layouts-for-pos"></a>Configurar diseños de pantalla para POS
+# <a name="screen-layouts-for-the-point-of-sale-pos"></a>Diseños de pantalla para el punto de venta (POS)
 
 [!include [banner](includes/banner.md)]
 

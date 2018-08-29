@@ -1,5 +1,5 @@
 ---
-title: "Configurar y gestionar imágenes del PDV moderno minorista"
+title: "Configurar y gestionar imágenes de Retail Modern POS (MPOS)"
 description: "Este artículo explica los pasos para realizar la configuración y la gestión de imágenes para las distintas entidades que aparecen en Retail Modern POS (MPOS)."
 author: athinesh99
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ed4a7044b577ed6af86f6803f6abd4f9b500b4e7
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e364cf988cc80d53605fe88bf0dc1be6021c52e7
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Configurar y gestionar imágenes del PDV moderno minorista
+# <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Configurar y gestionar imágenes de Retail Modern POS (MPOS)
 
 [!include [banner](includes/banner.md)]
 
@@ -52,7 +52,7 @@ Las imágenes que aparecen en el Retail Modern POS (MPOS) se deben alojar extern
 4.  Para imágenes, el formato del nombre de archivo está codificado con el nombre del catálogo y no se puede modificar. Por lo tanto, puede cambiar de nombre a las imágenes de modo que tengan nombres adecuados de catálogo, para ayudar a garantizar que MPOS los gestiona correctamente.
 5.  En el campo **Extensión de archivo**, seleccione la extensión esperada del nombre de archivo, en función del tipo de imágenes que tenga. Por ejemplo, para los datos de prueba, las imágenes del catálogo se establecen en la extensión del formato .jpg. (Los archivos de imagen también se renombran de modo que tengan nombres de catálogo.)
 6.  Haga clic en **Aceptar**.
-7.  Para validar que la plantilla multimedia para imágenes se ha guardado correctamente, en la página **Imágenes de catálogo**, haga clic en **Definir plantilla multimedia** otra vez. Para validar la plantilla sin cerrar el cuadro de diálogo **Definr plantilla multimedia**, puede usar la ficha desplegable **Generar URL de imagen para Excel**. Compruebe el aspecto de la URL de la imagen y compruebe que la dirección URL se ajusta al estándar de la plantilla que se mencionó anteriormente. El cuadro de diálogo **Definir plantilla multimedia** ahora ha configurado la ruta de la imagen de forma implícita para todas las imágenes de catálogo que usan esta ruta común de dirección URL. Esta ruta de dirección URL se aplica a todas las imágenes del catálogo a menos que se sobrescriban. La primera parte de la ruta de la imagen se obtiene del URL base multimedia que ha definido en el perfil del canal. La parte restante de la ruta se toma de la ruta que definió en la plantilla multimedia. Las dos partes se concatenan para proporcionar el URL completo de ubicación de la imagen. Por ejemplo, un catálogo en los datos de prueba se denomina catálogo de la base de Fabrikam. Por lo tanto, el nombre de la imagen debe ser Fabrikam Base Catalog.jpg, de modo que use el nombre del catálogo y la extensión del nombre de archivo .jpg que se configura en la plantilla. En este caso, después de la concatenación, la dirección URL será https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer/Catalogs/en-US/Fabrikam Base Catalog.jpg.
+7.  Para validar que la plantilla multimedia para imágenes se ha guardado correctamente, en la página **Imágenes de catálogo**, haga clic en **Definir plantilla multimedia** otra vez. Para validar la plantilla sin cerrar el cuadro de diálogo **Definr plantilla multimedia**, puede usar la ficha desplegable **Generar URL de imagen para Excel**. Compruebe el aspecto de la URL de la imagen y compruebe que la dirección URL se ajusta al estándar de la plantilla que se mencionó anteriormente. El cuadro de diálogo **Definir plantilla multimedia** ahora ha configurado la ruta de la imagen de forma implícita para todas las imágenes de catálogo que usan esta ruta común de dirección URL. Esta ruta de dirección URL se aplica a todas las imágenes del catálogo a menos que se sobrescriban. La primera parte de la ruta de la imagen se obtiene del URL base multimedia que ha definido en el perfil del canal. La parte restante de la ruta se toma de la ruta que definió en la plantilla multimedia. Las dos partes se concatenan para proporcionar el URL completo de ubicación de la imagen. Por ejemplo, un catálogo en los datos de prueba se denomina catálogo de la base de Fabrikam. Por lo tanto, el nombre de la imagen debe ser Fabrikam Base Catalog.jpg, de modo que use el nombre del catálogo y la extensión del nombre de archivo .jpg que se configura en la plantilla. En este caso, después de la concatenación, la URL será https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer/Catalogs/en-US/Fabrikam Base Catalog.jpg.
 8.  Ejecute los trabajos de sincronización para llevar la nueva plantilla a la base de datos del canal, de modo que MPOS pueda usar la plantilla para tener acceso a las imágenes.
 9.  Para actualizar la plantilla multimedia para las imágenes del catálogo en el lado del canal, asegúrese de ejecutar **Trabajo de catálogo (1150)** en **TI de venta minorista** &gt; **Programa de distribución**..[![catálogo1](./media/catalog1.png)](./media/catalog1.png)
 

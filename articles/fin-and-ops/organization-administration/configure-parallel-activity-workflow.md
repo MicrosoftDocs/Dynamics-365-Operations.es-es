@@ -1,5 +1,5 @@
 ---
-title: "Configuración de una actividad paralela en un flujo de trabajo"
+title: Configurar actividades paralelas en un flujo de trabajo
 description: Para configurar una actividad paralela, realice los siguientes procedimientos en el editor de flujo de trabajo.
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ec1c1d8abc49deb8ef16322370c59d40b01d344c
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 64cd387f8a6ab693d159cd659fca51fa6568ee39
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="configure-a-parallel-activity-in-a-workflow"></a>Configuración de una actividad paralela en un flujo de trabajo
+# <a name="configure-parallel-activities-in-a-workflow"></a>Configurar actividades paralelas en un flujo de trabajo
 
 [!include [banner](../includes/banner.md)]
 

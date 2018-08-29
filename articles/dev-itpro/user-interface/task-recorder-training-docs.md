@@ -1,5 +1,5 @@
 ---
-title: "Crear documentación o formación con las grabaciones de tareas"
+title: "Crear documentación o formación mediante las grabaciones de tareas"
 description: "Este tema explica qué son el Grabador de tareas y las guías de tareas, cómo crear grabaciones de tareas y cómo personalizar las guías de tareas de Microsoft e incluirlas en la Ayuda."
 author: josaw1
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fbf7edbd141f5e94c333b64beedf9126d2900d47
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: fc5b0798397047d1adedfc19406a7875c853bea6
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="create-documentation-or-training-using-task-recordings"></a>Crear documentación o formación con las grabaciones de tareas
+# <a name="create-documentation-or-training-by-using-task-recordings"></a>Crear documentación o formación mediante las grabaciones de tareas
 
 [!include [banner](../includes/banner.md)]
 

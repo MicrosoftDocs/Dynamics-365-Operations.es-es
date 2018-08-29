@@ -1,5 +1,5 @@
 --- 
-title: "Generar informes en los formatos de Microsoft Office con imágenes incrustadas"
+title: "Generar informes en los formatos de Office que tengan imágenes incrustadas"
 description: "En los pasos siguientes se explica cómo un usuario con rol de \"Administrador de sistema\" o \"Desarrollador de informes electrónicos\" puede diseñar configuraciones de informe electrónico (ER) para generar documentos electrónicos en formatos de MS Office (Excel y Word) que contienen imágenes incrustadas."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e2ab89857f4bf4844123508837c8faa504bc8839
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 5ef7ec2f8b5b7fdf456ebb71b863e620ae21e6b5
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="generate-reports-in-microsoft-office-formats-with-embedded-images"></a>Generar informes en los formatos de Microsoft Office con imágenes incrustadas
+# <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Generar informes en los formatos de Office que tengan imágenes incrustadas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

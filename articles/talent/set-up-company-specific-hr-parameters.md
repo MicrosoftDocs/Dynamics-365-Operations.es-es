@@ -1,5 +1,5 @@
 ---
-title: "Configuración de los parámetros de recursos humanos específicos de la empresa"
+title: "Configurar parámetros de recursos humanos (RR. HH.) específicos de la empresa"
 description: "La configuración de algunos parámetros de Recursos Humanos (RR. HH.) se comparten entre empresas, mientras que la configuración de otros parámetros son específicos de la empresa. Este artículo explica cómo configurar parámetros de RR. HH. específicos de la empresa."
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e195f9976465a933ceaaeb0bd2cbec4f814bc5f8
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: f7ecd72a2a6ba4ba15e412e40508462f6ef0d218
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="set-up-company-specific-hr-parameters"></a>Configuración de los parámetros de recursos humanos específicos de la empresa
+# <a name="set-up-company-specific-human-resources-hr-parameters"></a>Configurar parámetros de recursos humanos (RR. HH.) específicos de la empresa
 
 [!include [banner](includes/banner.md)]
 

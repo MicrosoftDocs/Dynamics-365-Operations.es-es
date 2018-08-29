@@ -3,7 +3,7 @@ title: Configurar propiedades del flujo de trabajo
 description: "Este tema explica cómo configurar las diversas propiedades de un flujo de trabajo."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/17/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: 7ea35d851613a19889392400e31cf8492d5dc799
+ms.sourcegitcommit: ba03473dd6fc31d51fd4e890acac1cd1494ef5a3
+ms.openlocfilehash: a327b85f18f03294a237c3795ae2e1f4a97095f0
 ms.contentlocale: es-es
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -107,6 +107,7 @@ Cuando se envía un documento para que se lo procese, se crea una instancia de f
     2.  Haga clic en **Insertar marcador de posición**.
     3.  En la lista que aparece, seleccione el marcador de posición que desea insertar.
     4.  Haga clic en **Insertar**.
+    5.  Un marcador de posición **Texto de notificación** común para incluir es "Últimas notas: %Workflow.Last note%", que muestra cualquier comentario del paso anterior.
 
 6.  Para agregar traducciones del texto, siga estos pasos:
     1.  Haga clic en **Traducciones**.

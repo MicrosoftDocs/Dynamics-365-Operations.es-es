@@ -1,5 +1,5 @@
 --- 
-title: "Utilice la configuración de asignación de modelo para cálculos agregados en el nivel de la base de datos (ER)"
+title: "Usar las configuraciones de asignación de modelo para cálculos agregados en el nivel de la base de datos"
 description: "Este procedimiento proporciona información acerca de cómo diseñar una nueva configuración de asignación de modelo de informes electrónicos (ER) y utilizar las funciones de ER integradas para realizar cálculos agregados eficientes."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: 869a23b992f1d6dccf9327b66b3e4d611728efce
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: a462a3997644a494b5cea89c9530ddba67c32450
 ms.contentlocale: es-es
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="use-a-model-mapping-configuration-for-aggregate-calculations-at-the-database-leveler"></a>Utilice la configuración de asignación de modelo para cálculos agregados en el nivel de la base de datos (ER) 
+# <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Usar las configuraciones de asignación de modelo para cálculos agregados en el nivel de la base de datos
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "Instale el diseñador de estructura del PDV (punto de venta) al por menor"
+title: "Instalar el diseñador de punto de venta (TPV) de Retail"
 description: "Puede usar el diseñador de un solo clic para diseñar diferentes estructuras de PDV moderno de venta al por menor (MPOS) y PDV en la Nube, tanto en modo horizontal como vertical, para tiendas, registros, cajeros y directores."
 author: athinesh99
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 30adfefd5ec70ddce348dab2481d518875e01ff2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 4c647f49101dcbbe7dd1feac2dd9aad5c6dd5bcc
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="install-the-retail-pos-layout-designer"></a>Instale el diseñador de estructura del PDV (punto de venta) al por menor
+# <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>Instalar el diseñador de punto de venta (TPV) de Retail
 
 [!include [banner](includes/banner.md)]
 

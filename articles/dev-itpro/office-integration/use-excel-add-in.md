@@ -1,5 +1,5 @@
 ---
-title: Usar el complemento de Excel
+title: Abrir los datos de entidad en Excel y actualizarlos mediante el complemento de Excel
 description: "Este tema explica cómo abrir los datos de la entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Microsoft Dynamics Office para Excel."
 author: ChrisGarty
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e0e3e86820e0857b320d832c3bf3c94757667919
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="use-the-excel-add-in"></a>Usar el complemento de Excel
+# <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Abrir los datos de entidad en Excel y actualizarlos mediante el complemento de Excel
 
 [!include [banner](../includes/banner.md)]
 

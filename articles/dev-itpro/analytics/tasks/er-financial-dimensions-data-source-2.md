@@ -1,5 +1,5 @@
 --- 
-title: Asignar modelos para usar dimensiones financieras como origen de datos
+title: "Asignar modelos de datos para usar dimensiones financieras como orígenes de datos"
 description: "En los pasos siguientes se explica cómo un usuario asignado al rol de administrador del sistema o desarrollador de informes electrónicos puede configurar un modelo de informes electrónicos (ER) para que use las dimensiones financieras como origen de datos de informes ER."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c26713a8a391f9f10a6e24f6619c24c1615d4560
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 4d9c0f50a724582941ac11e4f01b3cfd3b1cf262
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="map-models--to-use-financial-dimensions-as-a-data-source"></a>Asignar modelos para usar dimensiones financieras como origen de datos 
+# <a name="map-models-to-use-financial-dimensions-as-data-sources"></a>Asignar modelos de datos para usar dimensiones financieras como orígenes de datos 
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

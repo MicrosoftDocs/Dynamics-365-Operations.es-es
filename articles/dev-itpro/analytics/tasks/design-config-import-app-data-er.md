@@ -1,5 +1,5 @@
 --- 
-title: "Configuraciones de diseño para analizar documentos de entrada para actualizaciones de datos de aplicaciones (ER)"
+title: "Diseñar configuraciones de ER para analizar documentos entrantes"
 description: "Este procedimiento muestra cómo diseñar las configuraciones de los informes electrónicos (ER) para analizar un documento electrónico entrante."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 96c9397c6a83d61b679492f66f4aa6661f1f8621
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Configuraciones de diseño para analizar documentos de entrada para actualizaciones de datos de aplicaciones (ER)
+# <a name="design-er-configurations-to-parse-incoming-documents"></a>Diseñar configuraciones de ER para analizar documentos entrantes
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -30,7 +30,7 @@ Este procedimiento muestra cómo diseñar las configuraciones de los informes el
 
 Este procedimiento se ha creado para los usuarios con los roles Administrador del sistema o Desarrollador de informes electrónicos asignados. 
 
-Estos pasos se pueden completar mediante cualquier conjunto de datos. Antes de empezar, descargue y guarde los archivos que aparecen en el tema, "Analizar documentos entrantes para actualizar los datos de las aplicaciones" (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Los archivos son: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Estos pasos se pueden completar mediante cualquier conjunto de datos. Antes de comenzar, descargue y guarde los archivos enumerados en el tema "Analizar documentos de entrada para actualizar datos de aplicación" (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Los archivos son: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
     * Asegúrese de que el proveedor de configuración de la empresa de ejemplo “Litware, Inc.” está disponible y marcado como Activo. Si no ve a este proveedor de configuración, complete los pasos del procedimiento "Creación de un proveedor de configuración y marcarlo como activo".  

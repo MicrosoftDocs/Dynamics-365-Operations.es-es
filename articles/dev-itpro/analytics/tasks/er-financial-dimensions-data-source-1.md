@@ -1,5 +1,5 @@
 --- 
-title: "Diseñar el modelo de datos para usar dimensiones financieras como origen de datos"
+title: "Diseñar modelos de datos para usar dimensiones financieras como orígenes de datos"
 description: "En los pasos siguientes se explica cómo un administrador del sistema o desarrollador de informes electrónicos puede configurar un modelo de informes electrónicos (ER) para que use las dimensiones financieras como origen de datos de informes ER."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3e55eedba1955ae79733afee1a0b3c7072147bb5
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9b33d78b60ca4e4813dd4b158febee2323cea476
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-data-model-to-use-financial-dimensions-as-a-data-source"></a>Diseñar el modelo de datos para usar dimensiones financieras como origen de datos 
+# <a name="design-data-models-to-use-financial-dimensions-as-data-sources"></a>Diseñar modelos de datos para usar dimensiones financieras como orígenes de datos
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "Creación de un flujo de trabajo"
+title: Crear flujos de trabajo
 description: "Este tema explica cómo crear un flujo de trabajo."
 author: sericks007
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ee3f60575d0eaaf56ce08adb1936728a76488dac
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 0edf6f1a97b3bbd074168a3cb8bb5c2375492b71
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="create-a-workflow"></a>Creación de un flujo de trabajo
+# <a name="create-workflows"></a>Crear flujos de trabajo
 
 [!include [banner](../includes/banner.md)]
 

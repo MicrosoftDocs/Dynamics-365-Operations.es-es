@@ -1,5 +1,5 @@
 ---
-title: Configure las denominaciones de efectivo para PDV
+title: Configurar las denominaciones de efectivo para el punto de venta (POS)
 description: "Cobre denominaciones en las notas y las divisas se pueden definir en back office que se usará en los cajeros, socios de ventas, y los administradores en el almacén dentro de Retail POS."
 author: jblucher
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: afe7c359f284fde10ada377fb19add9819a8dd21
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: afc53754c3ff5b1afed2380369cf8280cfffc5e4
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="configure-cash-denominations-for-pos"></a>Configure las denominaciones de efectivo para PDV
+# <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Configurar las denominaciones de efectivo para el punto de venta (POS)
 
 [!include [banner](includes/banner.md)]
 

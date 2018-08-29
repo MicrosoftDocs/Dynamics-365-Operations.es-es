@@ -1,5 +1,5 @@
 --- 
-title: "Diseñar una configuración para generar informes con formato Microsoft Word para informes electrónicos (ER)"
+title: "Diseñar configuraciones de ER para generar informes en formato Word"
 description: "En los pasos siguientes se explica cómo un usuario con rol de administrador del Sistema o de desarrollador de informes electrónicos, puede configurar formatos de informes electrónicos (ER) para generar archivos de informes en Microsoft Word."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
-ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
 ms.contentlocale: es-es
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Diseñar una configuración para generar informes con formato Microsoft Word para informes electrónicos (ER)
+# <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Diseñar configuraciones de ER para generar informes en formato Word
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -63,7 +63,7 @@ Este procedimiento es para una función que se ha añadido en la versión 1611 d
     * Además de almacenar cambios de configuración, la acción Guardar también actualiza la plantilla de Word adjunta. La estructura del formato diseñado se traslada al documento de Word adjunto como una nueva parte del XML personalizado con el nombre “Informe”. Tenga en cuenta que la plantilla de Word adjunta no sólo contiene el diseño del documento que deseamos para generar como salida de ER, sino que también contiene la estructura de datos que el ER rellenará en esta plantilla en el tiempo de ejecución.  
 2. Haga clic en Archivos adjuntos.
     * Ahora necesita vincular los elementos de la parte XML personalizada del “Informe” a las partes del documento en Word.  
-    * Si está familiarizado con los documentos de Word que se pueden diseñar como formularios que contienen los controles de contenido limitados con elementos de partes de XML personalizado: reproduzca todos los pasos de la subtarea siguiente para crear tal documento. Para obtener más información, consulte este enlace https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. Si no, omita todos los pasos de la subtarea siguiente.  
+    * Si está familiarizado con los documentos de Word que se pueden diseñar como formularios que contienen los controles de contenido limitados con elementos de partes de XML personalizado: reproduzca todos los pasos de la subtarea siguiente para crear tal documento. Para obtener más detalles, vea este vínculo: https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. Si no, omita todos los pasos de la subtarea siguiente.  
 
 ## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>Consiga Word con la parte XML personalizada para realizar vínculos de datos
     * Abra este documento de Word y haga lo siguiente: Abra la pestaña Desarrollador de Word (personalizar la cinta de opciones si aún no está habilitada).  - Seleccione el panel de asignación XML.  - Seleccione el elemento XML personalizado del “Informe” en la búsqueda.  - Haga la asignación de los artículos de la parte XML seleccionada y de los controles de contenido del documento de Word.  - Guarde el documento de Word actualizado en una unidad local.  

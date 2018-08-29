@@ -1,5 +1,5 @@
 ---
-title: "Dividir los archivos generados según su tamaño y la cantidad de contenido"
+title: "Dividir los archivos XML generados según su tamaño y la cantidad de contenido"
 description: "En este tema se proporciona información acerca de cómo dividir archivos generados según su tamaño y la cantidad de elementos del contenido."
 author: NickSelin
 manager: AnnBe
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: afdf5b2596af7641182be50ced8159967164b115
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 0f13194575e2f19f585f09ffad99144c9a9fc3b1
 ms.contentlocale: es-es
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -49,5 +49,4 @@ Para obtener más información acerca de esta función, reproduzca la guía de t
 [Destinos de informes electrónicos](electronic-reporting-destinations.md)
 
 [Diseñador de fórmulas en los informes electrónicos](general-electronic-reporting-formula-designer.md)
-
 

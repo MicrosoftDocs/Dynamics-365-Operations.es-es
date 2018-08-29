@@ -1,5 +1,5 @@
 ---
-title: "Configuración de idioma del usuario y aplicación del PDV"
+title: "Configuración de idioma del usuario y aplicación de punto de venta (PDV)"
 description: "Este tema describe cómo cambiar la configuración del idioma en el PDV moderno de venta minorista (MPOS) y el PDV de la nube."
 author: jblucher
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dacc072ab5c070010d86302fa08a3066125b23a6
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 1ea4309d57a7b6b4ca4ae3fdd995c95d93c5c080
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="pos-application-and-user-language-settings"></a>Configuración de idioma del usuario y aplicación del PDV
+# <a name="point-of-sale-pos-application-and-user-language-settings"></a>Configuración de idioma del usuario y aplicación de punto de venta (PDV)
 
 [!include [banner](includes/banner.md)]
 
