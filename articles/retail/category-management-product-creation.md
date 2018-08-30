@@ -1,5 +1,5 @@
 ---
-title: "Administración de categorías de productos"
+title: "Gestionar las categorías de productos y productos de Retail"
 description: "Este tema describe cómo los encargados de comercialización pueden usar categorías de productos de Retail para administrar relaciones entre la jerarquía de productos de Retail y los detalles del producto liberado."
 author: ashishmsft
 manager: AnnBe
@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2246024d7d70947690173f3d0768292abe43efd7
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 19c972164474c972aab642c3cccc67cf396a6cb2
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 

@@ -1,5 +1,5 @@
 --- 
-title: Especificar los datos del candidato y de la solicitud manualmente
+title: Especificar manualmente los datos del candidato y de la solicitud
 description: "Este procedimiento muestra cómo mantener manualmente la información de los candidatos y sus solicitudes."
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6aef83b18ba5f18506921e08f3674b6bb272d3ab
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 05ff2e5563a49d0b1f598299fb34f85b98700b9e
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="enter-applicant-and-application-data-manually"></a>Especificar los datos del candidato y de la solicitud manualmente
+# <a name="manually-enter-applicant-and-application-data"></a>Especificar manualmente los datos del candidato y de la solicitud
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

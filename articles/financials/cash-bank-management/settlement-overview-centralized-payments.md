@@ -1,16 +1,16 @@
 ---
 title: "Vista general de la liquidación para pagos centralizados"
-description: "Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica que controle todos los pagos. De esta forma, se elimina la necesidad de introducir la misma transacción en las diversas entidades jurídicas y se obtiene un importante ahorro de tiempo al racionalizar el proceso de propuestas de pago, el proceso de liquidación, la edición de transacciones abiertas y la edición de transacciones cerradas de los pagos centralizados."
+description: "En este tema se describe la liquidación de pagos centralizados para Microsoft Dynamics 365 for Finance and Operations."
 author: abruer
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 222414
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
@@ -19,10 +19,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b76b141531acfc2d1d7553a3e7a13f165373921b
+ms.sourcegitcommit: fc5a65c299adbf86fb2f38dff1a9aaa36f7367fa
+ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -35,8 +35,8 @@ Las organizaciones que constan de diversas entidades jurídicas pueden crear y a
 Cuando se indica un pago de cliente o proveedor en una entidad jurídica y se liquida con una factura que se ha especificado en otra entidad jurídica, las transacciones de la liquidación aplicable y las transacciones de destinatario de pago y de remitente de pago se generan automáticamente para cada entidad jurídica. Se crea un registro de liquidación para cada combinación de factura y pago en la transacción. Cada registro de liquidación se asigna a un nuevo número de asiento, basado en la serie de secuencia numérica del comprobante de pago especificada en la página de **Parámetros de cuentas de clientes** para clientes y en la página de **Parámetros de cuentas de proveedores** para proveedores. 
 
 Si se generan registros de liquidación adicionales para descuentos por pronto pago, revalorizaciones de divisa extranjera, diferencias de decimales, sobrepagos o pagos insuficientes, éstos se asignan en la última fecha de la transacción de pago o factura. Si la liquidación se efectúa una vez registrado el pago, los registros de liquidación usan la fecha de registro de la liquidación especificada en la página **Liquidación de transacciones abiertas**.
-Tipos de registro, tipos de transacción y descripciones predeterminadas
-----------------------------------------------------------
+
+## <a name="posting-types-transaction-types-and-default-descriptions"></a>Tipos de registro, tipos de transacción y descripciones predeterminadas
 
 Las transacciones de asientos de liquidación de empresas vinculadas usan el tipo de registro de la liquidación de empresas vinculadas, la liquidación de clientes de empresas vinculadas y los tipos de transacción de liquidación del proveedor de empresas vinculadas. En la página **Descripciones predeterminadas** se puede configurar la información para el tipo de transacción. 
 
@@ -50,8 +50,7 @@ Los siguientes tipos de transacción están disponibles para usarlos en liquidac
 
 También se pueden definir descripciones predeterminadas para los asientos de liquidación de empresas vinculadas.
 
-<a name="currency-exchange-gains-or-losses"></a>Pérdidas o ganancias por cambio de divisa
----------------------------------
+## <a name="currency-exchange-gains-or-losses"></a>Pérdidas o ganancias por cambio de divisa
 
 El tipo de cambio que se usa para las transacciones de cliente o proveedor se almacena en la transacción. Las pérdidas o los beneficios realizados de cambios de divisas se registran en la entidad jurídica de factura o la entidad jurídica del pago, en función de la opción que seleccionada en el campo **Registro de pérdidas o beneficios del cambio de divisas** de la página **Contabilidad de empresas vinculadas** para la entidad jurídica del pago. Los siguientes ejemplos usan estas divisas:
 -   Divisa de contabilidad de pago: EUR
@@ -59,7 +58,7 @@ El tipo de cambio que se usa para las transacciones de cliente o proveedor se al
 -   Divisa de la transacción de pago: DKK
 -   Divisa de transacción de factura: CAD
 
-#### <a name="currency-calculations"></a>Cálculos de divisas
+### <a name="currency-calculations"></a>Cálculos de divisas
 
 Al liquidar una factura especificada en una entidad jurídica con un pago especificado en otra entidad jurídica, la divisa de la transacción de pago (DKK) se convierte mediante tres pasos:
 1.  Se convierte a la divisa de contabilidad de pago (EURO) usando los tipos de cambio de la entidad jurídica del pago.
@@ -75,17 +74,15 @@ Si se abre la página **Liquidación de transacciones abiertas** desde un diario
 
 El importe de pago resultante se transfiere a la línea del diario de pagos cuando se cierra la página **Liquidación de transacciones abiertas**.
 
-#### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Registro para la ganancia o pérdida debido a distintas divisas de contabilidad
+### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Registro para la ganancia o pérdida debido a distintas divisas de contabilidad
 
 Si existe una pérdida o ganancia por cambio de divisas, se registrará en la entidad jurídica especificada en el campo **Registro de pérdidas o beneficios del cambio de divisas** en la página **Contabilidad de empresas vinculadas** para la entidad jurídica del pago. El importe de pérdida o ganancia se convertirá a la divisa de contabilidad de la entidad jurídica en la que el importe de ganancia o pérdida está registrado, mediante el tipo de cambio definido para esa entidad jurídica.
 
-<a name="cash-discounts"></a>Descuentos por pronto pago
---------------
+## <a name="cash-discounts"></a>Descuentos por pronto pago
 
 Los descuentos generados durante el proceso de liquidación entre empresas se registran en la entidad jurídica de facturación o en la entidad jurídica de pago, en función de la opción seleccionada en el campo **Registro del descuento por pronto pago** de la página **Contabilidad de empresas vinculadas** para la entidad jurídica de pago. En la entidad jurídica de facturación se genera una transacción de liquidación correspondiente.
 
-<a name="overpayments-and-underpayments"></a>Sobrepagos y pagos insuficientes
-------------------------------
+## <a name="overpayments-and-underpayments"></a>Sobrepagos y pagos insuficientes
 
 Las tolerancias de diferencias de decimales y sobrepagos/pagos insuficientes, se determinan en función de la entidad jurídica pagadora para los sobrepagos, y en función de la entidad jurídica de facturación para los pagos insuficientes. La cuenta de registro que se usa viene determinada por la configuración del campo **Administración de descuentos de efectivo** de la página **Parámetros de clientes** y el campo **Administración de descuentos de efectivo** de la página **Parámetros de proveedores**.
 
@@ -112,9 +109,4 @@ Para los pagos de proveedores, las transacciones de destinatario de pago y de re
 
 ## <a name="withholding-tax"></a>Retención de impuestos
 La cuenta del proveedor asociada a la factura se usa para determinar si la retención de impuestos se debe calcular. Si se aplica la retención de impuestos, se calcula en la entidad jurídica asociada a la factura. Si las entidades jurídicas usan distintas divisas, se usará el tipo de cambio de la entidad jurídica asociada con la factura.
-
-
-
-
-
 

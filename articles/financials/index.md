@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
 ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
 ms.contentlocale: es-es
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -33,16 +33,23 @@ Este tema proporciona una lista de los temas de ayuda y de otros recursos para l
 
 Seleccione un área de características para obtener más información al respecto.
 
-:::row::: :::column::: - [Proveedores](accounts-payable/accounts-payable.md) 
+:::row:::
+    :::column:::
+        - [Proveedores](accounts-payable/accounts-payable.md) 
         - [Clientes](accounts-receivable/accounts-receivable.md)
         - [Gestión presupuestaria](budgeting/budgeting-overview.md) 
         - [Gestión de efectivo y bancos](cash-bank-management/cash-bank-management.md)
-        - [Contabilidad de costes](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [Gestión de gastos](expense-management/expense-management.md)
+        - [Contabilidad de costes](cost-accounting/cost-accounting-home-page.md)
+    :::column-end:::
+    :::column:::
+        - [Gestión de gastos](expense-management/expense-management.md)
         - [Informes financieros](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Activos fijos](fixed-assets/fixed-assets.md)
         - [Contabilidad general](general-ledger/general-ledger.md) 
         - [Administración de proyectos](project-management/overview-project-management-accounting.md)
-        - [Sector público](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::
+        - [Sector público](public-sector/public-sector-functionality.md) 
+    :::column-end:::
+:::row-end:::
 
 
 ## <a name="additional-resources"></a>Recursos adicionales

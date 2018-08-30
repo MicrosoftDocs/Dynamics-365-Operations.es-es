@@ -1,5 +1,5 @@
 ---
-title: Generar informes de la Ley de Cuidado de Salud Asequible
+title: Generar informes de la Ley de Cuidado de Salud Asequible (ACA)
 description: "La funcionalidad está disponible para ayudar a los empleados que necesiten llevar un seguimiento de la información notificada en los formularios 1095-B y 1095-C como respaldo de la parte de la orden del empresario de la Ley de Cuidado de Salud Asequible. Recuerde que esta funcionalidad solo se habilita en entidades jurídicas de los Estados Unidos."
 author: kherr75
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 1994edc5d6c932be3a285f9bb328a05504c90f07
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 25d2b8326bba69ac627f3fa7e05a6c850bd04c91
 ms.contentlocale: es-es
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="generate-affordable-care-act-reports"></a>Generar informes de la Ley de Cuidado de Salud Asequible
+# <a name="generate-affordable-care-act-aca-reports"></a>Generar informes de la Ley de Cuidado de Salud Asequible (ACA)
 
 [!include [banner](includes/banner.md)]
 

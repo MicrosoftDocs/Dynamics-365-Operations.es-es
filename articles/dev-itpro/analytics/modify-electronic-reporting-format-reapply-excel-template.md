@@ -1,5 +1,5 @@
 ---
-title: "Modificar un formato de informe electrónico al aplicar de nuevo una plantilla de Microsoft Excel"
+title: "Modificar formatos de informe electrónico al aplicar de nuevo plantillas de Excel"
 description: "Este tema proporciona información acerca de cómo puede modificar el formato de informes electrónicos (ER) que se usa para generar documentos empresariales reaplicando una plantilla de Excel modificada."
 author: NickSelin
 manager: AnnBe
@@ -19,13 +19,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: fca7fb75b965886c2ebc06b12940434f2ffc2543
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 8707f7b184bb66648edd0e48672c5514a0a5caf1
 ms.contentlocale: es-es
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a>Modificar un formato de informe electrónico al aplicar de nuevo una plantilla de Microsoft Excel
+# <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>Modificar formatos de informe electrónico al aplicar de nuevo plantillas de Excel
 
 [!include [banner](../includes/banner.md)]
 

@@ -65,5 +65,3 @@ Los siguientes datos se usan para rellenar los informes en el contenido de Power
 | Nombre de empleado    | Nombre, apellido y nombre completo                             | Asistentes al curso |
 | Puesto del empleado   | Cargo y fecha de antigüedad                                         | Asistentes al curso |
 
-
-

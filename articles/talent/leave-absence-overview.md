@@ -1,5 +1,5 @@
 ---
-title: "Visión general de la gestión de permisos y ausencias"
+title: "Gestión de bajas y ausencias"
 description: "Este tema proporciona una visión general del módulo de Gestión de permisos y ausencias."
 author: ryansandness
 manager: AnnBe
@@ -19,13 +19,13 @@ ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: e59ccde58adb7fae2504d37f8a0bc76110a3348b
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 72bfbb878fa076e204e00c3ccaceb4ba04c00ea9
 ms.contentlocale: es-es
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="leave-and-absence-management-overview"></a>Visión general de la gestión de permisos y ausencias
+# <a name="leave-and-absence-management"></a>Gestión de bajas y ausencias
 
 [!include [banner](includes/banner.md)]
 

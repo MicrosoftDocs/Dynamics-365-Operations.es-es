@@ -1,5 +1,5 @@
 ---
-title: "Búsqueda de productos y clientes en el sistema PDV"
+title: "Búsqueda de productos y de clientes en el punto de venta (PDV)"
 description: "En este tema se proporciona una visión general de las mejoras que se han realizado en la funcionalidad de búsqueda de productos y clientes en Microsoft Dynamics 365 for Retail."
 author: ShalabhjainMSFT
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b055ae09e87434f9e43c558e2a43d0467d70aaed
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 50b0cec27e343b3b6aba464a04c9883160ab263a
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Visión general de la búsqueda de productos y clientes en un punto de venta
+# <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Búsqueda de productos y de clientes en el punto de venta (PDV)
 
 [!include [banner](includes/banner.md)]
 

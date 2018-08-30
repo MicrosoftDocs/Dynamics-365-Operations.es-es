@@ -1,5 +1,5 @@
 --- 
-title: Definir la dependencia de las configuraciones a partir de otros componentes
+title: Definir la dependencia de las configuraciones de ER en otros componentes
 description: "Para completar estos pasos, primero debe completar los pasos de la guía de tareas, \"ER: Administrar las configuraciones de asignación de modelos\" y debe tener acceso a Microsoft Dynamics Lifecycle Services (LCS)."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cbd65f0734f54ed497758faffb452e4f61ab2089
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 18eb8de7c851e5477d93a00f744fe56929c43ca2
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="define-the-dependency-of-configurations-from-other-components"></a>Definir la dependencia de las configuraciones a partir de otros componentes 
+# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir la dependencia de las configuraciones de ER en otros componentes
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

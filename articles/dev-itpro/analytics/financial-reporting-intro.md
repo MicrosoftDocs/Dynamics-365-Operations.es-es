@@ -1,5 +1,5 @@
 ---
-title: Informes financieros for Finance and Operations
+title: Informes financieros
 description: "Los informes financieros para Finance and Operations permiten a los profesionales financieros y empresariales crear, mantener, implementar y ver resultados financieros. Se mueve más allá de las restricciones tradicionales de informes para ayudarle a diseñar con eficacia diversos tipos de informes."
 author: aprilolson
 manager: AnnBe
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinanicalReportingSetup
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
@@ -19,14 +19,14 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 54a3409e7bd0f1c704cf9f7dd1d860100ec83d7f
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 3e12037f14e7e01764fd6d18f52854c35a09d196
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="financial-reporting-for-finance-and-operations"></a>Informes financieros for Finance and Operations
+# <a name="financial-reporting"></a>Informes financieros
 
 [!include [banner](../includes/banner.md)]
 

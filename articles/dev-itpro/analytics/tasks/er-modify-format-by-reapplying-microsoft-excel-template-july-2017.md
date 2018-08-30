@@ -1,5 +1,5 @@
 --- 
-title: "Modificar un formato al aplicar de nuevo una plantilla de Microsoft Excel para informes electrónicos (ER)"
+title: Modificar formatos al aplicar de nuevo plantillas de Excel
 description: "Para completar estos pasos en este procedimiento, primero debe completar el procedimiento - Diseñar una configuración de ER para generar informes en formato OPENXML”."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: 2f35727376812b0de428ce929ebe0d33bc497984
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 3d5752caba9327475bb28c7bc6b0ee7e072f44f3
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a>Modificar un formato al aplicar de nuevo una plantilla de Microsoft Excel para informes electrónicos (ER)
+# <a name="modify-formats-by-reapplying-excel-templates"></a>Modificar formatos al aplicar de nuevo plantillas de Excel
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

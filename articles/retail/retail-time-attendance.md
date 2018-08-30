@@ -1,5 +1,5 @@
 ---
-title: Tiempo y asistencia en la venta minorista
+title: "Gestión del tiempo y la asistencia en Retail"
 description: "Este tema describe los escenarios que se admiten para la gestión del tiempo y la asistencia en Microsoft Dynamics 365 for Retail."
 author: aamirallaqaband
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d5672579c1e2d51e4b6494a1e86e3606c09a93a2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 21c29c3c37dfacdd98f5c3ec7698f07623da2285
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="retail-time-and-attendance"></a>Tiempo y asistencia en la venta al por menor
+# <a name="time-and-attendance-management-in-retail"></a>Gestión del tiempo y la asistencia en Retail
 
 [!include [banner](includes/banner.md)]
 
@@ -43,9 +43,9 @@ Este tema describe los escenarios que se admiten para la gestión del tiempo y l
 
 ### <a name="plan-worker-schedules"></a>Planificar las programaciones de los trabajadores
 
--   Aplicar perfiles mediante el planificador de trabajo. Para obtener más información, consulte <https://technet.microsoft.com/en-us/library/aa551234.aspx>.
+-   Aplicar perfiles mediante el planificador de trabajo. Para obtener más información, vea <https://technet.microsoft.com/en-us/library/aa551234.aspx>.
 
-Para obtener información sobre los pasos de configuración, vea <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
+Para obtener más información sobre los pasos de configuración, consulte <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
 
 ### <a name="retail-specific-configuration"></a>Configuración específica a la venta minorista
 
@@ -135,7 +135,7 @@ Un usuario de Dynamics 365 for Retail sigue el flujo de trabajo para calcular, a
 -   Hora de salida en masa
 -   Registrar ausencias
 
-Para obtener más información sobre cómo procesar los registros de tiempo y asistencia, consulte <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+Para obtener más información acerca de cómo procesar los registros de tiempo y asistencia, consulte <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
 
 
 

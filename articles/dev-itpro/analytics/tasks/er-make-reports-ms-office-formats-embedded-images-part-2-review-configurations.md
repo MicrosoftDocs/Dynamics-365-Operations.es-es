@@ -1,5 +1,5 @@
 --- 
-title: "Revisar configuraciones para crear informes en los formatos de Microsoft Office con imágenes incrustadas"
+title: "Revisar configuraciones para generar informes en los formatos de Office que tengan imágenes incrustadas"
 description: "Para completar estos pasos, primero debe completar los pasos de la guía de tareas \"ER crea informes en los formatos de MS Office con imágenes incrustadas (Parte 1 - Configurar parámetros)”."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe58809c60fa27a605d84a61893ff569ded058ef
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 8f3462f16ad7638071ab0aa2175d0bc291eeae89
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images"></a>Revisar configuraciones para crear informes en los formatos de Microsoft Office con imágenes incrustadas
+# <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Revisar configuraciones para generar informes en los formatos de Office que tengan imágenes incrustadas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

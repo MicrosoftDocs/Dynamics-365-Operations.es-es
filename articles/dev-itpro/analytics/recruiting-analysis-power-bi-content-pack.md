@@ -33,7 +33,7 @@ ms.lasthandoff: 12/19/2017
 Este tema describe el contenido en Microsoft Power BI sobre **Contratación**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
-El contenido de Power BI **Contratación** se muestra en el área de trabajo **Administración de contratación**. 
+El contenido de Power BI **Contratación** se muestra en el área de trabajo **Administración de contratación**.
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>Informes y representaciones visuales en el espacio de trabajo de Administración de contratación
 El área de trabajo **Gestión de contratación** contiene la pestaña **Análisis**. Esta pestaña tiene el contenido de contrataciones incrustado de Power BI. El contenido consiste en una ficha de visión general y otras fichas con detalles. En la tabla siguiente se describen los informes de cada ficha.
@@ -66,6 +66,4 @@ En la tabla siguiente se muestran las entidades en las que se basaba el contenid
 | Rendimiento          | Calificación, descripción y modelo de calificación                            | Candidato, candidato empleado, candidato finalizado |
 | Proyecto de contratación  | Descripción del proyecto, estado del proyecto y vacantes                | Candidato, candidato empleado, candidato finalizado |
 | Candidato finalizado | Candidatos cesados, motivo, rendimiento y fecha de cese | Empresa, contrapartida del calendario, fecha, ubicación geográfica, rendimiento, grupo demográfico, empleo, medios, proyecto de contratación, nombre del candidato |
-
-
 

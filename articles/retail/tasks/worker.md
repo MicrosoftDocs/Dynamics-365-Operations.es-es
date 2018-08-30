@@ -1,5 +1,5 @@
 --- 
-title: Configurar un trabajador
+title: Configurar trabajadores comerciales
 description: "Este procedimiento demuestra cómo configurar a un trabajador comercial como representante de ventas, que sea apto comisión en ventas en PDV."
 author: jblucher
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 27b075cf1152f16fc4726b224e877eacb2f2572c
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: f583c421c2f6dfd019d9586cb7d14f3298127d94
 ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="configure-a-worker"></a>Configurar un trabajador
+# <a name="configure-retail-workers"></a>Configurar trabajadores comerciales
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

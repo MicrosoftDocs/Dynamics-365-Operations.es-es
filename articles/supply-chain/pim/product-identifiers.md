@@ -1,7 +1,7 @@
 ---
 title: Identificadores de producto
 description: "Este tema proporciona información sobre los distintos tipos de identificadores de producto y explica cómo puede agregar los identificadores de producto en sus datos de producto."
-auhor: cvocph
+author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article

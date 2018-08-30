@@ -1,5 +1,5 @@
 ---
-title: "Destinos de informes electrónicos"
+title: "Destinos de informes electrónicos (ER)"
 description: "Puede configurar un destino para cada configuración de formato de informes electrónicos y su componente de salida (una carpeta o un archivo). A los usuarios que se le conceden los derechos de acceso adecuados también pueden modificar la configuración de destino en tiempo de ejecución. En este artículo se explica la administración de destinos de ER, los tipos de destinos que son compatibles y consideraciones de seguridad."
 author: ShylaThompson
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fb7d0dc8b3ff9e8f1e4ade5cacfeed8f1a6871ab
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 3aa27b3ac263c6c952de7e4b508f48f21ba489ad
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="electronic-reporting-destinations"></a>Destinos de informes electrónicos
+# <a name="electronic-reporting-er-destinations"></a>Destinos de informes electrónicos (ER)
 
 [!include [banner](../includes/banner.md)]
 

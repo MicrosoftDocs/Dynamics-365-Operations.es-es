@@ -1,5 +1,5 @@
 --- 
-title: Crear el formato para realizar recuentos y sumas
+title: "Crear formatos de informes electrónicos para realizar el recuento y la suma"
 description: "Los pasos siguientes explican cómo un usuario asignado al administrador del sistema o al rol de desarrollador de informes electrónicos puede configurar un formato de informe electrónico (ER) para que realice el recuento y calcule en función de los datos de la salida de texto ya generada."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7613b78d4a9ab63f5be9773a8699fe3ed94636eb
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 7261a2324b61cacfca8d69ad52762aa545b70220
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-format-for-counting-and-summing"></a>Crear el formato para realizar recuentos y sumas 
+# <a name="create-electronic-reporting-er-formats-to-do-counting-and-summing"></a>Crear formatos de informes electrónicos (ER) para realizar el recuento y la suma
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

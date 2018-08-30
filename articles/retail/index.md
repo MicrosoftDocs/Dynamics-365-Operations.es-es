@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 for Retail
+title: Esto es Dynamics 365 for Retail
 description: "Página principal de Dynamics 365 for Retail"
 author: josaw1
 manager: AnnBe
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: fbdcfc747186e2d8f55ff294a477226a83fbe1b2
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -48,7 +48,7 @@ Las necesidades del cliente no paran de cambiar. Debe poder estar al día de los
 Además, los clientes tienen varias opciones para conseguir lo que desean, cuando lo desean y al precio que desean. Para fidelizar clientes, puede usar notificaciones y ofertas personalizadas para facilitar las compras.
 
 ## <a name="hardware-and-peripherals"></a>Hardware y periféricos
-El punto de venta moderno (MPOS) de Retail y Cloud POS pueden usar una gran variedad de periféricos de hardware. Tanto MPOS como Cloud POS ofrecen varias interfaces y opciones de implementación para poder adaptarse a distintos escenarios comerciales.
+Retail Modern point of sale (MPOS) y Cloud POS pueden usar una gran variedad de periféricos de hardware. Tanto MPOS como Cloud POS ofrecen varias interfaces y opciones de implementación para poder adaptarse a distintos escenarios comerciales.
 
 El simulador de periféricos de Retail incluye un simulador de periféricos virtual y un simulador de POS. El simulador de periféricos virtual admite, principalmente, las pruebas para escenarios que suelen requerir dispositivos periféricos de POS físicos. El simulador de POS permite probar la compatibilidad de dispositivos periféricos físicos con Retail sin tener que implementar el cliente de POS.
 

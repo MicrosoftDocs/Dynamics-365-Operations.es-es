@@ -1,5 +1,5 @@
 ---
-title: Intelligence
+title: "Página de inicio de Business Intelligence (BI) y creación de informes"
 description: "En este tema se tratan los recursos que puede usar para obtener más información sobre Business Intelligence y las herramientas de informes disponibles en Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="intelligence"></a>Intelligence
+# <a name="business-intelligence-bi-and-reporting-home-page"></a>Página de inicio de Business Intelligence (BI) y creación de informes
 
 [!include [banner](../includes/banner.md)]
 
@@ -43,13 +43,13 @@ Los usuarios pueden interactuar con los datos tocando o haciendo clic en los ele
 
 ![Ejemplo de Power BI en un espacio de trabajo](./media/Power-BI-in-D365-Workspace.png)
 
- Para obtener más información, consulte los siguientes temas:
+Para obtener más información, consulte los siguientes temas:
 
- - [Power BI insertado en espacios de trabajo](embed-power-bi-workspaces.md)
- - [Integración de Power BI Embedded](power-bi-embedded-integration.md)
- - [Agregar análisis a espacios de trabajo mediante Power BI Embedded](add-analytics-tab-workspaces.md)
- - [Ayudar a proteger los espacios de trabajo e informes de análisis mediante Power BI Embedded](secure-analytical-workspaces.md)
- - [Contenido de Power BI para Finance and Operations](power-bi-home-page.md)
+- [Power BI insertado en espacios de trabajo](embed-power-bi-workspaces.md)
+- [Integración de Power BI Embedded](power-bi-embedded-integration.md)
+- [Agregar análisis a espacios de trabajo mediante Power BI Embedded](add-analytics-tab-workspaces.md)
+- [Ayudar a proteger los espacios de trabajo e informes de análisis mediante Power BI Embedded](secure-analytical-workspaces.md)
+- [Contenido de Power BI para Finance and Operations](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Documentos empresariales e impresión
 Las soluciones de informes se suelen usar para capturar y comunicar los detalles de las transacciones empresariales. Por lo tanto, una solución de informes debe poder producir manifestaciones físicas de datos empresariales mediante dispositivos existentes como impresoras de red. Entre los ejemplos de documentos empresariales se incluyen facturas de ventas, resúmenes de cuentas de clientes y cheques.

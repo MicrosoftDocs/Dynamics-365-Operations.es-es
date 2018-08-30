@@ -22,7 +22,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: ee130dd357b5ae678f623630165a1ab787d6ae2c
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -34,44 +34,40 @@ Este artículo proporciona información acerca de las definiciones de informes. 
 
 Una definición del informe es un componente de informe (o un bloque de creación) que utiliza una definición de filas, una definición de columnas y una definición opcional del organigrama para crear un informe. Una definición de informe también proporciona opciones y valores de configuración que puede usar para personalizar un informe. Después de definir definiciones de filas y de columnas, debe combinarlas en una definición del informe. En este momento, también define otros aspectos de las definiciones, como el nivel de detalle y la fecha del informe. Después, puede guardar y generar un informe. Los informes financieros ofrecen los niveles de detalle siguientes:
 
--   Financiero
--   Financiero y contable
--   Financiero, contable y de transacciones
+- Financiero
+- Financiero y contable
+- Financiero, contable y de transacciones
 
 Sin embargo, en función de cómo se almacenen los datos en el sistema de Microsoft Dynamics ERP, los detalles de transacción pueden no estar disponibles en los informes.
 
 ## <a name="create-a-report-definition"></a>Crear una definición del informe
-1.  En el diseñador de informes, en el menú **Archivo**, haga clic en **Nuevo** y luego seleccione **Definición del informe**.
-2.  Especifique la información adecuada en las pestañas **Informe**, **Salida y distribución**, **Encabezados y pies de página** y **Parámetros**.
+1. En el diseñador de informes, en el menú **Archivo**, haga clic en **Nuevo** y luego seleccione **Definición del informe**.
+2. Especifique la información adecuada en las pestañas **Informe**, **Salida y distribución**, **Encabezados y pies de página** y **Parámetros**.
 
 ## <a name="contents-of-a-report-definition"></a>Contenido de una definición del informe
 La siguiente tabla describe las pestañas en una definición del informe y cómo se usa la información.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Pestaña</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Informe</td>
 <td>Crear un informe, configurar un informe o modificar un informe existente.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Salida y distribución</td>
 <td>Cambiar el tipo de salida y destino del informe.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Encabezados y pies de página</td>
 <td>Definir y aplicar formato a los encabezados y los pies de página para el informe. Por ejemplo, puede agregar texto o imágenes al encabezado o al pie de página. Los informes financieros admiten archivos .bmp, .jpg y .png para imágenes. También puede agregar códigos de autotexto para insertar otra información, como el nombre de la empresa, el nombre del informe o el número de página.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Parámetros</td>
 <td>Especificar la configuración de la definición del informe, como los siguientes parámetros:
 <ul>
@@ -81,18 +77,13 @@ La siguiente tabla describe las pestañas en una definición del informe y cómo
 <li>Generar un informe de excepciones</li>
 <li>Especificar conversión de divisa</li>
 <li>Detalles del subtotal y de la cuenta de filtro</li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
-
-
-
 

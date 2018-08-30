@@ -1,5 +1,5 @@
 --- 
-title: Ejecutar un informe para que use dimensiones financieras como origen de datos
+title: "Ejecutar informes que usen dimensiones financieras como orígenes de datos"
 description: "En los pasos siguientes se explica cómo un usuario asignado al rol de administrador del sistema o desarrollador de informes electrónicos puede configurar un modelo de informes electrónicos (ER) para que use las dimensiones financieras como origen de datos de informes ER."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 47ba48461a1c502a93df416d1acac1e85a841079
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 6569f9b97d5d15bf74b8b3882bf4bab50970dd0f
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="run-a-report-that-uses-financial-dimensions-as-a-data-source"></a>Ejecutar un informe para que use dimensiones financieras como origen de datos
+# <a name="run-reports-that-use-financial-dimensions-as-data-sources"></a>Ejecutar informes que usen dimensiones financieras como orígenes de datos
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
