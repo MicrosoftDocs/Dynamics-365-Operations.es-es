@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 056bc38fc69422b17b1b7720ce37089b27e8aa2e
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: ac9e836b0baa24c40554844ea4f3288b80e0c654
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -55,11 +55,13 @@ ms.lasthandoff: 08/07/2018
 
 ## <a name="generate-the-recurring-invoices"></a><span data-ttu-id="09d91-125">Generar las facturas periódicas</span><span class="sxs-lookup"><span data-stu-id="09d91-125">Generate the recurring invoices</span></span>
 <span data-ttu-id="09d91-126">En la página **Facturas periódicas**, hay una tarea que procesa las plantillas de facturas periódicas.</span><span class="sxs-lookup"><span data-stu-id="09d91-126">On the **Recurring invoices** page, there is a task that processes recurring invoice templates.</span></span> <span data-ttu-id="09d91-127">Especifique la fecha de la factura y la plantilla desde la que desea generar las facturas.</span><span class="sxs-lookup"><span data-stu-id="09d91-127">You specify the invoice date and the template to generate the invoices from.</span></span> <span data-ttu-id="09d91-128">Las facturas se generarán y se le asignarán un número de id. de periodicidad único para cada grupo de facturas que se procese.</span><span class="sxs-lookup"><span data-stu-id="09d91-128">Invoices will be generated and assigned a single recurrence ID number for each group of invoices that is processed.</span></span>
-<span data-ttu-id="09d91-129">Registrar facturas de servicios periódicas</span><span class="sxs-lookup"><span data-stu-id="09d91-129">Post recurring free text invoices</span></span>
+
+<a name="post-recurring-free-text-invoices"></a><span data-ttu-id="09d91-129">Registrar facturas de servicios periódicas</span><span class="sxs-lookup"><span data-stu-id="09d91-129">Post recurring free text invoices</span></span>
 ---------------------------------
 
 <span data-ttu-id="09d91-130">Después de que se generen las facturas periódicas, los identificadores de periodicidad de factura aparecen en una tarea de registro en la página **Facturas periódicas**.</span><span class="sxs-lookup"><span data-stu-id="09d91-130">After recurring invoices are generated, the invoice recurrence IDs appear in a posting task on the **Recurring invoices** page.</span></span> <span data-ttu-id="09d91-131">Para ver todas las facturas para un id. de periodicidad, haga clic en el vínculo.</span><span class="sxs-lookup"><span data-stu-id="09d91-131">You can view all of the invoices for a recurrence ID by clicking the link.</span></span> <span data-ttu-id="09d91-132">Durante su revisión de las facturas para el id. de periodicidad, puede eliminar facturas individuales.</span><span class="sxs-lookup"><span data-stu-id="09d91-132">During your review of the invoices for the recurrence ID, you can delete individual invoices.</span></span> <span data-ttu-id="09d91-133">La configuración de la periodicidad del cliente se restablecerá para esa plantilla, para que se pueda volver a generar posteriormente.</span><span class="sxs-lookup"><span data-stu-id="09d91-133">The customer's recurrence settings will be reset for that template, so that it can be regenerated later.</span></span> <span data-ttu-id="09d91-134">Puede registrar una, muchas o todas las facturas para un id. de periodicidad.</span><span class="sxs-lookup"><span data-stu-id="09d91-134">You can post one, many, or all of the invoices for a recurrence ID.</span></span> <span data-ttu-id="09d91-135">Si se habilitan los flujos de trabajo, debe hacer clic en **Enviar** para poder registrar las facturas.</span><span class="sxs-lookup"><span data-stu-id="09d91-135">If workflows are enabled, you must click **Submit** before you can post the invoices.</span></span>
-<span data-ttu-id="09d91-136">Imprimir facturas de servicios periódicas</span><span class="sxs-lookup"><span data-stu-id="09d91-136">Print recurring free text invoices</span></span>
+
+<a name="print-recurring-free-text-invoices"></a><span data-ttu-id="09d91-136">Imprimir facturas de servicios periódicas</span><span class="sxs-lookup"><span data-stu-id="09d91-136">Print recurring free text invoices</span></span>
 ----------------------------------
 
 <span data-ttu-id="09d91-137">Después de registrar las facturas periódicas, puede imprimir las facturas desde la página de lista de facturas de servicios.</span><span class="sxs-lookup"><span data-stu-id="09d91-137">After recurring invoices are posted, you can print the invoices from the free text invoice list page.</span></span> <span data-ttu-id="09d91-138">Puede imprimir las facturas seleccionadas o puede seleccionar un intervalo de facturas para imprimirlas.</span><span class="sxs-lookup"><span data-stu-id="09d91-138">You can print the invoices that are selected, or you can select a range of invoices to print.</span></span>
