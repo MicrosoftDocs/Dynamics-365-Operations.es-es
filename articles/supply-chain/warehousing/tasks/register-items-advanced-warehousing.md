@@ -3,24 +3,25 @@ title: "Registro de artículos habilitados para almacenamiento avanzado mediante
 description: "Este procedimiento muestra cómo registrar artículos mediante el diario de recepción de artículos cuando se usa los procesos avanzados de gestión de almacenes."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/12/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WMSJournalTable, WMSJournalCreate, WHSLicensePlate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 1dab4ba973f5a9d3a2d8f1b5a5afcdd821d1a6d0
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 751e73be385606bc706b2e14ea83c1b56c96402c
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a><span data-ttu-id="804f6-103">Registro de artículos habilitados para almacenamiento avanzado mediante un diario de recepción de artículos</span><span class="sxs-lookup"><span data-stu-id="804f6-103">Register items for an advanced warehousing enabled item using an item arrival journal</span></span>

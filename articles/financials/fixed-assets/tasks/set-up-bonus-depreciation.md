@@ -3,23 +3,24 @@ title: "Configuración de la depreciación de bonificación"
 description: "Este procedimiento muestra cómo crear un método de amortización por depreciación especial y asociarlo con un libro de activos fijos."
 author: saraschi2
 manager: AnnBe
-ms.date: 10/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetBonus, AssetGroup, AssetGroupBookSetup, AssetGroupSetupBonus
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 9b8e9b29248d59aed1fd93fb814f4076bcaaaa07
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 03b5e6c71ebe5070cce88c01daa5e7f2c4a9d036
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-bonus-depreciation"></a><span data-ttu-id="a6f29-103">Configuración de la depreciación de bonificación</span><span class="sxs-lookup"><span data-stu-id="a6f29-103">Set up bonus depreciation</span></span>

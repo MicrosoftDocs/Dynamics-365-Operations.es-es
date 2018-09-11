@@ -3,23 +3,24 @@ title: "Creación de un producto maestro basado en dimensiones"
 description: "Este procedimiento muestra cómo crear un nuevo producto maestro con tecnología de configuración basada en dimensiones."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EcoResProductListPage, EcoResProductCreate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e9be9f393343ca52fbde9b419a280ece1a6cadf8
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 67d93286690161a716e9e2b621a14fa66748e29b
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-dimension-based-product-master"></a><span data-ttu-id="cc54d-103">Creación de un producto maestro basado en dimensiones</span><span class="sxs-lookup"><span data-stu-id="cc54d-103">Create a dimension-based product master</span></span>

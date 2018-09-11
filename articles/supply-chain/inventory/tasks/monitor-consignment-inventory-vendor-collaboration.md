@@ -1,26 +1,27 @@
----
+--- 
 title: "Supervisar el inventario de entrega mediante la colaboración de proveedores"
 description: "Este procedimiento muestra cómo utilizar la colaboración del proveedor para ver la información sobre el nivel de existencias del producto que ha incluido en la entrega a un cliente."
 author: mkirknel
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ConsignmentProductReceiptLines, PurchVendorPortalConfirmedOrders, DefaultDashboard, ConsignmentVendorPortalOnhand
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 8e4a620fe5f5ab3c0fae8b04d79e9912111b7ece
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: a110c7b85c6ed22622b059b657bd7b6028517335
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="monitor-consignment-inventory-using-vendor-collaboration"></a><span data-ttu-id="9580f-103">Supervisar el inventario de entrega mediante la colaboración de proveedores</span><span class="sxs-lookup"><span data-stu-id="9580f-103">Monitor consignment inventory using vendor collaboration</span></span>
@@ -41,4 +42,5 @@ ms.lasthandoff: 08/07/2018
 ## <a name="view-on-hand-inventory"></a><span data-ttu-id="9580f-118">Ver el inventario disponible</span><span class="sxs-lookup"><span data-stu-id="9580f-118">View on-hand inventory</span></span>
 1. <span data-ttu-id="9580f-119">Ir a Colaboración de proveedor > Inventario de envío > Inventario de envío disponible.</span><span class="sxs-lookup"><span data-stu-id="9580f-119">Go to Vendor collaboration > Consignment inventory > On-hand consignment inventory.</span></span>
     * <span data-ttu-id="9580f-120">La página Inventario de entrega disponible muestra las existencias que posee en el almacén del cliente.</span><span class="sxs-lookup"><span data-stu-id="9580f-120">The On-hand consignment inventory page shows the stock that you own at the customer’s warehouse.</span></span> <span data-ttu-id="9580f-121">Puede mostrar dimensiones adicionales, como el sitio y el almacén, haciendo clic en la ficha Mostrar dimensiones.</span><span class="sxs-lookup"><span data-stu-id="9580f-121">You can show additional dimensions, such as the site and warehouse, by clicking the Display dimensions tab.</span></span>   
+
 

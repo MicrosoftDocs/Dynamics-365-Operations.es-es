@@ -3,23 +3,24 @@ title: Crear reglas avanzadas para diarios
 description: "Este procedimiento le guía por la creación de reglas avanzadas para los diarios."
 author: aprilolson
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalSetup, LedgerJournalControl, CompanyLookup, LedgerJournalPostControl
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 2c5f63f0ca5859a7d5b93682c7bc43f15df5bda2
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 211fe84536ba519cef3b4cdd9a87034194777245
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-advanced-rules-for-journals"></a><span data-ttu-id="f083a-103">Crear reglas avanzadas para diarios</span><span class="sxs-lookup"><span data-stu-id="f083a-103">Create advanced rules for journals</span></span>

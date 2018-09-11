@@ -3,23 +3,24 @@ title: "Crear un código de interés con un intervalo"
 description: "Los códigos de interés se pueden configurar para calcular diferentes importes de interés basados en un intervalo de valores."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: Interest, CustInterestRange
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e7b6cbc70058c9b9a8edaf3c3303fa7ba0e9da44
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 66a0173e1581b5f17b2b775d43e5db45e3e334fb
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-an-interest-code-with-a-range"></a><span data-ttu-id="815ad-103">Crear un código de interés con un intervalo</span><span class="sxs-lookup"><span data-stu-id="815ad-103">Create an interest code with a range</span></span>

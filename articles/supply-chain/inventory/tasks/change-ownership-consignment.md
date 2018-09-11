@@ -1,26 +1,27 @@
----
+--- 
 title: "Cambiar la propiedad del inventario de entrega en base a la demanda de la producción"
 description: "Este procedimiento muestra cómo cambiar el propietario del inventario de entrega del proveedor a su entidad jurídica cuando hay demanda del inventario en producción."
 author: perlynne
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalOwnershipChange, InventJournalCreate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: a665387244c571907afab24a54bc88580eca093e
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 5dd00e6f53d13305949d225e73223ab54947c804
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a><span data-ttu-id="8f2ce-103">Cambiar la propiedad del inventario de entrega en base a la demanda de la producción</span><span class="sxs-lookup"><span data-stu-id="8f2ce-103">Change the ownership of consignment inventory based on production demand</span></span>
@@ -51,4 +52,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="8f2ce-131">Cuando se registra el diario, el inventario propiedad del proveedor se libera usando la referencia "Cambio de propiedad".</span><span class="sxs-lookup"><span data-stu-id="8f2ce-131">When the journal is posted, the vendor-owned inventory is released by using an "Ownership change" reference.</span></span> <span data-ttu-id="8f2ce-132">El inventario se recibe como disponible usando una transacción de inventario que se actualiza con una recepción de producto del pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="8f2ce-132">The inventory is then received as on-hand by using an inventory transaction that is updated with a purchase order product receipt.</span></span> <span data-ttu-id="8f2ce-133">Tenga en cuenta que sólo se crean las transacciones relacionadas con el diario registrado.</span><span class="sxs-lookup"><span data-stu-id="8f2ce-133">Note that only transactions that are related to the posted journal are created.</span></span> <span data-ttu-id="8f2ce-134">No se crean transacciones de inventario previstas.</span><span class="sxs-lookup"><span data-stu-id="8f2ce-134">No expected inventory transactions are created.</span></span>  
 2. <span data-ttu-id="8f2ce-135">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="8f2ce-135">Click OK.</span></span>
 3. <span data-ttu-id="8f2ce-136">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="8f2ce-136">Close the page.</span></span>
+
 

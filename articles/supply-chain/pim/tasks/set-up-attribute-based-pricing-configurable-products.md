@@ -3,23 +3,24 @@ title: Configurar precios basados en atributos para productos configurables
 description: "Este procedimiento muestra cómo configurar unos precios en función del atributo."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/12/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCPriceModelList, PCPriceModel, PCConstraintEditor
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: f1eaa53a652a59d4d970781f734e1332aa762ca2
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 84c14288f1ee72c8db6221f9d1f90cc5001f62ed
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a><span data-ttu-id="152f9-103">Configurar precios basados en atributos para productos configurables</span><span class="sxs-lookup"><span data-stu-id="152f9-103">Set up attribute-based pricing for configurable products</span></span>

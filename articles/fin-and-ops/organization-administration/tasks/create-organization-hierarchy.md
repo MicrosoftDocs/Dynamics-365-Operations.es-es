@@ -3,23 +3,24 @@ title: "Crear una jerarquía organizativa"
 description: "Realice el procedimiento siguiente para crear una jerarquía organizativa."
 author: sericks007
 manager: AnnBe
-ms.date: 06/09/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: OMHierarchyManager, OMHierarchyPurposeAssociation, OMHierarchySelection, HierarchyDesigner
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 40efd239a4d86c0b1d07b02bba5158dabe7b3078
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 99819a2bff8d002721397c084babc07ebc070a37
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-an-organization-hierarchy"></a><span data-ttu-id="92862-103">Crear una jerarquía organizativa</span><span class="sxs-lookup"><span data-stu-id="92862-103">Create an organization hierarchy</span></span>

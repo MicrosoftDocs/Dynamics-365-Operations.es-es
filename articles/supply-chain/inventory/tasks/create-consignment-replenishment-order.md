@@ -1,26 +1,27 @@
----
+--- 
 title: Crear un pedido de reabastecimiento de entrega
 description: "Este procedimiento muestra cómo crear un pedido de reabastecimiento de entrega donde puede seguir la entrega prevista de un proveedor en su inventario de entrega."
 author: mkirknel
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 6366d6188d97ca54ba65c11699140be9ae2d4002
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 686a4bc1e9d752cc6d33354d03ba3c536c0854dc
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="90399-103">Crear un pedido de reabastecimiento de entrega</span><span class="sxs-lookup"><span data-stu-id="90399-103">Create a consignment replenishment order</span></span>
@@ -60,7 +61,7 @@ ms.lasthandoff: 08/07/2018
 ## <a name="receive-items"></a><span data-ttu-id="90399-132">Recibir artículos</span><span class="sxs-lookup"><span data-stu-id="90399-132">Receive items</span></span>
 1. <span data-ttu-id="90399-133">Haga clic en Recepción de producto.</span><span class="sxs-lookup"><span data-stu-id="90399-133">Click Product receipt.</span></span>
 2. <span data-ttu-id="90399-134">En el campo Recepción de producto externa, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="90399-134">In the External product receipt field, type a value.</span></span>
-3. <span data-ttu-id="90399-135">En el campo Cantidad, escriba un número que sea inferior al número que se muestra aquí.</span><span class="sxs-lookup"><span data-stu-id="90399-135">In the Quantity field, enter a number that’s lower than the number that’s shown there.</span></span>
+3. <span data-ttu-id="90399-135">En el campo Cantidad, escriba un número que sea inferior al número que se muestra aquí.</span><span class="sxs-lookup"><span data-stu-id="90399-135">In the Quantity field, enter a number that’s lower than the number that’s shown there.</span></span> 
 4. <span data-ttu-id="90399-136">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="90399-136">Click OK.</span></span>
 
 ## <a name="check-the-on-hand-inventory"></a><span data-ttu-id="90399-137">Compruebe el inventario disponible</span><span class="sxs-lookup"><span data-stu-id="90399-137">Check the on-hand inventory</span></span>
@@ -70,4 +71,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="90399-141">Los artículos que se han recibido como inventario de entrega propiedad del proveedor están disponibles.</span><span class="sxs-lookup"><span data-stu-id="90399-141">The items that have been received as consignment inventory owned by the vendor are available on-hand.</span></span> <span data-ttu-id="90399-142">La cantidad restante en el pedido de reabastecimiento de entrega se muestra en el campo Pedido en total.</span><span class="sxs-lookup"><span data-stu-id="90399-142">The remaining quantity on the consignment replenishment order is shown in the Ordered in total field.</span></span>  
 4. <span data-ttu-id="90399-143">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="90399-143">Close the page.</span></span>
 5. <span data-ttu-id="90399-144">Haga clic en Cerrar.</span><span class="sxs-lookup"><span data-stu-id="90399-144">Click Close.</span></span>
+
 

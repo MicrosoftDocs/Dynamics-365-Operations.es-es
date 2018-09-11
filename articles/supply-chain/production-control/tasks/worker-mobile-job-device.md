@@ -3,24 +3,25 @@ title: "Configurar un trabajador mediante el dispositivo móvil de trabajo"
 description: "Este procedimiento le muestra cómo asignar los roles correctos a la cuenta de usuario de un trabajador y, a continuación, habilitar al trabajador para que realice registros de planta."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 3582561dbcf44a7260c0fc1aa4f11b3e5caffc1d
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: e3f839ba377a0c28aada2c2f56c8f45480d21f80
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a><span data-ttu-id="c40bc-103">Configurar un trabajador mediante el dispositivo móvil de trabajo</span><span class="sxs-lookup"><span data-stu-id="c40bc-103">Configure a worker using the mobile job device</span></span>
@@ -68,4 +69,5 @@ ms.lasthandoff: 08/07/2018
 5. <span data-ttu-id="c40bc-140">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="c40bc-140">Click Edit.</span></span>
 6. <span data-ttu-id="c40bc-141">En el campo Unidad de producción, puede establecer el filtro predeterminado para el trabajador.</span><span class="sxs-lookup"><span data-stu-id="c40bc-141">In the Production unit field, you can set the default filter for the worker.</span></span> <span data-ttu-id="c40bc-142">Esto asegurará que solo se muestran los trabajos de producción para la unidad de producción seleccionada cuando el trabajador inicia sesión en el dispositivo.</span><span class="sxs-lookup"><span data-stu-id="c40bc-142">This will ensure that only production jobs for the selected production unit are shown when the worker logs on to the device.</span></span>
 7. <span data-ttu-id="c40bc-143">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="c40bc-143">Close the page.</span></span>
+
 

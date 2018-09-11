@@ -1,26 +1,27 @@
----
+--- 
 title: "Definición de procesos de recuento de inventario"
 description: "Este procedimiento le muestra la configuración de procesos de recuento de inventario básicos creando un grupo de recuento y un diario de recuento."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventCountGroup, InventJournalName, InventParameters, EcoResProductDetailsExtended, InventItemLocation, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 88d5dddf025c7a0451e9a812f83784499c3437a6
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: a75d39dc030e28529692241ce637b780421d31ad
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="define-inventory-counting-processes"></a><span data-ttu-id="2270c-103">Definición de procesos de recuento de inventario</span><span class="sxs-lookup"><span data-stu-id="2270c-103">Define inventory counting processes</span></span>
@@ -84,4 +85,5 @@ ms.lasthandoff: 08/07/2018
 7. <span data-ttu-id="2270c-170">Seleccione un grupo de recuento en la lista.</span><span class="sxs-lookup"><span data-stu-id="2270c-170">In the list, select a counting group</span></span>
     * <span data-ttu-id="2270c-171">Aquí puede seleccionar un grupo de recuento específico que se debe aplicar al artículo del almacén específico seleccionado.</span><span class="sxs-lookup"><span data-stu-id="2270c-171">Here you can select a specific counting group that should apply to the item in the specific warehouse you have selected.</span></span> <span data-ttu-id="2270c-172">Cuando el recuento se realice en ese almacén, esta directiva de recuento anulará la directiva de recuento general para el artículo.</span><span class="sxs-lookup"><span data-stu-id="2270c-172">When counting is performed in that warehouse, this counting policy will override the general counting policy for the item.</span></span>  
 8. <span data-ttu-id="2270c-173">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="2270c-173">Click Save.</span></span>
+
 

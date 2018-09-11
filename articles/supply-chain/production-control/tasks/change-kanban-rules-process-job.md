@@ -3,23 +3,24 @@ title: Cambiar las reglas kanban para un trabajo de proceso
 description: Este procedimiento se centra en el cambio de la regla kanban usada para un kanban dado.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KanbanRules, KanbanRuleDuplicate, KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, KanbanReassignRuleLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 8fc47751534af69300bf8f0bdb7424043cab7b26
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: afeab84f9fbdbfd1af709af656190f47ffde1759
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="change-kanban-rules-for-a-process-job"></a><span data-ttu-id="3e27a-103">Cambiar las reglas kanban para un trabajo de proceso</span><span class="sxs-lookup"><span data-stu-id="3e27a-103">Change kanban rules for a process job</span></span>

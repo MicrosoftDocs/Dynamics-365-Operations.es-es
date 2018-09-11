@@ -3,24 +3,25 @@ title: Configurar procesamiento de oleadas
 description: "En esta guía se describe cómo configurar los criterios que determinan qué trabajo se genera para un almacén cuando se procesa una oleada y si las oleadas se procesan manual o automáticamente."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/07/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 16fd964f3e83136b76541cae47f3ef156df61303
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: cad9e21b575fb04abbf6630215dab747726a92cb
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="configure-wave-processing"></a><span data-ttu-id="51921-103">Configurar procesamiento de oleadas</span><span class="sxs-lookup"><span data-stu-id="51921-103">Configure wave processing</span></span>

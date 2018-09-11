@@ -3,23 +3,24 @@ title: "Mantener plantillas predeterminadas de la dimensión financiera"
 description: "Este procedimiento muestra cómo configurar las plantillas predeterminadas de dimensión financiera."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/24/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: FinancialDimensionDefaultTemplates, DimensionLookup
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: ae44399377c4973d4b091d2b3d458de5c5353082
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 8c8ddcbe1c593e0d6ffad1e45e3286b49b4c2f1e
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="maintain-financial-dimension-default-templates"></a><span data-ttu-id="9da00-103">Mantener plantillas predeterminadas de la dimensión financiera</span><span class="sxs-lookup"><span data-stu-id="9da00-103">Maintain financial dimension default templates</span></span>

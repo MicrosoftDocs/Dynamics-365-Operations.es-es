@@ -3,24 +3,25 @@ title: Configurar una forma de pago de transporte
 description: "Este procedimiento muestra cómo configurar una forma de pago del transporte."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSLoadPlanningWorkbench, TMSRouteWorkbench, TMSTransportationTender
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: f64604f55f6d00d26ac23246ee52e679477bdf9d
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 4b71553c3a59faa3141f1778fe3c63ae16cef8a3
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-a-transportation-tender"></a><span data-ttu-id="1dd56-103">Configurar una forma de pago de transporte</span><span class="sxs-lookup"><span data-stu-id="1dd56-103">Set up a transportation tender</span></span>

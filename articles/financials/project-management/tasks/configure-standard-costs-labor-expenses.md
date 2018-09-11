@@ -3,24 +3,25 @@ title: "Configuración de los costes estándar para el trabajo y los gastos"
 description: "Este procedimiento muestra cómo configurar los costes estándar del trabajo y los gastos de un proyecto."
 author: KimANelson
 manager: AnnBe
-ms.date: 02/13/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProjCostPriceHour, ProjSalesPriceHour, ProjCostPriceExpense, ProjSalesPriceCost
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: c69fff5d9ec031d0ffa7d45f658317cd3296615f
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: c0765d531a8d3be28f3bdf5392cdc45db13dd885
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a><span data-ttu-id="2fdf0-103">Configuración de los costes estándar para el trabajo y los gastos</span><span class="sxs-lookup"><span data-stu-id="2fdf0-103">Configure standard costs for labor and expenses</span></span>
