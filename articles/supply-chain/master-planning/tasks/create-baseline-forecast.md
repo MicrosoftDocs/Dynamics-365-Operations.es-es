@@ -3,23 +3,24 @@ title: "Crear una previsión de línea base"
 description: "Un planificador de producción puede crear una previsión de línea base usando modelos de previsión de series temporales o copiando la demanda histórica."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 111/02/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ReqIntercompanyPlanningGroupSetup, ReqIntercompanyPlanningGroupAllocKeys, ReqDemPlanForecastParameters, ReqDemPlanCreateForecastDialog, SysQueryForm, ReqDemPlanForecastViewer
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: 6a712077fed4a94ae6ae6ce7ea2cfba8848e5fa5
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e6363ee48c0d13c79a6c623205dfa10f50d6070f
 ms.contentlocale: es-es
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-a-baseline-forecast"></a>Crear una previsión de línea base
@@ -42,7 +43,7 @@ Un planificador de producción puede crear una previsión de línea base usando 
 7. Cierre la página.
 8. Cierre la página.
 
-## <a name="set-up-the-demand-forecasting-parameters"></a>Configuración de parámetros de previsión de demanda
+## <a name="set-up-the-demand-forecasting-paramters"></a>Configuración de parámetros de previsión de demanda
 1. Vaya a Planificación maestra > Configuración > Previsión de demanda > Parámetros de previsión de la demanda.
 2. Expanda la sección Parámetros de algoritmo de previsión.
 3. En el campo Estrategia de generación de previsión, seleccione Copiar sobre demanda histórica.

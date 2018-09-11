@@ -3,29 +3,30 @@ title: "Procesar ajustes de puntos de recompensa de fidelización"
 description: "Este procedimiento muestra cómo buscar información de la tarjeta de fidelización y ajustar puntos de recompensa de fidelización."
 author: scott-tucker
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailLoyaltyCards, RetailLoyaltyCardRewardPointTrans, RetailLoyaltyCardRewardPointAdjustment, RetailAffiliationLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 3ec914b1e51f238c4f319dd6b71c2992fb5a6247
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 2bfb5095c1db2a5ab9fb528d08d979ec850543fc
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="process-adjustments-of-loyalty-reward-points"></a>Procesar ajustes de puntos de recompensa de fidelización
+# <a name="process-loyalty-reward-point-adjustments"></a>Procesar ajustes de puntos de recompensa de fidelización
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo buscar información de la tarjeta de fidelización y ajustar puntos de recompensa de fidelización. La empresa de datos de prueba utilizada para crear esta tarea es USRT. Esta tarea está pensada para el rol Encargado de operaciones comerciales o Director de servicio al cliente.
 

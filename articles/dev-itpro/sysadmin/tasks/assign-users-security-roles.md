@@ -1,32 +1,33 @@
 --- 
 title: Asignar usuarios a roles de seguridad
-description: Para obtener acceso a Microsoft Dynamics 365 or Finance and Operations, los usuarios se deben asignar a roles de seguridad.
+description: Para obtener acceso a Microsoft Dynamics 365 or Finance and Operations, Enterprise edition, los usuarios se deben asignar a roles de seguridad.
 author: maertenm
 manager: AnnBe
-ms.date: 06/07/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
-ms.reviewer: sericks
-ms.search.scope: Operations
+ms.reviewer: margoc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: da96ec8357ea209fd958e32ab438b13e668735df
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 551048af26f46d334c562d1968963aed262a5e03
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="assign-users-to-security-roles"></a>Asignar usuarios a roles de seguridad
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Para obtener acceso a Microsoft Dynamics 365 or Finance and Operations, los usuarios se deben asignar a roles de seguridad. Este procedimiento explica cómo los administradores del sistema pueden asignar usuarios a roles automáticamente, en función de los datos empresariales. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
+Para obtener acceso a Microsoft Dynamics 365 or Finance and Operations, Enterprise edition, los usuarios se deben asignar a roles de seguridad. Este procedimiento explica cómo los administradores del sistema pueden asignar usuarios a roles automáticamente, en función de los datos empresariales. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 
 
 ## <a name="automatically-assign-users-to-roles"></a>Asignar usuarios automáticamente a roles

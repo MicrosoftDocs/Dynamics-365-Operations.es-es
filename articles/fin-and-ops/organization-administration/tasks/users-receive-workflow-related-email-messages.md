@@ -1,28 +1,29 @@
 --- 
-title: "Configurar el sistema para enviar correo electrónico relacionado con el flujo de trabajo a los usuarios"
+title: "Permitir a los usuarios que reciban mensajes de correo electrónico relacionados con el flujo de trabajo"
 description: "Usted puede configurar el sistema para enviar mensajes de correo electrónico a los usuarios cuando se produzcan eventos relacionados con el flujo de trabajo."
 author: jasongre
 manager: AnnBe
-ms.date: 02/21/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 04d90c9ded1ba7fb1ceac4ff1d54f54f6c43f9e9
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1ff7de584631563939104c87b00fdc26bdb1a3cb
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="configure-the-system-to-send-workflow-related-email-to-users"></a>Configurar el sistema para enviar correo electrónico relacionado con el flujo de trabajo a los usuarios
+# <a name="enable-users-to-receive-workflow-related-email-messages"></a>Permitir a los usuarios que reciban mensajes de correo electrónico relacionados con el flujo de trabajo
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

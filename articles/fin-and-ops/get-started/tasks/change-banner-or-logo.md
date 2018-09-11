@@ -1,28 +1,29 @@
 --- 
-title: "Cambiar los banners o las imágenes de logotipo para entidades jurídicas"
+title: Cambiar el encabezado o el logotipo
 description: "El procedimiento siguiente muestra los pasos que los administradores del sistema pueden usar para actualizar la imagen del banner o del logotipo que se muestra para una entidad jurídica."
 author: aneesmsft
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: OMLegalEntity, DefaultDashboard
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 33be31a8806b5db265fbb45d180997623d475a87
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: d2dac4d1799a958b6eff4c7aa134fe0b136089ca
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="change-the-banners-or-logo-images-for-legal-entities"></a>Cambiar los banners o las imágenes de logotipo para entidades jurídicas
+# <a name="change-the-banner-or-logo"></a>Cambiar el encabezado o el logotipo
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -3,19 +3,20 @@ title: "Definir una fecha de vencimiento para una versión del flujo de producci
 description: "Para finalizar la validez y el procesamiento de una versión de flujo de producción en una fecha concreta, o planificar la sustitución de una versión activa por una versión nueva, necesita establecer una fecha de vencimiento en la versión."
 author: cvocph
 manager: AnnBe
-ms.date: 10/07/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LeanProductionFlow
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 6fabeb31720a60bf97d08dabf8ed87ac6af7cbf7

@@ -3,18 +3,19 @@ title: Procesar diario de asignaciones contables
 description: "Use la página Solicitud de asignación de proceso para crear un diario de asignaciones que se pueda revisar y aprobar antes de registrarlo en la contabilidad general o se pueda registrar directamente en la contabilidad general."
 author: aprilolson
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerAllocationRequest, LedgerJournalTable, LedgerJournalTransAllocation
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7d299657758b1e1322aef07bfe8c71f7bf00b0ca

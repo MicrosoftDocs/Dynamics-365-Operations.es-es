@@ -1,31 +1,32 @@
 --- 
-title: "Crear contratos comerciales específicos de canal"
+title: Precio base y acuerdos comerciales
 description: "Este procedimiento le muestra la creación de acuerdos comerciales de precios de venta específicos de canal."
 author: josaw1
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PriceDiscGroup, RetailStoreTable, RetailChannelPriceGroup, EcoResProductDetailsExtended, PriceDiscAdmTable, PriceDiscAdm
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4cc797d2e23f0c7b14564415de6153ac0894c727
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 81c70921718e41719470c7428c05a9f7ae77354a
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="create-channel-specific-trade-agreements"></a>Crear contratos comerciales específicos de canal
+# <a name="base-price-and-trade-agreements"></a>Precio base y acuerdos comerciales
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento le muestra la creación de acuerdos comerciales de precios de venta específicos de canal. Este procedimiento usa la empresa de datos de demostración USRT.
 

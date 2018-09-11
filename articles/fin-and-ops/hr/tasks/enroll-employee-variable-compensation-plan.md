@@ -1,28 +1,29 @@
 --- 
-title: "Inscribir empleados en un plan de compensación variable"
+title: "Inscribir a un empleado en un plan de compensación variable"
 description: "El director de compensaciones y de prestaciones puede inscribir a empleados en los planes de compensación variable para calcular las primas en efectivo y no efectivo para los empleados."
 author: kherr75
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HRMCompVarEnrollEmpl
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 6546026da906156573b15488fb63a78c4c1df4ca
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: eb162e22276fc19cf11999380d551b29ba6a6d45
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="enroll-employees-in-a-variable-compensation-plan"></a>Inscribir empleados en un plan de compensación variable
+# <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Inscribir a un empleado en un plan de compensación variable
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

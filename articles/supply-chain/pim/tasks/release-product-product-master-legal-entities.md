@@ -3,18 +3,19 @@ title: "Liberar un producto o un producto maestro a otras entidades jurídicas"
 description: "Este procedimiento le muestra cómo liberar un producto o a un producto maestro en una o más entidades jurídicas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EcoResProductDetails, EcoResProductRelease
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
 ms.openlocfilehash: b378f65fcb7f557b8689a123577948e2f7c97253
