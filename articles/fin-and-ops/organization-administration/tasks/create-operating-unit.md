@@ -3,7 +3,7 @@ title: "Creación de una unidad operativa"
 description: "Una unidad operativa es una organización que se usa para dividir el control de los recursos económicos y los procesos operativos de un negocio."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: d501ee4bf66ff4b93becd4c1847d8e354890a7aa
+ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
+ms.openlocfilehash: 9c49000b09fdbac10dfa952718453bf82cbb1498
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 # <a name="create-an-operating-unit"></a><span data-ttu-id="945f5-103">Creación de una unidad operativa</span><span class="sxs-lookup"><span data-stu-id="945f5-103">Create an operating unit</span></span>
