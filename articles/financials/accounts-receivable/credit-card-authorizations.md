@@ -44,11 +44,13 @@ Para usar tarjetas de crédito debe configurar y activar un servicio de pago en 
 
 ## <a name="adding-a-new-credit-card"></a>Adición de una nueva tarjeta de crédito
 Puede crear nuevos registros de tarjeta de crédito nuevos en la página Clientes a través de Cliente, Configuración, Tarjeta de crédito. También puede crear registros de tarjeta de crédito al especificar pedidos de ventas en la página Pedido de ventas, mediante Gestionar, Cliente, Tarjeta de crédito, Registro.
-Adición de una tarjeta de crédito a un pedido de ventas
+
+<a name="adding-a-credit-card-to-a-sales-order"></a>Adición de una tarjeta de crédito a un pedido de ventas
 -------------------------------------
 
 Puede agregar una tarjeta de crédito a un pedido de ventas seleccionando una tarjeta de crédito en la búsqueda de tarjetas de crédito en la ficha desplegable Precio y descuentos de la página Pedido de ventas. Para iniciar el proceso de autorización, en el panel de acciones, en la ficha Gestionar, seleccione Tarjeta de crédito y Autorizar.
-Autorización de una tarjeta de crédito
+
+<a name="authorizing-a-credit-card"></a>Autorización de una tarjeta de crédito
 -------------------------
 
 Cuando se autoriza una tarjeta de crédito, se verifica el número de la tarjeta y la identidad de su titular, y se confirma además el saldo de crédito disponible. Opcionalmente, se verifican el valor de verificación de tarjetas y la dirección del titular. A continuación, se carga el importe de la factura en la cuenta del cliente, descontándolo del saldo de crédito disponible. El servicio de pago envía información acerca de la aprobación o rechazo de la tarjeta de crédito. Cuando se factura el pedido de ventas, se carga (captura) el importe de la factura en la tarjeta de crédito.
