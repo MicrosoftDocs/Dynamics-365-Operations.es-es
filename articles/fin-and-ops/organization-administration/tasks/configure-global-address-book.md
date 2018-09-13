@@ -3,7 +3,7 @@ title: "Configuración de la libreta de direcciones global"
 description: Use este procedimiento para definir valores predeterminados y directivas de seguridad de la libreta de direcciones global.
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

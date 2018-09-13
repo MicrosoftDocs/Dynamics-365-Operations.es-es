@@ -3,7 +3,7 @@ title: Ver historial del flujo de trabajo
 description: "Siga estos pasos para ver el estado de un documento que envió al sistema de flujo de trabajo para que se lo procese y apruebe."
 author: jasongre
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

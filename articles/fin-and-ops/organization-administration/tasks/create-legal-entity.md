@@ -3,7 +3,7 @@ title: "Crear una entidad jurídica"
 description: "Una entidad jurídica es una organización identificada mediante el registro en una autoridad jurídica."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

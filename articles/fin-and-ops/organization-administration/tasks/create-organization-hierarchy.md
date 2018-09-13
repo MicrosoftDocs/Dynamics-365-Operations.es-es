@@ -3,7 +3,7 @@ title: "Crear una jerarquía organizativa"
 description: "Realice el procedimiento siguiente para crear una jerarquía organizativa."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

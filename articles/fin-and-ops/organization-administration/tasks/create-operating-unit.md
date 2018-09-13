@@ -3,7 +3,7 @@ title: "Creación de una unidad operativa"
 description: "Una unidad operativa es una organización que se usa para dividir el control de los recursos económicos y los procesos operativos de un negocio."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Agregar a su diario de rendimiento y enviar elogio a alguien
 description: "El diario de rendimiento contiene información relacionada con cómo alcanzó sus objetivos o cuál fue su rendimiento durante un período."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

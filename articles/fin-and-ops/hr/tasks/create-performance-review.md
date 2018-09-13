@@ -3,7 +3,7 @@ title: "Crear una evaluación del rendimiento"
 description: "Este procedimiento muestra cómo crear una revisión de rendimiento y describe el propósito de cada sección de la revisión."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
