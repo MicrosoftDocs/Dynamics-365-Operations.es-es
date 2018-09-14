@@ -3,7 +3,7 @@ title: Configurar una plantilla de trabajo para pedidos de compra
 description: "Este procedimiento se centra en la configuración de una plantilla de trabajo simple que se debe usar al ubicar los artículos recibidos."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 4c388a8ed6a852a92caa3a1eff2d0e8017694bcd
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: d737f9dfd1888602266a87853e54407618ae2781
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a><span data-ttu-id="f9a2a-103">Configurar una plantilla de trabajo para pedidos de compra</span><span class="sxs-lookup"><span data-stu-id="f9a2a-103">Set up a work template for purchase orders</span></span>

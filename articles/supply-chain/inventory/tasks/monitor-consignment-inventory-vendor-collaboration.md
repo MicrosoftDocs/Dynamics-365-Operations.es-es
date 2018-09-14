@@ -3,7 +3,7 @@ title: "Supervisar el inventario de entrega mediante la colaboración de proveed
 description: "Este procedimiento muestra cómo utilizar la colaboración del proveedor para ver la información sobre el nivel de existencias del producto que ha incluido en la entrega a un cliente."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: a110c7b85c6ed22622b059b657bd7b6028517335
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 8186b553e8518f3153bfd88b89121d4b0567501b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="monitor-consignment-inventory-using-vendor-collaboration"></a><span data-ttu-id="9580f-103">Supervisar el inventario de entrega mediante la colaboración de proveedores</span><span class="sxs-lookup"><span data-stu-id="9580f-103">Monitor consignment inventory using vendor collaboration</span></span>

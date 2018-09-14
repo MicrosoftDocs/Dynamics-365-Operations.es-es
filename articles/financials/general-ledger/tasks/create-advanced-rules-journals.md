@@ -3,7 +3,7 @@ title: Crear reglas avanzadas para diarios
 description: "Este procedimiento le guía por la creación de reglas avanzadas para los diarios."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 211fe84536ba519cef3b4cdd9a87034194777245
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: e3fc764a6fa92a050084ae610a11acac46995d2a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-advanced-rules-for-journals"></a><span data-ttu-id="f083a-103">Crear reglas avanzadas para diarios</span><span class="sxs-lookup"><span data-stu-id="f083a-103">Create advanced rules for journals</span></span>

@@ -3,7 +3,7 @@ title: "Definir reglas de cobertura para los artículos"
 description: La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 56b0135816e4e3b91a0a1fb986a0dff4e2bc38d7
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 02aa3b2b7924cdf6317225bfce23f182aa390b8c
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="define-coverage-rules-for-items"></a><span data-ttu-id="98ffc-103">Definir reglas de cobertura para los artículos</span><span class="sxs-lookup"><span data-stu-id="98ffc-103">Define coverage rules for items</span></span>

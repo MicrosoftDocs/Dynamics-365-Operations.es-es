@@ -3,7 +3,7 @@ title: "Proceso de idoneidad para prestación"
 description: "Este procedimiento muestra cómo funciona el proceso de idoneidad de la prestación."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: b4de57495696fdfa6b7d138a3668fb387ae5e5be
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: edfb5872b0c64d59b842f6e532a17605e5ff6fbb
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="benefit-eligibility-process"></a><span data-ttu-id="66f8e-103">Proceso de idoneidad para prestación</span><span class="sxs-lookup"><span data-stu-id="66f8e-103">Benefit eligibility process</span></span>

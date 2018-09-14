@@ -3,7 +3,7 @@ title: "Creación de pedido de repetición de compra"
 description: "Este procedimiento le muestra cómo crear un pedido de compra de repetición copiando líneas de un documento de pedido de compra anterior en un pedido de compra nuevo o en un pedido de compra existente."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: bf5f6f4fd6f4d418edbf4f23cb4092495b801ab9
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 74dcee8a614363cf1f1ebc71e3e39a14c59bb774
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-repeat-purchase-order"></a><span data-ttu-id="f6da3-103">Creación de pedido de repetición de compra</span><span class="sxs-lookup"><span data-stu-id="f6da3-103">Create a repeat purchase order</span></span>

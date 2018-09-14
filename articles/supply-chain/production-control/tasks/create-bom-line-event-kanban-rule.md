@@ -3,7 +3,7 @@ title: "Crear una regla kanban de eventos de línea de L. MAT."
 description: "Esta tarea se centra en la configuración necesaria para crear una regla kanban de evento para asegurar el suministro de las líneas de L. MAT de producción en un entorno mixto de producción lean y clásico."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 12e2236659aa227c52d758d821a13aa43de4606a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 82a4252548fd030f2a044436ff607da5125d2854
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-bom-line-event-kanban-rule"></a><span data-ttu-id="0fe6f-103">Crear una regla kanban de eventos de línea de L. MAT.</span><span class="sxs-lookup"><span data-stu-id="0fe6f-103">Create a BOM line event kanban rule</span></span>

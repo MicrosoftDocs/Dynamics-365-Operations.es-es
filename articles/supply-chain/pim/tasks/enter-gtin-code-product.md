@@ -3,7 +3,7 @@ title: "Especificar el código GTIN de un producto"
 description: "Los códigos GTIN los asigna la organización GS1."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 1c018519dc87f23c15cec37c1c0e78bf505d1b21
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: df5a1ee72514cfa19e242cbc3d306027ab8d100b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a><span data-ttu-id="0a6f6-103">Especificar el código GTIN de un producto</span><span class="sxs-lookup"><span data-stu-id="0a6f6-103">Enter the GTIN code for a product</span></span>

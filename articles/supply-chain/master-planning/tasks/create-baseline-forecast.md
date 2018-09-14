@@ -3,7 +3,7 @@ title: "Crear una previsión de línea base"
 description: "Un planificador de producción puede crear una previsión de línea base usando modelos de previsión de series temporales o copiando la demanda histórica."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 9fb603ce64988f638fe1af5f1c2fd0934abd37a9
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 0d23e245ed1c084c26554ef3f859fdadaef9990d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-baseline-forecast"></a><span data-ttu-id="10fc4-103">Crear una previsión de línea base</span><span class="sxs-lookup"><span data-stu-id="10fc4-103">Create a baseline forecast</span></span>

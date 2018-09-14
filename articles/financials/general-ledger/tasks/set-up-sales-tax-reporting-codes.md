@@ -3,7 +3,7 @@ title: "Configurar códigos de notificación de impuestos"
 description: "Los códigos de notificación de impuestos hacen referencia a un número de campo en un informe de impuestos."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 4c3a0c6b03dc5b5c1c7c038f9cbfaa673503bd91
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 4543cf7eaa0b1ef8e32d3fdafa2c354cd3739256
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a><span data-ttu-id="e6106-103">Configurar códigos de notificación de impuestos</span><span class="sxs-lookup"><span data-stu-id="e6106-103">Set up sales tax reporting codes</span></span>

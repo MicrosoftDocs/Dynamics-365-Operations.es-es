@@ -3,7 +3,7 @@ title: "Definir modelos de flujo de producción"
 description: "Los modelos de flujo de producción describen cómo se calcula y mantienen la capacidad de celdas de trabajo de lean manufacturing."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 54a027533d5889563bd375646e6dac3301546724
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: e410928bc850e1f3427c9536e9943d1196be7a05
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="define-production-flow-models"></a><span data-ttu-id="ecf14-103">Definir modelos de flujo de producción</span><span class="sxs-lookup"><span data-stu-id="ecf14-103">Define production flow models</span></span>

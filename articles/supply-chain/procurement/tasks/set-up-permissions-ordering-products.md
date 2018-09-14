@@ -3,7 +3,7 @@ title: Configurar permisos para pedir productos en nombre de otro usuario
 description: "Este procedimiento muestra cómo conceder a los trabajadores permiso para preparar solicitudes de la compra en nombre de otros trabajadores."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: adcbf09cebc539a19ad3603a77dca1de77ce7d11
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 35688d191cef06cc15251a6e10a2e8c9afb0e08b
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a><span data-ttu-id="1f0aa-103">Configurar permisos para pedir productos en nombre de otro usuario</span><span class="sxs-lookup"><span data-stu-id="1f0aa-103">Set up permissions for ordering products on behalf of someone else</span></span>

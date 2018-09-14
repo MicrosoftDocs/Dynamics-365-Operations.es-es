@@ -3,7 +3,7 @@ title: "Transferencia del inventario físico en el almacén"
 description: "Este procedimiento le muestra el proceso para crear y enviar un diario de transferencia de inventario para registrar el movimiento de un artículo desde una ubicación de un almacén a otra."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 41057d0a35cab122840a20a5c65ab7ae3133052c
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 79b3e91be8aeab10188b6d3925d44a9ec1106406
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a><span data-ttu-id="19e84-103">Transferencia del inventario físico en el almacén</span><span class="sxs-lookup"><span data-stu-id="19e84-103">Transfer physical inventory within the warehouse</span></span>

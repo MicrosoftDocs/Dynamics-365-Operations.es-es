@@ -3,7 +3,7 @@ title: "Inscribir a un empleado en un plan de compensación fija"
 description: "El director de compensaciones y prestaciones puede asignar a los empleados planes de compensación fija para gestionar su sueldo base."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 90ac68b60bbed00c2c3e3ec6ffb70b6c4f784f82
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: c9c11292feec06a53cd4426a25bfb2aaac7de3e8
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a><span data-ttu-id="d12a9-103">Inscribir a un empleado en un plan de compensación fija</span><span class="sxs-lookup"><span data-stu-id="d12a9-103">Enroll an employee in a fixed compensation plan</span></span>

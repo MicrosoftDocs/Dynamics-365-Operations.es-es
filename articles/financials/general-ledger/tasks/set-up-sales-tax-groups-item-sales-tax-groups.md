@@ -3,7 +3,7 @@ title: "Configurar grupos de impuestos y grupos de impuestos de artículos"
 description: "Esta grabación de tarea le guía por la configuración de los impuestos y los grupos de impuestos de artículos."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 70805fd7def60f85a96c0957f8a35abd6b56588c
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: ec5bbe37aa06f18172c417e903538cadc8a6f312
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><span data-ttu-id="40abd-103">Configurar grupos de impuestos y grupos de impuestos de artículos</span><span class="sxs-lookup"><span data-stu-id="40abd-103">Set up sales tax groups and item sales tax groups</span></span>

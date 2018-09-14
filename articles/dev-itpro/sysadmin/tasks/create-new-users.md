@@ -3,7 +3,7 @@ title: Crear nuevos usuarios
 description: "Los usuarios son empleados internos de la organización o clientes y proveedores externos que requieren acceso al sistema para llevar a cabo sus trabajos."
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 295c355286b3d2df39cf1144ba7bfecdca25f9cb
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 12cf223d262c4e0f2a195e95c83a00fc1a3f07e5
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-new-users"></a><span data-ttu-id="f5ff1-103">Crear nuevos usuarios</span><span class="sxs-lookup"><span data-stu-id="f5ff1-103">Create new users</span></span>

@@ -3,7 +3,7 @@ title: Configuraciones de pago para los extractos de Retail
 description: "Este procedimiento muestra las configuraciones para los métodos de pago comerciales, que afectan a la manera en que se crean y se registran los extractos comerciales."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 6261d9c3d6bf6591be296115d4f25a124a17b9dd
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 51faf6d45fde8aa7e2adad69306891f17c943e85
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="payment-configurations-for-retail-statements"></a><span data-ttu-id="10ae3-103">Configuraciones de pago para los extractos de Retail</span><span class="sxs-lookup"><span data-stu-id="10ae3-103">Payment configurations for Retail statements</span></span>

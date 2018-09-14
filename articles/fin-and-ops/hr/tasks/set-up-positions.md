@@ -3,7 +3,7 @@ title: Configurar puestos
 description: "Los puestos son un aspecto importante del nivel inferior de una jerarquía organizativa."
 author: DarinKramer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: dkrame
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: f1582eb66a8070a49df8c58b0b16db0044c14e89
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5d69e6b926a047888a162dae1cdc870718d8f945
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-positions"></a><span data-ttu-id="8c0ec-103">Configurar puestos</span><span class="sxs-lookup"><span data-stu-id="8c0ec-103">Set up positions</span></span>

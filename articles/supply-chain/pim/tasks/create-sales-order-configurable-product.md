@@ -3,7 +3,7 @@ title: Crear un pedido de ventas para un producto configurable
 description: "Este procedimiento muestra cómo se debe aplicar una plantilla de configuración a un producto en un pedido de ventas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 8b3188df8be6189b5f11d3e129ac9d00f49ca4e7
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 882198bf07233867b54579b986f93f5c1b46c1b6
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-sales-order-for-a-configurable-product"></a><span data-ttu-id="dca06-103">Crear un pedido de ventas para un producto configurable</span><span class="sxs-lookup"><span data-stu-id="dca06-103">Create a sales order for a configurable product</span></span>

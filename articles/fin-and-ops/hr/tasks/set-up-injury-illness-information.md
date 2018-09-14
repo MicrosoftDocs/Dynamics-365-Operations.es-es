@@ -3,7 +3,7 @@ title: "Configurar información sobre lesiones y enfermedades"
 description: "Los empleadores deben saber cuándo sus empleados sufren lesiones o se enferman a causa de los riesgos implícitos en el lugar de trabajo."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 80b103b57d8dca0384778aab47427af4fe5f7eef
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9fcc924e11ac17b561c5f5840a4fe1b183a8232d
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-injury-and-illness-information"></a><span data-ttu-id="d3043-103">Configurar información sobre lesiones y enfermedades</span><span class="sxs-lookup"><span data-stu-id="d3043-103">Set up injury and illness information</span></span>

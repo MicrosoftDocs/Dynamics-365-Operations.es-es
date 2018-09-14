@@ -3,7 +3,7 @@ title: Gestionar la unidad de medida
 description: "Este procedimiento muestra cómo definir una unidad de medida, proporcionar traducciones para la unidad y su descripción, y definir reglas de conversión para las unidades relacionadas."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 43e645eaf6d301379182c8279dd3657a36384d5e
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 3e208b7f1faab77f2b97ff7b440a228656684fca
 ms.contentlocale: es-es
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="manage-unit-of-measure"></a><span data-ttu-id="4e56b-103">Gestionar la unidad de medida</span><span class="sxs-lookup"><span data-stu-id="4e56b-103">Manage unit of measure</span></span>
