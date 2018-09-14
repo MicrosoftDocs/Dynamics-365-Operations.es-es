@@ -263,7 +263,7 @@
               href: extensibility/naming-guidelines-extensions.md
             - name: Relajar las restricciones del modelo para refactorizar el exceso de capas en extensiones
               href: extensibility/refactoring-over-layering.md
-        - name: ¿Cómo puedo?
+        - name: Creación de extensiones
           items:
             - name: Agregar valores a enumeraciones
               href: extensibility/add-enum-value.md
@@ -311,15 +311,37 @@
               href: extensibility/maps-as-interfaces.md
             - name: Extender asignaciones de tabla para control de versiones
               href: extensibility/maps-with-versioning.md
+        - name: Creación de soluciones extensibles
+          items:
+            - name: Escribir código extensible
+              href: extensibility/writing-extensible-code.md
+            - name: Clases
+              href: extensibility/extensible-classes.md
+            - name: Métodos
+              href: extensibility/extensible-methods.md
+            - name: Formularios
+              href: extensibility/extensible-forms.md
+            - name: Tipos de datos extendidos
+              href: extensibility/extensible-edts.md
+            - name: Enumeraciones extensibles
+              href: extensibility/extensible-enums.md
+            - name: Delegados
+              href: extensibility/extensible-code-delegates.md
+            - name: Tablas
+              href: extensibility/extensible-tables.md
+            - name: Atributos de extensibilidad para métodos
+              href: extensibility/extensibility-attributes.md
+            - name: Cambios que producen interrupción
+              href: extensibility/breaking-changes.md
     - name: Rendimiento
       items:
-        - name: Tomar seguimientos mediante Trace Parser
+        - name: Tomar seguimientos mediante el analizador Trace
           href: perf-test/trace-trace-tutorial.md
         - name: Performance SDK y pruebas multiusuario mediante Visual Studio Online
           href: perf-test/perfsdk-tutorial.md
         - name: Performance SDK y pruebas multiusuario en entornos locales
           href: perf-test/perfsdk-tutorial-lbd.md
-        - name: Diagnosticar problemas y analizar rendimiento mediante Trace Parser
+        - name: Diagnosticar problemas y analizar rendimiento mediante el analizador Trace
           href: perf-test/trace-parser.md
         - name: Temporizador de rendimiento
           href: perf-test/performance-timer.md
@@ -1184,6 +1206,8 @@
       items:
         - name: Crear reglas para el asesor de optimización
           href: sysadmin/create-rules-optimization-advisor.md
+    - name: Notificar una interrupción de la producción
+      href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
     - name: Recursos para Lifecycle Services
@@ -1236,6 +1260,8 @@
       href: lifecycle-services/monitoring-diagnostics.md
     - name: Reiniciar servicios del entorno
       href: lifecycle-services/restart-environment-services.md
+    - name: Notificar una interrupción de la producción
+      href: lifecycle-services/report-production-outage.md
     - name: Seguimiento de inicios de sesión de usuario
       href: lifecycle-services/user-logins.md
     - name: Biblioteca de activos
