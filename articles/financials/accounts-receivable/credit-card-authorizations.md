@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 5a950a100fd5e9026300ea08eb1a6311a8e63129
+ms.sourcegitcommit: 033c9bdfce0840e1af1c63708905aec6829bbe90
+ms.openlocfilehash: 7a1d3c73e4305375ddf356b93b9502b0255df99b
 ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 
@@ -44,11 +44,13 @@ ms.lasthandoff: 08/07/2018
 
 ## <a name="adding-a-new-credit-card"></a><span data-ttu-id="73eb2-117">Adición de una nueva tarjeta de crédito</span><span class="sxs-lookup"><span data-stu-id="73eb2-117">Adding a new credit card</span></span>
 <span data-ttu-id="73eb2-118">Puede crear nuevos registros de tarjeta de crédito nuevos en la página Clientes a través de Cliente, Configuración, Tarjeta de crédito.</span><span class="sxs-lookup"><span data-stu-id="73eb2-118">You can create new credit card records on the Customers page by using Customer, Set up, Credit card.</span></span> <span data-ttu-id="73eb2-119">También puede crear registros de tarjeta de crédito al especificar pedidos de ventas en la página Pedido de ventas, mediante Gestionar, Cliente, Tarjeta de crédito, Registro.</span><span class="sxs-lookup"><span data-stu-id="73eb2-119">You can also create credit card records when you enter sales orders on the Sales order page, by using Manage, Customer, Credit card, Register.</span></span>
-<span data-ttu-id="73eb2-120">Adición de una tarjeta de crédito a un pedido de ventas</span><span class="sxs-lookup"><span data-stu-id="73eb2-120">Adding a credit card to a sales order</span></span>
+
+<a name="adding-a-credit-card-to-a-sales-order"></a><span data-ttu-id="73eb2-120">Adición de una tarjeta de crédito a un pedido de ventas</span><span class="sxs-lookup"><span data-stu-id="73eb2-120">Adding a credit card to a sales order</span></span>
 -------------------------------------
 
 <span data-ttu-id="73eb2-121">Puede agregar una tarjeta de crédito a un pedido de ventas seleccionando una tarjeta de crédito en la búsqueda de tarjetas de crédito en la ficha desplegable Precio y descuentos de la página Pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="73eb2-121">You can add a credit card to a sales order by selecting a credit card in the credit card lookup on the Price and discounts FastTab on the Sales order page.</span></span> <span data-ttu-id="73eb2-122">Para iniciar el proceso de autorización, en el panel de acciones, en la ficha Gestionar, seleccione Tarjeta de crédito y Autorizar.</span><span class="sxs-lookup"><span data-stu-id="73eb2-122">To start the authorization process, on the Action Pane, on the Manage tab, select Credit card and Authorize.</span></span>
-<span data-ttu-id="73eb2-123">Autorización de una tarjeta de crédito</span><span class="sxs-lookup"><span data-stu-id="73eb2-123">Authorizing a credit card</span></span>
+
+<a name="authorizing-a-credit-card"></a><span data-ttu-id="73eb2-123">Autorización de una tarjeta de crédito</span><span class="sxs-lookup"><span data-stu-id="73eb2-123">Authorizing a credit card</span></span>
 -------------------------
 
 <span data-ttu-id="73eb2-124">Cuando se autoriza una tarjeta de crédito, se verifica el número de la tarjeta y la identidad de su titular, y se confirma además el saldo de crédito disponible.</span><span class="sxs-lookup"><span data-stu-id="73eb2-124">When a credit card is authorized, the card number and cardholder's name are verified, and the available credit balance is confirmed.</span></span> <span data-ttu-id="73eb2-125">Opcionalmente, se verifican el valor de verificación de tarjetas y la dirección del titular.</span><span class="sxs-lookup"><span data-stu-id="73eb2-125">Optionally, the card verification value and the cardholder’s address are verified.</span></span> <span data-ttu-id="73eb2-126">A continuación, se carga el importe de la factura en la cuenta del cliente, descontándolo del saldo de crédito disponible.</span><span class="sxs-lookup"><span data-stu-id="73eb2-126">The customer's available credit balance is then reduced by the amount of the invoice.</span></span> <span data-ttu-id="73eb2-127">El servicio de pago envía información acerca de la aprobación o rechazo de la tarjeta de crédito.</span><span class="sxs-lookup"><span data-stu-id="73eb2-127">The payment service sends information that the credit card has been approved or declined.</span></span> <span data-ttu-id="73eb2-128">Cuando se factura el pedido de ventas, se carga (captura) el importe de la factura en la tarjeta de crédito.</span><span class="sxs-lookup"><span data-stu-id="73eb2-128">When the sales order is invoiced, the credit card is charged (captured) for the invoice amount.</span></span>
