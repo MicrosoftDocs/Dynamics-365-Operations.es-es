@@ -3,7 +3,7 @@ title: Especificar los acuerdos de ventas
 description: "Este procedimiento le muestra cómo crear un acuerdo de venta que compromete a uno de los clientes a comprar un producto por una cantidad acordada durante un período de tiempo a cambio de descuentos especiales."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

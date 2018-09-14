@@ -3,7 +3,7 @@ title: "Administrar las fechas de vencimiento de prestación"
 description: "Este procedimiento muestra cómo puede ponerse fin a una prestación, o ampliarla, y administrar las fechas de inscripción de los trabajadores en la prestación."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Crear elementos de coste
 description: Existen varias maneras de crear elementos de coste en la contabilidad de costes.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

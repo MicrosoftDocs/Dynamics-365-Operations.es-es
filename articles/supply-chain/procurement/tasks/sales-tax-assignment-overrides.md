@@ -3,7 +3,7 @@ title: "Asignación de impuestos y anulaciones"
 description: "Este procedimiento muestra cómo asignar grupos de impuestos a canales comerciales."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

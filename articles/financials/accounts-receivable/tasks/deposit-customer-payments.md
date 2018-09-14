@@ -3,7 +3,7 @@ title: Depositar pagos de cliente
 description: "Pagos de cliente en depósito."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

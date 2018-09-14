@@ -3,7 +3,7 @@ title: Crear, calcular y registrar un extracto para una tienda
 description: "Este procedimiento le guía por los pasos manuales para crear, calcular y registrar un extracto para un almacén."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Cambiar el encabezado o el logotipo
 description: "El procedimiento siguiente muestra los pasos que los administradores del sistema pueden usar para actualizar la imagen del banner o del logotipo que se muestra para una entidad jurídica."
 author: aneesmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Configurar ubicaciones en un almacén con WMS"
 description: "Este procedimiento le muestra cómo configurar la ubicación para un nuevo almacén con WMS (un almacén que usa procesos avanzados de gestión de almacenes)."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

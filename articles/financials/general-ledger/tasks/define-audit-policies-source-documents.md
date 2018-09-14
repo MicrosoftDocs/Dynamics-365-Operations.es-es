@@ -3,7 +3,7 @@ title: "Definir directivas de auditoría para documentos de origen"
 description: "En este procedimiento se muestra cómo configurar y ejecutar las reglas de directivas de auditoría."
 author: ryansandness
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

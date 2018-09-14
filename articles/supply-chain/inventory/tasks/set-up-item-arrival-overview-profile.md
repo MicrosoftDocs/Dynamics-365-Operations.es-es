@@ -3,7 +3,7 @@ title: "Configurar un perfil de visión general de recepción de artículos"
 description: "Esta tarea se centra en la configuración de un perfil general de llegadas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

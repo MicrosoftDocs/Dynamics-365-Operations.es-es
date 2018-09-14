@@ -3,7 +3,7 @@ title: Establecer condiciones de pago de cliente
 description: "Este procedimiento define una configuración de descuento por pronto pago y fecha de vencimiento."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

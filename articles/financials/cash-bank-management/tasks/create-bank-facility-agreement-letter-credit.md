@@ -3,7 +3,7 @@ title: "Crear un contrato de crédito bancario para un crédito documentario"
 description: "Esta tarea le lleva por la creación de un contrato de instalaciones bancarias para procesar un crédito documentario."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

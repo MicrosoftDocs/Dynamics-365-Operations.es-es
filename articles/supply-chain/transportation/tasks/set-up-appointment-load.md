@@ -3,7 +3,7 @@ title: Configurar una cita para una carga
 description: "Este procedimiento muestra cómo configurar y planificar una cita de muelle para una carga."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

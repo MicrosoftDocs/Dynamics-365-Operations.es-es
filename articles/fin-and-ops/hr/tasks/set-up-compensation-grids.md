@@ -3,7 +3,7 @@ title: "Configuración de cuadrículas de compensación"
 description: "Las cuadrículas de compensación se usan para definir y mantener las estructuras de pagos para los planes de compensación fija."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

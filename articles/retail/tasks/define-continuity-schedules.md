@@ -3,7 +3,7 @@ title: Definir programaciones de continuidad
 description: "Este tema explica la configuración de un programa de continuidad (conocido también como pedidos recurrentes)."
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

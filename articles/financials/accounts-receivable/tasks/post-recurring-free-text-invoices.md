@@ -3,7 +3,7 @@ title: "Generación y registro de facturas de servicios"
 description: Las facturas recurrentes se utilizan para facturar a los clientes el mismo importe con regularidad.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

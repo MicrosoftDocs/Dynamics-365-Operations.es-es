@@ -3,7 +3,7 @@ title: Transferir datos para modelos de producto
 description: "La exportación de datos para un modelo de configuración de productos requiere que tenga el menos un modelo de producto disponible."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

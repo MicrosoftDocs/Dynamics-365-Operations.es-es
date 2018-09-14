@@ -3,7 +3,7 @@ title: Administrar excedencias
 description: "Este procedimiento recorre la creación de registros de baja de empleados."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

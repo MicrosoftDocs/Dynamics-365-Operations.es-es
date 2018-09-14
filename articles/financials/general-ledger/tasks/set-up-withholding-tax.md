@@ -3,7 +3,7 @@ title: "Configurar retención de impuestos"
 description: "La retención de impuestos es un impuesto sobre los proveedores que no crea transacciones de impuestos."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

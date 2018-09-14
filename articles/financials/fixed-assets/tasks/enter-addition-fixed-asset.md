@@ -3,7 +3,7 @@ title: "Especificar una adición para un activo fijo"
 description: "Este procedimiento muestra cómo agregar una adición a un activo fijo existente."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

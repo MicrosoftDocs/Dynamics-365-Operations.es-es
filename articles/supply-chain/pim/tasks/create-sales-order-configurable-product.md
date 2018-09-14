@@ -3,7 +3,7 @@ title: Crear un pedido de ventas para un producto configurable
 description: "Este procedimiento muestra cómo se debe aplicar una plantilla de configuración a un producto en un pedido de ventas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Configurar lógica de creación de contenedores"
 description: "Este procedimiento describe cómo automatizar la creación de contenedores de cargas en Administración de almacenes."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

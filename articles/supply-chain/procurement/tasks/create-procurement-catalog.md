@@ -3,7 +3,7 @@ title: "Crear un catálogo de compras"
 description: "Esta guía le muestra cómo crear un catálogo de compras."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

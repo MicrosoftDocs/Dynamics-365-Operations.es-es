@@ -3,7 +3,7 @@ title: "Reglas de precios de categoría para crear acuerdos comerciales"
 description: "Este procedimiento muestra cómo crear acuerdos comerciales de precios de venta con una regla de precios de categoría."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

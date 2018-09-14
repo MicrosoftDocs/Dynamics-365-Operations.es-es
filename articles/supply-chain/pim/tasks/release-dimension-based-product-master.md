@@ -3,7 +3,7 @@ title: Liberar un producto maestro basado en dimensiones
 description: "Este procedimiento muestra cómo emitir un producto maestro que se usará para las configuraciones basadas en dimensiones."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

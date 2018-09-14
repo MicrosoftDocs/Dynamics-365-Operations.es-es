@@ -3,7 +3,7 @@ title: "Configurar grupos de impuestos y grupos de impuestos de artículos"
 description: "Esta grabación de tarea le guía por la configuración de los impuestos y los grupos de impuestos de artículos."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Diseñar las relaciones entre unidades organizativas"
 description: "Este procedimiento le guía por el diseño de la relación entre las unidades organizativas."
 author: mugunthanm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

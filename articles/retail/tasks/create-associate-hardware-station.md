@@ -3,7 +3,7 @@ title: "Crear y asociar una estación de hardware"
 description: "Este procedimiento le muestra cómo crear una nueva estación de hardware."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Agregar un predecesor a una actividad de flujo de producción"
 description: "En una versión de flujo de producción, todas las actividades deben estar secuenciadas."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

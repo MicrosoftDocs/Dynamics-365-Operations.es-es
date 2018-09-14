@@ -3,7 +3,7 @@ title: "Configurar categorías de cuenta principal"
 description: "Las categorías de cuenta principal se usan para los informes predeterminados en los informes financieros y en Power BI."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

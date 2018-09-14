@@ -3,7 +3,7 @@ title: "Ver estado actual de trabajo en curso en una orden de producción"
 description: "Este procedimiento muestra cómo ver un informe de trabajo en curso en un pedido de producción."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

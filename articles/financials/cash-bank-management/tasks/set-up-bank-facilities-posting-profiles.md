@@ -3,7 +3,7 @@ title: "Configuración de créditos bancarios y perfiles de contabilización par
 description: "Esta tarea crea instalaciones bancarias y un perfil de contabilización necesario para procesar una carta de garantía."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

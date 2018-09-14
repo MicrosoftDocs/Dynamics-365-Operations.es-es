@@ -3,7 +3,7 @@ title: "Crear actividades de transferencia para lean manufacturing (producción 
 description: Cree una actividad de transferencia para lean manufacturing.
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

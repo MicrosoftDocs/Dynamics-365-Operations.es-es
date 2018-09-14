@@ -3,7 +3,7 @@ title: Crear una solicitud que utilice una solicitud de presupuesto
 description: "En esta guía se muestra cómo agregar la información del precio y del vendedor a una solicitud de compra desde un proceso de solicitud de compra."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

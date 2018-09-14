@@ -3,7 +3,7 @@ title: Crear un activo fijo
 description: "Esta guía de la tarea usa la empresa de demostración USMF."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

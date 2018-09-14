@@ -3,7 +3,7 @@ title: Procesar cartas de cobro
 description: "Este procedimiento muestra cómo crear, imprimir y registrar cartas de cobro."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

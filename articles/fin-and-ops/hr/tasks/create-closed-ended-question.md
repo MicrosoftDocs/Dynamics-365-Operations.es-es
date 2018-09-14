@@ -3,7 +3,7 @@ title: Crear una pregunta cerrada
 description: Las preguntas cerradas le permiten proporcionar opciones entre las que el encuestado puede elegir.
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

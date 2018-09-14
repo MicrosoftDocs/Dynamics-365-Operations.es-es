@@ -3,7 +3,7 @@ title: Definir nuevos trabajos
 description: "Esta tarea se centra en la creación de un nuevo trabajo."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Configurar códigos de notificación de impuestos"
 description: "Los códigos de notificación de impuestos hacen referencia a un número de campo en un informe de impuestos."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

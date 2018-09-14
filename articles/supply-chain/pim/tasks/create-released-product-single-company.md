@@ -3,7 +3,7 @@ title: "Creación de un producto liberado para una sola empresa"
 description: "Este procedimiento le muestra cómo crear un único producto liberado en el contexto de una sola unidad legal."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

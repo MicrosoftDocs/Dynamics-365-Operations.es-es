@@ -3,7 +3,7 @@ title: Ver el extracto de inventario y KPI por el objeto de coste
 description: La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Crear una secuencia de cartas de cobro
 description: "Use esta guía de tarea para crear una secuencia de cartas de cobro."
 author: mikefalkner
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

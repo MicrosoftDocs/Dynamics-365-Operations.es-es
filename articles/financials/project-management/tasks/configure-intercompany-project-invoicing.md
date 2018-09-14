@@ -3,7 +3,7 @@ title: "Configurar la facturación de proyectos de empresas vinculadas"
 description: "Este procedimiento muestra cómo configurar un proyecto facturando entre dos empresas de su organización."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

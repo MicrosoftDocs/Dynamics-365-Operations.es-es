@@ -3,7 +3,7 @@ title: Ver transacciones de impuestos registradas
 description: "Puede ver las transacciones de impuestos registradas desde varias páginas en función de lo que necesite ver."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

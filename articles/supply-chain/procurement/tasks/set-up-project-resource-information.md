@@ -3,7 +3,7 @@ title: "Configurar información de recursos de proyecto"
 description: "Este procedimiento muestra cómo configurar un recurso de proyecto."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

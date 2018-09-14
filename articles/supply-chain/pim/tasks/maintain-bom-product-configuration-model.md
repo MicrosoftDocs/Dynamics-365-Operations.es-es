@@ -3,7 +3,7 @@ title: "Mantener L. MAT. para un modelo de configuración de producto"
 description: "La ejecución de este procedimiento requiere un modelo de configuración de producto existente."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

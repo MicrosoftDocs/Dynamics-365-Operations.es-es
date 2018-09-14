@@ -3,7 +3,7 @@ title: Crear una regla kanban para varias actividades
 description: "Este procedimiento muestra cómo crear una regla kanban que incluya varias actividades de un flujo de producción."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

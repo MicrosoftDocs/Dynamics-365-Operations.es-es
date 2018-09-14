@@ -3,7 +3,7 @@ title: Configurar un alias de cuenta contable
 description: "Este procedimiento muestra cómo crear un alias de cuenta que proporcione un método abreviado para especificar un número de cuenta."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

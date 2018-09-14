@@ -3,7 +3,7 @@ title: "Registrar la recepción de mercancías en el pedido de compra"
 description: "Este procedimiento le muestra cómo registrar la recepción de mercancías directamente en un pedido de compra."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

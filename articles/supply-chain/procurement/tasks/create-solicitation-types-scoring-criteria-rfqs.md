@@ -3,7 +3,7 @@ title: "Crear tipos de solicitud y criterios de puntuación para solicitudes de 
 description: "Esta guía le muestra cómo crear un tipo de solicitud y asociar esto a un método de puntuación."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

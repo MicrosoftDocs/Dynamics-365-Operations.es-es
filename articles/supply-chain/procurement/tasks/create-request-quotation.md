@@ -3,7 +3,7 @@ title: Crear una solicitud de presupuesto
 description: "Este procedimiento le muestra cómo crear una solicitud de presupuesto."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

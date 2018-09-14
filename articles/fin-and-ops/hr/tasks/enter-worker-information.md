@@ -3,7 +3,7 @@ title: "Especificar información de trabajadores"
 description: "Una vez que la persona encargada de contratación crea un proyecto de contratación masiva y genera los puestos, el siguiente paso es especificar la información de trabajador para las personas empleadas."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

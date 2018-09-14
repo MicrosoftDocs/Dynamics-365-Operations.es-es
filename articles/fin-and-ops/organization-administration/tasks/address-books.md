@@ -3,7 +3,7 @@ title: "Configuración de libretas de direcciones"
 description: "Use este procedimiento y las decisiones que tomó en el tema sobre planificación de la configuración de la libreta de direcciones global y libretas de direcciones adicionales para configurar libretas de direcciones adicionales para su organización."
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

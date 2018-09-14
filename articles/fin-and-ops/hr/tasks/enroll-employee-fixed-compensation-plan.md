@@ -3,7 +3,7 @@ title: "Inscribir a un empleado en un plan de compensación fija"
 description: "El director de compensaciones y prestaciones puede asignar a los empleados planes de compensación fija para gestionar su sueldo base."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

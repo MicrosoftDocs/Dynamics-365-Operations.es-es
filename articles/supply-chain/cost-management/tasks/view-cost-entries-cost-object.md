@@ -3,7 +3,7 @@ title: Ver entradas de costes de un objeto de coste
 description: "Este procedimiento muestra cómo ver las entradas de coste para un objeto de coste."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

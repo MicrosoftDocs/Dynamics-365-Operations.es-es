@@ -3,7 +3,7 @@ title: "Crear una programación para un sitio"
 description: "Este procedimiento muestra cómo programar los pedidos de producción que no se han iniciado aún para un sitio."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

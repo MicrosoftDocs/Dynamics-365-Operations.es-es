@@ -3,7 +3,7 @@ title: "Completar la configuración básica de un producto maestro liberado"
 description: "Este procedimiento muestra cómo completar la configuración mínima requerida para poder usar el producto maestro en versiones de L. MAT."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

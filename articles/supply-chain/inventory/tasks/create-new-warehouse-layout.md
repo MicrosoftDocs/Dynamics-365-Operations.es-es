@@ -3,7 +3,7 @@ title: "Creación de un nuevo diseño de almacén"
 description: "Este procedimiento le muestra cómo configurar la información sobre las ubicaciones de un almacén."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

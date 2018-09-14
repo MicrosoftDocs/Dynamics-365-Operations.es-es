@@ -3,7 +3,7 @@ title: "Configuración de firmas electrónicas"
 description: "Sírvase de este procedimiento para configurar firmas electrónicas."
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

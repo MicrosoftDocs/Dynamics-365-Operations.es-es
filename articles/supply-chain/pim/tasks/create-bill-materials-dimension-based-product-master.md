@@ -3,7 +3,7 @@ title: Crear una lista de materiales para un producto maestro basado en dimensio
 description: "Para este procedimiento, debe tener completado las 4 guías anteriores de esta secuencia de ocho registros."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

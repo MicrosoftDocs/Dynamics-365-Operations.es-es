@@ -3,7 +3,7 @@ title: "Ciclo de vida de pedidos de lote desde la creación hasta el inicio"
 description: Este procedimiento le lleva por la primera parte del ciclo de vida de un pedido de lote.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

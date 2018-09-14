@@ -3,7 +3,7 @@ title: "Diagrama de árbol lean de pedidos de ventas"
 description: "Este procedimiento se centra en validar el diagrama de árbol de una línea de ventas donde el artículo se produce con kanbans."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

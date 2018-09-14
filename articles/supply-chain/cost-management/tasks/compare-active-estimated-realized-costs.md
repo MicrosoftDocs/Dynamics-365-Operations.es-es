@@ -3,7 +3,7 @@ title: "Comparar los costes activos, estimados y realizados en un pedido de prod
 description: "Este procedimiento muestra cómo ver los motivos de la alta desviación de producción para un pedido de producción."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Enviar pedidos de ventas sin almacenamiento
 description: "Esta guía muestra cómo actualizar un pedido de ventas cuando los productos se envían al cliente."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

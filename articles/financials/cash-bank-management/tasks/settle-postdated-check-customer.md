@@ -3,7 +3,7 @@ title: Liquidar un cheque con pago diferido de un cliente
 description: "Puede liquidar un cheque posfechado después de que el banco lo haya desactivado."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

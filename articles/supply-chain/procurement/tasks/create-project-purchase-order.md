@@ -3,7 +3,7 @@ title: Crear pedido de compra de proyecto
 description: "Este procedimiento muestra cómo crear un pedido de compra del proyecto."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

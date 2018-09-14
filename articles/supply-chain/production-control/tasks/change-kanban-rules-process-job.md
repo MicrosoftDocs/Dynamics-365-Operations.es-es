@@ -3,7 +3,7 @@ title: Cambiar las reglas kanban para un trabajo de proceso
 description: Este procedimiento se centra en el cambio de la regla kanban usada para un kanban dado.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

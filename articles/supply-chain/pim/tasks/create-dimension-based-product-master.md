@@ -3,7 +3,7 @@ title: "Creación de un producto maestro basado en dimensiones"
 description: "Este procedimiento muestra cómo crear un nuevo producto maestro con tecnología de configuración basada en dimensiones."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

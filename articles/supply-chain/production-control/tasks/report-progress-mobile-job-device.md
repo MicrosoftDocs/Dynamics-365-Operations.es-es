@@ -3,7 +3,7 @@ title: "Notificar progreso en un dispositivo móvil de trabajo"
 description: "Este procedimiento le muestra cómo iniciar y notificar el progreso en cuanto a un trabajo de producción en el formulario de registro de dispositivo de trabajo."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

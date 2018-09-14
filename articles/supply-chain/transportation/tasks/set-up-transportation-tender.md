@@ -3,7 +3,7 @@ title: Configurar una forma de pago de transporte
 description: "Este procedimiento muestra cómo configurar una forma de pago del transporte."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

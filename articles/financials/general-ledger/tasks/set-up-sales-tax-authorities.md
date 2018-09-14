@@ -3,7 +3,7 @@ title: "Configuración de las autoridades fiscales"
 description: Las autoridades fiscales son las entidades a las que tienen que notificarse y pagarse los impuestos cobrados.
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

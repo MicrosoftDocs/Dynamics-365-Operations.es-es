@@ -3,7 +3,7 @@ title: Configurar uso compartido de datos financieros entre empresas
 description: "Este procedimiento muestra cómo configurar, habilitar, validar y resolver conflictos al compartir datos entre empresas."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

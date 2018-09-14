@@ -3,7 +3,7 @@ title: Crear y asociar registros
 description: "Este procedimiento muestra cómo crear un registro de punto de venta (PDV)."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Mantener la información de lesiones y enfermedades del empleado"
 description: "Se recomienda completar primero la guía de tareas \"Configuración de lesión o enfermedad\", puesto que aquí se usa parte de la información de configuración."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

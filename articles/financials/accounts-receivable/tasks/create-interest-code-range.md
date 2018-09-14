@@ -3,7 +3,7 @@ title: "Crear un código de interés con un intervalo"
 description: "Los códigos de interés se pueden configurar para calcular diferentes importes de interés basados en un intervalo de valores."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

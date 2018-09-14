@@ -3,7 +3,7 @@ title: "Revisar información de cobros"
 description: "Este procedimiento le guía por cómo revisar la información de cobros junto con diferentes opciones de configuración y transacciones de cobros."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

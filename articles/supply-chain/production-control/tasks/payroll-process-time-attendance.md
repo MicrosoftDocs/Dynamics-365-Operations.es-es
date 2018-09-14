@@ -3,7 +3,7 @@ title: "Habilitar el proceso de nómina para tiempo y asistencia"
 description: "Este procedimiento muestra cómo habilitar el proceso de nóminas para tiempo y asistencia."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

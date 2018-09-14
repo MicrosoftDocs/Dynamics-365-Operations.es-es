@@ -3,7 +3,7 @@ title: "Crear un modelo de configuración de productos"
 description: "Este procedimiento muestra cómo crear un modelo de configuración de productos y especificar información básica como atributos y subcomponentes."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

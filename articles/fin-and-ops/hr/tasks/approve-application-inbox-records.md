@@ -3,7 +3,7 @@ title: Aprobar registros de la bandeja de entrada de solicitudes
 description: "Este procedimiento muestra cómo revisar solicitudes recibidas a través de las páginas de autoservicio para empleados."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

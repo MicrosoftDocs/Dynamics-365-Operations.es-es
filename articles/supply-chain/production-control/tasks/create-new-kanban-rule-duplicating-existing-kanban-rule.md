@@ -3,7 +3,7 @@ title: Crear una nueva regla kanban al duplicar una regla existente
 description: "Este procedimiento se centra en la creación de un duplicado de una regla kanban existente."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

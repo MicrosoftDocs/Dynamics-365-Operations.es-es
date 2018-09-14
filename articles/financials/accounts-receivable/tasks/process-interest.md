@@ -3,7 +3,7 @@ title: "Procesar interés"
 description: "Este procedimiento muestra cómo crear, imprimir y registrar notas de interés."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

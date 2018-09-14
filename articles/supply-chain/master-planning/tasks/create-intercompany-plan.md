@@ -3,7 +3,7 @@ title: Crear un plan de empresas vinculadas
 description: "Este procedimiento muestra cómo crear un plan de empresas vinculadas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

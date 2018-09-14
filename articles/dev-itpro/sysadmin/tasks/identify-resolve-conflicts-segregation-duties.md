@@ -3,7 +3,7 @@ title: "Identificación y resolución de conflictos en segregación de controles
 description: Puede configurar reglas para tareas diferentes que deban llevar a cabo diferentes usuarios.
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

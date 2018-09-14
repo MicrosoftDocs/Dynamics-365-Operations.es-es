@@ -3,7 +3,7 @@ title: Conciliar el flete manualmente
 description: "Este procedimiento muestra cómo conciliar el flete manualmente."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

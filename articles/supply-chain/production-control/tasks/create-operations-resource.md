@@ -3,7 +3,7 @@ title: Crear un recurso de operaciones
 description: "Un recurso de operaciones realiza las actividades de un proyecto o de un proceso de producción."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

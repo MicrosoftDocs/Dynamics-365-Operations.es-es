@@ -3,7 +3,7 @@ title: "Gestionar plantillas de correo electrónico"
 description: "Puede transferir información de la base de datos de su organización a los marcadores en un documento nuevo y usarla en plantillas que le ayuden a comunicarse eficazmente con los candidatos."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

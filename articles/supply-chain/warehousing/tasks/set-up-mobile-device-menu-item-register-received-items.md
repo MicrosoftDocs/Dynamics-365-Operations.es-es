@@ -3,7 +3,7 @@ title: "Configurar un elemento de menú del dispositivo móvil para registrar lo
 description: "Esta tarea se centra en la configuración de un elemento de menú de dispositivo móvil."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Cambiar la fecha de una sesión"
 description: De forma predeterminada, se utiliza la fecha actual al especificar y registrar entradas del diario y documentos de origen.
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

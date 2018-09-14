@@ -3,7 +3,7 @@ title: Cumplimiento de acuerdos de venta
 description: "Este procedimiento le muestra cómo satisfacer un acuerdo de venta asociando pedidos de ventas a él."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Definir condiciones de pagos a proveedores
 description: Configurar condiciones de pago para facturas de proveedor.
 author: abruer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

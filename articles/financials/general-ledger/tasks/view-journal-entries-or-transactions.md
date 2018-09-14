@@ -3,7 +3,7 @@ title: Ver movimientos del diario o transacciones
 description: "Este procedimiento muestra cómo usar la consulta de transacciones de asiento para buscar los movimientos del diario o las transacciones."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

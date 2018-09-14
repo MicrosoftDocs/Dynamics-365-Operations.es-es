@@ -3,7 +3,7 @@ title: Definir la zona horaria preferida de un usuario
 description: El siguiente procedimiento explica el modo de un usuario en el rol de Administrador del sistema puede definir la zona horaria para un usuario.
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

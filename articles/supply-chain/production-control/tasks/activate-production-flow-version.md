@@ -3,7 +3,7 @@ title: "Activar una versión de flujo de producción"
 description: "Para que se puedan crear los trabajos kanban y se puedan procesar las actividades para una versión de flujo de producción, debe activar la versión."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

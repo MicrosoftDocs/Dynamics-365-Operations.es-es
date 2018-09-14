@@ -3,7 +3,7 @@ title: "Recibir artículos de un pedido de compra a partir de un artículo reque
 description: "Este procedimiento muestra cómo recibir artículos en un pedido de compra desde un artículo requerido."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Registrar la entrada y salida del conductor para una cita
 description: "Este procedimiento muestra cómo registrar una entrada y una salida de conductor."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

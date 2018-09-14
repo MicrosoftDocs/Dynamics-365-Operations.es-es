@@ -3,7 +3,7 @@ title: "Crear una nueva regla kanban de sustitución"
 description: "Este procedimiento se centra en el reemplazo de una regla kanban existente por una nueva regla kanban en una fecha específica."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

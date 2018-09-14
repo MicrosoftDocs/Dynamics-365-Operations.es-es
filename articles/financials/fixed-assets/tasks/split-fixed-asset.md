@@ -3,7 +3,7 @@ title: Dividir un activo fijo
 description: "Esta guía de la tarea va a dividir un porcentaje de un libro de activos a un nuevo libro de activos."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

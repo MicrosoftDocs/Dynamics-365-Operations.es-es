@@ -3,7 +3,7 @@ title: "Definición de procesos de recuento de inventario"
 description: "Este procedimiento le muestra la configuración de procesos de recuento de inventario básicos creando un grupo de recuento y un diario de recuento."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

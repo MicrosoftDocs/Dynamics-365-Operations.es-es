@@ -3,7 +3,7 @@ title: "Configurar y crear perfiles de depreciación"
 description: "Los métodos de depreciación determinan el tipo y la frecuencia de la depreciación de un activo."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

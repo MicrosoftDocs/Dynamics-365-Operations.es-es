@@ -3,7 +3,7 @@ title: "Identificar e implementar herramientas de selección de candidatos"
 description: "Encontrar un grupo calificado de candidatos para cubrir vacantes puede ser difícil, especialmente cuando un puesto requiere un conjunto único de aptitudes."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

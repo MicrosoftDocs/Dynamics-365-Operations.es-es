@@ -3,7 +3,7 @@ title: "Configurar los documentos de transferencia para el movimiento de mercanc
 description: "Este procedimiento muestra cómo crear documentos de transferencia para movimiento de mercancías dentro de una empresa."
 author: v-oloski
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

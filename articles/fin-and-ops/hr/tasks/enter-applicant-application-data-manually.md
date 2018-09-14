@@ -3,7 +3,7 @@ title: Especificar los datos del candidato y de la solicitud manualmente
 description: "Este procedimiento muestra cómo mantener manualmente la información de los candidatos y sus solicitudes."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

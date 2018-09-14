@@ -3,7 +3,7 @@ title: "Supervisar una ejecución de planificación maestra"
 description: "El planificador de producción desea ver si una ejecución de planificación maestra está en curso."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

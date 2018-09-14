@@ -3,7 +3,7 @@ title: "Definir celdas de trabajo de lean manufacturing (producción ajustada)"
 description: "Una celda de trabajo es una forma específica de grupos de recursos que pueden usarse en actividades de proceso de lean manufacturing."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

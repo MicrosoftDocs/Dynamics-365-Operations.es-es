@@ -3,7 +3,7 @@ title: "Configurar información sobre lesiones y enfermedades"
 description: "Los empleadores deben saber cuándo sus empleados sufren lesiones o se enferman a causa de los riesgos implícitos en el lugar de trabajo."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

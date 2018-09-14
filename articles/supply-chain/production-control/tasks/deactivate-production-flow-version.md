@@ -3,7 +3,7 @@ title: "Desactivar una versión de flujo de producción"
 description: "Cuando ya no se necesita una versión del flujo de producción activa, se puede desactivar."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

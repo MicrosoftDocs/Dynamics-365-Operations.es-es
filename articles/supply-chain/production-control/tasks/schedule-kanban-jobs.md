@@ -3,7 +3,7 @@ title: "Programación de trabajos kanban"
 description: Este procedimiento se centra en programar trabajos kanban de proceso para una celda de trabajo concreta.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

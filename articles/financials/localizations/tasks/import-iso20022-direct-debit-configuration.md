@@ -3,7 +3,7 @@ title: "Importación de la configuración de domiciliación bancaria ISO20022"
 description: "Este procedimiento muestra cómo importar una configuración de informes electrónicos de pagos de cliente."
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

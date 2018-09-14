@@ -3,7 +3,7 @@ title: "Crear una orden de domiciliación bancaria para un cliente"
 description: "Esta guía de tarea muestra cómo crear una orden de domiciliación bancaria y cómo usarla en una factura."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

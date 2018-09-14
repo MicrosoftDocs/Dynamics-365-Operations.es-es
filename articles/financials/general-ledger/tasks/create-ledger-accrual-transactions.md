@@ -3,7 +3,7 @@ title: Crear transacciones de provisiones de contabilidad
 description: "Esta guía de tareas describe los pasos de la generación de transacciones de acumulaciones contables basadas en los esquemas de acumulación."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

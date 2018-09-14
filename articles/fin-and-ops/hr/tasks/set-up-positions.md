@@ -3,7 +3,7 @@ title: Configurar puestos
 description: "Los puestos son un aspecto importante del nivel inferior de una jerarquía organizativa."
 author: DarinKramer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

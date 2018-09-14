@@ -3,7 +3,7 @@ title: Crear estructuras contables
 description: "Esta guía de tareas describe los pasos de la creación de una estructura contable."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

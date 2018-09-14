@@ -3,7 +3,7 @@ title: Configurar el perfil de funcionalidad para un representante de ventas
 description: "Este procedimiento demuestra cómo configurar los valores del perfil de funcionalidad de una tienda correspondientes a los representantes de ventas."
 author: jblucher
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

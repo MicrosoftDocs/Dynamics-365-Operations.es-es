@@ -3,7 +3,7 @@ title: "Definir grupos de programación lean"
 description: "Los grupos de programación lean se definen para agrupar y distinguir productos en la programación kanban."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

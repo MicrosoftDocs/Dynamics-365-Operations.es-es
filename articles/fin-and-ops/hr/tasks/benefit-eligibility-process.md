@@ -3,7 +3,7 @@ title: "Proceso de idoneidad para prestación"
 description: "Este procedimiento muestra cómo funciona el proceso de idoneidad de la prestación."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

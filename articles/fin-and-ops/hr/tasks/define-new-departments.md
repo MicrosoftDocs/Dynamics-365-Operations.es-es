@@ -3,7 +3,7 @@ title: Definir nuevos departamentos
 description: "Los departamentos son unidades operativas que representan un área funcional de un negocio, como ventas o contabilidad."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Transferir transacciones a intrastat
 description: "Este procedimiento le guía por cómo configurar parámetros de intrastat y transferir transacciones a intrastat."
 author: Anasyash
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Definir reglas de cobertura para los artículos"
 description: La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

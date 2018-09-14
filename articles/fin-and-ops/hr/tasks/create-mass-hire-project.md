@@ -3,7 +3,7 @@ title: "Crear un proyecto de contratación maestra"
 description: "Este procedimiento le muestra el proceso para configurar un proyecto de contratación masiva."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

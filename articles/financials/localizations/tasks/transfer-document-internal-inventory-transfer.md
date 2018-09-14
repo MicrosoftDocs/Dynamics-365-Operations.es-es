@@ -3,7 +3,7 @@ title: Generar un documento de transferencia para una transferencia de inventari
 description: "Este procedimiento muestra cómo crear documentos de transferencia para movimiento de mercancías dentro de una empresa."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

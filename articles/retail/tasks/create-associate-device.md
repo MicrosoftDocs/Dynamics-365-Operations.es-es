@@ -3,7 +3,7 @@ title: Crear y asociar un dispositivo
 description: "Este procedimiento le guía por la creación de un nuevo dispositivo y su asociación a un registro."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
