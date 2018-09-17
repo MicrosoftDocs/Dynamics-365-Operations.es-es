@@ -1,31 +1,32 @@
 --- 
-title: "Crear acuerdos comerciales mediante reglas de precios de categoría"
+title: "Reglas de precios de categoría para crear acuerdos comerciales"
 description: "Este procedimiento muestra cómo crear acuerdos comerciales de precios de venta con una regla de precios de categoría."
 author: scott-tucker
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPricingDiscountCategoryPriceRule, RetailCategoryPriceRule, EcoResCategorySingleLookup, RetailCategoryPriceWizard, PriceDiscAdm, PriceDiscAdmTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 20393f80c8f4aa12e3103cb7df214367aa35ab16
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 133ca34a0e85454dc40d4e1d36fbe8278019c7e4
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="create-trade-agreements-by-using-category-pricing-rules"></a>Crear acuerdos comerciales mediante reglas de precios de categoría
+# <a name="category-pricing-rules-to-create-trade-agreements"></a>Reglas de precios de categoría para crear acuerdos comerciales
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo crear acuerdos comerciales de precios de venta con una regla de precios de categoría. La empresa de datos de prueba utilizada para crear esta tarea es USRT. Esta tarea está pensada para el rol Encargado de comercialización.
 

@@ -99,8 +99,6 @@
       href: call-center-functionality.md
     - name: Catálogos de centros de llamadas
       href: call-center-catalogs.md
-    - name: Crear un catálogo de centro de llamadas
-      href: create-call-center-catalogs.md
     - name: Configurar los modos y los gastos de la entrega
       href: configure-call-center-delivery.md
     - name: Configurar y trabajar con alertas de fraude
@@ -133,6 +131,8 @@
       href: MPOS-or-CPOS.md
     - name: Operaciones de PDV en línea y sin conexión
       href: pos-operations.md
+    - name: Activación de dispositivo de un Retail Modern POS personalizado
+      href: dev-itpro/retail-POS-activation-changes.md
     - name: Diseños de pantalla de datos de demostración en MPOS y Cloud POS
       href: demo-data.md
     - name: Búsqueda de producto y cliente en el PDV

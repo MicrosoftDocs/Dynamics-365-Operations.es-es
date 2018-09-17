@@ -1,21 +1,22 @@
----
+--- 
 title: "Recuento de inventario en un almacén"
 description: "Este procedimiento muestra el proceso para crear y registrar un diario de recuento de inventario para contar un artículo específico en una ubicación del almacén."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalCount, InventJournalCreate, HcmWorkerLookUp, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: fa72cb0d651f5e60797fa41f6e2b2cf1891730b5
@@ -68,4 +69,5 @@ Este procedimiento muestra el proceso para crear y registrar un diario de recuen
 1. Haga clic en Inventario.
 2. Haga clic en Transacciones.
     * Aquí puede ver las transacciones relacionadas que se creará al registrar el diario de recuento de inventario.   
+
 

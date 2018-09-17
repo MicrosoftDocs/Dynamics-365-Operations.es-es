@@ -1,21 +1,22 @@
----
+--- 
 title: "Notificar un pedido de producción como terminado"
 description: "Este procedimiento muestra cómo notificar un pedido de producción como terminado."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProdTableListPage, ProdParmReportFinished, ProdJournalTransProd
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
 ms.openlocfilehash: e6f5e7316f89ba7c2b7091eb9df02aa07ea44dbd
@@ -50,4 +51,5 @@ Este procedimiento muestra cómo notificar un pedido de producción como termina
 3. En la lista, marque la fila seleccionada.
 4. En la lista, haga clic en el vínculo de la fila seleccionada.
     * Se registra Notificar como diario terminado. Si desea realizar ajustes en el diario, puede crear manualmente un nuevo diario en el que puede realizar cambios.  
+
 

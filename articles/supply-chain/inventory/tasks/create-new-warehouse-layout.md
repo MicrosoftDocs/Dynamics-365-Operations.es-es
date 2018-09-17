@@ -1,21 +1,22 @@
----
+--- 
 title: "Creación de un nuevo diseño de almacén"
 description: "Este procedimiento le muestra cómo configurar la información sobre las ubicaciones de un almacén."
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 253440d81edd6f71b52ae349398e3c6a895bf05c
@@ -49,7 +50,7 @@ Este procedimiento le muestra cómo configurar la información sobre las ubicaci
 7. Alterne la expansión de la sección Nombres de ubicación.
     * Las opciones de esta sección definen el formato predeterminado para los nombres de ubicación. En nuestro ejemplo, incluiremos el número de pasillo, el número de la estantería y el número de balda.  
 8. Establezca la opción Incluir pasillo en Sí.
-9. Establezca la opción Incluir estantería en Sí.
+9. Establezca la opción Incluir estantería en Sí. 
 10. En el campo Formato, escriba una valor para la estantería.
     * Por ejemplo: -##  
 11. Establezca la opción Incluir balda en Sí.
@@ -74,4 +75,5 @@ Este procedimiento le muestra cómo configurar la información sobre las ubicaci
 14. Haga clic en Finalizar.
 15. Cierre la página.
 16. Actualice la página.
+
 

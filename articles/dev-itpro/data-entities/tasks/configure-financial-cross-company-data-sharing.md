@@ -1,28 +1,29 @@
 --- 
-title: Configurar el uso compartido de datos financieros entre empresas
+title: Configurar uso compartido de datos financieros entre empresas
 description: "Este procedimiento muestra cómo configurar, habilitar, validar y resolver conflictos al compartir datos entre empresas."
 author: aprilolson
 manager: AnnBe
-ms.date: 06/22/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DataManagementWorkspace, DMFQuickImportExportRnr, DMFExecutionHistoryWorkspace, DMFExecutionHistorySummary, DMFExecutionHistoryEntities,  SysDataSharingConfiguration, SysDataSharingDiscrepencies
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 5ae6b30d2d0948efbf86f2c2693e643b383f8406
+ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
+ms.openlocfilehash: 779722bd3acd10a85b089a4d30757b62293ea4e4
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="configure-cross-company-financial-data-sharing"></a>Configurar el uso compartido de datos financieros entre empresas
+# <a name="configure-financial-cross-company-data-sharing"></a>Configurar uso compartido de datos financieros entre empresas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

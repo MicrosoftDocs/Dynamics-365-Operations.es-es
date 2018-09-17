@@ -3,23 +3,24 @@ title: "Configurar reglas de comisión de ventas"
 description: "Este procedimiento muestra cómo configurar y habilitar el seguimiento y el cálculo de las comisiones de ventas."
 author: omulvad
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CommissionCustomerGroup, CommissionItemGroup, CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, CommissionCalc, InventPosting, CustTable, EcoResProductDetailsExtended
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
-ms.openlocfilehash: 3d5c38b1f07803242350fe016b45c45d49c0b59b
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 8d81765884f741443d1c0f5b0cb8bc545945e1a1
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-sales-commission-rules"></a>Configurar reglas de comisión de ventas
@@ -45,7 +46,7 @@ Este procedimiento muestra cómo configurar y habilitar el seguimiento y el cál
     * Un grupo de ventas de la comisión especifica los empleados de los roles de representante de ventas que son aptos recibir una comisión cuando un cliente asociado al grupo de ventas pertinente compra determinados artículos.  
     * En la empresa de datos de demostración USMF, hay un grupo de ventas denominado “Representantes de ventas EE. UU.”.  
 13. En el panel de acciones, haga clic en General.
-14. Haga clic en representante de Ventas.
+14. Haga clic en Comercial.
     * La página Representante de ventas muestra una lista de los vendedores asociados a un grupo de comisión específico. Puede asignar múltiples representantes de ventas al mismo grupo y definir su parte respectiva de la cuota de comisión total como valor de porcentaje. La parte de la comisión total entre todos los empleados no debe superar 100.  
 15. En la lista, marque la fila seleccionada.
 16. Haga clic en Editar.

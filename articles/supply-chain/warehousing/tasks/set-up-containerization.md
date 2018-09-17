@@ -3,24 +3,25 @@ title: "Configurar lógica de creación de contenedores"
 description: "Este procedimiento describe cómo automatizar la creación de contenedores de cargas en Administración de almacenes."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: c5faf926071dec5d2ddc1c9e921a98ecd0754917
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
 ms.contentlocale: es-es
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-containerization"></a>Configurar lógica de creación de contenedores
@@ -83,7 +84,7 @@ Este procedimiento describe cómo automatizar la creación de contenedores de ca
 ## <a name="set-up-a-container-group"></a>Configurar un grupo de contenedores
 1. Vaya a Administración de almacenes > Configurar > Contenedores > Grupos de contenedores.
 2. Haga clic en Nuevo.
-    * Puede configurar grupos lógicos de tipos de contenedores. Para cada grupo, puede especificar la secuencia en la que empaquetar los contenedores y el porcentaje de los contenedores que se va a rellenar. Las dimensiones de tamaño del artículo sirven para determinar si cabrá en un contenedor. Se usa el contenedor que se encuentra más cercano a las dimensiones de tamaño del artículo. Si tiene varios tipos de contenedor en un grupo, se recomienda que organice la secuencia por tamaños, de modo que el contenedor más grande sea el primero, número 1 en la secuencia, y el contenedor más pequeño el último.    
+    * Puede configurar grupos lógicos de tipos de contenedores. Para cada grupo, puede especificar la secuencia en la que se deben empaquetar los contenedores y el porcentaje de relleno de los contenedores. Las dimensiones del artículo se usan para determinar si cabrá en el contenedor. Se usa el contenedor que se encuentra más cercano a las dimensiones de tamaño del artículo. Si tiene varios tipos de contenedor en un grupo, se recomienda que organice la secuencia por tamaños, de modo que el contenedor más grande sea el primero, número 1 en la secuencia, y el contenedor más pequeño el último.    
 3. En el campo Id. de grupo de contenedores, escriba un valor.
 4. En el campo Descripción, escriba un valor.
 5. Haga clic en Nuevo.

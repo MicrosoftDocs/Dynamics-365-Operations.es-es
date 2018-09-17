@@ -1,21 +1,22 @@
----
+--- 
 title: "Cambiar la propiedad del inventario de entrega en base a la demanda de la producción"
 description: "Este procedimiento muestra cómo cambiar el propietario del inventario de entrega del proveedor a su entidad jurídica cuando hay demanda del inventario en producción."
 author: perlynne
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalOwnershipChange, InventJournalCreate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 5925f5423d596adc4326dfff4734de2afd80b5a8
@@ -51,4 +52,5 @@ Este procedimiento muestra cómo cambiar el propietario del inventario de entreg
     * Cuando se registra el diario, el inventario propiedad del proveedor se libera usando la referencia "Cambio de propiedad". El inventario se recibe como disponible usando una transacción de inventario que se actualiza con una recepción de producto del pedido de compra. Tenga en cuenta que sólo se crean las transacciones relacionadas con el diario registrado. No se crean transacciones de inventario previstas.  
 2. Haga clic en Aceptar
 3. Cierre la página.
+
 
