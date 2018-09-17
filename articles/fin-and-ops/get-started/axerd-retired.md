@@ -27,6 +27,8 @@ ms.lasthandoff: 08/09/2018
 
 # <a name="axerd-page-has-been-retired"></a>Se ha retirado la página AxErd
 
+[!include [banner](../includes/banner.md)]
+
 Desafortunadamente, tuvimos que retirar la página web AxErd, que proporcionó diagramas de relaciones de entidad (ERD) para muchas tablas de Microsoft Dynamics AX 2012. Hemos podido registrar el código fuente para el proyecto, y los archivos HTML para la página web en un repositorio de GitHub: https://github.com/Microsoft/ax-2012-doc-tools
 
 Las páginas HTML están en el repositorio, en [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)
