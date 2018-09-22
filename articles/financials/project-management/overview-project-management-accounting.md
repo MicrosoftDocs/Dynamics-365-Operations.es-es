@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
+ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
+ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -35,7 +35,9 @@ ms.lasthandoff: 08/09/2018
 <span data-ttu-id="11199-105">Un proyecto es un grupo de actividades diseñado para proporcionar un servicio, producir un producto o lograr un resultado.</span><span class="sxs-lookup"><span data-stu-id="11199-105">A project is a group of activities that is designed to provide a service, produce a product, or achieve a result.</span></span> <span data-ttu-id="11199-106">Los proyectos consumen recursos y generan resultados financieros en forma de ingresos o activos</span><span class="sxs-lookup"><span data-stu-id="11199-106">Projects consume resources and generate financial results in the form of revenues or assets.</span></span>
 
 ## <a name="projects-across-industries"></a><span data-ttu-id="11199-107">Proyectos entre sectores</span><span class="sxs-lookup"><span data-stu-id="11199-107">Projects across industries</span></span>
-<span data-ttu-id="11199-108">La funcionalidad de contabilidad y administración de proyectos se puede usar en varios sectores, como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="11199-108">The project management and accounting functionality can be used in multiple industries, as shown in the following illustration.</span></span> <span data-ttu-id="11199-109">[![Proyectos entre sectores](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span><span class="sxs-lookup"><span data-stu-id="11199-109">[![Projects accross industries](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span></span> 
+<span data-ttu-id="11199-108">La funcionalidad de contabilidad y administración de proyectos se puede usar en varios sectores, como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="11199-108">The project management and accounting functionality can be used in multiple industries, as shown in the following illustration.</span></span>
+
+<span data-ttu-id="11199-109">[![Proyectos entre sectores](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span><span class="sxs-lookup"><span data-stu-id="11199-109">[![Projects accross industries](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span></span> 
 
 <span data-ttu-id="11199-110">En un centro de llamadas, se puede usar un ticket para describir el conjunto de acciones que se requieren para resolver una llamada.</span><span class="sxs-lookup"><span data-stu-id="11199-110">In a call center, a ticket can be used to describe the set of actions that are required to resolve a call.</span></span> <span data-ttu-id="11199-111">Las empresas de asesoría, como las agencias de publicidad o las organizaciones de asesoría técnica o de administración, hacen referencia a sus actividades como proyectos.</span><span class="sxs-lookup"><span data-stu-id="11199-111">Consulting companies, such as management or technical consulting organizations or advertising agencies, refer to their activities as projects.</span></span> <span data-ttu-id="11199-112">En marketing, una campaña representa un conjunto de trabajos que se deben entregar.</span><span class="sxs-lookup"><span data-stu-id="11199-112">In marketing, a campaign represents a set of work that must be delivered.</span></span> <span data-ttu-id="11199-113">En la fabricación basada en proyectos, un pedido de producción está relacionado con el trabajo diverso que se debe realizar para producir algunos bienes terminados.</span><span class="sxs-lookup"><span data-stu-id="11199-113">In project-based manufacturing, a production order relates the various work that must be done to produce some finished goods.</span></span> <span data-ttu-id="11199-114">Cualquiera que sea el nombre que se use para ellos, estos proyectos constan de recursos, programaciones y costes, y la funcionalidad de contabilidad y administración de proyectos de Microsoft Dynamics 365 for Finance and Operations puede ayudar con la planificación, la ejecución y el análisis de estos proyectos.</span><span class="sxs-lookup"><span data-stu-id="11199-114">Whatever name is used for them, these projects involve resources, schedules, and costs, and the project management and accounting functionality in Microsoft Dynamics 365 for Finance and Operations can help with the planning, execution, and analysis of these projects.</span></span>
 
