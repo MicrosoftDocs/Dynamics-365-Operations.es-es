@@ -26,6 +26,8 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="vat-recovery-in-expense-management"></a>Devolución de IVA en Gestión de gastos
 
+[!include [banner](../includes/banner.md)]
+
 Para recibir devoluciones en transacciones aptas para el impuesto sobre el valor añadido (IVA), una organización debe identificar, recopilar, comprobar y enviar información precisa. Este proceso incluye varias tareas y, en función del tamaño de la empresa, puede incluir varios empleados o roles.
 
 Para recuperar el IVA mediante la Gestión de datos, es necesario completar los siguientes requisitos previos:

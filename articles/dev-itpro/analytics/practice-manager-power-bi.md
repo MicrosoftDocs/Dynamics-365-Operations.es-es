@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 44f017fc3460b83b730f2f7c909c6b88480dd918
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
 ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -42,7 +42,6 @@ Todos los importes del contenido se muestran en la divisa del sistema. Puede est
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 
 El contenido de Power BI **Director de prácticas** se muestra en el área de trabajo **Administración de proyectos**.
-
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
 
@@ -85,8 +84,7 @@ En las secciones siguientes se describen las medidas de agregado que se utilizan
 
 | Medida agregada clave | Campo                                             | Descripción |
 |---------------------------|---------------------------------------------------|-------------|
-| Número de proyectos        | COUNTA(ProjectAccountingCube\_Projects[PROJECTS]) | Número de proyectos disponibles. |
-
+| Número de proyectos        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | Número de proyectos disponibles. |
 
 ### <a name="entity-projectaccountingcubeforecasts"></a>Entidad: ProjectAccountingCube\_Forecasts
 **Origen de datos:** ProjTransBudget
@@ -109,18 +107,16 @@ En las secciones siguientes se describen las medidas de agregado que se utilizan
 
 | Medida agregada clave    | Campo | Descripción |
 |------------------------------|-------|-------------|
-| Índice de rendimiento de costes       | ProjectAccountingCube\_Projects[Valor obtenido] ÷ ProjectAccountingCube\_Projects[Coste real total de las tareas completadas] | Cálculo del valor obtenido total dividido por el coste real total. |
-| Índice de rendimiento de la programación   | ProjectAccountingCube\_Projects[Valor obtenido] ÷ ProjectAccountingCube\_Projects[Coste planificado total de las tareas completadas] | Cálculo del valor obtenido total dividido por el coste planificado total. |
-| Porcentaje de trabajo completado | Porcentaje de trabajo completado = ProjectAccountingCube\_Projects[Coste real total de las tareas completadas] ÷ (ProjectAccountingCube\_Projects[Coste real total de tareas completadas] + ProjectAccountingCube\_Projects[Coste planificado total del proyecto] - – ProjectAccountingCube\_Projects[Coste planificado total de tareas completadas]) | Porcentaje total de trabajo completado basado en el coste real total de tareas completadas y el coste planificado del proyecto. |
-| Proporción de horas facturables reales  | ProjectAccountingCube\_Projects[Horas utilizadas facturables reales totales del proyecto] ÷ (ProjectAccountingCube\_Projects[Horas utilizadas facturables reales totales del proyecto] + ProjectAccountingCube\_Projects[Horas no facturables reales totales del proyecto]) | Horas facturables totales reales, en función de las horas usadas y las horas no facturables. |
-| Valor obtenido                 | ProjectAccountingCube\_Projects[Coste planificado total del proyecto] × ProjectAccountingCube\_Projects[Porcentaje de trabajo completado] | Coste planificado total multiplicado por el porcentaje de trabajo completado. |
+| Índice de rendimiento de costes       | ProjectAccountingCube\_Projects\[Valor obtenido\] ÷ ProjectAccountingCube\_Projects\[Coste real total de las tareas completadas\] | Cálculo del valor obtenido total dividido por el coste real total. |
+| Índice de rendimiento de la programación   | ProjectAccountingCube\_Projects\[Valor obtenido\] ÷ ProjectAccountingCube\_Projects\[Coste planificado total de las tareas completadas\] | Cálculo del valor obtenido total dividido por el coste planificado total. |
+| Porcentaje de trabajo completado | Porcentaje de trabajo completado = ProjectAccountingCube\_Projects\[Coste real total de las tareas completadas\] ÷ (ProjectAccountingCube\_Projects\[Coste real total de tareas completadas\] + ProjectAccountingCube\_Projects\[Coste planificado total del proyecto\] - – ProjectAccountingCube\_Projects\[Coste planificado total de tareas completadas\]) | Porcentaje total de trabajo completado basado en el coste real total de tareas completadas y el coste planificado del proyecto. |
+| Proporción de horas facturables reales  | ProjectAccountingCube\_Projects\[Horas utilizadas facturables reales totales del proyecto\] ÷ (ProjectAccountingCube\_Projects\[Horas utilizadas facturables reales totales del proyecto\] + ProjectAccountingCube\_Projects\[Horas no facturables reales totales del proyecto\]) | Horas facturables totales reales, en función de las horas usadas y las horas no facturables. |
+| Valor obtenido                 | ProjectAccountingCube\_Projects\[Coste planificado total del proyecto\] × ProjectAccountingCube\_Projects\[Porcentaje de trabajo completado\] | Coste planificado total multiplicado por el porcentaje de trabajo completado. |
 
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entidad: ProjectAccountingCube\_TotalEstimatedCosts 
 **Origen de datos:** ProjTable
 
-
-|    Medida agregada clave    |        Campo        |                                          Descripción                                           |
-|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
+| Medida agregada clave       | Campo               | Descripción |
+|---------------------------------|---------------------|-------------|
 | Coste de la actividad planificada completada | Sum(TotalCostPrice) | Precio de coste total en las estimaciones de todos los tipos de transacciones de proyecto que cuentan con tareas completadas. |
-
 

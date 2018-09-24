@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 3e12037f14e7e01764fd6d18f52854c35a09d196
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: ae2087cf142fc2670bda3c542b336f12978178a6
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,34 +35,31 @@ Los informes financieros para Finance and Operations permiten a los profesionale
 Los informes financieros incluyen la compatibilidad de dimensiones. Por lo tanto, las dimensiones o los segmentos de cuenta están disponibles inmediatamente. No se requieren pasos de configuración o herramientas adicionales.
 
 ## <a name="financial-reporting-setup"></a>Configuración de informes financieros
-La página **Configuración de informes financieros** tiene una lista de todas las dimensiones financieras del sistema. **Contabilidad general** > **Configuración de contabilidad** > **Configuración de informes financieros**. 
+La página **Configuración de informes financieros** tiene una lista de todas las dimensiones financieras del sistema. **Contabilidad general** \> **Configuración de contabilidad** \> **Configuración de informes financieros**.
 
 La página **Configuración de informes financieros** tiene dos secciones que determinan los datos que especifica en el informe financiero:
 
-•   **Ficha Dimensiones** Como todas las empresas utilizan diferentes dimensiones y estructuras contables, no es posible determinar el orden en el que los usuarios desean ver todas las dimensiones financieras en los informes. Esta página le permite establecer el orden en que desea que aparezcan las dimensiones financieras cuando crea y ve un informe en informes financieros.
-
-•   **Ficha de atributos**: puede seleccionar si desea la capacidad para usar **Proveedores** y **Clientes** como atributos para filtrar y diseñar el informe. Informar sobre proveedores y escritores solo tendrá valor si no especifica varios proveedores o clientes en un asiento único cuando registra transacciones. Si elige proveedor o cliente agregará más tiempo a la integración.
-
-
+- **Ficha Dimensiones** Como todas las empresas utilizan diferentes dimensiones y estructuras contables, no es posible determinar el orden en el que los usuarios desean ver todas las dimensiones financieras en los informes. Esta página le permite establecer el orden en que desea que aparezcan las dimensiones financieras cuando crea y ve un informe en informes financieros.
+- **Ficha de atributos** es donde puede seleccionar si desea la capacidad para usar **Proveedores** y **Clientes** como atributos para filtrar y diseñar el informe. Informar sobre proveedores y escritores solo tendrá valor si no especifica varios proveedores o clientes en un asiento único cuando registra transacciones. Si elige proveedor o cliente agregará más tiempo a la integración.
 
 ## <a name="financial-reporting-components"></a>Componentes de informes financieros
 Los siguientes componentes de los informes financieros facilitan la creación, la visualización y la programación de informes.
 
-| Componente        | Funciones                                                                                                                                                                                                                                                                           | Información adicional                                                                          |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| Diseñador de informes  | Cree componentes de creación de informes que se puedan combinan para definir y generar un informe. El asistente para informes dirige a los usuarios menos experimentados por el proceso de diseño. Los usuarios experimentados pueden crear componentes básicos del nuevo informe o modificar componentes básicos de validez para satisfacer sus requisitos. |                                                                                                 |
-| Programaciones de informes | Programe un informe único o un grupo de informes para que se genere con regularidad.                                                                                                                                                                                          | [Generar un informe financiero](generate-financial-report.md) |
+| Componente        | Funciones | Información adicional |
+|------------------|-----------|------------------------|
+| Diseñador de informes  | Cree componentes de creación de informes que se puedan combinan para definir y generar un informe. El asistente para informes dirige a los usuarios menos experimentados por el proceso de diseño. Los usuarios experimentados pueden crear componentes básicos del nuevo informe o modificar componentes básicos de validez para satisfacer sus requisitos. | |
+| Programaciones de informes | Programe un informe único o un grupo de informes para que se genere con regularidad. | [Generar un informe financiero](generate-financial-report.md) |
 
 ## <a name="features"></a>Características
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Característica</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Flexibilidad de diseño del informe</td>
 <td>El diseñador de informes proporciona las siguientes opciones de creación de informes cuando se diseña un informe:
 <ul>
@@ -70,9 +67,10 @@ Los siguientes componentes de los informes financieros facilitan la creación, l
 <li>Controle cómo se da formato y se muestran las descripciones de la dimensión.</li>
 <li>Identifique las cuentas o dimensiones que se han omitido desde los componentes básicos del informe.</li>
 <li>Aplique formato a los encabezados para previsiones graduales.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Colaboración en informes financieros</td>
 <td>Las siguientes características le ayudan a gestionar la generación y la distribución de informes:
 <ul>
@@ -80,9 +78,10 @@ Los siguientes componentes de los informes financieros facilitan la creación, l
 <li>Exporte al formato de solo lectura de XPS, que proporciona una mayor seguridad del documento a través de firmas digitales.</li>
 <li>Exporte a una hoja de cálculo de Microsoft Excel.</li>
 <li>Para compartir informes, puede crear mensajes de correo electrónico que contienen vínculos a los informes.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Visualización interactiva de informes</td>
 <td>Las características interactivas le permiten realizar las tareas siguientes:
 <ul>
@@ -99,8 +98,4 @@ Los siguientes componentes de los informes financieros facilitan la creación, l
 
 ## <a name="additional-resources"></a>Recursos adicionales
 [Generar un informe financiero](generate-financial-report.md)
-
-
-
-
 

@@ -19,10 +19,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 46e2f11e13bce74f36363c60d749196cbf2ee6b5
-ms.openlocfilehash: 67d300bf9dcf08864b652e0e92d45b0c0dcc0ca6
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: a252fbac949ae625a34f737c8ba56f58e5c2cae2
 ms.contentlocale: es-es
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -41,7 +41,7 @@ Todas las empresas de México deben informar de los extractos de cuenta contable
 
 Esta función solo está disponible cuando el país o la región de la empresa se define como MEX. 
 > [!NOTE]
->  El gobierno también requiere un archivo XML auxiliar adicional (folios) que detalla todos los documentos fiscales (CFDI, CFD y otros). Este archivo no se incluye en la característica actual, puesto que esta información se incluye en el archivo XML Transacciones de diario, como se especifica en el Capítulo 2.8, sección 2.8.1.3 de la Resolución de Diversos Impuestos para 2015 (segunda sección) del 30 de diciembre de 2014. Para obtener más información, consulte <http://www.sat.gob.mx/fichas_tematicas/buzon_tributario/Documents/extracto_reglas.pdf>.
+>  El gobierno también requiere un archivo XML auxiliar adicional (folios) que detalla todos los documentos fiscales (CFDI, CFD y otros). Este archivo no se incluye en la característica actual, puesto que esta información se incluye en el archivo XML Transacciones de diario, como se especifica en el Capítulo 2.8, sección 2.8.1.3 de la Resolución de Diversos Impuestos para 2015 (segunda sección) del 30 de diciembre de 2014. Para obtener más información, consulte la documentación del gobierno.
 
 ## <a name="prerequisites"></a>Requisitos previos
 El siguiente proceso muestra los requisitos previos que se deben implementar antes de comenzar a generar los archivos XML que el SAT requiere. Los parámetros determinan la manera en que se exponen los datos en los archivos XML y se requieren todos ellos. Los parámetros que faltan pueden provocar incoherencias o validaciones incorrectas en la herramienta de validación del gobierno.

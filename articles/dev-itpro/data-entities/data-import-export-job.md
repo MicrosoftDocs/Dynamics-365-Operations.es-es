@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
-ms.openlocfilehash: d58bab48c65bb891155af95c79738b019e5760bf
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -66,13 +66,11 @@ Puede agregar entidades específicas a un trabajo de importación o exportación
 ### <a name="set-the-data-format-for-the-job"></a>Establecer el formato de datos del trabajo
 Al seleccionar una entidad, debe seleccionar el formato de los datos que se exportarán o importarán. Puede definir los formatos mediante el icono **Configuración de orígenes de datos**. Un formato de datos de origen es una combinación de **Tipo**, **Formato de archivo**, **Delimitador de la fila** y **Delimitador de columna**. También hay otros atributos, pero estos son los clave para comprender. En la tabla siguiente aparecen las combinaciones válidas.
 
-| **Formato de archivo**        | **Delimitador de columna/fila**                   | **Estilo XML**             |
+| Formato de archivo            | Delimitador de columna/fila                       | Estilo XML                 |
 |------------------------|--------------------------------------------|---------------------------|
 | Excel                  | Excel                                      | \-N/D-                     |
 | XML                    | \-N/D-                                      | Elemento-XML atributo-XML |
 | Delimitado, ancho fijo | Coma, punto y coma, tabulador, barra vertical, dos puntos | \-N/D-                     |
-
-
 
 ### <a name="sequence-the-entities"></a>Ordenar las entidades
 Puede ordenar las entidades en una plantilla de datos o en trabajos de importación y exportación. Cuando ejecute un trabajo que contenga más de una entidad de datos, asegúrese de que están correctamente ordenadas. Puede ordenar las entidades principales para trabajar con cualquier dependencia funcional que esté entre ellas. Si las entidades no tienen dependencias funcionales, pueden ser programadas en una la importación o exportación paralela.

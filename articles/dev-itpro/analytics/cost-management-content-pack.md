@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
 ms.contentlocale: es-es
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/09/2018
 
 El contenido de Power BI de Microsoft **Gestión de costes** está destinado a los contables de inventario o individuos en la organización que son responsable o están interesados en el estado del inventario o del trabajo en curso (WIP), o que son responsables o están interesados en el análisis de desviaciones de coste estándar.
 
-> [!Note]
+> [!NOTE]
 > El contenido de Power BI **Gestión de costes** descrito en este tema se aplica a Dynamics 365 for Finance and Operations 8.0.
 > 
 > El paquete de contenido de Power BI **Gestión de costes**, disponible en el sitio de AppSource se ha dejado de utilizar. Para obtener más información sobre dicha deprecación, consulte [Paquetes de contenido de Power BI disponibles en AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
@@ -171,7 +171,7 @@ Las tabla siguientes proporcionan una visión general de las visualizaciones en 
 |                                         | Los 10 recursos principales por desviación de producción desfavorable  |
 |                                         | Los 10 recursos principales por desviación de producción favorable    |
 
-### <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
+## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 
 Los datos de Microsoft Dynamics 365 for Finance and Operations se usan para rellenar las páginas de informes del contenido de Power BI **Gestión de costes**. Estos datos se representan como medidas agregadas que se organizan en el almacén de la entidad, que es una base de datos de Microsoft SQL Server optimizada para análisis. Para obtener más información, consulte [Integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
 
@@ -188,26 +188,25 @@ La tabla siguiente muestra las medidas calculadas clave en el contenido de Power
 
 | Medida                            | Cálculo |
 |------------------------------------|-------------|
-| Saldo inicial                  | Saldo inicial = [Saldo final]-[Cambio neto] |
-| Cantidad de saldo inicial.             | Cantidad de saldo inicial = [Cantidad de saldo final]-[Cantidad de cambio neto] |
-| Saldo final                     | Saldo final = (CALCULATE(SUM([Amount]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
-| Cantidad de saldo final                | Cantidad de saldo final = CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
-| Cambio neto                         | Cambio neto = SUM([AMOUNT]) |
-| Cantidad de cambio neto                    | Cantidad de cambio neto = SUM([QTY]) |
-| Ratio de facturación de inventario por importe | Ratio de facturación de inventario por importe = if(OR([Saldo medio de inventario] \<= 0, [Emisiones de inventario vendidas o consumidas] \>= 0), 0, ABS(Emisiones de inventario vendidas o consumidas])/[Saldo medio de inventario]) |
-| Saldo medio de inventario          | Saldo medio de inventario = (([Saldo final] + [Saldo inicial)] / 2) |
-| Días de disponibilidad de inventario             | Días de disponibilidad de inventario = 365 / CostObjectStatementEntries[Ratio de facturación de inventario por importe] |
-| Precisión del inventario                 | Precisión de inventario por importe = IF[Saldo final] \<= 0, IF(OR([Importe contabilizado de inventario] \<\> 0, [Saldo final] \< 0), 0, 1), MAX(0, ([Saldo final] - ABS([Importe contabilizado de inventario]))/[Saldo final])) |
+| Saldo inicial                  | Saldo inicial = \[Saldo final\]-\[Cambio neto\] |
+| Cantidad de saldo inicial.             | Cantidad de saldo inicial = \[Cantidad de saldo final\]-\[Cantidad de cambio neto\] |
+| Saldo final                     | Saldo final = (CALCULATE(SUM(\[Amount\]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\])))) |
+| Cantidad de saldo final                | Cantidad de saldo final = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
+| Cambio neto                         | Cambio neto = SUM(\[AMOUNT\]) |
+| Cantidad de cambio neto                    | Cantidad de cambio neto = SUM(\[QTY\]) |
+| Ratio de facturación de inventario por importe | Ratio de facturación de inventario por importe = if(OR(\[Saldo medio de inventario\] \<= 0, \[Emisiones de inventario vendidas o consumidas\] \>= 0), 0, ABS\[Emisiones de inventario vendidas o consumidas\])/\[Saldo medio de inventario\]) |
+| Saldo medio de inventario          | Saldo medio de inventario = ((\[Saldo final\] + \[Saldo inicial\]) / 2) |
+| Días de disponibilidad de inventario             | Días de disponibilidad de inventario = 365 / CostObjectStatementEntries\[Ratio de facturación de inventario por importe\] |
+| Precisión del inventario                 | Precisión de inventario por importe = IF\[Saldo final\] \<= 0, IF(OR(\[Importe contabilizado de inventario\] \<\> 0, \[Saldo final\] \< 0), 0, 1), MAX(0, (\[Saldo final\] - ABS(\[Importe contabilizado de inventario\]))/\[Saldo final\])) |
 
 Las dimensiones clave siguientes se utilizan como filtros para cortar las medidas agregadas, de forma que logre mayor granularidad y obtener una visión analítica más profunda.
 
 
-|                         Entidad                          |             Ejemplos de atributos              |
+| Entidad                                                  | Ejemplos de atributos                          |
 |---------------------------------------------------------|-------------------------------------------------|
-|                        Productos                         | Número de producto, nombre de producto, unidad, grupos de artículos |
-| Jerarquías de categorías (asignadas al rol de gestión de costes) |       Jerarquía de categoría, nivel de categoría        |
-|                     Entidades jurídicas                      |               Nombres de entidad jurídica                |
-|                    Calendarios fiscales                     |  Calendario fiscal, año, trimestre, período, mes  |
-|                          Sitio                           |        Identificador, nombre, dirección, Comunidad autónoma, País        |
-
+| Productos                                                | Número de producto, nombre de producto, unidad, grupos de artículos |
+| Jerarquías de categorías (asignadas al rol de gestión de costes) | Jerarquía de categoría, nivel de categoría              |
+| Entidades jurídicas                                          | Nombres de entidad jurídica                              |
+| Calendarios fiscales                                        | Calendario fiscal, año, trimestre, período, mes   |
+| Sitio                                                    | Identificador, nombre, dirección, Comunidad autónoma, País               |
 

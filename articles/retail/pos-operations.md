@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 58653d6e991f1896673a07e3057bd516c74edd76
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -49,6 +49,8 @@ Nota: Las operaciones que se muestran a continuación se aplican a la última ve
 | 707 | Activar dispositivo | Active el dispositivo actual permitiendo que un usuario autenticado proporcione información de conexión y asigne un Id de dispositivos y registro. | N.º | N.º | N.º | N.º | N.º |
 | 134 | Agregar afiliación | Agregue una afiliación preseleccionada a una transacción. Seleccione la afiliación en la página **Propiedades de botón**. | Sí | Sí | N.º | Sí | N.º |
 | 135 | Agregar afiliación de la lista | Seleccione una afiliación de una lista para agregarla a una transacción. | Sí | Sí | Sí | Sí | N.º |
+| 137 | Agregar afiliación a cliente | Agregar una afiliación a un cliente en la página **Detalles del cliente**. | N.º | N.º | N.º | Sí | N.º |
+| 138 | Quitar afiliación de cliente | Quitar una afiliación en la página **Detalles del cliente**. | N.º | N.º | N.º | Sí | N.º |
 | 643 | Agregar código de vale | Agregue un vale especificando su código en el PDV. | Sí | Sí | N.º | Sí | N.º |
 | 117 | Agregar tarjeta de fidelización | Pida al usuario que introduzca un número de tarjeta de fidelización que se agregará a la transacción actual. | Sí | Sí | N.º | Sí | N.º |
 | 136 | Agregar número de serie | Esta operación permite al usuario especificar un número de serie para el artículo seleccionado actualmente. | Sí | Sí | N.º | Sí | N.º |

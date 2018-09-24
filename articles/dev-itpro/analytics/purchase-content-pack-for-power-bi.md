@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 07b6f433a8355d7f9ed6dce8e26f78d38a86a713
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
 ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,32 +36,27 @@ Este tema describe lo que se incluye en el contenido de Microsoft Power BI acerc
 
 El contenido de Power BI sobre **Análisis de compras y gastos** se ha diseñado para ayudar a directores de compras y los administradores responsables de presupuestos a vigilar los gastos en adquisiciones. Los directores pueden analizar su gasto en adquisiciones de las siguientes formas:
 
--   Compras hasta la fecha (por grupo de proveedores y proveedores individuales, productos de la categoría de compras e individuales y ubicación del proveedor)
--   Cambio de las compras año por año (por grupo de proveedores y categoría de compras)
+- Compras hasta la fecha (por grupo de proveedores y proveedores individuales, productos de la categoría de compras e individuales y ubicación del proveedor)
+- Cambio de las compras año por año (por grupo de proveedores y categoría de compras)
 
 El contenido usa datos transaccionales de compras y proporciona tanto una visión global de las cifras de compras en la empresa como un desglose de los gastos en compras por proveedor y producto. Los informes resaltan cambios en los gastos de compra a lo largo del tiempo. Por lo tanto, los informes se pueden usar para notificar a los administradores las tendencias positivas y negativas de los gastos relativas a proveedores y productos individuales. Además, los gráficos muestran los gastos de compra para las diversas categorías de compras y grupos de proveedores. Por lo tanto, los administradores de categorías y regionales pueden utilizar los gráficos como ayuda para identificar los cambios en comportamiento del gasto.
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
-El contenido de Power BI **Análisis de compras y gastos** se muestra en la página **Análisis de compras y gastos** (**Adquisición y abastecimiento** > **Consultas e informes** > **Análisis del rendimiento de compra** > **Análisis de compras y gastos**). 
+El contenido de Power BI **Análisis de compras y gastos** se muestra en la página **Análisis de compras y gastos** (**Adquisición y abastecimiento** \> **Consultas e informes** \> **Análisis del rendimiento de compra** \> **Análisis de compras y gastos**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
 El contenido de Power BI sobre **Análisis de compras y gastos** incluye un informe compuesto por un conjunto de métricas. Estas métricas se visualizan como gráficos, mosaicos y tablas. La tabla siguiente muestra una visión general de las visualizaciones.
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Página de informes</th>
 <th>Gráficos</th>
 <th>Mosaicos</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Compras por proveedor</td>
 <td><ul>
 <li>Los 10 principales proveedores por compra (gráfico de barras apiladas)</li>
@@ -76,7 +71,7 @@ El contenido de Power BI sobre **Análisis de compras y gastos** incluye un info
 <li>N.º total de proveedores activos</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Compras por producto</td>
 <td><ul>
 <li>Compras por categoría de compras o nombre del producto (gráfico de columnas)</li>
@@ -89,7 +84,7 @@ El contenido de Power BI sobre **Análisis de compras y gastos** incluye un info
 <li>Número de productos que representan el 80 % de la compra</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Compras por período*</td>
 <td><ul>
 <li>Compras por mes/día (gráfico de columnas)</li>
@@ -102,7 +97,7 @@ El contenido de Power BI sobre **Análisis de compras y gastos** incluye un info
 <li>% de crecimiento de compras interanual</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Compras por ubicación de proveedor</td>
 <td><ul>
 <li>Compras por ciudad</li>
@@ -111,7 +106,7 @@ El contenido de Power BI sobre **Análisis de compras y gastos** incluye un info
 </ul></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Análisis de gasto de compras por hora</td>
 <td><ul>
 <li>Compras de año actual por mes/día (gráfico de líneas)</li>
@@ -119,7 +114,7 @@ El contenido de Power BI sobre **Análisis de compras y gastos** incluye un info
 </ul></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Análisis de gasto de compras por proveedor</td>
 <td><ul>
 <li>% de compras de los 10 principales proveedores sobre el total de compras (embudo)</li>

@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -39,7 +39,7 @@ Los informes incluidos en el contenido de Power BI de **Desarrollo de empleados*
 | Análisis de nivel de aptitud de empleados | Niveles de aptitud de empleado por departamento, empleados por nivel de aptitud y tipo de aptitud y niveles superiores e inferiores por aptitud |
 | Perfil de aptitudes                 | Perfil de aptitudes para el empleado seleccionado |
 | Análisis de aptitudes                | Aptitudes por tipo y clasificación |
-| Análisis de la evaluación del desempeño   | Empleados por evaluación más alta y más bajo por trabajo, evaluaciones de empleado por departamento, empleados por evaluación y tipo de posición y evaluaciones más altas y más bajas por puesto  |
+| Análisis de la evaluación del desempeño   | Empleados por evaluación más alta y más bajo por trabajo, evaluaciones de empleado por departamento, empleados por evaluación y tipo de posición y evaluaciones más altas y más bajas por puesto |
 | Análisis del desempeño de empleados | Evaluaciones de empleados para evaluación seleccionada por director |
 
 Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e iconos al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
@@ -48,7 +48,7 @@ Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e 
 
 | Entidad                   | Contenido                                                                                                   | Relaciones con otras entidades |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| Contrapartida del calendario          | Desplazamientos del calendario para dividir informes                                                                          | Asignación de puesto anterior, tenencia de puestos, tendencia de empleado, empleado cesado 
+| Contrapartida del calendario          | Desplazamientos del calendario para dividir informes                                                                          | Asignación de puesto anterior, tenencia de puestos, tendencia de empleado, empleado cesado |
 | Compañía                  | Empresas para filtrar informes por                                                                             | Empleado actual, empleado cesado, tendencia del empleado |
 | Puesto actual         | Puestos a partir de la fecha actual, equivalentes a tiempo completo (FTE), vacantes y puestos vacantes a ocupados | Trabajo, puesto |
 | Empleado actual         | Trabajadores a partir de la fecha actual, edad y plantilla                                                         | Empresa, ubicación geográfica, nombre del empleado, responsable ante, cargo del empleado, demografía, trabajo, empleo, puesto |
@@ -65,10 +65,9 @@ Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e 
 | Nombre de empleado            | Nombre, apellido y nombre completo                                                                       | Trabajador actual, empleado cesado, tendencia del empleado |
 | Puesto del empleado           | Cargo y fecha de antigüedad                                                                                   | Empleado actual, empleado cesado, tendencia del empleado |
 | Tendencia del empleado           | Trabajadores a lo largo del tiempo, plantilla, empresa y puesto                                                        | Empresa, ubicación geográfica, nombre del empleado, responsable ante, contrapartida del calendario, fecha, puesto del empleado, demografía, empleo, trabajo |
-| Trabajo                      | Función tipo y cargo                                                                                      | Empleado actual, puesto actual, tendencia del empleado, aptitud preferida del trabajo, asignación de puesto anterior, tendencia del puesto, empleado cesado |
+| Trabajo                      | Función tipo y cargo                                                                                  | Empleado actual, puesto actual, tendencia del empleado, aptitud preferida del trabajo, asignación de puesto anterior, tendencia del puesto, empleado cesado |
 | Aptitud preferida de trabajo      | Importancia, clasificación, aptitud y nivel de aptitud                                                                 | Trabajo |
-| Análisis de aptitudes de empleados  | Certificación, nivel, fecha de nivel y aptitud                                                                    | Nombre del empleado, aptitud |  
+| Análisis de aptitudes de empleados  | Certificación, nivel, fecha de nivel y aptitud                                                                    | Nombre del empleado, aptitud |
 | Rendimiento              | Calificación, descripción y modelo de calificación                                                                      | Empleado actual, puesto actual, tendencia del empleado, aptitud preferida del trabajo, asignación de puesto anterior, tendencia del puesto, empleado cesado |
-|  Aptitud                   | Aptitudes, tipo de aptitud y calificación                                                                              | Análisis de aptitudes de empleados, aptitud preferida del trabajo |                                                                                                                        
-
+| Aptitud                    | Aptitudes, tipo de aptitud y calificación                                                                              | Análisis de aptitudes de empleados, aptitud preferida del trabajo |
 

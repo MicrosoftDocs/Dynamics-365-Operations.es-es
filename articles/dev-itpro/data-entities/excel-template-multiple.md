@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 5bc021ce9f0835f2eda310ef7818c9bc9be749f2
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 48239b48cbc24e34d74bbac36e8f827a15d7b840
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,7 +36,7 @@ Tomemos un ejemplo en el que exista un archivo de Excel con las hojas de cálcul
 
 Si agrega la segunda entidad **Almacenes** sin salir del formulario **Agregar archivo** , la búsqueda de la hoja de cálculo le permitirá seleccionar la hoja de cálculo **Almacenes** sin tener que cargar el archivo de nuevo. El único motivo para cargar un nuevo archivo sería si los datos **Almacenes** figuraban en un archivo diferente.
 
-![Varias hojas de cálculo](./media/AddFileMultipleWorkSheets.png) 
+![Varias hojas de cálculo](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Corregir hoja de cálculo para la asignación de la entidad
 
@@ -51,5 +51,4 @@ En casos en los que una versión nueva del mismo archivo o un archivo completame
 ## <a name="upload-a-file-using-run-project"></a>Cargar archivo mediante Ejecutar proyecto
 
 Puede cargar un archivo de Excel mediante la opción **Ejecutar proyecto** para ejecutar un proyecto de importación. Debe tener cuidado de cargar solo los archivos con las mismas hojas de cálculo que las asignaciones existentes en entidades de datos en los proyectos de datos. Si una hoja de cálculo no se encuentra en el archivo recién cargado, el sistema muestra un error y detendrá la importación. Si la asignación a la hoja de cálculo debe cambiarse para una entidad, las asignaciones del proyecto de datos se deben actualizar primero desde el proyecto de datos antes de utilizar el archivo en la experiencia **Ejecutar proyecto**.
-
 

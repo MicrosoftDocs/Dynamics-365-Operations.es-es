@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -74,7 +74,7 @@ También puede encontrar nuestro contenido con cualquier motor de búsqueda. Par
 Finance and Operations, Retail y Talent comparten una sola tabla de contenido en el sitio de los documentos, que permite a los clientes ver el contexto del tema en el que están. También le permite usar el control de filtro situado sobre la tabla de contenidos para buscar temas que quiera.
 
 ### <a name="follow-a-topic"></a>Seguir un tema
-Para realizar el seguimiento de un tema, haga clic en el botón +Seguir bajo el cuadro de comentarios. Deberá iniciar sesión para realizar un seguimiento del tema. Consulte [Déjenos un comentario](#leave-us-a-comment) para obtener más detalles.  
+Para realizar el seguimiento de un tema, haga clic en el botón +Seguir bajo el cuadro de comentarios. Deberá iniciar sesión para realizar un seguimiento del tema. Consulte [Déjenos sus comentarios](#leave-us-feedback) para obtener más detalles.  
 
 ### <a name="use-an-rss-feed"></a>Use una fuente RSS
 Para suscribirse a una fuente RSS de todas las actualizaciones del contenido de Unified Operations, utilice el siguiente enlace de un explorador que admita fuentes RSS, como Internet Explorer, o un gestor de fuentes RSS: 

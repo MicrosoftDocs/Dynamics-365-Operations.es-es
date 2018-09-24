@@ -26,6 +26,8 @@ ms.lasthandoff: 08/09/2018
 ---
 # <a name="remove-talent-environments"></a>Quitar entornos de Talent
 
+[!include [banner](includes/banner.md)]
+
 Este tema recorre con usted el proceso de eliminar una unidad de prueba o un entorno de producción para Microsoft Dynamics 365 for Talent.
 
 ## <a name="removing-a-test-drive-environment"></a>Quitar un entorno de unidad de prueba

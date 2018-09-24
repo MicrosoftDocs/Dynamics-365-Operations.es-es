@@ -35,7 +35,9 @@ La funcionalidad de gestión de proyectos y contabilidad se puede usar en varias
 Un proyecto es un grupo de actividades diseñado para proporcionar un servicio, producir un producto o lograr un resultado. Los proyectos consumen recursos y generan resultados financieros en forma de ingresos o activos
 
 ## <a name="projects-across-industries"></a>Proyectos entre sectores
-La funcionalidad de contabilidad y administración de proyectos se puede usar en varios sectores, como se muestra en la siguiente ilustración. [![Proyectos entre sectores](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+La funcionalidad de contabilidad y administración de proyectos se puede usar en varios sectores, como se muestra en la siguiente ilustración.
+
+[![Proyectos entre sectores](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 En un centro de llamadas, se puede usar un ticket para describir el conjunto de acciones que se requieren para resolver una llamada. Las empresas de asesoría, como las agencias de publicidad o las organizaciones de asesoría técnica o de administración, hacen referencia a sus actividades como proyectos. En marketing, una campaña representa un conjunto de trabajos que se deben entregar. En la fabricación basada en proyectos, un pedido de producción está relacionado con el trabajo diverso que se debe realizar para producir algunos bienes terminados. Cualquiera que sea el nombre que se use para ellos, estos proyectos constan de recursos, programaciones y costes, y la funcionalidad de contabilidad y administración de proyectos de Microsoft Dynamics 365 for Finance and Operations puede ayudar con la planificación, la ejecución y el análisis de estos proyectos.
 

@@ -1,6 +1,6 @@
 --- 
 title: Especificar los acuerdos de ventas
-description: "Este procedimiento le muestra cómo crear un acuerdo de venta que compromete a uno de los clientes a comprar un producto por una cantidad acordada durante un período de tiempo a cambio de descuentos especiales."
+description: "Este procedimiento le muestra cómo crear un acuerdo de venta que compromete uno de los clientes a comprar un producto en una cantidad acordada durante un período de tiempo a cambio de descuentos especiales."
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
@@ -18,19 +18,17 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 8c11164f7edb8e05b93f3c58b9707c0bf2482228
+ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
+ms.openlocfilehash: a0d49068d2c6a62bf7912c2fd7cccd53308bd196
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 # <a name="enter-sales-agreements"></a>Especificar los acuerdos de ventas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo crear un acuerdo de ventas por el que uno de sus clientes se comprometa a comprar un producto por
-
-un importe acordado durante un período de tiempo a cambio de descuentos especiales. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.
+Este procedimiento le muestra cómo crear un acuerdo de venta que compromete uno de los clientes a comprar un producto en una cantidad acordada durante un período de tiempo a cambio de descuentos especiales. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.
 
 
 ## <a name="set-up-sales-agreement-header"></a>Configurar el encabezado del acuerdo de venta
