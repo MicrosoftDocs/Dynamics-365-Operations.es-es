@@ -1,7 +1,7 @@
 ---
 title: Distribuciones en un informe de gastos
 description: "Al especificar gastos en un informe de gastos, puede distribuir el gasto entre varios proyectos, entidades jurídicas o cuentas de su organización."
-author: saraschi2
+author: ShylaThompson
 manager: AnnBe
 ms.date: 09/19/2017
 ms.topic: article
@@ -12,16 +12,14 @@ audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
-ms.search.validFrom:
-- month/year of release that feature was introduced in
-- in format yyyy-mm-dd
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0f3f50061fc5b9b4cfc00000492840061fc3b386
+ms.sourcegitcommit: 384c38f3e154495c882434d1c85cef63396cd897
+ms.openlocfilehash: 00d051a8f644a6a0bedb0acc3eaac9a3dd1109e7
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/15/2018
 
 ---
 
@@ -36,10 +34,10 @@ Por ejemplo, Nancy, una representante de ventas de Fabrikam, ha viajado de Copen
 Dado que Nancy ha trabajado en dos proyectos independientes durante su estancia en Frankfurt, cuando elabora el informe de gastos, distribuye los gastos como corresponde a cada proyecto. En la tabla siguiente se muestra cómo ha distribuido Nancy los gastos.
 
 
-| <strong>Tipo de gasto</strong> | <strong>Importe total de gastos</strong> | <strong>Importe distribuido al proyecto A</strong> | <strong>Importe distribuido al proyecto B</strong> |
-|-------------------------------|---------------------------------------|--------------------------------------------------|--------------------------------------------------|
-|          Billete de tren           |                578 coronas danesas                |                     405 coronas danesas                      |                     173 coronas danesas                      |
-|             Hotel             |                725 euros                |                     557 euros                      |                     168 euros                      |
-|             Comidas             |                346 euros                |                     284 euros                      |                      62 euros                      |
+| Tipo de gasto | Importe total de gastos|Importe distribuido al proyecto A| Importe distribuido al proyecto B |
+|--------------|---------------------|-------------------------------|---------------------------------|
+|Billete de tren   |578 coronas danesas              |405 coronas danesas                        |173 coronas danesas                          |
+|Hotel         |725 euros              |557 euros                        |168 euros                          |
+|Comidas         |346 euros              |284 euros                        |62 euros                           |
 
 

@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
-ms.openlocfilehash: b70d470da2160670848d2dca9c97f6d7a2d6cf60
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 78512e39e82e24f94dae93bbac116e6f07d25438
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-> [!Note]
+> [!NOTE]
 > La solución PowerBI.com se ha dejado de utilizar como documentado en [Paquetes de contenido de Power BI disponibles en AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Este tema describe la solución PowerBI.com sobre **rendimiento financiero**. Describe el panel de información y los informes incluidos y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar la solución.
@@ -58,7 +58,7 @@ Cada icono viene respaldado por un informe auxiliar. Estos informes contienen ta
 
 | Informe                      | Información que el informe contiene |
 |-----------------------------|--------------------------------------|
-| Análisis de efectivo               | Efectivo por entidad jurídica, efectivo por trimestre, efectivo total y efectivo por cuenta<br><br>**Nota:** El efectivo por la información del trimestre no incluye los saldos iniciales en el total del primer trimestre. Muestra el total de nuevas transacciones contabilizadas en cada trimestre.|
+| Análisis de efectivo               | Efectivo por entidad jurídica, efectivo por trimestre, efectivo total y efectivo por cuenta<blockquote>[!NOTE] El efectivo por la información del trimestre no incluye los saldos iniciales en el total del primer trimestre. Muestra el total de nuevas transacciones contabilizadas en cada trimestre.</blockquote> |
 | Análisis de índice actual      | Índice actual por entidad jurídica, índice actual por trimestre y saldos para activos actuales y pasivos actuales |
 | Análisis de índice rápido        | Índice rápido por entidad jurídica, índice rápido por trimestre y saldos para efectivo, clientes y pasivos actuales |
 | Análisis de coste de bienes vendidos | Coste de bienes vendidos (COGS) por entidad jurídica, COGS este año y el último año por trimestre, COGS para ventas por entidad jurídica, COGS total y COGS para porcentaje de ventas |
@@ -69,7 +69,7 @@ Cada icono viene respaldado por un informe auxiliar. Estos informes contienen ta
 | Análisis de ganancias           | Ganancias reales y de presupuesto antes de intereses e impuestos (IAII) por entidad jurídica, IAII este año y el año pasado, porcentaje de gastos para ingresos, y gastos reales y de presupuesto para ingresos |
 | Análisis de ingresos            | Ingresos totales, ingresos totales reales y de presupuesto por entidad jurídica, ingresos totales este año y el año pasado, varianza del presupuesto de ingresos por entidad jurídica e ingresos totales este y el último período |
 | Análisis de gastos            | Total de gastos, total de gastos reales frente a los de presupuesto por entidad jurídica, total de gastos reales y de presupuesto por trimestre, total de gastos por categoría de cuenta y coeficiente de gastos de explotación |
-| Análisis de ingresos facturados     | El total de clientes, total de clientes por entidad jurídica, total de clientes por trimestre y saldos de cuentas de clientes<br><br>**Nota:** La información no incluye los saldos iniciales para las cuentas contables de los clientes. Muestra el total de las transacciones nuevas registradas en Clientes. |
+| Análisis de ingresos facturados     | El total de clientes, total de clientes por entidad jurídica, total de clientes por trimestre y saldos de cuentas de clientes<blockquote>[!NOTE] La información no incluye los saldos iniciales para las cuentas contables de los clientes. Muestra el total de las transacciones nuevas registradas en Clientes.</blockquote> |
 
 Los gráficos y los iconos en todos estos informes se pueden filtrar y anclar al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
@@ -89,5 +89,5 @@ Las siguientes entidades se usaban como la base de la solución PowerBI.com de *
 - Libros mayores
 - Planes contables:
 
-Estas entidades se usaban para crear medidas calculadas en el modelo de datos. La medidas calculadas se utilizan para calcular los indicadores de rendimiento clave (KPI) y los informes que se utilizan en el contenido. De forma predeterminada, el contenido incluye datos de los tres últimos años y un año futuro. Para incluir cálculos adicionales sobre sus informes y panel de información, puede modificar el [libro de Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Este libro es el modelo de datos predeterminado usado para crear el contenido. 
+Estas entidades se usaban para crear medidas calculadas en el modelo de datos. La medidas calculadas se utilizan para calcular los indicadores de rendimiento clave (KPI) y los informes que se utilizan en el contenido. De forma predeterminada, el contenido incluye datos de los tres últimos años y un año futuro. Para incluir cálculos adicionales sobre sus informes y panel de información, puede modificar el [libro de Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Este libro es el modelo de datos predeterminado usado para crear el contenido.
 

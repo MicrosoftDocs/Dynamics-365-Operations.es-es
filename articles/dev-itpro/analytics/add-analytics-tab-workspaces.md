@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
 ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -54,7 +54,7 @@ Antes de empezar, debe crear u obtener el informe de Power BI que insertará en 
 Siga estos pasos para agregar un archivo .pbix como artefacto del proyecto de Visual Studio.
 
 1. Cree un nuevo proyecto en el modelo adecuado.
-2. En Explorador de soluciones, seleccione el proyecto, haga clic con el botón secundario y, a continuación, seleccione **Agregar** > **Nuevo artículo**.
+2. En Explorador de soluciones, seleccione el proyecto, haga clic con el botón secundario y, a continuación, seleccione **Agregar** \> **Nuevo artículo**.
 3. En el cuadro de diálogo **Agregar nuevo artículo** , en **Artefactos de operaciones**, seleccione la plantilla **Recurso**.
 4. Escriba un nombre que se usará para hacer referencia al informe en metadatos X++, y después haga clic en **Agregar**.
 
@@ -77,7 +77,7 @@ Siga estos pasos para extender la definición del formulario para el espacio de 
 
 1. Abra el diseñador de formularios para ampliar la definición de diseño.
 2. En la definición de diseño, seleccione el elemento superior que tiene la etiqueta **Diseño | Patrón: Operacional en espacio de trabajo**.
-3. Haga clic con el botón secundario y, a continuación seleccione **Nuevo** > **Ficha** para agregar un nuevo control que se llama **FormTabControl1**.
+3. Haga clic con el botón secundario y, a continuación seleccione **Nuevo** \> **Ficha** para agregar un nuevo control que se llama **FormTabControl1**.
 4. En el diseñador del formulario, seleccione **FormTabControl1**.
 5. Haga clic con el botón secundario y, a continuación seleccione **Página de nueva pestaña** para agregar una nueva página de pestaña.
 6. Cambie el nombre de la página de ficha por un nombre con significado, como por ejemplo **Espacio de trabajo**.
@@ -86,12 +86,12 @@ Siga estos pasos para extender la definición del formulario para el espacio de 
 9. Cambie el nombre de la página de ficha por un nombre con significado, como por ejemplo **Análisis**.
 10. En el diseñador de formularios, seleccione **Análisis (página de pestaña)**.
 11. Establezca la propiedad **Leyenda** en **Análisis**.
-12. Haga clic con el botón secundario en el control y, a continuación seleccione **Nuevo** > **Grupo** para agregar un nuevo control de grupo del formulario.
+12. Haga clic con el botón secundario en el control y, a continuación seleccione **Nuevo** \> **Grupo** para agregar un nuevo control de grupo del formulario.
 13. Cambie el nombre del grupo de formulario por un nombre con significado, como por ejemplo **powerBIReportGroup**.
 14. En el diseñador de formularios, seleccione **PanoramaBody (ficha)**, y después arrastre el control a la pestaña **Espacio de trabajo** .
 15. En la definición de diseño, seleccione el elemento superior que tiene la etiqueta **Diseño | Patrón: Operacional en espacio de trabajo**.
 16. Haga clic con el botón secundario del mouse y seleccione **Quitar patrón**.
-17. Vuelva a hacer clic con el botón secundario, y después seleccione **Agregar patrón** > **Espacio de trabajo tabulado**.
+17. Vuelva a hacer clic con el botón secundario, y después seleccione **Agregar patrón** \> **Espacio de trabajo tabulado**.
 18. Realice una compilación para comprobar los cambios.
 
 La ilustración siguiente muestra el aspecto del diseño después de aplicar estos cambios.
@@ -116,7 +116,7 @@ Siga estos pasos para agregar la lógica de negocios que inicializa el control d
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
-        private boolean initReportControl = true;     
+        private boolean initReportControl = true;
         protected void initAnalyticalReport()
         {
             if (!initReportControl)
@@ -126,11 +126,11 @@ Siga estos pasos para agregar la lógica de negocios que inicializa el control d
             // Note: secure entry point into the Workspace's Analytics report
             if (Global::hasMenuItemAccess(menuItemDisplayStr(FMClerkWorkspace), MenuItemType::Display))
             {
-                FMPBIWorkspaceController controller = new FMPBIWorkspaceController();
+                // initialize the PBI report control using shared helper
                 PBIReportHelper::initializeReportControl('FMPBIWorkspaces', powerBIReportGroup);
             }
             initReportControl = false;
-    }
+        }
         /// <summary>
         /// Initializes the form.
         /// </summary>
@@ -159,23 +159,22 @@ Esta sección proporciona información sobre la clase de auxiliar que se utiliza
 #### <a name="syntax"></a>Sintaxis
 ```
 public static void initializeReportControl(
-     str                 _resourceName,
-     FormGroupControl    _formGroupControl,
-     str                 _defaultPageName = '',
-     boolean             _showFilterPane = false,
-     boolean             _showNavPane = false,
-     List                _defaultFilters = new List(Types::Class))
+    str                 _resourceName,
+    FormGroupControl    _formGroupControl,
+    str                 _defaultPageName = '',
+    boolean             _showFilterPane = false,
+    boolean             _showNavPane = false,
+    List                _defaultFilters = new List(Types::Class))
 ```
 
 #### <a name="parameters"></a>Parámetros
 
-|       Nombre       |                                                              Descripción                                                               |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-|   resourceName   |                                                    El nombre del recurso .pbix.                                                     |
-| formGroupControl |                                    El control de grupo de formulario al que se aplica el control del informe de Power BI.                                     |
-| defaultPageName  |                                                         El nombre de la página predeterminada.                                                         |
-|  showFilterPane  |   Un valor booleano que indica si el panel de filtros se debe mostrar (<strong>true</strong>) u ocultar (<strong>false</strong>).   |
-|   showNavPane    | Un valor booleano que indica si el panel de navegación se debe mostrar (<strong>true</strong>) u ocultar (<strong>false</strong>). |
-|  defaultFilters  |                                              Los filtros predeterminados del informe de Power BI.                                              |
-
+| Nombre             | Descripción                                                                                                  |
+|------------------|--------------------------------------------------------------------------------------------------------------|
+| resourceName     | El nombre del recurso .pbix.                                                                              |
+| formGroupControl | El control de grupo de formulario al que se aplica el control del informe de Power BI.                                              |
+| defaultPageName  | El nombre de la página predeterminada.                                                                                       |
+| showFilterPane   | Un valor booleano que indica si el panel de filtros se debe mostrar (**true**) u ocultar (**false**).     |
+| showNavPane      | Un valor booleano que indica si el panel de navegación se debe mostrar (**true**) u ocultar (**false**). |
+| defaultFilters   | Los filtros predeterminados del informe de Power BI.                                                                 |
 

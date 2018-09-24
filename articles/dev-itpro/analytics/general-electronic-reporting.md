@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: a271887c4d2cfe4d0ee6518482dc4ebe407ebe56
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 185d1adc88a29bc3ae722ae2c6f0a2769428bce3
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -63,8 +63,8 @@ Una entidad de negocio de un modelo de datos se representa como un contenedor (r
 
 Un único componente del modelo de datos puede contener varias jerarquías de entidades empresariales de dominio específicas. También contiene asignaciones de modelo que admiten un flujo de datos de informes específico en el tiempo de ejecución. Las jerarquías se distinguen por un único registro que se ha seleccionado como raíz para la asignación de modelo Por ejemplo, el modelo de datos del área de dominio de pago puede admitir las asignaciones siguientes:
 
-- Empresa > Proveedor > Transacciones de pago del dominio de proveedores
-- Cliente > Empresa > transacciones de pago del dominio de clientes
+- Empresa \> Proveedor \> Transacciones de pago del dominio de proveedores
+- Cliente \> Empresa \> transacciones de pago del dominio de clientes
 
 Tenga en cuenta que las entidades empresariales como las transacciones de empres y de pago se diseñan una vez. Asignaciones diferentes, a continuación, vuelven a utilizarlas.
 
@@ -74,7 +74,7 @@ Una asignación de modelo que admite documentos electrónicos salientes tiene la
 - Admite parámetros de entrada de usuario que se pueden definir como orígenes de datos para un modelo de datos cuando algunos datos se deben especificar en el tiempo de ejecución.
 - Admite la transformación de los datos de Finance and Operations en los grupos necesarios. También permite, filtrar, clasificar y sumar datos y anexar campos lógicos calculados que están diseñados con las fórmulas que se asemejan las fórmulas de Microsoft Excel, como se muestra en la siguiente ilustración. Para obtener más información, consulte [Diseñador de fórmulas en los informes electrónicos](general-electronic-reporting-formula-designer.md)).
 
-[![Diseñador de fórmulas](./media/ER-overview-01.png)](./media/ER-overview-01.png) 
+[![Diseñador de fórmulas](./media/ER-overview-01.png)](./media/ER-overview-01.png)
 
 Una asignación de modelo que admite documentos electrónicos entrantes tiene las siguientes capacidades:
 
@@ -114,7 +114,7 @@ Un componente de formato es el esquema del documento entrante que se importa en 
 
 - Un formato que define la estructura y el contenido del documento electrónico de entrada que contiene datos que se importan en tiempo de ejecución. Un componente de formato se usa analizar un documento entrante en distintos formatos, como texto y XML.
 - Una asignación de formato que vincula elementos individuales de formato a elementos de un modelo de datos específico de dominio. En tiempo de ejecución, los elementos en el modelo de datos especifican el flujo de datos y las reglas para importar datos desde un documento de entrada y después almacenar los datos en un modelo de datos.
-- Una validación del formato como un conjunto de reglas configurables que controlan la importación de datos en el tiempo de ejecución en función de contexto de ejecución. Por ejemplo, puede haber una regla que detenga la importación de taos de un extracto bancario que tenga pagos de proveedor y produzca una excepción cuando falte un atributo específico del proveedor seleccionado, por ejemplo el código de identificación del proveedor.
+- Una validación del formato como un conjunto de reglas configurables que controlan la importación de datos en el tiempo de ejecución en función de contexto de ejecución. Por ejemplo, puede haber una regla que detenga la importación de datos de un extracto bancario que tenga pagos de proveedor y produzca una excepción cuando falte un atributo específico del proveedor seleccionado, por ejemplo el código de identificación del proveedor.
 
 La ilustración siguiente muestra fluyen los datos para estos formatos.
 
@@ -175,7 +175,7 @@ Los repositorios necesarios del **Proyecto LCS** se pueden registrar de manera i
 ## <a name="supported-scenarios"></a>Escenarios admitidos
 ### <a name="building-a-data-model"></a>Creación de un modelo de datos
 
-ER proporciona un diseñador de modelo que puede usar para crear un modelo de datos para un dominio concreto de negocio. Todas las entidades específicas de empresa de dominio y las relaciones entre ellas se pueden presentar en un modelo de datos como una estructura jerárquica. En la siguiente ilustración se muestra un ejemplo de este tipo de modelo de datos (el modelo de datos de dominio de pago). 
+ER proporciona un diseñador de modelo que puede usar para crear un modelo de datos para un dominio concreto de negocio. Todas las entidades específicas de empresa de dominio y las relaciones entre ellas se pueden presentar en un modelo de datos como una estructura jerárquica. En la siguiente ilustración se muestra un ejemplo de este tipo de modelo de datos (el modelo de datos de dominio de pago).
 
 [![Modelo de datos de dominio de pago](./media/ER-overview-04.png)](./media/ER-overview-04.png)
 
@@ -185,19 +185,18 @@ Para familiarizarse con los detalles de este escenario, reproduzca la guía de t
 
 El contenido del modelo de datos (etiquetas y descripciones) se puede traducir a otros idiomas admitidos por Finance and Operations. Desea traducir el contenido del modelo de datos por las siguientes razones:
 
--   En tiempo de diseño, para que el contenido sea más inteligible para los diseñadores de formato que hablan otros idiomas que utilizarán un modelo de datos para la asignación de datos de los componentes de formato.
--   En tiempo de ejecución, para hacer el contenido más sencillo con anuncios y ayudas de los parámetros de tiempo de ejecución, así como mensajes configurados de validación (errores y advertencias), en el idioma que prefiere el usuario registrado actualmente.
+- En tiempo de diseño, para que el contenido sea más inteligible para los diseñadores de formato que hablan otros idiomas que utilizarán un modelo de datos para la asignación de datos de los componentes de formato.
+- En tiempo de ejecución, para hacer el contenido más sencillo con anuncios y ayudas de los parámetros de tiempo de ejecución, así como mensajes configurados de validación (errores y advertencias), en el idioma que prefiere el usuario registrado actualmente.
 
-La ilustración siguiente muestra un ejemplo de cómo se traduce el contenido del modelo de datos del inglés al japonés. 
+La ilustración siguiente muestra un ejemplo de cómo se traduce el contenido del modelo de datos del inglés al japonés.
 
 [![Contenido del modelo de datos en inglés](./media/ER-overview-05.png)](./media/ER-overview-05.png)
 
 [![Contenido del modelo de datos traducido al japonés](./media/ER-overview-06.png)](./media/ER-overview-06.png)
 
-
 ### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>Configurar asignaciones del modelo de datos para los documentos de salida
 
-ER proporciona un diseñador de asignación de modelos que permite a los usuarios asignar modelos de datos que se han diseñado para orígenes de datos de Finance and Operations específicos. En función de la asignación, los datos se importarán en tiempo de ejecución desde los orígenes de datos seleccionados en el modelo de datos. El modelo de datos se usa como un origen de datos abstracto de los formatos de ER que generan los documentos electrónicos salientes. La ilustración siguiente muestra un ejemplo de este tipo de asignación de modelo de datos (**Transferencia de crédito SEPA** asignación del modelo de datos de dominio de pago). 
+ER proporciona un diseñador de asignación de modelos que permite a los usuarios asignar modelos de datos que se han diseñado para orígenes de datos de Finance and Operations específicos. En función de la asignación, los datos se importarán en tiempo de ejecución desde los orígenes de datos seleccionados en el modelo de datos. El modelo de datos se usa como un origen de datos abstracto de los formatos de ER que generan los documentos electrónicos salientes. La ilustración siguiente muestra un ejemplo de este tipo de asignación de modelo de datos (**Transferencia de crédito SEPA** asignación del modelo de datos de dominio de pago).
 
 [![Ejemplo de una asignación de modelo de datos](./media/ER-overview-07.png)](./media/ER-overview-07.png)
 
@@ -210,13 +209,13 @@ ER proporciona un diseñador de asignación de modelos que permite a los usuario
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Almacenar un componente modelo diseñado como una configuración del modelo
 
-ER puede almacenar un modelo de datos diseñado junto con las asignaciones de datos asociadas como una configuración del modelo de la instancia actual de Finance and Operations. En la siguiente ilustración se muestra un ejemplo de este tipo de configuración de modelo de datos (la configuración del modelo de pago). 
+ER puede almacenar un modelo de datos diseñado junto con las asignaciones de datos asociadas como una configuración del modelo de la instancia actual de Finance and Operations. En la siguiente ilustración se muestra un ejemplo de este tipo de configuración de modelo de datos (la configuración del modelo de pago).
 
 Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **CE Asignar modelo de datos a los orígenes de datos seleccionados** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**).
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Creación de un formato que usa un modelo de datos como base
 
-ER admite un diseñador de formato que puede usar para crear el formato de un documento electrónico para un dominio empresarial seleccionando el componente modelo como base. El mismo diseñador del formato de ER le permite asignar un formato que crea a la asignación del modelo de datos de un dominio seleccionado como origen de datos. En la siguiente ilustración se muestra un ejemplo de este tipo de formato (la configuración de formato que admite el formato de pago **BACS** para el Reino Unido). 
+ER admite un diseñador de formato que puede usar para crear el formato de un documento electrónico para un dominio empresarial seleccionando el componente modelo como base. El mismo diseñador del formato de ER le permite asignar un formato que crea a la asignación del modelo de datos de un dominio seleccionado como origen de datos. En la siguiente ilustración se muestra un ejemplo de este tipo de formato (la configuración de formato que admite el formato de pago **BACS** para el Reino Unido).
 
 [![Ejemplo de un formato que tiene un modelo de datos como base](./media/ER-overview-09.png)](./media/ER-overview-09.png)
 
@@ -240,7 +239,7 @@ Para familiarizarse con los detalles de este escenario, reproduzca la guía de t
 - [Plantilla de informe de pago (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 - [Plantilla enlazada de pago (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
-### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Generar una configuración para importar datos desde documentos electrónicos entrantes  
+### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Generar una configuración para importar datos desde documentos electrónicos entrantes
 El diseñador del formato de ER se puede utilizar para describir un documento electrónico que se planifica para la importación de datos en formato XML o de texto. El formato diseñado se usa para analizar un documento de entrada. El diseñador de la asignación de formato de ER se puede utilizar para definir el enlazado de los elementos del formato diseñado para el modelo de datos. La siguiente ilustración muestra un ejemplo de este tipo de formato y asignación de formato. En este ejemplo, se importan extractos bancarios de NETS que incluyen los detalles de pago de proveedores en formato de texto.
 
 [![ER-format-designer](./media/ER-overview-12.png)](./media/ER-overview-12.png)
@@ -260,7 +259,7 @@ ER puede almacenar un formato diseñado junto con las asignaciones configuradas 
 
 ### <a name="configuring-finance-and-operations-to-start-to-use-a-created-format-internally"></a>Configuración de Finance and Operations para comenzar a usar un formato creado internamente
 
-Finance and Operations se puede configurar para empezar a usar un formato creado para generar informes electrónicos. La referencia a la configuración creada de formato se debe definir en la configuración de un determinado dominio. Por ejemplo, para empezar a utilizar una configuración de formato de ER para pagos electrónicos a proveedores en formato BACS, se debe hacer referencia a la configuración de formato en métodos específicos de pago, como se muestra en las siguientes ilustraciones: 
+Finance and Operations se puede configurar para empezar a usar un formato creado para generar informes electrónicos. La referencia a la configuración creada de formato se debe definir en la configuración de un determinado dominio. Por ejemplo, para empezar a utilizar una configuración de formato de ER para pagos electrónicos a proveedores en formato BACS, se debe hacer referencia a la configuración de formato en métodos específicos de pago, como se muestra en las siguientes ilustraciones:
 
 [![Configuración de formato BACS (Reino Unido)](./media/ER-overview-14.png)](./media/ER-overview-14.png)
 
@@ -367,15 +366,9 @@ ER le permite adoptar automáticamente los cambios de la última versión del co
 |                                                  |                       | Declaración de factura de proveedor (IS)                   | Formato de declaración de factura de proveedor para Islandia                      |
 |                                                  |                       | Informe de declaración de facturas de proveedor (IS)            | Informe de declaración de factura de proveedor para Islandia                      |
 
-
-
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Requisitos de localización: crear una configuración de informes electrónicos](electronic-reporting-configuration.md)
 
 [Administrar el ciclo de vida de las configuraciones de la notificación electrónica](general-electronic-reporting-manage-configuration-lifecycle.md)
-
-
-
 

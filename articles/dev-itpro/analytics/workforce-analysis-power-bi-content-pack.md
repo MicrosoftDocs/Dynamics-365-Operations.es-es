@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 17b42ae7e177a42b732654f2952ec5fe35acb1a9
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,34 +35,34 @@ Este tema describe el contenido en Microsoft Power BI de **métricas de recursos
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 El contenido en Power BI de **métricas de recursos** se muestra en el espacio de trabajo **Administración de personal** si usa uno de estos productos:
 
-- Microsoft Dynamics 365 for Finance and Operations 
+- Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
 En la tabla siguiente se enumeran las métricas que se muestran en cada informe.
 
-| Informe                                           | Métricas                                                                                                                                                                                                            |
-|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Métrica de las personas                                   | Resumen de otros informes                                                                                                                           |
-| Empresa de análisis de recuento de personas, Departamento, Ubicación | Recuento de personas por empresa, recuento de personas por departamento, recuento de personas por ubicación y recuento de personas totales                                                                                                                           |
-| Trabajo de análisis de recuento de personas, Paso, Administrador            | Recuento de personas por trabajo, recuento de personas por paso, recuento de personas por administrador y recuento de personas totales                                                                                                                                      |
-| Análisis de tendencia del recuento de personas                         | Recuento de personas de este año con relación al año anterior por empresa y recuento de personas acumulado para los últimos 12 meses                                                                                                                        |
+| Informe                                           | Métricas |
+|--------------------------------------------------|---------|
+| Métrica de las personas                                   | Resumen de otros informes |
+| Empresa de análisis de recuento de personas, Departamento, Ubicación | Recuento de personas por empresa, recuento de personas por departamento, recuento de personas por ubicación y recuento de personas totales |
+| Trabajo de análisis de recuento de personas, Paso, Administrador            | Recuento de personas por trabajo, recuento de personas por paso, recuento de personas por administrador y recuento de personas totales |
+| Análisis de tendencia del recuento de personas                         | Recuento de personas de este año con relación al año anterior por empresa y recuento de personas acumulado para los últimos 12 meses |
 | Análisis de FTE                                     | Equivalente a jornada completa (FTE), FTE asignado total, FTE por departamento, FTE de los últimos 12 meses y FTE por trabajo |
 | Datos demográficos de recursos                           | Recuento de personas por edad y género, recuento de personas por origen étnico, recuento de personas por estado de excombatiente, recuento de personas por estado civil, número de estudiantes a jornada completa, duración media, edad media, proporción entre mujeres y hombres e idiomas hablados por los empleados |
-| Análisis de puestos                                | Vacantes por departamento, puestos vacantes a ocupados, puestos activos a inactivos y puestos por departamento                                                                                                   |
-| Análisis de abandono                               | Abandono de este año frente al año pasado, abandono, empleados que salen por antigüedad y género, tiempo medio en la empresa de los empleados que se van, empleados que salen este mes y empleados que se van por un motivo                                                                   |
-| Personas por departamento                             | Empleados con un número de personal por departamento, puesto y fechas inicial y final de asignación                                                                                                                       |
-| Análisis de antigüedad                               | Promedio de tiempo en la empresa, promedio de años de servicio por empresa y lista de antigüedad                                                                                                                                                              |
-| Aniversarios del empleado                           | Aniversarios este mes, aniversarios el siguiente mes, empleados por años de servicio, y aniversarios, años de servicio por departamento                                                                                                                                                                    |
-| Cumpleaños del empleado                               | Cumpleaños este mes, el cumpleaños siguiente mes, cumpleaños de los empleados, y cumpleaños por mes y departamento                                                                                                                                                                    |
-| Proyectos de contratación masiva                               | Proyectos de contratación masiva totales, proyectos de contratación masiva por estado, proyectos de contratación masiva por departamento y propietario, proyectos de contratación masiva por trabajo, y proyectos de contratación masiva                                                                                                                                                                    |
+| Análisis de puestos                                | Vacantes por departamento, puestos vacantes a ocupados, puestos activos a inactivos y puestos por departamento |
+| Análisis de abandono                               | Abandono de este año frente al año pasado, abandono, empleados que salen por antigüedad y género, tiempo medio en la empresa de los empleados que se van, empleados que salen este mes y empleados que se van por un motivo |
+| Personas por departamento                             | Empleados con un número de personal por departamento, puesto y fechas inicial y final de asignación |
+| Análisis de antigüedad                               | Promedio de tiempo en la empresa, promedio de años de servicio por empresa y lista de antigüedad |
+| Aniversarios del empleado                           | Aniversarios este mes, aniversarios el siguiente mes, empleados por años de servicio, y aniversarios, años de servicio por departamento |
+| Cumpleaños del empleado                               | Cumpleaños este mes, el cumpleaños siguiente mes, cumpleaños de los empleados, y cumpleaños por mes y departamento |
+| Proyectos de contratación masiva                               | Proyectos de contratación masiva totales, proyectos de contratación masiva por estado, proyectos de contratación masiva por departamento y propietario, proyectos de contratación masiva por trabajo, y proyectos de contratación masiva |
 
 Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e iconos al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 Asegúrese de descargar el contenido en Power BI de **métricas de recursos** que se aplica a la versión de Microsoft Dynamics 365 que esté usando.
 
->[!NOTE]
->Los archivos .pbix disponibles en Lifecycle Services se aplican solamente a Finance and Operations.
+> [!NOTE]
+> Los archivos .pbix disponibles en Lifecycle Services se aplican solamente a Finance and Operations.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 En la tabla siguiente se muestran las entidades en las que se basaba el contenido.
@@ -88,6 +88,4 @@ En la tabla siguiente se muestran las entidades en las que se basaba el contenid
 | Tendencia del empleado           | Trabajadores a lo largo del tiempo, plantilla, empresa y puesto                                 | Empresa, ubicación geográfica, nombre del empleado, responsable ante, contrapartida del calendario, fecha, puesto del empleado, demografía, empleo, trabajo |
 | Proyecto de contratación masiva        | Número de proyectos de contratación masiva, propietario del proyecto, y estado de proyecto                     | Empresa, línea de contratación masiva |
 | Línea de contratación masiva           | Departamento, tipo de empleo y puesto                                           | Fecha, trabajo, proyecto de contratación masiva |
-
-
 

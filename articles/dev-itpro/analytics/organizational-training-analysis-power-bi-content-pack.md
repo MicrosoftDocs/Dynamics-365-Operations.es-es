@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: 18567a3241fce02e17df368f544e545fad93e1d9
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 6c1855013dc449950877f8727a5453942aeb75de
 ms.contentlocale: es-es
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -29,10 +29,10 @@ ms.lasthandoff: 03/23/2018
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describe Finance and Operations, contenido de Power BI sobre formación organizativa. 
+En este tema se describe Finance and Operations, contenido de Power BI sobre formación organizativa.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Informes que se incluyen en el paquete de contenido
-Tras la conexión del paquete de contenido con sus datos de Finance and Operations, los informes muestran los datos de su organización. Si nunca antes ha utilizado Microsoft Power BI, consulte [Aprendizaje dirigido para Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) para obtener más información acerca de la aplicación. Los informes incluidos en el paquete de contenido tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.
+Tras conectar el paquete de contenido con sus datos de Finance and Operations, los informes muestran los datos de su organización. Si nunca antes ha utilizado Microsoft Power BI, consulte [Aprendizaje dirigido para Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) para obtener más información acerca de la aplicación. Los informes incluidos en el paquete de contenido tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.
 
 | Informe          | Contenido                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
@@ -44,23 +44,19 @@ Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 Los datos de Finance and Operations se usan para rellenar los informes del paquete de contenido sobre formación organizativa. En la tabla siguiente se muestran las entidades en las que se basaba el paquete de contenido.
 
-| Entidad                    | Contenido                                                         | Relaciones con otras entidades                                                                                                                                                                  |
-|---------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Training\_CalendarOffset  | Desplazamientos del calendario para dividir informes                                | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Company         | Empresas para filtrar informes por                                   | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Course          | Curso, descripción, nombre del instructor, ubicación, sitio y estado | Training\_CourseAgenda Training\_CourseAttendees Training\_CourseSkill                                                                                                                             |
-| Training\_CourseAgenda    | Programa, curso, y horas de inicio y finalización                          | Training\_Company Training\_CalendarOffset Training\_Date Training\_Course                                                                                                                         |
-| Training\_CourseAttendees | Nombre, estado, trabajo y fecha de registro                         | Training\_Company Training\_CalendarOffset Training\_Date Training\_Demographics Training\_Employment Training\_Course Training\_WorkerName Training\_WorkerTitle Training\_Job Training\_Position |
-| Training\_CourseSkill     | Aptitudes, tipo de aptitud y nivel                                     | Training\_Course                                                                                                                                                                                   |
-| Training\_Date            | Días, semanas, meses y años                                   | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Demographics    | Fecha de nacimiento, género, origen étnico y estado civil         | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Employment      | Fecha de inicio, fecha final y fecha de transición                        | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Job             | Función tipo y cargo                                        | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Position        | Puesto, título y equivalente a jornada completa                  | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_WorkerName      | Nombre, apellido y nombre completo                             | Training\_CourseAttendees                                                                                                                                                                          |
-| Training\_WorkerTitle     | Cargo y fecha de antigüedad                                         | Training\_CourseAttendees                                                                                                                                                                          |
-
-
-
-
+| Entidad                    | Contenido                                                         | Relaciones con otras entidades |
+|---------------------------|------------------------------------------------------------------|-----------------------------------|
+| Training\_CalendarOffset  | Desplazamientos del calendario para dividir informes                                | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Company         | Empresas para filtrar informes por                                   | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Course          | Curso, descripción, nombre del instructor, ubicación, sitio y estado | Training\_CourseAgenda, Training\_CourseAttendees, Training\_CourseSkill |
+| Training\_CourseAgenda    | Programa, curso, y horas de inicio y finalización                          | Training\_Company, Training\_CalendarOffset, Training\_Date, Training\_Course |
+| Training\_CourseAttendees | Nombre, estado, trabajo y fecha de registro                         | Training\_Company, Training\_CalendarOffset, Training\_Date, Training\_Demographics, Training\_Employment, Training\_Course, Training\_WorkerName, Training\_WorkerTitle, Training\_Job, Training\_Position |
+| Training\_CourseSkill     | Aptitudes, tipo de aptitud y nivel                                     | Training\_Course |
+| Training\_Date            | Días, semanas, meses y años                                   | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Demographics    | Fecha de nacimiento, género, origen étnico y estado civil         | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Employment      | Fecha de inicio, fecha final y fecha de transición                        | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Job             | Función tipo y cargo                                        | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Position        | Puesto, título y equivalente a jornada completa                  | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_WorkerName      | Nombre, apellido y nombre completo                             | Training\_CourseAttendees |
+| Training\_WorkerTitle     | Cargo y fecha de antigüedad                                         | Training\_CourseAttendees |
 

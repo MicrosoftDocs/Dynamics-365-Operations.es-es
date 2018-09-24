@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 78b41010e4ab56675121ab5479cada37645e9ee3
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 5483a1d40907fab3ed3da8174f1dfb8a5bc86960
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -30,25 +30,24 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-En este artículo se explica cómo establecer preferencias de usuario para personalizar sus interacciones de usuario en el diseñador de informes financieros y controlar la experiencia de inicio de sesión inicial. También puede controlar cómo se muestran los informes individuales, la biblioteca de informes y las ubicaciones de archivo predeterminadas. 
+En este artículo se explica cómo establecer preferencias de usuario para personalizar sus interacciones de usuario en el diseñador de informes financieros y controlar la experiencia de inicio de sesión inicial. También puede controlar cómo se muestran los informes individuales, la biblioteca de informes y las ubicaciones de archivo predeterminadas.
 
-<a name="set-user-preferences"></a>Definir preferencias de usuario
---------------------
+## <a name="set-user-preferences"></a>Definir preferencias de usuario
 
-1.  En el diseñador de informes, en el menú **Herramientas**, haga clic en **Opciones**.
-2.  En el cuadro de diálogo **Opciones**, seleccione sus preferencias.
-3.  Haga clic en **Aceptar**.
+1. En el diseñador de informes, en el menú **Herramientas**, haga clic en **Opciones**.
+2. En el cuadro de diálogo **Opciones**, seleccione sus preferencias.
+3. Haga clic en **Aceptar**.
 
 ## <a name="options-dialog-box-options"></a>Opciones del cuadro de diálogo de opciones
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Opción de usuario</th>
 <th>Descripción</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>En inicio</td>
 <td>Seleccione lo que ve cuando se inicia el Diseñador de informes. Seleccione una de las siguientes opciones:
 <ul>
@@ -57,28 +56,22 @@ En este artículo se explica cómo establecer preferencias de usuario para perso
 <li><strong>Mostrar entorno vacío</strong>: abre una ventana vacía del diseñador.</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Visualización de la confirmación antes de salir del Diseñador de informes</td>
 <td>Seleccione si desea recibir un mensaje de advertencia cuando sale de la aplicación. Este mensaje ayuda a garantizar que no sale del programa sin querer.</td>
 </tr>
-<tr class="odd">
-<td>Aplicar automáticamente el subrayado de celda en encabezados de columnas</td>
+<tr>
+<td>Aplicar automáticamente subrayado de la celda en encabezados de columna</td>
 <td>Seleccione si desea insertar un subrayado en la celda de un nuevo encabezado de columna.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Ubicación de los archivos del generador de gestión</td>
 <td>Especifique la ubicación predeterminada de los archivos. La aplicación utiliza la ubicación predeterminada al exportar grupos de bloques de creación.</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
-
-
-
 

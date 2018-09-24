@@ -17,10 +17,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2e942f937d151bb10a55395b411d5940240df018
-ms.openlocfilehash: dfc5ba7ec7e6c8b836a5c696a2e57af0718a8b23
+ms.sourcegitcommit: 71623beb27f63aa457732f23d7ea177c642ddc1f
+ms.openlocfilehash: 5abebdf8c7c87d7f317fe8520628b14804084629
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/22/2018
 
 ---
 
@@ -36,9 +36,11 @@ Sin embargo, Microsoft Dynamics AX y Finance and Operations no abordan todos los
 
 - Normas nacionales
 - Payroll
-- Regulaciones específicas del sector (como para agricultura)
-- Regulaciones verticales (como el petróleo y gas o sustancias químicas)
+- Regulaciones específicas del sector
+- Regulaciones verticales 
 - Requisitos de estado, ciudad, o municipales
+
+Los detalles adicionales están disponibles en el [Manual de disponibilidad de localización](https://aka.ms/ax-availabilityguide).
 
 Los socios de canal son un aspecto importante de nuestra estrategia global para entregar Microsoft Dynamics AX y Finance and Operations para ayudar a los clientes a cumplir con los requisitos para México. Aprovechándose de la naturaleza extensible de la arquitectura del desarrollo de Microsoft Dynamics AX y Finance and Operations, los socios de canal pueden abordar necesidades específicas del negocio de un cliente durante la implementación con cualquiera de los enfoques siguientes:
 

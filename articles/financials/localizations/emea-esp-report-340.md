@@ -17,10 +17,10 @@ ms.author: epodkolz
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 82351988757372acf397a3c48d7402234c994095
-ms.openlocfilehash: ff375f1a6a97de6a87961d8cd0ec128ce37ff730
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: 8d98088ed71f01d78f69958cab65ef804673b8ef
 ms.contentlocale: es-es
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -122,7 +122,7 @@ El formato del archivo de texto del informe 340 cumple con los requisitos normat
 
 Puede validar el formato de archivo mediante uno de los siguientes métodos:
 
-- Cargar el archivo en el [sitio web de las autoridades fiscales](https://www5.aeat.es/es13/h/iemodelk.html?mod=9340). Puede probar el archivo en una página determinada del sitio. Sin embargo, debe disponer de un certificado electrónico válido.
+- Cargar el archivo en el sitio web de las autoridades fiscales españolas. Puede probar el archivo en una página determinada del sitio. Sin embargo, debe disponer de un certificado electrónico válido.
 
     > [!NOTE]
     > Los certificados electrónicos se emiten solo a ciudadanos españoles.

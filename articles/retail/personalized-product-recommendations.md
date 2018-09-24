@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 368468a1c1cd023862f1405dddf3a90574edce22
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: 7925a37c595f5ffa040747462d3ea60a3da41858
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 08/09/2018
 [!include [banner](includes/banner.md)]
 
 > [!NOTE]
-> Estamos retirando la versión actual del servicio de recomendación de productos ya que rediseñamos esta función con un algoritmo mejor y capacidades más nuevas orientadas a la venta minorista. Para obtener más información, consulte [Funciones retiradas u obsoletas](../dev-itpro/migration-upgrade/deprecated-features.md). Desplácese al inferior de la página si tiene problemas con las recomendaciones ya habilitadas del producto para su entorno. 
+> Estamos retirando la versión actual del servicio de recomendación de productos ya que rediseñamos esta función con un algoritmo mejor y capacidades más nuevas orientadas a la venta minorista. Para obtener más información, consulte [Funciones retiradas u obsoletas](../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 En Dynamics 365 for Retail, las recomendaciones de productos se pueden visualizar en el dispositivo de punto de venta (PDV). Las recomendaciones son artículos que pueden interesar al cliente en función de su historial de compra, los artículos de su lista de deseos y los artículos que compraron otros clientes en línea y en tiendas de físicas. Para minoristas con grandes catálogos, las recomendaciones ayudan al cliente con el descubrimiento de productos. Al mostrar productos orientados a los intereses y hábitos de compra de un cliente, las recomendaciones de productos pueden ayudar a los minoristas con las ventas verticales y cruzadas, y a mejorar la retención de clientes. En Dynamics 365 for Retail, las recomendaciones de productos son impulsadas por servicios cognitivos y el aprendizaje automático de Microsoft Azure.
 

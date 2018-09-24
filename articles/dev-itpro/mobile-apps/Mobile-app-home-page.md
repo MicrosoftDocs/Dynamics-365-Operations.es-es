@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: b9cdb2b2c2b5aaf7743cd2cd0dbfee6c602a5a46
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: d6d26da330974305fa3725fe7c2506d198b17e2c
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -138,9 +138,10 @@ La siguiente tabla incluye vínculos a los recursos que pueden ayudarle a implem
 <td>8</td>
 <td>Usuario</td>
 <td>Descargar e instalar la aplicación móvil.</td>
-<td><ul>
-<li><a href="https://go.microsoft.com/fwlink/?linkid=850662">Para teléfonos Android</a></li>
-<li><a href="https://go.microsoft.com/fwlink/?linkid=850663">Para iPhones</a></li></ul>
+<td>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Aplicación de Unified Operations para Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Aplicación de Unified Operations para iOS</a><BR/>
+(Windows puede no admitido)
 </td>
 </tr>
 <tr class="odd">
