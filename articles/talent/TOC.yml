@@ -6,6 +6,14 @@
       items:
         - name: Novedades y cambios
           items:
+            - name: Novedades y cambios en Dynamics 365 for Talent Core HR (1 de octubre de 2018)
+              href: whats-new-talent-october-01.md
+            - name: Novedades y cambios en Dynamics 365 for Talent Core HR (24 de septiembre de 2018)
+              href: whats-new-talent-september-24.md
+            - name: Novedades y cambios en Dynamics 365 for Talent Core HR (17 de septiembre de 2018)
+              href: whats-new-talent-september-17-2018.md
+            - name: Novedades y cambios en Dynamics 365 for Talent Core HR (10 de septiembre de 2018)
+              href: whats-new-talent-september-10.md
             - name: Novedades y cambios en Dynamics 365 for Talent Core HR (agosto de 2018)
               href: whats-new-talent-august2018.md
             - name: Novedades y cambios en Dynamics 365 for Talent Core HR (julio de 2018)
@@ -20,10 +28,14 @@
           href: modular-app-tech-faq.md
         - name: Integrar aplicaciones de PowerApps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Core HR y Common Data Service para aplicaciones
+          href: CoreHREntities.md
         - name: Acceder a características de vista previa
           href: access-preview-feature.md
         - name: Configurar la integración de nóminas entre Talent y Dayforce
           href: configure-payroll-integration.md
+        - name: Obtener soporte para Talent
+          href: talent-support.md
     - name: 'Organizar los recursos mediante departamentos, trabajos y puestos'
       href: departments-jobs-positions.md
       items:
@@ -41,8 +53,13 @@
           href: formalize-business-processes.md
         - name: Utilizar flujos de trabajo para administrar la información sobre los empleados
           href: workflow-manage-employee-information.md
-        - name: Gestión de bajas y ausencias
-          href: leave-absence-overview.md
+    - name: Administrar bajas y ausencias
+      href: leave-absence-overview.md
+      items:
+        - name: Acumular permiso en función de las horas trabajadas
+          href: leave-accrue-hours-worked.md
+        - name: Calendarios de horarios de trabajo
+          href: working-time-calendars.md
     - name: Dotar de personal para la organización
       items:
         - name: Características y capacidades de Attract
@@ -59,6 +76,8 @@
           href: create-variable-compensation-plans.md
         - name: Procesar compensaciones
           href: process-compensation.md
+        - name: Configurar los componentes de un trabajo
+          href: create-job.md
     - name: Desarrollar y formar a empleados
       items:
         - name: Gestión del rendimiento

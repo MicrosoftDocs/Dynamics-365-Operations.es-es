@@ -9,10 +9,10 @@
   items:
     - name: Generar datos de demostración mediante paquetes de datos
       href: data-entities/generate-demo-data-packages.md
-- name: "Desarrollar y personalizar mediante Visual\_Studio"
+- name: Desarrollar y personalizar
   href: dev-tools/developer-home-page.md
   items:
-    - name: Pila de aplicación y arquitectura de servidor
+    - name: Pila de aplicaciones y arquitectura de servidor
       href: dev-tools/application-stack-server-architecture.md
     - name: Obtener copias de evaluación
       href: dev-tools/get-evaluation-copy.md
@@ -25,9 +25,9 @@
           href: dev-tools/configure-developer-vm.md
         - name: Crear nuevos usuarios en máquinas de desarrollo
           href: dev-tools/enable-development-machine.md
-        - name: Preguntas más frecuentes sobre MV de desarrollo y compilación que no permiten el acceso del administrador
+        - name: Preguntas más frecuentes sobre VM de desarrollo y compilación que no permiten el acceso del administrador
           href: sysadmin/VMs-no-admin-access.md
-        - name: Cambiar el nombre de entornos locales para acceder a Visual Studio Team Services
+        - name: Cambiar el nombre de los entornos locales para tener acceso a Azure DevOps
           href: migration-upgrade/vso-machine-renaming.md
         - name: Requisitos de sistema de desarrollo
           href: dev-tools/development-system-requirements.md
@@ -106,6 +106,8 @@
               href: dev-ref/xpp-variables-data-types.md
             - name: 'Instrucciones, bucles y control de excepciones de X++'
               href: dev-ref/xpp-statements-loops.md
+            - name: Excepción de X++ de error de conexión de SQL
+              href: dev-ref/sql-connection-error.md
             - name: Operadores de X++
               href: dev-ref/xpp-operators.md
             - name: Precedencia de operadores X++
@@ -251,6 +253,10 @@
               href: extensibility/extensibility-changes-802.md
             - name: Cambios de extensibilidad de la versión 8.0.3
               href: extensibility/extensibility-changes-803.md
+            - name: Cambios de extensibilidad de la versión 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: Cambios de extensibilidad de la versión 8.1
+              href: extensibility/extensibility-changes-81.md
         - name: Conceptos fundamentales
           items:
             - name: Personalizaciones intrusivas
@@ -916,6 +922,8 @@
           href: gdpr/gdpr-lcs.md
     - name: Espacio de trabajo de la lista de comprobación de validación de datos
       href: user-interface/data-validation-workspace.md
+    - name: Descripciones de errores de gestión de datos
+      href: data-entities/dm-error-descriptions.md
 - name: Entrega continua
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1109,12 +1117,27 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Actualización de la planificación presupuestaria
               href: migration-upgrade/upgrade-budget-planning.md
+    - name: Migrar datos desde AX 2009 a Finance and Operations
+      href: migration-upgrade/data-migration-tool.md
+      items:
+        - name: 'Migración de AX 2009: Instalar la herramienta de migración de datos'
+          href: migration-upgrade/install-dmt.md
+        - name: 'Migración de AX 2009: Generar mapas'
+          href: migration-upgrade/generate-maps.md
+        - name: 'Migración de AX 2009: Crear plantillas'
+          href: migration-upgrade/create-package-templates-dmt.md
+        - name: 'Migración de AX 2009: Crear grupos de migración'
+          href: migration-upgrade/create-definition.md
+        - name: 'Migración de AX 2009: Exportar paquetes'
+          href: migration-upgrade/ax2009-upgrade-export-package.md
+        - name: 'Migración de AX 2009: Importar paquetes'
+          href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: Migración y actualización del código
       href: migration-upgrade/code-migration-home-page.md
       items:
         - name: Prepararse para migrar el código
           href: migration-upgrade/prepare-migration.md
-        - name: Configurar la asignación de Visual Studio Team Services
+        - name: Configurar la asignación de Azure DevOps
           href: migration-upgrade/configure-vso-solution.md
         - name: División de modelo
           href: dev-tools/model-split.md
@@ -1124,7 +1147,9 @@
       items:
         - name: Proceso para cambiar a la actualización más reciente
           href: migration-upgrade/upgrade-latest-update.md
-        - name: Directiva del ciclo de vida del software y nuevas soluciones de nube
+        - name: Actualizar entornos de la versión 8.0 a 8.1
+          href: migration-upgrade/appupdate-80-81.md
+        - name: Directiva del ciclo de vida del software y versiones de nube
           href: migration-upgrade/versions-update-policy.md
         - name: Aplicar la actualización de plataforma más reciente a los entornos
           href: migration-upgrade/upgrade-latest-platform-update.md
@@ -1248,7 +1273,7 @@
       href: lifecycle-services/complete-tasks-bpm.md
     - name: Trabajar con diagramas de actividad en bibliotecas BPM
       href: lifecycle-services/using-activity-diagrams.md
-    - name: Sincronizar bibliotecas BPM con Visual Studio Team Services
+    - name: Sincronizar bibliotecas BPM con Azure DevOps
       href: lifecycle-services/synchronize-bpm-vsts.md
     - name: Crear bibliotecas de prueba de aceptación del usuario mediante las guías de tareas y el BPM
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
@@ -1266,6 +1291,10 @@
       href: lifecycle-services/user-logins.md
     - name: Biblioteca de activos
       href: lifecycle-services/asset-library.md
+    - name: Solución de problemas de rendimiento mediante herramientas en LCS
+      href: lifecycle-services/performancetroubleshooting.md
+    - name: Guía paso a paso de consulta
+      href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:

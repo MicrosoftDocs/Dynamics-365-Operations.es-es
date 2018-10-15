@@ -12,6 +12,8 @@
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: Opciones de implementación
       href: dev-itpro/choose-deployment.md
+    - name: Obtener soporte para Retail
+      href: retail-support.md
 - name: Comprender el ciclo de vida de la implementación
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
@@ -37,7 +39,7 @@
       href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
     - name: Implementar proyectos de Finance and Operations Retail
       href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-    - name: 'Configurar nuevos entornos, VSTS y sucursales para proyectos de Retail'
+    - name: 'Configurar nuevos entornos, Azure DevOps y sucursales para proyectos de Retail'
       href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
     - name: Actualizar código y entornos para proyectos de Retail
       href: dev-itpro/updating-environments.md
@@ -305,6 +307,14 @@
       href: ../talent/create-job.md
 - name: Características normativas y de localización
   items:
+    - name: Europa del Este
+      items:
+        - name: Facturas anticipadas para Retail para Europa del Este
+          href: localizations/emea-eeu-advance-invoices-for-retail.md
+        - name: Gestión del efectivo para gastos menores para Retail para Europa del Este
+          href: localizations/emea-eeu-petty-cash-for-retail.md
+        - name: Facturas de clientes de Retail y pedidos de venta de devolución en países de Europa del Este
+          href: localizations/emea-eeu-retail-invoices.md
     - name: Francia
       items:
         - name: Funcionalidad de caja registradora
@@ -313,10 +323,12 @@
           href: localizations/emea-fra-deployment.md
     - name: India
       items:
-        - name: Integración de impuestos de bienes y servicios (GST) para cajas registradoras
+        - name: Integración de impuesto sobre bienes y servicios (IBS) para cajas registradoras
           href: localizations/apac-ind-cash-registers.md
         - name: Directrices de implementación para cajas registradoras
           href: localizations/apac-ind-loc-deployment-guidelines.md
+        - name: Soporte de actualización y N-1 para India
+          href: localizations/apac-ind-n-1-for-india.md
     - name: Noruega
       items:
         - name: Funcionalidad de caja registradora
