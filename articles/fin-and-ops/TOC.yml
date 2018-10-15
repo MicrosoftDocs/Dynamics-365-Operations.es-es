@@ -34,19 +34,25 @@
         - name: Novedades y cambios
           href: get-started/whats-new-changed.md
           items:
-            - name: Directiva del ciclo de vida del software y nuevas soluciones de nube
+            - name: Directiva del ciclo de vida del software y versiones de nube
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Directiva del ciclo de vida del software y nuevas soluciones locales
               href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
+            - name: Final del soporte estándar para Microsoft Dynamics AX 2009 y 2012
+              href: get-started/mainstream-support-ax-2009-2012.md
             - name: Características quitadas u obsoletas
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: Características de AX 2012 pospuestas
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Características no implementadas en implementaciones locales
               href: get-started/features-not-implemented-on-prem.md
-            - name: Versión 8.0 de Finance and Operations (abril 2018)
+            - name: Versión 8.1 de Finance and Operations (octubre de 2018)
+              href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 20 (septiembre de 2018)
+              href: get-started/whats-new-platform-update-20.md
+            - name: Versión 8.0 de Finance and Operations (abril de 2018)
               href: get-started/whats-new-changed-8-0-April-2018.md
-            - name: Platform update 15 (marzo 2018)
+            - name: Platform update 15 (marzo de 2018)
               href: get-started/whats-new-platform-update-15.md
             - name: 'Implementaciones locales de Finance and Operations, Enterprise Edition 7.2 con platform update 12 (marzo de 2018)'
               href: get-started/whats-new-LBD-PU12-App72.md
@@ -456,6 +462,10 @@
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Conciliación de facturas y pedidos de compra de empresas vinculadas
               href: ../financials/accounts-payable/invoice-matching-intercompany-purchase-orders.md
+            - name: Configurar directivas de factura de proveedor
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Registrar la factura de proveedor y cuadrarla con la cantidad recibida
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Visión general de pago positivo
               href: ../financials/accounts-payable/positive-pay-overview.md
             - name: Configurar y generar archivos de pago positivo
@@ -566,10 +576,6 @@
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
             - name: Procesar interés
               href: ../financials/accounts-receivable/tasks/process-interest.md
-            - name: Configurar directivas de factura de proveedor
-              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
-            - name: Registrar la factura de proveedor y cuadrarla con la cantidad recibida
-              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Crear una factura de cliente
               href: ../financials/accounts-receivable/configure-customer-invoices.md
             - name: Depositar pagos de cliente
@@ -596,6 +602,8 @@
               href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Configurar y generar información de vencimiento de clientes
               href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Copiar clientes mediante secuencias numéricas compartidas
+              href: ../financials/accounts-receivable/copy-customer.md
             - name: Flujo de trabajo de cliente
               href: ../financials/accounts-receivable/customer-workflow.md
             - name: Pagos y liquidaciones
@@ -1543,8 +1551,6 @@
               href: ../financials/localizations/emea-fiscal-service-integration.md
             - name: Cancelación de activos fijos para Estonia y Lituania
               href: ../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md
-            - name: Revalorización de divisa extranjera
-              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Generar un documento de transferencia para una transferencia de inventario interna
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
             - name: Generar informe de lista de ventas de la UE
@@ -2104,6 +2110,8 @@
               href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
             - name: Extensión de la funcionalidad de cancelación de activos fijos
               href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: Revalorización de divisa extranjera
+              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Embalaje retornable
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: Libros de impuestos
@@ -2114,6 +2122,42 @@
               href: ../financials/localizations/emea-pol-interest-calculation.md
             - name: Extracto de saldos y facturación
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
+        - name: Rusia
+          href: ../financials/localizations/russia.md
+          items:
+            - name: Titulares de anticipo
+              href: ../financials/localizations/rus-advance-holders.md
+              items:
+                - name: Crear un titular de anticipo
+                  href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
+                - name: Operaciones diarias para titulares de anticipo
+                  href: ../financials/localizations/rus-advance-holders-daily-operations.md
+            - name: Activos fijos
+              items:
+                - name: Adquiriendo activos fijos y poniéndolos en operación
+                  href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Crear y registrar diarios de presupuesto para adquisiciones de activos fijos
+                  href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
+                - name: Contabilidad de activos fijos
+                  href: ../financials/localizations/rus-fixed-assets-counting.md
+                - name: Revalorización de divisas de activos fijos
+                  href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: Desensamblado de activo fijo parcial
+                  href: ../financials/localizations/rus-fixed-assets-disassembly.md
+            - name: Configurar y procesar pedidos de pago
+              href: ../financials/localizations/rus-payment-order-settings-processing.md
+            - name: Configurar tipos de cambio para transacciones de divisa
+              href: ../financials/localizations/rus-exchange-difference.md
+            - name: Vista previa de transacciones contables
+              href: ../financials/localizations/rus-ledger-transactions-preview.md
+            - name: Configurar agentes
+              href: ../financials/localizations/rus-officials.md
+            - name: Configurar cuentas bancarias
+              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+            - name: Impuesto sobre el valor añadido (IVA) para agentes tributarios
+              href: ../financials/localizations/rus-tax-agent.md
+            - name: Configurar control de dimensión para liquidaciones
+              href: ../financials/localizations/rus-transactions-settlement-date.md
         - name: Arabia Saudí
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2133,6 +2177,8 @@
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: Opciones de letras de cambio
               href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
+            - name: Calcular fechas de vencimiento e informar del período medio de pagos
+              href: ../financials/localizations/emea-esp-invoice-due-dates.md
             - name: Impuesto no realizado
               href: ../financials/localizations/emea-esp-conditional-sales-tax.md
             - name: Factura rectificativa
@@ -2857,7 +2903,7 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Modificar manualmente una previsión de demanda
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Aplicación móvil de Dynamics 365 for Unified Operations
+    - name: Aplicación de Dynamics 365 for Unified Operations Mobile
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: Espacios de trabajo móviles disponibles
