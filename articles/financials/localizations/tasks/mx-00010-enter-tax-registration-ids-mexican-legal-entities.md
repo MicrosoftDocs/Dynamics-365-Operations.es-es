@@ -1,28 +1,29 @@
 --- 
-title: "Especificar los identificadores de registro de impuestos para las entidades jurídicas mexicanas"
+title: "MX-00010 Especificar los identificadores de registro de impuestos para las entidades jurídicas mexicanas"
 description: "Los documentos financieros jurídicos, como declaraciones de impuestos o facturas electrónicas enviadas a las autoridades fiscales en México, deben contener distintos tipos de identificadores de registro de impuestos u otra información relacionada."
 author: sndray
 manager: AnnBe
-ms.date: 05/09/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: OMLegalEntity, OMNewLegalEntity
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e132a0d7f8c4d8f84c0863d4b3185d58bfe5cd00
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9d904b73388f7d4121b50270c1e8f1e76c88e2c6
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="enter-tax-registration-ids-for-mexican-legal-entities"></a>Especificar los identificadores de registro de impuestos para las entidades jurídicas mexicanas
+# <a name="mx-00010-enter-tax-registration-ids-for-mexican-legal-entities"></a>MX-00010 Especificar los identificadores de registro de impuestos para las entidades jurídicas mexicanas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

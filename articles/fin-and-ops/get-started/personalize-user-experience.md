@@ -3,7 +3,7 @@ title: Personalizar la experiencia del usuario
 description: "Este tema explica cómo puede personalizar Microsoft Dynamics 365 for Finance and Operations."
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 05/24/2018
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 862bbf4d1d9b0dc2b6dc418ee766ed4dedef49fe
-ms.openlocfilehash: 8ad5bd607f08d4e0b266d86a96a0b7f3e352c4cd
+ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
+ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -64,7 +64,7 @@ Las distintas personas y empresas tienen una perspectiva diferente sobre los dat
 ### <a name="shortcut-menu-options"></a>Opciones del menú de acceso directo
 Los menús de acceso directo proporcionan algunas formas de cambiar explícitamente una página para adaptarse mejor a sus requisitos o los requisitos de la empresa. (Un menú contextual también se conoce como *menú de botón secundario* o *menú contextual*).
 
-Algunos de los cambios más habituales y más importantes que se pueden realizar en una página están disponibles directamente como opciones del menú contextual. Por ejemplo, para agregar u ocultar las columnas en una cuadrícula, solo tiene que hacer clic con el botón secundario en un encabezado de la columna de la cuadrícula y, a continuación, seleccionar **Agregar columnas** u **Ocultar esta columna**.
+Algunos de los cambios más habituales y más importantes que se pueden realizar en una página están disponibles directamente como opciones del menú contextual. Por ejemplo, a partir de la actualización 17 de la plataforma, si quiere agregar u ocultar las columnas en una cuadrícula, solo tiene que hacer clic con el botón secundario en un encabezado de la columna de la cuadrícula y, a continuación, seleccionar **Agregar columnas** u **Ocultar esta columna**.
 
 Además, los tipos más básicos de personalización explícita están disponibles haciendo clic con el botón secundario en un elemento y después seleccionando **Personalizar**. (Tenga en cuenta que no todos los elementos en su página se pueden personalizar.) Si usa este método de personalización, aparecerá la ventana de la propiedad del elemento.
 
@@ -81,27 +81,38 @@ Puede usar la ventana de propiedad para personalizar un elemento de las siguient
 La ventana de la propiedad puede incluir otras capacidades de personalización, en función del elemento. Por ejemplo, la ventana de propiedad de un mosaico puede permitirle ascender ese mosaico a un panel, y la ventana de la propiedad de un panel puede dejarle crear una nueva área de trabajo en el panel.
 
 ### <a name="the-personalization-toolbar"></a>La barra de herramientas de personalización
-Cuando desee mover u ocultar elementos, o realizar cambios en una página, puede utilizar la barra de herramientas **Personalización**. Para abrir la barra de herramientas **Personalización**, seleccione **Personalizar este formulario** en la ventana de la propiedad del elemento. También puede seleccionar **Personalizar este formulario** en el grupo **Personalizar** de la pestaña **Opciones** del panel de acciones de cada página.
+Si desea implementar varios cambios en una página o hacer cambios que no están disponibles con otros mecanismos (como reordenar elementos), puede utilizar la barra de herramientas **Personalización**. Para abrir la barra de herramientas **Personalización**, seleccione **Personalizar este formulario** en la ventana de la propiedad del elemento. También puede seleccionar **Personalizar este formulario** en el grupo **Personalizar** de la pestaña **Opciones** del panel de acciones de cada página.
 
 [![Barra de herramientas de personalización](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
-Aunque la barra de herramientas de **personalización** esté abierta, la página no es interactiva. Por tanto, no puede escribir datos ni expandir y contraer secciones. De modo que simplemente puede cambiar los elementos que componen la página.
+#### <a name="navigating-the-page"></a>Navegación por la página 
+Su habilidad para navegar en la página mientras la **Barra de herramientas de personalización** está abierta depende de la versión de la plataforma que está ejecutando. 
 
+- Antes de la actualización 19 de la plataforma, mientras que la barra de herramientas **Personalización** está abierta, la página es de solo lectura (no puede especificar nada) y no interactiva (solo puede realizar cambios en los elementos visibles en la página). Si desea realizar cambios en los elementos dentro de una sección contraída o en otra ficha, debe cerrar la barra de herramientas **Personalización** , expandir una sección o cambiar a la ficha deseada, y volver a abrir la barra de herramientas **Personalización**.  
+
+- Comenzando con la actualización 19 de la plataforma, si la barra de herramientas **Personalización** está abierta, la página sigue siendo de solo lectura pero es mucho más interactivos. Específicamente, puede ampliar o contraer el panel del cuadro informativo, cambiar de fichas, expandir y contraer secciones mientras que la barra de herramientas **Personalización** está abierta del mismo modo que lo haría normalmente en una página. Para aplicar un cambio de personalización a una sección o ficha que se puede contraer (por ejemplo para ocultar una ficha desplegable), tiene que activar el botón que aparece junto a la sección o la ficha que se puede contraer cuando enfoca con el teclado o cuando pasa el mouse sobre ella.  
+
+#### <a name="personalization-tools"></a>Herramientas de personalización
 Las siguientes herramientas están disponibles en la barra de herramientas **Personalización**:
 
 - Utilice la herramienta **Seleccionar** praa seleccionar y cambiar las propiedades de un elemento. Seleccione la herramienta **Seleccionar** y luego seleccione el elemento cuyas propiedades desee modificar. Cuando selecciona un elemento, la ventana de la propiedad del elemento aparece y usted podrá modificar las propiedades de dicho elemento. Es posible repetir el proceso para otros elementos que se pueden personalizar en dicha página. Sin embargo, debido al modo en que algunos artículos se usan, Finance and Operations no le dejará modificar algunas de sus propiedades. Por lo tanto, cuando seleccione un elemento, es posible que vea que algunas de sus propiedades no se pueden modificar. Por ejemplo, no puede ocultar un campo que es necesario.
-- Elija la herramienta **Mover** si desea mover un elemento a otra ubicación dentro del grupo actual de elementos. (No puede mover un elemento fuera del grupo principal). Seleccione la herramienta **Mover** , y seleccione el elemento que debe moverse. Al seleccionar un elemento, Finance and Operations examina la página para determinar adónde se puede mover el elemento. A continuación crea una serie de “zonas de colocación". Mientras arrastra el elemento dentro del grupo actual, todas las “zonas de colocación" se muestran como una línea en color y negrita junto al área donde el elemento se puede colocar.
-- Use la herramienta **Ocultar** para ocultar un elemento de la página. Seleccione la herramienta **Ocultar** , y seleccione el elemento que debe ocultarse. Al seleccionar la herramienta **Ocultar**, todos los elementos que se ocultan actualmente se hacen visibles y se muestran en un contenedor sombreado. A continuación puede mostrarlos. Seleccionando la herramienta **Seleccionar** puede ver qué aspecto tendrá la página cuando los elementos seleccionados se oculten.
-- Utilice la herramienta **Resumen** cuando desee que aparezca un elemento en la sección de resumen de la ficha desplegable. La herramienta Resumen se aplica solo a los campos que están dentro de una ficha desplegable. Al seleccionar la herramienta **Resumen**, todos los campos que se seleccionan como campos de resumen se muestran en un contenedor sombreado. Puede agregar interactivamente campos al resumen de ficha desplegable y quitar campos del resumen de ficha desplegable seleccionando los campos.
-- Use la herramienta **Omitir** para quitar un elemento de la secuencia del tabulador del teclado de la página. Al seleccionar la herramienta **Omitir**, todos los elementos que se omiten se muestran en un contenedor sombreado. A continuación puede hacer que vuelvan a ser parte de la secuencia de fichas.
-- Elija la herramienta **Editar** para marcar un elemento como editable o no editable. Al seleccionar la herramienta **Editar**, todos los elementos que actualmente no son editables se muestran en un contenedor sombreado. A continuación puede hacer que vuelvan a ser editables. Tenga en cuenta que algunos campos son necesarios y no se pueden convertir en no editables. Un símbolo de candado aparece junto a dichos campos.
-- Use el botón **Insertar** para ver una lista de elementos que se pueden insertar en una página.
 
+- Elija la herramienta **Mover** si desea mover un elemento a otra ubicación dentro del grupo actual de elementos. (No puede mover un elemento fuera del grupo principal). Seleccione la herramienta **Mover** , y seleccione el elemento que debe moverse. Al seleccionar un elemento, Finance and Operations examina la página para determinar adónde se puede mover el elemento. A continuación crea una serie de “zonas de colocación". Mientras arrastra el elemento dentro del grupo actual, todas las “zonas de colocación" se muestran como una línea en color y negrita junto al área donde el elemento se puede colocar.
+
+- Use la herramienta **Ocultar** para ocultar un elemento de la página. Seleccione la herramienta **Ocultar** , y seleccione el elemento que debe ocultarse. Al seleccionar la herramienta **Ocultar**, todos los elementos que se ocultan actualmente se hacen visibles y se muestran en un contenedor sombreado. A continuación puede mostrarlos. Seleccionando la herramienta **Seleccionar** puede ver qué aspecto tendrá la página cuando los elementos seleccionados se oculten.
+    - Comenzando con la actualización 18 de la plataforma, puede ocultar los campos y las secciones necesarios que contienen los campos necesarios. Esto le permite crear una experiencia simplificada donde los campos obligatorios que son establecidos como valor predeterminado por la lógica de negocios no se muestran. Los campos necesarios ocultos también se muestran temporalmente si están vacíos cuando se intenta guardar. 
+
+- Utilice la herramienta **Resumen** cuando desee que aparezca un elemento en la sección de resumen de la ficha desplegable. La herramienta Resumen se aplica solo a los campos que están dentro de una ficha desplegable. Al seleccionar la herramienta **Resumen**, todos los campos que se seleccionan como campos de resumen se muestran en un contenedor sombreado. Puede agregar interactivamente campos al resumen de ficha desplegable y quitar campos del resumen de ficha desplegable seleccionando los campos.
+
+- Use la herramienta **Omitir** para quitar un elemento de la secuencia del tabulador del teclado de la página. Al seleccionar la herramienta **Omitir**, todos los elementos que se omiten se muestran en un contenedor sombreado. A continuación puede hacer que vuelvan a ser parte de la secuencia de fichas.
+
+- Elija la herramienta **Editar** para marcar un elemento como editable o no editable. Al seleccionar la herramienta **Editar**, todos los elementos que actualmente no son editables se muestran en un contenedor sombreado. A continuación puede hacer que vuelvan a ser editables. Tenga en cuenta que algunos campos son necesarios y no se pueden convertir en no editables. Un símbolo de candado aparece junto a dichos campos.
+
+- Use el botón **Insertar** para ver una lista de elementos que se pueden insertar en una página.
     - Seleccione la herramienta **Campo** en **Insertar** para agregar un campo a la página. Al usar la herramienta **Campo**, puede agregar solamente los campos que forman parte de la definición de la página pero que no se muestran actualmente en la página. Para obtener información sobre cómo crear nuevos campos que no son parte de la definición de la página actual, consulte [Campos personalizados](user-defined-fields.md). Tras seleccionar la herramienta **Campo**, primero debe seleccionar el grupo o el área donde desee agregar un campo. Un cuadro de diálogo muestra la lista de campos relacionados con el grupo o el área que ha seleccionado. En el cuadro de diálogo, seleccione uno o varios campos para añadirlos y luego seleccione **Insertar**. Para quitar un campo que ha agregado anteriormente, repita el proceso, pero desactive la selección del campo en el cuadro de diálogo.
     - Seleccione la herramienta **PowerApp** en **Insertar** para insertar una aplicación que se creó usando Microsoft PowerApps en la página. Para obtener información detallada acerca de cómo insertar una aplicación de PowerApps en una página, consulte [Integrar PowerApps](embed-power-apps.md).
 
 - Seleccione el botón **Administrar** para ver una lista de las opciones de administración relacionadas con todas las personalizaciones de la página actual.
-
     - Seleccione **Desactivar** para restablecer la página a su valor predeterminado, estado instalado. Todas las personalizaciones en la página actual se desactivarán. No existen una acción de deshacer. Por lo tanto, use esta opción si está seguro que desea restablecer la página.
     - Seleccione **Importación** para cargar una personalización de un archivo que usted o otro usuario creó anteriormente para la página. Todas las personalizaciones actuales de la página se reemplazan con las personalizaciones del archivo seleccionado.
     - Seleccione **Exportar** para guardar las personalizaciones de la página en un archivo. Puede compartir sus personalizaciones con otros usuarios. Estos usuarios solo tienen que importar el archivo que contiene sus personalizaciones de la página.
@@ -149,5 +160,5 @@ Al personalizar la configuración de dimensiones de inventario en una página, t
 
 Los ajustes de **visualización de dimensiones** se aplican a todas las páginas y estos valores anulan cualquier configuración personalizada de campos de dimensión de inventario en las páginas individuales.
 
-Por tanto, en el ejemplo anterior, si no desea que la columna de la dimensión de inventario de número de lote aparezca, debe borrar dicha dimensión como parte de la opción **Dimensiones de la pantalla** de la tabla. Este cambio se aplicará finalmente no solo a una página determinada, sino en todas las páginas.
+En consecuencia, en el ejemplo anterior, si no desea que la columna de la dimensión de inventario de número de lote aparezca, debe borrar dicha dimensión como parte de la opción **Dimensiones de la pantalla** de la tabla. Este cambio se aplicará finalmente no solo a una página determinada, sino en todas las páginas.
 

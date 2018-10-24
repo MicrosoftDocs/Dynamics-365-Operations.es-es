@@ -3,7 +3,7 @@ title: Novedades y cambios
 description: "Esta página señala los temas que pueden ayudarle a obtener información acerca de las nuevas características de las versiones más recientes de Microsoft Dynamics 365 for Finance and Operations."
 author: josaw1
 manager: AnnBe
-ms.date: 06/22/2018
+ms.date: 08/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 02d66063f721357b354f7959a46ec94d617f55a2
-ms.openlocfilehash: 2a608355718509c90e766825113f386b163ee4fd
+ms.sourcegitcommit: ad0083018d2734cb1e36cbf5f94105376c57cdf9
+ms.openlocfilehash: 201068db3b1bd27438b16ff3f1f51f8a1eb972c5
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/02/2018
 
 ---
 
@@ -38,6 +38,8 @@ Para obtener información sobre cómo actualizar a la versión más reciente, ve
 [!include [release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>Liberaciones de aplicación
+
+Esta tabla enumera las principales versiones de la aplicación. Para las actualizaciones mensuales de la nube, consulte [Directiva del ciclo de vida del software y nuevas soluciones de nube](../../dev-itpro/migration-upgrade/versions-update-policy.md).
 
 <table>
 <colgroup>
@@ -58,9 +60,14 @@ Para obtener información sobre cómo actualizar a la versión más reciente, ve
 </thead>
 <tbody>
 <tr class="even">
-
 </tr>
 <tr class="even">
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>8.1</td>
+<td>8.1.136  </td>
+<td>Octubre de 2018</td>
+  <td><a href="whats-new-changed-8-1-October-2018.md">Novedades o cambios en Dynamics 365 for Finance and Operations, versión 8.1 (octubre de 2018)</a></td>
+</tr>
 <tr class="even">
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8.0</td>
@@ -125,6 +132,12 @@ Para obtener información sobre cómo actualizar a la versión más reciente, ve
 </tr>
 </thead>
 <tbody>
+<tr class="odd">
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>Actualización de la plataforma 20</td>
+<td>7.0.5030</td>
+<td>2018 de septiembre</td>
+<td><a href="whats-new-platform-update-20.md">Novedades o cambios en la actualización de la plataforma 20 de Dynamics 365 for Finance and Operations (septiembre de 2018)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Actualización de la plataforma 15</td>

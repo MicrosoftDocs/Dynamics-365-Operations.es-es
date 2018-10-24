@@ -1,28 +1,29 @@
 --- 
-title: "Importar una carta de crédito"
+title: "Importar créditos documentarios"
 description: "Este procedimiento le muestra el proceso para importar una carta de crédito."
 author: kweekley
 manager: AnnBe
-ms.date: 02/26/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendTable, VendBankAccounts, PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, BankLCImport,  PurchEditLines, VendEditInvoice, SrsReportViewerForm, LedgerJournalTable, LedgerJournalTransVendPaym, VendOpenTrans, SysQueryForm, BankAccountTableLookUp
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 02be2627186a149a05eaccfa3e5906a9fe1d74dd
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: c1768494182a79d7a33044498c1e768e61d937d1
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="import-a-letter-of-credit"></a>Importar una carta de crédito
+# <a name="import-letter-of-credit"></a>Importar créditos documentarios
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -110,7 +111,8 @@ Este procedimiento usa la empresa de demostración USMF.
 1. Vaya a Gestión de efectivo y bancos > Carta de crédito > Importar carta de crédito e importar cobro.
 2. En la lista, busque y seleccione el registro deseado.
 3. En la lista, haga clic en el vínculo de la fila seleccionada.
-    * Compruebe el estado de la carta de crédito de importación.  
+    * Compruebe el estado de la carta de crédito de importación.    
+    *   
 4. Cierre la página.
 5. Cierre la página.
 

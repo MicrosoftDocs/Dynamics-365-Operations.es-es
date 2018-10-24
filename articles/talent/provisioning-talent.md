@@ -3,13 +3,13 @@ title: Aprovisionar Talent
 description: Este tema recorre con usted el proceso de aprovisionar un nuevo entorno para Microsoft Dynamics 365 for Talent.
 author: rschloma
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 09/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: josaw
 ms.search.scope: Talent
 ms.custom: 17271
 ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 2fc4119f3b33aa583274f4d823e296752cdde41d
+ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.openlocfilehash: d28ca1f9cf2bef73dc687a85592056cccc767da5
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 # <a name="provision-talent"></a>Aprovisionar Talent
@@ -30,7 +30,7 @@ ms.lasthandoff: 08/09/2018
 
 Este tema recorre con usted el proceso de aprovisionar un nuevo entorno de producción para Microsoft Dynamics 365 for Talent. Este tema asume que ha comprado Talent a un proveedor de soluciones de nube (CSP) o mediante un contrato de arquitectura empresarial (EA). Si dispone de una licencia existente de Microsoft Dynamics 365 que ya incluye el plan de servicio de Talent y no puede realizar los pasos de este tema, póngase en contacto con soporte.
 
-Para empezar, el administrador global debe iniciar sesión en [Microsoft Dynamics Lifecycle Services](http://lcs.dynamics.com) (LCS) y crear un nuevo proyecto de Talent. A menos que un problema de licencia le impida aprovisionar Talent, no es obligatoria la ayuda de Soporte o de los representantes de la ingeniería de servicio de Dynamics.
+Para empezar, el administrador global debe iniciar sesión en [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) y crear un nuevo proyecto de Talent. A menos que un problema de licencia le impida aprovisionar Talent, no es obligatoria la ayuda de Soporte o de los representantes de la ingeniería de servicio de Dynamics.
 
 ## <a name="create-an-lcs-project"></a>Crear un proyecto de LCS
 Para usar LCS para administrar sus entornos de Talent, primero debe crear un proyecto de LCS.
@@ -48,7 +48,6 @@ Después de crear un proyecto de LCS, puede aprovisionar Talent en un entorno.
 
 1. En su proyecto de LCS seleccione el mosaico **Gestión de la app Talent**.
 2. Talent siempre se aprovisiona en un entorno de Microsoft PowerApps, para habilitar la integración de PowerApps y la extensibilidad. Lea la sección “Selección de un entorno de PowerApps” de este tema antes de continuar. 
-3. Si todavía no tiene un entorno de PowerApps, siga los pasos de la sección “Crear un nuevo entorno de PowerApps (si procede)” de este tema para que pueda continuar.
 
     > [!NOTE]
     > Para ver entornos existentes o crear nuevos entornos, debe asignarse el administrador de inquilinos que aprovisiona Talent a la licencia de PowerApps P2. Si su organización no dispone de una licencia de PowerApps P2, puede obtener una de su CSP o en la [Página de precios para PowerApps](https://powerapps.microsoft.com/en-us/pricing/).
@@ -78,11 +77,6 @@ Use la orientación siguiente al determinar en qué entorno de PowerApps impleme
 4. La integración de datos y estrategias de prueba se deben considerar, por ejemplo: Espacio aislado, UAT, producción. Por lo tanto, se recomienda que tenga en cuenta las distintas implicaciones para la implementación, ya que no es fácil cambiar el entorno de Talent que se asigna al entorno de PowerApps posteriormente.
 5. Los entornos de PowerApps siguientes no se pueden usar para Talent y se filtrarán de la lista de selección dentro de LCS:
  
-    **CDS entornos 2.0** CDS 2.0 estará disponible al público el 21 de marzo de 2018; sin embargo, Talent aún no admite CDS 2.0. Aunque puede ver y crear bases de datos CDS 2.0 en el centro de administración de PowerApps, no se pueden utilizar en Talent. La opción de usar entornos de CDS 2.0 en las implementaciones de Talent estará disponible posteriormente.
-   
-   > [!Note]
-   > Para distinguir entre los entornos de CDS 1.0 y 2.0 en el portal de administración, seleccione un entorno y consulte los **Detalles**. Todos los entornos CDS 2.0 hacen referencia al hecho de que "puede gestionar estos parámetros en el centro de administración de Dynamics 365" apunta a una versión de la instancia y no tiene ninguna ficha de base de datos. 
- 
    **Entornos predeterminados de Power Apps** Aunque cada inquilino se aprovisiona automáticamente con un entorno de PowerApps predeterminado, no se recomienda su uso con Talent puesto que todos los usuarios del inquilino tienen acceso al entorno de PowerApps y podrían dañar inintencionadamente datos de producción al probar y explorar con las integraciones de PowerApps o Flow.
    
    <strong>Entornos de versión de prueba</strong> Entornos con un nombre tipo “TestDrive – alias@domain” se crearán con un período de vencimiento de 60 días y caducarán transcurrido ese periodo, haciendo que el entorno se elimine automáticamente.
@@ -91,42 +85,6 @@ Use la orientación siguiente al determinar en qué entorno de PowerApps impleme
   
 6. No hay ninguna acción específica una vez que haya determinado el entorno correcto que se utilizará. Continúe con el proceso de aprovisionamiento. 
  
-## <a name="create-a-new-powerapps-environment-if-required"></a>Cree un nuevo entorno de PowerApps (si procede)
-
-Ejecuta un script de PowerShell para crear un nuevo entorno de PowerApps para Talent en el contexto de la gestión de suscriptores que tiene la licencia PowerApps Plan 2. La secuencia de comandos automatiza los pasos siguientes:
-
-
- + Creación de un entorno de PowerApps
- + Creación de una base de datos de CDS 1.0
- + Borre todos los datos de ejemplo en la base de datos de CDS 1.0
-
-
-Complete las siguientes instrucciones para ejecutar la secuencia de comandos:
-
-1. Descargue el archivo de ProvisionCDSEnvironment.zip de la siguiente ubicación: [ProvisionCDSEnvironment scripts](https://go.microsoft.com/fwlink/?linkid=870436)  
-
-2. En la carpeta de descargas, haga clic con el botón secundario en el archivo ProvisionCDSEnvironment.zip que se acaba de descargar y seleccione **Propiedades**.  Si hay una nota de seguridad en la parte inferior de diálogo que indica “este archivo vino de otro equipo y puede ser bloqueado para ayudar a proteger este equipo”, marque la casilla **Desbloquear** y, continuación, haga clic en **Aplicar** y luego en **Aceptar**.
-
-3. Descomprima el contenido completo del archivo ProvisionCDSEnviroinment.zip en una carpeta que no sea la carpeta raíz.
-
-4. Ejecute el programa de Windows PowerShell o ISE de Windows PowerShell como administrador.
-
-   Visite el tema [Establecer la Directiva de ejecución](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) para obtener más información acerca de cómo establecer la directiva de la ejecución para poder ejecutar secuencias de comandos. Sugerimos que use el siguiente: “Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process”, pero asegúrse de seguir las directivas de seguridad de la empresa y de cerrar la ventana de PowerShell cuando haya terminado. 
-  
-5. Dentro de PowerShell, navegue a la carpeta donde se descomprimió el archivo y ejecute el siguiente comando, reemplazando los valores tal como se indica a continuación:
- 
-   ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
-
-    
-   **MyNewEnvironment** debe reemplazarse con su nombre de entorno. Este nombre aparecerá en el CD y estará visible cuando los usuarios seleccionen el entorno de Talent que se utilizará. 
-
-   **YourLocation** debe reemplazarse con una de las regiones admitidas para Talent: unitedstates, Europa, Australia. 
-
-   **- Detallado** es opcional y proporcionará información detallada para enviar a soporte si se detectan problemas.
-
-6. Continúe con el proceso de aprovisionamiento.
- 
-
 ## <a name="grant-access-to-the-environment"></a>Conceda acceso al entorno
 De forma predeterminada, solo tiene acceso el administrador global que creó el entorno. Sin embargo, los usuarios de aplicaciones adicionales debe conceder acceso de forma explícita. Para conceder acceso, [agregue usuarios](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) y [asigne los roles adecuados a ellos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) en el entorno Core HR. El administrador global que implementó Talent también debe poner en las aplicaciones Attract y Onboard para completar la inicialización y para habilitar el acceso a otros usuarios inquilinos.  Hasta que esto ocurra, otros usuarios no podrán tener acceso a las aplicaciones Attract y Onboard y obtendrán errores de infracción de acceso.
 

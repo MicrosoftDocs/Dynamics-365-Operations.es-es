@@ -3,7 +3,7 @@ title: "Cálculo de costes generales"
 description: "Este tema describe los procesos típicos para calcular y asignar costes generales."
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 549e9b4b073a4e93dd3a1dd52dd6f43e7420a31b
+ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
+ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 10/05/2018
 
 ---
 
@@ -191,8 +191,7 @@ En algunos casos, parte del coste es una cuota fija, y el coste pendiente se bas
 </tbody>
 </table>
 
-Para obtener información detallada sobre el comportamiento del coste, consulte Directiva de comportamiento de costes. (Tenga en cuenta que este tema no se ha completado aún, pero pronto se abordará).
-
+Para obtener más información, consulte [Crear y asignar una directiva de comportamiento de costes a una unidad de control de costes](tasks/create-assign-cost-behavior-policy-cost-control-unit.md).
 ### <a name="step-2-process-the-cost-distribution-calculation"></a>Paso 2: Procese el cálculo de distribución de costes
 
 La distribución de costes se usa para redistribuir costes desde un objeto de coste a uno o más objetos de coste aplicando una base relevante de la asignación. La distribución de costes y la asignación de costes difieren en que la distribución de costes siempre se produce en el nivel de elemento de costes principal del coste original.
@@ -430,7 +429,7 @@ El coste fijo debe distribuirse uniformemente a los objetos individuales de cost
 </tbody>
 </table>
 
-Para obtener información detallada sobre la distribución de costes y las bases de asignación, consulte la directiva de distribución de costes y las bases de asignación. (Tenga en cuenta que este tema no se ha completado aún, pero pronto se abordará).
+Para obtener más información, consulte [Crear y asignar una directiva de distribución de costes a una unidad de control de costes](tasks/create-assign-cost-distribution-policy-cost-control-unit.md). 
 
 ### <a name="step-3-process-the-overhead-rate-calculation"></a>Paso 3: Procese el cálculo de las tasas de costes generales
 
@@ -618,7 +617,7 @@ La tabla siguiente muestra el resultado cuando los proyectos HR se aplican como 
 </tbody>
 </table>
 
-Para obtener información detallada acerca de la directiva de tasa de costes generales, consulte la directiva de tasas de costes generales y las bases de asignación. (Tenga en cuenta que este tema no se ha completado aún, pero pronto se abordará).
+Para obtener más información, consulte [Realizar cálculo de costes generales](cost-rollup.md#perform-overhead-calculation).
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Paso 4: Procese el cálculo de asignación de costes
 
@@ -725,7 +724,8 @@ El objeto de coste CC004 Embalaje contribuye a varios objetos de coste. Se crea 
 </tbody>
 </table>
 
-**Nota:** En Finance and Operations, las medidas estadísticas como las horas de la producción que un producto consume se pueden deducir de los datos de origen. Para obtener información más detallada acerca de los proveedores de medidas estadísticas, consulte la plantilla de proveedor de estadísticas de medidas. (Tenga en cuenta que este tema todavía no está completado, pero que pronto lo estará). La tabla siguiente muestra el resultado cuando se aplican los servicios HR como base de asignación para el coste total (coste fijo y coste variable).
+> [!NOTE]
+> En Finance and Operations, las medidas estadísticas como las horas de la producción que un producto consume se pueden deducir de los datos de origen. Para obtener más información, vea [Plantilla de proveedor de medidas estadísticas](statistical-measure-provider-template.md#statistical-measure-provider-template). La tabla siguiente muestra el resultado cuando se aplican los servicios de HR como base de asignación para el coste total (coste fijo y coste variable).
 
 <table>
 <thead>
@@ -1412,7 +1412,7 @@ En la contabilidad financiera, un coste de 10.000,00 para electricidad se envía
 </table>
 
 > [!NOTE]
-> Este tema muestra cómo un artículo de costes principales, 10001 Electricidad, fluye por los objetos de coste. Por tanto, estos gastos generales se asignan al nivel más bajo de la organización. Es decir, los objetos de coste del nivel más bajo son los que soportan el coste. Si necesita un flujo visual del coste entre los objetos de coste, puede usar las reglas de directivas de acumulación de costes para visualizar el flujo del coste. Para obtener información detallada, consulte la política de acumulación de costes. (Tenga en cuenta que este tema no se ha completado aún, pero pronto se abordará).
+> Este tema muestra cómo un artículo de costes principales, 10001 Electricidad, fluye por los objetos de coste. Por tanto, estos gastos generales se asignan al nivel más bajo de la organización. Es decir, los objetos de coste del nivel más bajo son los que soportan el coste. Si necesita un flujo visual del coste entre los objetos de coste, puede usar las reglas de directivas de acumulación de costes para visualizar el flujo del coste. Para obtener más información, consulte [Acumulación de costes](cost-rollup.md).
 
 
 

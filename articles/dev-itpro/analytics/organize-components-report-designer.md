@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: c9772d45cf9d9941dd8fe0de13ce624ea3aa3b53
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
 ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -37,12 +37,9 @@ Puede cambiar el nombre de carpetas, informes, bloques de creación y otros obje
 ## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Cambiar el nombre de una carpeta o un bloque de creación en el diseñador de informes
 En el Diseñador de informes, puede cambiar el nombre de carpetas y de definiciones de informe, de fila, de columna y de organigrama.
 
-> [!NOTE]
-> Al cambiar el nombre de un bloque de creación, debe actualizar las definiciones de informes que utilizan el bloque de creación. De lo contrario, no se puede generar un nuevo informe.
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Cambiar el nombre de una carpeta o un bloque de creación en el Diseñador de informes
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Cambiar el nombre de una carpeta o un bloque de creación en el diseñador de informes
-
-1. En el diseñador de informes, use el panel de navegación para buscar la carpeta o el objeto a los que desee cambiar el nombre.
+1. En el Diseñador de informes, use el panel de navegación para localizar la carpeta o el objeto cuyo nombre desee cambiar.
 2. Haga clic con el botón secundario en la carpeta o en el informe y, a continuación, haga clic en **Cambiar nombre**. El campo **Nombre** en el panel de navegación pasa a estar activo.
 3. Escriba un nuevo nombre y luego presione Intro.
 4. Si el bloque de creación es una definición de fila, definición de columna o definición de organigrama, debe actualizar otros bloques de creación asociados a él. Haga clic con el botón secundario en el bloque de creación al que le cambió el nombre en el paso 3, seleccione **Asociaciones** y, a continuación seleccione un elemento en la lista para actualizarlo.

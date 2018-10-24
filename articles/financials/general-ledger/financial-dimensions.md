@@ -3,7 +3,7 @@ title: Dimensiones financieras
 description: "Este tema describe los diferentes tipos de dimensiones financieras y cómo se configuran."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 08/24/2018
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -15,13 +15,13 @@ ms.search.scope: Core, Operations
 ms.custom: 25871
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3e9f00fdc32feda0a62f71a92e503a677dce35cc
+ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
+ms.openlocfilehash: 9973d03de031ad2fa5647bb167c12b9231633a22
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 
@@ -31,11 +31,11 @@ ms.lasthandoff: 03/26/2018
 
 Este tema explica los diferentes tipos de dimensiones financieras y cómo se configuran.
 
-Use la página **Dimensiones financieras** para crear las dimensiones financieras que se pueden usar como segmentos de cuentas para los planes contables compartidos. Existen dos tipos de dimensiones financieras: dimensiones personalizadas y dimensiones respaldadas por entidad. Las dimensiones personalizadas se comparten entre entidades jurídicas y los valores los introduce y mantiene los usuarios. Para dimensiones respaldadas por entidad, los valores se definen en otra ubicación del sistema, como Clientes o Tiendas. Algunas dimensiones respaldadas por entidad se comparten entre entidades jurídicas, mientras que otras dimensiones respaldadas por entidad son específicas de una empresa. 
+Use la página **Dimensiones financieras** para crear las dimensiones financieras que se pueden usar como segmentos de cuentas para los planes contables compartidos. Existen dos tipos de dimensiones financieras: dimensiones personalizadas y dimensiones respaldadas por entidad. Las dimensiones personalizadas se comparten entre entidades jurídicas y los valores los introduce y mantiene los usuarios. Para dimensiones respaldadas por entidad, los valores se definen en otra ubicación del sistema, como en Clientes o Tiendas. Algunas dimensiones respaldadas por entidad se comparten entre entidades jurídicas, mientras que otras dimensiones respaldadas por entidad son específicas de una empresa.
 
-Una vez creadas las dimensiones financieras, use la página **Valores de la dimensión financiera** para asignar propiedades adicionales a cada dimensión financiera. 
+Una vez creadas las dimensiones financieras, use la página **Valores de la dimensión financiera** para asignar propiedades adicionales a cada dimensión financiera.
 
-Puede usar dimensiones financieras para representar las entidades jurídicas. No es necesario crear las entidades jurídicas en Microsoft Dynamics 365 for Finance and Operations. No obstante, las dimensiones financieras no están diseñadas para abordar los requisitos operativos o empresariales de las entidades jurídicas. La funcionalidad de contabilidad de interunidad de Finance and Operations está diseñada para tratar solo los asientos contables creados por cada transacción. 
+Puede usar dimensiones financieras para representar las entidades jurídicas. No es necesario crear las entidades jurídicas en Microsoft Dynamics 365 for Finance and Operations. No obstante, las dimensiones financieras no están diseñadas para abordar los requisitos operativos o empresariales de las entidades jurídicas. La funcionalidad de contabilidad de interunidad de Finance and Operations está diseñada para tratar solo los asientos contables creados por cada transacción.
 
 Antes de configurar dimensiones financieras como entidades jurídicas, evalúe sus procesos empresariales en las áreas siguientes para determinar si esta configuración funcionará para su organización:
 
@@ -51,7 +51,9 @@ A continuación se muestran algunas limitaciones:
 
 ## <a name="custom-dimensions"></a>Dimensiones personalizadas
 
-Para crear una dimensión financiera definida por el usuario, en el campo **Usar valores desde** seleccione **&lt; Dimensión personalizada &gt;**. También puede especificar una máscara de cuenta para limitar el importe y el tipo de información que puede especificar para valores de dimensión. Puede especificar los caracteres que permanecen iguales para cada valor de dimensión, como letras o un guion (-). También puede especificar signos de número (\#) ) y ampersands (&) como marcadores de posición para las letras y los números que se modificarán cada vez que se cree un valor de dimensión. Use un signo de número (\#) ) como marcador de posición para un número y un ampersand (&) como marcador de posición para una letra. El campo para la máscara de formato solo está disponible si selecciona el campo **&lt; Dimensión personalizada &gt;** en el campo **Usar valores desde**.
+Para crear una dimensión financiera definida por el usuario, en el campo **Usar valores de** seleccione **&lt;&nbsp;Dimensión personalizada&nbsp;&gt;**.
+
+También puede especificar una máscara de cuenta para limitar el importe y el tipo de información que puede especificarse para valores de dimensión. Puede especificar los caracteres que permanecen iguales para cada valor de dimensión, como letras o un guion (-). También puede especificar signos de número (\#) y ampersands (&) como marcadores de posición para los caracteres que se modificarán cada vez que se cree un valor de dimensión. Use un signo de número (\#) ) como marcador de posición para un número y un ampersand (&) como marcador de posición para una letra. El campo para la máscara de formato solo está disponible si selecciona el campo **&lt;&nbsp;Dimensión personalizada&nbsp;&gt;** en el campo **Usar valores desde**.
 
 **Ejemplo**
 
@@ -63,7 +65,7 @@ Para crear una dimensión financiera respaldada por entidad, en el campo **Usar 
 
 ## <a name="activating-dimensions"></a>Activación de dimensiones
 
-Al activar una dimensión financiera, se actualizará la tabla de modo que incluya el nombre de la dimensión financiera. Se quitan las dimensiones eliminadas. Puede especificar los valores de la dimensión antes de que se active una dimensión financiera. Sin embargo, una dimensión financiera no puede ser consumida en cualquier lugar hasta que se haya activado. Por ejemplo, no puede agregar una dimensión financiera a una estructura contable hasta que se active la dimensión financiera. Cuando se hace clic en **Activar**, todas las dimensiones se actualizan y muestran cambios de estado. 
+Al activar una dimensión financiera, se actualizará la tabla de modo que incluya el nombre de la dimensión financiera. Se quitan las dimensiones eliminadas. Puede especificar los valores de la dimensión antes de que se active una dimensión financiera. Sin embargo, una dimensión financiera no puede ser consumida en cualquier lugar hasta que se haya activado. Por ejemplo, no puede agregar una dimensión financiera a una estructura contable hasta que se active la dimensión financiera. Cuando se selecciona **Activar**, todas las dimensiones se actualizan y muestran cambios de estado.
 
 ## <a name="translations"></a>Conversiones
 
@@ -77,15 +79,48 @@ No todas las dimensiones son válidas para todas las entidades jurídicas. Adem�
 
 Para ayudar a mantener la integridad referencial de los datos, nos es habitual que se puedan eliminar las dimensiones financieras. Si intenta eliminar una dimensión financiera, se evalúan los siguientes criterios:
 
-- ¿La dimensión financiera se ha utilizado en las transacciones registradas o sin registrar o algún tipo de combinación de valor de dimensión?
+- ¿La dimensión financiera se ha utilizado en las transacciones registradas o sin registrar o en algún tipo de combinación de valor de dimensión?
 - ¿La dimensión financiera se usa en estructura contable activa, estructura de regla avanzada o conjunto de dimensiones financieras?
 - ¿La dimensión financiera forma parte de un formato de integración de dimensión financiera predeterminado?
 - ¿La dimensión financiera se ha configurado como dimensión predeterminada?
 
 Si se cumple cualquiera de los criterios, no puede eliminar la dimensión financiera.
 
+## <a name="default-dimension-values"></a>Valores de dimensión predeterminados
+
+Puede utilizar valores de registros maestros, como cliente y proveedor, como valores predeterminados en nuevas dimensiones. Cuando se crean nuevas dimensiones, el identificador del registro maestro se especifica en los valores de dimensión para dichos registros maestros. Por ejemplo, al crear un nuevo cliente, el identificador del cliente se especifica en la dimensión del cliente. Al crear pedidos de ventas, facturas, u otros documentos que requieren un identificador de cliente, se usan las reglas de establecimiento como valor predeterminado ya existentes, y el identificador del cliente se agrega al documento.
+
+Esta función se controla mediante un valor de la dimensión. Este valor se denomina **Copiar la configuración con la dimensión de cada nuevo DimensionName creado**, donde **DimensionName** es el nombre de la dimensión. De forma predeterminada, esta característica está desactivada. Sin embargo, es posible activarla en cualquier momento.
+
+Si ya existen registros para la dimensión, se actualizan los registros maestros cuando se activa la función. Sin embargo, los documentos y las transacciones existentes no se actualizan.
+
+## <a name="derived-dimensions"></a>Dimensiones derivadas
+
+Puede configurar una dimensión para especificar información para otras dimensiones automáticamente al especificar dicha dimensión en un documento. Por ejemplo, si especifica el centro de coste 10, un valor **20** se puede especificar automáticamente en la dimensión de departamento.
+
+Puede configurar valores derivados en la página de las dimensiones.
+
+1. Seleccione una dimensión y después seleccione **Dimensiones derivadas**.
+
+    La página **Dimensiones derivadas** incluye una cuadrícula. El segmento de dimensión seleccionado es la primera columna de la cuadrícula.
+
+2. Agregue los segmentos que se deben derivar. Cada segmento aparece como una columna.
+
+Especifique combinaciones de dimensiones que se deben derivar de la dimensión en la primera columna. Por ejemplo, para usar el centro de coste como la dimensión de la que se derivan el departamento y la ubicación, especifique el centro de coste 10, el Departamento 20, y la ubicación 30. A continuación, al especificar el centro de coste 10 en un registro maestro o en una página de transacción, el departamento 20 y la ubicación 30 se especifican de forma predeterminada.
+
+El proceso de la dimensión derivada no anula los valores existentes para las dimensiones derivadas. Por ejemplo, si especifica en el centro de coste 10 y ninguna otra dimensión, el departamento 20 y la ubicación 30 se especifican de forma predeterminada. Sin embargo, si cambia el centro de coste, los valores que ya se establecieron no se modifican. Por lo tanto, puede establecer dimensiones predeterminadas en registros maestros y dichas dimensiones no se cambiarán por dimensiones derivadas.
+
+### <a name="derived-dimensions-and-entities"></a>Dimensiones derivadas y entidades
+
+Puede configurar los segmentos de dimensiones derivadas y valores usando entidades.
+
+- La entidad de dimensiones derivadas configura las dimensiones de conducción y los segmentos que se usan para dichas dimensiones.
+- La entidad DerivedDimensionValue permite importar los valores que se deben derivar de cada dimensión de conducción.
+
+Al usar una entidad para importar datos, si dicha entidad importa dimensiones, las reglas de dimensión derivadas se aplican durante la importación a menos que la entidad anule específicamente dichas dimensiones.
 
 Para obtener más información, consulte los siguientes temas:
+
 - [Definir dimensiones financieras](tasks/define-financial-dimensions.md)
 - [Mantener plantillas predeterminadas de la dimensión financiera](tasks/maintain-financial-dimension-default-templates.md)
 

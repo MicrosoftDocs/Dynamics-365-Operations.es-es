@@ -1,28 +1,29 @@
 --- 
-title: "Producir el informe electrónico de contabilidad de libro mayor del producto mexicano versión 1.1"
+title: "MX-00020 Producir el informe electrónico de cuenta contable mejicano versión 1.1"
 description: "Esta tarea le muestra todos los pasos necesarios para configurar la generación de archivos XML electrónicos de cuenta contable mediante la herramienta de informes electrónicos."
 author: sndray
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, LedgerParameters
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 632b04848cdb6d71e7e7dbd6c6bc710d0577950a
-ms.openlocfilehash: e7b9cf1ff7fbc81a7fd55b640d2e1dc45a096e87
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 214733042796552415be39bc664b47d892e81385
 ms.contentlocale: es-es
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="produce-mexican-electronic-ledger-accounting-report-version-11"></a>Producir el informe electrónico de contabilidad de libro mayor del producto mexicano versión 1.1
+# <a name="mx-00020-produce-mexican-electronic-ledger-accounting-report-version-11"></a>MX-00020 Producir el informe electrónico de cuenta contable mejicano versión 1.1
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -83,7 +84,7 @@ Esta tarea le muestra todos los pasos necesarios para configurar la generación 
 3. En la lista, busque y seleccione el registro deseado.
 4. En la lista, haga clic en el vínculo de la fila seleccionada.
 5. En el campo Período, especifique una fecha.
-6. Active o desactive la opción Saldo de comprobación
+6. Active o desactive la opción Saldo de comprobación.
     * Esta opción genera los archivos XML del plan contable y el saldo de comprobación.  
 7. Active o desactive la casilla Movimientos contables.
 8. Active o desactive la casilla Libro mayor auxiliar.

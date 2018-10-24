@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 9399df070d450b6eb89dc33ca47ddb77fe8e60b1
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
 ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 08/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Este tema incluye información y vínculos a recursos que pueden ayudarle a configurar Dynamics 365 for Finance and Operations para personas jurídicas con una dirección principal en Brasil. 
+Este tema incluye información y vínculos a recursos que pueden ayudarle a configurar Dynamics 365 for Finance and Operations para personas jurídicas con una dirección principal en Europa. 
 
 - [Titulares de anticipo](emea-advance-holders.md)
  - [Transacciones de titulares de anticipo](emea-advance-holders-transactions.md)
@@ -44,9 +44,7 @@ Este tema incluye información y vínculos a recursos que pueden ayudarle a conf
 - [Formatos de archivo para métodos de pago](emea-select-file-formats-for-the-method-of-payments.md)
 - [Integración de servicio fiscal (ESR)](emea-fiscal-service-integration.md)
 - [Cancelación de activos fijos para Estonia y Lituania](emea-credit-note-reverse-fixed-asset-sale.md)
-- [Revalorización de divisa extranjera](emea-foreign-currency-revaluation.md)
 - [Generar un documento de transferencia para una transferencia de inventario interna](tasks/transfer-document-internal-inventory-transfer.md)
-- [Generar una declaración intrastat de la UE](tasks/eur-00002-eu-intrastat-declaration.md)
 - [Generar informe de lista de ventas de la UE](tasks/eur-00011-eu-sales-list-report.md)
 - Archivos ISO20022
   - [Importar archivos ISO20022](emea-ISO20022-file-formats.md)
@@ -61,6 +59,8 @@ Este tema incluye información y vínculos a recursos que pueden ayudarle a conf
   - [Creación y exportación de pagos de proveedor mediante el formato de pago de ISO20022](tasks/create-export-vendor-payments-iso20022-payment-format.md)
 - [Intrastat](emea-intrastat.md)
   - [Transferir transacciones a intrastat](tasks/transfer-transactions-intrastat.md)
+  - [Especificar una dirección de embarque para una transacción intracomunitaria](tasks/eur-00002-specify-lading-address-intra-community.md)
+  - [Generar una declaración intrastat de la UE](tasks/eur-00002-eu-intrastat-declaration.md)
 - [Informes de diario de inventario](emea-set-up-report-inventory-journal-names.md)
 - [Fechas límite de emisión de factura](emea-invoice-issue-deadline.md)
 - [Procesamiento de facturas](emea-invoice-processing.md)
@@ -82,8 +82,6 @@ Este tema incluye información y vínculos a recursos que pueden ayudarle a conf
 - [Configurar informes de listas de ventas de la UE](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Configuración de un formato de resguardo de pago para facturas de proyecto](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Configurar firmantes para formularios de impresión](emea-set-up-signers-for-printing-forms.md)
-- [Configurar los documentos de transferencia para el movimiento de mercancías dentro de una empresa](tasks/set-up-transfer-documents-goods-movement-inside-company.md)
-- [Especificar una dirección de embarque para una transacción intracomunitaria](tasks/eur-00002-specify-lading-address-intra-community.md)
 - [Contabilidad de la pérdida del valor residual](emea-storno.md)
 - [Directivas de impuestos](emea-tax-directives.md)
 - [Actualizar cómo se muestran los importes en los informes y documentos](emea-amount-printing-forms.md)

@@ -3,7 +3,7 @@ title: "Características quitadas u obsoletas"
 description: "Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen."
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 884a1372c6ebdcc665a812090d75c158c1fef895
-ms.openlocfilehash: cd620dcdeb1cd5fd3a89be9ae31c4d35e29a03d0
+ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
+ms.openlocfilehash: ea24d6d63edc6f3bb1bf4a99d24d348af0d6cdbf
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 
@@ -41,6 +41,52 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 > [!Note]
 > La información detallada sobre los objetos de Finance and Operations se puede encontrar en los [informes de referencia técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de Finance and Operations.
+
+## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 con acutlización 20 de la plataforma
+
+### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Reglas de transferencia por lotes para los asientos contables del subdiario contable
+El modo de transferencia sincrónico se está abandonando en los parámetros de contabilidad general.  Este modo se sustituye solo por el lote asincrónico y programado, que ya existe como opciones para la transferencia. 
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Estamos quitando la opción síncrona debido al impacto del rendimiento en el sistema. |
+| **¿Reemplazado por otra característica?**   | El lote programado y el lote asincrónico son opciones que se utilizan en lugar de sincrónico.   |
+| **Áreas de producto afectadas**         | Contabilidad general, proveedores, clientes, compra, gasto    |
+| **Opción de implementación**              | Todas  |
+| **Estado**                         | En desuso: La fecha prevista para la eliminación de la funcionalidad es la versión 10.0.|
+
+### <a name="electronic-reporting-for-russia"></a>Informes electrónicos para Rusia
+Característica para configurar formatos de archivo .txt y .xml de declaraciones. 
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Se reemplaza por informes electrónicos. |
+| **¿Reemplazado por otra característica?**   | Sí. |
+| **Áreas de producto afectadas**         | Libro mayor general |
+| **Opción de implementación**              | Todas |
+| **Estado**                         | Se eliminó de Dynamics 365 for Finance and Operations 8.1 con la actualización 20 de la plataforma. |
+
+### <a name="financial-reports-generator-for-russia"></a>Generador de informes financieros para Rusia
+Una herramienta para configurar recopilaciones de datos para los informes de contabilidad e impuestos y para exportar datos a plantillas de informes DOC y XLS. Partes funcionales: se eliminan la exportación de datos a plantillas de informes de XLS y de DOC, consultas, y requisitos fijos. 
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Las partes quitadas se reemplazan con los informes electrónicos. |
+| **¿Reemplazado por otra característica?**   | Sí. La interfaz de usuario de configuración de informes financieros se debe usar para configurar reglas de recopilación de datos según cuentas de contabilidad general o registros de impuestos. La exportación de datos a distintos tipos de archivo, los requisitos y las consultas fijos, como las reglas de recopilación de datos, se deben configurar en el informe electrónico. |
+| **Áreas de producto afectadas**         | Contabilidad general |
+| **Opción de implementación**              | Todas |
+| **Estado**                         | Se eliminó de Dynamics 365 for Finance and Operations 8.1 con la actualización 20 de la plataforma. |
+
+### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integración con los proveedores externos para enviar notificaciones electrónicas a través de los canales de comunicación para Rusia
+Característica que exporta archivos electrónicos generados de declaraciones a la carpeta para el envío adicional a los proveedores oficiales de informes electrónicos así como su importación.
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Reemplazada con la función configurable de los mensajes electrónicos. |
+| **¿Reemplazado por otra característica?**   | Sí.  |
+| **Áreas de producto afectadas**         | Contabilidad general, impuestos |
+| **Opción de implementación**              | Todas |
+| **Estado**                         | Se eliminó de Dynamics 365 for Finance and Operations 8.1 con la actualización 20 de la plataforma. |
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 con acutlización 15 de la plataforma
 No se ha quitado ni se ha dejado de utilizar ninguna función con esta versión. La actualización de la plataforma 15 es acumulativa y contiene nuevas o mejoradas funciones de la actualización de la plataforma 13, la actualización de la plataforma 14 y la actualización de la plataforma 15.

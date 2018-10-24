@@ -3,7 +3,7 @@ title: "Página de inicio de implementaciones locales"
 description: "Este tema proporciona información y vínculos al contenido acerca de implementaciones locales."
 author: kfend
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: aba11ae99393eb0d8c3e1df2276faa95ad831d29
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: e65edc9d613c9898776e30ea5ab4104a3ce5b4c8
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 # <a name="on-premises-deployments-home-page"></a>Página de inicio de implementaciones locales
@@ -58,7 +58,8 @@ Puede implementar Microsoft Dynamics 365 for Finance and Operations (localmente)
 - [Reimplementar una implementación local](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Otros recursos
-- [Solucionar problemas de Dynamics 365 for Finance and Operations local](troubleshoot-on-prem.md)
+- [Solucionar problemas de Dynamics 365 for Finance and Operations (local)](troubleshoot-on-prem.md)
+- [Diagnósticos locales](on-premises-diagnostics.md)
 - [Características no implementadas en implementaciones locales](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Características en desuso](../migration-upgrade/deprecated-features.md)
 - [Directiva del ciclo de vida del software y nuevas soluciones locales](../migration-upgrade/on-prem-version-update-policy.md)
