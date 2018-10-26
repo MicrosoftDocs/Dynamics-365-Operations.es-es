@@ -1,28 +1,29 @@
 --- 
-title: "Búsqueda de parte mediante id. de IVA"
+title: "EUR-00015 Búsqueda de la parte mediante el Id. de IVA"
 description: "Este procedimiento muestra cómo realizar una búsqueda de parte mediante un identificador de registro."
 author: v-oloski
 manager: AnnBe
-ms.date: 10/25/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DirPartyTable, DirPartTaxRegistrationSearch
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f47dfd99a99995bff3a5c443631fa724d36165bf
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: ec36ead402882c1022811b7b398a03c6325ef7c0
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="party-search-using-vat-id"></a>Búsqueda de parte mediante id. de IVA
+# <a name="eur-00015-party-search-using-vat-id"></a>EUR-00015 Búsqueda de la parte mediante el Id. de IVA
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

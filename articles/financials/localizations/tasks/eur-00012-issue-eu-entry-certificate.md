@@ -1,28 +1,29 @@
 --- 
-title: Emitir un certificado de entrada de la UE
+title: "EUR-00012 Emisión de un certificado de entrada de la UE"
 description: "Este procedimiento le muestra cómo habilitar un certificado de entrada de la UE, cómo configurar una cuenta de cliente para usar certificados de entrada y emitir un certificado."
 author: mrolecki
 manager: AnnBe
-ms.date: 02/26/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustParameters, CustTable, SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CustEntryCertificateJour_W, SrsReportViewerForm
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ff00ff0df3835ee2cbf21219ad6f07bfeba6e7ac
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5a566b1d25064e3fccc8953dc883aa63bd16a301
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="issue-an-eu-entry-certificate"></a>Emitir un certificado de entrada de la UE
+# <a name="eur-00012-issue-an-eu-entry-certificate"></a>EUR-00012 Emisión de un certificado de entrada de la UE
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

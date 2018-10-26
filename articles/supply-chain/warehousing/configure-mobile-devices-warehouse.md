@@ -1,9 +1,9 @@
 ---
 title: "Configurar dispositivos móviles para el trabajo de almacén"
-description: "En este artículo se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil."
+description: "En este tema se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
+ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
+ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 10/03/2018
 
 ---
 
@@ -30,9 +30,9 @@ ms.lasthandoff: 05/08/2018
 
 [!include [banner](../includes/banner.md)]
 
-En este artículo se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil.
+En este tema se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil.
 
-**Nota**: este artículo se aplica a las características de gestión de almacenes. No se aplica a las características de gestión del inventario. Los elementos de menú que aparecen en los menús en un dispositivo móvil del almacén se configuran en la página **Elementos de menú del dispositivo móvil**. Dado que los elementos de menú se pueden colocar en diferentes menús, resulta fácil configurar las estructuras de menú para que solo tipos específicos de trabajo se expongan a usuarios específicos. Puede configurar los elementos de menú para realizar las tareas siguientes:
+**Nota**: este tema se aplica a las características de gestión de almacenes. No se aplica a las características de gestión del inventario. Los elementos de menú que aparecen en los menús en un dispositivo móvil del almacén se configuran en la página **Elementos de menú del dispositivo móvil**. Dado que los elementos de menú se pueden colocar en diferentes menús, resulta fácil configurar las estructuras de menú para que solo tipos específicos de trabajo se expongan a usuarios específicos. Puede configurar los elementos de menú para realizar las tareas siguientes:
 
 -   Procese una consulta o realice una actividad, como imprimir una etiqueta, generar matrículas de entidad de almacén, iniciar un pedido de producción o buscar rápidamente información sobre los elementos en una ubicación.
 -   Cree el trabajo que se realizará con otro proceso. Por ejemplo, la recepción de un artículo para un pedido de compra puede crear un trabajo de ubicación para otro trabajador.
@@ -193,7 +193,7 @@ Puede configurar un elemento de menú que crea trabajo para otro trabajador tras
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Configurar elementos de menú para el trabajo existente del proceso
-Además de los elementos de menú de la configuración para crear el trabajo del almacén, puede configurar los elementos de menú para procesar el trabajo que ya se ha creado. Defina el campo **Modo** en **Trabajo** y seleccione la opción **Usar trabajo existente**. A continuación, algunas opciones adicionales están disponibles en la ficha **General**. Puede controlar el acceso al elemento de menú si asigna una o varias clases de trabajo en la ficha desplegable **Clase de trabajo**. Las clases de trabajo definen el trabajo que el elemento de menú puede procesar. La clase de trabajo también se puede usar para conceder acceso a los roles de usuario específicos o al proceso independiente para distintos tipos de operaciones. En la tabla siguiente se describen las opciones disponibles.
+Además de los elementos de menú de la configuración para crear el trabajo del almacén, puede configurar los elementos de menú para procesar el trabajo que ya se ha creado. Defina el campo **Modo** en **Trabajo** y seleccione la opción **Usar trabajo existente**. A continuación, algunas opciones adicionales están disponibles en la ficha **General**. Puede controlar el acceso al elemento de menú si asigna una o varias clases de trabajo en la ficha desplegable **Clase de trabajo**. Las clases de trabajo definen el trabajo que el elemento de menú puede procesar. La clase de trabajo también se puede usar para conceder acceso a los roles de usuario específicos o al proceso independiente para distintos tipos de operaciones. En la tabla siguiente se describen las opciones disponibles. La opción se puede elegir en el campo **Dirigido por** en la página **Elementos de menú del dispositivo móvil**. 
 
 <table>
 
@@ -247,6 +247,10 @@ Esta opción es útil, por ejemplo, cuando varios pallets se almacenan provision
 <tr class="even">
 <td>Agrupación de recuentos cíclicos</td>
 <td>El trabajador selecciona una zona, un grupo de trabajo o una ubicación y Microsoft Dynamics 365 for Finance and Operations asigna el trabajo basándose en la selección. Si selecciona esta opción, puede hacer clic en <strong>Recuento cíclico</strong> en el panel de acciones para especificar información adicional para mostrar y también puede especificar el número de veces que el trabajador debe repetir el recuento si se encuentra una diferencia.</td>
+</tr>
+ <tr class="odd">
+<td>Carga de transporte</td>
+<td>Esta función permite que varios trabajadores de almacén carguen el inventario desde la misma carga o diferentes cargas en el mismo camión, con cargas que se envían completamente o parcialmente.</td>
 </tr>
 </tbody>
 </table>
@@ -349,7 +353,7 @@ La siguiente tabla describe estas opciones.
 <td>Active esta opción para permitir a los trabajadores que combinen el trabajo de un pedido de ventas o que lo carguen en una sola unidad de trabajo. Un trabajador puede realizar el trabajo solo para el pedido de ventas o de carga. Esta opción resulta útil, por ejemplo, si debe aumentar una cantidad de un pedido de ventas después de que la carga, el envío y el trabajo se hayan creado para el pedido de ventas. Esta opción solo está disponible cuando el elemento de menú usa el trabajo existente, y el trabajo está dirigido por parte del usuario o el sistema.</td>
 </tr>
 <tr class="even">
-<td>Ninguna</td>
+<td>Seleccionar lote más antiguo</td>
 <td>Indique si el trabajador debe seleccionar primero el lote más antiguo de una ubicación. Están disponibles las siguientes opciones:
 <ul>
 <li><strong>Ninguno</strong>: el trabajador puede seleccionar cualquier lote en la ubicación. El trabajador no recibirá ningún mensaje.</li>

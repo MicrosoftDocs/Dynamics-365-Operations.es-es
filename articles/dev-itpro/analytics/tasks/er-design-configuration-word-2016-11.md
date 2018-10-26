@@ -1,25 +1,26 @@
 --- 
 title: "Diseñar configuraciones de ER para generar informes en formato Word"
-description: "En los pasos siguientes se explica cómo un usuario con rol de administrador del Sistema o de desarrollador de informes electrónicos, puede configurar formatos de informes electrónicos (ER) para generar archivos de informes en Microsoft Word."
+description: "En los pasos siguientes se explica cómo un usuario con rol de administrador del Sistema o de desarrollador de informes electrónicos puede configurar formatos de informes electrónicos para generar archivos de informes en Microsoft Word."
 author: NickSelin
 manager: AnnBe
-ms.date: 12/21/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Diseñar configuraciones de ER para generar informes en formato Word
@@ -30,9 +31,9 @@ En los pasos siguientes se explica cómo un usuario con rol de administrador del
 
 Para completar estos pasos, primero debe completar los pasos en la guía de tarea "Crear una configuración de ER para generar informes en formato OPENXML”. Previamente deberá descargar y guardar también las plantillas siguientes localmente para el informe de ejemplo:
 
-[Plantilla de informe de pago](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Plantilla de informe de pago](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Plantilla enlazada de informe de pago](https://go.microsoft.com/fwlink/?linkid=862266)
 
-[Plantilla enlazada de informe de pago](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Este procedimiento es para una función que se ha añadido en la versión 1611 de Microsoft Dynamics 365 for Operations.
 
@@ -49,7 +50,7 @@ Este procedimiento es para una función que se ha añadido en la versión 1611 d
 ## <a name="replace-the-excel-template-with-the-word-template"></a>Sustituya la plantilla de Excel con la plantilla de Word
     * Actualmente, el documento de Excel se utiliza como plantilla para producir un resultado en formato de OPENXML. Importaremos la plantilla del informe en formato de Word.  
 1. Haga clic en Archivos adjuntos.
-    * Sustituya la plantilla de Excel actual con la plantilla de Word que ha descargado anteriormente, Plantilla de informe de pago. Tenga en cuenta que esta plantilla solo contiene el diseño del documento que deseamos generar como ER de salida.  
+    * Sustituya la plantilla de Excel actual con la plantilla de Word que ha descargado anteriormente, SampleVendPaymDocReport.docx. Tenga en cuenta que esta plantilla solo contiene el diseño del documento que deseamos generar como ER de salida.  
 2. Haga clic Eliminar.
 3. Haga clic en Sí.
 4. Haga clic en Nuevo.

@@ -1,28 +1,29 @@
 --- 
-title: "Especificar la identificación del registro de RFC para las cuentas bancarias mejicanas"
+title: "MX-00020 - Especificar la identificación del registro de RFC para las cuentas bancarias mexicanas"
 description: "Esta tarea le guía por la creación de la cuenta bancaria para México y la asignación del id. de registro de impuestos de RFC."
 author: sndray
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BankAccountTable,  DefaultDashboard
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f2d10ac3a1e9ade3779f110c99f678f64efbf770
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: c8ef676e9c69bf86b0d1ebd1909e5aa3d8b768bf
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="specify-the-rfc-registration-id-for-mexican-bank-accounts"></a>Especificar la identificación del registro de RFC para las cuentas bancarias mejicanas
+# <a name="mx-00020---specify-the-rfc-registration-id-for-mexican-bank-accounts"></a>MX-00020 - Especificar la identificación del registro de RFC para las cuentas bancarias mexicanas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

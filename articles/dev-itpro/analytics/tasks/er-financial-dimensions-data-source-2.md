@@ -1,28 +1,29 @@
 --- 
-title: "Asignar modelos de datos para usar dimensiones financieras como orígenes de datos"
+title: "ER Usar dimensiones financieras como origen de datos (Parte 2: Asignación de modelo)"
 description: "En los pasos siguientes se explica cómo un usuario asignado al rol de administrador del sistema o desarrollador de informes electrónicos puede configurar un modelo de informes electrónicos (ER) para que use las dimensiones financieras como origen de datos de informes ER."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 4d9c0f50a724582941ac11e4f01b3cfd3b1cf262
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 92efd6a0b36471286c292a80542b81cd14a8eff3
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="map-models-to-use-financial-dimensions-as-data-sources"></a>Asignar modelos de datos para usar dimensiones financieras como orígenes de datos 
+# <a name="er-use-financial-dimensions-as-a-data-source-part-2-model-mapping"></a>ER Usar dimensiones financieras como origen de datos (Parte 2: Asignación de modelo)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

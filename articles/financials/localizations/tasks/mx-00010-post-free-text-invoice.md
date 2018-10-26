@@ -1,28 +1,29 @@
 --- 
-title: "Registrar una factura de texto libre (México)"
+title: MX-00010 Registrar una factura de servicio
 description: "Use el formulario Factura de texto libre para crear y registrar una factura de cliente como factura electrónica mediante el método CFDI."
 author: sndray
 manager: AnnBe
-ms.date: 05/09/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustFreeInvoice, CustTableLookup, CustPostInvoiceJob, EInvoiceCFDIJournal_AR
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1b856f9f670be08917d2568659a69852f766baf5
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: c8766ca1afc480a6a29ffece7ab582ae08aed097
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="post-a-free-text-invoice-mexico"></a>Registrar una factura de texto libre (México)
+# <a name="mx-00010-post-a-free-text-invoice"></a>MX-00010 Registrar una factura de servicio
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -10,41 +10,35 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 24c7721a1e5467e98e6c4d245f1d8e24a973f5aa
+ms.sourcegitcommit: 92cd1ea0a6ab6039da7074e032e0f78dd7443cba
+ms.openlocfilehash: 1b1c9719f0697e9d5a51b0e769b3f850dc1690e5
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/24/2018
 
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Cancelar un activo fijo mediante una factura de servicios
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo adquirir un activo fijo mediante la propuesta de adquisición del diario de activos fijos. Usa el rol de contable y los datos de prueba de la entidad jurídica USMF.
+Este procedimiento muestra la disposición de un activo fijo mediante la factura de servicios.
 
-1. Vaya a Activos fijos > Movimientos de diario > Diario de activos fijos.
+1. Vaya a Clientes > Facturas > Todas las facturas de servicios.
 2. Haga clic en Nuevo.
-3. En el campo Nombre, especifique o seleccione un valor.
-4. Haga clic en Líneas.
-5. Haga clic en Propuestas.
-6. Haga clic en Propuesta de adquisición.
-7. Haga clic en Filtro.
-8. Haga clic en Restablecer para borrar los valores anteriores.
-9. Seleccione la fila Número de activo fijo.
-10. En el campo Criterios, especifique o seleccione un valor.
-    * Establezca los criterios restantes para los activos fijos que desea adquirir con esta propuesta.  
-11. Haga clic en Aceptar
-12. Haga clic en Aceptar
-    * Compruebe las líneas de transacción creadas.  
-    * Solo los activos fijos con la fecha de adquisición y el precio de adquisición establecidos en el libro se incluirán en la propuesta de adquisición.  
-13. Haga clic en la pestaña Libros.
-14. Haga clic en Registrar.
+3. En el campo Cuenta de cliente, especifique o seleccione un valor.
+4. Valide fecha de factura predeterminada y edítela si procede.
+5. Valide los campos de cabecera predeterminados restantes, como divisa y edítelos si procede.
+6. Escriba una descripción en la línea de factura.
+7. Especifique o seleccione la cuenta principal de la línea de factura.
+8. Valide el grupo de impuestos predeterminado y el grupo de impuestos de artículo.
+9. Especifique el precio por unidad o el importe de la venta del activo fijo.
+10. Haga clic en Detalles de línea.  
+11. Seleccione el número del activo fijo que se va a vender.
+12. Haga clic en Registrar.
 
 

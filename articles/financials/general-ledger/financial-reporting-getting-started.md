@@ -3,7 +3,7 @@ title: Informes financieros
 description: "Este tema describe cómo acceder a los informes financieros en Microsoft Dynamics 365 for Finance and Operations y cómo usar las capacidades de informes financieros. Incluye una descripción de los informes financieros predeterminados proporcionados."
 author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 613fcf941576b9fb05f5c059699e4cc9c4cabe3e
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -115,11 +115,13 @@ Los informes financieros proporcionan 22 informes financieros predeterminados. C
 Al hacer clic en el menú **Informes financieros**, se muestra la lista de informes financieros predeterminado para la empresa. A continuación, puede abrir o modificar un informe. Para abrir uno de los informes predeterminados, seleccione el nombre del informe. La primera vez que se abre un informe, se genera automáticamente para el mes anterior. Por ejemplo, si abre un informe por primera vez en agosto de 2016, el informe se genera para el 31 de julio de 2016. Tras abrir un informe, puede empezar a explorarlo profundizando en fragmentos específicos de datos y cambiando las opciones de informe.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Creación y modificación de informes financieros
-A partir de la lista de informes financieros, puede crear un nuevo informe o modificar un informe existente. Si dispone de los permisos adecuados, puede crear un nuevo informe financiero haciendo clic en **Nuevo** del panel de acciones. Se descarga un programa del diseñador de informes en el dispositivo. Una vez iniciado el diseñador de informes, puede crear el nuevo informe. Tras guardar el nuevo informe, aparece en la lista de informes financieros. En la lista se muestran solo los informes que se crearon para la empresa que está usando en Finance and Operations. Para obtener más información sobre el proceso de creación y modificación de informes financieros en Finance and Operations, consulte estos [artículos de blog](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) en el blog de informes financieros de Dynamics. **Nota:** El equipo en el que está descargando el cliente del diseñador de informes debe tener instalada la versión 4.6.2 del Microsoft .NET Framework. Esta versión de Microsoft .NET Framework puede descargarse e instalarse desde [aquí](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Si está usando Chrome, debe instalar una extensión ClickOnce para descargar el cliente del diseñador de informes. Si está ejecutando en modo ingógnito, asegúrese de que la extensión ClickOnce está activada para el modo incógnito. También puede modificar un informe que aparece en la lista de informes financieros. Cuando se seleccione el área alrededor del nombre del informe, haga clic en **Editar** en el Panel de acciones. Se inicia el programa del diseñador de informes.
+A partir de la lista de informes financieros, puede crear un nuevo informe o modificar un informe existente. Si dispone de los permisos adecuados, puede crear un nuevo informe financiero haciendo clic en **Nuevo** del panel de acciones. Se descarga un programa del diseñador de informes en el dispositivo. Una vez iniciado el diseñador de informes, puede crear el nuevo informe. Tras guardar el nuevo informe, aparece en la lista de informes financieros. En la lista se muestran solo los informes que se crearon para la empresa que está usando en Finance and Operations. 
+
+> [!NOTE] 
+> El equipo en el que está descargando el cliente del diseñador de informes debe tener instalada la versión 4.6.2 del Microsoft .NET Framework. Esta versión de Microsoft .NET Framework puede descargarse e instalarse desde el [Centro de descarga de Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Si está usando Chrome, debe instalar una extensión ClickOnce para descargar el cliente del diseñador de informes. Si está ejecutando en modo ingógnito, asegúrese de que la extensión ClickOnce está activada para el modo incógnito. También puede modificar un informe que aparece en la lista de informes financieros. Cuando se seleccione el área alrededor del nombre del informe, haga clic en **Editar** en el Panel de acciones. Se inicia el programa del diseñador de informes.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 - [Ver informes financieros](view-financial-reports.md)
-- [Blog de informes financieros de Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

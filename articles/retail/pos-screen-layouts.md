@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
+ms.sourcegitcommit: e4c1f8c7435a901431286960581754e5b2820dad
+ms.openlocfilehash: 34e744884b4bae890d7990103ecc7157c6883869
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/03/2018
 
 ---
 
@@ -71,7 +71,7 @@ Las configuraciones del diseño de pantalla determinan las acciones, el contenid
 
 ### <a name="assignment"></a>Asignación
 
-Los diseños de pantalla se pueden asignar a la tienda, el registro o el nivel de usuario. La asignación del usuario anula las asignaciones del registro y tienda, y la asignación del registro anula la asignación de la tienda. En una situación sencilla en la que todos los usuarios utilizan el mismo diseño, independientemente del registro o el rol, el diseño de pantalla solo puede establecerse en el nivel de tienda. En escenarios en los que registros o usuarios específicos necesiten diseños especializados, se pueden asignar esos diseños.
+Los diseños de pantalla se pueden asignar a la tienda o el nivel de usuario. La asignación del usuario anula las asignaciones del registro y tienda, y la asignación del registro anula la asignación de la tienda. En una situación sencilla en la que todos los usuarios utilizan el mismo diseño, independientemente del registro o el rol, el diseño de pantalla solo puede establecerse en el nivel de tienda. En escenarios en los que registros o usuarios específicos necesiten diseños especializados, se pueden asignar esos diseños.
 
 ### <a name="layout-sizes"></a>Tamaños de diseño
 

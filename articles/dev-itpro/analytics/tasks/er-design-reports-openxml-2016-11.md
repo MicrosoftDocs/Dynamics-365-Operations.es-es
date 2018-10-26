@@ -1,28 +1,29 @@
 --- 
-title: "Diseñar configuraciones de ER para generar informes en formato OpenXML"
+title: "ER Diseña una configuración para generar informes en formato OPENXML (noviembre de 2016)"
 description: "En los pasos siguientes se explica cómo un usuario con rol de administrador del sistema o desarrollador de informes electrónicos puede crear una nueva configuración de informes electrónicos que contenga una plantilla para generar documentos electrónicos en formato OPENXML."
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: b42cfe36c57a9526e585bbad0fcd31ff60b90397
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 3e6b6b16f202af051ccff02051eb438ea49ff6da
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="design-er-configurations-to-generate-reports-in-openxml-format"></a>Diseñar configuraciones de ER para generar informes en formato OpenXML
+# <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Diseña una configuración para generar informes en formato OPENXML (noviembre de 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -34,7 +35,8 @@ En este ejemplo, creará una configuración para la empresa de demostración, Li
 
 
 
-Para completar estos pasos, primero debe completar los pasos del procedimiento Creación y activación de un proveedor de configuraciones. También debe descargar y guardar el archivo de Microsoft Excel, [Plantilla de informe de pago](https://go.microsoft.com/fwlink/?linkid=862266). 
+Para completar estos pasos, primero debe completar los pasos del procedimiento Creación y activación de un proveedor de configuraciones. También debe tener un archivo Excel que se importará el crear la plantilla. A este archivo se obtiene acceso desde la [Plantilla de informe de pago](https://go.microsoft.com/fwlink/?linkid=862266).
+
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Cargar la configuración del modelo de datos de pagos
 1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.

@@ -3,7 +3,7 @@ title: Generar informes financieros
 description: "Este tema proporciona información acerca de la generación de un informe financiero."
 author: aprilolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: b1dea07589b7fe953ec47b204441d044c19b5020
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
 ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -32,17 +32,14 @@ ms.lasthandoff: 08/13/2018
 
 Este tema proporciona información acerca de la generación de un informe financiero.
 
-Para generar un informe, abra la definición del informe y haga clic en el botón Generar en la barra de herramientas. La ventana Estado de la cola del informe abrirá e indicará la ubicación del informe en la cola. De forma predeterminada, el informe generado se abrirá en el Visor web.
-
-> [!NOTE]
-> Puede generar informes únicamente en las carpetas y ubicaciones en las que tiene permiso de acceso.
+Para generar un informe, abra la definición del informe y haga clic en el botón Generar en la barra de herramientas. La ventana Estado de la cola del informe abrirá e indicará la ubicación del informe en la cola. De forma predeterminada, el informe generado se abrirá en el visor de la web.
 
 Las siguientes opciones están disponibles para generar informes:
 
 - Configurar una programación para generar un informe o a un grupo de informes automáticamente
 - Revisar cuentas o datos que faltan en un informe y validar la precisión de un informe
 
-Al generar un informe, se usan las opciones que ha especificado en la pestaña Definición del informe . La pestaña Salida y distribución permite especificar una ubicación de la biblioteca del informe, lo cual proporciona una manera fácil de compartir el informe.
+Al generar un informe, se usan las opciones que ha especificado en la pestaña Definición del informe .
 
 ## <a name="generate-a-financial-report"></a>Generar un informe financiero
 
@@ -55,10 +52,7 @@ Una vez que se haya generado el informe, el informe estará disponible para verl
 
 Puede seleccionar **Ver** o **Eliminar** el informe.
 
-Para generar un informe usando **Diseñador de informes**, abra la definición del informe y haga clic en el botón Generar en la barra de herramientas. La ventana Estado de la cola del informe abrirá e indicará la ubicación del informe en la cola. De forma predeterminada, el informe generado se abrirá en el Visor web.
-
-> [!NOTE]
-> Puede generar informes únicamente en las carpetas y ubicaciones en las que tiene permiso de acceso.
+Para generar un informe usando **Diseñador de informes**, abra la definición del informe y haga clic en el botón Generar en la barra de herramientas. La ventana Estado de la cola del informe abrirá e indicará la ubicación del informe en la cola. De forma predeterminada, el informe generado se abrirá en el visor de la web.
 
 ## <a name="schedule-report-generation"></a>Programar la generación de informes
 Muchas compañías cuentan con un conjunto base de informes que se ejecutan en intervalos programados para la alineación con sus procesos empresariales. Puede programar un informe para que se genere con regularidad, por ejemplo diaria, semanal, mensual o anualmente. Esto puede realizarse en un solo informe o en un grupo de informes que incluye varias compañías. Deberá especificar las credenciales para cada una de las compañías especificadas, tales como las de una definición de organigrama. Si las credenciales no son válidas, el informe mostrará solo la información a la que tiene permiso de acceso, como la empresa en la que ha iniciado sesión en este momento. La información de salida se lee primero en el grupo de informes y luego en los informes individuales.

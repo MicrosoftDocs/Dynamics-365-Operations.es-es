@@ -1,28 +1,29 @@
 --- 
-title: "E- Facturación CFDI (México)"
+title: "MX-00010 Facturación electrónica de CFDI"
 description: "Esta tarea le muestra cómo crear y registrar una factura de cliente como una factura electrónica usando el método CFDI."
 author: sndray
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, TaxGroupLookup, InventLocationIdLookup, SalesEditLines,  EInvoiceCFDIJournal_AR
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5944746c73def13d609d84d58b52fe76b4ca1abb
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: b413b800d15f78f4d5941cc4cc75e23f96fe6933
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="e-invoicing-cfdi-mexico"></a>E- Facturación CFDI (México)
+# <a name="mx-00010-e-invoicing-cfdi"></a>MX-00010 Facturación electrónica de CFDI
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

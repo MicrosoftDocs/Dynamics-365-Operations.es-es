@@ -1,28 +1,29 @@
 --- 
-title: "Cancelar una factura electrónica (México)"
+title: "MX-00010 Cancelar facturas electrónicas"
 description: "Puede cancelar una factura electrónica CFDI validada y certificada anteriormente por el PAC."
 author: sndray
 manager: AnnBe
-ms.date: 05/09/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EInvoiceCFDIJournal_AR
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 087dcecfe7b7796aeeaea51f31e11afd66c1f1d9
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: c0e5980c024c1e28df2d6da68385c370236417f5
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="cancel-an-electronic-invoice-mexico"></a>Cancelar una factura electrónica (México)
+# <a name="mx-00010-cancel-an-electronic-invoice"></a>MX-00010 Cancelar facturas electrónicas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

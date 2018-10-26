@@ -1,28 +1,29 @@
 --- 
-title: "Consultar e imprimir una factura electrónica (México)"
+title: "MX-00010 Consultar e imprimir una factura electrónica"
 description: "Use el formulario CFDI: facturas electrónicas para ver, exportar, enviar por correo electrónico o imprimir una factura electrónica de CFDI ya generada según la solicitud de un cliente."
 author: sndray
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EInvoiceCFDIJournal_AR, EInvoiceXMLViewer_MX, DefaultDashboard
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6f96d5902d5d7b9119c8d449312fca43e4432563
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 925bfaf3bcc28155c9b542abb28fb9a9211f0201
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="inquire-and-print-an-electronic-invoice-mexico"></a>Consultar e imprimir una factura electrónica (México)
+# <a name="mx-00010-inquire-and-print-an-electronic-invoice"></a>MX-00010 Consultar e imprimir una factura electrónica
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 46165351f3c9048cfbecf25a1c49d8aeac1f3e1e
-ms.openlocfilehash: f54549cf9a7517a1846eb97e273d0d1313822c5c
+ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
+ms.openlocfilehash: f5de65a92d36e85302d7d8c98af5159651b60e19
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -32,6 +32,7 @@ Este tema proporciona vínculos a recursos de documentación para España.
 
 - [Aplicar descuentos por pronto pago en la factura](emea-esp-cash-discount-applied-invoice.md)
 - [Opciones de letras de cambio](emea-esp-bill-of-exchange-options.md)
+- [Calcular las fechas de vencimiento y el informe en el período medio de pagos](emea-esp-invoice-due-dates.md)
 - [Impuesto no realizado](emea-esp-conditional-sales-tax.md)
 - [Factura rectificativa](tasks/emea-esp-credit-invoicing.md)
 - [Cuenta de factura de datos fiscales](emea-esp-fiscal-data-invoice-account.md)

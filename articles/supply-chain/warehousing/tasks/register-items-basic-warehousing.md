@@ -3,27 +3,28 @@ title: "Registro de artículos habilitados para almacenamiento básico mediante 
 description: "Este procedimiento muestra cómo registrar artículos mediante el diario de recepción de artículos cuando se usa el \"almacenamiento básico\" en el módulo de gestión del inventario."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchTable, PurchCreateOrder, WMSJournalTable, WMSJournalCreate, PurchEditLines
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: c7148bd807ef29b0dd89204a0fbe9b8480095aba
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5c53a38eb6afdf8d3cc1a316c8da5e84549ab60d
 ms.contentlocale: es-es
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registro de artículos habilitados para almacenamiento básico mediante un diario de recepción de artículos
+# <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-an-item-arrival-journal"></a>Registro de artículos habilitados para almacenamiento básico mediante un diario de recepción de artículos
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -34,7 +35,7 @@ Este procedimiento muestra cómo registrar artículos mediante el diario de rece
 1. Vaya a Gestión del inventario > Movimientos de diario > Recepción de artículos > Recepción de artículos.
 2. Haga clic en Nuevo.
 3. En el campo Nombre, escriba un valor.
-    * Si está usando USMF, puede escribir WHS. Si está usando otros datos, el diario cuyo nombre elija tiene que tener las siguientes propiedades: comprobar ubicación de picking debe estar definido en No, y Gestión de cuarentena debe estar definido en No.  
+    * Si está usando USMF, puede escribir WHS. Si está usando otros datos, el diario cuyo nombre elija tiene que tener las siguientes propiedades: Comprobar ubicación de picking debe estar definida en No, y Gestión de cuarentena debe estar definida en No.  
 4. En el campo Albarán, escriba un valor.
     * Esta es el identificador del albarán emitido por el proveedor. Agregue un número único.  
 5. En el campo Número, seleccione el pedido de compra.

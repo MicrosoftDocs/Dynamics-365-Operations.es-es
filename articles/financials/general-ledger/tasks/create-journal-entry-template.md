@@ -1,28 +1,29 @@
 --- 
-title: Crear un movimiento de diario mediante una plantilla
+title: "Creación de un movimiento de diario mediante una plantilla"
 description: Los asientos del diario registrados se pueden guardar como plantillas de asientos y aplicarse en un nuevo asiento del diario.
 author: aprilolson
 manager: AnnBe
-ms.date: 02/17/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransVoucherTemplate
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 055fe129b9fc9cf50e1d9e1a5b4cb77285f20c92
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 4a749740b62e39202d502a112f947679f85ca085
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-a-journal-entry-using-a-template"></a>Crear un movimiento de diario mediante una plantilla
+# <a name="create-a-journal-entry-using-template"></a>Creación de un movimiento de diario mediante una plantilla
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

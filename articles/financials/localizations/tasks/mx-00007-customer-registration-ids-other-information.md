@@ -1,28 +1,29 @@
 --- 
-title: "Id. de registro de cliente y otra información (México)"
+title: "MX-00007 Id. de registro del cliente y otra información"
 description: "Este procedimiento le muestra cómo crear un cliente con la información fiscal y otra información relacionada utilizada en facturas electrónicas e informes jurídicos para México."
 author: sndray
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustTable, DirPartyQuickCreateForm,  DefaultDashboard
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3645b83ff3b3a6761c1d45127b7477c85b024523
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: b6d95cdc6ff05dc65d805fa8cbfcddd3504286e4
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="customer-registration-ids-and-other-information-mexico"></a>Id. de registro de cliente y otra información (México)
+# <a name="mx-00007-customer-registration-ids-and-other-information"></a>MX-00007 Id. de registro del cliente y otra información
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

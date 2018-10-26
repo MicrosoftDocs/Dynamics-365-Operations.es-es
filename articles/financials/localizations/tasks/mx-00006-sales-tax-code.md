@@ -1,28 +1,29 @@
 --- 
-title: "Configurar códigos de impuestos para México"
+title: "MX-00006 Configuración de un código de impuesto sobre las ventas"
 description: "Los documentos financieros jurídicos, como declaraciones de impuestos o facturas electrónicas enviadas a las autoridades fiscales en México, deben contener distintos tipos de identificadores de registro de impuestos u otra información relacionada."
 author: sndray
 manager: AnnBe
-ms.date: 12/01/2015
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TaxVatReportCategory_MX, TaxTable
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1776aa62976916cdc3dc0c70ab8b59b234f9032f
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 26e5c629d551f13e2655d67fddb2eaea7545c9f7
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="set-up-sales-tax-codes-for-mexico"></a>Configurar códigos de impuestos para México
+# <a name="mx-00006-set-up-sales-tax-code"></a>MX-00006 Configuración de un código de impuesto sobre las ventas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

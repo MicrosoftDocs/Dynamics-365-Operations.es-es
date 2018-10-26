@@ -1,28 +1,29 @@
 --- 
-title: "Ejecutar informes que usen dimensiones financieras como orígenes de datos"
+title: "ER Usar dimensiones financieras como origen de datos (Parte 4: Ejecución del informe)"
 description: "En los pasos siguientes se explica cómo un usuario asignado al rol de administrador del sistema o desarrollador de informes electrónicos puede configurar un modelo de informes electrónicos (ER) para que use las dimensiones financieras como origen de datos de informes ER."
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERSolutionTable, SysQueryForm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 6569f9b97d5d15bf74b8b3882bf4bab50970dd0f
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 917eae141bbb8792f02d3323054e2a4096dae551
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="run-reports-that-use-financial-dimensions-as-data-sources"></a>Ejecutar informes que usen dimensiones financieras como orígenes de datos
+# <a name="er-use-financial-dimensions-as-a-data-source-part-4-run-the-report"></a>ER Usar dimensiones financieras como origen de datos (Parte 4: Ejecución del informe)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -44,6 +45,6 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 9. En el campo Criterios, escriba "00057".
 10. Haga clic en Aceptar
 11. Haga clic en Aceptar
-    * Revise la salida generada. Tenga en cuenta que para cada transacción del lote seleccionado, se incluyen las dimensiones financieras del conjunto de dimensiones correspondientes. Ejecute este informe y seleccione diferentes dimensiones para ver que el informe no depende del número de dimensiones seleccionadas o el número de dimensiones configuradas para esta instancia de Dynamics 365 for Finance and Operations.  
+    * Revise la salida generada. Tenga en cuenta que para cada transacción del lote seleccionado, se incluyen las dimensiones financieras del conjunto de dimensiones correspondientes. Ejecute este informe y seleccione diferentes dimensiones para ver que el informe no depende del número de dimensiones seleccionadas o el número de dimensiones configuradas para esta instancia de Dynamics 365 for Finance and Operations, Enterprise edition.  
 
 
