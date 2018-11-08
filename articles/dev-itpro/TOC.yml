@@ -257,6 +257,10 @@
               href: extensibility/extensibility-changes-804.md
             - name: Cambios de extensibilidad de la versión 8.1
               href: extensibility/extensibility-changes-81.md
+            - name: Cambios de extensibilidad de la versión 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: Cambios de extensibilidad de la versión 8.1.2
+              href: extensibility/extensibility-changes-812.md
         - name: Conceptos fundamentales
           items:
             - name: Personalizaciones intrusivas
@@ -303,8 +307,6 @@
               href: extensibility/change-caption-form.md
             - name: Modificar propiedades de un control de formulario
               href: extensibility/modify-control-properties.md
-            - name: Cambiar etiquetas mediante archivos de extensión de etiqueta
-              href: extensibility/change-label.md
             - name: Extender el ámbito de secuencias numéricas
               href: extensibility/extend-number-sequence-scope.md
             - name: Agregar nuevas dimensiones de inventario
@@ -317,6 +319,8 @@
               href: extensibility/maps-as-interfaces.md
             - name: Extender asignaciones de tabla para control de versiones
               href: extensibility/maps-with-versioning.md
+            - name: Ampliación de la precisión de la coma decimal para los tipos de datos seleccionados
+              href: extensibility/decimal-point-precision.md
         - name: Creación de soluciones extensibles
           items:
             - name: Escribir código extensible
@@ -764,148 +768,12 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
             - name: Tipo ValueMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-- name: Integración de datos
+- name: Reglamento general de protección de datos (RGPD)
+  href: gdpr/gdpr-guide.md
   items:
-    - name: Elegir una estrategia de integración de datos (importación o exportación)
-      href: data-entities/integration-overview.md
-    - name: API de integración de datos
-      items:
-        - name: REST API de paquete de administración de datos
-          href: data-entities/data-management-api.md
-        - name: Puntos de conexión de servicios
-          href: data-entities/services-home-page.md
-          items:
-            - name: Solucionar problemas de autenticación de servicios
-              href: data-entities/troubleshoot-service-authentication.md
-        - name: OData
-          href: data-entities/odata.md
-        - name: Desarrollo de servicio personalizado
-          href: data-entities/custom-services.md
-        - name: Integraciones periódicas
-          href: data-entities/recurring-integrations.md
-        - name: Probar servicios usando utilidades de terceros
-          href: data-entities/third-party-service-test.md
-    - name: Desarrollo para la integración
-      items:
-        - name: Administración e integración de datos mediante entidades de datos
-          href: data-entities/data-management-integration-data-entity.md
-          items:
-            - name: Desarrollar entidades para la migración de datos
-              href: data-entities/develop-entity-for-data-migration.md
-            - name: Desarrollar entidades de datos compuestas
-              href: data-entities/develop-composite-data-entities.md
-            - name: Configurar uso compartido de datos financieros entre empresas
-              href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-            - name: Crear plantillas de registro para facilitar la entrada de datos
-              href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-            - name: Crear registros usando plantillas de registro
-              href: data-entities/tasks/use-record-template-new-record.md
-        - name: Integración de datos mediante Common Data Service
-          href: data-entities/data-integration-cds.md
-          items:
-            - name: Configurar un escenario de cliente potencial a cliente
-              href: ../supply-chain/sales-marketing/prospect-to-cash.md
-              items:
-                - name: Sincronizar cuentas directamente desde Sales con clientes de Finance and Operations
-                  href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                - name: Sincronizar productos directamente desde Finance and Operations con productos de Sales
-                  href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                - name: Sincronizar contactos directamente desde Sales con contactos o clientes de Finance and Operations
-                  href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                - name: Sincronizar encabezados y líneas de presupuesto de ventas directamente desde Sales a Finance and Operations
-                  href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                - name: Sincronización de pedidos de ventas entre Sales y Finance and Operations
-                  href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                - name: Sincronizar encabezados y líneas de factura de ventas directamente desde Finance and Operations en Sales
-                  href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-            - name: Configurar la integración con Field Service
-              href: ../supply-chain/sales-marketing/field-service.md
-              items:
-                - name: Sincronizar productos de Finance and Operations con productos de Field Service
-                  href: ../supply-chain/sales-marketing/field-service-product.md
-                - name: Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Finance and Operations
-                  href: ../supply-chain/sales-marketing/field-service-work-order.md
-                - name: Sincronizar facturas de acuerdos en Field Service con facturas de servicios en Finance and Operations
-                  href: ../supply-chain/sales-marketing/field-service-invoice.md
-            - name: Configurar la integración de Project Service Automation
-              href: ../financials/project-management/PSA-integration.md?toc=/dev-itpro/toc.json
-              items:
-                - name: Parámetros de integración de Project Service Automation
-                  href: ../financials/project-management/PSA-parameters.md?toc=/dev-itpro/toc.json
-                - name: Sincronizar proyectos y contratos de proyecto
-                  href: ../financials/project-management/project-contracts-templates.md?toc=/dev-itpro/toc.json
-                - name: Sincronizar tareas del proyecto
-                  href: ../financials/project-management/project-tasks-template.md?toc=/dev-itpro/toc.json
-                - name: Sincronizar categorías de gastos de proyectos
-                  href: ../financials/project-management/project-categories-templates.md?toc=/dev-itpro/toc.json
-                - name: Sincronizar estimaciones del proyecto con las previsiones del proyecto
-                  href: ../financials/project-management/project-estimates-templates.md?toc=/dev-itpro/toc.json
-                - name: Sincronizar valores reales del proyecto con el diario de integración del proyecto
-                  href: ../financials/project-management/project-actuals-templates.md?toc=/dev-itpro/toc.json
-        - name: Consumir servicios web externos
-          href: data-entities/consume-external-web-service.md
-- name: Administración de datos
-  href: data-entities/data-entities-data-packages.md
-  items:
-    - name: Entidades de datos
-      href: data-entities/data-entities.md
-      items:
-        - name: Proyectos de datos de configuración
-          href: data-entities/configuration-data-projects.md
-        - name: Paquetes de datos de configuración
-          href: data-entities/configuration-data-packages.md
-        - name: Copiar datos de configuración entre empresas
-          href: data-entities/copy-configuration.md
-        - name: Plantillas de datos de configuración
-          href: data-entities/configuration-data-templates.md
-        - name: Plantillas de datos con varias hojas de cálculo
-          href: data-entities/excel-template-multiple.md
-        - name: Habilitar seguimiento de cambios para entidades
-          href: data-entities/entity-change-track.md
-        - name: Claves de configuración y entidades de datos
-          href: data-entities/config-key-entities.md
-        - name: Buscar información acerca de las entidades de datos estándar
-          href: data-entities/data-entities-report.md
-    - name: Trabajos de exportación e importación de datos
-      href: data-entities/data-import-export-job.md
-      items:
-        - name: Procedimientos recomendados para importar asientos mediante la entidad Diario general
-          href: data-entities/tips-tricks-import-general-journal-entity.md
-    - name: Desarrollo para entidades de datos
-      items:
-        - name: Principios y prácticas recomendadas de diseño para entidades de datos
-          href: dev-tools/design-best-practices.md
-        - name: Crear nuevas entidades de datos
-          href: data-entities/build-consuming-data-entities.md
-        - name: Propiedades de entidad de datos de comportamiento
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: Crear columnas calculadas y campos virtuales
-          href: data-entities/data-entity-computed-columns-virtual-fields.md
-        - name: Comportamiento entre empresas
-          href: data-entities/cross-company-behavior.md
-        - name: Códigos de país o región y claves de configuración
-          href: data-entities/countryregion-codes-configuration-keys.md
-        - name: Patrones de herencia
-          href: data-entities/support-super-type-sub-type.md
-        - name: Reglas del asistente para entidades de datos
-          href: data-entities/data-entity-wizard-rules.md
-        - name: Propiedades de metadatos
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: 'Validaciones, valores predeterminados y campos sin asignar'
-          href: data-entities/validations-defaults-unmapped-fields.md
-        - name: Seguridad y entidades de datos
-          href: data-entities/security-data-entities.md
-        - name: Crear entidades de solo lectura que exponen dimensiones financieras
-          href: financial/read-only-entity-financial.md
-    - name: Usar su propia base de datos
-      href: analytics/export-entities-to-your-own-database.md
-    - name: Automatización de tareas de datos
-      href: data-entities/data-task-automation.md
     - name: Recursos para responder a solicitudes de datos de RGPD
       href: gdpr/gdpr-home-page.md
       items:
-        - name: Guiar al RGPD para Finance and Operations
-          href: gdpr/gdpr-guide.md
         - name: Clasificaciones de activos
           href: gdpr/gdpr-asset-classification-values.md
         - name: Informe de búsqueda de personas
@@ -920,14 +788,10 @@
           href: gdpr/gdpr-ax2012.md
         - name: Solicitudes de datos del RGPD para LCS
           href: gdpr/gdpr-lcs.md
-    - name: Espacio de trabajo de la lista de comprobación de validación de datos
-      href: user-interface/data-validation-workspace.md
-    - name: Descripciones de errores de gestión de datos
-      href: data-entities/dm-error-descriptions.md
 - name: Entrega continua
   href: dev-tools/continuous-delivery-home-page.md
   items:
-    - name: Preguntas más frecuentes sobre desarrollo y entrega continua
+    - name: Preguntas frecuentes sobre desarrollo y entrega continua
       href: dev-tools/continuous-delivery-faq.md
     - name: Excluir paquetes de prueba de la salida de compilación
       href: dev-tools/exclude-test-packages.md
@@ -1039,10 +903,12 @@
         - name: Configurar e implementar entornos locales
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: Implementar entornos locales en Platform update 12
+            - name: Implementar entornos locales (Platform update 12 y posteriores)
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: Implementar entornos locales en Platform updates 8 y 11
+            - name: Implementar entornos locales (Platform updates 8 y 11)
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
+            - name: Pasos de instalación para los componentes del canal minorista en un entorno local
+              href: deployment/deploy-retail-onprem.md
         - name: Desarrollar e implementar modelos personalizados para entornos locales
           href: deployment/develop-deploy-custom-models-on-premises.md
         - name: Configurar servidores proxy inversos para entornos locales
@@ -1161,6 +1027,8 @@
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Actualizar las herramientas de desarrollo
           href: dev-tools/update-development-tools.md
+        - name: Planificar y prepararse para compilar código con la última actualización
+          href: migration-upgrade/compile-considerations.md
     - name: Cambiar a una actualización reciente (local)
       items:
         - name: Aplicar actualizaciones a implementaciones locales
@@ -1226,6 +1094,12 @@
           href: sysadmin/batch-server-overview.md
         - name: Crear trabajos por lotes
           href: sysadmin/tasks/create-batch-job.md
+        - name: Copiar un trabajo por lotes
+          href: sysadmin/copy-batch-job.md
+        - name: Períodos de lotes activos
+          href: sysadmin/activeperiod.md
+        - name: Rol de seguridad de administrador de lotes
+          href: sysadmin/runby.md
     - name: Asesor de optimización
       href: sysadmin/optimization-advisor-overview.md
       items:
