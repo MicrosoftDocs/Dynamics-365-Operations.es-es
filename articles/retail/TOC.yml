@@ -14,6 +14,8 @@
       href: dev-itpro/choose-deployment.md
     - name: Obtener soporte para Retail
       href: retail-support.md
+    - name: Preguntas frecuentes sobre actualizaciones del servicio de una versión
+      href: ../fin-and-ops/get-started/one-version.md
 - name: Comprender el ciclo de vida de la implementación
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
@@ -145,8 +147,6 @@
       items:
         - name: Periféricos de venta al por menor
           href: retail-peripherals-overview.md
-        - name: Periféricos de hardware de PDV probados por Microsoft
-          href: microsoft-tested-pos-hardware-peripherals.md
         - name: Simulador periférico de Retail
           href: dev-itpro/retail-peripheral-simulator.md
         - name: Conectar periféricos al PDV
@@ -229,7 +229,9 @@
       href: set-up-rfm-analysis.md
 - name: Descuentos y ajustes de precios
   items:
-    - name: Administración de precios de venta de Retail
+    - name: Descuentos comerciales
+      href: retail-discounts-overview.md
+    - name: Administración de precios de venta al por menor
       href: price-management.md
     - name: Ajustes de precios y descuentos
       href: price-adjustments-discounts.md
@@ -271,7 +273,7 @@
       href: ../supply-chain/pim/search-products-product-variants.md
 - name: Fidelidad
   items:
-    - name: Configurar programas de fidelización de clientes
+    - name: Visión general de fidelidad
       href: set-up-customer-loyalty-program.md
 - name: Inventario
   items:
@@ -307,6 +309,8 @@
       href: ../talent/create-job.md
 - name: Características normativas y de localización
   items:
+    - name: Integración fiscal para el canal comercial
+      href: localizations/fiscal-integration-for-retail-channel.md
     - name: Europa del Este
       items:
         - name: Facturas anticipadas para Retail para Europa del Este
@@ -315,6 +319,8 @@
           href: localizations/emea-eeu-petty-cash-for-retail.md
         - name: Facturas de clientes de Retail y pedidos de venta de devolución en países de Europa del Este
           href: localizations/emea-eeu-retail-invoices.md
+        - name: 'Directrices de implementación para cajas registradoras para la República Checa, Hungría y Polonia'
+          href: localizations/emea-eeu-deployment.md
     - name: Francia
       items:
         - name: Funcionalidad de caja registradora
@@ -329,6 +335,10 @@
           href: localizations/apac-ind-loc-deployment-guidelines.md
         - name: Soporte de actualización y N-1 para India
           href: localizations/apac-ind-n-1-for-india.md
+    - name: Italia
+      items:
+        - name: Integración de la impresora fiscal
+          href: localizations/emea-ita-fpi-sample.md
     - name: Noruega
       items:
         - name: Funcionalidad de caja registradora
@@ -490,6 +500,8 @@
           href: dev-itpro/pos-custom-control.md
         - name: Agregar operaciones de PDV a diseños de PDV mediante el diseñador de cuadrícula de botones
           href: dev-itpro/add-POS-operations.md
+        - name: API de Retail POS
+          href: dev-itpro/POS-APIs.md
         - name: Extensión de pago de PDV
           href: dev-itpro/pos-payment-extension.md
         - name: Compatibilidad para tarjetas de regalo externas
