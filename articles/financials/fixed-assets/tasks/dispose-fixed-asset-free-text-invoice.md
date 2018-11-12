@@ -25,6 +25,7 @@ ms.lasthandoff: 09/24/2018
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Cancelar un activo fijo mediante una factura de servicios
 
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra la disposición de un activo fijo mediante la factura de servicios.
 
