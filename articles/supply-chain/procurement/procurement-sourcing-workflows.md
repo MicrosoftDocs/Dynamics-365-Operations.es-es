@@ -50,11 +50,12 @@ Los siguientes tipos de flujo de trabajo están disponibles para Adquisición y 
 | Flujo de trabajo de solicitud de adición de proveedor  | Cree su revisión y flujos de trabajo de aprobación para agregar nuevos proveedores mediante solicitudes de proveedor. |
 
 ## <a name="creating-a-workflow"></a>Creación de un flujo de trabajo
+
 Para crear un flujo de trabajo, vaya a Adquisición y abastecimiento &gt; Configuración &gt; Flujos de trabajo de adquisición y abastecimiento, y cree un nuevo flujo de trabajo seleccionando el tipo de flujo de trabajo que desee crear.  
 
 En el lienzo del flujo de trabajo puede arrastrar elementos de flujo de trabajo al diseñador y vincular los elementos en un flujo. Se deben configurar los elementos del flujo de trabajo. Para los elementos de flujo de trabajo de aprobación y de tarea puede configurar qué participante debe actuar.
-Tipos de participantes
-----------------------
+
+## <a name="types-of-participants"></a>Tipos de participantes
 
 Puede asignar un paso de aprobación a los siguientes grupos de participantes.
 
@@ -68,13 +69,12 @@ Puede asignar un paso de aprobación a los siguientes grupos de participantes.
 
 
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
-[Definición de flujos de trabajo de procesos empresariales para solicitudes de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [Definición de flujos de trabajo de procesos empresariales para solicitudes de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Flujo de trabajo de solicitudes de compra](purchase-requisitions-workflow.md)
+- [Flujo de trabajo de solicitudes de compra](purchase-requisitions-workflow.md)
 
-[Incorporación de proveedores](vendor-onboarding.md)
+- [Incorporación de proveedores](vendor-onboarding.md)
 
 
