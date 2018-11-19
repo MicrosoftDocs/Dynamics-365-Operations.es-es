@@ -1,9 +1,9 @@
 ---
-title: "Configurar programas de fidelización de clientes"
-description: "En este artículo se describe cómo configurar un programa de fidelización. Los programas de fidelización pueden ayudar a aumentar la fidelización del cliente al premiar a los clientes para la compra de productos en las tiendas comerciales. En Microsoft Dynamics for Retail, puede configurar programas de fidelización simples o complejos que se aplican en todas las entidades jurídicas de cualquier canal comercial."
+title: "Visión general de fidelidad"
+description: "Este tema describe las capacidades de fidelidad dentro de Microsoft Dynamics 365 for Retail y los pasos de configuración correspondientes para ayudar a minoristas a iniciarse fácilmente en el uso de sus programas de fidelidad."
 author: scott-tucker
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,23 +20,20 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 8aa29282f80870b93d119c095bb95c3bcfbfc682
+ms.sourcegitcommit: 11ad4168c7e5ddc63608d1c86430e4a6936d5e30
+ms.openlocfilehash: 78318849873f396c662c5250f0e86146279cc3a5
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/26/2018
 
 ---
 
-# <a name="set-up-customer-loyalty-programs"></a>Configurar programas de fidelización de clientes
+# <a name="loyalty-overview"></a>Visión general de fidelidad
 
 [!include [banner](includes/banner.md)]
 
-En este artículo se describe cómo configurar un programa de fidelización. Los programas de fidelización pueden ayudar a aumentar la fidelización del cliente al premiar a los clientes para la compra de productos en las tiendas comerciales. En Microsoft Dynamics for Retail, puede configurar programas de fidelización simples o complejos que se aplican en todas las entidades jurídicas de cualquier canal comercial.
+Los programas de fidelización pueden ayudar a aumentar la fidelización del cliente al premiar a los clientes por sus inetracciones con la marca del minorista. En Microsoft Dynamics for Retail, puede configurar programas de fidelización simples o complejos que se aplican en todas las entidades jurídicas de cualquier canal comercial. Este tema describe las capacidades de fidelidad dentro de Microsoft Dynamics 365 for Retail y los pasos de configuración correspondientes para ayudar a minoristas a iniciarse fácilmente en el uso de sus programas de fidelidad.
 
-<a name="loyalty-features"></a>Características de fidelidad
-----------------
-
-Puede configurar su programa de fidelización de modo que se incluyan las siguientes opciones:
+Puede configurar su programa de fidelización de modo que se incluyan las siguientes opciones.
 
 -   Configure varios tipos de premios que ofrece en los programas de fidelización y haga un seguimiento de la participación en los programas de fidelización.
 -   Configure programas de fidelización que representen los distintos incentivos de premios que se ofrecen. Puede incluir niveles de programas de fidelización para ofrecer mayores incentivos y recompensas a los clientes que compran con mayor frecuencia o que gastan más dinero en las tiendas.
@@ -45,7 +42,7 @@ Puede configurar su programa de fidelización de modo que se incluyan las siguie
 -   Ajuste manualmente las tarjetas de fidelización o transfiera los saldos de recompensas de fidelización de una tarjeta a otra acomodar o recompensar a un cliente.
 
 ## <a name="setting-up-loyalty-programs"></a>Configurar programas de fidelidad
-Debe configurar varios componentes para habilitar la característica de fidelización en Dynamics 365 for Retail. En el siguiente diagrama se muestran los componentes de fidelización y cómo se relacionan entre sí. ![Flujo de proceso de configuración de fidelización](./media/loyaltyprocess.gif)
+Debe configurar varios componentes para habilitar la característica de fidelización en Dynamics 365 for Retail. En el siguiente diagrama se muestran los componentes de fidelización y cómo se relacionan entre sí. ![Flujo del proceso de configuración de la fidelidad](./media/loyaltyprocess.gif "Componentes de fidelización y cómo se relacionan entre sí")
 
 ## <a name="loyalty-components"></a>Componentes de fidelización
 En la tabla siguiente se describe cada componente y dónde se usa en la configuración de fidelización.
@@ -70,11 +67,63 @@ La tabla siguiente describe los procesos que se deben ejecutar para enviar confi
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
 | 1050 (información sobre fidelización)           | Ejecute este proceso para enviar datos de fidelización desde Dynamics 365 for Retail a las tiendas. Conviene programar este proceso para ejecutarse con frecuencia, para transmitir datos de fidelidad a todas las tiendas.                                                                                                                                                                                               | Programación de distribución                |
 | Procesar esquemas de fidelización              | Ejecute este proceso para asociar los esquemas de fidelización con los canales comerciales a los que está asignado el esquema de fidelización. Este proceso se puede programar para que se ejecute como un proceso por lotes. Debe ejecutar este proceso si realiza cambios en los datos de configuración de fidelidad, como esquemas de fidelidad, programas de fidelidad o puntos de premio por fidelidad.                                                                                               | Procesar esquemas de fidelización              |
-| Procesar transacciones de fidelización sin conexión | Ejecute este proceso para actualizar las tarjetas de fidelización de modo que incluyan las transacciones que se procesaron sin conexión. Este proceso se aplica solo si la casilla **Obtener sin conexión** está seleccionada en la página **Parámetros compartidos comerciales** para poder obtener premios sin conexión.                                                                                                                                               | Procesar transacciones de fidelización sin conexión |
+| Procesar transacciones de fidelización sin conexión | Ejecute este proceso para actualizar las tarjetas de fidelización de modo que incluyan las transacciones que se procesaron sin conexión. Este proceso se aplica solo si la casilla **Obtener sin conexión** está seleccionada en la página **Parámetros compartidos comerciales** de modo que se obtengan premios sin conexión.                                                                                                                                               | Procesar transacciones de fidelización sin conexión |
 | Actualizar niveles de tarjeta de fidelización            | Ejecute este proceso para evaluar la actividad de obtención del cliente en comparación con las reglas de nivel de un programa de fidelización y actualizar el estado del nivel del cliente. Este proceso solo se necesita si modifica las reglas de nivel en los programas de fidelización y desea que las reglas actualizadas se apliquen de forma retroactiva a las tarjetas de fidelización que ya se han emitido. Este proceso se puede programar como un proceso por lotes o para tarjetas individuales. | Actualizar niveles de tarjeta de fidelización            |
 
+## <a name="loyalty-enhancements"></a>Mejoras de fidelidad
 
+Retail tiene nueva funcionalidad de fidelidad como parte de su versión de octubre de 2018. Cada una de las nuevas mejoras se explica a continuación.
 
+- Como parte de un esquema de fidelidad en versiones anteriores, los minoristas podían crear distintas reglas de ganancias y de canje por niveles para distinguir las recompensas para los clientes en distintos niveles. Ahora los minoristas pueden incluir “afiliaciones” como parte de las reglas de ganancias y de canje, de modo que un determinado grupo de clientes pueda formar parte de niveles ya existentes, pero se le siga recompensando de manera diferente. Esto evita la necesidad de crear niveles adicionales.
+    
+    > [!NOTE]
+    > Las reglas de ganancias dentro de un esquema de fidelidad son adicionales. Por ejemplo, si crea una regla para recompensar a un miembro del nivel Oro con 10 puntos por cada dólar estadounidense, y también crea una regla para un cliente con la afiliación de "veterano" para recompensar con 5 puntos cada dólar estadounidense, un veterano que sea también miembro del nivel Oro ganaría 15 puntos por cada dólar estadounidense, ya que el cliente puede optar a ambas líneas. Sin embargo, si el cliente veterano no era miembro del nivel Oro, ganaría 5 puntos por cada dólar. Para reflejar los cambios en los canales, ejecute los trabajos **Procesar esquemas de fidelidización** y **1050** (información de fidelidad).
+    
+    ![Ganancia basada en la afiliación](./media/Affiliation%20based%20earning.png "Ganancia basada en la afiliación")
 
+- Los minoristas a menudo tienen precios especiales para un determinado grupo de clientes a los que no desean que se les apliquen programas de fidelidad. Por ejemplo, mayoristas o empleados que obtienen precios especiales y no puntos de fidelidad. Comúnmente, las "afiliaciones" se utilizan para proporcionar un precio especial a estos grupos de clientes. Para limitar que ciertos grupos de clientes ganan puntos de fidelidad, el minorista puede especificar una o más afiliaciones en la sección **Afiliaciones excluidas** del programa de fidelidad. De esta manera, cuando los clientes que pertenezcan a afiliaciones excluidas sean miembros ya existentes de fidelidad, no podrán obtener puntos de fidelidad por sus compras. Para reflejar los cambios en los canales, ejecute los trabajos **Procesar esquemas de fidelidización** y **1050** (información de fidelidad).
 
+    ![Afiliaciones excluidas](./media/Excluded%20affiliations.png "Excluir afiliaciones de ganar puntos de fidelización")
+    
+- Los minoristas pueden generar números de tarjeta de fidelización en los canales. Antes de la actualización de octubre de 2018, los minoristas podían usar tarjetas de fidelización físicas o generar una tarjeta de fidelización mediante cierta información de cliente única como el número de teléfono. Para habilitar la generación automática de tarjetas de fidelización en comercios, active **Generar número de tarjeta de fidelización** en el perfil de funcionalidad asociado a la tienda. Para los canales en línea, los minoristas pueden usar la API IssueLoyaltyCard para emitir las tarjetas de fidelización a los clientes. Los minoristas pueden proporcionar un número de tarjeta de fidelización a esta API, que se utilizará para generar la tarjeta de fidelización o el sistema utilizará la secuencia numérica de tarjetas de fidelización establecida en Dynamics 365 for Retail. Sin embargo, si la secuencia numérica no está presente, y el minorista no proporciona un número de tarjeta de fidelización mientras llama la API, se mostrará un error.
+
+![Generar tarjeta de fidelización](./media/Generate%20loyalty%20card.png "Generar automáticamente número de tarjeta de fidelización")
+
+- Los puntos de fidelización ganados y canjeados ahora se guardan para cada transacción y pedido de ventas con la línea de ventas, para poder reembolsar o retomar la misma cantidad en el caso de devoluciones completas o parciales. Por otro lado, tener la visibilidad de los puntos en el nivel de línea de ventas proporciona la capacidad para los usuarios del centro de asistencia telefónica de responder a las consultas de clientes sobre cuántos puntos se ganaron o canjearon por cada línea. Antes de este cambio, los puntos de la recompensa se volvían a calcular siempre durante las devoluciones, lo que daba lugar a un importe diferente del original si las reglas de ganancias o de canje habían cambiado. También los usuarios del centro de asistencia telefónica no tenían la visibilidad sobre el desglose de los puntos. Los puntos se pueden ver en el formulario **Transacciones de tarjeta** de cada tarjeta de fidelización.
+    
+- Los minoristas ahora pueden definir el período de atribución para cada punto de la recompensa. Una configuración del período de atribución definirá la duración a partir de la fecha de ganancia, tras la cual los puntos de la recompensa estarán disponibles para el cliente. Los puntos no atribuidos se pueden ver en la columna **Puntos no atribuidos** en la página **Tarjetas de fidelización**. Además, los minoristas pueden definir el límite de puntos de recompensa de fidelidad máximo por la tarjeta de fidelización. Este campo se puede usar para reducir el impacto de fraudes de fidelidad. Cuando se hayan alcanzado los puntos máximos de recompensa, el usuario no puede obtener más puntos. El minorista puede decidir bloquear tales tarjetas hasta que no se haya investigado el fraude potencial. Si el minorista determina que hay fraude, el minorista no solo puede bloquear la tarjeta de fidelización del cliente sino también marcar al cliente como bloqueado. Para ello, establezca la propiedad **Bloquear al cliente para su inscripción en el programa de fidelización** en **Sí**, en **Todos los clientes**, en la ficha desplegable **Venta minorista**. Los clientes bloqueadas no podrán obtener una tarjeta de fidelización en ninguno de los canales.
+
+![Atribución de puntos y puntos máximos de recompensa](./media/Vesting%20and%20maximum%20reward%20points.png "Defina la atribución de puntos y los puntos máximos de recompensa")
+
+- Las afiliaciones se utilizan para proporcionar precios y descuentos especiales, pero hay algunas afiliaciones que los minoristas no quieren que los clientes vean. Por ejemplo, puede que una afiliación titulada “Cliente con muchos gastos" no sea bien recibida por algunos clientes. Por otro lado, existen algunas afiliaciones que no se deben gestionar en la tienda, por ejemplo, empleados, ya que no desea que los cajeros decidan quién es un empleado y que proporcionen, por lo tanto, descuentos en función de si se es empleado o no. Los minoristas pueden ahora seleccionar las afiliaciones que deben ocultarse en los canales minoristas. Las afiliaciones marcadas como **Ocultar en canales** no se pueden ver, agregar ni quitar, en POS. Sin embargo, los precios y descuentos asociados a la afiliación seguirán aplicándose a los productos.
+
+![Ocultar afiliaciones](./media/Hide%20affiliations.png "Ocultar afiliaciones en canales")
+    
+- Los usuarios del centro de asistencia telefónica pueden ahora realizar con mayor facilidad la búsqueda de un cliente mediante su información de la tarjeta de fidelización, y navegar a las páginas de tarjeta de fidelización del cliente y de transacciones de tarjeta de fidelización, desde la página **Servicio al cliente**. 
+
+![Servicio al cliente](./media/Customer%20service.png "Buscar información de fidelidad del cliente")
+    
+- Si se compromete una tarjeta de fidelización, debe generarse una tarjeta de sustitución y transferir los puntos existentes a la nueva tarjeta. El flujo de la tarjeta de sustitución se ha simplificado en esta versión. Además, los clientes pueden regalar algunos o todos los puntos de fidelidad a los amigos y familia. Cuando se transfieren puntos, las entradas de ajuste de puntos se crean para cada tarjeta de fidelización. Se puede acceder a la funcionalidad de tarjeta de sustitución y saldo de transferencia desde la página **Tarjetas de fidelización**.
+
+![Reemplazar y transferir puntos](./media/Replace%20and%20transfer%20points.png "Reemplazar la tarjeta de fidelización o transferir saldo")
+    
+- Los minoristas pueden querer capturar la eficacia de un canal determinado para inscribir a los clientes en un programa de fidelización. El origen de inscripción para las tarjetas de fidelización ahora se guarda de modo que los minoristas puedan ejecutar informes con estos datos. El origen de las inscripciones se captura automáticamente para todas las tarjetas de fidelización emitidas desde los canales de MPOS/CPOS o comercio electrónico. Para las tarjetas de fidelización emitidas desde la aplicación de la oficina administrativa, el usuario del centro de asistencia telefónica puede seleccionar un canal adecuado.
+
+- En versiones anteriores, los minoristas podían utilizar MPOS/CPOS para efectuar un canje de puntos de fidelización para clientes de una tienda. Sin embargo, en esos lanzamientos, dado que el saldo de fidelidad se mostraba en puntos de fidelidad, el cajero no podía ver el importe del valor de divisa que se podía aplicar a la transacción actual. El cajero tenía que hacer los puntos en conversión de divisa antes de pagar por puntos de fidelidad. En la versión actual, después de que las líneas se agregan a la transacción, el cajero puede ver el importe que los puntos de fidelidad pueden cubrir para la transacción actual, facilitando la aplicación de algunos o todos los puntos de fidelidad a la transacción. Además, el cajero puede ver los puntos que expirarán en los 30 días próximos, de modo que pueda sugerir una venta adicional o realizar ventas cruzadas para motivar al cliente a gastar los puntos a punto de caducar en la transacción.
+
+![Puntos que cubre el saldo de fidelidzación](./media/Points%20covered%20by%20loyalty%20balance.png "Mostrar saldo cubierto por puntos de fidelización")
+
+![Puntos de caducidad](./media/Expiring%20points.png "Ver puntos de caducidad")
+    
+## <a name="upcoming-enhancements"></a>Mejoras próximas
+
+Las características siguientes estarán disponiles en las futuras actualizaciones mensuales de Dynamics 365 for Retail.
+    
+- Los clientes desean la capacidad de ver los detalles del saldo de fidelidad en los canales de consumidor. De forma similar, es importante que los cajeros vean el historial de cliente de los puntos de fidelidad en MPOS/CPOS para atender rápidamente las consultas del cliente. En una versión mensual próxima, los clientes y los cajeros podrán ver los detalles del historial de fidelidad.
+
+- Muchos minoristas pueden otorgar puntos de fidelidad basados únicamente en las transacciones de ventas, pero los minoristas más centrados en el cliente desean recompensar a sus clientes para cualquiera de sus actividades de compromiso con su marca. Por ejemplo, desean proporcionar premios por rellenar una encuesta en línea, visitar una tienda, dar un me gusta al minorista en Facebook, escribir un tweet sobre el minorista, etc. En el futuro, agregaremos la capacidad de conceder puntos de fidelidad por cualquier actividad del cliente. Para ello, el minorista puede definir “Otro tipo de actividad” y definir las reglas de ganancias para estas actividades. También expodremos una API de servidor de ventas que puede llamarse cuando se identifica una actividad que utilizará la regla de ganancias para conceder los puntos de fidelidad necesarios.
+
+- Para habilitar una experiencia verdadera de ventas al por menor en todos los canales, permitiremos que los clientes obtengan y canjeen puntos de fidelidad en todos los canales. 
+
+- Los envíos gratuitos o con descuento constituyen factores muy motivadores para que los clientes compren en línea. Para permitir a minoristas configurar promociones de envío, presentaremos un nuevo tipo de promoción en el que el minorista pueda definir los umbrales que, una vez cumplidos, darán la opción a los clientes de conseguir un envío con descuento o gratuito.
 

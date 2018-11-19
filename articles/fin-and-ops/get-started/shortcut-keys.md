@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
+ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 
@@ -192,7 +192,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Agregar o quitar un formulario como favorito (con el enfoque en un formulario en el panel de navegación)   | Mayús + F3                    |
 | Ir al panel de acciones estándar                                              | Alt+M,A o Ctrl+F6         |
 | Ir al panel de filtros (puede incluirse la opción de abrirlo)                        | Alt+M,F o Ctrl+F3         |
-| Mover el enfoque al contenido de la página (con el enfoque en la lista de navegación)            | Alt+M,M o Ctrl+F3         |
+| Mover el enfoque al contenido de la página (con el enfoque en el panel de filtros)                | Alt+M,M o Ctrl+F3         |
 | Ir a la lista de navegación del formulario Detalles (puede incluirse la opción de abrirla)    | Alt+M,S o Ctrl+F8         |
 | Mover el enfoque al contenido de la página (con el enfoque en la lista de navegación)            | Alt+M,M o Ctrl+F8         |
 | Cerrar la lista de navegación de formulario de detalles (con el enfoque en la lista de navegación) | Esc                        |

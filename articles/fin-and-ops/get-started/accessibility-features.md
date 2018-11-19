@@ -3,7 +3,7 @@ title: "Características de accesibilidad"
 description: "Este tema describe la funcionalidad diseñada para ayudar a que los usuarios que tienen varias discapacidades usen Dynamics 365 for Finance and Operations, Dynamics 365 for Retail y Dynamics 365 for Talent."
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 01/23/2018
+ms.date: 11/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 834146c1a57cca0c02598290352c3ab8e1e4b7f5
+ms.sourcegitcommit: a67b51ced4bea11be258aed359a758d88294beb1
+ms.openlocfilehash: bc48aa5ccf50705ef0c5087608798875953fe888
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 11/05/2018
 
 ---
 
@@ -41,7 +41,7 @@ Para la mayoría de usuarios, el uso diario del sistema implica un gran volumen 
 
 Cualquier página a la que se accede mediante el menú del panel de navegación, el panel del extremo izquierdo, también está disponible desde la casilla **Buscar**. Presione Alt+G para mover el foco a la casilla **Buscar** y, a continuación, escriba el nombre o la descripción de la página.
 
-!["Cuenta bancaria” especificada en el cuadro de búsqueda](media/6d08b0be32808221023e2aa92d69fd70.png)
+![“Cuentas bancarias” introducidas en el cuadro de búsqueda](media/6d08b0be32808221023e2aa92d69fd70.png  "\"cuentas bancarias\" introducidas en el cuadro de búsqueda")
 
 Para obtener más información, consulte [Búsqueda de navegación](navigation-search.md).
 
@@ -56,17 +56,21 @@ Puede accederse a cada acción que se ofrece en una página desde un teclado, me
 
 Desea ejecutar la acción **Registro de notificación por correo electrónico** que aparece en el grupo **Notificación por correo electrónico** en la pestaña **Pedido de ventas** del panel de acciones.
 
-![Acción de registro de la notificación por correo electrónico en el panel de acciones](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg)
+![Acción de registro de la notificación por correo electrónico en el panel de acciones](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg  "Acción de registro de la notificación por correo electrónico en el panel de acciones")
 
 Una opción es para usar el teclado. Presione Ctrl+F6 para mover el enfoque al panel de acciones, y presione la ficha repetidamente para pasar por todas las fichas y acciones, hasta que la acción **Registro de notificación por correo electrónico** tenga el foco.
 
 Sin embargo, también puede ejecutar la acción más directamente. En cualquier lugar de la página, presione Ctrl+Apóstrofo (') para mostrar el cuadro de búsqueda para las acciones.
 
-![Cuadro de búsqueda de acciones](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg)
+![Cuadro de búsqueda de acciones](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg  "Cuadro de búsqueda de acciones")
 
 En el cuadro de búsqueda, escriba palabras que describen la acción. La acción se a pone a su disposición, y puede ejecutarla directamente. Por ejemplo, si especifica **correo electrónico**, **notific** (una palabra parcial), o **registro**, puede "saltar" a la funcionalidad de registro de la notificación por correo electrónico.
 
-!["Correo electrónico” especificado en el cuadro de búsqueda](media/image4.png) !["Notific” especificado en el cuadro de búsqueda](media/image5.png) !["Registro” especificado en el cuadro de búsqueda](media/image6.png)
+!["Correo electrónico" introducido en el cuadro de búsqueda](media/image4.png "\"correo electrónico\" introducido en el cuadro de búsqueda") 
+
+!["Notific" introducido en el cuadro de búsqueda](media/image5.png "\"notific\" introducido en el cuadro de búsqueda")
+
+!["Registro" introducido en el cuadro de búsqueda](media/image6.png "\"registro\" introducido en el cuadro de búsqueda")
 
 Cuando haya terminado, puede pulsar Ctrl+Apóstrofo otra vez para devolver el enfoque al campo en el que trabajaba antes de ejecutar la búsqueda de acción.
 
@@ -78,7 +82,7 @@ En el uso diario del sistema, no todos los campos son necesarios para realizar t
 
 Sin embargo, puede detectar que algunos campos que utiliza a menudo para realizar tareas no se incluyen en la secuencia predeterminada de tabulaciones. En este caso, si usa Windows Narrator, puede usar acciones de teclado de Windows Narrator para tener acceso a dichos campos e inspeccionar su contenido. Como alternativa, puede activar la opción **Secuencia de fichas mejorada** en la página **Opciones**. Esta opción crea toda la parte de campos que pueden editarse y de solo lectura de la secuencia de tabulaciones. Puede utilizar la personalización de la página para crear una secuencia de tabulaciones personalizada y omitir campos que no es necesario que formen parte de la secuencia tabulaciones. Para obtener más información acerca de la personalización, consulte [Personalizar la experiencia del usuario](personalize-user-experience.md).
 
-![Opción de secuencia de tabulaciones mejorada](media/8c0f12bbb3f26032997ef0ba95d89b6a.png)
+![Opción "Secuencia de fichas mejorada](media/8c0f12bbb3f26032997ef0ba95d89b6a.png  "opción \"Secuencia de fichas mejorada")
 
 ## <a name="form-patterns"></a>Patrones de formulario
 

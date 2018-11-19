@@ -3,7 +3,7 @@ title: Dimensiones financieras
 description: "Este tema describe los diferentes tipos de dimensiones financieras y cómo se configuran."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 10/26/2018
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
-ms.openlocfilehash: 9973d03de031ad2fa5647bb167c12b9231633a22
+ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
+ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
 ms.contentlocale: es-es
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 11/05/2018
 
 ---
 
@@ -51,9 +51,9 @@ A continuación se muestran algunas limitaciones:
 
 ## <a name="custom-dimensions"></a>Dimensiones personalizadas
 
-Para crear una dimensión financiera definida por el usuario, en el campo **Usar valores de** seleccione **&lt;&nbsp;Dimensión personalizada&nbsp;&gt;**.
+Para crear una dimensión financiera definida por el usuario, en el campo **Usar valores de**, seleccione **Dimensión personalizada**.
 
-También puede especificar una máscara de cuenta para limitar el importe y el tipo de información que puede especificarse para valores de dimensión. Puede especificar los caracteres que permanecen iguales para cada valor de dimensión, como letras o un guion (-). También puede especificar signos de número (\#) y ampersands (&) como marcadores de posición para los caracteres que se modificarán cada vez que se cree un valor de dimensión. Use un signo de número (\#) ) como marcador de posición para un número y un ampersand (&) como marcador de posición para una letra. El campo para la máscara de formato solo está disponible si selecciona el campo **&lt;&nbsp;Dimensión personalizada&nbsp;&gt;** en el campo **Usar valores desde**.
+También puede especificar una máscara de cuenta para limitar el importe y el tipo de información que puede especificarse para valores de dimensión. Puede especificar los caracteres que permanecen iguales para cada valor de dimensión, como letras o un guion (-). También puede especificar signos de número (\#) y ampersands (&) como marcadores de posición para los caracteres que se modificarán cada vez que se cree un valor de dimensión. Use un signo de número (\#) ) como marcador de posición para un número y un ampersand (&) como marcador de posición para una letra. El campo para la máscara de formato solo está disponible si selecciona el campo **Dimensión personalizada** en el campo **Usar valores desde**.
 
 **Ejemplo**
 
@@ -108,14 +108,30 @@ Puede configurar valores derivados en la página de las dimensiones.
 
 Especifique combinaciones de dimensiones que se deben derivar de la dimensión en la primera columna. Por ejemplo, para usar el centro de coste como la dimensión de la que se derivan el departamento y la ubicación, especifique el centro de coste 10, el Departamento 20, y la ubicación 30. A continuación, al especificar el centro de coste 10 en un registro maestro o en una página de transacción, el departamento 20 y la ubicación 30 se especifican de forma predeterminada.
 
-El proceso de la dimensión derivada no anula los valores existentes para las dimensiones derivadas. Por ejemplo, si especifica en el centro de coste 10 y ninguna otra dimensión, el departamento 20 y la ubicación 30 se especifican de forma predeterminada. Sin embargo, si cambia el centro de coste, los valores que ya se establecieron no se modifican. Por lo tanto, puede establecer dimensiones predeterminadas en registros maestros y dichas dimensiones no se cambiarán por dimensiones derivadas.
+### <a name="overriding-existing-values-with-derived-dimensions"></a>Anular valores existentes con dimensiones derivadas
+ 
+De forma predeterminada, el proceso de la dimensión derivada no anula los valores existentes para las dimensiones derivadas. Por ejemplo, si especifica en el centro de coste 10 y ninguna otra dimensión, el departamento 20 y la ubicación 30 se especifican de forma predeterminada. Sin embargo, si cambia el centro de coste, los valores que ya se establecieron no se modifican. Por lo tanto, puede establecer dimensiones predeterminadas en registros maestros y dichas dimensiones no se cambiarán por dimensiones derivadas.
+
+Puede cambiar el comportamiento de dimensiones derivadas para anular valores existentes seleccionando la casilla de verificación **Reemplazar los valores de dimensión existentes con valores derivados** en la página **Dimensiones derivadas**. Si se selecciona este campo, puede especificar una dimensión con valores de dimensión derivados y dichos valores de dimensión derivados anulan cualquier valor que ya existe. Usando el ejemplo anterior, si especifica en el centro de coste 10 y ninguna otra dimensión, el departamento 20 y la ubicación 30 se especifican de forma predeterminada. Sin embargo, si los valores eran ya el departamento 50 y la ubicación 60, ahora los valores se cambiarán al departamento 20 y la ubicación 30.
+ 
+Las dimensiones derivadas con este valor no sustituyen automáticamente los valores existentes de dimensiones predeterminadas cuando se establecen como valor predeterminado los valores de dimensión. Los valores de dimensión solo se anularán si especifica un nuevo valor de dimensión en una página y hay valores derivados existentes para dicha dimensión en la página.
+
+### <a name="preventing-changes-with-derived-dimensions"></a>Evitar cambios con dimensiones derivadas
+ 
+Cuando usa **Agregar segmento”** en la **Página de dimensiones derivadas** para agregar un segmento como dimensión derivada, una opción se proporciona en la parte inferior de la página **Agregar segmento** que le permite evitar cambios a esa dimensión cuando se deriva en una página. La configuración predeterminada está desactivada, por lo que no impide que se cambien los valores de dimensión derivados. Cambie el valor a **Sí** si desea impedir que la dimensión se modifique después de que se haya derivado. Por ejemplo, si el valor de la dimensión de departamento se deriva del valor de la dimensión de centro de coste, el valor de departamento no se puede modificar si la configuración **Evitar cambios** es **Sí**. 
+ 
+El valor no impide cambios si el valor de dimensión es válido pero no aparece en la lista de dimensiones derivadas. Por ejemplo, si derivan el departamento 20 del centro de coste 10 y especifica el centro de coste 10, no posible editar el departamento 20. Sin embargo, si especifica el centro de coste 20 y no aparece en la lista de dimensiones derivadas del centro de coste, puede editar el valor de departamento. 
+ 
+En todos los casos, el valor de cuenta y todos los valores de dimensiones seguirán validándose con las estructuras contables después de que se hayan aplicado los valores de dimensiones derivadas. Si usa dimensiones derivadas y se produce un error de validación cuando se utilizan en una página, debe cambiar los valores de dimensiones derivadas en la página de dimensiones derivadas antes de que pueda utilizarlos en las transacciones. 
+ 
+Cuando cambia las dimensiones de la ficha desplegable **Dimensiones financieras**, la dimensión que se marca para evitar cambios no se puede editar. Si especifica una cuenta y dimensiones en el control segmentado de la entrada de una página, las dimensiones se pueden editar. Sin embargo, cuando mueva el resalte fuera del control de entrada segmentada y lo mueva a otro campo o ejecute una acción, la cuenta y las dimensiones se validarán de acuerdo con la lista de las dimensiones derivadas y las estructuras contables para asegurarse de que ha especificado la configuración adecuada. 
 
 ### <a name="derived-dimensions-and-entities"></a>Dimensiones derivadas y entidades
 
 Puede configurar los segmentos de dimensiones derivadas y valores usando entidades.
 
 - La entidad de dimensiones derivadas configura las dimensiones de conducción y los segmentos que se usan para dichas dimensiones.
-- La entidad DerivedDimensionValue permite importar los valores que se deben derivar de cada dimensión de conducción.
+- La entidad valor de dimensiones derivadas permite importar los valores que se deben derivar de cada dimensión de conducción.
 
 Al usar una entidad para importar datos, si dicha entidad importa dimensiones, las reglas de dimensión derivadas se aplican durante la importación a menos que la entidad anule específicamente dichas dimensiones.
 

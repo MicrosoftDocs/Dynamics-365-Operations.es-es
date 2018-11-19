@@ -3,7 +3,7 @@ title: "Comparación de las características en la nube y locales"
 description: "En este tema se muestran qué características se admiten en la nube y en local."
 author: robinarh
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 11/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: b59921820f02e2ac026873ce45fdecd104fef544
-ms.openlocfilehash: 4354b9d55cc84f7c74020d95617c406dc5fb225c
+ms.sourcegitcommit: 53c0da5e9697deaf946ccd4fbcd2102faa62b195
+ms.openlocfilehash: bc2b8aafa28d3998e223891fa95e3fe8175349e6
 ms.contentlocale: es-es
-ms.lasthandoff: 10/25/2018
+ms.lasthandoff: 11/02/2018
 
 ---
 
@@ -116,11 +116,8 @@ Las tablas siguientes muestran las áreas del producto. El soporte en la nube y 
 | Desarrollo de Visual Studio |  | Sí | Sí |
 
 
-## <a name="dynamics-365-for-retail"></a>Dynamics 365 for Retail 
-
-| Área | Característica | Nube | Local|
-|---|---|---|---|
-| Todas las áreas de Retail | Todas las características de Retail | Sí | N.º |
+### <a name="retail"></a>Retail 
+Para ver una lista de capacidades al por menor que estén disponibles en implementaciones locales, consulte [Capacidades al por menor que están disponibles en implementaciones locales](../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-for-talent"></a>Dynamics 365 for Talent
 

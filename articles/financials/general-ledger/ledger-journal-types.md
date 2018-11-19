@@ -1,9 +1,9 @@
 ---
 title: Tipos de diarios contables
-description: "En este artículo se describen los tipos de diarios que se pueden configurar para los diarios financieros. Use la página **Nombres de diarios** para configurar diarios que puede usar en todo Microsoft Dynamics 365 for Finance and Operations."
+description: En este tema se describen los tipos de diarios que se pueden configurar para los diarios financieros.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9f8fc40f199b83a9e0cb36ce905163c3ed547057
+ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
+ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
 ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-En este artículo se describen los tipos de diarios que se pueden configurar para los diarios financieros. Use la página **Nombres de diarios** para configurar diarios que puede usar en todo Microsoft Dynamics 365 for Finance and Operations.
+En este tema se describen los tipos de diarios que se pueden configurar para los diarios financieros. Use la página **Nombres de diarios** para configurar diarios que puede usar en todo Microsoft Dynamics 365 for Finance and Operations.
 
 | Tipo de diario                      | Propósito                       | Especificar las transacciones en esta página                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -53,7 +53,8 @@ En este artículo se describen los tipos de diarios que se pueden configurar par
 | Desembolso de nómina              | Emitir pagos basados en extractos de pago de nóminas. No puede especificar transacciones manualmente en este diario. Debe generar extractos de pagos y, después, enviarlos para el pago.                                                                                                                                                              |                                                                |
 | Periódico                          | Crear transacciones periódicas para el diario periódico.                                                                                                                                                                                                                                                                                                      | Diarios periódicos                                              |
 | Registrar activos fijos                 | Registrar transacciones de activos fijos.                                                                                                                                                                                                                                                                                                                              | Activos fijos                                                   |
-| Proyecto - Gastos                | Crear transacciones de gastos del proyecto.                                                                                                                                                                                                                                                                                                                        | Gasto                                                        |
+| Proyecto - Gastos                | Crear transacciones de gastos del proyecto.                                                                                                                                                                                                                                                                                                                        | Expense                                                        |
+| Ajuste de divisa de notificación     | Cree ajustes en la divisa de notificación para saldos en cuentas contables.               | Diarios de ajuste de divisa de notificación                         |
 | Transacciones de estadísticas            | Crear transacciones estadísticas.                                                                                                                                                                                                                                                                                                                            |                                                                |
 | Remesa bancaria del proveedor            | Crear un archivo de envío de pagaré que se puede enviar al banco de su organización.                                                                                                                                                                                                                                                                      | Diario de envíos                                             |
 | Pagos del proveedor               | Crear transacciones de pagos de proveedor.                                                                                                                                                                                                                                                                                                                    | Diario de pagos                                                |

@@ -3,7 +3,7 @@ title: "Configurar la conciliación automática de flete"
 description: "Este procedimiento muestra cómo configurar los datos para la conciliación automática de flete."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/16/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 97f0c4d8fe06ab2fc252b9543cb688306214c79f
+ms.sourcegitcommit: d990efd7c929b15d57d64e850bc3308349abb978
+ms.openlocfilehash: b7772ad779495b36941a3dc86cc456d80a964467
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/17/2018
 
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Configurar la conciliación automática de flete
@@ -36,9 +36,9 @@ Este procedimiento muestra cómo configurar los datos para la conciliación auto
     * El tipo de albarán de flete define cómo deben conciliarse las cuentas de flete y las facturas del transportista.  
 2. Haga clic en Nuevo.
 3. En el campo Tipo de alabarán de flete, escriba un valor.
-4. En el campo Ensamblado de motores, escriba "Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer".
+4. En el campo Ensamblado de motores, escriba "Microsoft.Dynamics.Ax.Tms.dll".
     * Esta es la biblioteca de códigos estándar del motor que coincide con la gestión de transporte.  
-5. En el campo Tipo de motor, escriba "Microsoft.Dynamics.Ax.Tms.dll".
+5. En el campo Tipo de motor, escriba "Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer".
     * Esta es la clase del motor estándar que coincide con la gestión de transporte.  
 6. Haga clic en Nuevo.
 7. En el campo Descripción, elija el valor que se debe coincidir con el albarán de flete y la factura de transportista.  

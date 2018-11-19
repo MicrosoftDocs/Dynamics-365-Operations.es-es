@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: eb99f169ada2a227ebe8e64ee56bbb38cdfda4e0
+ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
+ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -48,7 +48,8 @@ Puede usar la configuración **Funciones de vista previa** del centro de gestió
 1. Inicie sesión en Microsoft Dynamics 365 for Talent: Attract.
 2. En el menú **Configuración** (el símbolo de engranaje) en la esquina superior derecha, seleccione **Configuración de administrador**.
 3. En la pestaña **Administración de características** , seleccione la opción que está al lado de **Características de vista previa** para que se vuelva azul.
-4. Actualice al explorador para empezar a ver las nuevas características. (Cualquier usuario que ya haya iniciado sesión verá las características la siguiente vez que inicie sesión, o puede actualizar al explorador para ver las características inmediatamente.)
+4. Puede controlar opcionalmente funciones individuales habilitando o deshabilitando características específicas en esta página.
+5. Actualice al explorador para empezar a ver las nuevas características. (Cualquier usuario que ya haya iniciado sesión verá las características la siguiente vez que inicie sesión, o puede actualizar al explorador para ver las características inmediatamente.)
 
 #### <a name="core-hr"></a>Core HR
 
@@ -61,12 +62,11 @@ Puede usar la configuración **Funciones de vista previa** del centro de gestió
 
 ## <a name="features-that-are-currently-in-preview"></a>Características que están actualmente en vista previa
 
-### <a name="attract"></a>Attract
+### <a name="attract"></a>Atraer
 
-- **Plantillas de trabajo** Ahora puede crear plantillas de proceso de contratación. Los usuarios pueden personalizar ya el proceso de contratación para un trabajo específico. Sin embargo, ahora pueden crear plantillas para el proceso y seleccionar la plantilla adecuada cuando crean un trabajo específico. Por lo tanto, esta característica ayuda a agilizar el proceso de configuración del trabajo.
-- **Sitio para proyectos profesionales**: La versión actual del sitio de proyectos profesionales solo muestra los trabajos abiertos. Sin embargo, se agregarán más capacidades al sitio en el futuro. Los trabajos se pueden marcar como internos o externos. Los usuarios internos que inician sesión en el sitio verán trabajos internos y externos. Sin embargo, los usuarios no internos y los usuarios que no hayan iniciado sesión solo verán trabajos externos.
-- **Propuesta de empleo** Ahora puede enviar trabajos al sitio de Proyectos profesionales.
-- **Propuesta de empleo en LinkedIn** Ahora puede enviar trabajos a LinkedIn.
+- **Candidatos relevantes en un trabajo** los reclutadores y los administradores de contratación pueden ver fácilmente qué candidatos pueden ser los más relevantes para el trabajo entre todos los candidatos. Se muestran los 5 candidatos más aptos en función de la relevancia de su currículum/perfil en relación con la descripción del trabajo.
+- **Trabajos relevantes** Ahora los candidatos ven una lista de otros trabajos que son relevantes para ellos en función de su currículum/perfil y las descripciones de trabajo.  Esto se muestra actualmente a los candidatos una vez que aplican una sugerencia para otras oportunidades.
+- **Compatibilidad de EEO/OFCCP** Los nuevos tipos de actividad habilitan el uso de un formulario predefinido para la recopilación de Oportunidad de Igualdad de Empleo (EEO) y los datos de la Oficina de Programas de Cumplimiento de Contratos Federales (OFCCP) del candidato.  Este es un formulario predefinido y no es editable.
 
     > [!NOTE]
     > Los trabajos que se registran son visibles solo para los clientes que se suscriben a uno o más productos de la lista de trabajos de LinkedIn. De lo contrario, los clientes ven un trabajo solo si lo buscan explícitamente. Hay un retraso cuando los trabajos se envían a LinkedIn. Un trabajo puede tardar algunas horas en aparecer después de que haya enviado publicado desde Attract.

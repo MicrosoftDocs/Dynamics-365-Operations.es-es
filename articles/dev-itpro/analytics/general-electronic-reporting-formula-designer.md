@@ -3,14 +3,14 @@ title: "Diseñador de fórmulas en los informes electrónicos (ER)"
 description: "Este tema explica cómo usar el diseñador de fórmula en Informes electrónicos (ER)."
 author: NickSelin
 manager: AnnBe
-ms.date: 04/04/2018
+ms.date: 10/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
+ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
+ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/23/2018
 
 ---
 
@@ -192,7 +192,7 @@ Cuando se agrega el origen de datos **Sistema** a la asignación de ER que hace 
 Puede limitar la forma en que los valores se pasan a los parámetros de este tipo de método:
 
 - Únicamente las constantes se pueden pasar a los métodos de este tipo. Los valores de las constantes se definen en el tiempo de diseño.
-- Solo se admiten tipos de datos primitivos (básicos) para los parámetros de este tipo. (Los tipos de datos primitivos son entero, real, booleano, cadena, etc.).
+- Solo se admiten tipos de datos primitivos (básicos) para los parámetros de este tipo. (Los tipos de datos primitivos son entero, real, booleano, cadena, etc.)
 
 #### <a name="paths"></a>Rutas
 
@@ -250,6 +250,12 @@ Las siguientes tablas describen las funciones de manipulación de datos que pued
 <td>SPLIT (entrada, longitud)</td>
 <td>Dividir la cadena de entrada especificada en subcadenas y cada una de las cuales tiene la duración especificada. Devolver el resultado como nueva lista.</td>
 <td><strong>SPLIT (&quot;abcd&quot;, 3)</strong> devuelve una nueva lista que consta de dos registros que tienen un campo <strong>STRING</strong>. El campo del primer registro contiene el texto <strong>&quot;abc&quot;</strong> y el campo del segundo registro contiene el texto <strong>&quot;d&quot;</strong>.</td>
+</tr>
+<tr>
+<td>SPLIT (entrada, delimitador)</td>
+<td>Dividir la cadena de entrada especificada en subcadenas, basadas en el delimitador especificado.</td>
+<td><strong>SPLIT (&quot;XAb aBy&quot;, &quot;aB&quot;)</strong> devuelve una nueva lista que consta de tres registros que tienen un campo <strong>STRING</strong>. El campo del primer registro contiene texto <strong>&quot;X&quot;</strong>, el campo del segundo registro contiene texto &quot;&nbsp;&quot;, y el campo del tercer registro contiene el texto <strong>&quot;y&quot;</strong>. Si el delimitador está vacío, se devuelve una nueva lista que consiste en un registro que tiene un campo <strong>STRING</strong> que contiene el texto de entrada. Si la entrada está vacía, se devuelve una nueva lista vacía.
+Si la entrada o el delimitador están sin especificar (null), se emite una excepción de la aplicación.</td>
 </tr>
 <tr>
 <td>SPLITLIST (lista, número)</td>
@@ -323,12 +329,12 @@ SELECCIONAR… DE LA COMBINACIÓN CRUZADA T1 CUSTINVOICETABLE COMBINACIÓN CRUZA
 <tr>
 <td>ORDERBY (lista [, expresión 1, expresión 2, …])</td>
 <td>Devuelve la lista especificada después de que se haya clasificado de acuerdo con los argumentos especificados. Estos argumentos se pueden definir como expresiones.</td>
-<td>Si <strong>Proveedor</strong> se configura como un origen de datos de ER que hace referencia a la tabla VendTable, <strong>ORDERBY (Proveedores, nombre de proveedores()</strong> devuelve una lista de proveedores que se clasifica por nombre en orden ascendente.</td>
+<td>Si <strong>Proveedor</strong> se configura como un origen de datos de ER que hace referencia a la tabla VendTable, <strong>ORDERBY (Vendors, Vendors.'name()')</strong> devuelve una lista de proveedores que se clasifica por nombre en orden ascendente.</td>
 </tr>
 <tr>
 <td>REVERSE (lista)</td>
 <td>Devolver la lista especificada en orden de clasificación invertido.</td>
-<td>Cuando <strong>Proveedor</strong> se configura como origen de datos de ER que hace referencia a la tabla VendTable, <strong>REVERSE (ORDERBY (Proveedores, nombre de proveedores()) )</strong> devuelve la lista de proveedores que se clasifica por nombre en orden descendente.</td>
+<td>Cuando <strong>Proveedor </strong>se configura como origen de datos de ER que hace referencia a la tabla VendTable, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> devuelva la lista de proveedores que se clasifica por nombre en orden descendente.</td>
 </tr>
 <tr>
 <td>WHERE (lista, condición)</td>
@@ -353,7 +359,7 @@ SELECCIONAR… DE LA COMBINACIÓN CRUZADA T1 CUSTINVOICETABLE COMBINACIÓN CRUZA
 </tr>
 <tr>
 <td>COUNT (lista)</td>
-<td>Devuelva el número de registros de la lista especificada, si la lista no está vacía. En caso contrario, devuelva <strong>0</strong> (cero).</td>
+<td>Devolver el número de registros de la lista especificada, si la lista no está vacía. En caso contrario, devuelva <strong>0</strong> (cero).</td>
 <td><strong>COUNT (SPLIT(&quot;abcd&quot; , 3))</strong> devuelve <strong>2</strong>, porque la función <strong>SPLIT</strong> crea una lista que consta de dos registros.</td>
 </tr>
 <tr>
@@ -399,12 +405,13 @@ En el tiempo de ejecución, los campos de <strong>Etiqueta</strong> y <strong>De
 </ul>
 En el tiempo de ejecución, los campos de <strong>Etiqueta</strong> y <strong>Descripción</strong> devuelve valores que se basan en la configuración de idioma del formato y el idioma especificado. El campo <strong>Traducido</strong> indica que el campo <strong>Etiqueta</strong> se ha traducido al idioma especificado.
 </td>
-<td>Por ejemplo, utiliza el tipo de origen de datos <strong>Campo calculado</strong> para configurar los orígenes de datos <strong>enumType_de</strong> y <strong>enumType_deCH</strong> para la enumeración del modelo de datos <strong>enumType</strong>:
+<td>Por ejemplo, utiliza el tipo de origen de datos <strong>Campo calculado</strong> para configurar los orígenes de datos <strong>enumType_de</strong> y <strong>enumType_deCH</strong> para la enumeración del modelo de datos <strong>enumType</strong>.
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-En este caso, puede usar la siguienteexpresión para obtener la etiqueta del valor de enumeración en alemán suizo, si esta traducción está disponible. Si la traducción en alemán suizo no está disponible, la etiqueta está en alemán: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.
+<p>En este caso, puede usar la siguienteexpresión para obtener la etiqueta del valor de enumeración en alemán suizo, si esta traducción está disponible. Si la traducción alemana suiza no está disponible, la etiqueta se encuentra en alemán.</p>
+IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 </td>
 </tr>
 <tr>
@@ -421,7 +428,7 @@ En este caso, puede usar la siguienteexpresión para obtener la etiqueta del val
 <p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
 <p>La siguiente ilustración muestra el resultado cuando se ejecuta el formato. En este caso, la salida es una lista plana de artículos de mercancía.</p>
 <p><a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="Output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a></p>
-<p>En las siguientes ilustraciones, se ha ajustado el mismo formato para que presente la lista de artículos de mercancía en lotes cuando un único lote debe incluir mercancías y el peso total no debe superar el límite de 9.</p>
+<p>En las siguientes ilustraciones, se ha ajustado el mismo formato para que presente la lista de artículos de mercancías en lotes cuando un único lote debe incluir mercancías y el peso total no debe superar el límite de 9.</p>
 <p><a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="Adjusted format" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a></p>
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>La siguiente ilustración muestra el resultado cuando se ejecuta el formato ajustado.</p>
@@ -432,7 +439,7 @@ En este caso, puede usar la siguienteexpresión para obtener la etiqueta del val
 <tr>
 <td>FILTRAR (lista, condición)</td>
 <td>Devuelve la lista especificada después de que se haya modificado la consulta para filtrar por la condición especificada. Esta función difiere de la función <strong>DONDE</strong>, ya que la condición especificada se aplica a cualquier origen de datos de ER del tipo <strong>Registros de la tabla</strong> a nivel de la base de datos. La lista y la condición se pueden definir mediante tablas y relaciones.</td>
-<td>Si <strong>Proveedor</strong> se configura como origen de datos de ER que hace referencia a la tabla VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> devuelve una lista solo de proveedores que pertenece al grupo de proveedores 40. Si <strong>Proveedor</strong> se configura como origen de datos de ER que hace referencia a la tabla <strong>VendTable</strong>, y si <strong>parmVendorBankGroup</strong> que está configurado como un origen de datos de ER que devuelve un valor del tipo de datos <strong>Cadena</strong>, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> devuelve una lista solo de cuentas de proveedores que pertenecen a un grupo bancario específico.</td>
+<td>Si <strong>Proveedor</strong> se configura como origen de datos de ER que hace referencia a la tabla VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> devuelve una lista solo de proveedores que pertenece al grupo de proveedores 40. Si <strong>Proveedor</strong> se configura como origen de datos de ER que hace referencia a la tabla VendTable, y si <strong>parmVendorBankGroup</strong> que está configurado como un origen de datos de ER que devuelve un valor del tipo de datos <strong>Cadena</strong>, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> devuelve una lista solo de cuentas de proveedores que pertenecen a un grupo bancario específico.</td>
 </tr>
 </tbody>
 </table>
@@ -446,6 +453,63 @@ En este caso, puede usar la siguienteexpresión para obtener la etiqueta del val
 | NOT (condición) | Devuelve el valor lógico invertido de la condición determinada. | **NOT (TRUE)** devuelve **FALSE**. |
 | AND (condición 1\[, condición 2, …\]) | Devolver **TRUE** si *todas* las condiciones especificadas son verdaderas. En caso contrario, devuelva **FALSE**. | **AND (1=1, "a"="a")** devuelve **TRUE**. **AND (1=2, "a"="a")** devuelve **FALSE**. |
 | OR (condición 1\[, condición 2, …\]) | Devolver **FALSE** si *todas* las condiciones especificadas son falsa. Devolver **TRUE** si *cualquier* condición especificada es verdadera. | **OR (1=2, "a"="a")** devuelve **TRUE**. |
+| VALUEIN (entrada, lista, expresión del elemento de lista) | Determine si la entrada especificada coincide con algún valor de un elemento de la lista especificada. Devuelve **TRUE** si la entrada especificada coincide con el resultado de la ejecución de la expresión especificada para un registro como mínimo. En caso contrario, devuelva **FALSE**. El parámetro **input** representa la ruta de un elemento de origen de datos. El valor de este artículo se conciliará. El parámetro **list** representa la ruta de un elemento de origen de datos de tipo lista de registro como lista de registros que contiene una expresión. El valor de este elemento se comparará con la entrada especificada. El argumento **list item expression** representa una expresión que señala o contiene un único campo de la lista especificada que se debe usar para la asignación. | Para ver ejemplos, consulte la sección [Ejemplos: VALUEIN (entrada, lista, expresión del elemento de lista)](#examples-valuein-input-list-list-item-expression) que se incluye a continuación. |
+
+#### <a name="examples-valuein-input-list-list-item-expression"></a>Ejemplos: VALUEIN (entrada, lista, expresión del elemento de lista)
+En general, la función **VALUEIN** se convierte a un conjunto de condiciones **O** :
+
+(entrada = list.item1.value) O (entrada = list.item2.value) O…
+
+##### <a name="example-1"></a>Ejemplo 1
+Defina el origen de datos siguiente en su asignación de modelo: **Lista** (tipo **Campo calculado**). Este origen de datos contiene la expresión **SPLIT ("a,b,c", ",")**.
+
+Cuando se llama a un origen de datos que está configurado con la expresión **VALUEIN ("B", List, List.Value)**, devuelve **TRUE**. En este caso, la función **VALUEIN** se convierte en el conjunto de condiciones siguiente:
+
+**(("B" = "a") o ("B" = "b") or ("B" = "c"))**, donde **("B" = "b")** es igual a **TRUE**
+
+Cuando se llama a un origen de datos que está configurado con la expresión **VALUEIN ("B", List, LEFT(List.Value, 0))**, devuelve **FALSE**. En este caso, la función **VALUEIN** se convierte en la condición siguiente:
+
+**("B" = "")**, que no es igual a **TRUE**
+
+Observe que el límite superior del número de caracteres en el texto de esta condición es 32.768 caracteres. Por lo tanto, no es necesario crear orígenes de datos que puedan superar este límite en el tiempo de ejecución. Si se supera el límite, la aplicación dejará de ejecutarse, y se generará una excepción. Por ejemplo, esta situación puede producirse si el origen de datos se configura como **WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)**, y las listas **List1** y **List2** contienen un gran número de registros.
+
+En algunos casos, la función **VALUEIN** se convierte en una instrucción de una base de datos mediante el operador **EXISTS JOIN**. Este comportamiento aparece cuando se utiliza la función **FILTER** y se cumplen las siguientes condiciones:
+
+- La opción **PEDIR CONSULTA** se desactiva para el origen de datos de la función **VALUEIN** que se refiere a la lista de registros. (No se aplicarán condiciones adicionales a este origen de datos en el tiempo de ejecución.)
+- No se configuran expresiones anidadas para el origen de datos de la función **VALUEIN** que se refiere a la lista de registros.
+- Un elemento de lista de la función **VALUEIN** hace referencia a un campo (no una expresión o un método) del origen de datos especificado.
+
+Considere usar esta opción en lugar de la función **WHERE** tal como se describe anteriormente en este ejemplo.
+
+##### <a name="example-2"></a>Ejemplo 2
+
+Defina los siguientes orígenes de datos en la asignación de su modelo:
+
+- **In** (Tipo de **registros de tabla**), que hace referencia a la tabla Instrastat
+- **Port** (Tipo de **registros de tabla**), que hace referencia a la tabla IntrastatPort
+
+Cuando se llama a un origen de datos que está configurado como la expresión **FILTER (In, VALUEIN(In.Port, Port, Port.PortId)**, la instrucción SQL siguiente se genera para devolver registros filtrados de la tabla Intrastat:
+
+```
+select … from Intrastat
+exists join TableId from IntrastatPort
+where IntrastatPort.PortId = Intrastat.Port
+```
+
+Para los campos **dataAreaId** , la instrucción SQL final se genera usando el operador **IN**.
+
+##### <a name="example-3"></a>Ejemplo 3
+
+Defina los siguientes orígenes de datos en la asignación de su modelo:
+
+- **Le** (Tipo de **Campo calculado** ), que contiene la expresión **SPLIT ("DEMF,GBSI,USMF", ",")**
+- **In** (Tipo de **Registros de tabla**), que hace referencia a la tabla Intrastat y para el que está activado la opción **Entre empresas**
+
+Cuando se llama a un origen de datos que está configurado como la expresión **FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)**, la instrucción SQL final contiene la siguiente condición:
+
+```
+Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
+```
 
 ### <a name="mathematical-functions"></a>Funciones matemáticas
 
@@ -539,13 +603,13 @@ En este caso, puede usar la siguienteexpresión para obtener la etiqueta del val
 </tr>
 <tr>
 <td>REPLACE (cadena, patrón, sustitución, indicador de expresión regular)</td>
-<td>Cuando es el indicador de expresión regular especificada es <strong>verdadero</strong>, devuelve la cadena especificada después de que se haya modificado aplicando la expresión normal que se especifica como argumento de patrón para esta función. Esta expresión se usa para buscar los caracteres que se deben sustituir. Los caracteres del argumento de sustitución especificado se usan para reemplazar los caracteres que se encuentran. Cuando el indicador de la expresión regular especificada es <strong>falso</strong>, esta función se comporta como <strong>TRANSLATE</strong>.</td>
+<td>Cuando el parámetro <strong>indicador de expresión regular</strong> especificado es <strong>verdadero</strong>, devuelve la cadena especificada después de que se haya modificado aplicando la expresión normal que se especifica como argumento de <strong>patrón</strong> para esta función. Esta expresión se usa para buscar los caracteres que se deben sustituir. Los caracteres del argumento de <strong>sustitución</strong> especificado se usan para reemplazar los caracteres que se encuentran. Cuando el parámetro <strong>indicador de la expresión regular</strong> especificada es <strong>falso</strong>, esta función se comporta como <strong>TRANSLATE</strong>.</td>
 <td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> aplica una expresión regular que quita todos los símbolos no numéricos y devuelve <strong>&quot;19234564971&quot;</strong>. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> reemplaza el patrón <strong>&quot;cd&quot;</strong> por la cadena <strong>&quot;GH&quot;</strong> y devuelve <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
 <tr>
 <td>TEXT (entrada)</td>
 <td>Devuelve la entrada especificada después de que se haya convertido en una cadena de texto que se formatea según la configuración regional del servidor de la instancia actual de Finance and Operations. Para los valores del tipo <strong>real</strong>, la conversión de la cadena se limita a dos decimales.</td>
-<td>Si se define la configuración regional del servidor de instancias de Finance and Operations como <strong>EN-US</strong>, <strong>TEXT (NOW ())</strong> devuelve la fecha de la sesión de Finance and Operations actual, el 17 de diciembre de 2015, como la cadena de texto <strong>&quot;17/12/2015 07:59:23 a.m&quot;</strong>. <strong>TEXT (1/3)</strong> devuelve <strong>&quot;0,33&quot;</strong>.</td>
+<td>Si se define la configuración regional del servidor de instancias de Finance and Operations como <strong>EN-US</strong>, <strong>TEXT (NOW ())</strong> devuelve la fecha de la sesión de Finance and Operations actual, el 17 de diciembre de 2015, como la cadena de texto <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>. <strong>TEXT (1/3)</strong> devuelve <strong>&quot;0,33&quot;</strong>.</td>
 </tr>
 <tr>
 <td>FORMAT (cadena 1, cadena 2 [, cadena 3, …])</td>
@@ -562,19 +626,19 @@ En este caso, puede usar la siguienteexpresión para obtener la etiqueta del val
 <li>La etiqueta SYS18389 de Finance and Operations tiene el siguiente texto:
 <ul>
 <li><strong>Para el idioma EN-US:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
-<li><strong>Para el idioma DE:</strong> &quot;Debitor &#39;%1&#39; wird für %2 gesperrt.&quot;</li>
+<li><strong>Para el idioma DE:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Esta es la fórmula que se puede diseñar:</p>
 <p>FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;))</p>
-<p>Si se procesa un informe para el cliente <strong>Litware Retail</strong> el 17 de diciembre de 2015, en la cultura <strong>EN-US</strong> y el idioma <strong>EN-US</strong>, esta fórmula devuelve el siguiente texto, que puede presentarse como mensaje de excepción para el usuario:</p>
+<p>Si se procesa un informe para el cliente <strong>Litware Retail</strong> el 17 de diciembre de 2015, en la cultura <strong>EN-US</strong> y el idioma <strong>EN-US</strong>, esta fórmula devuelve el siguiente texto, que puede presentarse al usuario como mensaje de excepción:</p>
 <p>&quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Si el mismo informe se procesa para el cliente <strong>Litware Retail</strong> el 17 de diciembre de 2015, en la cultura <strong>DE</strong> y el idioma <strong>DE</strong>, la fórmula devuelve el siguiente texto, que usa un formato de fecha diferente:</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE] La sintaxis siguiente se aplica en las fórmulas de ER para las etiquetas:
 <ul>
-<li><strong>Para las etiquetas de los recursos de Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>, donde la X es el identificador de la etiqueta en el Árbol de objetos de aplicación (AOT)</li>
-<li><strong>Para las etiquetas que se encuentran en las configuraciones de ER:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, donde X es el id. de etiqueta de la configuración de ER</li>
+<li><strong>Para las etiquetas de los recursos de Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>, donde la <strong>X</strong> es el identificador de la etiqueta en el Árbol de objetos de aplicación (AOT)</li>
+<li><strong>Para las etiquetas que se encuentran en las configuraciones de ER:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, donde <strong>X</strong> es el id. de etiqueta de la configuración de ER</li>
 </ul>
 </blockquote>
 </td>
@@ -616,7 +680,7 @@ En este caso, puede usar la siguienteexpresión para obtener la etiqueta del val
 </tr>
 <tr>
 <td>GUIDVALUE (entrada)</td>
-<td>Convierta la entrada especificada del tipo de datos <strong>Cadena</strong> a un elemento de datos del tipo de datos <strong>GUID</strong>.</td>
+<td>Convierta la entrada especificada del tipo de datos <strong>Cadena</strong> a un elemento de datos del tipo de datos <strong>GUID</strong>.<blockquote>[!NOTE] Para hacer una conversión en la dirección opuesta (es decir, convertir la entrada especificada del tipo de datos <strong>GUID</strong> en un elemento de datos del tipo <strong>Cadena</strong>), puede utilizar la función <strong>TEXT()</strong>.</blockquote></td>
 <td>Defina los siguientes orígenes de datos en la asignación de su modelo:
 <ul>
 <li><strong>myID</strong> (<strong>Tipo de campo</strong> calculado), que contiene la expresión <strong>(GUIDVALUE&quot;AF5CCDAC-F728-4609-8C8B- A4B30B0C0AA0&quot;)</strong></li>
@@ -637,7 +701,7 @@ Cuando se definen estos orígenes de datos, puede usar una expresión como <stro
 
 | Función | Descripción | Ejemplo |
 |----------|-------------|---------|
-| TEXT (entrada) | Devuelve la entrada especificada después de que se haya convertido en una cadena de texto que se formatea según la configuración regional del servidor de la instancia actual de Finance and Operations. Para los valores del tipo **real**, la conversión de la cadena se limita a dos decimales. | Si se define la configuración regional del servidor de instancias de Finance and Operations como **EN-US**, **TEXT (NOW ())** devuelve la fecha de la sesión de Finance and Operations actual, el 17 de diciembre de 2015, como la cadena de texto **"17/12/2015 07:59:23 a.m"**. **TEXT (1/3)** devuelve **"0,33"**. |
+| TEXT (entrada) | Devuelve la entrada especificada después de que se haya convertido en una cadena de texto que se formatea según la configuración regional del servidor de la instancia actual de Finance and Operations. Para los valores del tipo **real**, la conversión de la cadena se limita a dos decimales. | Si se define la configuración regional del servidor de instancias de Finance and Operations como **EN-US**, **TEXT (NOW ())** devuelve la fecha de la sesión de Finance and Operations actual, el 17 de diciembre de 2015, como la cadena de texto **"12/17/2015 07:59:23 AM"**. **TEXT (1/3)** devuelve **"0,33"**. |
 | QRCODE (cadena) | Devuelve una imagen de código de respuesta rápida (código QR) en formato binario base64 para la cadena especificada. | **QRCODE ("Texto de muestra")** devuelve **U2FtcGxlIHRleHQ=**. |
 
 ### <a name="data-collection-functions"></a>Funciones de recopilación de datos
@@ -645,11 +709,11 @@ Cuando se definen estos orígenes de datos, puede usar una expresión como <stro
 | Función | Descripción | Ejemplo |
 |----------|-------------|---------|
 | FORMATELEMENTNAME () | Devuelve el nombre del elemento de formato actual. Devuelve una cadena vacía cuando el indicador **Recopilar de los detalles de salida** de los archivos actuales está desactivado. | Para obtener más información sobre cómo usar esta función, consulte la guía de tareas de los **datos de uso de ER del formato generados para contar y calcular**, que forma parte del proceso empresarial de **Adquirir/desarrollar los componentes de servicio/solución de IT**. |
-| SUMIFS (cadena clave para sumar, cadena de criterio range1, cadena de criterio value1 \[ cadena de criterio range2, cadena de criterio value2, …\]) | Devuelve la suma de los valores de nodos XML (donde el nombre se define como una clave) que se ha obtenido durante la ejecución del formato y que cumple con las condiciones especificadas (pares de rangos y de valores). Devuelve un valor **0** (cero) cuando el indicador **Recopilar detalles de salida** de los archivos actuales está desactivado. | |
-| SUMIF (cadena clave para sumar, cadena de criterio de rango, cadena de criterio de valor) | Devuelve la suma de los valores de nodos XML (donde el nombre se define como una clave) que se ha obtenido durante la ejecución del formato y que cumple con la condición especificada (rango y valor). Devuelve un valor **0** (cero) cuando el indicador **Recopilar detalles de salida** de los archivos actuales está desactivado. | |
-| COUNTIFS (cadena de criterio range1, cadena de criterio value1 \[, cadena de criterio range2, cadena de criterio value2, …\]) | Devuelve el número de nodos XML que se ha obtenido durante esta ejecución del formato y que cumple con las condiciones especificadas (pares de rangos y de valores). Devuelve un valor **0** (cero) cuando el indicador **Recopilar detalles de salida** de los archivos actuales está desactivado. | |
-| COUNTIF (cadena de criterios de rango, cadena de criterios de valor) | Devuelve un número de nodos de XML que se ha obtenido durante esta ejecución del formato y que cumple con la condición especificada (rango y valor). Devuelve un valor **0** (cero) cuando el indicador **Recopilar detalles de salida** de los archivos actuales está desactivado. | |
-| COLLECTEDLIST (cadena de criterio range1, cadena de criterio value1 \[, cadena de criterio range2, cadena de criterio value2, …\]) | Devuelve la lista de valores de nodos de XML que se ha obtenido durante esta ejecución del formato y que cumple con las condiciones especificadas (rango y valor). Devuelve una lista vacía cuando el indicador **Recopilar detalles de salida** de los archivos actuales está desactivado. | |
+| SUMIFS (cadena clave para sumar, cadena de criterio range1, cadena de criterio value1 \[ cadena de criterio range2, cadena de criterio value2, …\]) | Devuelve la suma de los valores que se recopilaron para nodos XML (donde el nombre se define como una clave) cuando se ejecutó el formato y que cumple con las condiciones especificadas (pares de rangos y de valores). Devuelve un valor **0** (cero) cuando el indicador **Recopilar detalles de salida** de los archivos actuales está desactivado. | |
+| SUMIF (cadena clave para sumar, cadena de criterio de rango, cadena de criterio de valor) | Devuelve la suma de los valores que se recopilaron para nodos XML (donde el nombre se define como una clave) cuando se ejecutó el formato y que cumple la condición especificada (un rango y valor). Devuelve un valor **0** (cero) cuando el indicador **Recopilar detalles de salida** de los archivos actuales está desactivado. | |
+| COUNTIFS (cadena de criterio range1, cadena de criterio value1 \[, cadena de criterio range2, cadena de criterio value2, …\]) | Devuelve el número de nodos XML que se recopiló cuando se ejecutó el formato y que cumple con las condiciones especificadas (pares de rangos y de valores). Devuelve un valor **0** (cero) cuando el indicador **Recopilar detalles de salida** de los archivos actuales está desactivado. | |
+| COUNTIF (cadena de criterios de rango, cadena de criterios de valor) | Devuelve el número de nodos XML que se recopiló cuando se ejecutó el formato y que cumple la condición especificada (un rango y valor). Devuelve un valor **0** (cero) cuando el indicador **Recopilar detalles de salida** de los archivos actuales está desactivado. | |
+| COLLECTEDLIST (cadena de criterio range1, cadena de criterio value1 \[, cadena de criterio range2, cadena de criterio value2, …\]) | Devuelve la lista de valores que se recopiló para nodos XML cuando se ejecutó el formato y que cumple con las condiciones especificadas (un rango y un valor). Devuelve una lista vacía cuando el indicador **Recopilar detalles de salida** de los archivos actuales está desactivado. | |
 
 ### <a name="other-business-domainspecific-functions"></a>Otras funciones (específicas de dominio empresarial)
 
@@ -667,6 +731,9 @@ Cuando se definen estos orígenes de datos, puede usar una expresión como <stro
 | FA\_BALANCE (código de activo fijo, código del modelo de valor, año de notificación, fecha de notificación) | Devuelve el contenedor de datos preparado del saldo de activos fijos. El año de notificación debe especificarse como valor de la enumeración de Finance and Operations **AssetYear**. | **FA\_SUM ("COMP-000001", "Actual", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** devuelve el contenedor preparado de los datos de los saldos del activo fijo **"COMP-000001"** que tiene el modelo de valor **"Actual"** en la fecha de la sesión actual de Finance and Operations. |
 | TABLENAME2ID (cadena) | Devuelve la representación en entero del Id. de una tabla para el nombre de tabla especificado. | **TABLENAME2ID ("Intrastat")** devuelve **1510**. |
 | ISVALIDCHARACTERISO7064 (cadena) | Devuelve el valor booleano **TRUE** cuando la cadena especificada representa un número internacional de cuenta bancaria válido (IBAN). De lo contrario, devuelva el valor booleano **FALSE**. | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** devuelve **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** devuelve **FALSE**. |
+| NUMSEQVALUE (código de secuencia numérica, ámbito, identificador de ámbito) | Devuelva el nuevo valor generado a partir de una secuencia numérica, en función del código de secuencia numérica especificada, el ámbito, y el identificador de ámbito. El ámbito se debe especificar como valor de la enumeración **ERExpressionNumberSequenceScopeType** (**Compartido**, **Entidad jurídica**, o **Empresa**). Para el ámbito **Compartido**, especifique una cadena vacía como el identificador de ámbito. Para los ámbitos **Empresa** y **Entidad jurídica**, especifique el código de empresa como el identificador de ámbito. Para los ámbitos **Empresa** y **Entidad jurídica**, si especifica una cadena vacía como el identificador de ámbito, se usa el código de la empresa actual. | Defina los siguientes orígenes de datos en la asignación de su modelo:<ul><li>**enumScope** (tipo **enumeración de Dynamics 365 for Operations** ), que hace referencia a la enumeración **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (tipo **Campo calculado**) que contiene la expresión **NUMSEQVALUE (“Gene\_1", enumScope.Company, "")**</li></ul>Cuando se llama al origen de datos **NumSeq**, devuelve el nuevo valor generado a partir de la secuencia numérica **Gene\_1** que se ha configurado para la empresa que proporciona el contexto donde se ejecuta el formato de ER. |
+| NUMSEQVALUE (código de secuencia numérica) | Devuelva el nuevo valor generado de una secuencia numérica, en función de la secuencia numérica especificada, el ámbito **Empresa** y (como el identificador de ámbito) el código de la empresa que proporciona el contexto en el que se ejecuta el formato de ER. | Defina el origen de datos siguiente en su asignación de modelo: **NumSeq** (tipo **Campo calculado**). Este origen de datos contiene la expresión **NUMSEQVALUE ("Gene\_1")**. Cuando se llama al origen de datos **NumSeq**, devuelve el nuevo valor generado a partir de la secuencia numérica **Gene\_1** que se ha configurado para la empresa que proporciona el contexto donde se ejecuta el formato de ER. |
+| NUMSEQVALUE (identificador de registro de secuencia numérica) | Devuelve el nuevo valor generado a partir de una secuencia numérica, en función del identificador de registro de secuencia numérica especificado. | Defina los siguientes orígenes de datos en la asignación de su modelo:<ul><li>**LedgerParms** (Tipo de **tabla**), que hace referencia a la tabla LedgerParameters</li><li>**NumSeq** (tipo **Campo calculado**) que contiene la expresión **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)**</li></ul>Cuando se llama al origen de datos **NumSeq**, devuelve el nuevo valor generado a partir de la secuencia numérica que se ha configurado en los parámetros de contabilidad general para la empresa que proporciona el contexto donde se ejecuta el formato de ER. Esta secuencia numérica identifica de forma exclusiva los diarios y actúa como número de lote que vincula las transacciones. |
 
 ### <a name="functions-list-extension"></a>Extensión de la lista de funciones
 
@@ -674,7 +741,6 @@ ER le permite ampliar la lista de funciones que se usan en las expresiones de ER
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de los informes electrónicos](general-electronic-reporting.md)
-
-[Ampliar la lista de funciones de Informes electrónicos (ER)](general-electronic-reporting-formulas-list-extension.md)
+- [Visión general de los informes electrónicos](general-electronic-reporting.md)
+- [Ampliar la lista de funciones de Informes electrónicos (ER)](general-electronic-reporting-formulas-list-extension.md)
 
