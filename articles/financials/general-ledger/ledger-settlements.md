@@ -27,7 +27,6 @@ ms.lasthandoff: 10/12/2018
 # <a name="ledger-settlements"></a>Liquidaciones de contabilidad
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Las liquidaciones de contabilidad le permiten coincidir las transacciones de débito y crédito en la contabilidad general, y marcarlas como liquidadas. De esta manera, se asegura de que se hayan borrado las transacciones relacionadas. También puede invertir liquidaciones si se han realizado por error.
 
