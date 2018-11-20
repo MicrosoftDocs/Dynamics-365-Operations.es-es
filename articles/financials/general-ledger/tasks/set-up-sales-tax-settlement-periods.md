@@ -3,7 +3,7 @@ title: "Configurar períodos de liquidación de impuestos"
 description: "Los períodos de liquidación de impuestos contienen información sobre los intervalos de períodos para los que tienen que notificarse y pagarse los impuestos."
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/15/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: ab7d3a00a327f42a9f70c954d9b64a360a7f9163
+ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
+ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
 ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Configurar períodos de liquidación de impuestos
@@ -50,13 +50,15 @@ Esta tarea usa la empresa de demostración USMF.
 12. Especifique el número de unidades del intervalo de períodos por período. Por ejemplo, un trimestre tiene 3 meses.
 13. Active o desactive la casilla Usar procesamiento por lotes para la liquidación de impuestos.
     * El proceso de liquidación para el período de liquidación se puede procesar como un trabajo por lotes en segundo plano. Esto se recomienda para un gran número de transacciones de impuestos dentro de un intervalo de períodos.  
-14. Expanda la ficha Intervalos de período.
-15. Haga clic en Agregar.
-16. En la lista, marque la fila seleccionada.
-17. En el campo Fecha inicial, escriba una fecha.
-18. Especifique una fecha en el campo Fecha final.
-19. Haga clic en Intervalo de período nuevo.
+14. Seleccione o borre la casilla Evitar generar transacciones de impuestos de contrapartida.
+    * De forma predeterminada, el sistema genera transacciones de impuestos de contrapartida durante el proceso de liquidación, lo que puede crear un problema de rendimiento si existe un gran número de transacciones de impuestos dentro de un intervalo de períodos. Seleccione esta casilla de verificación para evitar generar transacciones de impuestos de contrapartida.
+15. Expanda la ficha Intervalos de período.
+16. Haga clic en Agregar.
+17. En la lista, marque la fila seleccionada.
+18. En el campo Fecha inicial, escriba una fecha.
+19. Especifique una fecha en el campo Fecha final.
+20. Haga clic en Intervalo de período nuevo.
     * Una vez que se ha especificado el primer intervalo de períodos, los nuevos períodos se pueden crear automáticamente. Puede volverse y agregar nuevos intervalos de períodos en caso necesario.  
-20. Cierre la página.
+21. Cierre la página.
 
 

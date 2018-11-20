@@ -3,7 +3,7 @@ title: "Página principal de la aplicación Dynamics 365 for Unified Operations 
 description: "Este tema describe la aplicación móvil Microsoft Dynamics 365 for Unified Operations y ofrece vínculos a los recursos que pueden ayudarle a implementarla en su organización."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: d6d26da330974305fa3725fe7c2506d198b17e2c
+ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
+ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
 ms.contentlocale: es-es
-ms.lasthandoff: 09/04/2018
+ms.lasthandoff: 10/26/2018
 
 ---
 
@@ -61,7 +61,7 @@ La exploración en la aplicación móvil consiste en cuatro conceptos básicos: 
 ## <a name="implementation-process"></a>Proceso de implementación
 La ilustración siguiente muestra el proceso para implementar ambos espacios de trabajo móviles que proporciona Microsoft y los espacios de trabajo móviles personalizados. 
 
-![Proceso de implementación de aplicaciones móviles](./media/Mobile-implementation-process-5.png)
+[![Proceso de implementación de aplicaciones móviles](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 La siguiente tabla incluye vínculos a los recursos que pueden ayudarle a implementar ambos espacios de trabajo móviles que proporciona Microsoft y los espacios de trabajo móviles personalizados. Los números de la primera columna corresponden a los pasos numerados de la ilustración anterior.
 

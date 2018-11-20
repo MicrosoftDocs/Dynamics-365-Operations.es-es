@@ -1,11 +1,20 @@
-- name: Esto es Dynamics 365 for Talent
+- name: Dynamics 365 for Talent
   href: index.md
   items:
     - name: Introducción
       href: talent-get-started.md
       items:
         - name: Novedades y cambios
+          href: whats-new.md
           items:
+            - name: Novedades y cambios en Dynamics 365 for Talent Core HR (31 de octubre de 2018)
+              href: whats-new-talent-october-31.md
+            - name: Novedades y cambios en Dynamics 365 for Talent Core HR (19 de octubre de 2018)
+              href: whats-new-talent-october-19.md
+            - name: Novedades y cambios en Dynamics 365 for Talent Core HR (15 de octubre de 2018)
+              href: whats-new-talent-october-11.md
+            - name: Novedades y cambios en Dynamics 365 for Talent Core HR (8 de octubre de 2018)
+              href: whats-new-talent-october-8.md
             - name: Novedades y cambios en Dynamics 365 for Talent Core HR (1 de octubre de 2018)
               href: whats-new-talent-october-01.md
             - name: Novedades y cambios en Dynamics 365 for Talent Core HR (24 de septiembre de 2018)
@@ -30,6 +39,8 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR y Common Data Service para aplicaciones
           href: CoreHREntities.md
+        - name: Integraciones
+          href: talent-financeandoperations-integration.md
         - name: Acceder a características de vista previa
           href: access-preview-feature.md
         - name: Configurar la integración de nóminas entre Talent y Dayforce
@@ -64,6 +75,34 @@
       items:
         - name: Características y capacidades de Attract
           href: attract-overview.md
+        - name: Crear una plantilla de proceso en Attract
+          href: Process-templates-Attract.md
+        - name: 'Crear, aprobar y publicar trabajos en Attract'
+          href: Creating-jobs-Attract.md
+        - name: Abastecimiento con Grupos de talentos
+          href: attract-talent-pools.md
+        - name: Abastecimiento con LinkedIn Recruiter
+          href: attract-linked-in-recruiter.md
+        - name: Actividades de proceso de contratación en Attract
+          href: activities-attract.md
+        - name: Extensibilidad
+          href: extensibility-attract.md
+        - name: Experiencias de candidatos y sitios de desarrollo profesional
+          href: career-site.md
+        - name: Configuración de la gestión de ofertas
+          href: offer-setup.md
+        - name: 'Crear, aprobar y firmar propuestas'
+          href: creating-offers.md
+        - name: Crear y gestionar plantillas de correo electrónico
+          href: email-templates.md
+        - name: Informes y analítica
+          href: Reporting-Analytics-Attract.md
+        - name: Seguridad y gestión de roles en Attract
+          href: security-attract.md
+        - name: Configuración de administrador en Attract
+          href: Admin-Settings-Attract.md
+        - name: Recomendaciones inteligentes
+          href: Intelligent-Recommendations.md
         - name: Crear una experiencia de incorporación interesante
           href: create-onboarding-experience.md
     - name: Motivar a los empleados
