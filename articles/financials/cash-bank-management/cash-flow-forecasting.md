@@ -1,0 +1,142 @@
+---
+title: Previsiones de flujo de efectivo
+description: "Este tema proporciona una visión general del proceso de previsión de flujo de efectivo. También explica cómo la previsión de flujo de efectivo se integra con otros módulos del sistema."
+author: saraschi2
+manager: AnnBe
+ms.date: 01/11/2018
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+ms.search.form: LedgerCovParameters
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: saraschi
+ms.search.validFrom: 2017-06-30
+ms.dyn365.ops.version: July 2017 update
+ms.translationtype: HT
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 9aefc79897d0abcee14c05f33516181b3eb05e55
+ms.contentlocale: es-es
+ms.lasthandoff: 02/07/2018
+
+---
+
+# <a name="cash-flow-forecasting"></a>Previsiones de flujo de efectivo
+
+[!include [banner](../includes/banner.md)]
+
+Puede usar las herramientas para la previsión del flujo de efectivo para analizar el flujo de efectivo que va a entrar y los requisitos de divisa para estimar la futura necesidad de efectivo de la compañía. Para obtener una previsión fiable del flujo de efectivo, debe completar las tareas siguientes:
+
+- Identifique y haga una lista con todas las cuentas de liquidez. Las cuentas de liquidez son las cuentas de efectivo de la empresa y equivalentes.
+- Configurar el comportamiento de las previsiones de transacciones que afecten a las cuentas de liquidez de la empresa.
+
+Una vez completadas estas tareas, puede calcular y analizar las previsiones de flujo de efectivo y los requisitos de divisa para el futuro.
+
+## <a name="cash-flow-forecasting-integration"></a>Integración de la previsión de flujo de efectivo
+
+La previsión del flujo de caja se puede integrar con el Libro mayor, los proveedores, los clientes y la gestión de presupuesto e inventario. El proceso de previsión utiliza la información de transacción que se especifica en el sistema y el proceso de cálculo prevé el impacto del efectivo esperado de cada transacción. Los siguientes tipos de transacciones se tienen en cuenta al calcular el flujo de efectivo:
+
+- **Pedidos de ventas**: pedidos de ventas que aún no se han facturado y que originan ventas físicas o financieras.
+- **Pedidos de compra**: pedidos de compra que aún no se han facturado y que originan compras físicas o financieras.
+- **Clientes**: transacciones de clientes abiertas (facturas impagadas).
+- **Proveedores**: transacciones de proveedores abiertas (facturas impagadas).
+- **Transacciones contables**: transacciones donde se ha especificado que habrá un registro futuro.
+- **Entradas de registro de presupuesto**: asientos de registro presupuestario que se seleccionan para previsiones de flujo de efectivo.
+- **Previsiones de la demanda**: líneas de modelo de previsión de inventario seleccionadas para previsiones de flujo de efectivo.
+- **Previsiones de suministro**: líneas de modelo de previsión de inventario seleccionadas para previsiones de flujo de efectivo.
+
+Aunque no haya integración directa con la gestión de proyectos y contabilidad, hay varias maneras de incluir transacciones de proyecto en la previsión de flujo de efectivo. Las facturas de proyecto registradas se incluyen en la previsión como parte de las transacciones de cliente abiertas. Los pedidos de ventas y pedidos de compra iniciados por el proyecto se incluyen en la previsión como pedidos abiertos después de registrarlos en el sistema. También puede transferir previsiones de proyecto a un modelo presupuestario contable. Este modelo presupuestario contable se incluye en la previsión de flujo de efectivo como parte de los asientos de registro presupuestario.
+
+## <a name="configuration"></a>Configuración
+
+Para configurar el proceso de previsión de flujo de efectivo, use la página **Configuración de la previsión de flujo de efectivo**. En esta página, especifique las cuentas de liquidez de las que se vaya a realizar un seguimiento y los comportamientos predeterminados de previsión para cada área.
+
+### <a name="general-ledger"></a>Contabilidad general
+
+Primero debe definir las cuentas de liquidez a las que se va a realizar el seguimiento a través de previsiones de flujo de caja. Normalmente, estas cuentas de liquidez son las cuentas principales que están asociados a las cuentas bancarias que recibirán y desembolsarán efectivo. En la página **Configuración de la previsión de flujo de efectivo**, en la pestaña **Contabilidad general**, seleccione las cuentas principales para incluir en la previsión. Si una cuenta bancaria se ha asociado a la cuenta principal en la página **Cuenta bancaria**, aparece en el campo **Cuenta bancaria**.
+
+Puede configurar una previsión de flujo de efectivo dependiente para una cuenta principal que contenga transacciones directamente relacionadas con transacciones de otra cuenta principal. Cada línea que agrega en la sección **En cuentas dependientes** crea un importe de previsión de flujo de efectivo en una cuenta principal dependiente. Este importe es un porcentaje de los importes de flujo de efectivo para la cuenta principal seleccionada.
+
+En primer lugar, establezca el campo **Cuenta principal** en la cuenta principal, donde se espera que se produzcan las transacciones inicialmente. Establezca el campo **Cuenta principal dependiente** en la cuenta que se verá afectada por la transacción inicial en la cuenta principal. Establezca los valores adecuados en los demás campos de la línea. Puede cambiar el valor del campo **Porcentaje** para reflejar el efecto de la cuenta principal en la cuenta principal dependiente. Para una previsión de ventas o compras, seleccione el valor **Condiciones de pago** utilice la mayoría de clientes o proveedores. Establezca el campo **Tipo de registro** en el tipo de registro esperado relativo a la previsión de flujo de efectivo.
+
+### <a name="accounts-payable"></a>Proveedores
+
+Puede calcular previsiones para compras usando las opciones de configuración en la pestaña **Proveedores** de la página **Configuración de la previsión de flujo de efectivo**. Para poder configurar la previsión de flujo de efectivo para los proveedores, antes debe configurar las condiciones de pago, los grupos de proveedores y los perfiles de registro de proveedores.
+
+En la sección **Valores predeterminados de previsión de compra**, puede seleccionar los comportamientos predeterminados de compra para la previsión de flujo de efectivo. Tres campos determinan la hora del impacto del efectivo: **Tiempo entre la fecha de entrega y la fecha de la factura**, **Condiciones de pago** y **Tiempo entre la fecha de vencimiento de la factura y la fecha de pago**. La previsión utilizará la configuración predeterminada para el campo **Condiciones de pago** si un valor no se ha especificado en la transacción. Use una condición de pago para describir el número más habitual de días para cada parte del proceso.
+
+El campo **Cuentas de liquidez para pagos** especifica la cuenta de liquidez que sea la utiliza con mayor frecuencia para los pagos. Use el campo **Porcentaje del importe que se va a asignar a la previsión de flujo de efectivo** para especificar si un porcentaje de importes se debe usar durante la previsión. Deje de este campo en blanco si los importes de la transacción completa se utilizan durante la previsión.
+
+Puede anular la configuración predeterminada el campo **Tiempo entre la fecha de vencimiento de la factura y la fecha de pago** para los grupos de proveedores específicos. El pronóstico utilizará el valor predeterminado de la sección **Valores predeterminados de previsión de compra** a menos que un valor diferente se especifique para el grupo de proveedores que está relacionado con el proveedor en la transacción. Para anular el valor predeterminado, seleccione un grupo de proveedores y, después, establezca el nuevo valor para el campo **Hora de compra**.
+
+Puede anular el valor predeterminado para el campo **Cuenta de liquidez** para perfiles de registro de proveedores específicos. El pronóstico utilizará el valor predeterminado de la sección **Valores predeterminados de previsión de compra** a menos que una cuenta de liquidez diferente se especifique para el perfil de registro que está relacionado con el proveedor en la transacción. Para anular el valor predeterminado, seleccione un perfil de registro y, a continuación, especifique la cuenta de liquidez que se espera que vaya a estar afectada.
+
+### <a name="accounts-receivable"></a>Clientes
+
+Puede calcular previsiones para ventas usando las opciones de configuración en la pestaña **Clientes** de la página **Configuración de la previsión de flujo de efectivo**. Para poder configurar la previsión de flujo de efectivo para los clientes, antes debe configurar las condiciones de pago, los grupos de clientes y los perfiles de registro de clientes.
+
+En la sección **Valores predeterminados de previsión de venta**, puede seleccionar los comportamientos predeterminados de venta para la previsión de flujo de efectivo. Tres campos determinan la hora del impacto del efectivo: **Tiempo entre la fecha de envío y la fecha de la factura**, **Condiciones de pago** y **Tiempo entre la fecha de vencimiento de la factura y la fecha de pago**. La previsión utilizará la configuración predeterminada para el campo **Condiciones de pago** si un valor no se ha especificado en la transacción. Use una condición de pago para describir el número más habitual de días para cada parte del proceso. 
+
+El campo **Cuentas de liquidez para pagos** especifica la cuenta de liquidez que sea la utiliza con mayor frecuencia para los pagos. Use el campo **Porcentaje del importe que se va a asignar a la previsión de flujo de efectivo** para especificar si un porcentaje de importes se debe usar durante la previsión. Deje de este campo en blanco si los importes de la transacción completa se utilizan durante la previsión.
+
+Puede anular la configuración predeterminada el campo **Tiempo entre la fecha de vencimiento de la factura y la fecha de pago** para los grupos de clientes específicos. El pronóstico utilizará el valor predeterminado de la sección **Valores predeterminados de previsión de venta** a menos que un valor diferente se especifique para el grupo de clientes que está relacionado con el cliente en la transacción. Para anular el valor predeterminado, seleccione un grupo de clientes y, después, establezca el nuevo valor para el campo **Hora de venta**.
+
+Puede anular el valor predeterminado para el campo **Cuenta de liquidez** para perfiles de registro de clientes específicos. El pronóstico utilizará el valor predeterminado de la sección **Valores predeterminados de previsión de venta** a menos que una cuenta de liquidez diferente se especifique para el perfil de registro que está relacionado con el cliente en la transacción. Para anular el valor predeterminado, seleccione un perfil de registro y, a continuación, establezca la cuenta de liquidez que se espera que vaya a estar afectada.
+
+### <a name="budgeting"></a>Gestión presupuestaria
+
+Los presupuestos creados a partir de los modelos presupuestarios se pueden incluir en previsiones de flujo de efectivo. En la pestaña **Presupuesto** de la página **Configuración de la previsión de flujo de efectivo** , seleccione los modelos presupuestarios para incluir en la previsión. De forma predeterminada, los nuevos asientos de registro presupuestario se incluyen en las previsiones después de que el modelo presupuestario se haya habilitado para la previsión de flujo de efectivo. La inclusión en la previsión de flujo de efectivo se puede sobrescribir en asientos de registro presupuestario individuales.
+
+### <a name="inventory-management"></a>Gestión del inventario
+
+Las previsiones de suministro y demanda de inventario se pueden incluir en las previsiones de flujo de efectivo. En la pestaña **Gestión del inventario** de la página **Configuración de la previsión de flujo de efectivo** , seleccione el modelo de previsión que se va a incluir en la previsión de flujo de efectivo. La inclusión en la previsión de flujo de efectivo se puede sobrescribir en líneas de previsión de suministro y demanda individuales.
+
+### <a name="calculation"></a>Cálculo
+
+Para poder ver análisis de previsión de flujo de efectivo, antes debe ejecutar el proceso de cálculo del flujo de efectivo. El proceso de cálculo proyectará los impactos futuros de efectivo de las transacciones que se han indicado.
+
+Calcule la previsión de flujo de efectivo mediante la página **Calcular previsiones de flujo de efectivo**. Puede calcular la previsión de flujo de efectivo completa o una previsión de flujo de efectivo incremental. 
+
+- Para borrar todas las transacciones de previsión de flujo de efectivo y volver a calcularlas, establezca el campo **Método de cálculo de previsiones de flujo de efectivo** en **Total**. Se recomienda que use este método si no se han actualizado las previsiones de flujo de efectivo durante mucho tiempo. 
+- Para actualizar la información existente de flujo de efectivo para las nuevas transacciones solo, establezca el campo **Método de cálculo de previsiones de flujo de efectivo** en **Nuevo**. La página mostrará la fecha en que el cálculo de flujo de efectivo se estaba ejecutando por última vez.
+
+También puede usar el procesamiento por lotes para la previsión de flujo de efectivo. Para ayudar a garantizar que sus análisis de previsión se actualizan con regularidad, configure un proceso de lote periódico para el cálculo de la previsión de flujo de efectivo.
+
+### <a name="reporting"></a>Notificación
+
+Tras calcularse la previsión de flujo de efectivo, debe actualizar la información asociada a la entidad para el informe de errores analítico. En la página **Almacén de entidades**, seleccione la medida **Agregado de LedgerCovLiquidityMeasurement** y, a continuación, haga clic en **Actualización**.
+
+Existen dos espacios de trabajo que contienen datos de previsión de flujo de efectivo. Un espacio de trabajo contiene datos para todas las empresas y el otro espacio de trabajo tiene solo datos para la empresa actual.
+
+El acceso al espacio de trabajo para todas las empresas se controla con el deber **Ver flujo de efectivo en el espacio de trabajo para todas las empresas**. De forma predeterminada, el espacio trabajo **Visión general del efectivo para todas las empresas** estará disponible para los roles siguientes:
+
+- Director General
+- Director financiero
+- Controlador financiero
+
+El acceso al espacio de trabajo para la empresa a actual se controla con el debe de espacio de trabajo **Ver flujo de efectivo en el espacio de trabajo para la empresa actual**. De forma predeterminada, el espacio trabajo **Visión general del efectivo para la empresa actual** estará disponible para los roles siguientes:
+
+- Contable
+- Administrador contable
+- Supervisor contable
+- Administrador de proveedores
+- Administrador de clientes
+
+El espacio de trabajo **Visión general del efectivo para todas las empresas** muestra los análisis de previsión de flujo de efectivo en la divisa del sistema. La divisa del sistema y el tipo de cambio del sistema que se usan para el análisis se definen en la página **Parámetros del sistema**. Este espacio de trabajo muestra una visión general de la previsión del flujo de efectivo y los saldos de cuenta bancaria para todas las empresas. Un gráfico de los flujos de entrada y de salida de efectivo ofrece una visión general de los movimientos y los saldos de futuros de efectivo en la divisa del sistema, así como información detallada sobre las transacciones de previsión. También puede ver los saldos previstos de la divisa.
+
+El espacio de trabajo **Visión general del efectivo para la empresa actual** muestra los análisis de previsión de flujo de efectivo en la divisa de contabilidad definida de la empresa. La divisa de contabilidad que se usa para el análisis se define en la página **Libro mayor**. Este espacio de trabajo muestra una visión general de la previsión del flujo de efectivo y los saldos de cuenta bancaria para la empresa actual. Un gráfico de los flujos de entrada y de salida de efectivo ofrece una visión general de los movimientos y los saldos de futuros de efectivo en la divisa de contabilidad, así como información detallada sobre las transacciones de previsión. También puede ver los saldos previstos de la divisa.
+
+Para obtener más información sobre los análisis de previsión de flujo de efectivo, consulte el tema de contenido de Power BI de visión general de efectivo.
+
+Además, puede ver los datos de previsión de flujo de efectivo para cuentas, pedidos y artículos específicos en las siguientes páginas:
+
+- **Saldo de comprobación**: seleccione **Previsiones de flujo de efectivo** para ver los flujos de efectivo de futuros para la cuenta principal seleccionada.
+- **Todos los pedidos de venta**: en la pestaña **Factura**, seleccione **Previsiones de flujo de efectivo** para ver el impacto de efectivo previsto del pedido de ventas seleccionado.
+- **Todos los pedidos de compra**: en la pestaña **Factura**, seleccione **Previsiones de flujo de efectivo** para ver el impacto de efectivo previsto del pedido de compras seleccionado.
+- **Previsión de suministro**: seleccione **Previsiones de flujo de efectivo** para ver los flujos de efectivo futuro que están asociados a la previsión de suministro del artículo seleccionado.
+- **Previsión de demanda**: seleccione **Previsiones de flujo de efectivo** para ver los flujos de efectivo futuro que están asociados a la previsión de demanda del artículo seleccionado.
+
+
