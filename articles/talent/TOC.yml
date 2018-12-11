@@ -7,6 +7,10 @@
         - name: Novedades y cambios
           href: whats-new.md
           items:
+            - name: Novedades y cambios en Dynamics 365 for Talent Core HR (27 de noviembre de 2018)
+              href: whats-new-talent-november-27.md
+            - name: Novedades y cambios en Dynamics 365 for Talent Core HR (15 de noviembre de 2018)
+              href: whats-new-talent-november-15.md
             - name: Novedades y cambios en Dynamics 365 for Talent Core HR (31 de octubre de 2018)
               href: whats-new-talent-october-31.md
             - name: Novedades y cambios en Dynamics 365 for Talent Core HR (19 de octubre de 2018)
@@ -91,12 +95,10 @@
           href: career-site.md
         - name: Configuración de la gestión de ofertas
           href: offer-setup.md
-        - name: 'Crear, aprobar y firmar propuestas'
+        - name: 'Crear, aprobar y firmar ofertas'
           href: creating-offers.md
         - name: Crear y gestionar plantillas de correo electrónico
           href: email-templates.md
-        - name: Informes y analítica
-          href: Reporting-Analytics-Attract.md
         - name: Seguridad y gestión de roles en Attract
           href: security-attract.md
         - name: Configuración de administrador en Attract
@@ -266,3 +268,27 @@
           href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Crear una evaluación del rendimiento
           href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Solucionar problemas de Talent
+      items:
+        - name: Los informes de análisis no están actualizados
+          href: analytic-reports-not-updated.md
+        - name: No se puede crear un entorno en el centro de administración de PowerApps
+          href: create-envi-powerapps-admin-ctr.md
+        - name: El cliente de Talent se desconecta
+          href: client-disconnects.md
+        - name: Cómo se gestionan las copias de seguridad de la base de datos
+          href: database-backups.md
+        - name: Evitar el truncamiento del texto en la jerarquía de puestos y exportar a Visio
+          href: avoid-text-truncation-position-hierarchy-visio.md
+        - name: Ejecutar el proceso de compensación
+          href: run-compensation-process.md
+        - name: Guarda las guías de tareas en LCS y reproducirlas
+          href: save-play-task-guides-LCS.md
+        - name: Acceder a direcciones privadas por rol de seguridad
+          href: security-roles-addresses.md
+        - name: Talent no figura entre las aplicaciones de Microsoft Dynamics 365 (CDS1.0)
+          href: talent-not-in-home-CDS.md
+        - name: El usuario puede acceder a Core HR pero no a las aplicaciones Onboard y Attract
+          href: user-access-core-hr.md
+        - name: Opciones de informes en Talent
+          href: talent-reporting-options.md
