@@ -47,19 +47,23 @@
       href: dev-itpro/updating-environments.md
     - name: Prueba y problemas de rendimiento
       href: dev-itpro/retail-implementation-testing-performance.md
+- name: Gestión de pedidos distribuida (DOM)
+  href: dom.md
 - name: Pagos
   items:
     - name: Métodos de pago
       href: payment-methods.md
     - name: 'Configuración, autorización y captura de tarjetas de crédito'
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: Configurar denominaciones de efectivo para el POS
+    - name: Configurar denominaciones de efectivo para el punto de venta
       href: cash-denominations.md
-    - name: Preguntas más frecuentes sobre pagos
+    - name: Configurar situaciones de pago de facturas
+      href: payinvoice.md
+    - name: Preguntas frecuentes sobre pagos
       href: dev-itpro/payments-retail.md
 - name: Pedidos de compra
   items:
-    - name: Visión general de pedidos de compra
+    - name: Visión general de los pedidos de compra
       href: ../supply-chain/procurement/purchase-order-overview.md
     - name: Crear pedidos de compra
       href: ../supply-chain/procurement/purchase-order-creation.md
@@ -213,6 +217,8 @@
       href: Order-fulfillment-POS-setup.md
     - name: Mostrar notificaciones de pedido en el PDV
       href: Notifications-POS.md
+- name: Configurar y procesar un cambio en un pedido de devolución
+  href: orderexchanges.md
 - name: Supervisión y análisis
   items:
     - name: Supervisar las ventas y el rendimiento de margen
@@ -231,10 +237,12 @@
   items:
     - name: Descuentos comerciales
       href: retail-discounts-overview.md
-    - name: Administración de precios de venta al por menor
+    - name: Administración de precios de venta minorista
       href: price-management.md
     - name: Ajustes de precios y descuentos
       href: price-adjustments-discounts.md
+    - name: Aplicar varios descuentos comerciales a un producto
+      href: Apply-multiple-retail-discounts.md
     - name: Determinar la combinación óptima de descuentos superpuestos
       href: optimal-combination-overlapping-discounts.md
     - name: Definir descuentos específicos de un canal
@@ -488,6 +496,8 @@
       items:
         - name: Diseños de pantalla de Retail POS
           href: pos-screen-layouts.md
+        - name: Abrir dirección URL en el punto de venta
+          href: Open-URL-in-POS.md
         - name: Instalar el diseñador de PDV
           href: install-pos-layout-designer.md
         - name: Retail Modern POS en modo sin conexión
@@ -508,6 +518,10 @@
           href: dev-itpro/gift-card.md
         - name: Crear y aplicar marcas a la aplicación Retail Experience
           href: dev-itpro/create-retail-experience-app.md
+        - name: Configurar una aplicación de POS Hybrid en Android y en iOS
+          href: dev-itpro/hybridApp.md
+        - name: Anular controlador de solicitud de PDV
+          href: dev-itpro/pos-handler.md
     - name: Estación de hardware y extensibilidad
       href: dev-itpro/hardware-station-extensibility.md
     - name: Extensibilidad de Retail Server
@@ -562,9 +576,13 @@
           href: dev-itpro/payment-custom-error-messages.md
         - name: Crear instaladores de Windows para conectores de pago
           href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: Uso de datos de pago
+          href: payment-connector-data-fields.md
     - name: SDK de Retail
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: Cambios en el SDK próximos al por menor
+          href: dev-itpro/UpcomingSDKChanges.md
         - name: Combinar los sistemas de compilación para Retail y Finance and Operations
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: Muestras de extensibilidad de SDK de Retail
