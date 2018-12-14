@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 185d1adc88a29bc3ae722ae2c6f0a2769428bce3
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
 ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -164,13 +164,23 @@ Para obtener información sobre cómo registrar un nuevo proveedor de ER, reprod
 
 #### <a name="repository"></a>Repositorio
 
-Un repositorio de ER guarda las configuraciones de ER. Dos tipos de repositorios de ER siguientes son compatibles actualmente: **Recursos de Operations** y **Proyecto LCS**.
+Un repositorio de ER guarda las configuraciones de ER. Cuatro tipos de repositorios de ER actualmente se admiten: **Recursos de operaciones**, **Proyecto de LCS (LCS)**, **Sistema de archivos**, y **Servicios de configuración reglamentaria (RCS)**.
 
 Un repositorio de **Recursos de Operations** proporciona acceso a la lista de configuraciones que libera Microsoft, como el proveedor de configuración de ER, como parte de la solución de Finance and Operations. Esas configuraciones se pueden importar a la instancia actual de Finance and Operations y usar para los informes electrónicos. También se pueden utilizar para localizaciones y personalizaciones adicionales.
 
 Un repositorio del **proyecto de LCS** proporciona acceso a la lista de configuraciones de un proyecto de LCS específico (biblioteca de los activos del proyecto de LCS) que se seleccionó en la etapa de registro del repositorio. ER le permite cargar las configuraciones compartidas de la instancia de Finance and Operations actual a un repositorio específico del **Proyecto LCS**. También puede importar configuraciones de un repositorio del **Proyecto LCS** en la instancia de Finance and Operations actual.
 
-Los repositorios necesarios del **Proyecto LCS** se pueden registrar de manera individual para cada proveedor de la configuración de la instancia actual de Finance and Operations. Cada repositorio se puede dedicar a un proveedor de configuración específico.
+Un repositorio de **Sistema de archivos** proporciona acceso a la lista de configuraciones que están ubicadas como archivos XML en la carpeta específica del sistema de archivos local del equipo en el que se aloja el servicio AOS. La carpeta necesaria se selecciona en la etapa de registro de repositorio. Puede importar configuraciones de un repositorio del **sistema de archivos** en la instancia de Finance and Operations actual. Tenga en cuenta que este tipo de repositorio es accesible en los siguientes entornos de Dynamics 365 for Finance and Operations:
+- entornos alojados en la nube implementados para fines de desarrollo (que contienen los modelos de prueba de suites)
+- entornos implementados localmente (implementación de datos empresariales locales o en local (LBD))
+
+Visite la página [Importar configuraciones de informes electrónicos (ER)](/electronic-reporting-import-ger-configurations.md) para obtener más información sobre ésta.
+
+Un repositorio de **instancia RCS** proporciona acceso a la lista de configuraciones de una instancia RCS específica que se seleccionó en la etapa de registro del repositorio. ER le permite importar configuraciones completadas o compartidas desde la instancia de RCS seleccionada a la instancia de Finance and Operations actual utilizada para el informe de errores electrónico.
+
+Visite la página [Importar configuraciones de informes electrónicos (ER) desde Servicios de configuración reglamentaria (RCS)](/rcs-download-configurations.md) para obtener más información sobre ésta.
+
+Los repositorios necesarios del **Proyecto LCS**, **Sistema de archivos** y **Servicios de configuración reglamentaria (RCS)** se pueden registrar de manera individual para cada proveedor de configuración de la instancia actual de Finance and Operations. Cada repositorio se puede dedicar a un proveedor de configuración específico.
 
 ## <a name="supported-scenarios"></a>Escenarios admitidos
 ### <a name="building-a-data-model"></a>Creación de un modelo de datos
