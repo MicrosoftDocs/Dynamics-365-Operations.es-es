@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 53c0da5e9697deaf946ccd4fbcd2102faa62b195
-ms.openlocfilehash: bc2b8aafa28d3998e223891fa95e3fe8175349e6
+ms.sourcegitcommit: 596cfa056c6f2e64f554b643bb5a61d09c7bf20c
+ms.openlocfilehash: 58bba3dead4d2a8ed3ae424694377e410df16f4c
 ms.contentlocale: es-es
-ms.lasthandoff: 11/02/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -90,7 +90,7 @@ Las tablas siguientes muestran las áreas del producto. El soporte en la nube y 
 | Gestión de servicio| | Sí | Sí |
 | Gestión de la cadena de suministro| | Sí | Sí |
 | Administración de transporte| | Sí | Sí |
-| Colaboración de proveedor| | Sí | Sí|
+| Colaboración de proveedor| | Sí | N.º |
 | Gestión de almacenes| | Sí | Sí |
 | | Aplicación móvil del almacén| Sí | Sí |
 | | Informes de Power BI de almacenes| Sí | N.º |

@@ -1,9 +1,9 @@
 ---
 title: "Recepción de producto frente a pedidos de compra"
-description: "Este artículo describe las distintas opciones para registrar productos como recibidos."
+description: Este tema describe las distintas opciones para registrar productos como recibidos.
 author: FrankDahl
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c227664da360f6f8d54b49f15e1b7160aa142ba9
+ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
+ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
 ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/08/2018
 
 [!include [retail name](../includes/retail-name.md)]
 
-Este artículo describe las distintas opciones para registrar productos como recibidos.
+Este tema describe las distintas opciones para registrar productos como recibidos.
 
 La recepción de producto es el proceso de registro de que se han recibido los productos que se han pedido, de manera que las líneas de pedido de compra se pueden procesar para facturación. En algunos casos, los productos pasan por un pre-registro, donde se registra información adicional del proveedor antes de que se reciban los productos. Cuando llegan los productos, se marcan primero como **Registrado**. Los productos pueden pasar después por procesos adicionales, como la gestión de la calidad antes de que finalmente se marquen como **Recibido**.
 
@@ -46,8 +46,6 @@ Los productos que se reciben en un almacén podrían pasar por una inspección d
 
 ## <a name="product-receipt"></a>Recepción de producto
 A menudo, la acción **Recepción de producto** de la página **Pedidos de compra** se utiliza para marcar productos como **Recibido** en el PC. La página **Registro de recepción de productos** tiene varias opciones para la cantidad que se contabiliza como recibido. Por ejemplo, puede establecer el campo **Cantidad** en **Cantidad pedida** o **Cantidad que se recibe ahora**. De forma alternativa, si se ha utilizado un proceso de llegada a almacén, a menudo establecerá este campo en **Cantidad registrada**. Puede modificar las cantidades de cada línea de pedido que se marcarán como **Recibido**, para dar cuenta de discrepancias, como entrega incompleta y entrega en exceso. Durante la recepción de producto, debe especificar un identificador de recepción de producto, que normalmente es una referencia al albarán del proveedor. Este identificador es necesario para contabilidad, porque permite comprobaciones o auditorías de albaranes de proveedor frente a lo que se ha recibido y el gasto o el inventario contabilizado.  
-
-Si un empleado pidió mercancías mediante una solicitud compra, a ese empleado se le puede pedir que confirme la recepción del producto él o ella misma. Configure este comportamiento utilizando un flujo de trabajo. Puede configurar las condiciones de flujo de trabajo para que coincidan con el proceso empresarial.  
 
 Los pedidos de compra pueden crearse para productos que no están pensados como inventario pero se consideran un gasto. Esta categoría incluye líneas de pedido donde los productos se marcan como **Sin existencias** por su grupo de modelos de inventario y también las líneas que utilizan categorías de compras. En este caso, los elementos pueden no pasar por el registro de llegada y recepción en el almacén. En su lugar, la acción **Recepción de producto** se utiliza para registrar el recibo directamente en el pedido de compra y la recepción se basa en la cantidad pedida, no una cantidad registrada.  
 

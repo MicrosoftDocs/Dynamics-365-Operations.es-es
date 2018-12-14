@@ -3,7 +3,7 @@ title: "Página principal de planificación maestra"
 description: "La planificación maestra permite a las empresas determinar y establecer la necesidad futura de materias primas y la capacidad para cumplir los objetivos de la empresa."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 12/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
 ms.contentlocale: es-es
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -58,13 +58,13 @@ El siguiente mapa de aprendizaje muestra los conceptos y tareas principales que 
 
 ## <a name="quick-links"></a>Vínculos rápidos
 
-|      |   |
-|------|---|
-|        [Planes maestros](master-plans.md)       |     [Generar un plan con restricciones](./tasks/constrained-plan.md)  |
-| [Creación de un plan de materiales para coproductos](./tasks/create-material-plan-co-products.md)   |  [Planificación maestra y funcionalidad multisitio](master-plan-multisite-functionality.md)  |
-| [Crear un plan de empresas vinculadas](./tasks/create-intercompany-plan.md) | [Visión general de previsión de la demanda](introduction-demand-forecasting.md)  | 
-|[Claves de reducción](reduction-keys.md)| [Conceptos básicos de planificación maestra](https://mbspartner.microsoft.com/AX/CourseOverview/1275) (eLearning) (Requiere la cuenta de CustomerSource)     |
-|  [Conceptos básicos de fabricación de procesos](https://mbspartner.microsoft.com/D365E/CourseOverview/1514) (eLearning) (Requiere la cuenta de CustomerSource) | [Planificación maestra de empresas vinculadas](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (eLearning) (Requiere la cuenta de CustomerSource)|
+- [Planes maestros](master-plans.md)  
+- [Generar un plan con restricciones](./tasks/constrained-plan.md)
+- [Creación de un plan de materiales para coproductos](./tasks/create-material-plan-co-products.md)
+- [Planificación maestra y funcionalidad multisitio](master-plan-multisite-functionality.md)
+- [Crear un plan de empresas vinculadas](./tasks/create-intercompany-plan.md)
+- [Visión general de previsión de la demanda](introduction-demand-forecasting.md)
+- [Claves de reducción](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Recursos adicionales
 

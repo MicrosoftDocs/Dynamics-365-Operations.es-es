@@ -3,7 +3,7 @@ title: "Conexión del sistema de ayuda"
 description: "Este tema describe los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations y proporciona una visión general de cómo conectarlos y un resumen de cómo crear la ayuda personalizada."
 author: margoc
 manager: AnnBe
-ms.date: 09/11/2017
+ms.date: 11/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1449d44149f328f780f02e798c5200595557474
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: a2ca5f5302751ad2c4ddc3c6921a8a9b6c2d57df
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -68,9 +68,19 @@ Las guías de tareas traducidas se incluyeron por primera vez en la biblioteca u
 > -   Si se ha traducido aún una guía de tareas, al abrirla, solo parte del texto (el texto de los controles) aparecerá en el idioma seleccionado.
 
 ## <a name="creating-custom-help"></a>Creación de ayuda personalizada
+Puede usar las guías de tareas para crear ayuda personalizada, o para conectar una página Web al panel de la Ayuda. 
+
+### <a name="create-custom-help-with-task-guides"></a>Creación de ayuda personalizada mediante guías de tareas
 Puede crear ayuda personalizada para su implementación de Finance and Operations y para Retail creando grabaciones de tareas que reflejan su implementación y guardándolos en una Biblioteca de proceso empresarial LCS. No puede crear guías de tareas personalizadas para Talent. 
 
 Para socios, si promociona una biblioteca para que sea una biblioteca corporativa, e incluirla en una solución, esta estará disponible para sus clientes. También puede realizar una copia de la biblioteca global unificada APQC y, a continuación abrir su copia, abrir grabaciones de tareas desde allí, modificarlas y guardar las grabaciones con sus cambios. Para obtener más información, consulte el tema [Cómo crear una grabación de tareas para usarla como documentación o formación](../../dev-itpro/user-interface/task-recorder.md).
+
+### <a name="connect-a-custom-site"></a>Conectar un sitio personalizado
+Microsoft ha proporcionado documentación técnica y código de muestra que describen cómo crear y conectar un sitio personalizado de la ayuda al panel de la Ayuda. Para obtener más información, consulte: 
+- [Crear Ayuda personalizada para Finance and Operations (documentación técnica)](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [Repositorio GitHub de ayuda personalizada](https://github.com/microsoft/dynamics356f-o-custom-help)
+
+
 
 <a name="additional-resources"></a>Recursos adicionales
 --------

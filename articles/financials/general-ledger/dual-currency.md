@@ -17,14 +17,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c026a540fb7d30644d485b6a057c2c46bd7c091d
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
 ms.contentlocale: es-es
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
 # <a name="dual-currency"></a>Divisa dual
+
+[!include [banner](../includes/banner.md)]
 
 La funcionalidad que se introdujo en Microsoft Dynamics 365 for Finance and Operations versión 8.1 (octubre de 2018) habilita el cambio de propósito de la divisa de notificación y su uso como segunda divisa de contabilidad. Esta función se denomina *divisa dual*. Los cambios de la divisa dual no se pueden desactivar con una clave de configuración o un parámetro. Dado que la divisa de notificación se usa como segunda divisa de contabilidad, la manera en que la divisa de notificación se calcula en la lógica del registro ha cambiado.
 
@@ -67,8 +69,8 @@ Los módulos siguientes utilizan la divisa de notificación como segunda divisa 
 
 - [Contabilidad general](#general-ledger)
 - [Informes financieros](#financial-reporting)
-- [Proveedores](#accounts-payable/accounts-receivable)
-- [Clientes](#accounts-payable/accounts-receivable)
+- [Proveedores](#accounts-payable-and-accounts-receivable)
+- [Clientes](#accounts-payable-and-accounts-receivable)
 - [Gestión de efectivo y bancos](#cash-and-bank-management)
 - [Activos fijos](#fixed-assets)
 
@@ -90,7 +92,7 @@ Una mejora en el módulo **Informe financiero** permite incluir importes de divi
 
 Este cambio está disponible a través de la configuración **Visualización de divisas** en la definición de columna. Si se selecciona **Divisa de informe del libro mayor**, los importes de la columna no se convierten. En su lugar, se notifican directamente desde la contabilidad general. Si desea que la columna muestre importes convertidos, seleccione la opción **Convertir a XXXX**, donde *XXXX* es la divisa de notificación que la columna debe mostrar. En este caso, los importes de la divisa de contabilidad se convertirán a la divisa seleccionada usando la funcionalidad de conversión ya existente.
 
-### <a name="accounts-payableaccounts-receivable"></a>Proveedores/Clientes
+### <a name="accounts-payable-and-accounts-receivable"></a>Proveedores y Clientes
 
 Los módulos **proveedores** y **clientes** ya hacían el seguimiento de los importes en divisa de notificación. Sin embargo, los importes no se mostraban ni se utilizaban para varios procesos. Se realizaron los siguientes cambios:
 

@@ -48,9 +48,13 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Características no implementadas en implementaciones locales
               href: get-started/features-not-implemented-on-prem.md
-            - name: Platform update 22 (noviembre 2018)
+            - name: Finance and Operations versión 8.1.3 (diciembre de 2018)
+              href: get-started/whats-new-changed-8-1-3.md
+            - name: Platform update 23 (diciembre de 2018)
+              href: get-started/whats-new-platform-update-23.md
+            - name: Platform update 22 (noviembre de 2018)
               href: get-started/whats-new-platform-update-22.md
-            - name: Versión 8.1.2 de Finance and Operations (noviembre de 2018)
+            - name: Finance and Operations versión 8.1.2 (noviembre de 2018)
               href: get-started/whats-new-changed-8-1-2.md
             - name: Versión 8.1.1 de Finance and Operations (octubre de 2018)
               href: get-started/whats-new-changed-8-1-1.md
@@ -150,9 +154,11 @@
           items:
             - name: Sistema de ayuda
               href: get-started/help-overview.md
-            - name: Conexión del sistema de ayuda
+            - name: Conectar el sistema de ayuda
               href: get-started/help-connect.md
-            - name: Ver y exportar descripciones de campos
+            - name: Conectar un sitio de ayuda personalizado
+              href: get-started/help-custom.md
+            - name: Ver y exportar las descripciones de los campos
               href: get-started/view-export-field-descriptions.md
             - name: Guías de tareas y grabador de tareas
               items:
@@ -1243,6 +1249,8 @@
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
             - name: Restablecer el data mart de informes financieros
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: Mensajería electrónica
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: Características normativas y de localización
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -2222,6 +2230,10 @@
               href: ../financials/localizations/rus-transactions-settlement-date.md
             - name: Facturas para pago
               href: ../financials/localizations/rus-invoice-payment.md
+            - name: Informes financieros
+              href: ../financials/localizations/rus-financial-reports.md
+            - name: Crear un libro de compras
+              href: ../financials/localizations/rus-sales-books-purchase-books.md
         - name: Arabia Saudí
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2741,6 +2753,8 @@
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
                 - name: Importar configuraciones de Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: Importar configuraciones de informes electrónicos (ER) de Regulatory Configuration Services (RCS)
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md
                 - name: Descargar configuraciones de Lifecycle Services
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
                 - name: Importar configuraciones
@@ -3046,7 +3060,7 @@
               href: ../supply-chain/procurement/tasks/enter-compare-rfq-bids-award-contracts.md
         - name: Pedidos de compra
           items:
-            - name: Visión general de pedidos de compra
+            - name: Visión general de los pedidos de compra
               href: ../supply-chain/procurement/purchase-order-overview.md
             - name: Aprobar y confirmar pedidos de compra
               href: ../supply-chain/procurement/purchase-order-approval-confirmation.md
@@ -4149,9 +4163,11 @@
               href: ../supply-chain/warehousing/display-older-batches-within-warehouses.md
             - name: Seleccionar el lote más antiguo en un dispositivo móvil
               href: ../supply-chain/warehousing/pick-oldest-batch.md
+            - name: Marco de guías de proceso
+              href: ../supply-chain/warehousing/process-guide-framework.md
         - name: Actualizar y migrar
           items:
-            - name: Actualizar los procesos de gestión de Microsoft Dynamics AX 2012 a Finance and Operations
+            - name: Actualizar los procesos de gestión de almacenes de Microsoft Dynamics AX 2012 a Finance and Operations
               href: ../supply-chain/warehousing/upgrade-migration-warehouse-management-processes.md
         - name: Recibos para su registro y ubicación
           items:

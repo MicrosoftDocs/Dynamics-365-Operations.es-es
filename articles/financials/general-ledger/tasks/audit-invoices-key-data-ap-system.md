@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: 70a7a1f7d7a8221a72addfbee1d21f813df4eb46
+ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
+ms.openlocfilehash: 946076d682a10becdc2c4a8baff7f52de7893119
 ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="audit-invoices-and-key-data-in-ap-system"></a>Auditar facturas y datos clave en sistema de proveedores
@@ -35,34 +35,31 @@ Este procedimiento usa la empresa de demostración USMF. El rol de administrador
 
 
 ## <a name="create-a-purchase-order"></a>Crear un pedido de compra
-1. Vaya a Todos los pedidos de compra.
-2. Haga clic en Nuevo.
-3. En el campo Cuenta de proveedor, haga clic en el botón desplegable para abrir la búsqueda.
-4. En el campo Cuenta de proveedor, escriba un valor.
-5. Haga clic en Aceptar
-6. Haga clic en Agregar línea.
-7. En el campo Código de artículo, escriba un valor.
-8. En el panel de acciones, haga clic en Compra.
-9. Haga clic en Confirmar.
+1. Vaya a **Todos los pedidos de compra.**
+2. Haga clic en **Nuevo**.
+3. En el campo **Cuenta de proveedor**, escriba un valor.
+4. Haga clic en **Aceptar**.
+5. Haga clic en **Agregar línea.**
+6. En el campo **Código de artículo**, escriba un valor.
+7. En el panel de acciones, haga clic en **Compra.**
+8. Haga clic en **Confirmar**.
 
 ## <a name="post-a-product-receipt"></a>Registrar una recepción de producto
-1. En el panel de acciones, haga clic en Recibir.
-2. Haga clic en Recepción de producto.
-3. En la lista, marque la fila seleccionada.
-4. En el campo Recepción de producto, escriba un valor.
-5. Haga clic en Aceptar
+1. En el panel de acciones, haga clic en **Recibir.**
+2. Haga clic en **Recepción de producto.**
+3. En el campo **Recepción de producto**, escriba un valor.
+4. Haga clic en **Aceptar**.
 
 ## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a>Registrar y conciliar una factura de proveedor con una recepción de producto
-1. En el panel de acciones, haga clic en Factura.
-2. Haga clic en Factura.
-3. En el campo Número, escriba un valor.
-4. Haga clic en Valor predeterminado de origen: Cantidad pedida para abrir el cuadro de diálogo desplegable.
-5. En el campo Cantidad predeterminada para líneas, seleccione una opción.
-6. Haga clic en Aceptar
-7. Haga clic en Sí.
-8. Haga clic en Conciliar recepciones de producto.
-9. Haga clic en Aceptar
-10. En el panel de acciones, haga clic en Revisar.
-11. Haga clic en Detalles coincidentes.
+1. En el panel de acciones, haga clic en **Factura > Factura**.
+2. En el campo **Número**, escriba un valor.
+3. Haga clic en **Valor predeterminado de origen: Cantidad pedida** para abrir el cuadro de diálogo desplegable.
+4. En el campo **Cantidad predeterminada para líneas**, seleccione una opción.
+5. Haga clic en **Aceptar**.
+6. Haga clic en **Sí**.
+7. Haga clic en **Conciliar recepciones de producto**.
+8. Haga clic en **Aceptar**.
+9. En el panel de acciones, haga clic en **Revisar**.
+10. Haga clic en **Detalles coincidentes**.
 
 

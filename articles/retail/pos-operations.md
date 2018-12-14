@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
+ms.sourcegitcommit: c9f9368dc3e0fb4ed63250889016d6abe7d15a8c
+ms.openlocfilehash: 557e43c05f7015b04380f45fbd69f58a7250829a
 ms.contentlocale: es-es
-ms.lasthandoff: 09/04/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -152,6 +152,7 @@ Nota: Las operaciones que se muestran a continuación se aplican a la última ve
 | 644 | Quitar código de vale | Pida al usuario que quite vales seleccionándolos en una lista de vales que están asociados actualmente a la transacción. | Sí | Sí | N.º | Sí | N.º |
 | 1057 | Volver a imprimir Z | Vuelva a imprimir el informe Z del turno anterior o de un turno seleccionado. | Sí | Sí | Sí | N.º | N.º |
 | 1216 | Escriba una contraseña nueva | Esta operación permite que un usuario que tiene permiso para restablecer la contraseña restablezca la contraseña de otro empleado mediante una contraseña temporal. | Sí | Sí | Sí | N.º | N.º |
+| 1219 | Abrir URL en POS | Esta operación permite que un usuario abra una dirección URL configurada por el administrador en PDV. | Sí | Sí | Sí | Sí | N.º | 
 | 109 | Devolver producto | Realice la devolución de productos individuales. El siguiente producto digitalizado se muestra como producto devuelto con un precio y una cantidad negativos. | Sí | Sí | N.º | Sí | N.º |
 | 114 | Transacción de devolución | Recupere una transacción anterior por su número de recibo para devolver algunos o todos los productos. | Sí | Sí | Sí | Sí§ | N.º |
 | 1211 | Ingreso en caja fuerte | Permite realizar un ingreso seguro para trasladar dinero de la caja registradora a la caja fuerte. | Sí | Sí | Sí | Sí | N.º |

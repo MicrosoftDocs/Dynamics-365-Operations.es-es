@@ -3,7 +3,7 @@ title: "Características quitadas u obsoletas"
 description: "Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen."
 author: sericks007
 manager: AnnBe
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 6750cfc62e2d151ddf760ff3dc36bab9c078b2d9
+ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
+ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
 ms.contentlocale: es-es
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -87,6 +87,19 @@ Característica que exporta archivos electrónicos generados de declaraciones a 
 | **Áreas de producto afectadas**         | Contabilidad general, impuestos |
 | **Opción de implementación**              | Todas |
 | **Estado**                         | Se eliminó de Dynamics 365 for Finance and Operations 8.1 con la actualización 20 de la plataforma. |
+
+
+### <a name="profit-tax-register-wizard"></a>Asistente del registro de impuesto de ganancias
+Característica para crear plantillas para nuevos registros de impuestos sobre ganancias. Esta característica crea objetos X++ para nuevos registros, que se crean como plantillas con la lógica de cálculo apropiada agregada.
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | La característica no es compatible con el modelo de extensibilidad de Dynamics 365 for Finance and Operations. |
+| **¿Reemplazado por otra característica?**   | N.º |
+| **Áreas de producto afectadas**         | Impuesto |
+| **Opción de implementación**              | Todas |
+| **Estado**                         | Se eliminó de Dynamics 365 for Finance and Operations 8.1 con la actualización 20 de la plataforma. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 con acutlización 15 de la plataforma
 No se ha quitado ni se ha dejado de utilizar ninguna función con esta versión. La actualización de la plataforma 15 es acumulativa y contiene nuevas o mejoradas funciones de la actualización de la plataforma 13, la actualización de la plataforma 14 y la actualización de la plataforma 15.
@@ -993,6 +1006,17 @@ El configurador de productos se usaba para configurar dinámicamente artículos 
 | **¿Reemplazado por otra característica?**   | Sí. La configuración basada en restricciones se introdujo en Dynamics AX 2012 donde ya se anunciaba la depreciación del generador de productos en futuras versiones. La tecnología de configuración basada restricciones se selecciona en los productos maestros para habilitar la configuración. Para obtener más información, consulte [Crear un modelo de configuración de productos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
 | **Áreas de producto afectadas**         | Gestión de información de productos, Ventas y marketing  |
 | **Estado**                         | Quitado a partir de Dynamics AX 7.0.      |
+
+### <a name="production-floor-app"></a>Aplicación de planta de producción
+Esta es la aplicación de los dispositivos tabletas que ejecutan Windows 8.1 RT y Windows 8.1 Pro.
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Con el cambio a un cliente basado en Internet, es posible entregar funciones similares a través del cliente nativo de Dynamics AX 7.0. El dispositivo de tarjeta de trabajo proporciona una interfaz de usuario de planta de la producción que se optimiza para los factores de forma de contacto y tabletas. |
+| **¿Reemplazado por otra característica?**   | Sí. El dispositivo de la tarjeta de trabajo, que es una parte nativa de Dynamics AX 7.0.                                                                           |
+| **Áreas de producto afectadas**         | Control de producción                                                |
+| **Estado**                         | Desusado: Una fecha de eliminación de la tienda de Microsoft todavía no se ha establecido para esta función.                                                |
+
 
 ### <a name="rename-product-dimension"></a>Asignar un nuevo nombre a la dimensión del producto
 
