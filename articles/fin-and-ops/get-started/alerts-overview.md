@@ -34,11 +34,13 @@ Las alertas forman un sistema de notificación para los eventos más importantes
 En (ERP) la planificación de recursos empresariales, hay varias situaciones habituales donde la función de avisos de Finance and Operations se puede usar. Aquí hay algunos ejemplos.
 
 ### <a name="scenario-1-create-an-alert-rule-for-new-sales-orders"></a>Escenario 1: crear una regla de alerta para los pedidos de ventas nuevos.
+
 1. Abra la página **Todos los pedidos de venta**.
 2. En el Panel de acciones, en la ficha **Opciones**, en el grupo **Compartir**, seleccione **Crear una alerta personalizada**.
 3. En el cuadro **Crear regla de alertas**, en la ficha desplegable **Avisarme cuando**, en el campo **evento**, seleccione **El registro se ha creado**.
 
 ### <a name="scenario-2-create-an-alert-rule-for-postponement-of-a-delivery-date"></a>Escenario 2: crear una regla de alerta para posponer una fecha de entrega
+
 1. Abra la página **Todos los pedidos de compra**.
 2. Seleccione un identificador del pedido de compra para acceder a los detalles del pedido de compra.
 3. Expanda la ficha desplegable **Encabezado de pedido de compras**.
@@ -49,6 +51,7 @@ En (ERP) la planificación de recursos empresariales, hay varias situaciones hab
 Después de cerrar el cuadro de diálogo **Crear regla de alertas**, la regla aparece en la página **Administrar reglas de alertas**. Puede usar la página **Administrar reglas de alertas** para actualizar sus reglas de alertas existentes. Por ejemplo, puede modificar los desencadenadores de eventos, actualizar notificaciones de eventos y actualizar las fechas de vencimiento. Para abrir la página **Administrar reglas de alertas** , use el botón **Avisarme** en la pestaña **Opciones** del panel de acciones.
 
 ## <a name="what-occurs-when-an-alert-rule-is-created"></a>¿Qué sucede cuando se crea una regla de alertas?
+
 Cuando crea reglas de alertas, puede asociar un evento predefinido a un campo específico. Por ejemplo, cuando llega la fecha que se especifica en el campo o cuando cambia el contenido del campo. Como alternativa, puede asociar un evento a los registros en una página específica. Por ejemplo, se crea un registro o se elimina un registro.
 
 Cuando se produce el evento seleccionado para el campo, o para un registro de la página, se le envía una alerta. Por ejemplo, crea una regla en la que asocia el campo **Fecha de entrega** a una línea de pedido de compras específica con el evento **ha vencido hace tiempo**. Establece el período de tiempo en cinco días. En este caso se envía una alerta cinco días después de la fecha de entrega de dicha línea de pedido de compra.
@@ -56,9 +59,11 @@ Cuando se produce el evento seleccionado para el campo, o para un registro de la
 Además, puede limitar las reglas de alertas estableciendo condiciones. Por ejemplo, puede recibir una alerta acerca de los nuevos pedidos de compra que se crean para las cuentas de proveedor específicas.
 
 ## <a name="preparing-for-an-alert"></a>Preparación para una alerta
+
 Antes de configurar una regla de alerta, decida cuándo o en qué situaciones desea recibir las alertas. Cuando sepa acerca de qué evento desea que se le avise, en Finance and Operations, encuentre la página en donde aparecen los datos que provocan la aparición del evento. El evento puede ser una fecha que llega o un cambio específico que se produce. Por tanto, debe buscar la página donde se especifica la fecha o donde se muestra el campo que cambia o el registro nuevo. Cuando tenga esta información, puede crear la regla de alerta.
 
 ## <a name="components-of-an-alert-rule"></a>Componentes de una regla de alertas
+
 Una regla de alertas tiene cinco componentes:
 
 - **Evento**: El evento que desencadena una regla de alertas puede ser una fecha que llega o un cambio específico que se produce. Defina eventos en la ficha desplegable **Enviar alertas de correo electrónico para los cambios de estado de los trabajos** del cuadro **Crear regla de alertas**.
@@ -71,5 +76,6 @@ Una regla de alertas tiene cinco componentes:
     > Esta opción se limita a los administradores de la organización.
 
 ## <a name="email-notifications-from-alerts"></a>Notificaciones por correo electrónico de alertas
+
 Las notificaciones por correo electrónico de alertas aún no están habilitadas. Esto se habilitará en una actualización futura.
 
