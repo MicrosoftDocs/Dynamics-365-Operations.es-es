@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 2b536ad4f29a3bb76294ef2fba30c529c24f1375
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 8b78762ce70b318e1f77e1e49ffaa7b72f01667f
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -42,25 +42,30 @@ ms.lasthandoff: 08/09/2018
 <span data-ttu-id="c8636-112">Esta página ofrece vínculos a la documentación pertinente relacionada con la configuración, y el uso funcional de las características del centro de asistencia telefónica de Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="c8636-112">This page provides links to relevant documentation related to the setup, configuration, and functional use of the call center features in Dynamics 365 for Retail.</span></span>
 
 ## <a name="configure-the-call-center"></a><span data-ttu-id="c8636-113">Configure el centro de llamadas</span><span class="sxs-lookup"><span data-stu-id="c8636-113">Configure the call center</span></span>
+
 [<span data-ttu-id="c8636-114">Configurar opciones de procesamiento de pedidos</span><span class="sxs-lookup"><span data-stu-id="c8636-114">Set up order processing options</span></span>](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a><span data-ttu-id="c8636-115">Configurar el procesamiento de pedidos</span><span class="sxs-lookup"><span data-stu-id="c8636-115">Configure order processing</span></span>
+
 [<span data-ttu-id="c8636-116">Configurar alertas de fraude</span><span class="sxs-lookup"><span data-stu-id="c8636-116">Set up fraud alerts</span></span>](set-up-fraud-alerts.md)
 
 [<span data-ttu-id="c8636-117">Retenciones de pedidos manuales</span><span class="sxs-lookup"><span data-stu-id="c8636-117">Manual Order Holds</span></span>](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a><span data-ttu-id="c8636-118">Configurar procesamiento de pagos</span><span class="sxs-lookup"><span data-stu-id="c8636-118">Configure payment processing</span></span>
+
 [<span data-ttu-id="c8636-119">Métodos de pago en un centro de llamadas</span><span class="sxs-lookup"><span data-stu-id="c8636-119">Payment methods in a call center</span></span>](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a><span data-ttu-id="c8636-120">Configurar modos de entrega</span><span class="sxs-lookup"><span data-stu-id="c8636-120">Configure delivery modes</span></span>
+
 [<span data-ttu-id="c8636-121">Configurar modos y cargos de entrega del centro de llamadas</span><span class="sxs-lookup"><span data-stu-id="c8636-121">Configure call center delivery modes and charges</span></span>](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a><span data-ttu-id="c8636-122">Configurar marketing directo</span><span class="sxs-lookup"><span data-stu-id="c8636-122">Configure direct marketing</span></span>
+
 [<span data-ttu-id="c8636-123">Catálogos de centros de llamadas</span><span class="sxs-lookup"><span data-stu-id="c8636-123">Call center catalogs</span></span>](call-center-catalogs.md)
 
 [<span data-ttu-id="c8636-124">Configurar análisis de RFM</span><span class="sxs-lookup"><span data-stu-id="c8636-124">Set up RFM analysis</span></span>](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a><span data-ttu-id="c8636-125">Configurar programas de continuidad</span><span class="sxs-lookup"><span data-stu-id="c8636-125">Configure continuity programs</span></span>
-[<span data-ttu-id="c8636-126">Configurar un programa de continuidad para un centro de llamadas</span><span class="sxs-lookup"><span data-stu-id="c8636-126">Set up a continuity program for a call center</span></span>](set-up-continuity-program.md)
 
+[<span data-ttu-id="c8636-126">Configurar un programa de continuidad para un centro de llamadas</span><span class="sxs-lookup"><span data-stu-id="c8636-126">Set up a continuity program for a call center</span></span>](set-up-continuity-program.md)
 

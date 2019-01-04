@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
 ms.contentlocale: es-es
-ms.lasthandoff: 11/13/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -40,6 +40,7 @@ ms.lasthandoff: 11/13/2018
 ![Entidades de diseño de pantalla de PDV](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a><span data-ttu-id="dfd4d-108">Perfil visual</span><span class="sxs-lookup"><span data-stu-id="dfd4d-108">Visual profile</span></span>
+
 <span data-ttu-id="dfd4d-109">Los perfiles visuales se asignan a registros y especifican los elementos visuales que son específicos del registro y que se comparten entre los usuarios.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-109">Visual profiles are assigned to registers, and they specify the visual elements that are register-specific and shared across users.</span></span> <span data-ttu-id="dfd4d-110">Cada usuario que inicia sesión en el registro ve el mismo tema, colores e imágenes.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-110">Every user who signs in to the register sees the same theme, colors, and images.</span></span>
 
 ![Pantalla de bienvenida de PDV con tema claro](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ ms.lasthandoff: 11/13/2018
 - <span data-ttu-id="dfd4d-123">**Fondo de la aplicación** – Puede especificar una imagen de fondo que se utiliza en lugar del color liso del tema en toda la aplicación.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-123">**Application background** – You can specify a background image that is used instead of the solid theme color throughout the application.</span></span> <span data-ttu-id="dfd4d-124">En cuanto a los fondos de inicio de sesión, el tamaño del archivo debe mantenerse lo más pequeño posible.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-124">As for login backgrounds, the file size should be kept as small as possible.</span></span>
 
 ## <a name="screen-layouts"></a><span data-ttu-id="dfd4d-125">Diseños de pantalla</span><span class="sxs-lookup"><span data-stu-id="dfd4d-125">Screen layouts</span></span>
+
 <span data-ttu-id="dfd4d-126">Las configuraciones del diseño de pantalla determinan las acciones, el contenido y la posición de los controles de la interfaz de usuario en la pantalla de bienvenida del PDV y en la pantalla **Transacción**.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-126">Screen layout configurations determine the actions, content, and placement of UI controls on the POS welcome screen and **Transaction** screen.</span></span>
 
 ![Vista Diseño de pantalla de PDV](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ ms.lasthandoff: 11/13/2018
 ![Tamaños de diseño de PDV](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a><span data-ttu-id="dfd4d-163">Cuadrículas de botones</span><span class="sxs-lookup"><span data-stu-id="dfd4d-163">Button grids</span></span>
+
 <span data-ttu-id="dfd4d-164">Para cada tamaño de diseño de un diseño de pantalla, puede configurar y asignar cuadrículas de botones para la pantalla de bienvenida de PDV y la pantalla **Transacción**.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-164">For each layout size in a screen layout, you can configure and assign button grids for the POS welcome screen and **Transaction** screen.</span></span> <span data-ttu-id="dfd4d-165">Las cuadrículas de botones para la pantalla de bienvenida se disponen automáticamente de izquierda a derecha, del número inferior (pantalla de bienvenida 1) al número más alto.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-165">Button grids for the welcome screen are automatically laid out from left to right, from the lowest number (Welcome screen 1) to the highest number.</span></span>
 
 <span data-ttu-id="dfd4d-166">En diseños de PDV completa, la colocación de las cuadrículas de botones se especifica en el diseñador de pantalla.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-166">In Full POS layouts, the placement of button grids is specified in the screen layout designer.</span></span>
@@ -104,6 +107,7 @@ ms.lasthandoff: 11/13/2018
 ![Cuadrículas de botones de diseño compacto](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a><span data-ttu-id="dfd4d-170">Imágenes</span><span class="sxs-lookup"><span data-stu-id="dfd4d-170">Images</span></span>
+
 <span data-ttu-id="dfd4d-171">Para cada tamaño de diseño de un diseño de pantalla, puede especificar imágenes para incluirlas en la interfaz de usuario del sistema PDV.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-171">For each layout size in a screen layout, you can specify images to include in the POS UI.</span></span> <span data-ttu-id="dfd4d-172">Para los diseños de PDV completos, se puede especificar una sola imagen para la pantalla de bienvenida.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-172">For Full POS layouts, a single image can be specified for the welcome screen.</span></span> <span data-ttu-id="dfd4d-173">En la izquierda aparece una imagen como el primer elemento de la interfaz de usuario.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-173">This image appears as the first UI element on the left.</span></span> <span data-ttu-id="dfd4d-174">En la pantalla **Transacción**, las imágenes se pueden utilizar como imágenes de pestaña o como un logotipo.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-174">On the **Transaction** screen, images can be used as tab images or as a logo.</span></span> <span data-ttu-id="dfd4d-175">Los diseños de PDV compactos no utilizan estas imágenes.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-175">Compact POS layouts don't use these images.</span></span>
 
 ### <a name="screen-layout-designer"></a><span data-ttu-id="dfd4d-176">Diseñador de pantalla</span><span class="sxs-lookup"><span data-stu-id="dfd4d-176">Screen layout designer</span></span>
@@ -141,11 +145,13 @@ ms.lasthandoff: 11/13/2018
     - <span data-ttu-id="dfd4d-222">**Control personalizado** – El control personalizado actúa como un marcador de posición en el diseño de pantalla y le permite reservar espacio para el contenido personalizado.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-222">**Custom control** – The custom control acts as a placeholder in the screen layout and lets you reserve space for custom content.</span></span> <span data-ttu-id="dfd4d-223">El control personalizado solo está disponible en los diseños completos.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-223">The custom control is available only for Full layouts.</span></span>
 
 ### <a name="compact-layout-designer"></a><span data-ttu-id="dfd4d-224">Diseñador de diseño compacto</span><span class="sxs-lookup"><span data-stu-id="dfd4d-224">Compact layout designer</span></span>
+
 <span data-ttu-id="dfd4d-225">Al igual que el diseñador de diseño completo, el diseñador de diseño compacto le permite configurar el diseño de pantalla de PDV para teléfonos y tabletas pequeñas.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-225">Like the Full layout designer, the Compact layout designer lets you configure the POS screen layout for phones and small tablets.</span></span> <span data-ttu-id="dfd4d-226">Sin embargo, en este caso, el diseño en sí es fijo.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-226">However, in this case, the layout itself is fixed.</span></span> <span data-ttu-id="dfd4d-227">Puede configurar los controles en el diseño haciendo clic con el botón derecho y usando el menú contextual.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-227">You can configure the controls in the layout by right-clicking and using the shortcut menu.</span></span> <span data-ttu-id="dfd4d-228">Sin embargo, no puede usar la función de arrastrar y colocar para contenido adicional.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-228">However, you can't use drag-and-drop operations for additional content.</span></span>
 
 ![Diseñador de diseño compacto](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a><span data-ttu-id="dfd4d-230">Diseñador de cuadrícula de botones</span><span class="sxs-lookup"><span data-stu-id="dfd4d-230">Button grid designer</span></span>
+
 <span data-ttu-id="dfd4d-231">El diseñador de cuadrícula de botones le permite configurar botones de cuadrícula que se pueden usar en la pantalla de bienvenida de PDV y la pantalla **Transacción** para diseños completos y compactos.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-231">The button grid designer lets you configure button grids that can be used on the POS welcome screen and **Transaction** screen for both Full and Compact layouts.</span></span> <span data-ttu-id="dfd4d-232">La misma cuadrícula de botones se puede usar en diseños y tipos de diseño.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-232">The same button grid can be used across layouts and layout types.</span></span> <span data-ttu-id="dfd4d-233">Al igual que el diseñador de pantalla, el diseño de cuadrícula de botones emplea la tecnología de implementación ClickOnce para descargar, instalar e iniciar la última versión de la aplicación cada vez que los usuarios acceden a ella.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-233">Like the screen layout designer, the button grid designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</span></span> <span data-ttu-id="dfd4d-234">Asegúrese de comprobar los requisitos del explorador para ClickOnce.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-234">Be sure to check the browser requirements for ClickOnce.</span></span> <span data-ttu-id="dfd4d-235">Algunos exploradores, como Google Chrome, requieren extensiones.</span><span class="sxs-lookup"><span data-stu-id="dfd4d-235">Some browsers, such as Google Chrome, require extensions.</span></span>
 
 ![Diseñador de cuadrícula de botones](../retail/media/Button-Grid-Designer.png)
