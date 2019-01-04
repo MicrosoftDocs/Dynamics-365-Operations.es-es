@@ -40,6 +40,7 @@ La siguiente ilustración muestra las relaciones entre las distintas entidades q
 ![Entidades de diseño de pantalla de PDV](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Perfil visual
+
 Los perfiles visuales se asignan a registros y especifican los elementos visuales que son específicos del registro y que se comparten entre los usuarios. Cada usuario que inicia sesión en el registro ve el mismo tema, colores e imágenes.
 
 ![Pantalla de bienvenida de PDV con tema claro](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ Los perfiles visuales se asignan a registros y especifican los elementos visuale
 - **Fondo de la aplicación** – Puede especificar una imagen de fondo que se utiliza en lugar del color liso del tema en toda la aplicación. En cuanto a los fondos de inicio de sesión, el tamaño del archivo debe mantenerse lo más pequeño posible.
 
 ## <a name="screen-layouts"></a>Diseños de pantalla
+
 Las configuraciones del diseño de pantalla determinan las acciones, el contenido y la posición de los controles de la interfaz de usuario en la pantalla de bienvenida del PDV y en la pantalla **Transacción**.
 
 ![Vista Diseño de pantalla de PDV](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ Al iniciar, la aplicación del PDV selecciona automáticamente el tamaño de dis
 ![Tamaños de diseño de PDV](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Cuadrículas de botones
+
 Para cada tamaño de diseño de un diseño de pantalla, puede configurar y asignar cuadrículas de botones para la pantalla de bienvenida de PDV y la pantalla **Transacción**. Las cuadrículas de botones para la pantalla de bienvenida se disponen automáticamente de izquierda a derecha, del número inferior (pantalla de bienvenida 1) al número más alto.
 
 En diseños de PDV completa, la colocación de las cuadrículas de botones se especifica en el diseñador de pantalla.
@@ -104,6 +107,7 @@ En diseños de PDV compacto, las cuadrículas de botones se disponen automática
 ![Cuadrículas de botones de diseño compacto](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a>Imágenes
+
 Para cada tamaño de diseño de un diseño de pantalla, puede especificar imágenes para incluirlas en la interfaz de usuario del sistema PDV. Para los diseños de PDV completos, se puede especificar una sola imagen para la pantalla de bienvenida. En la izquierda aparece una imagen como el primer elemento de la interfaz de usuario. En la pantalla **Transacción**, las imágenes se pueden utilizar como imágenes de pestaña o como un logotipo. Los diseños de PDV compactos no utilizan estas imágenes.
 
 ### <a name="screen-layout-designer"></a>Diseñador de pantalla
@@ -141,11 +145,13 @@ El diseñador completo permite a los usuarios arrastrar controles de la interfaz
     - **Control personalizado** – El control personalizado actúa como un marcador de posición en el diseño de pantalla y le permite reservar espacio para el contenido personalizado. El control personalizado solo está disponible en los diseños completos.
 
 ### <a name="compact-layout-designer"></a>Diseñador de diseño compacto
+
 Al igual que el diseñador de diseño completo, el diseñador de diseño compacto le permite configurar el diseño de pantalla de PDV para teléfonos y tabletas pequeñas. Sin embargo, en este caso, el diseño en sí es fijo. Puede configurar los controles en el diseño haciendo clic con el botón derecho y usando el menú contextual. Sin embargo, no puede usar la función de arrastrar y colocar para contenido adicional.
 
 ![Diseñador de diseño compacto](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Diseñador de cuadrícula de botones
+
 El diseñador de cuadrícula de botones le permite configurar botones de cuadrícula que se pueden usar en la pantalla de bienvenida de PDV y la pantalla **Transacción** para diseños completos y compactos. La misma cuadrícula de botones se puede usar en diseños y tipos de diseño. Al igual que el diseñador de pantalla, el diseño de cuadrícula de botones emplea la tecnología de implementación ClickOnce para descargar, instalar e iniciar la última versión de la aplicación cada vez que los usuarios acceden a ella. Asegúrese de comprobar los requisitos del explorador para ClickOnce. Algunos exploradores, como Google Chrome, requieren extensiones.
 
 ![Diseñador de cuadrícula de botones](../retail/media/Button-Grid-Designer.png)

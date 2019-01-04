@@ -35,21 +35,19 @@ Puede supervisar ventas y rendimiento de margen en tiempo real con Microsoft Dyn
 
 Como parte de Dynamics 365 for Retail, los usuarios pueden supervisar las ventas y el rendimiento de margen en tiempo real en diferentes niveles de la jerarquía organizativa para las siguientes dimensiones:
 
--   Productos
--   Categorías
--   Descuentos
--   Años como período de tiempo
--   Registros o terminales
--   Personal o empleados
--   Clientes
--   Unidades operativas
+- Productos
+- Categorías
+- Descuentos
+- Años como período de tiempo
+- Registros o terminales
+- Personal o empleados
+- Clientes
+- Unidades operativas
 
 Además, dos informes únicos que se aprovechan de la estructuración de cuadrícula jerárquica permiten a los usuarios supervisar las ventas y el rendimiento de margen explorando en profundidad desde el nodo de la categoría superior hasta los nodos de hoja individuales de la jerarquía de categoría de productos de venta minorista predeterminada. Los usuarios también pueden explorar en profundidad la unidad operativa superior hasta un canal individual de la jerarquía organizativa que se define como la jerarquía organizativa predeterminada para fines de la jerarquía de informes de venta minorista. Puede abrir los informes desde cualquiera de las ubicaciones siguientes:
 
--   Espacio de trabajo **Gestión de tienda de venta minorista** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes**
--   Espacio de trabajo **Gestión de producto y categoría** &gt; **Retail** &gt; **Producto y categorías** &gt; **Gestión de tienda de venta** &gt; **Informes**
--   Espacio de trabajo **Administración de precios y descuentos** &gt; **Retail** &gt; **Precios y descuentos** &gt; **Gestión de tienda de venta minorista** &gt; **Informes**
--   Sección **Consultas e informes** &gt; **Retail** &gt; **Consultas e informes** &gt; **Informes de ventas**
-
-
+- Espacio de trabajo **Gestión de tienda de venta minorista** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes**
+- Espacio de trabajo **Gestión de producto y categoría** &gt; **Retail** &gt; **Producto y categorías** &gt; **Gestión de tienda de venta** &gt; **Informes**
+- Espacio de trabajo **Administración de precios y descuentos** &gt; **Retail** &gt; **Precios y descuentos** &gt; **Gestión de tienda de venta minorista** &gt; **Informes**
+- Sección **Consultas e informes** &gt; **Retail** &gt; **Consultas e informes** &gt; **Informes de ventas**
 

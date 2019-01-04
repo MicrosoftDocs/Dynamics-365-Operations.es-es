@@ -31,20 +31,18 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-Puede estudiar la rentabilidad de los 10 productos principales mediante Microsoft Dynamics 365 for Retail. 
+Puede estudiar la rentabilidad de los 10 productos principales mediante Microsoft Dynamics 365 for Retail.
 
 Como parte de Dynamics 365 for Retail, los usuarios también pueden estudiar la rentabilidad de los productos principales (10 a 100) en distintos niveles de la jerarquía organizativa, en función de uno de los criterios siguientes:
 
--   Importe de venta
--   Cantidad
--   Margen de beneficio bruto
--   Porcentaje de margen
+- Importe de venta
+- Cantidad
+- Margen de beneficio bruto
+- Porcentaje de margen
 
 Para esta evaluación, puede usar el informe listo para usar **Productos principales** report, which you can open from any of the following locations:
 
--   Espacio de trabajo **Gestión de tienda de venta minorista** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de productos principales**
--   Espacio de trabajo **Gestión de categoría y productos** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de productos principales**
--   Sección **Consultas e informes** &gt; **Retail** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de productos principales**
-
-
+- Espacio de trabajo **Gestión de tienda de venta minorista** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de productos principales**
+- Espacio de trabajo **Gestión de categoría y productos** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de productos principales**
+- Sección **Consultas e informes** &gt; **Retail** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de productos principales**
 

@@ -42,25 +42,30 @@ Además de admitir la creación de pedidos, el módulo de centro de asistencia t
 Esta página ofrece vínculos a la documentación pertinente relacionada con la configuración, y el uso funcional de las características del centro de asistencia telefónica de Dynamics 365 for Retail.
 
 ## <a name="configure-the-call-center"></a>Configure el centro de llamadas
+
 [Configurar opciones de procesamiento de pedidos](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Configurar el procesamiento de pedidos
+
 [Configurar alertas de fraude](set-up-fraud-alerts.md)
 
 [Retenciones de pedidos manuales](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Configurar procesamiento de pagos
+
 [Métodos de pago en un centro de llamadas](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Configurar modos de entrega
+
 [Configurar modos y cargos de entrega del centro de llamadas](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a>Configurar marketing directo
+
 [Catálogos de centros de llamadas](call-center-catalogs.md)
 
 [Configurar análisis de RFM](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Configurar programas de continuidad
-[Configurar un programa de continuidad para un centro de llamadas](set-up-continuity-program.md)
 
+[Configurar un programa de continuidad para un centro de llamadas](set-up-continuity-program.md)
 

@@ -66,7 +66,7 @@ La experiencia de la búsqueda de producto local es ahora más sencilla. Se real
 - Ahora los distribuidores pueden configurar la búsqueda de productos para que se muestren sugerencias a medida que el usuario escribe el nombre del producto. Una nueva configuración para esta funcionalidad está disponible en el perfil de funcionalidades de PDV, en un grupo denominado **Búsqueda de producto**. Esta configuración se llama **Mostrar las sugerencias de búsqueda mientras se escribe**. Esta función puede ayudar a sus empleados a buscar rápidamente el producto que quieran, ya que no tienen que escribir todo el nombre de forma manual.
 - El algoritmo de búsqueda de productos también busca términos en la propiedad de producto **Nombre de búsqueda**.
 
-![Sugerencias de producto](./media/Productsuggestions.png "Sugerencias de producto")
+    ![Sugerencias de producto](./media/Productsuggestions.png "Sugerencias de producto")
 
 ## <a name="customer-search"></a>Búsqueda de clientes
 

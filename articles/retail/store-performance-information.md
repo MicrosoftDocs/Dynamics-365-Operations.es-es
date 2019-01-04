@@ -31,21 +31,19 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-Este artículo explica cómo puede usar los análisis en memoria y en tiempo real para tener acceso, explorar y obtener información acerca del rendimiento de la tienda, en función de sus datos de Microsoft Dynamics 365 for Retail. 
+Este artículo explica cómo puede usar los análisis en memoria y en tiempo real para tener acceso, explorar y obtener información acerca del rendimiento de la tienda, en función de sus datos de Microsoft Dynamics 365 for Retail.
 
 Como parte de Dynamics 365 for Retail, los usuarios pueden estudiar el rendimiento de la tienda en tiempo real en distintos niveles de la jerarquía organizativa durante un período seleccionado abriendo el informe listo para usar **Resumen del canal** desde cualquiera de las siguientes ubicaciones:
 
--   Espacio de trabajo **Gestión de tienda de venta minorista** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de resumen de canal**
--   Espacio de trabajo **Operaciones financieras de tienda** &gt; **Retail** &gt; **Canales** &gt; **Operaciones financieras de tienda** &gt; **Informes** &gt; **Informe de resumen de canal**
--   Sección **Consultas e informes** &gt; **Retail** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de resumen de canal**
+- Espacio de trabajo **Gestión de tienda de venta minorista** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de resumen de canal**
+- Espacio de trabajo **Operaciones financieras de tienda** &gt; **Retail** &gt; **Canales** &gt; **Operaciones financieras de tienda** &gt; **Informes** &gt; **Informe de resumen de canal**
+- Sección **Consultas e informes** &gt; **Retail** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de resumen de canal**
 
 Este informe proporciona una instantánea de los resúmenes siguientes como parte de rendimiento de la tienda:
 
--   Resumen de ventas brutas
--   Resumen de tipo de forma de pago
--   Resumen de impuestos
--   Resumen del reemplazo de precios
--   Resumen de descuentos
-
-
+- Resumen de ventas brutas
+- Resumen de tipo de forma de pago
+- Resumen de impuestos
+- Resumen del reemplazo de precios
+- Resumen de descuentos
 
