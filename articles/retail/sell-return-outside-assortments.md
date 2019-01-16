@@ -19,10 +19,10 @@ ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 17981cef401085ad3af784950fff6260c2c6d9ee
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -31,14 +31,15 @@ ms.lasthandoff: 08/09/2018
 [!include [banner](includes/banner.md)]
 
 Un escenario común para cualquier minorista es vender productos a sus clientes o aceptar devoluciones de sus clientes aunque no contienen productos concretos en su tienda (es decir los productos no se sirven a la tienda).
+
 Aquí hay algunas situaciones habituales:
 
 + Un minorista no vende todos sus productos en una tienda específica. Los productos restantes se almacenan en el almacén. El dependiente puede ayudar al cliente buscando los productos en el almacén, agregarlos al carro, y completar la compra seleccionando un método de entrega, como envío a una dirección desde el almacén o dejar que el cliente recoja el artículo de la tienda actual o de otra tienda.
 + Un minorista no vende productos específicos en la tienda o no los tiene en existencias en la tienda visitada por el cliente, pero los productos están disponibles en otras tiendas. El dependiente puede ayudar al cliente buscando los productos en otra tienda, agregarlos al carro y completar la compra seleccionando un método de entrega.
 + Un minorista tiene muchas tiendas en una ciudad o un código postal específicos y no desea exigir a los clientes que devuelvan productos a la misma tienda en la que los compraron. En lugar de ello, los clientes pueden devolver productos a cualquier tienda.
 
-
 Esos escenarios comunes están disponibles para los minoristas mediante Dynamics 365 for Retail. Con Retail, puede:
+
 + Buscar o examinar productos en otras tiendas.
 + Buscar o examinar todos los productos ofertados.
 + Crear transacciones al contado o pedidos de cliente.

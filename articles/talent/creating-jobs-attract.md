@@ -3,7 +3,7 @@ title: Crear, aprobar y publicar trabajos en Attract
 description: "Este tema describe los elementos de un trabajo en Attract. También se explica cómo crear un trabajo."
 author: josaw
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 12/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: af945042c150fff1a95cdb046f2a712cb2c2c061
+ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
+ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
 ms.contentlocale: es-es
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/23/2018
 
 ---
 
@@ -75,7 +75,25 @@ Para obtener más información sobre las actividades que se pueden agregar al pr
 
 ## <a name="postings"></a>Registros
 
-Después de que se active un trabajo, este se puede registrar. Solo los reclutadores y los administradores pueden registrar trabajos. El trabajo se puede registrar en Talent Careers (un sitio de carreras de Microsoft Dynamics 365 for Talent) o LinkedIn. El equipo de Attract trabaja continuamente para asociarse con los agregadores del tablero de trabajo. Por lo tanto, esta lista se expandirá con el tiempo.
+Después de que se active un trabajo, este se puede registrar. Solo los reclutadores y los administradores pueden registrar trabajos. El trabajo se puede registrar en Talent Careers (un sitio de carreras de Microsoft Dynamics 365 for Talent) o LinkedIn. 
+
+> [!NOTE]
+> Existen tres elementos importantes que hay que tener en cuenta sobre el proceso de oferta de empleo en LinkedIn.
+> 1. Los trabajos enviados a LinkedIn se registran como trabajos de "listas limitadas”. Los trabajos de listas limitadas no se pueden promocionar por todo el sitio de LinkedIn. Si desea promocionar trabajos de listas limitadas enviados a LinkedIn desde Attract, debe trabajar con LinkedIn para habilitar el “ajuste de trabajo”. Consulte los vínculos siguientes y póngase en contacto con el soporte de LinkedIn para obtener más detalles.
+>
+>    [Listas limitadas y registros de trabajos premium para el ajuste de trabajo](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
+>
+>    [Preguntas más frecuentes de ajuste de trabajo](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
+>
+> 1. Al registrar trabajos en LinkedIn, Attract pasa el nombre de la organización Microsoft 365 con el trabajo. LinkedIn vincula los trabajos a una empresa en el lado de LinkedIn basándose en el nombre de la organización que se pasa. Si su trabajo se muestra con la empresa errónea en LinkedIn, compruebe que su nombre de la organización de Microsoft 365 coincide con el nombre de la empresa en LinkedIn.  
+>
+>    [Cambio de dirección de contacto y más](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
+>
+>    Si tiene problemas después de que este paso, contacte con el soporte de LinkedIn. 
+> 
+> 1. Puede tardar hasta 24 horas que los trabajos enviados a LinkedIn estén visibles para candidatos de dentro de LinkedIn, como consecuencia del proceso de registro actual de trabajos por lotes de LinkedIn.
+
+El equipo de Attract trabaja continuamente para asociarse con los agregadores tableros de trabajo. Esta lista se expandirá con el tiempo.
 
 Para obtener más información acerca de registros de trabajo, consulte [La funcionalidad del sitio de carreras en Attract](./career-site.md).
 

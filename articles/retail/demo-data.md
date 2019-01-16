@@ -20,10 +20,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 41930e89a7cae5cdb84e728da47de3bc5de312ca
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -41,7 +41,7 @@ Los diseños de pantalla de ejemplo que se incluyen con datos de demostración d
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Anatomía de un identificador de diseño de pantalla
 
-Para encontrar diseños de pantalla en Retail, vaya a **Venta minorista** > **Configuración del canal** > **Configuración de PDV** > **PDV** > **Diseños de pantalla**.
+Para encontrar diseños de pantalla en Retail, vaya a **Venta minorista** \> **Configuración del canal** \> **Configuración de PDV** \> **PDV** \> **Diseños de pantalla**.
 
 ![Página de diseños de pantalla en Retail](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,10 +107,8 @@ En la tabla siguiente se muestran los tamaños de diseño que se ofrecen para re
 
 \* Estos tamaños de diseño adicionales solo están disponibles en los diseños de Adventure Works y de Fabrikam.
 
-
->[!TIP]
-> PDV selecciona automáticamente los tamaños de diseño, en función del tamaño más cercano disponible para la resolución de pantalla de la ventana de la aplicación actual. Para buscar el identificador de diseño de pantalla y la resolución de diseño que se usan actualmente, en Retail Modern POS (MPOS) o Retail Cloud POS (CPOS), abra la página **Valores** , y busque en la sección **Información sobre la sesión**. También puede ver la resolución real de la ventana para la aplicación o el marco del explorador actual. Cuando tenga esta información, puede buscar el origen del contenido de diseño en Retail yendo a **Configuración de canal** > **Configuración de PDV** > **PDV** > **Diseños de pantalla**.
-
+> [!TIP]
+> PDV selecciona automáticamente los tamaños de diseño, en función del tamaño más cercano disponible para la resolución de pantalla de la ventana de la aplicación actual. Para buscar el identificador de diseño de pantalla y la resolución de diseño que se usan actualmente, en Retail Modern POS (MPOS) o Retail Cloud POS (CPOS), abra la página **Valores** , y busque en la sección **Información sobre la sesión**. También puede ver la resolución real de la ventana para la aplicación o el marco del explorador actual. Cuando tenga esta información, puede buscar el origen del contenido de diseño en Retail yendo a **Configuración de canal** \> **Configuración de PDV** \> **PDV** \> **Diseños de pantalla**.
 
 ![Diseños de pantalla y resoluciones/tamaños del diseño en Retail y PDV](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -126,10 +124,8 @@ Cada compañía ficticia está dirigida a un segmento de venta minorista distint
 | Fabrikam        | Houston  | Moda        | Verde  | Claro |
 | Contoso         | Boston   | Electrónica    | Rojo    | Oscuro  |
 
-
->[!NOTE]
+> [!NOTE]
 > Adventure Works y Fabrikam son las dos marcas insignia. Contoso está disponible, pero no se han proporcionado todos los diseños.
-
 
 Las siguientes ilustraciones muestran ejemplos de la página de bienvenida y la página de transacción para las tres empresas ficticias.
 
@@ -153,28 +149,26 @@ Las siguientes ilustraciones muestran ejemplos de la página de bienvenida y la 
 
 Se han proporcionado usuarios para los distintos diseños de pantalla. Mediante la tabla siguiente, debe poder obtener acceso a cualquiera de las pantallas. Inicie sesión mediante un identificador de operador adecuado.
 
-| Compañía         | Id. de diseño de pantalla | Rol          | Id. de operador           |
-|-----------------|------------------|---------------   |------------------------|
-| Adventure Works | A3MGR            | Encargado de tienda    | 000154, 000137, 000073 |
-| Adventure Works | A3CSH            | Cajero          | 000150, 000175, 000165 |
-| Adventure Works | A3STK            | Reponedor      | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Encargado de tienda    | 000160, 000168, 000163 |
-| Fabrikam        | F3CSH            | Cajero          | 000161, 000113, 000114 |
-| Fabrikam        | F3STK            | Reponedor      | 000164, 000112, 000123 |
-| Contoso         | C3MGR            | Encargado de tienda    | 000100, 000111         |
-| Contoso         | C3CSH            | Cajero          | 000110, 000120         |
-| Contoso         | No aplicable   | Reponedor      | No aplicable         |
+| Compañía         | Id. de diseño de pantalla | Rol       | Id. de operador           |
+|-----------------|------------------|---------------|------------------------|
+| Adventure Works | A3MGR            | Encargado de tienda | 000154, 000137, 000073 |
+| Adventure Works | A3CSH            | Cajero       | 000150, 000175, 000165 |
+| Adventure Works | A3STK            | Reponedor   | 000155, 000181, 000152 |
+| Fabrikam        | F3MGR            | Encargado de tienda | 000160, 000168, 000163 |
+| Fabrikam        | F3CSH            | Cajero       | 000161, 000113, 000114 |
+| Fabrikam        | F3STK            | Reponedor   | 000164, 000112, 000123 |
+| Contoso         | C3MGR            | Encargado de tienda | 000100, 000111         |
+| Contoso         | C3CSH            | Cajero       | 000110, 000120         |
+| Contoso         | No aplicable   | Reponedor   | No aplicable         |
 
-
->[!TIP]
+> [!TIP]
 > Para obtener los mejores resultados, active un registro en la ubicación de tienda correspondiente, y establezca la empresa como la empresa del rol que planea usar al iniciar sesión. De esta manera, usted ayuda a garantizar que el perfil visual y las imágenes de marca están alineadas en toda la experiencia. Por ejemplo, si está interesado en ver un diseño Fabrikam para un cajero, debe activar un registro en la tienda de Houston.
-
 
 <!-- Hiding until the content page is available on CustomerSource -->
 
 <!-- ## Reference icons and images -->
 
-<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail > Channel setup > POS setup > POS > Images**. -->
+<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail \> Channel setup \> POS setup \> POS \> Images**. -->
 
 <!-- ![Images in Dynamics 365 for Retail](../retail/media/demo-screen-layouts-fig-5-1.png) -->
 

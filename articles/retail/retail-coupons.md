@@ -19,10 +19,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: c718a71ca270c67118a90456bac0cf182032d3db
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -32,13 +32,13 @@ ms.lasthandoff: 08/09/2018
 
 ## <a name="overview-of-coupons"></a>Visión general de los vales
 
-Los vales son códigos y códigos de barras que se usan para agregar descuentos al por menor a las transacciones. Cada vale puede tener varios códigos, y cada código puede tener sus propias fechas de vigencia. 
+Los vales son códigos y códigos de barras que se usan para agregar descuentos al por menor a las transacciones. Cada vale puede tener varios códigos, y cada código puede tener sus propias fechas de vigencia.
 
-Cada vale está relacionado con un descuento minorista. Los grupos de precios asociados al descuento definen a los clientes que pueden utilizar un vale o los canales donde es válido un vale. 
+Cada vale está relacionado con un descuento minorista. Los grupos de precios asociados al descuento definen a los clientes que pueden utilizar un vale o los canales donde es válido un vale.
 
 Esencialmente, los vales son una validación adicional a los descuentos minoristas. El vale proporciona los códigos y los códigos de barras obligatorios, así como los intervalos de fechas para dichos códigos. El vale también proporciona límites de uso opcionales y propiedades requeridas por el cliente. El descuento proporciona el conjunto de productos para los que es válido. Los grupos de precios para el descuento proporcionan el conjunto de clientes, canales o catálogos para los que el vale es válido.
 
-Para crear un vale, cree el descuento y el vale por separado. A continuación vincúlelos seleccionando el descuento en la página de vales en Microsoft Dynamics 365 for Retail. 
+Para crear un vale, cree el descuento y el vale por separado. A continuación vincúlelos seleccionando el descuento en la página de vales en Microsoft Dynamics 365 for Retail.
 
 > [!NOTE]
 > Después de que un vale se vincula a un descuento, varios campos en la página de descuentos en Microsoft Dynamics 365 for Retail se vuelven de sólo lectura, ya que son administrados mediante la configuración del vale. Estos campos incluyen los campos para estado y los intervalos de fechas estándar.
@@ -54,25 +54,25 @@ El límite se aplica por el código de vale. Por ejemplo, un cupón de un solo u
 
 ## <a name="managing-coupons"></a>Administrar vales
 
-Debe crear el descuento y el vale por separado. A continuación los vincula seleccionando el descuento en la página de vales. Después de vincular un vale a un descuento, varios campos del descuento se vuelven de solo lectura porque son administrados mediante la configuración del vale. Estos campos incluyen los campos para estado y los intervalos de fechas estándar.  
+Debe crear el descuento y el vale por separado. A continuación los vincula seleccionando el descuento en la página de vales. Después de vincular un vale a un descuento, varios campos del descuento se vuelven de solo lectura porque son administrados mediante la configuración del vale. Estos campos incluyen los campos para estado y los intervalos de fechas estándar.
 
 Esencialmente, los vales son ahora una validación adicional a los descuentos minoristas. El vale proporciona los códigos y los códigos de barras, así como los intervalos de fechas, los límites de uso y la propiedad exigida por el cliente. El descuento proporciona el conjunto de productos para los que es válido. Los grupos de precios del descuento proporcionan el conjunto de clientes, canales o catálogos para los que el vale es válido.
 
-## <a name="system-setup-for-coupons"></a>Configuración del sistema para vales 
+## <a name="system-setup-for-coupons"></a>Configuración del sistema para vales
 
-Para poder configurar un vale, debe configurar el código de barras del vale y dos secuencias numéricas de vales. 
+Para poder configurar un vale, debe configurar el código de barras del vale y dos secuencias numéricas de vales.
 
-1.  En la página **Caracteres de máscara**, cree un nuevo carácter de máscara para el código de vale. Puede seleccionar cualquier carácter que no se haya utilizado.
-2.  En la página **Configuración de máscara de código de barras**, cree una nueva máscara de código de barras. Establezca el campo **Tipo** en **Vale**.
-3.  En la página **Configuración de código de barras**, cree un nuevo código de barras que utilice la máscara de código de barras que acaba de crear.
-4.  En la página **Secuencias numéricas** , cree dos nuevas secuencias numéricas. Una secuencia es para el identificador del código de vale y la otra para el número de vale. El identificador del código de vale es el identificador único de cada código de vale. El número de vale es el identificador único de un vale. Cada vale puede tener varios códigos y códigos de barras que activan el vale.
+1. En la página **Caracteres de máscara**, cree un nuevo carácter de máscara para el código de vale. Puede seleccionar cualquier carácter que no se haya utilizado.
+2. En la página **Configuración de máscara de código de barras**, cree una nueva máscara de código de barras. Establezca el campo **Tipo** en **Vale**.
+3. En la página **Configuración de código de barras**, cree un nuevo código de barras que utilice la máscara de código de barras que acaba de crear.
+4. En la página **Secuencias numéricas** , cree dos nuevas secuencias numéricas. Una secuencia es para el identificador del código de vale y la otra para el número de vale. El identificador del código de vale es el identificador único de cada código de vale. El número de vale es el identificador único de un vale. Cada vale puede tener varios códigos y códigos de barras que activan el vale.
 
     > [!NOTE]
     > En ambas secuencias numéricas, debe establecer el campo **Ámbito** a **Empresa**. En la mayoría de los casos, debe generar automáticamente los dos números secuenciales.
 
-5.  En la página **Parámetros comerciales**, en la pestaña **Códigos de barras**, seleccione el código de barras que ha creado anteriormente.
-6.  En la página **Parámetros compartidos comerciales**, en la pestaña **Secuencias numéricas**, seleccione las secuencias numéricas que ha creado para el número de vale y el identificador del código de vale.
-7.  Ahora puede abrir la página **Vales** y crear vales nuevos.
+5. En la página **Parámetros comerciales**, en la pestaña **Códigos de barras**, seleccione el código de barras que ha creado anteriormente.
+6. En la página **Parámetros compartidos comerciales**, en la pestaña **Secuencias numéricas**, seleccione las secuencias numéricas que ha creado para el número de vale y el identificador del código de vale.
+7. Ahora puede abrir la página **Vales** y crear vales nuevos.
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>El efecto de las actualizaciones parciales en los vales
 

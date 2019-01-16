@@ -3,7 +3,7 @@ title: "Configuración de la gestión de ofertas"
 description: "Este tema describe cómo configurar ofertas en Talent."
 author: josaw
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fa2f2f9f67562524961352a87a7db49992776e46
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
 ms.contentlocale: es-es
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 # <a name="set-up-offer-management"></a>Configuración de la gestión de ofertas 
@@ -105,7 +105,7 @@ Para cargar el archivo de las reglas de los datos de la oferta haga lo siguiente
 
 1.  Puede eliminar una carga existente del conjunto de reglas si el marcador de posición que se define no se está utilizando en otra plantilla de documento.
 
->[!NOTES]
+>[!NOTE]
 > - Cada marcador solo puede tener un conjunto exclusivo de columnas de las que dependa. Por ejemplo, si **Sueldo anual** depende de **Ubicación de trabajo** y **Nivel**, no puede cargar a otro conjunto de reglas en el que **Sueldo anual** dependa de otro conjunto de columnas.
 
 > - Puede descargar conjuntos de reglas de los datos de la propuesta de muestra en la pestaña **Ejemplos** en la página **Reglas de datos de la oferta**.
@@ -136,7 +136,7 @@ Para crear una plantilla de documento de oferta, haga lo siguiente.
 
     - Poniendo un hashtag en el marcador de los datos de la propuesta directamente en el puesto. Escribiendo **\#** y después empezando a escribir el nombre del marcador de los datos de la propuesta. Las opciones aparecerán en la lista desplegable. Haga clic o pulse en **Entrar** para insertar el marcador de los datos de la propuesta.
 
-    >[!NOTES]
+    >[!NOTE]
     > - Para asociar un marcador a la plantilla de documento de oferta sin mostrar su valor al candidato, pase el mouse sobre el marcador de los datos de la propuesta y haga clic en el icono **Fijar**. Esto pasará el marcador a la sección **Datos de oferta anclados** de la plantilla de documento de la propuesta. Para desanclar, siga los mismos pasos pero haga clic en **Desanclar** en la lista de marcadores de posición de los datos de la propuesta.
 
     > - Para ver la lista de marcadores de posición de datos de la propuesta activos, cambie a la ficha **Activo** en el panel derecho.
@@ -175,7 +175,7 @@ Los paquetes de ofertas son artefactos de oferta que se comparten con el candida
 
 1.  Haga clic en **Agregar plantilla**.
 
-    >[!NOTES]
+    >[!NOTE]
     > - Puede elegir crear una plantilla nueva o seleccionar una ya existente.
 
     > - Si elige agregar una plantilla ya existente, tiene que asegurarse de que la plantilla de documento de la oferta se haya guardado, finalizado y marcado como activa.
@@ -198,8 +198,10 @@ Existen varias partes del proceso de creación de la oferta que un administrador
 
 - **Experiencia de la propuesta del candidato** - Como administrador, tiene la opción de establecer si todas las propuestas tienen una fecha de vencimiento, y si es así cuál tiene que ser el aplazamiento predeterminado para la fecha de vencimiento. También puede configurar si los candidatos pueden rechazar una propuesta.
 
-- **Firmas electrónicas** - Actualmente, la única opción de firma electrónica disponible para los candidatos es que estos escriban su nombre en el paquete de la propuesta mientras aceptan la propuesta. Presentaremos integraciones de asociados con otros proveedores de firma electrónica en el futuro.
+- **Firmas electrónicas** - Como administrador, puede elegir también el método que los candidatos pueden utilizar para firmar propuestas.
+    - Adobe Sign- Todos los paquetes de la propuesta se enviarán y firmarán mediante Adobe Sign. Cada creador de ofertas que publica la oferta necesita tener su licencia de Adobe Sign conectada a Attract. 
 
+    - ESign - ésta es la opción predeterminada, proporcionada lista para usar, donde el usuario puede firmar una oferta escribiendo su nombre e iniciales.
 
 Para obtener más información acerca del proceso de creación de la oferta, consulte [Crear, aprobar y firmar propuestas](./creating-offers.md).
 

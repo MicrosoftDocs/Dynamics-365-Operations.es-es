@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 918f8555bc3d2e4a79262b428d5c7ba278fa7409
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 08/09/2018
 [!include [banner](includes/banner.md)]
 
 *Atributos* proporciona una forma de describir adicionalmente un producto y sus características a través de campos definidos por el usuario (como **Tamaño de la memoria**, **Capacidad del disco duro**, **Cumple con Energy Star**, etc.). En Microsoft Dynamics 365 for Finance and Operations, los atributos se pueden asociar con las distintas entidades de Retail, como categorías de productos y canales de venta minorista, y se pueden definir valores predeterminados. A continuación, los productos heredan los atributos y los valores predeterminados para dichos atributos cuando se asocian a las categorías de productos o canales de venta minorista. Los valores predeterminados se pueden anular en el nivel de producto individual, en el nivel del canal de venta minorista o en un catálogo de venta minorista.
- 
+
 Por ejemplo, un producto de televisión típico puede tener los siguientes atributos.
 
 | Categoría   | Atributo                | Valores permitidos          | Valor predeterminado |
@@ -50,7 +50,7 @@ Por ejemplo, un producto de televisión típico puede tener los siguientes atrib
 | Plasma     | Temporalidad de operación desde      | 32–110 grados              | 32            |
 |            | Temporalidad de operación hasta        | 32–110 grados              | 100           |
 | Proyección | Garantía de tubo de proyección | 612 o 18 meses         | 12            |
-|            | # de tubos de proyección    | 1 – 5                         | 3             |
+|            | \# de tubos de proyección   | 1 – 5                         | 3             |
 
 ## <a name="attributes-and-attribute-types"></a>Atributos y tipos de atributo
 
@@ -90,7 +90,7 @@ Los atributos se basan en *tipos de atributo*. El tipo de atributo identifica el
 
 Para productos minoristas, la configuración de los metadatos del atributo se pueden anular en el nivel de canal. Esta capacidad discutirá más adelante en este tema.
 
-Como puede observar, la página **Atributos** incluye opciones relacionadas con los metadatos de los atributos. En **Metadatos del atributos para PDV**, una opción que se denomina **"Se puede refinar"** afecta al comportamiento de los valores de los atributos en el punto de venta (PDV) minorista o el modo en que el sistema trata esos valores de los atributos. Solo los atributos para los que puede establecer la opción **"Se puede refinar"** en **"Sí" “** aparecerán para el refinamiento o el filtrado de productos en el PDV comercial.
+Como puede observar, la página **Atributos** incluye opciones relacionadas con los metadatos de los atributos. En **Metadatos del atributos para PDV**, una opción que se denomina **"Se puede refinar"** afecta al comportamiento de los valores de los atributos en el punto de venta (PDV) minorista o el modo en que el sistema trata esos valores de los atributos. Solo los atributos para los que puede establecer la opción **"Se puede refinar"** en **"Sí" “** aparecerán para el refinamiento o el filtrado de productos en el POS comercial.
 
 Aquí se muestran las opciones restantes de los metadatos de atributos en la página **Atributos**:
 
@@ -104,7 +104,7 @@ Aquí se muestran las opciones restantes de los metadatos de atributos en la pá
 
 Estas opciones estaban pensadas originalmente para mejorar la funcionalidad de búsqueda para el escaparate en línea. Aunque Finance and Operations no incluye el escaparete en línea lista para usar, incluye el kit de desarrollo de software (SDK) de publicación de comercio electrónico. Los clientes pueden usar este SDK para poner productos en un índice de búsqueda de su elección. Aunque los datos del productos son importados, los clientes aún deben poder distinguir los datos que se pueden buscar, los datos que se pueden consultar, etc. De esa manera, pueden crear un índice óptimo para asegurarse de que solo indexan los atributos que, *en su opinión*, deben indexarse.
 
-Para obtener información acerca del propósito de estas opciones restantes, consulte [Visión general del esquema de búsqueda en SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj219669.aspx).
+Para obtener información acerca del propósito de estas opciones restantes, consulte [Visión general del esquema de búsqueda en SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Parámetros de filtro para atributos
 
@@ -121,7 +121,7 @@ La página **Preferencias de visualización de filtros** incluye los siguientes 
 - **Control de visualización**: están disponibles las siguientes opciones:
 
     - **Lista**: esta opción está disponible para todos los tipos de atributo.
-    - **Intervalo**: esta opción está disponible para los siguientes tipos de atributo: **Divisa**, **Decimal** y **Entero**. 
+    - **Intervalo**: esta opción está disponible para los siguientes tipos de atributo: **Divisa**, **Decimal** y **Entero**.
     - **Control deslizante**: esta opción está disponible para los siguientes tipos de atributo: **Divisa**, **Decimal** y **Entero**.
     - **Control deslizante con barras**: esta opción está disponible para los siguientes tipos de atributo: **Divisa**, **Decimal** y **Entero**.
 
@@ -228,13 +228,13 @@ Los valores predeterminados de atributos se pueden anular para productos individ
 5. En la pestaña desplegable **Productos**, seleccione el producto requerido y, a continuación, seleccione **Atributos** encima de la cuadrícula del producto.
 6. En las pestañas desplegables siguientes, actualice los valores de los atributos necesarios:
 
-   - Medios del producto compartido
-   - Atributos del producto compartido
-   - Canal de medios
-   - Atributos de producto del canal
+    - Medios del producto compartido
+    - Atributos del producto compartido
+    - Canal de medios
+    - Atributos de producto del canal
 
-     > [!NOTE]
-     > Si se crean medios del producto compartido y atributos del producto compartido en Finance and Operations, se aplican a todos los productos al por menor.
+    > [!NOTE]
+    > Si se crean medios del producto compartido y atributos del producto compartido en Finance and Operations, se aplican a todos los productos al por menor.
 
 ![Grupos de atributos del producto de catálogo](media/CatalogProdAttrValues.png)
 
@@ -250,11 +250,11 @@ Los valores predeterminados de atributos se pueden anular para productos individ
 
 5. En las pestañas desplegables siguientes, actualice los valores de los atributos necesarios:
 
-   - Medios del producto compartido
-   - Atributos del producto compartido
-   - Canal de medios
-   - Atributos de producto del canal
+    - Medios del producto compartido
+    - Atributos del producto compartido
+    - Canal de medios
+    - Atributos de producto del canal
 
-     > [!NOTE]
-     > Si se crean medios del producto compartido y atributos del producto compartido en Finance and Operations, se aplican a todos los productos al por menor.
+    > [!NOTE]
+    > Si se crean medios del producto compartido y atributos del producto compartido en Finance and Operations, se aplican a todos los productos al por menor.
 

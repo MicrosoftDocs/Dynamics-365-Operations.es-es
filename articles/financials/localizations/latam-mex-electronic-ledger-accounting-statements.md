@@ -1,9 +1,9 @@
 ---
 title: "Extractos electrónicos de cuenta contable"
-description: "Este artículo explica cómo configurar y generar la versión 1.1 de los archivos XML de contabilidad general que todas las empresas de México debe presentar a las autoridades fiscales mexicanas (SAT) de manera mensual."
+description: "Este artículo explica cómo configurar y generar los archivos XML de contabilidad general que todas las empresas de México debe presentar a las autoridades fiscales mexicanas (SAT) de manera mensual."
 author: sndray
 manager: AnnBe
-ms.date: 12/06/2017
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: a252fbac949ae625a34f737c8ba56f58e5c2cae2
+ms.sourcegitcommit: 9cdd169e35ffb90e2122e65a7c7d428f3e5305b8
+ms.openlocfilehash: 8c9e14ef2ade0a80c4174fdf28af0603e29028fb
 ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -30,9 +30,9 @@ ms.lasthandoff: 08/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo explica cómo configurar y generar la versión 1.1 de los archivos XML de contabilidad general que todas las empresas de México debe presentar a las autoridades fiscales mexicanas (SAT) de manera mensual.
+Este artículo explica cómo configurar y generar los archivos XML de contabilidad general que todas las empresas de México debe presentar a las autoridades fiscales mexicanas (SAT) de manera mensual.
 
-Todas las empresas de México deben informar de los extractos de cuenta contable a las autoridades fiscales mexicanas (Servicio de Administración Tributaria \[SAT\]) todos los meses. El anexo 24 de la Resolución de Diversos Impuestos para 2015 requiere que envíe la versión 1.1 de los archivos XML de contabilidad general. Puede generar los siguientes archivos XML por empresa:
+Todas las empresas de México deben informar de los extractos de cuenta contable a las autoridades fiscales mexicanas (Servicio de Administración Tributaria \[SAT\]) todos los meses. El anexo 24 de la Resolución de Diversos Impuestos requiere que envíe los archivos XML de contabilidad general. Puede generar los siguientes archivos XML por empresa:
 
 -   Plan contable
 -   Saldo de comprobación mensual
@@ -40,8 +40,6 @@ Todas las empresas de México deben informar de los extractos de cuenta contable
 -   Cuenta contable auxiliar
 
 Esta función solo está disponible cuando el país o la región de la empresa se define como MEX. 
-> [!NOTE]
->  El gobierno también requiere un archivo XML auxiliar adicional (folios) que detalla todos los documentos fiscales (CFDI, CFD y otros). Este archivo no se incluye en la característica actual, puesto que esta información se incluye en el archivo XML Transacciones de diario, como se especifica en el Capítulo 2.8, sección 2.8.1.3 de la Resolución de Diversos Impuestos para 2015 (segunda sección) del 30 de diciembre de 2014. Para obtener más información, consulte la documentación del gobierno.
 
 ## <a name="prerequisites"></a>Requisitos previos
 El siguiente proceso muestra los requisitos previos que se deben implementar antes de comenzar a generar los archivos XML que el SAT requiere. Los parámetros determinan la manera en que se exponen los datos en los archivos XML y se requieren todos ellos. Los parámetros que faltan pueden provocar incoherencias o validaciones incorrectas en la herramienta de validación del gobierno.
@@ -108,17 +106,22 @@ Los usuarios pueden incluir ahora esta información en las transacciones que se 
 
 ### <a name="electronic-reporting"></a>Informes electrónicos
 
-Esta característica se basa en la configuración de informes electrónicos (ER), donde cada formato de archivo XML se define con el diseñador de modelos y formatos para informes electrónicos. Use el tipo de configuración de repositorio **Recursos de AX** para importar estas configuraciones en la empresa actual y habilitar la generación de archivos XML. Haga clic en **Administración de la organización** &gt; **Espacios de trabajo** &gt; **Informes electrónicos** &gt; **Repositorios**.
+Esta característica se basa en la configuración de informes electrónicos (ER), donde cada formato de archivo XML se define con el diseñador de modelos y formatos para informes electrónicos. 
 
-Debe cargar los siguientes modelos y formatos de repositorio:
-
+Necesita descargar las últimas versiones siguientes de los modelos y formatos de configuraciones de ER de la **biblioteca de activos compartidos de LCS**
 1.  Modelo electrónico de cuenta contable MX
 2.  Libro mayor auxiliar XML MX (formato)
 3.  Plan de cuentas XML MX (formato)
 4.  Diario XML MX (formato)
 5.  Saldo de comprobación XML MX (formato)
 
-Después de que el depósito esté disponible en el entorno, debe identificar estos formatos en los parámetros de contabilidad general. Haga clic en los parámetros **Contabilidad general** &gt; **Configuración de contabilidad** &gt; **Contabilidad general** y, a continuación, en el grupo de campos **Asignación de informes electrónicos**, seleccione el formato que desea utilizar para generar los archivos XML.
+A continuación, deberá importar los archivos anteriores a Dynamics 365 for Operations
+
+1. **Administración de la organización > Informes electrónicos > Configuraciones**
+2. **Exchange > Carga desde archivo XML** y **Aceptar** para confirmar. Necesita repetir esta acción para cada archivo XML.
+
+
+Después de que el depósito se actualice en el entorno con los archivos que acaba de cargar, debe identificar estos formatos en los parámetros de contabilidad general. Haga clic en los parámetros **Contabilidad general** &gt; **Configuración de contabilidad** &gt; **Contabilidad general** y, a continuación, en el grupo de campos **Asignación de informes electrónicos**, seleccione el formato que desea utilizar para generar los archivos XML.
 
 ## <a name="generate-electronic-ledger-accounting-files"></a>Generar archivos electrónicos de cuenta contable
 Haga clic en **Contabilidad general** &gt; **Consulta e informes** &gt; **Informes de contabilidad** &gt; **Extracto electrónico de cuenta contable** para generar los archivos XML necesarios y descargarlos en el entorno. La tabla siguiente describe los parámetros que debe establecer.
@@ -181,9 +184,59 @@ Haga clic en **Contabilidad general** &gt; **Consulta e informes** &gt; **Inform
 </table>
 
 
+## <a name="produce-mexican-electronic-ledger-accounting-report-mx-00020"></a>Producir el informe electrónico de contabilidad de libro mayor del producto mexicano (MX-00020)
+
+Esta tarea le muestra todos los pasos necesarios para configurar la generación de archivos XML electrónicos de cuenta contable mediante la herramienta de informes electrónicos. Necesita descargar la versión más alta del modelo y las configuraciones de ER de las configuraciones de biblioteca- GER compartidas de LCS.
+
+-   Modelo: Modelo de cuenta contable electrónica (MX) 
+-   Archivo de formato: Plan de cuentas XML (MX)
+-   Archivo de formato: Saldo de comprobación XML (MX) Saldo de comprobación mensual
+-   Archivo de formato: Diarios XML (MX). Transacciones de diario, junto con las transacciones de subcontabilidad relacionadas (Comprobante Fiscal Digital a través de Internet \[CFDI\], Comprobante Fiscal Digital \[CFD\] y otras operaciones)
+-   Archivo de formato: Libro mayor auxiliar XML (MX) 
+
+
+### <a name="import-a-configuration-including-xml-formats"></a>Importación de una configuración con formatos XML
+1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
+2. En la lista Proveedores de configuración, haga clic en Definir como activo en el cuadro de proveedor de Microsoft.
+    * Si el proveedor de Microsoft ya es el proveedor activo, puede omitir este paso.  
+3. Haga clic en Configuraciones de informes.
+4. Haga clic en Exchange y seleccione la opción Cargar desde un archivo XML
+5. Seleccione y examine el archivo del modelo de XML descargado previamente desde LCS y haga clic en Aceptar para confirmar
+6. Repita los pasos 4 y 5 para importar el resto de formatos de archivo XML
+    * Podrá ver un (1) modelo y los cuatro (4) formatos XML que importó anteriormente.  
+
+### <a name="configure-general-ledger-parameters-for-electronic-reporting-mapping"></a>Configuración de parámetros de contabilidad general para asignar informes electrónicos
+1. Vaya a Contabilidad general > Configuración de contabilidad > Parámetros de Contabilidad general.
+2. En el campo Saldo de comprobación, haga clic en el botón desplegable para abrir la búsqueda.
+3. En la lista, seleccione el formato XML de saldo de comprobación.
+4. En la lista, haga clic en el vínculo de la fila seleccionada.
+5. En el campo Libro mayor auxiliar, haga clic en el botón desplegable para abrir la búsqueda.
+6. En la lista, seleccione el formato XML de libro mayor auxiliar.
+7. En el campo Movimientos contables, haga clic en el botón desplegable para abrir la búsqueda.
+8. En la lista, seleccione el formato XML para diarios.
+9. En la lista, haga clic en el vínculo de la fila seleccionada.
+10. En el campo Plan contable, haga clic en el botón desplegable para abrir la búsqueda.
+11. En la lista, seleccione el formato XML para plan de cuentas.
+12. Haga clic en Guardar.
+
+### <a name="generate-xml-files"></a>Generación de archivos XML
+1. Vaya Contabilidad general > Consultas e informes > Informes de contabilidad > Extracto electrónico de cuenta contable.
+2. En el campo Grupo de cuentas de consolidación de SAT, haga clic en el botón desplegable para abrir la búsqueda.
+3. En la lista, busque y seleccione el registro deseado.
+4. En la lista, haga clic en el vínculo de la fila seleccionada.
+5. En el campo Período, especifique una fecha.
+6. Active o desactive la opción Saldo de comprobación.
+    * Esta opción genera los archivos XML del plan contable y el saldo de comprobación.  
+7. Active o desactive la casilla Movimientos contables.
+8. Active o desactive la casilla Libro mayor auxiliar.
+9. En el campo Tipo de solicitud, seleccione una opción.
+10. En el campo Número de pedido, escriba un valor.
+11. Haga clic en Aceptar
+
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Versión CFDI 3.3](latam-mex-cfdi-3-3.md)
+- [CFDI versión 3.3](latam-mex-cfdi-3-3.md)
 
 
 

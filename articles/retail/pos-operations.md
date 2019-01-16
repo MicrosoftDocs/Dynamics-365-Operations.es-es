@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c9f9368dc3e0fb4ed63250889016d6abe7d15a8c
-ms.openlocfilehash: 557e43c05f7015b04380f45fbd69f58a7250829a
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
 ms.contentlocale: es-es
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -42,7 +42,8 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 - **Pantalla de transacción** – La operación se pueden invocar desde las cuadrículas de botones de PDV que se configuran en la pantalla de transacción de PDV.
 - **Pantalla de bienvenida** – La operación se pueden invocar desde las cuadrículas de botones de PDV que se configuran en la pantalla de bienvenida de PDV.
 
-Nota: Las operaciones que se muestran a continuación se aplican a la última versión de Dynamics 365 for Retail. Algunas operaciones pueden haber cambiado o puede que no estén disponibles en versiones anteriores.
+> [!NOTE]
+> Las operaciones que se muestran a continuación se aplican a la última versión de Dynamics 365 for Retail. Algunas operaciones pueden haber cambiado o puede que no estén disponibles en versiones anteriores.
 
 | ID. | Operación | Descripción | Cuadrícula de botones | Pantalla de transacción | Pantalla de bienvenida | Disponible sin conexión | Específico de configuración regional |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|

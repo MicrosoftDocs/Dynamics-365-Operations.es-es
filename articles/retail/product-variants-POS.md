@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: e40c558e03ef230fee6726994bc94979d40493c2
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -52,8 +52,8 @@ Las cantidades **Reservado** y **Pedido** también se muestran para cada ubicaci
 
 La lista de ubicaciones incluye dos tipos de entidades:
 
-- **Tiendas minoristas**: la lista muestra las tiendas que se configuran usando el grupo de localizadores de tiendas para la tienda actual en Central Retail. 
-- **Centros de distribución**: los distintos tipos de centros de distribución (como almacenes) pueden configurarse en Microsoft Dynamics 365 for Retail. Sin embargo, la lista muestra información de disponibilidad del inventario solo para centros de distribución del tipo predeterminado **Estándar** . 
+- **Tiendas minoristas**: la lista muestra las tiendas que se configuran usando el grupo de localizadores de tiendas para la tienda actual en Central Retail.
+- **Centros de distribución**: los distintos tipos de centros de distribución (como almacenes) pueden configurarse en Microsoft Dynamics 365 for Retail. Sin embargo, la lista muestra información de disponibilidad del inventario solo para centros de distribución del tipo predeterminado **Estándar** .
 
     > [!NOTE]
     > La información de disponibilidad del inventario no se muestra para almacenes de los tipos **Tránsito**, **Cuarentena** y **Mercancías en ruta** para el PDV.
@@ -86,7 +86,7 @@ En la vista **Matriz basada en dimensión**, las celdas para las variantes de pr
 | **0** (cero)                             | Se liberó una variante para la ubicación seleccionada, pero el artículo no está disponible en la ubicación seleccionada. Sin embargo, puede realizar acciones adicionales en la celda. (Estas acciones se describirán con más detalle más adelante en este tema.) |
 | **n/a** o una celda inactiva              | No se liberó una variante para la ubicación seleccionada y no puede realizar acciones adicionales en la celda. |
 
-También puede cambiar el pivote para las dimensiones seleccionando la nueva dimensión a utilizar. 
+También puede cambiar el pivote para las dimensiones seleccionando la nueva dimensión a utilizar.
 
 ![Cambio de pivote](media/ChangePivot.png)
 
@@ -108,14 +108,12 @@ Además, en el vista **Matriz basada en dimensión** se pueden realizar más acc
 
 La siguiente tabla ofrece más información acerca de las acciones adicionales disponibles.
 
-
-|        Acción        |                                                                                                                    Descripción                                                                                                                    |
-|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       Vender ahora       |                               Agregue la variante del artículo seleccionada a la transacción y redirija al usuario a la pantalla de transacción. (Esta acción no está disponible cuando la ubicación seleccionada es un centro de distribución.)                               |
-|   Recoger en tienda   |      Cree un pedido de cliente para la variante del producto que se recogerá de la ubicación seleccionada y redirija al usuario a la pantalla de transacción. (Esta acción no está disponible cuando la ubicación seleccionada es un centro de distribución.)       |
-|     Enviar producto     |                                                 Cree un pedido de cliente para la variante del producto que se enviará desde la ubicación seleccionada y redirija al usuario a la pantalla de transacción.                                                 |
-|     Disponibilidad     |                                                                             Muestre la información de NNC para la combinación de variantes seleccionada para la ubicación seleccionada.                                                                              |
-|  Muestre tzodas las ubicaciones  | Cambie a la vista de búsqueda de inventario estándar y resalte la información de disponibilidad del inventario para la variante de artículo en todas las tiendas del grupo de localizadores de tiendas, y también en centros de distribución de tipo <strong>Estándar/Predeterminado</strong>. |
-| Ver detalles del producto |                                                                         Redirija al usuario a la página <strong>Detalles de producto</strong> del producto maestro asociado.                                                                          |
-
+| Acción               | Descripción |
+|----------------------|-------------|
+| Vender ahora             | Agregue la variante del artículo seleccionada a la transacción y redirija al usuario a la pantalla de transacción. (Esta acción no está disponible cuando la ubicación seleccionada es un centro de distribución.) |
+| Recoger en tienda     | Cree un pedido de cliente para la variante del producto que se recogerá de la ubicación seleccionada y redirija al usuario a la pantalla de transacción. (Esta acción no está disponible cuando la ubicación seleccionada es un centro de distribución.) |
+| Enviar producto         | Cree un pedido de cliente para la variante del producto que se enviará desde la ubicación seleccionada y redirija al usuario a la pantalla de transacción. |
+| Disponibilidad         | Muestre la información de NNC para la combinación de variantes seleccionada para la ubicación seleccionada. |
+| Muestre tzodas las ubicaciones   | Cambie a la vista de búsqueda de inventario estándar y resalte la información de disponibilidad del inventario para la variante de artículo en todas las tiendas del grupo de localizadores de tiendas, y también en centros de distribución de tipo **Estándar/Predeterminado**. |
+| Ver detalles del producto | Redirija al usuario a la página **Detalles de producto** del producto maestro asociado. |
 

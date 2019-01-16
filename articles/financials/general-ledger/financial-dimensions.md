@@ -3,7 +3,7 @@ title: Dimensiones financieras
 description: "Este tema describe los diferentes tipos de dimensiones financieras y cómo se configuran."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/26/2018
+ms.date: 01/03/2019
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
-ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
+ms.sourcegitcommit: 92d1f2997ca8ea1bd47dfe47d91bf7f6234833b0
+ms.openlocfilehash: 2fb325e143eff067e1c9d0f23a1f913fc2dc36f3
 ms.contentlocale: es-es
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -93,6 +93,8 @@ Puede utilizar valores de registros maestros, como cliente y proveedor, como val
 Esta función se controla mediante un valor de la dimensión. Este valor se denomina **Copiar la configuración con la dimensión de cada nuevo DimensionName creado**, donde **DimensionName** es el nombre de la dimensión. De forma predeterminada, esta característica está desactivada. Sin embargo, es posible activarla en cualquier momento.
 
 Si ya existen registros para la dimensión, se actualizan los registros maestros cuando se activa la función. Sin embargo, los documentos y las transacciones existentes no se actualizan.
+
+Si utiliza una plantilla para crear una registro maestro, asegúrese de que el valor de la plantilla para la dimensión principal está desactivada. Por ejemplo, si está creando clientes desde una plantilla, asegúrese de que la dimensión del cliente en la plantilla esté en blanco. El valor de dimensión del cliente se establecerá como valor predeterminado desde el nuevo número de cliente cuando se cree el nuevo cliente.  
 
 ## <a name="derived-dimensions"></a>Dimensiones derivadas
 

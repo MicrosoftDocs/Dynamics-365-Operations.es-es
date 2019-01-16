@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 80fa443fc235496a111a8a866d2e703202721268
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -33,35 +33,41 @@ ms.lasthandoff: 08/09/2018
 
 En este artículo se describen los datos que se crean como parte del proceso de inicialización para Microsoft Dynamics 365 for Retail.
 
-Después de que la solución de venta minorista se haya desplegado con los servicios de ciclo de vida de Microsoft Dynamics, debe inicializar la configuración de venta minorista para crear los datos de configuración básicos. **Importante:** antes de inicializar la configuración de venta minorista, asegúrese de que haya especificado un idioma y una dirección postal para cada entidad jurídica en la que va a configurar tiendas de venta minorista. Este paso se debe completar para cada entidad jurídica que se use para la venta minorista. Para inicializar la configuración de venta minorista, siga estos pasos.
+Después de que la solución de venta minorista se haya desplegado con los servicios de ciclo de vida de Microsoft Dynamics, debe inicializar la configuración de venta minorista para crear los datos de configuración básicos.
 
-1.  Inicie el cliente de Dynamics 365 for Retail.
-2.  Haga clic en **Retail** &gt; **Configuración de sede central** &gt; **Parámetros** &gt; **Parámetros comerciales**.
-3.  Haga clic en **Inicializar**.
+> [!IMPORTANT]
+> Antes de inicializar la configuración de venta minorista, asegúrese de que haya especificado un idioma y una dirección postal para cada entidad jurídica en la que va a configurar tiendas de venta minorista. Este paso se debe completar para cada entidad jurídica que se use para la venta minorista.
+
+Para inicializar la configuración de venta minorista, siga estos pasos.
+
+1. Inicie el cliente de Dynamics 365 for Retail.
+2. Haga clic en **Retail** &gt; **Configuración de sede central** &gt; **Parámetros** &gt; **Parámetros comerciales**.
+3. Haga clic en **Inicializar**.
 
 Inicialización crea los datos de configuración siguientes predeterminados:
 
--   Trabajos y subtrabajos del programador de ventas minoristas
--   Esquema del canal comercial
--   Programaciones de distribución de ventas minoristas
--   Diseños de pantalla predeterminados, que incluyen bloqueos, imágenes y temas
--   Información de zona horaria
--   Operaciones de punto de venta (PDV)
--   Permisos de PDV
--   Informes de canales
--   Metadatos de atributos
--   Plantillas de validación de entidad
--   Trabajo por lotes para purgar historial de la sesión de intercambio de datos comerciales
+- Trabajos y subtrabajos del programador de ventas minoristas
+- Esquema del canal comercial
+- Programaciones de distribución de ventas minoristas
+- Diseños de pantalla predeterminados, que incluyen bloqueos, imágenes y temas
+- Información de zona horaria
+- Operaciones de punto de venta (PDV)
+- Permisos de PDV
+- Informes de canales
+- Metadatos de atributos
+- Plantillas de validación de entidad
+- Trabajo por lotes para purgar historial de la sesión de intercambio de datos comerciales
 
-Además, el registro relacionado con la industria de la tarjeta de pago se habilita para la base de datos de Dynamics 365 for Retail. **Nota:** hay una opción para configurar por separado el programador de venta minorista. Esta opción permite restablecer la configuración del programador de venta minorista a sus valores predeterminados. Después de que la inicialización esté completada, debe configurar los datos adicionales de la venta minorista. A continuación se incluyen algunos ejemplos:
+Además, el registro relacionado con la industria de la tarjeta de pago se habilita para la base de datos de Dynamics 365 for Retail.
 
--   Parámetros comerciales
--   Parámetros del Programador de tareas Retail
--   Canales comerciales
--   Cajas registradoras y dispositivos
--   Varios
+> [!NOTE]
+> Hay una opción para configurar por separado el programador de venta minorista. Esta opción permite restablecer la configuración del programador de venta minorista a sus valores predeterminados.
 
+Después de que la inicialización esté completada, debe configurar los datos adicionales de la venta minorista. A continuación se incluyen algunos ejemplos:
 
-
-
+- Parámetros comerciales
+- Parámetros del Programador de tareas Retail
+- Canales comerciales
+- Cajas registradoras y dispositivos
+- Varios
 
