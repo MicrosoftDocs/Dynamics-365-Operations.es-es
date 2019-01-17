@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
-ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
 ms.contentlocale: es-es
-ms.lasthandoff: 10/25/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,36 +29,35 @@ ms.lasthandoff: 10/25/2018
 
 [!include [banner](../includes/banner.md)]
 
-Los siguientes métodos abreviados de teclado se aplican en todo Dynamics 365 for Finance and Operations. 
+Los siguientes métodos abreviados de teclado se aplican en todo Dynamics 365 for Finance and Operations.
 
-**Nota**: los métodos abreviados de teclado aquí descritos se refieren al diseño del teclado de Estados Unidos. Es posible que las teclas de otros diseños de teclados no se correspondan exactamente con las teclas de un teclado de Estados Unidos.
+> [!NOTE]
+> Los métodos abreviados de teclado aquí descritos se refieren al diseño del teclado de Estados Unidos. Es posible que las teclas de otros diseños de teclados no se correspondan exactamente con las teclas de un teclado de Estados Unidos.
 
 ## <a name="finding-a-shortcut"></a>Encontrar un acceso directo
-A partir de la actualización de plataforma 11, los usuarios pueden detectar accesos directos actualmente disponibles directamente desde la interfaz de usuario. Simplemente haga clic con el botón secundario en un control y seleccione **Ver los accesos directos**. Esto abrirá un cuadro de diálogo que muestra los accesos directos que puede usar en función de donde se encuentre en la página. 
 
+A partir de la actualización de plataforma 11, los usuarios pueden detectar accesos directos actualmente disponibles directamente desde la interfaz de usuario. Simplemente haga clic con el botón secundario en un control y seleccione **Ver los accesos directos**. Esto abrirá un cuadro de diálogo que muestra los accesos directos que puede usar en función de donde se encuentre en la página.
 
 ## <a name="action-shortcuts"></a>Métodos abreviados de acción
 
-|                                                   |                                  |
-|---------------------------------------------------|----------------------------------|
-| **Acción**                                    | **Presione**                        |
-| Búsqueda de acción abierta                                | Ctrl+’ o Alt+Q                  |
-| Ir al panel de acciones estándar                  | Alt+M,A o Ctrl+F6               |
-| Abrir una ficha en el panel de acciones o un menú           | Intro o Espacio o Alt+Flecha abajo |
-| Pasar a la opción anterior o siguiente en un menú            | Flecha arriba / Flecha abajo            |
-| Cerrar una ficha en el panel de acciones o un menú          | Esc                              |
-| Simular un clic con el botón secundario                            | Mayús+F10                        |
-| Abra el menú contextual de Finance and Operations      | Ctrl+F10                         |
-| Ejecutar el botón predeterminado en un formulario/cuadro de diálogo   | Alt+Intro                        |
-| Hacer clic en un botón o un icono                            | Intro o Espacio                   |
-| Ver información actualizada de un icono de recuento         | Alt+Fecha arriba                     |
-| Ver los métodos abreviados disponibles actualmente                | Alt+Mayús+K                      |                              
+| Acción                                      | Presione                            |
+|-------------------------------------------------|----------------------------------|
+| Búsqueda de acción abierta                              | Ctrl+’ o Alt+Q                  |
+| Ir al panel de acciones estándar                | Alt+M,A o Ctrl+F6               |
+| Abrir una ficha en el panel de acciones o un menú         | Intro o Espacio o Alt+Flecha abajo |
+| Pasar a la opción anterior o siguiente en un menú          | Flecha arriba / Flecha abajo            |
+| Cerrar una ficha en el panel de acciones o un menú        | Esc                              |
+| Simular un clic con el botón secundario                          | Mayús+F10                        |
+| Abra el menú contextual de Finance and Operations    | Ctrl+F10                         |
+| Ejecutar el botón predeterminado en un formulario/cuadro de diálogo | Alt+Intro                        |
+| Hacer clic en un botón o un icono                          | Intro o Espacio                   |
+| Ver información actualizada de un icono de recuento       | Alt+Fecha arriba                     |
+| Ver los métodos abreviados disponibles actualmente              | Alt+Mayús+K                      |
 
 ## <a name="date-picker-shortcuts"></a>Métodos abreviados de selección de fecha
 
-|                                       |                                           |
+| Acción                            | Presione                                     |
 |---------------------------------------|-------------------------------------------|
-| **Acción**                        | **Presione**                                 |
 | Abrir el seleccionador de fecha                  | Alt+Flecha abajo                            |
 | Moverse entre fechas en el seleccionador de fecha | Ctrl+Teclas de dirección                           |
 | Ir al grupo mes siguiente/anterior       | Re Pág / Av Pág                       |
@@ -70,9 +69,8 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 
 ## <a name="factbox-shortcuts"></a>Métodos abreviados de cuadro informativo
 
-|                                                                                 |                                           |
+| Acción                                                                      | Presione                                     |
 |---------------------------------------------------------------------------------|-------------------------------------------|
-| **Acción**                                                                  | **Presione**                                 |
 | Abrir el panel del cuadro informativo (o mover el enfoque al panel de cuadro informativo si ya está abierto) | Alt+M,B o Ctrl+F2                        |
 | Cerrar el panel del cuadro informativo (con el enfoque en el panel del cuadro informativo)                         | Esc                                       |
 | Pasar al cuadro informativo siguiente/anterior (con el enfoque en el panel del cuadro informativo)              | Alt+Mayús+Flecha abajo / Alt+Mayús+Flecha arriba |
@@ -82,42 +80,39 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 
 ## <a name="filtering-shortcuts"></a>Métodos abreviados de filtrado
 
-|                                    |                          |
-|------------------------------------|--------------------------|
-| **Para realizar esta tarea**                     | **Presionar**                |
-| Abrir el filtrado de cuadrícula para la columna actual                        | Ctrl+G                   |
-| Cerrar el filtrado de cuadrícula para la columna actual                       | Esc                      |
+| Para realizar esta tarea                                                                                                          | Presione                    |
+|---------------------------------------------------------------------------------------------------------------------|--------------------------|
+| Abrir el filtrado de cuadrícula para la columna actual                                                                          | Ctrl+G                   |
+| Cerrar el filtrado de cuadrícula para la columna actual                                                                         | Esc                      |
 | Abrir el panel de filtro (o cambiar el enfoque entre el panel de filtro y el formulario principal si el panel de filtro ya está abierto) | Alt+M,F o Ctrl+F3       |
-| Cerrar el panel de filtro (con el enfoque en el panel de filtro)             | Esc                      |
-| Abrir el sistema de orden/filtrado avanzado                                      | Ctrl+Mayús+F3            | 
+| Cerrar el panel de filtro (con el enfoque en el panel de filtro)                                                               | Esc                      |
+| Abrir el sistema de orden/filtrado avanzado                                                                                        | Ctrl+Mayús+F3            |
 
 ## <a name="form-shortcuts"></a>Métodos abreviado de formulario
 
-|                                                     |                   |
-|-----------------------------------------------------|-------------------|
-| **Para realizar esta tarea**                                      | **Presionar**         |
-| Crear un nuevo registro                                 | Alt+N             |
-| Eliminar un registro                                     | Alt+Supr o Alt+F9 |
-| Guardar registro                                         | Alt+S o Ctrl+S   |
-| Revertir (restaurar)                                    | Ctrl+Mayús+F5     |
-| Actualizar datos                                        | Mayús+F5          |
-| Ir al primer campo visible en el formulario         | Alt+Mayús+F       |
-| Cambiar modo de edición                                    | F2                |
-| Adjuntar un documento                                   | Ctrl+Mayús+A      |
-| Exportar a Excel                                     | Ctrl+Mayús+E      |
-| Ir al registro anterior (fuera de una cuadrícula)        | Ctrl+Fecha arriba     |
-| Ir al registro siguiente (fuera de una cuadrícula)            | Ctrl+Flecha abajo   |
-| Ir al primer registro (fuera de una cuadrícula)           | Ctrl+Inicio         |
-| Ir al último registro (fuera de una cuadrícula)            | Ctrl+Fin          |
-| Cerrar el formulario (hacer clic en Atrás)                         | Esc               |
-| Cerrar el formulario con guardado explícito                   | Mayús+Esc         |
-| Cerrar el formulario ignorando cualquier cambio no guardado       | Alt+Mayús+Q       |
+| Para realizar esta tarea                                    | Presione             |
+|-----------------------------------------------|-------------------|
+| Crear un nuevo registro                           | Alt+N             |
+| Eliminar un registro                               | Alt+Supr o Alt+F9 |
+| Guardar registro                                   | Alt+S o Ctrl+S   |
+| Revertir (restaurar)                              | Ctrl+Mayús+F5     |
+| Actualizar datos                                  | Mayús+F5          |
+| Ir al primer campo visible en el formulario   | Alt+Mayús+F       |
+| Cambiar modo de edición                              | F2                |
+| Adjuntar un documento                             | Ctrl+Mayús+A      |
+| Exportar a Excel                               | Ctrl+Mayús+E      |
+| Ir al registro anterior (fuera de una cuadrícula)  | Ctrl+Fecha arriba     |
+| Ir al registro siguiente (fuera de una cuadrícula)      | Ctrl+Flecha abajo   |
+| Ir al primer registro (fuera de una cuadrícula)     | Ctrl+Inicio         |
+| Ir al último registro (fuera de una cuadrícula)      | Ctrl+Fin          |
+| Cerrar el formulario (hacer clic en Atrás)                   | Esc               |
+| Cerrar el formulario con guardado explícito             | Mayús+Esc         |
+| Cerrar el formulario ignorando cualquier cambio no guardado | Alt+Mayús+Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Métodos abreviados de navegación en formularios
 
-|                                                     |                                              |
+| Acción                                          | Presione                                        |
 |-----------------------------------------------------|----------------------------------------------|
-| **Acción**                                      | **Presione**                                    |
 | Ir al campo siguiente/anterior.                     | Tabulador / Mayús+Tab                              |
 | Ir a la ficha siguiente/anterior                       | Alt+Mayús+Fecha derecha / Alt+Mayús+Flecha izquierda |
 | Ir a la ficha &lt;n&gt;                         | Alt+Mayús+&lt;n&gt; (&lt;n&gt; = 1-9)        |
@@ -134,30 +129,28 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 
 ## <a name="grid-shortcuts"></a>Métodos abreviado de cuadrícula
 
-|                                                                                                                        |                                 |
+| Acción                                                                                                             | Presione                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **Acción**                                                                                                         | **Presione**                       |
 | Ir a la columna siguiente/anterior                                                                                       | Tabulador / Mayús+Tab                 |
 | Ir a la fila siguiente/anterior                                                                                          | Flecha arriba / Flecha abajo           |
-| Ir a la fila siguiente/anterior sin seleccionarla<br><br>**Nota:** este método abreviado se aplica únicamente a los escenarios de selección múltiple. | Ctrl+Flecha arriba / Ctrl+Flecha abajo |
-| Seleccionar/borrar la fila actual<br><br>**Nota:** este método abreviado se aplica únicamente a los escenarios de selección múltiple.                    | Ctrl+Espacio/Ctrl+Clic         |
-| Agregar la fila siguiente/anterior al conjunto seleccionado<br><br>**Nota:** este método abreviado se aplica únicamente a los escenarios de selección múltiple.   | Shift+Space                     |
-| Agregar un intervalo de filas al conjunto seleccionado<br><br>**Nota:** este método abreviado se aplica únicamente a los escenarios de selección múltiple.         | Mayús+Clic                     |
+| Ir a la fila siguiente/anterior sin seleccionarla<blockquote>[!NOTE] Este método abreviado se aplica únicamente a los escenarios de selección múltiple.</blockquote> | Ctrl+Flecha arriba / Ctrl+Flecha abajo |
+| Seleccionar/borrar la fila actual<blockquote>[!NOTE] Este método abreviado se aplica únicamente a los escenarios de selección múltiple.</blockquote>                    | Ctrl+Espacio/Ctrl+Clic         |
+| Agregar la fila siguiente/anterior al conjunto seleccionado<blockquote>[!NOTE] Este método abreviado se aplica únicamente a los escenarios de selección múltiple.</blockquote>   | Shift+Space                     |
+| Agregar un intervalo de filas al conjunto seleccionado<blockquote>[!NOTE] Este método abreviado se aplica únicamente a los escenarios de selección múltiple.</blockquote>         | Mayús+Clic                     |
 | Ir a la página de datos siguiente/anterior                                                                                   | Re Pág / Av Pág             |
 | Cree una nueva fila en la parte inferior de la cuadrícula                                                                             | Flecha abajo (desde la última fila)  |
 | Seleccione o borre todas las filas                                                                                               | Ctrl+Mayús+M                    |
 | Ir al primer registro                                                                                               | Ctrl+Inicio                       |
 | Ir al último registro                                                                                                | Ctrl+Fin                        |
-| Ejecutar la acción predeterminada en una cuadrícula<br><br>**Nota:** este método abreviado se habilita cuando el enfoque está en una celda que contenga un hipervínculo y en todas las celdas de esa columna que tengan hipervínculos.                 | Intro                           |
+| Ejecutar la acción predeterminada en una cuadrícula<blockquote>[!NOTE] Este método abreviado se habilita cuando el enfoque está en una celda que contenga un hipervínculo y en todas las celdas de esa columna que tengan hipervínculos.</blockquote> | Intro                           |
 | Alternar el enfoque entre la fila seleccionada y la fila de encabezado                                                               | Alt+Mayús+ H                     |
 | Haga la columna actual mayor o menor (con el enfoque en la fila de encabezado)                                                  | Flecha derecha / flecha izquierda        |
 | Abra la cuadrícula de filtro para la columna actual (con el enfoque en la fila de encabezado)                                              | Intro                           |
 
 ## <a name="input-control-shortcuts"></a>Métodos abreviados de control de entrada de datos
 
-|                                                                              |                               |
+| Acción                                                                   | Presione                         |
 |------------------------------------------------------------------------------|-------------------------------|
-| **Acción**                                                               | **Presione**                     |
 | Abrir el hipervínculo                                                           | Ctrl+Intro                    |
 | Especificar la fecha de la sesión en un campo de fecha                                       | D+Tabulador                         |
 | Escribir la fecha actual en un campo de fecha                                       | T+Tabulador                         |
@@ -171,17 +164,15 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 
 ## <a name="messaging-shortcuts"></a>Métodos abreviados en mensajes
 
-|                          |               |
+| Acción               | Presione         |
 |--------------------------|---------------|
-| **Acción**           | **Presione**     |
 | Ir al centro de mensajes | Ctrl+Mayús+F7 |
 | Ir a la barra de mensajes    | Ctrl+F7       |
 
 ## <a name="navigation-shortcuts"></a>Métodos abreviados de navegación
 
-|                                                                               |                            |
+| Acción                                                                    | Presione                      |
 |-------------------------------------------------------------------------------|----------------------------|
-| **Acción**                                                                | **Presione**                  |
 | Ir al panel                                                           | Alt+Mayús+Inicio             |
 | Ir a la barra de navegación                                                    | Alt+M,N o Alt+Mayús+F1    |
 | Ir al selector de empresas                                                    | Ctrl+Mayús+O               |
@@ -201,9 +192,8 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 
 ## <a name="personalization-shortcuts"></a>Personalizar los métodos abreviados
 
-|                                                                                                                        |                                     |
+| Acción                                                                                                             | Presione                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| **Acción**                                                                                                         | **Presione**                           |
 | Activar el modo de personalización de la página                                                                          | Ctrl+Mayús+P                        |
 | Usar la herramienta Seleccionar (cuando se esté en modo de personalización)                                                                     | S                                   |
 | Abrir el cuadro de diálogo de personalización rápida del control seleccionado (cuando se use la herramienta Seleccionar)                              | Espacio o Intro                      |
@@ -230,9 +220,8 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 
 ## <a name="segmented-entry-shortcuts"></a>Métodos abreviados de entrada segmentados
 
-|                                                                                                                         |                                  |
+| Acción                                                                                                              | Presione                            |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **Acción**                                                                                                          | **Presione**                        |
 | Abrir la lista desplegable (cuando la lista desplegable está cerrada)                                                             | Alt+Flecha abajo                   |
 | Trasladar el enfoque al campo de entrada para el segmento actual en la lista desplegable (cuando la lista desplegable ya está abierta) | Alt+Flecha abajo                   |
 | Cerrar la lista desplegable                                                                                                | Alt+Fecha arriba                     |
@@ -244,5 +233,4 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Desplazarse arriba/abajo una fila en las búsquedas                                                                                        | Flecha arriba / Flecha abajo            |
 | Desplazarse arriba/abajo una página en las búsquedas                                                                                       | Re Pág / Av Pág              |
 | Ir a la parte superior/inferior de la búsqueda                                                                                    | Inicio / Fin                       |
-
 

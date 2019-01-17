@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: d428da2a6fb8ce5d63c3373def879c9b32cfd492
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -59,11 +59,12 @@ Como parte de las mejoras de la función de registro de extractos, se han inclui
 
 Además, se ha introducido el campo **Número máximo de extractos registrados en paralelo** en la ficha desplegable **Procesamiento por lotes** . Este campo define el número de tareas por lotes que se deben ejecutar al mismo tiempo. Actualmente hay que establecer manualmente el valor de este campo.
 
-Asimismo, con el nuevo proceso de registro, es necesario definir un **Producto de tarjeta regalo** en la ficha desplegable **Tarjeta regalo** de la pestaña **Registrar** de la página **Parámetros comerciales**. Esto ocurre incluso si la organización no utiliza tarjetas regalo. 
+Asimismo, con el nuevo proceso de registro, es necesario definir un **Producto de tarjeta regalo** en la ficha desplegable **Tarjeta regalo** de la pestaña **Registrar** de la página **Parámetros comerciales**. Esto ocurre incluso si la organización no utiliza tarjetas regalo.
 
 Tenga en cuenta que todos los valores y parámetros asociados a los registros de extracto, y que se definen en las tiendas y en la página **Parámetros comerciales**, son aplicables a la función mejorada del registro de extractos.
 
 ## <a name="processing"></a>En procesamiento
+
 Los extractos se pueden calcular y registrar por lotes mediante los elementos de menú **Calcular extractos por lotes** y **Registrar extractos por lotes**. Como alternativa, se pueden calcular y registrar manualmente mediante el elemento de menú **Extractos comerciales** que proporciona la función mejorada de registro de extractos.
 
 El proceso y los pasos para calcular y registrar extractos por lotes son iguales que en la antigua función de registro de extractos. Sin embargo, se han realizado mejoras significativas en el procesamiento básico en el back-end de los extractos. Estas mejoras hacen que el proceso sea más flexible, y ofrece mayor visibilidad de los estados y la información de errores. Esto permite a los usuarios localizar la causa original de los errores y continuar con el proceso de registro sin provocar daños en los datos y sin requerir correcciones de datos.
@@ -71,6 +72,7 @@ El proceso y los pasos para calcular y registrar extractos por lotes son iguales
 En las secciones siguientes se describen algunas de las mejoras importantes de la función de registro de extractos que aparecen en la interfaz de usuario para extractos comerciales y extractos registrados.
 
 ### <a name="status-details"></a>Detalles de estado
+
 Se ha incluido un nuevo modelo de estado en la rutina de registro de extractos para los procesos de cálculo y registro.
 
 En la siguiente tabla se describen los distintos estados y su orden durante el proceso de cálculo.
@@ -109,9 +111,11 @@ Cada estado de las tablas anterior es independiente por naturaleza, y se crea un
 Además, el encabezado de las secciones segunda y tercera muestra el estado general del proceso relevante.
 
 ### <a name="event-logs"></a>Registros de evento
+
 Un extracto pasa por distintas operaciones (por ejemplo, Crear, Calcular, Desactivar y Registrar), y se puede llamar a varias instancias de la misma operación durante el ciclo de vida del extracto. Por ejemplo, después de crear y calcular un extracto, un usuario puede borrarlo y calcularlo de nuevo. El botón **Registros de eventos** en el grupo **Detalles de ejecución** del extracto proporciona una traza de auditoría completa de las distintas operaciones aplicadas a un extracto, así como información acerca de cuándo se llamó a estas operaciones.
 
 ### <a name="aggregated-transactions"></a>Transacciones agregadas
+
 Durante el proceso de registro se agregan las transacciones de ventas según la configuración. Estas transacciones agregadas se almacenan en el sistema y se usan para crear pedidos de ventas. Cada transacción agregada crea un pedido de ventas correspondiente en el sistema. Puede ver las transacciones agregadas utilizando el botón **Transacciones agregadas** en el grupo **Detalles de ejecución** del extracto.
 
 La ficha **Detalles del pedido de ventas** de una transacción agregada muestra la siguiente información:
@@ -136,11 +140,13 @@ La vista de transacciones agregadas proporciona las siguientes ventajas:
 - El archivo de datos XML agregados facilita la identificación de problemas durante la creación y facturación de pedidos de ventas.
 
 ### <a name="journal-vouchers"></a>Asientos del diario
+
 El botón **Asientos del diario** del grupo **Detalles de ejecución** del extracto muestra las distintas transacciones de asiento que se crean para un extracto, y que están relacionadas con descuentos, cuentas de ingresos/gastos, tarjetas regalo, etc.
 
 Actualmente, el programa solo muestra estos datos para los extractos registrados.
 
 ### <a name="payment-journals"></a>Diarios de pagos
+
 El botón **Diarios de pagos** del grupo **Detalles de ejecución** del extracto muestra los distintos diarios de pagos creados para un extracto.
 
 Actualmente, el programa solo muestra estos datos para los extractos registrados.

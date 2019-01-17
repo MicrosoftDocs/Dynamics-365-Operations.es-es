@@ -32,6 +32,7 @@ ms.lasthandoff: 08/09/2018
 En este tema se proporciona información sobre el proceso de crear y administrar precios de ventas en Microsoft Dynamics 365 for Retail. Se centra en los conceptos implicados en este proceso y en los efectos de las distintas opciones de configuración para los precios de venta.
 
 ## <a name="terminology"></a>Terminología
+
 En este tema se utilizan los siguientes términos:
 
 | Condición | Definición, uso y notas |
@@ -42,6 +43,7 @@ En este tema se utilizan los siguientes términos:
 | Mejor precio | Cuando se puede aplicar más de un precio o descuento a un producto, el menor importe del precio y/o el mayor importe de descuento que genera el menor importe neto posible que el cliente debe pagar. En este tema, el concepto de mejor precio siempre se conoce como "el mejor precio". Este mejor precio es diferente y no debe confundirse con el valor de enumeración **Mejor precio** para el modo de concurrencia de un descuento. |
 
 ## <a name="price-groups"></a>Grupos de precio
+
 Los grupos de precios se encuentran en el centro de la administración de precios y descuentos en Retail. Los grupos de precios se utilizan para asignar precios y descuentos para entidades minoristas (es decir, canales, catálogos, afiliaciones y programas de fidelización). Puesto que los grupos de precios se utilizan para todos los precios y descuentos, es muy importante que planifique cómo los utilizará antes de comenzar.
 
 Por sí mismo, un grupo de precios es solo un nombre, una descripción y, de forma opcional, una prioridad de precios. La cuestión principal a recordar acerca de los grupos de precios es que se utilizan para gestionar las relaciones de varios a varios que los descuentos y precios tienen con las entidades minoristas.
@@ -57,17 +59,20 @@ Como muestra la línea discontinua roja en la ilustración, Retail no admite la 
 Las secciones siguientes proporcionan más información acerca de las entidades minoristas que puede usar para establecer precios distintos cuando se utilizan grupos de precios. La configuración de precios y descuentos para todas estas entidades es un proceso de dos pasos. Estos pasos se pueden realizar en cualquier pedido. Sin embargo, el pedido lógica es establecer primero los grupos de precios en las entidades, ya es probable que este paso sea una configuración única que se realiza durante la implementación. A continuación, cuando se crean los precios y descuentos, puede establecer de manera individual los grupos de precios en estos precios y descuentos.
 
 ### <a name="channels"></a>Canales
+
 En el sector minorista, es muy habitual tener diferentes precios en distintos canales. Los dos factores principales que afectan a los precios específicos de un canal son costes y condiciones empresariales locales.
 
 - **Costes**: cuanto más lejos esté un canal del origen del producto, más cuesta almacenar un producto. Por ejemplo, el producto fresco tiene una vida útil limitada y unos requisitos de producción específicos (por ejemplo, una temporada de cultivo). Durante el invierno, la lechuga fresca probablemente cuesta más en climas septentrionales que en climas meridionales. Si establece precios para canales en un área geográfica grande, probablemente querrá establecer diferentes precios en distintos canales.
 - **Condiciones empresariales locales**: una tienda que tiene un competidor directo al otro lado de la calle será mucho más sensible a los precios que una tienda que no tiene un competidor directo cerca.
- 
+
 ### <a name="affiliations"></a>Afiliaciones
+
 La definición general de una afiliación es un vínculo o la asociación a un grupo. En Retail, las afiliaciones son grupos de clientes. Las afiliaciones son una herramienta mucho más flexible para precios y descuentos de cliente que el concepto básico de Microsoft Dynamics 365 de grupos de clientes y grupos de descuento. En primer lugar, una afiliación se puede utilizar para precios y descuentos, mientras que el precio que no es para minoristas tiene un grupo diferente para cada tipo de descuento y precio. A continuación, un cliente puede pertenecer a varias afiliaciones pero solo puede pertenecer a un único grupo de precios no para minoristas de cada tipo. Finalmente, aunque las afiliaciones pueden configurarse para que se vinculen a un cliente, no es necesario hacerlo. Una afiliación ad hoc se puede utilizar para clientes anónimos en el PDV. Un ejemplo típico de un descuento de afiliación anónimo es un descuento para antiguos alumnos o estudiantes, donde un cliente puede recibir un descuento con solo mostrar una tarjeta de miembro del grupo.
 
 Aunque las afiliaciones suelen asociarse más a descuentos, también puede utilizarlas para establecer precios diferenciales. Por ejemplo, cuando un minorista vende a un empleado, es posible que desee cambiar el precio de venta en lugar de aplicar un descuento sobre el precio normal. Como otro ejemplo, un minorista que vende a los clientes consumidores y clientes comerciales pueden ofrecer mejores precios a los clientes comerciales, en función del volumen de compra. Las afiliaciones permiten estas situaciones.
 
 ### <a name="loyalty-programs"></a>Programas de fidelización
+
 En relación con los precios y descuentos, los programas de fidelidad son básicamente una afiliación que tiene un nombre especial. Pueden establecerse precios y descuentos para un programa de fidelidad, al igual que pueden establecerse para una afiliación. Sin embargo, la manera en que los clientes obtienen precios de fidelidad durante una transacción o un pedido difiere de la forma en que obtienen precios de afiliación. Los clientes pueden obtener precios de fidelidad solamente si se agrega una tarjeta de fidelización a una transacción. Cuando una tarjeta de fidelización se añade a una transacción, también se agrega el programa de fidelidad. El programa de fidelidad permite precios y descuentos especiales.
 
 Los programas de fidelidad pueden tener varios niveles, y los descuentos pueden ser diferentes para distintos niveles. De esta manera, los minoristas pueden dar mayores recompensas a clientes frecuentes sin tener que meter manualmente a estos clientes en un grupo especial.
@@ -75,14 +80,17 @@ Los programas de fidelidad pueden tener varios niveles, y los descuentos pueden 
 Además de los precios y descuentos, los programas de fidelidad tienen funciones adicionales. Sin embargo, desde la perspectiva de los precios y descuentos, son las mismas que las afiliaciones.
 
 ### <a name="catalogs"></a>Catálogos
+
 Algunos minoristas utilizan catálogos físicos o virtuales para comercializar productos, y asignarles precios, a grupos de clientes específicos. Como parte de su modelo empresarial para marketing de segmentos a través de un catálogo, estos minoristas pueden establecer precios diferenciales en sus distintos catálogos. Microsoft Dynamics 365 admite esta capacidad al permitirle definir descuentos y precios específicos del catálogo, de la misma manera que puede definir descuentos específicos del canal y de la afiliación. Al editar un catálogo, puede asociar grupos de precios al catálogo, al igual que puede asociarlos a un canal, una afiliación o un programa de fidelidad.
 
 ### <a name="best-practices-for-price-groups"></a>Prácticas recomendadas para grupos de precios
+
 No utilice un grupo de precios para varios tipos de entidades minoristas. En su lugar, utilice un conjunto de grupos de precios para canales, un conjunto distinto de grupos de precios para afiliaciones o programas de fidelidad, etc. Puede utilizar un prefijo o un sufijo en el nombre del grupo de precios para agrupar visualmente los distintos tipos de grupos de precios que utiliza.
 
 Evite configurar grupos de precios directamente en un cliente. En su lugar, utilice una afiliación. De esta manera, puede asignar todos los tipos de precios y descuentos a los clientes, no solo acuerdos comerciales de precios de venta.
 
 ## <a name="pricing-priority"></a>Prioridad de precios
+
 Por sí misma, una prioridad de precios es solo un número y una descripción. Las prioridades de precios se pueden aplicar grupos de precios, o se pueden aplicar directamente a descuentos. Cuando se utilizan prioridades de precios, estas permiten a un minorista anular el principio del mejor precio al controlar el orden en el que se aplican los precios y los descuentos a los productos. Un número mayor de prioridad de precios se evalúa antes que un número menor de prioridad de precios. Además, si un precio o descuento se encuentra en cualquier número de prioridad, se ignoran todos los precios o descuentos que tienen números más bajos de prioridad.
 
 El precio y un descuento pueden proceder de dos prioridades de precios diferentes, ya que las prioridades de precios se aplican de forma independiente a precios y descuentos.
@@ -96,6 +104,7 @@ Como se describió en la sección "Mejor precio" de este tema, el motor de preci
 Sin embargo, la función de prioridad de precios permite al minorista crear una prioridad de precios para precios de tienda que sea mayor que la prioridad de precio para precios regionales. De manera alternativa, el minorista puede crear una prioridad de precios solo para precios de tienda y dejar los precios regionales en la prioridad de precios predeterminada, que es 0 (cero). Ambas configuraciones ayudan a garantizar que los precios de tienda se utilizan siempre antes que los precios regionales.
 
 ### <a name="pricing-priority-example"></a>Ejemplo de prioridad de precios
+
 Veamos un ejemplo en el que los precios de tienda anulan otros precios.
 
 Un minorista nacional establece la mayoría de precios por región, y tiene cuatro regiones: Nordeste, Sureste, Medio Oeste y Oeste. Ha identificado varios mercados de alto coste que admiten precios más altos. Estos mercados se encuentran en Nueva York, Chicago y la zona de la bahía de San Francisco.
@@ -117,6 +126,7 @@ La camiseta se vende por el mismo precio (es decir, 15 $) en las tiendas de Bost
 > Para cada prioridad de precios, se requiere un paso completo a través de la lógica para el motor de precios al por menor. Por lo tanto, para ayudar a mantener el rendimiento del precio y el cálculo del descuento, debe utilizar con moderación las prioridades de precios.
 
 ## <a name="types-of-prices"></a>Tipos de precios
+
 En Microsoft Dynamics 365, puede establecer el precio de un producto en tres ubicaciones:
 
 - Directamente en el producto (precio base)
@@ -126,7 +136,9 @@ En Microsoft Dynamics 365, puede establecer el precio de un producto en tres ubi
 El precio base y el precio del acuerdo comercial forma parte de Microsoft Dynamics 365, y está disponible incluso si no utiliza Retail. La funcionalidad de ajuste de precios solo está disponible en Retail. La siguiente sección proporciona más información sobre cada una de estas opciones para establecer los precios y explica cómo funcionan juntas las opciones.
 
 ## <a name="setting-prices"></a>Configuración de precios
+
 ### <a name="base-price"></a>Precio base
+
 El lugar más fácil para establecer el precio de un producto se encuentra directamente en el producto. El valor que establece directamente en un producto suele denominarse como precio base para el producto. Establece el precio base en el campo **Precio** en la pestaña **Vender** de la página **Detalles de producto emitido**. El valor que introduce está en la divisa de la empresa. De forma predeterminada, el precio es para una cantidad de 1 de la unidad de medida (UdM) definida en el campo **Unidad** en la pestaña **Vender**. El precio real por unidad de un producto se basa en la UdM, la cantidad del precio y la divisa.
 
 Si un producto tiene un precio para todos, el precio base ofrece la forma más eficaz de administrar el precio de dicho producto. Incluso si utiliza acuerdos comerciales para establecer precios, es posible que también establezca el precio base en un producto. A continuación, si no utiliza un acuerdo comercial **Todos**, tendrá un precio de reserva que se usa cuando no se aplica ningún acuerdo comercial.
@@ -136,9 +148,10 @@ Si la divisa de un canal minorista se diferencia de la divisa de la empresa, el 
 Aunque la unidad de precio no es una situación común de comercio al por menor, el motor de precios al por menor la admite. Si la unidad de precio se establece en un valor distinto a **0** (cero), el precio por unidad es igual a Precio ÷ Unidad de precio. Por ejemplo, si el precio de un producto es $10,00 y la unidad de precio es 50, el precio para una cantidad de 1 es 0,20 $ (= 10,00 $ ÷ 50).
 
 ### <a name="sales-price-trade-agreement"></a>Acuerdo comercial de precio de ventas
+
 Al utilizar el diario de acuerdos comerciales, puede crear acuerdos comerciales de precio de ventas para cada producto. En Microsoft Dynamics 365, existen tres ámbitos del cliente para acuerdos comerciales de precio de ventas: **Tabla**, **Grupo** y **Todos**. El ámbito del cliente determina los clientes a los que se aplica un acuerdo comercial de precio de ventas determinado.
 
-Un acuerdo comercial de precio de ventas **Tabla** es para un único cliente que se establece directamente en el acuerdo comercial. Este escenario no es un escenario habitual comercio al por menor empresa-consumidor (B2C). Sin embargo, si se produce, el motor de precios al por menor utiliza los acuerdos comerciales **Tabla** cuando se determina el precio. 
+Un acuerdo comercial de precio de ventas **Tabla** es para un único cliente que se establece directamente en el acuerdo comercial. Este escenario no es un escenario habitual comercio al por menor empresa-consumidor (B2C). Sin embargo, si se produce, el motor de precios al por menor utiliza los acuerdos comerciales **Tabla** cuando se determina el precio.
 
 Un acuerdo comercial de precio de ventas **Grupo** es el tipo que se utiliza con mayor frecuencia en la función de venta minorista. Fuera de Retail, los acuerdos comerciales de precio de ventas **Grupo** son para un grupo de clientes simple. Sin embargo, en Retail, el concepto de un grupo de clientes se ha ampliado de modo que sea un grupo de precios minoristas más genérico. Un grupo de precios se puede vincular a un canal minorista, una afiliación, un programa de fidelidad o un catálogo. Para obtener información detallada sobre los grupos de precios, consulte la sección "Grupos de precios" que se descrige anteriormente en este tema.
 
@@ -146,7 +159,8 @@ Un acuerdo comercial de precio de ventas **Grupo** es el tipo que se utiliza con
 > Un precio de acuerdo comercial siempre se utiliza antes que el precio base.
 
 ### <a name="price-adjustment"></a>Ajuste de precios
-Como el nombre implica, un ajuste de precios se utiliza para modificar el precio que se estableció directamente en el producto o mediante un acuerdo comercial. Un ajuste de precios solo se puede usar para reducir el precio, no para elevarlo. Un ajuste de precios es la forma recomendada para que los minoristas creen, supervisen y administren las reducciones de precios para sus productos a lo largo del tiempo. 
+
+Como el nombre implica, un ajuste de precios se utiliza para modificar el precio que se estableció directamente en el producto o mediante un acuerdo comercial. Un ajuste de precios solo se puede usar para reducir el precio, no para elevarlo. Un ajuste de precios es la forma recomendada para que los minoristas creen, supervisen y administren las reducciones de precios para sus productos a lo largo del tiempo.
 
 Existen tres tipos de ajustes de precios: el porcentaje de reducción, el importe de reducción y el precio. Un ajuste de precios del tipo porcentaje de reducción o importe de reducción siempre se aplica a una transacción de venta. Sin embargo, un ajuste de precios del tipo precio solo se aplica si el precio ajustado es menor que el precio que se estableció mediante el precio base o el precio del acuerdo comercial. Por lo tanto, si el precio que se establece en un ajuste de precios es mayor que el precio sin ajustar, el ajuste de precios no se utiliza.
 
@@ -158,13 +172,14 @@ La única excepción al principio de encontrar el mejor precio para el cliente e
 
 El motor de precios al por menor devuelve tres precios para cada producto: el precio base, el precio de acuerdo comercial y el precio activo.
 
-El precio base es solo la propiedad del producto y es el mismo para todos en cualquier parte. 
+El precio base es solo la propiedad del producto y es el mismo para todos en cualquier parte.
 
 En el acuerdo comercial del precio de venta, si la opción **Buscar siguiente** se establece en **Sí**, el precio más bajo que se encuentra para los acuerdos comerciales del precio de ventas aplicable se utiliza como el precio del acuerdo comercial. Los acuerdos comerciales se pueden encontrar mediante el uso de grupos de precios o el código de cuenta **ALL** . De forma alternativa, los acuerdos comerciales se pueden asignar directamente a un cliente. Si la opción **Buscar siguiente** se establece en **No**, se utiliza el primer precio del acuerdo comercial que se encuentra. Si no se encuentra ningún acuerdo comercial del precio de ventas, el precio del acuerdo comercial es igual al precio base.
 
 El precio activo se calcula tomando el precio del acuerdo comercial y aplicando el ajuste de precios mayor que se aplica al producto. Si no se encuentra ningún ajuste de precios, o si el precio activo calculado es mayor que el precio del acuerdo comercial, el precio activo es igual al precio del acuerdo comercial. Recuerde que no podrá subir el precio de un producto mediante un ajuste de precios. Los ajustes de precios aplicables se pueden encontrar solo mediante grupos de precios que se asignan a un canal, catálogo, afiliación o programa de fidelidad.
 
 ## <a name="category-price-rules"></a>Reglas de precios de categoría
+
 La función de reglas de precios de categorías en Retail le brinda una forma sencilla de crear nuevos acuerdos comerciales para todos los productos en una categoría. Esta función también le permite encontrar automáticamente acuerdos comerciales existentes para los productos de la categoría y caducarlos.
 
 Al seleccionar la opción de caducar los acuerdos comerciales existentes, el sistema crea un nuevo diario de acuerdos comerciales para los productos de la categoría que tenga un acuerdo comercial activo. Sin embargo, el diario debe registrarse manualmente. Además, las reglas del precio de categoría puede encontrar acuerdos comerciales existentes solo si usa la misma regla de precios (es decir, si crea una nueva regla de precios que emplea la misma categoría que antes). Si no utiliza la misma regla de precios, los acuerdos comerciales existentes no caducarán.
@@ -186,6 +201,7 @@ Los precios se pueden aumentar o disminuir mediante los campos **Regla de precio
 Para actualizar fácilmente los precios de varios productos de distintas categorías de productos, puede usar las categorías de productos adicionales junto con las reglas del precios por categoría.
 
 ## <a name="best-practices"></a>Prácticas recomendadas
+
 Microsoft SQL Server Express se suele utilizar para las bases de datos de canales debido al coste (gratuito). Tenga en cuenta que SQL Server Express tiene limitaciones de hardware y límites en el tamaño de los datos. Si no planifica correctamente, puede alcanzar rápidamente los límites de tamaño de datos de SQL Server Express. Esta consideración no solo se aplica a los precios, sino también a otras áreas del producto. Aquí se muestran algunas prácticas recomendadas que pueden ayudarle a reducir el tamaño de los datos:
 
 - Si utiliza acuerdos comerciales y sus precios cambian, debe caducar los acuerdos comerciales antiguos estableciendo una fecha final. Con el tiempo, este enfoque ayuda a reducir el número de acuerdos comerciales que se mantienen en las bases de datos de canales. También ayuda a reducir la cantidad de datos con la que debe trabajar el algoritmo del cálculo de precios.
@@ -195,12 +211,14 @@ Microsoft SQL Server Express se suele utilizar para las bases de datos de canale
     De forma alternativa, si no todos los valores de una dimensión generan un precio diferente, puede definir un acuerdo comercial para el producto maestro y dejar en blanco todas las dimensiones del producto. A continuación, defina un acuerdo comercial independiente solo para cada valor de dimensión que genere un precio diferente. Por ejemplo, si el tamaño XXL tiene un precio mayor, pero el resto de tamaños tiene el mismo precio, se requieren solo dos acuerdos comerciales: uno para el producto maestro y otro para el tamaño XXL.
 
 ## <a name="prices-that-include-tax-vs-prices-that-exclude-tax"></a>Precios que incluyen impuestos frente a precios sin impuestos
+
 Al estabelcer precios de venta en Microsoft Dynamics 365, no especifica si el valor del precio que está configurando incluye o excluye impuestos. El valor es solo el precio. Sin embargo, la configuración **El pecio incluye impuestos** en los canales minoristas le permite configurar los canales minoristas para que incluyan o excluyan los impuestos de los precios. Esta configuración se establece en el canal y puede cambiar incluso en una sola empresa.
 
 Si trabaja con tipos de impuestos incluidos y exclusivos, es muy importante que configure los precios correctamente, ya que el importe total que el cliente paga cambiará si se cambia la configuración **El precio incluye impuestos** en el canal.
 
 ## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Diferencias entre precios al por menor y precios no al por menor
-Un único motor de precios se utiliza para calcular precios al por menor en todos los canales: centro de llamadas, tienda y tiendas en línea. Esto ayuda a habilitar los escenarios de comercio unificados. 
+
+Un único motor de precios se utiliza para calcular precios al por menor en todos los canales: centro de llamadas, tienda y tiendas en línea. Esto ayuda a habilitar los escenarios de comercio unificados.
 
 Los precios al por menor están diseñados para trabajar con las entidades minoristas en lugar de con entidades no minoristas. Específicamente, está diseñado para establecer precios por tienda, no por almacén.
 

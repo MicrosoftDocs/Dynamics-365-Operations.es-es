@@ -35,15 +35,13 @@ Puede estudiar patrones y tendencias de ventas en tiempo real en Microsoft Dynam
 
 Como parte de Dynamics 365 for Retail, los usuarios pueden estudiar patrones y tendencias de ventas en tiempo real en distintos niveles de la jerarquía organizativa durante un período de años usando el informe listo para usar **Ventas de canal por año**. Puede abrir este informe desde cualquiera de las ubicaciones siguientes:
 
--   Espacio de trabajo **Gestión de tienda de venta minorista** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de ventas de canal por año**
--   Espacio de trabajo **Operaciones financieras de tienda** &gt; **Retail** &gt; **Canales** &gt; **Operaciones financieras de tienda** &gt; **Informes** &gt; **Informe de ventas de canal por año**
--   Sección **Consultas e informes** &gt; **Retail** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de ventas de canal por año**
+- Espacio de trabajo **Gestión de tienda de venta minorista** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de ventas de canal por año**
+- Espacio de trabajo **Operaciones financieras de tienda** &gt; **Retail** &gt; **Canales** &gt; **Operaciones financieras de tienda** &gt; **Informes** &gt; **Informe de ventas de canal por año**
+- Sección **Consultas e informes** &gt; **Retail** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de ventas de canal por año**
 
 Los usuarios también pueden estudiar patrones y tendencias de ventas por hora en distintos niveles de la jerarquía organizativa durante un período seleccionado usando el informe listo para usar **Ventas de canal por hora**. Puede abrir este informe desde cualquiera de las ubicaciones siguientes:
 
--   Espacio de trabajo **Gestión de tienda de venta minorista** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de ventas de canal por hora**
--   Espacio de trabajo **Operaciones financieras de tienda** &gt; **Retail** &gt; **Canales** &gt; **Operaciones financieras de tienda** &gt; **Informes** &gt; **Informe de ventas de canal por hora**
--   Sección **Consultas e informes** &gt; **Retail** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de ventas de canal por hora**
-
-
+- Espacio de trabajo **Gestión de tienda de venta minorista** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de ventas de canal por hora**
+- Espacio de trabajo **Operaciones financieras de tienda** &gt; **Retail** &gt; **Canales** &gt; **Operaciones financieras de tienda** &gt; **Informes** &gt; **Informe de ventas de canal por hora**
+- Sección **Consultas e informes** &gt; **Retail** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de ventas de canal por hora**
 

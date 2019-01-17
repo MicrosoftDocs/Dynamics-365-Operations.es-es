@@ -25,11 +25,11 @@
                   href: get-started/system-requirements-on-prem.md
                 - name: Configurar Warehousing para implementaciones locales
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
-            - name: Versiones estándar y de destino de la plataforma
+            - name: Actualizaciones de servicio de primera versión y versión estándar
               href: get-started/public-preview-releases.md
             - name: Comprar Finance and Operations
               items:
-                - name: Comprar Finance and Operations (local)
+                - name: Comprar Finance and Operations (On-Premises)
                   href: get-started/purchase-on-premises.md
         - name: Novedades y cambios
           href: get-started/whats-new-changed.md
@@ -48,15 +48,15 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Características no implementadas en implementaciones locales
               href: get-started/features-not-implemented-on-prem.md
-            - name: Finance and Operations versión 8.1.3 (diciembre de 2018)
+            - name: Versión 8.1.3 de Finance and Operations (enero de 2019)
               href: get-started/whats-new-changed-8-1-3.md
-            - name: Platform update 23 (diciembre de 2018)
+            - name: Platform update 23 (enero de 2019)
               href: get-started/whats-new-platform-update-23.md
-            - name: Platform update 22 (noviembre de 2018)
+            - name: Platform update 22 (diciembre de 2018)
               href: get-started/whats-new-platform-update-22.md
-            - name: Finance and Operations versión 8.1.2 (noviembre de 2018)
+            - name: Finance and Operations versión 8.1.2 (diciembre de 2018)
               href: get-started/whats-new-changed-8-1-2.md
-            - name: Versión 8.1.1 de Finance and Operations (octubre de 2018)
+            - name: Finance and Operations versión 8.1.1 (octubre de 2018)
               href: get-started/whats-new-changed-8-1-1.md
             - name: Versión 8.1 de Finance and Operations (octubre de 2018)
               href: get-started/whats-new-changed-8-1-October-2018.md
@@ -373,6 +373,18 @@
                       href: ../supply-chain/sales-marketing/field-service-work-order.md
                     - name: Sincronizar facturas de acuerdos en Field Service con facturas de servicios en Finance and Operations
                       href: ../supply-chain/sales-marketing/field-service-invoice.md
+                    - name: Sincronizar transferencias y ajustes de inventario de Field Service a Finance and Operations
+                      href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                    - name: Sincronizar información de nivel de inventario de Finance and Operations a Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                    - name: Sincronizar productos con unidad de inventario de Finance and Operations a Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                    - name: Sincronizar lista de proyectos de Finance and Operations a Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-project-list.md
+                    - name: Sincronizar almacenes de Finance and Operations a Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-warehouse.md
+                    - name: Sincronizar pedidos de trabajo de Finance and Operations a Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-work-orders.md
                 - name: Configurar la integración de Project Service Automation
                   href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
                   items:
@@ -388,8 +400,8 @@
                       href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
                     - name: Sincronizar valores reales del proyecto con el diario de integración del proyecto
                       href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
-                - name: Consumir servicios web externos
-                  href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+        - name: Consumir servicios web externos
+          href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
     - name: Administración de datos
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -405,6 +417,8 @@
                   href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Paquetes de datos de configuración (solo la versión de julio de 2017)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
+                - name: Hacer que un almacén de entidades esté disponible como un Data Lake
+                  href: ../dev-itpro/data-entities/entity-store-data-lake.md?toc=/fin-and-ops/toc.json
             - name: Plantillas de datos de configuración
               href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/fin-and-ops/toc.json
             - name: Realizar un seguimiento de los cambios en una entidad
@@ -529,6 +543,8 @@
                   href: ../financials/accounts-payable/centralized-payments-accounts-payable.md
                 - name: Configurar liquidación
                   href: ../financials/cash-bank-management/configure-settlement.md
+                - name: Resto de liquidación
+                  href: ../financials/cash-bank-management/settle-remainder.md
                 - name: Visión general de pagos de proveedor
                   href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
                 - name: Espacio de trabajo de pagos de proveedor
@@ -2103,8 +2119,6 @@
               href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
             - name: Registrar una factura de servicios
               href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
-            - name: Producir el informe electrónico de contabilidad de libro mayor del producto mexicano versión 1.1
-              href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
             - name: Configurar parámetros para una factura electrónica
               href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
             - name: Configurar códigos de impuestos para México
@@ -2423,7 +2437,7 @@
               href: ../talent/performance-management-overview.md
             - name: Sintonizar las aptitudes de los recursos con las necesidades empresariales
               href: ../talent/skills.md
-            - name: Configuración de cursos de formación.
+            - name: Configurar cursos de formación.
               href: ../talent/courses.md
         - name: Crear y mantener prestaciones
           items:

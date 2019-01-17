@@ -51,7 +51,7 @@ Mucho de este contenido también se aplica a los productos relacionados: Microso
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack para Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Incorporación de un proyecto</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Preparación para la publicación</a></p>
-  
+
 <h3><a href="../financials/index.md">Administración financiera</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Proveedores</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Clientes</a></p>
@@ -65,7 +65,7 @@ Mucho de este contenido también se aplica a los productos relacionados: Microso
 <p><a href="../financials/public-sector/public-sector-functionality.md">Sector público</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Características normativas regionales</a></p>
 
-<H3><a href="hr/hr-landing-page.md">Recursos humanos</a></h3>
+<h3><a href="hr/hr-landing-page.md">Recursos humanos</a></h3>
 <p><a href="../talent/manage-benefit-program.md">Prestaciones</a></p>
 <p><a href="../talent/performance-management-overview.md">Desarrollo y formación de empleados</a></p>
 <p><a href="../talent/questionnaires.md">Cuestionario</a></p>

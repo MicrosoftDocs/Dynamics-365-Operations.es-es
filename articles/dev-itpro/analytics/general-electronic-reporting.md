@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
-ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
+ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
+ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
 ms.contentlocale: es-es
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -174,11 +174,11 @@ Un repositorio de **Sistema de archivos** proporciona acceso a la lista de confi
 - entornos alojados en la nube implementados para fines de desarrollo (que contienen los modelos de prueba de suites)
 - entornos implementados localmente (implementación de datos empresariales locales o en local (LBD))
 
-Visite la página [Importar configuraciones de informes electrónicos (ER)](/electronic-reporting-import-ger-configurations.md) para obtener más información sobre ésta.
+Visite la página [Importar configuraciones de informes electrónicos (ER)](./electronic-reporting-import-ger-configurations.md) para obtener más información sobre ésta.
 
 Un repositorio de **instancia RCS** proporciona acceso a la lista de configuraciones de una instancia RCS específica que se seleccionó en la etapa de registro del repositorio. ER le permite importar configuraciones completadas o compartidas desde la instancia de RCS seleccionada a la instancia de Finance and Operations actual utilizada para el informe de errores electrónico.
 
-Visite la página [Importar configuraciones de informes electrónicos (ER) desde Servicios de configuración reglamentaria (RCS)](/rcs-download-configurations.md) para obtener más información sobre ésta.
+Visite la página [Importar configuraciones de informes electrónicos (ER) desde Servicios de configuración reglamentaria (RCS)](./rcs-download-configurations.md) para obtener más información sobre ésta.
 
 Los repositorios necesarios del **Proyecto LCS**, **Sistema de archivos** y **Servicios de configuración reglamentaria (RCS)** se pueden registrar de manera individual para cada proveedor de configuración de la instancia actual de Finance and Operations. Cada repositorio se puede dedicar a un proveedor de configuración específico.
 

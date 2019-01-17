@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 08e939f87bc4a1769533b205bc5706648e1d1dce
+ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
 ms.contentlocale: es-es
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -62,7 +62,7 @@ Al copiar un cliente, el sistema intenta guardar la nueva información del clien
 
 ## <a name="copy-a-customer-by-using-tax-exempt-number-search-feature"></a>Copiar un cliente mediante la función de búsqueda del número de identificación fiscal
 
-También puede copiar proveedores mediante la función de búsqueda del número de identificación fiscal que se encuentra en el grupo **Registro** de la pestaña **Cliente** del panel de acciones de la página **Todos los clientes**. El cuadro de diálogo **Búsqueda de NIF** que aparece muestra los números de identificación fiscal, el id. del cliente, el nombre del cliente y la entidad jurídica en la que se usa el identificador fiscal. Solo puede copiar un cliente si se encuentra en una entidad jurídica que no es la entidad jurídica actual. Tras seleccionar un cliente que cumpla este criterio, siga estos pasos.
+También puede copiar clientes mediante la función de búsqueda del número de identificación fiscal que se encuentra en el grupo **Registro** de la pestaña **Cliente** del panel de acciones de la página **Todos los clientes**. El cuadro de diálogo **Búsqueda de NIF** que aparece muestra los números de identificación fiscal, el id. del cliente, el nombre del cliente y la entidad jurídica en la que se usa el identificador fiscal. Solo puede copiar un cliente si se encuentra en una entidad jurídica que no es la entidad jurídica actual. Tras seleccionar un cliente que cumpla este criterio, siga estos pasos.
 
 1. Aparece una opción **Copiar cliente**. Esta opción se establece en **No** de forma predeterminada. Para copiar el cliente en la entidad jurídica actual, establezca la opción en **Sí**. 
 2. Seleccione **Seleccionar**. Se crea el nuevo cliente.

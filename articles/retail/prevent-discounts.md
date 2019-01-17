@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: eaee79e2a20ab443cf3779e8499bf29d63ad3dfc
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: c9d3e7af95dffddfddc34059d93a2a5a350d08e5
 ms.contentlocale: es-es
-ms.lasthandoff: 08/29/2018
+ms.lasthandoff: 01/15/2019
 
 ---
 
@@ -35,11 +35,11 @@ Existen varios motivos por los que los minoristas pueden querer evitar que algun
 
 Las opciones siguientes, que se pueden encontrar en la pestaña **Ventas al por menor** de productos emitidos, permitirán que el producto se configure para evitar todos o descuentos manuales. Los valores también se pueden especificar al nivel de categoría de la jerarquía de categoría minorista.
 
-**Evite todos los descuentos**: Seleccione esta opción para impedir que se apliquen todos los tipos de descuentos a este producto. Esto incluye promociones como Descuentos combinados, los descuentos de cantidad y de umbral, así como los descuentos manuales de línea y transacción que se aplican durante una venta por un PDV.
+- **Evite todos los descuentos**: Seleccione esta opción para impedir que se apliquen todos los tipos de descuentos a este producto. Esto incluye promociones como Descuentos combinados, los descuentos de cantidad y de umbral, así como los descuentos manuales de línea y transacción que se aplican durante una venta por un PDV.
+- **Evitar los descuentos manuales**: Seleccione esta opción para evitar sólo los descuentos manuales de la línea o transacción que se aplican durante una venta por un usuario PDV. Los productos con esta opción seleccionada todavía están aptos para promociones, como descuentos de combinados y de cantidad y de umbral.
 
-**Evite los descuentos manuales**: Seleccione esta opción para evitar sólo los descuentos manuales de la línea o transacción que se aplican durante una venta por un usuario PDV. Los productos con esta opción seleccionada todavía están aptos para promociones, como descuentos de combinados y de cantidad y de umbral.
+> [!NOTE]
+> Estos ajustes no limitan la operación de la anulación de precio, ya que esto establece el precio base y no se trata como un descuento.
 
-**Nota**: Estos ajustes no limitan la operación de la anulación de precio, ya que esto establece el precio base y no se trata como un descuento.  
-
-[![evite el campo de descuentos](./media/prevent discounts.png)](./media/prevent discounts.png)
+[![evite el campo de descuentos](./media/prevent-discounts.png)](./media/prevent-discounts.png)
 

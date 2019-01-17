@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 65e60f3e289bb68ea055548299d58bca42e84c02
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 17cd46ba9ee972c92db8950eea1cd258d67c2e92
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -28,8 +28,9 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-## <a name="overview"></a>Información general 
-Según la configuración de Retail headquarters, los productos se pueden clasificar como serializados o no serializados. Cuando se serializan los productos, cada artículo se puede asignar un número único que le permite hacer un seguimiento de las garantías, los artículos y confirmar la propiedad. Aunque la capacidad para proporcionar los números de serie de los productos existía en los PDV modernos o en la nube, se han agregado algunas mejoras para que los cajeros puedan ahorrar tiempo y ser más productivos.  
+## <a name="overview"></a>Información general
+
+Según la configuración de Retail headquarters, los productos se pueden clasificar como serializados o no serializados. Cuando se serializan los productos, cada artículo se puede asignar un número único que le permite hacer un seguimiento de las garantías, los artículos y confirmar la propiedad. Aunque la capacidad para proporcionar los números de serie de los productos existía en los PDV modernos o en la nube, se han agregado algunas mejoras para que los cajeros puedan ahorrar tiempo y ser más productivos.
 
 ## <a name="pos-improvements"></a>Mejoras de PDV
 
@@ -37,9 +38,9 @@ Según la configuración de Retail headquarters, los productos se pueden clasifi
 
     Para cada artículo serializado donde el número de serie se ha omitido, aparecerá un comentario en la línea de transacción. Este comentario indica que no se proporcionó el número de serie del artículo. Por lo tanto, el cajero puede buscar rápidamente los artículos a los que les falta el número de serie.
 
-    La nueva operación **Agregar número de serie** también proporciona el número de serie de los artículos a los cuales les falta el mismo. Una vez proporcionado el número de serie, no se puede editar. El cajero debe anular la línea y agregar el producto de nuevo. 
+    La nueva operación **Agregar número de serie** también proporciona el número de serie de los artículos a los cuales les falta el mismo. Una vez proporcionado el número de serie, no se puede editar. El cajero debe anular la línea y agregar el producto de nuevo.
     
-- **Los números de serie no son necesarios para realizar pedidos de cliente**: los pedidos de cliente se pueden realizar en una tienda y cerrar en otra. Un cajero que realiza un pedido de cliente no tiene por qué proporcionar el número de serie. Este número se proporciona durante el paso de selección o de recogida. Sin embargo, se debe proporcionar el número de serie de todos los artículos de línea en los cuales se seleccionó el tipo de entrega **Ejecutar**. Si no, la transacción no se podrá completar.    
+- **Los números de serie no son necesarios para realizar pedidos de cliente**: los pedidos de cliente se pueden realizar en una tienda y cerrar en otra. Un cajero que realiza un pedido de cliente no tiene por qué proporcionar el número de serie. Este número se proporciona durante el paso de selección o de recogida. Sin embargo, se debe proporcionar el número de serie de todos los artículos de línea en los cuales se seleccionó el tipo de entrega **Ejecutar**. Si no, la transacción no se podrá completar.
 - **Los productos serializados no se agregan en la pantalla de la transacción**: la configuración **Productos agregados** del grupo de campo **Terminal** en la página **Perfil de funcionalidad** le permite agregar los mismos productos no serializados en la pantalla de la transacción. Cuando se agregan los mismos productos, estos son fáciles de ver en la cuadrícula de la transacción. Sin embargo, ya que los números de serie suelen ser únicos y como los ayudantes de ventas no tienen que escribir los números de serie hasta que no finaliza la transacción, la configuración **Productos agregados** no se aplica a los productos serializados. Así pues, los productos serializados no se agregarán en la pantalla de la transacción si la opción de configuración **Productos agregados** está seleccionada.
 - **Capacidad de buscar los diarios según el número de serie** - Los diarios se pueden buscar ahora por los números de serie. Para ello, abra la operación "Diarios" y presione el botón de "Búsqueda avanzada" en la barra de la aplicación. Mediante el botón "Agregar filtro", se puede aplicar un filtro para buscar números de serie también.
 

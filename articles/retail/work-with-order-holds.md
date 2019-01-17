@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 8dcba52526dd9dad1bd8b9753224f6386923f5a1
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -57,7 +57,7 @@ Una vez especificada y guardada la información de bloqueo, el usuario puede cer
 
 Si el indicador **Habilitar finalización de pedidos** está activado en el canal del centro de asistencia telefónica, el pago no tiene que aplicarse a un pedido que se haya puesto en espera. Por el contrario, para un pedido de ventas que no esté en espera, el usuario no puede salir de la página de entrada de pedidos de ventas hasta que no se haya aplicado el pago. Por supuesto, se exigirá el pago antes de liberar el bloqueo del pedido.
 
-Además, los usuarios del centro de asistencia telefónica pueden colocar un bloqueo manual de fraudes en los pedidos que sean sospechosos por algún motivo. Los pedidos también pueden ponerse en espera automáticamente cuando coincidan con los criterios y las reglas de fraude activos. Para obtener más información acerca de este tipo de bloqueo de pedido, consulte [Configurar alertas de fraude](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Además, los usuarios del centro de asistencia telefónica pueden colocar un bloqueo manual de fraudes en los pedidos que sean sospechosos por algún motivo. Los pedidos también pueden ponerse en espera automáticamente cuando coincidan con los criterios y las reglas de fraude activos. Para obtener más información acerca de este tipo de bloqueo de pedido, consulte [Configurar alertas de fraude](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Visualización y gestión de los pedidos que están en espera
 

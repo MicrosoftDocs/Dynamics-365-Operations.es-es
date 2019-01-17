@@ -19,10 +19,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 11e059b52eb5496d8b63a55113099b493f815e69
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: c2539af8a29b580a10002bc8648505d42c7b8456
 ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -62,7 +62,7 @@ Modern POS para Android es una versión basada en Android del programa Modern PO
 
 Los periféricos de PDV son dispositivos que admiten explícitamente las funciones del PDV. Estos periféricos se suelen dividir en clases específicas. Para obtener más información sobre estas clases, consulte la sección sobre clases de dispositivos de este tema.
 
-### <a name="hardware-station"></a>Estación de hardware
+### <a name="hardware-station"></a>Hardware Station
 
 Navegación: haga clic en **Retail** &gt; **Canales** &gt; **Tiendas** &gt; **Todas las tiendas minoristas**. Seleccione una tienda y, a continuación, haga clic en la ficha desplegable **Estaciones de hardware**. La configuración de la **Estación de hardware** es un valor a nivel de canal que se usa para definir las instancias donde se implementará la lógica periférica de Retail. Este valor a nivel de canal se usa para determinar las características de la estación de hardware. También se usa para mostrar las estaciones de hardware que están disponibles para una instancia de Modern POS en una tienda determinada. La estación de hardware se ha incluido en el programa Modern POS para Windows. La estación de hardware también se puede implementar independientemente como programa independiente de Microsoft Internet Information Services (IIS). En este caso, puede tener acceso a través de una red.
 
@@ -114,22 +114,28 @@ Cuando se configura una pantalla secundaria, se utilizará el número 2 de panta
 La compatibilidad con el dispositivo de pago se implementa a través del conector de pago. Los dispositivos de pago pueden realizar una o varias de las funciones que ofrecen otras clases de dispositivo. Por ejemplo, un dispositivo de pago puede funcionar como un lector de tarjetas/MSR, una pantalla de línea, un dispositivo de captura de firmas o una terminal de ingreso de PIN. La compatibilidad de los dispositivos de pago se implementa independientemente de la del dispositivo independiente que se ofrece para otros dispositivos que se incluyen en el perfil de hardware.
 
 ## <a name="supported-interfaces"></a>Interfaces admitidas
+
 ### <a name="opos"></a>OPDV
 
 Para ayudar a garantizar que se pueden utilizar la mayor variedad posible de dispositivos con Microsoft Dynamics 365 for Retail, la norma OLE del sector de PDV es la plataforma principal de dispositivos periféricos para aplicaciones minoristas que admite Microsoft Dynamics 365 for Retail. La norma OLE para PDV la creó National Retail Federation (NRF), la cual establece los protocolos de comunicación estándares del sector para los dispositivos periféricos para aplicaciones de comercio minorista. OPDV es una implementación ampliamente adoptada de norma OLE para PDV. Se desarrolló a mitad de los años 90 y se ha actualizado varias veces desde entonces. OPDV proporciona una arquitectura de controlador de dispositivos que habilita la integración fácil de hardware de PDV con los sistemas de PDV basados en Windows. Los controles de OPDV gestionan la comunicación entre el hardware compatible y el software de PDV. El control de OPDV consta de dos partes:
 
--   **Objeto de control**: el objeto de control para una clase de dispositivo (como pantallas de línea) ofrece la interfaz para el programa de software. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) proporciona un conjunto normalizado de objetos de control de OPDV denominados Common Control Objects (CCO). Los CCO se usan para probar el componente de PDV de Microsoft Dynamics 365 for Retail. Por lo tanto, las pruebas ayudan a garantizar que, si Microsoft Dynamics 365 for Retail admite una clase de dispositivo con OPDV, muchos tipos de dispositivo pueden ser compatible, siempre que el proveedor proporcione un objeto de servicio que se genere para OPDV. No es necesario probar explícitamente cada tipo de dispositivo.
--   **Objeto de servicio**: el objeto de servicio proporciona comunicación entre el objeto de control (CCO) y el dispositivo. Por lo general, el objeto de servicio para un dispositivo lo proporciona el fabricante del dispositivo. Sin embargo, en algunos casos, es posible que tenga que descargar el objeto de servicio de la página web del fabricante. Por ejemplo, un objeto de servicio más reciente puede estar disponible. Para encontrar la dirección de la página web del fabricante, vea la documentación de hardware.
+- **Objeto de control**: el objeto de control para una clase de dispositivo (como pantallas de línea) ofrece la interfaz para el programa de software. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) proporciona un conjunto normalizado de objetos de control de OPDV denominados Common Control Objects (CCO). Los CCO se usan para probar el componente de PDV de Microsoft Dynamics 365 for Retail. Por lo tanto, las pruebas ayudan a garantizar que, si Microsoft Dynamics 365 for Retail admite una clase de dispositivo con OPDV, muchos tipos de dispositivo pueden ser compatible, siempre que el proveedor proporcione un objeto de servicio que se genere para OPDV. No es necesario probar explícitamente cada tipo de dispositivo.
+- **Objeto de servicio**: el objeto de servicio proporciona comunicación entre el objeto de control (CCO) y el dispositivo. Por lo general, el objeto de servicio para un dispositivo lo proporciona el fabricante del dispositivo. Sin embargo, en algunos casos, es posible que tenga que descargar el objeto de servicio de la página web del fabricante. Por ejemplo, un objeto de servicio más reciente puede estar disponible. Para encontrar la dirección de la página web del fabricante, vea la documentación de hardware.
 
-[![Objeto de control y objeto de servicio](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) La compatibilidad para la implementación de OPDV de OLE para PDV ayuda a garantizar que, si los fabricantes de dispositivos y los editores de PDV implementan la norma correctamente, los sistemas de PDV y los dispositivos admitidos pueden trabajar conjuntamente, incluso si no se probaron antes conjuntamente. **Nota:** La compatibilidad de OPDV no garantiza que se admitan todos los dispositivos que tienen controladores de OPDV. Microsoft Dynamics 365 for Retail debe primero admitir ese tipo de dispositivo o clase con OPDV. Además, los objetos de servicio no siempre pueden actualizarse con la última versión del CCO. También debe tener en cuenta que, en general, la calidad de los objetos del servicio varía.
+[![Objeto de control y objeto de servicio](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
+
+La compatibilidad para la implementación de OPDV de OLE para PDV ayuda a garantizar que, si los fabricantes de dispositivos y los editores de PDV implementan la norma correctamente, los sistemas de PDV y los dispositivos admitidos pueden trabajar conjuntamente, incluso si no se probaron antes conjuntamente.
+
+> [!NOTE]
+> La compatibilidad de OPDV no garantiza que se admitan todos los dispositivos que tienen controladores de OPDV. Microsoft Dynamics 365 for Retail debe primero admitir ese tipo de dispositivo o clase con OPDV. Además, los objetos de servicio no siempre pueden actualizarse con la última versión del CCO. También debe tener en cuenta que, en general, la calidad de los objetos del servicio varía.
 
 ### <a name="windows"></a>Windows
 
 La impresión de recibos en el PDV se optimiza para OPDV. OPDV tiende a ser mucho más rápido que imprimir a través de Windows. Por tanto, es recomendable usar OPDV, especialmente en entornos minoristas donde se imprimen recibos de 40 columnas y los tiempos de transacción tienen que ser rápidos. Para la mayoría de los dispositivos, deberá utilizar controles de OPDV. Sin embargo, algunas impresoras de recibos de OPDV también admiten controladores de Windows. Si usa un controlador de Windows, puede tener acceso a las últimas fuentes y conectar en red una impresora para varios registros. Sin embargo, existen desventajas al utilizar los conductores de Windows. Algunos ejemplos estas desventajas son:
 
--   Cuando se usan los controladores de Windows, las imágenes se generan antes de la impresión. Por lo tanto, la impresión tiende a ser más lenta que en impresoras que usan controles de OPDV.
--   Los dispositivos conectados a través de la impresora ("cadena margarita") pueden no funcionar correctamente cuando se usan los controladores de Windows. Por ejemplo, la caja registradora puede que no se abra o la impresora de recibos puede que no funcione como espera.
--   OPDV también admite un conjunto más amplio de variables que son específicas de las impresoras de recibos en aplicaciones minoristas, como papel para cortar o impresión de resguardos.
+- Cuando se usan los controladores de Windows, las imágenes se generan antes de la impresión. Por lo tanto, la impresión tiende a ser más lenta que en impresoras que usan controles de OPDV.
+- Los dispositivos conectados a través de la impresora ("cadena margarita") pueden no funcionar correctamente cuando se usan los controladores de Windows. Por ejemplo, la caja registradora puede que no se abra o la impresora de recibos puede que no funcione como espera.
+- OPDV también admite un conjunto más amplio de variables que son específicas de las impresoras de recibos en aplicaciones minoristas, como papel para cortar o impresión de resguardos.
 
 Si los controles de OPDV están disponibles para la impresora de Windows que usa, la impresora debe aún así funcionar correctamente con Microsoft Dynamics 365 for Retail.
 
@@ -154,6 +160,7 @@ El tipo de dispositivo **Windows** se usa solo para impresoras. Cuando una impre
 Las cajas registradoras, las impresoras de recibos y los terminales de pago gestionables a través de la red se pueden usar en una red, ya sea directamente a través de la estación de hardware de las comunicaciones entre procesos (IPC) que se genera en Modern POS para la aplicación de Windows o a través de la estación de hardware de IIS para otros clientes de Modern POS.
 
 ## <a name="hardware-station-deployment-options"></a>Opciones de implementación de la estación de hardware
+
 ### <a name="ipc-built-in"></a>IPC (integrado)
 
 La estación de hardware de las comunicaciones entre procesos (IPC) se ha incluido en Modern POS para la aplicación de Windows. Para usar la estación de hardware de IPC, asigne un perfil de hardware a un registro que Modern POS para la aplicación de Windows. A continuación, cree una estación de hardware de tipo **Dedicado** para la tienda donde se usará el registro. Al iniciar Modern POS, la estación de hardware de IPC estará activa y periféricos de PDV que se han configurado estarán listos para usarse. Si no necesita temporalmente el hardware local por algún motivo, utilice la operación **Gestionar estaciones de hardware** para desactivar las capacidades de la estación de hardware. Modern POS también puede usar la estación de hardware de IPC para comunicarse directamente con los periféricos de la red.
@@ -170,9 +177,9 @@ Modern POS usa estaciones de hardware de tipo **Dedicado** para detectar que los
 
 Las estaciones compartidas de hardware se utilizan para su uso en múltiples dispositivos de PDV a lo largo del día. Las estaciones compartidas de hardware se optimizan para admitir solo cajas registradoras, impresoras de recibos y terminales de pago. No puede conectar directamente los escáneres de código de barras independientes, los MSR, pantallas las de línea, las balanzas u otros dispositivos. Si no, aparecerán conflictos cuando varios dispositivos PDV intentan demandar esos periféricos al mismo tiempo. Aquí se explica cómo se gestionan los conflictos de los dispositivos admitidos:
 
--   **La caja registradora** la caja registradora se abre mediante un evento que se envía al dispositivo. El único problema que puede ocurrir cuando se llama a la caja registradora es que ya esté abierta. En el caso de las estaciones de hardware compartidas, la caja registradora se debe establecerse en **Compartida** en el perfil de hardware. Este valor impide que los PDV comprueben si la caja registradora ya está abierta cuando envían comandos para abrirla.
--   **Impresora de recibos**: si se envían dos comandos de impresión de recibos a la estación de hardware al mismo tiempo, uno de los siguientes comandos se puede perder, en función del dispositivo. Algunos dispositivos tienen memoria interna o agrupaciones que pueden evitar este problema. Si un comando de impresión no se realiza correctamente, el cajero recibe un mensaje de error y puede reintentar el comando de impresión desde el PDV.
--   **Termina de pago**: si un cajero intenta realizar una transacción en un terminal de pago que ya se está usando, un mensaje notifica al cajero que se está utilizando el terminal y se solicita al cajero que lo intente de nuevo más adelante. Normalmente, los cajeros pueden ver que un terminal ya se está usando y esperarán hasta que se complete la otra transacción antes de intentarlo de nuevo.
+- **La caja registradora** la caja registradora se abre mediante un evento que se envía al dispositivo. El único problema que puede ocurrir cuando se llama a la caja registradora es que ya esté abierta. En el caso de las estaciones de hardware compartidas, la caja registradora se debe establecerse en **Compartida** en el perfil de hardware. Este valor impide que los PDV comprueben si la caja registradora ya está abierta cuando envían comandos para abrirla.
+- **Impresora de recibos**: si se envían dos comandos de impresión de recibos a la estación de hardware al mismo tiempo, uno de los siguientes comandos se puede perder, en función del dispositivo. Algunos dispositivos tienen memoria interna o agrupaciones que pueden evitar este problema. Si un comando de impresión no se realiza correctamente, el cajero recibe un mensaje de error y puede reintentar el comando de impresión desde el PDV.
+- **Termina de pago**: si un cajero intenta realizar una transacción en un terminal de pago que ya se está usando, un mensaje notifica al cajero que se está utilizando el terminal y se solicita al cajero que lo intente de nuevo más adelante. Normalmente, los cajeros pueden ver que un terminal ya se está usando y esperarán hasta que se complete la otra transacción antes de intentarlo de nuevo.
 
 La validación está prevista para que una versión futura detecte si los dispositivos no admitidos se configuran para un perfil de hardware que está asignado a una estación de hardware compartida. Si se detectan dispositivos no admitidos, el usuario recibirá un mensaje que indica que los dispositivos no son compatibles para estaciones de hardware compartidas. En el caso de las estaciones compartidas de hardware, la opción **Seleccionar en pago** está establecida en **Sí** a nivel del registro. A continuación se pide que el usuario del PDV seleccione una emisora de hardware cuando se selecciona una forma e pago para una transacción en el PDV. Cuando la estación de hardware solo se selecciona en el momento de la forma de pago, la selección de estación de hardware se agrega directamente al flujo de trabajo de PDV para los escenarios móviles. Como prestación adicional, no se utilizará la pantalla de línea en la terminal de pago para los escenarios compartidos. Si la terminal de pago se usa como pantalla de línea, se podría bloquear a otros usuarios a la hora de usar la terminal hasta que la transacción se complete. En escenarios para aplicaciones móviles, se pueden agregar líneas a transacciones durante un período más largo. Por lo tanto, se requiera la opción **Seleccionar en pago** para garantizar la disponibilidad óptima del dispositivo.
 
@@ -189,24 +196,26 @@ Puede especificar direcciones IP para periféricos de red en dos ubicaciones. Si
 La lógica que controla los periféricos físicamente conectados y que se pueden gestionar en red se encuentran en la estación de hardware. Por lo tanto, para todos los clientes de PDV excepto para Modern POS para Windows, una estación de hardware de IIS debe implementarse y estar activa para permitir al PDV comunicarse con los periféricos, independientemente de si los periféricos están físicamente conectados con una estación de hardware o se gestionan a través de la red.
 
 ## <a name="setup-and-configuration"></a>Establecimiento y configuración
+
 ### <a name="hardware-station-installation"></a>Instalación de la estación de hardware
 
 Para más información, vea [Instalación y configuración de la estación de hardware para Retail](retail-hardware-station-configuration-installation.md).
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Establecimiento y configuración de Modern POS para Windows
 
-Para más información, vea [Instalación y configuración de Modern POS para Retail](retail-modern-pos-device-activation.md).
+Para más información, vea [Instalación y configuración de Retail Modern POS](retail-modern-pos-device-activation.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>Establecimiento y configuración del dispositivo de OPDV
 
 Para obtener más información sobre los componentes de OPDV, consulte la sección "Interfaces admitidas" de este documento. Normalmente, los controladores de OPDV los suministra el fabricante del dispositivo. Cuando un controlador de dispositivo de OPDV está instalado, agrega una clave al Registro de Windows en una de las siguientes ubicaciones:
 
--   **Sistema de 32 bits:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **Sistema de 64 bits:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+- **Sistema de 32 bits:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
+- **Sistema de 64 bits:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
 
 Dentro de la ubicación del registro de ServiceOPOS, los dispositivos configurados se organizan según la clase de dispositivo de OPDV. Se guardan controladores de múltiples dispositivos.
 
 ## <a name="supported-scenarios-by-hardware-station-type"></a>Escenarios compatibles según el tipo de estación de hardware
+
 ### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a>Soporte del cliente: estación de hardware de IPC frente a estación de hardware de IIS
 
 En la tabla siguiente se muestran las topologías y los escenarios de implementación que se admiten.
@@ -230,281 +239,333 @@ Los periféricos de red se admiten directamente a través de la estación de har
 | iOS         | No                   | Sí                  |
 
 ## <a name="supported-device-types-by-hardware-station-type"></a>Tipos de dispositivo compatibles según el tipo de estación de hardware
+
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS para Windows con una estación de hardware de IPC (integrado)
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Clase de dispositivo admitido</th>
 <th>Interfaces admitidas</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Impresora</td>
-<td><ul>
+<td>
+<ul>
 <li>OPDV</li>
 <li>Controlador de Windows</li>
 <li>Dispositivo</li>
 <li>Red</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Impresora 2</td>
-<td><ul>
+<td>
+<ul>
 <li>OPDV</li>
 <li>Controlador de Windows</li>
 <li>Dispositivo</li>
 <li>Red</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Visualización de líneas</td>
 <td>OPDV</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Dos visualizaciones</td>
 <td>Controlador de Windows</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>MSR</td>
-<td><ul>
+<td>
+<ul>
 <li>OPDV</li>
 <li>UWP (No se requiere configuración).</li>
 <li>Cuña de teclado (no se requiere ninguna configuración).</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
-<td>Librador</td>
-<td><ul>
+<tr>
+<td>Cajón</td>
+<td>
+<ul>
 <li>OPDV</li>
-<li><strong>Nota sobre la red:</strong> solo se puede configurar una caja registradora si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</li>
-</ul></td>
+<li>Red
+<blockquote>[!NOTE] Solo se puede configurar una caja registradora si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</blockquote>
+</li>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Cajón 2</td>
-<td><ul>
+<td>
+<ul>
 <li>OPDV</li>
-<li><strong>Nota sobre la red:</strong> solo se puede configurar una caja registradora si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</li>
-</ul></td>
+<li>Red
+<blockquote>[!NOTE] Solo se puede configurar una caja registradora si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</blockquote>
+</li>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Escáner</td>
-<td><ul>
+<td>
+<ul>
 <li>OPDV</li>
 <li>UWP (No se requiere configuración).</li>
 <li>Cuña de teclado (no se requiere ninguna configuración).</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Escáner 2</td>
-<td><ul>
+<td>
+<ul>
 <li>OPDV</li>
 <li>UWP (No se requiere configuración).</li>
 <li>Cuña de teclado (no se requiere ninguna configuración).</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Escala</td>
 <td>OPDV</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Terminal para ingreso de PIN</td>
 <td>OPDV (el soporte se proporciona con personalización del conector de pago.)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Captura de firma</td>
 <td>OPDV</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Terminal de pago </td>
-<td><ul>
+<td>
+<ul>
 <li>Compatibilidad con el dispositivo personalizado</li>
 <li>Red (para obtener más información, consulte la documentación sobre el conector de pago).</li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
 
 ### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>Todos los clientes de Modern POS que tienen una estación de hardware de IIS dedicada
 
-**Nota:** Cuando la emisora de hardware de IIS es "dedicada", una relación unívoca entre el cliente de PDV y la estación de hardware.
+> [!NOTE]
+> Cuando la emisora de hardware de IIS es "dedicada", hay una relación unívoca entre el cliente de PDV y la estación de hardware.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Clase de dispositivo admitido</th>
 <th>Interfaces admitidas</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Impresora</td>
-<td><ul>
+<td>
+<ul>
 <li>OPDV</li>
-<li><strong>Nota sobre el controlador de Windows :</strong> para las impresoras de Windows en red, el usuario de la estación de hardware debe tener permiso para tener acceso a la impresora.</li>
+<li>Controlador de Windows
+<blockquote>[!NOTE] Para las impresoras de Windows en red, el usuario de la estación de hardware debe tener permiso para tener acceso a la impresora.</blockquote>
+</li>
 <li>Red</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Impresora 2</td>
-<td><ul>
+<td>
+<ul>
 <li>OPDV</li>
 <li>Controlador de Windows</li>
 <li>Red</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Visualización de líneas</td>
 <td>OPDV</td>
 </tr>
-<tr class="even">
+<tr>
 <td>MSR</td>
 <td>OPDV</td>
 </tr>
-<tr class="odd">
-<td>Librador</td>
-<td><ul>
+<tr>
+<td>Cajón</td>
+<td>
+<ul>
 <li>OPDV</li>
-<li><strong>Nota sobre la red:</strong> solo se puede configurar una caja registradora por perfil de hardware si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</li>
-</ul></td>
+<li>Red
+<blockquote>[!NOTE] Solo se puede configurar una caja registradora por perfil de hardware si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</blockquote>
+</li>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Cajón 2</td>
-<td><ul>
+<td>
+<ul>
 <li>OPDV</li>
 <li>Red</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Escáner</td>
 <td>OPDV</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Escáner 2</td>
 <td>OPDV</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Escala</td>
 <td>OPDV</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Terminal para ingreso de PIN</td>
 <td>OPDV (el soporte se proporciona con personalización del conector de pago.)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Sig. capturar</td>
 <td>OPDV</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Terminal de pago </td>
-<td><ul>
+<td>
+<ul>
 <li>Compatibilidad con el dispositivo personalizado</li>
 <li>Red (para obtener más información, consulte la documentación sobre el conector de pago).</li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
 
 ### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Todos los clientes de Modern POS que tienen una estación de hardware de IIS compartida
 
-**Nota:** Cuando la estación de hardware de IIS es "compartida”, varios dispositivos pueden usar la estación de hardware al mismo tiempo. Para este escenario, debe usar solamente los dispositivos que se muestran en la tabla siguiente. Si intenta compartir los dispositivos que no se enumeran aquí, como los escáneres de código de barras y los MSR, aparecerán errores cuando varios dispositivos intenten demandar el mismo periférico. En el futuro, tal configuración se impedirá explícitamente.
+> [!NOTE]
+> Cuando la estación de hardware de IIS es "compartida”, varios dispositivos pueden usar la estación de hardware al mismo tiempo. Para este escenario, debe usar solamente los dispositivos que se muestran en la tabla siguiente. Si intenta compartir los dispositivos que no se enumeran aquí, como los escáneres de código de barras y los MSR, aparecerán errores cuando varios dispositivos intenten demandar el mismo periférico. En el futuro, tal configuración se impedirá explícitamente.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Clase de dispositivo admitido</th>
 <th>Interfaces admitidas</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Impresora</td>
-<td><ul>
+<td>
+<ul>
 <li>OPDV</li>
-<li><strong>Nota sobre el controlador de Windows :</strong> para las impresoras de Windows en red, el usuario de la estación de hardware debe tener permiso para tener acceso a la impresora.</li>
+<li>Controlador de Windows
+<blockquote>[!NOTE] Para las impresoras de Windows en red, el usuario de la estación de hardware debe tener permiso para tener acceso a la impresora.</blockquote>
+</li>
 <li>Red</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Impresora 2</td>
-<td><ul>
+<td>
+<ul>
 <li>OPDV</li>
 <li>Controlador de Windows</li>
 <li>Red</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
-<td>Librador</td>
-<td><ul>
+<tr>
+<td>Cajón</td>
+<td>
+<ul>
 <li>OPDV</li>
-<li><strong>Nota sobre la red:</strong> solo se puede configurar una caja registradora por perfil de hardware si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</li>
-</ul></td>
+<li>Red
+<blockquote>[!NOTE] Solo se puede configurar una caja registradora por perfil de hardware si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</blockquote>
+</li>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Cajón 2</td>
-<td><ul>
+<td>
+<ul>
 <li>OPDV</li>
 <li>Red</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Terminal de pago </td>
-<td><ul>
+<td>
+<ul>
 <li>Compatibilidad con el dispositivo personalizado</li>
 <li>Red (para obtener más información, consulte la documentación sobre el conector de pago).</li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>Configuración para los escenarios admitidos
-Para obtener más información sobre cómo crear perfiles de hardware, consulte [Definir y mantener clientes de canal, incluso los registros y las estaciones de hardware](define-maintain-channel-clients-registers-hw-stations.md). **Nota:** Para Microsoft Dynamics 365 for Retail versión 1611, el perfil de la emisora de hardware ya no se usa. Los atributos que configuró anteriormente en el perfil de la estación de hardware son ahora parte de la propia estación de hardware.
+
+Para obtener más información sobre cómo crear perfiles de hardware, consulte [Definir y mantener clientes de canal, incluso los registros y las estaciones de hardware](define-maintain-channel-clients-registers-hw-stations.md).
+
+> [!NOTE]
+> Para Microsoft Dynamics 365 for Retail versión 1611, el perfil de la estación de hardware ya no se usa. Los atributos que configuró anteriormente en el perfil de la estación de hardware son ahora parte de la propia estación de hardware.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS para Windows con una estación de hardware de IPC (integrado)
 
 Esta configuración es la más típica para los registros tradicionales y fijos de PDV. Para este escenario, la información del perfil de hardware se asigna directamente al mismo registro. El número de terminal de EFT se debe establecer en el registro propiamente dicho. Para establecer esta configuración, siga estos pasos.
 
-1.  Cree un perfil de hardware donde se configuren todos los periféricos necesarios.
-2.  Asigne el perfil de hardware a un registro de PDV.
-3.  Cree una estación de hardware de tipo **Dedicado** para la tienda minorista donde se usará el registro de PDV. La descripción es opcional. **Nota:** No es necesario establecer ninguna otra propiedad en la estación de hardware. El resto de la información requerida, como el perfil de hardware, vendrá del mismo registro.
-4.  Haga clic en **Venta minorista** &gt; **TI de venta minorista** &gt; **Programación de distribución**.
-5.  Seleccione la programación de la distribución **1090** para sincronizar el nuevo perfil de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
-6.  Seleccione la programación de la distribución **1040** para sincronizar la nueva estación de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
-7.  Instalar y activar Modern POS para Windows.
-8.  Iniciar Modern POS para Windows y comience a utilizar los dispositivos periféricos conectados.
+1. Cree un perfil de hardware donde se configuren todos los periféricos necesarios.
+2. Asigne el perfil de hardware a un registro de PDV.
+3. Cree una estación de hardware de tipo **Dedicado** para la tienda minorista donde se usará el registro de PDV. La descripción es opcional.
+
+    > [!NOTE]
+    > No es necesario establecer ninguna otra propiedad en la estación de hardware. El resto de la información requerida, como el perfil de hardware, vendrá del mismo registro.
+
+4. Haga clic en **Venta minorista** &gt; **TI de venta minorista** &gt; **Programación de distribución**.
+5. Seleccione la programación de la distribución **1090** para sincronizar el nuevo perfil de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
+6. Seleccione la programación de la distribución **1040** para sincronizar la nueva estación de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
+7. Instalar y activar Modern POS para Windows.
+8. Iniciar Modern POS para Windows y comience a utilizar los dispositivos periféricos conectados.
 
 ### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>Todos los clientes de Modern POS que tienen una estación de hardware de IIS dedicada
 
 Esta configuración se puede utilizar para todos los clientes de Modern POS que tengan una emisora de hardware que se usará exclusivamente por un registro de PDV. Para establecer esta configuración, siga estos pasos.
 
-1.  Cree un perfil de hardware donde se configuren todos los periféricos necesarios.
-2.  Cree una estación de hardware de tipo **Dedicado** para la tienda minorista donde se usará el registro de PDV.
-3.  En la estación dedicada de hardware, establezca las siguientes propiedades:
-    -   **Nombre del host:** el nombre del equipo host donde la estación de hardware se ejecutará. **Nota:** Cloud POS puede resolver **localhost** para determinar el equipo local donde se ejecuta Cloud POS. Sin embargo, el certificado necesario para emparejar Cloud POS con la estación de hardware también debe tener “Localhost” como nombre del equipo. Para evitar problemas, se recomienda que anote una instancia de cada estación dedicada de hardware para la tienda, según convenga. Para cada estación de hardware, el nombre de host debe ser el nombre de equipo específico donde la estación de hardware será implementada.
-    -   **Puerto**: el puerto que se va a utilizar para que la estación de hardware se comunique con el cliente de Modern POS.
-    -   **Perfil de hardware**: si el perfil de hardware no se proporciona en la propia emisora de hardware, el perfil de hardware asignado al registro se usará.
-    -   **Número de PDV de EFT:** El identificador de la terminal de EFT para usar cuando se envían autorizaciones de EFT. Este identificador lo proporciona el procesador de tarjetas de crédito.
-    -   **Nombre del paquete**: el paquete de la estación de hardware para utilizar cuando se implementa la estación de hardware.
+1. Cree un perfil de hardware donde se configuren todos los periféricos necesarios.
+2. Cree una estación de hardware de tipo **Dedicado** para la tienda minorista donde se usará el registro de PDV.
+3. En la estación dedicada de hardware, establezca las siguientes propiedades:
 
-4.  Haga clic en **Venta minorista** &gt; **TI de venta minorista** &gt; **Programación de distribución**.
-5.  Seleccione la programación de la distribución **1090** para sincronizar el nuevo perfil de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
-6.  Seleccione la programación de la distribución **1040** para sincronizar la nueva estación de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
-7.  Instale la estación de hardware. Para obtener más información sobre cómo instalar la estación de hardware, consulte [Configuración e instalación de la estación de hardware de Retail](retail-hardware-station-configuration-installation.md).
-8.  Instalar y activar Modern POS. Para obtener más información sobre cómo instalar PDV, consulte [Configuración e instalación de Modern POS de Retail](retail-modern-pos-device-activation.md).
-9.  Inicie sesión en Modern POS y seleccione **Realizar operaciones no relacionadas con la caja registradora**.
+    - **Nombre del host:** el nombre del equipo host donde la estación de hardware se ejecutará.
+
+        > [!NOTE]
+        > Cloud POS puede resolver **localhost** para determinar el equipo local donde se ejecuta Cloud POS. Sin embargo, el certificado necesario para emparejar Cloud POS con la estación de hardware también debe tener “Localhost” como nombre del equipo. Para evitar problemas, se recomienda que anote una instancia de cada estación dedicada de hardware para la tienda, según convenga. Para cada estación de hardware, el nombre de host debe ser el nombre de equipo específico donde la estación de hardware será implementada.
+
+    - **Puerto**: el puerto que se va a utilizar para que la estación de hardware se comunique con el cliente de Modern POS.
+    - **Perfil de hardware**: si el perfil de hardware no se proporciona en la propia emisora de hardware, el perfil de hardware asignado al registro se usará.
+    - **Número de PDV de EFT:** El identificador de la terminal de EFT para usar cuando se envían autorizaciones de EFT. Este identificador lo proporciona el procesador de tarjetas de crédito.
+    - **Nombre del paquete**: el paquete de la estación de hardware para utilizar cuando se implementa la estación de hardware.
+
+4. Haga clic en **Venta minorista** &gt; **TI de venta minorista** &gt; **Programación de distribución**.
+5. Seleccione la programación de la distribución **1090** para sincronizar el nuevo perfil de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
+6. Seleccione la programación de la distribución **1040** para sincronizar la nueva estación de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
+7. Instale la estación de hardware. Para obtener más información sobre cómo instalar la estación de hardware, consulte [Configuración e instalación de la estación de hardware de Retail](retail-hardware-station-configuration-installation.md).
+8. Instalar y activar Modern POS. Para obtener más información sobre cómo instalar PDV, consulte [Configuración e instalación de Retail Modern POS](retail-modern-pos-device-activation.md).
+9. Inicie sesión en Modern POS y seleccione **Realizar operaciones no relacionadas con la caja registradora**.
 10. Inicie la operación **Administrar estaciones de hardware**.
 11. Haga clic en **Administrar**.
 12. En la página de gestión de la estación de hardware, defina la opción para activar la estación de hardware.
@@ -516,66 +577,85 @@ Esta configuración se puede utilizar para todos los clientes de Modern POS que 
 
 Esta configuración se puede utilizar para todos los clientes de Modern POS que comparten las estaciones de hardware con otros dispositivos. Para establecer esta configuración, siga estos pasos.
 
-1.  Cree un perfil de hardware donde se configuren los periféricos necesarios.
-2.  Cree una estación de hardware de tipo **Compartido** para la tienda minorista donde se usará el registro de PDV.
-3.  En la estación compartida de hardware, establezca las siguientes propiedades:
-    -   **Nombre del host:** el nombre del equipo host donde la estación de hardware se ejecutará.
-    -   **Descripción**: el texto que va a ayudar a identificar la estación de hardware, por ejemplo o **Devoluciones** o **Parte delantera de tienda**.
-    -   **Puerto**: el puerto que se va a utilizar para que la estación de hardware se comunique con el cliente de Modern POS.
-    -   **Perfil de hardware**: para las estaciones compartidas de hardware, cada estación de hardware debe tener un perfil de hardware. Los perfiles de hardware se pueden compartir entre varias estaciones de hardware, pero se deben asignar a cada estación de hardware. Además, se recomienda que use turnos compartidos cuando varios dispositivos usen la misma estación de hardware compartida. Para establecer un turno compartido, haga clic en **Venta minorista** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Perfiles de PDV** &gt; **Perfiles de hardware**. Para cada perfil de hardware compartido, seleccione la caja registradora y establezca la opción **Caja registradora de turno compartido** en **Sí**.
-    -   **Número de PDV de EFT:** El identificador de la terminal de EFT para usar cuando se envían autorizaciones de EFT. Este identificador lo proporciona el procesador de tarjetas de crédito.
-    -   **Nombre del paquete**: el paquete de la estación de hardware para utilizar cuando se implementa la estación de hardware.
+1. Cree un perfil de hardware donde se configuren los periféricos necesarios.
+2. Cree una estación de hardware de tipo **Compartido** para la tienda minorista donde se usará el registro de PDV.
+3. En la estación compartida de hardware, establezca las siguientes propiedades:
 
-4.  Repita los pasos 2 y 3 para cada estación de hardware adicional que sea necesaria en la tienda.
-5.  Haga clic en **Venta minorista** &gt; **TI de venta minorista** &gt; **Programación de distribución**.
-6.  Seleccione la programación de la distribución **1090** para sincronizar el nuevo perfil de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
-7.  Seleccione la programación de la distribución **1040** para sincronizar la nueva estación de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
-8.  Instale la estación de hardware en cada equipo del host que haya configurado en los pasos 2 y 3. Para obtener más información sobre cómo instalar la estación de hardware, consulte [Configuración e instalación de la estación de hardware de Retail](retail-hardware-station-configuration-installation.md).
-9.  Instalar y activar Modern POS. Para obtener más información sobre cómo instalar PDV, consulte [Configuración e instalación de Modern POS de Retail](retail-modern-pos-device-activation.md).
+    - **Nombre del host:** el nombre del equipo host donde la estación de hardware se ejecutará.
+    - **Descripción**: el texto que va a ayudar a identificar la estación de hardware, por ejemplo o **Devoluciones** o **Parte delantera de tienda**.
+    - **Puerto**: el puerto que se va a utilizar para que la estación de hardware se comunique con el cliente de Modern POS.
+    - **Perfil de hardware**: para las estaciones compartidas de hardware, cada estación de hardware debe tener un perfil de hardware. Los perfiles de hardware se pueden compartir entre varias estaciones de hardware, pero se deben asignar a cada estación de hardware. Además, se recomienda que use turnos compartidos cuando varios dispositivos usen la misma estación de hardware compartida. Para establecer un turno compartido, haga clic en **Venta minorista** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Perfiles de PDV** &gt; **Perfiles de hardware**. Para cada perfil de hardware compartido, seleccione la caja registradora y establezca la opción **Caja registradora de turno compartido** en **Sí**.
+    - **Número de PDV de EFT:** El identificador de la terminal de EFT para usar cuando se envían autorizaciones de EFT. Este identificador lo proporciona el procesador de tarjetas de crédito.
+    - **Nombre del paquete**: el paquete de la estación de hardware para utilizar cuando se implementa la estación de hardware.
+
+4. Repita los pasos 2 y 3 para cada estación de hardware adicional que sea necesaria en la tienda.
+5. Haga clic en **Venta minorista** &gt; **TI de venta minorista** &gt; **Programación de distribución**.
+6. Seleccione la programación de la distribución **1090** para sincronizar el nuevo perfil de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
+7. Seleccione la programación de la distribución **1040** para sincronizar la nueva estación de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
+8. Instale la estación de hardware en cada equipo del host que haya configurado en los pasos 2 y 3. Para obtener más información sobre cómo instalar la estación de hardware, consulte [Configuración e instalación de la estación de hardware de Retail](retail-hardware-station-configuration-installation.md).
+9. Instalar y activar Modern POS. Para obtener más información sobre cómo instalar PDV, consulte [Configuración e instalación de Retail Modern POS](retail-modern-pos-device-activation.md).
 10. Inicie sesión en Modern POS y seleccione **Realizar operaciones no relacionadas con la caja registradora**.
 11. Inicie la operación **Administrar estaciones de hardware**.
-
 12. Haga clic en **Administrar**.
 13. En la página de gestión de la estación de hardware, defina la opción para activar la estación de hardware.
 14. Seleccione la estación de hardware para utilizar, y haga clic en **Emparejar**.
 15. Repita el paso 14 para cada estación de hardware que utilizará Modern POS.
 16. Después emparejar todas las estaciones de hardware necesarias, haga clic en **Cerrar**.
-17. En la página de selección de estación de hardware, haga clic en la estación de hardware recientemente seleccionada para activarla. **Nota**: si los dispositivos utilizan a menudo distintas estaciones de hardware, recomendamos que configure Modern POS para solicitar a los cajeros que seleccionen una estación de hardware al iniciar el proceso de forma de pago. Haga clic en **Venta minorista** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Registros**. Seleccione el registro y, después, establezca la opción **Seleccionar en pago** en **Sí**. Use la programación de distribución **1090** para sincronizar los cambios con la base de datos de canal.
+17. En la página de selección de estación de hardware, haga clic en la estación de hardware recientemente seleccionada para activarla.
+
+    > [!NOTE]
+    > Si los dispositivos utilizan a menudo distintas estaciones de hardware, recomendamos que configure Modern POS para solicitar a los cajeros que seleccionen una estación de hardware al iniciar el proceso de forma de pago. Haga clic en **Venta minorista** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Registros**. Seleccione el registro y, después, establezca la opción **Seleccionar en pago** en **Sí**. Use la programación de distribución **1090** para sincronizar los cambios con la base de datos de canal.
 
 ## <a name="extensibility"></a>Extensibilidad
+
 Para obtener información sobre los escenarios de extensibilidad para la estación de hardware, consulte [Extensibilidad de la estación de hardware](dev-itpro/hardware-station-extensibility.md).
 
 ## <a name="security"></a>Seguridad
-Según las normas actuales de seguridad, los valores siguientes se deben usar en un entorno de producción: **Nota**: el instalador de la estación de hardware hará estas modificaciones al registro automáticamente como parte de la instalación de autoservicio.
 
--   La capa de sockets seguros (SSL) debería deshabilitarse.
--   Únicamente la versión 1.2 de la seguridad de la capa de transporte (TLS) (o la versión más reciente) debe estar habilitada y en uso. **Nota**: de forma predeterminada, SSL y todas las versiones de TLS, excepto TLS 1.2, están deshabilitadas. Para editar o habilitar estos valores, siga estos pasos:
-    1.  Presione la tecla del logotipo de Windows +R para abrir una ventana **Ejecutar**.
-    2.  En el campo **Abrir**, escriba **Regedit** y a continuación, haga clic en **Aceptar**.
-    3.  Si aparece un cuadro de mensaje de **Control de cuentas de usuario**, haga clic en **Sí**.
-    4.  En la ventana del **Editor de Registro**, vaya a **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Se han especificado las teclas siguientes automáticamente para permitir solo TLS 1.2:
-        -   TLS 1.2Server:Enabled=1
-        -   TLS 1.2Server:DisabledByDefault=0
-        -   TLS 1.2Client:Enabled=1
-        -   TLS 1.2Client:DisabledByDefault=0
-        -   TLS 1.1Server:Enabled=0
-        -   TLS 1.1Client:Enabled=0
-        -   TLS 1.0Server:Enabled=0
-        -   TLS 1.0Client:Enabled=0
-        -   SSL 3.0Server:Enabled=0
-        -   SSL 3.0Client:Enabled=0
-        -   SSL 2.0Server:Enabled=0
-        -   SSL 2.0Client:Enabled=0
--   No deben abrirse otros puertos de red adicionales, a menos que se necesiten por motivos conocidos y especificados.
--   El uso compartido de recursos entre orígenes se debe deshabilitar y especificar los orígenes permitidos que se aceptan.
--   Solo se deben usar entidades emisoras de certificados de confianza para recopilar los certificados que se usarán en los equipos que ejecutan la estación de hardware.
+Según las normas actuales de seguridad, los valores siguientes se deben usar en un entorno de producción:
 
-**Nota:** Es muy importante que consulte las instrucciones de seguridad de IIS y los requisitos del sector para tarjetas (PCI).
+> [!NOTE]
+> El instalador de la estación de hardware automáticamente hará estas ediciones de registro como parte de la instalación a través de autoservicio.
+
+- La capa de sockets seguros (SSL) debería deshabilitarse.
+- Únicamente la versión 1.2 de la seguridad de la capa de transporte (TLS) (o la versión más reciente) debe estar habilitada y en uso.
+
+    > [!NOTE]
+    > De forma predeterminada, SSL y todas las versiones de TLS, excepto TLS 1.2, están deshabilitadas.
+
+    Para editar o habilitar estos valores, siga estos pasos:
+
+    1. Presione la tecla del logotipo de Windows +R para abrir una ventana **Ejecutar**.
+    2. En el campo **Abrir**, escriba **Regedit** y a continuación, haga clic en **Aceptar**.
+    3. Si aparece un cuadro de mensaje de **Control de cuentas de usuario**, haga clic en **Sí**.
+    4. En la ventana del **Editor de Registro**, vaya a **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Se han especificado las teclas siguientes automáticamente para permitir solo TLS 1.2:
+
+        - TLS 1.2Server:Enabled=1
+        - TLS 1.2Server:DisabledByDefault=0
+        - TLS 1.2Client:Enabled=1
+        - TLS 1.2Client:DisabledByDefault=0
+        - TLS 1.1Server:Enabled=0
+        - TLS 1.1Client:Enabled=0
+        - TLS 1.0Server:Enabled=0
+        - TLS 1.0Client:Enabled=0
+        - SSL 3.0Server:Enabled=0
+        - SSL 3.0Client:Enabled=0
+        - SSL 2.0Server:Enabled=0
+        - SSL 2.0Client:Enabled=0
+
+- No deben abrirse otros puertos de red adicionales, a menos que se necesiten por motivos conocidos y especificados.
+- El uso compartido de recursos entre orígenes se debe deshabilitar y especificar los orígenes permitidos que se aceptan.
+- Solo se deben usar entidades emisoras de certificados de confianza para recopilar los certificados que se usarán en los equipos que ejecutan la estación de hardware.
+
+> [!NOTE]
+> Es muy importante que consulte las instrucciones de seguridad de IIS y los requisitos del sector para tarjetas (PCI).
 
 ## <a name="peripheral-simulator"></a>Simulador periférico
+
 Para obtener más información, consulte [Simulador de periféricos para aplicaciones minoristas](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsoft-tested-peripheral-devices"></a>Dispositivos periféricos probados por Microsoft
+
 ### <a name="ipc-built-in-hardware-station"></a>Estación de hardware de IPC (integrada)
 
 Los siguientes periféricos se probaron mediante la estación de hardware de IPC que se integra en Modern POS para Windows.
@@ -725,7 +805,10 @@ Los siguientes se periféricos se probaron mediante una estación de hardware II
 
 ### <a name="shared-iis-hardware-station"></a>Estación de hardware IIS compartida
 
-Los siguientes se periféricos se probaron mediante una estación de hardware IIS compartida junto con Modern POS para Windows y Cloud POS. **Nota:** Únicamente se admite una impresora, un terminal de pago y una caja registradora.
+Los siguientes se periféricos se probaron mediante una estación de hardware IIS compartida junto con Modern POS para Windows y Cloud POS.
+
+> [!NOTE]
+> Únicamente se admite una impresora, un terminal de pago y una caja registradora.
 
 #### <a name="printer"></a>Impresora
 
@@ -754,22 +837,25 @@ Los siguientes se periféricos se probaron mediante una estación de hardware II
 | HP           | QT457AA   | OPDV      |                       |
 
 ## <a name="troubleshooting"></a>Solución de problemas
+
 ### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>Modern POS puede detectar la estación de hardware en su lista para su selección, pero no puede completar el emparejamiento
 
 **Solución:** compruebe la siguiente lista de posibles fallos:
 
--   El equipo que está ejecutando Modern POS confía en el certificado que se usa en el equipo que ejecute la estación de hardware.
-    -   Para comprobar esta configuración, en un explorador web, vaya a la dirección URL siguiente: https://&lt;Nombre del equipo&gt;:&lt;Número de puerto&gt;/HardwareStation/ping.
-    -   Esta dirección URL utiliza un ping para comprobar que se puede acceder al equipo y el explorador indica si el certificado es de confianza. (Por ejemplo, en Internet Explorer, un icono de bloqueo aparece en la barra de direcciones. Al hacer clic en este icono, Internet Explorer comprueba si se confía en el certificado actualmente. Es posible instalar el certificado en el equipo local viendo los detalles del certificado que se aparece.)
--   En el equipo que ejecute la estación de hardware, el puerto que usará en la estación de hardware se abre en el firewall.
--   La estación de hardware ha instalado correctamente la información de la cuenta de comerciante a través de la herramienta para instalar la información de comerciante que se ejecuta cuanto termina el instalador de la estación de hardware.
+- El equipo que está ejecutando Modern POS confía en el certificado que se usa en el equipo que ejecute la estación de hardware.
+
+    - Para verificar esta configuración, en un explorador web, vaya a la dirección URL siguiente: `https://<Computer Name>:<Port Number>/HardwareStation/ping`.
+    - Esta dirección URL utiliza un ping para comprobar que se puede acceder al equipo y el explorador indica si el certificado es de confianza. (Por ejemplo, en Internet Explorer, un icono de bloqueo aparece en la barra de direcciones. Al hacer clic en este icono, Internet Explorer comprueba si se confía en el certificado actualmente. Es posible instalar el certificado en el equipo local viendo los detalles del certificado que se aparece.)
+
+- En el equipo que ejecute la estación de hardware, el puerto que usará en la estación de hardware se abre en el firewall.
+- La estación de hardware ha instalado correctamente la información de la cuenta de comerciante a través de la herramienta para instalar la información de comerciante que se ejecuta cuanto termina el instalador de la estación de hardware.
 
 ### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>Modern POS no puede detectar la estación de hardware en su lista de selección
 
 **Solución:** cualquiera de los factores siguientes puede producir este problema:
 
--   La estación de hardware no se ha configurado correctamente en la sede central. Siga los pasos anteriores en este tema para comprobar que el perfil de la estación de hardware y la estación de hardware se especificaron correctamente.
--   Los trabajos no se han ejecutado para actualizar la configuración del canal. En este caso, ejecute el trabajo 1070 para la configuración del canal.
+- La estación de hardware no se ha configurado correctamente en la sede central. Siga los pasos anteriores en este tema para comprobar que el perfil de la estación de hardware y la estación de hardware se especificaron correctamente.
+- Los trabajos no se han ejecutado para actualizar la configuración del canal. En este caso, ejecute el trabajo 1070 para la configuración del canal.
 
 ### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>Modern POS no refleja nuevos parámetros de la caja registradora
 
@@ -779,33 +865,33 @@ Los siguientes se periféricos se probaron mediante una estación de hardware II
 
 **Solución:** aquí se exponen algunas causas típica para este problema:
 
--   Asegúrese de que están cerradas otras utilidades de configuración del controlador del dispositivo. Si estas utilidades están abiertas, puede que eviten que Modern POS o la estación de hardware demanden el dispositivo.
--   Si el periférico para aplicaciones minoristas se comparte con varios dispositivos de PDV, asegúrese de que pertenezca a una de las categorías siguientes:
-    -   Caja registradora
-    -   Impresora de recibos
-    -   Terminal de pago 
+- Asegúrese de que están cerradas otras utilidades de configuración del controlador del dispositivo. Si estas utilidades están abiertas, puede que eviten que Modern POS o la estación de hardware demanden el dispositivo.
+- Si el periférico para aplicaciones minoristas se comparte con varios dispositivos de PDV, asegúrese de que pertenezca a una de las categorías siguientes:
+
+    - Caja registradora
+    - Impresora de recibos
+    - Terminal de pago 
 
     Si el periférico no pertenece a una de estas categorías, la estación de hardware no está diseñada para habilitar que el periférico se comparta entre varios dispositivos de PDV.
--   A veces, los controladores de dispositivos pueden hacer que Common Control Objects (CCO) dejen de funcionar correctamente. Si un dispositivo se ha instalado recientemente, pero no funciona correctamente u observa otros problemas, muchas veces se puede resolver el problema reinstalando los CCO. Para descargar los CCO, visite <http://monroecs.com/oposccos_current.htm>.
--   Si realiza cambios de periféricos frecuentes durante las pruebas o la solución de problemas, puede que tenga que restablecer IIS en lugar de esperar a que la memoria caché se actualice. Para resetear IIS, siga estos pasos:
-    1.  En el menú **Inicio**, escriba **CMD**.
-    2.  En los resultados de la búsqueda, haga clic con el botón secundario en el **Símbolo del sistema** y haga clic en **Ejecutar como administrador**.
-    3.  En la ventana del **Símbolo del sistema**, escriba **iisreset /Restart** y presione Entrar.
-    4.  Una vez que haya reiniciado IIS, reinicie Modern POS.
--   Cuando realiza cambios frecuentes en los dispositivos periféricos, si además también inicia y sale con frecuencia del cliente de PDV, el proceso de dllhost de una sesión anterior de PDV puede interferir con la sesión actual. En este caso, puede que no se pueda usar un dispositivo hasta que se cierre que el host de la biblioteca de vínculos dinámicos (DLL) que administra la sesión anterior. Para cerrar el host de DLL, siga estos pasos:
-    1.  En el menú **Inicio**, escriba **Administrador de tareas**.
-    2.  En los resultados de la búsqueda, haga clic en **Administrador de tareas**.
-    3.  En Administrador de tareas, en la ficha **Detalles**, haga clic en el encabezado de columna que indica **Nombre** para ordenar la tabla alfabéticamente por nombre.
-    4.  Baje hasta encontrar dllhost.exe.
-    5.  Seleccione cada host DLL, y haga clic en **Finalizar tarea**.
-    6.  Una vez que se haya cerrado los host de DLL, reinicie Modern POS.
 
+- A veces, los controladores de dispositivos pueden hacer que Common Control Objects (CCO) dejen de funcionar correctamente. Si un dispositivo se ha instalado recientemente, pero no funciona correctamente u observa otros problemas, muchas veces se puede resolver el problema reinstalando los CCO. Para descargar los CCO, visite <http://monroecs.com/oposccos_current.htm>.
+- Si realiza cambios de periféricos frecuentes durante las pruebas o la solución de problemas, puede que tenga que restablecer IIS en lugar de esperar a que la memoria caché se actualice. Para resetear IIS, siga estos pasos:
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+    1. En el menú **Inicio**, escriba **CMD**.
+    2. En los resultados de la búsqueda, haga clic con el botón secundario en el **Símbolo del sistema** y haga clic en **Ejecutar como administrador**.
+    3. En la ventana del **Símbolo del sistema**, escriba **iisreset /Restart** y presione Entrar.
+    4. Una vez que haya reiniciado IIS, reinicie Modern POS.
+
+- Cuando realiza cambios frecuentes en los dispositivos periféricos, si además también inicia y sale con frecuencia del cliente de PDV, el proceso de dllhost de una sesión anterior de PDV puede interferir con la sesión actual. En este caso, puede que no se pueda usar un dispositivo hasta que se cierre que el host de la biblioteca de vínculos dinámicos (DLL) que administra la sesión anterior. Para cerrar el host de DLL, siga estos pasos:
+
+    1. En el menú **Inicio**, escriba **Administrador de tareas**.
+    2. En los resultados de la búsqueda, haga clic en **Administrador de tareas**.
+    3. En Administrador de tareas, en la ficha **Detalles**, haga clic en el encabezado de columna que indica **Nombre** para ordenar la tabla alfabéticamente por nombre.
+    4. Baje hasta encontrar dllhost.exe.
+    5. Seleccione cada host DLL, y haga clic en **Finalizar tarea**.
+    6. Una vez que se haya cerrado los host de DLL, reinicie Modern POS.
+
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Simulador periférico de Retail](dev-itpro/retail-peripheral-simulator.md)
-
-
-
 

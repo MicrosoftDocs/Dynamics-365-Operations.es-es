@@ -59,4 +59,3 @@ Puede usar la nueva estructura mejorada para las propiedades del producto para s
 
 ![Cuadro de diálogo Actualizar productos](media/NewUpdateProductsEnhancedView.PNG)
 
-

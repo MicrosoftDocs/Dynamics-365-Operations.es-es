@@ -3,7 +3,7 @@ title: Crear, aprobar y firmar propuestas
 description: "Este tema informa de cómo crear, aprobar, y firmar una propuesta para un candidato mediante Dynamics 365 for Talent."
 author: josaw
 manager: AnnBe
-ms.date: 10/19/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: f6b17dca13431a9d674920833b4a44141fac0bd8
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
 ms.contentlocale: es-es
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -104,6 +104,11 @@ Existen varias acciones que puede realizar antes de enviar la propuesta al candi
 -  Puede especificar una fecha de vencimiento de la propuesta. Se espera que los candidatos acepten o rechacen la propuesta antes de la fecha de vencimiento.  Se enviará el candidato un aviso 48 horas antes de que caduque la propuesta.
 
 -  Puede haber documentos adicionales que desee incluir en el proceso de aceptación de la propuesta. Tendrá la opción de mostrar el tipo de documentos requerido.
+
+- Opción de firma electrónica: Si se ha seleccionado Adobe Sign como método preferido de firma electrónica, los creadores de la propuesta necesitan conectar su licencia de Adobe Sign. Hay dos maneras para hacerlo. Vaya a **Configuración de usuario** en **Oferta**. En **Conexiones** conecte con **Adobe Sign**. Como alternativa, se le pedirá que conecte la oferta de envío a la pantalla del candidato si la conexión no se liquidó ya basándose en la configuración del usuario. 
+
+> [!NOTE]
+> Los usuarios sólo necesitan conectar sus cuentas de Adobe Sign una vez. La misma licencia para usuarios se usa para todos los paquetes futuros de la oferta que envíe el mismo usuario. 
 
 -  Puede ver y editar la plantilla de correo electrónico según sea necesario.
 

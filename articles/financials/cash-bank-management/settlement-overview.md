@@ -3,7 +3,7 @@ title: "Descripción de la liquidación"
 description: "En este artículo se proporciona información general sobre el proceso de liquidación. Describe los tipos de transacciones que se pueden liquidar, cuándo y cómo se pueden liquidar las transacciones y los resultados del proceso de liquidación."
 author: kweekley
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2f1f11a7f1340d408374e658ae616ffa99f3c911
+ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
+ms.openlocfilehash: 9b82c6afa2812344ff8200e227ee8c5f2451584f
 ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/06/2018
 
 ---
 
@@ -52,5 +52,8 @@ A medida que se liquidan las transacciones, el saldo pendiente de cada transacci
 
 Si un [pago es inferior al importe de la factura](../accounts-payable/vendor-payments-partial-amount.md) debido a un descuento por pronto pago, una cancelación o un pago insuficiente, la factura y el pago pueden seguir cerrados, en función de la configuración de la liquidación en los parámetros de proveedores y de clientes. La liquidación también puede generar transacciones. Por ejemplo, la liquidación de una factura y un pago puede producir un descuento por pronto pago, una pérdida o un beneficio realizados, ajustes de los impuestos, cancelaciones o diferencias de decimales.
 
+
+## <a name="additional-resources"></a>Recursos adicionales
+- [Resto de liquidación](settle-remainder.md)
 
 

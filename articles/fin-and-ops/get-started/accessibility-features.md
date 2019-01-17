@@ -16,10 +16,10 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a67b51ced4bea11be258aed359a758d88294beb1
-ms.openlocfilehash: bc48aa5ccf50705ef0c5087608798875953fe888
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
 ms.contentlocale: es-es
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -41,7 +41,7 @@ Para la mayoría de usuarios, el uso diario del sistema implica un gran volumen 
 
 Cualquier página a la que se accede mediante el menú del panel de navegación, el panel del extremo izquierdo, también está disponible desde la casilla **Buscar**. Presione Alt+G para mover el foco a la casilla **Buscar** y, a continuación, escriba el nombre o la descripción de la página.
 
-![“Cuentas bancarias” introducidas en el cuadro de búsqueda](media/6d08b0be32808221023e2aa92d69fd70.png  "\"cuentas bancarias\" introducidas en el cuadro de búsqueda")
+![“Cuentas bancarias” introducidas en el cuadro de búsqueda](media/6d08b0be32808221023e2aa92d69fd70.png "\"cuentas bancarias\" introducidas en el cuadro de búsqueda")
 
 Para obtener más información, consulte [Búsqueda de navegación](navigation-search.md).
 
@@ -56,17 +56,17 @@ Puede accederse a cada acción que se ofrece en una página desde un teclado, me
 
 Desea ejecutar la acción **Registro de notificación por correo electrónico** que aparece en el grupo **Notificación por correo electrónico** en la pestaña **Pedido de ventas** del panel de acciones.
 
-![Acción de registro de la notificación por correo electrónico en el panel de acciones](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg  "Acción de registro de la notificación por correo electrónico en el panel de acciones")
+![Acción de registro de la notificación por correo electrónico en el panel de acciones](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Acción de registro de la notificación por correo electrónico en el panel de acciones")
 
 Una opción es para usar el teclado. Presione Ctrl+F6 para mover el enfoque al panel de acciones, y presione la ficha repetidamente para pasar por todas las fichas y acciones, hasta que la acción **Registro de notificación por correo electrónico** tenga el foco.
 
 Sin embargo, también puede ejecutar la acción más directamente. En cualquier lugar de la página, presione Ctrl+Apóstrofo (') para mostrar el cuadro de búsqueda para las acciones.
 
-![Cuadro de búsqueda de acciones](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg  "Cuadro de búsqueda de acciones")
+![Cuadro de búsqueda de acciones](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Cuadro de búsqueda de acciones")
 
 En el cuadro de búsqueda, escriba palabras que describen la acción. La acción se a pone a su disposición, y puede ejecutarla directamente. Por ejemplo, si especifica **correo electrónico**, **notific** (una palabra parcial), o **registro**, puede "saltar" a la funcionalidad de registro de la notificación por correo electrónico.
 
-!["Correo electrónico" introducido en el cuadro de búsqueda](media/image4.png "\"correo electrónico\" introducido en el cuadro de búsqueda") 
+!["Correo electrónico" introducido en el cuadro de búsqueda](media/image4.png "\"correo electrónico\" introducido en el cuadro de búsqueda")
 
 !["Notific" introducido en el cuadro de búsqueda](media/image5.png "\"notific\" introducido en el cuadro de búsqueda")
 
@@ -82,7 +82,7 @@ En el uso diario del sistema, no todos los campos son necesarios para realizar t
 
 Sin embargo, puede detectar que algunos campos que utiliza a menudo para realizar tareas no se incluyen en la secuencia predeterminada de tabulaciones. En este caso, si usa Windows Narrator, puede usar acciones de teclado de Windows Narrator para tener acceso a dichos campos e inspeccionar su contenido. Como alternativa, puede activar la opción **Secuencia de fichas mejorada** en la página **Opciones**. Esta opción crea toda la parte de campos que pueden editarse y de solo lectura de la secuencia de tabulaciones. Puede utilizar la personalización de la página para crear una secuencia de tabulaciones personalizada y omitir campos que no es necesario que formen parte de la secuencia tabulaciones. Para obtener más información acerca de la personalización, consulte [Personalizar la experiencia del usuario](personalize-user-experience.md).
 
-![Opción "Secuencia de fichas mejorada](media/8c0f12bbb3f26032997ef0ba95d89b6a.png  "opción \"Secuencia de fichas mejorada")
+![Opción "Secuencia de fichas mejorada](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "opción \"Secuencia de fichas mejorada")
 
 ## <a name="form-patterns"></a>Patrones de formulario
 

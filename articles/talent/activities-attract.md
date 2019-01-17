@@ -3,7 +3,7 @@ title: Actividades en los proceso
 description: "Este tema proporciona información sobre los distintos tipos de actividades que se pueden usar en el proceso de contratación."
 author: 
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: ccd9e2d0ff1f7fb6825c6823936b4013b3054f5d
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
 ms.contentlocale: es-es
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -62,6 +62,10 @@ La actividad de entrevista es opcional. Esta actividad tiene tres componentes: D
 - Para enviar mensajes de correo electrónico a los candidatos para solicitar su disponibilidad, establezca la opción **Solicitar disponibilidad del candidato** en **Activado**. Si establece la opción en **Desactivado**, este paso no se mostrará en el proceso de contratación en el trabajo.
 - Para tener una llamada o una conferencia en directo con Skype Empresarial, establezca el campo **Conferencia en línea** en **Skype Empresarial**. Se agregará el vínculo **Unirse a reunión en Skype** correcto a la solicitud de reunión de entrevista.
 - Para enviar mensajes de correo electrónico a los candidatos para finalizar la programación, establezca la opción **Enviar correo al candidato** en **Activado**. Si establece la opción en **Desactivado**, los candidatos recibirán la programación de la entrevista solo si firman en el portal del candidato.
+
+>[!NOTE]
+> - Para todas las entrevistas personales, se envían avisos a los entrevistadores cada 24 horas si el entrevistador no ha respondido (aceptado o rechazado) a la solicitud de la entrevista.
+> - Para todas las entrevistas de panel, no hay avisos automatizados para responder a la solicitud de la entrevista. Para activar un aviso manualmente, edite la entrevista y use la opción **Actualizar y registrar** para enviar la solicitud de nuevo a los entrevistadores.
 
 El componente comentarios permite a las personas especificar recomendaciones para un candidato. También pueden especificar cualquier comentario valorativo que tengan. Si se activa la opción **Heredar participantes de comentarios del equipo de contratación**, se especifica automáticamente el reclutador, el administrador de contratación, y los entrevistadores en el componente de valoración. Las organizaciones pueden permitir a los entrevistadores ver los comentarios de otras personas antes enviar su propio comentario. Las organizaciones pueden también permitir que los entrevistadores editen sus comentarios después de enviarlos.
 
