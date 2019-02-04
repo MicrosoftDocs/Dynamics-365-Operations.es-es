@@ -30,7 +30,6 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Los departamentos, los trabajos y los puestos son elementos de organización que se mantienen dentro de Recursos Humanos. En este tema se describe información conceptual acerca de estos elementos. 
 
