@@ -17,10 +17,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
-ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
+ms.sourcegitcommit: f004451a260b5be6c15c3975cd9e63ba9c1a7a2e
+ms.openlocfilehash: 6fa5023a29c95ab9f10d8aacd51edc1a06c3c152
 ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2018
+ms.lasthandoff: 02/06/2019
 
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a><span data-ttu-id="a5afd-103">ER Crear una configuración de formato (noviembre de 2016)</span><span class="sxs-lookup"><span data-stu-id="a5afd-103">ER Create a format configuration (November 2016)</span></span>
@@ -35,8 +35,10 @@ ms.lasthandoff: 12/18/2018
 2. <span data-ttu-id="a5afd-109">Haga clic en **Configuraciones de informes**.</span><span class="sxs-lookup"><span data-stu-id="a5afd-109">Click **Reporting configurations**.</span></span>
 3. <span data-ttu-id="a5afd-110">En el árbol, seleccione **Pagos (modelo simplificado)**.</span><span class="sxs-lookup"><span data-stu-id="a5afd-110">In the tree, select **Payments (simplified model)**.</span></span>
 4. <span data-ttu-id="a5afd-111">Haga clic en **Crear configuración** para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="a5afd-111">Click **Create configuration** to open the drop dialog.</span></span>
+
  > [!NOTE]
  > <span data-ttu-id="a5afd-112">Si no ve **Crear configuración**, deberá habilitar el modo de diseño en la página **Parámetros de informes electrónicos**.</span><span class="sxs-lookup"><span data-stu-id="a5afd-112">If you don't see **Create configuration**, you must enable design mode on the **Electronic reporting parameters** page.</span></span> 
+ 
 5. <span data-ttu-id="a5afd-113">En el campo **Nuevo**, especifique **Formato basado en modelo de datos PaymentModel**.</span><span class="sxs-lookup"><span data-stu-id="a5afd-113">In the **New** field, enter **Format based on data model PaymentModel**.</span></span>
 6. <span data-ttu-id="a5afd-114">En el campo **Nombre**, escriba **BACS (ficticio Reino Unido)**.</span><span class="sxs-lookup"><span data-stu-id="a5afd-114">In the **Name** field, type **BACS (UK fictitious)**.</span></span>
 7. <span data-ttu-id="a5afd-115">En el campo **Descripción**, escriba **Formato de pago de proveedor BACS (ficticio Reino Unido)**.</span><span class="sxs-lookup"><span data-stu-id="a5afd-115">In the **Description** field, type **BACS vendor payment format (UK fictitious)**.</span></span>
@@ -44,6 +46,7 @@ ms.lasthandoff: 12/18/2018
     * <span data-ttu-id="a5afd-119">Se puede definir un formato concreto de documento electrónico.</span><span class="sxs-lookup"><span data-stu-id="a5afd-119">A particular format of electronic document can be defined.</span></span> <span data-ttu-id="a5afd-120">Deje este campo en blanco si desea seleccionar un formato en el tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="a5afd-120">Leave this field blank if you want to select a format at run-time.</span></span>  
 8. <span data-ttu-id="a5afd-121">En el campo **definición del modelo de Datos**, introduzca o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="a5afd-121">In the **Data model definition** field, enter or select a value.</span></span>
 9. <span data-ttu-id="a5afd-122">Haga clic en **Crear configuración**.</span><span class="sxs-lookup"><span data-stu-id="a5afd-122">Click **Create configuration**.</span></span> <span data-ttu-id="a5afd-123">Se ha creado una nueva configuración.</span><span class="sxs-lookup"><span data-stu-id="a5afd-123">A new configuration has been created.</span></span> <span data-ttu-id="a5afd-124">La versión de borrador se puede usar para almacenar el formato de diseño para gestionar documentos electrónicos.</span><span class="sxs-lookup"><span data-stu-id="a5afd-124">The draft version can be used to store the design format for managing electronic documents.</span></span>  
+
  > [!NOTE]
  > <span data-ttu-id="a5afd-125">Si no ve **Crear configuración**, deberá habilitar el modo de diseño en la página **Parámetros de informes electrónicos**.</span><span class="sxs-lookup"><span data-stu-id="a5afd-125">If you don't see **Create configuration**, you must enable design mode on the **Electronic reporting parameters** page.</span></span>
 
