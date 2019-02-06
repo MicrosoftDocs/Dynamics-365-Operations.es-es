@@ -35,8 +35,10 @@ En los pasos siguientes se explica cómo un usuario con rol de administrador del
 2. Haga clic en **Configuraciones de informes**.
 3. En el árbol, seleccione **Pagos (modelo simplificado)**.
 4. Haga clic en **Crear configuración** para abrir el cuadro de diálogo desplegable.
+
  > [!NOTE]
  > Si no ve **Crear configuración**, deberá habilitar el modo de diseño en la página **Parámetros de informes electrónicos**. 
+ 
 5. En el campo **Nuevo**, especifique **Formato basado en modelo de datos PaymentModel**.
 6. En el campo **Nombre**, escriba **BACS (ficticio Reino Unido)**.
 7. En el campo **Descripción**, escriba **Formato de pago de proveedor BACS (ficticio Reino Unido)**.
@@ -44,6 +46,7 @@ En los pasos siguientes se explica cómo un usuario con rol de administrador del
     * Se puede definir un formato concreto de documento electrónico. Deje este campo en blanco si desea seleccionar un formato en el tiempo de ejecución.  
 8. En el campo **definición del modelo de Datos**, introduzca o seleccione un valor.
 9. Haga clic en **Crear configuración**. Se ha creado una nueva configuración. La versión de borrador se puede usar para almacenar el formato de diseño para gestionar documentos electrónicos.  
+
  > [!NOTE]
  > Si no ve **Crear configuración**, deberá habilitar el modo de diseño en la página **Parámetros de informes electrónicos**.
 
