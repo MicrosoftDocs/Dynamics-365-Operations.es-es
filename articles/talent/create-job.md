@@ -30,7 +30,6 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Este tema describe los artículos conceptuales que un trabajo puede incluir y se proporcionan ejemplos de cómo se pueden usar los artículos en la organización. 
 
