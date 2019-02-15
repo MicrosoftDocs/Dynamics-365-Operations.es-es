@@ -1,13 +1,13 @@
 ---
 title: Flujo de trabajo de cliente
-description: "Este tema proporciona información sobre el flujo de trabajo de cliente. Cambia campos específicos para un cliente y, a continuación, envía esos cambios para su aprobación mediante el flujo de trabajo antes de que se añadan al cliente."
+description: Este tema proporciona información sobre el flujo de trabajo de cliente. Cambia campos específicos para un cliente y, a continuación, envía esos cambios para su aprobación mediante el flujo de trabajo antes de que se añadan al cliente.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 1b0e1621b256e6bbb42f97134b87dd65fa146193
-ms.contentlocale: es-es
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302849"
 ---
-
 # <a name="customer-workflow"></a>Flujo de trabajo de cliente
 
 [!include [banner](../includes/banner.md)]
 
-El flujo de trabajo de cliente se ha añadido a Microsoft Dynamics 365 for Finance and Operations, versión 8.0.4. Puede cambiar campos específicos para un cliente y, a continuación, envía esos cambios para su aprobación mediante el flujo de trabajo antes de que se añadan al cliente.
+El flujo de trabajo del cliente se ha agregado a la versión 8.0.4. de Microsoft Dynamics 365 for Finance and Operations. Puede cambiar campos específicos para un cliente y, a continuación, envía esos cambios para su aprobación mediante el flujo de trabajo antes de que se añadan al cliente.
 
 ## <a name="set-up-the-customer-workflow"></a>Configurar el flujo de trabajo de cliente
 
@@ -62,4 +61,3 @@ Una vez que tenga al menos un cambio propuesto, aparecen dos menús adicionales 
     El estado en la página se cambia a **Cambios pendientes de aprobación**.
 
 El flujo de trabajo sigue el proceso de flujo de trabajo estándar en Finance and Operations. El aprobador es dirigido a la página **Cliente**, donde puede revisar los cambios en la página **Cambios propuestos** y, a continuación, seleccione **Flujo de trabajo \> Aprobar** para aprobar el flujo de trabajo. Una vez que se completan todas las aprobaciones, los campos se actualizan con los valores que propuso.
-

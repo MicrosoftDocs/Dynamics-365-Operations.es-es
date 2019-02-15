@@ -1,13 +1,13 @@
 ---
-title: "Características normativas y de localización"
-description: "Este tema incluye listas de recursos que pueden ayudarle a obtener más información acerca de una funcionalidad específica de un país o región."
+title: Características normativas y de localización
+description: Este tema incluye listas de recursos que pueden ayudarle a obtener más información acerca de una funcionalidad específica de un país o región.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a8207af4dc9d5059d487bda97959eff559b7ca06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: e74ad4442e1b6851812f889e79f2fb09060fb87a
-ms.contentlocale: es-es
-ms.lasthandoff: 10/01/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302863"
 ---
-
 # <a name="localization-and-regulatory-features"></a>Características normativas y de localización
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations incluye funcionalidad para los países o regiones documentados en la [Guía de disponibilidad de la localización y la traducción del producto](https://aka.ms/ax-availabilityguide). Esta función se activa según la dirección principal de la entidad jurídica activa. 
+Microsoft Dynamics 365 for Finance and Operations incluye funcionalidad para los países o regiones documentados en la [Guía de disponibilidad de la localización y la traducción del producto](https://aka.ms/dynamics_365_international_availability_deck). Esta función se activa según la dirección principal de la entidad jurídica activa. 
 
 Este tema incluye listas de recursos que pueden ayudarle a hacer lo siguiente: 
 - aprender más sobre el desarrollo de soluciones específicas del país o región
@@ -45,10 +44,11 @@ Los siguientes recursos proporcionan información que puede ayudar a los desarro
 -   [Clasificar características de localización](classify-localization-features.md)
 -   [Códigos de país - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates-and-communication"></a>Actualizaciones y comunicación de la localización
+## <a name="regulatory-updates-and-communication"></a>Actualizaciones reglamentarias y comunicación
 Los siguientes recursos proporcionan información sobre características de localización nuevas y planificadas. 
 
-### <a name="localization-updates"></a>Actualizaciones de localización
+### <a name="regulatory-updates"></a>Actualizaciones reglamentarias
+-   [Actualizaciones reglamentarias](../../financials/localizations/regulatory-updates.md)
 -   [Portal de localización](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (actualizado semanalmente)
 -   [Búsqueda de temas de LCS](../lifecycle-services/issue-search-lcs.md) (actualizado diariamente)
 
@@ -68,7 +68,7 @@ La herramienta de informes electrónicos (ER) le permite configurar formatos par
 -   [Destinos de informes electrónicos](../analytics/electronic-reporting-destinations.md)
 -   [Descargar configuraciones de informes electrónicos de Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
 -   [Importar configuraciones de informes electrónicos](../analytics/electronic-reporting-import-ger-configurations.md)
--   [Configuración electrónica de informes para proporcionar datos a Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Configurar informes electrónicos para proporcionar datos a Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [Generar documentos electrónicos y actualizar los datos de las aplicaciones mediante la herramienta de informes electrónicos](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>Guías de tareas
@@ -118,7 +118,6 @@ Para obtener más información, consulte [Guías de tareas](../../fin-and-ops/ge
         - [Estados Unidos](../../financials/localizations/united-states.md)
     :::column-end:::
 :::row-end:::
-
 
 
 

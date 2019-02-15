@@ -1,13 +1,13 @@
 ---
-title: "Página principal de clientes"
+title: Página principal de clientes
 description: Use Clientes para controlar todas las facturas de cliente y los pagos entrantes.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302861"
 ---
-
 # <a name="accounts-receivable-home-page"></a>Página principal de clientes
 
 [!include [banner](../includes/banner.md)]
@@ -45,20 +44,20 @@ Use Clientes para controlar todas las facturas y los pagos que reciba de los cli
 
 :::row:::
     :::column:::
-        - [Distribuciones contables y asientos del subdiario contable para facturas de servicio](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+        - [Distribuciones contables y asientos del subdiario contable para las facturas de servicios](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
         - [Perfiles de contabilización del cliente](customer-posting-profiles.md)
         - [Configuración, autorización y captura de tarjetas de crédito](credit-card-authorizations.md)
         - [Crear una factura de cliente](configure-customer-invoices.md)
         - [Configurar y procesar facturas periódicas](set-up-process-recurring-invoices.md)
-        - [Corregir una factura de servicios](correct-free-text-invoice.md)
+        - [Corrección de una factura de servicios](correct-free-text-invoice.md)
     :::column-end:::
     :::column:::
         - [Configurar letras de cambio](set-up-bills-exchange.md)
         - [Establecer tipos de interés para un código de interés](set-up-interest-rates-interest-code.md)
         - [Condonar, restablecer o revertir cuotas de interés](waive-reinstate-reverse-interest-fees.md)
-        - [Descripción de las domiciliaciones SEPA](sepa-direct-debit-overview.md)
+        - [Visión general de las domiciliaciones SEPA](sepa-direct-debit-overview.md)
         - [Configurar orden de domiciliación bancaria SEPA](sepa-direct-debit-mandate.md)
-        - [Cerrar clientes](close-accounts-receivable.md)
+        - [Cerrar Clientes](close-accounts-receivable.md)
     :::column-end:::
 :::row-end:::
 
@@ -80,7 +79,7 @@ Acepte diferentes tipos de pago de los clientes, como letras de cambio, efectivo
 :::row:::
     :::column:::
         - [Usar un pago de cliente para liquidar varias facturas que abarcan varios períodos de descuento](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-        - [Pagos centralizados para clientes](centralized-payments-accounts-receivable.md)
+        - [Pagos centralizados para Clientes](centralized-payments-accounts-receivable.md)
         - [Liquidar un pago de cliente parcial y el pago final completamente antes de la fecha de descuento](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
         - [Liquidar un pago de cliente parcial antes de la fecha de descuento con un pago final después de la fecha de descuento](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
     :::column-end:::
@@ -101,9 +100,9 @@ Consulte la [Guía básica de Microsoft Dynamics 365](https://roadmap.dynamics.c
 
 #### <a name="blogs"></a>Blogs
 
-Puede encontrar opiniones, noticias y otra información sobre Clientes y otras soluciones en el [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Puede encontrar opiniones, noticias y otra información sobre clientes y otras soluciones en el [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Hay muchas publicaciones sobre Clientes en el [blog del equipo del producto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Aunque algunas de estas publicaciones se crearon para la versión anterior de Clientes, aún se aplican los mismos conceptos. Además, los procedimientos también son similares en la versión actual.
+Hay muchas publicaciones sobre clientes en el [blog del equipo del producto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Aunque algunas de estas publicaciones se crearon para la versión anterior de Clientes, aún se aplican los mismos conceptos. Además, los procedimientos también son similares en la versión actual.
 
 El [blog de la comunidad Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de MBS Operations.
 
@@ -113,7 +112,6 @@ Hay ayuda adicional disponible como guías de tareas en Finance and Operations. 
 #### <a name="videos"></a>Vídeos
 
 Consulte los vídeos de procedimientos que se encuentran ahora disponibles en el [canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
 
 
 

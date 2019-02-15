@@ -1,13 +1,13 @@
 ---
 title: Esto es Dynamics 365 for Talent
-description: "Talent simplifica muchas tareas rutinarias de mantenimiento de registros y automatiza un gran número de procesos relacionados con la dotación de personal para la organización. Estos procesos incluyen la conservación de empleados, la administración de prestaciones, la formación, las evaluaciones de desempeño y la administración de cambios."
+description: Talent simplifica muchas tareas rutinarias de mantenimiento de registros y automatiza un gran número de procesos relacionados con la dotación de personal para la organización. Estos procesos incluyen la conservación de empleados, la administración de prestaciones, la formación, las evaluaciones de desempeño y la administración de cambios.
 author: josaw
 manager: AnnBe
 ms.date: 06/04/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: e31cd1e0acc8f3ab450ec4acda62b88b189f036d
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302829"
 ---
-
 # <a name="welcome-to-dynamics-365-for-talent"></a>Esto es Dynamics 365 for Talent
 
 [!include [banner](includes/banner.md)]
@@ -42,11 +41,11 @@ Puede usar Talent para completar estas tareas:
 + Revisar objetivos de los trabajadores de rendimiento e implementación.
 + Configurar, proporcionar y analizar cursos, incluidos los programas, las sesiones y las trayectorias.
 
-Vea el vídeo para explorar Dynamics 365 for Talent [Introducción a Dynamics 365 for Talent.](https://www.youtube.com/watch?v=6rg2ByadbN0)
+Explore Dynamics 365 for Talent viendo el vídeo [Introducción a Dynamics 365 for Talent.](https://www.youtube.com/watch?v=6rg2ByadbN0)
 
 
 > [!NOTE] 
-> Dynamics 365 for Talent está estrechamente vinculado con Recursos humanos en Dynamics 365 for Finance and Operations. Puede que ambos productos tengan la misma funcionalidad. Como resultado, en los temas relacionados principalmente con Recursos humanos, el nombre del producto será Dynamics 365 for Finance and Operations. En los temas relacionados principalmente con Talent, el nombre del producto será Dynamics 365 for Talent. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
+> Dynamics 365 for Talent está estrechamente relacionado con los recursos humanos en Dynamics 365 for Finance and Operations. Puede que ambos productos tengan la misma funcionalidad. Como resultado, en los temas relacionados principalmente con Recursos humanos, el nombre del producto será Dynamics 365 for Finance and Operations. En los temas relacionados principalmente con Talent, el nombre del producto será Dynamics 365 for Talent. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Desarrollar una estrategia para administrar sus recursos humanos
 ---------------------------------------------------------
@@ -58,7 +57,7 @@ Durante el trabajo con Talent, decidirá cómo estructurar su organización util
 -   [Configurar parámetros de recursos humanos en entidades jurídicas](set-up-hr-parameters-across-legal-entities.md) 
 -   [Preguntas más frecuentes sobre acciones del personal](personnel-actions-faq.md)
 -   [Visión general de bajas y ausencias](leave-absence-overview.md)
--   [Cómo utilizar Dynamics 365 for Talent: ausencias y bajas (vídeo)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
+-   [Cómo usar Dynamics 365 for Talent: bajas y ausencias (vídeo)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
 -   [Cómo administrar personal en Dynamics 365 for Talent (vídeo)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
 ## <a name="staffing-your-organization"></a>Dotación de personal para la organización
@@ -85,7 +84,7 @@ Para ayudar a que sus empleados alcancen sus objetivos profesionales al mismo ti
 -   [Gestión del rendimiento](performance-management-overview.md)
 -   [Alineación de las aptitudes de los recursos y las necesidades empresariales](skills.md)
 -   [Administración de la formación con cursos](courses.md)
--   [Cómo administrar el desarrollo profesional de los empleados en Dynamics 365 for Talent (vídeo)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
+-   [Cómo administrar desarrollo de empleados en Dynamics 365 for Talent (vídeo)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>Crear y mantener prestaciones
 
@@ -93,14 +92,14 @@ Además de compensar al personal con sueldos, salarios y bonificaciones, puede d
 
 -   [Gestionar un programa de prestaciones](manage-benefit-program.md)
 -   [Directivas de idoneidad para prestaciones](benefit-eligibility-policies.md)
--   [Administración de artículos prestados a trabajadores](loan-items.md)
--   [Cómo administrar prestaciones de los empleados en Dynamics 365 for Talent (vídeo)](https://www.youtube.com/watch?v=nUWkeJTad1o)
+-   [Administrar artículos prestados a trabajadores](loan-items.md)
+-   [Cómo administrar prestaciones de empleado en Dynamics 365 for Talent (vídeo)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Mantener el cumplimiento de normas y la seguridad en el lugar de trabajo
 
 Talent puede ayudarle a proteger un entorno de trabajo en cumplimiento de las leyes aplicables, incluida la Ley para Personas con Discapacidades (ADA) de Estados Unidos y las leyes de Inmigración y naturalización, entre otras. Por ejemplo, puede gestionar los requisitos físicos para trabajos específicos, así como las solicitudes de trayectoria para alojamientos que pueden ayudar a la organización a optimizar las aptitudes de los recursos.
 
--   [Comprobación de empleo del formulario I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
+-   [Formulario I-9 de comprobación de empleo](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
 -   [Cumplimiento de la Ley para Personas con Discapacidades de Estados Unidos (ADA)](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
 
 ## <a name="gather-information-using-questionnaires"></a>Recopilar información mediante cuestionarios
@@ -111,4 +110,3 @@ Puede diseñar y administrar cuestionarios para recopilar información que se us
 -   [Diseñar un cuestionario](design-questionnaires.md)
 -   [Distribuir y completar un cuestionario](distribute-questionnaires.md)
 -   [Ver y evaluar los resultados de un cuestionario](evaluate-questionnaire-results.md)
-
